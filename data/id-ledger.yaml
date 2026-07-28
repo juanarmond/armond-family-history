@@ -1,8 +1,6 @@
 version: 2
 reserved_ids:
-  people:
-  - P-0008
-  - P-0009
+  people: []
   families: []
   events: []
   places: []

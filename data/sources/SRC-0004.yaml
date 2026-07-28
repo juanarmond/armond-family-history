@@ -1,0 +1,81 @@
+schema_version: 1
+id: SRC-0004
+title: Civil death registration of Geraldo Paz Armond
+record_type: Civil death register entry
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1991-02-18"
+event_place_text: Volta Redonda, Rio de Janeiro, Brazil
+repository:
+  name: FamilySearch Historical Records
+  archive_or_registry: Civil Registration, Volta Redonda, Rio de Janeiro, Brazil
+  collection: Brasil, Rio de Janeiro, Registro Civil, 1804-2013
+  series: "Registros de óbito: Volta Redonda, September 1990–March 1991"
+  page: "557"
+  image: 300 of 324
+  record_number: Image appears 39005; FamilySearch index gives 39006
+  catalogue_reference: >-
+    Record ARK 1:1:77DD-TX6Z; image ARK 3:1:S3HT-DYSS-YKV; image group
+    #004366687; original-image storage ID TH-266-11612-78888-32; Memory storage
+    ID TH-904-96969-238-86
+  url: https://www.familysearch.org/ark:/61903/1:1:77DD-TX6Z
+  repository_path: evidence/civil/SRC-0004-death-geraldo-paz-armond-1991-reconstructed.png
+access_date: "2026-07-28"
+language: pt-BR
+transcription: >-
+  [Entry number appears 39005.] Aos [date partly illegible] de fevereiro de mil
+  novecentos e noventa e um [...] declarou que no dia dezoito do corrente mês
+  [...] no Hospital Santa Margarida faleceu Geraldo Paz Armond, do sexo
+  masculino, cor branca, com setenta e seis anos de idade, natural do Estado de
+  Minas Gerais, estado civil casado com Cidalia Engracio Armond, profissão
+  aposentado, residente nesta cidade [...], filho de Aristão Ferreira Armond e
+  de Liliosa Paz Armond. [Cause and burial text partly illegible.] Observações:
+  O falecido não deixou testamento, deixou bens a inventariar e deixou cinco
+  filhos.
+abstract: >-
+  The original Volta Redonda civil death register records that Geraldo Paz
+  Armond died on 18 February 1991 at Hospital Santa Margarida, aged 76. It
+  identifies his spouse as Cidalia Engracio Armond and his parents as Aristão
+  Ferreira Armond and Liliosa Paz Armond. FamilySearch indexes the entry on
+  page 557 as certificate 39006, while the handwritten number appears to read
+  39005.
+reliability:
+  assessment: >-
+    Original civil-register evidence directly supports the death, date, place,
+    age and identity. The reported spouse and parentage are secondary
+    information supplied at death but directly stated in the record.
+  informant: The declarant's name is not safely legible in the retained image.
+  limitations: >-
+    Some handwriting is faint. The FamilySearch index duplicates surnames and
+    conflicts with the apparent handwritten record number. The retained PNG is
+    a pixel-preserving reconstruction of the user-uploaded register image, not
+    the downloadable FamilySearch JPG.
+digital_file:
+  path: evidence/civil/SRC-0004-death-geraldo-paz-armond-1991-reconstructed.png
+  sha256: f0b8db131c7aa448e711ef6c5222d80deedbd0506801830d52e751c165bdc7e3
+linked_people:
+  - P-0004
+  - P-0005
+  - P-0008
+  - P-0009
+linked_families:
+  - F-0003
+linked_events:
+  - E-0003
+linked_places:
+  - PL-0003
+private: true
+notes:
+  - text: >-
+      The same register page was inspected through the original-image ARK.
+      FamilySearch's controlled JPG download dialog did not produce a file in
+      the Codex browser. The identical page uploaded as a Memory was therefore
+      reconstructed from its complete level-11 Deep Zoom tile set.
+  - text: >-
+      The full register image includes an unrelated death entry and medical,
+      address and signature data. Retain it only in this private repository.

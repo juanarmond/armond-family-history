@@ -1,0 +1,16 @@
+schema_version: 1
+id: P-0009
+preferred_name: Liliosa Paz Armond
+privacy: deceased
+name_variants:
+- value: Liliosa Paz Armond
+  type: source
+  source_ids:
+  - SRC-0004
+event_ids:
+- E-0003
+family_ids:
+- F-0003
+notes:
+- text: >-
+    Ahnentafel position 9. Original surname and parentage remain unresolved.

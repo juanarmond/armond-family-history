@@ -1,0 +1,15 @@
+schema_version: 1
+id: P-0008
+preferred_name: Aristão Ferreira Armond
+privacy: deceased
+name_variants:
+- value: Aristão Ferreira Armond
+  type: source
+  source_ids:
+  - SRC-0004
+event_ids:
+- E-0003
+family_ids:
+- F-0003
+notes:
+- text: Ahnentafel position 8.

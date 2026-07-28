@@ -77,3 +77,54 @@ documents:
         Opaque tape and physical loss obscure material text. Unreadable fields
         remain explicitly unresolved rather than inferred from the
         collaborative tree.
+  - inventory_id: DOC-0003
+    status: catalogued
+    added_date: "2026-07-28"
+    apparent_record_type: Original civil death register entry
+    apparent_people:
+      - Geraldo Paz Armond
+      - Cidalia Engracio Armond
+      - Aristão Ferreira Armond
+      - Liliosa Paz Armond
+    apparent_event: death
+    image_quality: adequate
+    provenance: >-
+      Original Volta Redonda civil death register page in FamilySearch
+      collection "Brasil, Rio de Janeiro, Registro Civil, 1804-2013", image
+      group #004366687, image 300 of 324, page 557. Record ARK
+      1:1:77DD-TX6Z; image ARK 3:1:S3HT-DYSS-YKV; original-image storage
+      identifier TH-266-11612-78888-32. The same page was uploaded to
+      FamilySearch Memories as "Certidao de obito", filename record-image_.jpg,
+      storage identifier TH-904-96969-238-86, on 24 February 2020. Accessed
+      28 July 2026 through the authenticated FamilySearch viewer.
+    rights_status: private-research
+    files:
+      - path: evidence/civil/SRC-0004-death-geraldo-paz-armond-1991-reconstructed.png
+        sha256: f0b8db131c7aa448e711ef6c5222d80deedbd0506801830d52e751c165bdc7e3
+        media_type: image/png
+        role: primary
+        privacy_review: cleared
+        sensitive_content:
+          - address
+          - signature
+          - medical
+          - other
+    duplicate_of: null
+    proposed_source_id: SRC-0004
+    notes:
+      - >-
+        Reconstructed from all twenty level-11 Deep Zoom tiles exposed by the
+        FamilySearch Memory viewer. One-pixel tile overlaps were removed to
+        produce a 1196×868 PNG without cropping, enhancement or added content.
+      - >-
+        A controlled JPG download from the original-image viewer was attempted
+        but did not yield a file. The retained Memory image depicts the same
+        register page inspected through the archival image ARK.
+      - >-
+        The full page contains an unrelated death entry as well as address,
+        medical and signature information. It is private evidence and must not
+        be included in public exports.
+      - >-
+        The handwritten entry number appears to be 39005, while the
+        FamilySearch index reports certificate 39006. Both readings are
+        retained pending independent examination.

@@ -194,3 +194,22 @@ entry they amend; they must not erase it.
   relationship records.
 - Engineering decision: person IDs remain immutable after this one low-cost
   migration, even if later evidence changes a pedigree relationship.
+
+## 2026-07-28 — Geraldo Paz Armond death-record ingestion
+
+- Outcome: located the original 18 February 1991 Volta Redonda civil death
+  entry through Geraldo's attached FamilySearch source, reconciled it with the
+  identical Memory image, and preserved a privacy-reviewed reconstruction with
+  archival citation and checksum.
+- Detailed log:
+  [`logs/2026-07-28-familysearch-geraldo-death-record-ingestion.md`](logs/2026-07-28-familysearch-geraldo-death-record-ingestion.md).
+- Genealogical conclusions changed: Geraldo's death is now supported by
+  catalogued direct evidence; the record supplies strong evidence that Aristão
+  Ferreira Armond and Liliosa Paz Armond were his parents.
+- Conflict retained: the handwritten entry number appears to be `39005`, while
+  the FamilySearch index reports certificate `39006`.
+- Negative result: the original-image viewer's controlled JPG download did not
+  yield a file, so the identical Memory page was reconstructed from its full
+  Deep Zoom tile set.
+- Next action: review the model against the completed three-document sample
+  before wider ingestion.

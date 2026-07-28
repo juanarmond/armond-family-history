@@ -1,0 +1,34 @@
+schema_version: 1
+id: F-0003
+partners:
+- person_id: P-0008
+  role: partner
+- person_id: P-0009
+  role: partner
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - SRC-0004
+  notes:
+  - text: >-
+      The source establishes joint reported parentage of Geraldo; it does not
+      establish a marriage event.
+children:
+- person_id: P-0004
+  parent_relationships:
+  - parent_id: P-0008
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - SRC-0004
+    notes: []
+  - parent_id: P-0009
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - SRC-0004
+    notes: []
+  notes: []
+event_ids:
+- E-0003
+notes: []

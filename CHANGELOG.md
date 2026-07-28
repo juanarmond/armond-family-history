@@ -65,3 +65,7 @@ also remain traceable through source records and research logs.
   roster records for direct-ancestor positions 1–15, remap all existing
   references, and document that the identifiers remain immutable after this
   low-cost migration.
+- Recover and catalogue Geraldo Paz Armond's original 1991 civil death
+  registration; preserve the FamilySearch archival citation, private
+  reconstructed register image, record-number conflict and source-qualified
+  parentage of Aristão Ferreira Armond and Liliosa Paz Armond.

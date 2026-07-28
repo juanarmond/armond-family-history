@@ -1,0 +1,20 @@
+schema_version: 1
+id: E-0003
+event_type: death
+date:
+  kind: exact
+  value: "1991-02-18"
+place_id: PL-0003
+participants:
+- person_id: P-0004
+  role: principal
+- person_id: P-0005
+  role: spouse
+- person_id: P-0008
+  role: parent
+- person_id: P-0009
+  role: parent
+status: confirmed
+source_ids:
+- SRC-0004
+notes: []

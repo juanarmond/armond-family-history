@@ -6,35 +6,32 @@
 
 ## Current objective
 
-Recover, privacy-review and catalogue one more of the clearest original records
-from the authorised FamilySearch account, then review the schema against the
-three-record evidence sample.
+Review the structured model against the completed three-document evidence
+sample, correct any low-risk semantic defects, and establish one canonical
+mechanism for tracking missing records before wider FamilySearch ingestion.
 
 The former human-intervention blocker is partially resolved. Two certified
-marriage records have been recovered from FamilySearch Memories and catalogued,
-but the original ChatGPT conversation still refers to 24 image attachments
-whose binaries and metadata were not carried into the imported transcript.
-The exact one-to-one attachment mapping cannot be reconstructed from the
-transcript alone.
+marriage records and one original death-register entry have been recovered from
+the authorised FamilySearch account and catalogued. The original ChatGPT
+conversation still refers to 24 image attachments whose binaries and metadata
+were not carried into the imported transcript. The exact one-to-one attachment
+mapping cannot be reconstructed from the transcript alone.
 
 ### Completion criteria
 
-- Add each authorised file to the versioned document inventory with checksum,
-  provenance and cleared privacy review.
-- Reconcile recovered files against the conversation-transfer audit without
-  trusting earlier assistant transcriptions.
-- Catalogue one additional distinct original record as a structured source
-  with exact citations, abstracts, reliability assessments and retained
-  conflicts.
-- Create only the people, events, families and places directly required by
-  those records.
-- Use reserved drafts and validated batch promotion.
-- Review the schema against the resulting real data before wider ingestion.
+- Review how the model represents co-parentage when no partner relationship is
+  established by the source.
+- Review the source, inventory, event and place records for duplicated or
+  missing concepts exposed by the three-record sample.
+- Add a single machine-readable record-coverage mechanism, or document why the
+  current structured data can already distinguish unsearched, inaccessible and
+  absent records.
+- Preserve all existing identifiers and historical conclusions.
 - Run the complete repository check before committing.
 
 ### Candidate processing order
 
-Subject to image quality and privacy review, begin with:
+After the model review, continue the authorised evidence audit in this order:
 
 1. the marriages of Geraldo Paz Armond and Cidalia Engracio Guimarães, and of
    Antenor Muniz and Iris Bohrer Muniz;
@@ -81,8 +78,18 @@ claim to confirmed.
   than in a separate task-specific plan.
 - The frozen repository check runs locally and in GitHub Actions. Requiring it
   in branch rules remains an external repository-administration task.
-- Two structured source records and their ten directly required linked
-  entities are live.
+- The third intake located Geraldo Paz Armond's original 18 February 1991
+  death entry in the Volta Redonda civil register. It is inventoried as
+  `DOC-0003`, catalogued as `SRC-0004`, and linked to the original FamilySearch
+  record and image ARKs.
+- The death entry directly supports Geraldo's death and gives secondary,
+  directly stated evidence that Cidalia Engracio Armond was his spouse and
+  Aristão Ferreira Armond and Liliosa Paz Armond were his parents.
+- The handwritten death-entry number appears to be `39005`, while the
+  FamilySearch index reports `39006`; both readings remain recorded.
+- Three document source records, one owner-supplied roster source and their
+  directly required linked entities are live. The planned three-record model
+  review is now the active engineering task.
 - The initial direct-ancestor person block now follows Ahnentafel order:
   `P-0001` is the repository subject, `P-0002` and `P-0003` are his parents,
   and positions through `P-0015` cover the known grandparents and
@@ -130,7 +137,8 @@ claim to confirmed.
 - Marriage: 31 May 1952 in Eugenópolis, Minas Gerais, Brazil.
 - Parents: Aristão Ferreira Armond and Liliosa Paz Armond.
 - Status: the marriage is supported by catalogued direct evidence in
-  `SRC-0002`; birth and death facts still require their own records.
+  `SRC-0002`; death is confirmed by the original register entry in `SRC-0004`;
+  the birth still requires its own record.
 
 ### Cidalia Engracio Guimarães / Cidalia Engracio Armond
 
@@ -169,7 +177,11 @@ claim to confirmed.
 - Spouse: Liliosa Paz Armond.
 - Parents: current **hypothesis**: Simplício Ferreira Armond and Elizia Balbina
   Toledo.
-- Evidence issue: public collaborative trees and sibling groupings support the relationship, but the decisive birth, baptism, marriage or death record for Aristão has not yet been catalogued.
+- Child: the 1991 death entry for Geraldo reports Aristão as his father, giving
+  `strong-evidence` for that parent-child relationship.
+- Evidence issue: public collaborative trees and sibling groupings support the
+  proposed earlier parentage, but the decisive birth, baptism, marriage or
+  death record for Aristão has not yet been catalogued.
 
 ### Liliosa Paz Armond
 
@@ -178,6 +190,8 @@ claim to confirmed.
 - Died: 15 November 1946, according to a death record previously examined.
 - Spouse: Aristão Ferreira Armond.
 - Parents: unknown. She is **not** to be recorded as a daughter of Simplício Ferreira Armond and Elizia Balbina Toledo without new primary evidence.
+- Child: the 1991 death entry for Geraldo reports Liliosa as his mother, giving
+  `strong-evidence` for that parent-child relationship.
 
 ### Antonio Engracio Filho
 
@@ -377,8 +391,9 @@ Collateral relatives have been mentioned in family trees and documents, includin
 
 | Priority | Outcome | Migration effort | Maintenance impact | Status |
 | --- | --- | --- | --- | --- |
-| P1 | Catalogue and model the first three original records | Requires source-image access | Tests the model before scale | In progress; two catalogued |
-| P1 | Review the model and ingest remaining existing evidence | Depends on first-source findings | Establishes a stable structured base | Pending |
+| P1 | Catalogue and model the first three original records | Requires source-image access | Tests the model before scale | Completed |
+| P1 | Review the model and add canonical missing-record coverage | Low | Establishes a stable base for systematic research | In progress |
+| P1 | Ingest remaining existing evidence | Depends on model review | Expands the source-qualified tree reproducibly | Pending |
 | P2 | Require the health check in GitHub branch rules | Low; administrator access | Prevents invalid merges | External |
 | P3 | Generate person pages from structured YAML | Medium | Reproducible human-readable views | Deferred until real data |
 | P4 | Add privacy-filtered GEDCOM export | Medium to high | Interoperability without exposing living people | Deferred until schema stability |
