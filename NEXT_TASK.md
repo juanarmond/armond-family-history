@@ -2,26 +2,30 @@
 
 ## Objective
 
-Run the complete repository health check automatically on GitHub pushes and
-pull requests.
+Obtain authorised, privacy-reviewed copies of the documents previously supplied
+and catalogue the first three clearest original records.
 
 ## Why this is next
 
-Local validation is comprehensive but voluntary. The repository has a GitHub
-remote and no workflow, so invalid schemas, references, privacy state or
-allocator regressions could merge without running the test suite.
+The repository has no source image or live entity. Further abstraction without
+real records would optimise an untested model. Three representative original
+records are the minimum useful evidence sample for testing source, person,
+event, family, place, privacy and conflict workflows.
 
 ## Completion criteria
 
-- Add one minimal workflow using the pinned dependency lock.
-- Run `make check` on supported Python versions for pushes and pull requests.
-- Use least-privilege read-only repository permissions.
-- Add concurrency cancellation for superseded runs.
-- Document the local/CI parity without duplicating validation policy.
-- Validate the workflow syntax and run the complete local check before commit.
+- Add each authorised file to the versioned document inventory with checksum,
+  provenance and cleared privacy review.
+- Catalogue three distinct original records as structured sources with exact
+  citations, abstracts, reliability assessments and retained conflicts.
+- Create only the people, events, families and places directly required by
+  those records.
+- Use reserved drafts and validated batch promotion.
+- Review the schema against the resulting real data before wider ingestion.
 - Run the complete repository check before committing.
 
 ## External blocker
 
-Actual document cataloguing still requires authorised, privacy-reviewed copies
-of the certificates and screenshots described in `CURRENT_STATE.md`.
+Human intervention is required: authorised, privacy-reviewed copies of the
+certificates and screenshots described in `CURRENT_STATE.md` are absent from
+the worktree, Git history and Git LFS.

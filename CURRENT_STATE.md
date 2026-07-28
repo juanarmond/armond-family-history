@@ -31,6 +31,9 @@
 - 28 July 2026 promotion review: completed mutually dependent drafts can now be
   staged, validated and promoted as a recoverable batch with rollback; no live
   entity or genealogical conclusion was added.
+- 28 July 2026 automation review: the frozen repository check now runs in a
+  least-privilege GitHub Actions matrix as well as locally; no research evidence
+  or genealogical conclusion changed.
 
 ## Subject
 

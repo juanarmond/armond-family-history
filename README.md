@@ -36,7 +36,7 @@ Install the pinned local dependencies and run the repository checks:
 
 ```console
 uv sync
-uv run make check
+uv run --frozen make check
 ```
 
 Before adding structured data:
@@ -50,11 +50,12 @@ Before adding structured data:
 4. Preview mutually dependent completed drafts together with
    `python3 scripts/new_entity.py promote ID... --dry-run`, then promote the
    valid batch without `--dry-run`.
-5. Run `uv run make check` before committing.
+5. Run `uv run --frozen make check` before committing.
 
 Reservation and promotion rules are defined in [`data/README.md`](data/README.md).
 Validation scope is documented once in
 [`schemas/README.md`](schemas/README.md).
+The same frozen check runs automatically on GitHub pushes and pull requests.
 
 ## Current status
 

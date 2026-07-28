@@ -9,12 +9,12 @@ cost and long-term architecture impact.
 | P0 | Version and validate the incoming-document inventory | Low; inventory is empty | Prevents ad hoc intake and privacy omissions | Complete |
 | P0 | Add entity schema versions and correct the evidence taxonomy | Low now; high after ingestion | Enables controlled migrations and accurate source assessment | Complete |
 | P0 | Add controlled parent relationship and participant roles | Low now; medium after ingestion | Prevents vocabulary drift across hundreds of people | Complete |
-| P1 | Catalogue and model the first three original records | Requires source-image access | Tests the model against reality before scale | Blocked by missing files |
+| P1 | Catalogue and model the first three original records | Requires source-image access | Tests the model against reality before scale | Next; blocked by missing files |
 | P1 | Review the model and migrate the remaining existing evidence | Depends on first-source findings | Establishes a stable machine-readable base | Pending |
 | P2 | Refactor the monolithic validator into focused modules | Medium, approximately one engineering sprint | Easier testing and safer rule additions | Complete |
 | P2 | Add safe ID allocation and entity-skeleton automation | Medium | Removes manual ledger and filename errors | Complete |
 | P2 | Add validated batch promotion for reserved drafts | Medium | Keeps mutually dependent first entities valid during promotion | Complete |
-| P2 | Enforce repository health checks in GitHub Actions | Low | Prevents unvalidated changes from merging | Next |
+| P2 | Enforce repository health checks in GitHub Actions | Low | Prevents unvalidated changes from merging | Complete |
 | P3 | Resume direct-ancestor research in `TASKS.md` order | Ongoing research | Advances genealogy without bypassing evidence gates | Blocked by existing-evidence gate |
 | P4 | Generate profiles, timelines and privacy-filtered exports | Medium to high | Reproducible derived views after schema stability | Deferred |
 
@@ -34,6 +34,7 @@ live data ingestion:
 5. Resolved: the document inventory has a versioned schema and cross-file
    integrity checks.
 
-Identifier allocation and mutually dependent promotion are now recoverable.
-The remaining automation gap is enforcement: local checks exist but are not
-run automatically by the connected GitHub repository.
+Identifier allocation and mutually dependent promotion are recoverable, and
+the complete frozen check is enforced by GitHub Actions. The next model review
+must be driven by real original records rather than more speculative
+abstraction.

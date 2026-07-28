@@ -78,3 +78,13 @@ entry they amend; they must not erase it.
 - Genealogical conclusions changed: none.
 - Next action: enforce the complete repository check on GitHub pushes and pull
   requests so invalid changes cannot silently bypass the local workflow.
+
+## 2026-07-28 — Continuous repository health enforcement
+
+- Outcome: added a read-only GitHub Actions workflow for Python 3.11 and 3.13,
+  pinned all executable actions and uv, cancelled superseded runs, and tested
+  the workflow contract locally.
+- Research evidence added: none.
+- Genealogical conclusions changed: none.
+- Next action: obtain authorised, privacy-reviewed copies of the previously
+  supplied documents and catalogue the first three original records.

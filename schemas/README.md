@@ -137,7 +137,7 @@ Install the local tooling and run all checks:
 
 ```console
 uv sync
-uv run make check
+uv run --frozen make check
 ```
 
 The validator checks schema rules, filename and identifier agreement, the ID
