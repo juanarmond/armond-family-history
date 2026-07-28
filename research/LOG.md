@@ -364,3 +364,18 @@ entry they amend; they must not erase it.
 - Genealogical conclusions changed: none.
 - Next action: obtain authorised register access; meanwhile audit all
   direct-line FamilySearch Memories in Ahnentafel order.
+
+## 2026-07-28 — Full-resolution evidence preservation contract
+
+- Outcome: made highest-authorised-resolution retention an explicit evidence
+  requirement and recorded the acquisition method, preservation status and
+  encoded pixel dimensions for every retained image.
+- Automation added: validation now compares inventory dimensions with the
+  encoded PNG or JPEG and rejects lower-resolution working copies as reviewed
+  or catalogued primary evidence.
+- Existing evidence changed: none; the five current reconstructions were
+  measured and recorded as complete highest-level viewer exports.
+- Genealogical conclusions changed: none.
+- Next action: replace technical reconstructions with authorised original-file
+  downloads when FamilySearch supplies them, retaining provenance and Git
+  recovery history.

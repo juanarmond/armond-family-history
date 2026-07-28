@@ -20,6 +20,11 @@ documents:
         sha256: 3444e92ef729f2e76a54ea7ace3f5611cd4509457a9ffb4dee59f537bc46c248
         media_type: image/png
         role: primary
+        preservation:
+          acquisition_method: complete-viewer-tile-export
+          resolution_status: highest-authorised
+          pixel_width: 718
+          pixel_height: 1205
         privacy_review: cleared
         sensitive_content:
           - address
@@ -58,6 +63,11 @@ documents:
         sha256: bfbdd146e7960966861e9e9bdaf25f8b2ace608ab1e1efde1ac9fc400c87b58c
         media_type: image/png
         role: primary
+        preservation:
+          acquisition_method: complete-viewer-tile-export
+          resolution_status: highest-authorised
+          pixel_width: 756
+          pixel_height: 1008
         privacy_review: cleared
         sensitive_content:
           - signature
@@ -103,6 +113,11 @@ documents:
         sha256: f0b8db131c7aa448e711ef6c5222d80deedbd0506801830d52e751c165bdc7e3
         media_type: image/png
         role: primary
+        preservation:
+          acquisition_method: complete-viewer-tile-export
+          resolution_status: highest-authorised
+          pixel_width: 1196
+          pixel_height: 868
         privacy_review: cleared
         sensitive_content:
           - address
@@ -155,6 +170,11 @@ documents:
         sha256: 8cc99154ddcaf55a2793d1f11ba2ba8a5e09f514c5470f272cafb4d4ec66b001
         media_type: image/png
         role: primary
+        preservation:
+          acquisition_method: complete-viewer-tile-export
+          resolution_status: highest-authorised
+          pixel_width: 612
+          pixel_height: 816
         privacy_review: cleared
         sensitive_content:
           - signature
@@ -193,6 +213,11 @@ documents:
         sha256: 1fe17dd798c6754613aac5e3d3ea3bf006bbb803d32df4258698bdcde5e32456
         media_type: image/png
         role: primary
+        preservation:
+          acquisition_method: complete-viewer-tile-export
+          resolution_status: highest-authorised
+          pixel_width: 1093
+          pixel_height: 835
         privacy_review: cleared
         sensitive_content:
           - address

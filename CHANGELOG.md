@@ -105,3 +105,6 @@ also remain traceable through source records and research logs.
   targets, document the exhausted searchable layers, mark both coverage rows
   inaccessible, and advance the current objective to the direct-line
   FamilySearch Memories audit.
+- Require highest-authorised-resolution evidence retention, record acquisition
+  and resolution status with encoded pixel dimensions, and validate PNG/JPEG
+  dimensions while rejecting catalogued lower-resolution working copies.

@@ -152,10 +152,10 @@ uv run --frozen make check
 The validator checks schema rules, filename and identifier agreement, the ID
 ledger, cross-file references, evidence quality behind confirmed conclusions,
 collaborative-tree usage, evidence-file checksums, living-person privacy,
-document-inventory privacy and duplicate state, possible duplicate identities
-and parent-child chronology. Duplicate-identity findings are warnings because
-distinct people can share a name and date; they require human review rather
-than automatic merging.
+document-inventory privacy, duplicate and preservation state, encoded image
+dimensions, possible duplicate identities and parent-child chronology.
+Duplicate-identity findings are warnings because distinct people can share a
+name and date; they require human review rather than automatic merging.
 
 ### Validator architecture
 

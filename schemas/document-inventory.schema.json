@@ -191,7 +191,9 @@
       "required": [
         "path",
         "sha256",
+        "media_type",
         "role",
+        "preservation",
         "privacy_review",
         "sensitive_content"
       ],
@@ -218,6 +220,41 @@
             "redacted"
           ]
         },
+        "preservation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "acquisition_method",
+            "resolution_status"
+          ],
+          "properties": {
+            "acquisition_method": {
+              "type": "string",
+              "enum": [
+                "authorised-original-download",
+                "complete-viewer-tile-export",
+                "direct-digitisation",
+                "owner-supplied"
+              ]
+            },
+            "resolution_status": {
+              "type": "string",
+              "enum": [
+                "original-file",
+                "highest-authorised",
+                "working-copy"
+              ]
+            },
+            "pixel_width": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "pixel_height": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        },
         "privacy_review": {
           "type": "string",
           "enum": [
@@ -242,7 +279,28 @@
           },
           "uniqueItems": true
         }
-      }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "media_type": {
+                "pattern": "^image/"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "preservation": {
+                "required": [
+                  "pixel_width",
+                  "pixel_height"
+                ]
+              }
+            }
+          }
+        }
+      ]
     }
   }
 }

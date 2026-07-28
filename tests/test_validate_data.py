@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import copy
+import base64
 import hashlib
 import tempfile
 import unittest
@@ -272,6 +273,10 @@ class ValidateDataTests(unittest.TestCase):
                                 "sha256": hashlib.sha256(content).hexdigest(),
                                 "media_type": "application/octet-stream",
                                 "role": "primary",
+                                "preservation": {
+                                    "acquisition_method": "owner-supplied",
+                                    "resolution_status": "original-file",
+                                },
                                 "privacy_review": "cleared",
                                 "sensitive_content": [],
                             }
@@ -323,6 +328,55 @@ class ValidateDataTests(unittest.TestCase):
         )
         result = self.fixture.validate()
         self.assert_issue(result, "error", "checksum does not match")
+
+    def test_inventory_image_dimensions_must_match_encoded_file(self) -> None:
+        content = base64.b64decode(
+            "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4"
+            "nGNgYAAAAAMAASsJTYQAAAAASUVORK5CYII="
+        )
+        evidence_path = self.fixture.root / "evidence/civil/test-record.png"
+        evidence_path.parent.mkdir(parents=True)
+        evidence_path.write_bytes(content)
+        self.fixture.write_yaml(
+            "research/document-inventory.yaml",
+            {
+                "version": 1,
+                "documents": [
+                    {
+                        "inventory_id": "DOC-0001",
+                        "status": "reviewed",
+                        "added_date": "2026-07-28",
+                        "apparent_record_type": "synthetic image",
+                        "apparent_people": [],
+                        "apparent_event": "other",
+                        "image_quality": "adequate",
+                        "provenance": "Synthetic validator fixture.",
+                        "rights_status": "private-research",
+                        "files": [
+                            {
+                                "path": "evidence/civil/test-record.png",
+                                "sha256": hashlib.sha256(content).hexdigest(),
+                                "media_type": "image/png",
+                                "role": "primary",
+                                "preservation": {
+                                    "acquisition_method": "owner-supplied",
+                                    "resolution_status": "original-file",
+                                    "pixel_width": 2,
+                                    "pixel_height": 1,
+                                },
+                                "privacy_review": "cleared",
+                                "sensitive_content": [],
+                            }
+                        ],
+                        "duplicate_of": None,
+                        "proposed_source_id": None,
+                        "notes": [],
+                    }
+                ],
+            },
+        )
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "do not match encoded image dimensions")
 
     def test_reviewed_inventory_requires_privacy_clearance(self) -> None:
         content = b"synthetic document"

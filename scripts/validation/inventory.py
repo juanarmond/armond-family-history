@@ -21,6 +21,61 @@ from .model import (
 
 
 DOCUMENT_INVENTORY_SCHEMA = "document-inventory.schema.json"
+JPEG_START_OF_FRAME_MARKERS = {
+    0xC0,
+    0xC1,
+    0xC2,
+    0xC3,
+    0xC5,
+    0xC6,
+    0xC7,
+    0xC9,
+    0xCA,
+    0xCB,
+    0xCD,
+    0xCE,
+    0xCF,
+}
+
+
+def image_dimensions(path: Path, media_type: str) -> tuple[int, int] | None:
+    """Return encoded pixel dimensions for supported preservation images."""
+
+    content = path.read_bytes()
+    if media_type == "image/png":
+        if len(content) < 24 or content[:8] != b"\x89PNG\r\n\x1a\n":
+            return None
+        return (
+            int.from_bytes(content[16:20], "big"),
+            int.from_bytes(content[20:24], "big"),
+        )
+
+    if media_type not in {"image/jpeg", "image/jpg"}:
+        return None
+    if len(content) < 4 or content[:2] != b"\xff\xd8":
+        return None
+
+    offset = 2
+    while offset + 4 <= len(content):
+        while offset < len(content) and content[offset] == 0xFF:
+            offset += 1
+        if offset >= len(content):
+            return None
+        marker = content[offset]
+        offset += 1
+        if marker in {0x01, 0xD8, 0xD9} or 0xD0 <= marker <= 0xD7:
+            continue
+        if offset + 2 > len(content):
+            return None
+        segment_length = int.from_bytes(content[offset : offset + 2], "big")
+        if segment_length < 2 or offset + segment_length > len(content):
+            return None
+        if marker in JPEG_START_OF_FRAME_MARKERS and segment_length >= 7:
+            height = int.from_bytes(content[offset + 3 : offset + 5], "big")
+            width = int.from_bytes(content[offset + 5 : offset + 7], "big")
+            return width, height
+        offset += segment_length
+    return None
 
 
 def validate_document_inventory(
@@ -125,6 +180,8 @@ def validate_document_inventory(
             file_location = f"{document_location}.files[{file_index}]"
             relative_path = file_record.get("path")
             expected_hash = file_record.get("sha256")
+            media_type = file_record.get("media_type")
+            preservation = file_record.get("preservation")
             if isinstance(relative_path, str):
                 previous_owner = file_owners.get(relative_path)
                 if previous_owner is not None and previous_owner != inventory_id:
@@ -166,6 +223,35 @@ def validate_document_inventory(
                                 f"checksum does not match {relative_path}",
                             )
                         )
+                if (
+                    candidate.is_file()
+                    and isinstance(media_type, str)
+                    and media_type.startswith("image/")
+                    and isinstance(preservation, dict)
+                ):
+                    dimensions = image_dimensions(candidate, media_type)
+                    expected_dimensions = (
+                        preservation.get("pixel_width"),
+                        preservation.get("pixel_height"),
+                    )
+                    if dimensions is None:
+                        issues.append(
+                            Issue(
+                                "error",
+                                f"{file_location}.media_type",
+                                f"cannot read {media_type} dimensions from "
+                                f"{relative_path}",
+                            )
+                        )
+                    elif dimensions != expected_dimensions:
+                        issues.append(
+                            Issue(
+                                "error",
+                                f"{file_location}.preservation",
+                                f"pixel dimensions {expected_dimensions!r} do not "
+                                f"match encoded image dimensions {dimensions!r}",
+                            )
+                        )
             if isinstance(expected_hash, str) and isinstance(inventory_id, str):
                 hash_owners[expected_hash].add(inventory_id)
             if isinstance(relative_path, str) and isinstance(expected_hash, str):
@@ -203,6 +289,21 @@ def validate_document_inventory(
                     )
 
         if document.get("status") in {"reviewed", "catalogued"}:
+            missing_preservation = [
+                file_index
+                for file_index, file_record in enumerate(files)
+                if isinstance(file_record, dict)
+                and not isinstance(file_record.get("preservation"), dict)
+            ]
+            if missing_preservation:
+                issues.append(
+                    Issue(
+                        "error",
+                        f"{document_location}.files",
+                        "reviewed or catalogued documents require preservation "
+                        "metadata for every retained file",
+                    )
+                )
             pending = [
                 file_index
                 for file_index, file_record in enumerate(files)
@@ -216,6 +317,24 @@ def validate_document_inventory(
                         f"{document_location}.files",
                         "reviewed or catalogued documents require every retained "
                         "file to have privacy_review 'cleared'",
+                    )
+                )
+            lower_resolution = [
+                file_index
+                for file_index, file_record in enumerate(files)
+                if isinstance(file_record, dict)
+                and file_record.get("role") in {"primary", "continuation"}
+                and isinstance(file_record.get("preservation"), dict)
+                and file_record["preservation"].get("resolution_status")
+                == "working-copy"
+            ]
+            if lower_resolution:
+                issues.append(
+                    Issue(
+                        "error",
+                        f"{document_location}.files",
+                        "reviewed or catalogued primary files cannot be "
+                        "lower-resolution working copies",
                     )
                 )
 
