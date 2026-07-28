@@ -436,16 +436,23 @@ people:
         The attached 1871 Hemeroteca link was unavailable during review and
         has not been shown to concern this João.
   - record_type: marriage
-    status: lead_only
+    status: inaccessible
     source_ids: []
     last_reviewed: "2026-07-28"
     next_action: >-
-      Locate the ceremony entry in the Espírito Santo parish after the
-      23 December 1882 provision.
+      With explicit owner authorisation, ask the Arquivo da Cúria Metropolitana
+      do Rio de Janeiro to search the Espírito Santo parish marriage book after
+      the 23 December 1882 provision, initially through 31 March 1883.
     notes:
     - text: >-
         SRC-0009 proves issuance of marriage provisions and the intended
         couple; it does not prove a completed marriage ceremony.
+    - text: >-
+        Exact and broader FamilySearch index searches exposed no separate
+        ceremony entry. Catalog 1719212 does not currently list a separate
+        Espírito Santo parish film series, although the Archdiocese's historical
+        record confirms that the Espírito Santo chapel was the parish seat in
+        1882.
   - record_type: death
     status: lead_only
     source_ids: []
@@ -466,16 +473,23 @@ people:
     next_action: Locate Susanna's birth or baptism using the provision name form.
     notes: []
   - record_type: marriage
-    status: lead_only
+    status: inaccessible
     source_ids: []
     last_reviewed: "2026-07-28"
     next_action: >-
-      Locate the ceremony entry in the Espírito Santo parish after the
-      23 December 1882 provision.
+      With explicit owner authorisation, ask the Arquivo da Cúria Metropolitana
+      do Rio de Janeiro to search the Espírito Santo parish marriage book after
+      the 23 December 1882 provision, initially through 31 March 1883.
     notes:
     - text: >-
         SRC-0009 proves issuance of marriage provisions and the intended
         couple; it does not prove a completed marriage ceremony.
+    - text: >-
+        Exact and broader FamilySearch index searches exposed no separate
+        ceremony entry. Catalog 1719212 does not currently list a separate
+        Espírito Santo parish film series, although the Archdiocese's historical
+        record confirms that the Espírito Santo chapel was the parish seat in
+        1882.
   - record_type: death
     status: lead_only
     source_ids: []

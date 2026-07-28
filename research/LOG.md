@@ -439,3 +439,22 @@ entry they amend; they must not erase it.
   strong evidence; no confirmed marriage event or island origin was added.
 - Next action: locate the corresponding Espírito Santo parish ceremony entry
   after 23 December 1882 or document the exact archival access gap.
+
+## 2026-07-28 — Espírito Santo marriage-book access review
+
+- Outcome: exact and broader FamilySearch index searches exposed only the
+  already catalogued 1882 provision and no separate ceremony entry.
+- Detailed log:
+  [`logs/2026-07-28-espirito-santo-marriage-book-access-review.md`](logs/2026-07-28-espirito-santo-marriage-book-access-review.md).
+- Catalog finding: the reviewed Rio de Janeiro Catholic collection does not
+  expose a separate Espírito Santo parish film series; this is an online-access
+  gap, not proof that the book or ceremony does not exist.
+- Historical finding: the Archdiocese's own heritage record confirms that the
+  Espírito Santo chapel was the parish seat in 1882.
+- Access requirement: the precise Cúria Metropolitana request, people, date
+  window, spelling variants and supporting provision reference are documented.
+  No external request was sent.
+- Genealogical conclusions changed: none; 23 December 1882 remains the
+  provision date rather than a confirmed ceremony date.
+- Next action: while this request awaits explicit authorisation, recover the
+  original record describing Vicente José de Carvalho Guimarães as Portuguese.

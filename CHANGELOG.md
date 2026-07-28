@@ -127,3 +127,8 @@ also remain traceable through source records and research logs.
   authorisation from a completed ceremony, preserve the FamilySearch `1633`
   index defect, and identify the Espírito Santo parish as the next register
   target.
+- Complete the corresponding ceremony-book access review: document the absence
+  of a separately exposed Espírito Santo parish film series, verify from the
+  Archdiocese's historical record that its chapel was the parish seat in 1882,
+  and specify the exact Cúria Metropolitana request without treating the
+  provision date as a completed marriage.

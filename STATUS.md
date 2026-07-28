@@ -8,34 +8,31 @@
 
 ## Current objective
 
-Locate the completed marriage ceremony entry for João Monis Bittencourt and
-Susanna Rita Brondão after the ecclesiastical provision issued on 23 December
-1882.
-
-The original provision identifies the Espírito Santo parish in the Court of
-Rio de Janeiro. Determine the surviving marriage-book series, search late
-December 1882 and early 1883, and distinguish the ceremony from the already
-catalogued authorisation.
+Recover the underlying original record that describes Vicente José de Carvalho
+Guimarães as Portuguese, then identify his Portuguese district, municipality
+and parish before searching Portuguese archives or conservatories.
 
 ### Objective completion signal
 
-- A qualifying ceremony image is catalogued, or the exact book gap and
-  archival request target are reproducibly documented.
-- The provision date is not silently reused as the ceremony date.
-- Name variants and any stated parentage or naturalities are preserved exactly.
-- Any retained image uses the highest resolution FamilySearch authorises.
+- The transcript-only claim is traced to its original civil or parish image.
+- The image is retained at the highest resolution authorised by the provider.
+- Vicente's identity and relationship to Francisco José de Carvalho Guimarães
+  are evaluated from the record rather than assumed from a collaborative tree.
+- Any Portuguese locality is preserved at the precision actually stated; a
+  surname or nationality alone is not converted into an island or parish.
 
 ## Next steps
 
 This is the immediate execution queue, in order:
 
-1. **Now:** identify the Espírito Santo parish marriage book covering late
-   December 1882 and early 1883.
-2. Search for the ceremony after the 23 December provision, using every
-   documented spelling variant.
-3. If the book is not online, document the exact Cúria Metropolitana request.
-4. **Human-access task:** review Aristão's restricted baptism and marriage
-   register targets when authorised access becomes available.
+1. **Now:** identify the FamilySearch profile and attached source behind the
+   transcript naming Vicente José de Carvalho Guimarães as Portuguese.
+2. Recover and inspect the original record at the highest authorised
+   resolution.
+3. Search Vicente's marriage and death records for a Portuguese locality if
+   the first record gives only a nationality.
+4. **Human-access tasks:** request the João–Susanna ceremony entry from the
+   Cúria and review Aristão's restricted parish registers when authorised.
 
 Keep this queue short and actionable. Detailed person-by-record actions remain
 canonical in `research/record-coverage.yaml`; strategic branch order remains
@@ -58,10 +55,14 @@ under **Strategic research priorities** below.
   an external FamilySearch mutation requiring the owner's authorisation.
 - Liliosa's reported 16 April 1946 death cannot yet be tested in the identified
   Volta Redonda register because the accessible series begins in November.
+- FamilySearch exposes João and Susanna's 1882 marriage provision but no
+  separate ceremony entry or Espírito Santo parish film series. The exact
+  Cúria Metropolitana request is documented and requires explicit
+  authorisation before submission.
 - Requiring the repository-health workflow in GitHub branch rules requires
   repository-administrator access.
 
-None of these dependencies prevents the current João–Suzana marriage search.
+None of these dependencies prevents the current Vicente source-recovery work.
 
 ## Repository snapshot
 
@@ -133,12 +134,14 @@ material interpretation with its source and confidence.
 
 ## Strategic research priorities
 
-1. Locate the completed João–Susanna ceremony and their earlier records.
-2. Locate Liliosa's own death, burial, birth or marriage record.
-3. Obtain authorised access to Aristão's identified baptism and marriage
+1. Recover the record describing Vicente José de Carvalho Guimarães as
+   Portuguese, then identify his parish before searching Portugal while the
+   three higher-priority lines remain access-blocked.
+2. Obtain the João–Susanna ceremony entry from the Cúria and their earlier
+   records.
+3. Locate Liliosa's own death, burial, birth or marriage record.
+4. Obtain authorised access to Aristão's identified baptism and marriage
    register targets.
-4. Recover the record describing Vicente José de Carvalho Guimarães as
-   Portuguese, then identify his parish before searching Portugal.
 5. Catalogue João Gonçalves Bohrer and Selina Bohrer's own vital records.
 6. Extend the Engracio/Souza, Guimarães and Azevedo lines one documented
    generation at a time.
@@ -148,8 +151,8 @@ only in `research/record-coverage.yaml`.
 
 ## Engineering state
 
-- **Active:** locate the ceremony entry corresponding to `SRC-0009`; reassess
-  assertion-level citation quality after 5–10 varied records.
+- **Active:** recover Vicente's underlying record and Portuguese locality;
+  reassess assertion-level citation quality after 5–10 varied records.
 - **External:** require the frozen repository-health check in GitHub branch
   rules.
 - **Deferred until schema stability:** generated person pages and a
