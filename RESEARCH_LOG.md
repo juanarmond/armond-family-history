@@ -89,3 +89,14 @@ entry they amend; they must not erase it.
 - Genealogical conclusions changed: none.
 - Next action: obtain authorised, privacy-reviewed copies of the previously
   supplied documents and catalogue the first three original records.
+
+## 2026-07-28 — Remote workflow reconciliation
+
+- Outcome: rebased the sprint commits onto the independently added remote
+  validation workflow, preserved that commit in history and removed the
+  obsolete duplicate from the worktree in favour of the pinned canonical
+  workflow.
+- Research evidence added: none.
+- Genealogical conclusions changed: none.
+- Next action: unchanged; obtain authorised, privacy-reviewed document copies
+  for the first three source records.

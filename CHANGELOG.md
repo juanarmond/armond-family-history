@@ -34,3 +34,5 @@ also remain traceable through source records and research logs.
   entity drafts, including rollback and interrupted-transaction recovery.
 - Add a least-privilege, concurrency-cancelled GitHub Actions matrix that runs
   the frozen local repository check with pinned action and tool versions.
+- Consolidate the older duplicate remote validation workflow into the canonical
+  pinned, multi-version repository-health workflow.

@@ -34,6 +34,10 @@
 - 28 July 2026 automation review: the frozen repository check now runs in a
   least-privilege GitHub Actions matrix as well as locally; no research evidence
   or genealogical conclusion changed.
+- 28 July 2026 remote-integration review: the earlier unpinned single-version
+  validation workflow was preserved in Git history and removed from the
+  worktree after consolidation into the canonical health workflow; no research
+  evidence or genealogical conclusion changed.
 
 ## Subject
 

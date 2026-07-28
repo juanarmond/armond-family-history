@@ -20,6 +20,10 @@ class WorkflowTests(unittest.TestCase):
         return document
 
     def test_health_workflow_is_read_only_and_cancellable(self) -> None:
+        workflow_files = sorted(
+            path.name for path in WORKFLOW_PATH.parent.glob("*.yml")
+        )
+        self.assertEqual(["check.yml"], workflow_files)
         workflow = self.load_workflow()
         self.assertEqual({"contents": "read"}, workflow["permissions"])
         self.assertEqual(True, workflow["concurrency"]["cancel-in-progress"])
