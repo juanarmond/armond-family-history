@@ -54,3 +54,7 @@ also remain traceable through source records and research logs.
   provenance, checksum and six directly required linked entities.
 - Fix prospective entity promotion so the default command-line workflow uses
   the repository schemas, and cover the previously untested path.
+- Recover and catalogue three alternate photographs of the damaged 1952
+  marriage certificate of Geraldo Paz Armond and Cidalia Engracio Guimarães as
+  one source; add its private evidence files, inventory provenance, retained
+  birth-date conflict and six directly required linked entities.

@@ -36,3 +36,57 @@ documents:
         The issuing registrar's signature and office contact details are
         retained because they form part of the certificate's authentication.
         The file is private and must not be included in public exports.
+  - inventory_id: DOC-0002
+    status: catalogued
+    added_date: "2026-07-28"
+    apparent_record_type: Civil marriage certificate
+    apparent_people:
+      - Geraldo Paz Armond
+      - Cidalia Engracio Guimarães
+    apparent_event: marriage
+    image_quality: partly-illegible
+    provenance: >-
+      Three FamilySearch Memories titled "Certidao de Casamento", attached to
+      profiles GQJ1-RVK and GQJ1-K3M and uploaded 24 February 2020. Upload
+      filenames IMG_5917.JPG, IMG_2871.JPG and IMG_2211.JPG; storage identifiers
+      TH-904-96968-1121-80, TH-904-96968-1120-79 and
+      TH-904-96968-1122-81. Accessed 28 July 2026 through the authenticated
+      memory viewer.
+    rights_status: private-research
+    files:
+      - path: evidence/civil/SRC-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-view-01-reconstructed.png
+        sha256: 728a40aaeaaa59037e0d57df6b30a33f0ab65c0aa176710fec292aa06643e9d3
+        media_type: image/png
+        role: detail
+        privacy_review: cleared
+        sensitive_content:
+          - signature
+      - path: evidence/civil/SRC-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-view-02-reconstructed.png
+        sha256: 75ebaf117ebea0b3cc895711b962d59a544b63c865aa1920518a0c4f3b1fc23e
+        media_type: image/png
+        role: detail
+        privacy_review: cleared
+        sensitive_content:
+          - signature
+      - path: evidence/civil/SRC-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-view-03-reconstructed.png
+        sha256: bfbdd146e7960966861e9e9bdaf25f8b2ace608ab1e1efde1ac9fc400c87b58c
+        media_type: image/png
+        role: primary
+        privacy_review: cleared
+        sensitive_content:
+          - signature
+    duplicate_of: null
+    proposed_source_id: SRC-0002
+    notes:
+      - >-
+        The files are alternate photographs of one damaged certificate, not
+        separate pages. All three are retained because different framing and
+        exposure reveal different portions of the original.
+      - >-
+        Each PNG was reconstructed from a complete twelve-tile level-10 Deep
+        Zoom set after removing one-pixel tile overlaps. No content was added,
+        removed or enhanced.
+      - >-
+        Opaque tape and physical loss obscure material text. Unreadable fields
+        remain explicitly unresolved rather than inferred from the
+        collaborative tree.

@@ -1,0 +1,82 @@
+schema_version: 1
+id: SRC-0002
+title: Marriage certificate of Geraldo Paz Armond and Cidalia Engracio Guimarães
+record_type: Civil marriage certificate
+record_category: civil_registration
+source_form: derivative
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1952-05-31"
+event_place_text: Eugenópolis, Minas Gerais, Brazil
+repository:
+  name: FamilySearch Memories
+  archive_or_registry: >-
+    Civil Registry Office, District of the City of Eugenópolis, Minas Gerais,
+    Brazil
+  collection: FamilySearch Memories
+  book: 13-B
+  page: 21-v (reading uncertain)
+  record_number: "898"
+  catalogue_reference: >-
+    FamilySearch memory storage IDs TH-904-96968-1121-80,
+    TH-904-96968-1120-79 and TH-904-96968-1122-81
+  url: https://www.familysearch.org/en/tree/person/memories/GQJ1-RVK
+  repository_path: evidence/civil/SRC-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-view-03-reconstructed.png
+access_date: "2026-07-28"
+language: pt-BR
+transcription: >-
+  CERTIFICO que, às fls. 21 [verso] do livro nº 13-B de registro de
+  Casamentos, foi celebrado o matrimônio de GERALDO PAZ ARMOND e CIDALIA
+  ENGRACIO GUIMARÃES. Ele, nascido em Limeira, aos 30 de janeiro de 1915,
+  [profession and intervening text obscured], filho de [text partly obscured].
+  Ela, nascida em Alvorada, aos 15 de setembro de 1930, profissão doméstica,
+  filha de Antonio Engracio Filho e Maria Aurora Guimarães [parts of the
+  parentage lines obscured]. A contraente passa a assinar-se "Cidalia Engracio
+  Armond". Observações: O casamento realizou-se no dia 31 de maio de 1952
+  [remaining text partly obscured].
+abstract: >-
+  A damaged civil marriage certificate records that Geraldo Paz Armond and
+  Cidalia Engracio Guimarães married in Eugenópolis on 31 May 1952. It reports
+  Geraldo as born in Limeira on 30 January 1915 and Cidalia as born in Alvorada
+  on 15 September 1930. The certificate states that she would thereafter sign
+  Cidalia Engracio Armond. Three alternate photographs preserve different
+  portions of the taped and partly obscured document.
+reliability:
+  assessment: >-
+    Direct evidence for the marriage, the spouses' names and the married-name
+    form. The stated birth facts are secondary information for those events.
+  informant: The spouses' declarations as entered on the marriage certificate.
+  limitations: >-
+    The certificate is severely damaged and repaired with opaque tape. Several
+    words, including portions of the parentage and certification text, cannot
+    be read safely. The repository images were reconstructed from FamilySearch
+    Deep Zoom tiles and are not the originally uploaded JPEGs.
+digital_file:
+  path: evidence/civil/SRC-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-view-03-reconstructed.png
+  sha256: bfbdd146e7960966861e9e9bdaf25f8b2ace608ab1e1efde1ac9fc400c87b58c
+linked_people:
+  - P-0003
+  - P-0004
+linked_families:
+  - F-0002
+linked_events:
+  - E-0002
+linked_places:
+  - PL-0002
+private: true
+notes:
+  - text: >-
+      FamilySearch stores three photographs of the same certificate as separate
+      Memories. They are alternate views, not successive pages. All three are
+      retained because exposure, framing and tape position make different text
+      legible in each image.
+  - text: >-
+      This marriage record supports the 15 September 1930 birth-date variant
+      for Cidalia but cannot resolve the conflict with 15 November. A birth
+      registration remains necessary.
+  - text: >-
+      The certificate includes signatures. Retain the images only in this
+      private repository and exclude them from public derivatives.

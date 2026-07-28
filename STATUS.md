@@ -6,12 +6,12 @@
 
 ## Current objective
 
-Recover, privacy-review and catalogue two more of the clearest original records
+Recover, privacy-review and catalogue one more of the clearest original records
 from the authorised FamilySearch account, then review the schema against the
 three-record evidence sample.
 
-The former human-intervention blocker is partially resolved. One certified
-marriage record has been recovered from FamilySearch Memories and catalogued,
+The former human-intervention blocker is partially resolved. Two certified
+marriage records have been recovered from FamilySearch Memories and catalogued,
 but the original ChatGPT conversation still refers to 24 image attachments
 whose binaries and metadata were not carried into the imported transcript.
 The exact one-to-one attachment mapping cannot be reconstructed from the
@@ -23,7 +23,7 @@ transcript alone.
   provenance and cleared privacy review.
 - Reconcile recovered files against the conversation-transfer audit without
   trusting earlier assistant transcriptions.
-- Catalogue two additional distinct original records as structured sources
+- Catalogue one additional distinct original record as a structured source
   with exact citations, abstracts, reliability assessments and retained
   conflicts.
 - Create only the people, events, families and places directly required by
@@ -53,6 +53,15 @@ claim to confirmed.
   Fernandes de Azevedo from FamilySearch Memories. It is inventoried as
   `DOC-0001`, catalogued as `SRC-0001`, and retained as a private reconstructed
   PNG with checksum and provenance.
+- A second intake recovered three alternate photographs of the damaged 31 May
+  1952 marriage certificate for Geraldo Paz Armond and Cidalia Engracio
+  Guimarães. They are inventoried together as `DOC-0002`, catalogued as
+  `SRC-0002`, and explicitly treated as views of one document rather than
+  separate pages.
+- The second record provides direct evidence of the marriage and Cidalia's
+  married-name form. Its report of `15 September 1930` for her birth is
+  secondary information and does not resolve the existing September-versus-
+  November conflict.
 - The retained file is a derivative reconstructed from the complete Deep Zoom
   tile set rather than the originally uploaded JPEG. The marriage and partner
   relationship are therefore `strong-evidence`, not `confirmed`, under the
@@ -73,8 +82,8 @@ claim to confirmed.
   than in a separate task-specific plan.
 - The frozen repository check runs locally and in GitHub Actions. Requiring it
   in branch rules remains an external repository-administration task.
-- One structured source record and its five directly required linked entities
-  are live.
+- Two structured source records and their ten directly required linked
+  entities are live.
 - The original ChatGPT conversation has been audited. Its direct-ancestor
   conclusions were largely preserved, and missing transcript-only leads and
   correction history are now recorded without being promoted to evidence.
@@ -113,7 +122,8 @@ claim to confirmed.
 - Spouse: Cidalia Engracio Guimarães, later Cidalia Engracio Armond.
 - Marriage: 31 May 1952 in Eugenópolis, Minas Gerais, Brazil.
 - Parents: Aristão Ferreira Armond and Liliosa Paz Armond.
-- Status: confirmed or strongly supported by family documents already examined in the conversation; repository sources pending.
+- Status: the marriage is supported by catalogued direct evidence in
+  `SRC-0002`; birth and death facts still require their own records.
 
 ### Cidalia Engracio Guimarães / Cidalia Engracio Armond
 
@@ -121,7 +131,8 @@ claim to confirmed.
 - Exact birth date conflict: 15 September versus 15 November. The original civil record must be re-examined before resolution.
 - Died: 17 April 2023 in Volta Redonda, Rio de Janeiro, Brazil.
 - Parents: Antonio Engracio Filho and Maria Aurora Guimarães.
-- Status: relationship confirmed; exact birth date unresolved.
+- Status: the marriage and married-name form are supported by catalogued direct
+  evidence in `SRC-0002`; the exact birth date remains unresolved.
 
 ## Maternal grandparents
 
@@ -273,8 +284,8 @@ Collateral relatives have been mentioned in family trees and documents, includin
 
 ### Priority 0 — Preserve and catalogue existing evidence
 
-> Blocked: authorised, privacy-reviewed copies must be added before these tasks
-> can be completed.
+> In progress: the authenticated FamilySearch audit and privacy-reviewed
+> recovery workflow are active.
 
 - [ ] Assign source IDs to every certificate, identity document and screenshot
   already supplied.
@@ -283,7 +294,7 @@ Collateral relatives have been mentioned in family trees and documents, includin
   withholding unnecessary living-person material.
 - [ ] Store a clean image filename and an English abstract for each document.
 - [ ] Re-transcribe ambiguous handwritten fields at full resolution.
-- [ ] Create initial person IDs and family IDs only after the source catalogue
+- [x] Create initial person IDs and family IDs only after the source catalogue
   begins.
 
 ### Priority 1 — Armond and Paz lines
@@ -301,7 +312,7 @@ Collateral relatives have been mentioned in family trees and documents, includin
 
 ### Priority 2 — Muniz Bittencourt and Brandão lines
 
-- [ ] Catalogue the 21 October 1916 marriage of Deocleciano Muniz Bittencourt
+- [x] Catalogue the 21 October 1916 marriage of Deocleciano Muniz Bittencourt
   and Luiza Fernandes de Azevedo.
 - [ ] Locate Deocleciano's birth or baptism in Sapucaia, Rio de Janeiro,
   approximately 1892.
@@ -359,7 +370,7 @@ Collateral relatives have been mentioned in family trees and documents, includin
 
 | Priority | Outcome | Migration effort | Maintenance impact | Status |
 | --- | --- | --- | --- | --- |
-| P1 | Catalogue and model the first three original records | Requires source-image access | Tests the model before scale | Blocked |
+| P1 | Catalogue and model the first three original records | Requires source-image access | Tests the model before scale | In progress; two catalogued |
 | P1 | Review the model and ingest remaining existing evidence | Depends on first-source findings | Establishes a stable structured base | Pending |
 | P2 | Require the health check in GitHub branch rules | Low; administrator access | Prevents invalid merges | External |
 | P3 | Generate person pages from structured YAML | Medium | Reproducible human-readable views | Deferred until real data |

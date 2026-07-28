@@ -155,3 +155,20 @@ entry they amend; they must not erase it.
   FamilySearch source; each has only a 1983 record concerning a child.
 - Next action: recover and catalogue two additional original records before
   reviewing the schema against the evidence sample.
+
+## 2026-07-28 — Armond–Guimarães marriage-record ingestion
+
+- Outcome: recovered and privacy-reviewed three alternate photographs of the
+  damaged 31 May 1952 marriage certificate of Geraldo Paz Armond and Cidalia
+  Engracio Guimarães, and treated them as one source rather than three pages.
+- Detailed log:
+  [`logs/2026-07-28-familysearch-armond-guimaraes-marriage-ingestion.md`](logs/2026-07-28-familysearch-armond-guimaraes-marriage-ingestion.md).
+- Genealogical conclusions changed: the marriage and Cidalia's married-name
+  form now have catalogued direct evidence. The certificate's report of 15
+  September 1930 is retained as secondary birth information and does not
+  resolve the existing date conflict.
+- Preservation limitation: physical damage and opaque tape obscure material
+  text; all uncertainty remains marked rather than supplied from the
+  collaborative tree.
+- Next action: inspect Geraldo's attached source and death-certificate Memory,
+  then recover one distinct record to complete the three-record schema sample.

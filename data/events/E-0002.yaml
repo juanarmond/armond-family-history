@@ -1,0 +1,16 @@
+schema_version: 1
+id: E-0002
+event_type: marriage
+date:
+  kind: exact
+  value: "1952-05-31"
+place_id: PL-0002
+participants:
+- person_id: P-0003
+  role: spouse
+- person_id: P-0004
+  role: spouse
+status: strong-evidence
+source_ids:
+- SRC-0002
+notes: []

@@ -1,0 +1,18 @@
+schema_version: 1
+id: P-0004
+preferred_name: Cidalia Engracio Guimarães
+privacy: deceased
+name_variants:
+- value: Cidalia Engracio Guimarães
+  type: source
+  source_ids:
+  - SRC-0002
+- value: Cidalia Engracio Armond
+  type: married
+  source_ids:
+  - SRC-0002
+event_ids:
+- E-0002
+family_ids:
+- F-0002
+notes: []
