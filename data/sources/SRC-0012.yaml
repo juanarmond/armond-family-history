@@ -48,7 +48,8 @@ linked_people:
   - P-0001
   - P-0002
   - P-0003
-linked_families: []
+linked_families:
+  - F-0011
 linked_events: []
 linked_places: []
 private: true

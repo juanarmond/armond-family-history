@@ -18,6 +18,10 @@ PRIMARY_INFORMATION_QUALITIES = {"primary", "mixed"}
 ASSERTIVE_EVIDENCE_TYPES = {"direct", "indirect"}
 LEAD_ONLY_CATEGORIES = {"collaborative_tree"}
 WEAK_STANDALONE_CATEGORIES = {"collaborative_tree", "family_recollection"}
+# An original record, or a certified copy that faithfully reproduces an
+# official record, may support a confirmed conclusion. Authored narratives
+# (family recollection, published genealogies) never can.
+CONFIRMING_SOURCE_FORMS = {"original", "derivative"}
 POSTHUMOUS_BIRTH_ALLOWANCE = timedelta(days=310)
 MINIMUM_PARENT_AGE = timedelta(days=8 * 365)
 
@@ -85,33 +89,43 @@ def validate_evidence_statuses(
                     if source_id in source_data
                 ]
                 if status == "confirmed":
-                    direct_original = any(
+                    # An original record or a certified copy of an official
+                    # record may confirm; the primary-information and direct
+                    # evidence gates, plus the weak-category exclusion, keep
+                    # family recollection and collaborative trees from ever
+                    # confirming a conclusion.
+                    direct_primary = any(
                         source.get("usage") == "evidence"
-                        and source.get("source_form") == "original"
+                        and source.get("source_form") in CONFIRMING_SOURCE_FORMS
+                        and source.get("record_category")
+                        not in WEAK_STANDALONE_CATEGORIES
                         and source.get("information_quality")
                         in PRIMARY_INFORMATION_QUALITIES
                         and source.get("evidence_type") == "direct"
                         for source in cited
                     )
-                    indirect_originals = {
+                    indirect_primaries = {
                         source_id
                         for source_id in source_ids
                         if source_id in source_data
                         and source_data[source_id].get("usage") == "evidence"
-                        and source_data[source_id].get("source_form") == "original"
+                        and source_data[source_id].get("source_form")
+                        in CONFIRMING_SOURCE_FORMS
+                        and source_data[source_id].get("record_category")
+                        not in WEAK_STANDALONE_CATEGORIES
                         and source_data[source_id].get("information_quality")
                         in PRIMARY_INFORMATION_QUALITIES
                         and source_data[source_id].get("evidence_type") == "indirect"
                     }
-                    if not direct_original and len(indirect_originals) < 2:
+                    if not direct_primary and len(indirect_primaries) < 2:
                         issues.append(
                             Issue(
                                 "error",
                                 f"{location}:{json_path(path)}",
                                 "confirmed conclusion requires direct primary "
-                                "information from an original source, or at least "
-                                "two original sources providing indirect primary "
-                                "information",
+                                "information from an original or certified "
+                                "official record, or at least two such records "
+                                "providing indirect primary information",
                             )
                         )
                 elif status == "strong-evidence":

@@ -174,3 +174,9 @@ also remain traceable through source records and research logs.
 - Record a resolvable FamilySearch profile URL for every collaborative-tree
   lead in the record-coverage ledger, extending the coverage schema with an
   optional lead-only `url` field.
+- Allow a certified copy of an official record (derivative source form with
+  direct primary information) to support a `confirmed` conclusion, alongside
+  original records; family recollection and collaborative trees still cannot
+  confirm. Update the confidence-status policy and validator accordingly, and
+  promote Juan Carlos Muniz Armond's parentage to `confirmed` on his certified
+  birth certificate corroborated by his Ontario marriage record.

@@ -37,8 +37,11 @@ higher-ranked evidence.
 
 ### Confirmed
 
-A conclusion directly supported by a reliable primary record, or by a coherent
-body of primary evidence with no material unresolved conflict.
+A conclusion directly supported by a reliable primary record — an original
+register image or a certified copy that faithfully reproduces an official
+civil, parish or government record — or by a coherent body of primary evidence
+with no material unresolved conflict. Family recollection and published
+genealogies cannot confirm a conclusion.
 
 ### Strong evidence
 

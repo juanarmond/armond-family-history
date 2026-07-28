@@ -619,9 +619,20 @@ class ValidateDataTests(unittest.TestCase):
             "recollection sources",
         )
 
-    def test_derivative_source_cannot_confirm_conclusion(self) -> None:
+    def test_certified_official_derivative_can_confirm_conclusion(self) -> None:
+        # A certified copy of an official record (derivative form, direct
+        # primary information) may support a confirmed conclusion.
         source = self.fixture.documents["sources"]["SRC-0001"]
         source["source_form"] = "derivative"
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assertEqual((), result.errors)
+
+    def test_recollection_derivative_cannot_confirm_conclusion(self) -> None:
+        # A weak-category source cannot confirm even in derivative form.
+        source = self.fixture.documents["sources"]["SRC-0001"]
+        source["source_form"] = "derivative"
+        source["record_category"] = "family_recollection"
         self.fixture.rewrite()
         result = self.fixture.validate()
         self.assert_issue(
