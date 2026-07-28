@@ -1,4 +1,4 @@
-import { load as parseYaml } from "https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/+esm";
+import { load as parseYaml } from "./vendor/js-yaml.mjs";
 
 const ENTITY_TYPES = {
   people: { directory: "people" },
@@ -51,6 +51,16 @@ async function loadEntityType(kind, { directory }) {
   return Object.fromEntries(entries);
 }
 
+export function evidenceHref(path) {
+  if (typeof path !== "string") return null;
+  const clean = path.trim();
+  // Only expose genuine preserved evidence files, never internal repository
+  // documents referenced as a source's repository_path (e.g. STATUS.md).
+  if (!/^evidence\//.test(clean)) return null;
+  // Stored paths are repository-root relative; the viewer lives one level down.
+  return `../${clean}`;
+}
+
 function noteTexts(notes) {
   if (!Array.isArray(notes)) return [];
   return notes
@@ -77,7 +87,12 @@ export async function loadTreeData() {
   const [people, families, events, places, sources] = await Promise.all(
     Object.entries(ENTITY_TYPES).map(([kind, config]) => loadEntityType(kind, config)),
   );
+  return projectTreeData({ people, families, events, places, sources });
+}
 
+// Pure projection from parsed entities to the viewer's presentation model.
+// Side-effect free (no fetch, no DOM) so it can be unit-tested under Node.
+export function projectTreeData({ people, families, events, places, sources }) {
   const personEvents = {};
   const personSourceIds = {};
   const parentsByChild = {};
@@ -154,13 +169,60 @@ export async function loadTreeData() {
     }
   }
 
+  // Marriage events by family, and each person's spouses, so the viewer can
+  // present couples rather than a bare pedigree of individuals.
+  const marriageEvents = Object.values(events).filter((event) => event.event_type === "marriage");
+  const marriageByFamily = {};
+  const spousesByPerson = {};
+  for (const personId of Object.keys(people)) spousesByPerson[personId] = [];
+
+  for (const [familyId, family] of Object.entries(families)) {
+    const partnerIds = (family.partners || [])
+      .map((partner) => partner?.person_id)
+      .filter((id) => typeof id === "string");
+
+    for (const partnerId of partnerIds) {
+      if (!spousesByPerson[partnerId]) continue;
+      for (const otherId of partnerIds) {
+        if (otherId !== partnerId) spousesByPerson[partnerId].push({ spouseId: otherId, familyId });
+      }
+    }
+
+    if (partnerIds.length < 2) continue;
+    const marriage = marriageEvents.find((event) => {
+      const spouseIds = (event.participants || [])
+        .filter((participant) => participant?.role === "spouse")
+        .map((participant) => participant.person_id);
+      return spouseIds.length >= 2 && partnerIds.every((id) => spouseIds.includes(id));
+    });
+    if (marriage) {
+      const place = marriage.place_id ? places[marriage.place_id] : null;
+      marriageByFamily[familyId] = {
+        date: marriage.date || null,
+        place: place?.preferred_name || marriage.place_text || null,
+        status: marriage.status || "unknown",
+        sourceIds: (marriage.source_ids || []).filter((id) => typeof id === "string"),
+      };
+    }
+  }
+
   const sourceView = Object.fromEntries(
-    Object.entries(sources).map(([sourceId, source]) => [sourceId, {
-      id: sourceId,
-      title: source.title || sourceId,
-      recordType: source.record_type || "Source",
-      private: Boolean(source.private),
-    }]),
+    Object.entries(sources).map(([sourceId, source]) => {
+      const rawPath = source.digital_file?.path || source.repository?.repository_path || null;
+      const url = source.repository?.url;
+      const limitation = source.reliability?.limitations;
+      return [sourceId, {
+        id: sourceId,
+        title: source.title || sourceId,
+        recordType: source.record_type || "Source",
+        sourceForm: typeof source.source_form === "string" ? source.source_form.replaceAll("_", " ") : null,
+        quality: typeof source.information_quality === "string" ? source.information_quality : null,
+        limitation: typeof limitation === "string" && limitation.trim() ? limitation.trim() : null,
+        private: Boolean(source.private),
+        file: evidenceHref(rawPath),
+        url: typeof url === "string" && url.trim() ? url.trim() : null,
+      }];
+    }),
   );
 
   const conflictTerms = ["conflict", "uncertain", "unresolved", "variant", "pending"];
@@ -186,6 +248,11 @@ export async function loadTreeData() {
       ),
       sourceCount: sourceIds.length,
       sources: living ? [] : sourceIds.map((id) => sourceView[id]).filter(Boolean),
+      spouses: living ? [] : (spousesByPerson[personId] || []).map((entry) => ({
+        id: entry.spouseId,
+        name: people[entry.spouseId]?.preferred_name || entry.spouseId,
+        marriage: marriageByFamily[entry.familyId] || null,
+      })),
       notes,
       hasConflict: conflictTerms.some((term) => conflictText.includes(term)),
     };
@@ -195,6 +262,7 @@ export async function loadTreeData() {
     schemaVersion: 1,
     people: peopleView,
     parentsByChild,
+    marriageByFamily,
     sources: sourceView,
     familyCount: Object.keys(families).length,
   };

@@ -1,0 +1,7 @@
+{
+  "name": "armond-family-tree-viewer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static, read-only viewer for the Armond family history repository. ES modules, no build step, no runtime dependencies."
+}

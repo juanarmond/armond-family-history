@@ -42,31 +42,34 @@ Do not publish the site publicly while it contains private family data. GitHub P
 ## Behaviour
 
 - Starts with `P-0001` when that person exists.
-- Allows any structured person to become the tree root.
+- Allows any structured person to become the tree root; double-click a card to re-centre on that person.
 - Renders ancestors recursively from family relationship entities.
-- Discovers newly catalogued sequential entity IDs automatically; no viewer-code change is required.
+- Marks co-parents who share a family with a marriage marker (`⚭` and year) on the lineage junction.
 - Prevents recursive loops and marks repeated ancestors as references.
-- Distinguishes confirmed, strong-evidence, hypothesis and rejected relationships.
+- Distinguishes confirmed, strong-evidence, hypothesis and rejected relationships, and matches the connector line style to the legend.
 - Hides rejected relationships by default.
 - Limits the displayed number of generations for usability.
-- Minimises details shown for living people.
+- Auto-fits the tree to the viewport, with manual zoom (buttons, `Ctrl`/`⌘`+scroll) and drag-to-pan.
+- Links each non-private evidence file and external record from the detail panel, and surfaces source form, quality and reliability limitations.
+- Encodes the current root, generation depth, hypothesis toggle and selected person in the URL hash, so a view is bookmarkable and shareable.
+- Minimises details shown for living people, and never lists a living person's sources.
 
 ## Architecture
 
 ```text
 data/**/*.yaml
       ↓
-data-loader.js (read-only browser projection)
+data-loader.js (read-only browser projection; parses YAML with the vendored js-yaml)
       ↓
 app.js + index.html + styles.css
 ```
 
-The browser builds the presentation model in memory. YAML remains the sole persistent source of truth.
+The browser builds the presentation model in memory. YAML remains the sole persistent source of truth. `js-yaml` is vendored locally in `vendor/js-yaml.mjs`, so the viewer makes no external network requests and works fully offline.
 
 ## Entity discovery
 
-The loader follows the repository's stable sequential ID convention and stops after a bounded sequence of missing IDs. This avoids a duplicated manifest while supporting current and future entities. If the repository ever introduces very large intentional ID gaps, replace this strategy with a generated static manifest.
+The loader reads `entity-index.json`, which enumerates every entity ID. Regenerate it from the canonical directories with `python3 scripts/build_viewer_index.py`. `tests/test_viewer_index.py` fails the build if the committed index drifts from the YAML files in `data/`.
 
 ## Security
 
-This viewer is intended for the private repository. It does not load evidence images or full source transcriptions, and living-person details are reduced before display. Do not expose the repository or viewer publicly without a separate privacy review.
+This viewer is intended for the private repository. It links to the original evidence files and external record URLs recorded in each source, and it can display private, living-person-sensitive documents; every linked file carries a `Private` marker. Living-person details are reduced before display and their sources are never listed. Do not expose the repository or viewer publicly without a separate privacy review, and do not serve it on an untrusted host while it links to private evidence.

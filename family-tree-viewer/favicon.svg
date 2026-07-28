@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="72" height="72">
+  <title>Armond Family History</title>
+  <circle cx="36" cy="36" r="34" fill="#fbf6ea"/>
+  <circle cx="36" cy="36" r="32" fill="none" stroke="#a9843f" stroke-width="2.4"/>
+  <circle cx="36" cy="36" r="27.5" fill="none" stroke="#c9a24b" stroke-width="1.2"/>
+  <g fill="none" stroke="#2f5d43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M36 49 L36 44 L27 44 L27 39"/>
+    <path d="M36 49 L36 44 L45 44 L45 39"/>
+    <path d="M27 39 L27 34 L22 34 L22 29.5"/>
+    <path d="M27 39 L27 34 L32 34 L32 29.5"/>
+    <path d="M45 39 L45 34 L40 34 L40 29.5"/>
+    <path d="M45 39 L45 34 L50 34 L50 29.5"/>
+  </g>
+  <g fill="#a9843f">
+    <circle cx="22" cy="29.5" r="2.2"/>
+    <circle cx="32" cy="29.5" r="2.2"/>
+    <circle cx="40" cy="29.5" r="2.2"/>
+    <circle cx="50" cy="29.5" r="2.2"/>
+    <circle cx="27" cy="39" r="2.5"/>
+    <circle cx="45" cy="39" r="2.5"/>
+  </g>
+  <circle cx="36" cy="49" r="3.1" fill="#2f5d43"/>
+  <path d="M36 13.4 l1.5 3.05 3.35.45 -2.45 2.35 .6 3.3 -2.95 -1.6 -2.95 1.6 .6 -3.3 -2.45 -2.35 3.35 -.45 z" fill="#c9a24b"/>
+</svg>

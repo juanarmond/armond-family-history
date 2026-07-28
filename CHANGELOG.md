@@ -143,3 +143,19 @@ also remain traceable through source records and research logs.
   separate four distinct manifestations of one marriage, and retain the
   Chagas dissertation as a secondary Armond research lead rather than proof of
   lineage or Azorean origin.
+- Redesign the static family-tree viewer with a heritage-archival theme
+  (parchment, forest green and gold, serif display, framed register cards and
+  rounded-elbow lineage connectors), replace the placeholder monogram with a
+  family-tree seal emblem and matching favicon, and vendor `js-yaml` locally so
+  the viewer makes no external network requests and works fully offline.
+- Extend the viewer to present couples with per-family marriage markers, link
+  each non-private evidence file and external record from the detail panel
+  while surfacing source form, quality and reliability limitations, add
+  auto-fit zoom with manual controls and drag-to-pan, widen the tree canvas,
+  and encode a bookmarkable view in the URL hash; keep living-person data
+  minimised throughout.
+- Cover the viewer's read-only data projection with Node unit tests run through
+  `make check`, guard `entity-index.json` against drift from the canonical data
+  directories, restore focus to the invoking card when the detail panel closes,
+  and copy the vendored parser and favicon into the privacy-filtered GitHub
+  Pages build.

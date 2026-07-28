@@ -6,7 +6,19 @@ const state = {
   generations: 4,
   showHypotheses: true,
   visibleNodes: 0,
+  zoom: 1,
+  autoFit: true,
+  selected: null,
 };
+
+const MIN_ZOOM = 0.2;
+const MAX_ZOOM = 2.5;
+const FIT_MAX_ZOOM = 1.4;
+const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
+
+let panState = null;
+let suppressClick = false;
+let lastFocused = null;
 
 const elements = {
   rootSelect: document.querySelector("#root-person"),
@@ -17,6 +29,14 @@ const elements = {
   loading: document.querySelector("#loading"),
   error: document.querySelector("#error"),
   tree: document.querySelector("#tree"),
+  treeViewport: document.querySelector("#tree-viewport"),
+  treeSizer: document.querySelector("#tree-sizer"),
+  treeStage: document.querySelector("#tree-stage"),
+  treeControls: document.querySelector("#tree-controls"),
+  zoomIn: document.querySelector("#zoom-in"),
+  zoomOut: document.querySelector("#zoom-out"),
+  zoomFit: document.querySelector("#zoom-fit"),
+  zoomLevel: document.querySelector("#zoom-level"),
   personCount: document.querySelector("#person-count"),
   familyCount: document.querySelector("#family-count"),
   sourceCount: document.querySelector("#source-count"),
@@ -138,7 +158,16 @@ function createPersonCard(person, relationship, options = {}) {
   if (person.privacy === "living") meta.append(createBadge("Private"));
 
   button.append(avatar, main, meta);
-  button.addEventListener("click", () => openDetails(person.id));
+  button.title = "Click for details · double-click to centre the tree here";
+  button.addEventListener("click", () => {
+    if (suppressClick) return;
+    openDetails(person.id);
+  });
+  button.addEventListener("dblclick", (event) => {
+    event.preventDefault();
+    setRoot(person.id);
+    closeDetails();
+  });
   return button;
 }
 
@@ -147,6 +176,25 @@ function createGenerationStop() {
   stop.className = "generation-stop";
   stop.textContent = "Generation limit reached";
   return stop;
+}
+
+function createMarriageBadge(marriage) {
+  const badge = document.createElement("div");
+  badge.className = "marriage-badge";
+  const year = yearFromEvent({ date: marriage.date });
+  badge.textContent = year ? `⚭ ${year}` : "⚭";
+  const detail = [marriage.place, statusLabels[marriage.status] || marriage.status].filter(Boolean);
+  badge.title = `Marriage${detail.length ? ` — ${detail.join(" · ")}` : ""}`;
+  return badge;
+}
+
+function setRoot(personId) {
+  if (!state.data.people[personId]) return;
+  state.rootId = personId;
+  state.autoFit = true;
+  if (elements.rootSelect) elements.rootSelect.value = personId;
+  renderTree();
+  syncHash();
 }
 
 function createTreeNode(personId, relationship, depth, path, globalSeen) {
@@ -183,6 +231,12 @@ function createTreeNode(personId, relationship, depth, path, globalSeen) {
   nextPath.add(personId);
   const ul = document.createElement("ul");
 
+  const familyIds = new Set(parents.map((relationship) => relationship.familyId));
+  if (parents.length === 2 && familyIds.size === 1) {
+    const marriage = state.data.marriageByFamily?.[[...familyIds][0]];
+    if (marriage) ul.append(createMarriageBadge(marriage));
+  }
+
   for (const parentRelationship of parents) {
     const child = createTreeNode(
       parentRelationship.parentId,
@@ -215,6 +269,79 @@ function renderTree() {
   if (rootNode) rootList.append(rootNode);
   elements.tree.append(rootList);
   elements.visibleCount.textContent = String(state.visibleNodes);
+  refreshZoom();
+}
+
+function naturalSize() {
+  const stage = elements.treeStage;
+  return { w: stage ? stage.offsetWidth : 0, h: stage ? stage.offsetHeight : 0 };
+}
+
+function applyZoom() {
+  const { w, h } = naturalSize();
+  elements.treeStage.style.transform = `scale(${state.zoom})`;
+  elements.treeSizer.style.width = `${w * state.zoom}px`;
+  elements.treeSizer.style.height = `${h * state.zoom}px`;
+  elements.zoomLevel.textContent = `${Math.round(state.zoom * 100)}%`;
+  elements.zoomIn.disabled = state.zoom >= MAX_ZOOM - 1e-3;
+  elements.zoomOut.disabled = state.zoom <= MIN_ZOOM + 1e-3;
+}
+
+function centerScroll() {
+  const viewport = elements.treeViewport;
+  viewport.scrollLeft = Math.max(0, (viewport.scrollWidth - viewport.clientWidth) / 2);
+  viewport.scrollTop = 0;
+}
+
+function fitZoom() {
+  const viewport = elements.treeViewport;
+  const { w } = naturalSize();
+  const styles = getComputedStyle(viewport);
+  const padX = parseFloat(styles.paddingLeft) + parseFloat(styles.paddingRight);
+  const available = Math.max(1, viewport.clientWidth - padX);
+  state.zoom = clamp(w ? available / w : 1, MIN_ZOOM, FIT_MAX_ZOOM);
+  state.autoFit = true;
+  applyZoom();
+  centerScroll();
+}
+
+function setZoom(nextZoom) {
+  const viewport = elements.treeViewport;
+  const { w, h } = naturalSize();
+  const previous = state.zoom;
+  const centreX = (viewport.scrollLeft + viewport.clientWidth / 2) / Math.max(1, w * previous);
+  const centreY = (viewport.scrollTop + viewport.clientHeight / 2) / Math.max(1, h * previous);
+  state.zoom = clamp(nextZoom, MIN_ZOOM, MAX_ZOOM);
+  applyZoom();
+  viewport.scrollLeft = centreX * w * state.zoom - viewport.clientWidth / 2;
+  viewport.scrollTop = centreY * h * state.zoom - viewport.clientHeight / 2;
+}
+
+function refreshZoom() {
+  if (!elements.treeStage) return;
+  elements.treeControls.hidden = false;
+  if (state.autoFit) fitZoom();
+  else applyZoom();
+}
+
+function readHash() {
+  const params = new URLSearchParams(location.hash.replace(/^#/, ""));
+  return {
+    root: params.get("root"),
+    gen: params.get("gen"),
+    hyp: params.get("hyp"),
+    sel: params.get("sel"),
+  };
+}
+
+function syncHash() {
+  const params = new URLSearchParams();
+  params.set("root", state.rootId);
+  params.set("gen", String(state.generations));
+  params.set("hyp", state.showHypotheses ? "1" : "0");
+  if (state.selected) params.set("sel", state.selected);
+  const next = `#${params.toString()}`;
+  if (next !== location.hash) history.replaceState(null, "", next);
 }
 
 function populatePersonSelect(query = "") {
@@ -259,6 +386,79 @@ function list(items, emptyText) {
   return ul;
 }
 
+function fileLinkLabel(href) {
+  const ext = href.split("?")[0].split(".").pop().toLowerCase();
+  if (ext === "pdf") return "View document";
+  if (["jpg", "jpeg", "png", "tif", "tiff", "gif", "webp"].includes(ext)) return "View image";
+  return "View file";
+}
+
+function externalLink(href, label, extraClass = "") {
+  const anchor = document.createElement("a");
+  anchor.className = `source-link ${extraClass}`.trim();
+  anchor.href = href;
+  anchor.target = "_blank";
+  anchor.rel = "noopener noreferrer";
+  anchor.textContent = label;
+  return anchor;
+}
+
+function sourceList(sources) {
+  if (!sources.length) {
+    const empty = document.createElement("p");
+    empty.className = "empty-note";
+    empty.textContent = "No linked sources.";
+    return empty;
+  }
+
+  const ul = document.createElement("ul");
+  ul.className = "source-list";
+
+  for (const source of sources) {
+    const li = document.createElement("li");
+    li.className = "source-item";
+
+    const title = document.createElement("div");
+    title.className = "source-title";
+    const id = document.createElement("span");
+    id.className = "source-id";
+    id.textContent = source.id;
+    title.append(id, document.createTextNode(source.title || source.id));
+
+    const metaBits = [source.recordType, source.sourceForm, source.quality].filter(Boolean);
+    const meta = document.createElement("div");
+    meta.className = "source-meta";
+    meta.textContent = metaBits.join(" · ");
+
+    const actions = document.createElement("div");
+    actions.className = "source-actions";
+    if (source.file) actions.append(externalLink(source.file, fileLinkLabel(source.file)));
+    if (source.url) actions.append(externalLink(source.url, "Source record ↗", "external"));
+    if (!source.file && !source.url) {
+      const none = document.createElement("span");
+      none.className = "source-none";
+      none.textContent = "No file retained";
+      actions.append(none);
+    }
+    if (source.private) actions.append(createBadge("Private"));
+
+    const nodes = [title];
+    if (metaBits.length) nodes.push(meta);
+    nodes.push(actions);
+    if (source.limitation) {
+      const limitation = document.createElement("p");
+      limitation.className = "source-limitation";
+      limitation.textContent = `⚠ ${source.limitation}`;
+      nodes.push(limitation);
+    }
+
+    li.append(...nodes);
+    ul.append(li);
+  }
+
+  return ul;
+}
+
 function openDetails(personId) {
   const person = state.data.people[personId];
   if (!person) return;
@@ -267,6 +467,13 @@ function openDetails(personId) {
   elements.detailsTitle.textContent = person.name;
   elements.detailsLifespan.textContent = lifespan(person);
   elements.detailsContent.replaceChildren();
+
+  if (person.hasConflict) {
+    const caution = document.createElement("p");
+    caution.className = "detail-caution";
+    caution.textContent = "⚠ This record has unresolved or conflicting evidence — see the notes and sources below.";
+    elements.detailsContent.append(caution);
+  }
 
   const facts = document.createElement("dl");
   facts.className = "detail-grid";
@@ -300,9 +507,17 @@ function openDetails(personId) {
   elements.detailsContent.append(section("Parents", list(parentItems, "No structured parent relationship.")));
 
   if (person.privacy !== "living") {
+    const marriageItems = person.spouses.map((spouse) => {
+      const bits = [];
+      const year = spouse.marriage ? yearFromEvent({ date: spouse.marriage.date }) : null;
+      if (year) bits.push(`m. ${year}`);
+      if (spouse.marriage?.place) bits.push(spouse.marriage.place);
+      if (spouse.marriage?.status) bits.push(statusLabels[spouse.marriage.status] || spouse.marriage.status);
+      return bits.length ? `${spouse.name} — ${bits.join(" · ")}` : spouse.name;
+    });
+    elements.detailsContent.append(section("Marriages & partners", list(marriageItems, "No recorded partners.")));
     elements.detailsContent.append(section("Recorded names", list(person.nameVariants, "No name variants.")));
-    const sourceItems = person.sources.map((source) => `${source.id} — ${source.title}`);
-    elements.detailsContent.append(section("Sources", list(sourceItems, "No linked sources.")));
+    elements.detailsContent.append(section("Sources", sourceList(person.sources)));
     elements.detailsContent.append(section("Research notes", list(person.notes, "No public research notes.")));
   } else {
     const privacy = document.createElement("p");
@@ -311,30 +526,98 @@ function openDetails(personId) {
     elements.detailsContent.append(section("Privacy", privacy));
   }
 
+  if (!elements.detailsPanel.contains(document.activeElement)) {
+    lastFocused = document.activeElement;
+  }
   elements.detailsPanel.hidden = false;
   elements.backdrop.hidden = false;
   elements.closeDetails.focus();
+  state.selected = personId;
+  syncHash();
 }
 
 function closeDetails() {
   elements.detailsPanel.hidden = true;
   elements.backdrop.hidden = true;
+  state.selected = null;
+  syncHash();
+  if (lastFocused && lastFocused.isConnected && typeof lastFocused.focus === "function") {
+    lastFocused.focus();
+  }
+  lastFocused = null;
 }
 
 function bindEvents() {
   elements.rootSelect.addEventListener("change", () => {
     state.rootId = elements.rootSelect.value;
+    state.autoFit = true;
     renderTree();
+    syncHash();
   });
 
   elements.generationLimit.addEventListener("change", () => {
     state.generations = Number(elements.generationLimit.value);
+    state.autoFit = true;
     renderTree();
+    syncHash();
   });
+
+  elements.zoomIn.addEventListener("click", () => { state.autoFit = false; setZoom(state.zoom * 1.2); });
+  elements.zoomOut.addEventListener("click", () => { state.autoFit = false; setZoom(state.zoom / 1.2); });
+  elements.zoomFit.addEventListener("click", () => fitZoom());
+
+  elements.treeViewport.addEventListener("wheel", (event) => {
+    if (!(event.ctrlKey || event.metaKey)) return;
+    event.preventDefault();
+    state.autoFit = false;
+    setZoom(state.zoom * (event.deltaY < 0 ? 1.1 : 1 / 1.1));
+  }, { passive: false });
+
+  window.addEventListener("resize", () => { if (state.autoFit) fitZoom(); });
+
+  // Drag anywhere on the canvas to pan; a real drag suppresses the card click.
+  const viewport = elements.treeViewport;
+  viewport.addEventListener("pointerdown", (event) => {
+    if (event.button !== 0) return;
+    panState = {
+      id: event.pointerId,
+      x: event.clientX,
+      y: event.clientY,
+      left: viewport.scrollLeft,
+      top: viewport.scrollTop,
+      moved: false,
+    };
+  });
+  viewport.addEventListener("pointermove", (event) => {
+    if (!panState || event.pointerId !== panState.id) return;
+    const dx = event.clientX - panState.x;
+    const dy = event.clientY - panState.y;
+    if (!panState.moved && Math.hypot(dx, dy) < 5) return;
+    if (!panState.moved) {
+      panState.moved = true;
+      viewport.classList.add("is-panning");
+      viewport.setPointerCapture(panState.id);
+    }
+    viewport.scrollLeft = panState.left - dx;
+    viewport.scrollTop = panState.top - dy;
+  });
+  const endPan = () => {
+    if (!panState) return;
+    if (panState.moved) {
+      suppressClick = true;
+      setTimeout(() => { suppressClick = false; }, 0);
+    }
+    try { viewport.releasePointerCapture(panState.id); } catch { /* already released */ }
+    viewport.classList.remove("is-panning");
+    panState = null;
+  };
+  viewport.addEventListener("pointerup", endPan);
+  viewport.addEventListener("pointercancel", endPan);
 
   elements.showHypotheses.addEventListener("change", () => {
     state.showHypotheses = elements.showHypotheses.checked;
     renderTree();
+    syncHash();
   });
 
   elements.search.addEventListener("input", () => {
@@ -347,7 +630,9 @@ function bindEvents() {
       populatePersonSelect("");
       elements.search.value = "";
       elements.rootSelect.value = state.rootId;
+      state.autoFit = true;
       renderTree();
+      syncHash();
     }
   });
 
@@ -355,12 +640,14 @@ function bindEvents() {
     state.rootId = state.data.people["P-0001"] ? "P-0001" : Object.keys(state.data.people)[0];
     state.generations = 4;
     state.showHypotheses = true;
+    state.autoFit = true;
     elements.generationLimit.value = "4";
     elements.showHypotheses.checked = true;
     elements.search.value = "";
     populatePersonSelect();
     elements.rootSelect.value = state.rootId;
     renderTree();
+    syncHash();
   });
 
   elements.closeDetails.addEventListener("click", closeDetails);
@@ -378,13 +665,23 @@ async function initialise() {
     state.data = await response.json();
     state.rootId = state.data.people["P-0001"] ? "P-0001" : Object.keys(state.data.people)[0];
 
+    // Restore a shared/bookmarked view from the URL hash.
+    const hash = readHash();
+    if (hash.root && state.data.people[hash.root]) state.rootId = hash.root;
+    if (hash.gen && /^[2-8]$/.test(hash.gen)) state.generations = Number(hash.gen);
+    if (hash.hyp === "0") state.showHypotheses = false;
+
     populatePersonSelect();
     elements.rootSelect.value = state.rootId;
+    elements.generationLimit.value = String(state.generations);
+    elements.showHypotheses.checked = state.showHypotheses;
     elements.personCount.textContent = String(Object.keys(state.data.people).length);
     elements.familyCount.textContent = String(state.data.familyCount);
     elements.sourceCount.textContent = String(Object.keys(state.data.sources).length);
     elements.loading.hidden = true;
     renderTree();
+    if (hash.sel && state.data.people[hash.sel]) openDetails(hash.sel);
+    else syncHash();
   } catch (error) {
     elements.loading.hidden = true;
     elements.error.hidden = false;

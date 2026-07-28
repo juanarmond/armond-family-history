@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light dark">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Private, evidence-led ancestral tree for the Armond family.">
   <title>Armond Family History</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,7 +16,31 @@
       <h1>Armond Family History</h1>
       <p class="subtitle">Evidence-led ancestral tree generated directly from the repository's validated YAML records.</p>
     </div>
-    <div class="header-mark" aria-hidden="true">AFH</div>
+    <div class="brand-emblem" role="img" aria-label="Armond Family History emblem: a family-tree seal">
+      <svg viewBox="0 0 72 72" class="emblem" aria-hidden="true" focusable="false">
+        <circle cx="36" cy="36" r="32" fill="#fbf6ea"/>
+        <circle cx="36" cy="36" r="32" fill="none" stroke="#a9843f" stroke-width="2"/>
+        <circle cx="36" cy="36" r="27.5" fill="none" stroke="#c9a24b" stroke-width="1"/>
+        <g fill="none" stroke="#2f5d43" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M36 49 L36 44 L27 44 L27 39"/>
+          <path d="M36 49 L36 44 L45 44 L45 39"/>
+          <path d="M27 39 L27 34 L22 34 L22 29.5"/>
+          <path d="M27 39 L27 34 L32 34 L32 29.5"/>
+          <path d="M45 39 L45 34 L40 34 L40 29.5"/>
+          <path d="M45 39 L45 34 L50 34 L50 29.5"/>
+        </g>
+        <g fill="#a9843f">
+          <circle cx="22" cy="29.5" r="2"/>
+          <circle cx="32" cy="29.5" r="2"/>
+          <circle cx="40" cy="29.5" r="2"/>
+          <circle cx="50" cy="29.5" r="2"/>
+          <circle cx="27" cy="39" r="2.3"/>
+          <circle cx="45" cy="39" r="2.3"/>
+        </g>
+        <circle cx="36" cy="49" r="2.9" fill="#2f5d43"/>
+        <path d="M36 13.4 l1.5 3.05 3.35.45 -2.45 2.35 .6 3.3 -2.95 -1.6 -2.95 1.6 .6 -3.3 -2.45 -2.35 3.35 -.45 z" fill="#c9a24b"/>
+      </svg>
+    </div>
   </header>
 
   <main>
@@ -57,30 +83,39 @@
       <article><strong id="visible-count">—</strong><span>visible nodes</span></article>
     </section>
 
-    <section class="legend" aria-label="Evidence legend">
-      <span><i class="line confirmed"></i>Confirmed</span>
-      <span><i class="line strong-evidence"></i>Strong evidence</span>
-      <span><i class="line hypothesis"></i>Hypothesis</span>
-      <span><i class="line unknown"></i>Unspecified</span>
-    </section>
-
     <section class="tree-shell">
-      <div id="loading" class="loading" role="status">Loading the family archive…</div>
-      <div id="error" class="error" role="alert" hidden></div>
-      <div id="tree" class="tree" aria-live="polite"></div>
+      <div id="tree-controls" class="tree-controls" role="group" aria-label="Zoom controls" hidden>
+        <button id="zoom-out" type="button" aria-label="Zoom out">−</button>
+        <span id="zoom-level" aria-live="polite">100%</span>
+        <button id="zoom-in" type="button" aria-label="Zoom in">+</button>
+        <button id="zoom-fit" type="button">Fit</button>
+      </div>
+      <div id="tree-viewport" class="tree-viewport">
+        <div id="loading" class="loading" role="status">Loading the family archive…</div>
+        <div id="error" class="error" role="alert" hidden></div>
+        <div id="tree-sizer" class="tree-sizer">
+          <div id="tree-stage" class="tree-stage">
+            <div id="tree" class="tree" aria-live="polite"></div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
-  <aside id="details-panel" class="details-panel" aria-labelledby="details-title" hidden>
-    <button id="close-details" class="close-button" type="button" aria-label="Close person details">×</button>
-    <p id="details-id" class="eyebrow"></p>
-    <h2 id="details-title"></h2>
-    <p id="details-lifespan" class="details-lifespan"></p>
+  <aside id="details-panel" class="detail-panel" aria-labelledby="details-title" hidden>
+    <div class="detail-head">
+      <div>
+        <p id="details-id" class="detail-id"></p>
+        <h2 id="details-title" class="detail-title"></h2>
+        <p id="details-lifespan" class="detail-lifespan"></p>
+      </div>
+      <button id="close-details" class="close-button" type="button" aria-label="Close person details">×</button>
+    </div>
     <div id="details-content"></div>
   </aside>
   <div id="panel-backdrop" class="panel-backdrop" hidden></div>
 
-  <footer>
+  <footer class="site-footer">
     Read-only static visualisation. Repository YAML remains the canonical source of truth.
   </footer>
 

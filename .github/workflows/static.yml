@@ -74,8 +74,12 @@ jobs:
               "app.js",
               "data-loader.js",
               "static-api.js",
+              "favicon.svg",
           ):
               shutil.copy2(viewer / filename, output / filename)
+
+          # The viewer imports js-yaml from a vendored local module.
+          shutil.copytree(viewer / "vendor", output / "vendor")
 
           loader = output / "data-loader.js"
           loader.write_text(
