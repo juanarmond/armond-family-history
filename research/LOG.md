@@ -348,3 +348,19 @@ entry they amend; they must not erase it.
   without reading historical logs or opening the record-level YAML ledger.
 - Genealogical conclusions changed: none.
 - Next action: inspect Item 3 of baptism image group `004640627`.
+
+## 2026-07-28 — Aristão parish-register access review
+
+- Outcome: mapped the relevant baptism and later marriage volumes for Aristão
+  Ferreira Armond, including a previously unidentified Piacatuba baptism
+  target and the 1898–1920 Leopoldina marriage item.
+- Detailed log:
+  [`logs/2026-07-28-aristao-parish-register-access-review.md`](logs/2026-07-28-aristao-parish-register-access-review.md).
+- Access restriction: the relevant original images in groups `004640627` and
+  `004640632` display `Image Restricted` in the owner's authenticated session.
+- Negative-result limitation: structured-index and full-text searches returned
+  no qualifying target, but do not establish absence from the restricted
+  registers.
+- Genealogical conclusions changed: none.
+- Next action: obtain authorised register access; meanwhile audit all
+  direct-line FamilySearch Memories in Ahnentafel order.

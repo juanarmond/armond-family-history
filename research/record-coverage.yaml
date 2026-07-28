@@ -110,12 +110,12 @@ people:
     usage: lead_only
   records:
   - record_type: birth
-    status: lead_only
+    status: inaccessible
     source_ids: []
     last_reviewed: "2026-07-28"
     next_action: >-
-      Manually identify the indexes and 1879 entries in São Sebastião de
-      Leopoldina image group 004640627, beginning with Item 3 images 234-497.
+      Obtain authorised access and manually review image group 004640627 Item
+      3 and image group 004640632 Item 4 for the reported 1879 baptism.
     notes:
     - text: >-
         Exact, variant, parent-linked and full-text FamilySearch searches
@@ -123,20 +123,26 @@ people:
         absence from the unindexed parish images.
     - text: >-
         FamilySearch catalog 345430 identifies baptism coverage for 1878-1888
-        in image group 004640627. The internal volume boundaries and indexes
-        must be verified before the image range is treated as one sequence.
+        in image group 004640627 Item 3, images 234-497, and Piacatuba
+        baptisms for 1870-1905 in image group 004640632 Item 4, images 456-665.
+        Both original-image targets display Image Restricted in the owner's
+        authenticated session.
   - record_type: marriage
-    status: lead_only
+    status: inaccessible
     source_ids: []
     last_reviewed: "2026-07-28"
     next_action: >-
-      Identify the São Sebastião de Leopoldina parish marriage volume after
-      July 1897, then search the likely period through approximately 1915.
+      Obtain authorised access and manually review image group 004640632 Item
+      2, Leopoldina marriages from February 1898 to September 1920.
     notes:
     - text: >-
         Image group 004640631 Item 5 covers October 1889-July 1897 and probably
         ends before the target marriage; it was not treated as an exhaustive
         search.
+    - text: >-
+        Image group 004640632 Item 2, images 44-255, is the best currently
+        identified later marriage target. Its original images are restricted;
+        structured-index and full-text searches returned no qualifying record.
   - record_type: death
     status: catalogued
     source_ids:

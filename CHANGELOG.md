@@ -101,3 +101,7 @@ also remain traceable through source records and research logs.
   and longer-term strategic priorities.
 - Add a concise root README entry point linking directly to the current
   objective, next-step queue, agent instructions and research-history index.
+- Map Aristão Ferreira Armond's restricted baptism and marriage register
+  targets, document the exhausted searchable layers, mark both coverage rows
+  inaccessible, and advance the current objective to the direct-line
+  FamilySearch Memories audit.

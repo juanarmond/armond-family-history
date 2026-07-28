@@ -8,44 +8,43 @@
 
 ## Current objective
 
-Manually review São Sebastião de Leopoldina baptism image group `004640627`
-for Aristão Ferreira Armond's reported 1879 birth.
+Audit every FamilySearch Memory attached to the direct line, beginning with
+`P-0001` and proceeding in Ahnentafel order.
 
-Start with Item 3, images 234–497:
+For each profile:
 
-1. identify its internal title pages, volume boundaries and indexes;
-2. locate the 1879 sequence;
-3. inspect variants of `Armond`, `Armand` and `Ferreira Armond`, including
-   entries naming Simplicio and Eliza; and
-4. record the exact images reviewed, including a negative result if no
-   qualifying entry is found.
+1. record every Memory identifier, title, type and linked person;
+2. distinguish documents from photographs, newspapers and tree screenshots;
+3. identify duplicates and records already catalogued;
+4. privacy-review living-person material without retaining unnecessary files;
+5. preserve qualifying deceased-person records at the highest authorised
+   resolution; and
+6. update missing-record coverage only when the Memory supplies a relevant
+   record or a reproducible lead.
 
-Indexed and full-text searches returned no qualifying record. That does not
-establish absence from the unindexed images. Aristão's 1957 death registration
-is catalogued as `SRC-0006`; it reports `Simplicio Armand` and `Eliza Ferreira
-Armand` as his parents but does not establish their fuller collaborative-tree
-name forms.
+Aristão's baptism and marriage register targets are now identified but their
+original images are restricted in the current authenticated session.
 
 ### Objective completion signal
 
-- The relevant internal index and 1879 image range are identified and reviewed.
-- Positive, negative and inaccessible results are reproducibly logged.
-- Any qualifying image is inventoried, privacy-reviewed and source-catalogued.
-- Aristão's coverage entry and affected conclusions are updated without
-  promoting collaborative-tree assertions.
+- Every direct-line profile currently represented by `P-0001` through
+  `P-0017` has a reproducible Memories audit result.
+- Qualifying document Memories are deduplicated, privacy-reviewed and either
+  catalogued or queued with an exact next action.
+- No collaborative-tree assertion is promoted as evidence.
+- Retained images record their pixel dimensions, acquisition method and
+  highest-authorised-resolution status.
 
 ## Next steps
 
 This is the immediate execution queue, in order:
 
-1. **Now:** inspect Item 3 of image group `004640627`, identify the internal
-   index and review its 1879 baptism entries.
-2. **If Item 3 is inconclusive:** inspect the overlapping 1879 coverage in
-   Items 1 and 2, recording the exact image boundaries reviewed.
-3. **Then:** identify the São Sebastião de Leopoldina marriage volume after
-   July 1897 and review the likely 1897–1915 period for Aristão and Liliosa.
-4. **After the Aristão search is complete or genuinely blocked:** locate
-   Liliosa's own 1946 death or burial record.
+1. **Now:** audit Memories for `P-0001` onward in Ahnentafel order.
+2. **During intake:** retain only qualifying evidence and always use the
+   highest authorised resolution rather than thumbnails or screenshots.
+3. **Then:** continue the search for Liliosa's own 1946 death or burial record.
+4. **Human-access task:** review Aristão's restricted baptism and marriage
+   register targets when authorised access becomes available.
 
 Keep this queue short and actionable. Detailed person-by-record actions remain
 canonical in `research/record-coverage.yaml`; strategic branch order remains
@@ -57,15 +56,16 @@ under **Strategic research priorities** below.
   binaries and metadata were not transferred. Their descriptions remain
   preserved in the conversation-transfer audit, but exact document matching
   requires the original attachments.
-- The identified São Sebastião de Leopoldina marriage volume ends in July
-  1897, probably before Aristão and Liliosa married. A later volume must be
-  identified before a bounded marriage review.
+- FamilySearch image groups `004640627` and `004640632` contain the best
+  baptism and marriage targets for Aristão, but the relevant original images
+  display `Image Restricted`. Manual review requires authorised access through
+  a FamilySearch Center or Library, or the record custodian.
 - Archive enquiries, paid certificates and conservatory or parish requests
   require explicit user authorisation before submission.
 - Requiring the repository-health workflow in GitHub branch rules requires
   repository-administrator access.
 
-None of these dependencies prevents the current baptism-register review.
+None of these dependencies prevents the current Memories audit.
 
 ## Repository snapshot
 
@@ -126,15 +126,17 @@ material interpretation with its source and confidence.
 
 ## Strategic research priorities
 
-1. Complete the current Aristão baptism review, then identify the later
-   marriage series for Aristão and Liliosa.
+1. Complete the direct-line FamilySearch Memories audit and ingest qualifying
+   records without duplicating existing evidence.
 2. Locate Liliosa's own death, burial, birth or marriage record.
-3. Locate João Muniz Bittencourt and Suzana Ritta Brandão's marriage and
+3. Obtain authorised access to Aristão's identified baptism and marriage
+   register targets.
+4. Locate João Muniz Bittencourt and Suzana Ritta Brandão's marriage and
    earlier records.
-4. Recover the record describing Vicente José de Carvalho Guimarães as
+5. Recover the record describing Vicente José de Carvalho Guimarães as
    Portuguese, then identify his parish before searching Portugal.
-5. Catalogue João Gonçalves Bohrer and Selina Bohrer's own vital records.
-6. Extend the Engracio/Souza, Guimarães and Azevedo lines one documented
+6. Catalogue João Gonçalves Bohrer and Selina Bohrer's own vital records.
+7. Extend the Engracio/Souza, Guimarães and Azevedo lines one documented
    generation at a time.
 
 The canonical person-by-record actions and last-reviewed dates are maintained
