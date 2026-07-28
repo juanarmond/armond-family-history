@@ -1,0 +1,127 @@
+schema_version: 1
+id: SRC-0010
+title: >-
+  Full-content certificate of the 1915 Carvalho Guimarães collective birth
+  registration
+record_type: Civil birth registration full-content certificate
+record_category: civil_registration
+source_form: derivative
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1915-10-12"
+event_place_text: >-
+  São Francisco do Glória, Carangola, Minas Gerais, Brazil
+repository:
+  name: FamilySearch Family Tree source attachment
+  archive_or_registry: >-
+    Civil Registry Office of São Francisco do Glória, Carangola, Minas Gerais,
+    Brazil
+  collection: FamilySearch patron-contributed source artifact
+  book: 4-A
+  page: "23"
+  record_number: "38"
+  catalogue_reference: >-
+    FamilySearch artifact 217929351; Family Tree source attachment 7XVH-XDK;
+    original upload filename "certidao de nascimento.jpeg"; attached to Maria
+    Aurora Guimarães profile GQVR-167
+  url: https://www.familysearch.org/en/photos/artifacts/217929351
+  repository_path: >-
+    evidence/civil/SRC-0010-birth-registration-carvalho-guimaraes-siblings-1915-original.jpg
+access_date: "2026-07-28"
+language: pt-BR
+transcription: >-
+  Certifico e dou fé, que atendendo a pedido verbal de pessoa interessada, que
+  revendo em meu poder e Cartório, os Livros de Nascimento, encontrei sob o
+  n.º 38, do Livro n.º 4-A, às Folhas 23, o Registro que passa a ser aqui
+  transcrito. Aos doze dias do mês de Outubro de mil novecentos e quinze,
+  neste distrito de São Francisco do Glória, Município e Comarca de Carangola,
+  Estado de Minas Gerais, em cartório compareceu Francisco José de Carvalho
+  Guimarães e declarou que [...] vinha dar a registro os nascimentos de seus
+  filhos seguintes: José de Carvalho Guimarães, nascido a oito de novembro de
+  mil novecentos e um [...], Maria Amora Guimarães nascida a primeiro de
+  janeiro de mil novecentos e quatro [...], Maria da Conceição Guimarães,
+  nascida a oito de setembro de mil novecentos e seis [...], Sebastião José de
+  Carvalho Guimarães, nascido a dois de junho de mil novecentos e nove [...],
+  João José de Carvalho Guimarães, nascido [...] dezesseis de dezembro de mil
+  novecentos e doze, e Maria de Lourdes Guimarães nascida a vinte e quatro de
+  junho de mil novecentos e quinze [...]. Todos nasceram na fazenda do Barroso
+  deste Distrito, em domicilio e são filhos legítimos do declarante, natural
+  da Villa do Rio Claro e sua mulher Emmerenciana Maria de Jesus, natural
+  deste distrito, lavradores e residentes neste distrito. São seus avós
+  paternos Vicente José de Carvalho Guimarães, portuguez, fallecido na cidade
+  de Carangola e Maria Tertuliana da Conceição, natural da Villa do Rio Claro,
+  também fallecida na cidade de Carangola. São avós maternos Antonio Francisco
+  da Silva e Maria Paula de Jesus, naturaes deste districto, onde aquelle
+  falleceu e esta reside. [...] São Francisco do Glória, aos 11 de março de
+  2025.
+abstract: >-
+  A full-content certificate issued on 11 March 2025 transcribes record 38,
+  book 4-A, page 23, registered on 12 October 1915. Francisco José de Carvalho
+  Guimarães retrospectively registered six children born from 1901 through
+  1915 at Fazenda do Barroso, including Maria Amora Guimarães, born
+  1 January 1904. The record identifies his wife as Emmerenciana Maria de
+  Jesus; his parents as Vicente José de Carvalho Guimarães, described only as
+  Portuguese, and Maria Tertuliana da Conceição; and her parents as Antonio
+  Francisco da Silva and Maria Paula de Jesus.
+reliability:
+  assessment: >-
+    Direct derivative evidence for the statements recorded in 1915 and the
+    closest currently available record to Maria Amora's birth. It is a modern
+    certified transcription rather than an image of the 1915 register.
+  informant: >-
+    Francisco José de Carvalho Guimarães declared the children's births and
+    reported the parent and grandparent information in 1915.
+  limitations: >-
+    The children's births were registered retrospectively between about four
+    months and fourteen years after the events. The 2025 certificate is a
+    derivative and the original register image has not been inspected.
+    "Portuguez" supplies nationality only and cannot establish a Portuguese
+    district, municipality, island or parish.
+digital_file:
+  path: >-
+    evidence/civil/SRC-0010-birth-registration-carvalho-guimaraes-siblings-1915-original.jpg
+  sha256: 5e622c5fb8e91919f9f4af916a54ed469110cfb09b5f3b8b9c88e8593e230c0d
+linked_people:
+- P-0011
+- P-0021
+- P-0022
+- P-0023
+- P-0024
+- P-0025
+- P-0026
+linked_families:
+- F-0008
+- F-0009
+- F-0010
+linked_events:
+- E-0007
+- E-0008
+- E-0009
+- E-0010
+- E-0011
+- E-0012
+- E-0013
+- E-0014
+- E-0015
+- E-0016
+linked_places:
+- PL-0001
+- PL-0006
+- PL-0007
+- PL-0008
+private: true
+notes:
+- text: >-
+    The FamilySearch source title says only "Certidao de nascimento". The
+    artifact is a certificate for João José de Carvalho Guimarães that
+    transcribes one 1915 registration covering six siblings.
+- text: >-
+    FamilySearch's authorised Download action supplied the 768×1040 original
+    upload. No thumbnail, screenshot, crop or upscaled derivative is retained.
+- text: >-
+    The certificate contains official registration and authenticity
+    identifiers. Retain it in the private evidence collection and exclude it
+    from public derivatives.

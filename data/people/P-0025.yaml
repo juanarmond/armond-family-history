@@ -1,0 +1,16 @@
+schema_version: 1
+id: P-0025
+preferred_name: Antonio Francisco da Silva
+privacy: deceased
+name_variants:
+- value: Antonio Francisco da Silva
+  type: source
+  source_ids:
+  - SRC-0010
+event_ids:
+- E-0013
+- E-0014
+family_ids:
+- F-0010
+notes:
+- text: Ahnentafel position 46.

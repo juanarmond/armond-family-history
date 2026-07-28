@@ -1,0 +1,16 @@
+schema_version: 1
+id: P-0024
+preferred_name: Maria Tertuliana da Conceição
+privacy: deceased
+name_variants:
+- value: Maria Tertuliana da Conceição
+  type: source
+  source_ids:
+  - SRC-0010
+event_ids:
+- E-0011
+- E-0012
+family_ids:
+- F-0009
+notes:
+- text: Ahnentafel position 45.

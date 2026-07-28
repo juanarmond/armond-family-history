@@ -458,3 +458,27 @@ entry they amend; they must not erase it.
   provision date rather than a confirmed ceremony date.
 - Next action: while this request awaits explicit authorisation, recover the
   original record describing Vicente José de Carvalho Guimarães as Portuguese.
+
+## 2026-07-28 — Carvalho Guimarães collective registration ingestion
+
+- Outcome: recovered the certified record behind the transcript-only Vicente
+  lead and retained FamilySearch's authorised original-upload file at
+  768×1040.
+- Detailed log:
+  [`logs/2026-07-28-carvalho-guimaraes-registration-ingestion.md`](logs/2026-07-28-carvalho-guimaraes-registration-ingestion.md).
+- Source added: `SRC-0010`, a 2025 full-content certificate transcribing the
+  1915 collective registration of six Carvalho Guimarães siblings.
+- Genealogical conclusions changed: added six direct ancestors and three
+  source-qualified parent groups; structured the source-reported places and
+  events at `strong-evidence`.
+- Conflict added: the registration names the 1904 direct ancestor Maria Amora
+  Guimarães, while later family information uses Maria Aurora Guimarães.
+- Portuguese-origin limit: Vicente is described only as Portuguese; no
+  district, municipality, island or parish is stated.
+- Memories audit: the six newly identified direct-line profiles were checked.
+  Francisco and Emmerenciana share the already catalogued artifact; the four
+  grandparents have no Memories or attached sources.
+- New lead: an 1866 Vila do Rio Claro power of attorney names a Vicente José de
+  Carvalho Guimarães, but no relationship proves that he is `P-0023`.
+- Next action: test the 1866 identity and search Vicente's marriage and death
+  records for a Portuguese locality.

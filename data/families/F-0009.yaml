@@ -1,0 +1,28 @@
+schema_version: 1
+id: F-0009
+partners:
+- person_id: P-0023
+  role: parent
+- person_id: P-0024
+  role: parent
+children:
+- person_id: P-0021
+  parent_relationships:
+  - parent_id: P-0023
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - SRC-0010
+    notes: []
+  - parent_id: P-0024
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - SRC-0010
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    This group records the two people reported as Francisco's parents. It does
+    not assert a marriage or partnership between them.

@@ -132,3 +132,8 @@ also remain traceable through source records and research logs.
   Archdiocese's historical record that its chapel was the parish seat in 1882,
   and specify the exact Cúria Metropolitana request without treating the
   provision date as a completed marriage.
+- Recover and catalogue the 1915 Carvalho Guimarães collective birth
+  registration as `SRC-0010`; retain its authorised original-upload file,
+  structure six direct ancestors, three parent groups and the reported events
+  and places, preserve the Maria Amora/Aurora conflict, and keep Vicente's
+  Portuguese origin at nationality level until a parish is documented.

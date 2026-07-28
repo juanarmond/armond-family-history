@@ -1,0 +1,14 @@
+schema_version: 1
+id: E-0011
+event_type: birth
+date:
+  kind: unknown
+  text: The 1915 registration states only the birthplace.
+place_id: PL-0008
+participants:
+- person_id: P-0024
+  role: principal
+status: strong-evidence
+source_ids:
+- SRC-0010
+notes: []

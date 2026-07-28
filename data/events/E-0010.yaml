@@ -1,0 +1,17 @@
+schema_version: 1
+id: E-0010
+event_type: death
+date:
+  kind: unknown
+  text: Before the 12 October 1915 registration; exact date not stated.
+place_id: PL-0001
+participants:
+- person_id: P-0023
+  role: principal
+status: strong-evidence
+source_ids:
+- SRC-0010
+notes:
+- text: >-
+    The source describes Vicente as Portuguese but supplies no more precise
+    place of origin.

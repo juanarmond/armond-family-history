@@ -1,0 +1,14 @@
+schema_version: 1
+id: PL-0007
+preferred_name: >-
+  Fazenda do Barroso, São Francisco do Glória, Carangola, Minas Gerais, Brazil
+name_variants: []
+place_type: locality
+historical_jurisdiction: >-
+  Fazenda do Barroso in the District of São Francisco do Glória,
+  Municipality and Judicial District of Carangola, Minas Gerais, Brazil, in
+  1915
+parent_place_id: PL-0006
+source_ids:
+- SRC-0010
+notes: []

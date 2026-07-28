@@ -1,0 +1,21 @@
+schema_version: 1
+id: E-0007
+event_type: birth
+date:
+  kind: exact
+  value: "1904-01-01"
+place_id: PL-0007
+participants:
+- person_id: P-0011
+  role: principal
+- person_id: P-0021
+  role: parent
+- person_id: P-0022
+  role: parent
+status: strong-evidence
+source_ids:
+- SRC-0010
+notes:
+- text: >-
+    The registration was made retrospectively on 12 October 1915, more than
+    eleven years after the stated birth date.

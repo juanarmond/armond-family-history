@@ -1,0 +1,14 @@
+schema_version: 1
+id: E-0014
+event_type: death
+date:
+  kind: unknown
+  text: Before the 12 October 1915 registration; exact date not stated.
+place_id: PL-0006
+participants:
+- person_id: P-0025
+  role: principal
+status: strong-evidence
+source_ids:
+  - SRC-0010
+notes: []

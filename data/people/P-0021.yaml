@@ -1,0 +1,20 @@
+schema_version: 1
+id: P-0021
+preferred_name: Francisco José de Carvalho Guimarães
+privacy: deceased
+name_variants:
+- value: Francisco José de Carvalho Guimarães
+  type: source
+  source_ids:
+  - SRC-0010
+event_ids:
+- E-0008
+family_ids:
+- F-0008
+- F-0009
+notes:
+- text: Ahnentafel position 22.
+- text: >-
+    SRC-0010 reports him as a native of Vila do Rio Claro, a farmer resident
+    in São Francisco do Glória in 1915, and the declarant of the retrospective
+    registrations of six children.

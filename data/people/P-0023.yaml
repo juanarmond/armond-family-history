@@ -1,0 +1,18 @@
+schema_version: 1
+id: P-0023
+preferred_name: Vicente José de Carvalho Guimarães
+privacy: deceased
+name_variants:
+- value: Vicente José de Carvalho Guimarães
+  type: source
+  source_ids:
+  - SRC-0010
+event_ids:
+- E-0010
+family_ids:
+- F-0009
+notes:
+- text: Ahnentafel position 44.
+- text: >-
+    SRC-0010 describes Vicente only as "portuguez" and deceased in the city of
+    Carangola. It gives no Portuguese district, municipality, island or parish.

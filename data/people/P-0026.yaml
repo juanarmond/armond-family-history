@@ -1,0 +1,16 @@
+schema_version: 1
+id: P-0026
+preferred_name: Maria Paula de Jesus
+privacy: deceased
+name_variants:
+- value: Maria Paula de Jesus
+  type: source
+  source_ids:
+  - SRC-0010
+event_ids:
+- E-0015
+- E-0016
+family_ids:
+- F-0010
+notes:
+- text: Ahnentafel position 47.

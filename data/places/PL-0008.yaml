@@ -1,0 +1,14 @@
+schema_version: 1
+id: PL-0008
+preferred_name: Vila do Rio Claro, Rio de Janeiro, Brazil
+name_variants: []
+place_type: locality
+historical_jurisdiction: >-
+  Vila do Rio Claro, State of Rio de Janeiro, Brazil, as reported in a 1915
+  Minas Gerais civil registration
+source_ids:
+- SRC-0010
+notes:
+- text: >-
+    The record does not provide a more detailed historical jurisdiction. No
+    current equivalent is asserted here.

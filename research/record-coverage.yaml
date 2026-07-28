@@ -232,11 +232,15 @@ people:
     usage: lead_only
   records:
   - record_type: birth
-    status: lead_only
-    source_ids: []
+    status: catalogued
+    source_ids:
+    - SRC-0010
     last_reviewed: "2026-07-28"
-    next_action: Locate the civil birth registration around 1904.
-    notes: []
+    notes:
+    - text: >-
+        SRC-0010 is a 2025 full-content certificate of a 1915 retrospective
+        collective registration, not an image of the original register. It
+        names her Maria Amora Guimarães and gives 1 January 1904.
   - record_type: marriage
     status: lead_only
     source_ids: []
@@ -495,5 +499,177 @@ people:
     source_ids: []
     last_reviewed: "2026-07-28"
     next_action: Locate Susanna's own death or burial record.
+    notes: []
+  notes: []
+- person_id: P-0021
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: GH3B-TZQ
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate Francisco's own civil birth or parish baptism record.
+    notes:
+    - text: SRC-0010 reports only Vila do Rio Claro as his birthplace.
+  - record_type: marriage
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: >-
+      Locate his marriage to Emmerenciana Maria de Jesus, prioritising a record
+      that may identify Vicente's Portuguese locality.
+    notes:
+    - text: SRC-0010 describes Emmerenciana as his wife but gives no marriage details.
+  - record_type: death
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate Francisco's own death or burial record.
+    notes: []
+  notes: []
+- person_id: P-0022
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: GH3B-JQT
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate Emmerenciana's own civil birth or parish baptism record.
+    notes:
+    - text: SRC-0010 reports only São Francisco do Glória as her birthplace.
+  - record_type: marriage
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate her marriage to Francisco José de Carvalho Guimarães.
+    notes: []
+  - record_type: death
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate Emmerenciana's own death or burial record.
+    notes: []
+  notes: []
+- person_id: P-0023
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: P9CB-FLD
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: >-
+      Locate a record that gives Vicente's Portuguese district, municipality
+      or parish; do not convert nationality into a specific origin.
+    notes:
+    - text: SRC-0010 describes him only as Portuguese.
+  - record_type: marriage
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: >-
+      Locate a marriage to Maria Tertuliana da Conceição in Rio Claro,
+      Carangola or the surrounding jurisdictions.
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate Vicente's own Carangola civil death or parish burial record.
+    notes:
+    - text: >-
+        SRC-0010 says he was deceased in Carangola by 12 October 1915 but gives
+        no date or register reference.
+  notes:
+  - text: >-
+      Exact FamilySearch full-text searching found an 1866 power of attorney
+      naming a Vicente José de Carvalho Guimarães in Vila do Rio Claro. Identity
+      with P-0023 is not yet established.
+- person_id: P-0024
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: P9CB-VT5
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate Maria Tertuliana's own civil birth or parish baptism.
+    notes:
+    - text: SRC-0010 reports only Vila do Rio Claro as her birthplace.
+  - record_type: marriage
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate a marriage to Vicente José de Carvalho Guimarães.
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate her own Carangola civil death or parish burial record.
+    notes:
+    - text: SRC-0010 reports that she died in Carangola before 12 October 1915.
+  notes: []
+- person_id: P-0025
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: P9CB-VYK
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate Antonio Francisco's civil birth or parish baptism.
+    notes:
+    - text: SRC-0010 reports only São Francisco do Glória as his birthplace.
+  - record_type: marriage
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate a marriage or family record linking him to Maria Paula.
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate his own death or parish burial record.
+    notes:
+    - text: SRC-0010 reports that he died in São Francisco do Glória before 1915.
+  notes: []
+- person_id: P-0026
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: P9CB-6KT
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate Maria Paula's civil birth or parish baptism.
+    notes:
+    - text: SRC-0010 reports only São Francisco do Glória as her birthplace.
+  - record_type: marriage
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate a marriage or family record linking her to Antonio Francisco.
+    notes: []
+  - record_type: death
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate Maria Paula's own death or parish burial record after 1915.
     notes: []
   notes: []

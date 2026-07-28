@@ -1,13 +1,23 @@
 schema_version: 1
 id: P-0011
-preferred_name: Maria Aurora Guimarães
+preferred_name: Maria Amora Guimarães
 privacy: deceased
 name_variants:
+  - value: Maria Amora Guimarães
+    type: source
+    source_ids:
+      - SRC-0010
   - value: Maria Aurora Guimarães
     type: source
     source_ids:
       - SRC-0003
-event_ids: []
-family_ids: []
+event_ids:
+  - E-0007
+family_ids:
+  - F-0008
 notes:
   - text: Ahnentafel position 11.
+  - text: >-
+      The 1915 retrospective birth registration names her Maria Amora
+      Guimarães. The later family form Maria Aurora Guimarães is preserved as
+      a distinct variant pending ingestion of her death record.

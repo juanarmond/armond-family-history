@@ -1,0 +1,17 @@
+schema_version: 1
+id: E-0016
+event_type: residence
+date:
+  kind: exact
+  value: "1915-10-12"
+place_id: PL-0006
+participants:
+- person_id: P-0026
+  role: principal
+status: strong-evidence
+source_ids:
+  - SRC-0010
+notes:
+- text: >-
+    The source says Maria Paula resided in the district when the registration
+    was made; it does not provide a street or property.

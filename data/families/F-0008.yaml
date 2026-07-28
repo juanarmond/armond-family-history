@@ -1,0 +1,38 @@
+schema_version: 1
+id: F-0008
+partners:
+- person_id: P-0021
+  role: spouse
+- person_id: P-0022
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - SRC-0010
+  notes:
+  - text: >-
+      The 1915 registration describes Emmerenciana as Francisco's wife. No
+      marriage date or place is supplied.
+children:
+- person_id: P-0011
+  parent_relationships:
+  - parent_id: P-0021
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - SRC-0010
+    notes: []
+  - parent_id: P-0022
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - SRC-0010
+    notes: []
+  notes: []
+event_ids:
+- E-0007
+notes:
+- text: >-
+    The source calls the six registered children legitimate children of the
+    declarant and his wife. The source is a certified derivative, so these
+    assertions remain strong evidence rather than confirmed.

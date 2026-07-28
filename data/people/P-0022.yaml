@@ -1,0 +1,19 @@
+schema_version: 1
+id: P-0022
+preferred_name: Emmerenciana Maria de Jesus
+privacy: deceased
+name_variants:
+- value: Emmerenciana Maria de Jesus
+  type: source
+  source_ids:
+  - SRC-0010
+event_ids:
+- E-0009
+family_ids:
+- F-0008
+- F-0010
+notes:
+- text: Ahnentafel position 23.
+- text: >-
+    SRC-0010 reports her as a native of São Francisco do Glória and a farmer
+    resident there in 1915.
