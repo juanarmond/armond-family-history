@@ -1,0 +1,79 @@
+schema_version: 1
+id: SRC-0007
+title: >-
+  Full-content certified marriage record of Deocleciano Muniz Bittencourt and
+  Luiza Fernandes de Azevedo
+record_type: Three-page civil marriage certificate
+record_category: civil_registration
+source_form: derivative
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1916-10-21"
+event_place_text: Carangola, Minas Gerais, Brazil
+repository:
+  name: FamilySearch Memories
+  archive_or_registry: >-
+    First Civil Registry Office, District of the City of Carangola, Minas
+    Gerais, Brazil
+  collection: FamilySearch Memories
+  book: 8-B
+  page: "118"
+  record_number: "62"
+  catalogue_reference: >-
+    FamilySearch Memory artifacts 89626504, 89626465 and 89626366; upload files
+    20190724_170232~2.jpg, IMG-20190724-WA0293~2.jpeg and
+    IMG-20190724-WA0295~2.jpeg
+  url: https://www.familysearch.org/en/memories/memory/89626504
+  repository_path: evidence/civil/SRC-0007-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-01.jpg
+access_date: "2026-07-28"
+language: pt-BR
+transcription: >-
+  [Page 1.] REPÚBLICA FEDERATIVA DO BRASIL. REGISTRO CIVIL DAS PESSOAS
+  NATURAIS. CERTIDÃO DE INTEIRO TEOR. MATRÍCULA: 0511100155 1916 2 00008 118
+  0000062 02. Certifico que dos arquivos do Cartório a meu cargo, consta o
+  inteiro teor fielmente reproduzido [...] referente ao livro 8 B, folha 118 e
+  termo 62, onde contém o registro de Casamento de DEOCLECIANO MUNIZ
+  BITTENCOURT e LUIZA FERNANDES DE AZEVEDO [...]. Contém 3 (três) laudas. [...]
+  Carangola-MG, 15 de julho de 2019. [Pages 2–3 reproduce the handwritten
+  marriage entry; a complete diplomatic transcription remains pending because
+  the photographed writing is low contrast.]
+abstract: >-
+  A three-page full-content certificate issued on 15 July 2019 reproduces the
+  1916 marriage entry for Deocleciano Muniz Bittencourt and Luiza Fernandes de
+  Azevedo in book 8-B, page 118, record 62 of the Carangola civil registry. It
+  independently identifies the same marriage record already represented by
+  SRC-0001 while preserving a longer reproduction of the underlying entry.
+reliability:
+  assessment: >-
+    Direct derivative evidence for the marriage event. The 2019 registrar's
+    certificate reproduces the 1916 entry and supplies the archival locator.
+  informant: The spouses' declarations as reproduced from the 1916 register.
+  limitations: >-
+    This is a modern certified derivative rather than the register volume
+    itself. The three authorised original-upload photographs are skewed and
+    parts of the handwritten reproduction are low contrast; no uncertain text
+    has been supplied from the collaborative tree.
+digital_file:
+  path: evidence/civil/SRC-0007-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-01.jpg
+  sha256: 5093f67e9a2528510714275a123c85ea2fd558042cc03cb9b56f167c3162736b
+linked_people:
+  - P-0012
+  - P-0013
+linked_families:
+  - F-0001
+linked_events:
+  - E-0001
+linked_places:
+  - PL-0001
+private: true
+notes:
+  - text: >-
+      The three Memory artifacts form one three-page certificate and are
+      catalogued as one source, not three independent sources.
+  - text: >-
+      Page 1 contains registry contact information, official signatures, a
+      digital seal and fee information. All pages are private evidence and
+      must be excluded from public derivatives.

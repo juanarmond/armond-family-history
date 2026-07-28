@@ -19,7 +19,7 @@ repository:
     FamilySearch source SVMX-ZJ4; Memory artifact 101538413; storage identifier
     TH-904-96953-4744-84
   url: https://www.familysearch.org/en/memories/memory/101538413
-  repository_path: evidence/civil/SRC-0005-marriage-antenor-muniz-iris-bohrer-1949-reconstructed.png
+  repository_path: evidence/civil/SRC-0005-marriage-antenor-muniz-iris-bohrer-1949-original.jpg
 access_date: "2026-07-28"
 language: pt-BR
 transcription: >-
@@ -47,11 +47,11 @@ reliability:
   limitations: >-
     The photographed certificate is folded, taped, stained and partly obscured.
     Book, page, record number and several vital-detail fields cannot be read
-    safely. The retained PNG is reconstructed from viewer tiles rather than the
-    originally uploaded JPEG.
+    safely. The repository retains the originally uploaded JPEG at its
+    authorised download resolution.
 digital_file:
-  path: evidence/civil/SRC-0005-marriage-antenor-muniz-iris-bohrer-1949-reconstructed.png
-  sha256: 8cc99154ddcaf55a2793d1f11ba2ba8a5e09f514c5470f272cafb4d4ec66b001
+  path: evidence/civil/SRC-0005-marriage-antenor-muniz-iris-bohrer-1949-original.jpg
+  sha256: 32719dcd87a06322013b0760a5a0745ad713f86876a6fd05d7dd8516420f631e
 linked_people:
 - P-0006
 - P-0007

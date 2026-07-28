@@ -27,7 +27,7 @@ repository:
     3:1:S3HT-XC74-4TK; image group #004366686, item 4; original-image storage
     ID TH-266-12875-196099-17
   url: https://www.familysearch.org/ark:/61903/1:1:77D4-J23Z
-  repository_path: evidence/civil/SRC-0006-death-aristao-ferreira-armond-1957-reconstructed.png
+  repository_path: evidence/civil/SRC-0006-death-aristao-ferreira-armond-1957-original.jpg
 access_date: "2026-07-28"
 language: pt-BR
 transcription: >-
@@ -51,12 +51,11 @@ reliability:
     The handwriting is low contrast and several fields remain unsafe to
     transcribe. The FamilySearch index badly mistranscribes Aristão's name as
     "Axstai Ferreira Armand Armand" and duplicates part of his mother's
-    surname. The retained PNG is a pixel-preserving reconstruction from the
-    original-image viewer's complete Deep Zoom tile set, not a controlled
-    FamilySearch download.
+    surname. The retained JPEG is FamilySearch's authorised `JPG Only`
+    download from the original-image ARK.
 digital_file:
-  path: evidence/civil/SRC-0006-death-aristao-ferreira-armond-1957-reconstructed.png
-  sha256: 1fe17dd798c6754613aac5e3d3ea3bf006bbb803d32df4258698bdcde5e32456
+  path: evidence/civil/SRC-0006-death-aristao-ferreira-armond-1957-original.jpg
+  sha256: 1ab59e308d28c2a069918b17864542d615e491182fc50950453f137fd3746b8b
 linked_people:
 - P-0008
 - P-0016

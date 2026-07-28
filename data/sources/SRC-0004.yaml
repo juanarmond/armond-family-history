@@ -24,7 +24,7 @@ repository:
     #004366687; original-image storage ID TH-266-11612-78888-32; Memory storage
     ID TH-904-96969-238-86
   url: https://www.familysearch.org/ark:/61903/1:1:77DD-TX6Z
-  repository_path: evidence/civil/SRC-0004-death-geraldo-paz-armond-1991-reconstructed.png
+  repository_path: evidence/civil/SRC-0004-death-geraldo-paz-armond-1991-original.jpg
 access_date: "2026-07-28"
 language: pt-BR
 transcription: >-
@@ -52,12 +52,11 @@ reliability:
   informant: The declarant's name is not safely legible in the retained image.
   limitations: >-
     Some handwriting is faint. The FamilySearch index duplicates surnames and
-    conflicts with the apparent handwritten record number. The retained PNG is
-    a pixel-preserving reconstruction of the user-uploaded register image, not
-    the downloadable FamilySearch JPG.
+    conflicts with the apparent handwritten record number. The retained JPEG is
+    FamilySearch's authorised `JPG Only` download from the original-image ARK.
 digital_file:
-  path: evidence/civil/SRC-0004-death-geraldo-paz-armond-1991-reconstructed.png
-  sha256: f0b8db131c7aa448e711ef6c5222d80deedbd0506801830d52e751c165bdc7e3
+  path: evidence/civil/SRC-0004-death-geraldo-paz-armond-1991-original.jpg
+  sha256: c4188e3a81f1547a7db4b178246e4154505798188b6aef05300321d41acdee8d
 linked_people:
   - P-0004
   - P-0005
@@ -73,9 +72,9 @@ private: true
 notes:
   - text: >-
       The same register page was inspected through the original-image ARK.
-      FamilySearch's controlled JPG download dialog did not produce a file in
-      the Codex browser. The identical page uploaded as a Memory was therefore
-      reconstructed from its complete level-11 Deep Zoom tile set.
+      A later viewer pass successfully produced the authorised full-resolution
+      JPG, which supersedes the earlier tile reconstruction in the current
+      worktree. The reconstruction remains recoverable from Git history.
   - text: >-
       The full register image includes an unrelated death entry and medical,
       address and signature data. Retain it only in this private repository.

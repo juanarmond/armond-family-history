@@ -16,13 +16,13 @@ documents:
       28 July 2026 through the authenticated memory viewer.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-reconstructed.png
-        sha256: 3444e92ef729f2e76a54ea7ace3f5611cd4509457a9ffb4dee59f537bc46c248
-        media_type: image/png
+      - path: evidence/civil/SRC-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-original.jpg
+        sha256: d52385720d3cb0024df19cf650cb5bb79a1bd8af02947fcf7eaa80cae52d6249
+        media_type: image/jpeg
         role: primary
         preservation:
-          acquisition_method: complete-viewer-tile-export
-          resolution_status: highest-authorised
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
           pixel_width: 718
           pixel_height: 1205
         privacy_review: cleared
@@ -33,10 +33,9 @@ documents:
     proposed_source_id: SRC-0001
     notes:
       - >-
-        Reconstructed from the complete set of fifteen level-11 Deep Zoom JPEG
-        tiles exposed by the FamilySearch viewer. The PNG preserves the decoded
-        tile pixels after removal of one-pixel tile overlaps; it is not the
-        originally uploaded JPEG.
+        The originally uploaded JPEG was recovered through FamilySearch's
+        authorised download. It supersedes the earlier level-11 tile
+        reconstruction, which remains recoverable from Git history.
       - >-
         The issuing registrar's signature and office contact details are
         retained because they form part of the certificate's authentication.
@@ -59,15 +58,15 @@ documents:
       memory viewer.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-reconstructed.png
-        sha256: bfbdd146e7960966861e9e9bdaf25f8b2ace608ab1e1efde1ac9fc400c87b58c
-        media_type: image/png
+      - path: evidence/civil/SRC-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-original.jpg
+        sha256: 0def5d0019ea5167146f2f6528714b1e952837b78af5f51536aaa47cbcd01edc
+        media_type: image/jpeg
         role: primary
         preservation:
-          acquisition_method: complete-viewer-tile-export
-          resolution_status: highest-authorised
-          pixel_width: 756
-          pixel_height: 1008
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+          pixel_width: 3024
+          pixel_height: 4032
         privacy_review: cleared
         sensitive_content:
           - signature
@@ -80,9 +79,9 @@ documents:
         preservation file. The omitted views remain recoverable from Git commit
         3dc9c5e.
       - >-
-        The PNG was reconstructed from a complete twelve-tile level-10 Deep
-        Zoom set after removing one-pixel tile overlaps. No content was added,
-        removed or enhanced.
+        FamilySearch's authorised download returned the originally uploaded
+        3024×4032 JPEG for IMG_2211.JPG. It supersedes the earlier 756×1008
+        tile reconstruction, which remains recoverable from Git history.
       - >-
         Opaque tape and physical loss obscure material text. Unreadable fields
         remain explicitly unresolved rather than inferred from the
@@ -109,15 +108,15 @@ documents:
       28 July 2026 through the authenticated FamilySearch viewer.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0004-death-geraldo-paz-armond-1991-reconstructed.png
-        sha256: f0b8db131c7aa448e711ef6c5222d80deedbd0506801830d52e751c165bdc7e3
-        media_type: image/png
+      - path: evidence/civil/SRC-0004-death-geraldo-paz-armond-1991-original.jpg
+        sha256: c4188e3a81f1547a7db4b178246e4154505798188b6aef05300321d41acdee8d
+        media_type: image/jpeg
         role: primary
         preservation:
-          acquisition_method: complete-viewer-tile-export
-          resolution_status: highest-authorised
-          pixel_width: 1196
-          pixel_height: 868
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+          pixel_width: 4783
+          pixel_height: 3469
         privacy_review: cleared
         sensitive_content:
           - address
@@ -128,13 +127,10 @@ documents:
     proposed_source_id: SRC-0004
     notes:
       - >-
-        Reconstructed from all twenty level-11 Deep Zoom tiles exposed by the
-        FamilySearch Memory viewer. One-pixel tile overlaps were removed to
-        produce a 1196×868 PNG without cropping, enhancement or added content.
-      - >-
-        A controlled JPG download from the original-image viewer was attempted
-        but did not yield a file. The retained Memory image depicts the same
-        register page inspected through the archival image ARK.
+        FamilySearch's `JPG Only` option returned a 4783×3469 authorised
+        download from the original-image ARK. It supersedes the earlier
+        1196×868 tile reconstruction, which remains recoverable from Git
+        history.
       - >-
         The full page contains an unrelated death entry as well as address,
         medical and signature information. It is private evidence and must not
@@ -166,15 +162,15 @@ documents:
       GQJ1-HG4 had no attached sources.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0005-marriage-antenor-muniz-iris-bohrer-1949-reconstructed.png
-        sha256: 8cc99154ddcaf55a2793d1f11ba2ba8a5e09f514c5470f272cafb4d4ec66b001
-        media_type: image/png
+      - path: evidence/civil/SRC-0005-marriage-antenor-muniz-iris-bohrer-1949-original.jpg
+        sha256: 32719dcd87a06322013b0760a5a0745ad713f86876a6fd05d7dd8516420f631e
+        media_type: image/jpeg
         role: primary
         preservation:
-          acquisition_method: complete-viewer-tile-export
-          resolution_status: highest-authorised
-          pixel_width: 612
-          pixel_height: 816
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+          pixel_width: 2448
+          pixel_height: 3264
         privacy_review: cleared
         sensitive_content:
           - signature
@@ -182,9 +178,9 @@ documents:
     proposed_source_id: SRC-0005
     notes:
       - >-
-        Reconstructed from all twelve level-10 Deep Zoom tiles exposed by the
-        FamilySearch viewer. One-pixel overlaps were removed to produce a
-        612×816 PNG without cropping, enhancement or added content.
+        FamilySearch's authorised download returned the originally uploaded
+        2448×3264 JPEG. It supersedes the earlier 612×816 tile reconstruction,
+        which remains recoverable from Git history.
       - >-
         The certificate is folded, taped, stained and partly obscured. Unsafe
         readings remain omitted rather than supplied from the collaborative
@@ -209,15 +205,15 @@ documents:
       FamilySearch viewer.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0006-death-aristao-ferreira-armond-1957-reconstructed.png
-        sha256: 1fe17dd798c6754613aac5e3d3ea3bf006bbb803d32df4258698bdcde5e32456
-        media_type: image/png
+      - path: evidence/civil/SRC-0006-death-aristao-ferreira-armond-1957-original.jpg
+        sha256: 1ab59e308d28c2a069918b17864542d615e491182fc50950453f137fd3746b8b
+        media_type: image/jpeg
         role: primary
         preservation:
-          acquisition_method: complete-viewer-tile-export
-          resolution_status: highest-authorised
-          pixel_width: 1093
-          pixel_height: 835
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+          pixel_width: 4372
+          pixel_height: 3340
         privacy_review: cleared
         sensitive_content:
           - address
@@ -228,9 +224,10 @@ documents:
     proposed_source_id: SRC-0006
     notes:
       - >-
-        Reconstructed from all twenty level-11 Deep Zoom tiles exposed by the
-        original-image viewer. One-pixel tile overlaps were removed to produce
-        a 1093×835 PNG without cropping, enhancement or added content.
+        FamilySearch's `JPG Only` option returned a 4372×3340 authorised
+        download from the original-image ARK. It supersedes the earlier
+        1093×835 tile reconstruction, which remains recoverable from Git
+        history.
       - >-
         The FamilySearch index corrupts Aristão's given name and repeats
         surname text. Identity and event conclusions rely on the register
@@ -239,3 +236,69 @@ documents:
         The full page contains an unrelated death entry as well as address,
         medical and signature information. It is private evidence and must not
         be included in public exports.
+  - inventory_id: DOC-0006
+    status: catalogued
+    added_date: "2026-07-28"
+    apparent_record_type: Three-page full-content civil marriage certificate
+    apparent_people:
+      - Deocleciano Muniz Bittencourt
+      - Luiza Fernandes de Azevedo
+    apparent_event: marriage
+    image_quality: partly-illegible
+    provenance: >-
+      FamilySearch Memories 89626504, 89626465 and 89626366, titled "Certidão
+      Inteiro Teor Deocleciano Bittencourt", "Certidão Inteiro Teor 2" and
+      "Certidão Inteiro Teor 3", contributed by ALEXANDREMUNIZ1 on 24 July
+      2019 and attached to profiles GQVM-3QD and GQVM-4YJ. Accessed and
+      downloaded through the owner's authenticated session on 28 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/civil/SRC-0007-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-01.jpg
+        sha256: 5093f67e9a2528510714275a123c85ea2fd558042cc03cb9b56f167c3162736b
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+          pixel_width: 2336
+          pixel_height: 3690
+        privacy_review: cleared
+        sensitive_content:
+          - address
+          - signature
+          - financial
+      - path: evidence/civil/SRC-0007-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-02.jpg
+        sha256: a1d382696a0e2ea073d7b51123931e46da4839f0ae30c63b841a77e809e739b7
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+          pixel_width: 2336
+          pixel_height: 3780
+        privacy_review: cleared
+        sensitive_content:
+          - signature
+      - path: evidence/civil/SRC-0007-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-03.jpg
+        sha256: 3a70a68ecffc225583802bae00345030da3baabb5dee149e982304d87653a579
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+          pixel_width: 2336
+          pixel_height: 3869
+        privacy_review: cleared
+        sensitive_content:
+          - signature
+    duplicate_of: null
+    proposed_source_id: SRC-0007
+    notes:
+      - >-
+        The three Memories are successive pages of one certificate and are
+        catalogued as one source. The files are the byte-preserved authorised
+        downloads, not screenshots or viewer reconstructions.
+      - >-
+        This 2019 full-content certificate describes the same 1916 marriage as
+        SRC-0001 but is a distinct certified manifestation with longer text.
+        It is not treated as an independent original register entry.

@@ -255,6 +255,7 @@ people:
     status: catalogued
     source_ids:
     - SRC-0001
+    - SRC-0007
     last_reviewed: "2026-07-28"
     notes: []
   - record_type: death
@@ -282,6 +283,7 @@ people:
     status: catalogued
     source_ids:
     - SRC-0001
+    - SRC-0007
     last_reviewed: "2026-07-28"
     notes: []
   - record_type: death

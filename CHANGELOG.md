@@ -108,3 +108,11 @@ also remain traceable through source records and research logs.
 - Require highest-authorised-resolution evidence retention, record acquisition
   and resolution status with encoded pixel dimensions, and validate PNG/JPEG
   dimensions while rejecting catalogued lower-resolution working copies.
+- Audit all known direct-line FamilySearch Memories in Ahnentafel order,
+  identify shared and non-record artifacts, document a living-person visibility
+  risk, and catalogue the three-page 2019 full-content Deocleciano–Luiza
+  marriage certificate as `SRC-0007`.
+- Replace five viewer-tile reconstructions with authorised original-file or
+  original-image JPEG downloads, increasing retained resolution by up to
+  sixteen times in pixel area while keeping superseded files recoverable in Git
+  history.

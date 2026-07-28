@@ -24,7 +24,7 @@ repository:
   record_number: "62"
   catalogue_reference: FamilySearch memory storage ID TH-904-91822-179-82
   url: https://www.familysearch.org/en/tree/person/memories/GQVM-3QD
-  repository_path: evidence/civil/SRC-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-reconstructed.png
+  repository_path: evidence/civil/SRC-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-original.jpg
 access_date: "2026-07-28"
 language: pt-BR
 transcription: >-
@@ -55,11 +55,11 @@ reliability:
   informant: The spouses' declarations as entered in the 1916 marriage register.
   limitations: >-
     This is a 2004 certified derivative rather than an image of the 1916
-    register entry. The repository file was reconstructed from FamilySearch
-    Deep Zoom tiles and is not the originally uploaded JPEG.
+    register entry. The repository retains the originally uploaded JPEG at its
+    authorised download resolution.
 digital_file:
-  path: evidence/civil/SRC-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-reconstructed.png
-  sha256: 3444e92ef729f2e76a54ea7ace3f5611cd4509457a9ffb4dee59f537bc46c248
+  path: evidence/civil/SRC-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-original.jpg
+  sha256: d52385720d3cb0024df19cf650cb5bb79a1bd8af02947fcf7eaa80cae52d6249
 linked_people:
   - P-0012
   - P-0013

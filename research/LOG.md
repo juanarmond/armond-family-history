@@ -379,3 +379,22 @@ entry they amend; they must not erase it.
 - Next action: replace technical reconstructions with authorised original-file
   downloads when FamilySearch supplies them, retaining provenance and Git
   recovery history.
+
+## 2026-07-28 — Direct-line FamilySearch Memories audit
+
+- Outcome: audited every known FamilySearch Memories page from `P-0001`
+  through `P-0015`, deduplicated shared artifacts and distinguished records
+  from photographs, newspapers, academic material and a genealogical display.
+- Detailed log:
+  [`logs/2026-07-28-familysearch-direct-line-memories-audit.md`](logs/2026-07-28-familysearch-direct-line-memories-audit.md).
+- Source added: catalogued the three-page 2019 full-content certificate of the
+  1916 Deocleciano–Luiza marriage as `SRC-0007`.
+- Preservation improvement: replaced five technical reconstructions with
+  authorised original-file or original-image JPEG downloads; the prior files
+  remain recoverable from Git history.
+- Privacy blocker: six civil PDFs concerning living people are attached to
+  `P-0001` as Public Memories. They were not downloaded; changing visibility
+  requires explicit owner authorisation.
+- Genealogical conclusions changed: none; `SRC-0007` independently supports
+  the already catalogued 1916 marriage at `strong-evidence`.
+- Next action: locate Liliosa's own 1946 death or burial record.

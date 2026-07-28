@@ -9,6 +9,7 @@ partner_relationship:
   status: strong-evidence
   source_ids:
     - SRC-0001
+    - SRC-0007
   notes: []
 children:
   - person_id: P-0006

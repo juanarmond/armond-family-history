@@ -24,7 +24,7 @@ repository:
     FamilySearch memory storage IDs TH-904-96968-1121-80,
     TH-904-96968-1120-79 and TH-904-96968-1122-81
   url: https://www.familysearch.org/en/tree/person/memories/GQJ1-RVK
-  repository_path: evidence/civil/SRC-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-reconstructed.png
+  repository_path: evidence/civil/SRC-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-original.jpg
 access_date: "2026-07-28"
 language: pt-BR
 transcription: >-
@@ -52,11 +52,11 @@ reliability:
   limitations: >-
     The certificate is severely damaged and repaired with opaque tape. Several
     words, including portions of the parentage and certification text, cannot
-    be read safely. The repository images were reconstructed from FamilySearch
-    Deep Zoom tiles and are not the originally uploaded JPEGs.
+    be read safely. The repository retains the originally uploaded JPEG for the
+    clearest of the three reviewed photographs.
 digital_file:
-  path: evidence/civil/SRC-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-reconstructed.png
-  sha256: bfbdd146e7960966861e9e9bdaf25f8b2ace608ab1e1efde1ac9fc400c87b58c
+  path: evidence/civil/SRC-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-original.jpg
+  sha256: 0def5d0019ea5167146f2f6528714b1e952837b78af5f51536aaa47cbcd01edc
 linked_people:
   - P-0004
   - P-0005
