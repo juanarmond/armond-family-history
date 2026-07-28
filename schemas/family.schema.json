@@ -7,7 +7,6 @@
   "required": [
     "id",
     "partners",
-    "partner_relationship",
     "children",
     "event_ids",
     "notes"
@@ -101,5 +100,21 @@
     "notes": {
       "$ref": "common.schema.json#/$defs/notes"
     }
-  }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "partners": {
+            "minItems": 2
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "partner_relationship"
+        ]
+      }
+    }
+  ]
 }

@@ -67,8 +67,8 @@ structured conclusions.
 
 For each distinct retained source:
 
-1. Determine the next unused sequential `SRC-NNNN` identifier from
-   `data/sources/` and repository history.
+1. Allocate the `SRC-NNNN` identifier shown in `data/id-ledger.yaml` and advance
+   the ledger in the same commit.
 2. Rename the evidence file according to `evidence/README.md`.
 3. Create `data/sources/SRC-NNNN.yaml` from the source template.
 4. Create a detailed Markdown source record when a full transcription or

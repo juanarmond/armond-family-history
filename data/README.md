@@ -17,6 +17,11 @@ Use one entity per file and name the file after its identifier, for example
 not working notes. Record incomplete searches and tentative reasoning under
 `research/`.
 
+Allocate every identifier through `id-ledger.yaml`. Advance the corresponding
+`next_ids` value in the same commit as a new entity. If an allocated entity is
+removed, add its identifier to `retired_ids`; never fill the gap with a
+different entity.
+
 Do not add a person merely because a collaborative tree contains a profile.
 Create structured entities only when the supporting source or explicit
 research lead has also been catalogued.

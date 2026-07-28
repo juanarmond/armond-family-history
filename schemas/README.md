@@ -7,6 +7,8 @@ remaining independent of the YAML parser.
 ## Design principles
 
 - One entity per file, with the identifier repeated in the filename.
+- `data/id-ledger.yaml` allocates identifiers sequentially and preserves retired
+  identifiers so they cannot be silently reused.
 - Relationships and events carry confidence and source citations.
 - Source-specific name spellings remain distinct from the preferred display
   name.
@@ -89,3 +91,19 @@ notes: []
 ```
 
 See `templates/entities/` for copyable YAML skeletons.
+
+## Validation
+
+Install the local tooling and run all checks:
+
+```console
+uv sync
+uv run make check
+```
+
+The validator checks schema rules, filename and identifier agreement, the ID
+ledger, cross-file references, evidence quality behind confirmed conclusions,
+collaborative-tree usage, evidence-file checksums, living-person privacy,
+possible duplicate identities and parent-child chronology. Duplicate-identity
+findings are warnings because distinct people can share a name and date; they
+require human review rather than automatic merging.

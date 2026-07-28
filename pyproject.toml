@@ -1,0 +1,12 @@
+[project]
+name = "armond-family-history"
+version = "0.1.0"
+description = "Validation tooling for a private evidence-led genealogy repository"
+requires-python = ">=3.11"
+dependencies = [
+    "jsonschema>=4.23,<5",
+    "PyYAML>=6,<7",
+]
+
+[tool.uv]
+package = false

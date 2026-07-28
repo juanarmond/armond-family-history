@@ -2,6 +2,8 @@ id: F-NNNN
 partners:
   - person_id: P-NNNN
     role: spouse
+  - person_id: P-NNNN
+    role: spouse
 partner_relationship:
   status: hypothesis
   source_ids:

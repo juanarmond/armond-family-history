@@ -5,23 +5,23 @@
   "$defs": {
     "personId": {
       "type": "string",
-      "pattern": "^P-[0-9]{4}$"
+      "pattern": "^P-(?!0000$)[0-9]{4}$"
     },
     "familyId": {
       "type": "string",
-      "pattern": "^F-[0-9]{4}$"
+      "pattern": "^F-(?!0000$)[0-9]{4}$"
     },
     "eventId": {
       "type": "string",
-      "pattern": "^E-[0-9]{4}$"
+      "pattern": "^E-(?!0000$)[0-9]{4}$"
     },
     "placeId": {
       "type": "string",
-      "pattern": "^PL-[0-9]{4}$"
+      "pattern": "^PL-(?!0000$)[0-9]{4}$"
     },
     "sourceId": {
       "type": "string",
-      "pattern": "^SRC-[0-9]{4}$"
+      "pattern": "^SRC-(?!0000$)[0-9]{4}$"
     },
     "confidenceStatus": {
       "type": "string",
@@ -82,8 +82,14 @@
           "$ref": "#/$defs/confidenceStatus"
         },
         "source_ids": {
-          "$ref": "#/$defs/sourceIds"
+          "$ref": "#/$defs/sourceIds",
+          "minItems": 1
         }
+      },
+      "dependentRequired": {
+        "status": [
+          "source_ids"
+        ]
       }
     },
     "notes": {
