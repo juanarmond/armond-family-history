@@ -24,13 +24,13 @@ class RepositoryFixture:
             (self.root / "data" / directory).mkdir(parents=True, exist_ok=True)
         self.documents = self._base_documents()
         self.ledger = {
-            "version": 1,
-            "next_ids": {
-                "people": "P-0003",
-                "families": "F-0002",
-                "events": "E-0003",
-                "places": "PL-0001",
-                "sources": "SRC-0002",
+            "version": 2,
+            "reserved_ids": {
+                "people": [],
+                "families": [],
+                "events": [],
+                "places": [],
+                "sources": [],
             },
             "retired_ids": {
                 "people": [],
@@ -449,7 +449,6 @@ class ValidateDataTests(unittest.TestCase):
         second_source["id"] = "SRC-0002"
         second_source["title"] = "Second independent civil registration"
         self.fixture.documents["sources"]["SRC-0002"] = second_source
-        self.fixture.ledger["next_ids"]["sources"] = "SRC-0003"
         for event in self.fixture.documents["events"].values():
             event["source_ids"].append("SRC-0002")
         self.fixture.documents["families"]["F-0001"]["children"][0][
@@ -526,19 +525,44 @@ class ValidateDataTests(unittest.TestCase):
         self.fixture.documents["sources"]["SRC-0001"]["linked_people"].append(
             "P-0003"
         )
-        self.fixture.ledger["next_ids"]["people"] = "P-0004"
         self.fixture.rewrite()
         result = self.fixture.validate()
         self.assertEqual((), result.errors)
         self.assert_issue(result, "warning", "possible duplicate identity")
 
     def test_unaccounted_identifier_gap_is_an_error(self) -> None:
-        self.fixture.ledger["next_ids"]["people"] = "P-0004"
+        self.fixture.ledger["reserved_ids"]["people"] = ["P-0004"]
         self.fixture.rewrite()
         result = self.fixture.validate()
         self.assert_issue(
             result, "error", "allocated sequence has unaccounted identifiers"
         )
+
+    def test_current_and_reserved_identifiers_cannot_overlap(self) -> None:
+        self.fixture.ledger["reserved_ids"]["people"] = ["P-0001"]
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(
+            result, "error", "current and reserved identifiers overlap"
+        )
+
+    def test_unreserved_entity_draft_is_an_error(self) -> None:
+        self.fixture.write_yaml(
+            "research/entity-drafts/P-0003.yaml",
+            {"schema_version": 1, "id": "P-0003"},
+        )
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "draft identifier P-0003 is not reserved")
+
+    def test_entity_draft_id_must_match_filename(self) -> None:
+        self.fixture.ledger["reserved_ids"]["people"] = ["P-0003"]
+        self.fixture.write_yaml(
+            "research/entity-drafts/P-0003.yaml",
+            {"schema_version": 1, "id": "P-9999"},
+        )
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "draft ID must match filename P-0003")
 
     def test_invalid_calendar_date_is_an_error(self) -> None:
         event = self.fixture.documents["events"]["E-0001"]
@@ -588,7 +612,6 @@ class ValidateDataTests(unittest.TestCase):
         source["linked_events"] = []
         source["private"] = False
         self.fixture.documents["sources"]["SRC-0002"] = source
-        self.fixture.ledger["next_ids"]["sources"] = "SRC-0003"
         relationship = self.fixture.documents["families"]["F-0001"]["children"][0][
             "parent_relationships"
         ][0]

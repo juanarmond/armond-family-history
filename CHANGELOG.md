@@ -28,3 +28,5 @@ also remain traceable through source records and research logs.
   constrain event participant roles with explicit exceptional-role details.
 - Split the validator into focused model, inventory, reference and genealogical
   rule modules while preserving its command-line and imported interfaces.
+- Replace stored next-ID counters with derived allocation and add atomic,
+  recoverable entity reservation and draft generation with dry-run support.

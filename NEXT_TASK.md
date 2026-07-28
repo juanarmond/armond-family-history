@@ -2,22 +2,26 @@
 
 ## Objective
 
-Add safe ID allocation and entity-skeleton automation.
+Add validated batch promotion for completed reserved entity drafts.
 
 ## Why this is next
 
-Creating an entity currently requires coordinated manual edits to the ID
-ledger, filename and YAML identifier. That is error-prone at scale and can
-leave a partially allocated ID if interrupted.
+The first source and the people or events it documents can reference each other,
+so promoting one completed draft at a time may be invalid. Promotion must test
+the whole prospective batch before changing live data and must preserve every
+reserved ID if validation fails.
 
 ## Completion criteria
 
-- Provide one command that selects the current `next_ids` value, creates the
-  correctly named entity from the canonical template and advances the ledger.
-- Refuse to overwrite files or allocate from an invalid repository state.
-- Write the entity and ledger atomically enough to recover safely from failure.
-- Support a dry-run that performs no writes.
-- Add tests for success, dry-run, collision and invalid-ledger paths.
+- Accept one or more reserved draft identifiers.
+- Validate the prospective batch, including cross-references, before live
+  mutation.
+- Refuse collisions, incomplete drafts and unreserved IDs.
+- On success, move drafts to their canonical entity directories and remove the
+  reservations as one recoverable transaction.
+- On any failure, leave live data and reservations unchanged.
+- Add tests for mutually dependent entities, dry-run, schema failure and
+  rollback.
 - Run the complete repository check before committing.
 
 ## External blocker

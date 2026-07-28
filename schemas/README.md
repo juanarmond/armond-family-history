@@ -13,8 +13,8 @@ genealogical conclusions.
 - One entity per file, with the identifier repeated in the filename.
 - Every entity declares `schema_version: 1`; future migrations must increment
   and explicitly transform this value.
-- `data/id-ledger.yaml` allocates identifiers sequentially and preserves retired
-  identifiers so they cannot be silently reused.
+- `data/id-ledger.yaml` preserves reserved and retired identifiers; the next
+  sequential identifier is derived rather than stored as duplicated state.
 - Relationships and events carry confidence and source citations.
 - Source-specific name spellings remain distinct from the preferred display
   name.
@@ -152,6 +152,6 @@ than automatic merging.
 
 `scripts/validate_data.py` is the stable command and import façade. Focused
 modules under `scripts/validation/` own shared models and YAML loading,
-document-inventory checks, reference resolution and cross-entity genealogical
-rules. New rules belong in the narrowest existing module; the façade should
-remain orchestration-only.
+identifier definitions, document-inventory checks, reference resolution and
+cross-entity genealogical rules. New rules belong in the narrowest existing
+module; the façade should remain orchestration-only.

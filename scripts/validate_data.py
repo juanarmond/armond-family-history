@@ -5,11 +5,9 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
 import sys
-from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Iterable, Mapping
+from typing import Any, Mapping
 
 try:
     import yaml
@@ -28,6 +26,11 @@ if __package__:
     from .validation.inventory import (
         DOCUMENT_INVENTORY_SCHEMA,
         validate_document_inventory,
+    )
+    from .validation.identifiers import (
+        ENTITY_CONFIGS,
+        format_identifiers,
+        parse_identifier,
     )
     from .validation.model import (
         Issue,
@@ -53,6 +56,11 @@ else:
         DOCUMENT_INVENTORY_SCHEMA,
         validate_document_inventory,
     )
+    from validation.identifiers import (
+        ENTITY_CONFIGS,
+        format_identifiers,
+        parse_identifier,
+    )
     from validation.model import (
         Issue,
         LoadedEntity,
@@ -76,35 +84,6 @@ else:
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 
-
-@dataclass(frozen=True)
-class EntityConfig:
-    directory: str
-    prefix: str
-    pattern: re.Pattern[str]
-    schema_filename: str
-
-
-ENTITY_CONFIGS: dict[str, EntityConfig] = {
-    "people": EntityConfig(
-        "people", "P", re.compile(r"^P-(?!0000$)[0-9]{4}$"), "person.schema.json"
-    ),
-    "families": EntityConfig(
-        "families", "F", re.compile(r"^F-(?!0000$)[0-9]{4}$"), "family.schema.json"
-    ),
-    "events": EntityConfig(
-        "events", "E", re.compile(r"^E-(?!0000$)[0-9]{4}$"), "event.schema.json"
-    ),
-    "places": EntityConfig(
-        "places", "PL", re.compile(r"^PL-(?!0000$)[0-9]{4}$"), "place.schema.json"
-    ),
-    "sources": EntityConfig(
-        "sources",
-        "SRC",
-        re.compile(r"^SRC-(?!0000$)[0-9]{4}$"),
-        "source.schema.json",
-    ),
-}
 
 def load_validators(
     schema_dir: Path, root: Path, issues: list[Issue]
@@ -242,20 +221,6 @@ def load_entities(
     return entities, entity_count
 
 
-def parse_identifier(identifier: str, config: EntityConfig) -> int | None:
-    if not config.pattern.fullmatch(identifier):
-        return None
-    return int(identifier.rsplit("-", 1)[1])
-
-
-def format_identifiers(numbers: Iterable[int], prefix: str) -> str:
-    values = sorted(set(numbers))
-    labels = [f"{prefix}-{number:04d}" for number in values[:10]]
-    if len(values) > 10:
-        labels.append(f"and {len(values) - 10} more")
-    return ", ".join(labels)
-
-
 def validate_id_ledger(
     root: Path,
     entities: Mapping[str, Mapping[str, LoadedEntity]],
@@ -275,24 +240,24 @@ def validate_id_ledger(
     if not isinstance(ledger, dict):
         issues.append(Issue("error", location, "ID ledger must be a YAML mapping"))
         return
-    if ledger.get("version") != 1:
-        issues.append(Issue("error", location, "ID ledger version must be 1"))
+    if ledger.get("version") != 2:
+        issues.append(Issue("error", location, "ID ledger version must be 2"))
 
-    next_ids = ledger.get("next_ids")
+    reserved_ids = ledger.get("reserved_ids")
     retired_ids = ledger.get("retired_ids")
-    if not isinstance(next_ids, dict) or not isinstance(retired_ids, dict):
+    if not isinstance(reserved_ids, dict) or not isinstance(retired_ids, dict):
         issues.append(
             Issue(
                 "error",
                 location,
-                "ID ledger requires next_ids and retired_ids mappings",
+                "ID ledger requires reserved_ids and retired_ids mappings",
             )
         )
         return
 
     expected_kinds = set(ENTITY_CONFIGS)
     for section_name, section in (
-        ("next_ids", next_ids),
+        ("reserved_ids", reserved_ids),
         ("retired_ids", retired_ids),
     ):
         missing = expected_kinds - set(section)
@@ -314,83 +279,87 @@ def validate_id_ledger(
                 )
             )
 
+    parsed_sections: dict[str, dict[str, set[int]]] = {
+        "reserved_ids": {},
+        "retired_ids": {},
+    }
+    for section_name, section in (
+        ("reserved_ids", reserved_ids),
+        ("retired_ids", retired_ids),
+    ):
+        for kind, config in ENTITY_CONFIGS.items():
+            values = section.get(kind)
+            if not isinstance(values, list):
+                issues.append(
+                    Issue("error", location, f"{section_name}.{kind} must be a list")
+                )
+                parsed_sections[section_name][kind] = set()
+                continue
+            numbers: set[int] = set()
+            seen: set[str] = set()
+            for identifier in values:
+                if not isinstance(identifier, str):
+                    issues.append(
+                        Issue(
+                            "error",
+                            location,
+                            f"{section_name}.{kind} contains a non-string value",
+                        )
+                    )
+                    continue
+                if identifier in seen:
+                    issues.append(
+                        Issue(
+                            "error",
+                            location,
+                            f"{section_name}.{kind} repeats {identifier}",
+                        )
+                    )
+                    continue
+                seen.add(identifier)
+                number = parse_identifier(identifier, config)
+                if number is None:
+                    issues.append(
+                        Issue(
+                            "error",
+                            location,
+                            f"{section_name}.{kind} has invalid identifier "
+                            f"{identifier!r}",
+                        )
+                    )
+                    continue
+                numbers.add(number)
+            parsed_sections[section_name][kind] = numbers
+
     for kind, config in ENTITY_CONFIGS.items():
-        next_identifier = next_ids.get(kind)
-        if not isinstance(next_identifier, str):
-            issues.append(
-                Issue("error", location, f"next_ids.{kind} must be an identifier")
-            )
-            continue
-        next_number = parse_identifier(next_identifier, config)
-        if next_number is None:
-            issues.append(
-                Issue(
-                    "error",
-                    location,
-                    f"next_ids.{kind} has invalid format: {next_identifier!r}",
-                )
-            )
-            continue
-
-        retired = retired_ids.get(kind)
-        if not isinstance(retired, list):
-            issues.append(
-                Issue("error", location, f"retired_ids.{kind} must be a list")
-            )
-            continue
-
-        retired_numbers: set[int] = set()
-        seen_retired: set[str] = set()
-        for identifier in retired:
-            if not isinstance(identifier, str):
-                issues.append(
-                    Issue(
-                        "error",
-                        location,
-                        f"retired_ids.{kind} contains a non-string value",
-                    )
-                )
-                continue
-            if identifier in seen_retired:
-                issues.append(
-                    Issue(
-                        "error",
-                        location,
-                        f"retired_ids.{kind} repeats {identifier}",
-                    )
-                )
-                continue
-            seen_retired.add(identifier)
-            number = parse_identifier(identifier, config)
-            if number is None:
-                issues.append(
-                    Issue(
-                        "error",
-                        location,
-                        f"retired_ids.{kind} has invalid identifier {identifier!r}",
-                    )
-                )
-                continue
-            retired_numbers.add(number)
-
         current_numbers = {
             number
             for identifier in entities[kind]
             if (number := parse_identifier(identifier, config)) is not None
         }
-        overlap = current_numbers & retired_numbers
-        if overlap:
+        reserved_numbers = parsed_sections["reserved_ids"].get(kind, set())
+        retired_numbers = parsed_sections["retired_ids"].get(kind, set())
+        overlaps = {
+            "current and reserved": current_numbers & reserved_numbers,
+            "current and retired": current_numbers & retired_numbers,
+            "reserved and retired": reserved_numbers & retired_numbers,
+        }
+        for label, overlap in overlaps.items():
+            if not overlap:
+                continue
             issues.append(
                 Issue(
                     "error",
                     location,
-                    "current and retired identifiers overlap: "
+                    f"{label} identifiers overlap: "
                     f"{format_identifiers(overlap, config.prefix)}",
                 )
             )
 
-        allocated = current_numbers | retired_numbers
-        expected_allocated = set(range(1, next_number))
+        allocated = current_numbers | reserved_numbers | retired_numbers
+        expected_allocated = (
+            set(range(1, max(allocated) + 1)) if allocated else set()
+        )
         unaccounted = expected_allocated - allocated
         if unaccounted:
             issues.append(
@@ -401,14 +370,55 @@ def validate_id_ledger(
                     f"{format_identifiers(unaccounted, config.prefix)}",
                 )
             )
-        beyond_next = allocated - expected_allocated
-        if beyond_next:
+
+    drafts_dir = root / "research" / "entity-drafts"
+    if not drafts_dir.is_dir():
+        return
+    reserved = {
+        identifier
+        for kind in ENTITY_CONFIGS
+        for identifier in reserved_ids.get(kind, [])
+        if isinstance(identifier, str)
+    }
+    for draft_path in sorted(drafts_dir.glob("*.yaml")):
+        identifier = draft_path.stem
+        draft_location = display_path(draft_path, root)
+        config = next(
+            (
+                candidate
+                for candidate in ENTITY_CONFIGS.values()
+                if candidate.pattern.fullmatch(identifier)
+            ),
+            None,
+        )
+        if config is None:
             issues.append(
                 Issue(
                     "error",
-                    location,
-                    f"next_ids.{kind} must advance beyond: "
-                    f"{format_identifiers(beyond_next, config.prefix)}",
+                    draft_location,
+                    "draft filename is not a valid entity identifier",
+                )
+            )
+            continue
+        if identifier not in reserved:
+            issues.append(
+                Issue(
+                    "error",
+                    draft_location,
+                    f"draft identifier {identifier} is not reserved",
+                )
+            )
+        try:
+            draft = load_yaml(draft_path)
+        except (OSError, yaml.YAMLError) as exc:
+            issues.append(Issue("error", draft_location, f"invalid YAML: {exc}"))
+            continue
+        if not isinstance(draft, dict) or draft.get("id") != identifier:
+            issues.append(
+                Issue(
+                    "error",
+                    f"{draft_location}:$.id",
+                    f"draft ID must match filename {identifier}",
                 )
             )
 

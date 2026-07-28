@@ -25,6 +25,9 @@
 - 28 July 2026 validation architecture review: the stable validator command now
   delegates to focused inventory, reference, shared-model and genealogy-rule
   modules; validation behaviour and genealogical conclusions did not change.
+- 28 July 2026 identifier-lifecycle review: stored next-ID counters were
+  replaced by derived allocation, explicit reservations and recoverable draft
+  creation; no live entity or genealogical conclusion was added.
 
 ## Subject
 

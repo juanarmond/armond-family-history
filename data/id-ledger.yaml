@@ -1,10 +1,10 @@
-version: 1
-next_ids:
-  people: P-0001
-  families: F-0001
-  events: E-0001
-  places: PL-0001
-  sources: SRC-0001
+version: 2
+reserved_ids:
+  people: []
+  families: []
+  events: []
+  places: []
+  sources: []
 retired_ids:
   people: []
   families: []

@@ -78,8 +78,9 @@ apparent names and events are observations, not structured conclusions.
 
 For each distinct retained source:
 
-1. Allocate the `SRC-NNNN` identifier shown in `data/id-ledger.yaml` and advance
-   the ledger in the same commit.
+1. Reserve the next source ID with
+   `python3 scripts/new_entity.py reserve source`; complete the generated draft
+   before promotion to `data/sources/`.
 2. Rename the evidence file according to `evidence/README.md`.
 3. Create `data/sources/SRC-NNNN.yaml` from the source template.
 4. Create a detailed Markdown source record when a full transcription or

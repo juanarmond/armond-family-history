@@ -42,12 +42,16 @@ uv run make check
 Before adding structured data:
 
 1. Inventory and privacy-review the document.
-2. Allocate its source ID through `data/id-ledger.yaml`.
-3. Create the source record and retain the search path in a research log.
+2. Preview an ID reservation with
+   `python3 scripts/new_entity.py reserve source --dry-run`, then rerun without
+   `--dry-run` to create a reserved draft.
+3. Complete the draft under `research/entity-drafts/` and retain the search
+   path in a research log.
 4. Add or update linked people, families, events and places without resolving
    uncertainty silently.
 5. Run `uv run make check` before committing.
 
+Reservation and promotion rules are defined in [`data/README.md`](data/README.md).
 Validation scope is documented once in
 [`schemas/README.md`](schemas/README.md).
 

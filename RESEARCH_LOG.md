@@ -59,3 +59,13 @@ entry they amend; they must not erase it.
 - Genealogical conclusions changed: none.
 - Next action: add an atomic ID allocation and entity-skeleton command so
   record creation cannot desynchronise filenames and the ledger.
+
+## 2026-07-28 — Identifier reservation and draft automation
+
+- Outcome: removed redundant next-ID counters, added explicit reservations and
+  a dry-run-capable command that atomically reserves the next ID before
+  creating a recoverable non-live draft.
+- Research evidence added: none.
+- Genealogical conclusions changed: none.
+- Next action: add validated batch promotion so mutually dependent completed
+  drafts can enter the live data model without a transient invalid state.
