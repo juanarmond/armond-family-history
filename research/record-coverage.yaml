@@ -113,14 +113,30 @@ people:
     status: lead_only
     source_ids: []
     last_reviewed: "2026-07-28"
-    next_action: Locate the birth or baptism around 1879.
-    notes: []
+    next_action: >-
+      Manually identify the indexes and 1879 entries in São Sebastião de
+      Leopoldina image group 004640627, beginning with Item 3 images 234-497.
+    notes:
+    - text: >-
+        Exact, variant, parent-linked and full-text FamilySearch searches
+        returned no qualifying record on 28 July 2026. This does not establish
+        absence from the unindexed parish images.
+    - text: >-
+        FamilySearch catalog 345430 identifies baptism coverage for 1878-1888
+        in image group 004640627. The internal volume boundaries and indexes
+        must be verified before the image range is treated as one sequence.
   - record_type: marriage
     status: lead_only
     source_ids: []
     last_reviewed: "2026-07-28"
-    next_action: Locate the marriage to Liliosa Paz Armond.
-    notes: []
+    next_action: >-
+      Identify the São Sebastião de Leopoldina parish marriage volume after
+      July 1897, then search the likely period through approximately 1915.
+    notes:
+    - text: >-
+        Image group 004640631 Item 5 covers October 1889-July 1897 and probably
+        ends before the target marriage; it was not treated as an exhaustive
+        search.
   - record_type: death
     status: catalogued
     source_ids:

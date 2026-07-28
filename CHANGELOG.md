@@ -84,3 +84,8 @@ also remain traceable through source records and research logs.
   registration; confirm his death, preserve the malformed FamilySearch index,
   and add source-qualified strong-evidence parentage for Simplicio Armand and
   Eliza Ferreira Armand without promoting unproved fuller name forms.
+- Record the unsuccessful indexed and full-text search for Aristão's birth and
+  marriage, identify São Sebastião de Leopoldina baptism image group
+  `004640627` Item 3 as the bounded 1879 manual-review target, and exclude the
+  marriage series ending in July 1897 as probably too early for the target
+  marriage.

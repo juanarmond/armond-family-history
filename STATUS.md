@@ -6,12 +6,15 @@
 
 ## Current objective
 
-Locate Aristão Ferreira Armond's birth or baptism record, or his marriage to
-Liliosa Paz Armond. His original 1957 death registration is now catalogued, but
-its reported parent names do not establish the fuller collaborative forms
-`Simplício Ferreira Armond` and `Elizia Balbina Toledo`. A record closer to
-birth or marriage is required to resolve those names and may also identify
-Liliosa's original surname and parents.
+Manually review the 1878–1888 baptism sequence in São Sebastião de Leopoldina
+image group `004640627`, beginning with Item 3 images 234–497 and its internal
+indexes, for Aristão Ferreira Armond's reported 1879 birth. Indexed and
+full-text searches returned no qualifying record. His original 1957 death
+registration is catalogued, but its reported parent names do not establish the
+fuller collaborative forms `Simplício Ferreira Armond` and `Elizia Balbina
+Toledo`. A birth, baptism or marriage record closer to the relationships is
+required to resolve those names and may also identify Liliosa's original
+surname and parents.
 
 The former human-intervention blocker is partially resolved. Three civil
 marriage certificates and two original death-register entries have been
@@ -141,6 +144,15 @@ claim to confirmed.
 - Aristão's sole Memory is the same 1975 issue of *O Processo* already audited
   under Liliosa. It adds no identifiable vital-record evidence and was not
   catalogued again.
+- Indexed, spouse-linked, parent-linked and full-text FamilySearch searches
+  found no qualifying birth, baptism or marriage record for Aristão. The
+  negative result does not establish absence from unindexed register images.
+- FamilySearch catalog `345430` identifies São Sebastião de Leopoldina baptism
+  image group `004640627`; Item 3 images 234–497 includes 1878–1888 coverage
+  and is the current bounded manual-review target.
+- The identified Leopoldina marriage series in image group `004640631` ends in
+  July 1897, when Aristão would have been approximately eighteen. A later
+  marriage volume should be located before that branch is scanned manually.
 - The initial direct-ancestor person block now follows Ahnentafel order:
   `P-0001` is the repository subject, `P-0002` and `P-0003` are his parents,
   and source-qualified positions now extend through `P-0017`. These IDs are
@@ -388,7 +400,7 @@ Collateral relatives have been mentioned in family trees and documents, includin
 - [ ] Locate the birth or baptism of Aristão Ferreira Armond, approximately
   1879.
 - [ ] Locate the marriage of Aristão Ferreira Armond and Liliosa Paz Armond.
-- [ ] Locate Aristão's 1957 death registration.
+- [x] Locate Aristão's 1957 death registration.
 - [ ] Confirm or reject Simplício Ferreira Armond and Elizia Balbina Toledo as
   Aristão's parents using a primary record.
 - [ ] Identify Liliosa's parents and original surname from her birth, baptism,

@@ -283,3 +283,21 @@ entry they amend; they must not erase it.
 - Next action: locate Aristão's birth or baptism record, or his marriage to
   Liliosa, to verify fuller parent names and identify Liliosa's original
   surname and parents.
+
+## 2026-07-28 — Aristão Ferreira Armond birth and marriage search
+
+- Outcome: indexed, spouse-linked, parent-linked and full-text searches did not
+  locate Aristão's birth, baptism or marriage record.
+- Detailed log:
+  [`logs/2026-07-28-aristao-birth-marriage-search.md`](logs/2026-07-28-aristao-birth-marriage-search.md).
+- Negative-result limitation: zero indexed or OCR results do not establish that
+  an entry is absent from the original parish books.
+- Register target: São Sebastião de Leopoldina image group `004640627`, Item 3,
+  images 234–497, includes baptism coverage for 1878–1888 and should be
+  reviewed manually for the reported 1879 birth.
+- Marriage limitation: image group `004640631` ends its identified parish
+  marriage coverage in July 1897, probably before the target marriage. A later
+  volume should be located before manual marriage review.
+- Genealogical conclusions changed: none.
+- Next action: identify the internal indexes and 1879 sequence in baptism image
+  group `004640627`, then inspect the original entries manually.
