@@ -8,6 +8,9 @@ contains reproducible research notes rather than settled entity data.
 - `logs/` holds detailed sessions named `YYYY-MM-DD-short-question.md`.
 - `document-inventory.yaml` stages authorised evidence before source
   cataloguing.
+- `record-coverage.yaml` is the sole operational ledger for missing vital
+  records of deceased direct ancestors. `STATUS.md` retains strategic branch
+  priorities and must not duplicate this person-by-record matrix.
 - Regional or unresolved folders should be created only with their first
   substantive note.
 
@@ -151,6 +154,26 @@ Every session must record:
 
 Later corrections must identify the earlier entry they amend; they must never
 overwrite it.
+
+## Missing-record coverage
+
+Each deceased direct ancestor may have one coverage row per record type. The
+allowed states are:
+
+- `unsearched`: no documented search has begun;
+- `lead_only`: a recollection, transcript or collaborative profile points to a
+  record or event but no qualifying record is catalogued;
+- `located`: a qualifying record has been found but not fully ingested;
+- `catalogued`: the record has a linked structured source;
+- `negative_search`: a defined collection, place and date range was searched
+  without a result;
+- `inaccessible`: the identified collection requires human, archival or access
+  intervention; and
+- `not_applicable`: the record type does not apply.
+
+FamilySearch profile identifiers in this ledger are navigation leads only.
+They do not support any genealogical conclusion. Living people are excluded
+from the ledger.
 
 ## Living people
 

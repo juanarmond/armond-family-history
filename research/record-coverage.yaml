@@ -1,0 +1,313 @@
+version: 1
+scope: deceased-direct-ancestors
+people:
+- person_id: P-0004
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: GQJ1-RVK
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the 1915 civil birth or parish baptism record.
+    notes: []
+  - record_type: marriage
+    status: catalogued
+    source_ids:
+    - SRC-0002
+    last_reviewed: "2026-07-28"
+    notes: []
+  - record_type: death
+    status: catalogued
+    source_ids:
+    - SRC-0004
+    last_reviewed: "2026-07-28"
+    notes: []
+  notes: []
+- person_id: P-0005
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: GQJ1-K3M
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: >-
+      Locate the 1930 civil birth record and resolve the September-versus-
+      November date conflict.
+    notes: []
+  - record_type: marriage
+    status: catalogued
+    source_ids:
+    - SRC-0002
+    last_reviewed: "2026-07-28"
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the 2023 civil death registration.
+    notes: []
+  notes: []
+- person_id: P-0006
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: GQVM-HXH
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the 1923 civil birth registration.
+    notes: []
+  - record_type: marriage
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Recover and catalogue the 1949 marriage record.
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the 2014 civil death registration.
+    notes: []
+  notes: []
+- person_id: P-0007
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: GQJ1-HG4
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the 1929 civil birth registration.
+    notes: []
+  - record_type: marriage
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Recover and catalogue the 1949 marriage record.
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the 2021 civil death registration.
+    notes: []
+  notes: []
+- person_id: P-0008
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: GW4P-R9Z
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the birth or baptism around 1879.
+    notes: []
+  - record_type: marriage
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the marriage to Liliosa Paz Armond.
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the 1957 civil death registration.
+    notes: []
+  notes: []
+- person_id: P-0009
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: GQJ1-ZNC
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the birth or baptism and establish the original surname.
+    notes: []
+  - record_type: marriage
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the marriage to Aristão Ferreira Armond.
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Recover and re-transcribe the 1946 death registration.
+    notes: []
+  notes: []
+- person_id: P-0010
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: GNZY-KT4
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the birth or baptism around 1889–1890.
+    notes: []
+  - record_type: marriage
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the marriage to Maria Aurora Guimarães.
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Recover and catalogue the 1964 civil death registration.
+    notes: []
+  notes: []
+- person_id: P-0011
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: GQVR-167
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the civil birth registration around 1904.
+    notes: []
+  - record_type: marriage
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the marriage to Antonio Engracio Filho.
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Recover and catalogue the 1991 civil death registration.
+    notes: []
+  notes: []
+- person_id: P-0012
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: GQVM-3QD
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the birth or baptism around 1892 in Sapucaia.
+    notes: []
+  - record_type: marriage
+    status: catalogued
+    source_ids:
+    - SRC-0001
+    last_reviewed: "2026-07-28"
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the 1959 civil death registration.
+    notes: []
+  notes: []
+- person_id: P-0013
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: GQVM-4YJ
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: >-
+      Locate the birth or baptism around 1898 in Bom Jesus da Cachoeira
+      Alegre.
+    notes: []
+  - record_type: marriage
+    status: catalogued
+    source_ids:
+    - SRC-0001
+    last_reviewed: "2026-07-28"
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the 1986 civil death registration.
+    notes: []
+  notes: []
+- person_id: P-0014
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: GQJ1-J6P
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the civil birth or parish baptism around 1903–1904.
+    notes: []
+  - record_type: marriage
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the marriage to Selina Bohrer.
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Recover and re-transcribe the 1970 civil death registration.
+    notes: []
+  notes:
+  - text: >-
+      The FamilySearch collaborative profile has displayed a surname spelling
+      conflict. Use its sources and images as leads; preserve record spellings.
+- person_id: P-0015
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: G7PC-6K5
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the civil birth or parish baptism around 1889–1890.
+    notes: []
+  - record_type: marriage
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate the marriage to João Gonçalves Bohrer.
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Recover and re-transcribe the 1987 civil death registration.
+    notes: []
+  notes:
+  - text: >-
+      Treat every collaborative-profile name, date and relationship as a lead
+      until the underlying record image is catalogued.

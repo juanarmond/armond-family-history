@@ -50,6 +50,14 @@ class AllocationFixture:
             "research/document-inventory.yaml", {"version": 1, "documents": []}
         )
         self.write_yaml(
+            "research/record-coverage.yaml",
+            {
+                "version": 1,
+                "scope": "deceased-direct-ancestors",
+                "people": [],
+            },
+        )
+        self.write_yaml(
             "templates/entities/person.yaml",
             {
                 "schema_version": 1,

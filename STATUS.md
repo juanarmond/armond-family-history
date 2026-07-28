@@ -6,9 +6,11 @@
 
 ## Current objective
 
-Review the structured model against the completed three-document evidence
-sample, correct any low-risk semantic defects, and establish one canonical
-mechanism for tracking missing records before wider FamilySearch ingestion.
+Resume the authorised FamilySearch evidence audit using the validated
+person-by-record coverage ledger. Begin with the 7 December 1949 marriage of
+Antenor Muniz and Iris Bohrer Muniz; if it cannot be recovered, record the
+negative or inaccessible search and continue with the clearest high-priority
+death registration.
 
 The former human-intervention blocker is partially resolved. Two certified
 marriage records and one original death-register entry have been recovered from
@@ -19,14 +21,14 @@ mapping cannot be reconstructed from the transcript alone.
 
 ### Completion criteria
 
-- Review how the model represents co-parentage when no partner relationship is
-  established by the source.
-- Review the source, inventory, event and place records for duplicated or
-  missing concepts exposed by the three-record sample.
-- Add a single machine-readable record-coverage mechanism, or document why the
-  current structured data can already distinguish unsearched, inaccessible and
-  absent records.
-- Preserve all existing identifiers and historical conclusions.
+- Inspect the relevant FamilySearch Sources and Memories without treating
+  collaborative-profile assertions as evidence.
+- Preserve the closest available original image or authorised derivative with
+  archival citation, checksum, rights and privacy review.
+- Update `research/record-coverage.yaml` from `lead_only` to the correct
+  resulting state.
+- Record positive, negative and inaccessible searches in a detailed log.
+- Create only source-qualified entities and preserve every conflict.
 - Run the complete repository check before committing.
 
 ### Candidate processing order
@@ -89,7 +91,16 @@ claim to confirmed.
   FamilySearch index reports `39006`; both readings remain recorded.
 - Three document source records, one owner-supplied roster source and their
   directly required linked entities are live. The planned three-record model
-  review is now the active engineering task.
+  review is complete.
+- The family model now represents two reported parents without asserting a
+  marriage or partnership between them. The previously modelled
+  `partner_relationship` between Aristão and Liliosa was removed; their
+  independent parent-child edges to Geraldo remain `strong-evidence`.
+- Catalogued inventory files must now match their structured source's retained
+  path and checksum, preventing silent provenance drift.
+- `research/record-coverage.yaml` is the canonical operational matrix for
+  missing vital records of deceased direct ancestors. FamilySearch profile IDs
+  in that file are navigation leads only, and living people are excluded.
 - The initial direct-ancestor person block now follows Ahnentafel order:
   `P-0001` is the repository subject, `P-0002` and `P-0003` are his parents,
   and positions through `P-0015` cover the known grandparents and
@@ -392,8 +403,9 @@ Collateral relatives have been mentioned in family trees and documents, includin
 | Priority | Outcome | Migration effort | Maintenance impact | Status |
 | --- | --- | --- | --- | --- |
 | P1 | Catalogue and model the first three original records | Requires source-image access | Tests the model before scale | Completed |
-| P1 | Review the model and add canonical missing-record coverage | Low | Establishes a stable base for systematic research | In progress |
-| P1 | Ingest remaining existing evidence | Depends on model review | Expands the source-qualified tree reproducibly | Pending |
+| P1 | Review the model and add canonical missing-record coverage | Low | Establishes a stable base for systematic research | Completed |
+| P1 | Ingest remaining existing evidence | Depends on model review | Expands the source-qualified tree reproducibly | In progress |
+| P2 | Re-evaluate assertion-level citation quality after 5–10 more varied records | Medium | Avoids conservative source-wide evidence labels at scale | Deferred pending evidence |
 | P2 | Require the health check in GitHub branch rules | Low; administrator access | Prevents invalid merges | External |
 | P3 | Generate person pages from structured YAML | Medium | Reproducible human-readable views | Deferred until real data |
 | P4 | Add privacy-filtered GEDCOM export | Medium to high | Interoperability without exposing living people | Deferred until schema stability |

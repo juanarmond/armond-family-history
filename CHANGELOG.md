@@ -69,3 +69,7 @@ also remain traceable through source records and research logs.
   registration; preserve the FamilySearch archival citation, private
   reconstructed register image, record-number conflict and source-qualified
   parentage of Aristão Ferreira Armond and Liliosa Paz Armond.
+- Review the data model against three real records: distinguish reported
+  co-parents from sourced partners, enforce inventory-to-source file checksum
+  consistency, and add a validated missing-record coverage ledger for deceased
+  direct ancestors.

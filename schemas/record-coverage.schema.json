@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://armond-family-history.invalid/schemas/record-coverage.schema.json",
+  "title": "Direct-ancestor record coverage",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "scope",
+    "people"
+  ],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "scope": {
+      "const": "deceased-direct-ancestors"
+    },
+    "people": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/personCoverage"
+      }
+    }
+  },
+  "$defs": {
+    "personCoverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "person_id",
+        "external_profiles",
+        "records",
+        "notes"
+      ],
+      "properties": {
+        "person_id": {
+          "$ref": "common.schema.json#/$defs/personId"
+        },
+        "external_profiles": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "platform",
+              "profile_id",
+              "usage"
+            ],
+            "properties": {
+              "platform": {
+                "type": "string",
+                "enum": [
+                  "FamilySearch",
+                  "other"
+                ]
+              },
+              "profile_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "usage": {
+                "const": "lead_only"
+              }
+            }
+          }
+        },
+        "records": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/recordCoverage"
+          }
+        },
+        "notes": {
+          "$ref": "common.schema.json#/$defs/notes"
+        }
+      }
+    },
+    "recordCoverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "record_type",
+        "status",
+        "source_ids",
+        "last_reviewed",
+        "notes"
+      ],
+      "properties": {
+        "record_type": {
+          "type": "string",
+          "enum": [
+            "birth",
+            "baptism",
+            "marriage",
+            "death",
+            "burial",
+            "immigration",
+            "naturalisation",
+            "probate",
+            "other"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "unsearched",
+            "lead_only",
+            "located",
+            "catalogued",
+            "negative_search",
+            "inaccessible",
+            "not_applicable"
+          ]
+        },
+        "source_ids": {
+          "$ref": "common.schema.json#/$defs/sourceIds"
+        },
+        "last_reviewed": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "next_action": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "$ref": "common.schema.json#/$defs/notes"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "catalogued"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "source_ids": {
+                "minItems": 1
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "source_ids": {
+                "maxItems": 0
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

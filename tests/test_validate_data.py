@@ -131,7 +131,7 @@ class RepositoryFixture:
         family = {
             "schema_version": 1,
             "id": "F-0001",
-            "partners": [{"person_id": "P-0001", "role": "partner"}],
+            "partners": [{"person_id": "P-0001", "role": "parent"}],
             "children": [
                 {
                     "person_id": "P-0002",
@@ -174,6 +174,14 @@ class RepositoryFixture:
         self.write_yaml(
             "research/document-inventory.yaml", {"version": 1, "documents": []}
         )
+        self.write_yaml(
+            "research/record-coverage.yaml",
+            {
+                "version": 1,
+                "scope": "deceased-direct-ancestors",
+                "people": [],
+            },
+        )
 
     def rewrite(self) -> None:
         for kind, documents in self.documents.items():
@@ -184,6 +192,16 @@ class RepositoryFixture:
         if not inventory_path.exists():
             self.write_yaml(
                 "research/document-inventory.yaml", {"version": 1, "documents": []}
+            )
+        coverage_path = self.root / "research/record-coverage.yaml"
+        if not coverage_path.exists():
+            self.write_yaml(
+                "research/record-coverage.yaml",
+                {
+                    "version": 1,
+                    "scope": "deceased-direct-ancestors",
+                    "people": [],
+                },
             )
 
     def validate(self) -> ValidationResult:
@@ -349,6 +367,122 @@ class ValidateDataTests(unittest.TestCase):
             "reviewed or catalogued documents require every retained file",
         )
 
+    def test_catalogued_inventory_must_match_source_file(self) -> None:
+        inventory_content = b"catalogued inventory file"
+        source_content = b"different source file"
+        inventory_path = self.fixture.root / "evidence/civil/inventory.bin"
+        source_path = self.fixture.root / "evidence/civil/source.bin"
+        inventory_path.parent.mkdir(parents=True)
+        inventory_path.write_bytes(inventory_content)
+        source_path.write_bytes(source_content)
+        self.fixture.documents["sources"]["SRC-0001"]["digital_file"] = {
+            "path": "evidence/civil/source.bin",
+            "sha256": hashlib.sha256(source_content).hexdigest(),
+        }
+        self.fixture.rewrite()
+        self.fixture.write_yaml(
+            "research/document-inventory.yaml",
+            {
+                "version": 1,
+                "documents": [
+                    {
+                        "inventory_id": "DOC-0001",
+                        "status": "catalogued",
+                        "added_date": "2026-07-28",
+                        "apparent_record_type": "synthetic record",
+                        "apparent_people": ["Example Person"],
+                        "apparent_event": "other",
+                        "image_quality": "adequate",
+                        "provenance": "Synthetic validator fixture.",
+                        "rights_status": "private-research",
+                        "files": [
+                            {
+                                "path": "evidence/civil/inventory.bin",
+                                "sha256": hashlib.sha256(
+                                    inventory_content
+                                ).hexdigest(),
+                                "media_type": "application/octet-stream",
+                                "role": "primary",
+                                "privacy_review": "cleared",
+                                "sensitive_content": [],
+                            }
+                        ],
+                        "duplicate_of": None,
+                        "proposed_source_id": "SRC-0001",
+                        "notes": [],
+                    }
+                ],
+            },
+        )
+        result = self.fixture.validate()
+        self.assert_issue(
+            result,
+            "error",
+            "no inventoried path and checksum match SRC-0001.digital_file",
+        )
+
+    def test_record_coverage_rejects_living_person(self) -> None:
+        self.fixture.documents["people"]["P-0001"]["privacy"] = "living"
+        self.fixture.rewrite()
+        self.fixture.write_yaml(
+            "research/record-coverage.yaml",
+            {
+                "version": 1,
+                "scope": "deceased-direct-ancestors",
+                "people": [
+                    {
+                        "person_id": "P-0001",
+                        "external_profiles": [],
+                        "records": [
+                            {
+                                "record_type": "birth",
+                                "status": "catalogued",
+                                "source_ids": ["SRC-0001"],
+                                "last_reviewed": "2026-07-28",
+                                "notes": [],
+                            }
+                        ],
+                        "notes": [],
+                    }
+                ],
+            },
+        )
+        result = self.fixture.validate()
+        self.assert_issue(
+            result, "error", "living person P-0001 must not appear in this ledger"
+        )
+
+    def test_record_coverage_source_must_link_to_person(self) -> None:
+        self.fixture.documents["sources"]["SRC-0001"]["linked_people"] = ["P-0002"]
+        self.fixture.rewrite()
+        self.fixture.write_yaml(
+            "research/record-coverage.yaml",
+            {
+                "version": 1,
+                "scope": "deceased-direct-ancestors",
+                "people": [
+                    {
+                        "person_id": "P-0001",
+                        "external_profiles": [],
+                        "records": [
+                            {
+                                "record_type": "birth",
+                                "status": "catalogued",
+                                "source_ids": ["SRC-0001"],
+                                "last_reviewed": "2026-07-28",
+                                "notes": [],
+                            }
+                        ],
+                        "notes": [],
+                    }
+                ],
+            },
+        )
+        result = self.fixture.validate()
+        self.assert_issue(
+            result, "error", "SRC-0001 is not linked to coverage person P-0001"
+        )
+
     def test_inventory_sequence_gap_is_an_error(self) -> None:
         self.fixture.write_yaml(
             "research/document-inventory.yaml",
@@ -493,6 +627,41 @@ class ValidateDataTests(unittest.TestCase):
         result = self.fixture.validate()
         self.assert_issue(
             result, "error", "parent IDs must be distinct for each child"
+        )
+
+    def test_two_reported_parents_do_not_require_partner_relationship(self) -> None:
+        second_parent = copy.deepcopy(self.fixture.documents["people"]["P-0001"])
+        second_parent["id"] = "P-0003"
+        second_parent["preferred_name"] = "Second Example Parent"
+        second_parent["name_variants"][0]["value"] = "Second Example Parent"
+        second_parent["event_ids"] = []
+        self.fixture.documents["people"]["P-0003"] = second_parent
+        self.fixture.documents["sources"]["SRC-0001"]["linked_people"].append(
+            "P-0003"
+        )
+        family = self.fixture.documents["families"]["F-0001"]
+        family["partners"].append({"person_id": "P-0003", "role": "parent"})
+        family["children"][0]["parent_relationships"].append(
+            {
+                "parent_id": "P-0003",
+                "relationship_type": "unknown",
+                "status": "confirmed",
+                "source_ids": ["SRC-0001"],
+                "notes": [],
+            }
+        )
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assertEqual((), result.errors)
+
+    def test_partner_role_requires_sourced_partner_relationship(self) -> None:
+        self.fixture.documents["families"]["F-0001"]["partners"][0][
+            "role"
+        ] = "partner"
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(
+            result, "error", "'partner_relationship' is a required property"
         )
 
     def test_uncontrolled_event_participant_role_is_an_error(self) -> None:

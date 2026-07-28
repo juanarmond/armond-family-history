@@ -23,6 +23,10 @@ except ImportError as exc:  # pragma: no cover - exercised only before setup
     raise SystemExit(2) from exc
 
 if __package__:
+    from .validation.coverage import (
+        RECORD_COVERAGE_SCHEMA,
+        validate_record_coverage,
+    )
     from .validation.inventory import (
         DOCUMENT_INVENTORY_SCHEMA,
         validate_document_inventory,
@@ -52,6 +56,10 @@ if __package__:
         validate_privacy,
     )
 else:
+    from validation.coverage import (
+        RECORD_COVERAGE_SCHEMA,
+        validate_record_coverage,
+    )
     from validation.inventory import (
         DOCUMENT_INVENTORY_SCHEMA,
         validate_document_inventory,
@@ -121,18 +129,24 @@ def load_validators(
             registry=registry,
             format_checker=FormatChecker(),
         )
-    inventory_document = schema_documents.get(DOCUMENT_INVENTORY_SCHEMA)
-    if inventory_document is None:
-        issues.append(
-            Issue(
-                "error",
-                display_path(schema_dir / DOCUMENT_INVENTORY_SCHEMA, root),
-                "required document inventory schema is unavailable",
+    auxiliary_schemas = (
+        ("document_inventory", DOCUMENT_INVENTORY_SCHEMA),
+        ("record_coverage", RECORD_COVERAGE_SCHEMA),
+    )
+    for validator_name, schema_filename in auxiliary_schemas:
+        document = schema_documents.get(schema_filename)
+        if document is None:
+            issues.append(
+                Issue(
+                    "error",
+                    display_path(schema_dir / schema_filename, root),
+                    f"required {validator_name.replace('_', ' ')} schema is "
+                    "unavailable",
+                )
             )
-        )
-    else:
-        validators["document_inventory"] = Draft202012Validator(
-            inventory_document,
+            continue
+        validators[validator_name] = Draft202012Validator(
+            document,
             registry=registry,
             format_checker=FormatChecker(),
         )
@@ -435,6 +449,9 @@ def validate_repository(
     validate_id_ledger(root, entities, issues)
     validate_document_inventory(
         root, validators.get("document_inventory"), entities, issues
+    )
+    validate_record_coverage(
+        root, validators.get("record_coverage"), entities, issues
     )
     validate_references(root, entities, issues)
     validate_evidence_statuses(root, entities, issues)

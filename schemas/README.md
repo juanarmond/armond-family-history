@@ -89,6 +89,15 @@ both parents. The controlled types are `biological`, `adoptive`, `step`,
 `foster`, `guardian`, `social`, `unknown` and `other`; `other` requires a
 specific `relationship_detail`.
 
+The `partners` array is the stable family-member container retained by schema
+version 1. A member with role `parent` may be included solely so a
+parent-child edge can be represented; that role does not assert a marriage or
+partnership. Roles `spouse` and `partner` require two members and a sourced
+`partner_relationship`. This distinction prevents a record that merely names
+two parents from silently proving a relationship between them. Renaming the
+container would require a schema-version migration and is deferred until a
+broader model change justifies that cost.
+
 Event participant roles use a controlled vocabulary covering principals,
 spouses, parents, children, witnesses, informants, officiants, godparents,
 sponsors, executors, beneficiaries and household members. Exceptional roles

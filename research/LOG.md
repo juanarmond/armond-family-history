@@ -213,3 +213,19 @@ entry they amend; they must not erase it.
   Deep Zoom tile set.
 - Next action: review the model against the completed three-document sample
   before wider ingestion.
+
+## 2026-07-28 — Three-record structured-model review
+
+- Outcome: corrected the family model so reported co-parents do not imply an
+  unsupported partnership; enforced inventory-to-source file integrity; and
+  added a validated missing-record coverage ledger for all deceased direct
+  ancestors currently numbered `P-0004` through `P-0015`.
+- Detailed log:
+  [`logs/2026-07-28-three-record-model-review.md`](logs/2026-07-28-three-record-model-review.md).
+- Genealogical conclusions changed: the unsupported partner relationship
+  between Aristão Ferreira Armond and Liliosa Paz Armond was removed. Their
+  separately sourced parent-child relationships to Geraldo remain
+  `strong-evidence`.
+- Architecture decision: defer assertion-level citation objects until five to
+  ten more varied records show whether the added complexity is justified.
+- Next action: resume evidence ingestion with the 1949 Antenor–Iris marriage.

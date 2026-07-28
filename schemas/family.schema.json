@@ -39,7 +39,8 @@
             "type": "string",
             "enum": [
               "spouse",
-              "partner"
+              "partner",
+              "parent"
             ]
           }
         }
@@ -164,7 +165,20 @@
       "if": {
         "properties": {
           "partners": {
-            "minItems": 2
+            "contains": {
+              "type": "object",
+              "required": [
+                "role"
+              ],
+              "properties": {
+                "role": {
+                  "enum": [
+                    "spouse",
+                    "partner"
+                  ]
+                }
+              }
+            }
           }
         }
       },
@@ -172,6 +186,30 @@
         "required": [
           "partner_relationship"
         ]
+      }
+    },
+    {
+      "if": {
+        "required": [
+          "partner_relationship"
+        ]
+      },
+      "then": {
+        "properties": {
+          "partners": {
+            "minItems": 2,
+            "items": {
+              "properties": {
+                "role": {
+                  "enum": [
+                    "spouse",
+                    "partner"
+                  ]
+                }
+              }
+            }
+          }
+        }
       }
     }
   ]

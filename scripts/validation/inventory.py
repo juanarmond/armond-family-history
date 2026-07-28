@@ -118,6 +118,7 @@ def validate_document_inventory(
         files = document.get("files")
         if not isinstance(files, list):
             continue
+        inventory_file_keys: set[tuple[str, str]] = set()
         for file_index, file_record in enumerate(files):
             if not isinstance(file_record, dict):
                 continue
@@ -167,6 +168,39 @@ def validate_document_inventory(
                         )
             if isinstance(expected_hash, str) and isinstance(inventory_id, str):
                 hash_owners[expected_hash].add(inventory_id)
+            if isinstance(relative_path, str) and isinstance(expected_hash, str):
+                inventory_file_keys.add((relative_path, expected_hash))
+
+        if (
+            document.get("status") == "catalogued"
+            and isinstance(proposed_source_id, str)
+            and proposed_source_id in entities["sources"]
+        ):
+            source = entities["sources"][proposed_source_id].data
+            digital_file = source.get("digital_file")
+            if not isinstance(digital_file, dict):
+                issues.append(
+                    Issue(
+                        "error",
+                        f"{document_location}.proposed_source_id",
+                        f"catalogued source {proposed_source_id} must retain a "
+                        "digital_file matching the inventory",
+                    )
+                )
+            else:
+                source_file_key = (
+                    digital_file.get("path"),
+                    digital_file.get("sha256"),
+                )
+                if source_file_key not in inventory_file_keys:
+                    issues.append(
+                        Issue(
+                            "error",
+                            f"{document_location}.files",
+                            f"no inventoried path and checksum match "
+                            f"{proposed_source_id}.digital_file",
+                        )
+                    )
 
         if document.get("status") in {"reviewed", "catalogued"}:
             pending = [
