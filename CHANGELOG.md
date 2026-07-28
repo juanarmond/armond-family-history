@@ -186,3 +186,9 @@ also remain traceable through source records and research logs.
   Pereira Mendes entry). Repoint place PL-0005, event E-0006 and the coverage
   search target to Sapucaia, preserving the superseded interpretation, and
   refresh the STATUS snapshot counts.
+- Promote to `confirmed` the events directly attested by a certified or
+  original official record now that certified copies may confirm: the 1916,
+  1952 and 1949 marriages (E-0001, E-0002, E-0004), the 1882 provision issuance
+  (E-0006) and Maria Amora Guimarães's 1904 birth (E-0007). Parentage reported
+  in another record, and births reported in a marriage record, remain
+  strong-evidence.
