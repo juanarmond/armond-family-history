@@ -43,3 +43,8 @@ also remain traceable through source records and research logs.
 - Remove the duplicate document-cataloguing plan after retaining its unique
   source-processing order in `STATUS.md`; keep research policy, inventory and
   reproducible history as separate canonical artifacts.
+- Audit the original ChatGPT genealogy conversation against the repository,
+  preserve previously omitted leads and superseded interpretations without
+  promoting them, and identify its 24 unavailable image attachments as the
+  primary transfer gap; downgrade Aristão's proposed parentage to `hypothesis`
+  because collaborative-tree support alone cannot establish `strong-evidence`.

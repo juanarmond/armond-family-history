@@ -15,10 +15,16 @@ would optimise an untested model. Three representative original records are the
 minimum useful evidence sample for testing source, person, event, family, place,
 privacy and conflict workflows.
 
+The original ChatGPT conversation refers to 24 image attachments across ten
+messages. Their contents and metadata are not available through the imported
+transcript or this checkout.
+
 ### Completion criteria
 
 - Add each authorised file to the versioned document inventory with checksum,
   provenance and cleared privacy review.
+- Reconcile recovered files against the conversation-transfer audit without
+  trusting earlier assistant transcriptions.
 - Catalogue three distinct original records as structured sources with exact
   citations, abstracts, reliability assessments and retained conflicts.
 - Create only the people, events, families and places directly required by
@@ -60,6 +66,9 @@ claim to confirmed.
 - The frozen repository check runs locally and in GitHub Actions. Requiring it
   in branch rules remains an external repository-administration task.
 - No live entity or structured source record has been added.
+- The original ChatGPT conversation has been audited. Its direct-ancestor
+  conclusions were largely preserved, and missing transcript-only leads and
+  correction history are now recorded without being promoted to evidence.
 
 ## Subject
 
@@ -131,7 +140,8 @@ claim to confirmed.
 - Born: about 1879.
 - Died: 1957.
 - Spouse: Liliosa Paz Armond.
-- Parents: currently treated as **strong evidence**, not yet confirmed in this repository: Simplício Ferreira Armond and Elizia Balbina Toledo.
+- Parents: current **hypothesis**: Simplício Ferreira Armond and Elizia Balbina
+  Toledo.
 - Evidence issue: public collaborative trees and sibling groupings support the relationship, but the decisive birth, baptism, marriage or death record for Aristão has not yet been catalogued.
 
 ### Liliosa Paz Armond
@@ -259,6 +269,9 @@ Collateral relatives have been mentioned in family trees and documents, includin
 
 - [ ] Assign source IDs to every certificate, identity document and screenshot
   already supplied.
+- [ ] Export or download the 24 attachments referenced by ChatGPT conversation
+  `6a67aee6-f6d0-83eb-b4b8-26e9b19abc72`, preserving available provenance and
+  withholding unnecessary living-person material.
 - [ ] Store a clean image filename and an English abstract for each document.
 - [ ] Re-transcribe ambiguous handwritten fields at full resolution.
 - [ ] Create initial person IDs and family IDs only after the source catalogue

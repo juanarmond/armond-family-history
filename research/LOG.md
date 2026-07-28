@@ -123,3 +123,18 @@ entry they amend; they must not erase it.
 - Genealogical conclusions changed: none.
 - Next action: unchanged; obtain authorised, privacy-reviewed document copies
   for the first three source records.
+
+## 2026-07-28 — Original conversation transfer audit
+
+- Outcome: compared the complete original ChatGPT research conversation with
+  the repository, preserved transcript-only leads and the correction chain at
+  hypothesis level, and identified 24 unavailable attachments as the principal
+  provenance gap.
+- Detailed log:
+  [`logs/2026-07-28-chatgpt-conversation-transfer-audit.md`](logs/2026-07-28-chatgpt-conversation-transfer-audit.md).
+- Research evidence added: none.
+- Genealogical conclusions changed: Aristão's proposed parentage remains
+  recorded but is downgraded from `strong-evidence` to `hypothesis` because the
+  available support is limited to collaborative-tree and transcript leads.
+- Next action: recover and privacy-review the original attachments before
+  creating source or person entities.
