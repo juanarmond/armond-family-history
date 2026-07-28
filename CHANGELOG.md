@@ -92,3 +92,7 @@ also remain traceable through source records and research logs.
 - Redesign `AGENTS.md` as a stable context-loading, decision and completion
   protocol that routes agents to canonical live state and task-specific
   contracts without duplicating volatile research context.
+- Consolidate `STATUS.md` into a present-only operational snapshot, move
+  historical ownership back to the existing canonical logs and structured
+  records, clarify the policy boundary with `AGENTS.md`, and add a regression
+  test against renewed status-file accumulation.

@@ -312,3 +312,17 @@ entry they amend; they must not erase it.
 - Genealogical conclusions changed: none.
 - Next action: continue the current Aristão baptism-register objective using
   the context sources selected by the revised protocol.
+
+## 2026-07-28 — Current-status consolidation
+
+- Outcome: reduced `STATUS.md` from 496 lines to a present-only operational
+  snapshot while preserving research and engineering history in their
+  canonical logs, structured records and Git.
+- Repository improvement: removed duplicated intake history, person
+  narratives, record-level task lists and generic completion policy; retained
+  the current objective, blockers, evidence summary, material conflicts,
+  strategic priorities and active engineering state.
+- Automation added: documentation tests now reject obsolete historical or
+  person-database sections and cap `STATUS.md` at 200 lines.
+- Genealogical conclusions changed: none.
+- Next action: continue the current Aristão baptism-register review.

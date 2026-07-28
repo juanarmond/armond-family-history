@@ -11,6 +11,9 @@ contains reproducible research notes rather than settled entity data.
 - `record-coverage.yaml` is the sole operational ledger for missing vital
   records of deceased direct ancestors. `STATUS.md` retains strategic branch
   priorities and must not duplicate this person-by-record matrix.
+- Historical searches and superseded interpretations stay in `LOG.md`,
+  detailed logs, structured conclusions and Git history. They must not be
+  accumulated in `STATUS.md`.
 - Regional or unresolved folders should be created only with their first
   substantive note.
 

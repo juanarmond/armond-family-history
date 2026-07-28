@@ -7,6 +7,10 @@ This file contains stable execution instructions only. It is a context router,
 not the project memory: never copy the live family tree, current findings or
 backlog into this file.
 
+Detailed research policy remains canonical in `research/README.md`. Keep only
+the minimum safeguards needed on every task here; do not duplicate the full
+policy.
+
 ## Context-loading protocol
 
 At the start of every task:

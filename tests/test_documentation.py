@@ -12,6 +12,25 @@ CANONICAL_ROOT_MARKDOWN = {
     "README.md",
     "STATUS.md",
 }
+REQUIRED_STATUS_HEADINGS = {
+    "## Current objective",
+    "## Current blockers and dependencies",
+    "## Repository snapshot",
+    "## Research snapshot",
+    "## Material unresolved conflicts",
+    "## Strategic research priorities",
+    "## Engineering state",
+}
+OBSOLETE_STATUS_HEADINGS = {
+    "## Repository status",
+    "## Subject",
+    "## Parents",
+    "## Paternal grandparents",
+    "## Maternal grandparents",
+    "## Great-grandparents and earlier lines",
+    "## Prioritised backlog",
+    "## Definition of done for a research task",
+}
 MARKDOWN_LINK = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 
 
@@ -35,6 +54,22 @@ class DocumentationTests(unittest.TestCase):
                     broken.append(f"{document.relative_to(PROJECT_ROOT)} -> {target}")
 
         self.assertEqual([], broken)
+
+    def test_status_remains_a_current_snapshot(self) -> None:
+        status = (PROJECT_ROOT / "STATUS.md").read_text(encoding="utf-8")
+        headings = {
+            line
+            for line in status.splitlines()
+            if line.startswith("## ")
+        }
+
+        self.assertTrue(REQUIRED_STATUS_HEADINGS.issubset(headings))
+        self.assertTrue(OBSOLETE_STATUS_HEADINGS.isdisjoint(headings))
+        self.assertLessEqual(
+            len(status.splitlines()),
+            200,
+            "STATUS.md is accumulating history or record-level detail",
+        )
 
 
 if __name__ == "__main__":
