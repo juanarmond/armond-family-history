@@ -169,3 +169,48 @@ documents:
         The certificate is folded, taped, stained and partly obscured. Unsafe
         readings remain omitted rather than supplied from the collaborative
         profile or earlier assistant transcriptions.
+  - inventory_id: DOC-0005
+    status: catalogued
+    added_date: "2026-07-28"
+    apparent_record_type: Original civil death register entry
+    apparent_people:
+      - Aristão Ferreira Armond
+      - Simplicio Armand
+      - Eliza Ferreira Armand
+    apparent_event: death
+    image_quality: partly-illegible
+    provenance: >-
+      Original Volta Redonda civil death register page in FamilySearch
+      collection "Brasil, Rio de Janeiro, Registro Civil, 1804-2013", image
+      group #004366686, item 4, image 193 of 337, page 315, entry 9890.
+      FamilySearch source SPY9-YNF; record ARK 1:1:77D4-J23Z; image ARK
+      3:1:S3HT-XC74-4TK; original-image storage identifier
+      TH-266-12875-196099-17. Accessed 28 July 2026 through the authenticated
+      FamilySearch viewer.
+    rights_status: private-research
+    files:
+      - path: evidence/civil/SRC-0006-death-aristao-ferreira-armond-1957-reconstructed.png
+        sha256: 1fe17dd798c6754613aac5e3d3ea3bf006bbb803d32df4258698bdcde5e32456
+        media_type: image/png
+        role: primary
+        privacy_review: cleared
+        sensitive_content:
+          - address
+          - signature
+          - medical
+          - other
+    duplicate_of: null
+    proposed_source_id: SRC-0006
+    notes:
+      - >-
+        Reconstructed from all twenty level-11 Deep Zoom tiles exposed by the
+        original-image viewer. One-pixel tile overlaps were removed to produce
+        a 1093×835 PNG without cropping, enhancement or added content.
+      - >-
+        The FamilySearch index corrupts Aristão's given name and repeats
+        surname text. Identity and event conclusions rely on the register
+        image; index defects are retained in the source limitations.
+      - >-
+        The full page contains an unrelated death entry as well as address,
+        medical and signature information. It is private evidence and must not
+        be included in public exports.

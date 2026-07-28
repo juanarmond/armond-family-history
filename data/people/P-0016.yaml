@@ -1,0 +1,19 @@
+schema_version: 1
+id: P-0016
+preferred_name: Simplicio Armand
+privacy: deceased
+name_variants:
+- value: Simplicio Armand
+  type: source
+  source_ids:
+  - SRC-0006
+event_ids:
+- E-0005
+family_ids:
+- F-0006
+notes:
+- text: Ahnentafel position 16.
+- text: >-
+    Aristão's death registration reports this name for his father. The fuller
+    form "Simplício Ferreira Armond" remains an uncatalogued lead and is not
+    established by this record.

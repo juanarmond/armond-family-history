@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0005
+event_type: death
+date:
+  kind: exact
+  value: "1957-11-01"
+place_id: PL-0003
+participants:
+- person_id: P-0008
+  role: principal
+- person_id: P-0016
+  role: parent
+- person_id: P-0017
+  role: parent
+status: confirmed
+source_ids:
+- SRC-0006
+notes: []

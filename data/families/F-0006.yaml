@@ -1,0 +1,28 @@
+schema_version: 1
+id: F-0006
+partners:
+- person_id: P-0016
+  role: parent
+- person_id: P-0017
+  role: parent
+children:
+- person_id: P-0008
+  parent_relationships:
+  - parent_id: P-0016
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - SRC-0006
+    notes: []
+  - parent_id: P-0017
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - SRC-0006
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    This family group records independently reported parents of Aristão. It
+    does not assert a marriage or partnership between P-0016 and P-0017.

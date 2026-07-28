@@ -1,0 +1,82 @@
+schema_version: 1
+id: SRC-0006
+title: Civil death registration of Aristão Ferreira Armond
+record_type: Civil death register entry
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1957-11-01"
+event_place_text: Volta Redonda, Rio de Janeiro, Brazil
+registration_date:
+  kind: exact
+  value: "1957-11-02"
+repository:
+  name: FamilySearch Historical Records
+  archive_or_registry: Civil Registration, Volta Redonda, Rio de Janeiro, Brazil
+  collection: Brasil, Rio de Janeiro, Registro Civil, 1804-2013
+  series: "Registros de óbito e índices de Registros de óbito: Volta Redonda. Death Records May 1957–April 1958"
+  page: "315"
+  image: 193 of 337
+  record_number: "9890"
+  catalogue_reference: >-
+    FamilySearch source SPY9-YNF; record ARK 1:1:77D4-J23Z; image ARK
+    3:1:S3HT-XC74-4TK; image group #004366686, item 4; original-image storage
+    ID TH-266-12875-196099-17
+  url: https://www.familysearch.org/ark:/61903/1:1:77D4-J23Z
+  repository_path: evidence/civil/SRC-0006-death-aristao-ferreira-armond-1957-reconstructed.png
+access_date: "2026-07-28"
+language: pt-BR
+transcription: >-
+  [Entry 9890.] Aos dois dias do mês de novembro de mil novecentos e cinquenta
+  e sete [...] declarou que no dia um do corrente mês [...] faleceu Aristão
+  Ferreira Armond, do sexo masculino, cor branca, com setenta e oito anos de
+  idade [...] filho de Simplicio Armand e de Eliza Ferreira Armand. [The
+  remaining handwriting is partly illegible in the retained image.]
+abstract: >-
+  The original Volta Redonda civil death register records that Aristão
+  Ferreira Armond died on 1 November 1957, aged 78. It reports his parents as
+  Simplicio Armand and Eliza Ferreira Armand. The entry was registered on 2
+  November 1957 as number 9890 on page 315.
+reliability:
+  assessment: >-
+    Original civil-register evidence directly supports the death, date, age
+    and identity. The parent names are secondary information reported at death
+    but are directly stated in the record.
+  informant: The declarant's name is not safely legible in the retained image.
+  limitations: >-
+    The handwriting is low contrast and several fields remain unsafe to
+    transcribe. The FamilySearch index badly mistranscribes Aristão's name as
+    "Axstai Ferreira Armand Armand" and duplicates part of his mother's
+    surname. The retained PNG is a pixel-preserving reconstruction from the
+    original-image viewer's complete Deep Zoom tile set, not a controlled
+    FamilySearch download.
+digital_file:
+  path: evidence/civil/SRC-0006-death-aristao-ferreira-armond-1957-reconstructed.png
+  sha256: 1fe17dd798c6754613aac5e3d3ea3bf006bbb803d32df4258698bdcde5e32456
+linked_people:
+- P-0008
+- P-0016
+- P-0017
+linked_families:
+- F-0006
+linked_events:
+- E-0005
+linked_places:
+- PL-0003
+private: true
+notes:
+- text: >-
+    Identity and event conclusions rely on the original register image, not
+    the collaborative Family Tree profile or the malformed index name.
+- text: >-
+    The index reads "Simplicio Armand" and "Eliza Ferreira Armand Armand".
+    The retained image supports one occurrence of Armand in the mother's name.
+    Fuller forms such as Simplício Ferreira Armond and Elizia Balbina Toledo
+    remain uncatalogued leads pending a closer record.
+- text: >-
+    The image contains medical, address and signature data and an unrelated
+    death entry. Retain it only in this private repository.

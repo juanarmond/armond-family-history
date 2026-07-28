@@ -1,0 +1,20 @@
+schema_version: 1
+id: P-0017
+preferred_name: Eliza Ferreira Armand
+privacy: deceased
+name_variants:
+- value: Eliza Ferreira Armand
+  type: source
+  source_ids:
+  - SRC-0006
+event_ids:
+- E-0005
+family_ids:
+- F-0006
+notes:
+- text: Ahnentafel position 17.
+- text: >-
+    FamilySearch duplicates "Armand" in its index. The single-surname form is
+    supported by the retained register image. "Elizia Balbina Toledo" remains
+    an uncatalogued lead and is not established as the same person by this
+    record.

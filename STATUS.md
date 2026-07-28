@@ -6,14 +6,15 @@
 
 ## Current objective
 
-Continue the authorised FamilySearch evidence audit using the validated
-person-by-record coverage ledger. Inspect Aristão Ferreira Armond's Sources and
-Memories for his 1957 death registration and records that may directly identify
-his parents. Liliosa Paz Armond's current FamilySearch attachments have been
-exhausted without locating her own death registration.
+Locate Aristão Ferreira Armond's birth or baptism record, or his marriage to
+Liliosa Paz Armond. His original 1957 death registration is now catalogued, but
+its reported parent names do not establish the fuller collaborative forms
+`Simplício Ferreira Armond` and `Elizia Balbina Toledo`. A record closer to
+birth or marriage is required to resolve those names and may also identify
+Liliosa's original surname and parents.
 
 The former human-intervention blocker is partially resolved. Three civil
-marriage certificates and one original death-register entry have been
+marriage certificates and two original death-register entries have been
 recovered from the authorised FamilySearch account and catalogued. The
 original ChatGPT conversation still refers to 24 image attachments whose
 binaries and metadata were not carried into the imported transcript. The exact
@@ -36,11 +37,12 @@ alone.
 
 After the model review, continue the authorised evidence audit in this order:
 
-1. death registrations for Liliosa Paz Armond, Aristão Ferreira Armond and
-   other high-priority deceased direct ancestors;
-2. the civil registration naming the parents of Francisco José de Carvalho
+1. Aristão Ferreira Armond's birth, baptism or marriage record;
+2. the death registration or burial record of Liliosa Paz Armond and other
+   high-priority deceased direct ancestors;
+3. the civil registration naming the parents of Francisco José de Carvalho
    Guimarães and Emmerenciana Maria de Jesus; and
-3. identity documents and screenshots only after explicit privacy review.
+4. identity documents and screenshots only after explicit privacy review.
 
 This order reflects evidential value; it does not promote any uncatalogued
 claim to confirmed.
@@ -124,11 +126,25 @@ claim to confirmed.
   April 1946, while the imported conversation reports an earlier reading of 15
   November 1946 from an unavailable attachment. Neither date has a retained
   primary record.
+- Aristão Ferreira Armond's original 1 November 1957 Volta Redonda death entry
+  is inventoried as `DOC-0005`, catalogued as `SRC-0006`, and retained as a
+  private reconstructed PNG. It confirms the death and age 78 and reports his
+  parents as `Simplicio Armand` and `Eliza Ferreira Armand`.
+- The reported parent-child relationships are `strong-evidence`, not
+  `confirmed`, because the parent names are secondary information supplied at
+  death. The record does not establish a relationship between the two reported
+  parents.
+- FamilySearch's index corrupts Aristão's name as `Axstai Ferreira Armand
+  Armand` and duplicates part of his mother's surname. Those transcription
+  defects are preserved as limitations rather than copied into preferred
+  names.
+- Aristão's sole Memory is the same 1975 issue of *O Processo* already audited
+  under Liliosa. It adds no identifiable vital-record evidence and was not
+  catalogued again.
 - The initial direct-ancestor person block now follows Ahnentafel order:
   `P-0001` is the repository subject, `P-0002` and `P-0003` are his parents,
-  and positions through `P-0015` cover the known grandparents and
-  great-grandparents. These IDs are now immutable; the ordering is not
-  genealogical evidence.
+  and source-qualified positions now extend through `P-0017`. These IDs are
+  immutable; the ordering is not genealogical evidence.
 - `SRC-0003` records the owner's privacy-minimised working roster. It supports
   names and person allocation only; unsourced events and relationships remain
   pending.
@@ -210,15 +226,17 @@ claim to confirmed.
 ### Aristão Ferreira Armond
 
 - Born: about 1879.
-- Died: 1957.
+- Died: 1 November 1957 in Volta Redonda, Rio de Janeiro, Brazil.
 - Spouse: Liliosa Paz Armond.
-- Parents: current **hypothesis**: Simplício Ferreira Armond and Elizia Balbina
-  Toledo.
+- Parents: his death registration reports `Simplicio Armand` and `Eliza
+  Ferreira Armand`, giving `strong-evidence` for those two parent-child
+  relationships. The fuller forms `Simplício Ferreira Armond` and `Elizia
+  Balbina Toledo` remain unresolved leads.
 - Child: the 1991 death entry for Geraldo reports Aristão as his father, giving
   `strong-evidence` for that parent-child relationship.
-- Evidence issue: public collaborative trees and sibling groupings support the
-  proposed earlier parentage, but the decisive birth, baptism, marriage or
-  death record for Aristão has not yet been catalogued.
+- Evidence issue: the death is confirmed by `SRC-0006`, but the decisive birth,
+  baptism or marriage record is still required to verify fuller parental names,
+  maiden surname and the relationship to Liliosa.
 
 ### Liliosa Paz Armond
 

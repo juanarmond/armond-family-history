@@ -7,9 +7,12 @@ name_variants:
   type: source
   source_ids:
   - SRC-0004
+  - SRC-0006
 event_ids:
 - E-0003
+- E-0005
 family_ids:
 - F-0003
+- F-0006
 notes:
 - text: Ahnentafel position 8.

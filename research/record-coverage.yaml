@@ -122,11 +122,15 @@ people:
     next_action: Locate the marriage to Liliosa Paz Armond.
     notes: []
   - record_type: death
-    status: lead_only
-    source_ids: []
+    status: catalogued
+    source_ids:
+    - SRC-0006
     last_reviewed: "2026-07-28"
-    next_action: Locate the 1957 civil death registration.
-    notes: []
+    notes:
+    - text: >-
+        The original register entry reports the parents as Simplicio Armand
+        and Eliza Ferreira Armand. Fuller collaborative-tree forms remain
+        unresolved pending a birth, baptism or marriage record.
   notes: []
 - person_id: P-0009
   external_profiles:
@@ -321,3 +325,61 @@ people:
   - text: >-
       Treat every collaborative-profile name, date and relationship as a lead
       until the underlying record image is catalogued.
+- person_id: P-0016
+  external_profiles: []
+  records:
+  - record_type: birth
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: >-
+      First verify the identity and fuller name through Aristão's birth,
+      baptism or marriage record; then search this person's own earlier record.
+    notes: []
+  - record_type: marriage
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: >-
+      Do not assume a marriage to P-0017 from shared reported parentage; locate
+      an original marriage or parish record.
+    notes: []
+  - record_type: death
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate an original civil death or parish burial record.
+    notes: []
+  notes:
+  - text: >-
+      The current source-qualified name is Simplicio Armand. Fuller forms are
+      unresolved leads.
+- person_id: P-0017
+  external_profiles: []
+  records:
+  - record_type: birth
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: >-
+      First verify the identity, fuller name and maiden surname through
+      Aristão's birth, baptism or marriage record.
+    notes: []
+  - record_type: marriage
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: >-
+      Do not assume a marriage to P-0016 from shared reported parentage; locate
+      an original marriage or parish record.
+    notes: []
+  - record_type: death
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate an original civil death or parish burial record.
+    notes: []
+  notes:
+  - text: >-
+      The current source-qualified name is Eliza Ferreira Armand. Elizia
+      Balbina Toledo remains an unresolved lead.

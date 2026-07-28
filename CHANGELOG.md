@@ -80,3 +80,7 @@ also remain traceable through source records and research logs.
   the attached source is only her mention in Geraldo's 1991 death record, reject
   a 1975 newspaper PDF as her death evidence, and restore the conflicting 1946
   death dates to unresolved lead status.
+- Recover and catalogue Aristão Ferreira Armond's original 1957 civil death
+  registration; confirm his death, preserve the malformed FamilySearch index,
+  and add source-qualified strong-evidence parentage for Simplicio Armand and
+  Eliza Ferreira Armand without promoting unproved fuller name forms.

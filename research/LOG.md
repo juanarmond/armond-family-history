@@ -264,3 +264,22 @@ entry they amend; they must not erase it.
   stated as established. Her parentage and original surname remain unresolved.
 - Next action: inspect Aristão Ferreira Armond's Sources and Memories for his
   1957 death registration and direct evidence of parentage.
+
+## 2026-07-28 — Aristão Ferreira Armond death-record ingestion
+
+- Outcome: located, reconstructed, privacy-reviewed and catalogued Aristão
+  Ferreira Armond's original 1 November 1957 Volta Redonda death registration
+  as `SRC-0006`.
+- Detailed log:
+  [`logs/2026-07-28-familysearch-aristao-death-record-ingestion.md`](logs/2026-07-28-familysearch-aristao-death-record-ingestion.md).
+- Genealogical conclusions changed: Aristão's death is confirmed; the record
+  provides `strong-evidence` that Simplicio Armand and Eliza Ferreira Armand
+  were his parents.
+- Index defect retained: FamilySearch transcribes Aristão as `Axstai Ferreira
+  Armand Armand` and duplicates part of his mother's surname.
+- Negative result: one attached source only repeats Aristão's mention as
+  Geraldo's father in `SRC-0004`, and his sole Memory is the same 1975
+  newspaper issue already rejected as Liliosa's vital-record evidence.
+- Next action: locate Aristão's birth or baptism record, or his marriage to
+  Liliosa, to verify fuller parent names and identify Liliosa's original
+  surname and parents.
