@@ -504,3 +504,25 @@ entry they amend; they must not erase it.
   changed; the private civil records corroborate the living direct line.
 - Next action: resume the current Vicente identity and Portuguese-locality
   objective.
+
+## 2026-07-28 — Direct-line document audit and online Ferreira Armond leads
+
+- Outcome: reconciled every direct-line source transcription against its image;
+  corrected Geraldo's death entry number (39006, not a misread 39005) and added
+  missing causes of death, the son-declarant and register citations; recovered
+  Antenor's (1923) and Iris's (1929) reported births from the 1949 marriage
+  certificate as events E-0017/E-0018 with place PL-0009; and added resolvable
+  FamilySearch URLs to every collaborative-tree lead in the coverage ledger.
+- Detailed log:
+  [`logs/2026-07-28-direct-line-document-audit-and-online-leads.md`](logs/2026-07-28-direct-line-document-audit-and-online-leads.md).
+- Leads recorded (not promoted): Santo Antônio de Sapucaia (a freguesia from
+  1871) strengthens the SRC-0009 parish re-reading over Espírito Santo; a
+  published genealogy names Simplício Ferreira Armond and Elisa Balbina Tolledo
+  in Piacatuba (Leopoldina), corroborating the fuller-name leads for P-0016 and
+  P-0017.
+- Genealogical conclusions changed: none; source transcriptions were corrected
+  and two reported births were structured as strong-evidence events.
+- Next action: with authorised FamilySearch access, retrieve the original 1982
+  birth register so the subject's parentage can reach `confirmed`, inspect the
+  Piacatuba baptism books for Aristão's family, and re-examine SRC-0009 at full
+  resolution to settle the Sapucaia-versus-Espírito-Santo parish question.
