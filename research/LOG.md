@@ -326,3 +326,15 @@ entry they amend; they must not erase it.
   person-database sections and cap `STATUS.md` at 200 lines.
 - Genealogical conclusions changed: none.
 - Next action: continue the current Aristão baptism-register review.
+
+## 2026-07-28 — Immediate next-step queue
+
+- Outcome: added a short ordered `Next steps` section near the top of
+  `STATUS.md` so the operational handoff is visible without reading the
+  record-coverage YAML.
+- Repository improvement: separated the current objective, immediate tactical
+  queue, detailed person-by-record ledger and strategic branch priorities.
+- Automation updated: the documentation contract now requires the next-step
+  section.
+- Genealogical conclusions changed: none.
+- Next action: inspect Item 3 of baptism image group `004640627`.

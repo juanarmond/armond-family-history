@@ -18,7 +18,7 @@ At the start of every task:
 1. Inspect the branch, working tree and recent commits. Preserve unrelated
    changes.
 2. Read [`README.md`](README.md) for project scope and architecture.
-3. Read the current objective, completion criteria and relevant branch section
+3. Read the current objective, next steps, blockers and relevant branch section
    in [`STATUS.md`](STATUS.md).
 4. Read [`research/README.md`](research/README.md) before research, evidence
    assessment or genealogical changes.

@@ -96,3 +96,6 @@ also remain traceable through source records and research logs.
   historical ownership back to the existing canonical logs and structured
   records, clarify the policy boundary with `AGENTS.md`, and add a regression
   test against renewed status-file accumulation.
+- Add a required, short and ordered `Next steps` section to `STATUS.md`,
+  separating the visible tactical handoff from the detailed coverage ledger
+  and longer-term strategic priorities.

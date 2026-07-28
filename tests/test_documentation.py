@@ -14,6 +14,7 @@ CANONICAL_ROOT_MARKDOWN = {
 }
 REQUIRED_STATUS_HEADINGS = {
     "## Current objective",
+    "## Next steps",
     "## Current blockers and dependencies",
     "## Repository snapshot",
     "## Research snapshot",

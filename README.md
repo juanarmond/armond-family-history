@@ -33,8 +33,8 @@ English abstracts or translations.
 
 Each concern has one owner:
 
-- [`STATUS.md`](STATUS.md) — present objective, blockers, research snapshot,
-  unresolved conflicts and strategic priorities.
+- [`STATUS.md`](STATUS.md) — present objective, immediate next steps, blockers,
+  research snapshot, unresolved conflicts and strategic priorities.
 - [`research/README.md`](research/README.md) — evidence, citation,
   transcription, conflict and privacy rules.
 - [`research/LOG.md`](research/LOG.md) — append-only index of completed

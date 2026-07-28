@@ -34,6 +34,23 @@ name forms.
 - Aristão's coverage entry and affected conclusions are updated without
   promoting collaborative-tree assertions.
 
+## Next steps
+
+This is the immediate execution queue, in order:
+
+1. **Now:** inspect Item 3 of image group `004640627`, identify the internal
+   index and review its 1879 baptism entries.
+2. **If Item 3 is inconclusive:** inspect the overlapping 1879 coverage in
+   Items 1 and 2, recording the exact image boundaries reviewed.
+3. **Then:** identify the São Sebastião de Leopoldina marriage volume after
+   July 1897 and review the likely 1897–1915 period for Aristão and Liliosa.
+4. **After the Aristão search is complete or genuinely blocked:** locate
+   Liliosa's own 1946 death or burial record.
+
+Keep this queue short and actionable. Detailed person-by-record actions remain
+canonical in `research/record-coverage.yaml`; strategic branch order remains
+under **Strategic research priorities** below.
+
 ## Current blockers and dependencies
 
 - The imported ChatGPT conversation refers to 24 image attachments whose
@@ -61,7 +78,7 @@ None of these dependencies prevents the current baptism-register review.
 | Structured sources | 6 |
 | Inventoried retained documents | 5 |
 | Validation | 38 entities; zero errors or warnings at the last check |
-| Automated tests | 51 passing at the last check |
+| Automated tests | 52 passing at the last check |
 
 Catalogued evidence currently includes:
 
