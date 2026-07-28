@@ -72,8 +72,8 @@
 - [x] Establish permanent project principles and an append-only cumulative research log.
 - [x] Consolidate obsolete foundation instructions and placeholder documentation.
 - [x] Add a versioned schema and validation for the document inventory.
-- [ ] Add explicit entity schema versions before ingesting the first source.
-- [ ] Separate source form, information quality and evidence type in the evidence model.
+- [x] Add explicit entity schema versions before ingesting the first source.
+- [x] Separate source form, information quality and evidence type in the evidence model.
 - [ ] Add controlled relationship types and event participant roles before scaling.
 - [ ] Add a script to generate human-readable person pages from YAML.
 - [ ] Add a GEDCOM export only after the core schema and evidence model are stable.

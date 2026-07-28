@@ -5,6 +5,7 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
+    "schema_version",
     "id",
     "partners",
     "children",
@@ -12,6 +13,9 @@
     "notes"
   ],
   "properties": {
+    "schema_version": {
+      "const": 1
+    },
     "id": {
       "$ref": "common.schema.json#/$defs/familyId"
     },

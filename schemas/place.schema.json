@@ -5,6 +5,7 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
+    "schema_version",
     "id",
     "preferred_name",
     "place_type",
@@ -13,6 +14,9 @@
     "notes"
   ],
   "properties": {
+    "schema_version": {
+      "const": 1
+    },
     "id": {
       "$ref": "common.schema.json#/$defs/placeId"
     },

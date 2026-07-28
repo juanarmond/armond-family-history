@@ -48,10 +48,14 @@ class RepositoryFixture:
     @staticmethod
     def _base_documents() -> dict[str, dict[str, dict[str, Any]]]:
         source = {
+            "schema_version": 1,
             "id": "SRC-0001",
             "title": "Example civil registration",
             "record_type": "civil birth registration",
-            "evidence_class": "original_record",
+            "record_category": "civil_registration",
+            "source_form": "original",
+            "information_quality": "primary",
+            "evidence_type": "direct",
             "usage": "evidence",
             "repository": {"name": "Example civil registry"},
             "access_date": "2026-07-28",
@@ -68,6 +72,7 @@ class RepositoryFixture:
         }
         people = {
             "P-0001": {
+                "schema_version": 1,
                 "id": "P-0001",
                 "preferred_name": "Example Parent",
                 "privacy": "deceased",
@@ -83,6 +88,7 @@ class RepositoryFixture:
                 "notes": [],
             },
             "P-0002": {
+                "schema_version": 1,
                 "id": "P-0002",
                 "preferred_name": "Example Child",
                 "privacy": "deceased",
@@ -100,6 +106,7 @@ class RepositoryFixture:
         }
         events = {
             "E-0001": {
+                "schema_version": 1,
                 "id": "E-0001",
                 "event_type": "birth",
                 "date": {"kind": "exact", "value": "1900-01-01"},
@@ -110,6 +117,7 @@ class RepositoryFixture:
                 "notes": [],
             },
             "E-0002": {
+                "schema_version": 1,
                 "id": "E-0002",
                 "event_type": "birth",
                 "date": {"kind": "exact", "value": "1930-01-01"},
@@ -121,6 +129,7 @@ class RepositoryFixture:
             },
         }
         family = {
+            "schema_version": 1,
             "id": "F-0001",
             "partners": [{"person_id": "P-0001", "role": "partner"}],
             "children": [
@@ -373,19 +382,25 @@ class ValidateDataTests(unittest.TestCase):
 
     def test_collaborative_tree_cannot_confirm_conclusion(self) -> None:
         source = self.fixture.documents["sources"]["SRC-0001"]
-        source["evidence_class"] = "collaborative_tree"
+        source["record_category"] = "collaborative_tree"
+        source["source_form"] = "authored_narrative"
+        source["information_quality"] = "secondary"
+        source["evidence_type"] = "undetermined"
         source["usage"] = "lead_only"
         self.fixture.rewrite()
         result = self.fixture.validate()
         self.assert_issue(
             result,
             "error",
-            "confirmed conclusion lacks an original or contemporary evidence source",
+            "confirmed conclusion requires direct primary information",
         )
 
     def test_collaborative_tree_must_be_a_lead(self) -> None:
         source = self.fixture.documents["sources"]["SRC-0001"]
-        source["evidence_class"] = "collaborative_tree"
+        source["record_category"] = "collaborative_tree"
+        source["source_form"] = "authored_narrative"
+        source["information_quality"] = "secondary"
+        source["evidence_type"] = "undetermined"
         source["usage"] = "evidence"
         self.fixture.rewrite()
         result = self.fixture.validate()
@@ -395,7 +410,10 @@ class ValidateDataTests(unittest.TestCase):
 
     def test_collaborative_tree_alone_is_not_strong_evidence(self) -> None:
         source = self.fixture.documents["sources"]["SRC-0001"]
-        source["evidence_class"] = "collaborative_tree"
+        source["record_category"] = "collaborative_tree"
+        source["source_form"] = "authored_narrative"
+        source["information_quality"] = "secondary"
+        source["evidence_type"] = "undetermined"
         source["usage"] = "lead_only"
         self.fixture.documents["events"]["E-0001"]["status"] = "strong-evidence"
         self.fixture.rewrite()
@@ -406,6 +424,40 @@ class ValidateDataTests(unittest.TestCase):
             "strong-evidence conclusion is supported only by lead or "
             "recollection sources",
         )
+
+    def test_derivative_source_cannot_confirm_conclusion(self) -> None:
+        source = self.fixture.documents["sources"]["SRC-0001"]
+        source["source_form"] = "derivative"
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(
+            result,
+            "error",
+            "confirmed conclusion requires direct primary information",
+        )
+
+    def test_two_original_indirect_sources_can_confirm_conclusion(self) -> None:
+        first_source = self.fixture.documents["sources"]["SRC-0001"]
+        first_source["evidence_type"] = "indirect"
+        second_source = copy.deepcopy(first_source)
+        second_source["id"] = "SRC-0002"
+        second_source["title"] = "Second independent civil registration"
+        self.fixture.documents["sources"]["SRC-0002"] = second_source
+        self.fixture.ledger["next_ids"]["sources"] = "SRC-0003"
+        for event in self.fixture.documents["events"].values():
+            event["source_ids"].append("SRC-0002")
+        self.fixture.documents["families"]["F-0001"]["children"][0][
+            "source_ids"
+        ].append("SRC-0002")
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assertEqual((), result.errors)
+
+    def test_entity_without_schema_version_is_an_error(self) -> None:
+        del self.fixture.documents["people"]["P-0001"]["schema_version"]
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "'schema_version' is a required property")
 
     def test_parent_born_after_child_is_an_error(self) -> None:
         parent_birth = self.fixture.documents["events"]["E-0001"]

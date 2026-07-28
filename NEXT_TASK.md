@@ -2,22 +2,21 @@
 
 ## Objective
 
-Add explicit schema versions to every structured entity and separate source
-form, information quality and evidence type in the source model.
+Add controlled parent-child relationship types and event participant roles.
 
 ## Why this is next
 
-No live entity exists, so this is the lowest-risk point to correct the data
-contract. After hundreds of records, the same migration would require a
-repository-wide rewrite and version detection.
+The current family model cannot distinguish biological, adoptive, foster or
+other parent-child relationships, and participant roles are arbitrary strings.
+No live entity exists, so the vocabulary can be corrected without migrating
+research data.
 
 ## Completion criteria
 
-- Require `schema_version` on people, families, events, places and sources.
-- Replace the overloaded `evidence_class` field with distinct source-form,
-  information-quality and evidence-type fields.
-- Preserve the rule that collaborative trees are lead-only.
-- Update templates, validators and tests atomically.
+- Require a controlled relationship type on every child-parent assertion.
+- Use a controlled event-participant role vocabulary with an explicit escape
+  hatch for exceptional roles.
+- Update templates, schemas, documentation and tests atomically.
 - Run the complete repository check before committing.
 
 ## External blocker

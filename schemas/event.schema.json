@@ -5,6 +5,7 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
+    "schema_version",
     "id",
     "event_type",
     "date",
@@ -14,6 +15,9 @@
     "notes"
   ],
   "properties": {
+    "schema_version": {
+      "const": 1
+    },
     "id": {
       "$ref": "common.schema.json#/$defs/eventId"
     },

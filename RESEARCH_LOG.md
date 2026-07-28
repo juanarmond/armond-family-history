@@ -29,3 +29,13 @@ entry they amend; they must not erase it.
 - Genealogical conclusions changed: none.
 - Next action: version every entity schema and correct the evidence taxonomy
   before the first source record is created.
+
+## 2026-07-28 — Entity versioning and evidence taxonomy
+
+- Outcome: required schema version 1 on every entity and separated record
+  category, source form, information quality and evidence type in source
+  records.
+- Research evidence added: none.
+- Genealogical conclusions changed: none.
+- Next action: add controlled parent-child relationship types and event
+  participant roles before ingesting people.

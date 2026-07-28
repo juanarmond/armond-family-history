@@ -34,16 +34,19 @@ Summarise the record without silently resolving name or date conflicts.
 
 ## Evidence assessment
 
-- Evidence class:
-- Original or derivative:
+- Record category:
+- Source form: `original`, `derivative` or `authored_narrative`
+- Information quality: `primary`, `secondary`, `mixed` or `undetermined`
+- Evidence type: `direct`, `indirect`, `negative` or `undetermined`
+- Intended usage: `evidence`, `lead_only` or `context_only`
 - Informant and likely knowledge:
 - Temporal proximity to the event:
 - Limitations:
 - Conclusions supported:
 - Conclusions not supported:
 
-A collaborative tree or profile is a `lead_only` source. Its relationship
-claims are not confirmed evidence.
+A collaborative tree or profile has record category `collaborative_tree` and
+usage `lead_only`. Its relationship claims are not confirmed evidence.
 
 ## Linked entities
 

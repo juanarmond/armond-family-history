@@ -21,3 +21,6 @@ also remain traceable through source records and research logs.
   documentation, and allow empty entity directories to remain untracked.
 - Add a versioned document-inventory schema and validation for file integrity,
   privacy review, duplicate handling and source-allocation state.
+- Version every structured entity and replace the overloaded evidence class
+  with separate record category, source form, information quality and evidence
+  type fields.

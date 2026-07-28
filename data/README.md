@@ -16,8 +16,9 @@ Entity directories are created only with their first YAML record. A missing
 empty directory is valid and must not be preserved with placeholder files.
 
 Use one entity per file and name the file after its identifier, for example
-`P-0001.yaml`. Files in this directory are conclusions and catalogue records,
-not working notes. Record incomplete searches and tentative reasoning under
+`P-0001.yaml`. Every entity must declare the schema version required by its
+schema. Files in this directory are conclusions and catalogue records, not
+working notes. Record incomplete searches and tentative reasoning under
 `research/`.
 
 Allocate every identifier through `id-ledger.yaml`. Advance the corresponding

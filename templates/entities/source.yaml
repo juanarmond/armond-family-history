@@ -1,7 +1,11 @@
+schema_version: 1
 id: SRC-NNNN
 title: ""
 record_type: ""
-evidence_class: original_record
+record_category: other
+source_form: original
+information_quality: undetermined
+evidence_type: undetermined
 usage: evidence
 repository:
   name: ""

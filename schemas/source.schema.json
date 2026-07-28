@@ -5,10 +5,14 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
+    "schema_version",
     "id",
     "title",
     "record_type",
-    "evidence_class",
+    "record_category",
+    "source_form",
+    "information_quality",
+    "evidence_type",
     "usage",
     "repository",
     "access_date",
@@ -22,6 +26,9 @@
     "private"
   ],
   "properties": {
+    "schema_version": {
+      "const": 1
+    },
     "id": {
       "$ref": "common.schema.json#/$defs/sourceId"
     },
@@ -33,16 +40,51 @@
       "type": "string",
       "minLength": 1
     },
-    "evidence_class": {
+    "record_category": {
       "type": "string",
       "enum": [
-        "original_record",
-        "contemporary_record",
+        "civil_registration",
+        "parish_register",
+        "census",
+        "government_record",
+        "court_or_probate",
+        "immigration",
+        "naturalisation",
+        "military",
+        "cemetery",
         "newspaper",
+        "institutional_record",
         "official_index",
         "published_genealogy",
         "collaborative_tree",
-        "family_recollection"
+        "family_recollection",
+        "other"
+      ]
+    },
+    "source_form": {
+      "type": "string",
+      "enum": [
+        "original",
+        "derivative",
+        "authored_narrative"
+      ]
+    },
+    "information_quality": {
+      "type": "string",
+      "enum": [
+        "primary",
+        "secondary",
+        "mixed",
+        "undetermined"
+      ]
+    },
+    "evidence_type": {
+      "type": "string",
+      "enum": [
+        "direct",
+        "indirect",
+        "negative",
+        "undetermined"
       ]
     },
     "usage": {

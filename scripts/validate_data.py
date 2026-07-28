@@ -31,14 +31,10 @@ except ImportError as exc:  # pragma: no cover - exercised only before setup
 
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
-CONFIRMING_EVIDENCE_CLASSES = {"original_record", "contemporary_record"}
-NON_TREE_EVIDENCE_CLASSES = {
-    "original_record",
-    "contemporary_record",
-    "newspaper",
-    "official_index",
-    "published_genealogy",
-}
+PRIMARY_INFORMATION_QUALITIES = {"primary", "mixed"}
+ASSERTIVE_EVIDENCE_TYPES = {"direct", "indirect"}
+LEAD_ONLY_CATEGORIES = {"collaborative_tree"}
+WEAK_STANDALONE_CATEGORIES = {"collaborative_tree", "family_recollection"}
 POSTHUMOUS_BIRTH_ALLOWANCE = timedelta(days=310)
 MINIMUM_PARENT_AGE = timedelta(days=8 * 365)
 
@@ -814,7 +810,7 @@ def validate_evidence_statuses(
     for source_id, source in source_data.items():
         location = display_path(entities["sources"][source_id].path, root)
         if (
-            source.get("evidence_class") == "collaborative_tree"
+            source.get("record_category") in LEAD_ONLY_CATEGORIES
             and source.get("usage") != "lead_only"
         ):
             issues.append(
@@ -835,26 +831,42 @@ def validate_evidence_statuses(
                     if source_id in source_data
                 ]
                 if status == "confirmed":
-                    qualifies = any(
+                    direct_original = any(
                         source.get("usage") == "evidence"
-                        and source.get("evidence_class")
-                        in CONFIRMING_EVIDENCE_CLASSES
+                        and source.get("source_form") == "original"
+                        and source.get("information_quality")
+                        in PRIMARY_INFORMATION_QUALITIES
+                        and source.get("evidence_type") == "direct"
                         for source in cited
                     )
-                    if not qualifies:
+                    indirect_originals = {
+                        source_id
+                        for source_id in source_ids
+                        if source_id in source_data
+                        and source_data[source_id].get("usage") == "evidence"
+                        and source_data[source_id].get("source_form") == "original"
+                        and source_data[source_id].get("information_quality")
+                        in PRIMARY_INFORMATION_QUALITIES
+                        and source_data[source_id].get("evidence_type") == "indirect"
+                    }
+                    if not direct_original and len(indirect_originals) < 2:
                         issues.append(
                             Issue(
                                 "error",
                                 f"{location}:{json_path(path)}",
-                                "confirmed conclusion lacks an original or "
-                                "contemporary evidence source",
+                                "confirmed conclusion requires direct primary "
+                                "information from an original source, or at least "
+                                "two original sources providing indirect primary "
+                                "information",
                             )
                         )
                 elif status == "strong-evidence":
                     qualifies = any(
                         source.get("usage") == "evidence"
-                        and source.get("evidence_class")
-                        in NON_TREE_EVIDENCE_CLASSES
+                        and source.get("record_category")
+                        not in WEAK_STANDALONE_CATEGORIES
+                        and source.get("evidence_type")
+                        in ASSERTIVE_EVIDENCE_TYPES
                         for source in cited
                     )
                     if not qualifies:

@@ -11,6 +11,8 @@ genealogical conclusions.
 ## Design principles
 
 - One entity per file, with the identifier repeated in the filename.
+- Every entity declares `schema_version: 1`; future migrations must increment
+  and explicitly transform this value.
 - `data/id-ledger.yaml` allocates identifiers sequentially and preserves retired
   identifiers so they cannot be silently reused.
 - Relationships and events carry confidence and source citations.
@@ -57,16 +59,33 @@ value: "1916-10-21"
 
 The allowed statuses are `confirmed`, `strong-evidence`, `hypothesis` and
 `rejected`. Every event and relationship must cite at least one source. The
-cross-file validator additionally requires a `confirmed` conclusion to cite at
-least one source whose evidence class is `original_record` or
-`contemporary_record`. This is a minimum mechanical gate, not a substitute for
-genealogical analysis.
+source model keeps four different questions separate:
+
+- `record_category`: what kind of record or narrative it is;
+- `source_form`: original, derivative or authored narrative;
+- `information_quality`: whether the recorded information is primary,
+  secondary, mixed or not yet determined;
+- `evidence_type`: whether the source currently provides direct, indirect,
+  negative or undetermined evidence for its linked conclusions.
+
+Evidence type is assertion-dependent. The source-level value is therefore a
+conservative repository-wide assessment: use `undetermined` when one source
+plays materially different evidentiary roles for different linked conclusions,
+and explain the distinction in `reliability`. A future citation-level model may
+refine this after real records expose the required granularity.
+
+The cross-file validator requires a `confirmed` conclusion either to cite
+direct primary or mixed information from an original source, or to cite at
+least two original sources that provide indirect primary or mixed information.
+This is a minimum mechanical gate, not a substitute for source correlation,
+conflict resolution or a written proof argument.
 
 ## Minimal entity examples
 
 These examples demonstrate shape only and are not claims about real people:
 
 ```yaml
+schema_version: 1
 id: P-9001
 preferred_name: Example Person
 privacy: unknown
@@ -80,6 +99,7 @@ notes: []
 ```
 
 ```yaml
+schema_version: 1
 id: E-9001
 event_type: birth
 date:

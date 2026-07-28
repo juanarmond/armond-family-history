@@ -14,6 +14,10 @@
 - 28 July 2026 intake review: the empty document inventory now has a versioned
   privacy, checksum and duplicate-validation contract; no source document was
   added and no genealogical conclusion changed.
+- 28 July 2026 data-model review: all entity contracts now declare schema
+  version 1, and source category, form, information quality and evidence type
+  are represented separately; no source data or genealogical conclusion
+  changed.
 
 ## Subject
 
