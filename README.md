@@ -47,8 +47,9 @@ Before adding structured data:
    `--dry-run` to create a reserved draft.
 3. Complete the draft under `research/entity-drafts/` and retain the search
    path in a research log.
-4. Add or update linked people, families, events and places without resolving
-   uncertainty silently.
+4. Preview mutually dependent completed drafts together with
+   `python3 scripts/new_entity.py promote ID... --dry-run`, then promote the
+   valid batch without `--dry-run`.
 5. Run `uv run make check` before committing.
 
 Reservation and promotion rules are defined in [`data/README.md`](data/README.md).

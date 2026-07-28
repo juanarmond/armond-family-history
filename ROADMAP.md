@@ -13,7 +13,8 @@ cost and long-term architecture impact.
 | P1 | Review the model and migrate the remaining existing evidence | Depends on first-source findings | Establishes a stable machine-readable base | Pending |
 | P2 | Refactor the monolithic validator into focused modules | Medium, approximately one engineering sprint | Easier testing and safer rule additions | Complete |
 | P2 | Add safe ID allocation and entity-skeleton automation | Medium | Removes manual ledger and filename errors | Complete |
-| P2 | Add validated batch promotion for reserved drafts | Medium | Keeps mutually dependent first entities valid during promotion | Next |
+| P2 | Add validated batch promotion for reserved drafts | Medium | Keeps mutually dependent first entities valid during promotion | Complete |
+| P2 | Enforce repository health checks in GitHub Actions | Low | Prevents unvalidated changes from merging | Next |
 | P3 | Resume direct-ancestor research in `TASKS.md` order | Ongoing research | Advances genealogy without bypassing evidence gates | Blocked by existing-evidence gate |
 | P4 | Generate profiles, timelines and privacy-filtered exports | Medium to high | Reproducible derived views after schema stability | Deferred |
 
@@ -33,6 +34,6 @@ live data ingestion:
 5. Resolved: the document inventory has a versioned schema and cross-file
    integrity checks.
 
-Identifier allocation now derives the next value from preserved history.
-The remaining ingestion risk is promotion: the first source and linked entities
-may depend on each other and should enter `data/` as one validated batch.
+Identifier allocation and mutually dependent promotion are now recoverable.
+The remaining automation gap is enforcement: local checks exist but are not
+run automatically by the connected GitHub repository.

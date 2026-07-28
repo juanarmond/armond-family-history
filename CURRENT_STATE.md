@@ -28,6 +28,9 @@
 - 28 July 2026 identifier-lifecycle review: stored next-ID counters were
   replaced by derived allocation, explicit reservations and recoverable draft
   creation; no live entity or genealogical conclusion was added.
+- 28 July 2026 promotion review: completed mutually dependent drafts can now be
+  staged, validated and promoted as a recoverable batch with rollback; no live
+  entity or genealogical conclusion was added.
 
 ## Subject
 

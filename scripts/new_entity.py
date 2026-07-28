@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import copy
 import os
+import shutil
 import tempfile
 from dataclasses import dataclass
 from pathlib import Path
@@ -45,6 +46,13 @@ class ReservationResult:
     draft_path: Path
     dry_run: bool
     recovered: bool = False
+
+
+@dataclass(frozen=True)
+class PromotionResult:
+    identifiers: tuple[str, ...]
+    dry_run: bool
+    warnings: tuple[str, ...] = ()
 
 
 def _validated_ledger(
@@ -230,9 +238,262 @@ def materialize_reserved_entity(
     return ReservationResult(identifier, draft_path, dry_run, recovered=True)
 
 
+def _resolve_promotion_batch(
+    root: Path,
+    identifiers: list[str],
+    ledger: dict[str, Any],
+) -> list[tuple[str, str, EntityConfig, Path, Path]]:
+    if not identifiers:
+        raise AllocationError("at least one draft identifier is required")
+    if len(identifiers) != len(set(identifiers)):
+        raise AllocationError("promotion identifiers must be distinct")
+    resolved_batch: list[tuple[str, str, EntityConfig, Path, Path]] = []
+    for identifier in identifiers:
+        resolved = _config_for_identifier(identifier)
+        if resolved is None:
+            raise AllocationError(f"invalid entity identifier {identifier!r}")
+        kind, config = resolved
+        if identifier not in ledger["reserved_ids"][kind]:
+            raise AllocationError(f"{identifier} is not reserved")
+        draft_path = root / "research" / "entity-drafts" / f"{identifier}.yaml"
+        if not draft_path.is_file():
+            raise AllocationError(f"reserved draft is missing: {draft_path}")
+        target_path = root / "data" / config.directory / f"{identifier}.yaml"
+        if target_path.exists():
+            raise AllocationError(f"refusing to overwrite {target_path}")
+        resolved_batch.append(
+            (identifier, kind, config, draft_path, target_path)
+        )
+    return resolved_batch
+
+
+def _ledger_without_reservations(
+    ledger: dict[str, Any],
+    batch: list[tuple[str, str, EntityConfig, Path, Path]],
+) -> dict[str, Any]:
+    updated = copy.deepcopy(ledger)
+    for identifier, kind, _, _, _ in batch:
+        updated["reserved_ids"][kind].remove(identifier)
+    return updated
+
+
+def _copy_tree(source: Path, destination: Path, *, hardlink: bool = False) -> None:
+    if not source.is_dir():
+        return
+    copy_function = os.link if hardlink else shutil.copy2
+    shutil.copytree(source, destination, copy_function=copy_function)
+
+
+def _validate_prospective_promotion(
+    root: Path,
+    schema_dir: Path | None,
+    batch: list[tuple[str, str, EntityConfig, Path, Path]],
+    updated_ledger: dict[str, Any],
+) -> tuple[str, ...]:
+    with tempfile.TemporaryDirectory(
+        dir=root, prefix=".promotion-preview-"
+    ) as temporary_name:
+        staging_root = Path(temporary_name)
+        _copy_tree(root / "data", staging_root / "data")
+        _copy_tree(root / "research", staging_root / "research")
+        _copy_tree(root / "evidence", staging_root / "evidence", hardlink=True)
+        for identifier, _, config, _, _ in batch:
+            staging_draft = (
+                staging_root
+                / "research"
+                / "entity-drafts"
+                / f"{identifier}.yaml"
+            )
+            staging_target = (
+                staging_root
+                / "data"
+                / config.directory
+                / f"{identifier}.yaml"
+            )
+            staging_target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(staging_draft, staging_target)
+            staging_draft.unlink()
+        (staging_root / "data" / "id-ledger.yaml").write_text(
+            yaml.safe_dump(updated_ledger, sort_keys=False, allow_unicode=True),
+            encoding="utf-8",
+        )
+        validation = validate_repository(staging_root, schema_dir=schema_dir)
+        if validation.errors:
+            details = "\n".join(issue.render() for issue in validation.errors[:20])
+            raise AllocationError(
+                "prospective promotion is invalid; live data was not changed"
+                + (f":\n{details}" if details else "")
+            )
+        return tuple(issue.render() for issue in validation.warnings)
+
+
+def _prepare_transaction(
+    root: Path,
+    identifiers: list[str],
+    ledger_content: str,
+) -> Path:
+    transaction_path = root / ".entity-promotion-transaction"
+    if transaction_path.exists():
+        raise AllocationError(
+            "an unfinished promotion transaction exists; run the recover command"
+        )
+    preparing_path = Path(
+        tempfile.mkdtemp(dir=root, prefix=".promotion-prepare-")
+    )
+    try:
+        (preparing_path / "manifest.yaml").write_text(
+            yaml.safe_dump(
+                {"version": 1, "identifiers": identifiers},
+                sort_keys=False,
+                allow_unicode=True,
+            ),
+            encoding="utf-8",
+        )
+        (preparing_path / "id-ledger.yaml").write_text(
+            ledger_content, encoding="utf-8"
+        )
+        os.replace(preparing_path, transaction_path)
+    finally:
+        if preparing_path.exists():
+            shutil.rmtree(preparing_path)
+    return transaction_path
+
+
+def _remove_promoted_drafts(
+    batch: list[tuple[str, str, EntityConfig, Path, Path]],
+) -> None:
+    for _, _, _, draft_path, _ in batch:
+        draft_path.unlink()
+
+
+def _rollback_transaction(root: Path, transaction_path: Path) -> tuple[str, ...]:
+    try:
+        manifest = load_yaml(transaction_path / "manifest.yaml")
+        ledger_content = (transaction_path / "id-ledger.yaml").read_text(
+            encoding="utf-8"
+        )
+    except (OSError, yaml.YAMLError) as exc:
+        raise AllocationError(
+            f"cannot read promotion recovery state: {exc}"
+        ) from exc
+    identifiers = manifest.get("identifiers") if isinstance(manifest, dict) else None
+    if not isinstance(identifiers, list) or not all(
+        isinstance(identifier, str) for identifier in identifiers
+    ):
+        raise AllocationError("promotion recovery manifest is invalid")
+
+    restored: list[str] = []
+    for identifier in identifiers:
+        resolved = _config_for_identifier(identifier)
+        if resolved is None:
+            raise AllocationError(
+                f"promotion recovery contains invalid identifier {identifier!r}"
+            )
+        _, config = resolved
+        draft_path = root / "research" / "entity-drafts" / f"{identifier}.yaml"
+        target_path = root / "data" / config.directory / f"{identifier}.yaml"
+        if not draft_path.exists() and not target_path.exists():
+            raise AllocationError(
+                f"cannot recover {identifier}: both draft and live target are missing"
+            )
+        if not draft_path.exists():
+            draft_path.parent.mkdir(parents=True, exist_ok=True)
+            os.link(target_path, draft_path)
+        if target_path.exists():
+            target_path.unlink()
+        restored.append(identifier)
+
+    _atomic_replace(root / "data" / "id-ledger.yaml", ledger_content)
+    shutil.rmtree(transaction_path)
+    return tuple(restored)
+
+
+def recover_promotion(root: Path) -> tuple[str, ...]:
+    root = root.resolve()
+    transaction_path = root / ".entity-promotion-transaction"
+    if not transaction_path.is_dir():
+        raise AllocationError("no unfinished promotion transaction exists")
+    committed_marker = transaction_path / "committed"
+    if committed_marker.is_file():
+        manifest = load_yaml(transaction_path / "manifest.yaml")
+        identifiers = (
+            manifest.get("identifiers") if isinstance(manifest, dict) else None
+        )
+        if not isinstance(identifiers, list) or not all(
+            isinstance(identifier, str) for identifier in identifiers
+        ):
+            raise AllocationError("promotion recovery manifest is invalid")
+        shutil.rmtree(transaction_path)
+        return tuple(identifiers)
+    return _rollback_transaction(root, transaction_path)
+
+
+def promote_entities(
+    root: Path,
+    identifiers: list[str],
+    *,
+    dry_run: bool = False,
+    schema_dir: Path | None = None,
+) -> PromotionResult:
+    root = root.resolve()
+    transaction_path = root / ".entity-promotion-transaction"
+    if transaction_path.exists():
+        raise AllocationError(
+            "an unfinished promotion transaction exists; run the recover command"
+        )
+    ledger = _validated_ledger(root, schema_dir)
+    batch = _resolve_promotion_batch(root, identifiers, ledger)
+    updated_ledger = _ledger_without_reservations(ledger, batch)
+    warnings = _validate_prospective_promotion(
+        root, schema_dir, batch, updated_ledger
+    )
+    if dry_run:
+        return PromotionResult(tuple(identifiers), True, warnings)
+
+    original_ledger_content = (
+        root / "data" / "id-ledger.yaml"
+    ).read_text(encoding="utf-8")
+    transaction_path = _prepare_transaction(
+        root, identifiers, original_ledger_content
+    )
+    try:
+        for _, _, _, draft_path, target_path in batch:
+            target_path.parent.mkdir(parents=True, exist_ok=True)
+            try:
+                os.link(draft_path, target_path)
+            except FileExistsError as exc:
+                raise AllocationError(f"refusing to overwrite {target_path}") from exc
+        _atomic_replace(
+            root / "data" / "id-ledger.yaml",
+            yaml.safe_dump(updated_ledger, sort_keys=False, allow_unicode=True),
+        )
+        _remove_promoted_drafts(batch)
+        final_validation = validate_repository(root, schema_dir=schema_dir)
+        if final_validation.errors:
+            details = "\n".join(
+                issue.render() for issue in final_validation.errors[:20]
+            )
+            raise AllocationError(
+                "post-promotion validation failed; rolling back"
+                + (f":\n{details}" if details else "")
+            )
+    except BaseException:
+        _rollback_transaction(root, transaction_path)
+        raise
+    _atomic_create(transaction_path / "committed", "")
+    try:
+        shutil.rmtree(transaction_path)
+    except OSError as exc:
+        raise AllocationError(
+            "promotion committed successfully, but transaction cleanup failed; "
+            "run the recover command to finalize cleanup"
+        ) from exc
+    return PromotionResult(tuple(identifiers), False, warnings)
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Reserve stable IDs and create editable entity drafts."
+        description="Reserve, materialize and promote stable entity drafts."
     )
     parser.add_argument(
         "--root",
@@ -249,6 +510,14 @@ def build_parser() -> argparse.ArgumentParser:
     )
     materialize.add_argument("identifier")
     materialize.add_argument("--dry-run", action="store_true")
+    promote = subparsers.add_parser(
+        "promote", help="validate and promote one or more completed drafts"
+    )
+    promote.add_argument("identifiers", nargs="+")
+    promote.add_argument("--dry-run", action="store_true")
+    subparsers.add_parser(
+        "recover", help="roll back an unfinished promotion transaction"
+    )
     return parser
 
 
@@ -257,15 +526,36 @@ def main(argv: list[str] | None = None) -> int:
     try:
         if args.command == "reserve":
             result = reserve_entity(args.root, args.kind, dry_run=args.dry_run)
-        else:
+            action = "Would create" if result.dry_run else "Created"
+            print(
+                f"{action} reserved draft {result.identifier} at "
+                f"{result.draft_path}"
+            )
+        elif args.command == "materialize":
             result = materialize_reserved_entity(
                 args.root, args.identifier, dry_run=args.dry_run
             )
+            action = "Would create" if result.dry_run else "Created"
+            print(
+                f"{action} reserved draft {result.identifier} at "
+                f"{result.draft_path}"
+            )
+        elif args.command == "promote":
+            promotion = promote_entities(
+                args.root,
+                args.identifiers,
+                dry_run=args.dry_run,
+            )
+            action = "Would promote" if promotion.dry_run else "Promoted"
+            print(f"{action} {', '.join(promotion.identifiers)}")
+            for warning in promotion.warnings:
+                print(warning)
+        else:
+            restored = recover_promotion(args.root)
+            print(f"Recovered {', '.join(restored)}")
     except AllocationError as exc:
         print(f"ERROR: {exc}")
         return 1
-    action = "Would create" if result.dry_run else "Created"
-    print(f"{action} reserved draft {result.identifier} at {result.draft_path}")
     return 0
 
 

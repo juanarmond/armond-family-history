@@ -30,3 +30,5 @@ also remain traceable through source records and research logs.
   rule modules while preserving its command-line and imported interfaces.
 - Replace stored next-ID counters with derived allocation and add atomic,
   recoverable entity reservation and draft generation with dry-run support.
+- Add staged validation and recoverable batch promotion for mutually dependent
+  entity drafts, including rollback and interrupted-transaction recovery.

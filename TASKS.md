@@ -77,7 +77,8 @@
 - [x] Add controlled relationship types and event participant roles before scaling.
 - [x] Refactor the validator into focused modules without changing its public command.
 - [x] Add safe ID reservation and entity-skeleton automation.
-- [ ] Add validated batch promotion for completed reserved entity drafts.
+- [x] Add validated batch promotion for completed reserved entity drafts.
+- [ ] Run the full repository checks automatically on GitHub pushes and pull requests.
 - [ ] Add a script to generate human-readable person pages from YAML.
 - [ ] Add a GEDCOM export only after the core schema and evidence model are stable.
 - [x] Add automated checks preventing unsupported `confirmed` relationships.

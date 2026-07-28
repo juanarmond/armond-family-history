@@ -69,3 +69,12 @@ entry they amend; they must not erase it.
 - Genealogical conclusions changed: none.
 - Next action: add validated batch promotion so mutually dependent completed
   drafts can enter the live data model without a transient invalid state.
+
+## 2026-07-28 — Validated batch promotion
+
+- Outcome: added prospective whole-repository validation, dry-run, rollback and
+  interrupted-transaction recovery for promoting mutually dependent drafts.
+- Research evidence added: none.
+- Genealogical conclusions changed: none.
+- Next action: enforce the complete repository check on GitHub pushes and pull
+  requests so invalid changes cannot silently bypass the local workflow.

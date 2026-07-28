@@ -45,9 +45,23 @@ python3 scripts/new_entity.py materialize SRC-0001
 ```
 
 Do not hand-edit an ID to reuse it. If an allocated entity is permanently
-abandoned, preserve its identifier in `retired_ids`. Promotion of completed
-drafts into `data/` must remove their reservations and pass the complete
-validator; validated batch promotion is the next automation objective.
+abandoned, preserve its identifier in `retired_ids`.
+
+Promote completed, mutually dependent drafts as one validated batch:
+
+```console
+python3 scripts/new_entity.py promote P-0001 SRC-0001 --dry-run
+python3 scripts/new_entity.py promote P-0001 SRC-0001
+```
+
+The command validates a staged prospective repository before touching live
+data. Live promotion uses a recoverable transaction and rolls back on failure.
+If the process is forcibly interrupted and leaves
+`.entity-promotion-transaction/`, run:
+
+```console
+python3 scripts/new_entity.py recover
+```
 
 Source evidence policy is defined in `RESEARCH_RULES.md`; this file defines only
 storage and identifier mechanics.

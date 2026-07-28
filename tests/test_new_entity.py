@@ -5,12 +5,15 @@ import tempfile
 import unittest
 from pathlib import Path
 from typing import Any
+from unittest.mock import patch
 
 import yaml
 
 from scripts.new_entity import (
     AllocationError,
     materialize_reserved_entity,
+    promote_entities,
+    recover_promotion,
     reserve_entity,
 )
 from scripts.validate_data import validate_repository
@@ -69,6 +72,57 @@ class AllocationFixture:
     def read_ledger(self) -> dict[str, Any]:
         return yaml.safe_load(
             (self.root / "data/id-ledger.yaml").read_text(encoding="utf-8")
+        )
+
+    def write_linked_person_and_source_drafts(
+        self, *, valid_person: bool = True
+    ) -> None:
+        self.ledger["reserved_ids"]["people"] = ["P-0001"]
+        self.ledger["reserved_ids"]["sources"] = ["SRC-0001"]
+        self.write_yaml("data/id-ledger.yaml", self.ledger)
+        self.write_yaml(
+            "research/entity-drafts/P-0001.yaml",
+            {
+                "schema_version": 1,
+                "id": "P-0001",
+                "preferred_name": "Example Person" if valid_person else "",
+                "privacy": "deceased",
+                "name_variants": [
+                    {
+                        "value": "Example Person",
+                        "type": "source",
+                        "source_ids": ["SRC-0001"],
+                    }
+                ],
+                "event_ids": [],
+                "family_ids": [],
+                "notes": [],
+            },
+        )
+        self.write_yaml(
+            "research/entity-drafts/SRC-0001.yaml",
+            {
+                "schema_version": 1,
+                "id": "SRC-0001",
+                "title": "Synthetic linked source",
+                "record_type": "synthetic civil record",
+                "record_category": "civil_registration",
+                "source_form": "original",
+                "information_quality": "primary",
+                "evidence_type": "direct",
+                "usage": "evidence",
+                "repository": {"name": "Synthetic test registry"},
+                "access_date": "2026-07-28",
+                "language": "English",
+                "abstract": "Synthetic source used only for transaction tests.",
+                "reliability": {"assessment": "Synthetic direct information."},
+                "linked_people": ["P-0001"],
+                "linked_families": [],
+                "linked_events": [],
+                "linked_places": [],
+                "private": True,
+                "notes": [],
+            },
         )
 
 
@@ -146,6 +200,93 @@ class NewEntityTests(unittest.TestCase):
         self.assertFalse(
             (self.fixture.root / "research/entity-drafts").exists()
         )
+
+    def test_promote_validates_mutually_dependent_entities_as_batch(self) -> None:
+        self.fixture.write_linked_person_and_source_drafts()
+        result = promote_entities(
+            self.fixture.root,
+            ["P-0001", "SRC-0001"],
+            schema_dir=SCHEMA_DIR,
+        )
+        self.assertFalse(result.dry_run)
+        self.assertTrue((self.fixture.root / "data/people/P-0001.yaml").is_file())
+        self.assertTrue(
+            (self.fixture.root / "data/sources/SRC-0001.yaml").is_file()
+        )
+        self.assertFalse(
+            (self.fixture.root / "research/entity-drafts/P-0001.yaml").exists()
+        )
+        ledger = self.fixture.read_ledger()
+        self.assertEqual([], ledger["reserved_ids"]["people"])
+        self.assertEqual([], ledger["reserved_ids"]["sources"])
+        validation = validate_repository(self.fixture.root, schema_dir=SCHEMA_DIR)
+        self.assertEqual((), validation.errors)
+
+    def test_promotion_dry_run_performs_no_writes(self) -> None:
+        self.fixture.write_linked_person_and_source_drafts()
+        original_ledger = copy.deepcopy(self.fixture.read_ledger())
+        result = promote_entities(
+            self.fixture.root,
+            ["P-0001", "SRC-0001"],
+            dry_run=True,
+            schema_dir=SCHEMA_DIR,
+        )
+        self.assertTrue(result.dry_run)
+        self.assertEqual(original_ledger, self.fixture.read_ledger())
+        self.assertTrue(
+            (self.fixture.root / "research/entity-drafts/P-0001.yaml").is_file()
+        )
+        self.assertFalse((self.fixture.root / "data/people/P-0001.yaml").exists())
+
+    def test_invalid_promotion_leaves_live_repository_unchanged(self) -> None:
+        self.fixture.write_linked_person_and_source_drafts(valid_person=False)
+        original_ledger = copy.deepcopy(self.fixture.read_ledger())
+        with self.assertRaisesRegex(
+            AllocationError, "prospective promotion is invalid"
+        ):
+            promote_entities(
+                self.fixture.root,
+                ["P-0001", "SRC-0001"],
+                schema_dir=SCHEMA_DIR,
+            )
+        self.assertEqual(original_ledger, self.fixture.read_ledger())
+        self.assertTrue(
+            (self.fixture.root / "research/entity-drafts/P-0001.yaml").is_file()
+        )
+        self.assertFalse((self.fixture.root / "data/people/P-0001.yaml").exists())
+
+    def test_promotion_rolls_back_after_live_commit_failure(self) -> None:
+        self.fixture.write_linked_person_and_source_drafts()
+        original_ledger = copy.deepcopy(self.fixture.read_ledger())
+        with patch(
+            "scripts.new_entity._remove_promoted_drafts",
+            side_effect=OSError("synthetic commit failure"),
+        ):
+            with self.assertRaisesRegex(OSError, "synthetic commit failure"):
+                promote_entities(
+                    self.fixture.root,
+                    ["P-0001", "SRC-0001"],
+                    schema_dir=SCHEMA_DIR,
+                )
+        self.assertEqual(original_ledger, self.fixture.read_ledger())
+        self.assertTrue(
+            (self.fixture.root / "research/entity-drafts/P-0001.yaml").is_file()
+        )
+        self.assertFalse((self.fixture.root / "data/people/P-0001.yaml").exists())
+        self.assertFalse(
+            (self.fixture.root / ".entity-promotion-transaction").exists()
+        )
+
+    def test_recover_finalizes_already_committed_transaction(self) -> None:
+        transaction = self.fixture.root / ".entity-promotion-transaction"
+        self.fixture.write_yaml(
+            ".entity-promotion-transaction/manifest.yaml",
+            {"version": 1, "identifiers": ["P-0001"]},
+        )
+        (transaction / "committed").write_text("", encoding="utf-8")
+        restored = recover_promotion(self.fixture.root)
+        self.assertEqual(("P-0001",), restored)
+        self.assertFalse(transaction.exists())
 
 
 if __name__ == "__main__":
