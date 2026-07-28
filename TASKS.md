@@ -61,11 +61,13 @@
 
 ## Repository engineering
 
-- [ ] Create YAML schemas for people, families, events, places and sources.
-- [ ] Add validation for identifiers, dates, relationships and source references.
+- [x] Create YAML schemas for people, families, events, places and sources.
+- [x] Add validation for identifiers, dates, relationships and source references.
+- [x] Add stable entity, person-profile, source-record and research-log templates.
+- [x] Add a privacy-aware ingestion plan for existing documents.
 - [ ] Add a script to generate human-readable person pages from YAML.
 - [ ] Add a GEDCOM export only after the core schema and evidence model are stable.
-- [ ] Add automated checks preventing unsupported `confirmed` relationships.
+- [x] Add automated checks preventing unsupported `confirmed` relationships.
 
 ## Definition of done for a research task
 

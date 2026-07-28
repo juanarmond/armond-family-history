@@ -13,3 +13,5 @@ also remain traceable through source records and research logs.
   document-cataloguing plan.
 - Add an ID allocation ledger and automated validation for schemas, references,
   evidence quality, privacy, duplicate identities and parent-child chronology.
+- Document the local workflow, implementation roadmap and policies for derived
+  timelines and exports.
