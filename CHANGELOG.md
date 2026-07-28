@@ -116,3 +116,9 @@ also remain traceable through source records and research logs.
   original-image JPEG downloads, increasing retained resolution by up to
   sixteen times in pixel area while keeping superseded files recoverable in Git
   history.
+- Record the unsuccessful exact, variant and bounded-register search for
+  Liliosa Paz Armond's own 1946 death or burial, preserve both date leads, and
+  document the January–October gap in the accessible Volta Redonda series.
+- Catalogue the full-resolution March 1973 Guanabara driver-dossier index as
+  `SRC-0008`, preserve its printed "Aristac" name variant, and add José Olavo
+  Armond as a source-qualified strong-evidence child of Aristão and Liliosa.

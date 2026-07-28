@@ -21,5 +21,25 @@ children:
     - SRC-0004
     notes: []
   notes: []
+- person_id: P-0018
+  parent_relationships:
+  - parent_id: P-0008
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - SRC-0008
+    notes:
+    - text: >-
+        The government index prints the father's given name as "Aristac".
+        Identity with Aristão is strongly supported by the full name pattern,
+        the exact maternal name and the existing family evidence, but the
+        source spelling is preserved.
+  - parent_id: P-0009
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - SRC-0008
+    notes: []
+  notes: []
 event_ids: []
 notes: []

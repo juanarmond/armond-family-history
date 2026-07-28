@@ -8,6 +8,13 @@ name_variants:
   source_ids:
   - SRC-0004
   - SRC-0006
+- value: Aristac Ferreira Armond
+  type: source
+  source_ids:
+  - SRC-0008
+  note: >-
+    The 1973 government index prints "Aristac". It is retained as a source
+    variant and not silently normalised to Aristão.
 event_ids:
 - E-0003
 - E-0005

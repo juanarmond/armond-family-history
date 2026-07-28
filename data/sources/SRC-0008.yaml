@@ -1,0 +1,72 @@
+schema_version: 1
+id: SRC-0008
+title: Driver-dossier alphabetical index entry for José Olavo Armond
+record_type: Government driver-dossier index
+record_category: government_record
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1926-09-25"
+repository:
+  name: FamilySearch Historical Records
+  archive_or_registry: >-
+    Departamento de Trânsito, Secretaria de Segurança Pública do Estado da
+    Guanabara
+  collection: "Livros de Matrícula de Condutor: Rio de Janeiro, 1921-1995"
+  series: Relação alfabética dos prontuários, March 1973
+  book: Livro 90
+  page: "27159"
+  image: 135 of 255
+  catalogue_reference: >-
+    Image ARK 3:1:3QHV-L7VF-WWJN; image group number 120965069
+  url: https://www.familysearch.org/ark:/61903/3:1:3QHV-L7VF-WWJN
+  repository_path: evidence/government/SRC-0008-driver-index-jose-olavo-armond-1973-original.jpg
+access_date: "2026-07-28"
+language: pt-BR
+transcription: >-
+  JOSE OLAVO ARMOND; 25/09/26; BRASIL; [identity and dossier numbers omitted
+  from this transcription]; AMADOR; ARISTAC FERREIRA ARMOND; LILIOSA PAZ
+  ARMOND.
+abstract: >-
+  A March 1973 Guanabara government driver-dossier index lists José Olavo
+  Armond, born 25 September 1926 in Brazil, and names his father as "Aristac
+  Ferreira Armond" and his mother as Liliosa Paz Armond. The father's given
+  name appears to be a typographical corruption of Aristão, but the source
+  form is preserved rather than silently corrected.
+reliability:
+  assessment: >-
+    The original government index directly reports José Olavo's name, birth
+    date, nationality and parent fields. The parent information is secondary
+    because it was recorded decades after his birth, but the unusual surname
+    combination and exact maternal name provide independent evidence for the
+    family relationship.
+  informant: Not stated on the index page.
+  limitations: >-
+    The index does not state José Olavo's birthplace or identify the underlying
+    evidence used for the parent fields. It prints the father's given name as
+    "Aristac", not "Aristão". The page contains identity and driver-dossier
+    details for numerous unrelated people and must remain private.
+digital_file:
+  path: evidence/government/SRC-0008-driver-index-jose-olavo-armond-1973-original.jpg
+  sha256: da5582f12ca5740812e246f20f5048581f295c0f1214f1c6a3114e8fe34fae78
+linked_people:
+- P-0008
+- P-0009
+- P-0018
+linked_families:
+- F-0003
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    This source was found while searching full-text records for Liliosa's own
+    death. It is not a death or burial record and does not resolve either 1946
+    death-date lead.
+- text: >-
+    FamilySearch full-text OCR rendered the parent fields imperfectly.
+    Conclusions and transcription rely on visual examination of the original
+    image.

@@ -1,0 +1,21 @@
+schema_version: 1
+id: P-0018
+preferred_name: José Olavo Armond
+privacy: unknown
+name_variants:
+- value: JOSE OLAVO ARMOND
+  type: source
+  source_ids:
+  - SRC-0008
+event_ids: []
+family_ids:
+- F-0003
+notes:
+- text: >-
+    A March 1973 government driver-dossier index reports a birth date of
+    25 September 1926 and names Aristac Ferreira Armond and Liliosa Paz Armond
+    as parents. A birth event is not yet modelled because the record states no
+    birthplace and no birth or baptism record has been located.
+- text: >-
+    Privacy remains unknown. The retained government index is private because
+    the full page contains identity and dossier data for multiple people.

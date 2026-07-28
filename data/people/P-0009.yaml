@@ -7,6 +7,7 @@ name_variants:
   type: source
   source_ids:
   - SRC-0004
+  - SRC-0008
 event_ids:
 - E-0003
 family_ids:

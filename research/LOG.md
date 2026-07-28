@@ -398,3 +398,24 @@ entry they amend; they must not erase it.
 - Genealogical conclusions changed: none; `SRC-0007` independently supports
   the already catalogued 1916 marriage at `strong-evidence`.
 - Next action: locate Liliosa's own 1946 death or burial record.
+
+## 2026-07-28 — Liliosa Paz Armond death-record search
+
+- Outcome: exact, variant, fuzzy, spouse-linked and bounded place searches
+  produced no qualifying civil death or parish burial record for Liliosa.
+- Detailed log:
+  [`logs/2026-07-28-liliosa-death-record-search.md`](logs/2026-07-28-liliosa-death-record-search.md).
+- Bounded negative result: Volta Redonda death group `004366685` begins in
+  November 1946. Original images 8–11 cover the immediate 15 November
+  registration window and contain no Liliosa entry.
+- Coverage gap: the identified Volta Redonda series cannot test the alternative
+  16 April 1946 lead because it begins in November.
+- Source added: catalogued a full-resolution March 1973 government
+  driver-dossier index as `SRC-0008`. It names José Olavo Armond, prints his
+  father as "Aristac Ferreira Armond", and names his mother exactly as Liliosa
+  Paz Armond.
+- Genealogical conclusion changed: José Olavo is added as a strong-evidence
+  child of the couple. Liliosa's own death date remains unresolved; neither
+  1946 variant was promoted.
+- Next action: locate João Muniz Bittencourt and Suzana Ritta Brandão's
+  marriage and test the 23 December 1882 collaborative-tree lead.

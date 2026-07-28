@@ -302,3 +302,45 @@ documents:
         This 2019 full-content certificate describes the same 1916 marriage as
         SRC-0001 but is a distinct certified manifestation with longer text.
         It is not treated as an independent original register entry.
+  - inventory_id: DOC-0007
+    status: catalogued
+    added_date: "2026-07-28"
+    apparent_record_type: Original government driver-dossier index page
+    apparent_people:
+      - José Olavo Armond
+      - Aristac Ferreira Armond
+      - Liliosa Paz Armond
+    apparent_event: identity
+    image_quality: adequate
+    provenance: >-
+      FamilySearch historical image from "Livros de Matrícula de Condutor:
+      Rio de Janeiro, 1921-1995", Detran alphabetical driver-dossier index,
+      Livro 90, March 1973, printed page 27159, image 135 of 255, image group
+      120965069, image ARK 3:1:3QHV-L7VF-WWJN. Accessed and downloaded through
+      the owner's authenticated session on 28 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/government/SRC-0008-driver-index-jose-olavo-armond-1973-original.jpg
+        sha256: da5582f12ca5740812e246f20f5048581f295c0f1214f1c6a3114e8fe34fae78
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+          pixel_width: 4829
+          pixel_height: 3652
+        privacy_review: cleared
+        sensitive_content:
+          - identity-number
+          - address
+          - other
+    duplicate_of: null
+    proposed_source_id: SRC-0008
+    notes:
+      - >-
+        The retained JPEG is the authorised full-resolution original download,
+        not a screenshot, preview, thumbnail or upscaled derivative.
+      - >-
+        The page contains identity and driver-dossier information for numerous
+        unrelated people. It is private evidence and must not be included in
+        public exports.

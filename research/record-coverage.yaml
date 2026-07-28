@@ -177,8 +177,8 @@ people:
     source_ids: []
     last_reviewed: "2026-07-28"
     next_action: >-
-      Locate Liliosa's own 1946 civil death registration or parish burial
-      record; do not reuse the record attached to FamilySearch source SJBH-LL3.
+      Identify the source and jurisdiction behind both 1946 date leads, then
+      search the April register or parish burial book for that jurisdiction.
     notes:
     - text: >-
         FamilySearch source SJBH-LL3 resolves to Liliosa's mention as the
@@ -188,6 +188,17 @@ people:
         FamilySearch Memory 120876994 is an eight-page 1975 issue of the
         newspaper O Processo. It is not a 1946 vital record and yielded no
         identifiable Liliosa, Aristão or Armond reference during this review.
+    - text: >-
+        Exact and variant structured-index searches returned no qualifying
+        death or burial record. Exact full-text searching found a 1973
+        government index, catalogued as SRC-0008, which independently supports
+        Liliosa's name and parentage of José Olavo but is not death evidence.
+    - text: >-
+        Volta Redonda death image group 004366685 begins in November 1946.
+        Images 8-11 cover the immediate 15 November registration window and
+        contain no Liliosa entry. The alternative 16 April lead remains
+        untested because no January-October Volta Redonda death group was
+        exposed by the bounded FamilySearch Images search.
   notes: []
 - person_id: P-0010
   external_profiles:

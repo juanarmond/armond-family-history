@@ -8,30 +8,31 @@
 
 ## Current objective
 
-Locate Liliosa Paz Armond's own 1946 civil death registration or parish burial
-record without reusing her person-level mention in Geraldo's 1991 death entry.
+Locate the marriage of João Muniz Bittencourt and Suzana Ritta Brandão and
+establish its date, place and original record context without accepting the
+collaborative-tree date as evidence.
 
-Search the FamilySearch historical-record index with exact and variant name
-forms, a 1946 death range, and bounded Rio de Janeiro and Minas Gerais places.
-Inspect candidate images rather than relying on OCR. Record collection bounds,
-false positives and access restrictions.
+Begin with the unproved 23 December 1882 lead, determine the likely civil or
+parish jurisdiction from Deocleciano's 1916 marriage and related records, then
+search the closest original marriage register. Treat any island-origin claim
+as a separate question.
 
 ### Objective completion signal
 
-- A qualifying death or burial image is catalogued, or the bounded searches
-  and exact access blocker are reproducibly documented.
-- Both unsourced 1946 date variants remain visible unless a qualifying record
-  resolves them.
+- A qualifying marriage image is catalogued, or the bounded searches and exact
+  access blocker are reproducibly documented.
+- The date and place are not promoted from collaborative profiles alone.
+- The parent identities and any stated naturalities are transcribed exactly.
 - Any retained image uses the highest resolution FamilySearch authorises.
 
 ## Next steps
 
 This is the immediate execution queue, in order:
 
-1. **Now:** search for Liliosa's own 1946 death or burial record.
-2. **If no indexed result:** identify the likely civil or parish register and
-   record the bounded manual-review target.
-3. **Then:** locate João Muniz Bittencourt and Suzana Ritta Brandão's marriage.
+1. **Now:** locate João Muniz Bittencourt and Suzana Ritta Brandão's marriage.
+2. Test the 23 December 1882 lead against an original register; do not accept
+   the collaborative date or truncated locality without the image.
+3. Separate the marriage search from the unproved Portuguese-island hypothesis.
 4. **Human-access task:** review Aristão's restricted baptism and marriage
    register targets when authorised access becomes available.
 
@@ -54,22 +55,24 @@ under **Strategic research priorities** below.
 - Six civil-record PDFs concerning living people are attached as `Public`
   Memories to `P-0001`. No copies were retained; changing their visibility is
   an external FamilySearch mutation requiring the owner's authorisation.
+- Liliosa's reported 16 April 1946 death cannot yet be tested in the identified
+  Volta Redonda register because the accessible series begins in November.
 - Requiring the repository-health workflow in GitHub branch rules requires
   repository-administrator access.
 
-None of these dependencies prevents the current Liliosa search.
+None of these dependencies prevents the current João–Suzana marriage search.
 
 ## Repository snapshot
 
 | Item | Current state |
 | --- | --- |
-| Structured people | 17 |
+| Structured people | 18 |
 | Structured families | 6 |
 | Structured events | 5 |
 | Structured places | 4 |
-| Structured sources | 7 |
-| Inventoried retained documents | 6 |
-| Validation | 39 entities; zero errors or warnings at the last check |
+| Structured sources | 8 |
+| Inventoried retained documents | 7 |
+| Validation | 41 entities; zero errors or warnings at the last check |
 | Automated tests | 53 passing at the last check |
 
 Catalogued evidence currently includes:
@@ -81,9 +84,11 @@ Catalogued evidence currently includes:
 - `SRC-0003` — privacy-minimised owner-supplied working roster;
 - `SRC-0004` — 1991 death registration of Geraldo Paz Armond;
 - `SRC-0005` — 1949 marriage of Antenor Muniz and Iris Bohrer; and
-- `SRC-0006` — 1957 death registration of Aristão Ferreira Armond; and
+- `SRC-0006` — 1957 death registration of Aristão Ferreira Armond;
 - `SRC-0007` — three-page 2019 full-content certificate of the 1916
-  Deocleciano–Luiza marriage.
+  Deocleciano–Luiza marriage; and
+- `SRC-0008` — March 1973 government driver-dossier index naming José Olavo
+  Armond and his parents.
 
 Source details, archival references, transcriptions, limitations and
 conclusion links are canonical in `data/sources/`. Record-by-record gaps are
@@ -93,7 +98,7 @@ canonical in `research/record-coverage.yaml`.
 
 | Area | Strongest current position | Strategic gap |
 | --- | --- | --- |
-| Armond and Paz | Aristão's death is confirmed; his reported parents and his parentage of Geraldo have strong evidence | Birth or baptism of Aristão; marriage to Liliosa; Liliosa's identity and parents |
+| Armond and Paz | Aristão's death is confirmed; a second original government record independently names Liliosa Paz Armond and reports the couple as José Olavo's parents | Birth or baptism of Aristão; marriage to Liliosa; Liliosa's own vital records and parents |
 | Muniz Bittencourt and Azevedo | The 1916 and 1949 marriages directly report two generations of parents | Earlier records for João Muniz Bittencourt and Suzana Ritta Brandão; test island origin |
 | Engracio, Souza and Guimarães | Cidalia's 1952 marriage directly reports Antonio Engracio Filho and Maria Aurora Guimarães | Recover and catalogue the older death, marriage and collective registration images |
 | Bohrer | Iris's 1949 marriage directly reports João Gonçalves Bohrer and Selina Bohrer | Catalogue their own vital records and verify the next generation |
@@ -120,11 +125,11 @@ material interpretation with its source and confidence.
 
 ## Strategic research priorities
 
-1. Locate Liliosa's own death, burial, birth or marriage record.
-2. Obtain authorised access to Aristão's identified baptism and marriage
-   register targets.
-3. Locate João Muniz Bittencourt and Suzana Ritta Brandão's marriage and
+1. Locate João Muniz Bittencourt and Suzana Ritta Brandão's marriage and
    earlier records.
+2. Locate Liliosa's own death, burial, birth or marriage record.
+3. Obtain authorised access to Aristão's identified baptism and marriage
+   register targets.
 4. Recover the record describing Vicente José de Carvalho Guimarães as
    Portuguese, then identify his parish before searching Portugal.
 5. Catalogue João Gonçalves Bohrer and Selina Bohrer's own vital records.
@@ -136,8 +141,8 @@ only in `research/record-coverage.yaml`.
 
 ## Engineering state
 
-- **Active:** complete the current Liliosa search; reassess assertion-level
-  citation quality after 5–10 varied records.
+- **Active:** complete the current João–Suzana marriage search; reassess
+  assertion-level citation quality after 5–10 varied records.
 - **External:** require the frozen repository-health check in GitHub branch
   rules.
 - **Deferred until schema stability:** generated person pages and a
