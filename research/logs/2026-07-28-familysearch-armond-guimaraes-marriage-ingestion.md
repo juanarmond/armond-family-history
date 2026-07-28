@@ -107,3 +107,14 @@ transcribed supporting source.
 Inspect Geraldo's attached source and death-certificate Memory, then recover the
 clearest distinct marriage or death record needed to complete the three-record
 schema sample.
+
+## Post-ingestion file consolidation
+
+After the initial ingestion commit, the repository owner reviewed the three
+preservation files and selected the `IMG_2211.JPG` reconstruction as the
+clearest view. It is now retained under the canonical filename
+`SRC-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-reconstructed.png`.
+The two less-readable alternates were removed from the current worktree to
+avoid redundant evidence files. They remain recoverable from Git commit
+`3dc9c5e`, and the inventory continues to preserve the provenance of all three
+FamilySearch Memories.

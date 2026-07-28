@@ -58,3 +58,6 @@ also remain traceable through source records and research logs.
   marriage certificate of Geraldo Paz Armond and Cidalia Engracio Guimarães as
   one source; add its private evidence files, inventory provenance, retained
   birth-date conflict and six directly required linked entities.
+- Consolidate `SRC-0002` to the clearest photograph under one canonical
+  filename; keep the two omitted alternate views recoverable in Git history and
+  preserve their FamilySearch provenance in the research record.

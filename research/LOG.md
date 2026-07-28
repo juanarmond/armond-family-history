@@ -172,3 +172,12 @@ entry they amend; they must not erase it.
   collaborative tree.
 - Next action: inspect Geraldo's attached source and death-certificate Memory,
   then recover one distinct record to complete the three-record schema sample.
+
+## 2026-07-28 — SRC-0002 evidence-file consolidation
+
+- Outcome: retained the clearest of the three reviewed photographs of the
+  Armond–Guimarães marriage certificate under one canonical filename and
+  removed the two less-readable alternates from the current worktree.
+- Preservation: the omitted files remain recoverable from Git commit
+  `3dc9c5e`; source provenance still records all three FamilySearch Memories.
+- Genealogical conclusions changed: none.

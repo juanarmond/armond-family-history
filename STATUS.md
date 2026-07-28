@@ -53,11 +53,10 @@ claim to confirmed.
   Fernandes de Azevedo from FamilySearch Memories. It is inventoried as
   `DOC-0001`, catalogued as `SRC-0001`, and retained as a private reconstructed
   PNG with checksum and provenance.
-- A second intake recovered three alternate photographs of the damaged 31 May
+- A second intake reviewed three alternate photographs of the damaged 31 May
   1952 marriage certificate for Geraldo Paz Armond and Cidalia Engracio
-  Guimarães. They are inventoried together as `DOC-0002`, catalogued as
-  `SRC-0002`, and explicitly treated as views of one document rather than
-  separate pages.
+  Guimarães. The clearest view is retained as `DOC-0002` and catalogued as
+  `SRC-0002`; the two omitted views remain recoverable from Git history.
 - The second record provides direct evidence of the marriage and Cidalia's
   married-name form. Its report of `15 September 1930` for her birth is
   secondary information and does not resolve the existing September-versus-
