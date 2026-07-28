@@ -1,0 +1,257 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://armond-family-history.invalid/schemas/common.schema.json",
+  "title": "Armond Family History common definitions",
+  "$defs": {
+    "personId": {
+      "type": "string",
+      "pattern": "^P-[0-9]{4}$"
+    },
+    "familyId": {
+      "type": "string",
+      "pattern": "^F-[0-9]{4}$"
+    },
+    "eventId": {
+      "type": "string",
+      "pattern": "^E-[0-9]{4}$"
+    },
+    "placeId": {
+      "type": "string",
+      "pattern": "^PL-[0-9]{4}$"
+    },
+    "sourceId": {
+      "type": "string",
+      "pattern": "^SRC-[0-9]{4}$"
+    },
+    "confidenceStatus": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "strong-evidence",
+        "hypothesis",
+        "rejected"
+      ]
+    },
+    "sourceIds": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sourceId"
+      },
+      "uniqueItems": true
+    },
+    "personIds": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/personId"
+      },
+      "uniqueItems": true
+    },
+    "familyIds": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/familyId"
+      },
+      "uniqueItems": true
+    },
+    "eventIds": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/eventId"
+      },
+      "uniqueItems": true
+    },
+    "placeIds": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/placeId"
+      },
+      "uniqueItems": true
+    },
+    "note": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "$ref": "#/$defs/confidenceStatus"
+        },
+        "source_ids": {
+          "$ref": "#/$defs/sourceIds"
+        }
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/note"
+      }
+    },
+    "date": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "value"
+          ],
+          "properties": {
+            "kind": {
+              "const": "exact"
+            },
+            "value": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+            },
+            "original_text": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "year",
+            "month"
+          ],
+          "properties": {
+            "kind": {
+              "const": "month"
+            },
+            "year": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 9999
+            },
+            "month": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            },
+            "original_text": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "year"
+          ],
+          "properties": {
+            "kind": {
+              "const": "year"
+            },
+            "year": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 9999
+            },
+            "original_text": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "text"
+          ],
+          "properties": {
+            "kind": {
+              "enum": [
+                "approximate",
+                "before",
+                "after",
+                "inferred"
+              ]
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            },
+            "earliest": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 9999
+            },
+            "latest": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 9999
+            },
+            "calculation": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "text",
+            "earliest",
+            "latest"
+          ],
+          "properties": {
+            "kind": {
+              "const": "range"
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            },
+            "earliest": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 9999
+            },
+            "latest": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 9999
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "text"
+          ],
+          "properties": {
+            "kind": {
+              "enum": [
+                "conflicting",
+                "unknown"
+              ]
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      ]
+    }
+  }
+}

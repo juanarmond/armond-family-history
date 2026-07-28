@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://armond-family-history.invalid/schemas/person.schema.json",
+  "title": "Person",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "preferred_name",
+    "privacy",
+    "name_variants",
+    "event_ids",
+    "family_ids",
+    "notes"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/personId"
+    },
+    "preferred_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "privacy": {
+      "type": "string",
+      "enum": [
+        "living",
+        "deceased",
+        "unknown"
+      ]
+    },
+    "name_variants": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "value",
+          "type",
+          "source_ids"
+        ],
+        "properties": {
+          "value": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "source",
+              "birth",
+              "married",
+              "alias",
+              "other"
+            ]
+          },
+          "source_ids": {
+            "$ref": "common.schema.json#/$defs/sourceIds",
+            "minItems": 1
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "event_ids": {
+      "$ref": "common.schema.json#/$defs/eventIds"
+    },
+    "family_ids": {
+      "$ref": "common.schema.json#/$defs/familyIds"
+    },
+    "notes": {
+      "$ref": "common.schema.json#/$defs/notes"
+    }
+  }
+}

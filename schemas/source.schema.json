@@ -1,0 +1,246 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://armond-family-history.invalid/schemas/source.schema.json",
+  "title": "Source",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "record_type",
+    "evidence_class",
+    "usage",
+    "repository",
+    "access_date",
+    "language",
+    "abstract",
+    "reliability",
+    "linked_people",
+    "linked_families",
+    "linked_events",
+    "linked_places",
+    "private"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/sourceId"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "record_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_class": {
+      "type": "string",
+      "enum": [
+        "original_record",
+        "contemporary_record",
+        "newspaper",
+        "official_index",
+        "published_genealogy",
+        "collaborative_tree",
+        "family_recollection"
+      ]
+    },
+    "usage": {
+      "type": "string",
+      "enum": [
+        "evidence",
+        "lead_only",
+        "context_only"
+      ]
+    },
+    "event_date": {
+      "$ref": "common.schema.json#/$defs/date"
+    },
+    "event_place_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "registration_date": {
+      "$ref": "common.schema.json#/$defs/date"
+    },
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "archive_or_registry": {
+          "type": "string",
+          "minLength": 1
+        },
+        "collection": {
+          "type": "string",
+          "minLength": 1
+        },
+        "series": {
+          "type": "string",
+          "minLength": 1
+        },
+        "book": {
+          "type": "string",
+          "minLength": 1
+        },
+        "volume": {
+          "type": "string",
+          "minLength": 1
+        },
+        "page": {
+          "type": "string",
+          "minLength": 1
+        },
+        "image": {
+          "type": "string",
+          "minLength": 1
+        },
+        "record_number": {
+          "type": "string",
+          "minLength": 1
+        },
+        "catalogue_reference": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "repository_path": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?!/)(?!.*\\.\\.).+$"
+        }
+      }
+    },
+    "access_date": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "language": {
+      "type": "string",
+      "minLength": 2
+    },
+    "transcription": {
+      "type": "string"
+    },
+    "abstract": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reliability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "assessment"
+      ],
+      "properties": {
+        "assessment": {
+          "type": "string",
+          "minLength": 1
+        },
+        "informant": {
+          "type": "string",
+          "minLength": 1
+        },
+        "limitations": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "digital_file": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^evidence/(?!.*\\.\\.).+$"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "redacted_derivative": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^evidence/(?!.*\\.\\.).+$"
+        }
+      }
+    },
+    "linked_people": {
+      "$ref": "common.schema.json#/$defs/personIds"
+    },
+    "linked_families": {
+      "$ref": "common.schema.json#/$defs/familyIds"
+    },
+    "linked_events": {
+      "$ref": "common.schema.json#/$defs/eventIds"
+    },
+    "linked_places": {
+      "$ref": "common.schema.json#/$defs/placeIds"
+    },
+    "private": {
+      "type": "boolean"
+    },
+    "notes": {
+      "$ref": "common.schema.json#/$defs/notes"
+    }
+  },
+  "anyOf": [
+    {
+      "required": [
+        "linked_people"
+      ],
+      "properties": {
+        "linked_people": {
+          "minItems": 1
+        }
+      }
+    },
+    {
+      "required": [
+        "linked_families"
+      ],
+      "properties": {
+        "linked_families": {
+          "minItems": 1
+        }
+      }
+    },
+    {
+      "required": [
+        "linked_events"
+      ],
+      "properties": {
+        "linked_events": {
+          "minItems": 1
+        }
+      }
+    },
+    {
+      "required": [
+        "linked_places"
+      ],
+      "properties": {
+        "linked_places": {
+          "minItems": 1
+        }
+      }
+    }
+  ]
+}

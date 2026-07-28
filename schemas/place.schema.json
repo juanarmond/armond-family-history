@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://armond-family-history.invalid/schemas/place.schema.json",
+  "title": "Place",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "preferred_name",
+    "place_type",
+    "historical_jurisdiction",
+    "source_ids",
+    "notes"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/placeId"
+    },
+    "preferred_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name_variants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "value",
+          "source_ids"
+        ],
+        "properties": {
+          "value": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_ids": {
+            "$ref": "common.schema.json#/$defs/sourceIds",
+            "minItems": 1
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "place_type": {
+      "type": "string",
+      "enum": [
+        "country",
+        "state",
+        "district",
+        "municipality",
+        "parish",
+        "locality",
+        "address",
+        "cemetery",
+        "institution",
+        "other"
+      ]
+    },
+    "historical_jurisdiction": {
+      "type": "string",
+      "minLength": 1
+    },
+    "current_equivalent": {
+      "type": "string",
+      "minLength": 1
+    },
+    "parent_place_id": {
+      "$ref": "common.schema.json#/$defs/placeId"
+    },
+    "coordinates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "latitude",
+        "longitude"
+      ],
+      "properties": {
+        "latitude": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        }
+      }
+    },
+    "source_ids": {
+      "$ref": "common.schema.json#/$defs/sourceIds",
+      "minItems": 1
+    },
+    "notes": {
+      "$ref": "common.schema.json#/$defs/notes"
+    }
+  }
+}

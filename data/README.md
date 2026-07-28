@@ -1,0 +1,22 @@
+# Structured data
+
+This directory is the machine-readable layer of the repository. Each YAML file
+represents one stable entity and must validate against the corresponding schema
+in `schemas/`.
+
+| Directory | Identifier | Schema |
+| --- | --- | --- |
+| `people/` | `P-0001` | `schemas/person.schema.json` |
+| `families/` | `F-0001` | `schemas/family.schema.json` |
+| `events/` | `E-0001` | `schemas/event.schema.json` |
+| `places/` | `PL-0001` | `schemas/place.schema.json` |
+| `sources/` | `SRC-0001` | `schemas/source.schema.json` |
+
+Use one entity per file and name the file after its identifier, for example
+`P-0001.yaml`. Files in this directory are conclusions and catalogue records,
+not working notes. Record incomplete searches and tentative reasoning under
+`research/`.
+
+Do not add a person merely because a collaborative tree contains a profile.
+Create structured entities only when the supporting source or explicit
+research lead has also been catalogued.
