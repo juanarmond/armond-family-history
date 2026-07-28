@@ -1,0 +1,12 @@
+id: F-NNNN
+partners:
+  - person_id: P-NNNN
+    role: spouse
+partner_relationship:
+  status: hypothesis
+  source_ids:
+    - SRC-NNNN
+  notes: []
+children: []
+event_ids: []
+notes: []

@@ -1,0 +1,13 @@
+id: E-NNNN
+event_type: other
+date:
+  kind: unknown
+  text: Date not yet established
+place_text: Place not yet established
+participants:
+  - person_id: P-NNNN
+    role: principal
+status: hypothesis
+source_ids:
+  - SRC-NNNN
+notes: []
