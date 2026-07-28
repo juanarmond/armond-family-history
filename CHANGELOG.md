@@ -76,3 +76,7 @@ also remain traceable through source records and research logs.
 - Recover and catalogue the 1949 marriage certificate of Antenor Muniz and
   Iris Bohrer; add its private reconstructed image, source-qualified marriage,
   married-name form and reported parent-child relationships.
+- Audit Liliosa Paz Armond's FamilySearch Sources and Memories; document that
+  the attached source is only her mention in Geraldo's 1991 death record, reject
+  a 1975 newspaper PDF as her death evidence, and restore the conflicting 1946
+  death dates to unresolved lead status.

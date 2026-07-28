@@ -245,3 +245,22 @@ entry they amend; they must not erase it.
 - Preservation limitation: folds, tape, stains and low contrast obscure
   register details and several vital fields, which remain untranscribed.
 - Next action: inspect Liliosa Paz Armond's 1946 death evidence.
+
+## 2026-07-28 — Liliosa Paz Armond evidence audit
+
+- Outcome: exhausted Liliosa's currently attached FamilySearch Source and
+  Memory without locating her own 1946 death registration.
+- Detailed log:
+  [`logs/2026-07-28-familysearch-liliosa-evidence-audit.md`](logs/2026-07-28-familysearch-liliosa-evidence-audit.md).
+- Negative result: source `SJBH-LL3` resolves to Liliosa's person-level mention
+  as Geraldo's mother in his 1991 death registration, already catalogued as
+  `SRC-0004`; it is not evidence of Liliosa's death.
+- Negative result: Memory `120876994` is a scanned eight-page 1975 issue of
+  *O Processo*, not a civil or parish record. No identifiable Liliosa, Aristão
+  or Armond reference was found in extracted text or rendered-page review.
+- Conflict restored: 16 April 1946 on the collaborative FamilySearch profile
+  and 15 November 1946 in the imported conversation remain unsourced leads.
+- Genealogical conclusions changed: Liliosa's exact death date is no longer
+  stated as established. Her parentage and original surname remain unresolved.
+- Next action: inspect Aristão Ferreira Armond's Sources and Memories for his
+  1957 death registration and direct evidence of parentage.

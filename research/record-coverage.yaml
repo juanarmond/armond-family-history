@@ -150,8 +150,18 @@ people:
     status: lead_only
     source_ids: []
     last_reviewed: "2026-07-28"
-    next_action: Recover and re-transcribe the 1946 death registration.
-    notes: []
+    next_action: >-
+      Locate Liliosa's own 1946 civil death registration or parish burial
+      record; do not reuse the record attached to FamilySearch source SJBH-LL3.
+    notes:
+    - text: >-
+        FamilySearch source SJBH-LL3 resolves to Liliosa's mention as the
+        mother of Geraldo in his 1991 death registration, not to Liliosa's own
+        death record.
+    - text: >-
+        FamilySearch Memory 120876994 is an eight-page 1975 issue of the
+        newspaper O Processo. It is not a 1946 vital record and yielded no
+        identifiable Liliosa, Aristão or Armond reference during this review.
   notes: []
 - person_id: P-0010
   external_profiles:

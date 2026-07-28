@@ -7,9 +7,10 @@
 ## Current objective
 
 Continue the authorised FamilySearch evidence audit using the validated
-person-by-record coverage ledger. Inspect Liliosa Paz Armond's Sources and
-Memories for her 1946 death registration, prioritising evidence that may
-establish her original surname or parents.
+person-by-record coverage ledger. Inspect Aristão Ferreira Armond's Sources and
+Memories for his 1957 death registration and records that may directly identify
+his parents. Liliosa Paz Armond's current FamilySearch attachments have been
+exhausted without locating her own death registration.
 
 The former human-intervention blocker is partially resolved. Three civil
 marriage certificates and one original death-register entry have been
@@ -110,6 +111,19 @@ claim to confirmed.
   image are derivatives.
 - Antenor's FamilySearch profile had the certificate attached as a user-created
   source; Iris's profile had no attached sources when reviewed.
+- Liliosa Paz Armond's sole attached FamilySearch source was audited and found
+  to be a person-level extraction from Geraldo's 1991 death registration. It
+  proves only that she was reported as his mother; it is not her 1946 death
+  registration.
+- Liliosa's sole Memory, artifact `120876994`, is an eight-page February 1975
+  issue of the newspaper *O Processo*. Its extracted text and rendered pages
+  yielded no identifiable Liliosa, Aristão or Armond reference. It was not
+  catalogued as genealogical evidence, and the negative result remains in the
+  research log.
+- Liliosa's death date is unresolved. The collaborative profile displays 16
+  April 1946, while the imported conversation reports an earlier reading of 15
+  November 1946 from an unavailable attachment. Neither date has a retained
+  primary record.
 - The initial direct-ancestor person block now follows Ahnentafel order:
   `P-0001` is the repository subject, `P-0002` and `P-0003` are his parents,
   and positions through `P-0015` cover the known grandparents and
@@ -210,11 +224,16 @@ claim to confirmed.
 
 - Also appears in some material with `Ferreira Armond`; the original surname form and parentage remain unresolved.
 - Born: approximately 1885–1887.
-- Died: 15 November 1946, according to a death record previously examined.
+- Died: in 1946, according to conflicting uncatalogued leads. FamilySearch
+  displays 16 April; the imported conversation reports 15 November from an
+  unavailable attachment. The exact date remains unconfirmed.
 - Spouse: Aristão Ferreira Armond.
 - Parents: unknown. She is **not** to be recorded as a daughter of Simplício Ferreira Armond and Elizia Balbina Toledo without new primary evidence.
 - Child: the 1991 death entry for Geraldo reports Liliosa as his mother, giving
   `strong-evidence` for that parent-child relationship.
+- Evidence issue: FamilySearch source `SJBH-LL3` is a derivative reference to
+  Geraldo's death registration, and Memory `120876994` is a 1975 newspaper
+  issue. Neither is Liliosa's death or burial record.
 
 ### Antonio Engracio Filho
 
@@ -322,7 +341,7 @@ Collateral relatives have been mentioned in family trees and documents, includin
 ## Major unresolved conflicts
 
 1. Exact birth date of Cidalia: 15 September or 15 November 1930.
-2. Original surname and parents of Liliosa Paz Armond.
+2. Exact death date, original surname and parents of Liliosa Paz Armond.
 3. Direct primary proof of Aristão Ferreira Armond's parents.
 4. Exact transcription of the parents of João Gonçalves Bohrer.
 5. Portuguese parish of Vicente José de Carvalho Guimarães.
