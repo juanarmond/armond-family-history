@@ -1,0 +1,24 @@
+schema_version: 1
+id: P-0019
+preferred_name: João Monis Bittencourt
+privacy: deceased
+name_variants:
+- value: João Monis Bittencourt
+  type: source
+  source_ids:
+  - SRC-0009
+- value: João Muniz Bittencourt
+  type: source
+  source_ids:
+  - SRC-0001
+event_ids:
+- E-0006
+family_ids:
+- F-0007
+notes:
+- text: Ahnentafel position 24.
+- text: >-
+    The FamilySearch collaborative profile GLMF-KCR gives an unproved 1864
+    birth in São Miguel, Azores, and attaches an 1871 naturalisation link.
+    Neither claim is accepted here until the underlying record identifies the
+    same person.

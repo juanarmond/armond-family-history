@@ -418,3 +418,68 @@ people:
   - text: >-
       The current source-qualified name is Eliza Ferreira Armand. Elizia
       Balbina Toledo remains an unresolved lead.
+- person_id: P-0019
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: GLMF-KCR
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: >-
+      Test the unproved 1864 São Miguel claim against the underlying
+      naturalisation and parish records; do not infer island origin.
+    notes:
+    - text: >-
+        The attached 1871 Hemeroteca link was unavailable during review and
+        has not been shown to concern this João.
+  - record_type: marriage
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: >-
+      Locate the ceremony entry in the Espírito Santo parish after the
+      23 December 1882 provision.
+    notes:
+    - text: >-
+        SRC-0009 proves issuance of marriage provisions and the intended
+        couple; it does not prove a completed marriage ceremony.
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate João's own death or burial record after identity is resolved.
+    notes: []
+  notes: []
+- person_id: P-0020
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: LB1N-YC9
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate Susanna's birth or baptism using the provision name form.
+    notes: []
+  - record_type: marriage
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: >-
+      Locate the ceremony entry in the Espírito Santo parish after the
+      23 December 1882 provision.
+    notes:
+    - text: >-
+        SRC-0009 proves issuance of marriage provisions and the intended
+        couple; it does not prove a completed marriage ceremony.
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-07-28"
+    next_action: Locate Susanna's own death or burial record.
+    notes: []
+  notes: []

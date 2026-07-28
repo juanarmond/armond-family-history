@@ -1,0 +1,34 @@
+schema_version: 1
+id: F-0007
+partners:
+- person_id: P-0019
+  role: spouse
+- person_id: P-0020
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - SRC-0009
+  notes:
+  - text: >-
+      The source documents a provision to marry, not a completed ceremony.
+      The relationship remains strong evidence rather than confirmed marriage.
+children:
+- person_id: P-0012
+  parent_relationships:
+  - parent_id: P-0019
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - SRC-0001
+    notes: []
+  - parent_id: P-0020
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - SRC-0001
+    notes: []
+  notes: []
+event_ids:
+- E-0006
+notes: []

@@ -122,3 +122,8 @@ also remain traceable through source records and research logs.
 - Catalogue the full-resolution March 1973 Guanabara driver-dossier index as
   `SRC-0008`, preserve its printed "Aristac" name variant, and add José Olavo
   Armond as a source-qualified strong-evidence child of Aristão and Liliosa.
+- Recover and catalogue the original 1882 marriage provision for João Monis
+  Bittencourt and Susanna Rita Brondão as `SRC-0009`; distinguish the issued
+  authorisation from a completed ceremony, preserve the FamilySearch `1633`
+  index defect, and identify the Espírito Santo parish as the next register
+  target.

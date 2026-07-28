@@ -1,0 +1,23 @@
+schema_version: 1
+id: P-0020
+preferred_name: Susanna Rita Brondão
+privacy: deceased
+name_variants:
+- value: Susanna Rita Brondão
+  type: source
+  source_ids:
+  - SRC-0009
+- value: Suzana Ritta Brandão
+  type: source
+  source_ids:
+  - SRC-0001
+event_ids:
+- E-0006
+family_ids:
+- F-0007
+notes:
+- text: Ahnentafel position 25.
+- text: >-
+    The original 1882 provision and the 1916 record of her son use materially
+    different spellings. Both are preserved; no spelling is silently
+    normalised.

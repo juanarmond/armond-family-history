@@ -8,31 +8,32 @@
 
 ## Current objective
 
-Locate the marriage of João Muniz Bittencourt and Suzana Ritta Brandão and
-establish its date, place and original record context without accepting the
-collaborative-tree date as evidence.
+Locate the completed marriage ceremony entry for João Monis Bittencourt and
+Susanna Rita Brondão after the ecclesiastical provision issued on 23 December
+1882.
 
-Begin with the unproved 23 December 1882 lead, determine the likely civil or
-parish jurisdiction from Deocleciano's 1916 marriage and related records, then
-search the closest original marriage register. Treat any island-origin claim
-as a separate question.
+The original provision identifies the Espírito Santo parish in the Court of
+Rio de Janeiro. Determine the surviving marriage-book series, search late
+December 1882 and early 1883, and distinguish the ceremony from the already
+catalogued authorisation.
 
 ### Objective completion signal
 
-- A qualifying marriage image is catalogued, or the bounded searches and exact
-  access blocker are reproducibly documented.
-- The date and place are not promoted from collaborative profiles alone.
-- The parent identities and any stated naturalities are transcribed exactly.
+- A qualifying ceremony image is catalogued, or the exact book gap and
+  archival request target are reproducibly documented.
+- The provision date is not silently reused as the ceremony date.
+- Name variants and any stated parentage or naturalities are preserved exactly.
 - Any retained image uses the highest resolution FamilySearch authorises.
 
 ## Next steps
 
 This is the immediate execution queue, in order:
 
-1. **Now:** locate João Muniz Bittencourt and Suzana Ritta Brandão's marriage.
-2. Test the 23 December 1882 lead against an original register; do not accept
-   the collaborative date or truncated locality without the image.
-3. Separate the marriage search from the unproved Portuguese-island hypothesis.
+1. **Now:** identify the Espírito Santo parish marriage book covering late
+   December 1882 and early 1883.
+2. Search for the ceremony after the 23 December provision, using every
+   documented spelling variant.
+3. If the book is not online, document the exact Cúria Metropolitana request.
 4. **Human-access task:** review Aristão's restricted baptism and marriage
    register targets when authorised access becomes available.
 
@@ -66,13 +67,13 @@ None of these dependencies prevents the current João–Suzana marriage search.
 
 | Item | Current state |
 | --- | --- |
-| Structured people | 18 |
-| Structured families | 6 |
-| Structured events | 5 |
-| Structured places | 4 |
-| Structured sources | 8 |
-| Inventoried retained documents | 7 |
-| Validation | 41 entities; zero errors or warnings at the last check |
+| Structured people | 20 |
+| Structured families | 7 |
+| Structured events | 6 |
+| Structured places | 5 |
+| Structured sources | 9 |
+| Inventoried retained documents | 8 |
+| Validation | 47 entities; zero errors or warnings at the last check |
 | Automated tests | 53 passing at the last check |
 
 Catalogued evidence currently includes:
@@ -88,7 +89,9 @@ Catalogued evidence currently includes:
 - `SRC-0007` — three-page 2019 full-content certificate of the 1916
   Deocleciano–Luiza marriage; and
 - `SRC-0008` — March 1973 government driver-dossier index naming José Olavo
-  Armond and his parents.
+  Armond and his parents; and
+- `SRC-0009` — original 1882 marriage provision for João Monis Bittencourt and
+  Susanna Rita Brondão.
 
 Source details, archival references, transcriptions, limitations and
 conclusion links are canonical in `data/sources/`. Record-by-record gaps are
@@ -99,7 +102,7 @@ canonical in `research/record-coverage.yaml`.
 | Area | Strongest current position | Strategic gap |
 | --- | --- | --- |
 | Armond and Paz | Aristão's death is confirmed; a second original government record independently names Liliosa Paz Armond and reports the couple as José Olavo's parents | Birth or baptism of Aristão; marriage to Liliosa; Liliosa's own vital records and parents |
-| Muniz Bittencourt and Azevedo | The 1916 and 1949 marriages directly report two generations of parents | Earlier records for João Muniz Bittencourt and Suzana Ritta Brandão; test island origin |
+| Muniz Bittencourt and Azevedo | The 1916 marriage reports Deocleciano's parents; an original 1882 provision names João and Susanna and the intended Espírito Santo parish | Completed ceremony entry; João and Susanna's own vital records; test rather than assume island origin |
 | Engracio, Souza and Guimarães | Cidalia's 1952 marriage directly reports Antonio Engracio Filho and Maria Aurora Guimarães | Recover and catalogue the older death, marriage and collective registration images |
 | Bohrer | Iris's 1949 marriage directly reports João Gonçalves Bohrer and Selina Bohrer | Catalogue their own vital records and verify the next generation |
 | Portuguese origins | Vicente José de Carvalho Guimarães is a transcript-only lead described as Portuguese | Recover the underlying record and identify a district, municipality and parish |
@@ -119,14 +122,18 @@ relationships. Collaborative profiles remain navigation leads only.
    island origin.
 7. Whether several nineteenth-century collaborative profiles refer to the same
    people documented in the family records.
+8. Whether the 1871 naturalisation link attached to João's profile concerns the
+   same person; the unproved 1864 birth would make the chronology unusually
+   early and requires the original record.
+9. FamilySearch's index table displays `1633` for the provision catalogued as
+   `SRC-0009`; the original image and citation state 23 December 1882.
 
 Do not resolve a conflict by deleting the weaker version. Preserve every
 material interpretation with its source and confidence.
 
 ## Strategic research priorities
 
-1. Locate João Muniz Bittencourt and Suzana Ritta Brandão's marriage and
-   earlier records.
+1. Locate the completed João–Susanna ceremony and their earlier records.
 2. Locate Liliosa's own death, burial, birth or marriage record.
 3. Obtain authorised access to Aristão's identified baptism and marriage
    register targets.
@@ -141,7 +148,7 @@ only in `research/record-coverage.yaml`.
 
 ## Engineering state
 
-- **Active:** complete the current João–Suzana marriage search; reassess
+- **Active:** locate the ceremony entry corresponding to `SRC-0009`; reassess
   assertion-level citation quality after 5–10 varied records.
 - **External:** require the frozen repository-health check in GitHub branch
   rules.

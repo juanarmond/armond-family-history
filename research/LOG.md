@@ -419,3 +419,23 @@ entry they amend; they must not erase it.
   1946 variant was promoted.
 - Next action: locate João Muniz Bittencourt and Suzana Ritta Brandão's
   marriage and test the 23 December 1882 collaborative-tree lead.
+
+## 2026-07-28 — João–Susanna marriage-provision review
+
+- Outcome: recovered the original record behind the 23 December 1882
+  collaborative-tree lead and corrected its interpretation.
+- Detailed log:
+  [`logs/2026-07-28-joao-suzana-marriage-provision-review.md`](logs/2026-07-28-joao-suzana-marriage-provision-review.md).
+- Source added: `SRC-0009`, an authorised 4749×3774 original download from DGS
+  `004626365`, item 1, image 21, page 191.
+- Interpretation: the entry issued provisions for João Monis Bittencourt and
+  Susanna Rita Brondão to marry in the Espírito Santo parish. It does not
+  certify that the ceremony occurred on 23 December 1882.
+- Index conflict: FamilySearch's detail table displays `1633`, while the
+  original image and citation state 23 December 1882.
+- Profile audit: João's `GLMF-KCR` and Suzana's `LB1N-YC9` profiles contain no
+  Memories. Their other attached sources remain unverified leads.
+- Genealogical conclusion changed: the couple and intended parish are now
+  strong evidence; no confirmed marriage event or island origin was added.
+- Next action: locate the corresponding Espírito Santo parish ceremony entry
+  after 23 December 1882 or document the exact archival access gap.

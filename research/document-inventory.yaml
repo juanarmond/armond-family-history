@@ -344,3 +344,43 @@ documents:
         The page contains identity and driver-dossier information for numerous
         unrelated people. It is private evidence and must not be included in
         public exports.
+  - inventory_id: DOC-0008
+    status: catalogued
+    added_date: "2026-07-28"
+    apparent_record_type: Original ecclesiastical marriage-provision register
+    apparent_people:
+      - João Monis Bittencourt
+      - Susanna Rita Brondão
+    apparent_event: other
+    image_quality: adequate
+    provenance: >-
+      FamilySearch image from "Brasil, Rio de Janeiro, Registros da Igreja
+      Católica, 1616-2017", marriage-provision register, DGS 004626365, item 1,
+      image 21 of 35, printed page 191, record ARK 1:1:6X8P-YB4T, image ARK
+      3:1:939F-GJ96-JY, original-image storage ID TH-1-14177-39237-12.
+      Accessed and downloaded through the owner's authenticated session on
+      28 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/SRC-0009-marriage-provision-joao-monis-bittencourt-susanna-rita-brondao-1882-original.jpg
+        sha256: 3754f2bd0de206063399ad0b2f984998d8332c80f0f3b906a729792377425f25
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+          pixel_width: 4749
+          pixel_height: 3774
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: SRC-0009
+    notes:
+      - >-
+        The retained JPEG is the authorised full-resolution original download,
+        not a screenshot, preview, thumbnail, inspection crop or upscaled
+        derivative.
+      - >-
+        The record is a provision to marry, not a certificate that the
+        ceremony was completed. That distinction is preserved in the source
+        and event models.

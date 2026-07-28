@@ -1,0 +1,20 @@
+schema_version: 1
+id: E-0006
+event_type: other
+date:
+  kind: exact
+  value: "1882-12-23"
+place_id: PL-0005
+participants:
+- person_id: P-0019
+  role: principal
+- person_id: P-0020
+  role: spouse
+status: strong-evidence
+source_ids:
+- SRC-0009
+notes:
+- text: >-
+    This event is the issuance of ecclesiastical provisions authorising the
+    couple to marry in the Espírito Santo parish. It is not modelled as the
+    marriage ceremony.

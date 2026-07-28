@@ -1,0 +1,18 @@
+schema_version: 1
+id: PL-0005
+preferred_name: Espírito Santo Parish, Rio de Janeiro, Brazil
+name_variants:
+- value: Paróquia do Espírito Santo desta Corte
+  source_ids:
+  - SRC-0009
+  note: Source-language jurisdictional form in the 1882 provision.
+place_type: parish
+historical_jurisdiction: >-
+  Roman Catholic parish in the Court of Rio de Janeiro, Empire of Brazil, as
+  identified in the marriage-provision register dated 23 December 1882.
+source_ids:
+- SRC-0009
+notes:
+- text: >-
+    The exact surviving marriage-book series and modern parish successor
+    remain to be identified before a manual ceremony-entry search.
