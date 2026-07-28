@@ -36,3 +36,7 @@ also remain traceable through source records and research logs.
   the frozen local repository check with pinned action and tool versions.
 - Consolidate the older duplicate remote validation workflow into the canonical
   pinned, multi-version repository-health workflow.
+- Consolidate project scope and operating principles into `README.md`, current
+  state and planning into `STATUS.md`, and research policy and history under
+  `research/`; add checks for root-document ownership and broken local Markdown
+  links.

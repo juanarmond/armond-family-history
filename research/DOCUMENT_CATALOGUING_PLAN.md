@@ -3,7 +3,7 @@
 ## Objective
 
 Catalogue every certificate, identity document and screenshot already supplied
-without converting provisional statements in `CURRENT_STATE.md` into
+without converting provisional statements in `STATUS.md` into
 unsupported structured facts.
 
 ## Order of work
@@ -21,7 +21,7 @@ Start with the clearest, highest-value records:
 5. identity documents and screenshots, after privacy review.
 
 The order reflects evidential value and the unresolved questions in
-`CURRENT_STATE.md`; it does not imply that any uncatalogued claim is confirmed.
+`STATUS.md`; it does not imply that any uncatalogued claim is confirmed.
 
 ## Phase 1 — Inventory without interpretation
 
@@ -113,7 +113,7 @@ For every cataloguing session:
 1. Create a research log from `templates/research-log.md`.
 2. Record unreadable fields, missing pages, failed lookups and access barriers.
 3. Update the affected entity files.
-4. Update `CURRENT_STATE.md` only if a conclusion materially changes.
+4. Update `STATUS.md` only if a conclusion materially changes.
 5. Add a concise `CHANGELOG.md` entry and run the repository checks.
 
 ## First review checkpoint

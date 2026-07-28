@@ -10,7 +10,7 @@ entry they amend; they must not erase it.
 - Outcome: no source document, source entity or historical binary/LFS object was
   found; Priority 0 requires authorised copies before cataloguing can begin.
 - Detailed log:
-  [`research/logs/2026-07-28-repository-evidence-availability-audit.md`](research/logs/2026-07-28-repository-evidence-availability-audit.md).
+  [`logs/2026-07-28-repository-evidence-availability-audit.md`](logs/2026-07-28-repository-evidence-availability-audit.md).
 
 ## 2026-07-28 — Governance and architecture consolidation
 
@@ -96,6 +96,18 @@ entry they amend; they must not erase it.
   validation workflow, preserved that commit in history and removed the
   obsolete duplicate from the worktree in favour of the pinned canonical
   workflow.
+- Research evidence added: none.
+- Genealogical conclusions changed: none.
+- Next action: unchanged; obtain authorised, privacy-reviewed document copies
+  for the first three source records.
+
+## 2026-07-28 — Documentation ownership consolidation
+
+- Outcome: reduced root Markdown to four canonical documents by merging stable
+  project guidance into `README.md`, active state and priorities into
+  `STATUS.md`, and research policy and cumulative history under `research/`.
+  Added automated checks against broken local links and renewed root-document
+  fragmentation.
 - Research evidence added: none.
 - Genealogical conclusions changed: none.
 - Next action: unchanged; obtain authorised, privacy-reviewed document copies

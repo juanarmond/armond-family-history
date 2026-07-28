@@ -1,43 +1,47 @@
-# Current Research State
+# Project Status
 
-> This document is a working summary, not a substitute for source records. Statements are classified by present confidence and must be revised when better evidence is added.
+> This document is the canonical current-state summary and prioritised backlog.
+> It is not a substitute for source records. Statements are classified by
+> present confidence and must be revised when better evidence is added.
 
-## Repository and evidence status
+## Current objective
+
+Obtain authorised, privacy-reviewed copies of the documents previously supplied
+and catalogue the first three clearest original records.
+
+This is blocked on human intervention: no source image or document exists in
+the worktree, Git history or Git LFS. Further abstraction without real records
+would optimise an untested model. Three representative original records are the
+minimum useful evidence sample for testing source, person, event, family, place,
+privacy and conflict workflows.
+
+### Completion criteria
+
+- Add each authorised file to the versioned document inventory with checksum,
+  provenance and cleared privacy review.
+- Catalogue three distinct original records as structured sources with exact
+  citations, abstracts, reliability assessments and retained conflicts.
+- Create only the people, events, families and places directly required by
+  those records.
+- Use reserved drafts and validated batch promotion.
+- Review the schema against the resulting real data before wider ingestion.
+- Run the complete repository check before committing.
+
+## Repository status
 
 - 28 July 2026 repository audit: no certificate image, identity document,
   screenshot or structured source record is present in the worktree, Git
   history or Git LFS. References below to documents previously examined remain
   uncatalogued narrative summaries until authorised copies are added.
 - No genealogical conclusion was changed by this negative repository search.
-- 28 July 2026 architecture review: repository governance and placeholder files
-  were consolidated; no genealogical conclusion changed.
-- 28 July 2026 intake review: the empty document inventory now has a versioned
-  privacy, checksum and duplicate-validation contract; no source document was
-  added and no genealogical conclusion changed.
-- 28 July 2026 data-model review: all entity contracts now declare schema
-  version 1, and source category, form, information quality and evidence type
-  are represented separately; no source data or genealogical conclusion
-  changed.
-- 28 July 2026 relationship-model review: parent-child evidence is now stored
-  per parent edge, and relationship types and event participant roles use
-  controlled vocabularies; no family record or genealogical conclusion
-  changed.
-- 28 July 2026 validation architecture review: the stable validator command now
-  delegates to focused inventory, reference, shared-model and genealogy-rule
-  modules; validation behaviour and genealogical conclusions did not change.
-- 28 July 2026 identifier-lifecycle review: stored next-ID counters were
-  replaced by derived allocation, explicit reservations and recoverable draft
-  creation; no live entity or genealogical conclusion was added.
-- 28 July 2026 promotion review: completed mutually dependent drafts can now be
-  staged, validated and promoted as a recoverable batch with rollback; no live
-  entity or genealogical conclusion was added.
-- 28 July 2026 automation review: the frozen repository check now runs in a
-  least-privilege GitHub Actions matrix as well as locally; no research evidence
-  or genealogical conclusion changed.
-- 28 July 2026 remote-integration review: the earlier unpinned single-version
-  validation workflow was preserved in Git history and removed from the
-  worktree after consolidation into the canonical health workflow; no research
-  evidence or genealogical conclusion changed.
+- The versioned YAML model, evidence intake contract, controlled relationship
+  vocabularies, modular validator, recoverable ID allocation and batch
+  promotion workflow are complete.
+- Root documentation has four canonical files; research policy and session
+  history live together under `research/`.
+- The frozen repository check runs locally and in GitHub Actions. Requiring it
+  in branch rules remains an external repository-administration task.
+- No live entity or structured source record has been added.
 
 ## Subject
 
@@ -228,10 +232,111 @@ Collateral relatives have been mentioned in family trees and documents, includin
 6. Whether João Muniz Bittencourt had an Azorean, Madeiran or other Portuguese island origin.
 7. Whether collaborative-tree dates for several nineteenth-century people correspond to the same individuals found in the family documents.
 
-## Immediate next action
+## Prioritised backlog
 
-Obtain authorised, privacy-reviewed copies of the documents previously supplied,
-then create source records beginning with the clearest marriage and death
-certificates. Until the files are available, improve the intake and validation
-workflow; do not extend earlier generations or reconstruct source records from
-the narrative summary alone.
+### Priority 0 — Preserve and catalogue existing evidence
+
+> Blocked: authorised, privacy-reviewed copies must be added before these tasks
+> can be completed.
+
+- [ ] Assign source IDs to every certificate, identity document and screenshot
+  already supplied.
+- [ ] Store a clean image filename and an English abstract for each document.
+- [ ] Re-transcribe ambiguous handwritten fields at full resolution.
+- [ ] Create initial person IDs and family IDs only after the source catalogue
+  begins.
+
+### Priority 1 — Armond and Paz lines
+
+- [ ] Locate the birth or baptism of Aristão Ferreira Armond, approximately
+  1879.
+- [ ] Locate the marriage of Aristão Ferreira Armond and Liliosa Paz Armond.
+- [ ] Locate Aristão's 1957 death registration.
+- [ ] Confirm or reject Simplício Ferreira Armond and Elizia Balbina Toledo as
+  Aristão's parents using a primary record.
+- [ ] Identify Liliosa's parents and original surname from her birth, baptism,
+  marriage or death records.
+- [ ] Search Rosário da Limeira, Muriaé, Carangola, São Francisco do Glória,
+  Piacatuba and Leopoldina collections as appropriate.
+
+### Priority 2 — Muniz Bittencourt and Brandão lines
+
+- [ ] Catalogue the 21 October 1916 marriage of Deocleciano Muniz Bittencourt
+  and Luiza Fernandes de Azevedo.
+- [ ] Locate Deocleciano's birth or baptism in Sapucaia, Rio de Janeiro,
+  approximately 1892.
+- [ ] Locate the marriage of João Muniz Bittencourt and Suzana Ritta Brandão.
+- [ ] Locate João's birth, death, immigration or naturalisation records.
+- [ ] Test the claimed Azorean or other island origin without assuming it.
+- [ ] Identify Suzana Ritta Brandão's parents from an original record.
+
+### Priority 3 — Portuguese origin of Vicente José de Carvalho Guimarães
+
+- [ ] Locate Vicente's marriage to Maria Tertuliana da Conceição.
+- [ ] Locate Vicente's death registration in Carangola or the relevant
+  district.
+- [ ] Search naturalisation, foreigner registration, passport and passenger
+  records.
+- [ ] Identify district, municipality and parish in Portugal.
+- [ ] Once the parish is known, search the relevant parish books generation by
+  generation.
+
+### Priority 4 — Bohrer lines
+
+- [ ] Catalogue the deaths of João Gonçalves Bohrer and Selina Bohrer.
+- [ ] Re-transcribe João's parents from the original death record.
+- [ ] Locate João's marriage to Selina.
+- [ ] Locate Selina's birth or baptism and confirm Joaquim José Bohrer and
+  Lucinda Ferreira da Silva as parents.
+- [ ] Locate Joaquim's marriage or death record.
+- [ ] Test the proposed parents Francisco José Bohrer and Rosa Eugênia de
+  Lemos.
+- [ ] Determine the first documented immigrant generation; do not infer
+  Germany from the surname alone.
+
+### Priority 5 — Engracio, Souza and Guimarães lines
+
+- [ ] Catalogue the death of Antonio Engracio Filho.
+- [ ] Locate Antonio Engracio Filho's birth or baptism, approximately
+  1889–1890.
+- [ ] Locate his marriage to Maria Aurora Guimarães.
+- [ ] Locate the marriage of Antonio Engracio de Souza and Luzia Pinheiro da
+  Conceição.
+- [ ] Catalogue Maria Aurora's death and the civil registration listing her
+  sibling group.
+- [ ] Extend Francisco José de Carvalho Guimarães and Emmerenciana Maria de
+  Jesus only through original records.
+
+### Priority 6 — Azevedo line
+
+- [ ] Locate Luiza Fernandes de Azevedo's birth or baptism, approximately 1898.
+- [ ] Confirm the exact locality and name variants.
+- [ ] Locate the marriage of Secundino Maria de Azevedo and Theresa Fernandes
+  de Azevedo.
+- [ ] Identify their parents.
+
+## Engineering backlog
+
+| Priority | Outcome | Migration effort | Maintenance impact | Status |
+| --- | --- | --- | --- | --- |
+| P1 | Catalogue and model the first three original records | Requires source-image access | Tests the model before scale | Blocked |
+| P1 | Review the model and ingest remaining existing evidence | Depends on first-source findings | Establishes a stable structured base | Pending |
+| P2 | Require the health check in GitHub branch rules | Low; administrator access | Prevents invalid merges | External |
+| P3 | Generate person pages from structured YAML | Medium | Reproducible human-readable views | Deferred until real data |
+| P4 | Add privacy-filtered GEDCOM export | Medium to high | Interoperability without exposing living people | Deferred until schema stability |
+
+Completed engineering work is recorded in
+[`CHANGELOG.md`](CHANGELOG.md). Architecture changes should be driven by real
+records now that the foundation is stable.
+
+## Definition of done for a research task
+
+A task is complete only when:
+
+1. the searched collections and date/place range are documented;
+2. positive or negative results are logged;
+3. the record image or archival reference is preserved where legally
+   permitted;
+4. a transcription or abstract is included;
+5. all affected people, events and relationships are updated;
+6. the confidence level and remaining conflicts are explicit.

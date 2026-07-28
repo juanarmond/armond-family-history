@@ -63,5 +63,5 @@ If the process is forcibly interrupted and leaves
 python3 scripts/new_entity.py recover
 ```
 
-Source evidence policy is defined in `RESEARCH_RULES.md`; this file defines only
+Source evidence policy is defined in `research/README.md`; this file defines only
 storage and identifier mechanics.

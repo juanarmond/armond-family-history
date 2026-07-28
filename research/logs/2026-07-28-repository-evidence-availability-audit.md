@@ -11,7 +11,7 @@ related_families: []
 ## Exact research question
 
 Are any certificates, identity documents or screenshots described in
-`CURRENT_STATE.md` available in the worktree, Git history or Git LFS so that
+`STATUS.md` available in the worktree, Git history or Git LFS so that
 Priority 0 cataloguing can begin?
 
 ## Search scope
