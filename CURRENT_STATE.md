@@ -11,6 +11,9 @@
 - No genealogical conclusion was changed by this negative repository search.
 - 28 July 2026 architecture review: repository governance and placeholder files
   were consolidated; no genealogical conclusion changed.
+- 28 July 2026 intake review: the empty document inventory now has a versioned
+  privacy, checksum and duplicate-validation contract; no source document was
+  added and no genealogical conclusion changed.
 
 ## Subject
 

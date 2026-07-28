@@ -35,24 +35,35 @@ For each file already available:
    sensitive content are visible.
 5. Record duplicate, cropped, low-resolution and inaccessible items.
 
-An inventory entry has this shape:
+An inventory entry represents one source candidate and may contain multiple
+files:
 
 ```yaml
 - inventory_id: DOC-0001
-  current_path: incoming/example-image.jpg
+  status: intake
+  added_date: "2026-07-28"
   apparent_record_type: civil marriage registration
   apparent_people:
     - Name exactly as visible
   apparent_event: marriage
-  image_quality: needs-review
-  sensitive_content: unknown
+  image_quality: unreviewed
+  provenance: Family-held copy; exact custody to be documented
+  rights_status: unknown
+  files:
+    - path: evidence/civil/example-image.jpg
+      sha256: 64-lowercase-hexadecimal-characters
+      media_type: image/jpeg
+      role: primary
+      privacy_review: pending
+      sensitive_content: []
   duplicate_of: null
   proposed_source_id: null
   notes: []
 ```
 
-The inventory is a staging tool. Apparent names and events are observations, not
-structured conclusions.
+The canonical field contract is
+`schemas/document-inventory.schema.json`. The inventory is a staging tool:
+apparent names and events are observations, not structured conclusions.
 
 ## Phase 2 — Privacy and file integrity
 

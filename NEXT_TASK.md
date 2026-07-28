@@ -2,24 +2,22 @@
 
 ## Objective
 
-Add a versioned schema and automated validation for
-`research/document-inventory.yaml`.
+Add explicit schema versions to every structured entity and separate source
+form, information quality and evidence type in the source model.
 
 ## Why this is next
 
-Priority 0 evidence cataloguing is blocked because no source images are
-available. The safest useful work is to make the intake contract deterministic
-before those files arrive. This does not bypass the gate against extending
-uncatalogued ancestry.
+No live entity exists, so this is the lowest-risk point to correct the data
+contract. After hundreds of records, the same migration would require a
+repository-wide rewrite and version detection.
 
 ## Completion criteria
 
-- Define required inventory fields and controlled statuses without encoding
-  genealogical conclusions.
-- Validate document IDs, paths, privacy review, checksum state, duplicate
-  references and proposed source IDs.
-- Add positive and negative automated tests.
-- Update the canonical data-model and intake documentation.
+- Require `schema_version` on people, families, events, places and sources.
+- Replace the overloaded `evidence_class` field with distinct source-form,
+  information-quality and evidence-type fields.
+- Preserve the rule that collaborative trees are lead-only.
+- Update templates, validators and tests atomically.
 - Run the complete repository check before committing.
 
 ## External blocker

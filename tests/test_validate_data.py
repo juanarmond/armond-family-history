@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import copy
+import hashlib
 import tempfile
 import unittest
 from pathlib import Path
@@ -155,12 +156,20 @@ class RepositoryFixture:
             for identifier, document in documents.items():
                 self.write_yaml(f"data/{kind}/{identifier}.yaml", document)
         self.write_yaml("data/id-ledger.yaml", self.ledger)
+        self.write_yaml(
+            "research/document-inventory.yaml", {"version": 1, "documents": []}
+        )
 
     def rewrite(self) -> None:
         for kind, documents in self.documents.items():
             for identifier, document in documents.items():
                 self.write_yaml(f"data/{kind}/{identifier}.yaml", document)
         self.write_yaml("data/id-ledger.yaml", self.ledger)
+        inventory_path = self.root / "research/document-inventory.yaml"
+        if not inventory_path.exists():
+            self.write_yaml(
+                "research/document-inventory.yaml", {"version": 1, "documents": []}
+            )
 
     def validate(self) -> ValidationResult:
         return validate_repository(self.root, schema_dir=SCHEMA_DIR)
@@ -203,6 +212,164 @@ class ValidateDataTests(unittest.TestCase):
         self.fixture.rewrite()
         result = self.fixture.validate()
         self.assert_issue(result, "error", "reference 'E-9999' does not resolve")
+
+    def test_valid_document_inventory_entry_passes(self) -> None:
+        content = b"privacy-reviewed synthetic document"
+        evidence_path = self.fixture.root / "evidence/civil/test-record.bin"
+        evidence_path.parent.mkdir(parents=True)
+        evidence_path.write_bytes(content)
+        self.fixture.write_yaml(
+            "research/document-inventory.yaml",
+            {
+                "version": 1,
+                "documents": [
+                    {
+                        "inventory_id": "DOC-0001",
+                        "status": "reviewed",
+                        "added_date": "2026-07-28",
+                        "apparent_record_type": "synthetic civil record",
+                        "apparent_people": ["Example Person"],
+                        "apparent_event": "other",
+                        "image_quality": "adequate",
+                        "provenance": "Synthetic validator fixture.",
+                        "rights_status": "private-research",
+                        "files": [
+                            {
+                                "path": "evidence/civil/test-record.bin",
+                                "sha256": hashlib.sha256(content).hexdigest(),
+                                "media_type": "application/octet-stream",
+                                "role": "primary",
+                                "privacy_review": "cleared",
+                                "sensitive_content": [],
+                            }
+                        ],
+                        "duplicate_of": None,
+                        "proposed_source_id": None,
+                        "notes": [],
+                    }
+                ],
+            },
+        )
+        result = self.fixture.validate()
+        self.assertEqual((), result.errors)
+
+    def test_inventory_checksum_mismatch_is_an_error(self) -> None:
+        evidence_path = self.fixture.root / "evidence/civil/test-record.bin"
+        evidence_path.parent.mkdir(parents=True)
+        evidence_path.write_bytes(b"synthetic document")
+        self.fixture.write_yaml(
+            "research/document-inventory.yaml",
+            {
+                "version": 1,
+                "documents": [
+                    {
+                        "inventory_id": "DOC-0001",
+                        "status": "intake",
+                        "added_date": "2026-07-28",
+                        "apparent_record_type": "synthetic record",
+                        "apparent_people": [],
+                        "apparent_event": "unknown",
+                        "image_quality": "unreviewed",
+                        "provenance": "Synthetic validator fixture.",
+                        "rights_status": "unknown",
+                        "files": [
+                            {
+                                "path": "evidence/civil/test-record.bin",
+                                "sha256": "0" * 64,
+                                "role": "primary",
+                                "privacy_review": "pending",
+                                "sensitive_content": [],
+                            }
+                        ],
+                        "duplicate_of": None,
+                        "proposed_source_id": None,
+                        "notes": [],
+                    }
+                ],
+            },
+        )
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "checksum does not match")
+
+    def test_reviewed_inventory_requires_privacy_clearance(self) -> None:
+        content = b"synthetic document"
+        evidence_path = self.fixture.root / "evidence/civil/test-record.bin"
+        evidence_path.parent.mkdir(parents=True)
+        evidence_path.write_bytes(content)
+        self.fixture.write_yaml(
+            "research/document-inventory.yaml",
+            {
+                "version": 1,
+                "documents": [
+                    {
+                        "inventory_id": "DOC-0001",
+                        "status": "reviewed",
+                        "added_date": "2026-07-28",
+                        "apparent_record_type": "synthetic record",
+                        "apparent_people": [],
+                        "apparent_event": "unknown",
+                        "image_quality": "adequate",
+                        "provenance": "Synthetic validator fixture.",
+                        "rights_status": "private-research",
+                        "files": [
+                            {
+                                "path": "evidence/civil/test-record.bin",
+                                "sha256": hashlib.sha256(content).hexdigest(),
+                                "role": "primary",
+                                "privacy_review": "pending",
+                                "sensitive_content": [],
+                            }
+                        ],
+                        "duplicate_of": None,
+                        "proposed_source_id": None,
+                        "notes": [],
+                    }
+                ],
+            },
+        )
+        result = self.fixture.validate()
+        self.assert_issue(
+            result,
+            "error",
+            "reviewed or catalogued documents require every retained file",
+        )
+
+    def test_inventory_sequence_gap_is_an_error(self) -> None:
+        self.fixture.write_yaml(
+            "research/document-inventory.yaml",
+            {
+                "version": 1,
+                "documents": [
+                    {
+                        "inventory_id": "DOC-0002",
+                        "status": "intake",
+                        "added_date": "2026-07-28",
+                        "apparent_record_type": "synthetic record",
+                        "apparent_people": [],
+                        "apparent_event": "unknown",
+                        "image_quality": "unreviewed",
+                        "provenance": "Synthetic validator fixture.",
+                        "rights_status": "unknown",
+                        "files": [
+                            {
+                                "path": "evidence/missing.bin",
+                                "sha256": "0" * 64,
+                                "role": "primary",
+                                "privacy_review": "pending",
+                                "sensitive_content": [],
+                            }
+                        ],
+                        "duplicate_of": None,
+                        "proposed_source_id": None,
+                        "notes": [],
+                    }
+                ],
+            },
+        )
+        result = self.fixture.validate()
+        self.assert_issue(
+            result, "error", "inventory sequence has unaccounted identifiers"
+        )
 
     def test_collaborative_tree_cannot_confirm_conclusion(self) -> None:
         source = self.fixture.documents["sources"]["SRC-0001"]

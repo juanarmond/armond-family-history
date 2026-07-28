@@ -19,3 +19,13 @@ entry they amend; they must not erase it.
   entity directories are created only with their first substantive record.
 - Genealogical conclusions changed: none.
 - Next action: validate the document inventory contract.
+
+## 2026-07-28 — Document inventory contract
+
+- Outcome: added a strict versioned contract and automated checks for inventory
+  IDs, file paths and checksums, privacy review, duplicates and proposed source
+  allocation.
+- Research evidence added: none.
+- Genealogical conclusions changed: none.
+- Next action: version every entity schema and correct the evidence taxonomy
+  before the first source record is created.

@@ -71,7 +71,7 @@
 - [x] Add a privacy-aware ingestion plan for existing documents.
 - [x] Establish permanent project principles and an append-only cumulative research log.
 - [x] Consolidate obsolete foundation instructions and placeholder documentation.
-- [ ] Add a versioned schema and validation for the document inventory.
+- [x] Add a versioned schema and validation for the document inventory.
 - [ ] Add explicit entity schema versions before ingesting the first source.
 - [ ] Separate source form, information quality and evidence type in the evidence model.
 - [ ] Add controlled relationship types and event participant roles before scaling.

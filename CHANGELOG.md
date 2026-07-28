@@ -19,3 +19,5 @@ also remain traceable through source records and research logs.
   record that the source documents are absent from the worktree and Git history.
 - Consolidate repository governance, remove obsolete foundation and placeholder
   documentation, and allow empty entity directories to remain untracked.
+- Add a versioned document-inventory schema and validation for file integrity,
+  privacy review, duplicate handling and source-allocation state.

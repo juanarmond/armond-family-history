@@ -4,6 +4,10 @@ The repository stores entities as UTF-8 YAML and validates them with JSON
 Schema Draft 2020-12. JSON Schema is used because it has mature validators while
 remaining independent of the YAML parser.
 
+`document-inventory.schema.json` separately validates the evidence-intake
+staging file. Inventory entries are observations about available files, not
+genealogical conclusions.
+
 ## Design principles
 
 - One entity per file, with the identifier repeated in the filename.
@@ -104,6 +108,7 @@ uv run make check
 The validator checks schema rules, filename and identifier agreement, the ID
 ledger, cross-file references, evidence quality behind confirmed conclusions,
 collaborative-tree usage, evidence-file checksums, living-person privacy,
-possible duplicate identities and parent-child chronology. Duplicate-identity
-findings are warnings because distinct people can share a name and date; they
-require human review rather than automatic merging.
+document-inventory privacy and duplicate state, possible duplicate identities
+and parent-child chronology. Duplicate-identity findings are warnings because
+distinct people can share a name and date; they require human review rather
+than automatic merging.

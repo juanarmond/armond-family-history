@@ -1,0 +1,248 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://armond-family-history.invalid/schemas/document-inventory.schema.json",
+  "title": "Document inventory",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "documents"
+  ],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/document"
+      }
+    }
+  },
+  "$defs": {
+    "documentId": {
+      "type": "string",
+      "pattern": "^DOC-(?!0000$)[0-9]{4}$"
+    },
+    "document": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "inventory_id",
+        "status",
+        "added_date",
+        "apparent_record_type",
+        "apparent_people",
+        "apparent_event",
+        "image_quality",
+        "provenance",
+        "rights_status",
+        "files",
+        "duplicate_of",
+        "proposed_source_id",
+        "notes"
+      ],
+      "properties": {
+        "inventory_id": {
+          "$ref": "#/$defs/documentId"
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "intake",
+            "reviewed",
+            "catalogued",
+            "duplicate"
+          ]
+        },
+        "added_date": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "apparent_record_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "apparent_people": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "apparent_event": {
+          "type": "string",
+          "enum": [
+            "birth",
+            "baptism",
+            "marriage",
+            "death",
+            "burial",
+            "residence",
+            "immigration",
+            "naturalisation",
+            "occupation",
+            "probate",
+            "identity",
+            "other",
+            "unknown"
+          ]
+        },
+        "image_quality": {
+          "type": "string",
+          "enum": [
+            "unreviewed",
+            "adequate",
+            "needs-review",
+            "low-resolution",
+            "cropped",
+            "partly-illegible",
+            "illegible"
+          ]
+        },
+        "provenance": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rights_status": {
+          "type": "string",
+          "enum": [
+            "private-research",
+            "permission-required",
+            "restricted",
+            "unknown"
+          ]
+        },
+        "files": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/file"
+          }
+        },
+        "duplicate_of": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/documentId"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "proposed_source_id": {
+          "oneOf": [
+            {
+              "$ref": "common.schema.json#/$defs/sourceId"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "duplicate"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "duplicate_of": {
+                "$ref": "#/$defs/documentId"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "catalogued"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "proposed_source_id": {
+                "$ref": "common.schema.json#/$defs/sourceId"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "file": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "sha256",
+        "role",
+        "privacy_review",
+        "sensitive_content"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^evidence/(?!.*\\.\\.).+$"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "media_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "role": {
+          "type": "string",
+          "enum": [
+            "primary",
+            "continuation",
+            "detail",
+            "redacted"
+          ]
+        },
+        "privacy_review": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "cleared",
+            "redaction-required"
+          ]
+        },
+        "sensitive_content": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "living-person-data",
+              "identity-number",
+              "address",
+              "signature",
+              "financial",
+              "medical",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+}
