@@ -56,9 +56,10 @@ under **Strategic research priorities** below.
 - Liliosa's reported 16 April 1946 death cannot yet be tested in the identified
   Volta Redonda register because the accessible series begins in November.
 - FamilySearch exposes João and Susanna's 1882 marriage provision but no
-  separate ceremony entry or Espírito Santo parish film series. The exact
-  Cúria Metropolitana request is documented and requires explicit
-  authorisation before submission.
+  separate ceremony entry. The provision was re-read as directed to the Santo
+  Antônio de Sapucaia parish (not Espírito Santo); the surviving Sapucaia
+  marriage-book series and the exact archival request require identification
+  and explicit authorisation before submission.
 - Requiring the repository-health workflow in GitHub branch rules requires
   repository-administrator access.
 
@@ -69,13 +70,13 @@ None of these dependencies prevents the current Vicente source-recovery work.
 | Item | Current state |
 | --- | --- |
 | Structured people | 26 |
-| Structured families | 10 |
-| Structured events | 16 |
-| Structured places | 8 |
+| Structured families | 12 |
+| Structured events | 18 |
+| Structured places | 9 |
 | Structured sources | 16 |
 | Inventoried retained documents | 15 |
-| Validation | 76 entities; zero errors or warnings at the last check |
-| Automated tests | 53 passing at the last check |
+| Validation | 81 entities; zero errors or warnings at the last check |
+| Automated tests | 56 passing at the last check |
 
 Catalogued evidence currently includes:
 
@@ -112,7 +113,7 @@ canonical in `research/record-coverage.yaml`.
 | Area | Strongest current position | Strategic gap |
 | --- | --- | --- |
 | Armond and Paz | Aristão's death is confirmed; a second original government record independently names Liliosa Paz Armond and reports the couple as José Olavo's parents; a secondary academic study supplies historical context but no line linkage | Birth or baptism of Aristão; marriage to Liliosa; Liliosa's own vital records and parents |
-| Muniz Bittencourt and Azevedo | The 1916 marriage reports Deocleciano's parents; an original 1882 provision names João and Susanna and the intended Espírito Santo parish | Completed ceremony entry; João and Susanna's own vital records; test rather than assume island origin |
+| Muniz Bittencourt and Azevedo | The 1916 marriage reports Deocleciano's parents; an original 1882 provision names João and Susanna and the intended Santo Antônio de Sapucaia parish | Completed ceremony entry in the Sapucaia registers; João and Susanna's own vital records; test rather than assume island origin |
 | Engracio, Souza and Guimarães | The 1915 collective registration documents Maria Amora, her parents and all four grandparents | Locate Vicente's family-linked marriage or death record and resolve Maria Amora/Aurora |
 | Bohrer | Iris's 1949 marriage directly reports João Gonçalves Bohrer and Selina Bohrer | Catalogue their own vital records and verify the next generation |
 | Portuguese origins | `SRC-0010` directly reports Vicente as Portuguese; an 1866 Rio Claro record is an unlinked identity lead | Identify a district, municipality and parish before searching Portugal |
@@ -152,8 +153,8 @@ material interpretation with its source and confidence.
 1. Test the 1866 Vicente identity and locate a family-linked record that gives
    his Portuguese locality while the three higher-priority lines remain
    access-blocked.
-2. Obtain the João–Susanna ceremony entry from the Cúria and their earlier
-   records.
+2. Obtain the João–Susanna ceremony entry from the Santo Antônio de Sapucaia
+   parish registers and their earlier records.
 3. Locate Liliosa's own death, burial, birth or marriage record.
 4. Obtain authorised access to Aristão's identified baptism and marriage
    register targets.

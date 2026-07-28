@@ -180,3 +180,9 @@ also remain traceable through source records and research logs.
   confirm. Update the confidence-status policy and validator accordingly, and
   promote Juan Carlos Muniz Armond's parentage to `confirmed` on his certified
   birth certificate corroborated by his Ontario marriage record.
+- Correct the 1882 marriage provision (SRC-0009): re-reading the register shows
+  the couple's provision was directed to the Santo Antônio de Sapucaia parish,
+  not the Espírito Santo parish (that wording belongs to the adjacent José
+  Pereira Mendes entry). Repoint place PL-0005, event E-0006 and the coverage
+  search target to Sapucaia, preserving the superseded interpretation, and
+  refresh the STATUS snapshot counts.

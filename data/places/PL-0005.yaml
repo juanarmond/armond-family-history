@@ -1,18 +1,25 @@
 schema_version: 1
 id: PL-0005
-preferred_name: Espírito Santo Parish, Rio de Janeiro, Brazil
+preferred_name: Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
 name_variants:
-- value: Paróquia do Espírito Santo desta Corte
+- value: Curato de Santo Antônio de Sapucaia
   source_ids:
   - SRC-0009
-  note: Source-language jurisdictional form in the 1882 provision.
+  note: Source-language jurisdictional form (destination parish) in the 1882 provision.
 place_type: parish
 historical_jurisdiction: >-
-  Roman Catholic parish in the Court of Rio de Janeiro, Empire of Brazil, as
-  identified in the marriage-provision register dated 23 December 1882.
+  Roman Catholic curato/freguesia of Santo Antônio de Sapucaia (a parish from
+  1871), in the interior of the province of Rio de Janeiro, Empire of Brazil,
+  named as the intended marriage parish in the 23 December 1882 provision
+  issued at the Court of Rio de Janeiro.
+current_equivalent: Sapucaia, Rio de Janeiro, Brazil
 source_ids:
 - SRC-0009
 notes:
 - text: >-
-    The exact surviving marriage-book series and modern parish successor
-    remain to be identified before a manual ceremony-entry search.
+    Corrected on 28 July 2026. An earlier record modelled this place as the
+    Espírito Santo parish of the Court of Rio de Janeiro; re-examination of the
+    SRC-0009 image shows that wording belongs to the adjacent José Pereira
+    Mendes provision, and this couple's destination is Santo Antônio de
+    Sapucaia. The surviving Sapucaia marriage-book series remains to be
+    identified before a manual ceremony-entry search.

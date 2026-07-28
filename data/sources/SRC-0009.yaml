@@ -10,7 +10,9 @@ usage: evidence
 event_date:
   kind: exact
   value: "1882-12-23"
-event_place_text: Espírito Santo Parish, Court of Rio de Janeiro, Brazil
+event_place_text: >-
+  Curato de Santo Antônio de Sapucaia, Rio de Janeiro, Brazil (provision issued
+  at the Court of Rio de Janeiro)
 repository:
   name: FamilySearch Historical Records
   archive_or_registry: Arquivo da Cúria Metropolitana do Rio de Janeiro
@@ -27,15 +29,18 @@ repository:
 access_date: "2026-07-28"
 language: pt-BR
 transcription: >-
-  Passaram-se Provisões a 23 do corrente [...] do Espírito Santo desta corte
-  para receber em matrimonio na sua matriz a João Monis Bittencourt — com
-  Susanna Rita Brondão. Rio, 23 de Dezembro de 1882. [Official's signature.]
+  Passou-se Provisão a 23 do corrente ao Rev.do Cura do Curato de Santo Antônio
+  de Sapucaia para receber em matrimônio na sua matriz a [João/José — given
+  name reading uncertain] Monis Bittencourt — com Susana Rita Brandão. Rio, 23
+  de Dezembro de 1882. Cônego Cassiano.
 abstract: >-
-  On 23 December 1882 an ecclesiastical register recorded that provisions were
-  issued for João Monis Bittencourt and Susanna Rita Brondão to marry in the
-  mother church of the Espírito Santo parish in the Court of Rio de Janeiro.
-  The entry establishes the intended couple and jurisdiction but does not state
-  that the marriage ceremony had already occurred.
+  On 23 December 1882 an ecclesiastical provision register of the Court of Rio
+  de Janeiro recorded that a provision was issued for João Monis Bittencourt
+  and Susanna Rita Brondão to marry in the mother church (matriz) of the Santo
+  Antônio de Sapucaia parish. Sapucaia was an established freguesia from 1871,
+  and this destination is consistent with their son Deocleciano being born in
+  Sapucaia (SRC-0001). The entry establishes the intended couple and parish but
+  does not state that the marriage ceremony had already occurred.
 reliability:
   assessment: >-
     The original ecclesiastical register directly supports the issuance of the
@@ -70,3 +75,13 @@ notes:
     The authorised full-resolution download contains a complete two-page
     register spread with unrelated historical entries. It is retained as the
     primary preservation file; inspection crops are not repository evidence.
+- text: >-
+    Correction (28 July 2026): an earlier transcription attributed this
+    provision to the Espírito Santo parish of the Court of Rio de Janeiro. On
+    re-examination the "Espírito Santo desta corte" wording belongs to the
+    immediately preceding provision on the same page (José Pereira Mendes Jr
+    with Maria Siqueira); this couple's destination is the Curato de Santo
+    Antônio de Sapucaia. The superseded interpretation is preserved here, not
+    deleted. The groom's given name reads closer to "José" than "João" in this
+    entry, and the bride's surname reads "Brandão" (matching SRC-0001) rather
+    than the preferred "Brondão"; both remain variants pending a fuller record.
