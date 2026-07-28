@@ -159,3 +159,18 @@ also remain traceable through source records and research logs.
   directories, restore focus to the invoking card when the detail panel closes,
   and copy the vendored parser and favicon into the privacy-filtered GitHub
   Pages build.
+- Audit the direct-line vital records against their document images and correct
+  the source transcriptions: fix Geraldo Paz Armond's death entry number from a
+  misread 39005 to 39006 (39005 is the unrelated infant on the facing page) and
+  add its cause of death, registration date and son-declarant; add the cause of
+  death, time and declarant to Aristão Ferreira Armond's death entry; and record
+  the civil-register citation (livro A-350, folha 98) printed on Juan Carlos
+  Muniz Armond's birth certificate.
+- Recover Antenor Muniz's (2 November 1923, Alvorada) and Iris Bohrer's
+  (27 February 1929, Presidente Soares) birth facts stated as secondary
+  information in their 1949 marriage certificate, which the source had wrongly
+  called illegible; structure them as events E-0017 and E-0018 with the new
+  place PL-0009 and note them against both coverage rows.
+- Record a resolvable FamilySearch profile URL for every collaborative-tree
+  lead in the record-coverage ledger, extending the coverage schema with an
+  optional lead-only `url` field.

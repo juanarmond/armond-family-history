@@ -5,6 +5,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: GQJ1-RVK
+    url: https://www.familysearch.org/tree/person/details/GQJ1-RVK
     usage: lead_only
   records:
   - record_type: birth
@@ -30,6 +31,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: GQJ1-K3M
+    url: https://www.familysearch.org/tree/person/details/GQJ1-K3M
     usage: lead_only
   records:
   - record_type: birth
@@ -57,6 +59,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: GQVM-HXH
+    url: https://www.familysearch.org/tree/person/details/GQVM-HXH
     usage: lead_only
   records:
   - record_type: birth
@@ -64,7 +67,12 @@ people:
     source_ids: []
     last_reviewed: "2026-07-28"
     next_action: Locate the 1923 civil birth registration.
-    notes: []
+    notes:
+    - text: >-
+        The 1949 marriage certificate (SRC-0005) reports Antenor as born in the
+        district of Alvorada on 2 November 1923, catalogued as event E-0017.
+        This is secondary information in a marriage record; the primary birth
+        record is still sought.
   - record_type: marriage
     status: catalogued
     source_ids:
@@ -82,6 +90,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: GQJ1-HG4
+    url: https://www.familysearch.org/tree/person/details/GQJ1-HG4
     usage: lead_only
   records:
   - record_type: birth
@@ -89,7 +98,12 @@ people:
     source_ids: []
     last_reviewed: "2026-07-28"
     next_action: Locate the 1929 civil birth registration.
-    notes: []
+    notes:
+    - text: >-
+        The 1949 marriage certificate (SRC-0005) reports Iris as born in
+        Presidente Soares, Minas Gerais, on 27 February 1929, catalogued as
+        event E-0018. This is secondary information in a marriage record; the
+        primary birth record is still sought.
   - record_type: marriage
     status: catalogued
     source_ids:
@@ -107,6 +121,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: GW4P-R9Z
+    url: https://www.familysearch.org/tree/person/details/GW4P-R9Z
     usage: lead_only
   records:
   - record_type: birth
@@ -158,6 +173,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: GQJ1-ZNC
+    url: https://www.familysearch.org/tree/person/details/GQJ1-ZNC
     usage: lead_only
   records:
   - record_type: birth
@@ -204,6 +220,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: GNZY-KT4
+    url: https://www.familysearch.org/tree/person/details/GNZY-KT4
     usage: lead_only
   records:
   - record_type: birth
@@ -229,6 +246,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: GQVR-167
+    url: https://www.familysearch.org/tree/person/details/GQVR-167
     usage: lead_only
   records:
   - record_type: birth
@@ -258,6 +276,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: GQVM-3QD
+    url: https://www.familysearch.org/tree/person/details/GQVM-3QD
     usage: lead_only
   records:
   - record_type: birth
@@ -284,6 +303,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: GQVM-4YJ
+    url: https://www.familysearch.org/tree/person/details/GQVM-4YJ
     usage: lead_only
   records:
   - record_type: birth
@@ -312,6 +332,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: GQJ1-J6P
+    url: https://www.familysearch.org/tree/person/details/GQJ1-J6P
     usage: lead_only
   records:
   - record_type: birth
@@ -340,6 +361,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: G7PC-6K5
+    url: https://www.familysearch.org/tree/person/details/G7PC-6K5
     usage: lead_only
   records:
   - record_type: birth
@@ -426,6 +448,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: GLMF-KCR
+    url: https://www.familysearch.org/tree/person/details/GLMF-KCR
     usage: lead_only
   records:
   - record_type: birth
@@ -468,6 +491,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: LB1N-YC9
+    url: https://www.familysearch.org/tree/person/details/LB1N-YC9
     usage: lead_only
   records:
   - record_type: birth
@@ -505,6 +529,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: GH3B-TZQ
+    url: https://www.familysearch.org/tree/person/details/GH3B-TZQ
     usage: lead_only
   records:
   - record_type: birth
@@ -534,6 +559,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: GH3B-JQT
+    url: https://www.familysearch.org/tree/person/details/GH3B-JQT
     usage: lead_only
   records:
   - record_type: birth
@@ -560,6 +586,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: P9CB-FLD
+    url: https://www.familysearch.org/tree/person/details/P9CB-FLD
     usage: lead_only
   records:
   - record_type: birth
@@ -597,6 +624,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: P9CB-VT5
+    url: https://www.familysearch.org/tree/person/details/P9CB-VT5
     usage: lead_only
   records:
   - record_type: birth
@@ -624,6 +652,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: P9CB-VYK
+    url: https://www.familysearch.org/tree/person/details/P9CB-VYK
     usage: lead_only
   records:
   - record_type: birth
@@ -651,6 +680,7 @@ people:
   external_profiles:
   - platform: FamilySearch
     profile_id: P9CB-6KT
+    url: https://www.familysearch.org/tree/person/details/P9CB-6KT
     usage: lead_only
   records:
   - record_type: birth

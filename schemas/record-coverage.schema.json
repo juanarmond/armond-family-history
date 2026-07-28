@@ -60,6 +60,11 @@
                 "type": "string",
                 "minLength": 1
               },
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "description": "Resolvable link to the collaborative-tree profile named by profile_id. Navigation lead only."
+              },
               "usage": {
                 "const": "lead_only"
               }

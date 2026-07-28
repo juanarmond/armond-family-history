@@ -1,0 +1,19 @@
+schema_version: 1
+id: E-0018
+event_type: birth
+date:
+  kind: exact
+  value: "1929-02-27"
+place_id: PL-0009
+participants:
+- person_id: P-0007
+  role: principal
+status: strong-evidence
+source_ids:
+- SRC-0005
+notes:
+- text: >-
+    Birth date and place are secondary information reported in Iris Bohrer's
+    1949 marriage certificate (SRC-0005), not a birth record. The certificate
+    states she was born in Presidente Soares, Estado de Minas, on 27 February
+    1929.

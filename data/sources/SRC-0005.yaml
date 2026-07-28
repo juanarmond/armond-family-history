@@ -14,6 +14,9 @@ event_place_text: Alvorada, Minas Gerais, Brazil
 repository:
   name: FamilySearch Memories
   archive_or_registry: Civil Registry, District of Alvorada, Minas Gerais, Brazil
+  book: "5"
+  page: 66-v (reading uncertain)
+  record_number: "167 (reading uncertain)"
   collection: FamilySearch Memories
   catalogue_reference: >-
     FamilySearch source SVMX-ZJ4; Memory artifact 101538413; storage identifier
@@ -23,21 +26,25 @@ repository:
 access_date: "2026-07-28"
 language: pt-BR
 transcription: >-
-  [The damaged certificate identifies the civil registry at Alvorada, Minas
-  Gerais.] [...] Antenor Muniz, de cor branca, estado civil solteiro, profissão
-  lavrador, [...] filho de Deocleciano Muniz e de Dona Luiza Fernandes de
-  Azevedo; [...] Iris Bohrer, de cor branca, [...] filha de João Gonçalves
-  Bohrer e de Dona Selina Bohrer. [...] passa a assinar Iris Bohrer Muniz.
-  Observações: Nada consta. [The marriage was recorded on 7 December 1949. The
-  certificate appears to have been issued at Alvorada on 11 August 1955.
-  Register details and several intervening fields are not safely legible.]
+  Certifica que a fls. 66-v [term nº 167, reading uncertain] do livro nº 5 do
+  registro de casamentos consta o assento do matrimônio de Antenor Muniz e Iris
+  Bohrer, contraído perante o Juiz de Paz e as testemunhas Yaci Lopes de Faria
+  e João Machado Simas, realizado aos 7 de dezembro de 1949. Ele, nascido neste
+  distrito de Alvorada aos 2 de novembro de 1923, profissão da lavoura,
+  domiciliado e residente nesta comarca, filho legítimo de Deocleciano Muniz e
+  de Dona Luiza Fernandes de Azevedo. Ela, nascida em Presidente Soares, Estado
+  de Minas, aos 27 de fevereiro de 1929, domiciliada e residente neste
+  distrito, filha legítima de João Gonçalves Bohrer e de Dona Selina Bohrer, e
+  que passa a assinar-se Iris Bohrer Muniz. Observações: Selada na forma da
+  lei. A certidão foi expedida na Vila de Alvorada em 11 de agosto de 1955.
 abstract: >-
-  A damaged civil marriage certificate records the marriage of Antenor Muniz
-  and Iris Bohrer at Alvorada on 7 December 1949. It identifies Antenor's
-  parents as Deocleciano Muniz and Luiza Fernandes de Azevedo, and Iris's
-  parents as João Gonçalves Bohrer and Selina Bohrer. Antenor is recorded as a
-  farm worker, and the certificate states that Iris would thereafter sign Iris
-  Bohrer Muniz.
+  A civil marriage certificate (livro 5, fls 66-v) records the marriage of
+  Antenor Muniz and Iris Bohrer at Alvorada on 7 December 1949. It reports
+  Antenor as born in the district of Alvorada on 2 November 1923, a farm
+  worker, son of Deocleciano Muniz and Luiza Fernandes de Azevedo; and Iris as
+  born in Presidente Soares, Minas Gerais, on 27 February 1929, daughter of
+  João Gonçalves Bohrer and Selina Bohrer. Iris would thereafter sign Iris
+  Bohrer Muniz. The certificate was issued at Alvorada on 11 August 1955.
 reliability:
   assessment: >-
     Direct derivative evidence for the marriage, spouse names and married-name
@@ -45,9 +52,12 @@ reliability:
     stated in the certificate.
   informant: The spouses' declarations as entered in the marriage register.
   limitations: >-
-    The photographed certificate is folded, taped, stained and partly obscured.
-    Book, page, record number and several vital-detail fields cannot be read
-    safely. The repository retains the originally uploaded JPEG at its
+    The photographed certificate is folded, taped and stained, and a few fields
+    (the witnesses' given names and the exact term number) are only partly
+    legible. Most vital details, including both spouses' reported birth dates
+    and places and the register book and folha, are legible. The reported birth
+    facts are secondary information stated in a marriage record, not birth
+    records. The repository retains the originally uploaded JPEG at its
     authorised download resolution.
 digital_file:
   path: evidence/civil/SRC-0005-marriage-antenor-muniz-iris-bohrer-1949-original.jpg
@@ -65,8 +75,11 @@ linked_families:
 - F-0005
 linked_events:
 - E-0004
+- E-0017
+- E-0018
 linked_places:
 - PL-0004
+- PL-0009
 private: true
 notes:
 - text: >-

@@ -11,6 +11,9 @@ event_date:
   kind: exact
   value: "1991-02-18"
 event_place_text: Volta Redonda, Rio de Janeiro, Brazil
+registration_date:
+  kind: exact
+  value: "1991-02-19"
 repository:
   name: FamilySearch Historical Records
   archive_or_registry: Civil Registration, Volta Redonda, Rio de Janeiro, Brazil
@@ -18,7 +21,7 @@ repository:
   series: "Registros de óbito: Volta Redonda, September 1990–March 1991"
   page: "557"
   image: 300 of 324
-  record_number: Image appears 39005; FamilySearch index gives 39006
+  record_number: "39006"
   catalogue_reference: >-
     Record ARK 1:1:77DD-TX6Z; image ARK 3:1:S3HT-DYSS-YKV; image group
     #004366687; original-image storage ID TH-266-11612-78888-32; Memory storage
@@ -28,31 +31,40 @@ repository:
 access_date: "2026-07-28"
 language: pt-BR
 transcription: >-
-  [Entry number appears 39005.] Aos [date partly illegible] de fevereiro de mil
-  novecentos e noventa e um [...] declarou que no dia dezoito do corrente mês
-  [...] no Hospital Santa Margarida faleceu Geraldo Paz Armond, do sexo
-  masculino, cor branca, com setenta e seis anos de idade, natural do Estado de
-  Minas Gerais, estado civil casado com Cidalia Engracio Armond, profissão
-  aposentado, residente nesta cidade [...], filho de Aristão Ferreira Armond e
-  de Liliosa Paz Armond. [Cause and burial text partly illegible.] Observações:
-  O falecido não deixou testamento, deixou bens a inventariar e deixou cinco
-  filhos.
+  [Entry 39006, on page 557; the adjacent entry 39005 on the facing page 556 is
+  an unrelated infant death.] Aos dezenove de fevereiro de mil novecentos e
+  noventa e um [...] declarou que no dia dezoito do corrente mês e ano, às
+  dezenove horas, no Hospital Santa Margarida faleceu Geraldo Paz Armond, do
+  sexo masculino, cor branca, com setenta e seis anos de idade, natural do
+  Estado de Minas Gerais, estado civil casado com Cidalia Ingracio Armond,
+  profissão aposentado, residente nesta cidade [street address omitted], filho
+  de Aristão Ferreira Armond, falecido, e de Liliosa Paz Armond, falecida.
+  Causa mortis: Desequilíbrio metabólico. Vai ser sepultado no Cemitério desta
+  cidade. Observações: O falecido não deixou testamento, deixou bens a
+  inventariar e deixou um filho.
 abstract: >-
   The original Volta Redonda civil death register records that Geraldo Paz
-  Armond died on 18 February 1991 at Hospital Santa Margarida, aged 76. It
-  identifies his spouse as Cidalia Engracio Armond and his parents as Aristão
-  Ferreira Armond and Liliosa Paz Armond. FamilySearch indexes the entry on
-  page 557 as certificate 39006, while the handwritten number appears to read
-  39005.
+  Armond died on 18 February 1991 at 19h in the Hospital Santa Margarida, aged
+  76, of metabolic imbalance ("desequilíbrio metabólico"), and was registered
+  the next day, 19 February 1991, as entry 39006 on page 557. It names his
+  spouse as Cidalia Ingracio Armond and his parents as Aristão Ferreira Armond
+  and Liliosa Paz Armond, both deceased. The register states that he left one
+  child.
 reliability:
   assessment: >-
     Original civil-register evidence directly supports the death, date, place,
     age and identity. The reported spouse and parentage are secondary
     information supplied at death but directly stated in the record.
-  informant: The declarant's name is not safely legible in the retained image.
+  informant: >-
+    The declarant was the deceased's son, a living person recorded in this
+    repository as P-0002; his personal identifiers printed on the record are
+    intentionally not transcribed.
   limitations: >-
-    Some handwriting is faint. The FamilySearch index duplicates surnames and
-    conflicts with the apparent handwritten record number. The retained JPEG is
+    Some handwriting is faint. The register spread's facing page 556 carries an
+    unrelated infant death numbered 39005, which an earlier reading mistook for
+    this entry; Geraldo's entry is unambiguously 39006. The register states "um
+    filho" (one child), which appears to undercount the known family and should
+    be treated as recorded rather than as a family census. The retained JPEG is
     FamilySearch's authorised `JPG Only` download from the original-image ARK.
 digital_file:
   path: evidence/civil/SRC-0004-death-geraldo-paz-armond-1991-original.jpg

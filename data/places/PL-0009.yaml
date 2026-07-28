@@ -1,0 +1,14 @@
+schema_version: 1
+id: PL-0009
+preferred_name: Presidente Soares, Minas Gerais, Brazil
+name_variants: []
+place_type: district
+historical_jurisdiction: >-
+  Locality named "Presidente Soares, Estado de Minas" as Iris Bohrer's reported
+  1929 birthplace in the 1949 marriage certificate (SRC-0005). The exact
+  municipality and historical jurisdiction require independent archival
+  confirmation.
+current_equivalent: Presidente Soares, Minas Gerais, Brazil
+source_ids:
+- SRC-0005
+notes: []
