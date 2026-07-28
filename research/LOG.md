@@ -338,3 +338,13 @@ entry they amend; they must not erase it.
   section.
 - Genealogical conclusions changed: none.
 - Next action: inspect Item 3 of baptism image group `004640627`.
+
+## 2026-07-28 — Root README navigation review
+
+- Outcome: verified the root README against the consolidated documentation
+  architecture and added direct entry links to the current objective and
+  immediate next-step queue.
+- Repository improvement: a human or new agent can now identify the live work
+  without reading historical logs or opening the record-level YAML ledger.
+- Genealogical conclusions changed: none.
+- Next action: inspect Item 3 of baptism image group `004640627`.

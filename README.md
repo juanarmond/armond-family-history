@@ -29,6 +29,17 @@ names remain exactly as recorded by the best available source, including
 diacritics. Original records remain in their original language, with separate
 English abstracts or translations.
 
+## Start here
+
+- See [`STATUS.md` — Current objective](STATUS.md#current-objective) for the
+  work in progress.
+- See [`STATUS.md` — Next steps](STATUS.md#next-steps) for the immediate
+  ordered execution queue.
+- Codex reads [`AGENTS.md`](AGENTS.md) for permanent instructions and context
+  routing.
+- Research history is indexed in [`research/LOG.md`](research/LOG.md); do not
+  look for historical session detail in `STATUS.md`.
+
 ## Canonical documents
 
 Each concern has one owner:

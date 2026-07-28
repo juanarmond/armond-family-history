@@ -99,3 +99,5 @@ also remain traceable through source records and research logs.
 - Add a required, short and ordered `Next steps` section to `STATUS.md`,
   separating the visible tactical handoff from the detailed coverage ledger
   and longer-term strategic priorities.
+- Add a concise root README entry point linking directly to the current
+  objective, next-step queue, agent instructions and research-history index.
