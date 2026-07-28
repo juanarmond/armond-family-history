@@ -147,3 +147,11 @@ document-inventory privacy and duplicate state, possible duplicate identities
 and parent-child chronology. Duplicate-identity findings are warnings because
 distinct people can share a name and date; they require human review rather
 than automatic merging.
+
+### Validator architecture
+
+`scripts/validate_data.py` is the stable command and import façade. Focused
+modules under `scripts/validation/` own shared models and YAML loading,
+document-inventory checks, reference resolution and cross-entity genealogical
+rules. New rules belong in the narrowest existing module; the façade should
+remain orchestration-only.

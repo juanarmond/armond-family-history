@@ -11,8 +11,8 @@ cost and long-term architecture impact.
 | P0 | Add controlled parent relationship and participant roles | Low now; medium after ingestion | Prevents vocabulary drift across hundreds of people | Complete |
 | P1 | Catalogue and model the first three original records | Requires source-image access | Tests the model against reality before scale | Blocked by missing files |
 | P1 | Review the model and migrate the remaining existing evidence | Depends on first-source findings | Establishes a stable machine-readable base | Pending |
-| P2 | Refactor the monolithic validator into focused modules | Medium, approximately one engineering sprint | Easier testing and safer rule additions | Pending |
-| P2 | Add safe ID allocation and entity-skeleton automation | Medium | Removes manual ledger and filename errors | Pending |
+| P2 | Refactor the monolithic validator into focused modules | Medium, approximately one engineering sprint | Easier testing and safer rule additions | Complete |
+| P2 | Add safe ID allocation and entity-skeleton automation | Medium | Removes manual ledger and filename errors | Next |
 | P3 | Resume direct-ancestor research in `TASKS.md` order | Ongoing research | Advances genealogy without bypassing evidence gates | Blocked by existing-evidence gate |
 | P4 | Generate profiles, timelines and privacy-filtered exports | Medium to high | Reproducible derived views after schema stability | Deferred |
 
@@ -27,11 +27,10 @@ live data ingestion:
    assessment until real records justify a citation-level model.
 3. Resolved: each parent-child edge now has its own relationship type,
    confidence and citations, and event participant roles are controlled.
-4. The validator is a single file of more than one thousand lines. It works,
-   but continued rule growth will make review and testing harder.
+4. Resolved: the validator façade is under 500 lines, with inventory,
+   references, shared models and genealogical rules in focused modules.
 5. Resolved: the document inventory has a versioned schema and cross-file
    integrity checks.
 
-Finding 4 is now the highest-priority unblocked internal change. It is a
-medium-risk refactor and should preserve the current command-line and import
-interfaces.
+The next unblocked scaling risk is manual identifier allocation: one interrupted
+or partial edit can desynchronise the ledger, filename and entity ID.

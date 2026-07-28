@@ -2,22 +2,22 @@
 
 ## Objective
 
-Refactor the monolithic validator into focused modules without changing its
-public command or validation behaviour.
+Add safe ID allocation and entity-skeleton automation.
 
 ## Why this is next
 
-The validator now exceeds 1,300 lines and mixes schema loading, inventory
-validation, evidence policy, chronology, privacy and command-line concerns.
-Further rules will increase review risk and make isolated testing harder.
+Creating an entity currently requires coordinated manual edits to the ID
+ledger, filename and YAML identifier. That is error-prone at scale and can
+leave a partially allocated ID if interrupted.
 
 ## Completion criteria
 
-- Preserve `python3 scripts/validate_data.py` and
-  `scripts.validate_data.validate_repository`.
-- Separate cohesive concerns without duplicating constants or helper logic.
-- Keep all current tests passing and add an interface regression test if useful.
-- Avoid changing genealogy or schema semantics during the move.
+- Provide one command that selects the current `next_ids` value, creates the
+  correctly named entity from the canonical template and advances the ledger.
+- Refuse to overwrite files or allocate from an invalid repository state.
+- Write the entity and ledger atomically enough to recover safely from failure.
+- Support a dry-run that performs no writes.
+- Add tests for success, dry-run, collision and invalid-ledger paths.
 - Run the complete repository check before committing.
 
 ## External blocker

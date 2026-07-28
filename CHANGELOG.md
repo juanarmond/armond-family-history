@@ -26,3 +26,5 @@ also remain traceable through source records and research logs.
   type fields.
 - Model each parent-child assertion as a separately typed and cited edge, and
   constrain event participant roles with explicit exceptional-role details.
+- Split the validator into focused model, inventory, reference and genealogical
+  rule modules while preserving its command-line and imported interfaces.

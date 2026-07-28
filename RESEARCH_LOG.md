@@ -49,3 +49,13 @@ entry they amend; they must not erase it.
 - Genealogical conclusions changed: none.
 - Next action: reduce validator maintenance risk by separating its loading,
   schema and cross-entity concerns without changing the public command.
+
+## 2026-07-28 — Validator modularisation
+
+- Outcome: reduced the stable validator façade from more than 1,100 lines to
+  fewer than 500 and isolated inventory, reference, shared-model and
+  genealogical policy concerns without duplicating functions.
+- Research evidence added: none.
+- Genealogical conclusions changed: none.
+- Next action: add an atomic ID allocation and entity-skeleton command so
+  record creation cannot desynchronise filenames and the ledger.

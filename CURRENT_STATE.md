@@ -22,6 +22,9 @@
   per parent edge, and relationship types and event participant roles use
   controlled vocabularies; no family record or genealogical conclusion
   changed.
+- 28 July 2026 validation architecture review: the stable validator command now
+  delegates to focused inventory, reference, shared-model and genealogy-rule
+  modules; validation behaviour and genealogical conclusions did not change.
 
 ## Subject
 

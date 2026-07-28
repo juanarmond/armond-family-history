@@ -75,7 +75,7 @@
 - [x] Add explicit entity schema versions before ingesting the first source.
 - [x] Separate source form, information quality and evidence type in the evidence model.
 - [x] Add controlled relationship types and event participant roles before scaling.
-- [ ] Refactor the validator into focused modules without changing its public command.
+- [x] Refactor the validator into focused modules without changing its public command.
 - [ ] Add safe ID allocation and entity-skeleton automation.
 - [ ] Add a script to generate human-readable person pages from YAML.
 - [ ] Add a GEDCOM export only after the core schema and evidence model are stable.
