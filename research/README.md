@@ -3,7 +3,8 @@
 This directory contains reproducible research notes rather than settled entity
 data.
 
-- `logs/` records individual search sessions.
+- `logs/` records individual search sessions using the naming and append-only
+  rules in `RESEARCH_LOG.md`.
 - Future regional folders may organise Brazil and Portugal research when their
   first substantive notes are created.
 - Future `unresolved/` files may hold conflict analyses and rejected
@@ -12,4 +13,5 @@ data.
   hand.
 
 Every session must record positive and negative results, access restrictions
-and the next action.
+and the next action. The required contents are canonical in
+`RESEARCH_RULES.md`; do not duplicate them here.

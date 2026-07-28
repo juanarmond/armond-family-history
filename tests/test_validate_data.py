@@ -193,6 +193,11 @@ class ValidateDataTests(unittest.TestCase):
         self.assertEqual((), result.warnings)
         self.assertEqual(6, result.entity_count)
 
+    def test_missing_empty_entity_directory_is_allowed(self) -> None:
+        (self.fixture.root / "data/places").rmdir()
+        result = self.fixture.validate()
+        self.assertEqual((), result.errors)
+
     def test_missing_cross_reference_is_an_error(self) -> None:
         self.fixture.documents["people"]["P-0001"]["event_ids"] = ["E-9999"]
         self.fixture.rewrite()

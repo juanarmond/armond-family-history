@@ -2,6 +2,16 @@
 
 > This document is a working summary, not a substitute for source records. Statements are classified by present confidence and must be revised when better evidence is added.
 
+## Repository and evidence status
+
+- 28 July 2026 repository audit: no certificate image, identity document,
+  screenshot or structured source record is present in the worktree, Git
+  history or Git LFS. References below to documents previously examined remain
+  uncatalogued narrative summaries until authorised copies are added.
+- No genealogical conclusion was changed by this negative repository search.
+- 28 July 2026 architecture review: repository governance and placeholder files
+  were consolidated; no genealogical conclusion changed.
+
 ## Subject
 
 ### Juan Carlos Muniz Armond
@@ -193,4 +203,8 @@ Collateral relatives have been mentioned in family trees and documents, includin
 
 ## Immediate next action
 
-Create source records for every document already supplied, starting with the clearest marriage and death certificates. Do not extend earlier generations until those sources are catalogued and linked.
+Obtain authorised, privacy-reviewed copies of the documents previously supplied,
+then create source records beginning with the clearest marriage and death
+certificates. Until the files are available, improve the intake and validation
+workflow; do not extend earlier generations or reconstruct source records from
+the narrative summary alone.

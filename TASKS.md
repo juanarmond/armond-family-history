@@ -2,6 +2,10 @@
 
 ## Priority 0 — Preserve and catalogue existing evidence
 
+> Blocked as of 28 July 2026: no source image or document exists in the
+> worktree, Git history or Git LFS. Authorised, privacy-reviewed copies must be
+> added before these tasks can be completed.
+
 - [ ] Assign source IDs to every certificate, identity document and screenshot already supplied.
 - [ ] Store a clean image filename and an English abstract for each document.
 - [ ] Re-transcribe ambiguous handwritten fields at full resolution.
@@ -65,6 +69,12 @@
 - [x] Add validation for identifiers, dates, relationships and source references.
 - [x] Add stable entity, person-profile, source-record and research-log templates.
 - [x] Add a privacy-aware ingestion plan for existing documents.
+- [x] Establish permanent project principles and an append-only cumulative research log.
+- [x] Consolidate obsolete foundation instructions and placeholder documentation.
+- [ ] Add a versioned schema and validation for the document inventory.
+- [ ] Add explicit entity schema versions before ingesting the first source.
+- [ ] Separate source form, information quality and evidence type in the evidence model.
+- [ ] Add controlled relationship types and event participant roles before scaling.
 - [ ] Add a script to generate human-readable person pages from YAML.
 - [ ] Add a GEDCOM export only after the core schema and evidence model are stable.
 - [x] Add automated checks preventing unsupported `confirmed` relationships.

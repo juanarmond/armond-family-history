@@ -15,3 +15,7 @@ also remain traceable through source records and research logs.
   evidence quality, privacy, duplicate identities and parent-child chronology.
 - Document the local workflow, implementation roadmap and policies for derived
   timelines and exports.
+- Establish permanent research principles and a cumulative research log, and
+  record that the source documents are absent from the worktree and Git history.
+- Consolidate repository governance, remove obsolete foundation and placeholder
+  documentation, and allow empty entity directories to remain untracked.

@@ -230,13 +230,6 @@ def load_entities(
     for kind, config in ENTITY_CONFIGS.items():
         directory = root / "data" / config.directory
         if not directory.is_dir():
-            issues.append(
-                Issue(
-                    "error",
-                    display_path(directory, root),
-                    "required data directory is missing",
-                )
-            )
             continue
 
         candidates = sorted(

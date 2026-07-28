@@ -12,20 +12,22 @@ All repository content is written in English. Original records remain in their o
 
 ## Evidence model
 
-- **Confirmed** — supported by a primary source or a reliable contemporary record.
-- **Strong evidence** — supported by multiple consistent sources, but the decisive primary record has not yet been examined.
-- **Hypothesis** — plausible, but not sufficiently supported.
-- **Rejected** — investigated and found inconsistent or unsupported.
+The canonical evidence hierarchy, confidence statuses and citation standard are
+defined in [`RESEARCH_RULES.md`](RESEARCH_RULES.md).
 
 ## Start here
 
 1. [`PROJECT.md`](PROJECT.md) — scope and architecture.
-2. [`CURRENT_STATE.md`](CURRENT_STATE.md) — present family-tree state.
-3. [`TASKS.md`](TASKS.md) — prioritised research backlog.
-4. [`RESEARCH_RULES.md`](RESEARCH_RULES.md) — research and citation standards.
-5. [`AGENTS.md`](AGENTS.md) — instructions for Codex and other agents.
-6. [`schemas/README.md`](schemas/README.md) — YAML entity model and validation.
-7. [`research/DOCUMENT_CATALOGUING_PLAN.md`](research/DOCUMENT_CATALOGUING_PLAN.md)
+2. [`PROJECT_PRINCIPLES.md`](PROJECT_PRINCIPLES.md) — permanent operating
+   principles and autonomous research cycle.
+3. [`CURRENT_STATE.md`](CURRENT_STATE.md) — present family-tree state.
+4. [`TASKS.md`](TASKS.md) — prioritised research backlog.
+5. [`NEXT_TASK.md`](NEXT_TASK.md) — one current actionable objective.
+6. [`RESEARCH_RULES.md`](RESEARCH_RULES.md) — research and citation standards.
+7. [`RESEARCH_LOG.md`](RESEARCH_LOG.md) — cumulative append-only research index.
+8. [`AGENTS.md`](AGENTS.md) — concise execution instructions.
+9. [`schemas/README.md`](schemas/README.md) — YAML entity model and validation.
+10. [`research/DOCUMENT_CATALOGUING_PLAN.md`](research/DOCUMENT_CATALOGUING_PLAN.md)
    — staged ingestion of the documents already supplied.
 
 ## Repository workflow
@@ -46,10 +48,8 @@ Before adding structured data:
    uncertainty silently.
 5. Run `uv run make check` before committing.
 
-The validator checks schemas, identifier allocation, references, evidence
-quality behind confirmed conclusions, FamilySearch and other collaborative-tree
-usage, evidence-file checksums, living-person privacy, possible duplicate
-identities and parent-child chronology.
+Validation scope is documented once in
+[`schemas/README.md`](schemas/README.md).
 
 ## Current status
 

@@ -12,6 +12,9 @@ in `schemas/`.
 | `places/` | `PL-0001` | `schemas/place.schema.json` |
 | `sources/` | `SRC-0001` | `schemas/source.schema.json` |
 
+Entity directories are created only with their first YAML record. A missing
+empty directory is valid and must not be preserved with placeholder files.
+
 Use one entity per file and name the file after its identifier, for example
 `P-0001.yaml`. Files in this directory are conclusions and catalogue records,
 not working notes. Record incomplete searches and tentative reasoning under
@@ -22,6 +25,5 @@ Allocate every identifier through `id-ledger.yaml`. Advance the corresponding
 removed, add its identifier to `retired_ids`; never fill the gap with a
 different entity.
 
-Do not add a person merely because a collaborative tree contains a profile.
-Create structured entities only when the supporting source or explicit
-research lead has also been catalogued.
+Source evidence policy is defined in `RESEARCH_RULES.md`; this file defines only
+storage and identifier mechanics.
