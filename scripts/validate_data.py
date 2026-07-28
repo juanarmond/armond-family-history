@@ -72,7 +72,7 @@ DOCUMENT_INVENTORY_SCHEMA = "document-inventory.schema.json"
 
 REFERENCE_KEYS = {
     "person_id": "people",
-    "parent_ids": "people",
+    "parent_id": "people",
     "linked_people": "people",
     "family_ids": "families",
     "linked_families": "families",
@@ -1067,23 +1067,40 @@ def validate_family_structure_and_chronology(
             if not isinstance(child, dict):
                 continue
             child_id = child.get("person_id")
-            parent_ids = child.get("parent_ids", [])
+            parent_relationships = child.get("parent_relationships", [])
             child_location = f"{location}:$.children[{index}]"
-            if isinstance(parent_ids, list):
-                missing_partners = [
-                    identifier
-                    for identifier in parent_ids
-                    if isinstance(identifier, str) and identifier not in partner_set
+            parent_ids = (
+                [
+                    relationship.get("parent_id")
+                    for relationship in parent_relationships
+                    if isinstance(relationship, dict)
+                    and isinstance(relationship.get("parent_id"), str)
                 ]
-                if missing_partners:
-                    issues.append(
-                        Issue(
-                            "error",
-                            f"{child_location}.parent_ids",
-                            "parent IDs must also appear in the family's partners: "
-                            + ", ".join(missing_partners),
-                        )
+                if isinstance(parent_relationships, list)
+                else []
+            )
+            if len(parent_ids) != len(set(parent_ids)):
+                issues.append(
+                    Issue(
+                        "error",
+                        f"{child_location}.parent_relationships",
+                        "parent IDs must be distinct for each child",
                     )
+                )
+            missing_partners = [
+                identifier
+                for identifier in parent_ids
+                if identifier not in partner_set
+            ]
+            if missing_partners:
+                issues.append(
+                    Issue(
+                        "error",
+                        f"{child_location}.parent_relationships",
+                        "parent IDs must also appear in the family's partners: "
+                        + ", ".join(missing_partners),
+                    )
+                )
             if isinstance(child_id, str) and child_id in partner_set:
                 issues.append(
                     Issue(
@@ -1092,12 +1109,23 @@ def validate_family_structure_and_chronology(
                         "a person cannot be both a partner and child in one family",
                     )
                 )
-            if child.get("status") == "rejected" or not isinstance(child_id, str):
+            if not isinstance(child_id, str):
                 continue
             child_birth = births.get(child_id)
             if child_birth is None:
                 continue
-            for parent_id in parent_ids if isinstance(parent_ids, list) else []:
+            for relationship in (
+                parent_relationships
+                if isinstance(parent_relationships, list)
+                else []
+            ):
+                if (
+                    not isinstance(relationship, dict)
+                    or relationship.get("status") == "rejected"
+                    or relationship.get("relationship_type") != "biological"
+                ):
+                    continue
+                parent_id = relationship.get("parent_id")
                 if not isinstance(parent_id, str):
                     continue
                 parent_birth = births.get(parent_id)
@@ -1227,14 +1255,16 @@ def source_ids_used_by_person(
         for child in family.data.get("children", []):
             if not isinstance(child, dict):
                 continue
-            if child.get("person_id") == person_id or person_id in child.get(
-                "parent_ids", []
-            ):
-                source_ids.update(
-                    identifier
-                    for identifier in child.get("source_ids", [])
-                    if isinstance(identifier, str)
-                )
+            is_child = child.get("person_id") == person_id
+            for relationship in child.get("parent_relationships", []):
+                if not isinstance(relationship, dict):
+                    continue
+                if is_child or relationship.get("parent_id") == person_id:
+                    source_ids.update(
+                        identifier
+                        for identifier in relationship.get("source_ids", [])
+                        if isinstance(identifier, str)
+                    )
     for source_id, source in entities["sources"].items():
         if person_id in source.data.get("linked_people", []):
             source_ids.add(source_id)

@@ -63,9 +63,46 @@
           },
           "role": {
             "type": "string",
+            "enum": [
+              "principal",
+              "spouse",
+              "parent",
+              "child",
+              "witness",
+              "informant",
+              "officiant",
+              "godparent",
+              "sponsor",
+              "executor",
+              "beneficiary",
+              "household_member",
+              "other"
+            ]
+          },
+          "role_detail": {
+            "type": "string",
             "minLength": 1
           }
-        }
+        },
+        "allOf": [
+          {
+            "if": {
+              "required": [
+                "role"
+              ],
+              "properties": {
+                "role": {
+                  "const": "other"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "role_detail"
+              ]
+            }
+          }
+        ]
       }
     },
     "status": {

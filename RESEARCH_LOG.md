@@ -39,3 +39,13 @@ entry they amend; they must not erase it.
 - Genealogical conclusions changed: none.
 - Next action: add controlled parent-child relationship types and event
   participant roles before ingesting people.
+
+## 2026-07-28 — Relationship and participant semantics
+
+- Outcome: modelled each parent-child relationship as a separately typed,
+  sourced and confidence-rated edge; added controlled participant roles with an
+  explicit exceptional-role detail field.
+- Research evidence added: none.
+- Genealogical conclusions changed: none.
+- Next action: reduce validator maintenance risk by separating its loading,
+  schema and cross-entity concerns without changing the public command.

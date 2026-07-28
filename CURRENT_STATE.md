@@ -18,6 +18,10 @@
   version 1, and source category, form, information quality and evidence type
   are represented separately; no source data or genealogical conclusion
   changed.
+- 28 July 2026 relationship-model review: parent-child evidence is now stored
+  per parent edge, and relationship types and event participant roles use
+  controlled vocabularies; no family record or genealogical conclusion
+  changed.
 
 ## Subject
 

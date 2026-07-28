@@ -80,6 +80,21 @@ least two original sources that provide indirect primary or mixed information.
 This is a minimum mechanical gate, not a substitute for source correlation,
 conflict resolution or a written proof argument.
 
+## Relationships and participant roles
+
+Each child entry contains separate `parent_relationships`. Every parent-child
+edge has its own parent ID, relationship type, confidence, citations and notes.
+This avoids falsely applying one relationship type or evidence assessment to
+both parents. The controlled types are `biological`, `adoptive`, `step`,
+`foster`, `guardian`, `social`, `unknown` and `other`; `other` requires a
+specific `relationship_detail`.
+
+Event participant roles use a controlled vocabulary covering principals,
+spouses, parents, children, witnesses, informants, officiants, godparents,
+sponsors, executors, beneficiaries and household members. Exceptional roles
+use `other` and require `role_detail`. Birth and death events must have exactly
+one `principal`.
+
 ## Minimal entity examples
 
 These examples demonstrate shape only and are not claims about real people:

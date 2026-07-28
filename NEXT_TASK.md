@@ -2,21 +2,22 @@
 
 ## Objective
 
-Add controlled parent-child relationship types and event participant roles.
+Refactor the monolithic validator into focused modules without changing its
+public command or validation behaviour.
 
 ## Why this is next
 
-The current family model cannot distinguish biological, adoptive, foster or
-other parent-child relationships, and participant roles are arbitrary strings.
-No live entity exists, so the vocabulary can be corrected without migrating
-research data.
+The validator now exceeds 1,300 lines and mixes schema loading, inventory
+validation, evidence policy, chronology, privacy and command-line concerns.
+Further rules will increase review risk and make isolated testing harder.
 
 ## Completion criteria
 
-- Require a controlled relationship type on every child-parent assertion.
-- Use a controlled event-participant role vocabulary with an explicit escape
-  hatch for exceptional roles.
-- Update templates, schemas, documentation and tests atomically.
+- Preserve `python3 scripts/validate_data.py` and
+  `scripts.validate_data.validate_repository`.
+- Separate cohesive concerns without duplicating constants or helper logic.
+- Keep all current tests passing and add an interface regression test if useful.
+- Avoid changing genealogy or schema semantics during the move.
 - Run the complete repository check before committing.
 
 ## External blocker

@@ -24,3 +24,5 @@ also remain traceable through source records and research logs.
 - Version every structured entity and replace the overloaded evidence class
   with separate record category, source form, information quality and evidence
   type fields.
+- Model each parent-child assertion as a separately typed and cited edge, and
+  constrain event participant roles with explicit exceptional-role details.

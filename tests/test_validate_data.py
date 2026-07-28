@@ -135,9 +135,15 @@ class RepositoryFixture:
             "children": [
                 {
                     "person_id": "P-0002",
-                    "parent_ids": ["P-0001"],
-                    "status": "confirmed",
-                    "source_ids": ["SRC-0001"],
+                    "parent_relationships": [
+                        {
+                            "parent_id": "P-0001",
+                            "relationship_type": "biological",
+                            "status": "confirmed",
+                            "source_ids": ["SRC-0001"],
+                            "notes": [],
+                        }
+                    ],
                     "notes": [],
                 }
             ],
@@ -447,8 +453,8 @@ class ValidateDataTests(unittest.TestCase):
         for event in self.fixture.documents["events"].values():
             event["source_ids"].append("SRC-0002")
         self.fixture.documents["families"]["F-0001"]["children"][0][
-            "source_ids"
-        ].append("SRC-0002")
+            "parent_relationships"
+        ][0]["source_ids"].append("SRC-0002")
         self.fixture.rewrite()
         result = self.fixture.validate()
         self.assertEqual((), result.errors)
@@ -458,6 +464,51 @@ class ValidateDataTests(unittest.TestCase):
         self.fixture.rewrite()
         result = self.fixture.validate()
         self.assert_issue(result, "error", "'schema_version' is a required property")
+
+    def test_uncontrolled_parent_relationship_type_is_an_error(self) -> None:
+        relationship = self.fixture.documents["families"]["F-0001"]["children"][0][
+            "parent_relationships"
+        ][0]
+        relationship["relationship_type"] = "probably-parent"
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "is not one of")
+
+    def test_other_parent_relationship_requires_detail(self) -> None:
+        relationship = self.fixture.documents["families"]["F-0001"]["children"][0][
+            "parent_relationships"
+        ][0]
+        relationship["relationship_type"] = "other"
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(
+            result, "error", "'relationship_detail' is a required property"
+        )
+
+    def test_parent_relationships_for_child_require_distinct_parents(self) -> None:
+        relationships = self.fixture.documents["families"]["F-0001"]["children"][0][
+            "parent_relationships"
+        ]
+        relationships.append(copy.deepcopy(relationships[0]))
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(
+            result, "error", "parent IDs must be distinct for each child"
+        )
+
+    def test_uncontrolled_event_participant_role_is_an_error(self) -> None:
+        participant = self.fixture.documents["events"]["E-0001"]["participants"][0]
+        participant["role"] = "mysterious-relative"
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "is not one of")
+
+    def test_other_event_role_requires_detail(self) -> None:
+        participant = self.fixture.documents["events"]["E-0001"]["participants"][0]
+        participant["role"] = "other"
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "'role_detail' is a required property")
 
     def test_parent_born_after_child_is_an_error(self) -> None:
         parent_birth = self.fixture.documents["events"]["E-0001"]
@@ -525,6 +576,28 @@ class ValidateDataTests(unittest.TestCase):
         self.fixture.rewrite()
         result = self.fixture.validate()
         self.assert_issue(result, "error", "must be private")
+
+    def test_parent_relationship_source_for_living_person_must_be_private(
+        self,
+    ) -> None:
+        self.fixture.documents["people"]["P-0001"]["privacy"] = "living"
+        source = copy.deepcopy(self.fixture.documents["sources"]["SRC-0001"])
+        source["id"] = "SRC-0002"
+        source["title"] = "Non-private relationship fixture"
+        source["linked_people"] = []
+        source["linked_events"] = []
+        source["private"] = False
+        self.fixture.documents["sources"]["SRC-0002"] = source
+        self.fixture.ledger["next_ids"]["sources"] = "SRC-0003"
+        relationship = self.fixture.documents["families"]["F-0001"]["children"][0][
+            "parent_relationships"
+        ][0]
+        relationship["source_ids"].append("SRC-0002")
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(
+            result, "error", "source concerning living person P-0001 must be private"
+        )
 
     def test_evidence_checksum_mismatch_is_an_error(self) -> None:
         evidence_path = self.fixture.root / "evidence/civil/example.txt"

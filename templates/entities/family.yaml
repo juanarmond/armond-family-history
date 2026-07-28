@@ -10,6 +10,15 @@ partner_relationship:
   source_ids:
     - SRC-NNNN
   notes: []
-children: []
+children:
+  - person_id: P-NNNN
+    parent_relationships:
+      - parent_id: P-NNNN
+        relationship_type: unknown
+        status: hypothesis
+        source_ids:
+          - SRC-NNNN
+        notes: []
+    notes: []
 event_ids: []
 notes: []
