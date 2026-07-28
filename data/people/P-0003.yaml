@@ -7,6 +7,9 @@ name_variants:
     type: source
     source_ids:
       - SRC-0003
+      - SRC-0011
+      - SRC-0012
+      - SRC-0013
 event_ids: []
 family_ids: []
 notes:

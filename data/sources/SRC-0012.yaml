@@ -1,0 +1,59 @@
+schema_version: 1
+id: SRC-0012
+title: >-
+  Ontario photostatic marriage record for Juan Carlos Muniz Armond and Vanessa
+  Araujo Bevilacqua
+record_type: Civil marriage record certified photostatic print
+record_category: civil_registration
+source_form: derivative
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "2003-08-16"
+event_place_text: Toronto, Ontario, Canada
+repository:
+  name: FamilySearch Memories
+  archive_or_registry: Office of the Registrar General, Ontario, Canada
+  catalogue_reference: >-
+    FamilySearch Memory 120433442; storage identifier
+    TH-7781-105179-4634-2; original upload filename "Juan Armond e Vanessa
+    Bevilacqua - Casamento Canada.pdf"
+  url: https://www.familysearch.org/en/memories/memory/120433442
+  repository_path: >-
+    evidence/civil/SRC-0012-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2003-ontario-original.pdf
+access_date: "2026-07-28"
+language: en-CA
+abstract: >-
+  An Ontario certified photostatic print records the legal marriage of Juan
+  Carlos Muniz Armond and Vanessa Araujo Bevilacqua in Toronto on 16 August
+  2003. It also reports the parties' parents and places of birth.
+reliability:
+  assessment: >-
+    Direct official derivative evidence for the marriage and direct reported
+    evidence for the parties' parentage.
+  informant: >-
+    The parties completed the marriage affidavit and signed the marriage
+    statement; the officiant certified the event.
+  limitations: >-
+    The retained PDF is a certified photostatic print rather than the archive's
+    original paper registration. It contains addresses, telephone numbers,
+    signatures and full vital details for living people.
+digital_file:
+  path: >-
+    evidence/civil/SRC-0012-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2003-ontario-original.pdf
+  sha256: 2d8d570c217c63f09532260d88d426a16de7ddfdd59c5628d5edfaba12e6397a
+linked_people:
+  - P-0001
+  - P-0002
+  - P-0003
+linked_families: []
+linked_events: []
+linked_places: []
+private: true
+notes:
+  - text: >-
+      FamilySearch's authorised Download action supplied the exact uploaded
+      one-page PDF. It is excluded from public derivatives.
+

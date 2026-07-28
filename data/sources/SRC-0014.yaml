@@ -1,0 +1,59 @@
+schema_version: 1
+id: SRC-0014
+title: >-
+  Italian marriage certificate for Juan Carlos Muniz Armond and Vanessa
+  Bevilacqua
+record_type: Italian civil marriage certificate
+record_category: civil_registration
+source_form: derivative
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "2003-08-16"
+event_place_text: Toronto, Ontario, Canada
+repository:
+  name: FamilySearch Memories
+  archive_or_registry: Comune di Caronno Pertusella, Varese, Italy
+  book: "2007, number 30, part II, series C"
+  catalogue_reference: >-
+    FamilySearch Memory 120433443; storage identifier
+    TH-7783-105179-4793-62; original upload filename "Juan Armond e Vanessa
+    Bevilacqua - Casamento Italia.pdf"
+  url: https://www.familysearch.org/en/memories/memory/120433443
+  repository_path: >-
+    evidence/civil/SRC-0014-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-certificate-original.pdf
+access_date: "2026-07-28"
+language: it
+abstract: >-
+  A certificate issued by the Comune di Caronno Pertusella on 24 October 2007
+  reports that the parties married in Toronto on 16 August 2003 and gives
+  their names and birth details.
+reliability:
+  assessment: >-
+    Direct official derivative evidence for the Italian civil registration
+    and corroborating evidence for the Canadian marriage.
+  informant: Italian civil officials issued the certificate from their register.
+  limitations: >-
+    This certificate abstracts an Italian transcription of a foreign marriage
+    and is not independent of the Canadian record or the fuller Italian
+    transcription. It contains sensitive vital details for living people.
+digital_file:
+  path: >-
+    evidence/civil/SRC-0014-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-certificate-original.pdf
+  sha256: aecc0d23f9b9e2aa1b5c26aea2bd118d8e3d94aed0691b4eca24795f02207148
+linked_people:
+  - P-0001
+linked_families: []
+linked_events: []
+linked_places: []
+private: true
+notes:
+  - text: >-
+      This is a distinct official manifestation of the marriage, not a
+      duplicate of SRC-0012, SRC-0013 or SRC-0015.
+  - text: >-
+      FamilySearch's authorised Download action supplied the exact uploaded
+      one-page PDF. It is excluded from public derivatives.
+

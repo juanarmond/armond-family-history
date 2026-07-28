@@ -1,0 +1,69 @@
+schema_version: 1
+id: SRC-0011
+title: Certified birth certificate of Juan Carlos Muniz Armond
+record_type: Civil birth certificate
+record_category: civil_registration
+source_form: derivative
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1982-06-22"
+event_place_text: Rio de Janeiro, Rio de Janeiro, Brazil
+repository:
+  name: FamilySearch Memories
+  archive_or_registry: >-
+    Civil Registry of Natural Persons, 10th District, Rio de Janeiro, Brazil
+  catalogue_reference: >-
+    FamilySearch Memories 120433441 and 120433439; storage identifiers
+    TH-7783-105179-4791-76 and TH-7782-105179-4562-84; original upload
+    filename "Juan Armond - Nascimento.pdf"
+  url: https://www.familysearch.org/en/memories/memory/120433441
+  repository_path: >-
+    evidence/civil/SRC-0011-birth-juan-carlos-muniz-armond-1982-original.pdf
+access_date: "2026-07-28"
+language: pt-BR
+abstract: >-
+  A certified derivative of the subject's Brazilian civil birth registration
+  reports his name, birth in Rio de Janeiro on 22 June 1982, parents Luis
+  Carlos Igracio Armond and Lucinea Aparecida Muniz Armond, and grandparents
+  Geraldo Paz Armond, Cidalia Igracio Armond, Antenor Muniz and Iris Bohrer
+  Muniz.
+reliability:
+  assessment: >-
+    Direct official derivative evidence for the subject's birth and parentage,
+    and direct reported evidence for the named grandparents.
+  informant: >-
+    The certificate transcribes the civil registration; the father is named as
+    the original declarant.
+  limitations: >-
+    This is a later certified copy rather than the original register image.
+    The retained PDF contains sensitive living-person data and authentication
+    marks that must not appear in public derivatives.
+digital_file:
+  path: >-
+    evidence/civil/SRC-0011-birth-juan-carlos-muniz-armond-1982-original.pdf
+  sha256: 10ea2916d9b5bf9f551261dad3b7a4025d5e569a5422838b0c3d48764bb69fb2
+linked_people:
+  - P-0001
+  - P-0002
+  - P-0003
+  - P-0004
+  - P-0005
+  - P-0006
+  - P-0007
+linked_families: []
+linked_events: []
+linked_places: []
+private: true
+notes:
+  - text: >-
+      FamilySearch holds two separate Memory entries for one byte-identical
+      PDF. Both Memory identifiers are preserved in this source record, but
+      only one file is retained.
+  - text: >-
+      FamilySearch's authorised Download action supplied the exact uploaded
+      one-page PDF. No screenshot, thumbnail, image conversion or upscaled
+      derivative is retained.
+

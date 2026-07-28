@@ -437,3 +437,235 @@ documents:
         Although the artifact is attached to Maria Aurora Guimarães, the
         certificate is headed for João José de Carvalho Guimarães and
         transcribes one registration covering six siblings.
+  - inventory_id: DOC-0010
+    status: catalogued
+    added_date: "2026-07-28"
+    apparent_record_type: Certified civil birth certificate
+    apparent_people:
+      - Juan Carlos Muniz Armond
+      - Luis Carlos Igracio Armond
+      - Lucinea Aparecida Muniz Armond
+      - Geraldo Paz Armond
+      - Cidalia Igracio Armond
+      - Antenor Muniz
+      - Iris Bohrer Muniz
+    apparent_event: birth
+    image_quality: adequate
+    provenance: >-
+      FamilySearch Memories 120433441 and 120433439, both uploaded as "Juan
+      Armond - Nascimento.pdf" by JuanArmond on 31 January 2021 and attached
+      to living profile GQJ1-N2D. Storage identifiers
+      TH-7783-105179-4791-76 and TH-7782-105179-4562-84. Accessed and
+      downloaded through the owner's authenticated session on 28 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/civil/SRC-0011-birth-juan-carlos-muniz-armond-1982-original.pdf
+        sha256: 10ea2916d9b5bf9f551261dad3b7a4025d5e569a5422838b0c3d48764bb69fb2
+        media_type: application/pdf
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+        privacy_review: cleared
+        sensitive_content:
+          - living-person-data
+          - signature
+          - other
+    duplicate_of: null
+    proposed_source_id: SRC-0011
+    notes:
+      - >-
+        The two FamilySearch Memories downloaded to byte-identical one-page
+        PDFs. Both provenance records are preserved, but the repository keeps
+        only one file.
+      - >-
+        The unredacted file is authorised for this private repository only and
+        must be excluded from public derivatives.
+  - inventory_id: DOC-0011
+    status: catalogued
+    added_date: "2026-07-28"
+    apparent_record_type: Ontario certified photostatic civil marriage record
+    apparent_people:
+      - Juan Carlos Muniz Armond
+      - Vanessa Araujo Bevilacqua
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      FamilySearch Memory 120433442, uploaded as "Juan Armond e Vanessa
+      Bevilacqua - Casamento Canada.pdf" by JuanArmond on 31 January 2021 and
+      attached to living profile GQJ1-N2D. Storage identifier
+      TH-7781-105179-4634-2. Accessed and downloaded through the owner's
+      authenticated session on 28 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/civil/SRC-0012-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2003-ontario-original.pdf
+        sha256: 2d8d570c217c63f09532260d88d426a16de7ddfdd59c5628d5edfaba12e6397a
+        media_type: application/pdf
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+        privacy_review: cleared
+        sensitive_content:
+          - living-person-data
+          - address
+          - signature
+          - other
+    duplicate_of: null
+    proposed_source_id: SRC-0012
+    notes:
+      - >-
+        The retained file is the byte-preserved authorised original PDF, not a
+        screenshot, preview, image conversion or upscaled derivative.
+      - >-
+        The unredacted file is authorised for this private repository only and
+        must be excluded from public derivatives.
+  - inventory_id: DOC-0012
+    status: catalogued
+    added_date: "2026-07-28"
+    apparent_record_type: Italian full transcription of a foreign marriage
+    apparent_people:
+      - Juan Carlos Muniz Armond
+      - Vanessa Araujo Bevilacqua
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      FamilySearch Memory 120433440, uploaded as "Juan Armond e Vanessa
+      Bevilacqua - Casamento ATTI DI MATRIMONIO.pdf" by JuanArmond on
+      31 January 2021 and attached to living profile GQJ1-N2D. Storage
+      identifier TH-7781-105179-4633-99. Accessed and downloaded through the
+      owner's authenticated session on 28 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/civil/SRC-0013-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-transcription-original.pdf
+        sha256: a7315fb7e6ddc22b47cdc42abeeaecbeb60b1285fa1eea4053a394d917dd5011
+        media_type: application/pdf
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+        privacy_review: cleared
+        sensitive_content:
+          - living-person-data
+          - signature
+          - other
+    duplicate_of: null
+    proposed_source_id: SRC-0013
+    notes:
+      - >-
+        This record transcribes the same marriage as DOC-0011 but is a
+        separate Italian civil-registry manifestation with a distinct checksum
+        and additional content.
+      - >-
+        The unredacted file is authorised for this private repository only and
+        must be excluded from public derivatives.
+  - inventory_id: DOC-0013
+    status: catalogued
+    added_date: "2026-07-28"
+    apparent_record_type: Italian civil marriage certificate
+    apparent_people:
+      - Juan Carlos Muniz Armond
+      - Vanessa Araujo Bevilacqua
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      FamilySearch Memory 120433443, uploaded as "Juan Armond e Vanessa
+      Bevilacqua - Casamento Italia.pdf" by JuanArmond on 31 January 2021 and
+      attached to living profile GQJ1-N2D. Storage identifier
+      TH-7783-105179-4793-62. Accessed and downloaded through the owner's
+      authenticated session on 28 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/civil/SRC-0014-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-certificate-original.pdf
+        sha256: aecc0d23f9b9e2aa1b5c26aea2bd118d8e3d94aed0691b4eca24795f02207148
+        media_type: application/pdf
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+        privacy_review: cleared
+        sensitive_content:
+          - living-person-data
+          - signature
+    duplicate_of: null
+    proposed_source_id: SRC-0014
+    notes:
+      - >-
+        This is a separate Italian certificate for the marriage documented in
+        DOC-0011, not a byte duplicate of another retained file.
+      - >-
+        The unredacted file is authorised for this private repository only and
+        must be excluded from public derivatives.
+  - inventory_id: DOC-0014
+    status: catalogued
+    added_date: "2026-07-28"
+    apparent_record_type: Italian civil marriage summary extract
+    apparent_people:
+      - Juan Carlos Muniz Armond
+      - Vanessa Araujo Bevilacqua
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      FamilySearch Memory 120433444, uploaded as "Juan Armond e Vanessa
+      Bevilacqua - Casamento Italia 1.pdf" by JuanArmond on 31 January 2021
+      and attached to living profile GQJ1-N2D. Storage identifier
+      TH-7782-105179-4564-90. Accessed and downloaded through the owner's
+      authenticated session on 28 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/civil/SRC-0015-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2008-italian-summary-extract-original.pdf
+        sha256: 88bc4698ede0fa53e822361381d9837a04ee1852dd4bd960bddb5ef3f68371bd
+        media_type: application/pdf
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+        privacy_review: cleared
+        sensitive_content:
+          - living-person-data
+          - signature
+          - other
+    duplicate_of: null
+    proposed_source_id: SRC-0015
+    notes:
+      - >-
+        This is a separate Italian summary extract for the marriage documented
+        in DOC-0011, not a byte duplicate of another retained file.
+      - >-
+        The unredacted file is authorised for this private repository only and
+        must be excluded from public derivatives.
+  - inventory_id: DOC-0015
+    status: catalogued
+    added_date: "2026-07-28"
+    apparent_record_type: Academic master's dissertation
+    apparent_people:
+      - Gabriel Afonso Vieira Chagas
+    apparent_event: other
+    image_quality: adequate
+    provenance: >-
+      FamilySearch Memory 101592607, uploaded as
+      "chagas__gabriel_afonso_vieira._estrat_gia_de_fam_lia___casamentos__endog_micos_em_grupos_familiares_do_entorno_da_serra_do_camapu___1750_1890_.pdf"
+      by JuanArmond on 24 February 2020. Storage identifier
+      TH-904-96969-1013-75. Accessed and downloaded through the owner's
+      authenticated session on 28 July 2026.
+    rights_status: permission-required
+    files:
+      - path: evidence/publications/SRC-0016-chagas-ferreira-armond-family-strategy-2018-original.pdf
+        sha256: 42d595dc816eaaf50f5dba0a476558ba9a5d2f002d12f8174ada21e4e6370769
+        media_type: application/pdf
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: SRC-0016
+    notes:
+      - >-
+        The 185-page PDF is preserved as a private research copy. Permission
+        and licensing must be reviewed before any redistribution.
+      - >-
+        The historical Ferreira Armond discussion is a research lead only; it
+        does not establish a primary-source relationship to the repository's
+        documented Armond line.

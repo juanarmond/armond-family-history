@@ -11,6 +11,7 @@ Create a category directory only when its first document is added:
 - `naturalisation/`
 - `newspapers/`
 - `probate/`
+- `publications/`
 
 ## File handling
 

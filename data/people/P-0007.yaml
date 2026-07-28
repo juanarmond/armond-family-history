@@ -8,6 +8,7 @@ name_variants:
     source_ids:
       - SRC-0003
       - SRC-0005
+      - SRC-0011
   - value: Iris Bohrer
     type: source
     source_ids:

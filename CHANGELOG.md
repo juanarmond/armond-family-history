@@ -137,3 +137,9 @@ also remain traceable through source records and research logs.
   structure six direct ancestors, three parent groups and the reported events
   and places, preserve the Maria Amora/Aurora conflict, and keep Vicente's
   Portuguese origin at nationality level until a parish is documented.
+- Preserve and catalogue six unique original PDFs from the living repository
+  subject's private FamilySearch Memories as `SRC-0011` through `SRC-0016`;
+  deduplicate two byte-identical birth uploads without losing provenance,
+  separate four distinct manifestations of one marriage, and retain the
+  Chagas dissertation as a secondary Armond research lead rather than proof of
+  lineage or Azorean origin.

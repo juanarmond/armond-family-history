@@ -53,9 +53,6 @@ under **Strategic research priorities** below.
   a FamilySearch Center or Library, or the record custodian.
 - Archive enquiries, paid certificates and conservatory or parish requests
   require explicit user authorisation before submission.
-- Six civil-record PDFs concerning living people are attached as `Public`
-  Memories to `P-0001`. No copies were retained; changing their visibility is
-  an external FamilySearch mutation requiring the owner's authorisation.
 - Liliosa's reported 16 April 1946 death cannot yet be tested in the identified
   Volta Redonda register because the accessible series begins in November.
 - FamilySearch exposes João and Susanna's 1882 marriage provision but no
@@ -75,9 +72,9 @@ None of these dependencies prevents the current Vicente source-recovery work.
 | Structured families | 10 |
 | Structured events | 16 |
 | Structured places | 8 |
-| Structured sources | 10 |
-| Inventoried retained documents | 9 |
-| Validation | 70 entities; zero errors or warnings at the last check |
+| Structured sources | 16 |
+| Inventoried retained documents | 15 |
+| Validation | 76 entities; zero errors or warnings at the last check |
 | Automated tests | 53 passing at the last check |
 
 Catalogued evidence currently includes:
@@ -97,7 +94,14 @@ Catalogued evidence currently includes:
 - `SRC-0009` — original 1882 marriage provision for João Monis Bittencourt and
   Susanna Rita Brondão; and
 - `SRC-0010` — certified full-content copy of the 1915 Carvalho Guimarães
-  collective birth registration.
+  collective birth registration;
+- `SRC-0011` — private certified birth record for the living repository
+  subject, with two byte-identical FamilySearch Memories deduplicated to one
+  preservation file;
+- `SRC-0012`–`SRC-0015` — four distinct private civil manifestations of the
+  repository subject's 2003 marriage; and
+- `SRC-0016` — a 2018 academic dissertation retained as a research lead for
+  the historical Ferreira Armond group, not proof of this family's descent.
 
 Source details, archival references, transcriptions, limitations and
 conclusion links are canonical in `data/sources/`. Record-by-record gaps are
@@ -107,7 +111,7 @@ canonical in `research/record-coverage.yaml`.
 
 | Area | Strongest current position | Strategic gap |
 | --- | --- | --- |
-| Armond and Paz | Aristão's death is confirmed; a second original government record independently names Liliosa Paz Armond and reports the couple as José Olavo's parents | Birth or baptism of Aristão; marriage to Liliosa; Liliosa's own vital records and parents |
+| Armond and Paz | Aristão's death is confirmed; a second original government record independently names Liliosa Paz Armond and reports the couple as José Olavo's parents; a secondary academic study supplies historical context but no line linkage | Birth or baptism of Aristão; marriage to Liliosa; Liliosa's own vital records and parents |
 | Muniz Bittencourt and Azevedo | The 1916 marriage reports Deocleciano's parents; an original 1882 provision names João and Susanna and the intended Espírito Santo parish | Completed ceremony entry; João and Susanna's own vital records; test rather than assume island origin |
 | Engracio, Souza and Guimarães | The 1915 collective registration documents Maria Amora, her parents and all four grandparents | Locate Vicente's family-linked marriage or death record and resolve Maria Amora/Aurora |
 | Bohrer | Iris's 1949 marriage directly reports João Gonçalves Bohrer and Selina Bohrer | Catalogue their own vital records and verify the next generation |
@@ -119,7 +123,9 @@ relationships. Collaborative profiles remain navigation leads only.
 
 ## Material unresolved conflicts
 
-1. Cidalia's birth date: 15 September or 15 November 1930.
+1. Cidalia's birth date: 15 September or 15 November 1930; and the recorded
+   `Engracio`, `Igracio` and married-name forms require source-by-source
+   preservation rather than silent normalisation.
 2. Liliosa's exact death date, original surname and parents.
 3. The fuller names and identities of Aristão's reported parents.
 4. The exact transcription of João Gonçalves Bohrer's parents.

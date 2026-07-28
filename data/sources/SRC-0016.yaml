@@ -1,0 +1,61 @@
+schema_version: 1
+id: SRC-0016
+title: >-
+  Estratégia de família: casamentos endogâmicos em grupos familiares do
+  entorno da Serra do Camapuã (1750-1890)
+record_type: Master's dissertation
+record_category: published_genealogy
+source_form: authored_narrative
+information_quality: secondary
+evidence_type: indirect
+usage: lead_only
+repository:
+  name: FamilySearch Memories
+  archive_or_registry: Universidade Federal de Minas Gerais
+  catalogue_reference: >-
+    Gabriel Afonso Vieira Chagas, master's dissertation, Universidade Federal
+    de Minas Gerais, 2018; FamilySearch Memory 101592607; storage identifier
+    TH-904-96969-1013-75
+  url: https://www.familysearch.org/en/memories/memory/101592607
+  repository_path: >-
+    evidence/publications/SRC-0016-chagas-ferreira-armond-family-strategy-2018-original.pdf
+access_date: "2026-07-28"
+language: pt-BR
+abstract: >-
+  Chagas studies endogamous marriage strategies among families around Serra
+  do Camapuã from 1750 to 1890. A section on the Ferreira Armond family states,
+  while citing Antônio Henrique Duarte Lacerda, that the historical group was
+  of Azorean origin, first established in São João del-Rei, then Barbacena and
+  later parts of the Zona da Mata. It describes 1804 marriages linking the
+  Ferreira Armond and Ferreira da Fonseca families and points to Lacerda's
+  dissertation and archival marriage records for further investigation.
+reliability:
+  assessment: >-
+    A scholarly secondary source useful for historical context and for locating
+    earlier cited research and primary records.
+  informant: >-
+    Gabriel Afonso Vieira Chagas, writing a 2018 UFMG master's dissertation
+    under academic supervision.
+  limitations: >-
+    The dissertation does not name Aristão Ferreira Armond, Simplicio Armand
+    or Liliosa Paz Armond and does not establish that the repository's
+    documented line descends from the historical Ferreira Armond group. Its
+    Azorean-origin statement cannot be applied to this family line without a
+    primary-source chain.
+digital_file:
+  path: >-
+    evidence/publications/SRC-0016-chagas-ferreira-armond-family-strategy-2018-original.pdf
+  sha256: 42d595dc816eaaf50f5dba0a476558ba9a5d2f002d12f8174ada21e4e6370769
+linked_people:
+  - P-0008
+linked_families: []
+linked_events: []
+linked_places: []
+private: true
+notes:
+  - text: >-
+      Treat all family-line statements as research leads until the cited
+      primary records are inspected.
+  - text: >-
+      The 185-page PDF was downloaded through FamilySearch's authorised
+      original-file action and preserved byte-for-byte.

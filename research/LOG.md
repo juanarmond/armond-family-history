@@ -482,3 +482,25 @@ entry they amend; they must not erase it.
   Carvalho Guimarães, but no relationship proves that he is `P-0023`.
 - Next action: test the 1866 identity and search Vicente's marriage and death
   records for a Portuguese locality.
+
+## 2026-07-28 — Living-profile files and academic-article review
+
+- Outcome: downloaded all seven authorised original PDFs from the living
+  repository subject's FamilySearch Memories after explicit owner approval.
+- Detailed log:
+  [`logs/2026-07-28-familysearch-living-profile-download-and-article-review.md`](logs/2026-07-28-familysearch-living-profile-download-and-article-review.md).
+- Deduplication: two separate birth Memories yielded byte-identical PDFs; both
+  Memory identifiers remain in provenance, while only one file is retained.
+- Sources added: `SRC-0011` for the private birth certificate,
+  `SRC-0012`-`SRC-0015` for four distinct civil manifestations of one marriage,
+  and `SRC-0016` for the Chagas dissertation.
+- Privacy result: all seven Memories displayed `Private` during this session.
+  No FamilySearch visibility or profile setting was changed.
+- Article result: the 2018 dissertation provides historical Ferreira Armond
+  context and cites Lacerda's 2010 thesis, but it does not connect Aristão or
+  his source-reported parents to that historical group. Its Azorean-origin
+  statement remains a research lead only.
+- Genealogical conclusions changed: no disputed deceased-ancestor conclusion
+  changed; the private civil records corroborate the living direct line.
+- Next action: resume the current Vicente identity and Portuguese-locality
+  objective.

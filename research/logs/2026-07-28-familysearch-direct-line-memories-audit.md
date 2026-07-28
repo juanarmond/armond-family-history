@@ -115,3 +115,13 @@ privacy decision.
    may be changed to Private or Private to Group.
 2. Complete a diplomatic transcription of `SRC-0007` pages 2–3 when useful.
 3. Resume the search for Liliosa's own 1946 death or burial record.
+
+## Later amendment
+
+The owner subsequently authorised private-repository retention of the
+`P-0001` civil PDFs. On reinspection later on 28 July 2026, all seven Memories
+displayed `Private`; no visibility setting was changed by the research agent.
+Six unique files were catalogued as `SRC-0011` through `SRC-0016`. The two
+birth Memory entries yielded one byte-identical PDF and were deduplicated to a
+single preservation file. See
+`2026-07-28-familysearch-living-profile-download-and-article-review.md`.
