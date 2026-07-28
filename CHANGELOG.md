@@ -89,3 +89,6 @@ also remain traceable through source records and research logs.
   `004640627` Item 3 as the bounded 1879 manual-review target, and exclude the
   marriage series ending in July 1897 as probably too early for the target
   marriage.
+- Redesign `AGENTS.md` as a stable context-loading, decision and completion
+  protocol that routes agents to canonical live state and task-specific
+  contracts without duplicating volatile research context.

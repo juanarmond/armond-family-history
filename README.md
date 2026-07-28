@@ -44,7 +44,7 @@ Each concern has one owner:
   promotion.
 - [`schemas/README.md`](schemas/README.md) — structured-data contracts and
   validation.
-- [`AGENTS.md`](AGENTS.md) — concise execution instructions.
+- [`AGENTS.md`](AGENTS.md) — stable execution and context-loading protocol.
 
 ## Repository layout
 

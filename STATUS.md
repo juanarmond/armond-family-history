@@ -81,6 +81,9 @@ claim to confirmed.
   promotion workflow are complete.
 - Root documentation has four canonical files; research policy and session
   history live together under `research/`.
+- `AGENTS.md` is the stable context-loading and decision protocol. Volatile
+  research state remains in `STATUS.md`, the coverage ledger and research logs
+  so agent instructions do not become a duplicated project-memory file.
 - The source-intake sequence is maintained with the active objective rather
   than in a separate task-specific plan.
 - The frozen repository check runs locally and in GitHub Actions. Requiring it

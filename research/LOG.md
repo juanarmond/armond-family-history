@@ -301,3 +301,14 @@ entry they amend; they must not erase it.
 - Genealogical conclusions changed: none.
 - Next action: identify the internal indexes and 1879 sequence in baptism image
   group `004640627`, then inspect the original entries manually.
+
+## 2026-07-28 — Agent context protocol review
+
+- Outcome: clarified that `AGENTS.md` is the stable instruction and context
+  router rather than a duplicate project-memory file.
+- Repository improvement: added layered, task-specific context loading;
+  explicit research, intake, data, engineering and review decision paths; safe
+  browser boundaries; and a verifiable completion protocol.
+- Genealogical conclusions changed: none.
+- Next action: continue the current Aristão baptism-register objective using
+  the context sources selected by the revised protocol.
