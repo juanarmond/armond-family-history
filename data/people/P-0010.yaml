@@ -1,0 +1,15 @@
+schema_version: 1
+id: P-0010
+preferred_name: Antonio Engracio Filho
+privacy: deceased
+name_variants:
+  - value: Antonio Engracio Filho
+    type: source
+    source_ids:
+      - SRC-0003
+event_ids: []
+family_ids: []
+notes:
+  - text: >-
+      Ahnentafel position 10. Exact spelling and diacritics require
+      reconciliation against the original civil records.

@@ -1,0 +1,13 @@
+schema_version: 1
+id: P-0011
+preferred_name: Maria Aurora Guimarães
+privacy: deceased
+name_variants:
+  - value: Maria Aurora Guimarães
+    type: source
+    source_ids:
+      - SRC-0003
+event_ids: []
+family_ids: []
+notes:
+  - text: Ahnentafel position 11.

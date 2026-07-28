@@ -1,0 +1,48 @@
+schema_version: 1
+id: SRC-0003
+title: Direct-ancestor roster supplied by Juan Carlos Muniz Armond
+record_type: Owner-supplied family information
+record_category: family_recollection
+source_form: authored_narrative
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+repository:
+  name: Armond Family History private repository
+  repository_path: STATUS.md
+access_date: "2026-07-28"
+language: en
+abstract: >-
+  The repository owner identified himself, his parents, and the deceased direct
+  ancestors used to initialise Ahnentafel positions 1 through 15. This source
+  supports the private working roster and preferred-name spellings only; it
+  does not substitute for civil or parish evidence of vital events or
+  relationships.
+reliability:
+  assessment: >-
+    Direct family information from the repository subject, strongest for his
+    own identity and immediate family and progressively less conclusive for
+    earlier generations.
+  informant: Juan Carlos Muniz Armond.
+  limitations: >-
+    This is family recollection consolidated from the project conversation,
+    not a contemporary civil or parish record. Each person and relationship
+    still requires source-specific corroboration.
+linked_people:
+  - P-0001
+  - P-0002
+  - P-0003
+  - P-0006
+  - P-0007
+  - P-0010
+  - P-0011
+  - P-0014
+  - P-0015
+linked_families: []
+linked_events: []
+linked_places: []
+private: true
+notes:
+  - text: >-
+      Living-person details are intentionally minimised. This source must not
+      be included in public exports.

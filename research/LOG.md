@@ -181,3 +181,16 @@ entry they amend; they must not erase it.
 - Preservation: the omitted files remain recoverable from Git commit
   `3dc9c5e`; source provenance still records all three FamilySearch Memories.
 - Genealogical conclusions changed: none.
+
+## 2026-07-28 — Ahnentafel person-ID migration
+
+- Outcome: aligned the initial direct-ancestor person block with Ahnentafel
+  order, created privacy-minimised roster entries for positions 1–15, and
+  migrated every existing person cross-reference.
+- Detailed log:
+  [`logs/2026-07-28-ahnentafel-person-id-migration.md`](logs/2026-07-28-ahnentafel-person-id-migration.md).
+- Evidence boundary: `SRC-0003` is owner-supplied family information and
+  supports the working roster and spellings only; it does not replace vital or
+  relationship records.
+- Engineering decision: person IDs remain immutable after this one low-cost
+  migration, even if later evidence changes a pedigree relationship.

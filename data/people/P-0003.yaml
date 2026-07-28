@@ -1,14 +1,13 @@
 schema_version: 1
 id: P-0003
-preferred_name: Geraldo Paz Armond
-privacy: deceased
+preferred_name: Lucinea Aparecida Muniz Armond
+privacy: living
 name_variants:
-- value: Geraldo Paz Armond
-  type: source
-  source_ids:
-  - SRC-0002
-event_ids:
-- E-0002
-family_ids:
-- F-0002
-notes: []
+  - value: Lucinea Aparecida Muniz Armond
+    type: source
+    source_ids:
+      - SRC-0003
+event_ids: []
+family_ids: []
+notes:
+  - text: Ahnentafel position 3.

@@ -27,6 +27,15 @@ working notes. Record incomplete searches and tentative reasoning under
 The next identifier is derived from entity, reserved and retired IDs, so there
 is no duplicated counter to drift out of sync.
 
+The initial direct-ancestor person block follows Ahnentafel order for the
+repository subject: `P-0001` is Juan Carlos Muniz Armond, `P-0002` and
+`P-0003` are his father and mother, and each later direct ancestor initially
+follows the standard father `2n` and mother `2n+1` positions. These remain
+stable person identifiers after assignment. A later parentage correction must
+not silently renumber an existing person; record the corrected relationship
+and any resulting divergence from Ahnentafel order explicitly. Collateral
+relatives and later additions continue from the next available person ID.
+
 Reserve an ID and create its editable, non-live skeleton with:
 
 ```console

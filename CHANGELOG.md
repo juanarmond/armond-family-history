@@ -61,3 +61,7 @@ also remain traceable through source records and research logs.
 - Consolidate `SRC-0002` to the clearest photograph under one canonical
   filename; keep the two omitted alternate views recoverable in Git history and
   preserve their FamilySearch provenance in the research record.
+- Migrate the initial person block to Ahnentafel order, add privacy-minimised
+  roster records for direct-ancestor positions 1–15, remap all existing
+  references, and document that the identifiers remain immutable after this
+  low-cost migration.

@@ -91,8 +91,8 @@ tiles, the marriage and partner relationship are classified
 
 The validated batch prepares:
 
-- `P-0003` — Geraldo Paz Armond;
-- `P-0004` — Cidalia Engracio Guimarães;
+- `P-0004` — Geraldo Paz Armond;
+- `P-0005` — Cidalia Engracio Guimarães;
 - `F-0002` — their spouse relationship;
 - `E-0002` — their 31 May 1952 marriage;
 - `PL-0002` — Eugenópolis, Minas Gerais, Brazil; and

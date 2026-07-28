@@ -58,8 +58,8 @@ digital_file:
   path: evidence/civil/SRC-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-reconstructed.png
   sha256: bfbdd146e7960966861e9e9bdaf25f8b2ace608ab1e1efde1ac9fc400c87b58c
 linked_people:
-  - P-0003
   - P-0004
+  - P-0005
 linked_families:
   - F-0002
 linked_events:

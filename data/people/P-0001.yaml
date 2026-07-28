@@ -1,14 +1,16 @@
 schema_version: 1
 id: P-0001
-preferred_name: Deocleciano Muniz Bittencourt
-privacy: deceased
+preferred_name: Juan Carlos Muniz Armond
+privacy: living
 name_variants:
-  - value: Deocleciano Muniz Bittencourt
+  - value: Juan Carlos Muniz Armond
     type: source
     source_ids:
-      - SRC-0001
-event_ids:
-  - E-0001
-family_ids:
-  - F-0001
-notes: []
+      - SRC-0003
+event_ids: []
+family_ids: []
+notes:
+  - text: >-
+      Repository subject and Ahnentafel position 1. Sensitive vital details
+      remain outside the structured record until a privacy-reviewed source is
+      catalogued.

@@ -6,9 +6,9 @@ date:
   value: "1952-05-31"
 place_id: PL-0002
 participants:
-- person_id: P-0003
-  role: spouse
 - person_id: P-0004
+  role: spouse
+- person_id: P-0005
   role: spouse
 status: strong-evidence
 source_ids:

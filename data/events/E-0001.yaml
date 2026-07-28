@@ -6,9 +6,9 @@ date:
   value: "1916-10-21"
 place_id: PL-0001
 participants:
-  - person_id: P-0001
+  - person_id: P-0012
     role: spouse
-  - person_id: P-0002
+  - person_id: P-0013
     role: spouse
 status: strong-evidence
 source_ids:

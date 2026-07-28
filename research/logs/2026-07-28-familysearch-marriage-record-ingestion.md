@@ -87,8 +87,8 @@ viewer tiles. Repository policy therefore permits `strong-evidence`, not
 
 The validated batch created:
 
-- `P-0001` — Deocleciano Muniz Bittencourt;
-- `P-0002` — Luiza Fernandes de Azevedo;
+- `P-0012` — Deocleciano Muniz Bittencourt;
+- `P-0013` — Luiza Fernandes de Azevedo;
 - `F-0001` — their spouse relationship;
 - `E-0001` — their 21 October 1916 marriage;
 - `PL-0001` — Carangola, Minas Gerais, Brazil; and

@@ -83,6 +83,14 @@ claim to confirmed.
   in branch rules remains an external repository-administration task.
 - Two structured source records and their ten directly required linked
   entities are live.
+- The initial direct-ancestor person block now follows Ahnentafel order:
+  `P-0001` is the repository subject, `P-0002` and `P-0003` are his parents,
+  and positions through `P-0015` cover the known grandparents and
+  great-grandparents. These IDs are now immutable; the ordering is not
+  genealogical evidence.
+- `SRC-0003` records the owner's privacy-minimised working roster. It supports
+  names and person allocation only; unsourced events and relationships remain
+  pending.
 - The original ChatGPT conversation has been audited. Its direct-ancestor
   conclusions were largely preserved, and missing transcript-only leads and
   correction history are now recorded without being promoted to evidence.

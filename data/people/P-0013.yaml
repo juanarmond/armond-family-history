@@ -1,0 +1,14 @@
+schema_version: 1
+id: P-0013
+preferred_name: Luiza Fernandes de Azevedo
+privacy: deceased
+name_variants:
+  - value: Luiza Fernandes de Azevedo
+    type: source
+    source_ids:
+      - SRC-0001
+event_ids:
+  - E-0001
+family_ids:
+  - F-0001
+notes: []
