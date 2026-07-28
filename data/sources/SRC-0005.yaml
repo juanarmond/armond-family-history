@@ -1,0 +1,81 @@
+schema_version: 1
+id: SRC-0005
+title: Marriage certificate of Antenor Muniz and Iris Bohrer
+record_type: Civil marriage certificate
+record_category: civil_registration
+source_form: derivative
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1949-12-07"
+event_place_text: Alvorada, Minas Gerais, Brazil
+repository:
+  name: FamilySearch Memories
+  archive_or_registry: Civil Registry, District of Alvorada, Minas Gerais, Brazil
+  collection: FamilySearch Memories
+  catalogue_reference: >-
+    FamilySearch source SVMX-ZJ4; Memory artifact 101538413; storage identifier
+    TH-904-96953-4744-84
+  url: https://www.familysearch.org/en/memories/memory/101538413
+  repository_path: evidence/civil/SRC-0005-marriage-antenor-muniz-iris-bohrer-1949-reconstructed.png
+access_date: "2026-07-28"
+language: pt-BR
+transcription: >-
+  [The damaged certificate identifies the civil registry at Alvorada, Minas
+  Gerais.] [...] Antenor Muniz, de cor branca, estado civil solteiro, profissão
+  lavrador, [...] filho de Deocleciano Muniz e de Dona Luiza Fernandes de
+  Azevedo; [...] Iris Bohrer, de cor branca, [...] filha de João Gonçalves
+  Bohrer e de Dona Selina Bohrer. [...] passa a assinar Iris Bohrer Muniz.
+  Observações: Nada consta. [The marriage was recorded on 7 December 1949. The
+  certificate appears to have been issued at Alvorada on 11 August 1955.
+  Register details and several intervening fields are not safely legible.]
+abstract: >-
+  A damaged civil marriage certificate records the marriage of Antenor Muniz
+  and Iris Bohrer at Alvorada on 7 December 1949. It identifies Antenor's
+  parents as Deocleciano Muniz and Luiza Fernandes de Azevedo, and Iris's
+  parents as João Gonçalves Bohrer and Selina Bohrer. Antenor is recorded as a
+  farm worker, and the certificate states that Iris would thereafter sign Iris
+  Bohrer Muniz.
+reliability:
+  assessment: >-
+    Direct derivative evidence for the marriage, spouse names and married-name
+    form. The reported parents are secondary information but are directly
+    stated in the certificate.
+  informant: The spouses' declarations as entered in the marriage register.
+  limitations: >-
+    The photographed certificate is folded, taped, stained and partly obscured.
+    Book, page, record number and several vital-detail fields cannot be read
+    safely. The retained PNG is reconstructed from viewer tiles rather than the
+    originally uploaded JPEG.
+digital_file:
+  path: evidence/civil/SRC-0005-marriage-antenor-muniz-iris-bohrer-1949-reconstructed.png
+  sha256: 8cc99154ddcaf55a2793d1f11ba2ba8a5e09f514c5470f272cafb4d4ec66b001
+linked_people:
+- P-0006
+- P-0007
+- P-0012
+- P-0013
+- P-0014
+- P-0015
+linked_families:
+- F-0001
+- F-0004
+- F-0005
+linked_events:
+- E-0004
+linked_places:
+- PL-0004
+private: true
+notes:
+- text: >-
+    The document is attached as a user-created source on Antenor's FamilySearch
+    profile. Iris's profile had no attached sources when checked on 28 July
+    2026.
+- text: >-
+    The source and profile pages are navigation aids only. Conclusions above
+    rely on the certificate image, not collaborative Family Tree values.
+- text: >-
+    The image contains signatures and official stamps. Retain it only in this
+    private repository and exclude it from public derivatives.

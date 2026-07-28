@@ -66,10 +66,10 @@ people:
     next_action: Locate the 1923 civil birth registration.
     notes: []
   - record_type: marriage
-    status: lead_only
-    source_ids: []
+    status: catalogued
+    source_ids:
+    - SRC-0005
     last_reviewed: "2026-07-28"
-    next_action: Recover and catalogue the 1949 marriage record.
     notes: []
   - record_type: death
     status: lead_only
@@ -91,10 +91,10 @@ people:
     next_action: Locate the 1929 civil birth registration.
     notes: []
   - record_type: marriage
-    status: lead_only
-    source_ids: []
+    status: catalogued
+    source_ids:
+    - SRC-0005
     last_reviewed: "2026-07-28"
-    next_action: Recover and catalogue the 1949 marriage record.
     notes: []
   - record_type: death
     status: lead_only

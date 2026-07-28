@@ -4,10 +4,18 @@ preferred_name: Iris Bohrer Muniz
 privacy: deceased
 name_variants:
   - value: Iris Bohrer Muniz
-    type: source
+    type: married
     source_ids:
       - SRC-0003
-event_ids: []
-family_ids: []
+      - SRC-0005
+  - value: Iris Bohrer
+    type: source
+    source_ids:
+      - SRC-0005
+event_ids:
+  - E-0004
+family_ids:
+  - F-0004
+  - F-0005
 notes:
   - text: Ahnentafel position 7.

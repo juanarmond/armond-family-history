@@ -229,3 +229,19 @@ entry they amend; they must not erase it.
 - Architecture decision: defer assertion-level citation objects until five to
   ten more varied records show whether the added complexity is justified.
 - Next action: resume evidence ingestion with the 1949 Antenor–Iris marriage.
+
+## 2026-07-28 — Antenor–Iris marriage-record ingestion
+
+- Outcome: recovered and catalogued the damaged 7 December 1949 civil marriage
+  certificate of Antenor Muniz and Iris Bohrer from Antenor's user-created
+  FamilySearch source.
+- Detailed log:
+  [`logs/2026-07-28-familysearch-antenor-iris-marriage-ingestion.md`](logs/2026-07-28-familysearch-antenor-iris-marriage-ingestion.md).
+- Genealogical conclusions changed: the marriage, Iris's married-name form and
+  both spouses' reported parents now have catalogued direct evidence; each
+  relationship is `strong-evidence` because the retained document is a
+  derivative.
+- Negative result: Iris's FamilySearch profile had no attached sources.
+- Preservation limitation: folds, tape, stains and low contrast obscure
+  register details and several vital fields, which remain untranscribed.
+- Next action: inspect Liliosa Paz Armond's 1946 death evidence.

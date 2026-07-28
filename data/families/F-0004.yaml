@@ -1,0 +1,16 @@
+schema_version: 1
+id: F-0004
+partners:
+- person_id: P-0006
+  role: spouse
+- person_id: P-0007
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - SRC-0005
+  notes: []
+children: []
+event_ids:
+- E-0004
+notes: []

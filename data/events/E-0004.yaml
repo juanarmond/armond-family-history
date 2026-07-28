@@ -1,0 +1,24 @@
+schema_version: 1
+id: E-0004
+event_type: marriage
+date:
+  kind: exact
+  value: "1949-12-07"
+place_id: PL-0004
+participants:
+- person_id: P-0006
+  role: spouse
+- person_id: P-0007
+  role: spouse
+- person_id: P-0012
+  role: parent
+- person_id: P-0013
+  role: parent
+- person_id: P-0014
+  role: parent
+- person_id: P-0015
+  role: parent
+status: strong-evidence
+source_ids:
+- SRC-0005
+notes: []

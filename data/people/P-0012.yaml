@@ -7,8 +7,13 @@ name_variants:
     type: source
     source_ids:
       - SRC-0001
+  - value: Deocleciano Muniz
+    type: source
+    source_ids:
+      - SRC-0005
 event_ids:
   - E-0001
+  - E-0004
 family_ids:
   - F-0001
 notes: []

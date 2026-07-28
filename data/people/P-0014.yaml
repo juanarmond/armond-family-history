@@ -7,7 +7,10 @@ name_variants:
     type: source
     source_ids:
       - SRC-0003
-event_ids: []
-family_ids: []
+      - SRC-0005
+event_ids:
+  - E-0004
+family_ids:
+  - F-0005
 notes:
   - text: Ahnentafel position 14.

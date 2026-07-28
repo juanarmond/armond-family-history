@@ -1,0 +1,25 @@
+schema_version: 1
+id: F-0005
+partners:
+- person_id: P-0014
+  role: parent
+- person_id: P-0015
+  role: parent
+children:
+- person_id: P-0007
+  parent_relationships:
+  - parent_id: P-0014
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - SRC-0005
+    notes: []
+  - parent_id: P-0015
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - SRC-0005
+    notes: []
+  notes: []
+event_ids: []
+notes: []

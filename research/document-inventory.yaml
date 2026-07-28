@@ -128,3 +128,44 @@ documents:
         The handwritten entry number appears to be 39005, while the
         FamilySearch index reports certificate 39006. Both readings are
         retained pending independent examination.
+  - inventory_id: DOC-0004
+    status: catalogued
+    added_date: "2026-07-28"
+    apparent_record_type: Civil marriage certificate
+    apparent_people:
+      - Antenor Muniz
+      - Iris Bohrer
+      - Deocleciano Muniz
+      - Luiza Fernandes de Azevedo
+      - João Gonçalves Bohrer
+      - Selina Bohrer
+    apparent_event: marriage
+    image_quality: partly-illegible
+    provenance: >-
+      FamilySearch source SVMX-ZJ4 titled "Certidao de Casamento", attached to
+      Antenor Muniz profile GQVM-HXH and created by JuanArmond on 23 February
+      2020. Attached Memory artifact 101538413, uploaded as
+      6AB39E11-67F4-40E0-B6B6-D1BFA572C4C0.jpg on 23 February 2020;
+      FamilySearch storage identifier TH-904-96953-4744-84. Accessed
+      28 July 2026 through the authenticated viewer. Iris Bohrer profile
+      GQJ1-HG4 had no attached sources.
+    rights_status: private-research
+    files:
+      - path: evidence/civil/SRC-0005-marriage-antenor-muniz-iris-bohrer-1949-reconstructed.png
+        sha256: 8cc99154ddcaf55a2793d1f11ba2ba8a5e09f514c5470f272cafb4d4ec66b001
+        media_type: image/png
+        role: primary
+        privacy_review: cleared
+        sensitive_content:
+          - signature
+    duplicate_of: null
+    proposed_source_id: SRC-0005
+    notes:
+      - >-
+        Reconstructed from all twelve level-10 Deep Zoom tiles exposed by the
+        FamilySearch viewer. One-pixel overlaps were removed to produce a
+        612×816 PNG without cropping, enhancement or added content.
+      - >-
+        The certificate is folded, taped, stained and partly obscured. Unsafe
+        readings remain omitted rather than supplied from the collaborative
+        profile or earlier assistant transcriptions.

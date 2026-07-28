@@ -73,3 +73,6 @@ also remain traceable through source records and research logs.
   co-parents from sourced partners, enforce inventory-to-source file checksum
   consistency, and add a validated missing-record coverage ledger for deceased
   direct ancestors.
+- Recover and catalogue the 1949 marriage certificate of Antenor Muniz and
+  Iris Bohrer; add its private reconstructed image, source-qualified marriage,
+  married-name form and reported parent-child relationships.

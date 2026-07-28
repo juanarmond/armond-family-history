@@ -10,7 +10,22 @@ partner_relationship:
   source_ids:
     - SRC-0001
   notes: []
-children: []
+children:
+  - person_id: P-0006
+    parent_relationships:
+      - parent_id: P-0012
+        relationship_type: unknown
+        status: strong-evidence
+        source_ids:
+          - SRC-0005
+        notes: []
+      - parent_id: P-0013
+        relationship_type: unknown
+        status: strong-evidence
+        source_ids:
+          - SRC-0005
+        notes: []
+    notes: []
 event_ids:
   - E-0001
 notes: []

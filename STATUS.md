@@ -6,18 +6,18 @@
 
 ## Current objective
 
-Resume the authorised FamilySearch evidence audit using the validated
-person-by-record coverage ledger. Begin with the 7 December 1949 marriage of
-Antenor Muniz and Iris Bohrer Muniz; if it cannot be recovered, record the
-negative or inaccessible search and continue with the clearest high-priority
-death registration.
+Continue the authorised FamilySearch evidence audit using the validated
+person-by-record coverage ledger. Inspect Liliosa Paz Armond's Sources and
+Memories for her 1946 death registration, prioritising evidence that may
+establish her original surname or parents.
 
-The former human-intervention blocker is partially resolved. Two certified
-marriage records and one original death-register entry have been recovered from
-the authorised FamilySearch account and catalogued. The original ChatGPT
-conversation still refers to 24 image attachments whose binaries and metadata
-were not carried into the imported transcript. The exact one-to-one attachment
-mapping cannot be reconstructed from the transcript alone.
+The former human-intervention blocker is partially resolved. Three civil
+marriage certificates and one original death-register entry have been
+recovered from the authorised FamilySearch account and catalogued. The
+original ChatGPT conversation still refers to 24 image attachments whose
+binaries and metadata were not carried into the imported transcript. The exact
+one-to-one attachment mapping cannot be reconstructed from the transcript
+alone.
 
 ### Completion criteria
 
@@ -35,12 +35,11 @@ mapping cannot be reconstructed from the transcript alone.
 
 After the model review, continue the authorised evidence audit in this order:
 
-1. the marriages of Geraldo Paz Armond and Cidalia Engracio Guimarães, and of
-   Antenor Muniz and Iris Bohrer Muniz;
-2. the clearest relevant death registrations;
-3. the civil registration naming the parents of Francisco José de Carvalho
+1. death registrations for Liliosa Paz Armond, Aristão Ferreira Armond and
+   other high-priority deceased direct ancestors;
+2. the civil registration naming the parents of Francisco José de Carvalho
    Guimarães and Emmerenciana Maria de Jesus; and
-4. identity documents and screenshots only after explicit privacy review.
+3. identity documents and screenshots only after explicit privacy review.
 
 This order reflects evidential value; it does not promote any uncatalogued
 claim to confirmed.
@@ -101,6 +100,16 @@ claim to confirmed.
 - `research/record-coverage.yaml` is the canonical operational matrix for
   missing vital records of deceased direct ancestors. FamilySearch profile IDs
   in that file are navigation leads only, and living people are excluded.
+- The fourth document intake recovered the damaged 7 December 1949 marriage
+  certificate of Antenor Muniz and Iris Bohrer. It is inventoried as
+  `DOC-0004`, catalogued as `SRC-0005`, and retained as a private reconstructed
+  PNG.
+- That certificate supplies direct evidence of the marriage and Iris's
+  married-name form, and directly states the parents of both spouses. The
+  conclusions remain `strong-evidence` because the certificate and repository
+  image are derivatives.
+- Antenor's FamilySearch profile had the certificate attached as a user-created
+  source; Iris's profile had no attached sources when reviewed.
 - The initial direct-ancestor person block now follows Ahnentafel order:
   `P-0001` is the repository subject, `P-0002` and `P-0003` are his parents,
   and positions through `P-0015` cover the known grandparents and
@@ -170,14 +179,17 @@ claim to confirmed.
 - Parents: Deocleciano Muniz Bittencourt and Luiza Fernandes de Azevedo.
 - Spouse: Iris Bohrer Muniz.
 - Marriage: 7 December 1949 in Alvorada, Minas Gerais, Brazil.
-- Status: confirmed by family documents; source catalogue pending.
+- Status: marriage and reported parentage are supported by catalogued direct
+  evidence in `SRC-0005`; birth and death records remain pending.
 
 ### Iris Bohrer Muniz
 
 - Born: 27 February 1929 in Minas Gerais, Brazil.
 - Died: 2021.
 - Parents: João Gonçalves Bohrer and Selina Bohrer.
-- Status: confirmed by family documents; full dates and places require source cataloguing.
+- Status: marriage, married-name form and reported parentage are supported by
+  catalogued direct evidence in `SRC-0005`; birth and death records remain
+  pending.
 
 ## Great-grandparents and earlier lines
 
@@ -253,14 +265,17 @@ claim to confirmed.
 - Died: 1959.
 - Married Luiza Fernandes de Azevedo on 21 October 1916 in Carangola, Minas Gerais, Brazil.
 - Parents: João Muniz Bittencourt and Suzana Ritta Brandão.
-- Status: confirmed by marriage record previously examined.
+- Status: his own marriage is supported by `SRC-0001`; Antenor's 1949 marriage
+  certificate reports him as Antenor's father in `SRC-0005`.
 
 ### Luiza Fernandes de Azevedo
 
 - Born: about 1898 in Bom Jesus da Cachoeira Alegre, then in the municipality of São Paulo do Muriaé, Minas Gerais, Brazil.
 - Died: 1 July 1986, according to the family tree currently used as a lead.
 - Parents: Secundino Maria de Azevedo and Theresa Fernandes de Azevedo.
-- Status: parentage confirmed by marriage record; exact birth and death facts require primary-source cataloguing.
+- Status: her parentage is supported by `SRC-0001`; Antenor's 1949 marriage
+  certificate reports her as Antenor's mother in `SRC-0005`. Exact birth and
+  death facts require primary-source cataloguing.
 
 ### João Muniz Bittencourt
 
@@ -282,7 +297,8 @@ claim to confirmed.
 - Spouse: Selina Bohrer.
 - Parents: the death record was read as Valentim Martinho Bohrer and Carolina Bohrer, but both names require a fresh high-resolution transcription before final confirmation.
 - Occupation: merchant.
-- Status: identity and spouse confirmed; parental transcription provisional.
+- Status: Iris's 1949 marriage certificate reports him as her father in
+  `SRC-0005`; his own vital events and parental transcription remain pending.
 
 ### Selina Bohrer
 
@@ -290,7 +306,8 @@ claim to confirmed.
 - Died: 11 February 1987.
 - Spouse: João Gonçalves Bohrer.
 - Parents: Joaquim José Bohrer and Lucinda Ferreira da Silva Bohrer.
-- Status: supported by death record previously examined; source catalogue pending.
+- Status: Iris's 1949 marriage certificate reports her as Iris's mother in
+  `SRC-0005`; Selina's own death record remains to be catalogued.
 
 ### Joaquim José Bohrer
 
