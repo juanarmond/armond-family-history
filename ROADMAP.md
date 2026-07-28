@@ -14,7 +14,8 @@ cost and long-term architecture impact.
 | P2 | Refactor the monolithic validator into focused modules | Medium, approximately one engineering sprint | Easier testing and safer rule additions | Complete |
 | P2 | Add safe ID allocation and entity-skeleton automation | Medium | Removes manual ledger and filename errors | Complete |
 | P2 | Add validated batch promotion for reserved drafts | Medium | Keeps mutually dependent first entities valid during promotion | Complete |
-| P2 | Enforce repository health checks in GitHub Actions | Low | Prevents unvalidated changes from merging | Complete |
+| P2 | Run repository health checks in GitHub Actions | Low | Surfaces invalid pushed and pull-request changes | Complete |
+| P2 | Require the health check in GitHub branch rules | Low; repository-admin setting | Prevents failed checks from merging | Blocked by external configuration |
 | P3 | Resume direct-ancestor research in `TASKS.md` order | Ongoing research | Advances genealogy without bypassing evidence gates | Blocked by existing-evidence gate |
 | P4 | Generate profiles, timelines and privacy-filtered exports | Medium to high | Reproducible derived views after schema stability | Deferred |
 
@@ -35,6 +36,7 @@ live data ingestion:
    integrity checks.
 
 Identifier allocation and mutually dependent promotion are recoverable, and
-the complete frozen check is enforced by GitHub Actions. The next model review
+the complete frozen check runs in GitHub Actions. It remains advisory until a
+repository administrator requires it in branch rules. The next model review
 must be driven by real original records rather than more speculative
 abstraction.

@@ -83,7 +83,8 @@ entry they amend; they must not erase it.
 
 - Outcome: added a read-only GitHub Actions workflow for Python 3.11 and 3.13,
   pinned all executable actions and uv, cancelled superseded runs, and tested
-  the workflow contract locally.
+  the workflow contract locally. Merge blocking still requires an external
+  GitHub branch-rule setting.
 - Research evidence added: none.
 - Genealogical conclusions changed: none.
 - Next action: obtain authorised, privacy-reviewed copies of the previously

@@ -79,6 +79,7 @@
 - [x] Add safe ID reservation and entity-skeleton automation.
 - [x] Add validated batch promotion for completed reserved entity drafts.
 - [x] Run the full repository checks automatically on GitHub pushes and pull requests.
+- [ ] Require the repository-health check in GitHub branch rules.
 - [ ] Add a script to generate human-readable person pages from YAML.
 - [ ] Add a GEDCOM export only after the core schema and evidence model are stable.
 - [x] Add automated checks preventing unsupported `confirmed` relationships.
