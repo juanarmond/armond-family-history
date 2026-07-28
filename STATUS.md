@@ -27,6 +27,22 @@ privacy and conflict workflows.
 - Review the schema against the resulting real data before wider ingestion.
 - Run the complete repository check before committing.
 
+### Candidate processing order
+
+Subject to image quality and privacy review, begin with:
+
+1. the 21 October 1916 marriage of Deocleciano Muniz Bittencourt and Luiza
+   Fernandes de Azevedo;
+2. the marriages of Geraldo Paz Armond and Cidalia Engracio Guimarães, and of
+   Antenor Muniz and Iris Bohrer Muniz;
+3. the clearest relevant death registrations;
+4. the civil registration naming the parents of Francisco José de Carvalho
+   Guimarães and Emmerenciana Maria de Jesus; and
+5. identity documents and screenshots only after explicit privacy review.
+
+This order reflects evidential value; it does not promote any uncatalogued
+claim to confirmed.
+
 ## Repository status
 
 - 28 July 2026 repository audit: no certificate image, identity document,
@@ -39,6 +55,8 @@ privacy and conflict workflows.
   promotion workflow are complete.
 - Root documentation has four canonical files; research policy and session
   history live together under `research/`.
+- The source-intake sequence is maintained with the active objective rather
+  than in a separate task-specific plan.
 - The frozen repository check runs locally and in GitHub Actions. Requiring it
   in branch rules remains an external repository-administration task.
 - No live entity or structured source record has been added.

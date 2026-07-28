@@ -112,3 +112,14 @@ entry they amend; they must not erase it.
 - Genealogical conclusions changed: none.
 - Next action: unchanged; obtain authorised, privacy-reviewed document copies
   for the first three source records.
+
+## 2026-07-28 — Research workspace consolidation
+
+- Outcome: reviewed every file under `research/`, retained the distinct policy,
+  intake-inventory, cumulative-history and detailed-session responsibilities,
+  and removed the task-specific cataloguing plan after moving its unique record
+  order into `STATUS.md`.
+- Research evidence added: none.
+- Genealogical conclusions changed: none.
+- Next action: unchanged; obtain authorised, privacy-reviewed document copies
+  for the first three source records.

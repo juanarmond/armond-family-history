@@ -56,7 +56,7 @@ Each concern has one owner:
 ├── CHANGELOG.md
 ├── data/          # structured YAML and ID reservations
 ├── evidence/      # authorised source files, added only when available
-├── research/      # policy, cumulative log, session logs and intake planning
+├── research/      # policy, intake inventory and reproducible session history
 ├── schemas/       # JSON Schemas
 ├── scripts/       # validation and entity lifecycle commands
 ├── templates/     # canonical entity and research templates

@@ -40,3 +40,6 @@ also remain traceable through source records and research logs.
   state and planning into `STATUS.md`, and research policy and history under
   `research/`; add checks for root-document ownership and broken local Markdown
   links.
+- Remove the duplicate document-cataloguing plan after retaining its unique
+  source-processing order in `STATUS.md`; keep research policy, inventory and
+  reproducible history as separate canonical artifacts.
