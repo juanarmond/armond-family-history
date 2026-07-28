@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Armond Family History</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">Private research archive</p>
+      <h1>Armond Family History</h1>
+      <p class="subtitle">Evidence-led ancestral tree generated directly from the repository's validated YAML records.</p>
+    </div>
+    <div class="header-mark" aria-hidden="true">AFH</div>
+  </header>
+
+  <main>
+    <section class="toolbar" aria-label="Tree controls">
+      <label>
+        <span>Start person</span>
+        <select id="root-person"></select>
+      </label>
+
+      <label>
+        <span>Generations</span>
+        <select id="generation-limit">
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4" selected>4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
+      </label>
+
+      <label class="search-field">
+        <span>Find a person</span>
+        <input id="person-search" type="search" placeholder="Search by name" autocomplete="off">
+      </label>
+
+      <label class="toggle-row">
+        <input id="show-hypotheses" type="checkbox" checked>
+        <span>Show hypotheses</span>
+      </label>
+
+      <button id="reset-view" type="button">Reset view</button>
+    </section>
+
+    <section class="summary" aria-label="Repository summary">
+      <article><strong id="person-count">—</strong><span>people</span></article>
+      <article><strong id="family-count">—</strong><span>families</span></article>
+      <article><strong id="source-count">—</strong><span>sources</span></article>
+      <article><strong id="visible-count">—</strong><span>visible nodes</span></article>
+    </section>
+
+    <section class="legend" aria-label="Evidence legend">
+      <span><i class="line confirmed"></i>Confirmed</span>
+      <span><i class="line strong-evidence"></i>Strong evidence</span>
+      <span><i class="line hypothesis"></i>Hypothesis</span>
+      <span><i class="line unknown"></i>Unspecified</span>
+    </section>
+
+    <section class="tree-shell">
+      <div id="loading" class="loading" role="status">Loading the family archive…</div>
+      <div id="error" class="error" role="alert" hidden></div>
+      <div id="tree" class="tree" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <aside id="details-panel" class="details-panel" aria-labelledby="details-title" hidden>
+    <button id="close-details" class="close-button" type="button" aria-label="Close person details">×</button>
+    <p id="details-id" class="eyebrow"></p>
+    <h2 id="details-title"></h2>
+    <p id="details-lifespan" class="details-lifespan"></p>
+    <div id="details-content"></div>
+  </aside>
+  <div id="panel-backdrop" class="panel-backdrop" hidden></div>
+
+  <footer>
+    Read-only static visualisation. Repository YAML remains the canonical source of truth.
+  </footer>
+
+  <script type="module" src="static-api.js"></script>
+</body>
+</html>

@@ -17,7 +17,8 @@ name_variants:
       - SRC-0015
     note: Italian civil-register ordering; not a different identity.
 event_ids: []
-family_ids: []
+family_ids:
+  - F-0011
 notes:
   - text: >-
       Repository subject and Ahnentafel position 1. Private civil sources are

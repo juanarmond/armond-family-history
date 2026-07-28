@@ -1,0 +1,29 @@
+schema_version: 1
+id: F-0011
+partners:
+- person_id: P-0002
+  role: parent
+- person_id: P-0003
+  role: parent
+children:
+- person_id: P-0001
+  parent_relationships:
+  - parent_id: P-0002
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - SRC-0011
+    notes: []
+  - parent_id: P-0003
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - SRC-0011
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    This family group records the parents named on Juan Carlos Muniz Armond's
+    certified birth certificate. It does not independently assert a marriage or
+    partnership between them.

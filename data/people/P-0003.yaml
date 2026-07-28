@@ -11,6 +11,8 @@ name_variants:
       - SRC-0012
       - SRC-0013
 event_ids: []
-family_ids: []
+family_ids:
+  - F-0004
+  - F-0011
 notes:
   - text: Ahnentafel position 3.

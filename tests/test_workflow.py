@@ -23,7 +23,7 @@ class WorkflowTests(unittest.TestCase):
         workflow_files = sorted(
             path.name for path in WORKFLOW_PATH.parent.glob("*.yml")
         )
-        self.assertEqual(["check.yml"], workflow_files)
+        self.assertEqual(["check.yml", "static.yml"], workflow_files)
         workflow = self.load_workflow()
         self.assertEqual({"contents": "read"}, workflow["permissions"])
         self.assertEqual(True, workflow["concurrency"]["cancel-in-progress"])

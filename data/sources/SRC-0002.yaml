@@ -60,8 +60,11 @@ digital_file:
 linked_people:
   - P-0004
   - P-0005
+  - P-0010
+  - P-0011
 linked_families:
   - F-0002
+  - F-0012
 linked_events:
   - E-0002
 linked_places:

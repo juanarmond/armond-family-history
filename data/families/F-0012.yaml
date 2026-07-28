@@ -1,0 +1,33 @@
+schema_version: 1
+id: F-0012
+partners:
+- person_id: P-0010
+  role: parent
+- person_id: P-0011
+  role: parent
+children:
+- person_id: P-0005
+  parent_relationships:
+  - parent_id: P-0010
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - SRC-0002
+    notes: []
+  - parent_id: P-0011
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - SRC-0002
+    notes: []
+  notes:
+  - text: >-
+      Cidalia's damaged civil marriage certificate names Antonio Engracio Filho
+      and Maria Aurora Guimarães as her parents. Portions of the parentage lines
+      are obscured, so the relationships remain strong evidence rather than
+      confirmed.
+event_ids: []
+notes:
+- text: >-
+    This family group records the two people reported as Cidalia's parents. It
+    does not independently assert a marriage or partnership between them.

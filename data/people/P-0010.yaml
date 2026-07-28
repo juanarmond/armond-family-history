@@ -7,8 +7,10 @@ name_variants:
     type: source
     source_ids:
       - SRC-0003
+      - SRC-0002
 event_ids: []
-family_ids: []
+family_ids:
+  - F-0012
 notes:
   - text: >-
       Ahnentafel position 10. Exact spelling and diacritics require

@@ -53,7 +53,10 @@ linked_people:
   - P-0005
   - P-0006
   - P-0007
-linked_families: []
+linked_families:
+  - F-0002
+  - F-0004
+  - F-0011
 linked_events: []
 linked_places: []
 private: true
@@ -66,4 +69,3 @@ notes:
       FamilySearch's authorised Download action supplied the exact uploaded
       one-page PDF. No screenshot, thumbnail, image conversion or upscaled
       derivative is retained.
-

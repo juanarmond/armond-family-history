@@ -11,7 +11,9 @@ name_variants:
       - SRC-0012
       - SRC-0013
 event_ids: []
-family_ids: []
+family_ids:
+  - F-0002
+  - F-0011
 notes:
   - text: >-
       Ahnentafel position 2. Preserve the spelling Igracio exactly as supplied

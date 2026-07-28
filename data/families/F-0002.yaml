@@ -10,7 +10,26 @@ partner_relationship:
   source_ids:
   - SRC-0002
   notes: []
-children: []
+children:
+- person_id: P-0002
+  parent_relationships:
+  - parent_id: P-0004
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - SRC-0011
+    notes: []
+  - parent_id: P-0005
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - SRC-0011
+    notes: []
+  notes:
+  - text: >-
+      Juan Carlos Muniz Armond's certified birth certificate reports Geraldo Paz
+      Armond and Cidalia Igracio Armond as the paternal grandparents, providing
+      direct reported evidence for this parentage.
 event_ids:
 - E-0002
 notes: []

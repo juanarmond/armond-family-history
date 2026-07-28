@@ -10,7 +10,26 @@ partner_relationship:
   source_ids:
   - SRC-0005
   notes: []
-children: []
+children:
+- person_id: P-0003
+  parent_relationships:
+  - parent_id: P-0006
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - SRC-0011
+    notes: []
+  - parent_id: P-0007
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - SRC-0011
+    notes: []
+  notes:
+  - text: >-
+      Juan Carlos Muniz Armond's certified birth certificate reports Antenor
+      Muniz and Iris Bohrer Muniz as the maternal grandparents, providing direct
+      reported evidence for this parentage.
 event_ids:
 - E-0004
 notes: []
