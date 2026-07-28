@@ -1,0 +1,16 @@
+schema_version: 1
+id: E-0001
+event_type: marriage
+date:
+  kind: exact
+  value: "1916-10-21"
+place_id: PL-0001
+participants:
+  - person_id: P-0001
+    role: spouse
+  - person_id: P-0002
+    role: spouse
+status: strong-evidence
+source_ids:
+  - SRC-0001
+notes: []

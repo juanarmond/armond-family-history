@@ -1,2 +1,38 @@
 version: 1
-documents: []
+documents:
+  - inventory_id: DOC-0001
+    status: catalogued
+    added_date: "2026-07-28"
+    apparent_record_type: Certified civil marriage record
+    apparent_people:
+      - Deocleciano Muniz Bittencourt
+      - Luiza Fernandes de Azevedo
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      FamilySearch Memory titled "Certidão de Casamento Deocleciano e Luiza",
+      attached to profiles GQVM-3QD and GQVM-4YJ, uploaded 24 July 2019.
+      FamilySearch storage identifier TH-904-91822-179-82; accessed
+      28 July 2026 through the authenticated memory viewer.
+    rights_status: private-research
+    files:
+      - path: evidence/civil/SRC-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-reconstructed.png
+        sha256: 3444e92ef729f2e76a54ea7ace3f5611cd4509457a9ffb4dee59f537bc46c248
+        media_type: image/png
+        role: primary
+        privacy_review: cleared
+        sensitive_content:
+          - address
+          - signature
+    duplicate_of: null
+    proposed_source_id: SRC-0001
+    notes:
+      - >-
+        Reconstructed from the complete set of fifteen level-11 Deep Zoom JPEG
+        tiles exposed by the FamilySearch viewer. The PNG preserves the decoded
+        tile pixels after removal of one-pixel tile overlaps; it is not the
+        originally uploaded JPEG.
+      - >-
+        The issuing registrar's signature and office contact details are
+        retained because they form part of the certificate's authentication.
+        The file is private and must not be included in public exports.

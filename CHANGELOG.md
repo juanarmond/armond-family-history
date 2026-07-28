@@ -48,3 +48,9 @@ also remain traceable through source records and research logs.
   promoting them, and identify its 24 unavailable image attachments as the
   primary transfer gap; downgrade Aristão's proposed parentage to `hypothesis`
   because collaborative-tree support alone cannot establish `strong-evidence`.
+- Recover and catalogue the first authorised record from FamilySearch
+  Memories: the certified 1916 marriage of Deocleciano Muniz Bittencourt and
+  Luiza Fernandes de Azevedo; add its private reconstructed image, inventory
+  provenance, checksum and six directly required linked entities.
+- Fix prospective entity promotion so the default command-line workflow uses
+  the repository schemas, and cover the previously untested path.

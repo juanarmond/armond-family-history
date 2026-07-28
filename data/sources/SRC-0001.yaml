@@ -1,0 +1,81 @@
+schema_version: 1
+id: SRC-0001
+title: >-
+  Certified marriage record of Deocleciano Muniz Bittencourt and Luiza
+  Fernandes de Azevedo
+record_type: Civil marriage certificate
+record_category: civil_registration
+source_form: derivative
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1916-10-21"
+event_place_text: Carangola, Minas Gerais, Brazil
+repository:
+  name: FamilySearch Memories
+  archive_or_registry: >-
+    Civil Registry Office, District of the City of Carangola, Minas Gerais,
+    Brazil
+  collection: FamilySearch Memories
+  book: "8"
+  page: 118-v
+  record_number: "62"
+  catalogue_reference: FamilySearch memory storage ID TH-904-91822-179-82
+  url: https://www.familysearch.org/en/tree/person/memories/GQVM-3QD
+  repository_path: evidence/civil/SRC-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-reconstructed.png
+access_date: "2026-07-28"
+language: pt-BR
+transcription: >-
+  Eu, AILTON LOPES FERREIRA, Escrivão de Paz e Oficial de Registro Civil do
+  Distrito da Cidade de Carangola, Estado de Minas Gerais, Brasil, na forma da
+  lei, etc. CERTIFICO que no livro nº 8 de registro de Casamentos, às fls 118-v
+  sob o nº 62, consta o de DEOCLECIANO MUNIZ BITTENCOURT com LUIZA FERNANDES DE
+  AZEVEDO. Solteiros. Ele, nascido em Sapucaia Estado do Rio de Janeiro, com
+  vinte e quatro anos de idade, filho de João Muniz Bittencourt e de Suzana
+  Ritta Brandão. Ela, nascida em Bom Jesus da Cachoeira Alegre Município de São
+  Paulo do Muriaé, com dezoito anos de idade, filha de Secundino Maria de
+  Azevedo e de Theresa Fernandes de Azevedo. A contraente passou assinar: Não
+  consta do termo. O regime adotado é o de Comunhão de Bens. Casamento esse
+  realizado em vinte e um de outubro de mil novecentos e dezesseis. O referido
+  é verdade e dou fé. Carangola, 06 de janeiro de 2004.
+abstract: >-
+  A certified copy issued on 6 January 2004 states that Deocleciano Muniz
+  Bittencourt and Luiza Fernandes de Azevedo, both single, married in Carangola
+  on 21 October 1916. Deocleciano, aged 24 and born in Sapucaia, Rio de
+  Janeiro, was a son of João Muniz Bittencourt and Suzana Ritta Brandão. Luiza,
+  aged 18 and born in Bom Jesus da Cachoeira Alegre in the municipality of São
+  Paulo do Muriaé, was a daughter of Secundino Maria de Azevedo and Theresa
+  Fernandes de Azevedo.
+reliability:
+  assessment: >-
+    Direct evidence for the marriage event and contemporary evidence for each
+    spouse's name, age, birthplace and reported parentage.
+  informant: The spouses' declarations as entered in the 1916 marriage register.
+  limitations: >-
+    This is a 2004 certified derivative rather than an image of the 1916
+    register entry. The repository file was reconstructed from FamilySearch
+    Deep Zoom tiles and is not the originally uploaded JPEG.
+digital_file:
+  path: evidence/civil/SRC-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-reconstructed.png
+  sha256: 3444e92ef729f2e76a54ea7ace3f5611cd4509457a9ffb4dee59f537bc46c248
+linked_people:
+  - P-0001
+  - P-0002
+linked_families:
+  - F-0001
+linked_events:
+  - E-0001
+linked_places:
+  - PL-0001
+private: true
+notes:
+  - text: >-
+      FamilySearch displays this document as an uploaded Memory rather than an
+      attached source. The profile's only attached source concerns a 1983 civil
+      record for a child and does not support this 1916 marriage directly.
+  - text: >-
+      The certificate includes the issuing registrar's signature and office
+      contact details. Retain only in this private repository and exclude from
+      public derivatives.

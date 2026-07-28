@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import copy
+import shutil
 import tempfile
 import unittest
 from pathlib import Path
@@ -237,6 +238,16 @@ class NewEntityTests(unittest.TestCase):
             (self.fixture.root / "research/entity-drafts/P-0001.yaml").is_file()
         )
         self.assertFalse((self.fixture.root / "data/people/P-0001.yaml").exists())
+
+    def test_promotion_uses_repository_schemas_by_default(self) -> None:
+        shutil.copytree(SCHEMA_DIR, self.fixture.root / "schemas")
+        self.fixture.write_linked_person_and_source_drafts()
+        result = promote_entities(
+            self.fixture.root,
+            ["P-0001", "SRC-0001"],
+            dry_run=True,
+        )
+        self.assertTrue(result.dry_run)
 
     def test_invalid_promotion_leaves_live_repository_unchanged(self) -> None:
         self.fixture.write_linked_person_and_source_drafts(valid_person=False)

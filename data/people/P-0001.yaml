@@ -1,0 +1,14 @@
+schema_version: 1
+id: P-0001
+preferred_name: Deocleciano Muniz Bittencourt
+privacy: deceased
+name_variants:
+  - value: Deocleciano Muniz Bittencourt
+    type: source
+    source_ids:
+      - SRC-0001
+event_ids:
+  - E-0001
+family_ids:
+  - F-0001
+notes: []

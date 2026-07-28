@@ -6,18 +6,16 @@
 
 ## Current objective
 
-Obtain authorised, privacy-reviewed copies of the documents previously supplied
-and catalogue the first three clearest original records.
+Recover, privacy-review and catalogue two more of the clearest original records
+from the authorised FamilySearch account, then review the schema against the
+three-record evidence sample.
 
-This is blocked on human intervention: no source image or document exists in
-the worktree, Git history or Git LFS. Further abstraction without real records
-would optimise an untested model. Three representative original records are the
-minimum useful evidence sample for testing source, person, event, family, place,
-privacy and conflict workflows.
-
-The original ChatGPT conversation refers to 24 image attachments across ten
-messages. Their contents and metadata are not available through the imported
-transcript or this checkout.
+The former human-intervention blocker is partially resolved. One certified
+marriage record has been recovered from FamilySearch Memories and catalogued,
+but the original ChatGPT conversation still refers to 24 image attachments
+whose binaries and metadata were not carried into the imported transcript.
+The exact one-to-one attachment mapping cannot be reconstructed from the
+transcript alone.
 
 ### Completion criteria
 
@@ -25,8 +23,9 @@ transcript or this checkout.
   provenance and cleared privacy review.
 - Reconcile recovered files against the conversation-transfer audit without
   trusting earlier assistant transcriptions.
-- Catalogue three distinct original records as structured sources with exact
-  citations, abstracts, reliability assessments and retained conflicts.
+- Catalogue two additional distinct original records as structured sources
+  with exact citations, abstracts, reliability assessments and retained
+  conflicts.
 - Create only the people, events, families and places directly required by
   those records.
 - Use reserved drafts and validated batch promotion.
@@ -37,25 +36,34 @@ transcript or this checkout.
 
 Subject to image quality and privacy review, begin with:
 
-1. the 21 October 1916 marriage of Deocleciano Muniz Bittencourt and Luiza
-   Fernandes de Azevedo;
-2. the marriages of Geraldo Paz Armond and Cidalia Engracio Guimarães, and of
+1. the marriages of Geraldo Paz Armond and Cidalia Engracio Guimarães, and of
    Antenor Muniz and Iris Bohrer Muniz;
-3. the clearest relevant death registrations;
-4. the civil registration naming the parents of Francisco José de Carvalho
+2. the clearest relevant death registrations;
+3. the civil registration naming the parents of Francisco José de Carvalho
    Guimarães and Emmerenciana Maria de Jesus; and
-5. identity documents and screenshots only after explicit privacy review.
+4. identity documents and screenshots only after explicit privacy review.
 
 This order reflects evidential value; it does not promote any uncatalogued
 claim to confirmed.
 
 ## Repository status
 
-- 28 July 2026 repository audit: no certificate image, identity document,
-  screenshot or structured source record is present in the worktree, Git
-  history or Git LFS. References below to documents previously examined remain
-  uncatalogued narrative summaries until authorised copies are added.
-- No genealogical conclusion was changed by this negative repository search.
+- 28 July 2026 FamilySearch intake: recovered a certified copy of the 21
+  October 1916 marriage record for Deocleciano Muniz Bittencourt and Luiza
+  Fernandes de Azevedo from FamilySearch Memories. It is inventoried as
+  `DOC-0001`, catalogued as `SRC-0001`, and retained as a private reconstructed
+  PNG with checksum and provenance.
+- The retained file is a derivative reconstructed from the complete Deep Zoom
+  tile set rather than the originally uploaded JPEG. The marriage and partner
+  relationship are therefore `strong-evidence`, not `confirmed`, under the
+  repository's evidence-status policy.
+- The intake created the first live entities: two people, one family, one
+  marriage event, one place and one source.
+- FamilySearch attaches only a 1983 civil record concerning a child as a formal
+  source to each spouse. The 1916 certificate was stored as a Memory and had
+  not been attached as a source.
+- The intake exposed and fixed the promotion command's failure to locate
+  repository schemas during default command-line prospective validation.
 - The versioned YAML model, evidence intake contract, controlled relationship
   vocabularies, modular validator, recoverable ID allocation and batch
   promotion workflow are complete.
@@ -65,7 +73,8 @@ claim to confirmed.
   than in a separate task-specific plan.
 - The frozen repository check runs locally and in GitHub Actions. Requiring it
   in branch rules remains an external repository-administration task.
-- No live entity or structured source record has been added.
+- One structured source record and its five directly required linked entities
+  are live.
 - The original ChatGPT conversation has been audited. Its direct-ancestor
   conclusions were largely preserved, and missing transcript-only leads and
   correction history are now recorded without being promoted to evidence.

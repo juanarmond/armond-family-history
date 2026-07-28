@@ -290,6 +290,7 @@ def _validate_prospective_promotion(
     batch: list[tuple[str, str, EntityConfig, Path, Path]],
     updated_ledger: dict[str, Any],
 ) -> tuple[str, ...]:
+    resolved_schema_dir = schema_dir or root / "schemas"
     with tempfile.TemporaryDirectory(
         dir=root, prefix=".promotion-preview-"
     ) as temporary_name:
@@ -317,7 +318,9 @@ def _validate_prospective_promotion(
             yaml.safe_dump(updated_ledger, sort_keys=False, allow_unicode=True),
             encoding="utf-8",
         )
-        validation = validate_repository(staging_root, schema_dir=schema_dir)
+        validation = validate_repository(
+            staging_root, schema_dir=resolved_schema_dir
+        )
         if validation.errors:
             details = "\n".join(issue.render() for issue in validation.errors[:20])
             raise AllocationError(

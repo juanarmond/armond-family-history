@@ -138,3 +138,20 @@ entry they amend; they must not erase it.
   available support is limited to collaborative-tree and transcript leads.
 - Next action: recover and privacy-review the original attachments before
   creating source or person entities.
+
+## 2026-07-28 — First FamilySearch document ingestion
+
+- Outcome: recovered the certified 21 October 1916 marriage record of
+  Deocleciano Muniz Bittencourt and Luiza Fernandes de Azevedo from
+  FamilySearch Memories, reconstructed the complete viewer image, completed
+  privacy and provenance review, and promoted the first six linked entities.
+- Detailed log:
+  [`logs/2026-07-28-familysearch-marriage-record-ingestion.md`](logs/2026-07-28-familysearch-marriage-record-ingestion.md).
+- Genealogical conclusions changed: the marriage, spouses' ages and
+  birthplaces, and their four named parents now have catalogued direct evidence;
+  the marriage remains `strong-evidence` because the retained image is a
+  derivative.
+- Negative result: neither spouse has the 1916 record attached as a formal
+  FamilySearch source; each has only a 1983 record concerning a child.
+- Next action: recover and catalogue two additional original records before
+  reviewing the schema against the evidence sample.
