@@ -11,6 +11,12 @@ event_ids:
 - E-0005
 family_ids:
 - F-0006
+fan_references:
+- fan_id: FAN-0001
+  role: signatário
+  note: >-
+    Signed an 1875 Muriaé procuração on behalf of the illiterate grantor (FAN
+    context, not a record about the family).
 notes:
 - text: Ahnentafel position 16.
 - text: >-

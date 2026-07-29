@@ -1,0 +1,48 @@
+schema_version: 1
+id: FAN-0001
+title: >-
+  1875 Muriaé procuração signed by Simplício José Ferreira Armond on behalf of
+  the illiterate grantor
+record_type: Procuração (power of attorney), notarial
+record_category: notarial
+usage: context
+event_date:
+  kind: year
+  year: 1875
+event_place_text: Muriaé, Minas Gerais, Brazil
+repository:
+  name: FamilySearch Full-Text (Minas Gerais court and notarial records)
+  archive_or_registry: Cartório/Comarca de Muriaé, Minas Gerais
+  collection: >-
+    Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text)
+  catalogue_reference: FamilySearch ARK 3:1:3QHV-YQQY-PQGB
+  url: https://www.familysearch.org/ark:/61903/3:1:3QHV-YQQY-PQGB
+access_date: "2026-07-29"
+language: pt-BR
+transcription: >-
+  [FamilySearch Full-Text OCR extract:] "… assignando a rogo da outorgante por
+  não saber escrever, Simplicio José Ferreira Armond, comigo Francisco de Assis
+  Carvalho escrivão de Paz …". Faint preview image; this is the machine OCR
+  extract, not a full manual reading.
+abstract: >-
+  A power of attorney (procuração) from Muriaé, dated by FamilySearch to 1875,
+  in which Simplício José Ferreira Armond signed on behalf of the grantor, who
+  could not write. He appears only as a signatory/associate, not as a party to a
+  record about the family. Retained as FAN context for his presence and standing
+  in the Muriaé comarca by 1875.
+digital_file:
+  path: >-
+    evidence/references/armond-muriae-fulltext-probates/FAN-0001-1875-muriae-procuracao-simplicio-signatario.jpg
+  sha256: 502d6fff8f39af3b95bc4881abeaedc151e98882b3a26864bdc8642aa0d0f85f
+participants:
+- person_id: P-0016
+  role: signatário (assinou a rogo da outorgante)
+  note: >-
+    Signed the procuração for the grantor, who could not write; a functional
+    role, not a party to the act.
+private: false
+notes:
+- text: >-
+    Located via FamilySearch Full-Text search for "Simplicio Ferreira Armond".
+    One of the Muriaé/Leopoldina FAN reference set; transcription is the
+    Full-Text OCR extract, not a full manual reading of the faint preview image.
