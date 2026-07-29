@@ -11,6 +11,15 @@ in `schemas/`.
 | `events/` | `E-0001` | `schemas/event.schema.json` |
 | `places/` | `PL-0001` | `schemas/place.schema.json` |
 | `sources/` | `SRC-0001` | `schemas/source.schema.json` |
+| `fan/` | `FAN-0001` | `schemas/fan.schema.json` |
+
+`fan/` holds FAN references (Friends / Associates / Neighbours): records where
+one of the family's people appears only in a functional role — witness,
+appraiser (louvado), creditor, attorney, party. They are context, never
+evidence: their `usage` is always `context`, they carry no conclusion status,
+and each names the people it involves under `participants` (with a role). People
+link back through an optional `fan_references` list. Use a FAN entity for a
+third-party record; catalogue a record *about* the family as a `source` instead.
 
 Entity directories are created only with their first YAML record. A missing
 empty directory is valid and must not be preserved with placeholder files.

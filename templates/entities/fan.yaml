@@ -1,0 +1,19 @@
+schema_version: 1
+id: FAN-NNNN
+title: ""
+record_type: ""
+record_category: court_or_probate
+usage: context
+repository:
+  name: ""
+access_date: "YYYY-MM-DD"
+language: ""
+transcription: ""
+abstract: ""
+digital_file:
+  path: ""
+  sha256: ""
+participants: []
+linked_places: []
+private: false
+notes: []

@@ -20,6 +20,7 @@ REFERENCE_KEYS = {
     "parent_place_id": "places",
     "linked_places": "places",
     "source_ids": "sources",
+    "fan_id": "fan",
 }
 
 

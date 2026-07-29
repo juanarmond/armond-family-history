@@ -7,7 +7,7 @@ import argparse
 import json
 from pathlib import Path
 
-ENTITY_DIRECTORIES = ("people", "families", "events", "places", "sources")
+ENTITY_DIRECTORIES = ("people", "families", "events", "places", "sources", "fan")
 
 
 def build_index(data_root: Path) -> dict[str, list[str]]:

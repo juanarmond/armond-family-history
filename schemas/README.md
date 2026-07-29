@@ -8,6 +8,11 @@ remaining independent of the YAML parser.
 staging file. Inventory entries are observations about available files, not
 genealogical conclusions.
 
+`fan.schema.json` validates FAN references (Friends / Associates / Neighbours):
+third-party records where a family member appears only in a functional role
+(witness, appraiser, creditor, attorney). They are context (`usage: context`),
+never evidence, and never carry a conclusion status.
+
 ## Design principles
 
 - One entity per file, with the identifier repeated in the filename.

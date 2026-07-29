@@ -21,7 +21,7 @@ class RepositoryFixture:
     def __init__(self) -> None:
         self.temporary_directory = tempfile.TemporaryDirectory()
         self.root = Path(self.temporary_directory.name)
-        for directory in ("people", "families", "events", "places", "sources"):
+        for directory in ("people", "families", "events", "places", "sources", "fan"):
             (self.root / "data" / directory).mkdir(parents=True, exist_ok=True)
         self.documents = self._base_documents()
         self.ledger = {
@@ -32,6 +32,7 @@ class RepositoryFixture:
                 "events": [],
                 "places": [],
                 "sources": [],
+                "fan": [],
             },
             "retired_ids": {
                 "people": [],
@@ -39,6 +40,7 @@ class RepositoryFixture:
                 "events": [],
                 "places": [],
                 "sources": [],
+                "fan": [],
             },
         }
         self.write_all()

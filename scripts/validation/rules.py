@@ -564,7 +564,8 @@ def validate_evidence_files(
     entities: Mapping[str, Mapping[str, LoadedEntity]],
     issues: list[Issue],
 ) -> None:
-    for source in entities["sources"].values():
+    checked = list(entities["sources"].values()) + list(entities["fan"].values())
+    for source in checked:
         digital_file = source.data.get("digital_file")
         if not isinstance(digital_file, dict):
             continue

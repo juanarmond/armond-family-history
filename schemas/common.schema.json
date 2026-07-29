@@ -23,6 +23,10 @@
       "type": "string",
       "pattern": "^SRC-(?!0000$)[0-9]{4}$"
     },
+    "fanId": {
+      "type": "string",
+      "pattern": "^FAN-(?!0000$)[0-9]{4}$"
+    },
     "confidenceStatus": {
       "type": "string",
       "enum": [

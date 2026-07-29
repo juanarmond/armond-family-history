@@ -36,6 +36,7 @@ class AllocationFixture:
                 "events": [],
                 "places": [],
                 "sources": [],
+                "fan": [],
             },
             "retired_ids": {
                 "people": [],
@@ -43,6 +44,7 @@ class AllocationFixture:
                 "events": [],
                 "places": [],
                 "sources": [],
+                "fan": [],
             },
         }
         self.write_yaml("data/id-ledger.yaml", self.ledger)

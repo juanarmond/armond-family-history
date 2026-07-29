@@ -52,6 +52,13 @@ ENTITY_CONFIGS: dict[str, EntityConfig] = {
         re.compile(r"^SRC-(?!0000$)[0-9]{4}$"),
         "source.schema.json",
     ),
+    "fan": EntityConfig(
+        "fan",
+        "fan",
+        "FAN",
+        re.compile(r"^FAN-(?!0000$)[0-9]{4}$"),
+        "fan.schema.json",
+    ),
 }
 
 KINDS_BY_SINGULAR = {
