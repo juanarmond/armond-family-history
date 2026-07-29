@@ -7,15 +7,29 @@ name_variants:
   type: source
   source_ids:
   - SRC-0008
+- value: JOSÉ CLAVO ARMOND
+  type: source
+  source_ids:
+  - SRC-0019
 event_ids: []
 family_ids:
 - F-0003
+occupations:
+- value: representante comercial
+  source_ids:
+  - SRC-0019
+  note: >-
+    Recorded in the 1975 marriage bann (SRC-0019); a commercial representative
+    then resident in Rio de Janeiro.
 notes:
 - text: >-
-    A March 1973 government driver-dossier index reports a birth date of
-    25 September 1926 and names Aristac Ferreira Armond and Liliosa Paz Armond
-    as parents. A birth event is not yet modelled because the record states no
-    birthplace and no birth or baptism record has been located.
+    A March 1973 government driver-dossier index (SRC-0008) reports a birth date
+    of 25 September 1926 and names Aristac Ferreira Armond and Liliosa Paz Armond
+    as parents. The 1975 marriage bann (SRC-0019) independently confirms the same
+    parents (rendered Aristão Ferreira Armond and Liliosa Paz Armond) and
+    additionally records him as natural de Eugenópolis. A birth event can now be
+    modelled from these (date per SRC-0008, place per SRC-0019); no birth or
+    baptism register has yet been located.
 - text: >-
     Privacy remains unknown. The retained government index is private because
     the full page contains identity and dossier data for multiple people.

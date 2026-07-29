@@ -739,3 +739,37 @@ documents:
       - >-
         Simplício petitions in his own hand as heir of the late D. Mathilde Maria
         de Jezus; the same estate as DOC-0016 (SRC-0017).
+  - inventory_id: DOC-0018
+    status: catalogued
+    added_date: "2026-07-29"
+    apparent_record_type: Marriage banns (edital de proclamas) in a newspaper
+    apparent_people:
+      - José Olavo Armond
+      - Aristão Ferreira Armond
+      - Liliosa Paz Armond
+      - Maria de Fátima Gomes Beato
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      Owner-supplied digital copy of O Processo (Conselheiro Lafaiete, MG), Ano
+      II, n.º 42, 1–15 February 1975 — an 8-page issue bearing an Arquivo Público
+      Mineiro stamp. The José Olavo Armond marriage bann is on p. 6.
+    rights_status: private-research
+    files:
+      - path: evidence/newspapers/SRC-0019-marriage-banns-jose-olavo-armond-1975-original.pdf
+        sha256: 57525a1f4add57aa05e11c396b323abb5cb0740869137619f283e142abfd9ddb
+        media_type: application/pdf
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: original-file
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: SRC-0019
+    notes:
+      - >-
+        Public marriage-banns notice. Names José Olavo Armond as natural de
+        Eugenópolis, son of Aristão Ferreira Armond and Liliosa Paz Armond;
+        corroborates SRC-0006 and SRC-0008 and additionally supplies his stated
+        birthplace.

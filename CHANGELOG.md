@@ -285,3 +285,19 @@ also remain traceable through source records and research logs.
   DOC-0016/DOC-0017. The 1881 estate opens Elisa's maternal ancestry (decedent
   Mathilde Maria de Jezus); the remaining 13 Full-Text hits stay staged as FAN
   references. Simplício's own parentage is still not found.
+- Catalogue the 1975 marriage bann of José Olavo Armond in the newspaper
+  *O Processo* (Conselheiro Lafaiete, MG; Ano II, n.º 42, 1–15 February 1975) as
+  `SRC-0019` (record_category `newspaper`), inventoried as DOC-0018 with the
+  issue PDF filed under a new `evidence/newspapers/` category. It independently
+  confirms José Olavo's parents (Aristão Ferreira Armond and Liliosa Paz Armond)
+  and records his birthplace as Eugenópolis; P-0018 gains a name variant and the
+  occupation "representante comercial".
+
+### Changed
+
+- Standardise evidence filenames and folders: rename the two probate images to
+  the `SRC-<id>-<record-type>-<subject>-<year>-original` convention; relocate the
+  13 FAN probate images from `evidence/incoming/` (staging) to a permanent
+  `evidence/references/armond-muriae-fulltext-probates/`; and document in
+  `evidence/README.md` that evidence categories reflect the record's origin (not
+  the event) and that `references/` holds retained FAN/context images.
