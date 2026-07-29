@@ -93,3 +93,36 @@ identifications, not evidence. Nothing here changes a genealogical conclusion.
 3. Locate Vicente's Carangola marriage and inventário; then chase the Portuguese
    parish. 4. Contact Mauro Senra. Execution details in
    `research/familysearch-image-targets.md`.
+
+## Follow-up: Ferreira Armonde bridge analysis (thesis text-mining, 29 Jul 2026)
+
+Text-mined the Lacerda thesis (UFF 2010) and our SRC-0016 (Chagas 2018) to test
+whether Aristão connects to the documented Azorean Ferreira Armonde family.
+
+- Documented root (primary): **Francisco Ferreira Armonde**, b. 1691, Ilha
+  Terceira, freguesia de São Sebastião, × Felizarda Maria Francisca de Assis,
+  settled at **Fazenda dos Moinhos, freguesia de N. Sra. da Piedade de
+  Barbacena** (Curral Novo). Twelve children (1831 Curral Novo census).
+- **Anti-merge (negative result):** the first-generation **"Simplício José
+  Ferreira Armonde" died *solteiro* (unmarried)** — he is NOT Aristão's father.
+  "Simplício" recurs as a family given name; do not conflate. Chagas's "Simplício
+  José Ferreira da **Fonseca**" is the allied Fonseca family, also not ours.
+- **Geographic bridge:** in the Imperial period several members migrated to the
+  **Zona da Mata, specifically Além Paraíba** (fazenda Barra do Peixe; inventory
+  at the Fórum Nelson Hungria de Além Paraíba; óbito in the Além Paraíba matriz) —
+  adjacent to Piacatuba/Leopoldina, where Aristão's branch is by 1873.
+- **Hypothesis (unproven):** Aristão's father — a *later* Simplício Ferreira
+  Armond, in Piacatuba by 1873, married to Elisa Balbina Toledo — descends from
+  the Barbacena Azorean Armonde family via the Além Paraíba migration. To prove
+  it, find Simplício's marriage (names both spouses' parents) and his baptism,
+  then link his parent to the Lacerda tree.
+- **Concrete record targets surfaced (for Codex / archives):**
+  - Barbacena baptisms — **Livro de Batismos da Freguesia de N. Sra. da Piedade
+    de Barbacena, 1828–1872** (Chagas cites p.71 for a Fonseca).
+  - Armonde patriarch inventory — **AHMPAJS (São João del-Rei), caixa 385, ordem
+    20, 1845**.
+  - Além Paraíba inventories/óbitos — **Fórum Nelson Hungria, Além Paraíba**.
+  - **Projeto Compartilhar** (projetocompartilhar.org) — cited by Lacerda;
+    confirmed to hold Barbacena/Armonde transcriptions; browser-accessible.
+
+All of the above are leads/hypotheses from secondary scholarship, not evidence.

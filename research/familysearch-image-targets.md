@@ -81,6 +81,16 @@ tasks:
       capture: "bride's parents, bride's naturalidade/birthplace, marriage date and parish"
     fallback: "If not in 1898-1920, they may have married earlier; report not_found and request earlier Leopoldina/Piacatuba marriage films."
 
+  - id: aristao-father-bridge
+    priority: 5
+    film: null
+    action: "Link Aristão's father to the documented Azorean Ferreira Armonde family of Barbacena. Catalog place-search 'Brazil, Minas Gerais, Barbacena' and 'Além Paraíba' (Catholic collection 2177275); also try projetocompartilhar.org (has Barbacena/Armonde transcriptions)."
+    looking_for: "(a) Marriage of Simplício Ferreira Armond x Elisa Balbina Toledo (~1865-1872) — names BOTH spouses' parents. (b) Baptism of that Simplício (~1830s-1850s)."
+    named_targets:
+      - "Livro de Batismos, Freguesia de N. Sra. da Piedade de Barbacena, 1828-1872"
+      - "Além Paraíba matriz marriages/baptisms; Piacatuba/Leopoldina (see aristao-baptism)"
+    anti_merge: "Do NOT identify Aristão's father with the 1st-generation Simplício José Ferreira Armonde, who died unmarried (per Lacerda thesis). Simplício is a recurring family name."
+
   - id: sapucaia-marriage
     priority: 4
     film: null
