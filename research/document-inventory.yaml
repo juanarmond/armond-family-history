@@ -689,7 +689,7 @@ documents:
       session on 29 July 2026.
     rights_status: permission-required
     files:
-      - path: evidence/probate/SRC-0017-inventario-toledo-heirs-leopoldina-1881.jpg
+      - path: evidence/probate/SRC-0017-probate-toledo-heir-list-leopoldina-1881-original.jpg
         sha256: 13f9f5208253b0ce584d0865aa239033e1f4a1cb00cedc1c1cbc4d9af855c374
         media_type: image/jpeg
         role: primary
@@ -722,7 +722,7 @@ documents:
       through the owner's authenticated session on 29 July 2026.
     rights_status: permission-required
     files:
-      - path: evidence/probate/SRC-0018-simplicio-armond-petition-mathilde-1884.jpg
+      - path: evidence/probate/SRC-0018-probate-petition-simplicio-armond-mathilde-jezus-1884-original.jpg
         sha256: 837090371374fd471bcded5134a0a4730c435153116a2368ec5c222b85a4c48e
         media_type: image/jpeg
         role: primary
