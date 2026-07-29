@@ -192,3 +192,9 @@ also remain traceable through source records and research logs.
   (E-0006) and Maria Amora Guimarães's 1904 birth (E-0007). Parentage reported
   in another record, and births reported in a marriage record, remain
   strong-evidence.
+- Add `research/familysearch-image-targets.md`, an autonomous-agent task-spec
+  for retrieving restricted record images, and an `evidence/incoming/` staging
+  area for un-catalogued downloads. Record the online gap-and-resource research
+  session, fold the discovered resources into the coverage ledger, and update
+  place PL-0009's present-day equivalence to Alto Jequitibá, MG (from IBGE
+  administrative history) without changing the source-recorded birthplace.

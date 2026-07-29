@@ -142,6 +142,13 @@ people:
         baptisms for 1870-1905 in image group 004640632 Item 4, images 456-665.
         Both original-image targets display Image Restricted in the owner's
         authenticated session.
+    - text: >-
+        29 July 2026: those restricted images are viewable for free on-site at a
+        FamilySearch affiliate library or center (locations.familysearch.org).
+        The owner confirmed film 004640627 opens from image ~54 (1-53 blocked)
+        and 004640632 from image 6. A confirmed sibling, Marfisa Ferreira Armond
+        (bapt. 15 Feb 1873, Piacatuba), fixes the parish. Retrieval task-spec:
+        research/familysearch-image-targets.md.
   - record_type: marriage
     status: inaccessible
     source_ids: []
@@ -215,6 +222,13 @@ people:
         contain no Liliosa entry. The alternative 16 April lead remains
         untested because no January-October Volta Redonda death group was
         exposed by the bounded FamilySearch Images search.
+    - text: >-
+        29 July 2026: in 1946 Volta Redonda was still a district of Barra Mansa
+        (emancipated 1954). Request the ~1946 obito by name from the Volta
+        Redonda registry and, failing that, Barra Mansa; locate via
+        registrocivil.org.br (transparencia.registrocivil.org.br). Liliosa's
+        parents/origin should also fall out of the Aristão x Liliosa marriage
+        record (see P-0008 marriage next action).
   notes: []
 - person_id: P-0010
   external_profiles:
@@ -631,6 +645,16 @@ people:
       or parish; do not convert nationality into a specific origin.
     notes:
     - text: SRC-0010 describes him only as Portuguese.
+    - text: >-
+        29 July 2026 strategy (bridge-record-first): his Brazilian marriage or
+        habilitação (FamilySearch MG Catholic, collection 2177275, place
+        Carangola) is the record most likely to state his Portuguese naturalidade
+        and parents. Also name-search the Arquivo Nacional "Entrada de
+        Estrangeiros - Rio de Janeiro 1875-1910" and the APM Juiz de Fora hostel
+        entries, and request the Carangola inventario via TJMG "Memoria do
+        Judiciario" (probate usually names origin, widow and heirs). Only after a
+        locality is fixed, open the Portuguese parish via DigitArq / tombo.pt /
+        CEPESE. Do not infer origin from the surname.
   - record_type: marriage
     status: unsearched
     source_ids: []
@@ -638,7 +662,12 @@ people:
     next_action: >-
       Locate a marriage to Maria Tertuliana da Conceição in Rio Claro,
       Carangola or the surrounding jurisdictions.
-    notes: []
+    notes:
+    - text: >-
+        The 1866 "Vila do Rio Claro" power of attorney most plausibly refers to
+        Rio Claro, RJ (a vila from 1849), which is geographically distant from
+        Carangola; treat the identity as an unconfirmed hypothesis pending the
+        record.
   - record_type: death
     status: lead_only
     source_ids: []

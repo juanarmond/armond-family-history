@@ -526,3 +526,24 @@ entry they amend; they must not erase it.
   birth register so the subject's parentage can reach `confirmed`, inspect the
   Piacatuba baptism books for Aristão's family, and re-examine SRC-0009 at full
   resolution to settle the Sapucaia-versus-Espírito-Santo parish question.
+
+## 2026-07-29 — Online gap-and-resource research
+
+- Outcome: four parallel web-research passes mapped concrete resources to every
+  open direct-line gap and blocker, all recorded as leads (no conclusion changed).
+- Detailed log:
+  [`logs/2026-07-29-online-gap-and-resource-research.md`](logs/2026-07-29-online-gap-and-resource-research.md).
+- Key leads: FamilySearch "Image Restricted" scans are viewable free at an
+  affiliate library; Aristão's family baptisms are in the Piacatuba/Leopoldina
+  parish (catalog 345430, films 004640627/004640632), confirmed by sibling
+  Marfisa (1873); the Azorean Ferreira Armonde origin is documented (Lacerda 2010;
+  Chagas UFMG) but NOT yet linked to Aristão; Volta Redonda was a district of
+  Barra Mansa in 1946; Sapucaia's pre-1925 books may be at the Cúria do Rio.
+- Verified place equivalence: Iris Bohrer's "Presidente Soares" is present-day
+  **Alto Jequitibá, MG** (IBGE), not Raul Soares; PL-0009 updated accordingly.
+- Artifacts: added `research/familysearch-image-targets.md` (an autonomous-agent
+  task-spec for image retrieval) and the `evidence/incoming/` staging area.
+- Genealogical conclusions changed: none.
+- Next action: retrieve the Aristão baptism and Aristão×Liliosa marriage images
+  via an affiliate library; order Liliosa's 1946 death; chase Vicente's Carangola
+  marriage/inventário for his Portuguese locality.

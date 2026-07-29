@@ -5,10 +5,18 @@ name_variants: []
 place_type: district
 historical_jurisdiction: >-
   Locality named "Presidente Soares, Estado de Minas" as Iris Bohrer's reported
-  1929 birthplace in the 1949 marriage certificate (SRC-0005). The exact
-  municipality and historical jurisdiction require independent archival
-  confirmation.
-current_equivalent: Presidente Soares, Minas Gerais, Brazil
+  1929 birthplace in the 1949 marriage certificate (SRC-0005). Per IBGE
+  administrative history, "Presidente Soares" was a povoado that became a
+  district in 1923 and the município of Presidente Soares in 1953, renamed Alto
+  Jequitibá by plebiscite in 1991; it lies in the Zona da Mata / Caparaó region
+  of Minas Gerais.
+current_equivalent: Alto Jequitibá, Minas Gerais, Brazil
 source_ids:
 - SRC-0005
-notes: []
+notes:
+- text: >-
+    Present-day equivalence (Presidente Soares -> Alto Jequitibá) established
+    from IBGE administrative history during the 29 July 2026 online research
+    session; it is a place-name equivalence, not a change to the source-recorded
+    birthplace. Not to be confused with Raul Soares, MG (a different municipality
+    honouring President Raul Soares de Moura).
