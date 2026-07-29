@@ -9,6 +9,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 CANONICAL_ROOT_MARKDOWN = {
     "AGENTS.md",
     "CHANGELOG.md",
+    "CLAUDE.md",  # Claude Code loader; imports AGENTS.md (single source of truth)
     "README.md",
     "STATUS.md",
 }

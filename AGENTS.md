@@ -38,6 +38,22 @@ At the start of every task:
 Read older log and changelog entries only when they are relevant to the task.
 Use targeted search rather than repeatedly loading every historical file.
 
+## Working files and research routing
+
+- Act from the structured, current files: `research/record-coverage.yaml` (the
+  canonical per-ancestor record-gap ledger and next actions) and
+  `research/familysearch-image-targets.md` (the image-retrieval task queue,
+  executed by an external agent that has the owner's authorised FamilySearch
+  session and downloads images).
+- `research/LOG.md` and `research/logs/` are provenance and history: read a past
+  session only when it is directly relevant; they are not required reading to
+  act.
+- The image-retrieval worksheet is the single task queue and is derived from the
+  coverage ledger; do not maintain open targets in two places.
+- After any deep-research pass, write a discovery-summary session log, then
+  update the affected files (coverage, `STATUS.md`, entity YAML, `CHANGELOG.md`).
+  Keep web and collaborative-tree findings as leads, never evidence.
+
 ## Decision protocol
 
 Classify the task before acting:

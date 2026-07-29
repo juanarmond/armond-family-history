@@ -38,8 +38,10 @@ This is the immediate execution queue, in order:
    Cúria and review Aristão's restricted parish registers when authorised.
 
 Keep this queue short and actionable. Detailed person-by-record actions remain
-canonical in `research/record-coverage.yaml`; strategic branch order remains
-under **Strategic research priorities** below.
+canonical in `research/record-coverage.yaml`, and the current image-retrieval
+queue — executed by the external Codex agent with the owner's FamilySearch
+session — is `research/familysearch-image-targets.md`; strategic branch order
+remains under **Strategic research priorities** below.
 
 ## Current blockers and dependencies
 
