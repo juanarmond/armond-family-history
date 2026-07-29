@@ -659,7 +659,7 @@ entry they amend; they must not erase it.
   ("Capitão") and Aristão recur across Muriaé/Leopoldina probate/property records
   (Simplício 1875-1913; Aristão 1903-1921) — the family's inventário evidence.
 - Provenance: 16 full-text page images + fulltext_candidates.csv staged in
-  evidence/incoming/armond-muriae-fulltext-probates/. Formal cataloguing to follow.
+  evidence/references/armond-muriae-fulltext-probates/. Formal cataloguing to follow.
 - Conclusions changed: none promoted; Azorean bridge still unproven.
 - Next action: read the 1881 inventário fully to name Elisa's parent; catalogue
   the key probate images; chase Elisa's father in Argirita.

@@ -20,6 +20,11 @@ folder. Create a category directory only when its first document is added:
 | `immigration/` | immigration / passenger records | `immigration` |
 | `naturalisation/` | naturalisation records | `naturalisation` |
 
+`references/` is **not** an origin category. It holds retained FAN/context images
+— records where our people appear only in a functional role (witness, appraiser,
+creditor, attorney) — that are deliberately **not** catalogued as individual
+sources. See the set-level `references/<set>/README.md`.
+
 ## File handling
 
 1. Obtain the highest-resolution file that the owner is authorised to access.

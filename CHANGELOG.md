@@ -269,7 +269,7 @@ also remain traceable through source records and research logs.
   Simplício × Elisa marriage and Elisa-origin search to Argirita/Taruaçu.
 - Record 16 FamilySearch Full-Text hits for Aristão and Simplício Ferreira
   Armond in the Muriaé/Leopoldina probate records (staged in
-  `evidence/incoming/armond-muriae-fulltext-probates/` with a candidates CSV):
+  `evidence/references/armond-muriae-fulltext-probates/` with a candidates CSV):
   an 1881 Leopoldina probate documents "Simplício José Ferreira Armond casado com
   D. Eliza Balbina de Toledo" and lists Elisa's Toledo siblings and parent's
   estate; Simplício ("Capitão") and Aristão recur across the comarca's probate/

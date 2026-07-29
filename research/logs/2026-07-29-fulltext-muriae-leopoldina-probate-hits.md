@@ -9,7 +9,7 @@ FamilySearch Full-Text (AI-OCR) search for "Aristão Ferreira Armond" and
 
 The owner ran the scraper's Full-Text mode; 16 candidate page images were
 downloaded and are staged in
-`evidence/incoming/armond-muriae-fulltext-probates/`, with
+`evidence/references/armond-muriae-fulltext-probates/`, with
 `fulltext_candidates.csv` listing every hit (query, score, place, date, snippet,
 ARK). All are FamilySearch preview images; formal per-source cataloguing to
 follow. Everything here is a lead until each image is read and catalogued.
