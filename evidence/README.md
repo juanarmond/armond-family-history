@@ -3,15 +3,22 @@
 This directory holds private document images and legally permitted derivatives.
 Do not publish, upload or move these files outside the private repository.
 
-Create a category directory only when its first document is added:
+Categories reflect the **origin (repository) of the record** — where the
+document was created — not the event it documents. A civil-registry marriage,
+birth and death therefore all live in `civil/`; the specific record type is
+carried by the filename and by the source's `record_category`, not by a separate
+folder. Create a category directory only when its first document is added:
 
-- `civil/`
-- `parish/`
-- `immigration/`
-- `naturalisation/`
-- `newspapers/`
-- `probate/`
-- `publications/`
+| Folder | Origin of the record | Typical `record_category` |
+| --- | --- | --- |
+| `civil/` | civil registry office (cartório de registro civil) | `civil_registration` |
+| `parish/` | church / parish register | `parish_register` |
+| `government/` | state agency (e.g. driver index) | `government_record`, `official_index` |
+| `probate/` | probate / succession court — autos de inventário, juízo de órfãos | `court_or_probate` |
+| `newspapers/` | newspaper / periodical | `newspaper` |
+| `publications/` | published works | `published_genealogy` |
+| `immigration/` | immigration / passenger records | `immigration` |
+| `naturalisation/` | naturalisation records | `naturalisation` |
 
 ## File handling
 
