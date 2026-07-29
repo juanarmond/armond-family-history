@@ -626,3 +626,21 @@ entry they amend; they must not erase it.
 - Next action: Codex FamilySearch pulls (345430 Piacatuba marriage + baptisms
   1879+; 516378 Barra Mansa; 385592 Sapucaia; 3479702 Iris 1929 birth); await the
   three replies; populate person occupations from held sources.
+
+## 2026-07-29 — Owner-supplied Armond documents: siblings and the Eugenópolis locus
+
+- Question: assess owner-located documents (FamilySearch + newspaper) on Aristão
+  Ferreira Armond's family.
+- Detailed log:
+  [`logs/2026-07-29-owner-supplied-armond-family-documents.md`](logs/2026-07-29-owner-supplied-armond-family-documents.md).
+- Key results: Marfiza Ferreira Armond's 1962 death (aged 89 → b.~1873, viúva)
+  names the same parents as Aristão's death → she is his sister; a second primary
+  record of Simplicio Ferreira Armond + Eliza/Elisa Toledo, giving Elisa's maiden
+  surname Toledo; "filho/filha legítima" in both → Simplício & Elisa were married.
+  José Olavo's 1975 marriage bann (O Processo) names him "natural de Eugenópolis",
+  son of Aristão + Liliosa → the family's locus is EUGENÓPOLIS, MG.
+- Redirect: search the Aristão×Liliosa marriage and the children's births in
+  Eugenópolis (not Leopoldina). Does NOT prove the Barbacena/Azorean bridge.
+- Conclusions changed: none promoted; formal source cataloguing pending saved files.
+- Next action: catalogue Marfiza's death + the José Olavo bann once files are
+  staged; redirect the marriage search to Eugenópolis.

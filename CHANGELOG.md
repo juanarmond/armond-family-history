@@ -251,3 +251,11 @@ also remain traceable through source records and research logs.
   source-cited "Occupation" section, minimised for living people), aggregate an
   occupation's cited sources into the person's source list, and cover the
   projection with a data-loader unit test.
+- Record the owner-supplied Armond documents (Aristão's 1957 death = SRC-0006;
+  Marfiza Ferreira Armond's 1962 death; José Olavo's 1975 marriage bann in O
+  Processo): Marfiza is confirmed as Aristão's sister by a second primary record
+  of the parents Simplício Ferreira Armond + Elisa Toledo (giving Elisa's maiden
+  surname Toledo), and José Olavo's "natural de Eugenópolis" fixes the family's
+  locus as Eugenópolis, MG — redirecting the Aristão×Liliosa marriage and the
+  children's-birth search there, not Leopoldina. No conclusion promoted; the
+  Azorean bridge stays unproven; formal source cataloguing pending the files.
