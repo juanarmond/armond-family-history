@@ -3,21 +3,28 @@
 This is the canonical research, evidence and citation policy. The directory
 contains reproducible research notes rather than settled entity data.
 
-- Research history lives in the top-level `logs/` directory (a sibling of
-  `research/`): the append-only index `logs/LOG.md`, the outreach record
-  `logs/correspondence-log.md` (public contact details, dates, purpose and
-  replies), and detailed per-session files named `YYYY-MM-DD-short-question.md`.
-- `resources/` keeps copies of key third-party reference documents (leads),
-  each with provenance recorded in its manifest.
-- The two validated ledgers this policy governs live in `data/` (with
+- `from-scraper/` is the **sync drop from the external FamilySearch scraper
+  agent**: its raw pulls (`output/` — Full-Text/Records record images plus ranked
+  CSV/JSON), the third-party reference documents it used (`resources/`), its
+  active research plans (`plans/`) and its working synthesis (`FINDINGS.md`). It
+  is **raw, not evidence**: nothing there is catalogued until it clears the value
+  gate — read → classify → privacy-review → promote only the valuable into
+  `data/` + `evidence/` (as a `source` or a FAN entity), recording negatives and
+  never inferring absence from a zero-result search. See `from-scraper/README.md`.
+  Value-gate dispositions per pulled image are tracked in
+  `from-scraper-triage-ledger.md` (a resume ledger, kept outside `from-scraper/`
+  so a wholesale re-sync cannot clobber it).
+- `entity-drafts/` holds reserved-but-unpromoted entity skeletons (transient;
+  created by `scripts/new_entity.py reserve`).
+- The validated ledgers this policy governs live in `data/` (with
   `id-ledger.yaml`), not here: `data/document-inventory.yaml` stages authorised
-  evidence before source cataloguing, and `data/record-coverage.yaml` is the
-  sole operational ledger for missing vital records of deceased direct
-  ancestors. `STATUS.md` retains strategic branch priorities and must not
-  duplicate that person-by-record matrix.
-- Historical searches and superseded interpretations stay in `logs/LOG.md`,
-  its detailed session logs, structured conclusions and Git history. They must
-  not be accumulated in `STATUS.md`.
+  evidence before source cataloguing, and `data/record-coverage.yaml` is the sole
+  operational record-gap ledger for deceased direct ancestors. `STATUS.md`
+  retains strategic branch priorities and must not duplicate that matrix.
+- Research history lives in the top-level `logs/` directory (the index
+  `logs/LOG.md`, the `logs/correspondence-log.md` outreach record, and dated
+  session files). Historical searches and superseded interpretations stay there,
+  never in `STATUS.md`.
 - Regional or unresolved folders should be created only with their first
   substantive note.
 

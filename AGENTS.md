@@ -41,16 +41,21 @@ Use targeted search rather than repeatedly loading every historical file.
 
 ## Working files and research routing
 
-- Act from the structured, current files: `data/record-coverage.yaml` (the
-  canonical per-ancestor record-gap ledger and next actions) and
-  `research/familysearch-image-targets.md` (the image-retrieval task queue,
-  executed by an external agent that has the owner's authorised FamilySearch
-  session and downloads images).
+- Act from the structured, current file `data/record-coverage.yaml` (the
+  canonical per-ancestor record-gap ledger and next actions).
+- An external FamilySearch scraper agent (the owner's authorised session)
+  discovers records and **syncs its whole working area into
+  `research/from-scraper/`** — raw record images and ranked CSV/JSON under
+  `output/`, reference documents under `resources/`, active `plans/`, and its
+  synthesis in `FINDINGS.md`. That drop is raw, not evidence.
+- This assistant runs the **value gate** on that drop: read each candidate,
+  classify it (a subject `source` about the family, a FAN third-party record, or
+  noise), privacy-review it, and promote only the valuable into `data/` +
+  `evidence/`, recording negatives. Never bulk-promote, and never infer absence
+  from a zero-result OCR or index search.
 - `logs/` — the cumulative index `LOG.md`, the `correspondence-log.md`
   and the dated session files — is provenance and history: read a past session
   only when it is directly relevant; it is not required reading to act.
-- The image-retrieval worksheet is the single task queue and is derived from the
-  coverage ledger; do not maintain open targets in two places.
 - After any deep-research pass, write a discovery-summary session log, then
   update the affected files (coverage, `STATUS.md`, entity YAML, `CHANGELOG.md`).
   Keep web and collaborative-tree findings as leads, never evidence.
@@ -84,11 +89,12 @@ an entry is absent from an unindexed register.
   and the exact next action. Then continue to the next priority that does not
   bypass an evidence gate.
 - This assistant researches read-only public web sources (WebFetch and
-  WebSearch); authorised FamilySearch image retrieval is performed by the
-  external Codex agent using the owner's session, per
-  `research/familysearch-image-targets.md`. Do not edit a FamilySearch tree,
-  attach sources, contact archives, submit paid record orders or expose
-  credentials unless the user explicitly authorises that action.
+  WebSearch); authorised FamilySearch retrieval is performed by the external
+  scraper agent using the owner's session and delivered through the
+  `research/from-scraper/` sync (see "Working files and research routing"). Do
+  not edit a FamilySearch tree, attach sources, contact archives, submit paid
+  record orders or expose credentials unless the user explicitly authorises that
+  action.
 - Do not create people merely because a collaborative profile exists. Add only
   source-qualified entities needed by the evidence being ingested.
 - Prefer a bounded manual register review over repeating broad name searches.
