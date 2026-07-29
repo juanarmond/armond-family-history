@@ -1,0 +1,93 @@
+schema_version: 1
+id: SRC-0020
+title: >-
+  Civil death registration of Marfiza Ferreira Armond (1962), naming her parents
+  Simplício Ferreira Armond and Eliza Ferreira Toledo
+record_type: Civil death register entry
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1962-11-15"
+event_place_text: >-
+  Rio de Janeiro state, Brazil (registration city read as Itaperuna, uncertain)
+repository:
+  name: Owner-supplied civil death register image
+  archive_or_registry: >-
+    Civil Registration, Rio de Janeiro state (registration city uncertain,
+    probably Itaperuna)
+  page: "264/265"
+  record_number: "18892"
+  catalogue_reference: >-
+    Death register entry n.º 18892, register pages 264/265; image watermarked
+    "SEM VALOR LEGAL". No FamilySearch ARK or portal citation was supplied; the
+    exact archival reference is still to be captured.
+  repository_path: evidence/civil/SRC-0020-death-marfiza-ferreira-armond-1962-original.jpg
+access_date: "2026-07-29"
+language: pt-BR
+transcription: >-
+  [Termo n.º 18892, páginas 264/265; imagem com marca "SEM VALOR LEGAL".] Em
+  quinze de novembro de mil novecentos e sessenta e dois, nesta cidade de
+  [Itaperuna?], no Estado do Rio de Janeiro, em cartório, compareceu [Gustavo?]
+  Barroso, comerciante aqui residente [à rua 1.º de Maio?], e exibindo atestado
+  de óbito firmado pelo Dr. Carlos Antonio Deslandes, dando como causa da morte
+  [colapso?] cardíaco, declarou que no dia de hoje, às treze horas e trinta
+  minutos, [em rua Paes de Azevedo, 100?], faleceu Marfiza Ferreira Armond, do
+  sexo feminino, de cor branca, profissão doméstica, natural [do Estado] de
+  Minas, com oitenta e nove (89) anos de idade [b. ~1873], estado civil viúva,
+  filha legítima de Simplício Ferreira Armond e [d.] Eliza Ferreira Toledo. O
+  sepultamento será feito no cemitério desta cidade. [Assinado o declarante,]
+  [Gustavo?] Barroso.
+abstract: >-
+  An owner-supplied civil death register image (entry n.º 18892, watermarked
+  "SEM VALOR LEGAL") recording the death of Marfiza Ferreira Armond on 15
+  November 1962 in Rio de Janeiro state (registration city read as Itaperuna,
+  uncertain). A widow and doméstica, natural of Minas Gerais, she is recorded as
+  the legitimate daughter of Simplício Ferreira Armond and Eliza Ferreira
+  Toledo. This independently confirms Eliza's Toledo surname and documents
+  Marfiza as a daughter of Simplício and Eliza — that is, a sister of Aristão
+  Ferreira Armond (P-0008).
+reliability:
+  assessment: >-
+    Original civil-register evidence for Marfiza's death that directly names her
+    parents (secondary information, reported at death). Together with SRC-0006
+    (Aristão's 1957 death) it provides a second primary attestation that
+    Simplício and Eliza (Toledo) were her parents, strengthening Eliza's Toledo
+    surname and the Simplício x Eliza couple.
+  informant: >-
+    The declarant, a commerciante recorded as "[Gustavo?] Barroso", reporting at
+    the civil registry on a physician's death certificate.
+  limitations: >-
+    A watermarked "SEM VALOR LEGAL" copy with no supplied FamilySearch/portal
+    citation; the exact archival reference must still be captured. Several fields
+    are read with uncertainty from the handwriting: the registration city
+    (Itaperuna?), the declarant's given name and the mother's middle name. The
+    recorded age of 89 (b. ~1873) matches Marfiza's separately-noted ~1873 birth
+    lead. The parentage is secondary information reported at death.
+digital_file:
+  path: evidence/civil/SRC-0020-death-marfiza-ferreira-armond-1962-original.jpg
+  sha256: eaf6f82ef061e6661fbb64825bbc1fd9617c78cfdc2db587812b423d2e2e05e4
+linked_people:
+- P-0016
+- P-0017
+linked_families:
+- F-0006
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Second primary attestation (after SRC-0006) that Simplício and Eliza were a
+    couple, and the second record giving Eliza the Toledo surname. Marfiza is a
+    documented daughter of Simplício (P-0016) and Eliza (P-0017) and therefore a
+    sister of Aristão (P-0008); she is not yet modelled as her own person entity.
+- text: >-
+    The register page carries several unrelated third-party death entries and
+    personal data; retain only in this private repository.
+- text: >-
+    Owner-supplied image; the FamilySearch/portal provenance and any ARK are
+    undetermined and should be captured to firm up the citation and the
+    registration locality.

@@ -773,3 +773,41 @@ documents:
         Eugenópolis, son of Aristão Ferreira Armond and Liliosa Paz Armond;
         corroborates SRC-0006 and SRC-0008 and additionally supplies his stated
         birthplace.
+  - inventory_id: DOC-0019
+    status: catalogued
+    added_date: "2026-07-29"
+    apparent_record_type: Civil death register entry
+    apparent_people:
+      - Marfiza Ferreira Armond
+      - Simplício Ferreira Armond
+      - Eliza Ferreira Toledo
+    apparent_event: death
+    image_quality: partly-illegible
+    provenance: >-
+      Owner-supplied civil death register image (entry n.º 18892, register pages
+      264/265, watermarked "SEM VALOR LEGAL"), Rio de Janeiro state (registration
+      city read as Itaperuna, uncertain). No FamilySearch ARK or portal citation
+      was supplied.
+    rights_status: private-research
+    files:
+      - path: evidence/civil/SRC-0020-death-marfiza-ferreira-armond-1962-original.jpg
+        sha256: eaf6f82ef061e6661fbb64825bbc1fd9617c78cfdc2db587812b423d2e2e05e4
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: original-file
+          pixel_width: 4127
+          pixel_height: 3287
+        privacy_review: cleared
+        sensitive_content:
+          - address
+          - medical
+          - other
+    duplicate_of: null
+    proposed_source_id: SRC-0020
+    notes:
+      - >-
+        Confirms Eliza's Toledo surname and documents Marfiza as a daughter of
+        Simplício and Eliza (a sister of Aristão, P-0008). The register page
+        carries unrelated third-party death entries; private.

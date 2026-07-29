@@ -292,6 +292,16 @@ also remain traceable through source records and research logs.
   confirms José Olavo's parents (Aristão Ferreira Armond and Liliosa Paz Armond)
   and records his birthplace as Eugenópolis; P-0018 gains a name variant and the
   occupation "representante comercial".
+- Catalogue the 1962 civil death registration of Marfiza Ferreira Armond as
+  `SRC-0020` (owner-supplied register image, entry n.º 18892, watermarked "SEM
+  VALOR LEGAL"; DOC-0019). It names her parents as Simplício Ferreira Armond and
+  Eliza Ferreira Toledo — a second primary record giving Eliza the Toledo
+  surname and documenting Marfiza (b. ~1873, aged 89) as a sister of Aristão.
+- Add a FAN (Friends / Associates / Neighbours) reference entity type
+  (`data/fan/`, `FAN-NNNN`, `schemas/fan.schema.json`) for third-party records
+  where a family member appears only in a functional role, plus the first entity
+  `FAN-0001` (an 1875 Muriaé procuração signed by Simplício José Ferreira
+  Armond). People gain an optional `fan_references` back-link list.
 
 ### Changed
 
@@ -301,3 +311,8 @@ also remain traceable through source records and research logs.
   `evidence/references/armond-muriae-fulltext-probates/`; and document in
   `evidence/README.md` that evidence categories reflect the record's origin (not
   the event) and that `references/` holds retained FAN/context images.
+- Clear `evidence/incoming/`: an owner-supplied alternate scan of Aristão's 1957
+  death entry (watermarked "SEM VALOR LEGAL") is a redundant recapture of the
+  already-catalogued SRC-0006, so it is kept as a working reference under
+  `evidence/references/` (not re-inventoried, since one authoritative image is
+  kept per record) and noted in SRC-0006.
