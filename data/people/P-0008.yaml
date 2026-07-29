@@ -15,6 +15,11 @@ name_variants:
   note: >-
     The 1973 government index prints "Aristac". It is retained as a source
     variant and not silently normalised to Aristão.
+occupations:
+- value: padeiro
+  source_ids:
+  - SRC-0006
+  note: Recorded as "de profissão padeiro" in his 1957 civil death registration.
 event_ids:
 - E-0003
 - E-0005

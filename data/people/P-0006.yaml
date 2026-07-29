@@ -9,6 +9,13 @@ name_variants:
       - SRC-0003
       - SRC-0005
       - SRC-0011
+occupations:
+  - value: da lavoura
+    source_ids:
+      - SRC-0005
+    note: >-
+      His 1949 marriage certificate records "profissão da lavoura" (agricultural
+      work).
 event_ids:
   - E-0004
   - E-0017

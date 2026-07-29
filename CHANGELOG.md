@@ -241,3 +241,9 @@ also remain traceable through source records and research logs.
   (João Gomes 1831) as a candidate later-namesake and reaffirm, from the 1831
   census (a primary source), that the documented Armonde tree does not reach
   Piacatuba. No conclusion changed.
+- Populate the new `occupations` field from held-source transcriptions for six
+  deceased direct-line people: Aristão Ferreira Armond (padeiro, SRC-0006),
+  Antenor Muniz (da lavoura, SRC-0005), Cidalia Engracio Guimarães (doméstica,
+  SRC-0002), Geraldo Paz Armond (aposentado, stated at death, SRC-0004), and
+  Francisco José de Carvalho Guimarães and Emmerenciana Maria de Jesus
+  (lavradores, SRC-0010). Each occupation cites the record that states it.

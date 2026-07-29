@@ -7,6 +7,11 @@ name_variants:
   type: source
   source_ids:
   - SRC-0010
+occupations:
+- value: lavradora
+  source_ids:
+  - SRC-0010
+  note: SRC-0010 describes the couple collectively as "lavradores".
 event_ids:
 - E-0009
 family_ids:

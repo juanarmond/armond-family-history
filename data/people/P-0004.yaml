@@ -8,6 +8,13 @@ name_variants:
   source_ids:
   - SRC-0002
   - SRC-0011
+occupations:
+- value: aposentado
+  source_ids:
+  - SRC-0004
+  note: >-
+    His 1991 death record states "profissão aposentado" (retired); an earlier
+    occupation is not recorded.
 event_ids:
 - E-0002
 - E-0003

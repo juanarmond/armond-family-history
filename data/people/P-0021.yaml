@@ -7,6 +7,11 @@ name_variants:
   type: source
   source_ids:
   - SRC-0010
+occupations:
+- value: lavrador
+  source_ids:
+  - SRC-0010
+  note: SRC-0010 describes the declarant and his wife collectively as "lavradores".
 event_ids:
 - E-0008
 family_ids:

@@ -16,6 +16,10 @@ name_variants:
   source_ids:
   - SRC-0011
   note: Name form reported in the repository subject's birth certificate.
+occupations:
+- value: doméstica
+  source_ids:
+  - SRC-0002
 event_ids:
 - E-0002
 - E-0003
