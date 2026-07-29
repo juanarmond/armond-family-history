@@ -1,3 +1,9 @@
+# Record-coverage ledger — the canonical research plan.
+# One entry per deceased direct ancestor: the vital records sought, each
+# record's search status, and the exact next action. Research is driven from
+# here. Which line to work first (priority) and the single current focus live
+# in STATUS.md ("Strategic research priorities" / "Current objective"); do not
+# duplicate that ordering here.
 version: 1
 scope: deceased-direct-ancestors
 people:

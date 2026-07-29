@@ -35,6 +35,8 @@ English abstracts or translations.
   work in progress.
 - See [`STATUS.md` — Next steps](STATUS.md#next-steps) for the immediate
   ordered execution queue.
+- See [`research/record-coverage.yaml`](research/record-coverage.yaml) for the
+  canonical research plan: the per-ancestor record gaps and their next actions.
 - Claude Code and Codex both read [`AGENTS.md`](AGENTS.md) for permanent
   instructions and context routing (`CLAUDE.md` simply imports it).
 - Research history is indexed in [`research/LOG.md`](research/LOG.md); do not
@@ -46,6 +48,9 @@ Each concern has one owner:
 
 - [`STATUS.md`](STATUS.md) — present objective, immediate next steps, blockers,
   research snapshot, unresolved conflicts and strategic priorities.
+- [`research/record-coverage.yaml`](research/record-coverage.yaml) — the
+  canonical research plan: per-ancestor record gaps, search status and next
+  actions. Priority ordering lives in `STATUS.md`.
 - [`research/README.md`](research/README.md) — evidence, citation,
   transcription, conflict and privacy rules.
 - [`research/LOG.md`](research/LOG.md) — append-only index of completed
