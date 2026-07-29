@@ -147,8 +147,17 @@ export function projectTreeData({ people, families, events, places, sources }) {
     for (const participant of event.participants || []) {
       const personId = participant?.person_id;
       if (!personEvents[personId]) continue;
-      personEvents[personId].push(eventView);
+      // Anyone named in the event keeps its sources...
       for (const sourceId of eventView.sourceIds) personSourceIds[personId].add(sourceId);
+      // ...but the event only belongs on a person's own timeline when they are
+      // its subject: the principal (birth, death, baptism, burial) or a
+      // spouse/partner (marriage). A "parent", "witness" or "informant" role
+      // means they are merely referenced — e.g. named as a parent in a child's
+      // death record — not that it is their own event.
+      const role = participant?.role;
+      if (role === "principal" || role === "spouse" || role === "partner") {
+        personEvents[personId].push({ ...eventView, role });
+      }
     }
   }
 

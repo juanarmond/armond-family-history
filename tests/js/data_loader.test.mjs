@@ -76,6 +76,17 @@ function fixtures() {
       status: "confirmed",
       source_ids: ["S-2"],
     },
+    "E-3": {
+      id: "E-3",
+      event_type: "death",
+      date: { kind: "year", year: 1950 },
+      participants: [
+        { person_id: "P-4", role: "principal" },
+        { person_id: "P-1", role: "parent" },
+      ],
+      status: "confirmed",
+      source_ids: ["S-2"],
+    },
   };
 
   const places = { "PL-1": { id: "PL-1", preferred_name: "Rio de Janeiro, Brazil" } };
@@ -180,6 +191,20 @@ test("a deceased person aggregates sources from links, events and relationships"
   assert.equal(p4.sourceCount, 2, "P-4 should gather S-1 (link/relationship) and S-2 (event)");
   const ids = p4.sources.map((s) => s.id).sort();
   assert.deepEqual(ids, ["S-1", "S-2"]);
+});
+
+test("an event lands only on its subject, not on people it merely references", () => {
+  const data = projectTreeData(fixtures());
+  // P-1 is only a "parent" in P-4's death (E-3), so E-3 must not be on P-1's timeline.
+  assert.deepEqual(
+    data.people["P-1"].events.map((e) => e.type).sort(),
+    ["marriage"],
+  );
+  // P-4 is the principal of both its birth (E-2) and death (E-3).
+  assert.deepEqual(
+    data.people["P-4"].events.map((e) => e.type).sort(),
+    ["birth", "death"],
+  );
 });
 
 test("living people are minimised", () => {

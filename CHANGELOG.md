@@ -326,3 +326,14 @@ also remain traceable through source records and research logs.
   already-catalogued CIV-0005, so it is kept as a working reference under
   `evidence/references/` (not re-inventoried, since one authoritative image is
   kept per record) and noted in CIV-0005.
+
+### Fixed
+
+- Show a person's own life events only in the viewer. The timeline projection
+  attached each event to every participant, so a death that merely named a
+  person as a parent (e.g. Geraldo Paz Armond's 1991 death naming Aristão
+  Ferreira Armond) surfaced as that person's own death. Events now land on a
+  person's timeline only when their role is the subject — principal, or
+  spouse/partner in a marriage; a referenced role (parent, witness) still
+  contributes the event's sources but no longer a spurious event. Regression
+  test added.
