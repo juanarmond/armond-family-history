@@ -11,9 +11,10 @@
 Obtain and catalogue Aristão Ferreira Armond's baptism and his marriage to
 Liliosa Paz Armond from the FamilySearch image ranges now confirmed viewable
 (baptism film `004640627` from image 54; marriage film `004640632` from image
-6), and locate Liliosa's own vital records. Image retrieval is queued for the
-external Codex agent in `research/familysearch-image-targets.md`; this assistant
-prepares the targets and catalogues each retrieved image as evidence.
+6), and locate Liliosa's own vital records. FamilySearch retrieval now runs through the external
+scraper agent, which syncs its finds into `research/from-scraper/`; this
+assistant runs the value gate (`research/from-scraper-triage-ledger.md`) and
+catalogues each valuable image as evidence.
 
 ### Objective completion signal
 
@@ -29,9 +30,10 @@ prepares the targets and catalogues each retrieved image as evidence.
 
 This is the immediate execution queue, in order:
 
-1. **Now (Codex):** retrieve Aristão's baptism (film `004640627`, image 54+) and
-   the Aristão×Liliosa marriage (film `004640632`, image 6+) into
-   `evidence/incoming/`, per `research/familysearch-image-targets.md`.
+1. **Now:** run the value gate on the `research/from-scraper/` drop (tracked in
+   `research/from-scraper-triage-ledger.md`) — catalogue the Toledo (Eliza's
+   maternal-line) deeds/estates, keep FAN references, discard the
+   titled-branch/namesake noise.
 2. Catalogue each retrieved image: privacy-review, reserve a source, transcribe,
    and promote the directly-attested events.
 3. Locate Liliosa's own death, birth or marriage record; retest the Volta
@@ -42,10 +44,10 @@ This is the immediate execution queue, in order:
    Cúria and review any still-restricted Aristão parish images when authorised.
 
 Keep this queue short and actionable. Detailed person-by-record actions remain
-canonical in `data/record-coverage.yaml`, and the current image-retrieval
-queue — executed by the external Codex agent with the owner's FamilySearch
-session — is `research/familysearch-image-targets.md`; strategic branch order
-remains under **Strategic research priorities** below.
+canonical in `data/record-coverage.yaml`; scraper finds arrive via the
+`research/from-scraper/` sync and are tracked in
+`research/from-scraper-triage-ledger.md`; strategic branch order remains under
+**Strategic research priorities** below.
 
 ## Current blockers and dependencies
 
@@ -55,8 +57,8 @@ remains under **Strategic research priorities** below.
   requires the original attachments.
 - FamilySearch image groups `004640627` (Aristão's baptism, from image 54) and
   `004640632` (the Aristão×Liliosa marriage, from image 6) are viewable in the
-  identified ranges and are queued for the external Codex retrieval agent in
-  `research/familysearch-image-targets.md`; only the earlier images in each group
+  identified ranges and are queued for the external scraper agent (its finds
+  arrive via `research/from-scraper/`); only the earlier images in each group
   still display `Image Restricted` and would need authorised FamilySearch Center
   or Library access.
 - Archive enquiries, paid certificates and conservatory or parish requests
@@ -158,8 +160,8 @@ only in `data/record-coverage.yaml`.
   evidence once Codex delivers; reassess assertion-level citation quality after
   5–10 varied records.
 - **External:** require the frozen repository-health check in GitHub branch
-  rules; the Codex agent retrieves authorised FamilySearch images per
-  `research/familysearch-image-targets.md`.
+  rules; the external scraper agent syncs authorised FamilySearch finds into
+  `research/from-scraper/` for the value gate.
 - **Deferred until schema stability:** generated person pages and a
   privacy-filtered GEDCOM export.
 - **Complete:** versioned schemas, evidence inventory, stable ID allocation,

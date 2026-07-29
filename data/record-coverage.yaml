@@ -161,8 +161,8 @@ people:
         FamilySearch affiliate library or center (locations.familysearch.org).
         The owner confirmed film 004640627 opens from image ~54 (1-53 blocked)
         and 004640632 from image 6. A confirmed sibling, Marfisa Ferreira Armond
-        (bapt. 15 Feb 1873, Piacatuba), fixes the parish. Retrieval task-spec:
-        research/familysearch-image-targets.md.
+        (bapt. 15 Feb 1873, Piacatuba), fixes the parish. Retrieval now runs
+        through the research/from-scraper/ scraper sync and the value gate.
     - text: >-
         29 July 2026: Aristão is absent from the transcribed Piacatuba baptism
         index 1851-1880 (which shows only his sister Marfiza, 1873), so search

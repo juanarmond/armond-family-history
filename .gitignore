@@ -7,3 +7,6 @@ __pycache__/
 .promotion-preview-*/
 .promotion-prepare-*/
 .entity-promotion-transaction/
+
+# Raw FamilySearch scraper drop (regenerable; promote valuable finds via the value gate)
+research/from-scraper/output/

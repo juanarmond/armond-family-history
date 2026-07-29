@@ -1,11 +1,13 @@
 # evidence/incoming — staging area
 
-Un-catalogued record images land here (e.g. downloads driven by
-`research/familysearch-image-targets.md`). Files here are NOT yet evidence:
-they have no reserved `SRC-xxxx` ID, no inventory entry and no checksum.
+Un-catalogued record images land here before they become evidence (an
+owner-supplied file, or a scan promoted from the `research/from-scraper/` scraper
+drop). Files here are NOT yet evidence: they have no reserved ID, no inventory
+entry and no checksum.
 
-Cataloguing step (human/assistant): privacy-review the file, reserve a source ID
-with `scripts/new_entity.py`, move it to the correct `evidence/<category>/`
-folder under its `SRC-xxxx-...` name, add its `document-inventory.yaml` entry with
-checksum, and create/point the `data/sources/SRC-xxxx.yaml` record. Then remove
-the staged copy.
+Cataloguing step (human/assistant): privacy-review the file, reserve a
+category-prefixed source ID with `scripts/new_entity.py` (`CIV`, `GOV`, `PAR`,
+`PRB`, `NWS`, `PUB`, `REC`), move the scan to `evidence/<category>/` under its
+`<PFX>-NNNN-...` name, add its `data/document-inventory.yaml` entry with checksum,
+and create the `data/sources/<category>/<PFX>-NNNN.yaml` record. Then remove the
+staged copy.
