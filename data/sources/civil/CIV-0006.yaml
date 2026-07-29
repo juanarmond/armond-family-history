@@ -1,5 +1,5 @@
 schema_version: 1
-id: SRC-0007
+id: CIV-0006
 title: >-
   Full-content certified marriage record of Deocleciano Muniz Bittencourt and
   Luiza Fernandes de Azevedo
@@ -27,7 +27,7 @@ repository:
     20190724_170232~2.jpg, IMG-20190724-WA0293~2.jpeg and
     IMG-20190724-WA0295~2.jpeg
   url: https://www.familysearch.org/en/memories/memory/89626504
-  repository_path: evidence/civil/SRC-0007-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-01.jpg
+  repository_path: evidence/civil/CIV-0006-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-01.jpg
 access_date: "2026-07-28"
 language: pt-BR
 transcription: >-
@@ -45,7 +45,7 @@ abstract: >-
   1916 marriage entry for Deocleciano Muniz Bittencourt and Luiza Fernandes de
   Azevedo in book 8-B, page 118, record 62 of the Carangola civil registry. It
   independently identifies the same marriage record already represented by
-  SRC-0001 while preserving a longer reproduction of the underlying entry.
+  CIV-0001 while preserving a longer reproduction of the underlying entry.
 reliability:
   assessment: >-
     Direct derivative evidence for the marriage event. The 2019 registrar's
@@ -57,7 +57,7 @@ reliability:
     parts of the handwritten reproduction are low contrast; no uncertain text
     has been supplied from the collaborative tree.
 digital_file:
-  path: evidence/civil/SRC-0007-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-01.jpg
+  path: evidence/civil/CIV-0006-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-01.jpg
   sha256: 5093f67e9a2528510714275a123c85ea2fd558042cc03cb9b56f167c3162736b
 linked_people:
   - P-0012

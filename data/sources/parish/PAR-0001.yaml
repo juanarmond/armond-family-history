@@ -1,5 +1,5 @@
 schema_version: 1
-id: SRC-0009
+id: PAR-0001
 title: Marriage provision for João Monis Bittencourt and Susanna Rita Brondão
 record_type: Ecclesiastical marriage-provision register entry
 record_category: parish_register
@@ -25,7 +25,7 @@ repository:
     DGS 004626365, Item 1 of 4; record ARK 1:1:6X8P-YB4T; image ARK
     3:1:939F-GJ96-JY; original-image storage ID TH-1-14177-39237-12
   url: https://www.familysearch.org/ark:/61903/1:1:6X8P-YB4T
-  repository_path: evidence/parish/SRC-0009-marriage-provision-joao-monis-bittencourt-susanna-rita-brondao-1882-original.jpg
+  repository_path: evidence/parish/PAR-0001-marriage-provision-joao-monis-bittencourt-susanna-rita-brondao-1882-original.jpg
 access_date: "2026-07-28"
 language: pt-BR
 transcription: >-
@@ -39,7 +39,7 @@ abstract: >-
   and Susanna Rita Brondão to marry in the mother church (matriz) of the Santo
   Antônio de Sapucaia parish. Sapucaia was an established freguesia from 1871,
   and this destination is consistent with their son Deocleciano being born in
-  Sapucaia (SRC-0001). The entry establishes the intended couple and parish but
+  Sapucaia (CIV-0001). The entry establishes the intended couple and parish but
   does not state that the marriage ceremony had already occurred.
 reliability:
   assessment: >-
@@ -54,7 +54,7 @@ reliability:
     entry and attached citation clearly state 23 December 1882. A separate
     ceremony entry has not yet been located.
 digital_file:
-  path: evidence/parish/SRC-0009-marriage-provision-joao-monis-bittencourt-susanna-rita-brondao-1882-original.jpg
+  path: evidence/parish/PAR-0001-marriage-provision-joao-monis-bittencourt-susanna-rita-brondao-1882-original.jpg
   sha256: 3754f2bd0de206063399ad0b2f984998d8332c80f0f3b906a729792377425f25
 linked_people:
 - P-0019
@@ -83,5 +83,5 @@ notes:
     with Maria Siqueira); this couple's destination is the Curato de Santo
     Antônio de Sapucaia. The superseded interpretation is preserved here, not
     deleted. The groom's given name reads closer to "José" than "João" in this
-    entry, and the bride's surname reads "Brandão" (matching SRC-0001) rather
+    entry, and the bride's surname reads "Brandão" (matching CIV-0001) rather
     than the preferred "Brondão"; both remain variants pending a fuller record.

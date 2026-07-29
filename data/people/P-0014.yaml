@@ -6,8 +6,8 @@ name_variants:
   - value: João Gonçalves Bohrer
     type: source
     source_ids:
-      - SRC-0003
-      - SRC-0005
+      - REC-0001
+      - CIV-0004
 event_ids:
   - E-0004
 family_ids:

@@ -9,7 +9,7 @@ newspaper) about Aristão Ferreira Armond's family, and refine the search.
 
 1. **Aristão Ferreira Armond — 1957 civil death** (`Transcript.pdf`; FamilySearch
    Volta Redonda, DGS 004366686, image 904, ARK `3:1:S3HT-XC74-4TK`). This is the
-   **same record already catalogued as `SRC-0006`** (page 315; died 1 Nov 1957;
+   **same record already catalogued as `CIV-0005`** (page 315; died 1 Nov 1957;
    parents Simplicio Armand + Eliza Ferreira Armand). Corroboration + a second
    image reference, not a new conclusion.
 2. **Marfiza Ferreira Armond — 1962 civil death** (owner screenshot; FamilySearch
@@ -41,8 +41,8 @@ newspaper) about Aristão Ferreira Armond's family, and refine the search.
 ## The key geographic redirect
 
 José Olavo was **natural de Eugenópolis (MG)**. Combined with the family's other
-records — Geraldo × Cidalia married in **Eugenópolis** (SRC-0002); Antenor × Iris
-married in **Alvorada** (a district of Eugenópolis, SRC-0005); Cidalia and Iris
+records — Geraldo × Cidalia married in **Eugenópolis** (CIV-0002); Antenor × Iris
+married in **Alvorada** (a district of Eugenópolis, CIV-0004); Cidalia and Iris
 born in Alvorada — the family of Aristão × Liliosa was **based in Eugenópolis,
 Zona da Mata, MG**, not Leopoldina.
 
@@ -69,6 +69,6 @@ the immediate family (Aristão's parents and a sister) is now solid.
    source for Marfiza's 1962 death, add Marfiza as a person (sister of Aristão,
    child of P-0016/P-0017) with her death event, add Elisa's "Toledo" maiden
    surname, and catalogue the José Olavo 1975 bann (source for P-0018 + the
-   Eugenópolis birthplace). Add the alternate image ARK to SRC-0006.
+   Eugenópolis birthplace). Add the alternate image ARK to CIV-0005.
 3. Confirm the source and identity behind the "Aristão / Limeira / 1931 police"
    claim before recording it.

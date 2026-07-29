@@ -94,7 +94,7 @@ Armond" in the signature — the family used the forms interchangeably.
   fall in Brazil, MG Civil Registration 1879–1949 (collection 3479702). In 1929
   "Presidente Soares" was only a district, so its civil registry was filed under
   the parent município — verify in the Catalog under both **Alto Jequitibá** and
-  **Manhuaçu**, and disambiguate via SRC-0005 (the 1949 marriage names her
+  **Manhuaçu**, and disambiguate via CIV-0004 (the 1949 marriage names her
   parents João Gonçalves Bohrer and Selina/Celina Bohrer — a spelling conflict to
   preserve). Espírito Santo alternatives: ES Civil 1850–2019, ES Church
   1821–2000. The APEES "Projeto Imigrantes" DB (`imigrantes.es.gov.br`) is a

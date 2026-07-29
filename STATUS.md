@@ -89,7 +89,7 @@ and cataloguing work.
 | Validation | 81 entities; zero errors or warnings at the last check |
 | Automated tests | 56 passing at the last check |
 
-The 16 catalogued sources (`SRC-0001` through `SRC-0016`) span the Armond/Paz,
+The 16 catalogued sources (`CIV-0001` through `PUB-0001`) span the Armond/Paz,
 Muniz Bittencourt/Azevedo, Engracio/Souza/Guimarães, Bohrer and
 Portuguese-origin lines, and include the living subject's private records. Source
 details, archival references, transcriptions, limitations and conclusion links
@@ -104,7 +104,7 @@ are canonical in `data/sources/`; record-by-record gaps are canonical in
 | Muniz Bittencourt and Azevedo | The 1916 marriage reports Deocleciano's parents; an original 1882 provision names João and Susanna and the intended Santo Antônio de Sapucaia parish | Completed ceremony entry in the Sapucaia registers; João and Susanna's own vital records; test rather than assume island origin |
 | Engracio, Souza and Guimarães | The 1915 collective registration documents Maria Amora, her parents and all four grandparents | Locate Vicente's family-linked marriage or death record and resolve Maria Amora/Aurora |
 | Bohrer | Iris's 1949 marriage directly reports João Gonçalves Bohrer and Selina Bohrer | Catalogue their own vital records and verify the next generation |
-| Portuguese origins | `SRC-0010` directly reports Vicente as Portuguese; an 1866 Rio Claro record is an unlinked identity lead | Identify a district, municipality and parish before searching Portugal |
+| Portuguese origins | `CIV-0007` directly reports Vicente as Portuguese; an 1866 Rio Claro record is an unlinked identity lead | Identify a district, municipality and parish before searching Portugal |
 
 The direct-line working roster follows Ahnentafel order from `P-0001` through
 `P-0017`. These are immutable repository identifiers, not proof of
@@ -127,7 +127,7 @@ relationships. Collaborative profiles remain navigation leads only.
    same person; the unproved 1864 birth would make the chronology unusually
    early and requires the original record.
 9. FamilySearch's index table displays `1633` for the provision catalogued as
-   `SRC-0009`; the original image and citation state 23 December 1882.
+   `PAR-0001`; the original image and citation state 23 December 1882.
 10. Maria Amora Guimarães in the 1915 birth registration versus Maria Aurora
     Guimarães in later family information.
 11. Whether the 1866 Vila do Rio Claro power of attorney names the same

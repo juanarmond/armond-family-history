@@ -16,7 +16,7 @@ couple in 1882–1883 using exact and broader combinations of:
 - Rio de Janeiro as the marriage place.
 
 The exact search returned no result. The broader search returned the already
-catalogued provision, `SRC-0009`, as its only result for the target couple. No
+catalogued provision, `PAR-0001`, as its only result for the target couple. No
 separate ceremony entry was exposed.
 
 The FamilySearch catalog record for *Brazil, Rio de Janeiro, Catholic Church
@@ -83,5 +83,5 @@ primary evidence.
   do Rio de Janeiro, *Igreja do Divino Espírito Santo do Estácio de Sá*,
   accessed 28 July 2026:
   <https://www.patrimoniohistoricoarqrio.org/product-page/igreja-do-divino-esp%C3%ADrito-santo-do-est%C3%A1cio-de-s%C3%A1>.
-- `SRC-0009`, João Monis Bittencourt and Susanna Rita Brondão marriage
+- `PAR-0001`, João Monis Bittencourt and Susanna Rita Brondão marriage
   provision, 23 December 1882.

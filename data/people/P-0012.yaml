@@ -6,11 +6,11 @@ name_variants:
   - value: Deocleciano Muniz Bittencourt
     type: source
     source_ids:
-      - SRC-0001
+      - CIV-0001
   - value: Deocleciano Muniz
     type: source
     source_ids:
-      - SRC-0005
+      - CIV-0004
 event_ids:
   - E-0001
   - E-0004

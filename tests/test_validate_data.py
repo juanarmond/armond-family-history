@@ -21,7 +21,9 @@ class RepositoryFixture:
     def __init__(self) -> None:
         self.temporary_directory = tempfile.TemporaryDirectory()
         self.root = Path(self.temporary_directory.name)
-        for directory in ("people", "families", "events", "places", "sources", "fan"):
+        for directory in (
+            "people", "families", "events", "places", "sources/civil", "fan",
+        ):
             (self.root / "data" / directory).mkdir(parents=True, exist_ok=True)
         self.documents = self._base_documents()
         self.ledger = {
@@ -31,7 +33,13 @@ class RepositoryFixture:
                 "families": [],
                 "events": [],
                 "places": [],
-                "sources": [],
+                "civil": [],
+                "government": [],
+                "parish": [],
+                "probate": [],
+                "newspapers": [],
+                "publications": [],
+                "family-recollection": [],
                 "fan": [],
             },
             "retired_ids": {
@@ -39,7 +47,13 @@ class RepositoryFixture:
                 "families": [],
                 "events": [],
                 "places": [],
-                "sources": [],
+                "civil": [],
+                "government": [],
+                "parish": [],
+                "probate": [],
+                "newspapers": [],
+                "publications": [],
+                "family-recollection": [],
                 "fan": [],
             },
         }
@@ -52,7 +66,7 @@ class RepositoryFixture:
     def _base_documents() -> dict[str, dict[str, dict[str, Any]]]:
         source = {
             "schema_version": 1,
-            "id": "SRC-0001",
+            "id": "CIV-0001",
             "title": "Example civil registration",
             "record_type": "civil birth registration",
             "record_category": "civil_registration",
@@ -83,7 +97,7 @@ class RepositoryFixture:
                     {
                         "value": "Example Parent",
                         "type": "source",
-                        "source_ids": ["SRC-0001"],
+                        "source_ids": ["CIV-0001"],
                     }
                 ],
                 "event_ids": ["E-0001"],
@@ -99,7 +113,7 @@ class RepositoryFixture:
                     {
                         "value": "Example Child",
                         "type": "source",
-                        "source_ids": ["SRC-0001"],
+                        "source_ids": ["CIV-0001"],
                     }
                 ],
                 "event_ids": ["E-0002"],
@@ -116,7 +130,7 @@ class RepositoryFixture:
                 "place_text": "Example place",
                 "participants": [{"person_id": "P-0001", "role": "principal"}],
                 "status": "confirmed",
-                "source_ids": ["SRC-0001"],
+                "source_ids": ["CIV-0001"],
                 "notes": [],
             },
             "E-0002": {
@@ -127,7 +141,7 @@ class RepositoryFixture:
                 "place_text": "Example place",
                 "participants": [{"person_id": "P-0002", "role": "principal"}],
                 "status": "confirmed",
-                "source_ids": ["SRC-0001"],
+                "source_ids": ["CIV-0001"],
                 "notes": [],
             },
         }
@@ -143,7 +157,7 @@ class RepositoryFixture:
                             "parent_id": "P-0001",
                             "relationship_type": "biological",
                             "status": "confirmed",
-                            "source_ids": ["SRC-0001"],
+                            "source_ids": ["CIV-0001"],
                             "notes": [],
                         }
                     ],
@@ -158,7 +172,7 @@ class RepositoryFixture:
             "families": {"F-0001": family},
             "events": events,
             "places": {},
-            "sources": {"SRC-0001": source},
+            "sources": {"CIV-0001": source},
         }
 
     def write_yaml(self, relative_path: str, value: Any) -> None:
@@ -172,7 +186,8 @@ class RepositoryFixture:
     def write_all(self) -> None:
         for kind, documents in self.documents.items():
             for identifier, document in documents.items():
-                self.write_yaml(f"data/{kind}/{identifier}.yaml", document)
+                subdir = "sources/civil" if kind == "sources" else kind
+                self.write_yaml(f"data/{subdir}/{identifier}.yaml", document)
         self.write_yaml("data/id-ledger.yaml", self.ledger)
         self.write_yaml(
             "research/document-inventory.yaml", {"version": 1, "documents": []}
@@ -189,7 +204,8 @@ class RepositoryFixture:
     def rewrite(self) -> None:
         for kind, documents in self.documents.items():
             for identifier, document in documents.items():
-                self.write_yaml(f"data/{kind}/{identifier}.yaml", document)
+                subdir = "sources/civil" if kind == "sources" else kind
+                self.write_yaml(f"data/{subdir}/{identifier}.yaml", document)
         self.write_yaml("data/id-ledger.yaml", self.ledger)
         inventory_path = self.root / "research/document-inventory.yaml"
         if not inventory_path.exists():
@@ -240,7 +256,7 @@ class ValidateDataTests(unittest.TestCase):
 
     def test_person_occupations_are_optional_and_source_qualified(self) -> None:
         self.fixture.documents["people"]["P-0001"]["occupations"] = [
-            {"value": "lavrador", "source_ids": ["SRC-0001"]}
+            {"value": "lavrador", "source_ids": ["CIV-0001"]}
         ]
         self.fixture.rewrite()
         result = self.fixture.validate()
@@ -448,7 +464,7 @@ class ValidateDataTests(unittest.TestCase):
         inventory_path.parent.mkdir(parents=True)
         inventory_path.write_bytes(inventory_content)
         source_path.write_bytes(source_content)
-        self.fixture.documents["sources"]["SRC-0001"]["digital_file"] = {
+        self.fixture.documents["sources"]["CIV-0001"]["digital_file"] = {
             "path": "evidence/civil/source.bin",
             "sha256": hashlib.sha256(source_content).hexdigest(),
         }
@@ -481,7 +497,7 @@ class ValidateDataTests(unittest.TestCase):
                             }
                         ],
                         "duplicate_of": None,
-                        "proposed_source_id": "SRC-0001",
+                        "proposed_source_id": "CIV-0001",
                         "notes": [],
                     }
                 ],
@@ -491,7 +507,7 @@ class ValidateDataTests(unittest.TestCase):
         self.assert_issue(
             result,
             "error",
-            "no inventoried path and checksum match SRC-0001.digital_file",
+            "no inventoried path and checksum match CIV-0001.digital_file",
         )
 
     def test_record_coverage_rejects_living_person(self) -> None:
@@ -510,7 +526,7 @@ class ValidateDataTests(unittest.TestCase):
                             {
                                 "record_type": "birth",
                                 "status": "catalogued",
-                                "source_ids": ["SRC-0001"],
+                                "source_ids": ["CIV-0001"],
                                 "last_reviewed": "2026-07-28",
                                 "notes": [],
                             }
@@ -526,7 +542,7 @@ class ValidateDataTests(unittest.TestCase):
         )
 
     def test_record_coverage_source_must_link_to_person(self) -> None:
-        self.fixture.documents["sources"]["SRC-0001"]["linked_people"] = ["P-0002"]
+        self.fixture.documents["sources"]["CIV-0001"]["linked_people"] = ["P-0002"]
         self.fixture.rewrite()
         self.fixture.write_yaml(
             "research/record-coverage.yaml",
@@ -541,7 +557,7 @@ class ValidateDataTests(unittest.TestCase):
                             {
                                 "record_type": "birth",
                                 "status": "catalogued",
-                                "source_ids": ["SRC-0001"],
+                                "source_ids": ["CIV-0001"],
                                 "last_reviewed": "2026-07-28",
                                 "notes": [],
                             }
@@ -553,7 +569,7 @@ class ValidateDataTests(unittest.TestCase):
         )
         result = self.fixture.validate()
         self.assert_issue(
-            result, "error", "SRC-0001 is not linked to coverage person P-0001"
+            result, "error", "CIV-0001 is not linked to coverage person P-0001"
         )
 
     def test_inventory_sequence_gap_is_an_error(self) -> None:
@@ -594,7 +610,7 @@ class ValidateDataTests(unittest.TestCase):
         )
 
     def test_collaborative_tree_cannot_confirm_conclusion(self) -> None:
-        source = self.fixture.documents["sources"]["SRC-0001"]
+        source = self.fixture.documents["sources"]["CIV-0001"]
         source["record_category"] = "collaborative_tree"
         source["source_form"] = "authored_narrative"
         source["information_quality"] = "secondary"
@@ -609,7 +625,7 @@ class ValidateDataTests(unittest.TestCase):
         )
 
     def test_collaborative_tree_must_be_a_lead(self) -> None:
-        source = self.fixture.documents["sources"]["SRC-0001"]
+        source = self.fixture.documents["sources"]["CIV-0001"]
         source["record_category"] = "collaborative_tree"
         source["source_form"] = "authored_narrative"
         source["information_quality"] = "secondary"
@@ -622,7 +638,7 @@ class ValidateDataTests(unittest.TestCase):
         )
 
     def test_collaborative_tree_alone_is_not_strong_evidence(self) -> None:
-        source = self.fixture.documents["sources"]["SRC-0001"]
+        source = self.fixture.documents["sources"]["CIV-0001"]
         source["record_category"] = "collaborative_tree"
         source["source_form"] = "authored_narrative"
         source["information_quality"] = "secondary"
@@ -641,7 +657,7 @@ class ValidateDataTests(unittest.TestCase):
     def test_certified_official_derivative_can_confirm_conclusion(self) -> None:
         # A certified copy of an official record (derivative form, direct
         # primary information) may support a confirmed conclusion.
-        source = self.fixture.documents["sources"]["SRC-0001"]
+        source = self.fixture.documents["sources"]["CIV-0001"]
         source["source_form"] = "derivative"
         self.fixture.rewrite()
         result = self.fixture.validate()
@@ -649,7 +665,7 @@ class ValidateDataTests(unittest.TestCase):
 
     def test_recollection_derivative_cannot_confirm_conclusion(self) -> None:
         # A weak-category source cannot confirm even in derivative form.
-        source = self.fixture.documents["sources"]["SRC-0001"]
+        source = self.fixture.documents["sources"]["CIV-0001"]
         source["source_form"] = "derivative"
         source["record_category"] = "family_recollection"
         self.fixture.rewrite()
@@ -661,17 +677,17 @@ class ValidateDataTests(unittest.TestCase):
         )
 
     def test_two_original_indirect_sources_can_confirm_conclusion(self) -> None:
-        first_source = self.fixture.documents["sources"]["SRC-0001"]
+        first_source = self.fixture.documents["sources"]["CIV-0001"]
         first_source["evidence_type"] = "indirect"
         second_source = copy.deepcopy(first_source)
-        second_source["id"] = "SRC-0002"
+        second_source["id"] = "CIV-0002"
         second_source["title"] = "Second independent civil registration"
-        self.fixture.documents["sources"]["SRC-0002"] = second_source
+        self.fixture.documents["sources"]["CIV-0002"] = second_source
         for event in self.fixture.documents["events"].values():
-            event["source_ids"].append("SRC-0002")
+            event["source_ids"].append("CIV-0002")
         self.fixture.documents["families"]["F-0001"]["children"][0][
             "parent_relationships"
-        ][0]["source_ids"].append("SRC-0002")
+        ][0]["source_ids"].append("CIV-0002")
         self.fixture.rewrite()
         result = self.fixture.validate()
         self.assertEqual((), result.errors)
@@ -720,7 +736,7 @@ class ValidateDataTests(unittest.TestCase):
         second_parent["name_variants"][0]["value"] = "Second Example Parent"
         second_parent["event_ids"] = []
         self.fixture.documents["people"]["P-0003"] = second_parent
-        self.fixture.documents["sources"]["SRC-0001"]["linked_people"].append(
+        self.fixture.documents["sources"]["CIV-0001"]["linked_people"].append(
             "P-0003"
         )
         family = self.fixture.documents["families"]["F-0001"]
@@ -730,7 +746,7 @@ class ValidateDataTests(unittest.TestCase):
                 "parent_id": "P-0003",
                 "relationship_type": "unknown",
                 "status": "confirmed",
-                "source_ids": ["SRC-0001"],
+                "source_ids": ["CIV-0001"],
                 "notes": [],
             }
         )
@@ -775,7 +791,7 @@ class ValidateDataTests(unittest.TestCase):
         duplicate["event_ids"] = []
         duplicate["family_ids"] = []
         self.fixture.documents["people"]["P-0003"] = duplicate
-        self.fixture.documents["sources"]["SRC-0001"]["linked_people"].append(
+        self.fixture.documents["sources"]["CIV-0001"]["linked_people"].append(
             "P-0003"
         )
         self.fixture.rewrite()
@@ -825,7 +841,7 @@ class ValidateDataTests(unittest.TestCase):
         self.assert_issue(result, "error", "invalid exact calendar date")
 
     def test_missing_required_source_field_is_an_error(self) -> None:
-        del self.fixture.documents["sources"]["SRC-0001"]["abstract"]
+        del self.fixture.documents["sources"]["CIV-0001"]["abstract"]
         self.fixture.rewrite()
         result = self.fixture.validate()
         self.assert_issue(result, "error", "'abstract' is a required property")
@@ -849,7 +865,7 @@ class ValidateDataTests(unittest.TestCase):
 
     def test_source_for_living_person_must_be_private(self) -> None:
         self.fixture.documents["people"]["P-0001"]["privacy"] = "living"
-        self.fixture.documents["sources"]["SRC-0001"]["private"] = False
+        self.fixture.documents["sources"]["CIV-0001"]["private"] = False
         self.fixture.rewrite()
         result = self.fixture.validate()
         self.assert_issue(result, "error", "must be private")
@@ -858,17 +874,17 @@ class ValidateDataTests(unittest.TestCase):
         self,
     ) -> None:
         self.fixture.documents["people"]["P-0001"]["privacy"] = "living"
-        source = copy.deepcopy(self.fixture.documents["sources"]["SRC-0001"])
-        source["id"] = "SRC-0002"
+        source = copy.deepcopy(self.fixture.documents["sources"]["CIV-0001"])
+        source["id"] = "CIV-0002"
         source["title"] = "Non-private relationship fixture"
         source["linked_people"] = []
         source["linked_events"] = []
         source["private"] = False
-        self.fixture.documents["sources"]["SRC-0002"] = source
+        self.fixture.documents["sources"]["CIV-0002"] = source
         relationship = self.fixture.documents["families"]["F-0001"]["children"][0][
             "parent_relationships"
         ][0]
-        relationship["source_ids"].append("SRC-0002")
+        relationship["source_ids"].append("CIV-0002")
         self.fixture.rewrite()
         result = self.fixture.validate()
         self.assert_issue(
@@ -879,7 +895,7 @@ class ValidateDataTests(unittest.TestCase):
         evidence_path = self.fixture.root / "evidence/civil/example.txt"
         evidence_path.parent.mkdir(parents=True)
         evidence_path.write_bytes(b"private test fixture")
-        self.fixture.documents["sources"]["SRC-0001"]["digital_file"] = {
+        self.fixture.documents["sources"]["CIV-0001"]["digital_file"] = {
             "path": "evidence/civil/example.txt",
             "sha256": "0" * 64,
         }

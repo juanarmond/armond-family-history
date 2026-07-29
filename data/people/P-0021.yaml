@@ -6,12 +6,12 @@ name_variants:
 - value: Francisco José de Carvalho Guimarães
   type: source
   source_ids:
-  - SRC-0010
+  - CIV-0007
 occupations:
 - value: lavrador
   source_ids:
-  - SRC-0010
-  note: SRC-0010 describes the declarant and his wife collectively as "lavradores".
+  - CIV-0007
+  note: CIV-0007 describes the declarant and his wife collectively as "lavradores".
 event_ids:
 - E-0008
 family_ids:
@@ -20,6 +20,6 @@ family_ids:
 notes:
 - text: Ahnentafel position 22.
 - text: >-
-    SRC-0010 reports him as a native of Vila do Rio Claro, a farmer resident
+    CIV-0007 reports him as a native of Vila do Rio Claro, a farmer resident
     in São Francisco do Glória in 1915, and the declarant of the retrospective
     registrations of six children.

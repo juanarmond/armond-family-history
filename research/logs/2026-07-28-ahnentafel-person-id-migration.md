@@ -45,7 +45,7 @@ was migrated with the person file.
 
 ## Evidence boundary
 
-`SRC-0003` records the owner's direct-ancestor roster and preferred-name
+`REC-0001` records the owner's direct-ancestor roster and preferred-name
 spellings. It does not confirm unsourced vital events or relationships.
 Existing document-backed conclusions retain their original sources.
 

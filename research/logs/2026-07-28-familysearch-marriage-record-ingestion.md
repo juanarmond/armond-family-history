@@ -45,9 +45,9 @@ No FamilySearch profile assertion was treated as evidence in its own right.
 ## Retained file
 
 - Inventory: `DOC-0001`.
-- Source: `SRC-0001`.
+- Source: `CIV-0001`.
 - Path:
-  `evidence/civil/SRC-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-reconstructed.png`.
+  `evidence/civil/CIV-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-reconstructed.png`.
 - SHA-256:
   `3444e92ef729f2e76a54ea7ace3f5611cd4509457a9ffb4dee59f537bc46c248`.
 - Rights: private research.
@@ -72,7 +72,7 @@ The certified copy states:
 - community-of-property regime; and
 - certified copy issued in Carangola on 6 January 2004.
 
-The full Portuguese transcription is retained in `SRC-0001`.
+The full Portuguese transcription is retained in `CIV-0001`.
 
 ## Evidence assessment
 
@@ -92,7 +92,7 @@ The validated batch created:
 - `F-0001` — their spouse relationship;
 - `E-0001` — their 21 October 1916 marriage;
 - `PL-0001` — Carangola, Minas Gerais, Brazil; and
-- `SRC-0001` — the certified marriage record.
+- `CIV-0001` — the certified marriage record.
 
 No children or parents were created as entities because this first record
 requires only the two spouses, their relationship, the marriage event and its

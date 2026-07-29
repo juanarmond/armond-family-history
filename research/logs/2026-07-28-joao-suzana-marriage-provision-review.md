@@ -31,7 +31,7 @@ The attached 1882 Catholic record resolves to:
   1616-2017`.
 
 The source was downloaded through FamilySearch's authorised `JPG Only` option
-at 4749×3774 pixels and catalogued as `SRC-0009`.
+at 4749×3774 pixels and catalogued as `PAR-0001`.
 
 ## Interpretation correction
 

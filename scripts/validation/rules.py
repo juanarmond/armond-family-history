@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Any, Iterable, Iterator, Mapping
 
 from .model import Issue, LoadedEntity, display_path, json_path, sha256_file
+from .identifiers import SOURCE_KINDS
 from .references import iter_references
 
 
@@ -56,17 +57,27 @@ def iter_status_claims(
             yield from iter_status_claims(child, path + (index,))
 
 
+def _merged_sources(
+    entities: Mapping[str, Mapping[str, LoadedEntity]],
+) -> dict[str, LoadedEntity]:
+    merged: dict[str, LoadedEntity] = {}
+    for kind in SOURCE_KINDS:
+        merged.update(entities[kind])
+    return merged
+
+
 def validate_evidence_statuses(
     root: Path,
     entities: Mapping[str, Mapping[str, LoadedEntity]],
     issues: list[Issue],
 ) -> None:
+    sources = _merged_sources(entities)
     source_data = {
-        identifier: entity.data for identifier, entity in entities["sources"].items()
+        identifier: entity.data for identifier, entity in sources.items()
     }
 
     for source_id, source in source_data.items():
-        location = display_path(entities["sources"][source_id].path, root)
+        location = display_path(sources[source_id].path, root)
         if (
             source.get("record_category") in LEAD_ONLY_CATEGORIES
             and source.get("usage") != "lead_only"
@@ -533,7 +544,7 @@ def source_ids_used_by_person(
                         for identifier in relationship.get("source_ids", [])
                         if isinstance(identifier, str)
                     )
-    for source_id, source in entities["sources"].items():
+    for source_id, source in _merged_sources(entities).items():
         if person_id in source.data.get("linked_people", []):
             source_ids.add(source_id)
     return source_ids
@@ -544,11 +555,12 @@ def validate_privacy(
     entities: Mapping[str, Mapping[str, LoadedEntity]],
     issues: list[Issue],
 ) -> None:
+    sources = _merged_sources(entities)
     for person_id, person in entities["people"].items():
         if person.data.get("privacy") != "living":
             continue
         for source_id in source_ids_used_by_person(person_id, entities):
-            source = entities["sources"].get(source_id)
+            source = sources.get(source_id)
             if source is not None and source.data.get("private") is not True:
                 issues.append(
                     Issue(
@@ -564,7 +576,7 @@ def validate_evidence_files(
     entities: Mapping[str, Mapping[str, LoadedEntity]],
     issues: list[Issue],
 ) -> None:
-    checked = list(entities["sources"].values()) + list(entities["fan"].values())
+    checked = list(_merged_sources(entities).values()) + list(entities["fan"].values())
     for source in checked:
         digital_file = source.data.get("digital_file")
         if not isinstance(digital_file, dict):

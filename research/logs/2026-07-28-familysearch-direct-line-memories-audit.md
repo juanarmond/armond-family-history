@@ -28,15 +28,15 @@ changed.
 | `P-0001` | `GQJ1-N2D` | 7 | Six personal civil PDFs concerning living people and one academic article; none retained |
 | `P-0002` | `GQJ1-KSS` | 0 | No Memories |
 | `P-0003` | `GQJ1-V1L` | 0 | No Memories |
-| `P-0004` | `GQJ1-RVK` | 4 | `SRC-0004` plus the three alternate `SRC-0002` photographs |
-| `P-0005` | `GQJ1-K3M` | 4 | One unsourced genealogical display plus the three `SRC-0002` photographs |
-| `P-0006` | `GQVM-HXH` | 1 | Existing `SRC-0005` certificate |
-| `P-0007` | `GQJ1-HG4` | 1 | Same Memory as `SRC-0005`; not a second source |
+| `P-0004` | `GQJ1-RVK` | 4 | `CIV-0003` plus the three alternate `CIV-0002` photographs |
+| `P-0005` | `GQJ1-K3M` | 4 | One unsourced genealogical display plus the three `CIV-0002` photographs |
+| `P-0006` | `GQVM-HXH` | 1 | Existing `CIV-0004` certificate |
+| `P-0007` | `GQJ1-HG4` | 1 | Same Memory as `CIV-0004`; not a second source |
 | `P-0008` | `GW4P-R9Z` | 1 | Shared 1975 newspaper issue already rejected as vital-record evidence |
 | `P-0009` | `GQJ1-ZNC` | 1 | Same 1975 newspaper issue, Memory `120876994` |
 | `P-0010` | `GNZY-KT4` | 0 | No Memories |
 | `P-0011` | `GQVR-167` | 0 | No Memories |
-| `P-0012` | `GQVM-3QD` | 5 | One portrait, `SRC-0001`, and a newly catalogued three-page certificate |
+| `P-0012` | `GQVM-3QD` | 5 | One portrait, `CIV-0001`, and a newly catalogued three-page certificate |
 | `P-0013` | `GQVM-4YJ` | 5 | Same five Memories as `P-0012`; no duplicate sources created |
 | `P-0014` | `GQJ1-J6P` | 6 | Historical family/house photographs and duplicate crops; no civil or parish record |
 | `P-0015` | `G7PC-6K5` | 3 | Three photographs shared with `P-0014`; no civil or parish record |
@@ -70,7 +70,7 @@ Carangola on 15 July 2019:
 
 The certificate identifies book 8-B, page 118 and record 62 for the 21 October
 1916 marriage of Deocleciano Muniz Bittencourt and Luiza Fernandes de Azevedo.
-It is catalogued once as `SRC-0007`, not as three sources. All three authorised
+It is catalogued once as `CIV-0006`, not as three sources. All three authorised
 original-upload JPEGs were retained at their encoded resolutions.
 
 ## Preservation upgrades
@@ -81,11 +81,11 @@ authorised original-file or original-image downloads:
 
 | Source | Previous pixels | Retained pixels | Retained form |
 | --- | ---: | ---: | --- |
-| `SRC-0001` | 718×1205 | 718×1205 | originally uploaded JPEG |
-| `SRC-0002` | 756×1008 | 3024×4032 | originally uploaded JPEG |
-| `SRC-0004` | 1196×868 | 4783×3469 | original-image `JPG Only` download |
-| `SRC-0005` | 612×816 | 2448×3264 | originally uploaded JPEG |
-| `SRC-0006` | 1093×835 | 4372×3340 | original-image `JPG Only` download |
+| `CIV-0001` | 718×1205 | 718×1205 | originally uploaded JPEG |
+| `CIV-0002` | 756×1008 | 3024×4032 | originally uploaded JPEG |
+| `CIV-0003` | 1196×868 | 4783×3469 | original-image `JPG Only` download |
+| `CIV-0004` | 612×816 | 2448×3264 | originally uploaded JPEG |
+| `CIV-0005` | 1093×835 | 4372×3340 | original-image `JPG Only` download |
 
 The superseded reconstructions remain recoverable from Git history. No
 genealogical conclusion changed because each new file depicts the same
@@ -104,7 +104,7 @@ identity, rights and duplicate handling become an active objective.
 ## Conclusion
 
 The currently mapped direct-line Memories pages are fully audited. The only
-new qualifying record is `SRC-0007`; all other document Memories were already
+new qualifying record is `CIV-0006`; all other document Memories were already
 catalogued, duplicated an existing source, concerned living people, or were not
 genealogical records. The six Public living-person civil PDFs require an owner
 privacy decision.
@@ -113,7 +113,7 @@ privacy decision.
 
 1. Ask the repository owner whether the six Public civil Memories on `P-0001`
    may be changed to Private or Private to Group.
-2. Complete a diplomatic transcription of `SRC-0007` pages 2–3 when useful.
+2. Complete a diplomatic transcription of `CIV-0006` pages 2–3 when useful.
 3. Resume the search for Liliosa's own 1946 death or burial record.
 
 ## Later amendment
@@ -121,7 +121,7 @@ privacy decision.
 The owner subsequently authorised private-repository retention of the
 `P-0001` civil PDFs. On reinspection later on 28 July 2026, all seven Memories
 displayed `Private`; no visibility setting was changed by the research agent.
-Six unique files were catalogued as `SRC-0011` through `SRC-0016`. The two
+Six unique files were catalogued as `CIV-0008` through `PUB-0001`. The two
 birth Memory entries yielded one byte-identical PDF and were deduplicated to a
 single preservation file. See
 `2026-07-28-familysearch-living-profile-download-and-article-review.md`.

@@ -4,9 +4,9 @@
 
 Does each catalogued source's YAML transcription faithfully match its document
 image without missing or invented detail, and can open-web research advance the
-three gaps flagged by the audit: the 1882 provision parish (SRC-0009),
-Cidalia's father's surname (SRC-0002) and a possible 1946 death date for
-Liliosa Paz Armond (SRC-0002)?
+three gaps flagged by the audit: the 1882 provision parish (PAR-0001),
+Cidalia's father's surname (CIV-0002) and a possible 1946 death date for
+Liliosa Paz Armond (CIV-0002)?
 
 ## Authorisation and method
 
@@ -20,28 +20,28 @@ session, so FamilySearch record images were not retrieved.
 
 ## Document-audit results
 
-- SRC-0004 (Geraldo death): the entry is 39006, not 39005; 39005 is the
+- CIV-0003 (Geraldo death): the entry is 39006, not 39005; 39005 is the
   unrelated infant "Edvânia de Souza Neves" on the facing page 556. Added the
   cause of death (desequilíbrio metabólico), registration date and
   son-declarant (P-0002, identifiers withheld). Register states "um filho".
-- SRC-0006 (Aristão death): added cause (arteriosclerose generalizada), time
+- CIV-0005 (Aristão death): added cause (arteriosclerose generalizada), time
   and place of death and declarant João Malheiros; flagged an uncertain
   "Amaral, dito Armond" alias in the surname.
-- SRC-0005 (Antenor x Iris 1949 marriage): the certificate is largely legible.
+- CIV-0004 (Antenor x Iris 1949 marriage): the certificate is largely legible.
   Recovered the register (livro 5, fls 66-v), corrected the observations
   ("Selada na forma da lei"), and extracted both spouses' reported births:
   Antenor 2 November 1923 (Alvorada) and Iris 27 February 1929 (Presidente
   Soares). Structured as events E-0017 and E-0018 with place PL-0009.
-- SRC-0011 (subject's birth): added the register citation (livro A-350, folha
+- CIV-0008 (subject's birth): added the register citation (livro A-350, folha
   98, no. 24241, Talao 300524), hospital and time.
-- SRC-0001, SRC-0002, SRC-0007, SRC-0008, SRC-0010, SRC-0012 through SRC-0016
+- CIV-0001, CIV-0002, CIV-0006, GOV-0001, CIV-0007, CIV-0009 through PUB-0001
   matched their YAML records; no correction required beyond trivial spelling.
 
 ## Online-lead results
 
 - Santo Antônio de Sapucaia (Rio de Janeiro) was a freguesia from 1871, so it
   existed at the 23 December 1882 provision. This, with Deocleciano's Sapucaia
-  birthplace (SRC-0001), strengthens the reading that the SRC-0009 provision
+  birthplace (CIV-0001), strengthens the reading that the PAR-0001 provision
   was directed to Sapucaia rather than the Espírito Santo parish.
 - Published family history (Mauro Senra, "Ferreira Armond — Uma Família
   Mineira") names Simplício Ferreira Armond married to Elisa Balbina Tolledo,
@@ -72,5 +72,5 @@ events, and the online findings were recorded as unverified leads only.
 With authorised FamilySearch access: (1) retrieve the original 1982 civil birth
 register image to allow the subject's parentage to reach `confirmed`;
 (2) inspect the Piacatuba (Leopoldina) baptism books for Simplício Ferreira
-Armond's children including Aristão; and (3) re-examine the SRC-0009 image at
+Armond's children including Aristão; and (3) re-examine the PAR-0001 image at
 full resolution to settle the Sapucaia-versus-Espírito-Santo parish question.

@@ -18,17 +18,17 @@ inventário: it is a third party's estate in which he was summoned as a *louvado
 subject of the record. Because the document is about the deceased of another
 family, it is a FAN reference, not a source about ours. If Simplício's *own*
 inventário is ever located it will be catalogued as a subject source in
-`evidence/probate/` (like SRC-0017), not stored here.
+`evidence/probate/` (like PRB-0001), not stored here.
 
 The two **subject** records from the same Full-Text batch (about the family
 itself) were catalogued and moved to `evidence/probate/`:
-- **SRC-0017** — 1881 Leopoldina inventário heir list (Eliza Balbina de Toledo +
+- **PRB-0001** — 1881 Leopoldina inventário heir list (Eliza Balbina de Toledo +
   her Toledo siblings).
-- **SRC-0018** — 1884 Leopoldina petition of Simplício, heir of D. Mathilde
+- **PRB-0002** — 1884 Leopoldina petition of Simplício, heir of D. Mathilde
   Maria de Jezus.
 
 The 1973 driver registry (ARK `3:1:3QHV-L7VF-WWJN`) was a **duplicate of
-SRC-0008** and was removed. The full candidate list (including non-downloaded and
+GOV-0001** and was removed. The full candidate list (including non-downloaded and
 false-positive rows) is in `fulltext_candidates.csv`.
 
 | File | FamilySearch ARK | Record (date · place) | Our person's role |

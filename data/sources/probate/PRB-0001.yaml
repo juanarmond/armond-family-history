@@ -1,5 +1,5 @@
 schema_version: 1
-id: SRC-0017
+id: PRB-0001
 title: >-
   1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza
   Balbina de Toledo (wife of Simplício José Ferreira Armond)
@@ -21,12 +21,12 @@ repository:
     Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text)
   page: "9"
   catalogue_reference: >-
-    FamilySearch ARK 3:1:3QHJ-YQWY-R9GH. Same estate file as SRC-0018 and the
+    FamilySearch ARK 3:1:3QHJ-YQWY-R9GH. Same estate file as PRB-0002 and the
     non-imaged page ARK 3:1:3QHJ-RQWY-RWJV, which captions these heirs "Primeiros
     Nettos".
   url: https://www.familysearch.org/ark:/61903/3:1:3QHJ-YQWY-R9GH
   repository_path: >-
-    evidence/probate/SRC-0017-probate-toledo-heir-list-leopoldina-1881-original.jpg
+    evidence/probate/PRB-0001-probate-toledo-heir-list-leopoldina-1881-original.jpg
 access_date: "2026-07-29"
 language: pt-BR
 transcription: >-
@@ -47,7 +47,7 @@ abstract: >-
   de Toledo (~23, b. ~1858), Geraldo Augusto de Toledo Lima (~15, b. ~1866, then
   living in Rio de Janeiro), and Josepha Olympia da Paixão (~12, b. ~1869), plus a
   predeceased Carolina Leopoldina Marques inheriting by representation. The
-  companion 1884 petition (SRC-0018) names the decedent as D. Mathilde Maria de
+  companion 1884 petition (PRB-0002) names the decedent as D. Mathilde Maria de
   Jezus.
 reliability:
   assessment: >-
@@ -66,7 +66,7 @@ reliability:
     Ferreira de Toledo parent. Read from a FamilySearch Full-Text preview image.
 digital_file:
   path: >-
-    evidence/probate/SRC-0017-probate-toledo-heir-list-leopoldina-1881-original.jpg
+    evidence/probate/PRB-0001-probate-toledo-heir-list-leopoldina-1881-original.jpg
   sha256: 13f9f5208253b0ce584d0865aa239033e1f4a1cb00cedc1c1cbc4d9af855c374
 linked_people:
 - P-0016

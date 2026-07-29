@@ -12,23 +12,23 @@ children:
     relationship_type: biological
     status: confirmed
     source_ids:
-    - SRC-0011
-    - SRC-0012
+    - CIV-0008
+    - CIV-0009
     notes: []
   - parent_id: P-0003
     relationship_type: biological
     status: confirmed
     source_ids:
-    - SRC-0011
-    - SRC-0012
+    - CIV-0008
+    - CIV-0009
     notes: []
   notes: []
 event_ids: []
 notes:
 - text: >-
     This family group records the parents named on Juan Carlos Muniz Armond's
-    certified birth certificate (SRC-0011), corroborated by his Ontario
-    marriage record (SRC-0012). Both are certified copies of official civil
+    certified birth certificate (CIV-0008), corroborated by his Ontario
+    marriage record (CIV-0009). Both are certified copies of official civil
     records giving direct primary information on his parentage, so the
     parent-child conclusions are confirmed. This does not independently assert a
     marriage or partnership between the parents.

@@ -115,7 +115,7 @@ FamilySearch catalog/images and Blogger post bodies are login/JS-walled.
 
 - **Two records, two custodies (key refinement):**
   1. The **1882 provision + matrimonial habilitação (banhos)** → Arquivo da
-     Cúria Metropolitana do Rio de Janeiro (ACMRJ). SRC-0009 is DGS 004626365,
+     Cúria Metropolitana do Rio de Janeiro (ACMRJ). PAR-0001 is DGS 004626365,
      item 1, image 21/35, page 191, filmed from the **Sé / Santíssimo Sacramento
      provisões volume** — not a Sapucaia parish book. A fuller habilitação
      process (naming both spouses' parents, ages, naturalidade, witnesses)
@@ -128,7 +128,7 @@ FamilySearch catalog/images and Blogger post bodies are login/JS-walled.
      27 Mar 1925). **Ruled out:** the Cúria de Niterói (ASBRAP holdings survey
      lists its parishes; Sapucaia is not among them) and the Cúria do Rio for
      the completed assento.
-- **FamilySearch:** DGS 004626365 is online (SRC-0009 already held). Candidate
+- **FamilySearch:** DGS 004626365 is online (PAR-0001 already held). Candidate
   catalog 145484 "Registros paroquiais 1880-1971" — parish unconfirmed, check
   logged in. FamilySearch coverage of Sapucaia's own casamentos register is not
   demonstrated (the provision was filmed from the Sé volume).

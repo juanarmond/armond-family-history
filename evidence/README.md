@@ -39,9 +39,11 @@ sources. See the set-level `references/<set>/README.md`.
 5. Remove unnecessary identity numbers, addresses, signatures and financial
    information from public derivatives; retain an unredacted copy only when
    essential to the private research purpose.
-6. Allocate the source ID before naming the file.
+6. Allocate the source ID before naming the file. Its prefix is the source's
+   category (`CIV`, `GOV`, `PAR`, `PRB`, `NWS`, `PUB`, `REC`), matching this
+   folder and the `data/sources/<category>/` record.
 7. Use
-   `SRC-NNNN-record-type-primary-person-event-year.ext`, using lowercase
+   `<PFX>-NNNN-record-type-primary-person-event-year.ext`, using lowercase
    ASCII for the descriptive portion while preserving the person's recorded
    name inside the source record.
 8. Record the acquisition method, resolution status, pixel dimensions and

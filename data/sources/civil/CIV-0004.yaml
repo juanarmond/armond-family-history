@@ -1,5 +1,5 @@
 schema_version: 1
-id: SRC-0005
+id: CIV-0004
 title: Marriage certificate of Antenor Muniz and Iris Bohrer
 record_type: Civil marriage certificate
 record_category: civil_registration
@@ -22,7 +22,7 @@ repository:
     FamilySearch source SVMX-ZJ4; Memory artifact 101538413; storage identifier
     TH-904-96953-4744-84
   url: https://www.familysearch.org/en/memories/memory/101538413
-  repository_path: evidence/civil/SRC-0005-marriage-antenor-muniz-iris-bohrer-1949-original.jpg
+  repository_path: evidence/civil/CIV-0004-marriage-antenor-muniz-iris-bohrer-1949-original.jpg
 access_date: "2026-07-28"
 language: pt-BR
 transcription: >-
@@ -60,7 +60,7 @@ reliability:
     records. The repository retains the originally uploaded JPEG at its
     authorised download resolution.
 digital_file:
-  path: evidence/civil/SRC-0005-marriage-antenor-muniz-iris-bohrer-1949-original.jpg
+  path: evidence/civil/CIV-0004-marriage-antenor-muniz-iris-bohrer-1949-original.jpg
   sha256: 32719dcd87a06322013b0760a5a0745ad713f86876a6fd05d7dd8516420f631e
 linked_people:
 - P-0006

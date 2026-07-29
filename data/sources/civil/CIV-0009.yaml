@@ -1,5 +1,5 @@
 schema_version: 1
-id: SRC-0012
+id: CIV-0009
 title: >-
   Ontario photostatic marriage record for Juan Carlos Muniz Armond and Vanessa
   Araujo Bevilacqua
@@ -22,7 +22,7 @@ repository:
     Bevilacqua - Casamento Canada.pdf"
   url: https://www.familysearch.org/en/memories/memory/120433442
   repository_path: >-
-    evidence/civil/SRC-0012-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2003-ontario-original.pdf
+    evidence/civil/CIV-0009-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2003-ontario-original.pdf
 access_date: "2026-07-28"
 language: en-CA
 abstract: >-
@@ -42,7 +42,7 @@ reliability:
     signatures and full vital details for living people.
 digital_file:
   path: >-
-    evidence/civil/SRC-0012-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2003-ontario-original.pdf
+    evidence/civil/CIV-0009-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2003-ontario-original.pdf
   sha256: 2d8d570c217c63f09532260d88d426a16de7ddfdd59c5628d5edfaba12e6397a
 linked_people:
   - P-0001

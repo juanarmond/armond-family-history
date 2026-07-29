@@ -27,7 +27,7 @@ navigation leads only.
 
 This source resolves to person-record ARK `1:1:77DD-TXN2`, Aristão's mention as
 the father of Geraldo Paz Armond in Geraldo's 1991 death registration. That
-original record is already catalogued as `SRC-0004`. It is not Aristão's own
+original record is already catalogued as `CIV-0003`. It is not Aristão's own
 death registration and received no new source identifier.
 
 ### Source `SPY9-YNF`
@@ -70,9 +70,9 @@ again.
 ## Retained file
 
 - Inventory: `DOC-0005`.
-- Source: `SRC-0006`.
+- Source: `CIV-0005`.
 - Path:
-  `evidence/civil/SRC-0006-death-aristao-ferreira-armond-1957-reconstructed.png`.
+  `evidence/civil/CIV-0005-death-aristao-ferreira-armond-1957-reconstructed.png`.
 - SHA-256:
   `1fe17dd798c6754613aac5e3d3ea3bf006bbb803d32df4258698bdcde5e32456`.
 - Dimensions: 1093×835 pixels.
@@ -107,7 +107,7 @@ birth, baptism or marriage record closer to the parent-child relationships.
 
 The validated batch prepares:
 
-- `SRC-0006` — Aristão's civil death registration;
+- `CIV-0005` — Aristão's civil death registration;
 - `E-0005` — the confirmed death event;
 - `P-0016` — Simplicio Armand;
 - `P-0017` — Eliza Ferreira Armand; and

@@ -22,7 +22,7 @@ The following searches were completed in FamilySearch historical records:
 
 1. The profile-generated search returned 3,234 broad results. The first
    relevant result was only Aristão's already-catalogued mention as Geraldo
-   Paz Armond's father in `SRC-0004`.
+   Paz Armond's father in `CIV-0003`.
 2. Exact `Aristao` and `Armond`, Minas Gerais, birth range 1875–1885: no
    results.
 3. Exact accented form `Aristão`, with the same place and date range: no

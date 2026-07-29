@@ -12,13 +12,13 @@ children:
     relationship_type: unknown
     status: strong-evidence
     source_ids:
-    - SRC-0005
+    - CIV-0004
     notes: []
   - parent_id: P-0015
     relationship_type: unknown
     status: strong-evidence
     source_ids:
-    - SRC-0005
+    - CIV-0004
     notes: []
   notes: []
 event_ids: []

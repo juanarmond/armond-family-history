@@ -18,7 +18,7 @@ siblings, including the direct ancestor named in the entry as **Maria Amora
 Guimarães**.
 
 The authorised FamilySearch Download action supplied the originally uploaded
-768×1040 JPEG. That file is retained as `SRC-0010`; no thumbnail, screenshot,
+768×1040 JPEG. That file is retained as `CIV-0007`; no thumbnail, screenshot,
 crop, reconstruction or upscaled derivative is used.
 
 ## Material statements
@@ -98,7 +98,7 @@ established, so it has not been catalogued as evidence for this family.
 
 ## Structured ingestion
 
-`SRC-0010` supports:
+`CIV-0007` supports:
 
 - six new direct-ancestor person entities;
 - three family groups, without inventing partnerships for reported

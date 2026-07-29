@@ -10,6 +10,7 @@ from typing import Any, Mapping
 import yaml
 from jsonschema import Draft202012Validator
 
+from .identifiers import SOURCE_KINDS
 from .model import (
     Issue,
     LoadedEntity,
@@ -119,6 +120,10 @@ def validate_document_inventory(
     if not isinstance(documents, list):
         return
 
+    source_entities: dict[str, LoadedEntity] = {}
+    for kind in SOURCE_KINDS:
+        source_entities.update(entities[kind])
+
     by_id: dict[str, tuple[int, dict[str, Any]]] = {}
     file_owners: dict[str, str] = {}
     hash_owners: dict[str, set[str]] = defaultdict(set)
@@ -160,7 +165,7 @@ def validate_document_inventory(
                 proposed_sources[proposed_source_id] = inventory_id
             if (
                 document.get("status") == "catalogued"
-                and proposed_source_id not in entities["sources"]
+                and proposed_source_id not in source_entities
             ):
                 issues.append(
                     Issue(
@@ -260,9 +265,9 @@ def validate_document_inventory(
         if (
             document.get("status") == "catalogued"
             and isinstance(proposed_source_id, str)
-            and proposed_source_id in entities["sources"]
+            and proposed_source_id in source_entities
         ):
-            source = entities["sources"][proposed_source_id].data
+            source = source_entities[proposed_source_id].data
             digital_file = source.get("digital_file")
             if not isinstance(digital_file, dict):
                 issues.append(

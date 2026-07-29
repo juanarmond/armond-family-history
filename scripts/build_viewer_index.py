@@ -7,7 +7,7 @@ import argparse
 import json
 from pathlib import Path
 
-ENTITY_DIRECTORIES = ("people", "families", "events", "places", "sources", "fan")
+ENTITY_DIRECTORIES = ("people", "families", "events", "places", "fan")
 
 
 def build_index(data_root: Path) -> dict[str, list[str]]:
@@ -15,6 +15,14 @@ def build_index(data_root: Path) -> dict[str, list[str]]:
     for kind in ENTITY_DIRECTORIES:
         directory = data_root / kind
         index[kind] = sorted(path.stem for path in directory.glob("*.yaml")) if directory.exists() else []
+    # Sources live in category subfolders (data/sources/<category>/); aggregate
+    # them under a single "sources" key for the viewer.
+    sources_root = data_root / "sources"
+    index["sources"] = (
+        sorted(path.stem for path in sources_root.rglob("*.yaml"))
+        if sources_root.exists()
+        else []
+    )
     return index
 
 

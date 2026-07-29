@@ -6,13 +6,13 @@ name_variants:
   - value: Antenor Muniz
     type: source
     source_ids:
-      - SRC-0003
-      - SRC-0005
-      - SRC-0011
+      - REC-0001
+      - CIV-0004
+      - CIV-0008
 occupations:
   - value: da lavoura
     source_ids:
-      - SRC-0005
+      - CIV-0004
     note: >-
       His 1949 marriage certificate records "profissão da lavoura" (agricultural
       work).

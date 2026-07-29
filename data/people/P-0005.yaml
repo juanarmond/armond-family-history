@@ -6,20 +6,20 @@ name_variants:
 - value: Cidalia Engracio Guimarães
   type: source
   source_ids:
-  - SRC-0002
+  - CIV-0002
 - value: Cidalia Engracio Armond
   type: married
   source_ids:
-  - SRC-0002
+  - CIV-0002
 - value: Cidalia Igracio Armond
   type: source
   source_ids:
-  - SRC-0011
+  - CIV-0008
   note: Name form reported in the repository subject's birth certificate.
 occupations:
 - value: doméstica
   source_ids:
-  - SRC-0002
+  - CIV-0002
 event_ids:
 - E-0002
 - E-0003

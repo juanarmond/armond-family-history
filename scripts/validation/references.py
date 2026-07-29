@@ -5,6 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any, Iterator, Mapping
 
+from .identifiers import SOURCE_KINDS
 from .model import Issue, LoadedEntity, display_path, json_path
 
 
@@ -56,7 +57,13 @@ def validate_references(
         for entity in kind_entities.values():
             location = display_path(entity.path, root)
             for target_kind, identifier, path in iter_references(entity.data):
-                if identifier not in entities[target_kind]:
+                if target_kind == "sources":
+                    resolved = any(
+                        identifier in entities[kind] for kind in SOURCE_KINDS
+                    )
+                else:
+                    resolved = identifier in entities[target_kind]
+                if not resolved:
                     issues.append(
                         Issue(
                             "error",

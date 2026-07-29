@@ -1,5 +1,5 @@
 schema_version: 1
-id: SRC-0013
+id: CIV-0010
 title: >-
   Italian full transcription of the Ontario marriage of Juan Carlos Muniz
   Armond and Vanessa Araujo Bevilacqua
@@ -23,7 +23,7 @@ repository:
     Bevilacqua - Casamento ATTI DI MATRIMONIO.pdf"
   url: https://www.familysearch.org/en/memories/memory/120433440
   repository_path: >-
-    evidence/civil/SRC-0013-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-transcription-original.pdf
+    evidence/civil/CIV-0010-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-transcription-original.pdf
 access_date: "2026-07-28"
 language: it
 abstract: >-
@@ -43,7 +43,7 @@ reliability:
     signatures concerning living people.
 digital_file:
   path: >-
-    evidence/civil/SRC-0013-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-transcription-original.pdf
+    evidence/civil/CIV-0010-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-transcription-original.pdf
   sha256: a7315fb7e6ddc22b47cdc42abeeaecbeb60b1285fa1eea4053a394d917dd5011
 linked_people:
   - P-0001
@@ -56,7 +56,7 @@ private: true
 notes:
   - text: >-
       This is a distinct official manifestation of the marriage, not a
-      duplicate of SRC-0012, SRC-0014 or SRC-0015.
+      duplicate of CIV-0009, CIV-0011 or CIV-0012.
   - text: >-
       FamilySearch's authorised Download action supplied the exact uploaded
       one-page PDF. It is excluded from public derivatives.

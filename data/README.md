@@ -10,7 +10,13 @@ in `schemas/`.
 | `families/` | `F-0001` | `schemas/family.schema.json` |
 | `events/` | `E-0001` | `schemas/event.schema.json` |
 | `places/` | `PL-0001` | `schemas/place.schema.json` |
-| `sources/` | `SRC-0001` | `schemas/source.schema.json` |
+| `sources/civil/` | `CIV-0001` | `schemas/source.schema.json` |
+| `sources/government/` | `GOV-0001` | `schemas/source.schema.json` |
+| `sources/parish/` | `PAR-0001` | `schemas/source.schema.json` |
+| `sources/probate/` | `PRB-0001` | `schemas/source.schema.json` |
+| `sources/newspapers/` | `NWS-0001` | `schemas/source.schema.json` |
+| `sources/publications/` | `PUB-0001` | `schemas/source.schema.json` |
+| `sources/family-recollection/` | `REC-0001` | `schemas/source.schema.json` |
 | `fan/` | `FAN-0001` | `schemas/fan.schema.json` |
 
 `fan/` holds FAN references (Friends / Associates / Neighbours): records where
@@ -20,6 +26,38 @@ evidence: their `usage` is always `context`, they carry no conclusion status,
 and each names the people it involves under `participants` (with a role). People
 link back through an optional `fan_references` list. Use a FAN entity for a
 third-party record; catalogue a record *about* the family as a `source` instead.
+
+## Source categories
+
+Sources are one concept split into category subfolders by the record's origin,
+mirroring the `evidence/` layout. Each category is its own entity kind with an
+immutable ID prefix:
+
+| Category | Prefix | Typical `record_category` |
+| --- | --- | --- |
+| `sources/civil/` | `CIV` | `civil_registration` |
+| `sources/government/` | `GOV` | `government_record`, `official_index` |
+| `sources/parish/` | `PAR` | `parish_register` |
+| `sources/probate/` | `PRB` | `court_or_probate` |
+| `sources/newspapers/` | `NWS` | `newspaper` |
+| `sources/publications/` | `PUB` | `published_genealogy` |
+| `sources/family-recollection/` | `REC` | `family_recollection` |
+
+The finer record type stays in the source's `record_category` field (the single
+source of truth); the prefix is the coarse origin. The evidence file for a source
+carries the same prefix (for example `evidence/civil/CIV-0001-...jpg`). IDs are
+immutable: reclassifying a record moves its file but never renumbers it, so the
+`source_ids` references elsewhere never break.
+
+To add a new source category, follow the pattern end to end:
+
+1. Add an `EntityConfig` in `scripts/validation/identifiers.py` (its prefix and
+   `sources/<category>/` directory, sharing `source.schema.json`) and list the
+   kind in `SOURCE_KINDS`.
+2. Add a reserved and a retired section for it in `data/id-ledger.yaml`.
+3. Add a `templates/entities/<singular>.yaml` with the `<PFX>-NNNN` placeholder.
+4. Add the prefix to `SOURCE_DIR` in `family-tree-viewer/data-loader.js`.
+5. Allow the prefix in `common.schema.json`'s `sourceId` pattern.
 
 Entity directories are created only with their first YAML record. A missing
 empty directory is valid and must not be preserved with placeholder files.
@@ -59,7 +97,7 @@ schemas until completed. If a process stops after reserving an ID but before
 creating the draft, recover it with:
 
 ```console
-python3 scripts/new_entity.py materialize SRC-0001
+python3 scripts/new_entity.py materialize CIV-0001
 ```
 
 Do not hand-edit an ID to reuse it. If an allocated entity is permanently
@@ -68,8 +106,8 @@ abandoned, preserve its identifier in `retired_ids`.
 Promote completed, mutually dependent drafts as one validated batch:
 
 ```console
-python3 scripts/new_entity.py promote P-0001 SRC-0001 --dry-run
-python3 scripts/new_entity.py promote P-0001 SRC-0001
+python3 scripts/new_entity.py promote P-0001 CIV-0001 --dry-run
+python3 scripts/new_entity.py promote P-0001 CIV-0001
 ```
 
 The command validates a staged prospective repository before touching live

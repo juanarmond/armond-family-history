@@ -29,13 +29,13 @@ the agent made no FamilySearch visibility mutation.
 
 | Memory | Storage ID | Uploaded file | Result |
 | --- | --- | --- | --- |
-| `120433441` | `TH-7783-105179-4791-76` | `Juan Armond - Nascimento.pdf` | Catalogued as `SRC-0011` |
+| `120433441` | `TH-7783-105179-4791-76` | `Juan Armond - Nascimento.pdf` | Catalogued as `CIV-0008` |
 | `120433439` | `TH-7782-105179-4562-84` | `Juan Armond - Nascimento.pdf` | Byte-identical duplicate of `120433441`; provenance retained, no second file |
-| `120433442` | `TH-7781-105179-4634-2` | `Juan Armond e Vanessa Bevilacqua - Casamento Canada.pdf` | Catalogued as `SRC-0012` |
-| `120433440` | `TH-7781-105179-4633-99` | `Juan Armond e Vanessa Bevilacqua - Casamento ATTI DI MATRIMONIO.pdf` | Catalogued as `SRC-0013` |
-| `120433443` | `TH-7783-105179-4793-62` | `Juan Armond e Vanessa Bevilacqua - Casamento Italia.pdf` | Catalogued as `SRC-0014` |
-| `120433444` | `TH-7782-105179-4564-90` | `Juan Armond e Vanessa Bevilacqua - Casamento Italia 1.pdf` | Catalogued as `SRC-0015` |
-| `101592607` | `TH-904-96969-1013-75` | Chagas dissertation PDF | Catalogued as `SRC-0016` |
+| `120433442` | `TH-7781-105179-4634-2` | `Juan Armond e Vanessa Bevilacqua - Casamento Canada.pdf` | Catalogued as `CIV-0009` |
+| `120433440` | `TH-7781-105179-4633-99` | `Juan Armond e Vanessa Bevilacqua - Casamento ATTI DI MATRIMONIO.pdf` | Catalogued as `CIV-0010` |
+| `120433443` | `TH-7783-105179-4793-62` | `Juan Armond e Vanessa Bevilacqua - Casamento Italia.pdf` | Catalogued as `CIV-0011` |
+| `120433444` | `TH-7782-105179-4564-90` | `Juan Armond e Vanessa Bevilacqua - Casamento Italia 1.pdf` | Catalogued as `CIV-0012` |
+| `101592607` | `TH-904-96969-1013-75` | Chagas dissertation PDF | Catalogued as `PUB-0001` |
 
 The two birth downloads both have SHA-256
 `10ea2916d9b5bf9f551261dad3b7a4025d5e569a5422838b0c3d48764bb69fb2`.
@@ -50,12 +50,12 @@ addresses, contact details or signatures.
 
 ## Civil-record evidence
 
-`SRC-0011` directly reports the repository subject's birth and parentage and
+`CIV-0008` directly reports the repository subject's birth and parentage and
 names both sets of grandparents. It corroborates the existing working roster
 without resolving any disputed deceased-ancestor fact.
 
-`SRC-0012` directly records the legal marriage in Toronto on 16 August 2003 and
-reports the parties' parentage. `SRC-0013`, `SRC-0014` and `SRC-0015` are later
+`CIV-0009` directly records the legal marriage in Toronto on 16 August 2003 and
+reports the parties' parentage. `CIV-0010`, `CIV-0011` and `CIV-0012` are later
 Italian civil-registry manifestations of that same event. They corroborate the
 marriage but are not independent original-event observations.
 
@@ -101,8 +101,8 @@ conclusion about this repository's documented Armond line.
 
 ## Conclusion
 
-Six unique original PDFs were retained and catalogued as `SRC-0011` through
-`SRC-0016`. One duplicated birth upload was reduced to a single preservation
+Six unique original PDFs were retained and catalogued as `CIV-0008` through
+`PUB-0001`. One duplicated birth upload was reduced to a single preservation
 file without losing either Memory's provenance. The civil records provide
 private evidence about living people. The dissertation adds a useful secondary
 lead to Lacerda's work and the 1804 Barbacena marriages, but it does not prove

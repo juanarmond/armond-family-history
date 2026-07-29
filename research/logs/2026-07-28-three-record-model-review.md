@@ -14,14 +14,14 @@ FamilySearch ingestion.
 
 The review used:
 
-1. `SRC-0001`, a derivative certified marriage record naming two spouses and
+1. `CIV-0001`, a derivative certified marriage record naming two spouses and
    four reported parents;
-2. `SRC-0002`, a damaged derivative marriage certificate containing a birth-
+2. `CIV-0002`, a damaged derivative marriage certificate containing a birth-
    date conflict and a married-name form; and
-3. `SRC-0004`, an original death-register entry directly documenting a death
+3. `CIV-0003`, an original death-register entry directly documenting a death
    and secondarily reporting a spouse and two parents.
 
-`SRC-0003` is an owner-supplied roster source, not part of the three-document
+`REC-0001` is an owner-supplied roster source, not part of the three-document
 record sample.
 
 ## Finding 1 — Co-parentage falsely implied partnership
@@ -30,7 +30,7 @@ record sample.
 
 Schema version 1 required every adult in a family group to have role `spouse`
 or `partner`, and required a sourced `partner_relationship` whenever two were
-present. `SRC-0004` names Aristão Ferreira Armond and Liliosa Paz Armond as
+present. `CIV-0003` names Aristão Ferreira Armond and Liliosa Paz Armond as
 Geraldo's parents but does not document any relationship between those two
 people. The old shape therefore forced a conclusion the source did not prove.
 
@@ -116,7 +116,7 @@ coverage matrix.
 
 The source model conservatively labels a record's overall information quality
 as `mixed` when it supplies primary information for one conclusion and
-secondary information for another. `SRC-0004` demonstrates this: the death is
+secondary information for another. `CIV-0003` demonstrates this: the death is
 primary information, while spouse and parentage are reported information.
 Statuses and reliability notes currently preserve the distinction, but the
 machine model does not yet assign information quality per source-to-assertion

@@ -1,5 +1,5 @@
 schema_version: 1
-id: SRC-0016
+id: PUB-0001
 title: >-
   Estratégia de família: casamentos endogâmicos em grupos familiares do
   entorno da Serra do Camapuã (1750-1890)
@@ -18,7 +18,7 @@ repository:
     TH-904-96969-1013-75
   url: https://www.familysearch.org/en/memories/memory/101592607
   repository_path: >-
-    evidence/publications/SRC-0016-chagas-ferreira-armond-family-strategy-2018-original.pdf
+    evidence/publications/PUB-0001-chagas-ferreira-armond-family-strategy-2018-original.pdf
 access_date: "2026-07-28"
 language: pt-BR
 abstract: >-
@@ -44,7 +44,7 @@ reliability:
     primary-source chain.
 digital_file:
   path: >-
-    evidence/publications/SRC-0016-chagas-ferreira-armond-family-strategy-2018-original.pdf
+    evidence/publications/PUB-0001-chagas-ferreira-armond-family-strategy-2018-original.pdf
   sha256: 42d595dc816eaaf50f5dba0a476558ba9a5d2f002d12f8174ada21e4e6370769
 linked_people:
   - P-0008

@@ -173,7 +173,7 @@ entry they amend; they must not erase it.
 - Next action: inspect Geraldo's attached source and death-certificate Memory,
   then recover one distinct record to complete the three-record schema sample.
 
-## 2026-07-28 — SRC-0002 evidence-file consolidation
+## 2026-07-28 — CIV-0002 evidence-file consolidation
 
 - Outcome: retained the clearest of the three reviewed photographs of the
   Armond–Guimarães marriage certificate under one canonical filename and
@@ -189,7 +189,7 @@ entry they amend; they must not erase it.
   migrated every existing person cross-reference.
 - Detailed log:
   [`logs/2026-07-28-ahnentafel-person-id-migration.md`](logs/2026-07-28-ahnentafel-person-id-migration.md).
-- Evidence boundary: `SRC-0003` is owner-supplied family information and
+- Evidence boundary: `REC-0001` is owner-supplied family information and
   supports the working roster and spellings only; it does not replace vital or
   relationship records.
 - Engineering decision: person IDs remain immutable after this one low-cost
@@ -254,7 +254,7 @@ entry they amend; they must not erase it.
   [`logs/2026-07-28-familysearch-liliosa-evidence-audit.md`](logs/2026-07-28-familysearch-liliosa-evidence-audit.md).
 - Negative result: source `SJBH-LL3` resolves to Liliosa's person-level mention
   as Geraldo's mother in his 1991 death registration, already catalogued as
-  `SRC-0004`; it is not evidence of Liliosa's death.
+  `CIV-0003`; it is not evidence of Liliosa's death.
 - Negative result: Memory `120876994` is a scanned eight-page 1975 issue of
   *O Processo*, not a civil or parish record. No identifiable Liliosa, Aristão
   or Armond reference was found in extracted text or rendered-page review.
@@ -269,7 +269,7 @@ entry they amend; they must not erase it.
 
 - Outcome: located, reconstructed, privacy-reviewed and catalogued Aristão
   Ferreira Armond's original 1 November 1957 Volta Redonda death registration
-  as `SRC-0006`.
+  as `CIV-0005`.
 - Detailed log:
   [`logs/2026-07-28-familysearch-aristao-death-record-ingestion.md`](logs/2026-07-28-familysearch-aristao-death-record-ingestion.md).
 - Genealogical conclusions changed: Aristão's death is confirmed; the record
@@ -278,7 +278,7 @@ entry they amend; they must not erase it.
 - Index defect retained: FamilySearch transcribes Aristão as `Axstai Ferreira
   Armand Armand` and duplicates part of his mother's surname.
 - Negative result: one attached source only repeats Aristão's mention as
-  Geraldo's father in `SRC-0004`, and his sole Memory is the same 1975
+  Geraldo's father in `CIV-0003`, and his sole Memory is the same 1975
   newspaper issue already rejected as Liliosa's vital-record evidence.
 - Next action: locate Aristão's birth or baptism record, or his marriage to
   Liliosa, to verify fuller parent names and identify Liliosa's original
@@ -388,14 +388,14 @@ entry they amend; they must not erase it.
 - Detailed log:
   [`logs/2026-07-28-familysearch-direct-line-memories-audit.md`](logs/2026-07-28-familysearch-direct-line-memories-audit.md).
 - Source added: catalogued the three-page 2019 full-content certificate of the
-  1916 Deocleciano–Luiza marriage as `SRC-0007`.
+  1916 Deocleciano–Luiza marriage as `CIV-0006`.
 - Preservation improvement: replaced five technical reconstructions with
   authorised original-file or original-image JPEG downloads; the prior files
   remain recoverable from Git history.
 - Privacy blocker: six civil PDFs concerning living people are attached to
   `P-0001` as Public Memories. They were not downloaded; changing visibility
   requires explicit owner authorisation.
-- Genealogical conclusions changed: none; `SRC-0007` independently supports
+- Genealogical conclusions changed: none; `CIV-0006` independently supports
   the already catalogued 1916 marriage at `strong-evidence`.
 - Next action: locate Liliosa's own 1946 death or burial record.
 
@@ -411,7 +411,7 @@ entry they amend; they must not erase it.
 - Coverage gap: the identified Volta Redonda series cannot test the alternative
   16 April 1946 lead because it begins in November.
 - Source added: catalogued a full-resolution March 1973 government
-  driver-dossier index as `SRC-0008`. It names José Olavo Armond, prints his
+  driver-dossier index as `GOV-0001`. It names José Olavo Armond, prints his
   father as "Aristac Ferreira Armond", and names his mother exactly as Liliosa
   Paz Armond.
 - Genealogical conclusion changed: José Olavo is added as a strong-evidence
@@ -426,7 +426,7 @@ entry they amend; they must not erase it.
   collaborative-tree lead and corrected its interpretation.
 - Detailed log:
   [`logs/2026-07-28-joao-suzana-marriage-provision-review.md`](logs/2026-07-28-joao-suzana-marriage-provision-review.md).
-- Source added: `SRC-0009`, an authorised 4749×3774 original download from DGS
+- Source added: `PAR-0001`, an authorised 4749×3774 original download from DGS
   `004626365`, item 1, image 21, page 191.
 - Interpretation: the entry issued provisions for João Monis Bittencourt and
   Susanna Rita Brondão to marry in the Espírito Santo parish. It does not
@@ -466,7 +466,7 @@ entry they amend; they must not erase it.
   768×1040.
 - Detailed log:
   [`logs/2026-07-28-carvalho-guimaraes-registration-ingestion.md`](logs/2026-07-28-carvalho-guimaraes-registration-ingestion.md).
-- Source added: `SRC-0010`, a 2025 full-content certificate transcribing the
+- Source added: `CIV-0007`, a 2025 full-content certificate transcribing the
   1915 collective registration of six Carvalho Guimarães siblings.
 - Genealogical conclusions changed: added six direct ancestors and three
   source-qualified parent groups; structured the source-reported places and
@@ -491,9 +491,9 @@ entry they amend; they must not erase it.
   [`logs/2026-07-28-familysearch-living-profile-download-and-article-review.md`](logs/2026-07-28-familysearch-living-profile-download-and-article-review.md).
 - Deduplication: two separate birth Memories yielded byte-identical PDFs; both
   Memory identifiers remain in provenance, while only one file is retained.
-- Sources added: `SRC-0011` for the private birth certificate,
-  `SRC-0012`-`SRC-0015` for four distinct civil manifestations of one marriage,
-  and `SRC-0016` for the Chagas dissertation.
+- Sources added: `CIV-0008` for the private birth certificate,
+  `CIV-0009`-`CIV-0012` for four distinct civil manifestations of one marriage,
+  and `PUB-0001` for the Chagas dissertation.
 - Privacy result: all seven Memories displayed `Private` during this session.
   No FamilySearch visibility or profile setting was changed.
 - Article result: the 2018 dissertation provides historical Ferreira Armond
@@ -516,7 +516,7 @@ entry they amend; they must not erase it.
 - Detailed log:
   [`logs/2026-07-28-direct-line-document-audit-and-online-leads.md`](logs/2026-07-28-direct-line-document-audit-and-online-leads.md).
 - Leads recorded (not promoted): Santo Antônio de Sapucaia (a freguesia from
-  1871) strengthens the SRC-0009 parish re-reading over Espírito Santo; a
+  1871) strengthens the PAR-0001 parish re-reading over Espírito Santo; a
   published genealogy names Simplício Ferreira Armond and Elisa Balbina Tolledo
   in Piacatuba (Leopoldina), corroborating the fuller-name leads for P-0016 and
   P-0017.
@@ -524,7 +524,7 @@ entry they amend; they must not erase it.
   and two reported births were structured as strong-evidence events.
 - Next action: with authorised FamilySearch access, retrieve the original 1982
   birth register so the subject's parentage can reach `confirmed`, inspect the
-  Piacatuba baptism books for Aristão's family, and re-examine SRC-0009 at full
+  Piacatuba baptism books for Aristão's family, and re-examine PAR-0001 at full
   resolution to settle the Sapucaia-versus-Espírito-Santo parish question.
 
 ## 2026-07-29 — Online gap-and-resource research

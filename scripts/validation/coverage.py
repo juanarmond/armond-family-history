@@ -8,10 +8,21 @@ from typing import Any, Mapping
 import yaml
 from jsonschema import Draft202012Validator
 
+from .identifiers import SOURCE_KINDS
 from .model import Issue, LoadedEntity, display_path, json_path, load_yaml
 
 
 RECORD_COVERAGE_SCHEMA = "record-coverage.schema.json"
+
+
+def _resolve_source(
+    entities: Mapping[str, Mapping[str, LoadedEntity]], source_id: str
+) -> LoadedEntity | None:
+    for kind in SOURCE_KINDS:
+        found = entities[kind].get(source_id)
+        if found is not None:
+            return found
+    return None
 
 
 def validate_record_coverage(
@@ -117,7 +128,7 @@ def validate_record_coverage(
             for source_index, source_id in enumerate(source_ids):
                 if not isinstance(source_id, str):
                     continue
-                source = entities["sources"].get(source_id)
+                source = _resolve_source(entities, source_id)
                 source_location = (
                     f"{record_location}.source_ids[{source_index}]"
                 )

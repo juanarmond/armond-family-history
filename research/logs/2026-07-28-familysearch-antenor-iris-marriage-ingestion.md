@@ -40,9 +40,9 @@ Profile conclusions and collaborative-tree values were not used as evidence.
 ## Retained file
 
 - Inventory: `DOC-0004`.
-- Source: `SRC-0005`.
+- Source: `CIV-0004`.
 - Path:
-  `evidence/civil/SRC-0005-marriage-antenor-muniz-iris-bohrer-1949-reconstructed.png`.
+  `evidence/civil/CIV-0004-marriage-antenor-muniz-iris-bohrer-1949-reconstructed.png`.
 - SHA-256:
   `8cc99154ddcaf55a2793d1f11ba2ba8a5e09f514c5470f272cafb4d4ec66b001`.
 - Rights: private research.
@@ -89,7 +89,7 @@ The validated ingestion created:
 - `F-0005` — parent group for Iris;
 - `E-0004` — the 7 December 1949 marriage;
 - `PL-0004` — Alvorada, Minas Gerais, Brazil; and
-- `SRC-0005` — the marriage certificate.
+- `CIV-0004` — the marriage certificate.
 
 The existing `F-0001` family now records Antenor as the reported child of
 Deocleciano and Luiza. Existing person records `P-0006`, `P-0007`,

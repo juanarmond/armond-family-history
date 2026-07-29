@@ -16,7 +16,7 @@ documents:
       28 July 2026 through the authenticated memory viewer.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-original.jpg
+      - path: evidence/civil/CIV-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-original.jpg
         sha256: d52385720d3cb0024df19cf650cb5bb79a1bd8af02947fcf7eaa80cae52d6249
         media_type: image/jpeg
         role: primary
@@ -30,7 +30,7 @@ documents:
           - address
           - signature
     duplicate_of: null
-    proposed_source_id: SRC-0001
+    proposed_source_id: CIV-0001
     notes:
       - >-
         The originally uploaded JPEG was recovered through FamilySearch's
@@ -58,7 +58,7 @@ documents:
       memory viewer.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-original.jpg
+      - path: evidence/civil/CIV-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-original.jpg
         sha256: 0def5d0019ea5167146f2f6528714b1e952837b78af5f51536aaa47cbcd01edc
         media_type: image/jpeg
         role: primary
@@ -71,7 +71,7 @@ documents:
         sensitive_content:
           - signature
     duplicate_of: null
-    proposed_source_id: SRC-0002
+    proposed_source_id: CIV-0002
     notes:
       - >-
         Three alternate photographs of one damaged certificate were reviewed.
@@ -108,7 +108,7 @@ documents:
       28 July 2026 through the authenticated FamilySearch viewer.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0004-death-geraldo-paz-armond-1991-original.jpg
+      - path: evidence/civil/CIV-0003-death-geraldo-paz-armond-1991-original.jpg
         sha256: c4188e3a81f1547a7db4b178246e4154505798188b6aef05300321d41acdee8d
         media_type: image/jpeg
         role: primary
@@ -124,7 +124,7 @@ documents:
           - medical
           - other
     duplicate_of: null
-    proposed_source_id: SRC-0004
+    proposed_source_id: CIV-0003
     notes:
       - >-
         FamilySearch's `JPG Only` option returned a 4783×3469 authorised
@@ -162,7 +162,7 @@ documents:
       GQJ1-HG4 had no attached sources.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0005-marriage-antenor-muniz-iris-bohrer-1949-original.jpg
+      - path: evidence/civil/CIV-0004-marriage-antenor-muniz-iris-bohrer-1949-original.jpg
         sha256: 32719dcd87a06322013b0760a5a0745ad713f86876a6fd05d7dd8516420f631e
         media_type: image/jpeg
         role: primary
@@ -175,7 +175,7 @@ documents:
         sensitive_content:
           - signature
     duplicate_of: null
-    proposed_source_id: SRC-0005
+    proposed_source_id: CIV-0004
     notes:
       - >-
         FamilySearch's authorised download returned the originally uploaded
@@ -205,7 +205,7 @@ documents:
       FamilySearch viewer.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0006-death-aristao-ferreira-armond-1957-original.jpg
+      - path: evidence/civil/CIV-0005-death-aristao-ferreira-armond-1957-original.jpg
         sha256: 1ab59e308d28c2a069918b17864542d615e491182fc50950453f137fd3746b8b
         media_type: image/jpeg
         role: primary
@@ -221,7 +221,7 @@ documents:
           - medical
           - other
     duplicate_of: null
-    proposed_source_id: SRC-0006
+    proposed_source_id: CIV-0005
     notes:
       - >-
         FamilySearch's `JPG Only` option returned a 4372×3340 authorised
@@ -253,7 +253,7 @@ documents:
       downloaded through the owner's authenticated session on 28 July 2026.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0007-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-01.jpg
+      - path: evidence/civil/CIV-0006-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-01.jpg
         sha256: 5093f67e9a2528510714275a123c85ea2fd558042cc03cb9b56f167c3162736b
         media_type: image/jpeg
         role: primary
@@ -267,7 +267,7 @@ documents:
           - address
           - signature
           - financial
-      - path: evidence/civil/SRC-0007-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-02.jpg
+      - path: evidence/civil/CIV-0006-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-02.jpg
         sha256: a1d382696a0e2ea073d7b51123931e46da4839f0ae30c63b841a77e809e739b7
         media_type: image/jpeg
         role: continuation
@@ -279,7 +279,7 @@ documents:
         privacy_review: cleared
         sensitive_content:
           - signature
-      - path: evidence/civil/SRC-0007-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-03.jpg
+      - path: evidence/civil/CIV-0006-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-03.jpg
         sha256: 3a70a68ecffc225583802bae00345030da3baabb5dee149e982304d87653a579
         media_type: image/jpeg
         role: continuation
@@ -292,7 +292,7 @@ documents:
         sensitive_content:
           - signature
     duplicate_of: null
-    proposed_source_id: SRC-0007
+    proposed_source_id: CIV-0006
     notes:
       - >-
         The three Memories are successive pages of one certificate and are
@@ -300,7 +300,7 @@ documents:
         downloads, not screenshots or viewer reconstructions.
       - >-
         This 2019 full-content certificate describes the same 1916 marriage as
-        SRC-0001 but is a distinct certified manifestation with longer text.
+        CIV-0001 but is a distinct certified manifestation with longer text.
         It is not treated as an independent original register entry.
   - inventory_id: DOC-0007
     status: catalogued
@@ -320,7 +320,7 @@ documents:
       the owner's authenticated session on 28 July 2026.
     rights_status: private-research
     files:
-      - path: evidence/government/SRC-0008-driver-index-jose-olavo-armond-1973-original.jpg
+      - path: evidence/government/GOV-0001-driver-index-jose-olavo-armond-1973-original.jpg
         sha256: da5582f12ca5740812e246f20f5048581f295c0f1214f1c6a3114e8fe34fae78
         media_type: image/jpeg
         role: primary
@@ -335,7 +335,7 @@ documents:
           - address
           - other
     duplicate_of: null
-    proposed_source_id: SRC-0008
+    proposed_source_id: GOV-0001
     notes:
       - >-
         The retained JPEG is the authorised full-resolution original download,
@@ -362,7 +362,7 @@ documents:
       28 July 2026.
     rights_status: private-research
     files:
-      - path: evidence/parish/SRC-0009-marriage-provision-joao-monis-bittencourt-susanna-rita-brondao-1882-original.jpg
+      - path: evidence/parish/PAR-0001-marriage-provision-joao-monis-bittencourt-susanna-rita-brondao-1882-original.jpg
         sha256: 3754f2bd0de206063399ad0b2f984998d8332c80f0f3b906a729792377425f25
         media_type: image/jpeg
         role: primary
@@ -374,7 +374,7 @@ documents:
         privacy_review: cleared
         sensitive_content: []
     duplicate_of: null
-    proposed_source_id: SRC-0009
+    proposed_source_id: PAR-0001
     notes:
       - >-
         The retained JPEG is the authorised full-resolution original download,
@@ -412,7 +412,7 @@ documents:
       session on 28 July 2026.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0010-birth-registration-carvalho-guimaraes-siblings-1915-original.jpg
+      - path: evidence/civil/CIV-0007-birth-registration-carvalho-guimaraes-siblings-1915-original.jpg
         sha256: 5e622c5fb8e91919f9f4af916a54ed469110cfb09b5f3b8b9c88e8593e230c0d
         media_type: image/jpeg
         role: primary
@@ -426,7 +426,7 @@ documents:
           - identity-number
           - other
     duplicate_of: null
-    proposed_source_id: SRC-0010
+    proposed_source_id: CIV-0007
     notes:
       - >-
         The authorised Download action supplied the originally uploaded
@@ -459,7 +459,7 @@ documents:
       downloaded through the owner's authenticated session on 28 July 2026.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0011-birth-juan-carlos-muniz-armond-1982-original.pdf
+      - path: evidence/civil/CIV-0008-birth-juan-carlos-muniz-armond-1982-original.pdf
         sha256: 10ea2916d9b5bf9f551261dad3b7a4025d5e569a5422838b0c3d48764bb69fb2
         media_type: application/pdf
         role: primary
@@ -472,7 +472,7 @@ documents:
           - signature
           - other
     duplicate_of: null
-    proposed_source_id: SRC-0011
+    proposed_source_id: CIV-0008
     notes:
       - >-
         The two FamilySearch Memories downloaded to byte-identical one-page
@@ -498,7 +498,7 @@ documents:
       authenticated session on 28 July 2026.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0012-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2003-ontario-original.pdf
+      - path: evidence/civil/CIV-0009-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2003-ontario-original.pdf
         sha256: 2d8d570c217c63f09532260d88d426a16de7ddfdd59c5628d5edfaba12e6397a
         media_type: application/pdf
         role: primary
@@ -512,7 +512,7 @@ documents:
           - signature
           - other
     duplicate_of: null
-    proposed_source_id: SRC-0012
+    proposed_source_id: CIV-0009
     notes:
       - >-
         The retained file is the byte-preserved authorised original PDF, not a
@@ -537,7 +537,7 @@ documents:
       owner's authenticated session on 28 July 2026.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0013-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-transcription-original.pdf
+      - path: evidence/civil/CIV-0010-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-transcription-original.pdf
         sha256: a7315fb7e6ddc22b47cdc42abeeaecbeb60b1285fa1eea4053a394d917dd5011
         media_type: application/pdf
         role: primary
@@ -550,7 +550,7 @@ documents:
           - signature
           - other
     duplicate_of: null
-    proposed_source_id: SRC-0013
+    proposed_source_id: CIV-0010
     notes:
       - >-
         This record transcribes the same marriage as DOC-0011 but is a
@@ -576,7 +576,7 @@ documents:
       authenticated session on 28 July 2026.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0014-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-certificate-original.pdf
+      - path: evidence/civil/CIV-0011-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-certificate-original.pdf
         sha256: aecc0d23f9b9e2aa1b5c26aea2bd118d8e3d94aed0691b4eca24795f02207148
         media_type: application/pdf
         role: primary
@@ -588,7 +588,7 @@ documents:
           - living-person-data
           - signature
     duplicate_of: null
-    proposed_source_id: SRC-0014
+    proposed_source_id: CIV-0011
     notes:
       - >-
         This is a separate Italian certificate for the marriage documented in
@@ -613,7 +613,7 @@ documents:
       authenticated session on 28 July 2026.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0015-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2008-italian-summary-extract-original.pdf
+      - path: evidence/civil/CIV-0012-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2008-italian-summary-extract-original.pdf
         sha256: 88bc4698ede0fa53e822361381d9837a04ee1852dd4bd960bddb5ef3f68371bd
         media_type: application/pdf
         role: primary
@@ -626,7 +626,7 @@ documents:
           - signature
           - other
     duplicate_of: null
-    proposed_source_id: SRC-0015
+    proposed_source_id: CIV-0012
     notes:
       - >-
         This is a separate Italian summary extract for the marriage documented
@@ -650,7 +650,7 @@ documents:
       authenticated session on 28 July 2026.
     rights_status: permission-required
     files:
-      - path: evidence/publications/SRC-0016-chagas-ferreira-armond-family-strategy-2018-original.pdf
+      - path: evidence/publications/PUB-0001-chagas-ferreira-armond-family-strategy-2018-original.pdf
         sha256: 42d595dc816eaaf50f5dba0a476558ba9a5d2f002d12f8174ada21e4e6370769
         media_type: application/pdf
         role: primary
@@ -660,7 +660,7 @@ documents:
         privacy_review: cleared
         sensitive_content: []
     duplicate_of: null
-    proposed_source_id: SRC-0016
+    proposed_source_id: PUB-0001
     notes:
       - >-
         The 185-page PDF is preserved as a private research copy. Permission
@@ -689,7 +689,7 @@ documents:
       session on 29 July 2026.
     rights_status: permission-required
     files:
-      - path: evidence/probate/SRC-0017-probate-toledo-heir-list-leopoldina-1881-original.jpg
+      - path: evidence/probate/PRB-0001-probate-toledo-heir-list-leopoldina-1881-original.jpg
         sha256: 13f9f5208253b0ce584d0865aa239033e1f4a1cb00cedc1c1cbc4d9af855c374
         media_type: image/jpeg
         role: primary
@@ -701,11 +701,11 @@ documents:
         privacy_review: cleared
         sensitive_content: []
     duplicate_of: null
-    proposed_source_id: SRC-0017
+    proposed_source_id: PRB-0001
     notes:
       - >-
         A public 1881 court record (FamilySearch preview image). The estate's
-        decedent is named in the companion 1884 petition (DOC-0017 / SRC-0018) as
+        decedent is named in the companion 1884 petition (DOC-0017 / PRB-0002) as
         D. Mathilde Maria de Jezus, on Eliza Balbina de Toledo's line.
   - inventory_id: DOC-0017
     status: catalogued
@@ -722,7 +722,7 @@ documents:
       through the owner's authenticated session on 29 July 2026.
     rights_status: permission-required
     files:
-      - path: evidence/probate/SRC-0018-probate-petition-simplicio-armond-mathilde-jezus-1884-original.jpg
+      - path: evidence/probate/PRB-0002-probate-petition-simplicio-armond-mathilde-jezus-1884-original.jpg
         sha256: 837090371374fd471bcded5134a0a4730c435153116a2368ec5c222b85a4c48e
         media_type: image/jpeg
         role: primary
@@ -734,11 +734,11 @@ documents:
         privacy_review: cleared
         sensitive_content: []
     duplicate_of: null
-    proposed_source_id: SRC-0018
+    proposed_source_id: PRB-0002
     notes:
       - >-
         Simplício petitions in his own hand as heir of the late D. Mathilde Maria
-        de Jezus; the same estate as DOC-0016 (SRC-0017).
+        de Jezus; the same estate as DOC-0016 (PRB-0001).
   - inventory_id: DOC-0018
     status: catalogued
     added_date: "2026-07-29"
@@ -756,7 +756,7 @@ documents:
       Mineiro stamp. The José Olavo Armond marriage bann is on p. 6.
     rights_status: private-research
     files:
-      - path: evidence/newspapers/SRC-0019-marriage-banns-jose-olavo-armond-1975-original.pdf
+      - path: evidence/newspapers/NWS-0001-marriage-banns-jose-olavo-armond-1975-original.pdf
         sha256: 57525a1f4add57aa05e11c396b323abb5cb0740869137619f283e142abfd9ddb
         media_type: application/pdf
         role: primary
@@ -766,12 +766,12 @@ documents:
         privacy_review: cleared
         sensitive_content: []
     duplicate_of: null
-    proposed_source_id: SRC-0019
+    proposed_source_id: NWS-0001
     notes:
       - >-
         Public marriage-banns notice. Names José Olavo Armond as natural de
         Eugenópolis, son of Aristão Ferreira Armond and Liliosa Paz Armond;
-        corroborates SRC-0006 and SRC-0008 and additionally supplies his stated
+        corroborates CIV-0005 and GOV-0001 and additionally supplies his stated
         birthplace.
   - inventory_id: DOC-0019
     status: catalogued
@@ -790,7 +790,7 @@ documents:
       was supplied.
     rights_status: private-research
     files:
-      - path: evidence/civil/SRC-0020-death-marfiza-ferreira-armond-1962-original.jpg
+      - path: evidence/civil/CIV-0013-death-marfiza-ferreira-armond-1962-original.jpg
         sha256: eaf6f82ef061e6661fbb64825bbc1fd9617c78cfdc2db587812b423d2e2e05e4
         media_type: image/jpeg
         role: primary
@@ -805,7 +805,7 @@ documents:
           - medical
           - other
     duplicate_of: null
-    proposed_source_id: SRC-0020
+    proposed_source_id: CIV-0013
     notes:
       - >-
         Confirms Eliza's Toledo surname and documents Marfiza as a daughter of

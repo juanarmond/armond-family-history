@@ -1,5 +1,5 @@
 schema_version: 1
-id: SRC-0001
+id: CIV-0001
 title: >-
   Certified marriage record of Deocleciano Muniz Bittencourt and Luiza
   Fernandes de Azevedo
@@ -24,7 +24,7 @@ repository:
   record_number: "62"
   catalogue_reference: FamilySearch memory storage ID TH-904-91822-179-82
   url: https://www.familysearch.org/en/tree/person/memories/GQVM-3QD
-  repository_path: evidence/civil/SRC-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-original.jpg
+  repository_path: evidence/civil/CIV-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-original.jpg
 access_date: "2026-07-28"
 language: pt-BR
 transcription: >-
@@ -58,7 +58,7 @@ reliability:
     register entry. The repository retains the originally uploaded JPEG at its
     authorised download resolution.
 digital_file:
-  path: evidence/civil/SRC-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-original.jpg
+  path: evidence/civil/CIV-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-original.jpg
   sha256: d52385720d3cb0024df19cf650cb5bb79a1bd8af02947fcf7eaa80cae52d6249
 linked_people:
   - P-0012

@@ -11,6 +11,27 @@ const ENTITY_TYPES = {
 const DATA_ROOT = "../data";
 const INDEX_PATH = "./entity-index.json";
 
+// Sources live in category subfolders (data/sources/<category>/); map the ID
+// prefix back to its folder so the viewer fetches the right file.
+const SOURCE_DIR = {
+  CIV: "civil",
+  GOV: "government",
+  PAR: "parish",
+  PRB: "probate",
+  NWS: "newspapers",
+  PUB: "publications",
+  REC: "family-recollection",
+};
+
+function entityPath(kind, directory, id) {
+  if (kind === "sources") {
+    const sub = SOURCE_DIR[id.slice(0, 3)];
+    if (!sub) throw new Error(`Unknown source category for ${id}`);
+    return `${DATA_ROOT}/sources/${sub}/${id}.yaml`;
+  }
+  return `${DATA_ROOT}/${directory}/${id}.yaml`;
+}
+
 async function fetchYaml(path) {
   const response = await fetch(path, { cache: "no-store" });
   if (!response.ok) {
@@ -41,7 +62,7 @@ async function loadEntityType(kind, { directory }) {
 
   const entries = await Promise.all(
     ids.map(async (id) => {
-      const entity = await fetchYaml(`${DATA_ROOT}/${directory}/${id}.yaml`);
+      const entity = await fetchYaml(entityPath(kind, directory, id));
       if (!entity || entity.id !== id) {
         throw new Error(`Entity ${id} is missing or does not match its indexed identifier.`);
       }

@@ -1,5 +1,5 @@
 schema_version: 1
-id: SRC-0006
+id: CIV-0005
 title: Civil death registration of Aristão Ferreira Armond
 record_type: Civil death register entry
 record_category: civil_registration
@@ -27,7 +27,7 @@ repository:
     3:1:S3HT-XC74-4TK; image group #004366686, item 4; original-image storage
     ID TH-266-12875-196099-17
   url: https://www.familysearch.org/ark:/61903/1:1:77D4-J23Z
-  repository_path: evidence/civil/SRC-0006-death-aristao-ferreira-armond-1957-original.jpg
+  repository_path: evidence/civil/CIV-0005-death-aristao-ferreira-armond-1957-original.jpg
 access_date: "2026-07-28"
 language: pt-BR
 transcription: >-
@@ -60,7 +60,7 @@ reliability:
     surname. The retained JPEG is FamilySearch's authorised `JPG Only`
     download from the original-image ARK.
 digital_file:
-  path: evidence/civil/SRC-0006-death-aristao-ferreira-armond-1957-original.jpg
+  path: evidence/civil/CIV-0005-death-aristao-ferreira-armond-1957-original.jpg
   sha256: 1ab59e308d28c2a069918b17864542d615e491182fc50950453f137fd3746b8b
 linked_people:
 - P-0008
@@ -89,7 +89,7 @@ notes:
     An owner-supplied alternate scan of the same entry 9890 (two-page spread,
     pages 314-315, watermarked "SEM VALOR LEGAL") is retained as a working
     reference at
-    evidence/references/SRC-0006-aristao-death-1957-recapture-spread.pdf (not
+    evidence/references/CIV-0005-aristao-death-1957-recapture-spread.pdf (not
     separately inventoried, as the evidence model keeps one authoritative image
     per record); the authorised FamilySearch JPG above remains the preservation
     image. It was reviewed and confirms entry 9890.

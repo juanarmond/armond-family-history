@@ -131,7 +131,7 @@ tasks:
     match:
       person: "Iris Bohrer"
       capture: "parents (João Gonçalves Bohrer, Selina/Celina Bohrer), exact place and date"
-    disambiguate: "Use SRC-0005 (the 1949 marriage), which names her parents."
+    disambiguate: "Use CIV-0004 (the 1949 marriage), which names her parents."
 ```
 
 ## Catalog references (FamilySearch Research Wiki, 2026-07-29)

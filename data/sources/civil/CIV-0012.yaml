@@ -1,5 +1,5 @@
 schema_version: 1
-id: SRC-0015
+id: CIV-0012
 title: >-
   Italian summary extract of the marriage of Juan Carlos Muniz Armond and
   Vanessa Bevilacqua
@@ -23,7 +23,7 @@ repository:
     Bevilacqua - Casamento Italia 1.pdf"
   url: https://www.familysearch.org/en/memories/memory/120433444
   repository_path: >-
-    evidence/civil/SRC-0015-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2008-italian-summary-extract-original.pdf
+    evidence/civil/CIV-0012-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2008-italian-summary-extract-original.pdf
 access_date: "2026-07-28"
 language: it
 abstract: >-
@@ -41,7 +41,7 @@ reliability:
     people.
 digital_file:
   path: >-
-    evidence/civil/SRC-0015-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2008-italian-summary-extract-original.pdf
+    evidence/civil/CIV-0012-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2008-italian-summary-extract-original.pdf
   sha256: 88bc4698ede0fa53e822361381d9837a04ee1852dd4bd960bddb5ef3f68371bd
 linked_people:
   - P-0001
@@ -52,7 +52,7 @@ private: true
 notes:
   - text: >-
       This is a distinct official manifestation of the marriage, not a
-      duplicate of SRC-0012, SRC-0013 or SRC-0014.
+      duplicate of CIV-0009, CIV-0010 or CIV-0011.
   - text: >-
       FamilySearch's authorised Download action supplied the exact uploaded
       one-page PDF. It is excluded from public derivatives.

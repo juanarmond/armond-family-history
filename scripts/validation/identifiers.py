@@ -45,12 +45,33 @@ ENTITY_CONFIGS: dict[str, EntityConfig] = {
         re.compile(r"^PL-(?!0000$)[0-9]{4}$"),
         "place.schema.json",
     ),
-    "sources": EntityConfig(
-        "sources",
-        "source",
-        "SRC",
-        re.compile(r"^SRC-(?!0000$)[0-9]{4}$"),
-        "source.schema.json",
+    "civil": EntityConfig(
+        "sources/civil", "civil", "CIV",
+        re.compile(r"^CIV-(?!0000$)[0-9]{4}$"), "source.schema.json",
+    ),
+    "government": EntityConfig(
+        "sources/government", "government", "GOV",
+        re.compile(r"^GOV-(?!0000$)[0-9]{4}$"), "source.schema.json",
+    ),
+    "parish": EntityConfig(
+        "sources/parish", "parish", "PAR",
+        re.compile(r"^PAR-(?!0000$)[0-9]{4}$"), "source.schema.json",
+    ),
+    "probate": EntityConfig(
+        "sources/probate", "probate", "PRB",
+        re.compile(r"^PRB-(?!0000$)[0-9]{4}$"), "source.schema.json",
+    ),
+    "newspapers": EntityConfig(
+        "sources/newspapers", "newspaper", "NWS",
+        re.compile(r"^NWS-(?!0000$)[0-9]{4}$"), "source.schema.json",
+    ),
+    "publications": EntityConfig(
+        "sources/publications", "publication", "PUB",
+        re.compile(r"^PUB-(?!0000$)[0-9]{4}$"), "source.schema.json",
+    ),
+    "family-recollection": EntityConfig(
+        "sources/family-recollection", "recollection", "REC",
+        re.compile(r"^REC-(?!0000$)[0-9]{4}$"), "source.schema.json",
     ),
     "fan": EntityConfig(
         "fan",
@@ -60,6 +81,21 @@ ENTITY_CONFIGS: dict[str, EntityConfig] = {
         "fan.schema.json",
     ),
 }
+
+# Source categories are distinct entity kinds that share source.schema.json.
+# A `source_ids` reference resolves against the union of these kinds. Adding a
+# new source category = add one EntityConfig above (its own PREFIX and
+# data/sources/<category>/ directory), a ledger section, a template, and its
+# name here.
+SOURCE_KINDS = (
+    "civil",
+    "government",
+    "parish",
+    "probate",
+    "newspapers",
+    "publications",
+    "family-recollection",
+)
 
 KINDS_BY_SINGULAR = {
     config.singular: kind for kind, config in ENTITY_CONFIGS.items()

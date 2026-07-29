@@ -21,7 +21,7 @@
     },
     "sourceId": {
       "type": "string",
-      "pattern": "^SRC-(?!0000$)[0-9]{4}$"
+      "pattern": "^(CIV|GOV|PAR|PRB|NWS|PUB|REC)-(?!0000$)[0-9]{4}$"
     },
     "fanId": {
       "type": "string",

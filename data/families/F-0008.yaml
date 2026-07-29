@@ -8,7 +8,7 @@ partners:
 partner_relationship:
   status: strong-evidence
   source_ids:
-  - SRC-0010
+  - CIV-0007
   notes:
   - text: >-
       The 1915 registration describes Emmerenciana as Francisco's wife. No
@@ -20,13 +20,13 @@ children:
     relationship_type: biological
     status: strong-evidence
     source_ids:
-    - SRC-0010
+    - CIV-0007
     notes: []
   - parent_id: P-0022
     relationship_type: biological
     status: strong-evidence
     source_ids:
-    - SRC-0010
+    - CIV-0007
     notes: []
   notes: []
 event_ids:

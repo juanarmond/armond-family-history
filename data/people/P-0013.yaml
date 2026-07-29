@@ -6,8 +6,8 @@ name_variants:
   - value: Luiza Fernandes de Azevedo
     type: source
     source_ids:
-      - SRC-0001
-      - SRC-0005
+      - CIV-0001
+      - CIV-0004
 event_ids:
   - E-0001
   - E-0004

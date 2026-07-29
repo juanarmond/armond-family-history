@@ -37,7 +37,7 @@ Its linked person-record ARK was `1:1:77DD-TX2M`. Inspection showed that this is
 not Liliosa's death registration. It is a person-level extraction for Liliosa
 from the 1991 death registration of her son, Geraldo Paz Armond. It resolves to
 the same register page and image ARK `3:1:S3HT-DYSS-YKV` already catalogued as
-`SRC-0004`.
+`CIV-0003`.
 
 The record supports only the proposition that Geraldo's death informant
 reported Liliosa as his mother. It cannot support Liliosa's own date of death,

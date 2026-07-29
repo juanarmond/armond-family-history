@@ -1,5 +1,5 @@
 schema_version: 1
-id: SRC-0010
+id: CIV-0007
 title: >-
   Full-content certificate of the 1915 Carvalho Guimarães collective birth
   registration
@@ -29,7 +29,7 @@ repository:
     Aurora Guimarães profile GQVR-167
   url: https://www.familysearch.org/en/photos/artifacts/217929351
   repository_path: >-
-    evidence/civil/SRC-0010-birth-registration-carvalho-guimaraes-siblings-1915-original.jpg
+    evidence/civil/CIV-0007-birth-registration-carvalho-guimaraes-siblings-1915-original.jpg
 access_date: "2026-07-28"
 language: pt-BR
 transcription: >-
@@ -82,7 +82,7 @@ reliability:
     district, municipality, island or parish.
 digital_file:
   path: >-
-    evidence/civil/SRC-0010-birth-registration-carvalho-guimaraes-siblings-1915-original.jpg
+    evidence/civil/CIV-0007-birth-registration-carvalho-guimaraes-siblings-1915-original.jpg
   sha256: 5e622c5fb8e91919f9f4af916a54ed469110cfb09b5f3b8b9c88e8593e230c0d
 linked_people:
 - P-0011

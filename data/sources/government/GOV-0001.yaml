@@ -1,5 +1,5 @@
 schema_version: 1
-id: SRC-0008
+id: GOV-0001
 title: Driver-dossier alphabetical index entry for José Olavo Armond
 record_type: Government driver-dossier index
 record_category: government_record
@@ -23,7 +23,7 @@ repository:
   catalogue_reference: >-
     Image ARK 3:1:3QHV-L7VF-WWJN; image group number 120965069
   url: https://www.familysearch.org/ark:/61903/3:1:3QHV-L7VF-WWJN
-  repository_path: evidence/government/SRC-0008-driver-index-jose-olavo-armond-1973-original.jpg
+  repository_path: evidence/government/GOV-0001-driver-index-jose-olavo-armond-1973-original.jpg
 access_date: "2026-07-28"
 language: pt-BR
 transcription: >-
@@ -50,7 +50,7 @@ reliability:
     "Aristac", not "Aristão". The page contains identity and driver-dossier
     details for numerous unrelated people and must remain private.
 digital_file:
-  path: evidence/government/SRC-0008-driver-index-jose-olavo-armond-1973-original.jpg
+  path: evidence/government/GOV-0001-driver-index-jose-olavo-armond-1973-original.jpg
   sha256: da5582f12ca5740812e246f20f5048581f295c0f1214f1c6a3114e8fe34fae78
 linked_people:
 - P-0008

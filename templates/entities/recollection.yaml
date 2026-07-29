@@ -1,0 +1,23 @@
+schema_version: 1
+id: REC-NNNN
+title: ""
+record_type: ""
+record_category: family_recollection
+source_form: authored_narrative
+information_quality: undetermined
+evidence_type: undetermined
+usage: lead_only
+repository:
+  name: ""
+access_date: "YYYY-MM-DD"
+language: ""
+transcription: ""
+abstract: ""
+reliability:
+  assessment: ""
+linked_people: []
+linked_families: []
+linked_events: []
+linked_places: []
+private: true
+notes: []

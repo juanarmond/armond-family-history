@@ -1,0 +1,23 @@
+schema_version: 1
+id: GOV-NNNN
+title: ""
+record_type: ""
+record_category: government_record
+source_form: original
+information_quality: undetermined
+evidence_type: undetermined
+usage: evidence
+repository:
+  name: ""
+access_date: "YYYY-MM-DD"
+language: ""
+transcription: ""
+abstract: ""
+reliability:
+  assessment: ""
+linked_people: []
+linked_families: []
+linked_events: []
+linked_places: []
+private: true
+notes: []

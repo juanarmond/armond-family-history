@@ -121,7 +121,7 @@ privacy: unknown
 name_variants:
   - value: Example Person
     type: source
-    source_ids: [SRC-9001]
+    source_ids: [CIV-9001]
 event_ids: [E-9001]
 family_ids: []
 notes: []
@@ -139,7 +139,7 @@ participants:
   - person_id: P-9001
     role: principal
 status: hypothesis
-source_ids: [SRC-9001]
+source_ids: [CIV-9001]
 notes: []
 ```
 

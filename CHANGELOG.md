@@ -58,7 +58,7 @@ also remain traceable through source records and research logs.
   marriage certificate of Geraldo Paz Armond and Cidalia Engracio Guimarães as
   one source; add its private evidence files, inventory provenance, retained
   birth-date conflict and six directly required linked entities.
-- Consolidate `SRC-0002` to the clearest photograph under one canonical
+- Consolidate `CIV-0002` to the clearest photograph under one canonical
   filename; keep the two omitted alternate views recoverable in Git history and
   preserve their FamilySearch provenance in the research record.
 - Migrate the initial person block to Ahnentafel order, add privacy-minimised
@@ -111,7 +111,7 @@ also remain traceable through source records and research logs.
 - Audit all known direct-line FamilySearch Memories in Ahnentafel order,
   identify shared and non-record artifacts, document a living-person visibility
   risk, and catalogue the three-page 2019 full-content Deocleciano–Luiza
-  marriage certificate as `SRC-0007`.
+  marriage certificate as `CIV-0006`.
 - Replace five viewer-tile reconstructions with authorised original-file or
   original-image JPEG downloads, increasing retained resolution by up to
   sixteen times in pixel area while keeping superseded files recoverable in Git
@@ -120,10 +120,10 @@ also remain traceable through source records and research logs.
   Liliosa Paz Armond's own 1946 death or burial, preserve both date leads, and
   document the January–October gap in the accessible Volta Redonda series.
 - Catalogue the full-resolution March 1973 Guanabara driver-dossier index as
-  `SRC-0008`, preserve its printed "Aristac" name variant, and add José Olavo
+  `GOV-0001`, preserve its printed "Aristac" name variant, and add José Olavo
   Armond as a source-qualified strong-evidence child of Aristão and Liliosa.
 - Recover and catalogue the original 1882 marriage provision for João Monis
-  Bittencourt and Susanna Rita Brondão as `SRC-0009`; distinguish the issued
+  Bittencourt and Susanna Rita Brondão as `PAR-0001`; distinguish the issued
   authorisation from a completed ceremony, preserve the FamilySearch `1633`
   index defect, and identify the Espírito Santo parish as the next register
   target.
@@ -133,12 +133,12 @@ also remain traceable through source records and research logs.
   and specify the exact Cúria Metropolitana request without treating the
   provision date as a completed marriage.
 - Recover and catalogue the 1915 Carvalho Guimarães collective birth
-  registration as `SRC-0010`; retain its authorised original-upload file,
+  registration as `CIV-0007`; retain its authorised original-upload file,
   structure six direct ancestors, three parent groups and the reported events
   and places, preserve the Maria Amora/Aurora conflict, and keep Vicente's
   Portuguese origin at nationality level until a parish is documented.
 - Preserve and catalogue six unique original PDFs from the living repository
-  subject's private FamilySearch Memories as `SRC-0011` through `SRC-0016`;
+  subject's private FamilySearch Memories as `CIV-0008` through `PUB-0001`;
   deduplicate two byte-identical birth uploads without losing provenance,
   separate four distinct manifestations of one marriage, and retain the
   Chagas dissertation as a secondary Armond research lead rather than proof of
@@ -180,7 +180,7 @@ also remain traceable through source records and research logs.
   confirm. Update the confidence-status policy and validator accordingly, and
   promote Juan Carlos Muniz Armond's parentage to `confirmed` on his certified
   birth certificate corroborated by his Ontario marriage record.
-- Correct the 1882 marriage provision (SRC-0009): re-reading the register shows
+- Correct the 1882 marriage provision (PAR-0001): re-reading the register shows
   the couple's provision was directed to the Santo Antônio de Sapucaia parish,
   not the Espírito Santo parish (that wording belongs to the adjacent José
   Pereira Mendes entry). Repoint place PL-0005, event E-0006 and the coverage
@@ -242,16 +242,16 @@ also remain traceable through source records and research logs.
   census (a primary source), that the documented Armonde tree does not reach
   Piacatuba. No conclusion changed.
 - Populate the new `occupations` field from held-source transcriptions for six
-  deceased direct-line people: Aristão Ferreira Armond (padeiro, SRC-0006),
-  Antenor Muniz (da lavoura, SRC-0005), Cidalia Engracio Guimarães (doméstica,
-  SRC-0002), Geraldo Paz Armond (aposentado, stated at death, SRC-0004), and
+  deceased direct-line people: Aristão Ferreira Armond (padeiro, CIV-0005),
+  Antenor Muniz (da lavoura, CIV-0004), Cidalia Engracio Guimarães (doméstica,
+  CIV-0002), Geraldo Paz Armond (aposentado, stated at death, CIV-0003), and
   Francisco José de Carvalho Guimarães and Emmerenciana Maria de Jesus
-  (lavradores, SRC-0010). Each occupation cites the record that states it.
+  (lavradores, CIV-0007). Each occupation cites the record that states it.
 - Show each person's occupations in the family-tree viewer's detail panel (a new
   source-cited "Occupation" section, minimised for living people), aggregate an
   occupation's cited sources into the person's source list, and cover the
   projection with a data-loader unit test.
-- Record the owner-supplied Armond documents (Aristão's 1957 death = SRC-0006;
+- Record the owner-supplied Armond documents (Aristão's 1957 death = CIV-0005;
   Marfiza Ferreira Armond's 1962 death; José Olavo's 1975 marriage bann in O
   Processo): Marfiza is confirmed as Aristão's sister by a second primary record
   of the parents Simplício Ferreira Armond + Elisa Toledo (giving Elisa's maiden
@@ -277,8 +277,8 @@ also remain traceable through source records and research logs.
   promoted; formal per-source cataloguing to follow; the Azorean bridge stays
   unproven.
 - Catalogue the two subject probate records from the Full-Text batch as sources:
-  `SRC-0017` (1881 Leopoldina heir list naming Eliza Balbina de Toledo as wife of
-  Simplício José Ferreira Armond, with her Toledo siblings) and `SRC-0018` (1884
+  `PRB-0001` (1881 Leopoldina heir list naming Eliza Balbina de Toledo as wife of
+  Simplício José Ferreira Armond, with her Toledo siblings) and `PRB-0002` (1884
   Leopoldina petition of Simplício as heir of the late D. Mathilde Maria de
   Jezus). Both are court_or_probate originals, linked to P-0016 and P-0017, with
   their images moved to a new `evidence/probate/` category and inventoried as
@@ -287,13 +287,13 @@ also remain traceable through source records and research logs.
   references. Simplício's own parentage is still not found.
 - Catalogue the 1975 marriage bann of José Olavo Armond in the newspaper
   *O Processo* (Conselheiro Lafaiete, MG; Ano II, n.º 42, 1–15 February 1975) as
-  `SRC-0019` (record_category `newspaper`), inventoried as DOC-0018 with the
+  `NWS-0001` (record_category `newspaper`), inventoried as DOC-0018 with the
   issue PDF filed under a new `evidence/newspapers/` category. It independently
   confirms José Olavo's parents (Aristão Ferreira Armond and Liliosa Paz Armond)
   and records his birthplace as Eugenópolis; P-0018 gains a name variant and the
   occupation "representante comercial".
 - Catalogue the 1962 civil death registration of Marfiza Ferreira Armond as
-  `SRC-0020` (owner-supplied register image, entry n.º 18892, watermarked "SEM
+  `CIV-0013` (owner-supplied register image, entry n.º 18892, watermarked "SEM
   VALOR LEGAL"; DOC-0019). It names her parents as Simplício Ferreira Armond and
   Eliza Ferreira Toledo — a second primary record giving Eliza the Toledo
   surname and documenting Marfiza (b. ~1873, aged 89) as a sister of Aristão.
@@ -305,6 +305,16 @@ also remain traceable through source records and research logs.
 
 ### Changed
 
+- Restructure sources into category-prefixed entity kinds. Sources move to
+  `data/sources/<category>/` with immutable category-prefixed IDs (`CIV`, `GOV`,
+  `PAR`, `PRB`, `NWS`, `PUB`, `REC`) replacing the flat `SRC-NNNN` space, and
+  their evidence files carry the same prefix. The validator resolves `source_ids`
+  against the union of the seven source kinds, the viewer maps each prefix back
+  to its folder, and `common.schema.json`, the ID ledger, per-category templates
+  and the AGENTS/data/schemas/evidence docs are updated to match. IDs are
+  immutable once assigned; adding a category follows a documented pattern
+  (`data/README.md`). This supersedes the former "never renumber" rule only for
+  this one-time re-scheme.
 - Standardise evidence filenames and folders: rename the two probate images to
   the `SRC-<id>-<record-type>-<subject>-<year>-original` convention; relocate the
   13 FAN probate images from `evidence/incoming/` (staging) to a permanent
@@ -313,6 +323,6 @@ also remain traceable through source records and research logs.
   the event) and that `references/` holds retained FAN/context images.
 - Clear `evidence/incoming/`: an owner-supplied alternate scan of Aristão's 1957
   death entry (watermarked "SEM VALOR LEGAL") is a redundant recapture of the
-  already-catalogued SRC-0006, so it is kept as a working reference under
+  already-catalogued CIV-0005, so it is kept as a working reference under
   `evidence/references/` (not re-inventoried, since one authoritative image is
-  kept per record) and noted in SRC-0006.
+  kept per record) and noted in CIV-0005.

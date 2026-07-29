@@ -8,8 +8,8 @@ partners:
 partner_relationship:
   status: strong-evidence
   source_ids:
-    - SRC-0001
-    - SRC-0007
+    - CIV-0001
+    - CIV-0006
   notes: []
 children:
   - person_id: P-0006
@@ -18,13 +18,13 @@ children:
         relationship_type: unknown
         status: strong-evidence
         source_ids:
-          - SRC-0005
+          - CIV-0004
         notes: []
       - parent_id: P-0013
         relationship_type: unknown
         status: strong-evidence
         source_ids:
-          - SRC-0005
+          - CIV-0004
         notes: []
     notes: []
 event_ids:

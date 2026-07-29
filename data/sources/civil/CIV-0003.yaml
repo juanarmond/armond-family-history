@@ -1,5 +1,5 @@
 schema_version: 1
-id: SRC-0004
+id: CIV-0003
 title: Civil death registration of Geraldo Paz Armond
 record_type: Civil death register entry
 record_category: civil_registration
@@ -27,7 +27,7 @@ repository:
     #004366687; original-image storage ID TH-266-11612-78888-32; Memory storage
     ID TH-904-96969-238-86
   url: https://www.familysearch.org/ark:/61903/1:1:77DD-TX6Z
-  repository_path: evidence/civil/SRC-0004-death-geraldo-paz-armond-1991-original.jpg
+  repository_path: evidence/civil/CIV-0003-death-geraldo-paz-armond-1991-original.jpg
 access_date: "2026-07-28"
 language: pt-BR
 transcription: >-
@@ -67,7 +67,7 @@ reliability:
     be treated as recorded rather than as a family census. The retained JPEG is
     FamilySearch's authorised `JPG Only` download from the original-image ARK.
 digital_file:
-  path: evidence/civil/SRC-0004-death-geraldo-paz-armond-1991-original.jpg
+  path: evidence/civil/CIV-0003-death-geraldo-paz-armond-1991-original.jpg
   sha256: c4188e3a81f1547a7db4b178246e4154505798188b6aef05300321d41acdee8d
 linked_people:
   - P-0004

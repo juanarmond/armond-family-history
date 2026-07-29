@@ -43,9 +43,9 @@ Profile conclusions and collaborative-tree values were not used as evidence.
 ## Retained file
 
 - Inventory: `DOC-0003`.
-- Source: `SRC-0004`.
+- Source: `CIV-0003`.
 - Path:
-  `evidence/civil/SRC-0004-death-geraldo-paz-armond-1991-reconstructed.png`.
+  `evidence/civil/CIV-0003-death-geraldo-paz-armond-1991-reconstructed.png`.
 - SHA-256:
   `f0b8db131c7aa448e711ef6c5222d80deedbd0506801830d52e751c165bdc7e3`.
 - Rights: private research.
@@ -97,7 +97,7 @@ The validated batch prepares:
 - `F-0003` — the family group containing their reported parentage of Geraldo;
 - `E-0003` — Geraldo's death;
 - `PL-0003` — Volta Redonda, Rio de Janeiro, Brazil; and
-- `SRC-0004` — the original civil death register entry.
+- `CIV-0003` — the original civil death register entry.
 
 The existing `P-0004` and `P-0005` records are linked to the death event. No
 birth, marriage or parentage conclusion beyond what this record directly

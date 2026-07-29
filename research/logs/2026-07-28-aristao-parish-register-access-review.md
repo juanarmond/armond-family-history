@@ -85,7 +85,7 @@ are absent from the restricted images.
 No qualifying baptism or marriage record was found in the searchable layers.
 The correct original-image targets have been identified, but both searches are
 `inaccessible` until authorised image access is obtained. Aristão's parentage
-remains `strong-evidence` from `SRC-0006`; no fuller name form or relationship
+remains `strong-evidence` from `CIV-0005`; no fuller name form or relationship
 was promoted.
 
 ## Next action

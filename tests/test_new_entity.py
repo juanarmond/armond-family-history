@@ -35,7 +35,13 @@ class AllocationFixture:
                 "families": [],
                 "events": [],
                 "places": [],
-                "sources": [],
+                "civil": [],
+                "government": [],
+                "parish": [],
+                "probate": [],
+                "newspapers": [],
+                "publications": [],
+                "family-recollection": [],
                 "fan": [],
             },
             "retired_ids": {
@@ -43,7 +49,13 @@ class AllocationFixture:
                 "families": [],
                 "events": [],
                 "places": [],
-                "sources": [],
+                "civil": [],
+                "government": [],
+                "parish": [],
+                "probate": [],
+                "newspapers": [],
+                "publications": [],
+                "family-recollection": [],
                 "fan": [],
             },
         }
@@ -89,7 +101,7 @@ class AllocationFixture:
         self, *, valid_person: bool = True
     ) -> None:
         self.ledger["reserved_ids"]["people"] = ["P-0001"]
-        self.ledger["reserved_ids"]["sources"] = ["SRC-0001"]
+        self.ledger["reserved_ids"]["civil"] = ["CIV-0001"]
         self.write_yaml("data/id-ledger.yaml", self.ledger)
         self.write_yaml(
             "research/entity-drafts/P-0001.yaml",
@@ -102,7 +114,7 @@ class AllocationFixture:
                     {
                         "value": "Example Person",
                         "type": "source",
-                        "source_ids": ["SRC-0001"],
+                        "source_ids": ["CIV-0001"],
                     }
                 ],
                 "event_ids": [],
@@ -111,10 +123,10 @@ class AllocationFixture:
             },
         )
         self.write_yaml(
-            "research/entity-drafts/SRC-0001.yaml",
+            "research/entity-drafts/CIV-0001.yaml",
             {
                 "schema_version": 1,
-                "id": "SRC-0001",
+                "id": "CIV-0001",
                 "title": "Synthetic linked source",
                 "record_type": "synthetic civil record",
                 "record_category": "civil_registration",
@@ -216,20 +228,20 @@ class NewEntityTests(unittest.TestCase):
         self.fixture.write_linked_person_and_source_drafts()
         result = promote_entities(
             self.fixture.root,
-            ["P-0001", "SRC-0001"],
+            ["P-0001", "CIV-0001"],
             schema_dir=SCHEMA_DIR,
         )
         self.assertFalse(result.dry_run)
         self.assertTrue((self.fixture.root / "data/people/P-0001.yaml").is_file())
         self.assertTrue(
-            (self.fixture.root / "data/sources/SRC-0001.yaml").is_file()
+            (self.fixture.root / "data/sources/civil/CIV-0001.yaml").is_file()
         )
         self.assertFalse(
             (self.fixture.root / "research/entity-drafts/P-0001.yaml").exists()
         )
         ledger = self.fixture.read_ledger()
         self.assertEqual([], ledger["reserved_ids"]["people"])
-        self.assertEqual([], ledger["reserved_ids"]["sources"])
+        self.assertEqual([], ledger["reserved_ids"]["civil"])
         validation = validate_repository(self.fixture.root, schema_dir=SCHEMA_DIR)
         self.assertEqual((), validation.errors)
 
@@ -238,7 +250,7 @@ class NewEntityTests(unittest.TestCase):
         original_ledger = copy.deepcopy(self.fixture.read_ledger())
         result = promote_entities(
             self.fixture.root,
-            ["P-0001", "SRC-0001"],
+            ["P-0001", "CIV-0001"],
             dry_run=True,
             schema_dir=SCHEMA_DIR,
         )
@@ -254,7 +266,7 @@ class NewEntityTests(unittest.TestCase):
         self.fixture.write_linked_person_and_source_drafts()
         result = promote_entities(
             self.fixture.root,
-            ["P-0001", "SRC-0001"],
+            ["P-0001", "CIV-0001"],
             dry_run=True,
         )
         self.assertTrue(result.dry_run)
@@ -267,7 +279,7 @@ class NewEntityTests(unittest.TestCase):
         ):
             promote_entities(
                 self.fixture.root,
-                ["P-0001", "SRC-0001"],
+                ["P-0001", "CIV-0001"],
                 schema_dir=SCHEMA_DIR,
             )
         self.assertEqual(original_ledger, self.fixture.read_ledger())
@@ -286,7 +298,7 @@ class NewEntityTests(unittest.TestCase):
             with self.assertRaisesRegex(OSError, "synthetic commit failure"):
                 promote_entities(
                     self.fixture.root,
-                    ["P-0001", "SRC-0001"],
+                    ["P-0001", "CIV-0001"],
                     schema_dir=SCHEMA_DIR,
                 )
         self.assertEqual(original_ledger, self.fixture.read_ledger())

@@ -6,10 +6,10 @@ name_variants:
   - value: Luis Carlos Igracio Armond
     type: source
     source_ids:
-      - SRC-0003
-      - SRC-0011
-      - SRC-0012
-      - SRC-0013
+      - REC-0001
+      - CIV-0008
+      - CIV-0009
+      - CIV-0010
 event_ids: []
 family_ids:
   - F-0002

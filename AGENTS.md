@@ -101,7 +101,16 @@ an entry is absent from an unindexed register.
   archival reference is unavailable.
 - Keep `confirmed`, `strong-evidence`, `hypothesis` and `rejected` distinct.
 - Do not infer Portuguese, island, German or other origins from surnames.
-- Preserve stable IDs. Never renumber a live entity for presentation order.
+- Preserve stable IDs: immutable once assigned; never renumber a live entity.
+  Sources are category-prefixed by origin (`CIV`, `GOV`, `PAR`, `PRB`, `NWS`,
+  `PUB`, `REC`) and filed under `data/sources/<category>/`, and their evidence
+  files carry the same prefix; other entities keep their fixed prefix (`P`, `F`,
+  `E`, `PL`, `FAN`). The category also lives in the source's `record_category`
+  field (the single source of truth), so reclassifying moves the file but never
+  changes the ID. Adding a new source category must follow the documented
+  pattern — new prefix + `data/sources/<category>/` + `EntityConfig` +
+  `SOURCE_KINDS` entry + ledger section + template + viewer `SOURCE_DIR` entry;
+  see `data/README.md`.
 
 ## Completion protocol
 

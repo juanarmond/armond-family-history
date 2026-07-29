@@ -6,8 +6,8 @@ name_variants:
   - value: Antonio Engracio Filho
     type: source
     source_ids:
-      - SRC-0003
-      - SRC-0002
+      - REC-0001
+      - CIV-0002
 event_ids: []
 family_ids:
   - F-0012

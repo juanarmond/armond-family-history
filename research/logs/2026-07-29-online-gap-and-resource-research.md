@@ -96,7 +96,7 @@ identifications, not evidence. Nothing here changes a genealogical conclusion.
 
 ## Follow-up: Ferreira Armonde bridge analysis (thesis text-mining, 29 Jul 2026)
 
-Text-mined the Lacerda thesis (UFF 2010) and our SRC-0016 (Chagas 2018) to test
+Text-mined the Lacerda thesis (UFF 2010) and our PUB-0001 (Chagas 2018) to test
 whether Aristão connects to the documented Azorean Ferreira Armonde family.
 
 - Documented root (primary): **Francisco Ferreira Armonde**, b. 1691, Ilha

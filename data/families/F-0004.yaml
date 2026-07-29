@@ -8,7 +8,7 @@ partners:
 partner_relationship:
   status: strong-evidence
   source_ids:
-  - SRC-0005
+  - CIV-0004
   notes: []
 children:
 - person_id: P-0003
@@ -17,13 +17,13 @@ children:
     relationship_type: biological
     status: strong-evidence
     source_ids:
-    - SRC-0011
+    - CIV-0008
     notes: []
   - parent_id: P-0007
     relationship_type: biological
     status: strong-evidence
     source_ids:
-    - SRC-0011
+    - CIV-0008
     notes: []
   notes:
   - text: >-

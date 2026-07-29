@@ -6,15 +6,15 @@ name_variants:
   - value: Juan Carlos Muniz Armond
     type: source
     source_ids:
-      - SRC-0003
-      - SRC-0011
-      - SRC-0012
+      - REC-0001
+      - CIV-0008
+      - CIV-0009
   - value: Armond Juan Carlos Muniz
     type: source
     source_ids:
-      - SRC-0013
-      - SRC-0014
-      - SRC-0015
+      - CIV-0010
+      - CIV-0011
+      - CIV-0012
     note: Italian civil-register ordering; not a different identity.
 event_ids: []
 family_ids:

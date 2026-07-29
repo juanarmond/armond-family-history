@@ -1,5 +1,5 @@
 schema_version: 1
-id: SRC-0019
+id: NWS-0001
 title: >-
   1975 marriage banns in O Processo (Conselheiro Lafaiete) for José Olavo Armond,
   naming his parents Aristão Ferreira Armond and Liliosa Paz Armond and his
@@ -29,7 +29,7 @@ repository:
     O Processo, Ano II, n.º 42, 1.º a 15 de fevereiro de 1975, p. 6, seção
     "Editais de Casamento". Digital file per829587_1975_00042 (8-page issue).
   repository_path: >-
-    evidence/newspapers/SRC-0019-marriage-banns-jose-olavo-armond-1975-original.pdf
+    evidence/newspapers/NWS-0001-marriage-banns-jose-olavo-armond-1975-original.pdf
 access_date: "2026-07-29"
 language: pt-BR
 transcription: >-
@@ -49,15 +49,15 @@ abstract: >-
   Fátima Gomes Beato. It records José Olavo as natural de Eugenópolis, a
   commercial representative then resident in Rio de Janeiro, and names his
   parents as Aristão Ferreira Armond and Liliosa Paz Armond. Independently
-  corroborates the 1973 driver-dossier index (SRC-0008) and Aristão's death
-  record (SRC-0006) on José Olavo's parentage, and newly supplies his stated
+  corroborates the 1973 driver-dossier index (GOV-0001) and Aristão's death
+  record (CIV-0005) on José Olavo's parentage, and newly supplies his stated
   birthplace (Eugenópolis).
 reliability:
   assessment: >-
     A published legal notice reproducing the civil registrar's proclamas. Direct
     on José Olavo's parentage (Aristão Ferreira Armond + Liliosa Paz Armond) and
-    naturalidade (Eugenópolis); consistent with SRC-0008 and SRC-0006. Together
-    with SRC-0008 (birth date 25 September 1926) it fixes both the date and place
+    naturalidade (Eugenópolis); consistent with GOV-0001 and CIV-0005. Together
+    with GOV-0001 (birth date 25 September 1926) it fixes both the date and place
     of José Olavo's birth even though no birth/baptism record has been located.
   informant: >-
     The Oficial do Registro Civil de Conselheiro Lafaiete (proclamas), whose
@@ -71,7 +71,7 @@ reliability:
     newspaper republication of registry proclamas, the information is secondary.
 digital_file:
   path: >-
-    evidence/newspapers/SRC-0019-marriage-banns-jose-olavo-armond-1975-original.pdf
+    evidence/newspapers/NWS-0001-marriage-banns-jose-olavo-armond-1975-original.pdf
   sha256: 57525a1f4add57aa05e11c396b323abb5cb0740869137619f283e142abfd9ddb
 linked_people:
 - P-0018
@@ -91,6 +91,6 @@ notes:
     not a single-page crop.
 - text: >-
     "JOSÉ CLAVO ARMOND" is a print/typographic rendering of José Olavo Armond
-    (compare SRC-0008 "JOSE OLAVO ARMOND"). The bride Maria de Fátima Gomes
+    (compare GOV-0001 "JOSE OLAVO ARMOND"). The bride Maria de Fátima Gomes
     Beato and her parents are named but not modelled as entities (not on the
     owner's direct line).

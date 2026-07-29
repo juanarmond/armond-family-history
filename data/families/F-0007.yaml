@@ -8,7 +8,7 @@ partners:
 partner_relationship:
   status: strong-evidence
   source_ids:
-  - SRC-0009
+  - PAR-0001
   notes:
   - text: >-
       The source documents a provision to marry, not a completed ceremony.
@@ -20,13 +20,13 @@ children:
     relationship_type: unknown
     status: strong-evidence
     source_ids:
-    - SRC-0001
+    - CIV-0001
     notes: []
   - parent_id: P-0020
     relationship_type: unknown
     status: strong-evidence
     source_ids:
-    - SRC-0001
+    - CIV-0001
     notes: []
   notes: []
 event_ids:

@@ -6,11 +6,11 @@ name_variants:
 - value: João Monis Bittencourt
   type: source
   source_ids:
-  - SRC-0009
+  - PAR-0001
 - value: João Muniz Bittencourt
   type: source
   source_ids:
-  - SRC-0001
+  - CIV-0001
 event_ids:
 - E-0006
 family_ids:

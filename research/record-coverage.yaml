@@ -23,13 +23,13 @@ people:
   - record_type: marriage
     status: catalogued
     source_ids:
-    - SRC-0002
+    - CIV-0002
     last_reviewed: "2026-07-28"
     notes: []
   - record_type: death
     status: catalogued
     source_ids:
-    - SRC-0004
+    - CIV-0003
     last_reviewed: "2026-07-28"
     notes: []
   notes: []
@@ -51,7 +51,7 @@ people:
   - record_type: marriage
     status: catalogued
     source_ids:
-    - SRC-0002
+    - CIV-0002
     last_reviewed: "2026-07-28"
     notes: []
   - record_type: death
@@ -75,14 +75,14 @@ people:
     next_action: Locate the 1923 civil birth registration.
     notes:
     - text: >-
-        The 1949 marriage certificate (SRC-0005) reports Antenor as born in the
+        The 1949 marriage certificate (CIV-0004) reports Antenor as born in the
         district of Alvorada on 2 November 1923, catalogued as event E-0017.
         This is secondary information in a marriage record; the primary birth
         record is still sought.
   - record_type: marriage
     status: catalogued
     source_ids:
-    - SRC-0005
+    - CIV-0004
     last_reviewed: "2026-07-28"
     notes: []
   - record_type: death
@@ -107,10 +107,10 @@ people:
       Locate the 1929 civil birth in FamilySearch MG Civil Registration
       1879-1949 (collection 3479702); search the catalog under BOTH Alto
       Jequitibá and Manhuaçu (in 1929 "Presidente Soares" was only a district),
-      and disambiguate via SRC-0005, which names her parents.
+      and disambiguate via CIV-0004, which names her parents.
     notes:
     - text: >-
-        The 1949 marriage certificate (SRC-0005) reports Iris as born in
+        The 1949 marriage certificate (CIV-0004) reports Iris as born in
         Presidente Soares, Minas Gerais, on 27 February 1929, catalogued as
         event E-0018. This is secondary information in a marriage record; the
         primary birth record is still sought.
@@ -121,7 +121,7 @@ people:
   - record_type: marriage
     status: catalogued
     source_ids:
-    - SRC-0005
+    - CIV-0004
     last_reviewed: "2026-07-28"
     notes: []
   - record_type: death
@@ -187,7 +187,7 @@ people:
   - record_type: death
     status: catalogued
     source_ids:
-    - SRC-0006
+    - CIV-0005
     last_reviewed: "2026-07-28"
     notes:
     - text: >-
@@ -232,10 +232,10 @@ people:
         ~1885 birth lead. See the aristao-liliosa-marriage retrieval task.
     - text: >-
         29 July 2026 (REDIRECT): the couple lived in EUGENÓPOLIS, MG, not
-        Leopoldina. Their son José Olavo was "natural de Eugenópolis" (SRC-0019,
+        Leopoldina. Their son José Olavo was "natural de Eugenópolis" (NWS-0001,
         1975 marriage bann in O Processo); Geraldo x Cidalia married in Eugenópolis
-        (SRC-0002) and Antenor x Iris in Alvorada, a district of Eugenópolis
-        (SRC-0005). Search the Aristão x Liliosa marriage in Eugenópolis civil and
+        (CIV-0002) and Antenor x Iris in Alvorada, a district of Eugenópolis
+        (CIV-0004). Search the Aristão x Liliosa marriage in Eugenópolis civil and
         Catholic records (and districts Alvorada / "Limeira"). Aristão's own
         baptism stays in the Piacatuba/Leopoldina area. Applies also to the P-0008
         marriage next action.
@@ -255,14 +255,14 @@ people:
     - text: >-
         FamilySearch Memory 120876994 is an eight-page 1975 issue of the
         newspaper O Processo — the same issue since owner-supplied and now
-        catalogued as SRC-0019 (José Olavo's marriage bann, p. 6). It is not a
+        catalogued as NWS-0001 (José Olavo's marriage bann, p. 6). It is not a
         1946 vital record and carries no Liliosa death entry, but it does name
         Liliosa as José Olavo's mother (correcting the earlier "no Armond
         reference" note, which only concerned the 1946 death search).
     - text: >-
         Exact and variant structured-index searches returned no qualifying
         death or burial record. Exact full-text searching found a 1973
-        government index, catalogued as SRC-0008, which independently supports
+        government index, catalogued as GOV-0001, which independently supports
         Liliosa's name and parentage of José Olavo but is not death evidence.
     - text: >-
         Volta Redonda death image group 004366685 begins in November 1946.
@@ -316,11 +316,11 @@ people:
   - record_type: birth
     status: catalogued
     source_ids:
-    - SRC-0010
+    - CIV-0007
     last_reviewed: "2026-07-28"
     notes:
     - text: >-
-        SRC-0010 is a 2025 full-content certificate of a 1915 retrospective
+        CIV-0007 is a 2025 full-content certificate of a 1915 retrospective
         collective registration, not an image of the original register. It
         names her Maria Amora Guimarães and gives 1 January 1904.
   - record_type: marriage
@@ -352,8 +352,8 @@ people:
   - record_type: marriage
     status: catalogued
     source_ids:
-    - SRC-0001
-    - SRC-0007
+    - CIV-0001
+    - CIV-0006
     last_reviewed: "2026-07-28"
     notes: []
   - record_type: death
@@ -381,8 +381,8 @@ people:
   - record_type: marriage
     status: catalogued
     source_ids:
-    - SRC-0001
-    - SRC-0007
+    - CIV-0001
+    - CIV-0006
     last_reviewed: "2026-07-28"
     notes: []
   - record_type: death
@@ -546,7 +546,7 @@ people:
       death (aged 89 -> b.~1873, viúva) names the SAME parents -> a second primary
       record of Simplicio Ferreira Armond + Eliza/Elisa Toledo, and both children
       recorded "legítima/legítimo" -> the couple was married. Confirms Marfiza as
-      Aristão's sister. Catalogued as SRC-0020 (image in evidence/civil/); the
+      Aristão's sister. Catalogued as CIV-0013 (image in evidence/civil/); the
       FamilySearch/portal citation and registration city are still to be firmed
       up.
 - person_id: P-0017
@@ -638,7 +638,7 @@ people:
       the Arquivo da Cúria Metropolitana do Rio de Janeiro if needed.
     notes:
     - text: >-
-        SRC-0009 proves issuance of marriage provisions and the intended
+        PAR-0001 proves issuance of marriage provisions and the intended
         couple; it does not prove a completed marriage ceremony.
     - text: >-
         Exact and broader FamilySearch index searches exposed no separate
@@ -647,16 +647,16 @@ people:
         record confirms that the Espírito Santo chapel was the parish seat in
         1882.
     - text: >-
-        Parish corrected 28 July 2026 after re-examining the SRC-0009 image:
+        Parish corrected 28 July 2026 after re-examining the PAR-0001 image:
         this couple's provision was directed to the Cura do Curato de Santo
         Antônio de Sapucaia (a freguesia since 1871), not the Espírito Santo
         parish; the "Espírito Santo" wording belongs to the adjacent José
         Pereira Mendes entry. This fits Deocleciano's Sapucaia birthplace
-        (SRC-0001). Earlier notes about a missing Espírito Santo film series are
+        (CIV-0001). Earlier notes about a missing Espírito Santo film series are
         therefore moot.
     - text: >-
         29 July 2026: two records in two custodies. The 1882 provision/habilitação
-        (banhos) is at the Arquivo da Cúria Metropolitana do Rio (ACMRJ; SRC-0009
+        (banhos) is at the Arquivo da Cúria Metropolitana do Rio (ACMRJ; PAR-0001
         was filmed from the Sé provisões volume, not a Sapucaia book) - a fuller
         habilitação there would name both spouses' parents and naturalidade. The
         completed ceremony assento is most likely at the Paróquia Santo Antônio de
@@ -693,7 +693,7 @@ people:
       the Arquivo da Cúria Metropolitana do Rio de Janeiro if needed.
     notes:
     - text: >-
-        SRC-0009 proves issuance of marriage provisions and the intended
+        PAR-0001 proves issuance of marriage provisions and the intended
         couple; it does not prove a completed marriage ceremony.
     - text: >-
         Exact and broader FamilySearch index searches exposed no separate
@@ -702,12 +702,12 @@ people:
         record confirms that the Espírito Santo chapel was the parish seat in
         1882.
     - text: >-
-        Parish corrected 28 July 2026 after re-examining the SRC-0009 image:
+        Parish corrected 28 July 2026 after re-examining the PAR-0001 image:
         this couple's provision was directed to the Cura do Curato de Santo
         Antônio de Sapucaia (a freguesia since 1871), not the Espírito Santo
         parish; the "Espírito Santo" wording belongs to the adjacent José
         Pereira Mendes entry. This fits Deocleciano's Sapucaia birthplace
-        (SRC-0001). Earlier notes about a missing Espírito Santo film series are
+        (CIV-0001). Earlier notes about a missing Espírito Santo film series are
         therefore moot.
     - text: >-
         29 July 2026: see the P-0019 marriage note - the 1882 provision/habilitação
@@ -734,7 +734,7 @@ people:
     last_reviewed: "2026-07-28"
     next_action: Locate Francisco's own civil birth or parish baptism record.
     notes:
-    - text: SRC-0010 reports only Vila do Rio Claro as his birthplace.
+    - text: CIV-0007 reports only Vila do Rio Claro as his birthplace.
   - record_type: marriage
     status: lead_only
     source_ids: []
@@ -743,7 +743,7 @@ people:
       Locate his marriage to Emmerenciana Maria de Jesus, prioritising a record
       that may identify Vicente's Portuguese locality.
     notes:
-    - text: SRC-0010 describes Emmerenciana as his wife but gives no marriage details.
+    - text: CIV-0007 describes Emmerenciana as his wife but gives no marriage details.
   - record_type: death
     status: unsearched
     source_ids: []
@@ -764,7 +764,7 @@ people:
     last_reviewed: "2026-07-28"
     next_action: Locate Emmerenciana's own civil birth or parish baptism record.
     notes:
-    - text: SRC-0010 reports only São Francisco do Glória as her birthplace.
+    - text: CIV-0007 reports only São Francisco do Glória as her birthplace.
   - record_type: marriage
     status: lead_only
     source_ids: []
@@ -793,7 +793,7 @@ people:
       Locate a record that gives Vicente's Portuguese district, municipality
       or parish; do not convert nationality into a specific origin.
     notes:
-    - text: SRC-0010 describes him only as Portuguese.
+    - text: CIV-0007 describes him only as Portuguese.
     - text: >-
         29 July 2026 strategy (bridge-record-first): his Brazilian marriage or
         habilitação (FamilySearch MG Catholic, collection 2177275, place
@@ -839,7 +839,7 @@ people:
       naturalidade, parents and the surviving widow - a high-value origin record.
     notes:
     - text: >-
-        SRC-0010 says he was deceased in Carangola by 12 October 1915 but gives
+        CIV-0007 says he was deceased in Carangola by 12 October 1915 but gives
         no date or register reference.
   notes:
   - text: >-
@@ -859,7 +859,7 @@ people:
     last_reviewed: "2026-07-28"
     next_action: Locate Maria Tertuliana's own civil birth or parish baptism.
     notes:
-    - text: SRC-0010 reports only Vila do Rio Claro as her birthplace.
+    - text: CIV-0007 reports only Vila do Rio Claro as her birthplace.
   - record_type: marriage
     status: unsearched
     source_ids: []
@@ -872,7 +872,7 @@ people:
     last_reviewed: "2026-07-28"
     next_action: Locate her own Carangola civil death or parish burial record.
     notes:
-    - text: SRC-0010 reports that she died in Carangola before 12 October 1915.
+    - text: CIV-0007 reports that she died in Carangola before 12 October 1915.
   notes: []
 - person_id: P-0025
   external_profiles:
@@ -887,7 +887,7 @@ people:
     last_reviewed: "2026-07-28"
     next_action: Locate Antonio Francisco's civil birth or parish baptism.
     notes:
-    - text: SRC-0010 reports only São Francisco do Glória as his birthplace.
+    - text: CIV-0007 reports only São Francisco do Glória as his birthplace.
   - record_type: marriage
     status: unsearched
     source_ids: []
@@ -900,7 +900,7 @@ people:
     last_reviewed: "2026-07-28"
     next_action: Locate his own death or parish burial record.
     notes:
-    - text: SRC-0010 reports that he died in São Francisco do Glória before 1915.
+    - text: CIV-0007 reports that he died in São Francisco do Glória before 1915.
   notes: []
 - person_id: P-0026
   external_profiles:
@@ -915,7 +915,7 @@ people:
     last_reviewed: "2026-07-28"
     next_action: Locate Maria Paula's civil birth or parish baptism.
     notes:
-    - text: SRC-0010 reports only São Francisco do Glória as her birthplace.
+    - text: CIV-0007 reports only São Francisco do Glória as her birthplace.
   - record_type: marriage
     status: unsearched
     source_ids: []
