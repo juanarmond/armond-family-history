@@ -276,3 +276,12 @@ also remain traceable through source records and research logs.
   property records. Folded into P-0016, P-0017 and P-0008. No conclusion
   promoted; formal per-source cataloguing to follow; the Azorean bridge stays
   unproven.
+- Catalogue the two subject probate records from the Full-Text batch as sources:
+  `SRC-0017` (1881 Leopoldina heir list naming Eliza Balbina de Toledo as wife of
+  Simplício José Ferreira Armond, with her Toledo siblings) and `SRC-0018` (1884
+  Leopoldina petition of Simplício as heir of the late D. Mathilde Maria de
+  Jezus). Both are court_or_probate originals, linked to P-0016 and P-0017, with
+  their images moved to a new `evidence/probate/` category and inventoried as
+  DOC-0016/DOC-0017. The 1881 estate opens Elisa's maternal ancestry (decedent
+  Mathilde Maria de Jezus); the remaining 13 Full-Text hits stay staged as FAN
+  references. Simplício's own parentage is still not found.

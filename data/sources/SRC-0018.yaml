@@ -1,0 +1,70 @@
+schema_version: 1
+id: SRC-0018
+title: >-
+  1884 Leopoldina petition of Simplício José Ferreira Armond as heir of the late
+  D. Mathilde Maria de Jezus
+record_type: Probate petition (autos de inventário)
+record_category: court_or_probate
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1884-02-12"
+event_place_text: Leopoldina, Minas Gerais, Brazil
+repository:
+  name: FamilySearch full-text image
+  archive_or_registry: >-
+    Comarca de Leopoldina, Minas Gerais (probate records)
+  collection: >-
+    Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text)
+  page: "321"
+  catalogue_reference: FamilySearch ARK 3:1:3QHJ-BQWY-RQQG.
+  url: https://www.familysearch.org/ark:/61903/3:1:3QHJ-BQWY-RQQG
+  repository_path: >-
+    evidence/probate/SRC-0018-simplicio-armond-petition-mathilde-1884.jpg
+access_date: "2026-07-29"
+language: pt-BR
+transcription: >-
+  Ill.mo Snr. Dr. Juiz de Orphãos. [...] Diz Simplicio José Ferreira Armond
+  herdeiro da fina[da] D. Mathilde Maria de Jezus que, tendo ella fallecido
+  a[cerca] de 4 annos, até hoje não se terem partilhado os bens por aquella
+  finada deixados [...] vem perante V. Sa requerer [...] que se faça a partilha.
+  O Supp.e [...] tem parentes colateraes em estado de indigencia [...]. Leopoldina
+  12 de Fevereiro de 1884. Simplicio Joze Ferr.a Armond [assinatura autógrafa].
+  [Despacho anterior:] Nos autos [...] Leopoldina 15 de Fevereiro de 1884. J.
+  Felicio.
+abstract: >-
+  A petition (12 February 1884, Leopoldina), written and signed by Simplício José
+  Ferreira Armond in his own hand, asking the orphans' judge to complete the
+  long-delayed partition of the estate of the late D. Mathilde Maria de Jezus, who
+  had died about four years earlier (~1880). He petitions as her heir — in right
+  of his wife Eliza Balbina de Toledo (per SRC-0017) — placing Mathilde Maria de
+  Jezus on Eliza's (maternal) line.
+reliability:
+  assessment: >-
+    Direct primary evidence, in Simplício's own hand, that he was an heir of the
+    late D. Mathilde Maria de Jezus (d. ~1880) and that her estate (the SRC-0017
+    heir list) was being partitioned at Leopoldina. Names the matriarch of Eliza's
+    line; shows Simplício was literate and active at Leopoldina in 1884.
+  informant: Simplício José Ferreira Armond (the petitioner).
+  limitations: >-
+    The petition establishes Simplício's heirship but not the exact relationship
+    (Mathilde as Eliza's mother vs. grandmother), nor Simplício's own parentage.
+    Read from a FamilySearch Full-Text preview image.
+digital_file:
+  path: >-
+    evidence/probate/SRC-0018-simplicio-armond-petition-mathilde-1884.jpg
+  sha256: 837090371374fd471bcded5134a0a4730c435153116a2368ec5c222b85a4c48e
+linked_people:
+- P-0016
+- P-0017
+linked_families: []
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Found via FamilySearch Full-Text. Same estate as SRC-0017 (the 1881 heir
+    list), linked by the decedent's name and timeline.

@@ -669,3 +669,73 @@ documents:
         The historical Ferreira Armond discussion is a research lead only; it
         does not establish a primary-source relationship to the repository's
         documented Armond line.
+  - inventory_id: DOC-0016
+    status: catalogued
+    added_date: "2026-07-29"
+    apparent_record_type: Probate/partilha heir list (autos de inventário)
+    apparent_people:
+      - Simplício José Ferreira Armond
+      - Eliza Balbina de Toledo
+      - Maria Bulandina de Toledo
+      - Ladisláo Egydio Ferreira de Toledo
+      - Geraldo Augusto de Toledo Lima
+      - Josepha Olympia da Paixão
+    apparent_event: other
+    image_quality: adequate
+    provenance: >-
+      FamilySearch full-text image, ARK 3:1:3QHJ-YQWY-R9GH, of a Leopoldina (MG)
+      probate/partilha of 1881. Located via FamilySearch Full-Text search for
+      "Simplicio Ferreira Armond" and downloaded through the owner's authenticated
+      session on 29 July 2026.
+    rights_status: permission-required
+    files:
+      - path: evidence/probate/SRC-0017-inventario-toledo-heirs-leopoldina-1881.jpg
+        sha256: 13f9f5208253b0ce584d0865aa239033e1f4a1cb00cedc1c1cbc4d9af855c374
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+          pixel_width: 3048
+          pixel_height: 4082
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: SRC-0017
+    notes:
+      - >-
+        A public 1881 court record (FamilySearch preview image). The estate's
+        decedent is named in the companion 1884 petition (DOC-0017 / SRC-0018) as
+        D. Mathilde Maria de Jezus, on Eliza Balbina de Toledo's line.
+  - inventory_id: DOC-0017
+    status: catalogued
+    added_date: "2026-07-29"
+    apparent_record_type: Probate petition (autos de inventário)
+    apparent_people:
+      - Simplício José Ferreira Armond
+      - Mathilde Maria de Jezus
+    apparent_event: other
+    image_quality: adequate
+    provenance: >-
+      FamilySearch full-text image, ARK 3:1:3QHJ-BQWY-RQQG, of a Leopoldina (MG)
+      probate petition of 1884. Located via FamilySearch Full-Text and downloaded
+      through the owner's authenticated session on 29 July 2026.
+    rights_status: permission-required
+    files:
+      - path: evidence/probate/SRC-0018-simplicio-armond-petition-mathilde-1884.jpg
+        sha256: 837090371374fd471bcded5134a0a4730c435153116a2368ec5c222b85a4c48e
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+          pixel_width: 3187
+          pixel_height: 4202
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: SRC-0018
+    notes:
+      - >-
+        Simplício petitions in his own hand as heir of the late D. Mathilde Maria
+        de Jezus; the same estate as DOC-0016 (SRC-0017).

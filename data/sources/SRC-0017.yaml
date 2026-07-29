@@ -1,0 +1,86 @@
+schema_version: 1
+id: SRC-0017
+title: >-
+  1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza
+  Balbina de Toledo (wife of Simplício José Ferreira Armond)
+record_type: Probate/partilha heir list (autos de inventário)
+record_category: court_or_probate
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: year
+  year: 1881
+event_place_text: Leopoldina, Minas Gerais, Brazil
+repository:
+  name: FamilySearch full-text image
+  archive_or_registry: >-
+    Comarca de Leopoldina, Minas Gerais (probate/notarial records)
+  collection: >-
+    Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text)
+  page: "9"
+  catalogue_reference: >-
+    FamilySearch ARK 3:1:3QHJ-YQWY-R9GH. Same estate file as SRC-0018 and the
+    non-imaged page ARK 3:1:3QHJ-RQWY-RWJV, which captions these heirs "Primeiros
+    Nettos".
+  url: https://www.familysearch.org/ark:/61903/3:1:3QHJ-YQWY-R9GH
+  repository_path: >-
+    evidence/probate/SRC-0017-inventario-toledo-heirs-leopoldina-1881.jpg
+access_date: "2026-07-29"
+language: pt-BR
+transcription: >-
+  [Lista de herdeiros, numerada 4.º-8.º:] Maria Bulandina de Tolledo, cazada com
+  Manoel Marques Jorge (4.º). Simplicio José Ferreira Armond, cazado com D. Eliza
+  Balbina de Tolledo (5.º). Ladisláo Egydio Ferreira de Tolledo, solteiro, de 23
+  annos (6.º). Geraldo Augusto de Tolledo Lima, solteiro, de 15 annos, rezidente
+  na côrte [Rio de Janeiro], empregado em uma caza de negocio zita á rua do
+  Visconde de Inhaúma n.º 74 (7.º). Josepha Olympia da Paixão, solteira, de 12
+  annos de idade (8.º). [Linha separada, por representação:] D. Carolina
+  Leopoldina Marques, cazada com Narcizo Marques Braz, sendo a mesma já
+  fallecida, sendo seos herdeiros D. Maria da [...].
+abstract: >-
+  A page from an 1881 Leopoldina probate/partilha listing the heirs of an estate
+  on Eliza Balbina de Toledo's side. It names Eliza Balbina de Toledo as the wife
+  of Simplício José Ferreira Armond and lists her Toledo siblings with ages:
+  Maria Bulandina de Toledo (m. Manoel Marques Jorge), Ladisláo Egydio Ferreira
+  de Toledo (~23, b. ~1858), Geraldo Augusto de Toledo Lima (~15, b. ~1866, then
+  living in Rio de Janeiro), and Josepha Olympia da Paixão (~12, b. ~1869), plus a
+  predeceased Carolina Leopoldina Marques inheriting by representation. The
+  companion 1884 petition (SRC-0018) names the decedent as D. Mathilde Maria de
+  Jezus.
+reliability:
+  assessment: >-
+    Direct primary evidence, from an original court/probate record, that Eliza
+    Balbina de Toledo was married to Simplício José Ferreira Armond and that the
+    named individuals were her siblings/co-heirs. Establishes Eliza's own (Toledo)
+    family — the parents of Aristão Ferreira Armond's mother.
+  informant: >-
+    The court record (autos de inventário/partilha) prepared by the escrivão; the
+    heir relationships are stated in the legal filing.
+  limitations: >-
+    This downloaded page is a mid-document heir list and does not itself name the
+    decedent. The estate's opening pages (and the companion page captioning the
+    heirs "Primeiros Nettos") are needed to fix whether the matriarch D. Mathilde
+    Maria de Jezus is Eliza's mother or grandmother, and to name the intervening
+    Ferreira de Toledo parent. Read from a FamilySearch Full-Text preview image.
+digital_file:
+  path: >-
+    evidence/probate/SRC-0017-inventario-toledo-heirs-leopoldina-1881.jpg
+  sha256: 13f9f5208253b0ce584d0865aa239033e1f4a1cb00cedc1c1cbc4d9af855c374
+linked_people:
+- P-0016
+- P-0017
+linked_families: []
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Found via FamilySearch Full-Text search for "Simplicio Ferreira Armond". Part
+    of the Muriaé/Leopoldina probate corpus; the full set of 16 Full-Text hits and
+    the candidates CSV are staged in
+    evidence/incoming/armond-muriae-fulltext-probates/.
+- text: >-
+    Ladisláo Egydio "Ferreira de Tolledo" shows the Toledo line also used
+    "Ferreira"; do not conflate with the Ferreira Armond surname.
