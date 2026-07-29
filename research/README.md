@@ -8,6 +8,10 @@ contains reproducible research notes rather than settled entity data.
 - `logs/` holds detailed sessions named `YYYY-MM-DD-short-question.md`.
 - `document-inventory.yaml` stages authorised evidence before source
   cataloguing.
+- `correspondence-log.md` records outreach to archives, parishes and
+  researchers — public contact details, dates, purpose and replies.
+- `resources/` keeps copies of key third-party reference documents (leads),
+  each with provenance recorded in its manifest.
 - `record-coverage.yaml` is the sole operational ledger for missing vital
   records of deceased direct ancestors. `STATUS.md` retains strategic branch
   priorities and must not duplicate this person-by-record matrix.

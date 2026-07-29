@@ -228,3 +228,8 @@ also remain traceable through source records and research logs.
   (UFMG) dissertation and a snapshot of the Senra blog — all leads about the
   historical Barbacena Ferreira Armonde family, not this line's proven ancestry.
   Record the deep-dig session (five parallel agents plus the 1831 census).
+- Preserve two further Projeto Compartilhar documents in `research/resources/`
+  (the 1831 João Gomes census — a married Manoel Antonio de Armond household —
+  and the 1751 will/inventory of the patriarch), and add
+  `research/correspondence-log.md` recording outreach to Mauro Senra, Nilza
+  Cantoni and the Piacatuba parish about the Simplício × Elisa marriage.

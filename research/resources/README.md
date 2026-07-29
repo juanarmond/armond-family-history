@@ -92,3 +92,38 @@ only** — never proof of descent for this repository's line.
   [José] Ferreira Armond × Elisa Balbina Tolledo). Lead only; it overlays an
   unsupported French-via-Madeira origin claim that the ASBRAP article above
   refutes.
+
+### `projetocompartilhar-1831-joao-gomes-censo.pdf` — 1831 census, João Gomes (Barbacena, MG)
+
+- Source: `http://www.projetocompartilhar.org/Censos/1831JoaoGomesMG.pdf`
+  (Projeto Compartilhar; APM MP Cx 7 Doc 1). Retrieved 2026-07-29.
+- What it is: the 1831 census of the Distrito de São Miguel e Almas de João
+  Gomes (Freguesia do Engenho do Mato), Termo de Barbacena. **Fogo 22 names a
+  MARRIED Armond: Manoel Antonio de Armond (30, casado, tropeiro), wife Barbara
+  Maria (22), son Camillo Antonio (7), 2 cativos** — unlike the celibate Curral
+  Novo brothers, a married Armond branch near Barbacena, and thus a candidate
+  source for a *later* "Simplício" namesake. Lead only; no proven link.
+
+### `projetocompartilhar-1751-francisco-ferreira-armonde-inventario.htm` — 1751 will/inventory
+
+- Source: `http://www.projetocompartilhar.org/DocsMgAF/FranciscoFerreiraArmond1751.htm`
+  (transcription; IPHAN São João del Rei inventory + Barbacena óbitos microfilm
+  1252370). Retrieved 2026-07-29.
+- What it is: the will/inventory of Francisco Ferreira Armonde (d. 16 Nov 1751,
+  Rio Fundo, Borda do Campo/Barbacena), declaring himself "natural da Ilha
+  Terceira, freguesia da Vila de São Sebastião, filho de Gaspar do Souto Maior e
+  Margarida das Candeias" — corroborates the Azorean origin from the will itself.
+  Wealth ~1:480$000 + 119 oitavas de ouro + ≥4 slaves; illiterate. Context lead.
+
+## Target resources (identified, not retrievable by this assistant — browser/human)
+
+- **Forjaz & Ornelas Mendes, "Genealogias da Ilha Terceira" (vols 1–9)** — the
+  authoritative genealogy of Terceira families; on Scribd (user
+  `Joao-Henrique-F-Vieira`) but Scribd is bot-walled (a "Client Challenge"
+  interstitial). It is a secondary compilation; the correct *evidence* route is
+  the primary parish registers of São Sebastião / Angra do Heroísmo (1541–1911),
+  free at the GEA (`culturacores.azores.gov.pt/ig/registos`). Both need a browser.
+- **My Portuguese Gen** (`myportuguesegen.blogspot.com`) — a curated directory of
+  Portugal/Azores archives (DigitArq/Tombo, GEA registos + passaportes, BPARLSR
+  "fontes genealógicas", CEPESE, BN Digital, UMinho GHP). A search map for the
+  Azorean leads, of use once the Piacatuba→Barbacena bridge is proven.
