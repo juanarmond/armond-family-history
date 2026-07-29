@@ -326,6 +326,10 @@ also remain traceable through source records and research logs.
   already-catalogued CIV-0005, so it is kept as a working reference under
   `evidence/references/` (not re-inventoried, since one authoritative image is
   kept per record) and noted in CIV-0005.
+- Tighten `AGENTS.md` so the source-record (`data/sources/`) versus binary-scan
+  (`evidence/`) two-layer split, the category-prefix scheme, and the
+  FAN-versus-source decision are stated explicitly as non-negotiable format
+  rules (imported into Claude via `CLAUDE.md`).
 
 ### Fixed
 

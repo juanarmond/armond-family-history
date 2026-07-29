@@ -62,7 +62,10 @@ Classify the task before acting:
 - **Research:** state one exact research question, seek the closest original
   record, and record positive, negative and inaccessible searches.
 - **Evidence intake:** inventory and privacy-review the file before creating a
-  source or conclusion.
+  source or conclusion. A record *about* the family is a `source`; a third-party
+  record where the family appears only in a functional role (witness, appraiser,
+  creditor, attorney) is a FAN entity (`data/fan/`, `usage: context`, never
+  evidence), not a source.
 - **Data change:** cite the qualifying source, preserve variants and conflicts,
   and validate every relationship independently.
 - **Engineering:** preserve evidence and research history, remove duplication,
@@ -101,16 +104,21 @@ an entry is absent from an unindexed register.
   archival reference is unavailable.
 - Keep `confirmed`, `strong-evidence`, `hypothesis` and `rejected` distinct.
 - Do not infer Portuguese, island, German or other origins from surnames.
+- Keep the two source layers separate but in step. A source is a YAML **record**
+  under `data/sources/<category>/` and, separately, its binary **scan** under
+  `evidence/<category>/`: the record is machine-readable and exportable, the scan
+  is a private image/document that is never exported. Do not merge them into one
+  tree.
 - Preserve stable IDs: immutable once assigned; never renumber a live entity.
-  Sources are category-prefixed by origin (`CIV`, `GOV`, `PAR`, `PRB`, `NWS`,
-  `PUB`, `REC`) and filed under `data/sources/<category>/`, and their evidence
-  files carry the same prefix; other entities keep their fixed prefix (`P`, `F`,
-  `E`, `PL`, `FAN`). The category also lives in the source's `record_category`
-  field (the single source of truth), so reclassifying moves the file but never
-  changes the ID. Adding a new source category must follow the documented
-  pattern — new prefix + `data/sources/<category>/` + `EntityConfig` +
-  `SOURCE_KINDS` entry + ledger section + template + viewer `SOURCE_DIR` entry;
-  see `data/README.md`.
+  Sources and their scans are category-prefixed by origin (`CIV`, `GOV`, `PAR`,
+  `PRB`, `NWS`, `PUB`, `REC`) and share the ID prefix
+  (`data/sources/civil/CIV-0001.yaml` ↔ `evidence/civil/CIV-0001-…`); other
+  entities keep their fixed prefix (`P`, `F`, `E`, `PL`, `FAN`). The category
+  also lives in the source's `record_category` field (the single source of
+  truth), so reclassifying moves the files but never changes the ID. Adding a
+  new source category must follow the documented pattern — new prefix +
+  `data/sources/<category>/` + `EntityConfig` + `SOURCE_KINDS` entry + ledger
+  section + template + viewer `SOURCE_DIR` entry; see `data/README.md`.
 
 ## Completion protocol
 
