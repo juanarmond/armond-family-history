@@ -191,6 +191,14 @@ FamilySearch profile identifiers in this ledger are navigation leads only.
 They do not support any genealogical conclusion. Living people are excluded
 from the ledger.
 
+Sequence record retrieval to minimise cost. Exhaust the free and
+already-authorised routes first — authorised record images (e.g. FamilySearch)
+and name-searchable public databases — and catalogue their results before
+submitting any paid order or archive-contact request. Paid and human-contact
+requests (paid curia or parish certidões, archive enquiries) come last, once
+the free routes are exhausted and ingested, and still require explicit owner
+authorisation.
+
 ## Living people
 
 Minimise data for living people. Do not store identity numbers, full addresses,
