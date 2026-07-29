@@ -122,7 +122,34 @@ tasks:
       person: "Liliosa Paz Armond"
       capture: "exact death date, age, stated parents, spouse (Aristão)"
     if_no_film: "Request an inteiro-teor óbito by name+year from Cartório Souza Reis, 1º distrito de Barra Mansa (registrocivil.org.br's free locator excludes RJ)."
+
+  - id: iris-1929-birth
+    priority: 7
+    film: null
+    action: "Iris Bohrer's 1929 civil birth. FamilySearch MG Civil Registration 1879-1949 (collection 3479702); catalog place-search under BOTH 'Alto Jequitibá' and 'Manhuaçu' - in 1929 'Presidente Soares' was only a district."
+    looking_for: "Birth of Iris Bohrer, 27 Feb 1929, district of Presidente Soares (now Alto Jequitibá), MG."
+    match:
+      person: "Iris Bohrer"
+      capture: "parents (João Gonçalves Bohrer, Selina/Celina Bohrer), exact place and date"
+    disambiguate: "Use SRC-0005 (the 1949 marriage), which names her parents."
 ```
+
+## Catalog references (FamilySearch Research Wiki, 2026-07-29)
+
+Public catalog IDs + date ranges (film/DGS numbers are login-gated; open the
+catalog to read them). Statewide browse: MG Civil `3479702`, MG Catholic
+`2177275`, RJ Civil `1582573`, RJ Catholic `1719212`.
+
+- Leopoldina parish (São Sebastião), covers Piacatuba district: catalog `345430`,
+  1852-1924 — Aristão baptism (from ~1879), Aristão×Liliosa marriage, and the
+  decisive Simplício×Elisa marriage.
+- Barra Mansa civil: `516378`, 1889-2005 — Liliosa death (VR pre-1954 events too).
+- Sapucaia civil: `385592` / `4135303` — João×Susanna civil marriage; no Sapucaia
+  parish film on the wiki, so the church record falls back to RJ Catholic `1719212`.
+- Barbacena parish (N. Sra. da Piedade): `21641`, 1730-1915 — bridge, only if a
+  Barbacena origin surfaces.
+- Carangola / Tombos: NO local catalog on the wiki — use MG full-text + statewide
+  `3479702` / `2177275` and a bounded manual review (Vicente).
 
 ## Why each target matters (for the human cataloguer)
 

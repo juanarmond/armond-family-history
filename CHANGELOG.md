@@ -233,3 +233,11 @@ also remain traceable through source records and research logs.
   and the 1751 will/inventory of the patriarch), and add
   `research/correspondence-log.md` recording outreach to Mauro Senra, Nilza
   Cantoni and the Piacatuba parish about the Simplício × Elisa marriage.
+- Survey the owner-supplied source sites (a full Projeto Compartilhar crawl, the
+  My Portuguese Gen Azores directory, and the Scribd Forjaz & Mendes "Genealogias
+  da Ilha Terceira") and consolidate the leads: record the survey session log;
+  add a per-locality FamilySearch catalog-ID map and an Iris Bohrer 1929-birth
+  target to the retrieval worksheet; note the married Manoel Antonio de Armond
+  (João Gomes 1831) as a candidate later-namesake and reaffirm, from the 1831
+  census (a primary source), that the documented Armonde tree does not reach
+  Piacatuba. No conclusion changed.

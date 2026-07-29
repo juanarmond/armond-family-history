@@ -49,7 +49,6 @@ lead until verified against an original record.
   **Aristão's baptism (~1879)**; whether the ~1855-1880 books remain at the
   parish or were transferred to the Cúria/diocesan archive; procedure and fee
   for a certidão de inteiro teor.
-- Sent: not yet — draft ready. Per the free-first rule, to follow the FamilySearch
-  attempt (Piacatuba marriages, catalog 345430).
-- Status: draft prepared.
+- Sent: 2026-07-29 (by the owner) — by email and via the diocese contact form.
+- Status: awaiting reply.
 - Reply: —

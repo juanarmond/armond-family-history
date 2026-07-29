@@ -102,14 +102,22 @@ people:
   - record_type: birth
     status: lead_only
     source_ids: []
-    last_reviewed: "2026-07-28"
-    next_action: Locate the 1929 civil birth registration.
+    last_reviewed: "2026-07-29"
+    next_action: >-
+      Locate the 1929 civil birth in FamilySearch MG Civil Registration
+      1879-1949 (collection 3479702); search the catalog under BOTH Alto
+      Jequitibá and Manhuaçu (in 1929 "Presidente Soares" was only a district),
+      and disambiguate via SRC-0005, which names her parents.
     notes:
     - text: >-
         The 1949 marriage certificate (SRC-0005) reports Iris as born in
         Presidente Soares, Minas Gerais, on 27 February 1929, catalogued as
         event E-0018. This is secondary information in a marriage record; the
         primary birth record is still sought.
+    - text: >-
+        29 July 2026: no free online Bohrer genealogy is reachable; the origin
+        needs the primary records. Preserve the Selina/Celina spelling variance
+        for her mother (P-0015). Do not infer German origin from the surname.
   - record_type: marriage
     status: catalogued
     source_ids:
@@ -488,6 +496,17 @@ people:
       parentage: the full baptismal act of Marfiza (Piacatuba, 15 Feb 1873), not
       just the index row. Only the Chagas 2018 UFMG dissertation was verified; a
       "Chagas 2024" work was not found.
+  - text: >-
+      29 July 2026 (deep dig): the 1831 Curral Novo census (primary) confirms the
+      anti-merge — the b.~1785 Simplício José was 46, solteiro and the district
+      Juiz de Paz; his celibate brothers held 66 cativos. The documented Barbacena
+      tree (Lacerda/Chagas) does NOT reach Piacatuba, so the bridge is currently
+      unsupported. NEW lead: a MARRIED Armond, Manoel Antonio de Armond (João
+      Gomes/Barbacena, 1831 census, tropeiro), is a more plausible source of a
+      later "Simplício" namesake than the celibate Curral Novo brothers. The
+      decisive test remains the Piacatuba marriage of this Simplício x Elisa
+      (FamilySearch catalog 345430). Sources in research/resources/; outreach in
+      research/correspondence-log.md.
 - person_id: P-0017
   external_profiles: []
   records:

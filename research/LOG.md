@@ -604,3 +604,25 @@ entry they amend; they must not erase it.
   2018 dissertation and a Senra-blog snapshot.
 - Next action: batch the ledger/worksheet/coverage updates and the occupations
   population with the running projetocompartilhar crawl, then Codex retrieval.
+
+## 2026-07-29 — Projeto Compartilhar crawl and Azores source survey
+
+- Question: survey projetocompartilhar.org (full crawl), myportuguesegen (Azores
+  resource directory) and the Scribd Forjaz & Mendes "Genealogias da Ilha
+  Terceira" for our families and the Azorean Armonde leads.
+- Method: three read-only agents + direct fetches; curl/pdftotext/Wayback only
+  (WebSearch exhausted). All leads.
+- Detailed log:
+  [`logs/2026-07-29-projetocompartilhar-and-azores-source-survey.md`](logs/2026-07-29-projetocompartilhar-and-azores-source-survey.md).
+- Key results: projetocompartilhar's scope (São Paulo + sul de Minas) excludes
+  Piacatuba/RJ/ES; new lead of a MARRIED Manoel Antonio de Armond (João Gomes
+  1831) as a candidate later-namesake; the 1751 will corroborates the Azorean
+  origin. Scribd (Forjaz) is bot-walled → browser/human target; the evidence
+  route is the GEA parish images. Built a per-locality FamilySearch catalog-ID map.
+- Preserved in research/resources/: the João Gomes census and the 1751 inventory.
+- Contacts sent (research/correspondence-log.md): Mauro Senra, Nilza Cantoni,
+  Paróquia de Piacatuba.
+- Genealogical conclusions changed: none.
+- Next action: Codex FamilySearch pulls (345430 Piacatuba marriage + baptisms
+  1879+; 516378 Barra Mansa; 385592 Sapucaia; 3479702 Iris 1929 birth); await the
+  three replies; populate person occupations from held sources.
