@@ -218,3 +218,7 @@ also remain traceable through source records and research logs.
   completed ceremony assento by custody. Record the Portugal/Azores
   custody-and-access workflow (100-year rule, free DigitArq/GEA images) in
   `research/README.md`.
+- Add an optional, source-qualified `occupations` field to the person schema
+  (each occupation cites the source that records it), enabling profession and
+  wealth analysis. The recursive reference and living-person privacy checks
+  cover its `source_ids` automatically; no validator change was needed.

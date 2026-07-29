@@ -236,6 +236,23 @@ class ValidateDataTests(unittest.TestCase):
         self.assertEqual((), result.warnings)
         self.assertEqual(6, result.entity_count)
 
+    def test_person_occupations_are_optional_and_source_qualified(self) -> None:
+        self.fixture.documents["people"]["P-0001"]["occupations"] = [
+            {"value": "lavrador", "source_ids": ["SRC-0001"]}
+        ]
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assertEqual((), result.errors)
+        self.assertEqual((), result.warnings)
+
+    def test_person_occupation_requires_a_source(self) -> None:
+        self.fixture.documents["people"]["P-0001"]["occupations"] = [
+            {"value": "lavrador"}
+        ]
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "source_ids")
+
     def test_missing_empty_entity_directory_is_allowed(self) -> None:
         (self.fixture.root / "data/places").rmdir()
         result = self.fixture.validate()
