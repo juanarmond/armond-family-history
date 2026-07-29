@@ -302,6 +302,13 @@ also remain traceable through source records and research logs.
   where a family member appears only in a functional role, plus the first entity
   `FAN-0001` (an 1875 Muriaé procuração signed by Simplício José Ferreira
   Armond). People gain an optional `fan_references` back-link list.
+- Catalogue the 1877 Leopoldina Toledo deed of sale (`PRB-0003`, two pages,
+  promoted from the `research/from-scraper/` sync via the value gate) and add
+  `P-0027` Mathilde Maria de Jesus. Its clause "sua finada avó Dona Mathildes
+  Maria de Jesus" (Fazenda da Concórdia) fixes Mathilde as the *grandmother* of
+  Eliza Balbina de Toledo's (P-0017) Toledo grandchild set, resolving the
+  mother-vs-grandmother question flagged on PRB-0001; the intervening parent
+  (Eliza's) remains undocumented.
 
 ### Changed
 

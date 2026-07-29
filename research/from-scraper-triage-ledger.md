@@ -38,8 +38,8 @@ _Last updated 2026-07-29._
 | `3:1:3QHJ-1QH1-S4XD` | TODO: unread | not in repo and no candidate metadata — pending a per-image value-gate read |
 | `3:1:3QHJ-1QWB-7BYX` | TODO: unread | not in repo and no candidate metadata — pending a per-image value-gate read |
 | `3:1:3QHJ-BQH1-SWNS` | TODO: unread | not in repo and no candidate metadata — pending a per-image value-gate read |
-| `3:1:3QHJ-BQWY-R996-5` | read: Toledo direct-line | **1877 Leopoldina deed of sale by the Toledo family** (Santo Antônio dos Aribas, Leopoldina): sellers incl. Maria [Perpétua/Porcelina] de Toledo, Matildes Olímpia da Paixão, Geraldo Augusto de Toledo, Ladisláo Egydio Ferreira de Toledo, Maria Bulandina de Jesus (m. Manoel Marques Jorge), Josepha Olímpia — **Eliza Balbina de Toledo's maternal kin**. Candidate source for Eliza's mother + Toledo siblings/grandparents (P-0017's line). Not yet promoted. |
-| `3:1:3QHJ-BQWY-R9MX-8` | TODO: unread | not in repo and no candidate metadata — pending a per-image value-gate read |
+| `3:1:3QHJ-BQWY-R996-5` | read: Toledo direct-line | **1877 Leopoldina deed of sale by the Toledo family** (Santo Antônio dos Aribas, Leopoldina): sellers incl. Maria [Perpétua/Porcelina] de Toledo, Matildes Olímpia da Paixão, Geraldo Augusto de Toledo, Ladisláo Egydio Ferreira de Toledo, Maria Bulandina de Jesus (m. Manoel Marques Jorge), Josepha Olímpia — **Eliza Balbina de Toledo's maternal kin**. **Promoted as PRB-0003** (page 1) with new person **P-0027 = Mathilde Maria de Jesus, Eliza's grandmother**. |
+| `3:1:3QHJ-BQWY-R9MX-8` | done: promoted → PRB-0003 | Page 2 of the 1877 Toledo deed; **"houveram por herança … de sua finada avó Dona Mathildes Maria de Jesus"** at the Fazenda da Concórdia — the line that fixes Mathilde as *grandmother* (P-0027). |
 | `3:1:3QHJ-RQH1-S4D2` | TODO: unread | not in repo and no candidate metadata — pending a per-image value-gate read |
 | `3:1:3QHJ-RQYM-2TCR` | TODO: unread | not in repo and no candidate metadata — pending a per-image value-gate read |
 | `3:1:3QHJ-RQYM-2TCX` | TODO: unread | not in repo and no candidate metadata — pending a per-image value-gate read |

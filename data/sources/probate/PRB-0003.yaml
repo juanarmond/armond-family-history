@@ -1,0 +1,96 @@
+schema_version: 1
+id: PRB-0003
+title: >-
+  1877 Leopoldina notarial deed of sale by the Toledo grandchildren of their
+  inherited Fazenda da Concórdia land, naming their grandmother Mathilde Maria
+  de Jesus
+record_type: Notarial deed of sale (escritura de venda / traslado)
+record_category: court_or_probate
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1877-05-25"
+event_place_text: >-
+  Freguesia de Santo Antônio [dos Aribas?], Termo de Leopoldina, Minas Gerais,
+  Brazil
+repository:
+  name: FamilySearch Full-Text (Minas Gerais court and notarial records)
+  archive_or_registry: Cartório/Comarca de Leopoldina, Minas Gerais (notarial)
+  collection: >-
+    Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text)
+  book: "Livro 6, fls. 27-30 (traslado at fl. 159)"
+  catalogue_reference: >-
+    FamilySearch ARK 3:1:3QHJ-BQWY-R996-5 (p.1) and 3:1:3QHJ-BQWY-R9MX-8 (p.2)
+  url: https://www.familysearch.org/ark:/61903/3:1:3QHJ-BQWY-R996-5
+access_date: "2026-07-29"
+language: pt-BR
+transcription: >-
+  [Livro 6, fls. 27-30; "Primeiro traslado de escriptura de venda", fl. 159.]
+  Primeiro traslado de escriptura de venda que fazem Manoel Marques Jorge e sua
+  mulher D. Maria B[u]landina de Jezus, Baldoino Rodrigues de Almeida Montes e
+  sua mulher D. Josepha Olimpia Rodrigues d'Almeida, Dona Maria
+  [Perpétua/Porcelina] de Toledo, D. Matildes Olimpia da Paixão, Geraldo
+  Augusto de Toledo, [e] Ladisláo Egydio Ferreira de Toledo, ao Capitão Antonio
+  Belizandro dos Reis Meirelles, na forma abaixo. Saibão quantos este publico
+  instrumento virem que no anno do Nascimento de Nosso Senhor Jezus Christo de
+  mil oito centos e setenta e sete, aos vinte e cinco dias do mez de Maio, nesta
+  Freguezia de Santo Antonio dos [Aribas], Termo da Leopoldina, Provincia de
+  Minas Geraes, em o meu Cartorio, compareceram partes justas e contractadas
+  [...]. [Página 2:] [...] representados por seu bastante Procurador Ladisláo
+  Egydio Ferreira de Toledo [...] e de outro lado como outorgado comprador o
+  Capitão Antonio Belizandro dos Reis Meirelles [...]. Foi dito que são senhores
+  e possuidores de duas sortes de terras de cultura em commum na Fazenda da
+  Concórdia, e que houveram por herança no inventario os bens de sua finada avó
+  Dona Mathildes Maria de Jesus [...].
+abstract: >-
+  A notarial deed of sale registered at Santo Antônio [dos Aribas?], Termo de
+  Leopoldina, MG, on 25 May 1877, in which a set of Toledo-family grandchildren —
+  Maria Bulandina de Jesus (wife of Manoel Marques Jorge), Josepha Olímpia, Maria
+  [Perpétua/Porcelina] de Toledo, Matildes Olímpia da Paixão, Geraldo Augusto de
+  Toledo and Ladisláo Egydio Ferreira de Toledo — sell to Capitão Antonio
+  Belizandro dos Reis Meirelles two shares of cultivated land in the Fazenda da
+  Concórdia that they inherited from their deceased grandmother (avó) Dona
+  Mathildes Maria de Jesus. Same grandchild set and estate matriarch as the 1881
+  partilha (PRB-0001, which lists Eliza Balbina de Toledo among the "Primeiros
+  Nettos") and the 1884 petition (PRB-0002).
+reliability:
+  assessment: >-
+    Original notarial deed directly stating that the named Toledo grandchildren
+    inherited from their grandmother Mathilde Maria de Jesus at the Fazenda da
+    Concórdia. It fixes Mathilde as the grandmother — not the mother — of Eliza
+    Balbina de Toledo's (P-0017) Toledo line, resolving the open question flagged
+    on PRB-0001 and corroborating PRB-0001/PRB-0002.
+  informant: >-
+    The notary's register (escrivão), recording the parties' own declaration of
+    how they acquired the land.
+  limitations: >-
+    Eliza Balbina de Toledo is not herself a named party to this deed; she is
+    documented as a co-grandchild in PRB-0001. The intervening generation —
+    Mathilde's child, who is Eliza's parent — is not named here. Read from a
+    FamilySearch Full-Text preview image; some readings are uncertain (the
+    freguesia "Aribas"; Maria "Perpétua/Porcelina").
+digital_file:
+  path: >-
+    evidence/probate/PRB-0003-toledo-deed-concordia-leopoldina-1877-page-01.jpg
+  sha256: 17fdd96769af871285f35258136b93e812567ddff4976d352ffe5a548d323bd7
+linked_people:
+- P-0017
+- P-0027
+linked_families: []
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Found via FamilySearch Full-Text; two consecutive register images (ARKs
+    3:1:3QHJ-BQWY-R996-5 and 3:1:3QHJ-BQWY-R9MX-8) of one deed. Part of the same
+    Toledo/Concórdia succession as PRB-0001 (1881 partilha) and PRB-0002 (1884
+    petition).
+- text: >-
+    Establishes Mathilde Maria de Jesus (P-0027) as the grandmother of the
+    Toledo grandchildren, hence of Eliza Balbina de Toledo (P-0017). The
+    intervening parent is still undocumented, so Mathilde's tie to P-0017 is
+    recorded in prose, not yet as a structured relationship.
