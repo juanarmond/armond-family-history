@@ -516,6 +516,13 @@ function openDetails(personId) {
       return bits.length ? `${spouse.name} — ${bits.join(" · ")}` : spouse.name;
     });
     elements.detailsContent.append(section("Marriages & partners", list(marriageItems, "No recorded partners.")));
+
+    const occupationItems = person.occupations.map((occupation) => {
+      const src = occupation.sourceIds.length ? ` · ${occupation.sourceIds.join(", ")}` : "";
+      return occupation.note ? `${occupation.value}${src} — ${occupation.note}` : `${occupation.value}${src}`;
+    });
+    elements.detailsContent.append(section("Occupation", list(occupationItems, "No recorded occupation.")));
+
     elements.detailsContent.append(section("Recorded names", list(person.nameVariants, "No name variants.")));
     elements.detailsContent.append(section("Sources", sourceList(person.sources)));
     elements.detailsContent.append(section("Research notes", list(person.notes, "No public research notes.")));

@@ -247,3 +247,7 @@ also remain traceable through source records and research logs.
   SRC-0002), Geraldo Paz Armond (aposentado, stated at death, SRC-0004), and
   Francisco José de Carvalho Guimarães and Emmerenciana Maria de Jesus
   (lavradores, SRC-0010). Each occupation cites the record that states it.
+- Show each person's occupations in the family-tree viewer's detail panel (a new
+  source-cited "Occupation" section, minimised for living people), aggregate an
+  occupation's cited sources into the person's source list, and cover the
+  projection with a data-loader unit test.

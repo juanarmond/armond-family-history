@@ -14,6 +14,7 @@ function fixtures() {
       preferred_name: "Ann Alpha",
       privacy: "deceased",
       name_variants: [{ value: "Ann Alpha" }, { value: "Anna Alpha" }],
+      occupations: [{ value: "lavrador", source_ids: ["S-1"], note: "test note" }],
       notes: [{ text: "Possible conflict with the civil record." }],
     },
     "P-2": {
@@ -28,6 +29,7 @@ function fixtures() {
       preferred_name: "Private living person",
       privacy: "living",
       name_variants: [{ value: "A Real Living Name" }],
+      occupations: [{ value: "secret job", source_ids: ["S-1"] }],
       notes: [{ text: "Sensitive living-person note." }],
     },
     "P-4": { id: "P-4", preferred_name: "Cara Gamma", privacy: "deceased" },
@@ -147,6 +149,16 @@ test("conflict is detected from notes and variants", () => {
   assert.equal(data.people["P-2"].hasConflict, false);
 });
 
+test("occupations are projected for the deceased and stripped for the living", () => {
+  const data = projectTreeData(fixtures());
+  const occ = data.people["P-1"].occupations;
+  assert.equal(occ.length, 1);
+  assert.equal(occ[0].value, "lavrador");
+  assert.equal(occ[0].note, "test note");
+  assert.deepEqual(occ[0].sourceIds, ["S-1"]);
+  assert.deepEqual(data.people["P-3"].occupations, []);
+});
+
 test("source view gates files and carries citation metadata", () => {
   const data = projectTreeData(fixtures());
   const s1 = data.sources["S-1"];
@@ -177,4 +189,5 @@ test("living people are minimised", () => {
   assert.deepEqual(p3.sources, []);
   assert.deepEqual(p3.spouses, []);
   assert.deepEqual(p3.notes, []);
+  assert.deepEqual(p3.occupations, []);
 });

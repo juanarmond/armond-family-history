@@ -77,6 +77,9 @@ function sourceIdsFromPerson(person) {
   for (const variant of person.name_variants || []) {
     for (const id of variant?.source_ids || []) if (typeof id === "string") ids.add(id);
   }
+  for (const occupation of person.occupations || []) {
+    for (const id of occupation?.source_ids || []) if (typeof id === "string") ids.add(id);
+  }
   for (const note of person.notes || []) {
     for (const id of note?.source_ids || []) if (typeof id === "string") ids.add(id);
   }
@@ -253,6 +256,13 @@ export function projectTreeData({ people, families, events, places, sources }) {
         name: people[entry.spouseId]?.preferred_name || entry.spouseId,
         marriage: marriageByFamily[entry.familyId] || null,
       })),
+      occupations: living ? [] : (person.occupations || [])
+        .filter((occupation) => occupation && typeof occupation.value === "string" && occupation.value.trim())
+        .map((occupation) => ({
+          value: occupation.value.trim(),
+          note: typeof occupation.note === "string" && occupation.note.trim() ? occupation.note.trim() : null,
+          sourceIds: (occupation.source_ids || []).filter((id) => typeof id === "string"),
+        })),
       notes,
       hasConflict: conflictTerms.some((term) => conflictText.includes(term)),
     };
