@@ -7,13 +7,14 @@ contains reproducible research notes rather than settled entity data.
   `research/`): the append-only index `logs/LOG.md`, the outreach record
   `logs/correspondence-log.md` (public contact details, dates, purpose and
   replies), and detailed per-session files named `YYYY-MM-DD-short-question.md`.
-- `document-inventory.yaml` stages authorised evidence before source
-  cataloguing.
 - `resources/` keeps copies of key third-party reference documents (leads),
   each with provenance recorded in its manifest.
-- `record-coverage.yaml` is the sole operational ledger for missing vital
-  records of deceased direct ancestors. `STATUS.md` retains strategic branch
-  priorities and must not duplicate this person-by-record matrix.
+- The two validated ledgers this policy governs live in `data/` (with
+  `id-ledger.yaml`), not here: `data/document-inventory.yaml` stages authorised
+  evidence before source cataloguing, and `data/record-coverage.yaml` is the
+  sole operational ledger for missing vital records of deceased direct
+  ancestors. `STATUS.md` retains strategic branch priorities and must not
+  duplicate that person-by-record matrix.
 - Historical searches and superseded interpretations stay in `logs/LOG.md`,
   its detailed session logs, structured conclusions and Git history. They must
   not be accumulated in `STATUS.md`.

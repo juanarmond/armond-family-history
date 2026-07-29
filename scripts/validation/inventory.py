@@ -85,7 +85,7 @@ def validate_document_inventory(
     entities: Mapping[str, Mapping[str, LoadedEntity]],
     issues: list[Issue],
 ) -> None:
-    path = root / "research" / "document-inventory.yaml"
+    path = root / "data" / "document-inventory.yaml"
     location = display_path(path, root)
     try:
         inventory = load_yaml(path)

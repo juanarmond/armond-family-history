@@ -24,13 +24,13 @@ At the start of every task:
 4. Read [`research/README.md`](research/README.md) before research, evidence
    assessment or genealogical changes.
 5. Inspect the relevant person entry in
-   [`research/record-coverage.yaml`](research/record-coverage.yaml) and the
+   [`data/record-coverage.yaml`](data/record-coverage.yaml) and the
    latest related entries in [`logs/LOG.md`](logs/LOG.md).
 6. Load only the task-specific contract:
    - [`data/README.md`](data/README.md) for identifiers and entity lifecycle;
    - [`schemas/README.md`](schemas/README.md) and the relevant schema for YAML;
    - [`evidence/README.md`](evidence/README.md) and
-     [`research/document-inventory.yaml`](research/document-inventory.yaml)
+     [`data/document-inventory.yaml`](data/document-inventory.yaml)
      for document intake; or
    - [`templates/README.md`](templates/README.md) for canonical templates.
 7. Search the repository for the people, source IDs, places and conclusions
@@ -41,7 +41,7 @@ Use targeted search rather than repeatedly loading every historical file.
 
 ## Working files and research routing
 
-- Act from the structured, current files: `research/record-coverage.yaml` (the
+- Act from the structured, current files: `data/record-coverage.yaml` (the
   canonical per-ancestor record-gap ledger and next actions) and
   `research/familysearch-image-targets.md` (the image-retrieval task queue,
   executed by an external agent that has the owner's authorised FamilySearch

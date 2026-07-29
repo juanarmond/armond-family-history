@@ -47,7 +47,7 @@ sources. See the set-level `references/<set>/README.md`.
    ASCII for the descriptive portion while preserving the person's recorded
    name inside the source record.
 8. Record the acquisition method, resolution status, pixel dimensions and
-   SHA-256 checksum in `research/document-inventory.yaml`.
+   SHA-256 checksum in `data/document-inventory.yaml`.
 9. Keep derivatives explicit, for example `-redacted` or `-detail-01`.
 
 Screenshots are working copies, not proof of the assertions they display.

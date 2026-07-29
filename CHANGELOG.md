@@ -334,6 +334,11 @@ also remain traceable through source records and research logs.
   `research/`): the dated session logs, the `LOG.md` index and the
   `correspondence-log.md` now live there together, and every reference and
   internal markdown link is repointed.
+- Move the validated control ledgers `document-inventory.yaml` and
+  `record-coverage.yaml` from `research/` to `data/` (joining `id-ledger.yaml`),
+  since they are settled, schema-validated structured data rather than research
+  notes. Repoint the validator paths, test fixtures and docs. `research/` now
+  holds policy, worksheets, entity drafts and reference resources.
 
 ### Fixed
 

@@ -35,7 +35,7 @@ English abstracts or translations.
   work in progress.
 - See [`STATUS.md` — Next steps](STATUS.md#next-steps) for the immediate
   ordered execution queue.
-- See [`research/record-coverage.yaml`](research/record-coverage.yaml) for the
+- See [`data/record-coverage.yaml`](data/record-coverage.yaml) for the
   canonical research plan: the per-ancestor record gaps and their next actions.
 - Claude Code and Codex both read [`AGENTS.md`](AGENTS.md) for permanent
   instructions and context routing (`CLAUDE.md` simply imports it).
@@ -48,7 +48,7 @@ Each concern has one owner:
 
 - [`STATUS.md`](STATUS.md) — present objective, immediate next steps, blockers,
   research snapshot, unresolved conflicts and strategic priorities.
-- [`research/record-coverage.yaml`](research/record-coverage.yaml) — the
+- [`data/record-coverage.yaml`](data/record-coverage.yaml) — the
   canonical research plan: per-ancestor record gaps, search status and next
   actions. Priority ordering lives in `STATUS.md`.
 - [`research/README.md`](research/README.md) — evidence, citation,
@@ -74,11 +74,11 @@ Each concern has one owner:
 ├── README.md
 ├── STATUS.md
 ├── CHANGELOG.md
-├── data/               # structured YAML and ID reservations
+├── data/               # structured YAML: entities + control ledgers (id, inventory, coverage)
 ├── evidence/           # authorised source files (incoming/ stages downloads)
 ├── family-tree-viewer/ # static, read-only viewer generated from the YAML
 ├── logs/               # research history: LOG.md index, correspondence log, dated sessions
-├── research/           # policy, coverage ledger and worksheets
+├── research/           # policy, worksheets, entity drafts and reference resources
 ├── schemas/            # JSON Schemas
 ├── scripts/            # validation and entity lifecycle commands
 ├── templates/          # canonical entity and research templates

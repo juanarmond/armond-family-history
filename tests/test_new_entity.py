@@ -61,10 +61,10 @@ class AllocationFixture:
         }
         self.write_yaml("data/id-ledger.yaml", self.ledger)
         self.write_yaml(
-            "research/document-inventory.yaml", {"version": 1, "documents": []}
+            "data/document-inventory.yaml", {"version": 1, "documents": []}
         )
         self.write_yaml(
-            "research/record-coverage.yaml",
+            "data/record-coverage.yaml",
             {
                 "version": 1,
                 "scope": "deceased-direct-ancestors",

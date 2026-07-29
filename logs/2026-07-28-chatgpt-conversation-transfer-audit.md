@@ -190,7 +190,7 @@ of distinct records or files.
 2. Do not copy conversational text containing living-person details into
    evidence filenames or public metadata.
 3. Retain original filenames and available creation/export metadata.
-4. Add each file to `research/document-inventory.yaml` only after privacy
+4. Add each file to `data/document-inventory.yaml` only after privacy
    review.
 5. Calculate checksums and identify duplicate, cropped or derivative images.
 6. Match each image to the candidate list above without assuming the

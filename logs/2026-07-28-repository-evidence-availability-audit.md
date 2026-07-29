@@ -71,6 +71,6 @@ actual images. The correct status remains uncatalogued.
 
 ## Next action
 
-Add a schema and validation for `research/document-inventory.yaml`, including
+Add a schema and validation for `data/document-inventory.yaml`, including
 privacy review, checksum, duplicate and source-allocation states, so incoming
 documents can be handled without ad hoc fields.

@@ -190,10 +190,10 @@ class RepositoryFixture:
                 self.write_yaml(f"data/{subdir}/{identifier}.yaml", document)
         self.write_yaml("data/id-ledger.yaml", self.ledger)
         self.write_yaml(
-            "research/document-inventory.yaml", {"version": 1, "documents": []}
+            "data/document-inventory.yaml", {"version": 1, "documents": []}
         )
         self.write_yaml(
-            "research/record-coverage.yaml",
+            "data/record-coverage.yaml",
             {
                 "version": 1,
                 "scope": "deceased-direct-ancestors",
@@ -207,15 +207,15 @@ class RepositoryFixture:
                 subdir = "sources/civil" if kind == "sources" else kind
                 self.write_yaml(f"data/{subdir}/{identifier}.yaml", document)
         self.write_yaml("data/id-ledger.yaml", self.ledger)
-        inventory_path = self.root / "research/document-inventory.yaml"
+        inventory_path = self.root / "data/document-inventory.yaml"
         if not inventory_path.exists():
             self.write_yaml(
-                "research/document-inventory.yaml", {"version": 1, "documents": []}
+                "data/document-inventory.yaml", {"version": 1, "documents": []}
             )
-        coverage_path = self.root / "research/record-coverage.yaml"
+        coverage_path = self.root / "data/record-coverage.yaml"
         if not coverage_path.exists():
             self.write_yaml(
-                "research/record-coverage.yaml",
+                "data/record-coverage.yaml",
                 {
                     "version": 1,
                     "scope": "deceased-direct-ancestors",
@@ -288,7 +288,7 @@ class ValidateDataTests(unittest.TestCase):
         evidence_path.parent.mkdir(parents=True)
         evidence_path.write_bytes(content)
         self.fixture.write_yaml(
-            "research/document-inventory.yaml",
+            "data/document-inventory.yaml",
             {
                 "version": 1,
                 "documents": [
@@ -331,7 +331,7 @@ class ValidateDataTests(unittest.TestCase):
         evidence_path.parent.mkdir(parents=True)
         evidence_path.write_bytes(b"synthetic document")
         self.fixture.write_yaml(
-            "research/document-inventory.yaml",
+            "data/document-inventory.yaml",
             {
                 "version": 1,
                 "documents": [
@@ -373,7 +373,7 @@ class ValidateDataTests(unittest.TestCase):
         evidence_path.parent.mkdir(parents=True)
         evidence_path.write_bytes(content)
         self.fixture.write_yaml(
-            "research/document-inventory.yaml",
+            "data/document-inventory.yaml",
             {
                 "version": 1,
                 "documents": [
@@ -419,7 +419,7 @@ class ValidateDataTests(unittest.TestCase):
         evidence_path.parent.mkdir(parents=True)
         evidence_path.write_bytes(content)
         self.fixture.write_yaml(
-            "research/document-inventory.yaml",
+            "data/document-inventory.yaml",
             {
                 "version": 1,
                 "documents": [
@@ -470,7 +470,7 @@ class ValidateDataTests(unittest.TestCase):
         }
         self.fixture.rewrite()
         self.fixture.write_yaml(
-            "research/document-inventory.yaml",
+            "data/document-inventory.yaml",
             {
                 "version": 1,
                 "documents": [
@@ -514,7 +514,7 @@ class ValidateDataTests(unittest.TestCase):
         self.fixture.documents["people"]["P-0001"]["privacy"] = "living"
         self.fixture.rewrite()
         self.fixture.write_yaml(
-            "research/record-coverage.yaml",
+            "data/record-coverage.yaml",
             {
                 "version": 1,
                 "scope": "deceased-direct-ancestors",
@@ -545,7 +545,7 @@ class ValidateDataTests(unittest.TestCase):
         self.fixture.documents["sources"]["CIV-0001"]["linked_people"] = ["P-0002"]
         self.fixture.rewrite()
         self.fixture.write_yaml(
-            "research/record-coverage.yaml",
+            "data/record-coverage.yaml",
             {
                 "version": 1,
                 "scope": "deceased-direct-ancestors",
@@ -574,7 +574,7 @@ class ValidateDataTests(unittest.TestCase):
 
     def test_inventory_sequence_gap_is_an_error(self) -> None:
         self.fixture.write_yaml(
-            "research/document-inventory.yaml",
+            "data/document-inventory.yaml",
             {
                 "version": 1,
                 "documents": [

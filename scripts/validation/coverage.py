@@ -31,7 +31,7 @@ def validate_record_coverage(
     entities: Mapping[str, Mapping[str, LoadedEntity]],
     issues: list[Issue],
 ) -> None:
-    path = root / "research" / "record-coverage.yaml"
+    path = root / "data" / "record-coverage.yaml"
     location = display_path(path, root)
     try:
         coverage = load_yaml(path)

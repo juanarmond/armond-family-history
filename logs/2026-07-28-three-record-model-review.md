@@ -92,7 +92,7 @@ weekly research automation.
 
 ### Decision
 
-Add `research/record-coverage.yaml` as the sole person-by-record operational
+Add `data/record-coverage.yaml` as the sole person-by-record operational
 ledger. Its schema and validator:
 
 - exclude living people;
@@ -139,6 +139,6 @@ linkage.
 ## Next action
 
 Resume the authorised FamilySearch evidence audit using
-`research/record-coverage.yaml`, beginning with the highest-priority available
+`data/record-coverage.yaml`, beginning with the highest-priority available
 record: the 1949 marriage of Antenor Muniz and Iris Bohrer Muniz, followed by
 clear death registrations if that record cannot be recovered.

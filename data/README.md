@@ -27,6 +27,12 @@ and each names the people it involves under `participants` (with a role). People
 link back through an optional `fan_references` list. Use a FAN entity for a
 third-party record; catalogue a record *about* the family as a `source` instead.
 
+Alongside the per-entity files, `data/` holds three validated **control ledgers**
+(aggregate files, not entities, so they sit at the `data/` root): `id-ledger.yaml`
+(ID reservations), `document-inventory.yaml` (evidence intake, provenance and
+privacy audit) and `record-coverage.yaml` (the per-ancestor missing-record plan).
+Each is schema-validated; their schemas live in `schemas/`.
+
 ## Source categories
 
 Sources are one concept split into category subfolders by the record's origin,

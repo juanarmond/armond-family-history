@@ -42,7 +42,7 @@ This is the immediate execution queue, in order:
    Cúria and review any still-restricted Aristão parish images when authorised.
 
 Keep this queue short and actionable. Detailed person-by-record actions remain
-canonical in `research/record-coverage.yaml`, and the current image-retrieval
+canonical in `data/record-coverage.yaml`, and the current image-retrieval
 queue — executed by the external Codex agent with the owner's FamilySearch
 session — is `research/familysearch-image-targets.md`; strategic branch order
 remains under **Strategic research priorities** below.
@@ -94,7 +94,7 @@ Muniz Bittencourt/Azevedo, Engracio/Souza/Guimarães, Bohrer and
 Portuguese-origin lines, and include the living subject's private records. Source
 details, archival references, transcriptions, limitations and conclusion links
 are canonical in `data/sources/`; record-by-record gaps are canonical in
-`research/record-coverage.yaml`.
+`data/record-coverage.yaml`.
 
 ## Research snapshot
 
@@ -150,7 +150,7 @@ material interpretation with its source and confidence.
    generation at a time.
 
 The canonical person-by-record actions and last-reviewed dates are maintained
-only in `research/record-coverage.yaml`.
+only in `data/record-coverage.yaml`.
 
 ## Engineering state
 
