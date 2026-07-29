@@ -61,8 +61,10 @@ remains under **Strategic research priorities** below.
   or Library access.
 - Archive enquiries, paid certificates and conservatory or parish requests
   require explicit user authorisation before submission.
-- Liliosa's reported 16 April 1946 death cannot yet be tested in the identified
-  Volta Redonda register because the accessible series begins in November.
+- Liliosa's 1946 death now points primarily to the Barra Mansa civil death
+  index (Volta Redonda was its district until 1954 and its own óbito registry
+  opened only ~November 1946); this is a Codex retrieval target, not a hard
+  blocker.
 - FamilySearch exposes João and Susanna's 1882 marriage provision but no
   separate ceremony entry. The provision was re-read as directed to the Santo
   Antônio de Sapucaia parish (not Espírito Santo); the surviving Sapucaia

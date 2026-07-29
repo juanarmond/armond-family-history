@@ -547,3 +547,35 @@ entry they amend; they must not erase it.
 - Next action: retrieve the Aristão baptism and Aristão×Liliosa marriage images
   via an affiliate library; order Liliosa's 1946 death; chase Vicente's Carangola
   marriage/inventário for his Portuguese locality.
+
+## 2026-07-29 — Parallel vital-records and origin research
+
+- Question: advance, read-only and in parallel, the Liliosa vital-records,
+  Ferreira Armond bridge, Vicente Portuguese-origin and Sapucaia-marriage gaps
+  while authorised FamilySearch retrieval waits on Codex.
+- Method: four parallel web agents, public sources only; no authenticated
+  session. Everything recorded as leads; no conclusion changed.
+- Detailed log:
+  [`logs/2026-07-29-parallel-vital-records-and-origin-research.md`](logs/2026-07-29-parallel-vital-records-and-origin-research.md).
+- Access test (empirical): DigitArq, the Azores archive, Arquivo Nacional-Rio
+  (CAPTCHA), CEPESE/APM (POST) and FamilySearch (login) are unreadable by the
+  assistant's fetch tool — retrieval belongs to the Codex browser agent or a
+  person.
+- Key leads: Liliosa's 1946 death most likely sits in the Barra Mansa death
+  index (not Volta Redonda), and the Aristão×Liliosa marriage in
+  Piacatuba/Leopoldina; the Simplício×Elisa marriage (~1855-1872) is the decisive
+  Ferreira Armond bridge record, with the b.1784 Simplício doubly documented as
+  unmarried (anti-merge holds) and the patriarch's own origin itself contested;
+  Vicente's parish is Santa Luzia do Carangola (mother parish Tombos), and his
+  Carangola civil óbito (<1915) should state his naturalidade; João's Sapucaia
+  provision/habilitação (Cúria do Rio) and the completed assento (Paróquia de
+  Sapucaia → Cúria de Valença) are in separate custodies, and his São Miguel
+  origin lead is supported (not contradicted) by an 1871 naturalisation.
+- Portugal/Azores workflow refined (100-year rule → free DigitArq images; GEA
+  for Azores; Torre do Tombo = Lisbon district) and recorded in
+  `research/README.md`.
+- Genealogical conclusions changed: none.
+- Next action: Codex to pull the FamilySearch targets (Barra Mansa 1946 death;
+  Piacatuba/Leopoldina marriage; Santa Luzia/Tombos marriage and Carangola óbito;
+  Simplício×Elisa marriage and Marfiza's full act; Sapucaia catalog) and run the
+  name-searchable CEPESE and Arquivo Nacional-Rio databases.

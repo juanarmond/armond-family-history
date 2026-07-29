@@ -206,3 +206,15 @@ also remain traceable through source records and research logs.
   marriage retrieval, trim the per-source list in favour of the canonical
   `data/sources/`, and record the viewer and certified-copy confirmation rule
   in the engineering state.
+- Run four parallel read-only research passes (Liliosa vital records, the
+  Ferreira Armond bridge, Vicente's Portuguese origin and the Sapucaia marriage)
+  and fold the leads into the coverage ledger, the Codex image-retrieval
+  worksheet and a dated session log without changing any conclusion: reframe
+  Liliosa's 1946 death to the Barra Mansa index, place the Aristão×Liliosa
+  marriage in Piacatuba/Leopoldina, identify the Simplício×Elisa marriage as the
+  decisive (still unproven) Ferreira Armond bridge with the b.1784 Simplício
+  doubly documented as unmarried, fix Vicente's parish as Santa Luzia do
+  Carangola (mother parish Tombos), and separate the Sapucaia provision from the
+  completed ceremony assento by custody. Record the Portugal/Azores
+  custody-and-access workflow (100-year rule, free DigitArq/GEA images) in
+  `research/README.md`.

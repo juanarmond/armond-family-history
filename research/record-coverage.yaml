@@ -133,7 +133,7 @@ people:
   - record_type: birth
     status: inaccessible
     source_ids: []
-    last_reviewed: "2026-07-28"
+    last_reviewed: "2026-07-29"
     next_action: >-
       Obtain authorised access and manually review image group 004640627 Item
       3 and image group 004640632 Item 4 for the reported 1879 baptism.
@@ -155,10 +155,15 @@ people:
         and 004640632 from image 6. A confirmed sibling, Marfisa Ferreira Armond
         (bapt. 15 Feb 1873, Piacatuba), fixes the parish. Retrieval task-spec:
         research/familysearch-image-targets.md.
+    - text: >-
+        29 July 2026: Aristão is absent from the transcribed Piacatuba baptism
+        index 1851-1880 (which shows only his sister Marfiza, 1873), so search
+        the baptism books AFTER 1880 or in another parish (Além Paraíba); a
+        bounded negative, not proof of absence from the register.
   - record_type: marriage
     status: inaccessible
     source_ids: []
-    last_reviewed: "2026-07-28"
+    last_reviewed: "2026-07-29"
     next_action: >-
       Obtain authorised access and manually review image group 004640632 Item
       2, Leopoldina marriages from February 1898 to September 1920.
@@ -192,22 +197,33 @@ people:
   - record_type: birth
     status: lead_only
     source_ids: []
-    last_reviewed: "2026-07-28"
+    last_reviewed: "2026-07-29"
     next_action: Locate the birth or baptism and establish the original surname.
-    notes: []
+    notes:
+    - text: >-
+        The sons carry "Paz" (e.g. Geraldo Paz Armond), so "Paz"/"da Paz" is
+        plausibly Liliosa's own family surname; a lead, not asserted.
   - record_type: marriage
     status: lead_only
     source_ids: []
-    last_reviewed: "2026-07-28"
-    next_action: Locate the marriage to Aristão Ferreira Armond.
-    notes: []
+    last_reviewed: "2026-07-29"
+    next_action: >-
+      Search Piacatuba/Leopoldina, MG marriages ~1902-1918 (Aristão's base); this
+      act should name Liliosa's parents, maiden surname and origin.
+    notes:
+    - text: >-
+        29 July 2026: most likely at Paróquia N. Sra. da Piedade de Piacatuba or
+        Paróquia São Sebastião de Leopoldina (paroquiais 1852-1924), or Minas
+        Gerais civil registration for Leopoldina 1879-1949. Window bounded by her
+        ~1885 birth lead. See the aristao-liliosa-marriage retrieval task.
   - record_type: death
     status: lead_only
     source_ids: []
-    last_reviewed: "2026-07-28"
+    last_reviewed: "2026-07-29"
     next_action: >-
-      Identify the source and jurisdiction behind both 1946 date leads, then
-      search the April register or parish burial book for that jurisdiction.
+      Search the Barra Mansa civil death index and books first (the highest-
+      probability unexamined target), then any pre-November-1946 Volta Redonda
+      death group; test both the 16 April and 15 November 1946 leads.
     notes:
     - text: >-
         FamilySearch source SJBH-LL3 resolves to Liliosa's mention as the
@@ -229,12 +245,14 @@ people:
         untested because no January-October Volta Redonda death group was
         exposed by the bounded FamilySearch Images search.
     - text: >-
-        29 July 2026: in 1946 Volta Redonda was still a district of Barra Mansa
-        (emancipated 1954). Request the ~1946 obito by name from the Volta
-        Redonda registry and, failing that, Barra Mansa; locate via
-        registrocivil.org.br (transparencia.registrocivil.org.br). Liliosa's
-        parents/origin should also fall out of the Aristão x Liliosa marriage
-        record (see P-0008 marriage next action).
+        29 July 2026 (revised): Volta Redonda's own obito sub-registry appears to
+        have opened only ~November 1946 (CSN steelworks era), so a 16 April 1946
+        death most likely sits in Barra Mansa (the district seat until VR's 1954
+        emancipation). Primary target: the Barra Mansa death index 1889-1982 and
+        books 1889-2005 (FamilySearch catalog 516378; Cartorio Souza Reis, 1o
+        distrito, Barra Mansa). registrocivil.org.br's free name locator excludes
+        RJ. Liliosa's parents/origin should also fall out of the Aristao x Liliosa
+        marriage record (see P-0008 marriage next action).
   notes: []
 - person_id: P-0010
   external_profiles:
@@ -420,11 +438,17 @@ people:
   - record_type: marriage
     status: unsearched
     source_ids: []
-    last_reviewed: "2026-07-28"
+    last_reviewed: "2026-07-29"
     next_action: >-
-      Do not assume a marriage to P-0017 from shared reported parentage; locate
-      an original marriage or parish record.
-    notes: []
+      Locate the Simplício José Ferreira Armond x Elisa Balbina (Toledo/Tolledo)
+      marriage ~1855-1872 (the decisive bridge record; names both spouses'
+      parents). Search Piacatuba/Leopoldina, then the Além Paraíba matriz.
+    notes:
+    - text: >-
+        29 July 2026: not in the transcribed Leopoldina/Conceição-da-Boa-Vista
+        marriage indexes (cantoni.pro.br), so likely an untranscribed range or
+        Além Paraíba (the strongest untested parish). Do not assume a marriage to
+        P-0017 from shared reported parentage.
   - record_type: death
     status: unsearched
     source_ids: []
@@ -455,6 +479,15 @@ people:
       Toledo and his baptism (Barbacena Piedade baptism book 1828-1872, or
       Piacatuba/Além Paraíba). Full analysis in
       research/logs/2026-07-29-online-gap-and-resource-research.md.
+  - text: >-
+      29 July 2026 (parallel research): the anti-merge is doubly documented — the
+      b.1784 Simplício José died solteiro per both Lacerda (1845 inventory, 1831
+      census) and the Mauro Senra blog. The Barbacena patriarch's own origin is
+      itself contested in the sources (Ilha Terceira/São Sebastião vs. a
+      French/Madeira claim), so do not assert it. First crack at this Simplício's
+      parentage: the full baptismal act of Marfiza (Piacatuba, 15 Feb 1873), not
+      just the index row. Only the Chagas 2018 UFMG dissertation was verified; a
+      "Chagas 2024" work was not found.
 - person_id: P-0017
   external_profiles: []
   records:
@@ -500,14 +533,22 @@ people:
   - record_type: birth
     status: lead_only
     source_ids: []
-    last_reviewed: "2026-07-28"
+    last_reviewed: "2026-07-29"
     next_action: >-
-      Test the unproved 1864 São Miguel claim against the underlying
-      naturalisation and parish records; do not infer island origin.
+      Retrieve the 1871 naturalisation act (Hemeroteca / official gazette) and
+      the marriage naturalidade field; both should state his origin. Do not
+      infer island origin from the surname.
     notes:
     - text: >-
         The attached 1871 Hemeroteca link was unavailable during review and
         has not been shown to concern this João.
+    - text: >-
+        29 July 2026: a Brazilian naturalisation implies a foreign-born
+        (Portuguese) applicant, so the 1871 act supports the "São Miguel" origin
+        lead rather than contradicting it. The chronology is only strained if his
+        birth was ~1864 (an individual pre-1889 naturalisation implies an adult),
+        so treat the collaborative ~1864 birth as probably too late. Pursue São
+        Miguel in the GEA parish images only once a freguesia is fixed.
   - record_type: marriage
     status: inaccessible
     source_ids: []
@@ -535,6 +576,14 @@ people:
         Pereira Mendes entry. This fits Deocleciano's Sapucaia birthplace
         (SRC-0001). Earlier notes about a missing Espírito Santo film series are
         therefore moot.
+    - text: >-
+        29 July 2026: two records in two custodies. The 1882 provision/habilitação
+        (banhos) is at the Arquivo da Cúria Metropolitana do Rio (ACMRJ; SRC-0009
+        was filmed from the Sé provisões volume, not a Sapucaia book) - a fuller
+        habilitação there would name both spouses' parents and naturalidade. The
+        completed ceremony assento is most likely at the Paróquia Santo Antônio de
+        Sapucaia, then the Cúria de Valença (created 1925); the Cúria de Niterói
+        is ruled out (Sapucaia absent from its ASBRAP holdings survey).
   - record_type: death
     status: lead_only
     source_ids: []
@@ -582,6 +631,11 @@ people:
         Pereira Mendes entry. This fits Deocleciano's Sapucaia birthplace
         (SRC-0001). Earlier notes about a missing Espírito Santo film series are
         therefore moot.
+    - text: >-
+        29 July 2026: see the P-0019 marriage note - the 1882 provision/habilitação
+        (ACMRJ) and the completed ceremony assento (Paróquia Santo Antônio de
+        Sapucaia, then Cúria de Valença; Niterói ruled out) are in separate
+        custodies.
   - record_type: death
     status: lead_only
     source_ids: []
@@ -672,24 +726,39 @@ people:
         Judiciario" (probate usually names origin, widow and heirs). Only after a
         locality is fixed, open the Portuguese parish via DigitArq / tombo.pt /
         CEPESE. Do not infer origin from the surname.
+    - text: >-
+        29 July 2026: the CEPESE passport database (remessas.cepese.pt) and the
+        Arquivo Nacional "Entrada de Estrangeiros - Rio 1875-1910"
+        (bases.an.gov.br, CAPTCHA) are name-searchable without knowing the
+        locality, so they can be run proactively by the Codex browser agent and
+        may themselves reveal his origin.
   - record_type: marriage
     status: unsearched
     source_ids: []
-    last_reviewed: "2026-07-28"
+    last_reviewed: "2026-07-29"
     next_action: >-
-      Locate a marriage to Maria Tertuliana da Conceição in Rio Claro,
-      Carangola or the surrounding jurisdictions.
+      Search the Santa Luzia do Carangola Catholic marriages 1898-1924 and any
+      habilitação (names naturalidade + parents); if the marriage predates 1898,
+      search the mother parish, Tombos.
     notes:
     - text: >-
         The 1866 "Vila do Rio Claro" power of attorney most plausibly refers to
         Rio Claro, RJ (a vila from 1849), which is geographically distant from
         Carangola; treat the identity as an unconfirmed hypothesis pending the
         record.
+    - text: >-
+        29 July 2026: Carangola's parish is Santa Luzia do Carangola, which began
+        as a curato subsidiary of the Freguesia de Tombos; FamilySearch collection
+        2177275 has Santa Luzia marriages 1898-1924. A pre-1898 union sits at
+        Tombos.
   - record_type: death
     status: lead_only
     source_ids: []
-    last_reviewed: "2026-07-28"
-    next_action: Locate Vicente's own Carangola civil death or parish burial record.
+    last_reviewed: "2026-07-29"
+    next_action: >-
+      Search the Carangola civil death books before 12 October 1915 (FamilySearch
+      Minas Gerais civil collection 3479702); a Minas óbito typically states
+      naturalidade, parents and the surviving widow - a high-value origin record.
     notes:
     - text: >-
         SRC-0010 says he was deceased in Carangola by 12 October 1915 but gives

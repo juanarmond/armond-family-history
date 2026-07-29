@@ -128,6 +128,16 @@ Inspect the underlying record image whenever possible.
 5. Record archive codes, book dates and image numbers, including negative
    searches.
 
+Custody and access: civil registration began 1 April 1911, and records 100+
+years old migrate from the conservatória to the district's Arquivo Distrital,
+where they are largely free and digitised on DigitArq (`digitarq.arquivos.pt`).
+The Torre do Tombo (ANTT) is the Arquivo Distrital for the Lisbon district only,
+plus national collections (notarial, judicial, passaportes/emigração). Azores
+parish images are free at the GEA (`culturacores.azores.gov.pt/ig`), browsable by
+island, concelho, freguesia and série. Prefer these free images to paid
+certidões; use `civilonline.mj.pt` (post-1911) or an ANTT certidão
+(`crav.arquivos.pt`) only when the record is not freely available.
+
 ## Brazil workflow
 
 Prioritise civil registration, parish collections, diocesan archives, Arquivo

@@ -84,43 +84,44 @@ tasks:
   - id: aristao-father-bridge
     priority: 5
     film: null
-    action: "Link Aristão's father to the documented Azorean Ferreira Armonde family of Barbacena. Catalog place-search 'Brazil, Minas Gerais, Barbacena' and 'Além Paraíba' (Catholic collection 2177275); also try projetocompartilhar.org (has Barbacena/Armonde transcriptions)."
-    looking_for: "(a) Marriage of Simplício Ferreira Armond x Elisa Balbina Toledo (~1865-1872) — names BOTH spouses' parents. (b) Baptism of that Simplício (~1830s-1850s)."
+    action: "Build the link between Aristão's father and the Barbacena Armonde family from primary records (do not assume it). Catalog place-search 'Brazil, Minas Gerais, Leopoldina', 'Além Paraíba' and 'Barbacena' (Catholic collection 2177275); also try projetocompartilhar.org."
+    looking_for: "(a) DECISIVE: marriage of Simplício José Ferreira Armond x Elisa Balbina (Toledo/Tolledo), ~1855-1872 — names BOTH spouses' parents. (b) The FULL baptismal act of Marfiza (Piacatuba, 15 Feb 1873), which may name grandparents. (c) Baptism of that Simplício, only after his parents surface."
     named_targets:
-      - "Livro de Batismos, Freguesia de N. Sra. da Piedade de Barbacena, 1828-1872"
-      - "Além Paraíba matriz marriages/baptisms; Piacatuba/Leopoldina (see aristao-baptism)"
-    anti_merge: "Do NOT identify Aristão's father with the 1st-generation Simplício José Ferreira Armonde, who died unmarried (per Lacerda thesis). Simplício is a recurring family name."
+      - "Piacatuba/Leopoldina marriage books ~1855-1872; then the Além Paraíba matriz (strongest untested — absent from the cantoni.pro.br transcriptions)"
+      - "Livro de Batismos, Freguesia de N. Sra. da Piedade de Barbacena, 1828-1872 (only if a Barbacena origin surfaces)"
+    anti_merge: "Do NOT identify Aristão's father with the 1st-generation Simplício José Ferreira Armonde, b.1784, who died UNMARRIED (doubly documented: Lacerda 1845 inventory/1831 census, and the Mauro Senra blog). Simplício José is a recurring family name; the Piacatuba Simplício is a later namesake."
 
   - id: sapucaia-marriage
     priority: 4
     film: null
-    action: "Catalog place-search 'Brazil, Rio de Janeiro, Sapucaia' -> Santo Antônio parish -> casamentos 1882-1883."
+    action: "Catalog place-search 'Brazil, Rio de Janeiro, Sapucaia' -> Santo Antônio parish -> casamentos 1882-1883. Confirm or reject candidate catalog 145484 ('Registros paroquiais 1880-1971'). Also browse DGS 004626365 a few images around p.191 — the habilitação/banhos may name filiation/naturalidade even if the assento is elsewhere."
     looking_for: "Marriage of João Monis (Muniz) Bittencourt x Susanna Rita Brandão, after the 23 Dec 1882 provision."
     match:
       groom: "João Monis Bittencourt (also Muniz; given name may read José)"
       bride: "Susanna Rita Brandão (also Susana; Brondão)"
       date_approx: "late 1882 to 1883"
-    if_no_film: "Book likely at Cúria do Rio (https://catedral.com.br/arquivo/, paid by form) or the parish; also check freguesias de Aparecida and São José do Vale do Rio Preto."
+    if_no_film: "FamilySearch may not hold Sapucaia's own casamentos (the provision was filmed from the Sé volume). The completed assento is most likely at the Paróquia Santo Antônio de Sapucaia, then the Cúria de Valença (NOT the Cúria do Rio, NOT Niterói); the fuller habilitação is at the Cúria do Rio (catedral.com.br/arquivo, paid form). Authorised human task."
 
   - id: vicente-carangola-marriage
     priority: 5
     film: null
-    action: "Catalog place-search 'Brazil, Minas Gerais, Carangola' and 'São Francisco do Glória' in collections 2177275 (Catholic) and 3479702 (Civil)."
-    looking_for: "Brazilian marriage/habilitação of Vicente José de Carvalho Guimarães (he was Portuguese - the record should state his naturalidade = Portuguese parish)."
+    action: "Catalog place-search 'Brazil, Minas Gerais, Carangola' in collections 2177275 (Catholic) and 3479702 (Civil). Carangola's parish is Santa Luzia do Carangola (curato subsidiary of Tombos)."
+    looking_for: "TWO origin records for Vicente José de Carvalho Guimarães (Portuguese): (a) his Santa Luzia marriage/habilitação (marriages filmed 1898-1924; if earlier, the mother parish TOMBOS); (b) his civil ÓBITO before 12 Oct 1915 (collection 3479702) — a Minas death states naturalidade, parents and widow."
     match:
       groom: "Vicente José de Carvalho Guimarães"
       bride: "Maria Tertuliana da Conceição"
       capture: "groom's Portuguese naturalidade (district/municipality/parish) and parents"
-      place: "Carangola region / Vila do Rio Claro, MG; before 1915"
+      place: "Santa Luzia do Carangola / Tombos, MG; before Oct 1915"
 
   - id: liliosa-1946-death
     priority: 6
     film: null
-    action: "Civil death ~1946. Volta Redonda was a district of Barra Mansa in 1946. Try registrocivil.org.br locator, then FamilySearch 'Brazil, Rio de Janeiro, Civil Registration' catalog for Barra Mansa/Volta Redonda."
-    looking_for: "Death registration of Liliosa Paz Armond, ~1946 (a lead points to 16 April 1946), Volta Redonda RJ."
+    action: "Civil death ~1946. PRIMARY = Barra Mansa (Volta Redonda was its district until 1954 and its own óbito registry likely opened only ~Nov 1946, so an April 1946 death sits in Barra Mansa). FamilySearch catalog 516378 — Barra Mansa death index 1889-1982 and books 1889-2005; also check a pre-Nov-1946 Volta Redonda death group."
+    looking_for: "Death registration of Liliosa Paz Armond, ~1946 (leads: 16 April and 15 November 1946). Search the index under Armond and Paz and the given name Liliosa."
     match:
       person: "Liliosa Paz Armond"
       capture: "exact death date, age, stated parents, spouse (Aristão)"
+    if_no_film: "Request an inteiro-teor óbito by name+year from Cartório Souza Reis, 1º distrito de Barra Mansa (registrocivil.org.br's free locator excludes RJ)."
 ```
 
 ## Why each target matters (for the human cataloguer)
