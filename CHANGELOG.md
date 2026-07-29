@@ -259,3 +259,11 @@ also remain traceable through source records and research logs.
   locus as Eugenópolis, MG — redirecting the Aristão×Liliosa marriage and the
   children's-birth search there, not Leopoldina. No conclusion promoted; the
   Azorean bridge stays unproven; formal source cataloguing pending the files.
+- Stage the owner-supplied source files in `evidence/incoming/` (the O Processo
+  newspaper, the Aristão 1957 death re-capture, and the Marfiza 1962 death image)
+  for cataloguing, and record Nilza Cantoni's email reply in the correspondence
+  log: the Simplício × Elisa couple likely lived in Dores do Monte Alegre (now
+  Taruaçu), served by the Argirita/Piacatuba parishes; Piacatuba marriage book 1
+  (1851-55, 1862-65) is a documented negative; and Elisa's Toledo family is rooted
+  in Argirita (father an eleitor 1863-64; land registry 1856) — redirecting the
+  Simplício × Elisa marriage and Elisa-origin search to Argirita/Taruaçu.

@@ -37,8 +37,18 @@ lead until verified against an original record.
   ~1855-1872** is transcribed or where to consult it; the Simplício × Elisa
   marriage; and other Armond children, especially Aristão (~1879).
 - Sent: 2026-07-29 (by the owner).
-- Status: awaiting reply.
-- Reply: —
+- Status: **reply received 2026-07-29**.
+- Reply (2026-07-29): The couple likely lived in the then-district of **Dores do
+  Monte Alegre** (created under Leopoldina, later transferred to São João
+  Nepomuceno; now **Taruaçu**), served by the **Argirita** or **Piacatuba**
+  parishes. Piacatuba marriage **book 1** (not microfilmed) covers Jun 1851–Feb
+  1855 and Apr 1862–Jul 1865 and does **NOT** contain the couple; the next book
+  is 1895–1919. She has no Argirita marriages for the period and could not locate
+  the Argirita books. In Piacatuba she found only Marfiza's baptism. **Elisa's
+  father** (Elisa = "Eliza Baldoina de Toledo") was an **eleitor in Argirita in
+  1863-64**, where **his mother registered land in 1856** — so consult Argirita
+  records. Jurisdiction note: the district of Bom Jesus do Rio Pardo was under
+  **Mar de Espanha** Jul 1863–Nov 1869, then back to Leopoldina.
 
 ### C-003 — Paróquia N. Sra. da Piedade, Piacatuba (via Diocese de Leopoldina)
 - Who: the parish that holds the Piacatuba baptism and marriage books.
