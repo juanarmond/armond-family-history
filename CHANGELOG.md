@@ -222,3 +222,9 @@ also remain traceable through source records and research logs.
   (each occupation cites the source that records it), enabling profession and
   wealth analysis. The recursive reference and living-person privacy checks
   cover its `source_ids` automatically; no validator change was needed.
+- Preserve key research-reference documents in `research/resources/` with a
+  provenance manifest: the ASBRAP "Armond, Por Quê?" article, the 1831 Curral
+  Novo census transcription, the Lacerda 2010 (UFF) thesis, the Chagas 2018
+  (UFMG) dissertation and a snapshot of the Senra blog — all leads about the
+  historical Barbacena Ferreira Armonde family, not this line's proven ancestry.
+  Record the deep-dig session (five parallel agents plus the 1831 census).

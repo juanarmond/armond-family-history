@@ -579,3 +579,28 @@ entry they amend; they must not erase it.
   Piacatuba/Leopoldina marriage; Santa Luzia/Tombos marriage and Carangola óbito;
   Simplício×Elisa marriage and Marfiza's full act; Sapucaia catalog) and run the
   name-searchable CEPESE and Arquivo Nacional-Rio databases.
+
+## 2026-07-29 — Ferreira Armond deep dig, locality catalogue, 1831 census
+
+- Question: extract the full Barbacena Armonde tree, exhaustively sweep the
+  Leopoldina/Piacatuba transcriptions, harvest a per-locality FamilySearch
+  catalogue, and read the 1831 Curral Novo census (a primary source).
+- Method: five parallel read-only agents (curl / pdftotext / Wayback; headless
+  Chrome for the public FS wiki) plus a direct read of the census. WebSearch was
+  exhausted; everything is a lead.
+- Detailed log:
+  [`logs/2026-07-29-ferreira-armond-deep-dig-and-locality-catalogue.md`](logs/2026-07-29-ferreira-armond-deep-dig-and-locality-catalogue.md).
+- Key results: the documented Armonde tree does **not** reach Piacatuba (the
+  bridge is currently unsupported, not merely unproven); the 1831 census confirms
+  the anti-merge on a primary document (Simplício b.~1785 was 46 and solteiro,
+  and the district Juiz de Paz); the decisive test is the untranscribed Piacatuba
+  marriage register; the patriarch's origin is documentarily Azorean
+  (Terceira/São Sebastião), the French claim uncited. Built a per-locality
+  catalog-ID map (345430 Leopoldina parish, 516378 Barra Mansa, 385592 Sapucaia,
+  21641 Barbacena, ...); Carangola/Tombos have no local catalog (manual review).
+- Genealogical conclusions changed: none.
+- Preserved sources in `research/resources/`: the ASBRAP "Armond, Por Quê?"
+  article, the 1831 census transcription, the Lacerda 2010 thesis, the Chagas
+  2018 dissertation and a Senra-blog snapshot.
+- Next action: batch the ledger/worksheet/coverage updates and the occupations
+  population with the running projetocompartilhar crawl, then Codex retrieval.
