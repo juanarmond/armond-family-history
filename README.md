@@ -39,7 +39,7 @@ English abstracts or translations.
   canonical research plan: the per-ancestor record gaps and their next actions.
 - Claude Code and Codex both read [`AGENTS.md`](AGENTS.md) for permanent
   instructions and context routing (`CLAUDE.md` simply imports it).
-- Research history is indexed in [`research/LOG.md`](research/LOG.md); do not
+- Research history is indexed in [`logs/LOG.md`](logs/LOG.md); do not
   look for historical session detail in `STATUS.md`.
 
 ## Canonical documents
@@ -53,7 +53,7 @@ Each concern has one owner:
   actions. Priority ordering lives in `STATUS.md`.
 - [`research/README.md`](research/README.md) — evidence, citation,
   transcription, conflict and privacy rules.
-- [`research/LOG.md`](research/LOG.md) — append-only index of completed
+- [`logs/LOG.md`](logs/LOG.md) — append-only index of completed
   research and repository-audit sessions.
 - [`CHANGELOG.md`](CHANGELOG.md) — notable repository engineering changes.
 - [`data/README.md`](data/README.md) — identifiers, reservations, drafts and
@@ -77,7 +77,8 @@ Each concern has one owner:
 ├── data/               # structured YAML and ID reservations
 ├── evidence/           # authorised source files (incoming/ stages downloads)
 ├── family-tree-viewer/ # static, read-only viewer generated from the YAML
-├── research/           # policy, coverage ledger, worksheets and session logs
+├── logs/               # research history: LOG.md index, correspondence log, dated sessions
+├── research/           # policy, coverage ledger and worksheets
 ├── schemas/            # JSON Schemas
 ├── scripts/            # validation and entity lifecycle commands
 ├── templates/          # canonical entity and research templates

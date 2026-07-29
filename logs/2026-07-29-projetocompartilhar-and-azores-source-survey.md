@@ -97,7 +97,7 @@ sits in `3479702` (search under Alto Jequitibá and Manhuaçu).
 
 ## Contacts made
 
-Outreach recorded in `research/correspondence-log.md`: Mauro Senra (sent
+Outreach recorded in `logs/correspondence-log.md`: Mauro Senra (sent
 2026-07-29), Nilza Cantoni (sent 2026-07-29), Paróquia N. Sra. da Piedade de
 Piacatuba (sent 2026-07-29, email + contact form) — all about the decisive
 Simplício × Elisa marriage.

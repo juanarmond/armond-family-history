@@ -231,7 +231,7 @@ also remain traceable through source records and research logs.
 - Preserve two further Projeto Compartilhar documents in `research/resources/`
   (the 1831 João Gomes census — a married Manoel Antonio de Armond household —
   and the 1751 will/inventory of the patriarch), and add
-  `research/correspondence-log.md` recording outreach to Mauro Senra, Nilza
+  `logs/correspondence-log.md` recording outreach to Mauro Senra, Nilza
   Cantoni and the Piacatuba parish about the Simplício × Elisa marriage.
 - Survey the owner-supplied source sites (a full Projeto Compartilhar crawl, the
   My Portuguese Gen Azores directory, and the Scribd Forjaz & Mendes "Genealogias
@@ -330,6 +330,10 @@ also remain traceable through source records and research logs.
   (`evidence/`) two-layer split, the category-prefix scheme, and the
   FAN-versus-source decision are stated explicitly as non-negotiable format
   rules (imported into Claude via `CLAUDE.md`).
+- Move all research history to a top-level `logs/` directory (a sibling of
+  `research/`): the dated session logs, the `LOG.md` index and the
+  `correspondence-log.md` now live there together, and every reference and
+  internal markdown link is repointed.
 
 ### Fixed
 

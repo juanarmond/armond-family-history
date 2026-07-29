@@ -7,7 +7,8 @@ phones, blog/contact-form links) and the dates/purpose/status of each contact â€
 never a living family member's private contact details. Append new contacts;
 update **Status** and **Reply** when an answer arrives. Contacting a person or
 archive requires the owner's authorisation, and free/self-service routes come
-first (see [`README.md`](README.md)). Everything a contact returns is a research
+first (see [`research/README.md`](../research/README.md)). Everything a contact
+returns is a research
 lead until verified against an original record.
 
 ## Contacts

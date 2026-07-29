@@ -2,7 +2,7 @@
 
 > This file is the present operational snapshot. It contains the current
 > objective, blockers, material conflicts and strategic priorities only.
-> Research history belongs in `research/LOG.md` and its detailed logs;
+> Research history belongs in `logs/LOG.md` and its detailed logs;
 > engineering history belongs in `CHANGELOG.md`; genealogical conclusions
 > belong in structured YAML and source records.
 

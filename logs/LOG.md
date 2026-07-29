@@ -1,7 +1,7 @@
 # Cumulative research log
 
 This is the append-only index of completed research and repository-audit
-sessions. Detailed reproducible notes live under `research/logs/` using
+sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
@@ -10,7 +10,7 @@ entry they amend; they must not erase it.
 - Outcome: no source document, source entity or historical binary/LFS object was
   found; Priority 0 requires authorised copies before cataloguing can begin.
 - Detailed log:
-  [`logs/2026-07-28-repository-evidence-availability-audit.md`](logs/2026-07-28-repository-evidence-availability-audit.md).
+  [`logs/2026-07-28-repository-evidence-availability-audit.md`](2026-07-28-repository-evidence-availability-audit.md).
 
 ## 2026-07-28 — Governance and architecture consolidation
 
@@ -131,7 +131,7 @@ entry they amend; they must not erase it.
   hypothesis level, and identified 24 unavailable attachments as the principal
   provenance gap.
 - Detailed log:
-  [`logs/2026-07-28-chatgpt-conversation-transfer-audit.md`](logs/2026-07-28-chatgpt-conversation-transfer-audit.md).
+  [`logs/2026-07-28-chatgpt-conversation-transfer-audit.md`](2026-07-28-chatgpt-conversation-transfer-audit.md).
 - Research evidence added: none.
 - Genealogical conclusions changed: Aristão's proposed parentage remains
   recorded but is downgraded from `strong-evidence` to `hypothesis` because the
@@ -146,7 +146,7 @@ entry they amend; they must not erase it.
   FamilySearch Memories, reconstructed the complete viewer image, completed
   privacy and provenance review, and promoted the first six linked entities.
 - Detailed log:
-  [`logs/2026-07-28-familysearch-marriage-record-ingestion.md`](logs/2026-07-28-familysearch-marriage-record-ingestion.md).
+  [`logs/2026-07-28-familysearch-marriage-record-ingestion.md`](2026-07-28-familysearch-marriage-record-ingestion.md).
 - Genealogical conclusions changed: the marriage, spouses' ages and
   birthplaces, and their four named parents now have catalogued direct evidence;
   the marriage remains `strong-evidence` because the retained image is a
@@ -162,7 +162,7 @@ entry they amend; they must not erase it.
   damaged 31 May 1952 marriage certificate of Geraldo Paz Armond and Cidalia
   Engracio Guimarães, and treated them as one source rather than three pages.
 - Detailed log:
-  [`logs/2026-07-28-familysearch-armond-guimaraes-marriage-ingestion.md`](logs/2026-07-28-familysearch-armond-guimaraes-marriage-ingestion.md).
+  [`logs/2026-07-28-familysearch-armond-guimaraes-marriage-ingestion.md`](2026-07-28-familysearch-armond-guimaraes-marriage-ingestion.md).
 - Genealogical conclusions changed: the marriage and Cidalia's married-name
   form now have catalogued direct evidence. The certificate's report of 15
   September 1930 is retained as secondary birth information and does not
@@ -188,7 +188,7 @@ entry they amend; they must not erase it.
   order, created privacy-minimised roster entries for positions 1–15, and
   migrated every existing person cross-reference.
 - Detailed log:
-  [`logs/2026-07-28-ahnentafel-person-id-migration.md`](logs/2026-07-28-ahnentafel-person-id-migration.md).
+  [`logs/2026-07-28-ahnentafel-person-id-migration.md`](2026-07-28-ahnentafel-person-id-migration.md).
 - Evidence boundary: `REC-0001` is owner-supplied family information and
   supports the working roster and spellings only; it does not replace vital or
   relationship records.
@@ -202,7 +202,7 @@ entry they amend; they must not erase it.
   identical Memory image, and preserved a privacy-reviewed reconstruction with
   archival citation and checksum.
 - Detailed log:
-  [`logs/2026-07-28-familysearch-geraldo-death-record-ingestion.md`](logs/2026-07-28-familysearch-geraldo-death-record-ingestion.md).
+  [`logs/2026-07-28-familysearch-geraldo-death-record-ingestion.md`](2026-07-28-familysearch-geraldo-death-record-ingestion.md).
 - Genealogical conclusions changed: Geraldo's death is now supported by
   catalogued direct evidence; the record supplies strong evidence that Aristão
   Ferreira Armond and Liliosa Paz Armond were his parents.
@@ -221,7 +221,7 @@ entry they amend; they must not erase it.
   added a validated missing-record coverage ledger for all deceased direct
   ancestors currently numbered `P-0004` through `P-0015`.
 - Detailed log:
-  [`logs/2026-07-28-three-record-model-review.md`](logs/2026-07-28-three-record-model-review.md).
+  [`logs/2026-07-28-three-record-model-review.md`](2026-07-28-three-record-model-review.md).
 - Genealogical conclusions changed: the unsupported partner relationship
   between Aristão Ferreira Armond and Liliosa Paz Armond was removed. Their
   separately sourced parent-child relationships to Geraldo remain
@@ -236,7 +236,7 @@ entry they amend; they must not erase it.
   certificate of Antenor Muniz and Iris Bohrer from Antenor's user-created
   FamilySearch source.
 - Detailed log:
-  [`logs/2026-07-28-familysearch-antenor-iris-marriage-ingestion.md`](logs/2026-07-28-familysearch-antenor-iris-marriage-ingestion.md).
+  [`logs/2026-07-28-familysearch-antenor-iris-marriage-ingestion.md`](2026-07-28-familysearch-antenor-iris-marriage-ingestion.md).
 - Genealogical conclusions changed: the marriage, Iris's married-name form and
   both spouses' reported parents now have catalogued direct evidence; each
   relationship is `strong-evidence` because the retained document is a
@@ -251,7 +251,7 @@ entry they amend; they must not erase it.
 - Outcome: exhausted Liliosa's currently attached FamilySearch Source and
   Memory without locating her own 1946 death registration.
 - Detailed log:
-  [`logs/2026-07-28-familysearch-liliosa-evidence-audit.md`](logs/2026-07-28-familysearch-liliosa-evidence-audit.md).
+  [`logs/2026-07-28-familysearch-liliosa-evidence-audit.md`](2026-07-28-familysearch-liliosa-evidence-audit.md).
 - Negative result: source `SJBH-LL3` resolves to Liliosa's person-level mention
   as Geraldo's mother in his 1991 death registration, already catalogued as
   `CIV-0003`; it is not evidence of Liliosa's death.
@@ -271,7 +271,7 @@ entry they amend; they must not erase it.
   Ferreira Armond's original 1 November 1957 Volta Redonda death registration
   as `CIV-0005`.
 - Detailed log:
-  [`logs/2026-07-28-familysearch-aristao-death-record-ingestion.md`](logs/2026-07-28-familysearch-aristao-death-record-ingestion.md).
+  [`logs/2026-07-28-familysearch-aristao-death-record-ingestion.md`](2026-07-28-familysearch-aristao-death-record-ingestion.md).
 - Genealogical conclusions changed: Aristão's death is confirmed; the record
   provides `strong-evidence` that Simplicio Armand and Eliza Ferreira Armand
   were his parents.
@@ -289,7 +289,7 @@ entry they amend; they must not erase it.
 - Outcome: indexed, spouse-linked, parent-linked and full-text searches did not
   locate Aristão's birth, baptism or marriage record.
 - Detailed log:
-  [`logs/2026-07-28-aristao-birth-marriage-search.md`](logs/2026-07-28-aristao-birth-marriage-search.md).
+  [`logs/2026-07-28-aristao-birth-marriage-search.md`](2026-07-28-aristao-birth-marriage-search.md).
 - Negative-result limitation: zero indexed or OCR results do not establish that
   an entry is absent from the original parish books.
 - Register target: São Sebastião de Leopoldina image group `004640627`, Item 3,
@@ -355,7 +355,7 @@ entry they amend; they must not erase it.
   Ferreira Armond, including a previously unidentified Piacatuba baptism
   target and the 1898–1920 Leopoldina marriage item.
 - Detailed log:
-  [`logs/2026-07-28-aristao-parish-register-access-review.md`](logs/2026-07-28-aristao-parish-register-access-review.md).
+  [`logs/2026-07-28-aristao-parish-register-access-review.md`](2026-07-28-aristao-parish-register-access-review.md).
 - Access restriction: the relevant original images in groups `004640627` and
   `004640632` display `Image Restricted` in the owner's authenticated session.
 - Negative-result limitation: structured-index and full-text searches returned
@@ -386,7 +386,7 @@ entry they amend; they must not erase it.
   through `P-0015`, deduplicated shared artifacts and distinguished records
   from photographs, newspapers, academic material and a genealogical display.
 - Detailed log:
-  [`logs/2026-07-28-familysearch-direct-line-memories-audit.md`](logs/2026-07-28-familysearch-direct-line-memories-audit.md).
+  [`logs/2026-07-28-familysearch-direct-line-memories-audit.md`](2026-07-28-familysearch-direct-line-memories-audit.md).
 - Source added: catalogued the three-page 2019 full-content certificate of the
   1916 Deocleciano–Luiza marriage as `CIV-0006`.
 - Preservation improvement: replaced five technical reconstructions with
@@ -404,7 +404,7 @@ entry they amend; they must not erase it.
 - Outcome: exact, variant, fuzzy, spouse-linked and bounded place searches
   produced no qualifying civil death or parish burial record for Liliosa.
 - Detailed log:
-  [`logs/2026-07-28-liliosa-death-record-search.md`](logs/2026-07-28-liliosa-death-record-search.md).
+  [`logs/2026-07-28-liliosa-death-record-search.md`](2026-07-28-liliosa-death-record-search.md).
 - Bounded negative result: Volta Redonda death group `004366685` begins in
   November 1946. Original images 8–11 cover the immediate 15 November
   registration window and contain no Liliosa entry.
@@ -425,7 +425,7 @@ entry they amend; they must not erase it.
 - Outcome: recovered the original record behind the 23 December 1882
   collaborative-tree lead and corrected its interpretation.
 - Detailed log:
-  [`logs/2026-07-28-joao-suzana-marriage-provision-review.md`](logs/2026-07-28-joao-suzana-marriage-provision-review.md).
+  [`logs/2026-07-28-joao-suzana-marriage-provision-review.md`](2026-07-28-joao-suzana-marriage-provision-review.md).
 - Source added: `PAR-0001`, an authorised 4749×3774 original download from DGS
   `004626365`, item 1, image 21, page 191.
 - Interpretation: the entry issued provisions for João Monis Bittencourt and
@@ -445,7 +445,7 @@ entry they amend; they must not erase it.
 - Outcome: exact and broader FamilySearch index searches exposed only the
   already catalogued 1882 provision and no separate ceremony entry.
 - Detailed log:
-  [`logs/2026-07-28-espirito-santo-marriage-book-access-review.md`](logs/2026-07-28-espirito-santo-marriage-book-access-review.md).
+  [`logs/2026-07-28-espirito-santo-marriage-book-access-review.md`](2026-07-28-espirito-santo-marriage-book-access-review.md).
 - Catalog finding: the reviewed Rio de Janeiro Catholic collection does not
   expose a separate Espírito Santo parish film series; this is an online-access
   gap, not proof that the book or ceremony does not exist.
@@ -465,7 +465,7 @@ entry they amend; they must not erase it.
   lead and retained FamilySearch's authorised original-upload file at
   768×1040.
 - Detailed log:
-  [`logs/2026-07-28-carvalho-guimaraes-registration-ingestion.md`](logs/2026-07-28-carvalho-guimaraes-registration-ingestion.md).
+  [`logs/2026-07-28-carvalho-guimaraes-registration-ingestion.md`](2026-07-28-carvalho-guimaraes-registration-ingestion.md).
 - Source added: `CIV-0007`, a 2025 full-content certificate transcribing the
   1915 collective registration of six Carvalho Guimarães siblings.
 - Genealogical conclusions changed: added six direct ancestors and three
@@ -488,7 +488,7 @@ entry they amend; they must not erase it.
 - Outcome: downloaded all seven authorised original PDFs from the living
   repository subject's FamilySearch Memories after explicit owner approval.
 - Detailed log:
-  [`logs/2026-07-28-familysearch-living-profile-download-and-article-review.md`](logs/2026-07-28-familysearch-living-profile-download-and-article-review.md).
+  [`logs/2026-07-28-familysearch-living-profile-download-and-article-review.md`](2026-07-28-familysearch-living-profile-download-and-article-review.md).
 - Deduplication: two separate birth Memories yielded byte-identical PDFs; both
   Memory identifiers remain in provenance, while only one file is retained.
 - Sources added: `CIV-0008` for the private birth certificate,
@@ -514,7 +514,7 @@ entry they amend; they must not erase it.
   certificate as events E-0017/E-0018 with place PL-0009; and added resolvable
   FamilySearch URLs to every collaborative-tree lead in the coverage ledger.
 - Detailed log:
-  [`logs/2026-07-28-direct-line-document-audit-and-online-leads.md`](logs/2026-07-28-direct-line-document-audit-and-online-leads.md).
+  [`logs/2026-07-28-direct-line-document-audit-and-online-leads.md`](2026-07-28-direct-line-document-audit-and-online-leads.md).
 - Leads recorded (not promoted): Santo Antônio de Sapucaia (a freguesia from
   1871) strengthens the PAR-0001 parish re-reading over Espírito Santo; a
   published genealogy names Simplício Ferreira Armond and Elisa Balbina Tolledo
@@ -532,7 +532,7 @@ entry they amend; they must not erase it.
 - Outcome: four parallel web-research passes mapped concrete resources to every
   open direct-line gap and blocker, all recorded as leads (no conclusion changed).
 - Detailed log:
-  [`logs/2026-07-29-online-gap-and-resource-research.md`](logs/2026-07-29-online-gap-and-resource-research.md).
+  [`logs/2026-07-29-online-gap-and-resource-research.md`](2026-07-29-online-gap-and-resource-research.md).
 - Key leads: FamilySearch "Image Restricted" scans are viewable free at an
   affiliate library; Aristão's family baptisms are in the Piacatuba/Leopoldina
   parish (catalog 345430, films 004640627/004640632), confirmed by sibling
@@ -556,7 +556,7 @@ entry they amend; they must not erase it.
 - Method: four parallel web agents, public sources only; no authenticated
   session. Everything recorded as leads; no conclusion changed.
 - Detailed log:
-  [`logs/2026-07-29-parallel-vital-records-and-origin-research.md`](logs/2026-07-29-parallel-vital-records-and-origin-research.md).
+  [`logs/2026-07-29-parallel-vital-records-and-origin-research.md`](2026-07-29-parallel-vital-records-and-origin-research.md).
 - Access test (empirical): DigitArq, the Azores archive, Arquivo Nacional-Rio
   (CAPTCHA), CEPESE/APM (POST) and FamilySearch (login) are unreadable by the
   assistant's fetch tool — retrieval belongs to the Codex browser agent or a
@@ -589,7 +589,7 @@ entry they amend; they must not erase it.
   Chrome for the public FS wiki) plus a direct read of the census. WebSearch was
   exhausted; everything is a lead.
 - Detailed log:
-  [`logs/2026-07-29-ferreira-armond-deep-dig-and-locality-catalogue.md`](logs/2026-07-29-ferreira-armond-deep-dig-and-locality-catalogue.md).
+  [`logs/2026-07-29-ferreira-armond-deep-dig-and-locality-catalogue.md`](2026-07-29-ferreira-armond-deep-dig-and-locality-catalogue.md).
 - Key results: the documented Armonde tree does **not** reach Piacatuba (the
   bridge is currently unsupported, not merely unproven); the 1831 census confirms
   the anti-merge on a primary document (Simplício b.~1785 was 46 and solteiro,
@@ -613,14 +613,14 @@ entry they amend; they must not erase it.
 - Method: three read-only agents + direct fetches; curl/pdftotext/Wayback only
   (WebSearch exhausted). All leads.
 - Detailed log:
-  [`logs/2026-07-29-projetocompartilhar-and-azores-source-survey.md`](logs/2026-07-29-projetocompartilhar-and-azores-source-survey.md).
+  [`logs/2026-07-29-projetocompartilhar-and-azores-source-survey.md`](2026-07-29-projetocompartilhar-and-azores-source-survey.md).
 - Key results: projetocompartilhar's scope (São Paulo + sul de Minas) excludes
   Piacatuba/RJ/ES; new lead of a MARRIED Manoel Antonio de Armond (João Gomes
   1831) as a candidate later-namesake; the 1751 will corroborates the Azorean
   origin. Scribd (Forjaz) is bot-walled → browser/human target; the evidence
   route is the GEA parish images. Built a per-locality FamilySearch catalog-ID map.
 - Preserved in research/resources/: the João Gomes census and the 1751 inventory.
-- Contacts sent (research/correspondence-log.md): Mauro Senra, Nilza Cantoni,
+- Contacts sent (logs/correspondence-log.md): Mauro Senra, Nilza Cantoni,
   Paróquia de Piacatuba.
 - Genealogical conclusions changed: none.
 - Next action: Codex FamilySearch pulls (345430 Piacatuba marriage + baptisms
@@ -632,7 +632,7 @@ entry they amend; they must not erase it.
 - Question: assess owner-located documents (FamilySearch + newspaper) on Aristão
   Ferreira Armond's family.
 - Detailed log:
-  [`logs/2026-07-29-owner-supplied-armond-family-documents.md`](logs/2026-07-29-owner-supplied-armond-family-documents.md).
+  [`logs/2026-07-29-owner-supplied-armond-family-documents.md`](2026-07-29-owner-supplied-armond-family-documents.md).
 - Key results: Marfiza Ferreira Armond's 1962 death (aged 89 → b.~1873, viúva)
   names the same parents as Aristão's death → she is his sister; a second primary
   record of Simplicio Ferreira Armond + Eliza/Elisa Toledo, giving Elisa's maiden
@@ -650,7 +650,7 @@ entry they amend; they must not erase it.
 - Question: FamilySearch Full-Text (AI-OCR) search for Aristão and Simplicio
   Ferreira Armond in MG notarial/probate records.
 - Detailed log:
-  [`logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md`](logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md).
+  [`logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md`](2026-07-29-fulltext-muriae-leopoldina-probate-hits.md).
 - Key result: an 1881 Leopoldina probate/partilha (ARK 3:1:3QHJ-YQWY-R9GH) lists
   the Toledo heirs — "Simplício José Ferreira Armond casado com D. Eliza Balbina
   de Toledo" and her siblings (Maria Bulandina de Toledo m. Manoel Marques Jorge;

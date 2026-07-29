@@ -25,7 +25,7 @@ At the start of every task:
    assessment or genealogical changes.
 5. Inspect the relevant person entry in
    [`research/record-coverage.yaml`](research/record-coverage.yaml) and the
-   latest related entries in [`research/LOG.md`](research/LOG.md).
+   latest related entries in [`logs/LOG.md`](logs/LOG.md).
 6. Load only the task-specific contract:
    - [`data/README.md`](data/README.md) for identifiers and entity lifecycle;
    - [`schemas/README.md`](schemas/README.md) and the relevant schema for YAML;
@@ -46,9 +46,9 @@ Use targeted search rather than repeatedly loading every historical file.
   `research/familysearch-image-targets.md` (the image-retrieval task queue,
   executed by an external agent that has the owner's authorised FamilySearch
   session and downloads images).
-- `research/LOG.md` and `research/logs/` are provenance and history: read a past
-  session only when it is directly relevant; they are not required reading to
-  act.
+- `logs/` — the cumulative index `LOG.md`, the `correspondence-log.md`
+  and the dated session files — is provenance and history: read a past session
+  only when it is directly relevant; it is not required reading to act.
 - The image-retrieval worksheet is the single task queue and is derived from the
   coverage ledger; do not maintain open targets in two places.
 - After any deep-research pass, write a discovery-summary session log, then
@@ -127,7 +127,7 @@ Before declaring an objective complete:
 1. Update the relevant structured entities, inventory and coverage entry.
 2. Add a reproducible detailed research log when a search was performed.
 3. Update `STATUS.md` only for material state, priority or conclusion changes.
-4. Append `research/LOG.md` for completed research or repository-audit sessions.
+4. Append `logs/LOG.md` for completed research or repository-audit sessions.
 5. Add a concise `CHANGELOG.md` entry for notable repository changes.
 6. Run `uv run --frozen make check` and fix every error and warning.
 7. Review the diff for privacy, unsupported promotion and accidental

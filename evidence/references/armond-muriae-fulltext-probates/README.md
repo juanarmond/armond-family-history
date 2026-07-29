@@ -48,4 +48,4 @@ false-positive rows) is in `fulltext_candidates.csv`.
 | 1922-muriae-inventario-joaquim-santos-garcia-aristao-requerente.jpg | 3:1:3QHV-4QQP-L9HZ-R | Inventário de Joaquim dos Santos Garcia · 1922 · Muriaé | Aristão requerente |
 
 Transcriptions of each are in
-`research/logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md`.
+`logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md`.
