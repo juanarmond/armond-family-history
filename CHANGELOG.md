@@ -198,3 +198,11 @@ also remain traceable through source records and research logs.
   session, fold the discovered resources into the coverage ledger, and update
   place PL-0009's present-day equivalence to Alto Jequitibá, MG (from IBGE
   administrative history) without changing the source-recorded birthplace.
+- Unify the agent-governance documentation on `AGENTS.md` as the single source
+  of truth for both Claude Code and Codex, and document the assistant/Codex
+  research split. Refresh `README.md` (family-tree viewer, `CLAUDE.md` loader
+  and updated layout) and give `STATUS.md` a currency pass: reprioritise the
+  current objective to the now-unblocked Aristão baptism and Aristão×Liliosa
+  marriage retrieval, trim the per-source list in favour of the canonical
+  `data/sources/`, and record the viewer and certified-copy confirmation rule
+  in the engineering state.

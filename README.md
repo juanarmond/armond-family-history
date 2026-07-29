@@ -35,8 +35,8 @@ English abstracts or translations.
   work in progress.
 - See [`STATUS.md` — Next steps](STATUS.md#next-steps) for the immediate
   ordered execution queue.
-- Codex reads [`AGENTS.md`](AGENTS.md) for permanent instructions and context
-  routing.
+- Claude Code and Codex both read [`AGENTS.md`](AGENTS.md) for permanent
+  instructions and context routing (`CLAUDE.md` simply imports it).
 - Research history is indexed in [`research/LOG.md`](research/LOG.md); do not
   look for historical session detail in `STATUS.md`.
 
@@ -55,23 +55,28 @@ Each concern has one owner:
   promotion.
 - [`schemas/README.md`](schemas/README.md) — structured-data contracts and
   validation.
-- [`AGENTS.md`](AGENTS.md) — stable execution and context-loading protocol.
+- [`AGENTS.md`](AGENTS.md) — stable execution and context-loading protocol,
+  shared by Claude Code and Codex (`CLAUDE.md` imports it).
+- [`family-tree-viewer/README.md`](family-tree-viewer/README.md) — the static,
+  read-only family-tree viewer generated from the validated YAML.
 
 ## Repository layout
 
 ```text
 .
 ├── AGENTS.md
+├── CLAUDE.md           # Claude Code loader; imports AGENTS.md
 ├── README.md
 ├── STATUS.md
 ├── CHANGELOG.md
-├── data/          # structured YAML and ID reservations
-├── evidence/      # authorised source files, added only when available
-├── research/      # policy, intake inventory and reproducible session history
-├── schemas/       # JSON Schemas
-├── scripts/       # validation and entity lifecycle commands
-├── templates/     # canonical entity and research templates
-└── tests/         # repository contract tests
+├── data/               # structured YAML and ID reservations
+├── evidence/           # authorised source files (incoming/ stages downloads)
+├── family-tree-viewer/ # static, read-only viewer generated from the YAML
+├── research/           # policy, coverage ledger, worksheets and session logs
+├── schemas/            # JSON Schemas
+├── scripts/            # validation and entity lifecycle commands
+├── templates/          # canonical entity and research templates
+└── tests/              # repository contract tests
 ```
 
 Directories are created only with their first substantive artifact.

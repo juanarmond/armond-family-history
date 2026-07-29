@@ -8,34 +8,38 @@
 
 ## Current objective
 
-Test whether the Vicente José de Carvalho Guimarães named in an 1866 Vila do
-Rio Claro power of attorney is the same person as the documented father of
-Francisco, and locate Vicente's marriage or death record with a Portuguese
-locality.
+Obtain and catalogue Aristão Ferreira Armond's baptism and his marriage to
+Liliosa Paz Armond from the FamilySearch image ranges now confirmed viewable
+(baptism film `004640627` from image 54; marriage film `004640632` from image
+6), and locate Liliosa's own vital records. Image retrieval is queued for the
+external Codex agent in `research/familysearch-image-targets.md`; this assistant
+prepares the targets and catalogues each retrieved image as evidence.
 
 ### Objective completion signal
 
-- A record links Vicente to Maria Tertuliana, Francisco or another
-  source-qualified family member, or the 1866 candidate is rejected with a
-  documented reason.
-- Vicente's own marriage, death or burial series is searched in Rio Claro and
-  Carangola with exact and documented name variants.
-- Any Portuguese locality is preserved at the precision actually stated; the
-  nationality in `SRC-0010` is not converted into an island or parish.
+- Aristão's baptism entry is retrieved, transcribed and catalogued as a source,
+  or the target image range is exhausted with a documented negative result.
+- The Aristão×Liliosa marriage entry is retrieved and catalogued, recording both
+  parties' reported parents where present.
+- Liliosa's own death, birth or marriage record is located, or the searched
+  series and their bounds are recorded as negative results.
 - Any retained image uses the highest resolution authorised by the provider.
 
 ## Next steps
 
 This is the immediate execution queue, in order:
 
-1. **Now:** inspect the 1866 Vila do Rio Claro power-of-attorney context and
-   test its chronology against Francisco and Maria Tertuliana.
-2. Search Rio Claro and Carangola marriage and death collections for Vicente
-   and Maria Tertuliana.
-3. If a record identifies a Portuguese locality, map its archive and parish
-   series before searching Portugal.
-4. **Human-access tasks:** request the João–Susanna ceremony entry from the
-   Cúria and review Aristão's restricted parish registers when authorised.
+1. **Now (Codex):** retrieve Aristão's baptism (film `004640627`, image 54+) and
+   the Aristão×Liliosa marriage (film `004640632`, image 6+) into
+   `evidence/incoming/`, per `research/familysearch-image-targets.md`.
+2. Catalogue each retrieved image: privacy-review, reserve a source, transcribe,
+   and promote the directly-attested events.
+3. Locate Liliosa's own death, birth or marriage record; retest the Volta
+   Redonda / Barra Mansa civil death series once it reaches April 1946.
+4. Continue the 1866 Vicente identity lead and his Portuguese-locality search as
+   the next line once the Aristão and Liliosa retrieval is queued.
+5. **Human-access tasks:** request the João–Susanna ceremony entry from the
+   Cúria and review any still-restricted Aristão parish images when authorised.
 
 Keep this queue short and actionable. Detailed person-by-record actions remain
 canonical in `research/record-coverage.yaml`, and the current image-retrieval
@@ -49,10 +53,12 @@ remains under **Strategic research priorities** below.
   binaries and metadata were not transferred. Their descriptions remain
   preserved in the conversation-transfer audit, but exact document matching
   requires the original attachments.
-- FamilySearch image groups `004640627` and `004640632` contain the best
-  baptism and marriage targets for Aristão, but the relevant original images
-  display `Image Restricted`. Manual review requires authorised access through
-  a FamilySearch Center or Library, or the record custodian.
+- FamilySearch image groups `004640627` (Aristão's baptism, from image 54) and
+  `004640632` (the Aristão×Liliosa marriage, from image 6) are viewable in the
+  identified ranges and are queued for the external Codex retrieval agent in
+  `research/familysearch-image-targets.md`; only the earlier images in each group
+  still display `Image Restricted` and would need authorised FamilySearch Center
+  or Library access.
 - Archive enquiries, paid certificates and conservatory or parish requests
   require explicit user authorisation before submission.
 - Liliosa's reported 16 April 1946 death cannot yet be tested in the identified
@@ -65,7 +71,8 @@ remains under **Strategic research priorities** below.
 - Requiring the repository-health workflow in GitHub branch rules requires
   repository-administrator access.
 
-None of these dependencies prevents the current Vicente source-recovery work.
+None of these dependencies prevents the current Aristão and Liliosa retrieval
+and cataloguing work.
 
 ## Repository snapshot
 
@@ -80,41 +87,18 @@ None of these dependencies prevents the current Vicente source-recovery work.
 | Validation | 81 entities; zero errors or warnings at the last check |
 | Automated tests | 56 passing at the last check |
 
-Catalogued evidence currently includes:
-
-- `SRC-0001` — 1916 marriage of Deocleciano Muniz Bittencourt and Luiza
-  Fernandes de Azevedo;
-- `SRC-0002` — 1952 marriage of Geraldo Paz Armond and Cidalia Engracio
-  Guimarães;
-- `SRC-0003` — privacy-minimised owner-supplied working roster;
-- `SRC-0004` — 1991 death registration of Geraldo Paz Armond;
-- `SRC-0005` — 1949 marriage of Antenor Muniz and Iris Bohrer; and
-- `SRC-0006` — 1957 death registration of Aristão Ferreira Armond;
-- `SRC-0007` — three-page 2019 full-content certificate of the 1916
-  Deocleciano–Luiza marriage; and
-- `SRC-0008` — March 1973 government driver-dossier index naming José Olavo
-  Armond and his parents; and
-- `SRC-0009` — original 1882 marriage provision for João Monis Bittencourt and
-  Susanna Rita Brondão; and
-- `SRC-0010` — certified full-content copy of the 1915 Carvalho Guimarães
-  collective birth registration;
-- `SRC-0011` — private certified birth record for the living repository
-  subject, with two byte-identical FamilySearch Memories deduplicated to one
-  preservation file;
-- `SRC-0012`–`SRC-0015` — four distinct private civil manifestations of the
-  repository subject's 2003 marriage; and
-- `SRC-0016` — a 2018 academic dissertation retained as a research lead for
-  the historical Ferreira Armond group, not proof of this family's descent.
-
-Source details, archival references, transcriptions, limitations and
-conclusion links are canonical in `data/sources/`. Record-by-record gaps are
-canonical in `research/record-coverage.yaml`.
+The 16 catalogued sources (`SRC-0001` through `SRC-0016`) span the Armond/Paz,
+Muniz Bittencourt/Azevedo, Engracio/Souza/Guimarães, Bohrer and
+Portuguese-origin lines, and include the living subject's private records. Source
+details, archival references, transcriptions, limitations and conclusion links
+are canonical in `data/sources/`; record-by-record gaps are canonical in
+`research/record-coverage.yaml`.
 
 ## Research snapshot
 
 | Area | Strongest current position | Strategic gap |
 | --- | --- | --- |
-| Armond and Paz | Aristão's death is confirmed; a second original government record independently names Liliosa Paz Armond and reports the couple as José Olavo's parents; a secondary academic study supplies historical context but no line linkage | Birth or baptism of Aristão; marriage to Liliosa; Liliosa's own vital records and parents |
+| Armond and Paz | Aristão's death is confirmed; a second original government record independently names Liliosa Paz Armond and reports the couple as José Olavo's parents. Leads (not evidence): a sibling Marfisa (bapt. 1873, N. Sra. da Piedade, Piacatuba) fixes the likely baptism parish, and a documented Azorean Ferreira Armonde family remains an unlinked historical hypothesis | Retrieve Aristão's baptism and the Aristão×Liliosa marriage from the identified films; locate Liliosa's own vital records and parents; build or reject the Azorean link from primary Barbacena/Além Paraíba records |
 | Muniz Bittencourt and Azevedo | The 1916 marriage reports Deocleciano's parents; an original 1882 provision names João and Susanna and the intended Santo Antônio de Sapucaia parish | Completed ceremony entry in the Sapucaia registers; João and Susanna's own vital records; test rather than assume island origin |
 | Engracio, Souza and Guimarães | The 1915 collective registration documents Maria Amora, her parents and all four grandparents | Locate Vicente's family-linked marriage or death record and resolve Maria Amora/Aurora |
 | Bohrer | Iris's 1949 marriage directly reports João Gonçalves Bohrer and Selina Bohrer | Catalogue their own vital records and verify the next generation |
@@ -152,14 +136,13 @@ material interpretation with its source and confidence.
 
 ## Strategic research priorities
 
-1. Test the 1866 Vicente identity and locate a family-linked record that gives
-   his Portuguese locality while the three higher-priority lines remain
-   access-blocked.
-2. Obtain the João–Susanna ceremony entry from the Santo Antônio de Sapucaia
+1. Retrieve and catalogue Aristão's baptism and the Aristão×Liliosa marriage
+   from the FamilySearch image ranges now confirmed viewable.
+2. Locate Liliosa's own death, burial, birth or marriage record.
+3. Obtain the João–Susanna ceremony entry from the Santo Antônio de Sapucaia
    parish registers and their earlier records.
-3. Locate Liliosa's own death, burial, birth or marriage record.
-4. Obtain authorised access to Aristão's identified baptism and marriage
-   register targets.
+4. Test the 1866 Vicente identity and locate a family-linked record that gives
+   his Portuguese locality.
 5. Catalogue João Gonçalves Bohrer and Selina Bohrer's own vital records.
 6. Extend the Engracio/Souza, Guimarães and Azevedo lines one documented
    generation at a time.
@@ -169,13 +152,17 @@ only in `research/record-coverage.yaml`.
 
 ## Engineering state
 
-- **Active:** test the 1866 Vicente lead and locate his Portuguese locality;
-  reassess assertion-level citation quality after 5–10 varied records.
+- **Active:** catalogue the Aristão and Liliosa retrievals into structured
+  evidence once Codex delivers; reassess assertion-level citation quality after
+  5–10 varied records.
 - **External:** require the frozen repository-health check in GitHub branch
-  rules.
+  rules; the Codex agent retrieves authorised FamilySearch images per
+  `research/familysearch-image-targets.md`.
 - **Deferred until schema stability:** generated person pages and a
   privacy-filtered GEDCOM export.
 - **Complete:** versioned schemas, evidence inventory, stable ID allocation,
-  recoverable batch promotion, validation, tests and GitHub Actions.
+  recoverable batch promotion, validation, tests, GitHub Actions, the static
+  read-only family-tree viewer, and the certified-copy (derivative)
+  confirmation rule.
 
 Completed engineering work is recorded only in `CHANGELOG.md`.

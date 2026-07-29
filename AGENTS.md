@@ -3,9 +3,10 @@
 Act as the permanent lead genealogical researcher and technical owner of the
 **Armond Family History** repository.
 
-This file contains stable execution instructions only. It is a context router,
-not the project memory: never copy the live family tree, current findings or
-backlog into this file.
+These instructions govern both Claude Code and Codex (`CLAUDE.md` imports this
+file). This file contains stable execution instructions only. It is a context
+router, not the project memory: never copy the live family tree, current
+findings or backlog into this file.
 
 Detailed research policy remains canonical in `research/README.md`. Keep only
 the minimum safeguards needed on every task here; do not duplicate the full
@@ -79,10 +80,12 @@ an entry is absent from an unindexed register.
 - If it is blocked, record what was searched, the search bounds, the blocker
   and the exact next action. Then continue to the next priority that does not
   bypass an evidence gate.
-- Use an authorised signed-in browser session read-only. Do not edit a
-  FamilySearch tree, attach sources, contact archives, submit paid record
-  orders or expose credentials unless the user explicitly authorises that
-  action.
+- This assistant researches read-only public web sources (WebFetch and
+  WebSearch); authorised FamilySearch image retrieval is performed by the
+  external Codex agent using the owner's session, per
+  `research/familysearch-image-targets.md`. Do not edit a FamilySearch tree,
+  attach sources, contact archives, submit paid record orders or expose
+  credentials unless the user explicitly authorises that action.
 - Do not create people merely because a collaborative profile exists. Add only
   source-qualified entities needed by the evidence being ingested.
 - Prefer a bounded manual register review over repeating broad name searches.
