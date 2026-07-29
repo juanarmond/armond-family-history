@@ -267,3 +267,12 @@ also remain traceable through source records and research logs.
   (1851-55, 1862-65) is a documented negative; and Elisa's Toledo family is rooted
   in Argirita (father an eleitor 1863-64; land registry 1856) — redirecting the
   Simplício × Elisa marriage and Elisa-origin search to Argirita/Taruaçu.
+- Record 16 FamilySearch Full-Text hits for Aristão and Simplício Ferreira
+  Armond in the Muriaé/Leopoldina probate records (staged in
+  `evidence/incoming/armond-muriae-fulltext-probates/` with a candidates CSV):
+  an 1881 Leopoldina probate documents "Simplício José Ferreira Armond casado com
+  D. Eliza Balbina de Toledo" and lists Elisa's Toledo siblings and parent's
+  estate; Simplício ("Capitão") and Aristão recur across the comarca's probate/
+  property records. Folded into P-0016, P-0017 and P-0008. No conclusion
+  promoted; formal per-source cataloguing to follow; the Azorean bridge stays
+  unproven.

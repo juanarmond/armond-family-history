@@ -644,3 +644,22 @@ entry they amend; they must not erase it.
 - Conclusions changed: none promoted; formal source cataloguing pending saved files.
 - Next action: catalogue Marfiza's death + the José Olavo bann once files are
   staged; redirect the marriage search to Eugenópolis.
+
+## 2026-07-29 — Full-Text hits: Ferreira Armond in the Muriaé/Leopoldina probates
+
+- Question: FamilySearch Full-Text (AI-OCR) search for Aristão and Simplicio
+  Ferreira Armond in MG notarial/probate records.
+- Detailed log:
+  [`logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md`](logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md).
+- Key result: an 1881 Leopoldina probate/partilha (ARK 3:1:3QHJ-YQWY-R9GH) lists
+  the Toledo heirs — "Simplício José Ferreira Armond casado com D. Eliza Balbina
+  de Toledo" and her siblings (Maria Bulandina de Toledo m. Manoel Marques Jorge;
+  Ladisláo Egydio Ferreira de Toledo; Geraldo Augusto de Toledo Lima; Josepha
+  Olympia) — documenting the marriage and opening Elisa's parentage. Simplício
+  ("Capitão") and Aristão recur across Muriaé/Leopoldina probate/property records
+  (Simplício 1875-1913; Aristão 1903-1921) — the family's inventário evidence.
+- Provenance: 16 full-text page images + fulltext_candidates.csv staged in
+  evidence/incoming/armond-muriae-fulltext-probates/. Formal cataloguing to follow.
+- Conclusions changed: none promoted; Azorean bridge still unproven.
+- Next action: read the 1881 inventário fully to name Elisa's parent; catalogue
+  the key probate images; chase Elisa's father in Argirita.

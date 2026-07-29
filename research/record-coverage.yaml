@@ -194,7 +194,13 @@ people:
         The original register entry reports the parents as Simplicio Armand
         and Eliza Ferreira Armand. Fuller collaborative-tree forms remain
         unresolved pending a birth, baptism or marriage record.
-  notes: []
+  notes:
+  - text: >-
+      29 July 2026 (FamilySearch Full-Text): Aristão appears in Muriaé, MG
+      probate records 1903-1921 (a witness in 1903; acting in the inventário of
+      Joaquim dos Santos Garcia in 1921), placing him in the Muriaé/Eugenópolis
+      area as an adult. Images staged in
+      evidence/incoming/armond-muriae-fulltext-probates/.
 - person_id: P-0009
   external_profiles:
   - platform: FamilySearch
@@ -474,6 +480,14 @@ people:
         marriage book 1 (Jun 1851-Feb 1855, Apr 1862-Jul 1865) does NOT contain
         them; the next Piacatuba book is 1895-1919. Search Argirita; note that Bom
         Jesus do Rio Pardo was under Mar de Espanha Jul 1863-Nov 1869.
+    - text: >-
+        29 July 2026 (FamilySearch Full-Text): a Leopoldina probate/partilha of
+        1881 (ARK 3:1:3QHJ-YQWY-R9GH) lists heirs including "Simplício José
+        Ferreira Armond casado com D. Eliza Balbina de Toledo" -> the marriage is
+        now documented in a primary court record. Simplício ("Capitão") recurs in
+        many Muriaé and Leopoldina probate/property records 1875-1913 (staged in
+        evidence/incoming/armond-muriae-fulltext-probates/) -> pull his own
+        inventário/partilha for status, property and (ideally) his parentage.
   - record_type: death
     status: unsearched
     source_ids: []
@@ -567,6 +581,15 @@ people:
       his mother registered land there in 1856 (per Nilza Cantoni; see
       correspondence-log.md) -> search Argirita electoral rolls (1863-64) and land
       registry (1856) for her paternal line.
+  - text: >-
+      29 July 2026 (FamilySearch Full-Text): the 1881 Leopoldina probate ARK
+      3:1:3QHJ-YQWY-R9GH is (very likely) the inventário of Elisa's parent — it
+      lists the Toledo heirs incl. Elisa ("D. Eliza Balbina de Toledo, casada com
+      Simplício José Ferreira Armond") and her siblings: Maria Bulandina de Toledo
+      (m. Manoel Marques Jorge), Ladisláo Egydio Ferreira de Toledo (23), Geraldo
+      Augusto de Toledo Lima (15, no Rio), Josepha Olympia (12). Image staged in
+      evidence/incoming/armond-muriae-fulltext-probates/. This is the route to
+      Elisa's parents and ancestry (with the Argirita lead above).
   - text: >-
       Unverified published-genealogy lead (Mauro Senra, "Ferreira Armond — Uma
       Família Mineira", reviewed 28 July 2026): Elisa Balbina Tolledo named as
