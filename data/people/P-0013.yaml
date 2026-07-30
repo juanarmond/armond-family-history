@@ -9,9 +9,20 @@ name_variants:
     source_ids:
       - CIV-0001
       - CIV-0004
+  - value: Luiza Secundina de Azevedo
+    type: source
+    source_ids:
+      - PAR-0003
 event_ids:
   - E-0001
   - E-0004
 family_ids:
   - F-0001
-notes: []
+  - F-0018
+notes:
+  - text: >-
+      Her parents are José Secundino de Azevedo (P-0038) and Thereza Fernandes de
+      Azevedo (P-0039) — family F-0018 — named in her 1916 marriage (CIV-0001) and
+      in her son Aristides's 1922 baptism (PAR-0003). "Fernandes" is her mother's
+      surname and "Secundina/Secundino" her father's; both variants of her own name
+      are preserved. The Azevedo family origin is the Muriaé/Carangola region (MG).

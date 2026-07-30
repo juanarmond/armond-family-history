@@ -7,6 +7,12 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Ingest Aristides Muniz Bittencourt's 1922 Carangola baptism (`PAR-0003`) from the
+  retrieval drop: adds Aristides as a documented child (Antenor's brother) on
+  F-0001, establishes Luiza's parents as new ancestors — José Secundino de Azevedo
+  (P-0038) and Thereza Fernandes de Azevedo (P-0039), family F-0018 — corroborated
+  by CIV-0001, adds Luiza's "Secundina" name variant, and fixes the family's
+  Carangola (MG) origin. Plus DOC-0032.
 - Record two owner-confirmed documented collaterals: Marfiza Ferreira Armond
   (1873–1962), Aristão's sister, on F-0006 from her 1962 civil death (CIV-0013);
   and Eunir Bohrer (b.1924), Iris's brother, on F-0005 from his 1924 birth
@@ -49,6 +55,9 @@ also remain traceable through source records and research logs.
 
 ### Changed
 
+- Complete CIV-0006's transcription from the newly synced inteiro-teor images (the
+  1916 marriage act was previously "pending, low contrast") and link CIV-0001 to
+  Luiza's now-modelled parents (P-0038/P-0039, F-0018).
 - Set P-0016's preferred name to "Simplício José Ferreira Armond" (owner-confirmed
   full name) — it matches his autograph signature (PRB-0002) and the two 1880s
   Leopoldina probate records; the shorter source forms "Simplicio Armand" (CIV-0005)

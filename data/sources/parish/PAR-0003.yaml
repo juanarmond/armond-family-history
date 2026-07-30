@@ -1,0 +1,86 @@
+schema_version: 1
+id: PAR-0003
+title: >-
+  Parish baptism certificate of Aristides Muniz Bittencourt (1922, Santa Luzia do
+  Carangola), naming his parents and both grandparent couples
+record_type: Parish baptism register entry (certified copy)
+record_category: parish_register
+source_form: derivative
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1922-09-20"
+event_place_text: >-
+  Matriz de Santa Luzia do Carangola, Carangola, Minas Gerais, Brazil
+repository:
+  name: Paróquia Santa Luzia (Diocese de Caratinga), Carangola, Minas Gerais, Brazil
+  archive_or_registry: >-
+    Paróquia Santa Luzia, Praça Coronel Maximiano 138, Carangola, MG
+  book: "14"
+  page: "143"
+  record_number: "1168"
+  catalogue_reference: >-
+    Livro 14, fl. 143, nº 1168 de batizados, Paróquia Santa Luzia do Carangola;
+    certified copy issued 17 April 2019 by Pe. Jamir Pedro Sobrinho. Owner-supplied
+    certificate delivered through the research/from-retrieval/ sync; read and
+    promoted 30 July 2026.
+  repository_path: >-
+    evidence/parish/PAR-0003-aristides-muniz-bittencourt-baptism-1922-carangola.jpg
+access_date: "2026-07-30"
+language: pt-BR
+transcription: >-
+  [Diocese de Caratinga, Paróquia Santa Luzia. Livro 14, fl. 143, nº 1168 de
+  batizados.] "Aos vinte de setembro de mil novecentos e vinte e dois, nesta Matriz
+  de Santa Luzia do Carangola, baptisei solennemente ARISTIDES nascido a vinte e
+  dois de julho findo, filho legítimo de Deoclecino [Deocleciano] Muniz Bittencourt
+  e de Luiza Secundina de Azevedo. Neto paterno de João Muniz Bittencourt e de
+  Susana Ritta Brandão e materno de Jose Secundino de Azevedo e de Thereza
+  Fernandes de Azevedo. Foram padrinhos Antonio dos Santos Ferreira e Anna Muniz
+  Bittencourt. Para constar fiz este assento. Pe. Joaquim Martins Pereira." Copy
+  certified Carangola, 17 April 2019.
+abstract: >-
+  A 2019 certified copy of the 1922 baptism of Aristides (born 22 July 1922,
+  baptized 20 September 1922 at the Matriz de Santa Luzia do Carangola, MG), a
+  legitimate son of Deocleciano Muniz Bittencourt (P-0012) and Luiza Secundina de
+  Azevedo (P-0013) — hence a brother of Antenor Muniz (P-0006). It names the
+  paternal grandparents João Muniz Bittencourt (P-0019) and Susana Ritta Brandão
+  (P-0020) and the maternal grandparents José Secundino de Azevedo (P-0038) and
+  Thereza Fernandes de Azevedo (P-0039), which fixes the family's Carangola (MG)
+  origin and establishes Luiza's parents.
+reliability:
+  assessment: >-
+    Direct derivative parish evidence: a modern certified transcription of the 1922
+    baptism act. Direct for Aristides's birth/baptism and parentage; it names the
+    grandparents as reported to the parish in 1922.
+  informant: The 1922 baptising priest (Pe. Joaquim Martins Pereira) recorded the family data.
+  limitations: >-
+    A 2019 certified copy, not the original register image. Aristides (the subject)
+    is a collateral sibling of Antenor and is not modelled as a person entity.
+digital_file:
+  path: >-
+    evidence/parish/PAR-0003-aristides-muniz-bittencourt-baptism-1922-carangola.jpg
+  sha256: 817d0ab2d1983a0a260312c41056ed81d86eb73eb94bdb37c71f59214a213edc
+linked_people:
+- P-0012
+- P-0013
+- P-0019
+- P-0020
+- P-0038
+- P-0039
+linked_families:
+- F-0001
+- F-0007
+- F-0018
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Establishes Luiza's parents (José Secundino de Azevedo + Thereza Fernandes de
+    Azevedo, family F-0018), corroborating CIV-0001 (which recorded them as
+    "Secundino Maria de Azevedo" and "Theresa Fernandes de Azevedo"), and records
+    Aristides as a documented sibling of Antenor on F-0001. Fixes the family's
+    Carangola, MG origin. Godmother "Anna Muniz Bittencourt" is a further Bittencourt
+    relative, not modelled.

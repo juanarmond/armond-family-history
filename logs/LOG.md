@@ -5,6 +5,20 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-07-30 — Muniz/Azevedo: Aristides's baptism and Luiza's parents
+
+- Outcome: from a new retrieval sync, ingested Aristides Muniz Bittencourt's 1922
+  Carangola baptism (PAR-0003) — added Aristides as Antenor's documented sibling
+  (F-0001), modelled Luiza's parents José Secundino de Azevedo (P-0038) and Thereza
+  Fernandes de Azevedo (P-0039) as new ancestors (F-0018), and fixed the family's
+  Carangola (MG) origin. Completed CIV-0006's transcription from the inteiro-teor
+  images. Deferred: Aristides's marriage/death, the CIV-0002 register image, the
+  RG cards, and a family photo.
+- Genealogical conclusions changed: Luiza's parents established; Aristides recorded
+  as Antenor's sibling; Carangola origin fixed.
+- Detailed log:
+  [`logs/2026-07-30-muniz-azevedo-aristides-ingest.md`](2026-07-30-muniz-azevedo-aristides-ingest.md).
+
 ## 2026-07-30 — Bohrer maternal line extended to Celina's grandparents
 
 - Outcome: from the three pending Bohrer images, catalogued Alberto Bohrer's 1890

@@ -1,0 +1,28 @@
+schema_version: 1
+id: P-0038
+preferred_name: José Secundino de Azevedo
+privacy: deceased
+name_variants:
+- value: José Secundino de Azevedo
+  type: source
+  source_ids:
+  - PAR-0003
+- value: Secundino Maria de Azevedo
+  type: source
+  source_ids:
+  - CIV-0001
+event_ids: []
+family_ids:
+- F-0018
+notes:
+- text: >-
+    Father of Luiza (Fernandes/Secundina) de Azevedo (P-0013), hence Antenor Muniz's
+    maternal grandfather. Named as Luiza's father in the 1916 marriage (CIV-0001, as
+    "Secundino Maria de Azevedo") and as Aristides Muniz Bittencourt's maternal
+    grandfather in the 1922 baptism (PAR-0003, as "José Secundino de Azevedo"). An
+    Azevedo family of the Muriaé/Carangola region (MG); his own vital records are
+    not located.
+- text: >-
+    Nationality left unset: no birthplace or stated nacionalidade is evidenced. His
+    daughter Luiza was born in the Muriaé district (MG), but his own origin is not
+    documented, so it is not asserted.

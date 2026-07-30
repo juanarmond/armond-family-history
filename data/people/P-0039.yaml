@@ -1,0 +1,26 @@
+schema_version: 1
+id: P-0039
+preferred_name: Thereza Fernandes de Azevedo
+privacy: deceased
+name_variants:
+- value: Thereza Fernandes de Azevedo
+  type: source
+  source_ids:
+  - PAR-0003
+- value: Theresa Fernandes de Azevedo
+  type: source
+  source_ids:
+  - CIV-0001
+event_ids: []
+family_ids:
+- F-0018
+notes:
+- text: >-
+    Mother of Luiza (Fernandes/Secundina) de Azevedo (P-0013), hence Antenor Muniz's
+    maternal grandmother. Named as Luiza's mother in the 1916 marriage (CIV-0001, as
+    "Theresa Fernandes de Azevedo") and as Aristides Muniz Bittencourt's maternal
+    grandmother in the 1922 baptism (PAR-0003, as "Thereza Fernandes de Azevedo").
+    Luiza's "Fernandes" surname descends from her. Her own vital records are not
+    located.
+- text: >-
+    Nationality left unset: no birthplace or stated nacionalidade is evidenced.

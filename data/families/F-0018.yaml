@@ -1,0 +1,34 @@
+schema_version: 1
+id: F-0018
+partners:
+- person_id: P-0038
+  role: parent
+- person_id: P-0039
+  role: parent
+children:
+- person_id: P-0013
+  parent_relationships:
+  - parent_id: P-0038
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0003
+    - CIV-0001
+    notes: []
+  - parent_id: P-0039
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0003
+    - CIV-0001
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    José Secundino de Azevedo and Thereza Fernandes de Azevedo, parents of Luiza
+    (Fernandes/Secundina) de Azevedo (P-0013). Established by two records that name
+    Luiza's parents: her 1916 marriage (CIV-0001) and her son Aristides's 1922
+    baptism (PAR-0003). Strong-evidence — both name the parents as reported
+    information, not from the couple's own records. This group records the reported
+    parents; no marriage record between them has been located.

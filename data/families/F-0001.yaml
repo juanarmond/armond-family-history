@@ -27,6 +27,14 @@ children:
           - CIV-0004
         notes: []
     notes: []
+documented_children:
+  - name: Aristides Muniz Bittencourt
+    source_ids:
+      - PAR-0003
+    lifespan: b. 1922
+    note: >-
+      Brother of Antenor (P-0006); son of Deocleciano and Luiza, born 22 July 1922
+      and baptized 20 September 1922 at Santa Luzia do Carangola (PAR-0003).
 event_ids:
   - E-0001
 notes: []

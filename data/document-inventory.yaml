@@ -1276,3 +1276,42 @@ documents:
         Subjects Francisco José Bohrer and Rosa Eugenia de Lemos (Celina's paternal
         grandparents), both long deceased. The page carries several unrelated
         marriage entries.
+  - inventory_id: DOC-0032
+    status: catalogued
+    added_date: "2026-07-30"
+    apparent_record_type: Parish baptism register entry (certified copy)
+    apparent_people:
+      - Aristides Muniz Bittencourt
+      - Deocleciano Muniz Bittencourt
+      - Luiza Secundina de Azevedo
+      - João Muniz Bittencourt
+      - Susana Ritta Brandão
+      - José Secundino de Azevedo
+      - Thereza Fernandes de Azevedo
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      Paróquia Santa Luzia (Diocese de Caratinga), Carangola (MG); certified copy of
+      the 1922 baptism (Livro 14, fl. 143, nº 1168), issued 17 April 2019.
+      Owner-supplied certificate delivered through the research/from-retrieval/ sync;
+      read and promoted 30 July 2026.
+    rights_status: permission-required
+    files:
+      - path: evidence/parish/PAR-0003-aristides-muniz-bittencourt-baptism-1922-carangola.jpg
+        sha256: 817d0ab2d1983a0a260312c41056ed81d86eb73eb94bdb37c71f59214a213edc
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: original-file
+          pixel_width: 2336
+          pixel_height: 3594
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0003
+    notes:
+      - >-
+        Subject Aristides (b.1922, a brother of Antenor, recorded as a documented
+        child on F-0001, not a person entity). Establishes Luiza's parents (P-0038,
+        P-0039) and the Carangola origin; all named persons are deceased.
