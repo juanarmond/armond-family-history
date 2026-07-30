@@ -32,6 +32,7 @@ The directory can be hosted by GitHub Pages or another static host. The viewer l
 family-tree-viewer/index.html
 family-tree-viewer/styles.css
 family-tree-viewer/app.js
+family-tree-viewer/i18n.js
 family-tree-viewer/static-api.js
 family-tree-viewer/data-loader.js
 data/**/*.yaml
@@ -54,6 +55,7 @@ Do not publish the site publicly while it contains private family data. GitHub P
 - Lists the FAN / context references a person appears in (witness, appraiser, creditor, attorney, party or co-owner), with the person's role, record category, place, image link and transcription.
 - Encodes the current root, generation depth, hypothesis toggle and selected person in the URL hash, so a view is bookmarkable and shareable.
 - Minimises details shown for living people, and never lists a living person's sources.
+- Offers the interface in English and Brazilian Portuguese (pt-BR), defaulting to the browser language and falling back to English; the choice persists (localStorage) and is encoded in the URL hash. Only the UI chrome and controlled labels (event types, statuses, privacy) are translated — record content (names, transcriptions, places, record types) always displays exactly as recorded.
 
 ## Architecture
 

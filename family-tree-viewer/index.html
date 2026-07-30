@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
   <meta name="description" content="Private, evidence-led ancestral tree for the Armond family.">
-  <title>Armond Family History</title>
+  <title data-i18n="page.title">Armond Family History</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <div>
-      <p class="eyebrow">Private research archive</p>
-      <h1>Armond Family History</h1>
-      <p class="subtitle">Evidence-led ancestral tree generated directly from the repository's validated YAML records.</p>
+      <p class="eyebrow" data-i18n="header.eyebrow">Private research archive</p>
+      <h1 data-i18n="page.title">Armond Family History</h1>
+      <p class="subtitle" data-i18n="header.subtitle">Evidence-led ancestral tree generated directly from the repository's validated YAML records.</p>
     </div>
-    <div class="brand-emblem" role="img" aria-label="Armond Family History emblem: a family-tree seal">
+    <div class="brand-emblem" role="img" data-i18n-aria="header.emblem" aria-label="Armond Family History emblem: a family-tree seal">
       <svg viewBox="0 0 72 72" class="emblem" aria-hidden="true" focusable="false">
         <circle cx="36" cy="36" r="32" fill="#fbf6ea"/>
         <circle cx="36" cy="36" r="32" fill="none" stroke="#a9843f" stroke-width="2"/>
@@ -44,14 +44,14 @@
   </header>
 
   <main>
-    <section class="toolbar" aria-label="Tree controls">
+    <section class="toolbar" data-i18n-aria="toolbar.aria" aria-label="Tree controls">
       <label>
-        <span>Start person</span>
+        <span data-i18n="control.startPerson">Start person</span>
         <select id="root-person"></select>
       </label>
 
       <label>
-        <span>Generations</span>
+        <span data-i18n="control.generations">Generations</span>
         <select id="generation-limit">
           <option value="2">2</option>
           <option value="3">3</option>
@@ -64,34 +64,42 @@
       </label>
 
       <label class="search-field">
-        <span>Find a person</span>
-        <input id="person-search" type="search" placeholder="Search by name" autocomplete="off">
+        <span data-i18n="control.findPerson">Find a person</span>
+        <input id="person-search" type="search" data-i18n-placeholder="control.searchPlaceholder" placeholder="Search by name" autocomplete="off">
       </label>
 
       <label class="toggle-row">
         <input id="show-hypotheses" type="checkbox" checked>
-        <span>Show hypotheses</span>
+        <span data-i18n="control.showHypotheses">Show hypotheses</span>
       </label>
 
-      <button id="reset-view" type="button">Reset view</button>
+      <label>
+        <span data-i18n="control.language">Language</span>
+        <select id="language-select">
+          <option value="en">English</option>
+          <option value="pt-BR">Português (Brasil)</option>
+        </select>
+      </label>
+
+      <button id="reset-view" type="button" data-i18n="control.reset">Reset view</button>
     </section>
 
-    <section class="summary" aria-label="Repository summary">
-      <article><strong id="person-count">—</strong><span>people</span></article>
-      <article><strong id="family-count">—</strong><span>families</span></article>
-      <article><strong id="source-count">—</strong><span>sources</span></article>
-      <article><strong id="visible-count">—</strong><span>visible nodes</span></article>
+    <section class="summary" data-i18n-aria="summary.aria" aria-label="Repository summary">
+      <article><strong id="person-count">—</strong><span data-i18n="summary.people">people</span></article>
+      <article><strong id="family-count">—</strong><span data-i18n="summary.families">families</span></article>
+      <article><strong id="source-count">—</strong><span data-i18n="summary.sources">sources</span></article>
+      <article><strong id="visible-count">—</strong><span data-i18n="summary.visible">visible nodes</span></article>
     </section>
 
     <section class="tree-shell">
-      <div id="tree-controls" class="tree-controls" role="group" aria-label="Zoom controls" hidden>
-        <button id="zoom-out" type="button" aria-label="Zoom out">−</button>
+      <div id="tree-controls" class="tree-controls" role="group" data-i18n-aria="zoom.aria" aria-label="Zoom controls" hidden>
+        <button id="zoom-out" type="button" data-i18n-aria="zoom.out" aria-label="Zoom out">−</button>
         <span id="zoom-level" aria-live="polite">100%</span>
-        <button id="zoom-in" type="button" aria-label="Zoom in">+</button>
-        <button id="zoom-fit" type="button">Fit</button>
+        <button id="zoom-in" type="button" data-i18n-aria="zoom.in" aria-label="Zoom in">+</button>
+        <button id="zoom-fit" type="button" data-i18n="zoom.fit">Fit</button>
       </div>
       <div id="tree-viewport" class="tree-viewport">
-        <div id="loading" class="loading" role="status">Loading the family archive…</div>
+        <div id="loading" class="loading" role="status" data-i18n="loading">Loading the family archive…</div>
         <div id="error" class="error" role="alert" hidden></div>
         <div id="tree-sizer" class="tree-sizer">
           <div id="tree-stage" class="tree-stage">
@@ -109,13 +117,13 @@
         <h2 id="details-title" class="detail-title"></h2>
         <p id="details-lifespan" class="detail-lifespan"></p>
       </div>
-      <button id="close-details" class="close-button" type="button" aria-label="Close person details">×</button>
+      <button id="close-details" class="close-button" type="button" data-i18n-aria="panel.close" aria-label="Close person details">×</button>
     </div>
     <div id="details-content"></div>
   </aside>
   <div id="panel-backdrop" class="panel-backdrop" hidden></div>
 
-  <footer class="site-footer">
+  <footer class="site-footer" data-i18n="footer">
     Read-only static visualisation. Repository YAML remains the canonical source of truth.
   </footer>
 

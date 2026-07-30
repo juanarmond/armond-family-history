@@ -1,4 +1,6 @@
-"use strict";
+import { createI18n, resolveLocale, SUPPORTED_LOCALES } from "./i18n.js";
+
+const LANG_STORAGE_KEY = "armond-viewer-lang";
 
 const state = {
   data: null,
@@ -9,7 +11,14 @@ const state = {
   zoom: 1,
   autoFit: true,
   selected: null,
+  locale: "en",
 };
+
+// Active translator; reassigned by setLocale. UI code calls t / tn / vocab.
+let i18n = createI18n("en");
+const t = (key, vars) => i18n.t(key, vars);
+const tn = (key, n, vars) => i18n.tn(key, n, vars);
+const vocab = (kind, value) => i18n.label(kind, value);
 
 const MIN_ZOOM = 0.2;
 const MAX_ZOOM = 2.5;
@@ -48,14 +57,7 @@ const elements = {
   detailsTitle: document.querySelector("#details-title"),
   detailsLifespan: document.querySelector("#details-lifespan"),
   detailsContent: document.querySelector("#details-content"),
-};
-
-const statusLabels = {
-  confirmed: "Confirmed",
-  "strong-evidence": "Strong evidence",
-  hypothesis: "Hypothesis",
-  rejected: "Rejected",
-  unknown: "Unspecified",
+  languageSelect: document.querySelector("#language-select"),
 };
 
 const statusColours = {
@@ -66,7 +68,7 @@ const statusColours = {
   unknown: "var(--unknown)",
 };
 
-function text(value, fallback = "Unknown") {
+function text(value, fallback = t("text.unknown")) {
   return typeof value === "string" && value.trim() ? value.trim() : fallback;
 }
 
@@ -80,12 +82,12 @@ function initials(name) {
 }
 
 function dateLabel(event) {
-  if (!event?.date) return "Unknown date";
+  if (!event?.date) return t("date.unknown");
   const date = event.date;
   if (date.kind === "exact") return date.value;
   if (date.kind === "month") return `${String(date.month).padStart(2, "0")}/${date.year}`;
   if (date.kind === "year") return String(date.year);
-  return date.text || "Unknown date";
+  return date.text || t("date.unknown");
 }
 
 function yearFromEvent(event) {
@@ -103,14 +105,14 @@ function lifespan(person) {
   const birthYear = yearFromEvent(birth);
   const deathYear = yearFromEvent(death);
   if (birthYear || deathYear) return `${birthYear || "?"}–${deathYear || ""}`;
-  return person.privacy === "living" ? "Living person" : "Dates not established";
+  return person.privacy === "living" ? t("lifespan.living") : t("lifespan.unknown");
 }
 
 function primaryPlace(person) {
   const preferred = person.events.find((event) => event.type === "birth")
     || person.events.find((event) => event.type === "death")
     || person.events[0];
-  return preferred?.place?.name || "Place not established";
+  return preferred?.place?.name || t("place.unknown");
 }
 
 function relationshipVisible(relationship) {
@@ -132,7 +134,7 @@ function createPersonCard(person, relationship, options = {}) {
   button.type = "button";
   button.className = `person-card ${options.root ? "root-card" : ""} ${options.reference ? "reference-card" : ""}`.trim();
   button.style.setProperty("--edge", statusColours[status] || statusColours.unknown);
-  button.setAttribute("aria-label", `Open details for ${person.name}`);
+  button.setAttribute("aria-label", t("card.aria", { name: person.name }));
 
   const avatar = document.createElement("span");
   avatar.className = "avatar";
@@ -152,13 +154,13 @@ function createPersonCard(person, relationship, options = {}) {
 
   const meta = document.createElement("span");
   meta.className = "card-meta";
-  if (relationship) meta.append(createBadge(statusLabels[status] || status, status));
-  if (person.sourceCount) meta.append(createBadge(`${person.sourceCount} source${person.sourceCount === 1 ? "" : "s"}`));
-  if (person.hasConflict) meta.append(createBadge("Conflict", "conflict"));
-  if (person.privacy === "living") meta.append(createBadge("Private"));
+  if (relationship) meta.append(createBadge(vocab("status", status), status));
+  if (person.sourceCount) meta.append(createBadge(tn("badge.source", person.sourceCount, { n: person.sourceCount })));
+  if (person.hasConflict) meta.append(createBadge(t("badge.conflict"), "conflict"));
+  if (person.privacy === "living") meta.append(createBadge(t("badge.private")));
 
   button.append(avatar, main, meta);
-  button.title = "Click for details · double-click to centre the tree here";
+  button.title = t("card.title");
   button.addEventListener("click", () => {
     if (suppressClick) return;
     openDetails(person.id);
@@ -174,7 +176,7 @@ function createPersonCard(person, relationship, options = {}) {
 function createGenerationStop() {
   const stop = document.createElement("div");
   stop.className = "generation-stop";
-  stop.textContent = "Generation limit reached";
+  stop.textContent = t("tree.generationStop");
   return stop;
 }
 
@@ -183,8 +185,8 @@ function createMarriageBadge(marriage) {
   badge.className = "marriage-badge";
   const year = yearFromEvent({ date: marriage.date });
   badge.textContent = year ? `⚭ ${year}` : "⚭";
-  const detail = [marriage.place, statusLabels[marriage.status] || marriage.status].filter(Boolean);
-  badge.title = `Marriage${detail.length ? ` — ${detail.join(" · ")}` : ""}`;
+  const detail = [marriage.place, vocab("status", marriage.status)].filter(Boolean);
+  badge.title = `${t("marriage.label")}${detail.length ? ` — ${detail.join(" · ")}` : ""}`;
   return badge;
 }
 
@@ -260,7 +262,7 @@ function renderTree() {
   const root = state.data.people[state.rootId];
   if (!root) {
     elements.error.hidden = false;
-    elements.error.textContent = `Person ${state.rootId} is not available.`;
+    elements.error.textContent = t("tree.personUnavailable", { id: state.rootId });
     return;
   }
 
@@ -331,6 +333,7 @@ function readHash() {
     gen: params.get("gen"),
     hyp: params.get("hyp"),
     sel: params.get("sel"),
+    lang: params.get("lang"),
   };
 }
 
@@ -339,6 +342,7 @@ function syncHash() {
   params.set("root", state.rootId);
   params.set("gen", String(state.generations));
   params.set("hyp", state.showHypotheses ? "1" : "0");
+  params.set("lang", state.locale);
   if (state.selected) params.set("sel", state.selected);
   const next = `#${params.toString()}`;
   if (next !== location.hash) history.replaceState(null, "", next);
@@ -358,6 +362,45 @@ function populatePersonSelect(query = "") {
     option.selected = person.id === state.rootId;
     elements.rootSelect.append(option);
   }
+}
+
+function applyStaticTranslations() {
+  document.title = t("page.title");
+  document.documentElement.lang = state.locale;
+  for (const el of document.querySelectorAll("[data-i18n]")) {
+    el.textContent = t(el.getAttribute("data-i18n"));
+  }
+  for (const el of document.querySelectorAll("[data-i18n-aria]")) {
+    el.setAttribute("aria-label", t(el.getAttribute("data-i18n-aria")));
+  }
+  for (const el of document.querySelectorAll("[data-i18n-placeholder]")) {
+    el.setAttribute("placeholder", t(el.getAttribute("data-i18n-placeholder")));
+  }
+}
+
+function setLocale(locale) {
+  const next = SUPPORTED_LOCALES.includes(locale) ? locale : "en";
+  state.locale = next;
+  i18n = createI18n(next);
+  try { localStorage.setItem(LANG_STORAGE_KEY, next); } catch { /* storage unavailable */ }
+  if (elements.languageSelect) elements.languageSelect.value = next;
+  applyStaticTranslations();
+  if (state.data) {
+    renderTree();
+    if (state.selected && !elements.detailsPanel.hidden) openDetails(state.selected);
+  }
+  syncHash();
+}
+
+function resolveInitialLocale(hashLang) {
+  if (hashLang && SUPPORTED_LOCALES.includes(hashLang)) return hashLang;
+  let stored = null;
+  try { stored = localStorage.getItem(LANG_STORAGE_KEY); } catch { /* storage unavailable */ }
+  if (stored && SUPPORTED_LOCALES.includes(stored)) return stored;
+  const nav = typeof navigator !== "undefined"
+    ? (navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language])
+    : [];
+  return resolveLocale(nav);
 }
 
 function section(title, content) {
@@ -388,9 +431,9 @@ function list(items, emptyText) {
 
 function fileLinkLabel(href) {
   const ext = href.split("?")[0].split(".").pop().toLowerCase();
-  if (ext === "pdf") return "View document";
-  if (["jpg", "jpeg", "png", "tif", "tiff", "gif", "webp"].includes(ext)) return "View image";
-  return "View file";
+  if (ext === "pdf") return t("file.viewDocument");
+  if (["jpg", "jpeg", "png", "tif", "tiff", "gif", "webp"].includes(ext)) return t("file.viewImage");
+  return t("file.viewFile");
 }
 
 function externalLink(href, label, extraClass = "") {
@@ -407,7 +450,7 @@ function sourceList(sources) {
   if (!sources.length) {
     const empty = document.createElement("p");
     empty.className = "empty-note";
-    empty.textContent = "No linked sources.";
+    empty.textContent = t("empty.sources");
     return empty;
   }
 
@@ -433,14 +476,14 @@ function sourceList(sources) {
     const actions = document.createElement("div");
     actions.className = "source-actions";
     if (source.file) actions.append(externalLink(source.file, fileLinkLabel(source.file)));
-    if (source.url) actions.append(externalLink(source.url, "Source record ↗", "external"));
+    if (source.url) actions.append(externalLink(source.url, t("source.recordLink"), "external"));
     if (!source.file && !source.url) {
       const none = document.createElement("span");
       none.className = "source-none";
-      none.textContent = "No file retained";
+      none.textContent = t("source.noFile");
       actions.append(none);
     }
-    if (source.private) actions.append(createBadge("Private"));
+    if (source.private) actions.append(createBadge(t("badge.private")));
 
     const nodes = [title];
     if (metaBits.length) nodes.push(meta);
@@ -475,7 +518,7 @@ function fanList(refs) {
   if (!refs.length) {
     const empty = document.createElement("p");
     empty.className = "empty-note";
-    empty.textContent = "No context references.";
+    empty.textContent = t("empty.fan");
     return empty;
   }
 
@@ -501,7 +544,7 @@ function fanList(refs) {
     const actions = document.createElement("div");
     actions.className = "source-actions";
     if (ref.file) actions.append(externalLink(ref.file, fileLinkLabel(ref.file)));
-    if (ref.url) actions.append(externalLink(ref.url, "Source record ↗", "external"));
+    if (ref.url) actions.append(externalLink(ref.url, t("source.recordLink"), "external"));
 
     const nodes = [title];
     if (metaBits.length) nodes.push(meta);
@@ -532,18 +575,18 @@ function openDetails(personId) {
   if (person.hasConflict) {
     const caution = document.createElement("p");
     caution.className = "detail-caution";
-    caution.textContent = "⚠ This record has unresolved or conflicting evidence — see the notes and sources below.";
+    caution.textContent = t("detail.caution");
     elements.detailsContent.append(caution);
   }
 
   const facts = document.createElement("dl");
   facts.className = "detail-grid";
   const factRows = [
-    ["Privacy", person.privacy],
-    ["Sources", String(person.sourceCount)],
-    ["Context references", String((person.fanReferences || []).length)],
-    ["Birthplace", person.events.find((event) => event.type === "birth")?.place?.name || "Not established"],
-    ["Death place", person.events.find((event) => event.type === "death")?.place?.name || "Not established"],
+    [t("fact.privacy"), vocab("privacy", person.privacy)],
+    [t("fact.sources"), String(person.sourceCount)],
+    [t("fact.contextRefs"), String((person.fanReferences || []).length)],
+    [t("fact.birthplace"), person.events.find((event) => event.type === "birth")?.place?.name || t("value.notEstablished")],
+    [t("fact.deathplace"), person.events.find((event) => event.type === "death")?.place?.name || t("value.notEstablished")],
   ];
   for (const [term, value] of factRows) {
     const dt = document.createElement("dt");
@@ -552,50 +595,50 @@ function openDetails(personId) {
     dd.textContent = text(value);
     facts.append(dt, dd);
   }
-  elements.detailsContent.append(section("Overview", facts));
+  elements.detailsContent.append(section(t("detail.overview"), facts));
 
   const eventItems = person.events.map((event) => {
     const place = event.place?.name ? ` · ${event.place.name}` : "";
-    return `${event.type.replaceAll("_", " ")} · ${dateLabel(event)}${place} · ${statusLabels[event.status] || event.status}`;
+    return `${vocab("event", event.type)} · ${dateLabel(event)}${place} · ${vocab("status", event.status)}`;
   });
-  elements.detailsContent.append(section("Events", list(eventItems, "No structured events.")));
+  elements.detailsContent.append(section(t("detail.events"), list(eventItems, t("empty.events"))));
 
   const parentItems = (state.data.parentsByChild[personId] || [])
     .filter(relationshipVisible)
     .map((relationship) => {
       const parent = state.data.people[relationship.parentId];
-      return `${parent?.name || relationship.parentId} — ${statusLabels[relationship.status] || relationship.status}`;
+      return `${parent?.name || relationship.parentId} — ${vocab("status", relationship.status)}`;
     });
-  elements.detailsContent.append(section("Parents", list(parentItems, "No structured parent relationship.")));
+  elements.detailsContent.append(section(t("detail.parents"), list(parentItems, t("empty.parents"))));
 
   if (person.privacy !== "living") {
     const marriageItems = person.spouses.map((spouse) => {
       const bits = [];
       const year = spouse.marriage ? yearFromEvent({ date: spouse.marriage.date }) : null;
-      if (year) bits.push(`m. ${year}`);
+      if (year) bits.push(t("marriage.year", { year }));
       if (spouse.marriage?.place) bits.push(spouse.marriage.place);
-      if (spouse.marriage?.status) bits.push(statusLabels[spouse.marriage.status] || spouse.marriage.status);
+      if (spouse.marriage?.status) bits.push(vocab("status", spouse.marriage.status));
       return bits.length ? `${spouse.name} — ${bits.join(" · ")}` : spouse.name;
     });
-    elements.detailsContent.append(section("Marriages & partners", list(marriageItems, "No recorded partners.")));
+    elements.detailsContent.append(section(t("detail.marriages"), list(marriageItems, t("empty.partners"))));
 
     const occupationItems = person.occupations.map((occupation) => {
       const src = occupation.sourceIds.length ? ` · ${occupation.sourceIds.join(", ")}` : "";
       return occupation.note ? `${occupation.value}${src} — ${occupation.note}` : `${occupation.value}${src}`;
     });
-    elements.detailsContent.append(section("Occupation", list(occupationItems, "No recorded occupation.")));
+    elements.detailsContent.append(section(t("detail.occupation"), list(occupationItems, t("empty.occupation"))));
 
-    elements.detailsContent.append(section("Recorded names", list(person.nameVariants, "No name variants.")));
-    elements.detailsContent.append(section("Sources", sourceList(person.sources)));
+    elements.detailsContent.append(section(t("detail.recordedNames"), list(person.nameVariants, t("empty.names"))));
+    elements.detailsContent.append(section(t("detail.sources"), sourceList(person.sources)));
     elements.detailsContent.append(
-      section("Context references (FAN)", fanList(person.fanReferences || [])),
+      section(t("detail.fan"), fanList(person.fanReferences || [])),
     );
-    elements.detailsContent.append(section("Research notes", list(person.notes, "No public research notes.")));
+    elements.detailsContent.append(section(t("detail.notes"), list(person.notes, t("empty.notes"))));
   } else {
     const privacy = document.createElement("p");
     privacy.className = "empty-note";
-    privacy.textContent = "Details are intentionally minimised for living people.";
-    elements.detailsContent.append(section("Privacy", privacy));
+    privacy.textContent = t("detail.livingMinimised");
+    elements.detailsContent.append(section(t("detail.privacy"), privacy));
   }
 
   if (!elements.detailsPanel.contains(document.activeElement)) {
@@ -722,6 +765,10 @@ function bindEvents() {
     syncHash();
   });
 
+  if (elements.languageSelect) {
+    elements.languageSelect.addEventListener("change", () => setLocale(elements.languageSelect.value));
+  }
+
   elements.closeDetails.addEventListener("click", closeDetails);
   elements.backdrop.addEventListener("click", closeDetails);
   document.addEventListener("keydown", (event) => {
@@ -731,9 +778,15 @@ function bindEvents() {
 
 async function initialise() {
   bindEvents();
+  // Resolve the display language before anything renders, so the chrome and the
+  // loading text appear localised immediately.
+  state.locale = resolveInitialLocale(readHash().lang);
+  i18n = createI18n(state.locale);
+  if (elements.languageSelect) elements.languageSelect.value = state.locale;
+  applyStaticTranslations();
   try {
     const response = await fetch("/api/tree", { cache: "no-store" });
-    if (!response.ok) throw new Error(`The data service returned HTTP ${response.status}.`);
+    if (!response.ok) throw new Error(t("error.httpStatus", { status: response.status }));
     state.data = await response.json();
     state.rootId = state.data.people["P-0001"] ? "P-0001" : Object.keys(state.data.people)[0];
 
@@ -757,7 +810,7 @@ async function initialise() {
   } catch (error) {
     elements.loading.hidden = true;
     elements.error.hidden = false;
-    elements.error.textContent = `Unable to load the family tree: ${error.message}`;
+    elements.error.textContent = t("error.loadFailed", { message: error.message });
   }
 }
 

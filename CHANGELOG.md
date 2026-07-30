@@ -34,6 +34,13 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Add an English / Brazilian-Portuguese (pt-BR) dual-language UI to the
+  family-tree viewer. A new dependency-free `family-tree-viewer/i18n.js`
+  translates the chrome and controlled-vocabulary labels (event types, statuses,
+  privacy); a language selector defaults to the browser language (falling back to
+  English), persists the choice in `localStorage`, and encodes it in the URL hash.
+  Record content (names, transcriptions, places, record types) is never
+  translated. Covered by `tests/js/i18n.test.mjs`.
 - Surface FAN references and source transcriptions in the family-tree viewer.
   `data-loader.js` now loads the `fan` entities and projects them per person via
   `participants`; the details panel lists each person's FAN / context references
