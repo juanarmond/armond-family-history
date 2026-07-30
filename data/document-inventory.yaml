@@ -860,3 +860,40 @@ documents:
         Establishes Mathilde Maria de Jesus (P-0027) as the grandmother (avó) of
         the Toledo grandchildren incl. Eliza Balbina de Toledo (P-0017), resolving
         the PRB-0001 mother-vs-grandmother question. Intervening parent not named.
+  - inventory_id: DOC-0021
+    status: catalogued
+    added_date: "2026-07-30"
+    apparent_record_type: Notarial deed of sale (escritura de venda), continuation folio
+    apparent_people:
+      - Mathilde Maria de Jesus
+      - Ladisláo Egydio Ferreira de Toledo
+      - Antonio Zeferino de Toledo
+      - Maria Perpétua
+    apparent_event: other
+    image_quality: adequate
+    provenance: >-
+      FamilySearch Full-Text image, ARK 3:1:3QHJ-1QWB-7BYX, a mid-deed
+      continuation folio of a Toledo sale of Fazenda da Concórdia / Ribeirão de
+      São Bento land at Leopoldina (MG). Located via Full-Text and delivered
+      through the research/from-scraper/ sync; read and promoted 30 July 2026.
+    rights_status: permission-required
+    files:
+      - path: evidence/probate/PRB-0004-toledo-deed-sao-bento-concordia-leopoldina-page-01.jpg
+        sha256: e6c87c37824fa099bdb2ccdf1a5590bf56cbc76bc412fc4e29f86d35a60f6f3d
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+          pixel_width: 2898
+          pixel_height: 4222
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PRB-0004
+    notes:
+      - >-
+        States the ancestral couples above the Toledo grantor grandchildren:
+        grandparents Mathilde Maria de Jesus (P-0027) and Ladisláo Egydio Ferreira
+        de Toledo, and parents Antonio Zeferino de Toledo and Maria Perpétua.
+        Grantor names, date and notary are on adjacent (not-yet-retrieved) folios.

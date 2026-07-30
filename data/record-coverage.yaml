@@ -609,6 +609,20 @@ people:
       wife of Simplício Ferreira Armond, in the Piacatuba (Leopoldina) parish
       of Nossa Senhora da Piedade. Supports the "Elizia Balbina Toledo" surname
       lead. Lead only; inspect the underlying parish record before promoting.
+  - text: >-
+      30 July 2026 (Full-Text via research/from-scraper/, PRB-0004, ARK
+      3:1:3QHJ-1QWB-7BYX): a Toledo Concórdia/São Bento deed names the parent
+      couple Antonio Zeferino de Toledo x Dona Maria Perpétua below the
+      grandparents Mathilde Maria de Jesus (P-0027) x Ladisláo Egydio Ferreira de
+      Toledo. STRONG HYPOTHESIS, not yet an edge: Antonio Zeferino de Toledo x
+      Maria Perpétua are Eliza's parents — the long-missing intervening generation
+      — because PRB-0001 lists Eliza with the sibling set (Maria Bulandina,
+      Ladisláo Egydio, Geraldo Augusto, Josepha Olympia) as Mathilde's
+      grandchild-heirs, consistent with one parent couple. NEXT ACTION: retrieve
+      the named grantors on PRB-0004's adjacent folios and the 1881 partilha's
+      opening (deceased parent's name) to confirm the parentage before creating
+      P-0017's parent-child edges. Beware two same-named "Ladisláo Egydio Ferreira
+      de Toledo" (elder grandfather vs. grantor) when reading those folios.
 - person_id: P-0019
   external_profiles:
   - platform: FamilySearch

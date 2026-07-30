@@ -30,10 +30,17 @@ catalogues each valuable image as evidence.
 
 This is the immediate execution queue, in order:
 
-1. **Now:** run the value gate on the `research/from-scraper/` drop (tracked in
-   `research/from-scraper-triage-ledger.md`) — catalogue the Toledo (Eliza's
-   maternal-line) deeds/estates, keep FAN references, discard the
-   titled-branch/namesake noise.
+1. **Direct-line follow-up (30 July value-gate pass complete):** every image in
+   the `research/from-scraper/` drop has now been read per-image. PRB-0004
+   catalogued Eliza's maternal Toledo ancestry deed (grandparents Mathilde ×
+   Ladisláo; parents Antonio Zeferino de Toledo × Maria Perpétua). NEXT: confirm
+   Eliza's parents — retrieve PRB-0004's adjacent folios (the grantor names) and
+   the 1881 partilha's opening to test the hypothesis that Antonio Zeferino de
+   Toledo × Maria Perpétua are P-0017's parents, and resolve the two same-named
+   "Ladisláo Egydio Ferreira de Toledo" (elder grandfather vs grantor) before
+   creating any Toledo ancestor edges. **Owner decision pending:** whether to
+   ingest the titled Ferreira Armond branch (Barão de Pitangui / Amaro), which is
+   collateral with no established link to the owner's own line.
 2. Catalogue each retrieved image: privacy-review, reserve a source, transcribe,
    and promote the directly-attested events.
 3. Locate Liliosa's own death, birth or marriage record; retest the Volta

@@ -7,6 +7,17 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Complete a full per-image read pass of the `research/from-scraper/` scraper
+  drop and catalogue PRB-0004 (a Toledo Concórdia / Ribeirão de São Bento deed
+  naming Eliza's maternal grandparents Mathilde × Ladisláo Egydio Ferreira de
+  Toledo and the parent couple Antonio Zeferino de Toledo × Maria Perpétua), with
+  evidence image and document-inventory entry DOC-0021. Record the resulting
+  hypothesis (Antonio Zeferino × Maria Perpétua as Eliza's parents) and the
+  two-Ladisláo conflict without creating unverified edges; flag a Moura-family
+  "Mathilde Maria de Jesus" namesake to avoid conflation.
+- Gitignore the scraper working area (`research/from-scraper/output/`,
+  `research/from-scraper/README.md`, `research/from-scraper/resources/` and the
+  local `from-scraper-triage-ledger.md`) as regenerable, non-history working data.
 - Define the initial YAML entity model and JSON Schemas for people, families,
   events, places and sources.
 - Add entity and research templates, evidence-handling guidance and the initial

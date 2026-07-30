@@ -1,0 +1,108 @@
+schema_version: 1
+id: PRB-0004
+title: >-
+  Undated Leopoldina notarial deed of sale of Toledo Concórdia / Ribeirão de São
+  Bento land, naming the grandparents Mathilde Maria de Jesus and Ladisláo Egydio
+  Ferreira de Toledo and the parents Antonio Zeferino de Toledo and Maria Perpétua
+record_type: Notarial deed of sale (escritura de venda) — continuation page
+record_category: court_or_probate
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: approximate
+  text: >-
+    Not dated on the located page image (a mid-deed continuation folio). The deed
+    belongs to the same Toledo / Fazenda da Concórdia succession as the 1877 sale
+    deed (PRB-0003) and the 1881 partilha (PRB-0001); dating is therefore inferred
+    to that period pending the full instrument.
+  earliest: 1877
+  latest: 1885
+event_place_text: >-
+  Fazenda da Concórdia and Ribeirão de São Bento, Termo de Leopoldina, Minas
+  Gerais, Brazil
+repository:
+  name: FamilySearch Full-Text (Minas Gerais court and notarial records)
+  archive_or_registry: Cartório/Comarca de Leopoldina, Minas Gerais (notarial)
+  collection: >-
+    Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text)
+  catalogue_reference: FamilySearch ARK 3:1:3QHJ-1QWB-7BYX
+  url: https://www.familysearch.org/ark:/61903/3:1:3QHJ-1QWB-7BYX
+access_date: "2026-07-30"
+language: pt-BR
+transcription: >-
+  [Continuation folio; opening lines mid-sentence.] "[...] reconhecidos, aquelles
+  residentes neste Districto e estes no Districto de Rio Pardo, reconhecidos
+  também pelas testemunhas abaixo assignadas de que dou fé; perante as quaes pelos
+  outorgantes foi dito que são senhores e possuidores de uma sorte de terras na
+  Concordia e no Ribeirão de São Bento — unidas — em mattas virgens e capoeirinhas,
+  tiradas nos quarenta e oito mil e quatrocentos ares no primeiro lugar e nos vinte
+  e nove mil e quarenta [ares] também em matta virgem e capoeiras no segundo, os
+  quaes houverão por herança de seus finados avós Dona Mathilde Maria de Jesus e
+  Ladisláo Egydio Ferreira de Toledo e seus paes e sogros Antonio Zeferino de
+  Toledo e Dona Maria Perpétua, em commum na dita fazenda da Concordia, cujo
+  inventario e partilhas foram julgados por sentença na Cidade Leopoldina, — com
+  mais as benfeitorias e casaes existentes na dita sorte de terras que consta ao
+  todo pela fórma seguinte: Nos tres mil trezentos e oitenta e oito ares de terras
+  em mattas [...]".
+abstract: >-
+  A mid-deed continuation folio of a Toledo-family notarial sale of land in the
+  Fazenda da Concórdia and adjoining Ribeirão de São Bento, Termo de Leopoldina,
+  MG. The grantors declare they hold the land by inheritance from their deceased
+  grandparents (avós) Dona Mathilde Maria de Jesus and Ladisláo Egydio Ferreira de
+  Toledo and from their parents and parents-in-law (paes e sogros) Antonio Zeferino
+  de Toledo and Dona Maria Perpétua, whose inventory and partition were adjudicated
+  at the city of Leopoldina. It is part of the same Concórdia succession as PRB-0003
+  (1877 sale deed) and PRB-0001 (1881 partilha).
+reliability:
+  assessment: >-
+    Original notarial deed page directly stating a three-generation Toledo descent
+    for the Concórdia land: grandparents Mathilde Maria de Jesus (P-0027) and
+    Ladisláo Egydio Ferreira de Toledo; parents Antonio Zeferino de Toledo and
+    Maria Perpétua; and the grantor grandchildren (not named on this fragment). It
+    materially extends the maternal Toledo line of Eliza Balbina de Toledo (P-0017)
+    above her documented grandmother Mathilde.
+  informant: >-
+    The notary's register (escrivão), recording the grantors' own declaration of
+    how they acquired the land.
+  limitations: >-
+    Only a single mid-deed continuation folio was located; the grantors' names, the
+    date and the notary are on adjacent folios not yet retrieved. It raises a
+    conflict with PRB-0003 that is not yet resolved: in the 1877 deed a living
+    "Ladisláo Egydio Ferreira de Toledo" is a grantor grandchild, whereas here a
+    "Ladisláo Egydio Ferreira de Toledo" is a deceased grandfather — most likely two
+    same-named men (elder grandfather and a grandson named after him), but this must
+    be confirmed from the full Concórdia inventory before the intervening generations
+    are modelled as entities. Read from a FamilySearch Full-Text preview image; some
+    readings are uncertain.
+digital_file:
+  path: >-
+    evidence/probate/PRB-0004-toledo-deed-sao-bento-concordia-leopoldina-page-01.jpg
+  sha256: e6c87c37824fa099bdb2ccdf1a5590bf56cbc76bc412fc4e29f86d35a60f6f3d
+linked_people:
+- P-0027
+linked_families: []
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Found via FamilySearch Full-Text (ARK 3:1:3QHJ-1QWB-7BYX) among the raw scraper
+    pull in research/from-scraper/. Part of the same Toledo / Fazenda da Concórdia
+    succession as PRB-0001 (1881 partilha), PRB-0002 (1884 petition) and PRB-0003
+    (1877 sale deed).
+- text: >-
+    Newly named, not yet modelled as entities pending resolution of the generations:
+    the grandfather Ladisláo Egydio Ferreira de Toledo (husband of Mathilde Maria de
+    Jesus, P-0027) and the parent couple Antonio Zeferino de Toledo and Dona Maria
+    Perpétua. Whether this Antonio Zeferino × Maria Perpétua couple is specifically
+    the intervening generation between Mathilde and Eliza Balbina de Toledo (P-0017)
+    is not established here — they are the parents of this deed's (unnamed) grantors,
+    who are grandchildren of Mathilde, as Eliza is. The full Concórdia inventory is
+    required to place the couples and resolve the two-Ladisláo conflict flagged in
+    the reliability limitations before any parent-child edges are created.
+- text: >-
+    Only P-0027 (Mathilde, named in the document) is linked. Eliza Balbina de Toledo
+    (P-0017) is not named on this fragment; her tie to this record runs through the
+    still-undocumented intervening generation and is kept in prose, not as a link.
