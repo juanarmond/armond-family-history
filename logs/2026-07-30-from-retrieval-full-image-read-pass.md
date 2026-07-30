@@ -1,9 +1,9 @@
-# 2026-07-30 — from-scraper drop: full per-image read pass
+# 2026-07-30 — from-retrieval drop: full per-image read pass
 
 ## Objective
 
-Honestly complete the value-gate on the `research/from-scraper/` FamilySearch
-scraper drop: open and read **every** pulled image (not classify by CSV
+Honestly complete the value-gate on the `research/from-retrieval/` FamilySearch
+retrieval drop: open and read **every** pulled image (not classify by CSV
 metadata), transcribe the genuinely direct-line records, catalogue new
 maternal-line evidence into `data/` + `evidence/`, and record the disposition of
 every image so nothing is re-read. Scope set by the owner: direct line first,
@@ -15,7 +15,7 @@ Read each `output/images/ft_3-1-*.jpg` individually. Cross-read the Toledo
 Concórdia deeds against the already-catalogued PRB-0001/0002/0003. Classified
 each image as direct-line/maternal-Toledo, titled-branch collateral, namesake,
 privacy-excluded, or negative-proof. Full disposition table kept in the
-(gitignored) `research/from-scraper-triage-ledger.md`.
+(gitignored) `research/from-retrieval-triage-ledger.md`.
 
 ## Findings
 
@@ -84,6 +84,6 @@ evidence gates argue against without a connecting record.
 - Updated P-0027 (husband + parent couple documented; two-Ladisláo conflict;
   Moura namesake caution) and P-0017 record-coverage (parents hypothesis + next
   action).
-- Gitignored the scraper working files (`research/from-scraper/output/`,
-  `from-scraper-triage-ledger.md`, `research/from-scraper/README.md`) per owner
+- Gitignored the retrieval working files (`research/from-retrieval/output/`,
+  `from-retrieval-triage-ledger.md`, `research/from-retrieval/README.md`) per owner
   request.
