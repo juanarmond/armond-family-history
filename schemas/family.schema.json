@@ -153,6 +153,35 @@
         }
       }
     },
+    "documented_children": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "source_ids"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_ids": {
+            "$ref": "common.schema.json#/$defs/sourceIds",
+            "minItems": 1
+          },
+          "lifespan": {
+            "type": "string",
+            "minLength": 1
+          },
+          "note": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
     "event_ids": {
       "$ref": "common.schema.json#/$defs/eventIds"
     },

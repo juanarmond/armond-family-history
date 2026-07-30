@@ -35,6 +35,7 @@ function fixtures() {
       notes: [{ text: "Sensitive living-person note." }],
     },
     "P-4": { id: "P-4", preferred_name: "Cara Gamma", privacy: "deceased" },
+    "P-5": { id: "P-5", preferred_name: "Dan Delta", privacy: "deceased" },
   };
 
   const families = {
@@ -52,6 +53,11 @@ function fixtures() {
             { parent_id: "P-2", relationship_type: "unknown", status: "hypothesis", source_ids: ["S-1"] },
           ],
         },
+        { person_id: "P-5" },
+        { person_id: "P-3" },
+      ],
+      documented_children: [
+        { name: "Baby Delta", source_ids: ["S-1"], lifespan: "1878–1879", note: "died young" },
       ],
     },
   };
@@ -246,6 +252,20 @@ test("living people are minimised", () => {
   assert.deepEqual(p3.notes, []);
   assert.deepEqual(p3.occupations, []);
   assert.deepEqual(p3.fanReferences, []);
+  assert.deepEqual(p3.siblings, []);
+});
+
+test("siblings include modelled deceased and documented children, omitting the living", () => {
+  const data = projectTreeData(fixtures());
+  const sibs = data.people["P-4"].siblings;
+  const persons = sibs.filter((s) => s.type === "person").map((s) => s.id);
+  assert.ok(persons.includes("P-5"), "a deceased modelled sibling appears");
+  assert.ok(!persons.includes("P-3"), "a possibly-living modelled sibling is omitted");
+  const documented = sibs.filter((s) => s.type === "documented");
+  assert.equal(documented.length, 1);
+  assert.equal(documented[0].name, "Baby Delta");
+  assert.equal(documented[0].lifespan, "1878–1879");
+  assert.deepEqual(documented[0].sourceIds, ["S-1"]);
 });
 
 test("FAN references are projected per person with role, place and transcription", () => {

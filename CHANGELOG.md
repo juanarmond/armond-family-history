@@ -7,6 +7,15 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Add a **Siblings** section to the family-tree viewer, shown below Parents in a
+  person's detail. Siblings are drawn from a new optional `documented_children`
+  list on the family schema — attested collateral children (each with
+  `source_ids`) that are deliberately not modelled as their own person entities —
+  together with any deceased modelled children of the same parents.
+  Possibly-living siblings are omitted entirely. Populated for the Bohrer line:
+  Celina's siblings Alberto (CIV-0019) and an infant (CIV-0020), and Joaquim
+  José's brother Guilherme Samuel (CIV-0019). Covered by a new data-loader unit
+  test and en/pt-BR strings.
 - Extend the Bohrer maternal line to Celina's grandparents from three retrieval-drop
   records: Alberto Bohrer's 1890 birth (`CIV-0019`), an 1891 sibling birth
   (`CIV-0020`), and Francisco José Bohrer × Rosa Eugenia de Lemos's 1879 marriage

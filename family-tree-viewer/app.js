@@ -618,6 +618,11 @@ function openDetails(personId) {
     });
   elements.detailsContent.append(section(t("detail.parents"), list(parentItems, t("empty.parents"))));
 
+  const siblingItems = (person.siblings || []).map((sib) =>
+    sib.lifespan ? `${sib.name} (${sib.lifespan})` : sib.name,
+  );
+  elements.detailsContent.append(section(t("detail.siblings"), list(siblingItems, t("empty.siblings"))));
+
   if (person.privacy !== "living") {
     const marriageItems = person.spouses.map((spouse) => {
       const bits = [];

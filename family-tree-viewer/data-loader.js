@@ -303,6 +303,37 @@ export function projectTreeData({ people, families, events, places, sources, fan
     }),
   );
 
+  // Siblings, per person, computed from their parent family's other children:
+  // modelled children (other P- entities) plus documented_children (attested
+  // siblings not modelled as entities). Possibly-living siblings are omitted
+  // entirely — only clearly deceased people appear.
+  const siblingsByPerson = {};
+  for (const personId of Object.keys(people)) siblingsByPerson[personId] = [];
+  for (const family of Object.values(families)) {
+    const modelledChildIds = (family.children || [])
+      .map((child) => child?.person_id)
+      .filter((id) => typeof id === "string");
+    const documented = (family.documented_children || [])
+      .filter((entry) => entry && typeof entry.name === "string" && entry.name.trim())
+      .map((entry) => ({
+        type: "documented",
+        name: entry.name.trim(),
+        lifespan: trimmedText(entry.lifespan),
+        note: trimmedText(entry.note),
+        sourceIds: (entry.source_ids || []).filter((id) => typeof id === "string"),
+      }));
+    for (const meId of modelledChildIds) {
+      if (!siblingsByPerson[meId]) continue;
+      for (const otherId of modelledChildIds) {
+        if (otherId === meId) continue;
+        const sib = people[otherId];
+        if (!sib || (sib.privacy || "unknown") !== "deceased") continue;
+        siblingsByPerson[meId].push({ type: "person", id: otherId, name: sib.preferred_name || otherId });
+      }
+      for (const entry of documented) siblingsByPerson[meId].push({ ...entry });
+    }
+  }
+
   const conflictTerms = ["conflict", "uncertain", "unresolved", "variant", "pending"];
   const peopleView = {};
 
@@ -342,6 +373,7 @@ export function projectTreeData({ people, families, events, places, sources, fan
           sourceIds: (occupation.source_ids || []).filter((id) => typeof id === "string"),
         })),
       notes,
+      siblings: living ? [] : (siblingsByPerson[personId] || []),
       fanReferences: living
         ? []
         : (fanByPerson[personId] || []).slice().sort((a, b) => a.id.localeCompare(b.id)),
