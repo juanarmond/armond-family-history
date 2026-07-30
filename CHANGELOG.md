@@ -14,6 +14,11 @@ also remain traceable through source records and research logs.
   the affected `data/` records. Terminology and paths only; no genealogical data,
   conclusion or evidence changed. The external agent's own config must point at
   the new folder for the rename to persist across syncs.
+- Ignore the entire retrieval drop directory `research/from-retrieval/` in one
+  rule (previously only `output/`, `README.md` and `resources/` were listed),
+  now also covering the `correspondence/` and `plans/` folders, `people.txt` and
+  `FINDINGS.md`. The whole area is regenerable working data, not history; valuable
+  finds are promoted into `data/`, `evidence/` or `logs/` via the value gate.
 
 ### Removed
 

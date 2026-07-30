@@ -50,6 +50,17 @@ lead until verified against an original record.
   1863-64**, where **his mother registered land in 1856** — so consult Argirita
   records. Jurisdiction note: the district of Bom Jesus do Rio Pardo was under
   **Mar de Espanha** Jul 1863–Nov 1869, then back to Leopoldina.
+- Follow-up sent 2026-07-30 (by the owner), deliberately distinct from the first
+  email and independent of the marriage act: (1) whether she knows of any Ferreira
+  Armond settled in Argirita / Bom Jesus do Rio Pardo in the early 19th century who
+  could be Simplício's father or grandfather; (2) whether his filiation appears in
+  any óbito, inventário or land registry she has seen; (3) the padrinhos of
+  Marfisa's 1873 Piacatuba baptism (usually the grandparents). Awaiting reply.
+- Note (2026-07-30): a public-source check established that the physical parish
+  registers are held at the Arquivo Histórico Arquidiocesano de Juiz de Fora (see
+  C-004), so the "where are the books" / marriage-certidão track moved to that
+  archive; Nilza is now asked only for her expert knowledge and the baptism
+  padrinhos.
 
 ### C-003 — Paróquia N. Sra. da Piedade, Piacatuba (via Diocese de Leopoldina)
 - Who: the parish that holds the Piacatuba baptism and marriage books.
@@ -61,5 +72,27 @@ lead until verified against an original record.
   parish or were transferred to the Cúria/diocesan archive; procedure and fee
   for a certidão de inteiro teor.
 - Sent: 2026-07-29 (by the owner) — by email and via the diocese contact form.
+- Status: awaiting reply.
+- Reply: —
+
+### C-004 — Arquivo Histórico Arquidiocesano de Juiz de Fora
+- Who: the archdiocesan archive that physically holds the parish registers of the
+  Diocese de Leopoldina (Piacatuba, Bom Jesus do Rio Pardo / Argirita, São
+  Sebastião, etc., back to the 18th century). Does parish-book **searches** and
+  issues **certidões** (does not transcribe; manual, slow, likely a fee).
+- Contact: `arquivo@arquidiocesejuizdefora.org.br`; tel (32) 3229-5450
+  (13h30–16h30).
+- Purpose: search and integral certidão of the **Simplício José Ferreira Armond ⚭
+  Eliza Balbina de Toledo marriage** (most likely 1870–1872; interval 1868–1872),
+  probably at Bom Jesus do Rio Pardo / Argirita (subsidiarily Mar de Espanha for
+  1863–1869) — the act names Simplício's parents, the current gap. Identifiers
+  supplied to pin the couple: the bride's filiation (daughter of Antonio Zeferino
+  de Toledo & D. Maria Perpétua; maternal grandparents Ladisláo Egydio Ferreira de
+  Toledo & D. Mathilde Maria de Jesus), the couple's residence (Dores do Monte
+  Alegre / Taruaçu) and Marfisa's Feb 1873 Piacatuba baptism; Piacatuba
+  pre-excluded. Requested the *integral* certidão (naturalidade, testemunhas,
+  dispensa de parentesco, which can carry the earlier generation) and, secondarily,
+  Marfisa's 1873 baptism certidão for the padrinhos.
+- Sent: 2026-07-30 (by the owner).
 - Status: awaiting reply.
 - Reply: —
