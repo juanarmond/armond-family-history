@@ -51,7 +51,9 @@
     Georgia, Cambria, "Times New Roman", serif;
   --sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Helvetica, Arial, sans-serif;
-  --shell-max: 82rem;
+  /* Matches the tree box cap so the header, toolbar and summary line up with
+     the tree's full-width breakout (width: min(100vw - 3rem, 150rem)). */
+  --shell-max: 150rem;
 }
 
 * { box-sizing: border-box; }
@@ -100,7 +102,7 @@ h1, h2, h3, p { margin-top: 0; }
   gap: 2rem;
   max-width: var(--shell-max);
   margin: 0 auto;
-  padding: 3.25rem clamp(1.15rem, 4vw, 2.75rem) 1.6rem;
+  padding: 3.25rem 1.5rem 1.6rem;
   border-bottom: 3px double var(--rule-strong);
 }
 
@@ -155,7 +157,7 @@ h1 {
 main {
   max-width: var(--shell-max);
   margin: 0 auto;
-  padding: 1.75rem clamp(1.15rem, 4vw, 2.75rem) 3rem;
+  padding: 1.75rem 1.5rem 3rem;
 }
 
 .toolbar {
@@ -789,7 +791,7 @@ a:focus-visible {
 .site-footer {
   max-width: var(--shell-max);
   margin: 0 auto;
-  padding: 1.4rem clamp(1.15rem, 4vw, 2.75rem) 2.5rem;
+  padding: 1.4rem 1.5rem 2.5rem;
   color: var(--muted);
   text-align: center;
   font-size: .74rem;

@@ -7,6 +7,11 @@ also remain traceable through source records and research logs.
 
 ### Changed
 
+- Widen the viewer's header, toolbar and summary to the full width of the tree
+  box: raise `--shell-max` to the tree's 150rem cap and align the header/main/
+  footer side padding to the tree's 1.5rem margins, so the controls and
+  repository tiles line up with the tree instead of sitting in a narrower centred
+  column.
 - Name FAN reference images by ID only (`FAN-NNNN.<ext>`), dropping the
   descriptive suffix; the date, place, record type and role stay in the FAN
   record. Applies to `evidence/references/` (the FAN folder); the source-folder
