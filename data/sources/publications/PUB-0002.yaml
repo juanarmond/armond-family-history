@@ -1,0 +1,71 @@
+schema_version: 1
+id: PUB-0002
+title: >-
+  Negócios de Minas: família, fortuna, poder e redes de sociabilidades nas
+  Minas Gerais — a família Ferreira Armonde (1751-1850)
+record_type: Doctoral thesis
+record_category: published_genealogy
+source_form: authored_narrative
+information_quality: secondary
+evidence_type: indirect
+usage: lead_only
+repository:
+  name: FamilySearch Memories
+  archive_or_registry: Universidade Federal Fluminense (UFF)
+  catalogue_reference: >-
+    Antônio Henrique Duarte Lacerda, "Negócios de Minas: família, fortuna,
+    poder e redes de sociabilidades nas Minas Gerais — a família Ferreira
+    Armonde (1751-1850)", Tese de Doutorado, Programa de Pós-Graduação em
+    História, Universidade Federal Fluminense, Niterói, abril de 2010 (2 vols.;
+    orientador Prof. Dr. Carlos Gabriel Guimarães; banca Afonso Alencastro
+    Graça Filho, Angelo Alves Carrara, Sheila de Castro Faria, Théo Labarinhas
+    Piñeiro; bibliografia f. 486-504)
+  url: https://www.historia.uff.br/stricto/teses/Tese-2010_Antonio_Henrique_Lacerda-S.pdf
+  repository_path: >-
+    evidence/publications/PUB-0002-lacerda-negocios-de-minas-ferreira-armonde-2010.pdf
+access_date: "2026-07-29"
+language: pt-BR
+abstract: >-
+  A document-based doctoral study (post-mortem inventories, the 1831 Barbacena
+  population lists and notarial records) of the historical Ferreira Armonde
+  family of the Termo de Barbacena, Minas Gerais, 1751-1850: its Azorean
+  patriarch Francisco Ferreira Armonde, the accumulation of its fortune (an
+  1845 monte-mor of roughly 321:751$000 réis) and its social and marriage
+  networks. It is the primary scholarship behind the "anti-merge": the
+  Simplício José Ferreira (Armonde) of the Curral Novo household, born
+  c.1784-1785, died solteiro, so he cannot be the Simplício José Ferreira
+  Armond (P-0016) who married Eliza Balbina de Toledo and fathered Aristão.
+reliability:
+  assessment: >-
+    A peer-examined scholarly secondary source, valuable for historical context
+    and for locating the underlying primary records (inventories, the 1831
+    census). Not itself proof of this repository's descent.
+  informant: >-
+    Antônio Henrique Duarte Lacerda, in a 2010 UFF doctoral thesis examined by
+    Carlos Gabriel Guimarães (advisor), Afonso Alencastro Graça Filho, Angelo
+    Alves Carrara, Sheila de Castro Faria and Théo Labarinhas Piñeiro.
+  limitations: >-
+    Concerns the historical Barbacena Ferreira Armonde family, which is NOT
+    established as the ancestry of Aristão Ferreira Armond (this repository's
+    line). Its statements — including Azorean origin and the celibate death of
+    the Gen-2 Simplício — are context leads until confirmed against the cited
+    primary records. The Piacatuba-to-Barbacena bridge remains unproven.
+digital_file:
+  path: >-
+    evidence/publications/PUB-0002-lacerda-negocios-de-minas-ferreira-armonde-2010.pdf
+  sha256: c5d2ee45e98a35aa06d546f69ab7c2b973a4897b404ed191dd21d48019081037
+linked_people:
+  - P-0016
+linked_families: []
+linked_events: []
+linked_places: []
+private: true
+notes:
+  - text: >-
+      Treat all family-line statements as research leads until the cited
+      primary records are inspected. Cited by the Chagas 2018 dissertation
+      (PUB-0001) for the Azorean-origin claim.
+  - text: >-
+      Retrieved 2026-07-29 via the research/from-retrieval/ resources cache
+      (original UFF URL above); the two-volume, ~504-page PDF was preserved
+      byte-for-byte.

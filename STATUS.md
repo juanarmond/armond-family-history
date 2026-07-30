@@ -93,14 +93,16 @@ and cataloguing work.
 | Structured families | 12 |
 | Structured events | 18 |
 | Structured places | 9 |
-| Structured sources | 16 |
-| Inventoried retained documents | 15 |
-| Validation | 81 entities; zero errors or warnings at the last check |
-| Automated tests | 56 passing at the last check |
+| Structured sources | 24 |
+| Inventoried retained documents | 23 |
+| Validation | 91 entities; zero errors or warnings at the last check |
+| Automated tests | 58 passing at the last check |
 
-The 16 catalogued sources (`CIV-0001` through `PUB-0001`) span the Armond/Paz,
-Muniz Bittencourt/Azevedo, Engracio/Souza/Guimarães, Bohrer and
-Portuguese-origin lines, and include the living subject's private records. Source
+The 24 catalogued sources (across the `CIV`, `GOV`, `PAR`, `PRB` and `PUB`
+categories) span the Armond/Paz, Muniz Bittencourt/Azevedo,
+Engracio/Souza/Guimarães, Bohrer and Portuguese-origin lines, include the
+maternal Toledo probate cluster and the Barbacena context sources, and include
+the living subject's private records. Source
 details, archival references, transcriptions, limitations and conclusion links
 are canonical in `data/sources/`; record-by-record gaps are canonical in
 `data/record-coverage.yaml`.

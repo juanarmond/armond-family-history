@@ -663,3 +663,33 @@ entry they amend; they must not erase it.
 - Conclusions changed: none promoted; Azorean bridge still unproven.
 - Next action: read the 1881 inventário fully to name Elisa's parent; catalogue
   the key probate images; chase Elisa's father in Argirita.
+
+## 2026-07-30 — Full per-image read pass of the retrieval drop
+
+- Question: read every image in the `research/from-retrieval/` drop (not classify
+  by metadata), catalogue the direct-line finds and record every disposition.
+- Detailed log:
+  [`logs/2026-07-30-from-retrieval-full-image-read-pass.md`](2026-07-30-from-retrieval-full-image-read-pass.md).
+- Key result: catalogued the Toledo Concórdia/São Bento deed PRB-0004 (Eliza's
+  maternal grandparents Mathilde × Ladisláo Egydio Ferreira de Toledo and the
+  parent couple Antonio Zeferino de Toledo × Maria Perpétua) and raised the
+  hypothesis that Antonio Zeferino × Maria Perpétua are Eliza's parents. The
+  titled Ferreira Armond (Pitangui/Amaro) branch, namesakes and privacy-excluded
+  moderns were read but not ingested.
+- Conclusions changed: none beyond PRB-0004; the two-Ladisláo conflict is flagged.
+- Next action: retrieve PRB-0004's adjacent folios and the 1881 partilha opening
+  to confirm Eliza's parents before creating any Toledo ancestor edges.
+
+## 2026-07-30 — Catalogue the Lacerda 2010 thesis and the 1831 Curral Novo census
+
+- Question: promote two thesis-mining leads (Lacerda 2010; the 1831 Curral Novo
+  census) from the retrieval resources cache into catalogued sources.
+- Detailed log:
+  [`logs/2026-07-30-catalogue-lacerda-and-1831-census.md`](2026-07-30-catalogue-lacerda-and-1831-census.md).
+- Key result: PUB-0002 (Lacerda, lead_only) and GOV-0002 (1831 Curral Novo
+  census, context_only) catalogued and linked to P-0016; the anti-merge (the
+  Gen-2 Simplício celibate in 1831) now rests on catalogued sources. Reading the
+  original corrected the household to the fifth quarteirão's fogo 14.
+- Conclusions changed: none promoted; the Barbacena bridge stays unproven.
+- Next action: promote the 1831 João Gomes list only if the namesake lead is
+  pursued; otherwise keep the remaining resources as leads.

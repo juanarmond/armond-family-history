@@ -897,3 +897,74 @@ documents:
         grandparents Mathilde Maria de Jesus (P-0027) and Ladisláo Egydio Ferreira
         de Toledo, and parents Antonio Zeferino de Toledo and Maria Perpétua.
         Grantor names, date and notary are on adjacent (not-yet-retrieved) folios.
+  - inventory_id: DOC-0022
+    status: catalogued
+    added_date: "2026-07-30"
+    apparent_record_type: Academic doctoral thesis
+    apparent_people:
+      - Antônio Henrique Duarte Lacerda
+    apparent_event: other
+    image_quality: adequate
+    provenance: >-
+      Antônio Henrique Duarte Lacerda, "Negócios de Minas ... a família Ferreira
+      Armonde (1751-1850)", UFF doctoral thesis, Niterói, 2010. Downloaded from
+      the UFF public thesis repository
+      (historia.uff.br/stricto/teses/Tese-2010_Antonio_Henrique_Lacerda-S.pdf)
+      and delivered through the research/from-retrieval/ resources cache;
+      retrieved 2026-07-29, catalogued 30 July 2026.
+    rights_status: permission-required
+    files:
+      - path: evidence/publications/PUB-0002-lacerda-negocios-de-minas-ferreira-armonde-2010.pdf
+        sha256: c5d2ee45e98a35aa06d546f69ab7c2b973a4897b404ed191dd21d48019081037
+        media_type: application/pdf
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PUB-0002
+    notes:
+      - >-
+        Two-volume, ~504-page PDF preserved as a private research copy;
+        permission and licensing must be reviewed before any redistribution.
+      - >-
+        The historical Ferreira Armonde discussion is a context lead only; it
+        does not establish a primary-source relationship to this repository's
+        documented Armond line.
+  - inventory_id: DOC-0023
+    status: catalogued
+    added_date: "2026-07-30"
+    apparent_record_type: Provincial population list (census), 1831
+    apparent_people:
+      - Simplício José Ferreira Armond
+      - Felizarda Maria Francisca de Assis
+    apparent_event: other
+    image_quality: adequate
+    provenance: >-
+      Projeto Compartilhar transcription (by Valderez Rosa Garcia) of the 1831
+      "Relação dos Habitantes do Distrito de N. Sra. do Rosário do Curral Novo",
+      Termo de Barbacena (MG); manuscript original at the Arquivo Público
+      Mineiro. Downloaded from
+      projetocompartilhar.org/censos/1831CurralNovoMG.pdf and delivered through
+      the research/from-retrieval/ resources cache; retrieved 2026-07-29,
+      catalogued 30 July 2026.
+    rights_status: permission-required
+    files:
+      - path: evidence/government/GOV-0002-1831-curral-novo-census-barbacena.pdf
+        sha256: 6c3ebbf7b864234ec0c7692b4334deff51f8ce937c4ae3480a095f0e017bfb57
+        media_type: application/pdf
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: GOV-0002
+    notes:
+      - >-
+        Context lead for the anti-merge (the Gen-2 Simplício was 46 and single
+        in 1831). Transcription; verify against the APM manuscript for anything
+        critical. Concerns the historical Barbacena family, not proven kin.

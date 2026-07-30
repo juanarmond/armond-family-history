@@ -1,0 +1,80 @@
+schema_version: 1
+id: GOV-0002
+title: >-
+  1831 population list (Lista Nominativa de Habitantes) — Distrito de Nossa
+  Senhora do Rosário do Curral Novo, Termo de Barbacena (Minas Gerais)
+record_type: Provincial population list (census), 1831
+record_category: census
+source_form: derivative
+information_quality: primary
+evidence_type: indirect
+usage: context_only
+repository:
+  name: Projeto Compartilhar (online transcription)
+  archive_or_registry: >-
+    Arquivo Público Mineiro (APM) — manuscript original; transcription by
+    Valderez Rosa Garcia for Projeto Compartilhar (coord. Bartyra Sette and
+    Regina Moraes Junqueira)
+  catalogue_reference: >-
+    "Relação dos Habitantes do Distrito de Nossa Senhora do Rosário do Curral
+    Novo em 1831", Termo de Barbacena, Minas Gerais; source APM. The list is
+    signed off on 23 September 1831 by Simplício José Ferreira Armond, Juiz de
+    Paz (1301 inhabitants; 539 free; 762 enslaved; 118 fogos)
+  url: http://www.projetocompartilhar.org/censos/1831CurralNovoMG.pdf
+  repository_path: >-
+    evidence/government/GOV-0002-1831-curral-novo-census-barbacena.pdf
+access_date: "2026-07-29"
+language: pt-BR
+transcription: >-
+  Quinto Quarteirão, fogo 14 — the Ferreira Armonde household: "Felizarda Maria
+  Francisca de Assis, branca, 70, viúva, lavradora; Ana Quiteria Umbelina,
+  branca, 40, solteira; Simplício José Ferreira, branco, 46, solteiro; Antônio
+  José Ferreira, branco, 34, solteiro, Negociante; Joaquim José Ferreira,
+  branco, 36, solteiro, Negociante; Manoel Ignácio Ferreira, branco, 30,
+  solteiro, Negociante; Flávio José Ferreira, branco, 29, solteiro, Tropeiro;
+  Lino José Ferreira, branco, 28, solteiro, Tropeiro; Cativos 66." The list
+  closes "Distrito da Capela Nossa Se[n]hora do Rosário do Curral Novo,
+  23/09/1831" and is signed "Simplício José Ferreira Armond, Juiz de Paz".
+abstract: >-
+  The 1831 household enumeration (fogos) of the district of N. Sra. do Rosário
+  do Curral Novo, Termo de Barbacena, transcribed by Projeto Compartilhar from
+  the Arquivo Público Mineiro manuscript. It records the widow Felizarda Maria
+  Francisca de Assis heading a large Ferreira household of six unmarried adult
+  sons (including Simplício José Ferreira, 46, solteiro) with 66 enslaved
+  people, and is signed by Simplício José Ferreira Armond as district Juiz de
+  Paz.
+reliability:
+  assessment: >-
+    A contemporary (1831) primary population list, but held here only as a
+    third-party online transcription (derivative); verify against the APM
+    manuscript before relying on any single reading. Concerns the historical
+    Barbacena Ferreira Armonde family — context, not proof of this line's
+    descent.
+  informant: >-
+    The 1831 district enumeration signed by the Juiz de Paz Simplício José
+    Ferreira Armond; transcribed by Valderez Rosa Garcia for Projeto
+    Compartilhar.
+  limitations: >-
+    A transcription with a flagged risk of reading errors ("possíveis erros de
+    interpretação da escrita"). It supports the anti-merge — the Gen-2
+    Simplício was 46 and single in 1831, so not Aristão's father — but does NOT
+    connect the Barbacena family to this repository's Simplício (P-0016); the
+    shared surname alone is not evidence of descent. A second, MARRIED Armond
+    household (Manoel Antonio de Armond) in the neighbouring 1831 João Gomes
+    list remains an uncatalogued lead.
+digital_file:
+  path: >-
+    evidence/government/GOV-0002-1831-curral-novo-census-barbacena.pdf
+  sha256: 6c3ebbf7b864234ec0c7692b4334deff51f8ce937c4ae3480a095f0e017bfb57
+linked_people:
+  - P-0016
+linked_families: []
+linked_events: []
+linked_places: []
+private: true
+notes:
+  - text: >-
+      Context lead for the anti-merge, not proof of descent. The manuscript
+      original is at the Arquivo Público Mineiro (APM); this is the Projeto
+      Compartilhar transcription retrieved 2026-07-29 via the
+      research/from-retrieval/ resources cache.

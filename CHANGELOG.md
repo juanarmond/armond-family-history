@@ -25,6 +25,15 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Catalogue two Barbacena-context sources from the retrieval resources cache
+  via the value gate: PUB-0002 (Antônio Henrique Duarte Lacerda's 2010 UFF
+  doctoral thesis on the Ferreira Armonde family; published_genealogy,
+  lead_only) and GOV-0002 (the 1831 Curral Novo population list; census,
+  context_only — a Projeto Compartilhar transcription of the APM manuscript).
+  Both linked to P-0016 with evidence PDFs and inventory entries DOC-0022 and
+  DOC-0023. They put the anti-merge (the Barbacena Gen-2 Simplício died
+  celibate) on catalogued sources without asserting the unproven bridge to this
+  line.
 - Complete a full per-image read pass of the `research/from-retrieval/`
   drop and catalogue PRB-0004 (a Toledo Concórdia / Ribeirão de São Bento deed
   naming Eliza's maternal grandparents Mathilde × Ladisláo Egydio Ferreira de
