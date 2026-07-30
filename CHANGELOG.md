@@ -7,6 +7,14 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Record Maria Aurora Guimarães's five siblings — José (1901), Maria da Conceição
+  (1906), Sebastião (1909), João José (1912) and Maria de Lourdes (1915) — as
+  `documented_children` on F-0008 from the same 1915 collective registration
+  (CIV-0007) that documents her. A completeness gap found while validating the
+  Siblings/Children feature; they now populate her Siblings and her parents'
+  Children. Also clarified the Francisco José × Rosa marriage event (E-0026):
+  "1879" is only the justificação (upper bound) date — the wedding was decades
+  earlier, since their son was already a father by 1890.
 - Add a **Children** section to the viewer, mirroring Siblings: a person's
   children — modelled `P-` children plus the family's `documented_children`, with
   possibly-living ones omitted — computed from the families where the person is a

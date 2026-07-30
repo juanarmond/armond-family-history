@@ -31,6 +31,32 @@ children:
     - CIV-0018
     notes: []
   notes: []
+documented_children:
+- name: José de Carvalho Guimarães
+  source_ids:
+  - CIV-0007
+  lifespan: b. 1901
+  note: Registered in the 1915 collective birth registration (CIV-0007); born 8 November 1901.
+- name: Maria da Conceição Guimarães
+  source_ids:
+  - CIV-0007
+  lifespan: b. 1906
+  note: Registered in CIV-0007; born 8 September 1906.
+- name: Sebastião José de Carvalho Guimarães
+  source_ids:
+  - CIV-0007
+  lifespan: b. 1909
+  note: Registered in CIV-0007; born 2 June 1909.
+- name: João José de Carvalho Guimarães
+  source_ids:
+  - CIV-0007
+  lifespan: b. 1912
+  note: Registered in CIV-0007; born 16 December 1912.
+- name: Maria de Lourdes Guimarães
+  source_ids:
+  - CIV-0007
+  lifespan: b. 1915
+  note: Registered in CIV-0007; born 24 June 1915.
 event_ids:
 - E-0007
 notes:
