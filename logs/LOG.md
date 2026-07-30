@@ -5,6 +5,21 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-07-30 — Bohrer maternal line extended to Celina's grandparents
+
+- Outcome: from the three pending Bohrer images, catalogued Alberto Bohrer's 1890
+  birth (CIV-0019), an 1891 sibling birth (CIV-0020), and Francisco José Bohrer ×
+  Rosa Eugenia de Lemos's 1879 marriage (PAR-0002, a parish record). Established
+  Celina's grandparents — Francisco José Bohrer × Rosa Eugenia de Lemos (P-0034/
+  P-0035, F-0016) and Antonio da Silva Ferreira × Maria Joanna da Silva Ferreira
+  (P-0036/P-0037, F-0017) — plus marriage event E-0026. Celina's own parentage
+  confidence unchanged (still strong-evidence; these records name her siblings, not
+  her). Value gate for the drop is now complete.
+- Genealogical conclusions changed: four new great-grandparents of Celina modelled;
+  Bohrer paternal-maternal grandparents established at strong-evidence.
+- Detailed log:
+  [`logs/2026-07-30-bohrer-maternal-line-extension.md`](2026-07-30-bohrer-maternal-line-extension.md).
+
 ## 2026-07-30 — Engracio line: two civil deaths ingested from the retrieval drop
 
 - Outcome: catalogued Antonio Engracio Filho's 1964 death (CIV-0017) and Maria

@@ -8,6 +8,7 @@ name_variants:
   type: source
   source_ids:
   - CIV-0015
+  - CIV-0019
 - value: Lucinda Ferreira Bohrer
   type: source
   source_ids:
@@ -15,11 +16,17 @@ name_variants:
 event_ids: []
 family_ids:
 - F-0014
+- F-0017
 notes:
 - text: >-
     Ahnentafel position 31 — mother of Celina (Selina) Bohrer (P-0015). Named as
-    "Lucinda Ferreira da Silva Bohrer" in Celina's 1977 death (CIV-0015) and as
-    "Lucinda Ferreira Bohrer" (maternal grandmother, "já falecidos") in the 1924
-    Nova Friburgo birth (CIV-0016). "Ferreira da Silva" is her own surname and
-    "Bohrer" her married name; both variants are preserved. A Nova Friburgo (RJ)
-    family; no record of her own has been located.
+    "Lucinda Ferreira da Silva Bohrer" in Celina's 1977 death (CIV-0015), her son
+    Alberto's 1890 birth (CIV-0019) and as "Lucinda Ferreira Bohrer" (maternal
+    grandmother, "já falecidos") in the 1924 Nova Friburgo birth (CIV-0016).
+    "Ferreira da Silva" is her own surname and "Bohrer" her married name; both
+    variants are preserved. "Natural desta Freguezia" (Nova Friburgo, RJ).
+- text: >-
+    Her parents are now established: Antonio da Silva Ferreira (P-0036) and Maria
+    Joanna da Silva Ferreira (P-0037) — family F-0017 — named as the maternal
+    grandparents in Alberto Bohrer's 1890 birth (CIV-0019). Their own records are
+    unlocated.

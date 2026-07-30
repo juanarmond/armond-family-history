@@ -1,0 +1,81 @@
+schema_version: 1
+id: CIV-0020
+title: >-
+  Civil birth registration of an infant son of Joaquim José Bohrer and Lucinda
+  Ferreira (1891, died in infancy 1892), Nova Friburgo
+record_type: Civil birth register entry
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: indirect
+usage: evidence
+event_date:
+  kind: exact
+  value: "1891-12-23"
+event_place_text: >-
+  Distrito de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+registration_date:
+  kind: exact
+  value: "1891-12-30"
+repository:
+  name: FamilySearch Historical Records
+  archive_or_registry: >-
+    Cartório do Distrito de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+  collection: Brasil, Rio de Janeiro, Registro Civil, 1804-2013
+  page: "81"
+  record_number: "1192"
+  catalogue_reference: >-
+    Nascimento nº 1192, fl. 81, Cartório do Distrito de São João Baptista, Nova
+    Friburgo, RJ. Located via a FamilySearch Records relationship-persona search
+    and delivered through the research/from-retrieval/ sync; the exact ARK was not
+    captured in the drop filename. Read and promoted 30 July 2026.
+  repository_path: evidence/civil/CIV-0020-bohrer-infant-birth-1891-nova-friburgo.jpg
+access_date: "2026-07-30"
+language: pt-BR
+transcription: >-
+  [Nascimento nº 1192.] "Aos trinta dias do mez de Dezembro de mil oito centos e
+  noventa e um, nesta Freguezia de São João Baptista, Município de Nova Friburgo,
+  Estado do Rio de Janeiro, em meu cartorio compareceu Joaquim José Bohrer,
+  negociante, morador no Alto da Serra desta Freguezia ... declarou: Que no dia
+  vinte e tres do corrente mez, ás nove e meia hora da manhã na casa de sua
+  residencia nasceu uma criança do sexo masculino, filho legítimo delle declarante
+  e de sua mulher Lucinda Fe[rreira] ..." Marginal note: "Falleceu no dia vinte e
+  nove de Janeiro de mil oito centos noventa e dois, conforme consta do livro
+  numero dois de Registro de obito a folha cento oitenta sob numero seiscentos
+  cincoenta e quatro."
+abstract: >-
+  1891 Nova Friburgo civil birth of a son of Joaquim José Bohrer (P-0030) and
+  Lucinda Ferreira (P-0031), declared by the father. A marginal note records the
+  child's death on 29 January 1892 (livro 2 de óbito, fl. 180, nº 654), so he died
+  in infancy. Corroborates the couple Joaquim José × Lucinda as parents in Nova
+  Friburgo.
+reliability:
+  assessment: >-
+    Original civil-register evidence; the informant is the father, Joaquim José
+    Bohrer. Direct for this infant's birth; indirect for our line (the subject is a
+    collateral sibling of Celina).
+  informant: The father, Joaquim José Bohrer.
+  limitations: >-
+    The infant (the subject) is a collateral sibling of Celina (P-0015), not
+    modelled as an entity. The retrieval agent labelled the file "joao-birth-1891";
+    the given name is not clearly legible on the retained tile, but the marginal
+    death note (29 Jan 1892) makes this an infant who died in 1892 — distinct from
+    Iris's father João Gonçalves Bohrer (P-0014, d.1970). The register page also
+    carries an unrelated adjacent entry (nº 1191, a Nóbrega family from Madeira).
+digital_file:
+  path: evidence/civil/CIV-0020-bohrer-infant-birth-1891-nova-friburgo.jpg
+  sha256: 218c78b663564bdf86e753fb77a2ce628fb5ba2754428861e5a7e754c066f387
+linked_people:
+- P-0030
+- P-0031
+linked_families:
+- F-0014
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Second sibling birth (after Alberto, CIV-0019) confirming Joaquim José Bohrer ×
+    Lucinda Ferreira as a married couple with children in Nova Friburgo. Namesake
+    caution recorded: the "João" in the drop filename is this infant (d.1892), not
+    Celina's husband João Gonçalves Bohrer.

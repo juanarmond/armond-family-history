@@ -1,0 +1,30 @@
+schema_version: 1
+id: P-0035
+preferred_name: Rosa Eugenia de Lemos
+privacy: deceased
+name_variants:
+- value: Rosa Eugenia de Lemos
+  type: source
+  source_ids:
+  - PAR-0002
+- value: Roza Eugenia de Lemos Bohrer
+  type: source
+  source_ids:
+  - CIV-0019
+event_ids:
+- E-0026
+family_ids:
+- F-0016
+notes:
+- text: >-
+    Ahnentafel position 61 — mother of Joaquim José Bohrer (P-0030), hence Celina's
+    (P-0015) paternal grandmother. Wife of Francisco José Bohrer (P-0034); their
+    marriage was justified at the Nova Friburgo Matriz in 1879 (PAR-0002) and she
+    is named as "Roza Eugenia de Lemos Bohrer" in Alberto Bohrer's 1890 birth
+    (CIV-0019). "de Lemos" is her own surname, "Bohrer" her married name; both
+    forms are preserved.
+- text: >-
+    Nationality left unset: no birthplace or stated nacionalidade is evidenced. Her
+    Lemos family is associated with Itaboraí, RJ (the 1879 justification names José
+    Antunes de Lemos as witness and host), a lead to her parentage but not a proven
+    birthplace.

@@ -1,0 +1,27 @@
+schema_version: 1
+id: P-0034
+preferred_name: Francisco José Bohrer
+privacy: deceased
+name_variants:
+- value: Francisco José Bohrer
+  type: source
+  source_ids:
+  - PAR-0002
+  - CIV-0019
+event_ids:
+- E-0026
+family_ids:
+- F-0016
+notes:
+- text: >-
+    Ahnentafel position 60 — father of Joaquim José Bohrer (P-0030), hence Celina's
+    (P-0015) paternal grandfather. Married Rosa Eugenia de Lemos (P-0035); their
+    marriage was justified and registered at the Nova Friburgo Matriz in 1879
+    (PAR-0002). Already deceased by 1890, when Alberto Bohrer's birth (CIV-0019)
+    names him "Francisco José Bohrer já falecido". No birth or death record located.
+- text: >-
+    Nationality deliberately left unset: this is the Bohrer line's Nova Friburgo
+    (former German-Swiss colony) immigrant boundary, and no birthplace or stated
+    nacionalidade is evidenced for him. Not inferred from the surname. Whether he
+    was himself an immigrant or Brazilian-born is unresolved (his own parents are
+    off-index).

@@ -1,0 +1,84 @@
+schema_version: 1
+id: PAR-0002
+title: >-
+  Parish marriage justification of Francisco José Bohrer and Rosa Eugenia de Lemos
+  (registered 1879), Nova Friburgo Matriz
+record_type: Parish marriage register entry (justificação de casamento)
+record_category: parish_register
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: before
+  text: by 1879 (marriage justified and registered 1 August 1879)
+  latest: 1879
+event_place_text: Itaboraí, Rio de Janeiro, Brazil
+registration_date:
+  kind: exact
+  value: "1879-08-01"
+repository:
+  name: FamilySearch Historical Records
+  archive_or_registry: >-
+    Igreja Matriz de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+    (parish marriage book)
+  collection: Brasil, Rio de Janeiro, Registros da Igreja Católica, 1616-2017
+  page: "177"
+  catalogue_reference: >-
+    Marriage justification of Francisco José Bohrer and Rosa Eugenia de Lemos,
+    fl. 177, Nova Friburgo Matriz marriage book; sentence dated Rio, 30 June 1879,
+    registered 1 August 1879. Located via a FamilySearch Records relationship
+    search and delivered through the research/from-retrieval/ sync; the exact ARK
+    was not captured in the drop filename. Read and promoted 30 July 2026.
+  repository_path: evidence/parish/PAR-0002-francisco-jose-bohrer-marriage-1879.jpg
+access_date: "2026-07-30"
+language: pt-BR
+transcription: >-
+  "...ao primeiro dia do mez de Agosto de mil oito centos e setenta e nove, nesta
+  Matriz me foi apresentada a certidão de sentença do theor seguinte: 'Haja por
+  justificado o casamento do justificante Francisco José Bohrer com a justificada
+  Rosa Eugenia de Lemos, o qual foi celebrado em casa do pai de José Antunes de
+  Lemos em presença do Reverendo Rufino José Alves, Coadjuctor da Freguezia de
+  Itaborahy, e das testemunhas José Antunes de Lemos, José Antonio da Costa,
+  Genoveva Campbell da Costa ... o que julgo por sentença ... abrir assentamento no
+  livro da parochia. Rio, trinta de Junho de 1879. Monsenhor Felix d'Albuquerque'
+  ... de que faz este assento."
+abstract: >-
+  An 1879 parish record at the Nova Friburgo Matriz registering the judicial
+  justification (justificação de casamento) of the marriage of Francisco José
+  Bohrer (P-0034) and Rosa Eugenia de Lemos (P-0035) — the parents of Joaquim José
+  Bohrer (P-0030), hence Celina's paternal grandparents. The marriage had been
+  celebrated earlier before the coadjutor of the Freguesia de Itaboraí, at the
+  house of José Antunes de Lemos's father, with José Antunes de Lemos among the
+  witnesses (a lead to Rosa's Lemos family).
+reliability:
+  assessment: >-
+    Original parish-register evidence directly attesting the marriage of the two
+    named people, though it is a retroactive judicial justification resting on
+    witness testimony rather than the original ceremony act.
+  informant: >-
+    Judicial sentence (Monsenhor Felix d'Albuquerque, Rio, 30 June 1879) based on
+    witnesses, registered by the parish.
+  limitations: >-
+    A justificação, not the original marriage act; the ceremony date is not stated
+    (only that it predated the 1879 justification). The page carries several
+    unrelated marriage entries of other families.
+digital_file:
+  path: evidence/parish/PAR-0002-francisco-jose-bohrer-marriage-1879.jpg
+  sha256: 9fcb6cb0389010c2ccafd1ab89020786ee063f0e08887af6169028929e4afbb0
+linked_people:
+- P-0034
+- P-0035
+linked_families:
+- F-0016
+linked_events:
+- E-0026
+linked_places: []
+private: true
+notes:
+- text: >-
+    Recategorised as a parish record (not civil): 1879 predates Brazilian civil
+    marriage registration, and the entry is a Catholic parish justificação
+    ("nesta Matriz", "livro da parochia", Tridentine/Ritual Romano). Names José
+    Antunes de Lemos as a witness and host — a lead to Rosa Eugenia de Lemos's
+    family, associated with Itaboraí (RJ).

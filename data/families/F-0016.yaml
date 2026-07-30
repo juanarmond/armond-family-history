@@ -1,0 +1,42 @@
+schema_version: 1
+id: F-0016
+partners:
+- person_id: P-0034
+  role: spouse
+- person_id: P-0035
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0002
+  notes:
+  - text: >-
+      Their marriage was justified and registered at the Nova Friburgo Matriz in
+      1879 (PAR-0002), the ceremony having taken place earlier before the coadjutor
+      of the Freguesia de Itaboraí. A retroactive justificação resting on witness
+      testimony, so strong-evidence rather than confirmed.
+children:
+- person_id: P-0030
+  parent_relationships:
+  - parent_id: P-0034
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - CIV-0019
+    notes: []
+  - parent_id: P-0035
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - CIV-0019
+    notes: []
+  notes: []
+event_ids:
+- E-0026
+notes:
+- text: >-
+    Francisco José Bohrer and Rosa Eugenia de Lemos, parents of Joaquim José Bohrer
+    (P-0030). The parent link rests on Alberto Bohrer's 1890 birth (CIV-0019), which
+    names them as the child's paternal grandparents; their own marriage is recorded
+    in PAR-0002. Strong-evidence: the parentage is stated indirectly (in a
+    grandchild's birth) by Joaquim José's brother.

@@ -1,0 +1,96 @@
+schema_version: 1
+id: CIV-0019
+title: >-
+  Civil birth registration of Alberto Bohrer (1890), naming his parents Joaquim
+  José Bohrer and Lucinda Ferreira da Silva Bohrer and both grandparent couples
+record_type: Civil birth register entry
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: indirect
+usage: evidence
+event_date:
+  kind: exact
+  value: "1890-06-17"
+event_place_text: >-
+  Distrito de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+registration_date:
+  kind: exact
+  value: "1890-06-25"
+repository:
+  name: FamilySearch Historical Records
+  archive_or_registry: >-
+    Cartório do Distrito de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+  collection: Brasil, Rio de Janeiro, Registro Civil, 1804-2013
+  page: "119"
+  record_number: "569"
+  catalogue_reference: >-
+    Nascimento nº 569, fl. 119, Cartório do Distrito de São João Baptista, Nova
+    Friburgo, RJ. Located via a FamilySearch Records relationship-persona search
+    and delivered through the research/from-retrieval/ sync; the exact ARK was not
+    captured in the drop filename. Read and promoted 30 July 2026.
+  repository_path: evidence/civil/CIV-0019-alberto-bohrer-birth-1890-nova-friburgo.jpg
+access_date: "2026-07-30"
+language: pt-BR
+transcription: >-
+  [Nascimento nº 569.] "Aos vinte e cinco dias do mez de junho de mil oito centos
+  e noventa, nesta Freguezia de São João Baptista, Município de Nova Friburgo,
+  Estado do Rio de Janeiro, em meu cartorio compareceu Guilherme Samuel Bohrer,
+  morador no Alto da Serra desta Freguezia ... declarou: Que no dia dezesete do
+  corrente mez, ás seis horas da manhã, na casa de residencia de seu irmão
+  Joaquim José Bohrer nasceu uma criança do sexo masculino, filho legítimo de seu
+  dito irmão Joaquim José Bohrer, negociante, natural desta Freguezia, morador no
+  dito Alto da Serra, e sua mulher Lucinda Ferreira da Silva Bohrer, natural desta
+  Freguezia ... a qual na pia baptismal receberá o nome de Alberto, neto paterno
+  de Francisco José Bohrer já falecido e de sua mulher Roza Eugenia de Lemos
+  Bohrer, e materno de Antonio da Silva Ferreira e de sua mulher Maria Joanna da
+  Silva Ferreira, e que faz esta declaração por achar-se o seu dito irmão ausente.
+  ... Testemunhas Francisco Ignacio da Silva, jornaleiro, e André Justino do
+  Nascimento, caçeiro ... Eu Carlos Miguel Noel, escrivão de Paz, escrevi."
+abstract: >-
+  1890 Nova Friburgo civil birth of Alberto Bohrer, declared by his paternal uncle
+  Guilherme Samuel Bohrer because the father was absent. It names the parents
+  Joaquim José Bohrer (P-0030, negociante, "natural desta Freguezia") and Lucinda
+  Ferreira da Silva Bohrer (P-0031, "natural desta Freguezia"), states they were
+  married in the Igreja Matriz of Nova Friburgo, and names both grandparent
+  couples: paternal Francisco José Bohrer (deceased) + Roza Eugenia de Lemos, and
+  maternal Antonio da Silva Ferreira + Maria Joanna da Silva Ferreira.
+reliability:
+  assessment: >-
+    Original civil-register evidence. Direct for Alberto's birth; indirect for our
+    ancestors, since it names Joaquim José's and Lucinda's parents as the child's
+    grandparents. The informant is Joaquim José's own brother, so he has primary
+    knowledge of the paternal grandparents.
+  informant: >-
+    Guilherme Samuel Bohrer, the child's paternal uncle (brother of Joaquim José
+    Bohrer), declaring in the father's absence.
+  limitations: >-
+    Alberto (the subject) is a collateral sibling of Celina (P-0015) and is not
+    modelled as an entity. The maternal grandparents are named without their own
+    origins. The register page also carries unrelated adjacent entries (a "Boj"
+    family and a nº 570 birth in another family).
+digital_file:
+  path: evidence/civil/CIV-0019-alberto-bohrer-birth-1890-nova-friburgo.jpg
+  sha256: e3da8a376485409613aa2819ee58d503f4d3a9d126dcfd3428a3d4fd123428a0
+linked_people:
+- P-0030
+- P-0031
+- P-0034
+- P-0035
+- P-0036
+- P-0037
+linked_families:
+- F-0014
+- F-0016
+- F-0017
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Linchpin of the Bohrer maternal-line extension: this single record names both
+    of Celina's grandparent couples. It corroborates Joaquim José × Lucinda
+    (already in F-0014) and establishes families F-0016 (Francisco José Bohrer ×
+    Roza Eugenia de Lemos) and F-0017 (Antonio da Silva Ferreira × Maria Joanna da
+    Silva Ferreira). It does not name Celina herself, so it does not change her own
+    parentage confidence.

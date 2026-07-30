@@ -1,0 +1,22 @@
+schema_version: 1
+id: E-0026
+event_type: marriage
+date:
+  kind: before
+  text: by 1879 (justified and registered 1 August 1879; ceremony earlier)
+  latest: 1879
+place_text: Itaboraí, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0034
+  role: principal
+- person_id: P-0035
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0002
+notes:
+- text: >-
+    Marriage of Francisco José Bohrer (P-0034) and Rosa Eugenia de Lemos (P-0035),
+    celebrated before the coadjutor of the Freguesia de Itaboraí and later justified
+    and registered at the Nova Friburgo Matriz on 1 August 1879 (PAR-0002). The
+    ceremony date itself is not stated, only that it predated the 1879 justification.

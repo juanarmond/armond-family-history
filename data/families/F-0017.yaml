@@ -1,0 +1,32 @@
+schema_version: 1
+id: F-0017
+partners:
+- person_id: P-0036
+  role: parent
+- person_id: P-0037
+  role: parent
+children:
+- person_id: P-0031
+  parent_relationships:
+  - parent_id: P-0036
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - CIV-0019
+    notes: []
+  - parent_id: P-0037
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - CIV-0019
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Antonio da Silva Ferreira and Maria Joanna da Silva Ferreira, parents of Lucinda
+    Ferreira da Silva (P-0031). Established by Alberto Bohrer's 1890 birth
+    (CIV-0019), which names them as the child's maternal grandparents (Antonio "e
+    de sua mulher Maria Joanna"). Strong-evidence, stated indirectly in a
+    grandchild's birth. This group records the reported parents; no dedicated
+    marriage record has been located.

@@ -1164,3 +1164,115 @@ documents:
         P-0022), matching CIV-0007, which resolves material conflict 10. The page
         carries three unrelated adjacent entries (nº 63.793-63.795). The image is
         private.
+  - inventory_id: DOC-0029
+    status: catalogued
+    added_date: "2026-07-30"
+    apparent_record_type: Civil birth register entry
+    apparent_people:
+      - Alberto Bohrer
+      - Joaquim José Bohrer
+      - Lucinda Ferreira da Silva Bohrer
+      - Francisco José Bohrer
+      - Roza Eugenia de Lemos Bohrer
+      - Antonio da Silva Ferreira
+      - Maria Joanna da Silva Ferreira
+    apparent_event: birth
+    image_quality: adequate
+    provenance: >-
+      FamilySearch Records index ("Brasil, Rio de Janeiro, Registro Civil,
+      1804-2013"), nascimento nº 569, fl. 119, Distrito de São João Baptista, Nova
+      Friburgo (RJ), 1890. Relationship-persona search, delivered through the
+      research/from-retrieval/ sync; read and promoted 30 July 2026. Exact ARK not
+      captured in the drop filename.
+    rights_status: permission-required
+    files:
+      - path: evidence/civil/CIV-0019-alberto-bohrer-birth-1890-nova-friburgo.jpg
+        sha256: e3da8a376485409613aa2819ee58d503f4d3a9d126dcfd3428a3d4fd123428a0
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: complete-viewer-tile-export
+          resolution_status: highest-authorised
+          pixel_width: 4478
+          pixel_height: 3357
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: CIV-0019
+    notes:
+      - >-
+        Alberto Bohrer (collateral sibling of Celina, not an entity) is the
+        subject; the record names both of Celina's grandparent couples. All named
+        persons are long deceased. The page carries unrelated adjacent entries (a
+        "Boj" family; nº 570).
+  - inventory_id: DOC-0030
+    status: catalogued
+    added_date: "2026-07-30"
+    apparent_record_type: Civil birth register entry
+    apparent_people:
+      - Joaquim José Bohrer
+      - Lucinda Ferreira da Silva
+    apparent_event: birth
+    image_quality: adequate
+    provenance: >-
+      FamilySearch Records index ("Brasil, Rio de Janeiro, Registro Civil,
+      1804-2013"), nascimento nº 1192, fl. 81, Distrito de São João Baptista, Nova
+      Friburgo (RJ), 1891 (marginal death note 1892). Relationship-persona search,
+      delivered through the research/from-retrieval/ sync; read and promoted 30
+      July 2026. Exact ARK not captured in the drop filename.
+    rights_status: permission-required
+    files:
+      - path: evidence/civil/CIV-0020-bohrer-infant-birth-1891-nova-friburgo.jpg
+        sha256: 218c78b663564bdf86e753fb77a2ce628fb5ba2754428861e5a7e754c066f387
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: complete-viewer-tile-export
+          resolution_status: highest-authorised
+          pixel_width: 4413
+          pixel_height: 3327
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: CIV-0020
+    notes:
+      - >-
+        An infant son of Joaquim José × Lucinda (b.1891, d.1892; collateral, not an
+        entity) is the subject; corroborates the couple. The page carries an
+        unrelated adjacent entry (nº 1191, a Nóbrega family from Madeira).
+  - inventory_id: DOC-0031
+    status: catalogued
+    added_date: "2026-07-30"
+    apparent_record_type: Parish marriage register entry (justificação)
+    apparent_people:
+      - Francisco José Bohrer
+      - Rosa Eugenia de Lemos
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      FamilySearch ("Brasil, Rio de Janeiro, Registros da Igreja Católica,
+      1616-2017"), marriage justification fl. 177, Nova Friburgo Matriz, sentence
+      Rio 30 June 1879, registered 1 August 1879. Relationship search, delivered
+      through the research/from-retrieval/ sync; read and promoted 30 July 2026.
+      Exact ARK not captured in the drop filename.
+    rights_status: permission-required
+    files:
+      - path: evidence/parish/PAR-0002-francisco-jose-bohrer-marriage-1879.jpg
+        sha256: 9fcb6cb0389010c2ccafd1ab89020786ee063f0e08887af6169028929e4afbb0
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: complete-viewer-tile-export
+          resolution_status: highest-authorised
+          pixel_width: 4932
+          pixel_height: 3654
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0002
+    notes:
+      - >-
+        Parish record (not civil): 1879 predates civil marriage registration.
+        Subjects Francisco José Bohrer and Rosa Eugenia de Lemos (Celina's paternal
+        grandparents), both long deceased. The page carries several unrelated
+        marriage entries.

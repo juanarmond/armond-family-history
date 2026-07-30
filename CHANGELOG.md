@@ -7,6 +7,13 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Extend the Bohrer maternal line to Celina's grandparents from three retrieval-drop
+  records: Alberto Bohrer's 1890 birth (`CIV-0019`), an 1891 sibling birth
+  (`CIV-0020`), and Francisco José Bohrer × Rosa Eugenia de Lemos's 1879 marriage
+  (`PAR-0002`, a parish record). Adds four ancestors (P-0034–P-0037), families
+  F-0016/F-0017, marriage event E-0026, and DOC-0029–DOC-0031. The grandparent
+  links are strong-evidence; Celina's own parentage confidence is unchanged. See
+  `logs/2026-07-30-bohrer-maternal-line-extension.md`.
 - Catalogue two Engracio-line civil deaths from the retrieval drop: Antonio
   Engracio Filho's 1964 death (`CIV-0017`) and Maria Aurora Guimarães's 1991
   death (`CIV-0018`). Adds death/birth events for P-0010, a death event for
