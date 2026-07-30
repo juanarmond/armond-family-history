@@ -1,0 +1,33 @@
+schema_version: 1
+id: F-0014
+partners:
+- person_id: P-0030
+  role: parent
+- person_id: P-0031
+  role: parent
+children:
+- person_id: P-0015
+  parent_relationships:
+  - parent_id: P-0030
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - CIV-0015
+    - CIV-0016
+    notes: []
+  - parent_id: P-0031
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - CIV-0015
+    - CIV-0016
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Joaquim José Bohrer and Lucinda Ferreira da Silva, parents of Celina (Selina)
+    Bohrer (P-0015). Established by two corroborating civil records: Celina's 1977
+    death (CIV-0015) and Eunir Bohrer's 1924 Nova Friburgo birth (CIV-0016,
+    maternal grandparents, already deceased by 1924). Strong-evidence, not
+    confirmed — both are informant-reported civil records.

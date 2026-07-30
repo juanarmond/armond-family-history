@@ -1,0 +1,33 @@
+schema_version: 1
+id: F-0013
+partners:
+- person_id: P-0028
+  role: parent
+- person_id: P-0029
+  role: parent
+children:
+- person_id: P-0014
+  parent_relationships:
+  - parent_id: P-0028
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - CIV-0014
+    - CIV-0016
+    notes: []
+  - parent_id: P-0029
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - CIV-0014
+    - CIV-0016
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Valentim Martinho Bohrer and Carolina Bohrer, parents of João Gonçalves
+    Bohrer (P-0014). Established by two corroborating civil records: João's 1970
+    death (CIV-0014) and Eunir Bohrer's 1924 Nova Friburgo birth (CIV-0016,
+    paternal grandparents). Strong-evidence, not confirmed — both are
+    informant-reported civil records, not a baptism/filiation act.

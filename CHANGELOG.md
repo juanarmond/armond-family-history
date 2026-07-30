@@ -43,6 +43,16 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Extend the maternal Bohrer line two generations from three primary Rio de
+  Janeiro civil records (retrieval sync): catalogue João Gonçalves Bohrer's 1970
+  Volta Redonda death (CIV-0014), Celina/Selina Bohrer's 1977 death (CIV-0015)
+  and Eunir Bohrer's 1924 Nova Friburgo birth (CIV-0016); add Iris's grandparent
+  generation — Valentim Martinho Bohrer + Carolina Bohrer (P-0028/P-0029, F-0013)
+  and Joaquim José Bohrer + Lucinda Ferreira da Silva (P-0030/P-0031, F-0014) —
+  and link P-0014/P-0015 as their children (strong-evidence). Fix Celina's origin
+  to Nova Friburgo (resolving the São Leopoldo RS namesake) and record the
+  civil-registered "Celina" variant. Inventory DOC-0024–0026. Two modern sibling
+  death records were reviewed but withheld (collateral + living-person data).
 - Add an English / Brazilian-Portuguese (pt-BR) dual-language UI to the
   family-tree viewer. A new dependency-free `family-tree-viewer/i18n.js`
   translates the chrome and controlled-vocabulary labels (event types, statuses,

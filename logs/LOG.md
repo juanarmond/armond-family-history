@@ -710,3 +710,21 @@ entry they amend; they must not erase it.
 - Conclusions changed: none; no new evidence or entities.
 - Next action: retrieve the Geraldo 1915 birth image; take the maternal lines
   off-tool to local registries.
+
+## 2026-07-30 — Bohrer line extended two generations (civil records)
+
+- Question: value-gate five new Bohrer civil-record images from the retrieval sync.
+- Detailed log:
+  [`logs/2026-07-30-bohrer-line-extension.md`](2026-07-30-bohrer-line-extension.md).
+- Key result: catalogued three privacy-clean primary records — João Gonçalves
+  Bohrer's 1970 death (CIV-0014), Celina/Selina Bohrer's 1977 death (CIV-0015) and
+  Eunir Bohrer's 1924 Nova Friburgo birth (CIV-0016) — and created Iris's
+  grandparent generation: Valentim Martinho Bohrer + Carolina Bohrer (P-0028/0029,
+  F-0013) and Joaquim José Bohrer + Lucinda Ferreira da Silva (P-0030/0031,
+  F-0014), with P-0014/P-0015 linked as their children (strong-evidence). Celina
+  is Nova Friburgo-born (resolving the São Leopoldo RS namesake) and civil-
+  registered as "Celina".
+- Not ingested: two modern sibling death records (João d.2001, Ercy d.1972) —
+  collateral and full of living-person data.
+- Next action: the four grandparents' own Nova Friburgo records; the couple's
+  civil marriage.

@@ -968,3 +968,117 @@ documents:
         Context lead for the anti-merge (the Gen-2 Simplício was 46 and single
         in 1831). Transcription; verify against the APM manuscript for anything
         critical. Concerns the historical Barbacena family, not proven kin.
+  - inventory_id: DOC-0024
+    status: catalogued
+    added_date: "2026-07-30"
+    apparent_record_type: Civil death register entry
+    apparent_people:
+      - João Gonçalves Bohrer
+      - Valentim Martinho Bohrer
+      - Carolina Bohrer
+    apparent_event: death
+    image_quality: adequate
+    provenance: >-
+      FamilySearch Records index ("Brasil, Rio de Janeiro, Registro Civil,
+      1804-2013"), óbito nº 19.798, fl. 198, Volta Redonda (RJ), 3 Aug 1970.
+      Complete record-viewer export (watermarked "SEM VALOR LEGAL"), delivered
+      through the research/from-retrieval/ sync; read and promoted 30 July 2026.
+    rights_status: permission-required
+    files:
+      - path: evidence/civil/CIV-0014-joao-goncalves-bohrer-death-1970-volta-redonda.jpg
+        sha256: 5bab6458ed9972a0c36c17f134116286600399cf9fc07f7b0cdf0534884af970
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: complete-viewer-tile-export
+          resolution_status: highest-authorised
+          pixel_width: 4704
+          pixel_height: 3294
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: CIV-0014
+    notes:
+      - >-
+        Subject: João Gonçalves Bohrer (P-0014); names his parents. Everyone
+        named is deceased; the declarant/addresses are omitted from the source
+        transcription. The page carries an unrelated adjacent death entry; the
+        image is private and never exported. A "SEM VALOR LEGAL" preview — the
+        authorised certidão can be ordered later if a legal copy is needed.
+  - inventory_id: DOC-0025
+    status: catalogued
+    added_date: "2026-07-30"
+    apparent_record_type: Civil death register entry
+    apparent_people:
+      - Celina Bohrer
+      - Joaquim José Bohrer
+      - Lucinda Ferreira da Silva Bohrer
+    apparent_event: death
+    image_quality: adequate
+    provenance: >-
+      FamilySearch Records index ("Brasil, Rio de Janeiro, Registro Civil,
+      1804-2013"), óbito nº 25.651, fl. 154, Volta Redonda (RJ), 19 Feb 1977.
+      Complete record-viewer export (watermarked "SEM VALOR LEGAL"), delivered
+      through the research/from-retrieval/ sync; read and promoted 30 July 2026.
+    rights_status: permission-required
+    files:
+      - path: evidence/civil/CIV-0015-celina-bohrer-death-1977-volta-redonda.jpg
+        sha256: 9209da46a8b42f6ab9c904b8856aa9a0c975f1f41b1ec0655fa251914db54010
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: complete-viewer-tile-export
+          resolution_status: highest-authorised
+          pixel_width: 4828
+          pixel_height: 3370
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: CIV-0015
+    notes:
+      - >-
+        Subject: Celina (Selina) Bohrer (P-0015); names her parents. Everyone
+        named is deceased; the declarant (a non-family functionary) is omitted.
+        The page carries an unrelated adjacent entry (an unrelated infant); the
+        image is private. A "SEM VALOR LEGAL" preview.
+  - inventory_id: DOC-0026
+    status: catalogued
+    added_date: "2026-07-30"
+    apparent_record_type: Civil birth register entry
+    apparent_people:
+      - Eunir Bohrer
+      - João Gonçalves Bohrer
+      - Celina Bohrer
+      - Valentim Martinho Bohrer
+      - Carolina Bohrer
+      - Joaquim José Bohrer
+      - Lucinda Ferreira Bohrer
+    apparent_event: birth
+    image_quality: adequate
+    provenance: >-
+      FamilySearch Records index ("Brasil, Rio de Janeiro, Registro Civil,
+      1804-2013"), nascimento nº 20.525, fl. 8, Distrito de São João Baptista,
+      Nova Friburgo (RJ), registered 24 May 1924. Complete record-viewer export
+      (watermarked "SEM VALOR LEGAL"), delivered through the
+      research/from-retrieval/ sync; read and promoted 30 July 2026.
+    rights_status: permission-required
+    files:
+      - path: evidence/civil/CIV-0016-eunir-bohrer-birth-1924-nova-friburgo.jpg
+        sha256: b52d0480b8e0d696d2ffa506983d9912cb7b58bfb7785be120b65ba4ebcd8036
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: complete-viewer-tile-export
+          resolution_status: highest-authorised
+          pixel_width: 4454
+          pixel_height: 3366
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: CIV-0016
+    notes:
+      - >-
+        Eunir Bohrer (a sibling of Iris, P-0007) is the subject; the record
+        documents the parents (P-0014, P-0015) and both grandparent couples, and
+        fixes Celina's origin as Nova Friburgo. All named persons are deceased.
+        A "SEM VALOR LEGAL" preview; the page carries unrelated adjacent entries.

@@ -1,0 +1,85 @@
+schema_version: 1
+id: CIV-0016
+title: >-
+  Civil birth registration of Eunir Bohrer (child of João Gonçalves Bohrer and
+  Celina Bohrer), Nova Friburgo
+record_type: Civil birth register entry
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: indirect
+usage: evidence
+event_date:
+  kind: exact
+  value: "1924-05-17"
+event_place_text: >-
+  Distrito de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+registration_date:
+  kind: exact
+  value: "1924-05-24"
+repository:
+  name: FamilySearch Historical Records
+  archive_or_registry: >-
+    Cartório do Distrito de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+  collection: Brasil, Rio de Janeiro, Registro Civil, 1804-2013
+  page: "8"
+  record_number: "20525"
+  catalogue_reference: >-
+    Nascimento nº 20.525, fl. 8, Cartório do Distrito de São João Baptista,
+    Nova Friburgo, RJ. Located via the FamilySearch Records index (Brasil, Rio de
+    Janeiro, Registro Civil, 1804-2013) and delivered through the
+    research/from-retrieval/ sync; read and promoted 30 July 2026.
+  repository_path: evidence/civil/CIV-0016-eunir-bohrer-birth-1924-nova-friburgo.jpg
+access_date: "2026-07-30"
+language: pt-BR
+transcription: >-
+  [Nascimento nº 20.525.] "Aos vinte e quatro dias do mez de Maio de mil
+  novecentos e vinte e quatro, neste Districto de São João Baptista, Município de
+  Nova Friburgo, Estado do Rio de Janeiro ... compareceu João Gonçalves Bohrer,
+  brasileiro, lavrador ... declarou: Que no dia dezesete do corrente mez ...
+  nasceu ... uma criança ... que se chamará 'Eunir', filho legítimo dele
+  declarante e de Celina Bohrer, natural deste Districto, e casados civilmente
+  neste Município. Netto paterno de Valentim Martinho Bohrer e de Carolina
+  Bohrer, e materno de Joaquim José Bohrer e de Lucinda Ferreira Bohrer, já
+  falecidos. Testemunhas: Antonio da Silva Brandão e Olympio de Carvalho."
+abstract: >-
+  The 1924 Nova Friburgo birth registration of Eunir Bohrer, declared by the
+  father João Gonçalves Bohrer (P-0014). The mother, Celina Bohrer (P-0015), is
+  recorded as "natural deste Districto" (born in Nova Friburgo, RJ). It names both
+  grandparent couples — paternal Valentim Martinho Bohrer + Carolina Bohrer,
+  maternal Joaquim José Bohrer + Lucinda Ferreira Bohrer (deceased) — corroborating
+  the parentage of P-0014 and P-0015 and fixing Celina's origin as Nova Friburgo.
+reliability:
+  assessment: >-
+    Original civil-register evidence; the informant is the father, João Gonçalves
+    Bohrer, giving primary knowledge of his own and (as her husband) his wife's
+    parents. Indirect for our ancestors because the record's subject is their
+    child, Eunir.
+  informant: The father, João Gonçalves Bohrer.
+  limitations: >-
+    A faint FamilySearch preview watermarked "SEM VALOR LEGAL"; the page carries
+    other, unrelated birth entries. Eunir (the child, a sibling of Iris P-0007) is
+    a collateral person and is not modelled as an entity.
+digital_file:
+  path: evidence/civil/CIV-0016-eunir-bohrer-birth-1924-nova-friburgo.jpg
+  sha256: b52d0480b8e0d696d2ffa506983d9912cb7b58bfb7785be120b65ba4ebcd8036
+linked_people:
+- P-0014
+- P-0015
+- P-0028
+- P-0029
+- P-0030
+- P-0031
+linked_families:
+- F-0005
+- F-0013
+- F-0014
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Fixes Celina Bohrer's origin as Nova Friburgo, RJ ("natural deste Districto"),
+    resolving the São Leopoldo (RS) "Celina Amalia Bohrer" as a different person
+    (a namesake). Names both grandparent couples, corroborating CIV-0014 and
+    CIV-0015. The name is spelled "Celina" here too.

@@ -89,17 +89,17 @@ and cataloguing work.
 
 | Item | Current state |
 | --- | --- |
-| Structured people | 26 |
-| Structured families | 12 |
+| Structured people | 31 |
+| Structured families | 14 |
 | Structured events | 18 |
 | Structured places | 9 |
-| Structured sources | 24 |
+| Structured sources | 27 |
 | Structured FAN references | 13 |
-| Inventoried retained documents | 23 |
-| Validation | 103 entities; zero errors or warnings at the last check |
+| Inventoried retained documents | 26 |
+| Validation | 112 entities; zero errors or warnings at the last check |
 | Automated tests | 58 passing at the last check |
 
-The 24 catalogued sources (across the `CIV`, `GOV`, `PAR`, `PRB` and `PUB`
+The 27 catalogued sources (across the `CIV`, `GOV`, `PAR`, `PRB` and `PUB`
 categories) span the Armond/Paz, Muniz Bittencourt/Azevedo,
 Engracio/Souza/Guimarães, Bohrer and Portuguese-origin lines, include the
 maternal Toledo probate cluster and the Barbacena context sources, and include
@@ -115,7 +115,7 @@ are canonical in `data/sources/`; record-by-record gaps are canonical in
 | Armond and Paz | Aristão's death is confirmed; a second original government record independently names Liliosa Paz Armond and reports the couple as José Olavo's parents. Leads (not evidence): a sibling Marfisa (bapt. 1873, N. Sra. da Piedade, Piacatuba) fixes the likely baptism parish; the documented Azorean Ferreira Armonde tree does NOT reach Piacatuba (bridge unsupported), and the 1831 census confirms the anti-merge on a primary document | Retrieve Aristão's baptism (from ~1879) and the Aristão×Liliosa marriage via FS catalog 345430; find the Simplício×Elisa marriage (the decisive bridge test); locate Liliosa's own vital records and parents |
 | Muniz Bittencourt and Azevedo | The 1916 marriage reports Deocleciano's parents; an original 1882 provision names João and Susanna and the intended Santo Antônio de Sapucaia parish | Completed ceremony entry in the Sapucaia registers; João and Susanna's own vital records; test rather than assume island origin |
 | Engracio, Souza and Guimarães | The 1915 collective registration documents Maria Amora, her parents and all four grandparents | Locate Vicente's family-linked marriage or death record and resolve Maria Amora/Aurora |
-| Bohrer | Iris's 1949 marriage directly reports João Gonçalves Bohrer and Selina Bohrer | Catalogue their own vital records and verify the next generation |
+| Bohrer | João Gonçalves Bohrer (d.1970) and Celina/Selina Bohrer (d.1977) are catalogued from RJ civil deaths (CIV-0014/0015); the line now reaches Iris's grandparents — Valentim Martinho Bohrer × Carolina, and Joaquim José Bohrer × Lucinda Ferreira da Silva — and Celina's origin is fixed to Nova Friburgo (CIV-0016) | The four grandparents' own Nova Friburgo vital records (~1850s–1900), and the João Gonçalves × Celina civil marriage |
 | Portuguese origins | `CIV-0007` directly reports Vicente as Portuguese; an 1866 Rio Claro record is an unlinked identity lead | Identify a district, municipality and parish before searching Portugal |
 
 The direct-line working roster follows Ahnentafel order from `P-0001` through

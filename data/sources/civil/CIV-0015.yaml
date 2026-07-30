@@ -1,0 +1,76 @@
+schema_version: 1
+id: CIV-0015
+title: Civil death registration of Celina (Selina) Bohrer
+record_type: Civil death register entry
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1977-02-19"
+event_place_text: Volta Redonda, Rio de Janeiro, Brazil
+registration_date:
+  kind: exact
+  value: "1977-02-20"
+repository:
+  name: FamilySearch Historical Records
+  archive_or_registry: Civil Registration, Volta Redonda, Rio de Janeiro, Brazil
+  collection: Brasil, Rio de Janeiro, Registro Civil, 1804-2013
+  page: "154"
+  record_number: "25651"
+  catalogue_reference: >-
+    Óbito nº 25.651, fl. 154, Cartório do Registro Civil, Volta Redonda, RJ.
+    Located via the FamilySearch Records index (Brasil, Rio de Janeiro, Registro
+    Civil, 1804-2013) and delivered through the research/from-retrieval/ sync;
+    read and promoted 30 July 2026.
+  repository_path: evidence/civil/CIV-0015-celina-bohrer-death-1977-volta-redonda.jpg
+access_date: "2026-07-30"
+language: pt-BR
+transcription: >-
+  [Óbito nº 25.651.] "Aos vinte de fevereiro de mil novecentos e setenta e sete
+  ... [declarou] que no dia dezenove ... na Casa de Saúde São José, nesta cidade,
+  faleceu Celina Bohrer, do sexo feminino, cor branca, com setenta e sete anos de
+  idade, natural dêste Estado, estado civil viúva, profissão doméstica, filha de
+  Joaquim José Bohrer, falecido ... e de Lucinda Ferreira da Silva Bohrer,
+  falecida ... Causa mortis: blastoma gástrico ... deixou quatorze filhos." The
+  declarant appeared "no impedimento ocasional de membros da família" (a
+  non-family functionary); his details are omitted for privacy.
+abstract: >-
+  The original Volta Redonda civil death register records the death of Celina
+  Bohrer (P-0015) on 19 February 1977, aged 77 (so born c.1900), widow, and names
+  her parents as Joaquim José Bohrer (deceased) and Lucinda Ferreira da Silva
+  Bohrer (deceased). Registered here as "Celina" (the 1949 marriage, CIV-0004,
+  used "Selina").
+reliability:
+  assessment: >-
+    Original civil-register evidence: direct for the death, date and age, and it
+    directly states her parents as secondary (informant-reported) information.
+  informant: >-
+    A non-family declarant appearing in the occasional absence of the deceased's
+    relatives (name withheld here for privacy).
+  limitations: >-
+    A faint FamilySearch preview watermarked "SEM VALOR LEGAL"; the register page
+    also carries an unrelated adjacent death entry (an unrelated infant). The
+    parent names are informant-reported at death.
+digital_file:
+  path: evidence/civil/CIV-0015-celina-bohrer-death-1977-volta-redonda.jpg
+  sha256: 9209da46a8b42f6ab9c904b8856aa9a0c975f1f41b1ec0655fa251914db54010
+linked_people:
+- P-0015
+- P-0030
+- P-0031
+linked_families:
+- F-0014
+linked_events: []
+linked_places:
+- PL-0003
+private: true
+notes:
+- text: >-
+    The record spells the name "Celina"; the 1949 marriage (CIV-0004) recorded
+    "Selina". Both variants are preserved (see P-0015). Names her parents
+    (Joaquim José Bohrer + Lucinda Ferreira da Silva); corroborated by Eunir
+    Bohrer's 1924 birth (CIV-0016). "Viúva" is consistent with João Gonçalves
+    Bohrer's 1970 death (CIV-0014).

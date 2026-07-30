@@ -422,15 +422,24 @@ people:
     next_action: Locate the marriage to Selina Bohrer.
     notes: []
   - record_type: death
-    status: lead_only
-    source_ids: []
-    last_reviewed: "2026-07-28"
-    next_action: Recover and re-transcribe the 1970 civil death registration.
-    notes: []
+    status: catalogued
+    source_ids:
+    - CIV-0014
+    last_reviewed: "2026-07-30"
+    notes:
+    - text: >-
+        Catalogued 30 July 2026 as CIV-0014 (Volta Redonda óbito nº 19.798, 3 Aug
+        1970, aged 76 → born c.1894). Names his parents Valentim Martinho Bohrer
+        (P-0028) and Carolina Bohrer (P-0029) — family F-0013 — extending the line
+        one generation.
   notes:
   - text: >-
       The FamilySearch collaborative profile has displayed a surname spelling
       conflict. Use its sources and images as leads; preserve record spellings.
+  - text: >-
+      Parents now documented (F-0013); NEXT for the Bohrer line: the four
+      grandparents' own Nova Friburgo (RJ) vital records (Valentim Martinho
+      Bohrer, Carolina, Joaquim José Bohrer, Lucinda Ferreira da Silva).
 - person_id: P-0015
   external_profiles:
   - platform: FamilySearch
@@ -451,15 +460,24 @@ people:
     next_action: Locate the marriage to João Gonçalves Bohrer.
     notes: []
   - record_type: death
-    status: lead_only
-    source_ids: []
-    last_reviewed: "2026-07-28"
-    next_action: Recover and re-transcribe the 1987 civil death registration.
-    notes: []
+    status: catalogued
+    source_ids:
+    - CIV-0015
+    last_reviewed: "2026-07-30"
+    notes:
+    - text: >-
+        Catalogued 30 July 2026 as CIV-0015 (Volta Redonda óbito nº 25.651, 19
+        Feb 1977 — not 1987 — aged 77 → born c.1900, widow). Names her parents
+        Joaquim José Bohrer (P-0030) and Lucinda Ferreira da Silva (P-0031) —
+        family F-0014.
   notes:
   - text: >-
       Treat every collaborative-profile name, date and relationship as a lead
       until the underlying record image is catalogued.
+  - text: >-
+      Born Nova Friburgo, RJ (CIV-0016), resolving the São Leopoldo (RS) "Celina
+      Amalia Bohrer" as a namesake. Civil records register the name "Celina"; the
+      1949 marriage used "Selina" (both preserved on P-0015).
 - person_id: P-0016
   external_profiles: []
   records:
