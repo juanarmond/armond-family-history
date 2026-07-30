@@ -29,8 +29,7 @@ abstract: >-
   (suplente de arbitrador). Functional role in a third party's proceeding;
   retained as FAN context for his local standing.
 digital_file:
-  path: >-
-    evidence/references/FAN-0005-1906-muriae-medicao-simplicio-arbitrador.jpg
+  path: evidence/references/FAN-0005.jpg
   sha256: e47382b99562e655a7f067b163df17fc0947402bbf92cfe646be8052b358d7a3
 participants:
 - person_id: P-0016

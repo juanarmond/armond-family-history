@@ -7,6 +7,10 @@ also remain traceable through source records and research logs.
 
 ### Changed
 
+- Name FAN reference images by ID only (`FAN-NNNN.<ext>`), dropping the
+  descriptive suffix; the date, place, record type and role stay in the FAN
+  record. Applies to `evidence/references/` (the FAN folder); the source-folder
+  naming convention is unchanged.
 - Rename the external record-retrieval workflow throughout the repository to
   "retrieval agent" terminology: the drop folder is now `research/from-retrieval/`,
   alongside the value-gate resume ledger, the 30 July read-pass research log, and

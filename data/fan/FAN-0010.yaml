@@ -28,8 +28,7 @@ abstract: >-
   Albuquerque. A functional (witness) role; the earliest Full-Text placement of
   Aristão as an adult in the Muriaé area. Retained as FAN context.
 digital_file:
-  path: >-
-    evidence/references/FAN-0010-1903-laginha-muriae-escritura-aristao-testemunha.jpg
+  path: evidence/references/FAN-0010.jpg
   sha256: 0d3db88a5eea6f32617850ecdce166f5456c4088372d6b36f4c2912a984bcfb8
 participants:
 - person_id: P-0008

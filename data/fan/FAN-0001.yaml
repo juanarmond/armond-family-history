@@ -31,8 +31,7 @@ abstract: >-
   record about the family. Retained as FAN context for his presence and standing
   in the Muriaé comarca by 1875.
 digital_file:
-  path: >-
-    evidence/references/FAN-0001-1875-muriae-procuracao-simplicio-signatario.jpg
+  path: evidence/references/FAN-0001.jpg
   sha256: 502d6fff8f39af3b95bc4881abeaedc151e98882b3a26864bdc8642aa0d0f85f
 participants:
 - person_id: P-0016

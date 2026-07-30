@@ -29,8 +29,7 @@ abstract: >-
   (condôminos). Indicates his rural property holding/standing; retained as FAN
   context. The document's subject is the joint estate, not this family alone.
 digital_file:
-  path: >-
-    evidence/references/FAN-0007-1910-muriae-medicao-fazenda-vae-e-volta-simplicio-condomino.jpg
+  path: evidence/references/FAN-0007.jpg
   sha256: b2b8513e31aa01afd417c0d8beffda2e0c2cd42f64209cfdf67943f96e7ee70f
 participants:
 - person_id: P-0016

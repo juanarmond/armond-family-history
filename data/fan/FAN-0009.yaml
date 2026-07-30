@@ -31,8 +31,7 @@ abstract: >-
   Gonçalves de Barros in a functional role (louvado/nominee). Faint image;
   retained as FAN context, subject not this family.
 digital_file:
-  path: >-
-    evidence/references/FAN-0009-sd-muriae-partilha-simplicio-louvado.jpg
+  path: evidence/references/FAN-0009.jpg
   sha256: 5691eb458f2dcd2f5ba3b0c15b0a14a8048ef2139b989fc2e70d170b2c2b8d96
 participants:
 - person_id: P-0016

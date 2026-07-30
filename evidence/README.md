@@ -24,8 +24,9 @@ folder. Create a category directory only when its first document is added:
 records where our people appear only in a functional role (witness, appraiser,
 creditor, attorney, party, co-owner). Each image is catalogued as a FAN entity
 (`data/fan/FAN-NNNN.yaml`, `usage: context`) with a transcription and a person
-link, named `FAN-NNNN-…` and kept flat (no per-set subfolders). FAN references
-are context, never sources. See `references/README.md`.
+link, named `FAN-NNNN.<ext>` (the record ID only, no descriptive suffix) and
+kept flat (no per-set subfolders). FAN references are context, never sources.
+See `references/README.md`.
 
 ## File handling
 

@@ -12,9 +12,9 @@ context — **never evidence** for a genealogical conclusion.
   `data/fan/FAN-NNNN.yaml` record (schema `schemas/fan.schema.json`,
   `usage: context`) with a transcription and at least one
   `participants[].person_id`.
-- **Naming.** `FAN-NNNN-<year>-<place>-<record-type>-<person>-<role>.jpg`,
-  lowercase ASCII for the descriptive part; the `FAN-NNNN` prefix matches the
-  record ID.
+- **Naming.** `FAN-NNNN.<ext>` — the record ID only, with **no descriptive
+  suffix**. The date, place, record type and role live in the FAN record
+  (`data/fan/FAN-NNNN.yaml`), not in the filename.
 - **Flat.** No per-topic subfolders — one directory, one image per FAN entity.
 - **Subject records do not belong here.** A record *about* the family (its own
   inventário, deed or vital record) is a subject **source** in the matching
