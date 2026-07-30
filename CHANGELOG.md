@@ -34,6 +34,12 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Surface FAN references and source transcriptions in the family-tree viewer.
+  `data-loader.js` now loads the `fan` entities and projects them per person via
+  `participants`; the details panel lists each person's FAN / context references
+  (role, record category, place, transcription and image link) and shows each
+  source's transcription and abstract. Covered by new `tests/js/data_loader.test.mjs`
+  assertions.
 - Catalogue the Muriaé/Leopoldina Full-Text FAN set as FAN entities FAN-0002–
   FAN-0013 — third-party probate/notarial records where Simplício José Ferreira
   Armond (P-0016) or Aristão Ferreira Armond (P-0008) appear only in a functional

@@ -445,11 +445,72 @@ function sourceList(sources) {
     const nodes = [title];
     if (metaBits.length) nodes.push(meta);
     nodes.push(actions);
+    if (source.transcription) {
+      const transcription = document.createElement("p");
+      transcription.className = "source-transcription";
+      transcription.textContent = source.transcription;
+      nodes.push(transcription);
+    }
+    if (source.abstract) {
+      const abstract = document.createElement("p");
+      abstract.className = "source-abstract";
+      abstract.textContent = source.abstract;
+      nodes.push(abstract);
+    }
     if (source.limitation) {
       const limitation = document.createElement("p");
       limitation.className = "source-limitation";
       limitation.textContent = `⚠ ${source.limitation}`;
       nodes.push(limitation);
+    }
+
+    li.append(...nodes);
+    ul.append(li);
+  }
+
+  return ul;
+}
+
+function fanList(refs) {
+  if (!refs.length) {
+    const empty = document.createElement("p");
+    empty.className = "empty-note";
+    empty.textContent = "No context references.";
+    return empty;
+  }
+
+  const ul = document.createElement("ul");
+  ul.className = "source-list";
+
+  for (const ref of refs) {
+    const li = document.createElement("li");
+    li.className = "source-item";
+
+    const title = document.createElement("div");
+    title.className = "source-title";
+    const id = document.createElement("span");
+    id.className = "source-id";
+    id.textContent = ref.id;
+    title.append(id, document.createTextNode(ref.title || ref.id));
+
+    const metaBits = [ref.role, ref.recordCategory, ref.place].filter(Boolean);
+    const meta = document.createElement("div");
+    meta.className = "source-meta";
+    meta.textContent = metaBits.join(" · ");
+
+    const actions = document.createElement("div");
+    actions.className = "source-actions";
+    if (ref.file) actions.append(externalLink(ref.file, fileLinkLabel(ref.file)));
+    if (ref.url) actions.append(externalLink(ref.url, "Source record ↗", "external"));
+
+    const nodes = [title];
+    if (metaBits.length) nodes.push(meta);
+    if (actions.childElementCount) nodes.push(actions);
+    if (ref.transcription) {
+      const transcription = document.createElement("p");
+      transcription.className = "source-transcription";
+      transcription.textContent = ref.transcription;
+      nodes.push(transcription);
     }
 
     li.append(...nodes);
@@ -480,6 +541,7 @@ function openDetails(personId) {
   const factRows = [
     ["Privacy", person.privacy],
     ["Sources", String(person.sourceCount)],
+    ["Context references", String((person.fanReferences || []).length)],
     ["Birthplace", person.events.find((event) => event.type === "birth")?.place?.name || "Not established"],
     ["Death place", person.events.find((event) => event.type === "death")?.place?.name || "Not established"],
   ];
@@ -525,6 +587,9 @@ function openDetails(personId) {
 
     elements.detailsContent.append(section("Recorded names", list(person.nameVariants, "No name variants.")));
     elements.detailsContent.append(section("Sources", sourceList(person.sources)));
+    elements.detailsContent.append(
+      section("Context references (FAN)", fanList(person.fanReferences || [])),
+    );
     elements.detailsContent.append(section("Research notes", list(person.notes, "No public research notes.")));
   } else {
     const privacy = document.createElement("p");

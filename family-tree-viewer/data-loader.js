@@ -6,6 +6,7 @@ const ENTITY_TYPES = {
   events: { directory: "events" },
   places: { directory: "places" },
   sources: { directory: "sources" },
+  fan: { directory: "fan" },
 };
 
 const DATA_ROOT = "../data";
@@ -108,15 +109,15 @@ function sourceIdsFromPerson(person) {
 }
 
 export async function loadTreeData() {
-  const [people, families, events, places, sources] = await Promise.all(
+  const [people, families, events, places, sources, fan] = await Promise.all(
     Object.entries(ENTITY_TYPES).map(([kind, config]) => loadEntityType(kind, config)),
   );
-  return projectTreeData({ people, families, events, places, sources });
+  return projectTreeData({ people, families, events, places, sources, fan });
 }
 
 // Pure projection from parsed entities to the viewer's presentation model.
 // Side-effect free (no fetch, no DOM) so it can be unit-tested under Node.
-export function projectTreeData({ people, families, events, places, sources }) {
+export function projectTreeData({ people, families, events, places, sources, fan = {} }) {
   const personEvents = {};
   const personSourceIds = {};
   const parentsByChild = {};
@@ -252,9 +253,53 @@ export function projectTreeData({ people, families, events, places, sources }) {
         quality: typeof source.information_quality === "string" ? source.information_quality : null,
         limitation: typeof limitation === "string" && limitation.trim() ? limitation.trim() : null,
         private: Boolean(source.private),
+        transcription:
+          typeof source.transcription === "string" && source.transcription.trim()
+            ? source.transcription.trim()
+            : null,
+        abstract:
+          typeof source.abstract === "string" && source.abstract.trim()
+            ? source.abstract.trim()
+            : null,
         file: evidenceHref(rawPath),
         url: typeof url === "string" && url.trim() ? url.trim() : null,
       }];
+    }),
+  );
+
+  // FAN / context references: records where a person appears only in a
+  // functional role (witness, appraiser, creditor, attorney, party, co-owner).
+  // Projected per person from each reference's participants.
+  const trimmedText = (value) =>
+    typeof value === "string" && value.trim() ? value.trim() : null;
+  const fanByPerson = {};
+  const fanView = Object.fromEntries(
+    Object.entries(fan).map(([fanId, ref]) => {
+      const view = {
+        id: fanId,
+        title: ref.title || fanId,
+        recordType: ref.record_type || "Reference",
+        recordCategory:
+          typeof ref.record_category === "string"
+            ? ref.record_category.replaceAll("_", " ")
+            : null,
+        date: ref.event_date || null,
+        place: trimmedText(ref.event_place_text),
+        transcription: trimmedText(ref.transcription),
+        abstract: trimmedText(ref.abstract),
+        file: evidenceHref(ref.digital_file?.path || null),
+        url: trimmedText(ref.repository?.url),
+      };
+      for (const participant of ref.participants || []) {
+        const personId = participant?.person_id;
+        if (!personId) continue;
+        (fanByPerson[personId] ||= []).push({
+          ...view,
+          role: trimmedText(participant.role),
+          note: trimmedText(participant.note),
+        });
+      }
+      return [fanId, view];
     }),
   );
 
@@ -294,6 +339,9 @@ export function projectTreeData({ people, families, events, places, sources }) {
           sourceIds: (occupation.source_ids || []).filter((id) => typeof id === "string"),
         })),
       notes,
+      fanReferences: living
+        ? []
+        : (fanByPerson[personId] || []).slice().sort((a, b) => a.id.localeCompare(b.id)),
       hasConflict: conflictTerms.some((term) => conflictText.includes(term)),
     };
   }
@@ -304,6 +352,7 @@ export function projectTreeData({ people, families, events, places, sources }) {
     parentsByChild,
     marriageByFamily,
     sources: sourceView,
+    fan: fanView,
     familyCount: Object.keys(families).length,
   };
 }

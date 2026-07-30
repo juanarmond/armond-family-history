@@ -743,6 +743,21 @@ a:focus-visible {
   font-style: italic;
   line-height: 1.45;
 }
+.source-transcription {
+  margin: .55rem 0 0;
+  padding-left: .6rem;
+  border-left: 2px solid var(--rule);
+  color: var(--ink);
+  font-size: .8rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+.source-abstract {
+  margin: .45rem 0 0;
+  color: var(--muted);
+  font-size: .8rem;
+  line-height: 1.45;
+}
 .source-actions { display: flex; flex-wrap: wrap; gap: .45rem; align-items: center; margin-top: .7rem; }
 .source-link {
   display: inline-flex;

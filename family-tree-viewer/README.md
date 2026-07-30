@@ -50,7 +50,8 @@ Do not publish the site publicly while it contains private family data. GitHub P
 - Hides rejected relationships by default.
 - Limits the displayed number of generations for usability.
 - Auto-fits the tree to the viewport, with manual zoom (buttons, `Ctrl`/`⌘`+scroll) and drag-to-pan.
-- Links each non-private evidence file and external record from the detail panel, and surfaces source form, quality and reliability limitations.
+- Links each non-private evidence file and external record from the detail panel, and surfaces each source's form, quality, transcription, abstract and reliability limitations.
+- Lists the FAN / context references a person appears in (witness, appraiser, creditor, attorney, party or co-owner), with the person's role, record category, place, image link and transcription.
 - Encodes the current root, generation depth, hypothesis toggle and selected person in the URL hash, so a view is bookmarkable and shareable.
 - Minimises details shown for living people, and never lists a living person's sources.
 

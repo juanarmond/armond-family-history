@@ -99,6 +99,8 @@ function fixtures() {
       source_form: "original",
       information_quality: "primary",
       reliability: { limitations: "The ink is faded in places." },
+      transcription: "Marriage entry text.",
+      abstract: "A civil marriage.",
       repository: { url: "https://example.org/s1", repository_path: "evidence/civil/S-1.jpg" },
       digital_file: { path: "evidence/civil/S-1.jpg" },
       private: true,
@@ -114,7 +116,33 @@ function fixtures() {
     },
   };
 
-  return { people, families, events, places, sources };
+  const fan = {
+    "FAN-1": {
+      id: "FAN-1",
+      title: "1900 deed witnessed by Ann",
+      record_type: "Escritura",
+      record_category: "notarial",
+      usage: "context",
+      event_date: { kind: "year", year: 1900 },
+      event_place_text: "Muriaé, Minas Gerais, Brazil",
+      transcription: "… Ann Alpha, testemunha …",
+      abstract: "A deed Ann witnessed.",
+      repository: { url: "https://example.org/fan1" },
+      digital_file: { path: "evidence/references/FAN-1.jpg" },
+      participants: [{ person_id: "P-1", role: "testemunha", note: "witness" }],
+    },
+    "FAN-2": {
+      id: "FAN-2",
+      title: "A living person's context record",
+      record_type: "Inventário",
+      record_category: "court_or_probate",
+      usage: "context",
+      digital_file: { path: "evidence/references/FAN-2.jpg" },
+      participants: [{ person_id: "P-3", role: "credor" }],
+    },
+  };
+
+  return { people, families, events, places, sources, fan };
 }
 
 test("evidenceHref only exposes files under evidence/", () => {
@@ -215,4 +243,25 @@ test("living people are minimised", () => {
   assert.deepEqual(p3.spouses, []);
   assert.deepEqual(p3.notes, []);
   assert.deepEqual(p3.occupations, []);
+  assert.deepEqual(p3.fanReferences, []);
+});
+
+test("FAN references are projected per person with role, place and transcription", () => {
+  const data = projectTreeData(fixtures());
+  const refs = data.people["P-1"].fanReferences;
+  assert.equal(refs.length, 1);
+  assert.equal(refs[0].id, "FAN-1");
+  assert.equal(refs[0].role, "testemunha");
+  assert.equal(refs[0].recordCategory, "notarial");
+  assert.equal(refs[0].place, "Muriaé, Minas Gerais, Brazil");
+  assert.equal(refs[0].transcription, "… Ann Alpha, testemunha …");
+  assert.equal(refs[0].file, "../evidence/references/FAN-1.jpg");
+  assert.equal(data.people["P-2"].fanReferences.length, 0);
+});
+
+test("source view carries transcription and abstract", () => {
+  const data = projectTreeData(fixtures());
+  assert.equal(data.sources["S-1"].transcription, "Marriage entry text.");
+  assert.equal(data.sources["S-1"].abstract, "A civil marriage.");
+  assert.equal(data.sources["S-2"].transcription, null);
 });
