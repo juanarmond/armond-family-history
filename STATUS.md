@@ -91,12 +91,12 @@ and cataloguing work.
 | --- | --- |
 | Structured people | 31 |
 | Structured families | 14 |
-| Structured events | 18 |
+| Structured events | 22 |
 | Structured places | 9 |
 | Structured sources | 27 |
 | Structured FAN references | 13 |
 | Inventoried retained documents | 26 |
-| Validation | 112 entities; zero errors or warnings at the last check |
+| Validation | 116 entities; zero errors or warnings at the last check |
 | Automated tests | 58 passing at the last check |
 
 The 27 catalogued sources (across the `CIV`, `GOV`, `PAR`, `PRB` and `PUB`

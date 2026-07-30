@@ -17,6 +17,8 @@ name_variants:
       - CIV-0016
 event_ids:
   - E-0004
+  - E-0021
+  - E-0022
 family_ids:
   - F-0005
   - F-0014

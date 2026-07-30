@@ -1,0 +1,21 @@
+schema_version: 1
+id: E-0020
+event_type: birth
+date:
+  kind: approximate
+  text: c.1894 (aged 76 at his 1970 death, CIV-0014)
+  earliest: 1893
+  latest: 1895
+place_text: Rio de Janeiro, Brazil
+participants:
+- person_id: P-0014
+  role: principal
+status: strong-evidence
+source_ids:
+- CIV-0014
+notes:
+- text: >-
+    Birth year inferred from the age (76) at his 1970 death (CIV-0014), which
+    records his naturalidade only as "dêste Estado" (Rio de Janeiro state; the
+    city is not given). Note the apparent tension with the family's Carangola
+    (MG) base, where his children were born — birthplace precision is limited.

@@ -1,0 +1,14 @@
+schema_version: 1
+id: E-0021
+event_type: death
+date:
+  kind: exact
+  value: "1977-02-19"
+place_id: PL-0003
+participants:
+- person_id: P-0015
+  role: principal
+status: confirmed
+source_ids:
+- CIV-0015
+notes: []

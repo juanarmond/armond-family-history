@@ -1,0 +1,14 @@
+schema_version: 1
+id: E-0019
+event_type: death
+date:
+  kind: exact
+  value: "1970-08-03"
+place_id: PL-0003
+participants:
+- person_id: P-0014
+  role: principal
+status: confirmed
+source_ids:
+- CIV-0014
+notes: []

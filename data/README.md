@@ -127,3 +127,33 @@ python3 scripts/new_entity.py recover
 
 Source evidence policy is defined in `research/README.md`; this file defines only
 storage and identifier mechanics.
+
+## Person completeness checklist
+
+When creating **or updating** a person, populate every field the evidence
+supports and re-check them on each edit. Dates and places in the viewer come from
+**event entities**, not from a person's prose, so a catalogued vital record
+without a matching event is a gap (this is how P-0014/P-0015 came to show "Dates
+not established"). For each `P-NNNN`:
+
+1. **preferred_name** — the fullest documented form.
+2. **privacy** — `living` / `deceased` / `unknown`; treat possibly-living people
+   as `living`, never `deceased` on assumption.
+3. **nationality** — from birthplace (Brazilian by *jus soli*) or a record's
+   stated *nacionalidade*; assert a foreign nationality only where a record says
+   so, and leave it unset only when genuinely contested. Never infer it from a
+   surname.
+4. **name_variants** — every recorded spelling with its `source_ids`; keep maiden
+   and married forms distinct.
+5. **events** — create a **birth and a death event** for every deceased person
+   whose date is evidenced, even when the date is approximate (e.g. inferred from
+   the age at death) or the place is only state-level. Cite the source, link the
+   person as `principal`, and give every event a place (`place_id` or
+   `place_text`). After cataloguing any vital record, create its event.
+6. **family_ids** — link the person both as a *child* (their parents' family) and
+   as a *partner* (their own union), and add the reciprocal entry in the family
+   entity.
+7. **occupations** / **fan_references** — where a record supports them, each with
+   `source_ids`.
+8. **notes** — record conflicts, variant spellings, the basis for any inferred
+   field, and the next research action.

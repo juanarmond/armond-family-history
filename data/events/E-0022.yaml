@@ -1,0 +1,21 @@
+schema_version: 1
+id: E-0022
+event_type: birth
+date:
+  kind: approximate
+  text: c.1900 (aged 77 at her 1977 death, CIV-0015)
+  earliest: 1899
+  latest: 1901
+place_text: Nova Friburgo, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0015
+  role: principal
+status: strong-evidence
+source_ids:
+- CIV-0015
+- CIV-0016
+notes:
+- text: >-
+    Birth year inferred from the age (77) at her 1977 death (CIV-0015);
+    birthplace Nova Friburgo, RJ, from Eunir Bohrer's 1924 birth registration
+    (CIV-0016, "natural deste Districto").

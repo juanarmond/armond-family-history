@@ -43,6 +43,16 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Create the missing birth and death events for the Bohrer couple so their
+  lifespans and events display: E-0019 (João Gonçalves Bohrer death, Volta
+  Redonda 1970) and E-0020 (birth c.1894, Rio de Janeiro), E-0021 (Celina Bohrer
+  death, Volta Redonda 1977) and E-0022 (birth c.1900, Nova Friburgo) — dates
+  taken from the death ages, places from the records. They had catalogued deaths
+  but no event, so the viewer showed "Dates not established".
+- Add a person-completeness checklist to `data/README.md` (populate name,
+  privacy, nationality, name variants, birth+death events with places, family
+  links, occupations and notes on every person create/update) so vital events
+  and other fields are not missed again.
 - Add a `nationality` field to the person schema and surface it in the viewer:
   each card now shows, below the name, the lifespan, the birthplace and the
   nationality, and the details overview gains a Nationality row. Nationality is
