@@ -5,6 +5,19 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-07-30 — Engracio line: two civil deaths ingested from the retrieval drop
+
+- Outcome: catalogued Antonio Engracio Filho's 1964 death (CIV-0017) and Maria
+  Aurora Guimarães's 1991 death (CIV-0018) from the `research/from-retrieval/`
+  drop. Filled P-0010's empty event set (death + approximate birth), added
+  P-0011's death, modelled Cidalia's paternal grandparents (P-0032/P-0033,
+  F-0015), attested the P-0010 × P-0011 marriage, and RESOLVED material conflict
+  10 (Maria Amora = Maria Aurora, identical parents on both records).
+- Genealogical conclusions changed: P-0010 death/birth now evidenced; P-0011
+  death evidenced; new ancestors P-0032/P-0033; conflict 10 resolved.
+- Detailed log:
+  [`logs/2026-07-30-engracio-deaths-ingest.md`](2026-07-30-engracio-deaths-ingest.md).
+
 ## 2026-07-30 — Repository connectivity and completeness audit
 
 - Outcome: verified every cross-entity link (person↔family, person↔event,

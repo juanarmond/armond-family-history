@@ -5,6 +5,22 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added
+
+- Catalogue two Engracio-line civil deaths from the retrieval drop: Antonio
+  Engracio Filho's 1964 death (`CIV-0017`) and Maria Aurora Guimarães's 1991
+  death (`CIV-0018`). Adds death/birth events for P-0010, a death event for
+  P-0011, new ancestors P-0032/P-0033 (Cidalia's paternal grandparents) with
+  family F-0015, a marriage attestation on F-0012, and DOC-0027/DOC-0028. See
+  `logs/2026-07-30-engracio-deaths-ingest.md`.
+
+### Changed
+
+- Resolve material conflict 10: Maria Amora Guimarães (1904 birth, CIV-0007) and
+  Maria Aurora Guimarães (1991 death, CIV-0018) are the same woman — both records
+  name identical parents. Both name forms preserved; preferred name kept as Maria
+  Amora.
+
 ### Fixed
 
 - Restore the P-0021/P-0022 → E-0007 back-links: both parents (Francisco José de

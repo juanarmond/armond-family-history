@@ -2,9 +2,20 @@ schema_version: 1
 id: F-0012
 partners:
 - person_id: P-0010
-  role: parent
+  role: spouse
 - person_id: P-0011
-  role: parent
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - CIV-0017
+  - CIV-0018
+  notes:
+  - text: >-
+      Antonio Engracio Filho's 1964 civil death (CIV-0017) records him "casado com
+      Maria Aurora Guimarães", and her 1991 civil death (CIV-0018) records her
+      "viúva de Antonio Engracio Filho". Two original civil records thus attest
+      the marriage, though neither states its date or place.
 children:
 - person_id: P-0005
   parent_relationships:
@@ -29,5 +40,6 @@ children:
 event_ids: []
 notes:
 - text: >-
-    This family group records the two people reported as Cidalia's parents. It
-    does not independently assert a marriage or partnership between them.
+    This family group records the two people reported as Cidalia's parents. Their
+    marriage is now attested by two original civil death records (see
+    partner_relationship); its date and place remain unlocated.

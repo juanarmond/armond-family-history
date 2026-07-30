@@ -1,0 +1,90 @@
+schema_version: 1
+id: CIV-0017
+title: >-
+  Civil death registration of Antonio Engracio Filho (1964), naming his wife
+  Maria Aurora Guimarães and his parents
+record_type: Civil death register entry
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1964-06-21"
+event_place_text: Rio de Janeiro, Brazil
+registration_date:
+  kind: exact
+  value: "1964-06-22"
+repository:
+  name: FamilySearch Historical Records
+  archive_or_registry: >-
+    Civil Registration, Rio de Janeiro region (residence Pavuna; burial São João
+    de Meriti), Brazil
+  collection: Brasil, Rio de Janeiro, Registro Civil, 1804-2013
+  page: "122"
+  record_number: "37787"
+  catalogue_reference: >-
+    Óbito nº 37.787, fl. 122 (Departamento de Imprensa Nacional óbito form).
+    Located via a FamilySearch Records relationship-persona search (by
+    spouse/children) and delivered through the research/from-retrieval/ sync; the
+    exact ARK was not captured in the drop filename. Read and promoted 30 July
+    2026.
+  repository_path: evidence/civil/CIV-0017-antonio-engracio-filho-death-1964.jpg
+access_date: "2026-07-30"
+language: pt-BR
+transcription: >-
+  [Óbito nº 37.787.] "Aos vinte e dois de junho de mil novecentos e sessenta e
+  quatro, nesta Cidade e em meu Cartório, compareceu [Werner Engracio Guimarães],
+  solteiro, nacionalidade brasileira, com 32 anos de idade, profissão
+  comerciário, residente na rua Honorio Hermeto, nº 138, Pavuna, est. G[uanabara],
+  e exibindo atestado de óbito firmado pelo médico Frediano Martinelli, declarou:
+  Que no dia de ontem, ... nº 805, neste, às 14 horas ... faleceu Antonio Engracio
+  Filho, do sexo masculino, côr branca, com sessenta e nove anos de idade, natural
+  do Estado de Minas Gerais, estado civil casado com Maria Aurora Guimarães,
+  profissão negociante, residente rua Honorio Hermeto, nº 138, Pavuna, est. da
+  Guanabara, filho de Antonio Engracio de Souza e de Luzia Pinheiro da Conceição,
+  falecidos. Causa mortis: câncer da próstata. Vai ser sepultado no Cemitério de
+  São João de Meriti. Observações: não deixou bens e deixou seis filhos maiores."
+  The declarant (a son of the deceased) is named in the register; his identifying
+  document is withheld here for privacy.
+abstract: >-
+  Original civil death register recording the death of Antonio Engracio Filho
+  (P-0010) on 21 June 1964 (act 22 June), aged 69 (so born c.1895), a negociante
+  born in Minas Gerais, married to Maria Aurora Guimarães (P-0011). It names his
+  parents as Antonio Engracio de Souza (P-0032) and Luzia Pinheiro da Conceição
+  (P-0033), both already deceased, and reports six surviving adult children.
+reliability:
+  assessment: >-
+    Original civil-register evidence: direct for the death, date and age, and it
+    directly reports his marriage to Maria Aurora Guimarães. His parents are
+    stated as secondary (informant-reported) information given by a son.
+  informant: A son of the deceased (name withheld here for privacy).
+  limitations: >-
+    The register page also carries an unrelated adjacent death entry (nº 37.786,
+    Divaldino Rosalino da Silva). The parent names are informant-reported at
+    death. The exact death-address street and cartório are only partly legible on
+    the retained tile.
+digital_file:
+  path: evidence/civil/CIV-0017-antonio-engracio-filho-death-1964.jpg
+  sha256: 4b003fe97548d4337be7a20ca1e9b9de9d1864d6a762311c352d147bab402b4d
+linked_people:
+- P-0010
+- P-0011
+- P-0032
+- P-0033
+linked_families:
+- F-0012
+- F-0015
+linked_events:
+- E-0023
+- E-0024
+linked_places: []
+private: true
+notes:
+- text: >-
+    Confirms Antonio Engracio Filho married Maria Aurora Guimarães (spelled
+    "Aurora" here, consistent with her own 1991 death, CIV-0018) and extends his
+    line one generation: his parents were Antonio Engracio de Souza and Luzia
+    Pinheiro da Conceição (Cidalia's paternal grandparents), both deceased by
+    1964. Their own vital records are off-index (next research step).

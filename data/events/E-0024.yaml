@@ -1,0 +1,21 @@
+schema_version: 1
+id: E-0024
+event_type: birth
+date:
+  kind: approximate
+  text: about 1895
+  earliest: 1894
+  latest: 1895
+place_text: Minas Gerais, Brazil
+participants:
+- person_id: P-0010
+  role: principal
+status: strong-evidence
+source_ids:
+- CIV-0017
+notes:
+- text: >-
+    Birth year inferred from his stated age (69) at death in June 1964, so born
+    c.1894-1895; his 1964 civil death (CIV-0017) gives his naturalidade only as
+    the Estado de Minas Gerais, so the place is recorded at state level. No birth
+    record has been located.

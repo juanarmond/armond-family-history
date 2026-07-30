@@ -1,0 +1,87 @@
+schema_version: 1
+id: CIV-0018
+title: >-
+  Civil death registration of Maria Aurora Guimarães (1991), widow of Antonio
+  Engracio Filho, naming her parents
+record_type: Civil death register entry
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1991-09-15"
+event_place_text: Rio de Janeiro, Rio de Janeiro, Brazil
+registration_date:
+  kind: exact
+  value: "1991-09-16"
+repository:
+  name: FamilySearch Historical Records
+  archive_or_registry: >-
+    Quinta Circunscrição do Registro Civil, Rio de Janeiro, Rio de Janeiro, Brazil
+  collection: Brasil, Rio de Janeiro, Registro Civil, 1804-2013
+  page: "103"
+  record_number: "63792"
+  catalogue_reference: >-
+    Óbito nº 63.792, Livro 386-C, fl. 103, Quinta Circunscrição do Registro Civil,
+    Rio de Janeiro, RJ. Located via a FamilySearch Records relationship-persona
+    search and delivered through the research/from-retrieval/ sync; the exact ARK
+    was not captured in the drop filename. Read and promoted 30 July 2026.
+  repository_path: evidence/civil/CIV-0018-maria-aurora-guimaraes-death-1991.jpg
+access_date: "2026-07-30"
+language: pt-BR
+transcription: >-
+  [Óbito nº 63.792.] "Aos dezesseis de setembro de mil novecentos e noventa e um,
+  nesta cidade e em cartório, compareceu [Antonio Engracio Neto], prof. policial
+  ... e exibindo o atestado de óbito firmado pelo médico Dr. Braulio dos Santos
+  Junior, prestou as seguintes declarações: Nome do obituado: Maria Aurora
+  Guimarães. Data e hora do falecimento: 15/setembro/1991 às 13,30 horas. Est.
+  civil viúva de Antonio Engracio Filho. Sexo feminino, idade 87 anos. Lugar do
+  falecimento: rua David Campista, 326 - Hospital. Residência: Av. Ten. Ribeiro,
+  361/201, prof. do lar. Naturalidade: Estado de Minas Gerais. Nome dos pais do
+  obituado: Francisco José de Carvalho Guimarães e Emerenciana Maria de Jesus.
+  Causa mortis: infecção respiratória, doença pulmonar obstrutiva crônica,
+  hipertensão arterial sistêmica, insuficiência renal aguda. Lugar do sepultamento:
+  Cemitério São Francisco Xavier. Deixou cinco filhos maiores." The declarant
+  (a relative) is named in the register; his identifying document is withheld here
+  for privacy.
+abstract: >-
+  Original civil death register recording the death of Maria Aurora Guimarães
+  (P-0011) on 15 September 1991 at Rio de Janeiro, aged 87 (so born c.1904),
+  widow of Antonio Engracio Filho (P-0010), born in Minas Gerais. It names her
+  parents as Francisco José de Carvalho Guimarães (P-0021) and Emerenciana Maria
+  de Jesus (P-0022) — the same couple named in her 1904 birth registration
+  (CIV-0007) — and reports five surviving adult children.
+reliability:
+  assessment: >-
+    Original civil-register evidence: direct for the death, date and age, and it
+    directly reports her as the widow of Antonio Engracio Filho. Her parents are
+    stated as secondary (informant-reported) information, but they match CIV-0007
+    exactly.
+  informant: A relative of the deceased (name withheld here for privacy).
+  limitations: >-
+    The register page also carries three unrelated adjacent death entries
+    (nº 63.793, 63.794, 63.795). The parent names are informant-reported at death.
+digital_file:
+  path: evidence/civil/CIV-0018-maria-aurora-guimaraes-death-1991.jpg
+  sha256: 301f6741922d3fd4a5aa19204a59030e06d6aaa46fbf1e84533f2df38ffcea1c
+linked_people:
+- P-0011
+- P-0010
+- P-0021
+- P-0022
+linked_families:
+- F-0008
+- F-0012
+linked_events:
+- E-0025
+linked_places: []
+private: true
+notes:
+- text: >-
+    Resolves material conflict 10: the 1904 birth registration (CIV-0007) recorded
+    "Maria Amora Guimarães" and this 1991 death records "Maria Aurora Guimarães",
+    but both name the identical parents (Francisco José de Carvalho Guimarães +
+    Emerenciana Maria de Jesus), proving the two forms are one woman (P-0011).
+    "Emerenciana" here matches "Emmerenciana" in CIV-0007 (spelling preserved).

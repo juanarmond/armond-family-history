@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0025
+event_type: death
+date:
+  kind: exact
+  value: "1991-09-15"
+place_text: Rio de Janeiro, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0011
+  role: principal
+status: confirmed
+source_ids:
+- CIV-0018
+notes:
+- text: >-
+    Maria Aurora Guimarães died 15 September 1991 at the hospital on rua David
+    Campista, Rio de Janeiro (act 16 September), aged 87, a widow, per her original
+    civil death (CIV-0018). Buried at the Cemitério São Francisco Xavier.

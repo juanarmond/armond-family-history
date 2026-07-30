@@ -300,21 +300,33 @@ people:
   - record_type: birth
     status: lead_only
     source_ids: []
-    last_reviewed: "2026-07-28"
-    next_action: Locate the birth or baptism around 1889–1890.
-    notes: []
+    last_reviewed: "2026-07-30"
+    next_action: Locate the birth or baptism in Minas Gerais around 1894–1895.
+    notes:
+    - text: >-
+        His 1964 death (CIV-0017) gives age 69 and naturalidade Minas Gerais, so
+        born c.1894–1895 in MG (E-0024, strong-evidence); revises the earlier
+        1889–1890 estimate.
   - record_type: marriage
     status: lead_only
     source_ids: []
-    last_reviewed: "2026-07-28"
+    last_reviewed: "2026-07-30"
     next_action: Locate the marriage to Maria Aurora Guimarães.
-    notes: []
+    notes:
+    - text: >-
+        Two civil deaths now attest the marriage (CIV-0017 "casado com Maria
+        Aurora Guimarães"; CIV-0018 "viúva de Antonio Engracio Filho"), but the
+        marriage act itself (date and place) is still unlocated.
   - record_type: death
-    status: lead_only
-    source_ids: []
-    last_reviewed: "2026-07-28"
-    next_action: Recover and catalogue the 1964 civil death registration.
-    notes: []
+    status: catalogued
+    source_ids:
+    - CIV-0017
+    last_reviewed: "2026-07-30"
+    notes:
+    - text: >-
+        1964 civil death (CIV-0017) catalogued: died 21 June 1964, aged 69, at
+        Rio de Janeiro. Names his parents Antonio Engracio de Souza (P-0032) and
+        Luzia Pinheiro da Conceição (P-0033); their own records are off-index.
   notes: []
 - person_id: P-0011
   external_profiles:
@@ -340,11 +352,15 @@ people:
     next_action: Locate the marriage to Antonio Engracio Filho.
     notes: []
   - record_type: death
-    status: lead_only
-    source_ids: []
-    last_reviewed: "2026-07-28"
-    next_action: Recover and catalogue the 1991 civil death registration.
-    notes: []
+    status: catalogued
+    source_ids:
+    - CIV-0018
+    last_reviewed: "2026-07-30"
+    notes:
+    - text: >-
+        1991 civil death (CIV-0018) catalogued: died 15 September 1991 at Rio de
+        Janeiro, aged 87. Names her parents (P-0021, P-0022), matching CIV-0007
+        and resolving material conflict 10.
   notes: []
 - person_id: P-0012
   external_profiles:

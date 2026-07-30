@@ -21,12 +21,14 @@ children:
     status: strong-evidence
     source_ids:
     - CIV-0007
+    - CIV-0018
     notes: []
   - parent_id: P-0022
     relationship_type: biological
     status: strong-evidence
     source_ids:
     - CIV-0007
+    - CIV-0018
     notes: []
   notes: []
 event_ids:
@@ -36,3 +38,8 @@ notes:
     The source calls the six registered children legitimate children of the
     declarant and his wife. The source is a certified derivative, so these
     assertions remain strong evidence rather than confirmed.
+- text: >-
+    Maria Aurora Guimarães's own 1991 civil death (CIV-0018) independently names
+    the same parents, corroborating this parent-child link. It stays
+    strong-evidence, not confirmed: CIV-0007 is a certified derivative and the
+    CIV-0018 parentage is informant-reported at death.

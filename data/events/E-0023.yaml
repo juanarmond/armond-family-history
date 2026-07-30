@@ -1,0 +1,19 @@
+schema_version: 1
+id: E-0023
+event_type: death
+date:
+  kind: exact
+  value: "1964-06-21"
+place_text: Rio de Janeiro, Brazil
+participants:
+- person_id: P-0010
+  role: principal
+status: confirmed
+source_ids:
+- CIV-0017
+notes:
+- text: >-
+    Antonio Engracio Filho died 21 June 1964 (act registered 22 June), aged 69,
+    per his original civil death (CIV-0017). He resided at Pavuna (then Estado da
+    Guanabara) and was buried at the Cemitério de São João de Meriti; the exact
+    death address is only partly legible, so the place is recorded at city level.

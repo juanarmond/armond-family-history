@@ -1,0 +1,32 @@
+schema_version: 1
+id: F-0015
+partners:
+- person_id: P-0032
+  role: parent
+- person_id: P-0033
+  role: parent
+children:
+- person_id: P-0010
+  parent_relationships:
+  - parent_id: P-0032
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - CIV-0017
+    notes: []
+  - parent_id: P-0033
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - CIV-0017
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Antonio Engracio de Souza and Luzia Pinheiro da Conceição, parents of Antonio
+    Engracio Filho (P-0010). Established by his 1964 civil death (CIV-0017), which
+    names both as his parents and reports them already deceased. Strong-evidence,
+    not confirmed — the parentage is informant-reported at death by a son. This
+    group records the reported parents; it does not independently assert a
+    marriage between them.

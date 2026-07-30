@@ -9,10 +9,21 @@ name_variants:
     source_ids:
       - REC-0001
       - CIV-0002
-event_ids: []
+      - CIV-0017
+event_ids:
+  - E-0023
+  - E-0024
 family_ids:
   - F-0012
+  - F-0015
 notes:
   - text: >-
       Ahnentafel position 10. Exact spelling and diacritics require
       reconciliation against the original civil records.
+  - text: >-
+      Died 21 June 1964 at Rio de Janeiro (residence Pavuna, then Guanabara;
+      buried São João de Meriti), aged 69 (so born c.1895 in Minas Gerais), a
+      negociante married to Maria Aurora Guimarães, per his civil death
+      (CIV-0017). His parents were Antonio Engracio de Souza (P-0032) and Luzia
+      Pinheiro da Conceição (P-0033) — family F-0015 — both already deceased by
+      1964. The record reports six surviving adult children.
