@@ -73,3 +73,16 @@ Significance:
    per Nilza) and the Muriaé comarca for the family's own inventários.
 4. The **Muriaé comarca** (FamilySearch full-text notarial/probate collection) is
    now the primary home of the family's probate evidence.
+
+## Update 2026-07-30 — the FAN-role images catalogued
+
+The 12 third-party (FAN) probate/notarial images in this batch — where Simplício
+(P-0016) or Aristão (P-0008) appear as creditor, witness, appraiser, attorney,
+party or co-owner — were catalogued as FAN entities **FAN-0002–FAN-0013**
+(alongside FAN-0001, the 1875 procuração), transcribed from the Full-Text OCR
+extract, and flattened into `evidence/references/` under `FAN-NNNN-…` names. The
+`armond-muriae-fulltext-probates/` subfolder and its set README were removed; the
+full candidate list was preserved as
+`logs/2026-07-29-fulltext-muriae-leopoldina-candidates.csv`. The two subject
+records remain catalogued as PRB-0001 (1881 inventário) and PRB-0002 (1884
+petition) in `evidence/probate/`.

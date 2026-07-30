@@ -1,0 +1,48 @@
+schema_version: 1
+id: FAN-0009
+title: >-
+  Undated Muriaé partilha/testamento proposing Simplício José Ferreira Armond as
+  louvado
+record_type: Partilha / testamento (probate; undated)
+record_category: court_or_probate
+usage: context
+event_date:
+  kind: unknown
+  text: >-
+    Undated; faint preview image. Muriaé comarca, from the same 1900s-1910s
+    Full-Text probate batch.
+event_place_text: Muriaé, Minas Gerais, Brazil
+repository:
+  name: FamilySearch Full-Text (Minas Gerais court and notarial records)
+  archive_or_registry: Comarca de Muriaé, Minas Gerais
+  collection: Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text)
+  catalogue_reference: FamilySearch ARK 3:1:3QHK-YQ79-79HH-J
+  url: https://www.familysearch.org/ark:/61903/3:1:3QHK-YQ79-79HH-J
+access_date: "2026-07-29"
+language: pt-BR
+transcription: >-
+  [FamilySearch Full-Text OCR extract:] "… por parte de seu constitu[inte] …
+  os cidad[ãos] Padre Luiz Gonçalves de Barros e Simplicio José Ferreira Armond
+  … offerec[e]-se … mandan[do] …". Machine OCR of a faint, undated preview
+  image; not a full manual reading.
+abstract: >-
+  An undated Muriaé probate/partition (with testamentary matter) in which
+  Simplício José Ferreira Armond (P-0016) is proposed alongside Padre Luiz
+  Gonçalves de Barros in a functional role (louvado/nominee). Faint image;
+  retained as FAN context, subject not this family.
+digital_file:
+  path: >-
+    evidence/references/FAN-0009-sd-muriae-partilha-simplicio-louvado.jpg
+  sha256: 5691eb458f2dcd2f5ba3b0c15b0a14a8048ef2139b989fc2e70d170b2c2b8d96
+participants:
+- person_id: P-0016
+  role: proposto louvado / nomeado (proposed appraiser/nominee)
+  note: Named in a functional role in a third party's undated proceeding.
+private: false
+notes:
+- text: >-
+    Located via FamilySearch Full-Text search for "Simplicio Ferreira Armond".
+    One of the Muriaé/Leopoldina FAN reference set (FAN-0001-FAN-0013); the
+    transcription is the Full-Text OCR extract of a faint, undated preview, not
+    a full manual reading. Search context in
+    logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md.

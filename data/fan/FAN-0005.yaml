@@ -1,0 +1,46 @@
+schema_version: 1
+id: FAN-0005
+title: >-
+  1906 Muriaé rural land survey (Fazenda Dores da Vitória) with Capitão Simplício
+  José Ferreira Armond as substitute arbitrator
+record_type: Auto de medição de fazenda (rural land survey)
+record_category: land_or_survey
+usage: context
+event_date:
+  kind: year
+  year: 1906
+event_place_text: Muriaé, Minas Gerais, Brazil
+repository:
+  name: FamilySearch Full-Text (Minas Gerais court and notarial records)
+  archive_or_registry: Comarca de Muriaé, Minas Gerais
+  collection: Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text)
+  catalogue_reference: FamilySearch ARK 3:1:3QHJ-RQQH-2ZDL
+  url: https://www.familysearch.org/ark:/61903/3:1:3QHJ-RQQH-2ZDL
+access_date: "2026-07-29"
+language: pt-BR
+transcription: >-
+  [FamilySearch Full-Text OCR extract:] "… de Albuquerque, [ju]iz de [Direito]
+  da Co[marca], onde eu escrivão fui, ahi presente o Capitão Simplicio José
+  Ferreira Armond, [supp]lente de arbitrad[or] … e approvador para …". Machine
+  OCR of a faint preview image; not a full manual reading.
+abstract: >-
+  A rural land survey (medição) of a fazenda in the Muriaé comarca in which
+  Captain Simplício José Ferreira Armond (P-0016) acted as substitute arbitrator
+  (suplente de arbitrador). Functional role in a third party's proceeding;
+  retained as FAN context for his local standing.
+digital_file:
+  path: >-
+    evidence/references/FAN-0005-1906-muriae-medicao-simplicio-arbitrador.jpg
+  sha256: e47382b99562e655a7f067b163df17fc0947402bbf92cfe646be8052b358d7a3
+participants:
+- person_id: P-0016
+  role: suplente de arbitrador (substitute arbitrator)
+  note: Court-appointed functional role in a third party's land survey.
+private: false
+notes:
+- text: >-
+    Located via FamilySearch Full-Text search for "Simplicio Ferreira Armond".
+    One of the Muriaé/Leopoldina FAN reference set (FAN-0001-FAN-0013); the
+    transcription is the Full-Text OCR extract of a faint preview, not a full
+    manual reading. Search context in
+    logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md.

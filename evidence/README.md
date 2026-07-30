@@ -20,10 +20,12 @@ folder. Create a category directory only when its first document is added:
 | `immigration/` | immigration / passenger records | `immigration` |
 | `naturalisation/` | naturalisation records | `naturalisation` |
 
-`references/` is **not** an origin category. It holds retained FAN/context images
-— records where our people appear only in a functional role (witness, appraiser,
-creditor, attorney) — that are deliberately **not** catalogued as individual
-sources. See the set-level `references/<set>/README.md`.
+`references/` is **not** an origin category. It holds FAN/context images —
+records where our people appear only in a functional role (witness, appraiser,
+creditor, attorney, party, co-owner). Each image is catalogued as a FAN entity
+(`data/fan/FAN-NNNN.yaml`, `usage: context`) with a transcription and a person
+link, named `FAN-NNNN-…` and kept flat (no per-set subfolders). FAN references
+are context, never sources. See `references/README.md`.
 
 ## File handling
 

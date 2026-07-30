@@ -1,0 +1,45 @@
+schema_version: 1
+id: FAN-0008
+title: >-
+  1913 Muriaé inventário (closing) with Simplício José Ferreira Armond as witness
+record_type: Auto de inventário - encerramento (probate inventory, closing)
+record_category: court_or_probate
+usage: context
+event_date:
+  kind: year
+  year: 1913
+event_place_text: Muriaé, Minas Gerais, Brazil
+repository:
+  name: FamilySearch Full-Text (Minas Gerais court and notarial records)
+  archive_or_registry: Comarca de Muriaé, Minas Gerais
+  collection: Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text)
+  catalogue_reference: FamilySearch ARK 3:1:3QHJ-RQQ4-B9Y7
+  url: https://www.familysearch.org/ark:/61903/3:1:3QHJ-RQQ4-B9Y7
+access_date: "2026-07-29"
+language: pt-BR
+transcription: >-
+  [FamilySearch Full-Text OCR extract:] "… e Medeiros, escrivão, o subscrevo.
+  Muriahé 26 de Julho de 1913 … Simplicio Joze Ferreira Armond … Remessa — Aos
+  30 de … remessa destes autos …". Machine OCR of a faint preview image; not a
+  full manual reading.
+abstract: >-
+  The closing of a third party's probate inventory at Muriaé, dated 26 July
+  1913, in which Simplício José Ferreira Armond (P-0016) appears as a witness.
+  Functional role; retained as FAN context for his presence in the Muriaé
+  comarca late in life.
+digital_file:
+  path: >-
+    evidence/references/FAN-0008-1913-muriae-inventario-simplicio-testemunha.jpg
+  sha256: c3fb087abc8ca841fd1f3d2b4f24afef7efce723ad0670ed3998346dccfc029d
+participants:
+- person_id: P-0016
+  role: testemunha (witness)
+  note: Witness at the closing of a third party's inventory.
+private: false
+notes:
+- text: >-
+    Located via FamilySearch Full-Text search for "Simplicio Ferreira Armond".
+    One of the Muriaé/Leopoldina FAN reference set (FAN-0001-FAN-0013); the
+    transcription is the Full-Text OCR extract of a faint preview, not a full
+    manual reading. Search context in
+    logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md.

@@ -1,0 +1,46 @@
+schema_version: 1
+id: FAN-0004
+title: >-
+  1904 Muriaé inventário in which Capitão Simplício José Ferreira Armond was
+  summoned as louvado (appraiser)
+record_type: Auto de inventário (probate inventory)
+record_category: court_or_probate
+usage: context
+event_date:
+  kind: year
+  year: 1904
+event_place_text: Muriaé, Minas Gerais, Brazil
+repository:
+  name: FamilySearch Full-Text (Minas Gerais court and notarial records)
+  archive_or_registry: Comarca de Muriaé, Minas Gerais
+  collection: Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text)
+  catalogue_reference: FamilySearch ARK 3:1:3QHV-YQQ4-CS46
+  url: https://www.familysearch.org/ark:/61903/3:1:3QHV-YQQ4-CS46
+access_date: "2026-07-29"
+language: pt-BR
+transcription: >-
+  [FamilySearch Full-Text OCR extract:] "… [Albuqu]erque, Escrivão que o
+  subscrevi. Certidão — Certifico que [in]timei nesta cidade o Cap.m …
+  Simplicio Jo[zé] Ferreira Armond … para despacho retro … juram[entado] …".
+  Machine OCR of a faint preview image; not a full manual reading.
+abstract: >-
+  A third party's probate inventory at Muriaé in which Captain Simplício José
+  Ferreira Armond (P-0016) was intimated/summoned to serve as a court-appointed
+  appraiser (louvado). His role is functional; the estate is not this family's.
+  Retained as FAN context for his standing ("Capitão") in the Muriaé comarca.
+digital_file:
+  path: >-
+    evidence/references/FAN-0004-1904-muriae-inventario-simplicio-louvado.jpg
+  sha256: c32a20433ea32b603ed0fe39410357b549377390a513788f209180f4c6a79d46
+participants:
+- person_id: P-0016
+  role: louvado (court-appointed appraiser), intimado
+  note: Summoned as appraiser in a third party's estate; a functional role.
+private: false
+notes:
+- text: >-
+    Located via FamilySearch Full-Text search for "Simplicio Ferreira Armond".
+    One of the Muriaé/Leopoldina FAN reference set (FAN-0001-FAN-0013); the
+    transcription is the Full-Text OCR extract of a faint preview, not a full
+    manual reading. Search context in
+    logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md.

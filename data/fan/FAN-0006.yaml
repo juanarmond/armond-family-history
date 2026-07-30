@@ -1,0 +1,46 @@
+schema_version: 1
+id: FAN-0006
+title: >-
+  1907 Muriaé partilha in which Simplício José Ferreira Armond acted as attorney
+  (procurador) for two parties
+record_type: Partilha (probate partition)
+record_category: court_or_probate
+usage: context
+event_date:
+  kind: year
+  year: 1907
+event_place_text: Muriaé, Minas Gerais, Brazil
+repository:
+  name: FamilySearch Full-Text (Minas Gerais court and notarial records)
+  archive_or_registry: Comarca de Muriaé, Minas Gerais
+  collection: Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text)
+  catalogue_reference: FamilySearch ARK 3:1:3QHJ-5QQH-2H6M
+  url: https://www.familysearch.org/ark:/61903/3:1:3QHJ-5QQH-2H6M
+access_date: "2026-07-29"
+language: pt-BR
+transcription: >-
+  [FamilySearch Full-Text OCR extract:] "… José Gomes Campos Sobrinho e José de
+  Oliveira Barros, [re]presentados pelo [procurador] Simplicio José Ferreira
+  Armond, conforme as [procura]ções juntas a estes autos …". Machine OCR of a
+  faint preview image; not a full manual reading.
+abstract: >-
+  A probate partition (partilha) at Muriaé in which Simplício José Ferreira
+  Armond (P-0016) represented two parties as their attorney (procurador). A
+  functional/representative role in a third party's estate; retained as FAN
+  context, not a record about this family.
+digital_file:
+  path: >-
+    evidence/references/FAN-0006-1907-muriae-partilha-simplicio-procurador.jpg
+  sha256: 97ed6e58ef8fdbcc7528e6dcd6564364402d125a64a0538fcd6f3dedb4343896
+participants:
+- person_id: P-0016
+  role: procurador (attorney for two parties)
+  note: Represented others in a third party's partition; a functional role.
+private: false
+notes:
+- text: >-
+    Located via FamilySearch Full-Text search for "Simplicio Ferreira Armond".
+    One of the Muriaé/Leopoldina FAN reference set (FAN-0001-FAN-0013); the
+    transcription is the Full-Text OCR extract of a faint preview, not a full
+    manual reading. Search context in
+    logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md.

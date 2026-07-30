@@ -1,0 +1,51 @@
+schema_version: 1
+id: FAN-0002
+title: >-
+  c.1882-1883 Leopoldina conta de partilha (estate of D. Rita Maria Ferreira)
+  listing Simplício José Ferreira Armond among the payees
+record_type: Conta de partilha (probate distribution account)
+record_category: court_or_probate
+usage: context
+event_date:
+  kind: approximate
+  text: >-
+    Conta de partilha c.1882-1883; the containing FamilySearch file is indexed
+    1885.
+  earliest: 1882
+  latest: 1885
+event_place_text: Leopoldina, Minas Gerais, Brazil
+repository:
+  name: FamilySearch Full-Text (Minas Gerais court and notarial records)
+  archive_or_registry: Comarca de Leopoldina, Minas Gerais
+  collection: Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text)
+  catalogue_reference: FamilySearch ARK 3:1:3QHJ-HQ4H-CJQM
+  url: https://www.familysearch.org/ark:/61903/3:1:3QHJ-HQ4H-CJQM
+access_date: "2026-07-29"
+language: pt-BR
+transcription: >-
+  [FamilySearch Full-Text OCR extract:] "… Candido Ferreira da Silva Pinto,
+  doc.to 106 … a Aurelio Ferreira da Silva Pinto, Idem a Simplicio Joze Ferreira
+  Armond, … Idem a Camara Municipal, Idem Simplicio Joze …". Machine OCR of a
+  faint preview image; not a full manual reading.
+abstract: >-
+  A probate distribution account (conta de partilha) in the estate of D. Rita
+  Maria Ferreira, Leopoldina, in which Simplício José Ferreira Armond (P-0016)
+  appears among the parties credited/paid. He figures only as a creditor/payee
+  in a third party's estate — FAN context for his presence and standing in the
+  Leopoldina comarca, not a record about this family.
+digital_file:
+  path: >-
+    evidence/references/FAN-0002-1882-leopoldina-conta-rita-maria-ferreira-simplicio-credor.jpg
+  sha256: 7fea9377d6e3f6f35190e23b7f81566bce46f940ce68185252d99e20924e5976
+participants:
+- person_id: P-0016
+  role: credor / pagável (payee in the conta de partilha)
+  note: Appears only as a payee in a third party's estate account.
+private: false
+notes:
+- text: >-
+    Located via FamilySearch Full-Text search for "Simplicio Ferreira Armond".
+    One of the Muriaé/Leopoldina FAN reference set (FAN-0001-FAN-0013); the
+    transcription is the Full-Text OCR extract of a faint preview, not a full
+    manual reading. Search context in
+    logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md.

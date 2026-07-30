@@ -1,0 +1,45 @@
+schema_version: 1
+id: FAN-0012
+title: >-
+  1917 Muriaé apportionment among creditors (rateio) listing Aristão Ferreira
+  Armond
+record_type: Rateio entre credores (probate distribution among creditors)
+record_category: court_or_probate
+usage: context
+event_date:
+  kind: year
+  year: 1917
+event_place_text: Muriaé, Minas Gerais, Brazil
+repository:
+  name: FamilySearch Full-Text (Minas Gerais court and notarial records)
+  archive_or_registry: Comarca de Muriaé, Minas Gerais
+  collection: Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text)
+  catalogue_reference: FamilySearch ARK 3:1:3QHV-ZQQP-PFRL
+  url: https://www.familysearch.org/ark:/61903/3:1:3QHV-ZQQP-PFRL
+access_date: "2026-07-29"
+language: pt-BR
+transcription: >-
+  [FamilySearch Full-Text OCR extract:] "… Isidoro Isaías Gonçalves 23$617;
+  Francisco Antunes Pimentel 33$140 … e o Aristão Ferreira Armond … 19$352 …
+  Soma 321:035 …". Machine OCR of a faint preview image; not a full manual
+  reading.
+abstract: >-
+  An apportionment among creditors (rateio) in a Muriaé probate, listing Aristão
+  Ferreira Armond (P-0008) among the creditors with a sum of about 19$352. A
+  functional (creditor) role; retained as FAN context, subject not this family.
+digital_file:
+  path: >-
+    evidence/references/FAN-0012-1917-muriae-rateio-credores-aristao.jpg
+  sha256: 37f2424127a079b5bbededb00ad1f40c81a55ae403e4d8e8cafce878d90d0e08
+participants:
+- person_id: P-0008
+  role: credor (one of the creditors in the apportionment)
+  note: Listed among creditors receiving a share in a third party's estate.
+private: false
+notes:
+- text: >-
+    Located via FamilySearch Full-Text search for "Aristão Ferreira Armond".
+    One of the Muriaé/Leopoldina FAN reference set (FAN-0001-FAN-0013); the
+    transcription is the Full-Text OCR extract of a faint preview, not a full
+    manual reading. Search context in
+    logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md.

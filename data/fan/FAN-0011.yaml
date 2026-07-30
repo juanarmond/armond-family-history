@@ -1,0 +1,50 @@
+schema_version: 1
+id: FAN-0011
+title: >-
+  c.1917 Muriaé inventário of Antonio Marques da Silva with Aristão Ferreira
+  Armond as creditor
+record_type: Auto de inventário (probate inventory)
+record_category: court_or_probate
+usage: context
+event_date:
+  kind: approximate
+  text: >-
+    c.1917 (references a 1907 debt); the containing FamilySearch file is indexed
+    1919.
+  earliest: 1917
+  latest: 1919
+event_place_text: São Paulo do Muriaé, Minas Gerais, Brazil
+repository:
+  name: FamilySearch Full-Text (Minas Gerais court and notarial records)
+  archive_or_registry: Comarca de Muriaé, Minas Gerais
+  collection: Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text)
+  catalogue_reference: FamilySearch ARK 3:1:3QHV-4QQP-GPBY
+  url: https://www.familysearch.org/ark:/61903/3:1:3QHV-4QQP-GPBY
+access_date: "2026-07-29"
+language: pt-BR
+transcription: >-
+  [FamilySearch Full-Text OCR extract:] "… desde que não ha privilegio. … 29 de
+  Março de 1907 — Lino de Melo. … Aristão Ferreira Armond, abaixo assignado,
+  tendo requerido o pagamento do que lhe deve o espolio do finado …". Machine
+  OCR of a faint preview image; not a full manual reading.
+abstract: >-
+  The probate inventory of Antonio Marques da Silva (São Paulo do Muriaé) in
+  which Aristão Ferreira Armond (P-0008) petitions as a creditor for payment of
+  a debt owed by the estate. A functional (creditor) role; retained as FAN
+  context for Aristão's adult presence in the Muriaé comarca.
+digital_file:
+  path: >-
+    evidence/references/FAN-0011-1917-muriae-inventario-antonio-marques-da-silva-aristao-credor.jpg
+  sha256: 702aee49d48e4729c8be49105379757b246d7fcf89f512a94e2a4210bee7921b
+participants:
+- person_id: P-0008
+  role: credor (creditor claiming against the estate)
+  note: Petitioned for payment of a debt owed by a third party's estate.
+private: false
+notes:
+- text: >-
+    Located via FamilySearch Full-Text search for "Aristão Ferreira Armond".
+    One of the Muriaé/Leopoldina FAN reference set (FAN-0001-FAN-0013); the
+    transcription is the Full-Text OCR extract of a faint preview, not a full
+    manual reading. Search context in
+    logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md.

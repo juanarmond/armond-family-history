@@ -1,0 +1,46 @@
+schema_version: 1
+id: FAN-0003
+title: >-
+  1889 Muriaé escritura/traslado naming Simplício José Ferreira Armond as one of
+  the parties
+record_type: Escritura / traslado (notarial deed)
+record_category: notarial
+usage: context
+event_date:
+  kind: year
+  year: 1889
+event_place_text: Muriaé, Minas Gerais, Brazil
+repository:
+  name: FamilySearch Full-Text (Minas Gerais court and notarial records)
+  archive_or_registry: Cartório/Comarca de Muriaé, Minas Gerais
+  collection: Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text)
+  catalogue_reference: FamilySearch ARK 3:1:3QHJ-5QQH-275Y
+  url: https://www.familysearch.org/ark:/61903/3:1:3QHJ-5QQH-275Y
+access_date: "2026-07-29"
+language: pt-BR
+transcription: >-
+  [FamilySearch Full-Text OCR extract:] "… na Isidoria de Oliveira, Emerenciana
+  Joaquina de Oliveira, Manoel Mendes de Cerqueira, Simplicio José Ferreira
+  Armond, João Rodrigues de Oliveira e Silva. Estavão quatro estamp[ilhas] …".
+  Machine OCR of a faint preview image; not a full manual reading.
+abstract: >-
+  A Muriaé notarial deed (escritura/traslado) that lists Simplício José Ferreira
+  Armond (P-0016) among the named parties/signatories alongside several others.
+  Retained as FAN context for his network and standing in the Muriaé comarca; it
+  is not a record whose subject is this family.
+digital_file:
+  path: >-
+    evidence/references/FAN-0003-1889-muriae-escritura-simplicio-parte.jpg
+  sha256: 1e695c3edf48d6486fabbc4012fb8cad66bdb3c00eebe51114aa205946298091
+participants:
+- person_id: P-0016
+  role: parte / signatário (one of the parties named in the deed)
+  note: One of several parties; not the subject of the act.
+private: false
+notes:
+- text: >-
+    Located via FamilySearch Full-Text search for "Simplicio Ferreira Armond".
+    One of the Muriaé/Leopoldina FAN reference set (FAN-0001-FAN-0013); the
+    transcription is the Full-Text OCR extract of a faint preview, not a full
+    manual reading. Search context in
+    logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md.

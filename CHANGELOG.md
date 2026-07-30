@@ -30,6 +30,16 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Catalogue the Muriaé/Leopoldina Full-Text FAN set as FAN entities FAN-0002–
+  FAN-0013 — third-party probate/notarial records where Simplício José Ferreira
+  Armond (P-0016) or Aristão Ferreira Armond (P-0008) appear only in a functional
+  role (creditor, witness, appraiser/louvado, attorney, party, co-owner) — each
+  with a transcription and a person link. Flatten the images into
+  `evidence/references/` under `FAN-NNNN-…` names, fix FAN-0001's path, remove the
+  `armond-muriae-fulltext-probates/` subfolder, and preserve the Full-Text
+  candidate list as `logs/2026-07-29-fulltext-muriae-leopoldina-candidates.csv`.
+  Codify the references-folder rule (one catalogued FAN entity per flat,
+  `FAN-NNNN`-named image) in `evidence/README.md` and `evidence/references/README.md`.
 - Catalogue two Barbacena-context sources from the retrieval resources cache
   via the value gate: PUB-0002 (Antônio Henrique Duarte Lacerda's 2010 UFF
   doctoral thesis on the Ferreira Armonde family; published_genealogy,
