@@ -693,3 +693,20 @@ entry they amend; they must not erase it.
 - Conclusions changed: none promoted; the Barbacena bridge stays unproven.
 - Next action: promote the 1831 João Gomes list only if the namesake lead is
   pursued; otherwise keep the remaining resources as leads.
+
+## 2026-07-30 — Retrieval drop: Records-index sweep + new Amaro image
+
+- Question: value-gate the 2026-07-30 retrieval re-sync (a FamilySearch
+  Records/personas index run over the expanded people.txt roster) and the one new
+  image.
+- Detailed log:
+  [`logs/2026-07-30-from-retrieval-records-index-sweep.md`](2026-07-30-from-retrieval-records-index-sweep.md).
+- Key result: one lead — Geraldo Paz Armond's 1915 RJ civil birth in the FS
+  Records index (ARK 77DD-TX6Z, parents Aristão + Liliosa), recorded on P-0004
+  (index-only; retrieve the image). The other 17 roster names returned only
+  namesakes, so the maternal/other lines are not in FS's indexed civil
+  collections (pursue unindexed registers). The new image L3VN-5KKJ is more Amaro
+  (Neves-Armond) collateral — read, not ingested.
+- Conclusions changed: none; no new evidence or entities.
+- Next action: retrieve the Geraldo 1915 birth image; take the maternal lines
+  off-tool to local registries.

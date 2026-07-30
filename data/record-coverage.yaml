@@ -17,9 +17,19 @@ people:
   - record_type: birth
     status: lead_only
     source_ids: []
-    last_reviewed: "2026-07-28"
-    next_action: Locate the 1915 civil birth or parish baptism record.
-    notes: []
+    last_reviewed: "2026-07-30"
+    next_action: >-
+      Retrieve the 1915 Rio de Janeiro civil birth image via the FamilySearch
+      Records-index entry 77DD-TX6Z ("Brasil, Rio de Janeiro, Registro Civil,
+      1804-2013"); the index already reports parents Aristão Ferreira Armond and
+      Liliosa Paz Armond (and spouse Cidalia Engracio), so it is the same Geraldo.
+    notes:
+    - text: >-
+        30 July 2026 (retrieval-agent Records-index sweep): Geraldo's birth is
+        located in the FamilySearch personas index as ARK 77DD-TX6Z, an index
+        lead only (no image retrieved). His marriage (CIV-0002, 1952) and death
+        (CIV-0003, 1991) already document the same parentage; retrieve the birth
+        image to add the earliest primary record of his filiation.
   - record_type: marriage
     status: catalogued
     source_ids:
