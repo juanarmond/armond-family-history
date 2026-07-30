@@ -151,6 +151,12 @@ function createPersonCard(person, relationship, options = {}) {
   place.className = "person-place";
   place.textContent = primaryPlace(person);
   main.append(name, years, place);
+  if (person.nationality) {
+    const nationality = document.createElement("span");
+    nationality.className = "person-nationality";
+    nationality.textContent = person.nationality;
+    main.append(nationality);
+  }
 
   const meta = document.createElement("span");
   meta.className = "card-meta";
@@ -586,6 +592,7 @@ function openDetails(personId) {
     [t("fact.sources"), String(person.sourceCount)],
     [t("fact.contextRefs"), String((person.fanReferences || []).length)],
     [t("fact.birthplace"), person.events.find((event) => event.type === "birth")?.place?.name || t("value.notEstablished")],
+    [t("fact.nationality"), person.nationality || t("value.notEstablished")],
     [t("fact.deathplace"), person.events.find((event) => event.type === "death")?.place?.name || t("value.notEstablished")],
   ];
   for (const [term, value] of factRows) {

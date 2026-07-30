@@ -320,6 +320,9 @@ export function projectTreeData({ people, families, events, places, sources, fan
       id: personId,
       name: person.preferred_name || personId,
       privacy,
+      nationality: typeof person.nationality === "string" && person.nationality.trim()
+        ? person.nationality.trim()
+        : null,
       nameVariants: living ? [] : variants,
       events: [...(personEvents[personId] || [])].sort((a, b) =>
         `${a.type}${JSON.stringify(a.date)}`.localeCompare(`${b.type}${JSON.stringify(b.date)}`),

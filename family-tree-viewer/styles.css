@@ -545,7 +545,7 @@ a:focus-visible {
   color: var(--ink);
 }
 
-.person-years, .person-place {
+.person-years, .person-place, .person-nationality {
   grid-column: 2;
   display: block;
   color: var(--muted);
@@ -558,6 +558,15 @@ a:focus-visible {
   font-variant-numeric: tabular-nums;
 }
 .person-place { font-size: .78rem; font-style: italic; }
+.person-nationality {
+  margin-top: .12rem;
+  font-family: var(--sans);
+  font-size: .64rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
 
 .card-meta {
   grid-column: 1 / -1;

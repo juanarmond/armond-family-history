@@ -43,6 +43,13 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Add a `nationality` field to the person schema and surface it in the viewer:
+  each card now shows, below the name, the lifespan, the birthplace and the
+  nationality, and the details overview gains a Nationality row. Nationality is
+  populated evidence-based — Brazilian by Brazilian birth, Portuguese for Vicente
+  José de Carvalho Guimarães (CIV-0007) — and left unset for João Muniz
+  Bittencourt (P-0019), whose nationality is genuinely contested. Covered by
+  `tests/js/data_loader.test.mjs`.
 - Extend the maternal Bohrer line two generations from three primary Rio de
   Janeiro civil records (retrieval sync): catalogue João Gonçalves Bohrer's 1970
   Volta Redonda death (CIV-0014), Celina/Selina Bohrer's 1977 death (CIV-0015)

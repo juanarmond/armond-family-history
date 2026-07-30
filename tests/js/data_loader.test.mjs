@@ -13,6 +13,7 @@ function fixtures() {
       id: "P-1",
       preferred_name: "Ann Alpha",
       privacy: "deceased",
+      nationality: "Brazilian",
       name_variants: [{ value: "Ann Alpha" }, { value: "Anna Alpha" }],
       occupations: [{ value: "lavrador", source_ids: ["S-1"], note: "test note" }],
       notes: [{ text: "Possible conflict with the civil record." }],
@@ -28,6 +29,7 @@ function fixtures() {
       id: "P-3",
       preferred_name: "Private living person",
       privacy: "living",
+      nationality: "Brazilian",
       name_variants: [{ value: "A Real Living Name" }],
       occupations: [{ value: "secret job", source_ids: ["S-1"] }],
       notes: [{ text: "Sensitive living-person note." }],
@@ -257,6 +259,17 @@ test("FAN references are projected per person with role, place and transcription
   assert.equal(refs[0].transcription, "… Ann Alpha, testemunha …");
   assert.equal(refs[0].file, "../evidence/references/FAN-1.jpg");
   assert.equal(data.people["P-2"].fanReferences.length, 0);
+});
+
+test("nationality is projected, defaults to null, and is kept for the living", () => {
+  const data = projectTreeData(fixtures());
+  assert.equal(data.people["P-1"].nationality, "Brazilian");
+  assert.equal(data.people["P-4"].nationality, null, "absent nationality projects as null");
+  assert.equal(
+    data.people["P-3"].nationality,
+    "Brazilian",
+    "nationality is low-sensitivity and is not redacted for living people",
+  );
 });
 
 test("source view carries transcription and abstract", () => {

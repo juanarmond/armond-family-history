@@ -33,6 +33,10 @@
         "unknown"
       ]
     },
+    "nationality": {
+      "type": "string",
+      "minLength": 1
+    },
     "name_variants": {
       "type": "array",
       "minItems": 1,
