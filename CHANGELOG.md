@@ -49,6 +49,11 @@ also remain traceable through source records and research logs.
 
 ### Changed
 
+- Set P-0016's preferred name to "Simplício José Ferreira Armond" (owner-confirmed
+  full name) — it matches his autograph signature (PRB-0002) and the two 1880s
+  Leopoldina probate records; the shorter source forms "Simplicio Armand" (CIV-0005)
+  and "Simplício Ferreira Armond" (CIV-0013) stay as variants. Coverage note and
+  the inventory identity label updated to match.
 - Transcription deep-dive: verified every source transcription against the images
   where available and confirmed each aligns with the structured entities. Fixed two
   alignment gaps it surfaced — recorded the probate name forms "Simplicio José
