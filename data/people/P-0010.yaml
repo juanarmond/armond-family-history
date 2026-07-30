@@ -8,8 +8,11 @@ name_variants:
     type: source
     source_ids:
       - REC-0001
-      - CIV-0002
       - CIV-0017
+  - value: Antônio Engrácio de Souza
+    type: source
+    source_ids:
+      - CIV-0002
 event_ids:
   - E-0023
   - E-0024
@@ -18,12 +21,14 @@ family_ids:
   - F-0015
 notes:
   - text: >-
-      Ahnentafel position 10. Exact spelling and diacritics require
-      reconciliation against the original civil records.
+      Ahnentafel position 10. Recorded both as "Antonio Engracio Filho" (family
+      roster REC-0001; his 1964 death CIV-0017) and "Antônio Engrácio de Souza"
+      (his daughter Cidalia's 1952 marriage CIV-0002) — "Filho" distinguishes him
+      from his father Antonio Engracio de Souza (P-0032), who shares the base name.
   - text: >-
-      Died 21 June 1964 at Rio de Janeiro (residence Pavuna, then Guanabara;
-      buried São João de Meriti), aged 69 (so born c.1895 in Minas Gerais), a
-      negociante married to Maria Aurora Guimarães, per his civil death
-      (CIV-0017). His parents were Antonio Engracio de Souza (P-0032) and Luzia
-      Pinheiro da Conceição (P-0033) — family F-0015 — both already deceased by
-      1964. The record reports six surviving adult children.
+      Born 15 June 1894 in Minas Gerais (CIV-0002, recorded while living; the age 69
+      at his 1964 death, CIV-0017, implied c.1895). Died 21 June 1964 at Rio de
+      Janeiro (residence Pavuna, then Guanabara; buried São João de Meriti), a
+      negociante married to Maria Aurora Guimarães. His parents were Antonio Engracio
+      de Souza (P-0032) and Luzia Pinheiro da Conceição (P-0033) — family F-0015 —
+      both deceased by 1964; the record reports six surviving adult children.

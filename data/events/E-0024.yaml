@@ -2,20 +2,20 @@ schema_version: 1
 id: E-0024
 event_type: birth
 date:
-  kind: approximate
-  text: about 1895
-  earliest: 1894
-  latest: 1895
+  kind: exact
+  value: "1894-06-15"
 place_text: Minas Gerais, Brazil
 participants:
 - person_id: P-0010
   role: principal
 status: strong-evidence
 source_ids:
+- CIV-0002
 - CIV-0017
 notes:
 - text: >-
-    Birth year inferred from his stated age (69) at death in June 1964, so born
-    c.1894-1895; his 1964 civil death (CIV-0017) gives his naturalidade only as
-    the Estado de Minas Gerais, so the place is recorded at state level. No birth
-    record has been located.
+    Born 15 June 1894, per his daughter Cidalia's 1952 marriage (CIV-0002), which
+    names him "Antônio Engrácio de Souza, nascido em 15 de junho de 1894" — recorded
+    while he was living, so more reliable than the age (69) at his 1964 death
+    (CIV-0017), which implied c.1895. Naturalidade Minas Gerais (CIV-0017); the exact
+    birthplace is not stated, so the place is at state level. No birth record located.

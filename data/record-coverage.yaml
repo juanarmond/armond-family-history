@@ -253,12 +253,18 @@ people:
   - record_type: death
     status: lead_only
     source_ids: []
-    last_reviewed: "2026-07-29"
+    last_reviewed: "2026-07-30"
     next_action: >-
-      Search the Barra Mansa civil death index and books first (the highest-
-      probability unexamined target), then any pre-November-1946 Volta Redonda
-      death group; test both the 16 April and 15 November 1946 leads.
+      Obtain the Eugenópolis 1946 óbito (inteiro teor) — it would name Liliosa's
+      parents. The death date is now fixed at 16 April 1946 and her birthplace at
+      Eugenópolis (CIV-0002 → event E-0028), superseding the Barra Mansa / Volta
+      Redonda and 15 November 1946 leads.
     notes:
+    - text: >-
+        30 July 2026: Geraldo's 1952 marriage (CIV-0002) records his mother "Liliosa
+        Paz ... nascida aqui, falecida em 16-4-946" — fixing the death DATE (16 April
+        1946) and her birthplace (Eugenópolis). This is indirect (her son's marriage,
+        not her own óbito); her own death record is still needed for her parents.
     - text: >-
         FamilySearch source SJBH-LL3 resolves to Liliosa's mention as the
         mother of Geraldo in his 1991 death registration, not to Liliosa's own

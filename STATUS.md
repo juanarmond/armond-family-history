@@ -91,12 +91,12 @@ and cataloguing work.
 | --- | --- |
 | Structured people | 39 |
 | Structured families | 18 |
-| Structured events | 27 |
+| Structured events | 28 |
 | Structured places | 9 |
 | Structured sources | 33 |
 | Structured FAN references | 13 |
 | Inventoried retained documents | 32 |
-| Validation | 139 entities; zero errors or warnings at the last check |
+| Validation | 140 entities; zero errors or warnings at the last check |
 | Automated tests | 58 passing at the last check |
 
 The 33 catalogued sources (across the `CIV`, `GOV`, `PAR`, `PRB` and `PUB`
@@ -127,7 +127,10 @@ relationships. Collaborative profiles remain navigation leads only.
 1. Cidalia's birth date: 15 September or 15 November 1930; and the recorded
    `Engracio`, `Igracio` and married-name forms require source-by-source
    preservation rather than silent normalisation.
-2. Liliosa's exact death date, original surname and parents.
+2. Liliosa's death date is now RESOLVED (16 April 1946, per Geraldo's 1952
+   marriage CIV-0002 → event E-0028) and her birthplace is Eugenópolis, MG; her
+   original surname and parents remain unresolved (next: the Eugenópolis 1946 óbito
+   inteiro teor, which would name her parents).
 3. The fuller names and identities of Aristão's reported parents.
 4. The exact transcription of João Gonçalves Bohrer's parents.
 5. Vicente José de Carvalho Guimarães's Portuguese parish.

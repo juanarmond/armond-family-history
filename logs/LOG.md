@@ -5,6 +5,16 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-07-30 — Liliosa Paz Armond's death resolved (16 April 1946)
+
+- Outcome: from a clearer view of Geraldo's 1952 marriage (CIV-0002), catalogued
+  Liliosa's death (E-0028, 16 April 1946, Eugenópolis) — resolving material conflict
+  2's date and her birthplace — and corrected CIV-0002 (Cidalia's father "Antônio
+  Engrácio de Souza", b. 15 June 1894; refined P-0010's birth E-0024). Her parents
+  remain the next target (the Eugenópolis óbito).
+- Detailed log appended to
+  [`logs/2026-07-30-muniz-azevedo-aristides-ingest.md`](2026-07-30-muniz-azevedo-aristides-ingest.md).
+
 ## 2026-07-30 — Muniz/Azevedo: Aristides's baptism and Luiza's parents
 
 - Outcome: from a new retrieval sync, ingested Aristides Muniz Bittencourt's 1922

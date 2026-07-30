@@ -28,22 +28,29 @@ repository:
 access_date: "2026-07-28"
 language: pt-BR
 transcription: >-
-  CERTIFICO que, às fls. 21 [verso] do livro nº 13-B de registro de
-  Casamentos, foi celebrado o matrimônio de GERALDO PAZ ARMOND e CIDALIA
-  ENGRACIO GUIMARÃES. Ele, nascido em Limeira, aos 30 de janeiro de 1915,
-  [profession and intervening text obscured], filho de [text partly obscured].
-  Ela, nascida em Alvorada, aos 15 de setembro de 1930, profissão doméstica,
-  filha de Antonio Engracio Filho e Maria Aurora Guimarães [parts of the
-  parentage lines obscured]. A contraente passa a assinar-se "Cidalia Engracio
-  Armond". Observações: O casamento realizou-se no dia 31 de maio de 1952
-  [remaining text partly obscured].
+  [Casamento nº 898, Registro Civil de Eugenópolis, MG, livro 13-B.] "CERTIFICO que,
+  às fls. 22 do livro nº 13-B de registro de Casamentos, foi extraído hoje o assento
+  do matrimônio de Geraldo Paz Armond e Cidalia [Engracio] Guimarães, contraído
+  perante o Juiz [...] e as testemunhas Camilo [Soares] Galvão filho e [Mário Dutra
+  da Silva]. ÊLE, nascido em Limeira, Minas, aos 30 de janeiro de 1915, profissão
+  padeiro, residente nesta cidade, filho de [pai — nome rasgado; Aristão Ferreira
+  Armond per CIV-0003] e de D. Liliosa Paz [Armand], nascida aqui, falecida em
+  16-4-946. ELA, nascida em Alvorada, Minas, aos 15 de setembro de 1930, profissão
+  doméstica, residente nesta cidade, filha de Antônio Engrácio de Souza, nascido em
+  15 de junho de 1894, e de D. Maria Aurora Guimarães, nascida em 01 de janeiro de
+  1904, ambos residentes nesta cidade; a qual passa a assinar-se 'Cidalia Engrácio
+  Armond'. Foram apresentados os documentos a que se refere o Art. 180, nºs 1, 2, 4
+  do Código Civil. Observações: O casamento realizou-se no dia 31 de maio de 1952,
+  às 14:00 horas ..."
 abstract: >-
-  A damaged civil marriage certificate records that Geraldo Paz Armond and
-  Cidalia Engracio Guimarães married in Eugenópolis on 31 May 1952. It reports
-  Geraldo as born in Limeira on 30 January 1915 and Cidalia as born in Alvorada
-  on 15 September 1930. The certificate states that she would thereafter sign
-  Cidalia Engracio Armond. The retained photograph is the clearest of three
-  alternate views reviewed in FamilySearch.
+  A damaged civil marriage certificate (Casamento nº 898, Eugenópolis, livro 13-B)
+  recording the 31 May 1952 marriage of Geraldo Paz Armond (born Limeira, MG,
+  30 January 1915, padeiro) and Cidalia Engracio Guimarães (born Alvorada, MG,
+  15 September 1930, doméstica; thereafter signing "Cidalia Engrácio Armond"). A
+  clearer alternate view (2026-07-30 retrieval sync) resolves the previously obscured
+  lines: Geraldo's mother is D. Liliosa Paz, "nascida aqui" (Eugenópolis), "falecida
+  em 16-4-946"; Cidalia's parents are Antônio Engrácio de Souza (born 15 June 1894)
+  and D. Maria Aurora Guimarães (born 1 January 1904).
 reliability:
   assessment: >-
     Direct evidence for the marriage, the spouses' names and the married-name
@@ -60,13 +67,17 @@ digital_file:
 linked_people:
   - P-0004
   - P-0005
+  - P-0008
+  - P-0009
   - P-0010
   - P-0011
 linked_families:
   - F-0002
+  - F-0003
   - F-0012
 linked_events:
   - E-0002
+  - E-0028
 linked_places:
   - PL-0002
 private: true
@@ -84,3 +95,10 @@ notes:
   - text: >-
       The certificate includes signatures. Retain the images only in this
       private repository and exclude them from public derivatives.
+  - text: >-
+      A clearer alternate photograph of this same certificate (2026-07-30 retrieval
+      sync) resolved lines previously read as obscured: it establishes Geraldo's
+      mother Liliosa Paz's death (16 April 1946) and Eugenópolis birth (E-0028),
+      Cidalia's father's exact birth (15 June 1894) and the name form "Antônio
+      Engrácio de Souza" — correcting the earlier "Antonio Engracio Filho" reading —
+      and Maria Aurora Guimarães's birth (1 January 1904).

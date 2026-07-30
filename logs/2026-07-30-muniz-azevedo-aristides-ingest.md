@@ -47,3 +47,16 @@ establish?
 audits clean. Verified via the viewer projection: Antenor → sibling Aristides;
 Deocleciano/Luiza → children Antenor + Aristides; José Secundino/Thereza → child
 Luiza.
+
+## Follow-up (same day) — CIV-0002 clarified; Liliosa's death catalogued
+
+Read the deferred `rec-armond-geraldo-cidalia-marriage-1952` (a clearer view of the
+same Casamento nº 898 = CIV-0002). It resolved the previously-obscured lines:
+- **Liliosa Paz** is "nascida aqui, falecida em 16-4-946" → catalogued her death as
+  E-0028 (16 April 1946, Eugenópolis), fixing material conflict 2's date and her
+  Eugenópolis birthplace. Her parents still need the Eugenópolis óbito (inteiro teor).
+- Cidalia's father is written **"Antônio Engrácio de Souza, nascido em 15 de junho de
+  1894"** — corrected CIV-0002's earlier "Antonio Engracio Filho" reading, added the
+  name variant to P-0010, and refined his birth event E-0024 to the exact date.
+- Maria Aurora's birth confirmed as 1 January 1904.
+CIV-0002 transcription/abstract/links updated; make check green (140 entities).

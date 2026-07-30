@@ -7,6 +7,10 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Catalogue Liliosa Paz Armond's death (event `E-0028`, 16 April 1946, Eugenópolis)
+  from a clearer view of the Geraldo × Cidalia 1952 marriage (CIV-0002), resolving
+  the long-open Liliosa death-date gap (material conflict 2) and recording her
+  Eugenópolis birthplace; her parents remain the next target (Eugenópolis óbito).
 - Ingest Aristides Muniz Bittencourt's 1922 Carangola baptism (`PAR-0003`) from the
   retrieval drop: adds Aristides as a documented child (Antenor's brother) on
   F-0001, establishes Luiza's parents as new ancestors — José Secundino de Azevedo
@@ -55,6 +59,11 @@ also remain traceable through source records and research logs.
 
 ### Changed
 
+- Correct and complete CIV-0002 from a clearer alternate view: Cidalia's father is
+  named "Antônio Engrácio de Souza" (correcting the earlier obscured "Antonio
+  Engracio Filho" reading) with an exact birth 15 June 1894 — refining P-0010's
+  birth event E-0024 — and Maria Aurora's birth is confirmed as 1 January 1904.
+  P-0010 keeps both name forms ("Filho" distinguishes him from his father P-0032).
 - Complete CIV-0006's transcription from the newly synced inteiro-teor images (the
   1916 marriage act was previously "pending, low contrast") and link CIV-0001 to
   Luiza's now-modelled parents (P-0038/P-0039, F-0018).

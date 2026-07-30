@@ -1,0 +1,21 @@
+schema_version: 1
+id: E-0028
+event_type: death
+date:
+  kind: exact
+  value: "1946-04-16"
+place_text: Eugenópolis, Minas Gerais, Brazil
+participants:
+- person_id: P-0009
+  role: principal
+status: strong-evidence
+source_ids:
+- CIV-0002
+notes:
+- text: >-
+    Death date 16 April 1946, per her son Geraldo's 1952 marriage record (CIV-0002:
+    "Liliosa Paz ... nascida aqui, falecida em 16-4-946"). Indirect evidence (stated
+    at her son's marriage, not her own death record), hence strong-evidence. "Nascida
+    aqui" gives her birthplace as Eugenópolis; the death locality is not explicitly
+    stated but is recorded as Eugenópolis (her birthplace and the family's residence).
+    Her own óbito — which would name her parents — is still to be obtained.

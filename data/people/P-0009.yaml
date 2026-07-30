@@ -7,12 +7,18 @@ name_variants:
 - value: Liliosa Paz Armond
   type: source
   source_ids:
+  - CIV-0002
   - CIV-0003
   - GOV-0001
 event_ids:
 - E-0003
+- E-0028
 family_ids:
 - F-0003
 notes:
 - text: >-
-    Ahnentafel position 9. Original surname and parentage remain unresolved.
+    Ahnentafel position 9. Died 16 April 1946, per her son Geraldo's 1952 marriage
+    (CIV-0002, "Liliosa Paz ... nascida aqui, falecida em 16-4-946"); the same
+    record gives her birthplace as Eugenópolis, MG. Her original surname and parents
+    remain unresolved — the next step is the Eugenópolis 1946 óbito (inteiro teor),
+    which would name her parents.
