@@ -57,9 +57,8 @@ reliability:
     child, Eunir.
   informant: The father, João Gonçalves Bohrer.
   limitations: >-
-    A faint FamilySearch preview watermarked "SEM VALOR LEGAL"; the page carries
-    other, unrelated birth entries. Eunir (the child, a sibling of Iris P-0007) is
-    a collateral person and is not modelled as an entity.
+    The page carries other, unrelated birth entries. Eunir (the child, a sibling
+    of Iris P-0007) is a collateral person and is not modelled as an entity.
 digital_file:
   path: evidence/civil/CIV-0016-eunir-bohrer-birth-1924-nova-friburgo.jpg
   sha256: b52d0480b8e0d696d2ffa506983d9912cb7b58bfb7785be120b65ba4ebcd8036

@@ -51,9 +51,8 @@ reliability:
     A non-family declarant appearing in the occasional absence of the deceased's
     relatives (name withheld here for privacy).
   limitations: >-
-    A faint FamilySearch preview watermarked "SEM VALOR LEGAL"; the register page
-    also carries an unrelated adjacent death entry (an unrelated infant). The
-    parent names are informant-reported at death.
+    The register page also carries an unrelated adjacent death entry (an
+    unrelated infant). The parent names are informant-reported at death.
 digital_file:
   path: evidence/civil/CIV-0015-celina-bohrer-death-1977-volta-redonda.jpg
   sha256: 9209da46a8b42f6ab9c904b8856aa9a0c975f1f41b1ec0655fa251914db54010
