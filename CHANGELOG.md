@@ -21,6 +21,11 @@ also remain traceable through source records and research logs.
 
 ### Changed
 
+- Codify an "Entity connectivity and completeness" protocol in `AGENTS.md` (both
+  ends of every family/event/FAN link kept in step; catalogued records reach the
+  viewer via events, not prose; deliberate omissions noted) and add a completion
+  step to verify reciprocity and completeness beyond `make check`, so the class
+  of gap fixed in E-0007 is caught before completion.
 - Reflow the viewer toolbar to a flex layout so it accommodates the language
   selector cleanly: all six controls bottom-align on one row, the search field
   absorbs the slack, and Reset stays content-sized (adding the selector had

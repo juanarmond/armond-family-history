@@ -82,6 +82,31 @@ Collaborative trees, hints and profile values are navigation leads only. Never
 promote them to evidence. A zero-result index or OCR search does not prove that
 an entry is absent from an unindexed register.
 
+## Entity connectivity and completeness
+
+Every link is bidirectional, and every catalogued record must reach the viewer
+through structured fields, not prose. When creating or updating an entity,
+follow the per-field **person completeness checklist** in
+[`data/README.md`](data/README.md) and keep both ends of each link in step:
+
+- `person.family_ids` ↔ the family's `partners` / `children`: add the reciprocal
+  entry on the family, linking the person as a *child* and as a *partner* where
+  both apply.
+- `person.event_ids` ↔ the event's `participants`: list the event on **every**
+  participant it names, including parents and other non-principals, not only the
+  principal.
+- `person.fan_references` ↔ the FAN entity's `participants`: the back-link is
+  optional, but the FAN→person side is not.
+- After cataloguing a vital record about a person, create its **event** (a
+  catalogued record with no matching event is invisible in the viewer's dates
+  and timeline) and add that event to the `event_ids` of every participant.
+- Cite each source at the assertion it supports (`name_variants`, `occupations`,
+  event and relationship `source_ids`), not only in `linked_people` or prose.
+
+A field or link left unset on purpose — a contested nationality, an edge
+withheld pending evidence — must say so in the entity's `notes`, so a later audit
+reads it as deliberate rather than missing.
+
 ## Research autonomy
 
 - Continue with the highest-priority actionable objective in `STATUS.md`.
@@ -136,9 +161,13 @@ Before declaring an objective complete:
 4. Append `logs/LOG.md` for completed research or repository-audit sessions.
 5. Add a concise `CHANGELOG.md` entry for notable repository changes.
 6. Run `uv run --frozen make check` and fix every error and warning.
-7. Review the diff for privacy, unsupported promotion and accidental
+7. Verify link reciprocity and per-entity completeness, which `make check` does
+   not yet enforce (see "Entity connectivity and completeness"): both ends of
+   every family, event and FAN link resolve, no entity is an unintended orphan,
+   and each deliberate omission is noted.
+8. Review the diff for privacy, unsupported promotion and accidental
    duplication.
-8. Commit one small completed objective. Do not push unless explicitly asked or
+9. Commit one small completed objective. Do not push unless explicitly asked or
    the active automation explicitly requires it.
-9. Select the next highest-priority actionable objective and continue until a
-   natural stopping point or a genuine human-intervention blocker.
+10. Select the next highest-priority actionable objective and continue until a
+    natural stopping point or a genuine human-intervention blocker.
