@@ -1,0 +1,20 @@
+schema_version: 1
+id: E-0030
+event_type: birth
+date:
+  kind: exact
+  value: "1930-09-15"
+place_id: PL-0004
+participants:
+- person_id: P-0005
+  role: principal
+status: strong-evidence
+source_ids:
+- CIV-0002
+- CIV-0008
+notes:
+- text: >-
+    Born 15 September 1930 at Alvorada (MG), per her 1952 marriage (CIV-0002) and
+    her grandson Juan's 1982 birth (CIV-0008). Material conflict 1 preserves a "15
+    November 1930" family variant; the two civil records give 15 September, so that
+    is recorded here. Her own birth registration has not been located.

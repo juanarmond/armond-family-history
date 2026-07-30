@@ -1,0 +1,20 @@
+schema_version: 1
+id: E-0033
+event_type: birth
+date:
+  kind: approximate
+  text: about 1898
+  earliest: 1897
+  latest: 1898
+place_text: Bom Jesus da Cachoeira Alegre, Muriaé, Minas Gerais, Brazil
+participants:
+- person_id: P-0013
+  role: principal
+status: strong-evidence
+source_ids:
+- CIV-0001
+notes:
+- text: >-
+    Birth year inferred from her stated age (18) at her 1916 marriage (CIV-0001),
+    so born c.1897-1898; "nascida em Bom Jesus da Cachoeira Alegre, Município de São
+    Paulo do Muriaé" (MG). No birth or baptism record located.

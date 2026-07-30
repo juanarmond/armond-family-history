@@ -5,6 +5,17 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-07-30 — Ancestor birth-event completeness pass
+
+- Outcome: audited all deceased people for a missing birth event and filled the
+  five whose birth is evidenced in catalogued records but had none: Geraldo (E-0029,
+  30 Jan 1915) and Cidalia (E-0030, 15 Sep 1930) from CIV-0002; Aristão (E-0031,
+  c.1879, from CIV-0005 age), Deocleciano (E-0032, c.1892, from CIV-0001 age) and
+  Luiza (E-0033, c.1898, from CIV-0001 age). No search performed — reused sources in
+  hand; consistent with the person-completeness rule.
+- Genealogical conclusions changed: none new; these events make already-evidenced
+  birth dates structured (and viewer-visible).
+
 ## 2026-07-30 — Liliosa Paz Armond's death resolved (16 April 1946)
 
 - Outcome: from a clearer view of Geraldo's 1952 marriage (CIV-0002), catalogued

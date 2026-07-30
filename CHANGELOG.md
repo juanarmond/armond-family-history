@@ -7,6 +7,13 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Add the missing ancestor birth events from records already in hand, so the
+  grandparents' and great-grandparents' viewer cards show their dates: Geraldo
+  (E-0029, 30 Jan 1915, Rosário da Limeira MG) and Cidalia (E-0030, 15 Sep 1930,
+  Alvorada MG) from their 1952 marriage (CIV-0002); and approximate births inferred
+  from ages for Aristão (E-0031, c.1879), Deocleciano (E-0032, c.1892, Sapucaia RJ)
+  and Luiza (E-0033, c.1898, Muriaé MG). Applies the person-completeness rule
+  consistently (as already done for P-0010/P-0014/P-0015).
 - Catalogue Liliosa Paz Armond's death (event `E-0028`, 16 April 1946, Eugenópolis)
   from a clearer view of the Geraldo × Cidalia 1952 marriage (CIV-0002), resolving
   the long-open Liliosa death-date gap (material conflict 2) and recording her

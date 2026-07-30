@@ -1,0 +1,21 @@
+schema_version: 1
+id: E-0032
+event_type: birth
+date:
+  kind: approximate
+  text: about 1892
+  earliest: 1891
+  latest: 1892
+place_id: PL-0005
+participants:
+- person_id: P-0012
+  role: principal
+status: strong-evidence
+source_ids:
+- CIV-0001
+notes:
+- text: >-
+    Birth year inferred from his stated age (24) at his 1916 marriage (CIV-0001),
+    so born c.1891-1892; "nascido em Sapucaia, Estado do Rio de Janeiro" (Santo
+    Antônio de Sapucaia, to whose parish his parents' 1882 marriage provision was
+    directed, PAR-0001). No birth or baptism record located.

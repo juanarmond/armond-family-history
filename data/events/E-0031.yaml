@@ -1,0 +1,21 @@
+schema_version: 1
+id: E-0031
+event_type: birth
+date:
+  kind: approximate
+  text: about 1879
+  earliest: 1878
+  latest: 1879
+place_text: Minas Gerais, Brazil
+participants:
+- person_id: P-0008
+  role: principal
+status: strong-evidence
+source_ids:
+- CIV-0005
+notes:
+- text: >-
+    Birth year inferred from his stated age (78) at death on 1 November 1957
+    (CIV-0005), so born c.1878-1879; naturalidade Minas Gerais. His baptism (~1879,
+    likely Piacatuba/Leopoldina) is an open research target that would give the exact
+    date and place.

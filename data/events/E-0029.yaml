@@ -1,0 +1,22 @@
+schema_version: 1
+id: E-0029
+event_type: birth
+date:
+  kind: exact
+  value: "1915-01-30"
+place_text: Rosário da Limeira, Minas Gerais, Brazil
+participants:
+- person_id: P-0004
+  role: principal
+status: strong-evidence
+source_ids:
+- CIV-0002
+- CIV-0003
+notes:
+- text: >-
+    Born 30 January 1915, per his 1952 marriage (CIV-0002, "nascido em Limeira,
+    Minas, aos 30 de janeiro de 1915"), consistent with his 1991 death (CIV-0003,
+    "natural do Estado de Minas Gerais"). "Limeira" is read as the municipality of
+    Rosário da Limeira, MG. Strong-evidence — the date is from records other than
+    his own birth registration (a FamilySearch index birth, ARK 77DD-TX6Z, remains a
+    lead).
