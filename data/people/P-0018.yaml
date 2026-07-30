@@ -1,7 +1,7 @@
 schema_version: 1
 id: P-0018
 preferred_name: José Olavo Armond
-privacy: unknown
+privacy: deceased
 nationality: Brazilian
 name_variants:
 - value: JOSE OLAVO ARMOND
@@ -32,8 +32,11 @@ notes:
     modelled from these (date per GOV-0001, place per NWS-0001); no birth or
     baptism register has yet been located.
 - text: >-
-    Privacy remains unknown. The retained government index is private because
-    the full page contains identity and dossier data for multiple people.
+    Deceased: the repository owner confirms that everyone from his grandparents'
+    generation back — including this granduncle (b. 1926, brother of the owner's
+    grandfather Geraldo Paz Armond) — is deceased. The retained government index
+    remains private because the full page contains identity and dossier data for
+    multiple people.
 - text: >-
     The preferred spelling "José Olavo Armond" normalises the two source forms,
     both preserved as variants: the government index (GOV-0001) prints

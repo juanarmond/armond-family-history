@@ -8,6 +8,10 @@ name_variants:
   type: source
   source_ids:
   - CIV-0005
+- value: Simplício Ferreira Armond
+  type: source
+  source_ids:
+  - CIV-0013
 event_ids:
 - E-0005
 family_ids:
@@ -21,6 +25,8 @@ fan_references:
 notes:
 - text: Ahnentafel position 16.
 - text: >-
-    Aristão's death registration reports this name for his father. The fuller
-    form "Simplício Ferreira Armond" remains an uncatalogued lead and is not
-    established by this record.
+    Aristão's 1957 death (CIV-0005) recorded the short form "Simplicio Armand".
+    His daughter Marfiza's 1962 death (CIV-0013) records the fuller "Simplício
+    Ferreira Armond"; the owner confirms these are the same man (the family
+    surname is "Ferreira Armond"), so both forms are preserved. The preferred name
+    is still the CIV-0005 form pending a decision on adopting the fuller version.

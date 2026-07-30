@@ -8,6 +8,10 @@ name_variants:
   type: source
   source_ids:
   - CIV-0005
+- value: Eliza Ferreira Toledo
+  type: source
+  source_ids:
+  - CIV-0013
 event_ids:
 - E-0005
 family_ids:
@@ -15,7 +19,8 @@ family_ids:
 notes:
 - text: Ahnentafel position 17.
 - text: >-
-    FamilySearch duplicates "Armand" in its index. The single-surname form is
-    supported by the retained register image. "Elizia Balbina Toledo" remains
-    an uncatalogued lead and is not established as the same person by this
-    record.
+    Aristão's 1957 death (CIV-0005) records "Eliza Ferreira Armand"; her daughter
+    Marfiza's 1962 death (CIV-0013) records "Eliza Ferreira Toledo", giving her
+    Toledo maiden surname. The owner confirms these refer to the same woman, so
+    both forms are preserved. "Eliza Balbina de Toledo" remains a fuller,
+    still-uncatalogued lead.

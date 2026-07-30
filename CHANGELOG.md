@@ -7,6 +7,10 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Record two owner-confirmed documented collaterals: Marfiza Ferreira Armond
+  (1873–1962), Aristão's sister, on F-0006 from her 1962 civil death (CIV-0013);
+  and Eunir Bohrer (b.1924), Iris's brother, on F-0005 from his 1924 birth
+  (CIV-0016). Both now appear in the viewer's Siblings/Children.
 - Record Maria Aurora Guimarães's five siblings — José (1901), Maria da Conceição
   (1906), Sebastião (1909), João José (1912) and Maria de Lourdes (1915) — as
   `documented_children` on F-0008 from the same 1915 collective registration
@@ -27,9 +31,8 @@ also remain traceable through source records and research logs.
   `source_ids`) that are deliberately not modelled as their own person entities —
   together with any deceased modelled children of the same parents.
   Possibly-living siblings are omitted entirely. Populated for the Bohrer line:
-  Celina's siblings Alberto (CIV-0019) and an infant (CIV-0020), and Joaquim
-  José's brother Guilherme Samuel (CIV-0019). Covered by a new data-loader unit
-  test and en/pt-BR strings.
+  Celina's sibling Alberto (CIV-0019) and Joaquim José's brother Guilherme Samuel
+  (CIV-0019). Covered by a new data-loader unit test and en/pt-BR strings.
 - Extend the Bohrer maternal line to Celina's grandparents from three retrieval-drop
   records: Alberto Bohrer's 1890 birth (`CIV-0019`), an 1891 sibling birth
   (`CIV-0020`), and Francisco José Bohrer × Rosa Eugenia de Lemos's 1879 marriage
@@ -46,6 +49,15 @@ also remain traceable through source records and research logs.
 
 ### Changed
 
+- Remove the mistaken "Infant son (1891–1892)" documented child from F-0014: a
+  re-read of CIV-0020 shows the child's given name is on an unretained next folio,
+  so it was a placeholder, not a record fact (kept as a noted, pending record).
+- Mark P-0018 (José Olavo Armond, a granduncle) deceased, per the owner's
+  confirmation that everyone from his grandparents' generation back is deceased.
+- Record the owner-confirmed fuller name variants "Simplício Ferreira Armond"
+  (P-0016) and "Eliza Ferreira Toledo" (P-0017) from CIV-0013, resolving the
+  earlier lead caveat; preferred names unchanged pending a decision on the fuller
+  forms.
 - Document the `documented_children` mechanism in the governance docs: a new bullet
   in AGENTS.md's "Entity connectivity and completeness" protocol and an extension
   to the `data/README.md` person-completeness checklist. Both state that an
