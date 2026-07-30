@@ -161,10 +161,10 @@ main {
 }
 
 .toolbar {
-  display: grid;
-  grid-template-columns: minmax(13rem, 1.4fr) minmax(7.5rem, .5fr) minmax(13rem, 1fr) auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
   gap: 1rem 1.1rem;
-  align-items: end;
   margin: 0 0 1.5rem;
   padding: 1.2rem 1.3rem;
   border: 1px solid var(--rule-strong);
@@ -172,6 +172,21 @@ main {
   background: linear-gradient(180deg, var(--card), var(--card-2));
   box-shadow: var(--shadow-sm);
 }
+
+/* Each control is a bottom-aligned column (small-caps label over its field).
+   The search field grows to absorb slack, so Reset stays content-sized at the
+   end of the row rather than wrapping to a full-width cell. */
+.toolbar > label {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.toolbar .field-person { flex: 2 1 17rem; }
+.toolbar .field-gen { flex: 0 1 7.5rem; }
+.toolbar .search-field { flex: 3 1 15rem; }
+.toolbar .field-lang { flex: 0 1 11rem; }
+.toolbar .toggle-row { flex: 0 0 auto; align-self: flex-end; }
+.toolbar #reset-view { flex: 0 0 auto; align-self: flex-end; }
 
 .toolbar label > span:first-child {
   display: block;
@@ -816,17 +831,19 @@ a:focus-visible {
 /* ---------- Responsive ---------- */
 
 @media (max-width: 900px) {
-  .toolbar { grid-template-columns: 1fr 1fr; }
-  .search-field { grid-column: 1 / -1; }
-  .toolbar button { grid-column: 1 / -1; }
+  .toolbar .search-field { flex-basis: 100%; }
   .summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 620px) {
   .site-header { align-items: flex-start; padding-top: 2.25rem; }
   .brand-emblem { width: 4rem; height: 4rem; }
-  .toolbar { grid-template-columns: 1fr; }
-  .search-field, .toolbar button { grid-column: auto; }
+  .toolbar .field-person,
+  .toolbar .field-gen,
+  .toolbar .search-field,
+  .toolbar .field-lang,
+  .toolbar .toggle-row,
+  .toolbar #reset-view { flex-basis: 100%; }
   .summary { grid-template-columns: 1fr 1fr; }
   .tree-viewport { padding: 2rem 1rem 3rem; }
 }

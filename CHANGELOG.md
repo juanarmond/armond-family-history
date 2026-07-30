@@ -7,6 +7,10 @@ also remain traceable through source records and research logs.
 
 ### Changed
 
+- Reflow the viewer toolbar to a flex layout so it accommodates the language
+  selector cleanly: all six controls bottom-align on one row, the search field
+  absorbs the slack, and Reset stays content-sized (adding the selector had
+  pushed Reset onto a full-width second row under the 5-column grid).
 - Widen the viewer's header, toolbar and summary to the full width of the tree
   box: raise `--shell-max` to the tree's 150rem cap and align the header/main/
   footer side padding to the tree's 1.5rem margins, so the controls and
