@@ -5,6 +5,19 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-07-30 — Repository connectivity and completeness audit
+
+- Outcome: verified every cross-entity link (person↔family, person↔event,
+  person↔FAN, and place/source references) in both directions and per-person
+  completeness. Fixed one reciprocity gap — P-0021/P-0022 omitted their child's
+  birth event E-0007 — and confirmed the remaining flags are deliberate, not
+  defects (named relatives vs record subjects, marriage-only subjects, lead-form
+  names on CIV-0013/GOV-0002, weak published sources PUB-0001/0002, and the
+  Toledo edges withheld via P-0027's prose).
+- Genealogical conclusions changed: none.
+- Detailed log:
+  [`logs/2026-07-30-connectivity-completeness-audit.md`](2026-07-30-connectivity-completeness-audit.md).
+
 ## 2026-07-28 — Repository evidence availability audit
 
 - Outcome: no source document, source entity or historical binary/LFS object was

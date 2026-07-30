@@ -5,6 +5,20 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed
+
+- Restore the P-0021/P-0022 → E-0007 back-links: both parents (Francisco José de
+  Carvalho Guimarães and Emmerenciana Maria de Jesus) participate in their child
+  P-0011's 1904 birth (E-0007) but had omitted it from their `event_ids`. This
+  was the only person↔event reciprocity gap; a full connectivity and completeness
+  audit (person↔family, person↔event, person↔FAN, orphan, nationality and
+  vital-event coverage) found no other structural defect. See
+  `logs/2026-07-30-connectivity-completeness-audit.md`.
+- Document that P-0019 (João Monis Bittencourt) carries no `nationality` by
+  design — his origin (an unproved Azorean lead versus Brazilian jus soli) is
+  unresolved — tying the omission to material conflict 6 rather than leaving the
+  field silently blank.
+
 ### Changed
 
 - Reflow the viewer toolbar to a flex layout so it accommodates the language
