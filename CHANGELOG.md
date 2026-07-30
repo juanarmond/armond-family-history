@@ -98,6 +98,15 @@ also remain traceable through source records and research logs.
   name identical parents. Both name forms preserved; preferred name kept as Maria
   Amora.
 
+### Removed
+
+- Remove superseded research working files — the old `research/resources/` and
+  `research/sources/` caches and `research/PLAN-close-simplicio-gap.md` (replaced by
+  the `research/from-retrieval/` workflow) — and a redundant alternate scan of
+  CIV-0005 (`evidence/references/…-recapture-spread.pdf`). CIV-0005's note is
+  updated: that two-page spread was reviewed and confirmed entry 9890 but is not
+  retained (the evidence model keeps one authoritative image per record).
+
 ### Fixed
 
 - Restore the P-0021/P-0022 → E-0007 back-links: both parents (Francisco José de
