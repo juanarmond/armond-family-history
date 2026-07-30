@@ -1,0 +1,20 @@
+schema_version: 1
+id: E-0027
+event_type: birth
+date:
+  kind: exact
+  value: "1926-09-25"
+place_id: PL-0002
+participants:
+- person_id: P-0018
+  role: principal
+status: strong-evidence
+source_ids:
+- GOV-0001
+- NWS-0001
+notes:
+- text: >-
+    José Olavo Armond's birth: the 1973 government driver index (GOV-0001) gives
+    the date 25 September 1926, and the 1975 marriage banns (NWS-0001) give the
+    place, Eugenópolis (PL-0002). No birth or baptism register has been located, so
+    the date is administrative/self-reported — strong-evidence, not confirmed.

@@ -49,6 +49,14 @@ also remain traceable through source records and research logs.
 
 ### Changed
 
+- Transcription deep-dive: verified every source transcription against the images
+  where available and confirmed each aligns with the structured entities. Fixed two
+  alignment gaps it surfaced — recorded the probate name forms "Simplicio José
+  Ferreira Armond" (P-0016, from PRB-0001/PRB-0002, one bearing his autograph
+  signature) and "Eliza Balbina de Toledo" (P-0017, from PRB-0001), and added a
+  birth event (E-0027) for P-0018 José Olavo Armond (25 Sep 1926, Eugenópolis; per
+  GOV-0001 and NWS-0001). Confirmed João Gonçalves Bohrer's death date (CIV-0014,
+  3 Aug 1970) and Celina's Nova Friburgo origin (CIV-0016) directly from the images.
 - Remove the mistaken "Infant son (1891–1892)" documented child from F-0014: a
   re-read of CIV-0020 shows the child's given name is on an unretained next folio,
   so it was a placeholder, not a record fact (kept as a noted, pending record).

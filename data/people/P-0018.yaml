@@ -12,7 +12,8 @@ name_variants:
   type: source
   source_ids:
   - NWS-0001
-event_ids: []
+event_ids:
+- E-0027
 family_ids:
 - F-0003
 occupations:
@@ -28,9 +29,9 @@ notes:
     of 25 September 1926 and names Aristac Ferreira Armond and Liliosa Paz Armond
     as parents. The 1975 marriage bann (NWS-0001) independently confirms the same
     parents (rendered Aristão Ferreira Armond and Liliosa Paz Armond) and
-    additionally records him as natural de Eugenópolis. A birth event can now be
-    modelled from these (date per GOV-0001, place per NWS-0001); no birth or
-    baptism register has yet been located.
+    additionally records him as natural de Eugenópolis. His birth is modelled as
+    event E-0027 (date 25 September 1926 per GOV-0001, place Eugenópolis per
+    NWS-0001, strong-evidence); no birth or baptism register has yet been located.
 - text: >-
     Deceased: the repository owner confirms that everyone from his grandparents'
     generation back — including this granduncle (b. 1926, brother of the owner's

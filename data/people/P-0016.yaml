@@ -12,6 +12,11 @@ name_variants:
   type: source
   source_ids:
   - CIV-0013
+- value: Simplicio José Ferreira Armond
+  type: source
+  source_ids:
+  - PRB-0001
+  - PRB-0002
 event_ids:
 - E-0005
 family_ids:
@@ -25,8 +30,10 @@ fan_references:
 notes:
 - text: Ahnentafel position 16.
 - text: >-
-    Aristão's 1957 death (CIV-0005) recorded the short form "Simplicio Armand".
-    His daughter Marfiza's 1962 death (CIV-0013) records the fuller "Simplício
-    Ferreira Armond"; the owner confirms these are the same man (the family
-    surname is "Ferreira Armond"), so both forms are preserved. The preferred name
-    is still the CIV-0005 form pending a decision on adopting the fuller version.
+    His name appears in four records: the short "Simplicio Armand" (Aristão's 1957
+    death, CIV-0005); "Simplício Ferreira Armond" (Marfiza's 1962 death, CIV-0013);
+    and "Simplicio José Ferreira Armond" (the 1881 Toledo heir list PRB-0001 and the
+    1884 petition PRB-0002) — PRB-0002 bearing his own autograph signature
+    ("Simplicio Joze Ferr.a Armond"). The owner confirms all refer to the same man.
+    Preferred name is still the CIV-0005 short form pending a decision on adopting
+    the fuller signed version.

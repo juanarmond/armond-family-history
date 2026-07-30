@@ -12,6 +12,10 @@ name_variants:
   type: source
   source_ids:
   - CIV-0013
+- value: Eliza Balbina de Toledo
+  type: source
+  source_ids:
+  - PRB-0001
 event_ids:
 - E-0005
 family_ids:
@@ -19,8 +23,8 @@ family_ids:
 notes:
 - text: Ahnentafel position 17.
 - text: >-
-    Aristão's 1957 death (CIV-0005) records "Eliza Ferreira Armand"; her daughter
-    Marfiza's 1962 death (CIV-0013) records "Eliza Ferreira Toledo", giving her
-    Toledo maiden surname. The owner confirms these refer to the same woman, so
-    both forms are preserved. "Eliza Balbina de Toledo" remains a fuller,
-    still-uncatalogued lead.
+    Recorded three ways: "Eliza Ferreira Armand" (Aristão's 1957 death, CIV-0005),
+    "Eliza Ferreira Toledo" (Marfiza's 1962 death, CIV-0013) and "Eliza Balbina de
+    Toledo" (the 1881 Toledo heir list PRB-0001, as Simplício's wife). All give her
+    the Toledo maiden surname and the owner confirms they are the same woman; the
+    married and maiden forms are both preserved.
