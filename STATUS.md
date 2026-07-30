@@ -141,11 +141,12 @@ relationships. Collaborative profiles remain navigation leads only.
 9. FamilySearch's index table displays `1633` for the provision catalogued as
    `PAR-0001`; the original image and citation state 23 December 1882.
 10. RESOLVED (2026-07-30): "Maria Amora Guimarães" (1915 birth registration,
-    CIV-0007) versus "Maria Aurora Guimarães" (later family information). Her own
-    1991 civil death (CIV-0018) records "Maria Aurora" while naming the identical
-    parents as CIV-0007, proving the two forms are one woman (P-0011). Both forms
-    are preserved as source variants; the preferred name is kept as the
-    birth-registration form, Maria Amora.
+    CIV-0007) versus "Maria Aurora Guimarães" (her own 1991 death CIV-0018, her
+    marriage CIV-0002 and family information). Both name the identical parents,
+    proving the two forms are one woman (P-0011). Both are preserved as variants;
+    the preferred name is "Maria Aurora" — three sources including her own death
+    outweigh the single retrospective, certified-copy birth registration (same
+    reasoning as P-0015 Celina/Selina).
 11. Whether the 1866 Vila do Rio Claro power of attorney names the same
     Vicente José de Carvalho Guimarães documented as Francisco's father.
 

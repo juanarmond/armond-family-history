@@ -1,19 +1,19 @@
 schema_version: 1
 id: P-0011
-preferred_name: Maria Amora Guimarães
+preferred_name: Maria Aurora Guimarães
 privacy: deceased
 nationality: Brazilian
 name_variants:
-  - value: Maria Amora Guimarães
-    type: source
-    source_ids:
-      - CIV-0007
   - value: Maria Aurora Guimarães
     type: source
     source_ids:
       - REC-0001
       - CIV-0002
       - CIV-0018
+  - value: Maria Amora Guimarães
+    type: source
+    source_ids:
+      - CIV-0007
 event_ids:
   - E-0007
   - E-0025
@@ -23,12 +23,16 @@ family_ids:
 notes:
   - text: Ahnentafel position 11.
   - text: >-
-      Resolves material conflict 10. The 1915 retrospective birth registration
-      (CIV-0007) names her Maria Amora Guimarães; her own 1991 civil death
-      (CIV-0018) names her Maria Aurora Guimarães. Both are preserved, and both
-      name the identical parents (Francisco José de Carvalho Guimarães +
-      Emerenciana Maria de Jesus), proving the two forms are one woman. The
-      preferred name is kept as the birth-registration form, Maria Amora.
+      Resolves material conflict 10. Both name forms are preserved and proven to be
+      one woman: the 1915 retrospective birth registration (CIV-0007) records
+      "Maria Amora", while her own 1991 death (CIV-0018), her marriage (CIV-0002)
+      and the family roster (REC-0001) record "Maria Aurora"; both forms name the
+      identical parents (Francisco José de Carvalho Guimarães + Emerenciana Maria
+      de Jesus). Preferred name set to "Maria Aurora" on 2026-07-30: three sources
+      — including her own death record — use it, against a single retrospective,
+      certified-copy birth registration that most likely mis-transcribed the
+      unusual "Amora" for the common name "Aurora". (Consistent with the same
+      choice for P-0015 Celina/Selina.)
   - text: >-
       Died 15 September 1991 at Rio de Janeiro, aged 87 (so born c.1904, matching
       her 1904 birth, E-0007), a widow of Antonio Engracio Filho, per her civil

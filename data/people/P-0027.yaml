@@ -4,6 +4,14 @@ preferred_name: Mathilde Maria de Jesus
 privacy: deceased
 nationality: Brazilian
 name_variants:
+- value: Mathilde Maria de Jesus
+  type: source
+  source_ids:
+  - PRB-0004
+- value: Mathilde Maria de Jezus
+  type: source
+  source_ids:
+  - PRB-0002
 - value: Mathildes Maria de Jesus
   type: source
   source_ids:

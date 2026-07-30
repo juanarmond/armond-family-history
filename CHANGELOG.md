@@ -32,6 +32,15 @@ also remain traceable through source records and research logs.
 
 ### Changed
 
+- Audit every person for the Selina/Celina class of error (a preferred name less
+  supported by primary records than an available variant). Found and fixed one
+  analog: P-0011's preferred name changes from "Maria Amora" to "Maria Aurora" —
+  three sources including her own 1991 death (CIV-0018) use "Aurora" against a
+  single retrospective, certified-copy birth registration (CIV-0007) with the
+  unusual "Amora". Also backed P-0027's preferred spelling "Mathilde" with its own
+  source variants (PRB-0004/PRB-0002) and documented P-0018's reconstructed
+  spelling ("CLAVO" is a misprint for "OLAVO"). No other under-sourced preferred
+  name remains.
 - Change P-0015's preferred name from "Selina" to "Celina". Three primary civil
   records spell it "Celina" — her own 1977 death (CIV-0015), her husband's 1970
   death (CIV-0014) and Eunir's 1924 birth (CIV-0016) — versus "Selina" only in the
