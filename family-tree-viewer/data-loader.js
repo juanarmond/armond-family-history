@@ -303,13 +303,21 @@ export function projectTreeData({ people, families, events, places, sources, fan
     }),
   );
 
-  // Siblings, per person, computed from their parent family's other children:
-  // modelled children (other P- entities) plus documented_children (attested
-  // siblings not modelled as entities). Possibly-living siblings are omitted
-  // entirely — only clearly deceased people appear.
+  // Siblings and children, per person, from each family's child roster: modelled
+  // children (P- entities) plus documented_children (attested but not modelled).
+  // Children come from the families where a person is a partner; siblings from the
+  // family where they are a child (the roster minus themselves). Possibly-living
+  // people are omitted entirely — only clearly deceased people appear.
   const siblingsByPerson = {};
-  for (const personId of Object.keys(people)) siblingsByPerson[personId] = [];
+  const childrenByPerson = {};
+  for (const personId of Object.keys(people)) {
+    siblingsByPerson[personId] = [];
+    childrenByPerson[personId] = [];
+  }
   for (const family of Object.values(families)) {
+    const partnerIds = (family.partners || [])
+      .map((partner) => partner?.person_id)
+      .filter((id) => typeof id === "string");
     const modelledChildIds = (family.children || [])
       .map((child) => child?.person_id)
       .filter((id) => typeof id === "string");
@@ -322,15 +330,26 @@ export function projectTreeData({ people, families, events, places, sources, fan
         note: trimmedText(entry.note),
         sourceIds: (entry.source_ids || []).filter((id) => typeof id === "string"),
       }));
+    // The family's child roster: deceased modelled children plus documented ones.
+    const childRoster = [];
+    for (const childId of modelledChildIds) {
+      const child = people[childId];
+      if (!child || (child.privacy || "unknown") !== "deceased") continue;
+      childRoster.push({ type: "person", id: childId, name: child.preferred_name || childId });
+    }
+    for (const entry of documented) childRoster.push({ ...entry });
+    // Children: each partner gets the whole roster.
+    for (const partnerId of partnerIds) {
+      if (!childrenByPerson[partnerId]) continue;
+      for (const child of childRoster) childrenByPerson[partnerId].push({ ...child });
+    }
+    // Siblings: each modelled child gets the roster minus themselves.
     for (const meId of modelledChildIds) {
       if (!siblingsByPerson[meId]) continue;
-      for (const otherId of modelledChildIds) {
-        if (otherId === meId) continue;
-        const sib = people[otherId];
-        if (!sib || (sib.privacy || "unknown") !== "deceased") continue;
-        siblingsByPerson[meId].push({ type: "person", id: otherId, name: sib.preferred_name || otherId });
+      for (const child of childRoster) {
+        if (child.type === "person" && child.id === meId) continue;
+        siblingsByPerson[meId].push({ ...child });
       }
-      for (const entry of documented) siblingsByPerson[meId].push({ ...entry });
     }
   }
 
@@ -374,6 +393,7 @@ export function projectTreeData({ people, families, events, places, sources, fan
         })),
       notes,
       siblings: living ? [] : (siblingsByPerson[personId] || []),
+      children: living ? [] : (childrenByPerson[personId] || []),
       fanReferences: living
         ? []
         : (fanByPerson[personId] || []).slice().sort((a, b) => a.id.localeCompare(b.id)),

@@ -634,6 +634,11 @@ function openDetails(personId) {
     });
     elements.detailsContent.append(section(t("detail.marriages"), list(marriageItems, t("empty.partners"))));
 
+    const childItems = (person.children || []).map((child) =>
+      child.lifespan ? `${child.name} (${child.lifespan})` : child.name,
+    );
+    elements.detailsContent.append(section(t("detail.children"), list(childItems, t("empty.children"))));
+
     const occupationItems = person.occupations.map((occupation) => {
       const src = occupation.sourceIds.length ? ` · ${occupation.sourceIds.join(", ")}` : "";
       return occupation.note ? `${occupation.value}${src} — ${occupation.note}` : `${occupation.value}${src}`;

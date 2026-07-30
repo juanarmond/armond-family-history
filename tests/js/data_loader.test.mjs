@@ -253,6 +253,20 @@ test("living people are minimised", () => {
   assert.deepEqual(p3.occupations, []);
   assert.deepEqual(p3.fanReferences, []);
   assert.deepEqual(p3.siblings, []);
+  assert.deepEqual(p3.children, []);
+});
+
+test("children include modelled deceased and documented children of a person's unions, omitting the living", () => {
+  const data = projectTreeData(fixtures());
+  const kids = data.people["P-1"].children;
+  const persons = kids.filter((s) => s.type === "person").map((s) => s.id).sort();
+  assert.deepEqual(persons, ["P-4", "P-5"], "deceased modelled children appear; the living P-3 is omitted");
+  const documented = kids.filter((s) => s.type === "documented");
+  assert.equal(documented.length, 1);
+  assert.equal(documented[0].name, "Baby Delta");
+  // P-2 is the other partner of F-1 and shares the same children.
+  const p2 = data.people["P-2"].children.filter((s) => s.type === "person").map((s) => s.id).sort();
+  assert.deepEqual(p2, ["P-4", "P-5"]);
 });
 
 test("siblings include modelled deceased and documented children, omitting the living", () => {

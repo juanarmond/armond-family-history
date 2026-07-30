@@ -7,6 +7,12 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Add a **Children** section to the viewer, mirroring Siblings: a person's
+  children — modelled `P-` children plus the family's `documented_children`, with
+  possibly-living ones omitted — computed from the families where the person is a
+  partner, shown as bullets below Marriages & partners. Reuses the existing
+  `documented_children` field (no new data or schema change). Covered by a
+  data-loader unit test and en/pt-BR strings.
 - Add a **Siblings** section to the family-tree viewer, shown below Parents in a
   person's detail. Siblings are drawn from a new optional `documented_children`
   list on the family schema — attested collateral children (each with
