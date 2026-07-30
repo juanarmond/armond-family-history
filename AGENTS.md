@@ -102,6 +102,13 @@ follow the per-field **person completeness checklist** in
   and timeline) and add that event to the `event_ids` of every participant.
 - Cite each source at the assertion it supports (`name_variants`, `occupations`,
   event and relationship `source_ids`), not only in `linked_people` or prose.
+- Record an attested collateral child that needs no research of its own — a
+  sibling of a modelled person, or another child of a modelled couple — as a
+  `documented_children` entry on the parents' family (`name` plus required
+  `source_ids`), rather than minting a person entity for it. The viewer builds each
+  person's Siblings (from their parent family) and Children (from their unions)
+  from the modelled children plus these entries. Never list a possibly-living
+  person here; record only clearly deceased collaterals.
 
 A field or link left unset on purpose — a contested nationality, an edge
 withheld pending evidence — must say so in the entity's `notes`, so a later audit

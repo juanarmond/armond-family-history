@@ -38,6 +38,13 @@ also remain traceable through source records and research logs.
 
 ### Changed
 
+- Document the `documented_children` mechanism in the governance docs: a new bullet
+  in AGENTS.md's "Entity connectivity and completeness" protocol and an extension
+  to the `data/README.md` person-completeness checklist. Both state that an
+  attested collateral child needing no research of its own is recorded as a family
+  `documented_children` entry (name + required `source_ids`, deceased only) rather
+  than a full person entity, and that the viewer's Siblings and Children sections
+  are built from a family's modelled children plus these entries.
 - Audit every person for the Selina/Celina class of error (a preferred name less
   supported by primary records than an available variant). Found and fixed one
   analog: P-0011's preferred name changes from "Maria Amora" to "Maria Aurora" —

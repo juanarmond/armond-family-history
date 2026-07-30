@@ -152,7 +152,12 @@ not established"). For each `P-NNNN`:
    `place_text`). After cataloguing any vital record, create its event.
 6. **family_ids** — link the person both as a *child* (their parents' family) and
    as a *partner* (their own union), and add the reciprocal entry in the family
-   entity.
+   entity. For an attested collateral child that needs no entity of its own (a
+   sibling, or another child of the couple), add a `documented_children` entry on
+   the family — `name` plus required `source_ids` — instead of a full person, and
+   list only clearly deceased collaterals. The viewer's **Siblings** and
+   **Children** sections are built from a family's modelled children plus its
+   `documented_children`, omitting possibly-living people.
 7. **occupations** / **fan_references** — where a record supports them, each with
    `source_ids`.
 8. **notes** — record conflicts, variant spellings, the basis for any inferred
