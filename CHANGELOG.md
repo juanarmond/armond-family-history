@@ -10,11 +10,18 @@ also remain traceable through source records and research logs.
 - Rename the external record-retrieval workflow throughout the repository to
   "retrieval agent" terminology: the drop folder is now `research/from-retrieval/`,
   alongside the value-gate resume ledger, the 30 July read-pass research log, and
-  the prose in `AGENTS.md`, `STATUS.md`, `.gitignore`, `research/README.md`,
-  `evidence/incoming/README.md` and the affected `data/` records. Terminology and
-  paths only; no genealogical data, conclusion or evidence changed. The external
-  agent's own config must point at the new folder for the rename to persist across
-  syncs.
+  the prose in `AGENTS.md`, `STATUS.md`, `.gitignore`, `research/README.md` and
+  the affected `data/` records. Terminology and paths only; no genealogical data,
+  conclusion or evidence changed. The external agent's own config must point at
+  the new folder for the rename to persist across syncs.
+
+### Removed
+
+- Remove the unused `evidence/incoming/` staging folder and its README. Nothing
+  was ever staged there: owner-supplied scans are reserved an ID and written
+  directly into `evidence/<category>/`, and retrieval-agent images promote from
+  `research/from-retrieval/` through the value gate. Residual references in
+  `README.md` and the full-text-references README were updated.
 
 ### Added
 

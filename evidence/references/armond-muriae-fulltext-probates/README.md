@@ -7,9 +7,9 @@ appraisers (louvados) or attorneys in THIRD-PARTY probate/court records** of the
 **FAN references** (friends/associates/neighbours) — retained for the family's
 timeline, places, standing (Simplício = "Capitão"; a fazenda condômino) and
 network. They are **not** individually catalogued as sources. This folder is a
-permanent home for such retained-but-not-catalogued images; unlike
-`evidence/incoming/` (staging for files that will be catalogued and then
-removed), nothing here is expected to move on.
+permanent home for such retained-but-not-catalogued images; unlike a staging
+area for files that get catalogued and then removed, nothing here is expected
+to move on.
 
 **Subject vs FAN — worked example.**
 `1904-muriae-inventario-simplicio-louvado.jpg` is *not* Simplício's own
