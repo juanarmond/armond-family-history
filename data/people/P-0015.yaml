@@ -1,20 +1,20 @@
 schema_version: 1
 id: P-0015
-preferred_name: Selina Bohrer
+preferred_name: Celina Bohrer
 privacy: deceased
 nationality: Brazilian
 name_variants:
-  - value: Selina Bohrer
-    type: source
-    source_ids:
-      - REC-0001
-      - CIV-0004
   - value: Celina Bohrer
     type: source
     source_ids:
       - CIV-0014
       - CIV-0015
       - CIV-0016
+  - value: Selina Bohrer
+    type: source
+    source_ids:
+      - REC-0001
+      - CIV-0004
 event_ids:
   - E-0004
   - E-0021
@@ -24,11 +24,13 @@ family_ids:
   - F-0014
 notes:
   - text: >-
-      Ahnentafel position 15. The name is now evidenced both ways: the 1949
-      marriage (CIV-0004) recorded "Selina", while three primary civil records —
-      her 1977 death (CIV-0015), her husband's 1970 death (CIV-0014) and Eunir
-      Bohrer's 1924 birth (CIV-0016) — consistently record "Celina". Both are
-      preserved; "Celina" is the civil-registered form.
+      Ahnentafel position 15. Preferred name is "Celina", the spelling used by
+      three primary civil records — her own 1977 death (CIV-0015), her husband's
+      1970 death (CIV-0014) and Eunir Bohrer's 1924 birth (CIV-0016). "Selina" is
+      preserved as a variant but appears only in the 1949 marriage certificate
+      (CIV-0004) and the owner's family roster (REC-0001). The preferred name was
+      changed from "Selina" to "Celina" on 2026-07-30: her own death record and
+      the weight of civil evidence outweigh the single marriage spelling.
   - text: >-
       Died 19 February 1977 at Volta Redonda, RJ, aged 77 (so born c.1900), a
       widow, per her civil death (CIV-0015). Born in Nova Friburgo, RJ ("natural

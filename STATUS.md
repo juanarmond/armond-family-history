@@ -161,7 +161,7 @@ material interpretation with its source and confidence.
    parish registers and their earlier records.
 4. Test the 1866 Vicente identity and locate a family-linked record that gives
    his Portuguese locality.
-5. Catalogue João Gonçalves Bohrer and Selina Bohrer's own vital records.
+5. Catalogue João Gonçalves Bohrer and Celina Bohrer's own vital records.
 6. Extend the Engracio/Souza, Guimarães and Azevedo lines one documented
    generation at a time.
 

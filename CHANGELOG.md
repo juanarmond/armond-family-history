@@ -32,6 +32,12 @@ also remain traceable through source records and research logs.
 
 ### Changed
 
+- Change P-0015's preferred name from "Selina" to "Celina". Three primary civil
+  records spell it "Celina" — her own 1977 death (CIV-0015), her husband's 1970
+  death (CIV-0014) and Eunir's 1924 birth (CIV-0016) — versus "Selina" only in the
+  1949 marriage certificate (CIV-0004) and the owner's family roster (REC-0001).
+  "Selina" is preserved as a documented variant; the change is recorded in the
+  person's notes.
 - Resolve material conflict 10: Maria Amora Guimarães (1904 birth, CIV-0007) and
   Maria Aurora Guimarães (1991 death, CIV-0018) are the same woman — both records
   name identical parents. Both name forms preserved; preferred name kept as Maria
