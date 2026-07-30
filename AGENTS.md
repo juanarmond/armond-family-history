@@ -43,9 +43,9 @@ Use targeted search rather than repeatedly loading every historical file.
 
 - Act from the structured, current file `data/record-coverage.yaml` (the
   canonical per-ancestor record-gap ledger and next actions).
-- An external FamilySearch scraper agent (the owner's authorised session)
+- An external FamilySearch retrieval agent (the owner's authorised session)
   discovers records and **syncs its whole working area into
-  `research/from-scraper/`** — raw record images and ranked CSV/JSON under
+  `research/from-retrieval/`** — raw record images and ranked CSV/JSON under
   `output/`, reference documents under `resources/`, active `plans/`, and its
   synthesis in `FINDINGS.md`. That drop is raw, not evidence.
 - This assistant runs the **value gate** on that drop: read each candidate,
@@ -90,8 +90,8 @@ an entry is absent from an unindexed register.
   bypass an evidence gate.
 - This assistant researches read-only public web sources (WebFetch and
   WebSearch); authorised FamilySearch retrieval is performed by the external
-  scraper agent using the owner's session and delivered through the
-  `research/from-scraper/` sync (see "Working files and research routing"). Do
+  retrieval agent using the owner's session and delivered through the
+  `research/from-retrieval/` sync (see "Working files and research routing"). Do
   not edit a FamilySearch tree, attach sources, contact archives, submit paid
   record orders or expose credentials unless the user explicitly authorises that
   action.

@@ -162,7 +162,7 @@ people:
         The owner confirmed film 004640627 opens from image ~54 (1-53 blocked)
         and 004640632 from image 6. A confirmed sibling, Marfisa Ferreira Armond
         (bapt. 15 Feb 1873, Piacatuba), fixes the parish. Retrieval now runs
-        through the research/from-scraper/ scraper sync and the value gate.
+        through the research/from-retrieval/ sync and the value gate.
     - text: >-
         29 July 2026: Aristão is absent from the transcribed Piacatuba baptism
         index 1851-1880 (which shows only his sister Marfiza, 1873), so search
@@ -587,7 +587,7 @@ people:
       logs/correspondence-log.md) -> search Argirita electoral rolls (1863-64) and land
       registry (1856) for her paternal line.
   - text: >-
-      29 July 2026 (Full-Text via research/from-scraper/): the 1877 Toledo deed
+      29 July 2026 (Full-Text via research/from-retrieval/): the 1877 Toledo deed
       PRB-0003 ("sua finada avó Dona Mathildes Maria de Jesus", Fazenda da
       Concórdia) confirms Mathilde Maria de Jesus (P-0027) as the GRANDMOTHER of
       Eliza's Toledo grandchild set, resolving the mother-vs-grandmother question
@@ -610,7 +610,7 @@ people:
       of Nossa Senhora da Piedade. Supports the "Elizia Balbina Toledo" surname
       lead. Lead only; inspect the underlying parish record before promoting.
   - text: >-
-      30 July 2026 (Full-Text via research/from-scraper/, PRB-0004, ARK
+      30 July 2026 (Full-Text via research/from-retrieval/, PRB-0004, ARK
       3:1:3QHJ-1QWB-7BYX): a Toledo Concórdia/São Bento deed names the parent
       couple Antonio Zeferino de Toledo x Dona Maria Perpétua below the
       grandparents Mathilde Maria de Jesus (P-0027) x Ladisláo Egydio Ferreira de

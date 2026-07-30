@@ -3,16 +3,16 @@
 This is the canonical research, evidence and citation policy. The directory
 contains reproducible research notes rather than settled entity data.
 
-- `from-scraper/` is the **sync drop from the external FamilySearch scraper
+- `from-retrieval/` is the **sync drop from the external FamilySearch retrieval
   agent**: its raw pulls (`output/` — Full-Text/Records record images plus ranked
   CSV/JSON), the third-party reference documents it used (`resources/`), its
   active research plans (`plans/`) and its working synthesis (`FINDINGS.md`). It
   is **raw, not evidence**: nothing there is catalogued until it clears the value
   gate — read → classify → privacy-review → promote only the valuable into
   `data/` + `evidence/` (as a `source` or a FAN entity), recording negatives and
-  never inferring absence from a zero-result search. See `from-scraper/README.md`.
+  never inferring absence from a zero-result search. See `from-retrieval/README.md`.
   Value-gate dispositions per pulled image are tracked in
-  `from-scraper-triage-ledger.md` (a resume ledger, kept outside `from-scraper/`
+  `from-retrieval-triage-ledger.md` (a resume ledger, kept outside `from-retrieval/`
   so a wholesale re-sync cannot clobber it).
 - `entity-drafts/` holds reserved-but-unpromoted entity skeletons (transient;
   created by `scripts/new_entity.py reserve`).

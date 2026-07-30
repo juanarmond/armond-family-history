@@ -12,8 +12,8 @@ Obtain and catalogue Aristão Ferreira Armond's baptism and his marriage to
 Liliosa Paz Armond from the FamilySearch image ranges now confirmed viewable
 (baptism film `004640627` from image 54; marriage film `004640632` from image
 6), and locate Liliosa's own vital records. FamilySearch retrieval now runs through the external
-scraper agent, which syncs its finds into `research/from-scraper/`; this
-assistant runs the value gate (`research/from-scraper-triage-ledger.md`) and
+retrieval agent, which syncs its finds into `research/from-retrieval/`; this
+assistant runs the value gate (`research/from-retrieval-triage-ledger.md`) and
 catalogues each valuable image as evidence.
 
 ### Objective completion signal
@@ -31,7 +31,7 @@ catalogues each valuable image as evidence.
 This is the immediate execution queue, in order:
 
 1. **Direct-line follow-up (30 July value-gate pass complete):** every image in
-   the `research/from-scraper/` drop has now been read per-image. PRB-0004
+   the `research/from-retrieval/` drop has now been read per-image. PRB-0004
    catalogued Eliza's maternal Toledo ancestry deed (grandparents Mathilde ×
    Ladisláo; parents Antonio Zeferino de Toledo × Maria Perpétua). NEXT: confirm
    Eliza's parents — retrieve PRB-0004's adjacent folios (the grantor names) and
@@ -51,9 +51,9 @@ This is the immediate execution queue, in order:
    Cúria and review any still-restricted Aristão parish images when authorised.
 
 Keep this queue short and actionable. Detailed person-by-record actions remain
-canonical in `data/record-coverage.yaml`; scraper finds arrive via the
-`research/from-scraper/` sync and are tracked in
-`research/from-scraper-triage-ledger.md`; strategic branch order remains under
+canonical in `data/record-coverage.yaml`; retrieval finds arrive via the
+`research/from-retrieval/` sync and are tracked in
+`research/from-retrieval-triage-ledger.md`; strategic branch order remains under
 **Strategic research priorities** below.
 
 ## Current blockers and dependencies
@@ -64,8 +64,8 @@ canonical in `data/record-coverage.yaml`; scraper finds arrive via the
   requires the original attachments.
 - FamilySearch image groups `004640627` (Aristão's baptism, from image 54) and
   `004640632` (the Aristão×Liliosa marriage, from image 6) are viewable in the
-  identified ranges and are queued for the external scraper agent (its finds
-  arrive via `research/from-scraper/`); only the earlier images in each group
+  identified ranges and are queued for the external retrieval agent (its finds
+  arrive via `research/from-retrieval/`); only the earlier images in each group
   still display `Image Restricted` and would need authorised FamilySearch Center
   or Library access.
 - Archive enquiries, paid certificates and conservatory or parish requests
@@ -167,8 +167,8 @@ only in `data/record-coverage.yaml`.
   evidence once Codex delivers; reassess assertion-level citation quality after
   5–10 varied records.
 - **External:** require the frozen repository-health check in GitHub branch
-  rules; the external scraper agent syncs authorised FamilySearch finds into
-  `research/from-scraper/` for the value gate.
+  rules; the external retrieval agent syncs authorised FamilySearch finds into
+  `research/from-retrieval/` for the value gate.
 - **Deferred until schema stability:** generated person pages and a
   privacy-filtered GEDCOM export.
 - **Complete:** versioned schemas, evidence inventory, stable ID allocation,

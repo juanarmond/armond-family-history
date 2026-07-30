@@ -5,9 +5,20 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed
+
+- Rename the external record-retrieval workflow throughout the repository to
+  "retrieval agent" terminology: the drop folder is now `research/from-retrieval/`,
+  alongside the value-gate resume ledger, the 30 July read-pass research log, and
+  the prose in `AGENTS.md`, `STATUS.md`, `.gitignore`, `research/README.md`,
+  `evidence/incoming/README.md` and the affected `data/` records. Terminology and
+  paths only; no genealogical data, conclusion or evidence changed. The external
+  agent's own config must point at the new folder for the rename to persist across
+  syncs.
+
 ### Added
 
-- Complete a full per-image read pass of the `research/from-scraper/` scraper
+- Complete a full per-image read pass of the `research/from-retrieval/`
   drop and catalogue PRB-0004 (a Toledo Concórdia / Ribeirão de São Bento deed
   naming Eliza's maternal grandparents Mathilde × Ladisláo Egydio Ferreira de
   Toledo and the parent couple Antonio Zeferino de Toledo × Maria Perpétua), with
@@ -15,9 +26,9 @@ also remain traceable through source records and research logs.
   hypothesis (Antonio Zeferino × Maria Perpétua as Eliza's parents) and the
   two-Ladisláo conflict without creating unverified edges; flag a Moura-family
   "Mathilde Maria de Jesus" namesake to avoid conflation.
-- Gitignore the scraper working area (`research/from-scraper/output/`,
-  `research/from-scraper/README.md`, `research/from-scraper/resources/` and the
-  local `from-scraper-triage-ledger.md`) as regenerable, non-history working data.
+- Gitignore the retrieval-agent working area (`research/from-retrieval/output/`,
+  `research/from-retrieval/README.md`, `research/from-retrieval/resources/` and the
+  local `from-retrieval-triage-ledger.md`) as regenerable, non-history working data.
 - Define the initial YAML entity model and JSON Schemas for people, families,
   events, places and sources.
 - Add entity and research templates, evidence-handling guidance and the initial
@@ -314,7 +325,7 @@ also remain traceable through source records and research logs.
   `FAN-0001` (an 1875 Muriaé procuração signed by Simplício José Ferreira
   Armond). People gain an optional `fan_references` back-link list.
 - Catalogue the 1877 Leopoldina Toledo deed of sale (`PRB-0003`, two pages,
-  promoted from the `research/from-scraper/` sync via the value gate) and add
+  promoted from the `research/from-retrieval/` sync via the value gate) and add
   `P-0027` Mathilde Maria de Jesus. Its clause "sua finada avó Dona Mathildes
   Maria de Jesus" (Fazenda da Concórdia) fixes Mathilde as the *grandmother* of
   Eliza Balbina de Toledo's (P-0017) Toledo grandchild set, resolving the

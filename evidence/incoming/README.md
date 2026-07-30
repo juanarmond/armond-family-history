@@ -1,7 +1,7 @@
 # evidence/incoming — staging area
 
 Un-catalogued record images land here before they become evidence (an
-owner-supplied file, or a scan promoted from the `research/from-scraper/` scraper
+owner-supplied file, or a scan promoted from the `research/from-retrieval/`
 drop). Files here are NOT yet evidence: they have no reserved ID, no inventory
 entry and no checksum.
 
