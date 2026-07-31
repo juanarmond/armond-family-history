@@ -14,7 +14,7 @@ from pathlib import Path
 
 import yaml
 
-from scripts.export_gedcom import build_gedcom
+from scripts.export_gedcom import SUPPORTED_VERSIONS, build_gedcom
 
 
 # A transcription that must never reach the export, plus private file details.
@@ -174,25 +174,45 @@ class ExportGedcomTest(unittest.TestCase):
         self.addCleanup(self.fixture.cleanup)
         self.root = self.fixture.root / "data"
 
-    def test_structure_is_well_formed(self) -> None:
-        text = build_gedcom(self.root)
-        _assert_well_formed(text)
+    def test_both_versions_are_well_formed(self) -> None:
+        for version in SUPPORTED_VERSIONS:
+            text = build_gedcom(self.root, version=version)
+            _assert_well_formed(text)
+            # 4 modelled people + 1 synthetic documented child
+            self.assertEqual(len(re.findall(r"^0 @\S+@ INDI$", text, re.M)), 5, version)
+            self.assertEqual(len(re.findall(r"^0 @\S+@ FAM$", text, re.M)), 1, version)
+
+    def test_version_70_header_markers(self) -> None:
+        text = build_gedcom(self.root, version="7.0")
+        self.assertIn("2 VERS 7.0", text)
+        self.assertNotIn("1 CHAR", text)          # removed in 7.0
+        self.assertIn("1 LANG pt-BR", text)        # BCP-47 tag
+        self.assertIn("1 RESN PRIVACY", text)      # uppercase enum
+        self.assertNotIn("\n2 CONC ", text)        # CONC removed in 7.0
+        self.assertNotIn("\n3 CONC ", text)
+
+    def test_version_551_header_markers(self) -> None:
+        text = build_gedcom(self.root, version="5.5.1")
         self.assertIn("2 VERS 5.5.1", text)
         self.assertIn("1 CHAR UTF-8", text)
-        self.assertEqual(len(re.findall(r"^0 @\S+@ INDI$", text, re.M)), 4)
-        self.assertEqual(len(re.findall(r"^0 @\S+@ FAM$", text, re.M)), 1)
+        self.assertIn("1 LANG Portuguese", text)
+        self.assertIn("1 RESN privacy", text)
 
     def test_never_leaks_scans_paths_or_transcriptions(self) -> None:
-        # Even in full mode, private scans, paths, hashes and transcriptions
-        # must never appear.
-        for mode in ("full", "redact", "omit"):
-            text = build_gedcom(self.root, living=mode)
-            self.assertNotIn("evidence/", text, mode)
-            self.assertNotIn(SECRET_PATH, text, mode)
-            self.assertNotIn(SECRET_TRANSCRIPTION, text, mode)
-            self.assertNotIn("sha256", text.lower(), mode)
-            self.assertNotIn("repository_path", text, mode)
-            self.assertFalse(re.search(r"\b\d{3}\.\d{3}\.\d{3}-\d{2}\b", text), mode)
+        # Private scans, paths, hashes and transcriptions must never appear, in
+        # any version or living mode.
+        for version in SUPPORTED_VERSIONS:
+            for mode in ("full", "redact", "omit"):
+                text = build_gedcom(self.root, version=version, living=mode)
+                label = f"{version}/{mode}"
+                self.assertNotIn("evidence/", text, label)
+                self.assertNotIn(SECRET_PATH, text, label)
+                self.assertNotIn(SECRET_TRANSCRIPTION, text, label)
+                self.assertNotIn("sha256", text.lower(), label)
+                self.assertNotIn("repository_path", text, label)
+                self.assertFalse(
+                    re.search(r"\b\d{3}\.\d{3}\.\d{3}-\d{2}\b", text), label
+                )
 
     def test_sex_drives_husband_and_wife(self) -> None:
         text = build_gedcom(self.root)
@@ -202,12 +222,15 @@ class ExportGedcomTest(unittest.TestCase):
         self.assertIn("1 SEX M", text)
         self.assertIn("1 SEX F", text)
 
-    def test_documented_child_becomes_a_note(self) -> None:
+    def test_documented_child_becomes_a_synthetic_individual(self) -> None:
+        # Standard-compliant: a real INDI + CHIL link, not just a FAM note.
         text = build_gedcom(self.root)
-        self.assertIn(
-            "Documented child, not individually modelled: Marfiza Ferreira Armond",
-            text,
-        )
+        self.assertIn("\n0 @DOCF0001_1@ INDI\n", text)
+        self.assertIn("1 NAME Marfiza Ferreira /Armond/", text)
+        self.assertIn("1 FAMC @F0001@", text)
+        self.assertIn("\n1 CHIL @DOCF0001_1@", text)
+        self.assertIn("Documented child, not individually modelled", text)
+        self.assertNotIn("1 NOTE None", text)  # missing optional fields stay absent
 
     def test_living_full_exports_the_real_record(self) -> None:
         text = build_gedcom(self.root, living="full")
@@ -217,11 +240,11 @@ class ExportGedcomTest(unittest.TestCase):
     def test_living_redact_anonymises_the_own_record(self) -> None:
         text = build_gedcom(self.root, living="redact")
         _assert_well_formed(text)
-        self.assertIn("@P0001@ INDI", text)          # node kept
+        self.assertIn("@P0001@ INDI", text)            # node kept
         self.assertIn("1 NAME Living /Armond/", text)  # name anonymised
         self.assertNotIn("1 NAME Juan Carlos Muniz /Armond/", text)
         self.assertNotIn("10 MAY 1982", text)          # vitals hidden
-        self.assertIn("1 RESN privacy", text)
+        self.assertIn("1 RESN PRIVACY", text)          # 7.0 default
 
     def test_living_omit_drops_the_node_without_dangling_refs(self) -> None:
         text = build_gedcom(self.root, living="omit")

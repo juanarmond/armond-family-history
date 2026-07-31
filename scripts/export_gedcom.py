@@ -1,23 +1,25 @@
 #!/usr/bin/env python3
-"""Export the canonical YAML data model to a GEDCOM 5.5.1 file.
+"""Export the canonical YAML data model to a GEDCOM file (7.0 or 5.5.1).
 
 Text-only by design. The export carries people, families, events, and source
 *citations* — never the scans behind them. It deliberately emits no ``OBJE``
 multimedia records, no source ``transcription`` text, no ``digital_file`` /
-``repository_path`` values, and no ``evidence/`` paths. See
-``docs/gedcom-export-design.md`` for the full contract.
+``repository_path`` values, and no ``evidence/`` paths (all optional in GEDCOM,
+so omitting them is standards-compliant). See ``docs/gedcom-export-design.md``.
+
+Version (``--gedcom-version``): ``7.0`` (default, the current FamilySearch
+standard) or ``5.5.1`` (for the widest commercial-site import support).
 
 Living people (``privacy: living`` or ``unknown``) are controlled by ``--living``:
 ``full`` (default) exports everything; ``redact`` emits a minimal "Living" node
 with family links only; ``omit`` drops them entirely. A ``redact``/``omit`` file is
-the one safe to share or upload; the ``full`` file is a private local backup.
+the one safe to share; the ``full`` file is a private local backup.
 """
 
 from __future__ import annotations
 
 import argparse
 import re
-import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -49,7 +51,8 @@ INDI_EVENT_TAGS = {
     "other": "EVEN",
 }
 
-# Conservative wrap width; GEDCOM 5.5.1 lines must stay within 255 octets.
+SUPPORTED_VERSIONS = ("7.0", "5.5.1")
+# 5.5.1 lines must stay within 255 octets; 7.0 removed CONC and the length cap.
 LINE_WRAP = 200
 _YEAR = re.compile(r"\b(\d{4})\b")
 
@@ -60,6 +63,8 @@ def xref(entity_id: str) -> str:
 
 
 def _clean(value: Any) -> str:
+    if value is None:
+        return ""
     return " ".join(str(value).split())
 
 
@@ -68,41 +73,42 @@ def _year_in(text: Any) -> str | None:
     return match.group(1) if match else None
 
 
-def _phrase(text: Any) -> str | None:
-    cleaned = _clean(text)
-    return f"({cleaned})" if cleaned else None
+def format_date(date_obj: Any) -> tuple[str | None, str | None]:
+    """Map a `common.date` object to (GEDCOM DATE value, phrase).
 
-
-def format_date(date_obj: Any) -> str | None:
-    """Map a `common.date` object to a GEDCOM DATE value, or None to omit it."""
+    The value is None when the date cannot be expressed as a machine date; the
+    phrase carries the human wording for fuzzy kinds (approximate/before/after/
+    inferred/range) so 7.0 can attach it via a DATE ``PHRASE`` substructure.
+    """
     if not isinstance(date_obj, dict):
-        return None
+        return None, None
     kind = date_obj.get("kind")
     if kind == "exact":
         match = re.match(r"(\d{4})-(\d{2})-(\d{2})$", str(date_obj.get("value", "")))
         if not match:
-            return None
+            return None, None
         year, month, day = match.group(1), int(match.group(2)), int(match.group(3))
-        return f"{day:02d} {MONTHS[month]} {year}"
+        return f"{day:02d} {MONTHS[month]} {year}", None
     if kind == "month":
-        return f"{MONTHS[int(date_obj['month'])]} {int(date_obj['year'])}"
+        return f"{MONTHS[int(date_obj['month'])]} {int(date_obj['year'])}", None
     if kind == "year":
-        return f"{int(date_obj['year'])}"
+        return f"{int(date_obj['year'])}", None
     if kind == "range":
-        return f"BET {date_obj['earliest']} AND {date_obj['latest']}"
+        return f"BET {date_obj['earliest']} AND {date_obj['latest']}", date_obj.get("text")
     if kind == "approximate":
         year = date_obj.get("earliest") or _year_in(date_obj.get("text"))
-        return f"ABT {year}" if year else _phrase(date_obj.get("text"))
+        return (f"ABT {year}" if year else None), date_obj.get("text")
     if kind == "before":
         year = date_obj.get("latest") or _year_in(date_obj.get("text"))
-        return f"BEF {year}" if year else _phrase(date_obj.get("text"))
+        return (f"BEF {year}" if year else None), date_obj.get("text")
     if kind == "after":
         year = date_obj.get("earliest") or _year_in(date_obj.get("text"))
-        return f"AFT {year}" if year else _phrase(date_obj.get("text"))
+        return (f"AFT {year}" if year else None), date_obj.get("text")
     if kind == "inferred":
-        return _phrase(date_obj.get("text"))
+        year = _year_in(date_obj.get("text"))
+        return (f"EST {year}" if year else None), date_obj.get("text")
     # `conflicting` / `unknown`: no machine date.
-    return None
+    return None, date_obj.get("text")
 
 
 def format_name(full_name: str) -> tuple[str, str, str]:
@@ -134,10 +140,13 @@ class GedcomBuilder:
         self,
         data_root: Path,
         *,
+        version: str = "7.0",
         living: str = "full",
         include_hypotheses: bool = True,
         include_notes: bool = True,
     ) -> None:
+        if version not in SUPPORTED_VERSIONS:
+            raise ValueError(f"unsupported GEDCOM version: {version!r}")
         entities = load_entities(data_root)
         self.people = entities["people"]
         self.families = entities["families"]
@@ -146,6 +155,7 @@ class GedcomBuilder:
         self.sources: dict[str, dict] = {}
         for kind in SOURCE_KINDS:
             self.sources.update(entities[kind])
+        self.version = version
         self.living = living
         self.include_hypotheses = include_hypotheses
         self.include_notes = include_notes
@@ -154,11 +164,14 @@ class GedcomBuilder:
 
     # -- low-level emission -------------------------------------------------
     def emit(self, level: int, tag: str, value: str | None = None) -> None:
-        """Append a line, wrapping long free text across CONC continuations."""
+        """Append a line. In 5.5.1 long free text wraps across CONC; 7.0 does not."""
         if value is None:
             self.lines.append(f"{level} {tag}")
             return
-        text = value.replace("@", "@@") if "@@" not in value and not value.startswith("@") else value
+        text = ("@" + value) if value.startswith("@") else value  # escape leading @
+        if self.version != "5.5.1":
+            self.lines.append(f"{level} {tag} {text}".rstrip())
+            return
         first, rest = text[:LINE_WRAP], text[LINE_WRAP:]
         self.lines.append(f"{level} {tag} {first}".rstrip())
         while rest:
@@ -184,6 +197,23 @@ class GedcomBuilder:
         self.emit(level, "NOTE", cleaned)
         self.cite(level + 1, source_ids)
 
+    def emit_date(self, level: int, date_obj: Any) -> None:
+        value, phrase = format_date(date_obj)
+        phrase = _clean(phrase) if phrase else ""
+        if self.version == "5.5.1":
+            if value:
+                self.emit(level, "DATE", value)
+            elif phrase:
+                self.emit(level, "DATE", f"({phrase})")
+            return
+        # 7.0: a machine date plus an optional PHRASE; a pure phrase → a NOTE.
+        if value:
+            self.emit(level, "DATE", value)
+            if phrase:
+                self.emit(level + 1, "PHRASE", phrase)
+        elif phrase:
+            self.emit(level, "NOTE", f"Date: {phrase}")
+
     # -- status gating ------------------------------------------------------
     def allowed(self, status: str | None) -> bool:
         if status == "rejected":
@@ -202,6 +232,12 @@ class GedcomBuilder:
             "living",
             "unknown",
         )
+
+    def resn_privacy(self, level: int) -> None:
+        self.emit(level, "RESN", "PRIVACY" if self.version != "5.5.1" else "privacy")
+
+    def name_type(self) -> str:
+        return "AKA" if self.version != "5.5.1" else "aka"
 
     # -- place --------------------------------------------------------------
     def emit_place(self, level: int, place_id: Any, place_text: Any) -> None:
@@ -224,21 +260,24 @@ class GedcomBuilder:
 
     # -- header / trailer ---------------------------------------------------
     def emit_header(self) -> None:
-        version = datetime.now(timezone.utc).strftime("%Y.%m.%d")
         stamp = datetime.now(timezone.utc)
+        version = stamp.strftime("%Y.%m.%d")
+        date_line = f"{stamp.day:02d} {MONTHS[stamp.month]} {stamp.year}"
         self.emit(0, "HEAD")
+        self.emit(1, "GEDC")
+        self.emit(2, "VERS", self.version)
+        if self.version == "5.5.1":
+            self.emit(2, "FORM", "LINEAGE-LINKED")
         self.emit(1, "SOUR", "ARMOND-FAMILY-HISTORY")
         self.emit(2, "NAME", "Armond Family History")
         self.emit(2, "VERS", version)
-        self.emit(1, "DEST", "GEDCOM")
-        day = stamp.day
-        self.emit(1, "DATE", f"{day:02d} {MONTHS[stamp.month]} {stamp.year}")
+        self.emit(1, "DATE", date_line)
         self.pointer(1, "SUBM", "SUBM-0001")
-        self.emit(1, "GEDC")
-        self.emit(2, "VERS", "5.5.1")
-        self.emit(2, "FORM", "LINEAGE-LINKED")
-        self.emit(1, "CHAR", "UTF-8")
-        self.emit(1, "LANG", "Portuguese")
+        if self.version == "5.5.1":
+            self.emit(1, "CHAR", "UTF-8")
+            self.emit(1, "LANG", "Portuguese")
+        else:
+            self.emit(1, "LANG", "pt-BR")
         self.lines.append("0 @SUBM0001@ SUBM")
         self.emit(1, "NAME", "Armond Family History")
 
@@ -267,12 +306,12 @@ class GedcomBuilder:
                     continue
                 alt_value, _, _ = format_name(value)
                 self.emit(1, "NAME", alt_value)
-                self.emit(2, "TYPE", "aka")
+                self.emit(2, "TYPE", self.name_type())
                 self.cite(2, variant.get("source_ids"))
 
         self.emit(1, "SEX", SEX_TAG.get(person.get("sex", "unknown"), "U"))
         if person.get("privacy") in ("living", "unknown"):
-            self.emit(1, "RESN", "privacy")
+            self.resn_privacy(1)
 
         if not redacted:
             self.emit_person_events(person_id)
@@ -307,9 +346,7 @@ class GedcomBuilder:
             self.emit(1, tag)
             if tag == "EVEN":
                 self.emit(2, "TYPE", event_type or "other")
-            date_value = format_date(event.get("date"))
-            if date_value:
-                self.emit(2, "DATE", date_value)
+            self.emit_date(2, event.get("date"))
             self.emit_place(2, event.get("place_id"), event.get("place_text"))
             self.cite(2, event.get("source_ids"), event.get("status"))
             if event.get("status") == "hypothesis":
@@ -332,6 +369,34 @@ class GedcomBuilder:
                 self.pointer(1, "FAMS", family_id)
             if is_child:
                 self.pointer(1, "FAMC", family_id)
+
+    def documented_child_xref(self, family_id: str, index: int) -> str:
+        return f"DOC{xref(family_id)}_{index}"
+
+    def emit_documented_children(self) -> None:
+        """Synthetic minimal INDI records so attested collateral children reach
+        the tree graph as real CHIL nodes (they have no repository person ID)."""
+        for family_id in sorted(self.families):
+            family = self.families[family_id]
+            for index, documented in enumerate(family.get("documented_children", []), 1):
+                child_xref = self.documented_child_xref(family_id, index)
+                self.lines.append(f"0 @{child_xref}@ INDI")
+                name_value, given, surname = format_name(documented.get("name", ""))
+                self.emit(1, "NAME", name_value)
+                if given:
+                    self.emit(2, "GIVN", given)
+                if surname:
+                    self.emit(2, "SURN", surname)
+                self.emit(1, "SEX", "U")
+                self.pointer(1, "FAMC", family_id)
+                marker = "Documented child, not individually modelled."
+                lifespan = _clean(documented.get("lifespan"))
+                if lifespan:
+                    marker = f"{marker} Reported lifespan: {lifespan}."
+                self.note(1, marker, documented.get("source_ids"))
+                extra = _clean(documented.get("note"))
+                if self.include_notes and extra:
+                    self.note(1, extra)
 
     # -- families -----------------------------------------------------------
     def emit_family(self, family_id: str) -> None:
@@ -359,22 +424,14 @@ class GedcomBuilder:
             child_id = child.get("person_id")
             if child_id and not self.is_hidden(child_id):
                 self.pointer(1, "CHIL", child_id)
+        for index, _documented in enumerate(family.get("documented_children", []), 1):
+            self.lines.append(
+                f"1 CHIL @{self.documented_child_xref(family_id, index)}@"
+            )
 
         self.emit_marriage(family)
 
-        for documented in family.get("documented_children", []):
-            label = _clean(documented.get("name"))
-            lifespan = _clean(documented.get("lifespan"))
-            if lifespan:
-                label = f"{label} ({lifespan})"
-            self.note(
-                1,
-                f"Documented child, not individually modelled: {label}.",
-                documented.get("source_ids"),
-            )
-
-        parentage_sources = self.collect_parentage_sources(family)
-        for source_id in parentage_sources:
+        for source_id in self.collect_parentage_sources(family):
             self.pointer(1, "SOUR", source_id)
             self.used_sources.add(source_id)
 
@@ -395,9 +452,7 @@ class GedcomBuilder:
         relationship = family.get("partner_relationship")
         if marriage_event is not None:
             self.emit(1, "MARR")
-            date_value = format_date(marriage_event.get("date"))
-            if date_value:
-                self.emit(2, "DATE", date_value)
+            self.emit_date(2, marriage_event.get("date"))
             self.emit_place(
                 2, marriage_event.get("place_id"), marriage_event.get("place_text")
             )
@@ -485,6 +540,7 @@ class GedcomBuilder:
         self.emit_header()
         for person_id in sorted(self.people):
             self.emit_person(person_id)
+        self.emit_documented_children()
         for family_id in sorted(self.families):
             self.emit_family(family_id)
         self.emit_sources()
@@ -495,12 +551,14 @@ class GedcomBuilder:
 def build_gedcom(
     data_root: Path,
     *,
+    version: str = "7.0",
     living: str = "full",
     include_hypotheses: bool = True,
     include_notes: bool = True,
 ) -> str:
     return GedcomBuilder(
         data_root,
+        version=version,
         living=living,
         include_hypotheses=include_hypotheses,
         include_notes=include_notes,
@@ -512,6 +570,10 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--data-root", type=Path, default=Path("data"))
     parser.add_argument(
         "--output", type=Path, default=Path("export/armond-family-history.ged")
+    )
+    parser.add_argument(
+        "--gedcom-version", choices=SUPPORTED_VERSIONS, default="7.0",
+        help="GEDCOM version to emit (default: 7.0)",
     )
     parser.add_argument(
         "--living", choices=("full", "redact", "omit"), default="full",
@@ -526,13 +588,15 @@ def main(argv: list[str] | None = None) -> int:
 
     text = build_gedcom(
         args.data_root,
+        version=args.gedcom_version,
         living=args.living,
         include_hypotheses=not args.exclude_hypotheses,
         include_notes=not args.no_notes,
     )
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(text, encoding="utf-8")
-    print(f"Wrote {args.output} ({len(text.splitlines())} lines).")
+    print(f"Wrote {args.output} (GEDCOM {args.gedcom_version}, "
+          f"{len(text.splitlines())} lines).")
     return 0
 
 

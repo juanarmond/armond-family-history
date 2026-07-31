@@ -1,4 +1,4 @@
-.PHONY: check test validate export export-public
+.PHONY: check test validate export export-public export-legacy
 
 PYTHON ?= python3
 
@@ -10,7 +10,7 @@ validate:
 test:
 	$(PYTHON) -m unittest discover -s tests -v
 
-# Full GEDCOM 5.5.1 export (living people in full) — a private local backup.
+# Full GEDCOM 7.0 export (living people in full) — a private local backup.
 # Do not upload this file to an online tree; use `make export-public` to share.
 export:
 	$(PYTHON) scripts/export_gedcom.py
@@ -21,3 +21,8 @@ export:
 export-public:
 	$(PYTHON) scripts/export_gedcom.py --living redact \
 		--output export/armond-family-history-public.ged
+
+# Legacy GEDCOM 5.5.1 export for the widest commercial-site import support.
+export-legacy:
+	$(PYTHON) scripts/export_gedcom.py --gedcom-version 5.5.1 \
+		--output export/armond-family-history-5.5.1.ged

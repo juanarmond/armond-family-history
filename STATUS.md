@@ -185,6 +185,6 @@ only in `data/record-coverage.yaml`.
 - **Complete:** versioned schemas, evidence inventory, stable ID allocation,
   recoverable batch promotion, validation, tests, GitHub Actions, the static
   read-only family-tree viewer, the certified-copy (derivative) confirmation
-  rule, and the GEDCOM 5.5.1 exporter (`make export` / `export-public`).
+  rule, and the GEDCOM exporter (7.0 default / 5.5.1 legacy; `make export`).
 
 Completed engineering work is recorded only in `CHANGELOG.md`.

@@ -7,14 +7,18 @@ also remain traceable through source records and research logs.
 
 ### Added
 
-- Add a GEDCOM 5.5.1 exporter (`scripts/export_gedcom.py`, `make export` /
-  `make export-public`) that renders the canonical YAML to a portable, text-only
-  genealogy file — people, families, events and source *citations*, never scans,
-  transcriptions, checksums or `evidence/` paths. Living people are shown in full
-  by default (a private local backup) or redacted with `make export-public`;
-  hypotheses are included and flagged (`QUAY 1`). Adds
-  `tests/test_export_gedcom.py` and `docs/gedcom-export-design.md`; `export/` is
-  gitignored.
+- Add a GEDCOM exporter (`scripts/export_gedcom.py`, `make export` /
+  `make export-public` / `make export-legacy`) that renders the canonical YAML to
+  a portable, text-only genealogy file — people, families, events and source
+  *citations*, never scans, transcriptions, checksums or `evidence/` paths.
+  Emits **GEDCOM 7.0 by default** (the current standard) and **5.5.1** via
+  `--gedcom-version` for the widest commercial-site import support. Living people
+  are shown in full by default (a private local backup) or redacted with
+  `make export-public`; hypotheses are included and flagged (`QUAY 1`). Attested
+  `documented_children` are exported as standard synthetic `INDI` + `CHIL` nodes
+  (export-only `@DOC…@` xrefs; no person entity minted) so they reach a consumer
+  app's tree graph. Adds `tests/test_export_gedcom.py` and
+  `docs/gedcom-export-design.md`; `export/` is gitignored.
 - Add an optional `sex` field (`male` / `female` / `unknown`) to the person schema
   and template, populated on all 39 people, so the export can set `INDI.SEX` and
   assign a family's `HUSB` / `WIFE`. Derived from each person's cited vital records
