@@ -60,6 +60,36 @@ Use targeted search rather than repeatedly loading every historical file.
   update the affected files (coverage, `STATUS.md`, entity YAML, `CHANGELOG.md`).
   Keep web and collaborative-tree findings as leads, never evidence.
 
+## Processing a retrieval drop ("do your work")
+
+When the owner says "do your work" (or a new drop has synced), run this cycle in
+order — cheap orientation before expensive per-image work:
+
+1. **Orient before opening any image.** Read `research/from-retrieval/FINDINGS.md`
+   (the agent's synthesis) and `research/from-retrieval-triage-ledger.md` (what is
+   already catalogued), and skim `output/fulltext_candidates.csv` / the records
+   manifests. Now you know which images are new and what each claims, so image reads
+   are targeted, not blind.
+2. **Diff the drop.** List the images and separate the untriaged/new from
+   duplicates, re-syncs, photos, namesakes and already-catalogued records.
+3. **Value-gate each new image** (see "Decision protocol"): open and read it —
+   FINDINGS, the CSV and FS-tree data are leads, never evidence, so confirm every
+   fact against the record image before promoting. Classify, privacy-review, and
+   promote only the valuable, highest value first (a person's own vital record → a
+   line extension → corroboration). Watch for: pre-1889 acts are `parish`, not civil;
+   RG/identity numbers, recent deaths and living descendants need privacy handling;
+   FS-tree "Memories" portraits may be AI-generated or colorised — never evidence.
+4. **Ingest and complete** (see "Entity connectivity and completeness" and the
+   `data/README.md` checklist): reserve → draft → promote as one batch, then add the
+   reciprocal back-references to the live entities.
+5. **Finish** with the Completion protocol (`make check`, the reciprocity and
+   completeness verification, rebuild the viewer index, logs, changelog); record each
+   image's disposition in the triage ledger, and commit.
+6. **Then review the agent's `plans/` and FINDINGS and give feedback.** Fold valid
+   new leads into `data/record-coverage.yaml` / `STATUS.md`, flag conflicts, and note
+   what is blocked (human-access). Do not edit the agent's `research/from-retrieval/`
+   files — they are gitignored and overwritten on its next sync.
+
 ## Decision protocol
 
 Classify the task before acting:

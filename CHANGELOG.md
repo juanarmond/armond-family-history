@@ -74,6 +74,12 @@ also remain traceable through source records and research logs.
 
 ### Changed
 
+- Codify the "do your work" retrieval-drop cycle in AGENTS.md: orient from
+  `FINDINGS.md` + the triage ledger + the CSV before opening images, diff the drop,
+  value-gate each new image (leads-not-evidence, privacy, parish-vs-civil, and the
+  AI-generated FS-tree-portrait caution), ingest with reciprocal back-references,
+  finish with the completion protocol, and end by reviewing the agent's plans and
+  FINDINGS to give feedback.
 - Resolve material conflict 1: Cidália's own birth registration (CIV-0022) fixes her
   birth at 15 September 1930, superseding the "15 November" variant. Upgraded her
   birth event (E-0030) and her parentage in F-0012 to **confirmed** (direct primary
