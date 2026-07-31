@@ -452,6 +452,189 @@ function externalLink(href, label, extraClass = "") {
   return anchor;
 }
 
+let readerKeyHandler = null;
+function closeReader() {
+  const overlay = document.querySelector(".reader-overlay");
+  if (overlay) overlay.remove();
+  if (readerKeyHandler) {
+    document.removeEventListener("keydown", readerKeyHandler);
+    readerKeyHandler = null;
+  }
+}
+
+// Render a transcript, styling only genuine gap/uncertainty markers ([torn],
+// [illegible], [uncertain: …], [sic], [?], [...]) distinctly — editorial context
+// brackets and page citations stay as normal text. Built with text nodes (no HTML).
+function renderTranscript(container, text) {
+  container.textContent = "";
+  const gap = /\[(?:torn|stain|illegible|ileg[íi]ve\w*|uncertain\b[^\]]*|sic|\?|\.\.\.)\]/gi;
+  let last = 0;
+  let match;
+  while ((match = gap.exec(text)) !== null) {
+    if (match.index > last) {
+      container.appendChild(document.createTextNode(text.slice(last, match.index)));
+    }
+    const span = document.createElement("span");
+    span.className = "txn-gap";
+    span.textContent = match[0];
+    container.appendChild(span);
+    last = match.index + match[0].length;
+  }
+  if (last < text.length) container.appendChild(document.createTextNode(text.slice(last)));
+}
+
+// A dependency-free pan/zoom pane: wheel to zoom, drag to pan, double-click resets.
+function imagePane(src) {
+  const pane = document.createElement("div");
+  pane.className = "reader-image-pane";
+  const img = document.createElement("img");
+  img.className = "reader-img";
+  img.src = src;
+  img.alt = "";
+  img.draggable = false;
+  pane.appendChild(img);
+  let scale = 1;
+  let tx = 0;
+  let ty = 0;
+  let dragging = false;
+  let startX = 0;
+  let startY = 0;
+  const apply = () => {
+    img.style.transform = `translate(${tx}px, ${ty}px) scale(${scale})`;
+  };
+  pane.addEventListener("wheel", (event) => {
+    event.preventDefault();
+    const factor = event.deltaY < 0 ? 1.15 : 1 / 1.15;
+    scale = Math.min(12, Math.max(0.4, scale * factor));
+    apply();
+  }, { passive: false });
+  pane.addEventListener("pointerdown", (event) => {
+    dragging = true;
+    startX = event.clientX - tx;
+    startY = event.clientY - ty;
+    pane.setPointerCapture(event.pointerId);
+    pane.classList.add("grabbing");
+  });
+  pane.addEventListener("pointermove", (event) => {
+    if (!dragging) return;
+    tx = event.clientX - startX;
+    ty = event.clientY - startY;
+    apply();
+  });
+  const endDrag = (event) => {
+    dragging = false;
+    if (pane.hasPointerCapture?.(event.pointerId)) pane.releasePointerCapture(event.pointerId);
+    pane.classList.remove("grabbing");
+  };
+  pane.addEventListener("pointerup", endDrag);
+  pane.addEventListener("pointercancel", endDrag);
+  pane.addEventListener("dblclick", () => {
+    scale = 1;
+    tx = 0;
+    ty = 0;
+    apply();
+  });
+  return pane;
+}
+
+// The split "facsimile + transcript" reading view.
+function openReader(source) {
+  closeReader();
+  const overlay = document.createElement("div");
+  overlay.className = "reader-overlay";
+  overlay.addEventListener("mousedown", (event) => {
+    if (event.target === overlay) closeReader();
+  });
+
+  const dialog = document.createElement("div");
+  dialog.className = "reader-dialog";
+
+  const header = document.createElement("div");
+  header.className = "reader-header";
+  const heading = document.createElement("div");
+  heading.className = "reader-heading";
+  const hid = document.createElement("span");
+  hid.className = "source-id";
+  hid.textContent = source.id;
+  heading.append(hid, document.createTextNode(source.title || source.id));
+  const closeBtn = document.createElement("button");
+  closeBtn.type = "button";
+  closeBtn.className = "reader-close";
+  closeBtn.textContent = "✕";
+  closeBtn.setAttribute("aria-label", t("reader.close"));
+  closeBtn.addEventListener("click", closeReader);
+  header.append(heading, closeBtn);
+
+  const body = document.createElement("div");
+  body.className = "reader-body";
+  let leftPane;
+  if (source.fileType === "pdf") {
+    leftPane = document.createElement("iframe");
+    leftPane.className = "reader-pdf";
+    leftPane.src = source.file;
+    leftPane.title = source.title || source.id;
+  } else {
+    leftPane = imagePane(source.file);
+  }
+
+  const right = document.createElement("div");
+  right.className = "reader-transcript-pane";
+  const toggle = document.createElement("div");
+  toggle.className = "reader-toggle";
+  const txnBtn = document.createElement("button");
+  txnBtn.type = "button";
+  txnBtn.className = "reader-tab";
+  txnBtn.textContent = t("reader.transcription");
+  const absBtn = document.createElement("button");
+  absBtn.type = "button";
+  absBtn.className = "reader-tab";
+  absBtn.textContent = t("reader.abstract");
+  const textEl = document.createElement("div");
+  textEl.className = "reader-transcript";
+  const showTxn = () => {
+    txnBtn.classList.add("active");
+    absBtn.classList.remove("active");
+    if (source.transcription) renderTranscript(textEl, source.transcription);
+    else textEl.textContent = t("reader.noTranscript");
+  };
+  const showAbs = () => {
+    absBtn.classList.add("active");
+    txnBtn.classList.remove("active");
+    textEl.textContent = source.abstract || t("reader.noTranscript");
+  };
+  txnBtn.addEventListener("click", showTxn);
+  absBtn.addEventListener("click", showAbs);
+  if (source.transcription && source.abstract) toggle.append(txnBtn, absBtn);
+  right.append(toggle, textEl);
+  if (source.transcription) showTxn();
+  else if (source.abstract) showAbs();
+  else textEl.textContent = t("reader.noTranscript");
+
+  body.append(leftPane, right);
+  dialog.append(header, body);
+  if (source.fileType !== "pdf") {
+    const hint = document.createElement("div");
+    hint.className = "reader-hint";
+    hint.textContent = t("reader.zoomHint");
+    dialog.append(hint);
+  }
+  overlay.appendChild(dialog);
+  document.body.appendChild(overlay);
+  readerKeyHandler = (event) => {
+    if (event.key === "Escape") closeReader();
+  };
+  document.addEventListener("keydown", readerKeyHandler);
+}
+
+function readerOpenButton(source) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "source-link reader-open";
+  button.textContent = t("reader.open");
+  button.addEventListener("click", () => openReader(source));
+  return button;
+}
+
 function sourceList(sources) {
   if (!sources.length) {
     const empty = document.createElement("p");
@@ -481,6 +664,7 @@ function sourceList(sources) {
 
     const actions = document.createElement("div");
     actions.className = "source-actions";
+    if (source.file && source.fileType !== "other") actions.append(readerOpenButton(source));
     if (source.file) actions.append(externalLink(source.file, fileLinkLabel(source.file)));
     if (source.url) actions.append(externalLink(source.url, t("source.recordLink"), "external"));
     if (!source.file && !source.url) {

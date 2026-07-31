@@ -240,6 +240,13 @@ export function projectTreeData({ people, families, events, places, sources, fan
     }
   }
 
+  const fileKind = (p) => {
+    if (typeof p !== "string") return null;
+    const ext = p.split("?")[0].split(".").pop().toLowerCase();
+    if (ext === "pdf") return "pdf";
+    if (["jpg", "jpeg", "png", "tif", "tiff", "gif", "webp"].includes(ext)) return "image";
+    return "other";
+  };
   const sourceView = Object.fromEntries(
     Object.entries(sources).map(([sourceId, source]) => {
       const rawPath = source.digital_file?.path || source.repository?.repository_path || null;
@@ -262,6 +269,7 @@ export function projectTreeData({ people, families, events, places, sources, fan
             ? source.abstract.trim()
             : null,
         file: evidenceHref(rawPath),
+        fileType: fileKind(rawPath),
         url: typeof url === "string" && url.trim() ? url.trim() : null,
       }];
     }),
@@ -353,6 +361,49 @@ export function projectTreeData({ people, families, events, places, sources, fan
     }
   }
 
+  // Life-event ordering for a person's sources: rank by the earliest life event
+  // the source documents (birth → baptism → marriage → death → burial → other
+  // direct), then supporting/contextual records last; ties broken by year then ID.
+  const EVENT_RANK = {
+    birth: 1, baptism: 2, marriage: 3, death: 4, burial: 5,
+    residence: 6, immigration: 6, naturalisation: 6, occupation: 6, probate: 6, other: 6,
+  };
+  const CATEGORY_RANK = {
+    cemetery: 5, census: 6, court_or_probate: 6, government_record: 6,
+    official_index: 6, immigration: 6, naturalisation: 6, military: 6,
+    institutional_record: 6, other: 6,
+    newspaper: 7, published_genealogy: 7, collaborative_tree: 7, family_recollection: 7,
+  };
+  const yearOf = (date) => {
+    if (!date || typeof date !== "object") return null;
+    if (date.kind === "exact" && typeof date.value === "string") return Number(date.value.slice(0, 4));
+    if ((date.kind === "month" || date.kind === "year") && date.year) return Number(date.year);
+    if (date.earliest) return Number(date.earliest);
+    return null;
+  };
+  const eventsBySource = {};
+  for (const event of Object.values(events)) {
+    for (const sid of event.source_ids || []) {
+      if (typeof sid === "string") (eventsBySource[sid] ||= []).push(event);
+    }
+  }
+  const sourceRank = {};
+  const sourceYear = {};
+  for (const [sid, source] of Object.entries(sources)) {
+    let rank = null;
+    let year = null;
+    for (const event of eventsBySource[sid] || []) {
+      const r = EVENT_RANK[event.event_type] ?? 6;
+      if (rank === null || r < rank) rank = r;
+      const y = yearOf(event.date);
+      if (y && (year === null || y < year)) year = y;
+    }
+    if (rank === null) rank = CATEGORY_RANK[source.record_category] ?? 6;
+    if (year === null) year = yearOf(source.event_date) ?? yearOf(source.registration_date);
+    sourceRank[sid] = rank;
+    sourceYear[sid] = year ?? 9999;
+  }
+
   const conflictTerms = ["conflict", "uncertain", "unresolved", "variant", "pending"];
   const peopleView = {};
 
@@ -363,7 +414,12 @@ export function projectTreeData({ people, families, events, places, sources, fan
       .map((variant) => variant?.value)
       .filter((value) => typeof value === "string");
     const notes = living ? [] : noteTexts(person.notes || []);
-    const sourceIds = [...(personSourceIds[personId] || [])].sort();
+    const sourceIds = [...(personSourceIds[personId] || [])].sort(
+      (a, b) =>
+        (sourceRank[a] ?? 6) - (sourceRank[b] ?? 6) ||
+        (sourceYear[a] ?? 9999) - (sourceYear[b] ?? 9999) ||
+        a.localeCompare(b),
+    );
     const conflictText = [...notes, ...variants.slice(1)].join(" ").toLocaleLowerCase();
 
     peopleView[personId] = {

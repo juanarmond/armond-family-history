@@ -312,3 +312,48 @@ test("source view carries transcription and abstract", () => {
   assert.equal(data.sources["S-1"].abstract, "A civil marriage.");
   assert.equal(data.sources["S-2"].transcription, null);
 });
+
+test("source view carries a file type for image vs pdf", () => {
+  const input = {
+    people: {},
+    families: {},
+    events: {},
+    places: {},
+    sources: {
+      "CIV-1": { title: "img", linked_people: ["P-1"], digital_file: { path: "evidence/civil/x.jpg" } },
+      "CIV-2": { title: "pdf", linked_people: ["P-1"], digital_file: { path: "evidence/civil/y.pdf" } },
+    },
+    fan: {},
+  };
+  const data = projectTreeData(input);
+  assert.equal(data.sources["CIV-1"].fileType, "image");
+  assert.equal(data.sources["CIV-2"].fileType, "pdf");
+});
+
+test("a person's sources are ordered by life event, supporting records last", () => {
+  const input = {
+    people: {
+      "P-1": {
+        id: "P-1", preferred_name: "Test Person", privacy: "deceased",
+        name_variants: [], event_ids: ["E-b", "E-m", "E-d"], family_ids: [], notes: [],
+      },
+    },
+    families: {},
+    events: {
+      "E-b": { id: "E-b", event_type: "birth", date: { kind: "year", year: 1900 }, participants: [{ person_id: "P-1", role: "principal" }], source_ids: ["CIV-b"], status: "confirmed" },
+      "E-m": { id: "E-m", event_type: "marriage", date: { kind: "year", year: 1925 }, participants: [{ person_id: "P-1", role: "principal" }], source_ids: ["CIV-m"], status: "confirmed" },
+      "E-d": { id: "E-d", event_type: "death", date: { kind: "year", year: 1970 }, participants: [{ person_id: "P-1", role: "principal" }], source_ids: ["CIV-d"], status: "confirmed" },
+    },
+    places: {},
+    sources: {
+      "CIV-d": { title: "death", record_category: "civil_registration", linked_people: ["P-1"] },
+      "CIV-m": { title: "marriage", record_category: "civil_registration", linked_people: ["P-1"] },
+      "CIV-b": { title: "birth", record_category: "civil_registration", linked_people: ["P-1"] },
+      "PUB-1": { title: "thesis", record_category: "published_genealogy", linked_people: ["P-1"] },
+    },
+    fan: {},
+  };
+  const data = projectTreeData(input);
+  const order = data.people["P-1"].sources.map((s) => s.id);
+  assert.deepEqual(order, ["CIV-b", "CIV-m", "CIV-d", "PUB-1"]);
+});
