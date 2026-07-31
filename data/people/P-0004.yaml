@@ -11,12 +11,17 @@ name_variants:
   - CIV-0002
   - CIV-0008
 occupations:
+- value: padeiro
+  source_ids:
+  - CIV-0002
+  note: >-
+    His 1952 marriage (CIV-0002) records "profissão padeiro" (baker).
 - value: aposentado
   source_ids:
   - CIV-0003
   note: >-
-    His 1991 death record states "profissão aposentado" (retired); an earlier
-    occupation is not recorded.
+    By his 1991 death (CIV-0003) he is recorded "aposentado" (retired), having
+    worked earlier as a padeiro (CIV-0002).
 event_ids:
 - E-0002
 - E-0003

@@ -12,6 +12,20 @@ name_variants:
       - CIV-0004
       - CIV-0014
       - CIV-0016
+occupations:
+  - value: lavrador
+    source_ids:
+      - CIV-0016
+    note: >-
+      In 1924 he appears as a "lavrador" (farmer) when declaring Eunir's birth at
+      Nova Friburgo (CIV-0016).
+  - value: comerciante
+    source_ids:
+      - CIV-0014
+    note: >-
+      By his 1970 death at Volta Redonda he is recorded as "profissão comerciante"
+      (CIV-0014). (The "industriário" in that record is the declarant, his
+      son-in-law, not him.)
 event_ids:
   - E-0004
   - E-0019

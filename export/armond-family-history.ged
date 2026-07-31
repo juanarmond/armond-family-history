@@ -57,6 +57,8 @@
 3 QUAY 2
 2 SOUR @CIV0003@
 3 QUAY 2
+1 OCCU padeiro
+2 SOUR @CIV0002@
 1 OCCU aposentado
 2 SOUR @CIV0003@
 1 FAMS @F0002@
@@ -173,6 +175,8 @@
 3 QUAY 2
 2 SOUR @CIV0017@
 3 QUAY 2
+1 OCCU negociante
+2 SOUR @CIV0017@
 1 FAMS @F0012@
 1 FAMC @F0015@
 1 NOTE Ahnentafel position 10. Recorded both as "Antonio Engracio Filho" (family roster REC-0001; his 1964 death CIV-0017) and "Antônio Engrácio de Souza" (his daughter Cidalia's 1952 marriage CIV-0002) — "Filho" distinguishes him from his father Antonio Engracio de Souza (P-0032), who shares the base name.
@@ -255,6 +259,10 @@
 2 PLAC Rio de Janeiro, Brazil
 2 SOUR @CIV0014@
 3 QUAY 2
+1 OCCU lavrador
+2 SOUR @CIV0016@
+1 OCCU comerciante
+2 SOUR @CIV0014@
 1 FAMS @F0005@
 1 FAMC @F0013@
 1 NOTE Ahnentafel position 14.

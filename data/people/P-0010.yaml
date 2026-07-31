@@ -14,6 +14,13 @@ name_variants:
     type: source
     source_ids:
       - CIV-0002
+occupations:
+  - value: negociante
+    source_ids:
+      - CIV-0017
+    note: >-
+      His 1964 civil death (CIV-0017) records "profissão negociante"; a
+      shopkeeper/trader at Pavuna, then Guanabara.
 event_ids:
   - E-0023
   - E-0024

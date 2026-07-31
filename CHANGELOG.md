@@ -7,6 +7,14 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Occupations completeness pass from evidence already in hand: add attested
+  professions to the direct-line principals — Geraldo Paz Armond *padeiro*
+  (CIV-0002, alongside the existing *aposentado*), Antonio Engracio Filho
+  *negociante* (CIV-0017), and João Gonçalves Bohrer *lavrador* (CIV-0016, 1924) →
+  *comerciante* (CIV-0014, 1970). Each is attributed to the record's own subject
+  (the "industriário" in CIV-0014 is the declarant, deliberately excluded), and
+  the 1831 Curral Novo census (GOV-0002, `context_only`) is deliberately NOT used
+  for P-0016 — it names the elder Barbacena namesake, not this Simplício.
 - Catalogue a new Santo Antônio de Sapucaia (RJ) parish cluster from the retrieval
   sync: Deocleciano Muniz Bittencourt's own 1892 baptism (`PAR-0004`), Susanna Rita
   Brandão's 1866 baptism (`PAR-0005`), and Anna Muniz Bittencourt's 1885 baptism
