@@ -793,7 +793,7 @@ people:
     - text: >-
         31 July 2026: her Sapucaia baptism resolves her parentage over the earlier
         "Manoel Soares Brandão" lead and names a maternal grandfather (Antonio
-        Castro Machado, Rita Ignacia's father) as a further lead.
+        [uncertain: Castro/Caetano] Machado, Rita Ignacia's father) as a further lead.
   - record_type: marriage
     status: inaccessible
     source_ids: []
@@ -1041,3 +1041,61 @@ people:
     next_action: Locate Maria Paula's own death or parish burial record after 1915.
     notes: []
   notes: []
+- person_id: P-0040
+  external_profiles: []
+  records:
+  - record_type: baptism
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-31"
+    next_action: >-
+      Seek his own baptism (a Brandão family of Santo Antônio de Sapucaia RJ,
+      likely 1820s-30s) in the Sapucaia parish books.
+    notes: []
+  - record_type: marriage
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-31"
+    next_action: >-
+      Seek his marriage to Rita Ignacia de Jesus in the Sapucaia marriage book; it
+      would name both spouses' parents.
+    notes: []
+  - record_type: death
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-31"
+    next_action: Locate his death/burial (the Sapucaia óbito books).
+    notes: []
+  notes:
+  - text: >-
+      New direct ancestor (31 July 2026): father of Susanna Rita Brandão (P-0020),
+      established by her 1866 baptism (PAR-0005). A Sapucaia RJ Brandão family; own
+      vitals not yet sought.
+- person_id: P-0041
+  external_profiles: []
+  records:
+  - record_type: baptism
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-31"
+    next_action: >-
+      Seek her own baptism (Sapucaia RJ); her father is a lead — Antonio
+      [uncertain: Castro/Caetano] Machado, named "avô materno" in Susanna's baptism.
+    notes: []
+  - record_type: marriage
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-31"
+    next_action: Seek her marriage to José do Rego Brandão (Sapucaia marriage book).
+    notes: []
+  - record_type: death
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-31"
+    next_action: Locate her death/burial (Sapucaia óbito books).
+    notes: []
+  notes:
+  - text: >-
+      New direct ancestor (31 July 2026): mother of Susanna Rita Brandão (P-0020),
+      established by her 1866 baptism (PAR-0005). Her father is a lead: Antonio
+      [uncertain: Castro/Caetano] Machado ("avô materno"). Own vitals not yet sought.
