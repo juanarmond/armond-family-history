@@ -161,6 +161,19 @@ reads it as deliberate rather than missing.
   source-qualified entities needed by the evidence being ingested.
 - Prefer a bounded manual register review over repeating broad name searches.
 
+## Parallelism and delegation
+
+- Whenever a task divides into independent units — transcribing or value-gating
+  many records, auditing many entities, a broad multi-file change — split it
+  across **parallel subagents**, each with a **disjoint set of files** and strict,
+  self-contained instructions, then validate and commit centrally. Prefer this to
+  sequential work for large batches; it is the default for anything repetitive.
+- A subagent does not inherit this file's context: restate the relevant
+  non-negotiable rules in its prompt (evidence integrity, no fabrication — mark
+  `[illegible]`/`[uncertain]` rather than guess — privacy handling, edit only the
+  assigned field/files, do not commit). Spot-check its output and run
+  `uv run --frozen make check` before committing the batch.
+
 ## Non-negotiable rules
 
 - Write repository content, filenames and commit messages in English while

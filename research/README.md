@@ -124,11 +124,18 @@ Every source entry should capture, when available:
 - Preserve original spelling, punctuation and diacritics. Put expansions,
   translations and interpretations in separate notes, not inline.
 - Transcribe identifiers (record, book/folio, RG/CPF and dossier numbers) as they
-  appear. This is a private repository; the full backup is not shared.
+  appear, and transcribe **every person the record names** — principals,
+  declarants, informants, witnesses, officiants, physicians — with their stated
+  data. This repository is private and local: do **not** self-redact within a
+  transcription. Redaction, if ever needed, belongs only in a separately shared
+  derivative, never in the source transcription.
 - Do not use OCR as the sole authority for handwritten records: a machine reading
   of cursive is a draft to verify against the image, never the final transcript.
 - If the original is unavailable and only a legible copy remains, transcribe the
   copy and say so; never reconstruct a transcript from memory.
+- For a published or authored secondary work (a book, thesis or article),
+  "full" means the **relevant passage(s) transcribed verbatim with page
+  citations**, not the entire publication; the `abstract` carries the summary.
 
 ## Collaborative trees
 
