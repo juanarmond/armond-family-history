@@ -5,6 +5,18 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-07-31 — Cidália's birth and a third Armond daughter (Aristides)
+
+- Outcome: from a new retrieval sync, catalogued Cidália's own 1930 birth
+  registration (CIV-0022, Alvorada) — resolving material conflict 1 (15 September
+  1930) and confirming her parents/grandparents (E-0030 and F-0012 upgraded to
+  confirmed) — and a third Armond daughter, Aristides Ferreira Armand's 1894
+  marriage (CIV-0023, Muriaé), added as a documented child of Simplício × Eliza
+  (F-0006) with new Simplício-line locality leads (Boa Família/Muriaé; Rio
+  Pardo/Argirita ~1875).
+- Detailed log:
+  [`logs/2026-07-31-cidalia-birth-and-aristides-armand.md`](2026-07-31-cidalia-birth-and-aristides-armand.md).
+
 ## 2026-07-30 — Ancestor birth-event completeness pass
 
 - Outcome: audited all deceased people for a missing birth event and filled the

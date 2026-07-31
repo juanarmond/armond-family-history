@@ -1,0 +1,95 @@
+schema_version: 1
+id: CIV-0023
+title: >-
+  Civil marriage (inteiro teor) of João Rodrigues Braga and Aristides Ferreira
+  Armand (1894, Boa Família, Muriaé), naming her parents Simplício José Ferreira
+  Armand and Elisa Balbina de Jesus
+record_type: Civil marriage register entry (certified inteiro teor)
+record_category: civil_registration
+source_form: derivative
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1894-08-11"
+event_place_text: >-
+  São Fernando do Divisório, São Francisco de Paula da Boa Família, Muriaé, Minas
+  Gerais, Brazil
+repository:
+  name: >-
+    Registro Civil das Pessoas Naturais com Atribuição Notarial de Boa Família,
+    Muriaé, MG
+  archive_or_registry: Registro Civil, Distrito de Boa Família, Comarca de Muriaé, MG
+  book: 1-B
+  page: "134"
+  record_number: "9"
+  catalogue_reference: >-
+    Casamento livro 1-B, fl. 134, termo 9; matrícula 0438770155 1894 2 00001 134
+    0000009 15; certified inteiro-teor copy issued 6 August 2019 (Roberto Alves
+    Barcellos). Owner-supplied certificate delivered through the
+    research/from-retrieval/ sync; read and promoted 31 July 2026.
+  repository_path: >-
+    evidence/civil/CIV-0023-aristides-ferreira-armand-marriage-1894-boa-familia.jpg
+access_date: "2026-07-31"
+language: pt-BR
+transcription: >-
+  [Certidão de inteiro teor — casamento; nomes João Rodrigues Braga e Aristides
+  Ferreira Armand; Comarca de Muriaé.] "Livro 1-B, Folha 134, Termo 9: Aos onze dias
+  do mez de Agosto do anno de mil oito centos e noventa e quatro, ás quatro horas da
+  tarde, neste Districto de São Francisco de Paula da Boa Familia, Comarca do
+  Muriahé, Estado de Minas Geraes, no logar denominado São Fernando do Divizorio, em
+  casa de residencia do cidadão Simplicio José Ferreira Armand, ... presentes o
+  cidadão José Eugenio de Miranda, Juiz de Paz ... e as testemunhas Balduino
+  Rodrigues de Almeida [ilegível] e Anastacio Theodoro de Souza, receberam-se em
+  matrimonio JOÃO RODRIGUES BRAGA e Dona ARISTIDES FERREIRA ARMAND, ambos solteiros;
+  elle com vinte e quatro annos de idade, lavrador, natural do Gloria do Muriahé,
+  filho legitimo de Francisco Rodrigues Pereira Braga, já fallecido, e Dª Constancia
+  Leopoldina Campos, ali residente; e ella, do serviço domestico, com dezenove annos
+  de idade, natural do Rio Pardo da Leopoldina, residente neste Districto, filha
+  legitima de Simplicio José Ferreira Armand e Dª Elisa Balbina de Jesus, residentes
+  neste districto. ... [assinaturas] José Lourenço Vianna (oficial); José Eugenio de
+  Miranda; João Rodrigues Braga; Aristides Ferreira Armand; ... Dr. Augusto Ferr. de
+  Macedo e Simplicio José Ferr. Armand." Certified Boa Família, Muriaé-MG, 6 August
+  2019.
+abstract: >-
+  A 2019 certified inteiro-teor of the 11 August 1894 civil marriage of João
+  Rodrigues Braga and Dona Aristides Ferreira Armand at São Fernando do Divisório,
+  Boa Família (Muriaé, MG) — held at the house of Simplício José Ferreira Armand,
+  who also signed as a witness. The bride, aged 19 (so born c.1875, "natural do Rio
+  Pardo da Leopoldina"), is recorded as the legitimate daughter of Simplício José
+  Ferreira Armand (P-0016) and Dª Elisa Balbina de Jesus (P-0017) — a third
+  documented child of that couple and a sister of Aristão (P-0008) and Marfiza.
+reliability:
+  assessment: >-
+    Direct primary evidence of the 1894 marriage and of the bride's parentage,
+    which is stated by the officiant with the father present and signing. A third
+    primary attestation of the couple Simplício × Eliza and of Simplício's full
+    signed name.
+  informant: >-
+    The civil registrar (José Lourenço Vianna); the bride's father Simplício José
+    Ferreira Armand was present and among the signatories.
+  limitations: >-
+    A 2019 certified copy, not the original register image. The bride Aristides
+    Ferreira Armand and the groom's family are collateral and not modelled as
+    entities. Some witness names are read with uncertainty.
+digital_file:
+  path: >-
+    evidence/civil/CIV-0023-aristides-ferreira-armand-marriage-1894-boa-familia.jpg
+  sha256: b3f3e78c8bb95858b8eacbfb9b634783661e8f891b9dc6f45b3acf011bdaeafb
+linked_people:
+- P-0016
+- P-0017
+linked_families:
+- F-0006
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Adds Aristides Ferreira Armand (daughter, b.~1875 Rio Pardo da Leopoldina,
+    m.1894) as a documented child of Simplício × Eliza (F-0006) — a sister of Aristão
+    and Marfiza. Gives Eliza's name here as "Elisa Balbina de Jesus" (a further
+    variant). Locality leads for the Simplício line: the family resided at São
+    Fernando do Divisório, Boa Família (Muriaé) in 1894, and Aristides was born
+    ~1875 at Rio Pardo da Leopoldina (the Argirita/Bom Jesus do Rio Pardo area).

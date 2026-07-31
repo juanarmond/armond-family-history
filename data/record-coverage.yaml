@@ -51,13 +51,15 @@ people:
     usage: lead_only
   records:
   - record_type: birth
-    status: lead_only
-    source_ids: []
-    last_reviewed: "2026-07-28"
-    next_action: >-
-      Locate the 1930 civil birth record and resolve the September-versus-
-      November date conflict.
-    notes: []
+    status: catalogued
+    source_ids:
+    - CIV-0022
+    last_reviewed: "2026-07-31"
+    notes:
+    - text: >-
+        Her own 1930 civil birth registration (CIV-0022, Alvorada, nº 132, livro 2)
+        confirms 15 September 1930 and her parents and grandparents — resolving the
+        September-versus-November date conflict (material conflict 1).
   - record_type: marriage
     status: catalogued
     source_ids:
@@ -521,6 +523,13 @@ people:
       marriage ~1855-1872 (the decisive bridge record; names both spouses'
       parents). Search Piacatuba/Leopoldina, then the Além Paraíba matriz.
     notes:
+    - text: >-
+        31 July 2026 (CIV-0023): the couple's daughter Aristides Ferreira Armand was
+        born ~1875 "natural do Rio Pardo da Leopoldina" and married in 1894 at Boa
+        Família (São Francisco de Paula da Boa Família, Muriaé), where the family then
+        resided and Simplício was present and signed. This narrows the Simplício ×
+        Eliza marriage to the Rio Pardo / Argirita area c.1870-1874 (before Aristides's
+        ~1875 birth) and confirms the family's Leopoldina→Muriaé migration.
     - text: >-
         29 July 2026: not in the transcribed Leopoldina/Conceição-da-Boa-Vista
         marriage indexes (cantoni.pro.br), so likely an untranscribed range or

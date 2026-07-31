@@ -8,13 +8,14 @@ place_id: PL-0004
 participants:
 - person_id: P-0005
   role: principal
-status: strong-evidence
+status: confirmed
 source_ids:
+- CIV-0022
 - CIV-0002
 - CIV-0008
 notes:
 - text: >-
-    Born 15 September 1930 at Alvorada (MG), per her 1952 marriage (CIV-0002) and
-    her grandson Juan's 1982 birth (CIV-0008). Material conflict 1 preserves a "15
-    November 1930" family variant; the two civil records give 15 September, so that
-    is recorded here. Her own birth registration has not been located.
+    Born 15 September 1930 at Alvorada (Carangola, MG), per her own civil birth
+    registration (CIV-0022), corroborated by her 1952 marriage (CIV-0002) and her
+    grandson Juan's 1982 birth (CIV-0008). Resolves material conflict 1: the "15
+    November 1930" family variant is superseded by her own birth record.

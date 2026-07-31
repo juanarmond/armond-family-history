@@ -16,6 +16,10 @@ name_variants:
   type: source
   source_ids:
   - PRB-0001
+- value: Elisa Balbina de Jesus
+  type: source
+  source_ids:
+  - CIV-0023
 event_ids:
 - E-0005
 family_ids:

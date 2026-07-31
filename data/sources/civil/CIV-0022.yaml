@@ -1,0 +1,85 @@
+schema_version: 1
+id: CIV-0022
+title: >-
+  Civil birth registration of Cidália (Engracio Guimarães) (1930, Alvorada),
+  naming her parents and both grandparent couples
+record_type: Civil birth register entry (certified copy)
+record_category: civil_registration
+source_form: derivative
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1930-09-15"
+event_place_text: Alvorada, Carangola, Minas Gerais, Brazil
+registration_date:
+  kind: exact
+  value: "1930-09-15"
+repository:
+  name: Cartório do Registro Civil e Tabelionato de Alvorada, Carangola, MG
+  archive_or_registry: >-
+    Registro Civil, Distrito de Alvorada, Município de Carangola, Minas Gerais
+  book: "2"
+  page: "142"
+  record_number: "132"
+  catalogue_reference: >-
+    Nascimento nº 132, fl. 142, livro 2, Registro Civil de Alvorada (Carangola,
+    MG); certified copy issued 4 May 1995. Owner-supplied certificate delivered
+    through the research/from-retrieval/ sync; read and promoted 31 July 2026.
+  repository_path: evidence/civil/CIV-0022-cidalia-birth-1930-alvorada.jpg
+access_date: "2026-07-31"
+language: pt-BR
+transcription: >-
+  [República Federativa do Brasil, Registro Civil, Comarca de Carangola, Distrito
+  de Alvorada, MG. Certidão de Nascimento.] "CERTIFICO que, sob Nº 132, a fls. 142,
+  do livro Nº Dois (02) de Registro de Nascimentos, encontra-se o assento de
+  'CIDÁLIA', nascida a 15 (quinze) de setembro (09) de mil novecentos e trinta
+  (1930), em domicílio, neste distrito de Alvorada, Município de Carangola, Minas
+  Gerais. Do sexo feminino, filha de Antonio Engracio de Souza e Maria Aurora
+  Guimarães. Sendo avós paternos Antonio Engracio de Souza e dona Luzia da
+  Conceição; e maternos Francisco José de Carvalho Guimarães e dona Emerenciana
+  Maria de Jesus. Tendo sido declarante o pai. O assento foi feito em 15 de setembro
+  de 1930." Certified Alvorada (MG), 4 May 1995.
+abstract: >-
+  A 1995 certified copy of Cidália's 1930 birth registration (nº 132, livro 2, fl.
+  142, Alvorada, Carangola, MG). Her own primary birth record: born 15 September
+  1930 at Alvorada, daughter of Antonio Engracio de Souza (P-0010) and Maria Aurora
+  Guimarães (P-0011), declared by her father. Names the paternal grandparents
+  Antonio Engracio de Souza + Luzia (Pinheiro) da Conceição (P-0032/P-0033) and the
+  maternal grandparents Francisco José de Carvalho Guimarães + Emerenciana Maria de
+  Jesus (P-0021/P-0022).
+reliability:
+  assessment: >-
+    Direct primary evidence for Cidália's birth date, place and parentage — her own
+    civil birth registration, declared by her father in 1930 (here as a certified
+    copy). Resolves material conflict 1 (15 September, not 15 November 1930).
+  informant: Her father, Antonio Engracio (de Souza) Filho, was the declarant.
+  limitations: >-
+    A 1995 certified copy, not the original register image; the given name is
+    recorded as "Cidália" (the surname was assigned later).
+digital_file:
+  path: evidence/civil/CIV-0022-cidalia-birth-1930-alvorada.jpg
+  sha256: 691721b829fb2dd1cbd01363c252c95fb8e05179800844ba3fe90b44ca78edd9
+linked_people:
+- P-0005
+- P-0010
+- P-0011
+- P-0021
+- P-0022
+- P-0032
+- P-0033
+linked_families:
+- F-0008
+- F-0012
+- F-0015
+linked_events:
+- E-0030
+linked_places: []
+private: true
+notes:
+- text: >-
+    Cidália's own birth registration. Resolves material conflict 1: born 15
+    September 1930 (not 15 November). Confirms her parents (F-0012) and all four
+    grandparents. Her father and paternal grandfather share the name "Antonio
+    Engracio de Souza" (the father is the "Filho", P-0010; the grandfather P-0032).

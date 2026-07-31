@@ -7,6 +7,14 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Catalogue two records from the retrieval sync: Cidália's own 1930 birth
+  registration (`CIV-0022`, Alvorada) and a third Armond daughter — Aristides
+  Ferreira Armand's 1894 marriage to João Rodrigues Braga (`CIV-0023`, Boa Família,
+  Muriaé). Cidália's birth confirms her date, parents and all four grandparents;
+  Aristides is added as a documented child of Simplício × Eliza (F-0006), a sister
+  of Aristão and Marfiza, giving a fourth attestation of Simplício's signed name and
+  Eliza's "Elisa Balbina de Jesus" variant. Adds DOC-0033/DOC-0034 and strong
+  Simplício-line locality leads (Boa Família/Muriaé 1894; Rio Pardo/Argirita ~1875).
 - Add the missing ancestor birth events from records already in hand, so the
   grandparents' and great-grandparents' viewer cards show their dates: Geraldo
   (E-0029, 30 Jan 1915, Rosário da Limeira MG) and Cidalia (E-0030, 15 Sep 1930,
@@ -66,6 +74,10 @@ also remain traceable through source records and research logs.
 
 ### Changed
 
+- Resolve material conflict 1: Cidália's own birth registration (CIV-0022) fixes her
+  birth at 15 September 1930, superseding the "15 November" variant. Upgraded her
+  birth event (E-0030) and her parentage in F-0012 to **confirmed** (direct primary
+  from her own birth record).
 - Correct and complete CIV-0002 from a clearer alternate view: Cidalia's father is
   named "Antônio Engrácio de Souza" (correcting the earlier obscured "Antonio
   Engracio Filho" reading) with an exact birth 15 June 1894 — refining P-0010's

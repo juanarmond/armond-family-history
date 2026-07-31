@@ -1315,3 +1315,80 @@ documents:
         Subject Aristides (b.1922, a brother of Antenor, recorded as a documented
         child on F-0001, not a person entity). Establishes Luiza's parents (P-0038,
         P-0039) and the Carangola origin; all named persons are deceased.
+  - inventory_id: DOC-0033
+    status: catalogued
+    added_date: "2026-07-31"
+    apparent_record_type: Civil birth register entry (certified copy)
+    apparent_people:
+      - Cidália Engracio Guimarães
+      - Antonio Engracio de Souza
+      - Maria Aurora Guimarães
+      - Luzia da Conceição
+      - Francisco José de Carvalho Guimarães
+      - Emerenciana Maria de Jesus
+    apparent_event: birth
+    image_quality: adequate
+    provenance: >-
+      Cartório do Registro Civil e Tabelionato de Alvorada, Carangola (MG); certified
+      copy of the 1930 birth registration (nº 132, livro 2, fl. 142), issued 4 May
+      1995. Owner-supplied certificate delivered through the research/from-retrieval/
+      sync; read and promoted 31 July 2026.
+    rights_status: permission-required
+    files:
+      - path: evidence/civil/CIV-0022-cidalia-birth-1930-alvorada.jpg
+        sha256: 691721b829fb2dd1cbd01363c252c95fb8e05179800844ba3fe90b44ca78edd9
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: original-file
+          pixel_width: 840
+          pixel_height: 1280
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: CIV-0022
+    notes:
+      - >-
+        Cidália's own birth registration; resolves material conflict 1 (born 15
+        September 1930) and confirms her parents (P-0010/P-0011) and four
+        grandparents. All named persons are deceased.
+  - inventory_id: DOC-0034
+    status: catalogued
+    added_date: "2026-07-31"
+    apparent_record_type: Civil marriage register entry (certified inteiro teor)
+    apparent_people:
+      - João Rodrigues Braga
+      - Aristides Ferreira Armand
+      - Simplício José Ferreira Armand
+      - Elisa Balbina de Jesus
+      - Francisco Rodrigues Pereira Braga
+      - Constância Leopoldina Campos
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      Registro Civil de Boa Família (Muriaé, MG); certified inteiro-teor of the 1894
+      marriage (livro 1-B, fl. 134, termo 9), issued 6 August 2019. Owner-supplied
+      certificate delivered through the research/from-retrieval/ sync; read and
+      promoted 31 July 2026.
+    rights_status: permission-required
+    files:
+      - path: evidence/civil/CIV-0023-aristides-ferreira-armand-marriage-1894-boa-familia.jpg
+        sha256: b3f3e78c8bb95858b8eacbfb9b634783661e8f891b9dc6f45b3acf011bdaeafb
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: original-file
+          pixel_width: 1512
+          pixel_height: 2016
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: CIV-0023
+    notes:
+      - >-
+        Marriage of a third Armond daughter, Aristides Ferreira Armand (collateral,
+        a documented child on F-0006), to João Rodrigues Braga. Names her parents
+        Simplício José Ferreira Armand and Elisa Balbina de Jesus (with Simplício's
+        signature). All named persons are deceased.

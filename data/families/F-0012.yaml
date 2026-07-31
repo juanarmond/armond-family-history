@@ -21,22 +21,23 @@ children:
   parent_relationships:
   - parent_id: P-0010
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
+    - CIV-0022
     - CIV-0002
     notes: []
   - parent_id: P-0011
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
+    - CIV-0022
     - CIV-0002
     notes: []
   notes:
   - text: >-
-      Cidalia's damaged civil marriage certificate names Antonio Engracio Filho
-      and Maria Aurora Guimarães as her parents. Portions of the parentage lines
-      are obscured, so the relationships remain strong evidence rather than
-      confirmed.
+      Cidalia's own 1930 birth registration (CIV-0022) names her parents Antonio
+      Engracio (de Souza) Filho and Maria Aurora Guimarães — direct primary evidence
+      — so the parentage is confirmed; her 1952 marriage (CIV-0002) corroborates.
 event_ids: []
 notes:
 - text: >-
