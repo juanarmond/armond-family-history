@@ -198,13 +198,16 @@ Before declaring an objective complete:
 4. Append `logs/LOG.md` for completed research or repository-audit sessions.
 5. Add a concise `CHANGELOG.md` entry for notable repository changes.
 6. Run `uv run --frozen make check` and fix every error and warning.
-7. Verify link reciprocity and per-entity completeness, which `make check` does
+7. When structured data changed, regenerate the committed GEDCOM full backup with
+   `uv run --frozen make export` so `export/armond-family-history.ged` stays in
+   step with the data. (The `.gdz` bundle is on-demand and gitignored.)
+8. Verify link reciprocity and per-entity completeness, which `make check` does
    not yet enforce (see "Entity connectivity and completeness"): both ends of
    every family, event and FAN link resolve, no entity is an unintended orphan,
    and each deliberate omission is noted.
-8. Review the diff for privacy, unsupported promotion and accidental
+9. Review the diff for privacy, unsupported promotion and accidental
    duplication.
-9. Commit one small completed objective. Do not push unless explicitly asked or
-   the active automation explicitly requires it.
-10. Select the next highest-priority actionable objective and continue until a
+10. Commit one small completed objective. Do not push unless explicitly asked or
+    the active automation explicitly requires it.
+11. Select the next highest-priority actionable objective and continue until a
     natural stopping point or a genuine human-intervention blocker.
