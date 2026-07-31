@@ -1,0 +1,20 @@
+schema_version: 1
+id: P-0044
+preferred_name: Maria de Mendonça
+privacy: deceased
+sex: female
+name_variants:
+- value: Maria de Mendonça
+  type: source
+  source_ids:
+  - PAR-0008
+event_ids: []
+family_ids:
+- F-0021
+notes:
+- text: >-
+    Mother of José do Rego Brandão (P-0040), named with her husband José do Rego
+    Brandão [Sr] (P-0043) in their son's 1912 Carangola death (PAR-0008). Own vital
+    records not located.
+- text: >-
+    Nationality left unset: no birthplace or stated nacionalidade is evidenced.

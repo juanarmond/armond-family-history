@@ -1,0 +1,68 @@
+schema_version: 1
+id: PAR-0009
+title: >-
+  Parish death register entry of Rita do Rego Brandão (Rita Ignacia de Jesus)
+  (1898, Santa Luzia de Carangola)
+record_type: Parish death register entry (óbito, original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1898-01-04"
+event_place_text: Santa Luzia de Carangola, Minas Gerais, Brazil
+repository:
+  name: Paróquia de Santa Luzia (Diocese de Caratinga), Carangola, Minas Gerais, Brazil
+  archive_or_registry: >-
+    Livro de óbitos 1895-1922, Paróquia de Santa Luzia de Carangola, MG
+    (Familiaridade online gallery)
+  book: óbitos 1895-1922
+  catalogue_reference: >-
+    Death act of 4 January 1898 (register idx ~12), Livro de óbitos 1895-1922,
+    Paróquia de Santa Luzia de Carangola, MG. Register image via the Familiaridade
+    online gallery, delivered through the research/from-retrieval/ sync; read and
+    promoted 31 July 2026.
+  repository_path: evidence/parish/PAR-0009-rita-do-rego-brandao-obito-1898-carangola.jpg
+access_date: "2026-07-31"
+language: pt-BR
+transcription: >-
+  [Paróquia de Santa Luzia de Carangola, MG; livro de óbitos. Margem: "Rita".] "Aos 4
+  de Janeiro de 1898 faleceu de morte natural Rita do Rego Brandão, de 51 annos de
+  idade, casada com José do Rego Brandão. Não procuraram Confissão. No dia 5 foi
+  solemnemente encommendada nesta Egreja e Acompanhada ao Cemeterio, aonde foi
+  sepultada. Conego [Francisco] Sabino."
+abstract: >-
+  The original 1898 death register entry (Santa Luzia de Carangola, MG) of Rita do
+  Rego Brandão — the married name of Rita Ignacia de Jesus (P-0041) — died 4 January
+  1898, aged 51 (so born c.1847), wife of José do Rego Brandão (P-0040). Identified as
+  P-0041 by the married-name and husband match (José's own 1912 óbito names him "viuvo
+  de Rita do Rego Brandão").
+reliability:
+  assessment: >-
+    Direct primary parish evidence for the death and approximate birth year of Rita
+    (P-0041), identified by her husband's name.
+  informant: The Conego [Francisco] Sabino of Santa Luzia de Carangola (1898).
+  limitations: >-
+    The act records her married name "Rita do Rego Brandão", not the "Rita Ignacia de
+    Jesus" of her daughter Susanna's 1866 baptism; the identification rests on the
+    husband (José do Rego Brandão) match. A separate 1906 Carangola death of a
+    different "Rita Brandão" (wife of João de Souza Freitas, died in childbirth at 32)
+    is NOT this person.
+digital_file:
+  path: evidence/parish/PAR-0009-rita-do-rego-brandao-obito-1898-carangola.jpg
+  sha256: 6eda064553a228e347f657041eacaa13f3f4909c6083525043af4271da500ed8
+linked_people:
+- P-0041
+- P-0040
+linked_families:
+- F-0019
+linked_events:
+- E-0038
+linked_places: []
+private: true
+notes:
+- text: >-
+    P-0041's death, distinguished from a namesake 1906 Carangola death of a different
+    "Rita Brandão" (wife of João de Souza Freitas).

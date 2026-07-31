@@ -5,6 +5,21 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-07-31 — Carangola/Sapucaia óbitos: João's São Miguel origin + maternal lines
+
+- Outcome: value-gated the new Sapucaia/Carangola death registers (5 parallel/direct
+  reads + 3 classifier subagents). Catalogued five óbitos: João Muniz Bittencourt's
+  1915 death (PAR-0007) — **resolving material conflict 6** (born Ilha de São Miguel,
+  Açores, c.1847; nationality Portuguese; father Manoel Luiz Bittencourt P-0042) — and
+  the maternal Brandão/Machado deaths that extended those lines two generations: José
+  do Rego Brandão 1912 (PAR-0008 → parents P-0043/P-0044), Rita 1898 (PAR-0009),
+  Antonio Caetano Machado 1868 (PAR-0010, resolving Castro→Caetano) and Ignacia Maria
+  de Jesus 1878 (PAR-0011, probable mother of Rita). Added 5 ancestors, 3 families, 5
+  death events (DOC-0038–0042). Recorded Damazio (probable brother of João), a José
+  Armond-in-Carangola lead and an Azevedo-infant lead.
+- Detailed log:
+  [`logs/2026-07-31-carangola-sapucaia-obitos.md`](2026-07-31-carangola-sapucaia-obitos.md).
+
 ## 2026-07-31 — Sapucaia Muniz Bittencourt baptisms (retrieval drop)
 
 - Outcome: value-gated a new Santo Antônio de Sapucaia (RJ) parish cluster

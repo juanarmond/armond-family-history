@@ -1,0 +1,47 @@
+schema_version: 1
+id: F-0022
+partners:
+- person_id: P-0045
+  role: spouse
+- person_id: P-0046
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PAR-0011
+  notes:
+  - text: >-
+      Ignacia Maria de Jesus's 1878 death (PAR-0011) names her "viuva de Antonio
+      Caetano Machado", directly attesting the marriage.
+children:
+- person_id: P-0041
+  parent_relationships:
+  - parent_id: P-0045
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - PAR-0005
+    - PAR-0010
+    notes:
+    - text: >-
+        Antonio Caetano Machado is named the "avô materno" (maternal grandfather) in
+        Susanna's 1866 baptism (PAR-0005) — i.e. Rita's father; his 1868 death
+        (PAR-0010) corroborates the name/generation.
+  - parent_id: P-0046
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - PAR-0011
+    notes:
+    - text: >-
+        Inferred: Ignacia is Antonio Caetano Machado's wife (PAR-0011) and the name
+        pattern (Rita **Ignacia** de Jesus / **Ignacia** Maria de Jesus) points to her
+        as Rita's mother; the record does not state the mother-child link directly.
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Parents of Rita Ignacia de Jesus (P-0041). The couple is confirmed (PAR-0011,
+    "viuva de Antonio Caetano Machado"); Antonio as Rita's father is strong evidence
+    (PAR-0005 avô materno); Ignacia as Rita's mother is an inference from the marriage
+    plus the shared "Ignacia" name.

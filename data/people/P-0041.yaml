@@ -9,10 +9,16 @@ name_variants:
   source_ids:
   - PAR-0005
   - PAR-0006
+- value: Rita do Rego Brandão
+  type: married
+  source_ids:
+  - PAR-0009
 event_ids:
 - E-0035
+- E-0038
 family_ids:
 - F-0019
+- F-0022
 notes:
 - text: >-
     Mother of Susanna (Suzana) Rita Brandão (P-0020) — Susanna's married name
@@ -20,8 +26,16 @@ notes:
     legitimate mother, and again as a godparent of her granddaughter Anna's 1885
     baptism (PAR-0006).
 - text: >-
-    Maternal-line lead, not modelled: Susanna's 1866 baptism names the padrinho
-    Antonio [uncertain: Castro/Caetano] Machado as the child's "avô materno" (maternal grandfather),
-    i.e. Rita Ignacia de Jesus's own father. Recorded here as a research lead.
+    Died 4 January 1898 at Carangola, aged 51 (born c.1847), under her married name
+    "Rita do Rego Brandão", per her death register (PAR-0009 → event E-0038);
+    identified as hers by her husband José do Rego Brandão (whose 1912 óbito names him
+    "viuvo de Rita do Rego Brandão"). A different "Rita Brandão" who died 1906 at
+    Carangola (wife of João de Souza Freitas) is not this person.
+- text: >-
+    Her parents (family F-0022): father Antonio Caetano Machado (P-0045) — the
+    "avô materno" of Susanna's 1866 baptism (PAR-0005), his name now resolved from the
+    earlier "Castro/Caetano" ambiguity to Caetano by his own 1868 óbito (PAR-0010) and
+    his widow's 1878 óbito (PAR-0011); mother Ignacia Maria de Jesus (P-0046), inferred
+    from being Antonio Caetano Machado's widow plus the shared "Ignacia" name.
 - text: >-
     Nationality left unset: no birthplace or stated nacionalidade is evidenced.

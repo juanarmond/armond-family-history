@@ -89,14 +89,14 @@ and cataloguing work.
 
 | Item | Current state |
 | --- | --- |
-| Structured people | 41 |
-| Structured families | 19 |
-| Structured events | 35 |
+| Structured people | 46 |
+| Structured families | 22 |
+| Structured events | 40 |
 | Structured places | 9 |
-| Structured sources | 38 |
+| Structured sources | 43 |
 | Structured FAN references | 13 |
-| Inventoried retained documents | 37 |
-| Validation | 155 entities; zero errors or warnings at the last check |
+| Inventoried retained documents | 42 |
+| Validation | 173 entities; zero errors or warnings at the last check |
 | Automated tests | 69 passing at the last check |
 
 The 38 catalogued sources (across the `CIV`, `GOV`, `PAR`, `PRB` and `PUB`
@@ -135,8 +135,10 @@ relationships. Collaborative profiles remain navigation leads only.
 3. The fuller names and identities of Aristão's reported parents.
 4. The exact transcription of João Gonçalves Bohrer's parents.
 5. Vicente José de Carvalho Guimarães's Portuguese parish.
-6. Whether João Muniz Bittencourt had an Azorean, Madeiran or other Portuguese
-   island origin.
+6. RESOLVED (31 July 2026): João Muniz Bittencourt was "natural da Ilha de São Miguel"
+   (Açores), b.~1847, the immigrant, per his 1915 death (PAR-0007) — nationality
+   Portuguese, father Manoel Luiz Bittencourt (P-0042) named. Open: his mother and São
+   Miguel baptism (lead: Damazio Muniz Bitencourt †1881, São Miguel, a probable brother).
 7. Whether several nineteenth-century collaborative profiles refer to the same
    people documented in the family records.
 8. Whether the 1871 naturalisation link attached to João's profile concerns the

@@ -3,6 +3,7 @@ id: P-0019
 preferred_name: João Monis Bittencourt
 privacy: deceased
 sex: male
+nationality: Portuguese
 name_variants:
 - value: João Monis Bittencourt
   type: source
@@ -13,11 +14,14 @@ name_variants:
   source_ids:
   - CIV-0001
   - PAR-0004
+  - PAR-0007
 event_ids:
 - E-0006
 - E-0034
+- E-0036
 family_ids:
 - F-0007
+- F-0020
 notes:
 - text: Ahnentafel position 24.
 - text: >-
@@ -25,12 +29,15 @@ notes:
     "João Muniz Bitencourt", settling the José-vs-João question (the 1882
     provisão PAR-0001 had recorded "José"). Both spellings are preserved.
 - text: >-
-    The FamilySearch collaborative profile GLMF-KCR gives an unproved 1864
-    birth in São Miguel, Azores, and attaches an 1871 naturalisation link.
-    Neither claim is accepted here until the underlying record identifies the
-    same person.
+    Origin RESOLVED (31 July 2026): his own 1915 Carangola death register (PAR-0007 →
+    event E-0036) records him "natural da Ilha de São Miguel" (Açores, Portugal), died
+    12 September 1915 aged 68 (born c.1847), married to Suzana Rita Brandão, leaving
+    eleven children. He was himself the Azorean immigrant — which is why the Sapucaia
+    baptism books (1856-1877) held no baptism for his generation. Nationality is
+    therefore Portuguese (a documented birthplace, not a surname inference). This
+    supersedes the earlier "unset origin" and resolves material conflict 6; note the
+    óbito's c.1847 birth corrects the FamilySearch profile's unproved 1864 date.
 - text: >-
-    Nationality is deliberately left unset: his origin is unresolved (the
-    Azorean birth lead above is unproved, and no located record states a
-    nacionalidade), so neither a Brazilian jus-soli nor a Portuguese
-    nationality can be asserted. See material conflict 6 in STATUS.md.
+    His father was Manoel Luiz Bittencourt (P-0042), named in the 1915 óbito (family
+    F-0020); his mother is not named in that record. The earlier collaborative-profile
+    1871 naturalisation link remains an unverified lead.

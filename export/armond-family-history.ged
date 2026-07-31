@@ -361,6 +361,7 @@
 2 TYPE AKA
 2 SOUR @CIV0001@
 2 SOUR @PAR0004@
+2 SOUR @PAR0007@
 1 SEX M
 1 EVEN
 2 TYPE other
@@ -368,11 +369,17 @@
 2 PLAC Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
 2 SOUR @PAR0001@
 3 QUAY 3
+1 DEAT
+2 DATE 12 SEP 1915
+2 PLAC Carrego do Boa Vista, Freguesia de Santa Luzia de Carangola, Minas Gerais, Brazil
+2 SOUR @PAR0007@
+3 QUAY 3
 1 FAMS @F0007@
+1 FAMC @F0020@
 1 NOTE Ahnentafel position 24.
 1 NOTE His son Deocleciano's 1892 Sapucaia baptism (PAR-0004) records the father as "João Muniz Bitencourt", settling the José-vs-João question (the 1882 provisão PAR-0001 had recorded "José"). Both spellings are preserved.
-1 NOTE The FamilySearch collaborative profile GLMF-KCR gives an unproved 1864 birth in São Miguel, Azores, and attaches an 1871 naturalisation link. Neither claim is accepted here until the underlying record identifies the same person.
-1 NOTE Nationality is deliberately left unset: his origin is unresolved (the Azorean birth lead above is unproved, and no located record states a nacionalidade), so neither a Brazilian jus-soli nor a Portuguese nationality can be asserted. See material conflict 6 in STATUS.md.
+1 NOTE Origin RESOLVED (31 July 2026): his own 1915 Carangola death register (PAR-0007 → event E-0036) records him "natural da Ilha de São Miguel" (Açores, Portugal), died 12 September 1915 aged 68 (born c.1847), married to Suzana Rita Brandão, leaving eleven children. He was himself the Azorean immigrant — which is why the Sapucaia baptism books (1856-1877) held no baptism for his generation. Nationality is therefore Portuguese (a documented birthplace, not a surname inference). This supersedes the earlier "unset origin" and resolves material conflict 6; note the óbito's c.1847 birth corrects the FamilySearch profile's unproved 1864 date.
+1 NOTE His father was Manoel Luiz Bittencourt (P-0042), named in the 1915 óbito (family F-0020); his mother is not named in that record. The earlier collaborative-profile 1871 naturalisation link remains an unverified lead.
 0 @P0020@ INDI
 1 NAME Susanna Rita /Brondão/
 2 GIVN Susanna Rita
@@ -602,6 +609,7 @@
 1 NOTE Father of Luiza (Fernandes/Secundina) de Azevedo (P-0013), hence Antenor Muniz's maternal grandfather. Named as Luiza's father in the 1916 marriage (CIV-0001, as "Secundino Maria de Azevedo") and as Aristides Muniz Bittencourt's maternal grandfather in the 1922 baptism (PAR-0003, as "José Secundino de Azevedo"). An Azevedo family of the Muriaé/Carangola region (MG); his own vital records are not located.
 1 NOTE Nationality left unset: no birthplace or stated nacionalidade is evidenced. His daughter Luiza was born in the Muriaé district (MG), but his own origin is not documented, so it is not asserted.
 1 NOTE Given-name variant to verify: the 2019 full-content certidão of the 1916 marriage (CIV-0006, handwritten pages) is read "Sebastião [uncertain: Manoel] de Azevedo", conflicting with the "José Secundino" (PAR-0003) and "Secundino Maria" (CIV-0001) forms of the same 1916 act. Treated as a probable misread pending verification of the original; the preferred name is unchanged.
+1 NOTE Lead (not modelled, 31 July 2026): a 1913 Santa Luzia de Carangola parish death of an infant "Maria, filha legitima de José [uncertain: Secundino] d'Azevedo", recorded "em casa de seu pae", places a José [Secundino] de Azevedo resident in Carangola in 1913 — corroborating this family's Carangola origin and suggesting a late-born daughter (a younger sibling of Luiza). The mother is not named and the father's middle name is a cursive read, so it is a lead, not promoted.
 0 @P0039@ INDI
 1 NAME Thereza Fernandes de /Azevedo/
 2 GIVN Thereza Fernandes de
@@ -618,17 +626,86 @@
 2 GIVN José do Rego
 2 SURN Brandão
 1 SEX M
+1 DEAT
+2 DATE 03 OCT 1912
+2 PLAC Santa Luzia de Carangola, Minas Gerais, Brazil
+2 SOUR @PAR0008@
+3 QUAY 3
 1 FAMS @F0019@
-1 NOTE Father of Susanna (Suzana) Rita Brandão (P-0020); hence Deocleciano Muniz Bittencourt's maternal grandfather and Antenor Muniz's maternal great-grandfather. Named in his daughter's 1866 baptism (PAR-0005) as her legitimate father, and again as a godparent of his granddaughter Anna's 1885 baptism (PAR-0006). A Brandão family of the Santo Antônio de Sapucaia (RJ) parish.
-1 NOTE Nationality left unset: no birthplace or stated nacionalidade is evidenced, and it is not inferred from the Brazilian parish context.
+1 FAMC @F0021@
+1 NOTE Father of Susanna (Suzana) Rita Brandão (P-0020); hence Deocleciano Muniz Bittencourt's maternal grandfather and Antenor Muniz's maternal great-grandfather. Named in his daughter's 1866 baptism (PAR-0005) as her legitimate father, and again as a godparent of his granddaughter Anna's 1885 baptism (PAR-0006). A Brandão family of the Santo Antônio de Sapucaia (RJ) parish, later resident at Santa Luzia de Carangola (MG).
+1 NOTE Died 3 October 1912 at Carangola, aged 79 (born c.1833), a widower of Rita (P-0041), per his own death register (PAR-0008 → event E-0037). His parents were José do Rego Brandão [o velho] (P-0043) and Maria de Mendonça (P-0044) — family F-0021. Nationality recorded as "brasileiro" in that óbito.
 0 @P0041@ INDI
 1 NAME Rita Ignacia de /Jesus/
 2 GIVN Rita Ignacia de
 2 SURN Jesus
+1 NAME Rita do Rego /Brandão/
+2 TYPE AKA
+2 SOUR @PAR0009@
 1 SEX F
+1 DEAT
+2 DATE 04 JAN 1898
+2 PLAC Santa Luzia de Carangola, Minas Gerais, Brazil
+2 SOUR @PAR0009@
+3 QUAY 3
 1 FAMS @F0019@
+1 FAMC @F0022@
 1 NOTE Mother of Susanna (Suzana) Rita Brandão (P-0020) — Susanna's married name "Rita" derives from her. Named in Susanna's 1866 baptism (PAR-0005) as her legitimate mother, and again as a godparent of her granddaughter Anna's 1885 baptism (PAR-0006).
-1 NOTE Maternal-line lead, not modelled: Susanna's 1866 baptism names the padrinho Antonio [uncertain: Castro/Caetano] Machado as the child's "avô materno" (maternal grandfather), i.e. Rita Ignacia de Jesus's own father. Recorded here as a research lead.
+1 NOTE Died 4 January 1898 at Carangola, aged 51 (born c.1847), under her married name "Rita do Rego Brandão", per her death register (PAR-0009 → event E-0038); identified as hers by her husband José do Rego Brandão (whose 1912 óbito names him "viuvo de Rita do Rego Brandão"). A different "Rita Brandão" who died 1906 at Carangola (wife of João de Souza Freitas) is not this person.
+1 NOTE Her parents (family F-0022): father Antonio Caetano Machado (P-0045) — the "avô materno" of Susanna's 1866 baptism (PAR-0005), his name now resolved from the earlier "Castro/Caetano" ambiguity to Caetano by his own 1868 óbito (PAR-0010) and his widow's 1878 óbito (PAR-0011); mother Ignacia Maria de Jesus (P-0046), inferred from being Antonio Caetano Machado's widow plus the shared "Ignacia" name.
+1 NOTE Nationality left unset: no birthplace or stated nacionalidade is evidenced.
+0 @P0042@ INDI
+1 NAME Manoel Luiz /Bittencourt/
+2 GIVN Manoel Luiz
+2 SURN Bittencourt
+1 SEX M
+1 FAMS @F0020@
+1 NOTE Father of João Muniz Bittencourt (P-0019), named in João's 1915 Carangola death (PAR-0007) as "filho legitimo de Manoel Luiz Bittencourt". João's mother is not named in that record.
+1 NOTE Nationality left unset: his son João was "natural da Ilha de São Miguel" (Açores, Portugal), so Manoel Luiz was very likely also São Miguel-born, but no located record states his own origin, so it is not asserted. The surname appears as "Luiz" (vs the FamilySearch-tree "Muniz") in the óbito; both forms preserved.
+0 @P0043@ INDI
+1 NAME José do Rego Brandão (o /velho)/
+2 GIVN José do Rego Brandão (o
+2 SURN velho)
+1 NAME José do Rego /Brandão/
+2 TYPE AKA
+2 SOUR @PAR0008@
+1 SEX M
+1 FAMS @F0021@
+1 NOTE The elder José do Rego Brandão — father of the José do Rego Brandão (P-0040) who married Rita Ignacia de Jesus. Named (with his wife Maria de Mendonça, P-0044) in his son's 1912 Carangola death (PAR-0008): "filho de José do Rego Brandão e de Maria de Mendonça". He shares his son's exact name; the two are distinguished by generation (this is P-0040's father). Own vital records not located. The record gives only "José do Rego Brandão" (preserved as the name variant); the "(o velho)" in the preferred name is an editorial disambiguator from his identically-named son (P-0040), not a source form.
+1 NOTE Nationality left unset: no birthplace or stated nacionalidade is evidenced.
+0 @P0044@ INDI
+1 NAME Maria de /Mendonça/
+2 GIVN Maria de
+2 SURN Mendonça
+1 SEX F
+1 FAMS @F0021@
+1 NOTE Mother of José do Rego Brandão (P-0040), named with her husband José do Rego Brandão [Sr] (P-0043) in their son's 1912 Carangola death (PAR-0008). Own vital records not located.
+1 NOTE Nationality left unset: no birthplace or stated nacionalidade is evidenced.
+0 @P0045@ INDI
+1 NAME Antonio Caetano /Machado/
+2 GIVN Antonio Caetano
+2 SURN Machado
+1 SEX M
+1 DEAT
+2 DATE 27 MAR 1868
+2 PLAC Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
+2 SOUR @PAR0010@
+3 QUAY 3
+1 FAMS @F0022@
+1 NOTE Father of Rita Ignacia de Jesus (P-0041) — hence Susanna Rita Brandão's maternal grandfather. Named as the "avô materno" (godfather) in Susanna's 1866 baptism (PAR-0005), which is the basis for his link to Rita; his own 1868 Sapucaia death (PAR-0010, married, aged 70) and his widow Ignacia's 1878 death (PAR-0011) confirm the "Caetano" reading and give his approximate birth (c.1798). This resolves the earlier flagged "Antonio [Castro/Caetano] Machado" ambiguity in favour of Caetano.
+1 NOTE Nationality left unset: no birthplace or stated nacionalidade is evidenced (a Santo Antônio de Sapucaia, RJ family).
+0 @P0046@ INDI
+1 NAME Ignacia Maria de /Jesus/
+2 GIVN Ignacia Maria de
+2 SURN Jesus
+1 SEX F
+1 DEAT
+2 DATE 22 APR 1878
+2 PLAC Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
+2 SOUR @PAR0011@
+3 QUAY 3
+1 FAMS @F0022@
+1 NOTE Wife (widow) of Antonio Caetano Machado (P-0045), named as such in her 1878 Sapucaia death (PAR-0011, aged 65, so born c.1813). A strong candidate for the mother of Rita Ignacia de Jesus (P-0041) — Susanna's maternal grandmother — from the marriage plus the name pattern (Rita **Ignacia** de Jesus after **Ignacia** Maria de Jesus); the record proves her marriage to Antonio Caetano Machado but does not state she is Rita's mother, so that link is an inference (see F-0022).
 1 NOTE Nationality left unset: no birthplace or stated nacionalidade is evidenced.
 0 @DOCF0001_1@ INDI
 1 NAME Aristides Muniz /Bittencourt/
@@ -909,6 +986,31 @@
 3 QUAY 2
 1 SOUR @PAR0005@
 1 NOTE Parents of Susanna (Suzana) Rita Brandão (P-0020), established by her 1866 baptism (PAR-0005) and corroborated by the 1885 baptism of her daughter Anna (PAR-0006), where this couple stand as godparents. No marriage record located; the union is inferred from the legitimate-birth statement. Antonio [uncertain: Castro/Caetano] Machado (Rita Ignacia's father, per the baptism's "avô materno") is a maternal-line lead, not modelled.
+0 @F0020@ FAM
+1 HUSB @P0042@
+1 CHIL @P0019@
+1 SOUR @PAR0007@
+1 NOTE Records the paternity of João Muniz Bittencourt (P-0019), whose 1915 death (PAR-0007) names him "filho legitimo de Manoel Luiz Bittencourt" (P-0042). Only the father is named in the record; João's mother is unknown, so this family group has a single modelled parent.
+0 @F0021@ FAM
+1 HUSB @P0043@
+1 WIFE @P0044@
+1 CHIL @P0040@
+1 MARR
+2 SOUR @PAR0008@
+3 QUAY 2
+1 SOUR @PAR0008@
+1 NOTE Parents of José do Rego Brandão (P-0040), established by his own 1912 Carangola death (PAR-0008). Extends the maternal Brandão line one generation above P-0040.
+0 @F0022@ FAM
+1 HUSB @P0045@
+1 WIFE @P0046@
+1 CHIL @P0041@
+1 MARR
+2 SOUR @PAR0011@
+3 QUAY 3
+1 SOUR @PAR0005@
+1 SOUR @PAR0010@
+1 SOUR @PAR0011@
+1 NOTE Parents of Rita Ignacia de Jesus (P-0041). The couple is confirmed (PAR-0011, "viuva de Antonio Caetano Machado"); Antonio as Rita's father is strong evidence (PAR-0005 avô materno); Ignacia as Rita's mother is an inference from the marriage plus the shared "Ignacia" name.
 0 @REPO0001@ REPO
 1 NAME FamilySearch Memories
 0 @REPO0002@ REPO
@@ -928,10 +1030,12 @@
 0 @REPO0009@ REPO
 1 NAME Paróquia de Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
 0 @REPO0010@ REPO
-1 NAME FamilySearch full-text image
+1 NAME Paróquia de Santa Luzia (Diocese de Caratinga), Carangola, Minas Gerais, Brazil
 0 @REPO0011@ REPO
-1 NAME FamilySearch Full-Text (Minas Gerais court and notarial records)
+1 NAME FamilySearch full-text image
 0 @REPO0012@ REPO
+1 NAME FamilySearch Full-Text (Minas Gerais court and notarial records)
+0 @REPO0013@ REPO
 1 NAME Armond Family History private repository
 0 @CIV0001@ SOUR
 1 TITL Certified marriage record of Deocleciano Muniz Bittencourt and Luiza Fernandes de Azevedo
@@ -1222,10 +1326,60 @@
 1 NOTE Archival reference: Baptism act of 25 July 1885, Livro de batismos, Paróquia de Santo Antônio de Sapucaia, RJ. Register image via the Familiaridade online gallery, delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026.
 1 NOTE Repository file: evidence/parish/PAR-0006-anna-muniz-bittencourt-baptism-1885-sapucaia.jpg
 1 OBJE @OBJPAR0006@
+0 @PAR0007@ SOUR
+1 TITL Parish death register entry of João Muniz Bittencourt (1915, Santa Luzia de Carangola), stating his São Miguel (Açores) origin and naming his father
+1 TEXT The original 1915 death register entry (Santa Luzia de Carangola, MG) of João Muniz Bittencourt (P-0019): died 12 September 1915 at Carrego do Boa Vista, aged 68 (so born c.1847), married to Suzana Rita Brandão (P-0020), leaving eleven children. It states he was "natural da Ilha de São Miguel" (Açores, Portugal) — primary confirmation that he was the Azorean immigrant of the line — and names his father Manoel Luiz Bittencourt (P-0042); his mother is not named.
+1 REPO @REPO0010@
+2 CALN livro óbitos 1895-1922
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Paróquia de Santa Luzia de Carangola, MG; livro de óbitos. Margem: "João 33".] "A doze de Setembro de mil novecentos e quinze, ás dez e meia da noite, no lugar denominado 'Carrego do Boa Vista' desta Freguezia, falleceu em casa de sua residencia João Muniz Bittencourt, natural da Ilha [de] S. Miguel, [Portugal], de idade sessenta e oito annos, casado com Suzana Rita Brandão, a qual deixa Onze [filhos], entre maiores e menores; de côr branca, filho legitimo de Manoel Luiz Bittencourt. Não recebeu nenhum Sacramento, por não [o] chamarem a [tempo]. Causa morte, cardi[opatia]. Depois de encommendado ás expensas de sua Familia, foi sepultado no Cemiterio desta Cidade. Para constar faço este assentamento. [assina] P.e João [Carvalho]."
+1 NOTE Archival reference: Death act of 12 September 1915 (register idx ~112), Livro de óbitos 1895-1922, Paróquia de Santa Luzia de Carangola, MG. Register image located via the Familiaridade online gallery and delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026.
+1 NOTE Repository file: evidence/parish/PAR-0007-joao-muniz-bittencourt-obito-1915-carangola.jpg
+1 OBJE @OBJPAR0007@
+0 @PAR0008@ SOUR
+1 TITL Parish death register entry of José do Rego Brandão (1912, Santa Luzia de Carangola), naming his parents
+1 TEXT The original 1912 death register entry (Santa Luzia de Carangola, MG) of José do Rego Brandão (P-0040): died 3 October 1912, aged 79 (so born c.1833), a Brazilian Catholic, already a widower of Rita do Rego Brandão (P-0041). It names his parents José do Rego Brandão [Sr] (P-0043) and Maria de Mendonça (P-0044), extending the Brandão line up a generation.
+1 REPO @REPO0010@
+2 CALN livro óbitos 1895-1922
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Paróquia de Santa Luzia de Carangola, MG; livro de óbitos. Margem: "José".] "No dia 4 de Outubro deste anno de mil novecentos e doze encommendei a José, fallecido hontem, 3 deste mez, filho [legítimo] de José do Rego Brandão e de Maria de Mendonça, viuvo de Rita do Rego Brandão, brasileiro, cath[olico], sem sacramentos, de idade de setenta e nove annos, ataque. P.e Antonio Affonso [Laurson], Vig."
+1 NOTE Archival reference: Death act of 3 October 1912 (commended 4 Oct; register idx ~33), Livro de óbitos 1895-1922, Paróquia de Santa Luzia de Carangola, MG. Register image via the Familiaridade online gallery, delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026.
+1 NOTE Repository file: evidence/parish/PAR-0008-jose-do-rego-brandao-obito-1912-carangola.jpg
+1 OBJE @OBJPAR0008@
+0 @PAR0009@ SOUR
+1 TITL Parish death register entry of Rita do Rego Brandão (Rita Ignacia de Jesus) (1898, Santa Luzia de Carangola)
+1 TEXT The original 1898 death register entry (Santa Luzia de Carangola, MG) of Rita do Rego Brandão — the married name of Rita Ignacia de Jesus (P-0041) — died 4 January 1898, aged 51 (so born c.1847), wife of José do Rego Brandão (P-0040). Identified as P-0041 by the married-name and husband match (José's own 1912 óbito names him "viuvo de Rita do Rego Brandão").
+1 REPO @REPO0010@
+2 CALN livro óbitos 1895-1922
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Paróquia de Santa Luzia de Carangola, MG; livro de óbitos. Margem: "Rita".] "Aos 4 de Janeiro de 1898 faleceu de morte natural Rita do Rego Brandão, de 51 annos de idade, casada com José do Rego Brandão. Não procuraram Confissão. No dia 5 foi solemnemente encommendada nesta Egreja e Acompanhada ao Cemeterio, aonde foi sepultada. Conego [Francisco] Sabino."
+1 NOTE Archival reference: Death act of 4 January 1898 (register idx ~12), Livro de óbitos 1895-1922, Paróquia de Santa Luzia de Carangola, MG. Register image via the Familiaridade online gallery, delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026.
+1 NOTE Repository file: evidence/parish/PAR-0009-rita-do-rego-brandao-obito-1898-carangola.jpg
+1 OBJE @OBJPAR0009@
+0 @PAR0010@ SOUR
+1 TITL Parish death register entry of Antonio Caetano Machado (1868, Santo Antônio de Sapucaia)
+1 TEXT The original 1868 death/burial register entry (Santo Antônio de Sapucaia, RJ) of Antonio Caetano Machado (P-0045): buried 27 March 1868, married, aged 70 (so born c.1798), a natural death, sacramented. He is the maternal grandfather ("avô materno") named in Susanna Rita Brandão's 1866 baptism (PAR-0005) — i.e. the father of Rita Ignacia de Jesus (P-0041). The óbito confirms the "Caetano" reading.
+1 REPO @REPO0009@
+2 CALN livro óbitos
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Paróquia de Santo Antônio de Sapucaia, RJ; livro de óbitos. Margem: "Antonio Caetano Machado".] "[Aos] vinte e sete dias do mez de Março de mil oito centos sessenta e oito, foi sepultado no Cemiterio deste Curato de Santo Antonio de Sapucaia, á Antonio Caetano Machado, casado, de idade de setenta annos, foi sacramentado com os Sacramentos; falleceu de morte natural, foi encommendado [e acompanhado]. Para constar faço este assento em que me assigno. [assina] O Vigario." (The second page image carries only the closing formula; the entry names no parents or wife.)
+1 NOTE Archival reference: Death/burial act of 27 March 1868, Livro de óbitos, Paróquia de Santo Antônio de Sapucaia, RJ. Register image via the Familiaridade online gallery, delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026. The act spans two page images (…-p1.jpg the entry; …-p2.jpg its closing).
+1 NOTE Repository file: evidence/parish/PAR-0010-antonio-caetano-machado-obito-1868-sapucaia-p1.jpg
+1 OBJE @OBJPAR0010@
+0 @PAR0011@ SOUR
+1 TITL Parish death register entry of Ignacia Maria de Jesus (1878, Santo Antônio de Sapucaia), widow of Antonio Caetano Machado
+1 TEXT The original 1878 death/burial register entry (Santo Antônio de Sapucaia, RJ) of D. Ignacia Maria de Jesus (P-0046): buried 22 April 1878, widow of Antonio Caetano Machado (P-0045), aged 65 (so born c.1813), cause "degeneração adiposa do coração". A strong candidate for the mother of Rita Ignacia de Jesus (P-0041) — the wife of Antonio Caetano Machado and the source of the "Ignacia" in her daughter's name — and it independently corroborates the "Caetano" reading.
+1 REPO @REPO0009@
+2 CALN livro óbitos
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Paróquia de Santo Antônio de Sapucaia, RJ; livro de óbitos. Margem: "D. Ignacia Maria de Jesus".] "Aos vinte e dois dias do mez de Abril de mil oitocentos setenta e oito, foi sepultado no Cemiterio publico desta Villa de Santo Antonio da Sapucaia, o corpo de D. Ignacia Maria de Jesus, viuva de Antonio Caetano Machado, de sessenta e cinco annos de idade, a qual falleceu de Degeneração adiposa do coração, e foi encommendada e acompanhada ao Cemiterio; de que para constar fiz este assentamento que assigno. O Cura Francisco Rodrigues Lageira."
+1 NOTE Archival reference: Death/burial act of 22 April 1878, Livro de óbitos, Paróquia de Santo Antônio de Sapucaia, RJ. Register image via the Familiaridade online gallery, delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026.
+1 NOTE Repository file: evidence/parish/PAR-0011-ignacia-maria-de-jesus-obito-1878-sapucaia.jpg
+1 OBJE @OBJPAR0011@
 0 @PRB0001@ SOUR
 1 TITL 1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza Balbina de Toledo (wife of Simplício José Ferreira Armond)
 1 TEXT A page from an 1881 Leopoldina probate/partilha listing the heirs of an estate on Eliza Balbina de Toledo's side. It names Eliza Balbina de Toledo as the wife of Simplício José Ferreira Armond and lists her Toledo siblings with ages: Maria Bulandina de Toledo (m. Manoel Marques Jorge), Ladisláo Egydio Ferreira de Toledo (~23, b. ~1858), Geraldo Augusto de Toledo Lima (~15, b. ~1866, then living in Rio de Janeiro), and Josepha Olympia da Paixão (~12, b. ~1869), plus a predeceased Carolina Leopoldina Marques inheriting by representation. The companion 1884 petition (PRB-0002) names the decedent as D. Mathilde Maria de Jezus.
-1 REPO @REPO0010@
+1 REPO @REPO0011@
 2 CALN Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text), fl. 9
 1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
 1 NOTE Transcription: [Fólio "9" no canto superior direito.] [Cabeçalho centralizado, abreviatura de leitura incerta, provavelmente "N.tos" (Nettos).] [Cada verba é precedida de um pequeno "N." sobrescrito e traz, à margem direita, o número de ordem seguido de um sinal de conferência "×".] 4.º Maria Bulandina de Tolledo, cazada com Manoel Marques Jorge. 5.º Simplicio José Ferreira Armond, cazado com D. Eliza Balbina de Tolledo. 6.º Ladisláo Egydio Ferreira de Tolledo, solteiro, de 23 annos. 7.º Geraldo Augusto de Tolledo Lima, solteiro, de 15 annos, rezidente na côrte, empregado em uma caza de negocio zita á rua do Visconde de Inhaúma n.º 74. 8.º Josepha Olympia da Paixão, solteira, de 12 annos de idade. [Verba separada, abaixo do colchete que agrupa as anteriores, com um algarismo grande de leitura incerta à margem:] D. Carolina Leopoldina Marques, cazada com Narcizo Marques Braz, sendo a mesma já fallecida, sendo seos herdeiros [—] [última linha, ao pé da página, cortada:] 1.º D. Maria da [...] [o texto continua em folha não digitalizada].
@@ -1235,7 +1389,7 @@
 0 @PRB0002@ SOUR
 1 TITL 1884 Leopoldina petition of Simplício José Ferreira Armond as heir of the late D. Mathilde Maria de Jezus
 1 TEXT A petition (12 February 1884, Leopoldina), written and signed by Simplício José Ferreira Armond in his own hand, asking the orphans' judge to complete the long-delayed partition of the estate of the late D. Mathilde Maria de Jezus, who had died about four years earlier (~1880). He petitions as her heir — in right of his wife Eliza Balbina de Toledo (per PRB-0001) — placing Mathilde Maria de Jezus on Eliza's (maternal) line.
-1 REPO @REPO0010@
+1 REPO @REPO0011@
 2 CALN Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text), fl. 321
 1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
 1 NOTE Transcription: [Fólio "321" no canto superior direito.] Ill.mo Snr. Dr. Juiz de Orphãos. [Despacho, lançado no alto da folha, leitura difícil:] Nos autos, [venha-me concluso?]. Leopoldina 15 de [Fevereiro] de 1884. J. [Felicio?]. [Seguem-se algumas linhas riscadas / decalque de tinta da folha oposta, ilegíveis.] [Petição, autógrafa:] Diz Simplicio Jozé Ferreira Armond herdeiro da fina[da] D. Mathilde Maria de Jezus que, tendo ella falle[-]cido a cerca de 4 annos, até hoje [não se?] [terem?] partilhados os bens por aquella [dita?] finada [deixados?]; e como isso não convem não só ao inte[-]resse do Supp.e como dos de mais herdeiros, vem pe[-]rante V. S.ª [requerer?] hoje [de ordenar?] q[ue], junta esta aos autos, [suba?] á conclusão de V. S.ª para verificar o motivo da demora e ordenar q[ue] em [um] praso q[ue] se digne marcar se faça a partilha. O Supp.e em attenção sómente a[o] [seu?] interesse [nada?] [requereria?], mas tem parentes colateraes em esta[-]do de indigencia aos quaes pode m.to minorar o mal q[ue] soffrem, o recebimento de seus [haveres?]. Assim pois [bloco alinhado à direita, leitura difícil:] [P.?] e E. de [M.cê?] [enérgicas?] pro[-]videncias a fim de q[ue] se não continue [no?] prote[-]lação. E. R. M.cê [leitura incerta] [junto ao sêllo impresso "Imperio do Brazil — 200 — Réis — Sello":] Leop.ª 12 d[e] Fev.º d[e] 1884. Simplicio Joze Ferr.ª Armond [assinatura autógrafa].
@@ -1245,7 +1399,7 @@
 0 @PRB0003@ SOUR
 1 TITL 1877 Leopoldina notarial deed of sale by the Toledo grandchildren of their inherited Fazenda da Concórdia land, naming their grandmother Mathilde Maria de Jesus
 1 TEXT A notarial deed of sale registered at Santo Antônio [dos Aribas?], Termo de Leopoldina, MG, on 25 May 1877, in which a set of Toledo-family grandchildren — Maria Bulandina de Jesus (wife of Manoel Marques Jorge), Josepha Olímpia, Maria [Perpétua/Porcelina] de Toledo, Matildes Olímpia da Paixão, Geraldo Augusto de Toledo and Ladisláo Egydio Ferreira de Toledo — sell to Capitão Antonio Belizandro dos Reis Meirelles two shares of cultivated land in the Fazenda da Concórdia that they inherited from their deceased grandmother (avó) Dona Mathildes Maria de Jesus. Same grandchild set and estate matriarch as the 1881 partilha (PRB-0001, which lists Eliza Balbina de Toledo among the "Primeiros Nettos") and the 1884 petition (PRB-0002).
-1 REPO @REPO0011@
+1 REPO @REPO0012@
 2 CALN Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text), livro Livro 6, fls. 27-30 (traslado at fl. 159)
 1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
 1 NOTE Transcription: [Página 1 de 2 (imagem 1). No alto: "= 2 =", um "N.º", e o fólio "159" (repetido à direita). Nota de margem lateral, na vertical, de leitura parcial: "[...] Antonio Belizandro dos Reis Meirelles [...] 25 de Maio de 18[7]7"; demais anotações de arquivo à margem direita, ilegíveis.] Livro 6 Folhas 27, 28, 29 e 30. Primeiro tras[-]lado de escriptura de venda que fazem Mano[-]el Marques Jorge, sua mulher D. Maria Blandina de Jezus, Baldoino Rodrigues de Almeida Montes e sua mulher D. Josepha Olimpia Rodrigues d'Almeida, Dona Maria Porcelina de Toledo, D. Matildes Olimpia da Paixão, Geraldo Augusto de Toledo, Ladisláo Egydio Ferreira de Toledo ao Ca[-]pitão Antonio Belizandro dos Reis Mei[-]relles na forma abaixo = Saibão quan[-]tos este publico instrumento virem que no anno do Nascimento de Nosso Senhor Jezus Christo de mil oito centos e setenta e sete aos vinte e cinco dias do mez de Maio nesta Freguezia de Santo Antonio dos [Aribas?] Ter[-]mo da Leopoldina Provincia de Minas Geraes em o meu Cartorio compareceram partes justas e contractadas a saber: como outor[-]gantes vendedores Manoel Marques Jorge e sua mulher Dona Maria Blandina de Jezus, Baldoino Rodrigues d'Almeida Mon[-]tes e sua mulher Dona Josepha Olimpia Rodrigues d'Almeida, Dona Maria Por[-]celina de Toledo, Dona Matildes Olimpia da Paixão, Geraldo Augusto de Toledo e Ladisláo Egydio Ferreira de Toledo e como outorgado Comprador o Capitão Antonio Belizandro dos Reis Meirelles, aquelles moradores nesta Freguezia e este morador na Freguezia do Rio Pardo ambas deste [...] [Página 2 de 2 (imagem 2). Nota de margem lateral, na vertical: "Concordia".] [...] de Lima Coelho de Moura, [Cezario?] Chris[-]tino da Silva Lima e sua mulher Dona Adelaide da Fonseca Lima, re[-]prezentados por seu bastante Procu[-]rador Ladisláo Egydio Ferreira de Toledo, pelos poderes das Procurações que exhibio e abaixo vão transcriptas; e de outro lado como Outorgado compra[-]dor o Capitão Antonio Belizandro dos Reis Meirelles, os primeiros residentes em São João d'El Rei, os segundos resi[-]dentes no Rio de Janeiro, e o outor[-]gado residente no Districto do Rio Pardo d'este Termo, reconhecidos por mim Escrivão e pelas testemunhas abaixo assignadas, do que dou fé; perante as quaes pelos Outorgantes por seu Procurador, foi dito que são Senhores e possuidores de duas Sortes de ter[-]ras de cultura em commum na Fazenda da Concordia e que houve[-]rão por herança no inventario os bens de sua finada avó Dona Ma[-]thildes Maria de Jezus, pela ma[-]neira seguinte: Parte nos tres mil [...]
@@ -1254,7 +1408,7 @@
 0 @REC0001@ SOUR
 1 TITL Direct-ancestor roster supplied by Juan Carlos Muniz Armond
 1 TEXT The repository owner identified himself, his parents, and the deceased direct ancestors used to initialise Ahnentafel positions 1 through 15. This source supports the private working roster and preferred-name spellings only; it does not substitute for civil or parish evidence of vital events or relationships.
-1 REPO @REPO0012@
+1 REPO @REPO0013@
 1 NOTE Evidence classification: family_recollection; authored_narrative; information mixed; direct evidence.
 1 NOTE Repository file: STATUS.md
 0 @OBJCIV0001@ OBJE
@@ -1402,6 +1556,31 @@
 2 FORM image/jpeg
 2 TITL Parish baptism register entry of Anna Muniz Bittencourt (1885, Santo Antônio de Sapucaia), a daughter of João Muniz Bittencourt and Susanna Rita Brandão
 1 NOTE sha256: 0a1c07f0bac40833187dab505ea7ec10bb86a43dfad4e007631a8bec732bfc00
+0 @OBJPAR0007@ OBJE
+1 FILE evidence/parish/PAR-0007-joao-muniz-bittencourt-obito-1915-carangola.jpg
+2 FORM image/jpeg
+2 TITL Parish death register entry of João Muniz Bittencourt (1915, Santa Luzia de Carangola), stating his São Miguel (Açores) origin and naming his father
+1 NOTE sha256: c0dfc632fbc102920f9df56abff0590db7d60ff5d6afa864e5416117ec3ff743
+0 @OBJPAR0008@ OBJE
+1 FILE evidence/parish/PAR-0008-jose-do-rego-brandao-obito-1912-carangola.jpg
+2 FORM image/jpeg
+2 TITL Parish death register entry of José do Rego Brandão (1912, Santa Luzia de Carangola), naming his parents
+1 NOTE sha256: 141318d15577354ea4a44328f70db91dd34e163da38a3c130d9047f89cf77672
+0 @OBJPAR0009@ OBJE
+1 FILE evidence/parish/PAR-0009-rita-do-rego-brandao-obito-1898-carangola.jpg
+2 FORM image/jpeg
+2 TITL Parish death register entry of Rita do Rego Brandão (Rita Ignacia de Jesus) (1898, Santa Luzia de Carangola)
+1 NOTE sha256: 6eda064553a228e347f657041eacaa13f3f4909c6083525043af4271da500ed8
+0 @OBJPAR0010@ OBJE
+1 FILE evidence/parish/PAR-0010-antonio-caetano-machado-obito-1868-sapucaia-p1.jpg
+2 FORM image/jpeg
+2 TITL Parish death register entry of Antonio Caetano Machado (1868, Santo Antônio de Sapucaia)
+1 NOTE sha256: d1e9176980b34e4bed9cd1218c450045039d7bf2a3a222a142fa496c97baa70c
+0 @OBJPAR0011@ OBJE
+1 FILE evidence/parish/PAR-0011-ignacia-maria-de-jesus-obito-1878-sapucaia.jpg
+2 FORM image/jpeg
+2 TITL Parish death register entry of Ignacia Maria de Jesus (1878, Santo Antônio de Sapucaia), widow of Antonio Caetano Machado
+1 NOTE sha256: 49fbac218d0f4975c2efc4c3f0acb631b9b73d91b0334a49c1251280c0e7a310
 0 @OBJPRB0001@ OBJE
 1 FILE evidence/probate/PRB-0001-probate-toledo-heir-list-leopoldina-1881-original.jpg
 2 FORM image/jpeg

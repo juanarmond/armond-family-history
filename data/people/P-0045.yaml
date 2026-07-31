@@ -1,0 +1,27 @@
+schema_version: 1
+id: P-0045
+preferred_name: Antonio Caetano Machado
+privacy: deceased
+sex: male
+name_variants:
+- value: Antonio Caetano Machado
+  type: source
+  source_ids:
+  - PAR-0005
+  - PAR-0010
+  - PAR-0011
+event_ids:
+- E-0039
+family_ids:
+- F-0022
+notes:
+- text: >-
+    Father of Rita Ignacia de Jesus (P-0041) — hence Susanna Rita Brandão's maternal
+    grandfather. Named as the "avô materno" (godfather) in Susanna's 1866 baptism
+    (PAR-0005), which is the basis for his link to Rita; his own 1868 Sapucaia death
+    (PAR-0010, married, aged 70) and his widow Ignacia's 1878 death (PAR-0011) confirm
+    the "Caetano" reading and give his approximate birth (c.1798). This resolves the
+    earlier flagged "Antonio [Castro/Caetano] Machado" ambiguity in favour of Caetano.
+- text: >-
+    Nationality left unset: no birthplace or stated nacionalidade is evidenced (a
+    Santo Antônio de Sapucaia, RJ family).

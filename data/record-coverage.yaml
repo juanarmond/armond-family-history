@@ -705,22 +705,23 @@ people:
   - record_type: birth
     status: lead_only
     source_ids: []
-    last_reviewed: "2026-07-29"
+    last_reviewed: "2026-07-31"
     next_action: >-
-      Retrieve the 1871 naturalisation act (Hemeroteca / official gazette) and
-      the marriage naturalidade field; both should state his origin. Do not
-      infer island origin from the surname.
+      Seek his baptism on the Ilha de São Miguel (Açores), c.1847, once a freguesia is
+      fixed (Cultura Açores portal / GEA parish images); it would name his mother (the
+      one open name in his parentage) and confirm the father Manoel Luiz Bittencourt.
     notes:
     - text: >-
-        The attached 1871 Hemeroteca link was unavailable during review and
-        has not been shown to concern this João.
+        Origin RESOLVED 31 July 2026: his own 1915 Carangola death (PAR-0007) states
+        "natural da Ilha de São Miguel" and age 68 (b.~1847). He was the Azorean
+        immigrant; nationality set to Portuguese; father Manoel Luiz Bittencourt
+        (P-0042) named, mother not. The óbito's c.1847 supersedes the collaborative
+        ~1864 date and the frontier moves off Brazil to São Miguel.
     - text: >-
-        29 July 2026: a Brazilian naturalisation implies a foreign-born
-        (Portuguese) applicant, so the 1871 act supports the "São Miguel" origin
-        lead rather than contradicting it. The chronology is only strained if his
-        birth was ~1864 (an individual pre-1889 naturalisation implies an adult),
-        so treat the collaborative ~1864 birth as probably too late. Pursue São
-        Miguel in the GEA parish images only once a freguesia is fixed.
+        Collateral lead: Damazio Muniz Bitencourt (†2 Nov 1881 Sapucaia, also "natural
+        da Ilha de São Miguel", married, ~40 → b.~1841) is a probable brother of João;
+        no record yet names his parents. Pursue his marriage/immigration to test the
+        sibling link and reach the shared São Miguel parents.
   - record_type: marriage
     status: inaccessible
     source_ids: []
@@ -757,14 +758,19 @@ people:
         Sapucaia, then the Cúria de Valença (created 1925); the Cúria de Niterói
         is ruled out (Sapucaia absent from its ASBRAP holdings survey).
   - record_type: death
-    status: lead_only
-    source_ids: []
-    last_reviewed: "2026-07-28"
-    next_action: Locate João's own death or burial record after identity is resolved.
+    status: catalogued
+    source_ids:
+    - PAR-0007
+    last_reviewed: "2026-07-31"
+    next_action: >-
+      Complete — his 1915 Carangola death (PAR-0007) gives †12 Sep 1915, age 68
+      (b.~1847), São Miguel origin, and names his father Manoel Luiz Bittencourt.
     notes: []
   notes:
   - text: >-
-      31 July 2026 (Sapucaia parish sweep): his parents stay OFF-index, but a
+      31 July 2026: his father Manoel Luiz Bittencourt (P-0042) is now named (1915
+      óbito, family F-0020); his mother and his São Miguel baptism/marriage remain the
+      open frontier. A collateral Muniz Bittencourt sibling-cluster of Sapucaia/Bemposta
       collateral Muniz Bittencourt sibling-cluster of Sapucaia/Bemposta — Manoel
       (⚭ Maria Luiza de Freitas), Maria José (⚭ José Linhares de Mendonça), Altina,
       Maria Eugenia and Elvira Muniz Bittencourt — are strong candidates to be his
@@ -1061,16 +1067,21 @@ people:
       would name both spouses' parents.
     notes: []
   - record_type: death
-    status: unsearched
-    source_ids: []
+    status: catalogued
+    source_ids:
+    - PAR-0008
     last_reviewed: "2026-07-31"
-    next_action: Locate his death/burial (the Sapucaia óbito books).
+    next_action: >-
+      Complete — his 1912 Carangola death (PAR-0008) gives age 79 (b.~1833) and names
+      his parents José do Rego Brandão [o velho] (P-0043) + Maria de Mendonça (P-0044).
     notes: []
   notes:
   - text: >-
-      New direct ancestor (31 July 2026): father of Susanna Rita Brandão (P-0020),
-      established by her 1866 baptism (PAR-0005). A Sapucaia RJ Brandão family; own
-      vitals not yet sought.
+      Direct ancestor: father of Susanna Rita Brandão (P-0020). His 1912 Carangola
+      death (PAR-0008) extended the Brandão line up to his parents (P-0043/P-0044,
+      family F-0021) and confirmed his death (1912, age 79) and Brazilian nationality.
+      The family moved from Sapucaia (RJ) to Santa Luzia de Carangola (MG). Next: his
+      own baptism/marriage in the Sapucaia books, and his parents' vitals.
 - person_id: P-0041
   external_profiles: []
   records:
@@ -1079,8 +1090,9 @@ people:
     source_ids: []
     last_reviewed: "2026-07-31"
     next_action: >-
-      Seek her own baptism (Sapucaia RJ); her father is a lead — Antonio
-      [uncertain: Castro/Caetano] Machado, named "avô materno" in Susanna's baptism.
+      Seek her own baptism (Sapucaia RJ, c.1847 per her death age). Her parents are now
+      modelled: Antonio Caetano Machado (P-0045) + Ignacia Maria de Jesus (P-0046),
+      family F-0022.
     notes: []
   - record_type: marriage
     status: unsearched
@@ -1089,13 +1101,97 @@ people:
     next_action: Seek her marriage to José do Rego Brandão (Sapucaia marriage book).
     notes: []
   - record_type: death
-    status: unsearched
-    source_ids: []
+    status: catalogued
+    source_ids:
+    - PAR-0009
     last_reviewed: "2026-07-31"
-    next_action: Locate her death/burial (Sapucaia óbito books).
+    next_action: >-
+      Complete — died 4 Jan 1898 at Carangola (PAR-0009, married name "Rita do Rego
+      Brandão", age 51 → b.~1847).
     notes: []
   notes:
   - text: >-
-      New direct ancestor (31 July 2026): mother of Susanna Rita Brandão (P-0020),
-      established by her 1866 baptism (PAR-0005). Her father is a lead: Antonio
-      [uncertain: Castro/Caetano] Machado ("avô materno"). Own vitals not yet sought.
+      Direct ancestor: mother of Susanna Rita Brandão (P-0020). Her 1898 Carangola
+      death (PAR-0009) is catalogued; her father Antonio Caetano Machado (P-0045) —
+      "Castro/Caetano" now resolved to Caetano via his 1868 óbito (PAR-0010) — and her
+      probable mother Ignacia Maria de Jesus (P-0046, from PAR-0011) are modelled as
+      family F-0022. Next: her own baptism, and confirmation of the Ignacia mother-link.
+- person_id: P-0042
+  external_profiles: []
+  records:
+  - record_type: baptism
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-31"
+    next_action: >-
+      Seek his baptism/marriage on the Ilha de São Miguel (Açores), the origin of his
+      son João; his own vitals would name the mother of João and his own parents.
+    notes: []
+  notes:
+  - text: >-
+      New direct ancestor (31 July 2026): father of João Muniz Bittencourt (P-0019),
+      named in João's 1915 death (PAR-0007, family F-0020). Likely São Miguel-born
+      (unstated); own vitals off-tool in the Açores.
+- person_id: P-0043
+  external_profiles: []
+  records:
+  - record_type: death
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-31"
+    next_action: >-
+      Seek his own vitals in the Sapucaia (RJ) parish books; he is the elder José do
+      Rego Brandão, father of P-0040.
+    notes: []
+  notes:
+  - text: >-
+      New direct ancestor (31 July 2026): father of José do Rego Brandão (P-0040),
+      named in P-0040's 1912 death (PAR-0008, family F-0021). "(o velho)" is an
+      editorial disambiguator from his identically-named son.
+- person_id: P-0044
+  external_profiles: []
+  records:
+  - record_type: death
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-07-31"
+    next_action: Seek her own vitals in the Sapucaia (RJ) parish books.
+    notes: []
+  notes:
+  - text: >-
+      New direct ancestor (31 July 2026): mother of José do Rego Brandão (P-0040),
+      named in P-0040's 1912 death (PAR-0008, family F-0021).
+- person_id: P-0045
+  external_profiles: []
+  records:
+  - record_type: death
+    status: catalogued
+    source_ids:
+    - PAR-0010
+    last_reviewed: "2026-07-31"
+    next_action: >-
+      Complete — buried 27 Mar 1868 Sapucaia, married, aged 70 (b.~1798), per PAR-0010.
+      Next: his marriage to Ignacia Maria de Jesus (would name both couples' parents).
+    notes: []
+  notes:
+  - text: >-
+      New direct ancestor (31 July 2026): father of Rita Ignacia de Jesus (P-0041) —
+      the "avô materno" of Susanna's baptism, name resolved to Caetano by his 1868
+      óbito (PAR-0010) and his widow's 1878 óbito (PAR-0011). Family F-0022.
+- person_id: P-0046
+  external_profiles: []
+  records:
+  - record_type: death
+    status: catalogued
+    source_ids:
+    - PAR-0011
+    last_reviewed: "2026-07-31"
+    next_action: >-
+      Complete — buried 22 Apr 1878 Sapucaia, widow of Antonio Caetano Machado, aged 65
+      (b.~1813), per PAR-0011. Next: confirm the inferred mother-link to Rita (P-0041).
+    notes: []
+  notes:
+  - text: >-
+      New direct ancestor (31 July 2026): probable mother of Rita Ignacia de Jesus
+      (P-0041), inferred from being Antonio Caetano Machado's widow (PAR-0011) plus the
+      shared "Ignacia" name. Family F-0022. Mother-link is strong-evidence, not certain.

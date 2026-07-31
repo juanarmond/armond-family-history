@@ -1,0 +1,68 @@
+schema_version: 1
+id: PAR-0011
+title: >-
+  Parish death register entry of Ignacia Maria de Jesus (1878, Santo Antônio de
+  Sapucaia), widow of Antonio Caetano Machado
+record_type: Parish death register entry (óbito, original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1878-04-22"
+event_place_text: Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
+repository:
+  name: Paróquia de Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
+  archive_or_registry: >-
+    Livro de óbitos, Paróquia de Santo Antônio de Sapucaia, RJ (Familiaridade online
+    gallery)
+  book: óbitos
+  catalogue_reference: >-
+    Death/burial act of 22 April 1878, Livro de óbitos, Paróquia de Santo Antônio de
+    Sapucaia, RJ. Register image via the Familiaridade online gallery, delivered
+    through the research/from-retrieval/ sync; read and promoted 31 July 2026.
+  repository_path: evidence/parish/PAR-0011-ignacia-maria-de-jesus-obito-1878-sapucaia.jpg
+access_date: "2026-07-31"
+language: pt-BR
+transcription: >-
+  [Paróquia de Santo Antônio de Sapucaia, RJ; livro de óbitos. Margem: "D. Ignacia
+  Maria de Jesus".] "Aos vinte e dois dias do mez de Abril de mil oitocentos setenta e
+  oito, foi sepultado no Cemiterio publico desta Villa de Santo Antonio da Sapucaia, o
+  corpo de D. Ignacia Maria de Jesus, viuva de Antonio Caetano Machado, de sessenta e
+  cinco annos de idade, a qual falleceu de Degeneração adiposa do coração, e foi
+  encommendada e acompanhada ao Cemiterio; de que para constar fiz este assentamento
+  que assigno. O Cura Francisco Rodrigues Lageira."
+abstract: >-
+  The original 1878 death/burial register entry (Santo Antônio de Sapucaia, RJ) of D.
+  Ignacia Maria de Jesus (P-0046): buried 22 April 1878, widow of Antonio Caetano
+  Machado (P-0045), aged 65 (so born c.1813), cause "degeneração adiposa do coração".
+  A strong candidate for the mother of Rita Ignacia de Jesus (P-0041) — the wife of
+  Antonio Caetano Machado and the source of the "Ignacia" in her daughter's name — and
+  it independently corroborates the "Caetano" reading.
+reliability:
+  assessment: >-
+    Direct primary parish evidence for Ignacia Maria de Jesus's death, approximate
+    birth year and her marriage to Antonio Caetano Machado.
+  informant: The Cura Francisco Rodrigues Lageira of Santo Antônio de Sapucaia (1878).
+  limitations: >-
+    Proves she was Antonio Caetano Machado's widow; her identity as Rita Ignacia de
+    Jesus's (P-0041) mother is inferred from that marriage plus the name pattern (Rita
+    **Ignacia** ← **Ignacia** Maria de Jesus), not directly stated.
+digital_file:
+  path: evidence/parish/PAR-0011-ignacia-maria-de-jesus-obito-1878-sapucaia.jpg
+  sha256: 49fbac218d0f4975c2efc4c3f0acb631b9b73d91b0334a49c1251280c0e7a310
+linked_people:
+- P-0046
+- P-0045
+linked_families:
+- F-0022
+linked_events:
+- E-0040
+linked_places: []
+private: true
+notes:
+- text: >-
+    Establishes the couple F-0022 (Ignacia = widow of Antonio Caetano Machado). Her
+    link to Rita Ignacia de Jesus (P-0041) as mother is an inference (see limitations).

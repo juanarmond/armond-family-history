@@ -7,6 +7,19 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Catalogue the Sapucaia/Carangola death registers from the retrieval sync (5 óbito
+  sources). João Muniz Bittencourt's 1915 death (`PAR-0007`) records him "natural da
+  Ilha de São Miguel" (Açores) — **resolving material conflict 6**: he was the Azorean
+  immigrant (nationality Portuguese) and it names his father Manoel Luiz Bittencourt
+  (`P-0042`, family `F-0020`). The maternal Brandão/Machado deaths extend those lines
+  two generations: José do Rego Brandão's 1912 death (`PAR-0008`) names his parents
+  (`P-0043`/`P-0044`, `F-0021`); Rita's 1898 death (`PAR-0009`); Antonio Caetano
+  Machado's 1868 death (`PAR-0010`, resolving the "Castro/Caetano" reading to Caetano)
+  and Ignacia Maria de Jesus's 1878 death (`PAR-0011`, Rita's probable mother; couple
+  `F-0022`). Adds 5 ancestors, 3 families, 5 death events (`E-0036`–`E-0040`) and
+  evidence `DOC-0038`–`DOC-0042`. Damazio Muniz Bitencourt (a probable São-Miguel-born
+  brother of João), a "José Armond" in Carangola, and an Azevedo-infant record are
+  recorded as leads.
 - Occupations completeness pass from evidence already in hand: add attested
   professions to the direct-line principals — Geraldo Paz Armond *padeiro*
   (CIV-0002, alongside the existing *aposentado*), Antonio Engracio Filho

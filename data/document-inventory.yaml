@@ -1510,3 +1510,173 @@ documents:
         Susanna Rita Brandão (a sibling of Deocleciano), recorded as a documented
         child on F-0007. Godparents are Susanna's own parents (F-0019). All named
         persons long deceased.
+  - inventory_id: DOC-0038
+    status: catalogued
+    added_date: "2026-07-31"
+    apparent_record_type: Parish death register entry (óbito, original)
+    apparent_people:
+      - João Muniz Bittencourt
+      - Manoel Luiz Bittencourt
+      - Susanna Rita Brandão
+    apparent_event: death
+    image_quality: adequate
+    provenance: >-
+      Livro de óbitos 1895-1922, Paróquia de Santa Luzia de Carangola, MG (12 Sep
+      1915). Register image located in the Familiaridade online gallery and delivered
+      through the owner's authorised research/from-retrieval/ sync; read 31 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0007-joao-muniz-bittencourt-obito-1915-carangola.jpg
+        sha256: c0dfc632fbc102920f9df56abff0590db7d60ff5d6afa864e5416117ec3ff743
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1431
+          pixel_height: 2048
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0007
+    notes:
+      - >-
+        João's death states his São Miguel (Açores) origin and names his father
+        Manoel Luiz Bittencourt. All named persons long deceased.
+  - inventory_id: DOC-0039
+    status: catalogued
+    added_date: "2026-07-31"
+    apparent_record_type: Parish death register entry (óbito, original)
+    apparent_people:
+      - José do Rego Brandão
+      - Maria de Mendonça
+    apparent_event: death
+    image_quality: adequate
+    provenance: >-
+      Livro de óbitos 1895-1922, Paróquia de Santa Luzia de Carangola, MG (3 Oct
+      1912). Familiaridade online gallery; owner's authorised research/from-retrieval/
+      sync; read 31 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0008-jose-do-rego-brandao-obito-1912-carangola.jpg
+        sha256: 141318d15577354ea4a44328f70db91dd34e163da38a3c130d9047f89cf77672
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1371
+          pixel_height: 2048
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0008
+    notes:
+      - >-
+        José do Rego Brandão's death names his parents. All named persons long deceased.
+  - inventory_id: DOC-0040
+    status: catalogued
+    added_date: "2026-07-31"
+    apparent_record_type: Parish death register entry (óbito, original)
+    apparent_people:
+      - Rita do Rego Brandão
+      - José do Rego Brandão
+    apparent_event: death
+    image_quality: adequate
+    provenance: >-
+      Livro de óbitos 1895-1922, Paróquia de Santa Luzia de Carangola, MG (4 Jan
+      1898). Familiaridade online gallery; owner's authorised research/from-retrieval/
+      sync; read 31 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0009-rita-do-rego-brandao-obito-1898-carangola.jpg
+        sha256: 6eda064553a228e347f657041eacaa13f3f4909c6083525043af4271da500ed8
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1352
+          pixel_height: 2048
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0009
+    notes:
+      - >-
+        Rita Ignacia de Jesus (married name Rita do Rego Brandão), P-0041's death. All
+        named persons long deceased.
+  - inventory_id: DOC-0041
+    status: catalogued
+    added_date: "2026-07-31"
+    apparent_record_type: Parish death register entry (óbito, original)
+    apparent_people:
+      - Antonio Caetano Machado
+    apparent_event: death
+    image_quality: adequate
+    provenance: >-
+      Livro de óbitos, Paróquia de Santo Antônio de Sapucaia, RJ (27 Mar 1868).
+      Familiaridade online gallery; owner's authorised research/from-retrieval/ sync;
+      read 31 July 2026. The act spans two register-page images.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0010-antonio-caetano-machado-obito-1868-sapucaia-p1.jpg
+        sha256: d1e9176980b34e4bed9cd1218c450045039d7bf2a3a222a142fa496c97baa70c
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1311
+          pixel_height: 2048
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/parish/PAR-0010-antonio-caetano-machado-obito-1868-sapucaia-p2.jpg
+        sha256: 9a84e438a71ad2342bf6e779b3b0dfce7a23e847b956a5b6a052ceb878dd6f29
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1381
+          pixel_height: 2048
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0010
+    notes:
+      - >-
+        Antonio Caetano Machado's death; resolves the Castro/Caetano reading. p2 is the
+        faded closing continuation. All named persons long deceased.
+  - inventory_id: DOC-0042
+    status: catalogued
+    added_date: "2026-07-31"
+    apparent_record_type: Parish death register entry (óbito, original)
+    apparent_people:
+      - Ignacia Maria de Jesus
+      - Antonio Caetano Machado
+    apparent_event: death
+    image_quality: adequate
+    provenance: >-
+      Livro de óbitos, Paróquia de Santo Antônio de Sapucaia, RJ (22 Apr 1878).
+      Familiaridade online gallery; owner's authorised research/from-retrieval/ sync;
+      read 31 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0011-ignacia-maria-de-jesus-obito-1878-sapucaia.jpg
+        sha256: 49fbac218d0f4975c2efc4c3f0acb631b9b73d91b0334a49c1251280c0e7a310
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1270
+          pixel_height: 2048
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0011
+    notes:
+      - >-
+        Ignacia Maria de Jesus (widow of Antonio Caetano Machado), a strong candidate
+        for P-0041's mother. All named persons long deceased.

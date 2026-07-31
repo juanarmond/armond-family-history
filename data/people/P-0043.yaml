@@ -1,0 +1,25 @@
+schema_version: 1
+id: P-0043
+preferred_name: José do Rego Brandão (o velho)
+privacy: deceased
+sex: male
+name_variants:
+- value: José do Rego Brandão
+  type: source
+  source_ids:
+  - PAR-0008
+event_ids: []
+family_ids:
+- F-0021
+notes:
+- text: >-
+    The elder José do Rego Brandão — father of the José do Rego Brandão (P-0040) who
+    married Rita Ignacia de Jesus. Named (with his wife Maria de Mendonça, P-0044) in
+    his son's 1912 Carangola death (PAR-0008): "filho de José do Rego Brandão e de
+    Maria de Mendonça". He shares his son's exact name; the two are distinguished by
+    generation (this is P-0040's father). Own vital records not located. The record
+    gives only "José do Rego Brandão" (preserved as the name variant); the "(o velho)"
+    in the preferred name is an editorial disambiguator from his identically-named son
+    (P-0040), not a source form.
+- text: >-
+    Nationality left unset: no birthplace or stated nacionalidade is evidenced.

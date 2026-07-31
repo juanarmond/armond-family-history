@@ -1,0 +1,21 @@
+schema_version: 1
+id: E-0036
+event_type: death
+date:
+  kind: exact
+  value: "1915-09-12"
+  original_text: A doze de Setembro de mil novecentos e quinze, ás dez e meia da noite
+place_text: >-
+  Carrego do Boa Vista, Freguesia de Santa Luzia de Carangola, Minas Gerais, Brazil
+participants:
+- person_id: P-0019
+  role: principal
+status: confirmed
+source_ids:
+- PAR-0007
+notes:
+- text: >-
+    Death of João Muniz Bittencourt (P-0019) on 12 September 1915 at Carrego do Boa
+    Vista, Carangola, aged 68 (born c.1847), per the parish death register (PAR-0007),
+    which records him "natural da Ilha de São Miguel" (Açores, Portugal), married to
+    Suzana Rita Brandão, leaving eleven children.

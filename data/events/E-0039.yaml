@@ -1,0 +1,19 @@
+schema_version: 1
+id: E-0039
+event_type: death
+date:
+  kind: exact
+  value: "1868-03-27"
+  original_text: Aos vinte e sete dias do mez de Março de mil oito centos sessenta e oito (burial)
+place_text: Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0045
+  role: principal
+status: confirmed
+source_ids:
+- PAR-0010
+notes:
+- text: >-
+    Death/burial of Antonio Caetano Machado (P-0045); buried 27 March 1868 at Santo
+    Antônio de Sapucaia, married, aged 70 (born c.1798), per the parish death register
+    (PAR-0010). The recorded date is the burial date.

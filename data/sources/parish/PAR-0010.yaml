@@ -1,0 +1,71 @@
+schema_version: 1
+id: PAR-0010
+title: >-
+  Parish death register entry of Antonio Caetano Machado (1868, Santo Antônio de
+  Sapucaia)
+record_type: Parish death register entry (óbito, original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1868-03-27"
+event_place_text: Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
+repository:
+  name: Paróquia de Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
+  archive_or_registry: >-
+    Livro de óbitos, Paróquia de Santo Antônio de Sapucaia, RJ (Familiaridade online
+    gallery)
+  book: óbitos
+  catalogue_reference: >-
+    Death/burial act of 27 March 1868, Livro de óbitos, Paróquia de Santo Antônio de
+    Sapucaia, RJ. Register image via the Familiaridade online gallery, delivered
+    through the research/from-retrieval/ sync; read and promoted 31 July 2026. The act
+    spans two page images (…-p1.jpg the entry; …-p2.jpg its closing).
+  repository_path: evidence/parish/PAR-0010-antonio-caetano-machado-obito-1868-sapucaia-p1.jpg
+access_date: "2026-07-31"
+language: pt-BR
+transcription: >-
+  [Paróquia de Santo Antônio de Sapucaia, RJ; livro de óbitos. Margem: "Antonio
+  Caetano Machado".] "[Aos] vinte e sete dias do mez de Março de mil oito centos
+  sessenta e oito, foi sepultado no Cemiterio deste Curato de Santo Antonio de
+  Sapucaia, á Antonio Caetano Machado, casado, de idade de setenta annos, foi
+  sacramentado com os Sacramentos; falleceu de morte natural, foi encommendado [e
+  acompanhado]. Para constar faço este assento em que me assigno. [assina] O Vigario."
+  (The second page image carries only the closing formula; the entry names no parents
+  or wife.)
+abstract: >-
+  The original 1868 death/burial register entry (Santo Antônio de Sapucaia, RJ) of
+  Antonio Caetano Machado (P-0045): buried 27 March 1868, married, aged 70 (so born
+  c.1798), a natural death, sacramented. He is the maternal grandfather ("avô materno")
+  named in Susanna Rita Brandão's 1866 baptism (PAR-0005) — i.e. the father of Rita
+  Ignacia de Jesus (P-0041). The óbito confirms the "Caetano" reading.
+reliability:
+  assessment: >-
+    Direct primary parish evidence for Antonio Caetano Machado's death, married status
+    and approximate birth year, and (with PAR-0005) for his identity as Rita Ignacia de
+    Jesus's father.
+  informant: The vigário of the Curato de Santo Antônio de Sapucaia (1868).
+  limitations: >-
+    The óbito does not name his parents or wife. His link to P-0041 as her father rests
+    on Susanna's 1866 baptism (PAR-0005) naming him the "avô materno"; the name, parish
+    and generation match. The second page (…-p2.jpg) is faded (closing formula only).
+digital_file:
+  path: evidence/parish/PAR-0010-antonio-caetano-machado-obito-1868-sapucaia-p1.jpg
+  sha256: d1e9176980b34e4bed9cd1218c450045039d7bf2a3a222a142fa496c97baa70c
+linked_people:
+- P-0045
+- P-0041
+linked_families:
+- F-0022
+linked_events:
+- E-0039
+linked_places: []
+private: true
+notes:
+- text: >-
+    Resolves the flagged "Antonio [Castro/Caetano] Machado" reading in favour of
+    Caetano (corroborated by PAR-0011, his widow's óbito). The second page image
+    (…-p2.jpg) is retained in the inventory as a continuation.

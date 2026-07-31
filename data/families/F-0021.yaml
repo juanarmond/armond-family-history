@@ -1,0 +1,37 @@
+schema_version: 1
+id: F-0021
+partners:
+- person_id: P-0043
+  role: spouse
+- person_id: P-0044
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0008
+  notes:
+  - text: >-
+      The union is attested by the "filho de José do Rego Brandão e de Maria de
+      Mendonça" statement in their son's 1912 death (PAR-0008); no marriage record is
+      located, so it is strong evidence rather than a confirmed marriage.
+children:
+- person_id: P-0040
+  parent_relationships:
+  - parent_id: P-0043
+    relationship_type: unknown
+    status: confirmed
+    source_ids:
+    - PAR-0008
+    notes: []
+  - parent_id: P-0044
+    relationship_type: unknown
+    status: confirmed
+    source_ids:
+    - PAR-0008
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Parents of José do Rego Brandão (P-0040), established by his own 1912 Carangola
+    death (PAR-0008). Extends the maternal Brandão line one generation above P-0040.

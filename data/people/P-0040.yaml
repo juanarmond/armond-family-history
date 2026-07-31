@@ -3,16 +3,21 @@ id: P-0040
 preferred_name: José do Rego Brandão
 privacy: deceased
 sex: male
+nationality: Brazilian
 name_variants:
 - value: José do Rego Brandão
   type: source
   source_ids:
   - PAR-0005
   - PAR-0006
+  - PAR-0008
+  - PAR-0009
 event_ids:
 - E-0035
+- E-0037
 family_ids:
 - F-0019
+- F-0021
 notes:
 - text: >-
     Father of Susanna (Suzana) Rita Brandão (P-0020); hence Deocleciano Muniz
@@ -20,7 +25,9 @@ notes:
     great-grandfather. Named in his daughter's 1866 baptism (PAR-0005) as her
     legitimate father, and again as a godparent of his granddaughter Anna's 1885
     baptism (PAR-0006). A Brandão family of the Santo Antônio de Sapucaia (RJ)
-    parish.
+    parish, later resident at Santa Luzia de Carangola (MG).
 - text: >-
-    Nationality left unset: no birthplace or stated nacionalidade is evidenced,
-    and it is not inferred from the Brazilian parish context.
+    Died 3 October 1912 at Carangola, aged 79 (born c.1833), a widower of Rita
+    (P-0041), per his own death register (PAR-0008 → event E-0037). His parents were
+    José do Rego Brandão [o velho] (P-0043) and Maria de Mendonça (P-0044) — family
+    F-0021. Nationality recorded as "brasileiro" in that óbito.

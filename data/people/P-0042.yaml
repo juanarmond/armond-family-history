@@ -1,0 +1,23 @@
+schema_version: 1
+id: P-0042
+preferred_name: Manoel Luiz Bittencourt
+privacy: deceased
+sex: male
+name_variants:
+- value: Manoel Luiz Bittencourt
+  type: source
+  source_ids:
+  - PAR-0007
+event_ids: []
+family_ids:
+- F-0020
+notes:
+- text: >-
+    Father of João Muniz Bittencourt (P-0019), named in João's 1915 Carangola death
+    (PAR-0007) as "filho legitimo de Manoel Luiz Bittencourt". João's mother is not
+    named in that record.
+- text: >-
+    Nationality left unset: his son João was "natural da Ilha de São Miguel" (Açores,
+    Portugal), so Manoel Luiz was very likely also São Miguel-born, but no located
+    record states his own origin, so it is not asserted. The surname appears as "Luiz"
+    (vs the FamilySearch-tree "Muniz") in the óbito; both forms preserved.

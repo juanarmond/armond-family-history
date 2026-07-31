@@ -1,0 +1,19 @@
+schema_version: 1
+id: E-0038
+event_type: death
+date:
+  kind: exact
+  value: "1898-01-04"
+  original_text: Aos 4 de Janeiro de 1898 faleceu de morte natural
+place_text: Santa Luzia de Carangola, Minas Gerais, Brazil
+participants:
+- person_id: P-0041
+  role: principal
+status: confirmed
+source_ids:
+- PAR-0009
+notes:
+- text: >-
+    Death of Rita Ignacia de Jesus (married name Rita do Rego Brandão, P-0041) on 4
+    January 1898 at Carangola, aged 51 (born c.1847), wife of José do Rego Brandão,
+    per the parish death register (PAR-0009).

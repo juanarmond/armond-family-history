@@ -1,0 +1,19 @@
+schema_version: 1
+id: E-0037
+event_type: death
+date:
+  kind: exact
+  value: "1912-10-03"
+  original_text: fallecido hontem, 3 deste mez (encommendado 4 de Outubro de 1912)
+place_text: Santa Luzia de Carangola, Minas Gerais, Brazil
+participants:
+- person_id: P-0040
+  role: principal
+status: confirmed
+source_ids:
+- PAR-0008
+notes:
+- text: >-
+    Death of José do Rego Brandão (P-0040) on 3 October 1912 at Carangola, aged 79
+    (born c.1833), a widower of Rita do Rego Brandão, per the parish death register
+    (PAR-0008), which names his parents.

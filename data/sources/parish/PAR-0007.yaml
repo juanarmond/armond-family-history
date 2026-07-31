@@ -1,0 +1,76 @@
+schema_version: 1
+id: PAR-0007
+title: >-
+  Parish death register entry of João Muniz Bittencourt (1915, Santa Luzia de
+  Carangola), stating his São Miguel (Açores) origin and naming his father
+record_type: Parish death register entry (óbito, original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1915-09-12"
+event_place_text: >-
+  Carrego do Boa Vista, Freguesia de Santa Luzia de Carangola, Minas Gerais, Brazil
+repository:
+  name: Paróquia de Santa Luzia (Diocese de Caratinga), Carangola, Minas Gerais, Brazil
+  archive_or_registry: >-
+    Livro de óbitos 1895-1922, Paróquia de Santa Luzia de Carangola, MG
+    (Familiaridade online gallery of the Carangola parish books)
+  book: óbitos 1895-1922
+  catalogue_reference: >-
+    Death act of 12 September 1915 (register idx ~112), Livro de óbitos 1895-1922,
+    Paróquia de Santa Luzia de Carangola, MG. Register image located via the
+    Familiaridade online gallery and delivered through the research/from-retrieval/
+    sync; read and promoted 31 July 2026.
+  repository_path: evidence/parish/PAR-0007-joao-muniz-bittencourt-obito-1915-carangola.jpg
+access_date: "2026-07-31"
+language: pt-BR
+transcription: >-
+  [Paróquia de Santa Luzia de Carangola, MG; livro de óbitos. Margem: "João 33".] "A
+  doze de Setembro de mil novecentos e quinze, ás dez e meia da noite, no lugar
+  denominado 'Carrego do Boa Vista' desta Freguezia, falleceu em casa de sua
+  residencia João Muniz Bittencourt, natural da Ilha [de] S. Miguel, [Portugal], de
+  idade sessenta e oito annos, casado com Suzana Rita Brandão, a qual deixa Onze
+  [filhos], entre maiores e menores; de côr branca, filho legitimo de Manoel Luiz
+  Bittencourt. Não recebeu nenhum Sacramento, por não [o] chamarem a [tempo]. Causa
+  morte, cardi[opatia]. Depois de encommendado ás expensas de sua Familia, foi
+  sepultado no Cemiterio desta Cidade. Para constar faço este assentamento. [assina]
+  P.e João [Carvalho]."
+abstract: >-
+  The original 1915 death register entry (Santa Luzia de Carangola, MG) of João Muniz
+  Bittencourt (P-0019): died 12 September 1915 at Carrego do Boa Vista, aged 68 (so
+  born c.1847), married to Suzana Rita Brandão (P-0020), leaving eleven children. It
+  states he was "natural da Ilha de São Miguel" (Açores, Portugal) — primary
+  confirmation that he was the Azorean immigrant of the line — and names his father
+  Manoel Luiz Bittencourt (P-0042); his mother is not named.
+reliability:
+  assessment: >-
+    Direct primary parish evidence for João's death, approximate birth year, São
+    Miguel (Azorean) origin, marriage and paternity.
+  informant: The recording vigário of Santa Luzia de Carangola (1915).
+  limitations: >-
+    Handwritten register; the priest's surname and the exact cause word are uncertain
+    reads. The mother is not named.
+digital_file:
+  path: evidence/parish/PAR-0007-joao-muniz-bittencourt-obito-1915-carangola.jpg
+  sha256: c0dfc632fbc102920f9df56abff0590db7d60ff5d6afa864e5416117ec3ff743
+linked_people:
+- P-0019
+- P-0042
+- P-0020
+linked_families:
+- F-0020
+- F-0007
+linked_events:
+- E-0036
+linked_places: []
+private: true
+notes:
+- text: >-
+    Resolves STATUS conflict 6 (João's origin): born on the Ilha de São Miguel,
+    Açores, Portugal (c.1847), himself the immigrant — explaining why the Sapucaia
+    baptism books (1856-1877) held no baptism for his generation. Names his father
+    Manoel Luiz Bittencourt (P-0042); the mother is not named.
