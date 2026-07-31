@@ -1,26 +1,26 @@
 #!/usr/bin/env python3
 """Export the canonical YAML data model to a GEDCOM file (7.0 or 5.5.1).
 
-The default (``make export``) is the owner's **archival** copy: everything —
-people, families, events, source citations, transcriptions, scan paths/checksums,
-``OBJE`` records referencing the ``evidence/`` scans, and rejected edges (flagged).
-It is a private local backup; do not upload it. ``--no-private`` (and, always, the
-shareable ``--living redact``/``omit`` modes) drop transcriptions, scan
-paths/checksums, ``OBJE`` media and rejected edges — that is the safe-to-share
-file. See ``docs/gedcom-export-design.md``.
+This is a **full backup**: everything, no redaction — people, families, events,
+source citations, living people in full, transcriptions, scan paths/checksums,
+``OBJE`` records referencing the ``evidence/`` scans, and rejected edges (flagged
+`QUAY 0`, never as plain fact). The repository is private and already holds the
+scans, so the export is treated as an in-repo backup, not a shareable file.
+
+- ``make export`` → the GEDCOM text (`.ged`), which *references* the scans.
+- ``make export-bundle`` → a **GEDZIP** (`.gdz`): a single portable ZIP that
+  packages the GEDCOM plus the actual scan files (7.0 only).
+- ``make export-legacy`` → GEDCOM 5.5.1 for the widest commercial-site import.
 
 Version (``--gedcom-version``): ``7.0`` (default, the current FamilySearch
-standard) or ``5.5.1`` (for the widest commercial-site import support).
-
-Living people (``privacy: living`` or ``unknown``) are controlled by ``--living``:
-``full`` (default) exports everything; ``redact`` emits a minimal "Living" node
-with family links only; ``omit`` drops them entirely.
+standard) or ``5.5.1``. See ``docs/gedcom-export-design.md``.
 """
 
 from __future__ import annotations
 
 import argparse
 import re
+import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -158,10 +158,8 @@ class GedcomBuilder:
         data_root: Path,
         *,
         version: str = "7.0",
-        living: str = "full",
         include_hypotheses: bool = True,
         include_notes: bool = True,
-        include_private: bool = True,
     ) -> None:
         if version not in SUPPORTED_VERSIONS:
             raise ValueError(f"unsupported GEDCOM version: {version!r}")
@@ -174,13 +172,8 @@ class GedcomBuilder:
         for kind in SOURCE_KINDS:
             self.sources.update(entities[kind])
         self.version = version
-        self.living = living
         self.include_hypotheses = include_hypotheses
         self.include_notes = include_notes
-        # Private detail (transcriptions, scan paths/checksums, OBJE media, and
-        # rejected edges) is the owner's archival copy. It is force-disabled for
-        # the shareable redact/omit modes so those stay safe regardless.
-        self.include_private = include_private and living == "full"
         self.used_sources: set[str] = set()
         # 7.0 OBJE records to emit: (xref, path, media-type, title, sha256).
         self.media: list[tuple[str, str, str, str, str]] = []
@@ -240,8 +233,8 @@ class GedcomBuilder:
 
     # -- status gating ------------------------------------------------------
     def allowed(self, status: str | None) -> bool:
-        if status == "rejected":
-            return self.include_private  # only in the owner's archival export
+        # `rejected` edges are included but flagged (§ emit_status_note);
+        # `hypothesis` edges are included+flagged unless explicitly excluded.
         if status == "hypothesis" and not self.include_hypotheses:
             return False
         return True
@@ -250,17 +243,6 @@ class GedcomBuilder:
         text = STATUS_NOTE.get(status)
         if text:
             self.emit(level, "NOTE", text)
-
-    def is_hidden(self, person_id: str) -> bool:
-        """A living person hidden entirely (omit mode)."""
-        person = self.people.get(person_id, {})
-        return self.living == "omit" and person.get("privacy") in ("living", "unknown")
-
-    def is_redacted(self, person: dict) -> bool:
-        return self.living in ("redact", "omit") and person.get("privacy") in (
-            "living",
-            "unknown",
-        )
 
     def resn_privacy(self, level: int) -> None:
         self.emit(level, "RESN", "PRIVACY" if self.version != "5.5.1" else "privacy")
@@ -313,44 +295,36 @@ class GedcomBuilder:
     # -- individuals --------------------------------------------------------
     def emit_person(self, person_id: str) -> None:
         person = self.people[person_id]
-        if self.is_hidden(person_id):
-            return
-        redacted = self.is_redacted(person)
         self.lines.append(f"0 @{xref(person_id)}@ INDI")
 
-        if redacted:
-            _, _, surname = format_name(person.get("preferred_name", ""))
-            self.emit(1, "NAME", f"Living /{surname}/")
+        name_value, given, surname = format_name(person.get("preferred_name", ""))
+        self.emit(1, "NAME", name_value)
+        if given:
+            self.emit(2, "GIVN", given)
+        if surname:
             self.emit(2, "SURN", surname)
-        else:
-            name_value, given, surname = format_name(person.get("preferred_name", ""))
-            self.emit(1, "NAME", name_value)
-            if given:
-                self.emit(2, "GIVN", given)
-            if surname:
-                self.emit(2, "SURN", surname)
-            for variant in person.get("name_variants", []):
-                value = _clean(variant.get("value"))
-                if not value or value == _clean(person.get("preferred_name", "")):
-                    continue
-                alt_value, _, _ = format_name(value)
-                self.emit(1, "NAME", alt_value)
-                self.emit(2, "TYPE", self.name_type())
-                self.cite(2, variant.get("source_ids"))
+        for variant in person.get("name_variants", []):
+            value = _clean(variant.get("value"))
+            if not value or value == _clean(person.get("preferred_name", "")):
+                continue
+            alt_value, _, _ = format_name(value)
+            self.emit(1, "NAME", alt_value)
+            self.emit(2, "TYPE", self.name_type())
+            self.cite(2, variant.get("source_ids"))
 
         self.emit(1, "SEX", SEX_TAG.get(person.get("sex", "unknown"), "U"))
+        # RESN is a truthful standard marker, not redaction: nothing is hidden.
         if person.get("privacy") in ("living", "unknown"):
             self.resn_privacy(1)
 
-        if not redacted:
-            self.emit_person_events(person_id)
-            for occupation in person.get("occupations", []):
-                self.emit(1, "OCCU", occupation.get("value"))
-                self.cite(2, occupation.get("source_ids"))
+        self.emit_person_events(person_id)
+        for occupation in person.get("occupations", []):
+            self.emit(1, "OCCU", occupation.get("value"))
+            self.cite(2, occupation.get("source_ids"))
 
         self.emit_family_links(person_id)
 
-        if not redacted and self.include_notes:
+        if self.include_notes:
             for entry in person.get("notes", []):
                 self.note(1, entry.get("text"), entry.get("source_ids"))
 
@@ -431,10 +405,7 @@ class GedcomBuilder:
         family = self.families[family_id]
         self.lines.append(f"0 @{xref(family_id)}@ FAM")
 
-        partners = [
-            p for p in family.get("partners", [])
-            if not self.is_hidden(p.get("person_id", ""))
-        ]
+        partners = family.get("partners", [])
         males = [p for p in partners
                  if self.people.get(p.get("person_id"), {}).get("sex") == "male"]
         females = [p for p in partners
@@ -450,7 +421,7 @@ class GedcomBuilder:
 
         for child in family.get("children", []):
             child_id = child.get("person_id")
-            if child_id and not self.is_hidden(child_id):
+            if child_id:
                 self.pointer(1, "CHIL", child_id)
         for index, _documented in enumerate(family.get("documented_children", []), 1):
             self.lines.append(
@@ -543,8 +514,7 @@ class GedcomBuilder:
             )
             if classification:
                 self.emit(1, "NOTE", f"Evidence classification: {classification}.")
-            if self.include_private:
-                self.emit_private_source_detail(source_id, source)
+            self.emit_private_source_detail(source_id, source)
 
     def emit_private_source_detail(self, source_id: str, source: dict) -> None:
         """Archival-only: transcription, private paths, and the scan as OBJE."""
@@ -627,19 +597,49 @@ def build_gedcom(
     data_root: Path,
     *,
     version: str = "7.0",
-    living: str = "full",
     include_hypotheses: bool = True,
     include_notes: bool = True,
-    include_private: bool = True,
 ) -> str:
     return GedcomBuilder(
         data_root,
         version=version,
-        living=living,
         include_hypotheses=include_hypotheses,
         include_notes=include_notes,
-        include_private=include_private,
     ).build()
+
+
+def write_gedzip(
+    data_root: Path,
+    output: Path,
+    *,
+    repo_root: Path | None = None,
+    include_hypotheses: bool = True,
+    include_notes: bool = True,
+) -> tuple[int, list[str]]:
+    """Write a GEDZIP (`.gdz`): a ZIP with the GEDCOM as ``gedcom.ged`` plus every
+    referenced scan at its ``evidence/…`` path. 7.0 only. Returns (files bundled,
+    missing paths)."""
+    builder = GedcomBuilder(
+        data_root, version="7.0",
+        include_hypotheses=include_hypotheses, include_notes=include_notes,
+    )
+    text = builder.build()
+    repo_root = repo_root or data_root.parent
+    output.parent.mkdir(parents=True, exist_ok=True)
+    bundled: set[str] = set()
+    missing: list[str] = []
+    with zipfile.ZipFile(output, "w", zipfile.ZIP_DEFLATED) as archive:
+        archive.writestr("gedcom.ged", text)
+        for _xref, path, *_ in builder.media:
+            if path in bundled:
+                continue
+            source_file = repo_root / path
+            if source_file.is_file():
+                archive.write(source_file, arcname=path)
+                bundled.add(path)
+            else:
+                missing.append(path)
+    return len(bundled), missing
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -653,28 +653,37 @@ def main(argv: list[str] | None = None) -> int:
         help="GEDCOM version to emit (default: 7.0)",
     )
     parser.add_argument(
-        "--living", choices=("full", "redact", "omit"), default="full",
-        help="how to treat living people (default: full — a private local backup)",
+        "--bundle", action="store_true",
+        help="write a GEDZIP (.gdz) packaging the GEDCOM plus the scan files (7.0)",
     )
     parser.add_argument(
         "--exclude-hypotheses", action="store_true",
         help="omit hypothesis-level edges instead of flagging them",
     )
     parser.add_argument("--no-notes", action="store_true", help="omit NOTE text")
-    parser.add_argument(
-        "--no-private", action="store_true",
-        help="drop transcriptions, scan paths/checksums, OBJE media and rejected "
-             "edges (also forced off by --living redact/omit)",
-    )
     args = parser.parse_args(argv)
+
+    if args.bundle:
+        output = args.output
+        if output.suffix != ".gdz":
+            output = output.with_suffix(".gdz")
+        count, missing = write_gedzip(
+            args.data_root, output, repo_root=args.data_root.parent,
+            include_hypotheses=not args.exclude_hypotheses,
+            include_notes=not args.no_notes,
+        )
+        print(f"Wrote {output} (GEDZIP 7.0, {count} scan file(s) bundled).")
+        if missing:
+            print(f"WARNING: {len(missing)} referenced scan(s) not found on disk:")
+            for path in missing:
+                print(f"  - {path}")
+        return 0
 
     text = build_gedcom(
         args.data_root,
         version=args.gedcom_version,
-        living=args.living,
         include_hypotheses=not args.exclude_hypotheses,
         include_notes=not args.no_notes,
-        include_private=not args.no_private,
     )
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(text, encoding="utf-8")

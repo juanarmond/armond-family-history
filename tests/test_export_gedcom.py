@@ -1,8 +1,8 @@
-"""Tests for the GEDCOM exporter, especially its privacy guarantees.
+"""Tests for the GEDCOM exporter and GEDZIP bundle.
 
 The fixture is a small self-contained temp repository (not the live data) so the
 tests stay deterministic and can exercise paths the real data may not currently
-contain (e.g. a hypothesis-level edge).
+contain (e.g. a hypothesis- or rejected-level edge, and an on-disk scan).
 """
 
 from __future__ import annotations
@@ -10,16 +10,16 @@ from __future__ import annotations
 import re
 import tempfile
 import unittest
+import zipfile
 from pathlib import Path
 
 import yaml
 
-from scripts.export_gedcom import SUPPORTED_VERSIONS, build_gedcom
+from scripts.export_gedcom import SUPPORTED_VERSIONS, build_gedcom, write_gedzip
 
 
-# A transcription that must never reach the export, plus private file details.
-SECRET_TRANSCRIPTION = "sob No 132 encontra-se o assento"
-SECRET_PATH = "evidence/civil/CIV-0002-secret.jpg"
+TRANSCRIPTION = "sob No 132 encontra-se o assento"
+SCAN_PATH = "evidence/civil/CIV-0002-scan.jpg"
 
 
 def _write(root: Path, directory: str, entity: dict) -> None:
@@ -38,6 +38,11 @@ class GedcomFixture:
         self._tmp = tempfile.TemporaryDirectory()
         self.root = Path(self._tmp.name)
 
+        # A real (dummy) scan on disk so the GEDZIP bundle has something to pack.
+        scan = self.root / SCAN_PATH
+        scan.parent.mkdir(parents=True, exist_ok=True)
+        scan.write_bytes(b"\xff\xd8\xff\xe0 fake jpeg bytes")
+
         _write(self.root, "places", {
             "id": "PL-0001",
             "preferred_name": "Carangola, Minas Gerais, Brazil",
@@ -46,7 +51,7 @@ class GedcomFixture:
         _write(self.root, "sources/civil", {
             "id": "CIV-0001",
             "title": "Civil birth registration of the child",
-            "abstract": "Curated summary, safe to export.",
+            "abstract": "Curated summary.",
             "record_category": "civil_registration",
             "source_form": "original",
             "information_quality": "primary",
@@ -56,22 +61,18 @@ class GedcomFixture:
         })
         _write(self.root, "sources/civil", {
             "id": "CIV-0002",
-            "title": "Private record",
-            "abstract": "Also curated and safe.",
+            "title": "Record with a scan",
+            "abstract": "Curated summary.",
             "record_category": "civil_registration",
             "source_form": "derivative",
             "information_quality": "mixed",
             "evidence_type": "direct",
-            "repository": {
-                "name": "Cartorio de Carangola",
-                "repository_path": SECRET_PATH,
-            },
-            "transcription": SECRET_TRANSCRIPTION,
-            "digital_file": {"path": SECRET_PATH, "sha256": "a" * 64},
+            "repository": {"name": "Cartorio de Carangola", "repository_path": SCAN_PATH},
+            "transcription": TRANSCRIPTION,
+            "digital_file": {"path": SCAN_PATH, "sha256": "a" * 64},
             "private": True,
         })
 
-        # Living subject, with a birth event that redaction must hide.
         _write(self.root, "people", {
             "id": "P-0001", "preferred_name": "Juan Carlos Muniz Armond",
             "privacy": "living", "sex": "male",
@@ -194,7 +195,7 @@ class ExportGedcomTest(unittest.TestCase):
         self.assertIn("2 VERS 7.0", text)
         self.assertNotIn("1 CHAR", text)          # removed in 7.0
         self.assertIn("1 LANG pt-BR", text)        # BCP-47 tag
-        self.assertIn("1 RESN PRIVACY", text)      # uppercase enum
+        self.assertIn("1 RESN PRIVACY", text)      # uppercase enum, truthful marker
         self.assertNotIn("\n2 CONC ", text)        # CONC removed in 7.0
         self.assertNotIn("\n3 CONC ", text)
 
@@ -205,50 +206,15 @@ class ExportGedcomTest(unittest.TestCase):
         self.assertIn("1 LANG Portuguese", text)
         self.assertIn("1 RESN privacy", text)
 
-    def _assert_scrubbed(self, text: str, label: str) -> None:
-        self.assertNotIn("evidence/", text, label)
-        self.assertNotIn(SECRET_PATH, text, label)
-        self.assertNotIn(SECRET_TRANSCRIPTION, text, label)
-        self.assertNotIn("Transcription:", text, label)
-        self.assertNotIn("sha256", text.lower(), label)
-        self.assertNotIn("repository_path", text, label)
-        self.assertNotIn("REJECTED", text, label)
-
-    def test_shareable_modes_never_leak(self) -> None:
-        # The safe-to-share outputs — redact/omit, and full with --no-private —
-        # carry no scans, paths, hashes, transcriptions or rejected edges.
+    def test_full_backup_includes_everything(self) -> None:
+        # No redaction: living people in full, transcriptions, scans and hashes.
         for version in SUPPORTED_VERSIONS:
-            for mode in ("redact", "omit"):
-                self._assert_scrubbed(
-                    build_gedcom(self.root, version=version, living=mode),
-                    f"{version}/{mode}",
-                )
-            self._assert_scrubbed(
-                build_gedcom(self.root, version=version, living="full",
-                             include_private=False),
-                f"{version}/no-private",
-            )
-
-    def test_archival_full_export_includes_private_detail(self) -> None:
-        # The default full export is the owner's archival copy: it *does* carry
-        # transcriptions and OBJE scan references.
-        for version in SUPPORTED_VERSIONS:
-            text = build_gedcom(self.root, version=version, living="full")
-            self.assertIn(f"Transcription: {SECRET_TRANSCRIPTION}", text, version)
-            self.assertIn(f"FILE {SECRET_PATH}", text, version)
+            text = build_gedcom(self.root, version=version)
+            self.assertIn("1 NAME Juan Carlos Muniz /Armond/", text, version)  # living
+            self.assertIn("10 MAY 1982", text, version)                        # living DOB
+            self.assertIn(f"Transcription: {TRANSCRIPTION}", text, version)
+            self.assertIn(f"FILE {SCAN_PATH}", text, version)
             self.assertIn("sha256: " + "a" * 64, text, version)
-
-    def test_rejected_edges_flagged_in_archival_but_absent_when_shareable(self) -> None:
-        full = build_gedcom(self.root, living="full")
-        self.assertIn("REJECTED", full)
-        self.assertIn("3 QUAY 0", full)          # rejected → quality 0
-        self.assertIn("1970", full)              # the rejected death date appears
-        for text in (
-            build_gedcom(self.root, living="redact"),
-            build_gedcom(self.root, living="full", include_private=False),
-        ):
-            self.assertNotIn("REJECTED", text)
-            self.assertNotIn("3 QUAY 0", text)
 
     def test_sex_drives_husband_and_wife(self) -> None:
         text = build_gedcom(self.root)
@@ -259,7 +225,6 @@ class ExportGedcomTest(unittest.TestCase):
         self.assertIn("1 SEX F", text)
 
     def test_documented_child_becomes_a_synthetic_individual(self) -> None:
-        # Standard-compliant: a real INDI + CHIL link, not just a FAM note.
         text = build_gedcom(self.root)
         self.assertIn("\n0 @DOCF0001_1@ INDI\n", text)
         self.assertIn("1 NAME Marfiza Ferreira /Armond/", text)
@@ -268,36 +233,42 @@ class ExportGedcomTest(unittest.TestCase):
         self.assertIn("Documented child, not individually modelled", text)
         self.assertNotIn("1 NOTE None", text)  # missing optional fields stay absent
 
-    def test_living_full_exports_the_real_record(self) -> None:
-        text = build_gedcom(self.root, living="full")
-        self.assertIn("1 NAME Juan Carlos Muniz /Armond/", text)
-        self.assertIn("10 MAY 1982", text)  # living person's birth date present
-
-    def test_living_redact_anonymises_the_own_record(self) -> None:
-        text = build_gedcom(self.root, living="redact")
-        _assert_well_formed(text)
-        self.assertIn("@P0001@ INDI", text)            # node kept
-        self.assertIn("1 NAME Living /Armond/", text)  # name anonymised
-        self.assertNotIn("1 NAME Juan Carlos Muniz /Armond/", text)
-        self.assertNotIn("10 MAY 1982", text)          # vitals hidden
-        self.assertIn("1 RESN PRIVACY", text)          # 7.0 default
-
-    def test_living_omit_drops_the_node_without_dangling_refs(self) -> None:
-        text = build_gedcom(self.root, living="omit")
-        _assert_well_formed(text)
-        self.assertNotIn("@P0001@ INDI", text)
-        self.assertNotIn("1 CHIL @P0001@", text)
+    def test_rejected_edges_are_flagged_not_asserted(self) -> None:
+        text = build_gedcom(self.root)
+        self.assertIn("REJECTED", text)
+        self.assertIn("3 QUAY 0", text)  # rejected → quality 0
+        self.assertIn("1970", text)      # the rejected death date is present
 
     def test_hypotheses_are_flagged_by_default(self) -> None:
         text = build_gedcom(self.root, include_hypotheses=True)
         self.assertIn("Unproven hypothesis", text)
-        self.assertIn("3 QUAY 1", text)  # hypothesis citation quality
+        self.assertIn("3 QUAY 1", text)
 
     def test_hypotheses_can_be_excluded(self) -> None:
         text = build_gedcom(self.root, include_hypotheses=False)
         self.assertNotIn("Unproven hypothesis", text)
-        # the hypothesis death (E-0002) is dropped entirely
         self.assertNotIn("3 QUAY 1", text)
+
+    def test_gedzip_bundles_gedcom_and_scans(self) -> None:
+        out = self.fixture.root / "backup.gdz"
+        count, missing = write_gedzip(self.root, out, repo_root=self.fixture.root)
+        self.assertEqual(missing, [])
+        self.assertGreaterEqual(count, 1)
+        with zipfile.ZipFile(out) as archive:
+            names = archive.namelist()
+            self.assertIn("gedcom.ged", names)       # GEDZIP requires this name
+            self.assertIn(SCAN_PATH, names)          # the actual scan is packed in
+            ged = archive.read("gedcom.ged").decode("utf-8")
+            self.assertIn("2 VERS 7.0", ged)         # GEDZIP is 7.0
+            self.assertIn(f"FILE {SCAN_PATH}", ged)
+
+    def test_gedzip_reports_missing_scans(self) -> None:
+        # Remove the on-disk scan; the bundle still writes and reports it missing.
+        (self.fixture.root / SCAN_PATH).unlink()
+        out = self.fixture.root / "backup.gdz"
+        count, missing = write_gedzip(self.root, out, repo_root=self.fixture.root)
+        self.assertEqual(count, 0)
+        self.assertIn(SCAN_PATH, missing)
 
 
 if __name__ == "__main__":

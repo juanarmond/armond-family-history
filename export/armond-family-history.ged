@@ -1,0 +1,1300 @@
+0 HEAD
+1 GEDC
+2 VERS 7.0
+1 SOUR ARMOND-FAMILY-HISTORY
+2 NAME Armond Family History
+2 VERS 2026.07.31
+1 DATE 31 JUL 2026
+1 SUBM @SUBM0001@
+1 LANG pt-BR
+0 @SUBM0001@ SUBM
+1 NAME Armond Family History
+0 @P0001@ INDI
+1 NAME Juan Carlos Muniz /Armond/
+2 GIVN Juan Carlos Muniz
+2 SURN Armond
+1 NAME Armond Juan Carlos /Muniz/
+2 TYPE AKA
+2 SOUR @CIV0010@
+2 SOUR @CIV0011@
+2 SOUR @CIV0012@
+1 SEX M
+1 RESN PRIVACY
+1 FAMC @F0011@
+1 NOTE Repository subject and Ahnentafel position 1. Private civil sources are catalogued, but identity numbers, addresses, contact details and signatures remain outside structured person data and public derivatives.
+0 @P0002@ INDI
+1 NAME Luis Carlos Igracio /Armond/
+2 GIVN Luis Carlos Igracio
+2 SURN Armond
+1 SEX M
+1 RESN PRIVACY
+1 FAMC @F0002@
+1 FAMS @F0011@
+1 NOTE Ahnentafel position 2. Preserve the spelling Igracio exactly as supplied by the repository owner.
+0 @P0003@ INDI
+1 NAME Lucinea Aparecida Muniz /Armond/
+2 GIVN Lucinea Aparecida Muniz
+2 SURN Armond
+1 SEX F
+1 RESN PRIVACY
+1 FAMC @F0004@
+1 FAMS @F0011@
+1 NOTE Ahnentafel position 3.
+0 @P0004@ INDI
+1 NAME Geraldo Paz /Armond/
+2 GIVN Geraldo Paz
+2 SURN Armond
+1 SEX M
+1 DEAT
+2 DATE 18 FEB 1991
+2 PLAC Volta Redonda, Rio de Janeiro, Brazil
+2 SOUR @CIV0003@
+3 QUAY 3
+1 BIRT
+2 DATE 30 JAN 1915
+2 PLAC Rosário da Limeira, Minas Gerais, Brazil
+2 SOUR @CIV0002@
+3 QUAY 2
+2 SOUR @CIV0003@
+3 QUAY 2
+1 OCCU aposentado
+2 SOUR @CIV0003@
+1 FAMS @F0002@
+1 FAMC @F0003@
+0 @P0005@ INDI
+1 NAME Cidalia Engracio /Guimarães/
+2 GIVN Cidalia Engracio
+2 SURN Guimarães
+1 NAME Cidalia Engracio /Armond/
+2 TYPE AKA
+2 SOUR @CIV0002@
+1 NAME Cidalia Igracio /Armond/
+2 TYPE AKA
+2 SOUR @CIV0008@
+1 SEX F
+1 BIRT
+2 DATE 15 SEP 1930
+2 PLAC Alvorada, Minas Gerais, Brazil
+2 SOUR @CIV0022@
+3 QUAY 3
+2 SOUR @CIV0002@
+3 QUAY 3
+2 SOUR @CIV0008@
+3 QUAY 3
+1 OCCU doméstica
+2 SOUR @CIV0002@
+1 FAMS @F0002@
+1 FAMC @F0012@
+1 NOTE Her own 1930 birth registration (CIV-0022, Alvorada) confirms her birth date (15 September 1930), place and parents, resolving material conflict 1 (the "15 November" family variant is superseded). Recorded there under the given name "Cidália".
+0 @P0006@ INDI
+1 NAME Antenor /Muniz/
+2 GIVN Antenor
+2 SURN Muniz
+1 SEX M
+1 BIRT
+2 DATE 02 NOV 1923
+2 PLAC Alvorada, Minas Gerais, Brazil
+2 SOUR @CIV0004@
+3 QUAY 2
+1 OCCU da lavoura
+2 SOUR @CIV0004@
+1 FAMC @F0001@
+1 FAMS @F0004@
+1 NOTE Ahnentafel position 6. The fuller form Antenor Muniz Bittencourt remains a lead pending direct source cataloguing.
+0 @P0007@ INDI
+1 NAME Iris Bohrer /Muniz/
+2 GIVN Iris Bohrer
+2 SURN Muniz
+1 NAME Iris /Bohrer/
+2 TYPE AKA
+2 SOUR @CIV0004@
+1 SEX F
+1 BIRT
+2 DATE 27 FEB 1929
+2 PLAC Presidente Soares, Minas Gerais, Brazil
+2 SOUR @CIV0004@
+3 QUAY 2
+1 FAMS @F0004@
+1 FAMC @F0005@
+1 NOTE Ahnentafel position 7.
+0 @P0008@ INDI
+1 NAME Aristão Ferreira /Armond/
+2 GIVN Aristão Ferreira
+2 SURN Armond
+1 NAME Aristac Ferreira /Armond/
+2 TYPE AKA
+2 SOUR @GOV0001@
+1 SEX M
+1 DEAT
+2 DATE 01 NOV 1957
+2 PLAC Volta Redonda, Rio de Janeiro, Brazil
+2 SOUR @CIV0005@
+3 QUAY 3
+1 BIRT
+2 DATE ABT 1878
+3 PHRASE about 1879
+2 PLAC Minas Gerais, Brazil
+2 SOUR @CIV0005@
+3 QUAY 2
+1 OCCU padeiro
+2 SOUR @CIV0005@
+1 FAMS @F0003@
+1 FAMC @F0006@
+1 NOTE Ahnentafel position 8.
+0 @P0009@ INDI
+1 NAME Liliosa Paz /Armond/
+2 GIVN Liliosa Paz
+2 SURN Armond
+1 SEX F
+1 DEAT
+2 DATE 16 APR 1946
+2 PLAC Eugenópolis, Minas Gerais, Brazil
+2 SOUR @CIV0002@
+3 QUAY 2
+1 FAMS @F0003@
+1 NOTE Ahnentafel position 9. Died 16 April 1946, per her son Geraldo's 1952 marriage (CIV-0002, "Liliosa Paz ... nascida aqui, falecida em 16-4-946"); the same record gives her birthplace as Eugenópolis, MG. Her original surname and parents remain unresolved — the next step is the Eugenópolis 1946 óbito (inteiro teor), which would name her parents.
+0 @P0010@ INDI
+1 NAME Antonio Engracio /Filho/
+2 GIVN Antonio Engracio
+2 SURN Filho
+1 NAME Antônio Engrácio de /Souza/
+2 TYPE AKA
+2 SOUR @CIV0002@
+1 SEX M
+1 DEAT
+2 DATE 21 JUN 1964
+2 PLAC Rio de Janeiro, Brazil
+2 SOUR @CIV0017@
+3 QUAY 3
+1 BIRT
+2 DATE 15 JUN 1894
+2 PLAC Minas Gerais, Brazil
+2 SOUR @CIV0002@
+3 QUAY 2
+2 SOUR @CIV0017@
+3 QUAY 2
+1 FAMS @F0012@
+1 FAMC @F0015@
+1 NOTE Ahnentafel position 10. Recorded both as "Antonio Engracio Filho" (family roster REC-0001; his 1964 death CIV-0017) and "Antônio Engrácio de Souza" (his daughter Cidalia's 1952 marriage CIV-0002) — "Filho" distinguishes him from his father Antonio Engracio de Souza (P-0032), who shares the base name.
+1 NOTE Born 15 June 1894 in Minas Gerais (CIV-0002, recorded while living; the age 69 at his 1964 death, CIV-0017, implied c.1895). Died 21 June 1964 at Rio de Janeiro (residence Pavuna, then Guanabara; buried São João de Meriti), a negociante married to Maria Aurora Guimarães. His parents were Antonio Engracio de Souza (P-0032) and Luzia Pinheiro da Conceição (P-0033) — family F-0015 — both deceased by 1964; the record reports six surviving adult children.
+0 @P0011@ INDI
+1 NAME Maria Aurora /Guimarães/
+2 GIVN Maria Aurora
+2 SURN Guimarães
+1 NAME Maria Amora /Guimarães/
+2 TYPE AKA
+2 SOUR @CIV0007@
+1 SEX F
+1 BIRT
+2 DATE 01 JAN 1904
+2 PLAC Fazenda do Barroso, São Francisco do Glória, Carangola, Minas Gerais, Brazil
+2 SOUR @CIV0007@
+3 QUAY 3
+1 DEAT
+2 DATE 15 SEP 1991
+2 PLAC Rio de Janeiro, Rio de Janeiro, Brazil
+2 SOUR @CIV0018@
+3 QUAY 3
+1 FAMC @F0008@
+1 FAMS @F0012@
+1 NOTE Ahnentafel position 11.
+1 NOTE Resolves material conflict 10. Both name forms are preserved and proven to be one woman: the 1915 retrospective birth registration (CIV-0007) records "Maria Amora", while her own 1991 death (CIV-0018), her marriage (CIV-0002) and the family roster (REC-0001) record "Maria Aurora"; both forms name the identical parents (Francisco José de Carvalho Guimarães + Emerenciana Maria de Jesus). Preferred name set to "Maria Aurora" on 2026-07-30: three sources — including her own death record — use it, against a single retrospective, certified-copy birth registration that most likely mis-transcribed the unusual "Amora" for the common name "Aurora". (Consistent with the same choice for P-0015 Celina/Selina.)
+1 NOTE Died 15 September 1991 at Rio de Janeiro, aged 87 (so born c.1904, matching her 1904 birth, E-0007), a widow of Antonio Engracio Filho, per her civil death (CIV-0018).
+0 @P0012@ INDI
+1 NAME Deocleciano Muniz /Bittencourt/
+2 GIVN Deocleciano Muniz
+2 SURN Bittencourt
+1 NAME Deocleciano /Muniz/
+2 TYPE AKA
+2 SOUR @CIV0004@
+1 SEX M
+1 BIRT
+2 DATE ABT 1891
+3 PHRASE about 1892
+2 PLAC Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
+2 SOUR @CIV0001@
+3 QUAY 2
+1 FAMS @F0001@
+1 FAMC @F0007@
+0 @P0013@ INDI
+1 NAME Luiza Fernandes de /Azevedo/
+2 GIVN Luiza Fernandes de
+2 SURN Azevedo
+1 NAME Luiza Secundina de /Azevedo/
+2 TYPE AKA
+2 SOUR @PAR0003@
+1 SEX F
+1 BIRT
+2 DATE ABT 1897
+3 PHRASE about 1898
+2 PLAC Bom Jesus da Cachoeira Alegre, Muriaé, Minas Gerais, Brazil
+2 SOUR @CIV0001@
+3 QUAY 2
+1 FAMS @F0001@
+1 FAMC @F0018@
+1 NOTE Her parents are José Secundino de Azevedo (P-0038) and Thereza Fernandes de Azevedo (P-0039) — family F-0018 — named in her 1916 marriage (CIV-0001) and in her son Aristides's 1922 baptism (PAR-0003). "Fernandes" is her mother's surname and "Secundina/Secundino" her father's; both variants of her own name are preserved. The Azevedo family origin is the Muriaé/Carangola region (MG).
+0 @P0014@ INDI
+1 NAME João Gonçalves /Bohrer/
+2 GIVN João Gonçalves
+2 SURN Bohrer
+1 SEX M
+1 DEAT
+2 DATE 03 AUG 1970
+2 PLAC Volta Redonda, Rio de Janeiro, Brazil
+2 SOUR @CIV0014@
+3 QUAY 3
+1 BIRT
+2 DATE ABT 1893
+3 PHRASE c.1894 (aged 76 at his 1970 death, CIV-0014)
+2 PLAC Rio de Janeiro, Brazil
+2 SOUR @CIV0014@
+3 QUAY 2
+1 FAMS @F0005@
+1 FAMC @F0013@
+1 NOTE Ahnentafel position 14.
+1 NOTE Died 3 August 1970 at Volta Redonda, RJ, aged 76 (so born c.1894), a comerciante married to Celina Bohrer, per his civil death (CIV-0014). His parents were Valentim Martinho Bohrer (P-0028) and Carolina Bohrer (P-0029) — family F-0013 — named in that death and in Eunir Bohrer's 1924 Nova Friburgo birth (CIV-0016).
+0 @P0015@ INDI
+1 NAME Celina /Bohrer/
+2 GIVN Celina
+2 SURN Bohrer
+1 NAME Selina /Bohrer/
+2 TYPE AKA
+2 SOUR @REC0001@
+2 SOUR @CIV0004@
+1 SEX F
+1 DEAT
+2 DATE 19 FEB 1977
+2 PLAC Volta Redonda, Rio de Janeiro, Brazil
+2 SOUR @CIV0015@
+3 QUAY 3
+1 BIRT
+2 DATE ABT 1899
+3 PHRASE c.1900 (aged 77 at her 1977 death, CIV-0015)
+2 PLAC Nova Friburgo, Rio de Janeiro, Brazil
+2 SOUR @CIV0015@
+3 QUAY 2
+2 SOUR @CIV0016@
+3 QUAY 2
+1 FAMS @F0005@
+1 FAMC @F0014@
+1 NOTE Ahnentafel position 15. Preferred name is "Celina", the spelling used by three primary civil records — her own 1977 death (CIV-0015), her husband's 1970 death (CIV-0014) and Eunir Bohrer's 1924 birth (CIV-0016). "Selina" is preserved as a variant but appears only in the 1949 marriage certificate (CIV-0004) and the owner's family roster (REC-0001). The preferred name was changed from "Selina" to "Celina" on 2026-07-30: her own death record and the weight of civil evidence outweigh the single marriage spelling.
+1 NOTE Died 19 February 1977 at Volta Redonda, RJ, aged 77 (so born c.1900), a widow, per her civil death (CIV-0015). Born in Nova Friburgo, RJ ("natural deste Districto", CIV-0016), which resolves the São Leopoldo (RS) "Celina Amalia Bohrer" as a different person. Her parents were Joaquim José Bohrer (P-0030) and Lucinda Ferreira da Silva (P-0031) — family F-0014.
+0 @P0016@ INDI
+1 NAME Simplício José Ferreira /Armond/
+2 GIVN Simplício José Ferreira
+2 SURN Armond
+1 NAME Simplicio /Armand/
+2 TYPE AKA
+2 SOUR @CIV0005@
+1 NAME Simplício Ferreira /Armond/
+2 TYPE AKA
+2 SOUR @CIV0013@
+1 NAME Simplicio José Ferreira /Armond/
+2 TYPE AKA
+2 SOUR @PRB0001@
+2 SOUR @PRB0002@
+2 SOUR @CIV0023@
+1 SEX M
+1 FAMS @F0006@
+1 NOTE Ahnentafel position 16.
+1 NOTE His name appears in four records: the short "Simplicio Armand" (Aristão's 1957 death, CIV-0005); "Simplício Ferreira Armond" (Marfiza's 1962 death, CIV-0013); and "Simplicio José Ferreira Armond" (the 1881 Toledo heir list PRB-0001 and the 1884 petition PRB-0002) — PRB-0002 bearing his own autograph signature ("Simplicio Joze Ferr.a Armond"). The owner confirms his full name is "Simplício José Ferreira Armond", set as the preferred name on 2026-07-30 — it matches his autograph signature and the two 1880s probate records; the shorter source forms ("Simplicio Armand", "Simplício Ferreira Armond") are preserved as variants.
+0 @P0017@ INDI
+1 NAME Eliza Ferreira /Armand/
+2 GIVN Eliza Ferreira
+2 SURN Armand
+1 NAME Eliza Ferreira /Toledo/
+2 TYPE AKA
+2 SOUR @CIV0013@
+1 NAME Eliza Balbina de /Toledo/
+2 TYPE AKA
+2 SOUR @PRB0001@
+1 NAME Elisa Balbina de /Jesus/
+2 TYPE AKA
+2 SOUR @CIV0023@
+1 SEX F
+1 FAMS @F0006@
+1 NOTE Ahnentafel position 17.
+1 NOTE Recorded three ways: "Eliza Ferreira Armand" (Aristão's 1957 death, CIV-0005), "Eliza Ferreira Toledo" (Marfiza's 1962 death, CIV-0013) and "Eliza Balbina de Toledo" (the 1881 Toledo heir list PRB-0001, as Simplício's wife). All give her the Toledo maiden surname and the owner confirms they are the same woman; the married and maiden forms are both preserved.
+0 @P0018@ INDI
+1 NAME José Olavo /Armond/
+2 GIVN José Olavo
+2 SURN Armond
+1 NAME JOSE OLAVO /ARMOND/
+2 TYPE AKA
+2 SOUR @GOV0001@
+1 NAME JOSÉ CLAVO /ARMOND/
+2 TYPE AKA
+2 SOUR @NWS0001@
+1 SEX M
+1 BIRT
+2 DATE 25 SEP 1926
+2 PLAC Eugenópolis, Minas Gerais, Brazil
+2 SOUR @GOV0001@
+3 QUAY 2
+2 SOUR @NWS0001@
+3 QUAY 2
+1 OCCU representante comercial
+2 SOUR @NWS0001@
+1 FAMC @F0003@
+1 NOTE A March 1973 government driver-dossier index (GOV-0001) reports a birth date of 25 September 1926 and names Aristac Ferreira Armond and Liliosa Paz Armond as parents. The 1975 marriage bann (NWS-0001) independently confirms the same parents (rendered Aristão Ferreira Armond and Liliosa Paz Armond) and additionally records him as natural de Eugenópolis. His birth is modelled as event E-0027 (date 25 September 1926 per GOV-0001, place Eugenópolis per NWS-0001, strong-evidence); no birth or baptism register has yet been located.
+1 NOTE Deceased: the repository owner confirms that everyone from his grandparents' generation back — including this granduncle (b. 1926, brother of the owner's grandfather Geraldo Paz Armond) — is deceased. The retained government index remains private because the full page contains identity and dossier data for multiple people.
+1 NOTE The preferred spelling "José Olavo Armond" normalises the two source forms, both preserved as variants: the government index (GOV-0001) prints "JOSE OLAVO ARMOND" (no accent) and the marriage bann (NWS-0001) prints "JOSÉ CLAVO ARMOND", where "CLAVO" is an evident misprint for "OLAVO". Both sources are strong originals, so the preferred name is well-founded.
+0 @P0019@ INDI
+1 NAME João Monis /Bittencourt/
+2 GIVN João Monis
+2 SURN Bittencourt
+1 NAME João Muniz /Bittencourt/
+2 TYPE AKA
+2 SOUR @CIV0001@
+1 SEX M
+1 EVEN
+2 TYPE other
+2 DATE 23 DEC 1882
+2 PLAC Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
+2 SOUR @PAR0001@
+3 QUAY 3
+1 FAMS @F0007@
+1 NOTE Ahnentafel position 24.
+1 NOTE The FamilySearch collaborative profile GLMF-KCR gives an unproved 1864 birth in São Miguel, Azores, and attaches an 1871 naturalisation link. Neither claim is accepted here until the underlying record identifies the same person.
+1 NOTE Nationality is deliberately left unset: his origin is unresolved (the Azorean birth lead above is unproved, and no located record states a nacionalidade), so neither a Brazilian jus-soli nor a Portuguese nationality can be asserted. See material conflict 6 in STATUS.md.
+0 @P0020@ INDI
+1 NAME Susanna Rita /Brondão/
+2 GIVN Susanna Rita
+2 SURN Brondão
+1 NAME Suzana Ritta /Brandão/
+2 TYPE AKA
+2 SOUR @CIV0001@
+1 SEX F
+1 FAMS @F0007@
+1 NOTE Ahnentafel position 25.
+1 NOTE The original 1882 provision and the 1916 record of her son use materially different spellings. Both are preserved; no spelling is silently normalised.
+0 @P0021@ INDI
+1 NAME Francisco José de Carvalho /Guimarães/
+2 GIVN Francisco José de Carvalho
+2 SURN Guimarães
+1 SEX M
+1 BIRT
+2 NOTE Date: The 1915 registration states only the birthplace.
+2 PLAC Vila do Rio Claro, Rio de Janeiro, Brazil
+2 SOUR @CIV0007@
+3 QUAY 2
+1 OCCU lavrador
+2 SOUR @CIV0007@
+1 FAMS @F0008@
+1 FAMC @F0009@
+1 NOTE Ahnentafel position 22.
+1 NOTE CIV-0007 reports him as a native of Vila do Rio Claro, a farmer resident in São Francisco do Glória in 1915, and the declarant of the retrospective registrations of six children.
+0 @P0022@ INDI
+1 NAME Emmerenciana Maria de /Jesus/
+2 GIVN Emmerenciana Maria de
+2 SURN Jesus
+1 SEX F
+1 BIRT
+2 NOTE Date: The 1915 registration states only the birthplace.
+2 PLAC São Francisco do Glória, Carangola, Minas Gerais, Brazil
+2 SOUR @CIV0007@
+3 QUAY 2
+1 OCCU lavradora
+2 SOUR @CIV0007@
+1 FAMS @F0008@
+1 FAMC @F0010@
+1 NOTE Ahnentafel position 23.
+1 NOTE CIV-0007 reports her as a native of São Francisco do Glória and a farmer resident there in 1915.
+0 @P0023@ INDI
+1 NAME Vicente José de Carvalho /Guimarães/
+2 GIVN Vicente José de Carvalho
+2 SURN Guimarães
+1 SEX M
+1 DEAT
+2 NOTE Date: Before the 12 October 1915 registration; exact date not stated.
+2 PLAC Carangola, Minas Gerais, Brazil
+2 SOUR @CIV0007@
+3 QUAY 2
+1 FAMS @F0009@
+1 NOTE Ahnentafel position 44.
+1 NOTE CIV-0007 describes Vicente only as "portuguez" and deceased in the city of Carangola. It gives no Portuguese district, municipality, island or parish.
+0 @P0024@ INDI
+1 NAME Maria Tertuliana da /Conceição/
+2 GIVN Maria Tertuliana da
+2 SURN Conceição
+1 SEX F
+1 BIRT
+2 NOTE Date: The 1915 registration states only the birthplace.
+2 PLAC Vila do Rio Claro, Rio de Janeiro, Brazil
+2 SOUR @CIV0007@
+3 QUAY 2
+1 DEAT
+2 NOTE Date: Before the 12 October 1915 registration; exact date not stated.
+2 PLAC Carangola, Minas Gerais, Brazil
+2 SOUR @CIV0007@
+3 QUAY 2
+1 FAMS @F0009@
+1 NOTE Ahnentafel position 45.
+0 @P0025@ INDI
+1 NAME Antonio Francisco da /Silva/
+2 GIVN Antonio Francisco da
+2 SURN Silva
+1 SEX M
+1 BIRT
+2 NOTE Date: The 1915 registration states only the birthplace.
+2 PLAC São Francisco do Glória, Carangola, Minas Gerais, Brazil
+2 SOUR @CIV0007@
+3 QUAY 2
+1 DEAT
+2 NOTE Date: Before the 12 October 1915 registration; exact date not stated.
+2 PLAC São Francisco do Glória, Carangola, Minas Gerais, Brazil
+2 SOUR @CIV0007@
+3 QUAY 2
+1 FAMS @F0010@
+1 NOTE Ahnentafel position 46.
+0 @P0026@ INDI
+1 NAME Maria Paula de /Jesus/
+2 GIVN Maria Paula de
+2 SURN Jesus
+1 SEX F
+1 BIRT
+2 NOTE Date: The 1915 registration states only the birthplace.
+2 PLAC São Francisco do Glória, Carangola, Minas Gerais, Brazil
+2 SOUR @CIV0007@
+3 QUAY 2
+1 RESI
+2 DATE 12 OCT 1915
+2 PLAC São Francisco do Glória, Carangola, Minas Gerais, Brazil
+2 SOUR @CIV0007@
+3 QUAY 2
+1 FAMS @F0010@
+1 NOTE Ahnentafel position 47.
+0 @P0027@ INDI
+1 NAME Mathilde Maria de /Jesus/
+2 GIVN Mathilde Maria de
+2 SURN Jesus
+1 NAME Mathilde Maria de /Jezus/
+2 TYPE AKA
+2 SOUR @PRB0002@
+1 NAME Mathildes Maria de /Jesus/
+2 TYPE AKA
+2 SOUR @PRB0003@
+1 SEX F
+1 NOTE Grandmother (avó) of the Toledo grandchildren who inherited the Fazenda da Concórdia estate, per the 1877 deed (PRB-0003: "sua finada avó Dona Mathildes Maria de Jesus"), the 1881 partilha (PRB-0001, the "Primeiros Nettos" heir list) and the 1884 petition (PRB-0002, in which Simplício petitions as heir of the late D. Mathilde Maria de Jezus). Eliza Balbina de Toledo (P-0017) is one of those grandchildren, so Mathilde is Eliza's grandmother — resolving the mother-vs-grandmother question flagged on PRB-0001. She had died by the 1881 inventory (d. ~1880).
+1 NOTE The intervening generation — Mathilde's child, who is Eliza's parent — is not yet named in the located records, so her link to P-0017 is recorded here in prose rather than as a structured parent-child edge, and no Ahnentafel position is assigned. Reported Toledo co-grandchildren (Eliza's siblings/kin): Maria Bulandina de Toledo (m. Manoel Marques Jorge), Ladisláo Egydio Ferreira de Toledo, Geraldo Augusto de Toledo, Josepha Olímpia and Maria [Perpétua/Porcelina] de Toledo — not yet modelled as entities.
+1 NOTE 30 July 2026 (Full-Text via research/from-retrieval/, ARK 3:1:3QHJ-1QWB-7BYX, catalogued as PRB-0004): a second Concórdia / Ribeirão de São Bento Toledo deed names Mathilde's husband, Ladisláo Egydio Ferreira de Toledo, and a parent couple below them, Antonio Zeferino de Toledo and Dona Maria Perpétua ("seus finados avós Dona Mathilde Maria de Jesus e Ladisláo Egydio Ferreira de Toledo e seus paes e sogros Antonio Zeferino de Toledo e Dona Maria Perpétua"). Antonio Zeferino is thus a son of Mathilde × Ladisláo and, with Maria Perpétua, a parent of that deed's grantor grandchildren. Not yet modelled as entities: a conflict must first be resolved — in PRB-0003 (1877) a LIVING "Ladisláo Egydio Ferreira de Toledo" is a grantor grandchild, while here the same name is a deceased grandfather (most likely an elder/grandson pair). Retrieve the full Concórdia inventory to place the couples before creating any edges.
+1 NOTE Namesake caution (do NOT conflate): a different "Mathilde Maria de Jesus" — widow of Generoso Fernandes de Moura, with children surnamed de Moura — appears in a Republic-era Moura inventory (ARK 3:1:3QHK-QQ2X-VS4Y) in the same retrieval drop. She is unrelated to this P-0027 (wife of Ladisláo Egydio de Toledo).
+0 @P0028@ INDI
+1 NAME Valentim Martinho /Bohrer/
+2 GIVN Valentim Martinho
+2 SURN Bohrer
+1 SEX M
+1 FAMS @F0013@
+1 NOTE Ahnentafel position 28 — father of João Gonçalves Bohrer (P-0014). Named as João's father (already deceased) in his 1970 Volta Redonda death (CIV-0014) and as Eunir Bohrer's paternal grandfather in the 1924 Nova Friburgo birth (CIV-0016). No record of his own has been located.
+0 @P0029@ INDI
+1 NAME Carolina /Bohrer/
+2 GIVN Carolina
+2 SURN Bohrer
+1 SEX F
+1 FAMS @F0013@
+1 NOTE Ahnentafel position 29 — mother of João Gonçalves Bohrer (P-0014). Named as "Carolina Bohrer, doméstica" in his 1970 death (CIV-0014) and as Eunir Bohrer's paternal grandmother in the 1924 Nova Friburgo birth (CIV-0016). Her maiden surname is not recorded ("Bohrer" is her married name); no record of her own has been located.
+0 @P0030@ INDI
+1 NAME Joaquim José /Bohrer/
+2 GIVN Joaquim José
+2 SURN Bohrer
+1 SEX M
+1 FAMS @F0014@
+1 FAMC @F0016@
+1 NOTE Ahnentafel position 30 — father of Celina (Selina) Bohrer (P-0015). Named as Celina's father (already deceased) in her 1977 Volta Redonda death (CIV-0015) and as Eunir Bohrer's maternal grandfather in the 1924 Nova Friburgo birth (CIV-0016, "já falecidos" by 1924). A negociante at the Alto da Serra, Nova Friburgo (RJ), "natural desta Freguezia".
+1 NOTE His parents are now established: Francisco José Bohrer (P-0034, deceased by 1890) and Rosa Eugenia de Lemos (P-0035) — family F-0016 — named as the paternal grandparents in his son Alberto's 1890 birth (CIV-0019), declared by his brother Guilherme Samuel Bohrer. He also appears as the declarant father in a second child's 1891 birth (CIV-0020). His own birth/death records are still unlocated.
+0 @P0031@ INDI
+1 NAME Lucinda Ferreira da /Silva/
+2 GIVN Lucinda Ferreira da
+2 SURN Silva
+1 NAME Lucinda Ferreira /Bohrer/
+2 TYPE AKA
+2 SOUR @CIV0016@
+1 SEX F
+1 FAMS @F0014@
+1 FAMC @F0017@
+1 NOTE Ahnentafel position 31 — mother of Celina (Selina) Bohrer (P-0015). Named as "Lucinda Ferreira da Silva Bohrer" in Celina's 1977 death (CIV-0015), her son Alberto's 1890 birth (CIV-0019) and as "Lucinda Ferreira Bohrer" (maternal grandmother, "já falecidos") in the 1924 Nova Friburgo birth (CIV-0016). "Ferreira da Silva" is her own surname and "Bohrer" her married name; both variants are preserved. "Natural desta Freguezia" (Nova Friburgo, RJ).
+1 NOTE Her parents are now established: Antonio da Silva Ferreira (P-0036) and Maria Joanna da Silva Ferreira (P-0037) — family F-0017 — named as the maternal grandparents in Alberto Bohrer's 1890 birth (CIV-0019). Their own records are unlocated.
+0 @P0032@ INDI
+1 NAME Antonio Engracio de /Souza/
+2 GIVN Antonio Engracio de
+2 SURN Souza
+1 SEX M
+1 FAMS @F0015@
+1 NOTE Father of Antonio Engracio Filho (P-0010) — Cidalia's paternal grandfather — named with his wife Luzia Pinheiro da Conceição (P-0033) in P-0010's 1964 civil death (CIV-0017), where both are reported already deceased. His own vital records are off-index; no dates or places are yet evidenced. Nationality inferred from the family's Minas Gerais origin (jus soli), not from the surname.
+0 @P0033@ INDI
+1 NAME Luzia Pinheiro da /Conceição/
+2 GIVN Luzia Pinheiro da
+2 SURN Conceição
+1 SEX F
+1 FAMS @F0015@
+1 NOTE Mother of Antonio Engracio Filho (P-0010) — Cidalia's paternal grandmother — named with her husband Antonio Engracio de Souza (P-0032) in P-0010's 1964 civil death (CIV-0017), where both are reported already deceased. Her own vital records are off-index; no dates or places are yet evidenced. Nationality inferred from the family's Minas Gerais origin (jus soli), not from the surname.
+0 @P0034@ INDI
+1 NAME Francisco José /Bohrer/
+2 GIVN Francisco José
+2 SURN Bohrer
+1 SEX M
+1 FAMS @F0016@
+1 NOTE Ahnentafel position 60 — father of Joaquim José Bohrer (P-0030), hence Celina's (P-0015) paternal grandfather. Married Rosa Eugenia de Lemos (P-0035); their marriage was justified and registered at the Nova Friburgo Matriz in 1879 (PAR-0002). Already deceased by 1890, when Alberto Bohrer's birth (CIV-0019) names him "Francisco José Bohrer já falecido". No birth or death record located.
+1 NOTE Nationality deliberately left unset: this is the Bohrer line's Nova Friburgo (former German-Swiss colony) immigrant boundary, and no birthplace or stated nacionalidade is evidenced for him. Not inferred from the surname. Whether he was himself an immigrant or Brazilian-born is unresolved (his own parents are off-index).
+0 @P0035@ INDI
+1 NAME Rosa Eugenia de /Lemos/
+2 GIVN Rosa Eugenia de
+2 SURN Lemos
+1 NAME Roza Eugenia de Lemos /Bohrer/
+2 TYPE AKA
+2 SOUR @CIV0019@
+1 SEX F
+1 FAMS @F0016@
+1 NOTE Ahnentafel position 61 — mother of Joaquim José Bohrer (P-0030), hence Celina's (P-0015) paternal grandmother. Wife of Francisco José Bohrer (P-0034); their marriage was justified at the Nova Friburgo Matriz in 1879 (PAR-0002) and she is named as "Roza Eugenia de Lemos Bohrer" in Alberto Bohrer's 1890 birth (CIV-0019). "de Lemos" is her own surname, "Bohrer" her married name; both forms are preserved.
+1 NOTE Nationality left unset: no birthplace or stated nacionalidade is evidenced. Her Lemos family is associated with Itaboraí, RJ (the 1879 justification names José Antunes de Lemos as witness and host), a lead to her parentage but not a proven birthplace.
+0 @P0036@ INDI
+1 NAME Antonio da Silva /Ferreira/
+2 GIVN Antonio da Silva
+2 SURN Ferreira
+1 SEX M
+1 FAMS @F0017@
+1 NOTE Ahnentafel position 62 — father of Lucinda Ferreira da Silva (P-0031), hence Celina's (P-0015) maternal grandfather. Named with his wife Maria Joanna da Silva Ferreira (P-0037) as the maternal grandparents in Alberto Bohrer's 1890 Nova Friburgo birth (CIV-0019). No record of his own has been located.
+1 NOTE Nationality left unset: no birthplace or stated nacionalidade is evidenced. His daughter Lucinda was "natural desta Freguezia" (Nova Friburgo), but his own origin is not documented, so it is not asserted.
+0 @P0037@ INDI
+1 NAME Maria Joanna da Silva /Ferreira/
+2 GIVN Maria Joanna da Silva
+2 SURN Ferreira
+1 SEX F
+1 FAMS @F0017@
+1 NOTE Ahnentafel position 63 — mother of Lucinda Ferreira da Silva (P-0031), hence Celina's (P-0015) maternal grandmother. Named with her husband Antonio da Silva Ferreira (P-0036) as the maternal grandparents in Alberto Bohrer's 1890 Nova Friburgo birth (CIV-0019). No record of her own has been located.
+1 NOTE Nationality left unset: no birthplace or stated nacionalidade is evidenced.
+0 @P0038@ INDI
+1 NAME José Secundino de /Azevedo/
+2 GIVN José Secundino de
+2 SURN Azevedo
+1 NAME Secundino Maria de /Azevedo/
+2 TYPE AKA
+2 SOUR @CIV0001@
+1 SEX M
+1 FAMS @F0018@
+1 NOTE Father of Luiza (Fernandes/Secundina) de Azevedo (P-0013), hence Antenor Muniz's maternal grandfather. Named as Luiza's father in the 1916 marriage (CIV-0001, as "Secundino Maria de Azevedo") and as Aristides Muniz Bittencourt's maternal grandfather in the 1922 baptism (PAR-0003, as "José Secundino de Azevedo"). An Azevedo family of the Muriaé/Carangola region (MG); his own vital records are not located.
+1 NOTE Nationality left unset: no birthplace or stated nacionalidade is evidenced. His daughter Luiza was born in the Muriaé district (MG), but his own origin is not documented, so it is not asserted.
+0 @P0039@ INDI
+1 NAME Thereza Fernandes de /Azevedo/
+2 GIVN Thereza Fernandes de
+2 SURN Azevedo
+1 NAME Theresa Fernandes de /Azevedo/
+2 TYPE AKA
+2 SOUR @CIV0001@
+1 SEX F
+1 FAMS @F0018@
+1 NOTE Mother of Luiza (Fernandes/Secundina) de Azevedo (P-0013), hence Antenor Muniz's maternal grandmother. Named as Luiza's mother in the 1916 marriage (CIV-0001, as "Theresa Fernandes de Azevedo") and as Aristides Muniz Bittencourt's maternal grandmother in the 1922 baptism (PAR-0003, as "Thereza Fernandes de Azevedo"). Luiza's "Fernandes" surname descends from her. Her own vital records are not located.
+1 NOTE Nationality left unset: no birthplace or stated nacionalidade is evidenced.
+0 @DOCF0001_1@ INDI
+1 NAME Aristides Muniz /Bittencourt/
+2 GIVN Aristides Muniz
+2 SURN Bittencourt
+1 SEX U
+1 FAMC @F0001@
+1 NOTE Documented child, not individually modelled. Reported lifespan: b. 1922.
+2 SOUR @PAR0003@
+1 NOTE Brother of Antenor (P-0006); son of Deocleciano and Luiza, born 22 July 1922 and baptized 20 September 1922 at Santa Luzia do Carangola (PAR-0003).
+0 @DOCF0005_1@ INDI
+1 NAME Eunir /Bohrer/
+2 GIVN Eunir
+2 SURN Bohrer
+1 SEX U
+1 FAMC @F0005@
+1 NOTE Documented child, not individually modelled. Reported lifespan: b. 1924.
+2 SOUR @CIV0016@
+1 NOTE Brother of Iris (P-0007); son of João Gonçalves Bohrer and Celina, per his 1924 Nova Friburgo birth (CIV-0016). Deceased — the owner confirms the grandparent generation and earlier are all deceased.
+0 @DOCF0006_1@ INDI
+1 NAME Marfiza Ferreira /Armond/
+2 GIVN Marfiza Ferreira
+2 SURN Armond
+1 SEX U
+1 FAMC @F0006@
+1 NOTE Documented child, not individually modelled. Reported lifespan: 1873–1962.
+2 SOUR @CIV0013@
+1 NOTE Sister of Aristão (P-0008); daughter of Simplício and Eliza, per her 1962 civil death (CIV-0013, aged 89, a widow, born c.1873). The owner confirms this parentage.
+0 @DOCF0006_2@ INDI
+1 NAME Aristides Ferreira /Armand/
+2 GIVN Aristides Ferreira
+2 SURN Armand
+1 SEX U
+1 FAMC @F0006@
+1 NOTE Documented child, not individually modelled. Reported lifespan: b. c.1875.
+2 SOUR @CIV0023@
+1 NOTE Daughter of Simplício and Eliza (a sister of Aristão and Marfiza); married João Rodrigues Braga on 11 August 1894 at Boa Família (Muriaé), aged 19 (so born c.1875, "natural do Rio Pardo da Leopoldina"), per CIV-0023. Her father hosted the wedding and signed as a witness.
+0 @DOCF0008_1@ INDI
+1 NAME José de Carvalho /Guimarães/
+2 GIVN José de Carvalho
+2 SURN Guimarães
+1 SEX U
+1 FAMC @F0008@
+1 NOTE Documented child, not individually modelled. Reported lifespan: b. 1901.
+2 SOUR @CIV0007@
+1 NOTE Registered in the 1915 collective birth registration (CIV-0007); born 8 November 1901.
+0 @DOCF0008_2@ INDI
+1 NAME Maria da Conceição /Guimarães/
+2 GIVN Maria da Conceição
+2 SURN Guimarães
+1 SEX U
+1 FAMC @F0008@
+1 NOTE Documented child, not individually modelled. Reported lifespan: b. 1906.
+2 SOUR @CIV0007@
+1 NOTE Registered in CIV-0007; born 8 September 1906.
+0 @DOCF0008_3@ INDI
+1 NAME Sebastião José de Carvalho /Guimarães/
+2 GIVN Sebastião José de Carvalho
+2 SURN Guimarães
+1 SEX U
+1 FAMC @F0008@
+1 NOTE Documented child, not individually modelled. Reported lifespan: b. 1909.
+2 SOUR @CIV0007@
+1 NOTE Registered in CIV-0007; born 2 June 1909.
+0 @DOCF0008_4@ INDI
+1 NAME João José de Carvalho /Guimarães/
+2 GIVN João José de Carvalho
+2 SURN Guimarães
+1 SEX U
+1 FAMC @F0008@
+1 NOTE Documented child, not individually modelled. Reported lifespan: b. 1912.
+2 SOUR @CIV0007@
+1 NOTE Registered in CIV-0007; born 16 December 1912.
+0 @DOCF0008_5@ INDI
+1 NAME Maria de Lourdes /Guimarães/
+2 GIVN Maria de Lourdes
+2 SURN Guimarães
+1 SEX U
+1 FAMC @F0008@
+1 NOTE Documented child, not individually modelled. Reported lifespan: b. 1915.
+2 SOUR @CIV0007@
+1 NOTE Registered in CIV-0007; born 24 June 1915.
+0 @DOCF0014_1@ INDI
+1 NAME Alberto /Bohrer/
+2 GIVN Alberto
+2 SURN Bohrer
+1 SEX U
+1 FAMC @F0014@
+1 NOTE Documented child, not individually modelled. Reported lifespan: b. 1890.
+2 SOUR @CIV0019@
+1 NOTE Younger sibling of Celina, born 17 June 1890 at the Alto da Serra, Nova Friburgo; his civil birth (CIV-0019, declared by their uncle Guilherme Samuel Bohrer) names both grandparent couples.
+0 @DOCF0016_1@ INDI
+1 NAME Guilherme Samuel /Bohrer/
+2 GIVN Guilherme Samuel
+2 SURN Bohrer
+1 SEX U
+1 FAMC @F0016@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @CIV0019@
+1 NOTE Brother of Joaquim José Bohrer (P-0030), resident at the Alto da Serra, Nova Friburgo; declared his nephew Alberto's 1890 birth (CIV-0019) in the father's absence.
+0 @F0001@ FAM
+1 HUSB @P0012@
+1 WIFE @P0013@
+1 CHIL @P0006@
+1 CHIL @DOCF0001_1@
+1 MARR
+2 DATE 21 OCT 1916
+2 PLAC Carangola, Minas Gerais, Brazil
+2 SOUR @CIV0001@
+3 QUAY 3
+2 SOUR @CIV0006@
+3 QUAY 3
+1 SOUR @CIV0004@
+0 @F0002@ FAM
+1 HUSB @P0004@
+1 WIFE @P0005@
+1 CHIL @P0002@
+1 MARR
+2 DATE 31 MAY 1952
+2 PLAC Eugenópolis, Minas Gerais, Brazil
+2 SOUR @CIV0002@
+3 QUAY 3
+1 SOUR @CIV0008@
+0 @F0003@ FAM
+1 HUSB @P0008@
+1 WIFE @P0009@
+1 CHIL @P0004@
+1 CHIL @P0018@
+1 SOUR @CIV0003@
+1 SOUR @GOV0001@
+0 @F0004@ FAM
+1 HUSB @P0006@
+1 WIFE @P0007@
+1 CHIL @P0003@
+1 MARR
+2 DATE 07 DEC 1949
+2 PLAC Alvorada, Minas Gerais, Brazil
+2 SOUR @CIV0004@
+3 QUAY 3
+1 SOUR @CIV0008@
+0 @F0005@ FAM
+1 HUSB @P0014@
+1 WIFE @P0015@
+1 CHIL @P0007@
+1 CHIL @DOCF0005_1@
+1 SOUR @CIV0004@
+0 @F0006@ FAM
+1 HUSB @P0016@
+1 WIFE @P0017@
+1 CHIL @P0008@
+1 CHIL @DOCF0006_1@
+1 CHIL @DOCF0006_2@
+1 SOUR @CIV0005@
+1 NOTE This family group records independently reported parents of Aristão. It does not assert a marriage or partnership between P-0016 and P-0017.
+0 @F0007@ FAM
+1 HUSB @P0019@
+1 WIFE @P0020@
+1 CHIL @P0012@
+1 MARR
+2 SOUR @PAR0001@
+3 QUAY 2
+1 SOUR @CIV0001@
+0 @F0008@ FAM
+1 HUSB @P0021@
+1 WIFE @P0022@
+1 CHIL @P0011@
+1 CHIL @DOCF0008_1@
+1 CHIL @DOCF0008_2@
+1 CHIL @DOCF0008_3@
+1 CHIL @DOCF0008_4@
+1 CHIL @DOCF0008_5@
+1 MARR
+2 SOUR @CIV0007@
+3 QUAY 2
+1 SOUR @CIV0007@
+1 SOUR @CIV0018@
+1 NOTE The source calls the six registered children legitimate children of the declarant and his wife. The source is a certified derivative, so these assertions remain strong evidence rather than confirmed.
+1 NOTE Maria Aurora Guimarães's own 1991 civil death (CIV-0018) independently names the same parents, corroborating this parent-child link. It stays strong-evidence, not confirmed: CIV-0007 is a certified derivative and the CIV-0018 parentage is informant-reported at death.
+0 @F0009@ FAM
+1 HUSB @P0023@
+1 WIFE @P0024@
+1 CHIL @P0021@
+1 SOUR @CIV0007@
+1 NOTE This group records the two people reported as Francisco's parents. It does not assert a marriage or partnership between them.
+0 @F0010@ FAM
+1 HUSB @P0025@
+1 WIFE @P0026@
+1 CHIL @P0022@
+1 SOUR @CIV0007@
+1 NOTE This group records the two people reported as Emmerenciana's parents. It does not assert a marriage or partnership between them.
+0 @F0011@ FAM
+1 HUSB @P0002@
+1 WIFE @P0003@
+1 CHIL @P0001@
+1 SOUR @CIV0008@
+1 SOUR @CIV0009@
+1 NOTE This family group records the parents named on Juan Carlos Muniz Armond's certified birth certificate (CIV-0008), corroborated by his Ontario marriage record (CIV-0009). Both are certified copies of official civil records giving direct primary information on his parentage, so the parent-child conclusions are confirmed. This does not independently assert a marriage or partnership between the parents.
+0 @F0012@ FAM
+1 HUSB @P0010@
+1 WIFE @P0011@
+1 CHIL @P0005@
+1 MARR
+2 SOUR @CIV0017@
+3 QUAY 2
+2 SOUR @CIV0018@
+3 QUAY 2
+1 SOUR @CIV0022@
+1 SOUR @CIV0002@
+1 NOTE This family group records the two people reported as Cidalia's parents. Their marriage is now attested by two original civil death records (see partner_relationship); its date and place remain unlocated.
+0 @F0013@ FAM
+1 HUSB @P0028@
+1 WIFE @P0029@
+1 CHIL @P0014@
+1 SOUR @CIV0014@
+1 SOUR @CIV0016@
+1 NOTE Valentim Martinho Bohrer and Carolina Bohrer, parents of João Gonçalves Bohrer (P-0014). Established by two corroborating civil records: João's 1970 death (CIV-0014) and Eunir Bohrer's 1924 Nova Friburgo birth (CIV-0016, paternal grandparents). Strong-evidence, not confirmed — both are informant-reported civil records, not a baptism/filiation act.
+0 @F0014@ FAM
+1 HUSB @P0030@
+1 WIFE @P0031@
+1 CHIL @P0015@
+1 CHIL @DOCF0014_1@
+1 SOUR @CIV0015@
+1 SOUR @CIV0016@
+1 NOTE Joaquim José Bohrer and Lucinda Ferreira da Silva, parents of Celina (Selina) Bohrer (P-0015). Established by two corroborating civil records: Celina's 1977 death (CIV-0015) and Eunir Bohrer's 1924 Nova Friburgo birth (CIV-0016, maternal grandparents, already deceased by 1924). Strong-evidence, not confirmed — both are informant-reported civil records.
+1 NOTE A further son of this couple is documented by an 1891 Nova Friburgo civil birth (CIV-0020, born 23 December 1891) but is not listed as a documented child: his given name is on the register's next folio, which the retained image does not capture, and a marginal death note beside the entry is unverified. Pending a clearer image or the owner's knowledge of the name.
+0 @F0015@ FAM
+1 HUSB @P0032@
+1 WIFE @P0033@
+1 CHIL @P0010@
+1 SOUR @CIV0017@
+1 NOTE Antonio Engracio de Souza and Luzia Pinheiro da Conceição, parents of Antonio Engracio Filho (P-0010). Established by his 1964 civil death (CIV-0017), which names both as his parents and reports them already deceased. Strong-evidence, not confirmed — the parentage is informant-reported at death by a son. This group records the reported parents; it does not independently assert a marriage between them.
+0 @F0016@ FAM
+1 HUSB @P0034@
+1 WIFE @P0035@
+1 CHIL @P0030@
+1 CHIL @DOCF0016_1@
+1 MARR
+2 DATE BEF 1879
+3 PHRASE by 1879 (justified and registered 1 August 1879; ceremony earlier)
+2 PLAC Itaboraí, Rio de Janeiro, Brazil
+2 SOUR @PAR0002@
+3 QUAY 2
+1 SOUR @CIV0019@
+1 NOTE Francisco José Bohrer and Rosa Eugenia de Lemos, parents of Joaquim José Bohrer (P-0030). The parent link rests on Alberto Bohrer's 1890 birth (CIV-0019), which names them as the child's paternal grandparents; their own marriage is recorded in PAR-0002. Strong-evidence: the parentage is stated indirectly (in a grandchild's birth) by Joaquim José's brother.
+0 @F0017@ FAM
+1 HUSB @P0036@
+1 WIFE @P0037@
+1 CHIL @P0031@
+1 SOUR @CIV0019@
+1 NOTE Antonio da Silva Ferreira and Maria Joanna da Silva Ferreira, parents of Lucinda Ferreira da Silva (P-0031). Established by Alberto Bohrer's 1890 birth (CIV-0019), which names them as the child's maternal grandparents (Antonio "e de sua mulher Maria Joanna"). Strong-evidence, stated indirectly in a grandchild's birth. This group records the reported parents; no dedicated marriage record has been located.
+0 @F0018@ FAM
+1 HUSB @P0038@
+1 WIFE @P0039@
+1 CHIL @P0013@
+1 SOUR @PAR0003@
+1 SOUR @CIV0001@
+1 NOTE José Secundino de Azevedo and Thereza Fernandes de Azevedo, parents of Luiza (Fernandes/Secundina) de Azevedo (P-0013). Established by two records that name Luiza's parents: her 1916 marriage (CIV-0001) and her son Aristides's 1922 baptism (PAR-0003). Strong-evidence — both name the parents as reported information, not from the couple's own records. This group records the reported parents; no marriage record between them has been located.
+0 @REPO0001@ REPO
+1 NAME FamilySearch Memories
+0 @REPO0002@ REPO
+1 NAME FamilySearch Historical Records
+0 @REPO0003@ REPO
+1 NAME FamilySearch Family Tree source attachment
+0 @REPO0004@ REPO
+1 NAME Owner-supplied civil death register image
+0 @REPO0005@ REPO
+1 NAME Cartório do Registro Civil e Tabelionato de Alvorada, Carangola, MG
+0 @REPO0006@ REPO
+1 NAME Registro Civil das Pessoas Naturais com Atribuição Notarial de Boa Família, Muriaé, MG
+0 @REPO0007@ REPO
+1 NAME O Processo (fortnightly newspaper), digital copy
+0 @REPO0008@ REPO
+1 NAME Paróquia Santa Luzia (Diocese de Caratinga), Carangola, Minas Gerais, Brazil
+0 @REPO0009@ REPO
+1 NAME FamilySearch full-text image
+0 @REPO0010@ REPO
+1 NAME FamilySearch Full-Text (Minas Gerais court and notarial records)
+0 @REPO0011@ REPO
+1 NAME Armond Family History private repository
+0 @CIV0001@ SOUR
+1 TITL Certified marriage record of Deocleciano Muniz Bittencourt and Luiza Fernandes de Azevedo
+1 TEXT A certified copy issued on 6 January 2004 states that Deocleciano Muniz Bittencourt and Luiza Fernandes de Azevedo, both single, married in Carangola on 21 October 1916. Deocleciano, aged 24 and born in Sapucaia, Rio de Janeiro, was a son of João Muniz Bittencourt and Suzana Ritta Brandão. Luiza, aged 18 and born in Bom Jesus da Cachoeira Alegre in the municipality of São Paulo do Muriaé, was a daughter of Secundino Maria de Azevedo and Theresa Fernandes de Azevedo.
+1 REPO @REPO0001@
+2 CALN FamilySearch Memories, livro 8, fl. 118-v, nº 62
+1 NOTE Evidence classification: civil_registration; derivative; information mixed; direct evidence.
+1 NOTE Transcription: Eu, AILTON LOPES FERREIRA, Escrivão de Paz e Oficial de Registro Civil do Distrito da Cidade de Carangola, Estado de Minas Gerais, Brasil, na forma da lei, etc. CERTIFICO que no livro nº 8 de registro de Casamentos, às fls 118-v sob o nº 62, consta o de DEOCLECIANO MUNIZ BITTENCOURT com LUIZA FERNANDES DE AZEVEDO. Solteiros. Ele, nascido em Sapucaia Estado do Rio de Janeiro, com vinte e quatro anos de idade, filho de João Muniz Bittencourt e de Suzana Ritta Brandão. Ela, nascida em Bom Jesus da Cachoeira Alegre Município de São Paulo do Muriaé, com dezoito anos de idade, filha de Secundino Maria de Azevedo e de Theresa Fernandes de Azevedo. A contraente passou assinar: Não consta do termo. O regime adotado é o de Comunhão de Bens. Casamento esse realizado em vinte e um de outubro de mil novecentos e dezesseis. O referido é verdade e dou fé. Carangola, 06 de janeiro de 2004.
+1 NOTE Archival reference: FamilySearch memory storage ID TH-904-91822-179-82
+1 NOTE Repository file: evidence/civil/CIV-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-original.jpg
+1 OBJE @OBJCIV0001@
+0 @CIV0002@ SOUR
+1 TITL Marriage certificate of Geraldo Paz Armond and Cidalia Engracio Guimarães
+1 TEXT A damaged civil marriage certificate (Casamento nº 898, Eugenópolis, livro 13-B) recording the 31 May 1952 marriage of Geraldo Paz Armond (born Limeira, MG, 30 January 1915, padeiro) and Cidalia Engracio Guimarães (born Alvorada, MG, 15 September 1930, doméstica; thereafter signing "Cidalia Engrácio Armond"). A clearer alternate view (2026-07-30 retrieval sync) resolves the previously obscured lines: Geraldo's mother is D. Liliosa Paz, "nascida aqui" (Eugenópolis), "falecida em 16-4-946"; Cidalia's parents are Antônio Engrácio de Souza (born 15 June 1894) and D. Maria Aurora Guimarães (born 1 January 1904).
+1 REPO @REPO0001@
+2 CALN FamilySearch Memories, livro 13-B, fl. 21-v (reading uncertain), nº 898
+1 NOTE Evidence classification: civil_registration; derivative; information mixed; direct evidence.
+1 NOTE Transcription: [Casamento nº 898, Registro Civil de Eugenópolis, MG, livro 13-B.] "CERTIFICO que, às fls. 22 do livro nº 13-B de registro de Casamentos, foi extraído hoje o assento do matrimônio de Geraldo Paz Armond e Cidalia [Engracio] Guimarães, contraído perante o Juiz [...] e as testemunhas Camilo [Soares] Galvão filho e [Mário Dutra da Silva]. ÊLE, nascido em Limeira, Minas, aos 30 de janeiro de 1915, profissão padeiro, residente nesta cidade, filho de [pai — nome rasgado; Aristão Ferreira Armond per CIV-0003] e de D. Liliosa Paz [Armand], nascida aqui, falecida em 16-4-946. ELA, nascida em Alvorada, Minas, aos 15 de setembro de 1930, profissão doméstica, residente nesta cidade, filha de Antônio Engrácio de Souza, nascido em 15 de junho de 1894, e de D. Maria Aurora Guimarães, nascida em 01 de janeiro de 1904, ambos residentes nesta cidade; a qual passa a assinar-se 'Cidalia Engrácio Armond'. Foram apresentados os documentos a que se refere o Art. 180, nºs 1, 2, 4 do Código Civil. Observações: O casamento realizou-se no dia 31 de maio de 1952, às 14:00 horas ..."
+1 NOTE Archival reference: FamilySearch memory storage IDs TH-904-96968-1121-80, TH-904-96968-1120-79 and TH-904-96968-1122-81
+1 NOTE Repository file: evidence/civil/CIV-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-original.jpg
+1 OBJE @OBJCIV0002@
+0 @CIV0003@ SOUR
+1 TITL Civil death registration of Geraldo Paz Armond
+1 TEXT The original Volta Redonda civil death register records that Geraldo Paz Armond died on 18 February 1991 at 19h in the Hospital Santa Margarida, aged 76, of metabolic imbalance ("desequilíbrio metabólico"), and was registered the next day, 19 February 1991, as entry 39006 on page 557. It names his spouse as Cidalia Ingracio Armond and his parents as Aristão Ferreira Armond and Liliosa Paz Armond, both deceased. The register states that he left one child.
+1 REPO @REPO0002@
+2 CALN Brasil, Rio de Janeiro, Registro Civil, 1804-2013, Registros de óbito: Volta Redonda, September 1990–March 1991, fl. 557, nº 39006
+1 NOTE Evidence classification: civil_registration; original; information mixed; direct evidence.
+1 NOTE Transcription: [Entry 39006, on page 557; the adjacent entry 39005 on the facing page 556 is an unrelated infant death.] Aos dezenove de fevereiro de mil novecentos e noventa e um [...] declarou que no dia dezoito do corrente mês e ano, às dezenove horas, no Hospital Santa Margarida faleceu Geraldo Paz Armond, do sexo masculino, cor branca, com setenta e seis anos de idade, natural do Estado de Minas Gerais, estado civil casado com Cidalia Ingracio Armond, profissão aposentado, residente nesta cidade [street address omitted], filho de Aristão Ferreira Armond, falecido, e de Liliosa Paz Armond, falecida. Causa mortis: Desequilíbrio metabólico. Vai ser sepultado no Cemitério desta cidade. Observações: O falecido não deixou testamento, deixou bens a inventariar e deixou um filho.
+1 NOTE Archival reference: Record ARK 1:1:77DD-TX6Z; image ARK 3:1:S3HT-DYSS-YKV; image group #004366687; original-image storage ID TH-266-11612-78888-32; Memory storage ID TH-904-96969-238-86
+1 NOTE Repository file: evidence/civil/CIV-0003-death-geraldo-paz-armond-1991-original.jpg
+1 OBJE @OBJCIV0003@
+0 @CIV0004@ SOUR
+1 TITL Marriage certificate of Antenor Muniz and Iris Bohrer
+1 TEXT A civil marriage certificate (livro 5, fls 66-v) records the marriage of Antenor Muniz and Iris Bohrer at Alvorada on 7 December 1949. It reports Antenor as born in the district of Alvorada on 2 November 1923, a farm worker, son of Deocleciano Muniz and Luiza Fernandes de Azevedo; and Iris as born in Presidente Soares, Minas Gerais, on 27 February 1929, daughter of João Gonçalves Bohrer and Selina Bohrer. Iris would thereafter sign Iris Bohrer Muniz. The certificate was issued at Alvorada on 11 August 1955.
+1 REPO @REPO0001@
+2 CALN FamilySearch Memories, livro 5, fl. 66-v (reading uncertain), nº 167 (reading uncertain)
+1 NOTE Evidence classification: civil_registration; derivative; information mixed; direct evidence.
+1 NOTE Transcription: Certifica que a fls. 66-v [term nº 167, reading uncertain] do livro nº 5 do registro de casamentos consta o assento do matrimônio de Antenor Muniz e Iris Bohrer, contraído perante o Juiz de Paz e as testemunhas Yaci Lopes de Faria e João Machado Simas, realizado aos 7 de dezembro de 1949. Ele, nascido neste distrito de Alvorada aos 2 de novembro de 1923, profissão da lavoura, domiciliado e residente nesta comarca, filho legítimo de Deocleciano Muniz e de Dona Luiza Fernandes de Azevedo. Ela, nascida em Presidente Soares, Estado de Minas, aos 27 de fevereiro de 1929, domiciliada e residente neste distrito, filha legítima de João Gonçalves Bohrer e de Dona Selina Bohrer, e que passa a assinar-se Iris Bohrer Muniz. Observações: Selada na forma da lei. A certidão foi expedida na Vila de Alvorada em 11 de agosto de 1955.
+1 NOTE Archival reference: FamilySearch source SVMX-ZJ4; Memory artifact 101538413; storage identifier TH-904-96953-4744-84
+1 NOTE Repository file: evidence/civil/CIV-0004-marriage-antenor-muniz-iris-bohrer-1949-original.jpg
+1 OBJE @OBJCIV0004@
+0 @CIV0005@ SOUR
+1 TITL Civil death registration of Aristão Ferreira Armond
+1 TEXT The original Volta Redonda civil death register records that Aristão Ferreira Armond died on 1 November 1957, aged 78. It reports his parents as Simplicio Armand and Eliza Ferreira Armand. The entry was registered on 2 November 1957 as number 9890 on page 315.
+1 REPO @REPO0002@
+2 CALN Brasil, Rio de Janeiro, Registro Civil, 1804-2013, Registros de óbito e índices de Registros de óbito: Volta Redonda. Death Records May 1957–April 1958, fl. 315, nº 9890
+1 NOTE Evidence classification: civil_registration; original; information mixed; direct evidence.
+1 NOTE Transcription: [Entry 9890, page 315.] Aos dois dias do mês de novembro de mil novecentos e cinquenta e sete [...] compareceu João Malheiros, commerciário, e declarou que no dia um do corrente mês, às dezesseis horas, em domicílio nesta cidade, faleceu por arteriosclerose generalizada Aristão Ferreira Armond [the surname is written with an alias clause read as "Amaral, dito Armond"; that alias reading is uncertain], do sexo masculino, de cor branca, natural do Estado de Minas Gerais, de profissão padeiro, com setenta e oito anos de idade, filho de Simplicio Armand, falecido, e de Dona Eliza Ferreira Armand, falecida. Vai ser sepultado no Cemitério público desta cidade.
+1 NOTE Archival reference: FamilySearch source SPY9-YNF; record ARK 1:1:77D4-J23Z; image ARK 3:1:S3HT-XC74-4TK; image group #004366686, item 4; original-image storage ID TH-266-12875-196099-17
+1 NOTE Repository file: evidence/civil/CIV-0005-death-aristao-ferreira-armond-1957-original.jpg
+1 OBJE @OBJCIV0005@
+0 @CIV0006@ SOUR
+1 TITL Full-content certified marriage record of Deocleciano Muniz Bittencourt and Luiza Fernandes de Azevedo
+1 TEXT A three-page full-content certificate issued on 15 July 2019 reproduces the 1916 marriage entry for Deocleciano Muniz Bittencourt and Luiza Fernandes de Azevedo in book 8-B, page 118, record 62 of the Carangola civil registry. It independently identifies the same marriage record already represented by CIV-0001 while preserving a longer reproduction of the underlying entry.
+1 REPO @REPO0001@
+2 CALN FamilySearch Memories, livro 8-B, fl. 118, nº 62
+1 NOTE Evidence classification: civil_registration; derivative; information mixed; direct evidence.
+1 NOTE Transcription: [Page 1.] REPÚBLICA FEDERATIVA DO BRASIL. REGISTRO CIVIL DAS PESSOAS NATURAIS. CERTIDÃO DE INTEIRO TEOR. MATRÍCULA: 0511100155 1916 2 00008 118 0000062 02. Certifico que dos arquivos do Cartório a meu cargo, consta o inteiro teor fielmente reproduzido [...] referente ao livro 8 B, folha 118 e termo 62, onde contém o registro de Casamento de DEOCLECIANO MUNIZ BITTENCOURT e LUIZA FERNANDES DE AZEVEDO [...]. Contém 3 (três) laudas. [...] Carangola-MG, 15 de julho de 2019. [Pages 2–3 — the 1916 marriage act, read from the inteiro-teor images.] "... nesta cidade do Carangola, Estado de Minas Geraes e Republica dos Estados Unidos do Brasil, em cartorio ... o Juiz de Paz ... perante as testemunhas ... Justino Ribeiro Rodrigues e Antonio Theodoro de Souza, após a leitura do artigo setimo e seus paragraphos do decreto numero cento e oitenta e um de mil oito centos e noventa, depois de preenchidas as formalidades legaes, receberam-se em matrimonio o cidadão Deocleciano Muniz Bittencourt e Dona Luiza Fernandes de Azevedo, ambos solteiros e residentes neste districto; elle contrahente com vinte e quatro annos de idade, lavrador, natural de Sapucaia, Estado do Rio de Janeiro, filho legitimo de João Muniz Bittencourt, já fallecido neste districto, e de Dona Susana Ritta Brandão, residente neste districto; ella contrahente com dezoito annos de idade ..." The bride's parentage and the property regime on the remaining lines are low-contrast; the legible act matches the certified extract (CIV-0001).
+1 NOTE Archival reference: FamilySearch Memory artifacts 89626504, 89626465 and 89626366; upload files 20190724_170232~2.jpg, IMG-20190724-WA0293~2.jpeg and IMG-20190724-WA0295~2.jpeg
+1 NOTE Repository file: evidence/civil/CIV-0006-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-01.jpg
+1 OBJE @OBJCIV0006@
+0 @CIV0007@ SOUR
+1 TITL Full-content certificate of the 1915 Carvalho Guimarães collective birth registration
+1 TEXT A full-content certificate issued on 11 March 2025 transcribes record 38, book 4-A, page 23, registered on 12 October 1915. Francisco José de Carvalho Guimarães retrospectively registered six children born from 1901 through 1915 at Fazenda do Barroso, including Maria Amora Guimarães, born 1 January 1904. The record identifies his wife as Emmerenciana Maria de Jesus; his parents as Vicente José de Carvalho Guimarães, described only as Portuguese, and Maria Tertuliana da Conceição; and her parents as Antonio Francisco da Silva and Maria Paula de Jesus.
+1 REPO @REPO0003@
+2 CALN FamilySearch patron-contributed source artifact, livro 4-A, fl. 23, nº 38
+1 NOTE Evidence classification: civil_registration; derivative; information mixed; direct evidence.
+1 NOTE Transcription: Certifico e dou fé, que atendendo a pedido verbal de pessoa interessada, que revendo em meu poder e Cartório, os Livros de Nascimento, encontrei sob o n.º 38, do Livro n.º 4-A, às Folhas 23, o Registro que passa a ser aqui transcrito. Aos doze dias do mês de Outubro de mil novecentos e quinze, neste distrito de São Francisco do Glória, Município e Comarca de Carangola, Estado de Minas Gerais, em cartório compareceu Francisco José de Carvalho Guimarães e declarou que [...] vinha dar a registro os nascimentos de seus filhos seguintes: José de Carvalho Guimarães, nascido a oito de novembro de mil novecentos e um [...], Maria Amora Guimarães nascida a primeiro de janeiro de mil novecentos e quatro [...], Maria da Conceição Guimarães, nascida a oito de setembro de mil novecentos e seis [...], Sebastião José de Carvalho Guimarães, nascido a dois de junho de mil novecentos e nove [...], João José de Carvalho Guimarães, nascido [...] dezesseis de dezembro de mil novecentos e doze, e Maria de Lourdes Guimarães nascida a vinte e quatro de junho de mil novecentos e quinze [...]. Todos nasceram na fazenda do Barroso deste Distrito, em domicilio e são filhos legítimos do declarante, natural da Villa do Rio Claro e sua mulher Emmerenciana Maria de Jesus, natural deste distrito, lavradores e residentes neste distrito. São seus avós paternos Vicente José de Carvalho Guimarães, portuguez, fallecido na cidade de Carangola e Maria Tertuliana da Conceição, natural da Villa do Rio Claro, também fallecida na cidade de Carangola. São avós maternos Antonio Francisco da Silva e Maria Paula de Jesus, naturaes deste districto, onde aquelle falleceu e esta reside. [...] São Francisco do Glória, aos 11 de março de 2025.
+1 NOTE Archival reference: FamilySearch artifact 217929351; Family Tree source attachment 7XVH-XDK; original upload filename "certidao de nascimento.jpeg"; attached to Maria Aurora Guimarães profile GQVR-167
+1 NOTE Repository file: evidence/civil/CIV-0007-birth-registration-carvalho-guimaraes-siblings-1915-original.jpg
+1 OBJE @OBJCIV0007@
+0 @CIV0008@ SOUR
+1 TITL Certified birth certificate of Juan Carlos Muniz Armond
+1 TEXT A certified derivative of the subject's Brazilian civil birth registration (10th District of Rio de Janeiro, livro A-350, folha 98, número de ordem 24241) reports his birth at 03:45 on 22 June 1982 in the Hospital Carmela Dutra, Rio de Janeiro; parents Luis Carlos Igracio Armond and Lucinea Aparecida Muniz Armond; and grandparents Geraldo Paz Armond, Cidalia Igracio Armond, Antenor Muniz and Iris Bohrer Muniz. The father was the declarant.
+1 REPO @REPO0001@
+2 CALN livro A-350, fl. 98, nº 24241 (número de ordem); Talão 300524
+1 NOTE Evidence classification: civil_registration; derivative; information mixed; direct evidence.
+1 NOTE Archival reference: FamilySearch Memories 120433441 and 120433439; storage identifiers TH-7783-105179-4791-76 and TH-7782-105179-4562-84; original upload filename "Juan Armond - Nascimento.pdf"
+1 NOTE Repository file: evidence/civil/CIV-0008-birth-juan-carlos-muniz-armond-1982-original.pdf
+1 OBJE @OBJCIV0008@
+0 @CIV0009@ SOUR
+1 TITL Ontario photostatic marriage record for Juan Carlos Muniz Armond and Vanessa Araujo Bevilacqua
+1 TEXT An Ontario certified photostatic print records the legal marriage of Juan Carlos Muniz Armond and Vanessa Araujo Bevilacqua in Toronto on 16 August 2003. It also reports the parties' parents and places of birth.
+1 REPO @REPO0001@
+1 NOTE Evidence classification: civil_registration; derivative; information mixed; direct evidence.
+1 NOTE Archival reference: FamilySearch Memory 120433442; storage identifier TH-7781-105179-4634-2; original upload filename "Juan Armond e Vanessa Bevilacqua - Casamento Canada.pdf"
+1 NOTE Repository file: evidence/civil/CIV-0009-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2003-ontario-original.pdf
+1 OBJE @OBJCIV0009@
+0 @CIV0010@ SOUR
+1 TITL Italian full transcription of the Ontario marriage of Juan Carlos Muniz Armond and Vanessa Araujo Bevilacqua
+1 TEXT An Italian full transcription records the 16 August 2003 Toronto marriage and its later transcription into the civil register of Caronno Pertusella. It reports the parties' names and parents.
+1 REPO @REPO0001@
+2 CALN livro 2007, number 30, part II, series C
+1 NOTE Evidence classification: civil_registration; derivative; information mixed; direct evidence.
+1 NOTE Archival reference: FamilySearch Memory 120433440; storage identifier TH-7781-105179-4633-99; original upload filename "Juan Armond e Vanessa Bevilacqua - Casamento ATTI DI MATRIMONIO.pdf"
+1 NOTE Repository file: evidence/civil/CIV-0010-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-transcription-original.pdf
+1 OBJE @OBJCIV0010@
+0 @CIV0011@ SOUR
+1 TITL Italian marriage certificate for Juan Carlos Muniz Armond and Vanessa Bevilacqua
+1 TEXT A certificate issued by the Comune di Caronno Pertusella on 24 October 2007 reports that the parties married in Toronto on 16 August 2003 and gives their names and birth details.
+1 REPO @REPO0001@
+2 CALN livro 2007, number 30, part II, series C
+1 NOTE Evidence classification: civil_registration; derivative; information mixed; direct evidence.
+1 NOTE Archival reference: FamilySearch Memory 120433443; storage identifier TH-7783-105179-4793-62; original upload filename "Juan Armond e Vanessa Bevilacqua - Casamento Italia.pdf"
+1 NOTE Repository file: evidence/civil/CIV-0011-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-certificate-original.pdf
+1 OBJE @OBJCIV0011@
+0 @CIV0012@ SOUR
+1 TITL Italian summary extract of the marriage of Juan Carlos Muniz Armond and Vanessa Bevilacqua
+1 TEXT A summary extract issued by the Comune di Caronno Pertusella on 5 July 2008 reports the parties' 16 August 2003 marriage in Toronto and selected civil status details.
+1 REPO @REPO0001@
+2 CALN livro 2007, number 30, part II, series B
+1 NOTE Evidence classification: civil_registration; derivative; information mixed; direct evidence.
+1 NOTE Archival reference: FamilySearch Memory 120433444; storage identifier TH-7782-105179-4564-90; original upload filename "Juan Armond e Vanessa Bevilacqua - Casamento Italia 1.pdf"
+1 NOTE Repository file: evidence/civil/CIV-0012-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2008-italian-summary-extract-original.pdf
+1 OBJE @OBJCIV0012@
+0 @CIV0013@ SOUR
+1 TITL Civil death registration of Marfiza Ferreira Armond (1962), naming her parents Simplício Ferreira Armond and Eliza Ferreira Toledo
+1 TEXT An owner-supplied civil death register image (entry n.º 18892, watermarked "SEM VALOR LEGAL") recording the death of Marfiza Ferreira Armond on 15 November 1962 in Rio de Janeiro state (registration city read as Itaperuna, uncertain). A widow and doméstica, natural of Minas Gerais, she is recorded as the legitimate daughter of Simplício Ferreira Armond and Eliza Ferreira Toledo. This independently confirms Eliza's Toledo surname and documents Marfiza as a daughter of Simplício and Eliza — that is, a sister of Aristão Ferreira Armond (P-0008).
+1 REPO @REPO0004@
+2 CALN fl. 264/265, nº 18892
+1 NOTE Evidence classification: civil_registration; original; information mixed; direct evidence.
+1 NOTE Transcription: [Termo n.º 18892, páginas 264/265; imagem com marca "SEM VALOR LEGAL".] Em quinze de novembro de mil novecentos e sessenta e dois, nesta cidade de [Itaperuna?], no Estado do Rio de Janeiro, em cartório, compareceu [Gustavo?] Barroso, comerciante aqui residente [à rua 1.º de Maio?], e exibindo atestado de óbito firmado pelo Dr. Carlos Antonio Deslandes, dando como causa da morte [colapso?] cardíaco, declarou que no dia de hoje, às treze horas e trinta minutos, [em rua Paes de Azevedo, 100?], faleceu Marfiza Ferreira Armond, do sexo feminino, de cor branca, profissão doméstica, natural [do Estado] de Minas, com oitenta e nove (89) anos de idade [b. ~1873], estado civil viúva, filha legítima de Simplício Ferreira Armond e [d.] Eliza Ferreira Toledo. O sepultamento será feito no cemitério desta cidade. [Assinado o declarante,] [Gustavo?] Barroso.
+1 NOTE Archival reference: Death register entry n.º 18892, register pages 264/265; image watermarked "SEM VALOR LEGAL". No FamilySearch ARK or portal citation was supplied; the exact archival reference is still to be captured.
+1 NOTE Repository file: evidence/civil/CIV-0013-death-marfiza-ferreira-armond-1962-original.jpg
+1 OBJE @OBJCIV0013@
+0 @CIV0014@ SOUR
+1 TITL Civil death registration of João Gonçalves Bohrer
+1 TEXT The original Volta Redonda civil death register records the death of João Gonçalves Bohrer (P-0014) on 3 August 1970, aged 76 (so born c.1894), married to Celina Bohrer, and names his parents as Valentim Martinho Bohrer (deceased) and Carolina Bohrer — extending the Bohrer line one generation.
+1 REPO @REPO0002@
+2 CALN Brasil, Rio de Janeiro, Registro Civil, 1804-2013, fl. 198, nº 19798
+1 NOTE Evidence classification: civil_registration; original; information mixed; direct evidence.
+1 NOTE Transcription: [Óbito nº 19.798.] "Aos três de agôsto de mil novecentos e setenta ... faleceu no Hospital da C.S.N., nesta cidade, João Gonçalves Bohrer, do sexo masculino, côr branca, com setenta e seis anos de idade, natural dêste Estado, estado civil casado com Celina Bohrer, profissão comerciante, filho de Valentim Martinho Bohrer, falecido ... e de Carolina Bohrer, doméstica, natural dêste Estado ... Causa mortis: infarto do miocárdio ... deixou quinze filhos." The declarant's identity and the residential addresses are omitted here for privacy (see the private image).
+1 NOTE Archival reference: Óbito nº 19.798, Talão 98, fl. 198 (register image p. 276), Cartório do Registro Civil, Volta Redonda, RJ. Located via the FamilySearch Records index (Brasil, Rio de Janeiro, Registro Civil, 1804-2013) and delivered through the research/from-retrieval/ sync; read and promoted 30 July 2026.
+1 NOTE Repository file: evidence/civil/CIV-0014-joao-goncalves-bohrer-death-1970-volta-redonda.jpg
+1 OBJE @OBJCIV0014@
+0 @CIV0015@ SOUR
+1 TITL Civil death registration of Celina (Selina) Bohrer
+1 TEXT The original Volta Redonda civil death register records the death of Celina Bohrer (P-0015) on 19 February 1977, aged 77 (so born c.1900), widow, and names her parents as Joaquim José Bohrer (deceased) and Lucinda Ferreira da Silva Bohrer (deceased). Registered here as "Celina" (the 1949 marriage, CIV-0004, used "Selina").
+1 REPO @REPO0002@
+2 CALN Brasil, Rio de Janeiro, Registro Civil, 1804-2013, fl. 154, nº 25651
+1 NOTE Evidence classification: civil_registration; original; information mixed; direct evidence.
+1 NOTE Transcription: [Óbito nº 25.651.] "Aos vinte de fevereiro de mil novecentos e setenta e sete ... [declarou] que no dia dezenove ... na Casa de Saúde São José, nesta cidade, faleceu Celina Bohrer, do sexo feminino, cor branca, com setenta e sete anos de idade, natural dêste Estado, estado civil viúva, profissão doméstica, filha de Joaquim José Bohrer, falecido ... e de Lucinda Ferreira da Silva Bohrer, falecida ... Causa mortis: blastoma gástrico ... deixou quatorze filhos." The declarant appeared "no impedimento ocasional de membros da família" (a non-family functionary); his details are omitted for privacy.
+1 NOTE Archival reference: Óbito nº 25.651, fl. 154, Cartório do Registro Civil, Volta Redonda, RJ. Located via the FamilySearch Records index (Brasil, Rio de Janeiro, Registro Civil, 1804-2013) and delivered through the research/from-retrieval/ sync; read and promoted 30 July 2026.
+1 NOTE Repository file: evidence/civil/CIV-0015-celina-bohrer-death-1977-volta-redonda.jpg
+1 OBJE @OBJCIV0015@
+0 @CIV0016@ SOUR
+1 TITL Civil birth registration of Eunir Bohrer (child of João Gonçalves Bohrer and Celina Bohrer), Nova Friburgo
+1 TEXT The 1924 Nova Friburgo birth registration of Eunir Bohrer, declared by the father João Gonçalves Bohrer (P-0014). The mother, Celina Bohrer (P-0015), is recorded as "natural deste Districto" (born in Nova Friburgo, RJ). It names both grandparent couples — paternal Valentim Martinho Bohrer + Carolina Bohrer, maternal Joaquim José Bohrer + Lucinda Ferreira Bohrer (deceased) — corroborating the parentage of P-0014 and P-0015 and fixing Celina's origin as Nova Friburgo.
+1 REPO @REPO0002@
+2 CALN Brasil, Rio de Janeiro, Registro Civil, 1804-2013, fl. 8, nº 20525
+1 NOTE Evidence classification: civil_registration; original; information mixed; indirect evidence.
+1 NOTE Transcription: [Nascimento nº 20.525.] "Aos vinte e quatro dias do mez de Maio de mil novecentos e vinte e quatro, neste Districto de São João Baptista, Município de Nova Friburgo, Estado do Rio de Janeiro ... compareceu João Gonçalves Bohrer, brasileiro, lavrador ... declarou: Que no dia dezesete do corrente mez ... nasceu ... uma criança ... que se chamará 'Eunir', filho legítimo dele declarante e de Celina Bohrer, natural deste Districto, e casados civilmente neste Município. Netto paterno de Valentim Martinho Bohrer e de Carolina Bohrer, e materno de Joaquim José Bohrer e de Lucinda Ferreira Bohrer, já falecidos. Testemunhas: Antonio da Silva Brandão e Olympio de Carvalho."
+1 NOTE Archival reference: Nascimento nº 20.525, fl. 8, Cartório do Distrito de São João Baptista, Nova Friburgo, RJ. Located via the FamilySearch Records index (Brasil, Rio de Janeiro, Registro Civil, 1804-2013) and delivered through the research/from-retrieval/ sync; read and promoted 30 July 2026.
+1 NOTE Repository file: evidence/civil/CIV-0016-eunir-bohrer-birth-1924-nova-friburgo.jpg
+1 OBJE @OBJCIV0016@
+0 @CIV0017@ SOUR
+1 TITL Civil death registration of Antonio Engracio Filho (1964), naming his wife Maria Aurora Guimarães and his parents
+1 TEXT Original civil death register recording the death of Antonio Engracio Filho (P-0010) on 21 June 1964 (act 22 June), aged 69 (so born c.1895), a negociante born in Minas Gerais, married to Maria Aurora Guimarães (P-0011). It names his parents as Antonio Engracio de Souza (P-0032) and Luzia Pinheiro da Conceição (P-0033), both already deceased, and reports six surviving adult children.
+1 REPO @REPO0002@
+2 CALN Brasil, Rio de Janeiro, Registro Civil, 1804-2013, fl. 122, nº 37787
+1 NOTE Evidence classification: civil_registration; original; information mixed; direct evidence.
+1 NOTE Transcription: [Óbito nº 37.787.] "Aos vinte e dois de junho de mil novecentos e sessenta e quatro, nesta Cidade e em meu Cartório, compareceu [Werner Engracio Guimarães], solteiro, nacionalidade brasileira, com 32 anos de idade, profissão comerciário, residente na rua Honorio Hermeto, nº 138, Pavuna, est. G[uanabara], e exibindo atestado de óbito firmado pelo médico Frediano Martinelli, declarou: Que no dia de ontem, ... nº 805, neste, às 14 horas ... faleceu Antonio Engracio Filho, do sexo masculino, côr branca, com sessenta e nove anos de idade, natural do Estado de Minas Gerais, estado civil casado com Maria Aurora Guimarães, profissão negociante, residente rua Honorio Hermeto, nº 138, Pavuna, est. da Guanabara, filho de Antonio Engracio de Souza e de Luzia Pinheiro da Conceição, falecidos. Causa mortis: câncer da próstata. Vai ser sepultado no Cemitério de São João de Meriti. Observações: não deixou bens e deixou seis filhos maiores." The declarant (a son of the deceased) is named in the register; his identifying document is withheld here for privacy.
+1 NOTE Archival reference: Óbito nº 37.787, fl. 122 (Departamento de Imprensa Nacional óbito form). Located via a FamilySearch Records relationship-persona search (by spouse/children) and delivered through the research/from-retrieval/ sync; the exact ARK was not captured in the drop filename. Read and promoted 30 July 2026.
+1 NOTE Repository file: evidence/civil/CIV-0017-antonio-engracio-filho-death-1964.jpg
+1 OBJE @OBJCIV0017@
+0 @CIV0018@ SOUR
+1 TITL Civil death registration of Maria Aurora Guimarães (1991), widow of Antonio Engracio Filho, naming her parents
+1 TEXT Original civil death register recording the death of Maria Aurora Guimarães (P-0011) on 15 September 1991 at Rio de Janeiro, aged 87 (so born c.1904), widow of Antonio Engracio Filho (P-0010), born in Minas Gerais. It names her parents as Francisco José de Carvalho Guimarães (P-0021) and Emerenciana Maria de Jesus (P-0022) — the same couple named in her 1904 birth registration (CIV-0007) — and reports five surviving adult children.
+1 REPO @REPO0002@
+2 CALN Brasil, Rio de Janeiro, Registro Civil, 1804-2013, fl. 103, nº 63792
+1 NOTE Evidence classification: civil_registration; original; information mixed; direct evidence.
+1 NOTE Transcription: [Óbito nº 63.792.] "Aos dezesseis de setembro de mil novecentos e noventa e um, nesta cidade e em cartório, compareceu [Antonio Engracio Neto], prof. policial ... e exibindo o atestado de óbito firmado pelo médico Dr. Braulio dos Santos Junior, prestou as seguintes declarações: Nome do obituado: Maria Aurora Guimarães. Data e hora do falecimento: 15/setembro/1991 às 13,30 horas. Est. civil viúva de Antonio Engracio Filho. Sexo feminino, idade 87 anos. Lugar do falecimento: rua David Campista, 326 - Hospital. Residência: Av. Ten. Ribeiro, 361/201, prof. do lar. Naturalidade: Estado de Minas Gerais. Nome dos pais do obituado: Francisco José de Carvalho Guimarães e Emerenciana Maria de Jesus. Causa mortis: infecção respiratória, doença pulmonar obstrutiva crônica, hipertensão arterial sistêmica, insuficiência renal aguda. Lugar do sepultamento: Cemitério São Francisco Xavier. Deixou cinco filhos maiores." The declarant (a relative) is named in the register; his identifying document is withheld here for privacy.
+1 NOTE Archival reference: Óbito nº 63.792, Livro 386-C, fl. 103, Quinta Circunscrição do Registro Civil, Rio de Janeiro, RJ. Located via a FamilySearch Records relationship-persona search and delivered through the research/from-retrieval/ sync; the exact ARK was not captured in the drop filename. Read and promoted 30 July 2026.
+1 NOTE Repository file: evidence/civil/CIV-0018-maria-aurora-guimaraes-death-1991.jpg
+1 OBJE @OBJCIV0018@
+0 @CIV0019@ SOUR
+1 TITL Civil birth registration of Alberto Bohrer (1890), naming his parents Joaquim José Bohrer and Lucinda Ferreira da Silva Bohrer and both grandparent couples
+1 TEXT 1890 Nova Friburgo civil birth of Alberto Bohrer, declared by his paternal uncle Guilherme Samuel Bohrer because the father was absent. It names the parents Joaquim José Bohrer (P-0030, negociante, "natural desta Freguezia") and Lucinda Ferreira da Silva Bohrer (P-0031, "natural desta Freguezia"), states they were married in the Igreja Matriz of Nova Friburgo, and names both grandparent couples: paternal Francisco José Bohrer (deceased) + Roza Eugenia de Lemos, and maternal Antonio da Silva Ferreira + Maria Joanna da Silva Ferreira.
+1 REPO @REPO0002@
+2 CALN Brasil, Rio de Janeiro, Registro Civil, 1804-2013, fl. 119, nº 569
+1 NOTE Evidence classification: civil_registration; original; information mixed; indirect evidence.
+1 NOTE Transcription: [Nascimento nº 569.] "Aos vinte e cinco dias do mez de junho de mil oito centos e noventa, nesta Freguezia de São João Baptista, Município de Nova Friburgo, Estado do Rio de Janeiro, em meu cartorio compareceu Guilherme Samuel Bohrer, morador no Alto da Serra desta Freguezia ... declarou: Que no dia dezesete do corrente mez, ás seis horas da manhã, na casa de residencia de seu irmão Joaquim José Bohrer nasceu uma criança do sexo masculino, filho legítimo de seu dito irmão Joaquim José Bohrer, negociante, natural desta Freguezia, morador no dito Alto da Serra, e sua mulher Lucinda Ferreira da Silva Bohrer, natural desta Freguezia ... a qual na pia baptismal receberá o nome de Alberto, neto paterno de Francisco José Bohrer já falecido e de sua mulher Roza Eugenia de Lemos Bohrer, e materno de Antonio da Silva Ferreira e de sua mulher Maria Joanna da Silva Ferreira, e que faz esta declaração por achar-se o seu dito irmão ausente. ... Testemunhas Francisco Ignacio da Silva, jornaleiro, e André Justino do Nascimento, caçeiro ... Eu Carlos Miguel Noel, escrivão de Paz, escrevi."
+1 NOTE Archival reference: Nascimento nº 569, fl. 119, Cartório do Distrito de São João Baptista, Nova Friburgo, RJ. Located via a FamilySearch Records relationship-persona search and delivered through the research/from-retrieval/ sync; the exact ARK was not captured in the drop filename. Read and promoted 30 July 2026.
+1 NOTE Repository file: evidence/civil/CIV-0019-alberto-bohrer-birth-1890-nova-friburgo.jpg
+1 OBJE @OBJCIV0019@
+0 @CIV0022@ SOUR
+1 TITL Civil birth registration of Cidália (Engracio Guimarães) (1930, Alvorada), naming her parents and both grandparent couples
+1 TEXT A 1995 certified copy of Cidália's 1930 birth registration (nº 132, livro 2, fl. 142, Alvorada, Carangola, MG). Her own primary birth record: born 15 September 1930 at Alvorada, daughter of Antonio Engracio de Souza (P-0010) and Maria Aurora Guimarães (P-0011), declared by her father. Names the paternal grandparents Antonio Engracio de Souza + Luzia (Pinheiro) da Conceição (P-0032/P-0033) and the maternal grandparents Francisco José de Carvalho Guimarães + Emerenciana Maria de Jesus (P-0021/P-0022).
+1 REPO @REPO0005@
+2 CALN livro 2, fl. 142, nº 132
+1 NOTE Evidence classification: civil_registration; derivative; information mixed; direct evidence.
+1 NOTE Transcription: [República Federativa do Brasil, Registro Civil, Comarca de Carangola, Distrito de Alvorada, MG. Certidão de Nascimento.] "CERTIFICO que, sob Nº 132, a fls. 142, do livro Nº Dois (02) de Registro de Nascimentos, encontra-se o assento de 'CIDÁLIA', nascida a 15 (quinze) de setembro (09) de mil novecentos e trinta (1930), em domicílio, neste distrito de Alvorada, Município de Carangola, Minas Gerais. Do sexo feminino, filha de Antonio Engracio de Souza e Maria Aurora Guimarães. Sendo avós paternos Antonio Engracio de Souza e dona Luzia da Conceição; e maternos Francisco José de Carvalho Guimarães e dona Emerenciana Maria de Jesus. Tendo sido declarante o pai. O assento foi feito em 15 de setembro de 1930." Certified Alvorada (MG), 4 May 1995.
+1 NOTE Archival reference: Nascimento nº 132, fl. 142, livro 2, Registro Civil de Alvorada (Carangola, MG); certified copy issued 4 May 1995. Owner-supplied certificate delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026.
+1 NOTE Repository file: evidence/civil/CIV-0022-cidalia-birth-1930-alvorada.jpg
+1 OBJE @OBJCIV0022@
+0 @CIV0023@ SOUR
+1 TITL Civil marriage (inteiro teor) of João Rodrigues Braga and Aristides Ferreira Armand (1894, Boa Família, Muriaé), naming her parents Simplício José Ferreira Armand and Elisa Balbina de Jesus
+1 TEXT A 2019 certified inteiro-teor of the 11 August 1894 civil marriage of João Rodrigues Braga and Dona Aristides Ferreira Armand at São Fernando do Divisório, Boa Família (Muriaé, MG) — held at the house of Simplício José Ferreira Armand, who also signed as a witness. The bride, aged 19 (so born c.1875, "natural do Rio Pardo da Leopoldina"), is recorded as the legitimate daughter of Simplício José Ferreira Armand (P-0016) and Dª Elisa Balbina de Jesus (P-0017) — a third documented child of that couple and a sister of Aristão (P-0008) and Marfiza.
+1 REPO @REPO0006@
+2 CALN livro 1-B, fl. 134, nº 9
+1 NOTE Evidence classification: civil_registration; derivative; information mixed; direct evidence.
+1 NOTE Transcription: [Certidão de inteiro teor — casamento; nomes João Rodrigues Braga e Aristides Ferreira Armand; Comarca de Muriaé.] "Livro 1-B, Folha 134, Termo 9: Aos onze dias do mez de Agosto do anno de mil oito centos e noventa e quatro, ás quatro horas da tarde, neste Districto de São Francisco de Paula da Boa Familia, Comarca do Muriahé, Estado de Minas Geraes, no logar denominado São Fernando do Divizorio, em casa de residencia do cidadão Simplicio José Ferreira Armand, ... presentes o cidadão José Eugenio de Miranda, Juiz de Paz ... e as testemunhas Balduino Rodrigues de Almeida [ilegível] e Anastacio Theodoro de Souza, receberam-se em matrimonio JOÃO RODRIGUES BRAGA e Dona ARISTIDES FERREIRA ARMAND, ambos solteiros; elle com vinte e quatro annos de idade, lavrador, natural do Gloria do Muriahé, filho legitimo de Francisco Rodrigues Pereira Braga, já fallecido, e Dª Constancia Leopoldina Campos, ali residente; e ella, do serviço domestico, com dezenove annos de idade, natural do Rio Pardo da Leopoldina, residente neste Districto, filha legitima de Simplicio José Ferreira Armand e Dª Elisa Balbina de Jesus, residentes neste districto. ... [assinaturas] José Lourenço Vianna (oficial); José Eugenio de Miranda; João Rodrigues Braga; Aristides Ferreira Armand; ... Dr. Augusto Ferr. de Macedo e Simplicio José Ferr. Armand." Certified Boa Família, Muriaé-MG, 6 August 2019.
+1 NOTE Archival reference: Casamento livro 1-B, fl. 134, termo 9; matrícula 0438770155 1894 2 00001 134 0000009 15; certified inteiro-teor copy issued 6 August 2019 (Roberto Alves Barcellos). Owner-supplied certificate delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026.
+1 NOTE Repository file: evidence/civil/CIV-0023-aristides-ferreira-armand-marriage-1894-boa-familia.jpg
+1 OBJE @OBJCIV0023@
+0 @GOV0001@ SOUR
+1 TITL Driver-dossier alphabetical index entry for José Olavo Armond
+1 TEXT A March 1973 Guanabara government driver-dossier index lists José Olavo Armond, born 25 September 1926 in Brazil, and names his father as "Aristac Ferreira Armond" and his mother as Liliosa Paz Armond. The father's given name appears to be a typographical corruption of Aristão, but the source form is preserved rather than silently corrected.
+1 REPO @REPO0002@
+2 CALN Livros de Matrícula de Condutor: Rio de Janeiro, 1921-1995, Relação alfabética dos prontuários, March 1973, livro Livro 90, fl. 27159
+1 NOTE Evidence classification: government_record; original; information mixed; direct evidence.
+1 NOTE Transcription: JOSE OLAVO ARMOND; 25/09/26; BRASIL; [identity and dossier numbers omitted from this transcription]; AMADOR; ARISTAC FERREIRA ARMOND; LILIOSA PAZ ARMOND.
+1 NOTE Archival reference: Image ARK 3:1:3QHV-L7VF-WWJN; image group number 120965069
+1 NOTE Repository file: evidence/government/GOV-0001-driver-index-jose-olavo-armond-1973-original.jpg
+1 OBJE @OBJGOV0001@
+0 @NWS0001@ SOUR
+1 TITL 1975 marriage banns in O Processo (Conselheiro Lafaiete) for José Olavo Armond, naming his parents Aristão Ferreira Armond and Liliosa Paz Armond and his origin in Eugenópolis
+1 TEXT A marriage-banns notice (edital de proclamas) published in the fortnightly newspaper O Processo (Conselheiro Lafaiete, MG), issue n.º 42 of 1–15 February 1975, announcing the intended marriage of José Olavo Armond and Maria de Fátima Gomes Beato. It records José Olavo as natural de Eugenópolis, a commercial representative then resident in Rio de Janeiro, and names his parents as Aristão Ferreira Armond and Liliosa Paz Armond. Independently corroborates the 1973 driver-dossier index (GOV-0001) and Aristão's death record (CIV-0005) on José Olavo's parentage, and newly supplies his stated birthplace (Eugenópolis).
+1 REPO @REPO0007@
+2 CALN O Processo, Conselheiro Lafaiete, MG — Empresa Jornalística "O Processo — S/C", fl. 6
+1 NOTE Evidence classification: newspaper; original; information secondary; direct evidence.
+1 NOTE Transcription: [Seção "Editais de Casamento", editais de proclamas do Oficial do Registro Civil de Conselheiro Lafaiete:] JOSÉ CLAVO [Olavo] ARMOND, natural de Eugenópolis, maior, representante comercial, residente no Rio de Janeiro à Avenida Ministro Edgar Romero, 331, Bloco 18, ap.º 129, filho de Aristão Ferreira Armond e de d. Liliosa Paz Armond [nome materno conforme lido em impressão fraca], e MARIA DE FÁTIMA GOMES BEATO, natural de Cons. Lafaiete, maior, doméstica, residente nesta cidade, filha de Agostinho Gomes Beato e de d. Ana[...] Gomes Beato. [Ao pé da coluna:] (a.) José Aleixo de Matos — Oficial do Registro Civil.
+1 NOTE Archival reference: O Processo, Ano II, n.º 42, 1.º a 15 de fevereiro de 1975, p. 6, seção "Editais de Casamento". Digital file per829587_1975_00042 (8-page issue).
+1 NOTE Repository file: evidence/newspapers/NWS-0001-marriage-banns-jose-olavo-armond-1975-original.pdf
+1 OBJE @OBJNWS0001@
+0 @PAR0001@ SOUR
+1 TITL Marriage provision for João Monis Bittencourt and Susanna Rita Brondão
+1 TEXT On 23 December 1882 an ecclesiastical provision register of the Court of Rio de Janeiro recorded that a provision was issued for João Monis Bittencourt and Susanna Rita Brondão to marry in the mother church (matriz) of the Santo Antônio de Sapucaia parish. Sapucaia was an established freguesia from 1871, and this destination is consistent with their son Deocleciano being born in Sapucaia (CIV-0001). The entry establishes the intended couple and parish but does not state that the marriage ceremony had already occurred.
+1 REPO @REPO0002@
+2 CALN Brasil, Rio de Janeiro, Registros da Igreja Católica, 1616-2017, Registros de casamento: Rio de Janeiro, November 1882–February 1883, fl. 191
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: Passou-se Provisão a 23 do corrente ao Rev.do Cura do Curato de Santo Antônio de Sapucaia para receber em matrimônio na sua matriz a [João/José — given name reading uncertain] Monis Bittencourt — com Susana Rita Brandão. Rio, 23 de Dezembro de 1882. Cônego Cassiano.
+1 NOTE Archival reference: Creator: Igreja Católica, Santíssimo Sacramento (Centro, Rio de Janeiro); DGS 004626365, Item 1 of 4; record ARK 1:1:6X8P-YB4T; image ARK 3:1:939F-GJ96-JY; original-image storage ID TH-1-14177-39237-12
+1 NOTE Repository file: evidence/parish/PAR-0001-marriage-provision-joao-monis-bittencourt-susanna-rita-brondao-1882-original.jpg
+1 OBJE @OBJPAR0001@
+0 @PAR0002@ SOUR
+1 TITL Parish marriage justification of Francisco José Bohrer and Rosa Eugenia de Lemos (registered 1879), Nova Friburgo Matriz
+1 TEXT An 1879 parish record at the Nova Friburgo Matriz registering the judicial justification (justificação de casamento) of the marriage of Francisco José Bohrer (P-0034) and Rosa Eugenia de Lemos (P-0035) — the parents of Joaquim José Bohrer (P-0030), hence Celina's paternal grandparents. The marriage had been celebrated earlier before the coadjutor of the Freguesia de Itaboraí, at the house of José Antunes de Lemos's father, with José Antunes de Lemos among the witnesses (a lead to Rosa's Lemos family).
+1 REPO @REPO0002@
+2 CALN Brasil, Rio de Janeiro, Registros da Igreja Católica, 1616-2017, fl. 177
+1 NOTE Evidence classification: parish_register; original; information mixed; direct evidence.
+1 NOTE Transcription: "...ao primeiro dia do mez de Agosto de mil oito centos e setenta e nove, nesta Matriz me foi apresentada a certidão de sentença do theor seguinte: 'Haja por justificado o casamento do justificante Francisco José Bohrer com a justificada Rosa Eugenia de Lemos, o qual foi celebrado em casa do pai de José Antunes de Lemos em presença do Reverendo Rufino José Alves, Coadjuctor da Freguezia de Itaborahy, e das testemunhas José Antunes de Lemos, José Antonio da Costa, Genoveva Campbell da Costa ... o que julgo por sentença ... abrir assentamento no livro da parochia. Rio, trinta de Junho de 1879. Monsenhor Felix d'Albuquerque' ... de que faz este assento."
+1 NOTE Archival reference: Marriage justification of Francisco José Bohrer and Rosa Eugenia de Lemos, fl. 177, Nova Friburgo Matriz marriage book; sentence dated Rio, 30 June 1879, registered 1 August 1879. Located via a FamilySearch Records relationship search and delivered through the research/from-retrieval/ sync; the exact ARK was not captured in the drop filename. Read and promoted 30 July 2026.
+1 NOTE Repository file: evidence/parish/PAR-0002-francisco-jose-bohrer-marriage-1879.jpg
+1 OBJE @OBJPAR0002@
+0 @PAR0003@ SOUR
+1 TITL Parish baptism certificate of Aristides Muniz Bittencourt (1922, Santa Luzia do Carangola), naming his parents and both grandparent couples
+1 TEXT A 2019 certified copy of the 1922 baptism of Aristides (born 22 July 1922, baptized 20 September 1922 at the Matriz de Santa Luzia do Carangola, MG), a legitimate son of Deocleciano Muniz Bittencourt (P-0012) and Luiza Secundina de Azevedo (P-0013) — hence a brother of Antenor Muniz (P-0006). It names the paternal grandparents João Muniz Bittencourt (P-0019) and Susana Ritta Brandão (P-0020) and the maternal grandparents José Secundino de Azevedo (P-0038) and Thereza Fernandes de Azevedo (P-0039), which fixes the family's Carangola (MG) origin and establishes Luiza's parents.
+1 REPO @REPO0008@
+2 CALN livro 14, fl. 143, nº 1168
+1 NOTE Evidence classification: parish_register; derivative; information mixed; direct evidence.
+1 NOTE Transcription: [Diocese de Caratinga, Paróquia Santa Luzia. Livro 14, fl. 143, nº 1168 de batizados.] "Aos vinte de setembro de mil novecentos e vinte e dois, nesta Matriz de Santa Luzia do Carangola, baptisei solennemente ARISTIDES nascido a vinte e dois de julho findo, filho legítimo de Deoclecino [Deocleciano] Muniz Bittencourt e de Luiza Secundina de Azevedo. Neto paterno de João Muniz Bittencourt e de Susana Ritta Brandão e materno de Jose Secundino de Azevedo e de Thereza Fernandes de Azevedo. Foram padrinhos Antonio dos Santos Ferreira e Anna Muniz Bittencourt. Para constar fiz este assento. Pe. Joaquim Martins Pereira." Copy certified Carangola, 17 April 2019.
+1 NOTE Archival reference: Livro 14, fl. 143, nº 1168 de batizados, Paróquia Santa Luzia do Carangola; certified copy issued 17 April 2019 by Pe. Jamir Pedro Sobrinho. Owner-supplied certificate delivered through the research/from-retrieval/ sync; read and promoted 30 July 2026.
+1 NOTE Repository file: evidence/parish/PAR-0003-aristides-muniz-bittencourt-baptism-1922-carangola.jpg
+1 OBJE @OBJPAR0003@
+0 @PRB0001@ SOUR
+1 TITL 1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza Balbina de Toledo (wife of Simplício José Ferreira Armond)
+1 TEXT A page from an 1881 Leopoldina probate/partilha listing the heirs of an estate on Eliza Balbina de Toledo's side. It names Eliza Balbina de Toledo as the wife of Simplício José Ferreira Armond and lists her Toledo siblings with ages: Maria Bulandina de Toledo (m. Manoel Marques Jorge), Ladisláo Egydio Ferreira de Toledo (~23, b. ~1858), Geraldo Augusto de Toledo Lima (~15, b. ~1866, then living in Rio de Janeiro), and Josepha Olympia da Paixão (~12, b. ~1869), plus a predeceased Carolina Leopoldina Marques inheriting by representation. The companion 1884 petition (PRB-0002) names the decedent as D. Mathilde Maria de Jezus.
+1 REPO @REPO0009@
+2 CALN Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text), fl. 9
+1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
+1 NOTE Transcription: [Lista de herdeiros, numerada 4.º-8.º:] Maria Bulandina de Tolledo, cazada com Manoel Marques Jorge (4.º). Simplicio José Ferreira Armond, cazado com D. Eliza Balbina de Tolledo (5.º). Ladisláo Egydio Ferreira de Tolledo, solteiro, de 23 annos (6.º). Geraldo Augusto de Tolledo Lima, solteiro, de 15 annos, rezidente na côrte [Rio de Janeiro], empregado em uma caza de negocio zita á rua do Visconde de Inhaúma n.º 74 (7.º). Josepha Olympia da Paixão, solteira, de 12 annos de idade (8.º). [Linha separada, por representação:] D. Carolina Leopoldina Marques, cazada com Narcizo Marques Braz, sendo a mesma já fallecida, sendo seos herdeiros D. Maria da [...].
+1 NOTE Archival reference: FamilySearch ARK 3:1:3QHJ-YQWY-R9GH. Same estate file as PRB-0002 and the non-imaged page ARK 3:1:3QHJ-RQWY-RWJV, which captions these heirs "Primeiros Nettos".
+1 NOTE Repository file: evidence/probate/PRB-0001-probate-toledo-heir-list-leopoldina-1881-original.jpg
+1 OBJE @OBJPRB0001@
+0 @PRB0002@ SOUR
+1 TITL 1884 Leopoldina petition of Simplício José Ferreira Armond as heir of the late D. Mathilde Maria de Jezus
+1 TEXT A petition (12 February 1884, Leopoldina), written and signed by Simplício José Ferreira Armond in his own hand, asking the orphans' judge to complete the long-delayed partition of the estate of the late D. Mathilde Maria de Jezus, who had died about four years earlier (~1880). He petitions as her heir — in right of his wife Eliza Balbina de Toledo (per PRB-0001) — placing Mathilde Maria de Jezus on Eliza's (maternal) line.
+1 REPO @REPO0009@
+2 CALN Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text), fl. 321
+1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
+1 NOTE Transcription: Ill.mo Snr. Dr. Juiz de Orphãos. [...] Diz Simplicio José Ferreira Armond herdeiro da fina[da] D. Mathilde Maria de Jezus que, tendo ella fallecido a[cerca] de 4 annos, até hoje não se terem partilhado os bens por aquella finada deixados [...] vem perante V. Sa requerer [...] que se faça a partilha. O Supp.e [...] tem parentes colateraes em estado de indigencia [...]. Leopoldina 12 de Fevereiro de 1884. Simplicio Joze Ferr.a Armond [assinatura autógrafa]. [Despacho anterior:] Nos autos [...] Leopoldina 15 de Fevereiro de 1884. J. Felicio.
+1 NOTE Archival reference: FamilySearch ARK 3:1:3QHJ-BQWY-RQQG.
+1 NOTE Repository file: evidence/probate/PRB-0002-probate-petition-simplicio-armond-mathilde-jezus-1884-original.jpg
+1 OBJE @OBJPRB0002@
+0 @PRB0003@ SOUR
+1 TITL 1877 Leopoldina notarial deed of sale by the Toledo grandchildren of their inherited Fazenda da Concórdia land, naming their grandmother Mathilde Maria de Jesus
+1 TEXT A notarial deed of sale registered at Santo Antônio [dos Aribas?], Termo de Leopoldina, MG, on 25 May 1877, in which a set of Toledo-family grandchildren — Maria Bulandina de Jesus (wife of Manoel Marques Jorge), Josepha Olímpia, Maria [Perpétua/Porcelina] de Toledo, Matildes Olímpia da Paixão, Geraldo Augusto de Toledo and Ladisláo Egydio Ferreira de Toledo — sell to Capitão Antonio Belizandro dos Reis Meirelles two shares of cultivated land in the Fazenda da Concórdia that they inherited from their deceased grandmother (avó) Dona Mathildes Maria de Jesus. Same grandchild set and estate matriarch as the 1881 partilha (PRB-0001, which lists Eliza Balbina de Toledo among the "Primeiros Nettos") and the 1884 petition (PRB-0002).
+1 REPO @REPO0010@
+2 CALN Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text), livro Livro 6, fls. 27-30 (traslado at fl. 159)
+1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
+1 NOTE Transcription: [Livro 6, fls. 27-30; "Primeiro traslado de escriptura de venda", fl. 159.] Primeiro traslado de escriptura de venda que fazem Manoel Marques Jorge e sua mulher D. Maria B[u]landina de Jezus, Baldoino Rodrigues de Almeida Montes e sua mulher D. Josepha Olimpia Rodrigues d'Almeida, Dona Maria [Perpétua/Porcelina] de Toledo, D. Matildes Olimpia da Paixão, Geraldo Augusto de Toledo, [e] Ladisláo Egydio Ferreira de Toledo, ao Capitão Antonio Belizandro dos Reis Meirelles, na forma abaixo. Saibão quantos este publico instrumento virem que no anno do Nascimento de Nosso Senhor Jezus Christo de mil oito centos e setenta e sete, aos vinte e cinco dias do mez de Maio, nesta Freguezia de Santo Antonio dos [Aribas], Termo da Leopoldina, Provincia de Minas Geraes, em o meu Cartorio, compareceram partes justas e contractadas [...]. [Página 2:] [...] representados por seu bastante Procurador Ladisláo Egydio Ferreira de Toledo [...] e de outro lado como outorgado comprador o Capitão Antonio Belizandro dos Reis Meirelles [...]. Foi dito que são senhores e possuidores de duas sortes de terras de cultura em commum na Fazenda da Concórdia, e que houveram por herança no inventario os bens de sua finada avó Dona Mathildes Maria de Jesus [...].
+1 NOTE Archival reference: FamilySearch ARK 3:1:3QHJ-BQWY-R996-5 (p.1) and 3:1:3QHJ-BQWY-R9MX-8 (p.2)
+1 OBJE @OBJPRB0003@
+0 @REC0001@ SOUR
+1 TITL Direct-ancestor roster supplied by Juan Carlos Muniz Armond
+1 TEXT The repository owner identified himself, his parents, and the deceased direct ancestors used to initialise Ahnentafel positions 1 through 15. This source supports the private working roster and preferred-name spellings only; it does not substitute for civil or parish evidence of vital events or relationships.
+1 REPO @REPO0011@
+1 NOTE Evidence classification: family_recollection; authored_narrative; information mixed; direct evidence.
+1 NOTE Repository file: STATUS.md
+0 @OBJCIV0001@ OBJE
+1 FILE evidence/civil/CIV-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-original.jpg
+2 FORM image/jpeg
+2 TITL Certified marriage record of Deocleciano Muniz Bittencourt and Luiza Fernandes de Azevedo
+1 NOTE sha256: d52385720d3cb0024df19cf650cb5bb79a1bd8af02947fcf7eaa80cae52d6249
+0 @OBJCIV0002@ OBJE
+1 FILE evidence/civil/CIV-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-original.jpg
+2 FORM image/jpeg
+2 TITL Marriage certificate of Geraldo Paz Armond and Cidalia Engracio Guimarães
+1 NOTE sha256: 0def5d0019ea5167146f2f6528714b1e952837b78af5f51536aaa47cbcd01edc
+0 @OBJCIV0003@ OBJE
+1 FILE evidence/civil/CIV-0003-death-geraldo-paz-armond-1991-original.jpg
+2 FORM image/jpeg
+2 TITL Civil death registration of Geraldo Paz Armond
+1 NOTE sha256: c4188e3a81f1547a7db4b178246e4154505798188b6aef05300321d41acdee8d
+0 @OBJCIV0004@ OBJE
+1 FILE evidence/civil/CIV-0004-marriage-antenor-muniz-iris-bohrer-1949-original.jpg
+2 FORM image/jpeg
+2 TITL Marriage certificate of Antenor Muniz and Iris Bohrer
+1 NOTE sha256: 32719dcd87a06322013b0760a5a0745ad713f86876a6fd05d7dd8516420f631e
+0 @OBJCIV0005@ OBJE
+1 FILE evidence/civil/CIV-0005-death-aristao-ferreira-armond-1957-original.jpg
+2 FORM image/jpeg
+2 TITL Civil death registration of Aristão Ferreira Armond
+1 NOTE sha256: 1ab59e308d28c2a069918b17864542d615e491182fc50950453f137fd3746b8b
+0 @OBJCIV0006@ OBJE
+1 FILE evidence/civil/CIV-0006-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-01.jpg
+2 FORM image/jpeg
+2 TITL Full-content certified marriage record of Deocleciano Muniz Bittencourt and Luiza Fernandes de Azevedo
+1 NOTE sha256: 5093f67e9a2528510714275a123c85ea2fd558042cc03cb9b56f167c3162736b
+0 @OBJCIV0007@ OBJE
+1 FILE evidence/civil/CIV-0007-birth-registration-carvalho-guimaraes-siblings-1915-original.jpg
+2 FORM image/jpeg
+2 TITL Full-content certificate of the 1915 Carvalho Guimarães collective birth registration
+1 NOTE sha256: 5e622c5fb8e91919f9f4af916a54ed469110cfb09b5f3b8b9c88e8593e230c0d
+0 @OBJCIV0008@ OBJE
+1 FILE evidence/civil/CIV-0008-birth-juan-carlos-muniz-armond-1982-original.pdf
+2 FORM application/pdf
+2 TITL Certified birth certificate of Juan Carlos Muniz Armond
+1 NOTE sha256: 10ea2916d9b5bf9f551261dad3b7a4025d5e569a5422838b0c3d48764bb69fb2
+0 @OBJCIV0009@ OBJE
+1 FILE evidence/civil/CIV-0009-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2003-ontario-original.pdf
+2 FORM application/pdf
+2 TITL Ontario photostatic marriage record for Juan Carlos Muniz Armond and Vanessa Araujo Bevilacqua
+1 NOTE sha256: 2d8d570c217c63f09532260d88d426a16de7ddfdd59c5628d5edfaba12e6397a
+0 @OBJCIV0010@ OBJE
+1 FILE evidence/civil/CIV-0010-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-transcription-original.pdf
+2 FORM application/pdf
+2 TITL Italian full transcription of the Ontario marriage of Juan Carlos Muniz Armond and Vanessa Araujo Bevilacqua
+1 NOTE sha256: a7315fb7e6ddc22b47cdc42abeeaecbeb60b1285fa1eea4053a394d917dd5011
+0 @OBJCIV0011@ OBJE
+1 FILE evidence/civil/CIV-0011-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-certificate-original.pdf
+2 FORM application/pdf
+2 TITL Italian marriage certificate for Juan Carlos Muniz Armond and Vanessa Bevilacqua
+1 NOTE sha256: aecc0d23f9b9e2aa1b5c26aea2bd118d8e3d94aed0691b4eca24795f02207148
+0 @OBJCIV0012@ OBJE
+1 FILE evidence/civil/CIV-0012-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2008-italian-summary-extract-original.pdf
+2 FORM application/pdf
+2 TITL Italian summary extract of the marriage of Juan Carlos Muniz Armond and Vanessa Bevilacqua
+1 NOTE sha256: 88bc4698ede0fa53e822361381d9837a04ee1852dd4bd960bddb5ef3f68371bd
+0 @OBJCIV0013@ OBJE
+1 FILE evidence/civil/CIV-0013-death-marfiza-ferreira-armond-1962-original.jpg
+2 FORM image/jpeg
+2 TITL Civil death registration of Marfiza Ferreira Armond (1962), naming her parents Simplício Ferreira Armond and Eliza Ferreira Toledo
+1 NOTE sha256: eaf6f82ef061e6661fbb64825bbc1fd9617c78cfdc2db587812b423d2e2e05e4
+0 @OBJCIV0014@ OBJE
+1 FILE evidence/civil/CIV-0014-joao-goncalves-bohrer-death-1970-volta-redonda.jpg
+2 FORM image/jpeg
+2 TITL Civil death registration of João Gonçalves Bohrer
+1 NOTE sha256: 5bab6458ed9972a0c36c17f134116286600399cf9fc07f7b0cdf0534884af970
+0 @OBJCIV0015@ OBJE
+1 FILE evidence/civil/CIV-0015-celina-bohrer-death-1977-volta-redonda.jpg
+2 FORM image/jpeg
+2 TITL Civil death registration of Celina (Selina) Bohrer
+1 NOTE sha256: 9209da46a8b42f6ab9c904b8856aa9a0c975f1f41b1ec0655fa251914db54010
+0 @OBJCIV0016@ OBJE
+1 FILE evidence/civil/CIV-0016-eunir-bohrer-birth-1924-nova-friburgo.jpg
+2 FORM image/jpeg
+2 TITL Civil birth registration of Eunir Bohrer (child of João Gonçalves Bohrer and Celina Bohrer), Nova Friburgo
+1 NOTE sha256: b52d0480b8e0d696d2ffa506983d9912cb7b58bfb7785be120b65ba4ebcd8036
+0 @OBJCIV0017@ OBJE
+1 FILE evidence/civil/CIV-0017-antonio-engracio-filho-death-1964.jpg
+2 FORM image/jpeg
+2 TITL Civil death registration of Antonio Engracio Filho (1964), naming his wife Maria Aurora Guimarães and his parents
+1 NOTE sha256: 4b003fe97548d4337be7a20ca1e9b9de9d1864d6a762311c352d147bab402b4d
+0 @OBJCIV0018@ OBJE
+1 FILE evidence/civil/CIV-0018-maria-aurora-guimaraes-death-1991.jpg
+2 FORM image/jpeg
+2 TITL Civil death registration of Maria Aurora Guimarães (1991), widow of Antonio Engracio Filho, naming her parents
+1 NOTE sha256: 301f6741922d3fd4a5aa19204a59030e06d6aaa46fbf1e84533f2df38ffcea1c
+0 @OBJCIV0019@ OBJE
+1 FILE evidence/civil/CIV-0019-alberto-bohrer-birth-1890-nova-friburgo.jpg
+2 FORM image/jpeg
+2 TITL Civil birth registration of Alberto Bohrer (1890), naming his parents Joaquim José Bohrer and Lucinda Ferreira da Silva Bohrer and both grandparent couples
+1 NOTE sha256: e3da8a376485409613aa2819ee58d503f4d3a9d126dcfd3428a3d4fd123428a0
+0 @OBJCIV0022@ OBJE
+1 FILE evidence/civil/CIV-0022-cidalia-birth-1930-alvorada.jpg
+2 FORM image/jpeg
+2 TITL Civil birth registration of Cidália (Engracio Guimarães) (1930, Alvorada), naming her parents and both grandparent couples
+1 NOTE sha256: 691721b829fb2dd1cbd01363c252c95fb8e05179800844ba3fe90b44ca78edd9
+0 @OBJCIV0023@ OBJE
+1 FILE evidence/civil/CIV-0023-aristides-ferreira-armand-marriage-1894-boa-familia.jpg
+2 FORM image/jpeg
+2 TITL Civil marriage (inteiro teor) of João Rodrigues Braga and Aristides Ferreira Armand (1894, Boa Família, Muriaé), naming her parents Simplício José Ferreira Armand and Elisa Balbina de Jesus
+1 NOTE sha256: b3f3e78c8bb95858b8eacbfb9b634783661e8f891b9dc6f45b3acf011bdaeafb
+0 @OBJGOV0001@ OBJE
+1 FILE evidence/government/GOV-0001-driver-index-jose-olavo-armond-1973-original.jpg
+2 FORM image/jpeg
+2 TITL Driver-dossier alphabetical index entry for José Olavo Armond
+1 NOTE sha256: da5582f12ca5740812e246f20f5048581f295c0f1214f1c6a3114e8fe34fae78
+0 @OBJNWS0001@ OBJE
+1 FILE evidence/newspapers/NWS-0001-marriage-banns-jose-olavo-armond-1975-original.pdf
+2 FORM application/pdf
+2 TITL 1975 marriage banns in O Processo (Conselheiro Lafaiete) for José Olavo Armond, naming his parents Aristão Ferreira Armond and Liliosa Paz Armond and his origin in Eugenópolis
+1 NOTE sha256: 57525a1f4add57aa05e11c396b323abb5cb0740869137619f283e142abfd9ddb
+0 @OBJPAR0001@ OBJE
+1 FILE evidence/parish/PAR-0001-marriage-provision-joao-monis-bittencourt-susanna-rita-brondao-1882-original.jpg
+2 FORM image/jpeg
+2 TITL Marriage provision for João Monis Bittencourt and Susanna Rita Brondão
+1 NOTE sha256: 3754f2bd0de206063399ad0b2f984998d8332c80f0f3b906a729792377425f25
+0 @OBJPAR0002@ OBJE
+1 FILE evidence/parish/PAR-0002-francisco-jose-bohrer-marriage-1879.jpg
+2 FORM image/jpeg
+2 TITL Parish marriage justification of Francisco José Bohrer and Rosa Eugenia de Lemos (registered 1879), Nova Friburgo Matriz
+1 NOTE sha256: 9fcb6cb0389010c2ccafd1ab89020786ee063f0e08887af6169028929e4afbb0
+0 @OBJPAR0003@ OBJE
+1 FILE evidence/parish/PAR-0003-aristides-muniz-bittencourt-baptism-1922-carangola.jpg
+2 FORM image/jpeg
+2 TITL Parish baptism certificate of Aristides Muniz Bittencourt (1922, Santa Luzia do Carangola), naming his parents and both grandparent couples
+1 NOTE sha256: 817d0ab2d1983a0a260312c41056ed81d86eb73eb94bdb37c71f59214a213edc
+0 @OBJPRB0001@ OBJE
+1 FILE evidence/probate/PRB-0001-probate-toledo-heir-list-leopoldina-1881-original.jpg
+2 FORM image/jpeg
+2 TITL 1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza Balbina de Toledo (wife of Simplício José Ferreira Armond)
+1 NOTE sha256: 13f9f5208253b0ce584d0865aa239033e1f4a1cb00cedc1c1cbc4d9af855c374
+0 @OBJPRB0002@ OBJE
+1 FILE evidence/probate/PRB-0002-probate-petition-simplicio-armond-mathilde-jezus-1884-original.jpg
+2 FORM image/jpeg
+2 TITL 1884 Leopoldina petition of Simplício José Ferreira Armond as heir of the late D. Mathilde Maria de Jezus
+1 NOTE sha256: 837090371374fd471bcded5134a0a4730c435153116a2368ec5c222b85a4c48e
+0 @OBJPRB0003@ OBJE
+1 FILE evidence/probate/PRB-0003-toledo-deed-concordia-leopoldina-1877-page-01.jpg
+2 FORM image/jpeg
+2 TITL 1877 Leopoldina notarial deed of sale by the Toledo grandchildren of their inherited Fazenda da Concórdia land, naming their grandmother Mathilde Maria de Jesus
+1 NOTE sha256: 17fdd96769af871285f35258136b93e812567ddff4976d352ffe5a548d323bd7
+0 TRLR

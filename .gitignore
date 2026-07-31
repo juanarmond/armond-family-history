@@ -8,10 +8,12 @@ __pycache__/
 .promotion-prepare-*/
 .entity-promotion-transaction/
 
-# Generated GEDCOM export — a regenerated derivative of the canonical YAML
-# (`make export`), not repository history. The YAML under data/ is the source of
-# truth; rebuild the .ged on demand rather than committing it.
-export/
+# The full-backup GEDCOM (export/armond-family-history.ged) is committed: it is
+# text that references the in-repo evidence/ scans. But GEDZIP bundles duplicate
+# those scan bytes, and the 5.5.1 legacy file is a redundant on-demand variant —
+# keep both out of git; regenerate with `make export-bundle` / `make export-legacy`.
+export/*.gdz
+export/*-5.5.1.ged
 
 # Raw FamilySearch retrieval drop — the whole ephemeral working area (raw record
 # images and ranked CSV/JSON, the external reference cache, plans, correspondence

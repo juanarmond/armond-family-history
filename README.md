@@ -149,10 +149,10 @@ permission. Government identifiers, full addresses, signatures and other
 sensitive details must not be transcribed unless essential to the research.
 
 Structured records export to GEDCOM (7.0 by default, 5.5.1 via
-`make export-legacy`). `make export` is the owner's **archival** copy —
-everything: living people in full, plus transcriptions, scan `OBJE` references and
-rejected edges (flagged). It is a private local backup; **do not upload it**.
-`make export-public` is the **scrubbed** shareable copy — living people redacted
-and no scans, transcriptions, checksums, `evidence/` paths or rejected edges. See
-[docs/gedcom-export-design.md](docs/gedcom-export-design.md) for the field
-mapping, tiers and their limits.
+`make export-legacy`) as a **full backup** — everything, no redaction: living
+people in full, transcriptions, scan `OBJE` references and rejected edges
+(flagged). `make export` writes the `.ged` (committed as an in-repo backup, since
+it references the `evidence/` scans already in the repo); `make export-bundle`
+writes a portable **GEDZIP** (`.gdz`) packaging the GEDCOM plus the actual scan
+files. See [docs/gedcom-export-design.md](docs/gedcom-export-design.md) for the
+field mapping and format details.

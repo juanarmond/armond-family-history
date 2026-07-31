@@ -8,18 +8,18 @@ also remain traceable through source records and research logs.
 ### Added
 
 - Add a GEDCOM exporter (`scripts/export_gedcom.py`, `make export` /
-  `make export-public` / `make export-legacy`) rendering the canonical YAML to a
+  `make export-bundle` / `make export-legacy`) rendering the canonical YAML to a
   portable genealogy file in **GEDCOM 7.0 by default** (the current standard) or
-  **5.5.1** (`--gedcom-version`, widest commercial-site import). Two tiers:
-  `make export` is the owner's **archival** copy — people, families, events,
-  citations, living people in full, transcriptions, `OBJE` records referencing the
-  `evidence/` scans, and `rejected` edges flagged (`QUAY 0`); `make export-public`
-  (and `--no-private`) is the **scrubbed** shareable copy — living people redacted
-  and no scans, transcriptions, checksums, `repository_path` or rejected edges.
-  Hypotheses are included and flagged (`QUAY 1`); attested `documented_children`
-  become standard synthetic `INDI` + `CHIL` nodes (export-only `@DOC…@` xrefs, no
-  person entity minted). Adds `tests/test_export_gedcom.py` and
-  `docs/gedcom-export-design.md`; `export/` is gitignored.
+  **5.5.1** (`--gedcom-version`, widest commercial-site import). It is a **full
+  backup**, no redaction: people, families, events, citations, living people in
+  full, transcriptions, `OBJE` records referencing the `evidence/` scans, and
+  `rejected` edges flagged (`QUAY 0`, never as fact). Hypotheses are included and
+  flagged (`QUAY 1`); attested `documented_children` become standard synthetic
+  `INDI` + `CHIL` nodes (export-only `@DOC…@` xrefs, no person entity minted).
+  `make export-bundle` writes a **GEDZIP** (`.gdz`) packaging the GEDCOM plus the
+  scan files. The `.ged` is committed as an in-repo backup; `.gdz` bundles and the
+  5.5.1 file are gitignored. Adds `tests/test_export_gedcom.py` and
+  `docs/gedcom-export-design.md`.
 - Add an optional `sex` field (`male` / `female` / `unknown`) to the person schema
   and template, populated on all 39 people, so the export can set `INDI.SEX` and
   assign a family's `HUSB` / `WIFE`. Derived from each person's cited vital records

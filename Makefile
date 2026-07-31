@@ -1,4 +1,4 @@
-.PHONY: check test validate export export-public export-legacy
+.PHONY: check test validate export export-bundle export-legacy
 
 PYTHON ?= python3
 
@@ -10,17 +10,16 @@ validate:
 test:
 	$(PYTHON) -m unittest discover -s tests -v
 
-# Full GEDCOM 7.0 export (living people in full) — a private local backup.
-# Do not upload this file to an online tree; use `make export-public` to share.
+# Full-backup GEDCOM 7.0 export (everything, no redaction). The .ged references
+# the scans in evidence/ and is committed to the repo as a backup.
 export:
 	$(PYTHON) scripts/export_gedcom.py
 
-# Shareable export: living people redacted to a minimal "Living" node. Their own
-# structured record is anonymised; researcher-authored free text elsewhere may
-# still name them, so review before publishing (see docs/gedcom-export-design.md).
-export-public:
-	$(PYTHON) scripts/export_gedcom.py --living redact \
-		--output export/armond-family-history-public.ged
+# GEDZIP (.gdz): one portable ZIP packaging the GEDCOM plus the actual scan
+# files, for an off-repo backup. Not committed (it duplicates evidence/ bytes).
+export-bundle:
+	$(PYTHON) scripts/export_gedcom.py --bundle \
+		--output export/armond-family-history.gdz
 
 # Legacy GEDCOM 5.5.1 export for the widest commercial-site import support.
 export-legacy:
