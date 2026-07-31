@@ -1,0 +1,21 @@
+schema_version: 1
+id: E-0046
+event_type: birth
+date:
+  kind: approximate
+  text: about 1813
+  earliest: 1812
+  latest: 1814
+  calculation: aged 65 at her burial on 22 April 1878 (PAR-0011)
+place_id: PL-0005
+participants:
+- person_id: P-0046
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0011
+notes:
+- text: >-
+    Birth of Ignacia Maria de Jesus (P-0046) about 1813, inferred from her age 65 at her
+    1878 burial (PAR-0011). Birthplace is not stated; shown as her parish of long
+    residence and death, Santo Antônio de Sapucaia (RJ).

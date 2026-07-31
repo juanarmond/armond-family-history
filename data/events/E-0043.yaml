@@ -1,0 +1,22 @@
+schema_version: 1
+id: E-0043
+event_type: birth
+date:
+  kind: approximate
+  text: about 1833
+  earliest: 1832
+  latest: 1834
+  calculation: aged 79 at his death on 3 October 1912 (PAR-0008)
+place_id: PL-0005
+participants:
+- person_id: P-0040
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0008
+notes:
+- text: >-
+    Birth of José do Rego Brandão (P-0040) about 1833, inferred from his age 79 at his
+    1912 death (PAR-0008). Birthplace is not stated in the record; shown as the family's
+    documented parish of long residence, Santo Antônio de Sapucaia (RJ), from which the
+    family later moved to Carangola (MG).

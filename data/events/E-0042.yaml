@@ -1,0 +1,23 @@
+schema_version: 1
+id: E-0042
+event_type: birth
+date:
+  kind: approximate
+  text: about 1847
+  earliest: 1846
+  latest: 1848
+  calculation: aged 68 at his death on 12 September 1915 (PAR-0007)
+place_text: Ilha de São Miguel, Açores, Portugal
+participants:
+- person_id: P-0019
+  role: principal
+status: confirmed
+source_ids:
+- PAR-0007
+notes:
+- text: >-
+    Birth of João Muniz Bittencourt (P-0019) about 1847 on the Ilha de São Miguel
+    (Açores, Portugal), directly stated as his origin ("natural da Ilha de São Miguel")
+    in his 1915 death (PAR-0007); the year is inferred from his age 68 at death. He was
+    the Azorean immigrant of the line. His mother is not named in the death record; his
+    father was Manoel Luiz Bittencourt (P-0042).
