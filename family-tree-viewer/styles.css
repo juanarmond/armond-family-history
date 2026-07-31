@@ -810,6 +810,7 @@ a:focus-visible {
 .source-link.external:hover { border-color: var(--gold); color: var(--green-deep); }
 .source-none { color: var(--faint); font-size: .74rem; font-style: italic; }
 button.source-link { cursor: pointer; }
+.source-flagged { border-left: 3px solid var(--conflict); padding-left: .6rem; }
 .reader-open { background: var(--gold); border-color: var(--gold); color: #2b2312; }
 .reader-open:hover { background: var(--gold-bright); border-color: var(--green-deep); color: #2b2312; }
 

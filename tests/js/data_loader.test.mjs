@@ -357,3 +357,26 @@ test("a person's sources are ordered by life event, supporting records last", ()
   const order = data.people["P-1"].sources.map((s) => s.id);
   assert.deepEqual(order, ["CIV-b", "CIV-m", "CIV-d", "PUB-1"]);
 });
+
+test("an uncertain transcription flags the source and the person, not name variants", () => {
+  const input = {
+    people: {
+      "P-1": { id: "P-1", preferred_name: "A", privacy: "deceased", name_variants: [{ value: "A" }, { value: "A variant" }], event_ids: [], family_ids: [], notes: [] },
+      "P-2": { id: "P-2", preferred_name: "B", privacy: "deceased", name_variants: [{ value: "B" }, { value: "B variant" }], event_ids: [], family_ids: [], notes: [] },
+    },
+    families: {},
+    events: {},
+    places: {},
+    sources: {
+      "CIV-1": { title: "x", transcription: "compareceu [uncertain: Fulano] de tal", linked_people: ["P-1"] },
+      "CIV-2": { title: "y", transcription: "a clean, fully legible reading", linked_people: ["P-2"] },
+    },
+    fan: {},
+  };
+  const data = projectTreeData(input);
+  assert.equal(data.sources["CIV-1"].uncertain, true);
+  assert.equal(data.sources["CIV-2"].uncertain, false);
+  assert.equal(data.people["P-1"].hasConflict, true);
+  // Only a name variant, no uncertain source and no conflict note → not flagged.
+  assert.equal(data.people["P-2"].hasConflict, false);
+});

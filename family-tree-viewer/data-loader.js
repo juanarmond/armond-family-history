@@ -247,6 +247,10 @@ export function projectTreeData({ people, families, events, places, sources, fan
     if (["jpg", "jpeg", "png", "tif", "tiff", "gif", "webp"].includes(ext)) return "image";
     return "other";
   };
+  // A source carries an unresolved reading when its transcription marks a genuine
+  // gap/uncertainty ([torn], [stain], [illegible], [uncertain: …]).
+  const hasUncertainty = (txn) =>
+    typeof txn === "string" && /\[(?:torn|stain|illegible|ileg[íi]ve\w*|uncertain)\b/i.test(txn);
   const sourceView = Object.fromEntries(
     Object.entries(sources).map(([sourceId, source]) => {
       const rawPath = source.digital_file?.path || source.repository?.repository_path || null;
@@ -263,6 +267,7 @@ export function projectTreeData({ people, families, events, places, sources, fan
         involvesLiving: (source.linked_people || []).some(
           (pid) => (people[pid]?.privacy) === "living",
         ),
+        uncertain: hasUncertainty(source.transcription),
         transcription:
           typeof source.transcription === "string" && source.transcription.trim()
             ? source.transcription.trim()
@@ -408,7 +413,10 @@ export function projectTreeData({ people, families, events, places, sources, fan
     sourceYear[sid] = year ?? 9999;
   }
 
-  const conflictTerms = ["conflict", "uncertain", "unresolved", "variant", "pending"];
+  // A person is flagged only for genuine, localisable signals: a source whose
+  // transcription carries an unresolved reading, or a note that explicitly
+  // records a conflict. Name variants alone are not a conflict.
+  const conflictTerms = ["conflict", "unresolved"];
   const peopleView = {};
 
   for (const [personId, person] of Object.entries(people)) {
@@ -424,7 +432,8 @@ export function projectTreeData({ people, families, events, places, sources, fan
         (sourceYear[a] ?? 9999) - (sourceYear[b] ?? 9999) ||
         a.localeCompare(b),
     );
-    const conflictText = [...notes, ...variants.slice(1)].join(" ").toLocaleLowerCase();
+    const conflictText = notes.join(" ").toLocaleLowerCase();
+    const personSources = living ? [] : sourceIds.map((id) => sourceView[id]).filter(Boolean);
 
     peopleView[personId] = {
       id: personId,
@@ -438,7 +447,7 @@ export function projectTreeData({ people, families, events, places, sources, fan
         `${a.type}${JSON.stringify(a.date)}`.localeCompare(`${b.type}${JSON.stringify(b.date)}`),
       ),
       sourceCount: sourceIds.length,
-      sources: living ? [] : sourceIds.map((id) => sourceView[id]).filter(Boolean),
+      sources: personSources,
       spouses: living ? [] : (spousesByPerson[personId] || []).map((entry) => ({
         id: entry.spouseId,
         name: people[entry.spouseId]?.preferred_name || entry.spouseId,
@@ -457,7 +466,9 @@ export function projectTreeData({ people, families, events, places, sources, fan
       fanReferences: living
         ? []
         : (fanByPerson[personId] || []).slice().sort((a, b) => a.id.localeCompare(b.id)),
-      hasConflict: conflictTerms.some((term) => conflictText.includes(term)),
+      hasConflict:
+        personSources.some((entry) => entry.uncertain) ||
+        conflictTerms.some((term) => conflictText.includes(term)),
     };
   }
 

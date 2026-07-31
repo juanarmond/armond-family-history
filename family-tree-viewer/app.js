@@ -648,7 +648,7 @@ function sourceList(sources) {
 
   for (const source of sources) {
     const li = document.createElement("li");
-    li.className = "source-item";
+    li.className = source.uncertain ? "source-item source-flagged" : "source-item";
 
     const title = document.createElement("div");
     title.className = "source-title";
@@ -673,6 +673,7 @@ function sourceList(sources) {
       none.textContent = t("source.noFile");
       actions.append(none);
     }
+    if (source.uncertain) actions.append(createBadge(t("source.uncertain"), "conflict"));
     if (source.involvesLiving) actions.append(createBadge(t("badge.private")));
 
     const nodes = [title];

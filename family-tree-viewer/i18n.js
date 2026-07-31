@@ -81,7 +81,7 @@ const STRINGS = {
     "detail.notes": "Research notes",
     "detail.privacy": "Privacy",
     "detail.caution":
-      "⚠ This record has unresolved or conflicting evidence — see the notes and sources below.",
+      "⚠ This record has sources with uncertain or unresolved readings — they are marked ⚠ below.",
     "detail.livingMinimised": "Details are intentionally minimised for living people.",
     "fact.privacy": "Privacy",
     "fact.sources": "Sources",
@@ -105,6 +105,7 @@ const STRINGS = {
     "file.viewFile": "View file",
     "source.recordLink": "Source record ↗",
     "source.noFile": "No file retained",
+    "source.uncertain": "Uncertain reading",
     "reader.open": "Read document ⤢",
     "reader.close": "Close",
     "reader.transcription": "Transcription",
@@ -168,7 +169,7 @@ const STRINGS = {
     "detail.notes": "Notas de pesquisa",
     "detail.privacy": "Privacidade",
     "detail.caution":
-      "⚠ Este registro tem evidências não resolvidas ou conflitantes — veja as notas e fontes abaixo.",
+      "⚠ Este registro tem fontes com leituras incertas ou não resolvidas — marcadas com ⚠ abaixo.",
     "detail.livingMinimised": "Os detalhes são intencionalmente minimizados para pessoas vivas.",
     "fact.privacy": "Privacidade",
     "fact.sources": "Fontes",
@@ -192,6 +193,7 @@ const STRINGS = {
     "file.viewFile": "Ver arquivo",
     "source.recordLink": "Registro da fonte ↗",
     "source.noFile": "Nenhum arquivo retido",
+    "source.uncertain": "Leitura incerta",
     "reader.open": "Ler documento ⤢",
     "reader.close": "Fechar",
     "reader.transcription": "Transcrição",
