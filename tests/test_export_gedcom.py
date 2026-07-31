@@ -85,7 +85,7 @@ class GedcomFixture:
         _write(self.root, "people", {
             "id": "P-0003", "preferred_name": "Liliosa Paz Armond",
             "privacy": "deceased", "sex": "female",
-            "event_ids": ["E-0003"], "family_ids": ["F-0001"], "notes": [],
+            "event_ids": ["E-0003", "E-0005"], "family_ids": ["F-0001"], "notes": [],
         })
         _write(self.root, "people", {
             "id": "P-0004", "preferred_name": "Geraldo Paz Armond",
@@ -147,6 +147,13 @@ class GedcomFixture:
             "participants": [{"person_id": "P-0001", "role": "principal"}],
             "status": "confirmed", "source_ids": ["CIV-0002"], "notes": [],
         })
+        _write(self.root, "events", {
+            "id": "E-0005", "event_type": "death",
+            "date": {"kind": "year", "year": 1970},
+            "place_text": "Somewhere",
+            "participants": [{"person_id": "P-0003", "role": "principal"}],
+            "status": "rejected", "source_ids": ["CIV-0001"], "notes": [],
+        })
 
     def cleanup(self) -> None:
         self._tmp.cleanup()
@@ -198,21 +205,50 @@ class ExportGedcomTest(unittest.TestCase):
         self.assertIn("1 LANG Portuguese", text)
         self.assertIn("1 RESN privacy", text)
 
-    def test_never_leaks_scans_paths_or_transcriptions(self) -> None:
-        # Private scans, paths, hashes and transcriptions must never appear, in
-        # any version or living mode.
+    def _assert_scrubbed(self, text: str, label: str) -> None:
+        self.assertNotIn("evidence/", text, label)
+        self.assertNotIn(SECRET_PATH, text, label)
+        self.assertNotIn(SECRET_TRANSCRIPTION, text, label)
+        self.assertNotIn("Transcription:", text, label)
+        self.assertNotIn("sha256", text.lower(), label)
+        self.assertNotIn("repository_path", text, label)
+        self.assertNotIn("REJECTED", text, label)
+
+    def test_shareable_modes_never_leak(self) -> None:
+        # The safe-to-share outputs — redact/omit, and full with --no-private —
+        # carry no scans, paths, hashes, transcriptions or rejected edges.
         for version in SUPPORTED_VERSIONS:
-            for mode in ("full", "redact", "omit"):
-                text = build_gedcom(self.root, version=version, living=mode)
-                label = f"{version}/{mode}"
-                self.assertNotIn("evidence/", text, label)
-                self.assertNotIn(SECRET_PATH, text, label)
-                self.assertNotIn(SECRET_TRANSCRIPTION, text, label)
-                self.assertNotIn("sha256", text.lower(), label)
-                self.assertNotIn("repository_path", text, label)
-                self.assertFalse(
-                    re.search(r"\b\d{3}\.\d{3}\.\d{3}-\d{2}\b", text), label
+            for mode in ("redact", "omit"):
+                self._assert_scrubbed(
+                    build_gedcom(self.root, version=version, living=mode),
+                    f"{version}/{mode}",
                 )
+            self._assert_scrubbed(
+                build_gedcom(self.root, version=version, living="full",
+                             include_private=False),
+                f"{version}/no-private",
+            )
+
+    def test_archival_full_export_includes_private_detail(self) -> None:
+        # The default full export is the owner's archival copy: it *does* carry
+        # transcriptions and OBJE scan references.
+        for version in SUPPORTED_VERSIONS:
+            text = build_gedcom(self.root, version=version, living="full")
+            self.assertIn(f"Transcription: {SECRET_TRANSCRIPTION}", text, version)
+            self.assertIn(f"FILE {SECRET_PATH}", text, version)
+            self.assertIn("sha256: " + "a" * 64, text, version)
+
+    def test_rejected_edges_flagged_in_archival_but_absent_when_shareable(self) -> None:
+        full = build_gedcom(self.root, living="full")
+        self.assertIn("REJECTED", full)
+        self.assertIn("3 QUAY 0", full)          # rejected → quality 0
+        self.assertIn("1970", full)              # the rejected death date appears
+        for text in (
+            build_gedcom(self.root, living="redact"),
+            build_gedcom(self.root, living="full", include_private=False),
+        ):
+            self.assertNotIn("REJECTED", text)
+            self.assertNotIn("3 QUAY 0", text)
 
     def test_sex_drives_husband_and_wife(self) -> None:
         text = build_gedcom(self.root)

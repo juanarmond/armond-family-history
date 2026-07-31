@@ -149,9 +149,10 @@ permission. Government identifiers, full addresses, signatures and other
 sensitive details must not be transcribed unless essential to the research.
 
 Structured records export to GEDCOM (7.0 by default, 5.5.1 via
-`make export-legacy`) with `make export` (living people in full — a private local
-backup, not for upload) or `make export-public` (living people redacted, for
-sharing). The export is text-only: it never carries scans, transcriptions,
-checksums or `evidence/` paths. See
+`make export-legacy`). `make export` is the owner's **archival** copy —
+everything: living people in full, plus transcriptions, scan `OBJE` references and
+rejected edges (flagged). It is a private local backup; **do not upload it**.
+`make export-public` is the **scrubbed** shareable copy — living people redacted
+and no scans, transcriptions, checksums, `evidence/` paths or rejected edges. See
 [docs/gedcom-export-design.md](docs/gedcom-export-design.md) for the field
-mapping, redaction rules and their limits.
+mapping, tiers and their limits.

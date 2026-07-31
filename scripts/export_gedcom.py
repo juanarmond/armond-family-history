@@ -1,19 +1,20 @@
 #!/usr/bin/env python3
 """Export the canonical YAML data model to a GEDCOM file (7.0 or 5.5.1).
 
-Text-only by design. The export carries people, families, events, and source
-*citations* — never the scans behind them. It deliberately emits no ``OBJE``
-multimedia records, no source ``transcription`` text, no ``digital_file`` /
-``repository_path`` values, and no ``evidence/`` paths (all optional in GEDCOM,
-so omitting them is standards-compliant). See ``docs/gedcom-export-design.md``.
+The default (``make export``) is the owner's **archival** copy: everything —
+people, families, events, source citations, transcriptions, scan paths/checksums,
+``OBJE`` records referencing the ``evidence/`` scans, and rejected edges (flagged).
+It is a private local backup; do not upload it. ``--no-private`` (and, always, the
+shareable ``--living redact``/``omit`` modes) drop transcriptions, scan
+paths/checksums, ``OBJE`` media and rejected edges — that is the safe-to-share
+file. See ``docs/gedcom-export-design.md``.
 
 Version (``--gedcom-version``): ``7.0`` (default, the current FamilySearch
 standard) or ``5.5.1`` (for the widest commercial-site import support).
 
 Living people (``privacy: living`` or ``unknown``) are controlled by ``--living``:
 ``full`` (default) exports everything; ``redact`` emits a minimal "Living" node
-with family links only; ``omit`` drops them entirely. A ``redact``/``omit`` file is
-the one safe to share; the ``full`` file is a private local backup.
+with family links only; ``omit`` drops them entirely.
 """
 
 from __future__ import annotations
@@ -34,8 +35,24 @@ else:  # pragma: no cover - exercised only when run as a script
 MONTHS = ["", "JAN", "FEB", "MAR", "APR", "MAY", "JUN",
           "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
 
-QUAY = {"confirmed": "3", "strong-evidence": "2", "hypothesis": "1"}
+QUAY = {"confirmed": "3", "strong-evidence": "2", "hypothesis": "1", "rejected": "0"}
 SEX_TAG = {"male": "M", "female": "F", "unknown": "U"}
+
+STATUS_NOTE = {
+    "hypothesis": "Unproven hypothesis (not yet confirmed by evidence).",
+    "rejected": "REJECTED - disproven; retained for completeness, not an asserted "
+                "fact.",
+}
+
+# Scan format per file extension: (5.5.1 MULTIMEDIA_FORMAT, 7.0 IANA media type).
+MEDIA_FORMS = {
+    "jpg": ("jpg", "image/jpeg"),
+    "jpeg": ("jpg", "image/jpeg"),
+    "png": ("png", "image/png"),
+    "tif": ("tif", "image/tiff"),
+    "tiff": ("tif", "image/tiff"),
+    "pdf": ("pdf", "application/pdf"),
+}
 
 # INDI-level event tag per event_type. `marriage` is emitted on the FAM instead.
 INDI_EVENT_TAGS = {
@@ -144,6 +161,7 @@ class GedcomBuilder:
         living: str = "full",
         include_hypotheses: bool = True,
         include_notes: bool = True,
+        include_private: bool = True,
     ) -> None:
         if version not in SUPPORTED_VERSIONS:
             raise ValueError(f"unsupported GEDCOM version: {version!r}")
@@ -159,7 +177,13 @@ class GedcomBuilder:
         self.living = living
         self.include_hypotheses = include_hypotheses
         self.include_notes = include_notes
+        # Private detail (transcriptions, scan paths/checksums, OBJE media, and
+        # rejected edges) is the owner's archival copy. It is force-disabled for
+        # the shareable redact/omit modes so those stay safe regardless.
+        self.include_private = include_private and living == "full"
         self.used_sources: set[str] = set()
+        # 7.0 OBJE records to emit: (xref, path, media-type, title, sha256).
+        self.media: list[tuple[str, str, str, str, str]] = []
         self.lines: list[str] = []
 
     # -- low-level emission -------------------------------------------------
@@ -217,10 +241,15 @@ class GedcomBuilder:
     # -- status gating ------------------------------------------------------
     def allowed(self, status: str | None) -> bool:
         if status == "rejected":
-            return False
+            return self.include_private  # only in the owner's archival export
         if status == "hypothesis" and not self.include_hypotheses:
             return False
         return True
+
+    def emit_status_note(self, level: int, status: str | None) -> None:
+        text = STATUS_NOTE.get(status)
+        if text:
+            self.emit(level, "NOTE", text)
 
     def is_hidden(self, person_id: str) -> bool:
         """A living person hidden entirely (omit mode)."""
@@ -349,8 +378,7 @@ class GedcomBuilder:
             self.emit_date(2, event.get("date"))
             self.emit_place(2, event.get("place_id"), event.get("place_text"))
             self.cite(2, event.get("source_ids"), event.get("status"))
-            if event.get("status") == "hypothesis":
-                self.emit(2, "NOTE", "Unproven hypothesis (not yet confirmed by evidence).")
+            self.emit_status_note(2, event.get("status"))
 
     def emit_family_links(self, person_id: str) -> None:
         for family_id in self.people[person_id].get("family_ids", []):
@@ -457,13 +485,11 @@ class GedcomBuilder:
                 2, marriage_event.get("place_id"), marriage_event.get("place_text")
             )
             self.cite(2, marriage_event.get("source_ids"), marriage_event.get("status"))
-            if marriage_event.get("status") == "hypothesis":
-                self.emit(2, "NOTE", "Unproven hypothesis (not yet confirmed by evidence).")
+            self.emit_status_note(2, marriage_event.get("status"))
         elif isinstance(relationship, dict) and self.allowed(relationship.get("status")):
             self.emit(1, "MARR")
             self.cite(2, relationship.get("source_ids"), relationship.get("status"))
-            if relationship.get("status") == "hypothesis":
-                self.emit(2, "NOTE", "Unproven hypothesis (not yet confirmed by evidence).")
+            self.emit_status_note(2, relationship.get("status"))
 
     def collect_parentage_sources(self, family: dict) -> list[str]:
         collected: list[str] = []
@@ -517,6 +543,54 @@ class GedcomBuilder:
             )
             if classification:
                 self.emit(1, "NOTE", f"Evidence classification: {classification}.")
+            if self.include_private:
+                self.emit_private_source_detail(source_id, source)
+
+    def emit_private_source_detail(self, source_id: str, source: dict) -> None:
+        """Archival-only: transcription, private paths, and the scan as OBJE."""
+        transcription = _clean(source.get("transcription"))
+        if transcription:
+            self.emit(1, "NOTE", f"Transcription: {transcription}")
+        repository = source.get("repository") or {}
+        catalogue = _clean(repository.get("catalogue_reference"))
+        if catalogue:
+            self.emit(1, "NOTE", f"Archival reference: {catalogue}")
+        repo_path = _clean(repository.get("repository_path"))
+        if repo_path:
+            self.emit(1, "NOTE", f"Repository file: {repo_path}")
+        digital = source.get("digital_file") or {}
+        path = _clean(digital.get("path"))
+        if not path:
+            return
+        extension = path.rsplit(".", 1)[-1].lower()
+        form_551, form_70 = MEDIA_FORMS.get(
+            extension, (extension, "application/octet-stream")
+        )
+        title = _clean(source.get("title"))
+        sha = _clean(digital.get("sha256"))
+        if self.version == "5.5.1":
+            self.emit(1, "OBJE")
+            self.emit(2, "FILE", path)
+            self.emit(3, "FORM", form_551)
+            if title:
+                self.emit(2, "TITL", title)
+            if sha:
+                self.emit(2, "NOTE", f"sha256: {sha}")
+        else:
+            obj_xref = f"OBJ{xref(source_id)}"
+            self.lines.append(f"1 OBJE @{obj_xref}@")
+            self.media.append((obj_xref, path, form_70, title, sha))
+
+    def emit_media(self) -> None:
+        """7.0 requires OBJE to be a record; emit the collected scan records."""
+        for obj_xref, path, form, title, sha in self.media:
+            self.lines.append(f"0 @{obj_xref}@ OBJE")
+            self.emit(1, "FILE", path)
+            self.emit(2, "FORM", form)
+            if title:
+                self.emit(2, "TITL", title)
+            if sha:
+                self.emit(1, "NOTE", f"sha256: {sha}")
 
     @staticmethod
     def archival_reference(repository: dict) -> str:
@@ -544,6 +618,7 @@ class GedcomBuilder:
         for family_id in sorted(self.families):
             self.emit_family(family_id)
         self.emit_sources()
+        self.emit_media()
         self.emit(0, "TRLR")
         return "\n".join(self.lines) + "\n"
 
@@ -555,6 +630,7 @@ def build_gedcom(
     living: str = "full",
     include_hypotheses: bool = True,
     include_notes: bool = True,
+    include_private: bool = True,
 ) -> str:
     return GedcomBuilder(
         data_root,
@@ -562,6 +638,7 @@ def build_gedcom(
         living=living,
         include_hypotheses=include_hypotheses,
         include_notes=include_notes,
+        include_private=include_private,
     ).build()
 
 
@@ -584,6 +661,11 @@ def main(argv: list[str] | None = None) -> int:
         help="omit hypothesis-level edges instead of flagging them",
     )
     parser.add_argument("--no-notes", action="store_true", help="omit NOTE text")
+    parser.add_argument(
+        "--no-private", action="store_true",
+        help="drop transcriptions, scan paths/checksums, OBJE media and rejected "
+             "edges (also forced off by --living redact/omit)",
+    )
     args = parser.parse_args(argv)
 
     text = build_gedcom(
@@ -592,6 +674,7 @@ def main(argv: list[str] | None = None) -> int:
         living=args.living,
         include_hypotheses=not args.exclude_hypotheses,
         include_notes=not args.no_notes,
+        include_private=not args.no_private,
     )
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(text, encoding="utf-8")

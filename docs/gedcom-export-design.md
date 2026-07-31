@@ -20,10 +20,11 @@ exported").
 - **Harness:** `make export` → `export/armond-family-history.ged`. The `export/`
   directory is **gitignored**: the YAML is the source of truth; the `.ged` is a
   regenerated derivative.
-- **Guardrail:** a unit test in `make check` that scans the generated output, in
-  every version and living mode, for forbidden tokens (any `evidence/` path,
-  `repository_path`, `sha256`, transcription text, RG/CPF digit patterns) and for
-  well-formedness (level continuity, no dangling pointers). The privacy rule is a
+- **Guardrail:** a unit test in `make check` asserting the **shareable** outputs
+  (`redact`/`omit`, and `--no-private`) carry no `evidence/` path,
+  `repository_path`, `sha256`, transcription or `rejected` edge, in both versions;
+  that the **archival** full export *does* carry them; and that every output is
+  well-formed (level continuity, no dangling pointers). The privacy rule is a
   test, not a promise.
 
 ## 2. Entity → record mapping
@@ -62,24 +63,31 @@ exported").
 | `inferred` | `EST …` |
 | `conflicting` / `unknown` | omit `DATE`; keep an explanatory phrase `(…)` |
 
-## 3. What is deliberately NOT exported
+## 3. Two tiers — archival (everything) vs shareable (scrubbed)
 
-GEDCOM makes multimedia (`OBJE`) and source transcription (`TEXT`) **optional**,
-so omitting them is fully standards-compliant — this is a privacy *policy*, not a
-deviation from the standard.
+The default export (`make export`, `--living full`, private detail on) is the
+owner's **archival** copy and carries everything, including material GEDCOM treats
+as optional:
 
-- **`digital_file` / `evidence/` paths → nothing.** No `OBJE` records are ever
-  emitted. This is the code-level enforcement of "scans never leave", and the
-  reason the export is text-only.
-- **`transcription` → excluded by default.** Full transcriptions can carry RG
-  numbers, addresses, and signatures. The citation carries `abstract` (curated)
-  plus the archival reference, not the raw transcription.
-- **`private: true` sources → citation shell only.** The assertion stays sourced
-  (archive / book / folio), but transcription, `repository_path`, and
-  `digital_file` are suppressed.
-- **`rejected` events / relationships → omitted.** They are disproven; a GEDCOM
-  consumer treats every line as asserted fact, so exporting them would
-  misrepresent.
+- **Scans as `OBJE`.** Each source with a `digital_file` becomes an `OBJE`
+  referencing its `evidence/…` path — a 7.0 `OBJE` record plus a `1 OBJE` pointer,
+  or a 5.5.1 inline `OBJE`/`FILE`/`FORM` — with the media type, title and sha256.
+  The `.ged` *references* the scans; it does not embed them (that would be GEDZIP;
+  see §7).
+- **Transcriptions and private references.** The source `transcription`,
+  `catalogue_reference` and `repository_path` are emitted as `NOTE`s.
+- **`rejected` edges, flagged.** A disproven event/relationship is emitted with
+  `QUAY 0` and a `REJECTED` note — never as a plain fact.
+
+The **shareable** outputs — `make export-public` (`--living redact`/`omit`) and
+any run with `--no-private` — drop all of the above: no `OBJE`, no transcription,
+no scan path/checksum, no `repository_path`, no `rejected` edge. That is the file
+safe to upload. Because a GEDCOM is built for interchange, treat the archival file
+as private-local-only: one upload of it exposes scans, identifiers and
+living-people data irreversibly.
+
+Referencing (not embedding) media, and omitting optional structures in shareable
+mode, are both fully standards-compliant.
 
 ## 4. Redaction rules (living people)
 
@@ -94,6 +102,9 @@ treated conservatively as living) appear:
   tree connected without leaking the living person's own record.
 - **`omit`** — drop the living person's node entirely (and any child/partner link
   to it), for a fully public tree.
+
+Private detail (scans, transcriptions, `rejected` edges — §3) rides only with
+`--living full`; `redact`/`omit` and `--no-private` force it off.
 
 **Caveat — redaction is not a name scrub.** `redact` / `omit` anonymise a living
 person's *own* record; they do **not** rewrite researcher-authored free text
@@ -150,8 +161,10 @@ privacy model forbids.
 
 1. **Version:** GEDCOM **7.0** by default (`make export`); **5.5.1** via
    `make export-legacy` / `--gedcom-version 5.5.1` for commercial-site upload.
-2. **Living people:** shown in **full** by default (`make export`, a private local
-   backup); `make export-public` redacts them for sharing.
+2. **Living people & private detail:** `make export` is the **archival** copy —
+   living people in full, plus scans (`OBJE`), transcriptions and `rejected` edges
+   (§3). `make export-public` (and `--no-private`) is the **scrubbed** shareable
+   copy.
 3. **Hypotheses:** included and flagged (`QUAY 1` + an "unproven hypothesis" note);
    `--exclude-hypotheses` drops them.
 4. **Sex field:** added to the person schema (`male` / `female` / `unknown`) and
