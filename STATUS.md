@@ -153,6 +153,14 @@ relationships. Collaborative profiles remain navigation leads only.
     reasoning as P-0015 Celina/Selina).
 11. Whether the 1866 Vila do Rio Claro power of attorney names the same
     Vicente José de Carvalho Guimarães documented as Francisco's father.
+12. José Secundino de Azevedo's given name (P-0038): "José Secundino"/"Secundino
+    Maria" in the 1922 baptism (PAR-0003) and 1916 marriage register (CIV-0001),
+    but the 2019 certidão of the same act (CIV-0006, handwritten) is read
+    "Sebastião [uncertain] de Azevedo" — probable misread; verify the original
+    before altering P-0038.
+13. João Gonçalves Bohrer × Celina marriage place: "neste Município" (Nova
+    Friburgo, RJ) in CIV-0016 (1924) vs "em Carangola, MG" [uncertain] in CIV-0014
+    (1970); confirm the CIV-0014 reading before use.
 
 Do not resolve a conflict by deleting the weaker version. Preserve every
 material interpretation with its source and confidence.
