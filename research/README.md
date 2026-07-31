@@ -113,11 +113,22 @@ Every source entry should capture, when available:
 
 ## Transcription rules
 
+- **Transcribe the record in full and verbatim.** Capture the whole document —
+  headings, boilerplate, legal formulae, observations, marginalia and signatures —
+  not only the genealogically interesting clauses. Do not silently elide legible
+  text; completeness is the default.
 - Transcribe what is visible, not what is expected.
-- Use `[illegible]`, `[uncertain]` or a question mark for uncertain readings.
-- Preserve original spelling and punctuation in full transcriptions.
-- Put expansions, translations and interpretations in separate notes.
-- Do not use OCR as the sole authority for handwritten records.
+- Reserve gaps for text that is genuinely unreadable, and say why with an explicit
+  marker: `[torn]`, `[stain]`, `[illegible]`, `[uncertain: …]` or a question mark.
+  Never fill a gap with a guess, and never drop legible text behind a bare `[...]`.
+- Preserve original spelling, punctuation and diacritics. Put expansions,
+  translations and interpretations in separate notes, not inline.
+- Transcribe identifiers (record, book/folio, RG/CPF and dossier numbers) as they
+  appear. This is a private repository; the full backup is not shared.
+- Do not use OCR as the sole authority for handwritten records: a machine reading
+  of cursive is a draft to verify against the image, never the final transcript.
+- If the original is unavailable and only a legible copy remains, transcribe the
+  copy and say so; never reconstruct a transcript from memory.
 
 ## Collaborative trees
 

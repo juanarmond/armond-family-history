@@ -25,8 +25,10 @@ whether it is an original image, derivative, screenshot or transcription.
 
 ## Transcription
 
-Transcribe what is visible. Use `[illegible]`, `[uncertain]` or a question mark
-for doubtful readings. Preserve original spelling and punctuation.
+Transcribe the record in full and verbatim — the whole document, not only the
+key clauses. Transcribe what is visible; use `[torn]`, `[illegible]`,
+`[uncertain]` or a question mark for unreadable text, and never drop legible text
+behind a bare `[...]`. Preserve original spelling, punctuation and diacritics.
 
 ## English abstract
 
