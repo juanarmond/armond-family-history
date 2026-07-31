@@ -1,0 +1,245 @@
+"""Tests for the GEDCOM exporter, especially its privacy guarantees.
+
+The fixture is a small self-contained temp repository (not the live data) so the
+tests stay deterministic and can exercise paths the real data may not currently
+contain (e.g. a hypothesis-level edge).
+"""
+
+from __future__ import annotations
+
+import re
+import tempfile
+import unittest
+from pathlib import Path
+
+import yaml
+
+from scripts.export_gedcom import build_gedcom
+
+
+# A transcription that must never reach the export, plus private file details.
+SECRET_TRANSCRIPTION = "sob No 132 encontra-se o assento"
+SECRET_PATH = "evidence/civil/CIV-0002-secret.jpg"
+
+
+def _write(root: Path, directory: str, entity: dict) -> None:
+    target = root / "data" / directory
+    target.mkdir(parents=True, exist_ok=True)
+    (target / f"{entity['id']}.yaml").write_text(
+        yaml.safe_dump(entity, allow_unicode=True, sort_keys=False),
+        encoding="utf-8",
+    )
+
+
+class GedcomFixture:
+    """A minimal repository exercising every export branch."""
+
+    def __init__(self) -> None:
+        self._tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self._tmp.name)
+
+        _write(self.root, "places", {
+            "id": "PL-0001",
+            "preferred_name": "Carangola, Minas Gerais, Brazil",
+            "coordinates": {"latitude": -20.73, "longitude": -42.03},
+        })
+        _write(self.root, "sources/civil", {
+            "id": "CIV-0001",
+            "title": "Civil birth registration of the child",
+            "abstract": "Curated summary, safe to export.",
+            "record_category": "civil_registration",
+            "source_form": "original",
+            "information_quality": "primary",
+            "evidence_type": "direct",
+            "repository": {"name": "Cartorio de Carangola", "book": "2", "page": "142"},
+            "private": False,
+        })
+        _write(self.root, "sources/civil", {
+            "id": "CIV-0002",
+            "title": "Private record",
+            "abstract": "Also curated and safe.",
+            "record_category": "civil_registration",
+            "source_form": "derivative",
+            "information_quality": "mixed",
+            "evidence_type": "direct",
+            "repository": {
+                "name": "Cartorio de Carangola",
+                "repository_path": SECRET_PATH,
+            },
+            "transcription": SECRET_TRANSCRIPTION,
+            "digital_file": {"path": SECRET_PATH, "sha256": "a" * 64},
+            "private": True,
+        })
+
+        # Living subject, with a birth event that redaction must hide.
+        _write(self.root, "people", {
+            "id": "P-0001", "preferred_name": "Juan Carlos Muniz Armond",
+            "privacy": "living", "sex": "male",
+            "event_ids": ["E-0004"], "family_ids": ["F-0001"], "notes": [],
+        })
+        _write(self.root, "people", {
+            "id": "P-0002", "preferred_name": "Aristao Ferreira Armond",
+            "privacy": "deceased", "sex": "male",
+            "event_ids": ["E-0003"], "family_ids": ["F-0001"], "notes": [],
+        })
+        _write(self.root, "people", {
+            "id": "P-0003", "preferred_name": "Liliosa Paz Armond",
+            "privacy": "deceased", "sex": "female",
+            "event_ids": ["E-0003"], "family_ids": ["F-0001"], "notes": [],
+        })
+        _write(self.root, "people", {
+            "id": "P-0004", "preferred_name": "Geraldo Paz Armond",
+            "privacy": "deceased", "sex": "male",
+            "occupations": [{"value": "farmer", "source_ids": ["CIV-0001"]}],
+            "event_ids": ["E-0001", "E-0002"], "family_ids": ["F-0001"],
+            "notes": [{"text": "A modelled child.", "source_ids": ["CIV-0001"]}],
+        })
+
+        _write(self.root, "families", {
+            "id": "F-0001",
+            "partners": [
+                {"person_id": "P-0002", "role": "spouse"},
+                {"person_id": "P-0003", "role": "spouse"},
+            ],
+            "partner_relationship": {"status": "confirmed", "source_ids": ["CIV-0001"]},
+            "children": [
+                {"person_id": "P-0001", "parent_relationships": [
+                    {"parent_id": "P-0002", "status": "confirmed",
+                     "source_ids": ["CIV-0002"]}]},
+                {"person_id": "P-0004", "parent_relationships": [
+                    {"parent_id": "P-0002", "status": "confirmed",
+                     "source_ids": ["CIV-0001"]}]},
+            ],
+            "documented_children": [
+                {"name": "Marfiza Ferreira Armond", "lifespan": "1873-1962",
+                 "source_ids": ["CIV-0001"]},
+            ],
+            "event_ids": ["E-0003"], "notes": [],
+        })
+
+        _write(self.root, "events", {
+            "id": "E-0001", "event_type": "birth",
+            "date": {"kind": "exact", "value": "1915-01-30"},
+            "place_id": "PL-0001",
+            "participants": [{"person_id": "P-0004", "role": "principal"},
+                             {"person_id": "P-0002", "role": "parent"}],
+            "status": "confirmed", "source_ids": ["CIV-0001"], "notes": [],
+        })
+        _write(self.root, "events", {
+            "id": "E-0002", "event_type": "death",
+            "date": {"kind": "approximate", "text": "about 1980", "earliest": 1980},
+            "place_text": "Unknown",
+            "participants": [{"person_id": "P-0004", "role": "principal"}],
+            "status": "hypothesis", "source_ids": ["CIV-0001"], "notes": [],
+        })
+        _write(self.root, "events", {
+            "id": "E-0003", "event_type": "marriage",
+            "date": {"kind": "year", "year": 1910},
+            "place_id": "PL-0001",
+            "participants": [{"person_id": "P-0002", "role": "principal"},
+                             {"person_id": "P-0003", "role": "principal"}],
+            "status": "confirmed", "source_ids": ["CIV-0001"], "notes": [],
+        })
+        _write(self.root, "events", {
+            "id": "E-0004", "event_type": "birth",
+            "date": {"kind": "exact", "value": "1982-05-10"},
+            "place_id": "PL-0001",
+            "participants": [{"person_id": "P-0001", "role": "principal"}],
+            "status": "confirmed", "source_ids": ["CIV-0002"], "notes": [],
+        })
+
+    def cleanup(self) -> None:
+        self._tmp.cleanup()
+
+
+def _assert_well_formed(text: str) -> None:
+    lines = text.splitlines()
+    assert lines[0] == "0 HEAD"
+    assert lines[-1] == "0 TRLR"
+    previous = -1
+    for number, line in enumerate(lines, 1):
+        match = re.match(r"^(\d+) ", line)
+        assert match, f"line {number} lacks a level: {line!r}"
+        level = int(match.group(1))
+        assert level <= previous + 1, f"level jump at line {number}: {line!r}"
+        previous = level
+    defined = set(re.findall(r"^0 @([^@]+)@ ", text, re.M)) | {"SUBM0001"}
+    used = set(re.findall(r"@([^@]+)@", text))
+    assert not (used - defined), f"dangling pointers: {sorted(used - defined)}"
+
+
+class ExportGedcomTest(unittest.TestCase):
+    def setUp(self) -> None:
+        self.fixture = GedcomFixture()
+        self.addCleanup(self.fixture.cleanup)
+        self.root = self.fixture.root / "data"
+
+    def test_structure_is_well_formed(self) -> None:
+        text = build_gedcom(self.root)
+        _assert_well_formed(text)
+        self.assertIn("2 VERS 5.5.1", text)
+        self.assertIn("1 CHAR UTF-8", text)
+        self.assertEqual(len(re.findall(r"^0 @\S+@ INDI$", text, re.M)), 4)
+        self.assertEqual(len(re.findall(r"^0 @\S+@ FAM$", text, re.M)), 1)
+
+    def test_never_leaks_scans_paths_or_transcriptions(self) -> None:
+        # Even in full mode, private scans, paths, hashes and transcriptions
+        # must never appear.
+        for mode in ("full", "redact", "omit"):
+            text = build_gedcom(self.root, living=mode)
+            self.assertNotIn("evidence/", text, mode)
+            self.assertNotIn(SECRET_PATH, text, mode)
+            self.assertNotIn(SECRET_TRANSCRIPTION, text, mode)
+            self.assertNotIn("sha256", text.lower(), mode)
+            self.assertNotIn("repository_path", text, mode)
+            self.assertFalse(re.search(r"\b\d{3}\.\d{3}\.\d{3}-\d{2}\b", text), mode)
+
+    def test_sex_drives_husband_and_wife(self) -> None:
+        text = build_gedcom(self.root)
+        fam = text.split("0 @F0001@ FAM", 1)[1]
+        self.assertIn("1 HUSB @P0002@", fam)  # male
+        self.assertIn("1 WIFE @P0003@", fam)  # female
+        self.assertIn("1 SEX M", text)
+        self.assertIn("1 SEX F", text)
+
+    def test_documented_child_becomes_a_note(self) -> None:
+        text = build_gedcom(self.root)
+        self.assertIn(
+            "Documented child, not individually modelled: Marfiza Ferreira Armond",
+            text,
+        )
+
+    def test_living_full_exports_the_real_record(self) -> None:
+        text = build_gedcom(self.root, living="full")
+        self.assertIn("1 NAME Juan Carlos Muniz /Armond/", text)
+        self.assertIn("10 MAY 1982", text)  # living person's birth date present
+
+    def test_living_redact_anonymises_the_own_record(self) -> None:
+        text = build_gedcom(self.root, living="redact")
+        _assert_well_formed(text)
+        self.assertIn("@P0001@ INDI", text)          # node kept
+        self.assertIn("1 NAME Living /Armond/", text)  # name anonymised
+        self.assertNotIn("1 NAME Juan Carlos Muniz /Armond/", text)
+        self.assertNotIn("10 MAY 1982", text)          # vitals hidden
+        self.assertIn("1 RESN privacy", text)
+
+    def test_living_omit_drops_the_node_without_dangling_refs(self) -> None:
+        text = build_gedcom(self.root, living="omit")
+        _assert_well_formed(text)
+        self.assertNotIn("@P0001@ INDI", text)
+        self.assertNotIn("1 CHIL @P0001@", text)
+
+    def test_hypotheses_are_flagged_by_default(self) -> None:
+        text = build_gedcom(self.root, include_hypotheses=True)
+        self.assertIn("Unproven hypothesis", text)
+        self.assertIn("3 QUAY 1", text)  # hypothesis citation quality
+
+    def test_hypotheses_can_be_excluded(self) -> None:
+        text = build_gedcom(self.root, include_hypotheses=False)
+        self.assertNotIn("Unproven hypothesis", text)
+        # the hypothesis death (E-0002) is dropped entirely
+        self.assertNotIn("3 QUAY 1", text)
+
+
+if __name__ == "__main__":
+    unittest.main()

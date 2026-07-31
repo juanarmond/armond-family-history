@@ -7,6 +7,18 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Add a GEDCOM 5.5.1 exporter (`scripts/export_gedcom.py`, `make export` /
+  `make export-public`) that renders the canonical YAML to a portable, text-only
+  genealogy file — people, families, events and source *citations*, never scans,
+  transcriptions, checksums or `evidence/` paths. Living people are shown in full
+  by default (a private local backup) or redacted with `make export-public`;
+  hypotheses are included and flagged (`QUAY 1`). Adds
+  `tests/test_export_gedcom.py` and `docs/gedcom-export-design.md`; `export/` is
+  gitignored.
+- Add an optional `sex` field (`male` / `female` / `unknown`) to the person schema
+  and template, populated on all 39 people, so the export can set `INDI.SEX` and
+  assign a family's `HUSB` / `WIFE`. Derived from each person's cited vital records
+  and documented spousal or parental role, never from a name.
 - Catalogue two records from the retrieval sync: Cidália's own 1930 birth
   registration (`CIV-0022`, Alvorada) and a third Armond daughter — Aristides
   Ferreira Armand's 1894 marriage to João Rodrigues Braga (`CIV-0023`, Boa Família,

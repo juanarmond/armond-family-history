@@ -139,18 +139,21 @@ not established"). For each `P-NNNN`:
 1. **preferred_name** — the fullest documented form.
 2. **privacy** — `living` / `deceased` / `unknown`; treat possibly-living people
    as `living`, never `deceased` on assumption.
-3. **nationality** — from birthplace (Brazilian by *jus soli*) or a record's
+3. **sex** — `male` / `female` / `unknown`; drives the GEDCOM export's `INDI.SEX`
+   and a family's `HUSB` / `WIFE`. Derive it from the person's cited vital records
+   (gendered terms, spousal or parental role), never from a name alone.
+4. **nationality** — from birthplace (Brazilian by *jus soli*) or a record's
    stated *nacionalidade*; assert a foreign nationality only where a record says
    so, and leave it unset only when genuinely contested. Never infer it from a
    surname.
-4. **name_variants** — every recorded spelling with its `source_ids`; keep maiden
+5. **name_variants** — every recorded spelling with its `source_ids`; keep maiden
    and married forms distinct.
-5. **events** — create a **birth and a death event** for every deceased person
+6. **events** — create a **birth and a death event** for every deceased person
    whose date is evidenced, even when the date is approximate (e.g. inferred from
    the age at death) or the place is only state-level. Cite the source, link the
    person as `principal`, and give every event a place (`place_id` or
    `place_text`). After cataloguing any vital record, create its event.
-6. **family_ids** — link the person both as a *child* (their parents' family) and
+7. **family_ids** — link the person both as a *child* (their parents' family) and
    as a *partner* (their own union), and add the reciprocal entry in the family
    entity. For an attested collateral child that needs no entity of its own (a
    sibling, or another child of the couple), add a `documented_children` entry on
@@ -158,7 +161,7 @@ not established"). For each `P-NNNN`:
    list only clearly deceased collaterals. The viewer's **Siblings** and
    **Children** sections are built from a family's modelled children plus its
    `documented_children`, omitting possibly-living people.
-7. **occupations** / **fan_references** — where a record supports them, each with
+8. **occupations** / **fan_references** — where a record supports them, each with
    `source_ids`.
-8. **notes** — record conflicts, variant spellings, the basis for any inferred
+9. **notes** — record conflicts, variant spellings, the basis for any inferred
    field, and the next research action.

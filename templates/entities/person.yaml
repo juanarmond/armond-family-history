@@ -2,6 +2,7 @@ schema_version: 1
 id: P-NNNN
 preferred_name: ""
 privacy: unknown
+sex: unknown
 name_variants:
   - value: ""
     type: source

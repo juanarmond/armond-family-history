@@ -8,6 +8,11 @@ __pycache__/
 .promotion-prepare-*/
 .entity-promotion-transaction/
 
+# Generated GEDCOM export — a regenerated derivative of the canonical YAML
+# (`make export`), not repository history. The YAML under data/ is the source of
+# truth; rebuild the .ged on demand rather than committing it.
+export/
+
 # Raw FamilySearch retrieval drop — the whole ephemeral working area (raw record
 # images and ranked CSV/JSON, the external reference cache, plans, correspondence
 # and the agent's synthesis). Promote valuable finds into data/ + evidence/ (or

@@ -181,11 +181,10 @@ only in `data/record-coverage.yaml`.
 - **External:** require the frozen repository-health check in GitHub branch
   rules; the external retrieval agent syncs authorised FamilySearch finds into
   `research/from-retrieval/` for the value gate.
-- **Deferred until schema stability:** generated person pages and a
-  privacy-filtered GEDCOM export.
+- **Deferred until schema stability:** generated person pages.
 - **Complete:** versioned schemas, evidence inventory, stable ID allocation,
   recoverable batch promotion, validation, tests, GitHub Actions, the static
-  read-only family-tree viewer, and the certified-copy (derivative)
-  confirmation rule.
+  read-only family-tree viewer, the certified-copy (derivative) confirmation
+  rule, and the GEDCOM 5.5.1 exporter (`make export` / `export-public`).
 
 Completed engineering work is recorded only in `CHANGELOG.md`.
