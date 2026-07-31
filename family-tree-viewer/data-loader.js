@@ -260,6 +260,9 @@ export function projectTreeData({ people, families, events, places, sources, fan
         quality: typeof source.information_quality === "string" ? source.information_quality : null,
         limitation: typeof limitation === "string" && limitation.trim() ? limitation.trim() : null,
         private: Boolean(source.private),
+        involvesLiving: (source.linked_people || []).some(
+          (pid) => (people[pid]?.privacy) === "living",
+        ),
         transcription:
           typeof source.transcription === "string" && source.transcription.trim()
             ? source.transcription.trim()
@@ -296,6 +299,7 @@ export function projectTreeData({ people, families, events, places, sources, fan
         transcription: trimmedText(ref.transcription),
         abstract: trimmedText(ref.abstract),
         file: evidenceHref(ref.digital_file?.path || null),
+        fileType: fileKind(ref.digital_file?.path || null),
         url: trimmedText(ref.repository?.url),
       };
       for (const participant of ref.participants || []) {

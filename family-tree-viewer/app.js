@@ -673,7 +673,7 @@ function sourceList(sources) {
       none.textContent = t("source.noFile");
       actions.append(none);
     }
-    if (source.private) actions.append(createBadge(t("badge.private")));
+    if (source.involvesLiving) actions.append(createBadge(t("badge.private")));
 
     const nodes = [title];
     if (metaBits.length) nodes.push(meta);
@@ -733,6 +733,7 @@ function fanList(refs) {
 
     const actions = document.createElement("div");
     actions.className = "source-actions";
+    if (ref.file && ref.fileType !== "other") actions.append(readerOpenButton(ref));
     if (ref.file) actions.append(externalLink(ref.file, fileLinkLabel(ref.file)));
     if (ref.url) actions.append(externalLink(ref.url, t("source.recordLink"), "external"));
 
