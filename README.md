@@ -154,5 +154,4 @@ people in full, transcriptions, scan `OBJE` references and rejected edges
 (flagged). `make export` writes the `.ged` (committed as an in-repo backup, since
 it references the `evidence/` scans already in the repo); `make export-bundle`
 writes a portable **GEDZIP** (`.gdz`) packaging the GEDCOM plus the actual scan
-files. See [docs/gedcom-export-design.md](docs/gedcom-export-design.md) for the
-field mapping and format details.
+files.

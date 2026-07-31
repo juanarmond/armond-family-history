@@ -13,7 +13,7 @@ scans, so the export is treated as an in-repo backup, not a shareable file.
 - ``make export-legacy`` → GEDCOM 5.5.1 for the widest commercial-site import.
 
 Version (``--gedcom-version``): ``7.0`` (default, the current FamilySearch
-standard) or ``5.5.1``. See ``docs/gedcom-export-design.md``.
+standard) or ``5.5.1``.
 """
 
 from __future__ import annotations

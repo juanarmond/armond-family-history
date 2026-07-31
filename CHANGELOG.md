@@ -18,8 +18,7 @@ also remain traceable through source records and research logs.
   `INDI` + `CHIL` nodes (export-only `@DOC…@` xrefs, no person entity minted).
   `make export-bundle` writes a **GEDZIP** (`.gdz`) packaging the GEDCOM plus the
   scan files. The `.ged` is committed as an in-repo backup; `.gdz` bundles and the
-  5.5.1 file are gitignored. Adds `tests/test_export_gedcom.py` and
-  `docs/gedcom-export-design.md`.
+  5.5.1 file are gitignored. Adds `tests/test_export_gedcom.py`.
 - Add an optional `sex` field (`male` / `female` / `unknown`) to the person schema
   and template, populated on all 39 people, so the export can set `INDI.SEX` and
   assign a family's `HUSB` / `WIFE`. Derived from each person's cited vital records
