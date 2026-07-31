@@ -118,6 +118,7 @@ schema_version: 1
 id: P-9001
 preferred_name: Example Person
 privacy: unknown
+sex: unknown
 name_variants:
   - value: Example Person
     type: source

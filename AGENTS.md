@@ -175,8 +175,9 @@ reads it as deliberate rather than missing.
 - Keep the two source layers separate but in step. A source is a YAML **record**
   under `data/sources/<category>/` and, separately, its binary **scan** under
   `evidence/<category>/`: the record is machine-readable and exportable, the scan
-  is a private image/document that is never exported. Do not merge them into one
-  tree.
+  is a private binary kept out of the structured data. The full-backup GEDCOM
+  references scans and the GEDZIP bundle packages them as a private backup, but
+  the two layers stay separate — do not merge them into one tree.
 - Preserve stable IDs: immutable once assigned; never renumber a live entity.
   Sources and their scans are category-prefixed by origin (`CIV`, `GOV`, `PAR`,
   `PRB`, `NWS`, `PUB`, `REC`) and share the ID prefix

@@ -110,7 +110,7 @@ them explicitly.
 Challenge the architecture continuously, but prefer simple, readable designs.
 Implement low-risk improvements immediately. Record higher-risk proposals,
 migration effort and maintenance impact in `STATUS.md`. Defer generated person
-pages and exports until real source records demonstrate schema stability.
+pages until real source records demonstrate schema stability.
 
 If the highest-priority task is blocked, record the negative result and exact
 intervention required. Continue to a lower task only when that does not bypass
