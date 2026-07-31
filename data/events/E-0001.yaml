@@ -14,4 +14,9 @@ status: confirmed
 source_ids:
   - CIV-0001
   - CIV-0006
-notes: []
+  - PAR-0012
+notes:
+  - text: >-
+      The 21 October 1916 marriage of Deocleciano and Luiza is recorded both civilly
+      (CIV-0001, inteiro teor CIV-0006) and in the parish register (PAR-0012, acto nº
+      35, Santa Luzia de Carangola) — the religious ceremony of the same date.

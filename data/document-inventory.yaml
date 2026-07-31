@@ -1680,3 +1680,107 @@ documents:
       - >-
         Ignacia Maria de Jesus (widow of Antonio Caetano Machado), a strong candidate
         for P-0041's mother. All named persons long deceased.
+  - inventory_id: DOC-0043
+    status: catalogued
+    added_date: "2026-07-31"
+    apparent_record_type: Parish marriage register entry (original)
+    apparent_people:
+      - Deocleciano Muniz Bittencourt
+      - Luiza Fernandes de Azevedo
+      - João Muniz Bittencourt
+      - Susanna Rita Brandão
+      - José Secundino de Azevedo
+      - Thereza Fernandes de Azevedo
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      Livro de casamentos, Paróquia de Santa Luzia de Carangola, MG, acto nº 35 (21 Oct
+      1916). Familiaridade online gallery; owner's authorised research/from-retrieval/
+      sync; read 31 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0012-deocleciano-muniz-bittencourt-luiza-azevedo-marriage-1916-carangola.jpg
+        sha256: b341c422435cc6d8949ea4d6482558a623132117663d4ae30640ad1bec4bcae5
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 4000
+          pixel_height: 6000
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0012
+    notes:
+      - >-
+        The religious 1916 marriage (same union as CIV-0001); primary-confirms Luiza's
+        parents and resolves the Sebastião/Secundino question. All named persons deceased.
+  - inventory_id: DOC-0044
+    status: catalogued
+    added_date: "2026-07-31"
+    apparent_record_type: Parish marriage register entry (original)
+    apparent_people:
+      - Joventina Muniz Bittencourt
+      - Nestor Lopes Barbosa
+      - João Muniz Bittencourt
+      - Susanna Rita Brandão
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      Livro de casamentos, Paróquia de Santa Luzia de Carangola, MG, acto nº 34 (21 Oct
+      1916). Familiaridade online gallery; owner's authorised research/from-retrieval/
+      sync; read 31 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0013-joventina-muniz-bittencourt-marriage-1916-carangola.jpg
+        sha256: fa46ac86a30500aea05842441911ce13d2168116a80599f7b17c8bc0fdd1fc9a
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 4000
+          pixel_height: 6000
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0013
+    notes:
+      - >-
+        Establishes Joventina as a sister of Deocleciano (documented child on F-0007).
+        All named persons deceased.
+  - inventory_id: DOC-0045
+    status: catalogued
+    added_date: "2026-07-31"
+    apparent_record_type: Parish marriage register entry (original)
+    apparent_people:
+      - Mercedes Maria Bittencourt
+      - João Monteiro de Azevedo
+      - João Muniz Bittencourt
+      - Susanna Rita Brandão
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      Livro de casamentos, Paróquia de Santa Luzia de Carangola, MG, acto nº 23 (10 Sep
+      1917). Familiaridade online gallery; owner's authorised research/from-retrieval/
+      sync; read 31 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0014-mercedes-maria-bittencourt-marriage-1917-carangola.jpg
+        sha256: f3b5a5a81c3514e479eae9024eaa22a1c17ed552006c596a546cb575d66d2370
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 4000
+          pixel_height: 6000
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0014
+    notes:
+      - >-
+        Establishes Mercedes as a sister of Deocleciano (documented child on F-0007).
+        All named persons deceased.

@@ -1,0 +1,73 @@
+schema_version: 1
+id: PAR-0013
+title: >-
+  Parish marriage register entry of Nestor Lopes Barbosa and Joventina Muniz
+  Bittencourt (1916, Santa Luzia de Carangola)
+record_type: Parish marriage register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1916-10-21"
+event_place_text: >-
+  Igreja de Santa Luzia de Carangola, Carangola, Minas Gerais, Brazil
+repository:
+  name: Paróquia de Santa Luzia (Diocese de Caratinga), Carangola, Minas Gerais, Brazil
+  archive_or_registry: >-
+    Livro de casamentos, Paróquia de Santa Luzia de Carangola, MG (Familiaridade
+    online gallery)
+  book: casamentos
+  record_number: "34"
+  catalogue_reference: >-
+    Marriage act nº 34 of 21 October 1916, Livro de casamentos, Paróquia de Santa
+    Luzia de Carangola, MG. Register image via the Familiaridade online gallery,
+    delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026.
+  repository_path: evidence/parish/PAR-0013-joventina-muniz-bittencourt-marriage-1916-carangola.jpg
+access_date: "2026-07-31"
+language: pt-BR
+transcription: >-
+  [Paróquia de Santa Luzia de Carangola, MG; livro de casamentos, acto nº 34. Margem:
+  "Nestor Barbosa e Joventina Muniz Bittencourt".] "Aos vinte e um de Outubro de mil
+  novecentos e dezeseis, nesta Egreja de Santa Luzia, assisti ao Matrimonio de Nestor
+  Lopes Barbosa e D. Joventina Muniz Bittencourt, ambos solteiros e residentes nesta
+  Freguesia. O orador com vinte e um annos de edade, nascido e baptizado em São
+  Francisco do Gloria, filho legítimo de Manoel Lopes de Faria e D. Antonia Barbosa; e
+  a oradora nascida e baptizada nesta Freguesia, com dezesete annos de edade, filha
+  legítima de João Muniz Bittencourt e D. Suzana [Rita] Brandão. [E para constar mandei
+  lavrar este assentamento que assigno. O Vigario P.e João Coutinho.]"
+abstract: >-
+  The original 1916 parish marriage of Nestor Lopes Barbosa and Joventina Muniz
+  Bittencourt at Santa Luzia de Carangola, 21 October 1916. Joventina (17, born and
+  baptized in the Carangola parish) is a legitimate daughter of João Muniz Bittencourt
+  (P-0019) and Suzana Rita Brandão (P-0020) — hence a sister of Deocleciano (P-0012),
+  recorded as a documented child on F-0007. That she was born ~1899 in Carangola (while
+  Deocleciano was born 1892 in Sapucaia) dates the family's move from Sapucaia (RJ) to
+  Carangola (MG) to between 1892 and ~1899.
+reliability:
+  assessment: >-
+    Direct primary parish evidence that Joventina is a daughter of João Muniz
+    Bittencourt and Suzana Rita Brandão (a sister of Deocleciano).
+  informant: The officiating vigário, Pe. João Coutinho (1916).
+  limitations: >-
+    Handwritten register; the mother's given name at the entry foot is partly cut, read
+    as "Suzana [Rita] Brandão". Joventina is a collateral sibling recorded as a
+    documented child, not modelled as a person entity.
+digital_file:
+  path: evidence/parish/PAR-0013-joventina-muniz-bittencourt-marriage-1916-carangola.jpg
+  sha256: fa46ac86a30500aea05842441911ce13d2168116a80599f7b17c8bc0fdd1fc9a
+linked_people:
+- P-0019
+- P-0020
+linked_families:
+- F-0007
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Establishes Joventina Muniz Bittencourt as a sister of Deocleciano (documented child
+    on F-0007). Her Carangola birthplace (~1899) helps date the family's Sapucaia→Carangola
+    move.

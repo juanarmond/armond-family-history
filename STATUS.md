@@ -93,13 +93,13 @@ and cataloguing work.
 | Structured families | 22 |
 | Structured events | 46 |
 | Structured places | 9 |
-| Structured sources | 43 |
+| Structured sources | 46 |
 | Structured FAN references | 13 |
-| Inventoried retained documents | 42 |
-| Validation | 179 entities; zero errors or warnings at the last check |
+| Inventoried retained documents | 45 |
+| Validation | 182 entities; zero errors or warnings at the last check |
 | Automated tests | 69 passing at the last check |
 
-The 43 catalogued sources (across the `CIV`, `GOV`, `PAR`, `PRB` and `PUB`
+The 46 catalogued sources (across the `CIV`, `GOV`, `PAR`, `PRB` and `PUB`
 categories) span the Armond/Paz, Muniz Bittencourt/Azevedo,
 Engracio/Souza/Guimarães, Bohrer and Portuguese-origin lines, include the
 maternal Toledo probate cluster and the Barbacena context sources, and include
@@ -155,11 +155,10 @@ relationships. Collaborative profiles remain navigation leads only.
     reasoning as P-0015 Celina/Selina).
 11. Whether the 1866 Vila do Rio Claro power of attorney names the same
     Vicente José de Carvalho Guimarães documented as Francisco's father.
-12. José Secundino de Azevedo's given name (P-0038): "José Secundino"/"Secundino
-    Maria" in the 1922 baptism (PAR-0003) and 1916 marriage register (CIV-0001),
-    but the 2019 certidão of the same act (CIV-0006, handwritten) is read
-    "Sebastião [uncertain] de Azevedo" — probable misread; verify the original
-    before altering P-0038.
+12. RESOLVED (31 July 2026): José Secundino de Azevedo's given name (P-0038). The
+    parish register of the 1916 marriage (PAR-0012) reads "Secundino Maria de Azevedo",
+    matching CIV-0001 and the "José Secundino" of the 1922 baptism (PAR-0003) — the
+    2019 civil inteiro-teor's "Sebastião" (CIV-0006) was a misread.
 13. João Gonçalves Bohrer × Celina marriage place: "neste Município" (Nova
     Friburgo, RJ) in CIV-0016 (1924) vs "em Carangola, MG" [uncertain] in CIV-0014
     (1970); confirm the CIV-0014 reading before use.

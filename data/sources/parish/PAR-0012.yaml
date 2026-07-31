@@ -1,0 +1,87 @@
+schema_version: 1
+id: PAR-0012
+title: >-
+  Parish marriage register entry of Deocleciano Muniz Bittencourt and Luiza
+  Fernandes de Azevedo (1916, Santa Luzia de Carangola), naming both couples' parents
+record_type: Parish marriage register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1916-10-21"
+event_place_text: >-
+  Igreja de Santa Luzia de Carangola, Carangola, Minas Gerais, Brazil
+repository:
+  name: Paróquia de Santa Luzia (Diocese de Caratinga), Carangola, Minas Gerais, Brazil
+  archive_or_registry: >-
+    Livro de casamentos, Paróquia de Santa Luzia de Carangola, MG (Familiaridade
+    online gallery of the Carangola parish books)
+  book: casamentos
+  record_number: "35"
+  catalogue_reference: >-
+    Marriage act nº 35 of 21 October 1916, Livro de casamentos, Paróquia de Santa
+    Luzia de Carangola, MG. Register image via the Familiaridade online gallery,
+    delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026.
+  repository_path: evidence/parish/PAR-0012-deocleciano-muniz-bittencourt-luiza-azevedo-marriage-1916-carangola.jpg
+access_date: "2026-07-31"
+language: pt-BR
+transcription: >-
+  [Paróquia de Santa Luzia de Carangola, MG; livro de casamentos, acto nº 35. Margem:
+  "Deocleciano Muniz Bittencourt e Luiza Fernandes de Azevedo".] "Aos vinte e um de
+  Outubro de mil novecentos e dezeseis, nesta Egreja de Santa Luzia, receberam-se em
+  Matrimonio Deocleciano Muniz Bittencourt e D. Luiza Fernandes de Azevedo, ambos
+  solteiros e residentes nesta Freguesia. O orador com vinte e quatro annos de edade,
+  nascido e baptizado em Sapucaya, Estado do Rio, filho legítimo de João Muniz
+  Bittencourt [escrito "João [uncertain: Luiz] Bittencourt"] e D. Suzana Rita Brandão;
+  a oradora com dezoito annos de edade, nascida e baptizada em Bom Jesus de Cachoeira
+  Alegre, filha legítima de Secundino Maria de Azevedo e D. Thereza Fernandes de
+  Azevedo. Foram testemunhas: Justino Ribeiro Rodrigues e Antonio Theodoro de Souza. E
+  para constar mandei lavrar este assentamento que assigno. O Vigario P.e João Coutinho."
+abstract: >-
+  The original 1916 parish (religious) marriage of Deocleciano Muniz Bittencourt
+  (P-0012) and Luiza Fernandes de Azevedo (P-0013) at Santa Luzia de Carangola, 21
+  October 1916 — the same union as the civil record (CIV-0001, same date). It names
+  Deocleciano (24, born and baptized in Sapucaia RJ; son of João Muniz Bittencourt
+  P-0019 and Suzana Rita Brandão P-0020) and Luiza (18, born and baptized in Bom Jesus
+  de Cachoeira Alegre; daughter of Secundino Maria de Azevedo P-0038 and Thereza
+  Fernandes de Azevedo P-0039). Primary confirmation of Luiza's parents, and it settles
+  the flagged CIV-0006 "Sebastião" misread — her father is Secundino (Maria) de Azevedo.
+reliability:
+  assessment: >-
+    Direct primary parish evidence for the marriage and for both spouses' parentage,
+    ages and birthplaces. Corroborates the civil marriage (CIV-0001) and the baptism
+    PAR-0003.
+  informant: The officiating vigário, Pe. João Coutinho (1916).
+  limitations: >-
+    Handwritten register; the groom's father's middle name is written ambiguously
+    ("João [Luiz/Muniz] Bittencourt") — the Muniz/Luiz cursive variant also seen in
+    João's óbito (PAR-0007).
+digital_file:
+  path: evidence/parish/PAR-0012-deocleciano-muniz-bittencourt-luiza-azevedo-marriage-1916-carangola.jpg
+  sha256: b341c422435cc6d8949ea4d6482558a623132117663d4ae30640ad1bec4bcae5
+linked_people:
+- P-0012
+- P-0013
+- P-0019
+- P-0020
+- P-0038
+- P-0039
+linked_families:
+- F-0001
+- F-0007
+- F-0018
+linked_events:
+- E-0001
+linked_places: []
+private: true
+notes:
+- text: >-
+    The religious counterpart of the civil 1916 marriage (CIV-0001), sourcing the same
+    event E-0001. Primary-confirms Luiza's parents (P-0038/P-0039) — RESOLVES STATUS
+    conflict 12: her father is Secundino (Maria) de Azevedo, not the CIV-0006 "Sebastião"
+    misread. Gives the birthplaces: Deocleciano born/baptized Sapucaia (RJ), Luiza
+    born/baptized Bom Jesus de Cachoeira Alegre. His sisters Joventina and Mercedes
+    married in the same 1916-17 Carangola cluster (PAR-0013/PAR-0014).

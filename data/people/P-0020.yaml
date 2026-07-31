@@ -18,6 +18,9 @@ name_variants:
   source_ids:
   - PAR-0005
   - PAR-0006
+  - PAR-0012
+  - PAR-0013
+  - PAR-0014
 event_ids:
 - E-0006
 - E-0034

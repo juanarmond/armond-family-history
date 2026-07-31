@@ -7,6 +7,15 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Catalogue the Santa Luzia de Carangola parish (religious) marriage cluster from the
+  retrieval sync (3 sources). Deocleciano's 1916 parish marriage (`PAR-0012`) is the
+  religious counterpart of the civil record (sourcing the same event `E-0001`); it
+  primary-confirms Luiza's parents and **resolves material conflict 12** — her father is
+  Secundino (Maria) de Azevedo, so the `CIV-0006` "Sebastião" reading was a misread. Two
+  more sisters of Deocleciano are added as documented children on `F-0007`: Joventina
+  (`PAR-0013`, m.1916) and Mercedes (`PAR-0014`, m.1917), both born in Carangola —
+  dating the family's Sapucaia→Carangola move. Evidence `DOC-0043`–`DOC-0045`; Isaltino
+  (1918) recorded as a collateral lead.
 - Adopt the principle that a pre-civil-registration **parish baptism is the birth
   record** (same evidentiary level as a civil birth certificate): it establishes the
   birth date and birthplace, so create a birth event from it where the birth is not

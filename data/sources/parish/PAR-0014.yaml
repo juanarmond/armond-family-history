@@ -1,0 +1,71 @@
+schema_version: 1
+id: PAR-0014
+title: >-
+  Parish marriage register entry of João Monteiro de Azevedo and Mercedes Maria
+  Bittencourt (1917, Santa Luzia de Carangola)
+record_type: Parish marriage register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1917-09-10"
+event_place_text: >-
+  Igreja de Santa Luzia de Carangola, Carangola, Minas Gerais, Brazil
+repository:
+  name: Paróquia de Santa Luzia (Diocese de Caratinga), Carangola, Minas Gerais, Brazil
+  archive_or_registry: >-
+    Livro de casamentos, Paróquia de Santa Luzia de Carangola, MG (Familiaridade
+    online gallery)
+  book: casamentos
+  record_number: "23"
+  catalogue_reference: >-
+    Marriage act nº 23 of 10 September 1917, Livro de casamentos, Paróquia de Santa
+    Luzia de Carangola, MG. Register image via the Familiaridade online gallery,
+    delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026.
+  repository_path: evidence/parish/PAR-0014-mercedes-maria-bittencourt-marriage-1917-carangola.jpg
+access_date: "2026-07-31"
+language: pt-BR
+transcription: >-
+  [Paróquia de Santa Luzia de Carangola, MG; livro de casamentos, acto nº 23. Margem:
+  "João Monteiro e Mercedes Bittencourt".] "Aos dez de Setembro de mil novecentos e
+  desesete, nesta Egreja de Santa Luzia de Carangola, recebi em Matrimonio João
+  Monteiro de Azevedo e D. Mercedes Maria Bittencourt, ambos solteiros, e residentes
+  nesta Freguesia. O orador com vinte e seis annos de edade, nascido na [dita] Freguesia
+  de Sapucaya, Estado do Rio, filho legítimo de Joaquim Monteiro de Azevedo e D.
+  Leopoldina Monteiro de Azevedo; e ella com dezenove annos de edade, nascida e
+  baptisada nesta Freguesia, filha legítima de João Muniz Bittencourt e D. Suzana Rita
+  Bittencourt. Foram testemunhas: Manoel Dias da Paixão e Felisberto de Carvalho Borges.
+  E para constar mandei lavrar este assentamento que assigno. O Vigario P.e João Coutinho."
+abstract: >-
+  The original 1917 parish marriage of João Monteiro de Azevedo and Mercedes Maria
+  Bittencourt at Santa Luzia de Carangola, 10 September 1917. Mercedes (19, born and
+  baptized in the Carangola parish) is a legitimate daughter of João Muniz Bittencourt
+  (P-0019) and Suzana Rita Brandão (P-0020, recorded here under her married surname
+  "Bittencourt") — hence a sister of Deocleciano (P-0012), recorded as a documented
+  child on F-0007.
+reliability:
+  assessment: >-
+    Direct primary parish evidence that Mercedes is a daughter of João Muniz Bittencourt
+    and Suzana Rita Brandão (a sister of Deocleciano).
+  informant: The officiating vigário, Pe. João Coutinho (1917).
+  limitations: >-
+    Handwritten register; the mother's surname is recorded as her married "Bittencourt".
+    Mercedes is a collateral sibling recorded as a documented child, not modelled.
+digital_file:
+  path: evidence/parish/PAR-0014-mercedes-maria-bittencourt-marriage-1917-carangola.jpg
+  sha256: f3b5a5a81c3514e479eae9024eaa22a1c17ed552006c596a546cb575d66d2370
+linked_people:
+- P-0019
+- P-0020
+linked_families:
+- F-0007
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Establishes Mercedes Maria Bittencourt as a sister of Deocleciano (documented child
+    on F-0007), born ~1898 in Carangola.

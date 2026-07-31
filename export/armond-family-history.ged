@@ -241,9 +241,11 @@
 2 PLAC Bom Jesus da Cachoeira Alegre, Muriaé, Minas Gerais, Brazil
 2 SOUR @CIV0001@
 3 QUAY 2
+2 SOUR @PAR0012@
+3 QUAY 2
 1 FAMS @F0001@
 1 FAMC @F0018@
-1 NOTE Her parents are José Secundino de Azevedo (P-0038) and Thereza Fernandes de Azevedo (P-0039) — family F-0018 — named in her 1916 marriage (CIV-0001) and in her son Aristides's 1922 baptism (PAR-0003). "Fernandes" is her mother's surname and "Secundina/Secundino" her father's; both variants of her own name are preserved. The Azevedo family origin is the Muriaé/Carangola region (MG).
+1 NOTE Her parents are José Secundino de Azevedo (P-0038) and Thereza Fernandes de Azevedo (P-0039) — family F-0018 — named in her 1916 civil marriage (CIV-0001), her 1916 parish marriage (PAR-0012) and her son Aristides's 1922 baptism (PAR-0003). "Fernandes" is her mother's surname and "Secundina/Secundino" her father's; both variants of her own name are preserved. Her 1916 parish marriage records her "nascida e baptizada em Bom Jesus de Cachoeira Alegre" (a district of São Paulo do Muriaé, MG — her birthplace, event E-0033). The Azevedo family origin is the Muriaé/Carangola region (MG).
 0 @P0014@ INDI
 1 NAME João Gonçalves /Bohrer/
 2 GIVN João Gonçalves
@@ -363,6 +365,9 @@
 2 SOUR @CIV0001@
 2 SOUR @PAR0004@
 2 SOUR @PAR0007@
+2 SOUR @PAR0012@
+2 SOUR @PAR0013@
+2 SOUR @PAR0014@
 1 SEX M
 1 EVEN
 2 TYPE other
@@ -398,6 +403,9 @@
 2 TYPE AKA
 2 SOUR @PAR0005@
 2 SOUR @PAR0006@
+2 SOUR @PAR0012@
+2 SOUR @PAR0013@
+2 SOUR @PAR0014@
 1 SEX F
 1 BAPM
 2 DATE 22 MAR 1866
@@ -616,11 +624,12 @@
 1 NAME Secundino Maria de /Azevedo/
 2 TYPE AKA
 2 SOUR @CIV0001@
+2 SOUR @PAR0012@
 1 SEX M
 1 FAMS @F0018@
 1 NOTE Father of Luiza (Fernandes/Secundina) de Azevedo (P-0013), hence Antenor Muniz's maternal grandfather. Named as Luiza's father in the 1916 marriage (CIV-0001, as "Secundino Maria de Azevedo") and as Aristides Muniz Bittencourt's maternal grandfather in the 1922 baptism (PAR-0003, as "José Secundino de Azevedo"). An Azevedo family of the Muriaé/Carangola region (MG); his own vital records are not located.
 1 NOTE Nationality left unset: no birthplace or stated nacionalidade is evidenced. His daughter Luiza was born in the Muriaé district (MG), but his own origin is not documented, so it is not asserted.
-1 NOTE Given-name variant to verify: the 2019 full-content certidão of the 1916 marriage (CIV-0006, handwritten pages) is read "Sebastião [uncertain: Manoel] de Azevedo", conflicting with the "José Secundino" (PAR-0003) and "Secundino Maria" (CIV-0001) forms of the same 1916 act. Treated as a probable misread pending verification of the original; the preferred name is unchanged.
+1 NOTE Given-name RESOLVED (31 July 2026): the parish register of the same 1916 marriage (PAR-0012) reads his name "Secundino Maria de Azevedo", matching CIV-0001 and the baptism's "José Secundino" (PAR-0003). This confirms the "Sebastião [uncertain: Manoel] de Azevedo" reading in the 2019 civil inteiro-teor (CIV-0006, handwritten) was a misread. Resolves STATUS conflict 12.
 1 NOTE Lead (not modelled, 31 July 2026): a 1913 Santa Luzia de Carangola parish death of an infant "Maria, filha legitima de José [uncertain: Secundino] d'Azevedo", recorded "em casa de seu pae", places a José [Secundino] de Azevedo resident in Carangola in 1913 — corroborating this family's Carangola origin and suggesting a late-born daughter (a younger sibling of Luiza). The mother is not named and the father's middle name is a cursive read, so it is a lead, not promoted.
 0 @P0039@ INDI
 1 NAME Thereza Fernandes de /Azevedo/
@@ -788,6 +797,24 @@
 1 NOTE Documented child, not individually modelled. Reported lifespan: b. 19 Nov 1884.
 2 SOUR @PAR0006@
 1 NOTE A sister of Deocleciano, baptized 25 July 1885 at Santo Antônio de Sapucaia as the legitimate daughter of João Muniz Bittencourt and Susanna Rita Brandão (PAR-0006). Very likely the "Ana Muniz Bittencourt" who married Antonio dos Santos Ferreira (1908, Santa Luzia do Carangola — a lead) and the "Ana dos Santos Ferreira" who died 1950.
+0 @DOCF0007_2@ INDI
+1 NAME Joventina Muniz /Bittencourt/
+2 GIVN Joventina Muniz
+2 SURN Bittencourt
+1 SEX U
+1 FAMC @F0007@
+1 NOTE Documented child, not individually modelled. Reported lifespan: b. c.1899.
+2 SOUR @PAR0013@
+1 NOTE A sister of Deocleciano, born c.1899 and baptized in the Santa Luzia de Carangola parish; married Nestor Lopes Barbosa there on 21 October 1916 (PAR-0013), the act naming her parents João Muniz Bittencourt and Suzana Rita Brandão.
+0 @DOCF0007_3@ INDI
+1 NAME Mercedes Maria /Bittencourt/
+2 GIVN Mercedes Maria
+2 SURN Bittencourt
+1 SEX U
+1 FAMC @F0007@
+1 NOTE Documented child, not individually modelled. Reported lifespan: b. c.1898.
+2 SOUR @PAR0014@
+1 NOTE A sister of Deocleciano, born c.1898 and baptized in the Santa Luzia de Carangola parish; married João Monteiro de Azevedo there on 10 September 1917 (PAR-0014), the act naming her parents João Muniz Bittencourt and Suzana Rita Brandão.
 0 @DOCF0008_1@ INDI
 1 NAME José de Carvalho /Guimarães/
 2 GIVN José de Carvalho
@@ -863,6 +890,8 @@
 3 QUAY 3
 2 SOUR @CIV0006@
 3 QUAY 3
+2 SOUR @PAR0012@
+3 QUAY 3
 1 SOUR @CIV0004@
 0 @F0002@ FAM
 1 HUSB @P0004@
@@ -910,6 +939,8 @@
 1 WIFE @P0020@
 1 CHIL @P0012@
 1 CHIL @DOCF0007_1@
+1 CHIL @DOCF0007_2@
+1 CHIL @DOCF0007_3@
 1 MARR
 2 SOUR @PAR0001@
 3 QUAY 2
@@ -1412,6 +1443,36 @@
 1 NOTE Archival reference: Death/burial act of 22 April 1878, Livro de óbitos, Paróquia de Santo Antônio de Sapucaia, RJ. Register image via the Familiaridade online gallery, delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026.
 1 NOTE Repository file: evidence/parish/PAR-0011-ignacia-maria-de-jesus-obito-1878-sapucaia.jpg
 1 OBJE @OBJPAR0011@
+0 @PAR0012@ SOUR
+1 TITL Parish marriage register entry of Deocleciano Muniz Bittencourt and Luiza Fernandes de Azevedo (1916, Santa Luzia de Carangola), naming both couples' parents
+1 TEXT The original 1916 parish (religious) marriage of Deocleciano Muniz Bittencourt (P-0012) and Luiza Fernandes de Azevedo (P-0013) at Santa Luzia de Carangola, 21 October 1916 — the same union as the civil record (CIV-0001, same date). It names Deocleciano (24, born and baptized in Sapucaia RJ; son of João Muniz Bittencourt P-0019 and Suzana Rita Brandão P-0020) and Luiza (18, born and baptized in Bom Jesus de Cachoeira Alegre; daughter of Secundino Maria de Azevedo P-0038 and Thereza Fernandes de Azevedo P-0039). Primary confirmation of Luiza's parents, and it settles the flagged CIV-0006 "Sebastião" misread — her father is Secundino (Maria) de Azevedo.
+1 REPO @REPO0010@
+2 CALN livro casamentos, nº 35
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Paróquia de Santa Luzia de Carangola, MG; livro de casamentos, acto nº 35. Margem: "Deocleciano Muniz Bittencourt e Luiza Fernandes de Azevedo".] "Aos vinte e um de Outubro de mil novecentos e dezeseis, nesta Egreja de Santa Luzia, receberam-se em Matrimonio Deocleciano Muniz Bittencourt e D. Luiza Fernandes de Azevedo, ambos solteiros e residentes nesta Freguesia. O orador com vinte e quatro annos de edade, nascido e baptizado em Sapucaya, Estado do Rio, filho legítimo de João Muniz Bittencourt [escrito "João [uncertain: Luiz] Bittencourt"] e D. Suzana Rita Brandão; a oradora com dezoito annos de edade, nascida e baptizada em Bom Jesus de Cachoeira Alegre, filha legítima de Secundino Maria de Azevedo e D. Thereza Fernandes de Azevedo. Foram testemunhas: Justino Ribeiro Rodrigues e Antonio Theodoro de Souza. E para constar mandei lavrar este assentamento que assigno. O Vigario P.e João Coutinho."
+1 NOTE Archival reference: Marriage act nº 35 of 21 October 1916, Livro de casamentos, Paróquia de Santa Luzia de Carangola, MG. Register image via the Familiaridade online gallery, delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026.
+1 NOTE Repository file: evidence/parish/PAR-0012-deocleciano-muniz-bittencourt-luiza-azevedo-marriage-1916-carangola.jpg
+1 OBJE @OBJPAR0012@
+0 @PAR0013@ SOUR
+1 TITL Parish marriage register entry of Nestor Lopes Barbosa and Joventina Muniz Bittencourt (1916, Santa Luzia de Carangola)
+1 TEXT The original 1916 parish marriage of Nestor Lopes Barbosa and Joventina Muniz Bittencourt at Santa Luzia de Carangola, 21 October 1916. Joventina (17, born and baptized in the Carangola parish) is a legitimate daughter of João Muniz Bittencourt (P-0019) and Suzana Rita Brandão (P-0020) — hence a sister of Deocleciano (P-0012), recorded as a documented child on F-0007. That she was born ~1899 in Carangola (while Deocleciano was born 1892 in Sapucaia) dates the family's move from Sapucaia (RJ) to Carangola (MG) to between 1892 and ~1899.
+1 REPO @REPO0010@
+2 CALN livro casamentos, nº 34
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Paróquia de Santa Luzia de Carangola, MG; livro de casamentos, acto nº 34. Margem: "Nestor Barbosa e Joventina Muniz Bittencourt".] "Aos vinte e um de Outubro de mil novecentos e dezeseis, nesta Egreja de Santa Luzia, assisti ao Matrimonio de Nestor Lopes Barbosa e D. Joventina Muniz Bittencourt, ambos solteiros e residentes nesta Freguesia. O orador com vinte e um annos de edade, nascido e baptizado em São Francisco do Gloria, filho legítimo de Manoel Lopes de Faria e D. Antonia Barbosa; e a oradora nascida e baptizada nesta Freguesia, com dezesete annos de edade, filha legítima de João Muniz Bittencourt e D. Suzana [Rita] Brandão. [E para constar mandei lavrar este assentamento que assigno. O Vigario P.e João Coutinho.]"
+1 NOTE Archival reference: Marriage act nº 34 of 21 October 1916, Livro de casamentos, Paróquia de Santa Luzia de Carangola, MG. Register image via the Familiaridade online gallery, delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026.
+1 NOTE Repository file: evidence/parish/PAR-0013-joventina-muniz-bittencourt-marriage-1916-carangola.jpg
+1 OBJE @OBJPAR0013@
+0 @PAR0014@ SOUR
+1 TITL Parish marriage register entry of João Monteiro de Azevedo and Mercedes Maria Bittencourt (1917, Santa Luzia de Carangola)
+1 TEXT The original 1917 parish marriage of João Monteiro de Azevedo and Mercedes Maria Bittencourt at Santa Luzia de Carangola, 10 September 1917. Mercedes (19, born and baptized in the Carangola parish) is a legitimate daughter of João Muniz Bittencourt (P-0019) and Suzana Rita Brandão (P-0020, recorded here under her married surname "Bittencourt") — hence a sister of Deocleciano (P-0012), recorded as a documented child on F-0007.
+1 REPO @REPO0010@
+2 CALN livro casamentos, nº 23
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Paróquia de Santa Luzia de Carangola, MG; livro de casamentos, acto nº 23. Margem: "João Monteiro e Mercedes Bittencourt".] "Aos dez de Setembro de mil novecentos e desesete, nesta Egreja de Santa Luzia de Carangola, recebi em Matrimonio João Monteiro de Azevedo e D. Mercedes Maria Bittencourt, ambos solteiros, e residentes nesta Freguesia. O orador com vinte e seis annos de edade, nascido na [dita] Freguesia de Sapucaya, Estado do Rio, filho legítimo de Joaquim Monteiro de Azevedo e D. Leopoldina Monteiro de Azevedo; e ella com dezenove annos de edade, nascida e baptisada nesta Freguesia, filha legítima de João Muniz Bittencourt e D. Suzana Rita Bittencourt. Foram testemunhas: Manoel Dias da Paixão e Felisberto de Carvalho Borges. E para constar mandei lavrar este assentamento que assigno. O Vigario P.e João Coutinho."
+1 NOTE Archival reference: Marriage act nº 23 of 10 September 1917, Livro de casamentos, Paróquia de Santa Luzia de Carangola, MG. Register image via the Familiaridade online gallery, delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026.
+1 NOTE Repository file: evidence/parish/PAR-0014-mercedes-maria-bittencourt-marriage-1917-carangola.jpg
+1 OBJE @OBJPAR0014@
 0 @PRB0001@ SOUR
 1 TITL 1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza Balbina de Toledo (wife of Simplício José Ferreira Armond)
 1 TEXT A page from an 1881 Leopoldina probate/partilha listing the heirs of an estate on Eliza Balbina de Toledo's side. It names Eliza Balbina de Toledo as the wife of Simplício José Ferreira Armond and lists her Toledo siblings with ages: Maria Bulandina de Toledo (m. Manoel Marques Jorge), Ladisláo Egydio Ferreira de Toledo (~23, b. ~1858), Geraldo Augusto de Toledo Lima (~15, b. ~1866, then living in Rio de Janeiro), and Josepha Olympia da Paixão (~12, b. ~1869), plus a predeceased Carolina Leopoldina Marques inheriting by representation. The companion 1884 petition (PRB-0002) names the decedent as D. Mathilde Maria de Jezus.
@@ -1617,6 +1678,21 @@
 2 FORM image/jpeg
 2 TITL Parish death register entry of Ignacia Maria de Jesus (1878, Santo Antônio de Sapucaia), widow of Antonio Caetano Machado
 1 NOTE sha256: 49fbac218d0f4975c2efc4c3f0acb631b9b73d91b0334a49c1251280c0e7a310
+0 @OBJPAR0012@ OBJE
+1 FILE evidence/parish/PAR-0012-deocleciano-muniz-bittencourt-luiza-azevedo-marriage-1916-carangola.jpg
+2 FORM image/jpeg
+2 TITL Parish marriage register entry of Deocleciano Muniz Bittencourt and Luiza Fernandes de Azevedo (1916, Santa Luzia de Carangola), naming both couples' parents
+1 NOTE sha256: b341c422435cc6d8949ea4d6482558a623132117663d4ae30640ad1bec4bcae5
+0 @OBJPAR0013@ OBJE
+1 FILE evidence/parish/PAR-0013-joventina-muniz-bittencourt-marriage-1916-carangola.jpg
+2 FORM image/jpeg
+2 TITL Parish marriage register entry of Nestor Lopes Barbosa and Joventina Muniz Bittencourt (1916, Santa Luzia de Carangola)
+1 NOTE sha256: fa46ac86a30500aea05842441911ce13d2168116a80599f7b17c8bc0fdd1fc9a
+0 @OBJPAR0014@ OBJE
+1 FILE evidence/parish/PAR-0014-mercedes-maria-bittencourt-marriage-1917-carangola.jpg
+2 FORM image/jpeg
+2 TITL Parish marriage register entry of João Monteiro de Azevedo and Mercedes Maria Bittencourt (1917, Santa Luzia de Carangola)
+1 NOTE sha256: f3b5a5a81c3514e479eae9024eaa22a1c17ed552006c596a546cb575d66d2370
 0 @OBJPRB0001@ OBJE
 1 FILE evidence/probate/PRB-0001-probate-toledo-heir-list-leopoldina-1881-original.jpg
 2 FORM image/jpeg

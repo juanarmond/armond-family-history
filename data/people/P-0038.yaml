@@ -12,6 +12,7 @@ name_variants:
   type: source
   source_ids:
   - CIV-0001
+  - PAR-0012
 event_ids: []
 family_ids:
 - F-0018
@@ -28,11 +29,11 @@ notes:
     daughter Luiza was born in the Muriaé district (MG), but his own origin is not
     documented, so it is not asserted.
 - text: >-
-    Given-name variant to verify: the 2019 full-content certidão of the 1916
-    marriage (CIV-0006, handwritten pages) is read "Sebastião [uncertain: Manoel]
-    de Azevedo", conflicting with the "José Secundino" (PAR-0003) and "Secundino
-    Maria" (CIV-0001) forms of the same 1916 act. Treated as a probable misread
-    pending verification of the original; the preferred name is unchanged.
+    Given-name RESOLVED (31 July 2026): the parish register of the same 1916 marriage
+    (PAR-0012) reads his name "Secundino Maria de Azevedo", matching CIV-0001 and the
+    baptism's "José Secundino" (PAR-0003). This confirms the "Sebastião [uncertain:
+    Manoel] de Azevedo" reading in the 2019 civil inteiro-teor (CIV-0006, handwritten)
+    was a misread. Resolves STATUS conflict 12.
 - text: >-
     Lead (not modelled, 31 July 2026): a 1913 Santa Luzia de Carangola parish death
     of an infant "Maria, filha legitima de José [uncertain: Secundino] d'Azevedo",

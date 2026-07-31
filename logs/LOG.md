@@ -5,6 +5,18 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-07-31 — Carangola parish marriages: Deocleciano's religious marriage + two sisters
+
+- Outcome: value-gated the Santa Luzia de Carangola parish marriage cluster (4 images).
+  Catalogued Deocleciano's 1916 religious marriage (PAR-0012 → event E-0001), which
+  primary-confirms Luiza's parents and **resolves material conflict 12** (Secundino, not
+  Sebastião); and added two more sisters of Deocleciano as documented children on F-0007
+  — Joventina (PAR-0013, m.1916) and Mercedes (PAR-0014, m.1917), both born in Carangola,
+  dating the family's Sapucaia→Carangola move. Isaltino (1918) recorded as a collateral
+  lead. Evidence DOC-0043-0045.
+- Detailed log:
+  [`logs/2026-07-31-carangola-parish-marriages.md`](2026-07-31-carangola-parish-marriages.md).
+
 ## 2026-07-31 — Carangola/Sapucaia óbitos: João's São Miguel origin + maternal lines
 
 - Outcome: value-gated the new Sapucaia/Carangola death registers (5 parallel/direct
