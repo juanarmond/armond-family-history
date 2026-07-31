@@ -1,0 +1,21 @@
+schema_version: 1
+id: E-0041
+event_type: birth
+date:
+  kind: exact
+  value: "1865-08-11"
+  original_text: nascida a onze de Agosto de mil oito centos sessenta e cinco
+place_id: PL-0005
+participants:
+- person_id: P-0020
+  role: principal
+status: confirmed
+source_ids:
+- PAR-0005
+notes:
+- text: >-
+    Birth of Susanna (Suzana) Rita Brandão (P-0020) on 11 August 1865, established by
+    her own baptism (PAR-0005, which states "nascida a onze de Agosto de 1865"); the
+    baptism is the pre-civil-registration birth record. Birthplace is the baptizing
+    parish, Santo Antônio de Sapucaia (RJ). She was baptized the following year, on 22
+    March 1866 (event E-0035).

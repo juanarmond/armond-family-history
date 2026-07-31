@@ -93,6 +93,20 @@ Administrative boundaries and municipality names may have changed. Never
 replace a historical place with a modern name without documenting the
 equivalence.
 
+## Baptism as a birth record
+
+Before Brazil's general civil registration (from 1889), the parish **baptism is
+the birth record** — a contemporaneous primary source at the same evidentiary
+level as a later civil birth certificate. A baptism establishes the **birth
+date** (stated explicitly, "nascido a …") and the **birthplace** (the stated
+"natural de …" if given, otherwise the baptizing freguesia/district). So when a
+person's birth is documented only by a baptism, create a **birth event** from it
+(confirmed, citing the baptism) in addition to the baptism event — the birth
+(one date/place) and the baptism (a later date, at the church) are distinct
+events, both sourced from the one record. Keep the distinction honest: a baptism
+directly attests the baptism and *reports* the birth, and the birthplace is the
+baptizing parish unless the record names a different birth locality.
+
 ## Source citation minimum
 
 Every source entry should capture, when available:

@@ -2,20 +2,23 @@ schema_version: 1
 id: E-0032
 event_type: birth
 date:
-  kind: approximate
-  text: about 1892
-  earliest: 1891
-  latest: 1892
+  kind: month
+  year: 1892
+  month: 6
+  original_text: nascido a [um] deste mez (baptized 25 June 1892)
 place_id: PL-0005
 participants:
 - person_id: P-0012
   role: principal
-status: strong-evidence
+status: confirmed
 source_ids:
+- PAR-0004
 - CIV-0001
 notes:
 - text: >-
-    Birth year inferred from his stated age (24) at his 1916 marriage (CIV-0001),
-    so born c.1891-1892; "nascido em Sapucaia, Estado do Rio de Janeiro" (Santo
-    Antônio de Sapucaia, to whose parish his parents' 1882 marriage provision was
-    directed, PAR-0001). No birth or baptism record located.
+    Birth established by his own baptism (PAR-0004, 25 June 1892 at Santo Antônio de
+    Sapucaia), which records him "nascido a [um] deste mez" — i.e. early June 1892 (the
+    day is an uncertain read; the month and year are clear) — the pre-civil-registration
+    birth record. Birthplace Santo Antônio de Sapucaia (RJ), corroborated by his 1916
+    marriage (CIV-0001, "nascido em Sapucaia", stated age 24). Supersedes the earlier
+    inference from marriage age alone.

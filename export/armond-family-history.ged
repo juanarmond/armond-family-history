@@ -213,11 +213,12 @@
 2 SOUR @CIV0004@
 1 SEX M
 1 BIRT
-2 DATE ABT 1891
-3 PHRASE about 1892
+2 DATE JUN 1892
 2 PLAC Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
+2 SOUR @PAR0004@
+3 QUAY 3
 2 SOUR @CIV0001@
-3 QUAY 2
+3 QUAY 3
 1 BAPM
 2 DATE 25 JUN 1892
 2 PLAC Igreja de Santo Antônio de Sapucaia, Sapucaia, Rio de Janeiro, Brazil
@@ -394,6 +395,11 @@
 1 SEX F
 1 BAPM
 2 DATE 22 MAR 1866
+2 PLAC Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
+2 SOUR @PAR0005@
+3 QUAY 3
+1 BIRT
+2 DATE 11 AUG 1865
 2 PLAC Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
 2 SOUR @PAR0005@
 3 QUAY 3

@@ -7,6 +7,13 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Adopt the principle that a pre-civil-registration **parish baptism is the birth
+  record** (same evidentiary level as a civil birth certificate): it establishes the
+  birth date and birthplace, so create a birth event from it where the birth is not
+  otherwise recorded (`research/README.md`, "Baptism as a birth record"). Apply it:
+  add Susanna Rita Brandão's birth (`E-0041`, 11 Aug 1865, Sapucaia, from her baptism
+  PAR-0005), and upgrade Deocleciano's birth (`E-0032`) from an age-inferred estimate
+  to confirmed (June 1892, Sapucaia) now that his own baptism (PAR-0004) is in hand.
 - Catalogue the Sapucaia/Carangola death registers from the retrieval sync (5 óbito
   sources). João Muniz Bittencourt's 1915 death (`PAR-0007`) records him "natural da
   Ilha de São Miguel" (Açores) — **resolving material conflict 6**: he was the Azorean
