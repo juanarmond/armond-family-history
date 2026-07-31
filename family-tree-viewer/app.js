@@ -313,16 +313,19 @@ function fitZoom() {
   centerScroll();
 }
 
-function setZoom(nextZoom) {
+function setZoom(nextZoom, anchor) {
   const viewport = elements.treeViewport;
   const { w, h } = naturalSize();
   const previous = state.zoom;
-  const centreX = (viewport.scrollLeft + viewport.clientWidth / 2) / Math.max(1, w * previous);
-  const centreY = (viewport.scrollTop + viewport.clientHeight / 2) / Math.max(1, h * previous);
+  // Keep the anchor point (cursor, or the viewport centre by default) fixed on screen.
+  const ax = anchor ? anchor.x : viewport.clientWidth / 2;
+  const ay = anchor ? anchor.y : viewport.clientHeight / 2;
+  const fracX = (viewport.scrollLeft + ax) / Math.max(1, w * previous);
+  const fracY = (viewport.scrollTop + ay) / Math.max(1, h * previous);
   state.zoom = clamp(nextZoom, MIN_ZOOM, MAX_ZOOM);
   applyZoom();
-  viewport.scrollLeft = centreX * w * state.zoom - viewport.clientWidth / 2;
-  viewport.scrollTop = centreY * h * state.zoom - viewport.clientHeight / 2;
+  viewport.scrollLeft = fracX * w * state.zoom - ax;
+  viewport.scrollTop = fracY * h * state.zoom - ay;
 }
 
 function refreshZoom() {
@@ -885,10 +888,15 @@ function bindEvents() {
   elements.zoomFit.addEventListener("click", () => fitZoom());
 
   elements.treeViewport.addEventListener("wheel", (event) => {
-    if (!(event.ctrlKey || event.metaKey)) return;
+    // Scroll/trackpad zooms the tree, anchored on the cursor (map-style). Shift+wheel
+    // still scrolls the canvas, for anyone who prefers panning by wheel.
+    if (event.shiftKey) return;
     event.preventDefault();
     state.autoFit = false;
-    setZoom(state.zoom * (event.deltaY < 0 ? 1.1 : 1 / 1.1));
+    const rect = elements.treeViewport.getBoundingClientRect();
+    const anchor = { x: event.clientX - rect.left, y: event.clientY - rect.top };
+    const factor = event.deltaY < 0 ? 1.1 : 1 / 1.1;
+    setZoom(state.zoom * factor, anchor);
   }, { passive: false });
 
   window.addEventListener("resize", () => { if (state.autoFit) fitZoom(); });
