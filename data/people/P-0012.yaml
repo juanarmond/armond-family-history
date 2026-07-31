@@ -9,6 +9,7 @@ name_variants:
     type: source
     source_ids:
       - CIV-0001
+      - PAR-0004
   - value: Deocleciano Muniz
     type: source
     source_ids:
@@ -17,7 +18,13 @@ event_ids:
   - E-0001
   - E-0004
   - E-0032
+  - E-0034
 family_ids:
   - F-0001
   - F-0007
-notes: []
+notes:
+  - text: >-
+      His 1892 baptism at Santo Antônio de Sapucaia (PAR-0004, event E-0034) is
+      his earliest vital record; it confirms his parents João Muniz Bittencourt
+      (P-0019) and Susanna Rita Brandão (P-0020) and settles the father's name as
+      "João" (the 1882 provisão's "José" was an error).

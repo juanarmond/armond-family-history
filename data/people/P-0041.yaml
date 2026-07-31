@@ -1,0 +1,27 @@
+schema_version: 1
+id: P-0041
+preferred_name: Rita Ignacia de Jesus
+privacy: deceased
+sex: female
+name_variants:
+- value: Rita Ignacia de Jesus
+  type: source
+  source_ids:
+  - PAR-0005
+  - PAR-0006
+event_ids:
+- E-0035
+family_ids:
+- F-0019
+notes:
+- text: >-
+    Mother of Susanna (Suzana) Rita Brandão (P-0020) — Susanna's married name
+    "Rita" derives from her. Named in Susanna's 1866 baptism (PAR-0005) as her
+    legitimate mother, and again as a godparent of her granddaughter Anna's 1885
+    baptism (PAR-0006).
+- text: >-
+    Maternal-line lead, not modelled: Susanna's 1866 baptism names the padrinho
+    Antonio Castro Machado as the child's "avô materno" (maternal grandfather),
+    i.e. Rita Ignacia de Jesus's own father. Recorded here as a research lead.
+- text: >-
+    Nationality left unset: no birthplace or stated nacionalidade is evidenced.

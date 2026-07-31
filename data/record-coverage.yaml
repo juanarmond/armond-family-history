@@ -762,7 +762,17 @@ people:
     last_reviewed: "2026-07-28"
     next_action: Locate João's own death or burial record after identity is resolved.
     notes: []
-  notes: []
+  notes:
+  - text: >-
+      31 July 2026 (Sapucaia parish sweep): his parents stay OFF-index, but a
+      collateral Muniz Bittencourt sibling-cluster of Sapucaia/Bemposta — Manoel
+      (⚭ Maria Luiza de Freitas), Maria José (⚭ José Linhares de Mendonça), Altina,
+      Maria Eugenia and Elvira Muniz Bittencourt — are strong candidates to be his
+      siblings; their shared parents, if located via their Bemposta baptisms/
+      marriages, would be João's parents. Distinct, NOT to be conflated: a José
+      Muniz Bettencourt ⚭ Anna Barbara de Jesus couple (José Portuguese; 6 Sapucaia
+      baptisms), and a non-Muniz "Antônio Firmino Bittencourt ⚭ Anna Maria
+      Bittencourt" family of Bemposta (namesake).
 - person_id: P-0020
   external_profiles:
   - platform: FamilySearch
@@ -771,11 +781,19 @@ people:
     usage: lead_only
   records:
   - record_type: birth
-    status: lead_only
-    source_ids: []
-    last_reviewed: "2026-07-28"
-    next_action: Locate Susanna's birth or baptism using the provision name form.
-    notes: []
+    status: catalogued
+    source_ids:
+    - PAR-0005
+    last_reviewed: "2026-07-31"
+    next_action: >-
+      Complete — her 1866 Sapucaia baptism (PAR-0005) records her born 11 Aug 1865
+      and names her parents José do Rego Brandão (P-0040) and Rita Ignacia de Jesus
+      (P-0041). Optionally seek the original 1866 book (this is the 1882 transcript).
+    notes:
+    - text: >-
+        31 July 2026: her Sapucaia baptism resolves her parentage over the earlier
+        "Manoel Soares Brandão" lead and names a maternal grandfather (Antonio
+        Castro Machado, Rita Ignacia's father) as a further lead.
   - record_type: marriage
     status: inaccessible
     source_ids: []

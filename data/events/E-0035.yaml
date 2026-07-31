@@ -1,0 +1,25 @@
+schema_version: 1
+id: E-0035
+event_type: baptism
+date:
+  kind: exact
+  value: "1866-03-22"
+  original_text: Aos vinte e dous dias de Março, de mil oito centos e sessenta e seis
+place_text: >-
+  Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0020
+  role: principal
+- person_id: P-0040
+  role: parent
+- person_id: P-0041
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0005
+notes:
+- text: >-
+    Baptism of Susanna (Suzana) Rita Brandão (P-0020) on 22 March 1866, born 11
+    August 1865, a legitimate daughter of José do Rego Brandão (P-0040) and Rita
+    Ignacia de Jesus (P-0041), per the parish register transcript (PAR-0005). Her
+    maternal grandfather Antonio Castro Machado stood as godfather.

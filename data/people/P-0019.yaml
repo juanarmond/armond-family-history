@@ -12,12 +12,18 @@ name_variants:
   type: source
   source_ids:
   - CIV-0001
+  - PAR-0004
 event_ids:
 - E-0006
+- E-0034
 family_ids:
 - F-0007
 notes:
 - text: Ahnentafel position 24.
+- text: >-
+    His son Deocleciano's 1892 Sapucaia baptism (PAR-0004) records the father as
+    "João Muniz Bitencourt", settling the José-vs-João question (the 1882
+    provisão PAR-0001 had recorded "José"). Both spellings are preserved.
 - text: >-
     The FamilySearch collaborative profile GLMF-KCR gives an unproved 1864
     birth in São Miguel, Azores, and attaches an 1871 naturalisation link.

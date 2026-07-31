@@ -1,0 +1,25 @@
+schema_version: 1
+id: E-0034
+event_type: baptism
+date:
+  kind: exact
+  value: "1892-06-25"
+  original_text: Aos vinte e cinco de Junho de mil oitocentos noventa e dois
+place_text: >-
+  Igreja de Santo Antônio de Sapucaia, Sapucaia, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0012
+  role: principal
+- person_id: P-0019
+  role: parent
+- person_id: P-0020
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0004
+notes:
+- text: >-
+    Deocleciano Muniz Bittencourt's baptism at Santo Antônio de Sapucaia (RJ) on
+    25 June 1892, born about June 1892 ("nascido a [um] deste mez"), a legitimate
+    son of João Muniz Bittencourt (P-0019) and Susanna Rita Brandão (P-0020), per
+    the original register act (PAR-0004). His earliest vital record.

@@ -1,0 +1,80 @@
+schema_version: 1
+id: PAR-0004
+title: >-
+  Parish baptism register entry of Deocleciano Muniz Bittencourt (1892, Santo
+  Antônio de Sapucaia), naming his parents
+record_type: Parish baptism register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1892-06-25"
+event_place_text: >-
+  Igreja de Santo Antônio de Sapucaia, Sapucaia, Rio de Janeiro, Brazil
+repository:
+  name: >-
+    Paróquia de Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
+  archive_or_registry: >-
+    Livro de batismos, Paróquia de Santo Antônio de Sapucaia, RJ (register images
+    published in the Familiaridade online gallery of the Sapucaia parish books)
+  book: batismos
+  page: "314"
+  catalogue_reference: >-
+    Baptism act of 25 June 1892, folio 314, Livro de batismos, Paróquia de Santo
+    Antônio de Sapucaia, RJ. Register image located via the Familiaridade online
+    gallery and delivered through the research/from-retrieval/ sync; read and
+    promoted 31 July 2026. The act's date line is at the foot of the preceding
+    folio image (…-p1.jpg); the subject's name and parents are on …-p2.jpg.
+  repository_path: >-
+    evidence/parish/PAR-0004-deocleciano-muniz-bittencourt-baptism-1892-sapucaia-p2.jpg
+access_date: "2026-07-31"
+language: pt-BR
+transcription: >-
+  [Paróquia de Santo Antônio de Sapucaia, RJ; livro de batismos, fl. 314.] "[Aos
+  vinte e cinco de Junho de mil oitocentos noventa e dois] baptizei o innocente
+  Deocleciano nascido a [uncertain: um] deste mez, filho legítimo de João Muniz
+  Bitencourt e Suzana Rita Brandão. Foi padrinho João de Souza Freitas e
+  [uncertain: Anna] Rita Brandão, de que fiz este termo que assigno. P.e
+  Franc.co Ant.o Pinto P.ra da Veiga[s]."
+abstract: >-
+  The original 1892 baptism register entry (Igreja de Santo Antônio de Sapucaia,
+  RJ) of Deocleciano Muniz Bittencourt (P-0012): baptized 25 June 1892, born
+  about June 1892, a legitimate son of João Muniz Bittencourt (P-0019) and
+  Susanna (Suzana) Rita Brandão (P-0020). His earliest vital record; it settles
+  the father's given name as "João" (the 1882 provisão's "José" was an error) and
+  upgrades his parentage to confirmed. Godparents João de Souza Freitas and
+  [Anna] Rita Brandão.
+reliability:
+  assessment: >-
+    Direct primary parish evidence for Deocleciano's baptism, approximate birth
+    and parentage — the original register act.
+  informant: The baptising priest, Pe. Francisco Antônio Pinto Pereira da Veiga (1892).
+  limitations: >-
+    Handwritten register; the birth day ("a [um] deste mez") and one godparent's
+    given name are uncertain reads. The act spans two page images: the 25 June
+    1892 date line at the foot of folio 314 (…-p1.jpg) and the subject's name and
+    parents on the next image (…-p2.jpg, the primary scan).
+digital_file:
+  path: >-
+    evidence/parish/PAR-0004-deocleciano-muniz-bittencourt-baptism-1892-sapucaia-p2.jpg
+  sha256: bb29c735f7068696acfe17db7091246fc84c4e369b9b4983ac2da7336a943836
+linked_people:
+- P-0012
+- P-0019
+- P-0020
+linked_families:
+- F-0007
+linked_events:
+- E-0034
+linked_places: []
+private: true
+notes:
+- text: >-
+    Deocleciano's own baptism, from the Sapucaia parish register (online gallery,
+    Familiaridade). Confirms his parentage (F-0007) and settles the father as
+    João Muniz Bittencourt. The preceding folio image (…-p1.jpg), carrying the
+    25 June 1892 date line and the surrounding entries, is retained in evidence
+    and catalogued in the document inventory (DOC-0035, as a second file).

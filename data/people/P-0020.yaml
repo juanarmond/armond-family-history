@@ -13,12 +13,26 @@ name_variants:
   type: source
   source_ids:
   - CIV-0001
+- value: Suzana Rita Brandão
+  type: source
+  source_ids:
+  - PAR-0005
+  - PAR-0006
 event_ids:
 - E-0006
+- E-0034
+- E-0035
 family_ids:
 - F-0007
+- F-0019
 notes:
 - text: Ahnentafel position 25.
+- text: >-
+    Her 1866 baptism (PAR-0005, event E-0035) records her born 11 August 1865 and
+    names her parents José do Rego Brandão (P-0040) and Rita Ignacia de Jesus
+    (P-0041), family F-0019 — the primary basis for that couple, and her married
+    name "Rita" derives from her mother. She also appears as a parent in her son
+    Deocleciano's 1892 baptism (E-0034).
 - text: >-
     The original 1882 provision and the 1916 record of her son use materially
     different spellings. Both are preserved; no spelling is silently

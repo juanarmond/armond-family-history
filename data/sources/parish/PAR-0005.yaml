@@ -1,0 +1,83 @@
+schema_version: 1
+id: PAR-0005
+title: >-
+  Parish baptism transcript of Susanna (Suzana) Rita Brandão (1866, transcribed
+  1882, Santo Antônio de Sapucaia), naming her parents
+record_type: Parish baptism register entry (1882 register transcript of an 1866 certidão)
+record_category: parish_register
+source_form: derivative
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1866-03-22"
+event_place_text: >-
+  Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
+repository:
+  name: >-
+    Paróquia de Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
+  archive_or_registry: >-
+    Livro de batismos, Paróquia de Santo Antônio de Sapucaia, RJ (1882 register
+    transcript of an 1866 baptism certidão; images in the Familiaridade online
+    gallery of the Sapucaia parish books)
+  book: batismos
+  catalogue_reference: >-
+    1882 register transcript (fl. 111-112) of the 22 March 1866 baptism, Livro de
+    batismos, Paróquia de Santo Antônio de Sapucaia, RJ; the certidão was
+    presented on 24 November 1882 (the year of the couple's marriage provision
+    PAR-0001). Register image via the Familiaridade online gallery, delivered
+    through the research/from-retrieval/ sync; read and promoted 31 July 2026.
+  repository_path: >-
+    evidence/parish/PAR-0005-susanna-rita-brandao-baptism-1866-sapucaia.jpg
+access_date: "2026-07-31"
+language: pt-BR
+transcription: >-
+  [Paróquia de Santo Antônio de Sapucaia, RJ.] "Aos vinte e quatro dias de
+  Novembro, de mil oito centos e oitenta e dous, me foi apresentada a certidão
+  seguinte: Aos vinte e dous dias de Março, de mil oito centos e sessenta e seis,
+  o Reverendo João Gonçalves Dias [uncertain: Gonçalves] baptizou solemnemente, a
+  innocente Suzana, nascida a onze de Agosto de mil oito centos sessenta e cinco,
+  filha legítima, de José do Rego Brandão, e de Rita Ignacia de Jesus; sendo
+  padrinhos, Antonio Castro Machado, avô materno, e Luiza Maria da Conceição. do
+  que para eu conste, faço este assentamento, que assigno. O Vigário — Lourenço
+  Gomes de Lima."
+abstract: >-
+  The Santo Antônio de Sapucaia (RJ) parish register's 1882 transcript of the
+  1866 baptism of Susanna (Suzana) Rita Brandão (P-0020): born 11 August 1865,
+  baptized 22 March 1866, filha legítima of José do Rego Brandão (P-0040) and
+  Rita Ignacia de Jesus (P-0041). The godfather Antonio Castro Machado is named
+  as her "avô materno" (maternal grandfather = Rita Ignacia's father). Presented
+  in November 1882, the same year as the couple's marriage provision (PAR-0001).
+reliability:
+  assessment: >-
+    Direct primary parish evidence for Susanna's birth, baptism and parentage:
+    it names both parents and a maternal grandfather. A derivative — the 1882
+    register transcript of the original 1866 certidão.
+  informant: >-
+    The transcribing vicar Lourenço Gomes de Lima (1882), copying the 1866
+    baptism performed by Rev. João Gonçalves Dias.
+  limitations: >-
+    A register transcript, not the original 1866 baptism book; a few given names
+    are uncertain in the cursive.
+digital_file:
+  path: >-
+    evidence/parish/PAR-0005-susanna-rita-brandao-baptism-1866-sapucaia.jpg
+  sha256: af601100fa77c62d11fb55cab2f3139a72fa5e71144b19c738d9aefad3efa888
+linked_people:
+- P-0020
+- P-0040
+- P-0041
+linked_families:
+- F-0019
+linked_events:
+- E-0035
+linked_places: []
+private: true
+notes:
+- text: >-
+    Establishes Susanna Rita Brandão's parents = José do Rego Brandão (P-0040) +
+    Rita Ignacia de Jesus (P-0041), family F-0019 — settling it over the earlier
+    "Manoel Soares Brandão" lead. Records a maternal-grandfather lead: Antonio
+    Castro Machado, the padrinho named "avô materno" (= Rita Ignacia's father),
+    kept as a note on P-0041, not modelled.

@@ -9,26 +9,50 @@ partner_relationship:
   status: strong-evidence
   source_ids:
   - PAR-0001
+  - PAR-0004
   notes:
   - text: >-
-      The source documents a provision to marry, not a completed ceremony.
-      The relationship remains strong evidence rather than confirmed marriage.
+      The 1882 provision (PAR-0001) documents a provision to marry, not a
+      completed ceremony; their son Deocleciano's 1892 baptism (PAR-0004) records
+      him as "filho legítimo" of the couple, corroborating the union. Kept as
+      strong evidence pending the parish marriage act.
 children:
 - person_id: P-0012
   parent_relationships:
   - parent_id: P-0019
     relationship_type: unknown
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - CIV-0001
+    - PAR-0004
     notes: []
   - parent_id: P-0020
     relationship_type: unknown
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - CIV-0001
+    - PAR-0004
     notes: []
   notes: []
+documented_children:
+- name: Anna Muniz Bittencourt
+  source_ids:
+  - PAR-0006
+  lifespan: b. 19 Nov 1884
+  note: >-
+    A sister of Deocleciano, baptized 25 July 1885 at Santo Antônio de Sapucaia
+    as the legitimate daughter of João Muniz Bittencourt and Susanna Rita Brandão
+    (PAR-0006). Very likely the "Ana Muniz Bittencourt" who married Antonio dos
+    Santos Ferreira (1908, Santa Luzia do Carangola — a lead) and the "Ana dos
+    Santos Ferreira" who died 1950.
 event_ids:
 - E-0006
-notes: []
+notes:
+- text: >-
+    Deocleciano's parentage is confirmed by his own 1892 baptism (PAR-0004) as
+    well as the 1916 marriage (CIV-0001). Collateral Muniz Bittencourt couples of
+    Sapucaia (Manoel, Maria José, Altina, Maria Eugenia, Elvira) are likely João's
+    siblings — a lead toward his parents — but no record names them; a separate
+    José Muniz Bettencourt × Anna Barbara de Jesus couple, and a non-Muniz
+    "Antônio Firmino Bittencourt" family of Bemposta, are distinct and must not be
+    conflated (see data/record-coverage.yaml).

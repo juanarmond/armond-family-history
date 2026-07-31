@@ -7,6 +7,15 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Catalogue a new Santo Antônio de Sapucaia (RJ) parish cluster from the retrieval
+  sync: Deocleciano Muniz Bittencourt's own 1892 baptism (`PAR-0004`), Susanna Rita
+  Brandão's 1866 baptism (`PAR-0005`), and Anna Muniz Bittencourt's 1885 baptism
+  (`PAR-0006`). Adds Susanna's parents José do Rego Brandão (`P-0040`) and Rita
+  Ignacia de Jesus (`P-0041`) as new ancestors with family `F-0019`; baptism events
+  `E-0034`/`E-0035`; Anna as a documented sibling of Deocleciano on `F-0007`; and
+  upgrades Deocleciano's parentage to confirmed (settling the father's name as
+  "João"). Evidence `DOC-0035`–`DOC-0037`. Collateral Muniz Bittencourt couples and
+  a non-Muniz "Antônio Firmino Bittencourt" namesake family recorded as leads.
 - Add a GEDCOM exporter (`scripts/export_gedcom.py`, `make export` /
   `make export-bundle` / `make export-legacy`) rendering the canonical YAML to a
   portable genealogy file in **GEDCOM 7.0 by default** (the current standard) or

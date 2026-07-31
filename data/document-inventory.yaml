@@ -1392,3 +1392,121 @@ documents:
         a documented child on F-0006), to João Rodrigues Braga. Names her parents
         Simplício José Ferreira Armand and Elisa Balbina de Jesus (with Simplício's
         signature). All named persons are deceased.
+  - inventory_id: DOC-0035
+    status: catalogued
+    added_date: "2026-07-31"
+    apparent_record_type: Parish baptism register entry (original)
+    apparent_people:
+      - Deocleciano Muniz Bittencourt
+      - João Muniz Bittencourt
+      - Susanna Rita Brandão
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      Livro de batismos, Paróquia de Santo Antônio de Sapucaia, RJ, folio 314
+      (25 June 1892). Register image located in the Familiaridade online gallery
+      of the Sapucaia parish books and delivered through the owner's authorised
+      research/from-retrieval/ sync; read 31 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0004-deocleciano-muniz-bittencourt-baptism-1892-sapucaia-p2.jpg
+        sha256: bb29c735f7068696acfe17db7091246fc84c4e369b9b4983ac2da7336a943836
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1728
+          pixel_height: 1801
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/parish/PAR-0004-deocleciano-muniz-bittencourt-baptism-1892-sapucaia-p1.jpg
+        sha256: 8e02b421f5ed24cda26b91103bbeb65be0359a3dd49947076ad0a131a6bf5cd3
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1609
+          pixel_height: 1935
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0004
+    notes:
+      - >-
+        Deocleciano's 1892 Sapucaia baptism. The act spans two register pages: the
+        25 June 1892 date line at the foot of folio 314 (p1) and the subject's
+        name and parents (p2, primary). All named persons long deceased.
+  - inventory_id: DOC-0036
+    status: catalogued
+    added_date: "2026-07-31"
+    apparent_record_type: Parish baptism register entry (1882 transcript of an 1866 baptism)
+    apparent_people:
+      - Susanna Rita Brandão
+      - José do Rego Brandão
+      - Rita Ignacia de Jesus
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      Livro de batismos, Paróquia de Santo Antônio de Sapucaia, RJ — 1882 register
+      transcript of the 22 March 1866 baptism. Register image located in the
+      Familiaridade online gallery of the Sapucaia parish books and delivered
+      through the owner's authorised research/from-retrieval/ sync; read 31 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0005-susanna-rita-brandao-baptism-1866-sapucaia.jpg
+        sha256: af601100fa77c62d11fb55cab2f3139a72fa5e71144b19c738d9aefad3efa888
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1632
+          pixel_height: 1791
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0005
+    notes:
+      - >-
+        Susanna Rita Brandão's baptism, naming her parents José do Rego Brandão and
+        Rita Ignacia de Jesus and a maternal grandfather (Antonio Castro Machado).
+        All named persons long deceased.
+  - inventory_id: DOC-0037
+    status: catalogued
+    added_date: "2026-07-31"
+    apparent_record_type: Parish baptism register entry (original)
+    apparent_people:
+      - João Muniz Bittencourt
+      - Susanna Rita Brandão
+      - José do Rego Brandão
+      - Rita Ignacia de Jesus
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      Livro de batismos, Paróquia de Santo Antônio de Sapucaia, RJ (25 July 1885).
+      Register image located in the Familiaridade online gallery of the Sapucaia
+      parish books and delivered through the owner's authorised
+      research/from-retrieval/ sync; read 31 July 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0006-anna-muniz-bittencourt-baptism-1885-sapucaia.jpg
+        sha256: 0a1c07f0bac40833187dab505ea7ec10bb86a43dfad4e007631a8bec732bfc00
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1728
+          pixel_height: 1771
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0006
+    notes:
+      - >-
+        Baptism of Anna Muniz Bittencourt, a daughter of João Muniz Bittencourt and
+        Susanna Rita Brandão (a sibling of Deocleciano), recorded as a documented
+        child on F-0007. Godparents are Susanna's own parents (F-0019). All named
+        persons long deceased.

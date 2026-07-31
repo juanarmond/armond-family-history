@@ -1,0 +1,43 @@
+schema_version: 1
+id: F-0019
+partners:
+- person_id: P-0040
+  role: spouse
+- person_id: P-0041
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0005
+  notes:
+  - text: >-
+      The union is attested by the "filha legítima" statement in their daughter
+      Susanna's 1866 baptism (PAR-0005) and by their appearing together as
+      godparents of their granddaughter Anna in 1885 (PAR-0006); no marriage
+      record has been located, so it remains strong evidence rather than a
+      confirmed marriage.
+children:
+- person_id: P-0020
+  parent_relationships:
+  - parent_id: P-0040
+    relationship_type: unknown
+    status: confirmed
+    source_ids:
+    - PAR-0005
+    notes: []
+  - parent_id: P-0041
+    relationship_type: unknown
+    status: confirmed
+    source_ids:
+    - PAR-0005
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Parents of Susanna (Suzana) Rita Brandão (P-0020), established by her 1866
+    baptism (PAR-0005) and corroborated by the 1885 baptism of her daughter Anna
+    (PAR-0006), where this couple stand as godparents. No marriage record
+    located; the union is inferred from the legitimate-birth statement. Antonio
+    Castro Machado (Rita Ignacia's father, per the baptism's "avô materno") is a
+    maternal-line lead, not modelled.

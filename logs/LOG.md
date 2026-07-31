@@ -5,6 +5,20 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-07-31 — Sapucaia Muniz Bittencourt baptisms (retrieval drop)
+
+- Outcome: value-gated a new Santo Antônio de Sapucaia (RJ) parish cluster
+  (parallel read-only subagents + direct reads of the two direct-ancestor vitals).
+  Catalogued three baptisms — Deocleciano's own 1892 (PAR-0004, confirming his
+  parentage and settling the father's name as "João"), Susanna Rita Brandão's 1866
+  (PAR-0005, → new ancestors José do Rego Brandão P-0040 + Rita Ignacia de Jesus
+  P-0041, family F-0019), and Anna's 1885 (PAR-0006, → Anna a documented sibling of
+  Deocleciano on F-0007) — with events E-0034/E-0035 and inventory DOC-0035–0037.
+  Recorded the collateral Muniz Bittencourt sibling-cluster, a distinct José Muniz
+  × Anna Barbara couple, and an Antônio Firmino Bittencourt namesake as leads.
+- Detailed log:
+  [`logs/2026-07-31-sapucaia-muniz-bittencourt-baptisms.md`](2026-07-31-sapucaia-muniz-bittencourt-baptisms.md).
+
 ## 2026-07-31 — Cidália's birth and a third Armond daughter (Aristides)
 
 - Outcome: from a new retrieval sync, catalogued Cidália's own 1930 birth

@@ -1,0 +1,83 @@
+schema_version: 1
+id: PAR-0006
+title: >-
+  Parish baptism register entry of Anna Muniz Bittencourt (1885, Santo Antônio de
+  Sapucaia), a daughter of João Muniz Bittencourt and Susanna Rita Brandão
+record_type: Parish baptism register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1885-07-25"
+event_place_text: >-
+  Igreja de Santo Antônio de Sapucaia, Sapucaia, Rio de Janeiro, Brazil
+repository:
+  name: >-
+    Paróquia de Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
+  archive_or_registry: >-
+    Livro de batismos, Paróquia de Santo Antônio de Sapucaia, RJ (images in the
+    Familiaridade online gallery of the Sapucaia parish books)
+  book: batismos
+  catalogue_reference: >-
+    Baptism act of 25 July 1885, Livro de batismos, Paróquia de Santo Antônio de
+    Sapucaia, RJ. Register image via the Familiaridade online gallery, delivered
+    through the research/from-retrieval/ sync; read and promoted 31 July 2026.
+  repository_path: >-
+    evidence/parish/PAR-0006-anna-muniz-bittencourt-baptism-1885-sapucaia.jpg
+access_date: "2026-07-31"
+language: pt-BR
+transcription: >-
+  [Paróquia de Santo Antônio de Sapucaia, RJ; livro de batismos. Entry margin:
+  "Anna".] "Aos vinte e cinco de Julho de mil oitocentos oitenta e cinco baptizei
+  solemnemente a innocente Anna que nasceu a dezenove de Novembro de mil oitocentos
+  oitenta e quatro, filha legítima de João Muniz Betencourt e Suzana Rita
+  Brandão. Foram padrinhos José do Rego Brandão e Rita Ignacia de Jesus, de que
+  fiz este assento que assigno. P.e Francisco Antonio Pinto Pereira da Veiga[s]."
+  (Adjacent entries on the same folio are other families' baptisms — Maria, filha
+  de Marcellino Teixeira Pinto e D. Leopoldina; Maria, filha de Manuel Pacheco do
+  Amaral e Candida Roza d'Almeida; Porcina, filha de José Muniz Bettencourt e Anna
+  Barbara de Jesus — and are not this record.)
+abstract: >-
+  The original 1885 baptism register entry (Igreja de Santo Antônio de Sapucaia,
+  RJ) of Anna, born 19 November 1884, baptized 25 July 1885, a legitimate
+  daughter of João Muniz Bittencourt (P-0019) and Susanna (Suzana) Rita Brandão
+  (P-0020) — hence a sibling of Deocleciano (P-0012). Her godparents are José do
+  Rego Brandão (P-0040) and Rita Ignacia de Jesus (P-0041), Susanna's own parents
+  (F-0019), which corroborates that couple.
+reliability:
+  assessment: >-
+    Direct primary parish evidence that Anna is a legitimate daughter of João
+    Muniz Bittencourt and Susanna Rita Brandão (a sibling of Deocleciano). It
+    also names Susanna's parents as the godparents, corroborating F-0019.
+  informant: The baptising priest, Pe. Francisco Antônio Pinto Pereira da Veiga (1885).
+  limitations: >-
+    Handwritten register; the officiant's surname and one or two given names are
+    slightly uncertain in the cursive. Anna is a collateral (a sibling of
+    Deocleciano) recorded as a documented child, not modelled as a person entity.
+digital_file:
+  path: >-
+    evidence/parish/PAR-0006-anna-muniz-bittencourt-baptism-1885-sapucaia.jpg
+  sha256: 0a1c07f0bac40833187dab505ea7ec10bb86a43dfad4e007631a8bec732bfc00
+linked_people:
+- P-0019
+- P-0020
+- P-0040
+- P-0041
+linked_families:
+- F-0007
+- F-0019
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Anna Muniz Bittencourt (b. 19 Nov 1884, bapt. 25 Jul 1885) is recorded as a
+    documented child on F-0007 (a sibling of Deocleciano), not modelled as a
+    person. She is very likely the "Ana Muniz Bittencourt ⚭ Antonio dos Santos
+    Ferreira" of the 1908 Carangola marriage (a lead) and the "Ana dos Santos
+    Ferreira" who died 1950. The godparents José do Rego Brandão + Rita Ignacia de
+    Jesus (P-0040/P-0041) are Susanna's parents, so this act also corroborates
+    F-0019 (Susanna's parentage).
