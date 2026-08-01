@@ -25,6 +25,15 @@ also remain traceable through source records and research logs.
   children on `F-0016`) and names Rosa's brother Candido Pereira de Lemos (a Lemos
   lead). The primary "Bahrer/Mayer" spellings are kept; the secondary Swiss-Soleure
   "Borer/Moser" reading is recorded only as a variant/lead.
+- Extend the **Bohrer maternal (Lemos) line one generation** from Rosa Eugenia de
+  Lemos's own 1835 Itaboraí baptism (`PAR-0016`): parents **Manoel de Lemos Pereira**
+  (`P-0052`) ⚭ **Maria Thereza de Jesus** (`P-0053`, family `F-0025`), both natural
+  of Itaboraí (so Rosa is Brazilian-born). The register gives only the forename
+  "Roza", so the identity is strong-evidence (unique couple/parish/date match,
+  corroborated by the 1879 marriage venue and the will's Candido Pereira de Lemos,
+  added as a documented sibling). Resolves the earlier "weakened" Lemos doubt — the
+  apparent childbearing gap was an indexing artifact. Adds baptism event `E-0049`;
+  Rosa (`P-0035`) updated with parents, event and the "Roza" variant.
 - Catalogue the Santa Luzia de Carangola parish (religious) marriage cluster from the
   retrieval sync (3 sources). Deocleciano's 1916 parish marriage (`PAR-0012`) is the
   religious counterpart of the civil record (sourcing the same event `E-0001`); it

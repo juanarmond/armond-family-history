@@ -1,0 +1,31 @@
+schema_version: 1
+id: P-0052
+preferred_name: Manoel de Lemos Pereira
+privacy: deceased
+sex: male
+nationality: Brazilian
+name_variants:
+- value: Manoel de Lemos
+  type: source
+  source_ids:
+  - PAR-0016
+- value: Manoel de Lemos Pereira
+  type: other
+  source_ids:
+  - PAR-0016
+event_ids: []
+family_ids:
+- F-0025
+notes:
+- text: >-
+    Father of Rosa Eugenia de Lemos (P-0035); hence Joaquim José Bohrer's (P-0030)
+    maternal grandfather and the head of the Lemos line of Itaboraí, RJ. Named in
+    his daughter's 1835 Itaboraí baptism (PAR-0016) as "Manoel de Lemos … natural
+    desta freguezia", married to Maria Thereza de Jesus (P-0053, family F-0025). The
+    fuller surname "de Lemos Pereira" is the family form (his son "Thomaz de Lemos
+    Pereira" is so indexed, and his son Candido Pereira de Lemos is named in Rosa's
+    husband's 1888 will, PRB-0005).
+- text: >-
+    Nationality Brazilian: he and his wife are "naturaes desta freguezia" (Itaboraí,
+    RJ) in the 1835 baptism — a documented birthplace, not a surname inference. His
+    own parents are not evidenced by the located records.

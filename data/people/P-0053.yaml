@@ -1,0 +1,24 @@
+schema_version: 1
+id: P-0053
+preferred_name: Maria Thereza de Jesus
+privacy: deceased
+sex: female
+nationality: Brazilian
+name_variants:
+- value: Maria Thereza de Jesus
+  type: source
+  source_ids:
+  - PAR-0016
+event_ids: []
+family_ids:
+- F-0025
+notes:
+- text: >-
+    Mother of Rosa Eugenia de Lemos (P-0035); hence Joaquim José Bohrer's (P-0030)
+    maternal grandmother. Named in her daughter's 1835 Itaboraí baptism (PAR-0016)
+    as "Maria Thereza de Jesus … natural desta freguezia", wife of Manoel de Lemos
+    [Pereira] (P-0052, family F-0025).
+- text: >-
+    Nationality Brazilian: she is "natural desta freguezia" (Itaboraí, RJ) in the
+    1835 baptism — a documented birthplace. Her own parents are not evidenced by the
+    located records.

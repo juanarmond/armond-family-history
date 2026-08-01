@@ -1,0 +1,62 @@
+schema_version: 1
+id: F-0025
+partners:
+- person_id: P-0052
+  role: spouse
+- person_id: P-0053
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PAR-0016
+  notes:
+  - text: >-
+      Manoel de Lemos [Pereira] and Maria Thereza de Jesus are named as the married
+      parents of their "filha legitima" Roza in the 1835 Itaboraí baptism (PAR-0016);
+      the legitimate-daughter statement attests their marriage, though no marriage
+      record is located.
+children:
+- person_id: P-0035
+  parent_relationships:
+  - parent_id: P-0052
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0016
+    notes:
+    - text: >-
+        The 1835 baptism records only the forename "Roza". Identification as Rosa
+        Eugenia de Lemos (P-0035) is strong but indirect: she is the couple's only
+        Roza across the browsed 1832-1838 Itaboraí baptisms, in the parish where her
+        1879 marriage justification was held (PAR-0002) and matching the Lemos-Itaboraí
+        family (brother Candido Pereira de Lemos, named in PRB-0005). Hence
+        strong-evidence rather than confirmed.
+  - parent_id: P-0053
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0016
+    notes: []
+  notes: []
+documented_children:
+- name: Candido Pereira de Lemos
+  source_ids:
+  - PRB-0005
+  note: >-
+    Brother of Rosa Eugenia de Lemos (P-0035): named "meu cunhado Candido Pereira de
+    Lemos" and second-named executor in her husband Francisco José Bohrer's 1888 will
+    (PRB-0005). Born before 1832 (absent from the 1832-1838 Itaboraí baptism sweep);
+    his own baptism/inventário is unlocated.
+event_ids: []
+notes:
+- text: >-
+    Parents of Rosa Eugenia de Lemos (P-0035), the Lemos family of Itaboraí, RJ,
+    established by her own 1835 Itaboraí baptism (PAR-0016). Extends the maternal
+    Bohrer (Lemos) line one generation above P-0035.
+- text: >-
+    Rosa's siblings, found in the same 1832-1838 Itaboraí register (images held, not
+    yet individually catalogued as sources): Manoel (b.1831), Maria (b.1832), Anna
+    (b.1834), Thomaz de Lemos Pereira (b.1836), Polidoro (b.1838) and João/Maria
+    (b.1841); plus the older brother Candido Pereira de Lemos (documented above from
+    the 1888 will). They are recorded here as a lead pending their own catalogued
+    baptisms.

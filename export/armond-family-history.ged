@@ -598,10 +598,20 @@
 1 NAME Roza Eugenia de Lemos /Bohrer/
 2 TYPE AKA
 2 SOUR @CIV0019@
+1 NAME Roza //
+2 TYPE AKA
+2 SOUR @PAR0016@
 1 SEX F
+1 BAPM
+2 DATE OCT 1835
+2 PLAC Freguesia (Matriz) de São João Batista de Itaboraí, Província do Rio de Janeiro, Brazil
+2 SOUR @PAR0016@
+3 QUAY 2
 1 FAMS @F0016@
+1 FAMC @F0025@
 1 NOTE Ahnentafel position 61 — mother of Joaquim José Bohrer (P-0030), hence Celina's (P-0015) paternal grandmother. Wife of Francisco José Bohrer (P-0034); their marriage was justified at the Nova Friburgo Matriz in 1879 (PAR-0002) and she is named as "Roza Eugenia de Lemos Bohrer" in Alberto Bohrer's 1890 birth (CIV-0019). "de Lemos" is her own surname, "Bohrer" her married name; both forms are preserved.
-1 NOTE Nationality left unset: no birthplace or stated nacionalidade is evidenced. Her Lemos family is associated with Itaboraí, RJ (the 1879 justification names José Antunes de Lemos as witness and host), a lead to her parentage but not a proven birthplace.
+1 NOTE Parentage established (1 August 2026) from her own 1835 Itaboraí baptism (PAR-0016 → event E-0049): daughter of Manoel de Lemos [Pereira] (P-0052) and Maria Thereza de Jesus (P-0053), the Lemos family of Itaboraí, RJ (family F-0025). The register records only the forename "Roza", so the identity is strong-evidence, not direct — she is the couple's only Roza across the browsed 1832-1838 Itaboraí baptisms, in the parish where her 1879 marriage justification was held (PAR-0002, "em casa do pai de José Antunes de Lemos"), and her brother Candido Pereira de Lemos is named in her husband's 1888 will (PRB-0005). This supersedes the earlier "weakened" doubt (the apparent childbearing gap was an indexing artifact). Born about late 1834 ("nascida a dez mezes").
+1 NOTE Nationality now Brazilian: her parents are "naturaes desta freguezia" of Itaboraí (PAR-0016), so an Itaboraí (Brazilian) birth is secure — a documented origin, not a surname inference.
 0 @P0036@ INDI
 1 NAME Antonio da Silva /Ferreira/
 2 GIVN Antonio da Silva
@@ -823,6 +833,25 @@
 1 FAMS @F0024@
 1 NOTE Mother of Francisco José Bohrer (P-0034); hence Joaquim José Bohrer's (P-0030) paternal grandmother. Named in her son's 1888 registered will (PRB-0005) as "Catharina Mayer … já fallecida" — deceased before 1888.
 1 NOTE Surname conflict preserved: the primary will writes "Mayer", but two secondary Nova Friburgo colonist-family compilations (a lead, not catalogued) give "Moser" (Catharina Moser of Hägendorf, Soleure, Switzerland, married Jacob Borer 1825). "Mayer" is recorded as the source-attested form and "Moser" as an unresolved variant; the retrieval note argues the two are the same person, but no primary record settles it, so neither surname is treated as certain and no origin is asserted. Nationality deliberately left unset for the same reason.
+0 @P0052@ INDI
+1 NAME Manoel de Lemos /Pereira/
+2 GIVN Manoel de Lemos
+2 SURN Pereira
+1 NAME Manoel de /Lemos/
+2 TYPE AKA
+2 SOUR @PAR0016@
+1 SEX M
+1 FAMS @F0025@
+1 NOTE Father of Rosa Eugenia de Lemos (P-0035); hence Joaquim José Bohrer's (P-0030) maternal grandfather and the head of the Lemos line of Itaboraí, RJ. Named in his daughter's 1835 Itaboraí baptism (PAR-0016) as "Manoel de Lemos … natural desta freguezia", married to Maria Thereza de Jesus (P-0053, family F-0025). The fuller surname "de Lemos Pereira" is the family form (his son "Thomaz de Lemos Pereira" is so indexed, and his son Candido Pereira de Lemos is named in Rosa's husband's 1888 will, PRB-0005).
+1 NOTE Nationality Brazilian: he and his wife are "naturaes desta freguezia" (Itaboraí, RJ) in the 1835 baptism — a documented birthplace, not a surname inference. His own parents are not evidenced by the located records.
+0 @P0053@ INDI
+1 NAME Maria Thereza de /Jesus/
+2 GIVN Maria Thereza de
+2 SURN Jesus
+1 SEX F
+1 FAMS @F0025@
+1 NOTE Mother of Rosa Eugenia de Lemos (P-0035); hence Joaquim José Bohrer's (P-0030) maternal grandmother. Named in her daughter's 1835 Itaboraí baptism (PAR-0016) as "Maria Thereza de Jesus … natural desta freguezia", wife of Manoel de Lemos [Pereira] (P-0052, family F-0025).
+1 NOTE Nationality Brazilian: she is "natural desta freguezia" (Itaboraí, RJ) in the 1835 baptism — a documented birthplace. Her own parents are not evidenced by the located records.
 0 @DOCF0001_1@ INDI
 1 NAME Aristides Muniz /Bittencourt/
 2 GIVN Aristides Muniz
@@ -977,6 +1006,15 @@
 1 NOTE Documented child, not individually modelled.
 2 SOUR @PRB0005@
 1 NOTE Son of Francisco José Bohrer and Rosa Eugenia de Lemos, a minor in 1888; named "Fernando" (the youngest) among the four children/heirs in his father's 1888 will (PRB-0005). The will gives only the forename; surname taken from the family.
+0 @DOCF0025_1@ INDI
+1 NAME Candido Pereira de /Lemos/
+2 GIVN Candido Pereira de
+2 SURN Lemos
+1 SEX U
+1 FAMC @F0025@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PRB0005@
+1 NOTE Brother of Rosa Eugenia de Lemos (P-0035): named "meu cunhado Candido Pereira de Lemos" and second-named executor in her husband Francisco José Bohrer's 1888 will (PRB-0005). Born before 1832 (absent from the 1832-1838 Itaboraí baptism sweep); his own baptism/inventário is unlocated.
 0 @F0001@ FAM
 1 HUSB @P0012@
 1 WIFE @P0013@
@@ -1205,6 +1243,17 @@
 3 QUAY 3
 1 SOUR @PRB0005@
 1 NOTE Parents of Francisco José Bohrer (P-0034), established by his own 1888 will (PRB-0005), in which he declares himself their "filho legitimo". This is the Bohrer line's immigrant boundary: Francisco José was "natural deste termo" (Nova Friburgo), so his parents Jacob and Catharina are the immigrant generation. Only Francisco José is modelled as a child here.
+0 @F0025@ FAM
+1 HUSB @P0052@
+1 WIFE @P0053@
+1 CHIL @P0035@
+1 CHIL @DOCF0025_1@
+1 MARR
+2 SOUR @PAR0016@
+3 QUAY 3
+1 SOUR @PAR0016@
+1 NOTE Parents of Rosa Eugenia de Lemos (P-0035), the Lemos family of Itaboraí, RJ, established by her own 1835 Itaboraí baptism (PAR-0016). Extends the maternal Bohrer (Lemos) line one generation above P-0035.
+1 NOTE Rosa's siblings, found in the same 1832-1838 Itaboraí register (images held, not yet individually catalogued as sources): Manoel (b.1831), Maria (b.1832), Anna (b.1834), Thomaz de Lemos Pereira (b.1836), Polidoro (b.1838) and João/Maria (b.1841); plus the older brother Candido Pereira de Lemos (documented above from the 1888 will). They are recorded here as a lead pending their own catalogued baptisms.
 0 @REPO0001@ REPO
 1 NAME FamilySearch Memories
 0 @REPO0002@ REPO
@@ -1228,12 +1277,14 @@
 0 @REPO0011@ REPO
 1 NAME FamilySearch (Portugal, Ilha de São Miguel, Catholic parish registers)
 0 @REPO0012@ REPO
-1 NAME FamilySearch full-text image
+1 NAME FamilySearch (Brazil, Rio de Janeiro, Catholic parish registers)
 0 @REPO0013@ REPO
-1 NAME FamilySearch Full-Text (Minas Gerais court and notarial records)
+1 NAME FamilySearch full-text image
 0 @REPO0014@ REPO
-1 NAME FamilySearch (Brazil, Rio de Janeiro, court and notarial/probate records)
+1 NAME FamilySearch Full-Text (Minas Gerais court and notarial records)
 0 @REPO0015@ REPO
+1 NAME FamilySearch (Brazil, Rio de Janeiro, court and notarial/probate records)
+0 @REPO0016@ REPO
 1 NAME Armond Family History private repository
 0 @CIV0001@ SOUR
 1 TITL Certified marriage record of Deocleciano Muniz Bittencourt and Luiza Fernandes de Azevedo
@@ -1614,10 +1665,20 @@
 1 NOTE Archival reference: FamilySearch collection 4449047, Povoação (N.S. Mãe de Deus) óbitos 1866, act N.º 70. Register image located via the Familiaridade/FamilySearch retrieval and delivered through the research/from-retrieval/ sync; read and promoted 1 August 2026.
 1 NOTE Repository file: evidence/parish/PAR-0015-manoel-muniz-bytancourt-obito-1866-povoacao.jpg
 1 OBJE @OBJPAR0015@
+0 @PAR0016@ SOUR
+1 TITL Parish baptism register entry of "Roza" (Rosa Eugenia de Lemos), 1835, Matriz de São João Batista de Itaboraí, naming her parents Manoel de Lemos [Pereira] and Maria Thereza de Jesus
+1 TEXT The 1835 Itaboraí baptism of a girl "Roza", legitimate daughter of Manoel de Lemos [Pereira] (P-0052) and Maria Thereza de Jesus (P-0053), both natural of the parish; godparents Manoel José da Silva and Flor de Maria da Conceição. Taken to be the baptism of Rosa Eugenia de Lemos (P-0035), wife of Francisco José Bohrer: she is the only "Roza" of this exact couple across the browsed 1832-1838 Itaboraí baptisms, in the parish where her 1879 marriage justification was held (PAR-0002, "em casa do pai de José Antunes de Lemos") and matching the Lemos-Itaboraí family named as her brother "Candido Pereira de Lemos" in her husband's 1888 will (PRB-0005). The register wrote only the forename "Roza"; the identity is therefore a strong indirect match, not a direct statement of "Eugenia de Lemos".
+1 REPO @REPO0012@
+2 CALN Brazil, Rio de Janeiro, registros paroquiais (FamilySearch); DGS film 004620557 (catalogue 1719212), livro Livro de batismos, Itaboraí, 1832-1838 — image 197 (baptisms of October 1835; volume noted "em mau estado / páginas rasgadas")
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Matriz de São João Batista de Itaboraí; livro de batismos, 1832-1838, imagem 197 (volume em mau estado, páginas rasgadas). Entrada do meio da coluna esquerda; margem lateral "Roza". Na mesma página há uma segunda "Roza", filha de José Nunes e Luiza Maria da Conceição — pessoa distinta.] "Aos [dez] dias do mez de Outubro de mil oito centos trinta e cinco, nesta Matriz baptizou pelos Santos Oleos o Reverendo Vigario [coadjunto?] a innocente Roza, nascida a dez mezes, filha legitima de Manoel de Lemos e Maria Thereza de Jesus, naturaes desta freguezia; Padrinho Manoel José da Silva e Flor de Maria da Conceição. E para constar mandei fazer este assento que assigno. O Vigario Francisco R.[el] Pin[a][?]."
+1 NOTE Archival reference: FamilySearch DGS 004620557 (cc=1719212), image 197. Located by browsing the unindexed Itaboraí baptism register and delivered through the research/from-retrieval/ sync; read and promoted 1 August 2026.
+1 NOTE Repository file: evidence/parish/PAR-0016-rosa-eugenia-de-lemos-baptism-1835-itaborai.jpg
+1 OBJE @OBJPAR0016@
 0 @PRB0001@ SOUR
 1 TITL 1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza Balbina de Toledo (wife of Simplício José Ferreira Armond)
 1 TEXT A page from an 1881 Leopoldina probate/partilha listing the heirs of an estate on Eliza Balbina de Toledo's side. It names Eliza Balbina de Toledo as the wife of Simplício José Ferreira Armond and lists her Toledo siblings with ages: Maria Bulandina de Toledo (m. Manoel Marques Jorge), Ladisláo Egydio Ferreira de Toledo (~23, b. ~1858), Geraldo Augusto de Toledo Lima (~15, b. ~1866, then living in Rio de Janeiro), and Josepha Olympia da Paixão (~12, b. ~1869), plus a predeceased Carolina Leopoldina Marques inheriting by representation. The companion 1884 petition (PRB-0002) names the decedent as D. Mathilde Maria de Jezus.
-1 REPO @REPO0012@
+1 REPO @REPO0013@
 2 CALN Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text), fl. 9
 1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
 1 NOTE Transcription: [Fólio "9" no canto superior direito.] [Cabeçalho centralizado, abreviatura de leitura incerta, provavelmente "N.tos" (Nettos).] [Cada verba é precedida de um pequeno "N." sobrescrito e traz, à margem direita, o número de ordem seguido de um sinal de conferência "×".] 4.º Maria Bulandina de Tolledo, cazada com Manoel Marques Jorge. 5.º Simplicio José Ferreira Armond, cazado com D. Eliza Balbina de Tolledo. 6.º Ladisláo Egydio Ferreira de Tolledo, solteiro, de 23 annos. 7.º Geraldo Augusto de Tolledo Lima, solteiro, de 15 annos, rezidente na côrte, empregado em uma caza de negocio zita á rua do Visconde de Inhaúma n.º 74. 8.º Josepha Olympia da Paixão, solteira, de 12 annos de idade. [Verba separada, abaixo do colchete que agrupa as anteriores, com um algarismo grande de leitura incerta à margem:] D. Carolina Leopoldina Marques, cazada com Narcizo Marques Braz, sendo a mesma já fallecida, sendo seos herdeiros [—] [última linha, ao pé da página, cortada:] 1.º D. Maria da [...] [o texto continua em folha não digitalizada].
@@ -1627,7 +1688,7 @@
 0 @PRB0002@ SOUR
 1 TITL 1884 Leopoldina petition of Simplício José Ferreira Armond as heir of the late D. Mathilde Maria de Jezus
 1 TEXT A petition (12 February 1884, Leopoldina), written and signed by Simplício José Ferreira Armond in his own hand, asking the orphans' judge to complete the long-delayed partition of the estate of the late D. Mathilde Maria de Jezus, who had died about four years earlier (~1880). He petitions as her heir — in right of his wife Eliza Balbina de Toledo (per PRB-0001) — placing Mathilde Maria de Jezus on Eliza's (maternal) line.
-1 REPO @REPO0012@
+1 REPO @REPO0013@
 2 CALN Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text), fl. 321
 1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
 1 NOTE Transcription: [Fólio "321" no canto superior direito.] Ill.mo Snr. Dr. Juiz de Orphãos. [Despacho, lançado no alto da folha, leitura difícil:] Nos autos, [venha-me concluso?]. Leopoldina 15 de [Fevereiro] de 1884. J. [Felicio?]. [Seguem-se algumas linhas riscadas / decalque de tinta da folha oposta, ilegíveis.] [Petição, autógrafa:] Diz Simplicio Jozé Ferreira Armond herdeiro da fina[da] D. Mathilde Maria de Jezus que, tendo ella falle[-]cido a cerca de 4 annos, até hoje [não se?] [terem?] partilhados os bens por aquella [dita?] finada [deixados?]; e como isso não convem não só ao inte[-]resse do Supp.e como dos de mais herdeiros, vem pe[-]rante V. S.ª [requerer?] hoje [de ordenar?] q[ue], junta esta aos autos, [suba?] á conclusão de V. S.ª para verificar o motivo da demora e ordenar q[ue] em [um] praso q[ue] se digne marcar se faça a partilha. O Supp.e em attenção sómente a[o] [seu?] interesse [nada?] [requereria?], mas tem parentes colateraes em esta[-]do de indigencia aos quaes pode m.to minorar o mal q[ue] soffrem, o recebimento de seus [haveres?]. Assim pois [bloco alinhado à direita, leitura difícil:] [P.?] e E. de [M.cê?] [enérgicas?] pro[-]videncias a fim de q[ue] se não continue [no?] prote[-]lação. E. R. M.cê [leitura incerta] [junto ao sêllo impresso "Imperio do Brazil — 200 — Réis — Sello":] Leop.ª 12 d[e] Fev.º d[e] 1884. Simplicio Joze Ferr.ª Armond [assinatura autógrafa].
@@ -1637,7 +1698,7 @@
 0 @PRB0003@ SOUR
 1 TITL 1877 Leopoldina notarial deed of sale by the Toledo grandchildren of their inherited Fazenda da Concórdia land, naming their grandmother Mathilde Maria de Jesus
 1 TEXT A notarial deed of sale registered at Santo Antônio [dos Aribas?], Termo de Leopoldina, MG, on 25 May 1877, in which a set of Toledo-family grandchildren — Maria Bulandina de Jesus (wife of Manoel Marques Jorge), Josepha Olímpia, Maria [Perpétua/Porcelina] de Toledo, Matildes Olímpia da Paixão, Geraldo Augusto de Toledo and Ladisláo Egydio Ferreira de Toledo — sell to Capitão Antonio Belizandro dos Reis Meirelles two shares of cultivated land in the Fazenda da Concórdia that they inherited from their deceased grandmother (avó) Dona Mathildes Maria de Jesus. Same grandchild set and estate matriarch as the 1881 partilha (PRB-0001, which lists Eliza Balbina de Toledo among the "Primeiros Nettos") and the 1884 petition (PRB-0002).
-1 REPO @REPO0013@
+1 REPO @REPO0014@
 2 CALN Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text), livro Livro 6, fls. 27-30 (traslado at fl. 159)
 1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
 1 NOTE Transcription: [Página 1 de 2 (imagem 1). No alto: "= 2 =", um "N.º", e o fólio "159" (repetido à direita). Nota de margem lateral, na vertical, de leitura parcial: "[...] Antonio Belizandro dos Reis Meirelles [...] 25 de Maio de 18[7]7"; demais anotações de arquivo à margem direita, ilegíveis.] Livro 6 Folhas 27, 28, 29 e 30. Primeiro tras[-]lado de escriptura de venda que fazem Mano[-]el Marques Jorge, sua mulher D. Maria Blandina de Jezus, Baldoino Rodrigues de Almeida Montes e sua mulher D. Josepha Olimpia Rodrigues d'Almeida, Dona Maria Porcelina de Toledo, D. Matildes Olimpia da Paixão, Geraldo Augusto de Toledo, Ladisláo Egydio Ferreira de Toledo ao Ca[-]pitão Antonio Belizandro dos Reis Mei[-]relles na forma abaixo = Saibão quan[-]tos este publico instrumento virem que no anno do Nascimento de Nosso Senhor Jezus Christo de mil oito centos e setenta e sete aos vinte e cinco dias do mez de Maio nesta Freguezia de Santo Antonio dos [Aribas?] Ter[-]mo da Leopoldina Provincia de Minas Geraes em o meu Cartorio compareceram partes justas e contractadas a saber: como outor[-]gantes vendedores Manoel Marques Jorge e sua mulher Dona Maria Blandina de Jezus, Baldoino Rodrigues d'Almeida Mon[-]tes e sua mulher Dona Josepha Olimpia Rodrigues d'Almeida, Dona Maria Por[-]celina de Toledo, Dona Matildes Olimpia da Paixão, Geraldo Augusto de Toledo e Ladisláo Egydio Ferreira de Toledo e como outorgado Comprador o Capitão Antonio Belizandro dos Reis Meirelles, aquelles moradores nesta Freguezia e este morador na Freguezia do Rio Pardo ambas deste [...] [Página 2 de 2 (imagem 2). Nota de margem lateral, na vertical: "Concordia".] [...] de Lima Coelho de Moura, [Cezario?] Chris[-]tino da Silva Lima e sua mulher Dona Adelaide da Fonseca Lima, re[-]prezentados por seu bastante Procu[-]rador Ladisláo Egydio Ferreira de Toledo, pelos poderes das Procurações que exhibio e abaixo vão transcriptas; e de outro lado como Outorgado compra[-]dor o Capitão Antonio Belizandro dos Reis Meirelles, os primeiros residentes em São João d'El Rei, os segundos resi[-]dentes no Rio de Janeiro, e o outor[-]gado residente no Districto do Rio Pardo d'este Termo, reconhecidos por mim Escrivão e pelas testemunhas abaixo assignadas, do que dou fé; perante as quaes pelos Outorgantes por seu Procurador, foi dito que são Senhores e possuidores de duas Sortes de ter[-]ras de cultura em commum na Fazenda da Concordia e que houve[-]rão por herança no inventario os bens de sua finada avó Dona Ma[-]thildes Maria de Jezus, pela ma[-]neira seguinte: Parte nos tres mil [...]
@@ -1646,7 +1707,7 @@
 0 @PRB0005@ SOUR
 1 TITL Registered will (testamento) of Francisco José Bohrer (registered 1888, Provedoria de Nova Friburgo), declaring his parents Jacob Bahrer and Catharina Mayer, his wife and his four children
 1 TEXT Francisco José Bohrer's own registered will (Provedoria de Nova Friburgo, Livro de Testamentos nº 9, fl. 8v; registered 1888). He declares himself "natural deste termo" (born in the Nova Friburgo comarca) and "filho legitimo de Jacob Bahrer e de Catharina Mayer, já fallecidos" — primary evidence of his parents (P-0050, P-0051), the Bohrer line's immigrant boundary. He names his wife Rosa Eugenia de Lemos Bohrer (P-0035) and their four children Joaquim (P-0030), Laura, Guilherme and Fernando as sole heirs, and his brother-in-law Candido Pereira de Lemos as an executor. Resolves the previously open question of whether Francisco José was himself an immigrant: he was Brazilian-born (Nova Friburgo), and the immigrant generation is his parents.
-1 REPO @REPO0014@
+1 REPO @REPO0015@
 2 CALN Brazil, Rio de Janeiro, "Legal" records (TJERJ fund); FamilySearch DGS 105875530, livro Livro de Registro de Testamentos nº 9, fl. 8 verso
 1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
 1 NOTE Transcription: [Certidão do escrivão da Provedoria de Nova Friburgo. Duas imagens (…-p1.jpg, …-p2.jpg); no alto da p1 o fólio "3".] [p1] "O Capitão João José Kramith[?], Escrivão da Provedoria da Cidade de Nova-Friburgo. Certifico que revendo em meu cartorio o livro de Registro de testamentos numero nove, delle a folhas oito verso consta o Registro do theor seguinte: — Registro d'um testamento na forma abaixo. — Jesus, Maria, José. Em Nome da Santissima Trindade, Padre, Filho, Espirito Santo, em quem eu Francisco José Bohrer firmemente creio, em cuja fé protesto viver e morrer. Este é o meu testamento e ultima vontade. Declaro que sou natural deste termo, filho legitimo de Jacob Bahrer e de Catharina Mayer, já fallecidos. Declaro que sou casado á face da Igreja com Roza Eugenia de Lemos Bohrer, de cujo matrimonio tenho actualmente quatro filhos que são Joaquim, Laura, Guilherme e Fernando, todos de menor idade, os quaes são meus [p2] unicos e legitimos herdeiros. O meu enterro será feito á vontade de meu testamenteiro. Mando que por alma de meus paes se digão vinte missas. Deixo a quantia de cincoenta mil réis para obras ou conservação da Capella de Santo Antonio que se vae edificar no Suspiro nesta Villa, livre de imposto que será pago pelos meus bens. Nomeio para meus testamenteiros e tutores de meus filhos, na ordem em que se achão: em primeiro lugar a minha mulher Rosa Eugenia de Lemos Bohrer, em segundo lugar a meu cunhado Candido Pereira de Lemos, e em terceiro lugar ao meu amigo Samuel Antonio dos Santos. Esta é a minha ultima vontade e disposição para depois de minha morte, que pedi a João José Kramith que por mim escrevesse conforme lhe ditei, e no qual me assigno por estar conforme." [Segue o auto de approvação, Nova Friburgo, 188[8], parcialmente legível.]
@@ -1656,7 +1717,7 @@
 0 @REC0001@ SOUR
 1 TITL Direct-ancestor roster supplied by Juan Carlos Muniz Armond
 1 TEXT The repository owner identified himself, his parents, and the deceased direct ancestors used to initialise Ahnentafel positions 1 through 15. This source supports the private working roster and preferred-name spellings only; it does not substitute for civil or parish evidence of vital events or relationships.
-1 REPO @REPO0015@
+1 REPO @REPO0016@
 1 NOTE Evidence classification: family_recollection; authored_narrative; information mixed; direct evidence.
 1 NOTE Repository file: STATUS.md
 0 @OBJCIV0001@ OBJE
@@ -1849,6 +1910,11 @@
 2 FORM image/jpeg
 2 TITL Parish death register entry of Manoel Muniz Bytancourt (1866, Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel), naming his wife, his parents and his eight children
 1 NOTE sha256: 90a2d62d23abaeb36981a2d80d4e98458c7fae1f9092cd456d3ced8f8da13189
+0 @OBJPAR0016@ OBJE
+1 FILE evidence/parish/PAR-0016-rosa-eugenia-de-lemos-baptism-1835-itaborai.jpg
+2 FORM image/jpeg
+2 TITL Parish baptism register entry of "Roza" (Rosa Eugenia de Lemos), 1835, Matriz de São João Batista de Itaboraí, naming her parents Manoel de Lemos [Pereira] and Maria Thereza de Jesus
+1 NOTE sha256: 061ad63a7a6be52223d92f5d97ff0ee83f7771183992aa93c9334cf70dab1312
 0 @OBJPRB0001@ OBJE
 1 FILE evidence/probate/PRB-0001-probate-toledo-heir-list-leopoldina-1881-original.jpg
 2 FORM image/jpeg

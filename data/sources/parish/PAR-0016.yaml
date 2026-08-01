@@ -1,0 +1,95 @@
+schema_version: 1
+id: PAR-0016
+title: >-
+  Parish baptism register entry of "Roza" (Rosa Eugenia de Lemos), 1835, Matriz de
+  São João Batista de Itaboraí, naming her parents Manoel de Lemos [Pereira] and
+  Maria Thereza de Jesus
+record_type: Parish baptism register entry (batismo, original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: month
+  year: 1835
+  month: 10
+  original_text: >-
+    "Aos [dez] dias do mez de Outubro de mil oito centos trinta e cinco" — October
+    1835; the exact day is an uncertain read on a torn page.
+event_place_text: >-
+  Freguesia (Matriz) de São João Batista de Itaboraí, Província do Rio de Janeiro,
+  Brazil
+repository:
+  name: FamilySearch (Brazil, Rio de Janeiro, Catholic parish registers)
+  archive_or_registry: >-
+    Paróquia (Matriz) de São João Batista de Itaboraí, Rio de Janeiro
+  collection: >-
+    Brazil, Rio de Janeiro, registros paroquiais (FamilySearch); DGS film
+    004620557 (catalogue 1719212)
+  book: >-
+    Livro de batismos, Itaboraí, 1832-1838 — image 197 (baptisms of October 1835;
+    volume noted "em mau estado / páginas rasgadas")
+  catalogue_reference: >-
+    FamilySearch DGS 004620557 (cc=1719212), image 197. Located by browsing the
+    unindexed Itaboraí baptism register and delivered through the
+    research/from-retrieval/ sync; read and promoted 1 August 2026.
+  repository_path: evidence/parish/PAR-0016-rosa-eugenia-de-lemos-baptism-1835-itaborai.jpg
+access_date: "2026-08-01"
+language: pt-BR
+transcription: >-
+  [Matriz de São João Batista de Itaboraí; livro de batismos, 1832-1838, imagem 197
+  (volume em mau estado, páginas rasgadas). Entrada do meio da coluna esquerda;
+  margem lateral "Roza". Na mesma página há uma segunda "Roza", filha de José Nunes
+  e Luiza Maria da Conceição — pessoa distinta.] "Aos [dez] dias do mez de Outubro
+  de mil oito centos trinta e cinco, nesta Matriz baptizou pelos Santos Oleos o
+  Reverendo Vigario [coadjunto?] a innocente Roza, nascida a dez mezes, filha
+  legitima de Manoel de Lemos e Maria Thereza de Jesus, naturaes desta freguezia;
+  Padrinho Manoel José da Silva e Flor de Maria da Conceição. E para constar mandei
+  fazer este assento que assigno. O Vigario Francisco R.[el] Pin[a][?]."
+abstract: >-
+  The 1835 Itaboraí baptism of a girl "Roza", legitimate daughter of Manoel de
+  Lemos [Pereira] (P-0052) and Maria Thereza de Jesus (P-0053), both natural of the
+  parish; godparents Manoel José da Silva and Flor de Maria da Conceição. Taken to
+  be the baptism of Rosa Eugenia de Lemos (P-0035), wife of Francisco José Bohrer:
+  she is the only "Roza" of this exact couple across the browsed 1832-1838 Itaboraí
+  baptisms, in the parish where her 1879 marriage justification was held (PAR-0002,
+  "em casa do pai de José Antunes de Lemos") and matching the Lemos-Itaboraí family
+  named as her brother "Candido Pereira de Lemos" in her husband's 1888 will
+  (PRB-0005). The register wrote only the forename "Roza"; the identity is therefore
+  a strong indirect match, not a direct statement of "Eugenia de Lemos".
+reliability:
+  assessment: >-
+    Direct primary parish evidence of a Roza baptised in 1835 at Itaboraí to Manoel
+    de Lemos and Maria Thereza de Jesus. For the identification of this child as
+    Rosa Eugenia de Lemos (P-0035) the evidence is strong but indirect (forename
+    only), resting on the unique couple/parish/date match and the corroborating
+    Itaboraí Lemos links in PAR-0002 and PRB-0005.
+  informant: The recording vigário of São João Batista de Itaboraí (1835).
+  limitations: >-
+    Torn, water-damaged register; the exact day, the vigário's surname and one or
+    two words are uncertain reads. The act records only the forename "Roza", so the
+    tie to Rosa Eugenia de Lemos is inferential. A second, unrelated "Roza" (dau. of
+    José Nunes and Luiza Maria da Conceição) appears on the same page.
+digital_file:
+  path: evidence/parish/PAR-0016-rosa-eugenia-de-lemos-baptism-1835-itaborai.jpg
+  sha256: 061ad63a7a6be52223d92f5d97ff0ee83f7771183992aa93c9334cf70dab1312
+linked_people:
+- P-0035
+- P-0052
+- P-0053
+linked_families:
+- F-0025
+linked_events:
+- E-0049
+linked_places: []
+private: true
+notes:
+- text: >-
+    Resolves the earlier "weakened" doubt over Rosa's Itaboraí parentage: the
+    apparent 8-year gap (1831→1841) in the couple's children was an indexing
+    artifact — the 1832-1838 baptisms are unindexed (browse-only). Rosa's siblings
+    Manoel (1831), Maria (1832), Anna (1834), Thomaz (1836), Polidoro (1838) and
+    João/Maria (1841) were found in the same register (images held, not yet
+    individually catalogued); the will's Candido Pereira de Lemos is a further
+    (older, unlocated) brother.

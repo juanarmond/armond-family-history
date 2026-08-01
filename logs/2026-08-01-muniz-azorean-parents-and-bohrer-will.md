@@ -108,3 +108,37 @@ living-adjacent records (RGs, recent deaths, portraits). The Lemos Itaboraí
 baptisms belong to the *weakened/negative* Manoel-de-Lemos-Pereira strand (Rosa's
 parentage is now to be pursued via her brother Candido Pereira de Lemos, named in
 the will). These await a separate FAN/collateral triage pass.
+
+## 3. Rosa Eugenia de Lemos's Lemos parents (PAR-0016) — addendum, same drop
+
+A second read of FINDINGS surfaced a third direct-line primary record I had
+under-weighted. Read `rec-lemos-rosa-baptism-1835-itaborai.jpg` (Matriz de São
+João Batista de Itaboraí, img 197, a torn "volume em mau estado"): *"...baptizou...
+a innocente **Roza**, nascida a dez mezes, filha legitima de **Manoel de Lemos** e
+**Maria Thereza de Jesus**, naturaes desta freguezia; Padrinho Manoel José da Silva
+e Flor de Maria da Conceição."*
+
+Promoted as PAR-0016, establishing Rosa Eugenia de Lemos's (P-0035) parents
+**Manoel de Lemos Pereira** (P-0052) ⚭ **Maria Thereza de Jesus** (P-0053), family
+F-0025, with baptism event E-0049. Both parents are *naturaes* of Itaboraí, so
+Rosa's nationality is now Brazilian (Itaboraí-born).
+
+- **Identity = strong-evidence, not direct.** The register gives only the forename
+  "Roza"; a *second, unrelated* "Roza" (dau. of José Nunes × Luiza Maria da
+  Conceição) sits on the same page. The tie to our Rosa rests on: she is the
+  couple's only Roza across the browsed 1832-1838 Itaboraí baptisms; the parish
+  matches her 1879 marriage venue (PAR-0002, "em casa do pai de José Antunes de
+  Lemos"); and her brother **Candido Pereira de Lemos** is named in her husband's
+  1888 will (PRB-0005) — added as a documented sibling on F-0025.
+- **Resolves the earlier "weakened" doubt.** The apparent 1831→1841 childbearing
+  gap was an indexing artifact; the 1832-1838 baptisms are unindexed (browse-only).
+  Rosa's siblings (Manoel 1831, Maria 1832, Anna 1834, Thomaz 1836, Polidoro 1838,
+  João/Maria 1841) were located in the same register (images held, not individually
+  catalogued) — noted as a lead on F-0025.
+- PAR-0002 checked: it does **not** name Rosa's parents, so the baptism is genuinely
+  the establishing record (not a duplicate). The `rec-lemos-rosa-marriage-1879-RJ`
+  image is the same record already catalogued as PAR-0002.
+
+New entities: PAR-0016, P-0052, P-0053, F-0025, E-0049 (inventory DOC-0048).
+make check green (69 tests, 198 entities); reciprocity clean; both parents trace
+as degree-6 direct ancestors via Iris → Celina → Joaquim → Rosa.

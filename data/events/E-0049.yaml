@@ -1,0 +1,31 @@
+schema_version: 1
+id: E-0049
+event_type: baptism
+date:
+  kind: month
+  year: 1835
+  month: 10
+  original_text: >-
+    "Aos [dez] dias do mez de Outubro de mil oito centos trinta e cinco" (PAR-0016);
+    the child is noted "nascida a dez mezes", so born about late 1834.
+place_text: >-
+  Freguesia (Matriz) de São João Batista de Itaboraí, Província do Rio de Janeiro,
+  Brazil
+participants:
+- person_id: P-0035
+  role: principal
+- person_id: P-0052
+  role: parent
+- person_id: P-0053
+  role: parent
+status: strong-evidence
+source_ids:
+- PAR-0016
+notes:
+- text: >-
+    Baptism of "Roza" — taken to be Rosa Eugenia de Lemos (P-0035) — in October 1835
+    at the Matriz de São João Batista de Itaboraí, daughter of Manoel de Lemos
+    [Pereira] (P-0052) and Maria Thereza de Jesus (P-0053), per PAR-0016. The child
+    was recorded "nascida a dez mezes" (born about late 1834). Strong-evidence
+    because the register gives only the forename "Roza" (see F-0025 for the identity
+    reasoning).

@@ -1866,3 +1866,39 @@ documents:
         Francisco José Bohrer's own 1888 will names his parents (Jacob Bahrer, Catharina
         Mayer), establishes his Nova Friburgo birth and confirms his four children. All
         named persons long deceased (19th-century record).
+  - inventory_id: DOC-0048
+    status: catalogued
+    added_date: "2026-08-01"
+    apparent_record_type: Parish baptism register entry (batismo, original)
+    apparent_people:
+      - Rosa Eugenia de Lemos
+      - Manoel de Lemos Pereira
+      - Maria Thereza de Jesus
+    apparent_event: baptism
+    image_quality: partly-illegible
+    provenance: >-
+      Livro de batismos, Matriz de São João Batista de Itaboraí, RJ, imagem 197
+      (October 1835; volume em mau estado / páginas rasgadas). FamilySearch DGS
+      004620557 (cc=1719212); owner's authorised research/from-retrieval/ sync; read
+      1 August 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0016-rosa-eugenia-de-lemos-baptism-1835-itaborai.jpg
+        sha256: 061ad63a7a6be52223d92f5d97ff0ee83f7771183992aa93c9334cf70dab1312
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 4285
+          pixel_height: 3552
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0016
+    notes:
+      - >-
+        Establishes Rosa Eugenia de Lemos's parents (Manoel de Lemos Pereira, Maria
+        Thereza de Jesus) of Itaboraí. The register gives only the forename "Roza"; the
+        identity is strong-evidence (see F-0025). Torn, damaged page; a second unrelated
+        "Roza" is on the same image. All named persons long deceased.
