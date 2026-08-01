@@ -417,6 +417,94 @@ export function projectTreeData({ people, families, events, places, sources, fan
   // transcription carries an unresolved reading, or a note that explicitly
   // records a conflict. Name variants alone are not a conflict.
   const conflictTerms = ["conflict", "unresolved"];
+
+  // Derived biography: a structured, language-agnostic summary of a person built
+  // purely from their vital events, relationships and occupations, so the viewer
+  // can render a narrative that never drifts from the data and never fabricates.
+  const yearOfDate = (d) => {
+    if (!d || typeof d !== "object") return null;
+    if (d.kind === "exact" && typeof d.value === "string") return Number(d.value.slice(0, 4));
+    if ((d.kind === "month" || d.kind === "year") && d.year) return Number(d.year);
+    // Prefer the year stated in the text (e.g. "about 1847") over the range bound.
+    const m = String(d.text || "").match(/\b(\d{4})\b/);
+    if (m) return Number(m[1]);
+    if (d.earliest) return Number(d.earliest);
+    return null;
+  };
+  const isBrazil = (place) => typeof place === "string" && /brazil|brasil/i.test(place);
+  const isCertainKind = (d) => d && (d.kind === "exact" || d.kind === "month" || d.kind === "year");
+
+  const buildBiography = (personId) => {
+    const person = people[personId];
+    const evs = personEvents[personId] || [];
+    const principal = (types) =>
+      evs.find((e) => types.includes(e.type) && e.role === "principal");
+    const birthEv = principal(["birth"]) || principal(["baptism"]);
+    const deathEv = principal(["death"]) || principal(["burial"]);
+    const parents = [
+      ...new Set(
+        (parentsByChild[personId] || [])
+          .map((p) => people[p.parentId]?.preferred_name)
+          .filter(Boolean),
+      ),
+    ];
+    const marriages = (spousesByPerson[personId] || [])
+      .map((s) => {
+        const m = marriageByFamily[s.familyId] || null;
+        return {
+          spouse: people[s.spouseId]?.preferred_name || null,
+          date: m?.date || null,
+          place: m?.place || null,
+        };
+      })
+      .filter((m) => m.spouse);
+    const children = (childrenByPerson[personId] || []).map((c) => c.name).filter(Boolean);
+    const occupations = (person.occupations || [])
+      .map((o) => (typeof o.value === "string" ? o.value.trim() : ""))
+      .filter(Boolean);
+
+    let birth = null;
+    if (birthEv) {
+      const place = birthEv.place?.name || null;
+      let emigratedToBrazil = false;
+      if (place && !isBrazil(place)) {
+        emigratedToBrazil = evs.some((e) => e !== birthEv && isBrazil(e.place?.name));
+      }
+      birth = {
+        date: birthEv.date || null,
+        place,
+        parents,
+        emigratedToBrazil,
+        fromBaptism: birthEv.type === "baptism",
+      };
+    }
+    let death = null;
+    if (deathEv) {
+      const by = birthEv ? yearOfDate(birthEv.date) : null;
+      const dy = yearOfDate(deathEv.date);
+      let age = null;
+      if (by && dy && dy >= by && dy - by < 120) {
+        age = { years: dy - by, approx: !(isCertainKind(birthEv.date) && isCertainKind(deathEv.date)) };
+      }
+      death = { date: deathEv.date || null, place: deathEv.place?.name || null, age };
+    }
+
+    const empty =
+      !birth && !death && marriages.length === 0 && children.length === 0 && occupations.length === 0;
+    if (empty) return { sparse: true, parents };
+    return {
+      sex: person.sex || "unknown",
+      birth,
+      // parentsOnly drives the "recorded as the parent of …" lead when there is no
+      // birth event but the person is known only through their children.
+      parentsOnly: !birth && marriages.length === 0 && children.length > 0,
+      marriages,
+      children,
+      occupations,
+      death,
+    };
+  };
+
   const peopleView = {};
 
   for (const [personId, person] of Object.entries(people)) {
@@ -439,6 +527,8 @@ export function projectTreeData({ people, families, events, places, sources, fan
       id: personId,
       name: person.preferred_name || personId,
       privacy,
+      sex: person.sex || "unknown",
+      biography: living ? null : buildBiography(personId),
       nationality: typeof person.nationality === "string" && person.nationality.trim()
         ? person.nationality.trim()
         : null,

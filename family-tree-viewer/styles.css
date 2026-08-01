@@ -710,6 +710,13 @@ a:focus-visible {
 
 .detail-section { padding: 1.25rem 0; border-bottom: 1px solid var(--rule); }
 .detail-section:last-child { border-bottom: 0; }
+.biography {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: .96rem;
+  line-height: 1.65;
+  color: var(--ink);
+}
 .detail-section h3 {
   margin-bottom: .8rem;
   color: var(--gold);

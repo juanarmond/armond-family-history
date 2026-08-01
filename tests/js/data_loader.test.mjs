@@ -380,3 +380,55 @@ test("an uncertain transcription flags the source and the person, not name varia
   // Only a name variant, no uncertain source and no conflict note → not flagged.
   assert.equal(data.people["P-2"].hasConflict, false);
 });
+
+test("biography summarises birth, parents, marriage, children, emigration and death", () => {
+  const input = {
+    people: {
+      "P-1": { id: "P-1", preferred_name: "João Bittencourt", privacy: "deceased", sex: "male", name_variants: [], event_ids: ["E-b", "E-d"], family_ids: ["F-1"], notes: [] },
+      "P-2": { id: "P-2", preferred_name: "Manoel Bittencourt", privacy: "deceased", sex: "male", name_variants: [], event_ids: [], family_ids: ["F-0"], notes: [] },
+      "P-3": { id: "P-3", preferred_name: "Susana Brandão", privacy: "deceased", sex: "female", name_variants: [], event_ids: ["E-m"], family_ids: ["F-1"], notes: [] },
+      "P-4": { id: "P-4", preferred_name: "Deocleciano", privacy: "deceased", sex: "male", name_variants: [], event_ids: [], family_ids: ["F-1"], notes: [] },
+    },
+    families: {
+      "F-0": { id: "F-0", partners: [{ person_id: "P-2", role: "parent" }], children: [{ person_id: "P-1", parent_relationships: [{ parent_id: "P-2", status: "confirmed", source_ids: ["S-1"] }] }] },
+      "F-1": {
+        id: "F-1",
+        partners: [{ person_id: "P-1", role: "spouse" }, { person_id: "P-3", role: "spouse" }],
+        partner_relationship: { status: "confirmed", source_ids: ["S-1"] },
+        children: [{ person_id: "P-4", parent_relationships: [{ parent_id: "P-1", status: "confirmed", source_ids: ["S-1"] }] }],
+        event_ids: ["E-m"],
+      },
+    },
+    events: {
+      "E-b": { id: "E-b", event_type: "birth", date: { kind: "approximate", text: "about 1847", earliest: 1847 }, place_text: "Ilha de São Miguel, Açores, Portugal", participants: [{ person_id: "P-1", role: "principal" }], source_ids: ["S-1"], status: "confirmed" },
+      "E-d": { id: "E-d", event_type: "death", date: { kind: "exact", value: "1915-09-12" }, place_text: "Carangola, Minas Gerais, Brazil", participants: [{ person_id: "P-1", role: "principal" }], source_ids: ["S-1"], status: "confirmed" },
+      "E-m": { id: "E-m", event_type: "marriage", date: { kind: "year", year: 1882 }, place_text: "Sapucaia, Rio de Janeiro, Brazil", participants: [{ person_id: "P-1", role: "spouse" }, { person_id: "P-3", role: "spouse" }], source_ids: ["S-1"], status: "confirmed" },
+    },
+    places: {},
+    sources: { "S-1": { title: "x", linked_people: ["P-1"] } },
+    fan: {},
+  };
+  const data = projectTreeData(input);
+  const bio = data.people["P-1"].biography;
+  assert.equal(bio.birth.place, "Ilha de São Miguel, Açores, Portugal");
+  assert.deepEqual(bio.birth.parents, ["Manoel Bittencourt"]);
+  assert.equal(bio.birth.emigratedToBrazil, true); // foreign birth + Brazilian death
+  assert.equal(bio.marriages[0].spouse, "Susana Brandão");
+  assert.deepEqual(bio.children, ["Deocleciano"]);
+  assert.equal(bio.death.place, "Carangola, Minas Gerais, Brazil");
+  assert.equal(bio.death.age.years, 68); // 1915 - 1847
+  assert.equal(bio.death.age.approx, true); // approximate birth year
+  // A person known only through a child is not sparse; it drives the "parent of" lead.
+  const manoel = data.people["P-2"].biography;
+  assert.equal(manoel.parentsOnly, true);
+  assert.deepEqual(manoel.children, ["João Bittencourt"]);
+});
+
+test("living people get no biography", () => {
+  const input = {
+    people: { "P-1": { id: "P-1", preferred_name: "Living Person", privacy: "living", sex: "male", name_variants: [], event_ids: [], family_ids: [], notes: [] } },
+    families: {}, events: {}, places: {}, sources: {}, fan: {},
+  };
+  const data = projectTreeData(input);
+  assert.equal(data.people["P-1"].biography, null);
+});

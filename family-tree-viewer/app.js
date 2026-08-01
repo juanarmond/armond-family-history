@@ -412,6 +412,106 @@ function resolveInitialLocale(hashLang) {
   return resolveLocale(nav);
 }
 
+// Localised date fragment for the biography (with a leading space), honouring
+// uncertainty: approximate → "in about 1847", month/year → coarser phrasing.
+function bioWhen(date) {
+  if (!date || typeof date !== "object") return "";
+  const months = t("bio.months").split("|");
+  const yearIn = (v) => (String(v ?? "").match(/\b(\d{4})\b/) || [])[1];
+  if (date.kind === "exact" && typeof date.value === "string") {
+    const [y, m, d] = date.value.split("-").map(Number);
+    return " " + t("bio.dateExact", { d, m: months[m - 1] || m, y });
+  }
+  if (date.kind === "month") return " " + t("bio.dateMonth", { m: months[date.month - 1] || date.month, y: date.year });
+  if (date.kind === "year") return " " + t("bio.dateYear", { y: date.year });
+  if (date.kind === "approximate") {
+    const y = yearIn(date.text) || date.earliest;
+    return y ? " " + t("bio.dateAbout", { y }) : "";
+  }
+  if (date.kind === "before") {
+    const y = yearIn(date.text) || date.latest;
+    return y ? " " + t("bio.dateBefore", { y }) : "";
+  }
+  if (date.kind === "after") {
+    const y = yearIn(date.text) || date.earliest;
+    return y ? " " + t("bio.dateAfter", { y }) : "";
+  }
+  return ""; // inferred / range / conflicting / unknown → left out of prose
+}
+
+function bioWhere(place) {
+  return place ? " " + t("bio.inPlace", { place }) : "";
+}
+
+function joinAnd(items) {
+  if (items.length <= 1) return items.join("");
+  return `${items.slice(0, -1).join(", ")} ${t("list.and")} ${items[items.length - 1]}`;
+}
+
+// Compose the narrative biography paragraph from the projected, structured bio.
+function biographyParagraph(person) {
+  const bio = person.biography;
+  if (!bio) return null;
+  const sex = bio.sex || "unknown";
+  const pronoun = sex === "male" ? t("bio.pronMale") : sex === "female" ? t("bio.pronFemale") : person.name;
+  let leadUsed = false;
+  const subject = () => {
+    if (!leadUsed) { leadUsed = true; return person.name; }
+    return pronoun;
+  };
+  const sentences = [];
+
+  if (bio.sparse) {
+    sentences.push(t("bio.sparse", { name: person.name }));
+  } else {
+    if (bio.birth) {
+      const key = sex === "male" ? "bio.sonOf" : sex === "female" ? "bio.daughterOf" : "bio.childOf";
+      const parents = bio.birth.parents.length ? t(key, { parents: joinAnd(bio.birth.parents) }) : "";
+      sentences.push(t("bio.born", {
+        subject: subject(),
+        when: bioWhen(bio.birth.date),
+        where: bioWhere(bio.birth.place),
+        parents,
+      }));
+      if (bio.birth.emigratedToBrazil) sentences.push(t("bio.emigrated", { subject: subject() }));
+    } else if (bio.parentsOnly && bio.children.length) {
+      const key = sex === "male" ? "bio.parentOfFather" : sex === "female" ? "bio.parentOfMother" : "bio.parentOfParent";
+      sentences.push(t(key, { subject: subject(), names: joinAnd(bio.children) }));
+    }
+    for (const marriage of bio.marriages) {
+      sentences.push(t("bio.married", {
+        subject: subject(),
+        spouse: marriage.spouse,
+        when: bioWhen(marriage.date),
+        where: bioWhere(marriage.place),
+      }));
+    }
+    if (!bio.parentsOnly && bio.children.length) {
+      sentences.push(t("bio.children", { names: joinAnd(bio.children) }));
+    }
+    if (bio.occupations.length) {
+      sentences.push(t("bio.worked", { subject: subject(), occupations: joinAnd(bio.occupations) }));
+    }
+    if (bio.death) {
+      const age = bio.death.age
+        ? t(bio.death.age.approx ? "bio.ageApprox" : "bio.age", { n: bio.death.age.years })
+        : "";
+      sentences.push(t("bio.died", {
+        subject: subject(),
+        when: bioWhen(bio.death.date),
+        where: bioWhere(bio.death.place),
+        age,
+      }));
+    }
+  }
+
+  if (!sentences.length) return null;
+  const p = document.createElement("p");
+  p.className = "biography";
+  p.textContent = sentences.join(" ");
+  return p;
+}
+
 function section(title, content) {
   const wrapper = document.createElement("section");
   wrapper.className = "detail-section";
@@ -773,6 +873,9 @@ function openDetails(personId) {
     caution.textContent = t("detail.caution");
     elements.detailsContent.append(caution);
   }
+
+  const bio = biographyParagraph(person);
+  if (bio) elements.detailsContent.append(section(t("detail.biography"), bio));
 
   const facts = document.createElement("dl");
   facts.className = "detail-grid";
