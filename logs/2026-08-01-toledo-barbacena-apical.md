@@ -43,9 +43,14 @@ strong-evidence with the caveat explicit on F-0028.
   corroborates the couple + could give ages/naturalidade — a valuable lead, not
   yet read in full.
 - **Ladisláo Egídio inventário citations 1880/1881** (`…inventario-citacao-1880/
-  1881-leopoldina`): ⚠️ a Ladisláo estate dated ~1880 sits oddly against Matilde's
-  1879 inventory treating him as already deceased — flag to reconcile (elder vs the
-  23-yo namesake grandson).
+  1881-leopoldina`): both read; **NO conflict**. They are the estate-partition
+  citation audiences of the ELDER Ladisláo (P-0056) — his heirs summoned are
+  Matilde's whole descendant set ("inventario de Ladisláo Egydio Ferreira de Toledo …
+  os bens do dicto finado Ladisláo", 13 Nov 1880 + 6 Aug 1881, Juiz Fernando Pinheiro
+  de Souza Tavares, requerente D. Umbelina Ignez de Toledo). He died before 1877
+  ("finado" in PRB-0004); the 1880/81 dates are process dates. The namesake grandson
+  appears among the heirs; "Simplicio ⚭ Maria Dulcelina" is a scribe's slip for
+  Eliza. Recorded on P-0056 / P-0017; images held, not catalogued (corroborative).
 - **Armond newspaper items** (Simplício loteria 1881, Muriaé delegado 1902, Mariano
   Procópio 1912, Conde de Prados obituary 1882) + the 1831 Ferreira Cágado
   population-map lead: FAN/context about Simplício and the titled Barbacena branch —
