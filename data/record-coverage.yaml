@@ -705,18 +705,22 @@ people:
   - record_type: birth
     status: lead_only
     source_ids: []
-    last_reviewed: "2026-07-31"
+    last_reviewed: "2026-08-01"
     next_action: >-
-      Seek his baptism on the Ilha de São Miguel (Açores), c.1847, once a freguesia is
-      fixed (Cultura Açores portal / GEA parish images); it would name his mother (the
-      one open name in his parentage) and confirm the father Manoel Luiz Bittencourt.
+      Seek his own baptism at Nossa Senhora Mãe de Deus, Povoação (São Miguel),
+      narrowed to ~1844-45 or ~1848-49 (dgs 5228858 / the 1848-49 book); it would pin
+      his exact birth. His parents are already established (PAR-0015), so this is the
+      only remaining gap on his own generation.
     notes:
     - text: >-
         Origin RESOLVED 31 July 2026: his own 1915 Carangola death (PAR-0007) states
         "natural da Ilha de São Miguel" and age 68 (b.~1847). He was the Azorean
-        immigrant; nationality set to Portuguese; father Manoel Luiz Bittencourt
-        (P-0042) named, mother not. The óbito's c.1847 supersedes the collaborative
-        ~1864 date and the frontier moves off Brazil to São Miguel.
+        immigrant; nationality Portuguese. Parentage RESOLVED 1 August 2026 by his
+        father's own 1866 Povoação death (PAR-0015): father Manoel Muniz Bytancourt
+        (P-0042, correcting the óbito's "Manoel Luiz"), mother Francisca Roza do
+        Espirito Santo (P-0047), Azorean grandparents João Muniz Bytancourt and Maria
+        Jacintha de Medeiros (F-0023) — the line's furthest documented Açorean
+        generation.
     - text: >-
         Collateral lead: Damazio Muniz Bitencourt (†2 Nov 1881 Sapucaia, also "natural
         da Ilha de São Miguel", married, ~40 → b.~1841) is a probable brother of João;
@@ -761,16 +765,20 @@ people:
     status: catalogued
     source_ids:
     - PAR-0007
-    last_reviewed: "2026-07-31"
+    last_reviewed: "2026-08-01"
     next_action: >-
       Complete — his 1915 Carangola death (PAR-0007) gives †12 Sep 1915, age 68
-      (b.~1847), São Miguel origin, and names his father Manoel Luiz Bittencourt.
+      (b.~1847), São Miguel origin, and names his father (whose true name, Manoel
+      Muniz Bytancourt, is fixed by PAR-0015).
     notes: []
   notes:
   - text: >-
-      31 July 2026: his father Manoel Luiz Bittencourt (P-0042) is now named (1915
-      óbito, family F-0020); his mother and his São Miguel baptism/marriage remain the
-      open frontier. A collateral Muniz Bittencourt cluster of Sapucaia/Bemposta —
+      1 August 2026: his parents are now primary-confirmed by his father's own 1866
+      Povoação death (PAR-0015) — father Manoel Muniz Bytancourt (P-0042, family
+      F-0020, correcting the 1915 óbito's "Manoel Luiz"), mother Francisca Roza do
+      Espirito Santo (P-0047), and Azorean grandparents João Muniz Bytancourt and
+      Maria Jacintha de Medeiros (F-0023). Only his own baptism (~1844-49, Povoação)
+      remains open. A collateral Muniz Bittencourt cluster of Sapucaia/Bemposta —
       Manoel (⚭ Maria Luiza de Freitas), Maria José (⚭ José Linhares de Mendonça),
       Altina, Maria Eugenia and Elvira Muniz Bittencourt — are candidates to be his
       siblings, but he was a São Miguel immigrant, so the stronger sibling lead is the

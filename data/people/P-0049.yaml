@@ -1,0 +1,27 @@
+schema_version: 1
+id: P-0049
+preferred_name: Maria Jacintha de Medeiros
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Maria Jacintha de Medeiros
+  type: source
+  source_ids:
+  - PAR-0015
+- value: Maria Jacinta
+  type: other
+  source_ids:
+  - PAR-0015
+event_ids: []
+family_ids:
+- F-0023
+notes:
+- text: >-
+    Mother of Manoel Muniz Bytancourt (P-0042); hence the paternal grandmother of
+    João Muniz Bittencourt (P-0019). Named, with her husband João Muniz Bytancourt
+    (P-0048), in her son Manoel's 1866 death (PAR-0015) as "Maria Jacintha de
+    Medeiros, d'occupação domestica … natural desta freguesia" — of Nossa Senhora
+    Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal). Her grandsons'
+    1880 Ponta Delgada emigration passports also style them "filho de João Moniz
+    Bettencourt e Maria Jacinta" (secondary corroboration, a lead only).

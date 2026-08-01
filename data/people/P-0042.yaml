@@ -1,23 +1,42 @@
 schema_version: 1
 id: P-0042
-preferred_name: Manoel Luiz Bittencourt
+preferred_name: Manoel Muniz Bytancourt
 privacy: deceased
 sex: male
+nationality: Portuguese
 name_variants:
+- value: Manoel Muniz Bytancourt
+  type: source
+  source_ids:
+  - PAR-0015
 - value: Manoel Luiz Bittencourt
   type: source
   source_ids:
   - PAR-0007
-event_ids: []
+event_ids:
+- E-0047
+- E-0048
 family_ids:
 - F-0020
+- F-0023
 notes:
 - text: >-
-    Father of João Muniz Bittencourt (P-0019), named in João's 1915 Carangola death
-    (PAR-0007) as "filho legitimo de Manoel Luiz Bittencourt". João's mother is not
-    named in that record.
+    Father of João Muniz Bittencourt (P-0019); hence Antenor Muniz's Azorean
+    great-great-grandfather. His own 1866 Povoação death (PAR-0015 → events E-0047,
+    E-0048) is the primary record for him: a landowner (proprietário) of Nossa
+    Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal), resident
+    at Lomba do Botão, who drowned at sea off the Garajau on 24 July 1866 aged 46
+    (born c.1820), intestate, leaving eight children. It names his wife Francisca
+    Roza do Espirito Santo (P-0047, family F-0020) and his parents João Muniz
+    Bytancourt (P-0048) and Maria Jacintha de Medeiros (P-0049, family F-0023).
 - text: >-
-    Nationality left unset: his son João was "natural da Ilha de São Miguel" (Açores,
-    Portugal), so Manoel Luiz was very likely also São Miguel-born, but no located
-    record states his own origin, so it is not asserted. The surname appears as "Luiz"
-    (vs the FamilySearch-tree "Muniz") in the óbito; both forms preserved.
+    Name correction: João's 1915 Carangola óbito (PAR-0007) recorded the father as
+    "Manoel Luiz Bittencourt", but his own Povoação death (PAR-0015) gives the true
+    name "Manoel Muniz Bytancourt" — the Azorean spelling of the family surname
+    (Brazilianised to "Bittencourt" by his son). The erroneous "Manoel Luiz
+    Bittencourt" form is preserved as a source variant.
+- text: >-
+    Nationality now asserted as Portuguese: although PAR-0015 does not state Manoel's
+    own naturalidade, his parents are "naturaes desta freguesia" of Povoação, his son
+    João was confirmed "natural da Ilha de São Miguel", and he lived and died in the
+    parish — so a São Miguel (Açorean) birth is secure.

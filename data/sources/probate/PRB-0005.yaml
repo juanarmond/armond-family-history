@@ -1,0 +1,118 @@
+schema_version: 1
+id: PRB-0005
+title: >-
+  Registered will (testamento) of Francisco José Bohrer (registered 1888,
+  Provedoria de Nova Friburgo), declaring his parents Jacob Bahrer and Catharina
+  Mayer, his wife and his four children
+record_type: Registered will (registro de testamento, certified copy)
+record_category: court_or_probate
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: year
+  year: 1888
+  original_text: >-
+    Registered in the Livro de Registro de Testamentos nº 9, fl. 8v, Provedoria de
+    Nova Friburgo; the approval/registration year reads 1888 (the exact day and
+    month are only partly legible in the certified copy).
+event_place_text: >-
+  Cidade de Nova Friburgo, Província (later Estado) do Rio de Janeiro, Brazil
+repository:
+  name: FamilySearch (Brazil, Rio de Janeiro, court and notarial/probate records)
+  archive_or_registry: >-
+    Provedoria de Nova Friburgo (Juízo de Órfãos e Provedoria), Rio de Janeiro —
+    certified copy by the escrivão Capitão João José Kramith
+  collection: >-
+    Brazil, Rio de Janeiro, "Legal" records (TJERJ fund); FamilySearch DGS
+    105875530
+  book: "Livro de Registro de Testamentos nº 9, fl. 8 verso"
+  catalogue_reference: >-
+    FamilySearch DGS 105875530, images ~867-869 (Provedoria de Nova Friburgo, Livro
+    de Testamentos nº 9, fl. 8v). Located via the FamilySearch retrieval and
+    delivered through the research/from-retrieval/ sync; read and promoted 1 August
+    2026. FamilySearch attaches this image to Rosa Eugenia de Lemos as a "1888
+    inventário", but it is in fact Francisco José Bohrer's own registered will.
+  repository_path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p1.jpg
+access_date: "2026-08-01"
+language: pt-BR
+transcription: >-
+  [Certidão do escrivão da Provedoria de Nova Friburgo. Duas imagens (…-p1.jpg,
+  …-p2.jpg); no alto da p1 o fólio "3".]
+
+
+  [p1] "O Capitão João José Kramith[?], Escrivão da Provedoria da Cidade de
+  Nova-Friburgo. Certifico que revendo em meu cartorio o livro de Registro de
+  testamentos numero nove, delle a folhas oito verso consta o Registro do theor
+  seguinte: — Registro d'um testamento na forma abaixo. — Jesus, Maria, José. Em
+  Nome da Santissima Trindade, Padre, Filho, Espirito Santo, em quem eu Francisco
+  José Bohrer firmemente creio, em cuja fé protesto viver e morrer. Este é o meu
+  testamento e ultima vontade. Declaro que sou natural deste termo, filho legitimo
+  de Jacob Bahrer e de Catharina Mayer, já fallecidos. Declaro que sou casado á face
+  da Igreja com Roza Eugenia de Lemos Bohrer, de cujo matrimonio tenho actualmente
+  quatro filhos que são Joaquim, Laura, Guilherme e Fernando, todos de menor idade,
+  os quaes são meus [p2] unicos e legitimos herdeiros. O meu enterro será feito á
+  vontade de meu testamenteiro. Mando que por alma de meus paes se digão vinte
+  missas. Deixo a quantia de cincoenta mil réis para obras ou conservação da Capella
+  de Santo Antonio que se vae edificar no Suspiro nesta Villa, livre de imposto que
+  será pago pelos meus bens. Nomeio para meus testamenteiros e tutores de meus
+  filhos, na ordem em que se achão: em primeiro lugar a minha mulher Rosa Eugenia de
+  Lemos Bohrer, em segundo lugar a meu cunhado Candido Pereira de Lemos, e em
+  terceiro lugar ao meu amigo Samuel Antonio dos Santos. Esta é a minha ultima
+  vontade e disposição para depois de minha morte, que pedi a João José Kramith que
+  por mim escrevesse conforme lhe ditei, e no qual me assigno por estar conforme."
+  [Segue o auto de approvação, Nova Friburgo, 188[8], parcialmente legível.]
+abstract: >-
+  Francisco José Bohrer's own registered will (Provedoria de Nova Friburgo, Livro de
+  Testamentos nº 9, fl. 8v; registered 1888). He declares himself "natural deste
+  termo" (born in the Nova Friburgo comarca) and "filho legitimo de Jacob Bahrer e
+  de Catharina Mayer, já fallecidos" — primary evidence of his parents (P-0050,
+  P-0051), the Bohrer line's immigrant boundary. He names his wife Rosa Eugenia de
+  Lemos Bohrer (P-0035) and their four children Joaquim (P-0030), Laura, Guilherme
+  and Fernando as sole heirs, and his brother-in-law Candido Pereira de Lemos as an
+  executor. Resolves the previously open question of whether Francisco José was
+  himself an immigrant: he was Brazilian-born (Nova Friburgo), and the immigrant
+  generation is his parents.
+reliability:
+  assessment: >-
+    Direct primary evidence (the testator's own sworn declaration) of Francisco
+    José Bohrer's parentage, his Nova Friburgo birth, his marriage to Rosa Eugenia
+    de Lemos, and his four children.
+  informant: >-
+    Francisco José Bohrer himself (testator), dictated to and written by the
+    escrivão João José Kramith.
+  limitations: >-
+    A certified register copy, not the autograph will; the escrivão's surname
+    (Kramith) and the exact registration day/month are uncertain/partly legible
+    reads. The parents' surnames are written "Bahrer" and "Mayer"; Nova Friburgo
+    colonist-family compilations (secondary) give the mother's surname as Moser —
+    recorded as a variant/lead, not overwriting the primary "Mayer".
+digital_file:
+  path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p1.jpg
+  sha256: 18e7879fe48128539ccf10077dbd1f193f49cf1667cd50ae1b392827e744188b
+linked_people:
+- P-0034
+- P-0035
+- P-0050
+- P-0051
+- P-0030
+linked_families:
+- F-0016
+- F-0024
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    The act spans two page images: the parentage, marriage and children are on
+    …-p1.jpg (the primary scan, in digital_file); the executors, the masses for his
+    parents and the closing are on …-p2.jpg.
+- text: >-
+    Parents' surnames as written here are "Jacob Bahrer" and "Catharina Mayer".
+    Secondary Nova Friburgo colonist-family compilations (a lead, not catalogued)
+    give them as Jacob Borer (b. 1801 Erschwil, Soleure, Switzerland; d. 1843) and
+    Catharina Moser (Hägendorf, Soleure) — the Swiss-immigrant reading of the line.
+    The "Moser" surname and the Swiss origin are NOT asserted from this record; they
+    remain a lead pending a primary Borer baptism/marriage or Jacob's c.1843 Nova
+    Friburgo inventário.

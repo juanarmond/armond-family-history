@@ -5,6 +5,27 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-08-01 — Muniz Azorean parents (Povoação) and Francisco José Bohrer's 1888 will
+
+- Question: value-gate the re-synced retrieval drop and promote its two new primary
+  findings, confirming each against the record image.
+- Detailed log:
+  [`logs/2026-08-01-muniz-azorean-parents-and-bohrer-will.md`](2026-08-01-muniz-azorean-parents-and-bohrer-will.md).
+- Key result: **(1) Muniz line +2 generations into the Açores.** Manoel Muniz
+  Bytancourt's own 1866 Povoação (São Miguel) death (PAR-0015) corrects João's
+  father's name (Muniz, not "Luiz"), names João's mother Francisca Roza do Espirito
+  Santo (P-0047) and promotes the grandparents João Muniz Bytancourt + Maria
+  Jacintha de Medeiros (P-0048/0049, F-0023) to primary — resolving conflict 6's
+  open mother. **(2) Bohrer immigrant boundary named.** Francisco José Bohrer's own
+  1888 Nova Friburgo will (PRB-0005) declares his parents Jacob Bahrer + Catharina
+  Mayer (P-0050/0051, F-0024) and that he was Brazilian-born ("natural deste termo")
+  — nationality now Brazilian, the immigrant generation his parents; it also
+  confirms his four children and names Rosa's brother Candido Pereira de Lemos.
+- New entities: PAR-0015, PRB-0005, P-0047–P-0051, F-0023, F-0024, E-0047, E-0048.
+- Not promoted: the `…jose-baptism-1847-povoacao…` image is a filename/content
+  mismatch (shows a foundling "Ignez" and a "Maria d'Amaral", not José Muniz) —
+  flagged to re-pull; Manoel's death alone carries the parentage.
+
 ## 2026-07-31 — Carangola parish marriages: Deocleciano's religious marriage + two sisters
 
 - Outcome: value-gated the Santa Luzia de Carangola parish marriage cluster (4 images).

@@ -1,0 +1,41 @@
+schema_version: 1
+id: F-0023
+partners:
+- person_id: P-0048
+  role: spouse
+- person_id: P-0049
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PAR-0015
+  notes:
+  - text: >-
+      João Muniz Bytancourt and Maria Jacintha de Medeiros are named as the married
+      parents of their "filho legitimo" Manoel in his 1866 death (PAR-0015); the
+      legitimate-son statement attests their marriage, though no marriage record is
+      located.
+children:
+- person_id: P-0042
+  parent_relationships:
+  - parent_id: P-0048
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0015
+    notes: []
+  - parent_id: P-0049
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0015
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Parents of Manoel Muniz Bytancourt (P-0042), established by his own 1866
+    Povoação death (PAR-0015). Extends the Muniz Bittencourt line two generations
+    above João Muniz Bittencourt (P-0019), into Nossa Senhora Mãe de Deus, Povoação,
+    Ilha de São Miguel (Açores, Portugal). Only Manoel is modelled as a child here;
+    other children of the couple are not evidenced by the located records.

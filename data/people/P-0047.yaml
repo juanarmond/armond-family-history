@@ -1,0 +1,28 @@
+schema_version: 1
+id: P-0047
+preferred_name: Francisca Roza do Espirito Santo
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Francisca Roza do Espirito Santo
+  type: source
+  source_ids:
+  - PAR-0015
+event_ids: []
+family_ids:
+- F-0020
+notes:
+- text: >-
+    Wife of Manoel Muniz Bytancourt (P-0042) and mother of his children; hence the
+    mother of João Muniz Bittencourt (P-0019) and Antenor Muniz's Azorean
+    great-great-grandmother. Named in her husband's 1866 death (PAR-0015) as "cazado
+    com Francisca Roza do Espirito Santo, natural desta freguesia" — natural of
+    Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal).
+- text: >-
+    Her link to João specifically is indirect (strong-evidence): João's 1915
+    Carangola óbito (PAR-0007) names only his father and did not name his mother;
+    Manoel's 1866 óbito (PAR-0015) establishes Francisca as Manoel's wife and the
+    mother of his "oito filhos". João, born c.1847 while the couple was together, is
+    taken to be one of those children. No record naming Francisca as João's mother
+    directly has been located.

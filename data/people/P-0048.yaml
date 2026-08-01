@@ -1,0 +1,33 @@
+schema_version: 1
+id: P-0048
+preferred_name: João Muniz Bytancourt
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: João Muniz Bytancourt
+  type: source
+  source_ids:
+  - PAR-0015
+- value: João Moniz Bettencourt
+  type: other
+  source_ids:
+  - PAR-0015
+event_ids: []
+family_ids:
+- F-0023
+notes:
+- text: >-
+    Father of Manoel Muniz Bytancourt (P-0042); hence the paternal grandfather of
+    João Muniz Bittencourt (P-0019) and the Azorean apical ancestor so far reached
+    on this line. Named, with his wife Maria Jacintha de Medeiros (P-0049), in his
+    son Manoel's 1866 death (PAR-0015) as "João Muniz Bytancourt, proprietario …
+    natural desta freguesia" — a landowner of Nossa Senhora Mãe de Deus, Povoação,
+    Ilha de São Miguel (Açores, Portugal).
+- text: >-
+    Approximate dates (b. 1806, d. 1876) circulate in secondary sources and are
+    consistent with his grandsons' 1880 Ponta Delgada emigration passports, which
+    style them "filho de João Moniz Bettencourt e Maria Jacinta". These dates are
+    leads only and are not asserted here; PAR-0015 establishes only his existence,
+    landowner status and Povoação naturalidade. The "Moniz/Bettencourt" spelling is
+    the Brazilianised variant of the record's "Muniz Bytancourt".

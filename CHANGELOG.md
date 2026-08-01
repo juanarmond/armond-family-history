@@ -7,6 +7,24 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Extend the **Muniz Bittencourt line two generations into the Açores** from Manoel
+  Muniz Bytancourt's own 1866 Povoação (São Miguel) death (`PAR-0015`): it corrects
+  João's father's name (Manoel **Muniz** Bytancourt `P-0042`, not the 1915 óbito's
+  "Luiz"), names João's mother **Francisca Roza do Espirito Santo** (`P-0047`) and
+  primary-confirms the Azorean grandparents **João Muniz Bytancourt** (`P-0048`) ⚭
+  **Maria Jacintha de Medeiros** (`P-0049`, family `F-0023`) — **resolving material
+  conflict 6**'s open mother. Adds Manoel's death and approximate-birth events
+  (`E-0047`, `E-0048`) and reworks `F-0020` (Francisca added as spouse; João's
+  maternal link strong-evidence).
+- Name the **Bohrer immigrant boundary** from Francisco José Bohrer's own 1888 Nova
+  Friburgo will (`PRB-0005`): parents **Jacob Bahrer** (`P-0050`) ⚭ **Catharina
+  Mayer** (`P-0051`, family `F-0024`), and his declaration "natural deste termo" —
+  so Francisco José (`P-0034`) is Brazilian-born and the immigrant generation is his
+  parents (nationality set to Brazilian). The will confirms his four children
+  (upgrading Joaquim `P-0030` to confirmed; Laura and Fernando added as documented
+  children on `F-0016`) and names Rosa's brother Candido Pereira de Lemos (a Lemos
+  lead). The primary "Bahrer/Mayer" spellings are kept; the secondary Swiss-Soleure
+  "Borer/Moser" reading is recorded only as a variant/lead.
 - Catalogue the Santa Luzia de Carangola parish (religious) marriage cluster from the
   retrieval sync (3 sources). Deocleciano's 1916 parish marriage (`PAR-0012`) is the
   religious counterpart of the civil record (sourcing the same event `E-0001`); it

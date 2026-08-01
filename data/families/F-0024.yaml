@@ -1,0 +1,42 @@
+schema_version: 1
+id: F-0024
+partners:
+- person_id: P-0050
+  role: spouse
+- person_id: P-0051
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PRB-0005
+  notes:
+  - text: >-
+      Jacob Bahrer and Catharina Mayer are named as the married parents of their
+      "filho legitimo" Francisco José in his own 1888 will (PRB-0005); the
+      legitimate-son declaration attests their marriage, though no marriage record
+      is catalogued (a secondary compilation gives an 1825 Nova Friburgo marriage —
+      a lead only).
+children:
+- person_id: P-0034
+  parent_relationships:
+  - parent_id: P-0050
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PRB-0005
+    notes: []
+  - parent_id: P-0051
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PRB-0005
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Parents of Francisco José Bohrer (P-0034), established by his own 1888 will
+    (PRB-0005), in which he declares himself their "filho legitimo". This is the
+    Bohrer line's immigrant boundary: Francisco José was "natural deste termo" (Nova
+    Friburgo), so his parents Jacob and Catharina are the immigrant generation. Only
+    Francisco José is modelled as a child here.

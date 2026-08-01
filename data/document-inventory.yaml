@@ -1784,3 +1784,85 @@ documents:
       - >-
         Establishes Mercedes as a sister of Deocleciano (documented child on F-0007).
         All named persons deceased.
+  - inventory_id: DOC-0046
+    status: catalogued
+    added_date: "2026-08-01"
+    apparent_record_type: Parish death register entry (óbito, original)
+    apparent_people:
+      - Manoel Muniz Bytancourt
+      - Francisca Roza do Espirito Santo
+      - João Muniz Bytancourt
+      - Maria Jacintha de Medeiros
+    apparent_event: death
+    image_quality: adequate
+    provenance: >-
+      Livro de óbitos, Paróquia de Nossa Senhora Mãe de Deus, Povoação, Ilha de São
+      Miguel (Açores), acto nº 70 (24 Jul 1866). FamilySearch collection 4449047;
+      owner's authorised research/from-retrieval/ sync; read 1 August 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0015-manoel-muniz-bytancourt-obito-1866-povoacao.jpg
+        sha256: 90a2d62d23abaeb36981a2d80d4e98458c7fae1f9092cd456d3ced8f8da13189
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3087
+          pixel_height: 2523
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0015
+    notes:
+      - >-
+        Corrects João Muniz Bittencourt's father's name (Manoel MUNIZ Bytancourt, not
+        the 1915 óbito's "Luiz"), names his mother Francisca Roza do Espirito Santo and
+        the Azorean grandparents. All named persons long deceased (19th-century Açores).
+  - inventory_id: DOC-0047
+    status: catalogued
+    added_date: "2026-08-01"
+    apparent_record_type: Registered will (registro de testamento, certified copy)
+    apparent_people:
+      - Francisco José Bohrer
+      - Jacob Bahrer
+      - Catharina Mayer
+      - Rosa Eugenia de Lemos
+      - Candido Pereira de Lemos
+    apparent_event: probate
+    image_quality: adequate
+    provenance: >-
+      Livro de Registro de Testamentos nº 9, fl. 8v, Provedoria de Nova Friburgo, RJ
+      (registered 1888). FamilySearch DGS 105875530 (imgs ~867-869); owner's authorised
+      research/from-retrieval/ sync; read 1 August 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p1.jpg
+        sha256: 18e7879fe48128539ccf10077dbd1f193f49cf1667cd50ae1b392827e744188b
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2188
+          pixel_height: 3177
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p2.jpg
+        sha256: 1113864bead1e5a49ea616f35266e7b0e80d2dffd6c07d165de9c782faf3c8fb
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2162
+          pixel_height: 3100
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PRB-0005
+    notes:
+      - >-
+        Francisco José Bohrer's own 1888 will names his parents (Jacob Bahrer, Catharina
+        Mayer), establishes his Nova Friburgo birth and confirms his four children. All
+        named persons long deceased (19th-century record).

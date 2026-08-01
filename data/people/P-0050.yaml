@@ -1,0 +1,33 @@
+schema_version: 1
+id: P-0050
+preferred_name: Jacob Bohrer
+privacy: deceased
+sex: male
+name_variants:
+- value: Jacob Bahrer
+  type: source
+  source_ids:
+  - PRB-0005
+- value: Jacob Borer
+  type: other
+  source_ids:
+  - PRB-0005
+event_ids: []
+family_ids:
+- F-0024
+notes:
+- text: >-
+    Father of Francisco José Bohrer (P-0034); hence Joaquim José Bohrer's (P-0030)
+    paternal grandfather and Iris Bohrer's Bohrer-line immigrant-boundary ancestor.
+    Named in his son's 1888 registered will (PRB-0005) as "Jacob Bahrer … já
+    fallecido" — deceased before 1888. Preferred name given in the family's
+    stabilised form "Bohrer"; the will spells it "Bahrer".
+- text: >-
+    Nationality deliberately left unset. Secondary Nova Friburgo colonist-family
+    compilations (a lead, not catalogued) identify him as Jacob Borer, born 1801 at
+    Erschwil (Soleure, Switzerland), who emigrated an orphan and died 1843 at Nova
+    Friburgo, married Catharina Moser in 1825 — i.e. the Swiss-immigrant reading of
+    the line. That Swiss origin is NOT inferred here from the surname or asserted
+    from any primary record; it awaits a Borer baptism/marriage assento or Jacob's
+    c.1843 Nova Friburgo inventário. PRB-0005 evidences only his name, his son's
+    parentage and that he was already dead by 1888.

@@ -1,0 +1,22 @@
+schema_version: 1
+id: E-0047
+event_type: death
+date:
+  kind: exact
+  value: "1866-07-24"
+place_text: >-
+  Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel,
+  Açores, Portugal (drowned at sea, off the Garajau of the parish)
+participants:
+- person_id: P-0042
+  role: principal
+status: confirmed
+source_ids:
+- PAR-0015
+notes:
+- text: >-
+    Death of Manoel Muniz Bytancourt (P-0042) on 24 July 1866, aged 46, drowned at
+    sea off the Garajau, without the sacraments and intestate, per his parish death
+    register (PAR-0015). He was a landowner resident at Lomba do Botão, Povoação; the
+    record names his wife Francisca Roza do Espirito Santo (P-0047) and his parents
+    João Muniz Bytancourt (P-0048) and Maria Jacintha de Medeiros (P-0049).

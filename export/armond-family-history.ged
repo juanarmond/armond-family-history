@@ -3,8 +3,8 @@
 2 VERS 7.0
 1 SOUR ARMOND-FAMILY-HISTORY
 2 NAME Armond Family History
-2 VERS 2026.07.31
-1 DATE 31 JUL 2026
+2 VERS 2026.08.01
+1 DATE 01 AUG 2026
 1 SUBM @SUBM0001@
 1 LANG pt-BR
 0 @SUBM0001@ SUBM
@@ -391,7 +391,7 @@
 1 NOTE Ahnentafel position 24.
 1 NOTE His son Deocleciano's 1892 Sapucaia baptism (PAR-0004) records the father as "João Muniz Bitencourt", settling the José-vs-João question (the 1882 provisão PAR-0001 had recorded "José"). Both spellings are preserved.
 1 NOTE Origin RESOLVED (31 July 2026): his own 1915 Carangola death register (PAR-0007 → event E-0036) records him "natural da Ilha de São Miguel" (Açores, Portugal), died 12 September 1915 aged 68 (born c.1847), married to Suzana Rita Brandão, leaving eleven children. He was himself the Azorean immigrant — which is why the Sapucaia baptism books (1856-1877) held no baptism for his generation. Nationality is therefore Portuguese (a documented birthplace, not a surname inference). This supersedes the earlier "unset origin" and resolves material conflict 6; note the óbito's c.1847 birth corrects the FamilySearch profile's unproved 1864 date.
-1 NOTE His father was Manoel Luiz Bittencourt (P-0042), named in the 1915 óbito (family F-0020); his mother is not named in that record. The earlier collaborative-profile 1871 naturalisation link remains an unverified lead.
+1 NOTE Parents identified (1 August 2026) from his father's own 1866 Povoação death (PAR-0015): father Manoel Muniz Bytancourt (P-0042) — correcting the "Manoel Luiz Bittencourt" of the 1915 óbito (PAR-0007) — and, indirectly, mother Francisca Roza do Espirito Santo (P-0047), Manoel's wife and mother of his "oito filhos" (family F-0020, strong-evidence for João's maternity). His Azorean grandparents were João Muniz Bytancourt (P-0048) and Maria Jacintha de Medeiros (P-0049) of Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (family F-0023) — the line's furthest documented Açorean generation. The earlier collaborative-profile 1871 naturalisation link remains an unverified lead.
 0 @P0020@ INDI
 1 NAME Susanna Rita /Brondão/
 2 GIVN Susanna Rita
@@ -588,8 +588,9 @@
 2 SURN Bohrer
 1 SEX M
 1 FAMS @F0016@
-1 NOTE Ahnentafel position 60 — father of Joaquim José Bohrer (P-0030), hence Celina's (P-0015) paternal grandfather. Married Rosa Eugenia de Lemos (P-0035); their marriage was justified and registered at the Nova Friburgo Matriz in 1879 (PAR-0002). Already deceased by 1890, when Alberto Bohrer's birth (CIV-0019) names him "Francisco José Bohrer já falecido". No birth or death record located.
-1 NOTE Nationality deliberately left unset: this is the Bohrer line's Nova Friburgo (former German-Swiss colony) immigrant boundary, and no birthplace or stated nacionalidade is evidenced for him. Not inferred from the surname. Whether he was himself an immigrant or Brazilian-born is unresolved (his own parents are off-index).
+1 FAMC @F0024@
+1 NOTE Ahnentafel position 60 — father of Joaquim José Bohrer (P-0030), hence Celina's (P-0015) paternal grandfather. Married Rosa Eugenia de Lemos (P-0035); their marriage was justified and registered at the Nova Friburgo Matriz in 1879 (PAR-0002). Already deceased by 1890, when Alberto Bohrer's birth (CIV-0019) names him "Francisco José Bohrer já falecido".
+1 NOTE Parentage and birthplace RESOLVED (1 August 2026) by his own registered will (PRB-0005, Provedoria de Nova Friburgo, registered 1888): he declares himself "natural deste termo" — i.e. born in the Nova Friburgo comarca — and "filho legitimo de Jacob Bahrer e de Catharina Mayer, já fallecidos" (parents P-0050, P-0051, family F-0024). Nationality is therefore Brazilian (a documented birthplace, not a surname inference); the earlier "immigrant vs Brazilian-born" question is settled — he was Brazilian-born, and the immigrant boundary moves up to his parents Jacob and Catharina. The will also names his wife and their four children (Joaquim, Laura, Guilherme, Fernando) as sole heirs and dates his death to c.1888 (consistent with "já falecido" by 1890).
 0 @P0035@ INDI
 1 NAME Rosa Eugenia de /Lemos/
 2 GIVN Rosa Eugenia de
@@ -688,13 +689,29 @@
 1 NOTE Her parents (family F-0022): father Antonio Caetano Machado (P-0045) — the "avô materno" of Susanna's 1866 baptism (PAR-0005), his name now resolved from the earlier "Castro/Caetano" ambiguity to Caetano by his own 1868 óbito (PAR-0010) and his widow's 1878 óbito (PAR-0011); mother Ignacia Maria de Jesus (P-0046), inferred from being Antonio Caetano Machado's widow plus the shared "Ignacia" name.
 1 NOTE Nationality left unset: no birthplace or stated nacionalidade is evidenced.
 0 @P0042@ INDI
+1 NAME Manoel Muniz /Bytancourt/
+2 GIVN Manoel Muniz
+2 SURN Bytancourt
 1 NAME Manoel Luiz /Bittencourt/
-2 GIVN Manoel Luiz
-2 SURN Bittencourt
+2 TYPE AKA
+2 SOUR @PAR0007@
 1 SEX M
+1 DEAT
+2 DATE 24 JUL 1866
+2 PLAC Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel, Açores, Portugal (drowned at sea, off the Garajau of the parish)
+2 SOUR @PAR0015@
+3 QUAY 3
+1 BIRT
+2 DATE ABT 1819
+3 PHRASE about 1820
+2 PLAC Ilha de São Miguel, Açores, Portugal (probably Nossa Senhora Mãe de Deus, Povoação — his parents' parish)
+2 SOUR @PAR0015@
+3 QUAY 2
 1 FAMS @F0020@
-1 NOTE Father of João Muniz Bittencourt (P-0019), named in João's 1915 Carangola death (PAR-0007) as "filho legitimo de Manoel Luiz Bittencourt". João's mother is not named in that record.
-1 NOTE Nationality left unset: his son João was "natural da Ilha de São Miguel" (Açores, Portugal), so Manoel Luiz was very likely also São Miguel-born, but no located record states his own origin, so it is not asserted. The surname appears as "Luiz" (vs the FamilySearch-tree "Muniz") in the óbito; both forms preserved.
+1 FAMC @F0023@
+1 NOTE Father of João Muniz Bittencourt (P-0019); hence Antenor Muniz's Azorean great-great-grandfather. His own 1866 Povoação death (PAR-0015 → events E-0047, E-0048) is the primary record for him: a landowner (proprietário) of Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal), resident at Lomba do Botão, who drowned at sea off the Garajau on 24 July 1866 aged 46 (born c.1820), intestate, leaving eight children. It names his wife Francisca Roza do Espirito Santo (P-0047, family F-0020) and his parents João Muniz Bytancourt (P-0048) and Maria Jacintha de Medeiros (P-0049, family F-0023).
+1 NOTE Name correction: João's 1915 Carangola óbito (PAR-0007) recorded the father as "Manoel Luiz Bittencourt", but his own Povoação death (PAR-0015) gives the true name "Manoel Muniz Bytancourt" — the Azorean spelling of the family surname (Brazilianised to "Bittencourt" by his son). The erroneous "Manoel Luiz Bittencourt" form is preserved as a source variant.
+1 NOTE Nationality now asserted as Portuguese: although PAR-0015 does not state Manoel's own naturalidade, his parents are "naturaes desta freguesia" of Povoação, his son João was confirmed "natural da Ilha de São Miguel", and he lived and died in the parish — so a São Miguel (Açorean) birth is secure.
 0 @P0043@ INDI
 1 NAME José do Rego Brandão (o /velho)/
 2 GIVN José do Rego Brandão (o
@@ -752,6 +769,60 @@
 1 FAMS @F0022@
 1 NOTE Wife (widow) of Antonio Caetano Machado (P-0045), named as such in her 1878 Sapucaia death (PAR-0011, aged 65, so born c.1813). A strong candidate for the mother of Rita Ignacia de Jesus (P-0041) — Susanna's maternal grandmother — from the marriage plus the name pattern (Rita **Ignacia** de Jesus after **Ignacia** Maria de Jesus); the record proves her marriage to Antonio Caetano Machado but does not state she is Rita's mother, so that link is an inference (see F-0022).
 1 NOTE Nationality left unset: no birthplace or stated nacionalidade is evidenced.
+0 @P0047@ INDI
+1 NAME Francisca Roza do Espirito /Santo/
+2 GIVN Francisca Roza do Espirito
+2 SURN Santo
+1 SEX F
+1 FAMS @F0020@
+1 NOTE Wife of Manoel Muniz Bytancourt (P-0042) and mother of his children; hence the mother of João Muniz Bittencourt (P-0019) and Antenor Muniz's Azorean great-great-grandmother. Named in her husband's 1866 death (PAR-0015) as "cazado com Francisca Roza do Espirito Santo, natural desta freguesia" — natural of Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal).
+1 NOTE Her link to João specifically is indirect (strong-evidence): João's 1915 Carangola óbito (PAR-0007) names only his father and did not name his mother; Manoel's 1866 óbito (PAR-0015) establishes Francisca as Manoel's wife and the mother of his "oito filhos". João, born c.1847 while the couple was together, is taken to be one of those children. No record naming Francisca as João's mother directly has been located.
+0 @P0048@ INDI
+1 NAME João Muniz /Bytancourt/
+2 GIVN João Muniz
+2 SURN Bytancourt
+1 NAME João Moniz /Bettencourt/
+2 TYPE AKA
+2 SOUR @PAR0015@
+1 SEX M
+1 FAMS @F0023@
+1 NOTE Father of Manoel Muniz Bytancourt (P-0042); hence the paternal grandfather of João Muniz Bittencourt (P-0019) and the Azorean apical ancestor so far reached on this line. Named, with his wife Maria Jacintha de Medeiros (P-0049), in his son Manoel's 1866 death (PAR-0015) as "João Muniz Bytancourt, proprietario … natural desta freguesia" — a landowner of Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal).
+1 NOTE Approximate dates (b. 1806, d. 1876) circulate in secondary sources and are consistent with his grandsons' 1880 Ponta Delgada emigration passports, which style them "filho de João Moniz Bettencourt e Maria Jacinta". These dates are leads only and are not asserted here; PAR-0015 establishes only his existence, landowner status and Povoação naturalidade. The "Moniz/Bettencourt" spelling is the Brazilianised variant of the record's "Muniz Bytancourt".
+0 @P0049@ INDI
+1 NAME Maria Jacintha de /Medeiros/
+2 GIVN Maria Jacintha de
+2 SURN Medeiros
+1 NAME Maria /Jacinta/
+2 TYPE AKA
+2 SOUR @PAR0015@
+1 SEX F
+1 FAMS @F0023@
+1 NOTE Mother of Manoel Muniz Bytancourt (P-0042); hence the paternal grandmother of João Muniz Bittencourt (P-0019). Named, with her husband João Muniz Bytancourt (P-0048), in her son Manoel's 1866 death (PAR-0015) as "Maria Jacintha de Medeiros, d'occupação domestica … natural desta freguesia" — of Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal). Her grandsons' 1880 Ponta Delgada emigration passports also style them "filho de João Moniz Bettencourt e Maria Jacinta" (secondary corroboration, a lead only).
+0 @P0050@ INDI
+1 NAME Jacob /Bohrer/
+2 GIVN Jacob
+2 SURN Bohrer
+1 NAME Jacob /Bahrer/
+2 TYPE AKA
+2 SOUR @PRB0005@
+1 NAME Jacob /Borer/
+2 TYPE AKA
+2 SOUR @PRB0005@
+1 SEX M
+1 FAMS @F0024@
+1 NOTE Father of Francisco José Bohrer (P-0034); hence Joaquim José Bohrer's (P-0030) paternal grandfather and Iris Bohrer's Bohrer-line immigrant-boundary ancestor. Named in his son's 1888 registered will (PRB-0005) as "Jacob Bahrer … já fallecido" — deceased before 1888. Preferred name given in the family's stabilised form "Bohrer"; the will spells it "Bahrer".
+1 NOTE Nationality deliberately left unset. Secondary Nova Friburgo colonist-family compilations (a lead, not catalogued) identify him as Jacob Borer, born 1801 at Erschwil (Soleure, Switzerland), who emigrated an orphan and died 1843 at Nova Friburgo, married Catharina Moser in 1825 — i.e. the Swiss-immigrant reading of the line. That Swiss origin is NOT inferred here from the surname or asserted from any primary record; it awaits a Borer baptism/marriage assento or Jacob's c.1843 Nova Friburgo inventário. PRB-0005 evidences only his name, his son's parentage and that he was already dead by 1888.
+0 @P0051@ INDI
+1 NAME Catharina /Mayer/
+2 GIVN Catharina
+2 SURN Mayer
+1 NAME Catharina /Moser/
+2 TYPE AKA
+2 SOUR @PRB0005@
+1 SEX F
+1 FAMS @F0024@
+1 NOTE Mother of Francisco José Bohrer (P-0034); hence Joaquim José Bohrer's (P-0030) paternal grandmother. Named in her son's 1888 registered will (PRB-0005) as "Catharina Mayer … já fallecida" — deceased before 1888.
+1 NOTE Surname conflict preserved: the primary will writes "Mayer", but two secondary Nova Friburgo colonist-family compilations (a lead, not catalogued) give "Moser" (Catharina Moser of Hägendorf, Soleure, Switzerland, married Jacob Borer 1825). "Mayer" is recorded as the source-attested form and "Moser" as an unresolved variant; the retrieval note argues the two are the same person, but no primary record settles it, so neither surname is treated as certain and no origin is asserted. Nationality deliberately left unset for the same reason.
 0 @DOCF0001_1@ INDI
 1 NAME Aristides Muniz /Bittencourt/
 2 GIVN Aristides Muniz
@@ -870,6 +941,24 @@
 2 SOUR @CIV0019@
 1 NOTE Younger sibling of Celina, born 17 June 1890 at the Alto da Serra, Nova Friburgo; his civil birth (CIV-0019, declared by their uncle Guilherme Samuel Bohrer) names both grandparent couples.
 0 @DOCF0016_1@ INDI
+1 NAME Joaquim José /Bohrer/
+2 GIVN Joaquim José
+2 SURN Bohrer
+1 SEX U
+1 FAMC @F0016@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PRB0005@
+1 NOTE Modelled as P-0030; listed here only to mark that Francisco José's 1888 will (PRB-0005) names "Joaquim" as the eldest of the four children/heirs.
+0 @DOCF0016_2@ INDI
+1 NAME Laura /Bohrer/
+2 GIVN Laura
+2 SURN Bohrer
+1 SEX U
+1 FAMC @F0016@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PRB0005@
+1 NOTE Daughter of Francisco José Bohrer and Rosa Eugenia de Lemos, a minor in 1888; named "Laura" among the four children/heirs in her father's 1888 will (PRB-0005). The will gives only the forename; surname taken from the family.
+0 @DOCF0016_3@ INDI
 1 NAME Guilherme Samuel /Bohrer/
 2 GIVN Guilherme Samuel
 2 SURN Bohrer
@@ -877,7 +966,17 @@
 1 FAMC @F0016@
 1 NOTE Documented child, not individually modelled.
 2 SOUR @CIV0019@
-1 NOTE Brother of Joaquim José Bohrer (P-0030), resident at the Alto da Serra, Nova Friburgo; declared his nephew Alberto's 1890 birth (CIV-0019) in the father's absence.
+2 SOUR @PRB0005@
+1 NOTE Brother of Joaquim José Bohrer (P-0030), resident at the Alto da Serra, Nova Friburgo; declared his nephew Alberto's 1890 birth (CIV-0019) in the father's absence, and named "Guilherme" among the four heirs in his father's 1888 will (PRB-0005).
+0 @DOCF0016_4@ INDI
+1 NAME Fernando /Bohrer/
+2 GIVN Fernando
+2 SURN Bohrer
+1 SEX U
+1 FAMC @F0016@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PRB0005@
+1 NOTE Son of Francisco José Bohrer and Rosa Eugenia de Lemos, a minor in 1888; named "Fernando" (the youngest) among the four children/heirs in his father's 1888 will (PRB-0005). The will gives only the forename; surname taken from the family.
 0 @F0001@ FAM
 1 HUSB @P0012@
 1 WIFE @P0013@
@@ -1023,6 +1122,9 @@
 1 WIFE @P0035@
 1 CHIL @P0030@
 1 CHIL @DOCF0016_1@
+1 CHIL @DOCF0016_2@
+1 CHIL @DOCF0016_3@
+1 CHIL @DOCF0016_4@
 1 MARR
 2 DATE BEF 1879
 3 PHRASE by 1879 (justified and registered 1 August 1879; ceremony earlier)
@@ -1030,7 +1132,9 @@
 2 SOUR @PAR0002@
 3 QUAY 2
 1 SOUR @CIV0019@
-1 NOTE Francisco José Bohrer and Rosa Eugenia de Lemos, parents of Joaquim José Bohrer (P-0030). The parent link rests on Alberto Bohrer's 1890 birth (CIV-0019), which names them as the child's paternal grandparents; their own marriage is recorded in PAR-0002. Strong-evidence: the parentage is stated indirectly (in a grandchild's birth) by Joaquim José's brother.
+1 SOUR @PRB0005@
+1 NOTE Francisco José Bohrer and Rosa Eugenia de Lemos, parents of Joaquim José Bohrer (P-0030). The parent link is now confirmed by Francisco José's own 1888 will (PRB-0005), which names all four children (Joaquim, Laura, Guilherme, Fernando) as sole heirs; it is corroborated by Alberto Bohrer's 1890 birth (CIV-0019) and the couple's 1879 marriage (PAR-0002).
+1 NOTE The 1888 will also names Rosa's brother "Candido Pereira de Lemos" as Francisco José's cunhado and second-named executor — a lead for the (still open) Lemos maternal line of Rosa Eugenia de Lemos (P-0035); not modelled as its own entity.
 0 @F0017@ FAM
 1 HUSB @P0036@
 1 WIFE @P0037@
@@ -1055,9 +1159,14 @@
 1 NOTE Parents of Susanna (Suzana) Rita Brandão (P-0020), established by her 1866 baptism (PAR-0005) and corroborated by the 1885 baptism of her daughter Anna (PAR-0006), where this couple stand as godparents. No marriage record located; the union is inferred from the legitimate-birth statement. Antonio Caetano Machado (Rita Ignacia's father, per the baptism's "avô materno") is now modelled as P-0045 with his wife Ignacia Maria de Jesus (P-0046) in family F-0022; his name was resolved from the earlier "Castro/Caetano" ambiguity by his 1868 óbito (PAR-0010) and his widow's 1878 óbito (PAR-0011).
 0 @F0020@ FAM
 1 HUSB @P0042@
+1 WIFE @P0047@
 1 CHIL @P0019@
+1 MARR
+2 SOUR @PAR0015@
+3 QUAY 3
 1 SOUR @PAR0007@
-1 NOTE Records the paternity of João Muniz Bittencourt (P-0019), whose 1915 death (PAR-0007) names him "filho legitimo de Manoel Luiz Bittencourt" (P-0042). Only the father is named in the record; João's mother is unknown, so this family group has a single modelled parent.
+1 SOUR @PAR0015@
+1 NOTE João Muniz Bittencourt (P-0019) is the child of Manoel Muniz Bytancourt (P-0042) and Francisca Roza do Espirito Santo (P-0047), of Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal). Manoel's 1866 óbito (PAR-0015) records the couple and that they left "oito filhos"; João's own 1915 óbito (PAR-0007) confirms his paternity. The couple's other seven children are not evidenced by the located records, so only João is modelled here.
 0 @F0021@ FAM
 1 HUSB @P0043@
 1 WIFE @P0044@
@@ -1078,6 +1187,24 @@
 1 SOUR @PAR0010@
 1 SOUR @PAR0011@
 1 NOTE Parents of Rita Ignacia de Jesus (P-0041). The couple is confirmed (PAR-0011, "viuva de Antonio Caetano Machado"); Antonio as Rita's father is strong evidence (PAR-0005 avô materno); Ignacia as Rita's mother is an inference from the marriage plus the shared "Ignacia" name.
+0 @F0023@ FAM
+1 HUSB @P0048@
+1 WIFE @P0049@
+1 CHIL @P0042@
+1 MARR
+2 SOUR @PAR0015@
+3 QUAY 3
+1 SOUR @PAR0015@
+1 NOTE Parents of Manoel Muniz Bytancourt (P-0042), established by his own 1866 Povoação death (PAR-0015). Extends the Muniz Bittencourt line two generations above João Muniz Bittencourt (P-0019), into Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal). Only Manoel is modelled as a child here; other children of the couple are not evidenced by the located records.
+0 @F0024@ FAM
+1 HUSB @P0050@
+1 WIFE @P0051@
+1 CHIL @P0034@
+1 MARR
+2 SOUR @PRB0005@
+3 QUAY 3
+1 SOUR @PRB0005@
+1 NOTE Parents of Francisco José Bohrer (P-0034), established by his own 1888 will (PRB-0005), in which he declares himself their "filho legitimo". This is the Bohrer line's immigrant boundary: Francisco José was "natural deste termo" (Nova Friburgo), so his parents Jacob and Catharina are the immigrant generation. Only Francisco José is modelled as a child here.
 0 @REPO0001@ REPO
 1 NAME FamilySearch Memories
 0 @REPO0002@ REPO
@@ -1099,10 +1226,14 @@
 0 @REPO0010@ REPO
 1 NAME Paróquia de Santa Luzia (Diocese de Caratinga), Carangola, Minas Gerais, Brazil
 0 @REPO0011@ REPO
-1 NAME FamilySearch full-text image
+1 NAME FamilySearch (Portugal, Ilha de São Miguel, Catholic parish registers)
 0 @REPO0012@ REPO
-1 NAME FamilySearch Full-Text (Minas Gerais court and notarial records)
+1 NAME FamilySearch full-text image
 0 @REPO0013@ REPO
+1 NAME FamilySearch Full-Text (Minas Gerais court and notarial records)
+0 @REPO0014@ REPO
+1 NAME FamilySearch (Brazil, Rio de Janeiro, court and notarial/probate records)
+0 @REPO0015@ REPO
 1 NAME Armond Family History private repository
 0 @CIV0001@ SOUR
 1 TITL Certified marriage record of Deocleciano Muniz Bittencourt and Luiza Fernandes de Azevedo
@@ -1473,10 +1604,20 @@
 1 NOTE Archival reference: Marriage act nº 23 of 10 September 1917, Livro de casamentos, Paróquia de Santa Luzia de Carangola, MG. Register image via the Familiaridade online gallery, delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026.
 1 NOTE Repository file: evidence/parish/PAR-0014-mercedes-maria-bittencourt-marriage-1917-carangola.jpg
 1 OBJE @OBJPAR0014@
+0 @PAR0015@ SOUR
+1 TITL Parish death register entry of Manoel Muniz Bytancourt (1866, Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel), naming his wife, his parents and his eight children
+1 TEXT The original 1866 death register entry (N.S. Mãe de Deus, Povoação, Ilha de São Miguel) of Manoel Muniz Bytancourt (P-0042), father of João Muniz Bittencourt (P-0019): drowned at sea off the Garajau on 24 July 1866, aged 46 (so born c.1820), a landowner resident at Lomba do Botão, without the sacraments and intestate. It names his wife Francisca Roza do Espirito Santo (P-0047), his parents João Muniz Bytancourt (P-0048) and Maria Jacintha de Medeiros (P-0049) — both natural of the parish — and states he left eight children. This is the primary record that fixes João's Azorean parentage two generations deep and corrects the "Manoel Luiz Bittencourt" of João's 1915 Carangola óbito (PAR-0007): the true name is Manoel MUNIZ Bytancourt.
+1 REPO @REPO0011@
+2 CALN Portugal, Açores, registos paroquiais (FamilySearch collection 4449047), livro Livro de óbitos, Nossa Senhora Mãe de Deus (Povoação), 1866 — death act N.º 70 (page headed "15 / Barão")
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Paróquia de Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel; livro de óbitos, 1866. Margem: "N.º 70 / Manoel Muniz Bytancourt cazado com Francisca Roza do Espirito Santo". Página no alto: "15 / Barão".] "Aos vinte quatro dias do mez de Julho do anno de mil oito centos sessenta e seis, por uma hora da tarde, na bahia, fóra do Garajau desta freguesia de Nossa Senhora Mãe de Deus, Concelho da Villa da Povoação, Diocese d'Angra, falleceu, sem receber os Sacramentos da Santa Madre Egreja, um individuo do sexo Masculino, de nome Manoel Muniz Bytancourt, de idade de quarenta e seis annos, proprietario, cazado com Francisca Roza do Espirito Santo, natural desta freguesia, e morador na Lomba do Botão da mesma; filho legitimo de João Muniz Bytancourt, proprietario, e de Maria Jacintha de Medeiros, d'occupação domestica, naturaes desta freguesia; não fez testamento, e deixou oito filhos. E para constar lavrei em duplicado este assento que assigno. Era ut supra. O Cura Julio Cesar Augusto[?] [assinatura; sobrenome uncertain]."
+1 NOTE Archival reference: FamilySearch collection 4449047, Povoação (N.S. Mãe de Deus) óbitos 1866, act N.º 70. Register image located via the Familiaridade/FamilySearch retrieval and delivered through the research/from-retrieval/ sync; read and promoted 1 August 2026.
+1 NOTE Repository file: evidence/parish/PAR-0015-manoel-muniz-bytancourt-obito-1866-povoacao.jpg
+1 OBJE @OBJPAR0015@
 0 @PRB0001@ SOUR
 1 TITL 1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza Balbina de Toledo (wife of Simplício José Ferreira Armond)
 1 TEXT A page from an 1881 Leopoldina probate/partilha listing the heirs of an estate on Eliza Balbina de Toledo's side. It names Eliza Balbina de Toledo as the wife of Simplício José Ferreira Armond and lists her Toledo siblings with ages: Maria Bulandina de Toledo (m. Manoel Marques Jorge), Ladisláo Egydio Ferreira de Toledo (~23, b. ~1858), Geraldo Augusto de Toledo Lima (~15, b. ~1866, then living in Rio de Janeiro), and Josepha Olympia da Paixão (~12, b. ~1869), plus a predeceased Carolina Leopoldina Marques inheriting by representation. The companion 1884 petition (PRB-0002) names the decedent as D. Mathilde Maria de Jezus.
-1 REPO @REPO0011@
+1 REPO @REPO0012@
 2 CALN Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text), fl. 9
 1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
 1 NOTE Transcription: [Fólio "9" no canto superior direito.] [Cabeçalho centralizado, abreviatura de leitura incerta, provavelmente "N.tos" (Nettos).] [Cada verba é precedida de um pequeno "N." sobrescrito e traz, à margem direita, o número de ordem seguido de um sinal de conferência "×".] 4.º Maria Bulandina de Tolledo, cazada com Manoel Marques Jorge. 5.º Simplicio José Ferreira Armond, cazado com D. Eliza Balbina de Tolledo. 6.º Ladisláo Egydio Ferreira de Tolledo, solteiro, de 23 annos. 7.º Geraldo Augusto de Tolledo Lima, solteiro, de 15 annos, rezidente na côrte, empregado em uma caza de negocio zita á rua do Visconde de Inhaúma n.º 74. 8.º Josepha Olympia da Paixão, solteira, de 12 annos de idade. [Verba separada, abaixo do colchete que agrupa as anteriores, com um algarismo grande de leitura incerta à margem:] D. Carolina Leopoldina Marques, cazada com Narcizo Marques Braz, sendo a mesma já fallecida, sendo seos herdeiros [—] [última linha, ao pé da página, cortada:] 1.º D. Maria da [...] [o texto continua em folha não digitalizada].
@@ -1486,7 +1627,7 @@
 0 @PRB0002@ SOUR
 1 TITL 1884 Leopoldina petition of Simplício José Ferreira Armond as heir of the late D. Mathilde Maria de Jezus
 1 TEXT A petition (12 February 1884, Leopoldina), written and signed by Simplício José Ferreira Armond in his own hand, asking the orphans' judge to complete the long-delayed partition of the estate of the late D. Mathilde Maria de Jezus, who had died about four years earlier (~1880). He petitions as her heir — in right of his wife Eliza Balbina de Toledo (per PRB-0001) — placing Mathilde Maria de Jezus on Eliza's (maternal) line.
-1 REPO @REPO0011@
+1 REPO @REPO0012@
 2 CALN Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text), fl. 321
 1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
 1 NOTE Transcription: [Fólio "321" no canto superior direito.] Ill.mo Snr. Dr. Juiz de Orphãos. [Despacho, lançado no alto da folha, leitura difícil:] Nos autos, [venha-me concluso?]. Leopoldina 15 de [Fevereiro] de 1884. J. [Felicio?]. [Seguem-se algumas linhas riscadas / decalque de tinta da folha oposta, ilegíveis.] [Petição, autógrafa:] Diz Simplicio Jozé Ferreira Armond herdeiro da fina[da] D. Mathilde Maria de Jezus que, tendo ella falle[-]cido a cerca de 4 annos, até hoje [não se?] [terem?] partilhados os bens por aquella [dita?] finada [deixados?]; e como isso não convem não só ao inte[-]resse do Supp.e como dos de mais herdeiros, vem pe[-]rante V. S.ª [requerer?] hoje [de ordenar?] q[ue], junta esta aos autos, [suba?] á conclusão de V. S.ª para verificar o motivo da demora e ordenar q[ue] em [um] praso q[ue] se digne marcar se faça a partilha. O Supp.e em attenção sómente a[o] [seu?] interesse [nada?] [requereria?], mas tem parentes colateraes em esta[-]do de indigencia aos quaes pode m.to minorar o mal q[ue] soffrem, o recebimento de seus [haveres?]. Assim pois [bloco alinhado à direita, leitura difícil:] [P.?] e E. de [M.cê?] [enérgicas?] pro[-]videncias a fim de q[ue] se não continue [no?] prote[-]lação. E. R. M.cê [leitura incerta] [junto ao sêllo impresso "Imperio do Brazil — 200 — Réis — Sello":] Leop.ª 12 d[e] Fev.º d[e] 1884. Simplicio Joze Ferr.ª Armond [assinatura autógrafa].
@@ -1496,16 +1637,26 @@
 0 @PRB0003@ SOUR
 1 TITL 1877 Leopoldina notarial deed of sale by the Toledo grandchildren of their inherited Fazenda da Concórdia land, naming their grandmother Mathilde Maria de Jesus
 1 TEXT A notarial deed of sale registered at Santo Antônio [dos Aribas?], Termo de Leopoldina, MG, on 25 May 1877, in which a set of Toledo-family grandchildren — Maria Bulandina de Jesus (wife of Manoel Marques Jorge), Josepha Olímpia, Maria [Perpétua/Porcelina] de Toledo, Matildes Olímpia da Paixão, Geraldo Augusto de Toledo and Ladisláo Egydio Ferreira de Toledo — sell to Capitão Antonio Belizandro dos Reis Meirelles two shares of cultivated land in the Fazenda da Concórdia that they inherited from their deceased grandmother (avó) Dona Mathildes Maria de Jesus. Same grandchild set and estate matriarch as the 1881 partilha (PRB-0001, which lists Eliza Balbina de Toledo among the "Primeiros Nettos") and the 1884 petition (PRB-0002).
-1 REPO @REPO0012@
+1 REPO @REPO0013@
 2 CALN Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text), livro Livro 6, fls. 27-30 (traslado at fl. 159)
 1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
 1 NOTE Transcription: [Página 1 de 2 (imagem 1). No alto: "= 2 =", um "N.º", e o fólio "159" (repetido à direita). Nota de margem lateral, na vertical, de leitura parcial: "[...] Antonio Belizandro dos Reis Meirelles [...] 25 de Maio de 18[7]7"; demais anotações de arquivo à margem direita, ilegíveis.] Livro 6 Folhas 27, 28, 29 e 30. Primeiro tras[-]lado de escriptura de venda que fazem Mano[-]el Marques Jorge, sua mulher D. Maria Blandina de Jezus, Baldoino Rodrigues de Almeida Montes e sua mulher D. Josepha Olimpia Rodrigues d'Almeida, Dona Maria Porcelina de Toledo, D. Matildes Olimpia da Paixão, Geraldo Augusto de Toledo, Ladisláo Egydio Ferreira de Toledo ao Ca[-]pitão Antonio Belizandro dos Reis Mei[-]relles na forma abaixo = Saibão quan[-]tos este publico instrumento virem que no anno do Nascimento de Nosso Senhor Jezus Christo de mil oito centos e setenta e sete aos vinte e cinco dias do mez de Maio nesta Freguezia de Santo Antonio dos [Aribas?] Ter[-]mo da Leopoldina Provincia de Minas Geraes em o meu Cartorio compareceram partes justas e contractadas a saber: como outor[-]gantes vendedores Manoel Marques Jorge e sua mulher Dona Maria Blandina de Jezus, Baldoino Rodrigues d'Almeida Mon[-]tes e sua mulher Dona Josepha Olimpia Rodrigues d'Almeida, Dona Maria Por[-]celina de Toledo, Dona Matildes Olimpia da Paixão, Geraldo Augusto de Toledo e Ladisláo Egydio Ferreira de Toledo e como outorgado Comprador o Capitão Antonio Belizandro dos Reis Meirelles, aquelles moradores nesta Freguezia e este morador na Freguezia do Rio Pardo ambas deste [...] [Página 2 de 2 (imagem 2). Nota de margem lateral, na vertical: "Concordia".] [...] de Lima Coelho de Moura, [Cezario?] Chris[-]tino da Silva Lima e sua mulher Dona Adelaide da Fonseca Lima, re[-]prezentados por seu bastante Procu[-]rador Ladisláo Egydio Ferreira de Toledo, pelos poderes das Procurações que exhibio e abaixo vão transcriptas; e de outro lado como Outorgado compra[-]dor o Capitão Antonio Belizandro dos Reis Meirelles, os primeiros residentes em São João d'El Rei, os segundos resi[-]dentes no Rio de Janeiro, e o outor[-]gado residente no Districto do Rio Pardo d'este Termo, reconhecidos por mim Escrivão e pelas testemunhas abaixo assignadas, do que dou fé; perante as quaes pelos Outorgantes por seu Procurador, foi dito que são Senhores e possuidores de duas Sortes de ter[-]ras de cultura em commum na Fazenda da Concordia e que houve[-]rão por herança no inventario os bens de sua finada avó Dona Ma[-]thildes Maria de Jezus, pela ma[-]neira seguinte: Parte nos tres mil [...]
 1 NOTE Archival reference: FamilySearch ARK 3:1:3QHJ-BQWY-R996-5 (p.1) and 3:1:3QHJ-BQWY-R9MX-8 (p.2)
 1 OBJE @OBJPRB0003@
+0 @PRB0005@ SOUR
+1 TITL Registered will (testamento) of Francisco José Bohrer (registered 1888, Provedoria de Nova Friburgo), declaring his parents Jacob Bahrer and Catharina Mayer, his wife and his four children
+1 TEXT Francisco José Bohrer's own registered will (Provedoria de Nova Friburgo, Livro de Testamentos nº 9, fl. 8v; registered 1888). He declares himself "natural deste termo" (born in the Nova Friburgo comarca) and "filho legitimo de Jacob Bahrer e de Catharina Mayer, já fallecidos" — primary evidence of his parents (P-0050, P-0051), the Bohrer line's immigrant boundary. He names his wife Rosa Eugenia de Lemos Bohrer (P-0035) and their four children Joaquim (P-0030), Laura, Guilherme and Fernando as sole heirs, and his brother-in-law Candido Pereira de Lemos as an executor. Resolves the previously open question of whether Francisco José was himself an immigrant: he was Brazilian-born (Nova Friburgo), and the immigrant generation is his parents.
+1 REPO @REPO0014@
+2 CALN Brazil, Rio de Janeiro, "Legal" records (TJERJ fund); FamilySearch DGS 105875530, livro Livro de Registro de Testamentos nº 9, fl. 8 verso
+1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
+1 NOTE Transcription: [Certidão do escrivão da Provedoria de Nova Friburgo. Duas imagens (…-p1.jpg, …-p2.jpg); no alto da p1 o fólio "3".] [p1] "O Capitão João José Kramith[?], Escrivão da Provedoria da Cidade de Nova-Friburgo. Certifico que revendo em meu cartorio o livro de Registro de testamentos numero nove, delle a folhas oito verso consta o Registro do theor seguinte: — Registro d'um testamento na forma abaixo. — Jesus, Maria, José. Em Nome da Santissima Trindade, Padre, Filho, Espirito Santo, em quem eu Francisco José Bohrer firmemente creio, em cuja fé protesto viver e morrer. Este é o meu testamento e ultima vontade. Declaro que sou natural deste termo, filho legitimo de Jacob Bahrer e de Catharina Mayer, já fallecidos. Declaro que sou casado á face da Igreja com Roza Eugenia de Lemos Bohrer, de cujo matrimonio tenho actualmente quatro filhos que são Joaquim, Laura, Guilherme e Fernando, todos de menor idade, os quaes são meus [p2] unicos e legitimos herdeiros. O meu enterro será feito á vontade de meu testamenteiro. Mando que por alma de meus paes se digão vinte missas. Deixo a quantia de cincoenta mil réis para obras ou conservação da Capella de Santo Antonio que se vae edificar no Suspiro nesta Villa, livre de imposto que será pago pelos meus bens. Nomeio para meus testamenteiros e tutores de meus filhos, na ordem em que se achão: em primeiro lugar a minha mulher Rosa Eugenia de Lemos Bohrer, em segundo lugar a meu cunhado Candido Pereira de Lemos, e em terceiro lugar ao meu amigo Samuel Antonio dos Santos. Esta é a minha ultima vontade e disposição para depois de minha morte, que pedi a João José Kramith que por mim escrevesse conforme lhe ditei, e no qual me assigno por estar conforme." [Segue o auto de approvação, Nova Friburgo, 188[8], parcialmente legível.]
+1 NOTE Archival reference: FamilySearch DGS 105875530, images ~867-869 (Provedoria de Nova Friburgo, Livro de Testamentos nº 9, fl. 8v). Located via the FamilySearch retrieval and delivered through the research/from-retrieval/ sync; read and promoted 1 August 2026. FamilySearch attaches this image to Rosa Eugenia de Lemos as a "1888 inventário", but it is in fact Francisco José Bohrer's own registered will.
+1 NOTE Repository file: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p1.jpg
+1 OBJE @OBJPRB0005@
 0 @REC0001@ SOUR
 1 TITL Direct-ancestor roster supplied by Juan Carlos Muniz Armond
 1 TEXT The repository owner identified himself, his parents, and the deceased direct ancestors used to initialise Ahnentafel positions 1 through 15. This source supports the private working roster and preferred-name spellings only; it does not substitute for civil or parish evidence of vital events or relationships.
-1 REPO @REPO0013@
+1 REPO @REPO0015@
 1 NOTE Evidence classification: family_recollection; authored_narrative; information mixed; direct evidence.
 1 NOTE Repository file: STATUS.md
 0 @OBJCIV0001@ OBJE
@@ -1693,6 +1844,11 @@
 2 FORM image/jpeg
 2 TITL Parish marriage register entry of João Monteiro de Azevedo and Mercedes Maria Bittencourt (1917, Santa Luzia de Carangola)
 1 NOTE sha256: f3b5a5a81c3514e479eae9024eaa22a1c17ed552006c596a546cb575d66d2370
+0 @OBJPAR0015@ OBJE
+1 FILE evidence/parish/PAR-0015-manoel-muniz-bytancourt-obito-1866-povoacao.jpg
+2 FORM image/jpeg
+2 TITL Parish death register entry of Manoel Muniz Bytancourt (1866, Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel), naming his wife, his parents and his eight children
+1 NOTE sha256: 90a2d62d23abaeb36981a2d80d4e98458c7fae1f9092cd456d3ced8f8da13189
 0 @OBJPRB0001@ OBJE
 1 FILE evidence/probate/PRB-0001-probate-toledo-heir-list-leopoldina-1881-original.jpg
 2 FORM image/jpeg
@@ -1708,4 +1864,9 @@
 2 FORM image/jpeg
 2 TITL 1877 Leopoldina notarial deed of sale by the Toledo grandchildren of their inherited Fazenda da Concórdia land, naming their grandmother Mathilde Maria de Jesus
 1 NOTE sha256: 17fdd96769af871285f35258136b93e812567ddff4976d352ffe5a548d323bd7
+0 @OBJPRB0005@ OBJE
+1 FILE evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p1.jpg
+2 FORM image/jpeg
+2 TITL Registered will (testamento) of Francisco José Bohrer (registered 1888, Provedoria de Nova Friburgo), declaring his parents Jacob Bahrer and Catharina Mayer, his wife and his four children
+1 NOTE sha256: 18e7879fe48128539ccf10077dbd1f193f49cf1667cd50ae1b392827e744188b
 0 TRLR

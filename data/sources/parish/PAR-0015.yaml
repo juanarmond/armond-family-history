@@ -1,0 +1,103 @@
+schema_version: 1
+id: PAR-0015
+title: >-
+  Parish death register entry of Manoel Muniz Bytancourt (1866, Nossa Senhora Mãe
+  de Deus, Povoação, Ilha de São Miguel), naming his wife, his parents and his
+  eight children
+record_type: Parish death register entry (óbito, original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1866-07-24"
+event_place_text: >-
+  Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel,
+  Açores, Portugal (died at sea, off the Garajau of this parish)
+repository:
+  name: FamilySearch (Portugal, Ilha de São Miguel, Catholic parish registers)
+  archive_or_registry: >-
+    Paróquia de Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Diocese de
+    Angra do Heroísmo)
+  collection: >-
+    Portugal, Açores, registos paroquiais (FamilySearch collection 4449047)
+  book: >-
+    Livro de óbitos, Nossa Senhora Mãe de Deus (Povoação), 1866 — death act N.º 70
+    (page headed "15 / Barão")
+  catalogue_reference: >-
+    FamilySearch collection 4449047, Povoação (N.S. Mãe de Deus) óbitos 1866, act
+    N.º 70. Register image located via the Familiaridade/FamilySearch retrieval and
+    delivered through the research/from-retrieval/ sync; read and promoted 1 August
+    2026.
+  repository_path: evidence/parish/PAR-0015-manoel-muniz-bytancourt-obito-1866-povoacao.jpg
+access_date: "2026-08-01"
+language: pt-BR
+transcription: >-
+  [Paróquia de Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel; livro de
+  óbitos, 1866. Margem: "N.º 70 / Manoel Muniz Bytancourt cazado com Francisca Roza
+  do Espirito Santo". Página no alto: "15 / Barão".] "Aos vinte quatro dias do mez de
+  Julho do anno de mil oito centos sessenta e seis, por uma hora da tarde, na bahia,
+  fóra do Garajau desta freguesia de Nossa Senhora Mãe de Deus, Concelho da Villa da
+  Povoação, Diocese d'Angra, falleceu, sem receber os Sacramentos da Santa Madre
+  Egreja, um individuo do sexo Masculino, de nome Manoel Muniz Bytancourt, de idade
+  de quarenta e seis annos, proprietario, cazado com Francisca Roza do Espirito
+  Santo, natural desta freguesia, e morador na Lomba do Botão da mesma; filho
+  legitimo de João Muniz Bytancourt, proprietario, e de Maria Jacintha de Medeiros,
+  d'occupação domestica, naturaes desta freguesia; não fez testamento, e deixou oito
+  filhos. E para constar lavrei em duplicado este assento que assigno. Era ut supra.
+  O Cura Julio Cesar Augusto[?] [assinatura; sobrenome uncertain]."
+abstract: >-
+  The original 1866 death register entry (N.S. Mãe de Deus, Povoação, Ilha de São
+  Miguel) of Manoel Muniz Bytancourt (P-0042), father of João Muniz Bittencourt
+  (P-0019): drowned at sea off the Garajau on 24 July 1866, aged 46 (so born
+  c.1820), a landowner resident at Lomba do Botão, without the sacraments and
+  intestate. It names his wife Francisca Roza do Espirito Santo (P-0047), his
+  parents João Muniz Bytancourt (P-0048) and Maria Jacintha de Medeiros (P-0049) —
+  both natural of the parish — and states he left eight children. This is the
+  primary record that fixes João's Azorean parentage two generations deep and
+  corrects the "Manoel Luiz Bittencourt" of João's 1915 Carangola óbito (PAR-0007):
+  the true name is Manoel MUNIZ Bytancourt.
+reliability:
+  assessment: >-
+    Direct primary parish evidence for Manoel's death, approximate birth year, São
+    Miguel (Povoação) residence, marriage to Francisca Roza do Espirito Santo, and
+    his own parentage (João Muniz Bytancourt and Maria Jacintha de Medeiros).
+  informant: The recording cura of N.S. Mãe de Deus, Povoação (1866).
+  limitations: >-
+    Handwritten register; the officiating cura's surname is an uncertain read.
+    Manoel's own naturalidade is not stated explicitly, but his parents are
+    "naturaes desta freguesia" and he was resident and buried there. The eight
+    children are not individually named in this act.
+digital_file:
+  path: evidence/parish/PAR-0015-manoel-muniz-bytancourt-obito-1866-povoacao.jpg
+  sha256: 90a2d62d23abaeb36981a2d80d4e98458c7fae1f9092cd456d3ced8f8da13189
+linked_people:
+- P-0042
+- P-0047
+- P-0048
+- P-0049
+linked_families:
+- F-0020
+- F-0023
+linked_events:
+- E-0047
+linked_places: []
+private: true
+notes:
+- text: >-
+    Corrects the óbito conflict on João's father's name: João's 1915 Carangola death
+    (PAR-0007) recorded the father as "Manoel Luiz Bittencourt", but this primary
+    Povoação death shows the true name is Manoel MUNIZ Bytancourt. It also settles
+    the previously open identity of João's mother (Francisca Roza do Espirito Santo)
+    and promotes the grandparent couple (João Muniz Bytancourt and Maria Jacintha de
+    Medeiros) from tree-lead to primary. João Muniz Bittencourt (P-0019, b. c.1847)
+    is one of the "oito filhos" but is not individually named here.
+- text: >-
+    Independent (non-catalogued) corroboration of the grandparent couple, held as a
+    lead only: the Ponta Delgada emigration-passport register (BPAR/Archeevo,
+    GCPDL/P) records two 1880 passports of João's brothers — António Moniz
+    Bettencourt (ref …/02217) and Dâmaso Moniz (ref …/02203) — each "filho de João
+    Moniz Bettencourt e Maria Jacinta", Povoação. Transcription only; no image was
+    delivered, so it is not catalogued as a source.

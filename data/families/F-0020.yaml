@@ -2,21 +2,48 @@ schema_version: 1
 id: F-0020
 partners:
 - person_id: P-0042
-  role: parent
+  role: spouse
+- person_id: P-0047
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PAR-0015
+  notes:
+  - text: >-
+      Manoel Muniz Bytancourt and Francisca Roza do Espirito Santo are named as a
+      married couple in Manoel's 1866 Povoação death (PAR-0015): "cazado com
+      Francisca Roza do Espirito Santo … deixou oito filhos". No marriage record is
+      located, but the óbito attests the union directly.
 children:
 - person_id: P-0019
   parent_relationships:
   - parent_id: P-0042
-    relationship_type: unknown
+    relationship_type: biological
     status: confirmed
     source_ids:
     - PAR-0007
     notes: []
+  - parent_id: P-0047
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0007
+    - PAR-0015
+    notes:
+    - text: >-
+        João's paternity (Manoel) is confirmed by his 1915 óbito (PAR-0007), which
+        did not name his mother. Francisca is taken to be his mother indirectly:
+        Manoel's 1866 death (PAR-0015) names her as his wife and the mother of his
+        "oito filhos", and João (b. c.1847) was one of those children — hence
+        strong-evidence rather than confirmed.
   notes: []
 event_ids: []
 notes:
 - text: >-
-    Records the paternity of João Muniz Bittencourt (P-0019), whose 1915 death
-    (PAR-0007) names him "filho legitimo de Manoel Luiz Bittencourt" (P-0042). Only the
-    father is named in the record; João's mother is unknown, so this family group has a
-    single modelled parent.
+    João Muniz Bittencourt (P-0019) is the child of Manoel Muniz Bytancourt (P-0042)
+    and Francisca Roza do Espirito Santo (P-0047), of Nossa Senhora Mãe de Deus,
+    Povoação, Ilha de São Miguel (Açores, Portugal). Manoel's 1866 óbito (PAR-0015)
+    records the couple and that they left "oito filhos"; João's own 1915 óbito
+    (PAR-0007) confirms his paternity. The couple's other seven children are not
+    evidenced by the located records, so only João is modelled here.
