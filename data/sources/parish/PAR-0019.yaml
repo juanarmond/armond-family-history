@@ -1,0 +1,97 @@
+schema_version: 1
+id: PAR-0019
+title: >-
+  1787 Barbacena baptism of Ladisláo, son of Joaquim José Ferreira de Toledo and
+  Ritta Angélica Rodrigues — confirming Ladisláo Egídio Ferreira de Toledo's parents
+record_type: Parish baptism register entry (batismo, original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1787-09-09"
+event_place_text: >-
+  Capela de Nossa Senhora da Piedade (filial da Matriz), Freguesia de Nossa Senhora
+  da Piedade da Borda do Campo (Barbacena), Minas Gerais, Brazil
+repository:
+  name: FamilySearch (Brazil, Minas Gerais, Catholic parish registers)
+  archive_or_registry: >-
+    Freguesia de Nossa Senhora da Piedade da Borda do Campo (Barbacena), MG
+  collection: >-
+    Brazil, Minas Gerais, registros paroquiais (Barbacena); batismos 1787
+  book: >-
+    Livro de batismos, Barbacena (Piedade da Borda do Campo), 1787 — pp. 310-311,
+    baptism of 9 September 1787 (volume with heavy ink bleed-through)
+  catalogue_reference: >-
+    Barbacena (N.S. da Piedade da Borda do Campo) baptisms, 9 September 1787. The
+    base scan (…-1787-barbacena.jpg) is largely illegible from ink bleed-through; the
+    filiation was recovered by image processing (…-1787-barbacena-alt.jpg) by the
+    retrieval agent and re-read here. Delivered through the research/from-retrieval/
+    sync; read and promoted 1 August 2026.
+  repository_path: evidence/parish/PAR-0019-ladislao-toledo-baptism-1787-barbacena.jpg
+access_date: "2026-08-01"
+language: pt-BR
+transcription: >-
+  [Freguesia de N.S. da Piedade da Borda do Campo (Barbacena), MG; livro de batismos,
+  1787, pp. 310-311. Heavy ink bleed-through; read from the image-processed recovery
+  (…-alt). The parents and date are clearly legible on the enhanced image; the child's
+  given name is faded and read as "Ladisláo" from the index and the recovery.] "Aos
+  nove dias do mez de Setembro de mil sete centos e oitenta e sete, [n]esta Capela de
+  Nossa Senhora da Piedade, filial da matriz da [Freguezia da] Borda do Campo, o Padre
+  Antonio da Silva Souza, de licença minha, baptizou solennemente e por os Santos
+  Oleos a Ladisláo[?], filho legitimo de [Joaquim] José Ferreira de Toledo e de Dona
+  Ritta Angelica Rodriguez; foraõ padrinhos o Doutor Ignacio [Correa] de Almeida
+  Peixoto [e outros?] que apresentaram José Pereira [Marinho?], o Vigario Gomez
+  Ferreira, [Ribeiro?] filho de Francisco Gomez Ferreira, todos desta Freguezia [da
+  Piedade] da Borda do Campo. De que fiz este assento. [assina] O Vigario Dom
+  Agostinho [Botelho?] Pinto de Castro."
+abstract: >-
+  The 9 September 1787 Barbacena baptism of a child (read as Ladisláo) — legitimate
+  son of [Joaquim] José Ferreira de Toledo (P-0057) and Dona Ritta Angélica Rodrigues
+  (P-0058). This is the connecting record that establishes Ladisláo Egídio Ferreira de
+  Toledo (P-0056) as their son, upgrading the F-0028 parentage edge from
+  strong-evidence to confirmed. The parents and the 9 September 1787 date are clearly
+  legible on the image-recovered scan; the child's own forename is faded and rests on
+  the index identification (the couple's 9-Sep-1787 baptism) plus the corroborating
+  1821 Barbacena baptism of Ladisláo × Matilde's daughter Carolina (PAR-0017).
+reliability:
+  assessment: >-
+    Direct primary parish evidence that Joaquim José Ferreira de Toledo and Ritta
+    Angélica Rodrigues baptised a child on 9 September 1787 at Barbacena. The parents
+    and date are legible (on the recovered image); the child's given name is faded, so
+    the identification of that child as Ladisláo Egídio Ferreira de Toledo rests on
+    the FamilySearch index (this exact act) and the age/surname/parish convergence.
+  informant: The baptising priest and the vigário, Barbacena (Borda do Campo), 1787.
+  limitations: >-
+    The base scan is largely illegible from ink bleed-through; read from an
+    image-processed derivative (…-alt). The child's forename, the "Joaquim" prefix on
+    the father, and the godparents' surnames are uncertain/recovered reads; the parents
+    (José Ferreira de Toledo × Ritta Angélica Rodriguez) and the 9 Sep 1787 date are
+    clear.
+digital_file:
+  path: evidence/parish/PAR-0019-ladislao-toledo-baptism-1787-barbacena.jpg
+  sha256: 8f93cbf20b61b56f914c4c3741455dc6f3fe99763d3f7fdef36db72d8a45f93d
+linked_people:
+- P-0056
+- P-0057
+- P-0058
+linked_families:
+- F-0028
+linked_events:
+- E-0050
+linked_places: []
+private: true
+notes:
+- text: >-
+    Two evidence files are held: the unprocessed original
+    (PAR-0019-…-1787-barbacena.jpg, in digital_file — canonical but ink-bled) and the
+    image-processed recovery (PAR-0019-…-1787-barbacena-alt.jpg) from which the
+    filiation was read. The recovery answered the retrieval "Target A" request.
+- text: >-
+    Confirms the parentage edge modelled as strong-evidence in PAR-0018/F-0028: the
+    couple Joaquim José Ferreira de Toledo × Ritta Angélica Rodrigues (whose own
+    marriage and parents are in PAR-0018) are Ladisláo's parents. Their own parents
+    (Gaspar Ferreira × Gertrudes Maria de Toledo; João Rodrigues do Valle × Izabel
+    Ribeira) remain leads, named in PAR-0018.

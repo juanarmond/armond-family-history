@@ -5,6 +5,21 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-08-01 — Ladisláo's 1787 baptism recovered; Toledo edge confirmed
+
+- Question: the retrieval agent recovered the ink-bled 1787 Barbacena baptism (Target
+  A) via image processing — verify and upgrade the Ladisláo → Joaquim José × Ritta edge.
+- Key result: cropped the recovered `-alt` scan at full resolution and read the
+  filiation directly — "baptizou … a Ladisláo, filho legitimo de [Joaquim] José
+  Ferreira de Toledo e de Dona Ritta Angelica Rodriguez", 9 Sep 1787, Capela da
+  Piedade (Borda do Campo). Catalogued as **PAR-0019** (baptism event **E-0050**), and
+  **upgraded the F-0028 parentage edge from strong-evidence to CONFIRMED**. The parents
+  and date read clearly on the recovery; the faded forename is corroborated by the
+  index and the 1821 Carolina baptism (PAR-0017). Both the original and the recovered
+  `-alt` scans are held in evidence (DOC-0052).
+- Still open: Target B (the Ladisláo × Matilde marriage → Matilde's parents) is being
+  read by the agent; the 1880/81 citations could still be catalogued as PRB-0007.
+
 ## 2026-08-01 — Toledo line extended to Barbacena (Ladisláo's origins)
 
 - Question: value-gate the re-synced drop's new Toledo-apical batch (165→187 images)

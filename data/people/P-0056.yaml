@@ -13,7 +13,12 @@ name_variants:
   type: source
   source_ids:
   - PAR-0017
-event_ids: []
+- value: Ladisláo
+  type: birth
+  source_ids:
+  - PAR-0019
+event_ids:
+- E-0050
 family_ids:
 - F-0027
 - F-0028
@@ -32,15 +37,16 @@ notes:
     people caused an earlier flagged conflict, now resolved by the inventory.
     Nationality Brazilian, consistent with this Minas Gerais Toledo family.
 - text: >-
-    Barbacena roots (1 August 2026): his 1821 daughter Carolina's baptism (PAR-0017)
-    places him and Matilde at Barbacena (Piedade da Borda do Campo), and he is taken
-    to be the "Ladisláo" born there c.1787 to Joaquim José Ferreira de Toledo (P-0057)
-    × Ritta Angélica Rodrigues (P-0058), family F-0028 — a strong but INDIRECT link
-    (the connecting 9 Sep 1787 baptism is badly ink-bled and only partly legible; the
-    identification rests on the surname, the Barbacena locus, his ~1787 birth and a
-    sibling-index for his brother Francisco Januário). A legible 1787 baptism scan
-    would confirm it. His paternal grandparents (Gaspar Ferreira × Gertrudes Maria de
-    Toledo, of Vila Rica) are named in PAR-0018 as a further lead, not yet modelled.
+    Barbacena roots (1 August 2026): baptised 9 September 1787 at the Capela de N.S.
+    da Piedade, Borda do Campo (Barbacena), son of [Joaquim] José Ferreira de Toledo
+    (P-0057) × Ritta Angélica Rodrigues (P-0058), family F-0028 — his own baptism
+    (PAR-0019 → event E-0050). This is now CONFIRMED (upgraded from strong-evidence):
+    the base scan was ink-bled and illegible, but the filiation was recovered by image
+    processing (the …-alt scan) and the parents + 9-Sep-1787 date read clearly; the
+    faded forename is corroborated by the index and the 1821 Carolina baptism
+    (PAR-0017). His paternal grandparents (Gaspar Ferreira × Gertrudes Maria de
+    Toledo, of Vila Rica) and maternal grandparents (João Rodrigues do Valle × Izabel
+    Ribeira) are named in PAR-0018 as leads, not yet modelled.
 - text: >-
     Death and estate (no conflict — resolved 1 August 2026 by reading the citation
     audiences): he died before 1877 (already "finado" in PRB-0004 and in Matilde's

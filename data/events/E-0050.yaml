@@ -1,0 +1,26 @@
+schema_version: 1
+id: E-0050
+event_type: baptism
+date:
+  kind: exact
+  value: "1787-09-09"
+place_text: >-
+  Capela de Nossa Senhora da Piedade (filial da Matriz), Freguesia de Nossa Senhora
+  da Piedade da Borda do Campo (Barbacena), Minas Gerais, Brazil
+participants:
+- person_id: P-0056
+  role: principal
+- person_id: P-0057
+  role: parent
+- person_id: P-0058
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0019
+notes:
+- text: >-
+    Baptism of Ladisláo Egídio Ferreira de Toledo (P-0056) on 9 September 1787 at the
+    Capela de N.S. da Piedade, Borda do Campo (Barbacena), son of [Joaquim] José
+    Ferreira de Toledo (P-0057) and Ritta Angélica Rodrigues (P-0058), per PAR-0019.
+    Fixes his birth at c.1787. The parents and date are legible on the image-recovered
+    scan; his own forename is a faded/recovered read (see PAR-0019).

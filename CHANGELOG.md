@@ -58,6 +58,13 @@ also remain traceable through source records and research logs.
   own parents (Gaspar Ferreira × Gertrudes Maria de Toledo of Vila Rica; João
   Rodrigues do Valle × Izabel Ribeira) are named in `PAR-0018` but kept as leads, not
   modelled. The direct line now reaches generation 8.
+- **Confirm** the Ladisláo → Joaquim José × Ritta parentage edge (previously
+  strong-evidence) from Ladisláo's own 9 September 1787 Barbacena baptism (`PAR-0019`,
+  event `E-0050`). The base scan was illegible from ink bleed-through; the retrieval
+  agent recovered the filiation by image processing (the `-alt` derivative), and the
+  parents ("[Joaquim] José Ferreira de Toledo e de Dona Ritta Angelica Rodriguez") and
+  the date read clearly on the recovery. Both the original and recovered scans are held
+  (DOC-0052); `F-0028` and `P-0056` upgraded to confirmed.
 - Catalogue the Santa Luzia de Carangola parish (religious) marriage cluster from the
   retrieval sync (3 sources). Deocleciano's 1916 parish marriage (`PAR-0012`) is the
   religious counterpart of the civil record (sourcing the same event `E-0001`); it

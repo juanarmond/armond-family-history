@@ -2036,3 +2036,50 @@ documents:
         both parent couples (Gaspar Ferreira x Gertrudes Maria; João Rodrigues do Valle
         x Izabel Ribeira). Taken to be Ladisláo's parents on strong (indirect) evidence.
         Ink bleed-through; year and several names uncertain. All named persons long deceased.
+  - inventory_id: DOC-0052
+    status: catalogued
+    added_date: "2026-08-01"
+    apparent_record_type: Parish baptism register entry (batismo, original)
+    apparent_people:
+      - Ladisláo Egídio Ferreira de Toledo
+      - Joaquim José Ferreira de Toledo
+      - Ritta Angélica Rodrigues
+    apparent_event: baptism
+    image_quality: partly-illegible
+    provenance: >-
+      Livro de batismos, Freguesia de N.S. da Piedade da Borda do Campo (Barbacena),
+      MG, pp. 310-311, 9 September 1787 (heavy ink bleed-through). FamilySearch
+      retrieval; base scan largely illegible, filiation recovered by image processing
+      (the -alt derivative); research/from-retrieval/ sync; read 1 August 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0019-ladislao-toledo-baptism-1787-barbacena.jpg
+        sha256: 8f93cbf20b61b56f914c4c3741455dc6f3fe99763d3f7fdef36db72d8a45f93d
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 4224
+          pixel_height: 2752
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/parish/PAR-0019-ladislao-toledo-baptism-1787-barbacena-alt.jpg
+        sha256: ba244fbbe5010ce340a6a6a3ab0eb6fc2de53bdc7dbe898e2158916f39750b73
+        media_type: image/jpeg
+        role: detail
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 4224
+          pixel_height: 2752
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0019
+    notes:
+      - >-
+        Confirms Ladisláo Egídio Ferreira de Toledo's parents (Joaquim José Ferreira de
+        Toledo x Ritta Angélica Rodrigues), upgrading the F-0028 edge to confirmed. The
+        -alt file is the image-processed recovery from which the filiation was read
+        (the base scan is ink-bled). All named persons long deceased.
