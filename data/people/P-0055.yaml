@@ -1,0 +1,27 @@
+schema_version: 1
+id: P-0055
+preferred_name: Claudina Brandina de Jesus
+privacy: deceased
+sex: female
+nationality: Brazilian
+name_variants:
+- value: Claudina
+  type: source
+  source_ids:
+  - PRB-0006
+event_ids: []
+family_ids:
+- F-0026
+notes:
+- text: >-
+    Mother of Eliza Balbina de Toledo (P-0017); wife of José Cezário de Toledo Lima
+    (P-0054), family F-0026. Named in Mathilde Maria de Jesus's 1879 Leopoldina
+    inventory (PRB-0006) as "D. Claudina, tambem fallecida" — the wife of heir #4,
+    deceased by 1879.
+- text: >-
+    The inventory records only the forename "D. Claudina"; the fuller name "Claudina
+    Brandina de Jesus" is inferred, corroborated by her daughter "Maria Bulandina
+    (Brandina) de Toledo" (a documented sibling of Eliza on F-0026). Recorded as the
+    working preferred name with the record form "Claudina" preserved as the source
+    variant. Nationality Brazilian, consistent with this Minas Gerais Toledo family;
+    no explicit birthplace is stated.

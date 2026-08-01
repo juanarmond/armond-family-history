@@ -34,6 +34,19 @@ also remain traceable through source records and research logs.
   added as a documented sibling). Resolves the earlier "weakened" Lemos doubt — the
   apparent childbearing gap was an indexing artifact. Adds baptism event `E-0049`;
   Rosa (`P-0035`) updated with parents, event and the "Roza" variant.
+- Extend the **maternal Toledo line three generations** and resolve `P-0027`
+  (Mathilde)'s orphan status, from Mathilde Maria de Jesus's 1879 Leopoldina estate
+  inventory (`PRB-0006`, folios 6/8/9). Eliza Balbina de Toledo (`P-0017`) is heir #4
+  José Cezário de Toledo Lima's (`P-0054`) fifth representante, so her parents are
+  **José Cezário de Toledo Lima × Claudina [Brandina de Jesus]** (`P-0055`, family
+  `F-0026`) and her grandparents **Mathilde Maria de Jesus × Ladisláo Egydio Ferreira
+  de Toledo** (`P-0056`, family `F-0027`). **Corrects** the `PRB-0004` hypothesis —
+  Antonio Zeferino de Toledo × Maria Perpétua are heir #3 (Eliza's uncle/aunt), added
+  as a documented sibling — and **resolves the two same-named Ladisláo** (elder =
+  Mathilde's husband; the 23-year-old namesake = Eliza's brother). Eliza's seven
+  siblings are recorded as documented children on `F-0026`; `P-0017`, `P-0027` and
+  `PRB-0004` updated. Watch the near-identical inventariante Cezário José de Toledo
+  (heir #7) vs heir #4 José Cezário de Toledo Lima — kept distinct.
 - Catalogue the Santa Luzia de Carangola parish (religious) marriage cluster from the
   retrieval sync (3 sources). Deocleciano's 1916 parish marriage (`PAR-0012`) is the
   religious counterpart of the civil record (sourcing the same event `E-0001`); it

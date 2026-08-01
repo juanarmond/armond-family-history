@@ -1,0 +1,125 @@
+schema_version: 1
+id: PRB-0006
+title: >-
+  1879 Leopoldina estate inventory of Mathilde Maria de Jesus — título de herdeiros
+  naming her son José Cezário de Toledo Lima (⚭ D. Claudina) and their daughter
+  Eliza Balbina de Toledo
+record_type: Estate inventory and heir title (inventário / título de herdeiros)
+record_category: court_or_probate
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: year
+  year: 1879
+  original_text: >-
+    Inventory opened April 1879 (Juiz Dr. Fernando Pinheiro de Souza Tavares); the
+    process ran to a final adjudication about 1886.
+event_place_text: >-
+  Comarca (Termo) de Leopoldina, Minas Gerais, Brazil
+repository:
+  name: >-
+    Juízo de Órfãos e Provedoria da Comarca de Leopoldina, Minas Gerais (estate
+    inventory of Mathilde Maria de Jesus)
+  archive_or_registry: >-
+    Fórum / Cartório de Leopoldina, MG; digitised copy supplied by the owner's
+    correspondent Nilza and delivered through the research/from-retrieval/ sync
+  collection: >-
+    Inventário de Dona Mathilde Maria de Jesus, aberto abril 1879, Leopoldina, MG
+    (correspondent reference doc 38402168)
+  book: >-
+    Título de herdeiros, folios ~6-10; heir #4 header at folio 8, the daughter Eliza
+    named at folio 9; juramento do inventariante at folio 6
+  catalogue_reference: >-
+    Estate inventory of Mathilde Maria de Jesus, Comarca de Leopoldina (MG), 1879,
+    supplied by the correspondent Nilza (doc 38402168); full PDF archived. Key
+    genealogy folios (6, 8, 9) read and promoted 1 August 2026.
+  repository_path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio9-eliza.jpg
+access_date: "2026-08-01"
+language: pt-BR
+transcription: >-
+  [Inventário de Dona Mathilde Maria de Jesus, Leopoldina (MG), 1879; título de
+  herdeiros. Três imagens catalogadas: folio 6 (juramento do inventariante), folio 8
+  (cabeçalho do herdeiro nº 4) e folio 9 (a filha Eliza). O inventariante é Cezário
+  José de Toledo, filho da finada — pessoa DISTINTA do herdeiro nº 4 "José Cezário de
+  Toledo Lima".]
+
+
+  [folio 8, ao pé, cabeçalho do herdeiro nº 4:] "4º José Cezario de Tolledo Lima,
+  fallecido, cazado que foi com D. Claudina, tambem fallecida, dos quaes são seus
+  reprezentantes:" — [folio 8v] "1º D. Maria Dulcelina de Toledo, solteira, de trinta
+  e tantos annos; 2º D. Mathildes Olympia da Paixão, viuva do finado Manoel Antonio
+  Caza[nna?]; 3º D. Josephina Christina da Silva Lima, fallecida, cazada que foi com
+  Aureliano Christino da Silva Lima, que ainda vive e mora no Termo do Rio Novo, no
+  lugar denominado Piau, sendo seus filhos 1º Cezario da Silva Lima, de 10 annos, 2º
+  D. Joanna da Silva Lima, de 8 annos [...]; [folio 9] 4º Maria Bulandina de Toledo,
+  cazada com Manoel Marques Jorge; 5º Simplicio José Ferreira Armond, cazado com D.
+  Eliza Balbina de Tolledo; 6º Ladisláo Egydio Ferreira de Tolledo, solteiro, de 23
+  annos; 7º Geraldo Augusto de Tolledo Lima, solteiro, de 15 annos, residente na
+  côrte, empregado em uma caza de negocio sita á rua do Visconde de Itaúna nº 74; 8º
+  Josepha Olympia da Paixão, solteira, de 12 annos de idade." — [segue] "5º D.
+  Carolina Leopoldina Marques, cazada com Narciso Marques Braz, sendo a mesma já
+  fallecida, sendo seus herdeiros [...]".
+abstract: >-
+  Mathilde Maria de Jesus's 1879 Leopoldina estate inventory (título de herdeiros).
+  Its heir #4 is her deceased son "José Cezário de Toledo Lima", married to the also
+  deceased "D. Claudina", whose eight representantes (children) are listed — the
+  fifth being "Simplicio José Ferreira Armond, cazado com D. Eliza Balbina de
+  Tolledo". This is primary evidence that Eliza Balbina de Toledo (P-0017) was the
+  daughter of José Cezário de Toledo Lima (P-0054) and Claudina (P-0055), and the
+  granddaughter of Mathilde Maria de Jesus (P-0027) — extending the Toledo maternal
+  line and resolving Mathilde's grandmother link into a structured edge. It also
+  corrects the earlier hypothesis: Antonio Zeferino de Toledo × Maria Perpétua are
+  heir #3 (Eliza's uncle/aunt), NOT her parents.
+reliability:
+  assessment: >-
+    Direct primary evidence (a judicial estate inventory) that Eliza Balbina de
+    Toledo is a daughter/representante of the deceased heir José Cezário de Toledo
+    Lima ⚭ D. Claudina, themselves children/heirs of the deceased Mathilde Maria de
+    Jesus. Resolves the two-Ladisláo ambiguity (the elder Ladisláo Egydio Ferreira
+    de Toledo is Mathilde's husband; a namesake grandson aged 23 is heir #4's son).
+  informant: >-
+    The inventariante Cezário José de Toledo (Mathilde's son) and the court, 1879
+    (a distinct person from heir #4 José Cezário de Toledo Lima).
+  limitations: >-
+    Multi-folio handwritten process; some collateral names are uncertain reads
+    (e.g. "Bulandina/Brandina", "Cazanna"). The mother is recorded only as "D.
+    Claudina"; her fuller name "Claudina Brandina de Jesus" is inferred (see P-0055).
+    Only the folios naming the direct line (6, 8, 9) are catalogued here; the full
+    monte-mór and per-heir shares are elsewhere in the process.
+digital_file:
+  path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio9-eliza.jpg
+  sha256: 7dbf015f49d6bf5be02cf2b63457c59b48633ff768285bbaa8f9e90ee8ec7337
+linked_people:
+- P-0017
+- P-0054
+- P-0055
+- P-0027
+- P-0056
+- P-0016
+linked_families:
+- F-0006
+- F-0026
+- F-0027
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    The act spans several images; the parentage rests on two folios — folio 8 (the
+    heir #4 header "José Cezario de Tolledo Lima ⚭ D. Claudina … seus reprezentantes")
+    and folio 9 (the ELIZA page, "5º Simplicio José Ferreira Armond, cazado com D.
+    Eliza Balbina de Tolledo"). folio 6 (juramento) establishes the deceased is
+    Mathilde and the inventariante is her son Cezário José de Toledo — a person
+    distinct from heir #4 José Cezário de Toledo Lima (the near-identical names are a
+    documented trap). All three pages are held under this ID (…-folio6-…, …-folio8-…,
+    …-folio9-…).
+- text: >-
+    Resolves the Toledo parentage conflict: PRB-0004 (1877 deed) had left open a
+    hypothesis that Eliza's parents were Antonio Zeferino de Toledo × Maria Perpétua.
+    This inventory shows that couple is heir #3 (folio 8 header "de M.a Perpetua nº
+    3") — Eliza's uncle and aunt — while her actual parents are heir #4 José Cezário
+    de Toledo Lima × Claudina. It also resolves the two same-named Ladisláo Egydio
+    Ferreira de Toledo: the elder is Mathilde's husband (P-0056); the "solteiro de 23
+    annos" on folio 9 is heir #4's son, Eliza's brother.

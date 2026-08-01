@@ -1,0 +1,29 @@
+schema_version: 1
+id: P-0056
+preferred_name: Ladisláo Egydio Ferreira de Toledo
+privacy: deceased
+sex: male
+nationality: Brazilian
+name_variants:
+- value: Ladisláo Egydio Ferreira de Toledo
+  type: source
+  source_ids:
+  - PRB-0004
+event_ids: []
+family_ids:
+- F-0027
+notes:
+- text: >-
+    Husband of Mathilde Maria de Jesus (P-0027) and father of José Cezário de Toledo
+    Lima (P-0054); hence Eliza Balbina de Toledo's (P-0017) great-grandfather and the
+    apical Toledo ancestor so far reached. Named as Mathilde's late husband — "seus
+    finados avós Dona Mathilde Maria de Jesus e Ladisláo Egydio Ferreira de Toledo" —
+    in the 1877 Concórdia/São Bento deed (PRB-0004). Family F-0027; both he and
+    Mathilde were already deceased by the 1879 inventory (PRB-0006).
+- text: >-
+    Distinct from the namesake grandson "Ladisláo Egydio Ferreira de Toledo,
+    solteiro, de 23 annos" listed as heir #4's son (Eliza's brother) on folio 9 of
+    PRB-0006. This entry is the ELDER Ladisláo (Mathilde's husband); the two same-name
+    people caused an earlier flagged conflict, now resolved by the inventory.
+    Nationality Brazilian, consistent with this Minas Gerais Toledo family; no
+    explicit birthplace is stated.

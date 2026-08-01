@@ -18,7 +18,8 @@ name_variants:
   source_ids:
   - PRB-0003
 event_ids: []
-family_ids: []
+family_ids:
+- F-0027
 notes:
 - text: >-
     Grandmother (avó) of the Toledo grandchildren who inherited the Fazenda da
@@ -30,13 +31,13 @@ notes:
     mother-vs-grandmother question flagged on PRB-0001. She had died by the 1881
     inventory (d. ~1880).
 - text: >-
-    The intervening generation — Mathilde's child, who is Eliza's parent — is not
-    yet named in the located records, so her link to P-0017 is recorded here in
-    prose rather than as a structured parent-child edge, and no Ahnentafel
-    position is assigned. Reported Toledo co-grandchildren (Eliza's siblings/kin):
-    Maria Bulandina de Toledo (m. Manoel Marques Jorge), Ladisláo Egydio Ferreira
-    de Toledo, Geraldo Augusto de Toledo, Josepha Olímpia and Maria
-    [Perpétua/Porcelina] de Toledo — not yet modelled as entities.
+    Intervening generation NAMED (1 August 2026) by her own 1879 Leopoldina estate
+    inventory (PRB-0006): Eliza's parent is Mathilde's son José Cezário de Toledo
+    Lima (P-0054, heir #4, ⚭ D. Claudina), so Mathilde is now linked to Eliza (P-0017)
+    through the structured edge F-0027 (Mathilde ⚭ Ladisláo Egydio Ferreira de Toledo,
+    P-0056) → F-0026 (José Cezário ⚭ Claudina). This supersedes the earlier
+    prose-only grandmother link and resolves her deliberate orphan status. Her husband
+    (Eliza's great-grandfather) is Ladisláo Egydio Ferreira de Toledo (P-0056).
 - text: >-
     30 July 2026 (Full-Text via research/from-retrieval/, ARK 3:1:3QHJ-1QWB-7BYX,
     catalogued as PRB-0004): a second Concórdia / Ribeirão de São Bento Toledo
@@ -44,12 +45,13 @@ notes:
     parent couple below them, Antonio Zeferino de Toledo and Dona Maria Perpétua
     ("seus finados avós Dona Mathilde Maria de Jesus e Ladisláo Egydio Ferreira de
     Toledo e seus paes e sogros Antonio Zeferino de Toledo e Dona Maria Perpétua").
-    Antonio Zeferino is thus a son of Mathilde × Ladisláo and, with Maria Perpétua,
-    a parent of that deed's grantor grandchildren. Not yet modelled as entities: a
-    conflict must first be resolved — in PRB-0003 (1877) a LIVING "Ladisláo Egydio
-    Ferreira de Toledo" is a grantor grandchild, while here the same name is a
-    deceased grandfather (most likely an elder/grandson pair). Retrieve the full
-    Concórdia inventory to place the couples before creating any edges.
+    Antonio Zeferino is thus a son of Mathilde × Ladisláo. RESOLVED (1 August 2026)
+    by the full inventory (PRB-0006): Antonio Zeferino de Toledo × Maria Perpétua are
+    heir #3 (Eliza's UNCLE and aunt), NOT Eliza's parents — corroborated on folio 8
+    ("de M.a Perpetua nº 3"). Antonio Zeferino is recorded as a documented sibling of
+    José Cezário on F-0027. The two same-named "Ladisláo Egydio Ferreira de Toledo"
+    are also resolved: the elder is Mathilde's husband (P-0056); the "solteiro de 23
+    annos" grantor grandchild is heir #4's son (Eliza's brother, documented on F-0026).
 - text: >-
     Namesake caution (do NOT conflate): a different "Mathilde Maria de Jesus" —
     widow of Generoso Fernandes de Moura, with children surnamed de Moura — appears

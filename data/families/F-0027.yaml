@@ -1,0 +1,73 @@
+schema_version: 1
+id: F-0027
+partners:
+- person_id: P-0027
+  role: spouse
+- person_id: P-0056
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PRB-0004
+  notes:
+  - text: >-
+      Mathilde Maria de Jesus and Ladisláo Egydio Ferreira de Toledo are named as the
+      married grandparent couple ("seus finados avós Dona Mathilde Maria de Jesus e
+      Ladisláo Egydio Ferreira de Toledo") in the 1877 Concórdia/São Bento deed
+      (PRB-0004); Mathilde's own 1879 estate inventory is PRB-0006.
+children:
+- person_id: P-0054
+  parent_relationships:
+  - parent_id: P-0027
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PRB-0006
+    notes:
+    - text: >-
+        José Cezário de Toledo Lima is heir #4 (a son) in his mother Mathilde's 1879
+        inventory (PRB-0006).
+  - parent_id: P-0056
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PRB-0004
+    - PRB-0006
+    notes:
+    - text: >-
+        Indirect: José Cezário is Mathilde's son (PRB-0006), and Ladisláo Egydio
+        Ferreira de Toledo was Mathilde's husband (PRB-0004), so his father — hence
+        strong-evidence rather than confirmed.
+  notes: []
+documented_children:
+- name: Antonio Zeferino de Toledo
+  source_ids:
+  - PRB-0004
+  - PRB-0006
+  note: >-
+    Son of Mathilde × Ladisláo and heir #3 of the estate ("de M.a Perpetua nº 3",
+    folio 8 of PRB-0006), married to Maria Perpétua (PRB-0004). He is Eliza's UNCLE —
+    the couple wrongly hypothesised as Eliza's parents in PRB-0004 and now corrected
+    by the inventory.
+- name: Cezário José de Toledo
+  source_ids:
+  - PRB-0006
+  note: >-
+    Son of Mathilde and the inventariante of her 1879 estate (married to Maria José
+    de Jesus). A DISTINCT person from his brother José Cezário de Toledo Lima
+    (P-0054, Eliza's father) — the near-identical names are a documented trap.
+event_ids: []
+notes:
+- text: >-
+    Parents of José Cezário de Toledo Lima (P-0054) and grandparents of Eliza Balbina
+    de Toledo (P-0017). Mathilde's grandmother role (long recorded in prose from the
+    1877/1881/1884 Concórdia deeds, PRB-0001/0002/0003/0004) is now a structured edge
+    via her son José Cezário. This resolves Mathilde's (P-0027) previous deliberate
+    orphan status.
+- text: >-
+    Per the 1879 inventory Mathilde had eight children (heirs). Only José Cezário
+    (heir #4, the direct line) is modelled; heirs #3 Antonio Zeferino and #7 Cezário
+    José are documented above. The remaining heirs — including Francisco Leocadio de
+    Toledo (⚭ Maria Joaquina de Jesus) and Carolina Leopoldina Marques (⚭ Narciso
+    Marques Braz) — are named across the deed cluster and the inventory but are
+    recorded here only as a lead, not modelled or documented individually.

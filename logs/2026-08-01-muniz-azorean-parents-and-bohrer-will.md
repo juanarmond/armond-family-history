@@ -142,3 +142,37 @@ Rosa's nationality is now Brazilian (Itaboraí-born).
 New entities: PAR-0016, P-0052, P-0053, F-0025, E-0049 (inventory DOC-0048).
 make check green (69 tests, 198 entities); reciprocity clean; both parents trace
 as degree-6 direct ancestors via Iris → Celina → Joaquim → Rosa.
+
+## 4. Eliza Balbina de Toledo's parents + Matilde's inventário (PRB-0006) — addendum
+
+A fourth direct-line primary confirmation from the same drop (Matilde's 1879
+Leopoldina inventário, supplied by the correspondent Nilza). Verified against the
+images, not the agent transcript:
+
+- **Folio 8 (heir #4 header):** *"4º José Cezario de Tolledo Lima, fallecido,
+  cazado que foi com D. Claudina, tambem fallecida, dos quaes são seus
+  reprezentantes"*, and the same folio's top confirms heir #3 is "de M.a Perpetua"
+  (Antonio Zeferino × Maria Perpétua).
+- **Folio 9 (the ELIZA page):** heir #4's representantes #4–#8, including
+  *"5º Simplicio José Ferreira Armond, cazado com D. Eliza Balbina de Tolledo"*.
+
+⇒ Eliza Balbina de Toledo (P-0017) = daughter of **José Cezário de Toledo Lima**
+(P-0054) × **Claudina [Brandina de Jesus]** (P-0055), family F-0026;
+granddaughter of **Mathilde Maria de Jesus** (P-0027) × **Ladisláo Egydio Ferreira
+de Toledo** (P-0056), family F-0027. Catalogued as PRB-0006 (folios 6/8/9).
+
+This **resolves two things at once**: (a) it corrects the PRB-0004 hypothesis —
+Antonio Zeferino de Toledo × Maria Perpétua are heir #3, Eliza's *uncle/aunt*, not
+her parents (added as a documented sibling of José Cezário on F-0027); and (b) it
+resolves Mathilde's (P-0027) deliberate orphan status — she is now a structured
+grandmother edge. The two same-named "Ladisláo Egydio Ferreira de Toledo" are
+disambiguated: the elder (P-0056) is Mathilde's husband; the "solteiro de 23 annos"
+on folio 9 is Eliza's brother (documented on F-0026). Watch the near-identical
+inventariante **Cezário José de Toledo** (heir #7) vs heir #4 **José Cezário de
+Toledo Lima** — a documented name-trap, kept distinct.
+
+Eliza's seven siblings (heir #4's other representantes) are recorded as
+documented_children on F-0026. New entities: PRB-0006, P-0054, P-0055, P-0056,
+F-0026, F-0027 (inventory DOC-0049). make check green (69 tests, 204 entities);
+reciprocity clean; the Toledo line now runs Juan → Luis → Geraldo → Aristão →
+Eliza → José Cezário → Mathilde/Ladisláo (to degree 6).

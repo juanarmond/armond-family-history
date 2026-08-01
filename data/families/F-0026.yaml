@@ -1,0 +1,87 @@
+schema_version: 1
+id: F-0026
+partners:
+- person_id: P-0054
+  role: spouse
+- person_id: P-0055
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PRB-0006
+  notes:
+  - text: >-
+      José Cezário de Toledo Lima and D. Claudina are named as a married couple
+      ("cazado que foi com D. Claudina, tambem fallecida") in the 1879 Leopoldina
+      inventory (PRB-0006); both were already deceased. No marriage record is located.
+children:
+- person_id: P-0017
+  parent_relationships:
+  - parent_id: P-0054
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PRB-0006
+    notes:
+    - text: >-
+        Eliza is listed as the fifth representante (child) of the deceased heir José
+        Cezário de Toledo Lima on folio 9 of PRB-0006 ("5º Simplicio José Ferreira
+        Armond, cazado com D. Eliza Balbina de Tolledo"), her husband named because a
+        married woman's inheritance was administered through him.
+  - parent_id: P-0055
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PRB-0006
+    notes: []
+  notes: []
+documented_children:
+- name: Maria Bulandina de Toledo
+  source_ids:
+  - PRB-0006
+  note: >-
+    Sister of Eliza (representante #4); married Manoel Marques Jorge. Her surname
+    "Bulandina/Brandina" corroborates the mother's inferred name Claudina Brandina de
+    Jesus. Name an uncertain read.
+- name: Maria Dulcelina de Toledo
+  source_ids:
+  - PRB-0006
+  note: Sister of Eliza (representante #1); single, "de trinta e tantos annos" in 1879.
+- name: Mathildes Olympia da Paixão
+  source_ids:
+  - PRB-0006
+  note: >-
+    Sister of Eliza (representante #2); widow of the late Manoel Antonio Caza[nna?].
+    Surname an uncertain read.
+- name: Josephina Christina da Silva Lima
+  source_ids:
+  - PRB-0006
+  note: >-
+    Sister of Eliza (representante #3); already deceased in 1879, married to Aureliano
+    Christino da Silva Lima (of the Termo do Rio Novo, lugar Piau), her own children
+    Cezario and Joanna da Silva Lima representing her.
+- name: Ladisláo Egydio Ferreira de Toledo
+  source_ids:
+  - PRB-0006
+  note: >-
+    Brother of Eliza (representante #6); single, aged 23 in 1879. The YOUNGER Ladisláo
+    — distinct from his grandfather P-0056, Mathilde's husband of the same name.
+- name: Geraldo Augusto de Toledo Lima
+  source_ids:
+  - PRB-0006
+  note: >-
+    Brother of Eliza (representante #7); single, aged 15 in 1879, then living in the
+    Corte (Rio de Janeiro), employed at a business on rua do Visconde de Itaúna nº 74.
+- name: Josepha Olympia da Paixão
+  source_ids:
+  - PRB-0006
+  note: Sister of Eliza (representante #8); single, aged 12 in 1879.
+event_ids: []
+notes:
+- text: >-
+    Parents of Eliza Balbina de Toledo (P-0017), established by Mathilde Maria de
+    Jesus's 1879 Leopoldina inventory (PRB-0006), in which José Cezário de Toledo Lima
+    is heir #4 and Eliza is his fifth representante (child). Extends the Toledo
+    maternal line one generation above Eliza. The seven documented children are her
+    siblings (heir #4's other representantes); all were adults or minors in 1879 and
+    are long deceased.

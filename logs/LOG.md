@@ -25,8 +25,15 @@ entry they amend; they must not erase it.
   Itaboraí baptism (PAR-0016) names her parents Manoel de Lemos Pereira + Maria
   Thereza de Jesus (P-0052/0053, F-0025) — strong-evidence identity (forename-only
   "Roza"), resolving the earlier "weakened" doubt (an indexing artifact).
-- New entities: PAR-0015, PRB-0005, PAR-0016, P-0047–P-0053, F-0023–F-0025,
-  E-0047–E-0049.
+  **(4) Toledo maternal line +3 generations + orphan resolved.** Mathilde Maria de
+  Jesus's 1879 Leopoldina inventário (PRB-0006) proves Eliza Balbina de Toledo
+  (P-0017) is the daughter of heir #4 José Cezário de Toledo Lima + Claudina
+  (P-0054/0055, F-0026), granddaughter of Mathilde + Ladisláo Egydio Ferreira de
+  Toledo (P-0027/0056, F-0027). Corrects the Antonio Zeferino × Maria Perpétua
+  hypothesis (they are heir #3, the uncle), resolves the two-Ladisláo ambiguity, and
+  ends Mathilde's (P-0027) deliberate orphan status. Eliza's 7 siblings documented.
+- New entities: PAR-0015, PRB-0005, PAR-0016, PRB-0006, P-0047–P-0056,
+  F-0023–F-0027, E-0047–E-0049.
 - Not promoted: the `…jose-baptism-1847-povoacao…` image is a filename/content
   mismatch (shows a foundling "Ignez" and a "Maria d'Amaral", not José Muniz) —
   flagged to re-pull; Manoel's death alone carries the parentage.

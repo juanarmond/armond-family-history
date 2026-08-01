@@ -1902,3 +1902,64 @@ documents:
         Thereza de Jesus) of Itaboraí. The register gives only the forename "Roza"; the
         identity is strong-evidence (see F-0025). Torn, damaged page; a second unrelated
         "Roza" is on the same image. All named persons long deceased.
+  - inventory_id: DOC-0049
+    status: catalogued
+    added_date: "2026-08-01"
+    apparent_record_type: Estate inventory / heir title (inventário, título de herdeiros)
+    apparent_people:
+      - Mathilde Maria de Jesus
+      - José Cezário de Toledo Lima
+      - Claudina
+      - Eliza Balbina de Toledo
+      - Simplício José Ferreira Armond
+      - Ladisláo Egydio Ferreira de Toledo
+    apparent_event: probate
+    image_quality: adequate
+    provenance: >-
+      Título de herdeiros of the 1879 Leopoldina estate inventory of Mathilde Maria de
+      Jesus (Juízo de Órfãos, Comarca de Leopoldina, MG). Digitised copy supplied by the
+      owner's correspondent Nilza (doc 38402168); delivered through the
+      research/from-retrieval/ sync; read 1 August 2026. Three key folios catalogued.
+    rights_status: private-research
+    files:
+      - path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio9-eliza.jpg
+        sha256: 7dbf015f49d6bf5be02cf2b63457c59b48633ff768285bbaa8f9e90ee8ec7337
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1728
+          pixel_height: 2549
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio8-heir4.jpg
+        sha256: 128c80eec698a0208eef4d66c093eefc405405ae90fb663c77fb8c1f70df8586
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1728
+          pixel_height: 2553
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio6-juramento.jpg
+        sha256: 2c8eb4172832f885d4b68318a763da56d8341fd52cfa9bc1424b5d922e0f3c37
+        media_type: image/jpeg
+        role: detail
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1723
+          pixel_height: 2547
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PRB-0006
+    notes:
+      - >-
+        Names Eliza Balbina de Toledo as daughter of heir #4 José Cezário de Toledo Lima
+        x Claudina, granddaughter of Mathilde; corrects the Antonio Zeferino x Maria
+        Perpétua hypothesis (heir #3 = the uncle) and the two-Ladisláo ambiguity. All
+        named persons long deceased (19th-century probate).

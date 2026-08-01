@@ -1,0 +1,31 @@
+schema_version: 1
+id: P-0054
+preferred_name: José Cezário de Toledo Lima
+privacy: deceased
+sex: male
+nationality: Brazilian
+name_variants:
+- value: José Cezario de Tolledo Lima
+  type: source
+  source_ids:
+  - PRB-0006
+event_ids: []
+family_ids:
+- F-0026
+- F-0027
+notes:
+- text: >-
+    Father of Eliza Balbina de Toledo (P-0017); hence Aristão Ferreira Armond's
+    (P-0008) maternal grandfather and Geraldo Paz Armond's maternal
+    great-grandfather. Named as heir #4 in his mother Mathilde Maria de Jesus's 1879
+    Leopoldina inventory (PRB-0006): "José Cezario de Tolledo Lima, fallecido, cazado
+    que foi com D. Claudina, tambem fallecida", his eight children (representantes)
+    including "5º Simplicio José Ferreira Armond, cazado com D. Eliza Balbina de
+    Tolledo". Son of Mathilde Maria de Jesus (P-0027) and Ladisláo Egydio Ferreira de
+    Toledo (P-0056), family F-0027.
+- text: >-
+    Do NOT conflate with the inventariante of the same estate, Cezário José de Toledo
+    (Mathilde's other son, ⚭ Maria José de Jesus): the near-identical names are
+    distinct people (PRB-0006). Nationality Brazilian, consistent with this
+    multi-generation Minas Gerais (Leopoldina / Fazenda da Concórdia) Toledo family;
+    no explicit birthplace is stated in the located records.

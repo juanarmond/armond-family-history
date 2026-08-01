@@ -17,6 +17,7 @@ name_variants:
   type: source
   source_ids:
   - PRB-0001
+  - PRB-0006
 - value: Elisa Balbina de Jesus
   type: source
   source_ids:
@@ -25,8 +26,18 @@ event_ids:
 - E-0005
 family_ids:
 - F-0006
+- F-0026
 notes:
 - text: Ahnentafel position 17.
+- text: >-
+    Parents established (1 August 2026) from her grandmother Mathilde Maria de
+    Jesus's 1879 Leopoldina estate inventory (PRB-0006): daughter of José Cezário de
+    Toledo Lima (P-0054) and D. Claudina [Brandina de Jesus] (P-0055), family F-0026,
+    where she is heir #4's fifth representante ("5º Simplicio José Ferreira Armond,
+    cazado com D. Eliza Balbina de Tolledo"). Her grandmother Mathilde (P-0027) is
+    thus linked through a structured edge, and the earlier hypothesis that her
+    parents were Antonio Zeferino de Toledo × Maria Perpétua is corrected — that
+    couple is heir #3, her uncle and aunt.
 - text: >-
     Recorded three ways: "Eliza Ferreira Armand" (Aristão's 1957 death, CIV-0005),
     "Eliza Ferreira Toledo" (Marfiza's 1962 death, CIV-0013) and "Eliza Balbina de

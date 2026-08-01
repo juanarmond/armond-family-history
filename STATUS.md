@@ -30,17 +30,15 @@ catalogues each valuable image as evidence.
 
 This is the immediate execution queue, in order:
 
-1. **Direct-line follow-up (30 July value-gate pass complete):** every image in
-   the `research/from-retrieval/` drop has now been read per-image. PRB-0004
-   catalogued Eliza's maternal Toledo ancestry deed (grandparents Mathilde ×
-   Ladisláo; parents Antonio Zeferino de Toledo × Maria Perpétua). NEXT: confirm
-   Eliza's parents — retrieve PRB-0004's adjacent folios (the grantor names) and
-   the 1881 partilha's opening to test the hypothesis that Antonio Zeferino de
-   Toledo × Maria Perpétua are P-0017's parents, and resolve the two same-named
-   "Ladisláo Egydio Ferreira de Toledo" (elder grandfather vs grantor) before
-   creating any Toledo ancestor edges. **Owner decision pending:** whether to
-   ingest the titled Ferreira Armond branch (Barão de Pitangui / Amaro), which is
-   collateral with no established link to the owner's own line.
+1. **Direct-line follow-up:** the `research/from-retrieval/` drop has been
+   value-gated per-image. Eliza's maternal Toledo parentage is RESOLVED (1 Aug
+   2026) by Mathilde's 1879 Leopoldina inventory (PRB-0006): her parents are José
+   Cezário de Toledo Lima × Claudina (F-0026), grandparents Mathilde Maria de Jesus
+   × Ladisláo Egydio Ferreira de Toledo (F-0027) — correcting the PRB-0004
+   hypothesis (Antonio Zeferino × Maria Perpétua are heir #3, her uncle) and the
+   two-Ladisláo ambiguity (elder = husband; the 23-yo namesake = grandson).
+   **Owner decision pending:** whether to ingest the titled Ferreira Armond branch
+   (Barão de Pitangui / Amaro), collateral with no established link to the line.
 2. Catalogue each retrieved image: privacy-review, reserve a source, transcribe,
    and promote the directly-attested events.
 3. Locate Liliosa's own death, birth or marriage record; retest the Volta
