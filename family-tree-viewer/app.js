@@ -24,6 +24,38 @@ const vocab = (kind, value) => i18n.label(kind, value);
 const localePlace = (name) =>
   typeof name === "string" && state.locale === "pt-BR" ? name.replace(/\bBrazil\b/g, "Brasil") : name;
 
+// Small, self-contained flag glyphs keyed by the recorded nationality. Inline SVG
+// (not emoji) so they render identically on every platform and stay offline. They
+// mark nationality as recorded — never inferred ethnic origin.
+const FLAG_SVGS = {
+  Brazilian:
+    '<svg viewBox="0 0 20 14" role="img" aria-hidden="true">' +
+    '<rect width="20" height="14" fill="#009c3b"/>' +
+    '<polygon points="10,1.4 18.6,7 10,12.6 1.4,7" fill="#ffdf00"/>' +
+    '<circle cx="10" cy="7" r="3.5" fill="#002776"/>' +
+    '<path d="M6.7 6.4 Q10 8.5 13.3 6.4" fill="none" stroke="#fff" stroke-width="0.8"/>' +
+    "</svg>",
+  Portuguese:
+    '<svg viewBox="0 0 21 14" role="img" aria-hidden="true">' +
+    '<rect width="21" height="14" fill="#da291c"/>' +
+    '<rect width="8.4" height="14" fill="#046a38"/>' +
+    '<circle cx="8.4" cy="7" r="2.8" fill="none" stroke="#ffdf00" stroke-width="0.9"/>' +
+    '<rect x="7.3" y="4.6" width="2.2" height="4.8" rx="0.5" fill="#fff" stroke="#da291c" stroke-width="0.5"/>' +
+    "</svg>",
+};
+
+function nationalityFlag(nationality) {
+  const svg = nationality && FLAG_SVGS[nationality];
+  if (!svg) return null;
+  const span = document.createElement("span");
+  span.className = "person-flag";
+  span.title = nationality;
+  span.setAttribute("role", "img");
+  span.setAttribute("aria-label", nationality);
+  span.innerHTML = svg; // trusted static constant, no interpolation
+  return span;
+}
+
 const MIN_ZOOM = 0.2;
 const MAX_ZOOM = 2.5;
 const FIT_MAX_ZOOM = 1.4;
@@ -148,6 +180,8 @@ function createPersonCard(person, relationship, options = {}) {
   const name = document.createElement("strong");
   name.className = "person-name";
   name.textContent = person.name;
+  const flag = nationalityFlag(person.nationality);
+  if (flag) name.append(" ", flag);
   const years = document.createElement("span");
   years.className = "person-years";
   years.textContent = lifespan(person);
@@ -155,7 +189,8 @@ function createPersonCard(person, relationship, options = {}) {
   place.className = "person-place";
   place.textContent = primaryPlace(person);
   main.append(name, years, place);
-  if (person.nationality) {
+  // Fall back to a text label only for a recorded nationality that has no flag.
+  if (person.nationality && !flag) {
     const nationality = document.createElement("span");
     nationality.className = "person-nationality";
     nationality.textContent = person.nationality;

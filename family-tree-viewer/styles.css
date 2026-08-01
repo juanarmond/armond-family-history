@@ -544,6 +544,17 @@ a:focus-visible {
   line-height: 1.2;
   color: var(--ink);
 }
+.person-flag {
+  display: inline-block;
+  vertical-align: -0.08em;
+  line-height: 0;
+}
+.person-flag svg {
+  width: 1.15em;
+  height: auto;
+  border: 0.5px solid rgba(41, 36, 26, .25);
+  border-radius: 1.5px;
+}
 
 .person-years, .person-place, .person-nationality {
   grid-column: 2;
