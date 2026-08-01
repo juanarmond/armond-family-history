@@ -1224,7 +1224,7 @@ async function initialise() {
     // Restore a shared/bookmarked view from the URL hash.
     const hash = readHash();
     if (hash.root && state.data.people[hash.root]) state.rootId = hash.root;
-    if (hash.gen && /^[2-8]$/.test(hash.gen)) state.generations = Number(hash.gen);
+    if (hash.gen && /^([2-9]|1[0-2])$/.test(hash.gen)) state.generations = Number(hash.gen);
     if (hash.hyp === "0") state.showHypotheses = false;
 
     populatePersonSelect();
