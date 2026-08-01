@@ -432,3 +432,26 @@ test("living people get no biography", () => {
   const data = projectTreeData(input);
   assert.equal(data.people["P-1"].biography, null);
 });
+
+test("lineage traces the direct line from the subject (P-0001) to each person", () => {
+  const input = {
+    people: {
+      "P-0001": { id: "P-0001", preferred_name: "Juan", privacy: "living", sex: "male", name_variants: [], event_ids: [], family_ids: ["F-1"], notes: [] },
+      "P-2": { id: "P-2", preferred_name: "Luis", privacy: "deceased", sex: "male", name_variants: [], event_ids: [], family_ids: ["F-1", "F-2"], notes: [] },
+      "P-3": { id: "P-3", preferred_name: "Cidalia", privacy: "deceased", sex: "female", name_variants: [], event_ids: [], family_ids: ["F-2"], notes: [] },
+    },
+    families: {
+      "F-1": { id: "F-1", partners: [{ person_id: "P-2", role: "parent" }], children: [{ person_id: "P-0001", parent_relationships: [{ parent_id: "P-2", status: "confirmed", source_ids: ["S-1"] }] }] },
+      "F-2": { id: "F-2", partners: [{ person_id: "P-3", role: "parent" }], children: [{ person_id: "P-2", parent_relationships: [{ parent_id: "P-3", status: "confirmed", source_ids: ["S-1"] }] }] },
+    },
+    events: {}, places: {}, sources: { "S-1": { title: "x", linked_people: ["P-2"] } }, fan: {},
+  };
+  const data = projectTreeData(input);
+  const cidalia = data.people["P-3"].lineage;
+  assert.deepEqual(cidalia.ids, ["P-0001", "P-2", "P-3"]); // Juan → Luis → Cidalia
+  assert.equal(cidalia.relationship.kind, "ancestor");
+  assert.equal(cidalia.relationship.degree, 2);
+  assert.equal(cidalia.relationship.side, "paternal"); // via Juan's father Luis
+  // The subject has no lineage to itself; living people are not given one.
+  assert.equal(data.people["P-0001"].lineage, null);
+});

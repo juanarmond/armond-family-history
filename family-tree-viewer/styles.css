@@ -728,6 +728,40 @@ a:focus-visible {
   line-height: 1.65;
   color: var(--ink);
 }
+.relationship { margin: 0; }
+.relationship-term {
+  margin: 0 0 .4rem;
+  font-family: var(--sans);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.relationship-chain {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .3rem .1rem;
+  font-family: var(--serif);
+  font-size: .9rem;
+  line-height: 1.5;
+}
+.relationship-chain strong { color: var(--ink); }
+.relationship-arrow { color: var(--faint); padding: 0 .15rem; }
+.relationship-link {
+  border: 0;
+  background: none;
+  padding: 0;
+  font: inherit;
+  color: var(--green);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: var(--rule-strong);
+  text-underline-offset: 2px;
+}
+.relationship-link:hover { color: var(--green-deep); text-decoration-color: var(--gold); }
 .detail-section h3 {
   margin-bottom: .8rem;
   color: var(--gold);

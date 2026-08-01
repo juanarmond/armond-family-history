@@ -434,6 +434,71 @@ export function projectTreeData({ people, families, events, places, sources, fan
   const isBrazil = (place) => typeof place === "string" && /brazil|brasil/i.test(place);
   const isCertainKind = (d) => d && (d.kind === "exact" || d.kind === "month" || d.kind === "year");
 
+  // Kinship shortest path from the repository subject (Ahnentafel 1) to each
+  // person, so a detail card can show "how this person connects to me". Because
+  // the tree is the subject's ancestry, these paths are almost always a clean
+  // upward parent chain.
+  const SUBJECT_ID = "P-0001";
+  const adjacency = {};
+  const addEdge = (a, b, kind) => {
+    (adjacency[a] ||= []).push({ id: b, kind });
+  };
+  for (const [childId, parentRels] of Object.entries(parentsByChild)) {
+    for (const rel of parentRels) {
+      addEdge(childId, rel.parentId, "parent"); // child → parent
+      addEdge(rel.parentId, childId, "child"); // parent → child
+    }
+  }
+  for (const [pid, list] of Object.entries(spousesByPerson)) {
+    for (const s of list) addEdge(pid, s.spouseId, "spouse");
+  }
+  const pred = {};
+  const predEdge = {};
+  if (people[SUBJECT_ID]) {
+    const queue = [SUBJECT_ID];
+    const seen = new Set([SUBJECT_ID]);
+    while (queue.length) {
+      const cur = queue.shift();
+      for (const nb of adjacency[cur] || []) {
+        if (seen.has(nb.id)) continue;
+        seen.add(nb.id);
+        pred[nb.id] = cur;
+        predEdge[nb.id] = nb.kind; // relation from pred[nb.id] → nb.id
+        queue.push(nb.id);
+      }
+    }
+  }
+  const father = new Set(
+    (parentsByChild[SUBJECT_ID] || [])
+      .filter((r) => people[r.parentId]?.sex === "male")
+      .map((r) => r.parentId),
+  );
+  const mother = new Set(
+    (parentsByChild[SUBJECT_ID] || [])
+      .filter((r) => people[r.parentId]?.sex === "female")
+      .map((r) => r.parentId),
+  );
+  const lineageOf = (targetId) => {
+    if (targetId === SUBJECT_ID || !(targetId in pred)) return null;
+    const rev = [];
+    let cur = targetId;
+    while (cur !== SUBJECT_ID) {
+      rev.push({ id: cur, edge: predEdge[cur] });
+      cur = pred[cur];
+    }
+    rev.reverse();
+    const ids = [SUBJECT_ID, ...rev.map((r) => r.id)];
+    const edges = rev.map((r) => r.edge); // edges[i]: ids[i] → ids[i+1]
+    let relationship;
+    if (edges.every((e) => e === "parent")) {
+      const side = father.has(ids[1]) ? "paternal" : mother.has(ids[1]) ? "maternal" : null;
+      relationship = { kind: "ancestor", degree: edges.length, side };
+    } else {
+      relationship = { kind: "related" };
+    }
+    return { ids, relationship };
+  };
+
   const buildBiography = (personId) => {
     const person = people[personId];
     const evs = personEvents[personId] || [];
@@ -529,6 +594,7 @@ export function projectTreeData({ people, families, events, places, sources, fan
       privacy,
       sex: person.sex || "unknown",
       biography: living ? null : buildBiography(personId),
+      lineage: living ? null : lineageOf(personId),
       nationality: typeof person.nationality === "string" && person.nationality.trim()
         ? person.nationality.trim()
         : null,

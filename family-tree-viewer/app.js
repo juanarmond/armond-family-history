@@ -551,6 +551,65 @@ function biographyParagraph(person) {
   return p;
 }
 
+// A concise kinship term for the subject → person path (ancestor paths only get
+// a named term; anything else is just "relative").
+function relationshipTerm(person) {
+  const rel = person.lineage?.relationship;
+  if (!rel) return null;
+  if (rel.kind !== "ancestor") return t("rel.related");
+  const pick = (m, f, n) => t(person.sex === "male" ? m : person.sex === "female" ? f : n);
+  let term;
+  if (rel.degree === 1) term = pick("rel.father", "rel.mother", "rel.parentNeutral");
+  else if (rel.degree === 2) term = pick("rel.grandfather", "rel.grandmother", "rel.grandparentNeutral");
+  else if (rel.degree === 3) term = pick("rel.greatGrandfather", "rel.greatGrandmother", "rel.greatGrandparentNeutral");
+  else term = `${t("rel.ancestorDeep")} ${t("rel.generations", { n: rel.degree })}`;
+  if (rel.side && rel.degree >= 2) {
+    term += ` · ${t(rel.side === "paternal" ? "rel.paternalLine" : "rel.maternalLine")}`;
+  }
+  return term;
+}
+
+// The "Relationship to <subject>" block: a term line plus a clickable breadcrumb
+// of the direct line from the subject to this person.
+function relationshipContent(person) {
+  const lineage = person.lineage;
+  if (!lineage) return null;
+  const wrap = document.createElement("div");
+  wrap.className = "relationship";
+  const term = relationshipTerm(person);
+  if (term) {
+    const label = document.createElement("p");
+    label.className = "relationship-term";
+    label.textContent = term;
+    wrap.append(label);
+  }
+  const chain = document.createElement("p");
+  chain.className = "relationship-chain";
+  lineage.ids.forEach((id, index) => {
+    if (index > 0) {
+      const arrow = document.createElement("span");
+      arrow.className = "relationship-arrow";
+      arrow.textContent = "→";
+      chain.append(arrow);
+    }
+    const name = state.data.people[id]?.name || id;
+    if (index === lineage.ids.length - 1) {
+      const current = document.createElement("strong");
+      current.textContent = name;
+      chain.append(current);
+    } else {
+      const link = document.createElement("button");
+      link.type = "button";
+      link.className = "relationship-link";
+      link.textContent = name;
+      link.addEventListener("click", () => openDetails(id));
+      chain.append(link);
+    }
+  });
+  wrap.append(chain);
+  return wrap;
+}
+
 function section(title, content) {
   const wrapper = document.createElement("section");
   wrapper.className = "detail-section";
@@ -915,6 +974,12 @@ function openDetails(personId) {
 
   const bio = biographyParagraph(person);
   if (bio) elements.detailsContent.append(section(t("detail.biography"), bio));
+
+  const relationship = relationshipContent(person);
+  if (relationship) {
+    const subjectName = (state.data.people["P-0001"]?.name || "").split(" ")[0] || "";
+    elements.detailsContent.append(section(t("detail.relationship", { name: subjectName }), relationship));
+  }
 
   const facts = document.createElement("dl");
   facts.className = "detail-grid";
