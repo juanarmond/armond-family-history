@@ -19,6 +19,10 @@ let i18n = createI18n("en");
 const t = (key, vars) => i18n.t(key, vars);
 const tn = (key, n, vars) => i18n.tn(key, n, vars);
 const vocab = (kind, value) => i18n.label(kind, value);
+// Place names are stored in English (repo convention); localise the one country
+// word that differs at display time. Idempotent (pt "Brasil" is left untouched).
+const localePlace = (name) =>
+  typeof name === "string" && state.locale === "pt-BR" ? name.replace(/\bBrazil\b/g, "Brasil") : name;
 
 const MIN_ZOOM = 0.2;
 const MAX_ZOOM = 2.5;
@@ -112,7 +116,7 @@ function primaryPlace(person) {
   const preferred = person.events.find((event) => event.type === "birth")
     || person.events.find((event) => event.type === "death")
     || person.events[0];
-  return preferred?.place?.name || t("place.unknown");
+  return localePlace(preferred?.place?.name) || t("place.unknown");
 }
 
 function relationshipVisible(relationship) {
@@ -191,7 +195,7 @@ function createMarriageBadge(marriage) {
   badge.className = "marriage-badge";
   const year = yearFromEvent({ date: marriage.date });
   badge.textContent = year ? `⚭ ${year}` : "⚭";
-  const detail = [marriage.place, vocab("status", marriage.status)].filter(Boolean);
+  const detail = [localePlace(marriage.place), vocab("status", marriage.status)].filter(Boolean);
   badge.title = `${t("marriage.label")}${detail.length ? ` — ${detail.join(" · ")}` : ""}`;
   return badge;
 }
@@ -440,7 +444,7 @@ function bioWhen(date) {
 }
 
 function bioWhere(place) {
-  return place ? " " + t("bio.inPlace", { place }) : "";
+  return place ? " " + t("bio.inPlace", { place: localePlace(place) }) : "";
 }
 
 function joinAnd(items) {
@@ -830,7 +834,7 @@ function fanList(refs) {
     id.textContent = ref.id;
     title.append(id, document.createTextNode(ref.title || ref.id));
 
-    const metaBits = [ref.role, ref.recordCategory, ref.place].filter(Boolean);
+    const metaBits = [ref.role, ref.recordCategory, localePlace(ref.place)].filter(Boolean);
     const meta = document.createElement("div");
     meta.className = "source-meta";
     meta.textContent = metaBits.join(" · ");
@@ -883,9 +887,9 @@ function openDetails(personId) {
     [t("fact.privacy"), vocab("privacy", person.privacy)],
     [t("fact.sources"), String(person.sourceCount)],
     [t("fact.contextRefs"), String((person.fanReferences || []).length)],
-    [t("fact.birthplace"), person.events.find((event) => event.type === "birth")?.place?.name || t("value.notEstablished")],
+    [t("fact.birthplace"), localePlace(person.events.find((event) => event.type === "birth")?.place?.name) || t("value.notEstablished")],
     [t("fact.nationality"), person.nationality || t("value.notEstablished")],
-    [t("fact.deathplace"), person.events.find((event) => event.type === "death")?.place?.name || t("value.notEstablished")],
+    [t("fact.deathplace"), localePlace(person.events.find((event) => event.type === "death")?.place?.name) || t("value.notEstablished")],
   ];
   for (const [term, value] of factRows) {
     const dt = document.createElement("dt");
@@ -897,7 +901,7 @@ function openDetails(personId) {
   elements.detailsContent.append(section(t("detail.overview"), facts));
 
   const eventItems = person.events.map((event) => {
-    const place = event.place?.name ? ` · ${event.place.name}` : "";
+    const place = event.place?.name ? ` · ${localePlace(event.place.name)}` : "";
     return `${vocab("event", event.type)} · ${dateLabel(event)}${place} · ${vocab("status", event.status)}`;
   });
   elements.detailsContent.append(section(t("detail.events"), list(eventItems, t("empty.events"))));
@@ -920,7 +924,7 @@ function openDetails(personId) {
       const bits = [];
       const year = spouse.marriage ? yearFromEvent({ date: spouse.marriage.date }) : null;
       if (year) bits.push(t("marriage.year", { year }));
-      if (spouse.marriage?.place) bits.push(spouse.marriage.place);
+      if (spouse.marriage?.place) bits.push(localePlace(spouse.marriage.place));
       if (spouse.marriage?.status) bits.push(vocab("status", spouse.marriage.status));
       return bits.length ? `${spouse.name} — ${bits.join(" · ")}` : spouse.name;
     });
