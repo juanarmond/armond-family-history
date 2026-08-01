@@ -1,0 +1,84 @@
+schema_version: 1
+id: PAR-0021
+title: >-
+  1816 Barbacena marriage of Carolina Francelina de Toledo (daughter of Capitão João
+  José Ferreira de Toledo and Ritta Angélica Rodrigues) to Vicente José da Cunha
+record_type: Parish marriage register entry (casamento, original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1816-10-22"
+event_place_text: >-
+  Capela de Nossa Senhora dos Remédios (filial da Matriz), Freguesia de Nossa Senhora
+  da Piedade da Borda do Campo (Barbacena), Minas Gerais, Brazil
+repository:
+  name: FamilySearch (Brazil, Minas Gerais, Catholic parish registers)
+  archive_or_registry: >-
+    Freguesia de Nossa Senhora da Piedade da Borda do Campo (Barbacena), MG — Capela
+    dos Remédios
+  collection: >-
+    Brazil, Minas Gerais, registros paroquiais (Barbacena); casamentos 1816
+  book: >-
+    Livro de casamentos, Barbacena (Piedade da Borda do Campo), 1816 — folio 102
+  catalogue_reference: >-
+    Barbacena (N.S. da Piedade da Borda do Campo) marriages, 22 October 1816, fl. 102.
+    Located in the retrieval agent's cover-to-cover read of the Barbacena Piedade
+    marriage books and delivered through the research/from-retrieval/ sync; read and
+    promoted 1 August 2026.
+  repository_path: evidence/parish/PAR-0021-carolina-francelina-toledo-marriage-1816-barbacena.jpg
+access_date: "2026-08-01"
+language: pt-BR
+transcription: >-
+  [Freguesia de N.S. da Piedade da Borda do Campo (Barbacena), MG; livro de
+  casamentos, 1816, fl. 102. Margem: "Vicente e Carolina Francelina".] "Aos vinte, e
+  dois de Outubro de 1816, na Capella de Nossa Senhora dos Remedios, filial desta
+  Matriz de Barbacena, com Provizão do M.R.D. [e do] Vigario da Vara desta Comarca, o
+  Reverendo Padre José Joaquim Ferreira [Armond, coadjuncte] da Vara, [assisti] ao
+  sacramento do Matrimonio dos Contrahentes Vicente José da Cunha, filho legitimo de
+  Marcelino Salustino[?] e Thereza Maria de Jesus, natural e baptizado na Freguezia
+  de Ouro Branco, e morador nesta Freguezia das [Lavras?] — D. Carolina Francelina de
+  Toledo, filha legitima do Capitão João José Ferreira de Toledo e D. Ritta Angelica
+  Roiz [Rodrigues], natural e baptizada nesta Freguezia de Barbacena, onde se tem
+  morado[ra]; e sendo testemunhas João Eleuterio [Ferreira?] e [Antonio] Vicente
+  Salustino, de que fiz este assento. [assina] O Vigario Marcelino Souza [de]
+  Oliveira."
+abstract: >-
+  The 22 October 1816 Barbacena marriage of Carolina Francelina de Toledo — legitimate
+  daughter of "Capitão João José Ferreira de Toledo" (P-0057) and D. Ritta Angélica
+  Rodrigues (P-0058) — to Vicente José da Cunha (of Ouro Branco). Carolina Francelina
+  is a sister of Ladisláo Egídio Ferreira de Toledo (P-0056); the record independently
+  confirms the apical couple, clearly gives the father as "João José" and adds his
+  militia title Capitão. Not to be confused with Carolina Ferreira de Toledo (b.1821,
+  PAR-0017), Ladisláo × Matilde's daughter (a niece).
+reliability:
+  assessment: >-
+    Direct primary parish evidence that Carolina Francelina de Toledo was a daughter
+    of Capitão João José Ferreira de Toledo and Ritta Angélica Rodrigues — a sibling
+    of Ladisláo (P-0056), corroborating the couple (F-0028) and establishing the
+    "João José" form and the Capitão title of the father.
+  informant: The officiating vigário, Barbacena (Borda do Campo), 1816.
+  limitations: >-
+    Tight binding and some fading; the groom's father's surname (Salustino) and a
+    couple of place words are uncertain reads. The father is clearly "Capitão João
+    José Ferreira de Toledo" here (cf. the ink-bled "Joaquim José" reads elsewhere).
+digital_file:
+  path: evidence/parish/PAR-0021-carolina-francelina-toledo-marriage-1816-barbacena.jpg
+  sha256: f0b843ad858eeaefc6fa837b2b20adda908792d04c0129c93eb0d62e8f348522
+linked_people:
+- P-0057
+- P-0058
+linked_families:
+- F-0028
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    The clearer of the two sisters' marriages (with PAR-0020): it plainly reads
+    "Capitão João José Ferreira de Toledo", settling the father's forename as João (not
+    the bled "Joaquim") and adding his Capitão title. Carolina Francelina recorded as a
+    documented child on F-0028.

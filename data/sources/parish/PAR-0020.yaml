@@ -1,0 +1,87 @@
+schema_version: 1
+id: PAR-0020
+title: >-
+  1812 Barbacena marriage of Anna Belizaria de Toledo (daughter of João José
+  Ferreira de Toledo and Ritta Angélica Rodrigues) to Antonio Dias
+record_type: Parish marriage register entry (casamento, original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: year
+  year: 1812
+  original_text: >-
+    "Aos vinte [e dois?] de Julho de mil oitocentos e doze annos" — 22 (day an
+    uncertain read) July 1812.
+event_place_text: >-
+  Capela de Nossa Senhora dos Remédios (filial da Matriz), Freguesia de Nossa Senhora
+  da Piedade da Borda do Campo (Barbacena), Minas Gerais, Brazil
+repository:
+  name: FamilySearch (Brazil, Minas Gerais, Catholic parish registers)
+  archive_or_registry: >-
+    Freguesia de Nossa Senhora da Piedade da Borda do Campo (Barbacena), MG — Capela
+    dos Remédios
+  collection: >-
+    Brazil, Minas Gerais, registros paroquiais (Barbacena); casamentos 1812
+  book: >-
+    Livro de casamentos, Barbacena (Piedade da Borda do Campo), 1812 (volume with
+    tight binding / encadernação apertada)
+  catalogue_reference: >-
+    Barbacena (N.S. da Piedade da Borda do Campo) marriages, July 1812. Located in the
+    retrieval agent's cover-to-cover read of the Barbacena Piedade marriage books and
+    delivered through the research/from-retrieval/ sync; read and promoted 1 August
+    2026.
+  repository_path: evidence/parish/PAR-0020-anna-belizaria-toledo-marriage-1812-barbacena.jpg
+access_date: "2026-08-01"
+language: pt-BR
+transcription: >-
+  [Freguesia de N.S. da Piedade da Borda do Campo (Barbacena), MG; livro de
+  casamentos, 1812; entrada inferior da página. Encadernação apertada / margem
+  aparada.] "Aos vinte [e dois?] de Julho de mil oitocentos e doze annos, depois de
+  feitas as denunciações na forma do Concilio e Constituição, [sem] se descobrir
+  impedimento algum, com Provizão do M.R.[everendo] Vigario da Vara da Comarca, na
+  Capela [Curada] dos Remedios filial desta Matriz da Borda [do Campo], [assistindo] o
+  Reverendo Vigario [José Joaquim Ferreira Armond?] ao [sacramento] do Matrimonio dos
+  Contrahentes Antonio Dias, filho legitimo de João Dias [da Silva?] e de Maria [...],
+  [baptizado] na Freguezia de Prados —— e Anna Belizaria de Toledo, filha legitima de
+  João José [Ferreira] de Toledo e de Ritta [Angelica Rodrigues], [baptizada] nesta
+  Freguezia; [testemunhas ...]; de que mandei fazer este assento. [assina] O Vigario
+  José Joaquim Ferreira Armond."
+abstract: >-
+  The 1812 Barbacena marriage of Anna Belizaria de Toledo — legitimate daughter of
+  João José Ferreira de Toledo (P-0057) and Ritta Angélica Rodrigues (P-0058) — to
+  Antonio Dias (of the Freguesia de Prados). Anna Belizaria is a sister of Ladisláo
+  Egídio Ferreira de Toledo (P-0056); the record independently confirms the apical
+  couple (whose distinctive wife, Ritta Angélica Rodrigues, anchors the match) and
+  gives the father's name as "João José" (see P-0057 on the João/Joaquim variant).
+  The officiating vigário is the Armond priest José Joaquim Ferreira Armond.
+reliability:
+  assessment: >-
+    Direct primary parish evidence that Anna Belizaria de Toledo was a daughter of
+    João José Ferreira de Toledo and Ritta Angélica Rodrigues — a sibling of Ladisláo
+    (P-0056) and independent corroboration of the couple (F-0028).
+  informant: The officiating vigário, Barbacena (Borda do Campo), 1812.
+  limitations: >-
+    Tight binding with margin loss and fading; the exact day, the groom's parents and
+    some words are uncertain reads. The father is written "João José" here (cf. the
+    ink-bled "Joaquim José" reads of PAR-0018/0019).
+digital_file:
+  path: evidence/parish/PAR-0020-anna-belizaria-toledo-marriage-1812-barbacena.jpg
+  sha256: 77a22f402dbeeeb22324ce086ff6a5e68aea09120913bc74e86fcccd732f0799
+linked_people:
+- P-0057
+- P-0058
+linked_families:
+- F-0028
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    One of two sisters' marriages (with PAR-0021, Carolina Francelina 1816) found in
+    the agent's cover-to-cover read of the Barbacena Piedade books; both name the
+    apical couple and both give the father as "João José", supporting that form over
+    the bled "Joaquim José" reads. Anna Belizaria recorded as a documented child on
+    F-0028.

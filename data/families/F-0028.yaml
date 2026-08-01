@@ -43,12 +43,30 @@ children:
     - PAR-0017
     notes: []
   notes: []
+documented_children:
+- name: Anna Belizaria de Toledo
+  source_ids:
+  - PAR-0020
+  note: >-
+    Sister of Ladisláo (P-0056); married Antonio Dias (of Prados) at Barbacena in 1812
+    (PAR-0020), which names her parents João José Ferreira de Toledo × Ritta Angélica
+    Rodrigues.
+- name: Carolina Francelina de Toledo
+  source_ids:
+  - PAR-0021
+  note: >-
+    Sister of Ladisláo (P-0056); married Vicente José da Cunha (of Ouro Branco) at
+    Barbacena on 22 October 1816 (PAR-0021), which names her parents "Capitão João José
+    Ferreira de Toledo" × Ritta Angélica Rodrigues. Distinct from her niece Carolina
+    Ferreira de Toledo (b.1821, Ladisláo × Matilde's daughter, PAR-0017).
 event_ids: []
 notes:
 - text: >-
     Parents of Ladisláo Egídio Ferreira de Toledo (P-0056), confirmed by his 1787
     baptism (PAR-0019) — extending Eliza's maternal Toledo line up to the Barbacena
-    Ferreira de Toledo family. Joaquim José's own parents were Gaspar Ferreira ×
-    Gertrudes Maria [de Toledo] (Vila Rica); Ritta's were João Rodrigues [do Valle] ×
-    Izabel Ribeira (Borda do Campo) — both couples named in PAR-0018 but not yet
-    modelled (leads).
+    Ferreira de Toledo family. The couple is further corroborated by two daughters'
+    marriages (PAR-0020 Anna Belizaria 1812; PAR-0021 Carolina Francelina 1816), both
+    naming João José Ferreira de Toledo × Ritta Angélica Rodrigues. João José's own
+    parents were Gaspar Ferreira × Gertrudes Maria [de Toledo] (Vila Rica); Ritta's
+    were João Rodrigues [do Valle] × Izabel Ribeira (Borda do Campo) — both couples
+    named in PAR-0018 but not yet modelled (leads).

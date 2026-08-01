@@ -35,12 +35,12 @@ This is the immediate execution queue, in order:
    grandparents Mathilde × Ladisláo Egydio Ferreira de Toledo (F-0027) — correcting
    the PRB-0004 hypothesis (Antonio Zeferino × Maria Perpétua = heir #3, the uncle)
    and the two-Ladisláo ambiguity. The line reaches **Barbacena**: the 1821 Carolina
-   baptism (PAR-0017) fixes Ladisláo × Matilde there, and his parents **Joaquim José
-   Ferreira de Toledo × Ritta Angélica Rodrigues** (F-0028) are now CONFIRMED by his
-   own 1787 baptism (PAR-0019 — the ink-bled scan recovered by image processing).
-   Their parents (Gaspar × Gertrudes, Vila Rica; João Rodrigues do Valle × Izabel
-   Ribeira) are PAR-0018 leads, not modelled. **Owner decision pending:** whether to
-   ingest the titled Ferreira Armond branch (Barão de Pitangui / Amaro), collateral.
+   baptism (PAR-0017) fixes Ladisláo × Matilde there, and his parents **Capitão João
+   José Ferreira de Toledo × Ritta Angélica Rodrigues** (F-0028) are now CONFIRMED by
+   his 1787 baptism (PAR-0019) and two daughters' marriages (PAR-0020/0021). Matilde's
+   OWN parents stay the one open item (bounded negative — not in the Barbacena Piedade
+   books 1793-1822; she married in her home parish, still to be pinned). **Owner
+   decision pending:** whether to ingest the titled Ferreira Armond branch (collateral).
 2. Catalogue each retrieved image: privacy-review, reserve a source, transcribe,
    and promote the directly-attested events.
 3. Locate Liliosa's own death, birth or marriage record; retest the Volta

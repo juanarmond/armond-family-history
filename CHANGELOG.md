@@ -54,7 +54,8 @@ also remain traceable through source records and research logs.
   (`P-0057`) × **Ritta Angélica Rodrigues** (`P-0058`, family `F-0028`) from their
   legible c.1786 marriage (`PAR-0018`). The Ladisláo→Joaquim José edge is
   **strong-evidence, not confirmed** — the connecting 9 Sep 1787 baptism is ink-bled
-  and only partly legible (flagged for a clean re-scan). Joaquim José's and Ritta's
+  and only partly legible (flagged for a clean re-scan; since confirmed and the father
+  re-read as João José — see below). Joaquim José's and Ritta's
   own parents (Gaspar Ferreira × Gertrudes Maria de Toledo of Vila Rica; João
   Rodrigues do Valle × Izabel Ribeira) are named in `PAR-0018` but kept as leads, not
   modelled. The direct line now reaches generation 8.
@@ -65,6 +66,15 @@ also remain traceable through source records and research logs.
   parents ("[Joaquim] José Ferreira de Toledo e de Dona Ritta Angelica Rodriguez") and
   the date read clearly on the recovery. Both the original and recovered scans are held
   (DOC-0052); `F-0028` and `P-0056` upgraded to confirmed.
+- Corroborate the Toledo apical couple with two of Ladisláo's sisters' marriages —
+  Anna Belizaria de Toledo (1812, `PAR-0020`) and Carolina Francelina de Toledo (1816,
+  `PAR-0021`, "Capitão João José Ferreira de Toledo") — added as documented children on
+  `F-0028`. Both clearer records give the father as **João José**, so `P-0057` is
+  renamed from the ink-bled "Joaquim José" to **João José Ferreira de Toledo** (Capitão),
+  the old form preserved as a source variant. Record the **bounded negative** for the
+  Ladisláo × Matilde marriage (absent from the Barbacena Piedade books 1793-1822, read
+  cover-to-cover): Matilde Maria de Jesus's (`P-0027`) own parents are now the single
+  open item on that couple — she married in her home parish, still to be pinned.
 - Catalogue the Santa Luzia de Carangola parish (religious) marriage cluster from the
   retrieval sync (3 sources). Deocleciano's 1916 parish marriage (`PAR-0012`) is the
   religious counterpart of the civil record (sourcing the same event `E-0001`); it

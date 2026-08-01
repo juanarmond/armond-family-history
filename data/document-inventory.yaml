@@ -2083,3 +2083,75 @@ documents:
         Toledo x Ritta Angélica Rodrigues), upgrading the F-0028 edge to confirmed. The
         -alt file is the image-processed recovery from which the filiation was read
         (the base scan is ink-bled). All named persons long deceased.
+  - inventory_id: DOC-0053
+    status: catalogued
+    added_date: "2026-08-01"
+    apparent_record_type: Parish marriage register entry (casamento, original)
+    apparent_people:
+      - Anna Belizaria de Toledo
+      - Antonio Dias
+      - João José Ferreira de Toledo
+      - Ritta Angélica Rodrigues
+    apparent_event: marriage
+    image_quality: partly-illegible
+    provenance: >-
+      Livro de casamentos, Freguesia de N.S. da Piedade da Borda do Campo (Barbacena),
+      MG, July 1812 (tight binding). FamilySearch retrieval (agent cover-to-cover read
+      of the Barbacena Piedade marriage books); research/from-retrieval/ sync; read 1
+      August 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0020-anna-belizaria-toledo-marriage-1812-barbacena.jpg
+        sha256: 77a22f402dbeeeb22324ce086ff6a5e68aea09120913bc74e86fcccd732f0799
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2152
+          pixel_height: 2768
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0020
+    notes:
+      - >-
+        Anna Belizaria de Toledo (Ladisláo's sister) = daughter of João José Ferreira
+        de Toledo x Ritta Angélica Rodrigues; corroborates F-0028 and the "João José"
+        form. Documented child on F-0028. All named persons long deceased.
+  - inventory_id: DOC-0054
+    status: catalogued
+    added_date: "2026-08-01"
+    apparent_record_type: Parish marriage register entry (casamento, original)
+    apparent_people:
+      - Carolina Francelina de Toledo
+      - Vicente José da Cunha
+      - João José Ferreira de Toledo
+      - Ritta Angélica Rodrigues
+    apparent_event: marriage
+    image_quality: partly-illegible
+    provenance: >-
+      Livro de casamentos, Freguesia de N.S. da Piedade da Borda do Campo (Barbacena),
+      MG, fl. 102, 22 October 1816 (tight binding). FamilySearch retrieval (agent
+      cover-to-cover read); research/from-retrieval/ sync; read 1 August 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0021-carolina-francelina-toledo-marriage-1816-barbacena.jpg
+        sha256: f0b843ad858eeaefc6fa837b2b20adda908792d04c0129c93eb0d62e8f348522
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2200
+          pixel_height: 2736
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0021
+    notes:
+      - >-
+        Carolina Francelina de Toledo (Ladisláo's sister) = daughter of "Capitão João
+        José Ferreira de Toledo" x Ritta Angélica Rodrigues; the clearer of the two
+        sisters' marriages, settling the "João José" forename and the Capitão title.
+        Documented child on F-0028. All named persons long deceased.

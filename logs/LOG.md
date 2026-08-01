@@ -5,6 +5,22 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-08-01 — Toledo apical: sisters' marriages, a name fix, and Matilde's-parents negative
+
+- Question: process the agent's Target-B result — a bounded negative for the Ladisláo ×
+  Matilde marriage, plus two of Ladisláo's sisters' marriages that turned up.
+- Key results: (1) **Bounded negative recorded** — the Ladisláo × Matilde marriage is
+  NOT in the Barbacena Piedade books (agent read them cover-to-cover, 1793-1822), so
+  they married in Matilde's home parish; **Matilde Maria de Jesus's parents are now the
+  single open item** on that apical couple (recorded on P-0027 with the next step).
+  (2) Catalogued the two sisters' marriages — Anna Belizaria (1812, PAR-0020) and
+  Carolina Francelina (1816, PAR-0021) — both naming the apical couple; added as
+  documented children on F-0028. (3) **Name correction:** both clearer records read
+  "João José" (PAR-0021: "Capitão João José Ferreira de Toledo"), so P-0057 renamed
+  from the ink-bled "Joaquim José" to **João José Ferreira de Toledo** (Capitão), the
+  old form kept as a variant.
+- New entities: PAR-0020, PAR-0021 (DOC-0053/0054).
+
 ## 2026-08-01 — Ladisláo's 1787 baptism recovered; Toledo edge confirmed
 
 - Question: the retrieval agent recovered the ink-bled 1787 Barbacena baptism (Target

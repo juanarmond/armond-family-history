@@ -535,7 +535,8 @@
 2 SOUR @PAR0017@
 1 SEX F
 1 FAMS @F0027@
-1 NOTE Barbacena locus (1 August 2026): her daughter Carolina's 1821 baptism (PAR-0017, Capela dos Remédios, Piedade da Borda do Campo) places her and her husband Ladisláo at Barbacena in 1821 — the family's origin before the move to the Leopoldina / Fazenda da Concórdia region. Her own parents remain unknown (the Ladisláo × Matilde marriage is not located).
+1 NOTE Barbacena locus (1 August 2026): her daughter Carolina's 1821 baptism (PAR-0017, Capela dos Remédios, Piedade da Borda do Campo) places her and her husband Ladisláo at Barbacena in 1821 — the family's origin before the move to the Leopoldina / Fazenda da Concórdia region.
+1 NOTE Her parents remain THE single open item on this apical couple. Bounded negative (retrieval agent, cover-to-cover read of the Barbacena Piedade dos Rios/Borda do Campo marriage books 1793-1822): the Ladisláo × Matilde marriage is NOT there, so they married in Matilde's own home parish (by custom the bride's), which is where her parents would be named — not yet identified. Next step: pin her origin parish (via her own baptism, the couple's children's baptisms, or the opening of the Ladisláo/Matilde estate) and read that parish's ~1808-21 marriages. The apical couple above her (Ladisláo's parents João José Ferreira de Toledo × Ritta Angélica Rodrigues) is confirmed, but that is Ladisláo's side, not Matilde's.
 1 NOTE Grandmother (avó) of the Toledo grandchildren who inherited the Fazenda da Concórdia estate, per the 1877 deed (PRB-0003: "sua finada avó Dona Mathildes Maria de Jesus"), the 1881 partilha (PRB-0001, the "Primeiros Nettos" heir list) and the 1884 petition (PRB-0002, in which Simplício petitions as heir of the late D. Mathilde Maria de Jezus). Eliza Balbina de Toledo (P-0017) is one of those grandchildren, so Mathilde is Eliza's grandmother — resolving the mother-vs-grandmother question flagged on PRB-0001. She had died by the 1881 inventory (d. ~1880).
 1 NOTE Intervening generation NAMED (1 August 2026) by her own 1879 Leopoldina estate inventory (PRB-0006): Eliza's parent is Mathilde's son José Cezário de Toledo Lima (P-0054, heir #4, ⚭ D. Claudina), so Mathilde is now linked to Eliza (P-0017) through the structured edge F-0027 (Mathilde ⚭ Ladisláo Egydio Ferreira de Toledo, P-0056) → F-0026 (José Cezário ⚭ Claudina). This supersedes the earlier prose-only grandmother link and resolves her deliberate orphan status. Her husband (Eliza's great-grandfather) is Ladisláo Egydio Ferreira de Toledo (P-0056).
 1 NOTE 30 July 2026 (Full-Text via research/from-retrieval/, ARK 3:1:3QHJ-1QWB-7BYX, catalogued as PRB-0004): a second Concórdia / Ribeirão de São Bento Toledo deed names Mathilde's husband, Ladisláo Egydio Ferreira de Toledo, and a parent couple below them, Antonio Zeferino de Toledo and Dona Maria Perpétua ("seus finados avós Dona Mathilde Maria de Jesus e Ladisláo Egydio Ferreira de Toledo e seus paes e sogros Antonio Zeferino de Toledo e Dona Maria Perpétua"). Antonio Zeferino is thus a son of Mathilde × Ladisláo. RESOLVED (1 August 2026) by the full inventory (PRB-0006): Antonio Zeferino de Toledo × Maria Perpétua are heir #3 (Eliza's UNCLE and aunt), NOT Eliza's parents — corroborated on folio 8 ("de M.a Perpetua nº 3"). Antonio Zeferino is recorded as a documented sibling of José Cezário on F-0027. The two same-named "Ladisláo Egydio Ferreira de Toledo" are also resolved: the elder is Mathilde's husband (P-0056); the "solteiro de 23 annos" grantor grandchild is heir #4's son (Eliza's brother, documented on F-0026).
@@ -905,16 +906,20 @@
 1 NOTE Barbacena roots (1 August 2026): baptised 9 September 1787 at the Capela de N.S. da Piedade, Borda do Campo (Barbacena), son of [Joaquim] José Ferreira de Toledo (P-0057) × Ritta Angélica Rodrigues (P-0058), family F-0028 — his own baptism (PAR-0019 → event E-0050). This is now CONFIRMED (upgraded from strong-evidence): the base scan was ink-bled and illegible, but the filiation was recovered by image processing (the …-alt scan) and the parents + 9-Sep-1787 date read clearly; the faded forename is corroborated by the index and the 1821 Carolina baptism (PAR-0017). His paternal grandparents (Gaspar Ferreira × Gertrudes Maria de Toledo, of Vila Rica) and maternal grandparents (João Rodrigues do Valle × Izabel Ribeira) are named in PAR-0018 as leads, not yet modelled.
 1 NOTE Death and estate (no conflict — resolved 1 August 2026 by reading the citation audiences): he died before 1877 (already "finado" in PRB-0004 and in Matilde's 1879 inventory PRB-0006). His OWN estate was then settled as a contested partition in the Leopoldina Juízo de Órfãos (Juiz Dr. Fernando Pinheiro de Souza Tavares), with citation audiences on 13 Nov 1880 and 6 Aug 1881 ("inventario de Ladisláo Egydio Ferreira de Toledo … os bens do dicto finado Ladisláo"; requerente D. Umbelina Ignez de Toledo). Those 1880/81 dates are process dates, not his death; the heirs summoned are Matilde's descendants (Francisco Leocadio, Cesário José, Marianna Claudina, Simplício ⚭ Eliza, the namesake grandson, etc.). The audience images are held in the retrieval drop; not catalogued as a source (corroborative only).
 0 @P0057@ INDI
-1 NAME Joaquim José Ferreira de /Toledo/
-2 GIVN Joaquim José Ferreira de
+1 NAME João José Ferreira de /Toledo/
+2 GIVN João José Ferreira de
 2 SURN Toledo
-1 NAME Joaquim Jose Ferreira de /Toledo/
+1 NAME Joaquim José Ferreira de /Toledo/
 2 TYPE AKA
 2 SOUR @PAR0018@
+2 SOUR @PAR0019@
 1 SEX M
+1 OCCU Capitão
+2 SOUR @PAR0021@
 1 FAMS @F0028@
-1 NOTE Taken to be the father of Ladisláo Egídio Ferreira de Toledo (P-0056), hence Eliza Balbina de Toledo's (P-0017) great-great-grandfather. Named in his own c.1786 Barbacena marriage (PAR-0018) as "Joaquim Jose Ferreira de Toledo, filho legitimo de Gaspar Ferreira e de Gertrudes Maria [de Toledo], de Villa Rica", married to Ritta Angélica Rodrigues (P-0058, family F-0028). His link down to Ladisláo is strong-evidence, not direct (see F-0028).
-1 NOTE His parents Gaspar Ferreira and Gertrudes Maria [de Toledo] are named in PAR-0018 (Gaspar of Vila Rica / Ouro Preto — the apparent origin of the family's "Ferreira" + "de Toledo" surname) but are not yet modelled as entities; recorded here as a lead. Nationality Brazilian (a Barbacena / Minas Gerais family); no explicit birthplace of his own is stated in the located records.
+1 NOTE Father of Ladisláo Egídio Ferreira de Toledo (P-0056), confirmed by Ladisláo's own 1787 baptism (PAR-0019); hence Eliza Balbina de Toledo's (P-0017) great-great-grandfather. Married Ritta Angélica Rodrigues (P-0058, family F-0028) at Barbacena c.1786 (PAR-0018). Two of his daughters' marriages independently name the couple: Anna Belizaria (1812, PAR-0020) and Carolina Francelina (1816, PAR-0021) — both documented children on F-0028.
+1 NOTE Forename reconciliation (João vs Joaquim): the two clearer, later records name him "João José" — plainly "Capitão João José Ferreira de Toledo" in PAR-0021 (1816) and "João José" in PAR-0020 (1812). The earlier "Joaquim José" reads come from ink-bled scans (PAR-0018 marriage, PAR-0019 baptism) and are most likely a misread of "João"; "João José Ferreira de Toledo" is adopted as the preferred form and "Joaquim José" preserved as a source variant.
+1 NOTE His parents Gaspar Ferreira and Gertrudes Maria [de Toledo] are named in PAR-0018 (Gaspar of Vila Rica / Ouro Preto — the apparent origin of the family's "Ferreira" + "de Toledo" surname) but are not yet modelled as entities; recorded as a lead. Nationality Brazilian (a Barbacena / Minas Gerais family); no explicit birthplace of his own is stated in the located records.
 0 @P0058@ INDI
 1 NAME Ritta Angélica /Rodrigues/
 2 GIVN Ritta Angélica
@@ -1180,6 +1185,24 @@
 1 NOTE Documented child, not individually modelled.
 2 SOUR @PRB0006@
 1 NOTE Son of Mathilde and the inventariante of her 1879 estate (married to Maria José de Jesus). A DISTINCT person from his brother José Cezário de Toledo Lima (P-0054, Eliza's father) — the near-identical names are a documented trap.
+0 @DOCF0028_1@ INDI
+1 NAME Anna Belizaria de /Toledo/
+2 GIVN Anna Belizaria de
+2 SURN Toledo
+1 SEX U
+1 FAMC @F0028@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PAR0020@
+1 NOTE Sister of Ladisláo (P-0056); married Antonio Dias (of Prados) at Barbacena in 1812 (PAR-0020), which names her parents João José Ferreira de Toledo × Ritta Angélica Rodrigues.
+0 @DOCF0028_2@ INDI
+1 NAME Carolina Francelina de /Toledo/
+2 GIVN Carolina Francelina de
+2 SURN Toledo
+1 SEX U
+1 FAMC @F0028@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PAR0021@
+1 NOTE Sister of Ladisláo (P-0056); married Vicente José da Cunha (of Ouro Branco) at Barbacena on 22 October 1816 (PAR-0021), which names her parents "Capitão João José Ferreira de Toledo" × Ritta Angélica Rodrigues. Distinct from her niece Carolina Ferreira de Toledo (b.1821, Ladisláo × Matilde's daughter, PAR-0017).
 0 @F0001@ FAM
 1 HUSB @P0012@
 1 WIFE @P0013@
@@ -1455,13 +1478,15 @@
 1 HUSB @P0057@
 1 WIFE @P0058@
 1 CHIL @P0056@
+1 CHIL @DOCF0028_1@
+1 CHIL @DOCF0028_2@
 1 MARR
 2 SOUR @PAR0018@
 3 QUAY 3
 1 SOUR @PAR0019@
 1 SOUR @PAR0018@
 1 SOUR @PAR0017@
-1 NOTE Parents of Ladisláo Egídio Ferreira de Toledo (P-0056), confirmed by his 1787 baptism (PAR-0019) — extending Eliza's maternal Toledo line up to the Barbacena Ferreira de Toledo family. Joaquim José's own parents were Gaspar Ferreira × Gertrudes Maria [de Toledo] (Vila Rica); Ritta's were João Rodrigues [do Valle] × Izabel Ribeira (Borda do Campo) — both couples named in PAR-0018 but not yet modelled (leads).
+1 NOTE Parents of Ladisláo Egídio Ferreira de Toledo (P-0056), confirmed by his 1787 baptism (PAR-0019) — extending Eliza's maternal Toledo line up to the Barbacena Ferreira de Toledo family. The couple is further corroborated by two daughters' marriages (PAR-0020 Anna Belizaria 1812; PAR-0021 Carolina Francelina 1816), both naming João José Ferreira de Toledo × Ritta Angélica Rodrigues. João José's own parents were Gaspar Ferreira × Gertrudes Maria [de Toledo] (Vila Rica); Ritta's were João Rodrigues [do Valle] × Izabel Ribeira (Borda do Campo) — both couples named in PAR-0018 but not yet modelled (leads).
 0 @REPO0001@ REPO
 1 NAME FamilySearch Memories
 0 @REPO0002@ REPO
@@ -1917,6 +1942,26 @@
 1 NOTE Archival reference: Barbacena (N.S. da Piedade da Borda do Campo) baptisms, 9 September 1787. The base scan (…-1787-barbacena.jpg) is largely illegible from ink bleed-through; the filiation was recovered by image processing (…-1787-barbacena-alt.jpg) by the retrieval agent and re-read here. Delivered through the research/from-retrieval/ sync; read and promoted 1 August 2026.
 1 NOTE Repository file: evidence/parish/PAR-0019-ladislao-toledo-baptism-1787-barbacena.jpg
 1 OBJE @OBJPAR0019@
+0 @PAR0020@ SOUR
+1 TITL 1812 Barbacena marriage of Anna Belizaria de Toledo (daughter of João José Ferreira de Toledo and Ritta Angélica Rodrigues) to Antonio Dias
+1 TEXT The 1812 Barbacena marriage of Anna Belizaria de Toledo — legitimate daughter of João José Ferreira de Toledo (P-0057) and Ritta Angélica Rodrigues (P-0058) — to Antonio Dias (of the Freguesia de Prados). Anna Belizaria is a sister of Ladisláo Egídio Ferreira de Toledo (P-0056); the record independently confirms the apical couple (whose distinctive wife, Ritta Angélica Rodrigues, anchors the match) and gives the father's name as "João José" (see P-0057 on the João/Joaquim variant). The officiating vigário is the Armond priest José Joaquim Ferreira Armond.
+1 REPO @REPO0013@
+2 CALN Brazil, Minas Gerais, registros paroquiais (Barbacena); casamentos 1812, livro Livro de casamentos, Barbacena (Piedade da Borda do Campo), 1812 (volume with tight binding / encadernação apertada)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Freguesia de N.S. da Piedade da Borda do Campo (Barbacena), MG; livro de casamentos, 1812; entrada inferior da página. Encadernação apertada / margem aparada.] "Aos vinte [e dois?] de Julho de mil oitocentos e doze annos, depois de feitas as denunciações na forma do Concilio e Constituição, [sem] se descobrir impedimento algum, com Provizão do M.R.[everendo] Vigario da Vara da Comarca, na Capela [Curada] dos Remedios filial desta Matriz da Borda [do Campo], [assistindo] o Reverendo Vigario [José Joaquim Ferreira Armond?] ao [sacramento] do Matrimonio dos Contrahentes Antonio Dias, filho legitimo de João Dias [da Silva?] e de Maria [...], [baptizado] na Freguezia de Prados —— e Anna Belizaria de Toledo, filha legitima de João José [Ferreira] de Toledo e de Ritta [Angelica Rodrigues], [baptizada] nesta Freguezia; [testemunhas ...]; de que mandei fazer este assento. [assina] O Vigario José Joaquim Ferreira Armond."
+1 NOTE Archival reference: Barbacena (N.S. da Piedade da Borda do Campo) marriages, July 1812. Located in the retrieval agent's cover-to-cover read of the Barbacena Piedade marriage books and delivered through the research/from-retrieval/ sync; read and promoted 1 August 2026.
+1 NOTE Repository file: evidence/parish/PAR-0020-anna-belizaria-toledo-marriage-1812-barbacena.jpg
+1 OBJE @OBJPAR0020@
+0 @PAR0021@ SOUR
+1 TITL 1816 Barbacena marriage of Carolina Francelina de Toledo (daughter of Capitão João José Ferreira de Toledo and Ritta Angélica Rodrigues) to Vicente José da Cunha
+1 TEXT The 22 October 1816 Barbacena marriage of Carolina Francelina de Toledo — legitimate daughter of "Capitão João José Ferreira de Toledo" (P-0057) and D. Ritta Angélica Rodrigues (P-0058) — to Vicente José da Cunha (of Ouro Branco). Carolina Francelina is a sister of Ladisláo Egídio Ferreira de Toledo (P-0056); the record independently confirms the apical couple, clearly gives the father as "João José" and adds his militia title Capitão. Not to be confused with Carolina Ferreira de Toledo (b.1821, PAR-0017), Ladisláo × Matilde's daughter (a niece).
+1 REPO @REPO0013@
+2 CALN Brazil, Minas Gerais, registros paroquiais (Barbacena); casamentos 1816, livro Livro de casamentos, Barbacena (Piedade da Borda do Campo), 1816 — folio 102
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Freguesia de N.S. da Piedade da Borda do Campo (Barbacena), MG; livro de casamentos, 1816, fl. 102. Margem: "Vicente e Carolina Francelina".] "Aos vinte, e dois de Outubro de 1816, na Capella de Nossa Senhora dos Remedios, filial desta Matriz de Barbacena, com Provizão do M.R.D. [e do] Vigario da Vara desta Comarca, o Reverendo Padre José Joaquim Ferreira [Armond, coadjuncte] da Vara, [assisti] ao sacramento do Matrimonio dos Contrahentes Vicente José da Cunha, filho legitimo de Marcelino Salustino[?] e Thereza Maria de Jesus, natural e baptizado na Freguezia de Ouro Branco, e morador nesta Freguezia das [Lavras?] — D. Carolina Francelina de Toledo, filha legitima do Capitão João José Ferreira de Toledo e D. Ritta Angelica Roiz [Rodrigues], natural e baptizada nesta Freguezia de Barbacena, onde se tem morado[ra]; e sendo testemunhas João Eleuterio [Ferreira?] e [Antonio] Vicente Salustino, de que fiz este assento. [assina] O Vigario Marcelino Souza [de] Oliveira."
+1 NOTE Archival reference: Barbacena (N.S. da Piedade da Borda do Campo) marriages, 22 October 1816, fl. 102. Located in the retrieval agent's cover-to-cover read of the Barbacena Piedade marriage books and delivered through the research/from-retrieval/ sync; read and promoted 1 August 2026.
+1 NOTE Repository file: evidence/parish/PAR-0021-carolina-francelina-toledo-marriage-1816-barbacena.jpg
+1 OBJE @OBJPAR0021@
 0 @PRB0001@ SOUR
 1 TITL 1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza Balbina de Toledo (wife of Simplício José Ferreira Armond)
 1 TEXT A page from an 1881 Leopoldina probate/partilha listing the heirs of an estate on Eliza Balbina de Toledo's side. It names Eliza Balbina de Toledo as the wife of Simplício José Ferreira Armond and lists her Toledo siblings with ages: Maria Bulandina de Toledo (m. Manoel Marques Jorge), Ladisláo Egydio Ferreira de Toledo (~23, b. ~1858), Geraldo Augusto de Toledo Lima (~15, b. ~1866, then living in Rio de Janeiro), and Josepha Olympia da Paixão (~12, b. ~1869), plus a predeceased Carolina Leopoldina Marques inheriting by representation. The companion 1884 petition (PRB-0002) names the decedent as D. Mathilde Maria de Jezus.
@@ -2191,6 +2236,16 @@
 2 FORM image/jpeg
 2 TITL 1787 Barbacena baptism of Ladisláo, son of Joaquim José Ferreira de Toledo and Ritta Angélica Rodrigues — confirming Ladisláo Egídio Ferreira de Toledo's parents
 1 NOTE sha256: 8f93cbf20b61b56f914c4c3741455dc6f3fe99763d3f7fdef36db72d8a45f93d
+0 @OBJPAR0020@ OBJE
+1 FILE evidence/parish/PAR-0020-anna-belizaria-toledo-marriage-1812-barbacena.jpg
+2 FORM image/jpeg
+2 TITL 1812 Barbacena marriage of Anna Belizaria de Toledo (daughter of João José Ferreira de Toledo and Ritta Angélica Rodrigues) to Antonio Dias
+1 NOTE sha256: 77a22f402dbeeeb22324ce086ff6a5e68aea09120913bc74e86fcccd732f0799
+0 @OBJPAR0021@ OBJE
+1 FILE evidence/parish/PAR-0021-carolina-francelina-toledo-marriage-1816-barbacena.jpg
+2 FORM image/jpeg
+2 TITL 1816 Barbacena marriage of Carolina Francelina de Toledo (daughter of Capitão João José Ferreira de Toledo and Ritta Angélica Rodrigues) to Vicente José da Cunha
+1 NOTE sha256: f0b843ad858eeaefc6fa837b2b20adda908792d04c0129c93eb0d62e8f348522
 0 @OBJPRB0001@ OBJE
 1 FILE evidence/probate/PRB-0001-probate-toledo-heir-list-leopoldina-1881-original.jpg
 2 FORM image/jpeg
