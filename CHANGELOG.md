@@ -287,6 +287,18 @@ also remain traceable through source records and research logs.
 
 ### Fixed
 
+- Repair and de-drift the GitHub Pages deploy (`.github/workflows/static.yml`). The
+  inline build had gone stale against the viewer and would deploy a site that fails
+  to load: it did not copy `i18n.js` (an `app.js` import), did not build the `fan`
+  dataset (the loader hard-errors on the missing index key), wrote sources flat while
+  the loader fetches them by category subfolder, and dropped the person `nationality`
+  / `sex` / `occupations` fields (breaking flags and biographies). Replaced it with a
+  dynamic, testable `scripts/build_pages_site.py` that copies the whole viewer
+  directory, publishes deceased people verbatim (living reduced to a private stub),
+  builds every entity kind, and writes sources into their category subfolders — so it
+  stays in step with the viewer automatically. Sources and FAN references remain
+  privacy-reduced (no transcriptions, repositories or scans published). `_site` is
+  gitignored.
 - Restore the P-0021/P-0022 → E-0007 back-links: both parents (Francisco José de
   Carvalho Guimarães and Emmerenciana Maria de Jesus) participate in their child
   P-0011's 1904 birth (E-0007) but had omitted it from their `event_ids`. This
