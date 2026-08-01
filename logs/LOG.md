@@ -5,6 +5,24 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-08-01 — Toledo line extended to Barbacena (Ladisláo's origins)
+
+- Question: value-gate the re-synced drop's new Toledo-apical batch (165→187 images)
+  and promote what the scans actually support.
+- Detailed log:
+  [`logs/2026-08-01-toledo-barbacena-apical.md`](2026-08-01-toledo-barbacena-apical.md).
+- Key result: the 1821 Carolina baptism (PAR-0017) fixes **Ladisláo Egídio Ferreira
+  de Toledo (P-0056) × Matilde (P-0027)** at Barbacena; his parents are taken to be
+  **Joaquim José Ferreira de Toledo (P-0057) × Ritta Angélica Rodrigues (P-0058)**,
+  family F-0028, from their legible c.1786 marriage (PAR-0018). The connecting edge
+  is **strong-evidence, not confirmed** — the 9 Sep 1787 baptism that would prove it
+  is ink-bled/illegible; a clean scan is the next step. Grandparents Gaspar Ferreira
+  × Gertrudes + João Rodrigues do Valle × Izabel Ribeira named in PAR-0018 (leads).
+  The direct line now reaches generation 8.
+- New entities: PAR-0017, PAR-0018, P-0057, P-0058, F-0028 (DOC-0050/0051).
+- Held as leads: the 1839 Bonfim population map; Ladisláo's 1880/81 inventário
+  citations (⚠️ date vs Matilde's 1879 widow status); Armond newspaper items.
+
 ## 2026-08-01 — Muniz Azorean parents (Povoação) and Francisco José Bohrer's 1888 will
 
 - Question: value-gate the re-synced retrieval drop and promote its two new primary

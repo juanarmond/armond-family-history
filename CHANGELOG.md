@@ -47,6 +47,17 @@ also remain traceable through source records and research logs.
   siblings are recorded as documented children on `F-0026`; `P-0017`, `P-0027` and
   `PRB-0004` updated. Watch the near-identical inventariante Cezário José de Toledo
   (heir #7) vs heir #4 José Cezário de Toledo Lima — kept distinct.
+- Extend the maternal Toledo line to **Barbacena** from a re-synced retrieval batch.
+  The 1821 baptism of Carolina (`PAR-0017`) places **Ladisláo Egídio Ferreira de
+  Toledo** (`P-0056`) × **Matilde** (`P-0027`) at Barbacena and corroborates the
+  `F-0027` union; his parents are modelled as **Joaquim José Ferreira de Toledo**
+  (`P-0057`) × **Ritta Angélica Rodrigues** (`P-0058`, family `F-0028`) from their
+  legible c.1786 marriage (`PAR-0018`). The Ladisláo→Joaquim José edge is
+  **strong-evidence, not confirmed** — the connecting 9 Sep 1787 baptism is ink-bled
+  and only partly legible (flagged for a clean re-scan). Joaquim José's and Ritta's
+  own parents (Gaspar Ferreira × Gertrudes Maria de Toledo of Vila Rica; João
+  Rodrigues do Valle × Izabel Ribeira) are named in `PAR-0018` but kept as leads, not
+  modelled. The direct line now reaches generation 8.
 - Catalogue the Santa Luzia de Carangola parish (religious) marriage cluster from the
   retrieval sync (3 sources). Deocleciano's 1916 parish marriage (`PAR-0012`) is the
   religious counterpart of the civil record (sourcing the same event `E-0001`); it

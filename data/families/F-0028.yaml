@@ -1,0 +1,53 @@
+schema_version: 1
+id: F-0028
+partners:
+- person_id: P-0057
+  role: spouse
+- person_id: P-0058
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PAR-0018
+  notes:
+  - text: >-
+      Joaquim José Ferreira de Toledo and Ritta Angélica Rodrigues married c.1786 at
+      Barbacena (Piedade da Borda do Campo), per their own marriage register
+      (PAR-0018), which also names both of their parent couples.
+children:
+- person_id: P-0056
+  parent_relationships:
+  - parent_id: P-0057
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0018
+    - PAR-0017
+    notes:
+    - text: >-
+        INDIRECT identification. Neither legible record names Ladisláo as this
+        couple's son: PAR-0018 is Joaquim José × Ritta's own marriage (before
+        Ladisláo's birth), and PAR-0017 places Ladisláo Egídio Ferreira × Matilde in
+        Barbacena in 1821. The tie rests on the convergence — the same distinctive
+        "Ferreira de Toledo" surname, the same Barbacena parish, Ladisláo's birth
+        c.1787, and the retrieval agent's read of a (badly ink-bled, largely
+        illegible) 9 September 1787 Barbacena baptism naming Ladisláo as their son,
+        with a Rio Pomba land index placing his brother Francisco Januário Ferreira
+        de Toledo as another child. Hence strong-evidence, not confirmed; a legible
+        1787 baptism scan would clinch it.
+  - parent_id: P-0058
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0018
+    - PAR-0017
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Parents of Ladisláo Egídio Ferreira de Toledo (P-0056) on strong (indirect)
+    evidence — extending Eliza's maternal Toledo line up to the Barbacena Ferreira de
+    Toledo family. Joaquim José's own parents were Gaspar Ferreira × Gertrudes Maria
+    [de Toledo] (Vila Rica); Ritta's were João Rodrigues [do Valle] × Izabel Ribeira
+    (Borda do Campo) — both couples named in PAR-0018 but not yet modelled (leads).

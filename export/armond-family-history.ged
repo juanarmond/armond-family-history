@@ -531,8 +531,10 @@
 1 NAME Mathildes Maria de /Jesus/
 2 TYPE AKA
 2 SOUR @PRB0003@
+2 SOUR @PAR0017@
 1 SEX F
 1 FAMS @F0027@
+1 NOTE Barbacena locus (1 August 2026): her daughter Carolina's 1821 baptism (PAR-0017, Capela dos Remédios, Piedade da Borda do Campo) places her and her husband Ladisláo at Barbacena in 1821 — the family's origin before the move to the Leopoldina / Fazenda da Concórdia region. Her own parents remain unknown (the Ladisláo × Matilde marriage is not located).
 1 NOTE Grandmother (avó) of the Toledo grandchildren who inherited the Fazenda da Concórdia estate, per the 1877 deed (PRB-0003: "sua finada avó Dona Mathildes Maria de Jesus"), the 1881 partilha (PRB-0001, the "Primeiros Nettos" heir list) and the 1884 petition (PRB-0002, in which Simplício petitions as heir of the late D. Mathilde Maria de Jezus). Eliza Balbina de Toledo (P-0017) is one of those grandchildren, so Mathilde is Eliza's grandmother — resolving the mother-vs-grandmother question flagged on PRB-0001. She had died by the 1881 inventory (d. ~1880).
 1 NOTE Intervening generation NAMED (1 August 2026) by her own 1879 Leopoldina estate inventory (PRB-0006): Eliza's parent is Mathilde's son José Cezário de Toledo Lima (P-0054, heir #4, ⚭ D. Claudina), so Mathilde is now linked to Eliza (P-0017) through the structured edge F-0027 (Mathilde ⚭ Ladisláo Egydio Ferreira de Toledo, P-0056) → F-0026 (José Cezário ⚭ Claudina). This supersedes the earlier prose-only grandmother link and resolves her deliberate orphan status. Her husband (Eliza's great-grandfather) is Ladisláo Egydio Ferreira de Toledo (P-0056).
 1 NOTE 30 July 2026 (Full-Text via research/from-retrieval/, ARK 3:1:3QHJ-1QWB-7BYX, catalogued as PRB-0004): a second Concórdia / Ribeirão de São Bento Toledo deed names Mathilde's husband, Ladisláo Egydio Ferreira de Toledo, and a parent couple below them, Antonio Zeferino de Toledo and Dona Maria Perpétua ("seus finados avós Dona Mathilde Maria de Jesus e Ladisláo Egydio Ferreira de Toledo e seus paes e sogros Antonio Zeferino de Toledo e Dona Maria Perpétua"). Antonio Zeferino is thus a son of Mathilde × Ladisláo. RESOLVED (1 August 2026) by the full inventory (PRB-0006): Antonio Zeferino de Toledo × Maria Perpétua are heir #3 (Eliza's UNCLE and aunt), NOT Eliza's parents — corroborated on folio 8 ("de M.a Perpetua nº 3"). Antonio Zeferino is recorded as a documented sibling of José Cezário on F-0027. The two same-named "Ladisláo Egydio Ferreira de Toledo" are also resolved: the elder is Mathilde's husband (P-0056); the "solteiro de 23 annos" grantor grandchild is heir #4's son (Eliza's brother, documented on F-0026).
@@ -883,10 +885,37 @@
 1 NAME Ladisláo Egydio Ferreira de /Toledo/
 2 GIVN Ladisláo Egydio Ferreira de
 2 SURN Toledo
+1 NAME Ladislau Egídio /Ferreira/
+2 TYPE AKA
+2 SOUR @PAR0017@
 1 SEX M
 1 FAMS @F0027@
+1 FAMC @F0028@
 1 NOTE Husband of Mathilde Maria de Jesus (P-0027) and father of José Cezário de Toledo Lima (P-0054); hence Eliza Balbina de Toledo's (P-0017) great-grandfather and the apical Toledo ancestor so far reached. Named as Mathilde's late husband — "seus finados avós Dona Mathilde Maria de Jesus e Ladisláo Egydio Ferreira de Toledo" — in the 1877 Concórdia/São Bento deed (PRB-0004). Family F-0027; both he and Mathilde were already deceased by the 1879 inventory (PRB-0006).
-1 NOTE Distinct from the namesake grandson "Ladisláo Egydio Ferreira de Toledo, solteiro, de 23 annos" listed as heir #4's son (Eliza's brother) on folio 9 of PRB-0006. This entry is the ELDER Ladisláo (Mathilde's husband); the two same-name people caused an earlier flagged conflict, now resolved by the inventory. Nationality Brazilian, consistent with this Minas Gerais Toledo family; no explicit birthplace is stated.
+1 NOTE Distinct from the namesake grandson "Ladisláo Egydio Ferreira de Toledo, solteiro, de 23 annos" listed as heir #4's son (Eliza's brother) on folio 9 of PRB-0006. This entry is the ELDER Ladisláo (Mathilde's husband); the two same-name people caused an earlier flagged conflict, now resolved by the inventory. Nationality Brazilian, consistent with this Minas Gerais Toledo family.
+1 NOTE Barbacena roots (1 August 2026): his 1821 daughter Carolina's baptism (PAR-0017) places him and Matilde at Barbacena (Piedade da Borda do Campo), and he is taken to be the "Ladisláo" born there c.1787 to Joaquim José Ferreira de Toledo (P-0057) × Ritta Angélica Rodrigues (P-0058), family F-0028 — a strong but INDIRECT link (the connecting 9 Sep 1787 baptism is badly ink-bled and only partly legible; the identification rests on the surname, the Barbacena locus, his ~1787 birth and a sibling-index for his brother Francisco Januário). A legible 1787 baptism scan would confirm it. His paternal grandparents (Gaspar Ferreira × Gertrudes Maria de Toledo, of Vila Rica) are named in PAR-0018 as a further lead, not yet modelled.
+0 @P0057@ INDI
+1 NAME Joaquim José Ferreira de /Toledo/
+2 GIVN Joaquim José Ferreira de
+2 SURN Toledo
+1 NAME Joaquim Jose Ferreira de /Toledo/
+2 TYPE AKA
+2 SOUR @PAR0018@
+1 SEX M
+1 FAMS @F0028@
+1 NOTE Taken to be the father of Ladisláo Egídio Ferreira de Toledo (P-0056), hence Eliza Balbina de Toledo's (P-0017) great-great-grandfather. Named in his own c.1786 Barbacena marriage (PAR-0018) as "Joaquim Jose Ferreira de Toledo, filho legitimo de Gaspar Ferreira e de Gertrudes Maria [de Toledo], de Villa Rica", married to Ritta Angélica Rodrigues (P-0058, family F-0028). His link down to Ladisláo is strong-evidence, not direct (see F-0028).
+1 NOTE His parents Gaspar Ferreira and Gertrudes Maria [de Toledo] are named in PAR-0018 (Gaspar of Vila Rica / Ouro Preto — the apparent origin of the family's "Ferreira" + "de Toledo" surname) but are not yet modelled as entities; recorded here as a lead. Nationality Brazilian (a Barbacena / Minas Gerais family); no explicit birthplace of his own is stated in the located records.
+0 @P0058@ INDI
+1 NAME Ritta Angélica /Rodrigues/
+2 GIVN Ritta Angélica
+2 SURN Rodrigues
+1 NAME Ritta Angelica /Rodrigues/
+2 TYPE AKA
+2 SOUR @PAR0018@
+1 SEX F
+1 FAMS @F0028@
+1 NOTE Taken to be the mother of Ladisláo Egídio Ferreira de Toledo (P-0056); wife of Joaquim José Ferreira de Toledo (P-0057), family F-0028. Named in her c.1786 Barbacena marriage (PAR-0018) as "Ritta Angelica Rodrigues, filha legitima de João Rodrigues [do Valle] e de Izabel Ribeira, natural da Freguesia da Borda do Campo". Her link down to Ladisláo is strong-evidence, not direct (see F-0028).
+1 NOTE Her parents João Rodrigues [do Valle] and Izabel Ribeira (of the Borda do Campo) are named in PAR-0018 but are not yet modelled as entities; recorded here as a lead. Nationality Brazilian (natural of the Borda do Campo / Barbacena, MG).
 0 @DOCF0001_1@ INDI
 1 NAME Aristides Muniz /Bittencourt/
 2 GIVN Aristides Muniz
@@ -1114,6 +1143,15 @@
 2 SOUR @PRB0006@
 1 NOTE Sister of Eliza (representante
 0 @DOCF0027_1@ INDI
+1 NAME Carolina Ferreira de /Toledo/
+2 GIVN Carolina Ferreira de
+2 SURN Toledo
+1 SEX U
+1 FAMC @F0027@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PAR0017@
+1 NOTE Daughter of Ladisláo × Matilde, baptised 21 October 1821 at the Capela dos Remédios, Barbacena (PAR-0017) — an aunt of Eliza. Possibly the "Carolina Leopoldina Marques" (⚭ Narciso Marques Braz) who is heir #5 in the 1879 inventory (PRB-0006), but that identity is not established, so recorded separately here.
+0 @DOCF0027_2@ INDI
 1 NAME Antonio Zeferino de /Toledo/
 2 GIVN Antonio Zeferino de
 2 SURN Toledo
@@ -1123,7 +1161,7 @@
 2 SOUR @PRB0004@
 2 SOUR @PRB0006@
 1 NOTE Son of Mathilde × Ladisláo and heir #3 of the estate ("de M.a Perpetua nº 3", folio 8 of PRB-0006), married to Maria Perpétua (PRB-0004). He is Eliza's UNCLE — the couple wrongly hypothesised as Eliza's parents in PRB-0004 and now corrected by the inventory.
-0 @DOCF0027_2@ INDI
+0 @DOCF0027_3@ INDI
 1 NAME Cezário José de /Toledo/
 2 GIVN Cezário José de
 2 SURN Toledo
@@ -1393,13 +1431,26 @@
 1 CHIL @P0054@
 1 CHIL @DOCF0027_1@
 1 CHIL @DOCF0027_2@
+1 CHIL @DOCF0027_3@
 1 MARR
 2 SOUR @PRB0004@
+3 QUAY 3
+2 SOUR @PAR0017@
 3 QUAY 3
 1 SOUR @PRB0006@
 1 SOUR @PRB0004@
 1 NOTE Parents of José Cezário de Toledo Lima (P-0054) and grandparents of Eliza Balbina de Toledo (P-0017). Mathilde's grandmother role (long recorded in prose from the 1877/1881/1884 Concórdia deeds, PRB-0001/0002/0003/0004) is now a structured edge via her son José Cezário. This resolves Mathilde's (P-0027) previous deliberate orphan status.
 1 NOTE Per the 1879 inventory Mathilde had eight children (heirs). Only José Cezário (heir #4, the direct line) is modelled; heirs #3 Antonio Zeferino and #7 Cezário José are documented above. The remaining heirs — including Francisco Leocadio de Toledo (⚭ Maria Joaquina de Jesus) and Carolina Leopoldina Marques (⚭ Narciso Marques Braz) — are named across the deed cluster and the inventory but are recorded here only as a lead, not modelled or documented individually.
+0 @F0028@ FAM
+1 HUSB @P0057@
+1 WIFE @P0058@
+1 CHIL @P0056@
+1 MARR
+2 SOUR @PAR0018@
+3 QUAY 3
+1 SOUR @PAR0018@
+1 SOUR @PAR0017@
+1 NOTE Parents of Ladisláo Egídio Ferreira de Toledo (P-0056) on strong (indirect) evidence — extending Eliza's maternal Toledo line up to the Barbacena Ferreira de Toledo family. Joaquim José's own parents were Gaspar Ferreira × Gertrudes Maria [de Toledo] (Vila Rica); Ritta's were João Rodrigues [do Valle] × Izabel Ribeira (Borda do Campo) — both couples named in PAR-0018 but not yet modelled (leads).
 0 @REPO0001@ REPO
 1 NAME FamilySearch Memories
 0 @REPO0002@ REPO
@@ -1425,14 +1476,16 @@
 0 @REPO0012@ REPO
 1 NAME FamilySearch (Brazil, Rio de Janeiro, Catholic parish registers)
 0 @REPO0013@ REPO
-1 NAME FamilySearch full-text image
+1 NAME FamilySearch (Brazil, Minas Gerais, Catholic parish registers)
 0 @REPO0014@ REPO
-1 NAME FamilySearch Full-Text (Minas Gerais court and notarial records)
+1 NAME FamilySearch full-text image
 0 @REPO0015@ REPO
-1 NAME FamilySearch (Brazil, Rio de Janeiro, court and notarial/probate records)
+1 NAME FamilySearch Full-Text (Minas Gerais court and notarial records)
 0 @REPO0016@ REPO
-1 NAME Juízo de Órfãos e Provedoria da Comarca de Leopoldina, Minas Gerais (estate inventory of Mathilde Maria de Jesus)
+1 NAME FamilySearch (Brazil, Rio de Janeiro, court and notarial/probate records)
 0 @REPO0017@ REPO
+1 NAME Juízo de Órfãos e Provedoria da Comarca de Leopoldina, Minas Gerais (estate inventory of Mathilde Maria de Jesus)
+0 @REPO0018@ REPO
 1 NAME Armond Family History private repository
 0 @CIV0001@ SOUR
 1 TITL Certified marriage record of Deocleciano Muniz Bittencourt and Luiza Fernandes de Azevedo
@@ -1823,10 +1876,30 @@
 1 NOTE Archival reference: FamilySearch DGS 004620557 (cc=1719212), image 197. Located by browsing the unindexed Itaboraí baptism register and delivered through the research/from-retrieval/ sync; read and promoted 1 August 2026.
 1 NOTE Repository file: evidence/parish/PAR-0016-rosa-eugenia-de-lemos-baptism-1835-itaborai.jpg
 1 OBJE @OBJPAR0016@
+0 @PAR0017@ SOUR
+1 TITL 1821 Barbacena baptism of Carolina, daughter of Ladisláo Egídio Ferreira and Matildes Maria [de Jesus] — placing the couple in Barbacena
+1 TEXT The 1821 Barbacena baptism of Carolina, legitimate daughter of Ladisláo Egídio Ferreira (P-0056) and Matildes Maria [de Jesus] (P-0027). It places the couple — Eliza Balbina de Toledo's grandparents — in Barbacena (Piedade da Borda do Campo) in 1821 with a daughter, directly attesting their union and their Barbacena origin. The officiating priests are themselves Ferreira Armonde (the Barbacena Armond clergy), an incidental link between the two Barbacena-rooted lines.
+1 REPO @REPO0013@
+2 CALN Brazil, Minas Gerais, registros paroquiais (Barbacena); batismos ~1820-1821, livro Livro de batismos, Barbacena (Piedade da Borda do Campo), 1821 — folio 20/23, baptism of 21 October 1821 (volume with ink bleed-through)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Freguesia de N.S. da Piedade da Borda do Campo (Barbacena), MG; livro de batismos, 1821. Margem: "Carolina / Remedios". Ink bleed-through (tinta permeada).] "No dia vinte e um de Outubro de mil oito centos e vinte e um, na Capella dos Remedios, o Padre Francisco Antonio Ferreira Armonde baptizou solemnemente e pôs os Santos Oleos a Carolina, parvula, filha legitima de Ladislau E[gydio] Ferreira e de Matildes Maria: Foraõ Padrinhos Francisco Ferreira [de Assis?] e Anna Umbellina Gomes [de Assis?], estes da Itaverava, e aquella da Suplicaçaõ; e para constar mandei fazer este assento que assignei. O V.[igario] Jozé Joaquim Ferr[eira] Armonde."
+1 NOTE Archival reference: Barbacena (N.S. da Piedade da Borda do Campo) baptisms, 21 October 1821. Located via the FamilySearch retrieval and delivered through the research/from-retrieval/ sync; read and promoted 1 August 2026.
+1 NOTE Repository file: evidence/parish/PAR-0017-carolina-toledo-baptism-1821-barbacena.jpg
+1 OBJE @OBJPAR0017@
+0 @PAR0018@ SOUR
+1 TITL Barbacena marriage of Joaquim José Ferreira de Toledo and Ritta Angélica Rodrigues (c.1786), naming both couples of their parents
+1 TEXT The c.1786 Barbacena marriage of Joaquim José Ferreira de Toledo (P-0057) and Ritta Angélica Rodrigues (P-0058). It names both couples of their parents: Joaquim José is son of Gaspar Ferreira and Gertrudes Maria [de Toledo] (of Vila Rica — the apparent origin of the "Ferreira"+"de Toledo" surname), and Ritta is daughter of João Rodrigues [do Valle] and Izabel Ribeira of the Freguesia da Borda do Campo. Joaquim José × Ritta are taken to be the parents of Ladisláo Egídio Ferreira de Toledo (P-0056) — Eliza's great-grandfather — on strong (not direct) evidence; see F-0028 for the identity reasoning.
+1 REPO @REPO0013@
+2 CALN Brazil, Minas Gerais, registros paroquiais (Barbacena); casamentos ~1786, livro Livro de casamentos, Barbacena (Piedade da Borda do Campo), folio 33 (volume with ink bleed-through / tight binding)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Matriz de N.S. da Piedade da Borda do Campo (Barbacena), MG; livro de casamentos, fl. 33. Ink bleed-through; several words uncertain.] "Aos quinze dias do mes de Janeiro de mil e sete centos e oitenta e [seis] annos, na Capela de N.S. da Gloria [filial] da Matriz da Freguezia dos Rios [Borda do Campo], … feitas as denunciações na forma do Sagrado Concilio Tridentino, sem se descobrir impedimento algum, com Provizão do M.R. José Baptista da S.[ilva] Vig.[ário] da vara desta Comarca, na presença do R.[everendo] P.[adre] Antonio Fer.[reira] da S.[ilva] …, os desposou por palavras de presente Joaquim Jose Ferreira de Toledo, f.[ilho] leg.[itimo] de Gaspar Fer[reira] e de Gertrudes M[aria] [de Toledo], de [Villa] Rica, … com Ritta Angelica Ro[drigue]z, f.[ilha] leg.[itima] de João Ro[drigue]z [do Valle] e de Izabel Ribeira, natural da Freg.[uesia] da Borda do Campo … [e] Ignacio [Pereira?]; testemunhas … fis este assento. [assinatura] Vig.[ário] Felisiano [Pinto?]."
+1 NOTE Archival reference: Barbacena (N.S. da Piedade da Borda do Campo) marriages, c.15 January 1786. Located via the FamilySearch retrieval and delivered through the research/from-retrieval/ sync; read and promoted 1 August 2026.
+1 NOTE Repository file: evidence/parish/PAR-0018-joaquim-jose-toledo-ritta-marriage-barbacena.jpg
+1 OBJE @OBJPAR0018@
 0 @PRB0001@ SOUR
 1 TITL 1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza Balbina de Toledo (wife of Simplício José Ferreira Armond)
 1 TEXT A page from an 1881 Leopoldina probate/partilha listing the heirs of an estate on Eliza Balbina de Toledo's side. It names Eliza Balbina de Toledo as the wife of Simplício José Ferreira Armond and lists her Toledo siblings with ages: Maria Bulandina de Toledo (m. Manoel Marques Jorge), Ladisláo Egydio Ferreira de Toledo (~23, b. ~1858), Geraldo Augusto de Toledo Lima (~15, b. ~1866, then living in Rio de Janeiro), and Josepha Olympia da Paixão (~12, b. ~1869), plus a predeceased Carolina Leopoldina Marques inheriting by representation. The companion 1884 petition (PRB-0002) names the decedent as D. Mathilde Maria de Jezus.
-1 REPO @REPO0013@
+1 REPO @REPO0014@
 2 CALN Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text), fl. 9
 1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
 1 NOTE Transcription: [Fólio "9" no canto superior direito.] [Cabeçalho centralizado, abreviatura de leitura incerta, provavelmente "N.tos" (Nettos).] [Cada verba é precedida de um pequeno "N." sobrescrito e traz, à margem direita, o número de ordem seguido de um sinal de conferência "×".] 4.º Maria Bulandina de Tolledo, cazada com Manoel Marques Jorge. 5.º Simplicio José Ferreira Armond, cazado com D. Eliza Balbina de Tolledo. 6.º Ladisláo Egydio Ferreira de Tolledo, solteiro, de 23 annos. 7.º Geraldo Augusto de Tolledo Lima, solteiro, de 15 annos, rezidente na côrte, empregado em uma caza de negocio zita á rua do Visconde de Inhaúma n.º 74. 8.º Josepha Olympia da Paixão, solteira, de 12 annos de idade. [Verba separada, abaixo do colchete que agrupa as anteriores, com um algarismo grande de leitura incerta à margem:] D. Carolina Leopoldina Marques, cazada com Narcizo Marques Braz, sendo a mesma já fallecida, sendo seos herdeiros [—] [última linha, ao pé da página, cortada:] 1.º D. Maria da [...] [o texto continua em folha não digitalizada].
@@ -1836,7 +1909,7 @@
 0 @PRB0002@ SOUR
 1 TITL 1884 Leopoldina petition of Simplício José Ferreira Armond as heir of the late D. Mathilde Maria de Jezus
 1 TEXT A petition (12 February 1884, Leopoldina), written and signed by Simplício José Ferreira Armond in his own hand, asking the orphans' judge to complete the long-delayed partition of the estate of the late D. Mathilde Maria de Jezus, who had died about four years earlier (~1880). He petitions as her heir — in right of his wife Eliza Balbina de Toledo (per PRB-0001) — placing Mathilde Maria de Jezus on Eliza's (maternal) line.
-1 REPO @REPO0013@
+1 REPO @REPO0014@
 2 CALN Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text), fl. 321
 1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
 1 NOTE Transcription: [Fólio "321" no canto superior direito.] Ill.mo Snr. Dr. Juiz de Orphãos. [Despacho, lançado no alto da folha, leitura difícil:] Nos autos, [venha-me concluso?]. Leopoldina 15 de [Fevereiro] de 1884. J. [Felicio?]. [Seguem-se algumas linhas riscadas / decalque de tinta da folha oposta, ilegíveis.] [Petição, autógrafa:] Diz Simplicio Jozé Ferreira Armond herdeiro da fina[da] D. Mathilde Maria de Jezus que, tendo ella falle[-]cido a cerca de 4 annos, até hoje [não se?] [terem?] partilhados os bens por aquella [dita?] finada [deixados?]; e como isso não convem não só ao inte[-]resse do Supp.e como dos de mais herdeiros, vem pe[-]rante V. S.ª [requerer?] hoje [de ordenar?] q[ue], junta esta aos autos, [suba?] á conclusão de V. S.ª para verificar o motivo da demora e ordenar q[ue] em [um] praso q[ue] se digne marcar se faça a partilha. O Supp.e em attenção sómente a[o] [seu?] interesse [nada?] [requereria?], mas tem parentes colateraes em esta[-]do de indigencia aos quaes pode m.to minorar o mal q[ue] soffrem, o recebimento de seus [haveres?]. Assim pois [bloco alinhado à direita, leitura difícil:] [P.?] e E. de [M.cê?] [enérgicas?] pro[-]videncias a fim de q[ue] se não continue [no?] prote[-]lação. E. R. M.cê [leitura incerta] [junto ao sêllo impresso "Imperio do Brazil — 200 — Réis — Sello":] Leop.ª 12 d[e] Fev.º d[e] 1884. Simplicio Joze Ferr.ª Armond [assinatura autógrafa].
@@ -1846,7 +1919,7 @@
 0 @PRB0003@ SOUR
 1 TITL 1877 Leopoldina notarial deed of sale by the Toledo grandchildren of their inherited Fazenda da Concórdia land, naming their grandmother Mathilde Maria de Jesus
 1 TEXT A notarial deed of sale registered at Santo Antônio [dos Aribas?], Termo de Leopoldina, MG, on 25 May 1877, in which a set of Toledo-family grandchildren — Maria Bulandina de Jesus (wife of Manoel Marques Jorge), Josepha Olímpia, Maria [Perpétua/Porcelina] de Toledo, Matildes Olímpia da Paixão, Geraldo Augusto de Toledo and Ladisláo Egydio Ferreira de Toledo — sell to Capitão Antonio Belizandro dos Reis Meirelles two shares of cultivated land in the Fazenda da Concórdia that they inherited from their deceased grandmother (avó) Dona Mathildes Maria de Jesus. Same grandchild set and estate matriarch as the 1881 partilha (PRB-0001, which lists Eliza Balbina de Toledo among the "Primeiros Nettos") and the 1884 petition (PRB-0002).
-1 REPO @REPO0014@
+1 REPO @REPO0015@
 2 CALN Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text), livro Livro 6, fls. 27-30 (traslado at fl. 159)
 1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
 1 NOTE Transcription: [Página 1 de 2 (imagem 1). No alto: "= 2 =", um "N.º", e o fólio "159" (repetido à direita). Nota de margem lateral, na vertical, de leitura parcial: "[...] Antonio Belizandro dos Reis Meirelles [...] 25 de Maio de 18[7]7"; demais anotações de arquivo à margem direita, ilegíveis.] Livro 6 Folhas 27, 28, 29 e 30. Primeiro tras[-]lado de escriptura de venda que fazem Mano[-]el Marques Jorge, sua mulher D. Maria Blandina de Jezus, Baldoino Rodrigues de Almeida Montes e sua mulher D. Josepha Olimpia Rodrigues d'Almeida, Dona Maria Porcelina de Toledo, D. Matildes Olimpia da Paixão, Geraldo Augusto de Toledo, Ladisláo Egydio Ferreira de Toledo ao Ca[-]pitão Antonio Belizandro dos Reis Mei[-]relles na forma abaixo = Saibão quan[-]tos este publico instrumento virem que no anno do Nascimento de Nosso Senhor Jezus Christo de mil oito centos e setenta e sete aos vinte e cinco dias do mez de Maio nesta Freguezia de Santo Antonio dos [Aribas?] Ter[-]mo da Leopoldina Provincia de Minas Geraes em o meu Cartorio compareceram partes justas e contractadas a saber: como outor[-]gantes vendedores Manoel Marques Jorge e sua mulher Dona Maria Blandina de Jezus, Baldoino Rodrigues d'Almeida Mon[-]tes e sua mulher Dona Josepha Olimpia Rodrigues d'Almeida, Dona Maria Por[-]celina de Toledo, Dona Matildes Olimpia da Paixão, Geraldo Augusto de Toledo e Ladisláo Egydio Ferreira de Toledo e como outorgado Comprador o Capitão Antonio Belizandro dos Reis Meirelles, aquelles moradores nesta Freguezia e este morador na Freguezia do Rio Pardo ambas deste [...] [Página 2 de 2 (imagem 2). Nota de margem lateral, na vertical: "Concordia".] [...] de Lima Coelho de Moura, [Cezario?] Chris[-]tino da Silva Lima e sua mulher Dona Adelaide da Fonseca Lima, re[-]prezentados por seu bastante Procu[-]rador Ladisláo Egydio Ferreira de Toledo, pelos poderes das Procurações que exhibio e abaixo vão transcriptas; e de outro lado como Outorgado compra[-]dor o Capitão Antonio Belizandro dos Reis Meirelles, os primeiros residentes em São João d'El Rei, os segundos resi[-]dentes no Rio de Janeiro, e o outor[-]gado residente no Districto do Rio Pardo d'este Termo, reconhecidos por mim Escrivão e pelas testemunhas abaixo assignadas, do que dou fé; perante as quaes pelos Outorgantes por seu Procurador, foi dito que são Senhores e possuidores de duas Sortes de ter[-]ras de cultura em commum na Fazenda da Concordia e que houve[-]rão por herança no inventario os bens de sua finada avó Dona Ma[-]thildes Maria de Jezus, pela ma[-]neira seguinte: Parte nos tres mil [...]
@@ -1855,7 +1928,7 @@
 0 @PRB0004@ SOUR
 1 TITL Undated Leopoldina notarial deed of sale of Toledo Concórdia / Ribeirão de São Bento land, naming the grandparents Mathilde Maria de Jesus and Ladisláo Egydio Ferreira de Toledo and the parents Antonio Zeferino de Toledo and Maria Perpétua
 1 TEXT A mid-deed continuation folio of a Toledo-family notarial sale of land in the Fazenda da Concórdia and adjoining Ribeirão de São Bento, Termo de Leopoldina, MG. The grantors declare they hold the land by inheritance from their deceased grandparents (avós) Dona Mathilde Maria de Jesus and Ladisláo Egydio Ferreira de Toledo and from their parents and parents-in-law (paes e sogros) Antonio Zeferino de Toledo and Dona Maria Perpétua, whose inventory and partition were adjudicated at the city of Leopoldina. It is part of the same Concórdia succession as PRB-0003 (1877 sale deed) and PRB-0001 (1881 partilha).
-1 REPO @REPO0014@
+1 REPO @REPO0015@
 2 CALN Brazil, Minas Gerais, court and notarial records (FamilySearch Full-Text)
 1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
 1 NOTE Transcription: [Folha de continuação (meio de escritura); uma marca "1" no alto. Início em meio de período.] [...] reconhecidos, aquelles residentes neste Districto e estes no Districto de Rio Pardo, reconhecidos tambem pelas testemunhas abaixo assignadas, de que dou fé; perante as quaes pelos outorgantes foi dito q[ue] são Senhores e possuidores de uma sorte de terras na Concordia e no Ribeirão de São Bento — unidas — em mattas virgens e capoeiras, tiradas nos quarenta e oito mil e quatrocentos [aros / ares] no primeiro lu[-]gar e nos vinte e nove mil e quarenta [aros / ares] tambem em matta virgem e capo[-]eiras no segundo, os quaes houverão por herança de seus finados avós Dona Ma[-]thilde Maria de Jezus e Ladisláo Egydio Fer[-]reira de Toledo e seus paes e sogros An[-]tonio Zeferino de Toledo e Dona Maria Per[-]petua, em commum na dita fazenda da Concordia, cujo inventario e partilhas forão julgados por sentença na Cidade Leopoldina, — com mais as benfeitorias e casaes existentes na dita sorte de terras que consta ao todo pela fór[-]ma seguinte: Nos tres mil trezentos e oitenta e oito [aros / ares] de terras em mattas [...]
@@ -1864,7 +1937,7 @@
 0 @PRB0005@ SOUR
 1 TITL Registered will (testamento) of Francisco José Bohrer (registered 1888, Provedoria de Nova Friburgo), declaring his parents Jacob Bahrer and Catharina Mayer, his wife and his four children
 1 TEXT Francisco José Bohrer's own registered will (Provedoria de Nova Friburgo, Livro de Testamentos nº 9, fl. 8v; registered 1888). He declares himself "natural deste termo" (born in the Nova Friburgo comarca) and "filho legitimo de Jacob Bahrer e de Catharina Mayer, já fallecidos" — primary evidence of his parents (P-0050, P-0051), the Bohrer line's immigrant boundary. He names his wife Rosa Eugenia de Lemos Bohrer (P-0035) and their four children Joaquim (P-0030), Laura, Guilherme and Fernando as sole heirs, and his brother-in-law Candido Pereira de Lemos as an executor. Resolves the previously open question of whether Francisco José was himself an immigrant: he was Brazilian-born (Nova Friburgo), and the immigrant generation is his parents.
-1 REPO @REPO0015@
+1 REPO @REPO0016@
 2 CALN Brazil, Rio de Janeiro, "Legal" records (TJERJ fund); FamilySearch DGS 105875530, livro Livro de Registro de Testamentos nº 9, fl. 8 verso
 1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
 1 NOTE Transcription: [Certidão do escrivão da Provedoria de Nova Friburgo. Duas imagens (…-p1.jpg, …-p2.jpg); no alto da p1 o fólio "3".] [p1] "O Capitão João José Kramith[?], Escrivão da Provedoria da Cidade de Nova-Friburgo. Certifico que revendo em meu cartorio o livro de Registro de testamentos numero nove, delle a folhas oito verso consta o Registro do theor seguinte: — Registro d'um testamento na forma abaixo. — Jesus, Maria, José. Em Nome da Santissima Trindade, Padre, Filho, Espirito Santo, em quem eu Francisco José Bohrer firmemente creio, em cuja fé protesto viver e morrer. Este é o meu testamento e ultima vontade. Declaro que sou natural deste termo, filho legitimo de Jacob Bahrer e de Catharina Mayer, já fallecidos. Declaro que sou casado á face da Igreja com Roza Eugenia de Lemos Bohrer, de cujo matrimonio tenho actualmente quatro filhos que são Joaquim, Laura, Guilherme e Fernando, todos de menor idade, os quaes são meus [p2] unicos e legitimos herdeiros. O meu enterro será feito á vontade de meu testamenteiro. Mando que por alma de meus paes se digão vinte missas. Deixo a quantia de cincoenta mil réis para obras ou conservação da Capella de Santo Antonio que se vae edificar no Suspiro nesta Villa, livre de imposto que será pago pelos meus bens. Nomeio para meus testamenteiros e tutores de meus filhos, na ordem em que se achão: em primeiro lugar a minha mulher Rosa Eugenia de Lemos Bohrer, em segundo lugar a meu cunhado Candido Pereira de Lemos, e em terceiro lugar ao meu amigo Samuel Antonio dos Santos. Esta é a minha ultima vontade e disposição para depois de minha morte, que pedi a João José Kramith que por mim escrevesse conforme lhe ditei, e no qual me assigno por estar conforme." [Segue o auto de approvação, Nova Friburgo, 188[8], parcialmente legível.]
@@ -1874,7 +1947,7 @@
 0 @PRB0006@ SOUR
 1 TITL 1879 Leopoldina estate inventory of Mathilde Maria de Jesus — título de herdeiros naming her son José Cezário de Toledo Lima (⚭ D. Claudina) and their daughter Eliza Balbina de Toledo
 1 TEXT Mathilde Maria de Jesus's 1879 Leopoldina estate inventory (título de herdeiros). Its heir #4 is her deceased son "José Cezário de Toledo Lima", married to the also deceased "D. Claudina", whose eight representantes (children) are listed — the fifth being "Simplicio José Ferreira Armond, cazado com D. Eliza Balbina de Tolledo". This is primary evidence that Eliza Balbina de Toledo (P-0017) was the daughter of José Cezário de Toledo Lima (P-0054) and Claudina (P-0055), and the granddaughter of Mathilde Maria de Jesus (P-0027) — extending the Toledo maternal line and resolving Mathilde's grandmother link into a structured edge. It also corrects the earlier hypothesis: Antonio Zeferino de Toledo × Maria Perpétua are heir #3 (Eliza's uncle/aunt), NOT her parents.
-1 REPO @REPO0016@
+1 REPO @REPO0017@
 2 CALN Inventário de Dona Mathilde Maria de Jesus, aberto abril 1879, Leopoldina, MG (correspondent reference doc 38402168), livro Título de herdeiros, folios ~6-10; heir #4 header at folio 8, the daughter Eliza named at folio 9; juramento do inventariante at folio 6
 1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
 1 NOTE Transcription: [Inventário de Dona Mathilde Maria de Jesus, Leopoldina (MG), 1879; título de herdeiros. Três imagens catalogadas: folio 6 (juramento do inventariante), folio 8 (cabeçalho do herdeiro nº 4) e folio 9 (a filha Eliza). O inventariante é Cezário José de Toledo, filho da finada — pessoa DISTINTA do herdeiro nº 4 "José Cezário de Toledo Lima".] [folio 8, ao pé, cabeçalho do herdeiro nº 4:] "4º José Cezario de Tolledo Lima, fallecido, cazado que foi com D. Claudina, tambem fallecida, dos quaes são seus reprezentantes:" — [folio 8v] "1º D. Maria Dulcelina de Toledo, solteira, de trinta e tantos annos; 2º D. Mathildes Olympia da Paixão, viuva do finado Manoel Antonio Caza[nna?]; 3º D. Josephina Christina da Silva Lima, fallecida, cazada que foi com Aureliano Christino da Silva Lima, que ainda vive e mora no Termo do Rio Novo, no lugar denominado Piau, sendo seus filhos 1º Cezario da Silva Lima, de 10 annos, 2º D. Joanna da Silva Lima, de 8 annos [...]; [folio 9] 4º Maria Bulandina de Toledo, cazada com Manoel Marques Jorge; 5º Simplicio José Ferreira Armond, cazado com D. Eliza Balbina de Tolledo; 6º Ladisláo Egydio Ferreira de Tolledo, solteiro, de 23 annos; 7º Geraldo Augusto de Tolledo Lima, solteiro, de 15 annos, residente na côrte, empregado em uma caza de negocio sita á rua do Visconde de Itaúna nº 74; 8º Josepha Olympia da Paixão, solteira, de 12 annos de idade." — [segue] "5º D. Carolina Leopoldina Marques, cazada com Narciso Marques Braz, sendo a mesma já fallecida, sendo seus herdeiros [...]".
@@ -1884,7 +1957,7 @@
 0 @REC0001@ SOUR
 1 TITL Direct-ancestor roster supplied by Juan Carlos Muniz Armond
 1 TEXT The repository owner identified himself, his parents, and the deceased direct ancestors used to initialise Ahnentafel positions 1 through 15. This source supports the private working roster and preferred-name spellings only; it does not substitute for civil or parish evidence of vital events or relationships.
-1 REPO @REPO0017@
+1 REPO @REPO0018@
 1 NOTE Evidence classification: family_recollection; authored_narrative; information mixed; direct evidence.
 1 NOTE Repository file: STATUS.md
 0 @OBJCIV0001@ OBJE
@@ -2082,6 +2155,16 @@
 2 FORM image/jpeg
 2 TITL Parish baptism register entry of "Roza" (Rosa Eugenia de Lemos), 1835, Matriz de São João Batista de Itaboraí, naming her parents Manoel de Lemos [Pereira] and Maria Thereza de Jesus
 1 NOTE sha256: 061ad63a7a6be52223d92f5d97ff0ee83f7771183992aa93c9334cf70dab1312
+0 @OBJPAR0017@ OBJE
+1 FILE evidence/parish/PAR-0017-carolina-toledo-baptism-1821-barbacena.jpg
+2 FORM image/jpeg
+2 TITL 1821 Barbacena baptism of Carolina, daughter of Ladisláo Egídio Ferreira and Matildes Maria [de Jesus] — placing the couple in Barbacena
+1 NOTE sha256: 44066aa952c88d18dede753a646f7eb2ec2b4d213e7bf70a4226799338eb9f38
+0 @OBJPAR0018@ OBJE
+1 FILE evidence/parish/PAR-0018-joaquim-jose-toledo-ritta-marriage-barbacena.jpg
+2 FORM image/jpeg
+2 TITL Barbacena marriage of Joaquim José Ferreira de Toledo and Ritta Angélica Rodrigues (c.1786), naming both couples of their parents
+1 NOTE sha256: 3e55613af4778bc54b1909329008488e57d9b6778e86d47afa6b300a106ae966
 0 @OBJPRB0001@ OBJE
 1 FILE evidence/probate/PRB-0001-probate-toledo-heir-list-leopoldina-1881-original.jpg
 2 FORM image/jpeg

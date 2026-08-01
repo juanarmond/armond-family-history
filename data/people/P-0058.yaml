@@ -1,0 +1,25 @@
+schema_version: 1
+id: P-0058
+preferred_name: Ritta Angélica Rodrigues
+privacy: deceased
+sex: female
+nationality: Brazilian
+name_variants:
+- value: Ritta Angelica Rodrigues
+  type: source
+  source_ids:
+  - PAR-0018
+event_ids: []
+family_ids:
+- F-0028
+notes:
+- text: >-
+    Taken to be the mother of Ladisláo Egídio Ferreira de Toledo (P-0056); wife of
+    Joaquim José Ferreira de Toledo (P-0057), family F-0028. Named in her c.1786
+    Barbacena marriage (PAR-0018) as "Ritta Angelica Rodrigues, filha legitima de
+    João Rodrigues [do Valle] e de Izabel Ribeira, natural da Freguesia da Borda do
+    Campo". Her link down to Ladisláo is strong-evidence, not direct (see F-0028).
+- text: >-
+    Her parents João Rodrigues [do Valle] and Izabel Ribeira (of the Borda do Campo)
+    are named in PAR-0018 but are not yet modelled as entities; recorded here as a
+    lead. Nationality Brazilian (natural of the Borda do Campo / Barbacena, MG).

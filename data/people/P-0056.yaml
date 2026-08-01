@@ -9,9 +9,14 @@ name_variants:
   type: source
   source_ids:
   - PRB-0004
+- value: Ladislau Egídio Ferreira
+  type: source
+  source_ids:
+  - PAR-0017
 event_ids: []
 family_ids:
 - F-0027
+- F-0028
 notes:
 - text: >-
     Husband of Mathilde Maria de Jesus (P-0027) and father of José Cezário de Toledo
@@ -25,5 +30,14 @@ notes:
     solteiro, de 23 annos" listed as heir #4's son (Eliza's brother) on folio 9 of
     PRB-0006. This entry is the ELDER Ladisláo (Mathilde's husband); the two same-name
     people caused an earlier flagged conflict, now resolved by the inventory.
-    Nationality Brazilian, consistent with this Minas Gerais Toledo family; no
-    explicit birthplace is stated.
+    Nationality Brazilian, consistent with this Minas Gerais Toledo family.
+- text: >-
+    Barbacena roots (1 August 2026): his 1821 daughter Carolina's baptism (PAR-0017)
+    places him and Matilde at Barbacena (Piedade da Borda do Campo), and he is taken
+    to be the "Ladisláo" born there c.1787 to Joaquim José Ferreira de Toledo (P-0057)
+    × Ritta Angélica Rodrigues (P-0058), family F-0028 — a strong but INDIRECT link
+    (the connecting 9 Sep 1787 baptism is badly ink-bled and only partly legible; the
+    identification rests on the surname, the Barbacena locus, his ~1787 birth and a
+    sibling-index for his brother Francisco Januário). A legible 1787 baptism scan
+    would confirm it. His paternal grandparents (Gaspar Ferreira × Gertrudes Maria de
+    Toledo, of Vila Rica) are named in PAR-0018 as a further lead, not yet modelled.

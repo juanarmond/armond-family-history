@@ -9,12 +9,15 @@ partner_relationship:
   status: confirmed
   source_ids:
   - PRB-0004
+  - PAR-0017
   notes:
   - text: >-
       Mathilde Maria de Jesus and Ladisláo Egydio Ferreira de Toledo are named as the
       married grandparent couple ("seus finados avós Dona Mathilde Maria de Jesus e
       Ladisláo Egydio Ferreira de Toledo") in the 1877 Concórdia/São Bento deed
-      (PRB-0004); Mathilde's own 1879 estate inventory is PRB-0006.
+      (PRB-0004); Mathilde's own 1879 estate inventory is PRB-0006. Their 1821 joint
+      daughter Carolina's baptism (PAR-0017) independently attests the union and
+      places the couple at Barbacena (Piedade da Borda do Campo) in 1821.
 children:
 - person_id: P-0054
   parent_relationships:
@@ -40,6 +43,14 @@ children:
         strong-evidence rather than confirmed.
   notes: []
 documented_children:
+- name: Carolina Ferreira de Toledo
+  source_ids:
+  - PAR-0017
+  note: >-
+    Daughter of Ladisláo × Matilde, baptised 21 October 1821 at the Capela dos
+    Remédios, Barbacena (PAR-0017) — an aunt of Eliza. Possibly the "Carolina
+    Leopoldina Marques" (⚭ Narciso Marques Braz) who is heir #5 in the 1879 inventory
+    (PRB-0006), but that identity is not established, so recorded separately here.
 - name: Antonio Zeferino de Toledo
   source_ids:
   - PRB-0004

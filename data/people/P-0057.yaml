@@ -1,0 +1,28 @@
+schema_version: 1
+id: P-0057
+preferred_name: Joaquim José Ferreira de Toledo
+privacy: deceased
+sex: male
+nationality: Brazilian
+name_variants:
+- value: Joaquim Jose Ferreira de Toledo
+  type: source
+  source_ids:
+  - PAR-0018
+event_ids: []
+family_ids:
+- F-0028
+notes:
+- text: >-
+    Taken to be the father of Ladisláo Egídio Ferreira de Toledo (P-0056), hence
+    Eliza Balbina de Toledo's (P-0017) great-great-grandfather. Named in his own
+    c.1786 Barbacena marriage (PAR-0018) as "Joaquim Jose Ferreira de Toledo, filho
+    legitimo de Gaspar Ferreira e de Gertrudes Maria [de Toledo], de Villa Rica",
+    married to Ritta Angélica Rodrigues (P-0058, family F-0028). His link down to
+    Ladisláo is strong-evidence, not direct (see F-0028).
+- text: >-
+    His parents Gaspar Ferreira and Gertrudes Maria [de Toledo] are named in PAR-0018
+    (Gaspar of Vila Rica / Ouro Preto — the apparent origin of the family's "Ferreira"
+    + "de Toledo" surname) but are not yet modelled as entities; recorded here as a
+    lead. Nationality Brazilian (a Barbacena / Minas Gerais family); no explicit
+    birthplace of his own is stated in the located records.

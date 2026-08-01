@@ -1,0 +1,80 @@
+schema_version: 1
+id: PAR-0017
+title: >-
+  1821 Barbacena baptism of Carolina, daughter of Ladisláo Egídio Ferreira and
+  Matildes Maria [de Jesus] — placing the couple in Barbacena
+record_type: Parish baptism register entry (batismo, original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1821-10-21"
+event_place_text: >-
+  Capela de Nossa Senhora dos Remédios, Freguesia de Nossa Senhora da Piedade da
+  Borda do Campo (Barbacena), Minas Gerais, Brazil
+repository:
+  name: FamilySearch (Brazil, Minas Gerais, Catholic parish registers)
+  archive_or_registry: >-
+    Freguesia de Nossa Senhora da Piedade da Borda do Campo (Barbacena), MG — Capela
+    dos Remédios
+  collection: >-
+    Brazil, Minas Gerais, registros paroquiais (Barbacena); batismos ~1820-1821
+  book: >-
+    Livro de batismos, Barbacena (Piedade da Borda do Campo), 1821 — folio 20/23,
+    baptism of 21 October 1821 (volume with ink bleed-through)
+  catalogue_reference: >-
+    Barbacena (N.S. da Piedade da Borda do Campo) baptisms, 21 October 1821. Located
+    via the FamilySearch retrieval and delivered through the research/from-retrieval/
+    sync; read and promoted 1 August 2026.
+  repository_path: evidence/parish/PAR-0017-carolina-toledo-baptism-1821-barbacena.jpg
+access_date: "2026-08-01"
+language: pt-BR
+transcription: >-
+  [Freguesia de N.S. da Piedade da Borda do Campo (Barbacena), MG; livro de batismos,
+  1821. Margem: "Carolina / Remedios". Ink bleed-through (tinta permeada).] "No dia
+  vinte e um de Outubro de mil oito centos e vinte e um, na Capella dos Remedios, o
+  Padre Francisco Antonio Ferreira Armonde baptizou solemnemente e pôs os Santos
+  Oleos a Carolina, parvula, filha legitima de Ladislau E[gydio] Ferreira e de
+  Matildes Maria: Foraõ Padrinhos Francisco Ferreira [de Assis?] e Anna Umbellina
+  Gomes [de Assis?], estes da Itaverava, e aquella da Suplicaçaõ; e para constar
+  mandei fazer este assento que assignei. O V.[igario] Jozé Joaquim Ferr[eira]
+  Armonde."
+abstract: >-
+  The 1821 Barbacena baptism of Carolina, legitimate daughter of Ladisláo Egídio
+  Ferreira (P-0056) and Matildes Maria [de Jesus] (P-0027). It places the couple —
+  Eliza Balbina de Toledo's grandparents — in Barbacena (Piedade da Borda do Campo)
+  in 1821 with a daughter, directly attesting their union and their Barbacena origin.
+  The officiating priests are themselves Ferreira Armonde (the Barbacena Armond
+  clergy), an incidental link between the two Barbacena-rooted lines.
+reliability:
+  assessment: >-
+    Direct primary parish evidence that Ladisláo Egídio Ferreira and Matildes Maria
+    were a couple in Barbacena in 1821 with a daughter Carolina — corroborating the
+    F-0027 union (previously strong-evidence from a later deed) and fixing the
+    couple's Barbacena locus.
+  informant: The baptising priest, Barbacena (Piedade da Borda do Campo), 1821.
+  limitations: >-
+    Ink bleed-through; the godparents' surnames and a few words are uncertain reads.
+    The father is written "Ladislau Egídio Ferreira" (without the later "de Toledo");
+    identification with Ladisláo Egídio Ferreira de Toledo (P-0056) rests on the
+    Barbacena locus, the exact given-name/surname and the couple match with Matildes
+    Maria [de Jesus].
+digital_file:
+  path: evidence/parish/PAR-0017-carolina-toledo-baptism-1821-barbacena.jpg
+  sha256: 44066aa952c88d18dede753a646f7eb2ec2b4d213e7bf70a4226799338eb9f38
+linked_people:
+- P-0056
+- P-0027
+linked_families:
+- F-0027
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Part of the Barbacena Toledo pull that traces Eliza's maternal line above
+    Leopoldina. Carolina (b.1821) is one of Ladisláo × Matilde's children (an aunt of
+    Eliza); recorded as a documented child on F-0027, not modelled as her own entity.

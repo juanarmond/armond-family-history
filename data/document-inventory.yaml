@@ -1963,3 +1963,76 @@ documents:
         x Claudina, granddaughter of Mathilde; corrects the Antonio Zeferino x Maria
         Perpétua hypothesis (heir #3 = the uncle) and the two-Ladisláo ambiguity. All
         named persons long deceased (19th-century probate).
+  - inventory_id: DOC-0050
+    status: catalogued
+    added_date: "2026-08-01"
+    apparent_record_type: Parish baptism register entry (batismo, original)
+    apparent_people:
+      - Carolina Ferreira de Toledo
+      - Ladisláo Egídio Ferreira de Toledo
+      - Matildes Maria de Jesus
+    apparent_event: baptism
+    image_quality: partly-illegible
+    provenance: >-
+      Livro de batismos, Freguesia de N.S. da Piedade da Borda do Campo (Barbacena),
+      MG, Capela dos Remédios, 21 October 1821 (ink bleed-through). FamilySearch
+      retrieval; research/from-retrieval/ sync; read 1 August 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0017-carolina-toledo-baptism-1821-barbacena.jpg
+        sha256: 44066aa952c88d18dede753a646f7eb2ec2b4d213e7bf70a4226799338eb9f38
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 4192
+          pixel_height: 2880
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0017
+    notes:
+      - >-
+        Places Ladisláo Egídio Ferreira x Matildes Maria de Jesus at Barbacena in 1821
+        with a daughter Carolina; corroborates the F-0027 union and fixes the couple's
+        Barbacena origin. Ink bleed-through; some godparent names uncertain. All named
+        persons long deceased.
+  - inventory_id: DOC-0051
+    status: catalogued
+    added_date: "2026-08-01"
+    apparent_record_type: Parish marriage register entry (casamento, original)
+    apparent_people:
+      - Joaquim José Ferreira de Toledo
+      - Ritta Angélica Rodrigues
+      - Gaspar Ferreira
+      - Gertrudes Maria de Toledo
+      - João Rodrigues do Valle
+      - Izabel Ribeira
+    apparent_event: marriage
+    image_quality: partly-illegible
+    provenance: >-
+      Livro de casamentos, Freguesia de N.S. da Piedade da Borda do Campo (Barbacena),
+      MG, fl. 33, c.15 January 1786 (ink bleed-through, tight binding). FamilySearch
+      retrieval; research/from-retrieval/ sync; read 1 August 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0018-joaquim-jose-toledo-ritta-marriage-barbacena.jpg
+        sha256: 3e55613af4778bc54b1909329008488e57d9b6778e86d47afa6b300a106ae966
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3984
+          pixel_height: 3056
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0018
+    notes:
+      - >-
+        Marriage of Joaquim José Ferreira de Toledo x Ritta Angélica Rodrigues; names
+        both parent couples (Gaspar Ferreira x Gertrudes Maria; João Rodrigues do Valle
+        x Izabel Ribeira). Taken to be Ladisláo's parents on strong (indirect) evidence.
+        Ink bleed-through; year and several names uncertain. All named persons long deceased.
