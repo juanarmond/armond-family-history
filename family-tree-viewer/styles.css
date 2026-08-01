@@ -774,6 +774,7 @@ a:focus-visible {
 .detail-grid { display: grid; grid-template-columns: auto 1fr; gap: .55rem 1.25rem; margin: 0; }
 .detail-grid dt { color: var(--muted); }
 .detail-grid dd { margin: 0; color: var(--ink); }
+.fact-nationality { display: inline-flex; align-items: center; gap: .35em; }
 
 .detail-list { margin: 0; padding-left: 1.15rem; color: var(--ink-2); }
 .detail-list li { line-height: 1.5; }

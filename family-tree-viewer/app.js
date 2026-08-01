@@ -56,6 +56,18 @@ function nationalityFlag(nationality) {
   return span;
 }
 
+// Overview-cell value for the recorded nationality: the label plus the flag
+// glyph when one exists. Returns a Node, or the "not established" text.
+function nationalityValue(nationality) {
+  if (!nationality) return t("value.notEstablished");
+  const span = document.createElement("span");
+  span.className = "fact-nationality";
+  span.append(nationality);
+  const flag = nationalityFlag(nationality);
+  if (flag) span.append(flag);
+  return span;
+}
+
 const MIN_ZOOM = 0.2;
 const MAX_ZOOM = 2.5;
 const FIT_MAX_ZOOM = 1.4;
@@ -988,14 +1000,15 @@ function openDetails(personId) {
     [t("fact.sources"), String(person.sourceCount)],
     [t("fact.contextRefs"), String((person.fanReferences || []).length)],
     [t("fact.birthplace"), localePlace(person.events.find((event) => event.type === "birth")?.place?.name) || t("value.notEstablished")],
-    [t("fact.nationality"), person.nationality || t("value.notEstablished")],
+    [t("fact.nationality"), nationalityValue(person.nationality)],
     [t("fact.deathplace"), localePlace(person.events.find((event) => event.type === "death")?.place?.name) || t("value.notEstablished")],
   ];
   for (const [term, value] of factRows) {
     const dt = document.createElement("dt");
     dt.textContent = term;
     const dd = document.createElement("dd");
-    dd.textContent = text(value);
+    if (value instanceof Node) dd.append(value);
+    else dd.textContent = text(value);
     facts.append(dt, dd);
   }
   elements.detailsContent.append(section(t("detail.overview"), facts));
