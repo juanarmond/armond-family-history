@@ -85,6 +85,7 @@ const elements = {
   generationLimit: document.querySelector("#generation-limit"),
   search: document.querySelector("#person-search"),
   showHypotheses: document.querySelector("#show-hypotheses"),
+  hypothesisRow: document.querySelector(".toolbar .toggle-row"),
   reset: document.querySelector("#reset-view"),
   loading: document.querySelector("#loading"),
   error: document.querySelector("#error"),
@@ -172,6 +173,16 @@ function relationshipVisible(relationship) {
   if (relationship.status === "rejected") return false;
   if (relationship.status === "hypothesis" && !state.showHypotheses) return false;
   return true;
+}
+
+// The "Show hypotheses" control only does something when some parent link is
+// actually a hypothesis; otherwise it is dead UI. Compute once from the data so
+// the control can be hidden when it would have no effect.
+function hasHypothesisData() {
+  if (!state.data) return false;
+  return Object.values(state.data.parentsByChild).some((list) =>
+    list.some((relationship) => relationship.status === "hypothesis"),
+  );
 }
 
 function createBadge(label, className = "") {
@@ -1228,7 +1239,11 @@ function renderMobileFocus() {
   container.append(head);
 
   const parentIds = [
-    ...new Set((state.data.parentsByChild[person.id] || []).map((entry) => entry.parentId)),
+    ...new Set(
+      (state.data.parentsByChild[person.id] || [])
+        .filter(relationshipVisible)
+        .map((entry) => entry.parentId),
+    ),
   ];
   const parentRows = parentIds.map((pid) => mobileRelationRow(pid, state.data.people[pid]?.name || pid));
   container.append(mobileSection(t("detail.parents"), parentRows, t("empty.parents")));
@@ -1257,6 +1272,9 @@ function renderMobileFocus() {
 // the mobile focus view live in separate containers; only the active one is built.
 function renderActive() {
   document.body.classList.toggle("is-mobile", isMobile());
+  // Hide the "Show hypotheses" control unless the tree actually contains a
+  // hypothesis-status link for it to toggle.
+  if (elements.hypothesisRow) elements.hypothesisRow.hidden = !hasHypothesisData();
   if (isMobile()) {
     if (elements.treeShell) elements.treeShell.hidden = true;
     elements.mobileView.hidden = false;
@@ -1344,7 +1362,7 @@ function bindEvents() {
 
   elements.showHypotheses.addEventListener("change", () => {
     state.showHypotheses = elements.showHypotheses.checked;
-    renderTree();
+    renderActive();
     syncHash();
   });
 
