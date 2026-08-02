@@ -252,6 +252,8 @@ function createMarriageBadge(marriage) {
 
 function setRoot(personId) {
   if (!state.data.people[personId]) return;
+  // Dismiss any open detail sheet — it was showing the previous person.
+  if (elements.detailsPanel && !elements.detailsPanel.hidden) closeDetails();
   state.rootId = personId;
   state.focusId = personId;
   state.focusHistory = [];
@@ -699,7 +701,8 @@ function renderTranscript(container, text) {
   if (last < text.length) container.appendChild(document.createTextNode(text.slice(last)));
 }
 
-// A dependency-free pan/zoom pane: wheel to zoom, drag to pan, double-click resets.
+// A dependency-free pan/zoom pane: wheel OR two-finger pinch to zoom, one-finger
+// drag to pan, double-tap/click resets. Pointer events cover mouse and touch.
 function imagePane(src) {
   const pane = document.createElement("div");
   pane.className = "reader-image-pane";
@@ -709,41 +712,75 @@ function imagePane(src) {
   img.alt = "";
   img.draggable = false;
   pane.appendChild(img);
+
   let scale = 1;
   let tx = 0;
   let ty = 0;
-  let dragging = false;
-  let startX = 0;
-  let startY = 0;
+  const clampScale = (value) => Math.min(12, Math.max(0.4, value));
   const apply = () => {
     img.style.transform = `translate(${tx}px, ${ty}px) scale(${scale})`;
   };
+
   pane.addEventListener("wheel", (event) => {
     event.preventDefault();
-    const factor = event.deltaY < 0 ? 1.15 : 1 / 1.15;
-    scale = Math.min(12, Math.max(0.4, scale * factor));
+    scale = clampScale(scale * (event.deltaY < 0 ? 1.15 : 1 / 1.15));
     apply();
   }, { passive: false });
+
+  // Track active pointers so one finger pans and two fingers pinch-zoom.
+  const pointers = new Map();
+  let panStartX = 0;
+  let panStartY = 0;
+  let pinchDist = 0;
+  let pinchScale = 1;
+  const twoPointerDistance = () => {
+    const [a, b] = [...pointers.values()];
+    return Math.hypot(a.x - b.x, a.y - b.y);
+  };
+  const resumePan = () => {
+    const [p] = [...pointers.values()];
+    if (p) {
+      panStartX = p.x - tx;
+      panStartY = p.y - ty;
+    }
+  };
+
   pane.addEventListener("pointerdown", (event) => {
-    dragging = true;
-    startX = event.clientX - tx;
-    startY = event.clientY - ty;
     pane.setPointerCapture(event.pointerId);
-    pane.classList.add("grabbing");
+    pointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
+    if (pointers.size === 1) {
+      panStartX = event.clientX - tx;
+      panStartY = event.clientY - ty;
+      pane.classList.add("grabbing");
+    } else if (pointers.size === 2) {
+      pinchDist = twoPointerDistance();
+      pinchScale = scale;
+    }
   });
   pane.addEventListener("pointermove", (event) => {
-    if (!dragging) return;
-    tx = event.clientX - startX;
-    ty = event.clientY - startY;
-    apply();
+    if (!pointers.has(event.pointerId)) return;
+    pointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
+    if (pointers.size >= 2) {
+      if (pinchDist > 0) {
+        scale = clampScale(pinchScale * (twoPointerDistance() / pinchDist));
+        apply();
+      }
+    } else if (pointers.size === 1) {
+      tx = event.clientX - panStartX;
+      ty = event.clientY - panStartY;
+      apply();
+    }
   });
-  const endDrag = (event) => {
-    dragging = false;
+  const endPointer = (event) => {
     if (pane.hasPointerCapture?.(event.pointerId)) pane.releasePointerCapture(event.pointerId);
-    pane.classList.remove("grabbing");
+    pointers.delete(event.pointerId);
+    if (pointers.size < 2) pinchDist = 0;
+    if (pointers.size === 1) resumePan();
+    if (pointers.size === 0) pane.classList.remove("grabbing");
   };
-  pane.addEventListener("pointerup", endDrag);
-  pane.addEventListener("pointercancel", endDrag);
+  pane.addEventListener("pointerup", endPointer);
+  pane.addEventListener("pointercancel", endPointer);
+
   pane.addEventListener("dblclick", () => {
     scale = 1;
     tx = 0;
@@ -1156,6 +1193,8 @@ function mobileSection(title, rows, emptyText) {
 
 function focusPerson(personId) {
   if (!state.data?.people[personId] || personId === state.focusId) return;
+  // Dismiss any open detail sheet — it was showing the previous person.
+  if (elements.detailsPanel && !elements.detailsPanel.hidden) closeDetails();
   state.focusHistory.push(state.focusId);
   state.focusId = personId;
   renderMobileFocus();
