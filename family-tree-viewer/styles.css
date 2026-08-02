@@ -1061,3 +1061,134 @@ button.source-link { cursor: pointer; }
   .tree-sizer { width: auto !important; height: auto !important; margin: 0; }
   .person-card { box-shadow: none; }
 }
+
+/* ---------- Mobile focus view ---------- */
+/* A phone-native alternative to the pedigree: one person centred at a time with
+   tappable relation rows. Shown only when app.js un-hides #mobile-view on narrow
+   viewports; the desktop pedigree is untouched. */
+
+.mobile-view {
+  max-width: 34rem;
+  margin: 0 auto;
+  padding: 1rem 1rem 3rem;
+}
+
+.mobile-nav { display: flex; gap: .6rem; margin-bottom: 1rem; }
+.mobile-nav-btn {
+  min-height: 2.75rem;
+  padding: .5rem 1.05rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--green-deep);
+  font-family: var(--serif);
+  font-size: .95rem;
+  cursor: pointer;
+}
+.mobile-nav-home { margin-left: auto; }
+.mobile-nav-btn:active { transform: translateY(1px); }
+
+.mobile-focus-head {
+  padding: 1.35rem 1.2rem 1.4rem;
+  border: 1px solid var(--gold);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, var(--card), var(--card-2));
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+}
+.mobile-focus-name { margin: 0; font-size: 1.35rem; line-height: 1.25; color: var(--ink); }
+.mobile-focus-years { margin: .4rem 0 0; color: var(--muted); font-size: .95rem; }
+.mobile-focus-rel {
+  margin: .6rem 0 0;
+  color: var(--green-deep);
+  font-size: .82rem;
+  letter-spacing: .01em;
+}
+.mobile-details-btn {
+  margin-top: 1.05rem;
+  min-height: 2.75rem;
+  padding: .55rem 1.3rem;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: var(--green);
+  color: #fff;
+  font-family: var(--serif);
+  font-size: .95rem;
+  cursor: pointer;
+}
+.mobile-details-btn:hover { background: var(--green-deep); }
+.mobile-details-btn:active { transform: translateY(1px); }
+
+.mobile-section { margin-top: 1.5rem; }
+.mobile-section-title {
+  margin: 0 0 .55rem;
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  color: var(--muted);
+}
+.mobile-list { display: flex; flex-direction: column; gap: .5rem; }
+.mobile-row {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  width: 100%;
+  min-height: 3rem;
+  padding: .7rem .9rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-sm);
+  background: var(--card);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1rem;
+  text-align: left;
+}
+button.mobile-row { cursor: pointer; }
+button.mobile-row:hover { border-color: var(--gold); }
+button.mobile-row:active { transform: translateY(1px); background: var(--card-2); }
+.mobile-row.is-static { color: var(--ink-2); background: transparent; border-style: dashed; }
+.mobile-row-name { flex: 1 1 auto; min-width: 0; }
+.mobile-row-meta { color: var(--muted); font-size: .82rem; white-space: nowrap; }
+.mobile-row-chevron { color: var(--gold); font-size: 1.3rem; line-height: 1; }
+.mobile-empty { margin: 0; color: var(--faint); font-style: italic; font-size: .9rem; }
+.mobile-hint { margin: 1.8rem 0 0; text-align: center; color: var(--faint); font-size: .78rem; }
+
+/* ---------- Mobile chrome tweaks (matches the app.js 700px breakpoint) ---------- */
+
+@media (max-width: 700px) {
+  /* Stop iOS from zooming the page when a form control gains focus. */
+  select, input[type="search"] { font-size: 16px; }
+  /* Generations only affects the pedigree, which is hidden in the focus view. */
+  .toolbar .field-gen { display: none; }
+
+  /* The detail panel becomes a bottom sheet. */
+  .detail-panel {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: auto;
+    width: 100%;
+    height: auto;
+    max-height: 88vh;
+    padding: 1.3rem 1.15rem 2rem;
+    border-left: 0;
+    border-top: 2px solid var(--gold);
+    border-radius: 20px 20px 0 0;
+  }
+  .detail-panel::before {
+    content: "";
+    display: block;
+    flex: 0 0 auto;
+    width: 2.5rem;
+    height: 4px;
+    margin: -.35rem auto 1rem;
+    border-radius: 999px;
+    background: var(--rule-strong);
+  }
+  .close-button { min-width: 2.75rem; min-height: 2.75rem; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  body.is-mobile .detail-panel { animation: sheet-up .28s cubic-bezier(.2, .7, .2, 1); }
+}
+@keyframes sheet-up { from { transform: translateY(24px); opacity: 0; } to { transform: none; opacity: 1; } }

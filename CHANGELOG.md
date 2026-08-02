@@ -7,6 +7,15 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Add a **dedicated mobile layout** to the family-tree viewer. Below 700px the
+  horizontal pedigree is replaced by a phone-native **focus view**: one person
+  centred at a time with tappable rows for parents, partners, children and siblings,
+  a back stack and a jump-to-subject control, the nationality flag and
+  relationship-to-subject inline, and a "Full details" button. Tapping a name
+  re-centres the view, so the whole tree is walkable one screen at a time. Same data
+  and i18n as the desktop tree (chosen at runtime by viewport, desktop pedigree
+  untouched); the detail panel becomes a bottom sheet, inputs are 16px to stop iOS
+  focus-zoom, and touch targets are enlarged. New keys `mobile.*` (en + pt-BR).
 - Extend the **Muniz Bittencourt line two generations into the Açores** from Manoel
   Muniz Bytancourt's own 1866 Povoação (São Miguel) death (`PAR-0015`): it corrects
   João's father's name (Manoel **Muniz** Bytancourt `P-0042`, not the 1915 óbito's

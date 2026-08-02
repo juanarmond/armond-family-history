@@ -12,6 +12,9 @@ const state = {
   autoFit: true,
   selected: null,
   locale: "en",
+  // Mobile "focus view": the person currently centred, and the back stack.
+  focusId: "P-0001",
+  focusHistory: [],
 };
 
 // Active translator; reassigned by setLocale. UI code calls t / tn / vocab.
@@ -86,6 +89,8 @@ const elements = {
   loading: document.querySelector("#loading"),
   error: document.querySelector("#error"),
   tree: document.querySelector("#tree"),
+  treeShell: document.querySelector(".tree-shell"),
+  mobileView: document.querySelector("#mobile-view"),
   treeViewport: document.querySelector("#tree-viewport"),
   treeSizer: document.querySelector("#tree-sizer"),
   treeStage: document.querySelector("#tree-stage"),
@@ -250,9 +255,11 @@ function createMarriageBadge(marriage) {
 function setRoot(personId) {
   if (!state.data.people[personId]) return;
   state.rootId = personId;
+  state.focusId = personId;
+  state.focusHistory = [];
   state.autoFit = true;
   if (elements.rootSelect) elements.rootSelect.value = personId;
-  renderTree();
+  renderActive();
   syncHash();
 }
 
@@ -446,7 +453,7 @@ function setLocale(locale) {
   if (elements.languageSelect) elements.languageSelect.value = next;
   applyStaticTranslations();
   if (state.data) {
-    renderTree();
+    renderActive();
     if (state.selected && !elements.detailsPanel.hidden) openDetails(state.selected);
   }
   syncHash();
@@ -1088,11 +1095,191 @@ function closeDetails() {
   lastFocused = null;
 }
 
+// ---------- Mobile focus view ----------
+// A phone-native alternative to the horizontal pedigree: one person centred at a
+// time, with tappable rows for parents, partners, children and siblings. It reuses
+// the same projected data and presentation helpers as the desktop tree; only the
+// layout differs, chosen at runtime by viewport width.
+
+const MOBILE_QUERY = window.matchMedia("(max-width: 700px)");
+const isMobile = () => MOBILE_QUERY.matches;
+
+// One tappable relation row. Rows for a modelled person we can re-centre on are
+// buttons; documented-only relations (no entity) are inert.
+function mobileRelationRow(id, name, meta) {
+  const target = id && state.data.people[id];
+  const row = document.createElement(target ? "button" : "div");
+  row.className = `mobile-row${target ? "" : " is-static"}`;
+  if (target) {
+    row.type = "button";
+    row.addEventListener("click", () => focusPerson(id));
+  }
+  const label = document.createElement("span");
+  label.className = "mobile-row-name";
+  label.textContent = name;
+  const flag = target ? nationalityFlag(target.nationality) : null;
+  if (flag) label.append(" ", flag);
+  row.append(label);
+  const detail = target ? lifespan(target) : meta;
+  if (detail) {
+    const m = document.createElement("span");
+    m.className = "mobile-row-meta";
+    m.textContent = detail;
+    row.append(m);
+  }
+  if (target) {
+    const chevron = document.createElement("span");
+    chevron.className = "mobile-row-chevron";
+    chevron.setAttribute("aria-hidden", "true");
+    chevron.textContent = "›";
+    row.append(chevron);
+  }
+  return row;
+}
+
+function mobileSection(title, rows, emptyText) {
+  const section = document.createElement("section");
+  section.className = "mobile-section";
+  const heading = document.createElement("h3");
+  heading.className = "mobile-section-title";
+  heading.textContent = title;
+  section.append(heading);
+  if (!rows.length) {
+    const empty = document.createElement("p");
+    empty.className = "mobile-empty";
+    empty.textContent = emptyText;
+    section.append(empty);
+  } else {
+    const list = document.createElement("div");
+    list.className = "mobile-list";
+    for (const row of rows) list.append(row);
+    section.append(list);
+  }
+  return section;
+}
+
+function focusPerson(personId) {
+  if (!state.data?.people[personId] || personId === state.focusId) return;
+  state.focusHistory.push(state.focusId);
+  state.focusId = personId;
+  renderMobileFocus();
+}
+
+function focusBack() {
+  if (!state.focusHistory.length) return;
+  state.focusId = state.focusHistory.pop();
+  renderMobileFocus();
+}
+
+function renderMobileFocus() {
+  const container = elements.mobileView;
+  if (!container || !state.data) return;
+  const person = state.data.people[state.focusId] || state.data.people[state.rootId];
+  container.replaceChildren();
+  if (!person) return;
+
+  const nav = document.createElement("div");
+  nav.className = "mobile-nav";
+  if (state.focusHistory.length) {
+    const back = document.createElement("button");
+    back.type = "button";
+    back.className = "mobile-nav-btn";
+    back.textContent = `‹ ${t("mobile.back")}`;
+    back.addEventListener("click", focusBack);
+    nav.append(back);
+  }
+  const home = document.createElement("button");
+  home.type = "button";
+  home.className = "mobile-nav-btn mobile-nav-home";
+  home.textContent = `⌂ ${t("mobile.home")}`;
+  home.addEventListener("click", () => focusPerson("P-0001"));
+  nav.append(home);
+  container.append(nav);
+
+  const head = document.createElement("div");
+  head.className = "mobile-focus-head";
+  const title = document.createElement("h2");
+  title.className = "mobile-focus-name";
+  title.textContent = person.name;
+  const flag = nationalityFlag(person.nationality);
+  if (flag) title.append(" ", flag);
+  head.append(title);
+  const years = lifespan(person);
+  if (years) {
+    const yearsLine = document.createElement("p");
+    yearsLine.className = "mobile-focus-years";
+    yearsLine.textContent = years;
+    head.append(yearsLine);
+  }
+  const relTerm = relationshipTerm(person);
+  if (relTerm && person.id !== "P-0001") {
+    const chip = document.createElement("p");
+    chip.className = "mobile-focus-rel";
+    const subjectName = (state.data.people["P-0001"]?.name || "").split(" ")[0] || "";
+    chip.textContent = `${t("detail.relationship", { name: subjectName })}: ${relTerm}`;
+    head.append(chip);
+  }
+  const detailsButton = document.createElement("button");
+  detailsButton.type = "button";
+  detailsButton.className = "mobile-details-btn";
+  detailsButton.textContent = `${t("mobile.fullDetails")} ›`;
+  detailsButton.addEventListener("click", () => openDetails(person.id));
+  head.append(detailsButton);
+  container.append(head);
+
+  const parentIds = [
+    ...new Set((state.data.parentsByChild[person.id] || []).map((entry) => entry.parentId)),
+  ];
+  const parentRows = parentIds.map((pid) => mobileRelationRow(pid, state.data.people[pid]?.name || pid));
+  container.append(mobileSection(t("detail.parents"), parentRows, t("empty.parents")));
+
+  const spouseRows = (person.spouses || []).map((spouse) =>
+    mobileRelationRow(spouse.id, spouse.name, spouse.marriage ? bioWhen(spouse.marriage) : null),
+  );
+  container.append(mobileSection(t("detail.marriages"), spouseRows, t("empty.partners")));
+
+  const childRows = (person.children || []).map((child) => mobileRelationRow(child.id, child.name));
+  container.append(mobileSection(t("detail.children"), childRows, t("empty.children")));
+
+  const siblingRows = (person.siblings || []).map((sibling) => mobileRelationRow(sibling.id, sibling.name));
+  container.append(mobileSection(t("detail.siblings"), siblingRows, t("empty.siblings")));
+
+  const hint = document.createElement("p");
+  hint.className = "mobile-hint";
+  hint.textContent = t("mobile.tapHint");
+  container.append(hint);
+
+  container.scrollTo?.(0, 0);
+  window.scrollTo?.(0, 0);
+}
+
+// Render whichever layout the current viewport calls for. The desktop pedigree and
+// the mobile focus view live in separate containers; only the active one is built.
+function renderActive() {
+  document.body.classList.toggle("is-mobile", isMobile());
+  if (isMobile()) {
+    if (elements.treeShell) elements.treeShell.hidden = true;
+    elements.mobileView.hidden = false;
+    renderMobileFocus();
+  } else {
+    elements.mobileView.hidden = true;
+    if (elements.treeShell) elements.treeShell.hidden = false;
+    renderTree();
+  }
+}
+
 function bindEvents() {
+  // Switch layouts when the viewport crosses the mobile breakpoint (e.g. rotate).
+  MOBILE_QUERY.addEventListener("change", () => {
+    if (state.data) renderActive();
+  });
+
   elements.rootSelect.addEventListener("change", () => {
     state.rootId = elements.rootSelect.value;
+    state.focusId = state.rootId;
+    state.focusHistory = [];
     state.autoFit = true;
-    renderTree();
+    renderActive();
     syncHash();
   });
 
@@ -1173,17 +1360,21 @@ function bindEvents() {
   elements.search.addEventListener("keydown", (event) => {
     if (event.key === "Enter" && elements.rootSelect.options.length) {
       state.rootId = elements.rootSelect.options[0].value;
+      state.focusId = state.rootId;
+      state.focusHistory = [];
       populatePersonSelect("");
       elements.search.value = "";
       elements.rootSelect.value = state.rootId;
       state.autoFit = true;
-      renderTree();
+      renderActive();
       syncHash();
     }
   });
 
   elements.reset.addEventListener("click", () => {
     state.rootId = state.data.people["P-0001"] ? "P-0001" : Object.keys(state.data.people)[0];
+    state.focusId = state.rootId;
+    state.focusHistory = [];
     state.generations = 4;
     state.showHypotheses = true;
     state.autoFit = true;
@@ -1192,7 +1383,7 @@ function bindEvents() {
     elements.search.value = "";
     populatePersonSelect();
     elements.rootSelect.value = state.rootId;
-    renderTree();
+    renderActive();
     syncHash();
   });
 
@@ -1226,6 +1417,7 @@ async function initialise() {
     if (hash.root && state.data.people[hash.root]) state.rootId = hash.root;
     if (hash.gen && /^([2-9]|1[0-2])$/.test(hash.gen)) state.generations = Number(hash.gen);
     if (hash.hyp === "0") state.showHypotheses = false;
+    state.focusId = state.rootId;
 
     populatePersonSelect();
     elements.rootSelect.value = state.rootId;
@@ -1235,7 +1427,7 @@ async function initialise() {
     elements.familyCount.textContent = String(state.data.familyCount);
     elements.sourceCount.textContent = String(Object.keys(state.data.sources).length);
     elements.loading.hidden = true;
-    renderTree();
+    renderActive();
     if (hash.sel && state.data.people[hash.sel]) openDetails(hash.sel);
     else syncHash();
   } catch (error) {
