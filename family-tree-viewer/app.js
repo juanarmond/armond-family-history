@@ -261,6 +261,7 @@ function setRoot(personId) {
   state.autoFit = true;
   if (elements.rootSelect) elements.rootSelect.value = personId;
   renderActive();
+  scrollFocusIntoView();
   syncHash();
 }
 
@@ -1256,12 +1257,14 @@ function focusPerson(personId) {
   state.focusHistory.push(state.focusId);
   state.focusId = personId;
   renderMobileFocus();
+  scrollFocusIntoView();
 }
 
 function focusBack() {
   if (!state.focusHistory.length) return;
   state.focusId = state.focusHistory.pop();
   renderMobileFocus();
+  scrollFocusIntoView();
 }
 
 function renderMobileFocus() {
@@ -1345,9 +1348,15 @@ function renderMobileFocus() {
   hint.className = "mobile-hint";
   hint.textContent = t("mobile.tapHint");
   container.append(hint);
+}
 
-  container.scrollTo?.(0, 0);
-  window.scrollTo?.(0, 0);
+// On a navigation (tapping a relation, searching, re-rooting), bring the focus
+// view to the top of the screen so the person's card is visible without scrolling
+// past the header/toolbar. Only meaningful on the mobile layout.
+function scrollFocusIntoView() {
+  if (isMobile() && elements.mobileView) {
+    elements.mobileView.scrollIntoView({ block: "start", behavior: "auto" });
+  }
 }
 
 // Render whichever layout the current viewport calls for. The desktop pedigree and
