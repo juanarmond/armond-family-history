@@ -53,6 +53,10 @@ jobs:
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
+        with:
+          # Create/enable the Pages site (source: GitHub Actions) on first run,
+          # instead of failing when it does not exist yet.
+          enablement: true
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
