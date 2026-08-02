@@ -185,7 +185,6 @@ main {
 .toolbar .field-gen { flex: 0 1 7.5rem; }
 .toolbar .search-field { flex: 3 1 15rem; }
 .toolbar .field-lang { flex: 0 1 11rem; }
-.toolbar .toggle-row { flex: 0 0 auto; align-self: flex-end; }
 .toolbar #reset-view { flex: 0 0 auto; align-self: flex-end; }
 
 .toolbar label > span:first-child {
@@ -226,17 +225,6 @@ a:focus-visible {
   box-shadow: 0 0 0 3px var(--ring);
 }
 
-.toggle-row {
-  display: flex;
-  min-height: 2.85rem;
-  align-items: center;
-  gap: .55rem;
-  padding: 0 .4rem;
-  white-space: nowrap;
-  color: var(--ink-2);
-  font-size: .95rem;
-}
-.toggle-row input { width: 1.05rem; height: 1.05rem; accent-color: var(--green); cursor: pointer; }
 
 .toolbar button {
   min-height: 2.85rem;
@@ -1030,7 +1018,6 @@ button.source-link { cursor: pointer; }
   .toolbar .field-gen,
   .toolbar .search-field,
   .toolbar .field-lang,
-  .toolbar .toggle-row,
   .toolbar #reset-view { flex-basis: 100%; }
   .summary { grid-template-columns: 1fr 1fr; }
   .tree-viewport { padding: 2rem 1rem 3rem; }

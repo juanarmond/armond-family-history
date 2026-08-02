@@ -6,7 +6,6 @@ const state = {
   data: null,
   rootId: "P-0001",
   generations: 4,
-  showHypotheses: true,
   visibleNodes: 0,
   zoom: 1,
   autoFit: true,
@@ -84,8 +83,6 @@ const elements = {
   rootSelect: document.querySelector("#root-person"),
   generationLimit: document.querySelector("#generation-limit"),
   search: document.querySelector("#person-search"),
-  showHypotheses: document.querySelector("#show-hypotheses"),
-  hypothesisRow: document.querySelector(".toolbar .toggle-row"),
   reset: document.querySelector("#reset-view"),
   loading: document.querySelector("#loading"),
   error: document.querySelector("#error"),
@@ -169,20 +166,10 @@ function primaryPlace(person) {
   return localePlace(preferred?.place?.name) || t("place.unknown");
 }
 
+// Rejected parentage edges are never drawn; every other status renders (with its
+// own styling). There is no user toggle — the tree shows what has been modelled.
 function relationshipVisible(relationship) {
-  if (relationship.status === "rejected") return false;
-  if (relationship.status === "hypothesis" && !state.showHypotheses) return false;
-  return true;
-}
-
-// The "Show hypotheses" control only does something when some parent link is
-// actually a hypothesis; otherwise it is dead UI. Compute once from the data so
-// the control can be hidden when it would have no effect.
-function hasHypothesisData() {
-  if (!state.data) return false;
-  return Object.values(state.data.parentsByChild).some((list) =>
-    list.some((relationship) => relationship.status === "hypothesis"),
-  );
+  return relationship.status !== "rejected";
 }
 
 function createBadge(label, className = "") {
@@ -409,7 +396,6 @@ function readHash() {
   return {
     root: params.get("root"),
     gen: params.get("gen"),
-    hyp: params.get("hyp"),
     sel: params.get("sel"),
     lang: params.get("lang"),
   };
@@ -419,7 +405,6 @@ function syncHash() {
   const params = new URLSearchParams();
   params.set("root", state.rootId);
   params.set("gen", String(state.generations));
-  params.set("hyp", state.showHypotheses ? "1" : "0");
   params.set("lang", state.locale);
   if (state.selected) params.set("sel", state.selected);
   const next = `#${params.toString()}`;
@@ -1272,9 +1257,6 @@ function renderMobileFocus() {
 // the mobile focus view live in separate containers; only the active one is built.
 function renderActive() {
   document.body.classList.toggle("is-mobile", isMobile());
-  // Hide the "Show hypotheses" control unless the tree actually contains a
-  // hypothesis-status link for it to toggle.
-  if (elements.hypothesisRow) elements.hypothesisRow.hidden = !hasHypothesisData();
   if (isMobile()) {
     if (elements.treeShell) elements.treeShell.hidden = true;
     elements.mobileView.hidden = false;
@@ -1360,12 +1342,6 @@ function bindEvents() {
   viewport.addEventListener("pointerup", endPan);
   viewport.addEventListener("pointercancel", endPan);
 
-  elements.showHypotheses.addEventListener("change", () => {
-    state.showHypotheses = elements.showHypotheses.checked;
-    renderActive();
-    syncHash();
-  });
-
   elements.search.addEventListener("input", () => {
     populatePersonSelect(elements.search.value);
   });
@@ -1397,10 +1373,8 @@ function bindEvents() {
     state.focusId = state.rootId;
     state.focusHistory = [];
     state.generations = 4;
-    state.showHypotheses = true;
     state.autoFit = true;
     elements.generationLimit.value = "4";
-    elements.showHypotheses.checked = true;
     elements.search.value = "";
     populatePersonSelect();
     elements.rootSelect.value = state.rootId;
@@ -1437,13 +1411,11 @@ async function initialise() {
     const hash = readHash();
     if (hash.root && state.data.people[hash.root]) state.rootId = hash.root;
     if (hash.gen && /^([2-9]|1[0-2])$/.test(hash.gen)) state.generations = Number(hash.gen);
-    if (hash.hyp === "0") state.showHypotheses = false;
     state.focusId = state.rootId;
 
     populatePersonSelect();
     elements.rootSelect.value = state.rootId;
     elements.generationLimit.value = String(state.generations);
-    elements.showHypotheses.checked = state.showHypotheses;
     elements.personCount.textContent = String(Object.keys(state.data.people).length);
     elements.familyCount.textContent = String(state.data.familyCount);
     elements.sourceCount.textContent = String(Object.keys(state.data.sources).length);
