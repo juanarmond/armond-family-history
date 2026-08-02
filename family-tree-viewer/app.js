@@ -1275,12 +1275,7 @@ function bindEvents() {
   });
 
   elements.rootSelect.addEventListener("change", () => {
-    state.rootId = elements.rootSelect.value;
-    state.focusId = state.rootId;
-    state.focusHistory = [];
-    state.autoFit = true;
-    renderActive();
-    syncHash();
+    setRoot(elements.rootSelect.value);
   });
 
   elements.generationLimit.addEventListener("change", () => {
@@ -1357,19 +1352,27 @@ function bindEvents() {
     populatePersonSelect(elements.search.value);
   });
 
+  // Jump to the top filtered match on submit, then reset the box. Handle both
+  // Enter (desktop) and the native "search" event — mobile virtual keyboards fire
+  // "search" on their Go/Search key but often not a reliable keydown "Enter",
+  // which previously left the search doing nothing on a phone. The value-cleared
+  // guard makes a double fire (and the clear "×" button) a harmless no-op.
+  const submitSearch = () => {
+    const top = elements.rootSelect.options[0];
+    if (!top || !elements.search.value.trim()) return;
+    const targetId = top.value;
+    elements.search.value = "";
+    populatePersonSelect("");
+    setRoot(targetId);
+    elements.search.blur();
+  };
   elements.search.addEventListener("keydown", (event) => {
-    if (event.key === "Enter" && elements.rootSelect.options.length) {
-      state.rootId = elements.rootSelect.options[0].value;
-      state.focusId = state.rootId;
-      state.focusHistory = [];
-      populatePersonSelect("");
-      elements.search.value = "";
-      elements.rootSelect.value = state.rootId;
-      state.autoFit = true;
-      renderActive();
-      syncHash();
+    if (event.key === "Enter") {
+      event.preventDefault();
+      submitSearch();
     }
   });
+  elements.search.addEventListener("search", submitSearch);
 
   elements.reset.addEventListener("click", () => {
     state.rootId = state.data.people["P-0001"] ? "P-0001" : Object.keys(state.data.people)[0];
