@@ -69,7 +69,8 @@
 
       <label class="search-field">
         <span data-i18n="control.findPerson">Find a person</span>
-        <input id="person-search" type="search" data-i18n-placeholder="control.searchPlaceholder" placeholder="Search by name" autocomplete="off">
+        <input id="person-search" type="search" role="combobox" aria-controls="search-results" aria-expanded="false" aria-autocomplete="list" data-i18n-placeholder="control.searchPlaceholder" placeholder="Search by name" autocomplete="off">
+        <div id="search-results" class="search-results" role="listbox" hidden></div>
       </label>
 
       <label class="field-lang">

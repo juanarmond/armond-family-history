@@ -83,6 +83,7 @@ const elements = {
   rootSelect: document.querySelector("#root-person"),
   generationLimit: document.querySelector("#generation-limit"),
   search: document.querySelector("#person-search"),
+  searchResults: document.querySelector("#search-results"),
   reset: document.querySelector("#reset-view"),
   loading: document.querySelector("#loading"),
   error: document.querySelector("#error"),
@@ -427,6 +428,63 @@ function populatePersonSelect(query = "") {
     option.selected = person.id === state.rootId;
     elements.rootSelect.append(option);
   }
+}
+
+function hideSearchResults() {
+  if (!elements.searchResults) return;
+  elements.searchResults.hidden = true;
+  elements.searchResults.replaceChildren();
+  elements.search.setAttribute("aria-expanded", "false");
+}
+
+// Navigate to a searched person: clear the box, dismiss the list, and re-root.
+function selectSearchResult(personId) {
+  elements.search.value = "";
+  hideSearchResults();
+  elements.search.blur();
+  setRoot(personId);
+}
+
+// Live autocomplete: up to eight name matches, each a tappable row. Works by tap
+// (mobile) and click/Enter (desktop); no submit gesture required.
+function renderSearchResults(query) {
+  const box = elements.searchResults;
+  if (!box || !state.data) return;
+  const normalised = query.trim().toLocaleLowerCase();
+  box.replaceChildren();
+  if (!normalised) {
+    hideSearchResults();
+    return;
+  }
+  const matches = Object.values(state.data.people)
+    .filter((person) => person.name.toLocaleLowerCase().includes(normalised))
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .slice(0, 8);
+  if (!matches.length) {
+    hideSearchResults();
+    return;
+  }
+  for (const person of matches) {
+    const item = document.createElement("button");
+    item.type = "button";
+    item.className = "search-result";
+    item.setAttribute("role", "option");
+    const name = document.createElement("span");
+    name.className = "search-result-name";
+    name.textContent = person.name;
+    item.append(name);
+    const years = person.privacy === "living" ? "" : lifespan(person);
+    if (years) {
+      const meta = document.createElement("span");
+      meta.className = "search-result-meta";
+      meta.textContent = years;
+      item.append(meta);
+    }
+    item.addEventListener("click", () => selectSearchResult(person.id));
+    box.append(item);
+  }
+  box.hidden = false;
+  elements.search.setAttribute("aria-expanded", "true");
 }
 
 function applyStaticTranslations() {
@@ -1381,31 +1439,23 @@ function bindEvents() {
   viewport.addEventListener("pointerup", endPan);
   viewport.addEventListener("pointercancel", endPan);
 
-  elements.search.addEventListener("input", () => {
-    populatePersonSelect(elements.search.value);
-  });
-
-  // Jump to the top filtered match on submit, then reset the box. Handle both
-  // Enter (desktop) and the native "search" event — mobile virtual keyboards fire
-  // "search" on their Go/Search key but often not a reliable keydown "Enter",
-  // which previously left the search doing nothing on a phone. The value-cleared
-  // guard makes a double fire (and the clear "×" button) a harmless no-op.
-  const submitSearch = () => {
-    const top = elements.rootSelect.options[0];
-    if (!top || !elements.search.value.trim()) return;
-    const targetId = top.value;
-    elements.search.value = "";
-    populatePersonSelect("");
-    setRoot(targetId);
-    elements.search.blur();
-  };
+  // Live search: typing shows a tappable results list; tapping a result navigates
+  // to that person. This does not depend on a submit gesture (the mobile keyboard's
+  // Go key / the native "search" event were unreliable), so a tap always selects.
+  elements.search.addEventListener("input", () => renderSearchResults(elements.search.value));
   elements.search.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
       event.preventDefault();
-      submitSearch();
+      const first = elements.searchResults?.querySelector(".search-result");
+      if (first) first.click();
+    } else if (event.key === "Escape") {
+      hideSearchResults();
     }
   });
-  elements.search.addEventListener("search", submitSearch);
+  // Hide the list on blur, but after a beat so a tap on a result registers first.
+  elements.search.addEventListener("blur", () => {
+    setTimeout(hideSearchResults, 200);
+  });
 
   elements.reset.addEventListener("click", () => {
     state.rootId = state.data.people["P-0001"] ? "P-0001" : Object.keys(state.data.people)[0];
