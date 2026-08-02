@@ -308,6 +308,13 @@ also remain traceable through source records and research logs.
   stays in step with the viewer automatically. Sources and FAN references remain
   privacy-reduced (no transcriptions, repositories or scans published). `_site` is
   gitignored.
+- Publish **deceased people's evidence on the public site** (owner directive): a
+  source or FAN record about only deceased people is now deployed verbatim with its
+  scan, so its card links the document image and shows the transcription. Records
+  involving any living person (the owner's own birth/marriage documents) stay
+  reduced — no scan, transcription or link — and their scans are never copied into
+  the site (verified: CIV-0008–0012 withheld). `evidenceHref` resolves against a new
+  `EVIDENCE_ROOT` that the build rewrites to the site root.
 - Restore the P-0021/P-0022 → E-0007 back-links: both parents (Francisco José de
   Carvalho Guimarães and Emmerenciana Maria de Jesus) participate in their child
   P-0011's 1904 birth (E-0007) but had omitted it from their `event_ids`. This

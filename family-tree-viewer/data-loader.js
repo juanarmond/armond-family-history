@@ -10,6 +10,10 @@ const ENTITY_TYPES = {
 };
 
 const DATA_ROOT = "../data";
+// evidence/ lives at the repository root; the viewer is one level below it. The
+// Pages build rewrites this (and DATA_ROOT) to "." since it serves the viewer from
+// the site root with evidence/ beside it.
+const EVIDENCE_ROOT = "..";
 const INDEX_PATH = "./entity-index.json";
 
 // Sources live in category subfolders (data/sources/<category>/); map the ID
@@ -79,8 +83,8 @@ export function evidenceHref(path) {
   // Only expose genuine preserved evidence files, never internal repository
   // documents referenced as a source's repository_path (e.g. STATUS.md).
   if (!/^evidence\//.test(clean)) return null;
-  // Stored paths are repository-root relative; the viewer lives one level down.
-  return `../${clean}`;
+  // Stored paths are repository-root relative; resolve them against EVIDENCE_ROOT.
+  return `${EVIDENCE_ROOT}/${clean}`;
 }
 
 function noteTexts(notes) {

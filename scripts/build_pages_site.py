@@ -17,13 +17,16 @@ Privacy model (the site is public; the repository is private):
 * events    – dropped when any participant is living; otherwise verbatim.
 * families  – verbatim (structural; no evidence transcriptions).
 * places    – verbatim.
-* sources   – reduced: display metadata only. Transcriptions, abstracts,
-              repository details and scan/file references are never published.
-* fan       – reduced the same way as sources: who appears in what record and in
-              what role, but never the transcription or scan.
+* sources   – a record about only deceased people is published verbatim, and its
+              evidence scan is deployed (owner directive: the dead may be shown).
+              A record involving any living person (the owner's own documents) is
+              reduced to display metadata, with no scan, transcription or link.
+* fan       – same rule; all are third-party (deceased) records, so published with
+              their scans unless one ever names a living participant.
 
-Sources are written into their category subfolders to match the viewer's
-per-category fetch paths.
+Only the scans of publishable (deceased-only) records are copied into the site,
+under their repository-relative evidence/ path. Sources are written into their
+category subfolders to match the viewer's per-category fetch paths.
 """
 
 from __future__ import annotations
@@ -108,10 +111,9 @@ def main() -> None:
 
     loader = OUTPUT / "data-loader.js"
     loader.write_text(
-        loader.read_text(encoding="utf-8").replace(
-            'const DATA_ROOT = "../data";',
-            'const DATA_ROOT = "./data";',
-        ),
+        loader.read_text(encoding="utf-8")
+        .replace('const DATA_ROOT = "../data";', 'const DATA_ROOT = "./data";')
+        .replace('const EVIDENCE_ROOT = "..";', 'const EVIDENCE_ROOT = ".";'),
         encoding="utf-8",
     )
     (OUTPUT / ".nojekyll").write_text("", encoding="utf-8")
@@ -152,25 +154,50 @@ def main() -> None:
         if not involves_living(event.get("participants"))
     }
 
-    # Sources: display metadata only; never publish transcriptions/scans.
+    # Evidence scans to publish (repository-relative paths). Only the scans of
+    # deceased-only records are deployed; living people's own documents are withheld.
+    evidence_to_copy: set[str] = set()
+
+    def scan_path(record: dict) -> str | None:
+        path = (record.get("digital_file") or {}).get("path")
+        return path if isinstance(path, str) and path.startswith("evidence/") else None
+
+    # Sources: a record about only deceased people is published verbatim (its scan
+    # and transcription included); a record involving any living person (the owner's
+    # own documents) is reduced to display metadata, with no scan or transcription.
     public_sources: dict[str, dict] = {}
     for sid, source in sources.items():
-        reduced = reduce_record(source, PUBLIC_SOURCE_FIELDS)
-        reduced["linked_people"] = [
-            pid for pid in source.get("linked_people", []) if pid not in living_ids
-        ]
-        public_sources[sid] = reduced
+        living_linked = any(pid in living_ids for pid in source.get("linked_people", []) or [])
+        if living_linked:
+            reduced = reduce_record(source, PUBLIC_SOURCE_FIELDS)
+            reduced["linked_people"] = [
+                pid for pid in source.get("linked_people", []) if pid not in living_ids
+            ]
+            public_sources[sid] = reduced
+        else:
+            public_sources[sid] = source
+            path = scan_path(source)
+            if path:
+                evidence_to_copy.add(path)
 
-    # FAN references: contextual metadata + who appears in what role; no evidence text.
+    # FAN references: same rule. All are third-party (deceased) records, so they are
+    # published verbatim with their scans unless one ever names a living participant.
     public_fan: dict[str, dict] = {}
     for fid, ref in fan.items():
-        reduced = reduce_record(ref, PUBLIC_FAN_FIELDS)
-        reduced["participants"] = [
-            {k: v for k, v in item.items() if k in ("person_id", "role", "note")}
-            for item in ref.get("participants", [])
-            if isinstance(item, dict) and item.get("person_id") not in living_ids
-        ]
-        public_fan[fid] = reduced
+        living_part = involves_living(ref.get("participants"))
+        if living_part:
+            reduced = reduce_record(ref, PUBLIC_FAN_FIELDS)
+            reduced["participants"] = [
+                {k: v for k, v in item.items() if k in ("person_id", "role", "note")}
+                for item in ref.get("participants", [])
+                if isinstance(item, dict) and item.get("person_id") not in living_ids
+            ]
+            public_fan[fid] = reduced
+        else:
+            public_fan[fid] = ref
+            path = scan_path(ref)
+            if path:
+                evidence_to_copy.add(path)
 
     datasets = {
         "people": public_people,
@@ -204,6 +231,18 @@ def main() -> None:
         encoding="utf-8",
     )
 
+    # Deploy the evidence scans for the publishable (deceased-only) records,
+    # preserving their repository-relative paths so evidenceHref resolves.
+    copied = 0
+    for rel in sorted(evidence_to_copy):
+        src = ROOT / rel
+        if not src.exists():
+            continue
+        dest = OUTPUT / rel
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(src, dest)
+        copied += 1
+
     print(
         "Built privacy-filtered Pages site:",
         f"{len(public_people)} people,",
@@ -211,7 +250,8 @@ def main() -> None:
         f"{len(public_events)} events,",
         f"{len(places)} places,",
         f"{len(public_sources)} sources,",
-        f"{len(public_fan)} fan",
+        f"{len(public_fan)} fan,",
+        f"{copied} evidence scans",
     )
 
 
