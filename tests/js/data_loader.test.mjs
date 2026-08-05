@@ -358,27 +358,33 @@ test("a person's sources are ordered by life event, supporting records last", ()
   assert.deepEqual(order, ["CIV-b", "CIV-m", "CIV-d", "PUB-1"]);
 });
 
-test("an uncertain transcription flags the source and the person, not name variants", () => {
+test("an uncertain transcription flags the source but not the person; only explicit conflict notes flag hasConflict", () => {
   const input = {
     people: {
-      "P-1": { id: "P-1", preferred_name: "A", privacy: "deceased", name_variants: [{ value: "A" }, { value: "A variant" }], event_ids: [], family_ids: [], notes: [] },
-      "P-2": { id: "P-2", preferred_name: "B", privacy: "deceased", name_variants: [{ value: "B" }, { value: "B variant" }], event_ids: [], family_ids: [], notes: [] },
+      "P-1": { id: "P-1", preferred_name: "A", privacy: "deceased", name_variants: [], event_ids: [], family_ids: [], notes: [] },
+      "P-2": { id: "P-2", preferred_name: "B", privacy: "deceased", name_variants: [], event_ids: [], family_ids: [], notes: [{ text: "unresolved conflict in birth date" }] },
+      "P-3": { id: "P-3", preferred_name: "C", privacy: "deceased", name_variants: [], event_ids: [], family_ids: [], notes: [] },
     },
     families: {},
     events: {},
     places: {},
     sources: {
       "CIV-1": { title: "x", transcription: "compareceu [uncertain: Fulano] de tal", linked_people: ["P-1"] },
-      "CIV-2": { title: "y", transcription: "a clean, fully legible reading", linked_people: ["P-2"] },
+      "CIV-2": { title: "y", transcription: "a clean, fully legible reading", linked_people: ["P-3"] },
     },
     fan: {},
   };
   const data = projectTreeData(input);
+  // Uncertain transcription is flagged on the source itself.
   assert.equal(data.sources["CIV-1"].uncertain, true);
   assert.equal(data.sources["CIV-2"].uncertain, false);
-  assert.equal(data.people["P-1"].hasConflict, true);
-  // Only a name variant, no uncertain source and no conflict note → not flagged.
-  assert.equal(data.people["P-2"].hasConflict, false);
+  // An uncertain transcription does NOT flag hasConflict on the person card —
+  // illegible words are a source-quality note, already shown in the detail panel.
+  assert.equal(data.people["P-1"].hasConflict, false);
+  // An explicit conflict/unresolved note in the person's notes DOES flag hasConflict.
+  assert.equal(data.people["P-2"].hasConflict, true);
+  // No conflict note and no uncertain source → not flagged.
+  assert.equal(data.people["P-3"].hasConflict, false);
 });
 
 test("biography summarises birth, parents, marriage, children, emigration and death", () => {

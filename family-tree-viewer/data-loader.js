@@ -627,7 +627,6 @@ export function projectTreeData({ people, families, events, places, sources, fan
         ? []
         : (fanByPerson[personId] || []).slice().sort((a, b) => a.id.localeCompare(b.id)),
       hasConflict:
-        personSources.some((entry) => entry.uncertain) ||
         conflictTerms.some((term) => conflictText.includes(term)),
     };
   }
