@@ -1,0 +1,27 @@
+schema_version: 1
+id: P-0059
+preferred_name: Amaro da Silva Xavier
+privacy: deceased
+sex: male
+nationality: Brazilian
+name_variants:
+- value: Amaro da Silva Xavier
+  type: source
+  source_ids:
+  - PAR-0023
+- value: Alferes Amaro da Silva Xavier
+  type: source
+  source_ids:
+  - PAR-0023
+event_ids: []
+family_ids:
+- F-0029
+notes:
+- text: >-
+    Father of Mathilde Maria de Jesus (P-0027); hence great-great-grandfather of
+    Eliza Balbina de Toledo (P-0017) on her maternal-paternal line. He is named in
+    his daughter's 1810 São João del Rei marriage record (PAR-0023) as "Alferes Amaro
+    da Silva Xavier", the military rank Alferes indicating a junior officer, with both
+    he and his wife Ignez Francisca de Lima identified as "naturais e batizados da
+    Freguesia de Barbacena" (born and baptised in Barbacena). His own birth,
+    baptism and death records have not been located.

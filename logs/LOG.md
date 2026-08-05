@@ -953,3 +953,22 @@ entry they amend; they must not erase it.
   strong-evidence → confirmed** (first direct attestation). F-0020 updated.
 - Next action: João's birth month remains illegible in PAR-0022; Luiza's parents
   (Azevedo line) are the next open Muniz-line gap.
+
+## 2026-08-05 — Toledo apical: Matilde's parents confirmed; Muniz marriage found
+
+Value-gate pass on four new retrieval-drop images. Detail: `logs/2026-08-05-toledo-matilde-parents-and-muniz-marriage.md`.
+
+- **PAR-0023** (SJdRei 1810): Ladisláo × Matilde marriage image — PRIMARY source
+  confirming Matilde's parents **Alferes Amaro da Silva Xavier × Ignez Francisca de
+  Lima** (F-0029), both naturais de Barbacena. Resolves the "single open item" on
+  the Toledo apical couple. New entities: P-0059, P-0060, F-0029, E-0052.
+- **PAR-0024** (Mãe de Deus 1845): Manoel Muniz Byttancourt × Francisca Roza do
+  Espírito Santo marriage, 1 February 1845 — confirms couple's marriage (previously
+  unlocated). Date 9 months before João's birth (PAR-0022). Parents illegible at
+  scan resolution; Pacheco hypothesis probable, not proven. Event E-0053.
+- **PRB-0007** (1862 deed): Traslado of Fazenda da Concórdia purchase — Matilde as
+  widow of Ladisláo. Tightens Ladisláo's death bound from before 1877 → **before
+  2 August 1862**. New source only; no new entities.
+- **rec-muniz-joao-bilancourt-godfather-1822-maededeus**: "João Moniz de Bilancourt"
+  = standing witness João Jacinto Moniz de Bulhões (own signature). Not a family
+  member; not ingested.

@@ -1,0 +1,113 @@
+schema_version: 1
+id: PRB-0007
+title: >-
+  Traslado of the 1862 Fazenda da Concórdia purchase deed — Matilde Maria de
+  Jesus (widow of Ladisláo Egídio Ferreira de Toledo) buying from Felippe
+  Barbosa Castro
+record_type: Notarial property deed (escritura de venda), certified copy (traslado)
+record_category: court_or_probate
+source_form: derivative
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1862-08-02"
+event_place_text: >-
+  Fazenda da Concórdia, Districto do Rio Pardo, Serra da Cidade Leopoldina,
+  Comarca de Rio Novo, Minas Gerais, Brazil
+repository:
+  name: FamilySearch (Brazil, Minas Gerais, Properties)
+  archive_or_registry: >-
+    Leopoldina Notarial / Property Records (Livro 11 de Notas do 2º Ofício,
+    fl. 51)
+  collection: >-
+    Brazil, Minas Gerais, Properties, from 10 January 1500 to 1997
+    (FamilySearch Full-Text OCR corpus, ARK 3:1:3QHJ-RQWY-RZLV)
+  book: >-
+    Livro 11 de Notas do 2º Ofício, fl. 51 — Traslado da Escritura de venda
+    da Fazenda da Concórdia
+  catalogue_reference: >-
+    FamilySearch ARK 3:1:3QHJ-RQWY-RZLV (Full-Text image).
+    Retrieved 2026-08-05 by the external retrieval agent.
+access_date: "2026-08-05"
+language: pt
+transcription: >-
+  [Traslado da Escritura de venda — Lº 11 de Notas do 2º Off.º f. 51;
+  FamilySearch ARK 3:1:3QHJ-RQWY-RZLV.]
+
+  Traslado da Escritura de venda de uma Fazenda que Felippe Barbosa Castro e
+  sua mulher fizão a Dona Mathilde Maria de Jesus e seus filhos como abaixo se
+  declara:
+
+  Escritura de venda de uma Fazenda denominada Concordia, que Felippe Barbosa
+  Castro e sua mulher fazem a Dona Mathilde Maria de Jesus, viúva de Ladisláo
+  Egídio Ferreira de Toledo, por si como meeira, e também como inventariante e
+  cabeça do casal, em nome de todos seus filhos, pela quantia de seis contos de
+  réis. Saibam quantos esta virem que no anno do Nascimento de Nosso Senhor Jesus
+  Christo de mil oitocentos setenta e dois [leitura: "se tenta e dois" no original,
+  consistente com 1862] aos dois dias do mez de Agosto, nesta Fazenda denominada
+  Concordia, no Districto do Rio Pardo, e Serra da Cidade Leopoldina, Comarca de
+  Rio Novo, Mineiras [sic], aonde foi chamado, perante mim Tabellião... vendedores:
+  Felippe Barbosa Castro e sua mulher Dona Maria Francisca da Misericórdia,
+  moradores na Freguesia do Alegre, da Villa de São Pedro do Cachoeiro de
+  Itapemirim, sendo da Comarca do mesmo nome e Província do Espírito Santo,
+  representados por seu bastante procurador José Antonio Oliveira, morador neste
+  Districto... e como compradora Dona Mathilde Maria de Jesus, viúva de Ladisláo
+  Egídio Ferreira [de Toledo]...
+
+  [Nota: o manuscrito escreve "mil oitocentos se tenta e dois" que se lê como
+  1862; a nota de margem no original também indica "1862 — 2 de Agosto".]
+abstract: >-
+  Certified copy (traslado) of the deed of sale by which Felippe Barbosa Castro
+  and his wife Dona Maria Francisca da Misericórdia (from the Comarca of
+  Cachoeiro de Itapemirim, Espírito Santo) sold the Fazenda da Concórdia in the
+  Districto do Rio Pardo (Leopoldina, Comarca de Rio Novo, Minas Gerais) to Dona
+  Mathilde Maria de Jesus, acting as widow, estate administrator (inventariante)
+  and head of the conjugal estate, on behalf of all her children, for the sum of
+  six contos de réis, on 2 August 1862. Matilde is explicitly identified as the
+  widow (viúva) of Ladisláo Egídio Ferreira de Toledo, establishing that Ladisláo
+  died before 2 August 1862.
+reliability:
+  assessment: >-
+    A certified copy of an original notarial deed, primary information for the
+    facts it attests: the purchase date (2 August 1862), the parties, and
+    Matilde's status as Ladisláo's widow. The 1862 date is confirmed by both the
+    text and the margin annotation on the image. This tightens the previously
+    known death bound for Ladisláo from "before 1877" (PRB-0004) to
+    "before 2 August 1862."
+  informant: >-
+    The Tabelião (notary) of the 2º Ofício, Leopoldina, recording the deed and
+    certifying the traslado.
+  limitations: >-
+    The year as written ("se tenta e dois") could theoretically be read as 1872,
+    but the margin annotation "1862" and the chronology (Matilde already deceased
+    by 1879 per PRB-0006) confirm 1862. The deed is a traslado (copy), not the
+    original; the Provedoria/Juízo book location would be the original.
+digital_file:
+  path: >-
+    evidence/probate/PRB-0007-concordia-purchase-deed-1862-matilde-toledo.jpg
+  sha256: 01baac83e99c52df996751159e7ac07a69ec076e3792d3c8a248ebbf87b33203
+linked_people:
+  - P-0027
+  - P-0056
+linked_families:
+  - F-0027
+linked_events: []
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Retrieved 2026-08-05 as FamilySearch Full-Text image ARK 3:1:3QHJ-RQWY-RZLV
+      (classified in the retrieval CSV as "Property Partition, 1876" — both
+      characterisations are wrong; the image is a purchase deed dated 1862, not a
+      partition, not 1876). The genealogical significance is the tighter death bound
+      for Ladisláo: the previous lower bound was "before 1877" (named as "finado" in
+      the 1877 Concórdia deed PRB-0004). This deed places his death before
+      2 August 1862, fifteen years earlier.
+  - text: >-
+      Sellers are from Espírito Santo (Cachoeiro de Itapemirim comarca), not
+      Toledo/Armond family members — this is a third-party sale, not an
+      inter-family transfer. The Fazenda da Concórdia that Matilde acquired in
+      1862 is the same estate later documented in the 1877 deed cluster
+      (PRB-0003/PRB-0004) and in Matilde's 1879 estate inventory (PRB-0006).

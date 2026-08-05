@@ -1,0 +1,104 @@
+schema_version: 1
+id: PAR-0023
+title: >-
+  Parish marriage of Ladisláo Egídio Ferreira de Toledo and Mathilde Maria de
+  Jesus (8 May 1810, São João del Rei matriz), naming both parents' sets
+record_type: Parish marriage register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1810-05-08"
+event_place_text: >-
+  Matriz de Nossa Senhora do Pilar, São João del Rei, Minas Gerais, Brazil
+repository:
+  name: >-
+    FamilySearch (Brazil, Minas Gerais, São João del Rei Catholic Church Records)
+  archive_or_registry: >-
+    Matriz Paroquial de Nossa Senhora do Pilar de São João del Rei (Diocese de
+    Mariana / São João del Rei)
+  collection: >-
+    Brazil, Minas Gerais, São João del Rei Catholic Church Records (FamilySearch
+    collection; section M5FX-MNT, open access ThemisPrmAnyone)
+  book: >-
+    Livro de casamentos, São João del Rei Matriz — folio 252, image 238/260
+  catalogue_reference: >-
+    FamilySearch ARK 3:1:939N-GW99-VX, section M5FX-MNT, folio 252 (image
+    238/260). Retrieved 2026-08-05 by the external retrieval agent.
+access_date: "2026-08-05"
+language: pt
+transcription: >-
+  [Casamento — Livro de casamentos, Matriz de São João del Rei, folio 252;
+  FamilySearch ARK 3:1:939N-GW99-VX (M5FX-MNT, img 238/260). Transcribed from
+  the published genealogy "João Pereira Themudo" Cap. 2º (secondary source),
+  confirmed field-by-field against the original image — zero discrepancies.]
+
+  Aos 8 de Maio de mil oito centos e dez na Matriz desta Vila se casaram por
+  palavras de presente com licença do Reverendíssimo Vigário da Vara desta
+  Comarca, sem impedimento algum depois de proclamados no tempo costumado,
+  Ladislau Egídio Ferreira de Toledo, filho legítimo do Capitão Joaquim José
+  Ferreira de Toledo e de D. Rita Angélica Rodrigues, com D. Mathildes Maria de
+  Jesus, filha legítima do Alferes Amaro da Silva Xavier e de Ignez Francisca de
+  Lima, naturais e batizados da Freguesia de Barbacena. Testemunhas: Tenente
+  Coronel Caetano José de Almeida e Furriel Cezário José da Silva (alias Cezário
+  José da Silva Lima). [cláusula final: ...? primos ... na Ermida da Senhora dos
+  Dory desta Vila — a palavra antes de "na Ermida" é de leitura incerta; pode
+  ler-se "primos", o que implicaria uma dispensação de consanguinidade.]
+abstract: >-
+  Marriage on 8 May 1810 at the São João del Rei matriz of Ladisláo Egídio
+  Ferreira de Toledo (P-0056), son of Cap. Joaquim José Ferreira de Toledo
+  (P-0057) and D. Ritta Angélica Rodrigues (P-0058), with Mathilde Maria de
+  Jesus (P-0027), daughter of Alferes Amaro da Silva Xavier (P-0059) and Ignez
+  Francisca de Lima (P-0060). Both spouses are stated to be born and baptised in
+  the Freguesia de Barbacena (naturais e batizados). This record is the primary
+  source for Matilde's parentage and the primary confirmation of this marriage;
+  it also supplies a second attestation of Ladisláo's parentage (already
+  confirmed by his 1787 baptism, PAR-0019). The negative result in the Barbacena
+  Piedade marriage books (1793–1826) is explained by the couple marrying at São
+  João del Rei rather than in either spouse's home parish.
+reliability:
+  assessment: >-
+    An original parish register entry, primary information for both spouses'
+    parentage and the marriage date and place. The Themudo transcription (published
+    genealogy, secondary source) was confirmed against all legible fields of the
+    original image with zero discrepancies. One word in the closing clause is
+    uncertain ("primos"?) and should be verified against a higher-resolution
+    scan or in-person inspection.
+  informant: >-
+    The parish priest or vicar of the São João del Rei matriz recording the
+    marriage as an officer of the church.
+  limitations: >-
+    One uncertain word in the closing clause (possible consanguinity dispensation).
+    Transcription confirmed via secondary source (Themudo); a complete independent
+    transcription from the original is desirable.
+digital_file:
+  path: >-
+    evidence/parish/PAR-0023-ladislao-toledo-matilde-jesus-marriage-1810-sjodrei.jpg
+  sha256: d474f3d9ad457a05b8b8a3a54081815ccd478d574bad52b93e81352d609d5f0f
+linked_people:
+  - P-0056
+  - P-0027
+  - P-0057
+  - P-0058
+  - P-0059
+  - P-0060
+linked_families:
+  - F-0027
+  - F-0029
+linked_events:
+  - E-0052
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Retrieved 2026-08-05 by the external FamilySearch retrieval agent (ARK
+      3:1:939N-GW99-VX, section M5FX-MNT, image 238/260, folio 252). This is the
+      primary source resolving the two outstanding questions flagged after the
+      §11 Barbacena marriage-book sweep: (1) why the Ladisláo × Matilde marriage
+      was not in the Barbacena books (they married at São João del Rei instead);
+      and (2) Matilde's parents (Alferes Amaro da Silva Xavier × Ignez Francisca
+      de Lima, both of Barbacena), which were previously the single open item on
+      the Toledo apical couple.

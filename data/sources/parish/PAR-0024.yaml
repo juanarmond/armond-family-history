@@ -1,0 +1,102 @@
+schema_version: 1
+id: PAR-0024
+title: >-
+  Parish marriage of Manoel Muniz Byttancourt and Francisca Roza do Espírito
+  Santo (1 February 1845, Nossa Senhora Mãe de Deus, Povoação, São Miguel)
+record_type: Parish marriage register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1845-02-01"
+event_place_text: >-
+  Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel,
+  Açores, Portugal
+repository:
+  name: Arquivo de Culturacores (Região Autónoma dos Açores)
+  archive_or_registry: >-
+    Paróquia de Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Diocese
+    de Angra do Heroísmo)
+  collection: >-
+    SMG-PV-MAEDEDEUS-C-1841-1854 (Livro de casamentos, N.S. Mãe de Deus,
+    Povoação, 1841–1854), browsed via Culturacores CDN 2026-08-05
+  book: >-
+    Livro de casamentos SMG-PV-MAEDEDEUS-C-1841-1854 — folio 73r, scan image 74
+    (two-page spread 72v + 73r)
+  catalogue_reference: >-
+    Culturacores SMG-PV-MAEDEDEUS-C-1841-1854, folio 73r (scan image 74).
+    Retrieved 2026-08-05 by the external retrieval agent.
+access_date: "2026-08-05"
+language: pt
+transcription: >-
+  [Casamento — Livro SMG-PV-MAEDEDEUS-C-1841-1854, N.S. Mãe de Deus, Povoação;
+  folio 73r (scan image 74, right page). Transcription partial — parent names
+  not clearly legible at scan resolution.]
+
+  Como primeiro dia de Fevereiro de mil oitocentos quarenta e cinco... [texto do
+  acto contendo] Manoel [Muniz] Byttancourt, filho de [ilegível] e de [ilegível];
+  e Francisca Roza [do Espírito Santo], filha de [ilegível] e de [ilegível]...
+  [Cura?] José Pires [Loreto?].
+
+  [Nota: anotação de margem na página: "Roza d[o Espírito Santo?]" — o apelido
+  marital da nubente usado como índice de margem.]
+  [Nota: página p2 (folio 73v, scan image 75) é um acto diferente do mesmo dia
+  1 de Fevereiro de 1845 para um outro casal (Francisco × Francisca) — NÃO é
+  continuação do nosso acto, que está contido integralmente no folio 73r.]
+abstract: >-
+  Marriage on 1 February 1845 at Nossa Senhora Mãe de Deus, Povoação, São Miguel,
+  of Manoel Muniz Byttancourt (P-0042) and Francisca Roza do Espírito Santo
+  (P-0047). The marriage date is exactly nine months before their son João's
+  birth on 24 October 1845 (PAR-0022), consistent with timing. Both spouses'
+  parents are present in folio 73r but not legible at current scan resolution.
+  The bride's father initial tentatively reads "J" (consistent with José
+  Pacheco, the working hypothesis from PAR-0022 context indicators), and a
+  witness signature reads "António [José?] Pacheco." The marriage act is
+  fully contained in folio 73r; folio 73v (p2) is a second, unrelated marriage
+  also dated 1 February 1845.
+reliability:
+  assessment: >-
+    An original parish register entry, primary evidence for the marriage date and
+    the identity of the couple. The marriage itself is confirmed; the parents of
+    both spouses are present in the act but illegible at current scan resolution
+    and must not be promoted until the full-resolution image or a paleographer
+    reading confirms the names.
+  informant: >-
+    The parish priest or cura of N.S. Mãe de Deus, Povoação, recording the
+    marriage as an officer of the church.
+  limitations: >-
+    Parent names of both spouses are illegible at scan resolution. A higher-
+    resolution image or in-person reading at BPARPD Ponta Delgada is required to
+    confirm the Pacheco hypothesis or the FS Tree alternative for Francisca Roza's
+    parents. Do not promote either hypothesis to a person entity until the folio
+    73r body text is legibly read.
+digital_file:
+  path: >-
+    evidence/parish/PAR-0024-manoel-muniz-francisca-roza-marriage-1845-saomiguel-p1.jpg
+  sha256: 262cb5fe2a5653be7af8ce8358bee89765128c253bbf949ce54388fc4d24f308
+linked_people:
+  - P-0042
+  - P-0047
+linked_families:
+  - F-0020
+linked_events:
+  - E-0053
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Retrieved 2026-08-05 by the external retrieval agent browsing the
+      Culturacores SMG-PV-MAEDEDEUS-C-1841-1854 book. Two images were kept:
+      p1 (folio 72v + 73r spread, containing the marriage act on 73r) and p2
+      (folio 73v + 74r spread, which is a different couple on 73v and unrelated
+      on 74r). The p2 file is retained for completeness as
+      PAR-0024-…-p2.jpg but contains no direct-line genealogical data; the
+      informative scan is p1.
+  - text: >-
+      The discovery that Manoel and Francisca Roza married on 1 February 1845
+      confirms the timing of João's birth (24 October 1845 = 8.7 months after
+      the wedding) and resolves the prior note on F-0020 that no marriage record
+      had been located for this couple.

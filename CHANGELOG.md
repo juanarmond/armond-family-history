@@ -7,6 +7,20 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Catalogue **PAR-0023** (Ladisláo Egídio Ferreira de Toledo × Mathilde Maria de
+  Jesus marriage, 8 May 1810, São João del Rei; ARK 3:1:939N-GW99-VX). **PRIMARY
+  source confirming Matilde's parents: Alferes Amaro da Silva Xavier (P-0059) ×
+  Ignez Francisca de Lima (P-0060)** — the last open item on the Toledo apical
+  couple. New entities: P-0059, P-0060, F-0029 (Amaro × Ignez family), E-0052
+  (marriage event). Explains prior bounded-negative Barbacena sweep: couple married
+  at SJdRei, not Barbacena.
+- Catalogue **PAR-0024** (Manoel Muniz Byttancourt × Francisca Roza do Espírito
+  Santo marriage, 1 Feb 1845, N.S. Mãe de Deus, Povoação, São Miguel;
+  SMG-PV-MAEDEDEUS-C-1841-1854, folio 73r). Marriage confirmed; event **E-0053**
+  created. Parents present but illegible at scan resolution. F-0020 updated.
+- Catalogue **PRB-0007** (1862 traslado of Fazenda da Concórdia purchase deed, ARK
+  3:1:3QHJ-RQWY-RZLV). Tightens Ladisláo's (P-0056) death bound from before 1877
+  → **before 2 August 1862**.
 - Catalogue **PAR-0022** (João Muniz Bittencourt's own 1845 baptism, N.S. Mãe de
   Deus, Povoação, São Miguel; DGS 5228858 img 63) and event **E-0051**. Birth year
   confirmed as 1845 (corrects c.1847 estimate). **Francisca Roza do Espirito Santo

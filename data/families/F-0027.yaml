@@ -8,16 +8,19 @@ partners:
 partner_relationship:
   status: confirmed
   source_ids:
+  - PAR-0023
   - PRB-0004
   - PAR-0017
+  - PRB-0007
   notes:
   - text: >-
-      Mathilde Maria de Jesus and Ladisláo Egydio Ferreira de Toledo are named as the
-      married grandparent couple ("seus finados avós Dona Mathilde Maria de Jesus e
-      Ladisláo Egydio Ferreira de Toledo") in the 1877 Concórdia/São Bento deed
-      (PRB-0004); Mathilde's own 1879 estate inventory is PRB-0006. Their 1821 joint
-      daughter Carolina's baptism (PAR-0017) independently attests the union and
-      places the couple at Barbacena (Piedade da Borda do Campo) in 1821.
+      The marriage is now directly confirmed by the 1810 São João del Rei marriage
+      record (PAR-0023, event E-0052): Ladisláo Egídio Ferreira de Toledo married
+      Mathilde Maria de Jesus on 8 May 1810. Corroborated by the 1877 Concórdia/São
+      Bento deed (PRB-0004, naming them as "finados avós"), the 1821 daughter
+      Carolina's baptism (PAR-0017, placing the couple at Barbacena in 1821), and
+      the 1862 Fazenda da Concórdia purchase deed (PRB-0007, identifying Matilde
+      as widow of Ladisláo with his death therefore before 2 August 1862).
 children:
 - person_id: P-0054
   parent_relationships:
@@ -67,7 +70,8 @@ documented_children:
     Son of Mathilde and the inventariante of her 1879 estate (married to Maria José
     de Jesus). A DISTINCT person from his brother José Cezário de Toledo Lima
     (P-0054, Eliza's father) — the near-identical names are a documented trap.
-event_ids: []
+event_ids:
+- E-0052
 notes:
 - text: >-
     Parents of José Cezário de Toledo Lima (P-0054) and grandparents of Eliza Balbina

@@ -1,0 +1,39 @@
+schema_version: 1
+id: E-0052
+event_type: marriage
+date:
+  kind: exact
+  value: "1810-05-08"
+place_text: >-
+  Matriz de Nossa Senhora do Pilar, São João del Rei, Minas Gerais, Brazil
+  (Ermida de Nossa Senhora dos Dores/Dory desta Vila)
+participants:
+- person_id: P-0056
+  role: principal
+- person_id: P-0027
+  role: principal
+- person_id: P-0057
+  role: parent
+- person_id: P-0058
+  role: parent
+- person_id: P-0059
+  role: parent
+- person_id: P-0060
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0023
+notes:
+- text: >-
+    Marriage of Ladisláo Egídio Ferreira de Toledo (P-0056) and Mathilde Maria de
+    Jesus (P-0027) on 8 May 1810 at the São João del Rei matriz. Both spouses were
+    born and baptised in Barbacena. PAR-0023 also names the parents: groom's parents
+    Capitão Joaquim José Ferreira de Toledo (P-0057) and D. Ritta Angélica Rodrigues
+    (P-0058); bride's parents Alferes Amaro da Silva Xavier (P-0059) and Ignez
+    Francisca de Lima (P-0060). Witnesses: Tenente Coronel Caetano José de Almeida
+    and Furriel Cezário José da Silva (alias Cezário José da Silva Lima).
+- text: >-
+    The closing clause of the marriage act contains an uncertain word before "na
+    Ermida da Senhora dos Dory desta Vila" that may read "primos" (cousins) —
+    if so, a consanguinity dispensation was granted for this marriage.
+    This word requires a second read of the full-resolution image to confirm.

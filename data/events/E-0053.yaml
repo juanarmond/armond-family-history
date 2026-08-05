@@ -1,0 +1,28 @@
+schema_version: 1
+id: E-0053
+event_type: marriage
+date:
+  kind: exact
+  value: "1845-02-01"
+place_text: >-
+  Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel,
+  Açores, Portugal
+participants:
+- person_id: P-0042
+  role: principal
+- person_id: P-0047
+  role: principal
+status: confirmed
+source_ids:
+- PAR-0024
+notes:
+- text: >-
+    Marriage of Manoel Muniz Bytancourt (P-0042) and Francisca Roza do Espirito
+    Santo (P-0047) on 1 February 1845 at Nossa Senhora Mãe de Deus, Povoação, São
+    Miguel (Açores). Source is folio 73r of the book SMG-PV-MAEDEDEUS-C-1841-1854
+    (Culturacores). The date is exactly 9 months before their son João's birth
+    (24 October 1845, PAR-0022), confirming the timing. Both parents' names are
+    present in the act but illegible at current scan resolution; the bride's father
+    initial tentatively reads "J" (consistent with José Pacheco, the working
+    hypothesis), and a witness signature reads "António [José?] Pacheco."
+    The officiating priest appears to be the Cura José Pires [Loreto?].

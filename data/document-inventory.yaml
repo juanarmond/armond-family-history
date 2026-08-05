@@ -2155,3 +2155,118 @@ documents:
         José Ferreira de Toledo" x Ritta Angélica Rodrigues; the clearer of the two
         sisters' marriages, settling the "João José" forename and the Capitão title.
         Documented child on F-0028. All named persons long deceased.
+  - inventory_id: DOC-0055
+    status: catalogued
+    added_date: "2026-08-05"
+    apparent_record_type: Parish marriage register entry
+    apparent_people:
+      - Ladisláo Egídio Ferreira de Toledo
+      - Mathilde Maria de Jesus
+      - Amaro da Silva Xavier
+      - Ignez Francisca de Lima
+      - Joaquim José Ferreira de Toledo
+      - Ritta Angélica Rodrigues
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      FamilySearch, section M5FX-MNT, ARK 3:1:939N-GW99-VX, folio 252, image
+      238/260 (open access ThemisPrmAnyone). Retrieved 2026-08-05 by the external
+      FamilySearch retrieval agent.
+    rights_status: unknown
+    files:
+      - path: evidence/parish/PAR-0023-ladislao-toledo-matilde-jesus-marriage-1810-sjodrei.jpg
+        sha256: d474f3d9ad457a05b8b8a3a54081815ccd478d574bad52b93e81352d609d5f0f
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 4470
+          pixel_height: 3627
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0023
+    notes:
+      - >-
+        Marriage of Ladisláo Egídio Ferreira de Toledo × Mathilde Maria de Jesus,
+        8 May 1810, São João del Rei matriz. Primary source for Matilde's parentage
+        (Alferes Amaro da Silva Xavier × Ignez Francisca de Lima, both naturais de
+        Barbacena). All persons deceased.
+  - inventory_id: DOC-0056
+    status: catalogued
+    added_date: "2026-08-05"
+    apparent_record_type: Parish marriage register entry (2-page spread, folio 73r)
+    apparent_people:
+      - Manoel Muniz Byttancourt
+      - Francisca Roza do Espírito Santo
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      Culturacores CDN (Arquivo dos Açores), book SMG-PV-MAEDEDEUS-C-1841-1854,
+      folio 73r, scan image 74. Retrieved 2026-08-05 by the external retrieval agent.
+    rights_status: unknown
+    files:
+      - path: evidence/parish/PAR-0024-manoel-muniz-francisca-roza-marriage-1845-saomiguel-p1.jpg
+        sha256: 262cb5fe2a5653be7af8ce8358bee89765128c253bbf949ce54388fc4d24f308
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1794
+          pixel_height: 1307
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/parish/PAR-0024-manoel-muniz-francisca-roza-marriage-1845-saomiguel-p2.jpg
+        sha256: 17cf48b31735e0a5c3436db935c1bb3a16118b65c17624cc9498abb286957db6
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1794
+          pixel_height: 1307
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0024
+    notes:
+      - >-
+        Marriage of Manoel Muniz Byttancourt × Francisca Roza do Espírito Santo,
+        1 February 1845, N.S. Mãe de Deus, Povoação, São Miguel. Parent names
+        present in folio 73r but not legible at current scan resolution. p2 (folio
+        73v) is a second, unrelated marriage; retained for completeness. All persons deceased.
+  - inventory_id: DOC-0057
+    status: catalogued
+    added_date: "2026-08-05"
+    apparent_record_type: Traslado (certified copy) of notarial purchase deed
+    apparent_people:
+      - Mathilde Maria de Jesus
+      - Ladisláo Egídio Ferreira de Toledo
+    apparent_event: probate
+    image_quality: adequate
+    provenance: >-
+      FamilySearch Full-Text image, ARK 3:1:3QHJ-RQWY-RZLV (Brazil, Minas Gerais,
+      Properties corpus). Retrieved 2026-08-05 by the external retrieval agent.
+    rights_status: unknown
+    files:
+      - path: evidence/probate/PRB-0007-concordia-purchase-deed-1862-matilde-toledo.jpg
+        sha256: 01baac83e99c52df996751159e7ac07a69ec076e3792d3c8a248ebbf87b33203
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3102
+          pixel_height: 4185
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PRB-0007
+    notes:
+      - >-
+        Traslado of the 1862 Fazenda da Concórdia purchase deed; Matilde as buyer
+        acting as widow and inventariante of Ladisláo's estate. Tightens Ladisláo's
+        death bound from "before 1877" (PRB-0004) to "before 2 August 1862." All
+        persons deceased.
