@@ -215,9 +215,13 @@ function createPersonCard(person, relationship, options = {}) {
 
   const meta = document.createElement("span");
   meta.className = "card-meta";
-  if (relationship) meta.append(createBadge(vocab("status", status), status));
+  if (relationship) {
+    const label = person.hasConflict ? `${vocab("status", status)} ⚠` : vocab("status", status);
+    meta.append(createBadge(label, status));
+  } else if (person.hasConflict) {
+    meta.append(createBadge(t("badge.conflict"), "conflict"));
+  }
   if (person.sourceCount) meta.append(createBadge(tn("badge.source", person.sourceCount, { n: person.sourceCount })));
-  if (person.hasConflict) meta.append(createBadge(t("badge.conflict"), "conflict"));
   if (person.privacy === "living") meta.append(createBadge(t("badge.private")));
 
   button.append(avatar, main, meta);
