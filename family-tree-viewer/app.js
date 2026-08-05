@@ -279,9 +279,14 @@ function createTreeNode(personId, relationship, depth, path, globalSeen) {
 
   if (repeated || path.has(personId)) return li;
 
+  const sexOrder = { male: 0, female: 1, unknown: 2 };
   const parents = (state.data.parentsByChild[personId] || [])
     .filter(relationshipVisible)
-    .sort((a, b) => state.data.people[a.parentId]?.name.localeCompare(state.data.people[b.parentId]?.name || "") || 0);
+    .sort((a, b) => {
+      const sa = sexOrder[state.data.people[a.parentId]?.sex] ?? 2;
+      const sb = sexOrder[state.data.people[b.parentId]?.sex] ?? 2;
+      return sa !== sb ? sa - sb : state.data.people[a.parentId]?.name.localeCompare(state.data.people[b.parentId]?.name || "") || 0;
+    });
 
   if (!parents.length) return li;
 
