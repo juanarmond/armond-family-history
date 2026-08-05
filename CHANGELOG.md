@@ -7,6 +7,12 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Catalogue **PAR-0022** (João Muniz Bittencourt's own 1845 baptism, N.S. Mãe de
+  Deus, Povoação, São Miguel; DGS 5228858 img 63) and event **E-0051**. Birth year
+  confirmed as 1845 (corrects c.1847 estimate). **Francisca Roza do Espirito Santo
+  (P-0047) upgraded to confirmed mother** of João (P-0019) — first direct
+  attestation; previously strong-evidence only. F-0020 parent relationships updated.
+
 - Add a **dedicated mobile layout** to the family-tree viewer. Below 700px the
   horizontal pedigree is replaced by a phone-native **focus view**: one person
   centred at a time with tappable rows for parents, partners, children and siblings,

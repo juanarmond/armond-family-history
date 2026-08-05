@@ -5,6 +5,10 @@ privacy: deceased
 sex: male
 nationality: Portuguese
 name_variants:
+- value: João
+  type: source
+  source_ids:
+  - PAR-0022
 - value: João Monis Bittencourt
   type: source
   source_ids:
@@ -19,6 +23,7 @@ name_variants:
   - PAR-0013
   - PAR-0014
 event_ids:
+- E-0051
 - E-0006
 - E-0034
 - E-0036
@@ -28,6 +33,13 @@ family_ids:
 - F-0020
 notes:
 - text: Ahnentafel position 24.
+- text: >-
+    Birth year confirmed as 1845 by his own baptism (PAR-0022): entry Nº 5, fol.
+    59, N.S. Mãe de Deus, Povoação (DGS 5228858 img 63). The act reads "nasceu
+    em vinte [e] quatro do [?] mez oito[centos] quarenta e cinco" — day 24, year
+    1845; the month is illegible. This corrects the c.1847 estimate derived from
+    his death record's stated age (PAR-0007) and the FS profile's unsubstantiated
+    1864 date.
 - text: >-
     His son Deocleciano's 1892 Sapucaia baptism (PAR-0004) records the father as
     "João Muniz Bitencourt", settling the José-vs-João question (the 1882

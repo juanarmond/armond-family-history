@@ -1,0 +1,107 @@
+schema_version: 1
+id: PAR-0022
+title: >-
+  Parish baptism of João [Muniz Byttancourt] (entry Nº 5, 1845, Nossa Senhora Mãe
+  de Deus, Povoação, Ilha de São Miguel), naming his parents Manoel Byttancourt
+  and Francisca Roza do Espirito Santo
+record_type: Parish baptism register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: year
+  year: 1845
+event_place_text: >-
+  Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel,
+  Açores, Portugal
+repository:
+  name: FamilySearch (Portugal, Açores, Catholic parish registers)
+  archive_or_registry: >-
+    Paróquia de Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Diocese
+    de Angra do Heroísmo)
+  collection: >-
+    Portugal, Açores, registos paroquiais (FamilySearch collection, DGS 5228858)
+  book: >-
+    Livro de baptismos, Nossa Senhora Mãe de Deus (Povoação) — baptism act Nº 5,
+    fol. 59; DGS 5228858, image 63
+  catalogue_reference: >-
+    FamilySearch DGS 5228858, Povoação (N.S. Mãe de Deus) baptisms, fol. 59,
+    entry Nº 5 "João". Retrieved 2026-08-05 by the external retrieval agent.
+access_date: "2026-08-05"
+language: pt
+transcription: >-
+  [Baptismo — Livro de batismos, N.S. Mãe de Deus, Povoação, São Miguel; DGS
+  5228858 img 63, fol. 59; acto Nº 5.]
+
+  Nº 5 — João — [cabeçalho do acto]
+
+  [Texto do acto, leitura parcial:] [?] de Manoel [Muniz?] Byttancourt e sua
+  mulher Francisca Roza do Espirito Santo naturais [?] [?] [?] [?] [?] João
+  [Muniz?] [?] e Maria [?] [?] [?] naturais [?] [?]. [?] [?]; e termos de [?]
+  nasceu em vinte [e] quatro do [?] mez oito[centos] quarenta e cinco; e foram
+  baptizados em o mesmo [dia?] como era [?] nascimento [?] [?] [?] [?] [?] [?]
+  Parochia [?] dos Padrinhos Antonio [?] [?] Salinas e Claudino [?] [?] [?]
+  desta referida Parochia. serviu de testemunha [?] João [?] de Mello, e Padre
+  Augusto Pacheco [?] e para constar fiz este livro [?].
+
+  [Assinaturas:] [Cura?] [?] [?] [?]; [?] Jacinto [Botelho?] de [?] Bulhões
+  [?]; Egz[?] Augusto P[?].
+
+  [Nota: acto conjunto — "foram baptizados em o mesmo [dia]" indica um
+  irmão/irmã baptizado(a) no mesmo dia; o irmão Manoel é mencionado no plano de
+  investigação como o segundo batizando.]
+abstract: >-
+  Parish baptism entry Nº 5 for a child named João, born on the 24th of an
+  illegible month of 1845 (day and year legible; month illegible), in the
+  freguesia of Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores).
+  His parents are named as Manoel [Muniz?] Byttancourt and Francisca Roza do
+  Espirito Santo. The entry is a joint baptism ("foram baptizados em o mesmo
+  dia"); the sibling baptised on the same day is identified by the retrieval agent
+  as Manoel. The paternal grandparents are partially legible in the entry as João
+  [?] and Maria [?] de [?], consistent with P-0048 (João Muniz Bytancourt) and
+  P-0049 (Maria Jacintha de Medeiros). Godparents: Antonio [?] Salinas and
+  Claudino [?]. Signed by the vicar and witnesses including João Jacinto [Botelho?]
+  de Bulhões and Padre Augusto Pacheco [?].
+reliability:
+  assessment: >-
+    An original parish register entry, primary evidence for the birth year 1845
+    and the direct naming of both parents. The month of birth is illegible; the
+    year 1845 is read from "oito[centos] quarenta e cinco". The entry confirms
+    Francisca Roza do Espirito Santo as João's mother directly (upgrading her
+    maternity from strong-evidence, based only on Manoel's 1866 death, to
+    confirmed). The ink and script are typical of Azorean parish registers of the
+    mid-nineteenth century; some passages are partially illegible due to fading.
+  informant: >-
+    The parish priest of N.S. Mãe de Deus, Povoação, recording the baptism as
+    an officer of the church.
+  limitations: >-
+    Month of birth illegible. Some words in the body of the act are difficult to
+    read (fading). The surname of the child and father is partially illegible (the
+    "Byttancourt" spelling matches PAR-0015). Grandparents are partially legible
+    but not fully transcribed.
+digital_file:
+  path: >-
+    evidence/parish/PAR-0022-joao-muniz-bittencourt-baptism-1845-saomiguel.jpg
+  sha256: 821b347b65a8b98275d1edaea8d3d4f22138f07e2472bd9e27c5b62a0817ff22
+linked_people:
+  - P-0019
+  - P-0042
+  - P-0047
+linked_families:
+  - F-0020
+linked_events:
+  - E-0051
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Retrieved 2026-08-05 by the external FamilySearch retrieval agent (DGS
+      5228858, img 63). This is João Muniz Bittencourt's own baptism — the record
+      sought since 2026-07-31, when the full Sapucaia baptism books were read and
+      João was found to be Azorean-born. Birth year 1845 corrects both the FS
+      profile (b.1864) and the ~c.1847 estimate from his death record age (PAR-0007).
+      The earlier "bounded negative" for João's baptism in the 1846-49 Povoação
+      browse (2026-08-01) is now explained: the image was found at img 63 (fol. 59),
+      which is within the ~1843-46 range of that volume.

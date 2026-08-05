@@ -22,28 +22,31 @@ children:
     relationship_type: biological
     status: confirmed
     source_ids:
+    - PAR-0022
     - PAR-0007
     notes: []
   - parent_id: P-0047
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
+    - PAR-0022
     - PAR-0007
     - PAR-0015
     notes:
     - text: >-
-        João's paternity (Manoel) is confirmed by his 1915 óbito (PAR-0007), which
-        did not name his mother. Francisca is taken to be his mother indirectly:
-        Manoel's 1866 death (PAR-0015) names her as his wife and the mother of his
-        "oito filhos", and João (b. c.1847) was one of those children — hence
-        strong-evidence rather than confirmed.
+        Confirmed by João's own 1845 baptism (PAR-0022), which names Francisca Roza
+        do Espirito Santo directly as his mother. Previously strong-evidence only
+        (Manoel's 1866 death PAR-0015 named her as wife and mother of his "oito
+        filhos", and João's own óbito PAR-0007 did not name her); his baptism now
+        provides direct attestation.
   notes: []
 event_ids: []
 notes:
 - text: >-
     João Muniz Bittencourt (P-0019) is the child of Manoel Muniz Bytancourt (P-0042)
     and Francisca Roza do Espirito Santo (P-0047), of Nossa Senhora Mãe de Deus,
-    Povoação, Ilha de São Miguel (Açores, Portugal). Manoel's 1866 óbito (PAR-0015)
+    Povoação, Ilha de São Miguel (Açores, Portugal). João's own 1845 baptism
+    (PAR-0022) now directly confirms both parents. Manoel's 1866 óbito (PAR-0015)
     records the couple and that they left "oito filhos"; João's own 1915 óbito
-    (PAR-0007) confirms his paternity. The couple's other seven children are not
+    (PAR-0007) corroborates his paternity. The couple's other seven children are not
     evidenced by the located records, so only João is modelled here.

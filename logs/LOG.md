@@ -939,3 +939,17 @@ entry they amend; they must not erase it.
   collateral and full of living-person data.
 - Next action: the four grandparents' own Nova Friburgo records; the couple's
   civil marriage.
+
+## 2026-08-05 — João Muniz Bittencourt's own 1845 baptism catalogued
+
+- Question: value-gate `rec-muniz-joao-baptism-1845-saomiguel.jpg` (DGS 5228858,
+  img 63, N.S. Mãe de Deus, Povoação, São Miguel), the single new image added to
+  the retrieval drop since the last pass.
+- Detailed log:
+  [`logs/2026-08-05-joao-muniz-baptism-saomiguel.md`](2026-08-05-joao-muniz-baptism-saomiguel.md).
+- Key result: catalogued as PAR-0022 + event E-0051. Birth year confirmed as **1845**
+  (corrects c.1847 and FS's 1864). Parents named directly: Manoel Byttancourt +
+  Francisca Roza do Espirito Santo. **Francisca's maternity upgraded from
+  strong-evidence → confirmed** (first direct attestation). F-0020 updated.
+- Next action: João's birth month remains illegible in PAR-0022; Luiza's parents
+  (Azevedo line) are the next open Muniz-line gap.
