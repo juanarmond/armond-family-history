@@ -42,9 +42,23 @@ language: pt-BR
 transcription: >-
   [Inventário de Dona Mathilde Maria de Jesus, Leopoldina (MG), 1879; título de
   herdeiros. Três imagens catalogadas: folio 6 (juramento do inventariante), folio 8
-  (cabeçalho do herdeiro nº 4) e folio 9 (a filha Eliza). O inventariante é Cezário
-  José de Toledo, filho da finada — pessoa DISTINTA do herdeiro nº 4 "José Cezário de
-  Toledo Lima".]
+  (cabeçalho do herdeiro nº 4) e folio 9 (os herdeiros de JC). O inventariante é
+  [uncertain: Cazario / Cezario] José de Tolledo, filho da finada — pessoa DISTINTA do
+  herdeiro nº 4 "José Cezário de Toledo Lima". Folio 6 transcribed 2026-08-07 from
+  direct image read (PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio6-juramento.jpg).]
+
+
+  [folio 6 — Juramento ao inventariante (28 April 1879):] "Aos vinte oito dias do mez
+  de Abril de mil oitocentos e setenta e nove, n'esta Cidade Leopoldina, em a rezidencia
+  do Doutor Fernando Pinheiro de Souza Tavares, Juiz dos orfãos do Termo, sendo ahi
+  compareceo [uncertain: Cazario / Cezario] José de Tolledo, a quem o Juiz deferio o
+  juramento dos Santos Evangelhos na forma da Lei, encarregando-lhe de bem e fielmente
+  servir o Cargo de inventariante dos bens deixados por sua finada mãe Dona Mathilde —
+  digo — Maria de Jesus, fazendo todas as declarações legaes, e dando a descrição,
+  [uncertain: carregação / arrecadação] e avaliação todos os bens deixados sem occultar
+  nenhum, debaixo das penas de perjurio e de perder o dobro do valor dos que por ventura
+  sonega; e recebido por elle o juramento assim" [oath formula ends mid-sentence at bottom
+  of folio; conclusion and inventariante's signature are on folio 7, which is not catalogued.]
 
 
   [folio 8, ao pé, cabeçalho do herdeiro nº 4:] "4º José Cezario de Tolledo Lima,
@@ -93,9 +107,12 @@ reliability:
     Multi-folio handwritten process; some collateral names are uncertain reads
     (e.g. "Bulandina/Brandina", "Cazanna"). The mother is recorded only as "D.
     Claudina"; her fuller name "Claudina Brandina de Jesus" is inferred (see P-0055).
-    Only the folios naming the direct line (6, 8, 9) are catalogued here; the full
-    monte-mór and per-heir shares are elsewhere in the process. Eliza's parentage
-    remains unresolved from primary sources.
+    Only three folios are catalogued (6, 8, 9); the full monte-mór and per-heir shares
+    are elsewhere in the process. Folio 6 (juramento) ends mid-oath at the bottom of the
+    image; the oath conclusion and the inventariante's signature are on folio 7, which is
+    not catalogued. Folio 8 likely has additional folios of the herdeiros list; only the
+    portion naming heir #4's representantes is in evidence. Eliza's parentage remains
+    unresolved from primary sources.
 digital_file:
   path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio9-eliza.jpg
   sha256: 7dbf015f49d6bf5be02cf2b63457c59b48633ff768285bbaa8f9e90ee8ec7337
