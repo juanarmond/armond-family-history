@@ -112,7 +112,10 @@ linked_families:
   - F-0012
 linked_events:
   - E-0002
+  - E-0024
   - E-0028
+  - E-0029
+  - E-0030
 linked_places:
   - PL-0002
 private: true

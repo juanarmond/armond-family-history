@@ -10,7 +10,8 @@ name_variants:
   source_ids:
   - PAR-0023
   - PAR-0025
-event_ids: []
+event_ids:
+- E-0052
 family_ids:
 - F-0029
 - F-0032

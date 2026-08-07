@@ -84,7 +84,8 @@ linked_families:
   - F-0002
   - F-0004
   - F-0011
-linked_events: []
+linked_events:
+  - E-0030
 linked_places: []
 private: true
 notes:

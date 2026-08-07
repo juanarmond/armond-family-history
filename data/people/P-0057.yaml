@@ -23,7 +23,9 @@ occupations:
     Styled "Capitão João José Ferreira de Toledo" in his daughter Carolina
     Francelina's 1816 marriage (PAR-0021) — a militia/ordenanças captaincy, indicating
     local standing.
-event_ids: []
+event_ids:
+- E-0050
+- E-0052
 family_ids:
 - F-0028
 notes:

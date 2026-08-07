@@ -13,7 +13,8 @@ name_variants:
   type: other
   source_ids:
   - PAR-0016
-event_ids: []
+event_ids:
+- E-0049
 family_ids:
 - F-0025
 notes:

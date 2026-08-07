@@ -127,7 +127,8 @@ linked_families:
 - F-0006
 - F-0026
 - F-0027
-linked_events: []
+linked_events:
+- E-0054
 linked_places: []
 private: true
 notes:

@@ -90,7 +90,8 @@ linked_people:
 - P-0008
 linked_families:
 - F-0003
-linked_events: []
+linked_events:
+- E-0027
 linked_places:
 - PL-0002
 private: false

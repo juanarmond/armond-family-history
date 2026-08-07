@@ -76,7 +76,9 @@ linked_people:
 - P-0031
 linked_families:
 - F-0014
-linked_events: []
+linked_events:
+- E-0021
+- E-0022
 linked_places:
 - PL-0003
 private: true

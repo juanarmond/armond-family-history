@@ -91,6 +91,7 @@ linked_families:
   - F-0003
 linked_events:
   - E-0003
+  - E-0029
 linked_places:
   - PL-0003
 private: true
