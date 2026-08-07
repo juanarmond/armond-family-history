@@ -9,12 +9,18 @@ partner_relationship:
   status: confirmed
   source_ids:
   - PAR-0023
+  - PAR-0025
+  - PAR-0026
   notes:
   - text: >-
       Amaro da Silva Xavier and Ignez Francisca de Lima are named as the parents of
       the bride Mathilde Maria de Jesus in her 1810 São João del Rei marriage record
-      (PAR-0023): "filha legítima do Alferes Amaro da Silva Xavier e de Ignez
-      Francisca de Lima, naturais e batizados da Freguesia de Barbacena."
+      (PAR-0023): "filha legítima do Alferes Amaro da Silva Xavier e de Ignez Francisca
+      de Lima, naturais e batizados da Freguesia de Barbacena." The union is independently
+      corroborated by the 1777 Piracatu baptism of their daughter Maria (PAR-0025, primary)
+      and by the 1838 São José del-Rei baptism certidão of their granddaughter Carolina,
+      which names "Capitão Amaro da Silva Xavier e Dona Ignez Francisca de Lima" as
+      paternal grandparents of Cezário's daughter (PAR-0026, derivative).
 children:
 - person_id: P-0027
   parent_relationships:
@@ -31,11 +37,32 @@ children:
     - PAR-0023
     notes: []
   notes: []
+documented_children:
+- name: Maria
+  source_ids:
+  - PAR-0025
+  note: >-
+    Baptised 23 August 1777 at the Minas do Piracatu (Manga parish); born 12 August
+    1777. Named "Maria" only in the visible text; the label "Umbelina" in the retrieval
+    agent's filename is the agent's working hypothesis and is not confirmed by the
+    record. Any connection to "Umbelina" requires a separate source.
+- name: Cezário José da Silva Lima
+  source_ids:
+  - PAR-0026
+  note: >-
+    Capitão Cezário José da Silva Lima, confirmed son of Amaro da Silva Xavier ×
+    Ignez Francisca de Lima by the 1838 baptism certidão of his daughter Carolina
+    (PAR-0026). The same individual appears as a witness ("Furriel Cezário José da
+    Silva alias Cezário José da Silva Lima") at the 1810 Ladisláo × Mathilde marriage
+    (PAR-0023). He married Dona Joanna Umbelina de Jesus (PAR-0026).
 event_ids: []
 notes:
 - text: >-
     Parents of Mathilde Maria de Jesus (P-0027), who married Ladisláo Egídio Ferreira
-    de Toledo (P-0056) at São João del Rei on 8 May 1810. Both Amaro and Ignez are
-    identified as born and baptised in the Freguesia de Barbacena. The family's own
-    baptism and marriage records at Barbacena have not been located; the only primary
-    attestation is the 1810 marriage record of their daughter (PAR-0023).
+    de Toledo (P-0056) at São João del Rei on 8 May 1810. Their union is confirmed by
+    three independent sources: PAR-0023 (1810, Mathilde's marriage), PAR-0025 (1777,
+    primary — Maria's baptism, Piracatu), and PAR-0026 (1838 derivative — Carolina's
+    baptism at São José del-Rei names them as paternal grandparents). Their own baptism
+    and marriage records have not been located. P-0059's birthplace (Meia Ponte, Goiás
+    per PAR-0025) conflicts with PAR-0023's "naturais e batizados da Freguesia de
+    Barbacena" — see conflict note in P-0059.

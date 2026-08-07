@@ -1,0 +1,40 @@
+schema_version: 1
+id: F-0032
+partners:
+- person_id: P-0066
+  role: spouse
+- person_id: P-0067
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PAR-0025
+  notes:
+  - text: >-
+      Named as the maternal grandparents of Maria (baptised 23 August 1777, Piracatu):
+      "e por parte materna de Joao Rodrigues de Mello... e de Maria Francisca Cordeira"
+      (PAR-0025), establishing them as the parents of Ignez Francisca de Lima (P-0060).
+children:
+- person_id: P-0060
+  parent_relationships:
+  - parent_id: P-0066
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0025
+    notes: []
+  - parent_id: P-0067
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0025
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Parents of Ignez Francisca de Lima (P-0060). Named as maternal grandparents in
+    the 1777 Piracatu baptism of their granddaughter Maria (PAR-0025). João Rodrigues
+    de Mello (P-0066) is from Viana, Portugal (Arcebispado de Braga); Maria Francisca
+    Cordeira (P-0067) is from Villa de Ouro [Ouro?], Bispado de São Paulo. Their own
+    marriage and birth records have not been located; other children not attested.

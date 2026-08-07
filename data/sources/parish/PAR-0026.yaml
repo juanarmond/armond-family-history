@@ -1,0 +1,100 @@
+schema_version: 1
+id: PAR-0026
+title: >-
+  Certified ecclesiastical transcript of the 1838 baptism of Carolina, daughter of
+  Capitão Cezário José da Silva Lima and Dona Joanna Umbelina de Jesus (São José
+  del-Rei), confirming Amaro da Silva Xavier × Ignez Francisca de Lima as paternal
+  grandparents
+record_type: Certified ecclesiastical transcript (certidão, issued 2019)
+record_category: parish_register
+source_form: derivative
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1838-10-08"
+event_place_text: >-
+  Matriz de Santo Antônio da Villa de São José (São José del-Rei, today Tiradentes),
+  Minas Gerais, Brazil
+repository:
+  name: Diocese de São João del-Rei (issuing authority, 2019)
+  archive_or_registry: >-
+    Arquivo Eclesiástico da Diocese de São João del-Rei (holds original registers)
+  collection: >-
+    Baptisms, Matriz de Santo Antônio de São José del-Rei, 1838
+  book: >-
+    [Baptism register, São José del-Rei, 1838 — original folio and image to be
+    confirmed]
+  catalogue_reference: >-
+    Certified copy issued 2019 by the Diocese de São João del-Rei from its archives
+    of the extinta Paróquia de Santo Antônio do Município de Tiradentes (formerly São
+    José del Rei). Retrieved 2026-08-07 by the external FamilySearch retrieval agent
+    as image rec-armond-cezario-jose-da-silva-lim-baptism-gen-1.jpg.
+access_date: "2026-08-07"
+language: pt
+transcription: >-
+  [Typed certidão, issued 2019, Diocese de São João del-Rei. The text below
+  reproduces the certified transcript as read from the delivered image (1252×1241 px);
+  some peripheral text is not fully legible.]
+
+  Certifico que nos livros de batizados da extinta Paróquia de Santo Antônio do
+  município de Tiradentes (antes São José del Rei), encontra-se a seguinte assentada:
+  Aos oito dias do mês de Outubro de mil oitocentos e trinta e oito... batizei...
+  Carolina, nascida aos vinte e oito de Fevereiro do dito ano [1838], filha legítima
+  do Capitão Cezario Jose da Silva Lima e de Dona Joanna Umbelina de Jesus. Avós
+  paternos: Capitão Amaro da Silva Xavier e Dona Ignez Francisca de Lima. Avós
+  maternos: [not fully deciphered from the delivered image]. [Officiating priest and
+  certidão issuance date not fully legible; certifying archivist name not deciphered.]
+abstract: >-
+  Typed 2019 ecclesiastical certified copy of the baptism (8 October 1838) of
+  Carolina, born 28 February 1838, legitimate daughter of Capitão Cezário José da
+  Silva Lima and Dona Joanna Umbelina de Jesus, at the Matriz de Santo Antônio da
+  Villa de São José (São José del-Rei, today Tiradentes). The entry directly names
+  "Capitão Amaro da Silva Xavier" (P-0059) and "Dona Ignez Francisca de Lima"
+  (P-0060) as the paternal grandparents of Carolina, independently corroborating the
+  Amaro × Ignez union (F-0029) established by PAR-0023 and PAR-0025. Capitão Cezário
+  José da Silva Lima is a confirmed son of Amaro × Ignez (collateral; added as
+  documented_child on F-0029). He is the same person who appears as a witness ("Furriel
+  Cezário José da Silva Lima") at the 1810 Ladisláo × Mathilde marriage (PAR-0023).
+reliability:
+  assessment: >-
+    A 2019 certified ecclesiastical transcript from the Diocese de São João del-Rei;
+    source form is derivative (typed copy), but the information it transmits was
+    recorded contemporaneously by the 1838 officiating priest (primary information).
+    Corroborates the Amaro × Ignez parentage independently from PAR-0023. Additional
+    value: names Cezário as a second confirmed son of Amaro × Ignez and attests the
+    couple's connection to the São José del-Rei area in the 1830s.
+  informant: >-
+    The 1838 recording was made by the officiating priest of the São José del-Rei
+    matriz as a primary act of registration; the 2019 certidão was issued by the
+    diocesan archivist from the original register.
+  limitations: >-
+    A typed 2019 transcript, not the original 1838 entry; transcription fidelity
+    assumed but not independently verified. Maternal grandparents of Carolina are not
+    fully deciphered from the delivered image. The certidão's own issuance date and
+    the certifying archivist's name are not legible in the delivered image (1252×1241 px),
+    affecting chain-of-custody documentation for this derivative source. The original
+    1838 register entry may contain additional detail beyond what is transcribed.
+digital_file:
+  path: >-
+    evidence/parish/PAR-0026-carolina-cezario-silva-lima-baptism-1838-sjodrei.jpg
+  sha256: de608b3a7323e448f2ffb054416cff312fcb865051f7b5541713453e5caf4210
+linked_people:
+  - P-0059
+  - P-0060
+linked_families:
+  - F-0029
+linked_events: []
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Capitão Cezário José da Silva Lima appears as a witness ("Furriel Cezário José
+      da Silva alias Cezário José da Silva Lima") at the 1810 Ladisláo × Mathilde
+      marriage in São João del Rei (PAR-0023). His role as a witness at the marriage
+      of Mathilde (his sister, daughter of Amaro × Ignez) is consistent with this
+      record confirming him as a son of Amaro da Silva Xavier × Ignez Francisca de Lima.
+  - text: >-
+      Retrieved 2026-08-07 by the external FamilySearch retrieval agent as image
+      rec-armond-cezario-jose-da-silva-lim-baptism-gen-1.jpg.

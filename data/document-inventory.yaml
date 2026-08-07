@@ -2514,3 +2514,78 @@ documents:
         (P-0056) × "Mathilde Luiza de Toledo" (variant of P-0027, Mathilde Maria de
         Jesus — non-family informant's simplification). All persons deceased;
         19th/early-20th century civil registration.
+  - inventory_id: DOC-0061
+    status: catalogued
+    added_date: "2026-08-07"
+    apparent_record_type: Parish baptism register entry (original, 18th century)
+    apparent_people:
+      - Maria (daughter of Amaro da Silva Xavier and Ignez Francisca de Lima)
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      FamilySearch retrieval drop (research/from-retrieval/ sync, 7 August 2026);
+      original 18th-century parish baptism register entry, Minas do Piracatu
+      (Manga parish, Bispado de Pernambuco). Baptism 23 August 1777, born 12 August
+      1777. Names all four grandparents including two Portuguese immigrants (Guimarães
+      and Viana). Retrieved as image rec-armond-maria-umbelina-da-silva-baptism-gen-1.jpg.
+      Full FamilySearch film/folio citation to be confirmed.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0025-maria-amaro-silva-xavier-baptism-1777-piracatu.jpg
+        sha256: 6072ad7197efe99972a08c580c604b40bc1ee13c1902a5598b007fb40373577e
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1600
+          pixel_height: 1120
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0025
+    notes:
+      - >-
+        Primary parish baptism entry confirming Amaro da Silva Xavier (P-0059) ×
+        Ignez Francisca de Lima (P-0060) as parents; names all four grandparents.
+        Paternal: Amaro da Silva Barreto (Guimarães, Portugal) × Perpétua da Silva
+        (São Paulo). Maternal: João Rodrigues de Mello (Viana, Portugal) × Maria
+        Francisca Cordeira (Villa de Ouro). Child named "Maria" only — "Umbelina"
+        does not appear in the visible text. All persons 18th-century deceased.
+  - inventory_id: DOC-0062
+    status: catalogued
+    added_date: "2026-08-07"
+    apparent_record_type: Certified ecclesiastical transcript (certidão, 2019)
+    apparent_people:
+      - Carolina (daughter of Cezário José da Silva Lima and Joanna Umbelina de Jesus)
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      FamilySearch retrieval drop (research/from-retrieval/ sync, 7 August 2026);
+      typed 2019 certidão from Diocese de São João del-Rei of an 1838 baptism at the
+      Matriz de Santo Antônio de São José del-Rei (today Tiradentes). Names
+      "Capitão Amaro da Silva Xavier" × "Dona Ignez Francisca de Lima" as paternal
+      grandparents of Carolina, born 28 February 1838. Retrieved as image
+      rec-armond-cezario-jose-da-silva-lim-baptism-gen-1.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0026-carolina-cezario-silva-lima-baptism-1838-sjodrei.jpg
+        sha256: de608b3a7323e448f2ffb054416cff312fcb865051f7b5541713453e5caf4210
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1252
+          pixel_height: 1241
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0026
+    notes:
+      - >-
+        Derivative 2019 ecclesiastical certidão corroborating Amaro da Silva Xavier
+        (P-0059) × Ignez Francisca de Lima (P-0060) union (F-0029). Confirms Capitão
+        Cezário José da Silva Lima as their son (documented_child on F-0029) —
+        consistent with his role as a witness at the 1810 Ladisláo × Mathilde marriage
+        (PAR-0023). All persons 18th/19th-century deceased.

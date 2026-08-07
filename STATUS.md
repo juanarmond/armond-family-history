@@ -30,17 +30,17 @@ catalogues each valuable image as evidence.
 
 This is the immediate execution queue, in order:
 
-1. **Direct-line follow-up:** Simplício’s parentage CONFIRMED (7 Aug 2026, PRB-0008/
-   PRB-0009): son of José Cezário de Toledo Lima × Claudina Brandina de Jesus
-   (F-0026). Eliza’s parentage UNRESOLVED (see conflict #14). The Toledo direct line
-   now reaches **Barbacena**: the 1821 Carolina baptism (PAR-0017) fixes Ladisláo ×
-   Matilde there, and his parents **Capitão João José Ferreira de Toledo × Ritta
-   Angélica Rodrigues** (F-0028) are CONFIRMED by his 1787 baptism (PAR-0019) and
-   two daughters’ marriages (PAR-0020/0021). Matilde’s parents are CONFIRMED
-   (2026-08-05): Alferes Amaro da Silva Xavier × Ignez Francisca de Lima (F-0029) —
-   from the 1810 São João del Rei marriage (PAR-0023). The Toledo apical chain now
-   reaches the 1700s. **Owner decision pending:** whether to ingest the titled
-   Ferreira Armond branch (collateral).
+1. **Direct-line follow-up:** Simplício’s parentage CONFIRMED (7 Aug 2026). Eliza’s
+   parentage UNRESOLVED — conflict #14; PRB-0006 corrected (7 Aug 2026): Eliza is
+   Simplício’s wife named in the heir list, not a listed child of JC. The Toledo line
+   now reaches **Portugal**: PAR-0025 (1777 Piracatu baptism, primary) confirms
+   Amaro da Silva Xavier’s parents as Amaro da Silva Barreto (Guimarães, Braga) ×
+   Perpétua da Silva (São Paulo) — F-0031; and Ignez’s parents as João Rodrigues de
+   Mello (Viana, Braga) × Maria Francisca Cordeira (Villa de Ouro) — F-0032.
+   Material conflict: PAR-0025 places Amaro’s birthplace at Meia Ponte (Goiás);
+   PAR-0023 (1810) says "naturais e batizados da Freguesia de Barbacena" — both
+   preserved. **Owner decision pending:** whether to ingest the titled Ferreira Armond
+   branch (collateral).
 2. Catalogue each retrieved image: privacy-review, reserve a source, transcribe,
    and promote the directly-attested events.
 3. Locate Liliosa's own death, birth or marriage record; retest the Volta
@@ -89,17 +89,17 @@ and cataloguing work.
 
 | Item | Current state |
 | --- | --- |
-| Structured people | 63 |
-| Structured families | 30 |
+| Structured people | 67 |
+| Structured families | 32 |
 | Structured events | 55 |
 | Structured places | 9 |
-| Structured sources | 62 |
+| Structured sources | 64 |
 | Structured FAN references | 13 |
-| Inventoried retained documents | 60 |
-| Validation | 232 entities; zero errors or warnings at the last check |
+| Inventoried retained documents | 62 |
+| Validation | 240 entities; zero errors or warnings at the last check |
 | Automated tests | 69 passing at the last check |
 
-The 62 catalogued sources span the Armond/Paz, Muniz Bittencourt/Azevedo,
+The 64 catalogued sources span the Armond/Paz, Muniz Bittencourt/Azevedo,
 Engracio/Souza/Guimarães, Bohrer and Portuguese-origin lines, include the maternal
 Toledo probate cluster and the Barbacena context sources, and include the living
 subject's private records. Details are canonical in `data/sources/`; gaps in

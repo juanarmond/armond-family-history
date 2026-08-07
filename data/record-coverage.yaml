@@ -1380,21 +1380,21 @@ people:
     source_ids: []
     last_reviewed: "2026-08-07"
     next_action: >-
-      Alferes Amaro da Silva Xavier confirmed as Mathilde's father (PAR-0023, 1810
-      São João del Rei marriage). Title "Alferes." His parents may be named in his
-      own baptism (Barbacena Piedade — "naturais e batizados da Freguesia de
-      Barbacena" per PAR-0023). Search Barbacena Piedade baptism books. Also: the
-      1777 Piracatu baptism of his daughter Maria (sibling of Mathilde) names his
-      parents as "Sargento Amaro da Silva Barreto × Perpétua da Silva" (per
-      FINDINGS.md, image held — value-gate read pending before promoting).
+      PAR-0025 (1777, primary) confirms his parents as Amaro da Silva Barreto (P-0064,
+      Guimarães, Portugal) × Perpétua da Silva (P-0065, São Paulo) and his own birthplace
+      as Meia Ponte (Goiás) — conflicting with PAR-0023's "naturais e batizados da
+      Freguesia de Barbacena." His own baptism has not been located. Search: (a) Meia
+      Ponte (Goiás) baptism registers for Amaro da Silva Xavier ~1740s–1760s; (b)
+      Barbacena Piedade baptism books for the same range (in case family relocated).
     notes: []
   notes:
   - text: >-
       Father of Mathilde Maria de Jesus (P-0027). Alferes Amaro da Silva Xavier.
-      Family F-0029. His wife is Ignez Francisca de Lima (P-0060). Both "naturais
-      e batizados da Freguesia de Barbacena" per PAR-0023. His probable parents
-      are Sargento Amaro da Silva Barreto × Perpétua da Silva (per FINDINGS.md lead,
-      image-held; not yet value-gated).
+      Family F-0029 (union with Ignez P-0060); Family F-0031 (child of P-0064 × P-0065).
+      Parents confirmed by PAR-0025 (1777 Piracatu baptism of his daughter Maria):
+      Amaro da Silva Barreto (P-0064) × Perpétua da Silva (P-0065). Material conflict
+      between PAR-0025 (Meia Ponte/Goiás birthplace) and PAR-0023 (Barbacena) — see
+      P-0059.yaml notes.
 - person_id: P-0060
   external_profiles: []
   records:
@@ -1403,15 +1403,84 @@ people:
     source_ids: []
     last_reviewed: "2026-08-07"
     next_action: >-
-      Ignez Francisca de Lima confirmed as Mathilde's mother (PAR-0023, 1810 São João
-      del Rei marriage). "Natural e batizada da Freguesia de Barbacena" per PAR-0023.
-      Her probable parents are "João Rodrigues do Mello × Maria Francisca Cordeira"
-      per FINDINGS.md (from the 1777 Piracatu Maria baptism image — value-gate read
-      pending). Search Barbacena Piedade baptism books.
+      PAR-0025 (1777, primary) confirms her parents as João Rodrigues de Mello (P-0066,
+      Viana, Portugal) × Maria Francisca Cordeira (P-0067, Villa de Ouro). Her own
+      birthplace is unclear from PAR-0025 ("[d]ora frequesias"). Search: Barbacena
+      Piedade baptism books; Manga/Piracatu registers if her birthplace is local.
     notes: []
   notes:
   - text: >-
       Mother of Mathilde Maria de Jesus (P-0027). Ignez Francisca de Lima. Family
-      F-0029. Her probable parents João Rodrigues do Mello × Maria Francisca Cordeira
-      per FINDINGS.md lead (1777 Piracatu baptism of her daughter Maria — image held,
-      not yet value-gated).
+      F-0029 (union with Amaro P-0059); Family F-0032 (child of P-0066 × P-0067).
+      Parents confirmed by PAR-0025 (1777 Piracatu baptism of her daughter Maria):
+      João Rodrigues de Mello (P-0066) × Maria Francisca Cordeira (P-0067).
+- person_id: P-0064
+  external_profiles: []
+  records:
+  - record_type: birth
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-08-07"
+    next_action: >-
+      Portuguese immigrant from Guimarães (Arcebispado de Braga). Search Guimarães
+      parish baptism registers; requires Portugal archive access. Military title
+      (Sargento / Tenente?) per PAR-0025; confirm exact rank from a higher-resolution
+      read. Next practical step: identify his approximate birth year from Amaro da
+      Silva Xavier's birth and work backwards.
+    notes: []
+  notes:
+  - text: >-
+      Paternal grandfather of Alferes Amaro da Silva Xavier (P-0059). Named in PAR-0025
+      as from Guimarães, Arcebispado de Braga, Portugal. Family F-0031. Portuguese
+      immigrant ancestor on the da Silva Xavier line.
+- person_id: P-0065
+  external_profiles: []
+  records:
+  - record_type: birth
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-08-07"
+    next_action: >-
+      Paternal grandmother of Amaro da Silva Xavier (P-0059); from the Cidade de São
+      Paulo. Search colonial São Paulo baptism records. No further detail available
+      from PAR-0025.
+    notes: []
+  notes:
+  - text: >-
+      Paternal grandmother of Alferes Amaro da Silva Xavier (P-0059). Named in PAR-0025
+      as from the Cidade de São Paulo. Family F-0031.
+- person_id: P-0066
+  external_profiles: []
+  records:
+  - record_type: birth
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-08-07"
+    next_action: >-
+      Portuguese immigrant from Viana (Arcebispado de Braga — almost certainly Viana do
+      Castelo). Search Viana do Castelo parish baptism registers; requires Portugal
+      archive access. Identify approximate birth year from Ignez Francisca de Lima's
+      birth and work backwards.
+    notes: []
+  notes:
+  - text: >-
+      Maternal grandfather of Ignez Francisca de Lima (P-0060). Named in PAR-0025 as
+      from Villa de Vianna, Arcebispado de Braga, Portugal. Family F-0032. Portuguese
+      immigrant ancestor on the Ignez / Mathilde line.
+- person_id: P-0067
+  external_profiles: []
+  records:
+  - record_type: birth
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-08-07"
+    next_action: >-
+      Maternal grandmother of Ignez Francisca de Lima (P-0060); from "Villa de Ouru
+      [Ouro?]", Bispado de São Paulo. Likely Ouro Preto or another mining town; reading
+      uncertain. Confirm the place name from a higher-resolution image of PAR-0025,
+      then search appropriate parish records.
+    notes: []
+  notes:
+  - text: >-
+      Maternal grandmother of Ignez Francisca de Lima (P-0060). Named in PAR-0025 as
+      from Villa de Ouro [Ouro?], Bispado de São Paulo. Family F-0032.

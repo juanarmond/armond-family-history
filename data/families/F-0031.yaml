@@ -1,0 +1,41 @@
+schema_version: 1
+id: F-0031
+partners:
+- person_id: P-0064
+  role: spouse
+- person_id: P-0065
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PAR-0025
+  notes:
+  - text: >-
+      Named as the paternal grandparents of Maria (baptised 23 August 1777, Piracatu):
+      "neta legítima por parte paterna do [Amaro da Silva Barreto] e de Perpétua da
+      Silva" (PAR-0025), establishing them as the parents of Amaro da Silva Xavier
+      (P-0059).
+children:
+- person_id: P-0059
+  parent_relationships:
+  - parent_id: P-0064
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0025
+    notes: []
+  - parent_id: P-0065
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0025
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Parents of Alferes Amaro da Silva Xavier (P-0059). Named as paternal grandparents
+    in the 1777 Piracatu baptism of their granddaughter Maria (PAR-0025). Amaro da
+    Silva Barreto (P-0064) is from Guimarães, Portugal (Arcebispado de Braga);
+    Perpétua da Silva (P-0065) is from the Cidade de São Paulo. Their own marriage
+    and birth records have not been located; other children not attested.

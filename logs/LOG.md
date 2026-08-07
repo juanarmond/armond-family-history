@@ -1034,3 +1034,35 @@ source cataloguing pending.
 **Coverage.yaml:** Toledo direct ancestors P-0027, P-0054–P-0060 added.
 
 See `logs/2026-08-07-toledo-inventory-second-pass-antonio-ladislao.md` for full detail.
+
+## 2026-08-07 — Piracatu 1777 baptism catalogued; Toledo line extended to Portugal
+
+Value-gate of two remaining retrieval images. Primary find: **PAR-0025** (1777
+original parish baptism, Minas do Piracatu / Manga parish) confirms the parents and
+places of origin of Alferes Amaro da Silva Xavier (P-0059) and Ignez Francisca de
+Lima (P-0060). Four new ancestor entities created:
+
+- **P-0064** Amaro da Silva Barreto — "natural da Villa de Guimaraes, Arcebispado de
+  Braga" (Guimarães, Portugal): immigrant paternal grandfather of Amaro da Silva Xavier
+- **P-0065** Perpétua da Silva — "natural da Cidade de S. Paulo": his wife
+- **P-0066** João Rodrigues de Mello — "natural da Villa de Vianna, Arcebispado de
+  Braga" (Viana, Portugal): immigrant maternal grandfather of Ignez Francisca de Lima
+- **P-0067** Maria Francisca Cordeira — "natural da Villa de Ouru [Ouro?], Bispado de
+  S. Paulo": his wife
+
+Two new families: **F-0031** (Amaro Barreto × Perpétua) and **F-0032** (João Rodrigues
+× Maria Francisca). F-0029 updated with PAR-0025/0026 as additional partner sources;
+"Maria" and "Cezário" added as documented_children. **PAR-0026** (1838 São José del-Rei
+certidão, derivative) independently corroborates the Amaro × Ignez union.
+
+**Material conflict:** PAR-0025 places Amaro's birthplace at Meia Ponte (Goiás);
+PAR-0023 (1810) states "naturais e batizados da Freguesia de Barbacena." Both preserved.
+
+**PRB-0006 corrected:** Title/abstract/reliability updated to remove the misread that
+Eliza Balbina de Toledo is JC's daughter. The primary evidence (PRB-0008, PRB-0009,
+PRB-0006 transcription) confirms Eliza is Simplício's wife only; her parentage is
+unresolved. **PRB-0008** page-count corrected (eight pages, not nine; p6 not catalogued
+— its continuation of Claudina's oath with JC's death year is the key unread passage).
+Simplício's middle name discrepancy (Jaci vs. José in PRB-0008/PRB-0009) flagged.
+
+See `logs/2026-08-07-piracatu-baptism-portugal-origins.md` for full detail.

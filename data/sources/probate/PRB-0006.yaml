@@ -2,8 +2,9 @@ schema_version: 1
 id: PRB-0006
 title: >-
   1879 Leopoldina estate inventory of Mathilde Maria de Jesus — título de herdeiros
-  naming her son José Cezário de Toledo Lima (⚭ D. Claudina) and their daughter
-  Eliza Balbina de Toledo
+  naming her son José Cezário de Toledo Lima (⚭ D. Claudina) and his eight
+  representantes, including Simplício Jaci Ferreira de Toledo (⚭ Eliza Balbina de
+  Toledo)
 record_type: Estate inventory and heir title (inventário / título de herdeiros)
 record_category: court_or_probate
 source_form: original
@@ -63,22 +64,28 @@ transcription: >-
   fallecida, sendo seus herdeiros [...]".
 abstract: >-
   Mathilde Maria de Jesus's 1879 Leopoldina estate inventory (título de herdeiros).
-  Its heir #4 is her deceased son "José Cezário de Toledo Lima", married to the also
-  deceased "D. Claudina", whose eight representantes (children) are listed — the
-  fifth being "Simplicio José Ferreira Armond, cazado com D. Eliza Balbina de
-  Tolledo". This is primary evidence that Eliza Balbina de Toledo (P-0017) was the
-  daughter of José Cezário de Toledo Lima (P-0054) and Claudina (P-0055), and the
-  granddaughter of Mathilde Maria de Jesus (P-0027) — extending the Toledo maternal
-  line and resolving Mathilde's grandmother link into a structured edge. It also
-  corrects the earlier hypothesis: Antonio Zeferino de Toledo × Maria Perpétua are
-  heir #3 (Eliza's uncle/aunt), NOT her parents.
+  Its heir #4 is her deceased son "José Cezário de Toledo Lima" (P-0054), married to
+  the also deceased "D. Claudina" (P-0055), whose eight representantes (children) are
+  listed. Item 5 reads: "Simplicio José Ferreira Armond, cazado com D. Eliza Balbina
+  de Tolledo" — naming Eliza only as Simplício's wife, not as a representante/child
+  in her own right. Eliza's parentage is not stated in this document. This record
+  establishes: (1) Simplício Jaci Ferreira de Toledo (P-0016) is confirmed as a son
+  of JC × Claudina; (2) Eliza Balbina de Toledo (P-0017) is confirmed as Simplício's
+  wife. Corrects the earlier misreading that treated Eliza as JC's daughter: the
+  transcription shows she is identified only as a spouse in item 5, not as one of the
+  listed heirs. Also corrects the pre-August 2026 hypothesis that Eliza's parents
+  were Antonio Zeferino de Toledo × Maria Perpétua (PRB-0004): that couple appears
+  as heir #3 — Eliza's uncle/aunt, not her parents — but Eliza's actual parents
+  remain unresolved from primary sources.
 reliability:
   assessment: >-
-    Direct primary evidence (a judicial estate inventory) that Eliza Balbina de
-    Toledo is a daughter/representante of the deceased heir José Cezário de Toledo
-    Lima ⚭ D. Claudina, themselves children/heirs of the deceased Mathilde Maria de
-    Jesus. Resolves the two-Ladisláo ambiguity (the elder Ladisláo Egydio Ferreira
-    de Toledo is Mathilde's husband; a namesake grandson aged 23 is heir #4's son).
+    Direct primary evidence (a judicial estate inventory) confirming that Simplício
+    Jaci Ferreira de Toledo (P-0016) is a son of JC × Claudina, and that Eliza
+    Balbina de Toledo (P-0017) is Simplício's wife. Does NOT state Eliza's parentage.
+    Resolves the two-Ladisláo ambiguity (the elder Ladisláo Egydio Ferreira de Toledo
+    is Mathilde's husband; a namesake grandson aged 23 is heir #4's son). The
+    two independent 1867 inventários (PRB-0008, PRB-0009) confirm the same parentage
+    for Simplício and list JC's children without Eliza — excluding her as JC's daughter.
   informant: >-
     The inventariante Cezário José de Toledo (Mathilde's son) and the court, 1879
     (a distinct person from heir #4 José Cezário de Toledo Lima).
@@ -87,7 +94,8 @@ reliability:
     (e.g. "Bulandina/Brandina", "Cazanna"). The mother is recorded only as "D.
     Claudina"; her fuller name "Claudina Brandina de Jesus" is inferred (see P-0055).
     Only the folios naming the direct line (6, 8, 9) are catalogued here; the full
-    monte-mór and per-heir shares are elsewhere in the process.
+    monte-mór and per-heir shares are elsewhere in the process. Eliza's parentage
+    remains unresolved from primary sources.
 digital_file:
   path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio9-eliza.jpg
   sha256: 7dbf015f49d6bf5be02cf2b63457c59b48633ff768285bbaa8f9e90ee8ec7337
@@ -116,10 +124,10 @@ notes:
     documented trap). All three pages are held under this ID (…-folio6-…, …-folio8-…,
     …-folio9-…).
 - text: >-
-    Resolves the Toledo parentage conflict: PRB-0004 (1877 deed) had left open a
-    hypothesis that Eliza's parents were Antonio Zeferino de Toledo × Maria Perpétua.
-    This inventory shows that couple is heir #3 (folio 8 header "de M.a Perpetua nº
-    3") — Eliza's uncle and aunt — while her actual parents are heir #4 José Cezário
-    de Toledo Lima × Claudina. It also resolves the two same-named Ladisláo Egydio
+    PRB-0004 (1877 deed) had left open a hypothesis that Eliza's parents were Antonio
+    Zeferino de Toledo × Maria Perpétua. This inventory shows that couple is heir #3
+    (folio 8 header "de M.a Perpetua nº 3") — they are NOT Eliza's parents. Eliza's
+    actual parentage remains unresolved from primary sources (see P-0017 and conflict
+    #14 in STATUS.md). The document also resolves the two same-named Ladisláo Egydio
     Ferreira de Toledo: the elder is Mathilde's husband (P-0056); the "solteiro de 23
-    annos" on folio 9 is heir #4's son, Eliza's brother.
+    annos" on folio 9 is heir #4's son — Simplício's brother, not Eliza's.

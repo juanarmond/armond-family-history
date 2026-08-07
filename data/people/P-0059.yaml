@@ -9,6 +9,7 @@ name_variants:
   type: source
   source_ids:
   - PAR-0023
+  - PAR-0025
 - value: Alferes Amaro da Silva Xavier
   type: source
   source_ids:
@@ -16,12 +17,19 @@ name_variants:
 event_ids: []
 family_ids:
 - F-0029
+- F-0031
 notes:
 - text: >-
     Father of Mathilde Maria de Jesus (P-0027); hence great-great-grandfather of
     Eliza Balbina de Toledo (P-0017) on her maternal-paternal line. He is named in
     his daughter's 1810 São João del Rei marriage record (PAR-0023) as "Alferes Amaro
-    da Silva Xavier", the military rank Alferes indicating a junior officer, with both
-    he and his wife Ignez Francisca de Lima identified as "naturais e batizados da
-    Freguesia de Barbacena" (born and baptised in Barbacena). His own birth,
-    baptism and death records have not been located.
+    da Silva Xavier." In the 1777 Piracatu baptism of his daughter Maria (PAR-0025) he
+    is stated as "natural da frequesia de Nossa Senhora do Rio de Meia Ponte, comarca
+    do Goyas, Bispado do Rio de Janeiro" — native of today's Pirenópolis (GO). His
+    parents are confirmed by PAR-0025 as Amaro da Silva Barreto (P-0064, from
+    Guimarães, Portugal) × Perpétua da Silva (P-0065, from the city of São Paulo).
+    Material conflict: PAR-0023 (1810) states both he and Ignez as "naturais e
+    batizados da Freguesia de Barbacena," while PAR-0025 (1777) names him as native
+    of Meia Ponte (Goiás). The 1777 record is the earlier and more specific source;
+    the 1810 description likely reflects long-term Barbacena domicile. Both versions
+    preserved. His own baptism and death records have not been located.

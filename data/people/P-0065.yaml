@@ -1,0 +1,21 @@
+schema_version: 1
+id: P-0065
+preferred_name: Perpétua da Silva
+privacy: deceased
+sex: female
+nationality: Brazilian
+name_variants:
+- value: Perpétua da Silva
+  type: source
+  source_ids:
+  - PAR-0025
+event_ids: []
+family_ids:
+- F-0031
+notes:
+- text: >-
+    Paternal grandmother of Alferes Amaro da Silva Xavier (P-0059); named in the 1777
+    Piracatu baptism of her granddaughter Maria (PAR-0025) as "Perpétua da Silva,
+    natural da Cidade de S. Paulo" (colonial city of São Paulo, Brazil). Wife of Amaro
+    da Silva Barreto (P-0064). Her own birth, marriage and death records have not been
+    located.

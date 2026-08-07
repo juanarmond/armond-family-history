@@ -32,15 +32,18 @@ repository:
     4 março 1867, Concórdia (Districto do Rio Pardo), MG
   catalogue_reference: >-
     Archive reference [38403 268]; FamilySearch retrieval; read and promoted 7 August
-    2026. Nine pages catalogued: cover (gen1), p2–p6, p8, p9. Page p5 records
-    Claudina's sworn declaration including JC's death date ("dois de Setembro").
+    2026. Eight pages catalogued: cover (gen1), p2–p5, p8, p9. Page p6 was NOT
+    catalogued at this reading (see limitations). Page p5 records Claudina's sworn
+    declaration including JC's death date ("dois de Setembro").
   repository_path: >-
     evidence/probate/PRB-0008-jose-cesario-inventario-1867-gen1.jpg
 access_date: "2026-08-07"
 language: pt-BR
 transcription: >-
   [Inventário de José Cesário de Toledo Lima e Claudina Brandina de Jesus, Concórdia,
-  Districto do Rio Pardo, MG, 1867. Nine pages catalogued: cover (gen1), pp. 2–6, 8, 9.]
+  Districto do Rio Pardo, MG, 1867. Eight pages catalogued: cover (gen1), pp. 2–5,
+  8, 9. Pages 6, 7 and pages beyond p9 not catalogued. Pages 2–4 catalogued but not
+  yet transcribed (procedural content; lower genealogical priority).]
 
 
   [p5 — Termo de juramento e declaração de inventariante (7 March 1867):] "Aos sete
@@ -123,14 +126,18 @@ reliability:
   informant: >-
     J. de Bastos Pacheco, Escrivão dos Órfãos, Concórdia, 1867; judicial process.
   limitations: >-
-    Pages 7 (item 5 of the children) is not catalogued; its content is unknown. The
-    item-5 child visible in PRB-0006 (1879) at the same position is Josephina
-    Christina, who had already died with issue by 1879 — her absence from the 1867
-    p8 list is explained by being on p7. Only 8 of the total pages of the processo
-    are catalogued; the monte-mór, valuations and other procedural folios are not.
-    Simplício's name in 1867 reads "Ferrara/Ferreira de Tolledo"; by 1879 the Armond
-    surname appears — he adopted or acquired the surname via marriage (to Eliza
-    Balbina de Tolledo).
+    Pages 2–4 are catalogued but not transcribed (procedural text; lower genealogical
+    priority). Pages 6, 7 and pages beyond p9 are not catalogued. Page 6 is the most
+    important unread page: it contains the continuation of Claudina's p5 oath
+    declaration including the year of JC's death (p5 breaks off after "dois de
+    Setembro"; p6 would give the year, currently inferred as 1866 from context). Page 7
+    contains item 5 of the children, whose content is unknown; the item-5 child visible
+    in PRB-0006 (1879) at the same position is Josephina Christina (deceased by 1879
+    with issue). Simplício's name in PRB-0008 p8 reads "Simplicio José Ferrara/Ferreira
+    de Tolledo"; PRB-0009 p4 (the concurrent Ladisláo inventário) reads "Simplicio Jaci
+    Ferrura de Toledo" — the middle name Jaci vs. José is a potential variant or cursive
+    misread requiring image comparison. The monte-mór, valuations and other procedural
+    folios are not catalogued.
 digital_file:
   path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-gen1.jpg
   sha256: 4c05091e315090bd7102a4d217a387d3595464eda3a3d15136c0bebe409d8685

@@ -167,7 +167,11 @@ reliability:
     unrecognised — possibly an adult son of JC not yet in the repository. No children
     are listed under Francisco Leocádio (item 4) in pp 1–5; his minor children
     appear on uncatalogued pages or their shares are managed via Simplício's
-    curatorship. Pages p6–end not catalogued.
+    curatorship. Pages p6–end not catalogued. Name discrepancy: PRB-0009 p4 reads
+    "Simplicio Jaci Ferrura [Ferreira] de Toledo", while the concurrent PRB-0008 p8
+    reads "Simplicio José Ferrara [Ferreira] de Tolledo" — the middle name Jaci vs.
+    José requires a direct image comparison of both records to determine whether it is
+    a cursive variant or a genuine name difference.
 digital_file:
   path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1867-gen1.jpg
   sha256: 81bbf8412e197dbb4fcba9f06d355c90df6920321338881896777c9ba3026356

@@ -7,6 +7,18 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Catalogue **PAR-0025** (1777 original parish baptism, Minas do Piracatu, Manga
+  parish, Bispado de Pernambuco) — the baptism of "Maria", daughter of Amaro da Silva
+  Xavier (P-0059) × Ignez Francisca de Lima (P-0060). Primary source naming all four
+  grandparents and extending the Toledo line to Portugal. New entities: `P-0064`
+  (Amaro da Silva Barreto, Guimarães, Portugal), `P-0065` (Perpétua da Silva, São
+  Paulo), `P-0066` (João Rodrigues de Mello, Viana, Portugal), `P-0067` (Maria
+  Francisca Cordeira, Villa de Ouro), `F-0031` (Amaro Barreto × Perpétua), `F-0032`
+  (João Rodrigues × Maria Francisca). DOC-0061 added.
+- Catalogue **PAR-0026** (2019 ecclesiastical certidão of 1838 São José del-Rei
+  baptism of Carolina, daughter of Cezário José da Silva Lima): corroborates Amaro ×
+  Ignez parentage; adds Cezário as documented_child on F-0029. DOC-0062 added.
+
 - Catalogue **CIV-0024** (certified death extract of António Ladislão de Toledo, died
   11 February 1909 at Fazenda da Concórdia, Thebes district, Leopoldina MG; Termo Nº 6,
   folhas 144–145). Death date **11 February 1909** (not 12th — declarant said "hontem").
@@ -26,6 +38,26 @@ also remain traceable through source records and research logs.
   (Alferes Amaro da Silva Xavier), `P-0060` (Ignez Francisca de Lima).
 
 ### Changed
+
+- **PRB-0006 corrected:** Title, abstract, reliability and notes updated to remove the
+  misread that Eliza Balbina de Toledo (P-0017) is a daughter of JC × Claudina. The
+  transcription correctly reads item 5 as "Simplicio José Ferreira Armond, cazado com
+  D. Eliza Balbina de Tolledo" — naming Eliza as Simplício's wife, not as a listed
+  representante. Two independent 1867 inventários (PRB-0008, PRB-0009) list JC's
+  children without Eliza, rejecting the daughter hypothesis.
+- **PRB-0008 corrected:** Page count corrected from "nine" to "eight" (cover gen1,
+  p2–p5, p8, p9). Page p6 was NOT catalogued — the previous `catalogue_reference`
+  incorrectly included it. P6 is critical: it holds the year of JC's death (p5 breaks
+  off after "dois de Setembro"). Limitations expanded to note pp 2–4 as catalogued
+  but untranscribed. Simplício's middle name discrepancy (Jaci in PRB-0009 vs. José
+  in PRB-0008) flagged in both records' limitations.
+- **`P-0059` and `P-0060` updated:** F-0031 and F-0032 added to family_ids; notes
+  updated with confirmed parents and Meia Ponte / Barbacena birthplace conflict.
+- **`F-0029` updated:** PAR-0025 and PAR-0026 added to partner_relationship source_ids;
+  "Maria" (PAR-0025) and "Cezário José da Silva Lima" (PAR-0026) added as
+  documented_children.
+- **PAR-0026 limitations expanded:** Added that the certidão issuance date and
+  certifying archivist's name are not legible in the delivered image.
 
 - **`E-0054` (JC death date):** Updated from `kind: before, text: 1867-03-04` to
   `kind: exact, value: 1866-09-02`. PRB-0008 p5 (Claudina's inventariante oath,
