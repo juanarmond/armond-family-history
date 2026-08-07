@@ -113,14 +113,25 @@ documented_children:
     casado com Maria [José?/Joze?] de Jesus"); also appears as the inventariante of
     Mathilde's 1879 estate (PRB-0006). A DISTINCT person from his brother José Cezário
     de Toledo Lima (P-0054) — the near-identical names are a documented trap.
-- name: Antonio Zeferino de Toledo
+- name: Maria Perpétua da Silva
   source_ids:
+  - PRB-0009
   - PRB-0004
   - PRB-0006
   note: >-
-    Son of Mathilde × Ladisláo and heir #3 of the estate ("de M.a Perpetua nº 3",
-    folio 8 of PRB-0006), married to Maria Perpétua (PRB-0004). Formerly wrongly
-    hypothesised as Eliza's father; corrected by PRB-0006. Not modelled.
+    Child #1 of Ladisláo × Mathilde per PRB-0009-gen1 ("Dona Maria Perpétua da
+    Silva, casada com Antonio [Zefermino/Leferme?] de Tolledo"). Her surname "da
+    Silva" is puzzling given her siblings' Toledo names — possibly a maternal or
+    pre-marital line. Married Antonio Zeferino de Toledo (PRB-0004). She predeceased
+    Mathilde: in Mathilde's 1879 inventory (PRB-0006), her children represent her as
+    heir #3 ("de M.a Perpetua nº 3"). The earlier F-0027 entry incorrectly listed
+    her husband Antonio Zeferino as the child; corrected 7 August 2026. Not modelled.
+- name: Ignez Mettelina de Toledo
+  source_ids:
+  - PRB-0009
+  note: >-
+    Child #2 of Ladisláo × Mathilde per PRB-0009-gen1 ("Ignez Mettelina de Tolledo,
+    casada com [João?] Pedro da Silva"). Not modelled; not a direct-line ancestor.
 event_ids:
 - E-0052
 notes:
@@ -136,5 +147,7 @@ notes:
     Braz); (4) Francisco Leocádio — modelled as P-0061; (5) Aureliano de Sales
     Toledo; (6) Cezário [José] de Toledo; (7) António Ladislão de Toledo (surdo e
     mudo) — modelled as P-0063 (died 11 Feb 1909, CIV-0024); (8) José Cesário de
-    Toledo Lima (P-0054, direct line). Items 1–3 and 5–6 are documented_children;
-    items 4, 7 and 8 are structured children.
+    Toledo Lima (P-0054, direct line). Items 1, 2, 3, 5 and 6 are documented_children;
+    items 4, 7 and 8 are structured children. Note: the earlier entry wrongly listed
+    item 1's husband (Antonio Zeferino de Toledo) as the child; corrected 7 August 2026
+    when PRB-0009-gen1 was read directly — Maria Perpétua da Silva is the child.
