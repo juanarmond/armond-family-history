@@ -1,9 +1,9 @@
 schema_version: 1
 id: PAR-0005
 title: >-
-  Parish baptism transcript of Susanna (Suzana) Rita Brandão (1866, transcribed
+  Parish baptism transcript of Susanna (Suzana) Rita Brandão (1876, transcribed
   1882, Santo Antônio de Sapucaia), naming her parents
-record_type: Parish baptism register entry (1882 register transcript of an 1866 certidão)
+record_type: Parish baptism register entry (1882 register transcript of an 1876 certidão)
 record_category: parish_register
 source_form: derivative
 information_quality: primary
@@ -11,7 +11,7 @@ evidence_type: direct
 usage: evidence
 event_date:
   kind: exact
-  value: "1866-03-22"
+  value: "1876-03-22"
 event_place_text: >-
   Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
 repository:
@@ -23,32 +23,36 @@ repository:
     gallery of the Sapucaia parish books)
   book: batismos
   catalogue_reference: >-
-    1882 register transcript (fl. 111-112) of the 22 March 1866 baptism, Livro de
+    1882 register transcript (fl. 111-112) of the 22 March 1876 baptism, Livro de
     batismos, Paróquia de Santo Antônio de Sapucaia, RJ; the certidão was
     presented on 24 November 1882 (the year of the couple's marriage provision
     PAR-0001). Register image via the Familiaridade online gallery, delivered
-    through the research/from-retrieval/ sync; read and promoted 31 July 2026.
+    through the research/from-retrieval/ sync; read and promoted 31 July 2026;
+    baptism and birth dates corrected 7 August 2026 on direct re-read of the image
+    (the original transcription misread "setenta" as "sessenta" and "vinte" as "onze").
   repository_path: >-
     evidence/parish/PAR-0005-susanna-rita-brandao-baptism-1866-sapucaia.jpg
 access_date: "2026-07-31"
 language: pt-BR
 transcription: >-
   [Paróquia de Santo Antônio de Sapucaia, RJ.] "Aos vinte e quatro dias de
-  Novembro, de mil oito centos e oitenta e dous, me foi apresentada a certidão
-  seguinte: Aos vinte e dous dias de Março, de mil oito centos e sessenta e seis,
-  o Reverendo João Gonçalves Dias [uncertain: Gonçalves] baptizou solemnemente, a
-  innocente Suzana, nascida a onze de Agosto de mil oito centos sessenta e cinco,
-  filha legítima, de José do Rego Brandão, e de Rita Ignacia de Jesus; sendo
-  padrinhos, Antonio [uncertain: Castro/Caetano] Machado, avô materno, e Luiza Maria da Conceição. do
-  que para eu conste, faço este assentamento, que assigno. O Vigário — Lourenço
-  Gomes de Lima."
+  Novembro, de mil oito centos e oitenta e dous, nos foi apresentada a certidão
+  seguinte: Aos vinte e dous dias do Março, de mil oito centos e setenta e seis,
+  o Reverendo João Gonçalves Dias [uncertain: Gonçalves] baptizou solenizmente, a
+  innocente Suzana, nascida a vinte de Agosto de mil oito centos setenta e cinco;
+  filha legítima, de José do Rego Brandão, e de Rita [Ignacia?] de Jesus; sendo
+  padrinhos, Antonio [uncertain: Castro/Caetano] Machado, avô materno, e [second
+  godparent name uncertain]. Do que para eu conste, faço este assentamento, que
+  assigino. O Vigario — Lourenço Gomes de Lima."
 abstract: >-
   The Santo Antônio de Sapucaia (RJ) parish register's 1882 transcript of the
-  1866 baptism of Susanna (Suzana) Rita Brandão (P-0020): born 11 August 1865,
-  baptized 22 March 1866, filha legítima of José do Rego Brandão (P-0040) and
+  1876 baptism of Susanna (Suzana) Rita Brandão (P-0020): born 20 August 1875,
+  baptized 22 March 1876, filha legítima of José do Rego Brandão (P-0040) and
   Rita Ignacia de Jesus (P-0041). The godfather Antonio [uncertain: Castro/Caetano] Machado is named
   as her "avô materno" (maternal grandfather = Rita Ignacia's father). Presented
-  in November 1882, the same year as the couple's marriage provision (PAR-0001).
+  24 November 1882, the same year as the couple's marriage provision (PAR-0001).
+  Note: an earlier transcription misread "vinte … setenta e cinco" as "onze …
+  sessenta e cinco"; corrected 7 August 2026 on direct image re-read.
 reliability:
   assessment: >-
     Direct primary parish evidence for Susanna's birth, baptism and parentage:

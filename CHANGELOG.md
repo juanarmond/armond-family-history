@@ -7,6 +7,57 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Catalogue **CIV-0024** (certified death extract of António Ladislão de Toledo, died
+  11 February 1909 at Fazenda da Concórdia, Thebes district, Leopoldina MG; Termo Nº 6,
+  folhas 144–145). Death date **11 February 1909** (not 12th — declarant said "hontem").
+  Names father Ladislao Igidio Ferreira de Toledo (`P-0056`) and mother "Mathilde Luiza
+  de Toledo" (new name variant for `P-0027`; non-family informant's simplification of
+  "Mathilde Maria de Jesus"). New entities: `P-0063` (António Ladislão de Toledo,
+  Ladisláo × Mathilde child #7, "surdo e mudo"), `E-0058` (death event). DOC-0060
+  added; `F-0027` updated (P-0063 moved from documented_children to structured children).
+- **Confirm four Lemos siblings** from Itaborahy baptism images (7 August 2026 reads):
+  Maria (b.1832), Anna (b.1834), Thomaz de Lemos Pereira (b.1836), Polidoro (b.1838),
+  all with parents Manoel de Lemos Pereira × Maria Thereza de Jesus (`F-0025`). Added
+  as documented_children on `F-0025`; individual source cataloguing pending.
+- **Toledo direct ancestors** added to `data/record-coverage.yaml`: `P-0054` (José
+  Cesário de Toledo Lima), `P-0055` (Claudina Brandina de Jesus), `P-0027` (Mathilde
+  Maria de Jesus), `P-0056` (Ladisláo Egídio Ferreira de Toledo), `P-0057` (Capitão
+  João José Ferreira de Toledo), `P-0058` (Ritta Angélica Rodrigues), `P-0059`
+  (Alferes Amaro da Silva Xavier), `P-0060` (Ignez Francisca de Lima).
+
+### Changed
+
+- **`E-0054` (JC death date):** Updated from `kind: before, text: 1867-03-04` to
+  `kind: exact, value: 1866-09-02`. PRB-0008 p5 (Claudina's inventariante oath,
+  7 March 1867) records her sworn declaration: "seu marido fallecera no dia dois de
+  Setembro." Year 1866 contextually inferred (p6 not catalogued). PRB-0008
+  transcription updated with p5 content.
+- **P-0055 note corrected:** Claudina Brandina de Jesus was alive on 7 March 1867
+  (physically present and taking the oath in PRB-0008 p5). Prior note stated she
+  "died before 4 March 1867" — wrong. Death bounded to after 7 March 1867 and before
+  1879 (PRB-0006).
+- **PRB-0009 corrected:** The p2 text "é viúva, cuja [morte] falleceu depois do
+  Inventariado" was misread as Claudina being deceased. Correct reading: JC (Claudina's
+  husband) died after Ladisláo. PRB-0009 abstract, notes and limitations updated with
+  pp 3–5 findings.
+- **P-0027 (Mathilde) name variant added:** "Mathilde Luiza de Toledo" from CIV-0024
+  (non-family informant's simplification). Signed the March 1867 proceedings in person
+  noted in P-0027.
+- **F-0027 (Ladisláo × Mathilde) children restructured:** Francisco Leocádio (P-0061)
+  and António Ladislão (P-0063) both moved from documented_children to the structured
+  children list, correcting a consistency gap where modelled entities remained as
+  documented entries.
+- **E-0055, E-0056, E-0057 retired** in `id-ledger.yaml`: pre-allocated IDs that were
+  never used (JC's 1813 baptism illegible at delivered resolution; Barbacena 1812/1816
+  marriage images were byte-identical duplicates of PAR-0020/PAR-0021).
+- **PAR-0005 date corrected** (second re-read, 7 August 2026): Suzana Rita Brandão born
+  20 August 1875, baptized 22 March 1876. Previous session had "11 August 1865, 22 March
+  1866" — misread of "vinte" as "onze" and "setenta" as "sessenta." PAR-0005, E-0035,
+  P-0020 corrected.
+- **PRB-0009 (Ladisláo inventário) new entity added to children:** `P-0061` (Francisco
+  Leocádio de Toledo) added to structured children list of `F-0027`; removed from
+  documented_children.
+
 - Catalogue **PRB-0008** (José Cesário de Toledo Lima × Claudina Brandina de Jesus
   inventário, 1867, Concórdia/Rio Pardo, MG; 8 pages; archive [38403 268]). **PRIMARY
   source confirming Simplício (P-0016) as son of JC × Claudina** — from p8, item 6:

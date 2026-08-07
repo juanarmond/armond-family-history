@@ -1,0 +1,47 @@
+schema_version: 1
+id: P-0063
+preferred_name: António Ladislão de Toledo
+privacy: deceased
+sex: male
+nationality: Brazilian
+name_variants:
+- value: Antonio Ladislao de Tolledo
+  type: source
+  source_ids:
+  - PRB-0009
+- value: Antonio Toledo
+  type: source
+  source_ids:
+  - CIV-0024
+occupations:
+- value: carpinteiro
+  source_ids:
+  - CIV-0024
+event_ids:
+- E-0058
+family_ids:
+- F-0027
+notes:
+- text: >-
+    Child #7 of Ladisláo Egídio Ferreira de Toledo (P-0056) × Mathilde Maria de
+    Jesus (P-0027), per PRB-0009 (1867 Ladisláo inventário gen1). Listed as "surdo
+    e mudo" (deaf-mute) in PRB-0009. Death confirmed by civil registration 1909
+    (CIV-0024): died 11 February 1909 at 9pm at Fazenda da Concórdia, Thebes
+    district, Leopoldina MG — widower of Maria Euphronyza de Jesus, carpinteiro,
+    approximately 70 years of age (estimated by non-family informant; born c.1834–
+    1839). Buried in the public cemetery of Thebes district.
+- text: >-
+    Previously listed as documented_child in F-0027; promoted to person entity on
+    evidence of CIV-0024 (primary civil death record).
+- text: >-
+    Four adult children named in CIV-0024 — Francisco Themotheo de Toledo, José
+    Ladislao de Toledo, Amélia (wife of Frederico Augusto Rodrigues), and Mathilde
+    (solteira) — are not modelled as person entities. No evidence gate for them
+    has been passed; they are research leads only.
+- text: >-
+    The 1839 Bonfim population register (Mapa da População) shows a child named
+    "Antonio" aged approximately 5 in what appears to be Ladisláo Egídio's
+    household (page 1 of the register). If that identification is correct, António
+    Ladislão was born c.1834, making him c.74–75 at death — consistent with the
+    informant's estimate of ~70 years. This census entry is a lead, not confirmed
+    evidence, as it has not been ingested as a source.

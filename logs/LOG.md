@@ -999,3 +999,38 @@ suzana-brandao-baptism` = PAR-0005 (same bytes). Re-reading PAR-0005 confirms th
 existing transcription: born 11 August 1865, baptized 22 March 1866.
 
 See `logs/2026-08-07-simplicio-parentage-toledo-inventarios-1867.md` for full detail.
+
+## 2026-08-07 — Toledo inventário second pass; António Ladislão death; Lemos siblings confirmed
+
+Value-gate continuation: PRB-0008 p5, PRB-0009 pp 3–5, CIV-0024, and Lemos baptisms.
+
+**JC death date confirmed:** PRB-0008 p5 (Claudina's inventariante oath) records "fallecera
+no dia dois de Setembro." Year cut off at page break; 1866 inferred from context.
+E-0054 updated to exact date 1866-09-02. **Correction:** Claudina was ALIVE on 7
+March 1867 (taking the oath in person); prior note that she died before 4 March 1867 was
+wrong — P-0055 and PRB-0009 corrected. The PRB-0009 p2 text means "JC died after
+Ladisláo", not that Claudina was deceased.
+
+**PRB-0009 pp 3–5 read:** Simplício (P-0016) appears as curator of orphaned minors in
+Ladisláo's estate (p4) — supports Francisco Leocádio having left minor children.
+Mathilde Maria de Jesus (P-0027) signed in person at the 10 March 1867 proceedings (p5).
+New leads: "Marciano Cesário José de Toledo" (p3, unrecognised adult heir) and "Umbilina
+de Toledo" (p5, proxy signature). Eliza Balbina NOT mentioned in pp 3–5.
+
+**JC's 1813 baptism (São João del Rei) image read but illegible** at delivered resolution.
+PAR-0025 and E-0055 not created; IDs retired. Higher-resolution scan needed.
+
+**New entities:** P-0063 (António Ladislão de Toledo, Ladisláo × Mathilde child #7, "surdo
+e mudo"), CIV-0024 (1909 death certidão, Thebes/Leopoldina), E-0058 (death event).
+Death: 11 February 1909 (FINDINGS.md had 12th — corrected). Mother's name variant
+"Mathilde Luiza de Toledo" (CIV-0024) added to P-0027. F-0027 updated: P-0061 and P-0063
+added to structured children; documented_children updated.
+
+**Lemos siblings (F-0025):** Four Itaborahy baptisms (Maria b.1832, Anna b.1834, Thomaz
+b.1836, Polidoro b.1838) read by retrieval agent, all confirming parents Manoel de Lemos
+Pereira × Maria Thereza de Jesus. Added as documented_children on F-0025; individual
+source cataloguing pending.
+
+**Coverage.yaml:** Toledo direct ancestors P-0027, P-0054–P-0060 added.
+
+See `logs/2026-08-07-toledo-inventory-second-pass-antonio-ladislao.md` for full detail.

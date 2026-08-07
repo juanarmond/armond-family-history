@@ -45,7 +45,48 @@ children:
     - text: >-
         PRB-0009 (1867 Ladisláo inventário) lists "Jose Cesario de Tolledo Lima,
         fallecido" as item 8 among Ladisláo's children, directly confirming Ladisláo
-        as JC's father. Upgraded from strong-evidence to confirmed.
+        as JC's father.
+  notes: []
+- person_id: P-0061
+  parent_relationships:
+  - parent_id: P-0027
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PRB-0009
+    notes: []
+  - parent_id: P-0056
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PRB-0009
+    notes:
+    - text: >-
+        PRB-0009-gen1 lists Francisco Leocádio de Toledo as child #4 of Ladisláo
+        × Mathilde, noting he predeceased Ladisláo.
+  notes: []
+- person_id: P-0063
+  parent_relationships:
+  - parent_id: P-0027
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PRB-0009
+    - CIV-0024
+    notes:
+    - text: >-
+        CIV-0024 (1909 death) names his mother as "Mathilde Luiza de Toledo"
+        (a non-family informant's simplification of "Mathilde Maria de Jesus").
+  - parent_id: P-0056
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PRB-0009
+    - CIV-0024
+    notes:
+    - text: >-
+        PRB-0009-gen1 lists António Ladislão de Toledo as child #7 ("surdo e mudo").
+        CIV-0024 (1909 death) names the father as "Ladislao Igidio Ferreira de Toledo."
   notes: []
 documented_children:
 - name: Carolina Ferreira de Toledo
@@ -56,13 +97,6 @@ documented_children:
     Remédios, Barbacena (PAR-0017) — an aunt of Eliza. Possibly the "Carolina
     Leopoldina Marques" (⚭ Narciso Marques Braz) who is heir #5 in the 1879 inventory
     (PRB-0006), but that identity is not established, so recorded separately here.
-- name: Francisco Leocádio de Toledo
-  source_ids:
-  - PRB-0009
-  note: >-
-    Child #4 of Ladisláo × Mathilde; now modelled as P-0061. Predeceased Ladisláo;
-    married Maria Joaquina de Jesus (P-0062, uncertain name read), family F-0030.
-    See P-0061 for detail.
 - name: Aureliano de Sales Toledo
   source_ids:
   - PRB-0009
@@ -79,12 +113,6 @@ documented_children:
     casado com Maria [José?/Joze?] de Jesus"); also appears as the inventariante of
     Mathilde's 1879 estate (PRB-0006). A DISTINCT person from his brother José Cezário
     de Toledo Lima (P-0054) — the near-identical names are a documented trap.
-- name: Antonio Ladisláo de Toledo
-  source_ids:
-  - PRB-0009
-  note: >-
-    Child #7 of Ladisláo × Mathilde per PRB-0009-gen1; married Maria Eufrania de
-    Jesus. Described as "surdo e mudo" (deaf and mute). Not modelled.
 - name: Antonio Zeferino de Toledo
   source_ids:
   - PRB-0004
@@ -105,7 +133,8 @@ notes:
     Per PRB-0009 (1867 Ladisláo inventário), Ladisláo and Mathilde had at least eight
     children: (1) Maria Perpétua (⚭ Antonio Zeferino de Toledo); (2) Ignez Mettelina
     (⚭ João? Pedro da Silva); (3) Carolina Leopoldina Marques (⚭ Narcísio Marques
-    Braz); (4) Francisco Leocádio — now modelled as P-0061; (5) Aureliano de Sales
-    Toledo; (6) Cezário [José] de Toledo; (7) Antonio Ladisláo de Toledo (surdo e
-    mudo); (8) José Cesário de Toledo Lima (P-0054, direct line). Items 1–3 and 5–7
-    are documented_children; item 4 is modelled; item 8 is a structured child.
+    Braz); (4) Francisco Leocádio — modelled as P-0061; (5) Aureliano de Sales
+    Toledo; (6) Cezário [José] de Toledo; (7) António Ladislão de Toledo (surdo e
+    mudo) — modelled as P-0063 (died 11 Feb 1909, CIV-0024); (8) José Cesário de
+    Toledo Lima (P-0054, direct line). Items 1–3 and 5–6 are documented_children;
+    items 4, 7 and 8 are structured children.

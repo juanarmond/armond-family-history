@@ -1,0 +1,22 @@
+schema_version: 1
+id: E-0058
+event_type: death
+date:
+  kind: exact
+  value: "1909-02-11"
+place_text: >-
+  Fazenda da Concórdia, Districto de Thebes, Leopoldina, Minas Gerais, Brazil
+participants:
+- person_id: P-0063
+  role: principal
+status: confirmed
+source_ids:
+- CIV-0024
+notes:
+- text: >-
+    Death of António Ladislão de Toledo (P-0063) on 11 February 1909 at 9pm at
+    Fazenda da Concórdia, Thebes district, Leopoldina MG. Cause: lesão cardíaca,
+    without medical attendance. Declarant appeared at the cartório on 12 February
+    1909; stated "hontem as nove horas da noite" (yesterday at 9pm), giving the
+    death date as 11 February 1909. Burial in the public cemetery of the Thebes
+    district.

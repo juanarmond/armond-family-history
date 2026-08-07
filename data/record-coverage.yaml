@@ -1204,3 +1204,214 @@ people:
       New direct ancestor (31 July 2026): probable mother of Rita Ignacia de Jesus
       (P-0041), inferred from being Antonio Caetano Machado's widow (PAR-0011) plus the
       shared "Ignacia" name. Family F-0022. Mother-link is strong-evidence, not certain.
+- person_id: P-0054
+  external_profiles: []
+  records:
+  - record_type: birth
+    status: negative_search
+    source_ids: []
+    last_reviewed: "2026-08-07"
+    next_action: >-
+      A FamilySearch image of a São João del Rei baptism register (March 1813,
+      rec-toledo-jose-cesario-baptism-1813-sjdrei.jpg) was read on 7 August 2026
+      but is too illegible (dense 19th-century cursive + ink bleed-through) to
+      confirm the child's name, parents, or parish. A higher-resolution scan or
+      in-person reading at the originating archive (Arquivo Eclesiástico de São João
+      del Rei or equivalent) is required before PAR-0025 can be created.
+    notes:
+    - text: >-
+        7 August 2026: image held and read — illegible at delivered resolution.
+        Pre-allocated source ID PAR-0025 and event ID E-0055 remain unused. FINDINGS.md
+        synthesis reports "José Cesário baptism, São João del Rei 1813, parents
+        Ladisláo × Mathilde" as confirmed by the retrieval agent, but the image
+        cannot be reliably transcribed. A higher-resolution copy is the next step.
+  - record_type: death
+    status: catalogued
+    source_ids:
+    - PRB-0008
+    - PRB-0006
+    last_reviewed: "2026-08-07"
+    next_action: >-
+      E-0054 records confirmed death date 2 September 1866 (year contextually inferred;
+      p6 of PRB-0008 not yet catalogued). Confirm year by reading PRB-0008 p6.
+    notes:
+    - text: >-
+        Death date "dos de Setembro" confirmed by Claudina's sworn inventariante
+        oath (PRB-0008 p5, 7 March 1867). Year cut off at page break; 1866 inferred
+        from context (inventory opened 4 March 1867, Simplício aged 14 in 1867).
+  notes:
+  - text: >-
+      Direct ancestor of P-0001 (Simplício's confirmed father, per PRB-0008 and
+      PRB-0009, both 1867). Ahnentafel positions 128 (P-0001 → P-0004 → P-0016
+      → P-0054). José Cesário de Toledo Lima (P-0054) × Claudina Brandina de
+      Jesus (P-0055), family F-0026.
+- person_id: P-0055
+  external_profiles: []
+  records:
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-08-07"
+    next_action: >-
+      PRB-0006 (1879 Matilde inventário) refers to Claudina as "tambem fallecida"
+      (indirect mention — PRB-0006 is not linked to P-0055 directly). Alive 7
+      March 1867; deceased before 1879. Search Concórdia / Rio Pardo civil death
+      registers for 1867–1879.
+    notes:
+    - text: >-
+        Alive 7 March 1867 (PRB-0008 p5 — she took the inventariante oath in person);
+        deceased before 1879 (PRB-0006). Death bounded to 7 March 1867 – ~1879.
+  notes:
+  - text: >-
+      Simplício's mother; direct ancestor of P-0001. Family F-0026. Full name
+      "Claudina Brandina de Jesus" is primary-confirmed by PRB-0008 and PRB-0009
+      (both 1867). No birthplace or baptism record known.
+- person_id: P-0027
+  external_profiles: []
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-08-07"
+    next_action: >-
+      Secondary Themudo genealogy citation places Mathilde's baptism at Barbacena,
+      22 March 1795 (Bertioga section). The Barbacena Piedade baptism image for
+      that date has not been retrieved. Queue for the FamilySearch retrieval agent
+      (Barbacena Piedade baptism series, 1795 range).
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-08-07"
+    next_action: >-
+      PRB-0001 (1881 partilha) and PRB-0002 (1884 petition) both refer to her as
+      deceased ("finada Mathildes Maria de Jesus"). Alive March 1867; deceased by
+      1877 (PRB-0003). Death circa 1877 or after. Search Concórdia / Rio Pardo
+      civil death registers 1877–1881 for the specific act.
+    notes:
+    - text: >-
+        Alive 10 March 1867 (PRB-0009-p5: signed the Termo de Louvaçao in person
+        at Concórdia). Deceased by 1881 (PRB-0001: "finada Mathilde"). Deceased
+        by 1877 per PRB-0003 ("sua finada avó Dona Mathildes Maria de Jesus").
+  notes:
+  - text: >-
+      Mathilde Maria de Jesus (P-0027) is the paternal grandmother of Simplício
+      (P-0016) through JC (P-0054), and the maternal grandmother of Eliza (P-0017)
+      through whichever of Ladisláo's children is Eliza's parent (unresolved). Her
+      parents are CONFIRMED (PAR-0023, 1810 marriage): Alferes Amaro da Silva Xavier
+      (P-0059) × Ignez Francisca de Lima (P-0060), family F-0029. Married Ladisláo
+      Egídio Ferreira de Toledo (P-0056) at São João del Rei, 8 May 1810.
+- person_id: P-0056
+  external_profiles: []
+  records:
+  - record_type: birth
+    status: catalogued
+    source_ids:
+    - PAR-0019
+    last_reviewed: "2026-08-07"
+    next_action: >-
+      Baptism complete — PAR-0019 (1787, Barbacena). Parents confirmed:
+      Capitão João José Ferreira de Toledo × Ritta Angélica Rodrigues, F-0028.
+    notes: []
+  - record_type: marriage
+    status: catalogued
+    source_ids:
+    - PAR-0023
+    last_reviewed: "2026-08-07"
+    next_action: >-
+      Marriage complete — PAR-0023 (8 May 1810, São João del Rei).
+      Mathilde's parents Amaro da Silva Xavier × Ignez Francisca de Lima recorded.
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-08-07"
+    next_action: >-
+      Death bounded to before 2 August 1862 (PRB-0007 confirms Mathilde acted as
+      widow and inventariante on that date). Search Concórdia / Rio Pardo civil
+      death registers c.1855–1862 for the specific act.
+    notes: []
+  notes:
+  - text: >-
+      Direct ancestor of P-0001 (JC's father). Ladisláo Egídio Ferreira de Toledo
+      (P-0056) × Mathilde Maria de Jesus (P-0027), family F-0027. His own children
+      include JC (P-0054) and Francisco Leocádio (P-0061), per PRB-0009 (1867
+      inventário). He and Mathilde were at Barbacena in 1821 (PAR-0017).
+- person_id: P-0057
+  external_profiles: []
+  records:
+  - record_type: birth
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-08-07"
+    next_action: >-
+      Capitão João José Ferreira de Toledo confirmed as Ladisláo's father (PAR-0019,
+      1787 baptism; PAR-0020/0021, daughters' 1812/1816 marriages). No birth or
+      baptism record located. Ladisláo's 1787 Barbacena baptism (PAR-0019) confirms
+      João José in Barbacena by 1787; search Barbacena Piedade baptism books for
+      João José's own record.
+    notes: []
+  notes:
+  - text: >-
+      Father of Ladisláo Egídio Ferreira de Toledo (P-0056). Title "Capitão"
+      recorded in PAR-0020 and PAR-0021 (daughters' marriages, 1812/1816 at
+      Barbacena). His wife is Ritta Angélica Rodrigues (P-0058), family F-0028.
+- person_id: P-0058
+  external_profiles: []
+  records:
+  - record_type: birth
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-08-07"
+    next_action: >-
+      Ritta Angélica Rodrigues (or Rodrigues) confirmed as Ladisláo's mother
+      (PAR-0019, 1787 baptism). No own vital record located. Search Barbacena
+      Piedade baptism/marriage books.
+    notes: []
+  notes:
+  - text: >-
+      Mother of Ladisláo Egídio Ferreira de Toledo (P-0056). Recorded as
+      "Ritta Angélica Roiz [Rodrigues]" in PAR-0020/0021. Family F-0028.
+- person_id: P-0059
+  external_profiles: []
+  records:
+  - record_type: birth
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-08-07"
+    next_action: >-
+      Alferes Amaro da Silva Xavier confirmed as Mathilde's father (PAR-0023, 1810
+      São João del Rei marriage). Title "Alferes." His parents may be named in his
+      own baptism (Barbacena Piedade — "naturais e batizados da Freguesia de
+      Barbacena" per PAR-0023). Search Barbacena Piedade baptism books. Also: the
+      1777 Piracatu baptism of his daughter Maria (sibling of Mathilde) names his
+      parents as "Sargento Amaro da Silva Barreto × Perpétua da Silva" (per
+      FINDINGS.md, image held — value-gate read pending before promoting).
+    notes: []
+  notes:
+  - text: >-
+      Father of Mathilde Maria de Jesus (P-0027). Alferes Amaro da Silva Xavier.
+      Family F-0029. His wife is Ignez Francisca de Lima (P-0060). Both "naturais
+      e batizados da Freguesia de Barbacena" per PAR-0023. His probable parents
+      are Sargento Amaro da Silva Barreto × Perpétua da Silva (per FINDINGS.md lead,
+      image-held; not yet value-gated).
+- person_id: P-0060
+  external_profiles: []
+  records:
+  - record_type: birth
+    status: unsearched
+    source_ids: []
+    last_reviewed: "2026-08-07"
+    next_action: >-
+      Ignez Francisca de Lima confirmed as Mathilde's mother (PAR-0023, 1810 São João
+      del Rei marriage). "Natural e batizada da Freguesia de Barbacena" per PAR-0023.
+      Her probable parents are "João Rodrigues do Mello × Maria Francisca Cordeira"
+      per FINDINGS.md (from the 1777 Piracatu Maria baptism image — value-gate read
+      pending). Search Barbacena Piedade baptism books.
+    notes: []
+  notes:
+  - text: >-
+      Mother of Mathilde Maria de Jesus (P-0027). Ignez Francisca de Lima. Family
+      F-0029. Her probable parents João Rodrigues do Mello × Maria Francisca Cordeira
+      per FINDINGS.md lead (1777 Piracatu baptism of her daughter Maria — image held,
+      not yet value-gated).

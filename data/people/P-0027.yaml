@@ -19,6 +19,10 @@ name_variants:
   - PRB-0003
   - PAR-0017
   - PAR-0023
+- value: Mathilde Luiza de Toledo
+  type: source
+  source_ids:
+  - CIV-0024
 event_ids:
 - E-0052
 family_ids:
@@ -50,7 +54,9 @@ notes:
     of the late D. Mathilde Maria de Jezus). Eliza Balbina de Toledo (P-0017) is
     one of those grandchildren, so Mathilde is Eliza's grandmother — resolving the
     mother-vs-grandmother question flagged on PRB-0001. She had died by the 1881
-    inventory (d. ~1880).
+    inventory (d. ~1880). CONFIRMED alive March 1867: PRB-0009-p5 records her signing
+    the Termo de Louvaçao (10 March 1867) in person at the Concórdia proceedings for
+    Ladisláo's estate — consistent with her ~1880 death date.
 - text: >-
     Intervening generation NAMED (1 August 2026) by her own 1879 Leopoldina estate
     inventory (PRB-0006): Eliza's parent is Mathilde's son José Cezário de Toledo

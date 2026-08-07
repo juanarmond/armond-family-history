@@ -15,7 +15,10 @@ reserved_ids:
 retired_ids:
   people: []
   families: []
-  events: []
+  events:
+  - E-0055
+  - E-0056
+  - E-0057
   places: []
   civil:
   - CIV-0021

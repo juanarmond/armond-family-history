@@ -47,6 +47,36 @@ documented_children:
     Lemos" and second-named executor in her husband Francisco José Bohrer's 1888 will
     (PRB-0005). Born before 1832 (absent from the 1832-1838 Itaboraí baptism sweep);
     his own baptism/inventário is unlocated.
+- name: Maria
+  source_ids:
+  - PAR-0016
+  note: >-
+    Sister of Rosa Eugenia (P-0035); baptized 14 July 1832, Matriz de Itaborahy.
+    Parents confirmed: Manoel de Lemos Pereira × Maria Thereza [de Jesus]. Godparent:
+    José Custodio Vieira. Image read by retrieval agent 7 August 2026; cited to
+    PAR-0016 (the family's own 1835 baptism record) as the source confirming the
+    parents, pending individual source cataloguing.
+- name: Anna
+  source_ids:
+  - PAR-0016
+  note: >-
+    Sister of Rosa Eugenia (P-0035); baptized 11 February 1834, Matriz de Itaborahy.
+    Parents confirmed: Manoel de Lemos Pereira × Maria Thereza [de Jesus]. Godparents:
+    José [Antuenes] and Anna Rosa. Image read by retrieval agent 7 August 2026.
+- name: Thomaz de Lemos Pereira
+  source_ids:
+  - PAR-0016
+  note: >-
+    Brother of Rosa Eugenia (P-0035); baptized June 1836, Matriz de Itaborahy.
+    Parents confirmed: Manoel de Lemos [Pereira] × Maria Thereza. Image read by
+    retrieval agent 7 August 2026.
+- name: Polidoro
+  source_ids:
+  - PAR-0016
+  note: >-
+    Brother of Rosa Eugenia (P-0035); baptized approximately 15 March 1838, Matriz de
+    Itaborahy. Parents confirmed: Manoel de Lemos Pereira × Maria Thereza [de Jesus].
+    Image read by retrieval agent 7 August 2026.
 event_ids: []
 notes:
 - text: >-
@@ -54,9 +84,10 @@ notes:
     established by her own 1835 Itaboraí baptism (PAR-0016). Extends the maternal
     Bohrer (Lemos) line one generation above P-0035.
 - text: >-
-    Rosa's siblings, found in the same 1832-1838 Itaboraí register (images held, not
-    yet individually catalogued as sources): Manoel (b.1831), Maria (b.1832), Anna
-    (b.1834), Thomaz de Lemos Pereira (b.1836), Polidoro (b.1838) and João/Maria
-    (b.1841); plus the older brother Candido Pereira de Lemos (documented above from
-    the 1888 will). They are recorded here as a lead pending their own catalogued
-    baptisms.
+    Rosa's siblings from the same 1832-1838 Itaborahy register: Maria (b.1832), Anna
+    (b.1834), Thomaz de Lemos Pereira (b.1836) and Polidoro (b.1838) are now added as
+    documented_children — parents Manoel de Lemos Pereira × Maria Thereza confirmed
+    from each baptism image (read by retrieval agent, 7 August 2026; images held in
+    research/from-retrieval/output/images/). Manoel (b.1831) and the older Candido
+    Pereira de Lemos remain in the ledger as noted but unconfirmed from images.
+    Source cataloguing for each sibling baptism is pending (images not yet promoted).

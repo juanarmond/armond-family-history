@@ -2,9 +2,12 @@ schema_version: 1
 id: E-0054
 event_type: death
 date:
-  kind: before
-  text: "1867-03-04"
-  latest: 1867
+  kind: exact
+  value: "1866-09-02"
+  original_text: >-
+    "fallecera no dia dois de Setembro" [year cut off at page break; p6 not
+    catalogued; year inferred as 1866 from context: inventory opened 4 March 1867,
+    concurrent with Ladisláo's estate, and Simplício listed as aged 14 in 1867]
 place_text: >-
   Probably Fazenda da Concórdia or vicinity, Districto do Rio Pardo, Minas Gerais,
   Brazil (location of the inventário proceedings)
@@ -17,10 +20,14 @@ source_ids:
 - PRB-0006
 notes:
 - text: >-
-    Both PRB-0006 (1879 Matilde inventário, heir #4 "José Cezario de Tolledo Lima,
-    fallecido") and PRB-0008 (the 1867 JC inventário cover, listing him as deceased)
-    confirm he had died before 4 March 1867. PRB-0009-p2 independently notes his
-    wife Claudina Brandina de Jesus as also deceased ("é viúva, cuja [morte] falleceu
-    depois do Inventariado" — she died after Ladisláo, before the March 1867
-    proceedings). A specific death date for JC may exist in the uncatalogued pages
-    of PRB-0008 (pp. 2–7).
+    JC's death date confirmed as "2 September" by the sworn testimony of his widow
+    Claudina Brandina de Jesus (P-0055) on PRB-0008 p5 (7 March 1867 oath): "seu
+    marido fallecera no dia dois de Setembro." The year is cut off at the p6 page
+    break (p6 not catalogued); 1866 is contextually inferred — the inventory opened
+    4 March 1867 (both probate processes opened concurrently). PRB-0006 (1879 Matilde
+    inventário, heir #4 "José Cezario de Tolledo Lima, fallecido") and PRB-0008 (1867
+    JC inventário cover, listing him as deceased) establish he died before 4 March 1867.
+    Claudina was alive on 7 March 1867 — she was physically present taking the
+    inventariante oath (PRB-0008 p5). The PRB-0009-p2 text "a mae destes Dona Claudina
+    Brandina de Jesus é viúva, cuja [morte do] marido falleceu depois do Inventariado"
+    means JC died after Ladisláo — NOT that Claudina was deceased.

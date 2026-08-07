@@ -30,18 +30,17 @@ catalogues each valuable image as evidence.
 
 This is the immediate execution queue, in order:
 
-1. **Direct-line follow-up:** Eliza's maternal Toledo parentage is RESOLVED (PRB-0006,
-   1879 inventory): parents José Cezário de Toledo Lima × Claudina (F-0026),
-   grandparents Mathilde × Ladisláo Egydio Ferreira de Toledo (F-0027) — correcting
-   the PRB-0004 hypothesis (Antonio Zeferino × Maria Perpétua = heir #3, the uncle)
-   and the two-Ladisláo ambiguity. The line reaches **Barbacena**: the 1821 Carolina
-   baptism (PAR-0017) fixes Ladisláo × Matilde there, and his parents **Capitão João
-   José Ferreira de Toledo × Ritta Angélica Rodrigues** (F-0028) are now CONFIRMED by
-   his 1787 baptism (PAR-0019) and two daughters' marriages (PAR-0020/0021). Matilde’s parents are now **CONFIRMED (2026-08-05)**: Alferes Amaro da Silva Xavier
-   × Ignez Francisca de Lima (F-0029), both naturais de Barbacena — from the 1810
-   São João del Rei marriage record (PAR-0023). The Toledo apical chain now reaches
-   the 1700s. **Owner decision pending:** whether to ingest the titled Ferreira
-   Armond branch (collateral).
+1. **Direct-line follow-up:** Simplício’s parentage CONFIRMED (7 Aug 2026, PRB-0008/
+   PRB-0009): son of José Cezário de Toledo Lima × Claudina Brandina de Jesus
+   (F-0026). Eliza’s parentage UNRESOLVED (see conflict #14). The Toledo direct line
+   now reaches **Barbacena**: the 1821 Carolina baptism (PAR-0017) fixes Ladisláo ×
+   Matilde there, and his parents **Capitão João José Ferreira de Toledo × Ritta
+   Angélica Rodrigues** (F-0028) are CONFIRMED by his 1787 baptism (PAR-0019) and
+   two daughters’ marriages (PAR-0020/0021). Matilde’s parents are CONFIRMED
+   (2026-08-05): Alferes Amaro da Silva Xavier × Ignez Francisca de Lima (F-0029) —
+   from the 1810 São João del Rei marriage (PAR-0023). The Toledo apical chain now
+   reaches the 1700s. **Owner decision pending:** whether to ingest the titled
+   Ferreira Armond branch (collateral).
 2. Catalogue each retrieved image: privacy-review, reserve a source, transcribe,
    and promote the directly-attested events.
 3. Locate Liliosa's own death, birth or marriage record; retest the Volta
@@ -90,17 +89,17 @@ and cataloguing work.
 
 | Item | Current state |
 | --- | --- |
-| Structured people | 54 |
-| Structured families | 26 |
-| Structured events | 52 |
+| Structured people | 63 |
+| Structured families | 30 |
+| Structured events | 55 |
 | Structured places | 9 |
-| Structured sources | 53 |
+| Structured sources | 62 |
 | Structured FAN references | 13 |
-| Inventoried retained documents | 59 |
-| Validation | 237 entities; zero errors or warnings at the last check |
+| Inventoried retained documents | 60 |
+| Validation | 232 entities; zero errors or warnings at the last check |
 | Automated tests | 69 passing at the last check |
 
-The 53 catalogued sources span the Armond/Paz, Muniz Bittencourt/Azevedo,
+The 62 catalogued sources span the Armond/Paz, Muniz Bittencourt/Azevedo,
 Engracio/Souza/Guimarães, Bohrer and Portuguese-origin lines, include the maternal
 Toledo probate cluster and the Barbacena context sources, and include the living
 subject's private records. Details are canonical in `data/sources/`; gaps in
@@ -113,7 +112,7 @@ subject's private records. Details are canonical in `data/sources/`; gaps in
 | Armond and Paz | Aristão's death is confirmed; a second original government record independently names Liliosa Paz Armond and reports the couple as José Olavo's parents. Simplício's parentage is now CONFIRMED (7 Aug 2026) by two independent 1867 primary sources (PRB-0008, PRB-0009): son of José Cezário de Toledo Lima × Claudina Brandina de Jesus (F-0026). Eliza's parentage is now UNRESOLVED (prior misread of PRB-0006 corrected). Leads (not evidence): a sibling Marfisa (bapt. 1873, N. Sra. da Piedade, Piacatuba) fixes the likely baptism parish | Retrieve Aristão's baptism and marriage; find the Simplício×Eliza marriage; resolve Eliza's parentage among Ladisláo's other children; locate Liliosa's parents |
 | Muniz Bittencourt and Azevedo | Deocleciano's own 1892 baptism (PAR-0004) and Susanna's 1866 baptism (PAR-0005) are catalogued; João's 1915 death (PAR-0007) confirms São Miguel origin; parents primary-confirmed by PAR-0015 (father Manoel Muniz Bytancourt P-0042, mother Francisca Roza P-0047) and grandparents (F-0023). João's own baptism found: PAR-0022, b. 24 Oct 1845. Marriage PAR-0024 found: 1 Feb 1845. Luiza's parents (F-0018) and Carangola origin fixed | The completed João × Susanna ceremony entry; the Azevedo grandparents' own vital records |
 | Engracio, Souza and Guimarães | The 1915 collective registration documents Maria Amora/Aurora, her parents and all four grandparents; her 1991 death (CIV-0018) confirms the same parents, and Antonio Engracio Filho's 1964 death (CIV-0017) names his parents — Antonio Engracio de Souza × Luzia Pinheiro da Conceição — and attests the couple's marriage; Cidalia's own 1930 birth (CIV-0022) confirms her parents and all four grandparents and fixes her birth date at 15 September 1930 | Locate Vicente's Portuguese origin; find the Antonio × Maria Aurora marriage act and the P-0032/P-0033 own vital records (both off-index) |
-| Bohrer | João Gonçalves Bohrer (d.1970) and Celina/Selina Bohrer (d.1977) catalogued from RJ civil deaths (CIV-0014/0015). Celina's maternal line now reaches her grandparents: Joaquim José Bohrer's parents Francisco José Bohrer × Rosa Eugenia de Lemos (their 1879 Nova Friburgo marriage, PAR-0002) and Lucinda's parents Antonio da Silva Ferreira × Maria Joanna da Silva Ferreira, both named in Alberto Bohrer's 1890 birth (CIV-0019). Francisco José Bohrer's parents Jacob Bahrer × Catharina Mayer (F-0024) are now primary-confirmed by his own 1888 will (PRB-0005), which also shows he was Brazilian-born at Nova Friburgo — so the immigrant boundary now sits at Jacob/Catharina (the Swiss-Soleure reading a secondary lead). Rosa Eugenia de Lemos's parents are also confirmed — Manoel de Lemos Pereira × Maria Thereza de Jesus (F-0025), from her own 1835 Itaboraí baptism (PAR-0016), an Itaboraí Lemos family (brother Candido Pereira de Lemos named in the will) | Valentim Martinho Bohrer × Carolina's own records; João Gonçalves × Celina's civil marriage; the Lemos siblings' own baptisms (images held) |
+| Bohrer | João Gonçalves Bohrer (d.1970) and Celina/Selina Bohrer (d.1977) catalogued from RJ civil deaths (CIV-0014/0015). Celina's maternal line now reaches her grandparents: Joaquim José Bohrer's parents Francisco José Bohrer × Rosa Eugenia de Lemos (their 1879 Nova Friburgo marriage, PAR-0002) and Lucinda's parents Antonio da Silva Ferreira × Maria Joanna da Silva Ferreira, both named in Alberto Bohrer's 1890 birth (CIV-0019). Francisco José Bohrer's parents Jacob Bahrer × Catharina Mayer (F-0024) are now primary-confirmed by his own 1888 will (PRB-0005), which also shows he was Brazilian-born at Nova Friburgo — so the immigrant boundary now sits at Jacob/Catharina (the Swiss-Soleure reading a secondary lead). Rosa Eugenia de Lemos's parents are also confirmed — Manoel de Lemos Pereira × Maria Thereza de Jesus (F-0025), from her own 1835 Itaboraí baptism (PAR-0016), an Itaboraí Lemos family (brother Candido Pereira de Lemos named in the will). Four Lemos siblings (Maria b.1832, Anna b.1834, Thomaz b.1836, Polidoro b.1838) confirmed from Itaborahy baptism images read 7 August 2026; added as documented_children on F-0025. | Valentim Martinho Bohrer × Carolina's own records; João Gonçalves × Celina's civil marriage; individual source cataloguing for the Lemos sibling baptisms (images held) |
 | Portuguese origins | `CIV-0007` directly reports Vicente as Portuguese; an 1866 Rio Claro record is an unlinked identity lead | Identify a district, municipality and parish before searching Portugal |
 
 The direct-line working roster follows Ahnentafel order from `P-0001` through
