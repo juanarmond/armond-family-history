@@ -30,9 +30,13 @@ catalogues each valuable image as evidence.
 
 This is the immediate execution queue, in order:
 
-1. **Direct-line follow-up:** Simplício’s parentage CONFIRMED (7 Aug 2026). Eliza’s
-   parentage UNRESOLVED — conflict #14; PRB-0006 corrected (7 Aug 2026): Eliza is
-   Simplício’s wife named in the heir list, not a listed child of JC. The Toledo line
+1. **Direct-line follow-up:** Eliza’s parentage CONFIRMED (7 Aug 2026 Film 2
+   triage, PRB-0006): Eliza Balbina de Toledo (P-0017) is a daughter of José Cezário
+   de Toledo Lima (P-0054) × Claudina Brandina de Jesus (P-0055), family F-0026.
+   Conflict #14 RESOLVED. Note: JC had a son also named "Simplício Ferreira de
+   Toledo" (item 6, both 1867 inventários, b.~1853, died before 1879) — a DIFFERENT
+   person from Simplício José Ferreira Armond (P-0016, Eliza’s husband). P-0016’s
+   parentage is UNKNOWN. The Toledo line
    now reaches **Portugal**: PAR-0025 (1777 Piracatu baptism, primary) confirms
    Amaro da Silva Xavier’s parents as Amaro da Silva Barreto (Guimarães, Braga) ×
    Perpétua da Silva (São Paulo) — F-0031; and Ignez’s parents as João Rodrigues de
@@ -109,7 +113,7 @@ subject's private records. Details are canonical in `data/sources/`; gaps in
 
 | Area | Strongest current position | Strategic gap |
 | --- | --- | --- |
-| Armond and Paz | Aristão's death is confirmed; a second original government record independently names Liliosa Paz Armond and reports the couple as José Olavo's parents. Simplício's parentage is now CONFIRMED (7 Aug 2026) by two independent 1867 primary sources (PRB-0008, PRB-0009): son of José Cezário de Toledo Lima × Claudina Brandina de Jesus (F-0026). Eliza's parentage is now UNRESOLVED (prior misread of PRB-0006 corrected). Leads (not evidence): a sibling Marfisa (bapt. 1873, N. Sra. da Piedade, Piacatuba) fixes the likely baptism parish | Retrieve Aristão's baptism and marriage; find the Simplício×Eliza marriage; resolve Eliza's parentage among Ladisláo's other children; locate Liliosa's parents |
+| Armond and Paz | Aristão's death is confirmed; a second original government record independently names Liliosa Paz Armond and reports the couple as José Olavo's parents. Eliza's parentage CONFIRMED (7 Aug 2026, PRB-0006 Film 2 triage): Eliza Balbina de Toledo (P-0017) is daughter of JC × Claudina (P-0054/P-0055, F-0026). Simplício Armond's (P-0016) own parentage remains UNKNOWN — he is Eliza's husband, not JC's son; JC had a distinct son "Simplício de Toledo" (b.~1853, died before 1879). Leads (not evidence): a sibling Marfiza (bapt. 1873, N. Sra. da Piedade, Piacatuba) fixes the likely baptism parish | Retrieve Aristão's baptism and marriage; find the Simplício×Eliza marriage; locate Simplício Armond's own parents; locate Liliosa's parents |
 | Muniz Bittencourt and Azevedo | Deocleciano's own 1892 baptism (PAR-0004) and Susanna's 1866 baptism (PAR-0005) are catalogued; João's 1915 death (PAR-0007) confirms São Miguel origin; parents primary-confirmed by PAR-0015 (father Manoel Muniz Bytancourt P-0042, mother Francisca Roza P-0047) and grandparents (F-0023). João's own baptism found: PAR-0022, b. 24 Oct 1845. Marriage PAR-0024 found: 1 Feb 1845. Luiza's parents (F-0018) and Carangola origin fixed | The completed João × Susanna ceremony entry; the Azevedo grandparents' own vital records |
 | Engracio, Souza and Guimarães | The 1915 collective registration documents Maria Amora/Aurora, her parents and all four grandparents; her 1991 death (CIV-0018) confirms the same parents, and Antonio Engracio Filho's 1964 death (CIV-0017) names his parents — Antonio Engracio de Souza × Luzia Pinheiro da Conceição — and attests the couple's marriage; Cidalia's own 1930 birth (CIV-0022) confirms her parents and all four grandparents and fixes her birth date at 15 September 1930 | Locate Vicente's Portuguese origin; find the Antonio × Maria Aurora marriage act and the P-0032/P-0033 own vital records (both off-index) |
 | Bohrer | João Gonçalves Bohrer (d.1970) and Celina/Selina Bohrer (d.1977) catalogued from RJ civil deaths (CIV-0014/0015). Celina's maternal line now reaches her grandparents: Joaquim José Bohrer's parents Francisco José Bohrer × Rosa Eugenia de Lemos (their 1879 Nova Friburgo marriage, PAR-0002) and Lucinda's parents Antonio da Silva Ferreira × Maria Joanna da Silva Ferreira, both named in Alberto Bohrer's 1890 birth (CIV-0019). Francisco José Bohrer's parents Jacob Bahrer × Catharina Mayer (F-0024) are now primary-confirmed by his own 1888 will (PRB-0005), which also shows he was Brazilian-born at Nova Friburgo — so the immigrant boundary now sits at Jacob/Catharina (the Swiss-Soleure reading a secondary lead). Rosa Eugenia de Lemos's parents are also confirmed — Manoel de Lemos Pereira × Maria Thereza de Jesus (F-0025), from her own 1835 Itaboraí baptism (PAR-0016), an Itaboraí Lemos family (brother Candido Pereira de Lemos named in the will). Four Lemos siblings (Maria b.1832, Anna b.1834, Thomaz b.1836, Polidoro b.1838) confirmed from Itaborahy baptism images read 7 August 2026; added as documented_children on F-0025. | Valentim Martinho Bohrer × Carolina's own records; João Gonçalves × Celina's civil marriage; individual source cataloguing for the Lemos sibling baptisms (images held) |
@@ -144,13 +148,8 @@ relationships. Collaborative profiles remain navigation leads only.
    early and requires the original record.
 9. FamilySearch's index table displays `1633` for the provision catalogued as
    `PAR-0001`; the original image and citation state 23 December 1882.
-10. RESOLVED (2026-07-30): "Maria Amora Guimarães" (1915 birth registration,
-    CIV-0007) versus "Maria Aurora Guimarães" (her own 1991 death CIV-0018, her
-    marriage CIV-0002 and family information). Both name the identical parents,
-    proving the two forms are one woman (P-0011). Both are preserved as variants;
-    the preferred name is "Maria Aurora" — three sources including her own death
-    outweigh the single retrospective, certified-copy birth registration (same
-    reasoning as P-0015 Celina/Selina).
+10. RESOLVED (2026-07-30): "Maria Amora/Aurora Guimarães" — same woman (P-0011);
+    identical parents on CIV-0007 and CIV-0018; preferred name "Maria Aurora."
 11. Whether the 1866 Vila do Rio Claro power of attorney names the same
     Vicente José de Carvalho Guimarães documented as Francisco's father.
 12. RESOLVED (31 July 2026): José Secundino de Azevedo's given name (P-0038). The
@@ -160,9 +159,11 @@ relationships. Collaborative profiles remain navigation leads only.
 13. João Gonçalves Bohrer × Celina marriage place: "neste Município" (Nova
     Friburgo, RJ) in CIV-0016 (1924) vs "em Carangola, MG" [uncertain] in CIV-0014
     (1970); confirm the CIV-0014 reading before use.
-14. Eliza Balbina de Toledo's parentage: UNRESOLVED (7 August 2026). PRB-0008 and
-    PRB-0009 correct the misread of PRB-0006: Eliza is Simplício's wife, not JC's
-    daughter. Likely a daughter of one of Ladisláo's other children (not yet researched).
+14. Eliza Balbina de Toledo's parentage: RESOLVED (7 August 2026). PRB-0006 (1879
+    Matilde inventário, Film 2 triage) confirms Eliza as a daughter of José Cezário de
+    Toledo Lima × Claudina Brandina de Jesus (F-0026), appearing as representante #5
+    under heir #4. Earlier in the same session a misread introduced the opposite claim;
+    corrected same day. See PRB-0006 abstract and P-0017 notes for full evidence chain.
 
 Do not resolve a conflict by deleting the weaker version. Preserve every
 material interpretation with its source and confidence.

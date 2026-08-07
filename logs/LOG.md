@@ -1066,3 +1066,47 @@ unresolved. **PRB-0008** page-count corrected (eight pages, not nine; p6 not cat
 Simplício's middle name discrepancy (Jaci vs. José in PRB-0008/PRB-0009) flagged.
 
 See `logs/2026-08-07-piracatu-baptism-portugal-origins.md` for full detail.
+
+## 2026-08-07 — Retrieval drop third pass: CIV-0013 corrections, p5b data, error flags
+
+Value-gate completion pass. Three new images triaged; several accumulated errors
+corrected.
+
+**CIV-0013 transcription corrected** from higher-quality re-scan
+(`marfisa-death-1962-itaperuna-p1.jpg`): declarant name "Silvio/Goistos Barrozo"
+(not "[Gustavo?] Barroso"); death time 3:30 AM (not 1:30 PM — "três" misread as
+"treze"); doctor "Carlos Antonio Rodrigues" (not "Deslandes"); address "Rua Pres.
+de Azevedo 100" (not "[Paes de Azevedo]"); city Itaperuna confirmed. Event_place
+and archive fields updated.
+
+**p5b (rec-toledo-matilde-inventario-1879-titulo-herdeiros-p5b.jpg)**: new folio
+of Matilde's 1879 inventário. Heir #5 = Carolina Leopoldina Marques (deceased at
+1879). Six named representantes recorded in PRB-0006 notes. Heir #6 = Aureliano
+de Salles Tolledo, widower of "Marianna Euphragia de Tolledo"; resident S.
+Sebastião dos Aflitos, termo de Santa Rita do Turvo. Conflicts with F-0027
+documented_child note ("Marciana Espro[n?]de de Toledo" from PRB-0009) — flagged
+for re-check.
+
+**p0 (rec-toledo-matilde-inventario-1879-titulo-herdeiros-p0.jpg)**: blank cover
+page, no genealogical data. Recorded in triage ledger.
+
+**Three PDF consolidations** (JC inventário, Ladisláo inventário, Matilde
+inventário): owner-combined versions of already-triaged individual pages. Not
+re-read; recorded in triage ledger.
+
+**PRB-0009 surname-discrepancy flag**: the p4 curator "Simplicio Jaci Ferrura
+[Ferreira] de Toledo" (Toledo surname) was previously associated with P-0016
+(Simplício José Ferreira ARMOND, Armond surname). These are different surnames.
+Association is now explicitly marked uncertain, pending image re-verification.
+Two-Simplícios clarification added to PRB-0009 title, abstract, and notes.
+
+**NOTE on the preceding LOG entry** (2026-08-07 Piracatu entry above): that
+entry incorrectly states "PRB-0006 corrected: confirms Eliza is Simplício's wife
+only; her parentage is unresolved." This was itself an error introduced in the
+second pass (the two-Simplícios misidentification). The same-day correction
+(this pass) restores the correct conclusion: **Eliza Balbina de Toledo (P-0017)
+IS the daughter of José Cezário de Toledo Lima (P-0054) × Claudina Brandina de
+Jesus (P-0055)**, confirmed by PRB-0006 (1879) Film 2 triage. That correction
+is documented in the session log entries for the second and third passes.
+
+See `logs/2026-08-07-retrieval-drop-triage-third-pass.md` for detail.

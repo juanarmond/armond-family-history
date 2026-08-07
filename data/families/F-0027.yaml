@@ -63,7 +63,9 @@ children:
     notes:
     - text: >-
         PRB-0009-gen1 lists Francisco Leocádio de Toledo as child #4 of Ladisláo
-        × Mathilde, noting he predeceased Ladisláo.
+        × Mathilde; his wife Maria Joaquina de Jesus predeceased Ladisláo, but
+        Francisco himself was alive as herdeiro #2 in Matilde's 1879 inventário
+        (PRB-0006, Film 2 triage). His own death date is unknown but post-1879.
   notes: []
 - person_id: P-0063
   parent_relationships:
@@ -100,10 +102,16 @@ documented_children:
 - name: Aureliano de Sales Toledo
   source_ids:
   - PRB-0009
+  - PRB-0006
   note: >-
-    Child #5 of Ladisláo × Mathilde per PRB-0009-gen1; married Marciana Espro[n?]de
-    de Toledo. Appears as Curador of JC's minor children in both PRB-0008 and
-    PRB-0009. Not modelled; not a direct-line ancestor.
+    Child #5 of Ladisláo × Mathilde per PRB-0009-gen1; appears as Curador of JC's
+    minor children in both PRB-0008 and PRB-0009. Not modelled; not a direct-line
+    ancestor. CONFLICT — wife name: PRB-0009 reading gives "Marciana Espro[n?]de de
+    Toledo"; the p5b folio of PRB-0006 (image read 2026-08-07) gives "Marianna
+    Euphragia de Tolledo, já fallecida" with residence at S. Sebastião dos Aflitos,
+    termo de Santa Rita do Turvo. The PRB-0009 reading may be a misread, or Aureliano
+    was twice-married (widowed by 1879). Requires direct re-check of PRB-0009.
+    PRB-0006 as the primary (1879 judicial) source is preferred where readable.
 - name: Cezário [José] de Toledo
   source_ids:
   - PRB-0006
@@ -136,10 +144,12 @@ event_ids:
 - E-0052
 notes:
 - text: >-
-    Parents of José Cezário de Toledo Lima (P-0054) and grandparents of Simplício
-    José Ferreira Armond (P-0016). CORRECTION (7 August 2026): Simplício (not Eliza)
-    is the direct-line child. Mathilde's grandparent role is now a structured edge
-    via her son JC → his son Simplício. Eliza's parentage remains unresolved (see P-0017).
+    Parents of José Cezário de Toledo Lima (P-0054), who is the father of Eliza
+    Balbina de Toledo (P-0017), who married Simplício José Ferreira Armond (P-0016).
+    Mathilde's grandparent role in the direct line passes through JC → Eliza → the
+    Armond family. CORRECTION (7 August 2026): an intermediate session incorrectly
+    stated that Simplício Armond (not Eliza) was JC's child; corrected same day
+    once PRB-0006 Film 2 triage confirmed Eliza as JC's daughter (see F-0026, P-0017).
 - text: >-
     Per PRB-0009 (1867 Ladisláo inventário), Ladisláo and Mathilde had at least eight
     children: (1) Maria Perpétua (⚭ Antonio Zeferino de Toledo); (2) Ignez Mettelina

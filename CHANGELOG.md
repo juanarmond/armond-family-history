@@ -5,6 +5,52 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Corrected — two-Simplícios error and CIV-0013 transcription (2026-08-07 third pass)
+
+The second pass of 2026-08-07 introduced a systematic error by misidentifying
+"Simplício José Ferreira de TOLEDO, solteiro, quatorze annos" (item 6 in the
+1867 JC inventário, PRB-0008 p8) as our Simplício José Ferreira ARMOND (P-0016).
+These are DIFFERENT people: JC's own son has the Toledo surname and died before
+1879; P-0016 (Eliza's husband) has the Armond surname and is NOT JC's son. The
+second pass propagated this error across seven files; the third pass reverses it.
+
+**The correct, evidence-backed conclusion (restored this pass):**
+Eliza Balbina de Toledo (P-0017) IS the daughter of José Cezário de Toledo Lima
+(P-0054) × Claudina Brandina de Jesus (P-0055), family F-0026. Evidence: PRB-0006
+(1879 Matilde inventário, Film 2 triage), which lists "5º Simplicio José Ferreira
+Armond, cazado com D. Eliza Balbina de Tolledo" as representante #5 under heir #4
+(JC × Claudina). Under 19th-century Brazilian inheritance law, a married woman
+appeared through her husband as legal representative; Simplício is named first as
+Eliza's legal actor — Eliza is the heir.
+
+**CHANGELOG entries affected by this error** (from the second pass — now reversed):
+- "PRB-0006 corrected: ...remove the misread that Eliza is JC's daughter..." (WRONG)
+- "PRB-0008: PRIMARY source confirming Simplício (P-0016) as son of JC..." (WRONG)
+- "PRB-0009: independently confirms Simplício as JC's representante..." (WRONG)
+- "Data correction (F-0026, P-0016, P-0017): Simplício added as child, Eliza removed" (WRONG)
+
+Files corrected this pass: `F-0026` (P-0017 reinstated as structured child, P-0016
+removed), `P-0016` (F-0026 removed from family_ids), `P-0017` (F-0026 reinstated,
+notes corrected), `PRB-0006` (abstract/notes corrected to affirm Eliza's parentage),
+`PRB-0008` (title/notes corrected — item 6 = JC's son, NOT P-0016), `P-0061`
+(Francisco Leocádio corrected — alive as herdeiro #2 in 1879; "falleceu antes da
+morte" refers to his wife, not him), `F-0027` (Francisco Leocádio note corrected).
+
+**CIV-0013 transcription corrected** from higher-quality image re-read: declarant
+is "Silvio/Goistos Barrozo" (not "[Gustavo?] Barroso"); death time is 3:30 AM (not
+1:30 PM); doctor is "Carlos Antonio Rodrigues" (not "Deslandes"); address is
+"Rua Pres. de Azevedo 100" (not "[Paes de Azevedo]"); city Itaperuna confirmed.
+
+**PRB-0009 (Ladisláo inventário) clarifications:** the p4 curator "Simplicio Jaci
+Ferreira de Toledo" has the Toledo surname, not Armond — the prior identification of
+this person as P-0016 is marked unconfirmed. Two-Simplícios note added to distinguish
+JC's son (item 6, b.~1853, de Toledo surname) from P-0016 (Armond surname).
+
+**P5b data noted** in PRB-0006 and F-0027: heir #5's representantes (Carolina
+Leopoldina Marques's six named children) and heir #6 (Aureliano de Salles Tolledo ×
+Marianna Euphragia de Tolledo) recorded. Conflict with F-0027 Aureliano note
+("Marciana Espro[n?]de") flagged for re-check of PRB-0009.
+
 ### Added
 
 - Catalogue **PAR-0025** (1777 original parish baptism, Minas do Piracatu, Manga

@@ -2,8 +2,9 @@ schema_version: 1
 id: PRB-0008
 title: >-
   1867 Concórdia probate inventory of José Cesário de Toledo Lima and Claudina
-  Brandina de Jesus — título de herdeiros listing Simplício (item 6) and siblings
-  as children of the deceased couple
+  Brandina de Jesus — título de herdeiros listing nine children including Eliza
+  Balbina de Toledo (P-0017) and a son named Simplício de Toledo (item 6, distinct
+  from Simplício Armond P-0016)
 record_type: Estate inventory (inventário / título de herdeiros)
 record_category: court_or_probate
 source_form: original
@@ -223,6 +224,7 @@ linked_people:
 - P-0054
 - P-0055
 - P-0016
+- P-0017
 linked_families:
 - F-0026
 linked_events:
@@ -231,15 +233,24 @@ linked_places: []
 private: true
 notes:
 - text: >-
-    This inventory directly contradicts the reading of PRB-0006 that placed Eliza
-    (P-0017) as a child of JC: the 1867 JC inventário does NOT list Eliza among JC's
-    children. Simplício (item 6, aged 14) is listed; the items before him (including
-    the unknown item 5 on p7) are his siblings. Eliza's parentage is now a hypothesis
-    requiring further evidence (see P-0017 notes and family F-0030).
+    IMPORTANT — TWO DISTINCT SIMPLÍCIOS: Item 6 in this inventory ("Simplicio José
+    Ferrara [Ferreira] de Tolledo, Solteiro de quatorze annos") is JC's OWN SON with
+    the TOLEDO surname, born ~1853, unmarried in 1867, who died before 1879 (absent
+    from the 1879 Matilde inventário). He is a DIFFERENT person from our Simplício
+    José Ferreira ARMOND (P-0016), who has the Armond surname and married Eliza
+    Balbina de Toledo. A prior session (7 August 2026) misidentified the two and
+    incorrectly concluded P-0016 was JC's son; corrected same day. Eliza (P-0017) is
+    confirmed as JC's daughter via PRB-0006 Film 2 triage.
 - text: >-
-    PRB-0009 (Ladisláo inventário, 1867) independently confirms Simplício as item 6
-    among JC's representantes in a separate concurrent proceeding — two independent
-    1867 primary records establish the same parentage.
+    This inventory does NOT list Eliza by name among the children visible on pp. 6-9;
+    she may be the unknown item 5 on p7 (not catalogued) or may appear elsewhere.
+    The 1879 Matilde inventário (PRB-0006) confirms her as representante #5 under heir
+    #4 (JC × Claudina), consistent with birth after or around the date of this 1867
+    inventory.
+- text: >-
+    PRB-0009 (Ladisláo inventário, 1867) independently confirms "Simplício de Toledo,
+    solteiro, 14 anos" as item 6 among JC's representantes — the same JC's-son
+    Simplício de Toledo, not our Simplício Armond.
 - text: >-
     Claudina Brandina de Jesus: her full name is PRIMARY-CONFIRMED by the cover of
     this inventory ("Claudina Brandina de Jesus"); prior to this, the full name was

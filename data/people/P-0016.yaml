@@ -23,7 +23,6 @@ event_ids:
 - E-0005
 family_ids:
 - F-0006
-- F-0026
 fan_references:
 - fan_id: FAN-0001
   role: signatário
@@ -33,12 +32,15 @@ fan_references:
 notes:
 - text: Ahnentafel position 16.
 - text: >-
-    Parents CONFIRMED (7 August 2026) by two independent primary sources: PRB-0008
-    (José Cesário de Toledo Lima's own 1867 inventário, p8, item 6: "Simplicio José
-    Ferrara [Ferreira] de Tolledo, Solteiro de quatorze annos") and PRB-0009
-    (Ladisláo's concurrent 1867 inventário, p2, item 6: "Simplicio José Perrura
-    [Ferreira] de Tolledo, Solteiro de quatorze annos"). Mother confirmed as Claudina
-    Brandina de Jesus (P-0055) from the same proceedings. Parents' family: F-0026.
+    Parents UNKNOWN. Simplício's Armond surname distinguishes him from the Toledo
+    family he married into. PRB-0008 and PRB-0009 (1867 inventários) list a "Simplício
+    José Ferreira de TOLEDO, solteiro, 14 anos" as JC's own son (item 6 in both) — a
+    DIFFERENT person with a Toledo surname who died before 1879. A prior session
+    (7 August 2026) mistakenly identified that Simplício de Toledo with our Simplício
+    Armond and added F-0026 as his birth family; corrected same day. He is Eliza
+    Balbina de Toledo's husband; his biological parents remain unidentified. He is NOT
+    a child of José Cezário de Toledo Lima (P-0054) or Claudina Brandina de Jesus
+    (P-0055).
 - text: >-
     His name appears in four records: the short "Simplicio Armand" (Aristão's 1957
     death, CIV-0005); "Simplício Ferreira Armond" (Marfiza's 1962 death, CIV-0013);

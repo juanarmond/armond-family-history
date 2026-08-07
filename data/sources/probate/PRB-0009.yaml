@@ -4,8 +4,8 @@ title: >-
   1867 Concórdia probate inventory of Ladisláo Egídio Ferreira de Toledo — título
   de herdeiros confirming eight children including Francisco Leocádio (item 4,
   deceased before Ladisláo) and José Cesário Lima (item 8, deceased), with JC's
-  children including Simplício (item 6) and a declaration on Claudina Brandina de
-  Jesus
+  children including a son named Simplício Ferreira de Toledo (item 6, distinct from
+  Simplício Armond P-0016) and a declaration on Claudina Brandina de Jesus
 record_type: Estate inventory (inventário / título de herdeiros)
 record_category: court_or_probate
 source_form: original
@@ -106,10 +106,13 @@ transcription: >-
   [p4 — continuation of citation list:] Additional herdeiros: "Mathildes Aba[dia?],"
   "Josephina Christinada da Silva Lima e seu marido," and "Claudina de Toledo [com]
   morido." Key line: "Simplicio Jaci Ferrura [Ferreira] de Toledo e o curador dos
-  orphãos" — Simplício Jaci Ferreira de Toledo (P-0016) is here identified as curator
-  of the orphaned minors ("orphaos menores") in Ladisláo's estate. His role as curator
-  is consistent with Francisco Leocádio (item 4, predeceased) having left minor
-  children whose share passes to them. Certidão signed: "Concordia 6 de Março 1867 /
+  orphãos" — a person named Simplício Jaci Ferreira de Toledo is curator of the
+  orphaned minors ("orphaos menores") in Ladisláo's estate. CAUTION (2026-08-07):
+  this person has the Toledo surname; P-0016 (Simplício José Ferreira ARMOND) was
+  previously associated with this line, but the surname mismatch (Toledo vs. Armond)
+  casts doubt on that identification — this may be a different Toledo family member.
+  Requires image re-read to confirm. His curator role is consistent with Francisco
+  Leocádio (item 4, predeceased) having left minor orphaned children. Certidão signed: "Concordia 6 de Março 1867 /
   J.a Freitas Pacheco" (escrivão).
 
   [p4 — Termo de Louvaçao:] Opens "Aos des dias do mez de Março do anno de mil oito
@@ -137,16 +140,21 @@ abstract: >-
   Leocádio de Toledo (P-0061), who predeceased Ladisláo and was married to Maria
   Joaquina de Jesus (P-0062); and child #8 José Cesário de Toledo Lima (P-0054,
   deceased), represented by his children. Page p2 continues with JC's nine
-  representantes, listing Simplício as item 6 ("Simplicio José Perrura [Ferreira] de
-  Tolledo, Solteiro de quatorze annos") — independently corroborating PRB-0008 (the
-  concurrent JC inventário) that Simplício is JC's son. Page p2 also declares:
-  "a mae destes Dona Claudina Brandina de Jesus é viúva, cuja [morte do] marido
-  falleceu depois do Inventariado" — correctly read as: JC (Claudina's husband) died
-  after Ladisláo; Claudina was alive on 7 March 1867 (PRB-0008 p5 confirms her
-  physical presence as inventariante). Pages 3–5 record the herdeiros citation list,
-  the Termo de Louvaçao (10 March 1867), and signatures including Mathilde Maria de
-  Jesus (alive March 1867) and Narciso Marques Braz as proxy for several heirs.
-  Simplício (P-0016) appears on p4 as curator of Ladisláo's minor orphan heirs.
+  representantes, listing a son named Simplício as item 6 ("Simplicio José Perrura
+  [Ferreira] de Tolledo, Solteiro de quatorze annos") — independently corroborating
+  PRB-0008 that JC had a son of this name. IMPORTANT: this Simplício is JC's OWN SON
+  with the Toledo surname (b. ~1853, 14 years old and solteiro in 1867, dead before
+  1879 when he does not appear in PRB-0006) — a DIFFERENT person from Simplício José
+  Ferreira ARMOND (P-0016, Eliza's husband). Page p2 also declares: "a mae destes
+  Dona Claudina Brandina de Jesus é viúva, cuja [morte do] marido falleceu depois do
+  Inventariado" — correctly read as: JC (Claudina's husband) died after Ladisláo;
+  Claudina was alive on 7 March 1867 (PRB-0008 p5 confirms her physical presence as
+  inventariante). Pages 3–5 record the herdeiros citation list, the Termo de Louvaçao
+  (10 March 1867), and signatures including Mathilde Maria de Jesus (alive March 1867)
+  and Narciso Marques Braz as proxy for several heirs. A person named "Simplicio Jaci
+  Ferrura [Ferreira] de Toledo" appears on p4 as curator of Ladisláo's minor orphan
+  heirs — NOTE: this person has the Toledo surname, not Armond; whether this is P-0016
+  or a different family member requires image verification (see limitations).
   The curator of JC's minor heirs was Aureliano de Sales Toledo (JC's sibling,
   item 5), before the same judge (Dr. Mortimário de Sousa Lintz) as PRB-0008.
 reliability:
@@ -167,11 +175,15 @@ reliability:
     unrecognised — possibly an adult son of JC not yet in the repository. No children
     are listed under Francisco Leocádio (item 4) in pp 1–5; his minor children
     appear on uncatalogued pages or their shares are managed via Simplício's
-    curatorship. Pages p6–end not catalogued. Name discrepancy: PRB-0009 p4 reads
-    "Simplicio Jaci Ferrura [Ferreira] de Toledo", while the concurrent PRB-0008 p8
-    reads "Simplicio José Ferrara [Ferreira] de Tolledo" — the middle name Jaci vs.
-    José requires a direct image comparison of both records to determine whether it is
-    a cursive variant or a genuine name difference.
+    curatorship. Pages p6–end not catalogued. IMPORTANT — surname discrepancy for
+    the p4 curator: the image reads "Simplicio Jaci Ferrura [Ferreira] de Toledo"
+    (Toledo surname), while P-0016 is Simplício José Ferreira ARMOND (Armond surname,
+    per PRB-0006). The prior association of P-0016 with this curator line is unconfirmed;
+    the person may be a different Toledo family member. Additionally, the concurrent
+    PRB-0008 p8 reads "Simplicio José Ferrara [Ferreira] de Tolledo" for JC's own son
+    (item 6) — the middle name Jaci vs. José may be a cursive misread, but these are
+    two distinct named Simplícios in this same set of records, and P-0016 is neither
+    of them without image verification.
 digital_file:
   path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1867-gen1.jpg
   sha256: 81bbf8412e197dbb4fcba9f06d355c90df6920321338881896777c9ba3026356
@@ -202,8 +214,9 @@ notes:
     de Jesus, falleceu antes da morte da inventariado" — the "vivo" is ambiguous
     (alive at JC's death? or "viúvo" = widower?). What is certain: he predeceased
     Ladisláo and had been married to Maria Joaquina de Jesus. No children of Francisco
-    Leocádio are named in pp 1–5; Simplício's curatorship of orphan minors in p4
-    suggests Francisco Leocádio left minor children, but their names do not appear
+    Leocádio are named in pp 1–5; the curatorship of orphan minors on p4 (held by
+    "Simplicio Jaci Ferreira de Toledo") suggests Francisco Leocádio left minor
+    children, but their names do not appear
     in these pages. Eliza Balbina de Toledo (P-0017) is NOT mentioned in pp 3–5.
 - text: >-
     The item 5 on PRB-0008-p8 (JC inventário children, missing from the p8 scan) was
@@ -224,3 +237,14 @@ notes:
     19th-century scribal convention lists the original heir's name even when the share
     passes to that person's own heirs; his appearance does not contradict his having
     predeceased Ladisláo.
+- text: >-
+    TWO DISTINCT SIMPLÍCIOS in this document set (clarified 2026-08-07): (1) item 6
+    in JC's representante list (PRB-0009 p2) = "Simplicio José Perrura [Ferreira] de
+    TOLLEDO, Solteiro de quatorze annos" — JC's OWN SON with the Toledo surname, born
+    ~1853, died before 1879 (absent from PRB-0006). (2) p4 curator = "Simplicio Jaci
+    Ferrura [Ferreira] de TOLEDO" — a person with the Toledo surname who served as
+    curator; their identity is uncertain (possibly a different Toledo relative, NOT
+    confirmed to be P-0016). P-0016 (Simplício José Ferreira ARMOND) has the Armond
+    surname and is Eliza's husband; he is different from both persons named above.
+    P-0016 should remain in linked_people only to flag that he appears by implication
+    (as Eliza's husband via PRB-0006) but the p4 curator link to P-0016 is unconfirmed.

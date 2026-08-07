@@ -21,27 +21,30 @@ partner_relationship:
       inventário) declares "a mae destes Dona Claudina Brandina de Jesus é viúva."
       No marriage record located.
 children:
-- person_id: P-0016
+- person_id: P-0017
   parent_relationships:
   - parent_id: P-0054
     relationship_type: biological
     status: confirmed
     source_ids:
-    - PRB-0008
-    - PRB-0009
+    - PRB-0006
     notes:
     - text: >-
-        PRB-0008 (JC's own 1867 inventário, p8): "Simplicio José Ferrara [Ferreira]
-        de Tolledo, Solteiro de quatorze annos" — item 6 of JC's children's list.
-        PRB-0009 (Ladisláo's concurrent 1867 inventário, p2): "Simplicio José Perrura
-        [Ferreira] de Tolledo, Solteiro de quatorze annos" — item 6 among JC's
-        representantes. Two independent primary records confirm Simplício as JC's son.
+        PRB-0006 (1879 Matilde inventário, folio 9, Film 2 triage 2026-08-07): Eliza
+        appears as representante #5 under heir #4 (JC × Claudina). Per 19th-century
+        Brazilian inheritance law, a married woman appeared in estate proceedings through
+        her husband as legal representative; item 5 reads "5º Simplicio José Ferreira
+        Armond, cazado com D. Eliza Balbina de Tolledo" with her husband Simplício named
+        first as her legal actor — Eliza is the actual heir. NOTE: the "Simplício José
+        Ferreira de Toledo, solteiro, quatorze annos" in PRB-0008 (JC's 1867 inventário,
+        item 6) and PRB-0009 (item 6 among JC's representantes) is a DIFFERENT person
+        — JC's OWN SON with the Toledo surname — who died before 1879. Our Simplício
+        José Ferreira ARMOND married into the Toledo family; he is NOT JC's son.
   - parent_id: P-0055
     relationship_type: biological
     status: confirmed
     source_ids:
-    - PRB-0008
-    - PRB-0009
+    - PRB-0006
     notes: []
   notes: []
 documented_children:
@@ -49,7 +52,7 @@ documented_children:
   source_ids:
   - PRB-0009
   note: >-
-    Sibling of Simplício (representante #1 in the 1867 Ladisláo inventário, PRB-0009);
+    Sibling of Eliza (representante #1 in the 1867 Ladisláo inventário, PRB-0009);
     solteiro, aged 24 in 1867 (born ~1843). Not listed in the 1879 Matilde inventário
     (PRB-0006), so presumably died without surviving issue between 1867 and 1879.
 - name: Maria Dulcelina de Toledo
@@ -57,7 +60,7 @@ documented_children:
   - PRB-0006
   - PRB-0009
   note: >-
-    Sibling of Simplício (representante #1 in PRB-0006, 1879; representante #2 in
+    Sibling of Eliza (representante #1 in PRB-0006, 1879; representante #2 in
     PRB-0009 Ladisláo inventário 1867 as "Maria Adulcelina de Toledo", solteira, 22
     anos). Single, "de trinta e tantos annos" in 1879. Name read as "Dulcelina" and
     "Adulcelina" across records.
@@ -66,7 +69,7 @@ documented_children:
   - PRB-0006
   - PRB-0009
   note: >-
-    Sibling of Simplício (representante #2 in PRB-0006, 1879; representante #3 in
+    Sibling of Eliza (representante #2 in PRB-0006, 1879; representante #3 in
     PRB-0009 Ladisláo inventário 1867, "Mathildes Olympia da Paixão, Solteira de
     vinte annos"). Widow of the late Manoel Antonio Caza[nna?] by 1879.
 - name: Josephina Christina da Silva Lima
@@ -74,7 +77,7 @@ documented_children:
   - PRB-0006
   - PRB-0009
   note: >-
-    Sibling of Simplício (representante #3 in PRB-0006, 1879; representante #4 in
+    Sibling of Eliza (representante #3 in PRB-0006, 1879; representante #4 in
     PRB-0009 Ladisláo inventário 1867 as "Josefina Cristina de [Acevedo?]"). Already
     deceased by 1879; married to Aureliano Christino da Silva Lima (Termo do Rio Novo,
     lugar Piau); their children Cezário and Joanna da Silva Lima represent her in 1879.
@@ -84,7 +87,7 @@ documented_children:
   - PRB-0008
   - PRB-0009
   note: >-
-    Sibling of Simplício (representante #4 in PRB-0006 1879 as "Maria Bulandina";
+    Sibling of Eliza (representante #4 in PRB-0006 1879 as "Maria Bulandina";
     item 5 among JC's representantes in PRB-0009 1867 as "Maria Claudina de Toledo";
     end of item on PRB-0008-p8). Married Manoel Marques Jorge. The name varies between
     "Bulandina" (1879) and "Claudina" (1867) — both are the same person; the
@@ -96,7 +99,7 @@ documented_children:
   - PRB-0008
   - PRB-0009
   note: >-
-    Sibling of Simplício (representante #6 in PRB-0006 1879, solteiro, 23 anos;
+    Sibling of Eliza (representante #6 in PRB-0006 1879, solteiro, 23 anos;
     item 7 in PRB-0008 1867, "Ladislao Egydio de Tolledo, Solteiro de doze annos";
     item 7 in PRB-0009-p2 1867). The YOUNGER Ladisláo — distinct from his grandfather
     P-0056 (Mathilde's husband of the same name).
@@ -106,7 +109,7 @@ documented_children:
   - PRB-0008
   - PRB-0009
   note: >-
-    Sibling of Simplício (representante #7 in PRB-0006 1879, solteiro, 15 anos, at
+    Sibling of Eliza (representante #7 in PRB-0006 1879, solteiro, 15 anos, at
     the Corte; item 8 in PRB-0008 1867, "Geraldo, de dois annos de idade"; item 8
     in PRB-0009-p2 1867).
 - name: Josefa (Josepha Olympia da Paixão)
@@ -115,22 +118,39 @@ documented_children:
   - PRB-0008
   - PRB-0009
   note: >-
-    Sibling of Simplício (representante #8 in PRB-0006 1879 as "Josepha Olympia da
+    Sibling of Eliza (representante #8 in PRB-0006 1879 as "Josepha Olympia da
     Paixão", solteira, 12 anos; item 9 in PRB-0008 1867 as "Uma pha [filha] de seis
     meses"; item 9 in PRB-0009-p2 1867 as "Josefa, idade de seis meses"). The infant
     Josefa of 1867 is the same person as "Josepha Olympia da Paixão" of 1879.
+- name: Simplício José Ferreira de Toledo
+  source_ids:
+  - PRB-0008
+  - PRB-0009
+  note: >-
+    JC's own son (item 6 in PRB-0008 1867 as "Simplicio José Ferrara [Ferreira] de
+    Tolledo, Solteiro de quatorze annos"; item 6 in PRB-0009-p2 1867 as "Simplicio
+    José Perrura [Ferreira] de Tolledo, Solteiro de quatorze annos"). Born ~1853;
+    solteiro at age ~14 in 1867; ABSENT from the 1879 Matilde inventário (PRB-0006),
+    so presumably died without issue between 1867 and 1879. IMPORTANT: this person is
+    DISTINCT from our Simplício José Ferreira ARMOND (P-0016), who has the Armond
+    surname and married Eliza (P-0017). The identical given name "Simplício Ferreira"
+    caused a prior misidentification (corrected 7 August 2026).
 event_ids: []
 notes:
 - text: >-
-    CORRECTION (7 August 2026): Eliza Balbina de Toledo (P-0017) is NOT a child of
-    this family. The previous reading of PRB-0006 that placed her here was a
-    misinterpretation: the text "5º Simplicio José Ferreira Armond, cazado com D.
-    Eliza Balbina de Tolledo" names Simplício as heir #5 and Eliza as his WIFE — not
-    as JC's daughter. PRB-0008 (JC's own 1867 inventário) and PRB-0009 (Ladisláo's
-    concurrent 1867 inventário) both confirm Simplício as JC's child; neither lists
-    Eliza as a child of JC. Eliza's parentage is now unresolved (see P-0017).
+    Eliza Balbina de Toledo (P-0017) is the sole structured child of JC × Claudina
+    in this family. Her parentage is confirmed by PRB-0006 (1879 Matilde inventário,
+    Film 2 triage 2026-08-07): she appears as representante #5 under heir #4, with her
+    husband Simplício José Ferreira Armond acting as her legal representative per
+    19th-century Brazilian inheritance law. All other children are documented_children
+    (long deceased, no further research required). The family's existence is confirmed
+    by two independent 1867 inventários (PRB-0008, PRB-0009) and the 1879 Matilde
+    inventário (PRB-0006).
 - text: >-
-    Simplício José Ferreira Armond (P-0016) is the sole structured child; all others
-    are documented_children (long deceased, no further research required). The
-    family's existence is confirmed by two independent 1867 inventários (PRB-0008,
-    PRB-0009) and the 1879 Matilde inventário (PRB-0006).
+    CORRECTION history: a session on 7 August 2026 mistakenly identified "Simplício
+    José Ferreira de Toledo" (JC's own son, item 6 in both 1867 inventários, b.~1853
+    with Toledo surname) with our Simplício José Ferreira Armond (P-0016, Armond
+    surname, Eliza's husband). This led to P-0016 being added as a structured child
+    and Eliza being removed. Corrected same day once the Film 2 triage of the 1879
+    Matilde inventário confirmed the legal-representative pattern and Eliza's status
+    as JC's daughter.

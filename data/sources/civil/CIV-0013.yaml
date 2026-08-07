@@ -13,12 +13,11 @@ event_date:
   kind: exact
   value: "1962-11-15"
 event_place_text: >-
-  Rio de Janeiro state, Brazil (registration city read as Itaperuna, uncertain)
+  Itaperuna, Rio de Janeiro state, Brazil
 repository:
   name: Owner-supplied civil death register image
   archive_or_registry: >-
-    Civil Registration, Rio de Janeiro state (registration city uncertain,
-    probably Itaperuna)
+    Civil Registration, Itaperuna, Rio de Janeiro state
   page: "264/265"
   record_number: "18892"
   catalogue_reference: >-
@@ -32,27 +31,36 @@ transcription: >-
   [Termo n.º 18892, páginas 264/265; imagem com marca "SEM VALOR LEGAL". Apenas
   este assento é transcrito; os demais assentos da página referem-se a terceiros
   e são omitidos.] Em quinze de novembro de mil novecentos e sessenta e dois,
-  nesta cidade de [Itaperuna?], no Estado do Rio de Janeiro, em cartório,
-  compareceu [Gustavo?] Barroso, comerciante aqui residente [à rua 1.º de
-  Maio?], e exibindo atestado de óbito firmado pelo Dr. Carlos Antonio
-  Deslandes, dando como causa da morte [colapso?] cardíaco, declarou que no dia
-  de hoje, às treze horas e trinta minutos, [em rua Paes de Azevedo, 100?],
-  faleceu Marfiza Ferreira Armond, do sexo feminino, de cor branca, profissão
-  doméstica, natural [do Estado] de Minas, com oitenta e nove (89) anos de idade
-  [b. ~1873], estado civil viúva, filha legítima de Simplício Ferreira Armond e
-  [d.] Eliza Ferreira Toledo. O sepultamento será feito no cemitério desta
-  cidade. Para constar lavrei este termo que assinou o declarante comigo
-  [uncertain: Sebastiana de Souza Medeiros], escrevente de justiça, que o
-  escrevi. [Assinado o declarante,] [Gustavo?] Barroso.
+  nesta cidade de Itaperuna, no Estado do Rio de Janeiro, em cartório, compareceu
+  Silvio Barrozo [signature reads "Goistos Barrozo" or similar — uncertain],
+  comerciante aqui residente, e exibindo atestado de óbito firmado pelo Dr. Carlos
+  Antonio Rodrigues, dando como causa da morte [edema/lacrima? — obscured],
+  declarou que no dia de hoje, às três horas e trinta minutos [3:30 AM], em rua
+  Pres. de Azevedo 100, faleceu Marfiza Ferreira Armond [or "N. Marfisa Ferreira
+  Armond"], do sexo feminino, de cor branca, profissão doméstica, natural [do
+  Estado] de [G.] Minas, com oitenta e nove (89) anos de idade [b. ~1873], estado
+  civil viúva, filha legítima de Simplício Ferreira Armond e [d.] Eliza Ferreira
+  Toledo. O sepultamento será feito no cemitério desta cidade. Para constar lavrei
+  este termo que assinou o declarante comigo [Sebastião? de Souza Medeiros],
+  escrevente de justiça, que o escrevi. [Assinado:] Goistos Barrozo.
+  [Transcription corrected 2026-08-07 from higher-quality image
+  marfisa-death-1962-itaperuna-p1.jpg: declarant is "Silvio/Goistos Barrozo"
+  (earlier read as "[Gustavo?] Barroso"); death time is três horas e trinta = 3:30
+  AM (earlier read as treze horas e trinta = 1:30 PM); doctor is "Carlos Antonio
+  Rodrigues" (earlier: "Deslandes"); address is "Rua Pres. de Azevedo 100"
+  (earlier: "[Paes de Azevedo, 100?]"); city Itaperuna confirmed (earlier:
+  uncertain).]
 abstract: >-
   An owner-supplied civil death register image (entry n.º 18892, watermarked
   "SEM VALOR LEGAL") recording the death of Marfiza Ferreira Armond on 15
-  November 1962 in Rio de Janeiro state (registration city read as Itaperuna,
-  uncertain). A widow and doméstica, natural of Minas Gerais, she is recorded as
-  the legitimate daughter of Simplício Ferreira Armond and Eliza Ferreira
-  Toledo. This independently confirms Eliza's Toledo surname and documents
-  Marfiza as a daughter of Simplício and Eliza — that is, a sister of Aristão
-  Ferreira Armond (P-0008).
+  November 1962 in Itaperuna, Rio de Janeiro state (city confirmed from higher-
+  quality image 2026-08-07). A widow and doméstica, natural of Minas Gerais, she
+  is recorded as the legitimate daughter of Simplício Ferreira Armond and Eliza
+  Ferreira Toledo. Death declared at 3:30 AM by Silvio Barrozo (comerciante) on
+  a certificate signed by Dr. Carlos Antonio Rodrigues; address Rua Pres. de
+  Azevedo 100. This independently confirms Eliza's Toledo surname and documents
+  Marfiza as a daughter of Simplício and Eliza — a sister of Aristão Ferreira
+  Armond (P-0008).
 reliability:
   assessment: >-
     Original civil-register evidence for Marfiza's death that directly names her
@@ -61,15 +69,18 @@ reliability:
     Simplício and Eliza (Toledo) were her parents, strengthening Eliza's Toledo
     surname and the Simplício x Eliza couple.
   informant: >-
-    The declarant, a commerciante recorded as "[Gustavo?] Barroso", reporting at
-    the civil registry on a physician's death certificate.
+    The declarant, a comerciante recorded as "Silvio Barrozo" (signature uncertain —
+    may read "Goistos Barrozo"), reporting at the civil registry on Dr. Carlos Antonio
+    Rodrigues's death certificate.
   limitations: >-
     A watermarked "SEM VALOR LEGAL" copy with no supplied FamilySearch/portal
-    citation; the exact archival reference must still be captured. Several fields
-    are read with uncertainty from the handwriting: the registration city
-    (Itaperuna?), the declarant's given name and the mother's middle name. The
-    recorded age of 89 (b. ~1873) matches Marfiza's separately-noted ~1873 birth
-    lead. The parentage is secondary information reported at death.
+    citation; the exact archival reference must still be captured. The declarant's
+    given name is uncertain (printed text reads "Silvio Barrozo"; signature appears
+    as "Goistos Barrozo"). The cause of death word is obscured. The mother's middle
+    name/maiden name form is still partially uncertain. The recorded age of 89 (b.
+    ~1873) matches Marfiza's separately-noted ~1873 birth lead. The parentage is
+    secondary information reported at death. [City confirmed Itaperuna and several
+    fields corrected 2026-08-07 from higher-quality image re-read.]
 digital_file:
   path: evidence/civil/CIV-0013-death-marfiza-ferreira-armond-1962-original.jpg
   sha256: eaf6f82ef061e6661fbb64825bbc1fd9617c78cfdc2db587812b423d2e2e05e4
