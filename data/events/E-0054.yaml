@@ -1,0 +1,26 @@
+schema_version: 1
+id: E-0054
+event_type: death
+date:
+  kind: before
+  text: "1867-03-04"
+  latest: 1867
+place_text: >-
+  Probably Fazenda da Concórdia or vicinity, Districto do Rio Pardo, Minas Gerais,
+  Brazil (location of the inventário proceedings)
+participants:
+- person_id: P-0054
+  role: principal
+status: confirmed
+source_ids:
+- PRB-0008
+- PRB-0006
+notes:
+- text: >-
+    Both PRB-0006 (1879 Matilde inventário, heir #4 "José Cezario de Tolledo Lima,
+    fallecido") and PRB-0008 (the 1867 JC inventário cover, listing him as deceased)
+    confirm he had died before 4 March 1867. PRB-0009-p2 independently notes his
+    wife Claudina Brandina de Jesus as also deceased ("é viúva, cuja [morte] falleceu
+    depois do Inventariado" — she died after Ladisláo, before the March 1867
+    proceedings). A specific death date for JC may exist in the uncatalogued pages
+    of PRB-0008 (pp. 2–7).

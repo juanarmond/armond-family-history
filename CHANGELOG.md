@@ -7,6 +7,33 @@ also remain traceable through source records and research logs.
 
 ### Added
 
+- Catalogue **PRB-0008** (José Cesário de Toledo Lima × Claudina Brandina de Jesus
+  inventário, 1867, Concórdia/Rio Pardo, MG; 8 pages; archive [38403 268]). **PRIMARY
+  source confirming Simplício (P-0016) as son of JC × Claudina** — from p8, item 6:
+  "Simplicio José Ferrara [Ferreira] de Tolledo, Solteiro de quatorze annos." Cover
+  PRIMARY-CONFIRMS Claudina's full name "Claudina Brandina de Jesus". Event E-0054
+  (JC death, before 4 March 1867) created.
+
+- Catalogue **PRB-0009** (Ladisláo Egídio Ferreira de Toledo inventário, 1867,
+  Concórdia/Rio Pardo, MG; 5 pages). Lists Ladisláo's 8 children; p2 independently
+  confirms Simplício as JC's representante #6 (second primary source). New entities:
+  P-0061 (Francisco Leocádio de Toledo — Ladisláo's child #4, predeceased), P-0062
+  (Maria Joaquina de Jesus — uncertain name, Francisco's wife), F-0030 (couple family).
+  Confirms JC (P-0054) as Ladisláo's child — upgrades F-0027 relationship to confirmed.
+
+### Changed
+
+- **Data correction (F-0026, P-0016, P-0017):** Eliza Balbina de Toledo (P-0017) was
+  incorrectly placed as a daughter of José Cezário de Toledo Lima in F-0026, based on a
+  misread of PRB-0006. PRB-0008 and PRB-0009 confirm Simplício (P-0016) is JC's son;
+  Eliza is his wife. F-0026 corrected: Simplício added as child, Eliza removed.
+  P-0017 family_ids updated; parentage now unresolved. New material conflict #14 added
+  to STATUS.md. P-0054, P-0055, P-0056 notes updated.
+
+- **PAR-0005 re-read confirmed** (no data change): the retrieval agent's re-download
+  was byte-identical to existing evidence. Re-reading confirms the existing transcription
+  (Suzana born 11 Aug 1865, baptized 22 March 1866, transcript presented 24 Nov 1882).
+
 - Catalogue **PAR-0023** (Ladisláo Egídio Ferreira de Toledo × Mathilde Maria de
   Jesus marriage, 8 May 1810, São João del Rei; ARK 3:1:939N-GW99-VX). **PRIMARY
   source confirming Matilde's parents: Alferes Amaro da Silva Xavier (P-0059) ×

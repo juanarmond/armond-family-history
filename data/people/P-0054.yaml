@@ -9,20 +9,28 @@ name_variants:
   type: source
   source_ids:
   - PRB-0006
-event_ids: []
+- value: José Cesario de Tolledo Lima
+  type: source
+  source_ids:
+  - PRB-0008
+  - PRB-0009
+event_ids:
+- E-0054
 family_ids:
 - F-0026
 - F-0027
 notes:
 - text: >-
-    Father of Eliza Balbina de Toledo (P-0017); hence Aristão Ferreira Armond's
-    (P-0008) maternal grandfather and Geraldo Paz Armond's maternal
-    great-grandfather. Named as heir #4 in his mother Mathilde Maria de Jesus's 1879
-    Leopoldina inventory (PRB-0006): "José Cezario de Tolledo Lima, fallecido, cazado
-    que foi com D. Claudina, tambem fallecida", his eight children (representantes)
-    including "5º Simplicio José Ferreira Armond, cazado com D. Eliza Balbina de
-    Tolledo". Son of Mathilde Maria de Jesus (P-0027) and Ladisláo Egydio Ferreira de
-    Toledo (P-0056), family F-0027.
+    Father of Simplício José Ferreira Armond (P-0016); hence Aristão Ferreira
+    Armond's (P-0008) maternal grandfather and Geraldo Paz Armond's maternal
+    great-grandfather. CORRECTION (7 August 2026): Simplício (not Eliza) is JC's
+    child — confirmed by PRB-0008 (JC's own 1867 inventário, item 6: Simplício)
+    and PRB-0009 (Ladisláo's concurrent 1867 inventário, item 6 among JC's
+    representantes: Simplício). PRB-0006 (1879 Matilde inventário) had been
+    misread; it names Simplício as heir #5 and Eliza as his wife, not as JC's
+    daughter. Son of Mathilde Maria de Jesus (P-0027) and Ladisláo Egydio Ferreira de
+    Toledo (P-0056), family F-0027. Deceased before 4 March 1867 (PRB-0008 cover
+    lists both JC and Claudina as deceased at inventory opening).
 - text: >-
     Do NOT conflate with the inventariante of the same estate, Cezário José de Toledo
     (Mathilde's other son, ⚭ Maria José de Jesus): the near-identical names are

@@ -9,79 +9,128 @@ partner_relationship:
   status: confirmed
   source_ids:
   - PRB-0006
+  - PRB-0008
+  - PRB-0009
   notes:
   - text: >-
-      José Cezário de Toledo Lima and D. Claudina are named as a married couple
-      ("cazado que foi com D. Claudina, tambem fallecida") in the 1879 Leopoldina
-      inventory (PRB-0006); both were already deceased. No marriage record is located.
+      The couple is named on the cover of their joint 1867 inventário (PRB-0008):
+      "INVENTÁRIO / José Cesario de Tolledo Lima / Claudina Brandina de Jesus" —
+      the first primary record to state Claudina's full name. PRB-0006 (1879 Matilde
+      inventário, heir #4) names them as "José Cezario de Tolledo Lima, fallecido,
+      cazado que foi com D. Claudina, tambem fallecida." PRB-0009-p2 (1867 Ladisláo
+      inventário) declares "a mae destes Dona Claudina Brandina de Jesus é viúva."
+      No marriage record located.
 children:
-- person_id: P-0017
+- person_id: P-0016
   parent_relationships:
   - parent_id: P-0054
     relationship_type: biological
     status: confirmed
     source_ids:
-    - PRB-0006
+    - PRB-0008
+    - PRB-0009
     notes:
     - text: >-
-        Eliza is listed as the fifth representante (child) of the deceased heir José
-        Cezário de Toledo Lima on folio 9 of PRB-0006 ("5º Simplicio José Ferreira
-        Armond, cazado com D. Eliza Balbina de Tolledo"), her husband named because a
-        married woman's inheritance was administered through him.
+        PRB-0008 (JC's own 1867 inventário, p8): "Simplicio José Ferrara [Ferreira]
+        de Tolledo, Solteiro de quatorze annos" — item 6 of JC's children's list.
+        PRB-0009 (Ladisláo's concurrent 1867 inventário, p2): "Simplicio José Perrura
+        [Ferreira] de Tolledo, Solteiro de quatorze annos" — item 6 among JC's
+        representantes. Two independent primary records confirm Simplício as JC's son.
   - parent_id: P-0055
     relationship_type: biological
     status: confirmed
     source_ids:
-    - PRB-0006
+    - PRB-0008
+    - PRB-0009
     notes: []
   notes: []
 documented_children:
-- name: Maria Bulandina de Toledo
+- name: José Augusto de Toledo Lima
   source_ids:
-  - PRB-0006
+  - PRB-0009
   note: >-
-    Sister of Eliza (representante #4); married Manoel Marques Jorge. Her surname
-    "Bulandina/Brandina" corroborates the mother's inferred name Claudina Brandina de
-    Jesus. Name an uncertain read.
+    Sibling of Simplício (representante #1 in the 1867 Ladisláo inventário, PRB-0009);
+    solteiro, aged 24 in 1867 (born ~1843). Not listed in the 1879 Matilde inventário
+    (PRB-0006), so presumably died without surviving issue between 1867 and 1879.
 - name: Maria Dulcelina de Toledo
   source_ids:
   - PRB-0006
-  note: Sister of Eliza (representante #1); single, "de trinta e tantos annos" in 1879.
+  - PRB-0009
+  note: >-
+    Sibling of Simplício (representante #1 in PRB-0006, 1879; representante #2 in
+    PRB-0009 Ladisláo inventário 1867 as "Maria Adulcelina de Toledo", solteira, 22
+    anos). Single, "de trinta e tantos annos" in 1879. Name read as "Dulcelina" and
+    "Adulcelina" across records.
 - name: Mathildes Olympia da Paixão
   source_ids:
   - PRB-0006
+  - PRB-0009
   note: >-
-    Sister of Eliza (representante #2); widow of the late Manoel Antonio Caza[nna?].
-    Surname an uncertain read.
+    Sibling of Simplício (representante #2 in PRB-0006, 1879; representante #3 in
+    PRB-0009 Ladisláo inventário 1867, "Mathildes Olympia da Paixão, Solteira de
+    vinte annos"). Widow of the late Manoel Antonio Caza[nna?] by 1879.
 - name: Josephina Christina da Silva Lima
   source_ids:
   - PRB-0006
+  - PRB-0009
   note: >-
-    Sister of Eliza (representante #3); already deceased in 1879, married to Aureliano
-    Christino da Silva Lima (of the Termo do Rio Novo, lugar Piau), her own children
-    Cezario and Joanna da Silva Lima representing her.
-- name: Ladisláo Egydio Ferreira de Toledo
+    Sibling of Simplício (representante #3 in PRB-0006, 1879; representante #4 in
+    PRB-0009 Ladisláo inventário 1867 as "Josefina Cristina de [Acevedo?]"). Already
+    deceased by 1879; married to Aureliano Christino da Silva Lima (Termo do Rio Novo,
+    lugar Piau); their children Cezário and Joanna da Silva Lima represent her in 1879.
+- name: Maria Bulandina (or Claudina) de Toledo
   source_ids:
   - PRB-0006
+  - PRB-0008
+  - PRB-0009
   note: >-
-    Brother of Eliza (representante #6); single, aged 23 in 1879. The YOUNGER Ladisláo
-    — distinct from his grandfather P-0056, Mathilde's husband of the same name.
+    Sibling of Simplício (representante #4 in PRB-0006 1879 as "Maria Bulandina";
+    item 5 among JC's representantes in PRB-0009 1867 as "Maria Claudina de Toledo";
+    end of item on PRB-0008-p8). Married Manoel Marques Jorge. The name varies between
+    "Bulandina" (1879) and "Claudina" (1867) — both are the same person; the
+    Bulandina/Claudina/Brandina cluster reflects the same naming pattern as the
+    mother Claudina Brandina de Jesus.
+- name: Ladisláo Egydio Ferreira de Toledo (younger)
+  source_ids:
+  - PRB-0006
+  - PRB-0008
+  - PRB-0009
+  note: >-
+    Sibling of Simplício (representante #6 in PRB-0006 1879, solteiro, 23 anos;
+    item 7 in PRB-0008 1867, "Ladislao Egydio de Tolledo, Solteiro de doze annos";
+    item 7 in PRB-0009-p2 1867). The YOUNGER Ladisláo — distinct from his grandfather
+    P-0056 (Mathilde's husband of the same name).
 - name: Geraldo Augusto de Toledo Lima
   source_ids:
   - PRB-0006
+  - PRB-0008
+  - PRB-0009
   note: >-
-    Brother of Eliza (representante #7); single, aged 15 in 1879, then living in the
-    Corte (Rio de Janeiro), employed at a business on rua do Visconde de Itaúna nº 74.
-- name: Josepha Olympia da Paixão
+    Sibling of Simplício (representante #7 in PRB-0006 1879, solteiro, 15 anos, at
+    the Corte; item 8 in PRB-0008 1867, "Geraldo, de dois annos de idade"; item 8
+    in PRB-0009-p2 1867).
+- name: Josefa (Josepha Olympia da Paixão)
   source_ids:
   - PRB-0006
-  note: Sister of Eliza (representante #8); single, aged 12 in 1879.
+  - PRB-0008
+  - PRB-0009
+  note: >-
+    Sibling of Simplício (representante #8 in PRB-0006 1879 as "Josepha Olympia da
+    Paixão", solteira, 12 anos; item 9 in PRB-0008 1867 as "Uma pha [filha] de seis
+    meses"; item 9 in PRB-0009-p2 1867 as "Josefa, idade de seis meses"). The infant
+    Josefa of 1867 is the same person as "Josepha Olympia da Paixão" of 1879.
 event_ids: []
 notes:
 - text: >-
-    Parents of Eliza Balbina de Toledo (P-0017), established by Mathilde Maria de
-    Jesus's 1879 Leopoldina inventory (PRB-0006), in which José Cezário de Toledo Lima
-    is heir #4 and Eliza is his fifth representante (child). Extends the Toledo
-    maternal line one generation above Eliza. The seven documented children are her
-    siblings (heir #4's other representantes); all were adults or minors in 1879 and
-    are long deceased.
+    CORRECTION (7 August 2026): Eliza Balbina de Toledo (P-0017) is NOT a child of
+    this family. The previous reading of PRB-0006 that placed her here was a
+    misinterpretation: the text "5º Simplicio José Ferreira Armond, cazado com D.
+    Eliza Balbina de Tolledo" names Simplício as heir #5 and Eliza as his WIFE — not
+    as JC's daughter. PRB-0008 (JC's own 1867 inventário) and PRB-0009 (Ladisláo's
+    concurrent 1867 inventário) both confirm Simplício as JC's child; neither lists
+    Eliza as a child of JC. Eliza's parentage is now unresolved (see P-0017).
+- text: >-
+    Simplício José Ferreira Armond (P-0016) is the sole structured child; all others
+    are documented_children (long deceased, no further research required). The
+    family's existence is confirmed by two independent 1867 inventários (PRB-0008,
+    PRB-0009) and the 1879 Matilde inventário (PRB-0006).

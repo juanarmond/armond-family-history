@@ -2270,3 +2270,198 @@ documents:
         acting as widow and inventariante of Ladisláo's estate. Tightens Ladisláo's
         death bound from "before 1877" (PRB-0004) to "before 2 August 1862." All
         persons deceased.
+  - inventory_id: DOC-0058
+    status: catalogued
+    added_date: "2026-08-07"
+    apparent_record_type: Estate inventory (inventário / título de herdeiros)
+    apparent_people:
+      - José Cesário de Toledo Lima
+      - Claudina Brandina de Jesus
+      - Simplício José Ferreira Armond
+    apparent_event: probate
+    image_quality: adequate
+    provenance: >-
+      FamilySearch retrieval; archive reference [38403 268]; eight pages delivered
+      through the research/from-retrieval/ sync, read 7 August 2026.
+    rights_status: unknown
+    files:
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-gen1.jpg
+        sha256: 4c05091e315090bd7102a4d217a387d3595464eda3a3d15136c0bebe409d8685
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3138
+          pixel_height: 4238
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-p2.jpg
+        sha256: 64837d2480401e57f6cbef3a354e697ab3c6e570df460627dcb021c058128c38
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2919
+          pixel_height: 4117
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-p3.jpg
+        sha256: 8c7d4cb88adc64d4bc4b590e54947f28bdff0f1803a5e50d93636d82393b9d29
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2921
+          pixel_height: 4088
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-p4.jpg
+        sha256: 489130842523fcacbe289ad66d10998c30434a7b22cc10d9c71165d7e7574940
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2877
+          pixel_height: 4049
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-p5.jpg
+        sha256: 4c62c71285b97f4853ecd62aefbbd85b25ec913efecef31e316703f0e9262e75
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2874
+          pixel_height: 4054
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-p6.jpg
+        sha256: 3fc31ee06d69f5523adf2a1f1e58f79cf5a98c98bcca34155209e8c3934e9fbd
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2893
+          pixel_height: 4073
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-p8.jpg
+        sha256: e7e5feab42948bb68c203fcd69a9fa5d9007f0fa9086f6263818de462a5608de
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2919
+          pixel_height: 4101
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-p9.jpg
+        sha256: 5205456601f094e656b4b919ceb9e6634dae79e1195475b8c087111a80eb6b85
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2902
+          pixel_height: 4095
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PRB-0008
+    notes:
+      - >-
+        1867 inventário of José Cesário de Toledo Lima and Claudina Brandina de
+        Jesus; names Simplício (item 6, aged 14) as their son — direct primary
+        evidence for his parentage. Cover primary-confirms Claudina's full name.
+        Pages p2–p7 are catalogued but not yet read in detail; p8 and p9 contain
+        the children list and curator oath. All persons deceased (19th-century probate).
+  - inventory_id: DOC-0059
+    status: catalogued
+    added_date: "2026-08-07"
+    apparent_record_type: Estate inventory (inventário / título de herdeiros)
+    apparent_people:
+      - Ladisláo Egídio Ferreira de Toledo
+      - Mathilde Maria de Jesus
+      - Francisco Leocádio de Toledo
+      - José Cesário de Toledo Lima
+      - Simplício José Ferreira Armond
+    apparent_event: probate
+    image_quality: partly-illegible
+    provenance: >-
+      FamilySearch retrieval; five pages delivered through the research/from-retrieval/
+      sync, read 7 August 2026.
+    rights_status: unknown
+    files:
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1867-gen1.jpg
+        sha256: 81bbf8412e197dbb4fcba9f06d355c90df6920321338881896777c9ba3026356
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3003
+          pixel_height: 4167
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1867-p2.jpg
+        sha256: 181a3b7b440202398eab7d0d83301e944b45c065ef0a6be6054d6eacbc22c97b
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3030
+          pixel_height: 4196
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1867-p3.jpg
+        sha256: 711eded68196f789f2422b9769d7dc1f897ce8bf7c6d516d9e814378b3fa63f8
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2986
+          pixel_height: 4163
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1867-p4.jpg
+        sha256: d1f5c16751c9e0fe0ad1f44579931c1254684c6a20111bc4b5597b1f3192e55d
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3024
+          pixel_height: 4210
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1867-p5.jpg
+        sha256: 03315cd09593432854d26e834630d3a987e3d4a1c0e7e7c16d27d5e84b70430c
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3076
+          pixel_height: 4224
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PRB-0009
+    notes:
+      - >-
+        1867 inventário of Ladisláo Egídio Ferreira de Toledo; lists his eight
+        children including Francisco Leocádio (item 4, predeceased, ⚭ Maria Joaquina
+        de Jesus) and José Cesário Lima (item 8, deceased). P2 lists Simplício as
+        item 6 of JC's representantes — a second independent 1867 confirmation of
+        Simplício's parentage. Also declares Claudina Brandina de Jesus survived
+        Ladisláo. Pages gen1 and p2 read in detail; pp. 3–5 catalogued, not yet
+        read. All persons deceased (19th-century probate).

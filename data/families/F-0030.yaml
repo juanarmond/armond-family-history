@@ -1,0 +1,28 @@
+schema_version: 1
+id: F-0030
+partners:
+- person_id: P-0061
+  role: spouse
+- person_id: P-0062
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PRB-0009
+  notes:
+  - text: >-
+      The couple is named in the Ladisláo 1867 inventário (PRB-0009): Francisco Leocádio
+      de Toledo was "casado que foi com Maria [Joa?]quina de Jesus." No marriage record
+      is located. Both are presumed deceased (Francisco predeceased Ladisláo, who died
+      before 2 August 1862; Maria Joaquina may have predeceased Francisco).
+children: []
+documented_children: []
+event_ids: []
+notes:
+- text: >-
+    Francisco Leocádio de Toledo (P-0061) is child #4 of Ladisláo × Mathilde (F-0027).
+    No children of this couple are listed under item 4 in the catalogued pages of
+    PRB-0009. Whether the couple had surviving children who appear in uncatalogued
+    pages (pp. 3–5), or died without issue, remains unknown. Eliza Balbina de Toledo
+    (P-0017) is NOT linked to this family pending positive evidence; her parentage
+    among the Toledo siblings is currently unresolved.

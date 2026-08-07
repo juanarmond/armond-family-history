@@ -23,6 +23,7 @@ event_ids:
 - E-0005
 family_ids:
 - F-0006
+- F-0026
 fan_references:
 - fan_id: FAN-0001
   role: signatário
@@ -31,6 +32,13 @@ fan_references:
     context, not a record about the family).
 notes:
 - text: Ahnentafel position 16.
+- text: >-
+    Parents CONFIRMED (7 August 2026) by two independent primary sources: PRB-0008
+    (José Cesário de Toledo Lima's own 1867 inventário, p8, item 6: "Simplicio José
+    Ferrara [Ferreira] de Tolledo, Solteiro de quatorze annos") and PRB-0009
+    (Ladisláo's concurrent 1867 inventário, p2, item 6: "Simplicio José Perrura
+    [Ferreira] de Tolledo, Solteiro de quatorze annos"). Mother confirmed as Claudina
+    Brandina de Jesus (P-0055) from the same proceedings. Parents' family: F-0026.
 - text: >-
     His name appears in four records: the short "Simplicio Armand" (Aristão's 1957
     death, CIV-0005); "Simplício Ferreira Armond" (Marfiza's 1962 death, CIV-0013);

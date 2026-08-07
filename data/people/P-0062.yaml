@@ -1,0 +1,25 @@
+schema_version: 1
+id: P-0062
+preferred_name: Maria Joaquina de Jesus
+privacy: deceased
+sex: female
+nationality: Brazilian
+name_variants:
+- value: "Maria [Joa?]quina de Jesus"
+  type: other
+  source_ids:
+  - PRB-0009
+event_ids: []
+family_ids:
+- F-0030
+notes:
+- text: >-
+    Wife of Francisco Leocádio de Toledo (P-0061), family F-0030. Named (with
+    uncertainty) in PRB-0009 (1867 Ladisláo inventário, gen1): "casado que foi com
+    Maria [Joa?]quina de Jesus." The first part of the given name reads "[Joa?]quina"
+    in the cursive — most likely "Joaquina" but the reading is uncertain. Nationality
+    Brazilian; no birthplace or death date is stated in any located record.
+- text: >-
+    Whether she predeceased Francisco Leocádio is unclear. The PRB-0009 phrase "vivo
+    casado que foi" may indicate he was already a widower ("viúvo") at Ladisláo's
+    death, which would mean Maria Joaquina predeceased him. This reading is uncertain.

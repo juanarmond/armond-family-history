@@ -1,0 +1,34 @@
+schema_version: 1
+id: P-0061
+preferred_name: Francisco Leocádio de Toledo
+privacy: deceased
+sex: male
+nationality: Brazilian
+name_variants:
+- value: Francisco Liocadio de Tolledo
+  type: source
+  source_ids:
+  - PRB-0009
+event_ids: []
+family_ids:
+- F-0027
+- F-0030
+notes:
+- text: >-
+    Fourth child of Ladisláo Egídio Ferreira de Toledo (P-0056) and Mathilde Maria
+    de Jesus (P-0027), family F-0027. Confirmed by PRB-0009 (1867 Ladisláo inventário,
+    gen1), where he appears as item 4 in the título de herdeiros: "Francisco Liocadio
+    de Tolledo, [vivo/viúvo?] casado que foi com Maria [Joa?]quina de Jesus, falleceu
+    antes da morte da inventariado." He predeceased Ladisláo (who died before 2 August
+    1862 per PRB-0007). He was married to Maria Joaquina de Jesus (P-0062), family
+    F-0030.
+- text: >-
+    No children of Francisco Leocádio are listed under item 4 in PRB-0009-gen1; the
+    uncatalogued pages (pp. 3–5) may clarify whether he died without issue or his
+    heirs are recorded elsewhere.
+- text: >-
+    The phrase "vivo casado que foi com Maria [Joa?]quina de Jesus" is ambiguous:
+    "vivo" could mean "alive [at some reference point]" or may be "viúvo" (widower).
+    The phrase "falleceu antes da morte da inventariado" is clear: he died before
+    Ladisláo. His death is therefore bounded to some time before Ladisláo's death
+    (before 2 August 1862).

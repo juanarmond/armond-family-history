@@ -12,6 +12,7 @@ partner_relationship:
   - PRB-0004
   - PAR-0017
   - PRB-0007
+  - PRB-0009
   notes:
   - text: >-
       The marriage is now directly confirmed by the 1810 São João del Rei marriage
@@ -35,15 +36,16 @@ children:
         inventory (PRB-0006).
   - parent_id: P-0056
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PRB-0004
     - PRB-0006
+    - PRB-0009
     notes:
     - text: >-
-        Indirect: José Cezário is Mathilde's son (PRB-0006), and Ladisláo Egydio
-        Ferreira de Toledo was Mathilde's husband (PRB-0004), so his father — hence
-        strong-evidence rather than confirmed.
+        PRB-0009 (1867 Ladisláo inventário) lists "Jose Cesario de Tolledo Lima,
+        fallecido" as item 8 among Ladisláo's children, directly confirming Ladisláo
+        as JC's father. Upgraded from strong-evidence to confirmed.
   notes: []
 documented_children:
 - name: Carolina Ferreira de Toledo
@@ -54,35 +56,56 @@ documented_children:
     Remédios, Barbacena (PAR-0017) — an aunt of Eliza. Possibly the "Carolina
     Leopoldina Marques" (⚭ Narciso Marques Braz) who is heir #5 in the 1879 inventory
     (PRB-0006), but that identity is not established, so recorded separately here.
+- name: Francisco Leocádio de Toledo
+  source_ids:
+  - PRB-0009
+  note: >-
+    Child #4 of Ladisláo × Mathilde; now modelled as P-0061. Predeceased Ladisláo;
+    married Maria Joaquina de Jesus (P-0062, uncertain name read), family F-0030.
+    See P-0061 for detail.
+- name: Aureliano de Sales Toledo
+  source_ids:
+  - PRB-0009
+  note: >-
+    Child #5 of Ladisláo × Mathilde per PRB-0009-gen1; married Marciana Espro[n?]de
+    de Toledo. Appears as Curador of JC's minor children in both PRB-0008 and
+    PRB-0009. Not modelled; not a direct-line ancestor.
+- name: Cezário [José] de Toledo
+  source_ids:
+  - PRB-0006
+  - PRB-0009
+  note: >-
+    Child #6 of Ladisláo × Mathilde per PRB-0009-gen1 ("Cesario [José?] de Tolledo,
+    casado com Maria [José?/Joze?] de Jesus"); also appears as the inventariante of
+    Mathilde's 1879 estate (PRB-0006). A DISTINCT person from his brother José Cezário
+    de Toledo Lima (P-0054) — the near-identical names are a documented trap.
+- name: Antonio Ladisláo de Toledo
+  source_ids:
+  - PRB-0009
+  note: >-
+    Child #7 of Ladisláo × Mathilde per PRB-0009-gen1; married Maria Eufrania de
+    Jesus. Described as "surdo e mudo" (deaf and mute). Not modelled.
 - name: Antonio Zeferino de Toledo
   source_ids:
   - PRB-0004
   - PRB-0006
   note: >-
     Son of Mathilde × Ladisláo and heir #3 of the estate ("de M.a Perpetua nº 3",
-    folio 8 of PRB-0006), married to Maria Perpétua (PRB-0004). He is Eliza's UNCLE —
-    the couple wrongly hypothesised as Eliza's parents in PRB-0004 and now corrected
-    by the inventory.
-- name: Cezário José de Toledo
-  source_ids:
-  - PRB-0006
-  note: >-
-    Son of Mathilde and the inventariante of her 1879 estate (married to Maria José
-    de Jesus). A DISTINCT person from his brother José Cezário de Toledo Lima
-    (P-0054, Eliza's father) — the near-identical names are a documented trap.
+    folio 8 of PRB-0006), married to Maria Perpétua (PRB-0004). Formerly wrongly
+    hypothesised as Eliza's father; corrected by PRB-0006. Not modelled.
 event_ids:
 - E-0052
 notes:
 - text: >-
-    Parents of José Cezário de Toledo Lima (P-0054) and grandparents of Eliza Balbina
-    de Toledo (P-0017). Mathilde's grandmother role (long recorded in prose from the
-    1877/1881/1884 Concórdia deeds, PRB-0001/0002/0003/0004) is now a structured edge
-    via her son José Cezário. This resolves Mathilde's (P-0027) previous deliberate
-    orphan status.
+    Parents of José Cezário de Toledo Lima (P-0054) and grandparents of Simplício
+    José Ferreira Armond (P-0016). CORRECTION (7 August 2026): Simplício (not Eliza)
+    is the direct-line child. Mathilde's grandparent role is now a structured edge
+    via her son JC → his son Simplício. Eliza's parentage remains unresolved (see P-0017).
 - text: >-
-    Per the 1879 inventory Mathilde had eight children (heirs). Only José Cezário
-    (heir #4, the direct line) is modelled; heirs #3 Antonio Zeferino and #7 Cezário
-    José are documented above. The remaining heirs — including Francisco Leocadio de
-    Toledo (⚭ Maria Joaquina de Jesus) and Carolina Leopoldina Marques (⚭ Narciso
-    Marques Braz) — are named across the deed cluster and the inventory but are
-    recorded here only as a lead, not modelled or documented individually.
+    Per PRB-0009 (1867 Ladisláo inventário), Ladisláo and Mathilde had at least eight
+    children: (1) Maria Perpétua (⚭ Antonio Zeferino de Toledo); (2) Ignez Mettelina
+    (⚭ João? Pedro da Silva); (3) Carolina Leopoldina Marques (⚭ Narcísio Marques
+    Braz); (4) Francisco Leocádio — now modelled as P-0061; (5) Aureliano de Sales
+    Toledo; (6) Cezário [José] de Toledo; (7) Antonio Ladisláo de Toledo (surdo e
+    mudo); (8) José Cesário de Toledo Lima (P-0054, direct line). Items 1–3 and 5–7
+    are documented_children; item 4 is modelled; item 8 is a structured child.

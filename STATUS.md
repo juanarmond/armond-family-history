@@ -90,30 +90,27 @@ and cataloguing work.
 
 | Item | Current state |
 | --- | --- |
-| Structured people | 48 |
-| Structured families | 23 |
-| Structured events | 51 |
+| Structured people | 54 |
+| Structured families | 26 |
+| Structured events | 52 |
 | Structured places | 9 |
-| Structured sources | 51 |
+| Structured sources | 53 |
 | Structured FAN references | 13 |
-| Inventoried retained documents | 48 |
-| Validation | 223 entities; zero errors or warnings at the last check |
+| Inventoried retained documents | 59 |
+| Validation | 237 entities; zero errors or warnings at the last check |
 | Automated tests | 69 passing at the last check |
 
-The 46 catalogued sources (across the `CIV`, `GOV`, `PAR`, `PRB` and `PUB`
-categories) span the Armond/Paz, Muniz Bittencourt/Azevedo,
-Engracio/Souza/Guimarães, Bohrer and Portuguese-origin lines, include the
-maternal Toledo probate cluster and the Barbacena context sources, and include
-the living subject's private records. Source
-details, archival references, transcriptions, limitations and conclusion links
-are canonical in `data/sources/`; record-by-record gaps are canonical in
+The 53 catalogued sources span the Armond/Paz, Muniz Bittencourt/Azevedo,
+Engracio/Souza/Guimarães, Bohrer and Portuguese-origin lines, include the maternal
+Toledo probate cluster and the Barbacena context sources, and include the living
+subject's private records. Details are canonical in `data/sources/`; gaps in
 `data/record-coverage.yaml`.
 
 ## Research snapshot
 
 | Area | Strongest current position | Strategic gap |
 | --- | --- | --- |
-| Armond and Paz | Aristão's death is confirmed; a second original government record independently names Liliosa Paz Armond and reports the couple as José Olavo's parents. Leads (not evidence): a sibling Marfisa (bapt. 1873, N. Sra. da Piedade, Piacatuba) fixes the likely baptism parish; the documented Azorean Ferreira Armonde tree does NOT reach Piacatuba (bridge unsupported), and the 1831 census confirms the anti-merge on a primary document; a third daughter, Aristides Ferreira Armand (m.1894, CIV-0023), adds a fourth attestation/signature of Simplício José Ferreira Armand and places the family at Boa Família/Muriaé in 1894, with Aristides born ~1875 at Rio Pardo da Leopoldina (the Argirita area) | Retrieve Aristão's baptism (from ~1879) and the Aristão×Liliosa marriage; find the Simplício×Elisa marriage (the decisive bridge test, likely Rio Pardo/Argirita ~1870s); locate Liliosa's parents (her death date is now fixed) |
+| Armond and Paz | Aristão's death is confirmed; a second original government record independently names Liliosa Paz Armond and reports the couple as José Olavo's parents. Simplício's parentage is now CONFIRMED (7 Aug 2026) by two independent 1867 primary sources (PRB-0008, PRB-0009): son of José Cezário de Toledo Lima × Claudina Brandina de Jesus (F-0026). Eliza's parentage is now UNRESOLVED (prior misread of PRB-0006 corrected). Leads (not evidence): a sibling Marfisa (bapt. 1873, N. Sra. da Piedade, Piacatuba) fixes the likely baptism parish | Retrieve Aristão's baptism and marriage; find the Simplício×Eliza marriage; resolve Eliza's parentage among Ladisláo's other children; locate Liliosa's parents |
 | Muniz Bittencourt and Azevedo | Deocleciano's own 1892 baptism (PAR-0004) and Susanna's 1866 baptism (PAR-0005) are catalogued; João's 1915 death (PAR-0007) confirms São Miguel origin; parents primary-confirmed by PAR-0015 (father Manoel Muniz Bytancourt P-0042, mother Francisca Roza P-0047) and grandparents (F-0023). João's own baptism found: PAR-0022, b. 24 Oct 1845. Marriage PAR-0024 found: 1 Feb 1845. Luiza's parents (F-0018) and Carangola origin fixed | The completed João × Susanna ceremony entry; the Azevedo grandparents' own vital records |
 | Engracio, Souza and Guimarães | The 1915 collective registration documents Maria Amora/Aurora, her parents and all four grandparents; her 1991 death (CIV-0018) confirms the same parents, and Antonio Engracio Filho's 1964 death (CIV-0017) names his parents — Antonio Engracio de Souza × Luzia Pinheiro da Conceição — and attests the couple's marriage; Cidalia's own 1930 birth (CIV-0022) confirms her parents and all four grandparents and fixes her birth date at 15 September 1930 | Locate Vicente's Portuguese origin; find the Antonio × Maria Aurora marriage act and the P-0032/P-0033 own vital records (both off-index) |
 | Bohrer | João Gonçalves Bohrer (d.1970) and Celina/Selina Bohrer (d.1977) catalogued from RJ civil deaths (CIV-0014/0015). Celina's maternal line now reaches her grandparents: Joaquim José Bohrer's parents Francisco José Bohrer × Rosa Eugenia de Lemos (their 1879 Nova Friburgo marriage, PAR-0002) and Lucinda's parents Antonio da Silva Ferreira × Maria Joanna da Silva Ferreira, both named in Alberto Bohrer's 1890 birth (CIV-0019). Francisco José Bohrer's parents Jacob Bahrer × Catharina Mayer (F-0024) are now primary-confirmed by his own 1888 will (PRB-0005), which also shows he was Brazilian-born at Nova Friburgo — so the immigrant boundary now sits at Jacob/Catharina (the Swiss-Soleure reading a secondary lead). Rosa Eugenia de Lemos's parents are also confirmed — Manoel de Lemos Pereira × Maria Thereza de Jesus (F-0025), from her own 1835 Itaboraí baptism (PAR-0016), an Itaboraí Lemos family (brother Candido Pereira de Lemos named in the will) | Valentim Martinho Bohrer × Carolina's own records; João Gonçalves × Celina's civil marriage; the Lemos siblings' own baptisms (images held) |
@@ -164,6 +161,9 @@ relationships. Collaborative profiles remain navigation leads only.
 13. João Gonçalves Bohrer × Celina marriage place: "neste Município" (Nova
     Friburgo, RJ) in CIV-0016 (1924) vs "em Carangola, MG" [uncertain] in CIV-0014
     (1970); confirm the CIV-0014 reading before use.
+14. Eliza Balbina de Toledo's parentage: UNRESOLVED (7 August 2026). PRB-0008 and
+    PRB-0009 correct the misread of PRB-0006: Eliza is Simplício's wife, not JC's
+    daughter. Likely a daughter of one of Ladisláo's other children (not yet researched).
 
 Do not resolve a conflict by deleting the weaker version. Preserve every
 material interpretation with its source and confidence.

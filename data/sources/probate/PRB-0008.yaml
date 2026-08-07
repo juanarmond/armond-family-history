@@ -1,0 +1,149 @@
+schema_version: 1
+id: PRB-0008
+title: >-
+  1867 Concórdia probate inventory of José Cesário de Toledo Lima and Claudina
+  Brandina de Jesus — título de herdeiros listing Simplício (item 6) and siblings
+  as children of the deceased couple
+record_type: Estate inventory (inventário / título de herdeiros)
+record_category: court_or_probate
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1867-03-04"
+  original_text: >-
+    Inventory opened 4 March 1867 (cover stamp "04/03/1867", archive ref [38403 268]);
+    certification and curator oath dated 7 March 1867 at Concórdia by J. de Bastos
+    Pacheco, Escrivão dos Órfãos, before Dr. Mortimário de Sousa Lintz, Juiz Municipal
+    e de Órfãos.
+event_place_text: >-
+  Sub-distrito da Concórdia, Districto do Rio Pardo, Minas Gerais, Brazil
+repository:
+  name: >-
+    Juízo Municipal e de Órfãos, Concórdia, Districto do Rio Pardo, Minas Gerais
+    (inventário de José Cesário de Toledo Lima e Claudina Brandina de Jesus)
+  archive_or_registry: >-
+    Fórum / Cartório de Rio Pardo ou Leopoldina, MG; digitised copy delivered
+    through the research/from-retrieval/ sync (FamilySearch; archive ref [38403 268])
+  collection: >-
+    Inventário de José Cesário de Toledo Lima e Claudina Brandina de Jesus, aberto
+    4 março 1867, Concórdia (Districto do Rio Pardo), MG
+  catalogue_reference: >-
+    Archive reference [38403 268]; FamilySearch retrieval; read and promoted 7 August
+    2026. Eight pages catalogued: cover (gen1), p2–p6, p8, p9.
+  repository_path: >-
+    evidence/probate/PRB-0008-jose-cesario-inventario-1867-gen1.jpg
+access_date: "2026-08-07"
+language: pt-BR
+transcription: >-
+  [Inventário de José Cesário de Toledo Lima e Claudina Brandina de Jesus, Concórdia,
+  Districto do Rio Pardo, MG, 1867. Eight pages catalogued: cover (gen1), pp. 2–6, 8, 9.]
+
+
+  [gen1 — cover:] "INVENTÁRIO / José Cesario de Tolledo Lima / Claudina Brandina de
+  Jesus" (date stamp: "04 / 03 / 1867"; archive stamp top-right: "[38403 268]"; shelf
+  mark bottom-right: "A31")
+
+
+  [p8 — children's list, continuation; items from a previous page are not visible
+  here; numbering continues:] "a Tolledo casada com Manoel Marques Jorge" [end of item
+  4, Maria Bulandina/Claudina de Toledo] — "Simplicio José Ferrara [Ferreira] de
+  Tolledo / Solteiro de quatorze annos." [item 6, right margin "6"] — "Ladislao
+  Egydio de Tolledo / Solteiro de doze annos" [item 7, right margin "7"] — "Geraldo,
+  de dois annos de idade" [item 8, right margin "8"] — "Uma pha [filha] de seis meses
+  de idade" [item 9, right margin "9"]
+
+
+  [p8 — certification:] "Certidoes / Certifico que citei a successao a Tolledo para
+  prestarem juramento de Curador dos menores seus sobrinhos Simplicio, Ladislao,
+  Geraldo e Uma pha [filha] e dem phe [?] Concordia dia 7 de Março de 1867. Je de
+  Bastos Paz [signature]."
+
+
+  [p8 — oath heading:] "Juramento do Curador / Aos sete dias do mez de Marco do anno
+  de mil oito centos e sessoenta e sete nesta su / dal da Concordia do Districto do
+  Rio Ponde [Pardo] a onde se achava o Doutor Mortomaro [Mortimário] de Sousa [Lintz]
+  Juiz Municipal e de Orfaos. Comigo Escrivao ao diante nomeado, e dundo a li
+  presente [Marchiano] fidel..."
+
+
+  [p9 — oath continuation:] "a Tolledo pelo dito Juiz the foi deposto juramento aos
+  Santos Evangelhos em um livro delles e lhe Encarregou que procedesse com
+  Consciencia, deles efectlmente, ecumprindo os deveres e obrigacões de Curador dos
+  menores deste inventario, requeremos e preemovendo tudo quanto fosse a deos
+  beneficios e louvandade sapprovando lavrador para a avaliacao dos bens. Recebido
+  por elle o juramento a fim prometeo Cumprir. E para Constar lavrou este termo em
+  que de a por asignado a pois [Joaquim de Bastos Pacheco] Escrivao dos Orfaos que
+  assignou."
+
+
+  [p9 — signatures:] "[Luiza/Lucio?] [Lima?]" [Curador signature] / "Aureliano de
+  Sales Toledo"
+
+
+  [p9 — second certification:] "Certifico que citei a turma aos herdeiros maiores e
+  maiores e pelas Curador astes edes menores para de louvorin em avaliadores que
+  avati em os bens deste inventario e den fi. Concordia 7 de Março 1867 / J. de
+  Freitas Pacheco [or: de Bastos Pacheco]"
+abstract: >-
+  The 1867 Concórdia (Districto do Rio Pardo, MG) probate inventory of José Cesário
+  de Toledo Lima (P-0054) and his wife Claudina Brandina de Jesus (P-0055), both
+  deceased by the opening date of 4 March 1867. The título de herdeiros lists their
+  children (herdeiros); the page catalogued as p8 shows item 6 as "Simplicio José
+  Ferreira de Tolledo, Solteiro de quatorze annos" — direct primary evidence that
+  Simplício José Ferreira Armond (P-0016) is a son of José Cesário de Toledo Lima
+  and Claudina Brandina de Jesus, settling his parentage. Items 7–9 (Ladisláo,
+  Geraldo and an unnamed female infant) are also listed. The cover (gen1) explicitly
+  names both deceased spouses: "José Cesario de Tolledo Lima / Claudina Brandina de
+  Jesus." The certification is dated 7 March 1867, signed by J. de Bastos Pacheco
+  (Escrivão dos Órfãos), before the judge Dr. Mortimário de Sousa Lintz; Aureliano
+  de Sales Toledo (a sibling of JC) served as Curador of the minor heirs.
+reliability:
+  assessment: >-
+    Direct primary evidence from a judicial estate inventory: names Simplício
+    explicitly as a son of José Cesário de Toledo Lima, solteiro aged 14 in 1867.
+    Independent of PRB-0006 (1879 Matilde inventário) which, through a different
+    proceeding twelve years later, names the same children. Both records together
+    constitute two independent primary confirmations of Simplício's parentage.
+  informant: >-
+    J. de Bastos Pacheco, Escrivão dos Órfãos, Concórdia, 1867; judicial process.
+  limitations: >-
+    Pages 7 (item 5 of the children) is not catalogued; its content is unknown. The
+    item-5 child visible in PRB-0006 (1879) at the same position is Josephina
+    Christina, who had already died with issue by 1879 — her absence from the 1867
+    p8 list is explained by being on p7. Only 8 of the total pages of the processo
+    are catalogued; the monte-mór, valuations and other procedural folios are not.
+    Simplício's name in 1867 reads "Ferrara/Ferreira de Tolledo"; by 1879 the Armond
+    surname appears — he adopted or acquired the surname via marriage (to Eliza
+    Balbina de Tolledo).
+digital_file:
+  path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-gen1.jpg
+  sha256: 4c05091e315090bd7102a4d217a387d3595464eda3a3d15136c0bebe409d8685
+linked_people:
+- P-0054
+- P-0055
+- P-0016
+linked_families:
+- F-0026
+linked_events:
+- E-0054
+linked_places: []
+private: true
+notes:
+- text: >-
+    This inventory directly contradicts the reading of PRB-0006 that placed Eliza
+    (P-0017) as a child of JC: the 1867 JC inventário does NOT list Eliza among JC's
+    children. Simplício (item 6, aged 14) is listed; the items before him (including
+    the unknown item 5 on p7) are his siblings. Eliza's parentage is now a hypothesis
+    requiring further evidence (see P-0017 notes and family F-0030).
+- text: >-
+    PRB-0009 (Ladisláo inventário, 1867) independently confirms Simplício as item 6
+    among JC's representantes in a separate concurrent proceeding — two independent
+    1867 primary records establish the same parentage.
+- text: >-
+    Claudina Brandina de Jesus: her full name is PRIMARY-CONFIRMED by the cover of
+    this inventory ("Claudina Brandina de Jesus"); prior to this, the full name was
+    inferred from her daughter's surname Bulandina/Brandina (PRB-0006). The cover
+    is the first primary record to state the complete name.

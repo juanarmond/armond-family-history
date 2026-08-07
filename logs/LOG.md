@@ -972,3 +972,30 @@ Value-gate pass on four new retrieval-drop images. Detail: `logs/2026-08-05-tole
 - **rec-muniz-joao-bilancourt-godfather-1822-maededeus**: "João Moniz de Bilancourt"
   = standing witness João Jacinto Moniz de Bulhões (own signature). Not a family
   member; not ingested.
+
+## 2026-08-07 — Simplício's parentage confirmed; Eliza parentage correction; Toledo 1867 inventários
+
+Value-gate pass on 15 images in the retrieval drop. Two inventários triaged; two
+parish images identified as byte-identical duplicates of existing sources.
+
+**New sources:** PRB-0008 (JC × Claudina inventário 1867, 8 pages), PRB-0009
+(Ladisláo inventário 1867, 5 pages).
+
+**New entities:** P-0061 (Francisco Leocádio de Toledo), P-0062 (Maria Joaquina de
+Jesus — uncertain name), F-0030 (Francisco Leocádio × Maria Joaquina), E-0054 (JC
+death, before 4 March 1867).
+
+**Critical correction:** Simplício José Ferreira Armond (P-0016) is confirmed as a
+son of José Cezário de Toledo Lima × Claudina Brandina de Jesus (F-0026) by two
+independent 1867 primary sources. Eliza Balbina de Toledo (P-0017) was incorrectly
+placed as JC's daughter by a misread of PRB-0006; F-0026 corrected. Eliza's parentage
+is now unresolved.
+
+**Claudina's full name** ("Claudina Brandina de Jesus") primary-confirmed by PRB-0008
+cover (first primary record to state the complete name).
+
+**Duplicate images:** `rec-muniz-manoel-obito` = PAR-0015 (same bytes); `rec-muniz-
+suzana-brandao-baptism` = PAR-0005 (same bytes). Re-reading PAR-0005 confirms the
+existing transcription: born 11 August 1865, baptized 22 March 1866.
+
+See `logs/2026-08-07-simplicio-parentage-toledo-inventarios-1867.md` for full detail.
