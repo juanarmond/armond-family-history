@@ -1,0 +1,17 @@
+schema_version: 1
+id: E-0067
+event_type: death
+date:
+  kind: exact
+  value: "1832-10-10"
+  original_text: >-
+    Matriarch died NF 10/10/1832 — Casa Suíça database entry for Johann-Jacob Wehrli
+    and Anna Maria Werhly entries, Imigrantes de Nova Friburgo
+place_text: Nova Friburgo, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0073
+  role: principal
+status: strong-evidence
+source_ids:
+- PUB-0003
+notes: []

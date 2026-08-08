@@ -1,0 +1,17 @@
+schema_version: 1
+id: E-0061
+event_type: marriage
+date:
+  kind: exact
+  value: "1820-07-03"
+  original_text: "3 de julho de 1820"
+place_text: Nova Friburgo, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0068
+  role: spouse
+- person_id: P-0069
+  role: spouse
+status: strong-evidence
+source_ids:
+- PUB-0003
+notes: []

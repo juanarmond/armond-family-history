@@ -1,0 +1,25 @@
+schema_version: 1
+id: E-0065
+event_type: marriage
+date:
+  kind: exact
+  value: "1782-01-27"
+  original_text: >-
+    Die 27ma Januarii 1782 … Jacobus Wehrlia[?] et Elisabetha Borer ambo ex Grindel,
+    Erischwyg — Catholic marriage register, Grindel parish, page 71, entry 4
+place_text: Grindel, Soleure (Solothurn), Switzerland
+participants:
+- person_id: P-0072
+  role: spouse
+- person_id: P-0073
+  role: spouse
+status: strong-evidence
+source_ids:
+- PUB-0003
+notes:
+- text: >-
+    Witnesses named in the register: Heinricus Werli and Catharina Borer. The primary
+    image (rec-bohrer-werly-borer-marriages-grindel-1780.jpg) is in the retrieval area
+    and should be archived as a PAR source in evidence/parish/ when the owner transfers
+    it. Cited under PUB-0003 for now; source_ids will be updated when the PAR source
+    is created.

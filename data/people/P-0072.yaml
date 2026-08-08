@@ -1,0 +1,39 @@
+schema_version: 1
+id: P-0072
+preferred_name: Johann Jacob Wehrli
+privacy: deceased
+sex: male
+nationality: Swiss
+name_variants:
+- value: Johann-Jacob Wehrli
+  type: source
+  source_ids:
+  - PUB-0003
+- value: Jacobus Wehrli
+  type: other
+  source_ids:
+  - PUB-0003
+occupations:
+- value: agricultor
+  source_ids:
+  - PUB-0003
+event_ids:
+- E-0065
+- E-0066
+family_ids:
+- F-0035
+notes:
+- text: >-
+    Patriarch of the Wehrli immigrant family in Nova Friburgo. Arrived on the Heureux
+    Voyage in 1819 with his wife Elisabetha Borer (P-0073) and most of their children,
+    including Anna Maria (P-0069), Laurent Borer's future wife.
+- text: >-
+    Born 17 January 1751, Grindel, Soleure (Solothurn), Switzerland (PUB-0003,
+    strong-evidence — Casa Suíça DB entry). Casa Suíça DB lists his age at arrival
+    (1819) as 49 — a database error; born 1751, he was actually ~68 in 1819. The DB
+    narrative text correctly states '68 anos.'
+- text: >-
+    His daughter Anna Maria Werhly (P-0069) married Laurent Borer (P-0068) on the
+    same day — 03/07/1820 — as his daughter Salomé married Louis Nicolas Villette.
+    The Wehrli and Borer families were closely linked (Elisabetha Borer's surname
+    suggests kinship with Laurent's father's family).

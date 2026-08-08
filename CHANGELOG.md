@@ -5,6 +5,30 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Bohrer/Borer line extended to 1819 Swiss immigrants (2026-08-08)
+
+- **PUB-0003** (new source): Imigrantes de Nova Friburgo (Henrique Bon, compiler),
+  pp.300-303 and Casa Suíça DB entries; category published_genealogy, strong-evidence
+  for BORER I and BORER II genealogies.
+- **P-0068 Laurent Borer** (b.27/02/1797, Grindel, Soleure, CH; Heureux Voyage 1819),
+  **P-0069 Anna Maria Werhly** (b.~1793, Grindel), **F-0033** (Laurent × Anna Maria
+  marriage 03/07/1820 NF); BORER II line grandparent generation of Valentim.
+- **P-0070 Vicente Borer** (b.06/09/1828, NF, Brazil), **P-0071 Maria Heggendorn**
+  (daughter of Joseph Heggendorn × Maria Freese), **F-0034** (Vicente × Maria
+  marriage 11/04/1864); Valentim's parent family now modelled.
+- **P-0072 Johann Jacob Wehrli** (b.17/01/1751, Grindel; d.NF 28/05/1827),
+  **P-0073 Elisabetha Borer** (d.NF 10/10/1832), **F-0035** (married 27/01/1782,
+  Grindel, confirmed by Swiss Catholic marriage register primary image); Anna Maria's
+  parent family.
+- **E-0060–E-0067**: birth and marriage events for Laurent, Anna Maria, Vicente,
+  Maria Heggendorn (marriage), Valentim (birth), Johann Jacob × Elisabetha (marriage),
+  Johann Jacob death, Elisabetha death.
+- **P-0028 (Valentim)**: birth date confirmed (14/11/1868, E-0064), parent family
+  F-0034 added; **P-0034 (Francisco José)**: exact death date (06/07/1888) and
+  causa mortis (insuficiência mitral e dilatação aórtica) added from PUB-0003;
+  **P-0050 (Jacob Bohrer)**: Casa/Lote 70/56 (distinct from Laurent's 73/86) added.
+- GEDCOM regenerated (7.0, 3054 lines); viewer index regenerated (259 entities).
+
 ### Added — Mathilde death event, Armond leads, FL conflict flag (2026-08-08 fourth pass)
 
 - **E-0059** (new): Mathilde Maria de Jesus death, 12 March 1879, confirmed from

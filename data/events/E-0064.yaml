@@ -1,0 +1,17 @@
+schema_version: 1
+id: E-0064
+event_type: birth
+date:
+  kind: exact
+  value: "1868-11-14"
+  original_text: >-
+    Valentim Martinho n. 14/11/1868 — Vicente's 3rd child per BORER II genealogy tree
+    p.301
+place_text: Nova Friburgo area, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0028
+  role: principal
+status: strong-evidence
+source_ids:
+- PUB-0003
+notes: []

@@ -1,0 +1,25 @@
+schema_version: 1
+id: P-0071
+preferred_name: Maria Heggendorn
+privacy: deceased
+sex: female
+name_variants:
+- value: Maria Heggendorn
+  type: source
+  source_ids:
+  - PUB-0003
+event_ids:
+- E-0063
+family_ids:
+- F-0034
+notes:
+- text: >-
+    Parents per Imigrantes compilation (PUB-0003, p.301): 'filha de Joseph Heggendorn
+    × Maria (Maria Amélia?) Freese.' The same Joseph Heggendorn × Amelie (Anna Maria)
+    Freese couple appears as the parents of Bibiana Heggendorn (who married Vicente's
+    brother José Borer in 1854) — suggesting Maria and Bibiana were sisters. Neither
+    Joseph Heggendorn nor Maria Freese is yet modelled in this repository.
+- text: >-
+    The names 'Thecla Regina' and birth date '23 Nov 1844' appear in
+    blog/collaborative-tree sources; not confirmed by any primary or record-citing
+    secondary source in this drop. Recorded as unconfirmed.

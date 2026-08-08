@@ -1,0 +1,17 @@
+schema_version: 1
+id: E-0066
+event_type: death
+date:
+  kind: exact
+  value: "1827-05-28"
+  original_text: >-
+    Falecimento: 28/05/1827 — Casa Suíça database entry for Johann-Jacob Wehrli,
+    confirmed in Imigrantes de Nova Friburgo narrative
+place_text: Nova Friburgo, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0072
+  role: principal
+status: strong-evidence
+source_ids:
+- PUB-0003
+notes: []

@@ -1,0 +1,76 @@
+schema_version: 1
+id: F-0035
+partners:
+- person_id: P-0072
+  role: spouse
+- person_id: P-0073
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PUB-0003
+  notes:
+  - text: >-
+      Marriage confirmed by Swiss Catholic marriage register (Grindel parish, page 71,
+      entry 4): "Die 27ma Januarii 1782: Jacobus Wehrlia[?] et Elisabetha Borer ambo
+      ex Grindel, Erischwyg. Testes fuerunt Heinricus Werli et Catharina Borer."
+      Image rec-bohrer-werly-borer-marriages-grindel-1780.jpg in the 2026-08-07
+      retrieval drop — to be archived as a PAR source in evidence/parish/ when the
+      owner transfers it from the retrieval area.
+children:
+- person_id: P-0069
+  parent_relationships:
+  - parent_id: P-0072
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PUB-0003
+    notes: []
+  - parent_id: P-0073
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PUB-0003
+    notes: []
+  notes: []
+documented_children:
+- name: Henri Wehrli
+  source_ids:
+  - PUB-0003
+  note: "b. ~1782. Eldest son; arrived NF 1819, aged 37. Married in Europe × Sophorosine Marie Borer?; d. 23/06/1865. Not modelled."
+- name: Salomé Wehrli
+  source_ids:
+  - PUB-0003
+  note: "b. ~1785. Married Brazil 03/07/1820 × Louis Nicolas Villette (same date as Anna Maria's wedding). Not modelled."
+- name: Catherine Wehrli
+  source_ids:
+  - PUB-0003
+  note: "b. ~1790. Married in the Netherlands × Johann Borer (BORER III, probably her cousin). Not modelled."
+- name: Sophrosine Wehrli
+  source_ids:
+  - PUB-0003
+  note: "b. ~1794. Arrived NF 1819 aged 25. Not modelled."
+- name: Elise Wehrli
+  source_ids:
+  - PUB-0003
+  note: "b. ~1795. 'Não embarcou' — stayed in Europe despite being listed on the manifest. Not modelled."
+- name: Jacques Wehrli
+  source_ids:
+  - PUB-0003
+  note: "b. ~1801. Arrived NF 1819 aged 18. Married 05/08/1833 × Anna Maria Vogt. Not modelled."
+- name: Joseph Wehrli
+  source_ids:
+  - PUB-0003
+  note: "b. ~1805. Arrived NF 1819 aged 14. Married 15/04/1828 × Margueritte Montavon. Not modelled."
+event_ids:
+- E-0065
+notes:
+- text: >-
+    The patriarch Johann Jacob Wehrli (P-0072) and his wife Elisabetha Borer (P-0073)
+    emigrated to Brazil in 1819 on the Heureux Voyage together with most of their
+    children, including Anna Maria (P-0069). The patriarch died at Nova Friburgo on
+    28 May 1827; his wife died at Nova Friburgo on 10 October 1832.
+- text: >-
+    Marianne and Elise Wehrli did not embark ("não embarcaram") despite being listed
+    on the manifest — they stayed in Europe. The Casa Suíça DB lists nine children
+    who emigrated. Anna Maria (P-0069) was the 5th daughter.

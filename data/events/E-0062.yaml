@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0062
+event_type: birth
+date:
+  kind: exact
+  value: "1828-09-06"
+  original_text: >-
+    n. 06/09/1828 — Lorenz compilation p.301 (BORER II tree), confirmed by Casa Suíça
+    DB entry
+place_text: >-
+  Nova Friburgo area, Rio de Janeiro, Brazil (born in Brazil; exact location not stated)
+participants:
+- person_id: P-0070
+  role: principal
+status: strong-evidence
+source_ids:
+- PUB-0003
+notes: []

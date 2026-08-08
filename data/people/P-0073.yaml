@@ -1,0 +1,29 @@
+schema_version: 1
+id: P-0073
+preferred_name: Elisabetha Borer
+privacy: deceased
+sex: female
+nationality: Swiss
+name_variants:
+- value: Elisa Borer
+  type: other
+  source_ids:
+  - PUB-0003
+- value: Elisabetha Borer
+  type: source
+  source_ids:
+  - PUB-0003
+event_ids:
+- E-0065
+- E-0067
+family_ids:
+- F-0035
+notes:
+- text: >-
+    Wife of Johann Jacob Wehrli (P-0072). Her surname 'Borer' may indicate kinship
+    with the Borer immigrant families (BORER I Jacob Borer and BORER II Laurent
+    Borer), but this is not confirmed — the Borer surname was common in the
+    Grindel/Soleure area.
+- text: >-
+    Named 'Elisa Borer' in the Casa Suíça DB narrative and 'Elisabetha Borer' in
+    the Grindel marriage register. Both forms preserved.

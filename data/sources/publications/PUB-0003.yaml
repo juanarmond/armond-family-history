@@ -1,0 +1,149 @@
+schema_version: 1
+id: PUB-0003
+title: >-
+  Imigrantes de Nova Friburgo — genealogias: BORER I, BORER II, WEHRLI sections
+  (Henrique Bon compiler)
+record_type: Published genealogical compilation
+record_category: published_genealogy
+source_form: authored_narrative
+information_quality: secondary
+evidence_type: indirect
+usage: evidence
+repository:
+  name: Fundação D. João VI / Arquivo Pró-Memória, Nova Friburgo, RJ
+  archive_or_registry: >-
+    Compiled by Henrique Bon; held at the Fundação D. João VI de Nova Friburgo
+    (contact: Nelson Bohrer, admin@djoaovi.com). Pages 300–303 and Casa Suíça
+    database entries were read from scanned images delivered in the 2026-08-07
+    retrieval drop (images rec-bohrer-lorenz-imigrantes-nf-borer1-p300.jpg,
+    rec-bohrer-lorenz-imigrantes-nf-borer1-pp300-301.jpg,
+    rec-bohrer-lorenz-imigrantes-nf-pp302-303.jpg,
+    rec-bohrer-wehrli-annmarie-casa-suica-db.jpg,
+    rec-bohrer-wehrli-johanjacob-casa-suica-db.jpg,
+    rec-bohrer-vicente-casa-suica-db.jpg).
+  collection: Imigrantes de Nova Friburgo — genealogias; Henrique Bon (compiler)
+  book: Pages 300–303 — BORER I (Jacob b.1801 Erschwil) and BORER II (Laurent
+    b.1797 Grindel) genealogy trees; Casa Suíça database entries for Laurent,
+    Vicente, Anna Maria Wehrli, and Johann Jacob Wehrli
+  catalogue_reference: >-
+    Henrique Bon (compiler), Imigrantes de Nova Friburgo — genealogias, pp.300–303.
+    The compilation draws on Nova Friburgo parish registers, civil records, and the
+    Fundação D. João VI archives. Images in the 2026-08-07 retrieval drop, to be
+    archived in evidence/publications/ when the owner transfers them from the
+    research/from-retrieval/ area.
+access_date: "2026-08-07"
+language: pt-BR
+transcription: >-
+  [p.300 — BORER (I), Jacob b.1801 Erschwil → Francisco José's line:]
+  "1.1.4. Francisco José Borer — n. 04/07/1832, f. 06/07/1888, causa mortis:
+  insuficiência mitral e dilatação aórtica. ... O casal morava no Alto da Serra."
+  Children listed: Ludovina n.21/07/1862 f.27/12/1862 (infant); Laura n.16/08/1866;
+  Guilherme n.06/04/1868; Fernando n.03/01/1872 cas.06/05/1911 × Julia de Oliveira
+  Cerbino. ⚠ Joaquim José absent from this list (conflict with PRB-0005 will, which
+  names him as firstborn — compiler apparently missed his baptism record).
+  Francisco José's siblings: Catharina n.24/07/1830 f.16/01/1872 (⚭ Frederico
+  Chaboudez); Maria n.21/09/1834 (⚭ Francisco Xavier Chaboudez); Augusto
+  n.10/02/1837; João José n.10/09/1840 f.16/06/1859 (solteiro). Jacob Borer
+  (Patriarca, BORER I) assigned Casa/Lote 70/56 per DB.
+
+  [pp.300-301 — BORER (II), Laurent b.1797 Grindel → Vicente → Valentim line:]
+  "Laurent Borer, filho de certo Jacob Borer, de Grindel, Soleure, veio
+  aparentemente só para o Brasil … embarcaria ele no Heureux Voyage, ocupando em
+  Nova Friburgo a casa 73 e o lote 86. Nesta vila viria a se casar em 3 de julho
+  de 1820, com Anna Maria Werhly …" Compilation counts "ao menos onze filhos";
+  Casa Suíça DB narrative gives "doze filhos" — one-child discrepancy noted.
+  Children genealogy tree p.301 (selected): José n.28/03/1821; Anna Maria n.19/06/1822;
+  José Lourenço n.07/07/1823; Anna Maria (2nd) n.03/05/1825; Justina n.06/06/1827;
+  José Joaquim [entry cut off]; Vicente n.06/09/1828 ⚭ 11/04/1864 × Maria Heggendorn
+  (filha de Joseph Heggendorn × Maria (Maria Amélia?) Freese); José Constantino
+  n.08/09/1829; Barbara Elisabeth n.14/12/1830; Regina n.07/07/1832; Maria
+  n.27/12/1834; Thereza n.25/08/1836. Vicente's children: José Domingos n.19/03/1864;
+  Maria Elisabeth n.15/12/1866; Valentim Martinho n.14/11/1868; Vicente n.16/04/1871.
+  Note: José Domingos born ~3 weeks before parents' 11 April 1864 civil marriage.
+
+  [WEHRLI — Casa Suíça DB entries:]
+  Johann Jacob Wehrli, patriarca, b.17/01/1751 Grindel, Soleure; profession:
+  agricultor; arrived 1819 on Heureux Voyage, Casa/Lote 73/86; married Elisabetha
+  Borer [27 Jan 1782 per Swiss marriage register primary image]; died NF 28/05/1827.
+  Anna Maria Werhly, 5th daughter, b.1793 Grindel, Solothurn; arrived 1819 Heureux
+  Voyage; married Laurent Borer 03/07/1820 NF; 12 children.
+
+  [p.302 — BORER (III), Johann b.01/08/1792 Erschwil — DISTINCT from our family:]
+  Descendants use "Borer" surname; no proven kinship with Borer I or Borer II.
+
+abstract: >-
+  Genealogical compilation for Nova Friburgo Swiss-German immigrant families.
+  Pp.300-301 cover BORER I (Jacob Borer b.1801 Erschwil — Francisco José Bohrer's
+  line) and BORER II (Laurent Borer b.1797 Grindel — Valentim Martinho Bohrer's
+  line). Pp.302-303 cover BORER III (unrelated Johann Borer b.1792 Erschwil line).
+  The Casa Suíça database entries and WEHRLI section document Johann Jacob Wehrli
+  × Elisabetha Borer as the parents of Anna Maria Werhly, Laurent's wife, with
+  primary confirmation of their 1782 Grindel marriage from the Swiss parish register
+  (image rec-bohrer-werly-borer-marriages-grindel-1780.jpg, entry 4, page 71).
+reliability:
+  assessment: >-
+    A NF record-citing genealogical compilation that draws on local parish and civil
+    registers. Treated as strong-evidence for specific dates and parentage assertions.
+    Two compilation-internal conflicts noted: Laurent's child count (11 in narrative
+    vs 12 in DB text); and Joaquim José Bohrer's absence from Francisco José's
+    children despite being named firstborn in PRB-0005. On Vicente's middle name:
+    family-bohrer.md plan notes "Lourenço" as blog-sourced; the compilation gives
+    only "Vicente" with no middle name — "Lourenço" is not confirmed here.
+    On Vicente's wife: the compilation confirms "Maria Heggendorn" but does not
+    give "Thecla Regina" or a birth date — those details appear only in blog sources.
+  informant: Henrique Bon (compiler); Casa Suíça database (same underlying data)
+  limitations: >-
+    Secondary compiled source; not all NF colonist records are indexed. Swiss origin
+    data (Laurent's father "Jacob Borer de Grindel") is cited by the compiler, not
+    independently verified in Swiss parish registers by this repository. Laurent's
+    father is named "certo Jacob Borer" — the "certo" hedges the compiler's
+    confidence. The Grindel parish register images held in the retrieval drop
+    (images 13–16) show a "Joannes Borer × Ana Maria Werli" baptising daughter
+    Maria Barbara on 23 Dec 1782, Grindel — a strong lead for Laurent's parentage
+    but not yet confirmed as the same Jacob/Joannes Borer.
+linked_people:
+- P-0034
+- P-0050
+- P-0068
+- P-0069
+- P-0070
+- P-0071
+- P-0072
+- P-0073
+linked_families:
+- F-0024
+- F-0033
+- F-0034
+- F-0035
+linked_events:
+- E-0026
+- E-0060
+- E-0061
+- E-0062
+- E-0063
+- E-0064
+- E-0065
+- E-0066
+- E-0067
+linked_places: []
+private: false
+notes:
+- text: >-
+    BORER I and BORER II are distinct immigrant families despite the shared "Borer"
+    surname. The compilation states "não há evidência de parentesco próximo entre os
+    dois grupos." Jacob Borer (BORER I, P-0050) had Casa/Lote 70/56; Laurent Borer
+    (BORER II, P-0068) had Casa/Lote 73/86 — they were co-passengers on the same
+    Heureux Voyage but allocated different lots. Valentim Martinho Bohrer (P-0028)
+    descends from Laurent (BORER II), while Francisco José Bohrer (P-0034) descends
+    from Jacob (BORER I). Iris Bohrer (P-0007) is the junction of both lines (her
+    father Antenor Muniz married into the BORER I line through Celina; her own
+    Bohrer surname comes through BORER II via her father's side — but see family
+    connections for the exact path).
+- text: >-
+    The Grindel Catholic marriage register (image rec-bohrer-werly-borer-marriages-grindel-1780.jpg)
+    provides PRIMARY evidence for the marriage of Jacobus Wehrli × Elisabetha Borer
+    on 27 January 1782, Grindel (entry 4, page 71). This image is in the retrieval
+    area; it needs to be archived as a PAR source in evidence/parish/ when the owner
+    transfers it. For now, the marriage date 27 Jan 1782 is recorded as strong-evidence
+    (image read directly by the retrieval agent and transcribed in the 2026-08-07
+    receipt, receipt path research/from-retrieval/output/receipts/bohrer-images-deep-read-2026-08-07.md).

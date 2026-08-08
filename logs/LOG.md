@@ -5,6 +5,12 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-08-08 — Bohrer/Borer line extension to 1819 immigrants via Imigrantes compilation
+
+- Question: value-gate the 2026-08-07 retrieval drop (17 Bohrer images); extend the Valentim Martinho Bohrer paternal line.
+- Key results: (1) Created **PUB-0003** (Imigrantes de Nova Friburgo, Henrique Bon, pp.300-303 + Casa Suíça DB). (2) Extended Valentim's (P-0028) paternal line four generations: Vicente Borer (P-0070, b.06/09/1828) × Maria Heggendorn (P-0071) → Laurent Borer (P-0068, b.27/02/1797, Grindel, Soleure, CH; Heureux Voyage 1819) × Anna Maria Werhly (P-0069, b.~1793) → Johann Jacob Wehrli (P-0072, b.17/01/1751, d.NF 28/05/1827) × Elisabetha Borer (P-0073, d.NF 10/10/1832). (3) Confirmed BORER I (Jacob Bohrer, P-0050, Erschwil, Casa/Lote 70/56) and BORER II (Laurent, Grindel, Casa/Lote 73/86) are distinct immigrant families on the same 1819 ship. (4) Swiss marriage register (Grindel, 27 Jan 1782) provides PRIMARY evidence for Johann Jacob × Elisabetha union (E-0065); image to be archived as PAR source. (5) Added Francisco José Bohrer's (P-0034) exact death date (06/07/1888, insuficiência mitral). (6) Valentim's birth date now strong-evidence (14/11/1868, E-0064). Caveats: Vicente's middle name "Lourenço" and Maria Heggendorn's name "Thecla Regina" are blog-only leads, NOT confirmed by PUB-0003.
+- New entities: PUB-0003; P-0068/P-0069/P-0070/P-0071/P-0072/P-0073; F-0033/F-0034/F-0035; E-0060 through E-0067. Session log: `logs/2026-08-08-bohrer-borer-imigrantes-line-extension.md`.
+
 ## 2026-08-01 — Toledo apical: sisters' marriages, a name fix, and Matilde's-parents negative
 
 - Question: process the agent's Target-B result — a bounded negative for the Ladisláo ×

@@ -1,0 +1,40 @@
+schema_version: 1
+id: P-0068
+preferred_name: Laurent Borer
+privacy: deceased
+sex: male
+nationality: Swiss
+name_variants:
+- value: Lorenz Borer
+  type: other
+  source_ids:
+  - PUB-0003
+- value: Laurent Borer
+  type: other
+  source_ids:
+  - PUB-0003
+event_ids:
+- E-0060
+- E-0061
+family_ids:
+- F-0033
+notes:
+- text: >-
+    BORER II in the Imigrantes de Nova Friburgo compilation (Henrique Bon), distinct
+    from Jacob Borer (P-0050, BORER I), who originates from Erschwil and held
+    Casa/Lote 70/56. Laurent originates from Grindel and held Casa/Lote 73/86.
+    The two families shared the Heureux Voyage but were allocated different lots
+    and are not proven to be closely related. The compilation states "não há
+    evidência de parentesco próximo entre os dois grupos."
+- text: >-
+    Father named as "certo Jacob Borer, de Grindel, Soleure" in the compilation
+    (PUB-0003). The qualifier "certo" reflects the compiler's own hedged confidence
+    in this attribution. The Grindel parish register images in the retrieval drop
+    show a "Joannes Borer × Ana Maria Werli" baptising a daughter in 1782 — a
+    strong lead for Laurent's parentage but not yet confirmed as the same individual.
+    No parent family in this repository; the father is noted here only.
+- text: >-
+    Emigrated to Brazil in 1819 on the ship Heureux Voyage. Settled at Nova Friburgo,
+    Rio de Janeiro, occupying Casa 73, Lote 86. Married Anna Maria Werhly (P-0069)
+    on 03/07/1820 at Nova Friburgo. Probably died in the vale do Macaé area,
+    Nova Friburgo; date of death unknown.

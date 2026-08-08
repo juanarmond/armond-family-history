@@ -1,0 +1,15 @@
+schema_version: 1
+id: E-0060
+event_type: birth
+date:
+  kind: exact
+  value: "1797-02-27"
+  original_text: "n. 27/02/1797"
+place_text: Grindel, Soleure (Solothurn), Switzerland
+participants:
+- person_id: P-0068
+  role: principal
+status: strong-evidence
+source_ids:
+- PUB-0003
+notes: []

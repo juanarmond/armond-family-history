@@ -10,12 +10,20 @@ name_variants:
   source_ids:
   - CIV-0014
   - CIV-0016
-event_ids: []
+event_ids:
+- E-0064
 family_ids:
 - F-0013
+- F-0034
 notes:
 - text: >-
     Ahnentafel position 28 — father of João Gonçalves Bohrer (P-0014). Named as
     João's father (already deceased) in his 1970 Volta Redonda death (CIV-0014)
     and as Eunir Bohrer's paternal grandfather in the 1924 Nova Friburgo birth
     (CIV-0016). No record of his own has been located.
+- text: >-
+    Birth date confirmed from Imigrantes de Nova Friburgo compilation (PUB-0003, p.301,
+    BORER II tree entry 1.1.7.3): born 14/11/1868. Parent family F-0034 (Vicente Borer
+    × Maria Heggendorn). Both parents are now modelled (P-0070 × P-0071); their parent
+    family F-0033 extends the line to Laurent Borer (P-0068), a Swiss immigrant (Heureux
+    Voyage, 1819, Grindel, Soleure).

@@ -1,0 +1,49 @@
+schema_version: 1
+id: F-0034
+partners:
+- person_id: P-0070
+  role: spouse
+- person_id: P-0071
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PUB-0003
+children:
+- person_id: P-0028
+  parent_relationships:
+  - parent_id: P-0070
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PUB-0003
+    notes: []
+  - parent_id: P-0071
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PUB-0003
+    notes: []
+  notes: []
+documented_children:
+- name: "José Domingos Borer, n.19/03/1864"
+  source_ids:
+  - PUB-0003
+  note: >-
+    Born ~3 weeks before parents' 11 April 1864 civil marriage; place: São José do
+    Ribeirão. Not modelled.
+- name: "Maria Elisabeth Borer, n.15/12/1866"
+  source_ids:
+  - PUB-0003
+  note: "Not modelled."
+- name: "Vicente Borer (Jr.), n.16/04/1871"
+  source_ids:
+  - PUB-0003
+  note: "Not modelled."
+event_ids:
+- E-0063
+notes:
+- text: >-
+    Valentim Martinho Bohrer (P-0028) is listed as Vicente's 3rd child in the Imigrantes
+    compilation (BORER II tree entry 1.1.7.3). His birth date 14/11/1868 is now confirmed
+    from this secondary source.

@@ -1,0 +1,86 @@
+schema_version: 1
+id: F-0033
+partners:
+- person_id: P-0068
+  role: spouse
+- person_id: P-0069
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PUB-0003
+  notes:
+  - text: >-
+      Marriage at Nova Friburgo, 03/07/1820, attested by the Imigrantes de Nova
+      Friburgo compilation (PUB-0003). No primary civil or parish marriage record
+      has been catalogued; this date rests on the secondary compiled source.
+children:
+- person_id: P-0070
+  parent_relationships:
+  - parent_id: P-0068
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PUB-0003
+    notes: []
+  - parent_id: P-0069
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PUB-0003
+    notes: []
+  notes: []
+documented_children:
+- name: José Borer
+  source_ids:
+  - PUB-0003
+  note: "n. 28/03/1821. Married twice: first Luiza Marfurt, then 09/06/1854 Bibiana Heggendorn (daughter of Joseph Heggendorn × Amelie Freese). Not modelled."
+- name: Anna Maria Borer
+  source_ids:
+  - PUB-0003
+  note: "n. 19/06/1822. Married 09/06/1845 × Stefan Wermelinger. Not modelled."
+- name: José Lourenço Borer
+  source_ids:
+  - PUB-0003
+  note: "n. 07/07/1823. Not modelled."
+- name: Anna Maria Borer (2nd)
+  source_ids:
+  - PUB-0003
+  note: "n. 03/05/1825. Married 10/11/1851 × Valentin Freese. Not modelled."
+- name: Justina Borer
+  source_ids:
+  - PUB-0003
+  note: "n. 06/06/1827. Married 13/08/1855 × Louis Singy. Not modelled."
+- name: José Constantino Borer
+  source_ids:
+  - PUB-0003
+  note: "n. 08/09/1829. Not modelled."
+- name: Barbara Elisabeth Borer
+  source_ids:
+  - PUB-0003
+  note: "n. 14/12/1830. Married 16/08/1852 × João Marfurt. Not modelled."
+- name: Regina Borer
+  source_ids:
+  - PUB-0003
+  note: "n. 07/07/1832. Married João Singy. Not modelled."
+- name: Maria Borer
+  source_ids:
+  - PUB-0003
+  note: "n. 27/12/1834. Married 16/08/1852 × José António Singy. Not modelled."
+- name: Thereza Borer
+  source_ids:
+  - PUB-0003
+  note: "n. 25/08/1836. Married 28/04/1856 × José Soares Falcão. Not modelled."
+event_ids:
+- E-0061
+notes:
+- text: >-
+    The compilation gives "ao menos onze filhos" in the main narrative and "doze
+    filhos" in the Casa Suíça DB text — a one-child discrepancy between the two
+    secondary accounts. Eleven children appear in the genealogy tree on p.301 of
+    the compilation; a twelfth may be missing. Vicente (P-0070) is listed as the
+    7th child (entry 1.1.7 in the tree).
+- text: >-
+    "José Joaquim Borer" is also listed in the compilation tree but the entry is
+    partially cut off; he is not modelled. This may account for part of the
+    11-vs-12 discrepancy.

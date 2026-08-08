@@ -462,9 +462,14 @@ people:
       The FamilySearch collaborative profile has displayed a surname spelling
       conflict. Use its sources and images as leads; preserve record spellings.
   - text: >-
-      Parents now documented (F-0013); NEXT for the Bohrer line: the four
-      grandparents' own Nova Friburgo (RJ) vital records (Valentim Martinho
-      Bohrer, Carolina, Joaquim José Bohrer, Lucinda Ferreira da Silva).
+      Parents now documented (F-0013). Valentim Martinho Bohrer's birth date
+      (14/11/1868) is now located via PUB-0003 (Imigrantes compilation, strong-evidence);
+      his parent family F-0034 (Vicente Borer × Maria Heggendorn) and grandparent
+      family F-0033 (Laurent Borer × Anna Maria Werhly) are modelled back to the
+      1819 Heureux Voyage immigrants. NEXT for the Bohrer line: Valentim's NF
+      parish baptism (Fundação D. João VI holds pre-1874 NF registers); Carolina
+      Bohrer's maiden name and birth record; Joaquim José Bohrer's birth/baptism
+      (absent from Imigrantes compilation); Lucinda Ferreira da Silva's birth record.
 - person_id: P-0015
   external_profiles:
   - platform: FamilySearch

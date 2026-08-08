@@ -1,0 +1,39 @@
+schema_version: 1
+id: P-0069
+preferred_name: Anna Maria Werhly
+privacy: deceased
+sex: female
+nationality: Swiss
+name_variants:
+- value: Anna Maria Werhly
+  type: other
+  source_ids:
+  - PUB-0003
+- value: Anne-Marie Wehrli
+  type: other
+  source_ids:
+  - PUB-0003
+- value: Werly
+  type: other
+  source_ids:
+  - PUB-0003
+- value: Verli
+  type: other
+  source_ids:
+  - PUB-0003
+event_ids:
+- E-0061
+family_ids:
+- F-0033
+- F-0035
+notes:
+- text: >-
+    Born 1793 at Grindel, Soleure (Solothurn), Switzerland [PUB-0003, strong-evidence].
+    Exact day of birth unknown. Fifth daughter of Johann Jacob Wehrli (P-0072) ×
+    Elisabetha Borer (P-0073); family F-0035. Emigrated to Brazil in 1819 on the
+    Heureux Voyage, aged approximately 26. Married Laurent Borer (P-0068) on
+    03/07/1820 at Nova Friburgo, Rio de Janeiro. Date of death unknown.
+- text: >-
+    The compilation gives "doze filhos" for this couple in the Casa Suíça DB narrative
+    and "ao menos onze filhos" in the main text — a one-child discrepancy. See F-0033
+    notes for the full count discussion.

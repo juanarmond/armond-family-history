@@ -566,8 +566,15 @@
 2 GIVN Valentim Martinho
 2 SURN Bohrer
 1 SEX M
+1 BIRT
+2 DATE 14 NOV 1868
+2 PLAC Nova Friburgo area, Rio de Janeiro, Brazil
+2 SOUR @PUB0003@
+3 QUAY 2
 1 FAMS @F0013@
+1 FAMC @F0034@
 1 NOTE Ahnentafel position 28 — father of João Gonçalves Bohrer (P-0014). Named as João's father (already deceased) in his 1970 Volta Redonda death (CIV-0014) and as Eunir Bohrer's paternal grandfather in the 1924 Nova Friburgo birth (CIV-0016). No record of his own has been located.
+1 NOTE Birth date confirmed from Imigrantes de Nova Friburgo compilation (PUB-0003, p.301, BORER II tree entry 1.1.7.3): born 14/11/1868. Parent family F-0034 (Vicente Borer × Maria Heggendorn). Both parents are now modelled (P-0070 × P-0071); their parent family F-0033 extends the line to Laurent Borer (P-0068), a Swiss immigrant (Heureux Voyage, 1819, Grindel, Soleure).
 0 @P0029@ INDI
 1 NAME Carolina /Bohrer/
 2 GIVN Carolina
@@ -619,6 +626,7 @@
 1 FAMC @F0024@
 1 NOTE Ahnentafel position 60 — father of Joaquim José Bohrer (P-0030), hence Celina's (P-0015) paternal grandfather. Married Rosa Eugenia de Lemos (P-0035); their marriage was justified and registered at the Nova Friburgo Matriz in 1879 (PAR-0002). Already deceased by 1890, when Alberto Bohrer's birth (CIV-0019) names him "Francisco José Bohrer já falecido".
 1 NOTE Parentage and birthplace RESOLVED (1 August 2026) by his own registered will (PRB-0005, Provedoria de Nova Friburgo, registered 1888): he declares himself "natural deste termo" — i.e. born in the Nova Friburgo comarca — and "filho legitimo de Jacob Bahrer e de Catharina Mayer, já fallecidos" (parents P-0050, P-0051, family F-0024). Nationality is therefore Brazilian (a documented birthplace, not a surname inference); the earlier "immigrant vs Brazilian-born" question is settled — he was Brazilian-born, and the immigrant boundary moves up to his parents Jacob and Catharina. The will also names his wife and their four children (Joaquim, Laura, Guilherme, Fernando) as sole heirs and dates his death to c.1888 (consistent with "já falecido" by 1890).
+1 NOTE Exact death date and cause now confirmed by the Imigrantes de Nova Friburgo compilation (PUB-0003, p.300, BORER I entry 1.1.4): born 04/07/1832, died 06/07/1888, causa mortis insuficiência mitral e dilatação aórtica. The couple lived at "Alto da Serra." The compilation also lists his siblings from Jacob Bohrer × Catharina Mayer/Moser: Catharina Borer n.24/07/1830 (⚭ Frederico Chaboudez), Maria Borer n.21/09/1834 (⚭ Francisco Xavier Chaboudez), Augusto Borer n.10/02/1837, and João José Borer n.10/09/1840 f.16/06/1859 (solteiro). Note: Joaquim José Bohrer (P-0030) is absent from the compilation's child list (it shows only Ludovina, Laura, Guilherme, Fernando); PRB-0005 (the will) is the authoritative source naming Joaquim as firstborn — the compiler likely missed his baptism record.
 0 @P0035@ INDI
 1 NAME Rosa Eugenia de /Lemos/
 2 GIVN Rosa Eugenia de
@@ -852,7 +860,7 @@
 1 SEX M
 1 FAMS @F0024@
 1 NOTE Father of Francisco José Bohrer (P-0034); hence Joaquim José Bohrer's (P-0030) paternal grandfather and Iris Bohrer's Bohrer-line immigrant-boundary ancestor. Named in his son's 1888 registered will (PRB-0005) as "Jacob Bahrer … já fallecido" — deceased before 1888. Preferred name given in the family's stabilised form "Bohrer"; the will spells it "Bahrer".
-1 NOTE Nationality deliberately left unset. Secondary Nova Friburgo colonist-family compilations (a lead, not catalogued) identify him as Jacob Borer, born 1801 at Erschwil (Soleure, Switzerland), who emigrated an orphan and died 1843 at Nova Friburgo, married Catharina Moser in 1825 — i.e. the Swiss-immigrant reading of the line. That Swiss origin is NOT inferred here from the surname or asserted from any primary record; it awaits a Borer baptism/marriage assento or Jacob's c.1843 Nova Friburgo inventário. PRB-0005 evidences only his name, his son's parentage and that he was already dead by 1888.
+1 NOTE Nationality deliberately left unset (Swiss origin is strong-evidence from compilation but not yet primary-confirmed). The Imigrantes de Nova Friburgo compilation (PUB-0003, p.300, BORER I section) and the Casa Suíça database (image read 2026-08-07) identify him as Jacob Borer born c.1801 at Erschwil, Soleure, Switzerland — BORER I, distinct from Laurent Borer (BORER II, P-0068) who came from Grindel. Jacob's Casa/Lote at Nova Friburgo was 70/56 (Laurent's was 73/86 — a useful distinguishing marker). The compilation gives him "9 filhos" total (two died in infancy unrecorded). The DB states he sold his property on 24 April 1843 (likely already infirm; died 1843-44). The Catharina Mayer/Moser surname conflict (PRB-0005 gives "Mayer"; compilation gives "Moser") is unresolved and preserved as a name variant on P-0051. PRB-0005 evidences only his name, his son's parentage and that he was already dead by 1888; primary-record confirmation of Jacob's Swiss origin still awaits his Nova Friburgo inventário or a Swiss baptism/emigration document.
 0 @P0051@ INDI
 1 NAME Catharina /Mayer/
 2 GIVN Catharina
@@ -1008,6 +1016,7 @@
 1 FAMS @F0030@
 1 NOTE Wife of Francisco Leocádio de Toledo (P-0061), family F-0030. Named (with uncertainty) in PRB-0009 (1867 Ladisláo inventário, gen1): "casado que foi com Maria [Joa?]quina de Jesus." The first part of the given name reads "[Joa?]quina" in the cursive — most likely "Joaquina" but the reading is uncertain. Nationality Brazilian; no birthplace or death date is stated in any located record.
 1 NOTE Whether she predeceased Francisco Leocádio is unclear. The PRB-0009 phrase "vivo casado que foi" may indicate he was already a widower ("viúvo") at Ladisláo's death, which would mean Maria Joaquina predeceased him. This reading is uncertain.
+1 NOTE LEAD (2026-08-08, from matilde-1879 inventário transcript, p.260): the 5-agent deep-read of the full inventário transcript reports a certidão at p.260 giving Maria Joaquina de Jesus's death date as 16 April 1866, Fazenda do Socorro. This would make her death consistent with FL being a widower at Ladisláo's inventory (1867). Image verification required before creating a death event — this date comes from the transcript, not from a directly read image.
 0 @P0063@ INDI
 1 NAME António Ladislão de /Toledo/
 2 GIVN António Ladislão de
@@ -1062,6 +1071,101 @@
 1 SEX F
 1 FAMS @F0032@
 1 NOTE Maternal grandmother of Ignez Francisca de Lima (P-0060); named in the 1777 Piracatu baptism of her granddaughter Maria (PAR-0025) as "Maria Francisca Cordeira, natural da Villa de Ouru [Ouro?], Bispado de S. Paulo" — possibly Villa Rica de Ouro Preto or another settlement in the Bispado de São Paulo; reading uncertain. Wife of João Rodrigues de Mello (P-0066). Her own birth, marriage and death records have not been located.
+0 @P0068@ INDI
+1 NAME Laurent /Borer/
+2 GIVN Laurent
+2 SURN Borer
+1 NAME Lorenz /Borer/
+2 TYPE AKA
+2 SOUR @PUB0003@
+1 SEX M
+1 BIRT
+2 DATE 27 FEB 1797
+2 PLAC Grindel, Soleure (Solothurn), Switzerland
+2 SOUR @PUB0003@
+3 QUAY 2
+1 FAMS @F0033@
+1 NOTE BORER II in the Imigrantes de Nova Friburgo compilation (Henrique Bon), distinct from Jacob Borer (P-0050, BORER I), who originates from Erschwil and held Casa/Lote 70/56. Laurent originates from Grindel and held Casa/Lote 73/86. The two families shared the Heureux Voyage but were allocated different lots and are not proven to be closely related. The compilation states "não há evidência de parentesco próximo entre os dois grupos."
+1 NOTE Father named as "certo Jacob Borer, de Grindel, Soleure" in the compilation (PUB-0003). The qualifier "certo" reflects the compiler's own hedged confidence in this attribution. The Grindel parish register images in the retrieval drop show a "Joannes Borer × Ana Maria Werli" baptising a daughter in 1782 — a strong lead for Laurent's parentage but not yet confirmed as the same individual. No parent family in this repository; the father is noted here only.
+1 NOTE Emigrated to Brazil in 1819 on the ship Heureux Voyage. Settled at Nova Friburgo, Rio de Janeiro, occupying Casa 73, Lote 86. Married Anna Maria Werhly (P-0069) on 03/07/1820 at Nova Friburgo. Probably died in the vale do Macaé area, Nova Friburgo; date of death unknown.
+0 @P0069@ INDI
+1 NAME Anna Maria /Werhly/
+2 GIVN Anna Maria
+2 SURN Werhly
+1 NAME Anne-Marie /Wehrli/
+2 TYPE AKA
+2 SOUR @PUB0003@
+1 NAME Werly //
+2 TYPE AKA
+2 SOUR @PUB0003@
+1 NAME Verli //
+2 TYPE AKA
+2 SOUR @PUB0003@
+1 SEX F
+1 FAMS @F0033@
+1 FAMC @F0035@
+1 NOTE Born 1793 at Grindel, Soleure (Solothurn), Switzerland [PUB-0003, strong-evidence]. Exact day of birth unknown. Fifth daughter of Johann Jacob Wehrli (P-0072) × Elisabetha Borer (P-0073); family F-0035. Emigrated to Brazil in 1819 on the Heureux Voyage, aged approximately 26. Married Laurent Borer (P-0068) on 03/07/1820 at Nova Friburgo, Rio de Janeiro. Date of death unknown.
+1 NOTE The compilation gives "doze filhos" for this couple in the Casa Suíça DB narrative and "ao menos onze filhos" in the main text — a one-child discrepancy. See F-0033 notes for the full count discussion.
+0 @P0070@ INDI
+1 NAME Vicente /Borer/
+2 GIVN Vicente
+2 SURN Borer
+1 SEX M
+1 BIRT
+2 DATE 06 SEP 1828
+2 PLAC Nova Friburgo area, Rio de Janeiro, Brazil (born in Brazil; exact location not stated)
+2 SOUR @PUB0003@
+3 QUAY 2
+1 FAMC @F0033@
+1 FAMS @F0034@
+1 NOTE Vicente is Laurent Borer's 6th son per the Casa Suíça DB (BORER II line). He was born in Brazil, confirming the immigration boundary at his father Laurent (P-0068). The Imigrantes compilation gives no middle name; 'Lourenço' as a middle name appears only in blog sources and is not confirmed here.
+1 NOTE The compilation confirms 'Maria Heggendorn' as Vicente's wife but does not give her the name 'Thecla Regina' or a birth date — those details appear only in blog/collaborative-tree sources and are not confirmed by PUB-0003.
+0 @P0071@ INDI
+1 NAME Maria /Heggendorn/
+2 GIVN Maria
+2 SURN Heggendorn
+1 SEX F
+1 FAMS @F0034@
+1 NOTE Parents per Imigrantes compilation (PUB-0003, p.301): 'filha de Joseph Heggendorn × Maria (Maria Amélia?) Freese.' The same Joseph Heggendorn × Amelie (Anna Maria) Freese couple appears as the parents of Bibiana Heggendorn (who married Vicente's brother José Borer in 1854) — suggesting Maria and Bibiana were sisters. Neither Joseph Heggendorn nor Maria Freese is yet modelled in this repository.
+1 NOTE The names 'Thecla Regina' and birth date '23 Nov 1844' appear in blog/collaborative-tree sources; not confirmed by any primary or record-citing secondary source in this drop. Recorded as unconfirmed.
+0 @P0072@ INDI
+1 NAME Johann Jacob /Wehrli/
+2 GIVN Johann Jacob
+2 SURN Wehrli
+1 NAME Johann-Jacob /Wehrli/
+2 TYPE AKA
+2 SOUR @PUB0003@
+1 NAME Jacobus /Wehrli/
+2 TYPE AKA
+2 SOUR @PUB0003@
+1 SEX M
+1 DEAT
+2 DATE 28 MAY 1827
+2 PLAC Nova Friburgo, Rio de Janeiro, Brazil
+2 SOUR @PUB0003@
+3 QUAY 2
+1 OCCU agricultor
+2 SOUR @PUB0003@
+1 FAMS @F0035@
+1 NOTE Patriarch of the Wehrli immigrant family in Nova Friburgo. Arrived on the Heureux Voyage in 1819 with his wife Elisabetha Borer (P-0073) and most of their children, including Anna Maria (P-0069), Laurent Borer's future wife.
+1 NOTE Born 17 January 1751, Grindel, Soleure (Solothurn), Switzerland (PUB-0003, strong-evidence — Casa Suíça DB entry). Casa Suíça DB lists his age at arrival (1819) as 49 — a database error; born 1751, he was actually ~68 in 1819. The DB narrative text correctly states '68 anos.'
+1 NOTE His daughter Anna Maria Werhly (P-0069) married Laurent Borer (P-0068) on the same day — 03/07/1820 — as his daughter Salomé married Louis Nicolas Villette. The Wehrli and Borer families were closely linked (Elisabetha Borer's surname suggests kinship with Laurent's father's family).
+0 @P0073@ INDI
+1 NAME Elisabetha /Borer/
+2 GIVN Elisabetha
+2 SURN Borer
+1 NAME Elisa /Borer/
+2 TYPE AKA
+2 SOUR @PUB0003@
+1 SEX F
+1 DEAT
+2 DATE 10 OCT 1832
+2 PLAC Nova Friburgo, Rio de Janeiro, Brazil
+2 SOUR @PUB0003@
+3 QUAY 2
+1 FAMS @F0035@
+1 NOTE Wife of Johann Jacob Wehrli (P-0072). Her surname 'Borer' may indicate kinship with the Borer immigrant families (BORER I Jacob Borer and BORER II Laurent Borer), but this is not confirmed — the Borer surname was common in the Grindel/Soleure area.
+1 NOTE Named 'Elisa Borer' in the Casa Suíça DB narrative and 'Elisabetha Borer' in the Grindel marriage register. Both forms preserved.
 0 @DOCF0001_1@ INDI
 1 NAME Aristides Muniz /Bittencourt/
 2 GIVN Aristides Muniz
@@ -1435,6 +1539,186 @@
 1 NOTE Documented child, not individually modelled.
 2 SOUR @PAR0026@
 1 NOTE Capitão Cezário José da Silva Lima, confirmed son of Amaro da Silva Xavier × Ignez Francisca de Lima by the 1838 baptism certidão of his daughter Carolina (PAR-0026). The same individual appears as a witness ("Furriel Cezário José da Silva alias Cezário José da Silva Lima") at the 1810 Ladisláo × Mathilde marriage (PAR-0023). He married Dona Joanna Umbelina de Jesus (PAR-0026).
+0 @DOCF0033_1@ INDI
+1 NAME José /Borer/
+2 GIVN José
+2 SURN Borer
+1 SEX U
+1 FAMC @F0033@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE n. 28/03/1821. Married twice: first Luiza Marfurt, then 09/06/1854 Bibiana Heggendorn (daughter of Joseph Heggendorn × Amelie Freese). Not modelled.
+0 @DOCF0033_2@ INDI
+1 NAME Anna Maria /Borer/
+2 GIVN Anna Maria
+2 SURN Borer
+1 SEX U
+1 FAMC @F0033@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE n. 19/06/1822. Married 09/06/1845 × Stefan Wermelinger. Not modelled.
+0 @DOCF0033_3@ INDI
+1 NAME José Lourenço /Borer/
+2 GIVN José Lourenço
+2 SURN Borer
+1 SEX U
+1 FAMC @F0033@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE n. 07/07/1823. Not modelled.
+0 @DOCF0033_4@ INDI
+1 NAME Anna Maria Borer /(2nd)/
+2 GIVN Anna Maria Borer
+2 SURN (2nd)
+1 SEX U
+1 FAMC @F0033@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE n. 03/05/1825. Married 10/11/1851 × Valentin Freese. Not modelled.
+0 @DOCF0033_5@ INDI
+1 NAME Justina /Borer/
+2 GIVN Justina
+2 SURN Borer
+1 SEX U
+1 FAMC @F0033@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE n. 06/06/1827. Married 13/08/1855 × Louis Singy. Not modelled.
+0 @DOCF0033_6@ INDI
+1 NAME José Constantino /Borer/
+2 GIVN José Constantino
+2 SURN Borer
+1 SEX U
+1 FAMC @F0033@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE n. 08/09/1829. Not modelled.
+0 @DOCF0033_7@ INDI
+1 NAME Barbara Elisabeth /Borer/
+2 GIVN Barbara Elisabeth
+2 SURN Borer
+1 SEX U
+1 FAMC @F0033@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE n. 14/12/1830. Married 16/08/1852 × João Marfurt. Not modelled.
+0 @DOCF0033_8@ INDI
+1 NAME Regina /Borer/
+2 GIVN Regina
+2 SURN Borer
+1 SEX U
+1 FAMC @F0033@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE n. 07/07/1832. Married João Singy. Not modelled.
+0 @DOCF0033_9@ INDI
+1 NAME Maria /Borer/
+2 GIVN Maria
+2 SURN Borer
+1 SEX U
+1 FAMC @F0033@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE n. 27/12/1834. Married 16/08/1852 × José António Singy. Not modelled.
+0 @DOCF0033_10@ INDI
+1 NAME Thereza /Borer/
+2 GIVN Thereza
+2 SURN Borer
+1 SEX U
+1 FAMC @F0033@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE n. 25/08/1836. Married 28/04/1856 × José Soares Falcão. Not modelled.
+0 @DOCF0034_1@ INDI
+1 NAME José Domingos Borer, /n.19/03/1864/
+2 GIVN José Domingos Borer,
+2 SURN n.19/03/1864
+1 SEX U
+1 FAMC @F0034@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE Born ~3 weeks before parents' 11 April 1864 civil marriage; place: São José do Ribeirão. Not modelled.
+0 @DOCF0034_2@ INDI
+1 NAME Maria Elisabeth Borer, /n.15/12/1866/
+2 GIVN Maria Elisabeth Borer,
+2 SURN n.15/12/1866
+1 SEX U
+1 FAMC @F0034@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE Not modelled.
+0 @DOCF0034_3@ INDI
+1 NAME Vicente Borer (Jr.), /n.16/04/1871/
+2 GIVN Vicente Borer (Jr.),
+2 SURN n.16/04/1871
+1 SEX U
+1 FAMC @F0034@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE Not modelled.
+0 @DOCF0035_1@ INDI
+1 NAME Henri /Wehrli/
+2 GIVN Henri
+2 SURN Wehrli
+1 SEX U
+1 FAMC @F0035@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE b. ~1782. Eldest son; arrived NF 1819, aged 37. Married in Europe × Sophorosine Marie Borer?; d. 23/06/1865. Not modelled.
+0 @DOCF0035_2@ INDI
+1 NAME Salomé /Wehrli/
+2 GIVN Salomé
+2 SURN Wehrli
+1 SEX U
+1 FAMC @F0035@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE b. ~1785. Married Brazil 03/07/1820 × Louis Nicolas Villette (same date as Anna Maria's wedding). Not modelled.
+0 @DOCF0035_3@ INDI
+1 NAME Catherine /Wehrli/
+2 GIVN Catherine
+2 SURN Wehrli
+1 SEX U
+1 FAMC @F0035@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE b. ~1790. Married in the Netherlands × Johann Borer (BORER III, probably her cousin). Not modelled.
+0 @DOCF0035_4@ INDI
+1 NAME Sophrosine /Wehrli/
+2 GIVN Sophrosine
+2 SURN Wehrli
+1 SEX U
+1 FAMC @F0035@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE b. ~1794. Arrived NF 1819 aged 25. Not modelled.
+0 @DOCF0035_5@ INDI
+1 NAME Elise /Wehrli/
+2 GIVN Elise
+2 SURN Wehrli
+1 SEX U
+1 FAMC @F0035@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE b. ~1795. 'Não embarcou' — stayed in Europe despite being listed on the manifest. Not modelled.
+0 @DOCF0035_6@ INDI
+1 NAME Jacques /Wehrli/
+2 GIVN Jacques
+2 SURN Wehrli
+1 SEX U
+1 FAMC @F0035@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE b. ~1801. Arrived NF 1819 aged 18. Married 05/08/1833 × Anna Maria Vogt. Not modelled.
+0 @DOCF0035_7@ INDI
+1 NAME Joseph /Wehrli/
+2 GIVN Joseph
+2 SURN Wehrli
+1 SEX U
+1 FAMC @F0035@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE b. ~1805. Arrived NF 1819 aged 14. Married 15/04/1828 × Margueritte Montavon. Not modelled.
 0 @F0001@ FAM
 1 HUSB @P0012@
 1 WIFE @P0013@
@@ -1727,6 +2011,7 @@
 1 NOTE Parents of José Cezário de Toledo Lima (P-0054), who is the father of Eliza Balbina de Toledo (P-0017), who married Simplício José Ferreira Armond (P-0016). Mathilde's grandparent role in the direct line passes through JC → Eliza → the Armond family. CORRECTION (7 August 2026): an intermediate session incorrectly stated that Simplício Armond (not Eliza) was JC's child; corrected same day once PRB-0006 Film 2 triage confirmed Eliza as JC's daughter (see F-0026, P-0017).
 1 NOTE Per PRB-0009 (1867 Ladisláo inventário), Ladisláo and Mathilde had at least eight children: (1) Maria Perpétua (⚭ Antonio Zeferino de Toledo); (2) Ignez Mettelina (⚭ João? Pedro da Silva); (3) Carolina Leopoldina Marques (⚭ Narcísio Marques Braz); (4) Francisco Leocádio — modelled as P-0061; (5) Aureliano de Sales Toledo; (6) Cezário [José] de Toledo; (7) António Ladislão de Toledo (surdo e mudo) — modelled as P-0063 (died 11 Feb 1909, CIV-0024); (8) José Cesário de Toledo Lima (P-0054, direct line). Items 1, 2, 3, 5 and 6 are documented_children; items 4, 7 and 8 are structured children. Note: the earlier entry wrongly listed item 1's husband (Antonio Zeferino de Toledo) as the child; corrected 7 August 2026 when PRB-0009-gen1 was read directly — Maria Perpétua da Silva is the child.
 1 NOTE MATERIAL CONFLICT (2026-08-08, conflict #15): the 1882 embargos judgment transcript (ladislao-1867-part05-pp309-387.md, p.383) reads "D. Maria Joaquina de Jesus, mulher de Francisco Leocadio de Toledo, sobreviveu ao seu pai Ladislão Eygidio Ferreira de Toledo." This places Maria Joaquina as Ladisláo's DAUGHTER and Francisco Leocádio (P-0061) as son-in-law — not a son. This contradicts PRB-0009-gen1 which lists FL as child #4. Do not restructure P-0061's placement in this family until the p.383 image is verified. See STATUS.md material conflict #15.
+1 NOTE LEADS from 2026-08-08 inventário transcript (5-agent deep-read; image verification required before promoting any of these): (a) Two additional possible children of Ladisláo × Mathilde found in partilha precatórias: "Marianna Claudina × Francisco Mendes Ferreira" and "Francisca Amelia × José Mendes Pereira Junior" — would bring the total to 10 children; not yet added as documented_children pending image verification. (b) Aureliano de Sales Toledo appears to have had a second wife: "D. Francisca de Paula Candida" — identified in the transcript; this may explain the conflict between PRB-0009 ("Marciana/Marianna") and PRB-0006 p5b ("Marianna Euphragia, já fallecida") if Marianna Euphragia was the first wife (dead by 1879) and Francisca the second. (c) Narcizo Marques Braz (husband of Carolina Leopoldina Marques, documented_child): b. ~1822, Freq. Santa Marinha, Porto, Portugal; died c. 15 October 1880, Fazenda da Concórdia — from the transcript; image needed. (d) Partition of the Matilde estate was formally closed 3 November 1885.
 0 @F0028@ FAM
 1 HUSB @P0057@
 1 WIFE @P0058@
@@ -1780,6 +2065,61 @@
 3 QUAY 3
 1 SOUR @PAR0025@
 1 NOTE Parents of Ignez Francisca de Lima (P-0060). Named as maternal grandparents in the 1777 Piracatu baptism of their granddaughter Maria (PAR-0025). João Rodrigues de Mello (P-0066) is from Viana, Portugal (Arcebispado de Braga); Maria Francisca Cordeira (P-0067) is from Villa de Ouro [Ouro?], Bispado de São Paulo. Their own marriage and birth records have not been located; other children not attested.
+0 @F0033@ FAM
+1 HUSB @P0068@
+1 WIFE @P0069@
+1 CHIL @P0070@
+1 CHIL @DOCF0033_1@
+1 CHIL @DOCF0033_2@
+1 CHIL @DOCF0033_3@
+1 CHIL @DOCF0033_4@
+1 CHIL @DOCF0033_5@
+1 CHIL @DOCF0033_6@
+1 CHIL @DOCF0033_7@
+1 CHIL @DOCF0033_8@
+1 CHIL @DOCF0033_9@
+1 CHIL @DOCF0033_10@
+1 MARR
+2 DATE 03 JUL 1820
+2 PLAC Nova Friburgo, Rio de Janeiro, Brazil
+2 SOUR @PUB0003@
+3 QUAY 2
+1 SOUR @PUB0003@
+1 NOTE The compilation gives "ao menos onze filhos" in the main narrative and "doze filhos" in the Casa Suíça DB text — a one-child discrepancy between the two secondary accounts. Eleven children appear in the genealogy tree on p.301 of the compilation; a twelfth may be missing. Vicente (P-0070) is listed as the 7th child (entry 1.1.7 in the tree).
+1 NOTE "José Joaquim Borer" is also listed in the compilation tree but the entry is partially cut off; he is not modelled. This may account for part of the 11-vs-12 discrepancy.
+0 @F0034@ FAM
+1 HUSB @P0070@
+1 WIFE @P0071@
+1 CHIL @P0028@
+1 CHIL @DOCF0034_1@
+1 CHIL @DOCF0034_2@
+1 CHIL @DOCF0034_3@
+1 MARR
+2 DATE 11 APR 1864
+2 PLAC Nova Friburgo, Rio de Janeiro, Brazil (inferred from context; not explicitly stated in compilation)
+2 SOUR @PUB0003@
+3 QUAY 2
+1 SOUR @PUB0003@
+1 NOTE Valentim Martinho Bohrer (P-0028) is listed as Vicente's 3rd child in the Imigrantes compilation (BORER II tree entry 1.1.7.3). His birth date 14/11/1868 is now confirmed from this secondary source.
+0 @F0035@ FAM
+1 HUSB @P0072@
+1 WIFE @P0073@
+1 CHIL @P0069@
+1 CHIL @DOCF0035_1@
+1 CHIL @DOCF0035_2@
+1 CHIL @DOCF0035_3@
+1 CHIL @DOCF0035_4@
+1 CHIL @DOCF0035_5@
+1 CHIL @DOCF0035_6@
+1 CHIL @DOCF0035_7@
+1 MARR
+2 DATE 27 JAN 1782
+2 PLAC Grindel, Soleure (Solothurn), Switzerland
+2 SOUR @PUB0003@
+3 QUAY 2
+1 SOUR @PUB0003@
+1 NOTE The patriarch Johann Jacob Wehrli (P-0072) and his wife Elisabetha Borer (P-0073) emigrated to Brazil in 1819 on the Heureux Voyage together with most of their children, including Anna Maria (P-0069). The patriarch died at Nova Friburgo on 28 May 1827; his wife died at Nova Friburgo on 10 October 1832.
+1 NOTE Marianne and Elise Wehrli did not embark ("não embarcaram") despite being listed on the manifest — they stayed in Europe. The Casa Suíça DB lists nine children who emigrated. Anna Maria (P-0069) was the 5th daughter.
 0 @REPO0001@ REPO
 1 NAME FamilySearch Memories
 0 @REPO0002@ REPO
@@ -1831,6 +2171,8 @@
 0 @REPO0025@ REPO
 1 NAME Juízo Municipal e de Órfãos, Concórdia, Districto do Rio Pardo, Minas Gerais (inventário de Ladisláo Egídio Ferreira de Toledo)
 0 @REPO0026@ REPO
+1 NAME Fundação D. João VI / Arquivo Pró-Memória, Nova Friburgo, RJ
+0 @REPO0027@ REPO
 1 NAME Armond Family History private repository
 0 @CIV0001@ SOUR
 1 TITL Certified marriage record of Deocleciano Muniz Bittencourt and Luiza Fernandes de Azevedo
@@ -2404,10 +2746,18 @@
 1 NOTE Archival reference: FamilySearch retrieval; read and promoted 7 August 2026. Five pages catalogued: cover/title page (gen1), pp. 2–5.
 1 NOTE Repository file: evidence/probate/PRB-0009-ladislao-toledo-inventario-1867-gen1.jpg
 1 OBJE @OBJPRB0009@
+0 @PUB0003@ SOUR
+1 TITL Imigrantes de Nova Friburgo — genealogias: BORER I, BORER II, WEHRLI sections (Henrique Bon compiler)
+1 TEXT Genealogical compilation for Nova Friburgo Swiss-German immigrant families. Pp.300-301 cover BORER I (Jacob Borer b.1801 Erschwil — Francisco José Bohrer's line) and BORER II (Laurent Borer b.1797 Grindel — Valentim Martinho Bohrer's line). Pp.302-303 cover BORER III (unrelated Johann Borer b.1792 Erschwil line). The Casa Suíça database entries and WEHRLI section document Johann Jacob Wehrli × Elisabetha Borer as the parents of Anna Maria Werhly, Laurent's wife, with primary confirmation of their 1782 Grindel marriage from the Swiss parish register (image rec-bohrer-werly-borer-marriages-grindel-1780.jpg, entry 4, page 71).
+1 REPO @REPO0026@
+2 CALN Imigrantes de Nova Friburgo — genealogias; Henrique Bon (compiler), livro Pages 300–303 — BORER I (Jacob b.1801 Erschwil) and BORER II (Laurent b.1797 Grindel) genealogy trees; Casa Suíça database entries for Laurent, Vicente, Anna Maria Wehrli, and Johann Jacob Wehrli
+1 NOTE Evidence classification: published_genealogy; authored_narrative; information secondary; indirect evidence.
+1 NOTE Transcription: [p.300 — BORER (I), Jacob b.1801 Erschwil → Francisco José's line:] "1.1.4. Francisco José Borer — n. 04/07/1832, f. 06/07/1888, causa mortis: insuficiência mitral e dilatação aórtica. ... O casal morava no Alto da Serra." Children listed: Ludovina n.21/07/1862 f.27/12/1862 (infant); Laura n.16/08/1866; Guilherme n.06/04/1868; Fernando n.03/01/1872 cas.06/05/1911 × Julia de Oliveira Cerbino. ⚠ Joaquim José absent from this list (conflict with PRB-0005 will, which names him as firstborn — compiler apparently missed his baptism record). Francisco José's siblings: Catharina n.24/07/1830 f.16/01/1872 (⚭ Frederico Chaboudez); Maria n.21/09/1834 (⚭ Francisco Xavier Chaboudez); Augusto n.10/02/1837; João José n.10/09/1840 f.16/06/1859 (solteiro). Jacob Borer (Patriarca, BORER I) assigned Casa/Lote 70/56 per DB. [pp.300-301 — BORER (II), Laurent b.1797 Grindel → Vicente → Valentim line:] "Laurent Borer, filho de certo Jacob Borer, de Grindel, Soleure, veio aparentemente só para o Brasil … embarcaria ele no Heureux Voyage, ocupando em Nova Friburgo a casa 73 e o lote 86. Nesta vila viria a se casar em 3 de julho de 1820, com Anna Maria Werhly …" Compilation counts "ao menos onze filhos"; Casa Suíça DB narrative gives "doze filhos" — one-child discrepancy noted. Children genealogy tree p.301 (selected): José n.28/03/1821; Anna Maria n.19/06/1822; José Lourenço n.07/07/1823; Anna Maria (2nd) n.03/05/1825; Justina n.06/06/1827; José Joaquim [entry cut off]; Vicente n.06/09/1828 ⚭ 11/04/1864 × Maria Heggendorn (filha de Joseph Heggendorn × Maria (Maria Amélia?) Freese); José Constantino n.08/09/1829; Barbara Elisabeth n.14/12/1830; Regina n.07/07/1832; Maria n.27/12/1834; Thereza n.25/08/1836. Vicente's children: José Domingos n.19/03/1864; Maria Elisabeth n.15/12/1866; Valentim Martinho n.14/11/1868; Vicente n.16/04/1871. Note: José Domingos born ~3 weeks before parents' 11 April 1864 civil marriage. [WEHRLI — Casa Suíça DB entries:] Johann Jacob Wehrli, patriarca, b.17/01/1751 Grindel, Soleure; profession: agricultor; arrived 1819 on Heureux Voyage, Casa/Lote 73/86; married Elisabetha Borer [27 Jan 1782 per Swiss marriage register primary image]; died NF 28/05/1827. Anna Maria Werhly, 5th daughter, b.1793 Grindel, Solothurn; arrived 1819 Heureux Voyage; married Laurent Borer 03/07/1820 NF; 12 children. [p.302 — BORER (III), Johann b.01/08/1792 Erschwil — DISTINCT from our family:] Descendants use "Borer" surname; no proven kinship with Borer I or Borer II.
+1 NOTE Archival reference: Henrique Bon (compiler), Imigrantes de Nova Friburgo — genealogias, pp.300–303. The compilation draws on Nova Friburgo parish registers, civil records, and the Fundação D. João VI archives. Images in the 2026-08-07 retrieval drop, to be archived in evidence/publications/ when the owner transfers them from the research/from-retrieval/ area.
 0 @REC0001@ SOUR
 1 TITL Direct-ancestor roster supplied by Juan Carlos Muniz Armond
 1 TEXT The repository owner identified himself, his parents, and the deceased direct ancestors used to initialise Ahnentafel positions 1 through 15. This source supports the private working roster and preferred-name spellings only; it does not substitute for civil or parish evidence of vital events or relationships.
-1 REPO @REPO0026@
+1 REPO @REPO0027@
 1 NOTE Evidence classification: family_recollection; authored_narrative; information mixed; direct evidence.
 1 NOTE Transcription: [Owner-supplied direct-ancestor roster, July 2026. Verbal/written family information consolidated from the project conversation; no scanned document exists. Content summarised below as recollected by Juan Carlos Muniz Armond.] Direct ancestors identified by the repository owner at project start (Ahnentafel positions 1–15): Position 1 — Juan Carlos Muniz Armond (self, living; b. Volta Redonda, RJ, 1982) Position 2 — [Father; living; name withheld — see P-0002] Position 3 — [Mother; living; name withheld — see P-0003] Position 4 — Geraldo Paz Armond (paternal grandfather; d. 1991, Volta Redonda) Position 5 — Cidália Engrácio Guimarães (paternal grandmother) Position 6 — [Maternal grandfather; name withheld — see P-0006] Position 7 — [Maternal grandmother; name withheld — see P-0007] Position 8 — Aristão Ferreira Armond (paternal great-grandfather; d. 1957, Volta Redonda) Position 9 — Eliza Balbina de Toledo (paternal great-grandmother) Position 10 — António Engrácio de Souza (maternal great-grandfather) Position 11 — Luzia Pinheiro da Conceição (maternal great-grandmother) Position 12 — [Maternal great-grandfather — see P-0012] Position 13 — [Maternal great-grandmother — see P-0013] Position 14 — [Maternal great-grandfather — see P-0014] Position 15 — [Maternal great-grandmother — see P-0015] [Names at positions 6–7 and 12–15 involve living or near-living persons and are withheld from this transcription; the structured person entities contain the appropriate privacy settings. Each assertion above requires independent civil or parish source corroboration — see individual person entities.]
 1 NOTE Repository file: STATUS.md
