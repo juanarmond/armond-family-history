@@ -5,6 +5,23 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Mathilde death event, Armond leads, FL conflict flag (2026-08-08 fourth pass)
+
+- **E-0059** (new): Mathilde Maria de Jesus death, 12 March 1879, confirmed from
+  PRB-0006 folio 6 juramento; record-coverage for P-0027 death updated to `catalogued`.
+- **P-0027**: added death date note (12 March 1879) and Capitão Manoel Rodrigues de
+  Lima uncle relationship (from certidão pp. 154–155 of the inventário transcript);
+  corroborates Ignez Francisca de Lima (P-0060) as Mathilde's mother.
+- **Material conflict #15** flagged (STATUS.md, P-0061, F-0027): 1882 embargos judgment
+  (p. 383) places Maria Joaquina as Ladisláo's daughter and Francisco Leocádio as
+  son-in-law — contradicts PRB-0009-gen1 item 4. Image verification pending.
+- **P-0016 record-coverage**: two critical Armond leads added from 2026-08-08 transcripts:
+  "Ladislao Egidio [?Armonde]" signature (p. 150, 1873) and "[Philos?] José Ferreira
+  Armond" as FL's daughter's husband (p. 258, 1880).
+- **Test fix**: `test_relative_markdown_links_resolve` now skips `research/from-retrieval/`
+  (gitignored retrieval-agent working area whose OCR transcripts contain link-like artifacts).
+- GEDCOM regenerated (7.0, 2704 lines).
+
 ### Corrected — two-Simplícios error and CIV-0013 transcription (2026-08-07 third pass)
 
 The second pass of 2026-08-07 introduced a systematic error by misidentifying

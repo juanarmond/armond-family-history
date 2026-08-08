@@ -46,6 +46,9 @@ class DocumentationTests(unittest.TestCase):
         for document in PROJECT_ROOT.rglob("*.md"):
             if ".git" in document.parts or ".venv" in document.parts:
                 continue
+            # skip gitignored retrieval-agent working area (overwritten on re-sync)
+            if "from-retrieval" in document.parts:
+                continue
             for target in MARKDOWN_LINK.findall(
                 document.read_text(encoding="utf-8")
             ):

@@ -25,6 +25,7 @@ name_variants:
   - CIV-0024
 event_ids:
 - E-0052
+- E-0059
 family_ids:
 - F-0029
 - F-0027
@@ -47,16 +48,23 @@ notes:
     citation — the baptism image has not yet been retrieved. Her parents' own
     vital records have not been located.
 - text: >-
-    Grandmother (avó) of the Toledo grandchildren who inherited the Fazenda da
-    Concórdia estate, per the 1877 deed (PRB-0003: "sua finada avó Dona Mathildes
-    Maria de Jesus"), the 1881 partilha (PRB-0001, the "Primeiros Nettos" heir
-    list) and the 1884 petition (PRB-0002, in which Simplício petitions as heir
-    of the late D. Mathilde Maria de Jezus). Eliza Balbina de Toledo (P-0017) is
-    one of those grandchildren, so Mathilde is Eliza's grandmother — resolving the
-    mother-vs-grandmother question flagged on PRB-0001. She had died by the 1881
-    inventory (d. ~1880). CONFIRMED alive March 1867: PRB-0009-p5 records her signing
-    the Termo de Louvaçao (10 March 1867) in person at the Concórdia proceedings for
-    Ladisláo's estate — consistent with her ~1880 death date.
+    Death date: 12 March 1879. Confirmed from the opening juramento of her own 1879
+    Leopoldina estate inventory (PRB-0006, folio 6 — already catalogued as PRB-0006):
+    the inventariante Cezário José de Toledo swore on 28 April 1879 that she "faleceu
+    em o dia doze de Março proximo passado." Death event E-0059 created. Her estate
+    was opened six weeks after her death. Grandmother (avó) of the Toledo grandchildren
+    who inherited the Fazenda da Concórdia estate, per the 1877 deed (PRB-0003), the
+    1881 partilha (PRB-0001), and the 1884 petition (PRB-0002). Eliza Balbina de Toledo
+    (P-0017) is one of those grandchildren. Confirmed alive March 1867: PRB-0009-p5
+    records her signing the Termo de Louvaçao in person at the Concórdia proceedings.
+    ALSO: the retrieval agent's transcript of the Matilde 1879 inventário (pp.154–155,
+    2026-08-08) contains a certidão: Capitão Manoel Rodrigues de Lima (São José d'El Rei)
+    donated the enslaved woman Martinha to "minha sobrinha Mathilde Maria de Jesus" —
+    Mathilde is therefore the Capitão's niece. The Capitão bought Martinha from "minha
+    [irmã?] Dona Francisca de Lima" — if "irmã" (sister) is the correct read, Francisca
+    de Lima is the Capitão's sister AND Mathilde's mother, corroborating that Mathilde's
+    mother was Ignez Francisca de Lima (P-0060). The "[maã?/irmã?]" word is uncertain
+    in the transcript and requires image verification.
 - text: >-
     Intervening generation NAMED (1 August 2026) by her own 1879 Leopoldina estate
     inventory (PRB-0006): Eliza's parent is Mathilde's son José Cezário de Toledo

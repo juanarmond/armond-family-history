@@ -621,6 +621,22 @@ people:
       Aristão's sister. Catalogued as CIV-0013 (image in evidence/civil/); the
       FamilySearch/portal citation and registration city are still to be firmed
       up.
+  - text: >-
+      2026-08-08 (Ladisláo inventário transcript, p.150): at the 1873 partition
+      notification of the Ladisláo estate, the signatory list includes "Ladislao
+      Egidio [?Ferre] [?Armonde]" alongside Simplício and Eliza — possibly
+      Simplício's father (two Armond × Toledo generations in the same proceeding).
+      Reading uncertain; image verification required before promoting. This is a
+      critical lead for Simplício Armond's parentage; the image is in the retrieval
+      agent's drop (ladislao-1867 transcript series, 2026-08-08).
+  - text: >-
+      2026-08-08 (Ladisláo inventário transcript, p.258): a 1880 declaration by
+      Francisco Leocádio de Toledo names a daughter married to "[Philos?] José [?]
+      Ferreira Armond." If confirmed, this is a second Armond × Toledo marriage in
+      the same generation as Simplício × Eliza, and "[Philos?] José Ferreira Armond"
+      may be a sibling or cousin of Simplício. Reading uncertain; image verification
+      required. Both Armond leads are the highest-priority images to retrieve and
+      verify from the 2026-08-08 drop.
 - person_id: P-0017
   external_profiles: []
   records:
@@ -1280,27 +1296,31 @@ people:
       (Barbacena Piedade baptism series, 1795 range).
     notes: []
   - record_type: death
-    status: lead_only
-    source_ids: []
-    last_reviewed: "2026-08-07"
+    status: catalogued
+    source_ids:
+    - PRB-0006
+    last_reviewed: "2026-08-08"
     next_action: >-
-      PRB-0001 (1881 partilha) and PRB-0002 (1884 petition) both refer to her as
-      deceased ("finada Mathildes Maria de Jesus"). Alive March 1867; deceased by
-      1877 (PRB-0003). Death circa 1877 or after. Search Concórdia / Rio Pardo
-      civil death registers 1877–1881 for the specific act.
+      CONFIRMED: died 12 March 1879 per the opening juramento of her own inventário
+      (PRB-0006, folio 6): "faleceu em o dia doze de Março proximo passado" — sworn
+      28 April 1879 by inventariante Cezário José de Toledo. Death event E-0059
+      created (2026-08-08). No separate civil registration of the death is known;
+      the inventário juramento is the primary evidence.
     notes:
     - text: >-
         Alive 10 March 1867 (PRB-0009-p5: signed the Termo de Louvaçao in person
-        at Concórdia). Deceased by 1881 (PRB-0001: "finada Mathilde"). Deceased
-        by 1877 per PRB-0003 ("sua finada avó Dona Mathildes Maria de Jesus").
+        at Concórdia). Died 12 March 1879: confirmed from PRB-0006 folio 6 juramento
+        (sworn 28 April 1879). Death event E-0059. Earlier estimate "circa 1877 or
+        after" (based on PRB-0003) is superseded by this primary judicial record.
   notes:
   - text: >-
       Mathilde Maria de Jesus (P-0027) is the paternal grandmother of Simplício
       (P-0016) through JC (P-0054), and the maternal grandmother of Eliza (P-0017)
-      through whichever of Ladisláo's children is Eliza's parent (unresolved). Her
-      parents are CONFIRMED (PAR-0023, 1810 marriage): Alferes Amaro da Silva Xavier
-      (P-0059) × Ignez Francisca de Lima (P-0060), family F-0029. Married Ladisláo
-      Egídio Ferreira de Toledo (P-0056) at São João del Rei, 8 May 1810.
+      through JC (P-0054) — CONFIRMED by PRB-0006 Film 2 triage (7 Aug 2026); Eliza
+      appears as representante #5 under heir #4. Her parents are CONFIRMED (PAR-0023,
+      1810 marriage): Alferes Amaro da Silva Xavier (P-0059) × Ignez Francisca de
+      Lima (P-0060), family F-0029. Married Ladisláo Egídio de Toledo (P-0056) 8 May
+      1810.
 - person_id: P-0056
   external_profiles: []
   records:

@@ -1,0 +1,28 @@
+schema_version: 1
+id: E-0059
+event_type: death
+date:
+  kind: exact
+  value: "1879-03-12"
+  original_text: >-
+    "faleceu em o dia doze de Março proximo passado" — from the juramento ao
+    inventariante, 28 April 1879 (PRB-0006, folio 6). "Proximo passado" confirms
+    the March date falls in the same year as the oath (1879).
+place_text: >-
+  Comarca de Leopoldina, Minas Gerais, Brazil (exact location not stated in PRB-0006)
+participants:
+- person_id: P-0027
+  role: principal
+status: confirmed
+source_ids:
+- PRB-0006
+notes:
+- text: >-
+    Date confirmed from the inventário opening juramento (PRB-0006, folio 6, already
+    catalogued): the inventariante Cezário José de Toledo swore before the Juiz on
+    28 April 1879 that Mathilde "faleceu em o dia doze de Março proximo passado" and
+    "sem testamento." The inventário was therefore opened six weeks after her death.
+    Full-text transcript of the juramento is in the retrieval agent's transcript file
+    matilde-1879-part01-pp001-092.md (2026-08-08 triage). Consistent with PRB-0001
+    (1881 partilha) and PRB-0002 (1884) both referring to her as already deceased.
+    Corrects the earlier estimate of "circa 1877 or after" in record-coverage.

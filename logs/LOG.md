@@ -1110,3 +1110,30 @@ Jesus (P-0055)**, confirmed by PRB-0006 (1879) Film 2 triage. That correction
 is documented in the session log entries for the second and third passes.
 
 See `logs/2026-08-07-retrieval-drop-triage-third-pass.md` for detail.
+
+---
+
+## 2026-08-08 — Armond leads and Mathilde death date (fourth pass)
+
+Acted on findings extracted from the 2026-08-08 retrieval agent transcripts
+(ladislao-1867-part01, ladislao-1867-part05-pp309-387, matilde-1879-part01):
+
+1. Mathilde death date CONFIRMED as 12 March 1879 from PRB-0006 folio 6 juramento.
+   Event E-0059 created. Record-coverage for P-0027 death updated to `catalogued`.
+2. Capitão Manoel Rodrigues de Lima (São José d'El Rei) identified as Mathilde's
+   uncle via certidão at pp. 154–155 (donated enslaved Martinha to "minha sobrinha
+   Mathilde"). Corroborates Ignez Francisca de Lima (P-0060) as Mathilde's mother;
+   image verification required for the "[irmã?]" word.
+3. "Ladislao Egidio [?Ferre] [?Armonde]" (p. 150) signs at the 1873 partition
+   alongside Simplício and Eliza — critical lead for Simplício Armond's parentage;
+   image verification required.
+4. "[Philos?] José Ferreira Armond" (p. 258) named as husband of FL's daughter —
+   second Armond × Toledo marriage in the same generation; image verification required.
+5. Material conflict #15 flagged: 1882 embargos judgment (p. 383) places MJ as
+   Ladisláo's daughter and FL as son-in-law, contradicting PRB-0009-gen1 child #4.
+   Added conflict notes to P-0061, F-0027, STATUS.md. No structural change pending.
+6. Fixed `test_relative_markdown_links_resolve` to skip gitignored
+   `research/from-retrieval/` (OCR transcripts contain artifacts mimicking broken links).
+7. All 69 tests pass; GEDCOM regenerated (2704 lines).
+
+See `logs/2026-08-08-armond-leads-and-mathilde-death.md` for full detail.

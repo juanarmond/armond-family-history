@@ -95,7 +95,7 @@ and cataloguing work.
 | --- | --- |
 | Structured people | 67 |
 | Structured families | 32 |
-| Structured events | 55 |
+| Structured events | 56 |
 | Structured places | 9 |
 | Structured sources | 64 |
 | Structured FAN references | 13 |
@@ -125,10 +125,7 @@ relationships. Collaborative profiles remain navigation leads only.
 
 ## Material unresolved conflicts
 
-1. Cidalia's birth date: RESOLVED (2026-07-31) as 15 September 1930 by her own
-   civil birth registration (CIV-0022, Alvorada) — the "15 November" family variant
-   is superseded. The recorded `Engracio`, `Igracio` and married-name forms still
-   require source-by-source preservation rather than silent normalisation.
+1. Cidalia's birth date: RESOLVED (2026-07-31) as 15 Sep 1930 (CIV-0022); "15 Nov" variant superseded; `Engracio`/`Igracio` forms require source-by-source preservation.
 2. Liliosa's death date is now RESOLVED (16 April 1946, per Geraldo's 1952
    marriage CIV-0002 → event E-0028) and her birthplace is Eugenópolis, MG; her
    original surname and parents remain unresolved (next: the Eugenópolis 1946 óbito
@@ -136,11 +133,7 @@ relationships. Collaborative profiles remain navigation leads only.
 3. The fuller names and identities of Aristão's reported parents.
 4. The exact transcription of João Gonçalves Bohrer's parents.
 5. Vicente José de Carvalho Guimarães's Portuguese parish.
-6. RESOLVED (1 August 2026): João Muniz Bittencourt was "natural da Ilha de São Miguel"
-   (Açores), b.~1847, the immigrant (1915 death, PAR-0007). His father's own 1866
-   Povoação death (PAR-0015) corrects the name to Manoel MUNIZ Bytancourt (P-0042, not
-   "Luiz"), confirms his mother Francisca Roza do Espirito Santo (P-0047) and the
-   Azorean grandparents (F-0023). Open only: João's own baptism (~1844-49, Povoação).
+6. RESOLVED (1 Aug 2026): João Muniz Bittencourt, São Miguel immigrant, b.~1847; father Manoel MUNIZ Bytancourt (P-0042), mother Francisca Roza (P-0047), grandparents F-0023 (PAR-0015).
 7. Whether several nineteenth-century collaborative profiles refer to the same
    people documented in the family records.
 8. Whether the 1871 naturalisation link attached to João's profile concerns the
@@ -164,6 +157,12 @@ relationships. Collaborative profiles remain navigation leads only.
     Toledo Lima × Claudina Brandina de Jesus (F-0026), appearing as representante #5
     under heir #4. Earlier in the same session a misread introduced the opposite claim;
     corrected same day. See PRB-0006 abstract and P-0017 notes for full evidence chain.
+15. Francisco Leocádio de Toledo (P-0061) as Ladisláo's son vs. son-in-law:
+    PRB-0009-gen1 lists FL as child #4 of Ladisláo × Mathilde (F-0027). The 1882
+    embargos judgment transcript (ladislao-1867-part05-pp309-387.md, p.383, 2026-08-08)
+    reads "mulher de Francisco Leocadio de Toledo, sobreviveu ao seu pai Ladislão" —
+    placing Maria Joaquina de Jesus as Ladisláo's daughter and FL as son-in-law.
+    Image verification required before any restructuring of F-0027 or P-0061.
 
 Do not resolve a conflict by deleting the weaker version. Preserve every
 material interpretation with its source and confidence.
