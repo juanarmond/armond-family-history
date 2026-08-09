@@ -1,0 +1,23 @@
+schema_version: 1
+id: P-0075
+preferred_name: Barbara Alleman
+privacy: deceased
+sex: female
+nationality: Swiss
+name_variants:
+- value: Barbara Allman
+  type: source
+  source_ids:
+  - PAR-0027
+event_ids:
+- E-0068
+family_ids:
+- F-0036
+notes:
+- text: >-
+    Mother of Johann Jacob Wehrli (P-0072). Confirmed as wife of Johannes Wehrli
+    (P-0074) in the Grindel Catholic parish baptism register (PAR-0027, page 571):
+    the surname "Allman/Allmann" is a common variant of "Alleman" in Swiss German
+    cursive script. No further biographical data is known; she is not listed on the
+    1819 Heureux Voyage manifest (her son emigrated to Brazil; she presumably
+    remained in Switzerland or was already deceased).

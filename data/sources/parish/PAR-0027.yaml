@@ -1,0 +1,108 @@
+schema_version: 1
+id: PAR-0027
+title: >-
+  Grindel (Solothurn) Catholic parish baptism register, 1751–1753 — baptism of
+  Johann Jacob Wehrli (17 January 1751) and Johann Joseph Wehrli (23 June 1752),
+  children of Johannes Wehrli × Barbara Alleman
+record_type: Parish baptism register
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1751-01-17"
+  original_text: >-
+    17 Januar. 1751 — Grindel Catholic baptism register, page 571, row 2
+    (primary entry; the same page also records Johann Joseph Wehrli's baptism
+    on 23 Junij 1752, row 6)
+event_place_text: Grindel, Soleure (Solothurn), Switzerland
+repository:
+  name: FamilySearch Historical Records
+  archive_or_registry: >-
+    Grindel Catholic parish register — original held by the Bistum Basel-Solothurn
+    or Staatsarchiv Solothurn; digitised and provided via FamilySearch
+  collection: >-
+    Switzerland, Solothurn, Catholic parish registers (Grindel)
+  book: >-
+    Grindel Catholic parish baptism register, page 571
+  catalogue_reference: >-
+    Retrieved 2026-08-08 by the external FamilySearch retrieval agent as image
+    rec-bohrer-borer-baptisms-grindel-1751-1753.jpg. Specific FamilySearch ARK
+    and film number to be confirmed from retrieval agent's FINDINGS/bohrer.md.
+access_date: "2026-08-08"
+language: la
+transcription: >-
+  [Catholic parish baptism register, Grindel, Solothurn. Page 571.
+  Column headers: Date | Parentes | Infantes | Patrini (Godparents).
+  Two entries for the Johannes Wehrli × Barbara Alleman family are transcribed;
+  other entries on the page are omitted.]
+
+  Row 2 — 17 Januar. 1751:
+    Parents: Gofannef [Johannis] Whroli [Wehrli] / Barbara Allman [Alleman]
+    Infant: Gofannef Jacobif [Johannem Jacobum, i.e. Johann Jacob]
+    Godparents: Hans Jacob Heggendorn / Anna [surname illegible]
+
+  Row 6 — 23 Junij 1752:
+    Parents: Gofannef [Johannis] Whroli [Wehrli] / Barbara Allman [Alleman]
+    Infant: Gofannef Johef [Johannem Josephum, i.e. Johann Joseph]
+    Godparents: Johef [Josephus] Whroli [Wehrli] / Anna [surname illegible]
+
+  [Spelling note: "Gofannef" is the German cursive rendering of "Johannis/Johannes"
+  (Gothic J→G, h→f); "Whroli/Alroli" is the cursive rendering of "Wehrli."
+  Row 2 shows "Alroli" which on comparison with Row 6 "Whroli" is the same name
+  in variant scribal spelling. "Allman/Alleman" is the consistent maternal surname.]
+abstract: >-
+  Grindel (Solothurn) Catholic parish baptism register, page 571, contains two
+  baptism entries for children of Johannes Wehrli (P-0074) and Barbara Alleman
+  (P-0075): Johann Jacob Wehrli, baptised 17 January 1751 (entry 2 on the page),
+  and Johann Joseph Wehrli, baptised 23 June 1752 (entry 6). The Johann Jacob
+  entry is PRIMARY evidence for the birth date (17 January 1751, Grindel) and
+  parentage of P-0072 (Johann Jacob Wehrli), upgrading from the secondary Raibert
+  Wehrli blog to a confirmed, primary record. The godfather at the 1751 baptism is
+  Hans Jacob Heggendorn — the same Heggendorn family that appears in the 1782
+  Grindel marriage register (Catharina Heggendorn as Jacob Borer's wife, per the
+  1781–1784 Grindel register). The June 1752 entry for Johann Joseph Wehrli confirms
+  the couple's continued residence in Grindel.
+reliability:
+  assessment: >-
+    Original contemporaneous Catholic parish register. The entries were made by the
+    officiating priest at the time of each baptism — primary information. The cursive
+    German script requires careful reading; the Wehrli surname appears in two
+    slightly variant scribal spellings ("Alroli" and "Whroli") across the two entries,
+    but both resolve to "Wehrli" when compared and when read in the context of the
+    known family. "Barbara Allman" reads consistently across both entries as
+    "Barbara Alleman."
+  informant: >-
+    The recording priest of the Grindel Catholic parish at the time of each baptism.
+  limitations: >-
+    The specific FamilySearch ARK and film number for this image have not been
+    independently verified (they can be confirmed from the retrieval agent's
+    FINDINGS/bohrer.md). Some entries on the register page (including godparent
+    surnames in rows 2 and 6) are not fully legible at the delivered image resolution.
+    The page number "571" is visible at top-left; the specific register volume or
+    church-book number has not been separately verified.
+digital_file:
+  path: evidence/parish/PAR-0027-wehrli-borer-baptisms-grindel-1751-1753.jpg
+  sha256: ebaaa8065bb86c31ea31b67c7705026f3ebe4e6ba489c1f39a32fb9a374e5354
+linked_people:
+- P-0072
+- P-0074
+- P-0075
+linked_families:
+- F-0036
+linked_events:
+- E-0068
+linked_places: []
+private: false
+notes:
+- text: >-
+    The same register page contains several other entries for Jacob Born/Borer families
+    (5 April 1752, 7 November 1752, 3 March 1753) and a Heggendorn couple. These
+    are not transcribed as they are unrelated to the direct genealogical line.
+- text: >-
+    The godfather at Johann Jacob Wehrli's 1751 baptism is "Hans Jacob Heggendorn."
+    The same Heggendorn surname appears in the 1781–1784 Grindel register as Catharina
+    Heggendorn, wife of Jacob Borer (a lead for Laurent Borer's parents). The Grindel
+    community was small and these families are likely neighbours or kin.

@@ -79,7 +79,16 @@ notes:
     filhos" in the Casa Suíça DB text — a one-child discrepancy between the two
     secondary accounts. Eleven children appear in the genealogy tree on p.301 of
     the compilation; a twelfth may be missing. Vicente (P-0070) is listed as the
-    7th child (entry 1.1.7 in the tree).
+    7th child (entry 1.1.7 in the Lorenz tree) but as the 6th son ("6º filho") in
+    the Casa Suíça DB family list (rec-bohrer-borer-laurent-pesquisa-familia-nvfriburgo-1797.jpg,
+    read 2026-08-09). Both are PUB-0003 sub-sources; the discrepancy is unresolved.
+- text: >-
+    Internal PUB-0003 date conflict for Thereza: the Lorenz genealogy tree (pp.300–301)
+    gives 25/08/1836, while the Casa Suíça DB family list gives 25/09/1838. The DB
+    also labels her "1ª filha" (first daughter) despite listing her last, after all
+    other children born 1822–1834 — likely a database entry error for her ordinal.
+    The dates differ by more than two years; neither can be preferred on current
+    evidence. Both read values preserved here.
 - text: >-
     "José Joaquim Borer" is also listed in the compilation tree but the entry is
     partially cut off; he is not modelled. This may account for part of the

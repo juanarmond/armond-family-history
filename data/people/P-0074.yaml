@@ -1,0 +1,23 @@
+schema_version: 1
+id: P-0074
+preferred_name: Johannes Wehrli
+privacy: deceased
+sex: male
+nationality: Swiss
+name_variants:
+- value: Johannis Whroli
+  type: source
+  source_ids:
+  - PAR-0027
+event_ids:
+- E-0068
+family_ids:
+- F-0036
+notes:
+- text: >-
+    Father of Johann Jacob Wehrli (P-0072). Confirmed as husband of Barbara
+    Alleman (P-0075) in the Grindel Catholic parish baptism register (PAR-0027,
+    page 571): two entries record children baptised in 1751 and 1752 with parents
+    "Johannis Whroli × Barbara Allman." No further biographical data is known;
+    no emigration record to Nova Friburgo (his son Johann Jacob emigrated on the
+    Heureux Voyage in 1819, but Johannes himself is not listed on the manifest).

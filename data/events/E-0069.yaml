@@ -1,0 +1,30 @@
+schema_version: 1
+id: E-0069
+event_type: baptism
+date:
+  kind: exact
+  value: "1760-06-17"
+  original_text: >-
+    die 17 Junii 1760 — Erschwil (Erischwyg) Catholic baptism register,
+    church book #68
+place_text: Erschwil (Erischwyg), Soleure (Solothurn), Switzerland
+participants:
+- person_id: P-0073
+  role: principal
+- person_id: P-0076
+  role: parent
+- person_id: P-0077
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0028
+notes:
+- text: >-
+    Godfather: Joseph Borer gmüpl (probably the principal's paternal uncle or
+    kinsman, distinct from her father Joseph Borer fusemnistr). Godmother: Mari
+    Elisabth Borr fallend (Marie Elisabetha Borer, possibly a paternal aunt).
+    This primary record establishes Elisabetha Borer's (P-0073) birthplace as
+    Erschwil rather than Grindel (she and Johann Jacob Wehrli both appear in the
+    Grindel marriage register as "both from Grindel, Erischwyg" — the dual
+    location descriptor indicates they were resident in Grindel but of Erschwil
+    origin, or that Erischwyg was the parish territory encompassing both villages).

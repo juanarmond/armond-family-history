@@ -1,0 +1,42 @@
+schema_version: 1
+id: F-0037
+partners:
+- person_id: P-0076
+  role: spouse
+- person_id: P-0077
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PAR-0028
+  notes:
+  - text: >-
+      The couple Joseph Borer (P-0076) × Anna Maria Borer (P-0077) is confirmed
+      as parents of Elisabetha in the Erschwil Catholic parish baptism register
+      (PAR-0028, church book #68, entry for 17 June 1760). No marriage record for
+      this couple has been located.
+children:
+- person_id: P-0073
+  parent_relationships:
+  - parent_id: P-0076
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0028
+    notes: []
+  - parent_id: P-0077
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0028
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    The Borer family was common in the Erschwil/Grindel area of Solothurn canton.
+    The relationship between this Joseph Borer × Anna Maria Borer family and the
+    Nova Friburgo Borer immigrant families (BORER I: Jacob Borer, P-0050, b. 1801
+    Erschwil; BORER II: Laurent Borer, P-0068, b. 1797 Grindel) is not established
+    by primary evidence. The Raibert Wehrli blog suggested a kinship link between
+    the Borer × Wehrli couples, but this remains a research lead.

@@ -1,0 +1,94 @@
+schema_version: 1
+id: PAR-0029
+title: >-
+  Grindel (Solothurn) Catholic parish marriage register, page 71 — marriage of
+  Johann Jacob Wehrli and Elisabetha Borer, 27 January 1782
+record_type: Parish marriage register
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1782-01-27"
+  original_text: >-
+    Die 27ma Januarii 1782 — Grindel Catholic marriage register, page 71, entry 4
+event_place_text: Grindel, Soleure (Solothurn), Switzerland
+repository:
+  name: FamilySearch Historical Records
+  archive_or_registry: >-
+    Grindel Catholic parish — original held by the Bistum Basel-Solothurn or
+    Staatsarchiv Solothurn; digitised and provided via FamilySearch
+  collection: >-
+    Switzerland, Solothurn, Catholic parish registers (Grindel); FamilySearch
+    collection 3Q9M-CSVK-* (FHC-restricted)
+  book: >-
+    Grindel Catholic parish marriage register, page 71, entry 4
+  catalogue_reference: >-
+    ARK 3:1:3Q9M-CSVK-NSXR-C (FHC-only access); retrieved 2026-08-07 by the
+    external FamilySearch retrieval agent as image
+    rec-bohrer-werly-borer-marriages-grindel-1780.jpg.
+access_date: "2026-08-07"
+language: la
+transcription: >-
+  [Catholic parish marriage register, Grindel, Solothurn. Page 71, entry 4.
+  Full Latin transcription of the entry:]
+
+  Die 27ma Januarii 1782 ego [officiating priest name, not fully legible]
+  matrimonio junxi Jacobum Wehrlia[m] et Elisabetham Borer ambo ex Grindel,
+  Erischwyg. Testes fuerunt Heinricus Werli et Catharina Borer.
+
+  [Translation: "On the 27th day of January 1782 I [officiating priest]
+  joined in matrimony Jacobus Wehrlia[m] [= Johann Jacob Wehrli] and
+  Elisabetha Borer, both from Grindel, Erischwyg. The witnesses were
+  Heinricus Werli [= Heinrich/Henri Wehrli] and Catharina Borer."]
+abstract: >-
+  Grindel (Solothurn) Catholic parish marriage register, page 71, entry 4,
+  records the marriage of Jacobus Wehrli [Johann Jacob Wehrli, P-0072] and
+  Elisabetha Borer (P-0073) on 27 January 1782, both described as being from
+  Grindel, Erischwyg (Erschwil). Witnesses were Heinricus Werli (= Henri Wehrli,
+  probably Johann Jacob's brother) and Catharina Borer (possibly Elisabetha's
+  sister or other kin). This is PRIMARY evidence for the marriage of P-0072 × P-0073,
+  upgrading event E-0065 from strong-evidence to confirmed. This source is held
+  in a FamilySearch FHC-restricted collection (ARK 3:1:3Q9M-CSVK-NSXR-C).
+reliability:
+  assessment: >-
+    Original contemporaneous Catholic parish marriage register entry. The parties
+    are identified by name and parish (Grindel, Erischwyg/Erschwil). The witness
+    Heinricus Werli (same family name as the groom) is consistent with the Casa
+    Suíça DB record of a son "Henri" born to this couple (PUB-0003 confirmed by
+    the 1783 Grindel baptism register entry for "Heinricus" son of Jacoby Werl ×
+    Elisabetha Borer in the 1781–1784 register). The image delivers the full marriage
+    register entry. FHC-restricted access means verification requires FamilySearch
+    Family History Center access.
+  informant: >-
+    The recording priest of the Grindel Catholic parish at the time of the marriage,
+    27 January 1782.
+  limitations: >-
+    FHC-restricted access (ARK 3:1:3Q9M-CSVK-NSXR-C); available only at a
+    FamilySearch Family History Center. The officiating priest's name is not
+    fully legible in the retrieved image.
+digital_file:
+  path: evidence/parish/PAR-0029-wehrli-borer-marriage-1782-grindel.jpg
+  sha256: 3d5b641f1196fb7cf0447d2600e25535b4cb0562ebc9f12d445ac254e1238f1b
+linked_people:
+- P-0072
+- P-0073
+linked_families:
+- F-0035
+linked_events:
+- E-0065
+linked_places: []
+private: false
+notes:
+- text: >-
+    Witness Heinricus Werli is likely Johann Jacob Wehrli's brother Henri — a
+    separate birth record for a "Heinricus" son of Jacoby Wehrli × Elisabetha
+    Borer appears in the Grindel 1781–1784 baptism register (1 November 1783),
+    placing Henri's birth after the marriage, consistent with Henri being a son of
+    this couple rather than a pre-existing brother. The witness role at the marriage
+    may instead be a brother or cousin of the groom named Heinrich/Heinricus Wehrli.
+- text: >-
+    Catharina Borer, the second witness, is probably Elisabetha's sister or a close
+    Borer kinswoman — the Borer surname was common in Erschwil and the Grindel area.

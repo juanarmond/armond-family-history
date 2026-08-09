@@ -6,17 +6,17 @@ partners:
 - person_id: P-0073
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
   - PUB-0003
+  - PAR-0029
   notes:
   - text: >-
       Marriage confirmed by Swiss Catholic marriage register (Grindel parish, page 71,
-      entry 4): "Die 27ma Januarii 1782: Jacobus Wehrlia[?] et Elisabetha Borer ambo
-      ex Grindel, Erischwyg. Testes fuerunt Heinricus Werli et Catharina Borer."
-      Image rec-bohrer-werly-borer-marriages-grindel-1780.jpg in the 2026-08-07
-      retrieval drop — to be archived as a PAR source in evidence/parish/ when the
-      owner transfers it from the retrieval area.
+      entry 4, PAR-0029): "Die 27ma Januarii 1782: Jacobus Wehrlia[?] et Elisabetha
+      Borer ambo ex Grindel, Erischwyg. Testes fuerunt Heinricus Werli et Catharina
+      Borer." Archived as evidence/parish/PAR-0029-wehrli-borer-marriage-1782-grindel.jpg
+      (2026-08-09).
 children:
 - person_id: P-0069
   parent_relationships:

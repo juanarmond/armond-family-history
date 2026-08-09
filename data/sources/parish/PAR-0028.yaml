@@ -1,0 +1,96 @@
+schema_version: 1
+id: PAR-0028
+title: >-
+  Erschwil (Solothurn) Catholic parish baptism register, church book #68,
+  1760 — baptism of Elisabetha Borer (17 June 1760), daughter of Joseph Borer
+  and Anna Maria Borer
+record_type: Parish baptism register
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1760-06-17"
+  original_text: >-
+    die 17 Junii 1760 — Erschwil (Erischwyg) Catholic baptism register,
+    church book #68
+event_place_text: Erschwil (Erischwyg), Soleure (Solothurn), Switzerland
+repository:
+  name: FamilySearch Historical Records
+  archive_or_registry: >-
+    Erschwil Catholic parish — original held by the Bistum Basel-Solothurn or
+    Staatsarchiv Solothurn; digitised and provided via FamilySearch as ARK
+    NSFM-B (FamilySearch indexed reference to this page)
+  collection: >-
+    Switzerland, Solothurn, Catholic parish registers (Erschwil), church book #68
+  book: >-
+    Erschwil Catholic parish baptism register, church book #68
+  catalogue_reference: >-
+    Retrieved 2026-08-08 by the external FamilySearch retrieval agent as image
+    rec-bohrer-swiss-parish-register-solothurn-1760s.jpg. FamilySearch ARK
+    NSFM-B references this same page per FINDINGS/bohrer.md.
+access_date: "2026-08-08"
+language: la
+transcription: >-
+  [Catholic parish baptism register, Erschwil (Erischwyg), Solothurn. Church
+  book #68. The entry for Elisabetha Borer is the third row on the visible page.]
+
+  Row 3 — die 17 Junii 1760:
+    Child: Ecisabeth [Elisabetha]
+    Parents: Joseph Borer fusemnistr [role/title, possibly Feuersmeister or similar
+      local office] / anna Maria Borer
+    Godfather: Joseph Borer gmüpl [role/title, possibly Gemeindsvogt or similar]
+    Godmother: Mari Elisabth Borr fallend [Borer, surname as written]
+
+  [Notes: "Ecisabeth" is a variant spelling of "Elisabetha." "fusemnistr" and
+  "gmüpl" are abbreviated titles or offices not fully deciphered. All persons on
+  this page share the Borer surname, consistent with a close-knit Swiss village
+  community. Duplicate crop of this page (misnamed "grindel") also received as
+  rec-bohrer-borer-parish-register-grindel-c1760.jpg — same image, different
+  filename.]
+abstract: >-
+  Erschwil (Erischwyg, Solothurn) Catholic parish baptism register, church
+  book #68, records the baptism of "Ecisabeth" [Elisabetha] Borer on 17 June
+  1760. Her parents are named as "Joseph Borer fusemnistr" (P-0076) and
+  "anna Maria Borer" (P-0077). This is PRIMARY evidence for the birth date and
+  parentage of Elisabetha Borer (P-0073), who later married Johann Jacob Wehrli
+  (P-0072) in Grindel on 27 January 1782. The godfather is "Joseph Borer gmüpl"
+  and godmother "Mari Elisabth Borr fallend" — likely kin within the Borer
+  family network of the Solothurn district.
+reliability:
+  assessment: >-
+    Original contemporaneous Catholic parish register entry made by the officiating
+    priest at baptism — primary information. The image delivers the full register
+    page. The child's name "Ecisabeth" is a scribal variant of "Elisabetha," consistent
+    with the name recorded in the Grindel marriage register of 1782 (PAR-0029).
+    The parental surname "Borer" appears throughout the page, consistent with the
+    known Borer family cluster in the Erschwil/Grindel area.
+  informant: >-
+    The recording priest of the Erschwil Catholic parish at the time of baptism,
+    17 June 1760.
+  limitations: >-
+    The abbreviated titles "fusemnistr" and "gmüpl" for Joseph Borer's role/office
+    are not fully deciphered. A duplicate crop of this same page was also received
+    (rec-bohrer-borer-parish-register-grindel-c1760.jpg, misnamed "grindel") —
+    both are identical in content.
+digital_file:
+  path: evidence/parish/PAR-0028-elisabetha-borer-baptism-1760-erschwil.jpg
+  sha256: fde9c25873c61d763041bc2d05d37335bd776908c6070a40424100aedad021c6
+linked_people:
+- P-0073
+- P-0076
+- P-0077
+linked_families:
+- F-0037
+linked_events:
+- E-0069
+linked_places: []
+private: false
+notes:
+- text: >-
+    The file rec-bohrer-borer-parish-register-grindel-c1760.jpg is a
+    duplicate crop of this same Erschwil register page (same image content,
+    mislabelled as "grindel" in the retrieval agent's output). It provides no
+    new information and has not been separately archived.

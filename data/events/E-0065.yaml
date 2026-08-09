@@ -13,13 +13,12 @@ participants:
   role: spouse
 - person_id: P-0073
   role: spouse
-status: strong-evidence
+status: confirmed
 source_ids:
 - PUB-0003
+- PAR-0029
 notes:
 - text: >-
-    Witnesses named in the register: Heinricus Werli and Catharina Borer. The primary
-    image (rec-bohrer-werly-borer-marriages-grindel-1780.jpg) is in the retrieval area
-    and should be archived as a PAR source in evidence/parish/ when the owner transfers
-    it. Cited under PUB-0003 for now; source_ids will be updated when the PAR source
-    is created.
+    Witnesses named in the register: Heinricus Werli and Catharina Borer. Primary
+    image archived as evidence/parish/PAR-0029-wehrli-borer-marriage-1782-grindel.jpg
+    (2026-08-09); PAR-0029 created.

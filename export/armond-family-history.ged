@@ -3,8 +3,8 @@
 2 VERS 7.0
 1 SOUR ARMOND-FAMILY-HISTORY
 2 NAME Armond Family History
-2 VERS 2026.08.08
-1 DATE 08 AUG 2026
+2 VERS 2026.08.09
+1 DATE 09 AUG 2026
 1 SUBM @SUBM0001@
 1 LANG pt-BR
 0 @SUBM0001@ SUBM
@@ -1139,6 +1139,11 @@
 2 TYPE AKA
 2 SOUR @PUB0003@
 1 SEX M
+1 BAPM
+2 DATE 17 JAN 1751
+2 PLAC Grindel, Soleure (Solothurn), Switzerland
+2 SOUR @PAR0027@
+3 QUAY 3
 1 DEAT
 2 DATE 28 MAY 1827
 2 PLAC Nova Friburgo, Rio de Janeiro, Brazil
@@ -1146,9 +1151,10 @@
 3 QUAY 2
 1 OCCU agricultor
 2 SOUR @PUB0003@
+1 FAMC @F0036@
 1 FAMS @F0035@
 1 NOTE Patriarch of the Wehrli immigrant family in Nova Friburgo. Arrived on the Heureux Voyage in 1819 with his wife Elisabetha Borer (P-0073) and most of their children, including Anna Maria (P-0069), Laurent Borer's future wife.
-1 NOTE Born 17 January 1751, Grindel, Soleure (Solothurn), Switzerland (PUB-0003, strong-evidence — Casa Suíça DB entry). Casa Suíça DB lists his age at arrival (1819) as 49 — a database error; born 1751, he was actually ~68 in 1819. The DB narrative text correctly states '68 anos.'
+1 NOTE Born 17 January 1751, Grindel, Soleure (Solothurn), Switzerland — PRIMARY evidence: Grindel Catholic parish baptism register (PAR-0027, page 571, row 2): "17 Januar. 1751, Gofannef Jacobif, parents Johannis Whroli × Barbara Allman." Parents confirmed as Johannes Wehrli (P-0074) × Barbara Alleman (P-0075). This upgrades the birth date from strong-evidence (PUB-0003 Casa Suíça DB) to confirmed. Casa Suíça DB lists his age at arrival (1819) as 49 — a database error; born 1751, he was actually ~68 in 1819; the DB narrative text correctly states '68 anos.'
 1 NOTE His daughter Anna Maria Werhly (P-0069) married Laurent Borer (P-0068) on the same day — 03/07/1820 — as his daughter Salomé married Louis Nicolas Villette. The Wehrli and Borer families were closely linked (Elisabetha Borer's surname suggests kinship with Laurent's father's family).
 0 @P0073@ INDI
 1 NAME Elisabetha /Borer/
@@ -1158,14 +1164,62 @@
 2 TYPE AKA
 2 SOUR @PUB0003@
 1 SEX F
+1 BAPM
+2 DATE 17 JUN 1760
+2 PLAC Erschwil (Erischwyg), Soleure (Solothurn), Switzerland
+2 SOUR @PAR0028@
+3 QUAY 3
 1 DEAT
 2 DATE 10 OCT 1832
 2 PLAC Nova Friburgo, Rio de Janeiro, Brazil
 2 SOUR @PUB0003@
 3 QUAY 2
+1 FAMC @F0037@
 1 FAMS @F0035@
-1 NOTE Wife of Johann Jacob Wehrli (P-0072). Her surname 'Borer' may indicate kinship with the Borer immigrant families (BORER I Jacob Borer and BORER II Laurent Borer), but this is not confirmed — the Borer surname was common in the Grindel/Soleure area.
-1 NOTE Named 'Elisa Borer' in the Casa Suíça DB narrative and 'Elisabetha Borer' in the Grindel marriage register. Both forms preserved.
+1 NOTE Wife of Johann Jacob Wehrli (P-0072). Born 17 June 1760, Erschwil (Erischwyg), Soleure (Solothurn), Switzerland — PRIMARY evidence: Erschwil Catholic parish baptism register (PAR-0028, church book #68): "die 17 Junii 1760, Ecisabeth, parents Joseph Borer fusemnistr × anna Maria Borer." Parents confirmed as Joseph Borer (P-0076) × Anna Maria Borer (P-0077). She died at Nova Friburgo on 10 October 1832 (PUB-0003, E-0067).
+1 NOTE Her surname 'Borer' may indicate kinship with the Borer immigrant families (BORER I Jacob Borer and BORER II Laurent Borer), but this is not confirmed by primary evidence — the Borer surname was common in the Grindel/Soleure area. Her father Joseph Borer is distinct from the immigrant Jacob Borer (P-0050, BORER I, b. 1801) and from Laurent Borer (P-0068, BORER II, b. 1797).
+1 NOTE Named 'Elisa Borer' in the Casa Suíça DB narrative and 'Elisabetha Borer' in the Grindel marriage register (PAR-0029). The Grindel marriage register entry describes both parties as "ambo ex Grindel, Erischwyg" — she may have been resident in Grindel by 1782 despite being baptised in Erschwil in 1760.
+0 @P0074@ INDI
+1 NAME Johannes /Wehrli/
+2 GIVN Johannes
+2 SURN Wehrli
+1 NAME Johannis /Whroli/
+2 TYPE AKA
+2 SOUR @PAR0027@
+1 SEX M
+1 FAMS @F0036@
+1 NOTE Father of Johann Jacob Wehrli (P-0072). Confirmed as husband of Barbara Alleman (P-0075) in the Grindel Catholic parish baptism register (PAR-0027, page 571): two entries record children baptised in 1751 and 1752 with parents "Johannis Whroli × Barbara Allman." No further biographical data is known; no emigration record to Nova Friburgo (his son Johann Jacob emigrated on the Heureux Voyage in 1819, but Johannes himself is not listed on the manifest).
+0 @P0075@ INDI
+1 NAME Barbara /Alleman/
+2 GIVN Barbara
+2 SURN Alleman
+1 NAME Barbara /Allman/
+2 TYPE AKA
+2 SOUR @PAR0027@
+1 SEX F
+1 FAMS @F0036@
+1 NOTE Mother of Johann Jacob Wehrli (P-0072). Confirmed as wife of Johannes Wehrli (P-0074) in the Grindel Catholic parish baptism register (PAR-0027, page 571): the surname "Allman/Allmann" is a common variant of "Alleman" in Swiss German cursive script. No further biographical data is known; she is not listed on the 1819 Heureux Voyage manifest (her son emigrated to Brazil; she presumably remained in Switzerland or was already deceased).
+0 @P0076@ INDI
+1 NAME Joseph /Borer/
+2 GIVN Joseph
+2 SURN Borer
+1 NAME Joseph Borer /fusemnistr/
+2 TYPE AKA
+2 SOUR @PAR0028@
+1 SEX M
+1 FAMS @F0037@
+1 NOTE Father of Elisabetha Borer (P-0073). Confirmed in the Erschwil (Erischwyg) Catholic parish baptism register (PAR-0028, church book #68): named as "Joseph Borer fusemnistr" — the suffix "fusemnistr" is an abbreviated title or local office not fully deciphered (possibly "Feuersmeister" or a similar communal role). He also appears as godfather at an Erschwil baptism ("Joseph Borer gmüpl") on the same page. The Borer surname was common in the Solothurn district (Erschwil/Grindel area).
+1 NOTE This Joseph Borer is distinct from Jacob Borer (BORER I, P-0050, b. 1801 Erschwil) and Laurent Borer (BORER II, P-0068, b. 1797 Grindel), who were the Nova Friburgo immigrants. The connection between this Joseph Borer and the Nova Friburgo Borer immigrants has not been established by primary evidence.
+0 @P0077@ INDI
+1 NAME Anna Maria /Borer/
+2 GIVN Anna Maria
+2 SURN Borer
+1 NAME anna Maria /Borer/
+2 TYPE AKA
+2 SOUR @PAR0028@
+1 SEX F
+1 FAMS @F0037@
+1 NOTE Mother of Elisabetha Borer (P-0073). Confirmed as wife of Joseph Borer (P-0076) in the Erschwil Catholic parish baptism register (PAR-0028, church book #68). Her maiden surname is unknown — she may have been born a Borer (sharing the surname of her husband as well as the wider Borer kin network in the Solothurn district) or may have taken her husband's name in the record. No further biographical data is known.
 0 @DOCF0001_1@ INDI
 1 NAME Aristides Muniz /Bittencourt/
 2 GIVN Aristides Muniz
@@ -1719,6 +1773,15 @@
 1 NOTE Documented child, not individually modelled.
 2 SOUR @PUB0003@
 1 NOTE b. ~1805. Arrived NF 1819 aged 14. Married 15/04/1828 × Margueritte Montavon. Not modelled.
+0 @DOCF0036_1@ INDI
+1 NAME Johann Joseph /Wehrli/
+2 GIVN Johann Joseph
+2 SURN Wehrli
+1 SEX U
+1 FAMC @F0036@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PAR0027@
+1 NOTE Baptised 23 June 1752, Grindel; parents Johannes Wehrli × Barbara Alleman (PAR-0027, page 571, row 6). Godfather: Josephus Wehrli (probable uncle or kinsman). Fate unknown; not among the 1819 Heureux Voyage emigrants. Not modelled.
 0 @F0001@ FAM
 1 HUSB @P0012@
 1 WIFE @P0013@
@@ -2085,7 +2148,8 @@
 2 SOUR @PUB0003@
 3 QUAY 2
 1 SOUR @PUB0003@
-1 NOTE The compilation gives "ao menos onze filhos" in the main narrative and "doze filhos" in the Casa Suíça DB text — a one-child discrepancy between the two secondary accounts. Eleven children appear in the genealogy tree on p.301 of the compilation; a twelfth may be missing. Vicente (P-0070) is listed as the 7th child (entry 1.1.7 in the tree).
+1 NOTE The compilation gives "ao menos onze filhos" in the main narrative and "doze filhos" in the Casa Suíça DB text — a one-child discrepancy between the two secondary accounts. Eleven children appear in the genealogy tree on p.301 of the compilation; a twelfth may be missing. Vicente (P-0070) is listed as the 7th child (entry 1.1.7 in the Lorenz tree) but as the 6th son ("6º filho") in the Casa Suíça DB family list (rec-bohrer-borer-laurent-pesquisa-familia-nvfriburgo-1797.jpg, read 2026-08-09). Both are PUB-0003 sub-sources; the discrepancy is unresolved.
+1 NOTE Internal PUB-0003 date conflict for Thereza: the Lorenz genealogy tree (pp.300–301) gives 25/08/1836, while the Casa Suíça DB family list gives 25/09/1838. The DB also labels her "1ª filha" (first daughter) despite listing her last, after all other children born 1822–1834 — likely a database entry error for her ordinal. The dates differ by more than two years; neither can be preferred on current evidence. Both read values preserved here.
 1 NOTE "José Joaquim Borer" is also listed in the compilation tree but the entry is partially cut off; he is not modelled. This may account for part of the 11-vs-12 discrepancy.
 0 @F0034@ FAM
 1 HUSB @P0070@
@@ -2116,10 +2180,31 @@
 2 DATE 27 JAN 1782
 2 PLAC Grindel, Soleure (Solothurn), Switzerland
 2 SOUR @PUB0003@
-3 QUAY 2
+3 QUAY 3
+2 SOUR @PAR0029@
+3 QUAY 3
 1 SOUR @PUB0003@
 1 NOTE The patriarch Johann Jacob Wehrli (P-0072) and his wife Elisabetha Borer (P-0073) emigrated to Brazil in 1819 on the Heureux Voyage together with most of their children, including Anna Maria (P-0069). The patriarch died at Nova Friburgo on 28 May 1827; his wife died at Nova Friburgo on 10 October 1832.
 1 NOTE Marianne and Elise Wehrli did not embark ("não embarcaram") despite being listed on the manifest — they stayed in Europe. The Casa Suíça DB lists nine children who emigrated. Anna Maria (P-0069) was the 5th daughter.
+0 @F0036@ FAM
+1 HUSB @P0074@
+1 WIFE @P0075@
+1 CHIL @P0072@
+1 CHIL @DOCF0036_1@
+1 MARR
+2 SOUR @PAR0027@
+3 QUAY 3
+1 SOUR @PAR0027@
+1 NOTE Marriage date and location for Johannes Wehrli × Barbara Alleman have not been identified in the available records. The couple's presence in Grindel is attested by the 1751 and 1752 baptism entries in the parish register.
+0 @F0037@ FAM
+1 HUSB @P0076@
+1 WIFE @P0077@
+1 CHIL @P0073@
+1 MARR
+2 SOUR @PAR0028@
+3 QUAY 3
+1 SOUR @PAR0028@
+1 NOTE The Borer family was common in the Erschwil/Grindel area of Solothurn canton. The relationship between this Joseph Borer × Anna Maria Borer family and the Nova Friburgo Borer immigrant families (BORER I: Jacob Borer, P-0050, b. 1801 Erschwil; BORER II: Laurent Borer, P-0068, b. 1797 Grindel) is not established by primary evidence. The Raibert Wehrli blog suggested a kinship link between the Borer × Wehrli couples, but this remains a research lead.
 0 @REPO0001@ REPO
 1 NAME FamilySearch Memories
 0 @REPO0002@ REPO
@@ -2668,6 +2753,33 @@
 1 NOTE Transcription: [Typed certidão, issued 2019, Diocese de São João del-Rei. The text below reproduces the certified transcript as read from the delivered image (1252×1241 px); some peripheral text is not fully legible.] Certifico que nos livros de batizados da extinta Paróquia de Santo Antônio do município de Tiradentes (antes São José del Rei), encontra-se a seguinte assentada: Aos oito dias do mês de Outubro de mil oitocentos e trinta e oito... batizei... Carolina, nascida aos vinte e oito de Fevereiro do dito ano [1838], filha legítima do Capitão Cezario Jose da Silva Lima e de Dona Joanna Umbelina de Jesus. Avós paternos: Capitão Amaro da Silva Xavier e Dona Ignez Francisca de Lima. Avós maternos: [not fully deciphered from the delivered image]. [Officiating priest and certidão issuance date not fully legible; certifying archivist name not deciphered.]
 1 NOTE Archival reference: Certified copy issued 2019 by the Diocese de São João del-Rei from its archives of the extinta Paróquia de Santo Antônio do Município de Tiradentes (formerly São José del Rei). Retrieved 2026-08-07 by the external FamilySearch retrieval agent as image rec-armond-cezario-jose-da-silva-lim-baptism-gen-1.jpg.
 1 OBJE @OBJPAR0026@
+0 @PAR0027@ SOUR
+1 TITL Grindel (Solothurn) Catholic parish baptism register, 1751–1753 — baptism of Johann Jacob Wehrli (17 January 1751) and Johann Joseph Wehrli (23 June 1752), children of Johannes Wehrli × Barbara Alleman
+1 TEXT Grindel (Solothurn) Catholic parish baptism register, page 571, contains two baptism entries for children of Johannes Wehrli (P-0074) and Barbara Alleman (P-0075): Johann Jacob Wehrli, baptised 17 January 1751 (entry 2 on the page), and Johann Joseph Wehrli, baptised 23 June 1752 (entry 6). The Johann Jacob entry is PRIMARY evidence for the birth date (17 January 1751, Grindel) and parentage of P-0072 (Johann Jacob Wehrli), upgrading from the secondary Raibert Wehrli blog to a confirmed, primary record. The godfather at the 1751 baptism is Hans Jacob Heggendorn — the same Heggendorn family that appears in the 1782 Grindel marriage register (Catharina Heggendorn as Jacob Borer's wife, per the 1781–1784 Grindel register). The June 1752 entry for Johann Joseph Wehrli confirms the couple's continued residence in Grindel.
+1 REPO @REPO0002@
+2 CALN Switzerland, Solothurn, Catholic parish registers (Grindel), livro Grindel Catholic parish baptism register, page 571
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Catholic parish baptism register, Grindel, Solothurn. Page 571. Column headers: Date | Parentes | Infantes | Patrini (Godparents). Two entries for the Johannes Wehrli × Barbara Alleman family are transcribed; other entries on the page are omitted.] Row 2 — 17 Januar. 1751: Parents: Gofannef [Johannis] Whroli [Wehrli] / Barbara Allman [Alleman] Infant: Gofannef Jacobif [Johannem Jacobum, i.e. Johann Jacob] Godparents: Hans Jacob Heggendorn / Anna [surname illegible] Row 6 — 23 Junij 1752: Parents: Gofannef [Johannis] Whroli [Wehrli] / Barbara Allman [Alleman] Infant: Gofannef Johef [Johannem Josephum, i.e. Johann Joseph] Godparents: Johef [Josephus] Whroli [Wehrli] / Anna [surname illegible] [Spelling note: "Gofannef" is the German cursive rendering of "Johannis/Johannes" (Gothic J→G, h→f); "Whroli/Alroli" is the cursive rendering of "Wehrli." Row 2 shows "Alroli" which on comparison with Row 6 "Whroli" is the same name in variant scribal spelling. "Allman/Alleman" is the consistent maternal surname.]
+1 NOTE Archival reference: Retrieved 2026-08-08 by the external FamilySearch retrieval agent as image rec-bohrer-borer-baptisms-grindel-1751-1753.jpg. Specific FamilySearch ARK and film number to be confirmed from retrieval agent's FINDINGS/bohrer.md.
+1 OBJE @OBJPAR0027@
+0 @PAR0028@ SOUR
+1 TITL Erschwil (Solothurn) Catholic parish baptism register, church book #68, 1760 — baptism of Elisabetha Borer (17 June 1760), daughter of Joseph Borer and Anna Maria Borer
+1 TEXT Erschwil (Erischwyg, Solothurn) Catholic parish baptism register, church book #68, records the baptism of "Ecisabeth" [Elisabetha] Borer on 17 June 1760. Her parents are named as "Joseph Borer fusemnistr" (P-0076) and "anna Maria Borer" (P-0077). This is PRIMARY evidence for the birth date and parentage of Elisabetha Borer (P-0073), who later married Johann Jacob Wehrli (P-0072) in Grindel on 27 January 1782. The godfather is "Joseph Borer gmüpl" and godmother "Mari Elisabth Borr fallend" — likely kin within the Borer family network of the Solothurn district.
+1 REPO @REPO0002@
+2 CALN Switzerland, Solothurn, Catholic parish registers (Erschwil), church book #68, livro Erschwil Catholic parish baptism register, church book #68
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Catholic parish baptism register, Erschwil (Erischwyg), Solothurn. Church book #68. The entry for Elisabetha Borer is the third row on the visible page.] Row 3 — die 17 Junii 1760: Child: Ecisabeth [Elisabetha] Parents: Joseph Borer fusemnistr [role/title, possibly Feuersmeister or similar local office] / anna Maria Borer Godfather: Joseph Borer gmüpl [role/title, possibly Gemeindsvogt or similar] Godmother: Mari Elisabth Borr fallend [Borer, surname as written] [Notes: "Ecisabeth" is a variant spelling of "Elisabetha." "fusemnistr" and "gmüpl" are abbreviated titles or offices not fully deciphered. All persons on this page share the Borer surname, consistent with a close-knit Swiss village community. Duplicate crop of this page (misnamed "grindel") also received as rec-bohrer-borer-parish-register-grindel-c1760.jpg — same image, different filename.]
+1 NOTE Archival reference: Retrieved 2026-08-08 by the external FamilySearch retrieval agent as image rec-bohrer-swiss-parish-register-solothurn-1760s.jpg. FamilySearch ARK NSFM-B references this same page per FINDINGS/bohrer.md.
+1 OBJE @OBJPAR0028@
+0 @PAR0029@ SOUR
+1 TITL Grindel (Solothurn) Catholic parish marriage register, page 71 — marriage of Johann Jacob Wehrli and Elisabetha Borer, 27 January 1782
+1 TEXT Grindel (Solothurn) Catholic parish marriage register, page 71, entry 4, records the marriage of Jacobus Wehrli [Johann Jacob Wehrli, P-0072] and Elisabetha Borer (P-0073) on 27 January 1782, both described as being from Grindel, Erischwyg (Erschwil). Witnesses were Heinricus Werli (= Henri Wehrli, probably Johann Jacob's brother) and Catharina Borer (possibly Elisabetha's sister or other kin). This is PRIMARY evidence for the marriage of P-0072 × P-0073, upgrading event E-0065 from strong-evidence to confirmed. This source is held in a FamilySearch FHC-restricted collection (ARK 3:1:3Q9M-CSVK-NSXR-C).
+1 REPO @REPO0002@
+2 CALN Switzerland, Solothurn, Catholic parish registers (Grindel); FamilySearch collection 3Q9M-CSVK-* (FHC-restricted), livro Grindel Catholic parish marriage register, page 71, entry 4
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Catholic parish marriage register, Grindel, Solothurn. Page 71, entry 4. Full Latin transcription of the entry:] Die 27ma Januarii 1782 ego [officiating priest name, not fully legible] matrimonio junxi Jacobum Wehrlia[m] et Elisabetham Borer ambo ex Grindel, Erischwyg. Testes fuerunt Heinricus Werli et Catharina Borer. [Translation: "On the 27th day of January 1782 I [officiating priest] joined in matrimony Jacobus Wehrlia[m] [= Johann Jacob Wehrli] and Elisabetha Borer, both from Grindel, Erischwyg. The witnesses were Heinricus Werli [= Heinrich/Henri Wehrli] and Catharina Borer."]
+1 NOTE Archival reference: ARK 3:1:3Q9M-CSVK-NSXR-C (FHC-only access); retrieved 2026-08-07 by the external FamilySearch retrieval agent as image rec-bohrer-werly-borer-marriages-grindel-1780.jpg.
+1 OBJE @OBJPAR0029@
 0 @PRB0001@ SOUR
 1 TITL 1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza Balbina de Toledo (wife of Simplício José Ferreira Armond)
 1 TEXT A page from an 1881 Leopoldina probate/partilha listing the heirs of an estate on Eliza Balbina de Toledo's side. It names Eliza Balbina de Toledo as the wife of Simplício José Ferreira Armond and lists her Toledo siblings with ages: Maria Bulandina de Toledo (m. Manoel Marques Jorge), Ladisláo Egydio Ferreira de Toledo (~23, b. ~1858), Geraldo Augusto de Toledo Lima (~15, b. ~1866, then living in Rio de Janeiro), and Josepha Olympia da Paixão (~12, b. ~1869), plus a predeceased Carolina Leopoldina Marques inheriting by representation. The companion 1884 petition (PRB-0002) names the decedent as D. Mathilde Maria de Jezus.
@@ -3011,6 +3123,21 @@
 2 FORM image/jpeg
 2 TITL Certified ecclesiastical transcript of the 1838 baptism of Carolina, daughter of Capitão Cezário José da Silva Lima and Dona Joanna Umbelina de Jesus (São José del-Rei), confirming Amaro da Silva Xavier × Ignez Francisca de Lima as paternal grandparents
 1 NOTE sha256: de608b3a7323e448f2ffb054416cff312fcb865051f7b5541713453e5caf4210
+0 @OBJPAR0027@ OBJE
+1 FILE evidence/parish/PAR-0027-wehrli-borer-baptisms-grindel-1751-1753.jpg
+2 FORM image/jpeg
+2 TITL Grindel (Solothurn) Catholic parish baptism register, 1751–1753 — baptism of Johann Jacob Wehrli (17 January 1751) and Johann Joseph Wehrli (23 June 1752), children of Johannes Wehrli × Barbara Alleman
+1 NOTE sha256: ebaaa8065bb86c31ea31b67c7705026f3ebe4e6ba489c1f39a32fb9a374e5354
+0 @OBJPAR0028@ OBJE
+1 FILE evidence/parish/PAR-0028-elisabetha-borer-baptism-1760-erschwil.jpg
+2 FORM image/jpeg
+2 TITL Erschwil (Solothurn) Catholic parish baptism register, church book #68, 1760 — baptism of Elisabetha Borer (17 June 1760), daughter of Joseph Borer and Anna Maria Borer
+1 NOTE sha256: fde9c25873c61d763041bc2d05d37335bd776908c6070a40424100aedad021c6
+0 @OBJPAR0029@ OBJE
+1 FILE evidence/parish/PAR-0029-wehrli-borer-marriage-1782-grindel.jpg
+2 FORM image/jpeg
+2 TITL Grindel (Solothurn) Catholic parish marriage register, page 71 — marriage of Johann Jacob Wehrli and Elisabetha Borer, 27 January 1782
+1 NOTE sha256: 3d5b641f1196fb7cf0447d2600e25535b4cb0562ebc9f12d445ac254e1238f1b
 0 @OBJPRB0001@ OBJE
 1 FILE evidence/probate/PRB-0001-probate-toledo-heir-list-leopoldina-1881-original.jpg
 2 FORM image/jpeg

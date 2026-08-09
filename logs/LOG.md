@@ -5,6 +5,12 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-08-09 — Bohrer Swiss parish primary promotions (2026-08-08 retrieval drop)
+
+- Question: complete the value-gate cycle on the 2026-08-08 retrieval drop; promote the Swiss primary parish register images.
+- Key results: (1) **PAR-0027** (Grindel 1751-1753 baptism register) — PRIMARY record confirms Johann Jacob Wehrli (P-0072) baptised 17 January 1751 in Grindel; parents **Johannes Wehrli (P-0074) × Barbara Alleman (P-0075)** confirmed (primary, upgrades from Raibert blog STRONG). Same page shows son Johann Joseph Wehrli baptised 23 June 1752 (documented sibling, F-0036). (2) **PAR-0028** (Erschwil 1760 baptism register, church book #68) — PRIMARY record confirms Elisabetha Borer (P-0073) baptised 17 June 1760 in Erschwil; parents **Joseph Borer (P-0076) × Anna Maria Borer (P-0077)** confirmed. (3) **PAR-0029** (Grindel 1782 marriage register) — primary image archived; E-0065 and F-0035 upgraded from strong-evidence to confirmed. (4) Seven FS cycle images assessed: one already catalogued (GOV-0001), two FAN context (Ladisláo louvado in Rio Pomba 1843), one deferred (SJdRei 1811), one FAN creditor (Simplício 1882-83), one new Armond lead (António → José Ferreira Armond, Rio Pomba landowners), one titled branch. (5) PUB-0003 date conflicts noted in F-0033 (Vicente's ordinal; Thereza's birth date).
+- New entities: PAR-0027/0028/0029; P-0074/0075/0076/0077; F-0036/0037; E-0068/0069. Session log: `logs/2026-08-09-bohrer-swiss-parish-primary-promotions.md`.
+
 ## 2026-08-08 — Bohrer/Borer line extension to 1819 immigrants via Imigrantes compilation
 
 - Question: value-gate the 2026-08-07 retrieval drop (17 Bohrer images); extend the Valentim Martinho Bohrer paternal line.

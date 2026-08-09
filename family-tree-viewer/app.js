@@ -44,6 +44,12 @@ const FLAG_SVGS = {
     '<circle cx="8.4" cy="7" r="2.8" fill="none" stroke="#ffdf00" stroke-width="0.9"/>' +
     '<rect x="7.3" y="4.6" width="2.2" height="4.8" rx="0.5" fill="#fff" stroke="#da291c" stroke-width="0.5"/>' +
     "</svg>",
+  Swiss:
+    '<svg viewBox="0 0 14 14" role="img" aria-hidden="true">' +
+    '<rect width="14" height="14" fill="#da291c"/>' +
+    '<rect x="5.5" y="2" width="3" height="10" fill="#fff"/>' +
+    '<rect x="2" y="5.5" width="10" height="3" fill="#fff"/>' +
+    "</svg>",
 };
 
 function nationalityFlag(nationality) {

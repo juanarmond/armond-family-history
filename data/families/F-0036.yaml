@@ -1,0 +1,47 @@
+schema_version: 1
+id: F-0036
+partners:
+- person_id: P-0074
+  role: spouse
+- person_id: P-0075
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PAR-0027
+  notes:
+  - text: >-
+      The couple Johannes Wehrli (P-0074) × Barbara Alleman (P-0075) appears
+      twice as parents in the Grindel Catholic parish baptism register (PAR-0027,
+      page 571): for Johann Jacob (17 January 1751) and Johann Joseph (23 June
+      1752). No marriage record for this couple has been located.
+children:
+- person_id: P-0072
+  parent_relationships:
+  - parent_id: P-0074
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0027
+    notes: []
+  - parent_id: P-0075
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0027
+    notes: []
+  notes: []
+documented_children:
+- name: Johann Joseph Wehrli
+  source_ids:
+  - PAR-0027
+  note: >-
+    Baptised 23 June 1752, Grindel; parents Johannes Wehrli × Barbara Alleman
+    (PAR-0027, page 571, row 6). Godfather: Josephus Wehrli (probable uncle or
+    kinsman). Fate unknown; not among the 1819 Heureux Voyage emigrants. Not modelled.
+event_ids: []
+notes:
+- text: >-
+    Marriage date and location for Johannes Wehrli × Barbara Alleman have not
+    been identified in the available records. The couple's presence in Grindel
+    is attested by the 1751 and 1752 baptism entries in the parish register.

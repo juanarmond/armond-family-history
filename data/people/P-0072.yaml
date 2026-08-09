@@ -18,9 +18,11 @@ occupations:
   source_ids:
   - PUB-0003
 event_ids:
+- E-0068
 - E-0065
 - E-0066
 family_ids:
+- F-0036
 - F-0035
 notes:
 - text: >-
@@ -28,10 +30,14 @@ notes:
     Voyage in 1819 with his wife Elisabetha Borer (P-0073) and most of their children,
     including Anna Maria (P-0069), Laurent Borer's future wife.
 - text: >-
-    Born 17 January 1751, Grindel, Soleure (Solothurn), Switzerland (PUB-0003,
-    strong-evidence — Casa Suíça DB entry). Casa Suíça DB lists his age at arrival
-    (1819) as 49 — a database error; born 1751, he was actually ~68 in 1819. The DB
-    narrative text correctly states '68 anos.'
+    Born 17 January 1751, Grindel, Soleure (Solothurn), Switzerland — PRIMARY
+    evidence: Grindel Catholic parish baptism register (PAR-0027, page 571, row 2):
+    "17 Januar. 1751, Gofannef Jacobif, parents Johannis Whroli × Barbara Allman."
+    Parents confirmed as Johannes Wehrli (P-0074) × Barbara Alleman (P-0075).
+    This upgrades the birth date from strong-evidence (PUB-0003 Casa Suíça DB)
+    to confirmed. Casa Suíça DB lists his age at arrival (1819) as 49 — a database
+    error; born 1751, he was actually ~68 in 1819; the DB narrative text correctly
+    states '68 anos.'
 - text: >-
     His daughter Anna Maria Werhly (P-0069) married Laurent Borer (P-0068) on the
     same day — 03/07/1820 — as his daughter Salomé married Louis Nicolas Villette.

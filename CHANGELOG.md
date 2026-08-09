@@ -5,6 +5,17 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Bohrer Swiss parish primaries: three new generations confirmed (2026-08-09)
+
+- **PAR-0027** (Grindel 1751–1753 Catholic baptism register): PRIMARY evidence for Johann Jacob Wehrli's (P-0072) birth on 17 January 1751 in Grindel. Parents confirmed as Johannes Wehrli (P-0074) and Barbara Alleman (P-0075). Also documents sibling Johann Joseph Wehrli (b. 23 June 1752, documented_child on F-0036).
+- **PAR-0028** (Erschwil 1760 Catholic baptism register, church book #68): PRIMARY evidence for Elisabetha Borer's (P-0073) birth on 17 June 1760 in Erschwil. Parents confirmed as Joseph Borer (P-0076) and Anna Maria Borer (P-0077).
+- **PAR-0029** (Grindel 1782 Catholic marriage register, page 71): PRIMARY image archived for the 27 January 1782 marriage of Johann Jacob Wehrli × Elisabetha Borer (ARK 3:1:3Q9M-CSVK-NSXR-C, FHC-restricted). Upgrades E-0065 and F-0035 from strong-evidence to confirmed.
+- **P-0074** Johannes Wehrli (JJ Wehrli's father) and **P-0075** Barbara Alleman (JJ Wehrli's mother): new person entities, confirmed by PAR-0027. **F-0036** (Johannes × Barbara family entity).
+- **P-0076** Joseph Borer (Elisabetha's father) and **P-0077** Anna Maria Borer (Elisabetha's mother): new person entities, confirmed by PAR-0028. **F-0037** (Joseph × Anna Maria family entity).
+- **E-0068** (JJ Wehrli baptism event, 17 Jan 1751) and **E-0069** (Elisabetha Borer baptism event, 17 Jun 1760).
+- F-0033 notes updated with internal PUB-0003 date conflicts (Vicente's ordinal 6th vs. 7th; Thereza's birth 1838 vs. 1836).
+- GEDCOM regenerated (7.0, 3181 lines); viewer index regenerated (270 entities).
+
 ### Added — Bohrer/Borer line extended to 1819 Swiss immigrants (2026-08-08)
 
 - **PUB-0003** (new source): Imigrantes de Nova Friburgo (Henrique Bon, compiler),

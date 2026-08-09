@@ -1,0 +1,26 @@
+schema_version: 1
+id: E-0068
+event_type: baptism
+date:
+  kind: exact
+  value: "1751-01-17"
+  original_text: >-
+    17 Januar. 1751 — Grindel Catholic baptism register, page 571, row 2
+place_text: Grindel, Soleure (Solothurn), Switzerland
+participants:
+- person_id: P-0072
+  role: principal
+- person_id: P-0074
+  role: parent
+- person_id: P-0075
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0027
+notes:
+- text: >-
+    Godfather: Hans Jacob Heggendorn. Godmother: Anna [surname illegible].
+    The 1751 baptism date and Grindel location are consistent with the Casa Suíça
+    database entry for Johann Jacob Wehrli (b. 17 January 1751, Grindel, Soleure;
+    PUB-0003). This primary record upgrades the birth-date evidence from
+    strong-evidence (PUB-0003) to confirmed (PAR-0027).
