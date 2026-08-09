@@ -21,7 +21,7 @@
 1 SEX M
 1 RESN PRIVACY
 1 FAMC @F0011@
-1 NOTE Repository subject and Ahnentafel position 1. Private civil sources are catalogued, but identity numbers, addresses, contact details and signatures remain outside structured person data and public derivatives.
+1 NOTE Repository subject and Ahnentafel position 1. Private civil sources are catalogued, but identity numbers, addresses, contact details and signatures remain outside structured person data and public derivatives. Sujeito do repositório e posição 1 no Ahnentafel. As fontes civis privadas estão catalogadas, mas números de identidade, endereços, dados de contato e assinaturas permanecem fora dos dados estruturados da pessoa e dos derivados públicos.
 0 @P0002@ INDI
 1 NAME Luis Carlos Igracio /Armond/
 2 GIVN Luis Carlos Igracio
@@ -30,7 +30,7 @@
 1 RESN PRIVACY
 1 FAMC @F0002@
 1 FAMS @F0011@
-1 NOTE Ahnentafel position 2. Preserve the spelling Igracio exactly as supplied by the repository owner.
+1 NOTE Ahnentafel position 2. Preserve the spelling Igracio exactly as supplied by the repository owner. Posição 2 no Ahnentafel. Preservar a grafia Igracio exatamente conforme fornecida pelo proprietário do repositório.
 0 @P0003@ INDI
 1 NAME Lucinea Aparecida Muniz /Armond/
 2 GIVN Lucinea Aparecida Muniz
@@ -39,7 +39,7 @@
 1 RESN PRIVACY
 1 FAMC @F0004@
 1 FAMS @F0011@
-1 NOTE Ahnentafel position 3.
+1 NOTE Ahnentafel position 3. Posição 3 no Ahnentafel.
 0 @P0004@ INDI
 1 NAME Geraldo Paz /Armond/
 2 GIVN Geraldo Paz
@@ -102,7 +102,7 @@
 2 SOUR @CIV0004@
 1 FAMC @F0001@
 1 FAMS @F0004@
-1 NOTE Ahnentafel position 6. The fuller form Antenor Muniz Bittencourt remains a lead pending direct source cataloguing.
+1 NOTE Ahnentafel position 6. The fuller form Antenor Muniz Bittencourt remains a lead pending direct source cataloguing. Posição 6 no Ahnentafel. A forma mais completa Antenor Muniz Bittencourt permanece como pista pendente de catalogação direta de fontes.
 0 @P0007@ INDI
 1 NAME Iris Bohrer /Muniz/
 2 GIVN Iris Bohrer
@@ -118,7 +118,7 @@
 3 QUAY 2
 1 FAMS @F0004@
 1 FAMC @F0005@
-1 NOTE Ahnentafel position 7.
+1 NOTE Ahnentafel position 7. Posição 7 no Ahnentafel.
 0 @P0008@ INDI
 1 NAME Aristão Ferreira /Armond/
 2 GIVN Aristão Ferreira
@@ -179,8 +179,8 @@
 2 SOUR @CIV0017@
 1 FAMS @F0012@
 1 FAMC @F0015@
-1 NOTE Ahnentafel position 10. Recorded both as "Antonio Engracio Filho" (family roster REC-0001; his 1964 death CIV-0017) and "Antônio Engrácio de Souza" (his daughter Cidalia's 1952 marriage CIV-0002) — "Filho" distinguishes him from his father Antonio Engracio de Souza (P-0032), who shares the base name.
-1 NOTE Born 15 June 1894 in Minas Gerais (CIV-0002, recorded while living; the age 69 at his 1964 death, CIV-0017, implied c.1895). Died 21 June 1964 at Rio de Janeiro (residence Pavuna, then Guanabara; buried São João de Meriti), a negociante married to Maria Aurora Guimarães. His parents were Antonio Engracio de Souza (P-0032) and Luzia Pinheiro da Conceição (P-0033) — family F-0015 — both deceased by 1964; the record reports six surviving adult children.
+1 NOTE Ahnentafel position 10. Recorded both as "Antonio Engracio Filho" (family roster REC-0001; his 1964 death CIV-0017) and "Antônio Engrácio de Souza" (his daughter Cidalia's 1952 marriage CIV-0002) — "Filho" distinguishes him from his father Antonio Engracio de Souza (P-0032), who shares the base name. Posição 10 no Ahnentafel. Registrado tanto como "Antonio Engracio Filho" (lista familiar REC-0001; óbito de 1964 CIV-0017) quanto como "Antônio Engrácio de Souza" (casamento de 1952 de sua filha Cidalia CIV-0002) — "Filho" o distingue de seu pai Antonio Engracio de Souza (P-0032), que tem o mesmo nome base.
+1 NOTE Born 15 June 1894 in Minas Gerais (CIV-0002, recorded while living; the age 69 at his 1964 death, CIV-0017, implied c.1895). Died 21 June 1964 at Rio de Janeiro (residence Pavuna, then Guanabara; buried São João de Meriti), a negociante married to Maria Aurora Guimarães. His parents were Antonio Engracio de Souza (P-0032) and Luzia Pinheiro da Conceição (P-0033) — family F-0015 — both deceased by 1964; the record reports six surviving adult children. Nascido em 15 de junho de 1894 em Minas Gerais (CIV-0002, registrado em vida; a idade de 69 anos ao óbito em 1964, CIV-0017, indica c.1895). Falecido em 21 de junho de 1964 no Rio de Janeiro (residência em Pavuna, depois Guanabara; sepultado em São João de Meriti), negociante, casado com Maria Aurora Guimarães. Seus pais foram Antonio Engracio de Souza (P-0032) e Luzia Pinheiro da Conceição (P-0033) — família F-0015 — ambos falecidos antes de 1964; o registro indica seis filhos adultos sobreviventes.
 0 @P0011@ INDI
 1 NAME Maria Aurora /Guimarães/
 2 GIVN Maria Aurora
@@ -201,9 +201,9 @@
 3 QUAY 3
 1 FAMC @F0008@
 1 FAMS @F0012@
-1 NOTE Ahnentafel position 11.
-1 NOTE Resolves material conflict 10. Both name forms are preserved and proven to be one woman: the 1915 retrospective birth registration (CIV-0007) records "Maria Amora", while her own 1991 death (CIV-0018), her marriage (CIV-0002) and the family roster (REC-0001) record "Maria Aurora"; both forms name the identical parents (Francisco José de Carvalho Guimarães + Emerenciana Maria de Jesus). Preferred name set to "Maria Aurora" on 2026-07-30: three sources — including her own death record — use it, against a single retrospective, certified-copy birth registration that most likely mis-transcribed the unusual "Amora" for the common name "Aurora". (Consistent with the same choice for P-0015 Celina/Selina.)
-1 NOTE Died 15 September 1991 at Rio de Janeiro, aged 87 (so born c.1904, matching her 1904 birth, E-0007), a widow of Antonio Engracio Filho, per her civil death (CIV-0018).
+1 NOTE Ahnentafel position 11. Posição 11 no Ahnentafel.
+1 NOTE Resolves material conflict 10. Both name forms are preserved and proven to be one woman: the 1915 retrospective birth registration (CIV-0007) records "Maria Amora", while her own 1991 death (CIV-0018), her marriage (CIV-0002) and the family roster (REC-0001) record "Maria Aurora"; both forms name the identical parents (Francisco José de Carvalho Guimarães + Emerenciana Maria de Jesus). Preferred name set to "Maria Aurora" on 2026-07-30: three sources — including her own death record — use it, against a single retrospective, certified-copy birth registration that most likely mis-transcribed the unusual "Amora" for the common name "Aurora". (Consistent with the same choice for P-0015 Celina/Selina.) Resolve o conflito material 10. Ambas as formas de nome são preservadas e comprovadas como sendo a mesma mulher: o registro retroativo de nascimento de 1915 (CIV-0007) registra "Maria Amora", enquanto seu próprio óbito de 1991 (CIV-0018), seu casamento (CIV-0002) e a lista familiar (REC-0001) registram "Maria Aurora"; ambas as formas identificam os mesmos pais (Francisco José de Carvalho Guimarães + Emerenciana Maria de Jesus). Nome preferido definido como "Maria Aurora" em 30/07/2026: três fontes — incluindo seu próprio registro de óbito — o utilizam, contra um único registro retroativo em certidão de nascimento que provavelmente transcreveu "Amora" no lugar do nome comum "Aurora". (Coerente com a mesma escolha para P-0015 Celina/Selina.)
+1 NOTE Died 15 September 1991 at Rio de Janeiro, aged 87 (so born c.1904, matching her 1904 birth, E-0007), a widow of Antonio Engracio Filho, per her civil death (CIV-0018). Falecida em 15 de setembro de 1991 no Rio de Janeiro, com 87 anos (portanto nascida c.1904, compatível com seu nascimento em 1904, E-0007), viúva de Antonio Engracio Filho, conforme seu óbito civil (CIV-0018).
 0 @P0012@ INDI
 1 NAME Deocleciano Muniz /Bittencourt/
 2 GIVN Deocleciano Muniz
@@ -226,7 +226,7 @@
 3 QUAY 3
 1 FAMS @F0001@
 1 FAMC @F0007@
-1 NOTE His 1892 baptism at Santo Antônio de Sapucaia (PAR-0004, event E-0034) is his earliest vital record; it confirms his parents João Muniz Bittencourt (P-0019) and Susanna Rita Brandão (P-0020) and settles the father's name as "João" (the 1882 provisão's "José" was an error).
+1 NOTE His 1892 baptism at Santo Antônio de Sapucaia (PAR-0004, event E-0034) is his earliest vital record; it confirms his parents João Muniz Bittencourt (P-0019) and Susanna Rita Brandão (P-0020) and settles the father's name as "João" (the 1882 provisão's "José" was an error). Seu batismo de 1892 em Santo Antônio de Sapucaia (PAR-0004, evento E-0034) é seu registro vital mais antigo; confirma seus pais João Muniz Bittencourt (P-0019) e Susanna Rita Brandão (P-0020) e estabelece o nome do pai como "João" (o "José" da provisão de 1882 era um erro).
 0 @P0013@ INDI
 1 NAME Luiza Fernandes de /Azevedo/
 2 GIVN Luiza Fernandes de
@@ -245,7 +245,7 @@
 3 QUAY 2
 1 FAMS @F0001@
 1 FAMC @F0018@
-1 NOTE Her parents are José Secundino de Azevedo (P-0038) and Thereza Fernandes de Azevedo (P-0039) — family F-0018 — named in her 1916 civil marriage (CIV-0001), her 1916 parish marriage (PAR-0012) and her son Aristides's 1922 baptism (PAR-0003). "Fernandes" is her mother's surname and "Secundina/Secundino" her father's; both variants of her own name are preserved. Her 1916 parish marriage records her "nascida e baptizada em Bom Jesus de Cachoeira Alegre" (a district of São Paulo do Muriaé, MG — her birthplace, event E-0033). The Azevedo family origin is the Muriaé/Carangola region (MG).
+1 NOTE Her parents are José Secundino de Azevedo (P-0038) and Thereza Fernandes de Azevedo (P-0039) — family F-0018 — named in her 1916 civil marriage (CIV-0001), her 1916 parish marriage (PAR-0012) and her son Aristides's 1922 baptism (PAR-0003). "Fernandes" is her mother's surname and "Secundina/Secundino" her father's; both variants of her own name are preserved. Her 1916 parish marriage records her "nascida e baptizada em Bom Jesus de Cachoeira Alegre" (a district of São Paulo do Muriaé, MG — her birthplace, event E-0033). The Azevedo family origin is the Muriaé/Carangola region (MG). Seus pais são José Secundino de Azevedo (P-0038) e Thereza Fernandes de Azevedo (P-0039) — família F-0018 — nomeados em seu casamento civil de 1916 (CIV-0001), seu casamento paroquial de 1916 (PAR-0012) e no batismo de 1922 de seu filho Aristides (PAR-0003). "Fernandes" é o sobrenome de sua mãe e "Secundina/Secundino" o de seu pai; ambas as variantes de seu próprio nome são preservadas. Seu casamento paroquial de 1916 a registra como "nascida e baptizada em Bom Jesus de Cachoeira Alegre" (um distrito de São Paulo do Muriaé, MG — seu local de nascimento, evento E-0033). A origem da família Azevedo é a região de Muriaé/Carangola (MG).
 0 @P0014@ INDI
 1 NAME João Gonçalves /Bohrer/
 2 GIVN João Gonçalves
@@ -268,8 +268,8 @@
 2 SOUR @CIV0014@
 1 FAMS @F0005@
 1 FAMC @F0013@
-1 NOTE Ahnentafel position 14.
-1 NOTE Died 3 August 1970 at Volta Redonda, RJ, aged 76 (so born c.1894), a comerciante married to Celina Bohrer, per his civil death (CIV-0014). His parents were Valentim Martinho Bohrer (P-0028) and Carolina Bohrer (P-0029) — family F-0013 — named in that death and in Eunir Bohrer's 1924 Nova Friburgo birth (CIV-0016).
+1 NOTE Ahnentafel position 14. Posição 14 no Ahnentafel.
+1 NOTE Died 3 August 1970 at Volta Redonda, RJ, aged 76 (so born c.1894), a comerciante married to Celina Bohrer, per his civil death (CIV-0014). His parents were Valentim Martinho Bohrer (P-0028) and Carolina Bohrer (P-0029) — family F-0013 — named in that death and in Eunir Bohrer's 1924 Nova Friburgo birth (CIV-0016). Falecido em 3 de agosto de 1970 em Volta Redonda, RJ, com 76 anos (portanto nascido c.1894), comerciante, casado com Celina Bohrer, conforme seu óbito civil (CIV-0014). Seus pais foram Valentim Martinho Bohrer (P-0028) e Carolina Bohrer (P-0029) — família F-0013 — nomeados nesse óbito e no nascimento de Eunir Bohrer em 1924 em Nova Friburgo (CIV-0016).
 0 @P0015@ INDI
 1 NAME Celina /Bohrer/
 2 GIVN Celina
@@ -294,8 +294,8 @@
 3 QUAY 2
 1 FAMS @F0005@
 1 FAMC @F0014@
-1 NOTE Ahnentafel position 15. Preferred name is "Celina", the spelling used by three primary civil records — her own 1977 death (CIV-0015), her husband's 1970 death (CIV-0014) and Eunir Bohrer's 1924 birth (CIV-0016). "Selina" is preserved as a variant but appears only in the 1949 marriage certificate (CIV-0004) and the owner's family roster (REC-0001). The preferred name was changed from "Selina" to "Celina" on 2026-07-30: her own death record and the weight of civil evidence outweigh the single marriage spelling.
-1 NOTE Died 19 February 1977 at Volta Redonda, RJ, aged 77 (so born c.1900), a widow, per her civil death (CIV-0015). Born in Nova Friburgo, RJ ("natural deste Districto", CIV-0016), which resolves the São Leopoldo (RS) "Celina Amalia Bohrer" as a different person. Her parents were Joaquim José Bohrer (P-0030) and Lucinda Ferreira da Silva (P-0031) — family F-0014.
+1 NOTE Ahnentafel position 15. Preferred name is "Celina", the spelling used by three primary civil records — her own 1977 death (CIV-0015), her husband's 1970 death (CIV-0014) and Eunir Bohrer's 1924 birth (CIV-0016). "Selina" is preserved as a variant but appears only in the 1949 marriage certificate (CIV-0004) and the owner's family roster (REC-0001). The preferred name was changed from "Selina" to "Celina" on 2026-07-30: her own death record and the weight of civil evidence outweigh the single marriage spelling. Posição 15 no Ahnentafel. O nome preferido é "Celina", a grafia usada por três registros civis primários — seu próprio óbito de 1977 (CIV-0015), o óbito de seu marido de 1970 (CIV-0014) e o nascimento de Eunir Bohrer em 1924 (CIV-0016). "Selina" é preservado como variante, mas aparece apenas na certidão de casamento de 1949 (CIV-0004) e na lista familiar do proprietário (REC-0001). O nome preferido foi alterado de "Selina" para "Celina" em 30/07/2026: o próprio registro de óbito e o peso das evidências civis superam a única grafia do casamento.
+1 NOTE Died 19 February 1977 at Volta Redonda, RJ, aged 77 (so born c.1900), a widow, per her civil death (CIV-0015). Born in Nova Friburgo, RJ ("natural deste Districto", CIV-0016), which resolves the São Leopoldo (RS) "Celina Amalia Bohrer" as a different person. Her parents were Joaquim José Bohrer (P-0030) and Lucinda Ferreira da Silva (P-0031) — family F-0014. Falecida em 19 de fevereiro de 1977 em Volta Redonda, RJ, com 77 anos (portanto nascida c.1900), viúva, conforme seu óbito civil (CIV-0015). Nascida em Nova Friburgo, RJ ("natural deste Districto", CIV-0016), o que diferencia a "Celina Amalia Bohrer" de São Leopoldo (RS) como uma pessoa diferente. Seus pais foram Joaquim José Bohrer (P-0030) e Lucinda Ferreira da Silva (P-0031) — família F-0014.
 0 @P0016@ INDI
 1 NAME Simplício José Ferreira /Armond/
 2 GIVN Simplício José Ferreira

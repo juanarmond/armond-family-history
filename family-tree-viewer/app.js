@@ -721,7 +721,11 @@ function list(items, emptyText) {
   ul.className = "detail-list";
   for (const item of items) {
     const li = document.createElement("li");
-    li.textContent = item;
+    const segments = item.split("\n");
+    for (let i = 0; i < segments.length; i++) {
+      if (i > 0) li.append(document.createElement("br"));
+      li.append(document.createTextNode(segments[i]));
+    }
     ul.append(li);
   }
   return ul;
