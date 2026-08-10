@@ -9,7 +9,12 @@ name_variants:
   type: source
   source_ids:
   - PRB-0009
-event_ids: []
+- value: Francisco Leocadio de Toledo
+  type: source
+  source_ids:
+  - GOV-0003
+event_ids:
+- E-0073
 family_ids:
 - F-0027
 - F-0030
@@ -40,3 +45,8 @@ notes:
     Leocádio as her husband (son-in-law of Ladisláo), not his direct child. This
     contradicts PRB-0009-gen1 which lists FL as child #4. Do NOT restructure F-0027
     or P-0061 until the p.383 image is verified against this transcript reading.
+- text: >-
+    Landholder at the Fazenda da Concórdia: the 1856 Lei de Terras registry (GOV-0003,
+    entry Nº 144, event E-0073) records him as a co-possessor within the Concórdia,
+    confirming him alive in April 1856. This does not bear on the child-vs-son-in-law
+    conflict above.

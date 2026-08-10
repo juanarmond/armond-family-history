@@ -1125,6 +1125,24 @@ See `logs/2026-08-07-retrieval-drop-triage-third-pass.md` for detail.
 
 ---
 
+## 2026-08-10 — 1856 Concórdia land registry (GOV-0003) + Toledo triage continuation
+
+Promoted **GOV-0003**: the 1856 Lei de Terras land registry (Rio Pardo, Villa Leopoldina), entries
+Nº 144 (Francisco Leocádio de Toledo, P-0061) and Nº 145 (José Cesário de Toledo Lima, P-0054)
+for the Fazenda da Concórdia. Nº 145's "por minha Mãe, irmãos e cunhados" confirms José Cesário
+alive in April 1856 and his mother (Mathilde, P-0027) then living. Event E-0073 (residence),
+DOC-0073; P-0054/P-0061 updated. Resolves the "mother registered land in 1856" lead. 288
+entities; 69 tests pass; GEDCOM 3416 lines.
+
+**Read, not promoted:** 1885 tutela cover (Josepha guardianship — low value, corroborates existing
+F-0026 documented_child + known tutor). 1881 Ladisláo estate audiência (folio 185) — **deferred**,
+entangled with PRB-0001/0002 and the unresolved two-Ladisláo conflict; needs the estate file's ARK
+to determine whose 1881 estate it is before cataloguing.
+
+See `logs/2026-08-10-toledo-1856-concordia-land-registry.md`.
+
+---
+
 ## 2026-08-10 — Maternal Toledo/Valle line extended to 1700s Portugal (PAR-0034–0036)
 
 Value-gated the Toledo deep-ancestry images from the retrieval drop (agent-2 classification pass,

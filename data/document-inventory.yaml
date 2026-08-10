@@ -2958,3 +2958,39 @@ documents:
         both spouses' parents (both fathers deceased by 1716) as leads. Deepest
         confirmed generation of the maternal Toledo/Valle line. All persons
         18th-century deceased.
+  - inventory_id: DOC-0073
+    status: catalogued
+    added_date: "2026-08-10"
+    apparent_record_type: Land registration under the 1850 Lei de Terras (original register page)
+    apparent_people:
+      - Francisco Leocádio de Toledo (Nº 144)
+      - José Cesário de Toledo Lima (Nº 145)
+    apparent_event: other
+    image_quality: adequate
+    provenance: >-
+      FamilySearch retrieval drop (research/from-retrieval/ sync); 1856 Lei de Terras
+      land registry for the Curato do Rio Pardo, Município de Villa Leopoldina (MG),
+      page "Nº 835", entries Nº 144 (Francisco Leocádio de Toledo) and Nº 145 (José
+      Cesário de Toledo Lima), both for the Fazenda da Concórdia. Retrieved as image
+      rec-toledo-concordia-terras-1856-bomjesus-riopardo.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/government/GOV-0003-toledo-concordia-land-registry-1856-riopardo.jpg
+        sha256: 879808625e76cf8833eeb286d618fdb2610c0697022b1af2f3c881f8bd4e8a73
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 827
+          pixel_height: 1200
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: GOV-0003
+    notes:
+      - >-
+        Primary 1856 land-registry declarations naming Francisco Leocádio de Toledo
+        (P-0061) and José Cesário de Toledo Lima (P-0054) as Fazenda da Concórdia
+        landholders; Nº 145 confirms José Cesário's mother (Mathilde, P-0027) alive
+        in 1856. All persons 19th-century deceased.

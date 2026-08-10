@@ -1,0 +1,28 @@
+schema_version: 1
+id: E-0073
+event_type: residence
+date:
+  kind: month
+  year: 1856
+  month: 4
+  original_text: >-
+    "Rio Pardo 16 de Abril de 1856" (Nº 144) / "Rio Pardo 1? de Abril de 1856" (Nº 145)
+place_text: >-
+  Fazenda da Concórdia, Curato/Distrito do Rio Pardo, Município de Villa Leopoldina,
+  Minas Gerais, Brazil
+participants:
+- person_id: P-0054
+  role: principal
+- person_id: P-0061
+  role: principal
+status: confirmed
+source_ids:
+- GOV-0003
+notes:
+- text: >-
+    1856 Lei de Terras land declarations for the Fazenda da Concórdia (Rio Pardo,
+    Villa Leopoldina). Francisco Leocádio de Toledo (P-0061) declared his share
+    (entry Nº 144) and José Cesário de Toledo Lima (P-0054) declared the 200-alqueire
+    Concórdia "por minha Mãe, irmãos e cunhados" (entry Nº 145), per GOV-0003. Two
+    separate declarations grouped as one residence/landholding event at the shared
+    fazenda.

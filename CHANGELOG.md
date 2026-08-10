@@ -5,6 +5,13 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — 1856 Fazenda da Concórdia land registry (2026-08-10)
+
+- **GOV-0003** (government_record / original / primary / direct): 1856 Lei de Terras land registry, Curato do Rio Pardo, Município de Villa Leopoldina — entries Nº 144 (Francisco Leocádio de Toledo, P-0061) and Nº 145 (José Cesário de Toledo Lima, P-0054) for the Fazenda da Concórdia. Nº 145 confirms José Cesário alive in April 1856 and his mother (Mathilde, P-0027) then living.
+- **E-0073** (residence, Fazenda da Concórdia, Apr 1856; principals P-0054 + P-0061); **DOC-0073**. P-0054 and P-0061 gained a GOV-0003 name-variant, E-0073, and a sourced note.
+- Read but not promoted: 1885 tutela cover (low value); 1881 Ladisláo estate audiência (deferred pending two-Ladisláo file resolution).
+- GEDCOM regenerated (7.0, 3416 lines); viewer index regenerated (288 entities).
+
 ### Added — Maternal Toledo/Valle line extended to 1700s Portugal (2026-08-10)
 
 - **PAR-0034** (Arquivo da Arquidiocese de Mariana certidão): 22 Feb 1751 Borda do Campo marriage of João Rodrigues Valle × Isabel Ribeiro; derivative/primary/direct. Names both spouses' parents; corrects groom's origin to Ruivais, Braga, Portugal.

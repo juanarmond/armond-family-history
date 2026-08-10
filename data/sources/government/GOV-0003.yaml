@@ -1,0 +1,112 @@
+schema_version: 1
+id: GOV-0003
+title: >-
+  1856 Lei de Terras land registry (Registro de Terras), Curato do Rio Pardo,
+  Município de Villa Leopoldina — entries Nº 144 (Francisco Leocádio de Toledo)
+  and Nº 145 (José Cesário de Toledo Lima) for the Fazenda da Concórdia
+record_type: Land registration under the 1850 Lei de Terras (Registro de Terras / Registro Paroquial de Terras)
+record_category: government_record
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: month
+  year: 1856
+  month: 4
+  original_text: >-
+    "Rio Pardo 16 de Abril de 1856" (Nº 144) and "Rio Pardo 1? de Abril de 1856"
+    (Nº 145)
+event_place_text: >-
+  Curato do Rio Pardo, Distrito do Rio Pardo, Município de Villa Leopoldina, Minas
+  Gerais, Brazil (Fazenda da Concórdia)
+repository:
+  name: Registro de Terras (Lei de Terras 1850), Município de Villa Leopoldina
+  archive_or_registry: >-
+    Livro de Registro de Terras do Curato/Distrito do Rio Pardo, Município de Villa
+    Leopoldina, Minas Gerais (declarations received by the Cura Joaquim Rodrigues da
+    Fonseca Leitão)
+  collection: >-
+    Registro Paroquial de Terras (Lei de Terras de 1850), Rio Pardo / Villa Leopoldina
+  book: >-
+    Livro de registro de terras, Rio Pardo, 1856 — assentos Nº 144 e Nº 145, fólio
+    numbered "Nº 835" at foot of page
+  catalogue_reference: >-
+    Delivered through the research/from-retrieval/ sync as image
+    rec-toledo-concordia-terras-1856-bomjesus-riopardo.jpg; read and promoted
+    2026-08-10. Specific FamilySearch ARK/film to be confirmed.
+  repository_path: evidence/government/GOV-0003-toledo-concordia-land-registry-1856-riopardo.jpg
+access_date: "2026-08-10"
+language: pt-BR
+transcription: >-
+  [Livro de Registro de Terras (Lei de Terras 1850), Curato do Rio Pardo, Município
+  de Villa Leopoldina; página com "Nº 835" ao pé. O topo da página traz o final de
+  um assento anterior (declarante Antonio de Lima, "Rio Pardo 16 de Abril de 1856").]
+
+  "Nº 144. O abaixo assignado he possuidor de 2? alqueires pouco mais ou menos de
+  terras de planta de milho em commum na fazenda da Concordia, no destricto do Rio
+  Pardo, Municipio de Villa Leopoldina, cuja fazenda [é] devida com [Manoel?]
+  Gonçalves Pinto Braga, Antonio Custodio N[ogueira?], Capitão Felisberto e Silva
+  Gonçalves, Paulino de Pilar Ramos, D. Antonia Maria de Jesus com os herdeiros do
+  finado Francisco Antunes, com a fazenda dos Sitios, e com D. Anna [?] Maria de
+  Jesus. 16 de Abril de 1856, Districto do Rio Pardo, Municipio da Villa Leopoldina.
+  Francisco Leocadio de Toledo. He o que continha o exemplar do referido declar[ação]
+  que testemunhei; aqui lancei. Rio Pardo 16 de Abril de 1856. O Cura Joaquim Ro[drigue]s
+  de Fon[seca] Leitão."
+
+  "Nº 145. Eu abaixo assignado, meu filho, e genros declaramos que somos senhores e
+  possuidores de huma fazenda de terras de cultura denominada Concordia, situada
+  neste Curato do Rio Pardo, a qual leva 200 alqueires, e devi[de] por hum lado com
+  Feliberto da Silva Gonçalves, por outro com Antonio Custodio, por outro lado com
+  Manoel Pinto Braga, por outro lado com D. Antonia, e com D. Anna Maria de
+  Assumpção, e com os herdeiros do finado [?] Joaquim Ferreira, as quais terras
+  apresentamos p[ar]a se registrar. Rio Pardo 1? de Abril de 1856. Por minha Mãe,
+  irmãos, e cunhados, José Cesario de Toledo Lima. He o que continha o exemplar do
+  referido declar[ação] que testualmente aqui lancei. Rio Pardo 1? de Abril de 1856.
+  O Cura Joaquim Rodrigues da Fonseca Leitão."
+abstract: >-
+  Two adjacent 1856 land declarations from the Rio Pardo (Villa Leopoldina) registry
+  under the 1850 Lei de Terras. Entry Nº 144 is by Francisco Leocádio de Toledo
+  (P-0061), a co-possessor within the Fazenda da Concórdia. Entry Nº 145 is by José
+  Cesário de Toledo Lima (P-0054), declaring the 200-alqueire Fazenda da Concórdia
+  "por minha Mãe, irmãos e cunhados" — i.e. on behalf of his (then living) mother,
+  siblings and brothers-in-law. Both received by the Cura Joaquim Rodrigues da
+  Fonseca Leitão. Corroborates the family's Concórdia holding (cf. PRB-0003, PRB-0007,
+  PRB-0008) and confirms José Cesário's mother alive in April 1856.
+reliability:
+  assessment: >-
+    Contemporary (1856) primary land-registry declarations, in the original register
+    hand. Directly names Francisco Leocádio de Toledo (P-0061) and José Cesário de
+    Toledo Lima (P-0054) as Concórdia landholders and confirms José Cesário acting for
+    his living mother, siblings and brothers-in-law.
+  informant: >-
+    Self-declarations by Francisco Leocádio de Toledo and José Cesário de Toledo Lima,
+    recorded by the Cura Joaquim Rodrigues da Fonseca Leitão, Rio Pardo (1856).
+  limitations: >-
+    Register cursive; some neighbour names and the exact alqueire figure in Nº 144 and
+    the exact day in Nº 145 are uncertain (marked [?]). The mother, siblings and
+    brothers-in-law of Nº 145 are referenced collectively, not named individually.
+digital_file:
+  path: evidence/government/GOV-0003-toledo-concordia-land-registry-1856-riopardo.jpg
+  sha256: 879808625e76cf8833eeb286d618fdb2610c0697022b1af2f3c881f8bd4e8a73
+linked_people:
+- P-0054
+- P-0061
+linked_families: []
+linked_events:
+- E-0073
+linked_places: []
+private: false
+notes:
+- text: >-
+    Nº 145's "por minha Mãe, irmãos e cunhados" confirms José Cesário de Toledo Lima's
+    (P-0054) mother was alive in April 1856 — consistent with Mathilde Maria de Jesus
+    (P-0027, d. 1879) as his mother, and with the family's ownership of the Fazenda da
+    Concórdia settled in her 1879 inventário (PRB-0006) and the 1877/1862 Concórdia
+    deeds (PRB-0003, PRB-0007). Resolves the "his mother registered land in 1856"
+    research lead (record-coverage P-0017 notes / Nilza Cantoni).
+- text: >-
+    Both declarants are Toledo relatives holding within the same Fazenda da Concórdia;
+    the neighbours (Felisberto da Silva Gonçalves, Antonio Custódio, Manoel [Gonçalves]
+    Pinto Braga, D. Antonia Maria de Jesus, D. Anna Maria de Assumpção, heirs of
+    Joaquim Ferreira) recur across the Concórdia probate cluster.
