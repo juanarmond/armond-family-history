@@ -30,14 +30,32 @@ notes:
     district, Leopoldina MG — widower of Maria Euphronyza de Jesus, carpinteiro,
     approximately 70 years of age (estimated by non-family informant; born c.1834–
     1839). Buried in the public cemetery of Thebes district.
+  text_pt: >-
+    Filho nº 7 de Ladisláo Egídio Ferreira de Toledo (P-0056) × Mathilde Maria de
+    Jesus (P-0027), conforme PRB-0009 (inventário de Ladisláo de 1867, gen1).
+    Listado como "surdo e mudo" (surdo-mudo) em PRB-0009. Óbito confirmado pelo
+    registro civil de 1909 (CIV-0024): morreu em 11 de fevereiro de 1909, às 21h,
+    na Fazenda da Concórdia, distrito de Thebes, Leopoldina MG — viúvo de Maria
+    Euphronyza de Jesus, carpinteiro, com aproximadamente 70 anos de idade
+    (estimados por informante não familiar; nascido por volta de 1834–1839).
+    Sepultado no cemitério público do distrito de Thebes.
 - text: >-
     Previously listed as documented_child in F-0027; promoted to person entity on
     evidence of CIV-0024 (primary civil death record).
+  text_pt: >-
+    Anteriormente listado como documented_child em F-0027; promovido a entidade
+    de pessoa com base na evidência de CIV-0024 (registro civil primário de
+    óbito).
 - text: >-
     Four adult children named in CIV-0024 — Francisco Themotheo de Toledo, José
     Ladislao de Toledo, Amélia (wife of Frederico Augusto Rodrigues), and Mathilde
     (solteira) — are not modelled as person entities. No evidence gate for them
     has been passed; they are research leads only.
+  text_pt: >-
+    Quatro filhos adultos nomeados em CIV-0024 — Francisco Themotheo de Toledo,
+    José Ladislao de Toledo, Amélia (esposa de Frederico Augusto Rodrigues) e
+    Mathilde (solteira) — não estão modelados como entidades de pessoa. Nenhum
+    critério de evidência foi cumprido para eles; são apenas pistas de pesquisa.
 - text: >-
     The 1839 Bonfim population register (Mapa da População) shows a child named
     "Antonio" aged approximately 5 in what appears to be Ladisláo Egídio's
@@ -45,3 +63,11 @@ notes:
     Ladislão was born c.1834, making him c.74–75 at death — consistent with the
     informant's estimate of ~70 years. This census entry is a lead, not confirmed
     evidence, as it has not been ingested as a source.
+  text_pt: >-
+    O registro populacional de Bonfim de 1839 (Mapa da População) mostra uma
+    criança chamada "Antonio" com aproximadamente 5 anos no que parece ser o
+    domicílio de Ladisláo Egídio (página 1 do registro). Se essa identificação
+    estiver correta, António Ladislão nasceu por volta de 1834, o que o colocaria
+    com cerca de 74–75 anos ao morrer — consistente com a estimativa do informante
+    de ~70 anos. Essa entrada censitária é uma pista, não evidência confirmada,
+    pois não foi incorporada como fonte.

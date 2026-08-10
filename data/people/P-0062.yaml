@@ -19,10 +19,22 @@ notes:
     Maria [Joa?]quina de Jesus." The first part of the given name reads "[Joa?]quina"
     in the cursive — most likely "Joaquina" but the reading is uncertain. Nationality
     Brazilian; no birthplace or death date is stated in any located record.
+  text_pt: >-
+    Esposa de Francisco Leocádio de Toledo (P-0061), família F-0030. Nomeada (com
+    incerteza) em PRB-0009 (inventário de Ladisláo de 1867, gen1): "casado que foi
+    com Maria [Joa?]quina de Jesus." A primeira parte do prenome lê-se
+    "[Joa?]quina" na letra cursiva — muito provavelmente "Joaquina", mas a leitura
+    é incerta. Nacionalidade brasileira; nenhum local de nascimento ou data de
+    óbito é declarado em qualquer registro localizado.
 - text: >-
     Whether she predeceased Francisco Leocádio is unclear. The PRB-0009 phrase "vivo
     casado que foi" may indicate he was already a widower ("viúvo") at Ladisláo's
     death, which would mean Maria Joaquina predeceased him. This reading is uncertain.
+  text_pt: >-
+    Se ela faleceu antes de Francisco Leocádio não está claro. A expressão de
+    PRB-0009 "vivo casado que foi" pode indicar que ele já era viúvo ("viúvo") por
+    ocasião do óbito de Ladisláo, o que significaria que Maria Joaquina faleceu
+    antes dele. Essa leitura é incerta.
 - text: >-
     LEAD (2026-08-08, from matilde-1879 inventário transcript, p.260): the 5-agent
     deep-read of the full inventário transcript reports a certidão at p.260 giving
@@ -30,3 +42,11 @@ notes:
     would make her death consistent with FL being a widower at Ladisláo's inventory
     (1867). Image verification required before creating a death event — this date
     comes from the transcript, not from a directly read image.
+  text_pt: >-
+    PISTA (2026-08-08, da transcrição do inventário de matilde-1879, p.260): a
+    leitura aprofundada por 5 agentes da transcrição completa do inventário relata
+    uma certidão na p.260 que dá a data de óbito de Maria Joaquina de Jesus como
+    16 de abril de 1866, Fazenda do Socorro. Isso tornaria seu óbito consistente
+    com FL ser viúvo no inventário de Ladisláo (1867). Verificação de imagem
+    necessária antes de criar um evento de óbito — essa data vem da transcrição,
+    não de uma imagem lida diretamente.

@@ -24,16 +24,33 @@ notes:
     grandfather in the 1922 baptism (PAR-0003, as "José Secundino de Azevedo"). An
     Azevedo family of the Muriaé/Carangola region (MG); his own vital records are
     not located.
+  text_pt: >-
+    Pai de Luiza (Fernandes/Secundina) de Azevedo (P-0013), portanto avô materno de
+    Antenor Muniz. Nomeado como pai de Luiza no casamento de 1916 (CIV-0001, como
+    "Secundino Maria de Azevedo") e como avô materno de Aristides Muniz Bittencourt
+    no batismo de 1922 (PAR-0003, como "José Secundino de Azevedo"). Uma família
+    Azevedo da região de Muriaé/Carangola (MG); seus próprios registros vitais não
+    foram localizados.
 - text: >-
     Nationality left unset: no birthplace or stated nacionalidade is evidenced. His
     daughter Luiza was born in the Muriaé district (MG), but his own origin is not
     documented, so it is not asserted.
+  text_pt: >-
+    Nacionalidade deixada em branco: nenhum local de nascimento ou nacionalidade
+    declarada está evidenciado. Sua filha Luiza nasceu no distrito de Muriaé (MG), mas a
+    origem dele próprio não está documentada, portanto não é afirmada.
 - text: >-
     Given-name RESOLVED (31 July 2026): the parish register of the same 1916 marriage
     (PAR-0012) reads his name "Secundino Maria de Azevedo", matching CIV-0001 and the
     baptism's "José Secundino" (PAR-0003). This confirms the "Sebastião [uncertain:
     Manoel] de Azevedo" reading in the 2019 civil inteiro-teor (CIV-0006, handwritten)
     was a misread. Resolves STATUS conflict 12.
+  text_pt: >-
+    Prenome RESOLVIDO (31 de julho de 2026): o assento paroquial do mesmo casamento de
+    1916 (PAR-0012) traz seu nome como "Secundino Maria de Azevedo", coincidindo com
+    CIV-0001 e com o "José Secundino" do batismo (PAR-0003). Isso confirma que a leitura
+    "Sebastião [incerto: Manoel] de Azevedo" no inteiro teor civil de 2019 (CIV-0006,
+    manuscrito) foi um erro de leitura. Resolve o conflito 12 do STATUS.
 - text: >-
     Lead (not modelled, 31 July 2026): a 1913 Santa Luzia de Carangola parish death
     of an infant "Maria, filha legitima de José [uncertain: Secundino] d'Azevedo",
@@ -41,3 +58,11 @@ notes:
     Carangola in 1913 — corroborating this family's Carangola origin and suggesting a
     late-born daughter (a younger sibling of Luiza). The mother is not named and the
     father's middle name is a cursive read, so it is a lead, not promoted.
+  text_pt: >-
+    Pista (não modelada, 31 de julho de 2026): um óbito paroquial de 1913 em Santa Luzia
+    de Carangola de uma criança "Maria, filha legitima de José [incerto: Secundino]
+    d'Azevedo", registrado "em casa de seu pae", situa um José [Secundino] de Azevedo
+    residente em Carangola em 1913 — corroborando a origem carangolense desta família e
+    sugerindo uma filha nascida tardiamente (uma irmã mais nova de Luiza). A mãe não é
+    nomeada e o nome do meio do pai é uma leitura cursiva, portanto trata-se de uma
+    pista, não promovida.
