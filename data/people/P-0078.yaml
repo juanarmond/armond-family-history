@@ -1,0 +1,51 @@
+schema_version: 1
+id: P-0078
+preferred_name: João Rodrigues Valle
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: João Rodrigues Valle
+  type: source
+  source_ids:
+  - PAR-0034
+  - PAR-0035
+- value: João Roiz Valle
+  type: source
+  source_ids:
+  - PAR-0034
+  note: >-
+    "Roiz" is the customary abbreviation of "Rodrigues" in the 1751 certidão
+    (PAR-0034).
+- value: Joam Rodrigues
+  type: source
+  source_ids:
+  - PAR-0035
+  note: >-
+    Recorded as the child "Joam" in his own 1728 baptism (PAR-0035); the "Valle"
+    surname derives from the family's lugar (quinta do Vale) in Ruivais.
+event_ids:
+- E-0070
+- E-0071
+family_ids:
+- F-0038
+- F-0039
+notes:
+- text: >-
+    Portuguese-born ancestor of the maternal Toledo line. Baptized 16 April 1728
+    (born 15 April 1728) at the Freguesia de São Martinho de Ruivais, Arcebispado
+    de Braga, Portugal (PAR-0035), legitimate son of João Rodrigues [Valle] (P-0080)
+    and Joana Gonçalves (P-0081), family F-0039. He emigrated to Minas Gerais and
+    married Isabel Ribeiro (P-0079) on 22 February 1751 at the Matriz de Nossa
+    Senhora da Piedade da Borda do Campo (Barbacena), family F-0038 (PAR-0034).
+- text: >-
+    Father of Ritta Angélica Rodrigues (P-0058), who married Joaquim José Ferreira de
+    Toledo (P-0057); hence a direct maternal-line ancestor of Eliza Balbina de Toledo
+    (P-0017). The link P-0078 → P-0058 rests on PAR-0018 (Ritta's own marriage naming
+    her parents "João Rodrigues [do Valle] e Izabel Ribeira") identified with the
+    PAR-0034 couple — strong-evidence, not certain (common names).
+- text: >-
+    Nationality Portuguese: born and baptized at Ruivais, Braga, Portugal (PAR-0035),
+    a documented foreign birthplace; the 1751 marriage certidão (PAR-0034) corrects
+    an initial "natural desta freguezia" to "h.em de Ruvans do Arceb.o de Braga".
+    No death record located.

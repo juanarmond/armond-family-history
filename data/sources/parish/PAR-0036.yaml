@@ -1,0 +1,93 @@
+schema_version: 1
+id: PAR-0036
+title: >-
+  Marriage register entry of João Rodrigues and Joanna Gonçalves, 13 May 1716,
+  Freguesia de São Martinho de Ruivais (Arcebispado de Braga, Portugal), naming
+  both spouses' parents
+record_type: Parish marriage register entry (casamento, original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1716-05-13"
+  original_text: >-
+    "Aos treze dias do mês de Mayo de mil sete centos e dezaseis annos"
+event_place_text: >-
+  Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal
+repository:
+  name: FamilySearch (Portugal, Braga, Catholic parish registers)
+  archive_or_registry: >-
+    Paróquia de São Martinho de Ruivais (Vieira do Minho), Arquidiocese de Braga;
+    originals held by the Arquivo Distrital de Braga
+  collection: >-
+    Portugal, Braga, registos paroquiais (São Martinho de Ruivais); marriage register
+  book: >-
+    Livro de casamentos de São Martinho de Ruivais (entrada com anotação marginal
+    "Ruiuay de quinta — João Roiz de Joanna G.")
+  catalogue_reference: >-
+    São Martinho de Ruivais marriages. Delivered through the research/from-retrieval/
+    sync as image rec-toledo-joaorodrigues-marriage-barbacena-fstree.jpg (the
+    "barbacena" token in the filename is a retrieval-agent mislabel; the register is
+    Ruivais, Braga, Portugal); read and promoted 2026-08-10. Specific FamilySearch
+    ARK to be confirmed.
+  repository_path: evidence/parish/PAR-0036-joao-rodrigues-joanna-goncalves-marriage-1716-ruivais.jpg
+access_date: "2026-08-10"
+language: pt-PT
+transcription: >-
+  [Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal; livro de
+  casamentos; entrada da coluna inferior direita, anotação marginal "Ruiuay de
+  quinta — João Roiz de Joanna G.[onçalues]".] "Aos treze dias do mês de Mayo de
+  mil sete centos e dezaseis annos, dadas as denunciaçõis na forma do Sag.do
+  Conc.[ilio] Trid.[entino], e não avendo impedimento algum, recebi eu o Padre
+  Bento [Pereira?] de licença do Reverendo Reitor Luiz Pirez dos Santos a Joam
+  Rodr.[igue]s filho de Gonçallo Roiz [Rodrigues] já defunto, e de sua Molher
+  Elebia Francisca — moradores nesta villa de Ruivais, e se recebeo com Joanna
+  Gonçalves filha de Domingos Gonçalves já defunto, e de sua Molher Maria Fernandes
+  moradores no lugar da quinta, todos desta freguezia de São Martinho de Ruivais,
+  estando por testemunhas Duarte Dias, e Domingos Afonso, e Gregorio do Rego Macedo
+  e muitas mais testemunhas que estando prezentes todos desta dita freguezia que
+  todos aqui [assignaram comigo, dia era ut supra]."
+abstract: >-
+  Original Ruivais (Braga, Portugal) marriage entry for the 13 May 1716 marriage of
+  João Rodrigues (P-0080), son of Gonçalo Rodrigues (deceased) and Elebia Francisca,
+  and Joanna Gonçalves (P-0081), daughter of Domingos Gonçalves (deceased) and Maria
+  Fernandes — all of the freguesia de São Martinho de Ruivais. This couple are the
+  parents of João Rodrigues Valle (P-0078, baptized here in 1728, PAR-0035), the
+  Portuguese-born ancestor who married Isabel Ribeiro at Borda do Campo in 1751
+  (PAR-0034).
+reliability:
+  assessment: >-
+    Direct primary parish marriage evidence. Both spouses, all four of their parents
+    (both fathers already deceased in 1716), and the Ruivais parish are legible. The
+    parent pair matches the 1728 Ruivais baptism of their son João Rodrigues Valle
+    (PAR-0035).
+  informant: >-
+    Padre Bento [Pereira?], by licence of Reitor Luiz Pirez dos Santos, São Martinho
+    de Ruivais (1716).
+  limitations: >-
+    Dense early-18th-century Portuguese cursive; the officiant's surname and Joanna
+    Gonçalves's mother's forename ("Maria" Fernandes) carry some uncertainty. The
+    named grandparents (Gonçalo Rodrigues × Elebia Francisca; Domingos Gonçalves ×
+    Maria Fernandes) are recorded as leads, not modelled entities.
+digital_file:
+  path: evidence/parish/PAR-0036-joao-rodrigues-joanna-goncalves-marriage-1716-ruivais.jpg
+  sha256: e983f6f5abce9ff14d376234daff76618fb7d75b6a47a07a0f96783be0a053ed
+linked_people:
+- P-0080
+- P-0081
+linked_families:
+- F-0039
+linked_events:
+- E-0072
+linked_places: []
+private: false
+notes:
+- text: >-
+    Establishes João Rodrigues (P-0080) × Joanna Gonçalves (P-0081) and names their
+    parents (Gonçalo Rodrigues † × Elebia Francisca; Domingos Gonçalves † × Maria
+    Fernandes) as a lead. The retrieval filename token "barbacena" is a mislabel: the
+    register is São Martinho de Ruivais, Braga, Portugal (confirmed by the marginal
+    "Ruiuay" note, the "villa de Ruivais" text, and consistency with PAR-0035).

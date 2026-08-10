@@ -1,0 +1,89 @@
+schema_version: 1
+id: PAR-0035
+title: >-
+  Baptism register entry of João (João Rodrigues Valle), born 15 April 1728,
+  Freguesia de São Martinho de Ruivais (Arcebispado de Braga, Portugal), naming
+  his parents João Rodrigues [Valle] and Joana Gonçalves
+record_type: Parish baptism register entry (batismo, original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1728-04-15"
+  original_text: >-
+    "nasceo aos quinze dias [do mês] de Abril de mil sete centos e vinte e oito
+    annos" (born 15 April 1728; baptized 16 April 1728)
+event_place_text: >-
+  Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal
+repository:
+  name: FamilySearch (Portugal, Braga, Catholic parish registers)
+  archive_or_registry: >-
+    Paróquia de São Martinho de Ruivais (Vieira do Minho), Arquidiocese de Braga;
+    originals held by the Arquivo Distrital de Braga
+  collection: >-
+    Portugal, Braga, registos paroquiais (São Martinho de Ruivais); baptism register
+  book: >-
+    Livro de batismos de São Martinho de Ruivais, fólio 93
+  catalogue_reference: >-
+    São Martinho de Ruivais baptisms, fólio 93. Delivered through the
+    research/from-retrieval/ sync as image rec-toledo-joaorodrigues-valle-baptism-fstree.jpg;
+    read and promoted 2026-08-10. Specific FamilySearch ARK to be confirmed.
+  repository_path: evidence/parish/PAR-0035-joao-rodrigues-valle-baptism-1728-ruivais.jpg
+access_date: "2026-08-10"
+language: pt-PT
+transcription: >-
+  [Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal; livro de
+  batismos, fólio 93; entrada da coluna direita, anotação marginal "Ruiuais".]
+  "Joam filho legitimo de Joam Rodrigues [Valle] e sua molher Joana Gonçalues desta
+  Villa de Ruiuais, nasceo aos quinze dias [do mês] de Abril de mil sete centos, e
+  vinte e oito annos, e foi baptiza[do, ministrando-lhe] os [Santos] Oleos pello
+  padre Domingos [Pereira] de Valle Coadjutor desta igreja aos dezaseis dias do
+  mesmo mês de Abril de mil sete centos, e vinte e oito annos. Foram seus padrinhos
+  Francisco filho de Ana Bahia de quinta [de ?] e Mariana filha de [Philipe] de
+  Matos desta Villa, estando testemunhas presentes desta freguesia, Domingos
+  Rodrigues Valle, e Manoel Gonçalues, Domingos [Bahia de quinta?] que asignaram
+  comigo dia era ut supra. [Assinaturas:] R.do Luiz Pirez dos [Santos]; Manoel [?];
+  Francisco G.[onçalues]; Domingos [Bahia?]."
+abstract: >-
+  Original Ruivais (Braga, Portugal) baptism entry for João, legitimate son of João
+  Rodrigues [Valle] (P-0080) and Joana Gonçalves (P-0081), born 15 April 1728 and
+  baptized 16 April 1728. This João is João Rodrigues Valle (P-0078), who later
+  emigrated to Minas Gerais and married Isabel Ribeiro at Borda do Campo in 1751
+  (PAR-0034). Confirms the Portuguese origin corrected in the 1751 marriage certidão
+  and the parent pair matching the 1716 Ruivais marriage (PAR-0036).
+reliability:
+  assessment: >-
+    Direct primary parish baptism evidence. The child's name, both parents, the
+    Ruivais parish and the 15/16 April 1728 dates are legible; the record is
+    consistent with PAR-0034 (Portuguese origin) and PAR-0036 (parents' 1716
+    marriage in the same parish).
+  informant: >-
+    Padre Domingos [Pereira] de Valle, coadjutor, São Martinho de Ruivais (1728).
+  limitations: >-
+    Dense early-18th-century Portuguese cursive; some godparent and witness
+    surnames are uncertain (marked [?]). Identification of this João with the
+    1751 groom rests on the corroborating records rather than an explicit link
+    within this entry.
+digital_file:
+  path: evidence/parish/PAR-0035-joao-rodrigues-valle-baptism-1728-ruivais.jpg
+  sha256: 28ebed5c72663f3a9dad05a6ab42d77eccc73ff6476cf7f57a1cf34c63a29fa8
+linked_people:
+- P-0078
+- P-0080
+- P-0081
+linked_families:
+- F-0039
+linked_events:
+- E-0071
+linked_places: []
+private: false
+notes:
+- text: >-
+    João Rodrigues Valle's own baptism (P-0078); establishes his birth 15 April 1728
+    at São Martinho de Ruivais (Braga, Portugal) and his parents João Rodrigues
+    [Valle] (P-0080) × Joana Gonçalves (P-0081). The left-hand column of the same
+    page records an unrelated baptism (Lázaro, son of Gervásio Gonçalves × Mariana
+    Gonçalves, 29 March 1728) — not this family.

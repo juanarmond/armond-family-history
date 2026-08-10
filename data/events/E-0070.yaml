@@ -1,0 +1,25 @@
+schema_version: 1
+id: E-0070
+event_type: marriage
+date:
+  kind: exact
+  value: "1751-02-22"
+  original_text: >-
+    "Aos vinte, dous dias do mês de Fevereyro de mil sete centos cincoenta, hum anos"
+place_text: >-
+  Matriz de Nossa Senhora da Piedade da Borda do Campo (Barbacena), Comarca do Rio
+  das Mortes, Minas Gerais, Brazil
+participants:
+- person_id: P-0078
+  role: spouse
+- person_id: P-0079
+  role: spouse
+status: confirmed
+source_ids:
+- PAR-0034
+notes:
+- text: >-
+    Marriage of João Rodrigues Valle (P-0078) and Isabel Ribeiro (P-0079) on 22
+    February 1751 at the Matriz de Nossa Senhora da Piedade da Borda do Campo
+    (Barbacena), per the certified transcript PAR-0034. Witnesses: Coronel Joseph
+    Lopes de Oliveira and Ignacio Rodrigues Guimaraens.

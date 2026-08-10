@@ -1125,6 +1125,38 @@ See `logs/2026-08-07-retrieval-drop-triage-third-pass.md` for detail.
 
 ---
 
+## 2026-08-10 — Maternal Toledo/Valle line extended to 1700s Portugal (PAR-0034–0036)
+
+Value-gated the Toledo deep-ancestry images from the retrieval drop (agent-2 classification pass,
+verified per-image against the catalogue) and extended the maternal Toledo line above Ritta
+Angélica Rodrigues (P-0058), whose parents were a flagged lead in PAR-0018.
+
+**PAR-0034** (Arquivo da Arquidiocese de Mariana certidão): 22 Feb 1751 Borda do Campo (Barbacena)
+marriage of **João Rodrigues Valle × Isabel Ribeiro**; names both spouses' parents; marginal
+correction fixes the groom's origin as Ruivais, Braga, Portugal.
+
+**PAR-0035** (São Martinho de Ruivais, Braga, Portugal — original): baptism of **João Rodrigues
+Valle**, b. 15 Apr 1728, bapt. 16 Apr 1728; parents João Rodrigues [Valle] × Joana Gonçalves.
+
+**PAR-0036** (Ruivais — original): 13 May 1716 marriage of **João Rodrigues × Joanna Gonçalves**;
+names both (deceased) fathers and living mothers. Parents of João Rodrigues Valle.
+
+New people P-0078 (João Rodrigues Valle), P-0079 (Isabel Ribeiro), P-0080 (João Rodrigues),
+P-0081 (Joanna Gonçalves); families F-0038, F-0039; events E-0070/0071/0072; DOC-0070–0072.
+P-0058 updated (parents modelled, F-0038; lead resolved). Child links are strong-evidence
+(name/parish/timeline agreement); marriages and baptism are confirmed. The 1716-named
+grandparents and Isabel's parents are recorded as leads, not modelled.
+
+**Verified false positives (already catalogued):** Ladisláo × Matilde 1810 = PAR-0023; Ladisláo
+1787 = PAR-0019; Carolina 1821 = PAR-0017. **José Cesário 1813 baptism NOT promoted** — image
+already assessed illegible (7 Aug 2026); agent over-read the FINDINGS synthesis.
+
+All 69 tests pass; viewer index rebuilt (286 entities); GEDCOM regenerated (3381 lines).
+
+See `logs/2026-08-10-toledo-valle-portugal-line-extension.md` for full detail.
+
+---
+
 ## 2026-08-10 — Lemos siblings baptism promotions (PAR-0030–0033)
 
 Value-gated four rec-lemos-*-baptism-*-itaborai.jpg images from DGS film 004620557

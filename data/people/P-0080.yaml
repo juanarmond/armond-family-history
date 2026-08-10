@@ -1,0 +1,34 @@
+schema_version: 1
+id: P-0080
+preferred_name: João Rodrigues
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: João Rodrigues
+  type: source
+  source_ids:
+  - PAR-0034
+  - PAR-0036
+- value: Joam Rodrigues [Valle]
+  type: source
+  source_ids:
+  - PAR-0035
+  note: >-
+    Named as the father "Joam Rodrigues [Valle]" in his son's 1728 baptism
+    (PAR-0035); the "Valle" is the family's lugar-name in Ruivais.
+event_ids:
+- E-0071
+- E-0072
+family_ids:
+- F-0039
+notes:
+- text: >-
+    Of the Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal.
+    Married Joanna Gonçalves (P-0081) on 13 May 1716 at Ruivais, family F-0039
+    (PAR-0036); legitimate son of Gonçalo Rodrigues (already deceased in 1716) and
+    Elebia Francisca (named in PAR-0036; recorded as a lead, not modelled). Father
+    of João Rodrigues Valle (P-0078), baptized at Ruivais in 1728 (PAR-0035).
+- text: >-
+    Nationality Portuguese: a resident and married communicant of São Martinho de
+    Ruivais, Braga (PAR-0036). No birth, baptism or death record located.

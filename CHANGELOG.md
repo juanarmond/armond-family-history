@@ -5,6 +5,16 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Maternal Toledo/Valle line extended to 1700s Portugal (2026-08-10)
+
+- **PAR-0034** (Arquivo da Arquidiocese de Mariana certidão): 22 Feb 1751 Borda do Campo marriage of João Rodrigues Valle × Isabel Ribeiro; derivative/primary/direct. Names both spouses' parents; corrects groom's origin to Ruivais, Braga, Portugal.
+- **PAR-0035** (São Martinho de Ruivais, Braga, Portugal — original): baptism of João Rodrigues Valle, b. 15 Apr 1728. PRIMARY.
+- **PAR-0036** (Ruivais — original): 13 May 1716 marriage of João Rodrigues × Joanna Gonçalves. PRIMARY.
+- **P-0078** João Rodrigues Valle (b.15 Apr 1728 Ruivais, Portuguese), **P-0079** Isabel Ribeiro (Borda do Campo, Brazilian), **P-0080** João Rodrigues (Ruivais), **P-0081** Joanna Gonçalves (Ruivais); **F-0038** (P-0078 × P-0079, child P-0058), **F-0039** (P-0080 × P-0081, child P-0078); **E-0070/0071/0072**.
+- **P-0058** (Ritta Angélica Rodrigues) updated: parents now modelled (F-0038); the PAR-0018 parent-lead is resolved. Child links strong-evidence; marriages/baptism confirmed.
+- **DOC-0070–0072** added to document inventory. The 1716-named grandparents and Isabel Ribeiro's parents are recorded as leads, not modelled.
+- GEDCOM regenerated (7.0, 3381 lines); viewer index regenerated (286 entities).
+
 ### Added — Lemos siblings: four baptism records promoted (2026-08-10)
 
 - **PAR-0030** (Itaboraí 1832): PRIMARY baptism of Maria de Lemos (14 Jul 1832), daughter of Manoel de Lemos Ferreira × Maria Nunes de Jesus; sister of Rosa Eugenia de Lemos (P-0035).

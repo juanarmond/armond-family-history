@@ -1,0 +1,41 @@
+schema_version: 1
+id: P-0079
+preferred_name: Isabel Ribeiro
+privacy: deceased
+sex: female
+nationality: Brazilian
+name_variants:
+- value: Isabel Ribeiro
+  type: source
+  source_ids:
+  - PAR-0034
+- value: Isabel Ribeyro
+  type: source
+  source_ids:
+  - PAR-0034
+- value: Izabel Ribeira
+  type: source
+  source_ids:
+  - PAR-0018
+  note: >-
+    Recorded as "Izabel Ribeira" in her daughter Ritta Angélica's c.1786 marriage
+    (PAR-0018), naming her among Ritta's parents.
+event_ids:
+- E-0070
+family_ids:
+- F-0038
+notes:
+- text: >-
+    Wife of João Rodrigues Valle (P-0078); married 22 February 1751 at the Matriz de
+    Nossa Senhora da Piedade da Borda do Campo (Barbacena), family F-0038 (PAR-0034).
+    "Natural e baptizada nesta freguesia" (Borda do Campo), legitimate daughter of
+    Manoel Nado Pestana and Anna Francisca (named in PAR-0034; recorded as a lead,
+    not modelled — no records of their own located).
+- text: >-
+    Mother of Ritta Angélica Rodrigues (P-0058), who married Joaquim José Ferreira
+    de Toledo (P-0057); hence a direct maternal-line ancestor of Eliza Balbina de
+    Toledo (P-0017). See F-0038 for the strong-evidence child link (PAR-0018).
+- text: >-
+    Nationality Brazilian: "natural e baptizada nesta freguesia" (Borda do Campo /
+    Barbacena, MG) per PAR-0034 — a documented birthplace. No birth or death record
+    located.

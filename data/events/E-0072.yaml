@@ -1,0 +1,24 @@
+schema_version: 1
+id: E-0072
+event_type: marriage
+date:
+  kind: exact
+  value: "1716-05-13"
+  original_text: >-
+    "Aos treze dias do mês de Mayo de mil sete centos e dezaseis annos"
+place_text: >-
+  Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal
+participants:
+- person_id: P-0080
+  role: spouse
+- person_id: P-0081
+  role: spouse
+status: confirmed
+source_ids:
+- PAR-0036
+notes:
+- text: >-
+    Marriage of João Rodrigues (P-0080) and Joanna Gonçalves (P-0081) on 13 May
+    1716 at São Martinho de Ruivais, Braga, Portugal, per PAR-0036. The record names
+    both spouses' (deceased) fathers and living mothers; officiant Padre Bento
+    [Pereira?] by licence of Reitor Luiz Pirez dos Santos.

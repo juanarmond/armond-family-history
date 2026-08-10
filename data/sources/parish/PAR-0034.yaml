@@ -1,0 +1,110 @@
+schema_version: 1
+id: PAR-0034
+title: >-
+  Certified transcript (Arquivo da Arquidiocese de Mariana) of the 22 February 1751
+  marriage of João Rodrigues Valle and Isabel Ribeiro, Matriz de Nossa Senhora da
+  Piedade da Borda do Campo (Barbacena), naming both spouses' parents
+record_type: Certified ecclesiastical transcript (certidão) of a parish marriage register entry
+record_category: parish_register
+source_form: derivative
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1751-02-22"
+  original_text: >-
+    "Aos vinte, dous dias do mês de Fevereyro de mil sete centos cincoenta, hum anos"
+event_place_text: >-
+  Matriz de Nossa Senhora da Piedade da Borda do Campo (Barbacena), Comarca do Rio
+  das Mortes, Minas Gerais, Brazil
+repository:
+  name: Arquivo Eclesiástico da Arquidiocese de Mariana "Dom Oscar de Oliveira"
+  archive_or_registry: >-
+    Arquivo Eclesiástico da Arquidiocese de Mariana, Minas Gerais (certidão issued
+    by the Chanceler da Arquidiocese)
+  collection: >-
+    Livro de Casamentos de Barbacena, período 1737-1751
+  book: >-
+    Livro D 10, páginas 234/234v (Barbacena marriages)
+  catalogue_reference: >-
+    Arquivo da Arquidiocese de Mariana, Livro de Casamentos de Barbacena 1737-1751,
+    Livro D 10, pp. 234/234v. Modern certidão de casamento delivered through the
+    research/from-retrieval/ sync as image rec-toledo-isabel-ribeiro-doc-02-gen4.jpg;
+    read and promoted 2026-08-10.
+  repository_path: evidence/parish/PAR-0034-joao-rodrigues-valle-izabel-ribeiro-marriage-1751-bordadocampo.jpg
+access_date: "2026-08-10"
+language: pt-BR
+transcription: >-
+  [Certidão de Casamento — Arquivo Eclesiástico da Arquidiocese de Mariana "Dom
+  Oscar de Oliveira"; Arcebispado de Mariana. Cabeçalho:] "O Chanceler da
+  Arquidiocese de Mariana, in fine assinado, certifica que no Livro de Casamentos
+  de Barbacena Período de 1737-1751, mantido em custódia no Arquivo da Arquidiocese
+  de Mariana (Livro D 10 nas Páginas 234/234v) pode-se ler o registro do teor
+  seguinte:" [Margem: "Matriz"; nomes "João Riz Vale" / "Izabel Ribeyo".] "Aos
+  vinte, dous dias do mês de Fevereyro de mil sete centos cincoenta, hum anos pelo
+  meyo dia pouco mais ou menos nesta Matriz de Nossa Senhora da Piedade da Borda do
+  Campo, feitas as denunciaçoens, e mais deligencias na forma do Sagrado Concilio
+  Tridentino, e Constituiçoens sem se descobrir impedimento e por Provizão do M.
+  R.do D.or Joseph Sobral e Sousa, Vigar.o da Vara desta, Comarca do Rio das Mortes,
+  em minha presença e das testemunhas abaixo assignados o Coronel Joseph Lopes de
+  Oliveira e Ignacio Rodrigues Guimaraens se casarão por palavras de presente João
+  Rodrigues Valle natural e baptizado nesta mesma freguezia filho legitimo de João
+  Rodrigues, e Joanna Gonçalves e Isabel Ribeyro natural, e baptizada nesta
+  freguesia filha legitima de Manoel Nado Pestana e de Anna Francisca, e depois de
+  Recebidos lhes dei as bençoens tudo na forma do Ritual Romano. E por verdade fis
+  este assento que assigney com as testemunhas Joseph Lopes de Oliveira e Ignacio
+  Rodrigues Guimaraens, estando presente outras muitas pessoas, era ut Supra. Foi
+  equivocação do R.do Vigar.o dizer que João Roiz Valle h.[om]em desta freg.a pois
+  h.[om]em de Ruvans do Arceb.o de Braga."
+abstract: >-
+  Modern certified transcript from the Arquivo da Arquidiocese de Mariana of the
+  22 February 1751 marriage at the Matriz de Nossa Senhora da Piedade da Borda do
+  Campo (Barbacena) of João Rodrigues Valle (P-0078) and Isabel Ribeiro (P-0079).
+  Names the groom's parents João Rodrigues and Joanna Gonçalves (P-0080, P-0081)
+  and the bride's parents Manoel Nado Pestana and Anna Francisca (named only, not
+  modelled). The closing correction states that João Roiz Valle was not native to
+  Borda do Campo but "de Ruvans [Ruivais] do Arcebispado de Braga" (Portugal),
+  consistent with his 1728 Ruivais baptism (PAR-0035). This couple are the parents
+  of Ritta Angélica Rodrigues (P-0058), extending the maternal Toledo line.
+reliability:
+  assessment: >-
+    Direct primary information transcribed in a modern certified archival copy.
+    The register entry directly states the marriage, both spouses' parentage, and
+    (via the marginal correction) João Rodrigues Valle's Portuguese origin. The
+    certidão is a derivative in form (a modern certified transcript, not the
+    original register image), but faithfully reproduces the primary 1751 entry.
+  informant: >-
+    The officiating vigário, Matriz de Nossa Senhora da Piedade da Borda do Campo
+    (Barbacena), 1751; transcribed by the Chanceler da Arquidiocese de Mariana.
+  limitations: >-
+    A modern transcript, not the original register scan; spellings follow the
+    certidão. Isabel Ribeiro's parents (Manoel Nado Pestana × Anna Francisca) are
+    named but not otherwise documented.
+digital_file:
+  path: evidence/parish/PAR-0034-joao-rodrigues-valle-izabel-ribeiro-marriage-1751-bordadocampo.jpg
+  sha256: fc8b58b2544fdd22fb05e95f8a4331e4edf84dc65f4eea1aae9dbd0f800d8870
+linked_people:
+- P-0078
+- P-0079
+- P-0080
+- P-0081
+linked_families:
+- F-0038
+- F-0039
+linked_events:
+- E-0070
+linked_places: []
+private: false
+notes:
+- text: >-
+    Establishes João Rodrigues Valle (P-0078) × Isabel Ribeiro (P-0079), the parents
+    of Ritta Angélica Rodrigues (P-0058, named in her own c.1786 marriage PAR-0018 as
+    "filha legitima de João Rodrigues [do Valle] e de Izabel Ribeira"). Same names,
+    same Borda do Campo parish, and a consistent timeline (a daughter marrying c.1786
+    from a 1751 marriage) support the identification as strong-evidence.
+- text: >-
+    The marginal correction "h.em de Ruvans do Arceb.o de Braga" fixes João Rodrigues
+    Valle's origin as Ruivais (São Martinho de Ruivais), Archbishopric of Braga,
+    Portugal — corroborated by his 1728 Ruivais baptism (PAR-0035) and his parents'
+    1716 Ruivais marriage (PAR-0036).

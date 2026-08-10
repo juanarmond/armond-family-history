@@ -1,0 +1,49 @@
+schema_version: 1
+id: F-0039
+partners:
+- person_id: P-0080
+  role: spouse
+- person_id: P-0081
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PAR-0036
+  notes:
+  - text: >-
+      João Rodrigues (P-0080) and Joanna Gonçalves (P-0081) married 13 May 1716 at
+      the Freguesia de São Martinho de Ruivais (Braga, Portugal), per PAR-0036
+      (event E-0072).
+children:
+- person_id: P-0078
+  parent_relationships:
+  - parent_id: P-0080
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0035
+    notes:
+    - text: >-
+        João Rodrigues Valle (P-0078) is named in his 1728 Ruivais baptism (PAR-0035)
+        as "filho legitimo de Joam Rodrigues [Valle] e sua molher Joana Gonçalues
+        desta Villa de Ruiuais". Identifying those parents with the 1716 Ruivais
+        marriage couple (PAR-0036) — same names, same parish, consistent timeline —
+        is strong-evidence.
+  - parent_id: P-0081
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0035
+    notes: []
+  notes: []
+event_ids:
+- E-0072
+notes:
+- text: >-
+    João Rodrigues (P-0080) × Joanna Gonçalves (P-0081) of São Martinho de Ruivais,
+    Braga, Portugal; parents of João Rodrigues Valle (P-0078). Extends the maternal
+    Toledo line one generation into early-18th-century Portugal.
+- text: >-
+    The couple's own parents (Gonçalo Rodrigues † × Elebia Francisca; Domingos
+    Gonçalves † × Maria Fernandes) are named in PAR-0036 but recorded only as leads
+    on P-0080 and P-0081, not modelled — no records of their own are located.

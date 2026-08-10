@@ -1,0 +1,28 @@
+schema_version: 1
+id: E-0071
+event_type: baptism
+date:
+  kind: exact
+  value: "1728-04-16"
+  original_text: >-
+    "foi baptiza[do] ... aos dezaseis dias do mesmo mês de Abril de mil sete centos
+    e vinte e oito annos" (baptized 16 April 1728; born 15 April 1728)
+place_text: >-
+  Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal
+participants:
+- person_id: P-0078
+  role: principal
+- person_id: P-0080
+  role: parent
+- person_id: P-0081
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0035
+notes:
+- text: >-
+    Baptism of João Rodrigues Valle (P-0078) on 16 April 1728 (born 15 April 1728)
+    at São Martinho de Ruivais, Braga, Portugal, son of João Rodrigues [Valle]
+    (P-0080) and Joana Gonçalves (P-0081), per PAR-0035. Officiant: Padre Domingos
+    [Pereira] de Valle, coadjutor. Godparents: Francisco (son of Ana Bahia) and
+    Mariana (daughter of [Filipe] de Matos).

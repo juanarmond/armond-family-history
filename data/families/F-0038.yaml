@@ -1,0 +1,52 @@
+schema_version: 1
+id: F-0038
+partners:
+- person_id: P-0078
+  role: spouse
+- person_id: P-0079
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PAR-0034
+  notes:
+  - text: >-
+      João Rodrigues Valle (P-0078) and Isabel Ribeiro (P-0079) married 22 February
+      1751 at the Matriz de Nossa Senhora da Piedade da Borda do Campo (Barbacena),
+      per the certified transcript PAR-0034 (event E-0070).
+children:
+- person_id: P-0058
+  parent_relationships:
+  - parent_id: P-0078
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0018
+    notes:
+    - text: >-
+        Ritta Angélica Rodrigues (P-0058) is named in her own c.1786 Barbacena
+        marriage (PAR-0018) as "filha legitima de João Rodrigues [do Valle] e de
+        Izabel Ribeira, natural da Freguesia da Borda do Campo". Identifying that
+        couple with João Rodrigues Valle × Isabel Ribeiro of PAR-0034 (same names,
+        same Borda do Campo parish, consistent timeline) is strong-evidence, not
+        certain.
+  - parent_id: P-0079
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0018
+    notes: []
+  notes: []
+event_ids:
+- E-0070
+notes:
+- text: >-
+    João Rodrigues Valle (P-0078, Portuguese-born at Ruivais, Braga) × Isabel
+    Ribeiro (P-0079, of Borda do Campo). Their daughter Ritta Angélica Rodrigues
+    (P-0058) married Joaquim José Ferreira de Toledo (P-0057, F-0028), grafting the
+    Portuguese Rodrigues/Valle line onto the maternal Toledo trunk of Eliza Balbina
+    de Toledo (P-0017).
+- text: >-
+    Isabel Ribeiro's parents (Manoel Nado Pestana × Anna Francisca) are named in
+    PAR-0034 but are recorded only as a lead on P-0079, not modelled — no records of
+    their own are located.

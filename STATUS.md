@@ -93,17 +93,17 @@ and cataloguing work.
 
 | Item | Current state |
 | --- | --- |
-| Structured people | 77 |
-| Structured families | 37 |
+| Structured people | 81 |
+| Structured families | 39 |
 | Structured events | 69 |
 | Structured places | 9 |
-| Structured sources | 68 |
+| Structured sources | 75 |
 | Structured FAN references | 13 |
-| Inventoried retained documents | 62 |
-| Validation | 270 entities; zero errors or warnings at the last check (2026-08-09) |
+| Inventoried retained documents | 72 |
+| Validation | 286 entities; zero errors or warnings at the last check (2026-08-10) |
 | Automated tests | 69 passing at the last check |
 
-The 64 catalogued sources span the Armond/Paz, Muniz Bittencourt/Azevedo,
+The catalogued sources span the Armond/Paz, Muniz Bittencourt/Azevedo,
 Engracio/Souza/Guimarães, Bohrer and Portuguese-origin lines, include the maternal
 Toledo probate cluster and the Barbacena context sources, and include the living
 subject's private records. Details are canonical in `data/sources/`; gaps in

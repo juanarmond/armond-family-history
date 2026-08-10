@@ -2840,3 +2840,121 @@ documents:
         entries. Brother of Rosa Eugenia de Lemos (P-0035). All persons 19th-century
         deceased. Date corrected from retrieval-agent initial read of "15 March 1838"
         to c. November 1838 based on direct image verification 2026-08-10.
+  - inventory_id: DOC-0070
+    status: catalogued
+    added_date: "2026-08-10"
+    apparent_record_type: Certified ecclesiastical transcript (certidão) of a 1751 parish marriage
+    apparent_people:
+      - João Rodrigues Valle (groom)
+      - Isabel Ribeiro (bride)
+      - João Rodrigues (groom's father)
+      - Joanna Gonçalves (groom's mother)
+      - Manoel Nado Pestana (bride's father)
+      - Anna Francisca (bride's mother)
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      FamilySearch retrieval drop (research/from-retrieval/ sync, 6 August 2026);
+      modern certidão de casamento issued by the Chanceler da Arquidiocese de Mariana
+      transcribing the 22 February 1751 marriage at the Matriz de N.S. da Piedade da
+      Borda do Campo (Barbacena), from Livro de Casamentos de Barbacena 1737-1751,
+      Livro D 10 pp. 234/234v. Retrieved as image rec-toledo-isabel-ribeiro-doc-02-gen4.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0034-joao-rodrigues-valle-izabel-ribeiro-marriage-1751-bordadocampo.jpg
+        sha256: fc8b58b2544fdd22fb05e95f8a4331e4edf84dc65f4eea1aae9dbd0f800d8870
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 582
+          pixel_height: 960
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0034
+    notes:
+      - >-
+        Establishes João Rodrigues Valle (P-0078) × Isabel Ribeiro (P-0079), parents
+        of Ritta Angélica Rodrigues (P-0058). Modern certified transcript (derivative
+        form) of a primary 1751 register entry; marginal correction fixes the groom's
+        origin as Ruivais, Braga, Portugal. All persons 18th-century deceased.
+  - inventory_id: DOC-0071
+    status: catalogued
+    added_date: "2026-08-10"
+    apparent_record_type: Catholic parish baptism register (original)
+    apparent_people:
+      - João Rodrigues Valle (baptized 16 Apr 1728)
+      - João Rodrigues [Valle] (father)
+      - Joana Gonçalves (mother)
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      FamilySearch retrieval drop (research/from-retrieval/ sync, 6 August 2026);
+      São Martinho de Ruivais (Braga, Portugal) baptism register, fólio 93, entry
+      for João born 15 April 1728, baptized 16 April 1728. Retrieved as image
+      rec-toledo-joaorodrigues-valle-baptism-fstree.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0035-joao-rodrigues-valle-baptism-1728-ruivais.jpg
+        sha256: 28ebed5c72663f3a9dad05a6ab42d77eccc73ff6476cf7f57a1cf34c63a29fa8
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3900
+          pixel_height: 3471
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0035
+    notes:
+      - >-
+        Original Ruivais (Braga, Portugal) baptism of João Rodrigues Valle (P-0078),
+        son of João Rodrigues [Valle] (P-0080) × Joana Gonçalves (P-0081). Confirms
+        the Portuguese origin of the maternal Toledo/Valle line. Dense early-18th-c.
+        cursive; some godparent/witness surnames uncertain. All persons 18th-century
+        deceased.
+  - inventory_id: DOC-0072
+    status: catalogued
+    added_date: "2026-08-10"
+    apparent_record_type: Catholic parish marriage register (original)
+    apparent_people:
+      - João Rodrigues (groom)
+      - Joanna Gonçalves (bride)
+      - Gonçalo Rodrigues (groom's father, deceased)
+      - Elebia Francisca (groom's mother)
+      - Domingos Gonçalves (bride's father, deceased)
+      - Maria Fernandes (bride's mother)
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      FamilySearch retrieval drop (research/from-retrieval/ sync, 6 August 2026);
+      São Martinho de Ruivais (Braga, Portugal) marriage register, entry for the
+      13 May 1716 marriage of João Rodrigues × Joanna Gonçalves. Retrieved as image
+      rec-toledo-joaorodrigues-marriage-barbacena-fstree.jpg (the "barbacena" token
+      is a retrieval-agent mislabel; the register is Ruivais, Portugal).
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0036-joao-rodrigues-joanna-goncalves-marriage-1716-ruivais.jpg
+        sha256: e983f6f5abce9ff14d376234daff76618fb7d75b6a47a07a0f96783be0a053ed
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3825
+          pixel_height: 2677
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0036
+    notes:
+      - >-
+        Original Ruivais (Braga, Portugal) marriage of João Rodrigues (P-0080) ×
+        Joanna Gonçalves (P-0081), parents of João Rodrigues Valle (P-0078). Names
+        both spouses' parents (both fathers deceased by 1716) as leads. Deepest
+        confirmed generation of the maternal Toledo/Valle line. All persons
+        18th-century deceased.
