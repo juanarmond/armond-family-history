@@ -5,6 +5,13 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — A Sentinella (Nova Friburgo) Bohrer/Lemos notices (2026-08-10)
+
+- **NWS-0002** (newspaper; three A Sentinella clippings, 1898–1899): the death of Manoel Pereira de Lemos (20 Jan 1898, aged 72) — a new brother of Rosa Eugenia de Lemos (P-0035); the death of Antonio José Bohrer (2 Apr 1899, aged 13) — a son of Joaquim José Bohrer (P-0030); and Joaquim José's 16 December birthday.
+- **F-0025** documented_child added: Manoel Pereira de Lemos. **F-0014** documented_child added: Antonio José Bohrer. Bilingual corroboration notes on **P-0030** (birthday 16 Dec; alive 1898–99) and **P-0035** (alive Jan 1898). **DOC-0075**.
+- Value-gated the rest of a large Azorean-focused drop: the Terceira/São Sebastião Armond-Ermonde-Souto Maior trunk (`cal-*` register + Gaspar/Margarida crops + ASBRAP/Lacerda) recorded as unverified **leads**, explicitly NOT merged to our direct-line Simplício (P-0016); Brazilian Armond press classified FAN.
+- GEDCOM regenerated (7.0, 3481 lines); viewer index regenerated (290 entities).
+
 ### Added — 1856 Fazenda da Concórdia land registry (2026-08-10)
 
 - **GOV-0003** (government_record / original / primary / direct): 1856 Lei de Terras land registry, Curato do Rio Pardo, Município de Villa Leopoldina — entries Nº 144 (Francisco Leocádio de Toledo, P-0061) and Nº 145 (José Cesário de Toledo Lima, P-0054) for the Fazenda da Concórdia. Nº 145 confirms José Cesário alive in April 1856 and his mother (Mathilde, P-0027) then living.

@@ -1125,6 +1125,28 @@ See `logs/2026-08-07-retrieval-drop-triage-third-pass.md` for detail.
 
 ---
 
+## 2026-08-10 — New-drop value-gate: Azorean Armond trunk (leads) + A Sentinella (NWS-0002)
+
+A fresh/expanded retrieval drop (Azorean-dominated) value-gated with three parallel read-only
+agents. The headline thread — the **Terceira / São Sebastião Armond-Ermonde-Souto Maior trunk**
+(`cal-*` register + Gaspar/Margarida/Ermonde crops + ASBRAP/Lacerda) — was NOT promoted: it feeds
+the elder Simplício / Barão de Pitangui branch, not our direct-line Simplício (P-0016, parents
+unknown), and is itself unverified (Gaspar×Margarida 1690 marriage found but "das Candeias"
+illegible; Francisco's baptism absent; António-1688-before-1690 chronology flag; ~380–760px scans).
+Recorded as leads/context only. The external agent re-synced mid-analysis and deleted the 57 `cal-*`
+register pages. Brazilian Armond press (CdM/O Pharol/O Globo) = FAN; the two `rec-armond-simplicio-*`
+clippings name our Simplício but add nothing new.
+
+**Promoted (the only new direct-line material): NWS-0002** — three "A Sentinella" (Nova Friburgo)
+clippings: Manoel Pereira de Lemos death (20 Jan 1898, aged 72 → new brother of Rosa Eugenia de Lemos
+P-0035, documented_child on F-0025); Antonio José Bohrer death (2 Apr 1899, aged 13 → son of Joaquim
+José Bohrer P-0030, documented_child on F-0014); Joaquim José Bohrer birthday 16 December + Rosa/Joaquim
+alive 1898–99 (bilingual notes on P-0030/P-0035). DOC-0075. 290 entities; 69 tests pass; GEDCOM 3481 lines.
+
+See `logs/2026-08-10-newdrop-azorean-trunk-and-asentinella.md`.
+
+---
+
 ## 2026-08-10 — 1856 Concórdia land registry (GOV-0003) + Toledo triage continuation
 
 Promoted **GOV-0003**: the 1856 Lei de Terras land registry (Rio Pardo, Villa Leopoldina), entries

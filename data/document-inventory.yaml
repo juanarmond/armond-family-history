@@ -3046,3 +3046,63 @@ documents:
         Iris Bohrer (P-0007); recorded as a documented_child on F-0005. Private source:
         the transcription withholds the living son-in-law declarant's identity and the
         deceased's RG/CIC/bank numbers; the four surviving adult children are not named.
+  - inventory_id: DOC-0075
+    status: catalogued
+    added_date: "2026-08-10"
+    apparent_record_type: Newspaper social/death notices (A Sentinella, Nova Friburgo)
+    apparent_people:
+      - Manoel Pereira de Lemos (d. 20 Jan 1898)
+      - Rosa Eugenia de Lemos ("D. Roza Bohrer")
+      - Joaquim José Bohrer
+      - Antonio José Bohrer (d. 2 Apr 1899)
+    apparent_event: death
+    image_quality: adequate
+    provenance: >-
+      FamilySearch/owner retrieval drop (research/from-retrieval/ sync); three clippings
+      from the Nova Friburgo weekly "A Sentinella" (proprietor Guilherme Samuel Bohrer):
+      30 Jan 1898 (Manoel Pereira de Lemos óbito), 18 Dec 1898 (Joaquim José Bohrer
+      birthday), 4 Apr 1899 (Antonio José Bohrer óbito). Retrieved as images
+      rec-bohrer-asentinella-1898-01-30-*, -1898-12-18-*, -1899-04-04-*.
+    rights_status: private-research
+    files:
+      - path: evidence/newspapers/NWS-0002-asentinella-manoel-lemos-obito-1898-nvfriburgo.jpg
+        sha256: 9da9f0121b9c1e3f636902b5b9e8d03d4e357b1e151cc1dc7d1e7b6c8c8cdd9c
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3079
+          pixel_height: 4248
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/newspapers/NWS-0002-asentinella-joaquim-jose-bohrer-parabens-1898-nvfriburgo.jpg
+        sha256: 3ba412ddf607fb1e888c989e15a13faa7ee081a368bdae0bf963241cfe2f6d94
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3014
+          pixel_height: 4159
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/newspapers/NWS-0002-asentinella-antonio-jose-bohrer-obito-1899-nvfriburgo.jpg
+        sha256: 6b551cd13cbfdbe0ab25291db8b43339fab625262b2b651a461af3ac61fad7b8
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3008
+          pixel_height: 4190
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: NWS-0002
+    notes:
+      - >-
+        Three A Sentinella clippings documenting Manoel Pereira de Lemos's death (brother
+        of Rosa Eugenia de Lemos P-0035 → documented_child on F-0025), Antonio José
+        Bohrer's death (son of Joaquim José Bohrer P-0030 → documented_child on F-0014),
+        and Joaquim José Bohrer's 16 December birthday. All persons 19th-century deceased.
