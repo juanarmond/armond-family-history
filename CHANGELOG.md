@@ -5,6 +5,17 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Lemos siblings: four baptism records promoted (2026-08-10)
+
+- **PAR-0030** (Itaboraí 1832): PRIMARY baptism of Maria de Lemos (14 Jul 1832), daughter of Manoel de Lemos Ferreira × Maria Nunes de Jesus; sister of Rosa Eugenia de Lemos (P-0035).
+- **PAR-0031** (Itaboraí 1834): PRIMARY baptism of Anna de Lemos (12 Feb 1834), same parents; godparents José Antonio + Anna Roza de Guimarães.
+- **PAR-0032** (Itaboraí c.Jun 1836): PRIMARY baptism of Thomaz de Lemos (c. June 1836), mother recorded as "Maria Thereza de Jesus" (matching PAR-0016); godparents illegible.
+- **PAR-0033** (Itaboraí c.Nov 1838): PRIMARY baptism of Polídoro de Lemos (c. November 1838); father Manoel de Lemos Ferreira confirmed; mother illegible (severe page damage). Date corrected from retrieval-agent initial read of "15 March 1838".
+- **F-0025** documented_children updated: individual source IDs, corrected dates and godparents; mother-name discrepancy note added (scribal variant "Maria Nunes de Jesus" vs. preferred "Maria Thereza de Jesus").
+- **P-0053** name_variants updated: "Maria Nunes de Jesus" added as source variant (PAR-0030/0031).
+- **DOC-0063–0069** added to document inventory (backfills PAR-0027–0029 and adds PAR-0030–0033).
+- GEDCOM regenerated (7.0, 3249 lines); viewer index regenerated (274 entities).
+
 ### Added — Bohrer Swiss parish primaries: three new generations confirmed (2026-08-09)
 
 - **PAR-0027** (Grindel 1751–1753 Catholic baptism register): PRIMARY evidence for Johann Jacob Wehrli's (P-0072) birth on 17 January 1751 in Grindel. Parents confirmed as Johannes Wehrli (P-0074) and Barbara Alleman (P-0075). Also documents sibling Johann Joseph Wehrli (b. 23 June 1752, documented_child on F-0036).

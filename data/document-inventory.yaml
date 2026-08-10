@@ -2589,3 +2589,254 @@ documents:
         Cezário José da Silva Lima as their son (documented_child on F-0029) —
         consistent with his role as a witness at the 1810 Ladisláo × Mathilde marriage
         (PAR-0023). All persons 18th/19th-century deceased.
+  - inventory_id: DOC-0063
+    status: catalogued
+    added_date: "2026-08-08"
+    apparent_record_type: Catholic parish baptism register (original)
+    apparent_people:
+      - Johann Jacob Wehrli (b.17 Jan 1751)
+      - Johann Joseph Wehrli (b.23 Jun 1752)
+      - Johannes Wehrli (father)
+      - Barbara Alleman (mother)
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      FamilySearch retrieval drop (research/from-retrieval/ sync, 8 August 2026);
+      Grindel (Solothurn) Catholic baptism register page including both 1751 and
+      1752 Wehrli baptisms. Retrieved as image
+      rec-bohrer-borer-baptisms-grindel-1751-1753.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0027-wehrli-borer-baptisms-grindel-1751-1753.jpg
+        sha256: ebaaa8065bb86c31ea31b67c7705026f3ebe4e6ba489c1f39a32fb9a374e5354
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2047
+          pixel_height: 3015
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0027
+    notes:
+      - >-
+        Original Grindel Catholic baptism register page establishing Johann Jacob
+        Wehrli (b.17 Jan 1751) and his brother Johann Joseph Wehrli (b.23 Jun 1752),
+        sons of Johannes Wehrli × Barbara Alleman. Johann Jacob Wehrli is the
+        paternal ancestor of Elisabetha Borer Wehrli (P-0075), two generations
+        above Francisco José Bohrer (P-0031). All persons 18th-century deceased.
+  - inventory_id: DOC-0064
+    status: catalogued
+    added_date: "2026-08-08"
+    apparent_record_type: Catholic parish baptism register (original)
+    apparent_people:
+      - Elisabetha Borer (b.17 Jun 1760)
+      - Joseph Borer (father)
+      - Anna Maria Borer (mother)
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      FamilySearch retrieval drop (research/from-retrieval/ sync, 8 August 2026);
+      Erschwil (Solothurn) Catholic baptism register, church book #68, entry for
+      Elisabetha Borer, 17 June 1760. Retrieved as image
+      rec-bohrer-swiss-parish-register-solothurn-1760s.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0028-elisabetha-borer-baptism-1760-erschwil.jpg
+        sha256: fde9c25873c61d763041bc2d05d37335bd776908c6070a40424100aedad021c6
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1961
+          pixel_height: 3186
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0028
+    notes:
+      - >-
+        Original Erschwil Catholic baptism register entry for Elisabetha Borer
+        (b.17 Jun 1760), daughter of Joseph Borer × Anna Maria Borer; she married
+        Johann Jacob Wehrli in 1782 (PAR-0029) and is the paternal great-great-
+        grandmother of Francisco José Bohrer (P-0031). All persons 18th-century
+        deceased.
+  - inventory_id: DOC-0065
+    status: catalogued
+    added_date: "2026-08-08"
+    apparent_record_type: Catholic parish marriage register (original)
+    apparent_people:
+      - Johann Jacob Wehrli (groom)
+      - Elisabetha Borer (bride)
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      FamilySearch retrieval drop (research/from-retrieval/ sync, 7 August 2026);
+      Grindel (Solothurn) Catholic marriage register, page 71, entry 4, dated
+      27 January 1782. Retrieved as image rec-bohrer-werly-borer-marriages-grindel-1780.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0029-wehrli-borer-marriage-1782-grindel.jpg
+        sha256: 3d5b641f1196fb7cf0447d2600e25535b4cb0562ebc9f12d445ac254e1238f1b
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1965
+          pixel_height: 3167
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0029
+    notes:
+      - >-
+        Original Grindel Catholic marriage register entry establishing the 1782
+        marriage of Johann Jacob Wehrli × Elisabetha Borer, the direct Swiss
+        ancestors of Francisco José Bohrer (P-0031) three generations up. All
+        persons 18th-century deceased.
+  - inventory_id: DOC-0066
+    status: catalogued
+    added_date: "2026-08-10"
+    apparent_record_type: Catholic parish baptism register (original)
+    apparent_people:
+      - Maria de Lemos (b.14 Jul 1832)
+      - Manoel de Lemos Ferreira (father)
+      - Maria Nunes de Jesus (mother)
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      FamilySearch retrieval drop (research/from-retrieval/ sync, 7-8 August 2026);
+      Itaboraí (RJ) Catholic baptism register 1832-1838, DGS film 004620557.
+      Retrieved as image rec-lemos-maria-baptism-1832-itaborai.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0030-maria-de-lemos-baptism-1832-itaborai.jpg
+        sha256: dd4762893d9c11678246d36d9c07b6b9d47982eb07273a8d642940c3bed21ba9
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 4220
+          pixel_height: 3405
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0030
+    notes:
+      - >-
+        Original Itaboraí baptism register entry for Maria (Maria de Lemos), daughter
+        of Manoel de Lemos Ferreira × Maria Nunes de Jesus (scribal variant of
+        "Maria Thereza de Jesus" — same person as P-0053). Sister of Rosa Eugenia
+        de Lemos (P-0035). Maternal great-great-grandmother line of Juan Armond
+        (P-0001). All persons 19th-century deceased.
+  - inventory_id: DOC-0067
+    status: catalogued
+    added_date: "2026-08-10"
+    apparent_record_type: Catholic parish baptism register (original)
+    apparent_people:
+      - Anna de Lemos (b.12 Feb 1834)
+      - Manoel de Lemos Ferreira (father)
+      - Maria Nunes de Jesus (mother)
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      FamilySearch retrieval drop (research/from-retrieval/ sync, 7-8 August 2026);
+      Itaboraí (RJ) Catholic baptism register 1832-1838, DGS film 004620557.
+      Retrieved as image rec-lemos-anna-baptism-1834-itaborai.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0031-anna-de-lemos-baptism-1834-itaborai.jpg
+        sha256: 2d5822cae4d255efbd02e5f7e172208f891c2a25dbefa42ad03943213f0f0a21
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 4203
+          pixel_height: 3390
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0031
+    notes:
+      - >-
+        Original Itaboraí baptism register entry for Anna (Anna de Lemos), daughter
+        of Manoel de Lemos Ferreira × Maria Nunes de Jesus; godparents José Antonio
+        and Anna Roza de Guimarães. Sister of Rosa Eugenia de Lemos (P-0035). All
+        persons 19th-century deceased.
+  - inventory_id: DOC-0068
+    status: catalogued
+    added_date: "2026-08-10"
+    apparent_record_type: Catholic parish baptism register (original)
+    apparent_people:
+      - Thomaz de Lemos (bapt. c. June 1836)
+      - Manoel de Lemos (father)
+      - Maria Thereza [de Jesus] (mother)
+    apparent_event: baptism
+    image_quality: partly-illegible
+    provenance: >-
+      FamilySearch retrieval drop (research/from-retrieval/ sync, 7-8 August 2026);
+      Itaboraí (RJ) Catholic baptism register 1832-1838, DGS film 004620557.
+      Retrieved as image rec-lemos-thomaz-baptism-1836-itaborai.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0032-thomaz-de-lemos-baptism-1836-itaborai.jpg
+        sha256: e6b82ba11d5d04bb8ae458ea9c71a51dd0ce2d82a1b34c98f4178960c29bf876
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 4192
+          pixel_height: 3472
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0032
+    notes:
+      - >-
+        Original Itaboraí baptism register entry for Thomas (Thomaz de Lemos), son
+        of Manoel de Lemos × Maria Thereza [de Jesus]. Page significantly damaged;
+        exact baptism day and godparents illegible. Month June 1836 secure. Sister
+        of Rosa Eugenia de Lemos (P-0035). All persons 19th-century deceased.
+  - inventory_id: DOC-0069
+    status: catalogued
+    added_date: "2026-08-10"
+    apparent_record_type: Catholic parish baptism register (original)
+    apparent_people:
+      - Polídoro de Lemos (bapt. c. November 1838)
+      - Manoel de Lemos Ferreira (father)
+    apparent_event: baptism
+    image_quality: partly-illegible
+    provenance: >-
+      FamilySearch retrieval drop (research/from-retrieval/ sync, 7-8 August 2026);
+      Itaboraí (RJ) Catholic baptism register 1832-1838, DGS film 004620557.
+      Retrieved as image rec-lemos-polidoro-baptism-1838-itaborai.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0033-polidoro-de-lemos-baptism-1838-itaborai.jpg
+        sha256: 255e29188fe658f1ed9368c468c68d714fe9d50aef63a24520db08397b841a74
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 4305
+          pixel_height: 3269
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0033
+    notes:
+      - >-
+        Original Itaboraí baptism register entry for Polídoro (Polidoro de Lemos),
+        son of Manoel de Lemos Ferreira; mother's name severely damaged and illegible.
+        Page in very poor condition; date inferred as c. November 1838 from surrounding
+        entries. Brother of Rosa Eugenia de Lemos (P-0035). All persons 19th-century
+        deceased. Date corrected from retrieval-agent initial read of "15 March 1838"
+        to c. November 1838 based on direct image verification 2026-08-10.

@@ -9,6 +9,18 @@ name_variants:
   type: source
   source_ids:
   - PAR-0016
+  - PAR-0032
+- value: Maria Nunes de Jesus
+  type: source
+  source_ids:
+  - PAR-0030
+  - PAR-0031
+  note: >-
+    Recorded as "Maria Nunes de Jesus" in the 1832 (PAR-0030) and 1834 (PAR-0031)
+    Itaboraí baptisms of her children Maria and Anna. The same vigário recorded her
+    as "Maria Thereza de Jesus" in the 1835 Rosa baptism (PAR-0016) and the 1836
+    Thomaz baptism (PAR-0032). Scribal inconsistency; same woman. "Maria Thereza
+    de Jesus" is the preferred form.
 event_ids:
 - E-0049
 family_ids:

@@ -1,0 +1,79 @@
+schema_version: 1
+id: PAR-0030
+title: >-
+  Parish baptism register entry of "Maria" (Maria de Lemos), 14 July 1832, Matriz
+  de São João Batista de Itaboraí, naming her parents Manoel de Lemos [Ferreira]
+  and Maria Nunes [de Jesus]
+record_type: Parish baptism register entry (batismo, original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1832-07-14"
+  original_text: >-
+    "Aos quatorze dias do mês de Julho de mil oitocentos e trinta e dois anos"
+event_place_text: >-
+  Freguesia (Matriz) de São João Batista de Itaboraí, Província do Rio de Janeiro,
+  Brazil
+repository:
+  name: FamilySearch (Brazil, Rio de Janeiro, Catholic parish registers)
+  archive_or_registry: >-
+    Paróquia (Matriz) de São João Batista de Itaboraí, Rio de Janeiro
+  collection: >-
+    Brazil, Rio de Janeiro, registros paroquiais (FamilySearch); DGS film
+    004620557 (catalogue 1719212)
+  book: >-
+    Livro de batismos, Itaboraí, 1832-1838 (volume noted "em mau estado / páginas
+    rasgadas"); image preceding PAR-0016 (image 197)
+  catalogue_reference: >-
+    FamilySearch DGS 004620557 (cc=1719212). Delivered through the
+    research/from-retrieval/ sync; read and promoted 2026-08-10.
+  repository_path: evidence/parish/PAR-0030-maria-de-lemos-baptism-1832-itaborai.jpg
+access_date: "2026-08-10"
+language: pt-BR
+transcription: >-
+  [Matriz de São João Batista de Itaboraí; livro de batismos 1832-1838. Entrada
+  do lado esquerdo, margem lateral "Maria".] "Aos quatorze dias do mês de Julho
+  de mil oitocentos e trinta e dois anos nesta Matriz de Itaborahy, batizei que
+  os Santos Óleos a inocente Maria, filha legítima de Manoel de Lemos [Ferreira] e
+  da Maria [Nunes de Jesus], naturais desta Freguesia; foram Padrinhos [Felício?]
+  José Custódio Vieira, dos que mandei fazer este assento que assinei. O Vigário
+  Fr.° R.s La Pena."
+abstract: >-
+  The 1832 Itaboraí baptism of Maria, legitimate daughter of Manoel de Lemos
+  [Ferreira] (P-0052) and Maria [Nunes de Jesus] (P-0053), both natural of the
+  parish; godfather [Felício?] José Custódio Vieira. This Maria is Rosa Eugenia de
+  Lemos's (P-0035) older sister, confirmed by the same father name and parish as
+  PAR-0016. ⚠️ Mother recorded here as "Maria Nunes [de Jesus]"; Rosa's 1835
+  baptism (PAR-0016) records the mother as "Maria Thereza de Jesus" — the name
+  discrepancy is preserved; same woman recorded inconsistently by the vigário.
+reliability:
+  assessment: >-
+    Direct primary parish evidence of a Maria baptised 14 July 1832 at Itaboraí
+    to Manoel de Lemos [Ferreira] and Maria Nunes de Jesus. The father's name
+    cluster and parish match Rosa Eugenia de Lemos's 1835 baptism (PAR-0016),
+    strongly identifying this as her sibling. The mother-name variant (Nunes vs.
+    Thereza) is a scribal inconsistency rather than a different person.
+  informant: Vigário Francisco Ramos Pena, São João Batista de Itaboraí (1832).
+  limitations: >-
+    Volume in poor condition. The godfather's given name is uncertain ([Felício?]).
+    Mother recorded as "Maria Nunes [de Jesus]" here vs "Maria Thereza de Jesus"
+    in PAR-0016 — the discrepancy is unexplained but assessed as the same woman.
+digital_file:
+  path: evidence/parish/PAR-0030-maria-de-lemos-baptism-1832-itaborai.jpg
+  sha256: dd4762893d9c11678246d36d9c07b6b9d47982eb07273a8d642940c3bed21ba9
+linked_people:
+- P-0052
+- P-0053
+linked_families:
+- F-0025
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Sibling of Rosa Eugenia de Lemos (P-0035): baptised 14 July 1832, 3 years before
+    Rosa (PAR-0016, Oct 1835). Added as documented_child on F-0025.

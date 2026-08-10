@@ -1125,6 +1125,41 @@ See `logs/2026-08-07-retrieval-drop-triage-third-pass.md` for detail.
 
 ---
 
+## 2026-08-10 — Lemos siblings baptism promotions (PAR-0030–0033)
+
+Value-gated four rec-lemos-*-baptism-*-itaborai.jpg images from DGS film 004620557
+(Itaboraí baptism register 1832–1838). All four promoted as individual primary sources.
+
+**PAR-0030** (Maria de Lemos, 14 Jul 1832): Father Manoel de Lemos [Ferreira]; mother
+"Maria Nunes de Jesus" (scribal variant of the preferred "Maria Thereza de Jesus").
+
+**PAR-0031** (Anna de Lemos, 12 Feb 1834): Father Manoel de Lemos Ferreira; mother
+Maria Nunes de Jesus; godparents José Antonio + Anna Roza de Guimarães. Date corrected
+from retrieval-agent read of "11 Feb" to confirmed "12 Feb".
+
+**PAR-0032** (Thomaz de Lemos, c. Jun 1836): Father Manoel de Lemos; mother "Maria Thereza"
+(matching PAR-0016). Day and godparents illegible (page damage).
+
+**PAR-0033** (Polídoro de Lemos, c. Nov 1838): Father Manoel de Lemos Ferreira confirmed;
+mother illegible (severe page damage). Date corrected from retrieval-agent "15 Mar 1838" to
+confirmed c. November 1838 from surrounding entries.
+
+**Mother-name discrepancy flagged:** Vigário Francisco Ramos Pena recorded the same woman as
+"Maria Nunes de Jesus" (1832, 1834) and "Maria Thereza de Jesus" (1835, 1836). P-0053
+retains "Maria Thereza de Jesus" as preferred; "Maria Nunes de Jesus" added as a source variant.
+
+**Schema fix:** PAR-0030/0031 `event_date` corrected to `value: "YYYY-MM-DD"` format
+(had incorrectly used separate year/month/day fields).
+
+**Inventory:** DOC-0063–0069 added, backfilling PAR-0027–0029 (Swiss parish promotions
+from 2026-08-08) and adding PAR-0030–0033.
+
+All 69 tests pass; viewer index and GEDCOM regenerated (3249 lines).
+
+See `logs/2026-08-10-lemos-siblings-baptisms-1832-1838.md` for full detail.
+
+---
+
 ## 2026-08-08 — Armond leads and Mathilde death date (fourth pass)
 
 Acted on findings extracted from the 2026-08-08 retrieval agent transcripts

@@ -1,0 +1,82 @@
+schema_version: 1
+id: PAR-0033
+title: >-
+  Parish baptism register entry of "Polídoro" (Polidoro de Lemos), c. November 1838,
+  Matriz de São João Batista de Itaboraí, naming his father Manoel de Lemos Ferreira
+record_type: Parish baptism register entry (batismo, original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: month
+  year: 1838
+  month: 11
+  original_text: >-
+    "[Aos dez?] dias [do mês de Novembro?] de mil oitocentos e trinta e oito" —
+    November 1838 is the reading; exact day and month partially damaged.
+event_place_text: >-
+  Freguesia (Matriz) de São João Batista de Itaboraí, Província do Rio de Janeiro,
+  Brazil
+repository:
+  name: FamilySearch (Brazil, Rio de Janeiro, Catholic parish registers)
+  archive_or_registry: >-
+    Paróquia (Matriz) de São João Batista de Itaboraí, Rio de Janeiro
+  collection: >-
+    Brazil, Rio de Janeiro, registros paroquiais (FamilySearch); DGS film
+    004620557 (catalogue 1719212)
+  book: >-
+    Livro de batismos, Itaboraí, 1832-1838 (volume noted "em mau estado / páginas
+    rasgadas")
+  catalogue_reference: >-
+    FamilySearch DGS 004620557 (cc=1719212). Delivered through the
+    research/from-retrieval/ sync; read and promoted 2026-08-10.
+  repository_path: evidence/parish/PAR-0033-polidoro-de-lemos-baptism-1838-itaborai.jpg
+access_date: "2026-08-10"
+language: pt-BR
+transcription: >-
+  [Matriz de São João Batista de Itaboraí; livro de batismos 1832-1838. Margem
+  lateral "Polid[oro]". Página com danos significativos; nome da mãe ilegível.]
+  "[Aos dez?] dias [do mês de Novembro?] de mil oitocentos e trinta e oito nesta
+  Matriz batizei que os Santos Óleos o Reverendo [?] ao inocente Polídoro, filho
+  legítimo de Manoel de Lemos [Ferreira] e [mãe: ilegível], naturais desta
+  Freguesia; foram Padrinhos [ilegíveis]; para Constar [?]. O Vigário Fr.° R.s
+  Pena."
+abstract: >-
+  The c.November 1838 Itaboraí baptism of Polídoro, legitimate son of Manoel de
+  Lemos Ferreira (P-0052); mother's name is damaged and illegible. This Polidoro
+  is Rosa Eugenia de Lemos's (P-0035) brother — the youngest confirmed sibling in
+  the 1832-1838 register sweep. Father's name clearly legible ("de Lemos Ferreira"),
+  consistent with PAR-0030/PAR-0031. Godparents illegible.
+reliability:
+  assessment: >-
+    Direct primary parish evidence of a Polídoro baptised c.November 1838 at
+    Itaboraí to Manoel de Lemos Ferreira. Father identification is certain; mother
+    is unreadable due to page damage.
+  informant: Vigário Francisco Ramos Pena, São João Batista de Itaboraí (1838).
+  limitations: >-
+    Significant page damage; mother's name, exact day, month (November inferred from
+    surrounding entries), and godparents all illegible or uncertain. November 1838
+    is the best read of the date.
+digital_file:
+  path: evidence/parish/PAR-0033-polidoro-de-lemos-baptism-1838-itaborai.jpg
+  sha256: 255e29188fe658f1ed9368c468c68d714fe9d50aef63a24520db08397b841a74
+linked_people:
+- P-0052
+- P-0053
+linked_families:
+- F-0025
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Sibling of Rosa Eugenia de Lemos (P-0035): baptised c.November 1838, youngest
+    confirmed sibling in the 1832-1838 Itaboraí register sweep. The mother's name is
+    not recoverable from this image. Added as documented_child on F-0025.
+- text: >-
+    ⚠️ Date correction: F-0025 previously recorded "approximately 15 March 1838"
+    for Polidoro based on the retrieval agent's initial read. Direct image reading
+    on 2026-08-10 confirms ~November 1838, not March. The F-0025 note and documented
+    date have been corrected accordingly.

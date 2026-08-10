@@ -1,0 +1,78 @@
+schema_version: 1
+id: PAR-0032
+title: >-
+  Parish baptism register entry of "Thomas" (Thomaz de Lemos), c. June 1836, Matriz
+  de São João Batista de Itaboraí, naming his parents Manoel de Lemos and Maria
+  Thereza [de Jesus]
+record_type: Parish baptism register entry (batismo, original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: month
+  year: 1836
+  month: 6
+  original_text: >-
+    "[Aos ?] dias do mês de Junho de mil oitocentos e trinta e [seis]" —
+    exact day unclear from damaged page; June 1836 secure.
+event_place_text: >-
+  Freguesia (Matriz) de São João Batista de Itaboraí, Província do Rio de Janeiro,
+  Brazil
+repository:
+  name: FamilySearch (Brazil, Rio de Janeiro, Catholic parish registers)
+  archive_or_registry: >-
+    Paróquia (Matriz) de São João Batista de Itaboraí, Rio de Janeiro
+  collection: >-
+    Brazil, Rio de Janeiro, registros paroquiais (FamilySearch); DGS film
+    004620557 (catalogue 1719212)
+  book: >-
+    Livro de batismos, Itaboraí, 1832-1838 (volume noted "em mau estado / páginas
+    rasgadas")
+  catalogue_reference: >-
+    FamilySearch DGS 004620557 (cc=1719212). Delivered through the
+    research/from-retrieval/ sync; read and promoted 2026-08-10.
+  repository_path: evidence/parish/PAR-0032-thomaz-de-lemos-baptism-1836-itaborai.jpg
+access_date: "2026-08-10"
+language: pt-BR
+transcription: >-
+  [Matriz de São João Batista de Itaboraí; livro de batismos 1832-1838. Margem
+  lateral "Thomas". Página parcialmente danificada; dia exato e padrinhos
+  ilegíveis.] "[Aos ?] dias do mês de Junho de mil oitocentos e trinta e [seis]
+  anos nesta Matriz de Itaborahy, batizei que os Santos Óleos o Reverendo [?] ao
+  inocente Thomas, filho legítimo de Manoel de Lemos [e] [?] Maria Thereza[?],
+  naturais desta Freguesia; foram Padrinhos [?]; para Constar mandei fazer este
+  assento que assinei. O Vigário Fr.° R.s Pena."
+abstract: >-
+  The c.1836 Itaboraí baptism of Thomas (Thomaz), legitimate son of Manoel de
+  Lemos (P-0052) and Maria Thereza [de Jesus] (P-0053), natural of the parish.
+  This Thomas is Rosa Eugenia de Lemos's (P-0035) brother, confirmed by parent pair
+  and parish. ⚠️ Mother recorded here as "Maria Thereza" — matching PAR-0016
+  (1835) but differing from the "Maria Nunes de Jesus" of PAR-0030 (1832) and
+  PAR-0031 (1834); scribal inconsistency, same woman. Godparents illegible due to
+  page damage.
+reliability:
+  assessment: >-
+    Direct primary parish evidence. Father's name "Manoel de Lemos" and the mother's
+    "Maria Thereza" form clearly support the F-0025 parent pair. The exact day is
+    unclear from the damaged page.
+  informant: Vigário Francisco Ramos Pena, São João Batista de Itaboraí (1836).
+  limitations: >-
+    Volume in poor condition; exact day, godparent names, and some text around the
+    mother's name illegible or uncertain. June 1836 is secure from visible text.
+digital_file:
+  path: evidence/parish/PAR-0032-thomaz-de-lemos-baptism-1836-itaborai.jpg
+  sha256: e6b82ba11d5d04bb8ae458ea9c71a51dd0ce2d82a1b34c98f4178960c29bf876
+linked_people:
+- P-0052
+- P-0053
+linked_families:
+- F-0025
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Sibling of Rosa Eugenia de Lemos (P-0035): baptised c. June 1836, ~8 months
+    after Rosa (PAR-0016, Oct 1835). Added as documented_child on F-0025.

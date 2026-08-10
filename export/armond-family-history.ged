@@ -3,8 +3,8 @@
 2 VERS 7.0
 1 SOUR ARMOND-FAMILY-HISTORY
 2 NAME Armond Family History
-2 VERS 2026.08.09
-1 DATE 09 AUG 2026
+2 VERS 2026.08.10
+1 DATE 10 AUG 2026
 1 SUBM @SUBM0001@
 1 LANG pt-BR
 0 @SUBM0001@ SUBM
@@ -887,6 +887,10 @@
 1 NAME Maria Thereza de /Jesus/
 2 GIVN Maria Thereza de
 2 SURN Jesus
+1 NAME Maria Nunes de /Jesus/
+2 TYPE AKA
+2 SOUR @PAR0030@
+2 SOUR @PAR0031@
 1 SEX F
 1 FAMS @F0025@
 1 NOTE Mother of Rosa Eugenia de Lemos (P-0035); hence Joaquim José Bohrer's (P-0030) maternal grandmother. Named in her daughter's 1835 Itaboraí baptism (PAR-0016) as "Maria Thereza de Jesus … natural desta freguezia", wife of Manoel de Lemos [Pereira] (P-0052, family F-0025).
@@ -1384,38 +1388,41 @@
 2 SOUR @PRB0005@
 1 NOTE Brother of Rosa Eugenia de Lemos (P-0035): named "meu cunhado Candido Pereira de Lemos" and second-named executor in her husband Francisco José Bohrer's 1888 will (PRB-0005). Born before 1832 (absent from the 1832-1838 Itaboraí baptism sweep); his own baptism/inventário is unlocated.
 0 @DOCF0025_2@ INDI
-1 NAME Maria //
-2 GIVN Maria
+1 NAME Maria de /Lemos/
+2 GIVN Maria de
+2 SURN Lemos
 1 SEX U
 1 FAMC @F0025@
 1 NOTE Documented child, not individually modelled.
-2 SOUR @PAR0016@
-1 NOTE Sister of Rosa Eugenia (P-0035); baptized 14 July 1832, Matriz de Itaborahy. Parents confirmed: Manoel de Lemos Pereira × Maria Thereza [de Jesus]. Godparent: José Custodio Vieira. Image read by retrieval agent 7 August 2026; cited to PAR-0016 (the family's own 1835 baptism record) as the source confirming the parents, pending individual source cataloguing.
+2 SOUR @PAR0030@
+1 NOTE Sister of Rosa Eugenia (P-0035); baptized 14 July 1832, Matriz de São João Batista de Itaborahy. Father: Manoel de Lemos [Ferreira]; mother: Maria Nunes [de Jesus] (scribal variant of the "Maria Thereza de Jesus" in PAR-0016 — same woman, recorded inconsistently). Godfather: [Felício?] José Custódio Vieira. Source: PAR-0030 (individual baptism image, read 2026-08-10).
 0 @DOCF0025_3@ INDI
-1 NAME Anna //
-2 GIVN Anna
+1 NAME Anna de /Lemos/
+2 GIVN Anna de
+2 SURN Lemos
 1 SEX U
 1 FAMC @F0025@
 1 NOTE Documented child, not individually modelled.
-2 SOUR @PAR0016@
-1 NOTE Sister of Rosa Eugenia (P-0035); baptized 11 February 1834, Matriz de Itaborahy. Parents confirmed: Manoel de Lemos Pereira × Maria Thereza [de Jesus]. Godparents: José [Antuenes] and Anna Rosa. Image read by retrieval agent 7 August 2026.
+2 SOUR @PAR0031@
+1 NOTE Sister of Rosa Eugenia (P-0035); baptized 12 February 1834, Matriz de São João Batista de Itaborahy. Father: Manoel de Lemos Ferreira; mother: Maria Nunes de Jesus. Godparents: José Antonio + Anna Roza de Guimarães. Source: PAR-0031 (individual baptism image, read 2026-08-10).
 0 @DOCF0025_4@ INDI
-1 NAME Thomaz de Lemos /Pereira/
-2 GIVN Thomaz de Lemos
-2 SURN Pereira
+1 NAME Thomaz de /Lemos/
+2 GIVN Thomaz de
+2 SURN Lemos
 1 SEX U
 1 FAMC @F0025@
 1 NOTE Documented child, not individually modelled.
-2 SOUR @PAR0016@
-1 NOTE Brother of Rosa Eugenia (P-0035); baptized June 1836, Matriz de Itaborahy. Parents confirmed: Manoel de Lemos [Pereira] × Maria Thereza. Image read by retrieval agent 7 August 2026.
+2 SOUR @PAR0032@
+1 NOTE Brother of Rosa Eugenia (P-0035); baptized c. June 1836, Matriz de São João Batista de Itaborahy. Father: Manoel de Lemos; mother: Maria Thereza [de Jesus] (matching PAR-0016; distinct from the "Maria Nunes" variant in PAR-0030/0031 — same woman, see F-0025 notes). Source: PAR-0032 (individual baptism image, read 2026-08-10).
 0 @DOCF0025_5@ INDI
-1 NAME Polidoro //
-2 GIVN Polidoro
+1 NAME Polidoro de /Lemos/
+2 GIVN Polidoro de
+2 SURN Lemos
 1 SEX U
 1 FAMC @F0025@
 1 NOTE Documented child, not individually modelled.
-2 SOUR @PAR0016@
-1 NOTE Brother of Rosa Eugenia (P-0035); baptized approximately 15 March 1838, Matriz de Itaborahy. Parents confirmed: Manoel de Lemos Pereira × Maria Thereza [de Jesus]. Image read by retrieval agent 7 August 2026.
+2 SOUR @PAR0033@
+1 NOTE Brother of Rosa Eugenia (P-0035); baptized c. November 1838, Matriz de São João Batista de Itaborahy. Father: Manoel de Lemos Ferreira (confirmed); mother's name damaged and illegible in the register. Source: PAR-0033 (individual baptism image, read 2026-08-10). ⚠️ Date corrected from "15 March 1838" (retrieval-agent initial read) to c. November 1838 (direct image verification 2026-08-10).
 0 @DOCF0026_1@ INDI
 1 NAME José Augusto de Toledo /Lima/
 2 GIVN José Augusto de Toledo
@@ -2027,7 +2034,8 @@
 3 QUAY 3
 1 SOUR @PAR0016@
 1 NOTE Parents of Rosa Eugenia de Lemos (P-0035), the Lemos family of Itaboraí, RJ, established by her own 1835 Itaboraí baptism (PAR-0016). Extends the maternal Bohrer (Lemos) line one generation above P-0035.
-1 NOTE Rosa's siblings from the same 1832-1838 Itaborahy register: Maria (b.1832), Anna (b.1834), Thomaz de Lemos Pereira (b.1836) and Polidoro (b.1838) are now added as documented_children — parents Manoel de Lemos Pereira × Maria Thereza confirmed from each baptism image (read by retrieval agent, 7 August 2026; images held in research/from-retrieval/output/images/). Manoel (b.1831) and the older Candido Pereira de Lemos remain in the ledger as noted but unconfirmed from images. Source cataloguing for each sibling baptism is pending (images not yet promoted).
+1 NOTE Rosa's siblings from the same 1832-1838 Itaborahy register (PAR-0030/0031/0032/ 0033): Maria (bapt. 14 Jul 1832), Anna (bapt. 12 Feb 1834), Thomaz (bapt. c. Jun 1836), Polidoro (bapt. c. Nov 1838). All now individually catalogued with their own source IDs. The older Candido Pereira de Lemos (PRB-0005, unnamed in the baptism sweep) preceded them.
+1 NOTE ⚠️ Mother-name discrepancy: Maria and Anna's baptisms (PAR-0030, PAR-0031) record the mother as "Maria Nunes [de Jesus]"; Rosa's baptism (PAR-0016) and Thomaz's (PAR-0032) record her as "Maria Thereza [de Jesus]". The vigário recorded the same woman inconsistently. P-0053 retains "Maria Thereza de Jesus" as the preferred form (from the majority of readings and Rosa's own entry), but "Maria Nunes de Jesus" is preserved as a variant documented in PAR-0030/0031.
 0 @F0026@ FAM
 1 HUSB @P0054@
 1 WIFE @P0055@
@@ -2780,6 +2788,46 @@
 1 NOTE Transcription: [Catholic parish marriage register, Grindel, Solothurn. Page 71, entry 4. Full Latin transcription of the entry:] Die 27ma Januarii 1782 ego [officiating priest name, not fully legible] matrimonio junxi Jacobum Wehrlia[m] et Elisabetham Borer ambo ex Grindel, Erischwyg. Testes fuerunt Heinricus Werli et Catharina Borer. [Translation: "On the 27th day of January 1782 I [officiating priest] joined in matrimony Jacobus Wehrlia[m] [= Johann Jacob Wehrli] and Elisabetha Borer, both from Grindel, Erischwyg. The witnesses were Heinricus Werli [= Heinrich/Henri Wehrli] and Catharina Borer."]
 1 NOTE Archival reference: ARK 3:1:3Q9M-CSVK-NSXR-C (FHC-only access); retrieved 2026-08-07 by the external FamilySearch retrieval agent as image rec-bohrer-werly-borer-marriages-grindel-1780.jpg.
 1 OBJE @OBJPAR0029@
+0 @PAR0030@ SOUR
+1 TITL Parish baptism register entry of "Maria" (Maria de Lemos), 14 July 1832, Matriz de São João Batista de Itaboraí, naming her parents Manoel de Lemos [Ferreira] and Maria Nunes [de Jesus]
+1 TEXT The 1832 Itaboraí baptism of Maria, legitimate daughter of Manoel de Lemos [Ferreira] (P-0052) and Maria [Nunes de Jesus] (P-0053), both natural of the parish; godfather [Felício?] José Custódio Vieira. This Maria is Rosa Eugenia de Lemos's (P-0035) older sister, confirmed by the same father name and parish as PAR-0016. ⚠️ Mother recorded here as "Maria Nunes [de Jesus]"; Rosa's 1835 baptism (PAR-0016) records the mother as "Maria Thereza de Jesus" — the name discrepancy is preserved; same woman recorded inconsistently by the vigário.
+1 REPO @REPO0013@
+2 CALN Brazil, Rio de Janeiro, registros paroquiais (FamilySearch); DGS film 004620557 (catalogue 1719212), livro Livro de batismos, Itaboraí, 1832-1838 (volume noted "em mau estado / páginas rasgadas"); image preceding PAR-0016 (image 197)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Matriz de São João Batista de Itaboraí; livro de batismos 1832-1838. Entrada do lado esquerdo, margem lateral "Maria".] "Aos quatorze dias do mês de Julho de mil oitocentos e trinta e dois anos nesta Matriz de Itaborahy, batizei que os Santos Óleos a inocente Maria, filha legítima de Manoel de Lemos [Ferreira] e da Maria [Nunes de Jesus], naturais desta Freguesia; foram Padrinhos [Felício?] José Custódio Vieira, dos que mandei fazer este assento que assinei. O Vigário Fr.° R.s La Pena."
+1 NOTE Archival reference: FamilySearch DGS 004620557 (cc=1719212). Delivered through the research/from-retrieval/ sync; read and promoted 2026-08-10.
+1 NOTE Repository file: evidence/parish/PAR-0030-maria-de-lemos-baptism-1832-itaborai.jpg
+1 OBJE @OBJPAR0030@
+0 @PAR0031@ SOUR
+1 TITL Parish baptism register entry of "Anna" (Anna de Lemos), 12 February 1834, Matriz de São João Batista de Itaboraí, naming her parents Manoel de Lemos Ferreira and Maria Nunes de Jesus
+1 TEXT The 1834 Itaboraí baptism of Anna, legitimate daughter of Manoel de Lemos Ferreira (P-0052) and Maria Nunes de Jesus (P-0053), both natural of the parish; godparents José Antonio and Anna Roza de Guimarães. This Anna is Rosa Eugenia de Lemos's (P-0035) older sister, confirmed by the same parents and parish as PAR-0016. ⚠️ Mother recorded as "Maria Nunes de Jesus" here vs. "Maria Thereza de Jesus" in PAR-0016 (1835) — scribal inconsistency, same woman. Also on this page: a baptism of José, son of Castro Guimarães × Leonora Maria Correa de Oliveira, whose paternal grandparents were from Vizela de Brito, Bispado de Braga, Portugal — different family but the Guimarães surname is notable.
+1 REPO @REPO0013@
+2 CALN Brazil, Rio de Janeiro, registros paroquiais (FamilySearch); DGS film 004620557 (catalogue 1719212), livro Livro de batismos, Itaboraí, 1832-1838 (volume noted "em mau estado / páginas rasgadas")
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Matriz de São João Batista de Itaboraí; livro de batismos 1832-1838. Entrada do lado esquerdo, primeira da página, margem lateral "Anna".] "Aos doze dias do mês de Fevereiro de mil oitocentos e trinta e quatro anos nesta Matriz de Itaborahy, de licença, eu batizei os Santos Óleos a inocente Anna, filha legítima de Manoel de Lemos Ferreira e da Maria Nunes de Jesus, naturais da Freguesia; foram Padrinhos José Antonio e Anna Roza de Guimarães, dos que mandei fazer este assento que assinei. Regist[rei]. Fr.° R.s Pena."
+1 NOTE Archival reference: FamilySearch DGS 004620557 (cc=1719212). Delivered through the research/from-retrieval/ sync; read and promoted 2026-08-10.
+1 NOTE Repository file: evidence/parish/PAR-0031-anna-de-lemos-baptism-1834-itaborai.jpg
+1 OBJE @OBJPAR0031@
+0 @PAR0032@ SOUR
+1 TITL Parish baptism register entry of "Thomas" (Thomaz de Lemos), c. June 1836, Matriz de São João Batista de Itaboraí, naming his parents Manoel de Lemos and Maria Thereza [de Jesus]
+1 TEXT The c.1836 Itaboraí baptism of Thomas (Thomaz), legitimate son of Manoel de Lemos (P-0052) and Maria Thereza [de Jesus] (P-0053), natural of the parish. This Thomas is Rosa Eugenia de Lemos's (P-0035) brother, confirmed by parent pair and parish. ⚠️ Mother recorded here as "Maria Thereza" — matching PAR-0016 (1835) but differing from the "Maria Nunes de Jesus" of PAR-0030 (1832) and PAR-0031 (1834); scribal inconsistency, same woman. Godparents illegible due to page damage.
+1 REPO @REPO0013@
+2 CALN Brazil, Rio de Janeiro, registros paroquiais (FamilySearch); DGS film 004620557 (catalogue 1719212), livro Livro de batismos, Itaboraí, 1832-1838 (volume noted "em mau estado / páginas rasgadas")
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Matriz de São João Batista de Itaboraí; livro de batismos 1832-1838. Margem lateral "Thomas". Página parcialmente danificada; dia exato e padrinhos ilegíveis.] "[Aos ?] dias do mês de Junho de mil oitocentos e trinta e [seis] anos nesta Matriz de Itaborahy, batizei que os Santos Óleos o Reverendo [?] ao inocente Thomas, filho legítimo de Manoel de Lemos [e] [?] Maria Thereza[?], naturais desta Freguesia; foram Padrinhos [?]; para Constar mandei fazer este assento que assinei. O Vigário Fr.° R.s Pena."
+1 NOTE Archival reference: FamilySearch DGS 004620557 (cc=1719212). Delivered through the research/from-retrieval/ sync; read and promoted 2026-08-10.
+1 NOTE Repository file: evidence/parish/PAR-0032-thomaz-de-lemos-baptism-1836-itaborai.jpg
+1 OBJE @OBJPAR0032@
+0 @PAR0033@ SOUR
+1 TITL Parish baptism register entry of "Polídoro" (Polidoro de Lemos), c. November 1838, Matriz de São João Batista de Itaboraí, naming his father Manoel de Lemos Ferreira
+1 TEXT The c.November 1838 Itaboraí baptism of Polídoro, legitimate son of Manoel de Lemos Ferreira (P-0052); mother's name is damaged and illegible. This Polidoro is Rosa Eugenia de Lemos's (P-0035) brother — the youngest confirmed sibling in the 1832-1838 register sweep. Father's name clearly legible ("de Lemos Ferreira"), consistent with PAR-0030/PAR-0031. Godparents illegible.
+1 REPO @REPO0013@
+2 CALN Brazil, Rio de Janeiro, registros paroquiais (FamilySearch); DGS film 004620557 (catalogue 1719212), livro Livro de batismos, Itaboraí, 1832-1838 (volume noted "em mau estado / páginas rasgadas")
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Matriz de São João Batista de Itaboraí; livro de batismos 1832-1838. Margem lateral "Polid[oro]". Página com danos significativos; nome da mãe ilegível.] "[Aos dez?] dias [do mês de Novembro?] de mil oitocentos e trinta e oito nesta Matriz batizei que os Santos Óleos o Reverendo [?] ao inocente Polídoro, filho legítimo de Manoel de Lemos [Ferreira] e [mãe: ilegível], naturais desta Freguesia; foram Padrinhos [ilegíveis]; para Constar [?]. O Vigário Fr.° R.s Pena."
+1 NOTE Archival reference: FamilySearch DGS 004620557 (cc=1719212). Delivered through the research/from-retrieval/ sync; read and promoted 2026-08-10.
+1 NOTE Repository file: evidence/parish/PAR-0033-polidoro-de-lemos-baptism-1838-itaborai.jpg
+1 OBJE @OBJPAR0033@
 0 @PRB0001@ SOUR
 1 TITL 1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza Balbina de Toledo (wife of Simplício José Ferreira Armond)
 1 TEXT A page from an 1881 Leopoldina probate/partilha listing the heirs of an estate on Eliza Balbina de Toledo's side. It names Eliza Balbina de Toledo as the wife of Simplício José Ferreira Armond and lists her Toledo siblings with ages: Maria Bulandina de Toledo (m. Manoel Marques Jorge), Ladisláo Egydio Ferreira de Toledo (~23, b. ~1858), Geraldo Augusto de Toledo Lima (~15, b. ~1866, then living in Rio de Janeiro), and Josepha Olympia da Paixão (~12, b. ~1869), plus a predeceased Carolina Leopoldina Marques inheriting by representation. The companion 1884 petition (PRB-0002) names the decedent as D. Mathilde Maria de Jezus.
@@ -3138,6 +3186,26 @@
 2 FORM image/jpeg
 2 TITL Grindel (Solothurn) Catholic parish marriage register, page 71 — marriage of Johann Jacob Wehrli and Elisabetha Borer, 27 January 1782
 1 NOTE sha256: 3d5b641f1196fb7cf0447d2600e25535b4cb0562ebc9f12d445ac254e1238f1b
+0 @OBJPAR0030@ OBJE
+1 FILE evidence/parish/PAR-0030-maria-de-lemos-baptism-1832-itaborai.jpg
+2 FORM image/jpeg
+2 TITL Parish baptism register entry of "Maria" (Maria de Lemos), 14 July 1832, Matriz de São João Batista de Itaboraí, naming her parents Manoel de Lemos [Ferreira] and Maria Nunes [de Jesus]
+1 NOTE sha256: dd4762893d9c11678246d36d9c07b6b9d47982eb07273a8d642940c3bed21ba9
+0 @OBJPAR0031@ OBJE
+1 FILE evidence/parish/PAR-0031-anna-de-lemos-baptism-1834-itaborai.jpg
+2 FORM image/jpeg
+2 TITL Parish baptism register entry of "Anna" (Anna de Lemos), 12 February 1834, Matriz de São João Batista de Itaboraí, naming her parents Manoel de Lemos Ferreira and Maria Nunes de Jesus
+1 NOTE sha256: 2d5822cae4d255efbd02e5f7e172208f891c2a25dbefa42ad03943213f0f0a21
+0 @OBJPAR0032@ OBJE
+1 FILE evidence/parish/PAR-0032-thomaz-de-lemos-baptism-1836-itaborai.jpg
+2 FORM image/jpeg
+2 TITL Parish baptism register entry of "Thomas" (Thomaz de Lemos), c. June 1836, Matriz de São João Batista de Itaboraí, naming his parents Manoel de Lemos and Maria Thereza [de Jesus]
+1 NOTE sha256: e6b82ba11d5d04bb8ae458ea9c71a51dd0ce2d82a1b34c98f4178960c29bf876
+0 @OBJPAR0033@ OBJE
+1 FILE evidence/parish/PAR-0033-polidoro-de-lemos-baptism-1838-itaborai.jpg
+2 FORM image/jpeg
+2 TITL Parish baptism register entry of "Polídoro" (Polidoro de Lemos), c. November 1838, Matriz de São João Batista de Itaboraí, naming his father Manoel de Lemos Ferreira
+1 NOTE sha256: 255e29188fe658f1ed9368c468c68d714fe9d50aef63a24520db08397b841a74
 0 @OBJPRB0001@ OBJE
 1 FILE evidence/probate/PRB-0001-probate-toledo-heir-list-leopoldina-1881-original.jpg
 2 FORM image/jpeg

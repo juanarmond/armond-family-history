@@ -1,0 +1,82 @@
+schema_version: 1
+id: PAR-0031
+title: >-
+  Parish baptism register entry of "Anna" (Anna de Lemos), 12 February 1834,
+  Matriz de São João Batista de Itaboraí, naming her parents Manoel de Lemos
+  Ferreira and Maria Nunes de Jesus
+record_type: Parish baptism register entry (batismo, original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1834-02-12"
+  original_text: >-
+    "Aos doze dias do mês de Fevereiro de mil oitocentos e trinta e quatro anos"
+event_place_text: >-
+  Freguesia (Matriz) de São João Batista de Itaboraí, Província do Rio de Janeiro,
+  Brazil
+repository:
+  name: FamilySearch (Brazil, Rio de Janeiro, Catholic parish registers)
+  archive_or_registry: >-
+    Paróquia (Matriz) de São João Batista de Itaboraí, Rio de Janeiro
+  collection: >-
+    Brazil, Rio de Janeiro, registros paroquiais (FamilySearch); DGS film
+    004620557 (catalogue 1719212)
+  book: >-
+    Livro de batismos, Itaboraí, 1832-1838 (volume noted "em mau estado / páginas
+    rasgadas")
+  catalogue_reference: >-
+    FamilySearch DGS 004620557 (cc=1719212). Delivered through the
+    research/from-retrieval/ sync; read and promoted 2026-08-10.
+  repository_path: evidence/parish/PAR-0031-anna-de-lemos-baptism-1834-itaborai.jpg
+access_date: "2026-08-10"
+language: pt-BR
+transcription: >-
+  [Matriz de São João Batista de Itaboraí; livro de batismos 1832-1838. Entrada
+  do lado esquerdo, primeira da página, margem lateral "Anna".] "Aos doze dias do
+  mês de Fevereiro de mil oitocentos e trinta e quatro anos nesta Matriz de
+  Itaborahy, de licença, eu batizei os Santos Óleos a inocente Anna, filha
+  legítima de Manoel de Lemos Ferreira e da Maria Nunes de Jesus, naturais da
+  Freguesia; foram Padrinhos José Antonio e Anna Roza de Guimarães, dos que
+  mandei fazer este assento que assinei. Regist[rei]. Fr.° R.s Pena."
+abstract: >-
+  The 1834 Itaboraí baptism of Anna, legitimate daughter of Manoel de Lemos
+  Ferreira (P-0052) and Maria Nunes de Jesus (P-0053), both natural of the
+  parish; godparents José Antonio and Anna Roza de Guimarães. This Anna is Rosa
+  Eugenia de Lemos's (P-0035) older sister, confirmed by the same parents and
+  parish as PAR-0016. ⚠️ Mother recorded as "Maria Nunes de Jesus" here vs.
+  "Maria Thereza de Jesus" in PAR-0016 (1835) — scribal inconsistency, same woman.
+  Also on this page: a baptism of José, son of Castro Guimarães × Leonora Maria
+  Correa de Oliveira, whose paternal grandparents were from Vizela de Brito, Bispado
+  de Braga, Portugal — different family but the Guimarães surname is notable.
+reliability:
+  assessment: >-
+    Direct primary parish evidence. Father's exact surname "de Lemos Ferreira" and
+    mother's name clearly legible; parent pair matches F-0025. The "Ferreira" vs.
+    "Pereira" variant of the father's middle name (Ferreira here; Pereira in
+    PAR-0016) is assessed as a scribal variant of the same person.
+  informant: Vigário Francisco Ramos Pena, São João Batista de Itaboraí (1834).
+  limitations: >-
+    Volume in poor condition. The Ferreira/Pereira variant in the father's surname
+    across entries is unresolved at primary level.
+digital_file:
+  path: evidence/parish/PAR-0031-anna-de-lemos-baptism-1834-itaborai.jpg
+  sha256: 2d5822cae4d255efbd02e5f7e172208f891c2a25dbefa42ad03943213f0f0a21
+linked_people:
+- P-0052
+- P-0053
+linked_families:
+- F-0025
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Sibling of Rosa Eugenia de Lemos (P-0035): baptised 12 February 1834, 1.5 years
+    before Rosa (PAR-0016, Oct 1835). Godmother Anna Roza de Guimarães is a notable
+    Guimarães-Lemos link in Itaboraí (same surname as the Engrácio/Guimarães family
+    branch, though the connection is coincidental at this remove). Added as
+    documented_child on F-0025.

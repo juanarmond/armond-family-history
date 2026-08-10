@@ -47,36 +47,41 @@ documented_children:
     Lemos" and second-named executor in her husband Francisco José Bohrer's 1888 will
     (PRB-0005). Born before 1832 (absent from the 1832-1838 Itaboraí baptism sweep);
     his own baptism/inventário is unlocated.
-- name: Maria
+- name: Maria de Lemos
   source_ids:
-  - PAR-0016
+  - PAR-0030
   note: >-
-    Sister of Rosa Eugenia (P-0035); baptized 14 July 1832, Matriz de Itaborahy.
-    Parents confirmed: Manoel de Lemos Pereira × Maria Thereza [de Jesus]. Godparent:
-    José Custodio Vieira. Image read by retrieval agent 7 August 2026; cited to
-    PAR-0016 (the family's own 1835 baptism record) as the source confirming the
-    parents, pending individual source cataloguing.
-- name: Anna
+    Sister of Rosa Eugenia (P-0035); baptized 14 July 1832, Matriz de São João
+    Batista de Itaborahy. Father: Manoel de Lemos [Ferreira]; mother: Maria Nunes
+    [de Jesus] (scribal variant of the "Maria Thereza de Jesus" in PAR-0016 — same
+    woman, recorded inconsistently). Godfather: [Felício?] José Custódio Vieira.
+    Source: PAR-0030 (individual baptism image, read 2026-08-10).
+- name: Anna de Lemos
   source_ids:
-  - PAR-0016
+  - PAR-0031
   note: >-
-    Sister of Rosa Eugenia (P-0035); baptized 11 February 1834, Matriz de Itaborahy.
-    Parents confirmed: Manoel de Lemos Pereira × Maria Thereza [de Jesus]. Godparents:
-    José [Antuenes] and Anna Rosa. Image read by retrieval agent 7 August 2026.
-- name: Thomaz de Lemos Pereira
+    Sister of Rosa Eugenia (P-0035); baptized 12 February 1834, Matriz de São João
+    Batista de Itaborahy. Father: Manoel de Lemos Ferreira; mother: Maria Nunes de
+    Jesus. Godparents: José Antonio + Anna Roza de Guimarães.
+    Source: PAR-0031 (individual baptism image, read 2026-08-10).
+- name: Thomaz de Lemos
   source_ids:
-  - PAR-0016
+  - PAR-0032
   note: >-
-    Brother of Rosa Eugenia (P-0035); baptized June 1836, Matriz de Itaborahy.
-    Parents confirmed: Manoel de Lemos [Pereira] × Maria Thereza. Image read by
-    retrieval agent 7 August 2026.
-- name: Polidoro
+    Brother of Rosa Eugenia (P-0035); baptized c. June 1836, Matriz de São João
+    Batista de Itaborahy. Father: Manoel de Lemos; mother: Maria Thereza [de Jesus]
+    (matching PAR-0016; distinct from the "Maria Nunes" variant in PAR-0030/0031 —
+    same woman, see F-0025 notes). Source: PAR-0032 (individual baptism image, read
+    2026-08-10).
+- name: Polidoro de Lemos
   source_ids:
-  - PAR-0016
+  - PAR-0033
   note: >-
-    Brother of Rosa Eugenia (P-0035); baptized approximately 15 March 1838, Matriz de
-    Itaborahy. Parents confirmed: Manoel de Lemos Pereira × Maria Thereza [de Jesus].
-    Image read by retrieval agent 7 August 2026.
+    Brother of Rosa Eugenia (P-0035); baptized c. November 1838, Matriz de São João
+    Batista de Itaborahy. Father: Manoel de Lemos Ferreira (confirmed); mother's name
+    damaged and illegible in the register. Source: PAR-0033 (individual baptism image,
+    read 2026-08-10). ⚠️ Date corrected from "15 March 1838" (retrieval-agent initial
+    read) to c. November 1838 (direct image verification 2026-08-10).
 event_ids: []
 notes:
 - text: >-
@@ -84,10 +89,15 @@ notes:
     established by her own 1835 Itaboraí baptism (PAR-0016). Extends the maternal
     Bohrer (Lemos) line one generation above P-0035.
 - text: >-
-    Rosa's siblings from the same 1832-1838 Itaborahy register: Maria (b.1832), Anna
-    (b.1834), Thomaz de Lemos Pereira (b.1836) and Polidoro (b.1838) are now added as
-    documented_children — parents Manoel de Lemos Pereira × Maria Thereza confirmed
-    from each baptism image (read by retrieval agent, 7 August 2026; images held in
-    research/from-retrieval/output/images/). Manoel (b.1831) and the older Candido
-    Pereira de Lemos remain in the ledger as noted but unconfirmed from images.
-    Source cataloguing for each sibling baptism is pending (images not yet promoted).
+    Rosa's siblings from the same 1832-1838 Itaborahy register (PAR-0030/0031/0032/
+    0033): Maria (bapt. 14 Jul 1832), Anna (bapt. 12 Feb 1834), Thomaz (bapt. c. Jun
+    1836), Polidoro (bapt. c. Nov 1838). All now individually catalogued with their
+    own source IDs. The older Candido Pereira de Lemos (PRB-0005, unnamed in the
+    baptism sweep) preceded them.
+- text: >-
+    ⚠️ Mother-name discrepancy: Maria and Anna's baptisms (PAR-0030, PAR-0031) record
+    the mother as "Maria Nunes [de Jesus]"; Rosa's baptism (PAR-0016) and Thomaz's
+    (PAR-0032) record her as "Maria Thereza [de Jesus]". The vigário recorded the
+    same woman inconsistently. P-0053 retains "Maria Thereza de Jesus" as the
+    preferred form (from the majority of readings and Rosa's own entry), but "Maria
+    Nunes de Jesus" is preserved as a variant documented in PAR-0030/0031.
