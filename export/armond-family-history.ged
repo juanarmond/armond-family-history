@@ -1319,6 +1319,15 @@
 1 NOTE Documented child, not individually modelled. Reported lifespan: b. 1924.
 2 SOUR @CIV0016@
 1 NOTE Brother of Iris (P-0007); son of João Gonçalves Bohrer and Celina, per his 1924 Nova Friburgo birth (CIV-0016). Deceased — the owner confirms the grandparent generation and earlier are all deceased.
+0 @DOCF0005_2@ INDI
+1 NAME João /Bohrer/
+2 GIVN João
+2 SURN Bohrer
+1 SEX U
+1 FAMC @F0005@
+1 NOTE Documented child, not individually modelled. Reported lifespan: c.1940–2001.
+2 SOUR @CIV0025@
+1 NOTE Brother of Iris (P-0007); son of João Gonçalves Bohrer (P-0014) and Celina Bohrer (P-0015), per his 2001 Volta Redonda civil death (CIV-0025): born c.1940 in Carangola (MG), died 12 January 2001 at Volta Redonda aged 61, married to Alice Batista Bohrer. Distinct from his father João Gonçalves Bohrer (d. 1970). Deceased; his four surviving adult children are living and are not modelled, per privacy policy.
 0 @DOCF0006_1@ INDI
 1 NAME Marfiza Ferreira /Armond/
 2 GIVN Marfiza Ferreira
@@ -1913,7 +1922,9 @@
 1 WIFE @P0015@
 1 CHIL @P0007@
 1 CHIL @DOCF0005_1@
+1 CHIL @DOCF0005_2@
 1 SOUR @CIV0004@
+1 NOTE João Gonçalves Bohrer and Celina had fifteen children (stated in his 1970 death record, CIV-0014). Only clearly-deceased siblings of Iris (P-0007) are recorded here as documented_children — Eunir (CIV-0016) and João (CIV-0025); the remaining siblings are not listed, as living people are omitted.
 0 @F0006@ FAM
 1 HUSB @P0016@
 1 WIFE @P0017@
@@ -2593,6 +2604,16 @@
 1 NOTE Archival reference: Livro de Óbitos 1909, folhas 144–145, Termo Nº 6 (seis); certidão issued 4 October 1910 by Luiz G. Fortes de Bustamante, escrivão da paz e Official do Registro Civil do Districto de Thebes. Two-page certidão delivered through research/from-retrieval/ sync; read and promoted 7 August 2026.
 1 NOTE Repository file: evidence/civil/CIV-0024-antonio-ladislao-toledo-death-1909-leopoldina-page-01.jpg
 1 OBJE @OBJCIV0024@
+0 @CIV0025@ SOUR
+1 TITL Civil death registration of João Bohrer (2001, Volta Redonda), a brother of Iris Bohrer, naming his parents João Gonçalves Bohrer and Celina Bohrer
+1 TEXT Informational copy of the civil death registration of João Bohrer, who died 12 January 2001 at the Hospital Evangélico Regional, Volta Redonda (RJ), aged 61 (born c.1940), a retired man natural of Carangola (MG), married to Alice Batista Bohrer. His parents are named as João Gonçalves Bohrer (P-0014) and Celina Bohrer (P-0015), making him a brother of Iris Bohrer (P-0007) — one of the fifteen children of that couple. Recorded as a documented (collateral) sibling on F-0005. Living-person identifiers in the record (the son-in-law declarant, and the deceased's RG/CIC/bank numbers) are withheld under the repository's privacy policy, and the source is private.
+1 REPO @REPO0002@
+2 CALN Brasil, Rio de Janeiro, Registro Civil (FamilySearch)
+1 NOTE Evidence classification: civil_registration; original; information mixed; direct evidence.
+1 NOTE Transcription: [Óbito nº 23.828, Segunda Circunscrição do Registro Civil de Volta Redonda, Livro 51-C, Folha 233. Cópia informativa ("SEM VALOR LEGAL"). Somente os dados genealogicamente relevantes são transcritos; os identificadores de pessoas vivas — o nome e o RG do declarante (genro do falecido) e os números de RG, CIC e conta bancária do próprio falecido — foram omitidos por privacidade.] "Aos 12 de janeiro de 2001, nesta cidade de Volta Redonda e em cartório, compareceu [o declarante — genro do falecido; identificação omitida por privacidade] e, exibindo o atestado de óbito firmado pela médica Evelin Wardini Rayes, prestou as seguintes declarações: Nome do obituado: JOÃO BOHRER. Data e hora do falecimento: 12 de janeiro de 2001, às 09:15 horas. Estado civil: casado com Alice Batista Bohrer. Sexo: masculino. Idade: 61 anos. Lugar de falecimento: Hospital Evangélico Regional, nesta cidade. Residência: [omitida]. Profissão: aposentado. Naturalidade: Carangola-MG. Nome dos pais do obituado: JOÃO GONÇALVES BOHRER e CELINA BOHRER. Lugar do sepultamento: Cemitério Municipal de Volta Redonda-RJ. Deixou quatro filhos maiores [vivos — não nomeados no assento], não deixou bens, era eleitor e faleceu sem testamento conhecido. Causa mortis: parada cárdio-respiratória, insuficiência respiratória aguda, choque hipovolêmico, hemorragia digestiva alta. O declarante é genro do falecido."
+1 NOTE Archival reference: Informational copy ("SEM VALOR LEGAL") of the óbito register entry, delivered through the research/from-retrieval/ sync as image rec-bohrer-joao-death-2001.jpg; read and promoted 2026-08-10.
+1 NOTE Repository file: evidence/civil/CIV-0025-joao-bohrer-obito-2001-voltaredonda.jpg
+1 OBJE @OBJCIV0025@
 0 @GOV0001@ SOUR
 1 TITL Driver-dossier alphabetical index entry for José Olavo Armond
 1 TEXT A March 1973 Guanabara government driver-dossier index lists José Olavo Armond, born 25 September 1926 in Brazil, and names his father as "Aristac Ferreira Armond" and his mother as Liliosa Paz Armond. The father's given name appears to be a typographical corruption of Aristão, but the source form is preserved rather than silently corrected.
@@ -3178,6 +3199,11 @@
 2 FORM image/jpeg
 2 TITL Civil death registration (certified extract) of António Ladislão de Toledo, died 11 Feb 1909, Fazenda da Concórdia, Districto de Thebes, Leopoldina MG, naming parents Ladislao Igidio Ferreira de Toledo × Mathilde Luiza de Toledo
 1 NOTE sha256: 16e2195fc709a44a646182e67e11d327aeeba2537de56082edd69eb975e3d4bb
+0 @OBJCIV0025@ OBJE
+1 FILE evidence/civil/CIV-0025-joao-bohrer-obito-2001-voltaredonda.jpg
+2 FORM image/jpeg
+2 TITL Civil death registration of João Bohrer (2001, Volta Redonda), a brother of Iris Bohrer, naming his parents João Gonçalves Bohrer and Celina Bohrer
+1 NOTE sha256: 4855193c0fd934f8147374eac381ca2201be983aed875138b140bcc467a7a8f6
 0 @OBJGOV0001@ OBJE
 1 FILE evidence/government/GOV-0001-driver-index-jose-olavo-armond-1973-original.jpg
 2 FORM image/jpeg

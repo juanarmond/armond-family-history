@@ -1,0 +1,105 @@
+schema_version: 1
+id: CIV-0025
+title: >-
+  Civil death registration of João Bohrer (2001, Volta Redonda), a brother of Iris
+  Bohrer, naming his parents João Gonçalves Bohrer and Celina Bohrer
+record_type: Civil death register entry
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "2001-01-12"
+event_place_text: Volta Redonda, Rio de Janeiro, Brazil
+repository:
+  name: FamilySearch Historical Records
+  archive_or_registry: >-
+    Segunda Circunscrição do Registro Civil de Volta Redonda, Rio de Janeiro —
+    Livro de Óbitos 51-C, Folha 233, Termo nº 23.828
+  collection: >-
+    Brasil, Rio de Janeiro, Registro Civil (FamilySearch)
+  catalogue_reference: >-
+    Informational copy ("SEM VALOR LEGAL") of the óbito register entry, delivered
+    through the research/from-retrieval/ sync as image rec-bohrer-joao-death-2001.jpg;
+    read and promoted 2026-08-10.
+  repository_path: evidence/civil/CIV-0025-joao-bohrer-obito-2001-voltaredonda.jpg
+access_date: "2026-08-10"
+language: pt-BR
+transcription: >-
+  [Óbito nº 23.828, Segunda Circunscrição do Registro Civil de Volta Redonda, Livro
+  51-C, Folha 233. Cópia informativa ("SEM VALOR LEGAL"). Somente os dados
+  genealogicamente relevantes são transcritos; os identificadores de pessoas vivas
+  — o nome e o RG do declarante (genro do falecido) e os números de RG, CIC e conta
+  bancária do próprio falecido — foram omitidos por privacidade.]
+  "Aos 12 de janeiro de 2001, nesta cidade de Volta Redonda e em cartório,
+  compareceu [o declarante — genro do falecido; identificação omitida por
+  privacidade] e, exibindo o atestado de óbito firmado pela médica Evelin Wardini
+  Rayes, prestou as seguintes declarações: Nome do obituado: JOÃO BOHRER. Data e
+  hora do falecimento: 12 de janeiro de 2001, às 09:15 horas. Estado civil: casado
+  com Alice Batista Bohrer. Sexo: masculino. Idade: 61 anos. Lugar de falecimento:
+  Hospital Evangélico Regional, nesta cidade. Residência: [omitida]. Profissão:
+  aposentado. Naturalidade: Carangola-MG. Nome dos pais do obituado: JOÃO GONÇALVES
+  BOHRER e CELINA BOHRER. Lugar do sepultamento: Cemitério Municipal de Volta
+  Redonda-RJ. Deixou quatro filhos maiores [vivos — não nomeados no assento], não
+  deixou bens, era eleitor e faleceu sem testamento conhecido. Causa mortis: parada
+  cárdio-respiratória, insuficiência respiratória aguda, choque hipovolêmico,
+  hemorragia digestiva alta. O declarante é genro do falecido."
+abstract: >-
+  Informational copy of the civil death registration of João Bohrer, who died 12
+  January 2001 at the Hospital Evangélico Regional, Volta Redonda (RJ), aged 61
+  (born c.1940), a retired man natural of Carangola (MG), married to Alice Batista
+  Bohrer. His parents are named as João Gonçalves Bohrer (P-0014) and Celina Bohrer
+  (P-0015), making him a brother of Iris Bohrer (P-0007) — one of the fifteen
+  children of that couple. Recorded as a documented (collateral) sibling on F-0005.
+  Living-person identifiers in the record (the son-in-law declarant, and the
+  deceased's RG/CIC/bank numbers) are withheld under the repository's privacy
+  policy, and the source is private.
+abstract_pt: >-
+  Cópia informativa do assento de óbito civil de João Bohrer, falecido em 12 de
+  janeiro de 2001 no Hospital Evangélico Regional, Volta Redonda (RJ), aos 61 anos
+  (nascido por volta de 1940), aposentado, natural de Carangola (MG), casado com
+  Alice Batista Bohrer. Seus pais são nomeados como João Gonçalves Bohrer (P-0014) e
+  Celina Bohrer (P-0015), tornando-o irmão de Iris Bohrer (P-0007) — um dos quinze
+  filhos daquele casal. Registrado como irmão (colateral) documentado em F-0005. Os
+  identificadores de pessoas vivas presentes no registro (o declarante, genro do
+  falecido, e os números de RG/CIC/conta bancária do falecido) foram omitidos
+  conforme a política de privacidade do repositório, e a fonte é privada.
+reliability:
+  assessment: >-
+    Contemporary civil death entry: the death facts (date, place, age, cause) are
+    primary; the parentage is reported by the declarant (the deceased's son-in-law),
+    hence mixed information quality. Directly confirms João Bohrer as a son of João
+    Gonçalves Bohrer × Celina Bohrer and therefore a brother of Iris (P-0007).
+  informant: >-
+    The deceased's son-in-law (declarant), Volta Redonda, 12 January 2001; medical
+    attestation by Dr. Evelin Wardini Rayes.
+  limitations: >-
+    An informational copy marked "SEM VALOR LEGAL", not a certified certidão. Living
+    descendants (four adult children) are referenced but not named in the entry; the
+    declarant's identity and document numbers are withheld here by policy.
+digital_file:
+  path: evidence/civil/CIV-0025-joao-bohrer-obito-2001-voltaredonda.jpg
+  sha256: 4855193c0fd934f8147374eac381ca2201be983aed875138b140bcc467a7a8f6
+linked_people:
+- P-0014
+- P-0015
+linked_families:
+- F-0005
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Establishes João Bohrer (b. c.1940 Carangola, d. 12 Jan 2001 Volta Redonda) as a
+    son of João Gonçalves Bohrer (P-0014) and Celina Bohrer (P-0015) — a brother of
+    Iris Bohrer (P-0007). Recorded as a documented_child on F-0005 rather than a
+    person entity (collateral, no research of its own). Distinct from his father
+    João Gonçalves Bohrer (d. 1970, CIV-0014); the near-identical names are two
+    different men across two generations.
+- text: >-
+    Privacy: this is a 21st-century record with living descendants. The source is
+    private; the transcription withholds the son-in-law declarant's name and RG and
+    the deceased's RG/CIC/bank-account numbers, and does not enumerate the four
+    surviving adult children (who are not named in the entry).

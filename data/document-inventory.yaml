@@ -2454,6 +2454,17 @@ documents:
           pixel_height: 4224
         privacy_review: cleared
         sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-embargos-audiencia.jpg
+        sha256: 43342e64893a4a15283d73a19bba2c20d0a094ad9eb11581d490eb1fbae2f81b
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3213
+          pixel_height: 4159
+        privacy_review: cleared
+        sensitive_content: []
     duplicate_of: null
     proposed_source_id: PRB-0009
     notes:
@@ -2994,3 +3005,44 @@ documents:
         (P-0061) and José Cesário de Toledo Lima (P-0054) as Fazenda da Concórdia
         landholders; Nº 145 confirms José Cesário's mother (Mathilde, P-0027) alive
         in 1856. All persons 19th-century deceased.
+  - inventory_id: DOC-0074
+    status: catalogued
+    added_date: "2026-08-10"
+    apparent_record_type: Civil death register entry (informational copy)
+    apparent_people:
+      - João Bohrer (deceased, d. 12 Jan 2001)
+      - João Gonçalves Bohrer (father)
+      - Celina Bohrer (mother)
+    apparent_event: death
+    image_quality: adequate
+    provenance: >-
+      FamilySearch retrieval drop (research/from-retrieval/ sync); informational copy
+      ("SEM VALOR LEGAL") of the óbito register entry Nº 23.828, Segunda Circunscrição
+      do Registro Civil de Volta Redonda (RJ), Livro 51-C, Folha 233, dated 12 January
+      2001. Retrieved as image rec-bohrer-joao-death-2001.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/civil/CIV-0025-joao-bohrer-obito-2001-voltaredonda.jpg
+        sha256: 4855193c0fd934f8147374eac381ca2201be983aed875138b140bcc467a7a8f6
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2087
+          pixel_height: 1448
+        privacy_review: cleared
+        sensitive_content:
+          - living-person-data
+          - identity-number
+          - financial
+          - medical
+    duplicate_of: null
+    proposed_source_id: CIV-0025
+    notes:
+      - >-
+        Death of João Bohrer (b. c.1940 Carangola, d. 12 Jan 2001 Volta Redonda),
+        son of João Gonçalves Bohrer (P-0014) × Celina Bohrer (P-0015) — a brother of
+        Iris Bohrer (P-0007); recorded as a documented_child on F-0005. Private source:
+        the transcription withholds the living son-in-law declarant's identity and the
+        deceased's RG/CIC/bank numbers; the four surviving adult children are not named.

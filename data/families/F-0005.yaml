@@ -30,5 +30,21 @@ documented_children:
     Brother of Iris (P-0007); son of João Gonçalves Bohrer and Celina, per his
     1924 Nova Friburgo birth (CIV-0016). Deceased — the owner confirms the
     grandparent generation and earlier are all deceased.
+- name: João Bohrer
+  source_ids:
+  - CIV-0025
+  lifespan: c.1940–2001
+  note: >-
+    Brother of Iris (P-0007); son of João Gonçalves Bohrer (P-0014) and Celina
+    Bohrer (P-0015), per his 2001 Volta Redonda civil death (CIV-0025): born
+    c.1940 in Carangola (MG), died 12 January 2001 at Volta Redonda aged 61,
+    married to Alice Batista Bohrer. Distinct from his father João Gonçalves
+    Bohrer (d. 1970). Deceased; his four surviving adult children are living and
+    are not modelled, per privacy policy.
 event_ids: []
-notes: []
+notes:
+- text: >-
+    João Gonçalves Bohrer and Celina had fifteen children (stated in his 1970
+    death record, CIV-0014). Only clearly-deceased siblings of Iris (P-0007) are
+    recorded here as documented_children — Eunir (CIV-0016) and João (CIV-0025);
+    the remaining siblings are not listed, as living people are omitted.

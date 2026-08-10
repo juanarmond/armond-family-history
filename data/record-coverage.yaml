@@ -1235,23 +1235,28 @@ people:
   external_profiles: []
   records:
   - record_type: birth
-    status: negative_search
+    status: inaccessible
     source_ids: []
-    last_reviewed: "2026-08-07"
+    last_reviewed: "2026-08-10"
     next_action: >-
-      A FamilySearch image of a São João del Rei baptism register (March 1813,
-      rec-toledo-jose-cesario-baptism-1813-sjdrei.jpg) was read on 7 August 2026
-      but is too illegible (dense 19th-century cursive + ink bleed-through) to
-      confirm the child's name, parents, or parish. A higher-resolution scan or
-      in-person reading at the originating archive (Arquivo Eclesiástico de São João
-      del Rei or equivalent) is required before PAR-0025 can be created.
+      BLOCKED — pending a higher-resolution scan. The São João del Rei baptism
+      register image (March 1813, rec-toledo-jose-cesario-baptism-1813-sjdrei.jpg,
+      page 54) is too degraded to transcribe: the archive's own labels read "página(s)
+      coberta(s) com papel transparente / tinta permeada" (ink bleed-through) and
+      "página(s) desbotada(s)". Re-read directly on 10 August 2026 — March-1813 dates
+      and marginal given-names (José, João, Anna) are visible, but the parentage
+      clauses cannot be read. A higher-resolution scan or in-person reading at the
+      originating archive (Arquivo Eclesiástico de São João del Rei / Arquidiocese de
+      Mariana) is required before this baptism can be catalogued.
     notes:
     - text: >-
-        7 August 2026: image held and read — illegible at delivered resolution.
-        Pre-allocated source ID PAR-0025 and event ID E-0055 remain unused. FINDINGS.md
-        synthesis reports "José Cesário baptism, São João del Rei 1813, parents
-        Ladisláo × Mathilde" as confirmed by the retrieval agent, but the image
-        cannot be reliably transcribed. A higher-resolution copy is the next step.
+        Read twice (7 Aug 2026 and 10 Aug 2026) — illegible at delivered resolution
+        both times. Do NOT promote from the FINDINGS synthesis ("José Cesário baptism,
+        São João del Rei 1813, parents Ladisláo × Mathilde"): that is a retrieval-agent
+        lead, and the record text itself cannot be reliably transcribed. No source ID
+        is reserved (the earlier note's "PAR-0025 / E-0055 reserved" is stale — PAR-0025
+        is now the Piracatu baptism and E-0055 is retired). Status set to `inaccessible`
+        to reflect the image-quality block rather than a true negative search.
   - record_type: death
     status: catalogued
     source_ids:
