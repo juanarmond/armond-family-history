@@ -82,6 +82,10 @@
           "type": "string",
           "minLength": 1
         },
+        "text_pt": {
+          "type": "string",
+          "minLength": 1
+        },
         "status": {
           "$ref": "#/$defs/confidenceStatus"
         },

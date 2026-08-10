@@ -16,7 +16,13 @@ function fixtures() {
       nationality: "Brazilian",
       name_variants: [{ value: "Ann Alpha" }, { value: "Anna Alpha" }],
       occupations: [{ value: "lavrador", source_ids: ["S-1"], note: "test note" }],
-      notes: [{ text: "Possible conflict with the civil record." }],
+      notes: [
+        {
+          text: "Possible conflict with the civil record.",
+          text_pt: "Possível conflito com o registo civil.",
+        },
+        { text: "A note with no translation." },
+      ],
     },
     "P-2": {
       id: "P-2",
@@ -108,7 +114,9 @@ function fixtures() {
       information_quality: "primary",
       reliability: { limitations: "The ink is faded in places." },
       transcription: "Marriage entry text.",
+      transcription_pt: "Texto do assento de casamento.",
       abstract: "A civil marriage.",
+      abstract_pt: "Um casamento civil.",
       repository: { url: "https://example.org/s1", repository_path: "evidence/civil/S-1.jpg" },
       digital_file: { path: "evidence/civil/S-1.jpg" },
       private: true,
@@ -311,6 +319,26 @@ test("source view carries transcription and abstract", () => {
   assert.equal(data.sources["S-1"].transcription, "Marriage entry text.");
   assert.equal(data.sources["S-1"].abstract, "A civil marriage.");
   assert.equal(data.sources["S-2"].transcription, null);
+});
+
+test("source view carries Portuguese translations of transcription and abstract", () => {
+  const data = projectTreeData(fixtures());
+  assert.equal(data.sources["S-1"].transcriptionPt, "Texto do assento de casamento.");
+  assert.equal(data.sources["S-1"].abstractPt, "Um casamento civil.");
+  // A source with no Portuguese translation projects null (viewer falls back to EN).
+  assert.equal(data.sources["S-2"].transcriptionPt, null);
+  assert.equal(data.sources["S-2"].abstractPt, null);
+});
+
+test("research notes project as bilingual { en, pt } pairs", () => {
+  const data = projectTreeData(fixtures());
+  assert.deepEqual(data.people["P-1"].notes, [
+    {
+      en: "Possible conflict with the civil record.",
+      pt: "Possível conflito com o registo civil.",
+    },
+    { en: "A note with no translation.", pt: null },
+  ]);
 });
 
 test("source view carries a file type for image vs pdf", () => {

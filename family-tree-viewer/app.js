@@ -26,6 +26,17 @@ const vocab = (kind, value) => i18n.label(kind, value);
 const localePlace = (name) =>
   typeof name === "string" && state.locale === "pt-BR" ? name.replace(/\bBrazil\b/g, "Brasil") : name;
 
+// Resolve bilingual research content (transcript, summary/abstract, notes) to the
+// active locale. Accepts either a { en, pt } pair or two positional strings; when
+// Portuguese is selected and a translation exists it is shown, otherwise the
+// English base is the fallback. Keeps the PT/EN toggle switching the content, not
+// just the UI chrome.
+const localeText = (value, ptText) => {
+  const en = value && typeof value === "object" ? value.en : value;
+  const pt = value && typeof value === "object" ? value.pt : ptText;
+  return state.locale === "pt-BR" && typeof pt === "string" && pt.trim() ? pt : en || "";
+};
+
 // Small, self-contained flag glyphs keyed by the recorded nationality. Inline SVG
 // (not emoji) so they render identically on every platform and stay offline. They
 // mark nationality as recorded — never inferred ethnic origin.
@@ -925,13 +936,14 @@ function openReader(source) {
   const showTxn = () => {
     txnBtn.classList.add("active");
     absBtn.classList.remove("active");
-    if (source.transcription) renderTranscript(textEl, source.transcription);
+    if (source.transcription)
+      renderTranscript(textEl, localeText(source.transcription, source.transcriptionPt));
     else textEl.textContent = t("reader.noTranscript");
   };
   const showAbs = () => {
     absBtn.classList.add("active");
     txnBtn.classList.remove("active");
-    textEl.textContent = source.abstract || t("reader.noTranscript");
+    textEl.textContent = localeText(source.abstract, source.abstractPt) || t("reader.noTranscript");
   };
   txnBtn.addEventListener("click", showTxn);
   absBtn.addEventListener("click", showAbs);
@@ -1028,13 +1040,13 @@ function sourceList(sources) {
     if (source.transcription) {
       const transcription = document.createElement("p");
       transcription.className = "source-transcription";
-      transcription.textContent = source.transcription;
+      transcription.textContent = localeText(source.transcription, source.transcriptionPt);
       nodes.push(transcription);
     }
     if (source.abstract) {
       const abstract = document.createElement("p");
       abstract.className = "source-abstract";
-      abstract.textContent = source.abstract;
+      abstract.textContent = localeText(source.abstract, source.abstractPt);
       nodes.push(abstract);
     }
     if (source.limitation) {
@@ -1090,7 +1102,7 @@ function fanList(refs) {
     if (ref.transcription) {
       const transcription = document.createElement("p");
       transcription.className = "source-transcription";
-      transcription.textContent = ref.transcription;
+      transcription.textContent = localeText(ref.transcription, ref.transcriptionPt);
       nodes.push(transcription);
     }
 
@@ -1192,7 +1204,9 @@ function openDetails(personId) {
     elements.detailsContent.append(
       section(t("detail.fan"), fanList(person.fanReferences || [])),
     );
-    elements.detailsContent.append(section(t("detail.notes"), list(person.notes, t("empty.notes"))));
+    elements.detailsContent.append(
+      section(t("detail.notes"), list((person.notes || []).map((note) => localeText(note)), t("empty.notes"))),
+    );
   } else {
     const privacy = document.createElement("p");
     privacy.className = "empty-note";

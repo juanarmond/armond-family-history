@@ -105,7 +105,15 @@
       "type": "string",
       "minLength": 1
     },
+    "transcription_pt": {
+      "type": "string",
+      "minLength": 1
+    },
     "abstract": {
+      "type": "string",
+      "minLength": 1
+    },
+    "abstract_pt": {
       "type": "string",
       "minLength": 1
     },

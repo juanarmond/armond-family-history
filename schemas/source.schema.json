@@ -175,7 +175,14 @@
     "transcription": {
       "type": "string"
     },
+    "transcription_pt": {
+      "type": "string"
+    },
     "abstract": {
+      "type": "string",
+      "minLength": 1
+    },
+    "abstract_pt": {
       "type": "string",
       "minLength": 1
     },

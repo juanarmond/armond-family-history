@@ -87,15 +87,25 @@ export function evidenceHref(path) {
   return `${EVIDENCE_ROOT}/${clean}`;
 }
 
+// Project research notes as bilingual pairs { en, pt }. `text` is the English
+// base (always present); `text_pt` is the optional Portuguese translation. The
+// viewer resolves which to show from the active locale. A bare string note (or a
+// note without a translation) yields { en, pt: null }.
 function noteTexts(notes) {
   if (!Array.isArray(notes)) return [];
   return notes
     .map((note) => {
-      if (typeof note === "string") return note.trim();
-      if (note && typeof note.text === "string") return note.text.trim();
-      return "";
+      if (typeof note === "string") return { en: note.trim(), pt: null };
+      if (note && typeof note.text === "string") {
+        const pt =
+          typeof note.text_pt === "string" && note.text_pt.trim()
+            ? note.text_pt.trim()
+            : null;
+        return { en: note.text.trim(), pt };
+      }
+      return { en: "", pt: null };
     })
-    .filter(Boolean);
+    .filter((note) => note.en);
 }
 
 function sourceIdsFromPerson(person) {
@@ -276,9 +286,17 @@ export function projectTreeData({ people, families, events, places, sources, fan
           typeof source.transcription === "string" && source.transcription.trim()
             ? source.transcription.trim()
             : null,
+        transcriptionPt:
+          typeof source.transcription_pt === "string" && source.transcription_pt.trim()
+            ? source.transcription_pt.trim()
+            : null,
         abstract:
           typeof source.abstract === "string" && source.abstract.trim()
             ? source.abstract.trim()
+            : null,
+        abstractPt:
+          typeof source.abstract_pt === "string" && source.abstract_pt.trim()
+            ? source.abstract_pt.trim()
             : null,
         file: evidenceHref(rawPath),
         fileType: fileKind(rawPath),
@@ -306,7 +324,9 @@ export function projectTreeData({ people, families, events, places, sources, fan
         date: ref.event_date || null,
         place: trimmedText(ref.event_place_text),
         transcription: trimmedText(ref.transcription),
+        transcriptionPt: trimmedText(ref.transcription_pt),
         abstract: trimmedText(ref.abstract),
+        abstractPt: trimmedText(ref.abstract_pt),
         file: evidenceHref(ref.digital_file?.path || null),
         fileType: fileKind(ref.digital_file?.path || null),
         url: trimmedText(ref.repository?.url),
@@ -589,7 +609,10 @@ export function projectTreeData({ people, families, events, places, sources, fan
         (sourceYear[a] ?? 9999) - (sourceYear[b] ?? 9999) ||
         a.localeCompare(b),
     );
-    const conflictText = notes.join(" ").toLocaleLowerCase();
+    const conflictText = notes
+      .map((note) => `${note.en} ${note.pt || ""}`)
+      .join(" ")
+      .toLocaleLowerCase();
     const personSources = living ? [] : sourceIds.map((id) => sourceView[id]).filter(Boolean);
 
     peopleView[personId] = {
