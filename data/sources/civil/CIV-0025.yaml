@@ -29,23 +29,27 @@ access_date: "2026-08-10"
 language: pt-BR
 transcription: >-
   [Óbito nº 23.828, Segunda Circunscrição do Registro Civil de Volta Redonda, Livro
-  51-C, Folha 233. Cópia informativa ("SEM VALOR LEGAL"). Somente os dados
-  genealogicamente relevantes são transcritos; os identificadores de pessoas vivas
-  — o nome e o RG do declarante (genro do falecido) e os números de RG, CIC e conta
-  bancária do próprio falecido — foram omitidos por privacidade.]
+  51-C, Folha 233. Cópia informativa ("SEM VALOR LEGAL"). Transcrição integral do
+  assento; o falecido está morto, portanto seus dados são exibidos por completo.
+  Apenas o RG e o endereço do declarante — Jorge de Paulo Campos, genro do falecido,
+  pessoa viva — foram omitidos, por serem identificadores de um terceiro vivo.]
   "Aos 12 de janeiro de 2001, nesta cidade de Volta Redonda e em cartório,
-  compareceu [o declarante — genro do falecido; identificação omitida por
-  privacidade] e, exibindo o atestado de óbito firmado pela médica Evelin Wardini
-  Rayes, prestou as seguintes declarações: Nome do obituado: JOÃO BOHRER. Data e
-  hora do falecimento: 12 de janeiro de 2001, às 09:15 horas. Estado civil: casado
-  com Alice Batista Bohrer. Sexo: masculino. Idade: 61 anos. Lugar de falecimento:
-  Hospital Evangélico Regional, nesta cidade. Residência: [omitida]. Profissão:
-  aposentado. Naturalidade: Carangola-MG. Nome dos pais do obituado: JOÃO GONÇALVES
-  BOHRER e CELINA BOHRER. Lugar do sepultamento: Cemitério Municipal de Volta
-  Redonda-RJ. Deixou quatro filhos maiores [vivos — não nomeados no assento], não
-  deixou bens, era eleitor e faleceu sem testamento conhecido. Causa mortis: parada
-  cárdio-respiratória, insuficiência respiratória aguda, choque hipovolêmico,
-  hemorragia digestiva alta. O declarante é genro do falecido."
+  compareceu Jorge de Paulo Campos, aposentado, [documento de identidade e endereço
+  do declarante omitidos — terceiro vivo], e, exibindo o atestado de óbito firmado
+  pela médica Evelin Wardini Rayes, prestou as seguintes declarações: Nome do
+  obituado: JOÃO BOHRER. Data e hora do falecimento: 12 de janeiro de 2001, às 09:15
+  horas. Estado civil: casado com Alice Batista Bohrer. Sexo: masculino. Idade: 61
+  anos. Lugar de falecimento: Hospital Evangélico Regional, nesta cidade. Residência:
+  Rua Diolindo Miguel, 156, Mariana Torres, nesta cidade. Profissão: aposentado.
+  Naturalidade: Carangola-MG. Nome dos pais do obituado: JOÃO GONÇALVES BOHRER e
+  CELINA BOHRER. Lugar do sepultamento: Cemitério Municipal de Volta Redonda-RJ.
+  Deixou quatro filhos maiores, não deixou bens, era eleitor e faleceu sem testamento
+  conhecido. Causa mortis: parada cárdio-respiratória, insuficiência respiratória
+  aguda, choque hipovolêmico, hemorragia digestiva alta. Observações: documentos
+  apresentados do falecido: xerox da certidão de casamento deste cartório, L.° 8,
+  Fls. 220, T. 1682; RG 12.158.374-4 IFP emitida em 18/02/1997; CIC 118.771.117-91; e
+  cartão de benefício do Banco Bamerindus n.° 42/104539621-1. O declarante é genro do
+  falecido."
 abstract: >-
   Informational copy of the civil death registration of João Bohrer, who died 12
   January 2001 at the Hospital Evangélico Regional, Volta Redonda (RJ), aged 61
@@ -53,19 +57,18 @@ abstract: >-
   Bohrer. His parents are named as João Gonçalves Bohrer (P-0014) and Celina Bohrer
   (P-0015), making him a brother of Iris Bohrer (P-0007) — one of the fifteen
   children of that couple. Recorded as a documented (collateral) sibling on F-0005.
-  Living-person identifiers in the record (the son-in-law declarant, and the
-  deceased's RG/CIC/bank numbers) are withheld under the repository's privacy
-  policy, and the source is private.
+  The deceased's own record is transcribed in full; only the RG and address of the
+  living declarant (his son-in-law) are withheld, as those identify a living third
+  party.
 abstract_pt: >-
   Cópia informativa do assento de óbito civil de João Bohrer, falecido em 12 de
   janeiro de 2001 no Hospital Evangélico Regional, Volta Redonda (RJ), aos 61 anos
   (nascido por volta de 1940), aposentado, natural de Carangola (MG), casado com
   Alice Batista Bohrer. Seus pais são nomeados como João Gonçalves Bohrer (P-0014) e
   Celina Bohrer (P-0015), tornando-o irmão de Iris Bohrer (P-0007) — um dos quinze
-  filhos daquele casal. Registrado como irmão (colateral) documentado em F-0005. Os
-  identificadores de pessoas vivas presentes no registro (o declarante, genro do
-  falecido, e os números de RG/CIC/conta bancária do falecido) foram omitidos
-  conforme a política de privacidade do repositório, e a fonte é privada.
+  filhos daquele casal. Registrado como irmão (colateral) documentado em F-0005. O
+  registro do falecido é transcrito integralmente; apenas o RG e o endereço do
+  declarante vivo (seu genro) são omitidos, por identificarem um terceiro vivo.
 reliability:
   assessment: >-
     Contemporary civil death entry: the death facts (date, place, age, cause) are
@@ -76,9 +79,8 @@ reliability:
     The deceased's son-in-law (declarant), Volta Redonda, 12 January 2001; medical
     attestation by Dr. Evelin Wardini Rayes.
   limitations: >-
-    An informational copy marked "SEM VALOR LEGAL", not a certified certidão. Living
-    descendants (four adult children) are referenced but not named in the entry; the
-    declarant's identity and document numbers are withheld here by policy.
+    An informational copy marked "SEM VALOR LEGAL", not a certified certidão. The four
+    surviving adult children are referenced but not named in the entry.
 digital_file:
   path: evidence/civil/CIV-0025-joao-bohrer-obito-2001-voltaredonda.jpg
   sha256: 4855193c0fd934f8147374eac381ca2201be983aed875138b140bcc467a7a8f6
@@ -99,7 +101,9 @@ notes:
     João Gonçalves Bohrer (d. 1970, CIV-0014); the near-identical names are two
     different men across two generations.
 - text: >-
-    Privacy: this is a 21st-century record with living descendants. The source is
-    private; the transcription withholds the son-in-law declarant's name and RG and
-    the deceased's RG/CIC/bank-account numbers, and does not enumerate the four
-    surviving adult children (who are not named in the entry).
+    Privacy: the subject (João Bohrer) is deceased, so his record is displayed in
+    full, including his own RG/CIC/bank numbers (owner policy 2026-08-10: "if the
+    person is dead we can display everything"). The only withholding is the RG and
+    home address of the still-living declarant (his son-in-law, Jorge de Paulo
+    Campos), which identify a living third party; his name and role are retained.
+    The four surviving adult children are not named in the entry.
