@@ -3106,3 +3106,35 @@ documents:
         of Rosa Eugenia de Lemos P-0035 → documented_child on F-0025), Antonio José
         Bohrer's death (son of Joaquim José Bohrer P-0030 → documented_child on F-0014),
         and Joaquim José Bohrer's 16 December birthday. All persons 19th-century deceased.
+  - inventory_id: DOC-0076
+    status: catalogued
+    added_date: "2026-08-10"
+    apparent_record_type: Newspaper official-acts notice (O Pharol, Juiz de Fora)
+    apparent_people:
+      - Simplício José Ferreira Armond (3rd substitute police delegate)
+    apparent_event: other
+    image_quality: adequate
+    provenance: >-
+      Biblioteca Nacional hemeroteca digital; O Pharol (Juiz de Fora), Anno XXXVII,
+      Saturday 13 September 1902, "Actos officiaes" — Secretaria de Polícia. Retrieved
+      as image rec-armond-simplicio-opharol-1902-delegado-bn.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/newspapers/NWS-0003-opharol-simplicio-armond-delegado-1902-juizdefora.jpg
+        sha256: 5593f8995e76e39ec7b923417d5ea8954b302bc94bdc4b60bf97d671b726040e
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3325
+          pixel_height: 5043
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: NWS-0003
+    notes:
+      - >-
+        Names our direct-line Simplício José Ferreira Armond (P-0016) as 3rd substitute
+        police delegate of São Paulo do Muriaé (act of 10 Sept 1902). Attached to P-0016
+        as an occupation + note. All persons deceased.

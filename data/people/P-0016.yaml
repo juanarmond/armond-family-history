@@ -23,6 +23,14 @@ event_ids:
 - E-0005
 family_ids:
 - F-0006
+occupations:
+- value: 3.º supplente do delegado de polícia de São Paulo do Muriaé
+  source_ids:
+  - NWS-0003
+  note: >-
+    Appointed by act of 10 September 1902 (O Pharol, Juiz de Fora, 13 Sept 1902,
+    "Actos officiaes"); the 1st and 2nd substitutes were Antonio Lourenço Dias and
+    Marciano de Sousa Lopes.
 fan_references:
 - fan_id: FAN-0001
   role: signatário
@@ -71,3 +79,17 @@ notes:
     em 30/07/2026 — ele corresponde à sua assinatura autógrafa e aos dois registros de
     inventário da década de 1880; as formas de fonte mais curtas ("Simplicio Armand",
     "Simplício Ferreira Armond") são preservadas como variantes.
+- text: >-
+    Public office (1902): named "3.º supplente do delegado de policia de S. Paulo do
+    Muriahé" by an act of 10 September 1902, reported in O Pharol (Juiz de Fora,
+    13 Sept 1902; NWS-0003). Recorded as an occupation. Confirms he was living and
+    active at Muriaé in 1902 and adds a civic role to his documented attorney/witness
+    activity there (the FAN documents and the 1904 inventário). Distinct from the elder
+    Barbacena Tenente-Coronel Simplício.
+  text_pt: >-
+    Cargo público (1902): nomeado "3.º supplente do delegado de policia de S. Paulo do
+    Muriahé" por acto de 10 de setembro de 1902, noticiado em O Pharol (Juiz de Fora,
+    13 set. 1902; NWS-0003). Registrado como ocupação. Confirma que ele estava vivo e
+    atuante em Muriaé em 1902 e acrescenta um papel cívico à sua atividade documentada
+    de procurador/testemunha ali (os documentos FAN e o inventário de 1904). Distinto do
+    Tenente-Coronel Simplício, o mais velho, de Barbacena.

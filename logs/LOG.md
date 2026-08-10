@@ -1125,6 +1125,23 @@ See `logs/2026-08-07-retrieval-drop-triage-third-pass.md` for detail.
 
 ---
 
+## 2026-08-10 — Simplício 1902 delegado press mention promoted (NWS-0003)
+
+Owner feedback: every newspaper/image naming a person in the tree must be transcribed and attached
+to that person, even when it "only corroborates" a known figure (my earlier value-gate wrongly
+dispositioned the Simplício clippings as "nothing new"). Acted on it:
+
+**NWS-0003** — O Pharol (Juiz de Fora), 13 Sept 1902, "Actos officiaes": Simplício José Ferreira
+Armond (P-0016) named **3rd substitute police delegate (supplente do delegado de polícia) of São
+Paulo do Muriaé** by act of 10 Sept 1902. This was NOT previously recorded on his profile. Attached
+to P-0016 as a structured **occupation** (source NWS-0003) plus a bilingual note; verbatim Portuguese
+transcription of the passage + bilingual (EN/PT) abstract. DOC-0076.
+
+The companion `rec-armond-simplicio-heirlist-1881-fs` is an alt scan of PRB-0001 (already attached to
+P-0016) — recorded as a duplicate. 291 entities; 69 tests pass; GEDCOM 3501 lines.
+
+---
+
 ## 2026-08-10 — New-drop value-gate: Azorean Armond trunk (leads) + A Sentinella (NWS-0002)
 
 A fresh/expanded retrieval drop (Azorean-dominated) value-gated with three parallel read-only

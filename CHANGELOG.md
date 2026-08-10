@@ -5,6 +5,13 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Simplício 1902 "delegado" press mention, attached to P-0016 (2026-08-10)
+
+- **NWS-0003** (newspaper; O Pharol, Juiz de Fora, 13 Sept 1902): names Simplício José Ferreira Armond (P-0016) as 3rd substitute police delegate of São Paulo do Muriaé (act of 10 Sept 1902). Verbatim Portuguese transcription + bilingual (EN/PT) abstract.
+- **P-0016** gains a structured `occupation` ("3.º supplente do delegado de polícia de São Paulo do Muriaé", source NWS-0003) and a bilingual note — a public role not previously recorded. **DOC-0076**.
+- Applies the owner's rule: newspaper/image documents naming a person in the tree are transcribed and attached to that person, not skipped as "corroboration". The 1881 heir-list FS scan is a duplicate of PRB-0001 (already attached).
+- GEDCOM regenerated (7.0, 3501 lines); viewer index regenerated (291 entities).
+
 ### Added — A Sentinella (Nova Friburgo) Bohrer/Lemos notices (2026-08-10)
 
 - **NWS-0002** (newspaper; three A Sentinella clippings, 1898–1899): the death of Manoel Pereira de Lemos (20 Jan 1898, aged 72) — a new brother of Rosa Eugenia de Lemos (P-0035); the death of Antonio José Bohrer (2 Apr 1899, aged 13) — a son of Joaquim José Bohrer (P-0030); and Joaquim José's 16 December birthday.

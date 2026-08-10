@@ -1,0 +1,94 @@
+schema_version: 1
+id: NWS-0003
+title: >-
+  1902 O Pharol (Juiz de Fora) official-acts notice naming Simplício José Ferreira
+  Armond as 3rd substitute police delegate (supplente do delegado de polícia) of
+  São Paulo do Muriaé
+record_type: Newspaper official-acts notice ("Actos officiaes" / Secretaria de Polícia)
+record_category: newspaper
+source_form: original
+information_quality: secondary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1902-09-10"
+  original_text: >-
+    "Por acto de 10" (10 September 1902); published in O Pharol, Juiz de Fóra, Anno
+    XXXVII, Saturday 13 September 1902.
+event_place_text: >-
+  São Paulo do Muriaé, Minas Gerais, Brazil (police district of the appointment);
+  published at Juiz de Fora, Minas Gerais
+repository:
+  name: O Pharol (Juiz de Fora), Biblioteca Nacional — Hemeroteca Digital
+  archive_or_registry: >-
+    "O Pharol", daily newspaper of Juiz de Fora, MG ("Folha mais antiga do Estado de
+    Minas"); Biblioteca Nacional digital hemeroteca
+  collection: >-
+    O Pharol, Juiz de Fora — Anno XXXVII, n.º 3[..], 13 de setembro de 1902, secção
+    "Actos officiaes"
+  catalogue_reference: >-
+    O Pharol, Juiz de Fora, Anno XXXVII, Saturday 13 September 1902, "Actos officiaes"
+    — Secretaria de Polícia. Delivered through the research/from-retrieval/ sync as
+    image rec-armond-simplicio-opharol-1902-delegado-bn.jpg; read and promoted
+    2026-08-10.
+  repository_path: evidence/newspapers/NWS-0003-opharol-simplicio-armond-delegado-1902-juizdefora.jpg
+access_date: "2026-08-10"
+language: pt-BR
+transcription: >-
+  [O Pharol, Juiz de Fóra, MG — Anno XXXVII, sabbado 13 de setembro de 1902; secção
+  "Actos officiaes".]
+  "Secretaria de policia. — Por acto de 10 foram nomeados 1.º, 2.º e 3.º supplentes
+  do delegado de policia de S. Paulo do Muriahé, respectivamente, Antonio Lourenço
+  Dias, Marciano de Sousa Lopes e Simplicio José Ferreira Armond."
+abstract: >-
+  In its "Actos officiaes" column of 13 September 1902, the Juiz de Fora daily O Pharol
+  reports that, by an act of 10 September 1902, the Minas Gerais police secretariat
+  appointed the 1st, 2nd and 3rd substitutes to the police delegate of São Paulo do
+  Muriaé: respectively Antonio Lourenço Dias, Marciano de Sousa Lopes, and Simplício
+  José Ferreira Armond (P-0016) as the 3rd substitute (supplente). This documents
+  Simplício's public/civic role at Muriaé in 1902 and places him living there — the
+  same Simplício José Ferreira Armond who married Eliza Balbina de Toledo (P-0017) and
+  is named in the 1881/1884 Toledo probate (PRB-0001, PRB-0002); it is NOT the elder
+  Tenente-Coronel Simplício of Barbacena.
+abstract_pt: >-
+  Na sua coluna "Actos officiaes" de 13 de setembro de 1902, o diário juiz-forano O
+  Pharol noticia que, por acto de 10 de setembro de 1902, a secretaria de polícia de
+  Minas Gerais nomeou o 1.º, 2.º e 3.º suplentes do delegado de polícia de São Paulo do
+  Muriaé: respectivamente Antonio Lourenço Dias, Marciano de Sousa Lopes e Simplício
+  José Ferreira Armond (P-0016) como 3.º suplente. Documenta o papel público/cívico de
+  Simplício em Muriaé em 1902 e o situa vivendo ali — o mesmo Simplício José Ferreira
+  Armond que se casou com Eliza Balbina de Toledo (P-0017) e é nomeado no inventário
+  Toledo de 1881/1884 (PRB-0001, PRB-0002); NÃO é o Tenente-Coronel Simplício, o mais
+  velho, de Barbacena.
+reliability:
+  assessment: >-
+    Contemporary newspaper report of an official act (the police-secretariat
+    appointment of 10 Sept 1902) — reliable for the appointment and Simplício's
+    presence in Muriaé, secondary in form. Directly names "Simplicio José Ferreira
+    Armond" as 3rd substitute delegate.
+  informant: >-
+    O Pharol, Juiz de Fora, "Actos officiaes" (official gazette digest), 13 September
+    1902.
+  limitations: >-
+    Newspaper digest of an official act, not the original nomination decree. The
+    issue's exact day/number are partly illegible in the scan; the year (Anno XXXVII,
+    1902) and the "acto de 10" are clear. A substitute (supplente) appointment, not a
+    full delegacy.
+digital_file:
+  path: evidence/newspapers/NWS-0003-opharol-simplicio-armond-delegado-1902-juizdefora.jpg
+  sha256: 5593f8995e76e39ec7b923417d5ea8954b302bc94bdc4b60bf97d671b726040e
+linked_people:
+- P-0016
+linked_families: []
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    First record of a public office held by Simplício José Ferreira Armond (P-0016):
+    3rd substitute (supplente) to the police delegate of São Paulo do Muriaé, appointed
+    10 September 1902. Complements his other Muriaé roles (attorney/witness/arbitrator
+    in the FAN documents and the 1904 inventário) and confirms he was living and active
+    in Muriaé in 1902. This is our direct-line Simplício (Eliza's husband), not the
+    elder Barbacena namesake.
