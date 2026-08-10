@@ -22,6 +22,10 @@ event_ids:
 family_ids:
   - F-0001
   - F-0007
+occupations:
+  - value: lavrador
+    source_ids:
+      - CIV-0006
 notes:
   - text: >-
       His 1892 baptism at Santo Antônio de Sapucaia (PAR-0004, event E-0034) is

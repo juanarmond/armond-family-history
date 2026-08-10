@@ -199,6 +199,8 @@
 2 PLAC Rio de Janeiro, Rio de Janeiro, Brazil
 2 SOUR @CIV0018@
 3 QUAY 3
+1 OCCU do lar
+2 SOUR @CIV0018@
 1 FAMC @F0008@
 1 FAMS @F0012@
 1 NOTE Ahnentafel position 11.
@@ -224,6 +226,8 @@
 2 PLAC Igreja de Santo Antônio de Sapucaia, Sapucaia, Rio de Janeiro, Brazil
 2 SOUR @PAR0004@
 3 QUAY 3
+1 OCCU lavrador
+2 SOUR @CIV0006@
 1 FAMS @F0001@
 1 FAMC @F0007@
 1 NOTE His 1892 baptism at Santo Antônio de Sapucaia (PAR-0004, event E-0034) is his earliest vital record; it confirms his parents João Muniz Bittencourt (P-0019) and Susanna Rita Brandão (P-0020) and settles the father's name as "João" (the 1882 provisão's "José" was an error).
@@ -243,6 +247,8 @@
 3 QUAY 2
 2 SOUR @PAR0012@
 3 QUAY 2
+1 OCCU doméstica
+2 SOUR @CIV0006@
 1 FAMS @F0001@
 1 FAMC @F0018@
 1 NOTE Her parents are José Secundino de Azevedo (P-0038) and Thereza Fernandes de Azevedo (P-0039) — family F-0018 — named in her 1916 civil marriage (CIV-0001), her 1916 parish marriage (PAR-0012) and her son Aristides's 1922 baptism (PAR-0003). "Fernandes" is her mother's surname and "Secundina/Secundino" her father's; both variants of her own name are preserved. Her 1916 parish marriage records her "nascida e baptizada em Bom Jesus de Cachoeira Alegre" (a district of São Paulo do Muriaé, MG — her birthplace, event E-0033). The Azevedo family origin is the Muriaé/Carangola region (MG).
@@ -292,6 +298,8 @@
 3 QUAY 2
 2 SOUR @CIV0016@
 3 QUAY 2
+1 OCCU doméstica
+2 SOUR @CIV0015@
 1 FAMS @F0005@
 1 FAMC @F0014@
 1 NOTE Ahnentafel position 15. Preferred name is "Celina", the spelling used by three primary civil records — her own 1977 death (CIV-0015), her husband's 1970 death (CIV-0014) and Eunir Bohrer's 1924 birth (CIV-0016). "Selina" is preserved as a variant but appears only in the 1949 marriage certificate (CIV-0004) and the owner's family roster (REC-0001). The preferred name was changed from "Selina" to "Celina" on 2026-07-30: her own death record and the weight of civil evidence outweigh the single marriage spelling.
@@ -583,6 +591,8 @@
 2 GIVN Carolina
 2 SURN Bohrer
 1 SEX F
+1 OCCU doméstica
+2 SOUR @CIV0014@
 1 FAMS @F0013@
 1 NOTE Ahnentafel position 29 — mother of João Gonçalves Bohrer (P-0014). Named as "Carolina Bohrer, doméstica" in his 1970 death (CIV-0014) and as Eunir Bohrer's paternal grandmother in the 1924 Nova Friburgo birth (CIV-0016). Her maiden surname is not recorded ("Bohrer" is her married name); no record of her own has been located.
 0 @P0030@ INDI
@@ -590,6 +600,9 @@
 2 GIVN Joaquim José
 2 SURN Bohrer
 1 SEX M
+1 OCCU negociante
+2 SOUR @CIV0019@
+2 SOUR @CIV0020@
 1 FAMS @F0014@
 1 FAMC @F0016@
 1 NOTE Ahnentafel position 30 — father of Celina (Selina) Bohrer (P-0015). Named as Celina's father (already deceased) in her 1977 Volta Redonda death (CIV-0015) and as Eunir Bohrer's maternal grandfather in the 1924 Nova Friburgo birth (CIV-0016, "já falecidos" by 1924). A negociante at the Alto da Serra, Nova Friburgo (RJ), "natural desta Freguezia".
@@ -761,6 +774,8 @@
 2 PLAC Ilha de São Miguel, Açores, Portugal (probably Nossa Senhora Mãe de Deus, Povoação — his parents' parish)
 2 SOUR @PAR0015@
 3 QUAY 2
+1 OCCU proprietário
+2 SOUR @PAR0015@
 1 FAMS @F0020@
 1 FAMC @F0023@
 1 NOTE Father of João Muniz Bittencourt (P-0019); hence Antenor Muniz's Azorean great-great-grandfather. His own 1866 Povoação death (PAR-0015 → events E-0047, E-0048) is the primary record for him: a landowner (proprietário) of Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal), resident at Lomba do Botão, who drowned at sea off the Garajau on 24 July 1866 aged 46 (born c.1820), intestate, leaving eight children. It names his wife Francisca Roza do Espirito Santo (P-0047, family F-0020) and his parents João Muniz Bytancourt (P-0048) and Maria Jacintha de Medeiros (P-0049, family F-0023).
@@ -839,6 +854,8 @@
 2 TYPE AKA
 2 SOUR @PAR0015@
 1 SEX M
+1 OCCU proprietário
+2 SOUR @PAR0015@
 1 FAMS @F0023@
 1 NOTE Father of Manoel Muniz Bytancourt (P-0042); hence the paternal grandfather of João Muniz Bittencourt (P-0019) and the Azorean apical ancestor so far reached on this line. Named, with his wife Maria Jacintha de Medeiros (P-0049), in his son Manoel's 1866 death (PAR-0015) as "João Muniz Bytancourt, proprietario … natural desta freguesia" — a landowner of Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal).
 1 NOTE Approximate dates (b. 1806, d. 1876) circulate in secondary sources and are consistent with his grandsons' 1880 Ponta Delgada emigration passports, which style them "filho de João Moniz Bettencourt e Maria Jacinta". These dates are leads only and are not asserted here; PAR-0015 establishes only his existence, landowner status and Povoação naturalidade. The "Moniz/Bettencourt" spelling is the Brazilianised variant of the record's "Muniz Bytancourt".
@@ -850,6 +867,8 @@
 2 TYPE AKA
 2 SOUR @PAR0015@
 1 SEX F
+1 OCCU doméstica
+2 SOUR @PAR0015@
 1 FAMS @F0023@
 1 NOTE Mother of Manoel Muniz Bytancourt (P-0042); hence the paternal grandmother of João Muniz Bittencourt (P-0019). Named, with her husband João Muniz Bytancourt (P-0048), in her son Manoel's 1866 death (PAR-0015) as "Maria Jacintha de Medeiros, d'occupação domestica … natural desta freguesia" — of Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal). Her grandsons' 1880 Ponta Delgada emigration passports also style them "filho de João Moniz Bettencourt e Maria Jacinta" (secondary corroboration, a lead only).
 0 @P0050@ INDI
@@ -976,6 +995,7 @@
 1 SEX M
 1 OCCU Capitão
 2 SOUR @PAR0021@
+2 SOUR @PAR0023@
 1 FAMS @F0028@
 1 NOTE Father of Ladisláo Egídio Ferreira de Toledo (P-0056), confirmed by Ladisláo's own 1787 baptism (PAR-0019); hence Eliza Balbina de Toledo's (P-0017) great-great-grandfather. Married Ritta Angélica Rodrigues (P-0058, family F-0028) at Barbacena c.1786 (PAR-0018). Two of his daughters' marriages independently name the couple: Anna Belizaria (1812, PAR-0020) and Carolina Francelina (1816, PAR-0021) — both documented children on F-0028.
 1 NOTE Forename reconciliation (João vs Joaquim): the two clearer, later records name him "João José" — plainly "Capitão João José Ferreira de Toledo" in PAR-0021 (1816) and "João José" in PAR-0020 (1812). The earlier "Joaquim José" reads come from ink-bled scans (PAR-0018 marriage, PAR-0019 baptism) and are most likely a misread of "João"; "João José Ferreira de Toledo" is adopted as the preferred form and "Joaquim José" preserved as a source variant.
@@ -1000,6 +1020,10 @@
 2 TYPE AKA
 2 SOUR @PAR0023@
 1 SEX M
+1 OCCU Alferes
+2 SOUR @PAR0023@
+1 OCCU Capitão
+2 SOUR @PAR0026@
 1 FAMS @F0029@
 1 FAMC @F0031@
 1 NOTE Father of Mathilde Maria de Jesus (P-0027); hence great-great-grandfather of Eliza Balbina de Toledo (P-0017) on her maternal-paternal line. He is named in his daughter's 1810 São João del Rei marriage record (PAR-0023) as "Alferes Amaro da Silva Xavier." In the 1777 Piracatu baptism of his daughter Maria (PAR-0025) he is stated as "natural da frequesia de Nossa Senhora do Rio de Meia Ponte, comarca do Goyas, Bispado do Rio de Janeiro" — native of today's Pirenópolis (GO). His parents are confirmed by PAR-0025 as Amaro da Silva Barreto (P-0064, from Guimarães, Portugal) × Perpétua da Silva (P-0065, from the city of São Paulo). Material conflict: PAR-0023 (1810) states both he and Ignez as "naturais e batizados da Freguesia de Barbacena," while PAR-0025 (1777) names him as native of Meia Ponte (Goiás). The 1777 record is the earlier and more specific source; the 1810 description likely reflects long-term Barbacena domicile. Both versions preserved. His own baptism and death records have not been located.
@@ -2603,6 +2627,16 @@
 1 NOTE Archival reference: Nascimento nº 569, fl. 119, Cartório do Distrito de São João Baptista, Nova Friburgo, RJ. Located via a FamilySearch Records relationship-persona search and delivered through the research/from-retrieval/ sync; the exact ARK was not captured in the drop filename. Read and promoted 30 July 2026.
 1 NOTE Repository file: evidence/civil/CIV-0019-alberto-bohrer-birth-1890-nova-friburgo.jpg
 1 OBJE @OBJCIV0019@
+0 @CIV0020@ SOUR
+1 TITL Civil birth registration of an infant son of Joaquim José Bohrer and Lucinda Ferreira (1891, died in infancy 1892), Nova Friburgo
+1 TEXT 1891 Nova Friburgo civil birth of a son of Joaquim José Bohrer (P-0030) and Lucinda Ferreira (P-0031), declared by the father. A marginal note records the child's death on 29 January 1892 (livro 2 de óbito, fl. 180, nº 654), so he died in infancy. Corroborates the couple Joaquim José × Lucinda as parents in Nova Friburgo.
+1 REPO @REPO0002@
+2 CALN Brasil, Rio de Janeiro, Registro Civil, 1804-2013, fl. 81, nº 1192
+1 NOTE Evidence classification: civil_registration; original; information mixed; indirect evidence.
+1 NOTE Transcription: [Nascimento nº 1192.] "Aos trinta dias do mez de Dezembro de mil oito centos e noventa e um, nesta Freguezia de São João Baptista, Município de Nova Friburgo, Estado do Rio de Janeiro, em meu cartorio compareceu Joaquim José Bohrer, negociante, morador no Alto da Serra desta Freguezia, distante deste cartorio mais de uma legua, e perante as testemunhas abaixo nomeadas e assignadas, declarou: Que no dia vinte e tres do corrente mez, ás nove e meia hora da manhã na casa de sua residencia nasceu uma criança do sexo masculino, filho legítimo delle declarante e de sua mulher Lucinda Fe[rreira] ..." [O restante do assento, inclusive o nome do baptizando, continua fora da porção retida da imagem.] Marginal note: "Falleceu no dia vinte e nove de Janeiro de mil oito centos noventa e dois, conforme consta do livro numero dois de Registro de obito a folha cento oitenta sob numero seiscentos cincoenta e quatro. Nova Friburgo, vinte e nove de Janeiro de mil oito centos noventa e dois. [uncertain: O Escrivão Carlos Miguel Noel]."
+1 NOTE Archival reference: Nascimento nº 1192, fl. 81, Cartório do Distrito de São João Baptista, Nova Friburgo, RJ. Located via a FamilySearch Records relationship-persona search and delivered through the research/from-retrieval/ sync; the exact ARK was not captured in the drop filename. Read and promoted 30 July 2026.
+1 NOTE Repository file: evidence/civil/CIV-0020-bohrer-infant-birth-1891-nova-friburgo.jpg
+1 OBJE @OBJCIV0020@
 0 @CIV0022@ SOUR
 1 TITL Civil birth registration of Cidália (Engracio Guimarães) (1930, Alvorada), naming her parents and both grandparent couples
 1 TEXT A 1995 certified copy of Cidália's 1930 birth registration (nº 132, livro 2, fl. 142, Alvorada, Carangola, MG). Her own primary birth record: born 15 September 1930 at Alvorada, daughter of Antonio Engracio de Souza (P-0010) and Maria Aurora Guimarães (P-0011), declared by her father. Names the paternal grandparents Antonio Engracio de Souza + Luzia (Pinheiro) da Conceição (P-0032/P-0033) and the maternal grandparents Francisco José de Carvalho Guimarães + Emerenciana Maria de Jesus (P-0021/P-0022).
@@ -3233,6 +3267,11 @@
 2 FORM image/jpeg
 2 TITL Civil birth registration of Alberto Bohrer (1890), naming his parents Joaquim José Bohrer and Lucinda Ferreira da Silva Bohrer and both grandparent couples
 1 NOTE sha256: e3da8a376485409613aa2819ee58d503f4d3a9d126dcfd3428a3d4fd123428a0
+0 @OBJCIV0020@ OBJE
+1 FILE evidence/civil/CIV-0020-bohrer-infant-birth-1891-nova-friburgo.jpg
+2 FORM image/jpeg
+2 TITL Civil birth registration of an infant son of Joaquim José Bohrer and Lucinda Ferreira (1891, died in infancy 1892), Nova Friburgo
+1 NOTE sha256: 218c78b663564bdf86e753fb77a2ce628fb5ba2754428861e5a7e754c066f387
 0 @OBJCIV0022@ OBJE
 1 FILE evidence/civil/CIV-0022-cidalia-birth-1930-alvorada.jpg
 2 FORM image/jpeg

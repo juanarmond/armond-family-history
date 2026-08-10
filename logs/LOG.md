@@ -1125,6 +1125,22 @@ See `logs/2026-08-07-retrieval-drop-triage-third-pass.md` for detail.
 
 ---
 
+## 2026-08-10 — Occupation audit: capture documented professions
+
+Repository-audit session. Three read-only agents (disjoint person-sets P-0001–27 / P-0028–55 /
+P-0056–81) checked every source's transcription/abstract against its linked people for a stated
+profession/rank/office not yet in that person's `occupations`. Applied 10 gaps, each with an exact
+source quote: P-0011 (do lar, CIV-0018), P-0012 (lavrador, CIV-0006), P-0013 (doméstica, CIV-0006),
+P-0015 (doméstica, CIV-0015), P-0029 (doméstica, CIV-0014), P-0030 (negociante, CIV-0019/0020),
+P-0042 & P-0048 (proprietário, PAR-0015), P-0049 (doméstica, PAR-0015), P-0059 (Alferes PAR-0023 +
+Capitão PAR-0026). P-0057 Capitão gained PAR-0023 as a 2nd attestation. Occupations added as
+value+source_ids only (no prose note, to avoid single-language viewer text); P-0016's earlier
+delegado occupation note removed accordingly. Traps rejected (elder Simplício's Juiz de Paz/Alferes
+= not P-0016; land-possession ≠ profession; Iris's illegible "[agricultora?]" left uncaptured).
+291 entities; 69 tests pass; GEDCOM 3540 lines.
+
+---
+
 ## 2026-08-10 — Simplício 1902 delegado press mention promoted (NWS-0003)
 
 Owner feedback: every newspaper/image naming a person in the tree must be transcribed and attached

@@ -16,6 +16,11 @@ event_ids: []
 family_ids:
 - F-0014
 - F-0016
+occupations:
+- value: negociante
+  source_ids:
+  - CIV-0019
+  - CIV-0020
 notes:
 - text: >-
     Ahnentafel position 30 — father of Celina (Selina) Bohrer (P-0015). Named as

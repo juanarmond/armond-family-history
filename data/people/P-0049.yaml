@@ -16,6 +16,10 @@ name_variants:
 event_ids: []
 family_ids:
 - F-0023
+occupations:
+- value: doméstica
+  source_ids:
+  - PAR-0015
 notes:
 - text: >-
     Mother of Manoel Muniz Bytancourt (P-0042); hence the paternal grandmother of

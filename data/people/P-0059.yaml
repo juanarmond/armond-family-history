@@ -19,6 +19,13 @@ event_ids:
 family_ids:
 - F-0029
 - F-0031
+occupations:
+- value: Alferes
+  source_ids:
+  - PAR-0023
+- value: Capitão
+  source_ids:
+  - PAR-0026
 notes:
 - text: >-
     Father of Mathilde Maria de Jesus (P-0027); hence great-great-grandfather of

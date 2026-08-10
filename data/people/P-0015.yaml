@@ -23,6 +23,10 @@ event_ids:
 family_ids:
   - F-0005
   - F-0014
+occupations:
+  - value: doméstica
+    source_ids:
+      - CIV-0015
 notes:
   - text: >-
       Ahnentafel position 15. Preferred name is "Celina", the spelling used by

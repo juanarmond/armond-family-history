@@ -13,6 +13,10 @@ name_variants:
 event_ids: []
 family_ids:
 - F-0013
+occupations:
+- value: doméstica
+  source_ids:
+  - CIV-0014
 notes:
 - text: >-
     Ahnentafel position 29 — mother of João Gonçalves Bohrer (P-0014). Named as

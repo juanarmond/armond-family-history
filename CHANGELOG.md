@@ -5,6 +5,14 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — occupation audit: capture documented professions across the tree (2026-08-10)
+
+- Audited every source's transcription against its linked people (three read-only agents over disjoint person-sets) and filled in occupations that a document states but that were not yet captured:
+  - P-0011 Maria Aurora Guimarães → do lar (CIV-0018); P-0012 Deocleciano Muniz Bittencourt → lavrador (CIV-0006); P-0013 Luiza Fernandes de Azevedo → doméstica (CIV-0006); P-0015 Celina Bohrer → doméstica (CIV-0015); P-0029 Carolina Bohrer → doméstica (CIV-0014); P-0030 Joaquim José Bohrer → negociante (CIV-0019/0020); P-0042 Manoel Muniz Bytancourt → proprietário (PAR-0015); P-0048 João Muniz Bytancourt → proprietário (PAR-0015); P-0049 Maria Jacintha de Medeiros → doméstica (PAR-0015); P-0059 Amaro da Silva Xavier → Alferes (PAR-0023) + Capitão (PAR-0026).
+  - P-0057 Capitão gained a second attestation (PAR-0023). P-0016's delegado occupation note removed (detail lives in his bilingual note).
+- Rejected attribution traps (elder-Simplício "Juiz de Paz/Alferes" in GOV-0002/PUB-0002; land-possession vs. profession; illegible "[agricultora?]" for Iris left uncaptured per no-guess).
+- GEDCOM regenerated (7.0, 3540 lines); viewer index regenerated (291 entities).
+
 ### Added — Simplício 1902 "delegado" press mention, attached to P-0016 (2026-08-10)
 
 - **NWS-0003** (newspaper; O Pharol, Juiz de Fora, 13 Sept 1902): names Simplício José Ferreira Armond (P-0016) as 3rd substitute police delegate of São Paulo do Muriaé (act of 10 Sept 1902). Verbatim Portuguese transcription + bilingual (EN/PT) abstract.

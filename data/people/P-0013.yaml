@@ -22,6 +22,10 @@ event_ids:
 family_ids:
   - F-0001
   - F-0018
+occupations:
+  - value: doméstica
+    source_ids:
+      - CIV-0006
 notes:
   - text: >-
       Her parents are José Secundino de Azevedo (P-0038) and Thereza Fernandes de

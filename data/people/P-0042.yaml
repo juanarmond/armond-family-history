@@ -25,6 +25,10 @@ event_ids:
 family_ids:
 - F-0020
 - F-0023
+occupations:
+- value: proprietário
+  source_ids:
+  - PAR-0015
 notes:
 - text: >-
     Father of João Muniz Bittencourt (P-0019); hence Antenor Muniz's Azorean

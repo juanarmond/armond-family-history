@@ -21,6 +21,10 @@ event_ids:
 family_ids:
   - F-0008
   - F-0012
+occupations:
+  - value: do lar
+    source_ids:
+      - CIV-0018
 notes:
   - text: >-
       Ahnentafel position 11.
