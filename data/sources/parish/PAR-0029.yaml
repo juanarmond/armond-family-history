@@ -32,29 +32,47 @@ repository:
 access_date: "2026-08-07"
 language: la
 transcription: >-
-  [Catholic parish marriage register, Grindel, Solothurn. Page 71, entry 4.
-  Full Latin transcription of the entry:]
+  [Catholic parish marriage register, Grindel, Solothurn. Page 71. The section
+  heading reads: "Catalogus. Eorum qui juxta normam S. Concilii Tridentini Sacro
+  Matrimonii Vinculo juncti sunt. Incipiendo ab Anno Domini d.ni J. Chr. 1780" —
+  i.e. a register of marriages contracted according to the norm of the (Roman
+  Catholic) Council of Trent, begun in 1780. The Jacobus Werly × Elisabetha Borer
+  entry is the fourth on the page:]
 
-  Die 27ma Januarii 1782 ego [officiating priest name, not fully legible]
-  matrimonio junxi Jacobum Wehrlia[m] et Elisabetham Borer ambo ex Grindel,
-  Erischwyg. Testes fuerunt Heinricus Werli et Catharina Borer.
+  Die 27ma Januarii 1782. In facie Ecclesiae fidem Matrimonialem Spoponderunt
+  Honestus Juvenis Jacobus Werly et Elisabetha Borer ambo ex Grindel[-Erschwyl].
+  Testes fuerunt Heinricus Werly et Catharina Borer.
 
-  [Translation: "On the 27th day of January 1782 I [officiating priest]
-  joined in matrimony Jacobus Wehrlia[m] [= Johann Jacob Wehrli] and
-  Elisabetha Borer, both from Grindel, Erischwyg. The witnesses were
-  Heinricus Werli [= Heinrich/Henri Wehrli] and Catharina Borer."]
+  [Translation: "On the 27th day of January 1782, in the face of the Church, the
+  honourable youth Jacobus Werly [= Johann Jacob Wehrli] and Elisabetha Borer,
+  both of Grindel[-Erschwyl], pledged the marital bond. The witnesses were
+  Heinricus Werly [= Heinrich/Henri Wehrli] and Catharina Borer."]
+  [Correction 2026-08-10: the earlier stored reading "ego … matrimonio junxi
+  Jacobum Wehrliam …" was a paraphrase; the register's actual formula is "In facie
+  Ecclesiae fidem Matrimonialem Spoponderunt …", verified against the image. Nearby
+  entries name the parish priest (Parochus) Ursus Victor Grütz and use the same
+  Tridentine formulae (denuntiationes/banns, in facie Ecclesiae, testes).]
 transcription_pt: >-
-  [Livro de casamentos da paróquia católica de Grindel, Solothurn. Página 71,
-  assento 4. Transcrição latina integral do assento:]
+  [Livro de casamentos da paróquia católica de Grindel, Solothurn. Página 71. O
+  cabeçalho da seção diz: "Catalogus. Eorum qui juxta normam S. Concilii Tridentini
+  Sacro Matrimonii Vinculo juncti sunt. Incipiendo ab Anno Domini d.ni J. Chr. 1780"
+  — ou seja, um registro de casamentos contraídos segundo a norma do Concílio de
+  Trento (católico romano), iniciado em 1780. O assento de Jacobus Werly × Elisabetha
+  Borer é o quarto da página:]
 
-  Die 27ma Januarii 1782 ego [officiating priest name, not fully legible]
-  matrimonio junxi Jacobum Wehrlia[m] et Elisabetham Borer ambo ex Grindel,
-  Erischwyg. Testes fuerunt Heinricus Werli et Catharina Borer.
+  Die 27ma Januarii 1782. In facie Ecclesiae fidem Matrimonialem Spoponderunt
+  Honestus Juvenis Jacobus Werly et Elisabetha Borer ambo ex Grindel[-Erschwyl].
+  Testes fuerunt Heinricus Werly et Catharina Borer.
 
-  [Tradução: "No dia 27 de janeiro de 1782, eu [sacerdote celebrante] uni em
-  matrimônio Jacobus Wehrlia[m] [= Johann Jacob Wehrli] e Elisabetha Borer, ambos
-  de Grindel, Erischwyg. As testemunhas foram Heinricus Werli [= Heinrich/Henri
-  Wehrli] e Catharina Borer."]
+  [Tradução: "No dia 27 de janeiro de 1782, na presença da Igreja, o honrado jovem
+  Jacobus Werly [= Johann Jacob Wehrli] e Elisabetha Borer, ambos de Grindel[-Erschwyl],
+  prometeram o vínculo matrimonial. As testemunhas foram Heinricus Werly [=
+  Heinrich/Henri Wehrli] e Catharina Borer."]
+  [Correção de 2026-08-10: a leitura antes armazenada, "ego … matrimonio junxi
+  Jacobum Wehrliam …", era uma paráfrase; a fórmula real do registro é "In facie
+  Ecclesiae fidem Matrimonialem Spoponderunt …", conferida na imagem. Os assentos
+  vizinhos nomeiam o pároco (Parochus) Ursus Victor Grütz e usam as mesmas fórmulas
+  tridentinas (denuntiationes/proclamas, in facie Ecclesiae, testes).]
 abstract: >-
   Grindel (Solothurn) Catholic parish marriage register, page 71, entry 4,
   records the marriage of Jacobus Wehrli [Johann Jacob Wehrli, P-0072] and
@@ -115,10 +133,14 @@ notes:
     Catharina Borer, the second witness, is probably Elisabetha's sister or a close
     Borer kinswoman — the Borer surname was common in Erschwil and the Grindel area.
 - text: >-
-    Basis for "Catholic" (documented inference, not a surname guess): this entry is
-    written in ecclesiastical Latin ("Die 27ma Januarii 1782 ego … matrimonio junxi …
-    Testes fuerunt"), the Roman Catholic sacramental form; contemporary Swiss Reformed
-    marriage registers were kept in German. Grindel is in Bezirk Thierstein /
-    Schwarzbubenland, canton of Solothurn, under the Roman Catholic Diocese of Basel
-    (Bistum Basel-Solothurn). The confession is established by liturgical language and
-    ecclesiastical jurisdiction, not by the family surnames.
+    Basis for "Catholic" — EXPLICIT in the record, not merely inferred (verified
+    against the image 2026-08-10): the page's own section heading reads "Catalogus.
+    Eorum qui juxta normam S. Concilii Tridentini Sacro Matrimonii Vinculo juncti
+    sunt … 1780" — a register of marriages performed "according to the norm of the
+    Holy Council of Trent." The Council of Trent (Tridentine decree Tametsi, 1563) is
+    the defining Roman Catholic authority that created parish marriage registers;
+    Protestant/Reformed churches rejected it. This is corroborated by the ecclesiastical
+    Latin throughout, the parish priest (Parochus) Ursus Victor Grütz, and the
+    jurisdiction — Grindel, Bezirk Thierstein / Schwarzbubenland, canton of Solothurn,
+    under the Roman Catholic Diocese of Basel (Bistum Basel-Solothurn). The family's
+    Catholic confession is therefore documented, not a surname inference.
