@@ -12,6 +12,7 @@ also remain traceable through source records and research logs.
 - **Rolled out to all 78 deceased modelled people** (P-0004–P-0081; the 3 living are gated out). Written by five parallel agents over disjoint P-ID ranges, each **reconciled to our own sources/IDs and evidence tiers** (our data wins over the retrieval-agent drafts; unsupported draft claims dropped or tagged `[LEAD]`), bilingual EN + PT. Depth scales to the evidence (full portraits for well-documented ancestors, short stubs for thinly-attested ones).
 - data-loader projects `profile`/`profilePt`; JS test covers projection + living-person gating. 291 entities; 69 tests + 24 JS tests pass.
 - Portrait panel's close button now matches the person-detail panel's close button exactly (round `.detail-head button` styling — same size, border, colours, gold/green hover, and the "×" glyph) instead of the square lightbox-reader style; the image lightbox keeps its own button.
+- Portrait section headings (`## `) now match the detail panel's section headings — gold `var(--gold)`, `.68rem`, weight 700, `.14em` uppercase — with a dividing rule between sections (mirrors `.detail-section` borders); `### ` sub-headings render as a subordinate muted variant.
 
 ### Fixed — resolve two evidence conflicts by re-reading the record images (2026-08-11)
 

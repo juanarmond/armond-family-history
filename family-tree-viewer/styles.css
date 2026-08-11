@@ -1005,8 +1005,19 @@ button.source-link { cursor: pointer; }
 
 /* Portrait / Retrato — evidence-tiered narrative */
 .portrait { font-family: var(--serif); font-size: .94rem; line-height: 1.6; color: var(--ink); }
-.portrait .portrait-h { font-family: var(--sans, inherit); font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin: 1rem 0 .35rem; }
-.portrait h4.portrait-h { font-size: .86rem; color: var(--ink); }
+.portrait .portrait-h { font-family: var(--sans); font-weight: 700; text-transform: uppercase; color: var(--gold); }
+/* "## " major section heading — matches the detail panel's .detail-section h3,
+   with a dividing rule above each section (mirrors .detail-section border) */
+.portrait h4.portrait-h {
+  font-size: .68rem;
+  letter-spacing: .14em;
+  margin: 1.5rem 0 .8rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--rule);
+}
+.portrait h4.portrait-h:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
+/* "### " sub-heading — subordinate to the section title, no divider */
+.portrait h5.portrait-h { font-size: .62rem; letter-spacing: .12em; color: var(--muted); margin: 1rem 0 .35rem; }
 .portrait .portrait-p { margin: 0 0 .6rem; }
 .portrait .portrait-list { margin: 0 0 .6rem; padding-left: 1.1rem; }
 .portrait .portrait-list li { margin: 0 0 .3rem; }
