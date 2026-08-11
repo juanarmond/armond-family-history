@@ -5,6 +5,12 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-08-11 — Muniz Azorean line +1 generation and a marriage-record correction (2026-08-11 drop)
+
+- Question: value-gate the 2026-08-11 drop (BPARPD Ponta Delgada reply SE/2026/1583e, reconciled against Culturacores CDN images); extend the Muniz Bittencourt Azorean line.
+- Key results: (1) **Correction** — PAR-0024 was mis-bound to folio 73r (a different late-1845 "Manoel × Roza de Jesus" couple); the true marriage of Manoel Muniz Bitancourt (P-0042) × Francisca Roza (P-0047) is **folio 32r, 17 Feb 1842** (4th-degree consanguinity dispensation). PAR-0024 re-pointed; event E-0053 corrected 1845→1842; the two folio-73r scans removed. (2) **PAR-0037** (new) — the 7 Oct 1819 grandparents' marriage (folio 161v); gives F-0023 a direct marriage record (E-0074) and both spouses' parents. (3) **+1 generation, all PRIMARY:** Manoel Muniz Bitancourt the elder (P-0082) × Tereza do Amaral (P-0083, F-0040) = parents of P-0048; João de Medeiros Brandão (P-0084) × Maria Eugenia (P-0085, F-0041) = parents of P-0049; Manoel de Motta [var. Mello] (P-0086) × Anna de Souza (P-0087, F-0042) = parents of P-0047 (upgrades her "parents [LEAD]" → [PROVEN]). (4) P-0048 gains fuller forename "João Francisco Muniz Bitancourt". (5) Adjudications verified against the images: Jacintha=Eugenia (same woman, scribe wrote the mother's name in 1841/42); Motta primary over Mello.
+- New entities: PAR-0037; P-0082–P-0087; F-0040/F-0041/F-0042; E-0074. Corrected: PAR-0024, E-0053, F-0020, F-0023, P-0042, P-0047, P-0048, P-0049. 302 entities; make check green. Session log: `logs/2026-08-11-muniz-azorean-line-extension.md`.
+
 ## 2026-08-09 — Bohrer Swiss parish primary promotions (2026-08-08 retrieval drop)
 
 - Question: complete the value-gate cycle on the 2026-08-08 retrieval drop; promote the Swiss primary parish register images.

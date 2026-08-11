@@ -1,0 +1,61 @@
+schema_version: 1
+id: P-0084
+preferred_name: João de Medeiros Brandão
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: João de Medeiros Brandão
+  type: source
+  source_ids:
+  - PAR-0037
+event_ids: []
+family_ids:
+- F-0041
+notes:
+- text: >-
+    Father of Maria Jacintha de Medeiros (P-0049); hence the maternal
+    great-grandfather of the emigrant João Muniz Bittencourt (P-0019). Named in his
+    daughter's 7 October 1819 Mãe de Deus marriage (PAR-0037), husband of Maria
+    Eugenia (P-0085). A witness at that same marriage, "Antonio de Medeiros
+    Brandão", is very likely his son (Maria Jacintha's brother) [INFERRED]. His own
+    records are not located; native to Nossa Senhora Mãe de Deus, Povoação, Ilha de
+    São Miguel (Açores).
+  text_pt: >-
+    Pai de Maria Jacintha de Medeiros (P-0049); portanto, o trisavô materno do
+    emigrante João Muniz Bittencourt (P-0019). Nomeado no casamento de sua filha em
+    7 de outubro de 1819, em Mãe de Deus (PAR-0037), marido de Maria Eugenia
+    (P-0085). Uma testemunha nesse mesmo casamento, "Antonio de Medeiros Brandão", é
+    muito provavelmente seu filho (irmão de Maria Jacintha) [INFERRED]. Seus próprios
+    registros não foram localizados; natural de Nossa Senhora Mãe de Deus, Povoação,
+    Ilha de São Miguel (Açores).
+profile: >-
+  ## Identity
+
+  **João de Medeiros Brandão** [PROVEN as named] — father of Maria Jacintha de Medeiros
+  (P-0049), husband of Maria Eugenia (P-0085), family F-0041.
+
+  - **Attestation:** named in his daughter's 1819 Mãe de Deus marriage (PAR-0037). A
+  witness "Antonio de Medeiros Brandão" at that act is very likely his son. [INFERRED]
+
+  - **Origin:** native to N.S. Mãe de Deus, Povoação, São Miguel (Açores); Portuguese. His
+  own records are not held. [OPEN]
+
+  ## Sources held (this repository)
+
+  - PAR-0037 (1819 marriage of his daughter Maria Jacintha — names him as the bride's father).
+profile_pt: >-
+  ## Identidade
+
+  **João de Medeiros Brandão** [PROVEN quanto ao nome] — pai de Maria Jacintha de Medeiros
+  (P-0049), marido de Maria Eugenia (P-0085), família F-0041.
+
+  - **Atestação:** nomeado no casamento de 1819 de sua filha em Mãe de Deus (PAR-0037). Uma
+  testemunha "Antonio de Medeiros Brandão" nesse ato é muito provavelmente seu filho. [INFERRED]
+
+  - **Origem:** natural de N.S. Mãe de Deus, Povoação, São Miguel (Açores); português. Seus
+  próprios registros não são obtidos. [OPEN]
+
+  ## Fontes disponíveis (neste repositório)
+
+  - PAR-0037 (casamento de 1819 de sua filha Maria Jacintha — o nomeia como pai da noiva).

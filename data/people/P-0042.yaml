@@ -89,11 +89,12 @@ profile: >-
   - **Occupation:** proprietário (landowner), resident at Lomba do Botão in the parish
   (PAR-0015). [PROVEN]
 
-  - **Marriage:** Francisca Roza do Espirito Santo (P-0047), 1 February 1845 at N.S. Mãe de
-  Deus, Povoação (PAR-0024). [PROVEN] The parents of both spouses are present in that act
-  but illegible at scan resolution; a later retrieval re-read proposing a 17 February 1842
-  date, a 4th-degree-consanguinity dispensation and Francisca's parents "Manoel de Mello ×
-  Anna de Souza" is an unpromoted lead not adopted here. [LEAD]
+  - **Marriage:** Francisca Roza do Espirito Santo (P-0047), 17 February 1842 at N.S. Mãe de
+  Deus, Povoação (PAR-0024, folio 32r), dispensed from a 4th-degree consanguinity impediment.
+  [PROVEN] The act legibly names both spouses' parents — his own (F-0023) and Francisca's,
+  Manoel de Motta [var. Mello] × Anna de Souza (F-0042). (Earlier read as 1 February 1845
+  from a mis-identified folio-73r image of a different couple; corrected 11 August 2026 — see
+  PAR-0024.)
 
   - **Parents:** João Muniz Bytancourt (P-0048) and Maria Jacintha de Medeiros (P-0049),
   both natural of the parish (family F-0023), named in his 1866 death (PAR-0015). [PROVEN]
@@ -131,16 +132,14 @@ profile: >-
   - His own baptism (about 1820, Mãe de Deus) — the pre-1818 books are not digitised online.
   [OPEN]
 
-  - The illegible parent names in his 1845 marriage act, and the conflicting 1842 re-read —
-  a higher-resolution image or a paleographer reading of PAR-0024 would resolve both. [OPEN]
-
   ## Sources held (this repository)
 
   - PAR-0015 (his own 1866 Povoação death — age, occupation, residence, wife, parents,
   eight children; the primary record for him).
 
-  - PAR-0024 (his 1845 marriage to Francisca Roza) · PAR-0022 (his son João's 1845 baptism)
-  · PAR-0007 (son João's 1915 Carangola death — the erroneous "Manoel Luiz Bittencourt").
+  - PAR-0024 (his 1842 marriage to Francisca Roza — names both spouses' parents) · PAR-0022
+  (his son João's 1845 baptism) · PAR-0007 (son João's 1915 Carangola death — the erroneous
+  "Manoel Luiz Bittencourt").
 
   ## Regional and migration context
 
@@ -165,12 +164,12 @@ profile_pt: >-
   - **Ocupação:** proprietário, residente na Lomba do Botão, na freguesia (PAR-0015).
   [PROVEN]
 
-  - **Casamento:** Francisca Roza do Espirito Santo (P-0047), em 1º de fevereiro de 1845, em
-  N.S. Mãe de Deus, Povoação (PAR-0024). [PROVEN] Os pais de ambos os cônjuges estão
-  presentes nesse ato, mas ilegíveis na resolução da digitalização; uma releitura posterior
-  da recuperação, que propõe a data de 17 de fevereiro de 1842, uma dispensa de
-  consanguinidade de 4º grau e os pais de Francisca "Manoel de Mello × Anna de Souza", é uma
-  pista não promovida e não adotada aqui. [LEAD]
+  - **Casamento:** Francisca Roza do Espirito Santo (P-0047), em 17 de fevereiro de 1842, em
+  N.S. Mãe de Deus, Povoação (PAR-0024, fólio 32r), dispensados de um impedimento de
+  consanguinidade de 4º grau. [PROVEN] O ato nomeia legivelmente os pais de ambos os cônjuges
+  — os dele (F-0023) e os de Francisca, Manoel de Motta [var. Mello] × Anna de Souza (F-0042).
+  (Antes lido como 1º de fevereiro de 1845, a partir de uma imagem mal identificada do fólio
+  73r de um casal diferente; corrigido em 11 de agosto de 2026 — ver PAR-0024.)
 
   - **Pais:** João Muniz Bytancourt (P-0048) e Maria Jacintha de Medeiros (P-0049), ambos
   naturais da freguesia (família F-0023), nomeados em seu óbito de 1866 (PAR-0015). [PROVEN]
@@ -208,17 +207,14 @@ profile_pt: >-
   - Seu próprio batismo (por volta de 1820, Mãe de Deus) — os livros anteriores a 1818 não
   estão digitalizados online. [OPEN]
 
-  - Os nomes ilegíveis dos pais em seu ato de casamento de 1845 e a releitura conflitante de
-  1842 — uma imagem em resolução mais alta ou a leitura de um paleógrafo de PAR-0024
-  resolveria ambos. [OPEN]
-
   ## Fontes disponíveis (neste repositório)
 
   - PAR-0015 (seu próprio óbito de 1866 em Povoação — idade, ocupação, residência, esposa,
   pais, oito filhos; o registro primário sobre ele).
 
-  - PAR-0024 (seu casamento de 1845 com Francisca Roza) · PAR-0022 (o batismo de 1845 de seu
-  filho João) · PAR-0007 (o óbito de 1915 em Carangola do filho João — o errôneo "Manoel Luiz
+  - PAR-0024 (seu casamento de 1842 com Francisca Roza — nomeia os pais de ambos os cônjuges)
+  · PAR-0022 (o batismo de 1845 de seu filho João) · PAR-0007 (o óbito de 1915 em Carangola do
+  filho João — o errôneo "Manoel Luiz
   Bittencourt").
 
   ## Contexto regional e migratório

@@ -1,8 +1,8 @@
 schema_version: 1
 id: PAR-0024
 title: >-
-  Parish marriage of Manoel Muniz Byttancourt and Francisca Roza do Espírito
-  Santo (1 February 1845, Nossa Senhora Mãe de Deus, Povoação, São Miguel)
+  Parish marriage of Manoel Muniz Bitancourt and Francisca Roza do Espírito
+  Santo (17 February 1842, Nossa Senhora Mãe de Deus, Povoação, São Miguel)
 record_type: Parish marriage register entry (original)
 record_category: parish_register
 source_form: original
@@ -11,7 +11,7 @@ evidence_type: direct
 usage: evidence
 event_date:
   kind: exact
-  value: "1845-02-01"
+  value: "1842-02-17"
 event_place_text: >-
   Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel,
   Açores, Portugal
@@ -22,153 +22,110 @@ repository:
     de Angra do Heroísmo)
   collection: >-
     SMG-PV-MAEDEDEUS-C-1841-1854 (Livro de casamentos, N.S. Mãe de Deus,
-    Povoação, 1841–1854), browsed via Culturacores CDN 2026-08-05
+    Povoação, 1841–1854), Culturacores CDN
   book: >-
-    Livro de casamentos SMG-PV-MAEDEDEUS-C-1841-1854 — folio 73r, scan image 74
-    (two-page spread 72v + 73r)
+    Livro de casamentos SMG-PV-MAEDEDEUS-C-1841-1854 — folio 32 recto (viewer
+    page 33)
   catalogue_reference: >-
-    Culturacores SMG-PV-MAEDEDEUS-C-1841-1854, folio 73r (scan image 74).
-    Retrieved 2026-08-05 by the external retrieval agent.
-access_date: "2026-08-05"
+    Culturacores SMG-PV-MAEDEDEUS-C-1841-1854, folio 32r (viewer page 33). Read
+    directly from the register image; reconciled with BPARPD Ponta Delgada reply
+    SE/2026/1583e (proc. 16.04.01/2026/221), which independently transcribes the
+    same act.
+access_date: "2026-08-11"
 language: pt
 transcription: >-
   [Casamento — Livro SMG-PV-MAEDEDEUS-C-1841-1854, N.S. Mãe de Deus, Povoação;
-  folio 73r (scan image 74, right page). Re-read 2026-08-07 from enhanced crops
-  of the evidence scan. The BPARPD watermark overlays the centre of the page and
-  partially obscures the body text; parent surnames remain uncertain.]
+  folio 32 recto (viewer p33). Read from the register image 2026-08-11.]
 
-  [Cabeçalho de margem: "M.el" (Manoel) | "Roza" | "de Jezus" (ou "Jesus") —
-  índices marginais do acto.]
-
-  "Como primeiro dia de Fevereiro de mil oitocentos quarenta e cinco" [1845-02-01]
-  [procedural text: solenidade, proclamas, ausência de impedimentos, na Paróquia de
-  N.S. Mãe de Deus desta Freguesia de Povoação]...
-
-  [Partes:] "Manuel [Muniz? / Ferreira?] filho de António [uncertain surname] e de
-  [Antónia?] de Jesus"; e "[Francisca] Rosa [do Espírito Santo?] filha de Manuel
-  Joaquim [uncertain surname] [e de (mother name illegible)]".
-
-  [Nota: o nome do pai do noivo começa por "António" — leitura tentativa do corpo
-  do acto; o apelido permanece ilegível devido à resolução da digitalização e à
-  sobreposição da marca de água BPARPD. O nome do pai da noiva lê-se tentativamemente
-  como "Manuel Joaquim [?]", contrariando a hipótese de trabalho "José Pacheco" que
-  constava da versão anterior desta transcrição.]
-
-  [Assinaturas:] "O [Cura?] José António [Brandão? / Botton?]" [rubrica] /
-  "O Cura José [P.] [Lopes?] [Simão? / Silvano?]" [rubrica — provavelmente o pároco
-  celebrante] / "M.to António José [Pacheco?]" [testemunha] /
-  "[J.s?] [?] [?] Sant'António" [quarta assinatura — ilegível]
-
-  [Anotação de margem posterior:] "25 de Janeiro de 1866" [data de uma certificação
-  ou publicação posterior, não genealógica]
-
-  [Nota: página p2 (folio 73v, scan image 75) é um acto diferente do mesmo dia
-  1 de Fevereiro de 1845 para um outro casal — NÃO é continuação deste acto, que
-  está contido integralmente no folio 73r.]
-transcription_pt: >-
-  [Casamento — Livro SMG-PV-MAEDEDEUS-C-1841-1854, N.S. Mãe de Deus, Povoação;
-  folio 73r (imagem digitalizada 74, página direita). Relido em 2026-08-07 a partir
-  de recortes realçados da digitalização de evidência. A marca d'água do BPARPD
-  sobrepõe-se ao centro da página e obscurece parcialmente o corpo do texto; os
-  sobrenomes dos pais permanecem incertos.]
-
-  [Cabeçalho de margem: "M.el" (Manoel) | "Roza" | "de Jezus" (ou "Jesus") —
-  índices marginais do acto.]
-
-  "Como primeiro dia de Fevereiro de mil oitocentos quarenta e cinco" [1845-02-01]
-  [texto processual: solenidade, proclamas, ausência de impedimentos, na Paróquia de
-  N.S. Mãe de Deus desta Freguesia de Povoação]...
-
-  [Partes:] "Manuel [Muniz? / Ferreira?] filho de António [uncertain surname] e de
-  [Antónia?] de Jesus"; e "[Francisca] Rosa [do Espírito Santo?] filha de Manuel
-  Joaquim [uncertain surname] [e de (mother name illegible)]".
-
-  [Nota: o nome do pai do noivo começa por "António" — leitura tentativa do corpo
-  do acto; o apelido permanece ilegível devido à resolução da digitalização e à
-  sobreposição da marca de água BPARPD. O nome do pai da noiva lê-se tentativamemente
-  como "Manuel Joaquim [?]", contrariando a hipótese de trabalho "José Pacheco" que
-  constava da versão anterior desta transcrição.]
-
-  [Assinaturas:] "O [Cura?] José António [Brandão? / Botton?]" [rubrica] /
-  "O Cura José [P.] [Lopes?] [Simão? / Silvano?]" [rubrica — provavelmente o pároco
-  celebrante] / "M.to António José [Pacheco?]" [testemunha] /
-  "[J.s?] [?] [?] Sant'António" [quarta assinatura — ilegível]
-
-  [Anotação de margem posterior:] "25 de Janeiro de 1866" [data de uma certificação
-  ou publicação posterior, não genealógica]
-
-  [Nota: página p2 (folio 73v, imagem digitalizada 75) é um acto diferente do mesmo dia
-  1 de Fevereiro de 1845 para um outro casal — NÃO é continuação deste acto, que
-  está contido integralmente no folio 73r.]
+  "Em os de[z] e sette dias do mez de Fevereiro de mil oito centos quarenta e
+  dois, nesta Parochial Igreja de Nossa Senhora Mãe de Deus da Villa da Povoação,
+  depois de feitas as tres denunciações canonicas nesta dita Parochial e na
+  Ermida de Santa Barbara, filial da mesma, sem se descobrir impedimento algum
+  além do quarto grão de consanguinidade em que forão dispensados [por Dispensa
+  Apostolica], por mandado do Muito Reverendo Ouvidor deste Districto José Tavares
+  de Medeiros, em presença do Vigario proprio della e das testemunhas José
+  Jacintho Botelho e Estevão Manoel e de outras muitas pessoas que presentes
+  estavão, se receberão solenemente por palavras de presente in facie Ecclesiae
+  Manoel [Munis] Bitancourt, filho do dito João Munis Bitancourt e de Maria
+  Euginia [Eugenia] de Medeiros, e Francisca Roza do Espirito Santo, filha de
+  Manoel de Motta mancebo e de Anna de Souza, ambos naturaes e freguezes desta
+  [Parochial onde forão baptizados] ... O Cura José Antonio Barbosa. [O Vigario]
+  Julião Francisco [Tavares]. José Jacintho Botelho. Estevão [+] Manoel."
 abstract: >-
-  Marriage on 1 February 1845 at Nossa Senhora Mãe de Deus, Povoação, São Miguel,
-  of Manoel Muniz Byttancourt (P-0042) and Francisca Roza do Espírito Santo
-  (P-0047). The marriage date is exactly nine months before their son João's
-  birth on 24 October 1845 (PAR-0022), consistent with timing. Re-read 2026-08-07
-  from enhanced image crops: the groom's father tentatively reads as "António
-  [surname illegible]"; the bride's father tentatively reads as "Manuel Joaquim
-  [surname illegible]" — revising the earlier hypothesis of "J" initial / "José
-  Pacheco" for the bride's father. A witness signature reads "M.to António José
-  [Pacheco?]". Parent surnames remain unconfirmed; the BPARPD watermark obscures
-  the body text. The act is fully contained in folio 73r; folio 73v is a second
-  unrelated marriage of the same date.
+  Marriage on 17 February 1842 at Nossa Senhora Mãe de Deus, Povoação, São Miguel,
+  of Manoel Muniz Bitancourt (P-0042) and Francisca Roza do Espírito Santo
+  (P-0047), dispensed from an impediment of the fourth degree of consanguinity.
+  The act legibly names both parent couples: the groom is son of João Muniz
+  Bitancourt (P-0048) and Maria Eugenia [= Jacintha] de Medeiros (P-0049) — a
+  second primary confirmation of family F-0023 — and the bride is daughter of
+  Manoel de Motta [var. Mello] mancebo (P-0086) and Anna de Souza (P-0087), family
+  F-0042. Witnesses José Jacintho Botelho and Estevão Manoel; officiant Cura José
+  Antonio Barbosa under Vigário Julião Francisco Tavares. CORRECTION: this
+  supersedes the earlier binding of PAR-0024 to folio 73r (a late-1845 marriage of
+  a different "Manoel × Roza de Jesus" couple, groom's father "António"), which was
+  a namesake mis-identification; the true act of this couple is folio 32r (1842).
 abstract_pt: >-
-  Casamento em 1 de fevereiro de 1845 em Nossa Senhora Mãe de Deus, Povoação, São
-  Miguel, de Manoel Muniz Byttancourt (P-0042) e Francisca Roza do Espírito Santo
-  (P-0047). A data do casamento é exatamente nove meses anterior ao nascimento do
-  filho do casal, João, em 24 de outubro de 1845 (PAR-0022), coerente com a
-  cronologia. Releitura em 2026-08-07 a partir de recortes de imagem realçados: o
-  pai do noivo lê-se tentativamente como "António [sobrenome ilegível]"; o pai da
-  noiva lê-se tentativamente como "Manuel Joaquim [sobrenome ilegível]" — revisando
-  a hipótese anterior de inicial "J" / "José Pacheco" para o pai da noiva. Uma
-  assinatura de testemunha lê-se "M.to António José [Pacheco?]". Os sobrenomes dos
-  pais permanecem não confirmados; a marca d'água do BPARPD obscurece o corpo do
-  texto. O ato está integralmente contido no fólio 73r; o fólio 73v é um segundo
-  casamento, não relacionado, da mesma data.
+  Casamento em 17 de fevereiro de 1842, em Nossa Senhora Mãe de Deus, Povoação,
+  São Miguel, de Manoel Muniz Bitancourt (P-0042) e Francisca Roza do Espírito
+  Santo (P-0047), dispensados de um impedimento de quarto grau de consanguinidade.
+  O ato nomeia legivelmente os dois casais de pais: o noivo é filho de João Muniz
+  Bitancourt (P-0048) e Maria Eugenia [= Jacintha] de Medeiros (P-0049) — uma
+  segunda confirmação primária da família F-0023 — e a noiva é filha de Manoel de
+  Motta [var. Mello] mancebo (P-0086) e Anna de Souza (P-0087), família F-0042.
+  Testemunhas José Jacintho Botelho e Estevão Manoel; celebrante o Cura José
+  Antonio Barbosa sob o Vigário Julião Francisco Tavares. CORREÇÃO: isto supera a
+  ligação anterior de PAR-0024 ao fólio 73r (um casamento de fins de 1845 de um
+  casal "Manoel × Roza de Jesus" diferente, com o pai do noivo "António"), que foi
+  uma identificação equivocada por homonímia; o ato verdadeiro deste casal é o
+  fólio 32r (1842).
 reliability:
   assessment: >-
-    An original parish register entry, primary evidence for the marriage date and
-    the identity of the couple. The marriage itself is confirmed; the parents of
-    both spouses are present in the act but illegible at current scan resolution
-    and must not be promoted until the full-resolution image or a paleographer
-    reading confirms the names.
+    An original parish register entry; primary, direct evidence for the marriage
+    date, the couple's identity and both parent couples, all legible on the image.
+    The consanguinity dispensation (fourth degree) confirms the two families were
+    already related.
   informant: >-
-    The parish priest or cura of N.S. Mãe de Deus, Povoação, recording the
-    marriage as an officer of the church.
+    The Cura José Antonio Barbosa of N.S. Mãe de Deus, Povoação, recording the
+    marriage as an officer of the church under the parish vicar.
   limitations: >-
-    Parent surnames of both spouses remain illegible at current scan resolution.
-    A higher-resolution image or in-person reading at BPARPD Ponta Delgada is
-    required to confirm the tentative first-name reads ("António" for groom's
-    father; "Manuel Joaquim" for bride's father) and resolve the surnames. The
-    BPARPD watermark overlay obscures a strip through the body text. Do not
-    promote any parent to a person entity until the folio 73r body text is
-    legibly confirmed. The earlier "J initial / José Pacheco" hypothesis for the
-    bride's father is now contradicted by the re-read and should not be pursued
-    without further evidence.
+    A few procedural words are abbreviated or worn; the groom's surname is written
+    "Munis" (variant of Muniz) and the groom's mother appears as "Euginia/Eugenia"
+    (the same woman recorded "Jacintha" in five other acts — see F-0023). The
+    exact day reads "de[z] e sette" (17); confirmed by BPARPD reply SE/2026/1583e.
 digital_file:
   path: >-
-    evidence/parish/PAR-0024-manoel-muniz-francisca-roza-marriage-1845-saomiguel-p1.jpg
-  sha256: 262cb5fe2a5653be7af8ce8358bee89765128c253bbf949ce54388fc4d24f308
+    evidence/parish/PAR-0024-manoel-muniz-francisca-roza-marriage-1842-saomiguel.jpg
+  sha256: 2fa8e3ddf24cb7333a63c9d14872721c35697be7d5a071748ec58c58eb73e9bd
 linked_people:
   - P-0042
   - P-0047
+  - P-0048
+  - P-0049
+  - P-0086
+  - P-0087
 linked_families:
   - F-0020
+  - F-0023
+  - F-0042
 linked_events:
   - E-0053
 linked_places: []
 private: false
 notes:
   - text: >-
-      Retrieved 2026-08-05 by the external retrieval agent browsing the
-      Culturacores SMG-PV-MAEDEDEUS-C-1841-1854 book. Two images were kept:
-      p1 (folio 72v + 73r spread, containing the marriage act on 73r) and p2
-      (folio 73v + 74r spread, which is a different couple on 73v and unrelated
-      on 74r). The p2 file is retained for completeness as
-      PAR-0024-…-p2.jpg but contains no direct-line genealogical data; the
-      informative scan is p1.
+      CORRECTION (11 August 2026): PAR-0024 previously pointed to folio 73r of the
+      same book and was dated 1 February 1845, with the parents illegible under a
+      BPARPD watermark. Re-reading the book on the Culturacores CDN showed that
+      folio 73r is a different couple entirely — a late-1845 "Manoel × Roza de
+      Jesus" whose groom's father is "António" — i.e. a namesake mis-identification.
+      The true marriage of Manoel Muniz Bitancourt × Francisca Roza do Espírito
+      Santo is folio 32r, 17 February 1842, where both parent couples are legible
+      and the groom's parents match F-0023. The scan and event date were corrected
+      accordingly; the earlier folio-73r reading is superseded, not evidence about
+      this family.
   - text: >-
-      The discovery that Manoel and Francisca Roza married on 1 February 1845
-      confirms the timing of João's birth (24 October 1845 = 8.7 months after
-      the wedding) and resolves the prior note on F-0020 that no marriage record
-      had been located for this couple.
+      Reconciled with the BPARPD Ponta Delgada archive reply SE/2026/1583e (proc.
+      16.04.01/2026/221), which independently transcribes this 1842 act and the
+      1819 grandparents' marriage (PAR-0037). The couple's own child João's 1845
+      baptism (PAR-0022) remains the direct attestation of João's parentage; this
+      marriage now anchors both spouses' parents.

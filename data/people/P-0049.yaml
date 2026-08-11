@@ -13,9 +13,11 @@ name_variants:
   type: other
   source_ids:
   - PAR-0015
-event_ids: []
+event_ids:
+- E-0074
 family_ids:
 - F-0023
+- F-0041
 occupations:
 - value: doméstica
   source_ids:
@@ -28,7 +30,10 @@ notes:
     Medeiros, d'occupação domestica … natural desta freguesia" — of Nossa Senhora
     Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal). Her grandsons'
     1880 Ponta Delgada emigration passports also style them "filho de João Moniz
-    Bettencourt e Maria Jacinta" (secondary corroboration, a lead only).
+    Bettencourt e Maria Jacinta" (secondary corroboration, a lead only). Her own 7
+    October 1819 marriage (PAR-0037) names her parents, João de Medeiros Brandão
+    (P-0084) × Maria Eugenia (P-0085, family F-0041); it is her mother's name
+    "Eugenia" that a scribe later mis-applied to her in the 1842 act (PAR-0024).
   text_pt: >-
     Mãe de Manoel Muniz Bytancourt (P-0042); portanto, a avó paterna de João
     Muniz Bittencourt (P-0019). Nomeada, junto com seu marido João Muniz
@@ -37,11 +42,18 @@ notes:
     Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal).
     Os passaportes de emigração de 1880 de Ponta Delgada de seus netos também os
     descrevem como "filho de João Moniz Bettencourt e Maria Jacinta" (corroboração
-    secundária, apenas uma pista).
+    secundária, apenas uma pista). Seu próprio casamento em 7 de outubro de 1819
+    (PAR-0037) nomeia seus pais, João de Medeiros Brandão (P-0084) × Maria Eugenia
+    (P-0085, família F-0041); é o nome de sua mãe, "Eugenia", que um escrivão depois
+    aplicou erroneamente a ela no ato de 1842 (PAR-0024).
 profile: >-
   ## Identity
 
-  **Maria Jacintha de Medeiros** (Brazilianised variant "Maria Jacinta"). [PROVEN]
+  **Maria Jacintha de Medeiros** (Brazilianised variant "Maria Jacinta"; recorded "Maria
+  Eugenia" in the 1842 act by conflation with her mother's name). [PROVEN]
+
+  - **Parents:** João de Medeiros Brandão (P-0084) × Maria Eugenia (P-0085), family F-0041 —
+  named in her 7 October 1819 marriage (PAR-0037). [PROVEN]
 
   - **Origin:** native of Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel
   (Açores) — "natural desta freguesia" (PAR-0015); Portuguese (Açorean). [PROVEN]
@@ -49,7 +61,7 @@ profile: >-
   - **Occupation:** doméstica ("d'occupação domestica", PAR-0015). [PROVEN]
 
   - **Spouse:** João Muniz Bytancourt (P-0048), proprietário of Mãe de Deus (family
-  F-0023). [PROVEN]
+  F-0023); married 7 October 1819 (PAR-0037). [PROVEN]
 
   - **Child:** Manoel Muniz Bytancourt (P-0042), through whom she is the paternal
   grandmother of the immigrant João Muniz Bittencourt (P-0019). [PROVEN]
@@ -66,8 +78,8 @@ profile: >-
 
   ## Open questions
 
-  - Her own baptism, marriage and death (Mãe de Deus, pre-1818) — would name her parents;
-  the pre-1818 books are not digitised online. [OPEN]
+  - Her own baptism and death (Mãe de Deus) — her 1819 marriage and parents are now
+  documented (PAR-0037); the pre-1818 baptism books are not digitised online. [OPEN]
 
   ## Sources held (this repository)
 
@@ -82,7 +94,11 @@ profile: >-
 profile_pt: >-
   ## Identidade
 
-  **Maria Jacintha de Medeiros** (variante abrasileirada "Maria Jacinta"). [PROVEN]
+  **Maria Jacintha de Medeiros** (variante abrasileirada "Maria Jacinta"; registrada "Maria
+  Eugenia" no ato de 1842 por confusão com o nome de sua mãe). [PROVEN]
+
+  - **Pais:** João de Medeiros Brandão (P-0084) × Maria Eugenia (P-0085), família F-0041 —
+  nomeados em seu casamento de 7 de outubro de 1819 (PAR-0037). [PROVEN]
 
   - **Origem:** natural de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel
   (Açores) — "natural desta freguesia" (PAR-0015); portuguesa (açoriana). [PROVEN]
@@ -90,7 +106,7 @@ profile_pt: >-
   - **Ocupação:** doméstica ("d'occupação domestica", PAR-0015). [PROVEN]
 
   - **Cônjuge:** João Muniz Bytancourt (P-0048), proprietário de Mãe de Deus (família
-  F-0023). [PROVEN]
+  F-0023); casaram-se em 7 de outubro de 1819 (PAR-0037). [PROVEN]
 
   - **Filho:** Manoel Muniz Bytancourt (P-0042), por meio de quem é a avó paterna do
   imigrante João Muniz Bittencourt (P-0019). [PROVEN]
@@ -108,8 +124,9 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seu próprio batismo, casamento e óbito (Mãe de Deus, anteriores a 1818) — nomeariam seus
-  pais; os livros anteriores a 1818 não estão digitalizados online. [OPEN]
+  - Seu próprio batismo e óbito (Mãe de Deus) — seu casamento de 1819 e seus pais estão agora
+  documentados (PAR-0037); os livros de batismo anteriores a 1818 não estão digitalizados
+  online. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 

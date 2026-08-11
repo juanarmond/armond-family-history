@@ -1,0 +1,117 @@
+schema_version: 1
+id: PAR-0037
+title: >-
+  Parish marriage of João Francisco Muniz Bitancourt and Maria Jacintha de
+  Medeiros (7 October 1819, Nossa Senhora Mãe de Deus, Povoação, São Miguel)
+record_type: Parish marriage register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1819-10-07"
+event_place_text: >-
+  Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel,
+  Açores, Portugal
+repository:
+  name: Arquivo de Culturacores (Região Autónoma dos Açores)
+  archive_or_registry: >-
+    Paróquia de Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Diocese
+    de Angra do Heroísmo)
+  collection: >-
+    SMG-PV-MAEDEDEUS-C-1801-1822 (Livro de casamentos, N.S. Mãe de Deus,
+    Povoação, 1801–1822), Culturacores CDN
+  book: >-
+    Livro de casamentos SMG-PV-MAEDEDEUS-C-1801-1822 — folio 161 verso (viewer
+    page 163)
+  catalogue_reference: >-
+    Culturacores SMG-PV-MAEDEDEUS-C-1801-1822, folio 161v (viewer page 163). Read
+    directly from the register image; reconciled with BPARPD Ponta Delgada reply
+    SE/2026/1583e (proc. 16.04.01/2026/221), which independently transcribes the
+    same act.
+access_date: "2026-08-11"
+language: pt
+transcription: >-
+  [Casamento — Livro SMG-PV-MAEDEDEUS-C-1801-1822, N.S. Mãe de Deus, Povoação;
+  folio 161v (viewer p163). Read from the register image 2026-08-11. Margin:
+  "João Muniz | M.a Jacinta".]
+
+  "Aos sette de Setembro digo aos sette de Outubro de mil oito centos e dezanove
+  annos, de manhã, nesta Parochial Igreja de Nossa Senhora Mãe de Deus do Lugar da
+  Povoação, precedidas as denunciações do estilo, sem impedimento, como consta do
+  Mandado do Reverendo Ouvidor deste Districto Manoel Joaquim Machado, perante mim
+  José Duarte de Medeiros, Vigario proprio desta dita Igreja, em presença das
+  testemunhas abaixo assignadas João Rodrigues Alves [Carneiro] e Antonio de
+  Medeiros Brandão e de muitas mais pessoas que presentes estavão, se ligarão o
+  sacramento do Matrimonio em face da Igreja por palavras de presente na forma do
+  Sagrado Concilio Tridentino, João Francisco Muniz Bitancourt, filho de Manoel
+  Muniz Bitancourt e de Tereza do Amaral já defunta, e Maria Jacintha de Medeiros,
+  filha de João de Medeiros Brandão e de Maria Eugenia, ambos naturaes e freguezes
+  desta dita Igreja aonde forão baptizados ... e logo receberão as bençãos.
+  [Assinado] O Vigario José Duarte de Medeiros. João Rodrigues Alves Carneiro. De
+  Antonio de Medeiros Brandão."
+abstract: >-
+  Marriage on 7 October 1819 (the scribe first wrote "Setembro", then corrected
+  to "Outubro") at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of João
+  Francisco Muniz Bitancourt (P-0048) and Maria Jacintha de Medeiros (P-0049) —
+  the grandparents of the emigrant João Muniz Bittencourt (P-0019). The act names
+  the groom as son of Manoel Muniz Bitancourt (P-0082) and Tereza do Amaral
+  (P-0083, already deceased), family F-0040, and the bride as daughter of João de
+  Medeiros Brandão (P-0084) and Maria Eugenia (P-0085), family F-0041 — extending
+  the Muniz Bittencourt line one further Azorean generation. Officiant Vigário
+  José Duarte de Medeiros; witnesses João Rodrigues Alves Carneiro and Antonio de
+  Medeiros Brandão.
+abstract_pt: >-
+  Casamento em 7 de outubro de 1819 (o escrivão escreveu primeiro "Setembro" e
+  corrigiu para "Outubro"), em Nossa Senhora Mãe de Deus, Povoação, São Miguel, de
+  João Francisco Muniz Bitancourt (P-0048) e Maria Jacintha de Medeiros (P-0049) —
+  os avós do emigrante João Muniz Bittencourt (P-0019). O ato nomeia o noivo como
+  filho de Manoel Muniz Bitancourt (P-0082) e Tereza do Amaral (P-0083, já
+  falecida), família F-0040, e a noiva como filha de João de Medeiros Brandão
+  (P-0084) e Maria Eugenia (P-0085), família F-0041 — estendendo a linha Muniz
+  Bittencourt mais uma geração açoriana. Celebrante o Vigário José Duarte de
+  Medeiros; testemunhas João Rodrigues Alves Carneiro e Antonio de Medeiros
+  Brandão.
+reliability:
+  assessment: >-
+    An original parish register entry; primary, direct evidence for the marriage
+    date, the couple's identity and both parent couples, all legible on the image.
+    It gives João Francisco Muniz Bitancourt's fuller forename ("João Francisco")
+    and independently supports the F-0023 couple recorded in the 1842 (PAR-0024)
+    and 1866 (PAR-0015) acts.
+  informant: >-
+    The Vigário José Duarte de Medeiros of N.S. Mãe de Deus, Povoação, recording
+    the marriage as an officer of the church.
+  limitations: >-
+    The date carries the scribe's own correction (September → October); the year
+    "dezanove" (1819) and the parent couples are clear. The facing page (folio
+    162r) is an unrelated marriage of another couple.
+digital_file:
+  path: >-
+    evidence/parish/PAR-0037-joao-francisco-muniz-maria-jacintha-marriage-1819-saomiguel.jpg
+  sha256: 689d3d45e3e9c87216ac1805b2fce8f76b04aedeec8d72ee8f6f71421e03f309
+linked_people:
+  - P-0048
+  - P-0049
+  - P-0082
+  - P-0083
+  - P-0084
+  - P-0085
+linked_families:
+  - F-0023
+  - F-0040
+  - F-0041
+linked_events:
+  - E-0074
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Catalogued 11 August 2026 from the Culturacores CDN image, reconciled with
+      BPARPD Ponta Delgada reply SE/2026/1583e. This is the marriage that anchors
+      family F-0023 (previously attested only indirectly, via the "filho legitimo"
+      statement in Manoel's 1866 death PAR-0015) and adds the two parent couples
+      F-0040 and F-0041. Tereza do Amaral is recorded "já defunta" (already
+      deceased) in 1819.

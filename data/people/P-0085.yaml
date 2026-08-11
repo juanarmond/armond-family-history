@@ -1,0 +1,62 @@
+schema_version: 1
+id: P-0085
+preferred_name: Maria Eugenia
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Maria Eugenia
+  type: source
+  source_ids:
+  - PAR-0037
+event_ids: []
+family_ids:
+- F-0041
+notes:
+- text: >-
+    Mother of Maria Jacintha de Medeiros (P-0049); wife of João de Medeiros Brandão
+    (P-0084), family F-0041. Named in her daughter's 7 October 1819 Mãe de Deus
+    marriage (PAR-0037). Her given name explains a later scribal conflation: her
+    daughter Maria Jacintha is recorded "Maria Euginia/Eugenia" in the 1842 marriage
+    act (PAR-0024) and the 1841 sibling marriage — the scribe wrote the
+    grandmother's name — while five other acts read "Jacintha" (BPARPD reconcile,
+    SE/2026/1583e). No record of her own is located; native to São Miguel (Açores).
+  text_pt: >-
+    Mãe de Maria Jacintha de Medeiros (P-0049); esposa de João de Medeiros Brandão
+    (P-0084), família F-0041. Nomeada no casamento de sua filha em 7 de outubro de
+    1819, em Mãe de Deus (PAR-0037). Seu prenome explica uma confusão de escrivão
+    posterior: sua filha Maria Jacintha é registrada "Maria Euginia/Eugenia" no ato
+    de casamento de 1842 (PAR-0024) e no casamento de 1841 de um irmão — o escrivão
+    escreveu o nome da avó — enquanto cinco outros atos leem "Jacintha" (reconcílio
+    BPARPD, SE/2026/1583e). Nenhum registro próprio dela é localizado; natural de São
+    Miguel (Açores).
+profile: >-
+  ## Identity
+
+  **Maria Eugenia** [PROVEN as named] — mother of Maria Jacintha de Medeiros (P-0049), wife
+  of João de Medeiros Brandão (P-0084), family F-0041.
+
+  - **Attestation:** named in her daughter's 1819 Mãe de Deus marriage (PAR-0037). Her name
+  is the source of the "Eugenia" that a scribe later mis-applied to her daughter (see F-0023
+  / PAR-0024). [PROVEN]
+
+  - **Origin:** São Miguel (Açores); Portuguese. Her own records are not held. [OPEN]
+
+  ## Sources held (this repository)
+
+  - PAR-0037 (1819 marriage of her daughter Maria Jacintha — names her as the bride's mother).
+profile_pt: >-
+  ## Identidade
+
+  **Maria Eugenia** [PROVEN quanto ao nome] — mãe de Maria Jacintha de Medeiros (P-0049),
+  esposa de João de Medeiros Brandão (P-0084), família F-0041.
+
+  - **Atestação:** nomeada no casamento de 1819 de sua filha em Mãe de Deus (PAR-0037). Seu
+  nome é a origem da "Eugenia" que um escrivão depois aplicou erroneamente à filha (ver
+  F-0023 / PAR-0024). [PROVEN]
+
+  - **Origem:** São Miguel (Açores); portuguesa. Seus próprios registros não são obtidos. [OPEN]
+
+  ## Fontes disponíveis (neste repositório)
+
+  - PAR-0037 (casamento de 1819 de sua filha Maria Jacintha — a nomeia como mãe da noiva).

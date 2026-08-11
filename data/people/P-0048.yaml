@@ -9,13 +9,19 @@ name_variants:
   type: source
   source_ids:
   - PAR-0015
+- value: João Francisco Muniz Bitancourt
+  type: source
+  source_ids:
+  - PAR-0037
 - value: João Moniz Bettencourt
   type: other
   source_ids:
   - PAR-0015
-event_ids: []
+event_ids:
+- E-0074
 family_ids:
 - F-0023
+- F-0040
 occupations:
 - value: proprietário
   source_ids:
@@ -23,18 +29,23 @@ occupations:
 notes:
 - text: >-
     Father of Manoel Muniz Bytancourt (P-0042); hence the paternal grandfather of
-    João Muniz Bittencourt (P-0019) and the Azorean apical ancestor so far reached
-    on this line. Named, with his wife Maria Jacintha de Medeiros (P-0049), in his
-    son Manoel's 1866 death (PAR-0015) as "João Muniz Bytancourt, proprietario …
-    natural desta freguesia" — a landowner of Nossa Senhora Mãe de Deus, Povoação,
-    Ilha de São Miguel (Açores, Portugal).
+    João Muniz Bittencourt (P-0019). Named, with his wife Maria Jacintha de Medeiros
+    (P-0049), in his son Manoel's 1866 death (PAR-0015) as "João Muniz Bytancourt,
+    proprietario … natural desta freguesia" — a landowner of Nossa Senhora Mãe de
+    Deus, Povoação, Ilha de São Miguel (Açores, Portugal). His own 7 October 1819
+    marriage (PAR-0037) gives his fuller forename "João Francisco Muniz Bitancourt"
+    and his parents, Manoel Muniz Bitancourt (P-0082) × Tereza do Amaral (P-0083,
+    family F-0040) — so the line now reaches one generation above him.
   text_pt: >-
     Pai de Manoel Muniz Bytancourt (P-0042); portanto, o avô paterno de João
-    Muniz Bittencourt (P-0019) e o ancestral apical açoriano até agora alcançado
-    nesta linha. Nomeado, junto com sua esposa Maria Jacintha de Medeiros
-    (P-0049), no óbito de 1866 do filho Manoel (PAR-0015) como "João Muniz
-    Bytancourt, proprietario … natural desta freguesia" — um proprietário de
-    Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal).
+    Muniz Bittencourt (P-0019). Nomeado, junto com sua esposa Maria Jacintha de
+    Medeiros (P-0049), no óbito de 1866 do filho Manoel (PAR-0015) como "João Muniz
+    Bytancourt, proprietario … natural desta freguesia" — um proprietário de Nossa
+    Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal). Seu
+    próprio casamento em 7 de outubro de 1819 (PAR-0037) dá seu prenome mais
+    completo "João Francisco Muniz Bitancourt" e seus pais, Manoel Muniz Bitancourt
+    (P-0082) × Tereza do Amaral (P-0083, família F-0040) — de modo que a linha agora
+    alcança uma geração acima dele.
 - text: >-
     Approximate dates (b. 1806, d. 1876) circulate in secondary sources and are
     consistent with his grandsons' 1880 Ponta Delgada emigration passports, which
@@ -53,16 +64,19 @@ notes:
 profile: >-
   ## Identity
 
-  **João Muniz Bytancourt** (Brazilianised variant "João Moniz Bettencourt"). [PROVEN] The
-  apical Azorean ancestor so far reached on this line.
+  **João Muniz Bytancourt** (fuller form "João Francisco Muniz Bitancourt" in his own 1819
+  marriage, PAR-0037; Brazilianised variant "João Moniz Bettencourt"). [PROVEN]
+
+  - **Parents:** Manoel Muniz Bitancourt (P-0082) × Tereza do Amaral (P-0083, deceased by
+  1819), family F-0040 — named in his 7 October 1819 marriage (PAR-0037). [PROVEN]
 
   - **Origin:** native of Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel
   (Açores) — "natural desta freguesia" (PAR-0015); Portuguese (Açorean). [PROVEN]
 
   - **Occupation:** proprietário (landowner) at Mãe de Deus. [PROVEN via PAR-0015]
 
-  - **Spouse:** Maria Jacintha de Medeiros (P-0049; family F-0023), also of the parish.
-  [PROVEN]
+  - **Spouse:** Maria Jacintha de Medeiros (P-0049; family F-0023), also of the parish;
+  married 7 October 1819 at N.S. Mãe de Deus (PAR-0037). [PROVEN]
 
   - **Child:** Manoel Muniz Bytancourt (P-0042), through whom he is the paternal grandfather
   of the immigrant João Muniz Bittencourt (P-0019). [PROVEN]
@@ -82,8 +96,9 @@ profile: >-
 
   ## Open questions
 
-  - His own baptism, marriage and death (Mãe de Deus, pre-1818) — would name his own
-  parents and fix his dates; the pre-1818 books are not digitised online. [OPEN]
+  - His own baptism and death (Mãe de Deus) — would fix his dates; his 1819 marriage and his
+  parents are now documented (PAR-0037). The pre-1818 baptism books are not digitised online.
+  [OPEN]
 
   ## Sources held (this repository)
 
@@ -98,16 +113,20 @@ profile: >-
 profile_pt: >-
   ## Identidade
 
-  **João Muniz Bytancourt** (variante abrasileirada "João Moniz Bettencourt"). [PROVEN] O
-  ancestral apical açoriano até agora alcançado nesta linha.
+  **João Muniz Bytancourt** (forma mais completa "João Francisco Muniz Bitancourt" em seu
+  próprio casamento de 1819, PAR-0037; variante abrasileirada "João Moniz Bettencourt").
+  [PROVEN]
+
+  - **Pais:** Manoel Muniz Bitancourt (P-0082) × Tereza do Amaral (P-0083, falecida até
+  1819), família F-0040 — nomeados em seu casamento de 7 de outubro de 1819 (PAR-0037). [PROVEN]
 
   - **Origem:** natural de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel
   (Açores) — "natural desta freguesia" (PAR-0015); português (açoriano). [PROVEN]
 
   - **Ocupação:** proprietário em Mãe de Deus. [PROVEN via PAR-0015]
 
-  - **Cônjuge:** Maria Jacintha de Medeiros (P-0049; família F-0023), também da freguesia.
-  [PROVEN]
+  - **Cônjuge:** Maria Jacintha de Medeiros (P-0049; família F-0023), também da freguesia;
+  casaram-se em 7 de outubro de 1819, em N.S. Mãe de Deus (PAR-0037). [PROVEN]
 
   - **Filho:** Manoel Muniz Bytancourt (P-0042), por meio de quem é o avô paterno do
   imigrante João Muniz Bittencourt (P-0019). [PROVEN]
@@ -127,9 +146,9 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seu próprio batismo, casamento e óbito (Mãe de Deus, anteriores a 1818) — nomeariam seus
-  próprios pais e fixariam suas datas; os livros anteriores a 1818 não estão digitalizados
-  online. [OPEN]
+  - Seu próprio batismo e óbito (Mãe de Deus) — fixariam suas datas; seu casamento de 1819 e
+  seus pais estão agora documentados (PAR-0037). Os livros de batismo anteriores a 1818 não
+  estão digitalizados online. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 

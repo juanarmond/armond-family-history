@@ -1,0 +1,48 @@
+schema_version: 1
+id: F-0042
+partners:
+- person_id: P-0086
+  role: spouse
+- person_id: P-0087
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PAR-0024
+  notes:
+  - text: >-
+      Manoel de Motta (P-0086) and Anna de Souza (P-0087) are named together as the
+      parents of their daughter Francisca Roza do Espírito Santo (P-0047) in her
+      1842 Mãe de Deus marriage (PAR-0024), which attests the couple; their own
+      marriage record is not located.
+children:
+- person_id: P-0047
+  parent_relationships:
+  - parent_id: P-0086
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0024
+    notes: []
+  - parent_id: P-0087
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0024
+    notes: []
+  notes: []
+documented_children: []
+event_ids: []
+notes:
+- text: >-
+    Parents of Francisca Roza do Espírito Santo (P-0047), established by her 1842
+    Mãe de Deus marriage (PAR-0024, folio 32r). This supersedes the earlier "parents
+    unknown / Manoel de Mello × Anna de Souza [LEAD]" position on P-0047, now proven
+    from the legible 1842 act. Native to Nossa Senhora Mãe de Deus, Povoação, Ilha
+    de São Miguel (Açores).
+  text_pt: >-
+    Pais de Francisca Roza do Espírito Santo (P-0047), estabelecidos por seu
+    casamento de 1842 em Mãe de Deus (PAR-0024, fólio 32r). Isto supera a posição
+    anterior de "pais desconhecidos / Manoel de Mello × Anna de Souza [LEAD]" em
+    P-0047, agora provada a partir do ato legível de 1842. Natural de Nossa Senhora
+    Mãe de Deus, Povoação, Ilha de São Miguel (Açores).

@@ -1,0 +1,66 @@
+schema_version: 1
+id: P-0086
+preferred_name: Manoel de Motta
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: Manoel de Motta mancebo
+  type: source
+  source_ids:
+  - PAR-0024
+event_ids: []
+family_ids:
+- F-0042
+notes:
+- text: >-
+    Father of Francisca Roza do Espírito Santo (P-0047); hence the maternal
+    grandfather of the emigrant João Muniz Bittencourt (P-0019). Named in his
+    daughter's 17 February 1842 Mãe de Deus marriage (PAR-0024) as "Manoel de Motta
+    mancebo" (the younger), husband of Anna de Souza (P-0087). A retrieval read of
+    the 1845 twins' baptism records the surname as "de Mello junior"; per the BPARPD
+    reconcile (SE/2026/1583e) "Motta" is adopted as primary (1842 marriage + an 1847
+    collateral both read "Motta"; only the 1845 baptism reads "Mello"). His own
+    records are not located; native to São Miguel (Açores).
+  text_pt: >-
+    Pai de Francisca Roza do Espírito Santo (P-0047); portanto, o avô materno do
+    emigrante João Muniz Bittencourt (P-0019). Nomeado no casamento de sua filha em
+    17 de fevereiro de 1842, em Mãe de Deus (PAR-0024), como "Manoel de Motta
+    mancebo" (o mais novo), marido de Anna de Souza (P-0087). Uma leitura de
+    recuperação do batismo dos gêmeos de 1845 registra o sobrenome como "de Mello
+    junior"; conforme o reconcílio BPARPD (SE/2026/1583e), "Motta" é adotado como
+    primário (o casamento de 1842 e um colateral de 1847 leem "Motta"; apenas o
+    batismo de 1845 lê "Mello"). Seus próprios registros não foram localizados;
+    natural de São Miguel (Açores).
+profile: >-
+  ## Identity
+
+  **Manoel de Motta** ("mancebo", the younger; variant *de Mello júnior*) [PROVEN as named]
+  — father of Francisca Roza do Espírito Santo (P-0047), husband of Anna de Souza (P-0087),
+  family F-0042.
+
+  - **Attestation:** named in his daughter's 1842 Mãe de Deus marriage (PAR-0024). The
+  surname reads "de Motta" in 1842 and an 1847 collateral, "de Mello" in the 1845 twins'
+  baptism; "Motta" adopted as primary. [PROVEN for the form; variant preserved]
+
+  - **Origin:** São Miguel (Açores); Portuguese. His own records are not held. [OPEN]
+
+  ## Sources held (this repository)
+
+  - PAR-0024 (1842 marriage of his daughter Francisca — names him as the bride's father).
+profile_pt: >-
+  ## Identidade
+
+  **Manoel de Motta** ("mancebo", o mais novo; variante *de Mello júnior*) [PROVEN quanto ao
+  nome] — pai de Francisca Roza do Espírito Santo (P-0047), marido de Anna de Souza
+  (P-0087), família F-0042.
+
+  - **Atestação:** nomeado no casamento de 1842 de sua filha em Mãe de Deus (PAR-0024). O
+  sobrenome lê "de Motta" em 1842 e em um colateral de 1847, "de Mello" no batismo dos
+  gêmeos de 1845; "Motta" adotado como primário. [PROVEN quanto à forma; variante preservada]
+
+  - **Origem:** São Miguel (Açores); português. Seus próprios registros não são obtidos. [OPEN]
+
+  ## Fontes disponíveis (neste repositório)
+
+  - PAR-0024 (casamento de 1842 de sua filha Francisca — o nomeia como pai da noiva).

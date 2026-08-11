@@ -1,0 +1,58 @@
+schema_version: 1
+id: P-0087
+preferred_name: Anna de Souza
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Anna de Souza
+  type: source
+  source_ids:
+  - PAR-0024
+event_ids: []
+family_ids:
+- F-0042
+notes:
+- text: >-
+    Mother of Francisca Roza do Espírito Santo (P-0047); wife of Manoel de Motta
+    (P-0086), family F-0042. Named in her daughter's 17 February 1842 Mãe de Deus
+    marriage (PAR-0024). NOTE: distinct from the "Anna de Souza" who is wife of
+    Antonio de Medeiros Brandão and a godmother at the 1821 baptism of Manoel Muniz
+    Bitancourt (P-0042) — a different woman with the same name (BPARPD reconcile,
+    SE/2026/1583e). No record of her own is located; native to São Miguel (Açores).
+  text_pt: >-
+    Mãe de Francisca Roza do Espírito Santo (P-0047); esposa de Manoel de Motta
+    (P-0086), família F-0042. Nomeada no casamento de sua filha em 17 de fevereiro
+    de 1842, em Mãe de Deus (PAR-0024). NOTA: distinta da "Anna de Souza" que é
+    esposa de Antonio de Medeiros Brandão e madrinha no batismo de 1821 de Manoel
+    Muniz Bitancourt (P-0042) — uma mulher diferente com o mesmo nome (reconcílio
+    BPARPD, SE/2026/1583e). Nenhum registro próprio dela é localizado; natural de
+    São Miguel (Açores).
+profile: >-
+  ## Identity
+
+  **Anna de Souza** [PROVEN as named] — mother of Francisca Roza do Espírito Santo
+  (P-0047), wife of Manoel de Motta (P-0086), family F-0042.
+
+  - **Attestation:** named in her daughter's 1842 Mãe de Deus marriage (PAR-0024). Distinct
+  from a same-named godmother in the 1821 Manoel baptism. [PROVEN]
+
+  - **Origin:** São Miguel (Açores); Portuguese. Her own records are not held. [OPEN]
+
+  ## Sources held (this repository)
+
+  - PAR-0024 (1842 marriage of her daughter Francisca — names her as the bride's mother).
+profile_pt: >-
+  ## Identidade
+
+  **Anna de Souza** [PROVEN quanto ao nome] — mãe de Francisca Roza do Espírito Santo
+  (P-0047), esposa de Manoel de Motta (P-0086), família F-0042.
+
+  - **Atestação:** nomeada no casamento de 1842 de sua filha em Mãe de Deus (PAR-0024).
+  Distinta de uma madrinha homônima no batismo de 1821 de Manoel. [PROVEN]
+
+  - **Origem:** São Miguel (Açores); portuguesa. Seus próprios registros não são obtidos. [OPEN]
+
+  ## Fontes disponíveis (neste repositório)
+
+  - PAR-0024 (casamento de 1842 de sua filha Francisca — a nomeia como mãe da noiva).

@@ -1,0 +1,58 @@
+schema_version: 1
+id: P-0083
+preferred_name: Tereza do Amaral
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Tereza do Amaral
+  type: source
+  source_ids:
+  - PAR-0037
+event_ids: []
+family_ids:
+- F-0040
+notes:
+- text: >-
+    Mother of João Francisco Muniz Bitancourt (P-0048); wife of Manoel Muniz
+    Bitancourt (P-0082), family F-0040. Named in her son's 7 October 1819 Mãe de
+    Deus marriage (PAR-0037), where she is recorded "já defunta" — so she died
+    before 7 October 1819. No record of her own is located; native to Nossa Senhora
+    Mãe de Deus, Povoação, Ilha de São Miguel (Açores).
+  text_pt: >-
+    Mãe de João Francisco Muniz Bitancourt (P-0048); esposa de Manoel Muniz
+    Bitancourt (P-0082), família F-0040. Nomeada no casamento de seu filho em 7 de
+    outubro de 1819, em Mãe de Deus (PAR-0037), onde é registrada "já defunta" —
+    portanto faleceu antes de 7 de outubro de 1819. Nenhum registro próprio dela foi
+    localizado; natural de Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel
+    (Açores).
+profile: >-
+  ## Identity
+
+  **Tereza do Amaral** [PROVEN as named] — mother of João Francisco Muniz Bitancourt
+  (P-0048), wife of Manoel Muniz Bitancourt (P-0082), family F-0040.
+
+  - **Death:** before 7 October 1819 — recorded "já defunta" at her son's marriage
+  (PAR-0037). [PROVEN as bound]
+
+  - **Attestation:** named only in that 1819 marriage; no record of her own is held.
+  Portuguese (Azorean). [OPEN]
+
+  ## Sources held (this repository)
+
+  - PAR-0037 (1819 marriage of her son João Francisco — names her, deceased, as his mother).
+profile_pt: >-
+  ## Identidade
+
+  **Tereza do Amaral** [PROVEN quanto ao nome] — mãe de João Francisco Muniz Bitancourt
+  (P-0048), esposa de Manoel Muniz Bitancourt (P-0082), família F-0040.
+
+  - **Óbito:** antes de 7 de outubro de 1819 — registrada "já defunta" no casamento de seu
+  filho (PAR-0037). [PROVEN quanto ao limite]
+
+  - **Atestação:** nomeada apenas nesse casamento de 1819; nenhum registro próprio é obtido.
+  Portuguesa (açoriana). [OPEN]
+
+  ## Fontes disponíveis (neste repositório)
+
+  - PAR-0037 (casamento de 1819 de seu filho João Francisco — a nomeia, falecida, como mãe).

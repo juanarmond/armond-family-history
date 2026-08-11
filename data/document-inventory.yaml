@@ -2196,32 +2196,26 @@ documents:
   - inventory_id: DOC-0056
     status: catalogued
     added_date: "2026-08-05"
-    apparent_record_type: Parish marriage register entry (2-page spread, folio 73r)
+    apparent_record_type: Parish marriage register entry (original, folio 32r)
     apparent_people:
-      - Manoel Muniz Byttancourt
+      - Manoel Muniz Bitancourt
       - Francisca Roza do Espírito Santo
+      - João Muniz Bitancourt
+      - Maria Eugenia de Medeiros
+      - Manoel de Motta
+      - Anna de Souza
     apparent_event: marriage
     image_quality: adequate
     provenance: >-
       Culturacores CDN (Arquivo dos Açores), book SMG-PV-MAEDEDEUS-C-1841-1854,
-      folio 73r, scan image 74. Retrieved 2026-08-05 by the external retrieval agent.
+      folio 32r (viewer page 33). Read from the register image 2026-08-11; reconciled
+      with BPARPD Ponta Delgada reply SE/2026/1583e.
     rights_status: unknown
     files:
-      - path: evidence/parish/PAR-0024-manoel-muniz-francisca-roza-marriage-1845-saomiguel-p1.jpg
-        sha256: 262cb5fe2a5653be7af8ce8358bee89765128c253bbf949ce54388fc4d24f308
+      - path: evidence/parish/PAR-0024-manoel-muniz-francisca-roza-marriage-1842-saomiguel.jpg
+        sha256: 2fa8e3ddf24cb7333a63c9d14872721c35697be7d5a071748ec58c58eb73e9bd
         media_type: image/jpeg
         role: primary
-        preservation:
-          acquisition_method: owner-supplied
-          resolution_status: highest-authorised
-          pixel_width: 1794
-          pixel_height: 1307
-        privacy_review: cleared
-        sensitive_content: []
-      - path: evidence/parish/PAR-0024-manoel-muniz-francisca-roza-marriage-1845-saomiguel-p2.jpg
-        sha256: 17cf48b31735e0a5c3436db935c1bb3a16118b65c17624cc9498abb286957db6
-        media_type: image/jpeg
-        role: continuation
         preservation:
           acquisition_method: owner-supplied
           resolution_status: highest-authorised
@@ -2233,10 +2227,50 @@ documents:
     proposed_source_id: PAR-0024
     notes:
       - >-
-        Marriage of Manoel Muniz Byttancourt × Francisca Roza do Espírito Santo,
-        1 February 1845, N.S. Mãe de Deus, Povoação, São Miguel. Parent names
-        present in folio 73r but not legible at current scan resolution. p2 (folio
-        73v) is a second, unrelated marriage; retained for completeness. All persons deceased.
+        Marriage of Manoel Muniz Bitancourt × Francisca Roza do Espírito Santo,
+        17 February 1842, N.S. Mãe de Deus, Povoação, São Miguel (folio 32r); both
+        parent couples legible, with a 4th-degree consanguinity dispensation.
+        CORRECTION 2026-08-11: PAR-0024 previously pointed to folio 73r (a different
+        "Manoel × Roza de Jesus" couple, late 1845) — a namesake mis-identification;
+        the two folio-73r images were removed. All persons deceased.
+  - inventory_id: DOC-0077
+    status: catalogued
+    added_date: "2026-08-11"
+    apparent_record_type: Parish marriage register entry (original, folio 161v)
+    apparent_people:
+      - João Francisco Muniz Bitancourt
+      - Maria Jacintha de Medeiros
+      - Manoel Muniz Bitancourt
+      - Tereza do Amaral
+      - João de Medeiros Brandão
+      - Maria Eugenia
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      Culturacores CDN (Arquivo dos Açores), book SMG-PV-MAEDEDEUS-C-1801-1822,
+      folio 161v (viewer page 163). Read from the register image 2026-08-11;
+      reconciled with BPARPD Ponta Delgada reply SE/2026/1583e.
+    rights_status: unknown
+    files:
+      - path: evidence/parish/PAR-0037-joao-francisco-muniz-maria-jacintha-marriage-1819-saomiguel.jpg
+        sha256: 689d3d45e3e9c87216ac1805b2fce8f76b04aedeec8d72ee8f6f71421e03f309
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1794
+          pixel_height: 1307
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0037
+    notes:
+      - >-
+        Marriage of João Francisco Muniz Bitancourt × Maria Jacintha de Medeiros,
+        7 October 1819, N.S. Mãe de Deus, Povoação, São Miguel (folio 161v). Names
+        both parent couples, extending the Muniz Bittencourt line one generation. All
+        persons deceased.
   - inventory_id: DOC-0057
     status: catalogued
     added_date: "2026-08-05"

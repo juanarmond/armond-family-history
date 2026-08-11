@@ -844,12 +844,16 @@
 2 SURN Santo
 1 SEX F
 1 FAMS @F0020@
+1 FAMC @F0042@
 1 NOTE Wife of Manoel Muniz Bytancourt (P-0042) and mother of his children; hence the mother of João Muniz Bittencourt (P-0019) and Antenor Muniz's Azorean great-great-grandmother. Named in her husband's 1866 death (PAR-0015) as "cazado com Francisca Roza do Espirito Santo, natural desta freguesia" — natural of Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal).
 1 NOTE Her link to João as mother is now directly confirmed by João's own 1845 baptism (PAR-0022), which names her as his mother. The earlier note (strong-evidence only) is superseded: PAR-0022 is a direct primary attestation; PAR-0015 and PAR-0007 remain corroborating.
 0 @P0048@ INDI
 1 NAME João Muniz /Bytancourt/
 2 GIVN João Muniz
 2 SURN Bytancourt
+1 NAME João Francisco Muniz /Bitancourt/
+2 TYPE AKA
+2 SOUR @PAR0037@
 1 NAME João Moniz /Bettencourt/
 2 TYPE AKA
 2 SOUR @PAR0015@
@@ -857,7 +861,8 @@
 1 OCCU proprietário
 2 SOUR @PAR0015@
 1 FAMS @F0023@
-1 NOTE Father of Manoel Muniz Bytancourt (P-0042); hence the paternal grandfather of João Muniz Bittencourt (P-0019) and the Azorean apical ancestor so far reached on this line. Named, with his wife Maria Jacintha de Medeiros (P-0049), in his son Manoel's 1866 death (PAR-0015) as "João Muniz Bytancourt, proprietario … natural desta freguesia" — a landowner of Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal).
+1 FAMC @F0040@
+1 NOTE Father of Manoel Muniz Bytancourt (P-0042); hence the paternal grandfather of João Muniz Bittencourt (P-0019). Named, with his wife Maria Jacintha de Medeiros (P-0049), in his son Manoel's 1866 death (PAR-0015) as "João Muniz Bytancourt, proprietario … natural desta freguesia" — a landowner of Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal). His own 7 October 1819 marriage (PAR-0037) gives his fuller forename "João Francisco Muniz Bitancourt" and his parents, Manoel Muniz Bitancourt (P-0082) × Tereza do Amaral (P-0083, family F-0040) — so the line now reaches one generation above him.
 1 NOTE Approximate dates (b. 1806, d. 1876) circulate in secondary sources and are consistent with his grandsons' 1880 Ponta Delgada emigration passports, which style them "filho de João Moniz Bettencourt e Maria Jacinta". These dates are leads only and are not asserted here; PAR-0015 establishes only his existence, landowner status and Povoação naturalidade. The "Moniz/Bettencourt" spelling is the Brazilianised variant of the record's "Muniz Bytancourt".
 0 @P0049@ INDI
 1 NAME Maria Jacintha de /Medeiros/
@@ -870,7 +875,8 @@
 1 OCCU doméstica
 2 SOUR @PAR0015@
 1 FAMS @F0023@
-1 NOTE Mother of Manoel Muniz Bytancourt (P-0042); hence the paternal grandmother of João Muniz Bittencourt (P-0019). Named, with her husband João Muniz Bytancourt (P-0048), in her son Manoel's 1866 death (PAR-0015) as "Maria Jacintha de Medeiros, d'occupação domestica … natural desta freguesia" — of Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal). Her grandsons' 1880 Ponta Delgada emigration passports also style them "filho de João Moniz Bettencourt e Maria Jacinta" (secondary corroboration, a lead only).
+1 FAMC @F0041@
+1 NOTE Mother of Manoel Muniz Bytancourt (P-0042); hence the paternal grandmother of João Muniz Bittencourt (P-0019). Named, with her husband João Muniz Bytancourt (P-0048), in her son Manoel's 1866 death (PAR-0015) as "Maria Jacintha de Medeiros, d'occupação domestica … natural desta freguesia" — of Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal). Her grandsons' 1880 Ponta Delgada emigration passports also style them "filho de João Moniz Bettencourt e Maria Jacinta" (secondary corroboration, a lead only). Her own 7 October 1819 marriage (PAR-0037) names her parents, João de Medeiros Brandão (P-0084) × Maria Eugenia (P-0085, family F-0041); it is her mother's name "Eugenia" that a scribe later mis-applied to her in the 1842 act (PAR-0024).
 0 @P0050@ INDI
 1 NAME Jacob /Bohrer/
 2 GIVN Jacob
@@ -1330,6 +1336,51 @@
 1 FAMS @F0039@
 1 NOTE Of the lugar da quinta, Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal. Married João Rodrigues (P-0080) on 13 May 1716 at Ruivais, family F-0039 (PAR-0036); legitimate daughter of Domingos Gonçalves (already deceased in 1716) and Maria Fernandes (named in PAR-0036; recorded as a lead, not modelled). Mother of João Rodrigues Valle (P-0078), baptized at Ruivais in 1728 (PAR-0035).
 1 NOTE Nationality Portuguese: a resident and married communicant of São Martinho de Ruivais, Braga (PAR-0036). No birth, baptism or death record located.
+0 @P0082@ INDI
+1 NAME Manoel Muniz /Bitancourt/
+2 GIVN Manoel Muniz
+2 SURN Bitancourt
+1 SEX M
+1 FAMS @F0040@
+1 NOTE Father of João Francisco Muniz Bitancourt (P-0048); hence the paternal great-grandfather of the emigrant João Muniz Bittencourt (P-0019). Named in his son's 7 October 1819 Mãe de Deus marriage (PAR-0037) as "Manoel Muniz Bitancourt", husband of Tereza do Amaral (P-0083). "Manoel Muniz Bitancourt the elder", distinct from his grandson Manoel Muniz Bytancourt (P-0042). His own baptism, marriage and death records are not located; the family is native to Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores).
+0 @P0083@ INDI
+1 NAME Tereza do /Amaral/
+2 GIVN Tereza do
+2 SURN Amaral
+1 SEX F
+1 FAMS @F0040@
+1 NOTE Mother of João Francisco Muniz Bitancourt (P-0048); wife of Manoel Muniz Bitancourt (P-0082), family F-0040. Named in her son's 7 October 1819 Mãe de Deus marriage (PAR-0037), where she is recorded "já defunta" — so she died before 7 October 1819. No record of her own is located; native to Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores).
+0 @P0084@ INDI
+1 NAME João de Medeiros /Brandão/
+2 GIVN João de Medeiros
+2 SURN Brandão
+1 SEX M
+1 FAMS @F0041@
+1 NOTE Father of Maria Jacintha de Medeiros (P-0049); hence the maternal great-grandfather of the emigrant João Muniz Bittencourt (P-0019). Named in his daughter's 7 October 1819 Mãe de Deus marriage (PAR-0037), husband of Maria Eugenia (P-0085). A witness at that same marriage, "Antonio de Medeiros Brandão", is very likely his son (Maria Jacintha's brother) [INFERRED]. His own records are not located; native to Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores).
+0 @P0085@ INDI
+1 NAME Maria /Eugenia/
+2 GIVN Maria
+2 SURN Eugenia
+1 SEX F
+1 FAMS @F0041@
+1 NOTE Mother of Maria Jacintha de Medeiros (P-0049); wife of João de Medeiros Brandão (P-0084), family F-0041. Named in her daughter's 7 October 1819 Mãe de Deus marriage (PAR-0037). Her given name explains a later scribal conflation: her daughter Maria Jacintha is recorded "Maria Euginia/Eugenia" in the 1842 marriage act (PAR-0024) and the 1841 sibling marriage — the scribe wrote the grandmother's name — while five other acts read "Jacintha" (BPARPD reconcile, SE/2026/1583e). No record of her own is located; native to São Miguel (Açores).
+0 @P0086@ INDI
+1 NAME Manoel de /Motta/
+2 GIVN Manoel de
+2 SURN Motta
+1 NAME Manoel de Motta /mancebo/
+2 TYPE AKA
+2 SOUR @PAR0024@
+1 SEX M
+1 FAMS @F0042@
+1 NOTE Father of Francisca Roza do Espírito Santo (P-0047); hence the maternal grandfather of the emigrant João Muniz Bittencourt (P-0019). Named in his daughter's 17 February 1842 Mãe de Deus marriage (PAR-0024) as "Manoel de Motta mancebo" (the younger), husband of Anna de Souza (P-0087). A retrieval read of the 1845 twins' baptism records the surname as "de Mello junior"; per the BPARPD reconcile (SE/2026/1583e) "Motta" is adopted as primary (1842 marriage + an 1847 collateral both read "Motta"; only the 1845 baptism reads "Mello"). His own records are not located; native to São Miguel (Açores).
+0 @P0087@ INDI
+1 NAME Anna de /Souza/
+2 GIVN Anna de
+2 SURN Souza
+1 SEX F
+1 FAMS @F0042@
+1 NOTE Mother of Francisca Roza do Espírito Santo (P-0047); wife of Manoel de Motta (P-0086), family F-0042. Named in her daughter's 17 February 1842 Mãe de Deus marriage (PAR-0024). NOTE: distinct from the "Anna de Souza" who is wife of Antonio de Medeiros Brandão and a godmother at the 1821 baptism of Manoel Muniz Bitancourt (P-0042) — a different woman with the same name (BPARPD reconcile, SE/2026/1583e). No record of her own is located; native to São Miguel (Açores).
 0 @DOCF0001_1@ INDI
 1 NAME Aristides Muniz /Bittencourt/
 2 GIVN Aristides Muniz
@@ -2110,14 +2161,14 @@
 1 WIFE @P0047@
 1 CHIL @P0019@
 1 MARR
-2 DATE 01 FEB 1845
+2 DATE 17 FEB 1842
 2 PLAC Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel, Açores, Portugal
 2 SOUR @PAR0024@
 3 QUAY 3
 1 SOUR @PAR0022@
 1 SOUR @PAR0007@
 1 SOUR @PAR0015@
-1 NOTE João Muniz Bittencourt (P-0019) is the child of Manoel Muniz Bytancourt (P-0042) and Francisca Roza do Espirito Santo (P-0047), of Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal). The couple married on 1 February 1845 (PAR-0024, E-0053) — exactly 9 months before João's birth on 24 October 1845 (PAR-0022). Manoel's 1866 óbito (PAR-0015) records that they left "oito filhos"; João's own 1915 óbito (PAR-0007) corroborates his paternity. The couple's other seven children are not evidenced by the located records, so only João is modelled here.
+1 NOTE João Muniz Bittencourt (P-0019) is the child of Manoel Muniz Bytancourt (P-0042) and Francisca Roza do Espirito Santo (P-0047), of Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal). The couple married on 17 February 1842 (PAR-0024, folio 32r, E-0053); their son João was born 24 October 1845 (PAR-0022). Manoel's 1866 óbito (PAR-0015) records that they left "oito filhos"; João's own 1915 óbito (PAR-0007) corroborates his paternity. The couple's other seven children are not evidenced by the located records, so only João is modelled here.
 0 @F0021@ FAM
 1 HUSB @P0043@
 1 WIFE @P0044@
@@ -2143,10 +2194,12 @@
 1 WIFE @P0049@
 1 CHIL @P0042@
 1 MARR
-2 SOUR @PAR0015@
+2 DATE 07 OCT 1819
+2 PLAC Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel, Açores, Portugal
+2 SOUR @PAR0037@
 3 QUAY 3
 1 SOUR @PAR0015@
-1 NOTE Parents of Manoel Muniz Bytancourt (P-0042), established by his own 1866 Povoação death (PAR-0015). Extends the Muniz Bittencourt line two generations above João Muniz Bittencourt (P-0019), into Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal). Only Manoel is modelled as a child here; other children of the couple are not evidenced by the located records.
+1 NOTE Parents of Manoel Muniz Bytancourt (P-0042), established by his own 1866 Povoação death (PAR-0015) and by their own 7 October 1819 marriage (PAR-0037, E-0074). Extends the Muniz Bittencourt line two generations above João Muniz Bittencourt (P-0019), into Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal). The 1819 marriage further names each spouse's parents — João Francisco's parents Manoel Muniz Bitancourt × Tereza do Amaral (F-0040) and Maria Jacintha's parents João de Medeiros Brandão × Maria Eugenia (F-0041) — extending the line another generation. Only Manoel is modelled as a child here; other children of the couple are not evidenced by the located records.
 0 @F0024@ FAM
 1 HUSB @P0050@
 1 WIFE @P0051@
@@ -2374,6 +2427,33 @@
 1 SOUR @PAR0035@
 1 NOTE João Rodrigues (P-0080) × Joanna Gonçalves (P-0081) of São Martinho de Ruivais, Braga, Portugal; parents of João Rodrigues Valle (P-0078). Extends the maternal Toledo line one generation into early-18th-century Portugal.
 1 NOTE The couple's own parents (Gonçalo Rodrigues † × Elebia Francisca; Domingos Gonçalves † × Maria Fernandes) are named in PAR-0036 but recorded only as leads on P-0080 and P-0081, not modelled — no records of their own are located.
+0 @F0040@ FAM
+1 HUSB @P0082@
+1 WIFE @P0083@
+1 CHIL @P0048@
+1 MARR
+2 SOUR @PAR0037@
+3 QUAY 3
+1 SOUR @PAR0037@
+1 NOTE Parents of João Francisco Muniz Bitancourt (P-0048), established by his 1819 Mãe de Deus marriage (PAR-0037). Extends the Muniz Bittencourt line one further generation, into Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores). Only João Francisco is modelled as a child here.
+0 @F0041@ FAM
+1 HUSB @P0084@
+1 WIFE @P0085@
+1 CHIL @P0049@
+1 MARR
+2 SOUR @PAR0037@
+3 QUAY 3
+1 SOUR @PAR0037@
+1 NOTE Parents of Maria Jacintha de Medeiros (P-0049), established by her 1819 Mãe de Deus marriage (PAR-0037). A witness at that act, "Antonio de Medeiros Brandão", is very likely their son (Maria Jacintha's brother). Extends the Muniz Bittencourt maternal line one further generation into Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores).
+0 @F0042@ FAM
+1 HUSB @P0086@
+1 WIFE @P0087@
+1 CHIL @P0047@
+1 MARR
+2 SOUR @PAR0024@
+3 QUAY 3
+1 SOUR @PAR0024@
+1 NOTE Parents of Francisca Roza do Espírito Santo (P-0047), established by her 1842 Mãe de Deus marriage (PAR-0024, folio 32r). This supersedes the earlier "parents unknown / Manoel de Mello × Anna de Souza [LEAD]" position on P-0047, now proven from the legible 1842 act. Native to Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores).
 0 @REPO0001@ REPO
 1 NAME FamilySearch Memories
 0 @REPO0002@ REPO
@@ -2956,13 +3036,13 @@
 1 NOTE Archival reference: FamilySearch ARK 3:1:939N-GW99-VX, section M5FX-MNT, folio 252 (image 238/260). Retrieved 2026-08-05 by the external retrieval agent.
 1 OBJE @OBJPAR0023@
 0 @PAR0024@ SOUR
-1 TITL Parish marriage of Manoel Muniz Byttancourt and Francisca Roza do Espírito Santo (1 February 1845, Nossa Senhora Mãe de Deus, Povoação, São Miguel)
-1 TEXT Marriage on 1 February 1845 at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of Manoel Muniz Byttancourt (P-0042) and Francisca Roza do Espírito Santo (P-0047). The marriage date is exactly nine months before their son João's birth on 24 October 1845 (PAR-0022), consistent with timing. Re-read 2026-08-07 from enhanced image crops: the groom's father tentatively reads as "António [surname illegible]"; the bride's father tentatively reads as "Manuel Joaquim [surname illegible]" — revising the earlier hypothesis of "J" initial / "José Pacheco" for the bride's father. A witness signature reads "M.to António José [Pacheco?]". Parent surnames remain unconfirmed; the BPARPD watermark obscures the body text. The act is fully contained in folio 73r; folio 73v is a second unrelated marriage of the same date.
+1 TITL Parish marriage of Manoel Muniz Bitancourt and Francisca Roza do Espírito Santo (17 February 1842, Nossa Senhora Mãe de Deus, Povoação, São Miguel)
+1 TEXT Marriage on 17 February 1842 at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of Manoel Muniz Bitancourt (P-0042) and Francisca Roza do Espírito Santo (P-0047), dispensed from an impediment of the fourth degree of consanguinity. The act legibly names both parent couples: the groom is son of João Muniz Bitancourt (P-0048) and Maria Eugenia [= Jacintha] de Medeiros (P-0049) — a second primary confirmation of family F-0023 — and the bride is daughter of Manoel de Motta [var. Mello] mancebo (P-0086) and Anna de Souza (P-0087), family F-0042. Witnesses José Jacintho Botelho and Estevão Manoel; officiant Cura José Antonio Barbosa under Vigário Julião Francisco Tavares. CORRECTION: this supersedes the earlier binding of PAR-0024 to folio 73r (a late-1845 marriage of a different "Manoel × Roza de Jesus" couple, groom's father "António"), which was a namesake mis-identification; the true act of this couple is folio 32r (1842).
 1 REPO @REPO0020@
-2 CALN SMG-PV-MAEDEDEUS-C-1841-1854 (Livro de casamentos, N.S. Mãe de Deus, Povoação, 1841–1854), browsed via Culturacores CDN 2026-08-05, livro Livro de casamentos SMG-PV-MAEDEDEUS-C-1841-1854 — folio 73r, scan image 74 (two-page spread 72v + 73r)
+2 CALN SMG-PV-MAEDEDEUS-C-1841-1854 (Livro de casamentos, N.S. Mãe de Deus, Povoação, 1841–1854), Culturacores CDN, livro Livro de casamentos SMG-PV-MAEDEDEUS-C-1841-1854 — folio 32 recto (viewer page 33)
 1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
-1 NOTE Transcription: [Casamento — Livro SMG-PV-MAEDEDEUS-C-1841-1854, N.S. Mãe de Deus, Povoação; folio 73r (scan image 74, right page). Re-read 2026-08-07 from enhanced crops of the evidence scan. The BPARPD watermark overlays the centre of the page and partially obscures the body text; parent surnames remain uncertain.] [Cabeçalho de margem: "M.el" (Manoel) | "Roza" | "de Jezus" (ou "Jesus") — índices marginais do acto.] "Como primeiro dia de Fevereiro de mil oitocentos quarenta e cinco" [1845-02-01] [procedural text: solenidade, proclamas, ausência de impedimentos, na Paróquia de N.S. Mãe de Deus desta Freguesia de Povoação]... [Partes:] "Manuel [Muniz? / Ferreira?] filho de António [uncertain surname] e de [Antónia?] de Jesus"; e "[Francisca] Rosa [do Espírito Santo?] filha de Manuel Joaquim [uncertain surname] [e de (mother name illegible)]". [Nota: o nome do pai do noivo começa por "António" — leitura tentativa do corpo do acto; o apelido permanece ilegível devido à resolução da digitalização e à sobreposição da marca de água BPARPD. O nome do pai da noiva lê-se tentativamemente como "Manuel Joaquim [?]", contrariando a hipótese de trabalho "José Pacheco" que constava da versão anterior desta transcrição.] [Assinaturas:] "O [Cura?] José António [Brandão? / Botton?]" [rubrica] / "O Cura José [P.] [Lopes?] [Simão? / Silvano?]" [rubrica — provavelmente o pároco celebrante] / "M.to António José [Pacheco?]" [testemunha] / "[J.s?] [?] [?] Sant'António" [quarta assinatura — ilegível] [Anotação de margem posterior:] "25 de Janeiro de 1866" [data de uma certificação ou publicação posterior, não genealógica] [Nota: página p2 (folio 73v, scan image 75) é um acto diferente do mesmo dia 1 de Fevereiro de 1845 para um outro casal — NÃO é continuação deste acto, que está contido integralmente no folio 73r.]
-1 NOTE Archival reference: Culturacores SMG-PV-MAEDEDEUS-C-1841-1854, folio 73r (scan image 74). Retrieved 2026-08-05 by the external retrieval agent.
+1 NOTE Transcription: [Casamento — Livro SMG-PV-MAEDEDEUS-C-1841-1854, N.S. Mãe de Deus, Povoação; folio 32 recto (viewer p33). Read from the register image 2026-08-11.] "Em os de[z] e sette dias do mez de Fevereiro de mil oito centos quarenta e dois, nesta Parochial Igreja de Nossa Senhora Mãe de Deus da Villa da Povoação, depois de feitas as tres denunciações canonicas nesta dita Parochial e na Ermida de Santa Barbara, filial da mesma, sem se descobrir impedimento algum além do quarto grão de consanguinidade em que forão dispensados [por Dispensa Apostolica], por mandado do Muito Reverendo Ouvidor deste Districto José Tavares de Medeiros, em presença do Vigario proprio della e das testemunhas José Jacintho Botelho e Estevão Manoel e de outras muitas pessoas que presentes estavão, se receberão solenemente por palavras de presente in facie Ecclesiae Manoel [Munis] Bitancourt, filho do dito João Munis Bitancourt e de Maria Euginia [Eugenia] de Medeiros, e Francisca Roza do Espirito Santo, filha de Manoel de Motta mancebo e de Anna de Souza, ambos naturaes e freguezes desta [Parochial onde forão baptizados] ... O Cura José Antonio Barbosa. [O Vigario] Julião Francisco [Tavares]. José Jacintho Botelho. Estevão [+] Manoel."
+1 NOTE Archival reference: Culturacores SMG-PV-MAEDEDEUS-C-1841-1854, folio 32r (viewer page 33). Read directly from the register image; reconciled with BPARPD Ponta Delgada reply SE/2026/1583e (proc. 16.04.01/2026/221), which independently transcribes the same act.
 1 OBJE @OBJPAR0024@
 0 @PAR0025@ SOUR
 1 TITL Parish baptism of Maria, daughter of Amaro da Silva Xavier and Ignez Francisca de Lima, naming all four grandparents (23 August 1777, Minas do Piracatu / Manga parish)
@@ -3079,6 +3159,15 @@
 1 NOTE Archival reference: São Martinho de Ruivais marriages. Delivered through the research/from-retrieval/ sync as image rec-toledo-joaorodrigues-marriage-barbacena-fstree.jpg (the "barbacena" token in the filename is a retrieval-agent mislabel; the register is Ruivais, Braga, Portugal); read and promoted 2026-08-10. Specific FamilySearch ARK to be confirmed.
 1 NOTE Repository file: evidence/parish/PAR-0036-joao-rodrigues-joanna-goncalves-marriage-1716-ruivais.jpg
 1 OBJE @OBJPAR0036@
+0 @PAR0037@ SOUR
+1 TITL Parish marriage of João Francisco Muniz Bitancourt and Maria Jacintha de Medeiros (7 October 1819, Nossa Senhora Mãe de Deus, Povoação, São Miguel)
+1 TEXT Marriage on 7 October 1819 (the scribe first wrote "Setembro", then corrected to "Outubro") at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of João Francisco Muniz Bitancourt (P-0048) and Maria Jacintha de Medeiros (P-0049) — the grandparents of the emigrant João Muniz Bittencourt (P-0019). The act names the groom as son of Manoel Muniz Bitancourt (P-0082) and Tereza do Amaral (P-0083, already deceased), family F-0040, and the bride as daughter of João de Medeiros Brandão (P-0084) and Maria Eugenia (P-0085), family F-0041 — extending the Muniz Bittencourt line one further Azorean generation. Officiant Vigário José Duarte de Medeiros; witnesses João Rodrigues Alves Carneiro and Antonio de Medeiros Brandão.
+1 REPO @REPO0020@
+2 CALN SMG-PV-MAEDEDEUS-C-1801-1822 (Livro de casamentos, N.S. Mãe de Deus, Povoação, 1801–1822), Culturacores CDN, livro Livro de casamentos SMG-PV-MAEDEDEUS-C-1801-1822 — folio 161 verso (viewer page 163)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Casamento — Livro SMG-PV-MAEDEDEUS-C-1801-1822, N.S. Mãe de Deus, Povoação; folio 161v (viewer p163). Read from the register image 2026-08-11. Margin: "João Muniz | M.a Jacinta".] "Aos sette de Setembro digo aos sette de Outubro de mil oito centos e dezanove annos, de manhã, nesta Parochial Igreja de Nossa Senhora Mãe de Deus do Lugar da Povoação, precedidas as denunciações do estilo, sem impedimento, como consta do Mandado do Reverendo Ouvidor deste Districto Manoel Joaquim Machado, perante mim José Duarte de Medeiros, Vigario proprio desta dita Igreja, em presença das testemunhas abaixo assignadas João Rodrigues Alves [Carneiro] e Antonio de Medeiros Brandão e de muitas mais pessoas que presentes estavão, se ligarão o sacramento do Matrimonio em face da Igreja por palavras de presente na forma do Sagrado Concilio Tridentino, João Francisco Muniz Bitancourt, filho de Manoel Muniz Bitancourt e de Tereza do Amaral já defunta, e Maria Jacintha de Medeiros, filha de João de Medeiros Brandão e de Maria Eugenia, ambos naturaes e freguezes desta dita Igreja aonde forão baptizados ... e logo receberão as bençãos. [Assinado] O Vigario José Duarte de Medeiros. João Rodrigues Alves Carneiro. De Antonio de Medeiros Brandão."
+1 NOTE Archival reference: Culturacores SMG-PV-MAEDEDEUS-C-1801-1822, folio 161v (viewer page 163). Read directly from the register image; reconciled with BPARPD Ponta Delgada reply SE/2026/1583e (proc. 16.04.01/2026/221), which independently transcribes the same act.
+1 OBJE @OBJPAR0037@
 0 @PRB0001@ SOUR
 1 TITL 1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza Balbina de Toledo (wife of Simplício José Ferreira Armond)
 1 TEXT A page from an 1881 Leopoldina probate/partilha listing the heirs of an estate on Eliza Balbina de Toledo's side. It names Eliza Balbina de Toledo as the wife of Simplício José Ferreira Armond and lists her Toledo siblings with ages: Maria Bulandina de Toledo (m. Manoel Marques Jorge), Ladisláo Egydio Ferreira de Toledo (~23, b. ~1858), Geraldo Augusto de Toledo Lima (~15, b. ~1866, then living in Rio de Janeiro), and Josepha Olympia da Paixão (~12, b. ~1869), plus a predeceased Carolina Leopoldina Marques inheriting by representation. The companion 1884 petition (PRB-0002) names the decedent as D. Mathilde Maria de Jezus.
@@ -3433,10 +3522,10 @@
 2 TITL Parish marriage of Ladisláo Egídio Ferreira de Toledo and Mathilde Maria de Jesus (8 May 1810, São João del Rei matriz), naming both parents' sets
 1 NOTE sha256: d474f3d9ad457a05b8b8a3a54081815ccd478d574bad52b93e81352d609d5f0f
 0 @OBJPAR0024@ OBJE
-1 FILE evidence/parish/PAR-0024-manoel-muniz-francisca-roza-marriage-1845-saomiguel-p1.jpg
+1 FILE evidence/parish/PAR-0024-manoel-muniz-francisca-roza-marriage-1842-saomiguel.jpg
 2 FORM image/jpeg
-2 TITL Parish marriage of Manoel Muniz Byttancourt and Francisca Roza do Espírito Santo (1 February 1845, Nossa Senhora Mãe de Deus, Povoação, São Miguel)
-1 NOTE sha256: 262cb5fe2a5653be7af8ce8358bee89765128c253bbf949ce54388fc4d24f308
+2 TITL Parish marriage of Manoel Muniz Bitancourt and Francisca Roza do Espírito Santo (17 February 1842, Nossa Senhora Mãe de Deus, Povoação, São Miguel)
+1 NOTE sha256: 2fa8e3ddf24cb7333a63c9d14872721c35697be7d5a071748ec58c58eb73e9bd
 0 @OBJPAR0025@ OBJE
 1 FILE evidence/parish/PAR-0025-maria-amaro-silva-xavier-baptism-1777-piracatu.jpg
 2 FORM image/jpeg
@@ -3497,6 +3586,11 @@
 2 FORM image/jpeg
 2 TITL Marriage register entry of João Rodrigues and Joanna Gonçalves, 13 May 1716, Freguesia de São Martinho de Ruivais (Arcebispado de Braga, Portugal), naming both spouses' parents
 1 NOTE sha256: e983f6f5abce9ff14d376234daff76618fb7d75b6a47a07a0f96783be0a053ed
+0 @OBJPAR0037@ OBJE
+1 FILE evidence/parish/PAR-0037-joao-francisco-muniz-maria-jacintha-marriage-1819-saomiguel.jpg
+2 FORM image/jpeg
+2 TITL Parish marriage of João Francisco Muniz Bitancourt and Maria Jacintha de Medeiros (7 October 1819, Nossa Senhora Mãe de Deus, Povoação, São Miguel)
+1 NOTE sha256: 689d3d45e3e9c87216ac1805b2fce8f76b04aedeec8d72ee8f6f71421e03f309
 0 @OBJPRB0001@ OBJE
 1 FILE evidence/probate/PRB-0001-probate-toledo-heir-list-leopoldina-1881-original.jpg
 2 FORM image/jpeg

@@ -12,11 +12,13 @@ partner_relationship:
   - PAR-0015
   notes:
   - text: >-
-      The marriage is now confirmed by the 1845 Mãe de Deus marriage record
-      (PAR-0024, event E-0053): Manoel Muniz Byttancourt married Francisca Roza do
-      Espírito Santo on 1 February 1845 at N.S. Mãe de Deus, Povoação, São Miguel.
-      Corroborated by Manoel's 1866 Povoação death (PAR-0015), which names her as
-      his wife and states the couple had "oito filhos."
+      The marriage is confirmed by the Mãe de Deus marriage record (PAR-0024, folio
+      32r, event E-0053): Manoel Muniz Bitancourt married Francisca Roza do Espírito
+      Santo on 17 February 1842 at N.S. Mãe de Deus, Povoação, São Miguel, dispensed
+      from a 4th-degree consanguinity impediment. Corroborated by Manoel's 1866
+      Povoação death (PAR-0015), which names her as his wife and states the couple had
+      "oito filhos." (Corrected 11 August 2026 from a mis-identified 1845 folio-73r
+      image — a different couple; see PAR-0024.)
 children:
 - person_id: P-0019
   parent_relationships:
@@ -48,8 +50,8 @@ notes:
 - text: >-
     João Muniz Bittencourt (P-0019) is the child of Manoel Muniz Bytancourt (P-0042)
     and Francisca Roza do Espirito Santo (P-0047), of Nossa Senhora Mãe de Deus,
-    Povoação, Ilha de São Miguel (Açores, Portugal). The couple married on 1 February
-    1845 (PAR-0024, E-0053) — exactly 9 months before João's birth on 24 October 1845
+    Povoação, Ilha de São Miguel (Açores, Portugal). The couple married on 17 February
+    1842 (PAR-0024, folio 32r, E-0053); their son João was born 24 October 1845
     (PAR-0022). Manoel's 1866 óbito (PAR-0015) records that they left "oito filhos";
     João's own 1915 óbito (PAR-0007) corroborates his paternity. The couple's other
     seven children are not evidenced by the located records, so only João is modelled here.

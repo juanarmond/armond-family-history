@@ -1,0 +1,61 @@
+schema_version: 1
+id: P-0082
+preferred_name: Manoel Muniz Bitancourt
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: Manoel Muniz Bitancourt
+  type: source
+  source_ids:
+  - PAR-0037
+event_ids: []
+family_ids:
+- F-0040
+notes:
+- text: >-
+    Father of João Francisco Muniz Bitancourt (P-0048); hence the paternal
+    great-grandfather of the emigrant João Muniz Bittencourt (P-0019). Named in his
+    son's 7 October 1819 Mãe de Deus marriage (PAR-0037) as "Manoel Muniz
+    Bitancourt", husband of Tereza do Amaral (P-0083). "Manoel Muniz Bitancourt the
+    elder", distinct from his grandson Manoel Muniz Bytancourt (P-0042). His own
+    baptism, marriage and death records are not located; the family is native to
+    Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores).
+  text_pt: >-
+    Pai de João Francisco Muniz Bitancourt (P-0048); portanto, o trisavô paterno do
+    emigrante João Muniz Bittencourt (P-0019). Nomeado no casamento de seu filho em
+    7 de outubro de 1819, em Mãe de Deus (PAR-0037), como "Manoel Muniz Bitancourt",
+    marido de Tereza do Amaral (P-0083). "Manoel Muniz Bitancourt, o velho",
+    distinto de seu neto Manoel Muniz Bytancourt (P-0042). Seus próprios registros
+    de batismo, casamento e óbito não foram localizados; a família é natural de
+    Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores).
+profile: >-
+  ## Identity
+
+  **Manoel Muniz Bitancourt** ("the elder") [PROVEN as named] — father of João Francisco
+  Muniz Bitancourt (P-0048) and husband of Tereza do Amaral (P-0083), family F-0040.
+
+  - **Attestation:** named only in his son's 1819 Mãe de Deus marriage (PAR-0037). His own
+  vital records are not located. [OPEN]
+
+  - **Origin:** the family is native to Nossa Senhora Mãe de Deus, Povoação, Ilha de São
+  Miguel (Açores); Portuguese. [CONTEXTUAL]
+
+  ## Sources held (this repository)
+
+  - PAR-0037 (1819 marriage of his son João Francisco — names him as the groom's father).
+profile_pt: >-
+  ## Identidade
+
+  **Manoel Muniz Bitancourt** ("o velho") [PROVEN quanto ao nome] — pai de João Francisco
+  Muniz Bitancourt (P-0048) e marido de Tereza do Amaral (P-0083), família F-0040.
+
+  - **Atestação:** nomeado apenas no casamento de 1819 de seu filho em Mãe de Deus
+  (PAR-0037). Seus próprios registros não foram localizados. [OPEN]
+
+  - **Origem:** a família é natural de Nossa Senhora Mãe de Deus, Povoação, Ilha de São
+  Miguel (Açores); portuguesa. [CONTEXTUAL]
+
+  ## Fontes disponíveis (neste repositório)
+
+  - PAR-0037 (casamento de 1819 de seu filho João Francisco — o nomeia como pai do noivo).

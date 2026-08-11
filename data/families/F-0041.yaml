@@ -1,0 +1,48 @@
+schema_version: 1
+id: F-0041
+partners:
+- person_id: P-0084
+  role: spouse
+- person_id: P-0085
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PAR-0037
+  notes:
+  - text: >-
+      João de Medeiros Brandão (P-0084) and Maria Eugenia (P-0085) are named
+      together as the parents of their daughter Maria Jacintha de Medeiros (P-0049)
+      in her 1819 Mãe de Deus marriage (PAR-0037), which attests the couple; their
+      own marriage record is not located.
+children:
+- person_id: P-0049
+  parent_relationships:
+  - parent_id: P-0084
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0037
+    notes: []
+  - parent_id: P-0085
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0037
+    notes: []
+  notes: []
+documented_children: []
+event_ids: []
+notes:
+- text: >-
+    Parents of Maria Jacintha de Medeiros (P-0049), established by her 1819 Mãe de
+    Deus marriage (PAR-0037). A witness at that act, "Antonio de Medeiros Brandão",
+    is very likely their son (Maria Jacintha's brother). Extends the Muniz
+    Bittencourt maternal line one further generation into Nossa Senhora Mãe de Deus,
+    Povoação, Ilha de São Miguel (Açores).
+  text_pt: >-
+    Pais de Maria Jacintha de Medeiros (P-0049), estabelecidos por seu casamento de
+    1819 em Mãe de Deus (PAR-0037). Uma testemunha nesse ato, "Antonio de Medeiros
+    Brandão", é muito provavelmente seu filho (irmão de Maria Jacintha). Estende a
+    linha materna Muniz Bittencourt mais uma geração, para Nossa Senhora Mãe de
+    Deus, Povoação, Ilha de São Miguel (Açores).
