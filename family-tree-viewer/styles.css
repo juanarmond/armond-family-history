@@ -1025,26 +1025,25 @@ button.source-link { cursor: pointer; }
 .portrait-more-btn::after { content: " \203A"; text-decoration: none; }
 .portrait-more-btn:hover { color: var(--ink); }
 
-/* Portrait layer — right-side slide-over drawer */
-.portrait-overlay {
-  position: fixed; inset: 0; z-index: 1001;
-  display: flex; justify-content: flex-end;
-  background: rgba(26, 21, 12, .5);
-}
-.portrait-drawer {
+/* Portrait layer — docks as its own panel at the right edge, pushing the details
+   panel left so both stay visible side by side (no modal overlay). */
+.detail-panel.with-portrait { right: min(30rem, 50vw); }
+.portrait-panel {
+  position: fixed; top: 0; right: 0; z-index: 21;
   display: flex; flex-direction: column;
-  width: min(640px, 100%); height: 100%;
-  background: var(--card); border-left: 1px solid var(--rule-strong);
-  box-shadow: var(--shadow-md); overflow: hidden;
-  animation: portrait-slide-in .18s ease-out;
+  width: min(30rem, 50vw); height: 100%;
+  overflow: hidden;
+  background: linear-gradient(180deg, var(--card), var(--card-2));
+  border-left: 1px solid var(--gold);
+  box-shadow: var(--shadow-lg);
+  animation: panel-in .3s cubic-bezier(.2, .7, .2, 1);
 }
-@keyframes portrait-slide-in { from { transform: translateX(28px); opacity: .5; } to { transform: none; opacity: 1; } }
-.portrait-drawer-header {
+.portrait-panel-header {
   display: flex; align-items: center; justify-content: space-between; gap: 1rem;
-  padding: .7rem 1.1rem; border-bottom: 1px solid var(--rule); background: var(--paper);
+  padding: .9rem 1.3rem; border-bottom: 1px solid var(--rule); background: var(--paper);
 }
-.portrait-drawer-heading { font-family: var(--serif); font-size: 1rem; color: var(--ink); }
-.portrait-drawer-body { padding: 1.1rem 1.3rem; overflow-y: auto; }
+.portrait-panel-heading { font-family: var(--serif); font-size: 1rem; color: var(--ink); }
+.portrait-panel-body { padding: 1.2rem 1.4rem; overflow-y: auto; }
 .reader-hint {
   padding: .45rem 1rem;
   border-top: 1px solid var(--rule);

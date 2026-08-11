@@ -769,12 +769,14 @@ function closeReader() {
   }
 }
 
-// The "Portrait / Retrato" layer: a right-side slide-over drawer opened from the
-// "More details" link under the biography, holding the full evidence-tiered profile.
+// The "Portrait / Retrato" layer: opened from the "More details" link inside the
+// biography. It docks as its OWN panel at the right edge and pushes the details panel
+// left, so both stay visible side by side (no modal overlay / no dimming).
 let portraitKeyHandler = null;
 function closePortrait() {
-  const overlay = document.querySelector(".portrait-overlay");
-  if (overlay) overlay.remove();
+  const panel = document.querySelector(".portrait-panel");
+  if (panel) panel.remove();
+  if (elements.detailsPanel) elements.detailsPanel.classList.remove("with-portrait");
   if (portraitKeyHandler) {
     document.removeEventListener("keydown", portraitKeyHandler);
     portraitKeyHandler = null;
@@ -784,19 +786,14 @@ function openPortrait(person) {
   closePortrait();
   const text = localeText(person.profile, person.profilePt);
   if (!text) return;
-  const overlay = document.createElement("div");
-  overlay.className = "portrait-overlay";
-  overlay.addEventListener("mousedown", (event) => {
-    if (event.target === overlay) closePortrait();
-  });
 
-  const drawer = document.createElement("div");
-  drawer.className = "portrait-drawer";
+  const panel = document.createElement("aside");
+  panel.className = "portrait-panel";
 
   const header = document.createElement("div");
-  header.className = "portrait-drawer-header";
+  header.className = "portrait-panel-header";
   const heading = document.createElement("div");
-  heading.className = "portrait-drawer-heading";
+  heading.className = "portrait-panel-heading";
   heading.textContent = `${t("detail.portrait")} — ${person.name}`;
   const closeBtn = document.createElement("button");
   closeBtn.type = "button";
@@ -807,12 +804,12 @@ function openPortrait(person) {
   header.append(heading, closeBtn);
 
   const body = document.createElement("div");
-  body.className = "portrait portrait-drawer-body";
+  body.className = "portrait portrait-panel-body";
   renderPortrait(body, text);
 
-  drawer.append(header, body);
-  overlay.append(drawer);
-  document.body.appendChild(overlay);
+  panel.append(header, body);
+  document.body.appendChild(panel);
+  if (elements.detailsPanel) elements.detailsPanel.classList.add("with-portrait");
 
   portraitKeyHandler = (event) => {
     if (event.key === "Escape") closePortrait();
@@ -1238,10 +1235,9 @@ function openDetails(personId) {
   }
 
   const bio = biographyParagraph(person);
-  if (bio) elements.detailsContent.append(section(t("detail.biography"), bio));
-
+  let moreWrap = null;
   if (localeText(person.profile, person.profilePt)) {
-    const moreWrap = document.createElement("div");
+    moreWrap = document.createElement("div");
     moreWrap.className = "portrait-more";
     const moreBtn = document.createElement("button");
     moreBtn.type = "button";
@@ -1249,7 +1245,15 @@ function openDetails(personId) {
     moreBtn.textContent = t("detail.moreDetails");
     moreBtn.addEventListener("click", () => openPortrait(person));
     moreWrap.appendChild(moreBtn);
-    elements.detailsContent.append(moreWrap);
+  }
+  if (bio) {
+    // The "More details" link lives INSIDE the Biography section (above its rule).
+    const bioWrap = document.createElement("div");
+    bioWrap.append(bio);
+    if (moreWrap) bioWrap.append(moreWrap);
+    elements.detailsContent.append(section(t("detail.biography"), bioWrap));
+  } else if (moreWrap) {
+    elements.detailsContent.append(section(t("detail.biography"), moreWrap));
   }
 
   const relationship = relationshipContent(person);
