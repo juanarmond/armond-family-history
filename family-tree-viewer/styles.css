@@ -1002,6 +1002,19 @@ button.source-link { cursor: pointer; }
   white-space: pre-wrap;
 }
 .txn-gap { color: var(--muted); font-style: italic; background: rgba(169, 132, 63, .12); border-radius: 3px; padding: 0 .15em; }
+
+/* Portrait / Retrato — evidence-tiered narrative */
+.portrait { font-family: var(--serif); font-size: .94rem; line-height: 1.6; color: var(--ink); }
+.portrait .portrait-h { font-family: var(--sans, inherit); font-size: .8rem; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin: 1rem 0 .35rem; }
+.portrait h4.portrait-h { font-size: .86rem; color: var(--ink); }
+.portrait .portrait-p { margin: 0 0 .6rem; }
+.portrait .portrait-list { margin: 0 0 .6rem; padding-left: 1.1rem; }
+.portrait .portrait-list li { margin: 0 0 .3rem; }
+.portrait hr { border: 0; border-top: 1px solid var(--rule); margin: .9rem 0; }
+.portrait .tier { font-family: var(--mono, monospace); font-size: .72em; font-weight: 600; letter-spacing: .02em; border-radius: 3px; padding: 0 .28em; white-space: nowrap; }
+.portrait .tier-proven, .portrait .tier-documented { color: #1c6b3f; background: rgba(28, 107, 63, .12); }
+.portrait .tier-inferred, .portrait .tier-strong { color: #8a5a12; background: rgba(169, 132, 63, .15); }
+.portrait .tier-lead, .portrait .tier-open, .portrait .tier-contextual { color: #8a3b2e; background: rgba(138, 59, 46, .12); }
 .reader-hint {
   padding: .45rem 1rem;
   border-top: 1px solid var(--rule);

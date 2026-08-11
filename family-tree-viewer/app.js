@@ -790,6 +790,62 @@ function renderTranscript(container, text) {
   if (last < text.length) container.appendChild(document.createTextNode(text.slice(last)));
 }
 
+// Render an evidence-tiered "Portrait" narrative as light markdown: `## `/`### `
+// headings, `- ` bullet lists, blank-line paragraphs, `**bold**`, `---` rules, and
+// [PROVEN]/[INFERRED]/[LEAD]/[CONTEXTUAL]/[DOCUMENTED]/[OPEN]/[STRONG] evidence tags
+// styled as chips. Built from DOM nodes (no innerHTML).
+function renderPortrait(container, text) {
+  container.textContent = "";
+  const inline = (parent, s) => {
+    const re = /\*\*(.+?)\*\*|\[(PROVEN|INFERRED|LEAD|CONTEXTUAL|DOCUMENTED|OPEN|STRONG)\]/g;
+    let last = 0;
+    let m;
+    while ((m = re.exec(s)) !== null) {
+      if (m.index > last) parent.appendChild(document.createTextNode(s.slice(last, m.index)));
+      if (m[1] !== undefined) {
+        const b = document.createElement("strong");
+        b.textContent = m[1];
+        parent.appendChild(b);
+      } else {
+        const span = document.createElement("span");
+        span.className = "tier tier-" + m[2].toLowerCase();
+        span.textContent = m[0];
+        parent.appendChild(span);
+      }
+      last = m.index + m[0].length;
+    }
+    if (last < s.length) parent.appendChild(document.createTextNode(s.slice(last)));
+  };
+  let para = null;
+  let ul = null;
+  for (const raw of text.split("\n")) {
+    const line = raw.replace(/\s+$/, "");
+    if (!line.trim()) { para = null; ul = null; continue; }
+    const mh = line.match(/^(#{2,4})\s+(.*)$/);
+    if (mh) {
+      para = null; ul = null;
+      const h = document.createElement(mh[1].length <= 2 ? "h4" : "h5");
+      h.className = "portrait-h";
+      inline(h, mh[2]);
+      container.appendChild(h);
+      continue;
+    }
+    if (/^-{3,}$/.test(line.trim())) { para = null; ul = null; container.appendChild(document.createElement("hr")); continue; }
+    if (/^\s*[-*]\s+/.test(line)) {
+      para = null;
+      if (!ul) { ul = document.createElement("ul"); ul.className = "portrait-list"; container.appendChild(ul); }
+      const li = document.createElement("li");
+      inline(li, line.replace(/^\s*[-*]\s+/, ""));
+      ul.appendChild(li);
+      continue;
+    }
+    ul = null;
+    if (!para) { para = document.createElement("p"); para.className = "portrait-p"; container.appendChild(para); }
+    else para.appendChild(document.createElement("br"));
+    inline(para, line.trim());
+  }
+}
+
 // A dependency-free pan/zoom pane: wheel OR two-finger pinch to zoom, one-finger
 // drag to pan, double-tap/click resets. Pointer events cover mouse and touch.
 function imagePane(src) {
@@ -1131,6 +1187,14 @@ function openDetails(personId) {
 
   const bio = biographyParagraph(person);
   if (bio) elements.detailsContent.append(section(t("detail.biography"), bio));
+
+  const portraitText = localeText(person.profile, person.profilePt);
+  if (portraitText) {
+    const portrait = document.createElement("div");
+    portrait.className = "portrait";
+    renderPortrait(portrait, portraitText);
+    elements.detailsContent.append(section(t("detail.portrait"), portrait));
+  }
 
   const relationship = relationshipContent(person);
   if (relationship) {

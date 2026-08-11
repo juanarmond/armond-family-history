@@ -644,6 +644,12 @@ export function projectTreeData({ people, families, events, places, sources, fan
           sourceIds: (occupation.source_ids || []).filter((id) => typeof id === "string"),
         })),
       notes,
+      profile: living || typeof person.profile !== "string" || !person.profile.trim()
+        ? null
+        : person.profile.trim(),
+      profilePt: living || typeof person.profile_pt !== "string" || !person.profile_pt.trim()
+        ? null
+        : person.profile_pt.trim(),
       siblings: living ? [] : (siblingsByPerson[personId] || []),
       children: living ? [] : (childrenByPerson[personId] || []),
       fanReferences: living

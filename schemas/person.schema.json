@@ -141,6 +141,14 @@
     },
     "notes": {
       "$ref": "common.schema.json#/$defs/notes"
+    },
+    "profile": {
+      "type": "string",
+      "minLength": 1
+    },
+    "profile_pt": {
+      "type": "string",
+      "minLength": 1
     }
   }
 }

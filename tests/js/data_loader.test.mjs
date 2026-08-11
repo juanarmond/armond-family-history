@@ -16,6 +16,8 @@ function fixtures() {
       nationality: "Brazilian",
       name_variants: [{ value: "Ann Alpha" }, { value: "Anna Alpha" }],
       occupations: [{ value: "lavrador", source_ids: ["S-1"], note: "test note" }],
+      profile: "## Identity\nAnn's English portrait.",
+      profile_pt: "## Identidade\nRetrato de Ann em português.",
       notes: [
         {
           text: "Possible conflict with the civil record.",
@@ -38,6 +40,7 @@ function fixtures() {
       nationality: "Brazilian",
       name_variants: [{ value: "A Real Living Name" }],
       occupations: [{ value: "secret job", source_ids: ["S-1"] }],
+      profile: "Secret living portrait.",
       notes: [{ text: "Sensitive living-person note." }],
     },
     "P-4": { id: "P-4", preferred_name: "Cara Gamma", privacy: "deceased" },
@@ -339,6 +342,18 @@ test("research notes project as bilingual { en, pt } pairs", () => {
     },
     { en: "A note with no translation.", pt: null },
   ]);
+});
+
+test("the per-person profile (Portrait) projects with its Portuguese variant, gated for the living", () => {
+  const data = projectTreeData(fixtures());
+  assert.equal(data.people["P-1"].profile, "## Identity\nAnn's English portrait.");
+  assert.equal(data.people["P-1"].profilePt, "## Identidade\nRetrato de Ann em português.");
+  // A deceased person without a profile projects null (not undefined).
+  assert.equal(data.people["P-2"].profile, null);
+  assert.equal(data.people["P-2"].profilePt, null);
+  // Living people are minimised — no profile leaks even if the source file has one.
+  assert.equal(data.people["P-3"].profile, null);
+  assert.equal(data.people["P-3"].profilePt, null);
 });
 
 test("source view carries a file type for image vs pdf", () => {

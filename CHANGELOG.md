@@ -5,6 +5,13 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — per-person "Portrait / Retrato" viewer section (pilot: Simplício, 2026-08-11)
+
+- New optional bilingual person fields `profile` (EN) + `profile_pt` (PT) in the person schema — an evidence-tiered narrative portrait (`[PROVEN]`/`[INFERRED]`/`[LEAD]`/`[OPEN]`/`[CONTEXTUAL]`), synthesised from held sources and cited to this repo's IDs.
+- Viewer: a "Portrait / Retrato" section (rendered after the biography) with a light markdown renderer (headings, bullets, bold, `---`, and styled evidence-tier chips); locale-aware via the PT/EN toggle, gated for living people, with English fallback.
+- Pilot content: **P-0016 Simplício José Ferreira Armond** fully written in EN + PT (reconciled with the repo: delegado = NWS-0003, heir list = PRB-0001, the two-Simplícios distinction, "[Philos?]" second marriage as a LEAD, etc.). One profile so far, to review the format before extending to the ~130 retrieval-agent profiles.
+- data-loader projects `profile`/`profilePt`; JS test covers projection + living-person gating. 291 entities; 69 tests + 24 JS tests pass.
+
 ### Changed — occupation audit: capture documented professions across the tree (2026-08-10)
 
 - Audited every source's transcription against its linked people (three read-only agents over disjoint person-sets) and filled in occupations that a document states but that were not yet captured:
