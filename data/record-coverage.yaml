@@ -1273,10 +1273,16 @@ people:
         from context (inventory opened 4 March 1867, Simplício aged 14 in 1867).
   notes:
   - text: >-
-      Direct ancestor of P-0001 (Simplício's confirmed father, per PRB-0008 and
-      PRB-0009, both 1867). Ahnentafel positions 128 (P-0001 → P-0004 → P-0016
-      → P-0054). José Cesário de Toledo Lima (P-0054) × Claudina Brandina de
-      Jesus (P-0055), family F-0026.
+      Direct ancestor of P-0001 through his daughter Eliza Balbina de Toledo (P-0017):
+      JC → Eliza (P-0017) → Aristão Ferreira Armond (P-0008) → Geraldo Paz Armond
+      (P-0004). SUPERSEDED (relationship corrected 11 Aug 2026): an earlier note made
+      Simplício José Ferreira Armond (P-0016) JC's son and put him on the direct line
+      (path "P-0001 → P-0004 → P-0016 → P-0054") — a two-Simplícios conflation. JC's own
+      son "Simplício José Ferreira de Toledo" (14 in 1867, item 6 of PRB-0008/PRB-0009)
+      is a distinct person who died before 1879; Simplício Armond (P-0016) is JC's
+      son-in-law (⚭ Eliza), parents unidentified. See F-0026, P-0016, P-0054. José
+      Cesário de Toledo Lima (P-0054) × Claudina Brandina de Jesus (P-0055), family
+      F-0026.
 - person_id: P-0055
   external_profiles: []
   records:
@@ -1295,7 +1301,9 @@ people:
         deceased before 1879 (PRB-0006). Death bounded to 7 March 1867 – ~1879.
   notes:
   - text: >-
-      Simplício's mother; direct ancestor of P-0001. Family F-0026. Full name
+      Eliza's mother (Eliza Balbina de Toledo, P-0017); direct ancestor of P-0001
+      through Eliza. Family F-0026. (Earlier note "Simplício's mother" superseded 11 Aug
+      2026 — Simplício Armond P-0016 is the son-in-law; see P-0054, P-0016.) Full name
       "Claudina Brandina de Jesus" is primary-confirmed by PRB-0008 and PRB-0009
       (both 1867). No birthplace or baptism record known.
 - person_id: P-0027
@@ -1330,10 +1338,12 @@ people:
         after" (based on PRB-0003) is superseded by this primary judicial record.
   notes:
   - text: >-
-      Mathilde Maria de Jesus (P-0027) is the paternal grandmother of Simplício
-      (P-0016) through JC (P-0054), and the maternal grandmother of Eliza (P-0017)
-      through JC (P-0054) — CONFIRMED by PRB-0006 Film 2 triage (7 Aug 2026); Eliza
-      appears as representante #5 under heir #4. Her parents are CONFIRMED (PAR-0023,
+      Mathilde Maria de Jesus (P-0027), JC's mother (family F-0027), is therefore the
+      paternal grandmother of Eliza Balbina de Toledo (P-0017) through JC (P-0054) —
+      CONFIRMED by PRB-0006 Film 2 triage (7 Aug 2026); Eliza appears as representante
+      #5 under heir #4. (Earlier note also called her Simplício P-0016's grandmother;
+      superseded 11 Aug 2026 — Simplício Armond is JC's son-in-law, not his son.) Her
+      parents are CONFIRMED (PAR-0023,
       1810 marriage): Alferes Amaro da Silva Xavier (P-0059) × Ignez Francisca de
       Lima (P-0060), family F-0029. Married Ladisláo Egídio de Toledo (P-0056) 8 May
       1810.

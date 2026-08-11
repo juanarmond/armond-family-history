@@ -12,6 +12,13 @@ also remain traceable through source records and research logs.
 - **Rolled out to all 78 deceased modelled people** (P-0004–P-0081; the 3 living are gated out). Written by five parallel agents over disjoint P-ID ranges, each **reconciled to our own sources/IDs and evidence tiers** (our data wins over the retrieval-agent drafts; unsupported draft claims dropped or tagged `[LEAD]`), bilingual EN + PT. Depth scales to the evidence (full portraits for well-documented ancestors, short stubs for thinly-attested ones).
 - data-loader projects `profile`/`profilePt`; JS test covers projection + living-person gating. 291 entities; 69 tests + 24 JS tests pass.
 
+### Fixed — reconcile stale relationship notes to the settled lineage (2026-08-11)
+
+- Writing the portraits surfaced pre-existing notes that still carried superseded readings and now contradicted the structured data. Corrected, with the superseded reading preserved (not erased):
+  - **P-0054 / P-0055** notes (and their `record-coverage` entries) said Simplício José Ferreira Armond (P-0016) was JC × Claudina's son. Settled position (F-0026, P-0016, P-0017): **Eliza Balbina de Toledo (P-0017)** is their direct-line child; Simplício Armond is the son-in-law (parents unidentified); JC's own son "Simplício José Ferreira de Toledo" (14 in 1867) is a distinct person, a `documented_child` on F-0026. Removed the stale, internally-inconsistent Ahnentafel path `P-0001 → P-0004 → P-0016 → P-0054`; the line runs JC → Eliza (P-0017) → Aristão (P-0008) → Geraldo (P-0004).
+  - **P-0064 / P-0065** notes called themselves "paternal grandfather/grandmother of P-0059"; PAR-0025 + F-0031 + P-0059's own note make them the **parents** of Alferes Amaro da Silva Xavier (P-0059) and grandparents of the 1777-baptised Maria.
+  - **P-0027** `record-coverage` note: Mathilde is Eliza's paternal grandmother through JC (dropped the stale "grandmother of Simplício P-0016" clause).
+
 ### Changed — occupation audit: capture documented professions across the tree (2026-08-10)
 
 - Audited every source's transcription against its linked people (three read-only agents over disjoint person-sets) and filled in occupations that a document states but that were not yet captured:

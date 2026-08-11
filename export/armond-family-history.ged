@@ -948,7 +948,7 @@
 3 QUAY 3
 1 FAMS @F0026@
 1 FAMC @F0027@
-1 NOTE Father of Simplício José Ferreira Armond (P-0016); hence Aristão Ferreira Armond's (P-0008) maternal grandfather and Geraldo Paz Armond's maternal great-grandfather. CORRECTION (7 August 2026): Simplício (not Eliza) is JC's child — confirmed by PRB-0008 (JC's own 1867 inventário, item 6: Simplício) and PRB-0009 (Ladisláo's concurrent 1867 inventário, item 6 among JC's representantes: Simplício). PRB-0006 (1879 Matilde inventário) had been misread; it names Simplício as heir #5 and Eliza as his wife, not as JC's daughter. Son of Mathilde Maria de Jesus (P-0027) and Ladisláo Egydio Ferreira de Toledo (P-0056), family F-0027. Deceased before 4 March 1867 (PRB-0008 cover lists both JC and Claudina as deceased at inventory opening).
+1 NOTE Father of Eliza Balbina de Toledo (P-0017), our direct-line ancestor; hence Aristão Ferreira Armond's (P-0008) maternal grandfather and Geraldo Paz Armond's maternal great-grandfather. Eliza is confirmed as JC × Claudina's daughter by PRB-0006 (1879 Matilde inventário, representante #5 under heir #4) and is modelled as the direct-line child on family F-0026. SUPERSEDED READING: a 7 August 2026 note briefly made Simplício José Ferreira Armond (P-0016) JC's son — a conflation of two men named Simplício, corrected the same day. JC's own son is "Simplício José Ferreira de TOLEDO" (solteiro, 14 in 1867; item 6 of both PRB-0008 and PRB-0009), a distinct person who died before 1879 and is recorded as a documented_child on F-0026; Simplício José Ferreira ARMOND (P-0016), Eliza's husband, is JC's son-in-law and his own parents remain unidentified (see P-0016). Son of Mathilde Maria de Jesus (P-0027) and Ladisláo Egydio Ferreira de Toledo (P-0056), family F-0027. Deceased before 4 March 1867 (PRB-0008 cover lists both JC and Claudina as deceased at inventory opening).
 1 NOTE Do NOT conflate with the inventariante of the same estate, Cezário José de Toledo (Mathilde's other son, ⚭ Maria José de Jesus): the near-identical names are distinct people (PRB-0006). Nationality Brazilian, consistent with this multi-generation Minas Gerais (Leopoldina / Fazenda da Concórdia) Toledo family; no explicit birthplace is stated in the located records.
 1 NOTE Landholder at the Fazenda da Concórdia: in the 1856 Lei de Terras registry (GOV-0003, entry Nº 145, event E-0073) he declared the 200-alqueire Concórdia "por minha Mãe, irmãos e cunhados" — confirming he was alive in April 1856 (he died before 4 March 1867) and that his mother (Mathilde Maria de Jesus, P-0027) was then living.
 0 @P0055@ INDI
@@ -960,7 +960,7 @@
 2 SOUR @PRB0006@
 1 SEX F
 1 FAMS @F0026@
-1 NOTE Mother of Simplício José Ferreira Armond (P-0016); wife of José Cezário de Toledo Lima (P-0054), family F-0026. CORRECTION (7 August 2026): Simplício (not Eliza) is their confirmed child; see F-0026 and P-0017 for the correction. Named in PRB-0006 (1879 Matilde inventário) as "D. Claudina, tambem fallecida" — the wife of heir #4, deceased by 1879.
+1 NOTE Mother of Eliza Balbina de Toledo (P-0017), our direct-line ancestor; wife of José Cezário de Toledo Lima (P-0054), family F-0026. SUPERSEDED READING: a 7 August 2026 note briefly made Simplício José Ferreira Armond (P-0016) their child — a conflation of two men named Simplício, corrected the same day (see P-0054 and P-0016). Simplício Armond is Eliza's husband / their son-in-law (his own parents unidentified); JC and Claudina's own son named Simplício is the distinct "Simplício José Ferreira de Toledo" (14 in 1867), a documented_child on F-0026 who died before 1879. Named in PRB-0006 (1879 Matilde inventário) as "D. Claudina, tambem fallecida" — the wife of heir #4, deceased by 1879.
 1 NOTE Full name "Claudina Brandina de Jesus" is PRIMARY-CONFIRMED by two independent 1867 primary records: (1) PRB-0008 cover (the inventário she shares with JC): "Claudina Brandina de Jesus"; (2) PRB-0009-p2 (Ladisláo's inventário, explicit declaration): "a mae destes Dona Claudina Brandina de Jesus é viúva." Prior to this, the full name was inferred from the daughter's name "Maria Bulandina (Brandina) de Toledo" in PRB-0006. The record form "Claudina" (PRB-0006) is preserved as a source variant. She was alive on 7 March 1867 — PRB-0008 p5 records her physically present and taking the inventariante oath for JC's estate: "Dona Claudina Brandini de Jesus" appears as inventariante before the judge and swears to the estate facts on oath ("jurou aos Santos Evangelhos"). She died after 7 March 1867 and before 1879 (PRB-0006 refers to her as "tambem fallecida"). Nationality Brazilian; no explicit birthplace is stated.
 0 @P0056@ INDI
 1 NAME Ladisláo Egydio Ferreira de /Toledo/
@@ -1098,14 +1098,14 @@
 2 SURN Barreto
 1 SEX M
 1 FAMS @F0031@
-1 NOTE Paternal grandfather of Alferes Amaro da Silva Xavier (P-0059); named in the 1777 Piracatu baptism of his granddaughter Maria (PAR-0025) as "Amaro da Silva Barreto, natural da Villa de Guimaraes, Arcebispado de Braga" — Guimarães, Portugal. The source shows an abbreviated military title before his name; the exact rank is uncertain ("[Sargento / Tenente?]"). He is the Portuguese immigrant ancestor on the paternal side of the da Silva Xavier / Mathilde / Toledo direct line. His own birth, marriage and death records have not been located.
+1 NOTE Father of Alferes Amaro da Silva Xavier (P-0059) per PAR-0025 and family F-0031, hence paternal grandfather of the child Maria baptised in 1777; named in that 1777 Piracatu baptism of his granddaughter Maria (PAR-0025) as "Amaro da Silva Barreto, natural da Villa de Guimaraes, Arcebispado de Braga" — Guimarães, Portugal. The source shows an abbreviated military title before his name; the exact rank is uncertain ("[Sargento / Tenente?]"). He is the Portuguese immigrant ancestor on the paternal side of the da Silva Xavier / Mathilde / Toledo direct line. His own birth, marriage and death records have not been located.
 0 @P0065@ INDI
 1 NAME Perpétua da /Silva/
 2 GIVN Perpétua da
 2 SURN Silva
 1 SEX F
 1 FAMS @F0031@
-1 NOTE Paternal grandmother of Alferes Amaro da Silva Xavier (P-0059); named in the 1777 Piracatu baptism of her granddaughter Maria (PAR-0025) as "Perpétua da Silva, natural da Cidade de S. Paulo" (colonial city of São Paulo, Brazil). Wife of Amaro da Silva Barreto (P-0064). Her own birth, marriage and death records have not been located.
+1 NOTE Mother of Alferes Amaro da Silva Xavier (P-0059) per PAR-0025 and family F-0031, hence paternal grandmother of the child Maria baptised in 1777; named in that 1777 Piracatu baptism of her granddaughter Maria (PAR-0025) as "Perpétua da Silva, natural da Cidade de S. Paulo" (colonial city of São Paulo, Brazil). Wife of Amaro da Silva Barreto (P-0064). Her own birth, marriage and death records have not been located.
 0 @P0066@ INDI
 1 NAME João Rodrigues de /Mello/
 2 GIVN João Rodrigues de
