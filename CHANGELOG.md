@@ -5,6 +5,14 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Toledo: the 1833 Barbacena inventory of Rita Angélica Rodrigues (2026-08-11)
+
+- Value-gated the six-page 1833 Barbacena inventário (read directly from the images).
+- **New source `PRB-0010`** — the estate inventory of the deceased **Rita Angélica Rodrigues (P-0058)**, whose widower and inventariante is Capitão **Joaquim José Ferreira de Toledo (P-0057)** (confirming him alive and a captain in 1833). It records Rita's death (**9 February 1832, intestate**; new event **E-0075**) and names **all thirteen children of the couple, headed by Ladisláo Egídio Ferreira (P-0056)** — upgrading the F-0028 parent edge from strong-evidence to **direct**.
+- The twelve non-Ladisláo children (incl. **José Anastácio** and **Antonio Zeferino**, the collaterals the FINDINGS flagged) are recorded as `documented_children` on **F-0028**; "Anna" (⚭ Antonio Dias Ladeira) reconciled to the existing Anna Belizaria.
+- **Not promoted:** Joaquim José's own parents (Gaspar Ferreira × Gertrudes Maria, Vila Rica) are *not* named in this inventory and remain an unmodelled lead — the retrieval FINDINGS' "PRIMARY-ATTESTED" claim rests on the ink-bled PAR-0018 and awaits a legible read.
+- 304 entities; `make check` green; reciprocity verified; index + GEDCOM (7.0, 3768 lines) regenerated.
+
 ### Added / Fixed — Muniz Azorean line +1 generation, and a marriage-record correction (2026-08-11)
 
 - Value-gated the 2026-08-11 retrieval drop (BPARPD Ponta Delgada reply SE/2026/1583e, reconciled against the Culturacores CDN register images), verifying every promoted fact against the images.

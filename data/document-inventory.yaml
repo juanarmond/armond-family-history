@@ -2271,6 +2271,66 @@ documents:
         7 October 1819, N.S. Mãe de Deus, Povoação, São Miguel (folio 161v). Names
         both parent couples, extending the Muniz Bittencourt line one generation. All
         persons deceased.
+  - inventory_id: DOC-0078
+    status: catalogued
+    added_date: "2026-08-11"
+    apparent_record_type: Estate inventory (inventário, Juízo dos Órfãos, Barbacena 1833)
+    apparent_people:
+      - Rita Angélica Rodrigues
+      - Joaquim José Ferreira de Toledo
+      - Ladisláo Egídio Ferreira de Toledo
+      - José Anastácio Ferreira de Toledo
+      - Antonio Zeferino de Toledo
+    apparent_event: probate
+    image_quality: adequate
+    provenance: >-
+      Juízo dos Órfãos de Barbacena, MG — Caixa 49 / Ordem 09 / Doc 09 (1833);
+      six-page scan recovered from the imigracaoegenealogia blog and delivered via the
+      research/from-retrieval/ sync. Three genealogically decisive folios retained
+      (identification + heir declaration, two pages); read from the images 2026-08-11.
+    rights_status: unknown
+    files:
+      - path: evidence/probate/PRB-0010-rita-angelica-inventario-1833-barbacena-heirs-p1.jpg
+        sha256: 4744a18b72c8f10aa3cc06691482fb92c326fecc7f11606be14dcae5ffe79494
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1557
+          pixel_height: 2542
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0010-rita-angelica-inventario-1833-barbacena-identification.jpg
+        sha256: 5076bd2190a3946dbc0bbb0770dd50d3894ab7a1a7e4778ed4b5c442547849fd
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1792
+          pixel_height: 2543
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0010-rita-angelica-inventario-1833-barbacena-heirs-p2.jpg
+        sha256: 625cd5e26044fbf0ff640ea0e1310c105e541a8b886952b4950963978d30b70b
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1557
+          pixel_height: 2656
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PRB-0010
+    notes:
+      - >-
+        1833 Barbacena inventory of the deceased Rita Angélica Rodrigues; widower and
+        inventariante Capitão Joaquim José Ferreira de Toledo. Directly names all
+        thirteen children (Ladisláo Egídio Ferreira = child #1), confirming the F-0028
+        parent edge, and records Rita's death (9 Feb 1832, intestate). All persons deceased.
   - inventory_id: DOC-0057
     status: catalogued
     added_date: "2026-08-05"

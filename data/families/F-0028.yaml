@@ -24,6 +24,7 @@ children:
     - PAR-0019
     - PAR-0018
     - PAR-0017
+    - PRB-0010
     notes:
     - text: >-
         Confirmed (1 August 2026) by Ladisláo's own 9 September 1787 Barbacena baptism
@@ -32,8 +33,11 @@ children:
         illegible; the filiation was recovered by image processing (the …-alt scan,
         the retrieval "Target A"). The parents and the 9-Sep-1787 date are clearly
         legible on the recovery; the child's own forename is faded, so the
-        identification of that child as our Ladisláo also rests on the index (this
-        exact act) and the 1821 corroboration (PAR-0017). Previously strong-evidence.
+        identification of that child as our Ladisláo also rested on the index and the
+        1821 corroboration (PAR-0017). Now independently and directly confirmed by the
+        1833 Barbacena inventory of Rita Angélica's estate (PRB-0010), which lists
+        "Ladisláo Egídio Ferreira" as child #1 of the couple among their thirteen
+        children.
   - parent_id: P-0058
     relationship_type: biological
     status: confirmed
@@ -41,16 +45,19 @@ children:
     - PAR-0019
     - PAR-0018
     - PAR-0017
+    - PRB-0010
     notes: []
   notes: []
 documented_children:
 - name: Anna Belizaria de Toledo
   source_ids:
   - PAR-0020
+  - PRB-0010
   note: >-
     Sister of Ladisláo (P-0056); married Antonio Dias (of Prados) at Barbacena in 1812
     (PAR-0020), which names her parents João José Ferreira de Toledo × Ritta Angélica
-    Rodrigues.
+    Rodrigues. She is child #5 of the 1833 inventory (PRB-0010): "Anna, casada com
+    Antonio Dias Ladeira".
 - name: Carolina Francelina de Toledo
   source_ids:
   - PAR-0021
@@ -58,7 +65,76 @@ documented_children:
     Sister of Ladisláo (P-0056); married Vicente José da Cunha (of Ouro Branco) at
     Barbacena on 22 October 1816 (PAR-0021), which names her parents "Capitão João José
     Ferreira de Toledo" × Ritta Angélica Rodrigues. Distinct from her niece Carolina
-    Ferreira de Toledo (b.1821, Ladisláo × Matilde's daughter, PAR-0017).
+    Ferreira de Toledo (b.1821, Ladisláo × Matilde's daughter, PAR-0017). She may be the
+    deceased daughter "Candida ⚭ Vicente José de Ab[reu?]" of the 1833 inventory
+    (matching first husband-name, but surname and forename differ) — left uncertain.
+- name: Maria Ferreira de Toledo
+  source_ids:
+  - PRB-0010
+  note: >-
+    Sister of Ladisláo; child #2 in the 1833 inventory (PRB-0010), recorded by forename,
+    "casada com M.el Per.a de A[ndrade?]".
+- name: Joaquim Ferreira de Toledo
+  source_ids:
+  - PRB-0010
+  note: >-
+    Sister/brother of Ladisláo; child #3 in the 1833 inventory (PRB-0010): "Joaquim
+    [Neuterio?], casado" (second forename worn/uncertain).
+- name: Lauriana Ferreira de Toledo
+  source_ids:
+  - PRB-0010
+  note: >-
+    Sister of Ladisláo; child #4 in the 1833 inventory (PRB-0010): "Lauriana, casada com
+    Fran.co Per.a do Vale".
+- name: Candida Ferreira de Toledo
+  source_ids:
+  - PRB-0010
+  note: >-
+    Sister of Ladisláo; child #6 in the 1833 inventory (PRB-0010), already deceased by
+    1833: "Candida, falecida, casada que foi com Vicente José de Ab[reu?]", leaving seven
+    children (ages 3–13) named as representantes. Possibly = Carolina Francelina (above).
+- name: Rita Ferreira de Toledo
+  source_ids:
+  - PRB-0010
+  note: >-
+    Sister of Ladisláo; child #7 in the 1833 inventory (PRB-0010): "Rita, casada com
+    Patricio Barroso".
+- name: Francisco Ferreira de Toledo
+  source_ids:
+  - PRB-0010
+  note: >-
+    Brother of Ladisláo; child #8 in the 1833 inventory (PRB-0010): "Francisco, casado".
+- name: José Anastácio Ferreira de Toledo
+  source_ids:
+  - PRB-0010
+  note: >-
+    Brother of Ladisláo; child #9 in the 1833 inventory (PRB-0010): "José [An]astácio,
+    casado". A collateral the retrieval FINDINGS specifically flagged.
+- name: Antonio Zeferino de Toledo
+  source_ids:
+  - PRB-0010
+  note: >-
+    Brother of Ladisláo; child #10 in the 1833 inventory (PRB-0010): "Antonio Zeferino,
+    casado". Likely the "Antonio Zeferino de Toledo" named as a parent-in-law couple in
+    the Concórdia/São Bento deed (PRB-0004) — a collateral cross-reference, not modelled.
+- name: João Rodrigues Ferreira de Toledo
+  source_ids:
+  - PRB-0010
+  note: >-
+    Brother of Ladisláo; child #11 in the 1833 inventory (PRB-0010): "João Rodrigues,
+    casado" (bearing his maternal grandfather's name, João Rodrigues Valle).
+- name: Venancio do Nascimento
+  source_ids:
+  - PRB-0010
+  note: >-
+    Brother of Ladisláo; child #12 in the 1833 inventory (PRB-0010): "Venancio do
+    Nascimento, casado".
+- name: Manoel Joaquim Ferreira de Toledo
+  source_ids:
+  - PRB-0010
+  note: >-
+    Brother of Ladisláo; child #13 in the 1833 inventory (PRB-0010): "Manoel Joaquim,
+    casado".
 event_ids: []
 notes:
 - text: >-
@@ -72,3 +148,10 @@ notes:
     Ferreira × Gertrudes Maria [de Toledo] (Vila Rica); Ritta's were João Rodrigues [do
     Valle] × Izabel Ribeira (Borda do Campo) — both couples named in PAR-0018 but not yet
     modelled (leads).
+- text: >-
+    The 1833 Barbacena inventory of Rita Angélica's estate (PRB-0010) directly names
+    the couple's thirteen children — headed by "Ladisláo Egídio Ferreira" (child #1),
+    directly confirming Ladisláo's parentage — and records that Rita died 9 February
+    1832, intestate, her widower Capitão Joaquim José being the inventariante. The other
+    twelve children are recorded as documented_children above; the seven children of the
+    deceased daughter Candida appear there as representantes (ages 3–13).

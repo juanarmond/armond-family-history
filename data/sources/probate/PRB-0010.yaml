@@ -1,0 +1,138 @@
+schema_version: 1
+id: PRB-0010
+title: >-
+  1833 Barbacena estate inventory of Dona Rita Angélica Rodrigues (P-0058), whose
+  widower and inventariante is Capitão Joaquim José Ferreira de Toledo (P-0057) —
+  names all thirteen children, headed by Ladisláo Egídio Ferreira (P-0056)
+record_type: Estate inventory (inventário, Juízo dos Órfãos)
+record_category: court_or_probate
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1833-07-01"
+  original_text: >-
+    ao primeiro dia do mês de Julho do dito anno [de mil oito centos trinta e tres]
+event_place_text: >-
+  Villa de Barbacena, Comarca do Rio Parahibuna (Rio das Mortes), Minas Gerais,
+  Brazil (estate assets at the Fazenda denominada Cascalhaes)
+repository:
+  name: >-
+    Juízo dos Órfãos da Villa de Barbacena, Minas Gerais (estate inventory of Dona
+    Rita Angélica Rodrigues)
+  archive_or_registry: >-
+    Fórum / arquivo de Barbacena, MG — Caixa nº 49, Ordem nº 09, Documento nº 09
+  collection: >-
+    Inventário de Dona Rita Angélica Rodrigues, aberto 1 de julho de 1833, Villa de
+    Barbacena, MG; six-page transcription/scan recovered from the imigracaoegenealogia
+    blog and delivered through the research/from-retrieval/ sync
+  book: >-
+    Autos de inventário, Caixa 49 / Ordem 09 / Doc 09 (cover + folios; the heir
+    declaration "Filhos" is on the folios retained here)
+  catalogue_reference: >-
+    Barbacena Juízo dos Órfãos, Caixa 49 Ordem 09 Doc 09 (1833). Read directly from
+    the register images 2026-08-11. Three genealogically decisive folios retained
+    (identification; heir declaration, two pages); the modern cover sheet and the
+    procedural oath folios are held in the retrieval drop.
+access_date: "2026-08-11"
+language: pt
+transcription: >-
+  [Inventário — Caixa 49 Ordem 09 Doc 09, Juízo dos Órfãos, Villa de Barbacena.
+  Read from the register images 2026-08-11.]
+
+  [Abertura, fl. identificação:] "Anno do Nascimento de Nosso Senhor Jesus Christo
+  de mil oito centos trinta e tres e décimo segundo da Independência do Império, ao
+  primeiro dia do mês de Julho do dito anno, nesta Nobre e mui Leal Villa de
+  Barbacena, Minas e Comarca do Rio Parahibuna, em o meu Cartório, sendo ahi por
+  parte do Capitão Joaquim José Ferreira de Toledo, viúvo da falecida Dona Rita
+  Angélica Rodrigues, me foi apresentada huma sua petição, despachada pelo Ajudante
+  Manoel José Pacheco Pena, atual Juiz dos Órfãos desta mesma Villa e seu Termo..."
+
+  [Juramento, fl.: 15 de Julho de 1833, na Fazenda denominada Cascalhaes; louvados o
+  Capitão Simião Ferreira da Silva e o Alferes Domingos Jaime Ferreira de Castro.]
+
+  [Declaração de herdeiros:] "...declarou elle Viúvo e Inventariante que sua falecida
+  mulher Dona Rita Angélica Rodrigues havia falecido a nove do mês de Fevereiro do
+  anno passado de mil oito centos e trinta e dois, sem testamento, e que desse
+  consórcio ficaram os filhos e herdeiros abaixo declarados. Filhos: 1.º Ladisláo
+  Egídio Ferreira, casado; 2.º Maria, casada com M.el Per.a de A[ndrade?]; 3.º
+  Joaquim [Neuterio?], casado; 4.º Lauriana, casada com Fran.co Per.a do Vale; 5.º
+  Anna, casada com An.to Dias Ladeira; 6.º Candida, falecida, casada que foi com
+  Vicente José de Ab[reu?], deixou filhos; 7.º Rita, casada com Patricio Barroso;
+  8.º Francisco, casado; 9.º José [An]astácio, casado; 10.º Antonio Zeferino,
+  casado; 11.º João Rodrigues, casado; 12.º Venancio do Nascimento, casado; 13.º
+  Manoel Joaquim, casado. Netos pela falecida [filha] Candida: 1 Maria, de idade 13
+  annos; 2 Anna, 10; 3 José, 9; 4 Francisco, 7; 5 Thereza, 6; 6 Simpliciano, 4; 7
+  Candida, 3. [Segue-se a avaliação dos Bens.]"
+abstract: >-
+  The 1833 Barbacena Juízo dos Órfãos inventory of the deceased Dona Rita Angélica
+  Rodrigues (P-0058), opened 1 July 1833; her widower and inventariante is Capitão
+  Joaquim José Ferreira de Toledo (P-0057), confirming him alive and a captain in
+  1833. It records that Rita died 9 February 1832, intestate, and lists all thirteen
+  children of the couple, headed by 1.º Ladisláo Egídio Ferreira (P-0056), our
+  direct ancestor — a direct, primary attestation of Ladisláo's parentage (previously
+  strong-evidence). Siblings #9 José Anastácio and #10 Antonio Zeferino, and the
+  others (Maria, Joaquim, Lauriana, Anna [⚭ Antonio Dias Ladeira, = Anna Belizaria],
+  Candida [deceased, ⚭ Vicente José de Ab[reu?]], Rita, Francisco, João Rodrigues,
+  Venancio do Nascimento, Manoel Joaquim), are recorded as documented children on
+  F-0028. The deceased daughter Candida's seven children (ages 3–13) appear as
+  representantes. Assets were at the Fazenda Cascalhaes; louvados the Capitão Simião
+  Ferreira da Silva and Alferes Domingos Jaime Ferreira de Castro.
+abstract_pt: >-
+  O inventário de 1833 do Juízo dos Órfãos de Barbacena da falecida Dona Rita
+  Angélica Rodrigues (P-0058), aberto em 1 de julho de 1833; seu viúvo e
+  inventariante é o Capitão Joaquim José Ferreira de Toledo (P-0057), o que o
+  confirma vivo e capitão em 1833. Registra que Rita faleceu em 9 de fevereiro de
+  1832, sem testamento, e lista todos os treze filhos do casal, encabeçados por 1.º
+  Ladisláo Egídio Ferreira (P-0056), nosso ancestral direto — uma atestação direta e
+  primária da filiação de Ladisláo (antes apenas evidência forte). Os irmãos #9 José
+  Anastácio e #10 Antonio Zeferino, e os demais (Maria, Joaquim, Lauriana, Anna [⚭
+  Antonio Dias Ladeira, = Anna Belizaria], Candida [falecida, ⚭ Vicente José de
+  Ab[reu?]], Rita, Francisco, João Rodrigues, Venancio do Nascimento, Manoel
+  Joaquim), ficam registrados como filhos documentados em F-0028. Os sete filhos da
+  falecida filha Candida (de 3 a 13 anos) aparecem como representantes. Os bens
+  estavam na Fazenda Cascalhaes; louvados o Capitão Simião Ferreira da Silva e o
+  Alferes Domingos Jaime Ferreira de Castro.
+reliability:
+  assessment: >-
+    An original judicial estate inventory; primary, direct evidence for Rita
+    Angélica's death (9 February 1832, intestate), for her widower Joaquim José
+    Ferreira de Toledo's survival and captaincy in 1833, and — decisively — for the
+    complete list of the couple's thirteen children, which names Ladisláo Egídio
+    Ferreira (P-0056) as child #1. This directly confirms the F-0028 parent edge that
+    was previously strong-evidence (inferred from Ladisláo's 1787 baptism).
+  informant: >-
+    The widower and inventariante Capitão Joaquim José Ferreira de Toledo, declaring
+    the heirs on oath before the Juiz dos Órfãos of Barbacena.
+  limitations: >-
+    Only three folios are retained here (identification and the two-page heir
+    declaration); the full appraisal of assets and the partilha are in the drop. A
+    few children's spouse surnames and one forename ("Joaquim [Neuterio?]", daughter
+    Candida's husband "Vicente José de Ab[reu?]") are abbreviated or worn and marked
+    uncertain. The reconciliation of the 1833 first-name list with the daughters
+    named in their own 1812/1816 marriage acts (Anna Belizaria = "Anna ⚭ Antonio
+    Dias"; Carolina Francelina) is noted on F-0028.
+digital_file:
+  path: >-
+    evidence/probate/PRB-0010-rita-angelica-inventario-1833-barbacena-heirs-p1.jpg
+  sha256: 4744a18b72c8f10aa3cc06691482fb92c326fecc7f11606be14dcae5ffe79494
+linked_people:
+  - P-0058
+  - P-0057
+  - P-0056
+linked_families:
+  - F-0028
+linked_events:
+  - E-0075
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Recovered from the imigracaoegenealogia blog (six-page scan) and delivered via
+      the research/from-retrieval/ sync; read directly from the images 2026-08-11.
+      Retained folios: identification, heir declaration (2 pages). The 1833 inventory
+      is the record the retrieval FINDINGS cited for "all thirteen children of Cap.
+      Joaquim José × Rita Angélica"; it does NOT name Joaquim José's own parents
+      (Gaspar Ferreira × Gertrudes Maria), which remain an unmodelled lead.

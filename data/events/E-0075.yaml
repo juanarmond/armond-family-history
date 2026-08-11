@@ -1,0 +1,23 @@
+schema_version: 1
+id: E-0075
+event_type: death
+date:
+  kind: exact
+  value: "1832-02-09"
+  original_text: havia falecido a nove do mês de Fevereiro do anno passado de mil oito centos e trinta e dois
+place_text: >-
+  Villa de Barbacena, Comarca do Rio Parahibuna, Minas Gerais, Brazil
+participants:
+- person_id: P-0058
+  role: principal
+status: confirmed
+source_ids:
+- PRB-0010
+notes:
+- text: >-
+    Death of Ritta Angélica Rodrigues (P-0058) on 9 February 1832, intestate, per
+    her 1833 Barbacena estate inventory (PRB-0010), in which her widower Capitão
+    Joaquim José Ferreira de Toledo (P-0057) declared the date on oath before the
+    Juiz dos Órfãos. She left thirteen children; the inventory opened 1 July 1833 and
+    its assets were at the Fazenda Cascalhaes. The exact death place is not stated;
+    Barbacena is the family's domicile.

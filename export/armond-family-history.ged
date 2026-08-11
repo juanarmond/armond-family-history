@@ -1003,7 +1003,7 @@
 2 SOUR @PAR0021@
 2 SOUR @PAR0023@
 1 FAMS @F0028@
-1 NOTE Father of Ladisláo Egídio Ferreira de Toledo (P-0056), confirmed by Ladisláo's own 1787 baptism (PAR-0019); hence Eliza Balbina de Toledo's (P-0017) great-great-grandfather. Married Ritta Angélica Rodrigues (P-0058, family F-0028) at Barbacena c.1786 (PAR-0018). Two of his daughters' marriages independently name the couple: Anna Belizaria (1812, PAR-0020) and Carolina Francelina (1816, PAR-0021) — both documented children on F-0028.
+1 NOTE Father of Ladisláo Egídio Ferreira de Toledo (P-0056), confirmed by Ladisláo's own 1787 baptism (PAR-0019); hence Eliza Balbina de Toledo's (P-0017) great-great-grandfather. Married Ritta Angélica Rodrigues (P-0058, family F-0028) at Barbacena c.1786 (PAR-0018). Two of his daughters' marriages independently name the couple: Anna Belizaria (1812, PAR-0020) and Carolina Francelina (1816, PAR-0021) — both documented children on F-0028. The 1833 Barbacena inventory of Rita's estate (PRB-0010) confirms him alive and a Capitão in 1833 as her widower and inventariante, and enumerates all thirteen of the couple's children (Ladisláo as child #1).
 1 NOTE Forename reconciliation (Joaquim vs João), re-read from the images 11 August 2026: "Joaquim José" is adopted as the preferred form. Three records name him Joaquim — his own 1786 marriage (PAR-0018) and his son Ladisláo's 1787 baptism (PAR-0019), and, decisively, the clean and legible 1810 marriage of Ladisláo × Mathilde (PAR-0023), which plainly reads "Capitão Joaquim José Ferreira de Toledo". The "João José" form appears only in the two faded daughters' marriages (PAR-0020, 1812; PAR-0021, 1816) and is preserved as a source variant. This SUPERSEDES an earlier choice of "João José", which had wrongly treated the 1812/1816 records as the clearer evidence; in fact PAR-0023 is the legible record and, with his own marriage, settles the name as Joaquim.
 1 NOTE His parents Gaspar Ferreira and Gertrudes Maria [de Toledo] are named in PAR-0018 (Gaspar of Vila Rica / Ouro Preto — the apparent origin of the family's "Ferreira" + "de Toledo" surname) but are not yet modelled as entities; recorded as a lead. Nationality Brazilian (a Barbacena / Minas Gerais family); no explicit birthplace of his own is stated in the located records.
 0 @P0058@ INDI
@@ -1014,9 +1014,14 @@
 2 TYPE AKA
 2 SOUR @PAR0018@
 1 SEX F
+1 DEAT
+2 DATE 09 FEB 1832
+2 PLAC Villa de Barbacena, Comarca do Rio Parahibuna, Minas Gerais, Brazil
+2 SOUR @PRB0010@
+3 QUAY 3
 1 FAMS @F0028@
 1 FAMC @F0038@
-1 NOTE Taken to be the mother of Ladisláo Egídio Ferreira de Toledo (P-0056); wife of Joaquim José Ferreira de Toledo (P-0057), family F-0028. Named in her c.1786 Barbacena marriage (PAR-0018) as "Ritta Angelica Rodrigues, filha legitima de João Rodrigues [do Valle] e de Izabel Ribeira, natural da Freguesia da Borda do Campo". Her link down to Ladisláo is strong-evidence, not direct (see F-0028).
+1 NOTE Mother of Ladisláo Egídio Ferreira de Toledo (P-0056); wife of Joaquim José Ferreira de Toledo (P-0057), family F-0028. Named in her c.1786 Barbacena marriage (PAR-0018) as "Ritta Angelica Rodrigues, filha legitima de João Rodrigues [do Valle] e de Izabel Ribeira, natural da Freguesia da Borda do Campo". Her link down to Ladisláo is now DIRECT: the 1833 Barbacena inventory of her estate (PRB-0010) lists Ladisláo Egídio Ferreira as child #1 of the couple, among her thirteen children. She died 9 February 1832, intestate (PRB-0010, event E-0075).
 1 NOTE Her parents are now modelled: João Rodrigues Valle (P-0078) and Isabel Ribeiro (P-0079), family F-0038 — established by their 22 February 1751 Borda do Campo marriage (PAR-0034), identified with the "João Rodrigues [do Valle] e Izabel Ribeira" of PAR-0018 (same names, same parish, consistent timeline; strong-evidence). This extends her paternal Rodrigues/Valle line to Ruivais (Braga), Portugal (PAR-0035, PAR-0036). Nationality Brazilian (natural of the Borda do Campo / Barbacena, MG).
 0 @P0059@ INDI
 1 NAME Amaro da Silva /Xavier/
@@ -1757,7 +1762,8 @@
 1 FAMC @F0028@
 1 NOTE Documented child, not individually modelled.
 2 SOUR @PAR0020@
-1 NOTE Sister of Ladisláo (P-0056); married Antonio Dias (of Prados) at Barbacena in 1812 (PAR-0020), which names her parents João José Ferreira de Toledo × Ritta Angélica Rodrigues.
+2 SOUR @PRB0010@
+1 NOTE Sister of Ladisláo (P-0056); married Antonio Dias (of Prados) at Barbacena in 1812 (PAR-0020), which names her parents João José Ferreira de Toledo × Ritta Angélica Rodrigues. She is child #5 of the 1833 inventory (PRB-0010): "Anna, casada com Antonio Dias Ladeira".
 0 @DOCF0028_2@ INDI
 1 NAME Carolina Francelina de /Toledo/
 2 GIVN Carolina Francelina de
@@ -1766,7 +1772,106 @@
 1 FAMC @F0028@
 1 NOTE Documented child, not individually modelled.
 2 SOUR @PAR0021@
-1 NOTE Sister of Ladisláo (P-0056); married Vicente José da Cunha (of Ouro Branco) at Barbacena on 22 October 1816 (PAR-0021), which names her parents "Capitão João José Ferreira de Toledo" × Ritta Angélica Rodrigues. Distinct from her niece Carolina Ferreira de Toledo (b.1821, Ladisláo × Matilde's daughter, PAR-0017).
+1 NOTE Sister of Ladisláo (P-0056); married Vicente José da Cunha (of Ouro Branco) at Barbacena on 22 October 1816 (PAR-0021), which names her parents "Capitão João José Ferreira de Toledo" × Ritta Angélica Rodrigues. Distinct from her niece Carolina Ferreira de Toledo (b.1821, Ladisláo × Matilde's daughter, PAR-0017). She may be the deceased daughter "Candida ⚭ Vicente José de Ab[reu?]" of the 1833 inventory (matching first husband-name, but surname and forename differ) — left uncertain.
+0 @DOCF0028_3@ INDI
+1 NAME Maria Ferreira de /Toledo/
+2 GIVN Maria Ferreira de
+2 SURN Toledo
+1 SEX U
+1 FAMC @F0028@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PRB0010@
+1 NOTE Sister of Ladisláo; child #2 in the 1833 inventory (PRB-0010), recorded by forename, "casada com M.el Per.a de A[ndrade?]".
+0 @DOCF0028_4@ INDI
+1 NAME Joaquim Ferreira de /Toledo/
+2 GIVN Joaquim Ferreira de
+2 SURN Toledo
+1 SEX U
+1 FAMC @F0028@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PRB0010@
+1 NOTE Sister/brother of Ladisláo; child #3 in the 1833 inventory (PRB-0010): "Joaquim [Neuterio?], casado" (second forename worn/uncertain).
+0 @DOCF0028_5@ INDI
+1 NAME Lauriana Ferreira de /Toledo/
+2 GIVN Lauriana Ferreira de
+2 SURN Toledo
+1 SEX U
+1 FAMC @F0028@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PRB0010@
+1 NOTE Sister of Ladisláo; child #4 in the 1833 inventory (PRB-0010): "Lauriana, casada com Fran.co Per.a do Vale".
+0 @DOCF0028_6@ INDI
+1 NAME Candida Ferreira de /Toledo/
+2 GIVN Candida Ferreira de
+2 SURN Toledo
+1 SEX U
+1 FAMC @F0028@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PRB0010@
+1 NOTE Sister of Ladisláo; child #6 in the 1833 inventory (PRB-0010), already deceased by 1833: "Candida, falecida, casada que foi com Vicente José de Ab[reu?]", leaving seven children (ages 3–13) named as representantes. Possibly = Carolina Francelina (above).
+0 @DOCF0028_7@ INDI
+1 NAME Rita Ferreira de /Toledo/
+2 GIVN Rita Ferreira de
+2 SURN Toledo
+1 SEX U
+1 FAMC @F0028@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PRB0010@
+1 NOTE Sister of Ladisláo; child #7 in the 1833 inventory (PRB-0010): "Rita, casada com Patricio Barroso".
+0 @DOCF0028_8@ INDI
+1 NAME Francisco Ferreira de /Toledo/
+2 GIVN Francisco Ferreira de
+2 SURN Toledo
+1 SEX U
+1 FAMC @F0028@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PRB0010@
+1 NOTE Brother of Ladisláo; child #8 in the 1833 inventory (PRB-0010): "Francisco, casado".
+0 @DOCF0028_9@ INDI
+1 NAME José Anastácio Ferreira de /Toledo/
+2 GIVN José Anastácio Ferreira de
+2 SURN Toledo
+1 SEX U
+1 FAMC @F0028@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PRB0010@
+1 NOTE Brother of Ladisláo; child #9 in the 1833 inventory (PRB-0010): "José [An]astácio, casado". A collateral the retrieval FINDINGS specifically flagged.
+0 @DOCF0028_10@ INDI
+1 NAME Antonio Zeferino de /Toledo/
+2 GIVN Antonio Zeferino de
+2 SURN Toledo
+1 SEX U
+1 FAMC @F0028@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PRB0010@
+1 NOTE Brother of Ladisláo; child #10 in the 1833 inventory (PRB-0010): "Antonio Zeferino, casado". Likely the "Antonio Zeferino de Toledo" named as a parent-in-law couple in the Concórdia/São Bento deed (PRB-0004) — a collateral cross-reference, not modelled.
+0 @DOCF0028_11@ INDI
+1 NAME João Rodrigues Ferreira de /Toledo/
+2 GIVN João Rodrigues Ferreira de
+2 SURN Toledo
+1 SEX U
+1 FAMC @F0028@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PRB0010@
+1 NOTE Brother of Ladisláo; child #11 in the 1833 inventory (PRB-0010): "João Rodrigues, casado" (bearing his maternal grandfather's name, João Rodrigues Valle).
+0 @DOCF0028_12@ INDI
+1 NAME Venancio do /Nascimento/
+2 GIVN Venancio do
+2 SURN Nascimento
+1 SEX U
+1 FAMC @F0028@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PRB0010@
+1 NOTE Brother of Ladisláo; child #12 in the 1833 inventory (PRB-0010): "Venancio do Nascimento, casado".
+0 @DOCF0028_13@ INDI
+1 NAME Manoel Joaquim Ferreira de /Toledo/
+2 GIVN Manoel Joaquim Ferreira de
+2 SURN Toledo
+1 SEX U
+1 FAMC @F0028@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PRB0010@
+1 NOTE Brother of Ladisláo; child #13 in the 1833 inventory (PRB-0010): "Manoel Joaquim, casado".
 0 @DOCF0029_1@ INDI
 1 NAME Maria //
 2 GIVN Maria
@@ -2279,13 +2384,26 @@
 1 CHIL @P0056@
 1 CHIL @DOCF0028_1@
 1 CHIL @DOCF0028_2@
+1 CHIL @DOCF0028_3@
+1 CHIL @DOCF0028_4@
+1 CHIL @DOCF0028_5@
+1 CHIL @DOCF0028_6@
+1 CHIL @DOCF0028_7@
+1 CHIL @DOCF0028_8@
+1 CHIL @DOCF0028_9@
+1 CHIL @DOCF0028_10@
+1 CHIL @DOCF0028_11@
+1 CHIL @DOCF0028_12@
+1 CHIL @DOCF0028_13@
 1 MARR
 2 SOUR @PAR0018@
 3 QUAY 3
 1 SOUR @PAR0019@
 1 SOUR @PAR0018@
 1 SOUR @PAR0017@
+1 SOUR @PRB0010@
 1 NOTE Parents of Ladisláo Egídio Ferreira de Toledo (P-0056), confirmed by his 1787 baptism (PAR-0019) — extending Eliza's maternal Toledo line up to the Barbacena Ferreira de Toledo family. The couple is further corroborated by two daughters' marriages (PAR-0020 Anna Belizaria 1812; PAR-0021 Carolina Francelina 1816), which record the father in the "João José" variant; his preferred form is "Joaquim José Ferreira de Toledo", per his own 1786 marriage (PAR-0018), Ladisláo's 1787 baptism (PAR-0019) and the legible 1810 marriage (PAR-0023). His own parents were Gaspar Ferreira × Gertrudes Maria [de Toledo] (Vila Rica); Ritta's were João Rodrigues [do Valle] × Izabel Ribeira (Borda do Campo) — both couples named in PAR-0018 but not yet modelled (leads).
+1 NOTE The 1833 Barbacena inventory of Rita Angélica's estate (PRB-0010) directly names the couple's thirteen children — headed by "Ladisláo Egídio Ferreira" (child #1), directly confirming Ladisláo's parentage — and records that Rita died 9 February 1832, intestate, her widower Capitão Joaquim José being the inventariante. The other twelve children are recorded as documented_children above; the seven children of the deceased daughter Candida appear there as representantes (ages 3–13).
 0 @F0029@ FAM
 1 HUSB @P0059@
 1 WIFE @P0060@
@@ -2515,8 +2633,10 @@
 0 @REPO0030@ REPO
 1 NAME Juízo Municipal e de Órfãos, Concórdia, Districto do Rio Pardo, Minas Gerais (inventário de Ladisláo Egídio Ferreira de Toledo)
 0 @REPO0031@ REPO
-1 NAME Fundação D. João VI / Arquivo Pró-Memória, Nova Friburgo, RJ
+1 NAME Juízo dos Órfãos da Villa de Barbacena, Minas Gerais (estate inventory of Dona Rita Angélica Rodrigues)
 0 @REPO0032@ REPO
+1 NAME Fundação D. João VI / Arquivo Pró-Memória, Nova Friburgo, RJ
+0 @REPO0033@ REPO
 1 NAME Armond Family History private repository
 0 @CIV0001@ SOUR
 1 TITL Certified marriage record of Deocleciano Muniz Bittencourt and Luiza Fernandes de Azevedo
@@ -3246,10 +3366,19 @@
 1 NOTE Archival reference: FamilySearch retrieval; read and promoted 7 August 2026. Five pages catalogued: cover/title page (gen1), pp. 2–5.
 1 NOTE Repository file: evidence/probate/PRB-0009-ladislao-toledo-inventario-1867-gen1.jpg
 1 OBJE @OBJPRB0009@
+0 @PRB0010@ SOUR
+1 TITL 1833 Barbacena estate inventory of Dona Rita Angélica Rodrigues (P-0058), whose widower and inventariante is Capitão Joaquim José Ferreira de Toledo (P-0057) — names all thirteen children, headed by Ladisláo Egídio Ferreira (P-0056)
+1 TEXT The 1833 Barbacena Juízo dos Órfãos inventory of the deceased Dona Rita Angélica Rodrigues (P-0058), opened 1 July 1833; her widower and inventariante is Capitão Joaquim José Ferreira de Toledo (P-0057), confirming him alive and a captain in 1833. It records that Rita died 9 February 1832, intestate, and lists all thirteen children of the couple, headed by 1.º Ladisláo Egídio Ferreira (P-0056), our direct ancestor — a direct, primary attestation of Ladisláo's parentage (previously strong-evidence). Siblings #9 José Anastácio and #10 Antonio Zeferino, and the others (Maria, Joaquim, Lauriana, Anna [⚭ Antonio Dias Ladeira, = Anna Belizaria], Candida [deceased, ⚭ Vicente José de Ab[reu?]], Rita, Francisco, João Rodrigues, Venancio do Nascimento, Manoel Joaquim), are recorded as documented children on F-0028. The deceased daughter Candida's seven children (ages 3–13) appear as representantes. Assets were at the Fazenda Cascalhaes; louvados the Capitão Simião Ferreira da Silva and Alferes Domingos Jaime Ferreira de Castro.
+1 REPO @REPO0031@
+2 CALN Inventário de Dona Rita Angélica Rodrigues, aberto 1 de julho de 1833, Villa de Barbacena, MG; six-page transcription/scan recovered from the imigracaoegenealogia blog and delivered through the research/from-retrieval/ sync, livro Autos de inventário, Caixa 49 / Ordem 09 / Doc 09 (cover + folios; the heir declaration "Filhos" is on the folios retained here)
+1 NOTE Evidence classification: court_or_probate; original; information primary; direct evidence.
+1 NOTE Transcription: [Inventário — Caixa 49 Ordem 09 Doc 09, Juízo dos Órfãos, Villa de Barbacena. Read from the register images 2026-08-11.] [Abertura, fl. identificação:] "Anno do Nascimento de Nosso Senhor Jesus Christo de mil oito centos trinta e tres e décimo segundo da Independência do Império, ao primeiro dia do mês de Julho do dito anno, nesta Nobre e mui Leal Villa de Barbacena, Minas e Comarca do Rio Parahibuna, em o meu Cartório, sendo ahi por parte do Capitão Joaquim José Ferreira de Toledo, viúvo da falecida Dona Rita Angélica Rodrigues, me foi apresentada huma sua petição, despachada pelo Ajudante Manoel José Pacheco Pena, atual Juiz dos Órfãos desta mesma Villa e seu Termo..." [Juramento, fl.: 15 de Julho de 1833, na Fazenda denominada Cascalhaes; louvados o Capitão Simião Ferreira da Silva e o Alferes Domingos Jaime Ferreira de Castro.] [Declaração de herdeiros:] "...declarou elle Viúvo e Inventariante que sua falecida mulher Dona Rita Angélica Rodrigues havia falecido a nove do mês de Fevereiro do anno passado de mil oito centos e trinta e dois, sem testamento, e que desse consórcio ficaram os filhos e herdeiros abaixo declarados. Filhos: 1.º Ladisláo Egídio Ferreira, casado; 2.º Maria, casada com M.el Per.a de A[ndrade?]; 3.º Joaquim [Neuterio?], casado; 4.º Lauriana, casada com Fran.co Per.a do Vale; 5.º Anna, casada com An.to Dias Ladeira; 6.º Candida, falecida, casada que foi com Vicente José de Ab[reu?], deixou filhos; 7.º Rita, casada com Patricio Barroso; 8.º Francisco, casado; 9.º José [An]astácio, casado; 10.º Antonio Zeferino, casado; 11.º João Rodrigues, casado; 12.º Venancio do Nascimento, casado; 13.º Manoel Joaquim, casado. Netos pela falecida [filha] Candida: 1 Maria, de idade 13 annos; 2 Anna, 10; 3 José, 9; 4 Francisco, 7; 5 Thereza, 6; 6 Simpliciano, 4; 7 Candida, 3. [Segue-se a avaliação dos Bens.]"
+1 NOTE Archival reference: Barbacena Juízo dos Órfãos, Caixa 49 Ordem 09 Doc 09 (1833). Read directly from the register images 2026-08-11. Three genealogically decisive folios retained (identification; heir declaration, two pages); the modern cover sheet and the procedural oath folios are held in the retrieval drop.
+1 OBJE @OBJPRB0010@
 0 @PUB0003@ SOUR
 1 TITL Imigrantes de Nova Friburgo — genealogias: BORER I, BORER II, WEHRLI sections (Henrique Bon compiler)
 1 TEXT Genealogical compilation for Nova Friburgo Swiss-German immigrant families. Pp.300-301 cover BORER I (Jacob Borer b.1801 Erschwil — Francisco José Bohrer's line) and BORER II (Laurent Borer b.1797 Grindel — Valentim Martinho Bohrer's line). Pp.302-303 cover BORER III (unrelated Johann Borer b.1792 Erschwil line). The Casa Suíça database entries and WEHRLI section document Johann Jacob Wehrli × Elisabetha Borer as the parents of Anna Maria Werhly, Laurent's wife, with primary confirmation of their 1782 Grindel marriage from the Swiss parish register (image rec-bohrer-werly-borer-marriages-grindel-1780.jpg, entry 4, page 71).
-1 REPO @REPO0031@
+1 REPO @REPO0032@
 2 CALN Imigrantes de Nova Friburgo — genealogias; Henrique Bon (compiler), livro Pages 300–303 — BORER I (Jacob b.1801 Erschwil) and BORER II (Laurent b.1797 Grindel) genealogy trees; Casa Suíça database entries for Laurent, Vicente, Anna Maria Wehrli, and Johann Jacob Wehrli
 1 NOTE Evidence classification: published_genealogy; authored_narrative; information secondary; indirect evidence.
 1 NOTE Transcription: [p.300 — BORER (I), Jacob b.1801 Erschwil → Francisco José's line:] "1.1.4. Francisco José Borer — n. 04/07/1832, f. 06/07/1888, causa mortis: insuficiência mitral e dilatação aórtica. ... O casal morava no Alto da Serra." Children listed: Ludovina n.21/07/1862 f.27/12/1862 (infant); Laura n.16/08/1866; Guilherme n.06/04/1868; Fernando n.03/01/1872 cas.06/05/1911 × Julia de Oliveira Cerbino. ⚠ Joaquim José absent from this list (conflict with PRB-0005 will, which names him as firstborn — compiler apparently missed his baptism record). Francisco José's siblings: Catharina n.24/07/1830 f.16/01/1872 (⚭ Frederico Chaboudez); Maria n.21/09/1834 (⚭ Francisco Xavier Chaboudez); Augusto n.10/02/1837; João José n.10/09/1840 f.16/06/1859 (solteiro). Jacob Borer (Patriarca, BORER I) assigned Casa/Lote 70/56 per DB. [pp.300-301 — BORER (II), Laurent b.1797 Grindel → Vicente → Valentim line:] "Laurent Borer, filho de certo Jacob Borer, de Grindel, Soleure, veio aparentemente só para o Brasil … embarcaria ele no Heureux Voyage, ocupando em Nova Friburgo a casa 73 e o lote 86. Nesta vila viria a se casar em 3 de julho de 1820, com Anna Maria Werhly …" Compilation counts "ao menos onze filhos"; Casa Suíça DB narrative gives "doze filhos" — one-child discrepancy noted. Children genealogy tree p.301 (selected): José n.28/03/1821; Anna Maria n.19/06/1822; José Lourenço n.07/07/1823; Anna Maria (2nd) n.03/05/1825; Justina n.06/06/1827; José Joaquim [entry cut off]; Vicente n.06/09/1828 ⚭ 11/04/1864 × Maria Heggendorn (filha de Joseph Heggendorn × Maria (Maria Amélia?) Freese); José Constantino n.08/09/1829; Barbara Elisabeth n.14/12/1830; Regina n.07/07/1832; Maria n.27/12/1834; Thereza n.25/08/1836. Vicente's children: José Domingos n.19/03/1864; Maria Elisabeth n.15/12/1866; Valentim Martinho n.14/11/1868; Vicente n.16/04/1871. Note: José Domingos born ~3 weeks before parents' 11 April 1864 civil marriage. [WEHRLI — Casa Suíça DB entries:] Johann Jacob Wehrli, patriarca, b.17/01/1751 Grindel, Soleure; profession: agricultor; arrived 1819 on Heureux Voyage, Casa/Lote 73/86; married Elisabetha Borer [27 Jan 1782 per Swiss marriage register primary image]; died NF 28/05/1827. Anna Maria Werhly, 5th daughter, b.1793 Grindel, Solothurn; arrived 1819 Heureux Voyage; married Laurent Borer 03/07/1820 NF; 12 children. [p.302 — BORER (III), Johann b.01/08/1792 Erschwil — DISTINCT from our family:] Descendants use "Borer" surname; no proven kinship with Borer I or Borer II.
@@ -3257,7 +3386,7 @@
 0 @REC0001@ SOUR
 1 TITL Direct-ancestor roster supplied by Juan Carlos Muniz Armond
 1 TEXT The repository owner identified himself, his parents, and the deceased direct ancestors used to initialise Ahnentafel positions 1 through 15. This source supports the private working roster and preferred-name spellings only; it does not substitute for civil or parish evidence of vital events or relationships.
-1 REPO @REPO0032@
+1 REPO @REPO0033@
 1 NOTE Evidence classification: family_recollection; authored_narrative; information mixed; direct evidence.
 1 NOTE Transcription: [Owner-supplied direct-ancestor roster, July 2026. Verbal/written family information consolidated from the project conversation; no scanned document exists. Content summarised below as recollected by Juan Carlos Muniz Armond.] Direct ancestors identified by the repository owner at project start (Ahnentafel positions 1–15): Position 1 — Juan Carlos Muniz Armond (self, living; b. Volta Redonda, RJ, 1982) Position 2 — [Father; living; name withheld — see P-0002] Position 3 — [Mother; living; name withheld — see P-0003] Position 4 — Geraldo Paz Armond (paternal grandfather; d. 1991, Volta Redonda) Position 5 — Cidália Engrácio Guimarães (paternal grandmother) Position 6 — [Maternal grandfather; name withheld — see P-0006] Position 7 — [Maternal grandmother; name withheld — see P-0007] Position 8 — Aristão Ferreira Armond (paternal great-grandfather; d. 1957, Volta Redonda) Position 9 — Eliza Balbina de Toledo (paternal great-grandmother) Position 10 — António Engrácio de Souza (maternal great-grandfather) Position 11 — Luzia Pinheiro da Conceição (maternal great-grandmother) Position 12 — [Maternal great-grandfather — see P-0012] Position 13 — [Maternal great-grandmother — see P-0013] Position 14 — [Maternal great-grandfather — see P-0014] Position 15 — [Maternal great-grandmother — see P-0015] [Names at positions 6–7 and 12–15 involve living or near-living persons and are withheld from this transcription; the structured person entities contain the appropriate privacy settings. Each assertion above requires independent civil or parish source corroboration — see individual person entities.]
 1 NOTE Repository file: STATUS.md
@@ -3631,4 +3760,9 @@
 2 FORM image/jpeg
 2 TITL 1867 Concórdia probate inventory of Ladisláo Egídio Ferreira de Toledo — título de herdeiros confirming eight children including Francisco Leocádio (item 4, deceased before Ladisláo) and José Cesário Lima (item 8, deceased), with JC's children including a son named Simplício Ferreira de Toledo (item 6, distinct from Simplício Armond P-0016) and a declaration on Claudina Brandina de Jesus
 1 NOTE sha256: 81bbf8412e197dbb4fcba9f06d355c90df6920321338881896777c9ba3026356
+0 @OBJPRB0010@ OBJE
+1 FILE evidence/probate/PRB-0010-rita-angelica-inventario-1833-barbacena-heirs-p1.jpg
+2 FORM image/jpeg
+2 TITL 1833 Barbacena estate inventory of Dona Rita Angélica Rodrigues (P-0058), whose widower and inventariante is Capitão Joaquim José Ferreira de Toledo (P-0057) — names all thirteen children, headed by Ladisláo Egídio Ferreira (P-0056)
+1 NOTE sha256: 4744a18b72c8f10aa3cc06691482fb92c326fecc7f11606be14dcae5ffe79494
 0 TRLR
