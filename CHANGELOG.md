@@ -13,6 +13,7 @@ also remain traceable through source records and research logs.
 - data-loader projects `profile`/`profilePt`; JS test covers projection + living-person gating. 291 entities; 69 tests + 24 JS tests pass.
 - Portrait panel's close button now matches the person-detail panel's close button exactly (round `.detail-head button` styling — same size, border, colours, gold/green hover, and the "×" glyph) instead of the square lightbox-reader style; the image lightbox keeps its own button.
 - Portrait section headings (`## `) now match the detail panel's section headings — gold `var(--gold)`, `.68rem`, weight 700, `.14em` uppercase — with a dividing rule between sections (mirrors `.detail-section` borders); `### ` sub-headings render as a subordinate muted variant.
+- Mobile: the Portrait had no responsive treatment (it kept its desktop `min(30rem,50vw)` side-dock, rendering as a cramped half-width strip over the bottom-sheet). At `≤700px` it now opens **full-screen** (`inset: 0`) over the detail sheet, with the same `sheet-up` animation as the sheet; the header is pinned and the body scrolls (`flex`/`min-height:0`, momentum scroll) so long profiles no longer clip. No JS change.
 
 ### Fixed — resolve two evidence conflicts by re-reading the record images (2026-08-11)
 
