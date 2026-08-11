@@ -433,19 +433,19 @@
 2 SOUR @PAR0014@
 1 SEX F
 1 BAPM
-2 DATE 22 MAR 1876
+2 DATE 22 MAR 1866
 2 PLAC Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
 2 SOUR @PAR0005@
 3 QUAY 3
 1 BIRT
-2 DATE 11 AUG 1865
+2 DATE 20 AUG 1865
 2 PLAC Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
 2 SOUR @PAR0005@
 3 QUAY 3
 1 FAMS @F0007@
 1 FAMC @F0019@
 1 NOTE Ahnentafel position 25.
-1 NOTE Her 1876 baptism (PAR-0005, event E-0035) records her born 20 August 1875 and baptized 22 March 1876, naming her parents José do Rego Brandão (P-0040) and Rita Ignacia de Jesus (P-0041), family F-0019 — the primary basis for that couple. Her married name "Rita" derives from her mother. She also appears as a parent in her son Deocleciano's 1892 baptism (E-0034). [Dates corrected 7 August 2026 from PAR-0005 direct re-read: original transcription misread "vinte … setenta e cinco" as "onze … sessenta e cinco".]
+1 NOTE Her 1866 baptism (PAR-0005, event E-0035) records her born 20 August 1865 and baptized 22 March 1866, naming her parents José do Rego Brandão (P-0040) and Rita Ignacia de Jesus (P-0041), family F-0019 — the primary basis for that couple. Her married name "Rita" derives from her mother. She also appears as a parent in her son Deocleciano's 1892 baptism (E-0034). [Birth/baptism years definitively re-read from the image on 11 August 2026: the decade is "sessenta" (1865/1866). This corrects a 7 August 2026 edit that had changed it to "setenta" (1875/1876) — chronologically impossible, since she married by provisão in December 1882 (PAR-0001) and bore her daughter Anna on 19 November 1884 (PAR-0006). The day is "vinte" (20), not the older reading "onze" (11).]
 1 NOTE The original 1882 provision and the 1916 record of her son use materially different spellings. Both are preserved; no spelling is silently normalised.
 0 @P0021@ INDI
 1 NAME Francisco José de Carvalho /Guimarães/
@@ -985,20 +985,20 @@
 1 NOTE Barbacena roots (1 August 2026): baptised 9 September 1787 at the Capela de N.S. da Piedade, Borda do Campo (Barbacena), son of [Joaquim] José Ferreira de Toledo (P-0057) × Ritta Angélica Rodrigues (P-0058), family F-0028 — his own baptism (PAR-0019 → event E-0050). This is now CONFIRMED (upgraded from strong-evidence): the base scan was ink-bled and illegible, but the filiation was recovered by image processing (the …-alt scan) and the parents + 9-Sep-1787 date read clearly; the faded forename is corroborated by the index and the 1821 Carolina baptism (PAR-0017). His paternal grandparents (Gaspar Ferreira × Gertrudes Maria de Toledo, of Vila Rica) and maternal grandparents (João Rodrigues do Valle × Izabel Ribeira) are named in PAR-0018 as leads, not yet modelled. His marriage to Mathilde Maria de Jesus (P-0027) is now confirmed by the 1810 São João del Rei marriage record (PAR-0023 → event E-0052): both spouses are stated to be born and baptised in the Freguesia de Barbacena; the marriage supplies a second primary attestation of his parentage (Cap. Joaquim José × D. Ritta Angélica).
 1 NOTE Death bound tightened (5 August 2026): the 1862 Fazenda da Concórdia purchase deed (PRB-0007) identifies Matilde as "viúva de Ladisláo Egídio Ferreira de Toledo", placing his death before 2 August 1862. The previous bound ("before 1877", from PRB-0004 naming him as "finado") is superseded. His own estate was then settled in the Leopoldina Juízo de Órfãos (citation audiences 13 Nov 1880 and 6 Aug 1881 — those are process dates, not his death). His OWN estate was then settled as a contested partition in the Leopoldina Juízo de Órfãos (Juiz Dr. Fernando Pinheiro de Souza Tavares), with citation audiences on 13 Nov 1880 and 6 Aug 1881 ("inventario de Ladisláo Egydio Ferreira de Toledo … os bens do dicto finado Ladisláo"; requerente D. Umbelina Ignez de Toledo). Those 1880/81 dates are process dates, not his death; the heirs summoned are Matilde's descendants (Francisco Leocadio, Cesário José, Marianna Claudina, Simplício ⚭ Eliza, the namesake grandson, etc.). The audience images are held in the retrieval drop; not catalogued as a source (corroborative only).
 0 @P0057@ INDI
-1 NAME João José Ferreira de /Toledo/
-2 GIVN João José Ferreira de
-2 SURN Toledo
 1 NAME Joaquim José Ferreira de /Toledo/
+2 GIVN Joaquim José Ferreira de
+2 SURN Toledo
+1 NAME João José Ferreira de /Toledo/
 2 TYPE AKA
-2 SOUR @PAR0018@
-2 SOUR @PAR0019@
+2 SOUR @PAR0020@
+2 SOUR @PAR0021@
 1 SEX M
 1 OCCU Capitão
 2 SOUR @PAR0021@
 2 SOUR @PAR0023@
 1 FAMS @F0028@
 1 NOTE Father of Ladisláo Egídio Ferreira de Toledo (P-0056), confirmed by Ladisláo's own 1787 baptism (PAR-0019); hence Eliza Balbina de Toledo's (P-0017) great-great-grandfather. Married Ritta Angélica Rodrigues (P-0058, family F-0028) at Barbacena c.1786 (PAR-0018). Two of his daughters' marriages independently name the couple: Anna Belizaria (1812, PAR-0020) and Carolina Francelina (1816, PAR-0021) — both documented children on F-0028.
-1 NOTE Forename reconciliation (João vs Joaquim): the two clearer, later records name him "João José" — plainly "Capitão João José Ferreira de Toledo" in PAR-0021 (1816) and "João José" in PAR-0020 (1812). The earlier "Joaquim José" reads come from ink-bled scans (PAR-0018 marriage, PAR-0019 baptism) and are most likely a misread of "João"; "João José Ferreira de Toledo" is adopted as the preferred form and "Joaquim José" preserved as a source variant.
+1 NOTE Forename reconciliation (Joaquim vs João), re-read from the images 11 August 2026: "Joaquim José" is adopted as the preferred form. Three records name him Joaquim — his own 1786 marriage (PAR-0018) and his son Ladisláo's 1787 baptism (PAR-0019), and, decisively, the clean and legible 1810 marriage of Ladisláo × Mathilde (PAR-0023), which plainly reads "Capitão Joaquim José Ferreira de Toledo". The "João José" form appears only in the two faded daughters' marriages (PAR-0020, 1812; PAR-0021, 1816) and is preserved as a source variant. This SUPERSEDES an earlier choice of "João José", which had wrongly treated the 1812/1816 records as the clearer evidence; in fact PAR-0023 is the legible record and, with his own marriage, settles the name as Joaquim.
 1 NOTE His parents Gaspar Ferreira and Gertrudes Maria [de Toledo] are named in PAR-0018 (Gaspar of Vila Rica / Ouro Preto — the apparent origin of the family's "Ferreira" + "de Toledo" surname) but are not yet modelled as entities; recorded as a lead. Nationality Brazilian (a Barbacena / Minas Gerais family); no explicit birthplace of his own is stated in the located records.
 0 @P0058@ INDI
 1 NAME Ritta Angélica /Rodrigues/
@@ -2232,7 +2232,7 @@
 1 SOUR @PAR0019@
 1 SOUR @PAR0018@
 1 SOUR @PAR0017@
-1 NOTE Parents of Ladisláo Egídio Ferreira de Toledo (P-0056), confirmed by his 1787 baptism (PAR-0019) — extending Eliza's maternal Toledo line up to the Barbacena Ferreira de Toledo family. The couple is further corroborated by two daughters' marriages (PAR-0020 Anna Belizaria 1812; PAR-0021 Carolina Francelina 1816), both naming João José Ferreira de Toledo × Ritta Angélica Rodrigues. João José's own parents were Gaspar Ferreira × Gertrudes Maria [de Toledo] (Vila Rica); Ritta's were João Rodrigues [do Valle] × Izabel Ribeira (Borda do Campo) — both couples named in PAR-0018 but not yet modelled (leads).
+1 NOTE Parents of Ladisláo Egídio Ferreira de Toledo (P-0056), confirmed by his 1787 baptism (PAR-0019) — extending Eliza's maternal Toledo line up to the Barbacena Ferreira de Toledo family. The couple is further corroborated by two daughters' marriages (PAR-0020 Anna Belizaria 1812; PAR-0021 Carolina Francelina 1816), which record the father in the "João José" variant; his preferred form is "Joaquim José Ferreira de Toledo", per his own 1786 marriage (PAR-0018), Ladisláo's 1787 baptism (PAR-0019) and the legible 1810 marriage (PAR-0023). His own parents were Gaspar Ferreira × Gertrudes Maria [de Toledo] (Vila Rica); Ritta's were João Rodrigues [do Valle] × Izabel Ribeira (Borda do Campo) — both couples named in PAR-0018 but not yet modelled (leads).
 0 @F0029@ FAM
 1 HUSB @P0059@
 1 WIFE @P0060@
@@ -2768,13 +2768,13 @@
 1 NOTE Repository file: evidence/parish/PAR-0004-deocleciano-muniz-bittencourt-baptism-1892-sapucaia-p2.jpg
 1 OBJE @OBJPAR0004@
 0 @PAR0005@ SOUR
-1 TITL Parish baptism transcript of Susanna (Suzana) Rita Brandão (1876, transcribed 1882, Santo Antônio de Sapucaia), naming her parents
-1 TEXT The Santo Antônio de Sapucaia (RJ) parish register's 1882 transcript of the 1876 baptism of Susanna (Suzana) Rita Brandão (P-0020): born 20 August 1875, baptized 22 March 1876, filha legítima of José do Rego Brandão (P-0040) and Rita Ignacia de Jesus (P-0041). The godfather Antonio [uncertain: Castro/Caetano] Machado is named as her "avô materno" (maternal grandfather = Rita Ignacia's father). Presented 24 November 1882, the same year as the couple's marriage provision (PAR-0001). Note: an earlier transcription misread "vinte … setenta e cinco" as "onze … sessenta e cinco"; corrected 7 August 2026 on direct image re-read.
+1 TITL Parish baptism transcript of Susanna (Suzana) Rita Brandão (1866, transcribed 1882, Santo Antônio de Sapucaia), naming her parents
+1 TEXT The Santo Antônio de Sapucaia (RJ) parish register's 1882 transcript of the 1866 baptism of Susanna (Suzana) Rita Brandão (P-0020): born 20 August 1865, baptized 22 March 1866, filha legítima of José do Rego Brandão (P-0040) and Rita Ignacia de Jesus (P-0041). The godfather Antonio [uncertain: Castro/Caetano] Machado is named as her "avô materno" (maternal grandfather = Rita Ignacia's father). Presented 24 November 1882, the same year as the couple's marriage provision (PAR-0001). Note: the decade reads "sessenta" (1865/1866); a 7 August 2026 edit had wrongly read "setenta" (1875/1876) — impossible against her 1882 marriage (PAR-0001) and her daughter Anna's 1884 birth (PAR-0006). Corrected 11 August 2026 on image re-read.
 1 REPO @REPO0013@
 2 CALN livro batismos
 1 NOTE Evidence classification: parish_register; derivative; information primary; direct evidence.
-1 NOTE Transcription: [Paróquia de Santo Antônio de Sapucaia, RJ.] "Aos vinte e quatro dias de Novembro, de mil oito centos e oitenta e dous, nos foi apresentada a certidão seguinte: Aos vinte e dous dias do Março, de mil oito centos e setenta e seis, o Reverendo João Gonçalves Dias [uncertain: Gonçalves] baptizou solenizmente, a innocente Suzana, nascida a vinte de Agosto de mil oito centos setenta e cinco; filha legítima, de José do Rego Brandão, e de Rita [Ignacia?] de Jesus; sendo padrinhos, Antonio [uncertain: Castro/Caetano] Machado, avô materno, e [second godparent name uncertain]. Do que para eu conste, faço este assentamento, que assigino. O Vigario — Lourenço Gomes de Lima."
-1 NOTE Archival reference: 1882 register transcript (fl. 111-112) of the 22 March 1876 baptism, Livro de batismos, Paróquia de Santo Antônio de Sapucaia, RJ; the certidão was presented on 24 November 1882 (the year of the couple's marriage provision PAR-0001). Register image via the Familiaridade online gallery, delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026; baptism and birth dates corrected 7 August 2026 on direct re-read of the image (the original transcription misread "setenta" as "sessenta" and "vinte" as "onze").
+1 NOTE Transcription: [Paróquia de Santo Antônio de Sapucaia, RJ.] "Aos vinte e quatro dias de Novembro, de mil oito centos e oitenta e dous, nos foi apresentada a certidão seguinte: Aos vinte e dous dias do Março, de mil oito centos e sessenta e seis, o Reverendo João Gonçalves Dias [uncertain: Gonçalves] baptizou solenizmente, a innocente Suzana, nascida a vinte de Agosto de mil oito centos sessenta e cinco; filha legítima, de José do Rego Brandão, e de Rita [Ignacia?] de Jesus; sendo padrinhos, Antonio [uncertain: Castro/Caetano] Machado, avô materno, e [second godparent name uncertain]. Do que para eu conste, faço este assentamento, que assigino. O Vigario — Lourenço Gomes de Lima."
+1 NOTE Archival reference: 1882 register transcript (fl. 111-112) of the 22 March 1866 baptism, Livro de batismos, Paróquia de Santo Antônio de Sapucaia, RJ; the certidão was presented on 24 November 1882 (the year of the couple's marriage provision PAR-0001). Register image via the Familiaridade online gallery, delivered through the research/from-retrieval/ sync; read and promoted 31 July 2026. Dates definitively re-read 11 August 2026 on the image: born "vinte de Agosto de mil oito centos sessenta e cinco" (20 August 1865), baptized "vinte e dous dias do Março de mil oito centos e sessenta e seis" (22 March 1866). This supersedes a 7 August 2026 edit that had wrongly changed the decade "sessenta" to "setenta" (yielding 1875/1876) — chronologically impossible, as she married by provisão in December 1882 (PAR-0001) and bore her daughter Anna on 19 November 1884 (PAR-0006). An even earlier reading had "onze" (11) for the day; the image reads "vinte" (20).
 1 NOTE Repository file: evidence/parish/PAR-0005-susanna-rita-brandao-baptism-1866-sapucaia.jpg
 1 OBJE @OBJPAR0005@
 0 @PAR0006@ SOUR
@@ -3340,7 +3340,7 @@
 0 @OBJPAR0005@ OBJE
 1 FILE evidence/parish/PAR-0005-susanna-rita-brandao-baptism-1866-sapucaia.jpg
 2 FORM image/jpeg
-2 TITL Parish baptism transcript of Susanna (Suzana) Rita Brandão (1876, transcribed 1882, Santo Antônio de Sapucaia), naming her parents
+2 TITL Parish baptism transcript of Susanna (Suzana) Rita Brandão (1866, transcribed 1882, Santo Antônio de Sapucaia), naming her parents
 1 NOTE sha256: af601100fa77c62d11fb55cab2f3139a72fa5e71144b19c738d9aefad3efa888
 0 @OBJPAR0006@ OBJE
 1 FILE evidence/parish/PAR-0006-anna-muniz-bittencourt-baptism-1885-sapucaia.jpg

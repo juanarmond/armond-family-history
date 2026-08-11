@@ -12,6 +12,12 @@ also remain traceable through source records and research logs.
 - **Rolled out to all 78 deceased modelled people** (P-0004–P-0081; the 3 living are gated out). Written by five parallel agents over disjoint P-ID ranges, each **reconciled to our own sources/IDs and evidence tiers** (our data wins over the retrieval-agent drafts; unsupported draft claims dropped or tagged `[LEAD]`), bilingual EN + PT. Depth scales to the evidence (full portraits for well-documented ancestors, short stubs for thinly-attested ones).
 - data-loader projects `profile`/`profilePt`; JS test covers projection + living-person gating. 291 entities; 69 tests + 24 JS tests pass.
 
+### Fixed — resolve two evidence conflicts by re-reading the record images (2026-08-11)
+
+- **P-0020 Susanna Rita Brandão — birth/baptism year.** Direct re-read of her baptism image (PAR-0005) settles the decade as *sessenta*: **born 20 August 1865, baptized 22 March 1866** (not the 1875/1876 a 7 Aug 2026 edit had produced by reading *setenta*). The 1875 reading was chronologically impossible — corroborated by PAR-0001 (marriage provisão, Dec 1882) and PAR-0006 (daughter Anna born 19 Nov 1884), which would have made her 7 and 9. Normalised across PAR-0005 (event_date, transcription, abstract EN/PT), events E-0035/E-0041, P-0020/P-0040/P-0041 (notes + profiles, the birth-year `[OPEN]` now resolved) and record-coverage; the day was also corrected from the older *onze* (11) to *vinte* (20). Reading history preserved.
+- **P-0057 — forename Joaquim vs João.** Re-reading all five of his documents inverts the repository's prior choice: the clean, legible 1810 marriage (PAR-0023) reads **"Capitão Joaquim José Ferreira de Toledo"**, matching his own 1786 marriage (PAR-0018) and son's 1787 baptism (PAR-0019); "João José" appears only in the two *faded* daughters' marriages (PAR-0020 1812, PAR-0021 1816). Preferred name changed **João José → Joaquim José Ferreira de Toledo** (which also makes P-0057 consistent with the connected entities that already used Joaquim); "João José" kept as a source variant. Source records keep their as-recorded forms. Superseded choice preserved in the note.
+- GEDCOM + viewer index regenerated (291 entities); 69 tests + 24 JS tests pass.
+
 ### Fixed — reconcile stale relationship notes to the settled lineage (2026-08-11)
 
 - Writing the portraits surfaced pre-existing notes that still carried superseded readings and now contradicted the structured data. Corrected, with the superseded reading preserved (not erased):

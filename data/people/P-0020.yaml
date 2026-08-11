@@ -33,22 +33,27 @@ notes:
 - text: Ahnentafel position 25.
   text_pt: Posição 25 no Ahnentafel.
 - text: >-
-    Her 1876 baptism (PAR-0005, event E-0035) records her born 20 August 1875 and
-    baptized 22 March 1876, naming her parents José do Rego Brandão (P-0040) and
+    Her 1866 baptism (PAR-0005, event E-0035) records her born 20 August 1865 and
+    baptized 22 March 1866, naming her parents José do Rego Brandão (P-0040) and
     Rita Ignacia de Jesus (P-0041), family F-0019 — the primary basis for that
     couple. Her married name "Rita" derives from her mother. She also appears as a
-    parent in her son Deocleciano's 1892 baptism (E-0034). [Dates corrected 7 August
-    2026 from PAR-0005 direct re-read: original transcription misread "vinte …
-    setenta e cinco" as "onze … sessenta e cinco".]
+    parent in her son Deocleciano's 1892 baptism (E-0034). [Birth/baptism years
+    definitively re-read from the image on 11 August 2026: the decade is "sessenta"
+    (1865/1866). This corrects a 7 August 2026 edit that had changed it to "setenta"
+    (1875/1876) — chronologically impossible, since she married by provisão in December
+    1882 (PAR-0001) and bore her daughter Anna on 19 November 1884 (PAR-0006). The day
+    is "vinte" (20), not the older reading "onze" (11).]
   text_pt: >-
-    Seu batismo de 1876 (PAR-0005, evento E-0035) a registra nascida em 20 de agosto
-    de 1875 e batizada em 22 de março de 1876, nomeando seus pais José do Rego Brandão
+    Seu batismo de 1866 (PAR-0005, evento E-0035) a registra nascida em 20 de agosto
+    de 1865 e batizada em 22 de março de 1866, nomeando seus pais José do Rego Brandão
     (P-0040) e Rita Ignacia de Jesus (P-0041), família F-0019 — a base primária para
     esse casal. Seu nome de casada "Rita" deriva de sua mãe. Ela também aparece como
-    genitora no batismo de 1892 de seu filho Deocleciano (E-0034). [Datas corrigidas
-    em 7 de agosto de 2026 a partir de nova leitura direta de PAR-0005: a transcrição
-    original leu erroneamente "vinte … setenta e cinco" como "onze … sessenta e
-    cinco".]
+    genitora no batismo de 1892 de seu filho Deocleciano (E-0034). [Anos de
+    nascimento/batismo relidos definitivamente da imagem em 11 de agosto de 2026: a
+    década é "sessenta" (1865/1866). Isso corrige uma edição de 7 de agosto de 2026 que
+    a havia alterado para "setenta" (1875/1876) — cronologicamente impossível, pois ela
+    se casou por provisão em dezembro de 1882 (PAR-0001) e teve sua filha Anna em 19 de
+    novembro de 1884 (PAR-0006). O dia é "vinte" (20), não a leitura antiga "onze" (11).]
 - text: >-
     The original 1882 provision and the 1916 record of her son use materially
     different spellings. Both are preserved; no spelling is silently
@@ -70,10 +75,11 @@ profile: >-
   - **Maternal grandfather:** Antonio Caetano Machado (P-0045), named "avô materno" and a
   godfather at her baptism (PAR-0005).
 
-  - **Birth and baptism:** her baptism (PAR-0005, a certidão transcribed into the Sapucaia
-  book on 24 November 1882) reads, as literally re-read on 7 August 2026, born 20 August
-  1875 and baptized 22 March 1876 [PROVEN as read] — but this date is contested (see Open
-  questions).
+  - **Birth and baptism:** born 20 August 1865, baptized 22 March 1866 [PROVEN] — her
+  baptism (PAR-0005, a certidão transcribed into the Sapucaia book on 24 November 1882),
+  definitively re-read from the image on 11 August 2026: "nascida a vinte de Agosto de mil
+  oito centos sessenta e cinco". A 7 August 2026 edit had briefly misread the decade as
+  "setenta" (1875/1876); see the note below.
 
   - **Marriage:** to João Monis Bittencourt (P-0019), by provisão of 23 December 1882 for
   the Sapucaia matriz (PAR-0001).
@@ -93,15 +99,17 @@ profile: >-
   social mechanism that brought the two families together (PAR-0006). [INFERRED] She moved
   with the family from Sapucaia (RJ) to Carangola (MG), where she was widowed in 1915.
 
-  ## Open questions
+  ## Note on the birth-year reading (resolved)
 
-  - **Her birth year is a material conflict** [OPEN]. As literally read, PAR-0005 gives 20
-  August 1875 (bapt. 22 March 1876); but her marriage provisão of December 1882 (PAR-0001)
-  and her daughter Anna's birth on 19 November 1884 (PAR-0006) both require her to have
-  been born well before 1875 — a mother cannot bear a child at age nine. The retrieval
-  agent's 2026-08-10 re-read of the same act gives born 20 August 1865 (bapt. 22 March
-  1866), which removes the contradiction. The repository still carries 1875 pending a
-  resolving re-read; the reading history is preserved, not erased.
+  Her birth year was briefly contested. A 7 August 2026 edit read the baptism's decade as
+  "setenta" (born 1875, bapt. 1876); that is chronologically impossible, since she married
+  by provisão in December 1882 (PAR-0001) and bore her daughter Anna on 19 November 1884
+  (PAR-0006) — she cannot have been 7 and 9 years old. A direct image re-read on 11 August
+  2026 confirms the decade is "sessenta": **born 20 August 1865, baptized 22 March 1866**,
+  which fits the chronology (she married at 17, bore Anna at 19). The reading history is
+  preserved, not erased. [PROVEN]
+
+  ## Open questions
 
   - Her death record (Carangola, after 1915) — not held. [OPEN]
 
@@ -127,10 +135,11 @@ profile_pt: >-
   - **Avô materno:** Antonio Caetano Machado (P-0045), nomeado "avô materno" e padrinho em
   seu batismo (PAR-0005).
 
-  - **Nascimento e batismo:** seu batismo (PAR-0005, uma certidão transcrita no livro de
-  Sapucaia em 24 de novembro de 1882) diz, conforme nova leitura literal de 7 de agosto de
-  2026, nascida em 20 de agosto de 1875 e batizada em 22 de março de 1876 [PROVEN conforme
-  lido] — mas essa data é contestada (ver Questões em aberto).
+  - **Nascimento e batismo:** nascida em 20 de agosto de 1865, batizada em 22 de março de
+  1866 [PROVEN] — seu batismo (PAR-0005, uma certidão transcrita no livro de Sapucaia em 24
+  de novembro de 1882), relido definitivamente da imagem em 11 de agosto de 2026: "nascida a
+  vinte de Agosto de mil oito centos sessenta e cinco". Uma edição de 7 de agosto de 2026
+  havia lido erroneamente a década como "setenta" (1875/1876); ver a nota abaixo.
 
   - **Casamento:** com João Monis Bittencourt (P-0019), por provisão de 23 de dezembro de
   1882 para a matriz de Sapucaia (PAR-0001).
@@ -150,16 +159,18 @@ profile_pt: >-
   mecanismo social que aproximou as duas famílias (PAR-0006). [INFERRED] Mudou-se com a
   família de Sapucaia (RJ) para Carangola (MG), onde enviuvou em 1915.
 
-  ## Questões em aberto
+  ## Nota sobre a leitura do ano de nascimento (resolvida)
 
-  - **O ano de seu nascimento é um conflito material** [OPEN]. Conforme lido literalmente,
-  PAR-0005 dá 20 de agosto de 1875 (bat. 22 de março de 1876); mas sua provisão de
-  casamento de dezembro de 1882 (PAR-0001) e o nascimento de sua filha Anna em 19 de
-  novembro de 1884 (PAR-0006) exigem, ambos, que ela tenha nascido bem antes de 1875 — uma
-  mãe não pode ter um filho aos nove anos. A nova leitura do mesmo assento pelo agente de
-  recuperação (10/08/2026) dá nascida em 20 de agosto de 1865 (bat. 22 de março de 1866),
-  o que remove a contradição. O repositório ainda mantém 1875 até uma releitura
-  resolutiva; o histórico de leitura é preservado, não apagado.
+  O ano de seu nascimento esteve brevemente em disputa. Uma edição de 7 de agosto de 2026
+  leu a década do batismo como "setenta" (nascida em 1875, bat. 1876); isso é
+  cronologicamente impossível, pois ela se casou por provisão em dezembro de 1882 (PAR-0001)
+  e teve sua filha Anna em 19 de novembro de 1884 (PAR-0006) — não pode ter tido 7 e 9 anos.
+  Uma releitura direta da imagem em 11 de agosto de 2026 confirma que a década é "sessenta":
+  **nascida em 20 de agosto de 1865, batizada em 22 de março de 1866**, o que condiz com a
+  cronologia (casou-se aos 17, teve Anna aos 19). O histórico de leitura é preservado, não
+  apagado. [PROVEN]
+
+  ## Questões em aberto
 
   - Seu registro de óbito (Carangola, após 1915) — não obtido. [OPEN]
 

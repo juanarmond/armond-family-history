@@ -3,8 +3,8 @@ id: E-0035
 event_type: baptism
 date:
   kind: exact
-  value: "1876-03-22"
-  original_text: Aos vinte e dous dias do Março, de mil oito centos e setenta e seis
+  value: "1866-03-22"
+  original_text: Aos vinte e dous dias do Março, de mil oito centos e sessenta e seis
 place_text: >-
   Santo Antônio de Sapucaia, Rio de Janeiro, Brazil
 participants:
@@ -19,10 +19,13 @@ source_ids:
 - PAR-0005
 notes:
 - text: >-
-    Baptism of Susanna (Suzana) Rita Brandão (P-0020) on 22 March 1876, born 20
-    August 1875, a legitimate daughter of José do Rego Brandão (P-0040) and Rita
+    Baptism of Susanna (Suzana) Rita Brandão (P-0020) on 22 March 1866, born 20
+    August 1865, a legitimate daughter of José do Rego Brandão (P-0040) and Rita
     Ignacia de Jesus (P-0041), per the parish register transcript (PAR-0005). Her
     maternal grandfather Antonio Caetano Machado (P-0045) stood as godfather (the
     baptism reads the name ambiguously; resolved to Caetano via his 1868 óbito).
-    [Dates corrected 7 August 2026: earlier transcription read "onze … sessenta e
-    cinco" but the image clearly reads "vinte … setenta e cinco" = 20 Aug 1875/1876.]
+    [Dates corrected 11 August 2026 on image re-read: born "vinte de Agosto … sessenta
+    e cinco" = 20 Aug 1865, baptized "sessenta e seis" = 22 Mar 1866. This supersedes a
+    7 August 2026 edit that read the decade as "setenta" (1875/1876) — chronologically
+    impossible: she married by provisão in Dec 1882 (PAR-0001) and bore daughter Anna in
+    Nov 1884 (PAR-0006).]

@@ -1,29 +1,31 @@
 schema_version: 1
 id: P-0057
-preferred_name: João José Ferreira de Toledo
+preferred_name: Joaquim José Ferreira de Toledo
 privacy: deceased
 sex: male
 nationality: Brazilian
 name_variants:
-- value: João José Ferreira de Toledo
-  type: source
-  source_ids:
-  - PAR-0020
-  - PAR-0021
 - value: Joaquim José Ferreira de Toledo
   type: source
   source_ids:
   - PAR-0018
   - PAR-0019
+  - PAR-0023
+- value: João José Ferreira de Toledo
+  type: source
+  source_ids:
+  - PAR-0020
+  - PAR-0021
 occupations:
 - value: Capitão
   source_ids:
   - PAR-0021
   - PAR-0023
   note: >-
-    Styled "Capitão João José Ferreira de Toledo" in his daughter Carolina
-    Francelina's 1816 marriage (PAR-0021) and again in the 1810 Ladisláo × Mathilde
-    marriage (PAR-0023) — a militia/ordenanças captaincy, indicating local standing.
+    Styled "Capitão" in his daughter Carolina Francelina's 1816 marriage (PAR-0021, as
+    "Capitão João José Ferreira de Toledo") and in the 1810 Ladisláo × Mathilde marriage
+    (PAR-0023, as "Capitão Joaquim José Ferreira de Toledo") — a militia/ordenanças
+    captaincy, indicating local standing.
 event_ids:
 - E-0050
 - E-0052
@@ -45,20 +47,27 @@ notes:
     suas filhas nomeiam independentemente o casal: Anna Belizaria (1812, PAR-0020)
     e Carolina Francelina (1816, PAR-0021) — ambas filhas documentadas em F-0028.
 - text: >-
-    Forename reconciliation (João vs Joaquim): the two clearer, later records name him
-    "João José" — plainly "Capitão João José Ferreira de Toledo" in PAR-0021 (1816) and
-    "João José" in PAR-0020 (1812). The earlier "Joaquim José" reads come from
-    ink-bled scans (PAR-0018 marriage, PAR-0019 baptism) and are most likely a misread
-    of "João"; "João José Ferreira de Toledo" is adopted as the preferred form and
-    "Joaquim José" preserved as a source variant.
+    Forename reconciliation (Joaquim vs João), re-read from the images 11 August 2026:
+    "Joaquim José" is adopted as the preferred form. Three records name him Joaquim — his
+    own 1786 marriage (PAR-0018) and his son Ladisláo's 1787 baptism (PAR-0019), and,
+    decisively, the clean and legible 1810 marriage of Ladisláo × Mathilde (PAR-0023),
+    which plainly reads "Capitão Joaquim José Ferreira de Toledo". The "João José" form
+    appears only in the two faded daughters' marriages (PAR-0020, 1812; PAR-0021, 1816)
+    and is preserved as a source variant. This SUPERSEDES an earlier choice of "João
+    José", which had wrongly treated the 1812/1816 records as the clearer evidence; in
+    fact PAR-0023 is the legible record and, with his own marriage, settles the name as
+    Joaquim.
   text_pt: >-
-    Reconciliação de prenome (João vs Joaquim): os dois registros mais claros e
-    mais tardios o nomeiam "João José" — claramente "Capitão João José Ferreira
-    de Toledo" em PAR-0021 (1816) e "João José" em PAR-0020 (1812). As leituras
-    mais antigas de "Joaquim José" vêm de scans borrados de tinta (o casamento
-    PAR-0018, o batismo PAR-0019) e são muito provavelmente uma leitura equivocada
-    de "João"; "João José Ferreira de Toledo" é adotado como a forma preferencial
-    e "Joaquim José" preservado como variante de fonte.
+    Reconciliação de prenome (Joaquim vs João), relida a partir das imagens em 11 de
+    agosto de 2026: "Joaquim José" é adotado como a forma preferencial. Três registros o
+    nomeiam Joaquim — seu próprio casamento de 1786 (PAR-0018) e o batismo de 1787 de seu
+    filho Ladisláo (PAR-0019) e, decisivamente, o casamento limpo e legível de 1810 de
+    Ladisláo × Mathilde (PAR-0023), que lê claramente "Capitão Joaquim José Ferreira de
+    Toledo". A forma "João José" aparece apenas nos dois casamentos borrados das filhas
+    (PAR-0020, 1812; PAR-0021, 1816) e é preservada como variante de fonte. Isso SUPERA
+    uma escolha anterior de "João José", que tratara erroneamente os registros de
+    1812/1816 como a evidência mais clara; na verdade PAR-0023 é o registro legível e,
+    com seu próprio casamento, fixa o nome como Joaquim.
 - text: >-
     His parents Gaspar Ferreira and Gertrudes Maria [de Toledo] are named in PAR-0018
     (Gaspar of Vila Rica / Ouro Preto — the apparent origin of the family's "Ferreira"
@@ -75,14 +84,15 @@ notes:
 profile: >-
   ## Identity
 
-  Preferred **João José Ferreira de Toledo** — the two clearer, later records (his
-  daughters' 1812 and 1816 marriages, PAR-0020 / PAR-0021) plainly read "João José" /
-  "Capitão João José Ferreira de Toledo"; the ink-bled earlier reads (PAR-0018 marriage,
-  PAR-0019 baptism) and the 1810 São João del Rei marriage (PAR-0023) instead write
-  "Joaquim José" [PROVEN for both forms; João José adopted as preferred, Joaquim José kept
-  as a source variant]. This is a documented, unresolved naming choice: the retrieval
-  synthesis argues for "Joaquim José" from a max-zoom read of his own marriage folio; the
-  repository keeps "João José" on the strength of the clear 1812/1816 reads.
+  Preferred **Joaquim José Ferreira de Toledo** — his own 1786 marriage (PAR-0018), his
+  son Ladisláo's 1787 baptism (PAR-0019), and the clean, legible 1810 São João del Rei
+  marriage of Ladisláo × Mathilde (PAR-0023) all name him "Joaquim José" / "Capitão
+  Joaquim José Ferreira de Toledo" [PROVEN]. The "João José" form is attested only in the
+  two faded daughters' marriages (PAR-0020, 1812; PAR-0021, 1816) and is kept as a source
+  variant [PROVEN for both forms]. A direct image re-read (11 August 2026) settled this in
+  favour of Joaquim: PAR-0023 is the clearest record and reads Joaquim, and his own
+  marriage confirms it — superseding an earlier choice of "João José" that had over-weighted
+  the two faded 1812/1816 reads.
 
   - He is the father of Ladisláo Egídio Ferreira de Toledo (P-0056), hence Eliza Balbina de
   Toledo's (P-0017) great-great-grandfather.
@@ -120,8 +130,6 @@ profile: >-
 
   ## Open questions
 
-  - His forename (João vs Joaquim) at a definitive legibility. [OPEN]
-
   - His parents (Gaspar Ferreira × Gertrudes Maria) at modelled/primary level, and his own
   birth at Vila Rica. [OPEN]
 
@@ -141,15 +149,15 @@ profile: >-
 profile_pt: >-
   ## Identidade
 
-  Preferido **João José Ferreira de Toledo** — os dois registros mais claros e mais tardios
-  (os casamentos de suas filhas em 1812 e 1816, PAR-0020 / PAR-0021) leem claramente "João
-  José" / "Capitão João José Ferreira de Toledo"; as leituras mais antigas e borradas de
-  tinta (o casamento PAR-0018, o batismo PAR-0019) e o casamento de 1810 em São João del
-  Rei (PAR-0023) trazem, em vez disso, "Joaquim José" [PROVEN para ambas as formas; João
-  José adotado como preferido, Joaquim José mantido como variante de fonte]. Trata-se de
-  uma escolha de nome documentada e não resolvida: a síntese de recuperação defende
-  "Joaquim José" a partir de uma leitura em zoom máximo de seu próprio assento de casamento;
-  o repositório mantém "João José" pela clareza das leituras de 1812/1816.
+  Preferido **Joaquim José Ferreira de Toledo** — seu próprio casamento de 1786 (PAR-0018),
+  o batismo de 1787 de seu filho Ladisláo (PAR-0019) e o casamento limpo e legível de 1810
+  em São João del Rei de Ladisláo × Mathilde (PAR-0023) todos o nomeiam "Joaquim José" /
+  "Capitão Joaquim José Ferreira de Toledo" [PROVEN]. A forma "João José" só é atestada nos
+  dois casamentos borrados das filhas (PAR-0020, 1812; PAR-0021, 1816) e é mantida como
+  variante de fonte [PROVEN para ambas as formas]. Uma releitura direta da imagem (11 de
+  agosto de 2026) resolveu em favor de Joaquim: PAR-0023 é o registro mais claro e lê
+  Joaquim, e seu próprio casamento o confirma — superando uma escolha anterior de "João
+  José" que sobrevalorizara as duas leituras borradas de 1812/1816.
 
   - É o pai de Ladisláo Egídio Ferreira de Toledo (P-0056) e, portanto, trisavô de Eliza
   Balbina de Toledo (P-0017).
@@ -187,8 +195,6 @@ profile_pt: >-
   tornar-se herdeira numerada do espólio da Concórdia uma geração depois. [INFERRED]
 
   ## Questões em aberto
-
-  - Seu prenome (João vs Joaquim) em uma legibilidade definitiva. [OPEN]
 
   - Seus pais (Gaspar Ferreira × Gertrudes Maria) em nível modelado/primário, e seu próprio
   nascimento em Vila Rica. [OPEN]
