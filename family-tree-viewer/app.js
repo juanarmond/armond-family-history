@@ -797,8 +797,8 @@ function openPortrait(person) {
   heading.textContent = `${t("detail.portrait")} — ${person.name}`;
   const closeBtn = document.createElement("button");
   closeBtn.type = "button";
-  closeBtn.className = "reader-close";
-  closeBtn.textContent = "✕";
+  closeBtn.className = "portrait-close";
+  closeBtn.textContent = "×";
   closeBtn.setAttribute("aria-label", t("reader.close"));
   closeBtn.addEventListener("click", closePortrait);
   header.append(heading, closeBtn);

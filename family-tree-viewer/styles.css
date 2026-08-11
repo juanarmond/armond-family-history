@@ -1043,6 +1043,22 @@ button.source-link { cursor: pointer; }
   padding: .9rem 1.3rem; border-bottom: 1px solid var(--rule); background: var(--paper);
 }
 .portrait-panel-heading { font-family: var(--serif); font-size: 1rem; color: var(--ink); }
+.portrait-close {
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  width: 2.35rem;
+  height: 2.35rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 50%;
+  background: var(--card);
+  color: var(--muted);
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background .15s ease, color .15s ease, border-color .15s ease;
+}
+.portrait-close:hover { background: var(--gold-soft); border-color: var(--gold); color: var(--green-deep); }
 .portrait-panel-body { padding: 1.2rem 1.4rem; overflow-y: auto; }
 .reader-hint {
   padding: .45rem 1rem;
@@ -1254,7 +1270,7 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
     border-radius: 999px;
     background: var(--rule-strong);
   }
-  .close-button { min-width: 2.75rem; min-height: 2.75rem; }
+  .close-button, .portrait-close { min-width: 2.75rem; min-height: 2.75rem; }
 }
 
 @media (prefers-reduced-motion: no-preference) {
