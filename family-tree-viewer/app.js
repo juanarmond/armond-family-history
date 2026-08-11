@@ -769,6 +769,57 @@ function closeReader() {
   }
 }
 
+// The "Portrait / Retrato" layer: a right-side slide-over drawer opened from the
+// "More details" link under the biography, holding the full evidence-tiered profile.
+let portraitKeyHandler = null;
+function closePortrait() {
+  const overlay = document.querySelector(".portrait-overlay");
+  if (overlay) overlay.remove();
+  if (portraitKeyHandler) {
+    document.removeEventListener("keydown", portraitKeyHandler);
+    portraitKeyHandler = null;
+  }
+}
+function openPortrait(person) {
+  closePortrait();
+  const text = localeText(person.profile, person.profilePt);
+  if (!text) return;
+  const overlay = document.createElement("div");
+  overlay.className = "portrait-overlay";
+  overlay.addEventListener("mousedown", (event) => {
+    if (event.target === overlay) closePortrait();
+  });
+
+  const drawer = document.createElement("div");
+  drawer.className = "portrait-drawer";
+
+  const header = document.createElement("div");
+  header.className = "portrait-drawer-header";
+  const heading = document.createElement("div");
+  heading.className = "portrait-drawer-heading";
+  heading.textContent = `${t("detail.portrait")} — ${person.name}`;
+  const closeBtn = document.createElement("button");
+  closeBtn.type = "button";
+  closeBtn.className = "reader-close";
+  closeBtn.textContent = "✕";
+  closeBtn.setAttribute("aria-label", t("reader.close"));
+  closeBtn.addEventListener("click", closePortrait);
+  header.append(heading, closeBtn);
+
+  const body = document.createElement("div");
+  body.className = "portrait portrait-drawer-body";
+  renderPortrait(body, text);
+
+  drawer.append(header, body);
+  overlay.append(drawer);
+  document.body.appendChild(overlay);
+
+  portraitKeyHandler = (event) => {
+    if (event.key === "Escape") closePortrait();
+  };
+  document.addEventListener("keydown", portraitKeyHandler);
+}
+
 // Render a transcript, styling only genuine gap/uncertainty markers ([torn],
 // [illegible], [uncertain: …], [sic], [?], [...]) distinctly — editorial context
 // brackets and page citations stay as normal text. Built with text nodes (no HTML).
@@ -1172,6 +1223,7 @@ function fanList(refs) {
 function openDetails(personId) {
   const person = state.data.people[personId];
   if (!person) return;
+  closePortrait();
 
   elements.detailsId.textContent = person.id;
   elements.detailsTitle.textContent = person.name;
@@ -1188,12 +1240,16 @@ function openDetails(personId) {
   const bio = biographyParagraph(person);
   if (bio) elements.detailsContent.append(section(t("detail.biography"), bio));
 
-  const portraitText = localeText(person.profile, person.profilePt);
-  if (portraitText) {
-    const portrait = document.createElement("div");
-    portrait.className = "portrait";
-    renderPortrait(portrait, portraitText);
-    elements.detailsContent.append(section(t("detail.portrait"), portrait));
+  if (localeText(person.profile, person.profilePt)) {
+    const moreWrap = document.createElement("div");
+    moreWrap.className = "portrait-more";
+    const moreBtn = document.createElement("button");
+    moreBtn.type = "button";
+    moreBtn.className = "portrait-more-btn";
+    moreBtn.textContent = t("detail.moreDetails");
+    moreBtn.addEventListener("click", () => openPortrait(person));
+    moreWrap.appendChild(moreBtn);
+    elements.detailsContent.append(moreWrap);
   }
 
   const relationship = relationshipContent(person);
@@ -1289,6 +1345,7 @@ function openDetails(personId) {
 }
 
 function closeDetails() {
+  closePortrait();
   elements.detailsPanel.hidden = true;
   elements.backdrop.hidden = true;
   state.selected = null;
