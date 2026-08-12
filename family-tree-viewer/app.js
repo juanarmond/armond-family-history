@@ -1268,9 +1268,14 @@ function openDetails(personId) {
     [t("fact.privacy"), vocab("privacy", person.privacy)],
     [t("fact.sources"), String(person.sourceCount)],
     [t("fact.contextRefs"), String((person.fanReferences || []).length)],
-    [t("fact.birthplace"), localePlace(person.events.find((event) => event.type === "birth")?.place?.name) || t("value.notEstablished")],
+    // Birthplace falls back to the person's own baptism place when no birth
+    // event is held — for pre-registration ancestors the baptism parish is the
+    // birthplace. person.events is already role-filtered to the subject
+    // (principal/spouse/partner), so a parent's role in a child's baptism never
+    // leaks here. Death likewise falls back to a burial place.
+    [t("fact.birthplace"), localePlace((person.events.find((event) => event.type === "birth") || person.events.find((event) => event.type === "baptism"))?.place?.name) || t("value.notEstablished")],
     [t("fact.nationality"), nationalityValue(person.nationality)],
-    [t("fact.deathplace"), localePlace(person.events.find((event) => event.type === "death")?.place?.name) || t("value.notEstablished")],
+    [t("fact.deathplace"), localePlace((person.events.find((event) => event.type === "death") || person.events.find((event) => event.type === "burial"))?.place?.name) || t("value.notEstablished")],
   ];
   for (const [term, value] of factRows) {
     const dt = document.createElement("dt");

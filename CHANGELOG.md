@@ -5,6 +5,10 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — birthplace/death-place fall back to baptism/burial in the person panel (2026-08-12)
+
+- The detail panel's **"Local de nascimento"** read *only* `birth`-type events, so ancestors held via a baptism record (no separate birth event) showed "Não estabelecido" even though the baptism names the parish — 5 people currently (Ladisláo P-0056, Rosa Eugenia de Lemos P-0035, Johann Jacob Wehrli P-0072, Elisabetha Borer P-0073, João Rodrigues Valle P-0078). Birthplace now falls back to the person's **own baptism place**, and death-place to a **burial place**, when the primary event is absent. Safe because `person.events` is already role-filtered to the subject (principal/spouse/partner), so a parent named in a child's baptism never leaks in. Viewer-only (app.js); no data change.
+
 ### Fixed — generation labels on the deep Toledo line, relative to Eliza (2026-08-12)
 
 - Prose-only correction (no structural change): several profiles/notes labelled Eliza's (P-0017) Toledo ancestors one generation too deep — counting from her son Aristão rather than from Eliza. Corrected against the F-0026/F-0027 chain: **Ladisláo (P-0056) & Mathilde (P-0027) are Eliza's grandparents** (P-0027 had been written "great-great-grandmother"/*trisavó*, off by two, and her husband "great-grandfather"/*bisavô*); **Joaquim José (P-0057), Rita (P-0058), Amaro da Silva Xavier (P-0059) & Ignez (P-0060) are Eliza's great-grandparents** (had been "great-great-grandparent"/*trisavô/ó*). PAR-0018's "Ladisláo — Eliza's great-grandfather" → grandfather. 14 phrase fixes across 6 files (EN + PT), count-asserted. Labels relative to Aristão (P-0056) and the true great-great-grandparents (P-0064/65/78/79) were already correct and left unchanged. `make check` green (317 entities).
