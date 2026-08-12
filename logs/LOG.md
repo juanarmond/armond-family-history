@@ -5,6 +5,12 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-08-12 — Officiant check on the held Toledo records (Armond-clergy claim): bounded negative
+
+- Question: does a Ferreira Armond priest officiate any of our four held Barbacena Toledo records (PAR-0018/0019/0020/0021)? The retrieval FINDINGS claim Armond priests performed the Toledo sacraments 1780s–1821.
+- Key results: **NOT confirmed.** Legible officiants — PAR-0018 (1786): Dr. José Batista das Flores (provision) / Pe. Antonio Teles / Vig. José Feliciano; PAR-0019 (1787): Vig. Dom Agostinho [Pinto] de Castro; PAR-0021 (1816): Vig. Manoel Sousa de Oliveira. The worn mid-entry celebrant names on PAR-0020 (1812) and PAR-0021 (1816) read "Rev. Pe. José Jorge/João Ferreira [surname illegible]" — POSSIBLY the FINDINGS' "José João Ferreira Armonde de Lima", but not legible enough to promote. Bounded negative recorded on F-0028; no Armond FAN entity created; flagged for a higher-resolution re-read of those two celebrant lines.
+- No entity/data change beyond the F-0028 note.
+
 ## 2026-08-11 — Collateral Armond leads: value-gate disposition (no promotion)
 
 - Question: value-gate the collateral/Barbacena Armond material in the drop (COARPE 55816337; the RJ/JF newspaper sweep; the Itaperuna network).
