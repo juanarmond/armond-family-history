@@ -514,11 +514,40 @@ people:
   - record_type: birth
     status: unsearched
     source_ids: []
-    last_reviewed: "2026-07-28"
+    last_reviewed: "2026-08-11"
     next_action: >-
       First verify the identity and fuller name through Aristão's birth,
       baptism or marriage record; then search this person's own earlier record.
-    notes: []
+    notes:
+    - text: >-
+        Collateral Barbacena Armond leads to cross-search when hunting Simplício's
+        parents (2026-08-11 value gate) — connection to this P-0016 is UNPROVEN in
+        every case; do NOT merge. From COARPE 55816337 (Barbacena 1831 execução, PDF
+        held): the creditor Tenente Coronel Simplício José Ferreira Armonde is the
+        ELDER Simplício (b.1785, Barbacena; solteiro/childless per the Lacerda thesis),
+        NOT this P-0016; the same case names two further Barbacena Armonds — José
+        Ferreira e Armondes (Juiz de Paz) and Honório José Ferreira Armondes (attorney),
+        both b. c.1780-1810, likely kin of the elder Simplício. Add the titled-trunk
+        priest padre José Joaquim Ferreira Armond (vigário of the Barbacena matriz 1820,
+        "tio do conde de Prados e do visconde de Pitanguy"). Cross-search these in
+        COARPE Barbacena probate + FS Full-Text + Barbacena parish books. Classified as
+        leads, not FAN/entities (they appear in cases not involving our modelled people).
+    - text: >-
+        Bounded negative (newspaper OCR, 2026-08-10): a "Ferreira Armond" sweep of O
+        Pharol (Juiz de Fora, 11 of 13 matches read) and Correio da Manhã (1 match per
+        decade) named NONE of our Simplício, his parents, wife Eliza, his children or
+        his death — every hit is a collateral (the titled Pitangui/Ferreira-Lage branch,
+        RJ/JF civil-servant and student namesakes). Newspaper OCR is spent for
+        Simplício's parentage; it stays an off-tool parish/COARPE problem. His branch
+        also used the "Armand" spelling — retry CdM / Jornal do Brasil 1950s under
+        "Armand"/"Aristão" for Aristão's (P-0008) 1957 death notice.
+    - text: >-
+        Off-tool archive lead: the Museu Mariano Procópio (MAPRO, Juiz de Fora), whose
+        20th-c director Geralda Ferreira Armond curated the titled-branch family papers
+        — a candidate for the titled Barbacena-trunk genealogy. The Itaperuna "Antunes
+        Barroso / de Souza" 20th-c network (memorial-card dates; naming echoes
+        "Aristão"/"Marfiza") has NO primary kinship document to our line and includes
+        recent (privacy-sensitive) deaths — held as an unproven lead, not promoted.
   - record_type: marriage
     status: unsearched
     source_ids: []

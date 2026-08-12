@@ -5,6 +5,12 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-08-11 — Collateral Armond leads: value-gate disposition (no promotion)
+
+- Question: value-gate the collateral/Barbacena Armond material in the drop (COARPE 55816337; the RJ/JF newspaper sweep; the Itaperuna network).
+- Key results: **nothing promotable** — all collateral, connection to our direct-line Simplício (P-0016) UNPROVEN; anti-merge discipline preserved. (1) COARPE 55816337 (Barbacena 1831 execução): the creditor Tenente Coronel Simplício = the ELDER Simplício (b.1785), not P-0016; two further Barbacena Armonds named in functional roles — José Ferreira e Armondes (Juiz de Paz) and Honório José Ferreira Armondes (attorney) — recorded as cross-search leads, not FAN/entities (the case does not involve our modelled people). (2) **Bounded negative:** the O Pharol (11/13) + Correio da Manhã "Ferreira Armond" newspaper sweep named none of our Simplício, his parents, Eliza, his children or his death — every hit a collateral; newspaper OCR is spent for his parentage. (3) Off-tool lead: the Museu Mariano Procópio (MAPRO) archive for the titled branch; the Itaperuna 20th-c network is unproven kinship + privacy-sensitive, not promoted.
+- No new entities. Folded the leads + bounded negative into P-0016's `record-coverage` birth-record notes. No commit to data beyond the coverage note.
+
 ## 2026-08-11 — Toledo: the 1833 Barbacena inventory of Rita Angélica Rodrigues (2026-08-11 drop)
 
 - Question: value-gate the 1833 Barbacena inventário (6-page blog scan); confirm Ladisláo's siblings and Rita Angélica's death.
