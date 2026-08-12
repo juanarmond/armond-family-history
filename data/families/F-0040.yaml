@@ -9,12 +9,16 @@ partner_relationship:
   status: confirmed
   source_ids:
   - PAR-0037
+  - PAR-0044
   notes:
   - text: >-
       Manoel Muniz Bitancourt (P-0082) and Tereza do Amaral (P-0083) are named
       together as the parents of their son João Francisco Muniz Bitancourt (P-0048)
       in his 1819 Mãe de Deus marriage (PAR-0037), which attests the couple; their
       own marriage record is not located. Tereza is recorded "já defunta" in 1819.
+      Corroborated by the 1843 baptism of their grandson Agostinho (PAR-0044), which
+      names them as the paternal grandparents ("Manoel Munis de Betencourt e Tereza
+      d'Assumpção" — a devotional variant of "do Amaral").
 children:
 - person_id: P-0048
   parent_relationships:
@@ -31,7 +35,16 @@ children:
     - PAR-0037
     notes: []
   notes: []
-documented_children: []
+documented_children:
+- name: Maria Jacintha de Medeiros
+  source_ids:
+  - PAR-0048
+  note: >-
+    Daughter of Manoel Muniz Bitancourt (the elder, P-0082) × Tereza do Amaral
+    (P-0083); sister of João Francisco Muniz Bitancourt (P-0048). Married Manoel
+    Cabral on 30 December 1818 at N.S. Mãe de Deus (PAR-0048). NOTE: a distinct
+    namesake of the spine ancestor Maria Jacintha de Medeiros (P-0049), whose parents
+    are different (João de Medeiros Brandão × Maria Eugenia, PAR-0037) — never merge.
 event_ids: []
 notes:
 - text: >-

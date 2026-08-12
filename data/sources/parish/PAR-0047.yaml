@@ -1,0 +1,120 @@
+schema_version: 1
+id: PAR-0047
+title: >-
+  Parish baptism of Maria Muniz Bitancourt (baptised 21 December 1851, born 29
+  November 1851, Nossa Senhora Mãe de Deus, Povoação, São Miguel), daughter of
+  Manoel Muniz Bitancourt and Francisca Roza do Espírito Santo
+record_type: Parish baptism register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1851-12-21"
+  original_text: >-
+    "foi baptizada em os vinte e hum de Dezembro do dito anno" (born "aos vinte e
+    nove de Novembro de mil oito centos cincoenta e hum")
+event_place_text: >-
+  Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel,
+  Açores, Portugal
+repository:
+  name: Arquivo de Culturacores (Região Autónoma dos Açores)
+  archive_or_registry: >-
+    Paróquia de Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Diocese
+    de Angra do Heroísmo)
+  collection: >-
+    SMG-PV-MAEDEDEUS-B-1851-1853 (Livro de baptismos, N.S. Mãe de Deus,
+    Povoação, 1851–1853), Culturacores CDN
+  book: >-
+    Livro de baptismos SMG-PV-MAEDEDEUS-B-1851-1853 — folio 42 (number visible on
+    the right-hand page); entry headed "Maria", right-hand page of the opening
+  catalogue_reference: >-
+    Culturacores SMG-PV-MAEDEDEUS-B-1851-1853, folio 42 (entry "Maria"). Read
+    directly from the register image 2026-08-12.
+access_date: "2026-08-12"
+language: pt
+transcription: >-
+  [Baptismo — Livro SMG-PV-MAEDEDEUS-B-1851-1853, N.S. Mãe de Deus, Povoação;
+  folio 42, entry headed "Maria" (right-hand page of the opening). Read from the
+  register image 2026-08-12.]
+
+  "Maria filha legitima de Manoel Muniz de Bitancourt e de Francisca Roza do
+  Espirito Santo naturaes e freguezes desta Parochial de Nossa Senhora Mãe de Deos
+  da Villa da Povoação, neta paterna de [uncertain: José/João] Muniz Bittencourt e
+  Maria Jacinta de Medeiros, e materna de Manoel de Motta Junior e Anna de Souza,
+  nasceo aos vinte e nove de Novembro de mil oito centos cincoenta e hum, foi
+  baptizada em os vinte e hum de Dezembro do dito anno nesta sobredita Parochial
+  pelo Reverendo Joaquim [Guilherme] [...] Cura de Santa Barbara desta dita Villa,
+  foraõ padrinhos José da [Ponte?] e sua mulher [Claudina] [...], e testemunhas
+  Manoel da Silva e Francisco [Segura?] todos freguezes desta mesma Parochial, e
+  para constar fiz este termo dia, mez e era ut supra. [Assinado] O Cura José
+  Antonio Barboza. O Cura Joaquim Guilherme da [Costa]. Manoel [+] da Silva.
+  Francisco [Segura]."
+abstract: >-
+  Baptism on 21 December 1851 (child born 29 November 1851) at Nossa Senhora Mãe
+  de Deus, Povoação, São Miguel, of Maria, legitimate daughter of Manoel Muniz
+  Bitancourt (P-0042) and Francisca Roza do Espírito Santo (P-0047) — family
+  F-0020 — and therefore a sister of the emigrant João Muniz Bittencourt (P-0019).
+  The entry names both parents and both grandparent couples: paternal grandparents
+  Muniz Bittencourt and Maria Jacintha de Medeiros (the paternal grandfather
+  written here as "José", a scribal variant of João — P-0048 × P-0049, F-0023),
+  and maternal grandparents Manoel de Motta Junior and Anna de Souza (P-0086 ×
+  P-0087, F-0042). Godparents: José da [Ponte] and his wife Claudina. Officiants
+  Cura José Antonio Barboza and Cura Joaquim Guilherme da Costa (Cura of Santa
+  Barbara). This is a collateral relative: no person entity is minted for her; she
+  is recorded as a documented child of family F-0020. She is a distinct namesake
+  of her older sister Maria baptised in 1843 (PAR-0045) — two daughters of the
+  same couple share the name.
+abstract_pt: >-
+  Batismo em 21 de dezembro de 1851 (criança nascida a 29 de novembro de 1851), em
+  Nossa Senhora Mãe de Deus, Povoação, São Miguel, de Maria, filha legítima de
+  Manoel Muniz Bitancourt (P-0042) e Francisca Roza do Espírito Santo (P-0047) —
+  família F-0020 — e portanto irmã do emigrante João Muniz Bittencourt (P-0019). O
+  assento nomeia ambos os pais e os dois casais de avós: avós paternos Muniz
+  Bittencourt e Maria Jacintha de Medeiros (o avô paterno escrito aqui como
+  "José", variante de escrivão de João — P-0048 × P-0049, F-0023), e avós maternos
+  Manoel de Motta Junior e Anna de Souza (P-0086 × P-0087, F-0042). Padrinhos: José
+  da [Ponte] e sua mulher Claudina. Celebrantes o Cura José Antonio Barboza e o
+  Cura Joaquim Guilherme da Costa (Cura de Santa Barbara). Trata-se de uma parente
+  colateral: não se cria entidade de pessoa para ela; fica registada como filha
+  documentada da família F-0020. É uma homónima distinta da sua irmã mais velha
+  Maria, batizada em 1843 (PAR-0045) — duas filhas do mesmo casal partilham o nome.
+reliability:
+  assessment: >-
+    An original parish register entry; primary, direct evidence for the birth date
+    (29 November 1851), the baptism date (21 December 1851), the parents and both
+    grandparent couples, all legible on the image. It independently corroborates
+    families F-0023 and F-0042 and places this child in family F-0020.
+  informant: >-
+    The Cura José Antonio Barboza with the Cura Joaquim Guilherme da Costa (Cura of
+    Santa Barbara) of N.S. Mãe de Deus, Povoação, recording the baptism as officers
+    of the church.
+  limitations: >-
+    The core facts are legible. The paternal grandfather's forename is written
+    "José" (a scribal variant of João Muniz Bitancourt / P-0048, "João"/"João
+    Francisco" elsewhere), flagged as read. The godparents' surnames and one
+    officiant's surname are partially worn and bracketed as uncertain. Note the
+    older sister Maria baptised 1843 (PAR-0045) of the same couple — a namesake,
+    not this person.
+digital_file:
+  path: >-
+    evidence/parish/PAR-0047-maria-muniz-daughter-baptism-1851-saomiguel.jpg
+  sha256: ec2e4b31bb601bfafaeaa372b4c29f43a5861a6cd74f813ad9f26f29778b483e
+linked_people:
+  - P-0042
+  - P-0047
+linked_families:
+  - F-0020
+linked_events: []
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Catalogued 12 August 2026 from the Culturacores CDN image. Maria (b. 1851)
+      is a collateral daughter of Manoel Muniz Bitancourt (P-0042) × Francisca Roza
+      do Espírito Santo (P-0047), i.e. a sister of the emigrant João (P-0019). Per
+      repository policy she is recorded as a documented child of family F-0020, not
+      minted as a person entity. She is a distinct namesake of the couple's earlier
+      daughter Maria baptised 1843 (PAR-0045); do not merge the two.

@@ -5,6 +5,13 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Muniz collateral children: 11 Mãe de Deus records as documented_children (2026-08-12)
+
+- Value-gated the 11 new 2026-08-12 Nossa Senhora Mãe de Deus (Povoação, São Miguel) register images via three parallel subagents over disjoint sets (each read + transcribed + verified parentage), integrated centrally. Per the collateral rule these are `documented_children`, not person entities (no new persons, no events).
+- **11 new PRIMARY parish sources `PAR-0038`–`PAR-0048`** (DOC-0079–0089). **F-0023** gains 7 siblings of Manoel Muniz Bytancourt (P-0042): a son of illegible name (1831), Michaelina (1833), Rosa (1834), Damaso (1836), Francisco (1839), **José (1841)**, Agostinho (1843). **F-0020** gains 3 daughters of Manoel × Francisca (sisters of the emigrant João P-0019): Maria (1842), Francisca (1849), Maria (1851). **F-0040** gains Maria Jacintha de Medeiros ⚭ Manoel Cabral (1818), a sister of P-0048.
+- **The "José brother" question is settled** (PAR-0043) — the couple had a son José (b.1841), a *hypothesis-level* candidate for the José who emigrated to Sapucaia (not proven). The **1818 namesake trap is resolved** (PAR-0048 bride ≠ spine ancestor P-0049; parents differ). PAR-0044 independently names both grandparent couples → added as a **second source** on F-0040/F-0041. P-0047 gains a "de Pimentel" name-variant (PAR-0046).
+- 315 entities; `make check` green (69 + 24 tests); all 11 inventoried + cited; index + GEDCOM (7.0, 4040 lines) regenerated.
+
 ### Added — Toledo: the 1833 Barbacena inventory of Rita Angélica Rodrigues (2026-08-11)
 
 - Value-gated the six-page 1833 Barbacena inventário (read directly from the images).

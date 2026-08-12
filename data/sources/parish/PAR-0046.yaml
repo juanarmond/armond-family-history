@@ -1,0 +1,117 @@
+schema_version: 1
+id: PAR-0046
+title: >-
+  Parish baptism of Francisca Muniz Bitancourt (baptised 2 September 1849, born
+  31 August 1849, Nossa Senhora Mãe de Deus, Povoação, São Miguel), daughter of
+  Manoel Muniz Bitancourt and Francisca Roza do Espírito Santo
+record_type: Parish baptism register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1849-09-02"
+  original_text: >-
+    "foi baptizada em os dous de Setembro" (born "em os trinta e hum de Agosto de
+    mil oito centos quarenta e nove")
+event_place_text: >-
+  Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel,
+  Açores, Portugal
+repository:
+  name: Arquivo de Culturacores (Região Autónoma dos Açores)
+  archive_or_registry: >-
+    Paróquia de Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Diocese
+    de Angra do Heroísmo)
+  collection: >-
+    SMG-PV-MAEDEDEUS-B-1849-1851 (Livro de baptismos, N.S. Mãe de Deus,
+    Povoação, 1849–1851), Culturacores CDN
+  book: >-
+    Livro de baptismos SMG-PV-MAEDEDEUS-B-1849-1851 — folio 41 (number visible on
+    the right-hand page); entry headed "Francisca", left-hand page of the opening
+  catalogue_reference: >-
+    Culturacores SMG-PV-MAEDEDEUS-B-1849-1851, folio 41 (entry "Francisca"). Read
+    directly from the register image 2026-08-12.
+access_date: "2026-08-12"
+language: pt
+transcription: >-
+  [Baptismo — Livro SMG-PV-MAEDEDEUS-B-1849-1851, N.S. Mãe de Deus, Povoação;
+  folio 41, entry headed "Francisca" (left-hand page of the opening). Read from
+  the register image 2026-08-12.]
+
+  "Francisca filha legitima de Manoel Muniz de Bitancourt e de Francisca Roza [de
+  Pimentel] naturaes e freguezes desta Igreja Parochial de Nossa Senhora Mãi de
+  Deos da Villa da Povoação, neta paterna de [uncertain: João/José] Muniz
+  Bitancourt e Maria Jacinta de Medeiros, e materna de Manoel de Motta Junior e
+  Anna de Souza, nasceo em os trinta e hum de Agosto de mil oito centos quarenta e
+  nove, e foi baptizada em os dous de Setembro [desta era] nesta sobredita
+  Parochial por mim José Antonio Barboza Cura de Santa Barbara desta mesma Villa,
+  foraõ padrinhos José filho familias dos avós paternos, e Claudina filha familias
+  dos avós maternos, e testemunhas Manoel da Silva e Francisco da Silva e para
+  constar fiz este termo em o dia mez e era ut supra. [Assinado] O Cura José
+  Antonio Barboza. Manoel [+] da Silva. Francisco [+] da Silva."
+abstract: >-
+  Baptism on 2 September 1849 (child born 31 August 1849) at Nossa Senhora Mãe de
+  Deus, Povoação, São Miguel, of Francisca, legitimate daughter of Manoel Muniz
+  Bitancourt (P-0042) and Francisca Roza do Espírito Santo (P-0047; here written
+  "Francisca Roza de Pimentel") — family F-0020 — and therefore a sister of the
+  emigrant João Muniz Bittencourt (P-0019). The entry names both parents and both
+  grandparent couples: paternal grandparents João Muniz Bitancourt and Maria
+  Jacintha de Medeiros (the paternal grandfather written here as "José", a scribal
+  variant of João — P-0048 × P-0049, F-0023), and maternal grandparents Manoel de
+  Motta Junior and Anna de Souza (P-0086 × P-0087, F-0042). Godparents: José, a
+  son of the paternal grandparents (paternal uncle), and Claudina, a daughter of
+  the maternal grandparents (maternal aunt). Officiant Cura José Antonio Barboza,
+  Cura of Santa Barbara. This is a collateral relative: no person entity is minted
+  for her; she is recorded as a documented child of family F-0020.
+abstract_pt: >-
+  Batismo em 2 de setembro de 1849 (criança nascida a 31 de agosto de 1849), em
+  Nossa Senhora Mãe de Deus, Povoação, São Miguel, de Francisca, filha legítima de
+  Manoel Muniz Bitancourt (P-0042) e Francisca Roza do Espírito Santo (P-0047;
+  aqui escrita "Francisca Roza de Pimentel") — família F-0020 — e portanto irmã do
+  emigrante João Muniz Bittencourt (P-0019). O assento nomeia ambos os pais e os
+  dois casais de avós: avós paternos João Muniz Bitancourt e Maria Jacintha de
+  Medeiros (o avô paterno escrito aqui como "José", variante de escrivão de João —
+  P-0048 × P-0049, F-0023), e avós maternos Manoel de Motta Junior e Anna de Souza
+  (P-0086 × P-0087, F-0042). Padrinhos: José, filho dos avós paternos (tio
+  paterno), e Claudina, filha dos avós maternos (tia materna). Celebrante o Cura
+  José Antonio Barboza, Cura de Santa Barbara. Trata-se de uma parente colateral:
+  não se cria entidade de pessoa para ela; fica registada como filha documentada
+  da família F-0020.
+reliability:
+  assessment: >-
+    An original parish register entry; primary, direct evidence for the birth date
+    (31 August 1849), the baptism date (2 September 1849), the parents and both
+    grandparent couples, all legible on the image. The naming of both grandparent
+    couples independently corroborates families F-0023 and F-0042 and locks this
+    child into family F-0020.
+  informant: >-
+    The Cura José Antonio Barboza (Cura of Santa Barbara) of N.S. Mãe de Deus,
+    Povoação, recording the baptism as an officer of the church.
+  limitations: >-
+    The act is well preserved and largely legible. The mother's surname is written
+    "Roza de Pimentel" (a variant of her usual "do Espírito Santo"), and the
+    paternal grandfather's forename is written "José" (a scribal variant of João
+    Muniz Bitancourt / P-0048, whose forename is "João" or "João Francisco" in
+    PAR-0022, PAR-0024 and PAR-0037); both are flagged as read.
+digital_file:
+  path: >-
+    evidence/parish/PAR-0046-francisca-muniz-daughter-baptism-1849-saomiguel.jpg
+  sha256: bbce58a15ab7eb6c6b100f9c25a566a8cbd92f4b6f92c8be7adb1278ec98c35e
+linked_people:
+  - P-0042
+  - P-0047
+linked_families:
+  - F-0020
+linked_events: []
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Catalogued 12 August 2026 from the Culturacores CDN image. Francisca is a
+      collateral daughter of Manoel Muniz Bitancourt (P-0042) × Francisca Roza do
+      Espírito Santo (P-0047), i.e. a sister of the emigrant João (P-0019). Per
+      repository policy she is recorded as a documented child of family F-0020,
+      not minted as a person entity. The act's naming of both grandparent couples
+      makes the family placement unambiguous.

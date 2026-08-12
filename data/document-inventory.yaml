@@ -3232,3 +3232,349 @@ documents:
         Names our direct-line Simplício José Ferreira Armond (P-0016) as 3rd substitute
         police delegate of São Paulo do Muriaé (act of 10 Sept 1902). Attached to P-0016
         as an occupation + note. All persons deceased.
+
+  - inventory_id: DOC-0079
+    status: catalogued
+    added_date: "2026-08-12"
+    apparent_record_type: Parish baptism register entry (original)
+    apparent_people:
+      - João Francisco Muniz Bitancourt
+      - Maria Jacintha de Medeiros
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      Culturacores CDN (Arquivo dos Açores), Paróquia de N.S. Mãe de Deus, Povoação,
+      São Miguel (SMG-PV-MAEDEDEUS). Read from the register image 2026-08-12.
+    rights_status: unknown
+    files:
+      - path: evidence/parish/PAR-0038-muniz-son-baptism-1831-maededeus.jpg
+        sha256: b2831445a32054235db9c6ea14885e1c78c55e2f1cdfb8e9c86dfc60fae4f221
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1948
+          pixel_height: 1383
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0038
+    notes:
+      - >-
+        1831 baptism of a son (given name illegible) of João Francisco Muniz Bitancourt × Maria Jacintha de Medeiros; sibling of Manoel (P-0042), recorded as a documented_child on F-0023. All persons deceased.
+  - inventory_id: DOC-0080
+    status: catalogued
+    added_date: "2026-08-12"
+    apparent_record_type: Parish baptism register entry (original)
+    apparent_people:
+      - Michaelina Muniz
+      - João Francisco Muniz Bitancourt
+      - Maria Jacintha de Medeiros
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      Culturacores CDN (Arquivo dos Açores), Paróquia de N.S. Mãe de Deus, Povoação,
+      São Miguel (SMG-PV-MAEDEDEUS). Read from the register image 2026-08-12.
+    rights_status: unknown
+    files:
+      - path: evidence/parish/PAR-0039-muniz-michaelina-baptism-1833-maededeus.jpg
+        sha256: 4d62ff19417cf5df9a44f32d2497c0c321dfd2509a4eac284b1f1bbeafa5d5f4
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1948
+          pixel_height: 1383
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0039
+    notes:
+      - >-
+        1833 baptism of Michaelina, sibling of Manoel (P-0042); documented_child on F-0023. All deceased.
+  - inventory_id: DOC-0081
+    status: catalogued
+    added_date: "2026-08-12"
+    apparent_record_type: Parish baptism register entry (original)
+    apparent_people:
+      - Rosa Muniz
+      - João Francisco Muniz Bitancourt
+      - Maria Jacintha de Medeiros
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      Culturacores CDN (Arquivo dos Açores), Paróquia de N.S. Mãe de Deus, Povoação,
+      São Miguel (SMG-PV-MAEDEDEUS). Read from the register image 2026-08-12.
+    rights_status: unknown
+    files:
+      - path: evidence/parish/PAR-0040-muniz-rosa-baptism-1834-maededeus.jpg
+        sha256: c9814dbbdb673ace8f9c78abae117e60fe30278edda50068dad3bb2fd020838e
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1948
+          pixel_height: 1383
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0040
+    notes:
+      - >-
+        1834 baptism of Rosa, sibling of Manoel (P-0042); documented_child on F-0023. Mother's surname written 'de Silveiros' (scribal variant of Medeiros). All deceased.
+  - inventory_id: DOC-0082
+    status: catalogued
+    added_date: "2026-08-12"
+    apparent_record_type: Parish baptism register entry (original)
+    apparent_people:
+      - Damaso Muniz
+      - João Francisco Muniz Bitancourt
+      - Maria Jacintha de Medeiros
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      Culturacores CDN (Arquivo dos Açores), Paróquia de N.S. Mãe de Deus, Povoação,
+      São Miguel (SMG-PV-MAEDEDEUS). Read from the register image 2026-08-12.
+    rights_status: unknown
+    files:
+      - path: evidence/parish/PAR-0041-muniz-damaso-baptism-1836-maededeus.jpg
+        sha256: 195d344cc5c1a415d8cb9e44bc8cd6372098954f53f0710a20c43f572f003bec
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1948
+          pixel_height: 1383
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0041
+    notes:
+      - >-
+        1836 baptism of Damaso, sibling of Manoel (P-0042); documented_child on F-0023. All deceased.
+  - inventory_id: DOC-0083
+    status: catalogued
+    added_date: "2026-08-12"
+    apparent_record_type: Parish baptism register entry (original)
+    apparent_people:
+      - Francisco Muniz
+      - João Francisco Muniz Bitancourt
+      - Maria Jacintha de Medeiros
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      Culturacores CDN (Arquivo dos Açores), Paróquia de N.S. Mãe de Deus, Povoação,
+      São Miguel (SMG-PV-MAEDEDEUS). Read from the register image 2026-08-12.
+    rights_status: unknown
+    files:
+      - path: evidence/parish/PAR-0042-muniz-francisco-baptism-1839-maededeus.jpg
+        sha256: d9e6969d36e70408a3f2105c526d7b2cd70a8ee9bf886b497b265c812246599f
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1948
+          pixel_height: 1383
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0042
+    notes:
+      - >-
+        1839 baptism of Francisco, sibling of Manoel (P-0042); documented_child on F-0023. All deceased.
+  - inventory_id: DOC-0084
+    status: catalogued
+    added_date: "2026-08-12"
+    apparent_record_type: Parish baptism register entry (original)
+    apparent_people:
+      - José Muniz
+      - João Francisco Muniz Bitancourt
+      - Maria Jacintha de Medeiros
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      Culturacores CDN (Arquivo dos Açores), Paróquia de N.S. Mãe de Deus, Povoação,
+      São Miguel (SMG-PV-MAEDEDEUS). Read from the register image 2026-08-12.
+    rights_status: unknown
+    files:
+      - path: evidence/parish/PAR-0043-muniz-jose-baptism-1841-maededeus.jpg
+        sha256: b83ef1bc5fe463cdeec0c942a86b2599c163017d7651d77be62758909b7748c4
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1948
+          pixel_height: 1383
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0043
+    notes:
+      - >-
+        1841 baptism of José, sibling of Manoel (P-0042); documented_child on F-0023; settles the 'José brother' question (candidate for the Sapucaia emigrant José, hypothesis). All deceased.
+  - inventory_id: DOC-0085
+    status: catalogued
+    added_date: "2026-08-12"
+    apparent_record_type: Parish baptism register entry (original)
+    apparent_people:
+      - Agostinho Muniz
+      - João Francisco Muniz Bitancourt
+      - Maria Jacintha de Medeiros
+      - Manoel Muniz Bitancourt
+      - Tereza do Amaral
+      - João de Medeiros Brandão
+      - Maria Eugenia
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      Culturacores CDN (Arquivo dos Açores), Paróquia de N.S. Mãe de Deus, Povoação,
+      São Miguel (SMG-PV-MAEDEDEUS). Read from the register image 2026-08-12.
+    rights_status: unknown
+    files:
+      - path: evidence/parish/PAR-0044-muniz-agostinho-baptism-1843-maededeus.jpg
+        sha256: 521e56b8fe70f8a1ad356fd84d130fba9a116351644e2dd3570b44f9e0bfbd32
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1948
+          pixel_height: 1383
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0044
+    notes:
+      - >-
+        1843 baptism of Agostinho, sibling of Manoel (P-0042); documented_child on F-0023. Also names both grandparent couples (F-0040, F-0041), a 2nd primary corroboration of the 1819 marriage. All deceased.
+  - inventory_id: DOC-0086
+    status: catalogued
+    added_date: "2026-08-12"
+    apparent_record_type: Parish baptism register entry (original)
+    apparent_people:
+      - Maria Muniz Bytancourt
+      - Manoel Muniz Bytancourt
+      - Francisca Roza do Espírito Santo
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      Culturacores CDN (Arquivo dos Açores), Paróquia de N.S. Mãe de Deus, Povoação,
+      São Miguel (SMG-PV-MAEDEDEUS). Read from the register image 2026-08-12.
+    rights_status: unknown
+    files:
+      - path: evidence/parish/PAR-0045-maria-muniz-daughter-baptism-1842-saomiguel.jpg
+        sha256: 5e5b4bc62b62bcac1ce890080e7309e9396ed14b144c04f2d434c7206125c74f
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1948
+          pixel_height: 1383
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0045
+    notes:
+      - >-
+        1842 baptism of Maria, daughter of Manoel Muniz Bytancourt (P-0042) × Francisca Roza (P-0047); sister of the emigrant João (P-0019); documented_child on F-0020. All deceased.
+  - inventory_id: DOC-0087
+    status: catalogued
+    added_date: "2026-08-12"
+    apparent_record_type: Parish baptism register entry (original)
+    apparent_people:
+      - Francisca Muniz Bitancourt
+      - Manoel Muniz Bytancourt
+      - Francisca Roza do Espírito Santo
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      Culturacores CDN (Arquivo dos Açores), Paróquia de N.S. Mãe de Deus, Povoação,
+      São Miguel (SMG-PV-MAEDEDEUS). Read from the register image 2026-08-12.
+    rights_status: unknown
+    files:
+      - path: evidence/parish/PAR-0046-francisca-muniz-daughter-baptism-1849-saomiguel.jpg
+        sha256: bbce58a15ab7eb6c6b100f9c25a566a8cbd92f4b6f92c8be7adb1278ec98c35e
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1968
+          pixel_height: 1397
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0046
+    notes:
+      - >-
+        1849 baptism of Francisca, daughter of Manoel × Francisca; sister of João (P-0019); documented_child on F-0020. All deceased.
+  - inventory_id: DOC-0088
+    status: catalogued
+    added_date: "2026-08-12"
+    apparent_record_type: Parish baptism register entry (original)
+    apparent_people:
+      - Maria Muniz Bitancourt
+      - Manoel Muniz Bytancourt
+      - Francisca Roza do Espírito Santo
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      Culturacores CDN (Arquivo dos Açores), Paróquia de N.S. Mãe de Deus, Povoação,
+      São Miguel (SMG-PV-MAEDEDEUS). Read from the register image 2026-08-12.
+    rights_status: unknown
+    files:
+      - path: evidence/parish/PAR-0047-maria-muniz-daughter-baptism-1851-saomiguel.jpg
+        sha256: ec2e4b31bb601bfafaeaa372b4c29f43a5861a6cd74f813ad9f26f29778b483e
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1948
+          pixel_height: 1383
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0047
+    notes:
+      - >-
+        1851 baptism of Maria (2nd of the name), daughter of Manoel × Francisca; sister of João (P-0019); documented_child on F-0020. All deceased.
+  - inventory_id: DOC-0089
+    status: catalogued
+    added_date: "2026-08-12"
+    apparent_record_type: Parish marriage register entry (original)
+    apparent_people:
+      - Maria Jacintha de Medeiros
+      - Manoel Cabral
+      - Manoel Muniz Bitancourt
+      - Tereza do Amaral
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      Culturacores CDN (Arquivo dos Açores), Paróquia de N.S. Mãe de Deus, Povoação,
+      São Miguel (SMG-PV-MAEDEDEUS). Read from the register image 2026-08-12.
+    rights_status: unknown
+    files:
+      - path: evidence/parish/PAR-0048-maria-jacintha-cabral-marriage-1818-saomiguel.jpg
+        sha256: da2e420dc34eec4cc9799b87a51087431eac866084d45d3d697794b07c77dc50
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1794
+          pixel_height: 1307
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0048
+    notes:
+      - >-
+        1818 marriage of Maria Jacintha de Medeiros (dau. of Manoel Muniz elder × Tereza do Amaral, F-0040; sister of P-0048) to Manoel Cabral; documented_child on F-0040. Distinct namesake of spine ancestor P-0049 — never merge. All deceased.

@@ -1,0 +1,117 @@
+schema_version: 1
+id: PAR-0038
+title: >-
+  Parish baptism of a son of João Francisco Muniz Bitancourt and Maria Jacintha
+  de Medeiros (given name illegible; born 1 August 1831, baptized 14 August 1831,
+  Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family
+  F-0023
+record_type: Parish baptism register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1831-08-14"
+  original_text: >-
+    nasceo em o primeiro dia do mes de Agosto de mil oito centos trinta e hum, e
+    foi baptizado aos quatorze do dito mes e anno
+event_place_text: >-
+  Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel,
+  Açores, Portugal
+repository:
+  name: Arquivo de Culturacores (Região Autónoma dos Açores)
+  archive_or_registry: >-
+    Paróquia de Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Diocese
+    de Angra do Heroísmo)
+  collection: SMG-PV-MAEDEDEUS baptism book, Culturacores CDN
+  book: >-
+    Livro de baptismos de N.S. Mãe de Deus, Povoação — left-hand (verso) act of
+    the opening whose facing recto page bears the folio number 254 (read from the
+    register image; the precise Culturacores book-range code was not determined
+    from the image)
+  catalogue_reference: >-
+    Culturacores SMG-PV-MAEDEDEUS (baptisms), page bearing folio 254. Read
+    directly from the register image 2026-08-12.
+access_date: "2026-08-12"
+language: pt
+transcription: >-
+  [Baptismo — Livro de baptismos de N.S. Mãe de Deus, Povoação; acto da página
+  esquerda (verso) da abertura cuja página direita (recto) tem o número de fólio
+  254. Lido da imagem do registo 2026-08-12. O nome próprio da criança não é
+  legível nesta imagem.]
+
+
+  "[illegible] filho legitimo de João Muniz, e de Maria Jacinta, naturais e
+  freguezes desta Parochial Igreja de Nossa Senhora May de Deos do lugar da
+  Povoação, nasceo em o primeiro dia do mes de Agosto de mil oito centos trinta e
+  hum, e foi baptizado aos quatorze do dito mes e anno nesta dita Parochial pelo
+  Reverendo Vig.o della Julião Francisco Tavares; forão Padrinhos Manoel José e
+  sua mulher Victoria de Medeiros, e testemunhas [uncertain: Manoel] Cabral e
+  Francisco Muniz, todos freguezes desta mesma Parochial, e para constar fis este
+  assento. Era ut supra. O Cura Fran.co Muniz Furtado. O Julião Fran.co Tavares.
+  Manoel [+ signal de cruz] Cabral. Francisco Muniz."
+abstract: >-
+  Baptism on 14 August 1831 at Nossa Senhora Mãe de Deus, Povoação, São Miguel,
+  of a legitimate son — his given name is not legibly recoverable from this image
+  — of João [Francisco] Muniz Bitancourt (P-0048) and his wife Maria Jacinta [de
+  Medeiros] (P-0049), family F-0023 — a collateral sibling of the modelled Manoel
+  Muniz Bytancourt (P-0042), another child of the same couple. The boy was born
+  on 1 August 1831. Officiant the Reverendo Vigário Julião Francisco Tavares (the
+  act is also written and signed by the Cura Francisco Muniz Furtado); godparents
+  Manoel José and his wife Victoria de Medeiros (this couple's recurring
+  compadrio); witnesses Manoel Cabral and Francisco Muniz.
+abstract_pt: >-
+  Baptismo em 14 de agosto de 1831, em Nossa Senhora Mãe de Deus, Povoação, São
+  Miguel, de um filho legítimo — cujo nome próprio não é legível nesta imagem —
+  de João [Francisco] Muniz Bitancourt (P-0048) e de sua mulher Maria Jacinta [de
+  Medeiros] (P-0049), família F-0023 — irmão colateral do modelado Manoel Muniz
+  Bytancourt (P-0042), outro filho do mesmo casal. O menino nasceu em 1 de agosto
+  de 1831. Celebrante o Reverendo Vigário Julião Francisco Tavares (o assento é
+  também redigido e assinado pelo Cura Francisco Muniz Furtado); padrinhos Manoel
+  José e sua mulher Victoria de Medeiros (o compadrio recorrente deste casal);
+  testemunhas Manoel Cabral e Francisco Muniz.
+reliability:
+  assessment: >-
+    An original parish register entry; primary, direct evidence for the birth (1
+    August 1831) and baptism (14 August 1831) of a son of João Muniz and Maria
+    Jacinta, and for his parentage. The parents match family F-0023, and the
+    godparent couple Manoel José × Victoria de Medeiros is the recurring compadrio
+    also present at this couple's 1833/1834/1836/1839 children, locking the
+    identification even though the child's given name is illegible.
+  informant: >-
+    The Reverendo Vigário Julião Francisco Tavares of N.S. Mãe de Deus, Povoação,
+    recording the baptism ex officio; the act was written and co-signed by the
+    Cura Francisco Muniz Furtado.
+  limitations: >-
+    The child's given name is not legibly recoverable from this image; the
+    retrieval synthesis likewise records only an unnamed "son 1831". The entry
+    names the father as "João Muniz" (without the "Francisco … Bitancourt" of his
+    1819 marriage act, PAR-0037) and the mother as "Maria Jacinta" with no
+    surname; identity rests on the parents' given names plus the recurring
+    godparent couple. The first witness's forename is read only tentatively
+    (signed "Manoel [+ mark] Cabral").
+digital_file:
+  path: >-
+    evidence/parish/PAR-0038-muniz-son-baptism-1831-maededeus.jpg
+  sha256: b2831445a32054235db9c6ea14885e1c78c55e2f1cdfb8e9c86dfc60fae4f221
+linked_people:
+  - P-0048
+  - P-0049
+linked_families:
+  - F-0023
+linked_events: []
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Catalogued 12 August 2026 from the Culturacores CDN image, read directly
+      from the register. This unnamed son (given name illegible) is a collateral
+      child of family F-0023 (João Francisco Muniz Bitancourt × Maria Jacintha de
+      Medeiros); per policy no person entity is minted for him — he should be
+      recorded as a documented_child on F-0023. This act records parents only (no
+      grandparents), the parents-only style typical of these Mãe de Deus
+      baptisms. The page bears folio 254; the precise Culturacores book-range code
+      was not determined from the image and should be reconciled against the
+      catalogue.

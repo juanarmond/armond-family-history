@@ -5,6 +5,12 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-08-12 — Muniz collateral children: 11 Mãe de Deus records as documented_children
+
+- Question: value-gate the 11 new 2026-08-12 Mãe de Deus register images (siblings/children of the modelled Muniz couples).
+- Key results: catalogued 11 new PRIMARY parish sources (**PAR-0038–PAR-0048**) via three parallel subagents (disjoint image sets), verified centrally, and attached as **documented_children** (no person entities, no events — collateral rule): **F-0023** +7 siblings of Manoel P-0042 (incl. **José, PAR-0043 — settles the "José brother" question** as a hypothesis for the Sapucaia emigrant), **F-0020** +3 daughters of Manoel × Francisca (siblings of the emigrant João P-0019), **F-0040** +1 (Maria Jacintha ⚭ Manoel Cabral 1818, sister of P-0048 — a resolved namesake of spine ancestor P-0049, never merge). PAR-0044 independently names both grandparent couples → added as a 2nd source on F-0040/F-0041 (previously PAR-0037 only). P-0047 gains the "de Pimentel" name variant (PAR-0046).
+- New entities: PAR-0038–PAR-0048 (11 sources); DOC-0079–0089. 315 entities; make check green. Session log: `logs/2026-08-12-muniz-collateral-children.md`.
+
 ## 2026-08-12 — Officiant check on the held Toledo records (Armond-clergy claim): bounded negative
 
 - Question: does a Ferreira Armond priest officiate any of our four held Barbacena Toledo records (PAR-0018/0019/0020/0021)? The retrieval FINDINGS claim Armond priests performed the Toledo sacraments 1780s–1821.

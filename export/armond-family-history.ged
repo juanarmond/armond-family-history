@@ -842,6 +842,9 @@
 1 NAME Francisca Roza do Espirito /Santo/
 2 GIVN Francisca Roza do Espirito
 2 SURN Santo
+1 NAME Francisca Roza de /Pimentel/
+2 TYPE AKA
+2 SOUR @PAR0046@
 1 SEX F
 1 FAMS @F0020@
 1 FAMC @F0042@
@@ -1558,6 +1561,96 @@
 1 NOTE Documented child, not individually modelled.
 2 SOUR @PRB0005@
 1 NOTE Son of Francisco José Bohrer and Rosa Eugenia de Lemos, a minor in 1888; named "Fernando" (the youngest) among the four children/heirs in his father's 1888 will (PRB-0005). The will gives only the forename; surname taken from the family.
+0 @DOCF0020_1@ INDI
+1 NAME Maria Muniz /Bytancourt/
+2 GIVN Maria Muniz
+2 SURN Bytancourt
+1 SEX U
+1 FAMC @F0020@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PAR0045@
+1 NOTE Daughter of Manoel Muniz Bytancourt (P-0042) × Francisca Roza (P-0047); sister of the emigrant João (P-0019). Born 26 December 1842, baptised 1 January 1843 (PAR-0045); a margin note records a death about April 1931. The couple later had a second daughter also named Maria (1851, below) — two distinct daughters of the name.
+0 @DOCF0020_2@ INDI
+1 NAME Francisca Muniz /Bitancourt/
+2 GIVN Francisca Muniz
+2 SURN Bitancourt
+1 SEX U
+1 FAMC @F0020@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PAR0046@
+1 NOTE Daughter of Manoel Muniz Bitancourt (P-0042) × Francisca Roza (P-0047); sister of João (P-0019). Born 31 August 1849, baptised 2 September 1849 (PAR-0046).
+0 @DOCF0020_3@ INDI
+1 NAME Maria Muniz /Bitancourt/
+2 GIVN Maria Muniz
+2 SURN Bitancourt
+1 SEX U
+1 FAMC @F0020@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PAR0047@
+1 NOTE Daughter of Manoel Muniz Bitancourt (P-0042) × Francisca Roza (P-0047); sister of João (P-0019). Born 29 November 1851, baptised 21 December 1851 (PAR-0047). A namesake of the couple's 1842 daughter Maria (PAR-0045) — a distinct, later child.
+0 @DOCF0023_1@ INDI
+1 NAME [given name illegible] /Muniz/
+2 GIVN [given name illegible]
+2 SURN Muniz
+1 SEX U
+1 FAMC @F0023@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PAR0038@
+1 NOTE Sibling of Manoel Muniz Bytancourt (P-0042); a legitimate son of João Francisco Muniz Bitancourt × Maria Jacintha de Medeiros, born 1 August 1831, baptised 14 August 1831 (PAR-0038). The given name is not legibly recoverable on the act.
+0 @DOCF0023_2@ INDI
+1 NAME Michaelina /Muniz/
+2 GIVN Michaelina
+2 SURN Muniz
+1 SEX U
+1 FAMC @F0023@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PAR0039@
+1 NOTE Sibling of Manoel (P-0042); born 3 January 1833, baptised 13 January 1833, child of João Francisco Muniz Bitancourt × Maria Jacintha de Medeiros (PAR-0039).
+0 @DOCF0023_3@ INDI
+1 NAME Rosa /Muniz/
+2 GIVN Rosa
+2 SURN Muniz
+1 SEX U
+1 FAMC @F0023@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PAR0040@
+1 NOTE Sibling of Manoel (P-0042); born 4 October 1834, baptised 12 October 1834, child of João Francisco Muniz Bitancourt × Maria Jacintha de Medeiros (PAR-0040; the mother's surname is written "de Silveiros", a scribal variant of Medeiros).
+0 @DOCF0023_4@ INDI
+1 NAME Damaso /Muniz/
+2 GIVN Damaso
+2 SURN Muniz
+1 SEX U
+1 FAMC @F0023@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PAR0041@
+1 NOTE Sibling of Manoel (P-0042); born 26 June 1836, baptised 10 July 1836, child of João Francisco Muniz Bitancourt × Maria Jacintha de Medeiros (PAR-0041).
+0 @DOCF0023_5@ INDI
+1 NAME Francisco /Muniz/
+2 GIVN Francisco
+2 SURN Muniz
+1 SEX U
+1 FAMC @F0023@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PAR0042@
+1 NOTE Sibling of Manoel (P-0042); born 15 April 1839, baptised 21 April 1839, child of João Francisco Muniz Bitancourt × Maria Jacintha de Medeiros (PAR-0042).
+0 @DOCF0023_6@ INDI
+1 NAME José /Muniz/
+2 GIVN José
+2 SURN Muniz
+1 SEX U
+1 FAMC @F0023@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PAR0043@
+1 NOTE Sibling of Manoel (P-0042); born 23 May 1841, baptised 29 May 1841, child of João Francisco Muniz Bitancourt × Maria Jacintha de Medeiros (PAR-0043). Settles the open question of whether the couple had a son "José"; a candidate for — but not proof of — the José who emigrated with João to Sapucaia. Treated as a hypothesis.
+0 @DOCF0023_7@ INDI
+1 NAME Agostinho /Muniz/
+2 GIVN Agostinho
+2 SURN Muniz
+1 SEX U
+1 FAMC @F0023@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PAR0044@
+1 NOTE Sibling of Manoel (P-0042); born 13 April 1843, baptised 23 April 1843, child of João Francisco Muniz Bitancourt × Maria Jacintha de Medeiros (PAR-0044). This act also names both grandparent couples (F-0040, F-0041), a second primary corroboration of the 1819 marriage (PAR-0037).
 0 @DOCF0025_1@ INDI
 1 NAME Candido Pereira de /Lemos/
 2 GIVN Candido Pereira de
@@ -2078,6 +2171,15 @@
 1 NOTE Documented child, not individually modelled.
 2 SOUR @PAR0027@
 1 NOTE Baptised 23 June 1752, Grindel; parents Johannes Wehrli × Barbara Alleman (PAR-0027, page 571, row 6). Godfather: Josephus Wehrli (probable uncle or kinsman). Fate unknown; not among the 1819 Heureux Voyage emigrants. Not modelled.
+0 @DOCF0040_1@ INDI
+1 NAME Maria Jacintha de /Medeiros/
+2 GIVN Maria Jacintha de
+2 SURN Medeiros
+1 SEX U
+1 FAMC @F0040@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PAR0048@
+1 NOTE Daughter of Manoel Muniz Bitancourt (the elder, P-0082) × Tereza do Amaral (P-0083); sister of João Francisco Muniz Bitancourt (P-0048). Married Manoel Cabral on 30 December 1818 at N.S. Mãe de Deus (PAR-0048). NOTE: a distinct namesake of the spine ancestor Maria Jacintha de Medeiros (P-0049), whose parents are different (João de Medeiros Brandão × Maria Eugenia, PAR-0037) — never merge.
 0 @F0001@ FAM
 1 HUSB @P0012@
 1 WIFE @P0013@
@@ -2265,6 +2367,9 @@
 1 HUSB @P0042@
 1 WIFE @P0047@
 1 CHIL @P0019@
+1 CHIL @DOCF0020_1@
+1 CHIL @DOCF0020_2@
+1 CHIL @DOCF0020_3@
 1 MARR
 2 DATE 17 FEB 1842
 2 PLAC Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel, Açores, Portugal
@@ -2298,6 +2403,13 @@
 1 HUSB @P0048@
 1 WIFE @P0049@
 1 CHIL @P0042@
+1 CHIL @DOCF0023_1@
+1 CHIL @DOCF0023_2@
+1 CHIL @DOCF0023_3@
+1 CHIL @DOCF0023_4@
+1 CHIL @DOCF0023_5@
+1 CHIL @DOCF0023_6@
+1 CHIL @DOCF0023_7@
 1 MARR
 2 DATE 07 OCT 1819
 2 PLAC Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel, Açores, Portugal
@@ -2404,6 +2516,7 @@
 1 SOUR @PRB0010@
 1 NOTE Parents of Ladisláo Egídio Ferreira de Toledo (P-0056), confirmed by his 1787 baptism (PAR-0019) — extending Eliza's maternal Toledo line up to the Barbacena Ferreira de Toledo family. The couple is further corroborated by two daughters' marriages (PAR-0020 Anna Belizaria 1812; PAR-0021 Carolina Francelina 1816), which record the father in the "João José" variant; his preferred form is "Joaquim José Ferreira de Toledo", per his own 1786 marriage (PAR-0018), Ladisláo's 1787 baptism (PAR-0019) and the legible 1810 marriage (PAR-0023). His own parents were Gaspar Ferreira × Gertrudes Maria [de Toledo] (Vila Rica); Ritta's were João Rodrigues [do Valle] × Izabel Ribeira (Borda do Campo) — both couples named in PAR-0018 but not yet modelled (leads).
 1 NOTE The 1833 Barbacena inventory of Rita Angélica's estate (PRB-0010) directly names the couple's thirteen children — headed by "Ladisláo Egídio Ferreira" (child #1), directly confirming Ladisláo's parentage — and records that Rita died 9 February 1832, intestate, her widower Capitão Joaquim José being the inventariante. The other twelve children are recorded as documented_children above; the seven children of the deceased daughter Candida appear there as representantes (ages 3–13).
+1 NOTE Officiant check (2026-08-12), testing the retrieval FINDINGS' claim that Ferreira Armond priests officiated the family's Barbacena sacraments 1780s–1821: NOT confirmed on our four held records. Legible officiants — PAR-0018 (1786 marriage): provision from Dr. José Batista das Flores, celebrant Pe. Antonio Teles, signed Vig. José Feliciano; PAR-0019 (1787 baptism): Vig. Dom Agostinho [Pinto] de Castro; PAR-0021 (1816 marriage): signed Vig. Manoel Sousa de Oliveira. The mid-entry celebrant names on PAR-0020 (1812) and PAR-0021 (1816) read "Rev. Pe. José Jorge/João Ferreira [surname worn]" — POSSIBLY the "José João Ferreira Armonde de Lima" the FINDINGS cite, but not legible on these ink-bled scans. Bounded negative; no Armond FAN entity created. A higher-resolution read of the PAR-0020/PAR-0021 celebrant lines would resolve it.
 0 @F0029@ FAM
 1 HUSB @P0059@
 1 WIFE @P0060@
@@ -2549,8 +2662,11 @@
 1 HUSB @P0082@
 1 WIFE @P0083@
 1 CHIL @P0048@
+1 CHIL @DOCF0040_1@
 1 MARR
 2 SOUR @PAR0037@
+3 QUAY 3
+2 SOUR @PAR0044@
 3 QUAY 3
 1 SOUR @PAR0037@
 1 NOTE Parents of João Francisco Muniz Bitancourt (P-0048), established by his 1819 Mãe de Deus marriage (PAR-0037). Extends the Muniz Bittencourt line one further generation, into Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores). Only João Francisco is modelled as a child here.
@@ -2560,6 +2676,8 @@
 1 CHIL @P0049@
 1 MARR
 2 SOUR @PAR0037@
+3 QUAY 3
+2 SOUR @PAR0044@
 3 QUAY 3
 1 SOUR @PAR0037@
 1 NOTE Parents of Maria Jacintha de Medeiros (P-0049), established by her 1819 Mãe de Deus marriage (PAR-0037). A witness at that act, "Antonio de Medeiros Brandão", is very likely their son (Maria Jacintha's brother). Extends the Muniz Bittencourt maternal line one further generation into Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores).
@@ -3288,6 +3406,105 @@
 1 NOTE Transcription: [Casamento — Livro SMG-PV-MAEDEDEUS-C-1801-1822, N.S. Mãe de Deus, Povoação; folio 161v (viewer p163). Read from the register image 2026-08-11. Margin: "João Muniz | M.a Jacinta".] "Aos sette de Setembro digo aos sette de Outubro de mil oito centos e dezanove annos, de manhã, nesta Parochial Igreja de Nossa Senhora Mãe de Deus do Lugar da Povoação, precedidas as denunciações do estilo, sem impedimento, como consta do Mandado do Reverendo Ouvidor deste Districto Manoel Joaquim Machado, perante mim José Duarte de Medeiros, Vigario proprio desta dita Igreja, em presença das testemunhas abaixo assignadas João Rodrigues Alves [Carneiro] e Antonio de Medeiros Brandão e de muitas mais pessoas que presentes estavão, se ligarão o sacramento do Matrimonio em face da Igreja por palavras de presente na forma do Sagrado Concilio Tridentino, João Francisco Muniz Bitancourt, filho de Manoel Muniz Bitancourt e de Tereza do Amaral já defunta, e Maria Jacintha de Medeiros, filha de João de Medeiros Brandão e de Maria Eugenia, ambos naturaes e freguezes desta dita Igreja aonde forão baptizados ... e logo receberão as bençãos. [Assinado] O Vigario José Duarte de Medeiros. João Rodrigues Alves Carneiro. De Antonio de Medeiros Brandão."
 1 NOTE Archival reference: Culturacores SMG-PV-MAEDEDEUS-C-1801-1822, folio 161v (viewer page 163). Read directly from the register image; reconciled with BPARPD Ponta Delgada reply SE/2026/1583e (proc. 16.04.01/2026/221), which independently transcribes the same act.
 1 OBJE @OBJPAR0037@
+0 @PAR0038@ SOUR
+1 TITL Parish baptism of a son of João Francisco Muniz Bitancourt and Maria Jacintha de Medeiros (given name illegible; born 1 August 1831, baptized 14 August 1831, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023
+1 TEXT Baptism on 14 August 1831 at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of a legitimate son — his given name is not legibly recoverable from this image — of João [Francisco] Muniz Bitancourt (P-0048) and his wife Maria Jacinta [de Medeiros] (P-0049), family F-0023 — a collateral sibling of the modelled Manoel Muniz Bytancourt (P-0042), another child of the same couple. The boy was born on 1 August 1831. Officiant the Reverendo Vigário Julião Francisco Tavares (the act is also written and signed by the Cura Francisco Muniz Furtado); godparents Manoel José and his wife Victoria de Medeiros (this couple's recurring compadrio); witnesses Manoel Cabral and Francisco Muniz.
+1 REPO @REPO0020@
+2 CALN SMG-PV-MAEDEDEUS baptism book, Culturacores CDN, livro Livro de baptismos de N.S. Mãe de Deus, Povoação — left-hand (verso) act of the opening whose facing recto page bears the folio number 254 (read from the register image; the precise Culturacores book-range code was not determined from the image)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Baptismo — Livro de baptismos de N.S. Mãe de Deus, Povoação; acto da página esquerda (verso) da abertura cuja página direita (recto) tem o número de fólio 254. Lido da imagem do registo 2026-08-12. O nome próprio da criança não é legível nesta imagem.] "[illegible] filho legitimo de João Muniz, e de Maria Jacinta, naturais e freguezes desta Parochial Igreja de Nossa Senhora May de Deos do lugar da Povoação, nasceo em o primeiro dia do mes de Agosto de mil oito centos trinta e hum, e foi baptizado aos quatorze do dito mes e anno nesta dita Parochial pelo Reverendo Vig.o della Julião Francisco Tavares; forão Padrinhos Manoel José e sua mulher Victoria de Medeiros, e testemunhas [uncertain: Manoel] Cabral e Francisco Muniz, todos freguezes desta mesma Parochial, e para constar fis este assento. Era ut supra. O Cura Fran.co Muniz Furtado. O Julião Fran.co Tavares. Manoel [+ signal de cruz] Cabral. Francisco Muniz."
+1 NOTE Archival reference: Culturacores SMG-PV-MAEDEDEUS (baptisms), page bearing folio 254. Read directly from the register image 2026-08-12.
+1 OBJE @OBJPAR0038@
+0 @PAR0039@ SOUR
+1 TITL Parish baptism of Michaelina Muniz (born 3 January 1833, baptized 13 January 1833, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023
+1 TEXT Baptism on 13 January 1833 at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of Michaelina, born 3 January 1833, legitimate daughter of João Muniz Bitancourt (P-0048) and Maria Jacintha [de Medeiros] (P-0049), family F-0023 — a collateral sibling of the modelled Manoel Muniz Bytancourt (P-0042), another child of the same couple. Officiant the Vigário Francisco de Borja (signed "Fr. Francisco de Borja"); godparents Manoel José da Costa and Victoria de Medeiros (this couple's recurring compadrio); witnesses Francisco José Soares de Mendonça and Antonio de Medeiros Brandão.
+1 REPO @REPO0020@
+2 CALN SMG-PV-MAEDEDEUS baptism book, Culturacores CDN, livro Livro de baptismos de N.S. Mãe de Deus, Povoação — left-hand (verso) act of the opening whose facing recto page bears the folio number 114 (read from the register image; the precise Culturacores book-range code was not determined from the image)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Baptismo — Livro de baptismos de N.S. Mãe de Deus, Povoação; acto da página esquerda (verso) da abertura cuja página direita (recto) tem o número de fólio 114. Lido da imagem do registo 2026-08-12.] "Michaelina filha legitima de João Muniz Bitancourt e de Maria Jacintha, naturais e freguezes desta Parochial de Nossa Senhora Mai de Deos do Lugar da Povoação, nasceo aos tres dias do mez de Janeiro de mil oito centos trinta e tres annos, e foi baptizada aos troze dias do mesmo mez e anno por mim [uncertain] Francisco de Borja, Vigario da dita Parochial. Forão Padrinhos Manoel José da [uncertain: Costa] e Victoria de Medeiros, testemunhas Francisco José Soares de Mendonça e Antonio de Medeiros Brandão. E para constar fis este termo dia mez e era ut supra. O Vigario Fr. Francisco de Borja. Fran.co José Soares de M[endonça]. Antonio [+ signal de cruz] de Medeiros Brandão."
+1 NOTE Archival reference: Culturacores SMG-PV-MAEDEDEUS (baptisms), page bearing folio 114. Read directly from the register image 2026-08-12.
+1 OBJE @OBJPAR0039@
+0 @PAR0040@ SOUR
+1 TITL Parish baptism of Rosa Muniz (born 4 October 1834, baptized 12 October 1834, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023
+1 TEXT Baptism on 12 October 1834 at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of Rosa, born 4 October 1834, legitimate daughter of João Muniz Betencourt (P-0048) and his wife "Maria Jacinta de Silveiros" (P-0049), family F-0023 — a collateral sibling of the modelled Manoel Muniz Bytancourt (P-0042), another child of the same couple. The mother's surname is written "de Silveiros" here, a scribal variant of the "de Medeiros" of her other records (the repository has documented a recurring parish scribal swap in this mother's name); the father and the recurring godparent couple confirm the identification. Officiant Antonio Jacinto de Arruda; godparents Manoel José da Costa and his wife Victoria de Medeiros (this couple's recurring compadrio); witnesses Antonio José de Medeiros and Bento Pacheco.
+1 REPO @REPO0020@
+2 CALN SMG-PV-MAEDEDEUS baptism book, Culturacores CDN, livro Livro de baptismos de N.S. Mãe de Deus, Povoação — left-hand (verso) act of the opening whose facing recto page bears the folio number 204 (read from the register image; the precise Culturacores book-range code was not determined from the image)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Baptismo — Livro de baptismos de N.S. Mãe de Deus, Povoação; acto da página esquerda (verso) da abertura cuja página direita (recto) tem o número de fólio 204. Lido da imagem do registo 2026-08-12.] "Rosa filha legitima de João Muniz Betencourt e de sua mulher Maria Jacinta de [uncertain: Silveiros], naturais e freguezes desta Parochial Ig.a de Nossa Senhora May de Deos do lugar de Povoação, nasceo aos quatro dias do mez de Outubro de mil oito centos e trinta e quatro, e foi Baptizada em os doze dias do dito mez e anno por mim Antonio Jacinto de Arruda, [uncertain] desta dita Ig.a. Forão Padrinhos Manoel José da Costa e sua mulher Victoria de Medeiros, forão testemunhas Antonio José de Medeiros e Bento [uncertain: Pacheco], todos freguezes desta mesma Ig.a, e para constar fis este termo dia mez e era ut supra. O Off.te Antonio Jacinto d'Arruda. An.to José de M[edeiros]. Bento [+ signal de cruz] Pacheco."
+1 NOTE Archival reference: Culturacores SMG-PV-MAEDEDEUS (baptisms), page bearing folio 204. Read directly from the register image 2026-08-12.
+1 OBJE @OBJPAR0040@
+0 @PAR0041@ SOUR
+1 TITL Parish baptism of Damaso Muniz (born 26 June 1836, baptized 10 July 1836, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023
+1 TEXT Baptism on 10 July 1836 at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of Damaso, born 26 June 1836, legitimate son of João Muniz Bitencourt (P-0048) and Maria Jacinta de Medeiros (P-0049), family F-0023 — a collateral sibling of the modelled Manoel Muniz Bytancourt (P-0042), another child of the same couple. This act names both parents in full, including the mother's "de Medeiros" surname. Officiant the Cura Francisco José do Amaral e Mello; godparents Manoel José da Costa and his wife Victoria de Medeiros (this couple's recurring compadrio); witnesses Antonio José dos Santos and Francisco Muniz.
+1 REPO @REPO0020@
+2 CALN SMG-PV-MAEDEDEUS baptism book, Culturacores CDN, livro Livro de baptismos de N.S. Mãe de Deus, Povoação — right-hand (recto) act on the page bearing the folio number 256 (read from the register image; the precise Culturacores book-range code was not determined from the image)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Baptismo — Livro de baptismos de N.S. Mãe de Deus, Povoação; acto da página direita (recto) que tem o número de fólio 256. Lido da imagem do registo 2026-08-12.] "Damaso filho legitimo de João Muniz Bitencourt e de Maria Jacinta de Medeiros, naturaes e freguezes desta Parochial Igreja de Nossa Senhora Mai de Deos, nasceo em os vinte seis dias do mez de Junho de mil oito centos e trinta e seis, e foi baptizado neste dita Parochial em os dez dias do mez de Julho do dito anno por mim Francisco José do Amaral e Mello, Cura desta mesma Igreja; forão Padrinhos Manoel José da Costa e sua mulher Victoria de Medeiros, e forão testemunhas Antonio José dos Santos e Francisco Muniz, todos desta freguezia; e para constar fis este termo dia mez era ut supra. O Cura Francisco José do Amaral e Mello. Antonio José dos Santos. [de] Francisco Muniz."
+1 NOTE Archival reference: Culturacores SMG-PV-MAEDEDEUS (baptisms), folio 256. Read directly from the register image 2026-08-12.
+1 OBJE @OBJPAR0041@
+0 @PAR0042@ SOUR
+1 TITL Parish baptism of Francisco Muniz (born 15 April 1839, baptized 21 April 1839, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023
+1 TEXT Baptism on 21 April 1839 at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of Francisco, born 15 April 1839, legitimate son of João [Francisco] Muniz Bitancourt (P-0048) and his wife Maria Jacinta [de Medeiros] (P-0049), family F-0023 — a collateral sibling of the modelled Manoel Muniz Bytancourt (P-0042), another child of the same couple. Officiant Vigário Antonio José Pacheco; godparents Manoel José da Costa and his wife Victoria de Medeiros (this couple's recurring compadrio); witnesses Francisco Jacinto Botelho and Antonio Muniz Pacheco. A later marginal annotation dated 22 [February] 1857 and signed "O Cura Pacheco" records a subsequent act/certificate.
+1 REPO @REPO0020@
+2 CALN SMG-PV-MAEDEDEUS-B-1835-1839 (Livro de baptismos, N.S. Mãe de Deus, Povoação, 1835–1839), Culturacores CDN, livro Livro de baptismos SMG-PV-MAEDEDEUS-B-1835-1839 — left-hand act of the opening whose facing recto page is numbered folio 237 (Culturacores viewer image p0238)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Baptismo — Livro SMG-PV-MAEDEDEUS-B-1835-1839, N.S. Mãe de Deus, Povoação; left-hand act of the opening whose facing recto bears folio 237. Read from the register image 2026-08-12. À margem, em mão posterior: "[uncertain: fis certidão] em 22 de Fev.º [uncertain: Fevereiro] de 1857. O Cura Pacheco."] "Francisco filho legitimo de João Muniz Bitancourt, e de sua mulher Maria Jacinta, naturaes, e freguez[es] desta Parochial de Nossa Senhora Mãe de Deos do Lugar da Povoação, nasceo em quinze de Abril de mil oito centos trinta e nove, e foi baptizado a vinte e hum do dito mez, e Era, nesta referida Parochial por mim Antonio José Pacheco, Vigario d'Ella; e foraõ Padrinhos Manoel José da Costa, e sua mulher Victoria de Medeiros, testemunhas Francisco Jacinto Botelho, e Antonio Muniz Pacheco, e para constar lavrei este termo dia, mez, e Era ut supra. O Vigario Antonio José Pacheco."
+1 NOTE Archival reference: Culturacores SMG-PV-MAEDEDEUS-B-1835-1839, folio 237 (viewer image p0238). Read directly from the register image 2026-08-12.
+1 OBJE @OBJPAR0042@
+0 @PAR0043@ SOUR
+1 TITL Parish baptism of José Muniz (born 23 May 1841, baptized 29 May 1841, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023
+1 TEXT Baptism on 29 May 1841 at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of José, born 23 May 1841, legitimate son of João [Francisco] Muniz Bitancourt (P-0048) and his wife Maria Jacintha [de Medeiros] (P-0049), family F-0023 — a collateral sibling of the modelled Manoel Muniz Bytancourt (P-0042), another child of the same couple. This act confirms that a son named José was born to the couple, born 23 May 1841; whether this José is the later Sapucaia immigrant José remains a separate, unproven hypothesis. Baptized by licence by Ignacio de Souza, Cura of the Ermida de Santa Barbara; godparents Manoel Jo[sé] [da Costa] and his wife Victoria de Medeiros (this couple's recurring compadrio).
+1 REPO @REPO0020@
+2 CALN SMG-PV-MAEDEDEUS-B-1839-1842 (Livro de baptismos, N.S. Mãe de Deus, Povoação, 1839–1842), Culturacores CDN, livro Livro de baptismos SMG-PV-MAEDEDEUS-B-1839-1842 — left-hand act of the opening whose facing recto page is numbered folio 147 (Culturacores viewer image p0140)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Baptismo — Livro SMG-PV-MAEDEDEUS-B-1839-1842, N.S. Mãe de Deus, Povoação; left-hand act of the opening whose facing recto bears folio 147. Read from the register image 2026-08-12. Margin: "José".] "José filho legitimo de João Muniz Bitancourt, e de sua mulher Maria Jacintha, naturaes, freguezes desta Parochial de Nossa Senhora Mãe de Dios desta villa da Povoação, nasceo em os vinte tres dias do mez de Maio de mil oito centos quarenta e hum, e foi baptisado em os vinte e nove dias do mesmo mez, e Era, nesta referida Parochial por mim [uncertain: presente] Ignacio de Souza, [illegible] Cura da Ermida de Santa Barbara, [uncertain: por licença] desta mesma Parochial. Foraõ Padrinhos Manoel Jo[sé] [uncertain: da Costa], e sua mulher Victoria de Medeiros, naturaes, e freguezes desta [illegible] desta Parochial. Foraõ testemunhas José Jacintho Botelho, e [illegible] Manoel, e para constar lavrei este termo dia, mez, e Era ut supra. O Cura [uncertain: Joaquim] Ignacio de Souza [uncertain: Nunes]."
+1 NOTE Archival reference: Culturacores SMG-PV-MAEDEDEUS-B-1839-1842, folio 147 (viewer image p0140). Read directly from the register image 2026-08-12.
+1 OBJE @OBJPAR0043@
+0 @PAR0044@ SOUR
+1 TITL Parish baptism of Agostinho Muniz (born 13 April 1843, baptized 23 April 1843, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023, naming both grandparent couples
+1 TEXT Baptism on 23 April 1843 at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of Agostinho, born 13 April 1843, legitimate son of João Munis Bittencourt (P-0048) and his wife Maria Jacintha de Medeiros (P-0049), family F-0023 — a collateral sibling of the modelled Manoel Muniz Bytancourt (P-0042), another child of the same couple. Uniquely among these Mãe de Deus baptisms, the act names both grandparent couples: paternal Manoel Munis de Betencourt and Tereza d'Assumpção (= P-0082 × P-0083, family F-0040; "d'Assumpção" a devotional variant of "do Amaral"), and maternal João de Medeiros Brandão and Maria Eugenia (= P-0084 × P-0085, family F-0041) — independently corroborating the grandparent structure established by the 1819 marriage (PAR-0037). Officiant José Pacheco Lopes Ferreira, Cura; godparents Manoel da Motta Junior and his wife Anna de Souza; witnesses José Jacintho Botelho de Bulhões (married) and José Jacintho Borges do Rego (single).
+1 REPO @REPO0020@
+2 CALN SMG-PV-MAEDEDEUS-B-1842-1844 (Livro de baptismos, N.S. Mãe de Deus, Povoação, 1842–1844), Culturacores CDN, livro Livro de baptismos SMG-PV-MAEDEDEUS-B-1842-1844 — right-hand (recto) act of the opening; the folio number at the top-right corner (catalogued as folio 93) is largely obscured by an ink blot/flourish (Culturacores viewer image p0094)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Baptismo — Livro SMG-PV-MAEDEDEUS-B-1842-1844, N.S. Mãe de Deus, Povoação; right-hand (recto) act of the opening, catalogued folio 93 (the corner folio number is obscured by an ink blot). Read from the register image 2026-08-12. Margin: "Agostinho".] "Agostinho filho legitimo de João Munis Bittencourt, e de sua mulher Maria Jacintha [uncertain] de Medeiros, naturaes, e freguezes desta Parochial Igreja de Nossa Senhora May de Deos da Villa da Povoação, neto paterno de Manoel Munis de Betencourt, e Tereza d'Assumpção, e materno de João de Medeiros Brandão, e Maria Eugenia, nasceo em os treze de Abril de mil oito centos e quarenta e tres, e foi baptisado n'esta referida Parochial de seus Pais por mim que este fis, José Pacheco Lopes Ferreira, Cura d'esta referida Igreja, em os vinte tres do dito mez, e anno. Foraõ Padrinhos Manoel da Motta Junior, e sua mulher Anna de Souza, naturaes, e freguezes d'esta referida Igreja. Foraõ testemunhas José Jacintho Botelho de Bulhões, casado, e José Jacintho Borges do Rego, solteiro, e para constar fis este termo em o dia, mez, e era ut supra. O Cura José Pacheco Lopes Ferreira."
+1 NOTE Archival reference: Culturacores SMG-PV-MAEDEDEUS-B-1842-1844, folio 93 (viewer image p0094). Read directly from the register image 2026-08-12.
+1 OBJE @OBJPAR0044@
+0 @PAR0045@ SOUR
+1 TITL Parish baptism of Maria Muniz Bytancourt (baptised 1 January 1843, born 26 December 1842, Nossa Senhora Mãe de Deus, Povoação, São Miguel), daughter of Manoel Muniz Bytancourt and Francisca Roza do Espírito Santo
+1 TEXT Baptism on 1 January 1843 (child born 26 December 1842) at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of Maria, legitimate daughter of Manoel Muniz Bytancourt (P-0042) and Francisca Roza do Espírito Santo (P-0047) — family F-0020 — and therefore a sister of the emigrant João Muniz Bittencourt (P-0019). The entry names the parents directly; the godparents are only partially legible but appear to be paternal-side (José and Maria Antonia, "filhos familias" of the paternal grandparents João Muniz Bitancourt and Maria Jacintha de Medeiros) and maternal-side (a "Claudina", daughter of Manoel de Motta and Anna de Souza). Officiant Cura José Antonio Barboza under Vigário Julião Francisco Tavares. A later marginal annotation records this Maria's death on [uncertain] April 1931. This is a collateral relative: no person entity is minted for her; she is recorded as a documented child of family F-0020.
+1 REPO @REPO0020@
+2 CALN SMG-PV-MAEDEDEUS-B-1842-1844 (Livro de baptismos, N.S. Mãe de Deus, Povoação, 1842–1844), Culturacores CDN, livro Livro de baptismos SMG-PV-MAEDEDEUS-B-1842-1844 — folio 68 (number visible on the right-hand page); entry headed "Maria", right-hand page of the opening
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Baptismo — Livro SMG-PV-MAEDEDEUS-B-1842-1844, N.S. Mãe de Deus, Povoação; folio 68, entry headed "Maria" (right-hand page of the opening). Read from the register image 2026-08-12. Margin, later annotation: "Falecio a [uncertain: 07/27]-4-1931".] "Maria filha legitima de Manoel Muniz Betancourt e de Francisca Roza naturaes [e freguezes] desta Igreja Parochial de Nossa Senhora Mãi de Deos [deste Lugar] da Povoação nasceo aos vinte e seis dias do mez de Dezembro de mil oito centos quarenta e dois, foi baptizada no primeiro de Janeiro de mil oito centos quarenta e tres, nesta mesma Parochial onde seus pais são freguezes pelo Reverendo [Cura?] [...] [o Vigario proprio della] forão padrinhos José e Maria Antonia [Betancourt], filhos familias de João [e Maria Jacintha?] Betancourt e de Maria Jacintha de Medeiros[?], e [Claudina] [...] filha de Manoel de [Motta] [junior?] e de Anna de Souza moradores nesta mesma freguezia, e testemunhas José Jacintho Botelho [de Bulhões?] e José Borges do Rego, e para constar fiz este termo [no dia] mez e era ut supra. [Assinado] O Cura José Antonio Barboza. o [Vigario] Julião Francisco [Tavares]. José Jacintho [...]. José do Rego."
+1 NOTE Archival reference: Culturacores SMG-PV-MAEDEDEUS-B-1842-1844, folio 68 (entry "Maria"). Read directly from the register image 2026-08-12.
+1 OBJE @OBJPAR0045@
+0 @PAR0046@ SOUR
+1 TITL Parish baptism of Francisca Muniz Bitancourt (baptised 2 September 1849, born 31 August 1849, Nossa Senhora Mãe de Deus, Povoação, São Miguel), daughter of Manoel Muniz Bitancourt and Francisca Roza do Espírito Santo
+1 TEXT Baptism on 2 September 1849 (child born 31 August 1849) at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of Francisca, legitimate daughter of Manoel Muniz Bitancourt (P-0042) and Francisca Roza do Espírito Santo (P-0047; here written "Francisca Roza de Pimentel") — family F-0020 — and therefore a sister of the emigrant João Muniz Bittencourt (P-0019). The entry names both parents and both grandparent couples: paternal grandparents João Muniz Bitancourt and Maria Jacintha de Medeiros (the paternal grandfather written here as "José", a scribal variant of João — P-0048 × P-0049, F-0023), and maternal grandparents Manoel de Motta Junior and Anna de Souza (P-0086 × P-0087, F-0042). Godparents: José, a son of the paternal grandparents (paternal uncle), and Claudina, a daughter of the maternal grandparents (maternal aunt). Officiant Cura José Antonio Barboza, Cura of Santa Barbara. This is a collateral relative: no person entity is minted for her; she is recorded as a documented child of family F-0020.
+1 REPO @REPO0020@
+2 CALN SMG-PV-MAEDEDEUS-B-1849-1851 (Livro de baptismos, N.S. Mãe de Deus, Povoação, 1849–1851), Culturacores CDN, livro Livro de baptismos SMG-PV-MAEDEDEUS-B-1849-1851 — folio 41 (number visible on the right-hand page); entry headed "Francisca", left-hand page of the opening
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Baptismo — Livro SMG-PV-MAEDEDEUS-B-1849-1851, N.S. Mãe de Deus, Povoação; folio 41, entry headed "Francisca" (left-hand page of the opening). Read from the register image 2026-08-12.] "Francisca filha legitima de Manoel Muniz de Bitancourt e de Francisca Roza [de Pimentel] naturaes e freguezes desta Igreja Parochial de Nossa Senhora Mãi de Deos da Villa da Povoação, neta paterna de [uncertain: João/José] Muniz Bitancourt e Maria Jacinta de Medeiros, e materna de Manoel de Motta Junior e Anna de Souza, nasceo em os trinta e hum de Agosto de mil oito centos quarenta e nove, e foi baptizada em os dous de Setembro [desta era] nesta sobredita Parochial por mim José Antonio Barboza Cura de Santa Barbara desta mesma Villa, foraõ padrinhos José filho familias dos avós paternos, e Claudina filha familias dos avós maternos, e testemunhas Manoel da Silva e Francisco da Silva e para constar fiz este termo em o dia mez e era ut supra. [Assinado] O Cura José Antonio Barboza. Manoel [+] da Silva. Francisco [+] da Silva."
+1 NOTE Archival reference: Culturacores SMG-PV-MAEDEDEUS-B-1849-1851, folio 41 (entry "Francisca"). Read directly from the register image 2026-08-12.
+1 OBJE @OBJPAR0046@
+0 @PAR0047@ SOUR
+1 TITL Parish baptism of Maria Muniz Bitancourt (baptised 21 December 1851, born 29 November 1851, Nossa Senhora Mãe de Deus, Povoação, São Miguel), daughter of Manoel Muniz Bitancourt and Francisca Roza do Espírito Santo
+1 TEXT Baptism on 21 December 1851 (child born 29 November 1851) at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of Maria, legitimate daughter of Manoel Muniz Bitancourt (P-0042) and Francisca Roza do Espírito Santo (P-0047) — family F-0020 — and therefore a sister of the emigrant João Muniz Bittencourt (P-0019). The entry names both parents and both grandparent couples: paternal grandparents Muniz Bittencourt and Maria Jacintha de Medeiros (the paternal grandfather written here as "José", a scribal variant of João — P-0048 × P-0049, F-0023), and maternal grandparents Manoel de Motta Junior and Anna de Souza (P-0086 × P-0087, F-0042). Godparents: José da [Ponte] and his wife Claudina. Officiants Cura José Antonio Barboza and Cura Joaquim Guilherme da Costa (Cura of Santa Barbara). This is a collateral relative: no person entity is minted for her; she is recorded as a documented child of family F-0020. She is a distinct namesake of her older sister Maria baptised in 1843 (PAR-0045) — two daughters of the same couple share the name.
+1 REPO @REPO0020@
+2 CALN SMG-PV-MAEDEDEUS-B-1851-1853 (Livro de baptismos, N.S. Mãe de Deus, Povoação, 1851–1853), Culturacores CDN, livro Livro de baptismos SMG-PV-MAEDEDEUS-B-1851-1853 — folio 42 (number visible on the right-hand page); entry headed "Maria", right-hand page of the opening
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Baptismo — Livro SMG-PV-MAEDEDEUS-B-1851-1853, N.S. Mãe de Deus, Povoação; folio 42, entry headed "Maria" (right-hand page of the opening). Read from the register image 2026-08-12.] "Maria filha legitima de Manoel Muniz de Bitancourt e de Francisca Roza do Espirito Santo naturaes e freguezes desta Parochial de Nossa Senhora Mãe de Deos da Villa da Povoação, neta paterna de [uncertain: José/João] Muniz Bittencourt e Maria Jacinta de Medeiros, e materna de Manoel de Motta Junior e Anna de Souza, nasceo aos vinte e nove de Novembro de mil oito centos cincoenta e hum, foi baptizada em os vinte e hum de Dezembro do dito anno nesta sobredita Parochial pelo Reverendo Joaquim [Guilherme] [...] Cura de Santa Barbara desta dita Villa, foraõ padrinhos José da [Ponte?] e sua mulher [Claudina] [...], e testemunhas Manoel da Silva e Francisco [Segura?] todos freguezes desta mesma Parochial, e para constar fiz este termo dia, mez e era ut supra. [Assinado] O Cura José Antonio Barboza. O Cura Joaquim Guilherme da [Costa]. Manoel [+] da Silva. Francisco [Segura]."
+1 NOTE Archival reference: Culturacores SMG-PV-MAEDEDEUS-B-1851-1853, folio 42 (entry "Maria"). Read directly from the register image 2026-08-12.
+1 OBJE @OBJPAR0047@
+0 @PAR0048@ SOUR
+1 TITL Parish marriage of Manoel Cabral and Maria Jacintha de Medeiros (30 December 1818, Nossa Senhora Mãe de Deus, Povoação, São Miguel), the bride a daughter of Manoel Muniz and Tereza do Amaral
+1 TEXT Marriage on 30 December 1818 at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of Manoel Cabral (son of Manoel Cabral and an illegible mother) and Maria Jacintha de Medeiros, whom the act names as daughter of Manoel Muniz and Tereza do Amaral. Those parents are the modelled couple Manoel Muniz Bitancourt the elder (P-0082) and Tereza do Amaral (P-0083), family F-0040 — so this bride is a sister of João (Francisco) Muniz Bitancourt (P-0048) and therefore a great-aunt of the emigrant João Muniz Bittencourt (P-0019). NAMESAKE CAUTION: the bride bears the same name, "Maria Jacintha de Medeiros", as the spine ancestor P-0049, but she is a DIFFERENT woman — P-0049's parents are João de Medeiros Brandão and Maria Eugenia (per PAR-0037), whereas this bride's parents are Manoel Muniz and Tereza do Amaral. The two must never be merged. The blessing was deferred because the wedding fell in a ferial season. Officiant Vigário José Duarte de Medeiros; witnesses Capitão Luis Antonio de Almeida and Joaquim Pedro de Mello. The bride is a collateral relative: no person entity is minted for her; she is recorded as a documented daughter of family F-0040.
+1 REPO @REPO0020@
+2 CALN SMG-PV-MAEDEDEUS-C-1801-1822 (Livro de casamentos, N.S. Mãe de Deus, Povoação, 1801–1822), Culturacores CDN, livro Livro de casamentos SMG-PV-MAEDEDEUS-C-1801-1822 — the act is the entry on the left-hand page of the opening whose facing (right-hand) page is numbered folio 152 and headed "1819"; i.e. folio 151 verso
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Casamento — Livro SMG-PV-MAEDEDEUS-C-1801-1822, N.S. Mãe de Deus, Povoação; left-hand page facing folio 152 ("1819"). Read from the register image 2026-08-12. Margin: "M.el Cabral | M.a Jacinta".] "Aos trinta de Dezembro de mil oito centos e dois digo dezoito annos, [de manhã] nesta Parochial de Nossa Senhora Mãe de Deos do Lugar da Povoação, [precedidas] as denunciações do estilo sem impedimento como consta do mandado do Reverendo Ouvidor deste Districto Francisco Garcia de Avranches, perante mim José Duarte de Medeiros Vigario proprio desta dita Igreja, e em presença das testemunhas abaixo assignadas o Capitão [Luis?] Antonio de Almeida e Joaquim Pedro de Mello e muitas mais pessoas que presentes estavão, se ligarão o Sacramento do Matrimonio em face da Igreja por palavras de presente como determina o Sagrado Concilio Tridentino, Manoel Cabral filho de Manoel Cabral e de [illegible: mãe do noivo], e Maria Jacintha de Medeiros filha de Manoel Muniz e de Tereza do Amaral, [ambos] naturaes e freguezes desta dita Igreja onde forão baptizados, e desobrigados [da quaresma] proxima passada. Não [se] celebrarão as bençãos por ser tempo ferial, e para constar fiz este assento, era ut supra. [Assinado] O Vigario José Duarte de Medeiros. Luis [Antonio] de Almeida. Joaquim Pedro de Mello. [Nota abaixo: "Receberão as bençãos em Campo [...] o Vigario Medeiros".]"
+1 NOTE Archival reference: Culturacores SMG-PV-MAEDEDEUS-C-1801-1822, folio 151v (facing the numbered folio 152r / "1819"). Read directly from the register image 2026-08-12. This is the same book that holds the grandparents' marriage PAR-0037 (folio 161v).
+1 OBJE @OBJPAR0048@
 0 @PRB0001@ SOUR
 1 TITL 1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza Balbina de Toledo (wife of Simplício José Ferreira Armond)
 1 TEXT A page from an 1881 Leopoldina probate/partilha listing the heirs of an estate on Eliza Balbina de Toledo's side. It names Eliza Balbina de Toledo as the wife of Simplício José Ferreira Armond and lists her Toledo siblings with ages: Maria Bulandina de Toledo (m. Manoel Marques Jorge), Ladisláo Egydio Ferreira de Toledo (~23, b. ~1858), Geraldo Augusto de Toledo Lima (~15, b. ~1866, then living in Rio de Janeiro), and Josepha Olympia da Paixão (~12, b. ~1869), plus a predeceased Carolina Leopoldina Marques inheriting by representation. The companion 1884 petition (PRB-0002) names the decedent as D. Mathilde Maria de Jezus.
@@ -3720,6 +3937,61 @@
 2 FORM image/jpeg
 2 TITL Parish marriage of João Francisco Muniz Bitancourt and Maria Jacintha de Medeiros (7 October 1819, Nossa Senhora Mãe de Deus, Povoação, São Miguel)
 1 NOTE sha256: 689d3d45e3e9c87216ac1805b2fce8f76b04aedeec8d72ee8f6f71421e03f309
+0 @OBJPAR0038@ OBJE
+1 FILE evidence/parish/PAR-0038-muniz-son-baptism-1831-maededeus.jpg
+2 FORM image/jpeg
+2 TITL Parish baptism of a son of João Francisco Muniz Bitancourt and Maria Jacintha de Medeiros (given name illegible; born 1 August 1831, baptized 14 August 1831, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023
+1 NOTE sha256: b2831445a32054235db9c6ea14885e1c78c55e2f1cdfb8e9c86dfc60fae4f221
+0 @OBJPAR0039@ OBJE
+1 FILE evidence/parish/PAR-0039-muniz-michaelina-baptism-1833-maededeus.jpg
+2 FORM image/jpeg
+2 TITL Parish baptism of Michaelina Muniz (born 3 January 1833, baptized 13 January 1833, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023
+1 NOTE sha256: 4d62ff19417cf5df9a44f32d2497c0c321dfd2509a4eac284b1f1bbeafa5d5f4
+0 @OBJPAR0040@ OBJE
+1 FILE evidence/parish/PAR-0040-muniz-rosa-baptism-1834-maededeus.jpg
+2 FORM image/jpeg
+2 TITL Parish baptism of Rosa Muniz (born 4 October 1834, baptized 12 October 1834, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023
+1 NOTE sha256: c9814dbbdb673ace8f9c78abae117e60fe30278edda50068dad3bb2fd020838e
+0 @OBJPAR0041@ OBJE
+1 FILE evidence/parish/PAR-0041-muniz-damaso-baptism-1836-maededeus.jpg
+2 FORM image/jpeg
+2 TITL Parish baptism of Damaso Muniz (born 26 June 1836, baptized 10 July 1836, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023
+1 NOTE sha256: 195d344cc5c1a415d8cb9e44bc8cd6372098954f53f0710a20c43f572f003bec
+0 @OBJPAR0042@ OBJE
+1 FILE evidence/parish/PAR-0042-muniz-francisco-baptism-1839-maededeus.jpg
+2 FORM image/jpeg
+2 TITL Parish baptism of Francisco Muniz (born 15 April 1839, baptized 21 April 1839, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023
+1 NOTE sha256: d9e6969d36e70408a3f2105c526d7b2cd70a8ee9bf886b497b265c812246599f
+0 @OBJPAR0043@ OBJE
+1 FILE evidence/parish/PAR-0043-muniz-jose-baptism-1841-maededeus.jpg
+2 FORM image/jpeg
+2 TITL Parish baptism of José Muniz (born 23 May 1841, baptized 29 May 1841, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023
+1 NOTE sha256: b83ef1bc5fe463cdeec0c942a86b2599c163017d7651d77be62758909b7748c4
+0 @OBJPAR0044@ OBJE
+1 FILE evidence/parish/PAR-0044-muniz-agostinho-baptism-1843-maededeus.jpg
+2 FORM image/jpeg
+2 TITL Parish baptism of Agostinho Muniz (born 13 April 1843, baptized 23 April 1843, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023, naming both grandparent couples
+1 NOTE sha256: 521e56b8fe70f8a1ad356fd84d130fba9a116351644e2dd3570b44f9e0bfbd32
+0 @OBJPAR0045@ OBJE
+1 FILE evidence/parish/PAR-0045-maria-muniz-daughter-baptism-1842-saomiguel.jpg
+2 FORM image/jpeg
+2 TITL Parish baptism of Maria Muniz Bytancourt (baptised 1 January 1843, born 26 December 1842, Nossa Senhora Mãe de Deus, Povoação, São Miguel), daughter of Manoel Muniz Bytancourt and Francisca Roza do Espírito Santo
+1 NOTE sha256: 5e5b4bc62b62bcac1ce890080e7309e9396ed14b144c04f2d434c7206125c74f
+0 @OBJPAR0046@ OBJE
+1 FILE evidence/parish/PAR-0046-francisca-muniz-daughter-baptism-1849-saomiguel.jpg
+2 FORM image/jpeg
+2 TITL Parish baptism of Francisca Muniz Bitancourt (baptised 2 September 1849, born 31 August 1849, Nossa Senhora Mãe de Deus, Povoação, São Miguel), daughter of Manoel Muniz Bitancourt and Francisca Roza do Espírito Santo
+1 NOTE sha256: bbce58a15ab7eb6c6b100f9c25a566a8cbd92f4b6f92c8be7adb1278ec98c35e
+0 @OBJPAR0047@ OBJE
+1 FILE evidence/parish/PAR-0047-maria-muniz-daughter-baptism-1851-saomiguel.jpg
+2 FORM image/jpeg
+2 TITL Parish baptism of Maria Muniz Bitancourt (baptised 21 December 1851, born 29 November 1851, Nossa Senhora Mãe de Deus, Povoação, São Miguel), daughter of Manoel Muniz Bitancourt and Francisca Roza do Espírito Santo
+1 NOTE sha256: ec2e4b31bb601bfafaeaa372b4c29f43a5861a6cd74f813ad9f26f29778b483e
+0 @OBJPAR0048@ OBJE
+1 FILE evidence/parish/PAR-0048-maria-jacintha-cabral-marriage-1818-saomiguel.jpg
+2 FORM image/jpeg
+2 TITL Parish marriage of Manoel Cabral and Maria Jacintha de Medeiros (30 December 1818, Nossa Senhora Mãe de Deus, Povoação, São Miguel), the bride a daughter of Manoel Muniz and Tereza do Amaral
+1 NOTE sha256: da2e420dc34eec4cc9799b87a51087431eac866084d45d3d697794b07c77dc50
 0 @OBJPRB0001@ OBJE
 1 FILE evidence/probate/PRB-0001-probate-toledo-heir-list-leopoldina-1881-original.jpg
 2 FORM image/jpeg

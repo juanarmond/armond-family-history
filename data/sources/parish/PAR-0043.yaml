@@ -1,0 +1,115 @@
+schema_version: 1
+id: PAR-0043
+title: >-
+  Parish baptism of José Muniz (born 23 May 1841, baptized 29 May 1841, Nossa
+  Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023
+record_type: Parish baptism register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1841-05-29"
+  original_text: >-
+    nasceo em os vinte tres dias do mez de Maio de mil oito centos quarenta e
+    hum, e foi baptisado em os vinte e nove dias do mesmo mez
+event_place_text: >-
+  Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel,
+  Açores, Portugal
+repository:
+  name: Arquivo de Culturacores (Região Autónoma dos Açores)
+  archive_or_registry: >-
+    Paróquia de Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Diocese
+    de Angra do Heroísmo)
+  collection: >-
+    SMG-PV-MAEDEDEUS-B-1839-1842 (Livro de baptismos, N.S. Mãe de Deus, Povoação,
+    1839–1842), Culturacores CDN
+  book: >-
+    Livro de baptismos SMG-PV-MAEDEDEUS-B-1839-1842 — left-hand act of the opening
+    whose facing recto page is numbered folio 147 (Culturacores viewer image
+    p0140)
+  catalogue_reference: >-
+    Culturacores SMG-PV-MAEDEDEUS-B-1839-1842, folio 147 (viewer image p0140).
+    Read directly from the register image 2026-08-12.
+access_date: "2026-08-12"
+language: pt
+transcription: >-
+  [Baptismo — Livro SMG-PV-MAEDEDEUS-B-1839-1842, N.S. Mãe de Deus, Povoação;
+  left-hand act of the opening whose facing recto bears folio 147. Read from the
+  register image 2026-08-12. Margin: "José".]
+
+  "José filho legitimo de João Muniz Bitancourt, e de sua mulher Maria Jacintha,
+  naturaes, freguezes desta Parochial de Nossa Senhora Mãe de Dios desta villa da
+  Povoação, nasceo em os vinte tres dias do mez de Maio de mil oito centos
+  quarenta e hum, e foi baptisado em os vinte e nove dias do mesmo mez, e Era,
+  nesta referida Parochial por mim [uncertain: presente] Ignacio de Souza,
+  [illegible] Cura da Ermida de Santa Barbara, [uncertain: por licença] desta
+  mesma Parochial. Foraõ Padrinhos Manoel Jo[sé] [uncertain: da Costa], e sua
+  mulher Victoria de Medeiros, naturaes, e freguezes desta [illegible] desta
+  Parochial. Foraõ testemunhas José Jacintho Botelho, e [illegible] Manoel, e
+  para constar lavrei este termo dia, mez, e Era ut supra. O Cura [uncertain:
+  Joaquim] Ignacio de Souza [uncertain: Nunes]."
+abstract: >-
+  Baptism on 29 May 1841 at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of
+  José, born 23 May 1841, legitimate son of João [Francisco] Muniz Bitancourt
+  (P-0048) and his wife Maria Jacintha [de Medeiros] (P-0049), family F-0023 — a
+  collateral sibling of the modelled Manoel Muniz Bytancourt (P-0042), another
+  child of the same couple. This act confirms that a son named José was born to
+  the couple, born 23 May 1841; whether this José is the later Sapucaia immigrant
+  José remains a separate, unproven hypothesis. Baptized by licence by Ignacio de
+  Souza, Cura of the Ermida de Santa Barbara; godparents Manoel Jo[sé] [da Costa]
+  and his wife Victoria de Medeiros (this couple's recurring compadrio).
+abstract_pt: >-
+  Baptismo em 29 de maio de 1841, em Nossa Senhora Mãe de Deus, Povoação, São
+  Miguel, de José, nascido em 23 de maio de 1841, filho legítimo de João
+  [Francisco] Muniz Bitancourt (P-0048) e de sua mulher Maria Jacintha [de
+  Medeiros] (P-0049), família F-0023 — irmão colateral do modelado Manoel Muniz
+  Bytancourt (P-0042), outro filho do mesmo casal. O ato confirma que nasceu ao
+  casal um filho chamado José, em 23 de maio de 1841; se este José é o posterior
+  imigrante José de Sapucaia permanece uma hipótese separada e não provada.
+  Baptizado por licença por Ignacio de Souza, Cura da Ermida de Santa Barbara;
+  padrinhos Manoel Jo[sé] [da Costa] e sua mulher Victoria de Medeiros (o
+  compadrio recorrente deste casal).
+reliability:
+  assessment: >-
+    An original parish register entry; primary, direct evidence for José's
+    baptism and parentage. It documents that a son named José was born to João
+    Muniz Bitancourt × Maria Jacintha on 23 May 1841 — settling the standing
+    "was there a José son of this couple" question in the affirmative. Whether
+    this José equals the Sapucaia immigrant José is a distinct hypothesis this
+    record does not resolve.
+  informant: >-
+    The officiating priest — a Cura of the Ermida de Santa Barbara acting by
+    licence of the parish (name read as Ignacio de Souza; fuller name uncertain)
+    — recording the baptism ex officio.
+  limitations: >-
+    The father is recorded as "João Muniz Bitancourt" (without "Francisco") and
+    the mother as "Maria Jacintha" with no surname; identity rests on the
+    parents' names plus the recurring godmother Victoria de Medeiros (the
+    godfather's surname "da Costa" is not fully legible). The officiant's fuller
+    name and the second witness are only partly legible.
+digital_file:
+  path: >-
+    evidence/parish/PAR-0043-muniz-jose-baptism-1841-maededeus.jpg
+  sha256: b83ef1bc5fe463cdeec0c942a86b2599c163017d7651d77be62758909b7748c4
+linked_people:
+  - P-0048
+  - P-0049
+linked_families:
+  - F-0023
+linked_events: []
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Catalogued 12 August 2026 from the Culturacores CDN image, read directly
+      from the register. José is a collateral child of family F-0023 (João
+      Francisco Muniz Bitancourt × Maria Jacintha de Medeiros); per policy no
+      person entity is minted — he should be recorded as a documented_child on
+      F-0023. This entry settles the "was there a José brother" question: a José
+      son of the couple WAS baptized (born 23 May 1841). It is the concrete
+      candidate for the Sapucaia immigrant José, but does not by itself prove that
+      identity (a Sapucaia marriage/death act naming his parents, or a São Miguel
+      óbito, would decide it). This act records parents only (no grandparents).

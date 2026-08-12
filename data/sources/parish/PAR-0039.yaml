@@ -1,0 +1,111 @@
+schema_version: 1
+id: PAR-0039
+title: >-
+  Parish baptism of Michaelina Muniz (born 3 January 1833, baptized 13 January
+  1833, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of
+  family F-0023
+record_type: Parish baptism register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1833-01-13"
+  original_text: >-
+    nasceo aos tres dias do mez de Janeiro de mil oito centos trinta e tres
+    annos, e foi baptizada aos troze dias do mesmo mez e anno
+event_place_text: >-
+  Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel,
+  Açores, Portugal
+repository:
+  name: Arquivo de Culturacores (Região Autónoma dos Açores)
+  archive_or_registry: >-
+    Paróquia de Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Diocese
+    de Angra do Heroísmo)
+  collection: SMG-PV-MAEDEDEUS baptism book, Culturacores CDN
+  book: >-
+    Livro de baptismos de N.S. Mãe de Deus, Povoação — left-hand (verso) act of
+    the opening whose facing recto page bears the folio number 114 (read from the
+    register image; the precise Culturacores book-range code was not determined
+    from the image)
+  catalogue_reference: >-
+    Culturacores SMG-PV-MAEDEDEUS (baptisms), page bearing folio 114. Read
+    directly from the register image 2026-08-12.
+access_date: "2026-08-12"
+language: pt
+transcription: >-
+  [Baptismo — Livro de baptismos de N.S. Mãe de Deus, Povoação; acto da página
+  esquerda (verso) da abertura cuja página direita (recto) tem o número de fólio
+  114. Lido da imagem do registo 2026-08-12.]
+
+
+  "Michaelina filha legitima de João Muniz Bitancourt e de Maria Jacintha,
+  naturais e freguezes desta Parochial de Nossa Senhora Mai de Deos do Lugar da
+  Povoação, nasceo aos tres dias do mez de Janeiro de mil oito centos trinta e
+  tres annos, e foi baptizada aos troze dias do mesmo mez e anno por mim
+  [uncertain] Francisco de Borja, Vigario da dita Parochial. Forão Padrinhos
+  Manoel José da [uncertain: Costa] e Victoria de Medeiros, testemunhas Francisco
+  José Soares de Mendonça e Antonio de Medeiros Brandão. E para constar fis este
+  termo dia mez e era ut supra. O Vigario Fr. Francisco de Borja. Fran.co José
+  Soares de M[endonça]. Antonio [+ signal de cruz] de Medeiros Brandão."
+abstract: >-
+  Baptism on 13 January 1833 at Nossa Senhora Mãe de Deus, Povoação, São Miguel,
+  of Michaelina, born 3 January 1833, legitimate daughter of João Muniz
+  Bitancourt (P-0048) and Maria Jacintha [de Medeiros] (P-0049), family F-0023 —
+  a collateral sibling of the modelled Manoel Muniz Bytancourt (P-0042), another
+  child of the same couple. Officiant the Vigário Francisco de Borja (signed "Fr.
+  Francisco de Borja"); godparents Manoel José da Costa and Victoria de Medeiros
+  (this couple's recurring compadrio); witnesses Francisco José Soares de
+  Mendonça and Antonio de Medeiros Brandão.
+abstract_pt: >-
+  Baptismo em 13 de janeiro de 1833, em Nossa Senhora Mãe de Deus, Povoação, São
+  Miguel, de Michaelina, nascida em 3 de janeiro de 1833, filha legítima de João
+  Muniz Bitancourt (P-0048) e de Maria Jacintha [de Medeiros] (P-0049), família
+  F-0023 — irmã colateral do modelado Manoel Muniz Bytancourt (P-0042), outro
+  filho do mesmo casal. Celebrante o Vigário Francisco de Borja (assinou "Fr.
+  Francisco de Borja"); padrinhos Manoel José da Costa e Victoria de Medeiros (o
+  compadrio recorrente deste casal); testemunhas Francisco José Soares de
+  Mendonça e Antonio de Medeiros Brandão.
+reliability:
+  assessment: >-
+    An original parish register entry; primary, direct evidence for the baptism
+    of Michaelina and her parentage (father João Muniz Bitancourt, mother Maria
+    Jacintha), legible on the image. The parents match family F-0023, and the
+    godparent couple Manoel José da Costa × Victoria de Medeiros is the recurring
+    compadrio also present at this couple's 1831/1834/1836/1839 children, locking
+    the identification.
+  informant: >-
+    The Vigário Francisco de Borja of N.S. Mãe de Deus, Povoação, recording the
+    baptism ex officio.
+  limitations: >-
+    The entry names the father as "João Muniz Bitancourt" (without the
+    "Francisco" of his 1819 marriage act, PAR-0037) and the mother as "Maria
+    Jacintha" with no surname; identity rests on the parents' names plus the
+    recurring godparent couple. The officiant's forename and the godfather's
+    byname ("da Costa") are read with mild uncertainty; the godfather is
+    nonetheless the recurring compadre Manoel José da Costa.
+digital_file:
+  path: >-
+    evidence/parish/PAR-0039-muniz-michaelina-baptism-1833-maededeus.jpg
+  sha256: 4d62ff19417cf5df9a44f32d2497c0c321dfd2509a4eac284b1f1bbeafa5d5f4
+linked_people:
+  - P-0048
+  - P-0049
+linked_families:
+  - F-0023
+linked_events: []
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Catalogued 12 August 2026 from the Culturacores CDN image, read directly
+      from the register. Michaelina is a collateral child of family F-0023 (João
+      Francisco Muniz Bitancourt × Maria Jacintha de Medeiros); per policy no
+      person entity is minted for her — she should be recorded as a
+      documented_child on F-0023. This act records parents only (no
+      grandparents), the parents-only style typical of these Mãe de Deus
+      baptisms. The page bears folio 114; the precise Culturacores book-range code
+      was not determined from the image and should be reconciled against the
+      catalogue.

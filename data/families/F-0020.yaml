@@ -44,6 +44,28 @@ children:
         filhos", and João's own óbito PAR-0007 did not name her); his baptism now
         provides direct attestation.
   notes: []
+documented_children:
+- name: Maria Muniz Bytancourt
+  source_ids:
+  - PAR-0045
+  note: >-
+    Daughter of Manoel Muniz Bytancourt (P-0042) × Francisca Roza (P-0047); sister of
+    the emigrant João (P-0019). Born 26 December 1842, baptised 1 January 1843
+    (PAR-0045); a margin note records a death about April 1931. The couple later had a
+    second daughter also named Maria (1851, below) — two distinct daughters of the name.
+- name: Francisca Muniz Bitancourt
+  source_ids:
+  - PAR-0046
+  note: >-
+    Daughter of Manoel Muniz Bitancourt (P-0042) × Francisca Roza (P-0047); sister of
+    João (P-0019). Born 31 August 1849, baptised 2 September 1849 (PAR-0046).
+- name: Maria Muniz Bitancourt
+  source_ids:
+  - PAR-0047
+  note: >-
+    Daughter of Manoel Muniz Bitancourt (P-0042) × Francisca Roza (P-0047); sister of
+    João (P-0019). Born 29 November 1851, baptised 21 December 1851 (PAR-0047). A
+    namesake of the couple's 1842 daughter Maria (PAR-0045) — a distinct, later child.
 event_ids:
 - E-0053
 notes:

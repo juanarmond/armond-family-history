@@ -1,0 +1,105 @@
+schema_version: 1
+id: PAR-0041
+title: >-
+  Parish baptism of Damaso Muniz (born 26 June 1836, baptized 10 July 1836, Nossa
+  Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023
+record_type: Parish baptism register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1836-07-10"
+  original_text: >-
+    nasceo em os vinte seis dias do mez de Junho de mil oito centos e trinta e
+    seis, e foi baptizado ... em os dez dias do mez de Julho do dito anno
+event_place_text: >-
+  Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel,
+  Açores, Portugal
+repository:
+  name: Arquivo de Culturacores (Região Autónoma dos Açores)
+  archive_or_registry: >-
+    Paróquia de Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Diocese
+    de Angra do Heroísmo)
+  collection: SMG-PV-MAEDEDEUS baptism book, Culturacores CDN
+  book: >-
+    Livro de baptismos de N.S. Mãe de Deus, Povoação — right-hand (recto) act on
+    the page bearing the folio number 256 (read from the register image; the
+    precise Culturacores book-range code was not determined from the image)
+  catalogue_reference: >-
+    Culturacores SMG-PV-MAEDEDEUS (baptisms), folio 256. Read directly from the
+    register image 2026-08-12.
+access_date: "2026-08-12"
+language: pt
+transcription: >-
+  [Baptismo — Livro de baptismos de N.S. Mãe de Deus, Povoação; acto da página
+  direita (recto) que tem o número de fólio 256. Lido da imagem do registo
+  2026-08-12.]
+
+
+  "Damaso filho legitimo de João Muniz Bitencourt e de Maria Jacinta de Medeiros,
+  naturaes e freguezes desta Parochial Igreja de Nossa Senhora Mai de Deos,
+  nasceo em os vinte seis dias do mez de Junho de mil oito centos e trinta e
+  seis, e foi baptizado neste dita Parochial em os dez dias do mez de Julho do
+  dito anno por mim Francisco José do Amaral e Mello, Cura desta mesma Igreja;
+  forão Padrinhos Manoel José da Costa e sua mulher Victoria de Medeiros, e forão
+  testemunhas Antonio José dos Santos e Francisco Muniz, todos desta freguezia; e
+  para constar fis este termo dia mez era ut supra. O Cura Francisco José do
+  Amaral e Mello. Antonio José dos Santos. [de] Francisco Muniz."
+abstract: >-
+  Baptism on 10 July 1836 at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of
+  Damaso, born 26 June 1836, legitimate son of João Muniz Bitencourt (P-0048) and
+  Maria Jacinta de Medeiros (P-0049), family F-0023 — a collateral sibling of the
+  modelled Manoel Muniz Bytancourt (P-0042), another child of the same couple.
+  This act names both parents in full, including the mother's "de Medeiros"
+  surname. Officiant the Cura Francisco José do Amaral e Mello; godparents Manoel
+  José da Costa and his wife Victoria de Medeiros (this couple's recurring
+  compadrio); witnesses Antonio José dos Santos and Francisco Muniz.
+abstract_pt: >-
+  Baptismo em 10 de julho de 1836, em Nossa Senhora Mãe de Deus, Povoação, São
+  Miguel, de Damaso, nascido em 26 de junho de 1836, filho legítimo de João Muniz
+  Bitencourt (P-0048) e de Maria Jacinta de Medeiros (P-0049), família F-0023 —
+  irmão colateral do modelado Manoel Muniz Bytancourt (P-0042), outro filho do
+  mesmo casal. Este assento nomeia ambos os pais por extenso, incluindo o apelido
+  "de Medeiros" da mãe. Celebrante o Cura Francisco José do Amaral e Mello;
+  padrinhos Manoel José da Costa e sua mulher Victoria de Medeiros (o compadrio
+  recorrente deste casal); testemunhas Antonio José dos Santos e Francisco Muniz.
+reliability:
+  assessment: >-
+    An original parish register entry; primary, direct evidence for the baptism
+    of Damaso and his parentage, all legible on the image. Uniquely among these
+    collateral acts it names the mother in full as "Maria Jacinta de Medeiros",
+    matching PAR-0037; the parents and the recurring godparent couple Manoel José
+    da Costa × Victoria de Medeiros (also present at this couple's
+    1831/1833/1834/1839 children) lock the identification to family F-0023.
+  informant: >-
+    The Cura Francisco José do Amaral e Mello of N.S. Mãe de Deus, Povoação,
+    recording the baptism ex officio.
+  limitations: >-
+    The father is named "João Muniz Bitencourt" (without the "Francisco" of his
+    1819 marriage act, PAR-0037). No grandparents are named — the parents-only
+    style typical of these Mãe de Deus baptisms.
+digital_file:
+  path: >-
+    evidence/parish/PAR-0041-muniz-damaso-baptism-1836-maededeus.jpg
+  sha256: 195d344cc5c1a415d8cb9e44bc8cd6372098954f53f0710a20c43f572f003bec
+linked_people:
+  - P-0048
+  - P-0049
+linked_families:
+  - F-0023
+linked_events: []
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Catalogued 12 August 2026 from the Culturacores CDN image, read directly
+      from the register. Damaso is a collateral child of family F-0023 (João
+      Francisco Muniz Bitancourt × Maria Jacintha de Medeiros); per policy no
+      person entity is minted for him — he should be recorded as a
+      documented_child on F-0023. This act records parents only (no
+      grandparents). The page bears folio 256; the precise Culturacores
+      book-range code was not determined from the image and should be reconciled
+      against the catalogue.

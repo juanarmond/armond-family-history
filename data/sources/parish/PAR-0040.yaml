@@ -1,0 +1,121 @@
+schema_version: 1
+id: PAR-0040
+title: >-
+  Parish baptism of Rosa Muniz (born 4 October 1834, baptized 12 October 1834,
+  Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family
+  F-0023
+record_type: Parish baptism register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1834-10-12"
+  original_text: >-
+    nasceo aos quatro dias do mez de Outubro de mil oito centos e trinta e
+    quatro, e foi Baptizada em os doze dias do dito mez e anno
+event_place_text: >-
+  Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel,
+  Açores, Portugal
+repository:
+  name: Arquivo de Culturacores (Região Autónoma dos Açores)
+  archive_or_registry: >-
+    Paróquia de Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Diocese
+    de Angra do Heroísmo)
+  collection: SMG-PV-MAEDEDEUS baptism book, Culturacores CDN
+  book: >-
+    Livro de baptismos de N.S. Mãe de Deus, Povoação — left-hand (verso) act of
+    the opening whose facing recto page bears the folio number 204 (read from the
+    register image; the precise Culturacores book-range code was not determined
+    from the image)
+  catalogue_reference: >-
+    Culturacores SMG-PV-MAEDEDEUS (baptisms), page bearing folio 204. Read
+    directly from the register image 2026-08-12.
+access_date: "2026-08-12"
+language: pt
+transcription: >-
+  [Baptismo — Livro de baptismos de N.S. Mãe de Deus, Povoação; acto da página
+  esquerda (verso) da abertura cuja página direita (recto) tem o número de fólio
+  204. Lido da imagem do registo 2026-08-12.]
+
+
+  "Rosa filha legitima de João Muniz Betencourt e de sua mulher Maria Jacinta de
+  [uncertain: Silveiros], naturais e freguezes desta Parochial Ig.a de Nossa
+  Senhora May de Deos do lugar de Povoação, nasceo aos quatro dias do mez de
+  Outubro de mil oito centos e trinta e quatro, e foi Baptizada em os doze dias
+  do dito mez e anno por mim Antonio Jacinto de Arruda, [uncertain] desta dita
+  Ig.a. Forão Padrinhos Manoel José da Costa e sua mulher Victoria de Medeiros,
+  forão testemunhas Antonio José de Medeiros e Bento [uncertain: Pacheco], todos
+  freguezes desta mesma Ig.a, e para constar fis este termo dia mez e era ut
+  supra. O Off.te Antonio Jacinto d'Arruda. An.to José de M[edeiros]. Bento [+
+  signal de cruz] Pacheco."
+abstract: >-
+  Baptism on 12 October 1834 at Nossa Senhora Mãe de Deus, Povoação, São Miguel,
+  of Rosa, born 4 October 1834, legitimate daughter of João Muniz Betencourt
+  (P-0048) and his wife "Maria Jacinta de Silveiros" (P-0049), family F-0023 — a
+  collateral sibling of the modelled Manoel Muniz Bytancourt (P-0042), another
+  child of the same couple. The mother's surname is written "de Silveiros" here,
+  a scribal variant of the "de Medeiros" of her other records (the repository has
+  documented a recurring parish scribal swap in this mother's name); the father
+  and the recurring godparent couple confirm the identification. Officiant
+  Antonio Jacinto de Arruda; godparents Manoel José da Costa and his wife
+  Victoria de Medeiros (this couple's recurring compadrio); witnesses Antonio
+  José de Medeiros and Bento Pacheco.
+abstract_pt: >-
+  Baptismo em 12 de outubro de 1834, em Nossa Senhora Mãe de Deus, Povoação, São
+  Miguel, de Rosa, nascida em 4 de outubro de 1834, filha legítima de João Muniz
+  Betencourt (P-0048) e de sua mulher "Maria Jacinta de Silveiros" (P-0049),
+  família F-0023 — irmã colateral do modelado Manoel Muniz Bytancourt (P-0042),
+  outro filho do mesmo casal. O apelido da mãe está escrito "de Silveiros" neste
+  assento, variante gráfica do "de Medeiros" dos seus outros registos (o
+  repositório documentou uma troca gráfica recorrente no nome desta mãe); o pai e
+  o casal de padrinhos recorrente confirmam a identificação. Celebrante Antonio
+  Jacinto de Arruda; padrinhos Manoel José da Costa e sua mulher Victoria de
+  Medeiros (o compadrio recorrente deste casal); testemunhas Antonio José de
+  Medeiros e Bento Pacheco.
+reliability:
+  assessment: >-
+    An original parish register entry; primary, direct evidence for the baptism
+    of Rosa and her parentage. The father "João Muniz Betencourt" matches family
+    F-0023, and the godparent couple Manoel José da Costa × Victoria de Medeiros
+    is the recurring compadrio also present at this couple's 1831/1833/1836/1839
+    children, locking the identification despite the mother's surname being
+    written "de Silveiros" rather than "de Medeiros".
+  informant: >-
+    The officiant Antonio Jacinto de Arruda of N.S. Mãe de Deus, Povoação,
+    recording the baptism ex officio.
+  limitations: >-
+    The mother is named "Maria Jacinta de Silveiros" — the surname differs from
+    the "de Medeiros" of her marriage (PAR-0037) and other children's acts; it is
+    read with mild uncertainty and is treated as a scribal variant, consistent
+    with the repository's documented recurring swap in this mother's name.
+    Identity rests on the father's name plus the recurring godparent couple. The
+    officiant's title, one witness's signed surname, and the second witness's
+    surname ("Pacheco") are read with mild uncertainty.
+digital_file:
+  path: >-
+    evidence/parish/PAR-0040-muniz-rosa-baptism-1834-maededeus.jpg
+  sha256: c9814dbbdb673ace8f9c78abae117e60fe30278edda50068dad3bb2fd020838e
+linked_people:
+  - P-0048
+  - P-0049
+linked_families:
+  - F-0023
+linked_events: []
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Catalogued 12 August 2026 from the Culturacores CDN image, read directly
+      from the register. Rosa is a collateral child of family F-0023 (João
+      Francisco Muniz Bitancourt × Maria Jacintha de Medeiros); per policy no
+      person entity is minted for her — she should be recorded as a
+      documented_child on F-0023. VARIANT/CONFLICT preserved: this act writes the
+      mother as "Maria Jacinta de Silveiros" (not "de Medeiros"); the father and
+      the recurring godparent couple (Manoel José da Costa × Victoria de Medeiros)
+      confirm the same F-0023 couple, so P-0049 is linked but the surname variant
+      is recorded verbatim. This act records parents only (no grandparents). The
+      page bears folio 204; the precise Culturacores book-range code was not
+      determined from the image and should be reconciled against the catalogue.

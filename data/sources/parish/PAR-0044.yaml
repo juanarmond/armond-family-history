@@ -1,0 +1,129 @@
+schema_version: 1
+id: PAR-0044
+title: >-
+  Parish baptism of Agostinho Muniz (born 13 April 1843, baptized 23 April 1843,
+  Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family
+  F-0023, naming both grandparent couples
+record_type: Parish baptism register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1843-04-23"
+  original_text: >-
+    nasceo em os treze de Abril de mil oito centos e quarenta e tres, e foi
+    baptisado ... em os vinte tres do dito mez, e anno
+event_place_text: >-
+  Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel,
+  Açores, Portugal
+repository:
+  name: Arquivo de Culturacores (Região Autónoma dos Açores)
+  archive_or_registry: >-
+    Paróquia de Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Diocese
+    de Angra do Heroísmo)
+  collection: >-
+    SMG-PV-MAEDEDEUS-B-1842-1844 (Livro de baptismos, N.S. Mãe de Deus, Povoação,
+    1842–1844), Culturacores CDN
+  book: >-
+    Livro de baptismos SMG-PV-MAEDEDEUS-B-1842-1844 — right-hand (recto) act of
+    the opening; the folio number at the top-right corner (catalogued as folio
+    93) is largely obscured by an ink blot/flourish (Culturacores viewer image
+    p0094)
+  catalogue_reference: >-
+    Culturacores SMG-PV-MAEDEDEUS-B-1842-1844, folio 93 (viewer image p0094).
+    Read directly from the register image 2026-08-12.
+access_date: "2026-08-12"
+language: pt
+transcription: >-
+  [Baptismo — Livro SMG-PV-MAEDEDEUS-B-1842-1844, N.S. Mãe de Deus, Povoação;
+  right-hand (recto) act of the opening, catalogued folio 93 (the corner folio
+  number is obscured by an ink blot). Read from the register image 2026-08-12.
+  Margin: "Agostinho".]
+
+  "Agostinho filho legitimo de João Munis Bittencourt, e de sua mulher Maria
+  Jacintha [uncertain] de Medeiros, naturaes, e freguezes desta Parochial Igreja
+  de Nossa Senhora May de Deos da Villa da Povoação, neto paterno de Manoel Munis
+  de Betencourt, e Tereza d'Assumpção, e materno de João de Medeiros Brandão, e
+  Maria Eugenia, nasceo em os treze de Abril de mil oito centos e quarenta e
+  tres, e foi baptisado n'esta referida Parochial de seus Pais por mim que este
+  fis, José Pacheco Lopes Ferreira, Cura d'esta referida Igreja, em os vinte tres
+  do dito mez, e anno. Foraõ Padrinhos Manoel da Motta Junior, e sua mulher Anna
+  de Souza, naturaes, e freguezes d'esta referida Igreja. Foraõ testemunhas José
+  Jacintho Botelho de Bulhões, casado, e José Jacintho Borges do Rego, solteiro,
+  e para constar fis este termo em o dia, mez, e era ut supra. O Cura José
+  Pacheco Lopes Ferreira."
+abstract: >-
+  Baptism on 23 April 1843 at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of
+  Agostinho, born 13 April 1843, legitimate son of João Munis Bittencourt
+  (P-0048) and his wife Maria Jacintha de Medeiros (P-0049), family F-0023 — a
+  collateral sibling of the modelled Manoel Muniz Bytancourt (P-0042), another
+  child of the same couple. Uniquely among these Mãe de Deus baptisms, the act
+  names both grandparent couples: paternal Manoel Munis de Betencourt and Tereza
+  d'Assumpção (= P-0082 × P-0083, family F-0040; "d'Assumpção" a devotional
+  variant of "do Amaral"), and maternal João de Medeiros Brandão and Maria
+  Eugenia (= P-0084 × P-0085, family F-0041) — independently corroborating the
+  grandparent structure established by the 1819 marriage (PAR-0037). Officiant
+  José Pacheco Lopes Ferreira, Cura; godparents Manoel da Motta Junior and his
+  wife Anna de Souza; witnesses José Jacintho Botelho de Bulhões (married) and
+  José Jacintho Borges do Rego (single).
+abstract_pt: >-
+  Baptismo em 23 de abril de 1843, em Nossa Senhora Mãe de Deus, Povoação, São
+  Miguel, de Agostinho, nascido em 13 de abril de 1843, filho legítimo de João
+  Munis Bittencourt (P-0048) e de sua mulher Maria Jacintha de Medeiros (P-0049),
+  família F-0023 — irmão colateral do modelado Manoel Muniz Bytancourt (P-0042),
+  outro filho do mesmo casal. De modo único entre estes baptismos de Mãe de Deus,
+  o ato nomeia ambos os casais de avós: paternos Manoel Munis de Betencourt e
+  Tereza d'Assumpção (= P-0082 × P-0083, família F-0040; "d'Assumpção" variante
+  devocional de "do Amaral"), e maternos João de Medeiros Brandão e Maria Eugenia
+  (= P-0084 × P-0085, família F-0041) — corroborando independentemente a estrutura
+  dos avós estabelecida pelo casamento de 1819 (PAR-0037). Celebrante José
+  Pacheco Lopes Ferreira, Cura; padrinhos Manoel da Motta Junior e sua mulher
+  Anna de Souza; testemunhas José Jacintho Botelho de Bulhões (casado) e José
+  Jacintho Borges do Rego (solteiro).
+reliability:
+  assessment: >-
+    An original parish register entry; primary, direct evidence for Agostinho's
+    baptism and parentage and — uniquely for these Mãe de Deus acts — for both
+    grandparent couples, all legible on the image. It independently corroborates
+    the F-0040 (paternal) and F-0041 (maternal) grandparent structure otherwise
+    known from the 1819 marriage act (PAR-0037).
+  informant: >-
+    The officiating priest José Pacheco Lopes Ferreira, Cura of N.S. Mãe de Deus,
+    Povoação, recording the baptism ex officio.
+  limitations: >-
+    The father is spelled "João Munis Bittencourt" and the paternal grandmother
+    "Tereza d'Assumpção" (a devotional variant of the "do Amaral"/"Amaral" of the
+    1819 marriage act) — spelling/name variants of the same people, not
+    conflicts. The folio number at the top-right corner is largely obscured by an
+    ink blot.
+digital_file:
+  path: >-
+    evidence/parish/PAR-0044-muniz-agostinho-baptism-1843-maededeus.jpg
+  sha256: 521e56b8fe70f8a1ad356fd84d130fba9a116351644e2dd3570b44f9e0bfbd32
+linked_people:
+  - P-0048
+  - P-0049
+linked_families:
+  - F-0023
+linked_events: []
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Catalogued 12 August 2026 from the Culturacores CDN image, read directly
+      from the register. Agostinho is a collateral child of family F-0023 (João
+      Francisco Muniz Bitancourt × Maria Jacintha de Medeiros); per policy no
+      person entity is minted — he should be recorded as a documented_child on
+      F-0023.
+  - text: >-
+      Deliberate link scope: this act also names both grandparent couples —
+      paternal Manoel Munis de Betencourt × Tereza d'Assumpção (= P-0082 ×
+      P-0083, family F-0040) and maternal João de Medeiros Brandão × Maria
+      Eugenia (= P-0084 × P-0085, family F-0041). linked_people/linked_families
+      are deliberately limited to the parents (P-0048, P-0049) and F-0023 for
+      this ingest; the lead agent should decide whether to add the grandparent
+      people/families here together with their reciprocal source_ids, so both
+      ends of each link stay in step.

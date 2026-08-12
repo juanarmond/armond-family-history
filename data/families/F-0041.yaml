@@ -9,12 +9,14 @@ partner_relationship:
   status: confirmed
   source_ids:
   - PAR-0037
+  - PAR-0044
   notes:
   - text: >-
       João de Medeiros Brandão (P-0084) and Maria Eugenia (P-0085) are named
       together as the parents of their daughter Maria Jacintha de Medeiros (P-0049)
       in her 1819 Mãe de Deus marriage (PAR-0037), which attests the couple; their
-      own marriage record is not located.
+      own marriage record is not located. Corroborated by the 1843 baptism of their
+      grandson Agostinho (PAR-0044), which names them as the maternal grandparents.
 children:
 - person_id: P-0049
   parent_relationships:

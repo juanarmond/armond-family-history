@@ -1,0 +1,111 @@
+schema_version: 1
+id: PAR-0042
+title: >-
+  Parish baptism of Francisco Muniz (born 15 April 1839, baptized 21 April 1839,
+  Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family
+  F-0023
+record_type: Parish baptism register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1839-04-21"
+  original_text: >-
+    nasceo em quinze de Abril de mil oito centos trinta e nove, e foi baptizado a
+    vinte e hum do dito mez
+event_place_text: >-
+  Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel,
+  Açores, Portugal
+repository:
+  name: Arquivo de Culturacores (Região Autónoma dos Açores)
+  archive_or_registry: >-
+    Paróquia de Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Diocese
+    de Angra do Heroísmo)
+  collection: >-
+    SMG-PV-MAEDEDEUS-B-1835-1839 (Livro de baptismos, N.S. Mãe de Deus, Povoação,
+    1835–1839), Culturacores CDN
+  book: >-
+    Livro de baptismos SMG-PV-MAEDEDEUS-B-1835-1839 — left-hand act of the opening
+    whose facing recto page is numbered folio 237 (Culturacores viewer image
+    p0238)
+  catalogue_reference: >-
+    Culturacores SMG-PV-MAEDEDEUS-B-1835-1839, folio 237 (viewer image p0238).
+    Read directly from the register image 2026-08-12.
+access_date: "2026-08-12"
+language: pt
+transcription: >-
+  [Baptismo — Livro SMG-PV-MAEDEDEUS-B-1835-1839, N.S. Mãe de Deus, Povoação;
+  left-hand act of the opening whose facing recto bears folio 237. Read from the
+  register image 2026-08-12. À margem, em mão posterior:
+  "[uncertain: fis certidão] em 22 de Fev.º [uncertain: Fevereiro] de 1857. O
+  Cura Pacheco."]
+
+  "Francisco filho legitimo de João Muniz Bitancourt, e de sua mulher Maria
+  Jacinta, naturaes, e freguez[es] desta Parochial de Nossa Senhora Mãe de Deos
+  do Lugar da Povoação, nasceo em quinze de Abril de mil oito centos trinta e
+  nove, e foi baptizado a vinte e hum do dito mez, e Era, nesta referida
+  Parochial por mim Antonio José Pacheco, Vigario d'Ella; e foraõ Padrinhos
+  Manoel José da Costa, e sua mulher Victoria de Medeiros, testemunhas Francisco
+  Jacinto Botelho, e Antonio Muniz Pacheco, e para constar lavrei este termo dia,
+  mez, e Era ut supra. O Vigario Antonio José Pacheco."
+abstract: >-
+  Baptism on 21 April 1839 at Nossa Senhora Mãe de Deus, Povoação, São Miguel, of
+  Francisco, born 15 April 1839, legitimate son of João [Francisco] Muniz
+  Bitancourt (P-0048) and his wife Maria Jacinta [de Medeiros] (P-0049), family
+  F-0023 — a collateral sibling of the modelled Manoel Muniz Bytancourt (P-0042),
+  another child of the same couple. Officiant Vigário Antonio José Pacheco;
+  godparents Manoel José da Costa and his wife Victoria de Medeiros (this couple's
+  recurring compadrio); witnesses Francisco Jacinto Botelho and Antonio Muniz
+  Pacheco. A later marginal annotation dated 22 [February] 1857 and signed "O
+  Cura Pacheco" records a subsequent act/certificate.
+abstract_pt: >-
+  Baptismo em 21 de abril de 1839, em Nossa Senhora Mãe de Deus, Povoação, São
+  Miguel, de Francisco, nascido em 15 de abril de 1839, filho legítimo de João
+  [Francisco] Muniz Bitancourt (P-0048) e de sua mulher Maria Jacinta [de
+  Medeiros] (P-0049), família F-0023 — irmão colateral do modelado Manoel Muniz
+  Bytancourt (P-0042), outro filho do mesmo casal. Celebrante o Vigário Antonio
+  José Pacheco; padrinhos Manoel José da Costa e sua mulher Victoria de Medeiros
+  (o compadrio recorrente deste casal); testemunhas Francisco Jacinto Botelho e
+  Antonio Muniz Pacheco. Uma anotação marginal posterior, datada de 22 de
+  [fevereiro] de 1857 e assinada "O Cura Pacheco", regista um ato/certidão
+  posterior.
+reliability:
+  assessment: >-
+    An original parish register entry; primary, direct evidence for the baptism
+    of Francisco and his parentage (father João Muniz Bitancourt, mother Maria
+    Jacinta), all legible on the image. The parents match family F-0023, and the
+    godparent couple Manoel José da Costa × Victoria de Medeiros is the recurring
+    compadrio also present at this couple's 1831/1833/1834/1836/1841 children,
+    locking the identification.
+  informant: >-
+    The Vigário Antonio José Pacheco of N.S. Mãe de Deus, Povoação, recording the
+    baptism ex officio.
+  limitations: >-
+    The entry names the father as "João Muniz Bitancourt" (without the "Francisco"
+    of his 1819 marriage act, PAR-0037) and the mother as "Maria Jacinta" with no
+    surname; identity rests on the parents' names plus the recurring godparent
+    couple. A later marginal annotation (22 [February] 1857, "O Cura Pacheco") is
+    only partly legible.
+digital_file:
+  path: >-
+    evidence/parish/PAR-0042-muniz-francisco-baptism-1839-maededeus.jpg
+  sha256: d9e6969d36e70408a3f2105c526d7b2cd70a8ee9bf886b497b265c812246599f
+linked_people:
+  - P-0048
+  - P-0049
+linked_families:
+  - F-0023
+linked_events: []
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Catalogued 12 August 2026 from the Culturacores CDN image, read directly
+      from the register. Francisco is a collateral child of family F-0023 (João
+      Francisco Muniz Bitancourt × Maria Jacintha de Medeiros); per policy no
+      person entity is minted for him — he should be recorded as a
+      documented_child on F-0023. This act records parents only (no grandparents),
+      the parents-only style typical of these Mãe de Deus baptisms.
