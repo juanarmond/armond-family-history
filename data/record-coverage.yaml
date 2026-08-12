@@ -533,14 +533,18 @@ people:
         COARPE Barbacena probate + FS Full-Text + Barbacena parish books. Classified as
         leads, not FAN/entities (they appear in cases not involving our modelled people).
     - text: >-
-        Bounded negative (newspaper OCR, 2026-08-10): a "Ferreira Armond" sweep of O
-        Pharol (Juiz de Fora, 11 of 13 matches read) and Correio da Manhã (1 match per
-        decade) named NONE of our Simplício, his parents, wife Eliza, his children or
-        his death — every hit is a collateral (the titled Pitangui/Ferreira-Lage branch,
-        RJ/JF civil-servant and student namesakes). Newspaper OCR is spent for
-        Simplício's parentage; it stays an off-tool parish/COARPE problem. His branch
-        also used the "Armand" spelling — retry CdM / Jornal do Brasil 1950s under
-        "Armand"/"Aristão" for Aristão's (P-0008) 1957 death notice.
+        Newspaper OCR (2026-08-10) — this rests on the retrieval agent's per-item dated
+        reads; no newspaper images were retained, so the dates were not independently
+        re-verified here. The "Ferreira Armond" sweep of O Pharol (Juiz de Fora, 11 of 13
+        matches) and Correio da Manhã (1 match per decade) surfaced exactly ONE direct-line
+        item: the already-catalogued 1902 Muriaé-delegado notice (NWS-0003, O Pharol 13
+        Sept 1902 — O Pharol match #10). It found nothing new — no parent, no wife Eliza,
+        no child, no death for Simplício; every other hit is a collateral (the titled
+        Pitangui/Ferreira-Lage branch, RJ/JF civil-servant and student namesakes). This is
+        a SAMPLE-bounded negative (1 match/decade for CdM), not an exhaustive one. Undone
+        date-based follow-ups: (a) Aristão's (P-0008) 1957 death notice — retry CdM /
+        Jornal do Brasil under the "Armand" spelling his branch used; (b) whether any
+        O Pharol / CdM item 1875–1913 is our "Capitão" Simplício beyond the 1902 delegado.
     - text: >-
         Off-tool archive lead: the Museu Mariano Procópio (MAPRO, Juiz de Fora), whose
         20th-c director Geralda Ferreira Armond curated the titled-branch family papers
