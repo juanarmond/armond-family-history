@@ -42,6 +42,7 @@ function fixtures() {
       occupations: [{ value: "secret job", source_ids: ["S-1"] }],
       profile: "Secret living portrait.",
       notes: [{ text: "Sensitive living-person note." }],
+      event_ids: ["E-4"],
     },
     "P-4": { id: "P-4", preferred_name: "Cara Gamma", privacy: "deceased" },
     "P-5": { id: "P-5", preferred_name: "Dan Delta", privacy: "deceased" },
@@ -103,6 +104,14 @@ function fixtures() {
       ],
       status: "confirmed",
       source_ids: ["S-2"],
+    },
+    "E-4": {
+      id: "E-4",
+      event_type: "birth",
+      date: { kind: "year", year: 1990 },
+      participants: [{ person_id: "P-3", role: "principal" }],
+      status: "confirmed",
+      source_ids: [],
     },
   };
 
@@ -265,6 +274,7 @@ test("living people are minimised", () => {
   assert.deepEqual(p3.fanReferences, []);
   assert.deepEqual(p3.siblings, []);
   assert.deepEqual(p3.children, []);
+  assert.deepEqual(p3.events, [], "a living person's own events (birth/death PII) are redacted");
 });
 
 test("children include modelled deceased and documented children of a person's unions, omitting the living", () => {

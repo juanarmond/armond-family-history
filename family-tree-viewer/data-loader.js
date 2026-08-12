@@ -626,9 +626,11 @@ export function projectTreeData({ people, families, events, places, sources, fan
         ? person.nationality.trim()
         : null,
       nameVariants: living ? [] : variants,
-      events: [...(personEvents[personId] || [])].sort((a, b) =>
-        `${a.type}${JSON.stringify(a.date)}`.localeCompare(`${b.type}${JSON.stringify(b.date)}`),
-      ),
+      events: living
+        ? []
+        : [...(personEvents[personId] || [])].sort((a, b) =>
+            `${a.type}${JSON.stringify(a.date)}`.localeCompare(`${b.type}${JSON.stringify(b.date)}`),
+          ),
       sourceCount: sourceIds.length,
       sources: personSources,
       spouses: living ? [] : (spousesByPerson[personId] || []).map((entry) => ({

@@ -5,6 +5,12 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — panel header lifespan falls back to baptism/burial; mobile marriage date; living-event redaction (2026-08-12)
+
+- Follow-up to the birthplace fix, from a 4-agent field-validation audit. The detail-panel **header lifespan** (`lifespan()`) read *only* `birth`/`death` events, so the same baptism-only ancestors showed "Dates not established" or "?–YYYY" in the header while the biography prose right below printed the baptism year. It now falls back to **baptism** for the start year and **burial** for the end year — matching the biography and the fact rows. Restores headers for Ladisláo (P-0056 → 1787–), Rosa Eugenia de Lemos (P-0035 → 1835–), João Rodrigues Valle (P-0078 → 1728–), Johann Jacob Wehrli (P-0072 → 1751–1827), Elisabetha Borer (P-0073 → 1760–1832).
+- **Mobile spouse row** passed the whole marriage object to `bioWhen()` (which expects a date), so the marriage year never showed on mobile; now uses `spouse.marriage.date` like the desktop panel.
+- **Living-person events are now redacted at the data layer** (`data-loader.js`): a living person's own birth/death events (sensitive PII) no longer project to the viewer, closing a latent leak if an event were ever attached (the 3 living people have none today). Locked in with a data-loader test. Nationality is *deliberately* kept for the living (low-sensitivity, already tested) and was left unchanged. Viewer-only; no data change.
+
 ### Fixed — birthplace/death-place fall back to baptism/burial in the person panel (2026-08-12)
 
 - The detail panel's **"Local de nascimento"** read *only* `birth`-type events, so ancestors held via a baptism record (no separate birth event) showed "Não estabelecido" even though the baptism names the parish — 5 people currently (Ladisláo P-0056, Rosa Eugenia de Lemos P-0035, Johann Jacob Wehrli P-0072, Elisabetha Borer P-0073, João Rodrigues Valle P-0078). Birthplace now falls back to the person's **own baptism place**, and death-place to a **burial place**, when the primary event is absent. Safe because `person.events` is already role-filtered to the subject (principal/spouse/partner), so a parent named in a child's baptism never leaks in. Viewer-only (app.js); no data change.

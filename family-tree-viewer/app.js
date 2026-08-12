@@ -169,8 +169,12 @@ function yearFromEvent(event) {
 }
 
 function lifespan(person) {
-  const birth = person.events.find((event) => event.type === "birth");
-  const death = person.events.find((event) => event.type === "death");
+  // Fall back to baptism/burial when the vital event itself is unrecorded, so the
+  // panel header agrees with the biography prose (data-loader falls back too).
+  const birth = person.events.find((event) => event.type === "birth")
+    || person.events.find((event) => event.type === "baptism");
+  const death = person.events.find((event) => event.type === "death")
+    || person.events.find((event) => event.type === "burial");
   const birthYear = yearFromEvent(birth);
   const deathYear = yearFromEvent(death);
   if (birthYear || deathYear) return `${birthYear || "?"}–${deathYear || ""}`;
@@ -1512,7 +1516,7 @@ function renderMobileFocus() {
   container.append(mobileSection(t("detail.parents"), parentRows, t("empty.parents")));
 
   const spouseRows = (person.spouses || []).map((spouse) =>
-    mobileRelationRow(spouse.id, spouse.name, spouse.marriage ? bioWhen(spouse.marriage) : null),
+    mobileRelationRow(spouse.id, spouse.name, spouse.marriage?.date ? bioWhen(spouse.marriage.date) : null),
   );
   container.append(mobileSection(t("detail.marriages"), spouseRows, t("empty.partners")));
 
