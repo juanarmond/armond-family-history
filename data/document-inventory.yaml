@@ -3578,3 +3578,48 @@ documents:
     notes:
       - >-
         1818 marriage of Maria Jacintha de Medeiros (dau. of Manoel Muniz elder × Tereza do Amaral, F-0040; sister of P-0048) to Manoel Cabral; documented_child on F-0040. Distinct namesake of spine ancestor P-0049 — never merge. All deceased.
+  - inventory_id: DOC-0090
+    status: catalogued
+    added_date: "2026-08-12"
+    apparent_record_type: Parish baptism register entry (original, two-page termo)
+    apparent_people:
+      - Ritta Angélica Rodrigues
+      - João Rodrigues Valle
+      - Isabel Ribeira
+    apparent_event: baptism
+    image_quality: partly-illegible
+    provenance: >-
+      FamilySearch coll 2177275, Livro de batismos da Matriz de N.S. da Piedade da
+      Borda do Campo (Barbacena), folios 9v–10. Read from the register images 2026-08-12.
+    rights_status: unknown
+    files:
+      - path: evidence/parish/PAR-0049-rita-angelica-baptism-1764-barbacena-p1.jpg
+        sha256: ecf97ac1d22dd89e0615fd32e70a90e0ae684303b4f5f918ef76a058b265e41e
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3888
+          pixel_height: 3752
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/parish/PAR-0049-rita-angelica-baptism-1764-barbacena-p2.jpg
+        sha256: 1553aae2879ee1f65e83f276eefb9fd4f731b32bba4c6810171e764968425d31
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3896
+          pixel_height: 3752
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0049
+    notes:
+      - >-
+        Rita Angélica Rodrigues's own 1764 Barbacena baptism (two-page termo);
+        primary-confirms her parents João Rodrigues Valle × Isabel Ribeira and her
+        3 March 1764 birth, and resolves the "José vs João" doubt on her father. All
+        persons long deceased.

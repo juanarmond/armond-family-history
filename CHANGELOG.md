@@ -5,6 +5,12 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Rita Angélica's 1764 baptism (Rodrigues-Valle link → primary); Honório 1845 negative (2026-08-12)
+
+- **New source `PAR-0049`** — Ritta Angélica Rodrigues's (P-0058) own **1764 Barbacena baptism** (FamilySearch coll 2177275; a two-page termo), with **new birth event `E-0076`** (born 3 March 1764, baptized 9 March 1764, Capela de São José do Ribeirão). Upgrades the **F-0038** parent edge (P-0058 ↔ João Rodrigues Valle P-0078 × Isabel Ribeira P-0079) from **strong-evidence to primary**, **resolves the "José vs João" doubt** on her father's forename → **João**, and primary-confirms the Ruivães/Braga origin. P-0058's birth goes [LEAD]→[PROVEN]. New lead (kept as lead): her maternal grandparents as a **Pestana couple of N.S. do Rosário, Ilha de São Jorge (Açores)** — a possible Azorean origin on Isabel's paternal side.
+- **Honório José Ferreira Armonde's 1845 inventário** (LAMPEH Mariana, 19 pages): a **bounded negative** — his heirs are exclusively legitimate siblings/a nephew line, **no natural son**, so he is ruled out as Simplício's (P-0016) father. Recorded on P-0016's coverage; no entities created (collateral, connection unproven — anti-merge). Live childless-brother candidates remain Antônio José (d.1852) and Lino José (d.1870), off-tool at Barbacena.
+- 317 entities; `make check` green (69 + 24 tests); reciprocity verified; index + GEDCOM (7.0, 4063 lines) regenerated; STATUS snapshot refreshed.
+
 ### Added — Muniz collateral children: 11 Mãe de Deus records as documented_children (2026-08-12)
 
 - Value-gated the 11 new 2026-08-12 Nossa Senhora Mãe de Deus (Povoação, São Miguel) register images via three parallel subagents over disjoint sets (each read + transcribed + verified parentage), integrated centrally. Per the collateral rule these are `documented_children`, not person entities (no new persons, no events).

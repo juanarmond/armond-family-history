@@ -532,6 +532,12 @@ people:
         "tio do conde de Prados e do visconde de Pitanguy"). Cross-search these in
         COARPE Barbacena probate + FS Full-Text + Barbacena parish books. Classified as
         leads, not FAN/entities (they appear in cases not involving our modelled people).
+        BOUNDED NEGATIVE (2026-08-12): Honório José Ferreira Armonde's 1845 inventário
+        (LAMPEH Mariana annex, 19pp read) shows only legitimate sibling/nephew heirs and
+        no natural son — ruling him out as Simplício's father (a Ferreira Armonde would
+        not otherwise pass the surname). The still-live childless-brother candidates are
+        Antônio José (d.1852, will at Barbacena) and Lino José (d.1870, will → "Severiano
+        José Ferreira"); both are off-tool (AHMPAJS Barbacena, not digitised).
     - text: >-
         Newspaper OCR (2026-08-10) — this rests on the retrieval agent's per-item dated
         reads; no newspaper images were retained, so the dates were not independently
@@ -1451,18 +1457,26 @@ people:
   external_profiles: []
   records:
   - record_type: birth
-    status: unsearched
-    source_ids: []
-    last_reviewed: "2026-08-07"
+    status: catalogued
+    source_ids:
+    - PAR-0049
+    last_reviewed: "2026-08-12"
     next_action: >-
-      Ritta Angélica Rodrigues (or Rodrigues) confirmed as Ladisláo's mother
-      (PAR-0019, 1787 baptism). No own vital record located. Search Barbacena
-      Piedade baptism/marriage books.
+      COMPLETE — her own 1764 Barbacena baptism is held (PAR-0049, event E-0076): born
+      3 March 1764, baptized 9 March 1764 at the Capela de São José do Ribeirão; names her
+      parents João Rodrigues Valle (P-0078) × Isabel Ribeira (P-0079), primary-confirming
+      F-0038 and resolving the "José vs João" father-forename doubt (→ João). Optional next:
+      a clearer image for the ink-damaged grandparent clauses (maternal a Pestana couple of
+      N.S. do Rosário, Ilha de São Jorge, Açores — a new lead on Isabel's paternal side).
     notes: []
   notes:
   - text: >-
       Mother of Ladisláo Egídio Ferreira de Toledo (P-0056). Recorded as
       "Ritta Angélica Roiz [Rodrigues]" in PAR-0020/0021. Family F-0028.
+  - text: >-
+      12 Aug 2026: her own 1764 baptism (PAR-0049) upgrades the F-0038 parentage from
+      strong-evidence to PRIMARY, resolves "José vs João" on her father in favour of João,
+      and fixes her birth at 3 March 1764. Supersedes the strong-evidence note below.
   - text: >-
       10 Aug 2026: her parents are now modelled — João Rodrigues Valle (P-0078)
       × Isabel Ribeiro (P-0079), family F-0038, from their 22 Feb 1751 Borda do

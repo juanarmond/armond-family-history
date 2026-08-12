@@ -22,6 +22,7 @@ name_variants:
     (PAR-0018), naming her among Ritta's parents.
 event_ids:
 - E-0070
+- E-0076
 family_ids:
 - F-0038
 notes:
@@ -30,22 +31,34 @@ notes:
     Nossa Senhora da Piedade da Borda do Campo (Barbacena), family F-0038 (PAR-0034).
     "Natural e baptizada nesta freguesia" (Borda do Campo), legitimate daughter of
     Manoel Nado Pestana and Anna Francisca (named in PAR-0034; recorded as a lead,
-    not modelled — no records of their own located).
+    not modelled — no records of their own located). Her granddaughter Rita's 1764
+    baptism (PAR-0049) corroborates this couple as Rita's maternal grandparents and
+    adds — ink-damaged, so a lead — that Manoel Pestana was "natural da freguesia de
+    Nossa Senhora do Rosário da Ilha de São Jorge" (Açores), a possible Azorean origin
+    for Isabel's paternal side to verify before promoting.
   text_pt: >-
     Esposa de João Rodrigues Valle (P-0078); casou-se em 22 de fevereiro de 1751
     na Matriz de Nossa Senhora da Piedade da Borda do Campo (Barbacena), família
     F-0038 (PAR-0034). "Natural e baptizada nesta freguesia" (Borda do Campo),
     filha legítima de Manoel Nado Pestana e Anna Francisca (nomeados em PAR-0034;
-    registrados como pista, não modelados — nenhum registro próprio localizado).
+    registrados como pista, não modelados — nenhum registro próprio localizado). O
+    batismo de 1764 de sua neta Rita (PAR-0049) corrobora este casal como avós maternos
+    de Rita e acrescenta — danificado por tinta, portanto uma pista — que Manoel Pestana
+    era "natural da freguesia de Nossa Senhora do Rosário da Ilha de São Jorge" (Açores),
+    uma possível origem açoriana do lado paterno de Isabel, a verificar antes de promover.
 - text: >-
     Mother of Ritta Angélica Rodrigues (P-0058), who married Joaquim José Ferreira
     de Toledo (P-0057); hence a direct maternal-line ancestor of Eliza Balbina de
-    Toledo (P-0017). See F-0038 for the strong-evidence child link (PAR-0018).
+    Toledo (P-0017). The child link (Isabel as Rita's mother) is now PRIMARY via
+    Rita's own 1764 baptism (PAR-0049), which names her — superseding the earlier
+    strong-evidence name-match (PAR-0018). See F-0038.
   text_pt: >-
     Mãe de Ritta Angélica Rodrigues (P-0058), que se casou com Joaquim José
     Ferreira de Toledo (P-0057); portanto, uma ancestral direta da linha materna
-    de Eliza Balbina de Toledo (P-0017). Ver F-0038 para a ligação filial de
-    evidência forte (PAR-0018).
+    de Eliza Balbina de Toledo (P-0017). A ligação filial (Isabel como mãe de Rita) é
+    agora PRIMÁRIA por meio do próprio batismo de 1764 de Rita (PAR-0049), que a
+    nomeia — superando a anterior correspondência de nomes de evidência forte
+    (PAR-0018). Ver F-0038.
 - text: >-
     Nationality Brazilian: "natural e baptizada nesta freguesia" (Borda do Campo /
     Barbacena, MG) per PAR-0034 — a documented birthplace. No birth or death record

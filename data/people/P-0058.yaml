@@ -13,6 +13,7 @@ event_ids:
 - E-0050
 - E-0052
 - E-0075
+- E-0076
 family_ids:
 - F-0028
 - F-0038
@@ -35,21 +36,32 @@ notes:
     nº 1 do casal, entre seus treze filhos. Faleceu em 9 de fevereiro de 1832, sem
     testamento (PRB-0010, evento E-0075).
 - text: >-
-    Her parents are now modelled: João Rodrigues Valle (P-0078) and Isabel Ribeiro
-    (P-0079), family F-0038 — established by their 22 February 1751 Borda do Campo
-    marriage (PAR-0034), identified with the "João Rodrigues [do Valle] e Izabel
-    Ribeira" of PAR-0018 (same names, same parish, consistent timeline;
-    strong-evidence). This extends her paternal Rodrigues/Valle line to Ruivais
-    (Braga), Portugal (PAR-0035, PAR-0036). Nationality Brazilian (natural of the
-    Borda do Campo / Barbacena, MG).
+    Her parents are João Rodrigues (Roiz) Valle (P-0078) and Isabel Ribeira / Ribeiro
+    de Lima (P-0079), family F-0038 — now PRIMARY-confirmed by her own 1764 Barbacena
+    baptism (PAR-0049), which names them and gives the father "natural da freguesia de
+    São Martinho de Ruivães, Arcebispado de Braga". This supersedes the earlier
+    strong-evidence name-match (her marriage PAR-0018 + the couple's 1751 marriage
+    PAR-0034) and resolves the low-legibility "José vs João" doubt on the father's
+    forename in favour of João. She was born 3 March 1764 and baptized 9 March 1764 at
+    the Capela de São José do Ribeirão (PAR-0049, event E-0076); her paternal
+    Rodrigues/Valle line reaches Ruivães (Braga), Portugal (PAR-0035, PAR-0036). The
+    baptism adds an ink-damaged lead that her maternal grandparents were a Pestana
+    couple of Nossa Senhora do Rosário, Ilha de São Jorge (Açores) — held as a lead
+    only. Nationality Brazilian (natural of the Borda do Campo / Barbacena, MG).
   text_pt: >-
-    Seus pais estão agora modelados: João Rodrigues Valle (P-0078) e Isabel
-    Ribeiro (P-0079), família F-0038 — estabelecidos por seu casamento de 22 de
-    fevereiro de 1751 na Borda do Campo (PAR-0034), identificado com o "João
-    Rodrigues [do Valle] e Izabel Ribeira" de PAR-0018 (mesmos nomes, mesma
-    freguesia, cronologia consistente; evidência forte). Isso estende sua linha
-    paterna Rodrigues/Valle até Ruivais (Braga), Portugal (PAR-0035, PAR-0036).
-    Nacionalidade brasileira (natural da Borda do Campo / Barbacena, MG).
+    Seus pais são João Rodrigues (Roiz) Valle (P-0078) e Isabel Ribeira / Ribeiro de
+    Lima (P-0079), família F-0038 — agora CONFIRMADOS POR REGISTRO PRIMÁRIO pelo seu
+    próprio batismo de 1764 em Barbacena (PAR-0049), que os nomeia e dá o pai "natural
+    da freguesia de São Martinho de Ruivães, Arcebispado de Braga". Isso supera a
+    anterior correspondência de nomes (evidência forte: seu casamento PAR-0018 + o
+    casamento de 1751 do casal, PAR-0034) e resolve a dúvida de baixa legibilidade
+    "José vs João" sobre o prenome do pai em favor de João. Nasceu em 3 de março de
+    1764 e foi batizada em 9 de março de 1764 na Capela de São José do Ribeirão
+    (PAR-0049, evento E-0076); sua linha paterna Rodrigues/Valle alcança Ruivães
+    (Braga), Portugal (PAR-0035, PAR-0036). O batismo acrescenta uma pista danificada
+    por tinta de que seus avós maternos eram um casal Pestana de Nossa Senhora do
+    Rosário, Ilha de São Jorge (Açores) — mantida apenas como pista. Nacionalidade
+    brasileira (natural da Borda do Campo / Barbacena, MG).
 profile: >-
   ## Identity
 
@@ -59,6 +71,9 @@ profile: >-
   (PRB-0010), and in his 1787 baptism (PAR-0019); wife of João/Joaquim José Ferreira de
   Toledo (P-0057), family F-0028. Through Ladisláo she is Eliza Balbina de Toledo's
   great-great-grandmother.
+
+  - **Birth:** born 3 March 1764, baptized 9 March 1764 at the Capela de São José do
+  Ribeirão (Borda do Campo, Barbacena), per her own baptism (PAR-0049). [PROVEN]
 
   - Named in her c.1786 Barbacena marriage (PAR-0018) as "filha legitima de João Rodrigues
   [do Valle] e de Izabel Ribeira, natural da Freguesia da Borda do Campo."
@@ -71,34 +86,37 @@ profile: >-
   1833 inventory, PRB-0010), including Ladisláo (P-0056), Anna Belizaria (m.1812, PAR-0020),
   Carolina Francelina (m.1816, PAR-0021), and the brothers José Anastácio and Antonio Zeferino.
 
-  - **Parents now modelled:** João Rodrigues Valle (P-0078) × Isabel Ribeiro (P-0079),
-  family F-0038 — established by their 22 February 1751 Borda do Campo marriage (PAR-0034),
-  identified with the "João Rodrigues [do Valle] e Izabel Ribeira" of PAR-0018 (same names,
-  same parish, consistent timeline; strong-evidence). This extends her paternal
-  Rodrigues/Valle line to Ruivais (São Martinho de Ruivais), Archbishopric of Braga,
-  Portugal.
+  - **Parents (PRIMARY):** João Rodrigues (Roiz) Valle (P-0078) × Isabel Ribeira / Ribeiro
+  de Lima (P-0079), family F-0038 — named in her own 1764 baptism (PAR-0049), which gives
+  the father "natural da freguesia de São Martinho de Ruivães, Arcebispado de Braga". This
+  upgrades the earlier strong-evidence (a name-match from her 1786 marriage PAR-0018, tied to
+  the couple's 1751 Borda do Campo marriage PAR-0034) and resolves the low-legibility "José
+  vs João" doubt in favour of João. Her paternal Rodrigues/Valle line reaches Ruivães
+  (Braga), Portugal.
 
   ## What we can extrapolate
 
   She is where this branch of the Toledo tree gains its documentable Portuguese depth: her
   husband's patriline tops out at Vila Rica, but her Rodrigues/Valle line reaches, through
   the 1751 marriage (PAR-0034), a Portuguese immigrant father from Ruivais (Braga).
-  [INFERRED] Her death is now documented: she died 9 February 1832, intestate, per the 1833
-  Barbacena inventory of her estate (PRB-0010, event E-0075). A birth ~1764 circulates in
-  secondary sources but is not confirmed. [PROVEN death; LEAD birth]
+  [INFERRED] Her birth (3 March 1764) and death (9 February 1832, intestate) are both now
+  fixed by primary records — her 1764 baptism (PAR-0049) and her 1833 estate inventory
+  (PRB-0010, event E-0075) — giving a documented lifespan of about 68 years. [PROVEN]
 
   ## Open questions
 
-  - Her own baptism (Barbacena, ~1764) to fix her birth and primary-confirm the Valle
-  parentage. [OPEN]
+  - Her maternal grandparents: the 1764 baptism names, ink-damaged, a Pestana couple of
+  Nossa Senhora do Rosário, Ilha de São Jorge (Açores) — "[Man]uel Pestana × Anna Francisca";
+  a São Jorge parish record is needed before promoting this past a lead. [LEAD]
 
   ## Sources held (this repository)
 
-  - PAR-0018 (c.1786 marriage — her parents, Borda do Campo origin) · PAR-0019 (1787 baptism
-  of her son Ladisláo) · PAR-0020, PAR-0021 (two daughters' marriages naming her) · PAR-0023
-  (1810 son's marriage — "Rita Aquilina/Angélica") · PAR-0034 (1751 Borda do Campo marriage
-  of her parents — extends the line to Portugal) · PRB-0010 (1833 inventory of her estate —
-  her death and all thirteen children).
+  - PAR-0049 (her own 1764 Barbacena baptism — birth, parentage, father's Ruivães origin —
+  the primary anchor) · PAR-0018 (c.1786 marriage — her parents, Borda do Campo origin) ·
+  PAR-0019 (1787 baptism of her son Ladisláo) · PAR-0020, PAR-0021 (two daughters' marriages
+  naming her) · PAR-0023 (1810 son's marriage — "Rita Aquilina/Angélica") · PAR-0034 (1751
+  Borda do Campo marriage of her parents — extends the line to Portugal) · PRB-0010 (1833
+  inventory of her estate — her death and all thirteen children).
 
   ## Regional and migration context
 
@@ -116,6 +134,10 @@ profile_pt: >-
   Ferreira de Toledo (P-0057), família F-0028. Por Ladisláo, é a trisavó de Eliza Balbina de
   Toledo.
 
+  - **Nascimento:** nascida em 3 de março de 1764, batizada em 9 de março de 1764 na Capela
+  de São José do Ribeirão (Borda do Campo, Barbacena), conforme seu próprio batismo
+  (PAR-0049). [PROVEN]
+
   - Nomeada em seu casamento em Barbacena por volta de 1786 (PAR-0018) como "filha legitima
   de João Rodrigues [do Valle] e de Izabel Ribeira, natural da Freguesia da Borda do
   Campo."
@@ -128,35 +150,39 @@ profile_pt: >-
   de 1833, PRB-0010), incluindo Ladisláo (P-0056), Anna Belizaria (c.1812, PAR-0020),
   Carolina Francelina (c.1816, PAR-0021) e os irmãos José Anastácio e Antonio Zeferino.
 
-  - **Pais agora modelados:** João Rodrigues Valle (P-0078) × Isabel Ribeiro (P-0079),
-  família F-0038 — estabelecidos por seu casamento de 22 de fevereiro de 1751 na Borda do
-  Campo (PAR-0034), identificado com o "João Rodrigues [do Valle] e Izabel Ribeira" de
-  PAR-0018 (mesmos nomes, mesma freguesia, cronologia consistente; evidência forte). Isso
-  estende sua linha paterna Rodrigues/Valle até Ruivais (São Martinho de Ruivais),
-  Arcebispado de Braga, Portugal.
+  - **Pais (PRIMÁRIO):** João Rodrigues (Roiz) Valle (P-0078) × Isabel Ribeira / Ribeiro de
+  Lima (P-0079), família F-0038 — nomeados em seu próprio batismo de 1764 (PAR-0049), que dá
+  o pai "natural da freguesia de São Martinho de Ruivães, Arcebispado de Braga". Isso supera
+  a anterior evidência forte (correspondência de nomes de seu casamento de 1786, PAR-0018,
+  ligada ao casamento de 1751 do casal, PAR-0034) e resolve a dúvida de baixa legibilidade
+  "José vs João" em favor de João. Sua linha paterna Rodrigues/Valle alcança Ruivães (Braga),
+  Portugal.
 
   ## O que podemos extrapolar
 
   É onde este ramo da árvore Toledo ganha sua profundidade portuguesa documentável: a
   patrilinha do marido dela topa em Vila Rica, mas sua linha Rodrigues/Valle alcança, por
   meio do casamento de 1751 (PAR-0034), um pai imigrante português de Ruivais (Braga).
-  [INFERRED] Seu óbito está agora documentado: faleceu em 9 de fevereiro de 1832, sem
-  testamento, conforme o inventário de 1833 de seu espólio em Barbacena (PRB-0010, evento
-  E-0075). Um nascimento ~1764 circula em fontes secundárias, mas não está confirmado.
-  [PROVEN óbito; LEAD nascimento]
+  [INFERRED] Seu nascimento (3 de março de 1764) e seu óbito (9 de fevereiro de 1832, sem
+  testamento) estão agora fixados por registros primários — seu batismo de 1764 (PAR-0049) e
+  o inventário de seu espólio de 1833 (PRB-0010, evento E-0075) — dando uma vida documentada
+  de cerca de 68 anos. [PROVEN]
 
   ## Questões em aberto
 
-  - Seu próprio batismo (Barbacena, ~1764) para fixar seu nascimento e confirmar por
-  registro primário a filiação Valle. [OPEN]
+  - Seus avós maternos: o batismo de 1764 nomeia, danificado por tinta, um casal Pestana de
+  Nossa Senhora do Rosário, Ilha de São Jorge (Açores) — "[Man]uel Pestana × Anna Francisca";
+  é preciso um registro paroquial de São Jorge antes de promover isto além de uma pista. [LEAD]
 
   ## Fontes disponíveis (neste repositório)
 
-  - PAR-0018 (casamento de c.1786 — seus pais, origem na Borda do Campo) · PAR-0019 (batismo
-  de 1787 de seu filho Ladisláo) · PAR-0020, PAR-0021 (casamentos de duas filhas que a
-  nomeiam) · PAR-0023 (casamento de 1810 do filho — "Rita Aquilina/Angélica") · PAR-0034
-  (casamento de 1751 na Borda do Campo de seus pais — estende a linha até Portugal) · PRB-0010
-  (inventário de 1833 de seu espólio — seu óbito e os treze filhos).
+  - PAR-0049 (seu próprio batismo de 1764 em Barbacena — nascimento, filiação, origem do pai
+  em Ruivães — a âncora primária) · PAR-0018 (casamento de c.1786 — seus pais, origem na
+  Borda do Campo) · PAR-0019 (batismo de 1787 de seu filho Ladisláo) · PAR-0020, PAR-0021
+  (casamentos de duas filhas que a nomeiam) · PAR-0023 (casamento de 1810 do filho — "Rita
+  Aquilina/Angélica") · PAR-0034 (casamento de 1751 na Borda do Campo de seus pais — estende
+  a linha até Portugal) · PRB-0010 (inventário de 1833 de seu espólio — seu óbito e os treze
+  filhos).
 
   ## Contexto regional e migratório
 

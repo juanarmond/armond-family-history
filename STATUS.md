@@ -95,12 +95,12 @@ and cataloguing work.
 | --- | --- |
 | Structured people | 87 |
 | Structured families | 42 |
-| Structured events | 72 |
+| Structured events | 73 |
 | Structured places | 9 |
-| Structured sources | 81 |
+| Structured sources | 93 |
 | Structured FAN references | 13 |
-| Inventoried retained documents | 78 |
-| Validation | 304 entities; zero errors or warnings at the last check (2026-08-11) |
+| Inventoried retained documents | 90 |
+| Validation | 317 entities; zero errors or warnings at the last check (2026-08-12) |
 | Automated tests | 69 passing at the last check |
 
 The catalogued sources span the Armond/Paz, Muniz Bittencourt/Azevedo,

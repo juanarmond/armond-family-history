@@ -19,22 +19,27 @@ children:
   parent_relationships:
   - parent_id: P-0078
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
+    - PAR-0049
     - PAR-0018
+    - PAR-0034
     notes:
     - text: >-
-        Ritta Angélica Rodrigues (P-0058) is named in her own c.1786 Barbacena
-        marriage (PAR-0018) as "filha legitima de João Rodrigues [do Valle] e de
-        Izabel Ribeira, natural da Freguesia da Borda do Campo". Identifying that
-        couple with João Rodrigues Valle × Isabel Ribeiro of PAR-0034 (same names,
-        same Borda do Campo parish, consistent timeline) is strong-evidence, not
-        certain.
+        Ritta Angélica Rodrigues (P-0058) is named daughter of João Rodrigues (Roiz)
+        Valle × Isabel Ribeira in her own 1764 Barbacena baptism (PAR-0049) — the
+        PRIMARY confirmation, which upgrades the earlier strong-evidence (a name-match
+        from her c.1786 marriage PAR-0018, tied to the 1751 Borda do Campo marriage of
+        that couple, PAR-0034). The baptism gives the father's origin "natural da
+        freguesia de São Martinho de Ruivães, Arcebispado de Braga" and resolves the
+        low-legibility "José vs João" marriage-folio doubt in favour of João.
   - parent_id: P-0079
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
+    - PAR-0049
     - PAR-0018
+    - PAR-0034
     notes: []
   notes: []
 event_ids:

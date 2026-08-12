@@ -1,0 +1,28 @@
+schema_version: 1
+id: E-0076
+event_type: birth
+date:
+  kind: exact
+  value: "1764-03-03"
+  original_text: Nasceu no dia três de Março do dito anno [de mil e sete centos e sessenta e quatro]
+place_text: >-
+  Freguesia de Nossa Senhora da Piedade da Borda do Campo (Capela de São José do
+  Ribeirão), Villa de Barbacena, Minas Gerais, Brazil
+participants:
+- person_id: P-0058
+  role: principal
+- person_id: P-0078
+  role: parent
+- person_id: P-0079
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0049
+notes:
+- text: >-
+    Birth of Ritta Angélica Rodrigues (P-0058) on 3 March 1764, established by her own
+    baptism (PAR-0049), which records "Nasceu no dia três de Março" and the baptism on
+    9 March 1764 at the Capela de São José do Ribeirão (Borda do Campo, Barbacena). The
+    baptism names her parents João Rodrigues Valle (P-0078) and Isabel Ribeira /
+    Ribeiro de Lima (P-0079). The FamilySearch index gives the baptism day as 12 March;
+    the primary reads 9. This is the pre-civil-registration birth record.

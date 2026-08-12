@@ -1,0 +1,118 @@
+schema_version: 1
+id: PAR-0049
+title: >-
+  Parish baptism of Ritta Angélica Rodrigues (P-0058), 9 March 1764, Capela de
+  São José do Ribeirão (Matriz de N.S. da Piedade da Borda do Campo, Barbacena) —
+  names her parents João Rodrigues Valle and Isabel Ribeira
+record_type: Parish baptism register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1764-03-09"
+  original_text: Aos [nove] dias do mes de Março de mil e sete centos e sessenta e quatro annos
+event_place_text: >-
+  Capela de São José do Ribeirão, filial da Matriz de Nossa Senhora da Piedade da
+  Borda do Campo, Villa de Barbacena, Minas Gerais, Brazil
+repository:
+  name: >-
+    Paróquia de Nossa Senhora da Piedade da Borda do Campo (Barbacena), Minas Gerais
+  archive_or_registry: >-
+    Livro de batismos, Matriz de N.S. da Piedade da Borda do Campo (Barbacena),
+    via FamilySearch collection 2177275
+  book: >-
+    Livro de batismos, Barbacena Piedade — folios 9v–10 (a two-page termo)
+  catalogue_reference: >-
+    FamilySearch coll 2177275, Barbacena Piedade baptisms, folios 9v–10. Read
+    directly from the register images 2026-08-12.
+access_date: "2026-08-12"
+language: pt
+transcription: >-
+  [Batismo — Livro de batismos, Matriz de N.S. da Piedade da Borda do Campo
+  (Barbacena); Capela de São José do Ribeirão; termo em duas páginas, folios 9v–10.
+  Read from the register images 2026-08-12; the paternal- and maternal-grandparent
+  clauses are ink-damaged and read only tentatively.]
+
+  "Aos [nove] dias do mes de Março de mil e sete centos e sessenta e quatro annos,
+  na Capella de São José do Ribeirão, filial desta Matriz de Nossa Senhora da Piedade
+  da Borda do Campo, o Padre Manoel [Ferreira Cortez?] de licença minha batizou
+  solenemente e pôs os santos óleos a Ritta, filha de João Roiz [Rodrigues] Valle,
+  natural da freguesia de São Martinho de Ruivães, Arcebispado de Braga, e de sua
+  mulher Isabel Ribeira, natural desta freguesia. Foi [avós] por parte paterna João
+  Roiz [da Cunha?] e sua mulher Joanna [Angela?], naturais da dita freguesia de
+  [Ruivães]; e pela materna, [Man]uel Pestana, natural da freguesia de Nossa Senhora
+  do Rosário da Ilha de São Jorge, Bispado de Angra [dos Açores], e de sua mulher
+  Anna Francisca [uncertain], natural [da freguesia de São Jorge]. Foram padrinhos
+  Silvestre de Lima, solteiro, e Maria, filha de José Lopes de Oliveira, todos desta
+  freguesia. Nasceu no dia três de Março do dito anno, de que fiz este assento. O
+  Vigario Feliciano Pitta de Castro."
+abstract: >-
+  The 1764 Barbacena baptism of Ritta Angélica Rodrigues (P-0058): born 3 March
+  1764, baptized 9 March 1764 at the Capela de São José do Ribeirão (filial of the
+  Matriz de N.S. da Piedade da Borda do Campo, Barbacena). She is named daughter of
+  João Rodrigues (Roiz) Valle (P-0078) — "natural da freguesia de São Martinho de
+  Ruivães, Arcebispado de Braga" — and Isabel Ribeira / Ribeiro de Lima (P-0079),
+  "natural desta freguesia". This is the PRIMARY confirmation of her parentage
+  (family F-0038, previously strong-evidence inferred from her marriage) and resolves
+  the earlier low-legibility "José vs João" doubt on her father's forename in favour
+  of João; it also primary-confirms the Ruivães (Braga) origin of the Rodrigues Valle
+  line. The ink-damaged grandparent clauses — paternal João Roiz × Joanna of Ruivães;
+  maternal a Pestana couple of Nossa Senhora do Rosário, Ilha de São Jorge (Açores),
+  "[Man]uel Pestana × Anna Francisca" — are recorded as leads only, pending a clearer
+  image or corroborating record. Godparents Silvestre de Lima and Maria (daughter of
+  José Lopes de Oliveira); vigário Feliciano Pitta de Castro.
+abstract_pt: >-
+  O batismo de 1764, em Barbacena, de Ritta Angélica Rodrigues (P-0058): nascida em
+  3 de março de 1764, batizada em 9 de março de 1764 na Capela de São José do
+  Ribeirão (filial da Matriz de N.S. da Piedade da Borda do Campo, Barbacena).
+  Nomeada filha de João Rodrigues (Roiz) Valle (P-0078) — "natural da freguesia de
+  São Martinho de Ruivães, Arcebispado de Braga" — e de Isabel Ribeira / Ribeiro de
+  Lima (P-0079), "natural desta freguesia". É a confirmação PRIMÁRIA de sua filiação
+  (família F-0038, antes evidência forte inferida de seu casamento) e resolve a
+  dúvida anterior, de baixa legibilidade, sobre o prenome do pai ("José vs João") em
+  favor de João; confirma também, por registro primário, a origem em Ruivães (Braga)
+  da linha Rodrigues Valle. As cláusulas dos avós, danificadas por tinta — paternos
+  João Roiz × Joanna, de Ruivães; maternos um casal Pestana de Nossa Senhora do
+  Rosário, Ilha de São Jorge (Açores), "[Man]uel Pestana × Anna Francisca" — ficam
+  registradas apenas como pistas, até uma imagem mais nítida ou registro
+  corroborante. Padrinhos Silvestre de Lima e Maria (filha de José Lopes de
+  Oliveira); vigário Feliciano Pitta de Castro.
+reliability:
+  assessment: >-
+    An original parish baptism register entry; primary, direct evidence for Ritta
+    Angélica's birth (3 March 1764), baptism (9 March 1764) and parentage. It upgrades
+    the F-0038 parent edge from strong-evidence (a name-match from her marriage) to
+    primary, and settles the "José vs João" forename doubt in favour of João.
+  informant: >-
+    The vigário Feliciano Pitta de Castro of N.S. da Piedade da Borda do Campo,
+    recording the baptism performed by Padre Manoel [Ferreira Cortez?] under licence.
+  limitations: >-
+    The grandparent clauses are ink-damaged and read only tentatively (marked
+    [uncertain]); the celebrant's surname and the exact baptism-day word ("nove"=9,
+    vs the FamilySearch index's "12") carry minor uncertainty. Identity is not in
+    doubt (parents, place and the 3-March birth are legible).
+digital_file:
+  path: >-
+    evidence/parish/PAR-0049-rita-angelica-baptism-1764-barbacena-p1.jpg
+  sha256: ecf97ac1d22dd89e0615fd32e70a90e0ae684303b4f5f918ef76a058b265e41e
+linked_people:
+  - P-0058
+  - P-0078
+  - P-0079
+linked_families:
+  - F-0038
+linked_events:
+  - E-0076
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Catalogued 12 August 2026 from the FamilySearch register images (coll 2177275),
+      a two-page termo (folios 9v–10; both pages held as PAR-0049-…-p1/p2). Resolves
+      STATUS material-conflict on the Rodrigues Valle link: her father is João
+      Rodrigues Valle (primary), not the "José" of a low-legibility marriage-folio
+      read. The maternal-grandparent Pestana / Ilha de São Jorge (Açores) clause is a
+      new but ink-damaged lead — not promoted past LEAD.

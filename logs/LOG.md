@@ -5,6 +5,12 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-08-12 — Rita Angélica's 1764 baptism (Rodrigues-Valle link → primary); Honório 1845 negative
+
+- Question: value-gate the second 2026-08-12 sync — Rita Angélica's own 1764 baptism, and Honório José Ferreira Armonde's 1845 inventário (Simplício-parentage attack).
+- Key results: (1) **PAR-0049** (new) — Rita Angélica Rodrigues's (P-0058) 1764 Barbacena baptism (FS coll 2177275). New birth event **E-0076** (b. 3 Mar 1764, bapt. 9 Mar 1764). Upgrades the F-0038 parent edge (P-0058 ↔ João Rodrigues Valle P-0078 × Isabel Ribeira P-0079) from strong-evidence to **PRIMARY**, resolves the "José vs João" father-forename doubt → **João**, and primary-confirms the Ruivães/Braga origin. New LEAD (kept as lead): maternal grandparents a Pestana couple of N.S. do Rosário, Ilha de São Jorge (Açores) — a possible Azorean origin on Isabel's paternal side. (2) **Honório 1845 inventário** (LAMPEH Mariana, 19pp): **bounded negative** — only legitimate sibling/nephew heirs, no natural son → Honório ruled out as Simplício's father; recorded on P-0016 coverage; no entities (collateral, anti-merge). Live candidates remain Antônio José (d.1852), Lino José (d.1870).
+- New entities: PAR-0049; E-0076. Updated: P-0058, P-0078, P-0079, F-0038, record-coverage, STATUS. 317 entities; make check green. Session log: `logs/2026-08-12-rita-1764-baptism-and-honorio-negative.md`.
+
 ## 2026-08-12 — Muniz collateral children: 11 Mãe de Deus records as documented_children
 
 - Question: value-gate the 11 new 2026-08-12 Mãe de Deus register images (siblings/children of the modelled Muniz couples).
