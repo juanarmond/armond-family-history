@@ -5,6 +5,12 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — removed redundant `transcription_pt` from 33 Portuguese-language records (2026-08-12)
+
+- Follow-up to the field-validation audit. For a Portuguese-language record the verbatim `transcription` is already Portuguese, so a `transcription_pt` that merely re-localizes the **bracketed editorial notes** (e.g. "Marginal note:" → "Nota à margem:", "[FamilySearch Full-Text extract:]" → "[Extrato … do FamilySearch:]") duplicates the whole record body for no benefit — the viewer already falls back to `transcription` in PT mode (`localeText`). Removed the field from **33 records** verified byte-identical except editorial framing, via 4 parallel agents over disjoint sets, each confirming no unique record data was lost before deleting: **20 sources** (CIV-0005/0008/0013/0017/0018/0020/0022/0024, GOV-0001, PAR-0001/0005/0006/0010/0017/0018/0019/0023/0025/0026, PRB-0006) and **13 FANs** (FAN-0001…FAN-0013).
+- **Kept (not redundant):** the Italian (CIV-0010/0011/0012) and Latin (PAR-0027/0028/0029) originals, where the PT rendering translates the foreign record; and **5 records whose `transcription_pt` translates substantive editorial/summary prose, not just brackets** (PRB-0008, PRB-0009, PUB-0001, PUB-0002, PUB-0003 — for PUB-0003 the `transcription` is itself an English summary), so its removal would strip real bilingual content.
+- Pure deletion (410 lines, 0 insertions); every `transcription` left intact. `make check` green; viewer index and GEDCOM unchanged (neither reads `transcription_pt`).
+
 ### Fixed — audit remediation: relationship labels, F-0016 double-count, source→person links (2026-08-12)
 
 - **Relationship-label corrections** (prose only, no structural change), from the 4-agent field-validation audit: **P-0004** called Simplício (P-0016) Geraldo's *great-grandfather/bisavô* — he is his **grandfather/avô** (Geraldo ← Aristão ← Simplício). **P-0059 (Amaro)** & **P-0060 (Ignez)** were labelled Eliza's *maternal* great-grandparents — they are on **her father's maternal line** (Eliza ← father José Cezário ← his mother Mathilde ← Amaro/Ignez). **P-0040 (José do Rego Brandão)** was "Antenor's *maternal* great-grandfather" — he is Antenor's **paternal** great-grandfather (via Antenor's father Deocleciano → his mother Susanna); the "*maternal* grandfather of Deocleciano" half was correct and left. **P-0032** prose "P-0010 b. c.1895" → **1894** (his proven birth, E-0024/CIV-0002). All lineages re-verified against the family graph.

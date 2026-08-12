@@ -88,16 +88,18 @@ sources; all 13 FANs `usage: context`, never cited as evidence. **S12
 `FAN.participants` (data-loader 334-341), not from `person.fan_references`, so
 the 12 FANs without a person back-link still reach their participants' pages.
 
-## Deferred (surfaced, not actioned)
+## Deferred item — subsequently actioned (2026-08-12)
 
-- **Redundant `transcription_pt` on 25 Portuguese-language sources + 13 FANs.**
-  The verbatim record text is byte-identical to `transcription`; only the
-  bracketed **editorial notes** are localized. This drifts from the convention
-  ("PT-language sources need no `transcription_pt`"), but it currently *adds*
-  PT-localized editorial notes to the viewer toggle rather than being a display
-  bug, and a blind mass-delete would reduce PT coverage. Left for a deliberate,
-  focused pass (keep the Italian CIV-0010/11/12 and Latin PAR-0027/28/29 — genuine
-  foreign-language originals). Not a bug of the audited class.
+- **Redundant `transcription_pt`** — actioned via 4 parallel agents (each
+  verifying byte-identity before deleting). **Removed from 33 records** (20
+  sources CIV-0005/0008/0013/0017/0018/0020/0022/0024, GOV-0001,
+  PAR-0001/0005/0006/0010/0017/0018/0019/0023/0025/0026, PRB-0006; and FAN-0001…
+  FAN-0013) where the only difference was translated editorial framing. **Kept**
+  the Italian (CIV-0010/11/12) and Latin (PAR-0027/28/29) originals, and **5
+  records whose `transcription_pt` translates substantive editorial/summary prose,
+  not just brackets** (PRB-0008, PRB-0009, PUB-0001, PUB-0002, PUB-0003) — removing
+  those would strip real bilingual content. Pure deletion (410 lines); every
+  `transcription` intact; `make check` green; index and GEDCOM unchanged.
 
 ## Result
 
