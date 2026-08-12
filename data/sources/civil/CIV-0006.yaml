@@ -117,6 +117,9 @@ digital_file:
 linked_people:
   - P-0012
   - P-0013
+  - P-0019
+  - P-0020
+  - P-0039
 linked_families:
   - F-0001
 linked_events:
@@ -132,3 +135,11 @@ notes:
       Page 1 contains registry contact information, official signatures, a
       digital seal and fee information. All pages are private evidence and
       must be excluded from public derivatives.
+  - text: >-
+      The bride's father is named in this 2019 full-content reproduction as
+      "Sebastião [uncertain: Manoel] de Azevedo", whereas CIV-0001 (the concise
+      certificate of the same 1916 entry — book 8-B, folha 118, termo 62) reads
+      "José Secundino de Azevedo" (P-0038). It is the same record and the same
+      person (Luiza's father), but the low-contrast handwritten reproduction here
+      yields a conflicting given name, so P-0038 is deliberately not linked to this
+      derivative pending resolution; the conflict is preserved rather than erased.

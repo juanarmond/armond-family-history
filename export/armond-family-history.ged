@@ -725,7 +725,7 @@
 3 QUAY 2
 1 FAMS @F0019@
 1 FAMC @F0021@
-1 NOTE Father of Susanna (Suzana) Rita Brandão (P-0020); hence Deocleciano Muniz Bittencourt's maternal grandfather and Antenor Muniz's maternal great-grandfather. Named in his daughter's 1866 baptism (PAR-0005) as her legitimate father, and again as a godparent of his granddaughter Anna's 1885 baptism (PAR-0006). A Brandão family of the Santo Antônio de Sapucaia (RJ) parish, later resident at Santa Luzia de Carangola (MG).
+1 NOTE Father of Susanna (Suzana) Rita Brandão (P-0020); hence Deocleciano Muniz Bittencourt's maternal grandfather and Antenor Muniz's paternal great-grandfather. Named in his daughter's 1866 baptism (PAR-0005) as her legitimate father, and again as a godparent of his granddaughter Anna's 1885 baptism (PAR-0006). A Brandão family of the Santo Antônio de Sapucaia (RJ) parish, later resident at Santa Luzia de Carangola (MG).
 1 NOTE Died 3 October 1912 at Carangola, aged 79 (born c.1833), a widower of Rita (P-0041), per his own death register (PAR-0008 → event E-0037). His parents were José do Rego Brandão [o velho] (P-0043) and Maria de Mendonça (P-0044) — family F-0021. Nationality recorded as "brasileiro" in that óbito.
 0 @P0041@ INDI
 1 NAME Rita Ignacia de /Jesus/
@@ -1045,7 +1045,7 @@
 2 SOUR @PAR0026@
 1 FAMS @F0029@
 1 FAMC @F0031@
-1 NOTE Father of Mathilde Maria de Jesus (P-0027); hence great-grandfather of Eliza Balbina de Toledo (P-0017) on her maternal-paternal line. He is named in his daughter's 1810 São João del Rei marriage record (PAR-0023) as "Alferes Amaro da Silva Xavier." In the 1777 Piracatu baptism of his daughter Maria (PAR-0025) he is stated as "natural da frequesia de Nossa Senhora do Rio de Meia Ponte, comarca do Goyas, Bispado do Rio de Janeiro" — native of today's Pirenópolis (GO). His parents are confirmed by PAR-0025 as Amaro da Silva Barreto (P-0064, from Guimarães, Portugal) × Perpétua da Silva (P-0065, from the city of São Paulo). Material conflict: PAR-0023 (1810) states both he and Ignez as "naturais e batizados da Freguesia de Barbacena," while PAR-0025 (1777) names him as native of Meia Ponte (Goiás). The 1777 record is the earlier and more specific source; the 1810 description likely reflects long-term Barbacena domicile. Both versions preserved. His own baptism and death records have not been located.
+1 NOTE Father of Mathilde Maria de Jesus (P-0027); hence great-grandfather of Eliza Balbina de Toledo (P-0017) on her father's maternal line. He is named in his daughter's 1810 São João del Rei marriage record (PAR-0023) as "Alferes Amaro da Silva Xavier." In the 1777 Piracatu baptism of his daughter Maria (PAR-0025) he is stated as "natural da frequesia de Nossa Senhora do Rio de Meia Ponte, comarca do Goyas, Bispado do Rio de Janeiro" — native of today's Pirenópolis (GO). His parents are confirmed by PAR-0025 as Amaro da Silva Barreto (P-0064, from Guimarães, Portugal) × Perpétua da Silva (P-0065, from the city of São Paulo). Material conflict: PAR-0023 (1810) states both he and Ignez as "naturais e batizados da Freguesia de Barbacena," while PAR-0025 (1777) names him as native of Meia Ponte (Goiás). The 1777 record is the earlier and more specific source; the 1810 description likely reflects long-term Barbacena domicile. Both versions preserved. His own baptism and death records have not been located.
 0 @P0060@ INDI
 1 NAME Ignez Francisca de /Lima/
 2 GIVN Ignez Francisca de
@@ -1053,7 +1053,7 @@
 1 SEX F
 1 FAMS @F0029@
 1 FAMC @F0032@
-1 NOTE Mother of Mathilde Maria de Jesus (P-0027); hence great-grandmother of Eliza Balbina de Toledo (P-0017) on her maternal-paternal line. Named in her daughter's 1810 São João del Rei marriage record (PAR-0023) as "Ignez Francisca de Lima" and in the 1777 Piracatu baptism of her daughter Maria (PAR-0025) as "Ignez Francisca de Lima, natural [d]ora frequesias" — birthplace not clearly resolved. Her parents are confirmed by PAR-0025 as João Rodrigues de Mello (P-0066, from Viana, Portugal) × Maria Francisca Cordeira (P-0067, from Villa de Ouro, Bispado de São Paulo). PAR-0023 states both she and Amaro as "naturais e batizados da Freguesia de Barbacena" — see material conflict note in P-0059. Her own baptism and death records have not been located.
+1 NOTE Mother of Mathilde Maria de Jesus (P-0027); hence great-grandmother of Eliza Balbina de Toledo (P-0017) on her father's maternal line. Named in her daughter's 1810 São João del Rei marriage record (PAR-0023) as "Ignez Francisca de Lima" and in the 1777 Piracatu baptism of her daughter Maria (PAR-0025) as "Ignez Francisca de Lima, natural [d]ora frequesias" — birthplace not clearly resolved. Her parents are confirmed by PAR-0025 as João Rodrigues de Mello (P-0066, from Viana, Portugal) × Maria Francisca Cordeira (P-0067, from Villa de Ouro, Bispado de São Paulo). PAR-0023 states both she and Amaro as "naturais e batizados da Freguesia de Barbacena" — see material conflict note in P-0059. Her own baptism and death records have not been located.
 0 @P0061@ INDI
 1 NAME Francisco Leocádio de /Toledo/
 2 GIVN Francisco Leocádio de
@@ -1530,15 +1530,6 @@
 2 SOUR @NWS0002@
 1 NOTE Younger sibling of Celina (P-0015); son of Joaquim José Bohrer, named "filho de … Joaquim Bohrer" in his 4 April 1899 death notice in A Sentinella (NWS-0002). Died 2 April 1899 aged 13 (so born c.1885–1886) from a jararacussú snakebite in the district of São Pedro de Nova Friburgo; nephew of the paper's manager Guilherme Samuel Bohrer. Deceased.
 0 @DOCF0016_1@ INDI
-1 NAME Joaquim José /Bohrer/
-2 GIVN Joaquim José
-2 SURN Bohrer
-1 SEX U
-1 FAMC @F0016@
-1 NOTE Documented child, not individually modelled.
-2 SOUR @PRB0005@
-1 NOTE Modelled as P-0030; listed here only to mark that Francisco José's 1888 will (PRB-0005) names "Joaquim" as the eldest of the four children/heirs.
-0 @DOCF0016_2@ INDI
 1 NAME Laura /Bohrer/
 2 GIVN Laura
 2 SURN Bohrer
@@ -1547,7 +1538,7 @@
 1 NOTE Documented child, not individually modelled.
 2 SOUR @PRB0005@
 1 NOTE Daughter of Francisco José Bohrer and Rosa Eugenia de Lemos, a minor in 1888; named "Laura" among the four children/heirs in her father's 1888 will (PRB-0005). The will gives only the forename; surname taken from the family.
-0 @DOCF0016_3@ INDI
+0 @DOCF0016_2@ INDI
 1 NAME Guilherme Samuel /Bohrer/
 2 GIVN Guilherme Samuel
 2 SURN Bohrer
@@ -1557,7 +1548,7 @@
 2 SOUR @CIV0019@
 2 SOUR @PRB0005@
 1 NOTE Brother of Joaquim José Bohrer (P-0030), resident at the Alto da Serra, Nova Friburgo; declared his nephew Alberto's 1890 birth (CIV-0019) in the father's absence, and named "Guilherme" among the four heirs in his father's 1888 will (PRB-0005).
-0 @DOCF0016_4@ INDI
+0 @DOCF0016_3@ INDI
 1 NAME Fernando /Bohrer/
 2 GIVN Fernando
 2 SURN Bohrer
@@ -2335,7 +2326,6 @@
 1 CHIL @DOCF0016_1@
 1 CHIL @DOCF0016_2@
 1 CHIL @DOCF0016_3@
-1 CHIL @DOCF0016_4@
 1 MARR
 2 DATE BEF 1879
 3 PHRASE by 1879 (justified and registered 1 August 1879; ceremony earlier)

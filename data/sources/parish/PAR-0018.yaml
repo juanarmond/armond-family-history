@@ -99,6 +99,8 @@ digital_file:
 linked_people:
 - P-0057
 - P-0058
+- P-0078
+- P-0079
 linked_families:
 - F-0028
 linked_events: []
@@ -106,8 +108,9 @@ linked_places: []
 private: true
 notes:
 - text: >-
-    The parents named here — Gaspar Ferreira × Gertrudes Maria [de Toledo] (Vila
-    Rica) and João Rodrigues [do Valle] × Izabel Ribeira (Borda do Campo) — are
-    attested by this record but are NOT yet modelled as entities; they are recorded
-    as a lead on P-0057 and P-0058 pending a focused pass (and because they hang off
-    the strong-but-indirect Ladisláo → Joaquim José edge, F-0028).
+    Two parent couples are named here. The bride's parents — João Rodrigues do Valle
+    (P-0078) × Izabel Ribeira (P-0079), of Borda do Campo — are now modelled (family
+    F-0038, primary-confirmed by Rita Angélica's own 1764 baptism PAR-0049) and are
+    linked above. The groom's parents — Gaspar Ferreira × Gertrudes Maria [de Toledo],
+    of Vila Rica — remain a lead recorded on P-0057, not yet modelled as entities
+    (they hang off the strong-but-indirect Ladisláo → Joaquim José edge, F-0028).

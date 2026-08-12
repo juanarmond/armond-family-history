@@ -5,6 +5,13 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-08-12 — Field-validation audit (4 parallel agents) + remediation
+
+- Question: after the birthplace-derivation fix, validate all viewer-derived fields and all structured data for other issues of the same class and any new integrity issues.
+- Method: 4 read-only parallel audit agents over disjoint scopes (viewer JS; data/people; families+events; sources+fan+inventory); every finding re-verified by hand before change.
+- Key results (all fixed): (1) **`lifespan()`** (panel header) read only birth/death → added **baptism/burial fallback** (same class as the birthplace bug); restores headers for P-0056/P-0035/P-0078/P-0072/P-0073. Mobile marriage-date mis-call fixed. **Living-person events redacted** at the data layer (latent PII leak); nationality deliberately kept for the living (a false-positive suggestion, reverted — a test encodes the intent). (2) **Relationship labels:** P-0004 Simplício = Geraldo's grandfather (not great-grandfather); P-0059/P-0060 on Eliza's father's maternal line (not "maternal"); P-0040 Antenor's paternal (not maternal) great-grandfather; P-0032 P-0010 b.1894 (not c.1895). (3) **F-0016 double-count:** "Joaquim José Bohrer" listed as both modelled P-0030 and a documented_child → showed twice / self-sibling; redundant entry removed. (4) **8 source→person link gaps** closed (PRB-0009/0002/0004, CIV-0014/0006, PAR-0005/0018/0044/0045, NWS-0001); **CIV-0006 name conflict** preserved (P-0038 left unlinked with a note). Rest of the graph confirmed clean (reciprocity, chronology, bilingual parity, FAN hygiene; FAN back-link "gap" is a non-issue — viewer projects from FAN.participants). Deferred: redundant `transcription_pt` on 25 PT sources + 13 FANs (convention drift, not a display bug).
+- No entities created/removed. 317 entities; make check green; index unchanged; GEDCOM regenerated (4053 lines). Session log: `logs/2026-08-12-field-validation-audit.md`.
+
 ## 2026-08-12 — Rita Angélica's 1764 baptism (Rodrigues-Valle link → primary); Honório 1845 negative
 
 - Question: value-gate the second 2026-08-12 sync — Rita Angélica's own 1764 baptism, and Honório José Ferreira Armonde's 1845 inventário (Simplício-parentage attack).
