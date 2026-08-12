@@ -102,8 +102,14 @@ digital_file:
 linked_people:
   - P-0042
   - P-0047
+  - P-0048
+  - P-0049
+  - P-0086
+  - P-0087
 linked_families:
   - F-0020
+  - F-0023
+  - F-0042
 linked_events: []
 linked_places: []
 private: false
