@@ -22,13 +22,13 @@ children:
   parent_relationships:
   - parent_id: P-0048
     relationship_type: biological
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PAR-0015
     notes: []
   - parent_id: P-0049
     relationship_type: biological
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PAR-0015
     notes: []
@@ -95,3 +95,10 @@ notes:
     and Maria Jacintha's parents João de Medeiros Brandão × Maria Eugenia (F-0041) —
     extending the line another generation. Only Manoel is modelled as a child here;
     other children of the couple are not evidenced by the located records.
+- text: >-
+    Tier audit 2026-08-13: parentage edges P-0042←P-0048 and P-0042←P-0049
+    downgraded confirmed → strong-evidence. Both rest solely on PAR-0015
+    (Manoel's own 1866 Povoação death naming his parents), an informant-reported
+    statement. The couple's own 7 October 1819 marriage (PAR-0037, E-0074)
+    attests the union but not Manoel's parentage, so the partner_relationship
+    remains confirmed.

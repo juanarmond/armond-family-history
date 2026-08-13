@@ -6,7 +6,7 @@ partners:
 - person_id: P-0053
   role: spouse
 partner_relationship:
-  status: confirmed
+  status: strong-evidence
   source_ids:
   - PAR-0016
   notes:
@@ -113,3 +113,8 @@ notes:
     same woman inconsistently. P-0053 retains "Maria Thereza de Jesus" as the
     preferred form (from the majority of readings and Rosa's own entry), but "Maria
     Nunes de Jesus" is preserved as a variant documented in PAR-0030/0031.
+- text: >-
+    Tier audit 2026-08-13: partner_relationship P-0052 × P-0053 downgraded
+    confirmed → strong-evidence. No marriage act located; the union is inferred
+    from PAR-0016 (Roza's 1835 Itaboraí baptism naming them as married parents),
+    a single child's-baptism record.

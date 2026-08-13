@@ -6,7 +6,7 @@ partners:
 - person_id: P-0046
   role: spouse
 partner_relationship:
-  status: confirmed
+  status: strong-evidence
   source_ids:
   - PAR-0011
   notes:
@@ -41,7 +41,13 @@ children:
 event_ids: []
 notes:
 - text: >-
-    Parents of Rita Ignacia de Jesus (P-0041). The couple is confirmed (PAR-0011,
+    Parents of Rita Ignacia de Jesus (P-0041). The couple is attested (PAR-0011,
     "viuva de Antonio Caetano Machado"); Antonio as Rita's father is strong evidence
     (PAR-0005 avô materno); Ignacia as Rita's mother is an inference from the marriage
     plus the shared "Ignacia" name.
+- text: >-
+    Tier audit 2026-08-13: partner_relationship P-0045 × P-0046 downgraded
+    confirmed → strong-evidence, superseding the "couple is confirmed" wording
+    above. No marriage act located; the union rests only on PAR-0011 (Ignacia's
+    1878 death naming her "viuva de Antonio Caetano Machado"), a single death
+    record naming the spouse.

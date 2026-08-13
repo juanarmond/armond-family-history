@@ -19,13 +19,13 @@ children:
   parent_relationships:
   - parent_id: P-0043
     relationship_type: unknown
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PAR-0008
     notes: []
   - parent_id: P-0044
     relationship_type: unknown
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PAR-0008
     notes: []
@@ -35,3 +35,9 @@ notes:
 - text: >-
     Parents of José do Rego Brandão (P-0040), established by his own 1912 Carangola
     death (PAR-0008). Extends the maternal Brandão line one generation above P-0040.
+- text: >-
+    Tier audit 2026-08-13: parentage edges P-0040←P-0043 and P-0040←P-0044
+    downgraded confirmed → strong-evidence. Both rest solely on PAR-0008 (José's
+    own 1912 Carangola death naming his parents) — an informant-reported
+    statement, not a birth/baptism or heir-listing, so short of a direct record
+    for the parentage.

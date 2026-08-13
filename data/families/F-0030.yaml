@@ -6,7 +6,7 @@ partners:
 - person_id: P-0062
   role: spouse
 partner_relationship:
-  status: confirmed
+  status: strong-evidence
   source_ids:
   - PRB-0009
   notes:
@@ -26,3 +26,8 @@ notes:
     pages (pp. 3–5), or died without issue, remains unknown. Eliza Balbina de Toledo
     (P-0017) is NOT linked to this family pending positive evidence; her parentage
     among the Toledo siblings is currently unresolved.
+- text: >-
+    Tier audit 2026-08-13: partner_relationship P-0061 × P-0062 downgraded
+    confirmed → strong-evidence. No marriage act; the union rests only on a
+    probate spouse-mention in the 1867 Ladisláo inventário (PRB-0009, Francisco
+    Leocádio "casado que foi com Maria [Joa?]quina de Jesus").

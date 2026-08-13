@@ -24,13 +24,13 @@ children:
   parent_relationships:
   - parent_id: P-0082
     relationship_type: biological
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PAR-0037
     notes: []
   - parent_id: P-0083
     relationship_type: biological
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PAR-0037
     notes: []
@@ -57,3 +57,11 @@ notes:
     casamento de 1819 em Mãe de Deus (PAR-0037). Estende a linha Muniz Bittencourt
     mais uma geração, para Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel
     (Açores). Apenas João Francisco é modelado como filho aqui.
+- text: >-
+    Tier audit 2026-08-13: parentage edges P-0048←P-0082 and P-0048←P-0083
+    downgraded confirmed → strong-evidence — both rest solely on PAR-0037 (João
+    Francisco's own 1819 marriage naming his parents). The partner_relationship
+    P-0082 × P-0083 is kept confirmed under the "coherent body of primary
+    evidence" clause: it cites the son's 1819 marriage (PAR-0037) plus the 1843
+    baptism of grandson Agostinho (PAR-0044), two independent primary records
+    naming the couple.

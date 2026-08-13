@@ -22,13 +22,13 @@ children:
   parent_relationships:
   - parent_id: P-0084
     relationship_type: biological
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PAR-0037
     notes: []
   - parent_id: P-0085
     relationship_type: biological
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PAR-0037
     notes: []
@@ -48,3 +48,11 @@ notes:
     Brandão", é muito provavelmente seu filho (irmão de Maria Jacintha). Estende a
     linha materna Muniz Bittencourt mais uma geração, para Nossa Senhora Mãe de
     Deus, Povoação, Ilha de São Miguel (Açores).
+- text: >-
+    Tier audit 2026-08-13: parentage edges P-0049←P-0084 and P-0049←P-0085
+    downgraded confirmed → strong-evidence — both rest solely on PAR-0037 (Maria
+    Jacintha's own 1819 marriage naming her parents). The partner_relationship
+    P-0084 × P-0085 is kept confirmed under the "coherent body of primary
+    evidence" clause: it cites the daughter's 1819 marriage (PAR-0037) plus the
+    1843 baptism of grandson Agostinho (PAR-0044), two independent primary
+    records naming the couple.

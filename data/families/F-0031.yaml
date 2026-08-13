@@ -6,7 +6,7 @@ partners:
 - person_id: P-0065
   role: spouse
 partner_relationship:
-  status: confirmed
+  status: strong-evidence
   source_ids:
   - PAR-0025
   notes:
@@ -20,13 +20,13 @@ children:
   parent_relationships:
   - parent_id: P-0064
     relationship_type: biological
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PAR-0025
     notes: []
   - parent_id: P-0065
     relationship_type: biological
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PAR-0025
     notes: []
@@ -39,3 +39,9 @@ notes:
     Silva Barreto (P-0064) is from Guimarães, Portugal (Arcebispado de Braga);
     Perpétua da Silva (P-0065) is from the Cidade de São Paulo. Their own marriage
     and birth records have not been located; other children not attested.
+- text: >-
+    Tier audit 2026-08-13: parentage edges P-0059←P-0064 and P-0059←P-0065, and
+    the partner_relationship P-0064 × P-0065, all downgraded confirmed →
+    strong-evidence. All three rest solely on PAR-0025 (the 1777 Piracatu
+    baptism of grandchild Maria naming P-0064 × P-0065 as paternal grandparents)
+    — indirect, grandchild-baptism evidence, with no marriage act.

@@ -6,7 +6,7 @@ partners:
 - person_id: P-0077
   role: spouse
 partner_relationship:
-  status: confirmed
+  status: strong-evidence
   source_ids:
   - PAR-0028
   notes:
@@ -40,3 +40,9 @@ notes:
     Erschwil; BORER II: Laurent Borer, P-0068, b. 1797 Grindel) is not established
     by primary evidence. The Raibert Wehrli blog suggested a kinship link between
     the Borer × Wehrli couples, but this remains a research lead.
+- text: >-
+    Tier audit 2026-08-13: partner_relationship P-0076 × P-0077 downgraded
+    confirmed → strong-evidence. No marriage act; the union rests only on
+    PAR-0028 (the 1760 Erschwil baptism of their daughter Elisabetha naming them
+    as married parents), a single child's-baptism record. The parent-child
+    edges, resting on that same baptism as Elisabetha's own act, are unaffected.

@@ -6,7 +6,7 @@ partners:
 - person_id: P-0051
   role: spouse
 partner_relationship:
-  status: confirmed
+  status: strong-evidence
   source_ids:
   - PRB-0005
   notes:
@@ -40,3 +40,10 @@ notes:
     Bohrer line's immigrant boundary: Francisco José was "natural deste termo" (Nova
     Friburgo), so his parents Jacob and Catharina are the immigrant generation. Only
     Francisco José is modelled as a child here.
+- text: >-
+    Tier audit 2026-08-13: child edges P-0034←P-0050 and P-0034←P-0051 kept
+    confirmed under the "coherent body of primary evidence" clause — Francisco
+    José's own 1888 will (PRB-0005) is a formal self-declaration of parentage
+    ("filho legitimo"). The partner_relationship P-0050 × P-0051 is downgraded
+    confirmed → strong-evidence: no marriage act is catalogued, so the couple's
+    union is inferred from that same will.

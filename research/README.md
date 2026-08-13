@@ -52,7 +52,13 @@ A conclusion directly supported by a reliable primary record — an original
 register image or a certified copy that faithfully reproduces an official
 civil, parish or government record — or by a coherent body of primary evidence
 with no material unresolved conflict. Family recollection and published
-genealogies cannot confirm a conclusion.
+genealogies cannot confirm a conclusion. A "coherent body of primary evidence"
+means several independent primary records consistently attesting the conclusion
+with no material conflict — for example a union shown by a child's marriage act
+plus a grandchild's baptism — which can support *confirmed* even without the
+single ideal direct record; whereas a lone indirect or informant-reported
+record (a death or marriage naming parents, a single grandchild baptism, a
+probate spouse-mention) is *strong-evidence*, not a coherent body.
 
 ### Strong evidence
 

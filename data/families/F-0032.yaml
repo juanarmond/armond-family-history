@@ -6,7 +6,7 @@ partners:
 - person_id: P-0067
   role: spouse
 partner_relationship:
-  status: confirmed
+  status: strong-evidence
   source_ids:
   - PAR-0025
   notes:
@@ -19,13 +19,13 @@ children:
   parent_relationships:
   - parent_id: P-0066
     relationship_type: biological
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PAR-0025
     notes: []
   - parent_id: P-0067
     relationship_type: biological
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PAR-0025
     notes: []
@@ -38,3 +38,9 @@ notes:
     de Mello (P-0066) is from Viana, Portugal (Arcebispado de Braga); Maria Francisca
     Cordeira (P-0067) is from Villa de Ouro [Ouro?], Bispado de São Paulo. Their own
     marriage and birth records have not been located; other children not attested.
+- text: >-
+    Tier audit 2026-08-13: parentage edges P-0060←P-0066 and P-0060←P-0067, and
+    the partner_relationship P-0066 × P-0067, all downgraded confirmed →
+    strong-evidence. All three rest solely on PAR-0025 (the 1777 Piracatu
+    baptism of grandchild Maria naming P-0066 × P-0067 as maternal grandparents)
+    — indirect, grandchild-baptism evidence, with no marriage act.

@@ -26,13 +26,13 @@ children:
   parent_relationships:
   - parent_id: P-0059
     relationship_type: biological
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PAR-0023
     notes: []
   - parent_id: P-0060
     relationship_type: biological
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PAR-0023
     notes: []
@@ -66,3 +66,12 @@ notes:
     and marriage records have not been located. P-0059's birthplace (Meia Ponte, Goiás
     per PAR-0025) conflicts with PAR-0023's "naturais e batizados da Freguesia de
     Barbacena" — see conflict note in P-0059.
+- text: >-
+    Tier audit 2026-08-13: parentage edges P-0027←P-0059 and P-0027←P-0060
+    downgraded confirmed → strong-evidence — both rest solely on PAR-0023
+    (Mathilde's own 1810 marriage naming her parents), a single record. The
+    partner_relationship P-0059 × P-0060 was reviewed but KEPT confirmed: it
+    cites two independent primary records attesting the union (PAR-0023 marriage
+    + PAR-0025, the 1777 baptism of daughter Maria), a coherent body of primary
+    evidence. The birthplace conflict noted on P-0059 concerns Amaro's individual
+    origin, not the couple's union.

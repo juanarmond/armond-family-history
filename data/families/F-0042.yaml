@@ -6,7 +6,7 @@ partners:
 - person_id: P-0087
   role: spouse
 partner_relationship:
-  status: confirmed
+  status: strong-evidence
   source_ids:
   - PAR-0024
   notes:
@@ -20,13 +20,13 @@ children:
   parent_relationships:
   - parent_id: P-0086
     relationship_type: biological
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PAR-0024
     notes: []
   - parent_id: P-0087
     relationship_type: biological
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PAR-0024
     notes: []
@@ -46,3 +46,8 @@ notes:
     anterior de "pais desconhecidos / Manoel de Mello × Anna de Souza [LEAD]" em
     P-0047, agora provada a partir do ato legível de 1842. Natural de Nossa Senhora
     Mãe de Deus, Povoação, Ilha de São Miguel (Açores).
+- text: >-
+    Tier audit 2026-08-13: parentage edges P-0047←P-0086 and P-0047←P-0087, and
+    the partner_relationship P-0086 × P-0087, all downgraded confirmed →
+    strong-evidence. All three rest solely on PAR-0024 (Francisca Roza's own 1842
+    marriage naming her parents), a single record; no marriage act for the couple.
