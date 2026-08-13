@@ -7,8 +7,9 @@ const state = {
   data: null,
   rootId: "P-0001",
   generations: 4,
-  // Persons whose ancestry is drawn past the base generation limit (per-line "expand deeper").
-  expanded: new Set(),
+  // Persons whose ancestry visibility is flipped from the generation-limit default by a card's
+  // +/- toggle: a shallow branch collapsed shut, or a deep branch opened past the base limit.
+  toggled: new Set(),
   visibleNodes: 0,
   zoom: 1,
   autoFit: true,
@@ -90,9 +91,9 @@ function nationalityValue(nationality) {
   return span;
 }
 
-const MIN_ZOOM = 0.2;
-const MAX_ZOOM = 2.5;
-const FIT_MAX_ZOOM = 1.4;
+const MIN_ZOOM = 0.25;
+const MAX_ZOOM = 1;
+const FIT_MAX_ZOOM = 1; // auto-fit never magnifies past 100%
 const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
 
 let panState = null;
@@ -284,7 +285,7 @@ function setRoot(personId) {
   state.rootId = personId;
   state.focusId = personId;
   state.focusHistory = [];
-  state.expanded.clear(); // manual expansions belong to the previous root
+  state.toggled.clear(); // per-card expand/collapse belongs to the previous root
   state.autoFit = true;
   if (elements.rootSelect) elements.rootSelect.value = personId;
   renderActive();
@@ -325,16 +326,16 @@ function collectAhnentafel(rootId, maxGen) {
           : (state.data.people[a.parentId]?.name || "").localeCompare(state.data.people[b.parentId]?.name || "");
       });
 
-    const withinBase = gen < maxGen;
-    const expanded = state.expanded.has(personId);
-    if ((!withinBase && !expanded) || gen >= PEDIGREE_HARD_CAP) {
-      // Frontier: stop, but offer a ⊕ when there is known ancestry still to open.
-      if (parents.length && gen < PEDIGREE_HARD_CAP) entry.more = true;
+    // Each node is open (parents shown) or closed by default per the generation limit; a card's
+    // +/- toggle flips that default, so any branch can be collapsed shut or opened past the limit.
+    const defaultOpen = gen < maxGen;
+    const open = state.toggled.has(personId) ? !defaultOpen : defaultOpen;
+    if (!open || gen >= PEDIGREE_HARD_CAP) {
+      if (parents.length && gen < PEDIGREE_HARD_CAP) entry.canOpen = true; // + : has hidden ancestry
       return;
     }
     if (!parents.length) return;
-    // Shown past the base limit only because this line was expanded — offer a ⊖ to collapse it.
-    if (!withinBase) entry.collapsible = true;
+    entry.canClose = true; // - : parents are shown and can be hidden
 
     // Assign a stable father slot (2k) and mother slot (2k+1) by sex, falling back for unsexed or
     // single parents so a lone parent still lands in a fixed column.
@@ -390,8 +391,9 @@ function createBranchToggle(personId, mode) {
   button.setAttribute("aria-label", label);
   button.addEventListener("click", (event) => {
     event.stopPropagation();
-    if (collapse) state.expanded.delete(personId);
-    else state.expanded.add(personId);
+    // Flip this person's ancestry visibility relative to the generation-limit default.
+    if (state.toggled.has(personId)) state.toggled.delete(personId);
+    else state.toggled.add(personId);
     renderTree();
   });
   return button;
@@ -440,8 +442,8 @@ function renderTree() {
         reference: node.repeated,
       }),
     );
-    if (node.more) cell.append(createBranchToggle(node.personId, "expand"));
-    else if (node.collapsible) cell.append(createBranchToggle(node.personId, "collapse"));
+    if (node.canOpen) cell.append(createBranchToggle(node.personId, "expand"));
+    else if (node.canClose) cell.append(createBranchToggle(node.personId, "collapse"));
     grid.append(cell);
   }
   for (const slot of unknowns) {
@@ -1820,7 +1822,7 @@ function bindEvents() {
 
   elements.generationLimit.addEventListener("change", () => {
     state.generations = Number(elements.generationLimit.value);
-    state.expanded.clear(); // the base depth changed; drop per-line expansions
+    state.toggled.clear(); // the base depth changed; drop per-card overrides
     state.autoFit = true;
     renderTree();
     syncHash();
