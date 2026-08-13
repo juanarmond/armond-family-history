@@ -1,4 +1,5 @@
 import { createI18n, resolveLocale, SUPPORTED_LOCALES } from "./i18n.js";
+import { load as parseYaml } from "./vendor/js-yaml.mjs";
 
 const LANG_STORAGE_KEY = "armond-viewer-lang";
 
@@ -903,7 +904,7 @@ function renderPortrait(container, text) {
     }
     ul = null;
     if (!para) { para = document.createElement("p"); para.className = "portrait-p"; container.appendChild(para); }
-    else para.appendChild(document.createElement("br"));
+    else para.appendChild(document.createTextNode(" "));
     inline(para, line.trim());
   }
 }
@@ -1374,18 +1375,18 @@ function openDetails(personId) {
   syncHash();
 }
 
-// The "Family Story" reading page — the long-form convergence narrative, fetched
-// from ./family-story.<locale>.md and rendered with the same light-markdown renderer
-// as the portraits. Cached per locale; re-rendered on a language switch.
-const storyCache = {};
+// The "Family Story" reading page — the long-form convergence narrative, stored as
+// literal-scalar (|-) markdown in ./family-story.yaml (en / pt) so it stays
+// repo-standard YAML with its paragraph breaks and wraps preserved, and rendered
+// with the same light-markdown renderer as the portraits. Fetched once, cached.
+let storyDoc = null;
 async function loadStory(locale) {
-  if (storyCache[locale]) return storyCache[locale];
-  const path = locale === "pt-BR" ? "./family-story.pt.md" : "./family-story.en.md";
-  const response = await fetch(path, { cache: "no-store" });
-  if (!response.ok) throw new Error(String(response.status));
-  const text = await response.text();
-  storyCache[locale] = text;
-  return text;
+  if (!storyDoc) {
+    const response = await fetch("./family-story.yaml", { cache: "no-store" });
+    if (!response.ok) throw new Error(String(response.status));
+    storyDoc = parseYaml(await response.text());
+  }
+  return storyDoc[locale === "pt-BR" ? "pt" : "en"] || storyDoc.en || "";
 }
 
 async function openStory() {

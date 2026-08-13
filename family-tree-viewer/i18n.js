@@ -28,11 +28,11 @@ export function resolveLocale(preferred) {
 // UI chrome strings. Keys are stable ids; `{name}` etc. are interpolated.
 const STRINGS = {
   en: {
-    "page.title": "Armond Family History",
+    "page.title": "Four Rivers",
     "header.eyebrow": "Private research archive",
     "header.subtitle":
-      "Evidence-led ancestral tree generated directly from the repository's validated YAML records.",
-    "header.emblem": "Armond Family History emblem: a family-tree seal",
+      "Four family lines, from four continents — every ancestor traced to an original record.",
+    "header.emblem": "Four Rivers family-history emblem: a family-tree seal",
     "toolbar.aria": "Tree controls",
     "control.startPerson": "Start person",
     "control.generations": "Generations",
@@ -172,11 +172,11 @@ const STRINGS = {
     "error.loadFailed": "Unable to load the family tree: {message}",
   },
   "pt-BR": {
-    "page.title": "História da Família Armond",
+    "page.title": "Quatro Rios",
     "header.eyebrow": "Arquivo de pesquisa privado",
     "header.subtitle":
-      "Árvore genealógica baseada em evidências, gerada diretamente dos registros YAML validados do repositório.",
-    "header.emblem": "Emblema da História da Família Armond: um selo de árvore genealógica",
+      "Quatro linhas familiares, de quatro continentes — cada ancestral rastreado até um registro original.",
+    "header.emblem": "Emblema de Quatro Rios: um selo de árvore genealógica",
     "toolbar.aria": "Controles da árvore",
     "control.startPerson": "Pessoa inicial",
     "control.generations": "Gerações",
