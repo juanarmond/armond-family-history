@@ -1,0 +1,88 @@
+schema_version: 1
+id: GOV-0004
+title: >-
+  Minas Geraes state gazette (7 Aug 1931) appointing Aristão Ferreira Armond
+  subdelegado de polícia of the Limeira district, Muriaé
+title_pt: >-
+  Gazeta oficial Minas Geraes (7 ago. 1931) nomeando Aristão Ferreira Armond
+  subdelegado de polícia do distrito de Limeira, Muriaé
+record_type: State official gazette appointment act (Minas Geraes)
+record_category: government_record
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1931-08-07"
+repository:
+  name: >-
+    Minas Geraes — Órgão Official dos Poderes do Estado (official state gazette)
+  archive_or_registry: Imprensa Oficial do Estado de Minas Gerais
+  collection: >-
+    Minas Geraes (official gazette), digitised at jornalminasgerais.mg.gov.br
+  catalogue_reference: >-
+    N.2, sexta-feira 7 de agosto de 1931, p.2, secção "GOVERNO DO ESTADO";
+    idJornal 328518, página 2
+  url: >-
+    https://www.jornalminasgerais.mg.gov.br/api/v1/Caderno/ObterArquivoCadernoPorId?id=328518&pagina=2
+  repository_path: >-
+    evidence/government/GOV-0004-aristao-ferreira-armond-subdelegado-limeira-muriae-minasgeraes-1931.jpg
+access_date: "2026-08-13"
+language: pt-BR
+transcription: >-
+  [Minas Geraes — Órgão Official dos Poderes do Estado, N.2, sexta-feira 7 de
+  agosto de 1931, p.2, secção "GOVERNO DO ESTADO". Página completa retida;
+  transcreve-se apenas o ato que nomeia o membro da família — os demais atos de
+  nomeação da mesma lista são omitidos.] "Em data de ontem, foram expedidos,
+  pelo sr. Presidente do Estado, os seguintes atos: […] Aristão Ferreira Armond,
+  para o cargo de subdelegado de policia do districto de Limeira, municipio de
+  Muriaé; […]" [Uma pessoa distinta, "Aristão Ferreira de Castro", figura na
+  mesma lista como suplente do subdelegado do distrito de Itamuri, município de
+  Muriaé — não é este sujeito; a identificação apoia-se no sobrenome exato
+  "Ferreira Armond" e na localidade de Muriaé, coerente com a família.]
+abstract: >-
+  The Minas Geraes state official gazette of 7 August 1931 publishes the State
+  President's act (of the previous day) appointing Aristão Ferreira Armond
+  (P-0008) subdelegado de polícia of the Limeira district, Muriaé, Minas Gerais —
+  an unpaid honorary local police office. It is his latest documented public
+  role and places him in the Muriaé area in 1931.
+abstract_pt: >-
+  A gazeta oficial Minas Geraes de 7 de agosto de 1931 publica o ato do
+  Presidente do Estado (da véspera) nomeando Aristão Ferreira Armond (P-0008)
+  subdelegado de polícia do distrito de Limeira, Muriaé, Minas Gerais — um cargo
+  honorário não remunerado de autoridade policial local. É o seu último papel
+  público documentado e o situa na região de Muriaé em 1931.
+reliability:
+  assessment: >-
+    Original, contemporaneous official act published in the State's official
+    organ — direct primary evidence of the appointment and of Aristão's presence
+    in the Muriaé area in 1931. The office is an honorary/unpaid substitute
+    police authority.
+  informant: The State Government of Minas Gerais (official gazette).
+  limitations: >-
+    A namesake, "Aristão Ferreira de Castro", appears in the same act list (a
+    different appointment); the identification of this subject rests on the exact
+    surname "Ferreira Armond" and the Muriaé locality. The page carries many
+    unrelated official acts, not transcribed.
+digital_file:
+  path: >-
+    evidence/government/GOV-0004-aristao-ferreira-armond-subdelegado-limeira-muriae-minasgeraes-1931.jpg
+  sha256: c745725ef134407721913cf976a7c697a79f270a5c6d4c628fd0a67c73847202
+linked_people:
+- P-0008
+linked_families: []
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Located via the FamilySearch/Minas Geraes gazette full-text search for
+    "Ferreira Armond"; the full native page was retrieved and read directly. It
+    directly documents Aristão's honorary police office (subdelegado, Limeira,
+    Muriaé) in 1931 — previously held only as an uncatalogued lead.
+  text_pt: >-
+    Localizado via busca de texto integral por "Ferreira Armond" na gazeta Minas
+    Geraes; a página completa nativa foi obtida e lida diretamente. Documenta
+    diretamente o cargo honorário de Aristão (subdelegado, Limeira, Muriaé) em
+    1931 — antes mantido apenas como pista não catalogada.

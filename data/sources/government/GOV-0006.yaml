@@ -1,0 +1,84 @@
+schema_version: 1
+id: GOV-0006
+title: >-
+  Minas Geraes state gazette (11 Sep 1902) appointing Simplício José Ferreira
+  Armond 3º suplente do delegado de polícia, São Paulo do Muriaé
+title_pt: >-
+  Gazeta oficial Minas Geraes (11 set. 1902) nomeando Simplício José Ferreira
+  Armond 3º suplente do delegado de polícia, São Paulo do Muriaé
+record_type: State official gazette appointment act (Minas Geraes)
+record_category: government_record
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1902-09-11"
+repository:
+  name: >-
+    Minas Geraes — Órgão Official dos Poderes do Estado (official state gazette)
+  archive_or_registry: Imprensa Oficial do Estado de Minas Gerais
+  collection: >-
+    Minas Geraes (official gazette), digitised at jornalminasgerais.mg.gov.br
+  catalogue_reference: >-
+    Anno XI, N.235, quinta-feira 11 de setembro de 1902, Bello Horizonte, p.1,
+    "GOVERNO DO ESTADO", sob "SECRETARIA DA POLICIA — AUCTORIDADES POLICIAES";
+    idJornal 18646, página 1
+  url: >-
+    https://www.jornalminasgerais.mg.gov.br/api/v1/Caderno/ObterArquivoCadernoPorId?id=18646&pagina=1
+  repository_path: >-
+    evidence/government/GOV-0006-simplicio-jose-ferreira-armond-suplente-saopaulomuriae-minasgeraes-1902.jpg
+access_date: "2026-08-13"
+language: pt-BR
+transcription: >-
+  [Minas Geraes — Órgão Official dos Poderes do Estado, Anno XI, N.235,
+  quinta-feira 11 de setembro de 1902, Bello Horizonte, p.1, "GOVERNO DO ESTADO",
+  sob "SECRETARIA DA POLICIA — AUCTORIDADES POLICIAES". Página completa retida;
+  transcreve-se apenas o trecho que nomeia o membro da família. Este é o ato
+  oficial primário reproduzido na notícia de O Pharol de 13 de setembro de 1902
+  (NWS-0003).] "Por acto de hontem, foram nomeados 1.º, 2.º e 3.º supplentes do
+  delegado de Policia, de S. Paulo do Muriahé os cidadãos Antonio Lourenço Dias,
+  Marciano de Souza Lopes e Simplicio José Ferreira Armond." [Assim, Simplício é
+  o 3.º suplente do delegado de polícia de São Paulo do Muriaé.]
+abstract: >-
+  The Minas Geraes state official gazette of 11 September 1902 publishes the
+  State President's act appointing Simplicio José Ferreira Armond (P-0016) 3rd
+  substitute (3º suplente) of the delegado de polícia of São Paulo do Muriaé,
+  Minas Gerais. It is the primary official record of the appointment that O Pharol
+  reproduced on 13 September 1902 (NWS-0003).
+abstract_pt: >-
+  A gazeta oficial Minas Geraes de 11 de setembro de 1902 publica o ato do
+  Presidente do Estado nomeando Simplicio José Ferreira Armond (P-0016) 3º
+  suplente do delegado de polícia de São Paulo do Muriaé, Minas Gerais. É o
+  registro oficial primário da nomeação que O Pharol reproduziu em 13 de setembro
+  de 1902 (NWS-0003).
+reliability:
+  assessment: >-
+    Original, contemporaneous official act published in the State's official
+    organ — the direct primary source for Simplício's 1902 substitute-delegado
+    appointment, upgrading the O Pharol newspaper reproduction (NWS-0003) to its
+    official primary.
+  informant: The State Government of Minas Gerais (official gazette).
+  limitations: >-
+    The page carries many unrelated official acts, not transcribed. The office is
+    an honorary/unpaid substitute police authority.
+digital_file:
+  path: >-
+    evidence/government/GOV-0006-simplicio-jose-ferreira-armond-suplente-saopaulomuriae-minasgeraes-1902.jpg
+  sha256: bcca788f1100986ab35feb79f3110d08abf674e3adf3770ffd79f9632f6291f7
+linked_people:
+- P-0016
+linked_families: []
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    The official primary of the 1902 appointment previously catalogued only via
+    its O Pharol reproduction (NWS-0003). Located via the Minas Geraes gazette
+    full-text search for "Ferreira Armond"; full native page retrieved and read.
+  text_pt: >-
+    O primário oficial da nomeação de 1902 antes catalogada apenas pela sua
+    reprodução em O Pharol (NWS-0003). Localizado via busca de texto integral por
+    "Ferreira Armond" na gazeta Minas Geraes; página completa nativa obtida e lida.

@@ -22,6 +22,13 @@ occupations:
   source_ids:
   - CIV-0005
   note: Recorded as "de profissão padeiro" in his 1957 civil death registration.
+- value: subdelegado de polícia (distrito de Limeira, Muriaé)
+  source_ids:
+  - GOV-0004
+  note: >-
+    Honorary, unpaid substitute police authority; appointed by act of the State
+    President (~6 Aug 1931), published in the Minas Geraes state gazette of
+    7 Aug 1931 (GOV-0004).
 event_ids:
 - E-0003
 - E-0005
@@ -126,11 +133,10 @@ profile: >-
   connect to our documented line — it must not be treated as this family's origin.
   [LEAD]
 
-  A research lead not yet catalogued here reports a 1931 Minas Geraes gazette naming Aristão a
-  substitute police authority (subdelegado) at Limeira, Muriaé; if confirmed it would be an
-  unpaid honorary office like his father's — local authority without a wage — and would show
-  the Armond men still inheriting status without a wage-base into the 1930s, even as the
-  family's livelihood had become a trade. [LEAD — not promoted]
+  The Minas Geraes state gazette of 7 August 1931 records Aristão appointed subdelegado de
+  polícia of the Limeira district, Muriaé — an unpaid honorary office like his father's, local
+  authority without a wage (GOV-0004). The Armond men still inherited public standing without a
+  wage-base into the 1930s, even as the family's livelihood had become a trade. [PROVEN]
 
   ## Open questions
 
@@ -272,11 +278,10 @@ profile_pt: >-
   nomeia Aristão e não se conecta à nossa linha documentada — não deve ser tratada como
   a origem desta família. [LEAD]
 
-  Uma pista ainda não catalogada aqui relata um edital do Minas Geraes de 1931 nomeando
-  Aristão autoridade policial substituta (subdelegado) em Limeira, Muriaé; se confirmada, seria
-  um cargo honorário não remunerado como o do pai — autoridade local sem salário — e mostraria
-  os Armond ainda herdando posição sem base de renda até a década de 1930, mesmo quando o
-  sustento da família já se tornara um ofício. [LEAD — não promovido]
+  A gazeta oficial Minas Geraes de 7 de agosto de 1931 registra Aristão nomeado subdelegado de
+  polícia do distrito de Limeira, Muriaé — um cargo honorário não remunerado como o do pai,
+  autoridade local sem salário (GOV-0004). Os Armond ainda herdavam posição pública sem base de
+  renda até a década de 1930, mesmo quando o sustento da família já se tornara um ofício. [PROVEN]
 
   ## Questões em aberto
 

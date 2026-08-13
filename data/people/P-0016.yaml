@@ -24,9 +24,21 @@ event_ids:
 family_ids:
 - F-0006
 occupations:
+- value: 2.º supplente do subdelegado (distrito de Boa Família, Muriaé)
+  source_ids:
+  - GOV-0005
+  note: >-
+    Honorary, unpaid substitute police authority; appointed by act published in
+    the Minas Geraes state gazette of 28 Jul 1899 (GOV-0005) — his earliest
+    documented public office.
 - value: 3.º supplente do delegado de polícia de São Paulo do Muriaé
   source_ids:
+  - GOV-0006
   - NWS-0003
+  note: >-
+    Appointed by act (10 Sep 1902) published in the Minas Geraes state gazette of
+    11 Sep 1902 (GOV-0006, the official primary), reproduced in O Pharol on
+    13 Sep 1902 (NWS-0003).
 fan_references:
 - fan_id: FAN-0001
   role: signatário
@@ -76,19 +88,25 @@ notes:
     inventário da década de 1880; as formas de fonte mais curtas ("Simplicio Armand",
     "Simplício Ferreira Armond") são preservadas como variantes.
 - text: >-
-    Public office (1902): named "3.º supplente do delegado de policia de S. Paulo do
-    Muriahé" by an act of 10 September 1902, reported in O Pharol (Juiz de Fora,
-    13 Sept 1902; NWS-0003). Recorded as an occupation. Confirms he was living and
-    active at Muriaé in 1902 and adds a civic role to his documented attorney/witness
-    activity there (the FAN documents and the 1904 inventário). Distinct from the elder
-    Barbacena Tenente-Coronel Simplício.
+    Public office (1899, 1902): named 2.º supplente do subdelegado of the Boa Família
+    district, Muriaé, by an act published in the Minas Geraes state gazette of 28 July
+    1899 (GOV-0005) — his earliest documented office — and "3.º supplente do delegado de
+    policia de S. Paulo do Muriahé" by an act of 10 September 1902 (Minas Geraes gazette,
+    11 Sept 1902, GOV-0006, the official primary; reproduced in O Pharol, Juiz de Fora,
+    13 Sept 1902, NWS-0003). Recorded as occupations. Together they document his standing
+    and Muriaé activity across 1899–1902 and add a civic role to his documented
+    attorney/witness activity there (the FAN documents and the 1904 inventário). Distinct
+    from the elder Barbacena Tenente-Coronel Simplício.
   text_pt: >-
-    Cargo público (1902): nomeado "3.º supplente do delegado de policia de S. Paulo do
-    Muriahé" por acto de 10 de setembro de 1902, noticiado em O Pharol (Juiz de Fora,
-    13 set. 1902; NWS-0003). Registrado como ocupação. Confirma que ele estava vivo e
-    atuante em Muriaé em 1902 e acrescenta um papel cívico à sua atividade documentada
-    de procurador/testemunha ali (os documentos FAN e o inventário de 1904). Distinto do
-    Tenente-Coronel Simplício, o mais velho, de Barbacena.
+    Cargo público (1899, 1902): nomeado 2.º suplente do subdelegado do distrito de Boa
+    Família, Muriaé, por ato publicado na gazeta oficial Minas Geraes de 28 de julho de
+    1899 (GOV-0005) — seu cargo documentado mais antigo — e "3.º supplente do delegado de
+    policia de S. Paulo do Muriahé" por acto de 10 de setembro de 1902 (gazeta Minas
+    Geraes, 11 set. 1902, GOV-0006, o primário oficial; reproduzido em O Pharol, Juiz de
+    Fora, 13 set. 1902, NWS-0003). Registrados como ocupações. Juntos documentam sua
+    posição e atividade em Muriaé entre 1899 e 1902 e acrescentam um papel cívico à sua
+    atividade documentada de procurador/testemunha ali (os documentos FAN e o inventário
+    de 1904). Distinto do Tenente-Coronel Simplício, o mais velho, de Barbacena.
 - text: >-
     1919 Toledo estate (Leopoldina): a partilha "folha de pagamento ao herdeiro"
     (PRB-0011) names Simplício José Ferreira Armond, "casado com Dona Eliza Balbina de

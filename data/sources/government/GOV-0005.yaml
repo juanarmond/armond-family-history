@@ -1,0 +1,92 @@
+schema_version: 1
+id: GOV-0005
+title: >-
+  Minas Geraes state gazette (28 Jul 1899) appointing Simplício José Ferreira
+  Armond 2º suplente do subdelegado, Boa Família district, Muriaé
+title_pt: >-
+  Gazeta oficial Minas Geraes (28 jul. 1899) nomeando Simplício José Ferreira
+  Armond 2º suplente do subdelegado, distrito de Boa Família, Muriaé
+record_type: State official gazette appointment act (Minas Geraes)
+record_category: government_record
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1899-07-28"
+repository:
+  name: >-
+    Minas Geraes — Órgão Official dos Poderes do Estado (official state gazette)
+  archive_or_registry: Imprensa Oficial do Estado de Minas Gerais
+  collection: >-
+    Minas Geraes (official gazette), digitised at jornalminasgerais.mg.gov.br
+  catalogue_reference: >-
+    Anno VIII, N.196, sexta-feira 28 de julho de 1899, p.1, "GOVERNO DO ESTADO →
+    ACTOS DO PRESIDENTE", sob "SECRETARIA DA POLICIA — AUCTORIDADES POLICIAES";
+    idJornal 17574, página 1
+  url: >-
+    https://www.jornalminasgerais.mg.gov.br/api/v1/Caderno/ObterArquivoCadernoPorId?id=17574&pagina=1
+  repository_path: >-
+    evidence/government/GOV-0005-simplicio-jose-ferreira-armond-suplente-boafamilia-muriae-minasgeraes-1899.jpg
+access_date: "2026-08-13"
+language: pt-BR
+transcription: >-
+  [Minas Geraes — Órgão Official dos Poderes do Estado, Anno VIII, N.196,
+  sexta-feira 28 de julho de 1899, p.1, "GOVERNO DO ESTADO → ACTOS DO
+  PRESIDENTE", sob "SECRETARIA DA POLICIA — AUCTORIDADES POLICIAES". Página
+  completa retida; transcreve-se apenas o trecho que nomeia o membro da
+  família.] "Por acto da mesma data, foram nomeados os cidadãos Joaquim Marques
+  Corredoura, Francisco José de Sousa Salles, João Gonçalves Bahia e Benedicto
+  Figueiró para subdelegado, 1.º, 2.º e 3.º supplentes do districto de Bom Jesus
+  da Cachoeira Alegre; Antonio Menezes de Vasconcellos e Simplicio José Ferreira
+  Armond para 1.º e 2.º supplentes do districto de Boa Familia, todos do
+  municipio de Muriahé; […]" [Assim, Simplício é o 2.º suplente do subdelegado
+  do distrito de Boa Família.]
+abstract: >-
+  The Minas Geraes state official gazette of 28 July 1899 publishes the State
+  President's act appointing Simplicio José Ferreira Armond (P-0016) 2nd
+  substitute (2º suplente) of the subdelegado for the Boa Família district,
+  Muriaé, Minas Gerais — an unpaid honorary local police office, three years
+  before his 1902 São Paulo do Muriaé appointment. It is his earliest documented
+  public office and extends his documented Muriaé activity back to 1899.
+abstract_pt: >-
+  A gazeta oficial Minas Geraes de 28 de julho de 1899 publica o ato do
+  Presidente do Estado nomeando Simplicio José Ferreira Armond (P-0016) 2º
+  suplente do subdelegado do distrito de Boa Família, Muriaé, Minas Gerais — um
+  cargo honorário não remunerado de autoridade policial local, três anos antes da
+  nomeação de 1902 em São Paulo do Muriaé. É o seu cargo público documentado mais
+  antigo e recua a sua atividade documentada em Muriaé para 1899.
+reliability:
+  assessment: >-
+    Original, contemporaneous official act published in the State's official
+    organ — direct primary evidence of the 1899 appointment and of Simplício's
+    presence and standing in the Muriaé area. The office is an honorary/unpaid
+    substitute police authority.
+  informant: The State Government of Minas Gerais (official gazette).
+  limitations: >-
+    The page carries many unrelated official acts, not transcribed. The name is
+    printed "Simplicio José Ferreira Armond"; identification is secure given the
+    full given+surname and the Muriaé locality consistent with the family.
+digital_file:
+  path: >-
+    evidence/government/GOV-0005-simplicio-jose-ferreira-armond-suplente-boafamilia-muriae-minasgeraes-1899.jpg
+  sha256: 7f1fcf66253f0ebab24f20b9dfad10b923ada4315f28e1539e983925e42ca84c
+linked_people:
+- P-0016
+linked_families: []
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Located via the Minas Geraes gazette full-text search for "Ferreira Armond";
+    the full native page was retrieved and read directly. Promotes a previously
+    uncatalogued lead: Simplício's 1899 Boa Família suplente office, the earliest
+    of his two documented substitute-delegado appointments (cf. GOV-0006 / NWS-0003 for 1902).
+  text_pt: >-
+    Localizado via busca de texto integral por "Ferreira Armond" na gazeta Minas
+    Geraes; a página completa nativa foi obtida e lida diretamente. Promove uma
+    pista antes não catalogada: o cargo de suplente de Simplício em Boa Família
+    (1899), o mais antigo de seus dois cargos de suplente do subdelegado
+    documentados (cf. GOV-0006 / NWS-0003 para 1902).

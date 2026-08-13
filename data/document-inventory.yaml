@@ -3659,3 +3659,104 @@ documents:
         estate. Corroborates the couple and Simplício's heir-by-marriage standing;
         if the agent's 1919 dating holds, extends his documented presence to c.1919.
         Does not name his Armond parents. All persons long deceased.
+  - inventory_id: DOC-0092
+    status: catalogued
+    added_date: "2026-08-13"
+    apparent_record_type: State official gazette appointment act (Minas Geraes)
+    apparent_people:
+      - Aristão Ferreira Armond
+    apparent_event: occupation
+    image_quality: adequate
+    provenance: >-
+      Minas Geraes — Órgão Official dos Poderes do Estado (state official gazette),
+      N.2, 7 August 1931, p.2, "GOVERNO DO ESTADO"; idJornal 328518, página 2,
+      digitised at jornalminasgerais.mg.gov.br. Full native page retrieved through the
+      research/from-retrieval/ sync (authorised session) and read directly on 13 Aug 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/government/GOV-0004-aristao-ferreira-armond-subdelegado-limeira-muriae-minasgeraes-1931.jpg
+        sha256: c745725ef134407721913cf976a7c697a79f270a5c6d4c628fd0a67c73847202
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+          pixel_width: 3083
+          pixel_height: 4184
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: GOV-0004
+    notes:
+      - >-
+        Appointment of Aristão Ferreira Armond (P-0008) as subdelegado de polícia,
+        Limeira district, Muriaé (act ~6 Aug 1931). Distinct from a namesake "Aristão
+        Ferreira de Castro" in the same act list. Promoted to GOV-0004.
+  - inventory_id: DOC-0093
+    status: catalogued
+    added_date: "2026-08-13"
+    apparent_record_type: State official gazette appointment act (Minas Geraes)
+    apparent_people:
+      - Simplício José Ferreira Armond
+    apparent_event: occupation
+    image_quality: adequate
+    provenance: >-
+      Minas Geraes — Órgão Official dos Poderes do Estado (state official gazette),
+      Anno VIII, N.196, 28 July 1899, p.1, "GOVERNO DO ESTADO → ACTOS DO PRESIDENTE"
+      (SECRETARIA DA POLICIA); idJornal 17574, página 1, digitised at
+      jornalminasgerais.mg.gov.br. Full native page retrieved through the
+      research/from-retrieval/ sync (authorised session) and read directly on 13 Aug 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/government/GOV-0005-simplicio-jose-ferreira-armond-suplente-boafamilia-muriae-minasgeraes-1899.jpg
+        sha256: 7f1fcf66253f0ebab24f20b9dfad10b923ada4315f28e1539e983925e42ca84c
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+          pixel_width: 3052
+          pixel_height: 4213
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: GOV-0005
+    notes:
+      - >-
+        Appointment of Simplício José Ferreira Armond (P-0016) as 2º suplente do
+        subdelegado, Boa Família district, Muriaé (1899) — his earliest documented
+        public office. Promoted to GOV-0005.
+  - inventory_id: DOC-0094
+    status: catalogued
+    added_date: "2026-08-13"
+    apparent_record_type: State official gazette appointment act (Minas Geraes)
+    apparent_people:
+      - Simplício José Ferreira Armond
+    apparent_event: occupation
+    image_quality: adequate
+    provenance: >-
+      Minas Geraes — Órgão Official dos Poderes do Estado (state official gazette),
+      Anno XI, N.235, 11 September 1902, Bello Horizonte, p.1, "GOVERNO DO ESTADO"
+      (SECRETARIA DA POLICIA); idJornal 18646, página 1, digitised at
+      jornalminasgerais.mg.gov.br. Full native page retrieved through the
+      research/from-retrieval/ sync (authorised session) and read directly on 13 Aug 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/government/GOV-0006-simplicio-jose-ferreira-armond-suplente-saopaulomuriae-minasgeraes-1902.jpg
+        sha256: bcca788f1100986ab35feb79f3110d08abf674e3adf3770ffd79f9632f6291f7
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+          pixel_width: 3007
+          pixel_height: 4249
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: GOV-0006
+    notes:
+      - >-
+        Appointment of Simplício José Ferreira Armond (P-0016) as 3º suplente do
+        delegado de polícia, São Paulo do Muriaé (act 10 Sep 1902) — the official
+        primary of the O Pharol reproduction (NWS-0003). Promoted to GOV-0006.
