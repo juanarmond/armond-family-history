@@ -139,6 +139,20 @@ follow the per-field **person completeness checklist** in
   and timeline) and add that event to the `event_ids` of every participant.
 - Cite each source at the assertion it supports (`name_variants`, `occupations`,
   event and relationship `source_ids`), not only in `linked_people` or prose.
+- When a vital record (baptism, birth, marriage, death) **names an ancestor of the
+  subject** — the parents, and any grandparents the record states — model each as a
+  **person entity** with its parentage `family`, the derived events, and full
+  reciprocity, extending the line upward. Those named ancestors are source-qualified
+  (the record attests them), not collaborative-tree leads, so they get real nodes;
+  do **not** leave them in prose or demote them to `documented_children` (that
+  mechanism is for collateral *children*, below). Model only the clearly deceased,
+  and never mint an ancestor from a collaborative tree or published genealogy alone.
+- Extract every attribute a record **states** about a modelled person and cite the
+  record at that assertion: `nationality` (a stated *nacionalidade*, or a stated
+  foreign *naturalidade* such as "natural de Portugal / Suíça"), `occupations`,
+  residence/place, and the age → approximate birth year. Read attributes from the
+  record only — never infer nationality or origin from a surname — and mark
+  uncertain reads `[uncertain]`.
 - Record an attested collateral child that needs no research of its own — a
   sibling of a modelled person, or another child of a modelled couple — as a
   `documented_children` entry on the parents' family (`name` plus required

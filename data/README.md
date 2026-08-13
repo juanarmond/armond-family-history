@@ -155,7 +155,11 @@ not established"). For each `P-NNNN`:
    `place_text`). After cataloguing any vital record, create its event.
 7. **family_ids** — link the person both as a *child* (their parents' family) and
    as a *partner* (their own union), and add the reciprocal entry in the family
-   entity. For an attested collateral child that needs no entity of its own (a
+   entity. When a vital record **names the subject's parents or grandparents**,
+   create those ancestor person entities and their parentage families and link them
+   up the line — they are source-qualified (the record attests them), so they get
+   real nodes, not prose; extend the line as far up as the held records name it.
+   For an attested collateral child that needs no entity of its own (a
    sibling, or another child of the couple), add a `documented_children` entry on
    the family — `name` plus required `source_ids` — instead of a full person, and
    list only clearly deceased collaterals. The viewer's **Siblings** and
