@@ -606,8 +606,12 @@ people:
   - record_type: death
     status: unsearched
     source_ids: []
-    last_reviewed: "2026-07-28"
-    next_action: Locate an original civil death or parish burial record.
+    last_reviewed: "2026-08-13"
+    next_action: >-
+      Locate an original civil death or parish burial record. Death-bound now ~1919+:
+      Simplício is named a Toledo heir in the c.1919 Leopoldina partilha (PRB-0011),
+      later than his 1902 delegado notice (NWS-0003). Search Muriaé/Leopoldina/Argirita
+      civil deaths and press from c.1919 onward.
     notes: []
   notes:
   - text: >-

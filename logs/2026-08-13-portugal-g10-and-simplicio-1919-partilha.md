@@ -31,7 +31,7 @@ already held.
     whole rests on identifying the 1716 groom/bride with P-0080/P-0081 (name-pair + parish +
     timeline match to P-0078's 1728 baptism). The "lead, not modelled" notes on PAR-0036,
     F-0039, P-0080 and P-0081 were superseded (not erased). **Reading conflict preserved:**
-    PAR-0036 reads Gonçalo "já defunto"; the higher-res ADB image reads "de Frades" — both
+    PAR-0036 reads Gonçalo "já defunto"; the lower-resolution synthesis reads "de Frades" (less certain) — both
     kept on P-0088.
 - **Simplício 1919 Leopoldina partilha** (`rec-armond-simplicio-heir-payment-leopoldina-1919-estate-division`)
   → **new source PRB-0011** (DOC-0091), attached to Simplício (P-0016) and Eliza (P-0017).

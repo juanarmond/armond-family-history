@@ -13,7 +13,7 @@ participants:
   role: spouse
 - person_id: P-0081
   role: spouse
-status: confirmed
+status: strong-evidence
 source_ids:
 - PAR-0036
 notes:
@@ -21,4 +21,6 @@ notes:
     Marriage of João Rodrigues (P-0080) and Joanna Gonçalves (P-0081) on 13 May
     1716 at São Martinho de Ruivais, Braga, Portugal, per PAR-0036. The record names
     both spouses' (deceased) fathers and living mothers; officiant Padre Bento
-    [Pereira?] by licence of Reitor Luiz Pirez dos Santos.
+    [Pereira?] by licence of Reitor Luiz Pirez dos Santos. Status strong-evidence: the
+    marriage is directly recorded, but its identification with our P-0080/P-0081 rests
+    on the name-pair/parish/timeline match to P-0078's 1728 baptism (PAR-0035).

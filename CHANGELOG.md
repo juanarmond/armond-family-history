@@ -5,6 +5,19 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — Renamed the site to "Four Rivers"; narrative moved to YAML; reflow fix (2026-08-13)
+
+- **Renamed** the site from "Armond Family History" to **"Four Rivers"** (PT: **"Quatro Rios"**), with a new subtitle — *"Four family lines, from four continents — every ancestor traced to an original record."* (PT: *"Quatro linhas familiares, de quatro continentes — cada ancestral rastreado até um registro original."*). The Armond-only title undersold the maternal (Muniz/Bohrer) and in-married lines and contradicted the narrative's own convergence thesis; "Four Rivers" names the four grandparent lines that flow into one person. (`index.html`, `i18n.js`; the repository name is unchanged.)
+- **Narrative moved to repo-standard YAML.** The convergence story now lives in `family-tree-viewer/family-story.yaml` as `en`/`pt` **literal (`|-`) block scalars** instead of raw `.md` files, so it matches how every `profile` is stored. Fixed the rendering bug this surfaced: `renderPortrait` turned each hard wrap into a forced `<br>` (~290 of them) because the raw markdown was fetched verbatim; it now **joins wrapped lines with a space** (safe — profiles are folded YAML and never carry multi-line paragraphs), so the text reflows to the reading column. PT fidelity fix: "*fazendeiro*" (estate-owner) → "*lavrador*" for Antenor, matching the landless-baseline thesis.
+
+### Fixed — Audit remediation: tier consistency, partilha links/coverage, source→person gaps (2026-08-13)
+
+- Four-agent read-only audit of the 2026-08-13 work; every finding verified before fixing.
+- **1716 marriage tier consistency:** the marriage was `[PROVEN]`/`confirmed` (P-0080/P-0081 profiles, F-0039, E-0072) while the parentage from the *same record and identity* was `strong-evidence`. Downgraded the marriage to **strong-evidence** with the identity caveat, so the whole Ruivais attachment is consistent. Removed a stale "higher-resolution ADB" claim missed on **P-0089** (the ADB copy is lower-resolution) and in the session log.
+- **1919 partilha (PRB-0011):** recorded the ~1919+ death-bound in Simplício's **death** coverage block (was only in the birth note); added PRB-0011 to **P-0017**'s Sources-held (EN+PT); refreshed the now-stale **F-0006** note ("does not assert a marriage" → the union is documented by PRB-0001/PRB-0011); softened the abstract's "Toledo estate" to an inference; and transcribed the land unit as the visible "**ares**" instead of the implausible "[alqueires]" guess.
+- **Two source→person link gaps closed** (verified real, not namesakes): **PUB-0003 → P-0028** (the published genealogy is P-0028's own parentage source yet omitted him) and **REC-0001 → P-0004, P-0005, P-0008, P-0017** (the owner's ancestor roster linked the maternal branch but omitted the whole paternal branch it names). The audit dismissed ~40 substring false positives (namesakes/contextual).
+- 324 entities; `make check` green (69 + JS tests, incl. i18n key parity); index + GEDCOM regenerated.
+
 ### Changed — Family Story mobile polish; 1716 scan kept as the sharpest (2026-08-13)
 
 - Fully adapted the Family Story page to mobile: full-screen sheet, a **floating, always-reachable close button** (fixed top-right, larger touch target) so a long read can be dismissed without scrolling back up, plus word-wrap, reading padding and momentum scrolling.
