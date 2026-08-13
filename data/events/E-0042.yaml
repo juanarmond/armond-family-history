@@ -11,7 +11,7 @@ place_text: Ilha de São Miguel, Açores, Portugal
 participants:
 - person_id: P-0019
   role: principal
-status: confirmed
+status: strong-evidence
 source_ids:
 - PAR-0007
 notes:
@@ -21,3 +21,10 @@ notes:
     in his 1915 death (PAR-0007); the year is inferred from his age 68 at death. He was
     the Azorean immigrant of the line. His mother is not named in the death record; his
     father was Manoel Luiz Bittencourt (P-0042).
+- text: >-
+    Birth tier downgraded confirmed → strong-evidence on 2026-08-13
+    (confidence-tier audit): the ~1847 year is inferred from age-68-at-death in
+    the 1915 death record (PAR-0007) and conflicts with P-0019's own baptism
+    (PAR-0022 / E-0051), which records birth in 1845. The baptism is the stronger
+    record; the birth date/place needs a dedicated reconciliation. Conflict
+    preserved, not resolved here.

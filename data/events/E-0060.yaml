@@ -9,7 +9,12 @@ place_text: Grindel, Soleure (Solothurn), Switzerland
 participants:
 - person_id: P-0068
   role: principal
-status: strong-evidence
+status: hypothesis
 source_ids:
 - PUB-0003
-notes: []
+notes:
+- text: >-
+    Tier downgraded strong-evidence → hypothesis on 2026-08-13 (confidence-tier
+    audit): the only source is PUB-0003 (published genealogy), which by policy
+    cannot confirm and, as a lone secondary source, is below the strong-evidence
+    bar of several consistent records.

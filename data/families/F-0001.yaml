@@ -6,7 +6,7 @@ partners:
   - person_id: P-0013
     role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
     - CIV-0001
     - CIV-0006
@@ -37,4 +37,8 @@ documented_children:
       and baptized 20 September 1922 at Santa Luzia do Carangola (PAR-0003).
 event_ids:
   - E-0001
-notes: []
+notes:
+  - text: >-
+      Union tier upgraded strong-evidence → confirmed on 2026-08-13
+      (confidence-tier audit): the couple's own civil marriage act — CIV-0006
+      (inteiro teor) and CIV-0001 — is direct-primary evidence for the union.

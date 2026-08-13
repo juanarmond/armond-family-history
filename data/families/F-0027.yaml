@@ -51,13 +51,13 @@ children:
   parent_relationships:
   - parent_id: P-0027
     relationship_type: biological
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PRB-0009
     notes: []
   - parent_id: P-0056
     relationship_type: biological
-    status: confirmed
+    status: strong-evidence
     source_ids:
     - PRB-0009
     notes:
@@ -183,3 +183,10 @@ notes:
     Marques, documented_child): b. ~1822, Freq. Santa Marinha, Porto, Portugal;
     died c. 15 October 1880, Fazenda da Concórdia — from the transcript; image needed.
     (d) Partition of the Matilde estate was formally closed 3 November 1885.
+- text: >-
+    Parentage tier of P-0061 (Francisco Leocádio) downgraded confirmed →
+    strong-evidence on 2026-08-13 (confidence-tier audit): PRB-0009 lists him as
+    Ladisláo's child, but material conflict #15 (the 1882 embargos transcript
+    reading him as son-in-law, not son) is unresolved, so 'confirmed' — which
+    requires no material unresolved conflict — is not warranted. See STATUS.md
+    conflict #15.

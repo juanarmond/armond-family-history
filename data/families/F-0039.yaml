@@ -6,7 +6,7 @@ partners:
 - person_id: P-0081
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
   - PAR-0036
   notes:
@@ -48,3 +48,7 @@ notes:
     Gonçalves † × Maria Fernandes) are named in PAR-0036 and were modelled 2026-08-13
     as P-0088 × P-0089 (F-0043) and P-0090 × P-0091 (F-0044); no records of their own
     are located, so this G10 extension rests on the single 1716 marriage entry.
+- text: >-
+    Union tier upgraded strong-evidence → confirmed on 2026-08-13
+    (confidence-tier audit): PAR-0036 is the couple's own 1716 Ruivais marriage
+    act (direct-primary for the union).

@@ -11,7 +11,11 @@ participants:
   role: spouse
 - person_id: P-0069
   role: spouse
-status: strong-evidence
+status: hypothesis
 source_ids:
 - PUB-0003
-notes: []
+notes:
+- text: >-
+    Tier downgraded strong-evidence → hypothesis on 2026-08-13 (confidence-tier
+    audit): sole source PUB-0003 (published genealogy) — a lone secondary
+    source, below the strong-evidence bar.

@@ -6,7 +6,7 @@ partners:
 - person_id: P-0005
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
   - CIV-0002
   notes: []
@@ -32,4 +32,8 @@ children:
       direct reported evidence for this parentage.
 event_ids:
 - E-0002
-notes: []
+notes:
+- text: >-
+    Union tier upgraded strong-evidence → confirmed on 2026-08-13
+    (confidence-tier audit): CIV-0002 is the couple's own civil marriage
+    certificate (direct-primary for the union).
