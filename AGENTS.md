@@ -81,7 +81,14 @@ order — cheap orientation before expensive per-image work:
    FS-tree "Memories" portraits may be AI-generated or colorised — never evidence.
 4. **Ingest and complete** (see "Entity connectivity and completeness" and the
    `data/README.md` checklist): reserve → draft → promote as one batch, then add the
-   reciprocal back-references to the live entities.
+   reciprocal back-references to the live entities. For every person whose evidence
+   changed, **sync their `profile`/`profile_pt` from the drop's
+   `FINDINGS/profiles/<surname>/<person>.md`** in the same batch — the research
+   profiles carry the current depth, and the YAML narratives drift behind them if
+   left. Keep the evidence discipline: fold documented facts and clearly-hedged
+   `[CONTEXTUAL]`/`[INFERRED]` reasoning, never launder a `[LEAD]` into fact.
+   Run `uv run --frozen make profiles-audit` to list profiles that still lag (a
+   heuristic name-match — confirm identity before enriching).
 5. **Finish** with the Completion protocol (`make check`, the reciprocity and
    completeness verification, rebuild the viewer index, logs, changelog); record each
    image's disposition in the triage ledger, and commit.

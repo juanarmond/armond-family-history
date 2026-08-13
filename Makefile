@@ -1,4 +1,4 @@
-.PHONY: check test validate export export-bundle export-legacy
+.PHONY: check test validate profiles-audit export export-bundle export-legacy
 
 PYTHON ?= python3
 
@@ -6,6 +6,12 @@ check: validate test
 
 validate:
 	$(PYTHON) scripts/validate_data.py
+
+# Advisory (local-only): flag modelled-person profiles that lag the retrieval
+# drop's FINDINGS/profiles. The drop is gitignored, so this is not part of
+# `make check`; run it when processing a drop. Exits 0 unless --strict.
+profiles-audit:
+	$(PYTHON) scripts/profile_sync_audit.py
 
 test:
 	$(PYTHON) -m unittest discover -s tests -v
