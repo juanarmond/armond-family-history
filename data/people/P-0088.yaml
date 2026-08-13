@@ -30,14 +30,18 @@ notes:
     Toledo.
 - text: >-
     Reading conflict, preserved: PAR-0036 transcribes him "Gonçallo Roiz já defunto"
-    (deceased by 1716), whereas a higher-resolution reading of the Arquivo Distrital de
-    Braga image renders the same clause "Gonçalo Rodrigues de Frades" (of the lugar de
-    Frades in Ruivais). His death, whereabouts and own parents are otherwise unrecorded.
+    (deceased by 1716) — the preferred reading, parallel to the bride's father "Domingos
+    Gonçalves já defunto". The retrieval synthesis alternatively read the same clause
+    "Gonçalo Rodrigues de Frades" (of the lugar de Frades in Ruivais), from a
+    lower-resolution copy; kept as a less-certain alternative. His death, whereabouts and
+    own parents are otherwise unrecorded.
   text_pt: >-
     Conflito de leitura, preservado: PAR-0036 transcreve "Gonçallo Roiz já defunto"
-    (falecido até 1716), ao passo que uma leitura em maior resolução da imagem do Arquivo
-    Distrital de Braga lê a mesma cláusula como "Gonçalo Rodrigues de Frades" (do lugar de
-    Frades em Ruivais). Seu óbito, paradeiro e pais próprios sem outro registro.
+    (falecido até 1716) — a leitura preferida, paralela à do pai da noiva "Domingos
+    Gonçalves já defunto". A síntese de recuperação leu alternativamente a mesma cláusula
+    como "Gonçalo Rodrigues de Frades" (do lugar de Frades em Ruivais), a partir de uma
+    cópia de menor resolução; mantida como alternativa menos certa. Seu óbito, paradeiro e
+    pais próprios sem outro registro.
 - text: >-
     Nationality Portuguese: named in the São Martinho de Ruivais register (PAR-0036). No
     record of his own located.
@@ -55,8 +59,8 @@ profile: >-
   [strong-evidence — identifying that 1716 groom with P-0080 rests on the name-pair,
   parish and timeline match to P-0078's 1728 Ruivais baptism]
 
-  - **Birth, death, own parents:** unrecorded. PAR-0036 reads him "já defunto"; an
-  alternative, higher-resolution reading is "de Frades". [OPEN]
+  - **Birth, death, own parents:** unrecorded. PAR-0036 reads him "já defunto"
+  (preferred); the retrieval synthesis alternatively read "de Frades". [OPEN]
 
   ## Sources held (this repository)
 
@@ -79,8 +83,8 @@ profile_pt: >-
   correspondência de nomes, paróquia e cronologia com o batismo de 1728 de P-0078 em
   Ruivais]
 
-  - **Nascimento, óbito, pais próprios:** sem registro. PAR-0036 o lê "já defunto";
-  leitura alternativa, em maior resolução, é "de Frades". [OPEN]
+  - **Nascimento, óbito, pais próprios:** sem registro. PAR-0036 o lê "já defunto"
+  (preferido); a síntese de recuperação leu alternativamente "de Frades". [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 

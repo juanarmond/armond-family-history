@@ -755,7 +755,7 @@ a:focus-visible {
 .story-subtitle { margin: .35rem 0 0; font-style: italic; color: var(--ink-2); }
 .story-note { margin: .7rem 0 0; font-size: .78rem; line-height: 1.5; color: var(--muted); max-width: 40rem; }
 
-.story-content { color: var(--ink); font-size: 1.02rem; line-height: 1.75; }
+.story-content { color: var(--ink); font-size: 1.02rem; line-height: 1.75; overflow-wrap: break-word; }
 .story-content .portrait-h { font-family: var(--sans); font-weight: 700; }
 .story-content h4.portrait-h {
   font-size: 1.15rem;
@@ -798,10 +798,26 @@ a:focus-visible {
     max-height: none;
     border: 0;
     border-radius: 0;
-    padding: 1.4rem 1.25rem 2.5rem;
+    padding: 1.3rem 1.15rem 2.6rem;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
   }
-  .story-title { font-size: 1.35rem; }
+  /* Keep the close control reachable throughout a long read: float it, fixed. */
+  .story-head { padding-right: 3.3rem; margin-bottom: 1.1rem; }
+  .story-head button {
+    position: fixed;
+    top: .7rem;
+    right: .7rem;
+    z-index: 22;
+    background: var(--card);
+    box-shadow: var(--shadow-md);
+  }
+  .story-title { font-size: 1.3rem; }
+  .story-subtitle { font-size: .92rem; }
+  .story-note { font-size: .76rem; }
   .story-content { font-size: 1rem; }
+  .story-content h4.portrait-h { font-size: 1.08rem; margin-top: 1.6rem; }
+  .story-content hr { width: 62%; }
 }
 
 .detail-head {

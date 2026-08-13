@@ -16,8 +16,11 @@ already held.
 
 - **1716 Ruivais marriage** (`rec-rodrigues-valle-joao-pai-joana-marriage-1716-ruivaes-p1/p2`)
   → **DUPLICATE of PAR-0036** (already fully catalogued 2026-08-10, with transcription,
-  scan and E-0072). The drop copy is a better ADB (Arquivo Distrital de Braga) 2-page scan
-  of the same entry; noted as an available scan upgrade, not re-catalogued.
+  scan and E-0072). The drop copy is a **lower-resolution** ADB (Arquivo Distrital de
+  Braga) 2-page copy (2144×1500/page); the held FS-tree scan (3825×2677) is sharper and
+  holds all the genealogical content (both spouses + all four parents on one page), so it
+  is kept as the best/sharpest version. "Já defunto" (not the synthesis's "de Frades") is
+  the preferred reading of Gonçalo's clause.
   - **G10 extension (the new work):** the four parents named in PAR-0036, previously held
     as deliberate *leads*, were **promoted to modelled entities** (per owner instruction and
     consistent with the Toledo line's P-0064/65/66/67 precedent): **P-0088 Gonçalo Rodrigues

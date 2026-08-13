@@ -5,6 +5,11 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — Family Story mobile polish; 1716 scan kept as the sharpest (2026-08-13)
+
+- Fully adapted the Family Story page to mobile: full-screen sheet, a **floating, always-reachable close button** (fixed top-right, larger touch target) so a long read can be dismissed without scrolling back up, plus word-wrap, reading padding and momentum scrolling.
+- Duplicate-scan review on the 1716 Ruivais marriage: the **held FS-tree scan (3825×2677) is sharper and more complete** (both spouses + all four parents on one page) than the drop's ADB copy (2144×1500/page), so it is **kept** as the best version. Corrected the notes that had called the ADB copy "better/higher-resolution", and set **"já defunto"** (parallel to the bride's father, not the synthesis's "de Frades") as the preferred reading of Gonçalo's clause on P-0088/PAR-0036/F-0043.
+
 ### Added — "Family Story" reading page: the bilingual convergence narrative (2026-08-13)
 
 - A new **Family Story** button (toolbar, and a "Read the family story →" link on the living-person panels — i.e. on Juan's own node) opens a centered reading overlay (full-screen on mobile) rendering **"How I Came To Be"** — the long-form narrative of Juan's four grandparent lines (Armond/Toledo, Guimarães/Engrácio, Muniz/Azevedo, Bohrer) converging in the Zona da Mata and the Volta Redonda steel city. It is grounded entirely in records already held in this archive; a header note frames it as a narrative synthesis (not evidence), and living people appear by first name only.

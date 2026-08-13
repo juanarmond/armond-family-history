@@ -1409,7 +1409,7 @@
 1 SEX M
 1 FAMS @F0043@
 1 NOTE Father of João Rodrigues (P-0080). Named with his wife Elebia Francisca (P-0089) in their son's 13 May 1716 Ruivais marriage (PAR-0036), of the Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal. Modelled 2026-08-13 (previously recorded as an unmodelled lead on P-0080). Juan's 8×-great-grandfather on the maternal Toledo line.
-1 NOTE Reading conflict, preserved: PAR-0036 transcribes him "Gonçallo Roiz já defunto" (deceased by 1716), whereas a higher-resolution reading of the Arquivo Distrital de Braga image renders the same clause "Gonçalo Rodrigues de Frades" (of the lugar de Frades in Ruivais). His death, whereabouts and own parents are otherwise unrecorded.
+1 NOTE Reading conflict, preserved: PAR-0036 transcribes him "Gonçallo Roiz já defunto" (deceased by 1716) — the preferred reading, parallel to the bride's father "Domingos Gonçalves já defunto". The retrieval synthesis alternatively read the same clause "Gonçalo Rodrigues de Frades" (of the lugar de Frades in Ruivais), from a lower-resolution copy; kept as a less-certain alternative. His death, whereabouts and own parents are otherwise unrecorded.
 1 NOTE Nationality Portuguese: named in the São Martinho de Ruivais register (PAR-0036). No record of his own located.
 0 @P0089@ INDI
 1 NAME Elebia /Francisca/
@@ -2739,7 +2739,7 @@
 2 SOUR @PAR0036@
 3 QUAY 2
 1 SOUR @PAR0036@
-1 NOTE Gonçalo Rodrigues (P-0088) × Elebia Francisca (P-0089) of São Martinho de Ruivais, Braga, Portugal; parents of João Rodrigues (P-0080). Modelled 2026-08-13 from the 1716 Ruivais marriage (PAR-0036), extending the maternal Toledo line to Juan's 8×-great-grandparents. Gonçalo is read "já defunto" in PAR-0036 and "de Frades" in a higher-resolution reading (conflict preserved on P-0088).
+1 NOTE Gonçalo Rodrigues (P-0088) × Elebia Francisca (P-0089) of São Martinho de Ruivais, Braga, Portugal; parents of João Rodrigues (P-0080). Modelled 2026-08-13 from the 1716 Ruivais marriage (PAR-0036), extending the maternal Toledo line to Juan's 8×-great-grandparents. Gonçalo is read "já defunto" in PAR-0036 (preferred) and "de Frades" in the lower-resolution retrieval synthesis (conflict preserved on P-0088).
 0 @F0044@ FAM
 1 HUSB @P0090@
 1 WIFE @P0091@
