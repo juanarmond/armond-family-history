@@ -5,6 +5,12 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-08-13 — Ruivais G10 extension; Simplício 1919 Toledo partilha; Cordeira/Leme lead
+
+- Question: value-gate the 2026-08-13 sync (6 images) — 1716 Ruivais marriage, Simplício 1919 Leopoldina heir payment, three São Paulo Cordeira/Leme records.
+- Key results: (1) The "1716 Ruivais marriage" is a **duplicate of PAR-0036** (already held); its four parent-leads were **promoted to modelled G10 ancestors** — **P-0088 Gonçalo Rodrigues × P-0089 Elebia Francisca** (F-0043) and **P-0090 Domingos Gonçalves × P-0091 Maria Fernandes** (F-0044), Juan's 8×-great-grandparents at São Martinho de Ruivais, Braga (strong-evidence; identity caveat + the "já defunto/de Frades" reading conflict preserved on P-0088). (2) **New source PRB-0011** — the Simplício 1919 Leopoldina Toledo partilha "pagamento ao herdeiro" folio, attached to P-0016/P-0017: corroborates his heir-by-marriage standing and, if the 1919 dating holds, extends his documented presence from "after 1902" toward c.1919; does NOT name his Armond parents. (3) **Cordeira/Leme SP trio = lead only** on P-0067 — no primary bridge to Ignez, and the "Itu" premise conflicts with PAR-0025's "Ouru [Ouro?]" reading; not promoted.
+- New entities: P-0088–P-0091, F-0043, F-0044, PRB-0011; DOC-0091. 324 entities; make check green; GEDCOM 4115 lines. Session log: `logs/2026-08-13-portugal-g10-and-simplicio-1919-partilha.md`.
+
 ## 2026-08-12 — Field-validation audit (4 parallel agents) + remediation
 
 - Question: after the birthplace-derivation fix, validate all viewer-derived fields and all structured data for other issues of the same class and any new integrity issues.

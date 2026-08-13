@@ -1,0 +1,93 @@
+schema_version: 1
+id: P-0088
+preferred_name: Gonçalo Rodrigues
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: Gonçallo Roiz
+  type: source
+  source_ids:
+  - PAR-0036
+  note: >-
+    Recorded "Gonçallo Roiz [Rodrigues]" as the groom's father in the 13 May 1716
+    Ruivais marriage (PAR-0036).
+event_ids: []
+family_ids:
+- F-0043
+notes:
+- text: >-
+    Father of João Rodrigues (P-0080). Named with his wife Elebia Francisca (P-0089) in
+    their son's 13 May 1716 Ruivais marriage (PAR-0036), of the Freguesia de São Martinho
+    de Ruivais, Arcebispado de Braga, Portugal. Modelled 2026-08-13 (previously recorded
+    as an unmodelled lead on P-0080). Juan's 8×-great-grandfather on the maternal Toledo
+    line.
+  text_pt: >-
+    Pai de João Rodrigues (P-0080). Nomeado com sua mulher Elebia Francisca (P-0089) no
+    casamento de seu filho em 13 de maio de 1716 em Ruivais (PAR-0036), da Freguesia de
+    São Martinho de Ruivais, Arcebispado de Braga, Portugal. Modelado em 2026-08-13 (antes
+    registrado como pista não modelada em P-0080). Trisavô (8×) de Juan pela linha materna
+    Toledo.
+- text: >-
+    Reading conflict, preserved: PAR-0036 transcribes him "Gonçallo Roiz já defunto"
+    (deceased by 1716), whereas a higher-resolution reading of the Arquivo Distrital de
+    Braga image renders the same clause "Gonçalo Rodrigues de Frades" (of the lugar de
+    Frades in Ruivais). His death, whereabouts and own parents are otherwise unrecorded.
+  text_pt: >-
+    Conflito de leitura, preservado: PAR-0036 transcreve "Gonçallo Roiz já defunto"
+    (falecido até 1716), ao passo que uma leitura em maior resolução da imagem do Arquivo
+    Distrital de Braga lê a mesma cláusula como "Gonçalo Rodrigues de Frades" (do lugar de
+    Frades em Ruivais). Seu óbito, paradeiro e pais próprios sem outro registro.
+- text: >-
+    Nationality Portuguese: named in the São Martinho de Ruivais register (PAR-0036). No
+    record of his own located.
+  text_pt: >-
+    Nacionalidade portuguesa: nomeado no registro de São Martinho de Ruivais (PAR-0036).
+    Nenhum registro próprio localizado.
+profile: >-
+  ## Identity
+
+  **Gonçalo Rodrigues** (recorded *Gonçallo Roiz* in the 1716 Ruivais marriage). Of the
+  Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal. Portuguese.
+
+  - **Role:** father of João Rodrigues (P-0080), named with his wife Elebia Francisca
+  (P-0089) in their son's 13 May 1716 Ruivais marriage (PAR-0036; family F-0043).
+  [strong-evidence — identifying that 1716 groom with P-0080 rests on the name-pair,
+  parish and timeline match to P-0078's 1728 Ruivais baptism]
+
+  - **Birth, death, own parents:** unrecorded. PAR-0036 reads him "já defunto"; an
+  alternative, higher-resolution reading is "de Frades". [OPEN]
+
+  ## Sources held (this repository)
+
+  - PAR-0036 (1716 Ruivais marriage of his son — names him as the groom's father).
+
+  ## Regional and migration context
+
+  Of São Martinho de Ruivais in the Minho highlands (Arcebispado de Braga), the origin
+  parish of this branch; his grandson João Rodrigues Valle (P-0078) emigrated to Minas
+  Gerais. He himself is not documented as leaving Portugal. [CONTEXTUAL]
+profile_pt: >-
+  ## Identidade
+
+  **Gonçalo Rodrigues** (registrado *Gonçallo Roiz* no casamento de 1716 em Ruivais). Da
+  Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal. Português.
+
+  - **Papel:** pai de João Rodrigues (P-0080), nomeado com sua mulher Elebia Francisca
+  (P-0089) no casamento de 13 de maio de 1716 em Ruivais de seu filho (PAR-0036; família
+  F-0043). [evidência forte — identificar aquele noivo de 1716 com P-0080 apoia-se na
+  correspondência de nomes, paróquia e cronologia com o batismo de 1728 de P-0078 em
+  Ruivais]
+
+  - **Nascimento, óbito, pais próprios:** sem registro. PAR-0036 o lê "já defunto";
+  leitura alternativa, em maior resolução, é "de Frades". [OPEN]
+
+  ## Fontes disponíveis (neste repositório)
+
+  - PAR-0036 (casamento de 1716 em Ruivais de seu filho — nomeia-o como pai do noivo).
+
+  ## Contexto regional e migratório
+
+  De São Martinho de Ruivais, nas terras altas do Minho (Arcebispado de Braga), a paróquia
+  de origem deste ramo; seu neto João Rodrigues Valle (P-0078) emigrou para Minas Gerais.
+  Ele próprio não está documentado como tendo deixado Portugal. [CONTEXTUAL]

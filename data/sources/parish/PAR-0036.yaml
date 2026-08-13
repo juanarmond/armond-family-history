@@ -78,16 +78,24 @@ reliability:
   limitations: >-
     Dense early-18th-century Portuguese cursive; the officiant's surname and Joanna
     Gonçalves's mother's forename ("Maria" Fernandes) carry some uncertainty. The
-    named grandparents (Gonçalo Rodrigues × Elebia Francisca; Domingos Gonçalves ×
-    Maria Fernandes) are recorded as leads, not modelled entities.
+    named parents of the couple (Gonçalo Rodrigues × Elebia Francisca; Domingos
+    Gonçalves × Maria Fernandes) were modelled 2026-08-13 as P-0088–P-0091 (families
+    F-0043, F-0044). Gonçalo's clause is read "já defunto" here and "de Frades" in a
+    higher-resolution reading; the conflict is preserved on P-0088.
 digital_file:
   path: evidence/parish/PAR-0036-joao-rodrigues-joanna-goncalves-marriage-1716-ruivais.jpg
   sha256: e983f6f5abce9ff14d376234daff76618fb7d75b6a47a07a0f96783be0a053ed
 linked_people:
 - P-0080
 - P-0081
+- P-0088
+- P-0089
+- P-0090
+- P-0091
 linked_families:
 - F-0039
+- F-0043
+- F-0044
 linked_events:
 - E-0072
 linked_places: []
@@ -96,6 +104,7 @@ notes:
 - text: >-
     Establishes João Rodrigues (P-0080) × Joanna Gonçalves (P-0081) and names their
     parents (Gonçalo Rodrigues † × Elebia Francisca; Domingos Gonçalves † × Maria
-    Fernandes) as a lead. The retrieval filename token "barbacena" is a mislabel: the
+    Fernandes), modelled 2026-08-13 as P-0088–P-0091. The retrieval filename token
+    "barbacena" is a mislabel: the
     register is São Martinho de Ruivais, Braga, Portugal (confirmed by the marginal
     "Ruiuay" note, the "villa de Ruivais" text, and consistency with PAR-0035).

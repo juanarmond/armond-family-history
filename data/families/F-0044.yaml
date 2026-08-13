@@ -1,0 +1,47 @@
+schema_version: 1
+id: F-0044
+partners:
+- person_id: P-0090
+  role: spouse
+- person_id: P-0091
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0036
+  notes:
+  - text: >-
+      Domingos Gonçalves (P-0090, already deceased by 1716) and Maria Fernandes (P-0091),
+      named as the married parents of the bride Joanna Gonçalves (P-0081) in the 13 May
+      1716 Ruivais marriage (PAR-0036). Their own marriage act is not held; the union is
+      attested by their daughter's stated legitimacy and the "sua molher" wording.
+children:
+- person_id: P-0081
+  parent_relationships:
+  - parent_id: P-0090
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0036
+    notes:
+    - text: >-
+        Joanna Gonçalves (P-0081) is named "filha de Domingos Gonçalves já defunto e de
+        sua molher Maria Fernandes" in her 1716 Ruivais marriage (PAR-0036). Modelled
+        2026-08-13 from that record (previously an unmodelled lead). Strong-evidence: the
+        identification of the 1716 bride with P-0081 rests on the name-pair, parish and
+        timeline match to P-0078's 1728 Ruivais baptism (PAR-0035).
+  - parent_id: P-0091
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0036
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Domingos Gonçalves (P-0090) × Maria Fernandes (P-0091) of the lugar da quinta, São
+    Martinho de Ruivais, Braga, Portugal; parents of Joanna Gonçalves (P-0081). Modelled
+    2026-08-13 from the 1716 Ruivais marriage (PAR-0036), extending the maternal Toledo
+    line to Juan's 8×-great-grandparents. Domingos was already deceased ("já defunto") by
+    the 1716 marriage.

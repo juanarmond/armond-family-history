@@ -3623,3 +3623,39 @@ documents:
         primary-confirms her parents João Rodrigues Valle × Isabel Ribeira and her
         3 March 1764 birth, and resolves the "José vs João" doubt on her father. All
         persons long deceased.
+  - inventory_id: DOC-0091
+    status: catalogued
+    added_date: "2026-08-13"
+    apparent_record_type: Estate-division payment folio (partilha; folha de pagamento a herdeiro)
+    apparent_people:
+      - Simplício José Ferreira Armond
+      - Eliza Balbina de Toledo
+    apparent_event: probate
+    image_quality: adequate
+    provenance: >-
+      Leopoldina (MG) Toledo estate-division partilha; single "pagamento ao herdeiro"
+      folio delivered through the research/from-retrieval/ sync as
+      rec-armond-simplicio-heir-payment-leopoldina-1919-estate-division.jpg. Read from
+      the image 2026-08-13. The header, date and decedent folios are not retained.
+    rights_status: unknown
+    files:
+      - path: evidence/probate/PRB-0011-simplicio-armond-heir-payment-leopoldina-1919-toledo-partilha.jpg
+        sha256: fe2d6431b99cd18dc46f448eec0a39deb220d17b7335147882ecb9dd43cf2ec5
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 3014
+          pixel_height: 4166
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PRB-0011
+    notes:
+      - >-
+        Partilha payment folio allotting a fazenda share to the heir Simplício José
+        Ferreira Armond, "casado com Dona Eliza Balbina de Toledo" — a Toledo (in-law)
+        estate. Corroborates the couple and Simplício's heir-by-marriage standing;
+        if the agent's 1919 dating holds, extends his documented presence to c.1919.
+        Does not name his Armond parents. All persons long deceased.

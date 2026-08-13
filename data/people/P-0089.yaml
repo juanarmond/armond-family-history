@@ -1,0 +1,84 @@
+schema_version: 1
+id: P-0089
+preferred_name: Elebia Francisca
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Elebia Francisca
+  type: source
+  source_ids:
+  - PAR-0036
+- value: Estêbia Francisca
+  type: source
+  source_ids:
+  - PAR-0036
+  note: >-
+    Alternative, higher-resolution reading of the same 1716 Ruivais clause (Arquivo
+    Distrital de Braga image); the forename is worn and reads Elebia / Estêbia.
+event_ids: []
+family_ids:
+- F-0043
+notes:
+- text: >-
+    Mother of João Rodrigues (P-0080). Named as the wife of Gonçalo Rodrigues (P-0088) in
+    their son's 13 May 1716 Ruivais marriage (PAR-0036), of the Freguesia de São Martinho
+    de Ruivais, Arcebispado de Braga, Portugal. Modelled 2026-08-13 (previously an
+    unmodelled lead on P-0080). Juan's 8×-great-grandmother on the maternal Toledo line.
+    Her forename is worn and reads "Elebia" / "Estêbia"; both preserved.
+  text_pt: >-
+    Mãe de João Rodrigues (P-0080). Nomeada como mulher de Gonçalo Rodrigues (P-0088) no
+    casamento de seu filho em 13 de maio de 1716 em Ruivais (PAR-0036), da Freguesia de
+    São Martinho de Ruivais, Arcebispado de Braga, Portugal. Modelada em 2026-08-13 (antes
+    pista não modelada em P-0080). Trisavó (8×) de Juan pela linha materna Toledo. Seu
+    prenome está desgastado e lê-se "Elebia" / "Estêbia"; ambos preservados.
+- text: >-
+    Nationality Portuguese: named in the São Martinho de Ruivais register (PAR-0036). No
+    record of her own located; her own parents unknown.
+  text_pt: >-
+    Nacionalidade portuguesa: nomeada no registro de São Martinho de Ruivais (PAR-0036).
+    Nenhum registro próprio localizado; seus pais próprios desconhecidos.
+profile: >-
+  ## Identity
+
+  **Elebia Francisca** (also read *Estêbia Francisca*). Wife of Gonçalo Rodrigues
+  (P-0088), of the Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal.
+  Portuguese.
+
+  - **Role:** mother of João Rodrigues (P-0080), named in her son's 13 May 1716 Ruivais
+  marriage (PAR-0036; family F-0043). [strong-evidence — see P-0088 for the identity
+  basis]
+
+  - **Birth, death, own parents:** unrecorded. [OPEN]
+
+  ## Sources held (this repository)
+
+  - PAR-0036 (1716 Ruivais marriage of her son — names her as the groom's mother).
+
+  ## Regional and migration context
+
+  Of São Martinho de Ruivais in the Minho highlands (Arcebispado de Braga), the origin
+  parish of this branch; her grandson João Rodrigues Valle (P-0078) emigrated to Minas
+  Gerais. [CONTEXTUAL]
+profile_pt: >-
+  ## Identidade
+
+  **Elebia Francisca** (também lida *Estêbia Francisca*). Mulher de Gonçalo Rodrigues
+  (P-0088), da Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal.
+  Portuguesa.
+
+  - **Papel:** mãe de João Rodrigues (P-0080), nomeada no casamento de 13 de maio de 1716
+  em Ruivais de seu filho (PAR-0036; família F-0043). [evidência forte — ver P-0088 para
+  a base da identidade]
+
+  - **Nascimento, óbito, pais próprios:** sem registro. [OPEN]
+
+  ## Fontes disponíveis (neste repositório)
+
+  - PAR-0036 (casamento de 1716 em Ruivais de seu filho — nomeia-a como mãe do noivo).
+
+  ## Contexto regional e migratório
+
+  De São Martinho de Ruivais, nas terras altas do Minho (Arcebispado de Braga), a paróquia
+  de origem deste ramo; seu neto João Rodrigues Valle (P-0078) emigrou para Minas Gerais.
+  [CONTEXTUAL]

@@ -1,0 +1,77 @@
+schema_version: 1
+id: P-0091
+preferred_name: Maria Fernandes
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Maria Fernandes
+  type: source
+  source_ids:
+  - PAR-0036
+event_ids: []
+family_ids:
+- F-0044
+notes:
+- text: >-
+    Mother of Joanna Gonçalves (P-0081). Named as the wife of the late Domingos Gonçalves
+    (P-0090) in their daughter's 13 May 1716 Ruivais marriage (PAR-0036); moradora no
+    lugar da quinta, Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal.
+    Modelled 2026-08-13 (previously an unmodelled lead on P-0081). Juan's
+    8×-great-grandmother on the maternal Toledo line.
+  text_pt: >-
+    Mãe de Joanna Gonçalves (P-0081). Nomeada como mulher do falecido Domingos Gonçalves
+    (P-0090) no casamento de sua filha em 13 de maio de 1716 em Ruivais (PAR-0036);
+    moradora no lugar da quinta, Freguesia de São Martinho de Ruivais, Arcebispado de
+    Braga, Portugal. Modelada em 2026-08-13 (antes pista não modelada em P-0081). Trisavó
+    (8×) de Juan pela linha materna Toledo.
+- text: >-
+    Nationality Portuguese: named in the São Martinho de Ruivais register (PAR-0036). No
+    record of her own located; her own parents unknown.
+  text_pt: >-
+    Nacionalidade portuguesa: nomeada no registro de São Martinho de Ruivais (PAR-0036).
+    Nenhum registro próprio localizado; seus pais próprios desconhecidos.
+profile: >-
+  ## Identity
+
+  **Maria Fernandes**, of the lugar da quinta, Freguesia de São Martinho de Ruivais,
+  Arcebispado de Braga, Portugal. Portuguese.
+
+  - **Role:** mother of Joanna Gonçalves (P-0081), named (as wife of the late Domingos
+  Gonçalves) in her daughter's 13 May 1716 Ruivais marriage (PAR-0036; family F-0044).
+  [strong-evidence — see P-0081 for the identity basis]
+
+  - **Birth, death, own parents:** unrecorded; living (a moradora of the lugar da quinta)
+  at her daughter's 1716 marriage. [OPEN]
+
+  ## Sources held (this repository)
+
+  - PAR-0036 (1716 Ruivais marriage of her daughter — names her as the bride's mother).
+
+  ## Regional and migration context
+
+  Of the lugar da quinta in São Martinho de Ruivais, Minho highlands (Arcebispado de
+  Braga), the origin parish of this branch; her grandson João Rodrigues Valle (P-0078)
+  emigrated to Minas Gerais. [CONTEXTUAL]
+profile_pt: >-
+  ## Identidade
+
+  **Maria Fernandes**, do lugar da quinta, Freguesia de São Martinho de Ruivais,
+  Arcebispado de Braga, Portugal. Portuguesa.
+
+  - **Papel:** mãe de Joanna Gonçalves (P-0081), nomeada (como mulher do falecido Domingos
+  Gonçalves) no casamento de sua filha em 13 de maio de 1716 em Ruivais (PAR-0036; família
+  F-0044). [evidência forte — ver P-0081 para a base da identidade]
+
+  - **Nascimento, óbito, pais próprios:** sem registro; viva (moradora do lugar da quinta)
+  ao casamento de sua filha em 1716. [OPEN]
+
+  ## Fontes disponíveis (neste repositório)
+
+  - PAR-0036 (casamento de 1716 em Ruivais de sua filha — nomeia-a como mãe da noiva).
+
+  ## Contexto regional e migratório
+
+  Do lugar da quinta em São Martinho de Ruivais, terras altas do Minho (Arcebispado de
+  Braga), a paróquia de origem deste ramo; seu neto João Rodrigues Valle (P-0078) emigrou
+  para Minas Gerais. [CONTEXTUAL]

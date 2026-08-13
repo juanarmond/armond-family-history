@@ -22,19 +22,20 @@ event_ids:
 - E-0072
 family_ids:
 - F-0039
+- F-0043
 notes:
 - text: >-
     Of the Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal.
     Married Joanna Gonçalves (P-0081) on 13 May 1716 at Ruivais, family F-0039
     (PAR-0036); legitimate son of Gonçalo Rodrigues (already deceased in 1716) and
-    Elebia Francisca (named in PAR-0036; recorded as a lead, not modelled). Father
-    of João Rodrigues Valle (P-0078), baptized at Ruivais in 1728 (PAR-0035).
+    Elebia Francisca — now modelled (2026-08-13) as P-0088 × P-0089, family F-0043.
+    Father of João Rodrigues Valle (P-0078), baptized at Ruivais in 1728 (PAR-0035).
   text_pt: >-
     Da Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal.
     Casou-se com Joanna Gonçalves (P-0081) em 13 de maio de 1716 em Ruivais,
     família F-0039 (PAR-0036); filho legítimo de Gonçalo Rodrigues (já falecido em
-    1716) e Elebia Francisca (nomeados em PAR-0036; registrados como pista, não
-    modelados). Pai de João Rodrigues Valle (P-0078), batizado em Ruivais em 1728
+    1716) e Elebia Francisca — agora modelados (2026-08-13) como P-0088 × P-0089,
+    família F-0043. Pai de João Rodrigues Valle (P-0078), batizado em Ruivais em 1728
     (PAR-0035).
 - text: >-
     Nationality Portuguese: a resident and married communicant of São Martinho de
@@ -53,8 +54,8 @@ profile: >-
   - **Marriage:** married Joanna Gonçalves (P-0081) on 13 May 1716 at Ruivais — [PROVEN]
   from the original Ruivais marriage register (PAR-0036; E-0072; family F-0039).
 
-  - **Parents:** legitimate son of Gonçalo Rodrigues (already deceased in 1716) and
-  Elebia Francisca — named in PAR-0036 but recorded only as a lead, not modelled. [LEAD]
+  - **Parents:** legitimate son of Gonçalo Rodrigues (P-0088) and Elebia Francisca
+  (P-0089), named in PAR-0036 — modelled 2026-08-13 as family F-0043. [strong-evidence]
 
   - **Birth, baptism, death:** not located; a resident and married communicant of
   Ruivais. [OPEN]
@@ -94,9 +95,8 @@ profile_pt: >-
   Ruivais — [PROVEN] pelo registro original de casamento de Ruivais (PAR-0036; E-0072;
   família F-0039).
 
-  - **Pais:** filho legítimo de Gonçalo Rodrigues (já falecido em 1716) e Elebia
-  Francisca — nomeados em PAR-0036, mas registrados apenas como pista, não modelados.
-  [LEAD]
+  - **Pais:** filho legítimo de Gonçalo Rodrigues (P-0088) e Elebia Francisca (P-0089),
+  nomeados em PAR-0036 — modelados em 2026-08-13 como família F-0043. [strong-evidence]
 
   - **Nascimento, batismo, óbito:** não localizados; residente e comungante casado de
   Ruivais. [OPEN]

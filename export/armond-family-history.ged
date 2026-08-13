@@ -3,8 +3,8 @@
 2 VERS 7.0
 1 SOUR ARMOND-FAMILY-HISTORY
 2 NAME Armond Family History
-2 VERS 2026.08.12
-1 DATE 12 AUG 2026
+2 VERS 2026.08.13
+1 DATE 13 AUG 2026
 1 SUBM @SUBM0001@
 1 LANG pt-BR
 0 @SUBM0001@ SUBM
@@ -327,6 +327,7 @@
 1 NOTE Parents UNKNOWN. Simplício's Armond surname distinguishes him from the Toledo family he married into. PRB-0008 and PRB-0009 (1867 inventários) list a "Simplício José Ferreira de TOLEDO, solteiro, 14 anos" as JC's own son (item 6 in both) — a DIFFERENT person with a Toledo surname who died before 1879. A prior session (7 August 2026) mistakenly identified that Simplício de Toledo with our Simplício Armond and added F-0026 as his birth family; corrected same day. He is Eliza Balbina de Toledo's husband; his biological parents remain unidentified. He is NOT a child of José Cezário de Toledo Lima (P-0054) or Claudina Brandina de Jesus (P-0055).
 1 NOTE His name appears in four records: the short "Simplicio Armand" (Aristão's 1957 death, CIV-0005); "Simplício Ferreira Armond" (Marfiza's 1962 death, CIV-0013); and "Simplicio José Ferreira Armond" (the 1881 Toledo heir list PRB-0001 and the 1884 petition PRB-0002) — PRB-0002 bearing his own autograph signature ("Simplicio Joze Ferr.a Armond"). The owner confirms his full name is "Simplício José Ferreira Armond", set as the preferred name on 2026-07-30 — it matches his autograph signature and the two 1880s probate records; the shorter source forms ("Simplicio Armand", "Simplício Ferreira Armond") are preserved as variants.
 1 NOTE Public office (1902): named "3.º supplente do delegado de policia de S. Paulo do Muriahé" by an act of 10 September 1902, reported in O Pharol (Juiz de Fora, 13 Sept 1902; NWS-0003). Recorded as an occupation. Confirms he was living and active at Muriaé in 1902 and adds a civic role to his documented attorney/witness activity there (the FAN documents and the 1904 inventário). Distinct from the elder Barbacena Tenente-Coronel Simplício.
+1 NOTE 1919 Toledo estate (Leopoldina): a partilha "folha de pagamento ao herdeiro" (PRB-0011) names Simplício José Ferreira Armond, "casado com Dona Eliza Balbina de Toledo", as heir and allots him a fazenda share (dwelling house, paiol, mill, halves of the engenho and ventilador, and mata-virgem and capoeira lands). He inherits in right of Eliza — a Toledo (in-law) estate — which corroborates his heir-by-marriage standing (previously cited only from PRB-0001/PRB-0002) and, if the retrieval agent's 1919 dating holds, extends his documented presence from "after 1902" (NWS-0003) toward c.1919. The folio names neither his own Armond parents nor the decedent whose estate is divided; the date and place are the agent's identification, off this page.
 0 @P0017@ INDI
 1 NAME Eliza Ferreira /Armand/
 2 GIVN Eliza Ferreira
@@ -348,6 +349,7 @@
 1 NOTE PARENTAGE CONFIRMED (7 August 2026, PRB-0006 Film 2 triage): Eliza is a daughter of José Cezário de Toledo Lima (P-0054) and Claudina Brandina de Jesus (P-0055), family F-0026. Evidence: the 1879 Matilde inventário (PRB-0006), Film 2 triage, lists her as representante #5 under heir #4 (JC × Claudina). Per 19th-century Brazilian inheritance law, a married woman appeared through her husband as legal representative; item 5 reads "5º Simplicio José Ferreira Armond, cazado com D. Eliza Balbina de Tolledo" — Simplício is named first as her legal actor, Eliza is the heir. A prior session (7 August 2026) misread this as Simplício being JC's son and removed Eliza from F-0026; that correction was itself erroneous and is reversed. The "Simplício José Ferreira de Toledo, solteiro, 14 anos" in the 1867 inventários (PRB-0008 item 6; PRB-0009 item 6) is JC's OWN SON with the Toledo surname — a DIFFERENT person from our Simplício Armond who has the Armond surname.
 1 NOTE Recorded three ways: "Eliza Ferreira Armand" (Aristão's 1957 death, CIV-0005), "Eliza Ferreira Toledo" (Marfiza's 1962 death, CIV-0013) and "Eliza Balbina de Toledo" (the 1881 Toledo heir list PRB-0001, as Simplício's wife). All give her the Toledo maiden surname and the owner confirms they are the same woman; the married and maiden forms are both preserved.
 1 NOTE Namesake caution (do NOT treat as a variant of Eliza): the 13 November 1880 citation audience in the Ladisláo Toledo estate names "Simplicio José Ferreira Armond e sua mulher Maria Dulcelina de Toledo" — a scribe's slip substituting the name of Eliza's sister Maria Dulcelina de Toledo (a documented child on F-0026) for Eliza. It does not indicate a second wife of Simplício.
+1 NOTE 1919 Toledo estate (Leopoldina): the partilha payment folio PRB-0011 allots a fazenda share (dwelling, paiol, mill, engenho/ventilador halves, mata-virgem and capoeira lands) to "o herdeiro Simplicio José Ferreira Armond, casado com Dona Eliza Balbina de Toledo" — Eliza is the underlying Toledo heir, her share paid to her husband. It corroborates the couple (F-0006) and her continuing claim in a Toledo estate as late as c.1919. The decedent whose estate is divided, and the date/place, are off the retained folio (the 1919/Leopoldina identification is the retrieval agent's).
 0 @P0018@ INDI
 1 NAME José Olavo /Armond/
 2 GIVN José Olavo
@@ -1142,6 +1144,7 @@
 1 SEX F
 1 FAMS @F0032@
 1 NOTE Maternal grandmother of Ignez Francisca de Lima (P-0060); named in the 1777 Piracatu baptism of her granddaughter Maria (PAR-0025) as "Maria Francisca Cordeira, natural da Villa de Ouru [Ouro?], Bispado de S. Paulo" — possibly Villa Rica de Ouro Preto or another settlement in the Bispado de São Paulo; reading uncertain. Wife of João Rodrigues de Mello (P-0066). Her own birth, marriage and death records have not been located.
+1 NOTE Cordeira/Leme paulista lead — recorded, NOT promoted (2026-08-13). The retrieval synthesis proposes that this Maria Francisca Cordeira is the "Maria, daughter of Francisco Leme do Prado × Francisca Cordeira/Cordeiro de Godoy" baptised at Itu (São Paulo) in 1737, and above that couple traces a deep compiled paulista-founder ascent (Genealogia Paulistana / Silva Leme). Drop images: ft_sp-batismo-maria-francisca-cordeira-3SGV-L, ft_sp-batismo-francisco-leme-do-prado-F638-R4, ft_sp-casamento-francisco-leme-x-francisca-godoy-3SZB-R. Held as a lead only, for two reasons: (1) no primary record bridges the 1737 Itu Maria to our Ignez (P-0060) — the retrieval agent itself rates the join STRONG, not PROVEN; and (2) the "Itu" premise conflicts with PAR-0025, the sole held source naming this woman, which reads her origin "natural da Villa de Ouru [Ouro?], Bispado de São Paulo" — i.e. Ouro (Preto?), not Itu. Her origin needs the underlying São Paulo register, not the compilation; her parents stay UNKNOWN.
 0 @P0068@ INDI
 1 NAME Laurent /Borer/
 2 GIVN Laurent
@@ -1336,7 +1339,8 @@
 2 SOUR @PAR0035@
 1 SEX M
 1 FAMS @F0039@
-1 NOTE Of the Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal. Married Joanna Gonçalves (P-0081) on 13 May 1716 at Ruivais, family F-0039 (PAR-0036); legitimate son of Gonçalo Rodrigues (already deceased in 1716) and Elebia Francisca (named in PAR-0036; recorded as a lead, not modelled). Father of João Rodrigues Valle (P-0078), baptized at Ruivais in 1728 (PAR-0035).
+1 FAMC @F0043@
+1 NOTE Of the Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal. Married Joanna Gonçalves (P-0081) on 13 May 1716 at Ruivais, family F-0039 (PAR-0036); legitimate son of Gonçalo Rodrigues (already deceased in 1716) and Elebia Francisca — now modelled (2026-08-13) as P-0088 × P-0089, family F-0043. Father of João Rodrigues Valle (P-0078), baptized at Ruivais in 1728 (PAR-0035).
 1 NOTE Nationality Portuguese: a resident and married communicant of São Martinho de Ruivais, Braga (PAR-0036). No birth, baptism or death record located.
 0 @P0081@ INDI
 1 NAME Joanna /Gonçalves/
@@ -1347,7 +1351,8 @@
 2 SOUR @PAR0035@
 1 SEX F
 1 FAMS @F0039@
-1 NOTE Of the lugar da quinta, Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal. Married João Rodrigues (P-0080) on 13 May 1716 at Ruivais, family F-0039 (PAR-0036); legitimate daughter of Domingos Gonçalves (already deceased in 1716) and Maria Fernandes (named in PAR-0036; recorded as a lead, not modelled). Mother of João Rodrigues Valle (P-0078), baptized at Ruivais in 1728 (PAR-0035).
+1 FAMC @F0044@
+1 NOTE Of the lugar da quinta, Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal. Married João Rodrigues (P-0080) on 13 May 1716 at Ruivais, family F-0039 (PAR-0036); legitimate daughter of Domingos Gonçalves (already deceased in 1716) and Maria Fernandes — now modelled (2026-08-13) as P-0090 × P-0091, family F-0044. Mother of João Rodrigues Valle (P-0078), baptized at Ruivais in 1728 (PAR-0035).
 1 NOTE Nationality Portuguese: a resident and married communicant of São Martinho de Ruivais, Braga (PAR-0036). No birth, baptism or death record located.
 0 @P0082@ INDI
 1 NAME Manoel Muniz /Bitancourt/
@@ -1394,6 +1399,45 @@
 1 SEX F
 1 FAMS @F0042@
 1 NOTE Mother of Francisca Roza do Espírito Santo (P-0047); wife of Manoel de Motta (P-0086), family F-0042. Named in her daughter's 17 February 1842 Mãe de Deus marriage (PAR-0024). NOTE: distinct from the "Anna de Souza" who is wife of Antonio de Medeiros Brandão and a godmother at the 1821 baptism of Manoel Muniz Bitancourt (P-0042) — a different woman with the same name (BPARPD reconcile, SE/2026/1583e). No record of her own is located; native to São Miguel (Açores).
+0 @P0088@ INDI
+1 NAME Gonçalo /Rodrigues/
+2 GIVN Gonçalo
+2 SURN Rodrigues
+1 NAME Gonçallo /Roiz/
+2 TYPE AKA
+2 SOUR @PAR0036@
+1 SEX M
+1 FAMS @F0043@
+1 NOTE Father of João Rodrigues (P-0080). Named with his wife Elebia Francisca (P-0089) in their son's 13 May 1716 Ruivais marriage (PAR-0036), of the Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal. Modelled 2026-08-13 (previously recorded as an unmodelled lead on P-0080). Juan's 8×-great-grandfather on the maternal Toledo line.
+1 NOTE Reading conflict, preserved: PAR-0036 transcribes him "Gonçallo Roiz já defunto" (deceased by 1716), whereas a higher-resolution reading of the Arquivo Distrital de Braga image renders the same clause "Gonçalo Rodrigues de Frades" (of the lugar de Frades in Ruivais). His death, whereabouts and own parents are otherwise unrecorded.
+1 NOTE Nationality Portuguese: named in the São Martinho de Ruivais register (PAR-0036). No record of his own located.
+0 @P0089@ INDI
+1 NAME Elebia /Francisca/
+2 GIVN Elebia
+2 SURN Francisca
+1 NAME Estêbia /Francisca/
+2 TYPE AKA
+2 SOUR @PAR0036@
+1 SEX F
+1 FAMS @F0043@
+1 NOTE Mother of João Rodrigues (P-0080). Named as the wife of Gonçalo Rodrigues (P-0088) in their son's 13 May 1716 Ruivais marriage (PAR-0036), of the Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal. Modelled 2026-08-13 (previously an unmodelled lead on P-0080). Juan's 8×-great-grandmother on the maternal Toledo line. Her forename is worn and reads "Elebia" / "Estêbia"; both preserved.
+1 NOTE Nationality Portuguese: named in the São Martinho de Ruivais register (PAR-0036). No record of her own located; her own parents unknown.
+0 @P0090@ INDI
+1 NAME Domingos /Gonçalves/
+2 GIVN Domingos
+2 SURN Gonçalves
+1 SEX M
+1 FAMS @F0044@
+1 NOTE Father of Joanna Gonçalves (P-0081), already deceased ("já defunto") by 1716. Named with his wife Maria Fernandes (P-0091) in their daughter's 13 May 1716 Ruivais marriage (PAR-0036); the family were moradores no lugar da quinta, Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal. Modelled 2026-08-13 (previously an unmodelled lead on P-0081). Juan's 8×-great-grandfather on the maternal Toledo line.
+1 NOTE Nationality Portuguese: named in the São Martinho de Ruivais register (PAR-0036). No record of his own located; deceased before his daughter's 1716 marriage.
+0 @P0091@ INDI
+1 NAME Maria /Fernandes/
+2 GIVN Maria
+2 SURN Fernandes
+1 SEX F
+1 FAMS @F0044@
+1 NOTE Mother of Joanna Gonçalves (P-0081). Named as the wife of the late Domingos Gonçalves (P-0090) in their daughter's 13 May 1716 Ruivais marriage (PAR-0036); moradora no lugar da quinta, Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal. Modelled 2026-08-13 (previously an unmodelled lead on P-0081). Juan's 8×-great-grandmother on the maternal Toledo line.
+1 NOTE Nationality Portuguese: named in the São Martinho de Ruivais register (PAR-0036). No record of her own located; her own parents unknown.
 0 @DOCF0001_1@ INDI
 1 NAME Aristides Muniz /Bittencourt/
 2 GIVN Aristides Muniz
@@ -2654,7 +2698,7 @@
 3 QUAY 3
 1 SOUR @PAR0035@
 1 NOTE João Rodrigues (P-0080) × Joanna Gonçalves (P-0081) of São Martinho de Ruivais, Braga, Portugal; parents of João Rodrigues Valle (P-0078). Extends the maternal Toledo line one generation into early-18th-century Portugal.
-1 NOTE The couple's own parents (Gonçalo Rodrigues † × Elebia Francisca; Domingos Gonçalves † × Maria Fernandes) are named in PAR-0036 but recorded only as leads on P-0080 and P-0081, not modelled — no records of their own are located.
+1 NOTE The couple's own parents (Gonçalo Rodrigues † × Elebia Francisca; Domingos Gonçalves † × Maria Fernandes) are named in PAR-0036 and were modelled 2026-08-13 as P-0088 × P-0089 (F-0043) and P-0090 × P-0091 (F-0044); no records of their own are located, so this G10 extension rests on the single 1716 marriage entry.
 0 @F0040@ FAM
 1 HUSB @P0082@
 1 WIFE @P0083@
@@ -2687,6 +2731,24 @@
 3 QUAY 3
 1 SOUR @PAR0024@
 1 NOTE Parents of Francisca Roza do Espírito Santo (P-0047), established by her 1842 Mãe de Deus marriage (PAR-0024, folio 32r). This supersedes the earlier "parents unknown / Manoel de Mello × Anna de Souza [LEAD]" position on P-0047, now proven from the legible 1842 act. Native to Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores).
+0 @F0043@ FAM
+1 HUSB @P0088@
+1 WIFE @P0089@
+1 CHIL @P0080@
+1 MARR
+2 SOUR @PAR0036@
+3 QUAY 2
+1 SOUR @PAR0036@
+1 NOTE Gonçalo Rodrigues (P-0088) × Elebia Francisca (P-0089) of São Martinho de Ruivais, Braga, Portugal; parents of João Rodrigues (P-0080). Modelled 2026-08-13 from the 1716 Ruivais marriage (PAR-0036), extending the maternal Toledo line to Juan's 8×-great-grandparents. Gonçalo is read "já defunto" in PAR-0036 and "de Frades" in a higher-resolution reading (conflict preserved on P-0088).
+0 @F0044@ FAM
+1 HUSB @P0090@
+1 WIFE @P0091@
+1 CHIL @P0081@
+1 MARR
+2 SOUR @PAR0036@
+3 QUAY 2
+1 SOUR @PAR0036@
+1 NOTE Domingos Gonçalves (P-0090) × Maria Fernandes (P-0091) of the lugar da quinta, São Martinho de Ruivais, Braga, Portugal; parents of Joanna Gonçalves (P-0081). Modelled 2026-08-13 from the 1716 Ruivais marriage (PAR-0036), extending the maternal Toledo line to Juan's 8×-great-grandparents. Domingos was already deceased ("já defunto") by the 1716 marriage.
 0 @REPO0001@ REPO
 1 NAME FamilySearch Memories
 0 @REPO0002@ REPO

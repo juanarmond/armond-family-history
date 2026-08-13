@@ -1,0 +1,47 @@
+schema_version: 1
+id: F-0043
+partners:
+- person_id: P-0088
+  role: spouse
+- person_id: P-0089
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0036
+  notes:
+  - text: >-
+      Gonçalo Rodrigues (P-0088) and Elebia Francisca (P-0089), named as the married
+      parents ("e de sua molher") of the groom João Rodrigues (P-0080) in the 13 May 1716
+      Ruivais marriage (PAR-0036). Their own marriage act is not held; the union is
+      attested by their son's stated legitimacy and the "sua molher" wording.
+children:
+- person_id: P-0080
+  parent_relationships:
+  - parent_id: P-0088
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0036
+    notes:
+    - text: >-
+        João Rodrigues (P-0080) is named "filho de Gonçallo Roiz [Rodrigues] e de sua
+        molher Elebia Francisca" in his 1716 Ruivais marriage (PAR-0036). Modelled
+        2026-08-13 from that record (previously an unmodelled lead). Strong-evidence: the
+        identification of the 1716 groom with P-0080 rests on the name-pair, parish and
+        timeline match to P-0078's 1728 Ruivais baptism (PAR-0035).
+  - parent_id: P-0089
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0036
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Gonçalo Rodrigues (P-0088) × Elebia Francisca (P-0089) of São Martinho de Ruivais,
+    Braga, Portugal; parents of João Rodrigues (P-0080). Modelled 2026-08-13 from the 1716
+    Ruivais marriage (PAR-0036), extending the maternal Toledo line to Juan's
+    8×-great-grandparents. Gonçalo is read "já defunto" in PAR-0036 and "de Frades" in a
+    higher-resolution reading (conflict preserved on P-0088).

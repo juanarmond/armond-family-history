@@ -5,6 +5,32 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Ruivais G10 ancestors; Simplício's 1919 Toledo partilha; Cordeira/Leme lead (2026-08-13)
+
+- Value-gated the 2026-08-13 retrieval sync (6 images), verifying each against the scan.
+- **Portugal G10 extension.** The four parents named in the 1716 Ruivais marriage (PAR-0036),
+  previously held as deliberate *leads*, were promoted to modelled entities: **P-0088 Gonçalo
+  Rodrigues × P-0089 Elebia Francisca** (family **F-0043**, parents of João Rodrigues P-0080)
+  and **P-0090 Domingos Gonçalves × P-0091 Maria Fernandes** (family **F-0044**, parents of
+  Joanna Gonçalves P-0081) — Juan's four 8×-great-grandparents at São Martinho de Ruivais,
+  Braga. Status **strong-evidence** (parentage stated directly in PAR-0036, but resting on the
+  identification of the 1716 couple with P-0080/P-0081). The "lead, not modelled" notes on
+  PAR-0036/F-0039/P-0080/P-0081 were superseded, and the "já defunto" vs "de Frades" reading of
+  Gonçalo's clause is preserved on P-0088. The drop's "1716 marriage" image is a **duplicate**
+  of PAR-0036 (a better ADB 2-page scan; no re-catalogue).
+- **New source PRB-0011** — a Leopoldina Toledo estate-division "pagamento ao herdeiro" folio,
+  allotting a fazenda share to the heir Simplício José Ferreira Armond (P-0016), "casado com
+  Dona Eliza Balbina de Toledo" (P-0017). Attached to both; corroborates his heir-by-marriage
+  standing (previously only PRB-0001/PRB-0002) and, if the retrieval agent's 1919 dating holds,
+  extends his documented presence from "after 1902" (NWS-0003) toward c.1919. It does **not**
+  name his Armond parents; the parentage keystone stays open. The retained folio bears no date,
+  place or decedent — those are the agent's identification, recorded as such.
+- **Cordeira/Leme (3 São Paulo images) recorded as a lead on P-0067, not promoted** — no primary
+  bridges the 1737 Itu "Maria dau. of Francisco Leme do Prado × Francisca Cordeira" to our Ignez,
+  and the "Itu" premise conflicts with PAR-0025, which reads her origin "Villa de Ouru [Ouro?]".
+- 324 entities (+4 people, +2 families, +1 source, +1 inventory); `make check` green (69 + JS
+  tests); reciprocity verified; index + GEDCOM (7.0, 4115 lines) regenerated.
+
 ### Changed — removed redundant `transcription_pt` from 33 Portuguese-language records (2026-08-12)
 
 - Follow-up to the field-validation audit. For a Portuguese-language record the verbatim `transcription` is already Portuguese, so a `transcription_pt` that merely re-localizes the **bracketed editorial notes** (e.g. "Marginal note:" → "Nota à margem:", "[FamilySearch Full-Text extract:]" → "[Extrato … do FamilySearch:]") duplicates the whole record body for no benefit — the viewer already falls back to `transcription` in PT mode (`localeText`). Removed the field from **33 records** verified byte-identical except editorial framing, via 4 parallel agents over disjoint sets, each confirming no unique record data was lost before deleting: **20 sources** (CIV-0005/0008/0013/0017/0018/0020/0022/0024, GOV-0001, PAR-0001/0005/0006/0010/0017/0018/0019/0023/0025/0026, PRB-0006) and **13 FANs** (FAN-0001…FAN-0013).

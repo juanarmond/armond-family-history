@@ -21,20 +21,21 @@ event_ids:
 - E-0072
 family_ids:
 - F-0039
+- F-0044
 notes:
 - text: >-
     Of the lugar da quinta, Freguesia de São Martinho de Ruivais, Arcebispado de
     Braga, Portugal. Married João Rodrigues (P-0080) on 13 May 1716 at Ruivais,
     family F-0039 (PAR-0036); legitimate daughter of Domingos Gonçalves (already
-    deceased in 1716) and Maria Fernandes (named in PAR-0036; recorded as a lead,
-    not modelled). Mother of João Rodrigues Valle (P-0078), baptized at Ruivais in
+    deceased in 1716) and Maria Fernandes — now modelled (2026-08-13) as P-0090 ×
+    P-0091, family F-0044. Mother of João Rodrigues Valle (P-0078), baptized at Ruivais in
     1728 (PAR-0035).
   text_pt: >-
     Do lugar da quinta, Freguesia de São Martinho de Ruivais, Arcebispado de
     Braga, Portugal. Casou-se com João Rodrigues (P-0080) em 13 de maio de 1716
     em Ruivais, família F-0039 (PAR-0036); filha legítima de Domingos Gonçalves
-    (já falecido em 1716) e Maria Fernandes (nomeados em PAR-0036; registrados
-    como pista, não modelados). Mãe de João Rodrigues Valle (P-0078), batizado em
+    (já falecido em 1716) e Maria Fernandes — agora modelados (2026-08-13) como
+    P-0090 × P-0091, família F-0044. Mãe de João Rodrigues Valle (P-0078), batizado em
     Ruivais em 1728 (PAR-0035).
 - text: >-
     Nationality Portuguese: a resident and married communicant of São Martinho de
@@ -53,9 +54,8 @@ profile: >-
   - **Marriage:** married João Rodrigues (P-0080) on 13 May 1716 at Ruivais — [PROVEN]
   from the original Ruivais marriage register (PAR-0036; E-0072; family F-0039).
 
-  - **Parents:** legitimate daughter of Domingos Gonçalves (already deceased in 1716)
-  and Maria Fernandes — named in PAR-0036 but recorded only as a lead, not modelled.
-  [LEAD]
+  - **Parents:** legitimate daughter of Domingos Gonçalves (P-0090) and Maria Fernandes
+  (P-0091), named in PAR-0036 — modelled 2026-08-13 as family F-0044. [strong-evidence]
 
   - **Birth, baptism, death:** not located; a resident and married communicant of
   Ruivais. [OPEN]
@@ -93,9 +93,8 @@ profile_pt: >-
   — [PROVEN] pelo registro original de casamento de Ruivais (PAR-0036; E-0072; família
   F-0039).
 
-  - **Pais:** filha legítima de Domingos Gonçalves (já falecido em 1716) e Maria
-  Fernandes — nomeados em PAR-0036, mas registrados apenas como pista, não modelados.
-  [LEAD]
+  - **Pais:** filha legítima de Domingos Gonçalves (P-0090) e Maria Fernandes (P-0091),
+  nomeados em PAR-0036 — modelados em 2026-08-13 como família F-0044. [strong-evidence]
 
   - **Nascimento, batismo, óbito:** não localizados; residente e comungante casada de
   Ruivais. [OPEN]
