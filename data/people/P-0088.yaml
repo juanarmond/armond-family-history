@@ -60,7 +60,12 @@ profile: >-
   parish and timeline match to P-0078's 1728 Ruivais baptism]
 
   - **Birth, death, own parents:** unrecorded. PAR-0036 reads him "já defunto"
-  (preferred); the retrieval synthesis alternatively read "de Frades". [OPEN]
+  (preferred); the retrieval synthesis alternatively read "de Frades". [OPEN] A page-by-page
+  read of the Ruivães marriage register 1664–1706 (retrieval) did not find his own marriage to
+  Estêbia Francisca, so the couple most likely married in the bride's out-of-parish freguesia —
+  the generation above him is therefore not reachable from the Ruivães registers. A same-period
+  "João, son of Gonçalo Rodrigues × Angela Pereira" in that register is flagged only to avoid
+  conflation (a possible remarriage or a namesake), not our line. [LEAD]
 
   ## Sources held (this repository)
 
@@ -70,7 +75,12 @@ profile: >-
 
   Of São Martinho de Ruivais in the Minho highlands (Arcebispado de Braga), the origin
   parish of this branch; his grandson João Rodrigues Valle (P-0078) emigrated to Minas
-  Gerais. He himself is not documented as leaving Portugal. [CONTEXTUAL]
+  Gerais. He himself is not documented as leaving Portugal. [CONTEXTUAL] He is the
+  non-emigrating Ruivães generation at the origin-end of that move: the Minho was Portugal's
+  densest, most land-fragmented region — a smallholding minifúndio at ~96 inhabitants per km²
+  by 1801 — whose surplus non-inheriting sons made it the single greatest source of
+  18th-century Portuguese emigration to Brazil, his grandson's crossing falling under the
+  Provisão de 20 de março de 1720 passport regime. [CONTEXTUAL]
 profile_pt: >-
   ## Identidade
 
@@ -84,7 +94,13 @@ profile_pt: >-
   Ruivais]
 
   - **Nascimento, óbito, pais próprios:** sem registro. PAR-0036 o lê "já defunto"
-  (preferido); a síntese de recuperação leu alternativamente "de Frades". [OPEN]
+  (preferido); a síntese de recuperação leu alternativamente "de Frades". [OPEN] Uma leitura
+  página a página do registro de casamentos de Ruivães de 1664–1706 (recuperação) não encontrou
+  seu próprio casamento com Estêbia Francisca, de modo que o casal provavelmente se casou na
+  freguesia de origem da noiva, fora da paróquia — a geração acima dele não é, portanto,
+  alcançável pelos registros de Ruivães. Um "João, filho de Gonçalo Rodrigues × Angela Pereira"
+  do mesmo período nesse registro é sinalizado apenas para evitar confusão (um possível segundo
+  casamento ou um homônimo), não sendo nossa linha. [LEAD]
 
   ## Fontes disponíveis (neste repositório)
 
@@ -94,4 +110,9 @@ profile_pt: >-
 
   De São Martinho de Ruivais, nas terras altas do Minho (Arcebispado de Braga), a paróquia
   de origem deste ramo; seu neto João Rodrigues Valle (P-0078) emigrou para Minas Gerais.
-  Ele próprio não está documentado como tendo deixado Portugal. [CONTEXTUAL]
+  Ele próprio não está documentado como tendo deixado Portugal. [CONTEXTUAL] Ele é a geração
+  não-emigrante de Ruivães na origem desse movimento: o Minho era a região mais densa e mais
+  fragmentada em terra de Portugal — um minifúndio de pequenas propriedades, ~96 habitantes por
+  km² em 1801 — cujos filhos excedentes não herdeiros fizeram dele a maior fonte isolada de
+  emigração portuguesa setecentista para o Brasil, com a travessia de seu neto caindo sob o
+  regime de passaportes da Provisão de 20 de março de 1720. [CONTEXTUAL]

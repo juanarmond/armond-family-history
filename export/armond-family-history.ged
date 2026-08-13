@@ -411,7 +411,7 @@
 3 PHRASE about 1847
 2 PLAC Ilha de São Miguel, Açores, Portugal
 2 SOUR @PAR0007@
-3 QUAY 3
+3 QUAY 2
 1 FAMS @F0007@
 1 FAMC @F0020@
 1 NOTE Ahnentafel position 24.
@@ -583,7 +583,8 @@
 2 DATE 14 NOV 1868
 2 PLAC Nova Friburgo area, Rio de Janeiro, Brazil
 2 SOUR @PUB0003@
-3 QUAY 2
+3 QUAY 1
+2 NOTE Unproven hypothesis (not yet confirmed by evidence).
 1 FAMS @F0013@
 1 FAMC @F0034@
 1 NOTE Ahnentafel position 28 — father of João Gonçalves Bohrer (P-0014). Named as João's father (already deceased) in his 1970 Volta Redonda death (CIV-0014) and as Eunir Bohrer's paternal grandfather in the 1924 Nova Friburgo birth (CIV-0016). No record of his own has been located.
@@ -1157,7 +1158,8 @@
 2 DATE 27 FEB 1797
 2 PLAC Grindel, Soleure (Solothurn), Switzerland
 2 SOUR @PUB0003@
-3 QUAY 2
+3 QUAY 1
+2 NOTE Unproven hypothesis (not yet confirmed by evidence).
 1 FAMS @F0033@
 1 NOTE BORER II in the Imigrantes de Nova Friburgo compilation (Henrique Bon), distinct from Jacob Borer (P-0050, BORER I), who originates from Erschwil and held Casa/Lote 70/56. Laurent originates from Grindel and held Casa/Lote 73/86. The two families shared the Heureux Voyage but were allocated different lots and are not proven to be closely related. The compilation states "não há evidência de parentesco próximo entre os dois grupos."
 1 NOTE Father named as "certo Jacob Borer, de Grindel, Soleure" in the compilation (PUB-0003). The qualifier "certo" reflects the compiler's own hedged confidence in this attribution. The Grindel parish register images in the retrieval drop show a "Joannes Borer × Ana Maria Werli" baptising a daughter in 1782 — a strong lead for Laurent's parentage but not yet confirmed as the same individual. No parent family in this repository; the father is noted here only.
@@ -2235,6 +2237,7 @@
 2 SOUR @PAR0012@
 3 QUAY 3
 1 SOUR @CIV0004@
+1 NOTE Union tier upgraded strong-evidence → confirmed on 2026-08-13 (confidence-tier audit): the couple's own civil marriage act — CIV-0006 (inteiro teor) and CIV-0001 — is direct-primary evidence for the union.
 0 @F0002@ FAM
 1 HUSB @P0004@
 1 WIFE @P0005@
@@ -2245,6 +2248,7 @@
 2 SOUR @CIV0002@
 3 QUAY 3
 1 SOUR @CIV0008@
+1 NOTE Union tier upgraded strong-evidence → confirmed on 2026-08-13 (confidence-tier audit): CIV-0002 is the couple's own civil marriage certificate (direct-primary for the union).
 0 @F0003@ FAM
 1 HUSB @P0008@
 1 WIFE @P0009@
@@ -2262,6 +2266,7 @@
 2 SOUR @CIV0004@
 3 QUAY 3
 1 SOUR @CIV0008@
+1 NOTE Union tier upgraded strong-evidence → confirmed on 2026-08-13 (confidence-tier audit): CIV-0004 is the couple's own civil marriage certificate (direct-primary for the union).
 0 @F0005@ FAM
 1 HUSB @P0014@
 1 WIFE @P0015@
@@ -2529,6 +2534,7 @@
 1 NOTE Per PRB-0009 (1867 Ladisláo inventário), Ladisláo and Mathilde had at least eight children: (1) Maria Perpétua (⚭ Antonio Zeferino de Toledo); (2) Ignez Mettelina (⚭ João? Pedro da Silva); (3) Carolina Leopoldina Marques (⚭ Narcísio Marques Braz); (4) Francisco Leocádio — modelled as P-0061; (5) Aureliano de Sales Toledo; (6) Cezário [José] de Toledo; (7) António Ladislão de Toledo (surdo e mudo) — modelled as P-0063 (died 11 Feb 1909, CIV-0024); (8) José Cesário de Toledo Lima (P-0054, direct line). Items 1, 2, 3, 5 and 6 are documented_children; items 4, 7 and 8 are structured children. Note: the earlier entry wrongly listed item 1's husband (Antonio Zeferino de Toledo) as the child; corrected 7 August 2026 when PRB-0009-gen1 was read directly — Maria Perpétua da Silva is the child.
 1 NOTE MATERIAL CONFLICT (2026-08-08, conflict #15): the 1882 embargos judgment transcript (ladislao-1867-part05-pp309-387.md, p.383) reads "D. Maria Joaquina de Jesus, mulher de Francisco Leocadio de Toledo, sobreviveu ao seu pai Ladislão Eygidio Ferreira de Toledo." This places Maria Joaquina as Ladisláo's DAUGHTER and Francisco Leocádio (P-0061) as son-in-law — not a son. This contradicts PRB-0009-gen1 which lists FL as child #4. Do not restructure P-0061's placement in this family until the p.383 image is verified. See STATUS.md material conflict #15.
 1 NOTE LEADS from 2026-08-08 inventário transcript (5-agent deep-read; image verification required before promoting any of these): (a) Two additional possible children of Ladisláo × Mathilde found in partilha precatórias: "Marianna Claudina × Francisco Mendes Ferreira" and "Francisca Amelia × José Mendes Pereira Junior" — would bring the total to 10 children; not yet added as documented_children pending image verification. (b) Aureliano de Sales Toledo appears to have had a second wife: "D. Francisca de Paula Candida" — identified in the transcript; this may explain the conflict between PRB-0009 ("Marciana/Marianna") and PRB-0006 p5b ("Marianna Euphragia, já fallecida") if Marianna Euphragia was the first wife (dead by 1879) and Francisca the second. (c) Narcizo Marques Braz (husband of Carolina Leopoldina Marques, documented_child): b. ~1822, Freq. Santa Marinha, Porto, Portugal; died c. 15 October 1880, Fazenda da Concórdia — from the transcript; image needed. (d) Partition of the Matilde estate was formally closed 3 November 1885.
+1 NOTE Parentage tier of P-0061 (Francisco Leocádio) downgraded confirmed → strong-evidence on 2026-08-13 (confidence-tier audit): PRB-0009 lists him as Ladisláo's child, but material conflict #15 (the 1882 embargos transcript reading him as son-in-law, not son) is unresolved, so 'confirmed' — which requires no material unresolved conflict — is not warranted. See STATUS.md conflict #15.
 0 @F0028@ FAM
 1 HUSB @P0057@
 1 WIFE @P0058@
@@ -2614,7 +2620,8 @@
 2 DATE 03 JUL 1820
 2 PLAC Nova Friburgo, Rio de Janeiro, Brazil
 2 SOUR @PUB0003@
-3 QUAY 2
+3 QUAY 1
+2 NOTE Unproven hypothesis (not yet confirmed by evidence).
 1 SOUR @PUB0003@
 1 NOTE The compilation gives "ao menos onze filhos" in the main narrative and "doze filhos" in the Casa Suíça DB text — a one-child discrepancy between the two secondary accounts. Eleven children appear in the genealogy tree on p.301 of the compilation; a twelfth may be missing. Vicente (P-0070) is listed as the 7th child (entry 1.1.7 in the Lorenz tree) but as the 6th son ("6º filho") in the Casa Suíça DB family list (rec-bohrer-borer-laurent-pesquisa-familia-nvfriburgo-1797.jpg, read 2026-08-09). Both are PUB-0003 sub-sources; the discrepancy is unresolved.
 1 NOTE Internal PUB-0003 date conflict for Thereza: the Lorenz genealogy tree (pp.300–301) gives 25/08/1836, while the Casa Suíça DB family list gives 25/09/1838. The DB also labels her "1ª filha" (first daughter) despite listing her last, after all other children born 1822–1834 — likely a database entry error for her ordinal. The dates differ by more than two years; neither can be preferred on current evidence. Both read values preserved here.
@@ -2699,6 +2706,7 @@
 1 SOUR @PAR0035@
 1 NOTE João Rodrigues (P-0080) × Joanna Gonçalves (P-0081) of São Martinho de Ruivais, Braga, Portugal; parents of João Rodrigues Valle (P-0078). Extends the maternal Toledo line one generation into early-18th-century Portugal.
 1 NOTE The couple's own parents (Gonçalo Rodrigues † × Elebia Francisca; Domingos Gonçalves † × Maria Fernandes) are named in PAR-0036 and were modelled 2026-08-13 as P-0088 × P-0089 (F-0043) and P-0090 × P-0091 (F-0044); no records of their own are located, so this G10 extension rests on the single 1716 marriage entry.
+1 NOTE Union tier upgraded strong-evidence → confirmed on 2026-08-13 (confidence-tier audit): PAR-0036 is the couple's own 1716 Ruivais marriage act (direct-primary for the union).
 0 @F0040@ FAM
 1 HUSB @P0082@
 1 WIFE @P0083@

@@ -42,22 +42,44 @@ profile: >-
   - **Marriage:** husband of Maria Francisca Cordeira (P-0067), named together as the
   maternal grandparents in PAR-0025 [PROVEN].
 
-  - **Birth, death, parents:** unknown; no record of his own located [OPEN]. Born, by
-  inference, in the early-to-mid 18th century (grandfather of a child baptised 1777)
-  [INFERRED].
+  - **Birth, death, parents:** unknown at primary level; no record of his own located [OPEN].
+  Born, by inference, in the early-to-mid 18th century (grandfather of a child baptised 1777)
+  [INFERRED]; the FamilySearch collaborative tree (node LT21-QN6) estimates 1715–1795 [LEAD — a
+  tree estimate, not primary]. That tree assigns him parents Domingos Rodrigues de Lima × Maria
+  Nunes of Viana do Castelo, but this rests on a single, garbled, auto-extracted Viana index
+  record that does not even pin the parish; it is attractive only because "Rodrigues de Lima"
+  would explain the "de Lima" his children carried (possibly circular), so treat it as an
+  unverified lead, not a fact. [LEAD — weak]
 
   ## Family and social network
 
   Father of Ignez Francisca de Lima (P-0060), who married Amaro da Silva Xavier
   (P-0059); through her he is a direct maternal-line ancestor of Matilde Maria de Jesus
-  and the Toledo trunk [PROVEN for the P-0060 link via PAR-0025]. No other children are
-  attested in our records.
+  and the Toledo trunk [PROVEN for the P-0060 link via PAR-0025]. No other child is attested at
+  primary level, but a probable further child is Capitão Manoel Rodrigues de Lima of São João del
+  Rei — Matilde's dowry-donor "uncle", who called Ignez "minha irmã Dona Francisca de Lima"; the
+  shared "Rodrigues" supports his being Ignez's brother. [INFERRED]
+
+  - **The "de Lima" surname puzzle** [INFERRED]: his daughter is "Ignez Francisca de Lima" and
+  her probable brother "Manoel Rodrigues de Lima", yet João himself is "Rodrigues do Mello" and
+  his wife "Cordeira" — so the children's "de Lima" is an adopted or inherited element (a
+  maternal-grandmother's or regional surname) that became the family's handle in São João del
+  Rei. It is a useful identification key when reading mixed SJdRei registers.
 
   ## Open questions
 
   - His own baptism, marriage and death — the generation above — would sit in the Viana
   (Braga archdiocese) parish books and, for the marriage, likely wherever he settled in
-  colonial Brazil. [OPEN]
+  colonial Brazil. His exact Viana parish is not pinned (Viana do Castelo has several parishes
+  and no clean primary names his). [bounded-negative, 2026-08-12]
+
+  - His marriage to Maria Francisca Cordeira (which would name both sets of parents and his Viana
+  parish) is not at Itu: the N.S. da Candelária marriage registers were browsed and cleared —
+  Livro 3 (free parishioners, 1742–1763, to book-end) and Livro 4 (1752–1759) — and the couple is
+  absent. It was most likely at the arraial de Paracatú (per the blog "A Raposa da Chapada", and
+  daughter Ignez recorded "natural de Paracatú"), and Paracatú parish books are not on
+  FamilySearch — so the act is off-tool (Arquivo da Diocese / Público de Paracatu).
+  [bounded-negative, 2026-08-13]
 
   ## Sources held (this repository)
 
@@ -71,7 +93,11 @@ profile: >-
   P-0064) — both in the Arcebispado de Braga. [CONTEXTUAL] The family surfaces on the
   Goiás/Piracatu frontier by 1777 and at Barbacena in the next generation, consistent
   with the 18th-century Minho → colonial-Brazil emigration into the gold-and-cattle
-  interior.
+  interior. The Minho was Europe's densest rural minifúndio (~96 inhabitants/km² by 1801) and the
+  single greatest 18th-century source of Portuguese emigration to Brazil — the structural push
+  behind a Viana emigrant like him; movement to the goldfields ran under the Provisão de 20 de
+  março de 1720 (D. João V) passport regime, and frontier land under the sesmaria system.
+  [CONTEXTUAL]
 profile_pt: >-
   ## Identidade
 
@@ -87,22 +113,47 @@ profile_pt: >-
   - **Casamento:** marido de Maria Francisca Cordeira (P-0067), nomeados juntos como os
   avós maternos em PAR-0025 [PROVEN].
 
-  - **Nascimento, óbito, pais:** desconhecidos; nenhum registro próprio localizado
-  [OPEN]. Nascido, por inferência, no início ou meados do século XVIII (avô de uma
-  criança batizada em 1777) [INFERRED].
+  - **Nascimento, óbito, pais:** desconhecidos em nível primário; nenhum registro próprio
+  localizado [OPEN]. Nascido, por inferência, no início ou meados do século XVIII (avô de uma
+  criança batizada em 1777) [INFERRED]; a árvore colaborativa do FamilySearch (nó LT21-QN6) estima
+  1715–1795 [LEAD — uma estimativa da árvore, não um primário]. Essa árvore lhe atribui os pais
+  Domingos Rodrigues de Lima × Maria Nunes, de Viana do Castelo, mas isso apoia-se num único
+  registro de índice de Viana, auto-extraído e truncado, que nem sequer fixa a freguesia; é
+  atraente apenas porque "Rodrigues de Lima" explicaria o "de Lima" que seus filhos carregaram
+  (possivelmente circular), de modo que deve ser tratado como uma pista não verificada, não como
+  fato. [LEAD — fraco]
 
   ## Família e rede social
 
   Pai de Ignez Francisca de Lima (P-0060), que se casou com Amaro da Silva Xavier
   (P-0059); por meio dela é ancestral direto, pela linha materna, de Matilde Maria de
-  Jesus e do tronco Toledo [PROVEN para a ligação com P-0060 via PAR-0025]. Nenhum outro
-  filho está atestado em nossos registros.
+  Jesus e do tronco Toledo [PROVEN para a ligação com P-0060 via PAR-0025]. Nenhum outro filho
+  está atestado em nível primário, mas um provável outro filho é o Capitão Manoel Rodrigues de
+  Lima, de São João del Rei — o "tio" doador do dote de Matilde, que chamou Ignez de "minha irmã
+  Dona Francisca de Lima"; o "Rodrigues" compartilhado sustenta que ele seja irmão de Ignez.
+  [INFERRED]
+
+  - **O enigma do sobrenome "de Lima"** [INFERRED]: sua filha é "Ignez Francisca de Lima" e seu
+  provável irmão "Manoel Rodrigues de Lima", ao passo que o próprio João é "Rodrigues do Mello" e
+  sua esposa "Cordeira" — de modo que o "de Lima" dos filhos é um elemento adotado ou herdado (um
+  sobrenome de avó materna ou regional) que se tornou o distintivo da família em São João del
+  Rei. É uma chave útil de identificação ao ler registros mistos de SJdRei.
 
   ## Questões em aberto
 
   - Seu próprio batismo, casamento e óbito — a geração anterior — estariam nos livros
   paroquiais de Viana (arquidiocese de Braga) e, quanto ao casamento, provavelmente onde
-  quer que ele tenha se estabelecido no Brasil colonial. [OPEN]
+  quer que ele tenha se estabelecido no Brasil colonial. Sua freguesia exata em Viana não está
+  fixada (Viana do Castelo tem várias freguesias e nenhum primário limpo o nomeia).
+  [bounded-negative, 2026-08-12]
+
+  - Seu casamento com Maria Francisca Cordeira (que nomearia ambos os conjuntos de pais e sua
+  freguesia em Viana) não está em Itu: os registros de casamentos de N.S. da Candelária foram
+  percorridos e esgotados — Livro 3 (paroquianos livres, 1742–1763, até o fim do livro) e Livro 4
+  (1752–1759) — e o casal está ausente. Foi muito provavelmente no arraial de Paracatú (conforme o
+  blog "A Raposa da Chapada", e a filha Ignez registrada "natural de Paracatú"), e os livros
+  paroquiais de Paracatú não estão no FamilySearch — de modo que o ato está fora da ferramenta
+  (Arquivo da Diocese / Público de Paracatu). [bounded-negative, 2026-08-13]
 
   ## Fontes disponíveis (neste repositório)
 
@@ -116,4 +167,8 @@ profile_pt: >-
   Barreto, P-0064) — ambos no Arcebispado de Braga. [CONTEXTUAL] A família surge na
   fronteira de Goiás/Piracatu por volta de 1777 e em Barbacena na geração seguinte,
   consistente com a emigração setecentista do Minho → Brasil colonial rumo ao interior do
-  ouro e do gado.
+  ouro e do gado. O Minho era o minifúndio rural mais denso da Europa (~96 habitantes/km² por
+  volta de 1801) e a maior fonte isolada de emigração portuguesa para o Brasil no século XVIII —
+  o impulso estrutural por trás de um emigrante de Viana como ele; o deslocamento para as minas de
+  ouro corria sob o regime de passaportes da Provisão de 20 de março de 1720 (D. João V), e a
+  terra de fronteira sob o sistema de sesmarias. [CONTEXTUAL]

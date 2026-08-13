@@ -56,7 +56,22 @@ profile: >-
 
   ## Open questions
 
-  - His own baptism, marriage and parents (Guimarães, ~1710s–1730s). [OPEN]
+  - His own baptism, marriage and parents (Guimarães, ~1710s–1730s). [OPEN] The exact Guimarães
+  freguesia stays unpinned after two tool-passes: on the Portugal side Guimarães is excluded from
+  the Arquivo Distrital de Braga and the Arquivo Municipal Alfredo Pimenta is a finding-aid index
+  only (name-search returned nothing); on the Brazil side the São Paulo marriage that would name
+  the freguesia was not found. [bounded-negative, 2026-08-12]
+
+  - His marriage to Perpétua (likely São Paulo, her city) is a bounded negative in the indexed
+  FamilySearch corpus (Records personas + Full-Text OCR returned only modern namesakes; no 18th-c
+  act indexed). His node on the FamilySearch collaborative tree attaches no parents — a clean gap,
+  nothing to retract. [bounded-negative, 2026-08-12]
+
+  - No land grant (sesmaria) is catalogued for the Silva Barreto / Silva Xavier surnames in the
+  Plataforma SILB (checked 2026-08-13, 0 grantees) — consistent with the under-digitisation of
+  colonial SP / Goiás / Paracatú land records, so absence there is not absence of the underlying
+  record; any grant would sit off-SILB (Arquivo do Estado de SP / Arquivo Público Mineiro).
+  [bounded-negative]
 
   ## Sources held (this repository)
 
@@ -68,7 +83,11 @@ profile: >-
   From the Villa de Guimarães (Minho, NW Portugal); his descendants moved through colonial
   São Paulo (his wife's city) into the Goiás / Paracatú frontier and on to Barbacena — the
   NW-Portugal-emigration to São-Paulo-captaincy to Minas/Goiás-frontier stream that carried
-  militia families inland through the 18th century. [CONTEXTUAL]
+  militia families inland through the 18th century. [CONTEXTUAL] The Minho was Portugal's densest
+  rural minifúndio (~96 inhabitants/km² by 1801) and the single greatest source of 18th-century
+  Portuguese emigration to Brazil — the structural push behind a Guimarães emigrant like him;
+  movement to the goldfields ran under the Provisão / Alvará régio de 20 de março de 1720 (D. João
+  V) passport regime, and frontier land under the sesmaria system. [CONTEXTUAL]
 profile_pt: >-
   ## Identidade
 
@@ -94,7 +113,24 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seu próprio batismo, casamento e pais (Guimarães, ~1710s–1730s). [OPEN]
+  - Seu próprio batismo, casamento e pais (Guimarães, ~1710s–1730s). [OPEN] A freguesia exata de
+  Guimarães permanece não fixada após duas passagens de ferramentas: no lado português, Guimarães
+  está excluída do Arquivo Distrital de Braga e o Arquivo Municipal Alfredo Pimenta é apenas um
+  índice/instrumento de pesquisa (a busca por nome não retornou nada); no lado brasileiro, o
+  casamento em São Paulo que nomearia a freguesia não foi encontrado. [bounded-negative,
+  2026-08-12]
+
+  - Seu casamento com Perpétua (provavelmente em São Paulo, cidade dela) é um resultado negativo
+  delimitado no acervo indexado do FamilySearch (personas de Records + OCR de texto integral só
+  retornaram homônimos modernos; nenhum ato do século XVIII indexado). Seu nó na árvore
+  colaborativa do FamilySearch não tem pais anexados — uma lacuna limpa, nada a retratar.
+  [bounded-negative, 2026-08-12]
+
+  - Nenhuma sesmaria está catalogada para os sobrenomes Silva Barreto / Silva Xavier na
+  Plataforma SILB (verificada em 2026-08-13, 0 sesmeiros) — consistente com a subdigitalização dos
+  registros fundiários coloniais de SP / Goiás / Paracatú, de modo que essa ausência não é
+  ausência do registro subjacente; qualquer sesmaria estaria fora do SILB (Arquivo do Estado de SP
+  / Arquivo Público Mineiro). [bounded-negative]
 
   ## Fontes disponíveis (neste repositório)
 
@@ -107,4 +143,9 @@ profile_pt: >-
   São Paulo colonial (a cidade de sua esposa) para a fronteira de Goiás / Paracatú e adiante
   para Barbacena — a corrente da emigração do noroeste de Portugal para a capitania de São
   Paulo e para a fronteira de Minas/Goiás que levou famílias de milícia para o interior ao
-  longo do século XVIII. [CONTEXTUAL]
+  longo do século XVIII. [CONTEXTUAL] O Minho era o minifúndio rural mais denso de Portugal (~96
+  habitantes/km² por volta de 1801) e a maior fonte isolada de emigração portuguesa para o Brasil
+  no século XVIII — o impulso estrutural por trás de um emigrante de Guimarães como ele; o
+  deslocamento para as minas de ouro corria sob o regime de passaportes da Provisão / Alvará régio
+  de 20 de março de 1720 (D. João V), e a terra de fronteira sob o sistema de sesmarias.
+  [CONTEXTUAL]
