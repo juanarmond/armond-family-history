@@ -7,6 +7,8 @@ const state = {
   data: null,
   rootId: "P-0001",
   generations: 4,
+  // Persons whose ancestry is drawn past the base generation limit (per-line "expand deeper").
+  expanded: new Set(),
   visibleNodes: 0,
   zoom: 1,
   autoFit: true,
@@ -282,6 +284,7 @@ function setRoot(personId) {
   state.rootId = personId;
   state.focusId = personId;
   state.focusHistory = [];
+  state.expanded.clear(); // manual expansions belong to the previous root
   state.autoFit = true;
   if (elements.rootSelect) elements.rootSelect.value = personId;
   renderActive();
@@ -290,6 +293,7 @@ function setRoot(personId) {
 }
 
 const SVG_NS = "http://www.w3.org/2000/svg";
+const PEDIGREE_HARD_CAP = 24; // absolute generation ceiling for manual per-line expansion
 
 // Walk the ancestry, numbering ancestors ahnentafel-style (subject k = 1, father = 2k,
 // mother = 2k+1) so a father-first walk keeps the father-line left and the mother-line right;
@@ -321,11 +325,16 @@ function collectAhnentafel(rootId, maxGen) {
           : (state.data.people[a.parentId]?.name || "").localeCompare(state.data.people[b.parentId]?.name || "");
       });
 
-    if (gen >= maxGen) {
-      if (parents.length) entry.more = true; // known ancestry continues past the limit
+    const withinBase = gen < maxGen;
+    const expanded = state.expanded.has(personId);
+    if ((!withinBase && !expanded) || gen >= PEDIGREE_HARD_CAP) {
+      // Frontier: stop, but offer a ⊕ when there is known ancestry still to open.
+      if (parents.length && gen < PEDIGREE_HARD_CAP) entry.more = true;
       return;
     }
     if (!parents.length) return;
+    // Shown past the base limit only because this line was expanded — offer a ⊖ to collapse it.
+    if (!withinBase) entry.collapsible = true;
 
     // Assign a stable father slot (2k) and mother slot (2k+1) by sex, falling back for unsexed or
     // single parents so a lone parent still lands in a fixed column.
@@ -368,6 +377,26 @@ function assignColumns(presentKeys) {
   return { range, cols: nextLeaf };
 }
 
+// A +/- control under a frontier card: expand opens this ancestor's line past the base generation
+// limit; collapse hides it again. Per-line, so one deep branch opens without widening the rest.
+function createBranchToggle(personId, mode) {
+  const collapse = mode === "collapse";
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = `pedigree-toggle pedigree-toggle-${collapse ? "collapse" : "expand"}`;
+  button.textContent = collapse ? "−" : "+";
+  const label = collapse ? t("tree.collapse") : t("tree.expand");
+  button.title = label;
+  button.setAttribute("aria-label", label);
+  button.addEventListener("click", (event) => {
+    event.stopPropagation();
+    if (collapse) state.expanded.delete(personId);
+    else state.expanded.add(personId);
+    renderTree();
+  });
+  return button;
+}
+
 function renderTree() {
   if (!state.data) return;
   state.visibleNodes = 0;
@@ -405,13 +434,14 @@ function renderTree() {
   for (const node of nodes) {
     const cell = placeCell(node.k, node.gen);
     cell.dataset.status = node.relationship?.status || "unknown";
-    if (node.more) cell.classList.add("has-more");
     cell.append(
       createPersonCard(state.data.people[node.personId], node.relationship, {
         root: node.gen === 0,
         reference: node.repeated,
       }),
     );
+    if (node.more) cell.append(createBranchToggle(node.personId, "expand"));
+    else if (node.collapsible) cell.append(createBranchToggle(node.personId, "collapse"));
     grid.append(cell);
   }
   for (const slot of unknowns) {
@@ -1790,6 +1820,7 @@ function bindEvents() {
 
   elements.generationLimit.addEventListener("change", () => {
     state.generations = Number(elements.generationLimit.value);
+    state.expanded.clear(); // the base depth changed; drop per-line expansions
     state.autoFit = true;
     renderTree();
     syncHash();
@@ -1919,7 +1950,7 @@ async function initialise() {
     // Restore a shared/bookmarked view from the URL hash.
     const hash = readHash();
     if (hash.root && state.data.people[hash.root]) state.rootId = hash.root;
-    if (hash.gen && /^([2-9]|1[0-9]|20)$/.test(hash.gen)) state.generations = Number(hash.gen);
+    if (hash.gen && /^[2-6]$/.test(hash.gen)) state.generations = Number(hash.gen);
     state.focusId = state.rootId;
 
     populatePersonSelect();

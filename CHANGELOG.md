@@ -8,7 +8,8 @@ also remain traceable through source records and research logs.
 ### Changed — Symmetric ahnentafel pedigree layout (2026-08-13)
 
 - The desktop tree was a nested-list pedigree whose branches spread unevenly (a deep line took more horizontal room than a shallow one), so it looked lopsided. It is now a **fixed ahnentafel grid**: every ancestor sits in a deterministic slot — one generation per row, father-line left to mother-line right — so same-generation cards align and the chart is symmetric regardless of how far each branch is known.
-- Connectors are an SVG overlay coloured by evidence tier; the missing half of a partly-known couple shows a faint dashed **"Unknown"** slot (so the symmetry reads as intentional), and a `⋯` marks a person whose known ancestry continues past the current generation limit. No graph library — the grid is a deterministic CSS placement, keeping the viewer dependency-free. Touched `family-tree-viewer/{app,styles,i18n}`.
+- Connectors are an SVG overlay coloured by evidence tier; the missing half of a partly-known couple shows a faint dashed **"Unknown"** slot so the symmetry reads as intentional. No graph library — deterministic CSS placement keeps the viewer dependency-free.
+- **Scales to deep ancestry** without a full pedigree's exponential blow-up: columns are packed to the ancestry's real width (a sparse deep line becomes a narrow chain rather than a scatter across empty 2^gen columns), the all-branches view is capped at 6 generations, and any line with known earlier generations carries a **＋ / − control** to open or hide just that one branch on demand — so a single deep lineage extends without widening the rest. Touched `family-tree-viewer/{app,styles,i18n,index.html}`.
 
 ### Added — Multi-page documents: full pages, a reader gallery, and a validator guard (2026-08-13)
 

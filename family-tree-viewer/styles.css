@@ -514,18 +514,34 @@ a:focus-visible {
   padding: 0 .5rem;
 }
 
-/* Frontier marker: this person's known ancestry continues past the generation limit. */
-.pedigree-cell.has-more::after {
-  content: "⋯";
+/* Per-line expand (+) / collapse (−) control: opens or hides one deep branch on demand, so the
+   base view stays capped and only the branch you ask for goes deeper. */
+.pedigree-toggle {
   position: absolute;
   left: 50%;
-  bottom: -2.9rem;
+  bottom: -2.5rem;
   transform: translateX(-50%);
-  color: var(--muted);
-  font-size: 1.25rem;
+  z-index: 4;
+  display: grid;
+  place-items: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: 0;
+  border: 1px solid var(--rule-strong);
+  border-radius: 50%;
+  background: var(--card);
+  color: var(--green-deep);
+  font-family: var(--sans);
+  font-size: 1.15rem;
+  font-weight: 700;
   line-height: 1;
-  opacity: .55;
+  cursor: pointer;
+  box-shadow: var(--shadow-xs);
+  transition: background .15s ease, border-color .15s ease, color .15s ease;
 }
+.pedigree-toggle:hover { background: var(--gold-soft); border-color: var(--gold); }
+.pedigree-toggle:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.pedigree-toggle-expand { color: var(--gold); }
 
 .pedigree-unknown {
   display: grid;
