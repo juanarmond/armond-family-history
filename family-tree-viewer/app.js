@@ -265,13 +265,6 @@ function createPersonCard(person, relationship, options = {}) {
   return button;
 }
 
-function createGenerationStop() {
-  const stop = document.createElement("div");
-  stop.className = "generation-stop";
-  stop.textContent = t("tree.generationStop");
-  return stop;
-}
-
 function createMarriageBadge(marriage) {
   const badge = document.createElement("div");
   badge.className = "marriage-badge";
@@ -296,70 +289,68 @@ function setRoot(personId) {
   syncHash();
 }
 
-function createTreeNode(personId, relationship, depth, path, globalSeen) {
-  const person = state.data.people[personId];
-  if (!person) return null;
+const SVG_NS = "http://www.w3.org/2000/svg";
 
-  state.visibleNodes += 1;
-  const li = document.createElement("li");
-  const status = relationship?.status || "unknown";
-  li.style.setProperty("--edge", statusColours[status] || statusColours.unknown);
+// Walk the ancestry into fixed ahnentafel positions: subject k = 1, father = 2k, mother = 2k+1.
+// A person's generation is floor(log2 k) and their slot within it is k − 2^generation, so every
+// ancestor has one deterministic cell — same generation on one row, father-line to the left,
+// mother-line to the right. Unknown ancestors leave a gap; the missing half of a partially known
+// couple is marked with a faint placeholder so the symmetry reads as intentional.
+function collectAhnentafel(rootId, maxGen) {
+  const nodes = [];
+  const unknowns = [];
+  const globalSeen = new Set();
 
-  const repeated = globalSeen.has(personId) && depth > 0;
-  li.append(createPersonCard(person, relationship, { root: depth === 0, reference: repeated }));
+  function walk(personId, k, gen, relationship, path) {
+    const person = state.data.people[personId];
+    if (!person) return;
+    state.visibleNodes += 1;
+    const entry = { personId, k, gen, relationship, repeated: globalSeen.has(personId) && gen > 0 };
+    nodes.push(entry);
+    if (entry.repeated || path.has(personId)) return; // pedigree collapse / cycle guard
+    globalSeen.add(personId);
 
-  if (repeated || path.has(personId)) return li;
+    const sexOrder = { male: 0, female: 1, unknown: 2 };
+    const parents = (state.data.parentsByChild[personId] || [])
+      .filter(relationshipVisible)
+      .sort((a, b) => {
+        const sa = sexOrder[state.data.people[a.parentId]?.sex] ?? 2;
+        const sb = sexOrder[state.data.people[b.parentId]?.sex] ?? 2;
+        return sa !== sb
+          ? sa - sb
+          : (state.data.people[a.parentId]?.name || "").localeCompare(state.data.people[b.parentId]?.name || "");
+      });
 
-  const sexOrder = { male: 0, female: 1, unknown: 2 };
-  const parents = (state.data.parentsByChild[personId] || [])
-    .filter(relationshipVisible)
-    .sort((a, b) => {
-      const sa = sexOrder[state.data.people[a.parentId]?.sex] ?? 2;
-      const sb = sexOrder[state.data.people[b.parentId]?.sex] ?? 2;
-      return sa !== sb ? sa - sb : state.data.people[a.parentId]?.name.localeCompare(state.data.people[b.parentId]?.name || "") || 0;
-    });
+    if (gen >= maxGen) {
+      if (parents.length) entry.more = true; // known ancestry continues past the limit
+      return;
+    }
+    if (!parents.length) return;
 
-  if (!parents.length) return li;
+    // Assign a stable father slot (2k) and mother slot (2k+1) by sex, falling back for unsexed or
+    // single parents so a lone parent still lands in a fixed column.
+    let father = parents.find((p) => state.data.people[p.parentId]?.sex === "male");
+    let mother = parents.find((p) => state.data.people[p.parentId]?.sex === "female");
+    const rest = parents.filter((p) => p !== father && p !== mother);
+    if (!father && rest.length) father = rest.shift();
+    if (!mother && rest.length) mother = rest.shift();
 
-  if (depth + 1 >= state.generations) {
-    const ul = document.createElement("ul");
-    const stopLi = document.createElement("li");
-    stopLi.append(createGenerationStop());
-    ul.append(stopLi);
-    li.append(ul);
-    return li;
+    const nextPath = new Set(path).add(personId);
+    if (father) walk(father.parentId, 2 * k, gen + 1, father, nextPath);
+    else if (mother) unknowns.push({ k: 2 * k, gen: gen + 1 });
+    if (mother) walk(mother.parentId, 2 * k + 1, gen + 1, mother, nextPath);
+    else if (father) unknowns.push({ k: 2 * k + 1, gen: gen + 1 });
   }
 
-  globalSeen.add(personId);
-  const nextPath = new Set(path);
-  nextPath.add(personId);
-  const ul = document.createElement("ul");
-
-  const familyIds = new Set(parents.map((relationship) => relationship.familyId));
-  if (parents.length === 2 && familyIds.size === 1) {
-    const marriage = state.data.marriageByFamily?.[[...familyIds][0]];
-    if (marriage) ul.append(createMarriageBadge(marriage));
-  }
-
-  for (const parentRelationship of parents) {
-    const child = createTreeNode(
-      parentRelationship.parentId,
-      parentRelationship,
-      depth + 1,
-      nextPath,
-      globalSeen,
-    );
-    if (child) ul.append(child);
-  }
-
-  if (ul.children.length) li.append(ul);
-  return li;
+  walk(rootId, 1, 0, null, new Set());
+  return { nodes, unknowns };
 }
 
 function renderTree() {
   if (!state.data) return;
   state.visibleNodes = 0;
   elements.tree.replaceChildren();
+  elements.tree.classList.add("pedigree-grid");
 
   const root = state.data.people[state.rootId];
   if (!root) {
@@ -368,12 +359,115 @@ function renderTree() {
     return;
   }
 
-  const rootList = document.createElement("ul");
-  const rootNode = createTreeNode(state.rootId, null, 0, new Set(), new Set());
-  if (rootNode) rootList.append(rootNode);
-  elements.tree.append(rootList);
+  const maxGen = Math.max(1, state.generations - 1);
+  const { nodes, unknowns } = collectAhnentafel(state.rootId, maxGen);
+
+  const grid = document.createElement("div");
+  grid.className = "pedigree-inner";
+  grid.style.setProperty("--pedigree-cols", String(Math.pow(2, maxGen)));
+
+  const placeCell = (k, gen) => {
+    const span = Math.pow(2, maxGen - gen);
+    const slot = k - Math.pow(2, gen);
+    const cell = document.createElement("div");
+    cell.className = "pedigree-cell";
+    cell.style.gridColumn = `${slot * span + 1} / span ${span}`;
+    cell.style.gridRow = String(gen + 1);
+    cell.dataset.k = String(k);
+    return cell;
+  };
+
+  for (const node of nodes) {
+    const cell = placeCell(node.k, node.gen);
+    cell.dataset.status = node.relationship?.status || "unknown";
+    if (node.more) cell.classList.add("has-more");
+    cell.append(
+      createPersonCard(state.data.people[node.personId], node.relationship, {
+        root: node.gen === 0,
+        reference: node.repeated,
+      }),
+    );
+    grid.append(cell);
+  }
+  for (const slot of unknowns) {
+    const cell = placeCell(slot.k, slot.gen);
+    cell.classList.add("is-unknown");
+    const placeholder = document.createElement("div");
+    placeholder.className = "pedigree-unknown";
+    placeholder.textContent = t("tree.unknownAncestor");
+    cell.append(placeholder);
+    grid.append(cell);
+  }
+
+  const svg = document.createElementNS(SVG_NS, "svg");
+  svg.setAttribute("class", "pedigree-lines");
+  grid.append(svg);
+
+  elements.tree.append(grid);
   elements.visibleCount.textContent = String(state.visibleNodes);
+  drawPedigreeLines(grid, svg, nodes);
   refreshZoom();
+}
+
+// Connect each person to its parents with an orthogonal drop, coloured by the parent edge's
+// evidence tier (dashed to an unknown slot). Positions come from laid-out offsets — untouched by
+// the zoom transform — so the SVG scales cleanly with the stage. A couple with a recorded marriage
+// gets a badge on the junction.
+function drawPedigreeLines(grid, svg, nodes) {
+  // Measure the cell (its offsetParent is the positioned grid, so offsets are grid-relative;
+  // the card is centred in the cell, so the cell centre is the card's connection point).
+  const geo = new Map();
+  grid.querySelectorAll(".pedigree-cell").forEach((cell) => {
+    geo.set(Number(cell.dataset.k), {
+      cx: cell.offsetLeft + cell.offsetWidth / 2,
+      top: cell.offsetTop,
+      bottom: cell.offsetTop + cell.offsetHeight,
+      status: cell.dataset.status || "unknown",
+      unknown: cell.classList.contains("is-unknown"),
+    });
+  });
+
+  const width = grid.scrollWidth;
+  const height = grid.scrollHeight;
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+  svg.setAttribute("width", String(width));
+  svg.setAttribute("height", String(height));
+
+  const nodeByK = new Map(nodes.map((node) => [node.k, node]));
+  const lines = document.createDocumentFragment();
+  for (const node of nodes) {
+    const child = geo.get(node.k);
+    if (!child) continue;
+    for (const parentK of [2 * node.k, 2 * node.k + 1]) {
+      const parent = geo.get(parentK);
+      if (!parent) continue;
+      const busY = (child.bottom + parent.top) / 2;
+      const path = document.createElementNS(SVG_NS, "path");
+      path.setAttribute("d", `M ${child.cx} ${child.bottom} V ${busY} H ${parent.cx} V ${parent.top}`);
+      path.setAttribute("class", "pedigree-line");
+      path.style.stroke = statusColours[parent.status] || statusColours.unknown;
+      if (parent.unknown) path.setAttribute("stroke-dasharray", "5 5");
+      lines.append(path);
+    }
+
+    // Marriage badge on the couple's junction, when both parents are modelled in one family.
+    const father = nodeByK.get(2 * node.k);
+    const mother = nodeByK.get(2 * node.k + 1);
+    const familyId = father?.relationship?.familyId;
+    if (father && mother && familyId && familyId === mother.relationship?.familyId) {
+      const marriage = state.data.marriageByFamily?.[familyId];
+      const fatherGeo = geo.get(2 * node.k);
+      const motherGeo = geo.get(2 * node.k + 1);
+      if (marriage && fatherGeo && motherGeo) {
+        const badge = createMarriageBadge(marriage);
+        badge.classList.add("pedigree-marriage");
+        badge.style.left = `${(fatherGeo.cx + motherGeo.cx) / 2}px`;
+        badge.style.top = `${(child.bottom + fatherGeo.top) / 2}px`;
+        grid.append(badge);
+      }
+    }
+  }
+  svg.replaceChildren(lines);
 }
 
 function naturalSize() {
@@ -1009,6 +1103,39 @@ function imagePane(src) {
   return pane;
 }
 
+// A scrollable multi-page gallery for a document held as several page images (or
+// PDFs), each page labelled. The column scrolls on desktop and mobile so every
+// page of a multi-page document is reachable, not just the first.
+function pagesGallery(pages, label) {
+  const wrap = document.createElement("div");
+  wrap.className = "reader-image-pane reader-gallery";
+  pages.forEach((page, index) => {
+    const fig = document.createElement("figure");
+    fig.className = "reader-page";
+    const cap = document.createElement("figcaption");
+    cap.className = "reader-page-label";
+    cap.textContent = t("reader.page", { n: index + 1, total: pages.length });
+    fig.appendChild(cap);
+    if (page.fileType === "pdf") {
+      const frame = document.createElement("iframe");
+      frame.className = "reader-page-pdf";
+      frame.src = page.url;
+      frame.title = label || "";
+      fig.appendChild(frame);
+    } else {
+      const img = document.createElement("img");
+      img.className = "reader-page-img";
+      img.src = page.url;
+      img.alt = "";
+      img.loading = "lazy";
+      img.draggable = false;
+      fig.appendChild(img);
+    }
+    wrap.appendChild(fig);
+  });
+  return wrap;
+}
+
 // The split "facsimile + transcript" reading view.
 function openReader(source) {
   closeReader();
@@ -1040,7 +1167,9 @@ function openReader(source) {
   const body = document.createElement("div");
   body.className = "reader-body";
   let leftPane;
-  if (source.fileType === "pdf") {
+  if (Array.isArray(source.pages) && source.pages.length > 1) {
+    leftPane = pagesGallery(source.pages, localeText(source.title, source.titlePt) || source.id);
+  } else if (source.fileType === "pdf") {
     leftPane = document.createElement("iframe");
     leftPane.className = "reader-pdf";
     leftPane.src = source.file;

@@ -489,6 +489,78 @@ a:focus-visible {
   border-left: 2px solid var(--tree-line);
 }
 
+/* ---------- Symmetric pedigree grid ---------- */
+/* Ancestors sit in fixed ahnentafel slots — one generation per row, father-line left to
+   mother-line right — so same-generation cards align and the chart is symmetric. Unknown
+   ancestors leave a gap; connectors are drawn in an SVG overlay coloured by evidence tier. */
+.tree.pedigree-grid { display: block; min-width: max-content; }
+
+.pedigree-inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(var(--pedigree-cols), minmax(18rem, 1fr));
+  grid-auto-rows: min-content;
+  row-gap: 5.5rem;
+  align-items: start;
+  justify-items: center;
+}
+
+.pedigree-cell {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0 .5rem;
+}
+
+/* Frontier marker: this person's known ancestry continues past the generation limit. */
+.pedigree-cell.has-more::after {
+  content: "⋯";
+  position: absolute;
+  left: 50%;
+  bottom: -2.9rem;
+  transform: translateX(-50%);
+  color: var(--muted);
+  font-size: 1.25rem;
+  line-height: 1;
+  opacity: .55;
+}
+
+.pedigree-unknown {
+  display: grid;
+  place-items: center;
+  min-width: 8rem;
+  min-height: 4.6rem;
+  padding: .7rem 1rem;
+  border: 1px dashed var(--rule-strong);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, .28);
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .7rem;
+  font-style: italic;
+  letter-spacing: .03em;
+  text-align: center;
+  opacity: .7;
+}
+
+.pedigree-lines {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: visible;
+  pointer-events: none;
+}
+.pedigree-line { fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+.pedigree-marriage {
+  z-index: 3;
+  top: auto;
+  left: auto;
+  transform: translate(-50%, -50%);
+}
+
 /* ---------- Person card (framed register plate) ---------- */
 
 .person-card {
@@ -1098,6 +1170,25 @@ button.source-link { cursor: pointer; }
   will-change: transform;
 }
 .reader-pdf { flex: 1.4; min-width: 0; border: 0; background: #333; }
+/* Multi-page document gallery: a scrollable column of labelled pages (desktop + mobile). */
+.reader-image-pane.reader-gallery {
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: block;
+  place-items: initial;
+  cursor: default;
+  touch-action: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: .7rem;
+}
+.reader-page { margin: 0 0 1.1rem; display: flex; flex-direction: column; align-items: center; }
+.reader-page:last-child { margin-bottom: 0; }
+.reader-page-label {
+  font-family: var(--sans); font-size: .72rem; font-weight: 600; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--gold, #a9843f); align-self: flex-start; margin: 0 0 .3rem .1rem;
+}
+.reader-page-img { max-width: 100%; height: auto; display: block; box-shadow: 0 1px 7px rgba(0, 0, 0, .5); background: #fff; }
+.reader-page-pdf { width: 100%; height: 80vh; border: 0; background: #333; }
 .reader-transcript-pane {
   flex: 1;
   min-width: 0;
