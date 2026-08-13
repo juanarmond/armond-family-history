@@ -25,27 +25,32 @@ event_ids:
 - E-0076
 family_ids:
 - F-0038
+- F-0046
 notes:
 - text: >-
     Wife of João Rodrigues Valle (P-0078); married 22 February 1751 at the Matriz de
     Nossa Senhora da Piedade da Borda do Campo (Barbacena), family F-0038 (PAR-0034).
     "Natural e baptizada nesta freguesia" (Borda do Campo), legitimate daughter of
-    Manoel Nado Pestana and Anna Francisca (named in PAR-0034; recorded as a lead,
-    not modelled — no records of their own located). Her granddaughter Rita's 1764
-    baptism (PAR-0049) corroborates this couple as Rita's maternal grandparents and
-    adds — ink-damaged, so a lead — that Manoel Pestana was "natural da freguesia de
-    Nossa Senhora do Rosário da Ilha de São Jorge" (Açores), a possible Azorean origin
-    for Isabel's paternal side to verify before promoting.
+    Manoel Nado Pestana and Anna Francisca (named in PAR-0034; now modelled as P-0094
+    × P-0095, family F-0046, on strong (informant-reported) evidence — no records of
+    their own located). Her daughter Rita's 1764 baptism (PAR-0049) corroborates this
+    couple as Rita's maternal grandparents and adds — ink-damaged, so a lead — that
+    Manoel Pestana was "natural da freguesia de Nossa Senhora do Rosário da Ilha de São
+    Jorge" (Açores), the Azorean origin behind the couple's Portuguese nationality
+    (P-0094/P-0095) — kept as a tentative read until a clearer image or corroborating
+    record.
   text_pt: >-
     Esposa de João Rodrigues Valle (P-0078); casou-se em 22 de fevereiro de 1751
     na Matriz de Nossa Senhora da Piedade da Borda do Campo (Barbacena), família
     F-0038 (PAR-0034). "Natural e baptizada nesta freguesia" (Borda do Campo),
-    filha legítima de Manoel Nado Pestana e Anna Francisca (nomeados em PAR-0034;
-    registrados como pista, não modelados — nenhum registro próprio localizado). O
-    batismo de 1764 de sua neta Rita (PAR-0049) corrobora este casal como avós maternos
-    de Rita e acrescenta — danificado por tinta, portanto uma pista — que Manoel Pestana
-    era "natural da freguesia de Nossa Senhora do Rosário da Ilha de São Jorge" (Açores),
-    uma possível origem açoriana do lado paterno de Isabel, a verificar antes de promover.
+    filha legítima de Manoel Nado Pestana e Anna Francisca (nomeados em PAR-0034; agora
+    modelados como P-0094 × P-0095, família F-0046, com base em evidência forte
+    (informada) — nenhum registro próprio localizado). O batismo de 1764 de sua filha
+    Rita (PAR-0049) corrobora este casal como avós maternos de Rita e acrescenta —
+    danificado por tinta, portanto uma pista — que Manoel Pestana era "natural da
+    freguesia de Nossa Senhora do Rosário da Ilha de São Jorge" (Açores), a origem
+    açoriana por trás da nacionalidade portuguesa do casal (P-0094/P-0095) — mantida
+    como leitura tentativa até uma imagem mais nítida ou registro corroborante.
 - text: >-
     Mother of Ritta Angélica Rodrigues (P-0058), who married Joaquim José Ferreira
     de Toledo (P-0057); hence a direct maternal-line ancestor of Eliza Balbina de
@@ -77,8 +82,9 @@ profile: >-
   unknown" are superseded by our held marriage certidão.)
 
   - **Parents:** legitimate daughter of Manoel Nado Pestana and Anna Francisca — named
-  in PAR-0034 but recorded only as a lead, not modelled (no records of their own
-  located). [LEAD for the parents' further identity]
+  in PAR-0034 and now modelled as P-0094 × P-0095 (family F-0046) on strong-evidence;
+  their origin (Ilha de São Jorge, Açores, per the tentative PAR-0049 read) and own
+  records remain a [LEAD].
 
   - **Marriage:** married João Rodrigues Valle (P-0078) on 22 February 1751 at the
   Matriz de Nossa Senhora da Piedade da Borda do Campo (Barbacena) — [PROVEN] (PAR-0034;
@@ -115,7 +121,7 @@ profile: >-
   Minas Gerais, she married a Minho immigrant — the Brazilian half of a colonial-Brazil +
   north-west-Portugal couple typical of the 18th-century Barbacena free-colonist milieu.
   [CONTEXTUAL] The Minho → Minas emigration driver attaches to her husband's Rodrigues/Valle
-  line, not securely to her own: an ink-damaged reading of her granddaughter Rita's 1764
+  line, not securely to her own: an ink-damaged reading of her daughter Rita's 1764
   baptism names Isabel's father, Manoel Nado Pestana, as a native of Nossa Senhora do Rosário,
   Ilha de São Jorge (Açores) — which, if confirmed, would re-root her paternal side to the
   Azores rather than the Braga-Minho line. [LEAD]
@@ -136,8 +142,9 @@ profile_pt: >-
   casamento em mãos.)
 
   - **Pais:** filha legítima de Manoel Nado Pestana e Anna Francisca — nomeados em
-  PAR-0034, mas registrados apenas como pista, não modelados (nenhum registro próprio
-  localizado). [LEAD para a identidade adicional dos pais]
+  PAR-0034 e agora modelados como P-0094 × P-0095 (família F-0046) com base em
+  evidência forte; sua origem (Ilha de São Jorge, Açores, conforme a leitura tentativa
+  de PAR-0049) e seus registros próprios permanecem uma [LEAD].
 
   - **Casamento:** casou-se com João Rodrigues Valle (P-0078) em 22 de fevereiro de 1751
   na Matriz de Nossa Senhora da Piedade da Borda do Campo (Barbacena) — [PROVEN]
@@ -176,7 +183,7 @@ profile_pt: >-
   Brasil colonial + noroeste de Portugal, típico do meio de colonos livres de Barbacena no
   século XVIII. [CONTEXTUAL] O motor migratório Minho → Minas prende-se à linha
   Rodrigues/Valle de seu marido, não com segurança à dela: uma leitura danificada por tinta do
-  batismo de 1764 de sua neta Rita nomeia o pai de Isabel, Manoel Nado Pestana, como natural de
+  batismo de 1764 de sua filha Rita nomeia o pai de Isabel, Manoel Nado Pestana, como natural de
   Nossa Senhora do Rosário, Ilha de São Jorge (Açores) — o que, se confirmado, reancoraria o
   lado paterno dela nos Açores, e não na linha Braga-Minho. [LEAD]
 

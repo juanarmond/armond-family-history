@@ -66,8 +66,8 @@ abstract: >-
   22 February 1751 marriage at the Matriz de Nossa Senhora da Piedade da Borda do
   Campo (Barbacena) of João Rodrigues Valle (P-0078) and Isabel Ribeiro (P-0079).
   Names the groom's parents João Rodrigues and Joanna Gonçalves (P-0080, P-0081)
-  and the bride's parents Manoel Nado Pestana and Anna Francisca (named only, not
-  modelled). The closing correction states that João Roiz Valle was not native to
+  and the bride's parents Manoel Nado Pestana and Anna Francisca (now modelled as
+  P-0094 × P-0095, family F-0046, on strong-evidence). The closing correction states that João Roiz Valle was not native to
   Borda do Campo but "de Ruvans [Ruivais] do Arcebispado de Braga" (Portugal),
   consistent with his 1728 Ruivais baptism (PAR-0035). This couple are the parents
   of Ritta Angélica Rodrigues (P-0058), extending the maternal Toledo line.
@@ -76,8 +76,8 @@ abstract_pt: >-
   em 22 de fevereiro de 1751 na Matriz de Nossa Senhora da Piedade da Borda do Campo
   (Barbacena) de João Rodrigues Valle (P-0078) e Isabel Ribeiro (P-0079). Nomeia os
   pais do noivo, João Rodrigues e Joanna Gonçalves (P-0080, P-0081), e os pais da
-  noiva, Manoel Nado Pestana e Anna Francisca (apenas nomeados, não modelados). A
-  correção final declara que João Roiz Valle não era natural da Borda do Campo, mas
+  noiva, Manoel Nado Pestana e Anna Francisca (agora modelados como P-0094 × P-0095,
+  família F-0046, com base em evidência forte). A correção final declara que João Roiz Valle não era natural da Borda do Campo, mas
   "de Ruvans [Ruivais] do Arcebispado de Braga" (Portugal), consistente com seu
   batismo em Ruivais em 1728 (PAR-0035). Este casal é o dos pais de Ritta Angélica
   Rodrigues (P-0058), estendendo a linha materna Toledo.
@@ -103,6 +103,8 @@ linked_people:
 - P-0079
 - P-0080
 - P-0081
+- P-0094
+- P-0095
 linked_families:
 - F-0038
 - F-0039

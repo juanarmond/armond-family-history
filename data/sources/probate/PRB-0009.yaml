@@ -49,7 +49,9 @@ language: pt-BR
 reading_reliability: complete
 transcription: >-
   [Inventário de Ladisláo Egídio Ferreira de Toledo, Concórdia, Districto do Rio
-  Pardo, MG, 1867. Five pages catalogued: gen1 (título de herdeiros/cover), pp. 2–5.]
+  Pardo, MG, 1867. Six page images catalogued: gen1 (título de herdeiros/cover),
+  pp. 2–5, and an 1881 embargos "Termo de audiência" folio (185) filed within these
+  same estate autos as a supplement (see final block).]
 
 
   [gen1 — título de herdeiros:] "Dona Mathildes Olympia da Paixão [inventariante or
@@ -140,9 +142,34 @@ transcription: >-
   distinct person, not Eliza Balbina de Toledo (P-0017). "Por Antônio Ladislao de
   Toledo": signed by Narciso Marques Braz as proxy (consistent with António Ladislão
   being deaf-mute, item 7 in the título de herdeiros).
+
+
+  [1881 embargos — Termo de audiência (top-right folio number "185"), a supplement
+  filed within these same estate autos.] Marginal heading: "De audiencia, em que se
+  accusam as citações feitas aos interessados para o fim abaixo declarado." Body:
+  "Aos seis dias do mez d'Agosto de mil oitocentos e oitenta e um [1881], n'esta
+  Cidade de Leopoldina, em publica e geral audiencia, que na Sala da Camara Municipal
+  fazendo estava o Doutor Fernando [surname uncertain: possibly '[Pinheiro?] de
+  [Souza?] [Tavares?]'], Juiz de Orphãos do Termo, com escrivão ao diante nomeado,
+  sendo ahi pelo Doutor [given name and surname uncertain] Leite [Pereira?], por parte
+  de Dona Umbelina Ignez de Toledo e outros, no inventario de Ladisláo Egydio Ferreira
+  de Toledo, foi dicto, que accusava as citações feitas á Marianna Claudina de Toledo
+  para n'esta audiencia e sob as penas da Lei vir dizer sobre os artigos d'embargos á
+  partilha dos bens do dicto finado Ladisláo; requerio, que, apregoada..." [text
+  continues onto the following, uncatalogued, folio]. This is the same estate as the
+  1867 título de herdeiros above — the elder Ladisláo Egídio Ferreira de Toledo
+  (P-0056), whose 1867 inventário was reopened by the 1881–82 embargos á partilha
+  brought on behalf of Umbelina Ignez de Toledo and others; the citation summoned
+  Marianna Claudina de Toledo to answer the artigos d'embargos. Core facts (date,
+  place, estate, parties, purpose) are legible; the judge's and the interested party's
+  attorney's names are uncertain cursive reads. See the 1881 embargos note field for
+  the wider 1881–82 procedural context (the 1882 judgment finding Maria Joaquina de
+  Jesus survived Ladisláo and ordering the 1876 partition redone).
 transcription_pt: >-
   [Inventário de Ladisláo Egídio Ferreira de Toledo, Concórdia, Districto do Rio
-  Pardo, MG, 1867. Cinco páginas catalogadas: gen1 (título de herdeiros/capa), pp. 2–5.]
+  Pardo, MG, 1867. Seis imagens de página catalogadas: gen1 (título de herdeiros/capa),
+  pp. 2–5, e um fólio (185) do "Termo de audiência" dos embargos de 1881, juntado aos
+  mesmos autos deste espólio como suplemento (ver bloco final).]
 
 
   [gen1 — título de herdeiros:] "Dona Mathildes Olympia da Paixão [inventariante or
@@ -236,6 +263,30 @@ transcription_pt: >-
   pessoa distinta, não Eliza Balbina de Toledo (P-0017). "Por Antônio Ladislao de
   Toledo": assinado por Narciso Marques Braz como procurador (consistente com António
   Ladislão ser surdo-mudo, item 7 no título de herdeiros).
+
+
+  [Embargos de 1881 — Termo de audiência (número de fólio "185" no canto superior
+  direito), suplemento juntado aos mesmos autos deste espólio.] Rubrica à margem: "De
+  audiencia, em que se accusam as citações feitas aos interessados para o fim abaixo
+  declarado." Corpo: "Aos seis dias do mez d'Agosto de mil oitocentos e oitenta e um
+  [1881], n'esta Cidade de Leopoldina, em publica e geral audiencia, que na Sala da
+  Camara Municipal fazendo estava o Doutor Fernando [sobrenome incerto: possivelmente
+  '[Pinheiro?] de [Souza?] [Tavares?]'], Juiz de Orphãos do Termo, com escrivão ao
+  diante nomeado, sendo ahi pelo Doutor [nome e sobrenome incertos] Leite [Pereira?],
+  por parte de Dona Umbelina Ignez de Toledo e outros, no inventario de Ladisláo
+  Egydio Ferreira de Toledo, foi dicto, que accusava as citações feitas á Marianna
+  Claudina de Toledo para n'esta audiencia e sob as penas da Lei vir dizer sobre os
+  artigos d'embargos á partilha dos bens do dicto finado Ladisláo; requerio, que,
+  apregoada..." [o texto continua no fólio seguinte, não catalogado]. Trata-se do mesmo
+  espólio do título de herdeiros de 1867 acima — o mais velho Ladisláo Egídio Ferreira
+  de Toledo (P-0056), cujo inventário de 1867 foi reaberto pelos embargos à partilha de
+  1881–82, movidos por Dona Umbelina Ignez de Toledo e outros; a citação intimou
+  Marianna Claudina de Toledo a responder aos artigos d'embargos. Os fatos centrais
+  (data, lugar, espólio, partes, finalidade) estão legíveis; os nomes do juiz e do
+  advogado dos interessados são leituras cursivas incertas. Ver a nota do campo sobre
+  os embargos de 1881 para o contexto processual mais amplo de 1881–82 (a sentença de
+  1882 que concluiu que Maria Joaquina de Jesus sobreviveu a Ladisláo e mandou refazer
+  a partilha de 1876).
 abstract: >-
   The 1867 Concórdia (Districto do Rio Pardo, MG) probate inventory of Ladisláo
   Egídio Ferreira de Toledo (P-0056). Its título de herdeiros (gen1) lists Ladisláo's
@@ -316,6 +367,17 @@ reliability:
 digital_file:
   path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1867-gen1.jpg
   sha256: 81bbf8412e197dbb4fcba9f06d355c90df6920321338881896777c9ba3026356
+additional_pages:
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1867-p2.jpg
+  sha256: 181a3b7b440202398eab7d0d83301e944b45c065ef0a6be6054d6eacbc22c97b
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1867-p3.jpg
+  sha256: 711eded68196f789f2422b9769d7dc1f897ce8bf7c6d516d9e814378b3fa63f8
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1867-p4.jpg
+  sha256: d1f5c16751c9e0fe0ad1f44579931c1254684c6a20111bc4b5597b1f3192e55d
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1867-p5.jpg
+  sha256: 03315cd09593432854d26e834630d3a987e3d4a1c0e7e7c16d27d5e84b70430c
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-embargos-audiencia.jpg
+  sha256: 43342e64893a4a15283d73a19bba2c20d0a094ad9eb11581d490eb1fbae2f81b
 linked_people:
 - P-0056
 - P-0027

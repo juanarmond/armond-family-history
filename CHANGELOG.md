@@ -5,6 +5,26 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — Symmetric ahnentafel pedigree layout (2026-08-13)
+
+- The desktop tree was a nested-list pedigree whose branches spread unevenly (a deep line took more horizontal room than a shallow one), so it looked lopsided. It is now a **fixed ahnentafel grid**: every ancestor sits in a deterministic slot — one generation per row, father-line left to mother-line right — so same-generation cards align and the chart is symmetric regardless of how far each branch is known.
+- Connectors are an SVG overlay coloured by evidence tier; the missing half of a partly-known couple shows a faint dashed **"Unknown"** slot (so the symmetry reads as intentional), and a `⋯` marks a person whose known ancestry continues past the current generation limit. No graph library — the grid is a deterministic CSS placement, keeping the viewer dependency-free. Touched `family-tree-viewer/{app,styles,i18n}`.
+
+### Added — Multi-page documents: full pages, a reader gallery, and a validator guard (2026-08-13)
+
+- Records spanning several images (a probate over multiple folios, a two-page baptism, a three-page hypothec deed) previously surfaced only their first page in the viewer and were often transcribed only in part. Sources and FAN records now carry an optional `additional_pages: [{path, sha256}]` list beside `digital_file`; the reader shows every page in a scrollable gallery (desktop and mobile) and the transcriptions now cover all pages.
+- **Prevention:** `scripts/validation/rules.py` now errors on any `evidence/…/<source-id>-*` file not referenced by `digital_file` or `additional_pages`, so a dropped continuation page can no longer sit invisible — this caught 27 unreferenced pages across 13 documents. Filled the held continuation pages and completed transcriptions for CIV-0006, CIV-0024, PAR-0004, PAR-0010, PAR-0049 and PRB-0003/0005/0006/0008/0009/0010. Wiring: `schemas/{source,fan}.schema.json`, `family-tree-viewer/{data-loader,app,styles,i18n}`.
+
+### Added — Extended the Toledo and Ribeiro lines with two ancestor couples (2026-08-13)
+
+- Modelled the parents named in two held marriage acts as person entities rather than leaving them as prose leads: **Gaspar Ferreira × Gertrudes Maria de Toledo** (F-0045; parents of Joaquim José Ferreira de Toledo P-0057, per PAR-0018) and **Manoel Nado Pestana × Anna Francisca** (F-0046; parents of Isabel Ribeiro P-0079, per PAR-0034). Parentage is informant-reported → strong-evidence; the Pestana couple's Azorean origin remains a tentative LEAD on an ink-damaged PAR-0049 read, flagged in-entity.
+- Refreshed the now-stale "not modelled / lead" notes on F-0028, F-0038, P-0057 and P-0079, and tightened the P-0042/P-0047 nationality notes to cite the couple's own 1842 marriage (PAR-0024).
+
+### Changed — Split NWS-0002 into three A Sentinella sources; removed a duplicate scan (2026-08-13)
+
+- NWS-0002 aggregated three distinct *A Sentinella* (Nova Friburgo) clippings under one id. Split into **NWS-0002** (Manoel Pereira de Lemos óbito, 30 Jan 1898), **NWS-0005** (Joaquim José Bohrer birthday notice, 18 Dec 1898) and **NWS-0006** (Antonio José Bohrer óbito, 4 Apr 1899) — each with its own event date and links — and re-pointed every citation in F-0014, P-0030 and P-0015 to the source that actually supports it.
+- Removed the redundant `PAR-0019-…-alt.jpg` (a tonally-processed duplicate of the base scan) and corrected its overstated "image-processed recovery" narrative.
+
 ### Changed — "Uncertain reading" badge is now material-only (2026-08-13)
 
 - The Sources list's **"Leitura incerta / Uncertain reading"** badge previously fired on **any** `[uncertain]`/`[illegible]`/`[torn]`/`[stain]` marker in a transcription, so a fully-readable record was branded doubtful over a peripheral word (a witness's bairro, an attesting doctor's initial, an ID digit, or an a/o spelling variant) — it cried wolf.

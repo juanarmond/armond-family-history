@@ -30,15 +30,23 @@ repository:
   repository_path: evidence/parish/PAR-0010-antonio-caetano-machado-obito-1868-sapucaia-p1.jpg
 access_date: "2026-07-31"
 language: pt-BR
+reading_reliability: complete
 transcription: >-
-  [Paróquia de Santo Antônio de Sapucaia, RJ; livro de óbitos. Margem: "Antonio
-  Caetano Machado".] "[Aos] vinte e sete dias do mez de Março de mil oito centos
-  sessenta e oito, foi sepultado no Cemiterio deste Curato de Santo Antonio de
-  Sapucaia, á Antonio Caetano Machado, casado, de idade de setenta annos, foi
-  sacramentado com os Sacramentos; falleceu de morte natural, foi encommendado [e
-  acompanhado]. Para constar faço este assento em que me assigno. [assina] O Vigario."
-  (The second page image carries only the closing formula; the entry names no parents
-  or wife.)
+  [Paróquia de Santo Antônio de Sapucaia, RJ; livro de óbitos. The burial act begins at
+  the foot of one image (…-p1.jpg, the primary scan) and its closing formula and
+  signature are at the head of the following image (…-p2.jpg, faded). Margem: "Antonio
+  Caetano Machado".]
+
+  [Page 1 (…-p1.jpg) — foot of the page, the entry:] "[Aos] vinte e sete dias do mez de
+  Março de mil oito centos sessenta e oito, foi sepultado no Cemiterio deste Curato de
+  Santo Antonio de Sapucaia, á Antonio Caetano Machado, casado, de idade de setenta
+  annos, foi sacramentado com os Sacramentos;"
+
+  [Page 2 (…-p2.jpg) — head of the following image, faded; the closing formula and
+  signature:] "… [falleceu de] morte natural, foi encommendado e [uncertain:
+  acompanhado]. E para constar faço este assento em que me assigno. [assina:] [uncertain:
+  O Cura] Francisco José Pimenta." [The rest of …-p2.jpg carries later, unrelated burial
+  entries (April 1868) and is not transcribed here. The act names no parents or wife.]
 abstract: >-
   The original 1868 death/burial register entry (Santo Antônio de Sapucaia, RJ) of
   Antonio Caetano Machado (P-0045): buried 27 March 1868, married, aged 70 (so born
@@ -57,7 +65,9 @@ reliability:
     Direct primary parish evidence for Antonio Caetano Machado's death, married status
     and approximate birth year, and (with PAR-0005) for his identity as Rita Ignacia de
     Jesus's father.
-  informant: The vigário of the Curato de Santo Antônio de Sapucaia (1868).
+  informant: >-
+    The officiating priest of the Curato de Santo Antônio de Sapucaia, subscribing the
+    entry as Francisco José Pimenta (1868).
   limitations: >-
     The óbito does not name his parents or wife. His link to P-0041 as her father rests
     on Susanna's 1866 baptism (PAR-0005) naming him the "avô materno"; the name, parish
@@ -65,6 +75,9 @@ reliability:
 digital_file:
   path: evidence/parish/PAR-0010-antonio-caetano-machado-obito-1868-sapucaia-p1.jpg
   sha256: d1e9176980b34e4bed9cd1218c450045039d7bf2a3a222a142fa496c97baa70c
+additional_pages:
+- path: evidence/parish/PAR-0010-antonio-caetano-machado-obito-1868-sapucaia-p2.jpg
+  sha256: 9a84e438a71ad2342bf6e779b3b0dfce7a23e847b956a5b6a052ceb878dd6f29
 linked_people:
 - P-0045
 - P-0041

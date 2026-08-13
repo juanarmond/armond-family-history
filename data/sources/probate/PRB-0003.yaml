@@ -119,6 +119,9 @@ digital_file:
   path: >-
     evidence/probate/PRB-0003-toledo-deed-concordia-leopoldina-1877-page-01.jpg
   sha256: 17fdd96769af871285f35258136b93e812567ddff4976d352ffe5a548d323bd7
+additional_pages:
+- path: evidence/probate/PRB-0003-toledo-deed-concordia-leopoldina-1877-page-02.jpg
+  sha256: ba5297c3452cee495aa8e029994945f2c57c6550cc3edb229546bc46ddd967a1
 linked_people:
 - P-0017
 - P-0027

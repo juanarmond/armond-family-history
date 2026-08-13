@@ -1338,3 +1338,27 @@ Acted on findings extracted from the 2026-08-08 retrieval agent transcripts
 7. All 69 tests pass; GEDCOM regenerated (2704 lines).
 
 See `logs/2026-08-08-armond-leads-and-mathilde-death.md` for full detail.
+
+## 2026-08-13 — Multi-page docs, symmetric pedigree, two ancestor couples, NWS-0002 split
+
+Integration + build session (engineering detail in `CHANGELOG.md`):
+
+1. **Multi-page documents**: added `additional_pages` to the source/FAN schema plus a
+   validator guard that errors on any unreferenced `evidence/<id>-*` page (caught 27
+   across 13 documents); filled and fully transcribed the held continuation pages for
+   CIV-0006, CIV-0024, PAR-0004, PAR-0010, PAR-0049 and PRB-0003/0005/0006/0008/0009/0010.
+   The viewer now shows every page in a paged reader gallery (desktop + mobile).
+2. **Two ancestor couples modelled** from held marriage acts (source-qualified, not tree
+   leads): Gaspar Ferreira × Gertrudes Maria de Toledo (F-0045 → P-0057, PAR-0018) and
+   Manoel Nado Pestana × Anna Francisca (F-0046 → P-0079, PAR-0034; Azorean origin kept a
+   LEAD on an ink-damaged PAR-0049 read). Stale "not modelled" notes on F-0028/F-0038/
+   P-0057/P-0079 refreshed; P-0042/P-0047 nationality re-cited to their own 1842 marriage
+   (PAR-0024).
+3. **NWS-0002 split** into three distinct *A Sentinella* sources (NWS-0002 Manoel Pereira de
+   Lemos óbito 1898; NWS-0005 Joaquim José Bohrer birthday 1898; NWS-0006 Antonio José Bohrer
+   óbito 1899); every F-0014/P-0030/P-0015 citation re-pointed to the correct source. Removed
+   the redundant PAR-0019 `-alt` duplicate scan and its overstated "recovery" narrative.
+4. **Viewer**: desktop pedigree rebuilt as a symmetric fixed ahnentafel grid (one generation
+   per row, father-line left to mother-line right, SVG connectors coloured by evidence tier,
+   faint "Unknown" frontier slots), no graph library.
+5. All 69 tests pass; viewer index rebuilt (339 entities); GEDCOM regenerated (4290 lines).

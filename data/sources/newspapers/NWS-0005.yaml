@@ -1,0 +1,87 @@
+schema_version: 1
+id: NWS-0005
+title: >-
+  A Sentinella (Nova Friburgo), 18 December 1898 — "Parabéns / Fizeram annos" notice
+  placing Joaquim José Bohrer's birthday on 16 December
+title_pt: >-
+  A Sentinella (Nova Friburgo), 18 de dezembro de 1898 — nota "Parabéns / Fizeram
+  annos" que fixa o aniversário de Joaquim José Bohrer em 16 de dezembro
+record_type: Newspaper birthday notice (parabéns / "fizeram annos")
+record_category: newspaper
+source_form: original
+information_quality: secondary
+evidence_type: indirect
+usage: evidence
+event_date:
+  kind: exact
+  value: "1898-12-18"
+  original_text: '"A SENTINELLA 18 de Dezembro de 1898"'
+event_place_text: >-
+  Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: A Sentinella (Nova Friburgo), digital copy
+  archive_or_registry: >-
+    "A Sentinella", weekly newspaper of Nova Friburgo, RJ (founded 30 Sep 1894;
+    proprietor/manager Capitão Guilherme Samuel Bohrer). Digitised copies circulated
+    in the Nova Friburgo bicentennial (1818–2018) "D. João VI" collection.
+  collection: >-
+    A Sentinella, Nova Friburgo — issue of 18 Dec 1898
+  catalogue_reference: >-
+    A Sentinella, Nova Friburgo, 18 December 1898, "PARABENS — Fizeram annos". One
+    clipping delivered through the research/from-retrieval/ sync as image
+    rec-bohrer-asentinella-1898-12-18-parabens-joaquim-jose-bohrer.jpg; read and
+    promoted 2026-08-10.
+  repository_path: >-
+    evidence/newspapers/NWS-0005-asentinella-joaquim-jose-bohrer-parabens-1898-nvfriburgo.jpg
+access_date: "2026-08-10"
+language: pt-BR
+transcription: >-
+  [A Sentinella, Nova Friburgo, 18 de dezembro de 1898 — secção "PARABENS", subtítulo
+  "Fizeram annos:". Entre os aniversariantes listados:] "— No dia 16 os Srs. Joaquim
+  José Bohrer e Carlos Alberto da Costa."
+abstract: >-
+  A "Parabéns / Fizeram annos" birthday notice in the Nova Friburgo weekly "A
+  Sentinella" (managed by Capitão Guilherme Samuel Bohrer) of 18 December 1898 lists,
+  among those whose birthday fell "no dia 16", "os Srs. Joaquim José Bohrer e Carlos
+  Alberto da Costa". It fixes Joaquim José Bohrer's (P-0030) birthday on 16 December
+  (day and month only; the year is not given).
+abstract_pt: >-
+  Uma nota de aniversário "Parabéns / Fizeram annos" no semanário friburguense "A
+  Sentinella" (dirigido pelo Capitão Guilherme Samuel Bohrer), de 18 de dezembro de
+  1898, lista, entre os que fizeram anos "no dia 16", "os Srs. Joaquim José Bohrer e
+  Carlos Alberto da Costa". Fixa o aniversário de Joaquim José Bohrer (P-0030) em 16
+  de dezembro (apenas dia e mês; o ano não é indicado).
+reliability:
+  assessment: >-
+    A contemporary newspaper birthday notice from a family-run paper (Guilherme Samuel
+    Bohrer, Joaquim's nephew). Reliable for the day it reports but secondary and
+    indirect: it fixes only the day (16 December), not the year, of Joaquim José
+    Bohrer's birth.
+  informant: >-
+    "A Sentinella", Nova Friburgo (family-run by Guilherme Samuel Bohrer), 1898.
+  limitations: >-
+    A print newspaper social notice, not a vital record: it gives the birthday day and
+    month (16 December) but no birth year.
+digital_file:
+  path: >-
+    evidence/newspapers/NWS-0005-asentinella-joaquim-jose-bohrer-parabens-1898-nvfriburgo.jpg
+  sha256: 3ba412ddf607fb1e888c989e15a13faa7ee081a368bdae0bf963241cfe2f6d94
+linked_people:
+- P-0030
+linked_families: []
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Corroborates Joaquim José Bohrer (P-0030) as living in December 1898 and fixes his
+    birthday on 16 December (day/month only; year unknown). Split off from the former
+    aggregate NWS-0002, which grouped three distinct A Sentinella issues; the 30 Jan
+    1898 Manoel Pereira de Lemos death notice remains NWS-0002 and the 4 Apr 1899
+    Antonio José Bohrer death notice is now NWS-0006.
+  text_pt: >-
+    Corrobora Joaquim José Bohrer (P-0030) como vivo em dezembro de 1898 e fixa seu
+    aniversário em 16 de dezembro (apenas dia e mês; ano desconhecido). Desmembrado do
+    antigo agregado NWS-0002, que reunia três edições distintas de A Sentinella; a nota
+    de falecimento de Manoel Pereira de Lemos (30 jan. 1898) permanece em NWS-0002 e a
+    de Antonio José Bohrer (4 abr. 1899) é agora NWS-0006.

@@ -37,15 +37,21 @@ language: pt
 reading_reliability: complete
 transcription: >-
   [Batismo — Livro de batismos, Matriz de N.S. da Piedade da Borda do Campo
-  (Barbacena); Capela de São José do Ribeirão; termo em duas páginas, folios 9v–10.
-  Read from the register images 2026-08-12; the paternal- and maternal-grandparent
-  clauses are ink-damaged and read only tentatively.]
+  (Barbacena); Capela de São José do Ribeirão. A two-page termo held across both
+  digital images: it begins at the foot of the right-hand page in
+  PAR-0049-…-p1.jpg (folio 9) and completes at the head of the left-hand page in
+  PAR-0049-…-p2.jpg (folio 9v, margin note "Ritta"). Read from the register images
+  2026-08-12; the paternal- and maternal-grandparent clauses are ink-damaged and
+  read only tentatively, and the celebrant's surname and the exact baptism-day word
+  are also uncertain.]
 
-  "Aos [nove] dias do mes de Março de mil e sete centos e sessenta e quatro annos,
-  na Capella de São José do Ribeirão, filial desta Matriz de Nossa Senhora da Piedade
-  da Borda do Campo, o Padre Manoel [Ferreira Cortez?] de licença minha batizou
-  solenemente e pôs os santos óleos a Ritta, filha de João Roiz [Rodrigues] Valle,
-  natural da freguesia de São Martinho de Ruivães, Arcebispado de Braga, e de sua
+  [p1, folio 9 — foot of page:] "Aos [nove] dias do mes de Março de mil e sete
+  centos e sessenta e quatro annos, na Capella de São José do Ribeirão, filial desta
+  Matriz de Nossa Senhora da Piedade da Borda do Campo, o Padre Manoel
+  [Ferreira Cortez?] de licença minha batizou solenemente e pôs os santos
+  [p2, folio 9v — head of page continues:] óleos a Ritta, filha de João Roiz
+  [Rodrigues] Valle, natural da freguesia de São Martinho de Ruivães, Arcebispado
+  de Braga, e de sua
   mulher Isabel Ribeira, natural desta freguesia. Foi [avós] por parte paterna João
   Roiz [da Cunha?] e sua mulher Joanna [Angela?], naturais da dita freguesia de
   [Ruivães]; e pela materna, [Man]uel Pestana, natural da freguesia de Nossa Senhora
@@ -103,6 +109,9 @@ digital_file:
   path: >-
     evidence/parish/PAR-0049-rita-angelica-baptism-1764-barbacena-p1.jpg
   sha256: ecf97ac1d22dd89e0615fd32e70a90e0ae684303b4f5f918ef76a058b265e41e
+additional_pages:
+  - path: evidence/parish/PAR-0049-rita-angelica-baptism-1764-barbacena-p2.jpg
+    sha256: 1553aae2879ee1f65e83f276eefb9fd4f731b32bba4c6810171e764968425d31
 linked_people:
   - P-0058
   - P-0078

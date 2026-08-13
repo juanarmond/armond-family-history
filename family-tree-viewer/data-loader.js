@@ -272,6 +272,10 @@ export function projectTreeData({ people, families, events, places, sources, fan
     if (["jpg", "jpeg", "png", "tif", "tiff", "gif", "webp"].includes(ext)) return "image";
     return "other";
   };
+  // Sort multi-page document scans into reading order regardless of which page is the
+  // primary `digital_file`: pad every run of digits so "p2" < "p10" and "page-01" <
+  // "page-02" sort numerically (e.g. gen1 < p2 < p10; 1867-p5 < 1881-embargos).
+  const naturalPageKey = (p) => (typeof p === "string" ? p : "").replace(/\d+/g, (n) => n.padStart(6, "0"));
   // A source is flagged as an "uncertain reading" only when a CORE genealogical
   // fact could not be read — recorded explicitly per source as
   // `reading_reliability: partial`. Peripheral gap markers (a witness's bairro, an
@@ -282,6 +286,10 @@ export function projectTreeData({ people, families, events, places, sources, fan
       const rawPath = source.digital_file?.path || source.repository?.repository_path || null;
       const url = source.repository?.url;
       const limitation = source.reliability?.limitations;
+      const pagePaths = [
+        ...(source.digital_file?.path ? [source.digital_file.path] : []),
+        ...(source.additional_pages || []).map((p) => p?.path).filter((p) => typeof p === "string"),
+      ].sort((a, b) => naturalPageKey(a).localeCompare(naturalPageKey(b)));
       return [sourceId, {
         id: sourceId,
         title: source.title || sourceId,
@@ -317,6 +325,7 @@ export function projectTreeData({ people, families, events, places, sources, fan
             : null,
         file: evidenceHref(rawPath),
         fileType: fileKind(rawPath),
+        pages: pagePaths.map((p) => ({ url: evidenceHref(p), fileType: fileKind(p) })),
         url: typeof url === "string" && url.trim() ? url.trim() : null,
       }];
     }),
@@ -344,6 +353,10 @@ export function projectTreeData({ people, families, events, places, sources, fan
         abstractPt: trimmedText(ref.abstract_pt),
         file: evidenceHref(ref.digital_file?.path || null),
         fileType: fileKind(ref.digital_file?.path || null),
+        pages: [
+          ...(ref.digital_file?.path ? [ref.digital_file.path] : []),
+          ...(ref.additional_pages || []).map((p) => p?.path).filter((p) => typeof p === "string"),
+        ].sort((a, b) => naturalPageKey(a).localeCompare(naturalPageKey(b))).map((p) => ({ url: evidenceHref(p), fileType: fileKind(p) })),
         url: trimmedText(ref.repository?.url),
       };
       for (const participant of ref.participants || []) {

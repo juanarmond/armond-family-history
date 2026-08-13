@@ -48,7 +48,8 @@ reading_reliability: complete
 transcription: >-
   [Inventário de Dona Mathilde Maria de Jesus, Leopoldina (MG), 1879; título de
   herdeiros. Três imagens catalogadas: folio 6 (juramento do inventariante), folio 8
-  (cabeçalho do herdeiro nº 4) e folio 9 (os herdeiros de JC). O inventariante é
+  (reprezentantes do herdeiro nº 3 ao topo e cabeçalho do herdeiro nº 4 ao pé) e
+  folio 9 (os herdeiros de JC). O inventariante é
   [uncertain: Cazario / Cezario] José de Tolledo, filho da finada — pessoa DISTINTA do
   herdeiro nº 4 "José Cezário de Toledo Lima". Folio 6 transcribed 2026-08-07 from
   direct image read (PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio6-juramento.jpg).]
@@ -65,6 +66,17 @@ transcription: >-
   nenhum, debaixo das penas de perjurio e de perder o dobro do valor dos que por ventura
   sonega; e recebido por elle o juramento assim" [oath formula ends mid-sentence at bottom
   of folio; conclusion and inventariante's signature are on folio 7, which is not catalogued.]
+
+
+  [folio 8 recto, ao topo — sob o cabeçalho "de M.ª Perpetua nº 3", a continuação
+  dos reprezentantes do herdeiro nº 3 (o casal Antonio Zeferino de Toledo × Maria
+  Perpétua), numerados 2º–6º:] "2º D. Marianna Claudina de Tolledo, cazada que foi
+  com Francisco Mendes Ferreira, já fallecido; 3º Carolina Baldoina de Tolledo,
+  cazada com Severino Ignacio Monteiro; 4º Antonio Augusto de Tolledo, cazado com
+  Philomena Euphrazia de Jezus; 5º D. Francisca Emilia de Tolledo, cazada com José
+  Mendes Ferreira Junior; 6º D. Josephina [uncertain: Gueralina / Guerulina] de
+  Tolledo, cazada com Manoel Joaquim da Silva." [Segue, ao pé do mesmo folio, o
+  cabeçalho do herdeiro nº 4:]
 
 
   [folio 8, ao pé, cabeçalho do herdeiro nº 4:] "4º José Cezario de Tolledo Lima,
@@ -144,6 +156,11 @@ reliability:
 digital_file:
   path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio9-eliza.jpg
   sha256: 7dbf015f49d6bf5be02cf2b63457c59b48633ff768285bbaa8f9e90ee8ec7337
+additional_pages:
+- path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio6-juramento.jpg
+  sha256: 2c8eb4172832f885d4b68318a763da56d8341fd52cfa9bc1424b5d922e0f3c37
+- path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio8-heir4.jpg
+  sha256: 128c80eec698a0208eef4d66c093eefc405405ae90fb663c77fb8c1f70df8586
 linked_people:
 - P-0017
 - P-0016

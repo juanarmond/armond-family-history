@@ -2049,8 +2049,8 @@ documents:
     provenance: >-
       Livro de batismos, Freguesia de N.S. da Piedade da Borda do Campo (Barbacena),
       MG, pp. 310-311, 9 September 1787 (heavy ink bleed-through). FamilySearch
-      retrieval; base scan largely illegible, filiation recovered by image processing
-      (the -alt derivative); research/from-retrieval/ sync; read 1 August 2026.
+      retrieval; the held base scan reads the parents and date clearly, the child's
+      forename faded; research/from-retrieval/ sync; read 1 August 2026.
     rights_status: private-research
     files:
       - path: evidence/parish/PAR-0019-ladislao-toledo-baptism-1787-barbacena.jpg
@@ -2064,25 +2064,14 @@ documents:
           pixel_height: 2752
         privacy_review: cleared
         sensitive_content: []
-      - path: evidence/parish/PAR-0019-ladislao-toledo-baptism-1787-barbacena-alt.jpg
-        sha256: ba244fbbe5010ce340a6a6a3ab0eb6fc2de53bdc7dbe898e2158916f39750b73
-        media_type: image/jpeg
-        role: detail
-        preservation:
-          acquisition_method: owner-supplied
-          resolution_status: highest-authorised
-          pixel_width: 4224
-          pixel_height: 2752
-        privacy_review: cleared
-        sensitive_content: []
     duplicate_of: null
     proposed_source_id: PAR-0019
     notes:
       - >-
         Confirms Ladisláo Egídio Ferreira de Toledo's parents (Joaquim José Ferreira de
-        Toledo x Ritta Angélica Rodrigues), upgrading the F-0028 edge to confirmed. The
-        -alt file is the image-processed recovery from which the filiation was read
-        (the base scan is ink-bled). All named persons long deceased.
+        Toledo x Ritta Angélica Rodrigues), upgrading the F-0028 edge to confirmed. A
+        single base scan is held; the volume has heavy ink bleed-through, but the
+        parents and date read clearly. All named persons long deceased.
   - inventory_id: DOC-0053
     status: catalogued
     added_date: "2026-08-01"
@@ -3143,20 +3132,17 @@ documents:
   - inventory_id: DOC-0075
     status: catalogued
     added_date: "2026-08-10"
-    apparent_record_type: Newspaper social/death notices (A Sentinella, Nova Friburgo)
+    apparent_record_type: Newspaper death notice (A Sentinella, Nova Friburgo)
     apparent_people:
       - Manoel Pereira de Lemos (d. 20 Jan 1898)
       - Rosa Eugenia de Lemos ("D. Roza Bohrer")
-      - Joaquim José Bohrer
-      - Antonio José Bohrer (d. 2 Apr 1899)
     apparent_event: death
     image_quality: adequate
     provenance: >-
-      FamilySearch/owner retrieval drop (research/from-retrieval/ sync); three clippings
-      from the Nova Friburgo weekly "A Sentinella" (proprietor Guilherme Samuel Bohrer):
-      30 Jan 1898 (Manoel Pereira de Lemos óbito), 18 Dec 1898 (Joaquim José Bohrer
-      birthday), 4 Apr 1899 (Antonio José Bohrer óbito). Retrieved as images
-      rec-bohrer-asentinella-1898-01-30-*, -1898-12-18-*, -1899-04-04-*.
+      FamilySearch/owner retrieval drop (research/from-retrieval/ sync); the 30 Jan
+      1898 issue of the Nova Friburgo weekly "A Sentinella" (proprietor Guilherme
+      Samuel Bohrer), "NECROLOGIA" — Manoel Pereira de Lemos óbito. Retrieved as image
+      rec-bohrer-asentinella-1898-01-30-obito-lemos-tio-guilherme.jpg.
     rights_status: private-research
     files:
       - path: evidence/newspapers/NWS-0002-asentinella-manoel-lemos-obito-1898-nvfriburgo.jpg
@@ -3170,10 +3156,37 @@ documents:
           pixel_height: 4248
         privacy_review: cleared
         sensitive_content: []
-      - path: evidence/newspapers/NWS-0002-asentinella-joaquim-jose-bohrer-parabens-1898-nvfriburgo.jpg
+    duplicate_of: null
+    proposed_source_id: NWS-0002
+    notes:
+      - >-
+        A Sentinella clipping documenting Manoel Pereira de Lemos's death (brother of
+        Rosa Eugenia de Lemos P-0035 → documented_child on F-0025). Originally
+        catalogued as one aggregate with two other A Sentinella issues (Joaquim José
+        Bohrer's 18 Dec 1898 birthday, now DOC-0097/NWS-0005; Antonio José Bohrer's
+        4 Apr 1899 death, now DOC-0098/NWS-0006); split so each issue is its own source.
+        All persons 19th-century deceased.
+  - inventory_id: DOC-0097
+    status: catalogued
+    added_date: "2026-08-10"
+    apparent_record_type: Newspaper birthday notice (A Sentinella, Nova Friburgo)
+    apparent_people:
+      - Joaquim José Bohrer
+    apparent_event: other
+    image_quality: adequate
+    provenance: >-
+      FamilySearch/owner retrieval drop (research/from-retrieval/ sync); the 18 Dec
+      1898 issue of the Nova Friburgo weekly "A Sentinella" (proprietor Guilherme
+      Samuel Bohrer), "PARABENS — Fizeram annos" — "No dia 16 os Srs. Joaquim José
+      Bohrer e Carlos Alberto da Costa". Retrieved as image
+      rec-bohrer-asentinella-1898-12-18-parabens-joaquim-jose-bohrer.jpg. Split off
+      from the former NWS-0002 aggregate (DOC-0075).
+    rights_status: private-research
+    files:
+      - path: evidence/newspapers/NWS-0005-asentinella-joaquim-jose-bohrer-parabens-1898-nvfriburgo.jpg
         sha256: 3ba412ddf607fb1e888c989e15a13faa7ee081a368bdae0bf963241cfe2f6d94
         media_type: image/jpeg
-        role: continuation
+        role: primary
         preservation:
           acquisition_method: owner-supplied
           resolution_status: highest-authorised
@@ -3181,10 +3194,35 @@ documents:
           pixel_height: 4159
         privacy_review: cleared
         sensitive_content: []
-      - path: evidence/newspapers/NWS-0002-asentinella-antonio-jose-bohrer-obito-1899-nvfriburgo.jpg
+    duplicate_of: null
+    proposed_source_id: NWS-0005
+    notes:
+      - >-
+        Fixes Joaquim José Bohrer's (P-0030) birthday on 16 December (day/month only).
+        Split from the former NWS-0002 aggregate; file renamed NWS-0002-… → NWS-0005-…
+        (content unchanged, same sha256). Person 19th/20th-century deceased.
+  - inventory_id: DOC-0098
+    status: catalogued
+    added_date: "2026-08-10"
+    apparent_record_type: Newspaper death notice (A Sentinella, Nova Friburgo)
+    apparent_people:
+      - Antonio José Bohrer (d. 2 Apr 1899)
+      - Joaquim José Bohrer
+    apparent_event: death
+    image_quality: adequate
+    provenance: >-
+      FamilySearch/owner retrieval drop (research/from-retrieval/ sync); the 4 Apr
+      1899 issue of the Nova Friburgo weekly "A Sentinella" (proprietor Guilherme
+      Samuel Bohrer), "VICTIMA DE UM JARARACUSSÚ" — Antonio José Bohrer óbito.
+      Retrieved as image
+      rec-bohrer-asentinella-1899-04-04-obito-antonio-jose-bohrer.jpg. Split off from
+      the former NWS-0002 aggregate (DOC-0075).
+    rights_status: private-research
+    files:
+      - path: evidence/newspapers/NWS-0006-asentinella-antonio-jose-bohrer-obito-1899-nvfriburgo.jpg
         sha256: 6b551cd13cbfdbe0ab25291db8b43339fab625262b2b651a461af3ac61fad7b8
         media_type: image/jpeg
-        role: continuation
+        role: primary
         preservation:
           acquisition_method: owner-supplied
           resolution_status: highest-authorised
@@ -3193,13 +3231,13 @@ documents:
         privacy_review: cleared
         sensitive_content: []
     duplicate_of: null
-    proposed_source_id: NWS-0002
+    proposed_source_id: NWS-0006
     notes:
       - >-
-        Three A Sentinella clippings documenting Manoel Pereira de Lemos's death (brother
-        of Rosa Eugenia de Lemos P-0035 → documented_child on F-0025), Antonio José
-        Bohrer's death (son of Joaquim José Bohrer P-0030 → documented_child on F-0014),
-        and Joaquim José Bohrer's 16 December birthday. All persons 19th-century deceased.
+        Documents Antonio José Bohrer's death (son of Joaquim José Bohrer P-0030 →
+        documented_child on F-0014). Split from the former NWS-0002 aggregate; file
+        renamed NWS-0002-… → NWS-0006-… (content unchanged, same sha256). All persons
+        19th-century deceased.
   - inventory_id: DOC-0076
     status: catalogued
     added_date: "2026-08-10"

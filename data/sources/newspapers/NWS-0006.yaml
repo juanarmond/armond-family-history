@@ -1,0 +1,99 @@
+schema_version: 1
+id: NWS-0006
+title: >-
+  A Sentinella (Nova Friburgo), 4 April 1899 — death notice of Antonio José Bohrer,
+  son of Joaquim José Bohrer, from a jararacussú snakebite
+title_pt: >-
+  A Sentinella (Nova Friburgo), 4 de abril de 1899 — nota de falecimento de Antonio
+  José Bohrer, filho de Joaquim José Bohrer, por picada de jararacussú
+record_type: Newspaper death notice (necrologia)
+record_category: newspaper
+source_form: original
+information_quality: secondary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1899-04-04"
+  original_text: '"A SENTINELLA 4 de Abril de 1899"'
+event_place_text: >-
+  District of São Pedro de Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: A Sentinella (Nova Friburgo), digital copy
+  archive_or_registry: >-
+    "A Sentinella", weekly newspaper of Nova Friburgo, RJ (founded 30 Sep 1894;
+    proprietor/manager Capitão Guilherme Samuel Bohrer). Digitised copies circulated
+    in the Nova Friburgo bicentennial (1818–2018) "D. João VI" collection.
+  collection: >-
+    A Sentinella, Nova Friburgo — issue of 4 Apr 1899
+  catalogue_reference: >-
+    A Sentinella, Nova Friburgo, 4 April 1899, "VICTIMA DE UM JARARACUSSÚ". One
+    clipping delivered through the research/from-retrieval/ sync as image
+    rec-bohrer-asentinella-1899-04-04-obito-antonio-jose-bohrer.jpg; read and promoted
+    2026-08-10.
+  repository_path: >-
+    evidence/newspapers/NWS-0006-asentinella-antonio-jose-bohrer-obito-1899-nvfriburgo.jpg
+access_date: "2026-08-10"
+language: pt-BR
+transcription: >-
+  [A Sentinella, Nova Friburgo, 4 de abril de 1899 — secção "VICTIMA DE UM
+  JARARACUSSÚ":] "Chega-nos do districto de S. Pedro de Nova Friburgo a tristissima
+  noticia do fallecimento de Antonio José Bohrer, filho de nosso amigo Joaquim Bohrer
+  e sobrinho do gerente desta folha. O malogrado joven que apenas contava 13
+  primaveras succumbiu no dia 2 do corrente em consequencia de mordedura de cobra
+  jararacussú, tendo sido baldados todos os esforços para salval-o. Deixa de si
+  recordações saudosas por suas bellas qualidades que o faziam estimado de todos. A
+  «Sentinella» apresenta sinceras condolencias á seus inditosos paes."
+abstract: >-
+  A death notice in the Nova Friburgo weekly "A Sentinella" (managed by Capitão
+  Guilherme Samuel Bohrer) of 4 April 1899: the death, on 2 April 1899 aged 13, of
+  Antonio José Bohrer, "filho de nosso amigo Joaquim Bohrer" (i.e. a son of Joaquim
+  José Bohrer, P-0030, and a brother of Celina, P-0015), from a jararacussú snakebite
+  in the São Pedro de Nova Friburgo district. The "gerente desta folha" (Guilherme
+  Samuel Bohrer) is named as Antonio José's uncle.
+abstract_pt: >-
+  Uma nota de falecimento no semanário friburguense "A Sentinella" (dirigido pelo
+  Capitão Guilherme Samuel Bohrer), de 4 de abril de 1899: o falecimento, em 2 de
+  abril de 1899 aos 13 anos, de Antonio José Bohrer, "filho de nosso amigo Joaquim
+  Bohrer" (isto é, filho de Joaquim José Bohrer, P-0030, e irmão de Celina, P-0015),
+  por mordedura de cobra jararacussú no distrito de São Pedro de Nova Friburgo. O
+  "gerente desta folha" (Guilherme Samuel Bohrer) é indicado como tio de Antonio José.
+reliability:
+  assessment: >-
+    A contemporary newspaper death notice from a family-run paper (Guilherme Samuel
+    Bohrer, Antonio José's uncle). Reliable for the facts it reports (date of death,
+    age, cause, filiation) but secondary in form. It directly states Antonio José
+    Bohrer was a son of Joaquim José Bohrer (P-0030).
+  informant: >-
+    "A Sentinella", Nova Friburgo (family-run by Guilherme Samuel Bohrer), 1899.
+  limitations: >-
+    A print newspaper death notice, not a civil or parish record: the age is reported
+    ("13 primaveras", implying ~b.1885–1886) and no birth date is given. The father is
+    named only as "Joaquim Bohrer".
+digital_file:
+  path: >-
+    evidence/newspapers/NWS-0006-asentinella-antonio-jose-bohrer-obito-1899-nvfriburgo.jpg
+  sha256: 6b551cd13cbfdbe0ab25291db8b43339fab625262b2b651a461af3ac61fad7b8
+linked_people:
+- P-0030
+linked_families:
+- F-0014
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Antonio José Bohrer (d. 2 Apr 1899, aged 13, ~b.1885) is recorded as a
+    documented_child (son of Joaquim José Bohrer, brother of Celina P-0015) on F-0014.
+    Clearly deceased; recorded as a documented_child rather than a person entity. Split
+    off from the former aggregate NWS-0002, which grouped three distinct A Sentinella
+    issues; the 30 Jan 1898 Manoel Pereira de Lemos death notice remains NWS-0002 and
+    the 18 Dec 1898 Joaquim José Bohrer birthday notice is now NWS-0005.
+  text_pt: >-
+    Antonio José Bohrer (f. 2 abr. 1899, aos 13 anos, ~n.1885) é registrado como
+    documented_child (filho de Joaquim José Bohrer, irmão de Celina P-0015) em F-0014.
+    Claramente falecido; registrado como documented_child, não como entidade de
+    pessoa. Desmembrado do antigo agregado NWS-0002, que reunia três edições distintas
+    de A Sentinella; a nota de falecimento de Manoel Pereira de Lemos (30 jan. 1898)
+    permanece em NWS-0002 e a nota de aniversário de Joaquim José Bohrer (18 dez. 1898)
+    é agora NWS-0005.

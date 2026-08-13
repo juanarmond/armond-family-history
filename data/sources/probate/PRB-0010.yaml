@@ -47,6 +47,11 @@ transcription: >-
   [Inventário — Caixa 49 Ordem 09 Doc 09, Juízo dos Órfãos, Villa de Barbacena.
   Read from the register images 2026-08-11.]
 
+  [fl. de identificação — legenda de rosto no alto:] "N.º 21 — 1833. Inventario da
+  finada D. Rita Angelica Ro[drigue]z., de quem ficou vivo e Inventariante o Cap.m
+  Joaquim José Ferreira de Toledo. Escrivão [José] Gomes [de … e] S[ouza]." (à
+  margem, o número 10.)
+
   [Abertura, fl. identificação:] "Anno do Nascimento de Nosso Senhor Jesus Christo
   de mil oito centos trinta e tres e décimo segundo da Independência do Império, ao
   primeiro dia do mês de Julho do dito anno, nesta Nobre e mui Leal Villa de
@@ -55,10 +60,14 @@ transcription: >-
   Angélica Rodrigues, me foi apresentada huma sua petição, despachada pelo Ajudante
   Manoel José Pacheco Pena, atual Juiz dos Órfãos desta mesma Villa e seu Termo..."
 
-  [Juramento, fl.: 15 de Julho de 1833, na Fazenda denominada Cascalhaes; louvados o
-  Capitão Simião Ferreira da Silva e o Alferes Domingos Jaime Ferreira de Castro.]
+  [Juramento aos louvados (15 de Julho de 1833, na Fazenda denominada Cascalhaes;
+  louvados o Capitão Simião Ferreira da Silva e o Alferes Domingos Jaime Ferreira de
+  Castro). A conclusão do termo e as assinaturas figuram no topo da fl. 3 (imagem
+  heirs-p1): assinam o viúvo "Joaq.m Jozé Ferr.a de Toledo", os louvados "Simião
+  Ferr.a da S[ilva]" e "Domingos Jaime Ferr.a de Castro", e o Juiz "[uncertain:
+  Pacheco] Pena", perante o escrivão José Gomes [de … e] Souza.]
 
-  [Declaração de herdeiros:] "...declarou elle Viúvo e Inventariante que sua falecida
+  [Declaração de herdeiros, fls. 3–3v:] "...declarou elle Viúvo e Inventariante que sua falecida
   mulher Dona Rita Angélica Rodrigues havia falecido a nove do mês de Fevereiro do
   anno passado de mil oito centos e trinta e dois, sem testamento, e que desse
   consórcio ficaram os filhos e herdeiros abaixo declarados. Filhos: 1.º Ladisláo
@@ -70,7 +79,19 @@ transcription: >-
   casado; 11.º João Rodrigues, casado; 12.º Venancio do Nascimento, casado; 13.º
   Manoel Joaquim, casado. Netos pela falecida [filha] Candida: 1 Maria, de idade 13
   annos; 2 Anna, 10; 3 José, 9; 4 Francisco, 7; 5 Thereza, 6; 6 Simpliciano, 4; 7
-  Candida, 3. [Segue-se a avaliação dos Bens.]"
+  Candida, 3."
+
+  [fl. 3v (imagem heirs-p2), início da avaliação — rubrica "Bens":] "Declarou elle
+  Viúvo e Inventariante ficar por falecimento de sua mulher os bens seguintes: tres
+  tachos de cobre velhos com peso de cincoenta e duas libras a quatrocentos réis cada
+  libra, avaliados na quantia de vinte mil e oitocentos réis (20$800); item hum
+  caldeirão de ferro avaliado na quantia de oito mil réis (8$000); item huma balança
+  de pezar avaliada na quantia de dois mil e quinhentos réis (2$500); item hum tacho
+  de ferro usado avaliado na quantia de dois mil seiscentos e oitenta réis (2$680);
+  item dez foices usadas a novecentos réis cada huma, avaliadas na quantia de nove
+  mil réis (9$000); item nove enxadas usadas [...]." [À margem, os valores parciais
+  20$800, 8$000, 2$500, 2$680 e 9$000 e a soma parcial 42$980; a avaliação continua
+  nos folios seguintes, não retidos.]
 abstract: >-
   The 1833 Barbacena Juízo dos Órfãos inventory of the deceased Dona Rita Angélica
   Rodrigues (P-0058), opened 1 July 1833; her widower and inventariante is Capitão
@@ -123,6 +144,11 @@ digital_file:
   path: >-
     evidence/probate/PRB-0010-rita-angelica-inventario-1833-barbacena-heirs-p1.jpg
   sha256: 4744a18b72c8f10aa3cc06691482fb92c326fecc7f11606be14dcae5ffe79494
+additional_pages:
+  - path: evidence/probate/PRB-0010-rita-angelica-inventario-1833-barbacena-identification.jpg
+    sha256: 5076bd2190a3946dbc0bbb0770dd50d3894ab7a1a7e4778ed4b5c442547849fd
+  - path: evidence/probate/PRB-0010-rita-angelica-inventario-1833-barbacena-heirs-p2.jpg
+    sha256: 625cd5e26044fbf0ff640ea0e1310c105e541a8b886952b4950963978d30b70b
 linked_people:
   - P-0058
   - P-0057

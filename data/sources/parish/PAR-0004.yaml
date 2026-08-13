@@ -35,13 +35,23 @@ repository:
     evidence/parish/PAR-0004-deocleciano-muniz-bittencourt-baptism-1892-sapucaia-p2.jpg
 access_date: "2026-07-31"
 language: pt-BR
+reading_reliability: complete
 transcription: >-
-  [Paróquia de Santo Antônio de Sapucaia, RJ; livro de batismos, fl. 314.] "[Aos
-  vinte e cinco de Junho de mil oitocentos noventa e dois] baptizei o innocente
-  Deocleciano nascido a um deste mez, filho legítimo de João Muniz
-  Bitencourt e Suzana Rita Brandão. Foi padrinho João de Souza Freitas e
-  Lina Rita Brandão, de que fiz este termo que assigno. P.e
-  Franc.co Ant.o Pinto P.ra da Veiga[s]."
+  [Paróquia de Santo Antônio de Sapucaia, RJ; livro de batismos, fl. 314. The act
+  spans the page break: its opening date line sits at the foot of folio 314 (…-p1.jpg)
+  and the body naming the child and parents is at the head of the following image
+  (…-p2.jpg, the primary scan).]
+
+  [Page 1 (…-p1.jpg) — foot of folio 314, opening date line of the entry (right margin
+  frayed; the entry continues on the next image):] "Aos vinte cinco de Junho de mil
+  oitocentos noventa e dois …"
+
+  [Page 2 (…-p2.jpg) — head of the following image, the continuation naming the child
+  and parents:] "… baptizei o innocente Deocleciano [register hand appears to read
+  "Diocleciano"] nascido a [uncertain: um] d'este mez, filho legítimo de João Muniz
+  Bitencourt e Suzana Rita Brandão. Foi padrinho João de Souza Freitas e [uncertain:
+  Lina] Rita Brandão, de que fiz este termo que assigno. P.e Franc.co Ant.o Pinto P.ra
+  da Veiga[s]."
 abstract: >-
   The original 1892 baptism register entry (Igreja de Santo Antônio de Sapucaia,
   RJ) of Deocleciano Muniz Bittencourt (P-0012): baptized 25 June 1892, born
@@ -72,6 +82,10 @@ digital_file:
   path: >-
     evidence/parish/PAR-0004-deocleciano-muniz-bittencourt-baptism-1892-sapucaia-p2.jpg
   sha256: bb29c735f7068696acfe17db7091246fc84c4e369b9b4983ac2da7336a943836
+additional_pages:
+- path: >-
+    evidence/parish/PAR-0004-deocleciano-muniz-bittencourt-baptism-1892-sapucaia-p1.jpg
+  sha256: 8e02b421f5ed24cda26b91103bbeb65be0359a3dd49947076ad0a131a6bf5cd3
 linked_people:
 - P-0012
 - P-0019

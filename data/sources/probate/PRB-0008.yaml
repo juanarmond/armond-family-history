@@ -38,8 +38,8 @@ repository:
     4 março 1867, Concórdia (Districto do Rio Pardo), MG
   catalogue_reference: >-
     Archive reference [38403 268]; FamilySearch retrieval; read and promoted 7 August
-    2026. Eight pages catalogued: cover (gen1), p2–p5, p8, p9. Page p6 was NOT
-    catalogued at this reading (see limitations). Page p5 records Claudina's sworn
+    2026. Eight pages catalogued: cover (gen1), p2–p6, p8, p9 (p6 subsequently
+    catalogued and transcribed 2026-08-07). Page p5 records Claudina's sworn
     declaration including JC's death date ("dois de Setembro").
   repository_path: >-
     evidence/probate/PRB-0008-jose-cesario-inventario-1867-gen1.jpg
@@ -48,7 +48,7 @@ language: pt-BR
 reading_reliability: complete
 transcription: >-
   [Inventário de José Cesário de Toledo Lima e Claudina Brandina de Jesus, Concórdia,
-  Districto do Rio Pardo, MG, 1867. Eight pages catalogued: cover (gen1), pp. 2–5,
+  Districto do Rio Pardo, MG, 1867. Eight pages catalogued: cover (gen1), pp. 2–6,
   8, 9. All eight pages transcribed below. Pages 7 and pages beyond p9 are not
   catalogued. Pages 2–4 transcribed 2026-08-07. Page 6 transcribed 2026-08-07.]
 
@@ -189,7 +189,7 @@ transcription: >-
   Freitas Pacheco [or: de Bastos Pacheco]"
 transcription_pt: >-
   [Inventário de José Cesário de Toledo Lima e Claudina Brandina de Jesus, Concórdia,
-  Districto do Rio Pardo, MG, 1867. Oito páginas catalogadas: capa (gen1), pp. 2–5,
+  Districto do Rio Pardo, MG, 1867. Oito páginas catalogadas: capa (gen1), pp. 2–6,
   8, 9. Todas as oito páginas transcritas abaixo. As páginas 7 e as páginas
   posteriores à p9 não estão catalogadas. Páginas 2–4 transcritas em 2026-08-07.
   Página 6 transcrita em 2026-08-07.]
@@ -369,10 +369,10 @@ reliability:
   informant: >-
     J. de Bastos Pacheco, Escrivão dos Órfãos, Concórdia, 1867; judicial process.
   limitations: >-
-    All eight catalogued pages (cover/gen1, pp 2–5, 8, 9) are now transcribed.
-    Pages 6, 7 and pages beyond p9 are NOT catalogued: p6 contains the continuation of
-    Claudina's p5 declaration and the start of the herdeiros list (children items 1–5
-    now readable from p6 transcription done 2026-08-07); p7 contains items 5 continuation
+    All eight catalogued pages (cover/gen1, pp 2–6, 8, 9) are now transcribed.
+    Pages 7 and pages beyond p9 are NOT catalogued; p6 (catalogued and transcribed
+    2026-08-07) contains the continuation of Claudina's p5 declaration and the start
+    of the herdeiros list (children items 1–5); p7 contains items 5 continuation
     through the unknown item 5 child. The p3 cover states "fallecido sem testamento"
     (JC died intestate); the p6 transcription fragment "de outubro do anno proximo passado
     [o] seu testamento" creates an apparent contradiction — possibly a misread or reference
@@ -385,6 +385,21 @@ reliability:
 digital_file:
   path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-gen1.jpg
   sha256: 4c05091e315090bd7102a4d217a387d3595464eda3a3d15136c0bebe409d8685
+additional_pages:
+- path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-p2.jpg
+  sha256: 64837d2480401e57f6cbef3a354e697ab3c6e570df460627dcb021c058128c38
+- path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-p3.jpg
+  sha256: 8c7d4cb88adc64d4bc4b590e54947f28bdff0f1803a5e50d93636d82393b9d29
+- path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-p4.jpg
+  sha256: 489130842523fcacbe289ad66d10998c30434a7b22cc10d9c71165d7e7574940
+- path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-p5.jpg
+  sha256: 4c62c71285b97f4853ecd62aefbbd85b25ec913efecef31e316703f0e9262e75
+- path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-p6.jpg
+  sha256: 3fc31ee06d69f5523adf2a1f1e58f79cf5a98c98bcca34155209e8c3934e9fbd
+- path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-p8.jpg
+  sha256: e7e5feab42948bb68c203fcd69a9fa5d9007f0fa9086f6263818de462a5608de
+- path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-p9.jpg
+  sha256: 5205456601f094e656b4b919ceb9e6634dae79e1195475b8c087111a80eb6b85
 linked_people:
 - P-0054
 - P-0055

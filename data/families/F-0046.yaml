@@ -1,0 +1,51 @@
+schema_version: 1
+id: F-0046
+partners:
+- person_id: P-0094
+  role: spouse
+- person_id: P-0095
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0034
+  notes:
+  - text: >-
+      Manoel Nado Pestana (P-0094) × Anna Francisca (P-0095), named together as the
+      parents of the bride Isabel Ribeiro (P-0079) in her 22 February 1751 Borda do
+      Campo (Barbacena) marriage act (PAR-0034): "Isabel Ribeyro ... filha legitima de
+      Manoel Nado Pestana e de Anna Francisca". No marriage record of their own is
+      located; the union rests on the informant-reported filiation in the daughter's
+      marriage, so strong-evidence rather than a confirmed marriage.
+children:
+- person_id: P-0079
+  parent_relationships:
+  - parent_id: P-0094
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - PAR-0034
+    notes: []
+  - parent_id: P-0095
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - PAR-0034
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Parents of Isabel Ribeiro (P-0079), named in her 1751 Borda do Campo marriage
+    (PAR-0034) as "Manoel Nado Pestana e ... Anna Francisca". Extends Eliza's maternal
+    Toledo line one generation above P-0079. The parentage rests on the daughter's
+    marriage filiation (informant-reported), not a birth/baptism, hence strong-evidence.
+- text: >-
+    Their granddaughter Ritta Angélica's 1764 Barbacena baptism (PAR-0049) tentatively
+    adds their origin: Manoel Pestana "natural da freguesia de Nossa Senhora do Rosário
+    da Ilha de São Jorge, Bispado de Angra [dos Açores]" and Anna Francisca "natural
+    [da freguesia de São Jorge]" — the Azorean (Portuguese) origin behind both
+    spouses' nationality. Those grandparent clauses are ink-damaged and read only
+    tentatively (recorded in PAR-0049 as a LEAD, and Anna Francisca's name itself
+    marked [uncertain]), so the origin carries read-uncertainty. No records of their
+    own are located.

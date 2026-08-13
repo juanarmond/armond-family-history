@@ -1,0 +1,59 @@
+schema_version: 1
+id: P-0093
+preferred_name: Gertrudes Maria de Toledo
+privacy: deceased
+sex: female
+nationality: Brazilian
+name_variants:
+- value: Gertrudes Maria de Toledo
+  type: source
+  source_ids:
+  - PAR-0018
+event_ids: []
+family_ids:
+- F-0045
+notes:
+- text: >-
+    Named as the mother of Joaquim José Ferreira de Toledo (P-0057) in the groom's
+    c.1786 Barbacena marriage act (PAR-0018): "filho leg.[itimo] de Gaspar Fer[reira]
+    e de Gertrudes M[aria] [de Toledo], de [Villa] Rica". Her husband is Gaspar
+    Ferreira (P-0092, family F-0045). No record of her own is located. The parentage
+    rests on the informant-reported filiation in her son's marriage, not a
+    birth/baptism, hence strong-evidence.
+  text_pt: >-
+    Nomeada como mãe de Joaquim José Ferreira de Toledo (P-0057) no assento de
+    casamento do noivo, em Barbacena por volta de 1786 (PAR-0018): "filho leg.[itimo]
+    de Gaspar Fer[reira] e de Gertrudes M[aria] [de Toledo], de [Villa] Rica". Seu
+    marido é Gaspar Ferreira (P-0092, família F-0045). Nenhum registro próprio
+    localizado. A filiação assenta na declaração informada no casamento do filho, não
+    em um registro de nascimento/batismo, portanto evidência forte.
+- text: >-
+    The surname "de Toledo" is a bracketed/uncertain read on the ink-bled PAR-0018
+    folio, preserved here as the recorded form (it is the apparent origin of the
+    family's "Ferreira" + "de Toledo" surname). Nationality Brazilian: PAR-0018 places
+    the family "de [Villa] Rica" (Vila Rica / Ouro Preto, Minas Gerais); no explicit
+    nacionalidade or birthplace of her own is otherwise stated.
+  text_pt: >-
+    O sobrenome "de Toledo" é uma leitura entre colchetes/incerta no fólio borrado por
+    tinta de PAR-0018, preservado aqui como a forma registrada (é a aparente origem do
+    sobrenome "Ferreira" + "de Toledo" da família). Nacionalidade brasileira: PAR-0018
+    situa a família "de [Villa] Rica" (Vila Rica / Ouro Preto, Minas Gerais); nenhuma
+    nacionalidade ou local de nascimento próprio é de outro modo declarado.
+profile: >-
+  **Gertrudes Maria de Toledo** — a stub ancestor named only as the mother of Joaquim
+  José Ferreira de Toledo (P-0057) in her son's c.1786 Barbacena marriage act
+  (PAR-0018): "filho legítimo de Gaspar Ferreira e de Gertrudes Maria [de Toledo], de
+  [Villa] Rica". [PROVEN name via PAR-0018; the "de Toledo" surname is a
+  bracketed/uncertain read] Her husband was Gaspar Ferreira (P-0092, family F-0045).
+  Brazilian — the record places the family "de Villa Rica" (Vila Rica / Ouro Preto,
+  Minas Gerais). No record of her own is located; birth, death and origin are unknown.
+  [OPEN]
+profile_pt: >-
+  **Gertrudes Maria de Toledo** — uma ancestral esboço, nomeada apenas como mãe de
+  Joaquim José Ferreira de Toledo (P-0057) no assento de casamento do filho, em
+  Barbacena por volta de 1786 (PAR-0018): "filho legítimo de Gaspar Ferreira e de
+  Gertrudes Maria [de Toledo], de [Villa] Rica". [PROVEN, o nome, via PAR-0018; o
+  sobrenome "de Toledo" é uma leitura entre colchetes/incerta] Seu marido foi Gaspar
+  Ferreira (P-0092, família F-0045). Brasileira — o registro situa a família "de Villa
+  Rica" (Vila Rica / Ouro Preto, Minas Gerais). Nenhum registro próprio localizado;
+  nascimento, óbito e origem desconhecidos. [OPEN]

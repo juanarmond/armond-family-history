@@ -576,45 +576,62 @@ def validate_evidence_files(
     entities: Mapping[str, Mapping[str, LoadedEntity]],
     issues: list[Issue],
 ) -> None:
+    root_resolved = root.resolve()
+
+    def check_one(location, rel_path, expected_hash, jsonpath):
+        """Validate one evidence-file reference (path in-repo, exists, checksum). Returns its posix path or None."""
+        if not isinstance(rel_path, str) or not isinstance(expected_hash, str):
+            return None
+        candidate = (root / rel_path).resolve()
+        try:
+            candidate.relative_to(root_resolved)
+        except ValueError:
+            issues.append(Issue("error", f"{location}:{jsonpath}.path", "evidence path escapes the repository"))
+            return None
+        if not candidate.is_file():
+            issues.append(Issue("error", f"{location}:{jsonpath}.path", f"evidence file does not exist: {rel_path}"))
+            return rel_path
+        if sha256_file(candidate) != expected_hash:
+            issues.append(Issue("error", f"{location}:{jsonpath}.sha256", f"checksum does not match {rel_path}"))
+        return rel_path
+
     checked = list(_merged_sources(entities).values()) + list(entities["fan"].values())
     for source in checked:
         digital_file = source.data.get("digital_file")
         if not isinstance(digital_file, dict):
             continue
-        relative_path = digital_file.get("path")
-        expected_hash = digital_file.get("sha256")
-        if not isinstance(relative_path, str) or not isinstance(expected_hash, str):
-            continue
         location = display_path(source.path, root)
-        candidate = (root / relative_path).resolve()
-        try:
-            candidate.relative_to(root.resolve())
-        except ValueError:
-            issues.append(
-                Issue(
-                    "error",
-                    f"{location}:$.digital_file.path",
-                    "evidence path escapes the repository",
-                )
-            )
-            continue
-        if not candidate.is_file():
-            issues.append(
-                Issue(
-                    "error",
-                    f"{location}:$.digital_file.path",
-                    f"evidence file does not exist: {relative_path}",
-                )
-            )
-            continue
-        if sha256_file(candidate) != expected_hash:
-            issues.append(
-                Issue(
-                    "error",
-                    f"{location}:$.digital_file.sha256",
-                    f"checksum does not match {relative_path}",
-                )
-            )
+        referenced: set[str] = set()
+        ref = check_one(location, digital_file.get("path"), digital_file.get("sha256"), "$.digital_file")
+        if ref:
+            referenced.add(ref)
+        redacted = digital_file.get("redacted_derivative")
+        if isinstance(redacted, str):
+            referenced.add(redacted)
+        pages = source.data.get("additional_pages")
+        if isinstance(pages, list):
+            for index, page in enumerate(pages):
+                if isinstance(page, dict):
+                    ref = check_one(location, page.get("path"), page.get("sha256"), f"$.additional_pages[{index}]")
+                    if ref:
+                        referenced.add(ref)
+        # Prevention: every evidence file whose name starts with this entity's id — i.e.
+        # each page of a multi-page document — must be referenced by digital_file or
+        # additional_pages, so no page is ever silently dropped from the viewer again.
+        entity_id = source.data.get("id")
+        if isinstance(entity_id, str):
+            for page_file in sorted((root / "evidence").glob(f"**/{entity_id}-*")):
+                if not page_file.is_file():
+                    continue
+                rel = page_file.relative_to(root).as_posix()
+                if rel not in referenced:
+                    issues.append(
+                        Issue(
+                            "error",
+                            f"{location}:$.additional_pages",
+                            f"unreferenced page of a multi-page document — add it to additional_pages: {rel}",
+                        )
+                    )
 
 
 def validate_place_hierarchy(

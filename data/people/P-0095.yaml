@@ -1,0 +1,65 @@
+schema_version: 1
+id: P-0095
+preferred_name: Anna Francisca
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Anna Francisca
+  type: source
+  source_ids:
+  - PAR-0034
+event_ids: []
+family_ids:
+- F-0046
+notes:
+- text: >-
+    Named as the mother of Isabel Ribeiro (P-0079) in her 22 February 1751 Borda do
+    Campo (Barbacena) marriage act (PAR-0034): "Isabel Ribeyro ... filha legitima de
+    Manoel Nado Pestana e de Anna Francisca". Her husband is Manoel Nado Pestana
+    (P-0094, family F-0046). No record of her own is located. The parentage rests on
+    the informant-reported filiation in her daughter's marriage, not a birth/baptism,
+    hence strong-evidence.
+  text_pt: >-
+    Nomeada como mãe de Isabel Ribeiro (P-0079) no assento de casamento dela, na Borda
+    do Campo (Barbacena) em 22 de fevereiro de 1751 (PAR-0034): "Isabel Ribeyro ...
+    filha legitima de Manoel Nado Pestana e de Anna Francisca". Seu marido é Manoel
+    Nado Pestana (P-0094, família F-0046). Nenhum registro próprio localizado. A
+    filiação assenta na declaração informada no casamento da filha, não em um registro
+    de nascimento/batismo, portanto evidência forte.
+- text: >-
+    Nationality Portuguese (Azorean): her granddaughter Ritta Angélica's 1764 baptism
+    (PAR-0049) reads her "natural [da freguesia de São Jorge]" (Açores), alongside her
+    husband of Nossa Senhora do Rosário, Ilha de São Jorge. That grandparent clause is
+    ink-damaged and read only tentatively — her name itself is marked [uncertain] and
+    the couple is recorded in PAR-0049 and on P-0079 as a LEAD — so the Azorean origin,
+    and the Portuguese nationality resting on it, carry that read-uncertainty; a
+    clearer image or corroborating record would confirm it.
+  text_pt: >-
+    Nacionalidade portuguesa (açoriana): o batismo de 1764 de sua neta Ritta Angélica
+    (PAR-0049) a lê "natural [da freguesia de São Jorge]" (Açores), ao lado do marido,
+    de Nossa Senhora do Rosário, Ilha de São Jorge. Essa cláusula dos avós está
+    danificada por tinta e é lida apenas tentativamente — o próprio nome dela está
+    marcado como [uncertain] e o casal é registrado em PAR-0049 e em P-0079 como PISTA
+    — de modo que a origem açoriana, e a nacionalidade portuguesa que nela se assenta,
+    carregam essa incerteza de leitura; uma imagem mais nítida ou registro corroborante
+    a confirmaria.
+profile: >-
+  **Anna Francisca** — a stub ancestor named only as the mother of Isabel Ribeiro
+  (P-0079) in her 1751 Borda do Campo (Barbacena) marriage act (PAR-0034): "filha
+  legitima de Manoel Nado Pestana e de Anna Francisca". [PROVEN name via PAR-0034] Her
+  husband was Manoel Nado Pestana (P-0094, family F-0046). Portuguese (Azorean) — her
+  granddaughter Ritta's 1764 baptism (PAR-0049) reads her "natural [da freguesia de
+  São Jorge]" (Açores), but that grandparent clause is ink-damaged and tentative (her
+  name marked [uncertain]; a LEAD), so the origin carries read-uncertainty. No record
+  of her own is located; birth and death are unknown. [OPEN]
+profile_pt: >-
+  **Anna Francisca** — uma ancestral esboço, nomeada apenas como mãe de Isabel Ribeiro
+  (P-0079) no assento de casamento dela, na Borda do Campo (Barbacena) em 1751
+  (PAR-0034): "filha legitima de Manoel Nado Pestana e de Anna Francisca". [PROVEN, o
+  nome, via PAR-0034] Seu marido foi Manoel Nado Pestana (P-0094, família F-0046).
+  Portuguesa (açoriana) — o batismo de 1764 de sua neta Ritta (PAR-0049) a lê "natural
+  [da freguesia de São Jorge]" (Açores), mas essa cláusula dos avós está danificada por
+  tinta e é tentativa (o nome dela marcado como [uncertain]; uma PISTA), de modo que a
+  origem carrega incerteza de leitura. Nenhum registro próprio localizado; nascimento e
+  óbito desconhecidos. [OPEN]

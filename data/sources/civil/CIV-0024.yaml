@@ -57,7 +57,7 @@ transcription: >-
   Estado, de côr branca, com setenta annos presumíveis de idade, viuvo de Maria
   Euphronyza de Jesus, carpinteiro, filho legítimo de Ladislao Igidio Ferreira de
   Toledo, e Mathilde Luiza de Toledo, aqui residentes. Deixou quatro filhos todos
-  maiores que são: Francisco Themotheo de Toledo, Jose Ladislao de Toledo, Amelio
+  maiores que são: Francisco Themotheo de Toledo, Jose Ladislao de Toledo, Amelia
   cazada com Frederico Augusto,
 
   [Page 2 — continuation and closing:]
@@ -134,6 +134,10 @@ digital_file:
   path: >-
     evidence/civil/CIV-0024-antonio-ladislao-toledo-death-1909-leopoldina-page-01.jpg
   sha256: 16e2195fc709a44a646182e67e11d327aeeba2537de56082edd69eb975e3d4bb
+additional_pages:
+- path: >-
+    evidence/civil/CIV-0024-antonio-ladislao-toledo-death-1909-leopoldina-page-02.jpg
+  sha256: 62800dd06ab1e19703475d3d28875a6b87ae438f7974f9cbb4dac1e21802fc6d
 linked_people:
 - P-0063
 - P-0056

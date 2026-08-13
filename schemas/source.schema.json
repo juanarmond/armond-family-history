@@ -243,6 +243,19 @@
         }
       }
     },
+    "additional_pages": {
+      "type": "array",
+      "description": "Continuation pages of a multi-page document, in reading order, beyond the primary page held in `digital_file`; the viewer shows them after it. Every evidence file whose name starts with this source's id must be referenced by `digital_file` or `additional_pages`.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "sha256"],
+        "properties": {
+          "path": { "type": "string", "minLength": 1, "pattern": "^evidence/(?!.*\\.\\.).+$" },
+          "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+        }
+      }
+    },
     "linked_people": {
       "$ref": "common.schema.json#/$defs/personIds"
     },

@@ -118,6 +118,11 @@ reliability:
 digital_file:
   path: evidence/civil/CIV-0006-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-01.jpg
   sha256: 5093f67e9a2528510714275a123c85ea2fd558042cc03cb9b56f167c3162736b
+additional_pages:
+  - path: evidence/civil/CIV-0006-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-02.jpg
+    sha256: a1d382696a0e2ea073d7b51123931e46da4839f0ae30c63b841a77e809e739b7
+  - path: evidence/civil/CIV-0006-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-full-content-page-03.jpg
+    sha256: 3a70a68ecffc225583802bae00345030da3baabb5dee149e982304d87653a579
 linked_people:
   - P-0012
   - P-0013

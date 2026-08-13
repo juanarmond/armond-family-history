@@ -1,0 +1,58 @@
+schema_version: 1
+id: P-0092
+preferred_name: Gaspar Ferreira
+privacy: deceased
+sex: male
+nationality: Brazilian
+name_variants:
+- value: Gaspar Ferreira
+  type: source
+  source_ids:
+  - PAR-0018
+event_ids: []
+family_ids:
+- F-0045
+notes:
+- text: >-
+    Named as the father of Joaquim José Ferreira de Toledo (P-0057) in the groom's
+    c.1786 Barbacena marriage act (PAR-0018): "filho leg.[itimo] de Gaspar Fer[reira]
+    e de Gertrudes M[aria] [de Toledo], de [Villa] Rica". His wife is Gertrudes Maria
+    de Toledo (P-0093, family F-0045). No record of his own is located; birth, death
+    and own vital records are unknown. The parentage rests on the informant-reported
+    filiation in his son's marriage, not a birth/baptism, hence strong-evidence.
+  text_pt: >-
+    Nomeado como pai de Joaquim José Ferreira de Toledo (P-0057) no assento de
+    casamento do noivo, em Barbacena por volta de 1786 (PAR-0018): "filho leg.[itimo]
+    de Gaspar Fer[reira] e de Gertrudes M[aria] [de Toledo], de [Villa] Rica". Sua
+    esposa é Gertrudes Maria de Toledo (P-0093, família F-0045). Nenhum registro
+    próprio localizado; nascimento, óbito e registros vitais próprios desconhecidos.
+    A filiação assenta na declaração informada no casamento do filho, não em um
+    registro de nascimento/batismo, portanto evidência forte.
+- text: >-
+    Nationality Brazilian: PAR-0018 places the family "de [Villa] Rica" (Vila Rica /
+    Ouro Preto, Minas Gerais) — the apparent origin of the family's "Ferreira" + "de
+    Toledo" surname. "Villa" is a bracketed/uncertain read on the ink-bled folio; no
+    explicit nacionalidade or birthplace of his own is otherwise stated.
+  text_pt: >-
+    Nacionalidade brasileira: PAR-0018 situa a família "de [Villa] Rica" (Vila Rica /
+    Ouro Preto, Minas Gerais) — a aparente origem do sobrenome "Ferreira" + "de
+    Toledo" da família. "Villa" é uma leitura entre colchetes/incerta no fólio
+    borrado por tinta; nenhuma nacionalidade ou local de nascimento próprio é de
+    outro modo declarado.
+profile: >-
+  **Gaspar Ferreira** — a stub ancestor named only as the father of Joaquim José
+  Ferreira de Toledo (P-0057) in his son's c.1786 Barbacena marriage act (PAR-0018):
+  "filho legítimo de Gaspar Ferreira e de Gertrudes Maria [de Toledo], de [Villa]
+  Rica". [PROVEN name via PAR-0018] His wife was Gertrudes Maria de Toledo (P-0093,
+  family F-0045). Brazilian — the record places the family "de Villa Rica" (Vila Rica
+  / Ouro Preto, Minas Gerais); the "Villa" read is bracketed/uncertain on the ink-bled
+  folio. No record of his own is located; birth, death and origin are unknown. [OPEN]
+profile_pt: >-
+  **Gaspar Ferreira** — um ancestral esboço, nomeado apenas como pai de Joaquim José
+  Ferreira de Toledo (P-0057) no assento de casamento do filho, em Barbacena por volta
+  de 1786 (PAR-0018): "filho legítimo de Gaspar Ferreira e de Gertrudes Maria [de
+  Toledo], de [Villa] Rica". [PROVEN, o nome, via PAR-0018] Sua esposa foi Gertrudes
+  Maria de Toledo (P-0093, família F-0045). Brasileiro — o registro situa a família
+  "de Villa Rica" (Vila Rica / Ouro Preto, Minas Gerais); a leitura de "Villa" está
+  entre colchetes/incerta no fólio borrado por tinta. Nenhum registro próprio
+  localizado; nascimento, óbito e origem desconhecidos. [OPEN]

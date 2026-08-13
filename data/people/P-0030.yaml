@@ -50,14 +50,14 @@ notes:
     ainda não foram localizados.
 - text: >-
     Birthday recorded as 16 December: the Nova Friburgo weekly A Sentinella (18 Dec
-    1898, NWS-0002) lists him among those who "fizeram annos … no dia 16". The day and
+    1898, NWS-0005) lists him among those who "fizeram annos … no dia 16". The day and
     month are thus documented, though not the year. The same paper (managed by his
     brother Guilherme Samuel Bohrer) shows him alive in 1898–1899, and its 4 Apr 1899
     notice records the death of his 13-year-old son Antonio José Bohrer (documented_child
     on F-0014).
   text_pt: >-
     Aniversário registrado em 16 de dezembro: o semanário friburguense A Sentinella
-    (18 dez. 1898, NWS-0002) o inclui entre os que "fizeram annos … no dia 16". O dia e
+    (18 dez. 1898, NWS-0005) o inclui entre os que "fizeram annos … no dia 16". O dia e
     o mês ficam assim documentados, embora não o ano. O mesmo jornal (dirigido por seu
     irmão Guilherme Samuel Bohrer) mostra-o vivo em 1898–1899, e sua nota de 4 abr. 1899
     registra o falecimento de seu filho de 13 anos, Antonio José Bohrer (filho
@@ -71,7 +71,7 @@ profile: >-
 
   - **Born:** "natural desta Freguezia" (Nova Friburgo, RJ) [PROVEN as stated] (CIV-0019);
   his birthday was 16 December — the weekly A Sentinella (18 December 1898) lists him among
-  those who "fizeram annos … no dia 16" (NWS-0002) [PROVEN of the day]. The year is not
+  those who "fizeram annos … no dia 16" (NWS-0005) [PROVEN of the day]. The year is not
   documented [OPEN]; a blog/tree lead gives ~1858–59.
 
   - **Parents:** Francisco José Bohrer (P-0034) and Rosa Eugenia de Lemos (P-0035) [PROVEN]
@@ -84,7 +84,7 @@ profile: >-
 
   - **Children:** documented — Alberto (b. 17 June 1890, CIV-0019); an infant son (b. 23
   December 1891, d. 29 January 1892, CIV-0020); Antonio José (d. 2 April 1899, aged 13, of
-  a jararacussú snakebite, NWS-0002); and Celina / Selina (P-0015), the ancestor of our
+  a jararacussú snakebite, NWS-0006); and Celina / Selina (P-0015), the ancestor of our
   line. [PROVEN]
 
   - **Death:** already deceased by 1924 — recorded "já falecidos" with his wife on his
@@ -100,7 +100,7 @@ profile: >-
   - He was alive and named in his family's paper A Sentinella in 1898–1899 (run by his
   brother Guilherme Samuel Bohrer), but only in a birthday notice and his son's death
   notice — suggesting a private tradesman rather than a public office-holder, unlike his
-  brothers. [INFERRED, NWS-0002]
+  brothers. [INFERRED, NWS-0005, NWS-0006]
 
   ## Family and social network
 
@@ -143,9 +143,10 @@ profile: >-
   ## Sources held (this repository)
 
   - CIV-0019 (son Alberto's 1890 birth — his parents, both grandparent couples, his trade
-  and residence) · CIV-0020 (infant son's 1891 birth and 1892 death) · NWS-0002 (A
-  Sentinella, 1898–99 — his 16 December birthday, his son Antonio José's death, his
-  mother's brother's death).
+  and residence) · CIV-0020 (infant son's 1891 birth and 1892 death) · NWS-0005 (A
+  Sentinella, 18 Dec 1898 — his 16 December birthday) · NWS-0006 (A Sentinella, 4 Apr 1899
+  — his son Antonio José's death) · NWS-0002 (A Sentinella, 1898 — his mother's brother
+  Manoel Pereira de Lemos's death).
 
   - PRB-0005 (his father Francisco José's 1888 will — names Joaquim firstborn; gives the
   Swiss immigrant grandparents) · PAR-0002 (his parents' 1879 marriage justification) ·
@@ -175,7 +176,7 @@ profile_pt: >-
 
   - **Nascimento:** "natural desta Freguezia" (Nova Friburgo, RJ) [PROVEN conforme
   declarado] (CIV-0019); seu aniversário era 16 de dezembro — o semanário A Sentinella (18
-  de dezembro de 1898) o inclui entre os que "fizeram annos … no dia 16" (NWS-0002) [PROVEN
+  de dezembro de 1898) o inclui entre os que "fizeram annos … no dia 16" (NWS-0005) [PROVEN
   quanto ao dia]. O ano não está documentado [OPEN]; uma pista de blog/árvore dá ~1858–59.
 
   - **Pais:** Francisco José Bohrer (P-0034) e Rosa Eugenia de Lemos (P-0035) [PROVEN] —
@@ -189,7 +190,7 @@ profile_pt: >-
 
   - **Filhos:** documentados — Alberto (n. 17 de junho de 1890, CIV-0019); um filho menino
   (n. 23 de dezembro de 1891, f. 29 de janeiro de 1892, CIV-0020); Antonio José (f. 2 de
-  abril de 1899, aos 13 anos, por mordedura de jararacussú, NWS-0002); e Celina / Selina
+  abril de 1899, aos 13 anos, por mordedura de jararacussú, NWS-0006); e Celina / Selina
   (P-0015), a ancestral de nossa linha. [PROVEN]
 
   - **Óbito:** já falecido em 1924 — registrado "já falecidos" com a esposa no nascimento
@@ -205,7 +206,7 @@ profile_pt: >-
   - Estava vivo e foi nomeado no jornal da família, A Sentinella, em 1898–1899 (dirigido
   por seu irmão Guilherme Samuel Bohrer), mas apenas em uma nota de aniversário e na nota
   de óbito de seu filho — o que sugere um comerciante reservado, e não um titular de cargo
-  público, ao contrário dos irmãos. [INFERRED, NWS-0002]
+  público, ao contrário dos irmãos. [INFERRED, NWS-0005, NWS-0006]
 
   ## Família e rede social
 
@@ -249,8 +250,9 @@ profile_pt: >-
 
   - CIV-0019 (nascimento de 1890 do filho Alberto — seus pais, os dois casais de avós, sua
   profissão e residência) · CIV-0020 (nascimento de 1891 e óbito de 1892 do filho menino) ·
-  NWS-0002 (A Sentinella, 1898–99 — seu aniversário em 16 de dezembro, o óbito do filho
-  Antonio José, o óbito do irmão de sua mãe).
+  NWS-0005 (A Sentinella, 18 dez. 1898 — seu aniversário em 16 de dezembro) · NWS-0006 (A
+  Sentinella, 4 abr. 1899 — o óbito do filho Antonio José) · NWS-0002 (A Sentinella, 1898 —
+  o óbito do irmão de sua mãe, Manoel Pereira de Lemos).
 
   - PRB-0005 (o testamento de 1888 de seu pai Francisco José — nomeia Joaquim primogênito;
   dá os avós imigrantes suíços) · PAR-0002 (a justificação de casamento de 1879 de seus

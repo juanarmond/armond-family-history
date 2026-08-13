@@ -31,6 +31,7 @@ event_ids:
 - E-0052
 family_ids:
 - F-0028
+- F-0045
 notes:
 - text: >-
     Father of Ladisláo Egídio Ferreira de Toledo (P-0056), confirmed by Ladisláo's own
@@ -77,16 +78,17 @@ notes:
 - text: >-
     His parents Gaspar Ferreira and Gertrudes Maria [de Toledo] are named in PAR-0018
     (Gaspar of Vila Rica / Ouro Preto — the apparent origin of the family's "Ferreira"
-    + "de Toledo" surname) but are not yet modelled as entities; recorded as a lead.
-    Nationality Brazilian (a Barbacena / Minas Gerais family); no explicit birthplace
-    of his own is stated in the located records.
+    + "de Toledo" surname) and are now modelled as P-0092 × P-0093 (family F-0045) on
+    strong (informant-reported) evidence from this marriage act. Nationality Brazilian
+    (a Barbacena / Minas Gerais family); no explicit birthplace of his own is stated in
+    the located records.
   text_pt: >-
     Seus pais Gaspar Ferreira e Gertrudes Maria [de Toledo] são nomeados em
     PAR-0018 (Gaspar de Vila Rica / Ouro Preto — a aparente origem do sobrenome
-    "Ferreira" + "de Toledo" da família), mas ainda não estão modelados como
-    entidades; registrados como pista. Nacionalidade brasileira (uma família de
-    Barbacena / Minas Gerais); nenhum local de nascimento próprio é declarado nos
-    registros localizados.
+    "Ferreira" + "de Toledo" da família) e agora estão modelados como P-0092 × P-0093
+    (família F-0045), com base em evidência forte (informada) deste assento de
+    casamento. Nacionalidade brasileira (uma família de Barbacena / Minas Gerais);
+    nenhum local de nascimento próprio é declarado nos registros localizados.
 profile: >-
   ## Identity
 
@@ -108,9 +110,9 @@ profile: >-
 
   - **Parents:** Gaspar Ferreira and Gertrudes Maria [de Toledo], of Vila Rica (Ouro
   Preto), are named in PAR-0018 — the apparent origin of the family's "Ferreira" + "de
-  Toledo" surname — but are not modelled; recorded as a lead. Nationality Brazilian (a
-  Barbacena / Minas Gerais family); no birthplace of his own is stated in the located
-  records.
+  Toledo" surname — and are now modelled as P-0092 × P-0093 (family F-0045) on
+  strong-evidence. Nationality Brazilian (a Barbacena / Minas Gerais family); no
+  birthplace of his own is stated in the located records.
 
   ## Standing and profession
 
@@ -212,9 +214,9 @@ profile_pt: >-
 
   - **Pais:** Gaspar Ferreira e Gertrudes Maria [de Toledo], de Vila Rica (Ouro Preto), são
   nomeados em PAR-0018 — a aparente origem do sobrenome "Ferreira" + "de Toledo" da família
-  — mas não estão modelados; registrados como pista. Nacionalidade brasileira (uma família
-  de Barbacena / Minas Gerais); nenhum local de nascimento próprio é declarado nos
-  registros localizados.
+  — e agora estão modelados como P-0092 × P-0093 (família F-0045), com base em evidência
+  forte. Nacionalidade brasileira (uma família de Barbacena / Minas Gerais); nenhum local
+  de nascimento próprio é declarado nos registros localizados.
 
   ## Posição social e profissão
 

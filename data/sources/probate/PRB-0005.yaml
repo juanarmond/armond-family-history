@@ -106,6 +106,9 @@ reliability:
 digital_file:
   path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p1.jpg
   sha256: 18e7879fe48128539ccf10077dbd1f193f49cf1667cd50ae1b392827e744188b
+additional_pages:
+- path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p2.jpg
+  sha256: 1113864bead1e5a49ea616f35266e7b0e80d2dffd6c07d165de9c782faf3c8fb
 linked_people:
 - P-0034
 - P-0035

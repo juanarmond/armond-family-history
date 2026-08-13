@@ -1,0 +1,63 @@
+schema_version: 1
+id: P-0094
+preferred_name: Manoel Nado Pestana
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: Manoel Nado Pestana
+  type: source
+  source_ids:
+  - PAR-0034
+event_ids: []
+family_ids:
+- F-0046
+notes:
+- text: >-
+    Named as the father of Isabel Ribeiro (P-0079) in her 22 February 1751 Borda do
+    Campo (Barbacena) marriage act (PAR-0034): "Isabel Ribeyro ... filha legitima de
+    Manoel Nado Pestana e de Anna Francisca". His wife is Anna Francisca (P-0095,
+    family F-0046). No record of his own is located. The parentage rests on the
+    informant-reported filiation in his daughter's marriage, not a birth/baptism,
+    hence strong-evidence.
+  text_pt: >-
+    Nomeado como pai de Isabel Ribeiro (P-0079) no assento de casamento dela, na Borda
+    do Campo (Barbacena) em 22 de fevereiro de 1751 (PAR-0034): "Isabel Ribeyro ...
+    filha legitima de Manoel Nado Pestana e de Anna Francisca". Sua esposa é Anna
+    Francisca (P-0095, família F-0046). Nenhum registro próprio localizado. A filiação
+    assenta na declaração informada no casamento da filha, não em um registro de
+    nascimento/batismo, portanto evidência forte.
+- text: >-
+    Nationality Portuguese (Azorean): his granddaughter Ritta Angélica's 1764 baptism
+    (PAR-0049) records him "natural da freguesia de Nossa Senhora do Rosário da Ilha de
+    São Jorge, Bispado de Angra [dos Açores]". This grandparent clause is ink-damaged
+    and read only tentatively — recorded in PAR-0049 and on P-0079 as a LEAD — so the
+    Azorean origin, and the Portuguese nationality resting on it, carry that
+    read-uncertainty; a clearer image or corroborating record would confirm it.
+  text_pt: >-
+    Nacionalidade portuguesa (açoriana): o batismo de 1764 de sua neta Ritta Angélica
+    (PAR-0049) o registra "natural da freguesia de Nossa Senhora do Rosário da Ilha de
+    São Jorge, Bispado de Angra [dos Açores]". Essa cláusula dos avós está danificada
+    por tinta e é lida apenas tentativamente — registrada em PAR-0049 e em P-0079 como
+    PISTA — de modo que a origem açoriana, e a nacionalidade portuguesa que nela se
+    assenta, carregam essa incerteza de leitura; uma imagem mais nítida ou registro
+    corroborante a confirmaria.
+profile: >-
+  **Manoel Nado Pestana** — a stub ancestor named only as the father of Isabel Ribeiro
+  (P-0079) in her 1751 Borda do Campo (Barbacena) marriage act (PAR-0034): "filha
+  legitima de Manoel Nado Pestana e de Anna Francisca". [PROVEN name via PAR-0034] His
+  wife was Anna Francisca (P-0095, family F-0046). Portuguese (Azorean) — his
+  granddaughter Ritta's 1764 baptism (PAR-0049) reads him "natural da freguesia de
+  N.S. do Rosário da Ilha de São Jorge" (Açores), but that grandparent clause is
+  ink-damaged and tentative (a LEAD), so the origin carries read-uncertainty. No record
+  of his own is located; birth and death are unknown. [OPEN]
+profile_pt: >-
+  **Manoel Nado Pestana** — um ancestral esboço, nomeado apenas como pai de Isabel
+  Ribeiro (P-0079) no assento de casamento dela, na Borda do Campo (Barbacena) em 1751
+  (PAR-0034): "filha legitima de Manoel Nado Pestana e de Anna Francisca". [PROVEN, o
+  nome, via PAR-0034] Sua esposa foi Anna Francisca (P-0095, família F-0046). Português
+  (açoriano) — o batismo de 1764 de sua neta Ritta (PAR-0049) o lê "natural da freguesia
+  de N.S. do Rosário da Ilha de São Jorge" (Açores), mas essa cláusula dos avós está
+  danificada por tinta e é tentativa (uma PISTA), de modo que a origem carrega incerteza
+  de leitura. Nenhum registro próprio localizado; nascimento e óbito desconhecidos.
+  [OPEN]

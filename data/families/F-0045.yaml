@@ -1,0 +1,49 @@
+schema_version: 1
+id: F-0045
+partners:
+- person_id: P-0092
+  role: spouse
+- person_id: P-0093
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0018
+  notes:
+  - text: >-
+      Gaspar Ferreira (P-0092) × Gertrudes Maria de Toledo (P-0093), named together as
+      the parents of the groom Joaquim José Ferreira de Toledo (P-0057) in his c.1786
+      Barbacena marriage act (PAR-0018): "filho leg.[itimo] de Gaspar Fer[reira] e de
+      Gertrudes M[aria] [de Toledo], de [Villa] Rica". No marriage record of their own
+      is located; the union rests on the informant-reported filiation in the son's
+      marriage, so strong-evidence rather than a confirmed marriage.
+children:
+- person_id: P-0057
+  parent_relationships:
+  - parent_id: P-0092
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - PAR-0018
+    notes: []
+  - parent_id: P-0093
+    relationship_type: unknown
+    status: strong-evidence
+    source_ids:
+    - PAR-0018
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Parents of Joaquim José Ferreira de Toledo (P-0057), named in his own c.1786
+    Barbacena marriage (PAR-0018) as "Gaspar Ferreira e ... Gertrudes Maria [de
+    Toledo], de [Villa] Rica". Extends Eliza's maternal Toledo line one generation
+    above P-0057. The parentage rests on the son's marriage filiation
+    (informant-reported), not a birth/baptism, hence strong-evidence.
+- text: >-
+    The family is placed "de [Villa] Rica" (Vila Rica / Ouro Preto, Minas Gerais) —
+    the apparent origin of the "Ferreira" + "de Toledo" surname; "Villa" and
+    Gertrudes's "de Toledo" surname are bracketed/uncertain reads on the ink-bled
+    PAR-0018 folio. No records of their own are located; a direct record for the
+    parentage would be Joaquim José's own ~1750s–60s Villa Rica baptism.
