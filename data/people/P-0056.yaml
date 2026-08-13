@@ -14,6 +14,7 @@ name_variants:
   type: source
   source_ids:
   - PAR-0017
+  - PAR-0050
 - value: Ladisláo
   type: birth
   source_ids:
@@ -21,6 +22,8 @@ name_variants:
 event_ids:
 - E-0050
 - E-0052
+- E-0077
+- E-0078
 family_ids:
 - F-0027
 - F-0028

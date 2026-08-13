@@ -1,0 +1,28 @@
+schema_version: 1
+id: E-0077
+event_type: baptism
+date:
+  kind: exact
+  value: "1813-03-10"
+  original_text: Aos dez de Março de mil oito centos e treze
+place_text: >-
+  Matriz de Nossa Senhora do Pilar, São João del Rei, Minas Gerais, Brazil
+participants:
+- person_id: P-0054
+  role: principal
+- person_id: P-0056
+  role: parent
+- person_id: P-0027
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0050
+notes:
+- text: >-
+    Baptism of the child "José" — José Cezário de Toledo Lima (P-0054) — on
+    10 March 1813 at the Matriz de N.S. do Pilar, São João del Rei, recorded as
+    the legitimate son of Ladislau Egídio Ferreira (P-0056) and Dona Mathildes
+    Maria de Jesus (P-0027), per the original register act (PAR-0050). His
+    earliest vital record. The child is entered under the single given name
+    "José"; identity rests on the exact double-parent match, the parish (where
+    the parents married in 1810, PAR-0023) and the date.

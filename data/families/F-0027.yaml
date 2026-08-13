@@ -29,15 +29,21 @@ children:
     relationship_type: biological
     status: confirmed
     source_ids:
+    - PAR-0050
     - PRB-0006
     notes:
     - text: >-
         José Cezário de Toledo Lima is heir #4 (a son) in his mother Mathilde's 1879
         inventory (PRB-0006).
+    - text: >-
+        His own 1813 baptism (PAR-0050, event E-0077) records him as the legitimate
+        son of Ladislau Egídio Ferreira and Dona Mathildes Maria de Jesus — the
+        primary, direct attestation of this parent edge.
   - parent_id: P-0056
     relationship_type: biological
     status: confirmed
     source_ids:
+    - PAR-0050
     - PRB-0004
     - PRB-0006
     - PRB-0009
@@ -46,6 +52,10 @@ children:
         PRB-0009 (1867 Ladisláo inventário) lists "Jose Cesario de Tolledo Lima,
         fallecido" as item 8 among Ladisláo's children, directly confirming Ladisláo
         as JC's father.
+    - text: >-
+        His own 1813 baptism (PAR-0050, event E-0077) names him "filho legitimo de
+        Ladislau Egidio Ferreira" — the primary, direct attestation of this parent
+        edge.
   notes: []
 - person_id: P-0061
   parent_relationships:

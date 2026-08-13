@@ -1,0 +1,31 @@
+schema_version: 1
+id: E-0078
+event_type: birth
+date:
+  kind: before
+  text: >-
+    Born on or shortly before his baptism on 10 March 1813; the baptism register
+    states no birth date.
+  latest: 1813
+place_text: >-
+  São João del Rei, Minas Gerais, Brazil (birthplace not stated in the baptism)
+participants:
+- person_id: P-0054
+  role: principal
+- person_id: P-0056
+  role: parent
+- person_id: P-0027
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0050
+notes:
+- text: >-
+    Birth of José Cezário de Toledo Lima (P-0054), established by his own baptism
+    (PAR-0050, 10 March 1813 at the Matriz de N.S. do Pilar, São João del Rei),
+    which names his parents Ladislau Egídio Ferreira (P-0056) and Dona Mathildes
+    Maria de Jesus (P-0027). The register records no birth date, so the birth is
+    dated only as on or shortly before the 10 March 1813 baptism; the birthplace
+    is not stated (presumably the São João del Rei area). This is the
+    pre-civil-registration birth record; it supersedes the earlier inference of a
+    1810s birth from his 1856 land declaration and 1867 heir status.

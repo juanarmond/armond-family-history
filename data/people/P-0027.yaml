@@ -19,6 +19,7 @@ name_variants:
   - PRB-0003
   - PAR-0017
   - PAR-0023
+  - PAR-0050
 - value: Mathilde Luiza de Toledo
   type: source
   source_ids:
@@ -26,6 +27,8 @@ name_variants:
 event_ids:
 - E-0052
 - E-0059
+- E-0077
+- E-0078
 family_ids:
 - F-0029
 - F-0027

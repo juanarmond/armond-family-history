@@ -19,6 +19,8 @@ name_variants:
   source_ids:
   - GOV-0003
 event_ids:
+- E-0077
+- E-0078
 - E-0054
 - E-0073
 family_ids:
@@ -95,9 +97,14 @@ profile: >-
   Maria José de Jesus), the inventariante of Mathilde's 1879 estate — near-identical
   names, distinct people (PRB-0006).
 
-  - **Birth:** not fixed by any held record [OPEN]; alive in April 1856 (GOV-0003) with
-  adult and teenage children by 1867, implying a birth in the 1810s. A retrieval draft
-  reads a 10 March 1813 São João del Rei baptism — [LEAD], not catalogued.
+  - **Birth / baptism:** baptised 10 March 1813 at the Matriz de N.S. do Pilar, São João
+  del Rei [PROVEN — PAR-0050, events E-0077 (baptism) / E-0078 (birth)], recorded as the
+  legitimate son of Ladislau Egídio Ferreira (P-0056) and Dona Mathildes Maria de Jesus
+  (P-0027); born on or shortly before that date (the register states no birth date). He is
+  entered under the single given name "José", so the identification rests on the exact
+  double-parent match, the parish (where the parents married in 1810, PAR-0023) and the
+  date — consistent with his being alive in April 1856 (GOV-0003) with adult and teenage
+  children by 1867. This settles the birth previously left open.
 
   - **Marriage:** ⚭ Claudina Brandina de Jesus (P-0055), family F-0026; the marriage act
   is not held.
@@ -173,15 +180,17 @@ profile: >-
 
   ## Open questions
 
-  - His birth/baptism and the exact death year (the "2 September" of Claudina's
-  declaration). [OPEN]
+  - The exact death year (the "2 September" of Claudina's declaration). [OPEN] His
+  birth/baptism is now fixed — 10 March 1813, São João del Rei (PAR-0050).
 
   - His marriage to Claudina, and Claudina's own parentage. [OPEN]
 
   ## Sources held (this repository)
 
-  - GOV-0003 (1856 Lei de Terras, Nº 145 — Concórdia landholder; mother alive in April
-  1856) · PRB-0008 (1867 joint inventário of JC and Claudina — cover names both; nine
+  - PAR-0050 (1813 São João del Rei baptism — his earliest vital record; legitimate son of
+  Ladislau Egídio Ferreira × Mathildes Maria de Jesus) · GOV-0003 (1856 Lei de Terras,
+  Nº 145 — Concórdia landholder; mother alive in April 1856) · PRB-0008 (1867 joint
+  inventário of JC and Claudina — cover names both; nine
   children) · PRB-0009 (1867 Ladisláo inventário — JC as deceased item 8; his
   representantes listed) · PRB-0006 (1879 Matilde inventário — heir #4 JC × Claudina;
   Eliza as representante #5) · PRB-0004 (undated Concórdia / São Bento deed — Toledo
@@ -214,10 +223,14 @@ profile_pt: >-
   Maria José de Jesus), o inventariante do espólio de Mathilde de 1879 — nomes quase
   idênticos, pessoas distintas (PRB-0006).
 
-  - **Nascimento:** não fixado por nenhum registro disponível [OPEN]; vivo em abril de
-  1856 (GOV-0003), com filhos adultos e adolescentes em 1867, o que implica um nascimento
-  na década de 1810. Um rascunho de recuperação lê um batismo de 10 de março de 1813 em
-  São João del Rei — [LEAD], não catalogado.
+  - **Nascimento / batismo:** batizado em 10 de março de 1813 na Matriz de N.S. do Pilar,
+  São João del Rei [PROVEN — PAR-0050, eventos E-0077 (batismo) / E-0078 (nascimento)],
+  registrado como filho legítimo de Ladislau Egídio Ferreira (P-0056) e Dona Mathildes
+  Maria de Jesus (P-0027); nascido em, ou pouco antes de, essa data (o registro não declara
+  data de nascimento). Lançado sob o único prenome "José", de modo que a identificação
+  assenta-se na correspondência exata dos dois pais, na paróquia (onde os pais se casaram
+  em 1810, PAR-0023) e na data — coerente com estar vivo em abril de 1856 (GOV-0003) e ter
+  filhos adultos e adolescentes em 1867. Isso resolve o nascimento antes em aberto.
 
   - **Casamento:** ⚭ Claudina Brandina de Jesus (P-0055), família F-0026; o assento de
   casamento não está disponível.
@@ -297,15 +310,17 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seu nascimento/batismo e o ano exato do óbito (o "2 de setembro" da declaração de
-  Claudina). [OPEN]
+  - O ano exato do óbito (o "2 de setembro" da declaração de Claudina). [OPEN] Seu
+  nascimento/batismo está agora fixado — 10 de março de 1813, São João del Rei (PAR-0050).
 
   - Seu casamento com Claudina e a própria filiação de Claudina. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
-  - GOV-0003 (Lei de Terras de 1856, Nº 145 — proprietário na Concórdia; mãe viva em abril
-  de 1856) · PRB-0008 (inventário conjunto de 1867 de JC e Claudina — a capa nomeia ambos;
+  - PAR-0050 (batismo de 1813 em São João del Rei — seu registro vital mais antigo; filho
+  legítimo de Ladislau Egídio Ferreira × Mathildes Maria de Jesus) · GOV-0003 (Lei de
+  Terras de 1856, Nº 145 — proprietário na Concórdia; mãe viva em abril de 1856) · PRB-0008
+  (inventário conjunto de 1867 de JC e Claudina — a capa nomeia ambos;
   nove filhos) · PRB-0009 (inventário de Ladisláo de 1867 — JC como falecido item 8; seus
   representantes listados) · PRB-0006 (inventário de Mathilde de 1879 — herdeiro nº 4 JC ×
   Claudina; Eliza como representante nº 5) · PRB-0004 (escritura sem data da Concórdia / São

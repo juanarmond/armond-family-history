@@ -3795,3 +3795,43 @@ documents:
         consortium held by his father-in-law Ladisláo Egídio Ferreira de Toledo
         (P-0056) — corroborates his Leopoldina/Toledo presence in 1881. Promoted
         to NWS-0004.
+  - inventory_id: DOC-0096
+    status: catalogued
+    added_date: "2026-08-13"
+    apparent_record_type: Parish baptism register entry (São João del Rei, 1813)
+    apparent_people:
+      - José Cezário de Toledo Lima
+      - Ladisláo Egydio Ferreira de Toledo
+      - Mathildes Maria de Jesus
+    apparent_event: baptism
+    image_quality: partly-illegible
+    provenance: >-
+      Livro de batismos, Matriz de Nossa Senhora do Pilar (São João del Rei),
+      MG; folio 54, right-hand page (margin name "Jose"). FamilySearch collection
+      2177275, image i=54 (ARK 3:1:939N-GCWJ-Z). Register image retrieved through
+      the research/from-retrieval/ sync (authorised session) and read directly
+      from the (faded, ink-bled) image on 13 Aug 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0050-jose-cesario-de-toledo-lima-baptism-1813-sjdrei.jpg
+        sha256: 9b84162db6415cde5fd523e4d3b56032fed620f5d07fbf5626338ba1bde88ab5
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+          pixel_width: 4564
+          pixel_height: 3012
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0050
+    notes:
+      - >-
+        Baptism of the child "José" — José Cezário de Toledo Lima (P-0054),
+        10 March 1813, legitimate son of Ladislau Egídio Ferreira (P-0056) and
+        Dona Mathildes Maria de Jesus (P-0027). His earliest vital record; core
+        facts read directly from the faded image. Promoted to PAR-0050
+        (events E-0077 baptism / E-0078 birth). A separate entry lower on the
+        same page baptises another "José" (14 March 1813, son of the enslaved
+        woman Silvana) — not this person.
