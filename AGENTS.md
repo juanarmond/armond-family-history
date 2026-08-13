@@ -147,6 +147,10 @@ follow the per-field **person completeness checklist** in
   do **not** leave them in prose or demote them to `documented_children` (that
   mechanism is for collateral *children*, below). Model only the clearly deceased,
   and never mint an ancestor from a collaborative tree or published genealogy alone.
+  Run `uv run --frozen make ancestors-audit` to catch the gap: it flags any subject
+  of a held vital record that still lacks a parentage family. When a note already
+  records the parents as unlocated, lead-only, or absent from the record, keep that
+  note so the audit reads the omission as deliberate.
 - Extract every attribute a record **states** about a modelled person and cite the
   record at that assertion: `nationality` (a stated *nacionalidade*, or a stated
   foreign *naturalidade* such as "natural de Portugal / Suíça"), `occupations`,

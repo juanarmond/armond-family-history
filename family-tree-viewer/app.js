@@ -534,12 +534,16 @@ function naturalSize() {
 
 function applyZoom() {
   const { w, h } = naturalSize();
+  // Never zoom out past the point where the tree already fits the width — below that is
+  // just empty margin. The fit floor is itself never below 25% (MIN_ZOOM).
+  const floor = computeFitZoom();
+  state.zoom = clamp(state.zoom, floor, MAX_ZOOM);
   elements.treeStage.style.transform = `scale(${state.zoom})`;
   elements.treeSizer.style.width = `${w * state.zoom}px`;
   elements.treeSizer.style.height = `${h * state.zoom}px`;
   elements.zoomLevel.textContent = `${Math.round(state.zoom * 100)}%`;
   elements.zoomIn.disabled = state.zoom >= MAX_ZOOM - 1e-3;
-  elements.zoomOut.disabled = state.zoom <= MIN_ZOOM + 1e-3;
+  elements.zoomOut.disabled = state.zoom <= floor + 1e-3;
 }
 
 function centerScroll() {
@@ -548,13 +552,19 @@ function centerScroll() {
   viewport.scrollTop = 0;
 }
 
-function fitZoom() {
+// The zoom at which the whole tree fits the viewport width — floored at 25% (MIN_ZOOM) and
+// never magnifying past 100% (FIT_MAX_ZOOM). This doubles as the zoom-out floor.
+function computeFitZoom() {
   const viewport = elements.treeViewport;
   const { w } = naturalSize();
   const styles = getComputedStyle(viewport);
   const padX = parseFloat(styles.paddingLeft) + parseFloat(styles.paddingRight);
   const available = Math.max(1, viewport.clientWidth - padX);
-  state.zoom = clamp(w ? available / w : 1, MIN_ZOOM, FIT_MAX_ZOOM);
+  return clamp(w ? available / w : 1, MIN_ZOOM, FIT_MAX_ZOOM);
+}
+
+function fitZoom() {
+  state.zoom = computeFitZoom();
   state.autoFit = true;
   applyZoom();
   centerScroll();
@@ -569,7 +579,7 @@ function setZoom(nextZoom, anchor) {
   const ay = anchor ? anchor.y : viewport.clientHeight / 2;
   const fracX = (viewport.scrollLeft + ax) / Math.max(1, w * previous);
   const fracY = (viewport.scrollTop + ay) / Math.max(1, h * previous);
-  state.zoom = clamp(nextZoom, MIN_ZOOM, MAX_ZOOM);
+  state.zoom = clamp(nextZoom, computeFitZoom(), MAX_ZOOM);
   applyZoom();
   viewport.scrollLeft = fracX * w * state.zoom - ax;
   viewport.scrollTop = fracY * h * state.zoom - ay;

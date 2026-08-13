@@ -1,4 +1,4 @@
-.PHONY: check test validate profiles-audit export export-bundle export-legacy
+.PHONY: check test validate profiles-audit ancestors-audit export export-bundle export-legacy
 
 PYTHON ?= python3
 
@@ -12,6 +12,12 @@ validate:
 # `make check`; run it when processing a drop. Exits 0 unless --strict.
 profiles-audit:
 	$(PYTHON) scripts/profile_sync_audit.py
+
+# Advisory: flag people who are the subject of their own vital record but have no
+# parentage family — candidates whose record may name parents/grandparents still to
+# be modelled (AGENTS.md, Entity connectivity). Heuristic; exits 0 unless --strict.
+ancestors-audit:
+	$(PYTHON) scripts/ancestor_gap_audit.py
 
 test:
 	$(PYTHON) -m unittest discover -s tests -v
