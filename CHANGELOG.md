@@ -5,6 +5,18 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — "Uncertain reading" badge is now material-only (2026-08-13)
+
+- The Sources list's **"Leitura incerta / Uncertain reading"** badge previously fired on **any** `[uncertain]`/`[illegible]`/`[torn]`/`[stain]` marker in a transcription, so a fully-readable record was branded doubtful over a peripheral word (a witness's bairro, an attesting doctor's initial, an ID digit, or an a/o spelling variant) — it cried wolf.
+- The badge is now **curated per source** via a new optional schema field `reading_reliability: complete | partial`. It shows **only** when a **core genealogical fact** could not be read (`partial`): the subject's own name, a parent/spouse/child kin name that establishes a modelled link, the principal event's date or place, or the subject's only birth-year anchor. Peripheral gaps are `complete` → no badge. The inline `[uncertain: …]` marks stay in the transcript, so nothing is hidden — only the loud document-level flag is now reserved for material cases.
+- Classified all **28** sources carrying gap markers (4 parallel agents, spot-checked centrally): **3 `partial`** (CIV-0002 groom's father's name + years torn away; PAR-0033 illegible mother + date; PAR-0038 illegible baptized child's own name), **24 `complete`**, and **1** (PRB-0007) left unset because its markers are in the abstract, not the transcription.
+- Wiring: `schemas/source.schema.json` (new enum), `family-tree-viewer/data-loader.js` (`uncertain: reading_reliability === "partial"`), and the JS data-loader test rewritten for the new semantics. `make check` green.
+
+### Changed — Redacted a living declarant's ID/address in CIV-0003; resolved CIV-0005 "Ignorada" (2026-08-13)
+
+- **CIV-0003** (Geraldo's 1991 death) transcribed the **living** declarant Luís Carlos Ignacio Armond (P-0002) full ID number and home address. Per the privacy rule — and consistent with the deceased subject's address already being redacted — the living declarant's C.I. number and street are now omitted (name/age/profession kept). This also cleared two peripheral uncertainty markers that sat inside the redacted PII.
+- **CIV-0005:** resolved `[uncertain: Ignorada]` → "Ignorada" (a standard term, parallel to the father's already-clear "natural de Ignorado"). GEDCOM regenerated.
+
 ### Changed — Fully transcribed the 13 FAN context records; resolved clear uncertainty markers (2026-08-13)
 
 - **FAN full transcriptions:** each FAN reference held only the FamilySearch Full-Text **OCR snippet** (~250 chars around the family member's name), though a full-page high-resolution scan existed on disk for every one. Fully transcribed all **13 FANs** from their scan images (4 parallel agents), preserving original spelling and marking only genuinely-illegible words; two ledgers (FAN-0002, FAN-0012) were checksum-verified against their printed totals. Corrected FAN-0010's OCR'd co-witness in the abstract ("Henrique Martins" → a German surname read from the image, "Haitenreiter", spelling uncertain).

@@ -182,6 +182,14 @@
     "transcription_pt": {
       "type": "string"
     },
+    "reading_reliability": {
+      "description": "How completely the record's CORE genealogical facts could be read. 'complete' = every core fact (the subject, the event, its date and place, and any modelled kin named) is legible; inline [uncertain]/[illegible] marks, if any, fall only on peripheral text (a witness/godparent/declarant/attesting-physician/appraiser name, an ID/registration/folio number, a street or bairro, a stamp or marginal annotation, or a mere spelling/digit variant of something already identified). 'partial' = at least one core fact could not be read with certainty. The viewer shows the 'uncertain reading' badge only when this is 'partial'. Omit it when the transcription carries no gap markers at all.",
+      "type": "string",
+      "enum": [
+        "complete",
+        "partial"
+      ]
+    },
     "abstract": {
       "type": "string",
       "minLength": 1

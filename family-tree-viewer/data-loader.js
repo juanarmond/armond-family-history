@@ -272,10 +272,11 @@ export function projectTreeData({ people, families, events, places, sources, fan
     if (["jpg", "jpeg", "png", "tif", "tiff", "gif", "webp"].includes(ext)) return "image";
     return "other";
   };
-  // A source carries an unresolved reading when its transcription marks a genuine
-  // gap/uncertainty ([torn], [stain], [illegible], [uncertain: …]).
-  const hasUncertainty = (txn) =>
-    typeof txn === "string" && /\[(?:torn|stain|illegible|ileg[íi]ve\w*|uncertain)\b/i.test(txn);
+  // A source is flagged as an "uncertain reading" only when a CORE genealogical
+  // fact could not be read — recorded explicitly per source as
+  // `reading_reliability: partial`. Peripheral gap markers (a witness's bairro, an
+  // attesting doctor's initial, an ID digit, a spelling variant) stay inline in the
+  // transcript but do NOT brand the whole record; those sources are `complete`.
   const sourceView = Object.fromEntries(
     Object.entries(sources).map(([sourceId, source]) => {
       const rawPath = source.digital_file?.path || source.repository?.repository_path || null;
@@ -297,7 +298,7 @@ export function projectTreeData({ people, families, events, places, sources, fan
         involvesLiving: (source.linked_people || []).some(
           (pid) => (people[pid]?.privacy) === "living",
         ),
-        uncertain: hasUncertainty(source.transcription),
+        uncertain: source.reading_reliability === "partial",
         transcription:
           typeof source.transcription === "string" && source.transcription.trim()
             ? source.transcription.trim()

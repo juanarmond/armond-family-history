@@ -411,7 +411,7 @@ test("a person's sources are ordered by life event, supporting records last", ()
   assert.deepEqual(order, ["CIV-b", "CIV-m", "CIV-d", "PUB-1"]);
 });
 
-test("an uncertain transcription flags the source but not the person; only explicit conflict notes flag hasConflict", () => {
+test("only a material reading gap (reading_reliability: partial) flags the source; peripheral inline markers do not, and neither flags the person", () => {
   const input = {
     people: {
       "P-1": { id: "P-1", preferred_name: "A", privacy: "deceased", name_variants: [], event_ids: [], family_ids: [], notes: [] },
@@ -422,21 +422,28 @@ test("an uncertain transcription flags the source but not the person; only expli
     events: {},
     places: {},
     sources: {
-      "CIV-1": { title: "x", transcription: "compareceu [uncertain: Fulano] de tal", linked_people: ["P-1"] },
-      "CIV-2": { title: "y", transcription: "a clean, fully legible reading", linked_people: ["P-3"] },
+      // A core fact is unreadable → explicitly recorded as partial → flagged.
+      "CIV-1": { title: "x", transcription: "faleceu [illegible] de tal", reading_reliability: "partial", linked_people: ["P-1"] },
+      // A peripheral marker only (a witness), reviewed and recorded complete → NOT flagged.
+      "CIV-2": { title: "y", transcription: "testemunha [uncertain: Fulano] de tal", reading_reliability: "complete", linked_people: ["P-3"] },
+      // No gap markers and no field set → NOT flagged.
+      "CIV-3": { title: "z", transcription: "a clean, fully legible reading", linked_people: ["P-3"] },
     },
     fan: {},
   };
   const data = projectTreeData(input);
-  // Uncertain transcription is flagged on the source itself.
+  // The badge fires only on an explicit material gap.
   assert.equal(data.sources["CIV-1"].uncertain, true);
+  // A peripheral inline marker no longer brands the whole record.
   assert.equal(data.sources["CIV-2"].uncertain, false);
-  // An uncertain transcription does NOT flag hasConflict on the person card —
-  // illegible words are a source-quality note, already shown in the detail panel.
+  // No markers, no field → clean.
+  assert.equal(data.sources["CIV-3"].uncertain, false);
+  // A source reading gap does NOT flag hasConflict on the person card —
+  // it is a source-quality note, already shown in the detail panel.
   assert.equal(data.people["P-1"].hasConflict, false);
   // An explicit conflict/unresolved note in the person's notes DOES flag hasConflict.
   assert.equal(data.people["P-2"].hasConflict, true);
-  // No conflict note and no uncertain source → not flagged.
+  // No conflict note and no flagged source → not flagged.
   assert.equal(data.people["P-3"].hasConflict, false);
 });
 
