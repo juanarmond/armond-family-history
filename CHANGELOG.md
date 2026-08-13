@@ -5,6 +5,13 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — Fully transcribed the 13 FAN context records; resolved clear uncertainty markers (2026-08-13)
+
+- **FAN full transcriptions:** each FAN reference held only the FamilySearch Full-Text **OCR snippet** (~250 chars around the family member's name), though a full-page high-resolution scan existed on disk for every one. Fully transcribed all **13 FANs** from their scan images (4 parallel agents), preserving original spelling and marking only genuinely-illegible words; two ledgers (FAN-0002, FAN-0012) were checksum-verified against their printed totals. Corrected FAN-0010's OCR'd co-witness in the abstract ("Henrique Martins" → a German surname read from the image, "Haitenreiter", spelling uncertain).
+- **Uncertainty markers:** re-read the scans of 38 documents and **resolved ~30 `[uncertain]`/`[illegible]` markers that were clearly legible** (125 → 95 remaining), leaving genuinely worn/ambiguous readings and the "SEM VALOR LEGAL" certification stamps untouched (5 parallel agents). Follow-ups applied: harmonised CIV-0014's `informant` (Ossilon, now confirmed), reconciled PAR-0004's godmother ("Anna" → "Lina") in the abstract/notes, and synced PRB-0009's `transcription_pt` with the readings resolved in `transcription` (Antonio Zeferino, José Pedro da Silva, Maria Joaquina, Cesário José / Maria José).
+- **Flagged for a later evidence pass, deliberately NOT changed:** PAR-0025 birth-day ("doze"/12 may read "dezaseis"/16 — affects a collateral's date); PRB-0009 conflict #15 (item 4 "vi[vo/úvo]" → likely "viúvo"; "Marciana Espronde" → likely "Marianna Eufragia"); CIV-0018's declarant government-ID numbers (a possibly-living third party — privacy); FAN-0004's internal date (26 July 1900 vs the volume-year 1904 in `event_date`).
+- `make check` green; GEDCOM regenerated.
+
 ### Changed — Sources list is compact and ordered person-first (2026-08-13)
 
 - The Sources ("Fontes") list no longer prints the full **transcript inline** — the transcript stays in the document reader ("Ler documento"), shown beside the scan image. The list keeps the concise abstract and the limitation note, so each source is far more compact. (Same for the FAN references list.)
