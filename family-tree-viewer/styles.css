@@ -1157,6 +1157,27 @@ button.source-link { cursor: pointer; }
 .portrait .tier-proven, .portrait .tier-documented { color: #1c6b3f; background: rgba(28, 107, 63, .12); }
 .portrait .tier-inferred, .portrait .tier-strong { color: #8a5a12; background: rgba(169, 132, 63, .15); }
 .portrait .tier-lead, .portrait .tier-open, .portrait .tier-contextual { color: #8a3b2e; background: rgba(138, 59, 46, .12); }
+.portrait .tier-resolved { color: #1c6b3f; background: rgba(28, 107, 63, .12); }
+.portrait .tier-approx { color: #8a5a12; background: rgba(169, 132, 63, .15); }
+.portrait .tier-unlocated, .story-content .tier-unlocated { color: #8a3b2e; background: rgba(138, 59, 46, .12); }
+.story-content .tier { font-family: var(--mono, monospace); font-size: .72em; font-weight: 600; border-radius: 3px; padding: 0 .28em; white-space: nowrap; }
+.story-content .tier-proven, .story-content .tier-documented, .story-content .tier-resolved { color: #1c6b3f; background: rgba(28, 107, 63, .12); }
+.story-content .tier-inferred, .story-content .tier-strong, .story-content .tier-approx { color: #8a5a12; background: rgba(169, 132, 63, .15); }
+.story-content .tier-lead, .story-content .tier-open, .story-content .tier-contextual { color: #8a3b2e; background: rgba(138, 59, 46, .12); }
+
+/* Profile/story inline links; Google Maps links (the "Where to go today" section)
+   render as tappable 📍 map chips on desktop and mobile. */
+.portrait .portrait-link, .story-content .portrait-link { color: var(--green-deep); text-underline-offset: 2px; }
+.portrait .portrait-link:hover, .story-content .portrait-link:hover { color: var(--gold); }
+.portrait a.portrait-maplink, .story-content a.portrait-maplink {
+  display: inline-flex; align-items: center; gap: .15em;
+  font-family: var(--sans); font-size: .82em; font-weight: 600; text-decoration: none;
+  color: var(--green-deep); background: var(--gold-soft, rgba(169, 132, 63, .14));
+  border: 1px solid var(--gold); border-radius: 999px;
+  padding: .1em .6em; margin: 0 .05em; line-height: 1.6; white-space: nowrap; vertical-align: baseline;
+}
+.portrait a.portrait-maplink:hover, .story-content a.portrait-maplink:hover { background: var(--gold); color: var(--green-deep); }
+body.is-mobile .portrait a.portrait-maplink, body.is-mobile .story-content a.portrait-maplink { padding: .32em .72em; font-size: .9em; }
 
 /* "More details" link under the biography → opens the Portrait layer */
 .portrait-more { margin: -.35rem 0 .1rem; }

@@ -850,28 +850,39 @@ function renderTranscript(container, text) {
 }
 
 // Render an evidence-tiered "Portrait" narrative as light markdown: `## `/`### `
-// headings, `- ` bullet lists, blank-line paragraphs, `**bold**`, `---` rules, and
-// [PROVEN]/[INFERRED]/[LEAD]/[CONTEXTUAL]/[DOCUMENTED]/[OPEN]/[STRONG] evidence tags
-// styled as chips. Built from DOM nodes (no innerHTML).
+// headings, `- ` bullet lists, blank-line paragraphs, `**bold**`, `*italic*`, `---`
+// rules, `[label](url)` links (Google Maps links rendered as 📍 chips), and
+// [PROVEN]/[INFERRED]/[LEAD]/[CONTEXTUAL]/[DOCUMENTED]/[OPEN]/[STRONG]/[RESOLVED]/[APPROX]
+// evidence tags styled as chips. Built from DOM nodes (no innerHTML).
 function renderPortrait(container, text) {
   container.textContent = "";
   const inline = (parent, s) => {
-    const re = /\*\*(.+?)\*\*|\*(?!\*)([^*]+?)\*|\[(PROVEN|INFERRED|LEAD|CONTEXTUAL|DOCUMENTED|OPEN|STRONG)\]/g;
+    const re = /\[([^\]]+?)\]\((https?:\/\/[^)\s]+)\)|\*\*(.+?)\*\*|\*(?!\*)([^*]+?)\*|\[(PROVEN|INFERRED|LEAD|CONTEXTUAL|DOCUMENTED|OPEN|STRONG|RESOLVED|APPROX|UNLOCATED)(?:[^\]]*)?\]/g;
     let last = 0;
     let m;
     while ((m = re.exec(s)) !== null) {
       if (m.index > last) parent.appendChild(document.createTextNode(s.slice(last, m.index)));
       if (m[1] !== undefined) {
+        // [label](url) → external link; Google Maps links styled as a map chip
+        const a = document.createElement("a");
+        a.href = m[2];
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        const isMap = /(?:google\.[^/]*\/maps|maps\.google|maps\.app\.goo)/i.test(m[2]);
+        a.className = isMap ? "portrait-link portrait-maplink" : "portrait-link";
+        a.textContent = isMap ? "📍 " + m[1] : m[1];
+        parent.appendChild(a);
+      } else if (m[3] !== undefined) {
         const b = document.createElement("strong");
-        b.textContent = m[1];
+        b.textContent = m[3];
         parent.appendChild(b);
-      } else if (m[2] !== undefined) {
+      } else if (m[4] !== undefined) {
         const em = document.createElement("em");
-        em.textContent = m[2];
+        em.textContent = m[4];
         parent.appendChild(em);
       } else {
         const span = document.createElement("span");
-        span.className = "tier tier-" + m[3].toLowerCase();
+        span.className = "tier tier-" + m[5].toLowerCase();
         span.textContent = m[0];
         parent.appendChild(span);
       }
