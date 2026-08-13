@@ -618,9 +618,20 @@ export function projectTreeData({ people, families, events, places, sources, fan
       .filter((value) => typeof value === "string");
     const notes = living ? [] : noteTexts(person.notes || []);
     const ownRank = personSourceRank[personId] || {};
-    // Own vital records first (rank 0–4 by vital type); every record that only
-    // mentions this person comes after, ordered by the source's own vital rank.
-    const orderRank = (sid) => (ownRank[sid] !== undefined ? ownRank[sid] : 10 + (sourceRank[sid] ?? 6));
+    // FONTES ordering rule (owner-defined): a person's OWN records first
+    // (birth/baptism, then marriage, then death), then the birth/baptism/marriage/
+    // death certificates (civil/parish) that only MENTION them (e.g. a child's),
+    // and finally everything else — probate, published genealogy (PUB), government
+    // (GOV), newspaper, … that is not the person's own record — LAST.
+    //   0–4    own record, by vital type (birth/baptism, marriage, death)
+    //   11–16  a civil/parish vital certificate that only mentions them, by vital type
+    //   30     non-vital context not about the person (probate, PUB, GOV, press, …)
+    const VITAL_CATS = new Set(["civil_registration", "parish_register"]);
+    const orderRank = (sid) => {
+      if (ownRank[sid] !== undefined) return ownRank[sid];
+      const cat = (sources[sid] || {}).record_category;
+      return VITAL_CATS.has(cat) ? 10 + (sourceRank[sid] ?? 6) : 30;
+    };
     const sourceIds = [...(personSourceIds[personId] || [])].sort(
       (a, b) =>
         orderRank(a) - orderRank(b) ||
