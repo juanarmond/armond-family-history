@@ -116,12 +116,14 @@ documented_children:
   note: >-
     Child #5 of Ladisláo × Mathilde per PRB-0009-gen1; appears as Curador of JC's
     minor children in both PRB-0008 and PRB-0009. Not modelled; not a direct-line
-    ancestor. CONFLICT — wife name: PRB-0009 reading gives "Marciana Espro[n?]de de
-    Toledo"; the p5b folio of PRB-0006 (image read 2026-08-07) gives "Marianna
-    Euphragia de Tolledo, já fallecida" with residence at S. Sebastião dos Aflitos,
-    termo de Santa Rita do Turvo. The PRB-0009 reading may be a misread, or Aureliano
-    was twice-married (widowed by 1879). Requires direct re-check of PRB-0009.
-    PRB-0006 as the primary (1879 judicial) source is preferred where readable.
+    ancestor. WIFE NAME (conflict reduced 2026-08-13): a high-magnification re-read
+    of PRB-0009 now reads Aureliano's wife as "D. Marianna" in the p3 herdeiros
+    citation list — consistent with the p5b folio of PRB-0006 (image read 2026-08-07),
+    which gives "Marianna Euphragia de Tolledo, já fallecida" (residence S. Sebastião
+    dos Aflitos, termo de Santa Rita do Turvo). Both sources now agree on the forename
+    "Marianna"; the gen1 título's earlier uncertain read "Marciana Espro[n?]de de
+    Tolledo" is superseded by this re-read. PRB-0006 (the 1879 judicial source) remains
+    preferred for the fuller name "Marianna Euphragia".
 - name: Cezário [José] de Toledo
   source_ids:
   - PRB-0006
@@ -144,11 +146,11 @@ documented_children:
     Mathilde: in Mathilde's 1879 inventory (PRB-0006), her children represent her as
     heir #3 ("de M.a Perpetua nº 3"). The earlier F-0027 entry incorrectly listed
     her husband Antonio Zeferino as the child; corrected 7 August 2026. Not modelled.
-- name: Ignez Mettelina de Toledo
+- name: Ignez Umbelina de Toledo
   source_ids:
   - PRB-0009
   note: >-
-    Child #2 of Ladisláo × Mathilde per PRB-0009-gen1 ("Ignez Mettelina de Tolledo,
+    Child #2 of Ladisláo × Mathilde per PRB-0009-gen1 ("Ignez Umbelina de Tolledo,
     casada com [João?] Pedro da Silva"). Not modelled; not a direct-line ancestor.
 event_ids:
 - E-0052
@@ -162,7 +164,7 @@ notes:
     once PRB-0006 Film 2 triage confirmed Eliza as JC's daughter (see F-0026, P-0017).
 - text: >-
     Per PRB-0009 (1867 Ladisláo inventário), Ladisláo and Mathilde had at least eight
-    children: (1) Maria Perpétua (⚭ Antonio Zeferino de Toledo); (2) Ignez Mettelina
+    children: (1) Maria Perpétua (⚭ Antonio Zeferino de Toledo); (2) Ignez Umbelina
     (⚭ João? Pedro da Silva); (3) Carolina Leopoldina Marques (⚭ Narcísio Marques
     Braz); (4) Francisco Leocádio — modelled as P-0061; (5) Aureliano de Sales
     Toledo; (6) Cezário [José] de Toledo; (7) António Ladislão de Toledo (surdo e
