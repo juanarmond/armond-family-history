@@ -5,6 +5,12 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Multi-page document reconciliation + `make drop-pages-audit` (2026-08-13)
+
+- Completed every catalogued multi-part document so the viewer shows **all** its pages and the transcription reads as **one continuous account**: **FAN-0010** (1903 Muriaé hypothec deed, 1→3 pages — previously only the closing folio), **FAN-0012** (1917 rateio) and **FAN-0013** (1922 audiência) each 1→2 pages, **PAR-0036** (1716 Ruivães marriage, + the closing folio), **PRB-0006** (Matilde 1879 inventário, 1→8 folios), **PRB-0010** (Rita 1833 inventário, 3→6 folios), and **PUB-0003** (the Bon compilation, which had *no* evidence files linked at all — all 6 cited images promoted). One near-blank verso (PRB-0006 p0) was reviewed and excluded with a note.
+- **Prevention:** `scripts/drop_page_audit.py` (`make drop-pages-audit`) cross-references by **sha256** to flag any catalogued source/FAN whose sibling pages are still sitting in the retrieval drop — the "the deed has three pages but only one shows" gap the file-layer validator cannot see (it skips a document that already links a better-quality copy of a page). AGENTS.md's "do your work" cycle now requires cataloguing every page together, transcribing them as one story, and confirming this audit is clean before commit. Post-fix it reports zero missing pages.
+- The uncatalogued multi-part sets (the 19-page 1845 Honório inventário, the 1721 Terceira marriage, the ASBRAP article, the 1852/1864 Rio Pomba inventários) were value-gated and **deliberately held as leads** — the Barbacena/Azorean Armond trunk is unconnected to the direct line (Simplício P-0016's parents are unknown), and the blog/ASBRAP images are secondary — with dispositions recorded in the triage ledger.
+
 ### Added — `make ancestors-audit`: catch vital records whose named parents aren't modelled (2026-08-13)
 
 - AGENTS.md already requires modelling the parents (and any grandparents) a held vital record names about a modelled person — as person nodes with a parentage family, not prose. This adds the automated **catch**: `scripts/ancestor_gap_audit.py` (`make ancestors-audit`) flags every deceased person who is the subject of their own birth/baptism/marriage/death record yet has no parentage family — precisely the gap — and separates candidates whose note already records the parents as unlocated/lead-only/absent (acknowledged) from those needing review. Advisory; exits 0 unless `--strict`.

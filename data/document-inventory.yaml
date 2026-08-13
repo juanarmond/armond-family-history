@@ -1955,6 +1955,61 @@ documents:
           pixel_height: 2547
         privacy_review: cleared
         sensitive_content: []
+      - path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio7-titulo.jpg
+        sha256: bb892c66b182ed68edb4f190028a0e379cc2ca59e66117e5e10dee4974e6f194
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1715
+          pixel_height: 2551
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio7v-heir3.jpg
+        sha256: b6c3e84b1e15f9d74a9e3936470b28372e8fbf949316dca7f8d140c41a79414c
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1725
+          pixel_height: 2552
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio8v-heir4-reps.jpg
+        sha256: 4523e980279ff65ce3cc9cbb24e169908a6e8a2ceef7e465c0e7a7ce1f519e70
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1724
+          pixel_height: 2547
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio9v-heir5-6.jpg
+        sha256: 8e64e845601b340a1ecfa8dd5197f2ce26281caf565d8a66c7ce51d9e9eabdf0
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 4128
+          pixel_height: 5439
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio10-conclusao.jpg
+        sha256: ee256db565432cdd38c57897cf8d364aea90e21e30275c201dcafc71cbefe98f
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1719
+          pixel_height: 2551
+        privacy_review: cleared
+        sensitive_content: []
     duplicate_of: null
     proposed_source_id: PRB-0006
     notes:
@@ -2310,6 +2365,39 @@ documents:
           resolution_status: highest-authorised
           pixel_width: 1557
           pixel_height: 2656
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0010-rita-angelica-inventario-1833-barbacena-cover-p1.jpg
+        sha256: 8774c2d5dcc996e27c7f24505db5a1054bda0354fe79bbd686a82deadcd8e477
+        media_type: image/jpeg
+        role: detail
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1923
+          pixel_height: 2751
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0010-rita-angelica-inventario-1833-barbacena-abertura-p3.jpg
+        sha256: 477e314cabbb8da734feaa47130291ea5a87a516f6c95cd6f08c026d8c9ba36f
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1435
+          pixel_height: 2547
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0010-rita-angelica-inventario-1833-barbacena-juramento-p4.jpg
+        sha256: be40bc0909f2540c828052eb3281295647478e0771917aa53fd24ea440f2ddfd
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1435
+          pixel_height: 2655
         privacy_review: cleared
         sensitive_content: []
     duplicate_of: null
@@ -3041,6 +3129,17 @@ documents:
           resolution_status: highest-authorised
           pixel_width: 3825
           pixel_height: 2677
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/parish/PAR-0036-joao-rodrigues-joanna-goncalves-marriage-1716-ruivais-p2.jpg
+        sha256: aad9709319065fea399d26351b157bac4572f7703aaf8e65083f8c85be85f99d
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2135
+          pixel_height: 1500
         privacy_review: cleared
         sensitive_content: []
     duplicate_of: null
@@ -3873,3 +3972,97 @@ documents:
         (events E-0077 baptism / E-0078 birth). A separate entry lower on the
         same page baptises another "José" (14 March 1813, son of the enslaved
         woman Silvana) — not this person.
+  - inventory_id: DOC-0099
+    status: catalogued
+    added_date: "2026-08-13"
+    apparent_record_type: Published immigrant genealogy (book pages) + genealogical database records
+    apparent_people:
+      - Vicente Borer
+      - Johann Jacob Wehrli
+      - Anna Maria Wehrli
+    apparent_event: other
+    image_quality: adequate
+    provenance: >-
+      Henrique Bon, Imigrantes de Nova Friburgo — genealogias, pp.300-303 + Casa
+      Suíça DB (BORER I/II, WEHRLI). Owner-supplied page scans and Casa Suíça
+      genealogical-database captures delivered through the research/from-retrieval/
+      resources cache; catalogued 13 August 2026.
+    rights_status: permission-required
+    files:
+      - path: evidence/publications/PUB-0003-imigrantes-nf-borer1-p300.jpg
+        sha256: 09a9fed8b90ad6274035f9d3fa6af2c52509f0284e42ea59cc198f67b027cb8f
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2604
+          pixel_height: 4624
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/publications/PUB-0003-imigrantes-nf-pp300-301.jpg
+        sha256: 0d658cd35b0fca17dd5c0c2db1e6998609c8bc7bc73a96de91bfab14492acc30
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1170
+          pixel_height: 872
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/publications/PUB-0003-imigrantes-nf-pp302-303.jpg
+        sha256: 21fc815c6695bbabfaf4c9febe34663ef27d16e0e950a546f6056d5b920c28d6
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1170
+          pixel_height: 847
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/publications/PUB-0003-wehrli-johann-jacob-casa-suica-db.jpg
+        sha256: 5684cbff898b3efffd771c09e89fb124a24f3d3c3d573776305dc521b3e6185b
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1600
+          pixel_height: 900
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/publications/PUB-0003-wehrli-anna-maria-casa-suica-db.jpg
+        sha256: 13907ba7ddaa3c04d12afb598c08213948cd2a6a4d8c9a3fbab5e61393fedd85
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 4000
+          pixel_height: 2250
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/publications/PUB-0003-borer-vicente-casa-suica-db.jpg
+        sha256: 0ad7f08100d004c94daf5a1f6205d7119f8c06f0091c756a6f02e0cb11d07c9b
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 4000
+          pixel_height: 1470
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PUB-0003
+    notes:
+      - >-
+        Published-genealogy pages and Casa Suíça database captures preserved as a
+        private research copy; permission and licensing must be reviewed before any
+        redistribution.
+      - >-
+        The Nova Friburgo immigrant genealogy and Casa Suíça database are navigation
+        leads only; they do not establish a primary-source relationship to this
+        repository's documented line.

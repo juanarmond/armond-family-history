@@ -9,8 +9,9 @@ record_type: Rateio entre credores (probate distribution among creditors)
 record_category: court_or_probate
 usage: context
 event_date:
-  kind: year
-  year: 1917
+  kind: exact
+  value: "1917-05-30"
+  original_text: 'M[uriah]é, 30 de Maio de 1917 (dated identically on both pages).'
 event_place_text: Muriaé, Minas Gerais, Brazil
 repository:
   name: FamilySearch Full-Text (Minas Gerais court and notarial records)
@@ -21,55 +22,107 @@ repository:
 access_date: "2026-07-29"
 language: pt-BR
 transcription: |-
-  [Full transcription read from the evidence scan (a single retained page of the FamilySearch Full-Text image).]
+  [Full manual transcription of both pages, read as one continuous account. The
+  two pages are two successive versions of the same conta e rateio for this
+  Muriaé probate: p.1 is the first computation (custas 369$765; 321$035 shared
+  out) and p.2 the revised, definitive version (further custas added -> 382$165;
+  308$635 shared out) in which each creditor's share is smaller and marked "Pg"
+  (Pago/paid). Aristão appears only as one of the listed creditors — FAN context,
+  not evidence about him. Original spelling and accents preserved; abbreviations
+  expanded in [brackets]; uncertain reads marked. Money in réis: milréis$centavos.]
 
-  [canto superior esquerdo: número de fl. ilegível]
+  [p.1]  [primeira versão; grande rubrica/assinatura diagonal riscada sobre a página]
+  [canto sup. esq.: número de fl. ilegível]
 
   Conta
-  Conta a[o]s [uncertain]              339$000
+  Conta a[o]s [illegible]                           339$000
   Ao Estado
-        Sello                            2$200
-  Ao Es.o Pacheco
-        Termos                           3$000
-  Ao D.r Santos
-        Petição               [uncertain: 5$000]
-        Sello                   [uncertain: 500]
-        Porcentagem 13$965              19$465
+        Sello                                         2$200
+  Ao Es[crivã]o Pacheco
+        Termos                                        3$000
+  Ao D[outo]r Santos
+        Petição                          5$000
+        Sello                              500
+        Porcentagem 13$965                           19$465
   Ao Contador
-        Conta e rateio                   6$100
-                    Soma               369$765
+        Conta e rateio                                6$100
+                          Soma                        369$765
 
   Rateio
-  Producto da praça                    931$000
-  Abate as custas                      369$765
-                                       561$235
+  Producto da praça                                   931$000
+  Abate as custas                                     369$765
+                                                      561$235
   Abate a[o] que se paga a
-        [uncertain: Pedro] Amancio     240$200
-  Quantia p.a ratear =                 321$035
+        Pedro Amancio                    240$200
+  Quantia p[ar]a ratear =                             321$035
   pelos credores seguintes
-
-  [uncertain: Eucaria] Alves Godinho    23$612
-  Isidoro Isaias Gonçalves              33$140
-  Fr.co Antunes Pimentel               240$000
-  Aristão Ferr.a Armond                 19$352
-  Lopes & Pereira                        4$931
-                    Soma               321$035
-  M.é [uncertain: 30] de Maio de 1917
+  [uncertain: Eucario] Alves Godinho                  23$612
+  Isidoro Isaias Gonçalves                            33$140
+  Fr[ancis]co Antunes Pimentel                        240$000
+  Aristão Ferr[eir]a Armond                           19$352
+  Lopes & Pereira                                      4$931
+                          Soma                        321$035
+  M[uriah]é 30 de Maio de 1917
   O Contador
-  [assinatura ilegível]
+  [assinatura: [uncertain: Maia]]
 
-  [grande rubrica/assinatura diagonal riscada sobre a página, ilegível]
+  [p.2]  [versão revista/definitiva; cada credor marcado "Pg" (Pago)]
+  [fl.] 66
+
+  Conta
+  Conta a[o]s [illegible]                             339$000
+  Ao Estado
+        Sellos                                          2$200
+  Ao Es[crivã]o Pacheco
+        Termos                            3$000
+        Acrescer [uncertain]              6$400          9$400
+  Ao D[outo]r [uncertain: Olave]
+        Petição e sello                Pg[Pago]          6$000
+  Ao D[outo]r Santos
+        Petição e sello                  5$500
+        Porcentagem 13$965                             19$465
+  Ao Contador [uncertain: M[ano]el Maia]                6$100
+                                                        382$165
+
+  Rateio
+  Producto da Praça                                    931$000
+  Abate as Custas                                      382$165
+                                                       548$835
+  Abate o q[ue] se paga a Pedro Amancio                240$200
+                                                       308$635
+
+  Rateio
+  [uncertain: Eucario] Alves Godinho     Pg[Pago]       22$724
+  Isidoro Isaias Gonçalves               Pg[Pago] [marca: X]  31$855
+  Fr[ancis]co Antunes Pimentel           Pg[Pago]      230$000
+  Aristão Ferr[eir]a Armond              Pg[Pago]       18$584
+  Lopes & Pereira                                        5$472
+                          Soma                          308$635
+  M[uriah]é 30 de Maio de 1917
+  O Contador
+  [assinatura: [uncertain: Maia]]
 abstract: >-
-  An apportionment among creditors (rateio) in a Muriaé probate, listing Aristão
-  Ferreira Armond (P-0008) among the creditors with a sum of about 19$352. A
+  A two-page account and apportionment among creditors (conta e rateio) in a
+  Muriaé probate (30 May 1917), listing Aristão Ferreira Armond (P-0008) among
+  the creditors. Two successive versions of the account are recorded: the first
+  apportions 321$035 among the creditors (Armond receiving 19$352); the revised,
+  definitive version adds further costs (custas 382$165), apportions 308$635, and
+  reduces Armond's share to 18$584, with each creditor marked "Pg" (Pago/paid). A
   functional (creditor) role; retained as FAN context, subject not this family.
 abstract_pt: >-
-  Um rateio entre credores em um inventário de Muriaé, listando Aristão Ferreira
-  Armond (P-0008) entre os credores com uma quantia de cerca de 19$352. Um papel
-  funcional (credor); mantido como contexto FAN, cujo objeto não é esta família.
+  Uma conta e rateio entre credores de duas páginas em um inventário de Muriaé
+  (30 de Maio de 1917), listando Aristão Ferreira Armond (P-0008) entre os
+  credores. Duas versões sucessivas da conta são registradas: a primeira rateia
+  321$035 pelos credores (Armond recebendo 19$352); a versão revista e definitiva
+  acrescenta custas (382$165), rateia 308$635 e reduz a quota de Armond para
+  18$584, com cada credor marcado "Pg" (Pago). Um papel funcional (credor);
+  mantido como contexto FAN, cujo objeto não é esta família.
 digital_file:
-  path: evidence/references/FAN-0012.jpg
+  path: evidence/references/FAN-0012-p1.jpg
   sha256: 37f2424127a079b5bbededb00ad1f40c81a55ae403e4d8e8cafce878d90d0e08
+additional_pages:
+- path: evidence/references/FAN-0012-p2.jpg
+  sha256: c025ca134a08734ff74074b51ebdc21e130efa98668518a65e05d0a80a83733e
 participants:
 - person_id: P-0008
   role: credor (one of the creditors in the apportionment)
@@ -78,7 +131,7 @@ private: false
 notes:
 - text: >-
     Located via FamilySearch Full-Text search for "Aristão Ferreira Armond".
-    One of the Muriaé/Leopoldina FAN reference set (FAN-0001-FAN-0013); the
-    transcription is the Full-Text OCR extract of a faint preview, not a full
-    manual reading. Search context in
-    logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md.
+    One of the Muriaé/Leopoldina FAN reference set (FAN-0001-FAN-0013). The
+    transcription is now a full manual reading of both pages (the two successive
+    versions of the conta e rateio); each version's arithmetic closes internally.
+    Search context in logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md.

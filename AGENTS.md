@@ -88,10 +88,16 @@ order — cheap orientation before expensive per-image work:
    left. Keep the evidence discipline: fold documented facts and clearly-hedged
    `[CONTEXTUAL]`/`[INFERRED]` reasoning, never launder a `[LEAD]` into fact.
    Run `uv run --frozen make profiles-audit` to list profiles that still lag (a
-   heuristic name-match — confirm identity before enriching).
+   heuristic name-match — confirm identity before enriching). When a record spans
+   several images, catalogue **all** its pages together (`digital_file` +
+   `additional_pages`) and write **one continuous transcription across every page** —
+   the whole story, not page 1 alone — never promote or transcribe a subset. Run
+   `uv run --frozen make drop-pages-audit` to catch any catalogued source/FAN that
+   still has sibling pages sitting in the drop.
 5. **Finish** with the Completion protocol (`make check`, the reciprocity and
    completeness verification, rebuild the viewer index, logs, changelog); record each
-   image's disposition in the triage ledger, and commit.
+   image's disposition in the triage ledger, and commit. Confirm `make drop-pages-audit`
+   reports no MISSING PAGES for anything catalogued in the batch.
 6. **Then review the agent's `plans/` and FINDINGS and give feedback.** Fold valid
    new leads into `data/record-coverage.yaml` / `STATUS.md`, flag conflicts, and note
    what is blocked (human-access). Do not edit the agent's `research/from-retrieval/`

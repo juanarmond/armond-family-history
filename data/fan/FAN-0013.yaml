@@ -10,11 +10,12 @@ record_type: Auto de inventário (probate inventory)
 record_category: court_or_probate
 usage: context
 event_date:
-  kind: approximate
-  text: >-
-    c.1922 (filename); the containing FamilySearch file is indexed 1921.
-  earliest: 1921
-  latest: 1922
+  kind: exact
+  value: "1922-05-20"
+  original_text: >-
+    "Aos vinte dias do mez de Maio ... de mil novecentos e vinte e dois"
+    (audiência, fl. 23); the appended certidão is dated 22 de Maio de 1922. The
+    containing FamilySearch inventário file is indexed 1921.
 event_place_text: Muriaé, Minas Gerais, Brazil
 repository:
   name: FamilySearch Full-Text (Minas Gerais court and notarial records)
@@ -25,57 +26,72 @@ repository:
 access_date: "2026-07-29"
 language: pt-BR
 transcription: |-
-  [Full transcription read from the evidence scan (a single retained page of the FamilySearch Full-Text image).]
+  [Full manual transcription of both pages of the record, read as one continuous
+  act. Original spelling and accents preserved; abbreviations expanded in
+  [brackets]; uncertain reads marked. FAN context: Aristão appears in a
+  functional role (requerente/creditor) in a third party's inventário.]
 
+  [p.1]
   [fl.] 23        [margem sup. dir.: 2$400 / Pregão 12$00 / sinal de conferido a lápis vermelho]
 
   Audiencia
-  Aos vinte dias do mez de Maio do
-  anno do Nascimento de Nosso Se-
-  nhor Jesús-Christo de mil novecentos
-  e vinte e dois, em publica audiencia
-  que na sala propria do edificio do
-  "Forum", desta cidade de São Paulo do
-  Muriahé, Estado de Minas Geraes, da-
-  va o Juiz de Direito da comarca, o
-  Exmo. Snr. Doutor Lydio [uncertain: Alexano] Ban-
-  deira de Mello, aberta ás doze horas ao
-  toque de campainha pelo official de
-  justiça Cypriano José de Oliveira, com-
-  pareceu o Doutor Agripino Gomes Veado
-  e fez o seguinte requerimento:- Por par-
-  te de Aristão Ferreira Armond, no in-
-  ventario de Joaquim dos Santos Garcia,
-  accusa a citação feita á viuva deste,
-  Dona Felisbina dos Santos Garcia, bem
-  como a seus herdeiros Raymundo Wen-
-  ceslau Rosa, Rita Felisbina Garcia, Maria
-  Felisbina Garcia e ainda ao Doutor
-  Promotor de Justiça para nesta au-
-  diencia louvar-se com o requerente
-  em um avaliador que com o do judi-
-  cial, que for designado, avalie os bens
-  do espolio, e requer que havidas as
-  citações por feitas e accusadas sob pregão,
-  se faça a louvação, offerecendo para is-
-  so, a escolha das partes os cidadãos
-  Antonio de Paula Andrade e Alypio Ro-
-  drigues Ferreira, louvando-se no pri-
-  meiro. P. deferimento sob pregão. Apre-
-  [o texto continua na página seguinte]
+  Aos vinte dias do mez de Maio do anno do Nascimento de Nosso Senhor
+  Jesús-Christo de mil novecentos e vinte e dois, em publica audiencia que na
+  sala propria do edificio do "Forum", desta cidade de São Paulo do Muriahé,
+  Estado de Minas Geraes, dava o Juiz de Direito da comarca, o Exmo. Snr. Doutor
+  Lydio [uncertain: Alexano] Bandeira de Mello, aberta ás doze horas ao toque de
+  campainha pelo official de justiça Cypriano José de Oliveira, compareceu o
+  Doutor Agripino Gomes Veado e fez o seguinte requerimento:- Por parte de
+  Aristão Ferreira Armond, no inventario de Joaquim dos Santos Garcia, accusa a
+  citação feita á viuva deste, Dona Felisbina dos Santos Garcia, bem como a seus
+  herdeiros Raymundo Wenceslau Rosa, Rita Felisbina Garcia, Maria Felisbina
+  Garcia e ainda ao Doutor Promotor de Justiça para nesta audiencia louvar-se com
+  o requerente em um avaliador que com o do judicial, que for designado, avalie
+  os bens do espolio, e requer que havidas as citações por feitas e accusadas sob
+  pregão, se faça a louvação, offerecendo para isso, a escolha das partes os
+  cidadãos Antonio de Paula Andrade e Alypio Rodrigues Ferreira, louvando-se no
+  primeiro. P.[ede] deferimento sob pregão. Apre-
+
+  [p.2]
+  goados não compareceram, pelo Juiz foi nomeado o louvado approvado na ordem de
+  sua indicação, ordenando que depois de intimado e juramentado, e designado o do
+  judicial, se expedisse o mandado para a avaliação." - É o que consta de meu
+  protocollo, a respeito, de cujas notas extrahi o presente termo que vae
+  assignado. Eu, [uncertain: Alcilio] Freitas, escrevente juramentado que o
+  escrevi. Eu, Christovam Colombo Paula, escr[ivão] que o sub[screvi] [e o]
+  assign[ei]. [assinatura] Christovam Colombo Paula
+
+  [margem esq.: 3$600]
+  Certidão
+  Certifico haver intimado ao Sr. Antonio de Paula Andrade, para acceitar o cargo
+  de avaliador particular, para que foi nomeado neste feito, bem como para vir em
+  cartorio prestar juramento e assignar o respectivo termo. Ficou sciente, dou fé.
+  Muriahé, 22 de Maio de 1922. Eu, [uncertain: Alcilio] Freitas, escrevente
+  juramentado o escrevi. [assinatura] Christovam Colombo Paula
 abstract: >-
-  The probate inventory of Joaquim dos Santos Garcia (Muriaé) in which Aristão
-  Ferreira Armond (P-0008) acts as petitioner/requerente (pressing a claim,
-  citing the widow). A functional role in a third party's estate; retained as
-  FAN context for Aristão's adult activity in the Muriaé comarca (~1921-1922).
+  A two-page audiência (20 May 1922, fl. 23) in the probate inventory of Joaquim
+  dos Santos Garcia (Muriaé) in which Aristão Ferreira Armond (P-0008) acts as
+  petitioner/requerente: his attorney Dr. Agripino Gomes Veado accuses the
+  citation of the widow Dona Felisbina dos Santos Garcia and the heirs and asks
+  that appraisers be named. The judge appoints the appraiser (louvado) Antonio de
+  Paula Andrade, and an appended certidão records his citation to accept the
+  post. A functional role in a third party's estate; retained as FAN context for
+  Aristão's adult activity in the Muriaé comarca (1922).
 abstract_pt: >-
-  O inventário de Joaquim dos Santos Garcia (Muriaé) no qual Aristão Ferreira
-  Armond (P-0008) atua como requerente (pressionando uma reivindicação, citando a
-  viúva). Um papel funcional no espólio de um terceiro; mantido como contexto FAN
-  pela atividade adulta de Aristão na comarca de Muriaé (~1921-1922).
+  Uma audiência de duas páginas (20 de Maio de 1922, fl. 23) no inventário de
+  Joaquim dos Santos Garcia (Muriaé) na qual Aristão Ferreira Armond (P-0008)
+  atua como requerente: o seu advogado Dr. Agripino Gomes Veado acusa a citação
+  da viúva Dona Felisbina dos Santos Garcia e dos herdeiros e requer a nomeação
+  de avaliadores. O Juiz nomeia o avaliador (louvado) Antonio de Paula Andrade, e
+  uma certidão anexa registra a sua intimação para aceitar o cargo. Um papel
+  funcional no espólio de um terceiro; mantido como contexto FAN pela atividade
+  adulta de Aristão na comarca de Muriaé (1922).
 digital_file:
-  path: evidence/references/FAN-0013.jpg
+  path: evidence/references/FAN-0013-p1.jpg
   sha256: fac9868eca2fee6c35b090af0e3499c3324d16ceb7fcf455878b1445b1a561d3
+additional_pages:
+- path: evidence/references/FAN-0013-p2.jpg
+  sha256: f188121e845b3cc11d4915251905c8d76637267b3d015d632a624442b131684e
 participants:
 - person_id: P-0008
   role: requerente (petitioner / claiming creditor)
@@ -84,7 +100,8 @@ private: false
 notes:
 - text: >-
     Located via FamilySearch Full-Text search for "Aristão Ferreira Armond".
-    One of the Muriaé/Leopoldina FAN reference set (FAN-0001-FAN-0013); the
-    transcription is the Full-Text OCR extract of a faint preview, not a full
-    manual reading. Search context in
+    One of the Muriaé/Leopoldina FAN reference set (FAN-0001-FAN-0013). The
+    transcription is now a full manual reading of both pages of the record: the
+    audiência (fl. 23, 20 May 1922) with its continuation and the appended
+    certidão (22 May 1922). Search context in
     logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md.

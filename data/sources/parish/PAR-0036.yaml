@@ -42,8 +42,12 @@ access_date: "2026-08-10"
 language: pt-PT
 transcription: >-
   [Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal; livro de
-  casamentos; entrada da coluna inferior direita, anotação marginal "Ruiuay de
-  quinta — João Roiz de Joanna G.[onçalues]".] "Aos treze dias do mês de Mayo de
+  casamentos. O assento ocupa duas imagens: abre ao pé da coluna inferior direita
+  da imagem primária (…-ruivais.jpg, aqui [p.1]) e fecha ao alto, no canto superior
+  esquerdo, da imagem seguinte (…-ruivais-p2.jpg, aqui [p.2]). Anotação marginal
+  "Ruiuay de quinta — João Roiz de Joanna G.[onçalues]".]
+
+  [p.1 — pé da coluna inferior direita:] "Aos treze dias do mês de Mayo de
   mil sete centos e dezaseis annos, dadas as denunciaçõis na forma do Sag.do
   Conc.[ilio] Trid.[entino], e não avendo impedimento algum, recebi eu o Padre
   Bento [Pereira?] de licença do Reverendo Reitor Luiz Pirez dos Santos a Joam
@@ -53,7 +57,15 @@ transcription: >-
   moradores no lugar da quinta, todos desta freguezia de São Martinho de Ruivais,
   estando por testemunhas Duarte Dias, e Domingos Afonso, e Gregorio do Rego Macedo
   e muitas mais testemunhas que estando prezentes todos desta dita freguezia que
-  todos aqui [assignaram comigo, dia era ut supra]."
+  todos aqui
+
+  [p.2 — alto do canto superior esquerdo da imagem seguinte, fecho do assento:]
+  asignaram comigo dia mes era ut supra. O Padre Bento [Pereira?]" [seguem a
+  rubrica do celebrante e rubricas de testemunhas]. [À margem da mesma imagem,
+  anotação de visitação: "Visto em auto de correição, Agosto [5?] de 1716"
+  (assinatura do visitador, leitura incerta [uncertain]). O restante da imagem
+  …-ruivais-p2.jpg traz assentos de casamento posteriores e não relacionados
+  (p.ex. a entrada "Aos des dias do mês de Mayo…"), não transcritos aqui.]
 abstract: >-
   Original Ruivais (Braga, Portugal) marriage entry for the 13 May 1716 marriage of
   João Rodrigues (P-0080), son of Gonçalo Rodrigues (deceased) and Elebia Francisca,
@@ -91,6 +103,9 @@ reliability:
 digital_file:
   path: evidence/parish/PAR-0036-joao-rodrigues-joanna-goncalves-marriage-1716-ruivais.jpg
   sha256: e983f6f5abce9ff14d376234daff76618fb7d75b6a47a07a0f96783be0a053ed
+additional_pages:
+- path: evidence/parish/PAR-0036-joao-rodrigues-joanna-goncalves-marriage-1716-ruivais-p2.jpg
+  sha256: aad9709319065fea399d26351b157bac4572f7703aaf8e65083f8c85be85f99d
 linked_people:
 - P-0080
 - P-0081

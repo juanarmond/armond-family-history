@@ -39,20 +39,28 @@ repository:
     named at folio 9; juramento do inventariante at folio 6
   catalogue_reference: >-
     Estate inventory of Mathilde Maria de Jesus, Comarca de Leopoldina (MG), 1879,
-    supplied by the correspondent Nilza (doc 38402168); full PDF archived. Key
-    genealogy folios (6, 8, 9) read and promoted 1 August 2026.
+    supplied by the correspondent Nilza (doc 38402168); full PDF archived. Key genealogy
+    folios (6, 8, 9) read and promoted 1 August 2026; the remaining título-de-herdeiros
+    folios (7, 7v, 8v, 9v, 10) reconciled from the drop and catalogued 2026-08-12, so the
+    heir title now reads continuously across folios 6–10.
   repository_path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio9-eliza.jpg
 access_date: "2026-08-01"
 language: pt-BR
 reading_reliability: complete
 transcription: >-
   [Inventário de Dona Mathilde Maria de Jesus, Leopoldina (MG), 1879; título de
-  herdeiros. Três imagens catalogadas: folio 6 (juramento do inventariante), folio 8
-  (reprezentantes do herdeiro nº 3 ao topo e cabeçalho do herdeiro nº 4 ao pé) e
-  folio 9 (os herdeiros de JC). O inventariante é
-  [uncertain: Cazario / Cezario] José de Tolledo, filho da finada — pessoa DISTINTA do
-  herdeiro nº 4 "José Cezário de Toledo Lima". Folio 6 transcribed 2026-08-07 from
-  direct image read (PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio6-juramento.jpg).]
+  herdeiros. Os folios do título de herdeiros estão agora catalogados de ponta a ponta
+  e transcritos em ordem de leitura: folio 6 (juramento do inventariante) → folio 7
+  (conclusão do juramento e assinatura do inventariante; abertura do "Título de
+  herdeiros"; herdeiros nº 1–2) → folio 7v (herdeiro nº 2 concluído; cabeçalho do
+  herdeiro nº 3) → folio 8 (representantes do nº 3 ao topo; cabeçalho do nº 4 ao pé) →
+  folio 8v (representantes do nº 4, 1º–3º) → folio 9 (representantes do nº 4, 4º–8º,
+  entre eles Eliza; cabeçalho do nº 5) → folio 9v (representantes do nº 5; herdeiro nº 6)
+  → folio 10 (herdeiros nº 7–8; Conclusão; Data, 30 Abril 1879). O inventariante é
+  [uncertain: Cazario / Cezario] José de Tolledo, filho da finada e ele próprio o
+  herdeiro nº 7 — pessoa DISTINTA do herdeiro nº 4 "José Cezário de Toledo Lima". Folios
+  6, 8 e 9 lidos e promovidos em ago. 2026; folios 7, 7v, 8v, 9v e 10 reconciliados do
+  drop (auditoria sha256) e acrescentados em 2026-08-12.]
 
 
   [folio 6 — Juramento ao inventariante (28 April 1879):] "Aos vinte oito dias do mez
@@ -64,8 +72,32 @@ transcription: >-
   digo — Maria de Jesus, fazendo todas as declarações legaes, e dando a descrição,
   [uncertain: carregação / arrecadação] e avaliação todos os bens deixados sem occultar
   nenhum, debaixo das penas de perjurio e de perder o dobro do valor dos que por ventura
-  sonega; e recebido por elle o juramento assim" [oath formula ends mid-sentence at bottom
-  of folio; conclusion and inventariante's signature are on folio 7, which is not catalogued.]
+  sonega; e recebido por elle o juramento assim" [a fórmula do juramento termina ao pé do
+  folio 6; a conclusão e a assinatura do inventariante seguem no folio 7.]
+
+
+  [folio 7 — conclusão do juramento:] "...os bens deixados são os que hia dar á
+  descripção, e que promettia, debaixo do juramento prestado, apresentar todos elles; e
+  de como assim o disse, abaixo assigna-se. Eu, Francisco Fortes de Bustamante,
+  Escrevente juramentado, que o escrevi. E eu, Antonio [Carlos] da Costa Carvalho,
+  Escrivão, [o subs]crevi." [Assinatura do inventariante:] "Cezario Joze de Toledo".
+
+
+  [folio 7 — abertura do "Título de herdeiros":] "Título de herdeiros. Inventariante —
+  nomeado pelo Juizo — Cezario José de Tolledo. Herdeiros: 1º D. Ignez Umbelina de
+  Tolledo, cazada com José Pedro da Silva, que se acha auzente, rezidindo no Termo da
+  Cidade do Bom-Fim; 2º Francisco [Leocadio] [continua no folio 7v]".
+
+
+  [folio 7v — herdeiro nº 2 concluído e cabeçalho do herdeiro nº 3:] "[Francisco]
+  Leocadio de Tolledo, viuvo que é da finada D. Maria Joaquina de Jezus. [3º] D. Maria
+  Perpetua da Silva, cazada que foi com Antonio Zeferino de Tolledo, ambos fallecidos,
+  dos quaes são seos reprezentantes os seguintes filhos: 1º Neto — D. Maria Carolina de
+  Tolledo, fallecida e cazada que era com João Guilherme da Silva, sendo seos
+  reprezentantes: 1º [à margem: Falleceo] D. Maria Perpetua da Silva, cazada com Joaquim
+  Manoel Pedroza, rezidente em Entre-Folhas; 2º D. Anna Candida da Silva, cazada com
+  Joaquim Francisco de Oliveira; 3º D. Eudoxia Engracia da Silva, solteira, de 14 annos
+  de idade [continua no folio 8]".
 
 
   [folio 8 recto, ao topo — sob o cabeçalho "de M.ª Perpetua nº 3", a continuação
@@ -91,9 +123,30 @@ transcription: >-
   Eliza Balbina de Tolledo; 6º Ladisláo Egydio Ferreira de Tolledo, solteiro, de 23
   annos; 7º Geraldo Augusto de Tolledo Lima, solteiro, de 15 annos, residente na
   côrte, empregado em uma caza de negocio sita á rua do Visconde de Itaúna nº 74; 8º
-  Josepha Olympia da Paixão, solteira, de 12 annos de idade." — [segue] "5º D.
-  Carolina Leopoldina Marques, cazada com Narciso Marques Braz, sendo a mesma já
-  fallecida, sendo seus herdeiros [...]".
+  Josepha Olympia da Paixão, solteira, de 12 annos de idade." — [segue, ao pé do folio 9,
+  o cabeçalho do herdeiro nº 5:] "5º D. Carolina Leopoldina Marques, cazada com Narciso
+  Marques Braz, sendo a mesma já fallecida, sendo seus reprezentantes: 1º D. Maria
+  [continua no folio 9v]".
+
+
+  [folio 9v — representantes do herdeiro nº 5 e cabeçalho do herdeiro nº 6:] "[1º D.
+  Maria] da Gloria Marques, cazada com Antonio Marques Pereira; 2º [à margem: Falleceo]
+  Herculano Ernesto Marques, solteiro, de 26 annos; 3º Octaviano Marques Braz, cazado com
+  D. Amelia Baldoina de Tolledo; 4º Alda Clothilde Marques, cazada com Aurelio Ferreira
+  Pinto; 5º D. Sophia Olympia Marques, cazada com Joaquim Dias de Medeiros; 6º D.
+  Hortencia Cecilia Marques, solteira, de 15 annos. [herdeiro nº 6:] 6º Aureliano de
+  Salles Tolledo, cazado que foi com D. Marianna [uncertain: Euphrazia] de Tolledo, já
+  fallecida, [residente em] S. Sebastião dos Aflictos, termo de Santa Rita do Turvo."
+
+
+  [folio 10 — herdeiros nº 7 e nº 8; Conclusão; Data:] "7º Cezario José de Tolledo,
+  cazado com D. Maria José de Jezus [— o próprio inventariante]; 8º Antonio Ladislão de
+  Tolledo, cazado que foi com D. Maria Euphrazia de Jezus, já fallecida [uncertain:
+  'Mudo']." [Conclusão:] "E logo faço estes autos conclusos ao Meritíssimo Dr. Juiz dos
+  orfãos do Termo. Eu, Antonio Carlos da Costa Carvalho, Escrivão, o escrevi." [Data:]
+  "Aos trinta dias do mez de Abril de mil oitocentos e setenta e nove, forão-me entregues
+  estes autos com despacho, por se achar o Meritíssimo Senhor Doutor Juiz dos orfãos em
+  pleno exercício da vara de Direito; e faço este termo. Eu [...]."
 abstract: >-
   Mathilde Maria de Jesus's 1879 Leopoldina estate inventory (título de herdeiros).
   Heir #4 is her deceased son José Cezário de Toledo Lima (P-0054) × Claudina
@@ -144,23 +197,37 @@ reliability:
     The inventariante Cezário José de Toledo (Mathilde's son) and the court, 1879
     (a distinct person from heir #4 José Cezário de Toledo Lima).
   limitations: >-
-    Multi-folio handwritten process; some collateral names are uncertain reads
-    (e.g. "Bulandina/Brandina", "Cazanna"). Only selected folios are individually
-    catalogued (6, 8, 9); the full monte-mór and per-heir shares are elsewhere in the
-    919-page process. Folio 6 (juramento) ends mid-oath; the conclusion and inventariante
-    signature are on folio 7, not catalogued. Folio 8 has additional heir-group sections;
-    heirs #1–3 (Francisco Leocádio alive as #2, Carolina Leopoldina Marques as #5) are on
-    preceding/subsequent folios. The legal-representative pattern (husband named first for
-    married female heir) must be read in context of 19th-century Brazilian law; the Film 2
-    triage of the full 919-page FOCUSED PDF confirmed Eliza as the heir in item 5.
+    Multi-folio handwritten process; some collateral names are uncertain reads (e.g.
+    "Bulandina/Brandina", "Cazanna", Aureliano's late wife "Marianna [Euphrazia] de
+    Toledo"). The full título de herdeiros — folios 6–10 — is now catalogued (the
+    juramento's conclusion and the inventariante's signature, which folio 6 leaves
+    mid-oath, are on folio 7), and Mathilde's eight heirs (nº 1 Ignez Umbelina; nº 2
+    Francisco Leocádio, alive; nº 3 Maria Perpétua × Antonio Zeferino; nº 4 José Cezário
+    de Toledo Lima × Claudina; nº 5 Carolina Leopoldina Marques; nº 6 Aureliano de Salles
+    Toledo; nº 7 the inventariante Cezário José de Toledo; nº 8 Antonio Ladislão de
+    Toledo) are all transcribed here. The full monte-mór and per-heir shares remain
+    elsewhere in the 919-page process. The legal-representative pattern (husband named
+    first for a married female heir) must be read in context of 19th-century Brazilian
+    law; the Film 2 triage of the full 919-page FOCUSED PDF confirmed Eliza as the heir
+    in item 5.
 digital_file:
   path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio9-eliza.jpg
   sha256: 7dbf015f49d6bf5be02cf2b63457c59b48633ff768285bbaa8f9e90ee8ec7337
 additional_pages:
 - path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio6-juramento.jpg
   sha256: 2c8eb4172832f885d4b68318a763da56d8341fd52cfa9bc1424b5d922e0f3c37
+- path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio7-titulo.jpg
+  sha256: bb892c66b182ed68edb4f190028a0e379cc2ca59e66117e5e10dee4974e6f194
+- path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio7v-heir3.jpg
+  sha256: b6c3e84b1e15f9d74a9e3936470b28372e8fbf949316dca7f8d140c41a79414c
 - path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio8-heir4.jpg
   sha256: 128c80eec698a0208eef4d66c093eefc405405ae90fb663c77fb8c1f70df8586
+- path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio8v-heir4-reps.jpg
+  sha256: 4523e980279ff65ce3cc9cbb24e169908a6e8a2ceef7e465c0e7a7ce1f519e70
+- path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio9v-heir5-6.jpg
+  sha256: 8e64e845601b340a1ecfa8dd5197f2ce26281caf565d8a66c7ce51d9e9eabdf0
+- path: evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio10-conclusao.jpg
+  sha256: ee256db565432cdd38c57897cf8d364aea90e21e30275c201dcafc71cbefe98f
 linked_people:
 - P-0017
 - P-0016
@@ -185,8 +252,9 @@ notes:
     Eliza Balbina de Tolledo"). folio 6 (juramento) establishes the deceased is
     Mathilde and the inventariante is her son Cezário José de Toledo — a person
     distinct from heir #4 José Cezário de Toledo Lima (the near-identical names are a
-    documented trap). All three pages are held under this ID (…-folio6-…, …-folio8-…,
-    …-folio9-…).
+    documented trap). The whole título de herdeiros is now held under this ID as one
+    continuous run — folios 6, 7, 7v, 8, 8v, 9, 9v and 10 (files …-folio6-…, …-folio7-…,
+    …-folio7v-…, …-folio8-…, …-folio8v-…, …-folio9-…, …-folio9v-…, …-folio10-…).
 - text: >-
     PRB-0004 (1877 deed) had left open a hypothesis that Eliza's parents were Antonio
     Zeferino de Toledo × Maria Perpétua. This inventory shows that couple is heir #3
@@ -195,10 +263,12 @@ notes:
     elder is Mathilde's husband (P-0056); the "solteiro de 23 annos" on folio 9 is
     heir #4's son — Eliza's brother, not a separate person.
 - text: >-
-    p5b data (image rec-toledo-matilde-inventario-1879-titulo-herdeiros-p5b.jpg,
-    read 2026-08-07): heir #5 = D. Carolina Leopoldina Marques (already deceased at
-    the time, notation "Palleceo" in the margin), wife of Narciso Marques Braz. Her
-    six named representantes are: 1º D. Maria Marques, cazada com Antonio Marques
+    p5b data (now catalogued as evidence page folio 9v,
+    PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio9v-heir5-6.jpg; read
+    2026-08-07, re-confirmed 2026-08-12 and folded into the transcription): heir #5 =
+    D. Carolina Leopoldina Marques (already deceased at the time, notation "Palleceo" in
+    the margin), wife of Narciso Marques Braz. Her six named representantes are: 1º D.
+    Maria da Gloria Marques, cazada com Antonio Marques
     Pereira; 2º Herculano Ernesto Marques, solteiro, de 26 anos; 3º Octaviano
     Marques Braz, cazado com D. Amelia Baldoina de Tolledo; 4º Alda Clothilde
     Marques, cazada com Aurelio Ferreira Pinto; 5º D. Sophia Olympia Marques,
@@ -220,3 +290,11 @@ notes:
     is the correct reading, Francisca de Lima is his sister and Mathilde's mother,
     corroborating Ignez Francisca de Lima (P-0060) as Mathilde's mother (F-0029).
     The "[maã?/irmã?]" word is uncertain in the transcript; image verification required.
+- text: >-
+    Drop-page reconciliation (sha256 audit, 2026-08-12): the título-de-herdeiros scan
+    set rec-toledo-matilde-inventario-1879-titulo-herdeiros-p0…p6 was reconciled against
+    this source. Pages p1 (folio 7), p2 (folio 7v), p4 (folio 8v), p5b (folio 9v, a
+    higher-resolution recapture of the heir #5–6 folio) and p6 (folio 10) were
+    substantive and added; p3 and p5-ELIZA were already linked (folio 8 and folio 9).
+    Page p0 was reviewed and EXCLUDED: it is a near-blank verso (only faint
+    bleed-through from the other side, no recto text), not a document folio.

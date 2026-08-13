@@ -1,4 +1,4 @@
-.PHONY: check test validate profiles-audit ancestors-audit export export-bundle export-legacy
+.PHONY: check test validate profiles-audit ancestors-audit drop-pages-audit export export-bundle export-legacy
 
 PYTHON ?= python3
 
@@ -18,6 +18,12 @@ profiles-audit:
 # be modelled (AGENTS.md, Entity connectivity). Heuristic; exits 0 unless --strict.
 ancestors-audit:
 	$(PYTHON) scripts/ancestor_gap_audit.py
+
+# Advisory (local-only): by sha256, catch a catalogued source/FAN that is missing pages
+# still sitting in the retrieval drop — the "the deed has 3 pages but only 1 shows" gap
+# the validator cannot see. Run after every drop. Exits 0 unless --strict.
+drop-pages-audit:
+	$(PYTHON) scripts/drop_page_audit.py
 
 test:
 	$(PYTHON) -m unittest discover -s tests -v

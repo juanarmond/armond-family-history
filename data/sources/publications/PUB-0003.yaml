@@ -31,9 +31,10 @@ repository:
   catalogue_reference: >-
     Henrique Bon (compiler), Imigrantes de Nova Friburgo — genealogias, pp.300–303.
     The compilation draws on Nova Friburgo parish registers, civil records, and the
-    Fundação D. João VI archives. Images in the 2026-08-07 retrieval drop, to be
-    archived in evidence/publications/ when the owner transfers them from the
-    research/from-retrieval/ area.
+    Fundação D. João VI archives. The six cited page images from the 2026-08-07
+    retrieval drop are archived in evidence/publications/ under this source id (see
+    digital_file / additional_pages); the matching document-inventory entries remain
+    to be added by the owner.
 access_date: "2026-08-07"
 language: pt-BR
 transcription: >-
@@ -153,6 +154,20 @@ reliability:
     (images 13–16) show a "Joannes Borer × Ana Maria Werli" baptising daughter
     Maria Barbara on 23 Dec 1782, Grindel — a strong lead for Laurent's parentage
     but not yet confirmed as the same Jacob/Joannes Borer.
+digital_file:
+  path: evidence/publications/PUB-0003-imigrantes-nf-borer1-p300.jpg
+  sha256: 09a9fed8b90ad6274035f9d3fa6af2c52509f0284e42ea59cc198f67b027cb8f
+additional_pages:
+- path: evidence/publications/PUB-0003-imigrantes-nf-pp300-301.jpg
+  sha256: 0d658cd35b0fca17dd5c0c2db1e6998609c8bc7bc73a96de91bfab14492acc30
+- path: evidence/publications/PUB-0003-imigrantes-nf-pp302-303.jpg
+  sha256: 21fc815c6695bbabfaf4c9febe34663ef27d16e0e950a546f6056d5b920c28d6
+- path: evidence/publications/PUB-0003-wehrli-johann-jacob-casa-suica-db.jpg
+  sha256: 5684cbff898b3efffd771c09e89fb124a24f3d3c3d573776305dc521b3e6185b
+- path: evidence/publications/PUB-0003-wehrli-anna-maria-casa-suica-db.jpg
+  sha256: 13907ba7ddaa3c04d12afb598c08213948cd2a6a4d8c9a3fbab5e61393fedd85
+- path: evidence/publications/PUB-0003-borer-vicente-casa-suica-db.jpg
+  sha256: 0ad7f08100d004c94daf5a1f6205d7119f8c06f0091c756a6f02e0cb11d07c9b
 linked_people:
 - P-0028
 - P-0034

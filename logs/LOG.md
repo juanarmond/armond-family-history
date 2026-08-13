@@ -1362,3 +1362,24 @@ Integration + build session (engineering detail in `CHANGELOG.md`):
    per row, father-line left to mother-line right, SVG connectors coloured by evidence tier,
    faint "Unknown" frontier slots), no graph library.
 5. All 69 tests pass; viewer index rebuilt (339 entities); GEDCOM regenerated (4290 lines).
+
+## 2026-08-13 — Multi-page reconciliation + ancestor-gap / drop-page audits
+
+Audit-and-prevention session (engineering detail in `CHANGELOG.md`):
+
+1. **Ancestor-gap audit** — added `make ancestors-audit` (`scripts/ancestor_gap_audit.py`): flags a
+   person who is the subject of their own vital record yet has no parentage family. Audited all 41
+   parentless people (4 parallel agents): **zero** un-modelled gaps. The José do Rego Brandão line
+   is already complete — PAR-0008 is the *son's* (P-0040) 1912 death, from which the elder P-0043 ×
+   P-0044 (F-0021) were already modelled.
+2. **Multi-page completion** — added `make drop-pages-audit` (`scripts/drop_page_audit.py`,
+   sha256-based) which found five catalogued documents missing pages. Completed FAN-0010/0012/0013,
+   PAR-0036, PUB-0003 (had *no* evidence linked), PRB-0006 (Matilde 1879, folios 6–10) and PRB-0010
+   (Rita 1833) — every page linked and transcribed as one continuous account. Post-fix audit clean.
+3. **Value gate** — the uncatalogued multi-part sets (19-page 1845 Honório inventário; 1721 Terceira
+   marriage; ASBRAP article; 1852/1864 Rio Pomba inventários) held as leads: the Barbacena/Azorean
+   Armond trunk is unconnected to the direct line. The **1845 Honório José Ferreira Armonde inventário
+   is the best documentary lead toward Simplício's (P-0016) unknown parentage**.
+4. Viewer refinements: symmetric ahnentafel pedigree capped at 6 generations with a per-card +/-
+   expand/collapse, and zoom floored at the fit-to-width level (25–100%). See `CHANGELOG.md`.
+5. All 69 tests pass; GEDCOM regenerated (4296 lines).
