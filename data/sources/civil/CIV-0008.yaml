@@ -1,6 +1,8 @@
 schema_version: 1
 id: CIV-0008
 title: Certified birth certificate of Juan Carlos Muniz Armond
+title_pt: >-
+  Certidão de nascimento de Juan Carlos Muniz Armond
 record_type: Civil birth certificate
 record_category: civil_registration
 source_form: derivative

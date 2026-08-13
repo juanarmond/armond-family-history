@@ -273,8 +273,13 @@ export function projectTreeData({ people, families, events, places, sources, fan
       return [sourceId, {
         id: sourceId,
         title: source.title || sourceId,
+        titlePt:
+          typeof source.title_pt === "string" && source.title_pt.trim()
+            ? source.title_pt.trim()
+            : null,
         recordType: source.record_type || "Source",
-        sourceForm: typeof source.source_form === "string" ? source.source_form.replaceAll("_", " ") : null,
+        recordCategory: typeof source.record_category === "string" ? source.record_category : null,
+        sourceForm: typeof source.source_form === "string" ? source.source_form : null,
         quality: typeof source.information_quality === "string" ? source.information_quality : null,
         limitation: typeof limitation === "string" && limitation.trim() ? limitation.trim() : null,
         private: Boolean(source.private),
@@ -316,11 +321,9 @@ export function projectTreeData({ people, families, events, places, sources, fan
       const view = {
         id: fanId,
         title: ref.title || fanId,
+        titlePt: trimmedText(ref.title_pt),
         recordType: ref.record_type || "Reference",
-        recordCategory:
-          typeof ref.record_category === "string"
-            ? ref.record_category.replaceAll("_", " ")
-            : null,
+        recordCategory: typeof ref.record_category === "string" ? ref.record_category : null,
         date: ref.event_date || null,
         place: trimmedText(ref.event_place_text),
         transcription: trimmedText(ref.transcription),

@@ -1017,7 +1017,7 @@ function openReader(source) {
   const hid = document.createElement("span");
   hid.className = "source-id";
   hid.textContent = source.id;
-  heading.append(hid, document.createTextNode(source.title || source.id));
+  heading.append(hid, document.createTextNode(localeText(source.title, source.titlePt) || source.id));
   const closeBtn = document.createElement("button");
   closeBtn.type = "button";
   closeBtn.className = "reader-close";
@@ -1033,7 +1033,7 @@ function openReader(source) {
     leftPane = document.createElement("iframe");
     leftPane.className = "reader-pdf";
     leftPane.src = source.file;
-    leftPane.title = source.title || source.id;
+    leftPane.title = localeText(source.title, source.titlePt) || source.id;
   } else {
     leftPane = imagePane(source.file);
   }
@@ -1132,9 +1132,13 @@ function sourceList(sources) {
     const id = document.createElement("span");
     id.className = "source-id";
     id.textContent = source.id;
-    title.append(id, document.createTextNode(source.title || source.id));
+    title.append(id, document.createTextNode(localeText(source.title, source.titlePt) || source.id));
 
-    const metaBits = [source.recordType, source.sourceForm, source.quality].filter(Boolean);
+    const metaBits = [
+      source.recordCategory && vocab("recordCategory", source.recordCategory),
+      source.sourceForm && vocab("sourceForm", source.sourceForm),
+      source.quality && vocab("quality", source.quality),
+    ].filter(Boolean);
     const meta = document.createElement("div");
     meta.className = "source-meta";
     meta.textContent = metaBits.join(" · ");
@@ -1202,9 +1206,13 @@ function fanList(refs) {
     const id = document.createElement("span");
     id.className = "source-id";
     id.textContent = ref.id;
-    title.append(id, document.createTextNode(ref.title || ref.id));
+    title.append(id, document.createTextNode(localeText(ref.title, ref.titlePt) || ref.id));
 
-    const metaBits = [ref.role, ref.recordCategory, localePlace(ref.place)].filter(Boolean);
+    const metaBits = [
+      ref.role,
+      ref.recordCategory && vocab("recordCategory", ref.recordCategory),
+      localePlace(ref.place),
+    ].filter(Boolean);
     const meta = document.createElement("div");
     meta.className = "source-meta";
     meta.textContent = metaBits.join(" · ");

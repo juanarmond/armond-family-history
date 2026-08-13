@@ -1,6 +1,8 @@
 schema_version: 1
 id: CIV-0003
 title: Civil death registration of Geraldo Paz Armond
+title_pt: >-
+  Registro civil de óbito de Geraldo Paz Armond
 record_type: Civil death register entry
 record_category: civil_registration
 source_form: original

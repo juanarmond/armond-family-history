@@ -1,6 +1,8 @@
 schema_version: 1
 id: CIV-0014
 title: Civil death registration of João Gonçalves Bohrer
+title_pt: >-
+  Registro civil de óbito de João Gonçalves Bohrer
 record_type: Civil death register entry
 record_category: civil_registration
 source_form: original

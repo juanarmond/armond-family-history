@@ -36,6 +36,10 @@
       "type": "string",
       "minLength": 1
     },
+    "title_pt": {
+      "type": "string",
+      "minLength": 1
+    },
     "record_type": {
       "type": "string",
       "minLength": 1

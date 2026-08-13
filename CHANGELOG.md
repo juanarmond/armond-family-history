@@ -5,6 +5,14 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — the Sources ("Fontes") section is now fully bilingual (2026-08-13)
+
+- Each document's **title** and **meta line** in the person panel's Sources (and FAN) lists rendered in English even in PT mode — only the abstract/transcription were localized. Now:
+  - **Added `title_pt` to all 94 sources and 13 FAN records** (a Brazilian-Portuguese translation of each free-text title, with names, dates, places, folio/record numbers and entity IDs preserved verbatim), produced via 5 parallel agents over disjoint sets. The viewer renders `localeText(title, titlePt)`, so titles switch with the language toggle and fall back to English if a PT title is ever missing.
+  - **The meta line (record category · source form · information quality) is now localized via new viewer vocab tables** — no data change; unmapped values fall back to English.
+  - **Schema:** added the optional `title_pt` to the source and FAN schemas; the data-loader projects `titlePt` and the raw enum values (for vocab). The renamed viewer already reads these.
+- `make check` green (69 + JS tests, incl. i18n key parity and schema validation); the viewer index and GEDCOM are unaffected (neither carries source titles).
+
 ### Changed — Renamed the site to "Four Rivers"; narrative moved to YAML; reflow fix (2026-08-13)
 
 - **Renamed** the site from "Armond Family History" to **"Four Rivers"** (PT: **"Quatro Rios"**), with a new subtitle — *"Four family lines, from four continents — every ancestor traced to an original record."* (PT: *"Quatro linhas familiares, de quatro continentes — cada ancestral rastreado até um registro original."*). The Armond-only title undersold the maternal (Muniz/Bohrer) and in-married lines and contradicted the narrative's own convergence thesis; "Four Rivers" names the four grandparent lines that flow into one person. (`index.html`, `i18n.js`; the repository name is unchanged.)
