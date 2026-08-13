@@ -134,6 +134,7 @@ export async function loadTreeData() {
 export function projectTreeData({ people, families, events, places, sources, fan = {} }) {
   const personEvents = {};
   const personSourceIds = {};
+  const personSourceRank = {};
   const parentsByChild = {};
 
   for (const personId of Object.keys(people)) {
@@ -170,8 +171,18 @@ export function projectTreeData({ people, families, events, places, sources, fan
       // means they are merely referenced — e.g. named as a parent in a child's
       // death record — not that it is their own event.
       const role = participant?.role;
-      if (role === "principal" || role === "spouse" || role === "partner") {
+      const isOwn = role === "principal" || role === "spouse" || role === "partner";
+      if (isOwn) {
         personEvents[personId].push({ ...eventView, role });
+        // Per-person source ordering: a person's OWN vital records (birth/baptism,
+        // marriage, death) rank first, by vital type. Every other record — one that
+        // only mentions them (a child's or relative's event) — falls back in the
+        // sort to the source's own vital rank + 10.
+        const typeRank = { birth: 0, baptism: 1, marriage: 2, death: 3, burial: 4 }[event.event_type] ?? 5;
+        const rankMap = (personSourceRank[personId] ||= {});
+        for (const sourceId of eventView.sourceIds) {
+          if (typeRank < (rankMap[sourceId] ?? 999)) rankMap[sourceId] = typeRank;
+        }
       }
     }
   }
@@ -606,9 +617,13 @@ export function projectTreeData({ people, families, events, places, sources, fan
       .map((variant) => variant?.value)
       .filter((value) => typeof value === "string");
     const notes = living ? [] : noteTexts(person.notes || []);
+    const ownRank = personSourceRank[personId] || {};
+    // Own vital records first (rank 0–4 by vital type); every record that only
+    // mentions this person comes after, ordered by the source's own vital rank.
+    const orderRank = (sid) => (ownRank[sid] !== undefined ? ownRank[sid] : 10 + (sourceRank[sid] ?? 6));
     const sourceIds = [...(personSourceIds[personId] || [])].sort(
       (a, b) =>
-        (sourceRank[a] ?? 6) - (sourceRank[b] ?? 6) ||
+        orderRank(a) - orderRank(b) ||
         (sourceYear[a] ?? 9999) - (sourceYear[b] ?? 9999) ||
         a.localeCompare(b),
     );

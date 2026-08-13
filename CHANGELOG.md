@@ -5,6 +5,11 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — Sources list is compact and ordered person-first (2026-08-13)
+
+- The Sources ("Fontes") list no longer prints the full **transcript inline** — the transcript stays in the document reader ("Ler documento"), shown beside the scan image. The list keeps the concise abstract and the limitation note, so each source is far more compact. (Same for the FAN references list.)
+- **Per-person ordering:** a person's **own vital records** (birth/baptism, then marriage, then death) now sort **first**, in that vital order; records that only **mention** them (a child's or relative's baptism/marriage/death) follow, ordered by the source's own vital type. Previously the list was ordered by a global source rank that did not distinguish the person's own records from records that merely named them.
+
 ### Fixed — the Sources ("Fontes") section is now fully bilingual (2026-08-13)
 
 - Each document's **title** and **meta line** in the person panel's Sources (and FAN) lists rendered in English even in PT mode — only the abstract/transcription were localized. Now:

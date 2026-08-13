@@ -1160,12 +1160,6 @@ function sourceList(sources) {
     const nodes = [title];
     if (metaBits.length) nodes.push(meta);
     nodes.push(actions);
-    if (source.transcription) {
-      const transcription = document.createElement("p");
-      transcription.className = "source-transcription";
-      transcription.textContent = localeText(source.transcription, source.transcriptionPt);
-      nodes.push(transcription);
-    }
     if (source.abstract) {
       const abstract = document.createElement("p");
       abstract.className = "source-abstract";
@@ -1226,12 +1220,6 @@ function fanList(refs) {
     const nodes = [title];
     if (metaBits.length) nodes.push(meta);
     if (actions.childElementCount) nodes.push(actions);
-    if (ref.transcription) {
-      const transcription = document.createElement("p");
-      transcription.className = "source-transcription";
-      transcription.textContent = localeText(ref.transcription, ref.transcriptionPt);
-      nodes.push(transcription);
-    }
 
     li.append(...nodes);
     ul.append(li);
