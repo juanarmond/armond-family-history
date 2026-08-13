@@ -5,6 +5,11 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — "Family Story" reading page: the bilingual convergence narrative (2026-08-13)
+
+- A new **Family Story** button (toolbar, and a "Read the family story →" link on the living-person panels — i.e. on Juan's own node) opens a centered reading overlay (full-screen on mobile) rendering **"How I Came To Be"** — the long-form narrative of Juan's four grandparent lines (Armond/Toledo, Guimarães/Engrácio, Muniz/Azevedo, Bohrer) converging in the Zona da Mata and the Volta Redonda steel city. It is grounded entirely in records already held in this archive; a header note frames it as a narrative synthesis (not evidence), and living people appear by first name only.
+- **Bilingual:** it follows the existing EN/PT language toggle, fetching `family-tree-viewer/family-story.en.md` / `family-story.pt.md`; the Portuguese translation was produced via four parallel agents over disjoint sections and reassembled. Rendered with the portrait light-markdown renderer (`renderPortrait`), now extended to render `*italic*` as well as `**bold**` and the evidence-tier chips. Viewer-only; no genealogical data change.
+
 ### Added — Ruivais G10 ancestors; Simplício's 1919 Toledo partilha; Cordeira/Leme lead (2026-08-13)
 
 - Value-gated the 2026-08-13 retrieval sync (6 images), verifying each against the scan.

@@ -127,6 +127,11 @@ const elements = {
   detailsLifespan: document.querySelector("#details-lifespan"),
   detailsContent: document.querySelector("#details-content"),
   languageSelect: document.querySelector("#language-select"),
+  openStory: document.querySelector("#open-story"),
+  storyPanel: document.querySelector("#story-panel"),
+  storyBackdrop: document.querySelector("#story-backdrop"),
+  closeStory: document.querySelector("#close-story"),
+  storyContent: document.querySelector("#story-content"),
 };
 
 const statusColours = {
@@ -539,6 +544,7 @@ function setLocale(locale) {
   try { localStorage.setItem(LANG_STORAGE_KEY, next); } catch { /* storage unavailable */ }
   if (elements.languageSelect) elements.languageSelect.value = next;
   applyStaticTranslations();
+  if (elements.storyPanel && !elements.storyPanel.hidden) openStory();
   if (state.data) {
     renderActive();
     if (state.selected && !elements.detailsPanel.hidden) openDetails(state.selected);
@@ -849,7 +855,7 @@ function renderTranscript(container, text) {
 function renderPortrait(container, text) {
   container.textContent = "";
   const inline = (parent, s) => {
-    const re = /\*\*(.+?)\*\*|\[(PROVEN|INFERRED|LEAD|CONTEXTUAL|DOCUMENTED|OPEN|STRONG)\]/g;
+    const re = /\*\*(.+?)\*\*|\*(?!\*)([^*]+?)\*|\[(PROVEN|INFERRED|LEAD|CONTEXTUAL|DOCUMENTED|OPEN|STRONG)\]/g;
     let last = 0;
     let m;
     while ((m = re.exec(s)) !== null) {
@@ -858,9 +864,13 @@ function renderPortrait(container, text) {
         const b = document.createElement("strong");
         b.textContent = m[1];
         parent.appendChild(b);
+      } else if (m[2] !== undefined) {
+        const em = document.createElement("em");
+        em.textContent = m[2];
+        parent.appendChild(em);
       } else {
         const span = document.createElement("span");
-        span.className = "tier tier-" + m[2].toLowerCase();
+        span.className = "tier tier-" + m[3].toLowerCase();
         span.textContent = m[0];
         parent.appendChild(span);
       }
@@ -1345,6 +1355,13 @@ function openDetails(personId) {
     privacy.className = "empty-note";
     privacy.textContent = t("detail.livingMinimised");
     elements.detailsContent.append(section(t("detail.privacy"), privacy));
+
+    const storyLink = document.createElement("button");
+    storyLink.type = "button";
+    storyLink.className = "story-link";
+    storyLink.textContent = t("detail.readStory");
+    storyLink.addEventListener("click", () => { closeDetails(); openStory(); });
+    elements.detailsContent.append(section(t("control.story"), storyLink));
   }
 
   if (!elements.detailsPanel.contains(document.activeElement)) {
@@ -1355,6 +1372,49 @@ function openDetails(personId) {
   elements.closeDetails.focus();
   state.selected = personId;
   syncHash();
+}
+
+// The "Family Story" reading page — the long-form convergence narrative, fetched
+// from ./family-story.<locale>.md and rendered with the same light-markdown renderer
+// as the portraits. Cached per locale; re-rendered on a language switch.
+const storyCache = {};
+async function loadStory(locale) {
+  if (storyCache[locale]) return storyCache[locale];
+  const path = locale === "pt-BR" ? "./family-story.pt.md" : "./family-story.en.md";
+  const response = await fetch(path, { cache: "no-store" });
+  if (!response.ok) throw new Error(String(response.status));
+  const text = await response.text();
+  storyCache[locale] = text;
+  return text;
+}
+
+async function openStory() {
+  if (!elements.storyPanel) return;
+  const opening = elements.storyPanel.hidden;
+  elements.storyPanel.hidden = false;
+  elements.storyBackdrop.hidden = false;
+  if (opening && !elements.storyPanel.contains(document.activeElement)) {
+    lastFocused = document.activeElement;
+  }
+  elements.storyContent.textContent = t("story.loading");
+  if (opening) elements.closeStory.focus();
+  try {
+    const text = await loadStory(state.locale);
+    renderPortrait(elements.storyContent, text);
+    if (opening) elements.storyContent.scrollTop = 0;
+  } catch {
+    elements.storyContent.textContent = t("story.error");
+  }
+}
+
+function closeStory() {
+  if (!elements.storyPanel) return;
+  elements.storyPanel.hidden = true;
+  elements.storyBackdrop.hidden = true;
+  if (lastFocused && lastFocused.isConnected && typeof lastFocused.focus === "function") {
+    lastFocused.focus();
+  }
+  lastFocused = null;
 }
 
 function closeDetails() {
@@ -1670,6 +1730,13 @@ function bindEvents() {
   elements.backdrop.addEventListener("click", closeDetails);
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && !elements.detailsPanel.hidden) closeDetails();
+  });
+
+  if (elements.openStory) elements.openStory.addEventListener("click", openStory);
+  if (elements.closeStory) elements.closeStory.addEventListener("click", closeStory);
+  if (elements.storyBackdrop) elements.storyBackdrop.addEventListener("click", closeStory);
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && elements.storyPanel && !elements.storyPanel.hidden) closeStory();
   });
 }
 

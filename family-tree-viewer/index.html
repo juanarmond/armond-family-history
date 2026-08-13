@@ -90,6 +90,7 @@
       </label>
 
       <button id="reset-view" type="button" data-i18n="control.reset">Reset view</button>
+      <button id="open-story" type="button" class="story-button" data-i18n="control.story">Family Story</button>
     </section>
 
     <section class="summary" data-i18n-aria="summary.aria" aria-label="Repository summary">
@@ -132,6 +133,20 @@
     <div id="details-content"></div>
   </aside>
   <div id="panel-backdrop" class="panel-backdrop" hidden></div>
+
+  <aside id="story-panel" class="story-panel" aria-labelledby="story-title" hidden>
+    <div class="story-head">
+      <div>
+        <p class="story-eyebrow" data-i18n="story.eyebrow">The family story</p>
+        <h2 id="story-title" class="story-title" data-i18n="story.title">How I Came To Be</h2>
+        <p class="story-subtitle" data-i18n="story.subtitle">The confluence of four continents in one person</p>
+        <p class="story-note" data-i18n="story.note">A narrative synthesis over the family's documented records — grounded in the sources held in this archive. Living people appear by first name only.</p>
+      </div>
+      <button id="close-story" class="close-button" type="button" data-i18n-aria="story.close" aria-label="Close family story">×</button>
+    </div>
+    <div id="story-content" class="story-content"></div>
+  </aside>
+  <div id="story-backdrop" class="panel-backdrop" hidden></div>
 
   <footer class="site-footer" data-i18n="footer">
     Read-only static visualisation. Repository YAML remains the canonical source of truth.
