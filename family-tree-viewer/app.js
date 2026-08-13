@@ -291,11 +291,11 @@ function setRoot(personId) {
 
 const SVG_NS = "http://www.w3.org/2000/svg";
 
-// Walk the ancestry into fixed ahnentafel positions: subject k = 1, father = 2k, mother = 2k+1.
-// A person's generation is floor(log2 k) and their slot within it is k − 2^generation, so every
-// ancestor has one deterministic cell — same generation on one row, father-line to the left,
-// mother-line to the right. Unknown ancestors leave a gap; the missing half of a partially known
-// couple is marked with a faint placeholder so the symmetry reads as intentional.
+// Walk the ancestry, numbering ancestors ahnentafel-style (subject k = 1, father = 2k,
+// mother = 2k+1) so a father-first walk keeps the father-line left and the mother-line right;
+// generation is floor(log2 k). Columns are packed afterwards (see assignColumns), not fixed at
+// 2^gen, so a sparse deep line stays compact. Unknown ancestors leave a gap; the missing half of a
+// partially known couple gets a faint placeholder so the symmetry reads as intentional.
 function collectAhnentafel(rootId, maxGen) {
   const nodes = [];
   const unknowns = [];
@@ -346,6 +346,28 @@ function collectAhnentafel(rootId, maxGen) {
   return { nodes, unknowns };
 }
 
+// Pack the ancestry into as few columns as it actually needs: a father-first walk gives each leaf
+// the next column, and every ancestor spans its descendants' columns (so it centres over them). A
+// full generation lays out evenly — the symmetric grid — while a sparse deep line collapses into a
+// narrow chain instead of scattering across empty ahnentafel columns.
+function assignColumns(presentKeys) {
+  let nextLeaf = 0;
+  const range = new Map();
+  function visit(k) {
+    if (!presentKeys.has(k)) return null;
+    const left = visit(2 * k);
+    const right = visit(2 * k + 1);
+    const parts = [left, right].filter(Boolean);
+    const r = parts.length
+      ? [Math.min(...parts.map((p) => p[0])), Math.max(...parts.map((p) => p[1]))]
+      : [nextLeaf, nextLeaf++]; // leaf: claim the next column
+    range.set(k, r);
+    return r;
+  }
+  visit(1);
+  return { range, cols: nextLeaf };
+}
+
 function renderTree() {
   if (!state.data) return;
   state.visibleNodes = 0;
@@ -362,16 +384,19 @@ function renderTree() {
   const maxGen = Math.max(1, state.generations - 1);
   const { nodes, unknowns } = collectAhnentafel(state.rootId, maxGen);
 
+  // Pack columns from the real nodes and frontier placeholders (not the theoretical 2^gen slots).
+  const presentKeys = new Set([...nodes, ...unknowns].map((item) => item.k));
+  const { range, cols } = assignColumns(presentKeys);
+
   const grid = document.createElement("div");
   grid.className = "pedigree-inner";
-  grid.style.setProperty("--pedigree-cols", String(Math.pow(2, maxGen)));
+  grid.style.setProperty("--pedigree-cols", String(Math.max(1, cols)));
 
   const placeCell = (k, gen) => {
-    const span = Math.pow(2, maxGen - gen);
-    const slot = k - Math.pow(2, gen);
+    const [minCol, maxCol] = range.get(k) || [0, 0];
     const cell = document.createElement("div");
     cell.className = "pedigree-cell";
-    cell.style.gridColumn = `${slot * span + 1} / span ${span}`;
+    cell.style.gridColumn = `${minCol + 1} / ${maxCol + 2}`;
     cell.style.gridRow = String(gen + 1);
     cell.dataset.k = String(k);
     return cell;
