@@ -1,0 +1,97 @@
+schema_version: 1
+id: NWS-0004
+title: >-
+  1881 O Leopoldinense notice of a "Grande Loteria da Côrte" consortium listing
+  Simplício José Ferreira Armond among the Toledo-circle members
+title_pt: >-
+  Nota de 1881 em O Leopoldinense sobre um consórcio da "Grande Loteria da Côrte"
+  que lista Simplício José Ferreira Armond entre os membros do círculo Toledo
+record_type: Newspaper "Secção Livre" lottery-consortium notice
+record_category: newspaper
+source_form: original
+information_quality: secondary
+evidence_type: indirect
+usage: evidence
+event_date:
+  kind: exact
+  value: "1881-07-23"
+  original_text: '"Leopoldina, 23 de Julho de 1881."'
+repository:
+  name: O Leopoldinense (Leopoldina, Minas Gerais)
+  archive_or_registry: Biblioteca Nacional — Hemeroteca Digital
+  collection: O Leopoldinense (Leopoldina, MG), 1881
+  catalogue_reference: >-
+    O Leopoldinense, Leopoldina (MG), p.3, "Secção Livre — Grande Loteria da
+    Côrte"; notice dated Leopoldina, 23 July 1881.
+  repository_path: >-
+    evidence/newspapers/NWS-0004-simplicio-jose-ferreira-armond-loteria-toledo-leopoldinense-1881.jpg
+access_date: "2026-08-13"
+language: pt-BR
+transcription: >-
+  [O Leopoldinense, Leopoldina (MG), p.3, "SECÇÃO LIVRE → Grande Loteria da
+  Côrte". Full page retained; only the consortium notice is transcribed.] "A
+  sociedade loterica organizada ultimamente entre os socios abaixo declarados,
+  consta de 5 bilhetes inteiros e 10 meios da grande loteria da côrte os quaes se
+  acham em poder do socio Ladislao Egidio Ferreira de Toledo, como depositario, e
+  cujos numeros são os seguintes: [dez números de bilhete omitidos]. Os premios
+  que sahirem por sorte na extracção serão divididos em partes iguaes com os
+  socios: Ladislão Egydio Ferreira de Toledo, Francisco de Andrade Vasconcellos,
+  Francisco José da Silva Toledo, Bento Marques Pereira, Lyndolpho José de Toledo,
+  Candido Fernando dos Reis, Narcizo Feliciano de Almeida, Simplicio José Ferreira
+  Armond & Jeronymo, João Hermenegildo da Silva & Marciano, Aurelio Silvino de
+  Toledo, Leoniano José de Toledo & Altina, Antonio Rodrigues Paiva, Laurentino de
+  Araujo Ferraz, Philomena Maria de Jesus & Vicente, Diogo Luiz Pessoa, Joaquim
+  Rodrigues da Cunha, Virginio Estanislão de Lima & Bernabé, Christina & Flausina,
+  Agostinho & Honorio, João Bento & Raymundo. Leopoldina, 23 de Julho de 1881."
+abstract: >-
+  An 1881 O Leopoldinense (Leopoldina, MG) notice announces a "Grande Loteria da
+  Côrte" ticket consortium held by the depositario Ladisláo Egídio Ferreira de
+  Toledo (P-0056) and lists its members, among them "Simplicio José Ferreira
+  Armond" (P-0016) alongside a run of Toledos. It independently places Simplício
+  in the Leopoldina Toledo circle in 1881 — before his 1899/1902 Muriaé police
+  offices — and corroborates his integration into the Toledo family he married
+  into (Eliza Balbina de Toledo). This is our Simplício, the Toledo son-in-law,
+  not the elder Barbacena Tenente-Coronel namesake.
+abstract_pt: >-
+  Uma nota de 1881 em O Leopoldinense (Leopoldina, MG) anuncia um consórcio de
+  bilhetes da "Grande Loteria da Côrte" sob depósito de Ladisláo Egídio Ferreira
+  de Toledo (P-0056) e lista seus membros, entre eles "Simplicio José Ferreira
+  Armond" (P-0016) ao lado de vários Toledos. Situa Simplício, de forma
+  independente, no círculo Toledo de Leopoldina em 1881 — antes de seus cargos
+  policiais em Muriaé (1899/1902) — e corrobora sua integração à família Toledo
+  na qual se casou (Eliza Balbina de Toledo). É o nosso Simplício, genro dos
+  Toledo, não o Tenente-Coronel Simplício, o mais velho, de Barbacena.
+reliability:
+  assessment: >-
+    A contemporaneous newspaper notice naming Simplício as a lottery-consortium
+    member alongside Ladisláo and other Toledos. Secondary and indirect for any
+    vital fact, but a strong corroboration of his presence and Toledo social ties
+    at Leopoldina in 1881. The Toledo consortium context is what identifies him as
+    the son-in-law rather than the Barbacena namesake.
+  informant: The lottery consortium (self-declared notice, signed at Leopoldina).
+  limitations: >-
+    A social/financial association notice, not a vital record: it attests presence
+    and association, not a dated life event. The ticket numbers are omitted from
+    the transcription.
+digital_file:
+  path: >-
+    evidence/newspapers/NWS-0004-simplicio-jose-ferreira-armond-loteria-toledo-leopoldinense-1881.jpg
+  sha256: aae7f4a203133ecb440ad03fdb4f3bfc73da4e9402ca4c22684d685472c3178e
+linked_people:
+- P-0016
+- P-0056
+linked_families: []
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Located via the O Leopoldinense full text; the full page is retained. Promotes
+    a previously uncatalogued lead (Simplício in an 1881 Toledo lottery consortium).
+    Ladisláo Egídio Ferreira de Toledo (P-0056) is Simplício's father-in-law, which
+    fixes the identification to the Toledo son-in-law.
+  text_pt: >-
+    Localizado no texto integral de O Leopoldinense; a página completa foi retida.
+    Promove uma pista antes não catalogada (Simplício num consórcio de loteria
+    Toledo de 1881). Ladisláo Egídio Ferreira de Toledo (P-0056) é o sogro de
+    Simplício, o que fixa a identificação ao genro dos Toledo.

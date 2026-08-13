@@ -3760,3 +3760,38 @@ documents:
         Appointment of Simplício José Ferreira Armond (P-0016) as 3º suplente do
         delegado de polícia, São Paulo do Muriaé (act 10 Sep 1902) — the official
         primary of the O Pharol reproduction (NWS-0003). Promoted to GOV-0006.
+  - inventory_id: DOC-0095
+    status: catalogued
+    added_date: "2026-08-13"
+    apparent_record_type: Newspaper lottery-consortium notice (O Leopoldinense)
+    apparent_people:
+      - Simplício José Ferreira Armond
+      - Ladisláo Egídio Ferreira de Toledo
+    apparent_event: other
+    image_quality: adequate
+    provenance: >-
+      O Leopoldinense (Leopoldina, MG), p.3, "Secção Livre — Grande Loteria da
+      Côrte", notice dated 23 July 1881; Biblioteca Nacional Hemeroteca Digital.
+      Full page retrieved through the research/from-retrieval/ sync and read
+      directly on 13 Aug 2026.
+    rights_status: private-research
+    files:
+      - path: evidence/newspapers/NWS-0004-simplicio-jose-ferreira-armond-loteria-toledo-leopoldinense-1881.jpg
+        sha256: aae7f4a203133ecb440ad03fdb4f3bfc73da4e9402ca4c22684d685472c3178e
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: original-file
+          pixel_width: 2133
+          pixel_height: 3253
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: NWS-0004
+    notes:
+      - >-
+        Lists Simplício José Ferreira Armond (P-0016) among an 1881 lottery
+        consortium held by his father-in-law Ladisláo Egídio Ferreira de Toledo
+        (P-0056) — corroborates his Leopoldina/Toledo presence in 1881. Promoted
+        to NWS-0004.
