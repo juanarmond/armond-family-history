@@ -18,6 +18,7 @@ name_variants:
   source_ids:
   - PRB-0001
   - PRB-0002
+  - PRB-0006
   - CIV-0023
 event_ids:
 - E-0005

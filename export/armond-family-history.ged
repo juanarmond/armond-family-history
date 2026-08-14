@@ -3,8 +3,8 @@
 2 VERS 7.0
 1 SOUR ARMOND-FAMILY-HISTORY
 2 NAME Armond Family History
-2 VERS 2026.08.13
-1 DATE 13 AUG 2026
+2 VERS 2026.08.14
+1 DATE 14 AUG 2026
 1 SUBM @SUBM0001@
 1 LANG pt-BR
 0 @SUBM0001@ SUBM
@@ -320,6 +320,7 @@
 2 TYPE AKA
 2 SOUR @PRB0001@
 2 SOUR @PRB0002@
+2 SOUR @PRB0006@
 2 SOUR @CIV0023@
 1 SEX M
 1 OCCU 2.º supplente do subdelegado (distrito de Boa Família, Muriaé)
@@ -3774,7 +3775,7 @@
 1 NOTE Repository file: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p1.jpg
 1 OBJE @OBJPRB0005@
 0 @PRB0006@ SOUR
-1 TITL 1879 Leopoldina estate inventory of Mathilde Maria de Jesus — título de herdeiros naming her son José Cezário de Toledo Lima (⚭ D. Claudina) and his eight representantes, including Simplício Jaci Ferreira de Toledo (⚭ Eliza Balbina de Toledo)
+1 TITL 1879 Leopoldina estate inventory of Mathilde Maria de Jesus — título de herdeiros naming her son José Cezário de Toledo Lima (⚭ D. Claudina) and his eight representantes, including Simplício José Ferreira Armond (⚭ Eliza Balbina de Toledo)
 1 TEXT Mathilde Maria de Jesus's 1879 Leopoldina estate inventory (título de herdeiros). Heir #4 is her deceased son José Cezário de Toledo Lima (P-0054) × Claudina (P-0055); their eight representantes (children) are listed at folios 8–9. Item 5 reads "5º Simplicio José Ferreira Armond, cazado com D. Eliza Balbina de Tolledo." Per 19th-century Brazilian inheritance law, a married woman appeared in estate proceedings through her husband as legal representative; Simplício is named first as Eliza's legal actor — Eliza Balbina de Toledo (P-0017) is the actual heir, confirmed as JC's daughter by the Film 2 triage of the 919-page FOCUSED PDF (2026-08-07). Corrects the pre-August 2026 hypothesis that Eliza's parents were Antonio Zeferino de Toledo × Maria Perpétua (PRB-0004): that couple is heir #3 ("de M.a Perpetua nº 3") — Eliza's uncle/aunt, not her parents. NOTE: the "Simplício José Ferreira de Toledo, solteiro, 14 anos" in the two 1867 inventários (PRB-0008, PRB-0009, item 6) is JC's OWN SON with the Toledo surname — a DIFFERENT person from our Simplício Armond (who has the Armond surname and is Eliza's husband, not JC's child). A prior session (7 August 2026) misread item 5 as naming Simplício Armond as heir (wrongly concluding P-0016 = JC's son and Eliza's parentage as unresolved); that error is corrected here.
 1 REPO @REPO0031@
 2 CALN Inventário de Dona Mathilde Maria de Jesus, aberto abril 1879, Leopoldina, MG (correspondent reference doc 38402168), livro Título de herdeiros, folios ~6-10; heir #4 header at folio 8, the daughter Eliza named at folio 9; juramento do inventariante at folio 6
@@ -4271,7 +4272,7 @@
 0 @OBJPRB0006@ OBJE
 1 FILE evidence/probate/PRB-0006-matilde-toledo-inventario-1879-leopoldina-folio9-eliza.jpg
 2 FORM image/jpeg
-2 TITL 1879 Leopoldina estate inventory of Mathilde Maria de Jesus — título de herdeiros naming her son José Cezário de Toledo Lima (⚭ D. Claudina) and his eight representantes, including Simplício Jaci Ferreira de Toledo (⚭ Eliza Balbina de Toledo)
+2 TITL 1879 Leopoldina estate inventory of Mathilde Maria de Jesus — título de herdeiros naming her son José Cezário de Toledo Lima (⚭ D. Claudina) and his eight representantes, including Simplício José Ferreira Armond (⚭ Eliza Balbina de Toledo)
 1 NOTE sha256: 7dbf015f49d6bf5be02cf2b63457c59b48633ff768285bbaa8f9e90ee8ec7337
 0 @OBJPRB0008@ OBJE
 1 FILE evidence/probate/PRB-0008-jose-cesario-inventario-1867-gen1.jpg
