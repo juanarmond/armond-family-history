@@ -1383,3 +1383,32 @@ Audit-and-prevention session (engineering detail in `CHANGELOG.md`):
 4. Viewer refinements: symmetric ahnentafel pedigree capped at 6 generations with a per-card +/-
    expand/collapse, and zoom floored at the fit-to-width level (25–100%). See `CHANGELOG.md`.
 5. All 69 tests pass; GEDCOM regenerated (4296 lines).
+
+## 2026-08-14 — Manuscript accuracy re-reads (PRB-0009, PRB-0006) + Honório 1845 trunk lead
+
+Image re-read session (no external retrieval; all reads of held/drop scans):
+
+1. **PRB-0009 (Ladisláo 1867 inventário) accuracy pass** — high-magnification re-read corrected
+   confirmed misreads: heir #2 "Mettelina" → **Umbelina** (= the 1881 embargos plaintiff;
+   cascaded to P-0056, F-0027), "Auxiliano" → **Aureliano**, "Lefernio" → **Zeferino**, the
+   phantom "Marciano Cesário José" split into **D. Marianna** (Aureliano's wife) + **Cesário
+   José** (heir #6), Louvação date **6 March** (not 10), and p4 "Simplicio **Jaci** Ferrura de
+   Toledo" → "Simplicio **José** Ferreira de Tolledo" — a **cited spouse, NOT the curator**
+   (curator = Aureliano de Sales Toledo). Two-Simplícios conclusion preserved and reinforced:
+   P-0016 (Armond) is distinct from both Toledo Simplícios. PRB-0008 cross-reference reconciled.
+2. **PRB-0006 (Matilde 1879) title correction** — folio 9 item 5° reads unambiguously "Simplicio
+   **José** Ferreira **Armond**, cazado com D. Eliza Balbina de Tolledo"; the title/title_pt
+   "Jaci Ferreira de Toledo" was a misread contradicting the body. Corrected — it CORROBORATES
+   P-0016's Armond identity; PRB-0006 added to his name-variant sources.
+3. **Honório J. F. Armonde 1845 inventário (19pp) → P-0016 parentage lead** — the held pages are
+   only the Barbacena→Mariana carta precatória (no partilha/filiation). Enumerated the trunk:
+   widow Dona Maria [Josefa?] de Santa Anna (guardian of Honório's minor children) + six adult
+   "Ferreira Armonde" signatories (Marcelino, Simão José, Pedro José Joaquim, Padre Francisco
+   Antonio, Flavio José, Manoel Ignacio) + executor Antonio José. This SUPERSEDES the earlier
+   "bounded negative": the precatória lacks filiation, so it neither confirms nor rules out the
+   trunk — Honório is a candidate grandfather and the six adult men candidate fathers of
+   Simplício (b.~1853). Recorded as a LEAD on record-coverage P-0016; decisive next records =
+   the Barbacena PRINCIPAL autos (partilha/título with filiation) + Simplício's ~1853 baptism /
+   his marriage to Eliza. No nodes minted.
+
+All committed; make check green; GEDCOM regenerated.

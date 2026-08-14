@@ -514,10 +514,14 @@ people:
   - record_type: birth
     status: unsearched
     source_ids: []
-    last_reviewed: "2026-08-11"
+    last_reviewed: "2026-08-14"
     next_action: >-
       First verify the identity and fuller name through Aristão's birth,
       baptism or marriage record; then search this person's own earlier record.
+      Trunk lead: retrieve the Barbacena PRINCIPAL autos of Honório J. F. Armonde's
+      1845 inventário (partilha/título with filiation + ages) to test the six named
+      adult "Ferreira Armonde" heirs as candidate fathers; then Simplício's ~1853
+      baptism / his marriage to Eliza (each names his parents).
     notes:
     - text: >-
         Collateral Barbacena Armond leads to cross-search when hunting Simplício's
@@ -532,12 +536,26 @@ people:
         "tio do conde de Prados e do visconde de Pitanguy"). Cross-search these in
         COARPE Barbacena probate + FS Full-Text + Barbacena parish books. Classified as
         leads, not FAN/entities (they appear in cases not involving our modelled people).
-        BOUNDED NEGATIVE (2026-08-12): Honório José Ferreira Armonde's 1845 inventário
-        (LAMPEH Mariana annex, 19pp read) shows only legitimate sibling/nephew heirs and
-        no natural son — ruling him out as Simplício's father (a Ferreira Armonde would
-        not otherwise pass the surname). The still-live childless-brother candidates are
-        Antônio José (d.1852, will at Barbacena) and Lino José (d.1870, will → "Severiano
-        José Ferreira"); both are off-tool (AHMPAJS Barbacena, not digitised).
+        SUPERSEDED (was "bounded negative", 2026-08-12): a fuller re-read of Honório José
+        Ferreira Armonde's 1845 inventário (LAMPEH Mariana annex, 19pp) on 2026-08-14
+        corrects the earlier "sibling/nephew heirs, no natural son" call. The 19pp held are
+        only the Barbacena→Mariana CARTA PRECATÓRIA (opening petition + Mariana appraisal of
+        an ironwork estate) — no auto de abertura, will text, or partilha/título de herdeiros
+        with filiation or ages; those remain in the Barbacena PRINCIPAL autos (off-tool,
+        AHMPAJS). The interested parties are the widow-tutora Dona Maria [Josefa?] de Santa
+        Anna, guardian of Honório's MINOR children (under 12–14), plus six adult "Ferreira
+        Armonde" signatories — Marcelino, Simão José, Pedro José Joaquim, Padre Francisco
+        Antonio, Flavio José, Manoel Ignacio — and Anna Escolastica Umbelina de Barbosa; the
+        precatória does NOT state each one's filiation to Honório. So it neither confirms nor
+        rules out the trunk: Honório (dead by 1845) is at most a candidate GRANDFATHER of a
+        child born ~1853, and any of the six adult Ferreira Armonde men (or a minor son grown)
+        is a candidate FATHER — a LEAD only, on the matching "…José Ferreira Armond(e)" naming
+        convention, never a link. Executor Antonio José Ferreira Armonde (testamenteiro; d.1852,
+        will at Barbacena) and Lino José (d.1870, will → "Severiano José Ferreira") are further
+        trunk members, relationships to Honório not stated here. DECISIVE next records: the
+        Barbacena PRINCIPAL autos (partilha/título giving each heir's filiation, age and spouse
+        — to see which are Honório's sons), paired with Simplício's own ~1853 baptism or his
+        marriage to Eliza naming his parents.
     - text: >-
         Newspaper OCR (2026-08-10) — this rests on the retrieval agent's per-item dated
         reads; no newspaper images were retained, so the dates were not independently
