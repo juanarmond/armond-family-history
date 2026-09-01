@@ -158,9 +158,17 @@ def main() -> None:
     # deceased-only records are deployed; living people's own documents are withheld.
     evidence_to_copy: set[str] = set()
 
-    def scan_path(record: dict) -> str | None:
-        path = (record.get("digital_file") or {}).get("path")
-        return path if isinstance(path, str) and path.startswith("evidence/") else None
+    def scan_paths(record: dict) -> list[str]:
+        # Every evidence image the record ships: the primary scan PLUS each
+        # continuation page. Omitting additional_pages leaves multi-page documents
+        # broken in the deployed viewer — only page 1 (digital_file) would resolve.
+        refs = [record.get("digital_file"), *(record.get("additional_pages") or [])]
+        out: list[str] = []
+        for ref in refs:
+            path = ref.get("path") if isinstance(ref, dict) else None
+            if isinstance(path, str) and path.startswith("evidence/"):
+                out.append(path)
+        return out
 
     # Sources: a record about only deceased people is published verbatim (its scan
     # and transcription included); a record involving any living person (the owner's
@@ -176,9 +184,7 @@ def main() -> None:
             public_sources[sid] = reduced
         else:
             public_sources[sid] = source
-            path = scan_path(source)
-            if path:
-                evidence_to_copy.add(path)
+            evidence_to_copy.update(scan_paths(source))
 
     # FAN references: same rule. All are third-party (deceased) records, so they are
     # published verbatim with their scans unless one ever names a living participant.
@@ -195,9 +201,7 @@ def main() -> None:
             public_fan[fid] = reduced
         else:
             public_fan[fid] = ref
-            path = scan_path(ref)
-            if path:
-                evidence_to_copy.add(path)
+            evidence_to_copy.update(scan_paths(ref))
 
     datasets = {
         "people": public_people,
