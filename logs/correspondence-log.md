@@ -96,3 +96,49 @@ lead until verified against an original record.
 - Sent: 2026-07-30 (by the owner).
 - Status: awaiting reply.
 - Reply: —
+
+### C-005 — Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro (BPAR), Angra do Heroísmo (Terceira)
+- Who: the regional public archive of the Azores, custodian of the Terceira
+  parish registers (São Sebastião de Angra etc.). Issues high-resolution
+  reproductions and certidões de inteiro teor.
+- Contact: `bpar.angra.info@azores.gov.pt`; tel +351 295 401 000; Rua do Morrão
+  42, 9700-054 Angra do Heroísmo. Fees: single-leaf digital reproduction is
+  cheaper than a certidão (quoted below); payment in euros, in advance, invoice
+  issued against a NIF/CPF.
+- Purpose: high-resolution reproductions (or certidões) of six 17th–18th-c.
+  São Sebastião leaves whose *filiação* lines are near the legibility floor on
+  the open Arquivo Digital (culturacores) — for the **Azorean Ferreira Armond /
+  de Ermonde trunk** (Gaspar de Souto Maior; his wife D. Margarida das Candeias;
+  their parents Alferes Belchior da Ponte Cardoso × Mariana Fagundes and Francisco
+  Ferreira de Ermonde × D. Ana Machado). Also asked (opportunistically) for the
+  baptisms of Gaspar × Margarida's children (the emigrant sons Francisco and
+  Antônio) and the ~1650 Santa Bárbara marriage of Belchior × Mariana.
+- Sent: 2026-08-10 (by the owner).
+- Status: **reply received 2026-09-01.**
+- Reply (2026-09-01):
+  - **Items 1–6 (the six São Sebastião leaves):** the archive can supply
+    better-quality images; **6 digitalisations = 6,00 €**. Requires NIF/CPF,
+    phone and address for the (30-day) invoice.
+  - **Item 7 (baptisms of Gaspar × Margarida's children):** the printed genealogy
+    **"Genealogias da ilha Terceira" (António Ornelas Mendes & Jorge Forjaz)**
+    references only the son **Francisco Ferreira de Souto Drummonde / "Armod"**,
+    said to be born in São Sebastião but with **no baptismal record located** (the
+    authors give no birth date, only his marriages): 1st ⚭ **Ângela Maria da
+    Conceição, São Sebastião, 25.01.1721**; 2nd ⚭ **Ana Antónia de São José, N.
+    Sra. da Piedade da Borda do Campo, Minas Gerais, 12.02.1751**. The archivist
+    did **not** mention the second son Antônio.
+  - **Item 8 (Belchior × Mariana ~1650, Santa Bárbara):** **not located** — the
+    archive could find only "the marriage of his son" (i.e. Gaspar's 1690 São
+    Sebastião marriage, which we already hold).
+- **Decision (2026-09-01, owner): DECLINE the 6 € high-resolution order for now.**
+  The genealogically material content is already recoverable from the images we
+  hold plus the sibling attestation (see the readability verdict in
+  logs/LOG.md, this date): all four parent *given*-names read on the 1690 marriage
+  (item 2); the father's surname "Cardozo" reads clearly on Isabel de Souto Maior's
+  1693 marriage (item 3); only the "Fagundes" spelling and D. Margarida's exact
+  death *day* (9 vs 19 Apr 1693, item 4 — a death entry naming no parents) stay at
+  the floor, both immaterial. This entire Terceira trunk is a **lead, unconnected**
+  to the modelled family (Simplício P-0016's descent from it is unproven), and no
+  Terceira leaf can prove that link — so the 6 € is low value now. Optional future
+  step, if a publication-grade clean read of the two surnames is ever wanted: order
+  the single cheapest leaf (item 3 or item 2) à la carte rather than all six.

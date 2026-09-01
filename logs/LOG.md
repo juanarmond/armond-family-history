@@ -1412,3 +1412,40 @@ Image re-read session (no external retrieval; all reads of held/drop scans):
    his marriage to Eliza. No nodes minted.
 
 All committed; make check green; GEDCOM regenerated.
+
+## 2026-09-01 — BPAR Angra (Terceira) reply: high-res declined; Azorean-trunk leads recorded
+
+Correspondence outcome + firsthand readability verdict (no external retrieval; reads of held
+culturacores drop images). No entity changed — the Terceira/Azorean Ferreira Armond–de Ermonde
+trunk stays a LEAD, unconnected to the modelled line (Simplício P-0016's descent unproven); no
+nodes minted.
+
+1. **Reply (C-005, logs/correspondence-log.md).** The BPAR Angra archive replied to the owner's
+   2026-08-10 request. (a) It offered six higher-quality São Sebastião leaves for **6,00 €**.
+   (b) It cited the printed **"Genealogias da ilha Terceira" (Ornelas Mendes & Forjaz)** as
+   referencing only the son **Francisco Ferreira de Souto Drummonde / "Armod"** — born São
+   Sebastião, **no baptism located** (no birth date), ⚭1 Ângela Maria da Conceição (S. Sebastião,
+   25.01.1721), ⚭2 Ana Antónia de São José (N. Sra. da Piedade da Borda do Campo, MG, 12.02.1751);
+   the second son Antônio is not mentioned by Forjaz. A secondary bibliographic lead only.
+   (c) NEGATIVE: the ~1650 Santa Bárbara marriage of Belchior da Ponte Cardoso × Mariana Fagundes
+   is not locatable at BPAR (only the son's 1690 São Sebastião marriage, already held).
+
+2. **Readability verdict (firsthand, held images).** The leaves we hold are two-page spreads at
+   ~1299px total = ~650px/page. Item 2 (Gaspar × Margarida marriage, 1690) reads all four parent
+   *given*-names (Alferes Belchior de Ponte, Mariana; Francisco Ferreira de Ermonde, D. Ana
+   Machado); the father's surname **"Cardozo"** reads clearly on the sibling attestation, Isabel de
+   Souto Maior's 1693 marriage (item 3). Only two details sit at the floor: the **"Fagundes"**
+   spelling in item 2, and **D. Margarida's exact death-day** (9 vs 19 Apr 1693, item 4 — a death
+   entry naming no parents). Item 1 (Gaspar's 1657 baptism) is genuinely low-res (383×527px) and
+   its filiation is illegible, but redundant: Gaspar's parents are already established across the
+   1690 + 1693 marriages. Gaspar's own dates cross-check (b.~1657 from the 1727 death "setenta
+   annos").
+
+3. **Decision: DECLINE the 6 € order for now.** The material filiation is already readable across
+   the combined held records; the two floor-level details are immaterial; and no Terceira leaf can
+   answer the one decisive question (whether P-0016 descends from this trunk) — that needs
+   Simplício's ~1853 Brazil baptism / his marriage to Eliza. Optional à-la-carte fallback if a
+   publication-grade clean read of the surnames is ever wanted: order the single cheapest leaf
+   (item 2 or 3), not all six. Recorded on record-coverage P-0016 and in the correspondence log.
+
+make check green (no data-entity change; correspondence + coverage + log only).
