@@ -1449,3 +1449,23 @@ nodes minted.
    (item 2 or 3), not all six. Recorded on record-coverage P-0016 and in the correspondence log.
 
 make check green (no data-entity change; correspondence + coverage + log only).
+
+## 2026-09-01 — COARPE/TJMG reply: Pitanguy inventário located (BH); Manoel Ignácio negative
+
+Correspondence outcome (C-006) on the titled Barbacena/Pitanguy Ferreira Armond trunk — a LEAD,
+unconnected to the modelled line (Simplício P-0016's descent unproven); no nodes minted.
+
+1. **Pitanguy inventário located.** The Barão & Baroneza de Pitanguy inventário (proc. 39803183 and
+   39803190, Caixa COARPE 2420, Maço 53) is held at the TJMG BH central archive
+   (coarpe.adm@tjmg.jus.br). Directly advances the standing titled-trunk cross-search lead on
+   record-coverage P-0016 ("visconde de Pitanguy" branch). Retrieval procedure: the COARPE Google
+   Form → per-comarca Drive spreadsheets (proc nº + Caixa + localização).
+2. **NEGATIVE — proc. 39808871.** The Barbacena × Mar de Espanha carta precatória sought for
+   Manoel Ignácio Ferreira Armond × Constança Constantina do Sacramento: COARPE reports "não existem
+   registros com relação aos nomes informados". Manoel Ignácio is one of the six adult "Ferreira
+   Armonde" heirs of Honório's 1845 inventário (2026-08-14 read), so this closes that one Mar de
+   Espanha document route to his household; his own Barbacena inventário/marriage is untried.
+3. Recorded on record-coverage P-0016 and correspondence C-006. Trunk stays a lead; the Pitanguy
+   inventário would document the titled branch but does not by itself bridge to P-0016.
+
+make check green (notes/logs only; no entity change).

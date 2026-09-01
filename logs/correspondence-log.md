@@ -151,3 +151,32 @@ lead until verified against an original record.
   page=34) appears to name "Belchior Cardozo … e sua mãe Mariana Fagundes" — a likely
   third attestation of Gaspar's parents; flagged as a from-retrieval target in
   data/record-coverage.yaml (P-0016), trunk-lead only.
+
+### C-006 — Coordenação de Arquivo Permanente (COARPE), Tribunal de Justiça de Minas Gerais
+- Who: the TJMG permanent-archive coordination holding the historical judicial
+  records of extinct/transferred comarcas, including the **Mar de Espanha** acervo —
+  the titled Barbacena Ferreira Armond (Pitanguy) trunk probate.
+- Contact: central archive `coarpe.adm@tjmg.jus.br` (Belo Horizonte). Requests are
+  registered through the COARPE Google Form, which links to a Google Drive of
+  per-comarca spreadsheets giving each record's processo nº, Caixa COARPE and
+  localização:
+  `https://docs.google.com/forms/d/1tJyAFqB8R8LKygYE0iGGHwYfWjxi444XIoSE6TiGVOY/viewform`
+- Purpose: reprographic certidão / digital copy of three Mar de Espanha processes on
+  the titled Barbacena Ferreira Armond (Pitanguy) trunk — a **LEAD** line, unconnected
+  to the modelled family: (1) proc. **39803183** Inventário Barão & Baroneza de
+  Pitanguy (e filhos Ferreira Armond), Caixa 2420 Maço 53; (2) proc. **39803190**
+  Inventário / carta precatória, same couple/caixa; (3) proc. **39808871** carta
+  precatória (Barbacena × Mar de Espanha) for Manoel Ignácio Ferreira Armond ×
+  Constança Constantina do Sacramento.
+- Sent: 2026-09-01 (by the owner).
+- Status: **reply received 2026-09-01.**
+- Reply (2026-09-01):
+  - Processes **39803183 and 39803190** (the Pitanguy inventário) are held at the BH
+    **central archive** — direct future requests to `coarpe.adm@tjmg.jus.br`.
+  - Process **39808871** (Manoel Ignácio Ferreira Armond × Constança Constantina):
+    **"não existem registros com relação aos nomes informados"** — NEGATIVE; no record
+    for those names in their system.
+  - Procedure for any COARPE request: use the Google Form above → the per-comarca
+    Drive spreadsheets → supply proc. nº + Caixa COARPE + localização.
+- Recorded on record-coverage P-0016 (titled-trunk retrieval target + the Manoel
+  Ignácio negative). Trunk-lead only; nothing promoted to evidence, no node minted.
