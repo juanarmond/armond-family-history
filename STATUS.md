@@ -14,7 +14,7 @@ Liliosa Paz Armond from the FamilySearch image ranges now confirmed viewable
 6), and locate Liliosa's own vital records. FamilySearch retrieval now runs through the external
 retrieval agent, which syncs its finds into `research/from-retrieval/`; this
 assistant runs the value gate (`research/from-retrieval-triage-ledger.md`) and
-catalogues each valuable image as evidence.
+catalogues each valuable image as evidence. The deeper open problem — **Simplício José Ferreira Armond's (P-0016) unknown parentage** — is the family's central genealogical gap; its current state, candidate short-list and the three decisive records are consolidated in Next steps §1.
 
 ### Objective completion signal
 
@@ -28,80 +28,63 @@ catalogues each valuable image as evidence.
 
 ## Next steps
 
-This is the immediate execution queue, in order:
+_Resume checkpoint refreshed 2026-09-01._ Ordered queue; per-record detail lives in
+`data/record-coverage.yaml`, archive replies in `logs/correspondence-log.md`.
 
-1. **Direct-line follow-up:** Eliza’s parentage CONFIRMED (7 Aug 2026 Film 2
-   triage, PRB-0006): Eliza Balbina de Toledo (P-0017) is a daughter of José Cezário
-   de Toledo Lima (P-0054) × Claudina Brandina de Jesus (P-0055), family F-0026.
-   Conflict #14 RESOLVED. Note: JC had a son also named "Simplício Ferreira de
-   Toledo" (item 6, both 1867 inventários, b.~1853, died before 1879) — a DIFFERENT
-   person from Simplício José Ferreira Armond (P-0016, Eliza’s husband). P-0016’s
-   parentage is UNKNOWN. The Toledo line
-   now reaches **Portugal**: PAR-0025 (1777 Piracatu baptism, primary) confirms
-   Amaro da Silva Xavier’s parents as Amaro da Silva Barreto (Guimarães, Braga) ×
-   Perpétua da Silva (São Paulo) — F-0031; and Ignez’s parents as João Rodrigues de
-   Mello (Viana, Braga) × Maria Francisca Cordeira (Villa de Ouro) — F-0032.
-   Material conflict: PAR-0025 places Amaro’s birthplace at Meia Ponte (Goiás);
-   PAR-0023 (1810) says "naturais e batizados da Freguesia de Barbacena" — both
-   preserved. **Owner decision pending:** whether to ingest the titled Ferreira Armond
-   branch (collateral).
-2. Catalogue each retrieved image: privacy-review, reserve a source, transcribe,
-   and promote the directly-attested events.
-3. Locate Liliosa's own death, birth or marriage record; retest the Volta
-   Redonda / Barra Mansa civil death series once it reaches April 1946.
-4. Continue the 1866 Vicente identity lead and his Portuguese-locality search as
-   the next line once the Aristão and Liliosa retrieval is queued.
-5. **Human-access tasks:** request the João–Susanna ceremony entry from the
-   Cúria and review any still-restricted Aristão parish images when authorised.
-
-Keep this queue short and actionable. Detailed person-by-record actions remain
-canonical in `data/record-coverage.yaml`; retrieval finds arrive via the
-`research/from-retrieval/` sync and are tracked in
-`research/from-retrieval-triage-ledger.md`; strategic branch order remains under
-**Strategic research priorities** below.
+1. **PRIMARY OPEN PROBLEM — Simplício José Ferreira Armond (P-0016): father unknown.**
+   Modelled only as Eliza's husband (union F-0006), a child in no family, but the gap is
+   well-bounded. _Ruled out (sourced):_ not the childless elder Simplício (b.~1785; PUB-0002
+   + GOV-0002), and not a Toledo — the 2026-08-13/14 PRB-0006/PRB-0009 re-reads confirm his
+   **Armond** surname separates him from all three Toledo "Simplícios". _Leading unproven
+   hypothesis:_ descent from the Barbacena/Azorean Ferreira Armonde trunk — one of the six
+   adult "Ferreira Armonde" heirs of Honório's 1845 inventário (Manoel Ignácio, Simão José,
+   Pedro José Joaquim, Flávio José, Marcelino, Padre Francisco Antonio); circumstantial only,
+   mint no trunk nodes. _Three decisive records, all needing physical/authorised retrieval:_
+   (a) the Simplício × Eliza marriage (~1868–72, Argirita) — best test, blocked on the Arquivo
+   Histórico Arquidiocesano de Juiz de Fora (C-004, awaiting); (b) his ~1853 baptism; (c) the
+   Barbacena Ferreira Armonde _principal_ autos (off-tool, AHMPAJS) and the Pitanguy inventário
+   (proc. 39803183/39803190, COARPE BH via the C-006 form).
+2. **Aristão & Liliosa (external agent):** Aristão's baptism (film 004640627 img 54) and his
+   marriage to Liliosa (film 004640632 img 6); Liliosa's own records (her 1946 Eugenópolis
+   óbito naming her parents; Barra Mansa 1946 civil-death index). Value-gate and catalogue.
+3. **Flagged drop targets (record-coverage P-0016):** culturacores C-1673-1766 `_0034`
+   (+ sweep `_0030–_0044`) for the third Cardozo × Fagundes attestation; the Honório 1845
+   principal autos; the Pitanguy inventário. Trunk material stays LEAD-level until a primary
+   record bridges it.
+4. **Other lines:** Vicente's Portuguese parish (CIV-0007); the João–Susanna Sapucaia ceremony
+   entry (Cúria, needs authorisation); the Antonio Engracio × Maria Aurora marriage; conflict
+   #15 (Francisco Leocádio son vs son-in-law).
 
 ## Current blockers and dependencies
 
-- The imported ChatGPT conversation refers to 24 image attachments whose
-  binaries and metadata were not transferred. Their descriptions remain
-  preserved in the conversation-transfer audit, but exact document matching
-  requires the original attachments.
-- FamilySearch image groups `004640627` (Aristão's baptism, from image 54) and
-  `004640632` (the Aristão×Liliosa marriage, from image 6) are viewable in the
-  identified ranges and are queued for the external retrieval agent (its finds
-  arrive via `research/from-retrieval/`); only the earlier images in each group
-  still display `Image Restricted` and would need authorised FamilySearch Center
-  or Library access.
-- Archive enquiries, paid certificates and conservatory or parish requests
-  require explicit user authorisation before submission.
-- Liliosa's 1946 death now points primarily to the Barra Mansa civil death
-  index (Volta Redonda was its district until 1954 and its own óbito registry
-  opened only ~November 1946); this is a Codex retrieval target, not a hard
-  blocker.
-- FamilySearch exposes João and Susanna's 1882 marriage provision but no
-  separate ceremony entry. The provision was re-read as directed to the Santo
-  Antônio de Sapucaia parish (not Espírito Santo); the surviving Sapucaia
-  marriage-book series and the exact archival request require identification
-  and explicit authorisation before submission.
-- Requiring the repository-health workflow in GitHub branch rules requires
-  repository-administrator access.
+- **Simplício (P-0016) parentage bridge:** the decisive Simplício × Eliza marriage is blocked
+  on the Arquivo Histórico Arquidiocesano de Juiz de Fora (C-004, awaiting reply). The
+  Barbacena/Pitanguy trunk probate is reachable via the COARPE form (C-006, BH central); the
+  Honório 1845 _principal_ autos are off-tool (AHMPAJS Barbacena). BPAR Angra high-res declined
+  — the held Terceira scans are legible and the free CDN offers nothing higher (C-005).
+- **FamilySearch restricted images:** groups `004640627` (Aristão baptism, from img 54) and
+  `004640632` (Aristão × Liliosa marriage, from img 6) are queued for the external retrieval
+  agent; earlier images in each group need authorised FS Center/Library access.
+- **Authorisation-gated:** archive enquiries, paid certificates and parish/conservatory requests
+  need explicit owner authorisation; the João–Susanna Sapucaia ceremony entry and the
+  repository-health branch rule are pending human access.
 
-None of these dependencies prevents the current Aristão and Liliosa retrieval
-and cataloguing work.
+These dependencies gate only the archive-retrieval work; the Simplício-parentage records require
+physical or authorised access, not read-only web.
 
 ## Repository snapshot
 
 | Item | Current state |
 | --- | --- |
-| Structured people | 87 |
-| Structured families | 42 |
-| Structured events | 73 |
+| Structured people | 95 |
+| Structured families | 46 |
+| Structured events | 75 |
 | Structured places | 9 |
-| Structured sources | 93 |
+| Structured sources | 101 |
 | Structured FAN references | 13 |
-| Inventoried retained documents | 90 |
-| Validation | 317 entities; zero errors or warnings at the last check (2026-08-12) |
-| Automated tests | 69 passing at the last check |
+| Inventoried retained documents | 99 |
+| Validation | 339 entities; zero errors or warnings at the last check (2026-09-01) |
+| Automated tests | 70 passing at the last check |
 
 The catalogued sources span the Armond/Paz, Muniz Bittencourt/Azevedo,
 Engracio/Souza/Guimarães, Bohrer and Portuguese-origin lines, include the maternal
@@ -113,7 +96,7 @@ subject's private records. Details are canonical in `data/sources/`; gaps in
 
 | Area | Strongest current position | Strategic gap |
 | --- | --- | --- |
-| Armond and Paz | Aristão's death is confirmed; a second original government record independently names Liliosa Paz Armond and reports the couple as José Olavo's parents. Eliza's parentage CONFIRMED (7 Aug 2026, PRB-0006 Film 2 triage): Eliza Balbina de Toledo (P-0017) is daughter of JC × Claudina (P-0054/P-0055, F-0026). Simplício Armond's (P-0016) own parentage remains UNKNOWN — he is Eliza's husband, not JC's son; JC had a distinct son "Simplício de Toledo" (b.~1853, died before 1879). Leads (not evidence): a sibling Marfiza (bapt. 1873, N. Sra. da Piedade, Piacatuba) fixes the likely baptism parish | Retrieve Aristão's baptism and marriage; find the Simplício×Eliza marriage; locate Simplício Armond's own parents; locate Liliosa's parents. **Toledo apex (2026-08-11):** the 1833 Barbacena inventory of Rita Angélica (PRB-0010, E-0075) now DIRECTLY confirms Ladisláo (P-0056) as her child #1 and dates her death 9 Feb 1832; her 12 other children are documented_children on F-0028 (incl. José Anastácio, Antonio Zeferino). Still open: a legible read of the ink-bled PAR-0018 to primary-confirm Joaquim José's own parents Gaspar Ferreira × Gertrudes Maria (Vila Rica), which the retrieval FINDINGS over-claim as already attested |
+| Armond and Paz | Aristão's 1957 death confirmed; Liliosa Paz Armond independently named (GOV-0001) as José Olavo's mother; Eliza Balbina de Toledo's (P-0017) parentage CONFIRMED = daughter of José Cezário de Toledo Lima × Claudina (F-0026, PRB-0006). Toledo line reaches Portugal (Ruivães 1716, PAR-0036) and the Vila Rica couple Gaspar Ferreira × Gertrudes Maria de Toledo (F-0045, PAR-0018). The 2026-08-13/14 PRB-0006 + PRB-0009 re-reads corrected several misreads and confirmed P-0016 (Armond) is distinct from all three Toledo "Simplícios". | **Simplício José Ferreira Armond's (P-0016) own parents remain UNKNOWN — well-bounded (see Next steps §1):** ruled out as the childless elder Simplício and as any Toledo; leading unproven hypothesis = the Barbacena/Azorean Ferreira Armonde trunk (Honório's 1845 six adult heirs). Three decisive records — the Simplício × Eliza marriage (C-004), his ~1853 baptism, and the Barbacena _principal_ autos / Pitanguy inventário (C-006) — all need physical/authorised retrieval. Aristão's baptism and his marriage to Liliosa, and Liliosa's own 1946 Eugenópolis óbito, still to retrieve. |
 | Muniz Bittencourt and Azevedo | Deocleciano's own 1892 baptism (PAR-0004) and Susanna's 1866 baptism (PAR-0005) are catalogued; João's 1915 death (PAR-0007) confirms São Miguel origin; parents primary-confirmed by PAR-0015 (father Manoel Muniz Bytancourt P-0042, mother Francisca Roza P-0047) and grandparents (F-0023). João's own baptism found: PAR-0022, b. 24 Oct 1845. **Line extended +1 generation (2026-08-11, BPARPD reconcile + Culturacores images):** Manoel × Francisca's true marriage is PAR-0024 folio 32r, **17 Feb 1842** (the earlier "1 Feb 1845 folio 73r" was a namesake mis-ID, corrected); it names Francisca's parents Manoel de Motta × Anna de Souza (P-0086/P-0087, F-0042). The grandparents' 1819 marriage PAR-0037 (E-0074) names P-0048's parents Manoel Muniz Bitancourt elder × Tereza do Amaral (F-0040) and P-0049's parents João de Medeiros Brandão × Maria Eugenia (F-0041). Luiza's parents (F-0018) and Carangola origin fixed | The completed João × Susanna ceremony entry; the Azevedo grandparents' own vital records; the pre-1818 Mãe de Deus books (P-0082–P-0087 own records) are not digitised online |
 | Engracio, Souza and Guimarães | The 1915 collective registration documents Maria Amora/Aurora, her parents and all four grandparents; her 1991 death (CIV-0018) confirms the same parents, and Antonio Engracio Filho's 1964 death (CIV-0017) names his parents — Antonio Engracio de Souza × Luzia Pinheiro da Conceição — and attests the couple's marriage; Cidalia's own 1930 birth (CIV-0022) confirms her parents and all four grandparents and fixes her birth date at 15 September 1930 | Locate Vicente's Portuguese origin; find the Antonio × Maria Aurora marriage act and the P-0032/P-0033 own vital records (both off-index) |
 | Bohrer | João Gonçalves Bohrer (d.1970) and Celina/Selina Bohrer (d.1977) catalogued from RJ civil deaths (CIV-0014/0015). Celina's maternal line reaches grandparents: Joaquim José Bohrer's parents Francisco José Bohrer × Rosa Eugenia de Lemos (PAR-0002) and Lucinda's parents Antonio da Silva Ferreira × Maria Joanna da Silva Ferreira (CIV-0019). Francisco José's parents Jacob Bahrer × Catharina Mayer (F-0024) primary-confirmed by PRB-0005; Rosa Eugenia's parents Manoel de Lemos Pereira × Maria Thereza de Jesus (F-0025) confirmed by PAR-0016. **Valentim's paternal line extended (2026-08-08/09, PUB-0003 + primary Swiss parish registers):** Valentim Martinho Bohrer b. 14/11/1868 (strong-evidence); parents Vicente Borer (P-0070, b.06/09/1828) × Maria Heggendorn (P-0071) — F-0034; grandparents Laurent Borer (P-0068, b.27/02/1797, Grindel, Soleure, CH, Heureux Voyage 1819) × Anna Maria Werhly (P-0069) — F-0033; great-grandparents Johann Jacob Wehrli (P-0072, b.17/01/1751, d.NF 28/05/1827) × Elisabetha Borer (P-0073, d.NF 10/10/1832) — F-0035, marriage PRIMARY confirmed by PAR-0029 (Grindel 27/01/1782); **2026-08-09 NEW (PRIMARY):** JJ Wehrli's parents confirmed by PAR-0027 (Grindel 1751 baptism): Johannes Wehrli (P-0074) × Barbara Alleman (P-0075), F-0036; Elisabetha Borer's parents confirmed by PAR-0028 (Erschwil 1760 baptism, church book #68): Joseph Borer (P-0076) × Anna Maria Borer (P-0077), F-0037. Line now reaches **1719 (est. birth of Johannes Wehrli × Barbara Alleman)** in Grindel/Solothurn. | Valentim's NF baptism (pre-1874, Fundação D. João VI); Carolina Bohrer's maiden name and birth record; Joaquim José's baptism (absent from Imigrantes compilation); Laurent Borer's parents (best lead: Jacob Borer × Catharina Heggendorn, Grindel 1782); Johannes Wehrli × Barbara Alleman marriage record not found |
@@ -169,19 +152,12 @@ material interpretation with its source and confidence.
 
 ## Strategic research priorities
 
-1. Retrieve and catalogue Aristão's baptism and the Aristão×Liliosa marriage
-   from the FamilySearch image ranges now confirmed viewable.
-2. Locate Liliosa's own death, burial, birth or marriage record.
-3. Obtain the João–Susanna ceremony entry from the Santo Antônio de Sapucaia
-   parish registers and their earlier records.
-4. Test the 1866 Vicente identity and locate a family-linked record that gives
-   his Portuguese locality.
-5. Catalogue João Gonçalves Bohrer and Celina Bohrer's own vital records.
-6. Extend the Engracio/Souza, Guimarães and Azevedo lines one documented
-   generation at a time.
+1. Break Simplício (P-0016)'s parentage — the family's central gap (Next steps §1).
+2. Retrieve Aristão's baptism, the Aristão × Liliosa marriage, and Liliosa's own records.
+3. Locate Vicente's Portuguese locality; extend the Engracio/Souza, Guimarães and Azevedo lines
+   one documented generation at a time; obtain the João–Susanna Sapucaia ceremony entry.
 
-The canonical person-by-record actions and last-reviewed dates are maintained
-only in `data/record-coverage.yaml`.
+Canonical person-by-record actions and last-reviewed dates live in `data/record-coverage.yaml`.
 
 ## Engineering state
 
@@ -195,5 +171,5 @@ only in `data/record-coverage.yaml`.
 - **Complete:** versioned schemas, evidence inventory, stable ID allocation,
   recoverable batch promotion, validation, tests, GitHub Actions, the static
   read-only family-tree viewer, the certified-copy (derivative) confirmation
-  rule, and the GEDCOM full-backup exporter (7.0/5.5.1 + GEDZIP; `make export`).
+  rule, and the GEDCOM full-backup exporter (7.0/5.5.1 + GEDZIP; `make export`), the multi-page evidence reader (all continuation pages ship to the deployed site — regression-tested via `tests/test_pages_site.py`), the symmetric ahnentafel pedigree with per-card expand/collapse and fit-floored zoom, and the advisory audits (`make drop-pages-audit`, `make ancestors-audit`, `make profiles-audit`).
 Completed engineering work is recorded only in `CHANGELOG.md`.
