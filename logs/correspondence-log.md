@@ -142,3 +142,12 @@ lead until verified against an original record.
   Terceira leaf can prove that link — so the 6 € is low value now. Optional future
   step, if a publication-grade clean read of the two surnames is ever wanted: order
   the single cheapest leaf (item 3 or item 2) à la carte rather than all six.
+- Follow-up (2026-09-01): re-fetched the open culturacores CDN directly to confirm
+  the free online viewer offers nothing higher-res than the held scans. It does not
+  — the public CDN serves only ~1299×974px per two-page spread (C-1673-1766 masters
+  _0034/_0035/_0036 all 1299×974), and the held 1690 Gaspar × Margarida marriage is
+  byte-identical (sha256) to master _0036. Only BPAR's internal masters exceed the
+  public scan, so the decline stands. Bonus lead noted: master _0034 (viewer
+  page=34) appears to name "Belchior Cardozo … e sua mãe Mariana Fagundes" — a likely
+  third attestation of Gaspar's parents; flagged as a from-retrieval target in
+  data/record-coverage.yaml (P-0016), trunk-lead only.

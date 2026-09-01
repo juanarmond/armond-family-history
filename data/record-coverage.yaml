@@ -739,6 +739,24 @@ people:
       legibility floor, both immaterial. This whole Terceira trunk remains a LEAD,
       unconnected to P-0016; no Terceira leaf can prove Simplício's descent from
       it, so the paid scans are low value now.
+  - text: >-
+      2026-09-01 (live culturacores CDN re-check + new attestation lead; Azorean
+      trunk — LEAD, unconnected to P-0016): re-fetched the open CDN directly to test
+      whether the free online viewer beats the held scans — it does NOT. The public
+      CDN serves only ~1299×974px per two-page spread (verified live: C-1673-1766
+      masters _0034 / _0035 / _0036 are all 1299×974), and our held Gaspar × Margarida
+      1690 marriage is byte-identical (sha256) to master _0036 ("imagem 36"). So there
+      is no higher-resolution online derivative — only BPAR's internal masters exceed
+      it, and those were declined (C-005). NEW attestation lead: master _0034 (the
+      viewer's page=34) carries a right-column entry margin-noted "Belchior Cardozo"
+      whose body reads "…e sua mãe Mariana Fagundes…" — apparently the marriage of a
+      same-named son, i.e. a THIRD attestation of Gaspar's parents Belchior da Ponte
+      Cardozo × Mariana Fagundes (beyond the 1690 marriage _0036 and Isabel's 1693
+      entry). Read at the ~650px/leaf floor, so "Fagundes" is traceable but not a clean
+      read [uncertain]. RETRIEVAL TARGET (for the from-retrieval agent): pull _0034
+      into the drop and sweep _0030–_0044 of C-1673-1766 for any further Cardozo /
+      Fagundes children, as trunk-lead corroboration only — do NOT mint nodes (the
+      trunk is not connected to the modelled line).
 - person_id: P-0017
   external_profiles: []
   records:
