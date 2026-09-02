@@ -4,7 +4,7 @@ event_type: death
 date:
   kind: exact
   value: "2023-04-17"
-place_text: Brazil
+place_id: PL-0003
 participants:
 - person_id: P-0005
   role: principal
@@ -13,7 +13,6 @@ source_ids:
 - REC-0002
 notes:
 - text: >-
-    Death of Cidália Engrácio Guimarães (P-0005) on 17 April 2023, per owner testimony
-    (REC-0002). Owner-attested; held at hypothesis until the civil death registration is
-    catalogued to confirm the date and the exact place (only the country is recorded here
-    — the family resided in Volta Redonda, RJ, but the locality is pending the record).
+    Death of Cidália Engrácio Guimarães (P-0005) on 17 April 2023 at Volta Redonda, Rio
+    de Janeiro (PL-0003), per owner testimony (REC-0002). Owner-attested; held at
+    hypothesis until the civil death registration is catalogued to confirm and upgrade it.
