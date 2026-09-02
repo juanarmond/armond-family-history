@@ -72,7 +72,19 @@ people:
     last_reviewed: "2026-07-28"
     next_action: Locate the 2023 civil death registration.
     notes: []
-  notes: []
+  notes:
+  - text: >-
+      2026-09-02 (retrieval TARGET, owner-identified): a FamilySearch image the owner
+      located — Rio de Janeiro civil registration (FamilySearch collection 1582573),
+      ARK 3:1:S3HY-DRD3-SHF, personArk 1:1:79SW-KBMM, groupId M941-NFJ — is reported to
+      name a GRANDPARENT of Cidalia (P-0005). We do NOT hold it: record images in cc
+      1582573 require an authenticated FamilySearch session, so it cannot be fetched from
+      the read-only public web — it must be pulled by the external retrieval agent
+      (owner's login) into research/from-retrieval/ and value-gated here. It is a
+      DIFFERENT record from CIV-0007 (the 1915 RJ civil birth, personArk 77DD-TX6Z, which
+      already names Maria Aurora's four grandparents). On retrieval: identify which
+      grandparent and the record type (likely a Guimarães-line RJ civil birth/marriage/
+      death), then catalogue and attach.
 - person_id: P-0006
   external_profiles:
   - platform: FamilySearch
