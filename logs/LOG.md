@@ -1478,6 +1478,7 @@ Manhuaçu), daughter of João Gonçalves Bohrer (P-0014) × Celina/Selina Bohrer
 The Diocese de Caratinga Chancellery replied that baptism registers are held by the parishes,
 not the Chancellery, and redirected the request to the responsible parish (parish contacts at
 diocesecaratinga.org.br). NEXT ACTION: request the baptism inteiro teor (names parents +
-godparents) directly from Paróquia Sant'Ana de Manhuaçu, or the current Alto Jequitibá /
-Presidente Soares parish. Recorded on record-coverage P-0007 and STATUS Next steps §4. No node
+godparents) directly from Paróquia de São Lourenço de Manhuaçu (the 1929 matriz), then N. Sra. da
+Conceição Alto Jequitibá (erected 1961; may hold the pre-1961 books) — the earlier "Sant'Ana"
+guess was corrected by a 2026-09-02 diocese-site check (Sant'Ana is in Santana do Manhuaçu). Recorded on record-coverage P-0007 and STATUS Next steps §4. No node
 minted — Iris and her parents are already modelled. make check green.

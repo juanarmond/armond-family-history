@@ -53,8 +53,8 @@ _Resume checkpoint refreshed 2026-09-01._ Ordered queue; per-record detail lives
    record bridges it.
 4. **Other lines:** Vicente's Portuguese parish (CIV-0007); the João–Susanna Sapucaia ceremony
    entry (Cúria, needs authorisation); the Antonio Engracio × Maria Aurora marriage;
-   Iris Bohrer's (P-0007) 1929 baptism — request from Paróquia Sant'Ana de Manhuaçu / Alto
-   Jequitibá (C-007); conflict #15 (Francisco Leocádio son vs son-in-law).
+   Iris Bohrer's (P-0007) 1929 baptism — request from São Lourenço de Manhuaçu (1929 matriz),
+   then N. Sra. da Conceição Alto Jequitibá (C-007); conflict #15 (Francisco Leocádio son vs son-in-law).
 
 ## Current blockers and dependencies
 

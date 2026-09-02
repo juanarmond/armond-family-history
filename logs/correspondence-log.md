@@ -196,6 +196,17 @@ lead until verified against an original record.
 - Reply (2026-09-02, the Diocesan Chancellor): all baptism registers are held by the
   respective **parishes**, not the Chancellery; requests must go directly to the
   responsible parish. Parish contact details are on `diocesecaratinga.org.br`.
-- NEXT ACTION: write directly to Paróquia Sant'Ana de Manhuaçu and, if the 1929
-  baptism is not in its books, the current parish serving Alto Jequitibá / Presidente
-  Soares. Recorded on record-coverage P-0007 (baptism target).
+- Website check (2026-09-02, diocesecaratinga.org.br): the target is NOT "Sant'Ana"
+  (that is Santana do Manhuaçu, a different município). In 1929 Presidente Soares was a
+  district of Alto Jequitibá, itself a district of Manhuaçu; the Alto Jequitibá parish
+  (N. Sra. da Conceição) was only erected 5 Jun 1961, so the 1929 baptism most likely
+  sits in the Manhuaçu matriz.
+- NEXT ACTION — two parishes:
+  1. **Paróquia de São Lourenço de Manhuaçu** (matriz, est. 1878 — strongest holder):
+     Rua Monsenhor Gonzalez 549, Centro, Manhuaçu-MG, CEP 36900-028; tel/WhatsApp
+     (33) 3331-1574; `psaolourenso@yahoo.com.br`; Pe. Carlos Roberto Altoé.
+  2. **Paróquia N. Sra. da Conceição, Alto Jequitibá** (created 1961; may hold the
+     pre-1961 territorial books): Rua Catarina Eller 397, Alto Jequitibá-MG, CEP
+     36976-000; tel/WhatsApp (33) 99911-4366; `paroquianscaj@hotmail.com`.
+  Ask São Lourenço first; if not there, ask Alto Jequitibá whether it received the
+  pre-1961 books. Recorded on record-coverage P-0007 (baptism target).
