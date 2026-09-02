@@ -3,8 +3,8 @@
 2 VERS 7.0
 1 SOUR ARMOND-FAMILY-HISTORY
 2 NAME Armond Family History
-2 VERS 2026.09.01
-1 DATE 01 SEP 2026
+2 VERS 2026.09.02
+1 DATE 02 SEP 2026
 1 SUBM @SUBM0001@
 1 LANG pt-BR
 0 @SUBM0001@ SUBM
@@ -83,6 +83,12 @@
 3 QUAY 3
 2 SOUR @CIV0008@
 3 QUAY 3
+1 DEAT
+2 DATE 17 APR 2023
+2 PLAC Brazil
+2 SOUR @REC0002@
+3 QUAY 1
+2 NOTE Unproven hypothesis (not yet confirmed by evidence).
 1 OCCU doméstica
 2 SOUR @CIV0002@
 1 FAMS @F0002@
@@ -3829,6 +3835,13 @@
 1 NOTE Evidence classification: family_recollection; authored_narrative; information mixed; direct evidence.
 1 NOTE Transcription: [Owner-supplied direct-ancestor roster, July 2026. Verbal/written family information consolidated from the project conversation; no scanned document exists. Content summarised below as recollected by Juan Carlos Muniz Armond.] Direct ancestors identified by the repository owner at project start (Ahnentafel positions 1–15): Position 1 — Juan Carlos Muniz Armond (self, living; b. Volta Redonda, RJ, 1982) Position 2 — [Father; living; name withheld — see P-0002] Position 3 — [Mother; living; name withheld — see P-0003] Position 4 — Geraldo Paz Armond (paternal grandfather; d. 1991, Volta Redonda) Position 5 — Cidália Engrácio Guimarães (paternal grandmother) Position 6 — [Maternal grandfather; name withheld — see P-0006] Position 7 — [Maternal grandmother; name withheld — see P-0007] Position 8 — Aristão Ferreira Armond (paternal great-grandfather; d. 1957, Volta Redonda) Position 9 — Eliza Balbina de Toledo (paternal great-grandmother) Position 10 — António Engrácio de Souza (maternal great-grandfather) Position 11 — Luzia Pinheiro da Conceição (maternal great-grandmother) Position 12 — [Maternal great-grandfather — see P-0012] Position 13 — [Maternal great-grandmother — see P-0013] Position 14 — [Maternal great-grandfather — see P-0014] Position 15 — [Maternal great-grandmother — see P-0015] [Names at positions 6–7 and 12–15 involve living or near-living persons and are withheld from this transcription; the structured person entities contain the appropriate privacy settings. Each assertion above requires independent civil or parish source corroboration — see individual person entities.]
 1 NOTE Repository file: STATUS.md
+0 @REC0002@ SOUR
+1 TITL Owner testimony — death of Cidália Engrácio Guimarães (17 April 2023)
+1 TEXT Owner testimony recording that Cidália Engrácio Guimarães died on 17 April 2023. Family recollection pending the civil death certificate; it records the death and its date but does not substitute for the civil record.
+1 REPO @REPO0036@
+1 NOTE Evidence classification: family_recollection; authored_narrative; information undetermined; direct evidence.
+1 NOTE Transcription: [Owner testimony, 2 September 2026. No scanned document exists; family knowledge supplied by the repository owner, Juan Carlos Muniz Armond, the deceased's grandson.] Cidália Engrácio Guimarães (P-0005), the owner's paternal grandmother and widow of Geraldo Paz Armond (P-0004, d. 1991), died on 17 April 2023. The owner will obtain the civil death registration later to confirm the date, place and informant.
+1 NOTE Repository file: logs/correspondence-log.md
 0 @OBJCIV0001@ OBJE
 1 FILE evidence/civil/CIV-0001-marriage-deocleciano-muniz-bittencourt-luiza-fernandes-de-azevedo-1916-original.jpg
 2 FORM image/jpeg

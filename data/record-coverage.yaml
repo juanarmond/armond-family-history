@@ -67,20 +67,21 @@ people:
     last_reviewed: "2026-07-28"
     notes: []
   - record_type: death
-    status: lead_only
-    source_ids: []
+    status: catalogued
+    source_ids:
+    - REC-0002
     last_reviewed: "2026-09-02"
     next_action: >-
-      Obtain Cidalia's 2023 civil death registration to catalogue her death. The owner
-      reports she died 17 April 2023; confirm the date, place and informant against the
-      certidão.
+      Obtain Cidalia's 2023 civil death registration to upgrade the owner-attested death
+      to a documented, confirmed record; confirm the exact date, place and informant.
     notes:
     - text: >-
-        2026-09-02 (owner-supplied, pending the record): the owner reports Cidalia died
-        17 April 2023. Recorded as a lead — her death is NOT yet modelled as an event and
-        NOT catalogued as a source, so the viewer correctly shows an open death. It must
-        never show 1991, which is her husband Geraldo Paz Armond's death (CIV-0003 →
-        E-0003, where Cidalia appears only as the surviving spouse).
+        2026-09-02 (owner-attested, at the owner's direction): Cidália died 17 April 2023.
+        Now modelled as owner testimony — REC-0002 → event E-0079 (strong-evidence); the
+        owner will add the civil death certificate later to upgrade it to confirmed. Her
+        card therefore shows 1930–2023. It must never show 1991, which is her husband
+        Geraldo Paz Armond's death (CIV-0003 → E-0003, where Cidália is only the surviving
+        spouse).
   notes:
   - text: >-
       2026-09-02 (retrieval TARGET, owner-identified): a FamilySearch image the owner

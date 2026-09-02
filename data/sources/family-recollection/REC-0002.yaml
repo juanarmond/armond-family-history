@@ -1,0 +1,51 @@
+schema_version: 1
+id: REC-0002
+title: Owner testimony — death of Cidália Engrácio Guimarães (17 April 2023)
+title_pt: >-
+  Testemunho do proprietário — falecimento de Cidália Engrácio Guimarães (17 de abril
+  de 2023)
+record_type: Owner-supplied family information
+record_category: family_recollection
+source_form: authored_narrative
+information_quality: undetermined
+evidence_type: direct
+usage: evidence
+repository:
+  name: Armond Family History private repository
+  repository_path: logs/correspondence-log.md
+access_date: "2026-09-02"
+language: en
+transcription: >-
+  [Owner testimony, 2 September 2026. No scanned document exists; family knowledge
+  supplied by the repository owner, Juan Carlos Muniz Armond, the deceased's grandson.]
+
+  Cidália Engrácio Guimarães (P-0005), the owner's paternal grandmother and widow of
+  Geraldo Paz Armond (P-0004, d. 1991), died on 17 April 2023. The owner will obtain the
+  civil death registration later to confirm the date, place and informant.
+abstract: >-
+  Owner testimony recording that Cidália Engrácio Guimarães died on 17 April 2023. Family
+  recollection pending the civil death certificate; it records the death and its date but
+  does not substitute for the civil record.
+abstract_pt: >-
+  Testemunho do proprietário registrando que Cidália Engrácio Guimarães faleceu em 17 de
+  abril de 2023. Recordação familiar pendente da certidão de óbito civil; registra o
+  falecimento e sua data, mas não substitui o registro civil.
+reliability:
+  assessment: >-
+    Direct family knowledge from the deceased's grandson; highly reliable for the fact
+    and date of a recent death, pending documentary confirmation.
+  informant: Juan Carlos Muniz Armond (grandson).
+  limitations: >-
+    Family recollection, not a civil record. The exact date, place and informant require
+    corroboration by the civil death registration, which will upgrade this to confirmed.
+linked_people:
+  - P-0005
+linked_families: []
+linked_events:
+  - E-0079
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Recorded 2026-09-02 at the owner's direction; the owner will add the civil death
+      certificate later. Supports event E-0079 (Cidália's death) at strong-evidence.
