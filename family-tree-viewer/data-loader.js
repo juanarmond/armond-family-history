@@ -171,7 +171,20 @@ export function projectTreeData({ people, families, events, places, sources, fan
       // means they are merely referenced — e.g. named as a parent in a child's
       // death record — not that it is their own event.
       const role = participant?.role;
-      const isOwn = role === "principal" || role === "spouse" || role === "partner";
+      // The event is the person's OWN when they are its principal, or a spouse/partner in a
+      // shared/couple event (marriage, a marriage provision typed "other", residence, …). But
+      // a single-subject vital (death, birth, baptism, burial) has exactly one subject: the
+      // principal. A spouse's role in one — e.g. the widow named in her late husband's death —
+      // is context (its source stays linked to her above), and must NOT appear as her own
+      // event, or she reads as having died (or been born) twice.
+      const singleSubjectVital =
+        event.event_type === "death" ||
+        event.event_type === "birth" ||
+        event.event_type === "baptism" ||
+        event.event_type === "burial";
+      const isOwn =
+        role === "principal" ||
+        ((role === "spouse" || role === "partner") && !singleSubjectVital);
       if (isOwn) {
         personEvents[personId].push({ ...eventView, role });
         // Per-person source ordering: a person's OWN vital records (birth/baptism,

@@ -522,9 +522,10 @@ test("lineage traces the direct line from the subject (P-0001) to each person", 
   assert.equal(data.people["P-0001"].lineage, null);
 });
 
-test("a widow does not inherit her late spouse's death (own vital events require principal role)", () => {
-  // Reproduces the Geraldo/Cidalia bug: a person named only as `spouse` in their
-  // partner's death record must not be shown as having died that year themselves.
+test("a widow does not inherit her late spouse's death (own events = principal, or spouse/partner in a marriage)", () => {
+  // Reproduces the Geraldo/Cidalia bug: a person named only as `spouse` in their partner's
+  // death record must not be shown as having died that year, nor as an event on their own
+  // timeline (which made a widow read as having died twice).
   const people = {
     "P-H": { id: "P-H", preferred_name: "Husband", privacy: "deceased", name_variants: [{ value: "Husband" }] },
     "P-W": { id: "P-W", preferred_name: "Widow", privacy: "deceased", name_variants: [{ value: "Widow" }] },
@@ -545,18 +546,26 @@ test("a widow does not inherit her late spouse's death (own vital events require
     "E-D": {
       id: "E-D", event_type: "death", date: { kind: "exact", value: "1991-02-18" },
       participants: [{ person_id: "P-H", role: "principal" }, { person_id: "P-W", role: "spouse" }],
-      status: "confirmed", source_ids: [],
+      status: "confirmed", source_ids: ["S-D"],
     },
   };
-  const data = projectTreeData({ people, families, events, places: {}, sources: {} });
+  const sources = {
+    "S-D": { id: "S-D", title: "Husband death record", record_type: "Civil death register entry", source_form: "original", information_quality: "primary" },
+  };
+  const data = projectTreeData({ people, families, events, places: {}, sources });
 
   // The husband (principal) owns the 1991 death.
   assert.ok(data.people["P-H"].biography.death, "principal's own death is recorded");
-  // The widow must NOT inherit it — she is only a spouse participant.
+  // The widow must NOT inherit it — not in her biography, and NOT as an event on her own
+  // timeline (else she reads as having died twice: once as widow, once for real).
   assert.equal(data.people["P-W"].biography.death, null, "widow does not inherit her spouse's death year");
-  // ...but the death still appears on her timeline as context, marked with her spouse role,
-  // so any consumer (app.js lifespan/facts) filtering by principal correctly excludes it.
-  const widowDeath = data.people["P-W"].events.find((e) => e.type === "death");
-  assert.ok(widowDeath, "the spouse's death still appears on the widow's timeline as context");
-  assert.equal(widowDeath.role, "spouse", "it is marked as the widow's spouse role, not her own death");
+  assert.equal(
+    data.people["P-W"].events.filter((e) => e.type === "death").length,
+    0,
+    "the spouse's death is not listed among the widow's own events",
+  );
+  // Her marriage (spouse role in a couple event) IS her own event.
+  assert.ok(data.people["P-W"].events.some((e) => e.type === "marriage"), "her marriage is her own event");
+  // ...and the death record that names her as the widow is still linked to her as a source.
+  assert.ok(data.people["P-W"].sources.some((src) => src.id === "S-D"), "the death record naming the widow stays in her sources");
 });
