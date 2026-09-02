@@ -1469,3 +1469,15 @@ unconnected to the modelled line (Simplício P-0016's descent unproven); no node
    inventário would document the titled branch but does not by itself bridge to P-0016.
 
 make check green (notes/logs only; no entity change).
+
+## 2026-09-02 — Caratinga Chancellery reply: Iris Bohrer's baptism → request from the parish
+
+Correspondence outcome (C-007) on a DIRECT-ANCESTOR target — Iris Bohrer Muniz (P-0007), the
+owner's grandmother (deceased), b. 27 Feb 1929 Presidente Soares (then Alto Jequitibá /
+Manhuaçu), daughter of João Gonçalves Bohrer (P-0014) × Celina/Selina Bohrer (P-0015), F-0004.
+The Diocese de Caratinga Chancellery replied that baptism registers are held by the parishes,
+not the Chancellery, and redirected the request to the responsible parish (parish contacts at
+diocesecaratinga.org.br). NEXT ACTION: request the baptism inteiro teor (names parents +
+godparents) directly from Paróquia Sant'Ana de Manhuaçu, or the current Alto Jequitibá /
+Presidente Soares parish. Recorded on record-coverage P-0007 and STATUS Next steps §4. No node
+minted — Iris and her parents are already modelled. make check green.

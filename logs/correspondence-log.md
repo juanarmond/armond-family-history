@@ -180,3 +180,22 @@ lead until verified against an original record.
     Drive spreadsheets → supply proc. nº + Caixa COARPE + localização.
 - Recorded on record-coverage P-0016 (titled-trunk retrieval target + the Manoel
   Ignácio negative). Trunk-lead only; nothing promoted to evidence, no node minted.
+
+### C-007 — Cúria Diocesana de Caratinga (Chancellery) → parish redirect
+- Who: the diocesan chancellery of the Diocese de Caratinga (MG), covering
+  Manhuaçu / Alto Jequitibá / Presidente Soares — the birthplace of Iris Bohrer
+  Muniz (P-0007), the owner's grandmother (deceased). Direct-ancestor record.
+- Contact: the diocese website `diocesecaratinga.org.br` lists the contact details
+  of every parish in the diocese; the Chancellery holds no registers itself.
+- Purpose: certidão de batismo (inteiro teor) of Iris Bohrer (later Iris Bohrer
+  Muniz), b. 27 February 1929 at Presidente Soares (then a district of Alto
+  Jequitibá / Manhuaçu), daughter of João Gonçalves Bohrer (P-0014) × Celina/Selina
+  Bohrer (P-0015) — a primary record naming her parents and godparents.
+- Sent: 2026-09-02 (by the owner), to the Chancellery.
+- Status: **reply received 2026-09-02.**
+- Reply (2026-09-02, the Diocesan Chancellor): all baptism registers are held by the
+  respective **parishes**, not the Chancellery; requests must go directly to the
+  responsible parish. Parish contact details are on `diocesecaratinga.org.br`.
+- NEXT ACTION: write directly to Paróquia Sant'Ana de Manhuaçu and, if the 1929
+  baptism is not in its books, the current parish serving Alto Jequitibá / Presidente
+  Soares. Recorded on record-coverage P-0007 (baptism target).
