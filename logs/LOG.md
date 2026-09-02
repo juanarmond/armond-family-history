@@ -1482,3 +1482,25 @@ godparents) directly from Paróquia de São Lourenço de Manhuaçu (the 1929 mat
 Conceição Alto Jequitibá (erected 1961; may hold the pre-1961 books) — the earlier "Sant'Ana"
 guess was corrected by a 2026-09-02 diocese-site check (Sant'Ana is in Santana do Manhuaçu). Recorded on record-coverage P-0007 and STATUS Next steps §4. No node
 minted — Iris and her parents are already modelled. make check green.
+
+## 2026-09-02 — José Cesário 1867 inventário: full avaliação catalogued (10 enslaved people)
+
+Retrieval-drop processing (2026-09-02 sync): the full high-res scan of José Cesário de Toledo Lima's
+1867 Concórdia inventário (PRB-0008; direct-line — Eliza P-0017's father). Owner directive: catalogue
+the full document.
+
+1. Catalogued the complete-document PDF (all ~200 folios, LFS) + the 11 substantive high-res folios
+   (fl.4v–fl.10r) previously uncatalogued; transcribed the full avaliação sequence (3 parallel agents,
+   integrated centrally). Resolves the "valuations not catalogued" gap.
+2. New content: the estate's avaliação — coffee/land/goods/livestock/benfeitorias, the 3:885$000
+   hypothec to Leocádio de Toledo, and the register of the TEN ENSLAVED PEOPLE (Lucas, Pedro, Miguel,
+   Thobias, Benedicto, Faustina, Virgiliana, Luiza, Joana, Eugenio), transcribed faithfully. The
+   collation/desistência records the enslaved boy Eugenio (crioulo, 14, 1:400$000) given as dowry to
+   Manoel Marques Jorge (⚭ José Cesário's daughter Maria Bulandina de Toledo).
+3. Reconciled reads: the dowry boy is Eugenio (the avaliação value 1:400$000 fixes the fl.7v "Virginio"
+   and fl.10r "1:100$" misreads). No monte-mór/partilha summation in the held scan (Eliza's quota is in
+   the 1879 Matilde estate, PRB-0006). P-0054 profile + F-0026 documented_children already reflect the
+   content (FINDINGS-synced); the folios are the primary evidence.
+4. Used the 10MB complete PDF + 11 substantive folios rather than committing 146MB of raw ord* scans
+   (the PDF holds the full sequence). document-inventory in step; make check green (341 entities, 70
+   tests); GEDCOM 4310 lines.

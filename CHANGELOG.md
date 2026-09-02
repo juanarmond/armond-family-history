@@ -5,6 +5,13 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — José Cesário 1867 inventário: full avaliação + register of 10 enslaved people (2026-09-02)
+
+- Catalogued the complete high-resolution scan of PRB-0008 (José Cesário de Toledo Lima's 1867 Concórdia inventário — a direct-line ancestor, Eliza P-0017's father): added the full-document PDF (all ~200 folios, via LFS) plus the 11 substantive high-res folios (fl.4v–fl.10r) the record previously lacked, and transcribed the entire avaliação sequence. Resolves the standing "monte-mór, valuations and other procedural folios are not catalogued" gap.
+- The avaliação records the estate's assets — coffee groves, land, household goods, livestock, benfeitorias, and a 3:885$000 hypothecary debt — and, most significantly, the **register of the ten enslaved people held in the estate** (Lucas, Pedro, Miguel, Thobias, Benedicto, Faustina, Virgiliana, Luiza, Joana, Eugenio; with ages and appraised values), transcribed faithfully as a historical record. Also the collation/desistência: the enslaved boy Eugenio (crioulo, 14) given as dowry to Manoel Marques Jorge on his marriage to José Cesário's daughter Maria Bulandina de Toledo. P-0054's profile already carried the enslaved-people register (synced from the retrieval FINDINGS); these folios are its primary evidence.
+- No monte-mór/partilha summation folio appears in the held scan (Eliza's own quota is in the 1879 Matilde estate, PRB-0006). document-inventory updated with the 12 new files. make check green; GEDCOM/index regenerated.
+
+
 ### Added — Multi-page document reconciliation + `make drop-pages-audit` (2026-08-13)
 
 - Completed every catalogued multi-part document so the viewer shows **all** its pages and the transcription reads as **one continuous account**: **FAN-0010** (1903 Muriaé hypothec deed, 1→3 pages — previously only the closing folio), **FAN-0012** (1917 rateio) and **FAN-0013** (1922 audiência) each 1→2 pages, **PAR-0036** (1716 Ruivães marriage, + the closing folio), **PRB-0006** (Matilde 1879 inventário, 1→8 folios), **PRB-0010** (Rita 1833 inventário, 3→6 folios), and **PUB-0003** (the Bon compilation, which had *no* evidence files linked at all — all 6 cited images promoted). One near-blank verso (PRB-0006 p0) was reviewed and excluded with a note.

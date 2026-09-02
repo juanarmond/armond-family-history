@@ -2544,6 +2544,136 @@ documents:
           pixel_height: 4095
         privacy_review: cleared
         sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-complete.pdf
+        sha256: 8e4f3869b08914f8629f6438d2e20aea31d124203129086dddb26bcbb1c9c4e1
+        media_type: application/pdf
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: original-file
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-fl04v.jpg
+        sha256: 688aacf1ec13444a7d99c64eb71beab1a3ab315a07d59c7dbe7d7212df1db90f
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2902
+          pixel_height: 4161
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-fl05r.jpg
+        sha256: fe308539b70a00d88d22f669f0b5e0936ccd18cda37f610b1473973885e0ee4e
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2907
+          pixel_height: 4156
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-fl05v.jpg
+        sha256: 76469b0160f0fd4d27551e7b279cb5fa5580dc9ec0b156342f03b319f685e9e7
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2926
+          pixel_height: 4133
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-fl06r.jpg
+        sha256: 20c7ce61cf7b72745ebcc38a50d2b090b9c4911090f73a498bc3f2b04d33923e
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2887
+          pixel_height: 4173
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-fl06v.jpg
+        sha256: b71f29cf6cb5f515c2df1a3b1b07cd2fbd378e875612fe2000d22b31a7037112
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2863
+          pixel_height: 4149
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-fl07r.jpg
+        sha256: 8adf221fc02bb75bdc56a35b94189df407851363549e05bb9a1ecd3b39772c28
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2941
+          pixel_height: 4204
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-fl07v.jpg
+        sha256: 63e7cfbb0583250ccc107e9fa0d2cc5d4941f093301fce77f9a74307acdcec96
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2898
+          pixel_height: 4185
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-fl08r-monte-claudina.jpg
+        sha256: a31f86c647d392c046e8c64639841d572c81038ed2a559d4d7cb816e52c55b22
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2956
+          pixel_height: 4104
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-fl08v.jpg
+        sha256: db3185fc5321fbd6d23652e2dacf97fd531f01027f31570cbdbca053a7d016e1
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2887
+          pixel_height: 4059
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-fl09r.jpg
+        sha256: 69b12da1b6b09f5d0b069e4d6f078ceeccd7b0a47c6fb10b5d6fe375be82b7cd
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2858
+          pixel_height: 4065
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0008-jose-cesario-inventario-1867-fl10r.jpg
+        sha256: 4f376080f55129c2ddf989502b73f448bf421536630b773201863889115b308d
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 2837
+          pixel_height: 4049
+        privacy_review: cleared
+        sensitive_content: []
     duplicate_of: null
     proposed_source_id: PRB-0008
     notes:
