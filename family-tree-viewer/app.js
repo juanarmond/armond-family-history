@@ -177,13 +177,19 @@ function yearFromEvent(event) {
   return match ? match[1] : null;
 }
 
+// A person's OWN vital event: they must be the PRINCIPAL. person.events also holds
+// spouse/partner-role events (a marriage, or a widow/widower named in a spouse's death
+// record), which must never be read as this person's own birth or death — that is what
+// made a widow show her late husband's death year as her own.
+function ownEvent(person, ...types) {
+  return person.events.find((event) => types.includes(event.type) && event.role === "principal");
+}
+
 function lifespan(person) {
   // Fall back to baptism/burial when the vital event itself is unrecorded, so the
   // panel header agrees with the biography prose (data-loader falls back too).
-  const birth = person.events.find((event) => event.type === "birth")
-    || person.events.find((event) => event.type === "baptism");
-  const death = person.events.find((event) => event.type === "death")
-    || person.events.find((event) => event.type === "burial");
+  const birth = ownEvent(person, "birth") || ownEvent(person, "baptism");
+  const death = ownEvent(person, "death") || ownEvent(person, "burial");
   const birthYear = yearFromEvent(birth);
   const deathYear = yearFromEvent(death);
   if (birthYear || deathYear) return `${birthYear || "?"}–${deathYear || ""}`;
@@ -191,8 +197,8 @@ function lifespan(person) {
 }
 
 function primaryPlace(person) {
-  const preferred = person.events.find((event) => event.type === "birth")
-    || person.events.find((event) => event.type === "death")
+  const preferred = ownEvent(person, "birth")
+    || ownEvent(person, "death")
     || person.events[0];
   return localePlace(preferred?.place?.name) || t("place.unknown");
 }
@@ -1486,14 +1492,13 @@ function openDetails(personId) {
     [t("fact.privacy"), vocab("privacy", person.privacy)],
     [t("fact.sources"), String(person.sourceCount)],
     [t("fact.contextRefs"), String((person.fanReferences || []).length)],
-    // Birthplace falls back to the person's own baptism place when no birth
-    // event is held — for pre-registration ancestors the baptism parish is the
-    // birthplace. person.events is already role-filtered to the subject
-    // (principal/spouse/partner), so a parent's role in a child's baptism never
-    // leaks here. Death likewise falls back to a burial place.
-    [t("fact.birthplace"), localePlace((person.events.find((event) => event.type === "birth") || person.events.find((event) => event.type === "baptism"))?.place?.name) || t("value.notEstablished")],
+    // Birthplace falls back to the person's own baptism place when no birth event is
+    // held — for pre-registration ancestors the baptism parish is the birthplace.
+    // ownEvent() requires the principal role, so a spouse's role in a death record or a
+    // parent's role in a child's baptism never leaks here. Death falls back to burial.
+    [t("fact.birthplace"), localePlace((ownEvent(person, "birth") || ownEvent(person, "baptism"))?.place?.name) || t("value.notEstablished")],
     [t("fact.nationality"), nationalityValue(person.nationality)],
-    [t("fact.deathplace"), localePlace((person.events.find((event) => event.type === "death") || person.events.find((event) => event.type === "burial"))?.place?.name) || t("value.notEstablished")],
+    [t("fact.deathplace"), localePlace((ownEvent(person, "death") || ownEvent(person, "burial"))?.place?.name) || t("value.notEstablished")],
   ];
   for (const [term, value] of factRows) {
     const dt = document.createElement("dt");

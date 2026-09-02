@@ -521,3 +521,42 @@ test("lineage traces the direct line from the subject (P-0001) to each person", 
   // The subject has no lineage to itself; living people are not given one.
   assert.equal(data.people["P-0001"].lineage, null);
 });
+
+test("a widow does not inherit her late spouse's death (own vital events require principal role)", () => {
+  // Reproduces the Geraldo/Cidalia bug: a person named only as `spouse` in their
+  // partner's death record must not be shown as having died that year themselves.
+  const people = {
+    "P-H": { id: "P-H", preferred_name: "Husband", privacy: "deceased", name_variants: [{ value: "Husband" }] },
+    "P-W": { id: "P-W", preferred_name: "Widow", privacy: "deceased", name_variants: [{ value: "Widow" }] },
+  };
+  const families = {
+    "F-X": {
+      id: "F-X",
+      partners: [{ person_id: "P-H", role: "spouse" }, { person_id: "P-W", role: "spouse" }],
+      children: [],
+    },
+  };
+  const events = {
+    "E-M": {
+      id: "E-M", event_type: "marriage", date: { kind: "year", year: 1952 },
+      participants: [{ person_id: "P-H", role: "spouse" }, { person_id: "P-W", role: "spouse" }],
+      status: "confirmed", source_ids: [],
+    },
+    "E-D": {
+      id: "E-D", event_type: "death", date: { kind: "exact", value: "1991-02-18" },
+      participants: [{ person_id: "P-H", role: "principal" }, { person_id: "P-W", role: "spouse" }],
+      status: "confirmed", source_ids: [],
+    },
+  };
+  const data = projectTreeData({ people, families, events, places: {}, sources: {} });
+
+  // The husband (principal) owns the 1991 death.
+  assert.ok(data.people["P-H"].biography.death, "principal's own death is recorded");
+  // The widow must NOT inherit it — she is only a spouse participant.
+  assert.equal(data.people["P-W"].biography.death, null, "widow does not inherit her spouse's death year");
+  // ...but the death still appears on her timeline as context, marked with her spouse role,
+  // so any consumer (app.js lifespan/facts) filtering by principal correctly excludes it.
+  const widowDeath = data.people["P-W"].events.find((e) => e.type === "death");
+  assert.ok(widowDeath, "the spouse's death still appears on the widow's timeline as context");
+  assert.equal(widowDeath.role, "spouse", "it is marked as the widow's spouse role, not her own death");
+});
