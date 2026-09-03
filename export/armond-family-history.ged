@@ -1705,6 +1705,15 @@
 1 NOTE Documented child, not individually modelled.
 2 SOUR @PAR0047@
 1 NOTE Daughter of Manoel Muniz Bitancourt (P-0042) × Francisca Roza (P-0047); sister of João (P-0019). Born 29 November 1851, baptised 21 December 1851 (PAR-0047). A namesake of the couple's 1842 daughter Maria (PAR-0045) — a distinct, later child.
+0 @DOCF0020_4@ INDI
+1 NAME Manoel Muniz Bytancourt (the /younger)/
+2 GIVN Manoel Muniz Bytancourt (the
+2 SURN younger)
+1 SEX U
+1 FAMC @F0020@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PAR0022@
+1 NOTE Son of Manoel Muniz Bytancourt (P-0042) × Francisca Roza (P-0047); brother of the emigrant João (P-0019), with whom he was co-baptised. Born 24 March 1845 and baptised the same day (PAR-0022, Nº 5, fol. 59). The two brothers share the identical birth date in one joint act, so twinning is inferred, though "gêmeos" is not written. Named "Manoel" after his father (P-0042); distinguished by generation.
 0 @DOCF0023_1@ INDI
 1 NAME [given name illegible] /Muniz/
 2 GIVN [given name illegible]
@@ -2490,6 +2499,7 @@
 1 CHIL @DOCF0020_1@
 1 CHIL @DOCF0020_2@
 1 CHIL @DOCF0020_3@
+1 CHIL @DOCF0020_4@
 1 MARR
 2 DATE 17 FEB 1842
 2 PLAC Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel, Açores, Portugal
