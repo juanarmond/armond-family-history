@@ -1504,3 +1504,18 @@ the full document.
 4. Used the 10MB complete PDF + 11 substantive folios rather than committing 146MB of raw ord* scans
    (the PDF holds the full sequence). document-inventory in step; make check green (341 entities, 70
    tests); GEDCOM 4310 lines.
+
+## 2026-09-03 — Follow-up: two new sources + accuracy re-reads (from the 2026-09-02 drop)
+
+Follow-up to the profile sweep. New intake + verification (3 read agents + 2 images read centrally):
+1. Catalogued CIV-0026 (Hermogenes Engracio de Souza 1961 RJ death → documented_child on F-0015;
+   confirms parents P-0032/P-0033) and PAR-0051 + E-0080 (Manoel Muniz Bytancourt P-0042 baptism,
+   b. 12 June 1822 Mãe de Deus/São Miguel → birth upgraded to primary; F-0023 parentage → confirmed).
+2. PAR-0018 marriage year re-read c.1786 → 1783 (medium-high; propagated across the 10 c.1786 files);
+   PAR-0022/E-0051 João Jr baptism month → 24 March 1845, co-baptised brother Manoel now source-attested
+   (twin [INFERRED]); CIV-0017 informant "Werner" corrected to a hedged un-named form (H-initial;
+   possibly-living son).
+3. Confirmed no change needed: CIV-0015 (Celina) held reads are faithful (19 Feb / blastoma gástrico /
+   doméstica). Deferred: PRB-0009 (Ladisláo) enslaved roster — held folios stop before the avaliação;
+   names not confirmable from held evidence, unlike PRB-0008.
+make check green (344 entities, 70 tests); GEDCOM 4359; index 344.

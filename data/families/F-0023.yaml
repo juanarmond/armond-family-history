@@ -22,14 +22,16 @@ children:
   parent_relationships:
   - parent_id: P-0048
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
+    - PAR-0051
     - PAR-0015
     notes: []
   - parent_id: P-0049
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
+    - PAR-0051
     - PAR-0015
     notes: []
   notes: []

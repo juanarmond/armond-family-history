@@ -1,0 +1,80 @@
+schema_version: 1
+id: PAR-0051
+title: >-
+  1822 baptism of Manoel Muniz Bytancourt (P-0042) at N. Sra. Mãe de Deus, Povoação,
+  São Miguel — legitimate son of João Muniz and Maria Jacinta [de Medeiros]
+title_pt: >-
+  Batismo de 1822 de Manoel Muniz Bytancourt (P-0042) na Matriz de N. Sra. Mãe de Deus,
+  Povoação, São Miguel — filho legítimo de João Muniz e Maria Jacinta [de Medeiros]
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1822-06-17"
+  original_text: >-
+    Born 12 June 1822 ("nasceo aos doze de Junho de mil oito centos e vinte dous annos"),
+    baptised 17 June 1822 ("baptizado aos dezasete do dito mez").
+event_place_text: >-
+  Matriz de Nossa Senhora Mãe de Deus, lugar da Povoação, Ilha de São Miguel, Açores,
+  Portugal
+repository:
+  name: Biblioteca Pública e Arquivo Regional de Ponta Delgada (BPARPD)
+  archive_or_registry: N. Sra. Mãe de Deus (Povoação, São Miguel) baptism register
+  collection: Registos paroquiais de Nossa Senhora Mãe de Deus, Povoação
+  catalogue_reference: Baptism register (right-hand entry, margin "Manoel"); digitised copy via the research/from-retrieval sync
+access_date: "2026-09-02"
+language: pt-PT
+transcription: >-
+  [N. Sra. Mãe de Deus (Povoação, São Miguel) baptism register; right-hand entry, margin
+  "Manoel".] "Manoel filho legitimo de João Muniz e Maria Jac[i]nta, ambos naturaes e
+  freguezes desta Par[oquia]l Igr[eja] de N. S[enho]ra Mãe de Deos, do lugar da Povoação,
+  nasceo aos doze de Junho de mil oito centos e vinte dous annos, e foi baptizado aos
+  dezasete do dito mez, sendo nesta dita Igr[eja], pelo Rev[erendo] Padre José [Vieira?]
+  cura da Igr[eja] de Santa Barbara anexa a esta Par[oquia]l. Foraõ padrinhos Ant[onio] de
+  Medeiros Brandão e sua mulher Anna de Souza, ambos naturaes e freguezes desta dita
+  Paroquial; foraõ testemunhas João Jacinto Botelho e André Luiz; e para constar fiz este
+  assento em N. S[enho]ra…"
+abstract: >-
+  Parish baptism of Manoel Muniz Bytancourt (P-0042), born 12 June 1822 and baptised 17
+  June 1822 at the Matriz de N. Sra. Mãe de Deus (Povoação, São Miguel), legitimate son of
+  João Muniz (P-0048) and Maria Jac[i]nta [de Medeiros] (P-0049), both natives and
+  parishioners there. Godparents: Antonio de Medeiros Brandão and his wife Anna de Souza
+  (P-0087). This primary record fixes his birth date (previously inferred "about 1820" from
+  his age at death) and directly confirms his parentage.
+abstract_pt: >-
+  Batismo paroquial de Manoel Muniz Bytancourt (P-0042), nascido em 12 de junho de 1822 e
+  batizado em 17 de junho de 1822 na Matriz de N. Sra. Mãe de Deus (Povoação, São Miguel),
+  filho legítimo de João Muniz (P-0048) e Maria Jac[i]nta [de Medeiros] (P-0049), ambos
+  naturais e freguezes dali. Padrinhos: Antonio de Medeiros Brandão e sua mulher Anna de
+  Souza (P-0087). Este registro primário fixa sua data de nascimento (antes inferida "por
+  volta de 1820" pela idade ao falecer) e confirma diretamente sua filiação.
+reliability:
+  assessment: >-
+    Primary contemporaneous parish baptism naming the child's legitimate parents — a
+    direct-primary confirmation of parentage and an exact birth/baptism date.
+  informant: Rev. Padre José [Vieira? — uncertain], cura of the Santa Barbara anexa.
+  limitations: >-
+    The officiant's surname and a few words are an uncertain read; the mother is written
+    "Maria Jacinta" (her fuller form is Maria Jacintha de Medeiros, P-0049).
+digital_file:
+  path: evidence/parish/PAR-0051-manoel-muniz-baptism-1822-maededeus.jpg
+  sha256: 3eda3aa653cc66a48be137c6544e19d0e08c53b2db96967a0c9c8284f9d772df
+linked_people:
+  - P-0042
+  - P-0048
+  - P-0049
+linked_families:
+  - F-0023
+linked_events:
+  - E-0080
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Right-hand entry of the leaf (the left-hand entry is an unrelated "Antonio" baptism).
+      Godparents Antonio de Medeiros Brandão × Anna de Souza (Anna = P-0087) tie the São
+      Miguel family network. The record reads 1822 (the drop filename's "1821" is wrong).

@@ -2,24 +2,23 @@ schema_version: 1
 id: E-0048
 event_type: birth
 date:
-  kind: approximate
-  text: about 1820
-  earliest: 1819
-  latest: 1821
-  calculation: aged 46 at his death on 24 July 1866 (PAR-0015)
+  kind: exact
+  value: "1822-06-12"
+  original_text: born 12 June 1822 (baptised 17 June 1822), per the baptism PAR-0051
 place_text: >-
   Ilha de São Miguel, Açores, Portugal (probably Nossa Senhora Mãe de Deus,
   Povoação — his parents' parish)
 participants:
 - person_id: P-0042
   role: principal
-status: strong-evidence
+status: confirmed
 source_ids:
+- PAR-0051
 - PAR-0015
 notes:
 - text: >-
-    Approximate birth of Manoel Muniz Bytancourt (P-0042) about 1820, inferred from
-    his age (46) at death in 1866 (PAR-0015). His own naturalidade is not stated in
-    that record, but his parents were "naturaes desta freguesia" of Povoação and he
-    lived and died there, so a Povoação (São Miguel) birth is the strong inference;
-    it is not directly recorded, hence strong-evidence rather than confirmed.
+    Birth of Manoel Muniz Bytancourt (P-0042) on 12 June 1822 at N. Sra. Mãe de Deus
+    (Povoação, São Miguel), now primary-documented by his baptism PAR-0051 (baptised 17
+    June 1822), which names his legitimate parents João Muniz (P-0048) × Maria Jacinta
+    de Medeiros (P-0049). This supersedes the earlier "about 1820" inference from his
+    age (46) at death (PAR-0015), which was ~2 years off.

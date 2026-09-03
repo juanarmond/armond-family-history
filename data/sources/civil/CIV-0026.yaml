@@ -1,0 +1,79 @@
+schema_version: 1
+id: CIV-0026
+title: >-
+  1961 Rio de Janeiro civil death of Hermogenes Engracio de Souza — son of Antonio
+  Engracio de Souza and Luzia Pinheiro da Conceição
+title_pt: >-
+  Óbito civil de 1961, no Rio de Janeiro, de Hermogenes Engracio de Souza — filho de
+  Antonio Engracio de Souza e Luzia Pinheiro da Conceição
+record_type: Civil death register entry
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1961-11-19"
+  original_text: >-
+    Died 19 November 1961 ("no dia dezenove do corrente"), registered 24 November 1961
+    (declaration date), entry Nº 91.554.
+event_place_text: >-
+  Rio de Janeiro, Distrito Federal / Guanabara, Brazil (Hospital Estadual Santa Maria)
+repository:
+  name: Cartório de Registro Civil, Rio de Janeiro
+  archive_or_registry: FamilySearch (Brazil, Rio de Janeiro civil registration)
+  collection: Brasil, Rio de Janeiro, Registro Civil
+  catalogue_reference: Óbito Nº 91.554, fl. 27; digitised copy delivered via the research/from-retrieval sync
+access_date: "2026-09-02"
+language: pt-BR
+transcription: >-
+  [Óbito Nº 91.554, fl. 27, Rio de Janeiro. Left-hand entry.] "Aos vinte e quatro de
+  novembro de mil novecentos e sessenta e um, nesta Cidade, e neste cartório, compareceu
+  [Nicolau Mozaguio — uncertain], profissão comércio, residente Santa Luzia 206, e
+  exibindo atestado de óbito firmado pelo Doutor [illegible] CRM 7230, declarou: Que no
+  dia dezenove do corrente às 5 horas, [no] Hospital Estadual Santa Ma[ria], faleceu
+  Hermogenes Engracio de Souza, do sexo masculino, côr branca, com 65 annos de idade,
+  natural de Minas Gerais, estado civil casado com Maria Dutra de Souza, profissão
+  lavrador, residente rua 'R' lote 30 quadra 38 [Duque de] Caxias, filho de Antonio
+  Engracio de Souza e Luzia Pinheiro [da] Conceição — e será sepultado no cemitério de
+  São Francisco Xavier. Causa Mortis: caquexia, tuberculose pulmonar. O obitado deixou
+  tres filhas maiores; não deixou bens."
+abstract: >-
+  Civil death of Hermogenes Engracio de Souza (b. ~1896, Minas Gerais; d. 19 November
+  1961, Rio de Janeiro, aged 65), lavrador, married to Maria Dutra de Souza. Names his
+  parents as Antonio Engracio de Souza (P-0032) and Luzia Pinheiro da Conceição (P-0033)
+  — a second independent primary confirming that couple's names, and documenting a further
+  child of theirs (a brother of Antonio Engracio Filho, P-0010). He left three adult
+  daughters (not named in the record).
+abstract_pt: >-
+  Óbito civil de Hermogenes Engracio de Souza (n. ~1896, Minas Gerais; f. 19 de novembro
+  de 1961, Rio de Janeiro, aos 65 anos), lavrador, casado com Maria Dutra de Souza. Nomeia
+  seus pais Antonio Engracio de Souza (P-0032) e Luzia Pinheiro da Conceição (P-0033) — uma
+  segunda confirmação primária independente dos nomes do casal, e documenta mais um filho
+  deles (irmão de Antonio Engracio Filho, P-0010). Deixou três filhas maiores (não nomeadas
+  no registro).
+reliability:
+  assessment: >-
+    Primary civil death register entry; the filiation is informant-reported (by a
+    non-relative declarant), so it corroborates the parents' names rather than proving them.
+  informant: "[Nicolau Mozaguio — uncertain], declarant; not a relative."
+  limitations: >-
+    The declarant's name and the attesting doctor are partly illegible; the daughters are
+    unnamed. "SEM VALOR LEGAL" watermark ignored (a working copy).
+digital_file:
+  path: evidence/civil/CIV-0026-hermogenes-engracio-souza-obito-1961-rj.jpg
+  sha256: 3dbca4b639af77f1c82dfe71c0efbc9454704033927add0a7362a53366c6de99
+linked_people:
+  - P-0032
+  - P-0033
+linked_families:
+  - F-0015
+linked_events: []
+linked_places: []
+private: false
+notes:
+  - text: >-
+      Records a further (collateral) child of Antonio Engracio de Souza × Luzia Pinheiro
+      da Conceição — Hermogenes — added as a documented_child on F-0015. His three adult
+      daughters are possibly living and are not named in the record; not modelled.

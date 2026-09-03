@@ -2,8 +2,9 @@ schema_version: 1
 id: E-0051
 event_type: baptism
 date:
-  kind: year
-  year: 1845
+  kind: exact
+  value: "1845-03-24"
+  original_text: "24 de Março de 1845 (month a medium-high read, 2026-09-03; day/year clear)"
 place_text: >-
   Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel,
   Açores, Portugal
@@ -19,8 +20,7 @@ source_ids:
 - PAR-0022
 notes:
 - text: >-
-    Baptism of João [Muniz Byttancourt] (P-0019), born on the 24th of an
-    illegible month of 1845, baptised on the same day. Entry Nº 5, fol. 59, in
+    Baptism of João [Muniz Byttancourt] (P-0019), born on 24 March 1845 (month a medium-high read), baptised the same day. Entry Nº 5, fol. 59, in
     the N.S. Mãe de Deus (Povoação, São Miguel) baptism register (DGS 5228858
     img 63). Directly confirms both parents: Manoel Muniz Bytancourt (P-0042) and
     Francisca Roza do Espirito Santo (P-0047). Joint baptism with a sibling on

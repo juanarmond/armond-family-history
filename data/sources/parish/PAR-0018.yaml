@@ -2,10 +2,10 @@ schema_version: 1
 id: PAR-0018
 title: >-
   Barbacena marriage of Joaquim José Ferreira de Toledo and Ritta Angélica
-  Rodrigues (c.1786), naming both couples of their parents
+  Rodrigues (1783), naming both couples of their parents
 title_pt: >-
   Casamento em Barbacena de Joaquim José Ferreira de Toledo e Ritta Angélica
-  Rodrigues (c.1786), que nomeia os dois casais de pais
+  Rodrigues (1783), que nomeia os dois casais de pais
 record_type: Parish marriage register entry (casamento, original)
 record_category: parish_register
 source_form: original
@@ -14,10 +14,10 @@ evidence_type: direct
 usage: evidence
 event_date:
   kind: year
-  year: 1786
+  year: 1783
   original_text: >-
     "Aos quinze dias do mes de Janeiro de mil e sete centos e oitenta e [seis]" — 15
-    January, the year an uncertain read (c.1786; consistent with the couple's son
+    January, the year re-read 2026-09-03 (max-zoom) as 1783, medium-high — earlier hedged c.1783; consistent with the couple's son
     Ladisláo's September 1787 baptism).
 event_place_text: >-
   Matriz da Freguesia de Nossa Senhora da Piedade da Borda do Campo (Barbacena),
@@ -27,12 +27,12 @@ repository:
   archive_or_registry: >-
     Matriz de Nossa Senhora da Piedade da Borda do Campo (Barbacena), MG
   collection: >-
-    Brazil, Minas Gerais, registros paroquiais (Barbacena); casamentos ~1786
+    Brazil, Minas Gerais, registros paroquiais (Barbacena); casamentos ~1783
   book: >-
     Livro de casamentos, Barbacena (Piedade da Borda do Campo), folio 33 (volume
     with ink bleed-through / tight binding)
   catalogue_reference: >-
-    Barbacena (N.S. da Piedade da Borda do Campo) marriages, c.15 January 1786.
+    Barbacena (N.S. da Piedade da Borda do Campo) marriages, c.15 January 1783.
     Located via the FamilySearch retrieval and delivered through the
     research/from-retrieval/ sync; read and promoted 1 August 2026.
   repository_path: evidence/parish/PAR-0018-joaquim-jose-toledo-ritta-marriage-barbacena.jpg
@@ -53,7 +53,7 @@ transcription: >-
   Ignacio [Pereira?]; testemunhas … fis este assento. [assinatura] Vig.[ário]
   Felisiano [Pinto?]."
 abstract: >-
-  The c.1786 Barbacena marriage of Joaquim José Ferreira de Toledo (P-0057) and
+  The 1783 Barbacena marriage of Joaquim José Ferreira de Toledo (P-0057) and
   Ritta Angélica Rodrigues (P-0058). It names both couples of their parents: Joaquim
   José is son of Gaspar Ferreira and Gertrudes Maria [de Toledo] (of Vila Rica — the
   apparent origin of the "Ferreira"+"de Toledo" surname), and Ritta is daughter of
@@ -62,7 +62,7 @@ abstract: >-
   Toledo (P-0056) — Eliza's grandfather — on strong (not direct) evidence; see
   F-0028 for the identity reasoning.
 abstract_pt: >-
-  O casamento de c.1786 em Barbacena de Joaquim José Ferreira de Toledo (P-0057)
+  O casamento de 1783 em Barbacena de Joaquim José Ferreira de Toledo (P-0057)
   e Ritta Angélica Rodrigues (P-0058). Nomeia os dois casais de seus pais:
   Joaquim José é filho de Gaspar Ferreira e Gertrudes Maria [de Toledo] (de Vila
   Rica — a aparente origem do sobrenome "Ferreira"+"de Toledo"), e Ritta é filha
@@ -77,7 +77,7 @@ reliability:
     Ferreira × Gertrudes Maria; João Rodrigues [do Valle] × Izabel Ribeira). It does
     NOT itself name their son Ladisláo — the tie of this couple to P-0056 is indirect
     (see F-0028).
-  informant: The officiating vigário, Barbacena (Piedade da Borda do Campo), c.1786.
+  informant: The officiating vigário, Barbacena (Piedade da Borda do Campo), 1783.
   limitations: >-
     Ink bleed-through and tight binding; the year, Gertrudes's surname, "do Valle",
     "Izabel", the witnesses and the officiant's surname are uncertain reads. The

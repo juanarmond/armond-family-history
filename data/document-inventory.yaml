@@ -4196,3 +4196,74 @@ documents:
         The Nova Friburgo immigrant genealogy and Casa Suíça database are navigation
         leads only; they do not establish a primary-source relationship to this
         repository's documented line.
+  - inventory_id: DOC-0100
+    status: catalogued
+    added_date: "2026-09-02"
+    apparent_record_type: Civil death register entry (Rio de Janeiro)
+    apparent_people:
+      - Hermogenes Engracio de Souza (d. 19 Nov 1961)
+      - Antonio Engracio de Souza (father)
+      - Luzia Pinheiro da Conceição (mother)
+    apparent_event: death
+    image_quality: adequate
+    provenance: >-
+      FamilySearch/owner retrieval drop (research/from-retrieval/ sync); 1961 Rio de
+      Janeiro civil death of Hermogenes Engracio de Souza, óbito Nº 91.554, fl. 27.
+      Names his parents Antonio Engracio de Souza and Luzia Pinheiro da Conceição — a
+      further (collateral) child of that couple. Retrieved as image
+      rec-engracio-hermogenes-obito-rj-1961.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/civil/CIV-0026-hermogenes-engracio-souza-obito-1961-rj.jpg
+        sha256: 3dbca4b639af77f1c82dfe71c0efbc9454704033927add0a7362a53366c6de99
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 4424
+          pixel_height: 3324
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: CIV-0026
+    notes:
+      - >-
+        Documents a collateral child (Hermogenes) of Antonio Engracio de Souza x Luzia
+        Pinheiro da Conceição; recorded as a documented_child on F-0015. The three adult
+        daughters mentioned are unnamed and not modelled.
+  - inventory_id: DOC-0101
+    status: catalogued
+    added_date: "2026-09-02"
+    apparent_record_type: Parish baptism register entry (N. Sra. Mãe de Deus, Povoação, São Miguel)
+    apparent_people:
+      - Manoel Muniz Bytancourt (bapt. 17 Jun 1822)
+      - João Muniz (father)
+      - Maria Jacinta de Medeiros (mother)
+    apparent_event: baptism
+    image_quality: adequate
+    provenance: >-
+      Owner retrieval drop (research/from-retrieval/ sync); 1822 baptism of Manoel Muniz
+      Bytancourt (P-0042) at the Matriz de N. Sra. Mãe de Deus, Povoação, São Miguel —
+      legitimate son of João Muniz (P-0048) and Maria Jacinta [de Medeiros] (P-0049).
+      Right-hand entry of the leaf. Retrieved as image
+      rec-muniz-manoel-baptism-1821-maededeus.jpg (the record itself reads 1822).
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0051-manoel-muniz-baptism-1822-maededeus.jpg
+        sha256: 3eda3aa653cc66a48be137c6544e19d0e08c53b2db96967a0c9c8284f9d772df
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: owner-supplied
+          resolution_status: highest-authorised
+          pixel_width: 1948
+          pixel_height: 1383
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0051
+    notes:
+      - >-
+        Primary baptism fixing P-0042's birth (12 June 1822) and confirming his parents
+        (F-0023); previously his birth was inferred "about 1820" from age at death.

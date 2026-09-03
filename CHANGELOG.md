@@ -5,6 +5,14 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Follow-up intake + accuracy pass from the 2026-09-02 drop (2026-09-03)
+
+- **CIV-0026** — 1961 Rio de Janeiro civil death of **Hermogenes Engracio de Souza**, a further (collateral) child of Antonio Engracio de Souza (P-0032) × Luzia Pinheiro da Conceição (P-0033) and a second independent primary confirming that couple's names. Added as a documented_child on F-0015 (his three adult daughters are unnamed/possibly-living, not modelled).
+- **PAR-0051 + E-0080** — the 1822 parish **baptism of Manoel Muniz Bytancourt (P-0042)** at N. Sra. Mãe de Deus (Povoação, São Miguel): a primary record that fixes his birth (**12 June 1822**, baptised 17 June; previously inferred "about 1820") and confirms his parentage (F-0023 P-0042 edges upgraded strong-evidence → confirmed).
+- Accuracy corrections from image re-reads: **PAR-0018** Joaquim José × Rita marriage year re-read **c.1786 → 1783** (max-zoom, medium-high; propagated across the 10 files that carried the c.1786 hedge); **PAR-0022 / E-0051** João Jr's baptism month **"illegible" → 24 March 1845**, and his co-baptised brother **Manoel** recognised as source-attested (named in the record), twinning [INFERRED] from the shared birth date; **CIV-0017** informant misread **"Werner" corrected** to a hedged un-named form (initial is a cursive H; a possibly-living son). CIV-0015 (Celina) re-read confirmed the held reads (19 Feb / blastoma gástrico / doméstica) are faithful.
+- Deferred: **Ladisláo's PRB-0009 enslaved-people roster** — the held folios stop just before the avaliação (the appraisal folio is not held), so the names stay deferred pending retrieval (unlike the José Cesário PRB-0008, which had its held avaliação). make check green.
+
+
 ### Added — José Cesário 1867 inventário: full avaliação + register of 10 enslaved people (2026-09-02)
 
 - Catalogued the complete high-resolution scan of PRB-0008 (José Cesário de Toledo Lima's 1867 Concórdia inventário — a direct-line ancestor, Eliza P-0017's father): added the full-document PDF (all ~200 folios, via LFS) plus the 11 substantive high-res folios (fl.4v–fl.10r) the record previously lacked, and transcribed the entire avaliação sequence. Resolves the standing "monte-mór, valuations and other procedural folios are not catalogued" gap.
