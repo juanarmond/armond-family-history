@@ -174,12 +174,19 @@ lead until verified against an original record.
   - Processes **39803183 and 39803190** (the Pitanguy inventário) are held at the BH
     **central archive** — direct future requests to `coarpe.adm@tjmg.jus.br`.
   - Process **39808871** (Manoel Ignácio Ferreira Armond × Constança Constantina):
-    **"não existem registros com relação aos nomes informados"** — NEGATIVE; no record
-    for those names in their system.
+    **"não existem registros com relação aos nomes informados."**
   - Procedure for any COARPE request: use the Google Form above → the per-comarca
     Drive spreadsheets → supply proc. nº + Caixa COARPE + localização.
+- **Caveat — the 39808871 reply is a WRONG-OFFICE negative, NOT a true bounded-negative
+  (2026-09-04 retrieval FINDINGS):** proc. 39808871 was indexed in the COARPE **Muriaé**
+  spreadsheet (XLSX), but this negative came from the **Mar de Espanha** comarca office,
+  which may simply not hold it. The process may still exist at the **Muriaé** COARPE
+  office (the office that processed forms 1–5, submitted 2026-08-07). **Do NOT close this
+  lead.** Next action: verify whether the Muriaé-targeted forms 1–5 batch included or
+  excluded 39808871, and if excluded, re-submit it to Muriaé.
 - Recorded on record-coverage P-0016 (titled-trunk retrieval target + the Manoel
-  Ignácio negative). Trunk-lead only; nothing promoted to evidence, no node minted.
+  Ignácio wrong-office negative). Trunk-lead only; nothing promoted to evidence, no
+  node minted.
 
 ### C-007 — Cúria Diocesana de Caratinga (Chancellery) → parish redirect
 - Who: the diocesan chancellery of the Diocese de Caratinga (MG), covering

@@ -5,6 +5,12 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-09-05 — Value-gate of the 2026-09-04 drop (titled-trunk leads; COARPE reply correction)
+
+- Question: does the 2026-09-04 sync (an 1896 Adalberto Armonde escritura + updated FINDINGS/correspondence) carry anything to promote, and is the earlier COARPE 39808871 negative sound?
+- Key results: (1) the 1896 Soledade escritura de compra e venda (Adalberto Ferreira Armonde × Marinha Barboza), the c.1888 BN newspaper page, and the older 1860 Rio Pomba procuração (`ft_…3QHK-PQ7M-XW1N`) are all **titled Barão-de-Pitanguy collateral with no direct-line filiation → LEADS, not promoted**; the procuração corroborates Antônio José Ferreira Armonde as the prime natural-father candidate for Simplício (P-0016) but states no filiation. (2) **Correction:** the COARPE proc. 39808871 "não existem registros" reply (C-006) is a **wrong-office negative** — the process was indexed at COARPE Muriaé, but the negative came from the Mar de Espanha office; the Manoel Ignácio × Constança lead stays open (verify at Muriaé). No node minted.
+- Files: `logs/correspondence-log.md` (C-006 caveat), `data/record-coverage.yaml` (P-0016), `research/from-retrieval-triage-ledger.md` (three leads dispositioned + a 2026-09-04 section). make check green (70 tests); drop-pages-audit no missing pages.
+
 ## 2026-08-13 — Ruivais G10 extension; Simplício 1919 Toledo partilha; Cordeira/Leme lead
 
 - Question: value-gate the 2026-08-13 sync (6 images) — 1716 Ruivais marriage, Simplício 1919 Leopoldina heir payment, three São Paulo Cordeira/Leme records.

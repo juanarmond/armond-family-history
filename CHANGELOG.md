@@ -5,6 +5,11 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — Value-gate of the 2026-09-04 drop: titled-trunk leads + a COARPE reply correction (2026-09-05)
+
+- **2026-09-04 retrieval drop value-gated — nothing promoted (all titled Barão-de-Pitanguy collateral, no direct-line filiation).** (1) 1896 Soledade (Mar de Espanha) **escritura de compra e venda** — Adalberto Ferreira Armonde + wife Marinha Barboza Armonde sell inherited Barboza-land shares to her father Tenente Alexandrino Gonçalves Barboza; a 5-pp extract from COARPE 39805062 (165-pp Thereza Carolina Barboza inventário, read whole). (2) c.1888 BN Hemeroteca newspaper page naming Adalberto. (3) the older `ft_…3QHK-PQ7M-XW1N` **1860 Rio Pomba procuração** of the deceased Antônio José Ferreira Armonde (Conde de Prados testamenteiro) — names no filiation but corroborates Antônio José as the prime natural-father candidate for Simplício (P-0016). All three recorded as leads in the triage ledger; no source catalogued, no node minted.
+- **COARPE correction:** the proc. **39808871** "não existem registros" reply (C-006) is a **wrong-office negative, not a bounded-negative** — 39808871 was indexed at COARPE **Muriaé** but the negative came from the **Mar de Espanha** office. The Manoel Ignácio Ferreira Armond × Constança lead **stays open** (verify/re-submit at Muriaé). Corrected in `logs/correspondence-log.md` (C-006) and `data/record-coverage.yaml` (P-0016). make check green (70 tests); `make drop-pages-audit` reports no missing pages.
+
 ### Added — Follow-up intake + accuracy pass from the 2026-09-02 drop (2026-09-03)
 
 - **CIV-0026** — 1961 Rio de Janeiro civil death of **Hermogenes Engracio de Souza**, a further (collateral) child of Antonio Engracio de Souza (P-0032) × Luzia Pinheiro da Conceição (P-0033) and a second independent primary confirming that couple's names. Added as a documented_child on F-0015 (his three adult daughters are unnamed/possibly-living, not modelled).
