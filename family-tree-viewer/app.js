@@ -1310,17 +1310,6 @@ function readerOpenButton(source) {
   return button;
 }
 
-// Classify a source into one of four display buckets so the detail panel always
-// shows records in life-event order: birth/baptism → marriage → death/burial →
-// everything else. Matches on both recordType and title (case-insensitive).
-function sourceBucket(source) {
-  const hay = `${source.recordType || ""} ${source.title || ""}`.toLowerCase();
-  if (/bapti[sz]|birth|nascimento|batismo|batizado/.test(hay)) return 1;
-  if (/marriage|casamento|matrim[oô]ni|wed/.test(hay)) return 2;
-  if (/death|óbito|obito|burial|faleci/.test(hay)) return 3;
-  return 4;
-}
-
 function sourceList(sources) {
   if (!sources.length) {
     const empty = document.createElement("p");
@@ -1329,9 +1318,13 @@ function sourceList(sources) {
     return empty;
   }
 
-  // Stable sort into four display buckets; existing order is preserved within
-  // each bucket (Array.prototype.sort is stable in all modern environments).
-  const sorted = sources.slice().sort((a, b) => sourceBucket(a) - sourceBucket(b));
+  // `person.sources` already arrives ordered by the owner-defined FONTES rule
+  // (data-loader.js): the person's OWN records first, by vital type (birth/baptism →
+  // marriage → death), then the vital certificates that only MENTION them, then all
+  // other context last. Render in that order — do NOT re-sort by record type here, or a
+  // certificate that merely mentions the person (e.g. a child's birth record) would jump
+  // ahead of their own marriage and death records.
+  const sorted = sources;
 
   const ul = document.createElement("ul");
   ul.className = "source-list";

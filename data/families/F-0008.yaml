@@ -50,8 +50,14 @@ documented_children:
 - name: João José de Carvalho Guimarães
   source_ids:
   - CIV-0007
-  lifespan: b. 1912
-  note: Registered in CIV-0007; born 16 December 1912.
+  - CIV-0033
+  lifespan: 1912–1992
+  note: >-
+    Brother of Maria Aurora Guimarães (P-0011) and maternal uncle of Cidalia (P-0005).
+    Registered in the 1915 collective birth registration (CIV-0007; born 16 December
+    1912) and documented by his 1992 Volta Redonda civil death (CIV-0033; died 4 May 1992
+    aged 79, a widower). He left roughly fourteen adult children (Cidalia's first cousins),
+    not modelled per the direct-line scope.
 - name: Maria de Lourdes Guimarães
   source_ids:
   - CIV-0007

@@ -1,0 +1,94 @@
+schema_version: 1
+id: CIV-0031
+title: >-
+  1972 Volta Redonda civil death of Ercy (Hercy) Bohrer — son of João Gonçalves
+  Bohrer and Celina Bohrer
+title_pt: >-
+  Óbito civil de 1972, em Volta Redonda, de Ercy (Hercy) Bohrer — filho de João
+  Gonçalves Bohrer e Celina Bohrer
+record_type: Civil death register entry (certidão de óbito)
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1972-10-21"
+  original_text: >-
+    Died 21 October 1972 ("ontem", registered 22/10/1972) at 19h45; a judicial name-
+    correction averbação dated 23/11/1972 (processo de retificação nº 575).
+event_place_text: >-
+  Volta Redonda, Rio de Janeiro, Brazil (in transit to the Pronto Socorro)
+repository:
+  name: Registro Civil, Volta Redonda (RJ)
+  archive_or_registry: Cartório de Registro Civil, Volta Redonda-RJ
+  collection: Nº 21.690, folha 108, pág. 090
+  catalogue_reference: >-
+    Two-entry register opening (right-hand entry Nº 21.690 is the subject; the left
+    entry is an unrelated person); digitised copy delivered via the research/from-retrieval sync
+access_date: "2026-09-07"
+language: pt-BR
+transcription: >-
+  [Registro Civil, Volta Redonda — right-hand entry Nº 21.690, folha 108.] "Aos vinte e
+  dois de outubro de mil novecentos e setenta e dois, em meu Cartório, compareceu [o
+  declarante — nacionalidade brasileira, 23 anos, motorista; não familiar; dados de
+  identificação e endereço omitidos], e exibindo atestado de óbito firmado pelo médico
+  José Joaquim de Figueiredo Filho, declarou: Que no dia de ontem (21/10/1972) às 19 horas
+  e 45 minutos, em trânsito para o Pronto Socorro, faleceu nesta cidade Ercy Bohrer, do
+  sexo masculino, côr branca, com trinta anos de idade, natural do Estado de Minas Gerais,
+  estado civil casado com Lilia Novaes Bohrer (casados em Carangola, Minas Gerais),
+  profissão ajudante, filho de João Gonçalves Bohrer, falecido, e de Celina [uncertain:
+  Celina/Belina] Bohrer, doméstica. Causa mortis: politraumatizado. Vai ser sepultado no
+  cemitério desta cidade. Observações: o falecido não deixou bens nem testamento, deixou
+  cinco filhos, era eleitor e reservista; teve morte violenta por acidente; atestado
+  visado por autoridade policial; o declarante compareceu no impedimento ocasional de
+  membros da família do falecido." [Averbação, 23/11/1972:] "Face ao despacho judicial no
+  processo de retificação de nomes nº 575, procede-se à retificação do nome do falecido
+  para HERCY BOHRER e do nome de sua mulher para LILIA DE NOVAES BOHRER. Volta Redonda,
+  23-11-1972."
+abstract: >-
+  Civil death of Ercy Bohrer — judicially corrected to HERCY BOHRER — on 21 October 1972
+  at Volta Redonda, RJ, aged 30 (b. ~1942), married to Lilia de Novaes Bohrer; a violent
+  accidental death (politraumatismo). Names his parents as João Gonçalves Bohrer (already
+  deceased) and Celina Bohrer — i.e. P-0014 and P-0015 — making Ercy a further child of
+  that couple and Iris Bohrer Muniz's (P-0007) brother. A third independent primary for
+  Iris's parents. He left five children (not named, for privacy). Recorded as a
+  documented_child on F-0005.
+abstract_pt: >-
+  Óbito civil de Ercy Bohrer — retificado judicialmente para HERCY BOHRER — em 21 de
+  outubro de 1972, em Volta Redonda, RJ, aos 30 anos (n. ~1942), casado com Lilia de
+  Novaes Bohrer; morte violenta acidental (politraumatismo). Nomeia seus pais João
+  Gonçalves Bohrer (já falecido) e Celina Bohrer — isto é, P-0014 e P-0015 — tornando Ercy
+  mais um filho do casal e irmão de Iris Bohrer Muniz (P-0007). Terceiro primário
+  independente para os pais de Iris. Deixou cinco filhos (não nomeados, por privacidade).
+  Registrado como documented_child em F-0005.
+reliability:
+  assessment: >-
+    Primary civil death register entry with a later judicial name-correction. Direct
+    primary for the death; the filiation is informant-reported (by a non-relative), so it
+    corroborates the parents' names already established for F-0005.
+  informant: >-
+    A non-relative declarant (appeared for the family's occasional impediment); name and
+    identifiers withheld for privacy.
+  limitations: >-
+    The mother's given name reads Celina/[Belina] — uncertain. The five children and the
+    surviving wife are not detailed (privacy). Judicial correction of the surname from
+    "Ercy" to "Hercy" preserved.
+digital_file:
+  path: evidence/civil/CIV-0031-ercy-hercy-bohrer-obito-1972-voltaredonda.jpg
+  sha256: 04b73da49301107fc3f7a8b861f40788385962703c0e7a3b7cc13316fd45c510
+linked_people:
+- P-0014
+- P-0015
+linked_families:
+- F-0005
+linked_events: []
+linked_places:
+- PL-0003
+private: false
+notes:
+- text: >-
+    Records a further child of João Gonçalves Bohrer (P-0014) × Celina Bohrer (P-0015) —
+    Ercy/Hercy Bohrer — added as a documented_child on F-0005 and a sibling of Iris
+    (P-0007). His five children and surviving wife are possibly living and not detailed.

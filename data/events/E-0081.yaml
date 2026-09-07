@@ -1,0 +1,21 @@
+schema_version: 1
+id: E-0081
+event_type: death
+date:
+  kind: exact
+  value: "2014-10-17"
+place_id: PL-0003
+participants:
+- person_id: P-0006
+  role: principal
+status: confirmed
+source_ids:
+- CIV-0028
+notes:
+- text: >-
+    Death of Antenor Muniz (P-0006) on 17 October 2014, at 18:45, at the Hospital São
+    João Batista, Volta Redonda, Rio de Janeiro (PL-0003), aged 90, married to Iris
+    Bohrer Muniz (P-0007). Cause: acute respiratory failure / acute pulmonary oedema /
+    systemic arterial hypertension. Civil death certificate CIV-0028 (Livro C-172, Folha
+    84, Termo 68042). His profession at death was recorded as "bombeiro hidráulico"
+    (plumber), resident in Monte Castelo, Volta Redonda.

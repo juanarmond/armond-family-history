@@ -69,11 +69,13 @@ people:
   - record_type: death
     status: catalogued
     source_ids:
+    - CIV-0027
     - REC-0002
-    last_reviewed: "2026-09-02"
+    last_reviewed: "2026-09-07"
     next_action: >-
-      Obtain Cidalia's 2023 civil death registration to upgrade the owner-attested death
-      to a documented, confirmed record; confirm the exact date, place and informant.
+      Done — the owner supplied Cidalia's 2023 civil death certificate (CIV-0027, Livro
+      C-229, fl.143, termo 85201), upgrading E-0079 hypothesis → confirmed. No further
+      action.
     notes:
     - text: >-
         2026-09-02 (owner-attested, at the owner's direction): Cidália died 17 April 2023.
@@ -120,10 +122,14 @@ people:
     last_reviewed: "2026-07-28"
     notes: []
   - record_type: death
-    status: lead_only
-    source_ids: []
-    last_reviewed: "2026-07-28"
-    next_action: Locate the 2014 civil death registration.
+    status: catalogued
+    source_ids:
+    - CIV-0028
+    last_reviewed: "2026-09-07"
+    next_action: >-
+      Done — owner supplied Antenor's 2014 civil death certificate (CIV-0028, Livro C-172,
+      fl.84, termo 68042; event E-0081). Profession "bombeiro hidráulico" corrected the
+      profile. Open lead: his inventário ("deixou bens a inventariar", living heirs).
     notes: []
   notes: []
 - person_id: P-0007
@@ -177,10 +183,13 @@ people:
     last_reviewed: "2026-07-28"
     notes: []
   - record_type: death
-    status: lead_only
-    source_ids: []
-    last_reviewed: "2026-07-28"
-    next_action: Locate the 2021 civil death registration.
+    status: catalogued
+    source_ids:
+    - CIV-0029
+    last_reviewed: "2026-09-07"
+    next_action: >-
+      Done — owner supplied Iris's 2021 civil death certificate (CIV-0029, Livro C-217,
+      fl.203, termo 81661; event E-0082). No further action.
     notes: []
   notes: []
 - person_id: P-0008

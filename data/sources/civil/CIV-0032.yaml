@@ -1,0 +1,84 @@
+schema_version: 1
+id: CIV-0032
+title: >-
+  1996 Volta Redonda civil death of Lucinda Bohrer Moreira — daughter of Joaquim
+  José Bohrer and Lucinda Ferreira da Silva Bohrer
+title_pt: >-
+  Óbito civil de 1996, em Volta Redonda, de Lucinda Bohrer Moreira — filha de
+  Joaquim José Bohrer e Lucinda Ferreira da Silva Bohrer
+record_type: Civil death register entry (certidão de óbito)
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1996-07-03"
+  original_text: >-
+    Died and registered 3 July 1996, 11h30; born 26/07/1909 (stated).
+event_place_text: >-
+  Lar dos Velhinhos, Volta Redonda, Rio de Janeiro, Brazil
+repository:
+  name: Registro Civil da 1ª Circunscrição de Volta Redonda (RJ)
+  archive_or_registry: Cartório de Registro Civil, Volta Redonda-RJ
+  collection: Livro C-90, Folha 175, Termo 43.722
+  catalogue_reference: >-
+    Digitised copy delivered via the research/from-retrieval sync
+access_date: "2026-09-07"
+language: pt-BR
+transcription: >-
+  [Registro Civil, Volta Redonda — Livro C-90, Folha 175, Termo 43.722.] "Aos 03 dias de
+  julho de mil novecentos e noventa e seis, em Cartório, compareceu [o declarante — casado,
+  aposentado, 65 anos; não familiar (impedimento ocasional de membros da família da
+  falecida); dados de identificação e endereço omitidos], e exibindo atestado de óbito
+  firmado pelo Doutor José Roberto Barroso Arantes, declarou: que no dia 03 de julho de
+  1996 às 11 horas e 30 minutos, no Lar dos Velhinhos de Volta Redonda, faleceu LUCINDA
+  BOHRER MOREIRA, nascida em 26/07/1909, sexo feminino, com 86 anos de idade, natural do
+  Rio de Janeiro-RJ, estado civil viúva de Antonio Moreira, profissão do lar, filha de
+  Joaquim José Bohrer e de Lucinda Ferreira da Silva Bohrer. Local do sepultamento:
+  cemitério de Volta Redonda-RJ. Causa da morte: parada cardio-respiratória; demência
+  senil. Deixa filhos? Não. Deixa bens? Não. Fez testamento? Não." [Documentos de
+  identificação da falecida constam do registro; omitidos desta transcrição pública.]
+abstract: >-
+  Civil death of Lucinda Bohrer Moreira on 3 July 1996 at Volta Redonda, RJ, aged 86 (b.
+  26 July 1909, Rio de Janeiro), widow of Antonio Moreira, leaving no children. Names her
+  parents as Joaquim José Bohrer (P-0030) and Lucinda Ferreira da Silva Bohrer (P-0031) —
+  i.e. Celina Bohrer's (P-0015) parents — making Lucinda a sister of Celina and the
+  maternal aunt of Iris Bohrer Muniz (P-0007). A primary corroborating that couple.
+  Recorded as a documented_child on F-0014.
+abstract_pt: >-
+  Óbito civil de Lucinda Bohrer Moreira em 3 de julho de 1996, em Volta Redonda, RJ, aos
+  86 anos (n. 26 de julho de 1909, Rio de Janeiro), viúva de Antonio Moreira, sem filhos.
+  Nomeia seus pais Joaquim José Bohrer (P-0030) e Lucinda Ferreira da Silva Bohrer
+  (P-0031) — isto é, os pais de Celina Bohrer (P-0015) — tornando Lucinda irmã de Celina e
+  tia materna de Iris Bohrer Muniz (P-0007). Primário que corrobora o casal. Registrada
+  como documented_child em F-0014.
+reliability:
+  assessment: >-
+    Primary civil death register entry. Direct primary for the death and (stated) birth
+    date; the filiation is informant-reported (by a non-relative) and corroborates the
+    parents already modelled for F-0014.
+  informant: >-
+    A non-relative declarant (occasional impediment of family); name and identifiers
+    withheld for privacy.
+  limitations: >-
+    The declarant's identifiers and the deceased's own document numbers are withheld from
+    the transcription.
+digital_file:
+  path: evidence/civil/CIV-0032-lucinda-bohrer-moreira-obito-1996-voltaredonda.jpg
+  sha256: f05e02834d036d48657c77c9204231bac6c73f200a608a7458217982bfad0034
+linked_people:
+- P-0030
+- P-0031
+linked_families:
+- F-0014
+linked_events: []
+linked_places:
+- PL-0003
+private: false
+notes:
+- text: >-
+    Records a further child of Joaquim José Bohrer (P-0030) × Lucinda Ferreira da Silva
+    (P-0031) — Lucinda Bohrer Moreira — added as a documented_child on F-0014 and a
+    sister of Celina (P-0015). She left no children.

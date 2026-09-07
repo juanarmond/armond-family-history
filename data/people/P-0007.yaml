@@ -15,9 +15,17 @@ name_variants:
     type: source
     source_ids:
       - CIV-0004
+occupations:
+  - value: pensionista
+    source_ids:
+      - CIV-0029
+    note: >-
+      Recorded as her profession ("pensionista") in her 2021 death certificate
+      (CIV-0029).
 event_ids:
   - E-0004
   - E-0018
+  - E-0082
 family_ids:
   - F-0004
   - F-0005
@@ -47,14 +55,17 @@ profile: >-
   **Alvorada, Minas Gerais** [PROVEN] (CIV-0004), before the Juiz de Paz [uncertain:
   Francisco Guizotti Gobbi]; she thereafter signed **Iris Bohrer Muniz**.
 
-  - **Death:** deceased; no death record is held [OPEN]. A family / collaborative-tree
-  lead places her death c.2021 [LEAD] — not verified by any held record.
+  - **Death:** 13 July 2021, at 09:00, at her residence in **Volta Redonda, Rio de
+  Janeiro**, aged 92, a widow [PROVEN] — her civil death certificate (CIV-0029, event
+  E-0082). Cause: acute myocardial infarction with Alzheimer's disease. She left five
+  adult children.
 
   ## Standing and profession
 
-  Nothing occupational is firmly documented. Her 1949 marriage certificate records her
-  *profissão* as [uncertain: agricultora] (CIV-0004); the reading is not secure, so no
-  occupation is asserted. No property, literacy or life record is held.
+  Her only firmly documented occupation is **pensionista** (pensioner), recorded in her
+  2021 death certificate (CIV-0029). Her 1949 marriage certificate records her *profissão*
+  as [uncertain: agricultora] (CIV-0004); that reading is not secure. No property or
+  literacy record is held.
 
   ## Family and social network
 
@@ -95,14 +106,15 @@ profile: >-
   - Her **birth certificate** (Presidente Soares, MG, 1929) — not held; would fix her
   exact birth facts at primary level and name both parents. [OPEN]
 
-  - Her **death record** (place and date) — not held; the c.2021 date is an unverified
-  lead. [OPEN]
+  - Her **death record** — **held** (CIV-0029): died 13 July 2021, Volta Redonda, RJ.
+  [RESOLVED]
 
   ## Sources held (this repository)
 
   - CIV-0004 (1949 Antenor Muniz × Iris Bohrer marriage — her birth date/place, parents
-  and married name) · CIV-0008 (1982 family birth certificate — names Iris Bohrer Muniz
-  as maternal grandmother; living detail withheld).
+  and married name) · CIV-0029 (2021 Volta Redonda death certificate — death date/place,
+  cause, "pensionista", her parents, five adult children) · CIV-0008 (1982 family birth
+  certificate — names Iris Bohrer Muniz as maternal grandmother; living detail withheld).
 
   - CIV-0014 (father João Gonçalves Bohrer's 1970 death — "quinze filhos") · CIV-0016
   (sibling Eunir Bohrer's 1924 Nova Friburgo birth) · CIV-0025 (brother João Bohrer's
@@ -151,16 +163,17 @@ profile_pt: >-
   em **Alvorada, Minas Gerais** [PROVEN] (CIV-0004), perante o Juiz de Paz [uncertain:
   Francisco Guizotti Gobbi]; passou então a assinar **Iris Bohrer Muniz**.
 
-  - **Óbito:** falecida; nenhum registro de óbito em mãos [OPEN]. Uma pista de família /
-  árvore colaborativa situa seu falecimento por volta de 2021 [LEAD] — não verificada
-  por nenhum registro em mãos.
+  - **Óbito:** 13 de julho de 2021, às 09:00, em sua residência em **Volta Redonda, Rio
+  de Janeiro**, aos 92 anos, viúva [PROVEN] — sua certidão de óbito (CIV-0029, evento
+  E-0082). Causa: infarto agudo do miocárdio com doença de Alzheimer. Deixou cinco filhos
+  maiores.
 
   ## Posição social e profissão
 
-  Nada de ocupacional está firmemente documentado. Sua certidão de casamento de 1949
-  registra sua *profissão* como [uncertain: agricultora] (CIV-0004); a leitura não é
-  segura, portanto nenhuma ocupação é afirmada. Não há registro de bens, letramento ou
-  de vida em mãos.
+  Sua única ocupação firmemente documentada é **pensionista**, registrada em sua certidão
+  de óbito de 2021 (CIV-0029). Sua certidão de casamento de 1949 registra sua *profissão*
+  como [uncertain: agricultora] (CIV-0004); essa leitura não é segura. Não há registro de
+  bens ou de letramento em mãos.
 
   ## Família e rede social
 
@@ -205,14 +218,16 @@ profile_pt: >-
   - Sua **certidão de nascimento** (Presidente Soares, MG, 1929) — não está em mãos;
   fixaria seus dados de nascimento em nível primário e nomearia ambos os pais. [OPEN]
 
-  - Seu **registro de óbito** (lugar e data) — não está em mãos; a data de c.2021 é uma
-  pista não verificada. [OPEN]
+  - Seu **registro de óbito** — **em mãos** (CIV-0029): faleceu em 13 de julho de 2021,
+  Volta Redonda, RJ. [RESOLVED]
 
   ## Fontes disponíveis (neste repositório)
 
   - CIV-0004 (casamento Antenor Muniz × Iris Bohrer de 1949 — sua data/local de
-  nascimento, pais e nome de casada) · CIV-0008 (certidão de nascimento familiar de
-  1982 — nomeia Iris Bohrer Muniz como avó materna; detalhes de vivos omitidos).
+  nascimento, pais e nome de casada) · CIV-0029 (certidão de óbito de 2021, Volta Redonda
+  — data/local do óbito, causa, "pensionista", seus pais, cinco filhos maiores) · CIV-0008
+  (certidão de nascimento familiar de 1982 — nomeia Iris Bohrer Muniz como avó materna;
+  detalhes de vivos omitidos).
 
   - CIV-0014 (óbito do pai João Gonçalves Bohrer em 1970 — "quinze filhos") · CIV-0016
   (nascimento da irmã Eunir Bohrer em 1924, Nova Friburgo) · CIV-0025 (óbito do irmão

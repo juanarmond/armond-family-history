@@ -5,6 +5,29 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-09-07 — Grandparents' death certificates + collateral corroboration (Volta Redonda drop)
+
+- Question: value-gate and ingest the 2026-09-07 drop — 3 grandparent death certs, a 1916
+  marriage, 6 collateral death certs, and family photos; attach all certificates to the
+  correct people, correct the profiles, and fix UI document ordering.
+- Key results: promoted the three grandparent deaths — **CIV-0027 Cidalia (2023, E-0079
+  hypothesis→confirmed), CIV-0028 Antenor (2014, new E-0081), CIV-0029 Iris (2021, new
+  E-0082)** — each re-attesting its parents; corrected P-0006's profile (bombeiro hidráulico
+  in Volta Redonda, not a lifelong rural lavrador). Promoted 4 collateral death certs as
+  corroborating primaries + documented_children (**CIV-0031** Ercy/Hercy Bohrer→F-0005;
+  **CIV-0032** Lucinda Bohrer Moreira→F-0014; **CIV-0033** João José de Carvalho
+  Guimarães→F-0008; **CIV-0034** Maria José Bittencourt, natural de Portugal→F-0020).
+- Caught: the 1916 Deocleciano×Luiza marriage in the drop is a **byte-identical duplicate**
+  of the already-held CIV-0006 (inteiro teor) + CIV-0001 (short-form) — not re-added
+  (CIV-0030 retired). The two 1998 first-cousin certs are transcribed but held unpromoted
+  (direct-line scope). Photos (FS Memories) noted as likeness leads, not evidence — no
+  structured portrait field exists.
+- Engineering: fixed a viewer source-ordering bug — removed the app.js `sourceBucket`
+  re-sort that overrode the data-loader's owner-defined FONTES order (own records → mentions
+  → context). Privacy: identity numbers and living declarant details withheld from
+  transcriptions. make check green (70 tests); index rebuilt (353); GEDCOM re-exported (4525
+  lines).
+
 ## 2026-09-05 — Value-gate of the 2026-09-04 drop (titled-trunk leads; COARPE reply correction)
 
 - Question: does the 2026-09-04 sync (an 1896 Adalberto Armonde escritura + updated FINDINGS/correspondence) carry anything to promote, and is the earlier COARPE 39808871 negative sound?

@@ -1,0 +1,110 @@
+schema_version: 1
+id: CIV-0028
+title: >-
+  2014 Volta Redonda civil death of Antenor Muniz — husband of Iris Bohrer Muniz,
+  son of Deocleciano Muniz and Luiza Fernandes de Azevedo
+title_pt: >-
+  Óbito civil de 2014, em Volta Redonda, de Antenor Muniz — marido de Iris Bohrer
+  Muniz, filho de Deocleciano Muniz e Luiza Fernandes de Azevedo
+record_type: Civil death certificate (certidão de óbito)
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "2014-10-17"
+  original_text: >-
+    "aos dezessete (17) dias do mês de outubro (10) do ano de dois mil e quatorze
+    (2014) - à(s) 18:45 hora(s)"; registered 18/10/2014.
+event_place_text: >-
+  Hospital São João Batista, Volta Redonda, Rio de Janeiro, Brazil
+repository:
+  name: Registro Civil das Pessoas Naturais da 1ª Circunscrição de Volta Redonda (RJ)
+  archive_or_registry: Cartório de Registro Civil, Volta Redonda-RJ (Responsável Luciana Guilherme de Barros)
+  collection: Livro C-172, Folha 84, Termo 68042
+  catalogue_reference: >-
+    Matrícula 0931200155 2014 4 00172 084 0068042 63; TJERJ selo de fiscalização
+    EAOP70864-ADH; digitised copy delivered via the research/from-retrieval sync
+access_date: "2026-09-07"
+language: pt-BR
+transcription: >-
+  [Certidão de Óbito, Registro Civil das Pessoas Naturais — República Federativa do
+  Brasil.] Nome: ANTENOR MUNIZ. Sexo: masculino. Cor: branca. Estado civil e idade:
+  casado — 90 ano(s). Naturalidade: Alvorada de Minas - MG. Eleitor: Não. Filiação:
+  "DEOCLECIANO MUNIZ e LUIZA FERNANDES DE AZEVEDO." Data e hora do falecimento: "aos
+  dezessete (17) dias do mês de outubro (10) do ano de dois mil e quatorze (2014) - à(s)
+  18:45 hora(s)" (17/10/2014). Local de falecimento: "Hospital São João Batista - Volta
+  Redonda - RJ." Causa da morte: "insuficiência respiratória aguda - edema agudo de
+  pulmão - hipertensão arterial sistêmica." Local do sepultamento: "Cemitério Volta
+  Redonda-RJ." Declarante: [genro do falecido — familiar vivo; nome e documentos
+  omitidos]. Médico: Márcia Laureano Candido, CRM nº 5287760-3. Observações/averbações:
+  "LIVRO C-172, FOLHA 84, TERMO 68042. Data do Registro: [18/10/2014]. O(A) falecido era
+  casado com IRIS BOHRER MUNIZ, profissão bombeiro hidráulico, residente no(a) [rua] -
+  Monte Castelo, Volta Redonda, RJ. O(A) declarante apresentou certidão de Casamento do
+  obituado(a), registro no cartório Alvorada - MG, no livro 05, folhas 066, deixou bens a
+  inventariar, não deixou testamento conhecido, deixou 5 filhos(as) maiores [...]. O
+  declarante compareceu na qualidade de genro do falecido." [CPF e documentos de
+  identificação do falecido, e os dados do declarante, constam do documento digitalizado;
+  omitidos desta transcrição pública.]
+abstract: >-
+  Civil death certificate of Antenor Muniz (P-0006), the owner's maternal grandfather:
+  died 17 October 2014, 18:45, at the Hospital São João Batista, Volta Redonda, RJ, aged
+  90, married (to Iris Bohrer Muniz, P-0007). Profession recorded as "bombeiro hidráulico"
+  (plumber), resident in Monte Castelo, Volta Redonda — evidence that he urbanized to the
+  Rio de Janeiro industrial region, NOT that he remained a rural lavrador (his 1949
+  marriage, CIV-0004, had recorded "da lavoura"). Names his parents as Deocleciano Muniz
+  Bittencourt (P-0012) and Luiza Fernandes de Azevedo (P-0013). His 1949 Alvorada-MG
+  marriage (livro 05, fls 066) is referenced. He left an estate to inventory ("bens a
+  inventariar") and 5 adult children (not named, for privacy). The stated naturalidade
+  "Alvorada de Minas-MG" conflicts with the district of Alvorada (Carangola) reported at
+  his marriage.
+abstract_pt: >-
+  Certidão de óbito de Antenor Muniz (P-0006), avô materno do proprietário: faleceu em 17
+  de outubro de 2014, às 18:45, no Hospital São João Batista, Volta Redonda, RJ, aos 90
+  anos, casado (com Iris Bohrer Muniz, P-0007). Profissão registrada como "bombeiro
+  hidráulico", residente em Monte Castelo, Volta Redonda — indício de que se urbanizou
+  rumo à região industrial do Rio de Janeiro, e NÃO de que permaneceu lavrador rural (seu
+  casamento de 1949, CIV-0004, registrava "da lavoura"). Nomeia seus pais Deocleciano
+  Muniz Bittencourt (P-0012) e Luiza Fernandes de Azevedo (P-0013). Referencia seu
+  casamento de 1949 em Alvorada-MG (livro 05, fls 066). Deixou bens a inventariar e 5
+  filhos maiores (não nomeados, por privacidade). A naturalidade declarada "Alvorada de
+  Minas-MG" conflita com o distrito de Alvorada (Carangola) informado em seu casamento.
+reliability:
+  assessment: >-
+    Primary civil death register entry, registered the day after death — direct primary
+    for the death date, place, civil status and profession. The filiation is
+    informant-reported but corroborates the parents already established by CIV-0004 and
+    the marriage record CIV-0030.
+  informant: >-
+    The deceased's son-in-law (a living family member; name and identifiers withheld for
+    privacy).
+  limitations: >-
+    "bombeiro hidráulico" is his profession as reported at death (2014); his 1949
+    marriage recorded "da lavoura" — the two record different life stages, not a conflict.
+    The stated naturalidade "Alvorada de Minas-MG" is likely a registrar expansion of the
+    Alvorada (Carangola) district and should not override the marriage record. Identity
+    numbers and the living declarant's data are withheld from the transcription.
+digital_file:
+  path: evidence/civil/CIV-0028-antenor-muniz-obito-2014-voltaredonda.pdf
+  sha256: f03886f1d159594e6037e82adefd148babf8019ece892de2a572eaa193869ee6
+linked_people:
+- P-0006
+- P-0012
+- P-0013
+linked_families:
+- F-0001
+linked_events:
+- E-0081
+linked_places:
+- PL-0003
+private: false
+notes:
+- text: >-
+    Source for the new death event E-0081 (Antenor Muniz, 17 Oct 2014, Volta Redonda).
+    Materially corrects the P-0006 profile narrative: the "bombeiro hidráulico" profession
+    and Monte Castelo (Volta Redonda) residence show he urbanized, superseding the earlier
+    [INFERRED] "son who stayed rural / did not urbanize" reading. "deixou bens a
+    inventariar" is a lead toward an Antenor inventário (post-2014, involves living heirs —
+    privacy-gated). The 5 adult children are living and not named.

@@ -1,0 +1,106 @@
+schema_version: 1
+id: CIV-0027
+title: >-
+  2023 Volta Redonda civil death of Cidalia Engracio Armond — widow of Geraldo
+  Paz Armond, daughter of Antonio Engracio de Souza and Maria Aurora Guimarães
+title_pt: >-
+  Óbito civil de 2023, em Volta Redonda, de Cidalia Engracio Armond — viúva de
+  Geraldo Paz Armond, filha de Antonio Engracio de Souza e Maria Aurora Guimarães
+record_type: Civil death certificate (certidão de óbito)
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "2023-04-17"
+  original_text: >-
+    "aos dezessete (17) dias do mês de abril (04) do ano de dois mil e vinte e três
+    (2023) - às 17:57 hora(s)"; registered 18/04/2023.
+event_place_text: >-
+  Hospital São João Batista, Volta Redonda, Rio de Janeiro, Brazil
+repository:
+  name: Registro Civil das Pessoas Naturais da 1ª Circunscrição do 1º Distrito de Volta Redonda (RJ)
+  archive_or_registry: Cartório de Registro Civil, Volta Redonda-RJ (Oficial Registrador Euler Machado Pires)
+  collection: Livro C-229, Folha 143, Termo 85201
+  catalogue_reference: >-
+    Matrícula 0931200155 2023 4 00229 143 0085201 86; certidão de óbito issued
+    18/04/2023; TJERJ selo de fiscalização EEKD97060-JEE; digitised copy delivered
+    via the research/from-retrieval sync
+access_date: "2026-09-07"
+language: pt-BR
+transcription: >-
+  [Certidão de Óbito, Registro Civil das Pessoas Naturais — República Federativa do
+  Brasil.] Nome: CIDALIA ENGRACIO ARMOND. Sexo: feminino. Cor: branca. Estado civil e
+  idade: viúva — 92 ano(s). Naturalidade: Eugenópolis - MG. Eleitor: Sim. Filiação e
+  residência: "Filho(a) de ANTONIO ENGRACIO DE SOUZA e MARIA AURORA GUIMARÃES.
+  Residente no(a) [rua], São Geraldo, Volta Redonda - RJ." Data e hora do falecimento:
+  "aos dezessete (17) dias do mês de abril (04) do ano de dois mil e vinte e três
+  (2023) - às 17:57 hora(s)" (17/04/2023). Local do falecimento: "Hospital São João
+  Batista, Volta Redonda, RJ." Causa da morte: "Na dependência da conclusão do laudo
+  pericial, na forma do parágrafo único do artigo 160 do código de processo penal."
+  Sepultamento/cremação: "Cemitério Municipal de Volta Redonda/RJ." Declarante: [o
+  filho da falecida — familiar vivo; nome e documentos omitidos]. Médico que atestou o
+  óbito: Márcio Eduardo Braga, CRM nº 5260550-3. Averbações/anotações: "Foi apresentada
+  a Declaração de Óbito Nº 35019046-1. Registro feito no Livro C-229, Folha 143, Termo
+  85201. Data do Registro: 18/04/2023. O(A) falecida era viúva, profissão costureira
+  aposentada, não deixou bens a inventariar, não deixou testamento conhecido, deixou 1
+  filho(a) maior. O declarante compareceu na qualidade de filho da falecida. Além do(a)
+  filho(a) declarado(a), a falecida teve outros(as) 2 filhos(as) maiores já
+  falecidos(as), totalizando 3 filhos(as) maiores." [CPF, RG/DNI e demais documentos de
+  identificação da falecida constam do documento digitalizado; omitidos desta
+  transcrição pública.]
+abstract: >-
+  Civil death certificate of Cidalia Engracio Armond (P-0005), the owner's paternal
+  grandmother: died 17 April 2023, 17:57, at the Hospital São João Batista, Volta
+  Redonda, RJ, aged 92, a widow (of Geraldo Paz Armond, d. 1991). Retired seamstress
+  ("costureira aposentada"). Names her parents as Antonio Engracio de Souza (P-0010) and
+  Maria Aurora Guimarães (P-0011). She left three adult children — one living and two
+  already deceased (none named, for privacy). This civil register confirms and upgrades
+  the previously owner-attested death date (E-0079, hypothesis → confirmed). The stated
+  naturalidade "Eugenópolis-MG" is the marriage/residence município, not her birthplace
+  (her 1930 birth registration, CIV-0022, fixes Alvorada, Carangola).
+abstract_pt: >-
+  Certidão de óbito de Cidalia Engracio Armond (P-0005), avó paterna do proprietário:
+  faleceu em 17 de abril de 2023, às 17:57, no Hospital São João Batista, Volta Redonda,
+  RJ, aos 92 anos, viúva (de Geraldo Paz Armond, f. 1991). Costureira aposentada. Nomeia
+  seus pais Antonio Engracio de Souza (P-0010) e Maria Aurora Guimarães (P-0011). Deixou
+  três filhos maiores — um vivo e dois já falecidos (não nomeados, por privacidade). Este
+  registro civil confirma e eleva a data de óbito antes atestada pelo proprietário
+  (E-0079, hipótese → confirmado). A naturalidade declarada "Eugenópolis-MG" é o município
+  de casamento/residência, não o de nascimento (seu registro de nascimento de 1930,
+  CIV-0022, fixa Alvorada, Carangola).
+reliability:
+  assessment: >-
+    Primary civil death register entry, registered the day after death — direct primary
+    for the death date, place, civil status and occupation. The filiation is
+    informant-reported (secondary within a death record) but corroborates the parents'
+    names already established by CIV-0022 and CIV-0002.
+  informant: >-
+    The deceased's son (a living family member; name and identifiers withheld for privacy).
+  limitations: >-
+    Cause of death recorded as pending forensic report (art. 160 CPP). The stated
+    naturalidade is the residence/marriage município, not the birthplace. Government
+    identity numbers (CPF, RG) and the living declarant's identifiers are withheld from
+    the transcription and kept only in the private evidence scan.
+digital_file:
+  path: evidence/civil/CIV-0027-cidalia-engracio-armond-obito-2023-voltaredonda.pdf
+  sha256: 65ceb5b46de6c6cdc0f37937aafff62e34f91c7adaeed2d8bdfc19e46e16f2b6
+linked_people:
+- P-0005
+- P-0010
+- P-0011
+linked_families:
+- F-0012
+linked_events:
+- E-0079
+linked_places:
+- PL-0003
+private: false
+notes:
+- text: >-
+    Confirms and upgrades E-0079 (Cidalia's death) from hypothesis (owner-attested,
+    REC-0002) to confirmed. Adds "costureira aposentada" as a documented occupation.
+    Declarant and the three adult children (one living, two deceased) are not named:
+    living-person and privacy handling.

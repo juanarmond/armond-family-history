@@ -8,11 +8,14 @@ place_id: PL-0003
 participants:
 - person_id: P-0005
   role: principal
-status: hypothesis
+status: confirmed
 source_ids:
+- CIV-0027
 - REC-0002
 notes:
 - text: >-
-    Death of Cidália Engrácio Guimarães (P-0005) on 17 April 2023 at Volta Redonda, Rio
-    de Janeiro (PL-0003), per owner testimony (REC-0002). Owner-attested; held at
-    hypothesis until the civil death registration is catalogued to confirm and upgrade it.
+    Death of Cidália Engrácio Guimarães (P-0005) on 17 April 2023, at 17:57, at the
+    Hospital São João Batista, Volta Redonda, Rio de Janeiro (PL-0003), aged 92, a widow.
+    Confirmed by her civil death certificate CIV-0027 (Livro C-229, Folha 143, Termo
+    85201), which upgrades the earlier owner-attested date (REC-0002) from hypothesis to
+    confirmed.

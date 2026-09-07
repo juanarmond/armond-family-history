@@ -5,6 +5,40 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — All four grandparents' deaths + collateral corroboration from the 2026-09-07 drop (2026-09-07)
+
+- **Three grandparent death certificates promoted** (owner-supplied civil certidões, Volta
+  Redonda). **CIV-0027** — Cidalia Engracio Armond (P-0005), d. 17 Apr 2023, aged 92,
+  "costureira aposentada": upgrades her death event **E-0079 from hypothesis → confirmed**
+  (the certificate the owner said he would supply). **CIV-0028** — Antenor Muniz (P-0006),
+  d. 17 Oct 2014, aged 90: new death event **E-0081**. **CIV-0029** — Iris Bohrer Muniz
+  (P-0007), d. 13 Jul 2021, aged 92: new death event **E-0082**. All three name and
+  re-attest their parents.
+- **Profile correction (P-0006 Antenor):** his death certificate records his profession as
+  **bombeiro hidráulico** (plumber) resident in **Volta Redonda**, superseding the earlier
+  [INFERRED] "the son who kept farming / did not urbanize" narrative — he urbanized into the
+  CSN steel city. Profile rewritten (EN + PT); added the occupation and the "bens a
+  inventariar" inventário lead.
+- **Four collateral death certificates promoted as corroborating primaries + documented
+  children:** **CIV-0031** Ercy/Hercy Bohrer (d.1972) → F-0005 (Iris's brother); **CIV-0032**
+  Lucinda Bohrer Moreira (d.1996) → F-0014 (Celina's sister / Iris's maternal aunt);
+  **CIV-0033** João José de Carvalho Guimarães (d.1992) → upgrades his F-0008 entry
+  (Cidalia's maternal uncle); **CIV-0034** Maria José Bittencourt (d.1943 RJ, *natural de
+  Portugal*) → F-0020 (probable further daughter of Manoel Muniz Bytancourt × Francisca
+  Roza; identity vs the 1851 "Maria Muniz Bitancourt" left open).
+- **Duplicate caught, not re-added:** the drop's Deocleciano×Luiza 1916 marriage images are
+  byte-identical (sha256) to the already-held **CIV-0006** (inteiro teor) and **CIV-0001**
+  (short-form) — the marriage was already fully catalogued; CIV-0030 reserved-then-retired.
+- **Viewer ordering fix (app.js):** removed a `sourceBucket` re-sort that overrode the
+  data-loader's owner-defined FONTES source order, which had let a certificate that merely
+  *mentions* a person (e.g. a child's record) outrank that person's own vital records. The
+  detail-panel source list now renders in the intended own-records → mentions → context order.
+- Privacy: government identity numbers (CPF/RG) and the living declarant's identifiers are
+  withheld from all transcriptions (kept only in the private evidence scans); living children
+  are counted, not named. Two of Cidalia's first-cousin death certs (João Carvalho Filho,
+  José Carlos Valente, both 1998) were transcribed but held unpromoted, per the direct-line
+  scope. make check green (70 tests); GEDCOM re-exported.
+
 ### Changed — Value-gate of the 2026-09-04 drop: titled-trunk leads + a COARPE reply correction (2026-09-05)
 
 - **2026-09-04 retrieval drop value-gated — nothing promoted (all titled Barão-de-Pitanguy collateral, no direct-line filiation).** (1) 1896 Soledade (Mar de Espanha) **escritura de compra e venda** — Adalberto Ferreira Armonde + wife Marinha Barboza Armonde sell inherited Barboza-land shares to her father Tenente Alexandrino Gonçalves Barboza; a 5-pp extract from COARPE 39805062 (165-pp Thereza Carolina Barboza inventário, read whole). (2) c.1888 BN Hemeroteca newspaper page naming Adalberto. (3) the older `ft_…3QHK-PQ7M-XW1N` **1860 Rio Pomba procuração** of the deceased Antônio José Ferreira Armonde (Conde de Prados testamenteiro) — names no filiation but corroborates Antônio José as the prime natural-father candidate for Simplício (P-0016). All three recorded as leads in the triage ledger; no source catalogued, no node minted.

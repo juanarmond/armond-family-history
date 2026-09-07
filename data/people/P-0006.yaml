@@ -18,9 +18,17 @@ occupations:
     note: >-
       His 1949 marriage certificate records "profissão da lavoura" (agricultural
       work).
+  - value: bombeiro hidráulico
+    source_ids:
+      - CIV-0028
+    note: >-
+      His 2014 death certificate (CIV-0028) records "profissão bombeiro hidráulico"
+      (plumber), resident in Monte Castelo, Volta Redonda — a later, urban trade,
+      superseding the earlier "da lavoura" as his final occupation.
 event_ids:
   - E-0004
   - E-0017
+  - E-0081
 family_ids:
   - F-0001
   - F-0004
@@ -55,11 +63,17 @@ profile: >-
   [PROVEN] (CIV-0004, livro 5, fls 66-v); the bride thereafter signed "Iris Bohrer
   Muniz". This union is where the maternal Muniz line joins the Bohrer line.
 
-  - **Death:** not documented in this repository [OPEN]. A FamilySearch-tree lifespan
-  (1923–2014) circulates, but no death record is held [LEAD].
+  - **Death:** 17 October 2014, at 18:45, at the Hospital São João Batista, **Volta
+  Redonda, Rio de Janeiro**, aged 90 [PROVEN] — his civil death certificate (CIV-0028,
+  event E-0081). He was still married, his wife Iris surviving him (she died in 2021).
+  Cause: acute respiratory failure with pulmonary oedema and systemic hypertension. His
+  profession at death was **bombeiro hidráulico** (plumber) and he was resident in Monte
+  Castelo, Volta Redonda — he left an estate to inventory ("deixou bens a inventariar")
+  and five adult children.
 
-  - **Children:** at least one living child (Juan's parent); details withheld for
-  privacy.
+  - **Children:** five adult children (living; details withheld for privacy) — stated in
+  his 2014 death certificate (CIV-0028) and matched by his widow Iris's 2021 record
+  (CIV-0029, "deixou 5 filhos maiores").
 
   ## Standing and profession
 
@@ -82,21 +96,22 @@ profile: >-
   simplification — but our repository proves only the short form; the fuller name is
   a lead.
 
-  [INFERRED] Antenor is the 20th-century fork in the Muniz arc — the sibling who held
-  the family's ancestral class position by *not* moving. In a line whose only durable
-  capital was land-and-labour (see P-0012, P-0019), staying a *lavrador* in Alvorada was
-  itself the way to hold the family's inherited rung. Reports that his siblings joined
-  the 20th-century rural exodus into the Rio de Janeiro Baixada Fluminense, landing as
-  urban working class, are leads not held here [LEAD]; if so, that urbanisation is the
-  same downward step the parallel Armond line took a generation earlier, and Antenor is
-  the branch that did not take it.
+  [CORRECTED 2026-09-07 — his 2014 death certificate supersedes the earlier "stayed
+  rural" reading] Antenor did **not** remain a lifelong rural cultivator. His life brackets
+  a migration: a *lavrador* in the Alvorada district (Carangola, MG) at his 1949 marriage
+  (CIV-0004), he had become a **bombeiro hidráulico** (plumber) resident in Monte Castelo,
+  **Volta Redonda, RJ**, by his death in 2014 (CIV-0028). That is the same interior-Minas →
+  industrial-Rio de Janeiro move that the whole Volta Redonda family cluster made in the
+  mid-20th century (his wife, in-laws and collaterals all died in Volta Redonda). The
+  earlier profile read him as "the son who kept farming"; the primary record shows the
+  opposite — he joined the urban working class of the CSN steel city, an urbanisation into
+  waged trade, not subsistence on his own plot.
 
-  [INFERRED] Two immigrant peasant streams converge in him, and both were agrarian and
-  land-poor: his marriage to Iris Bohrer (P-0007) merges the Azorean-Portuguese Muniz
-  with the Swiss/German Bohrer, but the union pools two smallholder-agrarian immigrant
-  lines whose capital was the same — land, labour and kinship, not office, title or
-  schooling — meeting in one Minas Gerais farming district rather than marrying across
-  classes.
+  [INFERRED] Two immigrant peasant streams converge in him: his marriage to Iris Bohrer
+  (P-0007) merges the Azorean-Portuguese Muniz with the Swiss/German Bohrer — two
+  smallholder-agrarian immigrant lines whose capital was land, labour and kinship rather
+  than office, title or schooling — meeting in one Minas Gerais farming district. Both
+  lines then followed the same trajectory out of the rural interior into Volta Redonda.
 
   [INFERRED] Dropping "Bittencourt" reads as an assimilation marker, not a status move:
   keeping only "Muniz" simplified the immigrant compound surname toward a plain
@@ -104,45 +119,44 @@ profile: >-
   estate-name worth preserving — the small shift that, decades on, made the line harder
   to trace back to Sapucaia and São Miguel.
 
-  [CONTEXTUAL] His "da lavoura" living was subsistence off his own plot, not a wage —
-  the São Miguel *proprietário* → Zona da Mata cultivator baseline, land held as a living
-  rather than accumulating capital, and the bottom of the family tree's economic range
-  (the opposite end from the top-of-range Toledo slaveholding coffee fazenda on the
-  Armond side). It is exactly the rung that staying rural let him hold.
-
-  [INFERRED] So Antenor closes the Muniz arc where it began — on the land. The line
-  never had elite standing to lose, so its story is not decline but agrarian persistence,
-  and Antenor is its clearest 20th-century expression: the son who kept farming. The
-  class drop that hit the urbanising branches (and, a generation earlier, the Armonds)
-  simply did not reach the branch that stayed rural.
+  [CONTEXTUAL] The Muniz line never had elite standing to lose, so its 20th-century story
+  is not decline but the classic interior-agrarian → industrial-urban passage of a
+  land-poor immigrant-descended family: from a São Miguel *proprietário* baseline (see
+  P-0042), through Sapucaia (RJ) and the Zona da Mata coffee frontier (P-0019, P-0012),
+  to a plumber's trade in the steel town of Volta Redonda in Antenor's own lifetime.
 
   ## Open questions
 
   - His birth and baptism records (Alvorada, 1923) — not held. [OPEN]
 
-  - His death record (reportedly c.2014) — not held; only a FamilySearch-tree
-  lifespan. [LEAD]
+  - His death record — **held** (CIV-0028): died 17 October 2014, Volta Redonda, RJ.
+  [RESOLVED]
+
+  - His inventário — "deixou bens a inventariar" (CIV-0028); a post-2014 estate
+  involving living heirs, privacy-gated. [LEAD]
 
   - Whether he formally bore "Bittencourt" — needs a direct source. [OPEN]
 
   ## Sources held (this repository)
 
   - CIV-0004 (1949 marriage to Iris Bohrer — his reported birth date/place, "da
-  lavoura", his parents) · CIV-0008 (later family civil record; living-person content
-  withheld — corroborates the "Antenor Muniz" form) · REC-0001 (owner's
-  direct-ancestor roster).
+  lavoura", his parents) · CIV-0028 (2014 Volta Redonda death certificate — death date
+  and place, "bombeiro hidráulico", his parents, five adult children) · CIV-0008 (later
+  family civil record; living-person content withheld — corroborates the "Antenor Muniz"
+  form) · REC-0001 (owner's direct-ancestor roster).
 
   - PAR-0003 (1922 baptism of his brother Aristides — documents his parents and the
   Carangola, MG family origin).
 
   ## Regional and migration context
 
-  His documented life sits in rural **Minas Gerais** — born and married in the
-  district of **Alvorada** [PROVEN, CIV-0004]. His parents' generation had moved from
-  Sapucaia (RJ) into the Zona da Mata Mineira (Carangola) around the turn of the
-  century (see P-0012); Antenor's own record places him on the land at Alvorada as a
-  farm worker. [CONTEXTUAL] Reports that his siblings later joined the rural exodus
-  into the Rio de Janeiro Baixada Fluminense are leads, not held here.
+  His life spans a migration: born and married in the district of **Alvorada**
+  (Carangola), MG, a farm worker in 1949 [PROVEN, CIV-0004], he later moved to **Volta
+  Redonda, RJ**, where he worked as a plumber and died in 2014 [PROVEN, CIV-0028]. His
+  parents' generation had moved from Sapucaia (RJ) into the Zona da Mata Mineira
+  (Carangola) around the turn of the century (see P-0012); Antenor's own generation then
+  carried the family on into the Rio de Janeiro industrial belt — the whole Volta Redonda
+  cluster (his wife, in-laws and collaterals) died there. [CONTEXTUAL]
 
   ## Where to go today
 
@@ -175,12 +189,16 @@ profile_pt: >-
   assinar "Iris Bohrer Muniz". Essa união é onde a linha materna Muniz se junta à
   linha Bohrer.
 
-  - **Óbito:** não documentado neste repositório [OPEN]. Circula um período de vida
-  da árvore do FamilySearch (1923–2014), mas nenhum registro de óbito é conservado
-  [LEAD].
+  - **Óbito:** 17 de outubro de 2014, às 18:45, no Hospital São João Batista, **Volta
+  Redonda, Rio de Janeiro**, aos 90 anos [PROVEN] — sua certidão de óbito (CIV-0028,
+  evento E-0081). Ainda era casado, sua esposa Iris o sobrevivendo (ela faleceu em 2021).
+  Causa: insuficiência respiratória aguda com edema pulmonar e hipertensão sistêmica. Sua
+  profissão ao falecer era **bombeiro hidráulico**, residente em Monte Castelo, Volta
+  Redonda — deixou bens a inventariar e cinco filhos maiores.
 
-  - **Filhos:** ao menos um filho vivo (o pai/mãe de Juan); detalhes omitidos por
-  privacidade.
+  - **Filhos:** cinco filhos maiores (vivos; detalhes omitidos por privacidade) — declarado
+  em sua certidão de óbito de 2014 (CIV-0028) e coincidente com o registro de 2021 de sua
+  esposa Iris (CIV-0029, "deixou 5 filhos maiores").
 
   ## Posição social e profissão
 
@@ -203,21 +221,23 @@ profile_pt: >-
   seus irmãos mantiveram, é uma simplificação de identidade plausível — mas nosso
   repositório comprova apenas a forma curta; o nome completo é uma pista.
 
-  [INFERRED] Antenor é a bifurcação do século XX no arco Muniz — o irmão que manteve a
-  posição de classe ancestral da família ao *não* se mudar. Numa linhagem cujo único
-  capital durável era a terra-e-o-trabalho (ver P-0012, P-0019), permanecer *lavrador*
-  em Alvorada era, em si, a maneira de manter o degrau herdado da família. Relatos de que
-  seus irmãos se juntaram ao êxodo rural do século XX rumo à Baixada Fluminense (RJ),
-  aportando como classe trabalhadora urbana, são pistas não conservadas aqui [LEAD]; se
-  assim for, essa urbanização é o mesmo passo descendente que a linha Armond paralela deu
-  uma geração antes, e Antenor é o ramo que não o deu.
+  [CORRIGIDO 2026-09-07 — sua certidão de óbito de 2014 supera a leitura anterior de que
+  "ficou no campo"] Antenor **não** permaneceu cultivador rural a vida toda. Sua vida
+  atravessa uma migração: *lavrador* no distrito de Alvorada (Carangola, MG) em seu
+  casamento de 1949 (CIV-0004), tornara-se **bombeiro hidráulico**, residente em Monte
+  Castelo, **Volta Redonda, RJ**, ao falecer em 2014 (CIV-0028). É o mesmo movimento
+  interior-Minas → Rio de Janeiro industrial que todo o núcleo familiar de Volta Redonda
+  fez em meados do século XX (esposa, sogros e colaterais faleceram todos em Volta
+  Redonda). O perfil anterior o lia como "o filho que continuou lavrando"; o registro
+  primário mostra o oposto — ele ingressou na classe trabalhadora urbana da cidade
+  siderúrgica da CSN, uma urbanização rumo a um ofício assalariado, não à subsistência no
+  próprio lote.
 
-  [INFERRED] Duas correntes imigrantes camponesas convergem nele, ambas agrárias e pobres
-  em terra: seu casamento com Iris Bohrer (P-0007) funde os Muniz açoriano-portugueses com
-  os Bohrer suíço-alemães, mas a união reúne duas linhas imigrantes de pequenos
-  agricultores cujo capital era o mesmo — terra, trabalho e parentesco, não cargo, título
-  ou instrução — encontrando-se em um único distrito rural de Minas Gerais, e não num
-  casamento entre classes.
+  [INFERRED] Duas correntes imigrantes camponesas convergem nele: seu casamento com Iris
+  Bohrer (P-0007) funde os Muniz açoriano-portugueses com os Bohrer suíço-alemães — duas
+  linhas imigrantes de pequenos agricultores cujo capital era terra, trabalho e parentesco,
+  não cargo, título ou instrução — encontrando-se em um distrito rural de Minas Gerais.
+  Ambas as linhas então seguiram a mesma trajetória do interior rural rumo a Volta Redonda.
 
   [INFERRED] Abandonar o "Bittencourt" lê-se como um marcador de assimilação, não como um
   movimento de status: manter apenas "Muniz" simplificou o sobrenome composto de imigrante
@@ -225,46 +245,46 @@ profile_pt: >-
   título ou nome de propriedade que valesse preservar — a pequena mudança que, décadas
   depois, tornou a linhagem mais difícil de rastrear até Sapucaia e São Miguel.
 
-  [CONTEXTUAL] Seu sustento "da lavoura" era subsistência do próprio lote, não um salário
-  — a linha de base do cultivador *proprietário* de São Miguel → Zona da Mata, terra
-  tomada como meio de vida e não como capital acumulável, e a extremidade inferior da
-  faixa econômica da árvore familiar (o polo oposto ao topo, a fazenda de café escravista
-  dos Toledo, no lado Armond). É exatamente o degrau que permanecer no campo lhe permitiu
-  manter.
-
-  [INFERRED] Assim, Antenor fecha o arco Muniz onde ele começou — na terra. A linhagem
-  nunca teve posição de elite a perder, de modo que sua história não é de declínio, mas de
-  persistência agrária, e Antenor é sua expressão mais clara no século XX: o filho que
-  continuou lavrando. A queda de classe que atingiu os ramos que se urbanizaram (e, uma
-  geração antes, os Armond) simplesmente não alcançou o ramo que ficou no campo.
+  [CONTEXTUAL] A linha Muniz nunca teve posição de elite a perder, de modo que sua história
+  no século XX não é de declínio, mas a clássica passagem agrária-interiorana → urbana-
+  industrial de uma família descendente de imigrantes pobre em terra: de uma base de
+  *proprietário* em São Miguel (ver P-0042), por Sapucaia (RJ) e a fronteira cafeeira da
+  Zona da Mata (P-0019, P-0012), até o ofício de bombeiro hidráulico na cidade siderúrgica
+  de Volta Redonda na própria vida de Antenor.
 
   ## Questões em aberto
 
   - Seus registros de nascimento e batismo (Alvorada, 1923) — não conservados. [OPEN]
 
-  - Seu registro de óbito (supostamente c.2014) — não conservado; apenas um período de
-  vida da árvore do FamilySearch. [LEAD]
+  - Seu registro de óbito — **conservado** (CIV-0028): faleceu em 17 de outubro de 2014,
+  Volta Redonda, RJ. [RESOLVED]
+
+  - Seu inventário — "deixou bens a inventariar" (CIV-0028); espólio pós-2014 envolvendo
+  herdeiros vivos, restrito por privacidade. [LEAD]
 
   - Se ele portava formalmente "Bittencourt" — requer fonte direta. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
   - CIV-0004 (casamento de 1949 com Iris Bohrer — sua data/local de nascimento
-  reportados, "da lavoura", seus pais) · CIV-0008 (registro civil familiar posterior;
-  conteúdo de pessoa viva omitido — corrobora a forma "Antenor Muniz") · REC-0001
-  (lista de ancestrais diretos do proprietário).
+  reportados, "da lavoura", seus pais) · CIV-0028 (certidão de óbito de 2014, Volta
+  Redonda — data e local do óbito, "bombeiro hidráulico", seus pais, cinco filhos maiores)
+  · CIV-0008 (registro civil familiar posterior; conteúdo de pessoa viva omitido —
+  corrobora a forma "Antenor Muniz") · REC-0001 (lista de ancestrais diretos do
+  proprietário).
 
   - PAR-0003 (batismo de 1922 de seu irmão Aristides — documenta seus pais e a origem
   familiar em Carangola, MG).
 
   ## Contexto regional e migratório
 
-  Sua vida documentada situa-se no meio rural de **Minas Gerais** — nasceu e casou-se
-  no distrito de **Alvorada** [PROVEN, CIV-0004]. A geração de seus pais havia se
-  mudado de Sapucaia (RJ) para a Zona da Mata Mineira (Carangola) na virada do século
-  (ver P-0012); o próprio registro de Antenor o coloca na terra em Alvorada como
-  trabalhador da lavoura. [CONTEXTUAL] Relatos de que seus irmãos depois se juntaram ao
-  êxodo rural rumo à Baixada Fluminense (RJ) são pistas, não conservadas aqui.
+  Sua vida abrange uma migração: nasceu e casou-se no distrito de **Alvorada**
+  (Carangola), MG, trabalhador da lavoura em 1949 [PROVEN, CIV-0004], e depois mudou-se
+  para **Volta Redonda, RJ**, onde trabalhou como bombeiro hidráulico e faleceu em 2014
+  [PROVEN, CIV-0028]. A geração de seus pais havia se mudado de Sapucaia (RJ) para a Zona
+  da Mata Mineira (Carangola) na virada do século (ver P-0012); a geração do próprio
+  Antenor levou a família adiante rumo ao cinturão industrial do Rio de Janeiro — todo o
+  núcleo de Volta Redonda (esposa, sogros e colaterais) faleceu ali. [CONTEXTUAL]
 
   ## Onde ir hoje
 

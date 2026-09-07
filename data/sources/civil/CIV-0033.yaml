@@ -1,0 +1,92 @@
+schema_version: 1
+id: CIV-0033
+title: >-
+  1992 Volta Redonda civil death of João José de Carvalho Guimarães — son of
+  Francisco José de Carvalho Guimarães and Emmerenciana Maria de Jesus
+title_pt: >-
+  Óbito civil de 1992, em Volta Redonda, de João José de Carvalho Guimarães —
+  filho de Francisco José de Carvalho Guimarães e Emmerenciana Maria de Jesus
+record_type: Civil death register entry (certidão de óbito)
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1992-05-04"
+  original_text: >-
+    Died and registered 4 May 1992 ("hoje"), 10h00.
+event_place_text: >-
+  Volta Redonda, Rio de Janeiro, Brazil (at home, Av. Amaral Peixoto 832)
+repository:
+  name: Registro Civil, Volta Redonda (RJ)
+  archive_or_registry: Cartório de Registro Civil, Volta Redonda-RJ
+  collection: Número 39.854
+  catalogue_reference: >-
+    Two-entry register opening (right-hand entry Nº 39.854 is the subject; the left entry
+    is an unrelated person); digitised copy delivered via the research/from-retrieval sync
+access_date: "2026-09-07"
+language: pt-BR
+transcription: >-
+  [Registro Civil, Volta Redonda — right-hand entry Nº 39.854 (handwritten).] "Aos quatro
+  de maio de mil novecentos e noventa e dois, em meu Cartório, compareceu [o declarante —
+  nacionalidade brasileira, 44 anos, industriário; relação não declarada; dados de
+  identificação e endereço omitidos], e exibindo atestado de óbito firmado pelo médico
+  Luiz Carlos [Abdallack] Sarkis [uncertain], declarou: que no dia de hoje às 10 horas, em
+  domicílio (Av. Amaral Peixoto, 832), faleceu João José de Carvalho Guimarães, do sexo
+  masculino, com setenta e nove anos de idade, natural de Minas Gerais, estado civil viúvo,
+  profissão aposentado, residente em Monte Castelo, nesta cidade, filho de Francisco José
+  de Carvalho Guimarães e de Emerenciana Maria de Jesus. Causa mortis: edema agudo do
+  pulmão; congestão. Vai ser sepultado no cemitério municipal desta cidade. Observações: o
+  falecido não deixou testamento, deixou bens a inventariar, deixou quatorze [uncertain]
+  filhos." [Documentos de identificação do falecido constam do registro; omitidos desta
+  transcrição pública.]
+abstract: >-
+  Civil death of João José de Carvalho Guimarães on 4 May 1992 at Volta Redonda, RJ, aged
+  79 (b. ~1913; matches the 16 December 1912 birth registered in CIV-0007), a widower,
+  retired. Names his parents as Francisco José de Carvalho Guimarães (P-0021) and
+  Emmerenciana Maria de Jesus (P-0022) — i.e. Maria Aurora Guimarães's (P-0011) parents —
+  confirming that he is Cidalia Engracio Guimarães's (P-0005) maternal uncle. Upgrades his
+  existing documented_child entry on F-0008 with a death record. He left an estate and,
+  per the record, "quatorze" (14, uncertain) adult children (not modelled — direct-line
+  scope; possibly living).
+abstract_pt: >-
+  Óbito civil de João José de Carvalho Guimarães em 4 de maio de 1992, em Volta Redonda,
+  RJ, aos 79 anos (n. ~1913; coincide com o nascimento em 16 de dezembro de 1912
+  registrado em CIV-0007), viúvo, aposentado. Nomeia seus pais Francisco José de Carvalho
+  Guimarães (P-0021) e Emmerenciana Maria de Jesus (P-0022) — isto é, os pais de Maria
+  Aurora Guimarães (P-0011) — confirmando que ele é tio materno de Cidalia Engracio
+  Guimarães (P-0005). Eleva sua entrada existente de documented_child em F-0008 com um
+  registro de óbito. Deixou bens a inventariar e, segundo o registro, "quatorze" (14,
+  incerto) filhos maiores (não modelados — escopo de linha direta; possivelmente vivos).
+reliability:
+  assessment: >-
+    Primary civil death register entry. Direct primary for the death; the filiation is
+    informant-reported and corroborates the parents already modelled for F-0008 (and the
+    b.1912 identification from CIV-0007).
+  informant: >-
+    The declarant (relationship not stated; a living person — identifiers withheld).
+  limitations: >-
+    Handwritten; the number of children ("quatorze"), the doctor's surname and the
+    deceased's document numbers are uncertain or withheld. His children (Cidalia's first
+    cousins) are not modelled, per the direct-line scope.
+digital_file:
+  path: evidence/civil/CIV-0033-joao-jose-carvalho-guimaraes-obito-1992-voltaredonda.jpg
+  sha256: 2426289a2cfc848eb180a304bdbec6c29c31d4cc91127fe3eff3bba52b77ec44
+linked_people:
+- P-0021
+- P-0022
+linked_families:
+- F-0008
+linked_events: []
+linked_places:
+- PL-0003
+private: false
+notes:
+- text: >-
+    Death record for João José de Carvalho Guimarães, already a documented_child of
+    Francisco José de Carvalho Guimarães (P-0021) × Emmerenciana Maria de Jesus (P-0022)
+    on F-0008 (b. 1912, CIV-0007). CIV-0033 is added to that entry. His ~14 children —
+    Cidalia's first cousins — are not modelled (direct-line scope; the two of them whose
+    death certs are in this drop are held unpromoted in the triage ledger).

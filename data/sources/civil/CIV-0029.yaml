@@ -1,0 +1,98 @@
+schema_version: 1
+id: CIV-0029
+title: >-
+  2021 Volta Redonda civil death of Iris Bohrer Muniz — widow of Antenor Muniz,
+  daughter of João Gonçalves Bohrer and Selina Bohrer
+title_pt: >-
+  Óbito civil de 2021, em Volta Redonda, de Iris Bohrer Muniz — viúva de Antenor
+  Muniz, filha de João Gonçalves Bohrer e Selina Bohrer
+record_type: Civil death certificate (certidão de óbito)
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "2021-07-13"
+  original_text: >-
+    "aos treze (13) dias do mês de julho (07) do ano de dois mil e vinte e um (2021) -
+    à(s) 09:00 hora(s)"; registered 13/07/2021.
+event_place_text: >-
+  Residence, Colina / São Geraldo, Volta Redonda, Rio de Janeiro, Brazil
+repository:
+  name: Registro Civil das Pessoas Naturais da 1ª Circunscrição do 1º Distrito de Volta Redonda (RJ)
+  archive_or_registry: Cartório de Registro Civil, Volta Redonda-RJ (Oficial Registrador Euler Machado Pires)
+  collection: Livro C-217, Folha 203, Termo 81661
+  catalogue_reference: >-
+    Matrícula 0931200155 2021 4 00217 203 0081661 88; TJERJ selo de fiscalização
+    EDTM63012-EEB; digitised copy delivered via the research/from-retrieval sync
+access_date: "2026-09-07"
+language: pt-BR
+transcription: >-
+  [Certidão de Óbito, Registro Civil das Pessoas Naturais — República Federativa do
+  Brasil.] Nome: IRIS BOHRER MUNIZ. Sexo: feminino. Cor: branca. Estado civil e idade:
+  viúva — 92 ano(s). Naturalidade: Alvorada de Minas - MG. Eleitor: Sim. Filiação e
+  residência: "Filho(a) de JOÃO GONÇALVES BOHRER e SELINA BOHRER. Residente no(a) [rua],
+  São Geraldo, Volta Redonda-RJ." Data e hora do falecimento: "aos treze (13) dias do
+  mês de julho (07) do ano de dois mil e vinte e um (2021) - à(s) 09:00 hora(s)"
+  (13/07/2021). Local do falecimento: "[rua], Colina, Volta Redonda/RJ." Causa da morte:
+  "Infarto agudo do miocárdio, doença de alzheimer." Sepultamento/cremação: "Cemitério de
+  Volta Redonda/RJ." Declarante: [genro da falecida — familiar vivo; nome e documentos
+  omitidos]. Médico: Letícia Aparecida Ribeiro de Figueiredo, CRM nº 5272527-7.
+  Averbações/anotações: "Foi apresentada a Declaração de Óbito Nº 28668110-2. Registro
+  feito no Livro C-217, Folha 203, Termo 81661. Data do Registro: 13/07/2021. O(A)
+  falecida era viúva, profissão pensionista, não deixou bens a inventariar, não deixou
+  testamento conhecido, deixou 5 filhos(as) maiores. O declarante compareceu na qualidade
+  de genro da falecida." [CPF, RG/DNI e documentos de identificação da falecida constam do
+  documento digitalizado; omitidos desta transcrição pública.]
+abstract: >-
+  Civil death certificate of Iris Bohrer Muniz (P-0007), the owner's maternal grandmother:
+  died 13 July 2021, 09:00, at her Volta Redonda residence (Colina / São Geraldo), aged
+  92, a widow (of Antenor Muniz, d. 2014). Cause: acute myocardial infarction with
+  Alzheimer's disease; profession "pensionista". Names her parents as João Gonçalves
+  Bohrer (P-0014) and Selina/Celina Bohrer (P-0015) — a further primary for that couple.
+  She left 5 adult children (not named, for privacy). The stated naturalidade "Alvorada de
+  Minas-MG" is a residence/registration expansion, not her birthplace (Presidente Soares,
+  MG, per CIV-0004; her birth E-0018 is dated 1929).
+abstract_pt: >-
+  Certidão de óbito de Iris Bohrer Muniz (P-0007), avó materna do proprietário: faleceu em
+  13 de julho de 2021, às 09:00, em sua residência em Volta Redonda (Colina / São Geraldo),
+  aos 92 anos, viúva (de Antenor Muniz, f. 2014). Causa: infarto agudo do miocárdio com
+  doença de Alzheimer; profissão "pensionista". Nomeia seus pais João Gonçalves Bohrer
+  (P-0014) e Selina/Celina Bohrer (P-0015) — mais um primário para o casal. Deixou 5 filhos
+  maiores (não nomeados, por privacidade). A naturalidade declarada "Alvorada de Minas-MG"
+  é uma expansão de residência/registro, não seu local de nascimento (Presidente Soares,
+  MG, conforme CIV-0004; seu nascimento E-0018 é datado de 1929).
+reliability:
+  assessment: >-
+    Primary civil death register entry, registered the day of death — direct primary for
+    the death date, place, civil status, cause and profession. The filiation is
+    informant-reported but corroborates the parents already established by CIV-0004.
+  informant: >-
+    The deceased's son-in-law (a living family member; name and identifiers withheld for
+    privacy).
+  limitations: >-
+    The stated naturalidade "Alvorada de Minas-MG" is not her birthplace (Presidente
+    Soares, per CIV-0004); the age 92 in 2021 is consistent with her 1929 birth (E-0018).
+    Identity numbers and the living declarant's data are withheld from the transcription.
+digital_file:
+  path: evidence/civil/CIV-0029-iris-bohrer-muniz-obito-2021-voltaredonda.pdf
+  sha256: 1c3e64cf896d5f49a971a73058af77a71434fd1086ae1f4a59e9c8d8863830d1
+linked_people:
+- P-0007
+- P-0014
+- P-0015
+linked_families:
+- F-0005
+linked_events:
+- E-0082
+linked_places:
+- PL-0003
+private: false
+notes:
+- text: >-
+    Source for the new death event E-0082 (Iris Bohrer Muniz, 13 Jul 2021, Volta Redonda).
+    Confirms her death (previously a FamilySearch-tree lead only) and re-attests her parents
+    João Gonçalves Bohrer (P-0014) × Celina Bohrer (P-0015), spelled "Selina" here. The 5
+    adult children are living and not named.

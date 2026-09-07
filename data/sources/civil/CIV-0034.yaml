@@ -1,0 +1,94 @@
+schema_version: 1
+id: CIV-0034
+title: >-
+  1943 Rio de Janeiro civil death of Maria José Bittencourt — daughter of Manoel
+  Muniz Bittencourt and Francisca Rosa
+title_pt: >-
+  Óbito civil de 1943, no Rio de Janeiro, de Maria José Bittencourt — filha de
+  Manoel Muniz Bittencourt e Francisca Rosa
+record_type: Civil death register entry (certidão de óbito)
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1943-11-08"
+  original_text: >-
+    Died 8 November 1943 ("de ontem"), registered 9 November 1943; entry N. 31.243.
+event_place_text: >-
+  Rio de Janeiro (then Federal District), Brazil (at the declarant's house)
+repository:
+  name: Registro Civil, Distrito Federal (Rio de Janeiro)
+  archive_or_registry: Cartório de Registro Civil, Rio de Janeiro
+  collection: N. 31.243, folha 171
+  catalogue_reference: >-
+    Two-entry register opening (right-hand entry N. 31.243 is the subject; the left entry
+    is an unrelated person); officer José Deodoro da Silva; digitised copy delivered via
+    the research/from-retrieval sync
+access_date: "2026-09-07"
+language: pt-BR
+transcription: >-
+  [Registro Civil, Distrito Federal — right-hand entry N. 31.243, folha 171 (handwritten).]
+  "Aos nove de novembro de mil novecentos e quarenta e três, nesta Capital e em meu
+  cartório, compareceu [o declarante — industriário, 36 anos; relação não declarada;
+  faleceu ela em casa do declarante; dados de identificação e endereço omitidos], e
+  exibindo um atestado médico firmado pelo Doutor Aquilino de Andrade, declarou: Que no dia
+  de ontem às 17 horas, na casa dele declarante, faleceu «Maria José Bittencourt», do sexo
+  feminino, côr branca, com 85 anos de idade, natural de Portugal, estado civil viúva,
+  profissão doméstica, residente no local do óbito, filha de Manoel Muniz Bittencourt e de
+  Francisca Rosa Bittencourt. Causa mortis: miocardite, arterioesclerose. Vai ser
+  sepultada no cemitério São Francisco Xavier. Eu, José Aluísio Gurgel do Amaral,
+  escrevente juramentado, o escrevi. Eu, José Deodoro da Silva, oficial interino do
+  registro civil, subscrevo."
+abstract: >-
+  Civil death of Maria José Bittencourt on 8 November 1943 at Rio de Janeiro (Federal
+  District), aged 85 (implied b. ~1858), a widow, doméstica, recorded as natural de
+  Portugal. Names her parents as Manoel Muniz Bittencourt and Francisca Rosa — the same
+  couple as Manoel Muniz Bytancourt (P-0042) × Francisca Roza do Espirito Santo (P-0047)
+  of Nossa Senhora Mãe de Deus, São Miguel (Açores) — which would make her a further
+  daughter of that couple (they left "oito filhos") and a sister of João Muniz Bittencourt
+  (P-0019, Deocleciano's father). Recorded as a documented_child on F-0020 with an
+  explicit note on the possible identity with the couple's 1851-baptised daughter "Maria
+  Muniz Bitancourt".
+abstract_pt: >-
+  Óbito civil de Maria José Bittencourt em 8 de novembro de 1943, no Rio de Janeiro
+  (Distrito Federal), aos 85 anos (n. implícito ~1858), viúva, doméstica, registrada como
+  natural de Portugal. Nomeia seus pais Manoel Muniz Bittencourt e Francisca Rosa — o mesmo
+  casal Manoel Muniz Bytancourt (P-0042) × Francisca Roza do Espirito Santo (P-0047), de
+  Nossa Senhora Mãe de Deus, São Miguel (Açores) — o que a tornaria mais uma filha do casal
+  (que deixou "oito filhos") e irmã de João Muniz Bittencourt (P-0019, pai de Deocleciano).
+  Registrada como documented_child em F-0020 com nota explícita sobre a possível identidade
+  com a filha do casal batizada em 1851, "Maria Muniz Bitancourt".
+reliability:
+  assessment: >-
+    Primary civil death register entry. Direct primary for the death; the filiation and
+    "natural de Portugal" are informant-reported by a non-relative, so the identification
+    with the São Miguel couple rests on the parents' name-pair match plus the Portuguese
+    origin, not conclusive proof.
+  informant: >-
+    A non-relative declarant (she died at his house); name and identifiers withheld.
+  limitations: >-
+    1943 handwriting; declarant surname and street uncertain. The age (85 → b. ~1858)
+    differs by several years from the couple's located daughters' baptism dates, leaving
+    open whether she is a distinct eighth child or the 1851-baptised "Maria Muniz
+    Bitancourt" (PAR-0047) — conflict preserved, not resolved.
+digital_file:
+  path: evidence/civil/CIV-0034-maria-jose-bittencourt-obito-1943-rj.jpg
+  sha256: 43d0503793a4228dbf8a685ebc693445a0149257f6d394b88041ee7e714002f6
+linked_people:
+- P-0042
+- P-0047
+linked_families:
+- F-0020
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Records Maria José Bittencourt as a probable further daughter of Manoel Muniz
+    Bytancourt (P-0042) × Francisca Roza do Espirito Santo (P-0047) — the couple left
+    "oito filhos", of whom only some are located. Added as a documented_child on F-0020
+    with a note that she may be the same person as the couple's 1851-baptised daughter
+    "Maria Muniz Bitancourt" (PAR-0047); the identity is left open, not merged.

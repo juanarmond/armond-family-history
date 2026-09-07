@@ -1,0 +1,19 @@
+schema_version: 1
+id: E-0082
+event_type: death
+date:
+  kind: exact
+  value: "2021-07-13"
+place_id: PL-0003
+participants:
+- person_id: P-0007
+  role: principal
+status: confirmed
+source_ids:
+- CIV-0029
+notes:
+- text: >-
+    Death of Iris Bohrer Muniz (P-0007) on 13 July 2021, at 09:00, at her residence in
+    Volta Redonda, Rio de Janeiro (PL-0003), aged 92, a widow of Antenor Muniz (P-0006).
+    Cause: acute myocardial infarction, Alzheimer's disease. Civil death certificate
+    CIV-0029 (Livro C-217, Folha 203, Termo 81661). Profession: pensionista.
