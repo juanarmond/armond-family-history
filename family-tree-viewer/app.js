@@ -136,6 +136,11 @@ const elements = {
   storyBackdrop: document.querySelector("#story-backdrop"),
   closeStory: document.querySelector("#close-story"),
   storyContent: document.querySelector("#story-content"),
+  openUpdates: document.querySelector("#open-updates"),
+  updatesPanel: document.querySelector("#updates-panel"),
+  updatesBackdrop: document.querySelector("#updates-backdrop"),
+  closeUpdates: document.querySelector("#close-updates"),
+  updatesContent: document.querySelector("#updates-content"),
 };
 
 const statusColours = {
@@ -713,6 +718,7 @@ function setLocale(locale) {
   if (elements.languageSelect) elements.languageSelect.value = next;
   applyStaticTranslations();
   if (elements.storyPanel && !elements.storyPanel.hidden) openStory();
+  if (elements.updatesPanel && !elements.updatesPanel.hidden) openUpdates();
   if (state.data) {
     renderActive();
     if (state.selected && !elements.detailsPanel.hidden) openDetails(state.selected);
@@ -1592,6 +1598,7 @@ async function loadStory(locale) {
 
 async function openStory() {
   if (!elements.storyPanel) return;
+  closeUpdates();
   const opening = elements.storyPanel.hidden;
   elements.storyPanel.hidden = false;
   elements.storyBackdrop.hidden = false;
@@ -1613,6 +1620,136 @@ function closeStory() {
   if (!elements.storyPanel) return;
   elements.storyPanel.hidden = true;
   elements.storyBackdrop.hidden = true;
+  if (lastFocused && lastFocused.isConnected && typeof lastFocused.focus === "function") {
+    lastFocused.focus();
+  }
+  lastFocused = null;
+}
+
+// The "What's new / Novidades" panel — a curated, family-facing feed of recent additions,
+// stored as ./updates.yaml (bilingual one-liners + entity links). Mirrors the Family Story
+// panel; the engineering CHANGELOG.md is deliberately NOT surfaced here.
+let updatesDoc = null;
+async function loadUpdates() {
+  if (!updatesDoc) {
+    const response = await fetch("./updates.yaml", { cache: "no-store" });
+    if (!response.ok) throw new Error(String(response.status));
+    updatesDoc = parseYaml(await response.text()) || {};
+  }
+  const list = Array.isArray(updatesDoc.updates) ? updatesDoc.updates.slice() : [];
+  return list.sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
+}
+
+function formatUpdateDate(iso) {
+  if (typeof iso !== "string") return "";
+  const parts = iso.split("-").map(Number);
+  if (parts.length < 3 || parts.some(Number.isNaN)) return iso;
+  try {
+    return new Intl.DateTimeFormat(state.locale === "pt-BR" ? "pt-BR" : "en-GB", {
+      year: "numeric", month: "long", day: "numeric", timeZone: "UTC",
+    }).format(new Date(Date.UTC(parts[0], parts[1] - 1, parts[2])));
+  } catch {
+    return iso;
+  }
+}
+
+const UPDATE_SOURCE_RE = /^(CIV|GOV|PAR|PRB|NWS|PUB|REC)-\d+$/;
+
+// Resolve an update link id to { label, open } or null when it cannot be routed
+// (a family/event id, or an entity absent under the privacy filter). P-#### opens the
+// person panel; a source id opens the record reader.
+function resolveUpdateLink(id) {
+  if (/^P-\d+$/.test(id)) {
+    const person = state.data && state.data.people && state.data.people[id];
+    if (!person) return null;
+    return { label: person.name || id, open: () => { closeUpdates(); openDetails(id); } };
+  }
+  if (UPDATE_SOURCE_RE.test(id)) {
+    const source = state.data && state.data.sources && state.data.sources[id];
+    if (!source) return null;
+    return {
+      label: localeText(source.title, source.titlePt) || id,
+      open: () => { closeUpdates(); openReader(source); },
+    };
+  }
+  return null;
+}
+
+function renderUpdates(container, entries) {
+  container.textContent = "";
+  if (!entries.length) {
+    const empty = document.createElement("p");
+    empty.className = "empty-note";
+    empty.textContent = t("updates.empty");
+    container.appendChild(empty);
+    return;
+  }
+  for (const entry of entries) {
+    const item = document.createElement("article");
+    item.className = "update-item";
+
+    const meta = document.createElement("div");
+    meta.className = "update-meta";
+    const kind = document.createElement("span");
+    const kindName = entry.kind || "document";
+    kind.className = `update-kind update-kind--${kindName}`;
+    kind.textContent = t(`updates.kind.${kindName}`);
+    const date = document.createElement("time");
+    date.className = "update-date";
+    if (typeof entry.date === "string") date.dateTime = entry.date;
+    date.textContent = formatUpdateDate(entry.date);
+    meta.append(kind, date);
+
+    const title = document.createElement("p");
+    title.className = "update-title";
+    title.textContent = localeText(entry.title, entry.title_pt) || "";
+
+    item.append(meta, title);
+
+    const chips = (Array.isArray(entry.links) ? entry.links : [])
+      .map(resolveUpdateLink)
+      .filter(Boolean);
+    if (chips.length) {
+      const links = document.createElement("div");
+      links.className = "update-links";
+      for (const chip of chips) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "update-chip";
+        btn.textContent = chip.label;
+        btn.addEventListener("click", chip.open);
+        links.appendChild(btn);
+      }
+      item.appendChild(links);
+    }
+    container.appendChild(item);
+  }
+}
+
+async function openUpdates() {
+  if (!elements.updatesPanel) return;
+  closeStory();
+  closeDetails();
+  const opening = elements.updatesPanel.hidden;
+  elements.updatesPanel.hidden = false;
+  elements.updatesBackdrop.hidden = false;
+  if (opening && !elements.updatesPanel.contains(document.activeElement)) {
+    lastFocused = document.activeElement;
+  }
+  elements.updatesContent.textContent = t("updates.loading");
+  if (opening) elements.closeUpdates.focus();
+  try {
+    renderUpdates(elements.updatesContent, await loadUpdates());
+    if (opening) elements.updatesContent.scrollTop = 0;
+  } catch {
+    elements.updatesContent.textContent = t("updates.error");
+  }
+}
+
+function closeUpdates() {
+  if (!elements.updatesPanel || elements.updatesPanel.hidden) return;
+  elements.updatesPanel.hidden = true;
+  elements.updatesBackdrop.hidden = true;
   if (lastFocused && lastFocused.isConnected && typeof lastFocused.focus === "function") {
     lastFocused.focus();
   }
@@ -1938,8 +2075,13 @@ function bindEvents() {
   if (elements.openStory) elements.openStory.addEventListener("click", openStory);
   if (elements.closeStory) elements.closeStory.addEventListener("click", closeStory);
   if (elements.storyBackdrop) elements.storyBackdrop.addEventListener("click", closeStory);
+  if (elements.openUpdates) elements.openUpdates.addEventListener("click", openUpdates);
+  if (elements.closeUpdates) elements.closeUpdates.addEventListener("click", closeUpdates);
+  if (elements.updatesBackdrop) elements.updatesBackdrop.addEventListener("click", closeUpdates);
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && elements.storyPanel && !elements.storyPanel.hidden) closeStory();
+    if (event.key !== "Escape") return;
+    if (elements.storyPanel && !elements.storyPanel.hidden) closeStory();
+    if (elements.updatesPanel && !elements.updatesPanel.hidden) closeUpdates();
   });
 }
 

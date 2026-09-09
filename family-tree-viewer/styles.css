@@ -875,6 +875,98 @@ a:focus-visible {
 }
 .story-link:hover { color: var(--green-deep); text-decoration: underline; }
 
+/* What's new / Novidades — a right-edge slide-in drawer of recent additions. */
+.toolbar .updates-button {
+  flex: 0 0 auto;
+  align-self: flex-end;
+  background: var(--gold-soft);
+  color: var(--green-deep);
+  border-color: var(--gold);
+}
+.toolbar .updates-button:hover { background: var(--gold); box-shadow: 0 0 0 1px var(--gold), var(--shadow-xs); }
+
+.updates-panel {
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  width: min(30rem, 94vw);
+  height: 100%;
+  overflow-y: auto;
+  padding: 1.9rem;
+  background: linear-gradient(180deg, var(--card), var(--card-2));
+  border-left: 1px solid var(--gold);
+  box-shadow: var(--shadow-lg);
+  scrollbar-width: thin;
+  scrollbar-color: var(--rule-strong) transparent;
+}
+.updates-content { color: var(--ink); }
+.update-item { padding: 1.05rem 0; border-bottom: 1px solid var(--rule-strong); }
+.update-item:last-child { border-bottom: 0; }
+.update-meta { display: flex; align-items: center; flex-wrap: wrap; gap: .5rem; margin-bottom: .45rem; }
+/* Mirror the project's .badge component (used for the confidence tiers) so the kind
+   labels read as the same family, reusing its exact tint palette. */
+.update-kind {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.4rem;
+  padding: .18rem .5rem;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: var(--card-2);
+  color: var(--muted);
+  font-size: .6rem;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.update-kind--milestone { background: #eaf2ec; border-color: #bcd4c2; color: var(--confirmed); }
+.update-kind--document { background: #eaf0f6; border-color: #c3d1e0; color: var(--strong); }
+.update-kind--correction { background: #f6eed7; border-color: #e3cf9d; color: #8a5f1f; }
+.update-date { font-family: var(--sans); font-size: .72rem; color: var(--muted); }
+.update-title { margin: 0 0 .6rem; font-size: .98rem; line-height: 1.45; color: var(--ink); }
+.update-links { display: flex; flex-wrap: wrap; gap: .4rem; }
+.update-chip {
+  appearance: none;
+  font: inherit;
+  font-size: .8rem;
+  padding: .28rem .62rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-sm);
+  background: var(--card);
+  color: var(--gold);
+  font-weight: 600;
+  cursor: pointer;
+  text-align: left;
+}
+.update-chip:hover { background: var(--gold-soft); border-color: var(--gold); color: var(--green-deep); }
+
+@media (max-width: 700px) {
+  .updates-panel {
+    width: 100%;
+    inset: 0;
+    height: 100%;
+    border-left: 0;
+    padding: 1.3rem 1.15rem 2.6rem;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+  }
+  .updates-panel .story-head { padding-right: 3.3rem; margin-bottom: 1.1rem; }
+  .updates-panel .story-head button {
+    position: fixed;
+    top: .7rem;
+    right: .7rem;
+    z-index: 22;
+    background: var(--card);
+    box-shadow: var(--shadow-md);
+  }
+  .updates-panel .story-title { font-size: 1.3rem; }
+  .updates-panel .story-subtitle { font-size: .92rem; }
+}
+
 @media (max-width: 700px) {
   .story-panel {
     top: 0;
@@ -1363,7 +1455,7 @@ body.is-mobile .portrait a.portrait-maplink, body.is-mobile .story-content a.por
 /* ---------- Motion ---------- */
 
 @media (prefers-reduced-motion: no-preference) {
-  .detail-panel { animation: panel-in .3s cubic-bezier(.2, .7, .2, 1); }
+  .detail-panel, .updates-panel { animation: panel-in .3s cubic-bezier(.2, .7, .2, 1); }
   .panel-backdrop { animation: fade-in .25s ease; }
   .person-card { animation: card-in .24s ease both; }
   .loading::before { animation: spin .8s linear infinite; }
@@ -1396,7 +1488,7 @@ body.is-mobile .portrait a.portrait-maplink, body.is-mobile .story-content a.por
 
 @media print {
   body { overflow-x: visible; background: #fff; }
-  .toolbar, .legend, .tree-controls, .panel-backdrop, .detail-panel, .site-footer { display: none !important; }
+  .toolbar, .legend, .tree-controls, .panel-backdrop, .detail-panel, .updates-panel, .site-footer { display: none !important; }
   .site-header { border-bottom: 1px solid #ccc; }
   .tree-shell {
     left: auto;
