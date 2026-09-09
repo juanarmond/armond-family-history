@@ -1,0 +1,94 @@
+schema_version: 1
+id: PAR-0052
+title: >-
+  1908 baptisms of Maria Clara Bohrer and Lucinda Maria Bohrer at São Pedro,
+  Nova Friburgo — daughters of Valentim Martinho Bohrer × Carolina Klein and of
+  Joaquim José Bohrer × Lucinda Ferreira
+title_pt: >-
+  Batismos de 1908 de Maria Clara Bohrer e Lucinda Maria Bohrer em São Pedro,
+  Nova Friburgo — filhas de Valentim Martinho Bohrer × Carolina Klein e de
+  Joaquim José Bohrer × Lucinda Ferreira
+record_type: Parish baptism register entries
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1908-09-14"
+  original_text: >-
+    Both children baptised 14 September 1908 ("aos quatorze dias do mês de Setembro de
+    mil novecentos e oito"); Maria Clara born 20 Feb 1908, Lucinda Maria born 26 Jul 1908.
+event_place_text: >-
+  Capela filial de São Pedro de Friburgo, Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Paróquia de Nova Friburgo (Batismos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Batismos 12, folha 145, nº 1858 (Lucinda Maria) and nº 1863 (Maria Clara)
+  catalogue_reference: >-
+    Delivered to this project via the César Raibert Nova Friburgo genealogy correspondence
+    (C-009); the underlying archival original was not independently verified
+access_date: "2026-09-09"
+language: pt-BR
+transcription: >-
+  [Livro de Batismos 12, folha 145, Nova Friburgo — two entries on the 1908 opening,
+  Vigário José Silvestre Alves de Miranda.] — Nº 1858, "Lucinda Maria": "Aos quatorze
+  dias do mês de Setembro de mil novecentos e oito, o Reverendo Padre Domingos Tuglio, de
+  minha licença, baptisou solemnemente a Lucinda Maria, nascida a vinte e seis de Julho do
+  dito ano [26 July 1908], filha legítima de Joaquim José Bor[b]er e Lucinda Silva Ferreira
+  Bor[b]er. Foram padrinhos João Gonçalves Pinheiro e Maria Hortencia Pinheiro. Para
+  constar fiz este assento e o assigno. O Vigário José Silvestre Alves de Miranda." — Nº
+  1863, "Maria Clara": "Aos quatorze dias do mês de Setembro de mil novecentos e oito, o
+  Reverendo Padre Domingos Tuglio, de minha licença, baptisou solemnemente a Maria Clara,
+  nascida a vinte de Fevereiro do dito ano [20 February 1908], filha legítima de Valentim
+  Martinho Bor[b]er e Carolina Klein Bor[b]er. Foram padrinhos João Honorato Gregorio
+  Heisinger e Anna Paulina Heisinger. Para constar fiz este assento e o assigno. O Vigário
+  José Silvestre Alves de Miranda."
+abstract: >-
+  Two 1908 parish baptisms at the Capela de São Pedro, Nova Friburgo, on one register page.
+  Maria Clara Bohrer (b. 20 Feb 1908) is a legitimate daughter of Valentim Martinho Bohrer
+  (P-0028) × Carolina Klein (P-0029) — a sister of João Gonçalves Bohrer (P-0014), so a
+  further primary for Iris Bohrer Muniz's paternal grandparents. Lucinda Maria Bohrer (b.
+  26 Jul 1908) is a legitimate daughter of Joaquim José Bohrer (P-0030) × Lucinda Ferreira
+  da Silva (P-0031) — a sister of Celina Bohrer (P-0015), a further primary for Iris's
+  maternal grandparents. The surname is inked "Bor[b]er", a variant of Bohrer/Borer. Both
+  children are recorded as documented_children (F-0013 and F-0014).
+abstract_pt: >-
+  Dois batismos paroquiais de 1908 na Capela de São Pedro, Nova Friburgo, na mesma página do
+  livro. Maria Clara Bohrer (n. 20 fev. 1908) é filha legítima de Valentim Martinho Bohrer
+  (P-0028) × Carolina Klein (P-0029) — irmã de João Gonçalves Bohrer (P-0014), mais um
+  primário para os avós paternos de Iris Bohrer Muniz. Lucinda Maria Bohrer (n. 26 jul. 1908)
+  é filha legítima de Joaquim José Bohrer (P-0030) × Lucinda Ferreira da Silva (P-0031) —
+  irmã de Celina Bohrer (P-0015), mais um primário para os avós maternos de Iris. O sobrenome
+  aparece grafado "Bor[b]er", variante de Bohrer/Borer. Ambas registradas como
+  documented_children (F-0013 e F-0014).
+reliability:
+  assessment: >-
+    Primary parish baptism entries (register images), direct primary for each child's birth,
+    baptism and legitimate parentage. They corroborate both modelled Bohrer couples.
+  informant: The officiating clergy (Padre Domingos Tuglio; Vigário José Silvestre Alves de Miranda).
+  limitations: >-
+    Delivered via the Raibert Nova Friburgo genealogy correspondence (Fundação D. João VI
+    digitisation); the archival original was not independently verified. Surname variant
+    "Bor[b]er" noted.
+digital_file:
+  path: evidence/parish/PAR-0052-bohrer-mariaclara-lucindamaria-baptism-1908-novafriburgo.jpg
+  sha256: a1e057d54f6c10f650369926c6ac4e7ee88ba0a8f6acf0ceda24338d97f946a2
+linked_people:
+- P-0028
+- P-0029
+- P-0030
+- P-0031
+linked_families:
+- F-0013
+- F-0014
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Documents two further children — Maria Clara Bohrer (a documented_child on F-0013,
+    Valentim × Carolina, sister of João Gonçalves P-0014) and Lucinda Maria Bohrer (a
+    documented_child on F-0014, Joaquim José × Lucinda, sister of Celina P-0015). Both born
+    1908, clearly deceased. Lucinda Maria is distinct from Lucinda Bohrer Moreira (b. 1909).

@@ -5,6 +5,25 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-09-09 — Two Nova Friburgo Bohrer baptisms catalogued; Raibert provenance confirmed
+
+- Question: value-gate the 2026-09-09 drop — two Nova Friburgo Bohrer baptism images the new
+  triage-audit flagged, plus the César Raibert correspondence.
+- Key results: catalogued **PAR-0052** (1908 baptisms of Maria Clara Bohrer + Lucinda Maria
+  Bohrer, one register page) and **PAR-0053** (1910 baptism of Durval Baptista Bohrer) —
+  primary parish acts naming the modelled direct-ancestor couples Valentim Martinho Bohrer
+  (P-0028) × Carolina Klein (P-0029, F-0013) and Joaquim José Bohrer (P-0030) × Lucinda
+  Ferreira (P-0031, F-0014). The three children are recorded as documented_children (siblings
+  of João Gonçalves Bohrer P-0014 and of Celina Bohrer P-0015; all born 1908–1910, deceased).
+- Logged **C-009** (César Raibert): confirms the GOV-0007 provenance chain — the arrival
+  ledger is a physical book at the Arquivo Nacional (Rio), photographed by the Fundação D.
+  João VI and published on djoaovi (best online resolution) — resolving GOV-0007's "archival
+  original not verified" caveat and closing the arrival-ledger hunt.
+- Process note: the `make triage-audit` net (added 2026-09-09) flagged both images as NEEDS
+  DECISION on arrival and now reports clean — the safety rail worked end to end. make check
+  green (70 tests); What's new feed regenerated (58 entries, the two baptisms auto-included);
+  GEDCOM re-exported (4585 lines).
+
 ## 2026-09-09 — Catalogued the Nova Friburgo settler register as GOV-0007 (owner course-correction)
 
 - Trigger: the owner asked about the two `rec-bohrer-borer-arrival-registry-*` images that

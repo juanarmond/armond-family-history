@@ -259,3 +259,26 @@ lead until verified against an original record.
   Roza's baptism, plus a question on whether the pre-1801 / pre-1818 books survive or sit
   on another portal (Culturaçores, arquivos.azores.gov.pt and FamilySearch all begin at
   1801/1818). **Awaiting reply.**
+
+### C-009 — César Raibert Valverde (Nova Friburgo Swiss-immigrant genealogy)
+- Who: César Raibert Valverde (`cesarraibertvalverde@gmail.com`), long-time blogger of the
+  *Imigrantes Suíços em Nova Friburgo* network, Lumiar/Nova Friburgo — the channel behind the
+  Bohrer/Borer Swiss-colony images.
+- Purpose: request high-resolution originals of the *Registro da Chegada* ledger pages (Jacob
+  lote 70 / Laurent lote 73, *Heureux Voyage* 1820 — the source behind GOV-0007) and ask open
+  family questions.
+- Sent: 2026-09-09 (by the owner). **Reply received 2026-09-09.**
+- Reply substance — **confirms the GOV-0007 provenance chain:** the *livro de chegada dos
+  suíços* is a physical book (~1 m × 60 cm) held at the **Arquivo Nacional, Rio de Janeiro**
+  (no photography permitted there); the **Fundação Dom João VI** later photographed it and
+  published it on their site (djoaovi, free access), and Raibert's blog images were downloaded
+  from djoaovi. So the images this project holds (GOV-0007, and the Nova Friburgo baptism
+  registers PAR-0052/PAR-0053) trace to the Fundação D. João VI digitisation — the earlier
+  caveat on GOV-0007 ("archival original not independently verified") is now resolved to a
+  documented chain. Raibert: *"Não creio que se tenha melhores imagens do que essas"* —
+  djoaovi is the best online resolution; only an in-person consultation of the physical
+  original at the Arquivo Nacional (Rio, by appointment) would beat it.
+- Outcome: **arrival-ledger hunt CLOSED** (best online resolution held; higher-res is
+  in-person AN-Rio only). Raibert is retired and no longer researches, so the open family
+  questions (a Laurent Borer baptism / his ~1880 death at São José do Ribeirão) stay for other
+  channels. Recorded on GOV-0007 (provenance chain confirmed).

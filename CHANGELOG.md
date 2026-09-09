@@ -5,6 +5,23 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Two Nova Friburgo Bohrer baptisms (1908, 1910); Raibert provenance confirmed (2026-09-09)
+
+- **PAR-0052** — 1908 Nova Friburgo baptisms of **Maria Clara Bohrer** (daughter of Valentim
+  Martinho Bohrer P-0028 × Carolina Klein P-0029) and **Lucinda Maria Bohrer** (daughter of
+  Joaquim José Bohrer P-0030 × Lucinda Ferreira P-0031) — recorded as documented_children on
+  F-0013 and F-0014 (siblings of João Gonçalves Bohrer P-0014 and of Celina Bohrer P-0015).
+  **PAR-0053** — 1910 baptism of **Durval Baptista Bohrer** (son of P-0028 × P-0029),
+  documented_child on F-0013. Both are primary parish register images (Fundação D. João VI /
+  djoaovi), **flagged on arrival by `make triage-audit`** and catalogued per the
+  attach-every-record rule.
+- Logged correspondence **C-009** (César Raibert): confirms the GOV-0007 provenance chain
+  (Arquivo Nacional Rio original → Fundação D. João VI → djoaovi, best online resolution),
+  **resolving GOV-0007's "archival original not verified" caveat**; the arrival-ledger hunt is
+  closed.
+- The What's new feed regenerated automatically to 58 entries (the two baptisms auto-included).
+  make check green (70 tests); GEDCOM re-exported.
+
 ### Added — GOV-0007: Nova Friburgo settler register catalogued (reversing the 2026-09-08 "not catalogued" call) (2026-09-09)
 
 - **GOV-0007** — a Nova Friburgo Swiss-colony settler register (Heureux Voyage arrivals,

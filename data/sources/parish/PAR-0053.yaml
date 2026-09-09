@@ -1,0 +1,75 @@
+schema_version: 1
+id: PAR-0053
+title: >-
+  1910 baptism of Durval Baptista Bohrer at São Pedro, Nova Friburgo — legitimate
+  son of Valentim Martinho Bohrer and Carolina Klein
+title_pt: >-
+  Batismo de 1910 de Durval Baptista Bohrer em São Pedro, Nova Friburgo — filho
+  legítimo de Valentim Martinho Bohrer e Carolina Klein
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1910-10-22"
+  original_text: >-
+    Baptised 22 October 1910 ("aos vinte e dois dias do mês de Outubro de mil novecentos e
+    dez"); born 24 June 1910 ("nascido a vinte e quatro de Junho do dito ano").
+event_place_text: >-
+  Capela filial de São Pedro de Friburgo, Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Paróquia de Nova Friburgo (Batismos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Batismos 13, folha 6, nº 53
+  catalogue_reference: >-
+    Delivered to this project via the César Raibert Nova Friburgo genealogy correspondence
+    (C-009); the underlying archival original was not independently verified
+access_date: "2026-09-09"
+language: pt-BR
+transcription: >-
+  [Livro de Batismos 13, folha 6, nº 53, Nova Friburgo.] "Aos vinte e dois dias do mês de
+  Outubro de mil novecentos e dez, na Capela filial de São Pedro de Friburgo, baptisei
+  solemnemente a Durval Baptista, nascido a vinte e quatro de Junho do dito ano [24 June
+  1910], filho legítimo de Valentim Martinho Bor[b]er e Carolina Klein Bor[b]er. Foram
+  padrinhos João Silverio Heisinger e Constancia Eulalia Martins Heisinger. Para constar
+  fiz este assento e o assigno. O Vigário José Silvestre Alves de Miranda."
+abstract: >-
+  A 1910 parish baptism at the Capela de São Pedro, Nova Friburgo. Durval Baptista Bohrer,
+  born 24 June 1910, is a legitimate son of Valentim Martinho Bohrer (P-0028) × Carolina
+  Klein (P-0029) — a brother of João Gonçalves Bohrer (P-0014), and therefore a further
+  primary for Iris Bohrer Muniz's paternal grandparents. The surname is inked "Bor[b]er", a
+  variant of Bohrer/Borer. Recorded as a documented_child on F-0013.
+abstract_pt: >-
+  Batismo paroquial de 1910 na Capela de São Pedro, Nova Friburgo. Durval Baptista Bohrer,
+  nascido em 24 de junho de 1910, é filho legítimo de Valentim Martinho Bohrer (P-0028) ×
+  Carolina Klein (P-0029) — irmão de João Gonçalves Bohrer (P-0014), e portanto mais um
+  primário para os avós paternos de Iris Bohrer Muniz. O sobrenome aparece grafado
+  "Bor[b]er", variante de Bohrer/Borer. Registrado como documented_child em F-0013.
+reliability:
+  assessment: >-
+    Primary parish baptism entry (register image), direct primary for Durval's birth,
+    baptism and legitimate parentage; corroborates the modelled couple P-0028 × P-0029.
+  informant: The officiating clergy (Vigário José Silvestre Alves de Miranda).
+  limitations: >-
+    Delivered via the Raibert Nova Friburgo genealogy correspondence (Fundação D. João VI
+    digitisation); the archival original was not independently verified. Surname variant
+    "Bor[b]er" noted.
+digital_file:
+  path: evidence/parish/PAR-0053-bohrer-durval-baptista-baptism-1910-novafriburgo.jpg
+  sha256: 456bf14db9bfa1b45e69891633014e805aab941a5e04177de270dc4c8551c09c
+linked_people:
+- P-0028
+- P-0029
+linked_families:
+- F-0013
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Documents a further child of Valentim Martinho Bohrer (P-0028) × Carolina Klein
+    (P-0029) — Durval Baptista Bohrer (b. 24 Jun 1910), a brother of João Gonçalves Bohrer
+    (P-0014) — recorded as a documented_child on F-0013. Born 1910, clearly deceased.
