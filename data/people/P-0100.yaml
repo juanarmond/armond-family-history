@@ -1,0 +1,21 @@
+schema_version: 1
+id: P-0100
+preferred_name: Jacob Borer (of Grindel)
+privacy: deceased
+sex: male
+nationality: Swiss
+name_variants:
+- value: Jacobo Borer
+  type: source
+  source_ids:
+  - PAR-0060
+event_ids: []
+family_ids:
+- F-0049
+notes:
+- text: >-
+    Father of the Nova Friburgo immigrant Laurent (Lourenço) Borer (P-0068); named "Jacobo Borer,
+    natural de Grindel, no cantão de Soleure [Solothurn]" in Laurent's 1820 marriage (PAR-0060).
+    His wife (Laurent's mother) is not named in that record. IMPORTANT: distinct from Jacob Bohrer
+    of Erschwil (P-0050) — the two are separate Solothurn Borer families sharing the surname; do
+    not conflate. Modelled per the stated-ancestor rule.

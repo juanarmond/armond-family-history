@@ -3,19 +3,26 @@ id: E-0064
 event_type: birth
 date:
   kind: exact
-  value: "1868-11-14"
+  value: "1868-09-14"
   original_text: >-
-    Valentim Martinho n. 14/11/1868 — Vicente's 3rd child per BORER II genealogy tree
-    p.301
-place_text: Nova Friburgo area, Rio de Janeiro, Brazil
+    "nascido a quatorze de [Setembro — uncertain]" 1868 per his baptism (PAR-0063, page faded);
+    baptised ~25 Sep 1868. The PUB-0003 "14/11/1868" is impossible (after a September baptism) and
+    is superseded; the birth month is [uncertain] but constrained to before the baptism.
+place_text: Nova Friburgo, Rio de Janeiro, Brazil
 participants:
 - person_id: P-0028
   role: principal
-status: hypothesis
+- person_id: P-0070
+  role: parent
+- person_id: P-0071
+  role: parent
+status: confirmed
 source_ids:
+- PAR-0063
 - PUB-0003
 notes:
 - text: >-
-    Tier downgraded strong-evidence → hypothesis on 2026-08-13 (confidence-tier
-    audit): sole source PUB-0003 (published genealogy) — a lone secondary
-    source, below the strong-evidence bar.
+    Corrected to ~14 September 1868 by Valentim's own 1868 parish baptism (PAR-0063), legitimate son
+    of Vicente Bohrer × Maria (Thecla) Eggendorn; supersedes the impossible PUB-0003 "14 Nov 1868"
+    (which post-dated the September baptism). The 1868 year is firmly corroborated by his 1890
+    marriage (age 22) and 1948 death (age 80). Birth day/month [uncertain] on the faded page.

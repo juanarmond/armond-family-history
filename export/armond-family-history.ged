@@ -612,11 +612,17 @@
 2 SURN Bohrer
 1 SEX M
 1 BIRT
-2 DATE 14 NOV 1868
-2 PLAC Nova Friburgo area, Rio de Janeiro, Brazil
+2 DATE 14 SEP 1868
+2 PLAC Nova Friburgo, Rio de Janeiro, Brazil
+2 SOUR @PAR0063@
+3 QUAY 3
 2 SOUR @PUB0003@
-3 QUAY 1
-2 NOTE Unproven hypothesis (not yet confirmed by evidence).
+3 QUAY 3
+1 DEAT
+2 DATE 23 SEP 1948
+2 PLAC Nova Friburgo, Rio de Janeiro, Brazil
+2 SOUR @PAR0065@
+3 QUAY 3
 1 FAMS @F0013@
 1 FAMC @F0034@
 1 NOTE Ahnentafel position 28 — father of João Gonçalves Bohrer (P-0014). Named as João's father (already deceased) in his 1970 Volta Redonda death (CIV-0014) and as Eunir Bohrer's paternal grandfather in the 1924 Nova Friburgo birth (CIV-0016). No record of his own has been located.
@@ -629,6 +635,7 @@
 1 OCCU doméstica
 2 SOUR @CIV0014@
 1 FAMS @F0013@
+1 FAMC @F0051@
 1 NOTE Ahnentafel position 29 — mother of João Gonçalves Bohrer (P-0014). Named as "Carolina Bohrer, doméstica" in his 1970 death (CIV-0014) and as Eunir Bohrer's paternal grandmother in the 1924 Nova Friburgo birth (CIV-0016). Her maiden surname is not recorded ("Bohrer" is her married name); no record of her own has been located.
 0 @P0030@ INDI
 1 NAME Joaquim José /Bohrer/
@@ -948,6 +955,7 @@
 2 SOUR @PRB0005@
 1 SEX M
 1 FAMS @F0024@
+1 FAMC @F0047@
 1 NOTE Father of Francisco José Bohrer (P-0034); hence Joaquim José Bohrer's (P-0030) paternal grandfather and Iris Bohrer's Bohrer-line immigrant-boundary ancestor. Named in his son's 1888 registered will (PRB-0005) as "Jacob Bahrer … já fallecido" — deceased before 1888. Preferred name given in the family's stabilised form "Bohrer"; the will spells it "Bahrer".
 1 NOTE Nationality deliberately left unset (Swiss origin is strong-evidence from compilation but not yet primary-confirmed). The Imigrantes de Nova Friburgo compilation (PUB-0003, p.300, BORER I section) and the Casa Suíça database (image read 2026-08-07) identify him as Jacob Borer born c.1801 at Erschwil, Soleure, Switzerland — BORER I, distinct from Laurent Borer (BORER II, P-0068) who came from Grindel. Jacob's Casa/Lote at Nova Friburgo was 70/56 (Laurent's was 73/86 — a useful distinguishing marker). The compilation gives him "9 filhos" total (two died in infancy unrecorded). The DB states he sold his property on 24 April 1843 (likely already infirm; died 1843-44). The Catharina Mayer/Moser surname conflict (PRB-0005 gives "Mayer"; compilation gives "Moser") is unresolved and preserved as a name variant on P-0051. PRB-0005 evidences only his name, his son's parentage and that he was already dead by 1888; primary-record confirmation of Jacob's Swiss origin still awaits his Nova Friburgo inventário or a Swiss baptism/emigration document.
 0 @P0051@ INDI
@@ -959,6 +967,7 @@
 2 SOUR @PRB0005@
 1 SEX F
 1 FAMS @F0024@
+1 FAMC @F0048@
 1 NOTE Mother of Francisco José Bohrer (P-0034); hence Joaquim José Bohrer's (P-0030) paternal grandmother. Named in her son's 1888 registered will (PRB-0005) as "Catharina Mayer … já fallecida" — deceased before 1888.
 1 NOTE Surname conflict preserved: the primary will writes "Mayer", but two secondary Nova Friburgo colonist-family compilations (a lead, not catalogued) give "Moser" (Catharina Moser of Hägendorf, Soleure, Switzerland, married Jacob Borer 1825). "Mayer" is recorded as the source-attested form and "Moser" as an unresolved variant; the retrieval note argues the two are the same person, but no primary record settles it, so neither surname is treated as certain and no origin is asserted. Nationality deliberately left unset for the same reason.
 0 @P0052@ INDI
@@ -1227,6 +1236,7 @@
 3 QUAY 1
 2 NOTE Unproven hypothesis (not yet confirmed by evidence).
 1 FAMS @F0033@
+1 FAMC @F0049@
 1 NOTE BORER II in the Imigrantes de Nova Friburgo compilation (Henrique Bon), distinct from Jacob Borer (P-0050, BORER I), who originates from Erschwil and held Casa/Lote 70/56. Laurent originates from Grindel and held Casa/Lote 73/86. The two families shared the Heureux Voyage but were allocated different lots and are not proven to be closely related. The compilation states "não há evidência de parentesco próximo entre os dois grupos."
 1 NOTE Father named as "certo Jacob Borer, de Grindel, Soleure" in the compilation (PUB-0003). The qualifier "certo" reflects the compiler's own hedged confidence in this attribution. The Grindel parish register images in the retrieval drop show a "Joannes Borer × Ana Maria Werli" baptising a daughter in 1782 — a strong lead for Laurent's parentage but not yet confirmed as the same individual. No parent family in this repository; the father is noted here only.
 1 NOTE Emigrated to Brazil in 1819 on the ship Heureux Voyage. Settled at Nova Friburgo, Rio de Janeiro, occupying Casa 73, Lote 86. Married Anna Maria Werhly (P-0069) on 03/07/1820 at Nova Friburgo. Probably died in the vale do Macaé area, Nova Friburgo; date of death unknown.
@@ -1256,8 +1266,10 @@
 1 BIRT
 2 DATE 06 SEP 1828
 2 PLAC Nova Friburgo area, Rio de Janeiro, Brazil (born in Brazil; exact location not stated)
+2 SOUR @PAR0061@
+3 QUAY 3
 2 SOUR @PUB0003@
-3 QUAY 2
+3 QUAY 3
 1 FAMC @F0033@
 1 FAMS @F0034@
 1 NOTE Vicente is Laurent Borer's 6th son per the Casa Suíça DB (BORER II line). He was born in Brazil, confirming the immigration boundary at his father Laurent (P-0068). The Imigrantes compilation gives no middle name; 'Lourenço' as a middle name appears only in blog sources and is not confirmed here.
@@ -1268,6 +1280,7 @@
 2 SURN Heggendorn
 1 SEX F
 1 FAMS @F0034@
+1 FAMC @F0050@
 1 NOTE Parents per Imigrantes compilation (PUB-0003, p.301): 'filha de Joseph Heggendorn × Maria (Maria Amélia?) Freese.' The same Joseph Heggendorn × Amelie (Anna Maria) Freese couple appears as the parents of Bibiana Heggendorn (who married Vicente's brother José Borer in 1854) — suggesting Maria and Bibiana were sisters. Neither Joseph Heggendorn nor Maria Freese is yet modelled in this repository.
 1 NOTE The names 'Thecla Regina' and birth date '23 Nov 1844' appear in blog/collaborative-tree sources; not confirmed by any primary or record-citing secondary source in this drop. Recorded as unconfirmed.
 0 @P0072@ INDI
@@ -1539,6 +1552,81 @@
 1 FAMS @F0046@
 1 NOTE Named as the mother of Isabel Ribeiro (P-0079) in her 22 February 1751 Borda do Campo (Barbacena) marriage act (PAR-0034): "Isabel Ribeyro ... filha legitima de Manoel Nado Pestana e de Anna Francisca". Her husband is Manoel Nado Pestana (P-0094, family F-0046). No record of her own is located. The parentage rests on the informant-reported filiation in her daughter's marriage, not a birth/baptism, hence strong-evidence.
 1 NOTE Nationality Portuguese (Azorean): her granddaughter Ritta Angélica's 1764 baptism (PAR-0049) reads her "natural [da freguesia de São Jorge]" (Açores), alongside her husband of Nossa Senhora do Rosário, Ilha de São Jorge. That grandparent clause is ink-damaged and read only tentatively — her name itself is marked [uncertain] and the couple is recorded in PAR-0049 and on P-0079 as a LEAD — so the Azorean origin, and the Portuguese nationality resting on it, carry that read-uncertainty; a clearer image or corroborating record would confirm it.
+0 @P0096@ INDI
+1 NAME João /Borer/
+2 GIVN João
+2 SURN Borer
+1 SEX M
+1 FAMS @F0047@
+1 NOTE Father of the Nova Friburgo immigrant Jacob Bohrer (P-0050); named with his wife Barbara Probst as parents "naturaes e baptizado na freguezia de Erswill [Erschwil], Cantão de Soleure [Solothurn]" in Jacob's 1825 Nova Friburgo marriage (PAR-0059). Swiss; presumably remained in Switzerland. Modelled per the stated-ancestor rule; no further record held.
+0 @P0097@ INDI
+1 NAME Barbara /Probst/
+2 GIVN Barbara
+2 SURN Probst
+1 SEX F
+1 FAMS @F0047@
+1 NOTE Mother of the Nova Friburgo immigrant Jacob Bohrer (P-0050); named with her husband João Borer, of Erschwil, Cantão de Soleure (Solothurn), in Jacob's 1825 marriage (PAR-0059). Swiss; presumably remained in Switzerland. Modelled per the stated-ancestor rule.
+0 @P0098@ INDI
+1 NAME José /Moser/
+2 GIVN José
+2 SURN Moser
+1 NAME Jose /Moser/
+2 TYPE AKA
+2 SOUR @PAR0059@
+1 SEX M
+1 FAMS @F0048@
+1 NOTE Father of Catharina Moser (P-0051, wife of the immigrant Jacob Bohrer); named with his wife Maria Weiss as parents of Catharina, "natural e baptizada na freguezia d'Eggendorf [Hägendorf, uncertain], Cantão de Soleure", in the 1825 marriage (PAR-0059). Swiss. Modelled per the stated-ancestor rule.
+0 @P0099@ INDI
+1 NAME Maria /Weiss/
+2 GIVN Maria
+2 SURN Weiss
+1 NAME Maria /Veisse/
+2 TYPE AKA
+2 SOUR @PAR0059@
+1 SEX F
+1 FAMS @F0048@
+1 NOTE Mother of Catharina Moser (P-0051); named "Maria Veisse" (Weiss) with her husband José Moser, of Hägendorf ("Eggendorf" [uncertain]), Cantão de Soleure, in the 1825 marriage (PAR-0059). Swiss. Modelled per the stated-ancestor rule.
+0 @P0100@ INDI
+1 NAME Jacob Borer (of /Grindel)/
+2 GIVN Jacob Borer (of
+2 SURN Grindel)
+1 NAME Jacobo /Borer/
+2 TYPE AKA
+2 SOUR @PAR0060@
+1 SEX M
+1 FAMS @F0049@
+1 NOTE Father of the Nova Friburgo immigrant Laurent (Lourenço) Borer (P-0068); named "Jacobo Borer, natural de Grindel, no cantão de Soleure [Solothurn]" in Laurent's 1820 marriage (PAR-0060). His wife (Laurent's mother) is not named in that record. IMPORTANT: distinct from Jacob Bohrer of Erschwil (P-0050) — the two are separate Solothurn Borer families sharing the surname; do not conflate. Modelled per the stated-ancestor rule.
+0 @P0101@ INDI
+1 NAME José /Eggendorn/
+2 GIVN José
+2 SURN Eggendorn
+1 SEX M
+1 FAMS @F0050@
+1 NOTE Father of Maria Thecla Regina Heggendorn (P-0071); named as her father (with Maria Freese) in the 1864 Vicente Borer × Maria Thecla marriage (PAR-0062). He is himself the groom "José Heggendorn, natural e baptizado na freguezia de São Lucas [St. Lukas], Cantão de Soleure" in the 1829 Nova Friburgo marriage to Anna Maria Frees — his own parents (†José Heggendorn Sr × Maria Lutz) are named there (to be catalogued in a later wave). Swiss immigrant to Nova Friburgo. Surname also written Heggendorn / Eckdorn.
+0 @P0102@ INDI
+1 NAME Maria /Freese/
+2 GIVN Maria
+2 SURN Freese
+1 NAME Anna Maria /Frees/
+2 TYPE AKA
+2 SOUR @PAR0062@
+1 SEX F
+1 FAMS @F0050@
+1 NOTE Mother of Maria Thecla Regina Heggendorn (P-0071); named "Maria Freese" (with José Eggendorn) in the 1864 marriage (PAR-0062). She is the bride "Anna Maria Frees, filha legitima de Jacob Frees" in the 1829 Nova Friburgo marriage to José Eggendorn — her father Jacob Frees is named there (to be catalogued in a later wave). Swiss (Frees/Freese). Modelled per the stated-ancestor rule.
+0 @P0103@ INDI
+1 NAME Jacob /Klein/
+2 GIVN Jacob
+2 SURN Klein
+1 SEX M
+1 FAMS @F0051@
+1 NOTE Father of Carolina Klein (P-0029, wife of Valentim Martinho Bohrer); named with his wife Maria Luiza Schenkel in Valentim × Carolina's 1890 marriage (PAR-0064). The Klein family were Protestant (Carolina abjured Protestantism at that marriage). Jacob's own Lutheran baptism (b. 16 Oct 1844, son of Johannes Klein × Anna Margaretha) and his 1872 Lutheran marriage to Maria Luiza Schenkel are catalogued in a later wave. Nationality left unset pending his origin.
+0 @P0104@ INDI
+1 NAME Maria Luiza /Schenkel/
+2 GIVN Maria Luiza
+2 SURN Schenkel
+1 SEX F
+1 FAMS @F0051@
+1 NOTE Mother of Carolina Klein (P-0029); named with her husband Jacob Klein in Valentim × Carolina's 1890 marriage (PAR-0064). She is the daughter of Conrad (Georg Conrad) Schenkel × Maria Luiza Stoffel per her own 1872 Lutheran marriage (catalogued in a later wave). Protestant family. Nationality left unset pending her origin.
 0 @DOCF0001_1@ INDI
 1 NAME Aristides Muniz /Bittencourt/
 2 GIVN Aristides Muniz
@@ -2525,6 +2613,11 @@
 1 CHIL @P0014@
 1 CHIL @DOCF0013_1@
 1 CHIL @DOCF0013_2@
+1 MARR
+2 DATE 27 NOV 1890
+2 PLAC Matriz de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+2 SOUR @PAR0064@
+3 QUAY 3
 1 SOUR @CIV0014@
 1 SOUR @CIV0016@
 1 NOTE Valentim Martinho Bohrer and Carolina Bohrer, parents of João Gonçalves Bohrer (P-0014). Established by two corroborating civil records: João's 1970 death (CIV-0014) and Eunir Bohrer's 1924 Nova Friburgo birth (CIV-0016, paternal grandparents). Two of their other children are now attested by primary Nova Friburgo baptism acts — Maria Clara (1908, PAR-0052) and Durval Baptista (1910, PAR-0053), both naming the couple as legitimate parents. João's own membership stays strong-evidence pending his own baptism/filiation act.
@@ -2654,8 +2747,12 @@
 1 WIFE @P0051@
 1 CHIL @P0034@
 1 MARR
-2 SOUR @PRB0005@
-3 QUAY 2
+2 DATE 08 AUG 1825
+2 PLAC Matriz de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+2 SOUR @PAR0059@
+3 QUAY 3
+1 SOUR @PAR0054@
+1 SOUR @PAR0059@
 1 SOUR @PRB0005@
 1 NOTE Parents of Francisco José Bohrer (P-0034), established by his own 1888 will (PRB-0005), in which he declares himself their "filho legitimo". This is the Bohrer line's immigrant boundary: Francisco José was "natural deste termo" (Nova Friburgo), so his parents Jacob and Catharina are the immigrant generation. Only Francisco José is modelled as a child here.
 1 NOTE Tier audit 2026-08-13: child edges P-0034←P-0050 and P-0034←P-0051 kept confirmed under the "coherent body of primary evidence" clause — Francisco José's own 1888 will (PRB-0005) is a formal self-declaration of parentage ("filho legitimo"). The partner_relationship P-0050 × P-0051 is downgraded confirmed → strong-evidence: no marriage act is catalogued, so the couple's union is inferred from that same will.
@@ -2816,9 +2913,10 @@
 1 MARR
 2 DATE 03 JUL 1820
 2 PLAC Nova Friburgo, Rio de Janeiro, Brazil
+2 SOUR @PAR0060@
+3 QUAY 3
 2 SOUR @PUB0003@
-3 QUAY 1
-2 NOTE Unproven hypothesis (not yet confirmed by evidence).
+3 QUAY 3
 1 SOUR @PUB0003@
 1 NOTE The compilation gives "ao menos onze filhos" in the main narrative and "doze filhos" in the Casa Suíça DB text — a one-child discrepancy between the two secondary accounts. Eleven children appear in the genealogy tree on p.301 of the compilation; a twelfth may be missing. Vicente (P-0070) is listed as the 7th child (entry 1.1.7 in the Lorenz tree) but as the 6th son ("6º filho") in the Casa Suíça DB family list (rec-bohrer-borer-laurent-pesquisa-familia-nvfriburgo-1797.jpg, read 2026-08-09). Both are PUB-0003 sub-sources; the discrepancy is unresolved.
 1 NOTE Internal PUB-0003 date conflict for Thereza: the Lorenz genealogy tree (pp.300–301) gives 25/08/1836, while the Casa Suíça DB family list gives 25/09/1838. The DB also labels her "1ª filha" (first daughter) despite listing her last, after all other children born 1822–1834 — likely a database entry error for her ordinal. The dates differ by more than two years; neither can be preferred on current evidence. Both read values preserved here.
@@ -2833,8 +2931,10 @@
 1 MARR
 2 DATE 11 APR 1864
 2 PLAC Nova Friburgo, Rio de Janeiro, Brazil (inferred from context; not explicitly stated in compilation)
+2 SOUR @PAR0062@
+3 QUAY 3
 2 SOUR @PUB0003@
-3 QUAY 2
+3 QUAY 3
 1 SOUR @PUB0003@
 1 NOTE Valentim Martinho Bohrer (P-0028) is listed as Vicente's 3rd child in the Imigrantes compilation (BORER II tree entry 1.1.7.3). His birth date 14/11/1868 is now confirmed from this secondary source.
 0 @F0035@ FAM
@@ -2979,6 +3079,43 @@
 1 SOUR @PAR0034@
 1 NOTE Parents of Isabel Ribeiro (P-0079), named in her 1751 Borda do Campo marriage (PAR-0034) as "Manoel Nado Pestana e ... Anna Francisca". Extends Eliza's maternal Toledo line one generation above P-0079. The parentage rests on the daughter's marriage filiation (informant-reported), not a birth/baptism, hence strong-evidence.
 1 NOTE Their granddaughter Ritta Angélica's 1764 Barbacena baptism (PAR-0049) tentatively adds their origin: Manoel Pestana "natural da freguesia de Nossa Senhora do Rosário da Ilha de São Jorge, Bispado de Angra [dos Açores]" and Anna Francisca "natural [da freguesia de São Jorge]" — the Azorean (Portuguese) origin behind both spouses' nationality. Those grandparent clauses are ink-damaged and read only tentatively (recorded in PAR-0049 as a LEAD, and Anna Francisca's name itself marked [uncertain]), so the origin carries read-uncertainty. No records of their own are located.
+0 @F0047@ FAM
+1 HUSB @P0096@
+1 WIFE @P0097@
+1 CHIL @P0050@
+1 MARR
+2 SOUR @PAR0059@
+3 QUAY 2
+1 SOUR @PAR0059@
+0 @F0048@ FAM
+1 HUSB @P0098@
+1 WIFE @P0099@
+1 CHIL @P0051@
+1 MARR
+2 SOUR @PAR0059@
+3 QUAY 2
+1 SOUR @PAR0059@
+0 @F0049@ FAM
+1 HUSB @P0100@
+1 CHIL @P0068@
+1 SOUR @PAR0060@
+1 NOTE Jacob Borer of Grindel (P-0100), father of the Nova Friburgo immigrant Laurent (Lourenço) Borer (P-0068), named in Laurent's 1820 marriage (PAR-0060, "filho de Jacobo Borer natural de Grindel"). Laurent's mother is not named in that record, so this parentage family holds only the father. Distinct from the Erschwil Jacob Bohrer (P-0050) — do not conflate the two Borer lines.
+0 @F0050@ FAM
+1 HUSB @P0101@
+1 WIFE @P0102@
+1 CHIL @P0071@
+1 MARR
+2 SOUR @PAR0062@
+3 QUAY 2
+1 SOUR @PAR0062@
+0 @F0051@ FAM
+1 HUSB @P0103@
+1 WIFE @P0104@
+1 CHIL @P0029@
+1 MARR
+2 SOUR @PAR0064@
+3 QUAY 2
+1 SOUR @PAR0064@
 0 @REPO0001@ REPO
 1 NAME FamilySearch Memories
 0 @REPO0002@ REPO
@@ -4024,6 +4161,69 @@
 1 NOTE Transcription: [Livro de Óbitos, Nova Friburgo, fólio 73, nº 501, 1919; Vigário José Silvestre Alves de Miranda.] "Aos dois dias do mez de Novembro de mil nove centos e desenove, na Egreja Matriz, encommendei e depois, com a Irmandade do Sacramento, em cujo cemiterio foi sepultado, acompanhei o cadaver de Roza Eugenia de Lemos Bohrer, de oitenta e seis annos de idade, natural da freguezia de Itaboraby, moradora nesta da Nova Friburgo, ambas neste bispado de Nictheroy, viuva de Francisco José Bohrer e filha legitima de Manoel Pereira Lemos e Maria Tereza Pereira de Lemos falecidos. Confessou-se, recebeu o Viatico, foi ungida e falleceu de [interito — uncertain] hoje de madrugada. Para constar fiz este assento e o assigno. O Vigario José Silvestre Alves de Miranda."
 1 NOTE Archival reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
 1 OBJE @OBJPAR0058@
+0 @PAR0059@ SOUR
+1 TITL 1825 marriage of Jacob Bohrer and Catharina Moser at Nova Friburgo — Swiss colonists of Erschwil and Hägendorf, Canton Solothurn
+1 TEXT Parish marriage of Jacob Bohrer (P-0050) and Catharina Moser (P-0051) — Iris Bohrer Muniz's Swiss-immigrant 4×-great-grandparents on the Bohrer maternal line — on 8 August 1825 at Nova Friburgo. NAMES BOTH DEEPER-GENERATION COUPLES: Jacob is a legitimate son of João Bohrer × Barbara Probst of Erschwil (Erswill), and Catharina of José Moser × Maria Weiss (Veisse) of Hägendorf — all of Canton Solothurn. Source for the marriage event E-0087; adds the parent families F-0047 (Jacob's parents, new) and F-0048 (Catharina's parents, new).
+1 REPO @REPO0038@
+2 CALN Livro de Casamentos, página 50 (1825)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Livro de Casamentos, Nova Friburgo, p.50, 1825; Vigário Jacob Joye.] "Aos oito dias do mes de Agosto do anno de mil oito cent[os] e vinte e cinco... receberam-se em face de Igreja n'esta Matriz solemnemente por palavras, Jacob Bohrer filho legitimo de João Bohrer e da sua mulher Barbara Probst naturaes e baptizado na freg.a de Erswill [Erschwil], com Catharina Moser filha legitima de Jose Moser e de sua mulher Maria Veisse [Weiss], natural e baptizada na freguezia d'Eggendorf [Hägendorf — uncertain], ambos do Cantão de Soleure [Solothurn], colonos suiços e moradores n'esta freg.a... O Vigario Jacob Joye." [Testemunhas: João Probst; Isabel Sch[oser — uncertain]. Padre coadjutor presente: Rodrigo de Souza Sabia.]
+1 NOTE Archival reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+1 OBJE @OBJPAR0059@
+0 @PAR0060@ SOUR
+1 TITL 1820 marriage of Laurent Borer and Anna Maria Wehrli at Nova Friburgo — both of Grindel, Canton Solothurn
+1 TEXT Parish marriage of Laurent (Lourenço) Borer (P-0068) and Anna Maria Wehrli (Verly) (P-0069) — Iris Bohrer Muniz's Swiss-immigrant apex on the Borer paternal line — on 3 July 1820 at Nova Friburgo. A primary record upgrading the marriage event E-0061 (was hypothesis, PUB-0003) to confirmed. Names Laurent's father Jacob Borer of Grindel (P-0100, new — mother unnamed) and Anna Maria's father João Jacobo Verly = Johann Jacob Wehrli (P-0072, already modelled). Both "de Grindel, Cantão de Soleure".
+1 REPO @REPO0038@
+2 CALN Livro de Casamentos, página 66, nº 38 (1820)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Livro de Casamentos, Nova Friburgo, p.66, nº 38, 1820; Vigário J. Joye.] "Aos tres dias do mes de julho do anno de mil oito centos e vinte... se casarão solemnemente á face do Igreja em a freguesia de S. João Batista da Villa da Nova Friburgo... Laurenço filho de Jacobo Borer natural de Grindel no cantão de Soleure e Anna e Maria filha de João Jacobo Verly [Wehrli] natural do mesmo lugar. Sendo presentes as testemunhas Francisco Berla [uncertain] e Laurenço Frotté colonos suiços. J. Joye Vigario da Nova Friburgo." [Same page, nº 37: Anna Maria's sister Salomea Verly married Luiz Nicolão Vilette, with Lourenço Borer as witness.]
+1 NOTE Archival reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+1 OBJE @OBJPAR0060@
+0 @PAR0061@ SOUR
+1 TITL 1828 baptism of Vicente Borer at Nova Friburgo — son of Laurent Borer and Anna Maria Wehrli
+1 TEXT Parish baptism of Vicente Borer (P-0070), born 6 September 1828, baptised 13 October 1828 at Nova Friburgo, legitimate son of Laurent (Lourenço) Borer (P-0068) × Anna Maria Wehrli (P-0069). Confirms his birth event E-0062 (upgrade to confirmed). Godmother Catharina Eggendorn.
+1 REPO @REPO0036@
+2 CALN Livro de Baptismos, página 160 (1828)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Livro de Baptismos, Nova Friburgo, p.160, 1828; Vigário Jacob Joye.] "Aos treze dias de outubro de mil oito centos vinte oito baptizei no termo d'esta freguezia e pus os S. Oleos a Vicente nascido a seis de Setembro filho legitimo de Lourenço Bhorer e da sua mulher Anna Maria Verly [Wehrli] naturaes do cantão de Soleure. Forão padrinhos Vicente Jacond [uncertain] e Catharina Eggendorn e para constar fiz este assento... O Vigario Jacob Joye."
+1 NOTE Archival reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+1 OBJE @OBJPAR0061@
+0 @PAR0062@ SOUR
+1 TITL 1864 marriage of Vicente Borer and Maria (Thecla) Eggendorn at Nova Friburgo — names Maria's parents José Eggendorn and Maria Freese
+1 TEXT Parish marriage of Vicente Borer (P-0070), 35 (b. ~1829), and Maria (Thecla Regina) Eggendorn (P-0071), 20 (b. ~1844), on 11 April 1864 at Nova Friburgo. Upgrades the marriage event E-0063 to confirmed and NAMES Maria's parents José Eggendorn (P-0101) × Maria Freese (P-0102) — new family F-0050. The bride's father José Eggendorn was also a witness. Confirms Vicente's parents (Laurent × Anna Maria).
+1 REPO @REPO0038@
+2 CALN Livro de Casamentos, página 234 (1864)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Livro de Casamentos, Nova Friburgo, p.234, 1864; Vigário João José Viviand.] "Aos onze de Abril de mil oitocentos sessenta e quatro, feitas as tres publicações canonicas, em minha presença e das testemunhas José Eggendorn e Anna Maria Bohrer, casarão-se solemnemente Vicente Bohrer, de trinta e cinco annos, filho legitimo de Lourenço Bohrer e de Anna Maria Verly, e Maria Eggendorn, de vinte annos, filha legitima de José Eggendorn e de Maria Freese, ambos nascidos, baptizados e moradores nesta freguezia. O Vigario João José Viviand."
+1 NOTE Archival reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+1 OBJE @OBJPAR0062@
+0 @PAR0063@ SOUR
+1 TITL 1868 baptism of Valentim Martinho Bohrer at Nova Friburgo — son of Vicente Bohrer and Maria Eggendorn
+1 TEXT Parish baptism of Valentim Martinho Bohrer (P-0028) — João Gonçalves Bohrer's father (Iris Bohrer Muniz's paternal grandfather-line) — in 1868, legitimate son of Vicente Bohrer (P-0070) × Maria (Thecla) Eggendorn (P-0071). CORRECTS his birth event E-0064 from "1868-11-14" (impossible after a September baptism) to 14 Sep 1868. The page is faded; the birth month is [uncertain] but the 1868 year is firmly corroborated by his 1890 marriage (age 22) and 1948 death (age 80).
+1 REPO @REPO0036@
+2 CALN Livro de Baptismos, ~página 174 (1868)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Livro de Baptismos, Nova Friburgo, ~p.174, 1868; Vigário João José Viviand. Heavily faded.] "A[os] vinte e cinco de Setembro [uncertain] de mil oito centos e sessenta e oito baptizei a Valentim Martinho, nascido a quatorze de [Setembro — uncertain], filho legitimo de Vicente Bohrer, e de Maria [Eugenia? — uncertain] Eggendorn; forão padrinhos Valentim Freize [uncertain] e Anna Maria Bohrer."
+1 NOTE Archival reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+1 OBJE @OBJPAR0063@
+0 @PAR0064@ SOUR
+1 TITL 1890 marriage of Valentim Martinho Bohrer and Carolina Klein at Nova Friburgo — names Carolina's parents Jacob Klein and Maria Luiza Schenkel
+1 TEXT Parish marriage of Valentim Martinho Bohrer (P-0028), 22 (b. ~1868), and Carolina Klein (P-0029), 17 (b. ~1873), on 27 November 1890 at the Nova Friburgo Matriz. Source for the marriage event E-0088. NAMES Carolina's parents Jacob Klein (P-0103) × Maria Luiza Schenkel (P-0104) — new family F-0051 — and confirms Valentim's parents Vicente Bohrer × Maria (Regina) Eggendorn. The bride abjured Protestantism and was baptised Catholic just before the marriage (the Klein family were Lutheran).
+1 REPO @REPO0038@
+2 CALN Livro de Casamentos, página 79, nº 333 (1890)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Livro de Casamentos, Nova Friburgo, p.79, nº 333, 1890; Cónego José Silvestre Alves de Miranda.] "Aos vinte sete dias do mes de Novembro de mil oito centos e noventa, ás onze horas e meia do dia, na Egreja Matriz, depois de canonicamente habilitados, tendo antes a nubente abjurado o protestantismo, fazendo a profissão de fé catholica e recebido o baptismo... se receberão em matrimonio: Valentim Martinho Bor[b]er e Carolina Klein, ambos nascidos, baptizados e moradores n'esta freguesia de Nova Friburgo; elle de vinte dois annos de edade e filho legitimo de Vicente Bor[b]er e Maria Regina Eckdorn [Eggendorn]; ella de desesete annos de edade, licenciada verbalmente por seu pae, e filha legitima de Jacob Klein e Maria Luiza Schenkel. Testemunhas: Jose Domingos Bor[b]er [uncertain], Ernesto Piller. O Vigario Conego Jose Silvestre Alves de Miranda."
+1 NOTE Archival reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+1 OBJE @OBJPAR0064@
+0 @PAR0065@ SOUR
+1 TITL 1948 death of Valentim Martins Bohrer at Nova Friburgo — husband of Carolina (Klein) Bohrer
+1 TEXT Parish death/burial of Valentim Martins [Martinho] Bohrer (P-0028), commended and buried 23 September 1948 at Nova Friburgo, aged 80 (→ b. ~1868, matching PAR-0063/PAR-0064), husband of Carolina (Klein) Bohrer (P-0029); died of heart failure. Source for his death event E-0089. This 1948 death is the true one; the earlier FamilySearch-tree "d. 1893" is a namesake, excluded.
+1 REPO @REPO0037@
+2 CALN Livro de Óbitos, fólio 152, nº 162 (1948)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Livro de Óbitos, Nova Friburgo, fólio 152, nº 162, 1948.] "Aos vinte e tres dias do mes de Setembro de mil novecentos e quarenta e oito na Igreja Matriz o R.do Coadjutor S. Caetano Trielli encommendou e depois foi sepultado no cemiterio publico o cadaver de Valentim Martins Bohrer de oitenta annos, casado com Carolina Bohrer, faleceu do coração. Para constar mandei fazer este assento e o assino. O [Vigario — signature illegible]."
+1 NOTE Archival reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+1 OBJE @OBJPAR0065@
 0 @PRB0001@ SOUR
 1 TITL 1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza Balbina de Toledo (wife of Simplício José Ferreira Armond)
 1 TEXT A page from an 1881 Leopoldina probate/partilha listing the heirs of an estate on Eliza Balbina de Toledo's side. It names Eliza Balbina de Toledo as the wife of Simplício José Ferreira Armond and lists her Toledo siblings with ages: Maria Bulandina de Toledo (m. Manoel Marques Jorge), Ladisláo Egydio Ferreira de Toledo (~23, b. ~1858), Geraldo Augusto de Toledo Lima (~15, b. ~1866, then living in Rio de Janeiro), and Josepha Olympia da Paixão (~12, b. ~1869), plus a predeceased Carolina Leopoldina Marques inheriting by representation. The companion 1884 petition (PRB-0002) names the decedent as D. Mathilde Maria de Jezus.
@@ -4629,6 +4829,41 @@
 2 FORM image/jpeg
 2 TITL 1919 death of Roza Eugenia de Lemos Bohrer at Nova Friburgo — widow of Francisco José Bohrer, of Itaboraí
 1 NOTE sha256: f284d06753cef16ac0ef2b8e037f11e59acfdaccaedf26110eee1c96bfa9e679
+0 @OBJPAR0059@ OBJE
+1 FILE evidence/parish/PAR-0059-bohrer-jacob-moser-marriage-1825-novafriburgo.jpg
+2 FORM image/jpeg
+2 TITL 1825 marriage of Jacob Bohrer and Catharina Moser at Nova Friburgo — Swiss colonists of Erschwil and Hägendorf, Canton Solothurn
+1 NOTE sha256: 051957c3af9d9ca5159d80e9e6c2c32de981df40d45b0e1b17f7c6a7c5d487a3
+0 @OBJPAR0060@ OBJE
+1 FILE evidence/parish/PAR-0060-bohrer-laurent-wehrli-marriage-1820-novafriburgo.jpg
+2 FORM image/jpeg
+2 TITL 1820 marriage of Laurent Borer and Anna Maria Wehrli at Nova Friburgo — both of Grindel, Canton Solothurn
+1 NOTE sha256: 1fcddf1dffc473747f65ecf279fbf7512ed752d1574b038a1143046463c8c35f
+0 @OBJPAR0061@ OBJE
+1 FILE evidence/parish/PAR-0061-bohrer-vicente-baptism-1828-novafriburgo.jpg
+2 FORM image/jpeg
+2 TITL 1828 baptism of Vicente Borer at Nova Friburgo — son of Laurent Borer and Anna Maria Wehrli
+1 NOTE sha256: 23f72c150f1e4e1b0405ef29f7729c6d4e67a0cd304be1cd4a5a3d934e430e1a
+0 @OBJPAR0062@ OBJE
+1 FILE evidence/parish/PAR-0062-bohrer-vicente-heggendorn-marriage-1864-novafriburgo.jpg
+2 FORM image/jpeg
+2 TITL 1864 marriage of Vicente Borer and Maria (Thecla) Eggendorn at Nova Friburgo — names Maria's parents José Eggendorn and Maria Freese
+1 NOTE sha256: 7c0c2a5d7fa4b47ff75e1c52145183f4522b1027fe1d2f1cf8543b4ddb271713
+0 @OBJPAR0063@ OBJE
+1 FILE evidence/parish/PAR-0063-bohrer-valentim-baptism-1868-novafriburgo.jpg
+2 FORM image/jpeg
+2 TITL 1868 baptism of Valentim Martinho Bohrer at Nova Friburgo — son of Vicente Bohrer and Maria Eggendorn
+1 NOTE sha256: 621fdf4f84eadffd71ba771d07967eaf9e5d43c8122d789febaec5f48ee1ee65
+0 @OBJPAR0064@ OBJE
+1 FILE evidence/parish/PAR-0064-bohrer-valentim-klein-marriage-1890-novafriburgo.jpg
+2 FORM image/jpeg
+2 TITL 1890 marriage of Valentim Martinho Bohrer and Carolina Klein at Nova Friburgo — names Carolina's parents Jacob Klein and Maria Luiza Schenkel
+1 NOTE sha256: 20c8337dbd78f793009e6a25d62fc55d77a9a5dd53da4bbc74cb07197d9b9941
+0 @OBJPAR0065@ OBJE
+1 FILE evidence/parish/PAR-0065-bohrer-valentim-death-1948-novafriburgo.jpg
+2 FORM image/jpeg
+2 TITL 1948 death of Valentim Martins Bohrer at Nova Friburgo — husband of Carolina (Klein) Bohrer
+1 NOTE sha256: 02fc952884a752e2770dc579bbdf4d14b0d5cbd7e11c2f6a8ff36bd13f719da8
 0 @OBJPRB0001@ OBJE
 1 FILE evidence/probate/PRB-0001-probate-toledo-heir-list-leopoldina-1881-original.jpg
 2 FORM image/jpeg

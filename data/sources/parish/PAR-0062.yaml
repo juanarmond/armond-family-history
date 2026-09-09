@@ -1,0 +1,68 @@
+schema_version: 1
+id: PAR-0062
+title: >-
+  1864 marriage of Vicente Borer and Maria (Thecla) Eggendorn at Nova Friburgo —
+  names Maria's parents José Eggendorn and Maria Freese
+title_pt: >-
+  Casamento de 1864 de Vicente Borer e Maria (Thecla) Eggendorn em Nova Friburgo —
+  nomeia os pais de Maria, José Eggendorn e Maria Freese
+record_type: Parish marriage register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1864-04-11"
+event_place_text: São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Matriz de São João Baptista, Nova Friburgo (Livro de Casamentos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Casamentos, página 234 (1864)
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-09"
+language: pt-BR
+transcription: >-
+  [Livro de Casamentos, Nova Friburgo, p.234, 1864; Vigário João José Viviand.] "Aos onze de Abril
+  de mil oitocentos sessenta e quatro, feitas as tres publicações canonicas, em minha presença e das
+  testemunhas José Eggendorn e Anna Maria Bohrer, casarão-se solemnemente Vicente Bohrer, de trinta e
+  cinco annos, filho legitimo de Lourenço Bohrer e de Anna Maria Verly, e Maria Eggendorn, de vinte
+  annos, filha legitima de José Eggendorn e de Maria Freese, ambos nascidos, baptizados e moradores
+  nesta freguezia. O Vigario João José Viviand."
+abstract: >-
+  Parish marriage of Vicente Borer (P-0070), 35 (b. ~1829), and Maria (Thecla Regina) Eggendorn
+  (P-0071), 20 (b. ~1844), on 11 April 1864 at Nova Friburgo. Upgrades the marriage event E-0063 to
+  confirmed and NAMES Maria's parents José Eggendorn (P-0101) × Maria Freese (P-0102) — new family
+  F-0050. The bride's father José Eggendorn was also a witness. Confirms Vicente's parents (Laurent ×
+  Anna Maria).
+abstract_pt: >-
+  Casamento paroquial de Vicente Borer (P-0070), 35 anos (n. ~1829), e Maria (Thecla Regina)
+  Eggendorn (P-0071), 20 anos (n. ~1844), em 11 de abril de 1864, em Nova Friburgo. Eleva o evento de
+  casamento E-0063 para confirmado e NOMEIA os pais de Maria, José Eggendorn (P-0101) × Maria Freese
+  (P-0102) — nova família F-0050. O pai da noiva, José Eggendorn, foi também testemunha. Confirma os
+  pais de Vicente (Laurent × Anna Maria).
+reliability:
+  assessment: Primary parish marriage entry — direct primary for the marriage, both ages and both filiations.
+  informant: The contracting parties before the vicar João José Viviand.
+  limitations: Delivered via the Fundação D. João VI digitisation (C-009). The bride's given name is read "Maria/Maria Eugenia/Maria Regina" across records; "Maria Thecla Regina" from her 1844 baptism governs.
+digital_file:
+  path: evidence/parish/PAR-0062-bohrer-vicente-heggendorn-marriage-1864-novafriburgo.jpg
+  sha256: 7c0c2a5d7fa4b47ff75e1c52145183f4522b1027fe1d2f1cf8543b4ddb271713
+linked_people:
+- P-0070
+- P-0071
+- P-0068
+- P-0069
+- P-0101
+- P-0102
+linked_families:
+- F-0034
+- F-0033
+- F-0050
+linked_events:
+- E-0063
+linked_places: []
+private: false
+notes:
+- text: Upgrades the marriage event E-0063 (Vicente × Maria Thecla, 1864) to confirmed and establishes Maria Thecla's parents José Eggendorn × Maria Freese (F-0050).

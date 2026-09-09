@@ -5,6 +5,25 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Bohrer djoaovi haul, wave 2: Iris's paternal Borer chain + 9 deep Swiss ancestors (2026-09-09)
+
+- Seven primary Nova Friburgo parish records for Iris's paternal Borer line (previously
+  PUB-0003 strong-evidence): **PAR-0059** Jacob Bohrer × Catharina Moser marriage 1825 (names
+  their Erschwil/Hägendorf parents), **PAR-0060** Laurent Borer × Anna Maria Wehrli 1820 (both
+  of Grindel; upgrades E-0061), **PAR-0061** Vicente Borer baptism 1828 (E-0062), **PAR-0062**
+  Vicente × Maria Eggendorn 1864 (E-0063; names her Eggendorn parents), **PAR-0063** Valentim
+  Martinho baptism 1868 — **corrects his birth event E-0064 from an impossible 14 Nov to ~14 Sep
+  1868** — **PAR-0064** Valentim × Carolina Klein 1890 (E-0088; names her Klein parents),
+  **PAR-0065** Valentim's 1948 death (E-0089, excludes an 1893 namesake).
+- **Nine new deeper-generation Swiss ancestors** modelled (P-0096–P-0104) with parentage
+  families F-0047–F-0051: Jacob Bohrer's parents (João Bohrer × Barbara Probst, Erschwil), Moser's
+  parents (José Moser × Maria Weiss, Hägendorf), Laurent's father (Jacob Borer *of Grindel* —
+  kept distinct from the Erschwil Jacob), Maria Thecla's parents (José Eggendorn × Maria Freese),
+  and Carolina's parents (Jacob Klein × Maria Luiza Schenkel). F-0033/F-0034/F-0024 parentages
+  upgraded to primary; full event + family_ids reciprocity.
+- The ancestor-gap audit dropped 9 → 7 (Laurent Borer and Maria Thecla now have parentage). Feed
+  at 70 entries; make check green (70 tests); GEDCOM re-exported (4917 lines). Waves 3–4 queued.
+
 ### Added — Bohrer djoaovi haul, wave 1: Iris's direct maternal branch upgraded to primary (2026-09-09)
 
 - Five primary Nova Friburgo parish records catalogued for Iris Bohrer Muniz's direct maternal

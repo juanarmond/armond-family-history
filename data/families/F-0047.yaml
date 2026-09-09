@@ -1,0 +1,34 @@
+schema_version: 1
+id: F-0047
+partners:
+- person_id: P-0096
+  role: spouse
+- person_id: P-0097
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0059
+  notes:
+  - text: >-
+      João Borer × Barbara Probst, of Erschwil, Cantão de Soleure — parents of the Nova Friburgo
+      immigrant Jacob Bohrer (P-0050), named in his 1825 marriage (PAR-0059). No marriage act of
+      their own is held; the union rests on Jacob's marriage naming them as his legitimate parents.
+children:
+- person_id: P-0050
+  parent_relationships:
+  - parent_id: P-0096
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0059
+    notes: []
+  - parent_id: P-0097
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0059
+    notes: []
+  notes: []
+event_ids: []
+notes: []

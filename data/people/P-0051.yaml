@@ -12,9 +12,12 @@ name_variants:
   type: other
   source_ids:
   - PRB-0005
-event_ids: []
+event_ids:
+- E-0083
+- E-0087
 family_ids:
 - F-0024
+- F-0048
 notes:
 - text: >-
     Mother of Francisco José Bohrer (P-0034); hence Joaquim José Bohrer's (P-0030)

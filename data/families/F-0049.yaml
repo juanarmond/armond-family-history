@@ -1,0 +1,23 @@
+schema_version: 1
+id: F-0049
+partners:
+- person_id: P-0100
+  role: parent
+children:
+- person_id: P-0068
+  parent_relationships:
+  - parent_id: P-0100
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0060
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Jacob Borer of Grindel (P-0100), father of the Nova Friburgo immigrant Laurent (Lourenço)
+    Borer (P-0068), named in Laurent's 1820 marriage (PAR-0060, "filho de Jacobo Borer natural de
+    Grindel"). Laurent's mother is not named in that record, so this parentage family holds only
+    the father. Distinct from the Erschwil Jacob Bohrer (P-0050) — do not conflate the two Borer
+    lines.

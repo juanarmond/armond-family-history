@@ -1,0 +1,56 @@
+schema_version: 1
+id: PAR-0061
+title: 1828 baptism of Vicente Borer at Nova Friburgo — son of Laurent Borer and Anna Maria Wehrli
+title_pt: Batismo de 1828 de Vicente Borer em Nova Friburgo — filho de Laurent Borer e Anna Maria Wehrli
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1828-10-13"
+  original_text: Baptised 13 October 1828; born 6 September 1828.
+event_place_text: São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Matriz de São João Baptista, Nova Friburgo (Livro de Baptismos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Baptismos, página 160 (1828)
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-09"
+language: pt-BR
+transcription: >-
+  [Livro de Baptismos, Nova Friburgo, p.160, 1828; Vigário Jacob Joye.] "Aos treze dias de outubro
+  de mil oito centos vinte oito baptizei no termo d'esta freguezia e pus os S. Oleos a Vicente
+  nascido a seis de Setembro filho legitimo de Lourenço Bhorer e da sua mulher Anna Maria Verly
+  [Wehrli] naturaes do cantão de Soleure. Forão padrinhos Vicente Jacond [uncertain] e Catharina
+  Eggendorn e para constar fiz este assento... O Vigario Jacob Joye."
+abstract: >-
+  Parish baptism of Vicente Borer (P-0070), born 6 September 1828, baptised 13 October 1828 at Nova
+  Friburgo, legitimate son of Laurent (Lourenço) Borer (P-0068) × Anna Maria Wehrli (P-0069).
+  Confirms his birth event E-0062 (upgrade to confirmed). Godmother Catharina Eggendorn.
+abstract_pt: >-
+  Batismo paroquial de Vicente Borer (P-0070), nascido em 6 de setembro de 1828, batizado em 13 de
+  outubro de 1828 em Nova Friburgo, filho legítimo de Laurent (Lourenço) Borer (P-0068) × Anna Maria
+  Wehrli (P-0069). Confirma seu evento de nascimento E-0062 (elevado a confirmado). Madrinha
+  Catharina Eggendorn.
+reliability:
+  assessment: Primary parish baptism entry — direct primary for Vicente's birth, baptism and parentage.
+  informant: The officiating vicar (Jacob Joye).
+  limitations: Delivered via the Fundação D. João VI digitisation (C-009); godfather surname [uncertain].
+digital_file:
+  path: evidence/parish/PAR-0061-bohrer-vicente-baptism-1828-novafriburgo.jpg
+  sha256: 23f72c150f1e4e1b0405ef29f7729c6d4e67a0cd304be1cd4a5a3d934e430e1a
+linked_people:
+- P-0070
+- P-0068
+- P-0069
+linked_families:
+- F-0033
+linked_events:
+- E-0062
+linked_places: []
+private: false
+notes:
+- text: Confirms Vicente Borer's birth (E-0062, 6 Sep 1828) and his parentage (P-0068 × P-0069, F-0033), upgrading to primary.

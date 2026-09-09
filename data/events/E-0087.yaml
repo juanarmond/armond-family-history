@@ -1,0 +1,20 @@
+schema_version: 1
+id: E-0087
+event_type: marriage
+date:
+  kind: exact
+  value: "1825-08-08"
+place_text: Matriz de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0050
+  role: spouse
+- person_id: P-0051
+  role: spouse
+status: confirmed
+source_ids:
+- PAR-0059
+notes:
+- text: >-
+    Marriage of Jacob Bohrer (P-0050, legitimate son of João Bohrer × Barbara Probst of Erschwil)
+    and Catharina Moser (P-0051, daughter of José Moser × Maria Weiss of Hägendorf), 8 August 1825
+    at Nova Friburgo (PAR-0059).

@@ -1,0 +1,66 @@
+schema_version: 1
+id: PAR-0063
+title: 1868 baptism of Valentim Martinho Bohrer at Nova Friburgo — son of Vicente Bohrer and Maria Eggendorn
+title_pt: Batismo de 1868 de Valentim Martinho Bohrer em Nova Friburgo — filho de Vicente Bohrer e Maria Eggendorn
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+reading_reliability: partial
+event_date:
+  kind: exact
+  value: "1868-09-14"
+  original_text: >-
+    Born 14 [September — uncertain, faded] 1868, baptised ~25 September 1868. The page is heavily
+    rubbed; the birth month is [uncertain] but is constrained to before the ~25 Sep baptism.
+event_place_text: Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Matriz de São João Baptista, Nova Friburgo (Livro de Baptismos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Baptismos, ~página 174 (1868)
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-09"
+language: pt-BR
+transcription: >-
+  [Livro de Baptismos, Nova Friburgo, ~p.174, 1868; Vigário João José Viviand. Heavily faded.] "A[os]
+  vinte e cinco de Setembro [uncertain] de mil oito centos e sessenta e oito baptizei a Valentim
+  Martinho, nascido a quatorze de [Setembro — uncertain], filho legitimo de Vicente Bohrer, e de Maria
+  [Eugenia? — uncertain] Eggendorn; forão padrinhos Valentim Freize [uncertain] e Anna Maria Bohrer."
+abstract: >-
+  Parish baptism of Valentim Martinho Bohrer (P-0028) — João Gonçalves Bohrer's father (Iris Bohrer
+  Muniz's paternal grandfather-line) — in 1868, legitimate son of Vicente Bohrer (P-0070) × Maria
+  (Thecla) Eggendorn (P-0071). CORRECTS his birth event E-0064 from "1868-11-14" (impossible after a
+  September baptism) to 14 Sep 1868. The page is faded; the birth month is [uncertain] but the 1868
+  year is firmly corroborated by his 1890 marriage (age 22) and 1948 death (age 80).
+abstract_pt: >-
+  Batismo paroquial de Valentim Martinho Bohrer (P-0028) — pai de João Gonçalves Bohrer (linha do avô
+  paterno de Iris) — em 1868, filho legítimo de Vicente Bohrer (P-0070) × Maria (Thecla) Eggendorn
+  (P-0071). CORRIGE seu evento de nascimento E-0064 de "1868-11-14" (impossível após um batismo de
+  setembro) para 14 de setembro de 1868. A página está esmaecida; o mês de nascimento é [incerto], mas
+  o ano de 1868 é firmemente corroborado por seu casamento de 1890 (22 anos) e óbito de 1948 (80 anos).
+reliability:
+  assessment: >-
+    Primary parish baptism entry; core facts (Valentim Martinho, son of Vicente Bohrer × Maria
+    Eggendorn, 1868) legible, but the exact birth/baptism days and the mother's given name are faded.
+  informant: The officiating vicar (João José Viviand).
+  limitations: >-
+    Heavily rubbed page (djoaovi digitisation, C-009); birth-month, baptism-day and the mother's
+    middle name [uncertain]. reading_reliability: partial (the exact birth date could not be read
+    with certainty).
+digital_file:
+  path: evidence/parish/PAR-0063-bohrer-valentim-baptism-1868-novafriburgo.jpg
+  sha256: 621fdf4f84eadffd71ba771d07967eaf9e5d43c8122d789febaec5f48ee1ee65
+linked_people:
+- P-0028
+- P-0070
+- P-0071
+linked_families:
+- F-0034
+linked_events:
+- E-0064
+linked_places: []
+private: false
+notes:
+- text: Corrects Valentim Martinho Bohrer's birth (E-0064) to ~14 Sep 1868 and confirms his parents Vicente Borer × Maria Thecla Eggendorn (F-0034).

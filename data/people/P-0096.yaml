@@ -1,0 +1,20 @@
+schema_version: 1
+id: P-0096
+preferred_name: João Borer
+privacy: deceased
+sex: male
+nationality: Swiss
+name_variants:
+- value: João Borer
+  type: source
+  source_ids:
+  - PAR-0059
+event_ids: []
+family_ids:
+- F-0047
+notes:
+- text: >-
+    Father of the Nova Friburgo immigrant Jacob Bohrer (P-0050); named with his wife Barbara
+    Probst as parents "naturaes e baptizado na freguezia de Erswill [Erschwil], Cantão de Soleure
+    [Solothurn]" in Jacob's 1825 Nova Friburgo marriage (PAR-0059). Swiss; presumably remained in
+    Switzerland. Modelled per the stated-ancestor rule; no further record held.

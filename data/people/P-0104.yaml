@@ -1,0 +1,19 @@
+schema_version: 1
+id: P-0104
+preferred_name: Maria Luiza Schenkel
+privacy: deceased
+sex: female
+name_variants:
+- value: Maria Luiza Schenkel
+  type: source
+  source_ids:
+  - PAR-0064
+event_ids: []
+family_ids:
+- F-0051
+notes:
+- text: >-
+    Mother of Carolina Klein (P-0029); named with her husband Jacob Klein in Valentim × Carolina's
+    1890 marriage (PAR-0064). She is the daughter of Conrad (Georg Conrad) Schenkel × Maria Luiza
+    Stoffel per her own 1872 Lutheran marriage (catalogued in a later wave). Protestant family.
+    Nationality left unset pending her origin.

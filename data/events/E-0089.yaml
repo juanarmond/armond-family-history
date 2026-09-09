@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0089
+event_type: death
+date:
+  kind: exact
+  value: "1948-09-23"
+place_text: Nova Friburgo, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0028
+  role: principal
+status: confirmed
+source_ids:
+- PAR-0065
+notes:
+- text: >-
+    Death/burial of Valentim Martinho Bohrer (P-0028) on 23 September 1948 at Nova Friburgo, aged
+    80 (→ b. ~1868), husband of Carolina Klein; died of heart failure (PAR-0065). Excludes the
+    FamilySearch-tree "1893" namesake.

@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T16:17:54Z",
+ "generated": "2026-09-09T19:22:02Z",
  "updates": [
   {
    "date": "2026-09-09",
@@ -29,6 +29,56 @@
    "primary": "PAR-0053",
    "links": [
     "P-0028"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1832 baptism of Francisco José Bohrer at São João Baptista, Nova Friburgo — legitimate son of Jacob Bohrer and Catharina Moser",
+   "title_pt": "Batismo de 1832 de Francisco José Bohrer em São João Baptista, Nova Friburgo — filho legítimo de Jacob Bohrer e Catharina Moser",
+   "primary": "PAR-0054",
+   "links": [
+    "P-0034"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1888 death of Francisco José Bohrer at Nova Friburgo — widower's counterpart, husband of Roza Eugenia de Lemos",
+   "title_pt": "Óbito de 1888 de Francisco José Bohrer em Nova Friburgo — marido de Roza Eugenia de Lemos",
+   "primary": "PAR-0055",
+   "links": [
+    "P-0034"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1884 marriage of Joaquim José Bohrer and Lucinda Roschemant da Silva Ferreira at Nova Friburgo — names both parent couples",
+   "title_pt": "Casamento de 1884 de Joaquim José Bohrer e Lucinda Roschemant da Silva Ferreira em Nova Friburgo — nomeia ambos os casais de pais",
+   "primary": "PAR-0056",
+   "links": [
+    "P-0030"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1899 baptism of Celina Bohrer at Nova Friburgo — legitimate daughter of Joaquim José Bohrer and Lucinda Ferreira (Iris Bohrer Muniz's mother)",
+   "title_pt": "Batismo de 1899 de Celina Bohrer em Nova Friburgo — filha legítima de Joaquim José Bohrer e Lucinda Ferreira (mãe de Iris Bohrer Muniz)",
+   "primary": "PAR-0057",
+   "links": [
+    "P-0015"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1919 death of Roza Eugenia de Lemos Bohrer at Nova Friburgo — widow of Francisco José Bohrer, of Itaboraí",
+   "title_pt": "Óbito de 1919 de Roza Eugenia de Lemos Bohrer em Nova Friburgo — viúva de Francisco José Bohrer, natural de Itaboraí",
+   "primary": "PAR-0058",
+   "links": [
+    "P-0035"
    ]
   },
   {
@@ -564,51 +614,71 @@
   {
    "date": "",
    "kind": "document",
-   "title": "1832 baptism of Francisco José Bohrer at São João Baptista, Nova Friburgo — legitimate son of Jacob Bohrer and Catharina Moser",
-   "title_pt": "Batismo de 1832 de Francisco José Bohrer em São João Baptista, Nova Friburgo — filho legítimo de Jacob Bohrer e Catharina Moser",
-   "primary": "PAR-0054",
+   "title": "1825 marriage of Jacob Bohrer and Catharina Moser at Nova Friburgo — Swiss colonists of Erschwil and Hägendorf, Canton Solothurn",
+   "title_pt": "Casamento de 1825 de Jacob Bohrer e Catharina Moser em Nova Friburgo — colonos suíços de Erschwil e Hägendorf, Cantão de Soleure",
+   "primary": "PAR-0059",
    "links": [
-    "P-0034"
+    "P-0050"
    ]
   },
   {
    "date": "",
    "kind": "document",
-   "title": "1888 death of Francisco José Bohrer at Nova Friburgo — widower's counterpart, husband of Roza Eugenia de Lemos",
-   "title_pt": "Óbito de 1888 de Francisco José Bohrer em Nova Friburgo — marido de Roza Eugenia de Lemos",
-   "primary": "PAR-0055",
+   "title": "1820 marriage of Laurent Borer and Anna Maria Wehrli at Nova Friburgo — both of Grindel, Canton Solothurn",
+   "title_pt": "Casamento de 1820 de Laurent Borer e Anna Maria Wehrli em Nova Friburgo — ambos de Grindel, Cantão de Soleure",
+   "primary": "PAR-0060",
    "links": [
-    "P-0034"
+    "P-0068"
    ]
   },
   {
    "date": "",
    "kind": "document",
-   "title": "1884 marriage of Joaquim José Bohrer and Lucinda Roschemant da Silva Ferreira at Nova Friburgo — names both parent couples",
-   "title_pt": "Casamento de 1884 de Joaquim José Bohrer e Lucinda Roschemant da Silva Ferreira em Nova Friburgo — nomeia ambos os casais de pais",
-   "primary": "PAR-0056",
+   "title": "1828 baptism of Vicente Borer at Nova Friburgo — son of Laurent Borer and Anna Maria Wehrli",
+   "title_pt": "Batismo de 1828 de Vicente Borer em Nova Friburgo — filho de Laurent Borer e Anna Maria Wehrli",
+   "primary": "PAR-0061",
    "links": [
-    "P-0030"
+    "P-0070"
    ]
   },
   {
    "date": "",
    "kind": "document",
-   "title": "1899 baptism of Celina Bohrer at Nova Friburgo — legitimate daughter of Joaquim José Bohrer and Lucinda Ferreira (Iris Bohrer Muniz's mother)",
-   "title_pt": "Batismo de 1899 de Celina Bohrer em Nova Friburgo — filha legítima de Joaquim José Bohrer e Lucinda Ferreira (mãe de Iris Bohrer Muniz)",
-   "primary": "PAR-0057",
+   "title": "1864 marriage of Vicente Borer and Maria (Thecla) Eggendorn at Nova Friburgo — names Maria's parents José Eggendorn and Maria Freese",
+   "title_pt": "Casamento de 1864 de Vicente Borer e Maria (Thecla) Eggendorn em Nova Friburgo — nomeia os pais de Maria, José Eggendorn e Maria Freese",
+   "primary": "PAR-0062",
    "links": [
-    "P-0015"
+    "P-0070"
    ]
   },
   {
    "date": "",
    "kind": "document",
-   "title": "1919 death of Roza Eugenia de Lemos Bohrer at Nova Friburgo — widow of Francisco José Bohrer, of Itaboraí",
-   "title_pt": "Óbito de 1919 de Roza Eugenia de Lemos Bohrer em Nova Friburgo — viúva de Francisco José Bohrer, natural de Itaboraí",
-   "primary": "PAR-0058",
+   "title": "1868 baptism of Valentim Martinho Bohrer at Nova Friburgo — son of Vicente Bohrer and Maria Eggendorn",
+   "title_pt": "Batismo de 1868 de Valentim Martinho Bohrer em Nova Friburgo — filho de Vicente Bohrer e Maria Eggendorn",
+   "primary": "PAR-0063",
    "links": [
-    "P-0035"
+    "P-0028"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "1890 marriage of Valentim Martinho Bohrer and Carolina Klein at Nova Friburgo — names Carolina's parents Jacob Klein and Maria Luiza Schenkel",
+   "title_pt": "Casamento de 1890 de Valentim Martinho Bohrer e Carolina Klein em Nova Friburgo — nomeia os pais de Carolina, Jacob Klein e Maria Luiza Schenkel",
+   "primary": "PAR-0064",
+   "links": [
+    "P-0028"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "1948 death of Valentim Martins Bohrer at Nova Friburgo — husband of Carolina (Klein) Bohrer",
+   "title_pt": "Óbito de 1948 de Valentim Martins Bohrer em Nova Friburgo — marido de Carolina (Klein) Bohrer",
+   "primary": "PAR-0065",
+   "links": [
+    "P-0028"
    ]
   },
   {

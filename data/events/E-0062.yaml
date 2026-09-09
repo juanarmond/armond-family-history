@@ -12,7 +12,15 @@ place_text: >-
 participants:
 - person_id: P-0070
   role: principal
-status: strong-evidence
+- person_id: P-0068
+  role: parent
+- person_id: P-0069
+  role: parent
+status: confirmed
 source_ids:
+- PAR-0061
 - PUB-0003
-notes: []
+notes:
+- text: >-
+    Confirmed by Vicente's own 1828 Nova Friburgo baptism (PAR-0061): born 6 Sep 1828, baptised
+    13 Oct 1828, legitimate son of Laurent (Lourenço) Borer × Anna Maria Wehrli.

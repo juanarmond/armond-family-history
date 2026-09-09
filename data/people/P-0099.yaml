@@ -1,0 +1,23 @@
+schema_version: 1
+id: P-0099
+preferred_name: Maria Weiss
+privacy: deceased
+sex: female
+nationality: Swiss
+name_variants:
+- value: Maria Veisse
+  type: source
+  source_ids:
+  - PAR-0059
+- value: Maria Weiss
+  type: other
+  source_ids:
+  - PAR-0059
+event_ids: []
+family_ids:
+- F-0048
+notes:
+- text: >-
+    Mother of Catharina Moser (P-0051); named "Maria Veisse" (Weiss) with her husband José Moser,
+    of Hägendorf ("Eggendorf" [uncertain]), Cantão de Soleure, in the 1825 marriage (PAR-0059).
+    Swiss. Modelled per the stated-ancestor rule.

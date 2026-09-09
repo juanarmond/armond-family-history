@@ -1,0 +1,34 @@
+schema_version: 1
+id: F-0048
+partners:
+- person_id: P-0098
+  role: spouse
+- person_id: P-0099
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0059
+  notes:
+  - text: >-
+      José Moser × Maria Weiss ("Veisse"), of Hägendorf ("Eggendorf" [uncertain]), Cantão de
+      Soleure — parents of Catharina Moser (P-0051), named in her 1825 marriage to Jacob Bohrer
+      (PAR-0059). No marriage act of their own is held.
+children:
+- person_id: P-0051
+  parent_relationships:
+  - parent_id: P-0098
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0059
+    notes: []
+  - parent_id: P-0099
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0059
+    notes: []
+  notes: []
+event_ids: []
+notes: []

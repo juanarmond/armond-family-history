@@ -1,0 +1,80 @@
+schema_version: 1
+id: PAR-0059
+title: >-
+  1825 marriage of Jacob Bohrer and Catharina Moser at Nova Friburgo — Swiss
+  colonists of Erschwil and Hägendorf, Canton Solothurn
+title_pt: >-
+  Casamento de 1825 de Jacob Bohrer e Catharina Moser em Nova Friburgo — colonos
+  suíços de Erschwil e Hägendorf, Cantão de Soleure
+record_type: Parish marriage register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1825-08-08"
+event_place_text: >-
+  Matriz de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Matriz de São João Baptista, Nova Friburgo (Livro de Casamentos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Casamentos, página 50 (1825)
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-09"
+language: pt-BR
+transcription: >-
+  [Livro de Casamentos, Nova Friburgo, p.50, 1825; Vigário Jacob Joye.] "Aos oito dias do mes de
+  Agosto do anno de mil oito cent[os] e vinte e cinco... receberam-se em face de Igreja n'esta
+  Matriz solemnemente por palavras, Jacob Bohrer filho legitimo de João Bohrer e da sua mulher
+  Barbara Probst naturaes e baptizado na freg.a de Erswill [Erschwil], com Catharina Moser filha
+  legitima de Jose Moser e de sua mulher Maria Veisse [Weiss], natural e baptizada na freguezia
+  d'Eggendorf [Hägendorf — uncertain], ambos do Cantão de Soleure [Solothurn], colonos suiços e
+  moradores n'esta freg.a... O Vigario Jacob Joye." [Testemunhas: João Probst; Isabel Sch[oser —
+  uncertain]. Padre coadjutor presente: Rodrigo de Souza Sabia.]
+abstract: >-
+  Parish marriage of Jacob Bohrer (P-0050) and Catharina Moser (P-0051) — Iris Bohrer Muniz's
+  Swiss-immigrant 4×-great-grandparents on the Bohrer maternal line — on 8 August 1825 at Nova
+  Friburgo. NAMES BOTH DEEPER-GENERATION COUPLES: Jacob is a legitimate son of João Bohrer ×
+  Barbara Probst of Erschwil (Erswill), and Catharina of José Moser × Maria Weiss (Veisse) of
+  Hägendorf — all of Canton Solothurn. Source for the marriage event E-0087; adds the parent
+  families F-0047 (Jacob's parents, new) and F-0048 (Catharina's parents, new).
+abstract_pt: >-
+  Casamento paroquial de Jacob Bohrer (P-0050) e Catharina Moser (P-0051) — tetravós imigrantes
+  suíços de Iris Bohrer Muniz na linha materna Bohrer — em 8 de agosto de 1825, em Nova Friburgo.
+  NOMEIA OS DOIS CASAIS DA GERAÇÃO MAIS PROFUNDA: Jacob é filho legítimo de João Bohrer × Barbara
+  Probst, de Erschwil, e Catharina de José Moser × Maria Weiss (Veisse), de Hägendorf — todos do
+  Cantão de Soleure. Fonte do evento de casamento E-0087; adiciona as famílias de pais F-0047 e
+  F-0048 (novas).
+reliability:
+  assessment: >-
+    Primary parish marriage entry — direct primary for the marriage and, as declared by the
+    spouses, for both filiations and their Swiss parish origins.
+  informant: The contracting parties before the vicar Jacob Joye.
+  limitations: >-
+    Delivered via the Fundação D. João VI digitisation (C-009). Bride's baptism-parish "Eggendorf"
+    (likely Hägendorf) and one witness surname are [uncertain]. This Jacob (of Erschwil) is
+    distinct from Laurent Borer's father Jacob Borer of Grindel (P-0100) — separate Borer families.
+digital_file:
+  path: evidence/parish/PAR-0059-bohrer-jacob-moser-marriage-1825-novafriburgo.jpg
+  sha256: 051957c3af9d9ca5159d80e9e6c2c32de981df40d45b0e1b17f7c6a7c5d487a3
+linked_people:
+- P-0050
+- P-0051
+- P-0096
+- P-0097
+- P-0098
+- P-0099
+linked_families:
+- F-0024
+- F-0047
+- F-0048
+linked_events:
+- E-0087
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the marriage event E-0087 (Jacob Bohrer × Catharina Moser, 1825). Establishes the
+    parent couples João Bohrer × Barbara Probst (F-0047) and José Moser × Maria Weiss (F-0048).

@@ -10,9 +10,11 @@ name_variants:
   source_ids:
   - CIV-0014
   - CIV-0016
-event_ids: []
+event_ids:
+- E-0088
 family_ids:
 - F-0013
+- F-0051
 occupations:
 - value: doméstica
   source_ids:

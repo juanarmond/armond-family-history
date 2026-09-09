@@ -14,10 +14,15 @@ participants:
   role: spouse
 - person_id: P-0071
   role: spouse
-status: strong-evidence
+status: confirmed
 source_ids:
+- PAR-0062
 - PUB-0003
 notes:
 - text: >-
+    Confirmed by the primary 1864 Nova Friburgo parish marriage act (PAR-0062): Vicente Bohrer, 35,
+    son of Laurent × Anna Maria; Maria (Thecla) Eggendorn, 20, daughter of José Eggendorn × Maria
+    Freese (F-0050).
+- text: >-
     First child José Domingos was born 19/03/1864, approximately 3 weeks before this
-    civil marriage on 11/04/1864.
+    marriage on 11/04/1864.

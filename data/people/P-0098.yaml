@@ -1,0 +1,20 @@
+schema_version: 1
+id: P-0098
+preferred_name: José Moser
+privacy: deceased
+sex: male
+nationality: Swiss
+name_variants:
+- value: Jose Moser
+  type: source
+  source_ids:
+  - PAR-0059
+event_ids: []
+family_ids:
+- F-0048
+notes:
+- text: >-
+    Father of Catharina Moser (P-0051, wife of the immigrant Jacob Bohrer); named with his wife
+    Maria Weiss as parents of Catharina, "natural e baptizada na freguezia d'Eggendorf [Hägendorf,
+    uncertain], Cantão de Soleure", in the 1825 marriage (PAR-0059). Swiss. Modelled per the
+    stated-ancestor rule.

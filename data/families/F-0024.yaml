@@ -6,16 +6,17 @@ partners:
 - person_id: P-0051
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
+  - PAR-0059
   - PRB-0005
   notes:
   - text: >-
-      Jacob Bahrer and Catharina Mayer are named as the married parents of their
-      "filho legitimo" Francisco José in his own 1888 will (PRB-0005); the
-      legitimate-son declaration attests their marriage, though no marriage record
-      is catalogued (a secondary compilation gives an 1825 Nova Friburgo marriage —
-      a lead only).
+      Jacob Bohrer × Catharina Moser: their 1825 Nova Friburgo parish marriage act is now held
+      (PAR-0059), naming both as Swiss colonists of Erschwil / Hägendorf (Cantão de Soleure) and
+      giving their own parents (F-0047, F-0048) — upgrading the union from the earlier
+      will-inferred strong-evidence (PRB-0005) to confirmed. (The 1888 will spells the mother
+      "Mayer"; the 1825 marriage and Francisco José's 1832 baptism, PAR-0054, both give "Moser".)
 children:
 - person_id: P-0034
   parent_relationships:
@@ -23,16 +24,21 @@ children:
     relationship_type: biological
     status: confirmed
     source_ids:
+    - PAR-0054
+    - PAR-0059
     - PRB-0005
     notes: []
   - parent_id: P-0051
     relationship_type: biological
     status: confirmed
     source_ids:
+    - PAR-0054
+    - PAR-0059
     - PRB-0005
     notes: []
   notes: []
-event_ids: []
+event_ids:
+- E-0087
 notes:
 - text: >-
     Parents of Francisco José Bohrer (P-0034), established by his own 1888 will

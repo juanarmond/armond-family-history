@@ -1,0 +1,19 @@
+schema_version: 1
+id: P-0097
+preferred_name: Barbara Probst
+privacy: deceased
+sex: female
+nationality: Swiss
+name_variants:
+- value: Barbara Probst
+  type: source
+  source_ids:
+  - PAR-0059
+event_ids: []
+family_ids:
+- F-0047
+notes:
+- text: >-
+    Mother of the Nova Friburgo immigrant Jacob Bohrer (P-0050); named with her husband João
+    Borer, of Erschwil, Cantão de Soleure (Solothurn), in Jacob's 1825 marriage (PAR-0059). Swiss;
+    presumably remained in Switzerland. Modelled per the stated-ancestor rule.

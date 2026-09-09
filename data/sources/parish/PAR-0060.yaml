@@ -1,0 +1,74 @@
+schema_version: 1
+id: PAR-0060
+title: >-
+  1820 marriage of Laurent Borer and Anna Maria Wehrli at Nova Friburgo — both of
+  Grindel, Canton Solothurn
+title_pt: >-
+  Casamento de 1820 de Laurent Borer e Anna Maria Wehrli em Nova Friburgo — ambos
+  de Grindel, Cantão de Soleure
+record_type: Parish marriage register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1820-07-03"
+event_place_text: São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Matriz de São João Baptista, Nova Friburgo (Livro de Casamentos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Casamentos, página 66, nº 38 (1820)
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-09"
+language: pt-BR
+transcription: >-
+  [Livro de Casamentos, Nova Friburgo, p.66, nº 38, 1820; Vigário J. Joye.] "Aos tres dias do mes
+  de julho do anno de mil oito centos e vinte... se casarão solemnemente á face do Igreja em a
+  freguesia de S. João Batista da Villa da Nova Friburgo... Laurenço filho de Jacobo Borer natural
+  de Grindel no cantão de Soleure e Anna e Maria filha de João Jacobo Verly [Wehrli] natural do
+  mesmo lugar. Sendo presentes as testemunhas Francisco Berla [uncertain] e Laurenço Frotté colonos
+  suiços. J. Joye Vigario da Nova Friburgo." [Same page, nº 37: Anna Maria's sister Salomea Verly
+  married Luiz Nicolão Vilette, with Lourenço Borer as witness.]
+abstract: >-
+  Parish marriage of Laurent (Lourenço) Borer (P-0068) and Anna Maria Wehrli (Verly) (P-0069) —
+  Iris Bohrer Muniz's Swiss-immigrant apex on the Borer paternal line — on 3 July 1820 at Nova
+  Friburgo. A primary record upgrading the marriage event E-0061 (was hypothesis, PUB-0003) to
+  confirmed. Names Laurent's father Jacob Borer of Grindel (P-0100, new — mother unnamed) and Anna
+  Maria's father João Jacobo Verly = Johann Jacob Wehrli (P-0072, already modelled). Both "de
+  Grindel, Cantão de Soleure".
+abstract_pt: >-
+  Casamento paroquial de Laurent (Lourenço) Borer (P-0068) e Anna Maria Wehrli (Verly) (P-0069) —
+  ápice imigrante suíço de Iris Bohrer Muniz na linha paterna Borer — em 3 de julho de 1820, em
+  Nova Friburgo. Registro primário que eleva o evento de casamento E-0061 (antes hipótese,
+  PUB-0003) para confirmado. Nomeia o pai de Laurent, Jacob Borer de Grindel (P-0100, novo — mãe
+  não nomeada), e o pai de Anna Maria, João Jacobo Verly = Johann Jacob Wehrli (P-0072, já
+  modelado). Ambos "de Grindel, Cantão de Soleure".
+reliability:
+  assessment: Primary parish marriage entry — direct primary for the marriage and the spouses' fathers/origins.
+  informant: The contracting parties before the vicar J. Joye.
+  limitations: >-
+    Delivered via the Fundação D. João VI digitisation (C-009). One witness surname [uncertain].
+    Laurent's father Jacob Borer of Grindel (P-0100) is distinct from Jacob Bohrer of Erschwil (P-0050).
+digital_file:
+  path: evidence/parish/PAR-0060-bohrer-laurent-wehrli-marriage-1820-novafriburgo.jpg
+  sha256: 1fcddf1dffc473747f65ecf279fbf7512ed752d1574b038a1143046463c8c35f
+linked_people:
+- P-0068
+- P-0069
+- P-0100
+- P-0072
+linked_families:
+- F-0033
+- F-0049
+- F-0035
+linked_events:
+- E-0061
+linked_places: []
+private: false
+notes:
+- text: >-
+    Upgrades the marriage event E-0061 (Laurent × Anna Maria, 1820) to confirmed. Establishes
+    Laurent's father Jacob Borer of Grindel (P-0100 / F-0049) and confirms Anna Maria's father
+    Johann Jacob Wehrli (P-0072).

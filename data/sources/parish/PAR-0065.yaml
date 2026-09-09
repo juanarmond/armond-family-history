@@ -1,0 +1,56 @@
+schema_version: 1
+id: PAR-0065
+title: 1948 death of Valentim Martins Bohrer at Nova Friburgo — husband of Carolina (Klein) Bohrer
+title_pt: Óbito de 1948 de Valentim Martins Bohrer em Nova Friburgo — marido de Carolina (Klein) Bohrer
+record_type: Parish burial/death register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1948-09-23"
+event_place_text: Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Matriz de São João Baptista, Nova Friburgo (Livro de Óbitos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Óbitos, fólio 152, nº 162 (1948)
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-09"
+language: pt-BR
+transcription: >-
+  [Livro de Óbitos, Nova Friburgo, fólio 152, nº 162, 1948.] "Aos vinte e tres dias do mes de
+  Setembro de mil novecentos e quarenta e oito na Igreja Matriz o R.do Coadjutor S. Caetano Trielli
+  encommendou e depois foi sepultado no cemiterio publico o cadaver de Valentim Martins Bohrer de
+  oitenta annos, casado com Carolina Bohrer, faleceu do coração. Para constar mandei fazer este
+  assento e o assino. O [Vigario — signature illegible]."
+abstract: >-
+  Parish death/burial of Valentim Martins [Martinho] Bohrer (P-0028), commended and buried 23
+  September 1948 at Nova Friburgo, aged 80 (→ b. ~1868, matching PAR-0063/PAR-0064), husband of
+  Carolina (Klein) Bohrer (P-0029); died of heart failure. Source for his death event E-0089. This
+  1948 death is the true one; the earlier FamilySearch-tree "d. 1893" is a namesake, excluded.
+abstract_pt: >-
+  Óbito/sepultamento paroquial de Valentim Martins [Martinho] Bohrer (P-0028), encomendado e
+  sepultado em 23 de setembro de 1948, em Nova Friburgo, aos 80 anos (→ n. ~1868, coincidindo com
+  PAR-0063/PAR-0064), marido de Carolina (Klein) Bohrer (P-0029); faleceu do coração. Fonte de seu
+  evento de óbito E-0089. Este óbito de 1948 é o verdadeiro; o "d. 1893" da árvore do FamilySearch é
+  um homônimo, excluído.
+reliability:
+  assessment: Primary parish death entry — direct primary for the death, age and spouse.
+  informant: The officiating clergy (Coadjutor S. Caetano Trielli).
+  limitations: Delivered via the Fundação D. João VI digitisation (C-009); closing vicar signature illegible. Middle name written "Martins" (vs "Martinho").
+digital_file:
+  path: evidence/parish/PAR-0065-bohrer-valentim-death-1948-novafriburgo.jpg
+  sha256: 02fc952884a752e2770dc579bbdf4d14b0d5cbd7e11c2f6a8ff36bd13f719da8
+linked_people:
+- P-0028
+- P-0029
+linked_families:
+- F-0013
+linked_events:
+- E-0089
+linked_places: []
+private: false
+notes:
+- text: Source for the death event E-0089 (Valentim Martinho Bohrer, 23 Sep 1948, aged 80). Excludes the "1893" FS-tree namesake.

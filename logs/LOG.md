@@ -5,6 +5,23 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-09-09 — Bohrer djoaovi haul, wave 2: Iris's paternal Borer chain + 9 deep Swiss ancestors
+
+- Seven primary Nova Friburgo parish records (PAR-0059–PAR-0065) for the Laurent Borer → Vicente
+  → Valentim Martinho chain (Iris's father João Gonçalves's line) + the Jacob Bohrer × Catharina
+  Moser 1825 marriage, all upgraded from PUB-0003 strong-evidence to primary. New events E-0087
+  (Jacob×Moser marriage), E-0088 (Valentim×Carolina marriage), E-0089 (Valentim death 1948);
+  E-0061/E-0062/E-0063 upgraded to confirmed; **E-0064 (Valentim's birth) corrected from the
+  impossible 14 Nov to ~14 Sep 1868**.
+- Modelled 9 new deeper Swiss ancestors (P-0096–P-0104) with parentage families F-0047–F-0051:
+  João Bohrer × Barbara Probst (Erschwil), José Moser × Maria Weiss (Hägendorf), Jacob Borer of
+  Grindel (Laurent's father, kept distinct from the Erschwil Jacob), José Eggendorn × Maria Freese
+  (Maria Thecla's parents), Jacob Klein × Maria Luiza Schenkel (Carolina's parents). Full event +
+  family reciprocity added, incl. the parent-participant links. F-0024/F-0033/F-0034 upgraded.
+- ancestor-gap audit 9 → 7 (Laurent Borer + Maria Thecla now have parentage). make check green;
+  index 389 entities; feed 70; GEDCOM 4917 lines. Waves 3 (Klein/Schenkel/Stoffel + Rutschmann)
+  and 4 (Eggendorn-Frees 1829, Maria Thecla baptism, collateral, arrival ledgers) queued.
+
 ## 2026-09-09 — MAJOR Bohrer djoaovi haul, wave 1: Iris's direct maternal branch (Francisco José → Joaquim → Celina)
 
 - Context: the 2026-09-09 handoff's corrected header flagged ~30 djoaovi Nova Friburgo Bohrer

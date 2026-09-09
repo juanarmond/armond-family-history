@@ -11,11 +11,12 @@ participants:
   role: spouse
 - person_id: P-0069
   role: spouse
-status: hypothesis
+status: confirmed
 source_ids:
+- PAR-0060
 - PUB-0003
 notes:
 - text: >-
-    Tier downgraded strong-evidence → hypothesis on 2026-08-13 (confidence-tier
-    audit): sole source PUB-0003 (published genealogy) — a lone secondary
-    source, below the strong-evidence bar.
+    Confirmed by the primary 1820 Nova Friburgo parish marriage act (PAR-0060), which names
+    Laurent's father Jacob Borer of Grindel (P-0100) and Anna Maria's father Johann Jacob Wehrli
+    (P-0072), both of Grindel, Cantão de Soleure — superseding the earlier PUB-0003-only tier.

@@ -1,0 +1,25 @@
+schema_version: 1
+id: P-0102
+preferred_name: Maria Freese
+privacy: deceased
+sex: female
+nationality: Swiss
+name_variants:
+- value: Maria Freese
+  type: source
+  source_ids:
+  - PAR-0062
+- value: Anna Maria Frees
+  type: source
+  source_ids:
+  - PAR-0062
+event_ids: []
+family_ids:
+- F-0050
+notes:
+- text: >-
+    Mother of Maria Thecla Regina Heggendorn (P-0071); named "Maria Freese" (with José Eggendorn)
+    in the 1864 marriage (PAR-0062). She is the bride "Anna Maria Frees, filha legitima de Jacob
+    Frees" in the 1829 Nova Friburgo marriage to José Eggendorn — her father Jacob Frees is named
+    there (to be catalogued in a later wave). Swiss (Frees/Freese). Modelled per the stated-ancestor
+    rule.

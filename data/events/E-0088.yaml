@@ -1,0 +1,21 @@
+schema_version: 1
+id: E-0088
+event_type: marriage
+date:
+  kind: exact
+  value: "1890-11-27"
+place_text: Matriz de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0028
+  role: spouse
+- person_id: P-0029
+  role: spouse
+status: confirmed
+source_ids:
+- PAR-0064
+notes:
+- text: >-
+    Marriage of Valentim Martinho Bohrer (P-0028), 22, and Carolina Klein (P-0029), 17, on 27
+    November 1890 at the Nova Friburgo Matriz (PAR-0064). Names Carolina's parents Jacob Klein ×
+    Maria Luiza Schenkel (F-0051). The bride abjured Protestantism and was baptised Catholic before
+    the ceremony.

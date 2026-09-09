@@ -1,0 +1,73 @@
+schema_version: 1
+id: PAR-0064
+title: >-
+  1890 marriage of Valentim Martinho Bohrer and Carolina Klein at Nova Friburgo —
+  names Carolina's parents Jacob Klein and Maria Luiza Schenkel
+title_pt: >-
+  Casamento de 1890 de Valentim Martinho Bohrer e Carolina Klein em Nova Friburgo —
+  nomeia os pais de Carolina, Jacob Klein e Maria Luiza Schenkel
+record_type: Parish marriage register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1890-11-27"
+event_place_text: Matriz de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Matriz de São João Baptista, Nova Friburgo (Livro de Casamentos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Casamentos, página 79, nº 333 (1890)
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-09"
+language: pt-BR
+transcription: >-
+  [Livro de Casamentos, Nova Friburgo, p.79, nº 333, 1890; Cónego José Silvestre Alves de Miranda.]
+  "Aos vinte sete dias do mes de Novembro de mil oito centos e noventa, ás onze horas e meia do dia,
+  na Egreja Matriz, depois de canonicamente habilitados, tendo antes a nubente abjurado o
+  protestantismo, fazendo a profissão de fé catholica e recebido o baptismo... se receberão em
+  matrimonio: Valentim Martinho Bor[b]er e Carolina Klein, ambos nascidos, baptizados e moradores
+  n'esta freguesia de Nova Friburgo; elle de vinte dois annos de edade e filho legitimo de Vicente
+  Bor[b]er e Maria Regina Eckdorn [Eggendorn]; ella de desesete annos de edade, licenciada
+  verbalmente por seu pae, e filha legitima de Jacob Klein e Maria Luiza Schenkel. Testemunhas: Jose
+  Domingos Bor[b]er [uncertain], Ernesto Piller. O Vigario Conego Jose Silvestre Alves de Miranda."
+abstract: >-
+  Parish marriage of Valentim Martinho Bohrer (P-0028), 22 (b. ~1868), and Carolina Klein (P-0029),
+  17 (b. ~1873), on 27 November 1890 at the Nova Friburgo Matriz. Source for the marriage event
+  E-0088. NAMES Carolina's parents Jacob Klein (P-0103) × Maria Luiza Schenkel (P-0104) — new family
+  F-0051 — and confirms Valentim's parents Vicente Bohrer × Maria (Regina) Eggendorn. The bride
+  abjured Protestantism and was baptised Catholic just before the marriage (the Klein family were
+  Lutheran).
+abstract_pt: >-
+  Casamento paroquial de Valentim Martinho Bohrer (P-0028), 22 anos (n. ~1868), e Carolina Klein
+  (P-0029), 17 anos (n. ~1873), em 27 de novembro de 1890, na Matriz de Nova Friburgo. Fonte do evento
+  de casamento E-0088. NOMEIA os pais de Carolina, Jacob Klein (P-0103) × Maria Luiza Schenkel
+  (P-0104) — nova família F-0051 — e confirma os pais de Valentim, Vicente Bohrer × Maria (Regina)
+  Eggendorn. A noiva abjurou o protestantismo e foi batizada católica pouco antes do casamento (a
+  família Klein era luterana).
+reliability:
+  assessment: Primary parish marriage entry — direct primary for the marriage, both ages and both filiations.
+  informant: The contracting parties before Cónego José Silvestre Alves de Miranda.
+  limitations: Delivered via the Fundação D. João VI digitisation (C-009); surname written "Bor[b]er"; one witness [uncertain].
+digital_file:
+  path: evidence/parish/PAR-0064-bohrer-valentim-klein-marriage-1890-novafriburgo.jpg
+  sha256: 20c8337dbd78f793009e6a25d62fc55d77a9a5dd53da4bbc74cb07197d9b9941
+linked_people:
+- P-0028
+- P-0029
+- P-0070
+- P-0071
+- P-0103
+- P-0104
+linked_families:
+- F-0013
+- F-0034
+- F-0051
+linked_events:
+- E-0088
+linked_places: []
+private: false
+notes:
+- text: Source for the marriage event E-0088 (Valentim × Carolina, 1890). Establishes Carolina's parents Jacob Klein × Maria Luiza Schenkel (F-0051) and confirms Valentim's parents (F-0034).
