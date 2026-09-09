@@ -943,6 +943,30 @@ a:focus-visible {
   text-align: left;
 }
 .update-chip:hover { background: var(--gold-soft); border-color: var(--gold); color: var(--green-deep); }
+.update-month {
+  margin: 1.5rem 0 .2rem;
+  font-family: var(--sans);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  color: var(--gold);
+  border-bottom: 1px solid var(--rule-strong);
+  padding-bottom: .3rem;
+}
+.update-month:first-child { margin-top: 0; }
+.update-title-link {
+  appearance: none;
+  width: 100%;
+  border: 0;
+  background: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+.update-title-link:hover { color: var(--gold); text-decoration: underline; }
 
 @media (max-width: 700px) {
   .updates-panel {
@@ -965,6 +989,9 @@ a:focus-visible {
   }
   .updates-panel .story-title { font-size: 1.3rem; }
   .updates-panel .story-subtitle { font-size: .92rem; }
+  /* Comfortable touch targets for the entity chips on mobile. */
+  .update-chip { min-height: 2.35rem; padding: .5rem .78rem; }
+  .update-links { gap: .5rem; }
 }
 
 @media (max-width: 700px) {

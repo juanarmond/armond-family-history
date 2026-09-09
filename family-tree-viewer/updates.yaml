@@ -1,25 +1,20 @@
-# Curated "What's new" feed for the viewer — family-facing and bilingual.
+# Curated EDITORIAL entries for the "What's new / Novidades" feed — milestones, corrections
+# and profile ("portrait") highlights that cannot be derived automatically.
 #
-# This is NOT the engineering CHANGELOG.md (that stays in git for developers). It is the
-# public, human-readable record of what was added to the archive, newest first.
+# Every non-private DOCUMENT is added to the feed automatically by scripts/build_updates.py
+# (dated from git, linked to its subject) — do NOT list individual documents here. Use this
+# file only for the editorial layer that git cannot classify. The generator merges both into
+# updates.json (what the viewer reads); regenerate with `make updates`.
 #
 # Each entry:
-#   date     YYYY-MM-DD (when the record/change was added)
-#   kind     document | person | correction | milestone
-#   title    English one-line, family-facing
-#   title_pt Portuguese one-line
-#   links    entity IDs — a P-#### opens that person's panel; a source ID (CIV/GOV/PAR/…)
-#            opens that record in the reader. Only reference deceased people.
-#
-# Keep entries short and meaningful. Never reference a living person.
+#   date     YYYY-MM-DD
+#   kind     milestone | correction | person | document
+#   title / title_pt   one-line, family-facing
+#   primary  (optional) an id whose reader/panel the headline opens
+#   links    (optional) entity ids shown as chips — P-#### opens the person; a source id
+#            opens the record. Only reference deceased people.
 
 updates:
-  - date: "2026-09-09"
-    kind: document
-    title: "Added the 1820 Nova Friburgo settler register naming the Swiss immigrant Laurent Borer"
-    title_pt: "Adicionado o registro de colonos de Nova Friburgo de 1820 que nomeia o imigrante suíço Laurent Borer"
-    links: [GOV-0007, P-0068, P-0050]
-
   - date: "2026-09-07"
     kind: milestone
     title: "All four grandparents' deaths are now documented from their civil death certificates"
@@ -27,31 +22,7 @@ updates:
     links: [P-0005, P-0006, P-0007]
 
   - date: "2026-09-07"
-    kind: document
-    title: "Cidália Engracio Armond — 2023 death certificate, Volta Redonda"
-    title_pt: "Cidália Engracio Armond — certidão de óbito de 2023, Volta Redonda"
-    links: [P-0005, CIV-0027]
-
-  - date: "2026-09-07"
-    kind: document
-    title: "Antenor Muniz — 2014 death certificate, Volta Redonda"
-    title_pt: "Antenor Muniz — certidão de óbito de 2014, Volta Redonda"
-    links: [P-0006, CIV-0028]
-
-  - date: "2026-09-07"
     kind: correction
     title: "Antenor Muniz worked as a plumber in Volta Redonda — he moved to the city, he did not stay a lifelong farmer"
     title_pt: "Antenor Muniz trabalhou como bombeiro hidráulico em Volta Redonda — mudou-se para a cidade, não permaneceu lavrador a vida toda"
     links: [P-0006]
-
-  - date: "2026-09-07"
-    kind: document
-    title: "Iris Bohrer Muniz — 2021 death certificate, Volta Redonda"
-    title_pt: "Iris Bohrer Muniz — certidão de óbito de 2021, Volta Redonda"
-    links: [P-0007, CIV-0029]
-
-  - date: "2026-09-07"
-    kind: document
-    title: "Four relatives' death records added, each re-attesting a family line (Bohrer, Guimarães and Muniz)"
-    title_pt: "Quatro registros de óbito de parentes adicionados, cada um reatestando uma linha da família (Bohrer, Guimarães e Muniz)"
-    links: [CIV-0031, CIV-0032, CIV-0033, CIV-0034]

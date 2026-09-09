@@ -1,0 +1,565 @@
+{
+ "generated": "2026-09-09T13:36:13Z",
+ "updates": [
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "Nova Friburgo Swiss-colony settler register (Heureux Voyage arrivals, c.1819–1820) — naming Laurent Borer among the Borer and Wehrli colonist families",
+   "title_pt": "Registro de colonos da colônia suíça de Nova Friburgo (chegadas do Heureux Voyage, c.1819–1820) — nomeando Laurent Borer entre as famílias colonas Borer e Wehrli",
+   "primary": "GOV-0007",
+   "links": [
+    "P-0068"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "kind": "milestone",
+   "title": "All four grandparents' deaths are now documented from their civil death certificates",
+   "title_pt": "Os óbitos dos quatro avós agora estão documentados por suas certidões civis de óbito",
+   "links": [
+    "P-0005",
+    "P-0006",
+    "P-0007"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "kind": "correction",
+   "title": "Antenor Muniz worked as a plumber in Volta Redonda — he moved to the city, he did not stay a lifelong farmer",
+   "title_pt": "Antenor Muniz trabalhou como bombeiro hidráulico em Volta Redonda — mudou-se para a cidade, não permaneceu lavrador a vida toda",
+   "links": [
+    "P-0006"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "kind": "document",
+   "title": "2023 Volta Redonda civil death of Cidalia Engracio Armond — widow of Geraldo Paz Armond, daughter of Antonio Engracio de Souza and Maria Aurora Guimarães",
+   "title_pt": "Óbito civil de 2023, em Volta Redonda, de Cidalia Engracio Armond — viúva de Geraldo Paz Armond, filha de Antonio Engracio de Souza e Maria Aurora Guimarães",
+   "primary": "CIV-0027",
+   "links": [
+    "P-0005"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "kind": "document",
+   "title": "2014 Volta Redonda civil death of Antenor Muniz — husband of Iris Bohrer Muniz, son of Deocleciano Muniz and Luiza Fernandes de Azevedo",
+   "title_pt": "Óbito civil de 2014, em Volta Redonda, de Antenor Muniz — marido de Iris Bohrer Muniz, filho de Deocleciano Muniz e Luiza Fernandes de Azevedo",
+   "primary": "CIV-0028",
+   "links": [
+    "P-0006"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "kind": "document",
+   "title": "2021 Volta Redonda civil death of Iris Bohrer Muniz — widow of Antenor Muniz, daughter of João Gonçalves Bohrer and Selina Bohrer",
+   "title_pt": "Óbito civil de 2021, em Volta Redonda, de Iris Bohrer Muniz — viúva de Antenor Muniz, filha de João Gonçalves Bohrer e Selina Bohrer",
+   "primary": "CIV-0029",
+   "links": [
+    "P-0007"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "kind": "document",
+   "title": "1972 Volta Redonda civil death of Ercy (Hercy) Bohrer — son of João Gonçalves Bohrer and Celina Bohrer",
+   "title_pt": "Óbito civil de 1972, em Volta Redonda, de Ercy (Hercy) Bohrer — filho de João Gonçalves Bohrer e Celina Bohrer",
+   "primary": "CIV-0031",
+   "links": [
+    "P-0014"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "kind": "document",
+   "title": "1996 Volta Redonda civil death of Lucinda Bohrer Moreira — daughter of Joaquim José Bohrer and Lucinda Ferreira da Silva Bohrer",
+   "title_pt": "Óbito civil de 1996, em Volta Redonda, de Lucinda Bohrer Moreira — filha de Joaquim José Bohrer e Lucinda Ferreira da Silva Bohrer",
+   "primary": "CIV-0032",
+   "links": [
+    "P-0030"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "kind": "document",
+   "title": "1992 Volta Redonda civil death of João José de Carvalho Guimarães — son of Francisco José de Carvalho Guimarães and Emmerenciana Maria de Jesus",
+   "title_pt": "Óbito civil de 1992, em Volta Redonda, de João José de Carvalho Guimarães — filho de Francisco José de Carvalho Guimarães e Emmerenciana Maria de Jesus",
+   "primary": "CIV-0033",
+   "links": [
+    "P-0021"
+   ]
+  },
+  {
+   "date": "2026-09-07",
+   "kind": "document",
+   "title": "1943 Rio de Janeiro civil death of Maria José Bittencourt — daughter of Manoel Muniz Bittencourt and Francisca Rosa",
+   "title_pt": "Óbito civil de 1943, no Rio de Janeiro, de Maria José Bittencourt — filha de Manoel Muniz Bittencourt e Francisca Rosa",
+   "primary": "CIV-0034",
+   "links": [
+    "P-0042"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "kind": "document",
+   "title": "1961 Rio de Janeiro civil death of Hermogenes Engracio de Souza — son of Antonio Engracio de Souza and Luzia Pinheiro da Conceição",
+   "title_pt": "Óbito civil de 1961, no Rio de Janeiro, de Hermogenes Engracio de Souza — filho de Antonio Engracio de Souza e Luzia Pinheiro da Conceição",
+   "primary": "CIV-0026",
+   "links": [
+    "P-0032"
+   ]
+  },
+  {
+   "date": "2026-09-03",
+   "kind": "document",
+   "title": "1822 baptism of Manoel Muniz Bytancourt (P-0042) at N. Sra. Mãe de Deus, Povoação, São Miguel — legitimate son of João Muniz and Maria Jacinta [de Medeiros]",
+   "title_pt": "Batismo de 1822 de Manoel Muniz Bytancourt (P-0042) na Matriz de N. Sra. Mãe de Deus, Povoação, São Miguel — filho legítimo de João Muniz e Maria Jacinta [de Medeiros]",
+   "primary": "PAR-0051",
+   "links": [
+    "P-0042"
+   ]
+  },
+  {
+   "date": "2026-09-02",
+   "kind": "document",
+   "title": "Owner testimony — death of Cidália Engrácio Guimarães (17 April 2023)",
+   "title_pt": "Testemunho do proprietário — falecimento de Cidália Engrácio Guimarães (17 de abril de 2023)",
+   "primary": "REC-0002",
+   "links": [
+    "P-0005"
+   ]
+  },
+  {
+   "date": "2026-08-13",
+   "kind": "document",
+   "title": "Minas Geraes state gazette (7 Aug 1931) appointing Aristão Ferreira Armond subdelegado de polícia of the Limeira district, Muriaé",
+   "title_pt": "Gazeta oficial Minas Geraes (7 ago. 1931) nomeando Aristão Ferreira Armond subdelegado de polícia do distrito de Limeira, Muriaé",
+   "primary": "GOV-0004",
+   "links": [
+    "P-0008"
+   ]
+  },
+  {
+   "date": "2026-08-13",
+   "kind": "document",
+   "title": "Minas Geraes state gazette (28 Jul 1899) appointing Simplício José Ferreira Armond 2º suplente do subdelegado, Boa Família district, Muriaé",
+   "title_pt": "Gazeta oficial Minas Geraes (28 jul. 1899) nomeando Simplício José Ferreira Armond 2º suplente do subdelegado, distrito de Boa Família, Muriaé",
+   "primary": "GOV-0005",
+   "links": [
+    "P-0016"
+   ]
+  },
+  {
+   "date": "2026-08-13",
+   "kind": "document",
+   "title": "Minas Geraes state gazette (11 Sep 1902) appointing Simplício José Ferreira Armond 3º suplente do delegado de polícia, São Paulo do Muriaé",
+   "title_pt": "Gazeta oficial Minas Geraes (11 set. 1902) nomeando Simplício José Ferreira Armond 3º suplente do delegado de polícia, São Paulo do Muriaé",
+   "primary": "GOV-0006",
+   "links": [
+    "P-0016"
+   ]
+  },
+  {
+   "date": "2026-08-13",
+   "kind": "document",
+   "title": "1881 O Leopoldinense notice of a \"Grande Loteria da Côrte\" consortium listing Simplício José Ferreira Armond among the Toledo-circle members",
+   "title_pt": "Nota de 1881 em O Leopoldinense sobre um consórcio da \"Grande Loteria da Côrte\" que lista Simplício José Ferreira Armond entre os membros do círculo Toledo",
+   "primary": "NWS-0004",
+   "links": [
+    "P-0016"
+   ]
+  },
+  {
+   "date": "2026-08-13",
+   "kind": "document",
+   "title": "A Sentinella (Nova Friburgo), 18 December 1898 — \"Parabéns / Fizeram annos\" notice placing Joaquim José Bohrer's birthday on 16 December",
+   "title_pt": "A Sentinella (Nova Friburgo), 18 de dezembro de 1898 — nota \"Parabéns / Fizeram annos\" que fixa o aniversário de Joaquim José Bohrer em 16 de dezembro",
+   "primary": "NWS-0005",
+   "links": [
+    "P-0030"
+   ]
+  },
+  {
+   "date": "2026-08-13",
+   "kind": "document",
+   "title": "A Sentinella (Nova Friburgo), 4 April 1899 — death notice of Antonio José Bohrer, son of Joaquim José Bohrer, from a jararacussú snakebite",
+   "title_pt": "A Sentinella (Nova Friburgo), 4 de abril de 1899 — nota de falecimento de Antonio José Bohrer, filho de Joaquim José Bohrer, por picada de jararacussú",
+   "primary": "NWS-0006",
+   "links": [
+    "P-0030"
+   ]
+  },
+  {
+   "date": "2026-08-13",
+   "kind": "document",
+   "title": "Parish baptism of José (later José Cezário de Toledo Lima, P-0054), 10 March 1813, Matriz de Nossa Senhora do Pilar (São João del Rei) — names his parents Ladislau Egídio Ferreira and Dona Mathildes Maria de Jesus",
+   "title_pt": "Batismo paroquial de José (depois José Cezário de Toledo Lima, P-0054), 10 de março de 1813, Matriz de Nossa Senhora do Pilar (São João del Rei) — nomeia seus pais Ladislau Egídio Ferreira e Dona Mathildes Maria de Jesus",
+   "primary": "PAR-0050",
+   "links": [
+    "P-0054"
+   ]
+  },
+  {
+   "date": "2026-08-13",
+   "kind": "document",
+   "title": "Estate-division payment folio (folha de pagamento ao herdeiro) allotting fazenda assets to the heir Simplício José Ferreira Armond (P-0016), \"casado com Dona Eliza Balbina de Toledo\" (P-0017) — a Leopoldina Toledo partilha, c.1919",
+   "title_pt": "Folha de pagamento de partilha de espólio (folha de pagamento ao herdeiro) que destina bens da fazenda ao herdeiro Simplício José Ferreira Armond (P-0016), \"casado com Dona Eliza Balbina de Toledo\" (P-0017) — uma partilha Toledo de Leopoldina, c.1919",
+   "primary": "PRB-0011",
+   "links": [
+    "P-0016"
+   ]
+  },
+  {
+   "date": "2026-08-12",
+   "kind": "document",
+   "title": "Parish baptism of a son of João Francisco Muniz Bitancourt and Maria Jacintha de Medeiros (given name illegible; born 1 August 1831, baptized 14 August 1831, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023",
+   "title_pt": "Batismo paroquial de um filho de João Francisco Muniz Bitancourt e Maria Jacintha de Medeiros (nome próprio ilegível; nascido em 1 de agosto de 1831, batizado em 14 de agosto de 1831, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — filho colateral da família F-0023",
+   "primary": "PAR-0038",
+   "links": [
+    "P-0048"
+   ]
+  },
+  {
+   "date": "2026-08-12",
+   "kind": "document",
+   "title": "Parish baptism of Michaelina Muniz (born 3 January 1833, baptized 13 January 1833, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023",
+   "title_pt": "Batismo paroquial de Michaelina Muniz (nascida em 3 de janeiro de 1833, batizada em 13 de janeiro de 1833, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — filha colateral da família F-0023",
+   "primary": "PAR-0039",
+   "links": [
+    "P-0048"
+   ]
+  },
+  {
+   "date": "2026-08-12",
+   "kind": "document",
+   "title": "Parish baptism of Rosa Muniz (born 4 October 1834, baptized 12 October 1834, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023",
+   "title_pt": "Batismo paroquial de Rosa Muniz (nascida em 4 de outubro de 1834, batizada em 12 de outubro de 1834, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — filha colateral da família F-0023",
+   "primary": "PAR-0040",
+   "links": [
+    "P-0048"
+   ]
+  },
+  {
+   "date": "2026-08-12",
+   "kind": "document",
+   "title": "Parish baptism of Damaso Muniz (born 26 June 1836, baptized 10 July 1836, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023",
+   "title_pt": "Batismo paroquial de Damaso Muniz (nascido em 26 de junho de 1836, batizado em 10 de julho de 1836, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — filho colateral da família F-0023",
+   "primary": "PAR-0041",
+   "links": [
+    "P-0048"
+   ]
+  },
+  {
+   "date": "2026-08-12",
+   "kind": "document",
+   "title": "Parish baptism of Francisco Muniz (born 15 April 1839, baptized 21 April 1839, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023",
+   "title_pt": "Batismo paroquial de Francisco Muniz (nascido em 15 de abril de 1839, batizado em 21 de abril de 1839, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — filho colateral da família F-0023",
+   "primary": "PAR-0042",
+   "links": [
+    "P-0048"
+   ]
+  },
+  {
+   "date": "2026-08-12",
+   "kind": "document",
+   "title": "Parish baptism of José Muniz (born 23 May 1841, baptized 29 May 1841, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023",
+   "title_pt": "Batismo paroquial de José Muniz (nascido em 23 de maio de 1841, batizado em 29 de maio de 1841, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — filho colateral da família F-0023",
+   "primary": "PAR-0043",
+   "links": [
+    "P-0048"
+   ]
+  },
+  {
+   "date": "2026-08-12",
+   "kind": "document",
+   "title": "Parish baptism of Agostinho Muniz (born 13 April 1843, baptized 23 April 1843, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — collateral child of family F-0023, naming both grandparent couples",
+   "title_pt": "Batismo paroquial de Agostinho Muniz (nascido em 13 de abril de 1843, batizado em 23 de abril de 1843, Nossa Senhora Mãe de Deus, Povoação, São Miguel) — filho colateral da família F-0023, que nomeia ambos os casais de avós",
+   "primary": "PAR-0044",
+   "links": [
+    "P-0048"
+   ]
+  },
+  {
+   "date": "2026-08-12",
+   "kind": "document",
+   "title": "Parish baptism of Maria Muniz Bytancourt (baptised 1 January 1843, born 26 December 1842, Nossa Senhora Mãe de Deus, Povoação, São Miguel), daughter of Manoel Muniz Bytancourt and Francisca Roza do Espírito Santo",
+   "title_pt": "Batismo paroquial de Maria Muniz Bytancourt (batizada em 1 de janeiro de 1843, nascida em 26 de dezembro de 1842, Nossa Senhora Mãe de Deus, Povoação, São Miguel), filha de Manoel Muniz Bytancourt e Francisca Roza do Espírito Santo",
+   "primary": "PAR-0045",
+   "links": [
+    "P-0042"
+   ]
+  },
+  {
+   "date": "2026-08-12",
+   "kind": "document",
+   "title": "Parish baptism of Francisca Muniz Bitancourt (baptised 2 September 1849, born 31 August 1849, Nossa Senhora Mãe de Deus, Povoação, São Miguel), daughter of Manoel Muniz Bitancourt and Francisca Roza do Espírito Santo",
+   "title_pt": "Batismo paroquial de Francisca Muniz Bitancourt (batizada em 2 de setembro de 1849, nascida em 31 de agosto de 1849, Nossa Senhora Mãe de Deus, Povoação, São Miguel), filha de Manoel Muniz Bitancourt e Francisca Roza do Espírito Santo",
+   "primary": "PAR-0046",
+   "links": [
+    "P-0042"
+   ]
+  },
+  {
+   "date": "2026-08-12",
+   "kind": "document",
+   "title": "Parish baptism of Maria Muniz Bitancourt (baptised 21 December 1851, born 29 November 1851, Nossa Senhora Mãe de Deus, Povoação, São Miguel), daughter of Manoel Muniz Bitancourt and Francisca Roza do Espírito Santo",
+   "title_pt": "Batismo paroquial de Maria Muniz Bitancourt (batizada em 21 de dezembro de 1851, nascida em 29 de novembro de 1851, Nossa Senhora Mãe de Deus, Povoação, São Miguel), filha de Manoel Muniz Bitancourt e Francisca Roza do Espírito Santo",
+   "primary": "PAR-0047",
+   "links": [
+    "P-0042"
+   ]
+  },
+  {
+   "date": "2026-08-12",
+   "kind": "document",
+   "title": "Parish marriage of Manoel Cabral and Maria Jacintha de Medeiros (30 December 1818, Nossa Senhora Mãe de Deus, Povoação, São Miguel), the bride a daughter of Manoel Muniz and Tereza do Amaral",
+   "title_pt": "Casamento paroquial de Manoel Cabral e Maria Jacintha de Medeiros (30 de dezembro de 1818, Nossa Senhora Mãe de Deus, Povoação, São Miguel), sendo a noiva filha de Manoel Muniz e Tereza do Amaral",
+   "primary": "PAR-0048",
+   "links": [
+    "P-0082"
+   ]
+  },
+  {
+   "date": "2026-08-12",
+   "kind": "document",
+   "title": "Parish baptism of Ritta Angélica Rodrigues (P-0058), 9 March 1764, Capela de São José do Ribeirão (Matriz de N.S. da Piedade da Borda do Campo, Barbacena) — names her parents João Rodrigues Valle and Isabel Ribeira",
+   "title_pt": "Batismo paroquial de Ritta Angélica Rodrigues (P-0058), 9 de março de 1764, Capela de São José do Ribeirão (Matriz de N.S. da Piedade da Borda do Campo, Barbacena) — nomeia seus pais João Rodrigues Valle e Isabel Ribeira",
+   "primary": "PAR-0049",
+   "links": [
+    "P-0058"
+   ]
+  },
+  {
+   "date": "2026-08-11",
+   "kind": "document",
+   "title": "Parish marriage of João Francisco Muniz Bitancourt and Maria Jacintha de Medeiros (7 October 1819, Nossa Senhora Mãe de Deus, Povoação, São Miguel)",
+   "title_pt": "Casamento paroquial de João Francisco Muniz Bitancourt e Maria Jacintha de Medeiros (7 de outubro de 1819, Nossa Senhora Mãe de Deus, Povoação, São Miguel)",
+   "primary": "PAR-0037",
+   "links": [
+    "P-0048"
+   ]
+  },
+  {
+   "date": "2026-08-11",
+   "kind": "document",
+   "title": "1833 Barbacena estate inventory of Dona Rita Angélica Rodrigues (P-0058), whose widower and inventariante is Capitão Joaquim José Ferreira de Toledo (P-0057) — names all thirteen children, headed by Ladisláo Egídio Ferreira (P-0056)",
+   "title_pt": "Inventário de 1833, em Barbacena, do espólio de Dona Rita Angélica Rodrigues (P-0058), cujo viúvo e inventariante é o Capitão Joaquim José Ferreira de Toledo (P-0057) — nomeia todos os treze filhos, encabeçados por Ladisláo Egídio Ferreira (P-0056)",
+   "primary": "PRB-0010",
+   "links": [
+    "P-0058"
+   ]
+  },
+  {
+   "date": "2026-08-10",
+   "kind": "document",
+   "title": "1856 Lei de Terras land registry (Registro de Terras), Curato do Rio Pardo, Município de Villa Leopoldina — entries Nº 144 (Francisco Leocádio de Toledo) and Nº 145 (José Cesário de Toledo Lima) for the Fazenda da Concórdia",
+   "title_pt": "Registro de terras de 1856 (Registro de Terras) sob a Lei de Terras, Curato do Rio Pardo, Município de Villa Leopoldina — assentos Nº 144 (Francisco Leocádio de Toledo) e Nº 145 (José Cesário de Toledo Lima) da Fazenda da Concórdia",
+   "primary": "GOV-0003",
+   "links": [
+    "P-0054"
+   ]
+  },
+  {
+   "date": "2026-08-10",
+   "kind": "document",
+   "title": "A Sentinella (Nova Friburgo), 30 January 1898 — death notice of Manoel Pereira de Lemos, brother of Rosa Eugenia de Lemos",
+   "title_pt": "A Sentinella (Nova Friburgo), 30 de janeiro de 1898 — nota de falecimento de Manoel Pereira de Lemos, irmão de Rosa Eugenia de Lemos",
+   "primary": "NWS-0002",
+   "links": [
+    "P-0035"
+   ]
+  },
+  {
+   "date": "2026-08-10",
+   "kind": "document",
+   "title": "1902 O Pharol (Juiz de Fora) official-acts notice naming Simplício José Ferreira Armond as 3rd substitute police delegate (supplente do delegado de polícia) of São Paulo do Muriaé",
+   "title_pt": "Nota de atos oficiais de 1902 em O Pharol (Juiz de Fora) que nomeia Simplício José Ferreira Armond como 3.º suplente do delegado de polícia de São Paulo do Muriaé",
+   "primary": "NWS-0003",
+   "links": [
+    "P-0016"
+   ]
+  },
+  {
+   "date": "2026-08-10",
+   "kind": "document",
+   "title": "Certified transcript (Arquivo da Arquidiocese de Mariana) of the 22 February 1751 marriage of João Rodrigues Valle and Isabel Ribeiro, Matriz de Nossa Senhora da Piedade da Borda do Campo (Barbacena), naming both spouses' parents",
+   "title_pt": "Traslado certificado (Arquivo da Arquidiocese de Mariana) do casamento de 22 de fevereiro de 1751 de João Rodrigues Valle e Isabel Ribeiro, Matriz de Nossa Senhora da Piedade da Borda do Campo (Barbacena), que nomeia os pais de ambos os cônjuges",
+   "primary": "PAR-0034",
+   "links": [
+    "P-0078"
+   ]
+  },
+  {
+   "date": "2026-08-10",
+   "kind": "document",
+   "title": "Baptism register entry of João (João Rodrigues Valle), born 15 April 1728, Freguesia de São Martinho de Ruivais (Arcebispado de Braga, Portugal), naming his parents João Rodrigues [Valle] and Joana Gonçalves",
+   "title_pt": "Assento de batismo de João (João Rodrigues Valle), nascido em 15 de abril de 1728, Freguesia de São Martinho de Ruivais (Arcebispado de Braga, Portugal), que nomeia seus pais João Rodrigues [Valle] e Joana Gonçalves",
+   "primary": "PAR-0035",
+   "links": [
+    "P-0078"
+   ]
+  },
+  {
+   "date": "2026-08-10",
+   "kind": "document",
+   "title": "Marriage register entry of João Rodrigues and Joanna Gonçalves, 13 May 1716, Freguesia de São Martinho de Ruivais (Arcebispado de Braga, Portugal), naming both spouses' parents",
+   "title_pt": "Assento de casamento de João Rodrigues e Joanna Gonçalves, 13 de maio de 1716, Freguesia de São Martinho de Ruivais (Arcebispado de Braga, Portugal), que nomeia os pais de ambos os cônjuges",
+   "primary": "PAR-0036",
+   "links": [
+    "P-0080"
+   ]
+  },
+  {
+   "date": "2026-08-09",
+   "kind": "document",
+   "title": "Grindel (Solothurn) Catholic parish baptism register, 1751–1753 — baptism of Johann Jacob Wehrli (17 January 1751) and Johann Joseph Wehrli (23 June 1752), children of Johannes Wehrli × Barbara Alleman",
+   "title_pt": "Livro de batismos da paróquia católica de Grindel (Solothurn), 1751–1753 — batismo de Johann Jacob Wehrli (17 de janeiro de 1751) e Johann Joseph Wehrli (23 de junho de 1752), filhos de Johannes Wehrli × Barbara Alleman",
+   "primary": "PAR-0027",
+   "links": [
+    "P-0072"
+   ]
+  },
+  {
+   "date": "2026-08-09",
+   "kind": "document",
+   "title": "Erschwil (Solothurn) Catholic parish baptism register, church book #68, 1760 — baptism of Elisabetha Borer (17 June 1760), daughter of Joseph Borer and Anna Maria Borer",
+   "title_pt": "Livro de batismos da paróquia católica de Erschwil (Solothurn), livro paroquial #68, 1760 — batismo de Elisabetha Borer (17 de junho de 1760), filha de Joseph Borer e Anna Maria Borer",
+   "primary": "PAR-0028",
+   "links": [
+    "P-0073"
+   ]
+  },
+  {
+   "date": "2026-08-09",
+   "kind": "document",
+   "title": "Grindel (Solothurn) Catholic parish marriage register, page 71 — marriage of Johann Jacob Wehrli and Elisabetha Borer, 27 January 1782",
+   "title_pt": "Livro de casamentos da paróquia católica de Grindel (Solothurn), página 71 — casamento de Johann Jacob Wehrli e Elisabetha Borer, 27 de janeiro de 1782",
+   "primary": "PAR-0029",
+   "links": [
+    "P-0072"
+   ]
+  },
+  {
+   "date": "2026-08-08",
+   "kind": "document",
+   "title": "Imigrantes de Nova Friburgo — genealogias: BORER I, BORER II, WEHRLI sections (Henrique Bon compiler)",
+   "title_pt": "Imigrantes de Nova Friburgo — genealogias: seções BORER I, BORER II e WEHRLI (compilado por Henrique Bon)",
+   "primary": "PUB-0003",
+   "links": [
+    "P-0028"
+   ]
+  },
+  {
+   "date": "2026-08-07",
+   "kind": "document",
+   "title": "Parish baptism of Maria, daughter of Amaro da Silva Xavier and Ignez Francisca de Lima, naming all four grandparents (23 August 1777, Minas do Piracatu / Manga parish)",
+   "title_pt": "Batismo paroquial de Maria, filha de Amaro da Silva Xavier e Ignez Francisca de Lima, que nomeia os quatro avós (23 de agosto de 1777, freguesia de Minas do Piracatu / Manga)",
+   "primary": "PAR-0025",
+   "links": [
+    "P-0059"
+   ]
+  },
+  {
+   "date": "2026-08-07",
+   "kind": "document",
+   "title": "Certified ecclesiastical transcript of the 1838 baptism of Carolina, daughter of Capitão Cezário José da Silva Lima and Dona Joanna Umbelina de Jesus (São José del-Rei), confirming Amaro da Silva Xavier × Ignez Francisca de Lima as paternal grandparents",
+   "title_pt": "Traslado eclesiástico certificado do batismo de 1838 de Carolina, filha do Capitão Cezário José da Silva Lima e de Dona Joanna Umbelina de Jesus (São José del-Rei), que confirma Amaro da Silva Xavier × Ignez Francisca de Lima como avós paternos",
+   "primary": "PAR-0026",
+   "links": [
+    "P-0059"
+   ]
+  },
+  {
+   "date": "2026-08-05",
+   "kind": "document",
+   "title": "Parish baptism of João [Muniz Byttancourt] (entry Nº 5, 1845, Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel), naming his parents Manoel Byttancourt and Francisca Roza do Espirito Santo",
+   "title_pt": "Batismo paroquial de João [Muniz Byttancourt] (assento Nº 5, 1845, Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel), que nomeia seus pais Manoel Byttancourt e Francisca Roza do Espirito Santo",
+   "primary": "PAR-0022",
+   "links": [
+    "P-0019"
+   ]
+  },
+  {
+   "date": "2026-08-05",
+   "kind": "document",
+   "title": "Parish marriage of Ladisláo Egídio Ferreira de Toledo and Mathilde Maria de Jesus (8 May 1810, São João del Rei matriz), naming both parents' sets",
+   "title_pt": "Casamento paroquial de Ladisláo Egídio Ferreira de Toledo e Mathilde Maria de Jesus (8 de maio de 1810, matriz de São João del Rei), que nomeia os dois conjuntos de pais",
+   "primary": "PAR-0023",
+   "links": [
+    "P-0056"
+   ]
+  },
+  {
+   "date": "2026-08-05",
+   "kind": "document",
+   "title": "Parish marriage of Manoel Muniz Bitancourt and Francisca Roza do Espírito Santo (17 February 1842, Nossa Senhora Mãe de Deus, Povoação, São Miguel)",
+   "title_pt": "Casamento paroquial de Manoel Muniz Bitancourt e Francisca Roza do Espírito Santo (17 de fevereiro de 1842, Nossa Senhora Mãe de Deus, Povoação, São Miguel)",
+   "primary": "PAR-0024",
+   "links": [
+    "P-0042"
+   ]
+  },
+  {
+   "date": "2026-08-05",
+   "kind": "document",
+   "title": "Traslado of the 1862 Fazenda da Concórdia purchase deed — Matilde Maria de Jesus (widow of Ladisláo Egídio Ferreira de Toledo) buying from Felippe Barbosa Castro",
+   "title_pt": "Traslado da escritura de compra da Fazenda da Concórdia de 1862 — Matilde Maria de Jesus (viúva de Ladisláo Egídio Ferreira de Toledo) comprando de Felippe Barbosa Castro",
+   "primary": "PRB-0007",
+   "links": [
+    "P-0027"
+   ]
+  },
+  {
+   "date": "2026-07-30",
+   "kind": "document",
+   "title": "Undated Leopoldina notarial deed of sale of Toledo Concórdia / Ribeirão de São Bento land, naming the grandparents Mathilde Maria de Jesus and Ladisláo Egydio Ferreira de Toledo and the parents Antonio Zeferino de Toledo and Maria Perpétua",
+   "title_pt": "Escritura notarial de venda, sem data, em Leopoldina, de terras Toledo na Concórdia / Ribeirão de São Bento, que nomeia os avós Mathilde Maria de Jesus e Ladisláo Egydio Ferreira de Toledo e os pais Antonio Zeferino de Toledo e Maria Perpétua",
+   "primary": "PRB-0004",
+   "links": [
+    "P-0027"
+   ]
+  },
+  {
+   "date": "2026-07-29",
+   "kind": "document",
+   "title": "1877 Leopoldina notarial deed of sale by the Toledo grandchildren of their inherited Fazenda da Concórdia land, naming their grandmother Mathilde Maria de Jesus",
+   "title_pt": "Escritura notarial de venda de 1877, em Leopoldina, pelos netos Toledo das terras herdadas da Fazenda da Concórdia, que nomeia sua avó Mathilde Maria de Jesus",
+   "primary": "PRB-0003",
+   "links": [
+    "P-0017"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "1975 marriage banns in O Processo (Conselheiro Lafaiete) for José Olavo Armond, naming his parents Aristão Ferreira Armond and Liliosa Paz Armond and his origin in Eugenópolis",
+   "title_pt": "Edital de proclamas de casamento de 1975 em O Processo (Conselheiro Lafaiete) de José Olavo Armond, que nomeia seus pais Aristão Ferreira Armond e Liliosa Paz Armond e sua origem em Eugenópolis",
+   "primary": "NWS-0001",
+   "links": [
+    "P-0018"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza Balbina de Toledo (wife of Simplício José Ferreira Armond)",
+   "title_pt": "Lista de herdeiros de inventário de 1881, em Leopoldina, que nomeia os irmãos Toledo, incluindo Eliza Balbina de Toledo (esposa de Simplício José Ferreira Armond)",
+   "primary": "PRB-0001",
+   "links": [
+    "P-0016"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "1884 Leopoldina petition of Simplício José Ferreira Armond as heir of the late D. Mathilde Maria de Jezus",
+   "title_pt": "Petição de 1884, em Leopoldina, de Simplício José Ferreira Armond como herdeiro da finada D. Mathilde Maria de Jezus",
+   "primary": "PRB-0002",
+   "links": [
+    "P-0016"
+   ]
+  }
+ ]
+}

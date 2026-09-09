@@ -1630,14 +1630,41 @@ function closeStory() {
 // stored as ./updates.yaml (bilingual one-liners + entity links). Mirrors the Family Story
 // panel; the engineering CHANGELOG.md is deliberately NOT surfaced here.
 let updatesDoc = null;
+// When a person is opened from the What's new feed, remember to return to it when that
+// person panel is closed (the panel and the feed share the right edge, so the feed is
+// closed first). A document opens in the reader overlay on top, so it needs no flag —
+// closing the reader simply reveals the feed underneath.
+let returnToUpdates = false;
 async function loadUpdates() {
   if (!updatesDoc) {
-    const response = await fetch("./updates.yaml", { cache: "no-store" });
-    if (!response.ok) throw new Error(String(response.status));
-    updatesDoc = parseYaml(await response.text()) || {};
+    // Prefer the generated, comprehensive updates.json (every public document + the curated
+    // editorial entries); fall back to the curated updates.yaml if the build has not run.
+    let doc = null;
+    try {
+      const jsonResp = await fetch("./updates.json", { cache: "no-store" });
+      if (jsonResp.ok) doc = await jsonResp.json();
+    } catch { /* fall back to YAML */ }
+    if (!doc) {
+      const yamlResp = await fetch("./updates.yaml", { cache: "no-store" });
+      if (!yamlResp.ok) throw new Error(String(yamlResp.status));
+      doc = parseYaml(await yamlResp.text());
+    }
+    updatesDoc = doc || {};
   }
   const list = Array.isArray(updatesDoc.updates) ? updatesDoc.updates.slice() : [];
   return list.sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
+}
+
+function monthLabel(iso) {
+  const parts = String(iso).split("-").map(Number);
+  if (parts.length < 2 || parts.slice(0, 2).some(Number.isNaN)) return "";
+  try {
+    return new Intl.DateTimeFormat(state.locale === "pt-BR" ? "pt-BR" : "en-GB", {
+      year: "numeric", month: "long", timeZone: "UTC",
+    }).format(new Date(Date.UTC(parts[0], parts[1] - 1, 1)));
+  } catch {
+    return "";
+  }
 }
 
 function formatUpdateDate(iso) {
@@ -1662,15 +1689,16 @@ function resolveUpdateLink(id) {
   if (/^P-\d+$/.test(id)) {
     const person = state.data && state.data.people && state.data.people[id];
     if (!person) return null;
-    return { label: person.name || id, open: () => { closeUpdates(); openDetails(id); } };
+    return {
+      label: person.name || id,
+      open: () => { returnToUpdates = true; closeUpdates(); openDetails(id); },
+    };
   }
   if (UPDATE_SOURCE_RE.test(id)) {
     const source = state.data && state.data.sources && state.data.sources[id];
     if (!source) return null;
-    return {
-      label: localeText(source.title, source.titlePt) || id,
-      open: () => { closeUpdates(); openReader(source); },
-    };
+    // Open the record reader on top of the feed (z-index 1000); closing it reveals the feed.
+    return { label: localeText(source.title, source.titlePt) || id, open: () => openReader(source) };
   }
   return null;
 }
@@ -1684,7 +1712,17 @@ function renderUpdates(container, entries) {
     container.appendChild(empty);
     return;
   }
+  let currentMonth = null;
   for (const entry of entries) {
+    const month = String(entry.date || "").slice(0, 7);
+    if (month && month !== currentMonth) {
+      currentMonth = month;
+      const heading = document.createElement("h3");
+      heading.className = "update-month";
+      heading.textContent = monthLabel(entry.date);
+      container.appendChild(heading);
+    }
+
     const item = document.createElement("article");
     item.className = "update-item";
 
@@ -1700,13 +1738,26 @@ function renderUpdates(container, entries) {
     date.textContent = formatUpdateDate(entry.date);
     meta.append(kind, date);
 
-    const title = document.createElement("p");
-    title.className = "update-title";
-    title.textContent = localeText(entry.title, entry.title_pt) || "";
+    // Headline. When a `primary` entity resolves, the headline itself opens it (the document
+    // reader or the person panel); otherwise it is plain text.
+    const titleText = localeText(entry.title, entry.title_pt) || "";
+    const primary = entry.primary ? resolveUpdateLink(entry.primary) : null;
+    let title;
+    if (primary) {
+      title = document.createElement("button");
+      title.type = "button";
+      title.className = "update-title update-title-link";
+      title.addEventListener("click", primary.open);
+    } else {
+      title = document.createElement("p");
+      title.className = "update-title";
+    }
+    title.textContent = titleText;
 
     item.append(meta, title);
 
     const chips = (Array.isArray(entry.links) ? entry.links : [])
+      .filter((id) => id !== entry.primary)
       .map(resolveUpdateLink)
       .filter(Boolean);
     if (chips.length) {
@@ -1766,6 +1817,7 @@ function closeDetails() {
     lastFocused.focus();
   }
   lastFocused = null;
+  if (returnToUpdates) { returnToUpdates = false; openUpdates(); }
 }
 
 // ---------- Mobile focus view ----------

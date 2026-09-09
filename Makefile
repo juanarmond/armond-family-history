@@ -1,4 +1,4 @@
-.PHONY: check test validate profiles-audit ancestors-audit drop-pages-audit triage-audit export export-bundle export-legacy
+.PHONY: check test validate profiles-audit ancestors-audit drop-pages-audit triage-audit updates export export-bundle export-legacy
 
 PYTHON ?= python3
 
@@ -31,6 +31,12 @@ drop-pages-audit:
 # "corroborative / lead". Run after every drop. Exits 0 unless --strict.
 triage-audit:
 	$(PYTHON) scripts/triage_audit.py
+
+# Regenerate the viewer's "What's new" feed (family-tree-viewer/updates.json): every public
+# document (dated from git) merged with the curated editorial entries in updates.yaml. Run
+# after cataloguing new sources; commit the regenerated updates.json like entity-index.json.
+updates:
+	$(PYTHON) scripts/build_updates.py
 
 test:
 	$(PYTHON) -m unittest discover -s tests -v
