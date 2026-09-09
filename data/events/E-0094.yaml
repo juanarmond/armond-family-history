@@ -1,0 +1,23 @@
+schema_version: 1
+id: E-0094
+event_type: marriage
+date:
+  kind: exact
+  value: "1859-03-03"
+place_text: Nova Friburgo (Matriz de São João Baptista), Rio de Janeiro, Brazil
+participants:
+- person_id: P-0036
+  role: spouse
+- person_id: P-0037
+  role: spouse
+status: confirmed
+source_ids:
+- PAR-0070
+notes:
+- text: >-
+    Marriage of Antonio da Silva Ferreira (P-0036) — legitimate son of Justino da Silva (P-0111)
+    and Maria Angelica (P-0112), natural and baptised in the parish of [Guenfães — uncertain],
+    Portugal — and Maria Joanna Rocheman (P-0037), 18 — legitimate daughter of João José Rocheman
+    (P-0109) and Isabel Stork (P-0110), of Nova Friburgo — on 3 March 1859 at the Matriz de São
+    João Baptista, Nova Friburgo (PAR-0070). The groom's age was left blank. Witnesses Domingos
+    Baptista Bittencourt and Luiz Mathias Pinheiro; officiant Vigário Jacob Joye.

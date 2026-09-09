@@ -3,79 +3,113 @@ id: P-0037
 preferred_name: Maria Joanna da Silva Ferreira
 privacy: deceased
 sex: female
+nationality: Brazilian
 name_variants:
 - value: Maria Joanna da Silva Ferreira
   type: source
   source_ids:
   - CIV-0019
-event_ids: []
+- value: Maria Joanna Rocheman
+  type: birth
+  source_ids:
+  - PAR-0069
+  - PAR-0070
+event_ids:
+- E-0093
+- E-0094
 family_ids:
 - F-0017
+- F-0054
 notes:
 - text: >-
     Ahnentafel position 63 — mother of Lucinda Ferreira da Silva (P-0031), hence
-    Celina's (P-0015) maternal grandmother. Named with her husband Antonio da Silva
-    Ferreira (P-0036) as the maternal grandparents in Alberto Bohrer's 1890 Nova
-    Friburgo birth (CIV-0019). No record of her own has been located.
+    Celina's (P-0015) maternal grandmother. Born (as Maria Joanna Rocheman) 2 May 1841 at
+    Nova Friburgo, baptised 20 February 1842 (PAR-0069, E-0093); married Antonio da Silva
+    Ferreira (P-0036) there on 3 March 1859 aged 18 (PAR-0070, E-0094). Also named with her
+    husband as the maternal grandparents in Alberto Bohrer's 1890 Nova Friburgo birth
+    (CIV-0019).
   text_pt: >-
     Posição 63 no Ahnentafel — mãe de Lucinda Ferreira da Silva (P-0031), portanto
-    avó materna de Celina (P-0015). Nomeada junto com seu marido Antonio da Silva
-    Ferreira (P-0036) como os avós maternos no nascimento de 1890 de Alberto Bohrer
-    em Nova Friburgo (CIV-0019). Nenhum registro próprio dela foi localizado.
+    avó materna de Celina (P-0015). Nascida (como Maria Joanna Rocheman) em 2 de maio de 1841
+    em Nova Friburgo, baptizada em 20 de fevereiro de 1842 (PAR-0069, E-0093); casou-se ali com
+    Antonio da Silva Ferreira (P-0036) em 3 de março de 1859, aos 18 anos (PAR-0070, E-0094).
+    Também nomeada, junto com seu marido, como avós maternos no nascimento de 1890 de Alberto
+    Bohrer em Nova Friburgo (CIV-0019).
 - text: >-
-    Nationality left unset: no birthplace or stated nacionalidade is evidenced.
+    Nationality Brazilian — she is "natural e baptizada n'esta Freguezia de São João Baptista"
+    (Nova Friburgo) in both her baptism (PAR-0069) and marriage (PAR-0070), i.e. born in Brazil.
+    Her father, João José Rocheman (Rutschmann), was a Swiss immigrant from Bulle.
   text_pt: >-
-    Nacionalidade deixada em branco: nenhum local de nascimento ou nacionalidade
-    declarada está evidenciado.
+    Nacionalidade brasileira — é "natural e baptizada n'esta Freguezia de São João Baptista"
+    (Nova Friburgo) tanto em seu batismo (PAR-0069) quanto em seu casamento (PAR-0070), ou seja,
+    nascida no Brasil. Seu pai, João José Rocheman (Rutschmann), era imigrante suíço de Bulle.
 profile: >-
   ## Identity
 
-  **Maria Joanna da Silva Ferreira** — a thinly documented ancestor, known from a single
-  held record. [PROVEN]
+  **Maria Joanna da Silva Ferreira** (née **Rocheman/Rutschmann**) — the Nova-Friburgo-born
+  daughter of a Swiss colonist, who married a Portuguese immigrant. [PROVEN]
 
-  - **Role:** mother of Lucinda Ferreira da Silva (P-0031) and wife of Antonio da Silva
-  Ferreira (P-0036; family F-0017); hence Celina Bohrer's (P-0015) maternal grandmother.
-  [PROVEN]
+  - **Role:** mother of Lucinda Ferreira da Silva (P-0031) and wife of Antonio da Silva Ferreira
+  (P-0036; family F-0017); hence Celina Bohrer's (P-0015) maternal grandmother. [PROVEN]
 
-  - **Only attestation:** named, with her husband, as the maternal grandparents of the
-  child in Alberto Bohrer's 1890 Nova Friburgo civil birth (CIV-0019). No record of her
-  own has been located. [PROVEN via CIV-0019]
+  - **Birth:** born 2 May 1841 at Nova Friburgo and baptised 20 February 1842 at the Matriz de
+  São João Baptista (PAR-0069, event E-0093), legitimate daughter of João José Rocheman
+  (Rutschmann, P-0109) — a Swiss immigrant from Bulle, canton Fribourg — and Elisabeth (Isabel)
+  Storck (P-0110); family F-0054. [PROVEN]
 
-  - **Origin:** undocumented; nationality deliberately left unset — no birthplace or stated
-  nacionalidade is evidenced. [OPEN]
+  - **Marriage:** married Antonio da Silva Ferreira on 3 March 1859 at the same church, aged 18
+  (PAR-0070, event E-0094). [PROVEN]
+
+  ## Family and social network
+
+  She sits at the junction of two immigrant strands of the Nova Friburgo colony: her father's
+  Swiss line (Rutschmann of Bulle) and her husband's Portuguese in-migration. Her daughter Lucinda
+  married into the *negociante* Bohrer household at the Alto da Serra (CIV-0019) — the documented
+  petty-merchant band of the colony [INFERRED/CONTEXTUAL].
 
   ## Open questions
 
-  - Her own vital records, origin and parentage — none located; a marriage or baptism act
-  would supply them. [OPEN]
+  - Her death record (not yet located), which would fix her later life and place. [OPEN]
 
   ## Sources held (this repository)
 
-  - CIV-0019 (Alberto Bohrer's 1890 Nova Friburgo birth — the sole record naming her, as
-  maternal grandmother).
+  - PAR-0069 (her 1841/42 Nova Friburgo baptism — names her parents).
+
+  - PAR-0070 (her 1859 Nova Friburgo marriage to Antonio da Silva Ferreira).
+
+  - CIV-0019 (Alberto Bohrer's 1890 Nova Friburgo birth — names her as maternal grandmother).
 profile_pt: >-
   ## Identidade
 
-  **Maria Joanna da Silva Ferreira** — uma ancestral pouco documentada, conhecida por um
-  único registro disponível. [PROVEN]
+  **Maria Joanna da Silva Ferreira** (nascida **Rocheman/Rutschmann**) — filha, nascida em Nova
+  Friburgo, de um colono suíço, que se casou com um imigrante português. [PROVEN]
 
-  - **Papel:** mãe de Lucinda Ferreira da Silva (P-0031) e esposa de Antonio da Silva
-  Ferreira (P-0036; família F-0017); portanto, avó materna de Celina Bohrer (P-0015).
-  [PROVEN]
+  - **Papel:** mãe de Lucinda Ferreira da Silva (P-0031) e esposa de Antonio da Silva Ferreira
+  (P-0036; família F-0017); portanto, avó materna de Celina Bohrer (P-0015). [PROVEN]
 
-  - **Única atestação:** nomeada, junto com seu marido, como avós maternos da criança no
-  nascimento civil de 1890 de Alberto Bohrer, em Nova Friburgo (CIV-0019). Nenhum registro
-  próprio dela foi localizado. [PROVEN via CIV-0019]
+  - **Nascimento:** nascida em 2 de maio de 1841 em Nova Friburgo e baptizada em 20 de fevereiro
+  de 1842 na Matriz de São João Baptista (PAR-0069, evento E-0093), filha legítima de João José
+  Rocheman (Rutschmann, P-0109) — imigrante suíço de Bulle, cantão de Fribourg — e de Elisabeth
+  (Isabel) Storck (P-0110); família F-0054. [PROVEN]
 
-  - **Origem:** não documentada; nacionalidade deliberadamente deixada em branco — nenhum
-  local de nascimento ou nacionalidade declarada está evidenciado. [OPEN]
+  - **Casamento:** casou-se com Antonio da Silva Ferreira em 3 de março de 1859 na mesma igreja,
+  aos 18 anos (PAR-0070, evento E-0094). [PROVEN]
+
+  ## Família e rede social
+
+  Ela está na junção de duas correntes imigrantes da colônia de Nova Friburgo: a linha suíça do pai
+  (Rutschmann, de Bulle) e a imigração portuguesa do marido. Sua filha Lucinda casou-se com o lar
+  *negociante* dos Bohrer, no Alto da Serra (CIV-0019) — a faixa documentada de pequenos
+  comerciantes da colônia [INFERRED/CONTEXTUAL].
 
   ## Questões em aberto
 
-  - Seus próprios registros vitais, origem e filiação — nenhum localizado; um ato de
-  casamento ou batismo os forneceria. [OPEN]
+  - Seu registro de óbito (ainda não localizado), que fixaria sua vida posterior e o local. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
-  - CIV-0019 (nascimento de 1890 de Alberto Bohrer, em Nova Friburgo — o único registro que
-  a nomeia, como avó materna).
+  - PAR-0069 (seu batismo de 1841/42 em Nova Friburgo — nomeia seus pais).
+
+  - PAR-0070 (seu casamento de 1859 em Nova Friburgo com Antonio da Silva Ferreira).
+
+  - CIV-0019 (nascimento de 1890 de Alberto Bohrer, em Nova Friburgo — nomeia-a como avó materna).

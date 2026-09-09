@@ -1,0 +1,20 @@
+schema_version: 1
+id: E-0095
+event_type: death
+date:
+  kind: exact
+  value: "1860-07-22"
+place_text: Nova Friburgo, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0109
+  role: principal
+status: confirmed
+source_ids:
+- PAR-0071
+notes:
+- text: >-
+    Death of João José Rocheman (Rutschmann, P-0109) at 8.30 p.m. on 22 July 1860 at Nova Friburgo,
+    aged 59 years, 10 months and 22 days (→ born ~30 August 1800), married to Isabel (Elisabeth)
+    Stork (P-0110); recorded as natural and baptised in the parish of Bulle, Canton Fribourg,
+    Switzerland, a naturalised Brazilian; buried the next day in the town cemetery (PAR-0071).
+    Officiant Vigário Jacob Joye.

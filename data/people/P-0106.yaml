@@ -1,0 +1,21 @@
+schema_version: 1
+id: P-0106
+preferred_name: Anna Margaretha [Neis]
+privacy: deceased
+sex: female
+name_variants:
+- value: Anna Margaretha
+  type: source
+  source_ids:
+  - PAR-0066
+  - PAR-0068
+event_ids:
+- E-0090
+family_ids:
+- F-0052
+notes:
+- text: >-
+    Mother of Jacob Klein (P-0103); named "Anna Margaretha née [Neis? — uncertain]" in Jacob's 1844
+    Lutheran baptism (PAR-0066) and, as "verstorbenen Anna Margaretha geb. [Deir/Beir? — uncertain]"
+    (deceased by 1872), in his 1872 marriage (PAR-0068). Her maiden surname is illegibly different
+    between the two records — kept [uncertain], both readings preserved, not asserted as fact.

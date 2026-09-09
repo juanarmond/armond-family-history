@@ -1,0 +1,69 @@
+schema_version: 1
+id: PAR-0071
+title: >-
+  1860 death of João José Rocheman at Nova Friburgo — natural de Bulle, Cantão de
+  Fribourg, Suíça, naturalised Brazilian
+title_pt: >-
+  Óbito de 1860 de João José Rocheman em Nova Friburgo — natural de Bulle, Cantão de
+  Fribourg, Suíça, brasileiro naturalizado
+record_type: Parish burial register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1860-07-22"
+event_place_text: >-
+  Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Matriz de São João Baptista, Nova Friburgo (Livro de Óbitos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Óbitos, folha 139 (1860)
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-09"
+language: pt-BR
+transcription: >-
+  [Livro de Óbitos, Nova Friburgo, fl.139, 1860.] "Aos vinte e dois dias do mez de Julho, pelas
+  oito horas e meia da noite, do anno de 1860, falleceu da vida presente, n'esta Villa da Nova
+  Friburgo, João José Rocheman, de idade de cincoenta e nove annos, dez mezes e vinte e dois dias,
+  cazado com Isabel Stork, natural e baptizado na Freguezia de Bulle, Cantão de Fribourg, na Suíça,
+  Brasileiro naturalizado; foi encommendado, acompanhado, e sepultado no dia seguinte no Cemiterio
+  d'esta Villa; e para constar fiz este assento que por ser verdade assignei. O Vigario Jacob Joye."
+abstract: >-
+  Parish burial record of João José Rocheman (Rutschmann, P-0109) — Iris Bohrer Muniz's
+  4×-great-grandfather on the Rutschmann line — who died at 8.30 p.m. on 22 July 1860 at Nova
+  Friburgo, aged 59 years, 10 months and 22 days (→ born ~30 August 1800), husband of Isabel
+  (Elisabeth) Stork (P-0110). STATES HIS SWISS ORIGIN: natural and baptised in the parish of Bulle,
+  Canton Fribourg, Switzerland, a naturalised Brazilian. Source for the death event E-0095.
+abstract_pt: >-
+  Registro de óbito de João José Rocheman (Rutschmann, P-0109) — tetravô de Iris Bohrer Muniz na
+  linha Rutschmann — falecido às 20h30 de 22 de julho de 1860 em Nova Friburgo, com 59 anos, 10
+  meses e 22 dias (→ nascido ~30 de agosto de 1800), marido de Isabel (Elisabeth) Stork (P-0110).
+  DECLARA SUA ORIGEM SUÍÇA: natural e baptizado na Freguezia de Bulle, Cantão de Fribourg, Suíça,
+  brasileiro naturalizado. Fonte do evento de óbito E-0095.
+reliability:
+  assessment: >-
+    Primary parish burial entry — direct primary for the death and, as recorded, for the deceased's
+    age, spouse and Swiss origin.
+  informant: The Vigário Jacob Joye.
+  limitations: >-
+    Age (and thus the derived ~1800 birth) is as recorded by the parish. Delivered via the Fundação
+    D. João VI digitisation (C-009).
+digital_file:
+  path: evidence/parish/PAR-0071-bohrer-rutschmann-joaojoseph-death-1860-novafriburgo.jpg
+  sha256: e22916fc8a29777366c0534ec4d1b8faab4e3c94144eb5d39d48de38d469c215
+linked_people:
+- P-0109
+- P-0110
+linked_families:
+- F-0054
+linked_events:
+- E-0095
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the death event E-0095 (João José Rocheman, 22 July 1860). Confirms his Swiss origin
+    (Bulle, Canton Fribourg) and derived birth ~1800; corroborates the F-0054 couple.

@@ -1,0 +1,25 @@
+schema_version: 1
+id: P-0114
+preferred_name: Joseph Stoffel
+privacy: deceased
+sex: male
+nationality: Swiss
+name_variants:
+- value: Joseph Stoffel
+  type: source
+  source_ids:
+  - PAR-0067
+occupations:
+- value: colono (Schweizer Colonist / Swiss colonist)
+  source_ids:
+  - PAR-0067
+event_ids: []
+family_ids:
+- F-0057
+notes:
+- text: >-
+    Father of Maria Luiza (Louisa) Stoffel (P-0108); named in his daughter's 1847 Lutheran marriage
+    at Nova Friburgo (PAR-0067) as "dem Schweizer Colonisten Joseph Stoffel" — expressly a Swiss
+    colonist, so his Swiss origin is record-stated (not inferred from the surname). Modelled as a
+    father-only node per the stated-ancestor rule; no record of his wife is held. Clearly deceased
+    (father of an adult marrying in 1847).

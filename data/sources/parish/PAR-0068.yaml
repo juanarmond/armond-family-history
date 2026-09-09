@@ -1,0 +1,85 @@
+schema_version: 1
+id: PAR-0068
+title: >-
+  1872 Lutheran marriage of Jakob Klein and Maria Luisa Schenkel at Nova Friburgo —
+  naming both parent couples
+title_pt: >-
+  Casamento luterano de 1872 de Jakob Klein e Maria Luisa Schenkel em Nova Friburgo —
+  nomeando os dois casais de pais
+record_type: Lutheran parish marriage register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1872-04-29"
+event_place_text: >-
+  Igreja Evangélica Luterana, Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Lutheran congregation of Nova Friburgo (marriage register)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Trauregister (tabular marriage register), 1872, entry 1
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-09"
+language: de
+transcription: >-
+  [Trauregister, Nova Friburgo, 1872, Nr. 1; tabellarisch: Nr. | Datum der Trauung | Bräutigam |
+  Braut.] "1. | 29ter April, Morgens 11 Uhr | Jakob Klein, ehl[icher] Sohn von Johannes Klein und
+  der verstorbenen Anna Margaretha geb. [Neis — uncertain], [durchgestrichen: Maria Luisa Stoffel]
+  wohnhaft no Rio bonito. 26 Jahre, ledig, evang[elisch]. | Maria Luisa Schenkel, ehl[iche] Tochter
+  von Conrad Schenkel und der verstorbenen Maria Luisa geb. Stoffel. 21 Jahre, ledig, evang."
+transcription_pt: >-
+  [Registro de casamentos, Nova Friburgo, 1872, nº 1; em tabela: Nº | Data do casamento | Noivo |
+  Noiva.] "1. | 29 de abril, às 11 horas da manhã | Jakob Klein, filho legítimo de Johannes Klein e
+  da falecida Anna Margaretha, nascida [Neis — incerto], [riscado: Maria Luisa Stoffel] residente no
+  Rio Bonito. 26 anos, solteiro, evangélico. | Maria Luisa Schenkel, filha legítima de Conrad
+  Schenkel e da falecida Maria Luisa, nascida Stoffel. 21 anos, solteira, evangélica."
+abstract: >-
+  Lutheran marriage of Jakob Klein (P-0103, 26, of Rio Bonito) and Maria Luisa Schenkel (P-0104,
+  21) — Iris Bohrer Muniz's Klein-line great-great-grandparents — on 29 April 1872 at Nova Friburgo.
+  NAMES BOTH PARENT COUPLES: Jakob is a son of Johannes Klein (P-0105) and the late Anna Margaretha
+  née [Neis — uncertain] (P-0106); Maria Luisa is a daughter of Conrad Schenkel (P-0107) and the
+  late Maria Luisa née Stoffel (P-0108). This is their own marriage act — it upgrades the F-0051
+  couple link to primary and is the source for the marriage event E-0092.
+abstract_pt: >-
+  Casamento luterano de Jakob Klein (P-0103, 26 anos, residente no Rio Bonito) e Maria Luisa
+  Schenkel (P-0104, 21 anos) — trisavós de Iris Bohrer Muniz na linha Klein — em 29 de abril de
+  1872, em Nova Friburgo. NOMEIA OS DOIS CASAIS DE PAIS: Jakob é filho de Johannes Klein (P-0105) e
+  da falecida Anna Margaretha, nascida [Neis — incerto] (P-0106); Maria Luisa é filha de Conrad
+  Schenkel (P-0107) e da falecida Maria Luisa, nascida Stoffel (P-0108). É o próprio ato de
+  casamento do casal — eleva o vínculo da família F-0051 a primário e é a fonte do evento de
+  casamento E-0092.
+reliability:
+  assessment: >-
+    Primary Lutheran marriage entry — direct primary for the marriage and, as declared, for both
+    spouses' filiations. Both sets of parents are already deceased ("verstorbenen") by 1872.
+  informant: The contracting parties before the officiating pastor.
+  limitations: >-
+    German Kurrentschrift. Anna Margaretha's maiden surname remains [uncertain]; a mis-started
+    "Maria Luisa Stoffel" is struck through in the groom's cell (a scribal slip). Delivered via the
+    Fundação D. João VI digitisation (C-009).
+digital_file:
+  path: evidence/parish/PAR-0068-bohrer-klein-schenkel-marriage-1872-luterana-novafriburgo.jpg
+  sha256: 23b8b923d956ef2254d8753d8e083bac8a47c707a6845e6598c681cd9004924b
+linked_people:
+- P-0103
+- P-0104
+- P-0105
+- P-0106
+- P-0107
+- P-0108
+linked_families:
+- F-0051
+- F-0052
+- F-0053
+linked_events:
+- E-0092
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the marriage event E-0092 (Jakob Klein × Maria Luisa Schenkel, 1872). Upgrades the
+    F-0051 couple link to primary and corroborates the parent families F-0052 (Klein) and F-0053
+    (Schenkel).

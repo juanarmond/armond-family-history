@@ -8,9 +8,11 @@ name_variants:
   type: source
   source_ids:
   - PAR-0064
-event_ids: []
+event_ids:
+- E-0092
 family_ids:
 - F-0051
+- F-0053
 notes:
 - text: >-
     Mother of Carolina Klein (P-0029); named with her husband Jacob Klein in Valentim × Carolina's

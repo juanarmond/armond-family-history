@@ -1,0 +1,20 @@
+schema_version: 1
+id: P-0111
+preferred_name: Justino da Silva
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: Justino da Silva
+  type: source
+  source_ids:
+  - PAR-0070
+event_ids: []
+family_ids:
+- F-0055
+notes:
+- text: >-
+    Father of Antonio da Silva Ferreira (P-0036); named with his wife Maria Angelica in Antonio's
+    1859 Nova Friburgo marriage (PAR-0070), which records Antonio as "natural e baptizado na
+    Freguezia de [Guenfães? — uncertain], em Portugal". So the Silva Ferreira line is Portuguese
+    (record-attested origin), not Swiss-colony. Modelled per the stated-ancestor rule.

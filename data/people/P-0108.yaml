@@ -1,0 +1,28 @@
+schema_version: 1
+id: P-0108
+preferred_name: Maria Luiza Stoffel
+privacy: deceased
+sex: female
+name_variants:
+- value: Louisa Stoffel
+  type: source
+  source_ids:
+  - PAR-0067
+- value: Maria Luiza Stoffel
+  type: source
+  source_ids:
+  - PAR-0068
+event_ids:
+- E-0091
+family_ids:
+- F-0053
+- F-0057
+notes:
+- text: >-
+    Mother of Maria Luiza Schenkel (P-0104); the bride "Louisa Stoffel, eheliche ledige Tochter von
+    dem Schweizer Colonisten Joseph Stoffel" in her 1847 Lutheran marriage to Conrad Schenkel
+    (PAR-0067), and named "verstorbenen Maria Luisa geb. Stoffel" (deceased by 1872) in her
+    daughter's 1872 marriage (PAR-0068). Her father Joseph Stoffel, expressly a "Schweizer Colonist"
+    (Swiss colonist), is modelled as P-0114 (father-only family F-0057) with a record-stated Swiss
+    origin. Her own nationality is left unset (her mother is unrecorded), though the Swiss-colonist
+    father points to the Stoffel line being Swiss.

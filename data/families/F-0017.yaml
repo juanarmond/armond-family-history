@@ -2,9 +2,19 @@ schema_version: 1
 id: F-0017
 partners:
 - person_id: P-0036
-  role: parent
+  role: spouse
 - person_id: P-0037
-  role: parent
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PAR-0070
+  notes:
+  - text: >-
+      Antonio da Silva Ferreira × Maria Joanna Rocheman (Rutschmann) married 3 March 1859 at the
+      Matriz de São João Baptista, Nova Friburgo (PAR-0070, event E-0094). The record names both
+      parent couples — Justino da Silva × Maria Angelica (F-0055) and João José Rocheman × Isabel
+      Stork (F-0054) — and states Antonio's Portuguese origin.
 children:
 - person_id: P-0031
   parent_relationships:
@@ -21,12 +31,12 @@ children:
     - CIV-0019
     notes: []
   notes: []
-event_ids: []
+event_ids:
+- E-0094
 notes:
 - text: >-
     Antonio da Silva Ferreira and Maria Joanna da Silva Ferreira, parents of Lucinda
-    Ferreira da Silva (P-0031). Established by Alberto Bohrer's 1890 birth
-    (CIV-0019), which names them as the child's maternal grandparents (Antonio "e
-    de sua mulher Maria Joanna"). Strong-evidence, stated indirectly in a
-    grandchild's birth. This group records the reported parents; no dedicated
-    marriage record has been located.
+    Ferreira da Silva (P-0031). Their 1859 marriage (PAR-0070, E-0094) is now held and
+    names both spouses' parents; the couple link is confirmed. Alberto Bohrer's 1890
+    birth (CIV-0019) independently names them as the child's maternal grandparents
+    (Antonio "e de sua mulher Maria Joanna").

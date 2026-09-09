@@ -1,0 +1,34 @@
+schema_version: 1
+id: F-0055
+partners:
+- person_id: P-0111
+  role: spouse
+- person_id: P-0112
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0070
+  notes:
+  - text: >-
+      Justino da Silva × Maria Angelica, Portuguese, parents of Antonio da Silva Ferreira (P-0036);
+      named in Antonio's 1859 Nova Friburgo marriage (PAR-0070), which records Antonio as natural de
+      Portugal. No marriage act of their own is held.
+children:
+- person_id: P-0036
+  parent_relationships:
+  - parent_id: P-0111
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0070
+    notes: []
+  - parent_id: P-0112
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0070
+    notes: []
+  notes: []
+event_ids: []
+notes: []

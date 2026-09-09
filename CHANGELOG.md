@@ -5,6 +5,30 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Bohrer djoaovi haul, wave 3: Iris's maternal Rutschmann/Silva line + Klein/Schenkel/Stoffel Swiss ancestors (2026-09-09)
+
+- Six primary Nova Friburgo records catalogued (all read and verified against the image, not from
+  the retrieval leads): **PAR-0066** Jacob Klein Lutheran baptism 1844/45 (E-0090; born 16 Nov 1844,
+  bapt 4 Mar 1845 — the "9br" corrects the lead's October), **PAR-0067** Conrad Schenkel × Louisa
+  Stoffel marriage 1847 (E-0091), **PAR-0068** Jakob Klein × Maria Luisa Schenkel marriage 1872
+  (E-0092; names both parent couples, **upgrades F-0051 to confirmed**), **PAR-0069** Maria Joanna
+  Rutschmann baptism 1841/42 (E-0093; born 2 May 1841), **PAR-0070** Antonio da Silva Ferreira ×
+  Maria Joanna Rocheman marriage 1859 (E-0094; **upgrades F-0017 to confirmed**), **PAR-0071** João
+  José Rocheman death 1860 (E-0095; aged 59y10m22d → born ~30 Aug 1800, natural de Bulle, Fribourg).
+- **Twelve new ancestors** (P-0103 already existed; P-0105–P-0114) with parentage families
+  F-0052–F-0057: Jacob Klein's parents (Johannes Klein × Anna Margaretha née [Neis—uncertain]),
+  Maria Luisa Schenkel's parents (Conrad Schenkel × Maria Luiza Stoffel), Maria Joanna Rutschmann's
+  parents (João José Rocheman *of Bulle, Switzerland* × Elisabeth Storck), Antonio da Silva
+  Ferreira's parents (Justino da Silva × Maria Angelica, *Portugal*), and the two named fathers
+  Heinrich Schenkel and the Swiss colonist Joseph Stoffel (father-only nodes).
+- **Antonio da Silva Ferreira (P-0036) confirmed Portuguese** and **Maria Joanna (P-0037) confirmed
+  Brazilian-born of a Swiss father** — nationalities read from the marriage/baptism records, not the
+  surname; both profiles (EN+PT) rewritten from stale "single-record/leads-not-adopted" to the
+  proven marriage, origin and parentage.
+- Ancestor-gap audit clean (P-0109's parentage deliberately open, noted); make check green (70
+  tests); feed at 76 entries; GEDCOM re-exported (5142 lines). Wave 4 queued (Maria Thecla baptism,
+  Eggendorn–Frees marriage, collateral baptisms, whole-page arrival ledgers).
+
 ### Added — Bohrer djoaovi haul, wave 2: Iris's paternal Borer chain + 9 deep Swiss ancestors (2026-09-09)
 
 - Seven primary Nova Friburgo parish records for Iris's paternal Borer line (previously

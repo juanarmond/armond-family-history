@@ -1,0 +1,19 @@
+schema_version: 1
+id: P-0112
+preferred_name: Maria Angelica
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Maria Angelica
+  type: source
+  source_ids:
+  - PAR-0070
+event_ids: []
+family_ids:
+- F-0055
+notes:
+- text: >-
+    Mother of Antonio da Silva Ferreira (P-0036); named with her husband Justino da Silva in
+    Antonio's 1859 Nova Friburgo marriage (PAR-0070). Portuguese (the son is "natural de Portugal").
+    Modelled per the stated-ancestor rule.

@@ -1,0 +1,21 @@
+schema_version: 1
+id: F-0057
+partners:
+- person_id: P-0114
+  role: parent
+children:
+- person_id: P-0108
+  parent_relationships:
+  - parent_id: P-0114
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0067
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Father-only parentage of Maria Luiza (Louisa) Stoffel (P-0108): her father Joseph Stoffel
+    (P-0114), a "Schweizer Colonist" (Swiss colonist), is named in her 1847 marriage (PAR-0067); the
+    mother is not recorded. Single-partner family (no partner_relationship).

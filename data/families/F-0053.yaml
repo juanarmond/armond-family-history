@@ -1,0 +1,35 @@
+schema_version: 1
+id: F-0053
+partners:
+- person_id: P-0107
+  role: spouse
+- person_id: P-0108
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PAR-0067
+  notes:
+  - text: >-
+      Conrad Schenkel × Maria Luiza (Louisa) Stoffel — their 1847 Lutheran marriage act is held
+      (PAR-0067, event E-0091), naming Conrad's father Heinrich Schenkel and Maria Luiza's father
+      Joseph Stoffel (a "Schweizer Colonist"). Parents of Maria Luiza Schenkel (P-0104).
+children:
+- person_id: P-0104
+  parent_relationships:
+  - parent_id: P-0107
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0068
+    notes: []
+  - parent_id: P-0108
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0068
+    notes: []
+  notes: []
+event_ids:
+- E-0091
+notes: []

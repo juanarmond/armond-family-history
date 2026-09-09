@@ -1,0 +1,36 @@
+schema_version: 1
+id: F-0052
+partners:
+- person_id: P-0105
+  role: spouse
+- person_id: P-0106
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0066
+  notes:
+  - text: >-
+      Johannes Klein × Anna Margaretha, Lutheran colonists, parents of Jacob Klein (P-0103); named
+      in his 1844 baptism (PAR-0066) and 1872 marriage (PAR-0068). No marriage act of their own is
+      held; Anna Margaretha's maiden surname is [uncertain].
+children:
+- person_id: P-0103
+  parent_relationships:
+  - parent_id: P-0105
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0066
+    - PAR-0068
+    notes: []
+  - parent_id: P-0106
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0066
+    - PAR-0068
+    notes: []
+  notes: []
+event_ids: []
+notes: []

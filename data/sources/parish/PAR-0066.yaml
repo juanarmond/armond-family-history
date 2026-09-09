@@ -1,0 +1,72 @@
+schema_version: 1
+id: PAR-0066
+title: >-
+  1844/45 Lutheran baptism of Jacob Klein at Nova Friburgo — son of the colonist
+  Johannes Klein and Anna Margaretha
+title_pt: >-
+  Batismo luterano de 1844/45 de Jacob Klein em Nova Friburgo — filho do colono
+  Johannes Klein e de Anna Margaretha
+record_type: Lutheran parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1845-03-04"
+event_place_text: >-
+  Igreja Evangélica Luterana, Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Lutheran congregation of Nova Friburgo (baptism register)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Taufregister (baptism register), 1844, p.22, entry 22
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-09"
+language: de
+transcription: >-
+  [Taufregister, Nova Friburgo, S.22, 1844, Nr. 22.] "Den 16ten 9br [November] wurde dem Colonisten
+  Joh. Klein, und seiner Ehefrau Anna Margar[etha], née geborene [Neis — uncertain], ein Söhnchen
+  geboren, den 4ten März getauft und Jacob genannt. Taufzeugen waren: Jacob Schneider, und
+  Elisabeth, Tochter von Jacob Klein, [Küster] daselbst."
+transcription_pt: >-
+  [Registro de batismos, Nova Friburgo, p.22, 1844, nº 22.] "No dia 16 de novembro nasceu, ao
+  colono Joh[ann] Klein e à sua esposa Anna Margar[etha], nascida [Neis — incerto], um menino,
+  baptizado em 4 de março e chamado Jacob. Foram padrinhos: Jacob Schneider e Elisabeth, filha de
+  Jacob Klein, [sacristão] no mesmo lugar."
+abstract: >-
+  Lutheran baptism of Jacob Klein (P-0103) — Iris Bohrer Muniz's Swiss-colony 3×-great-grandfather
+  on the Klein line — born 16 November 1844 and baptised 4 March 1845 at Nova Friburgo. NAMES HIS
+  PARENTS: the colonist Johannes (Joh.) Klein (P-0105) and Anna Margaretha née [Neis — uncertain]
+  (P-0106). Source for the birth event E-0090 and the parent family F-0052 (new).
+abstract_pt: >-
+  Batismo luterano de Jacob Klein (P-0103) — trisavô de linhagem suíça de Iris Bohrer Muniz na
+  linha Klein — nascido em 16 de novembro de 1844 e baptizado em 4 de março de 1845, em Nova
+  Friburgo. NOMEIA SEUS PAIS: o colono Johannes (Joh.) Klein (P-0105) e Anna Margaretha, nascida
+  [Neis — incerto] (P-0106). Fonte do evento de nascimento E-0090 e da família de pais F-0052
+  (nova).
+reliability:
+  assessment: >-
+    Primary Lutheran baptism entry — direct primary for the birth/baptism and the child's filiation.
+  informant: The officiating pastor from the parents' declaration.
+  limitations: >-
+    German Kurrentschrift. The mother's maiden surname is [uncertain] (read as "Neis"; her son's
+    1872 marriage, PAR-0068, gives the same name equally ambiguously). Delivered via the Fundação
+    D. João VI digitisation (C-009).
+digital_file:
+  path: evidence/parish/PAR-0066-bohrer-klein-jacob-baptism-1844-luterana-novafriburgo.jpg
+  sha256: d3117782a1d369e8d79a8951c26c7760895c953f9f10b3af85d109b9a91148f1
+linked_people:
+- P-0103
+- P-0105
+- P-0106
+linked_families:
+- F-0052
+linked_events:
+- E-0090
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the birth event E-0090 (Jacob Klein, 1844/45). Establishes the parent couple
+    Johannes Klein × Anna Margaretha (F-0052).

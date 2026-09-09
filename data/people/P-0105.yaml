@@ -1,0 +1,23 @@
+schema_version: 1
+id: P-0105
+preferred_name: Johannes Klein
+privacy: deceased
+sex: male
+name_variants:
+- value: Johannes Klein
+  type: source
+  source_ids:
+  - PAR-0066
+- value: Joh. Klein
+  type: source
+  source_ids:
+  - PAR-0068
+event_ids:
+- E-0090
+family_ids:
+- F-0052
+notes:
+- text: >-
+    Father of Jacob Klein (P-0103); a colonist ("Colonisten Joh. Klein") named with his wife Anna
+    Margaretha in Jacob's 1844 Lutheran baptism (PAR-0066) and 1872 marriage (PAR-0068). Protestant
+    (Lutheran) colony family. Modelled per the stated-ancestor rule; nationality left unset.

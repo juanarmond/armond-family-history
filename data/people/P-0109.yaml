@@ -1,0 +1,28 @@
+schema_version: 1
+id: P-0109
+preferred_name: João José Rutschmann
+privacy: deceased
+sex: male
+nationality: Swiss
+name_variants:
+- value: João José Rocheman
+  type: source
+  source_ids:
+  - PAR-0069
+  - PAR-0070
+  - PAR-0071
+event_ids:
+- E-0093
+- E-0095
+family_ids:
+- F-0054
+notes:
+- text: >-
+    Father of Maria Joanna Rutschmann (P-0037); named "João José Rocheman" (the priest's spelling of
+    Rutschmann) in his daughter's 1841 baptism (PAR-0069) and 1859 marriage (PAR-0070). His own 1860
+    Nova Friburgo death (PAR-0071) records him as "natural e baptizado na freguezia de Bulle, Cantão
+    de Friburgo, na Suíça [Bulle, canton Fribourg, Switzerland], Brasileiro naturalizado", aged 59y
+    10m 22d → born ~30 August 1800; husband of Isabel/Elisabeth Storck. Swiss immigrant. His own
+    parentage is unrecorded: the parents not named in any held record (the 1860 death gives only his
+    Bulle origin and wife; his daughter's baptism and marriage name him only as the father), so no
+    parentage family is modelled — the omission is deliberate pending a Bulle baptism.

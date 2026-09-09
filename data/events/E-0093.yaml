@@ -1,0 +1,23 @@
+schema_version: 1
+id: E-0093
+event_type: birth
+date:
+  kind: exact
+  value: "1841-05-02"
+place_text: Nova Friburgo (Matriz de São João Baptista), Rio de Janeiro, Brazil
+participants:
+- person_id: P-0037
+  role: principal
+- person_id: P-0109
+  role: parent
+- person_id: P-0110
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0069
+notes:
+- text: >-
+    Birth of Maria Joanna Rutschmann (P-0037) on 2 May 1841, baptised 20 February 1842 at the
+    Matriz de São João Baptista, Nova Friburgo (PAR-0069): legitimate daughter of João José
+    Rocheman (Rutschmann, P-0109) and Elisabeth (Isabel) Storck (P-0110). Godparents João Balineat
+    and Maria Fabre.

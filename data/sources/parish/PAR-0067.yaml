@@ -1,0 +1,80 @@
+schema_version: 1
+id: PAR-0067
+title: >-
+  1847 Lutheran marriage of Conrad Schenkel and Louisa Stoffel at Nova Friburgo —
+  daughter of the Swiss colonist Joseph Stoffel
+title_pt: >-
+  Casamento luterano de 1847 de Conrad Schenkel e Louisa Stoffel em Nova Friburgo —
+  filha do colono suíço Joseph Stoffel
+record_type: Lutheran parish marriage register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1847-02-03"
+event_place_text: >-
+  Igreja Evangélica Luterana, Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Lutheran congregation of Nova Friburgo (marriage register)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Trauregister (marriage register), 1847, p.9, entry 1
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-09"
+language: de
+transcription: >-
+  [Trauregister, Nova Friburgo, S.9, 1847, Nr. 1.] "Den 3ten Febr[uar] wurden Conrad Schenkel,
+  ehel[icher] leibl[icher] Sohn von dem [Bürger?] Heinrich Schenkel, mit Louisa [St]offel,
+  ehel[iche] ledige Tochter von dem Schweizer Colonisten Joseph [St]offel, copuliert. Zeugen waren
+  ihr Gustav Lenenroth, Handelsmann [wohnhaft?], und Paul Lenenroth, ebenfalls Handelsmann. —
+  Gustav Lenenroth, Pastor."
+transcription_pt: >-
+  [Registro de casamentos, Nova Friburgo, p.9, 1847, nº 1.] "No dia 3 de fevereiro casaram-se
+  Conrad Schenkel, filho legítimo do [cidadão?] Heinrich Schenkel, com Louisa [St]offel, filha
+  legítima solteira do colono suíço Joseph [St]offel. Foram testemunhas Gustav Lenenroth,
+  comerciante, e Paul Lenenroth, igualmente comerciante. — Gustav Lenenroth, Pastor."
+abstract: >-
+  Lutheran marriage of Conrad Schenkel (P-0107) and Louisa — i.e. Maria Luiza — Stoffel (P-0108),
+  Iris Bohrer Muniz's Swiss-colony 4×-great-grandparents on the Schenkel line, on 3 February 1847
+  at Nova Friburgo. NAMES BOTH FATHERS: Conrad is a son of Heinrich Schenkel; Louisa is a daughter
+  of the Swiss colonist ("Schweizer Colonist") Joseph Stoffel. Source for the marriage event E-0091
+  and the parent family F-0053 (new). Their daughter Maria Luisa Schenkel (P-0104) married Jakob
+  Klein in 1872 (PAR-0068).
+abstract_pt: >-
+  Casamento luterano de Conrad Schenkel (P-0107) e Louisa — ou seja, Maria Luiza — Stoffel
+  (P-0108), tetravós de linhagem suíça de Iris Bohrer Muniz na linha Schenkel, em 3 de fevereiro de
+  1847, em Nova Friburgo. NOMEIA OS DOIS PAIS: Conrad é filho de Heinrich Schenkel; Louisa é filha
+  do colono suíço ("Schweizer Colonist") Joseph Stoffel. Fonte do evento de casamento E-0091 e da
+  família de pais F-0053 (nova). A filha Maria Luisa Schenkel (P-0104) casou-se com Jakob Klein em
+  1872 (PAR-0068).
+reliability:
+  assessment: >-
+    Primary Lutheran marriage entry — direct primary for the marriage and, as declared, for both
+    spouses' filiations.
+  informant: The contracting parties before Pastor Gustav Lenenroth.
+  limitations: >-
+    German Kurrentschrift. The Stoffel surname initial and Heinrich Schenkel's descriptor are
+    partly [uncertain]. Delivered via the Fundação D. João VI digitisation (C-009).
+digital_file:
+  path: evidence/parish/PAR-0067-bohrer-schenkel-stoffel-marriage-1847-luterana-novafriburgo.jpg
+  sha256: ca58c476c77cfae38f75ab46078fd572b897a799147c5cada9954e85e36a2f00
+linked_people:
+- P-0107
+- P-0108
+- P-0113
+- P-0114
+linked_families:
+- F-0053
+- F-0056
+- F-0057
+linked_events:
+- E-0091
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the marriage event E-0091 (Conrad Schenkel × Louisa/Maria Luiza Stoffel, 1847) and
+    the parent family F-0053. Also names the spouses' fathers Heinrich Schenkel (P-0113, father-only
+    family F-0056) and the Swiss colonist Joseph Stoffel (P-0114, father-only family F-0057).

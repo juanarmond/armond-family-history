@@ -1,0 +1,24 @@
+schema_version: 1
+id: E-0090
+event_type: birth
+date:
+  kind: exact
+  value: "1844-11-16"
+place_text: Nova Friburgo (Igreja Evangélica Luterana), Rio de Janeiro, Brazil
+participants:
+- person_id: P-0103
+  role: principal
+- person_id: P-0105
+  role: parent
+- person_id: P-0106
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0066
+notes:
+- text: >-
+    Birth of Jacob Klein (P-0103) on 16 November 1844, baptised 4 March 1845 in the Lutheran
+    congregation of Nova Friburgo (PAR-0066, entry 22): son of the colonist Johannes (Joh.) Klein
+    (P-0105) and his wife Anna Margaretha née [Neis — uncertain] (P-0106). Godparents Jacob
+    Schneider and Elisabeth (daughter of Jacob Klein). His 1872 marriage (PAR-0068) records his age
+    as 26.

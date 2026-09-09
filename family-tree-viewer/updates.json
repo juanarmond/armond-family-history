@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T19:22:02Z",
+ "generated": "2026-09-09T20:49:47Z",
  "updates": [
   {
    "date": "2026-09-09",
@@ -79,6 +79,76 @@
    "primary": "PAR-0058",
    "links": [
     "P-0035"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1825 marriage of Jacob Bohrer and Catharina Moser at Nova Friburgo — Swiss colonists of Erschwil and Hägendorf, Canton Solothurn",
+   "title_pt": "Casamento de 1825 de Jacob Bohrer e Catharina Moser em Nova Friburgo — colonos suíços de Erschwil e Hägendorf, Cantão de Soleure",
+   "primary": "PAR-0059",
+   "links": [
+    "P-0050"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1820 marriage of Laurent Borer and Anna Maria Wehrli at Nova Friburgo — both of Grindel, Canton Solothurn",
+   "title_pt": "Casamento de 1820 de Laurent Borer e Anna Maria Wehrli em Nova Friburgo — ambos de Grindel, Cantão de Soleure",
+   "primary": "PAR-0060",
+   "links": [
+    "P-0068"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1828 baptism of Vicente Borer at Nova Friburgo — son of Laurent Borer and Anna Maria Wehrli",
+   "title_pt": "Batismo de 1828 de Vicente Borer em Nova Friburgo — filho de Laurent Borer e Anna Maria Wehrli",
+   "primary": "PAR-0061",
+   "links": [
+    "P-0070"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1864 marriage of Vicente Borer and Maria (Thecla) Eggendorn at Nova Friburgo — names Maria's parents José Eggendorn and Maria Freese",
+   "title_pt": "Casamento de 1864 de Vicente Borer e Maria (Thecla) Eggendorn em Nova Friburgo — nomeia os pais de Maria, José Eggendorn e Maria Freese",
+   "primary": "PAR-0062",
+   "links": [
+    "P-0070"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1868 baptism of Valentim Martinho Bohrer at Nova Friburgo — son of Vicente Bohrer and Maria Eggendorn",
+   "title_pt": "Batismo de 1868 de Valentim Martinho Bohrer em Nova Friburgo — filho de Vicente Bohrer e Maria Eggendorn",
+   "primary": "PAR-0063",
+   "links": [
+    "P-0028"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1890 marriage of Valentim Martinho Bohrer and Carolina Klein at Nova Friburgo — names Carolina's parents Jacob Klein and Maria Luiza Schenkel",
+   "title_pt": "Casamento de 1890 de Valentim Martinho Bohrer e Carolina Klein em Nova Friburgo — nomeia os pais de Carolina, Jacob Klein e Maria Luiza Schenkel",
+   "primary": "PAR-0064",
+   "links": [
+    "P-0028"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1948 death of Valentim Martins Bohrer at Nova Friburgo — husband of Carolina (Klein) Bohrer",
+   "title_pt": "Óbito de 1948 de Valentim Martins Bohrer em Nova Friburgo — marido de Carolina (Klein) Bohrer",
+   "primary": "PAR-0065",
+   "links": [
+    "P-0028"
    ]
   },
   {
@@ -614,71 +684,61 @@
   {
    "date": "",
    "kind": "document",
-   "title": "1825 marriage of Jacob Bohrer and Catharina Moser at Nova Friburgo — Swiss colonists of Erschwil and Hägendorf, Canton Solothurn",
-   "title_pt": "Casamento de 1825 de Jacob Bohrer e Catharina Moser em Nova Friburgo — colonos suíços de Erschwil e Hägendorf, Cantão de Soleure",
-   "primary": "PAR-0059",
+   "title": "1844/45 Lutheran baptism of Jacob Klein at Nova Friburgo — son of the colonist Johannes Klein and Anna Margaretha",
+   "title_pt": "Batismo luterano de 1844/45 de Jacob Klein em Nova Friburgo — filho do colono Johannes Klein e de Anna Margaretha",
+   "primary": "PAR-0066",
    "links": [
-    "P-0050"
+    "P-0103"
    ]
   },
   {
    "date": "",
    "kind": "document",
-   "title": "1820 marriage of Laurent Borer and Anna Maria Wehrli at Nova Friburgo — both of Grindel, Canton Solothurn",
-   "title_pt": "Casamento de 1820 de Laurent Borer e Anna Maria Wehrli em Nova Friburgo — ambos de Grindel, Cantão de Soleure",
-   "primary": "PAR-0060",
+   "title": "1847 Lutheran marriage of Conrad Schenkel and Louisa Stoffel at Nova Friburgo — daughter of the Swiss colonist Joseph Stoffel",
+   "title_pt": "Casamento luterano de 1847 de Conrad Schenkel e Louisa Stoffel em Nova Friburgo — filha do colono suíço Joseph Stoffel",
+   "primary": "PAR-0067",
    "links": [
-    "P-0068"
+    "P-0107"
    ]
   },
   {
    "date": "",
    "kind": "document",
-   "title": "1828 baptism of Vicente Borer at Nova Friburgo — son of Laurent Borer and Anna Maria Wehrli",
-   "title_pt": "Batismo de 1828 de Vicente Borer em Nova Friburgo — filho de Laurent Borer e Anna Maria Wehrli",
-   "primary": "PAR-0061",
+   "title": "1872 Lutheran marriage of Jakob Klein and Maria Luisa Schenkel at Nova Friburgo — naming both parent couples",
+   "title_pt": "Casamento luterano de 1872 de Jakob Klein e Maria Luisa Schenkel em Nova Friburgo — nomeando os dois casais de pais",
+   "primary": "PAR-0068",
    "links": [
-    "P-0070"
+    "P-0103"
    ]
   },
   {
    "date": "",
    "kind": "document",
-   "title": "1864 marriage of Vicente Borer and Maria (Thecla) Eggendorn at Nova Friburgo — names Maria's parents José Eggendorn and Maria Freese",
-   "title_pt": "Casamento de 1864 de Vicente Borer e Maria (Thecla) Eggendorn em Nova Friburgo — nomeia os pais de Maria, José Eggendorn e Maria Freese",
-   "primary": "PAR-0062",
+   "title": "1841/42 baptism of Maria Joanna Rutschmann at Nova Friburgo — daughter of João José Rocheman and Elisabeth Storck",
+   "title_pt": "Batismo de 1841/42 de Maria Joanna Rutschmann em Nova Friburgo — filha de João José Rocheman e Elisabeth Storck",
+   "primary": "PAR-0069",
    "links": [
-    "P-0070"
+    "P-0037"
    ]
   },
   {
    "date": "",
    "kind": "document",
-   "title": "1868 baptism of Valentim Martinho Bohrer at Nova Friburgo — son of Vicente Bohrer and Maria Eggendorn",
-   "title_pt": "Batismo de 1868 de Valentim Martinho Bohrer em Nova Friburgo — filho de Vicente Bohrer e Maria Eggendorn",
-   "primary": "PAR-0063",
+   "title": "1859 marriage of Antonio da Silva Ferreira and Maria Joanna Rocheman at Nova Friburgo — naming both parent couples",
+   "title_pt": "Casamento de 1859 de Antonio da Silva Ferreira e Maria Joanna Rocheman em Nova Friburgo — nomeando os dois casais de pais",
+   "primary": "PAR-0070",
    "links": [
-    "P-0028"
+    "P-0036"
    ]
   },
   {
    "date": "",
    "kind": "document",
-   "title": "1890 marriage of Valentim Martinho Bohrer and Carolina Klein at Nova Friburgo — names Carolina's parents Jacob Klein and Maria Luiza Schenkel",
-   "title_pt": "Casamento de 1890 de Valentim Martinho Bohrer e Carolina Klein em Nova Friburgo — nomeia os pais de Carolina, Jacob Klein e Maria Luiza Schenkel",
-   "primary": "PAR-0064",
+   "title": "1860 death of João José Rocheman at Nova Friburgo — natural de Bulle, Cantão de Fribourg, Suíça, naturalised Brazilian",
+   "title_pt": "Óbito de 1860 de João José Rocheman em Nova Friburgo — natural de Bulle, Cantão de Fribourg, Suíça, brasileiro naturalizado",
+   "primary": "PAR-0071",
    "links": [
-    "P-0028"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1948 death of Valentim Martins Bohrer at Nova Friburgo — husband of Carolina (Klein) Bohrer",
-   "title_pt": "Óbito de 1948 de Valentim Martins Bohrer em Nova Friburgo — marido de Carolina (Klein) Bohrer",
-   "primary": "PAR-0065",
-   "links": [
-    "P-0028"
+    "P-0109"
    ]
   },
   {

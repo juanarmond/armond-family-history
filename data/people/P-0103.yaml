@@ -8,9 +8,12 @@ name_variants:
   type: source
   source_ids:
   - PAR-0064
-event_ids: []
+event_ids:
+- E-0090
+- E-0092
 family_ids:
 - F-0051
+- F-0052
 notes:
 - text: >-
     Father of Carolina Klein (P-0029, wife of Valentim Martinho Bohrer); named with his wife Maria

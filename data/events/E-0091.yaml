@@ -1,0 +1,21 @@
+schema_version: 1
+id: E-0091
+event_type: marriage
+date:
+  kind: exact
+  value: "1847-02-03"
+place_text: Nova Friburgo (Igreja Evangélica Luterana), Rio de Janeiro, Brazil
+participants:
+- person_id: P-0107
+  role: spouse
+- person_id: P-0108
+  role: spouse
+status: confirmed
+source_ids:
+- PAR-0067
+notes:
+- text: >-
+    Marriage of Conrad Schenkel (P-0107), legitimate son of Heinrich Schenkel, and Louisa (Maria
+    Luiza) Stoffel (P-0108), legitimate daughter of the Swiss colonist ("Schweizer Colonist")
+    Joseph Stoffel, on 3 February 1847 in the Lutheran congregation of Nova Friburgo (PAR-0067,
+    entry 1). Witnesses Gustav and Paul Lenenroth (merchants); officiant Pastor Gustav Lenenroth.

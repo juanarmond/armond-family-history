@@ -6,16 +6,18 @@ partners:
 - person_id: P-0104
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
+  - PAR-0068
   - PAR-0064
   notes:
   - text: >-
-      Jacob Klein × Maria Luiza Schenkel, parents of Carolina Klein (P-0029), named in Valentim ×
-      Carolina's 1890 marriage (PAR-0064). Their own 1872 Lutheran marriage is to be catalogued in
-      a later wave (Jacob = son of Johannes Klein × Anna Margaretha; Maria Luiza = daughter of
-      Conrad Schenkel × Maria Luiza Stoffel); this link will then upgrade to primary. Protestant
-      (Lutheran) family.
+      Jacob (Jakob) Klein × Maria Luisa Schenkel, parents of Carolina Klein (P-0029). Their own
+      1872 Lutheran marriage act is now held (PAR-0068, event E-0092): it names Jakob as son of
+      Johannes Klein × the late Anna Margaretha (F-0052) and Maria Luisa as daughter of Conrad
+      Schenkel × the late Maria Luiza Stoffel (F-0053) — so the couple link is confirmed. Valentim ×
+      Carolina's 1890 marriage (PAR-0064) had first named the couple as Carolina's parents.
+      Protestant (Lutheran) family.
 children:
 - person_id: P-0029
   parent_relationships:
@@ -32,5 +34,6 @@ children:
     - PAR-0064
     notes: []
   notes: []
-event_ids: []
+event_ids:
+- E-0092
 notes: []

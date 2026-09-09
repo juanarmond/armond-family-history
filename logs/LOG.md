@@ -1649,3 +1649,35 @@ Follow-up to the profile sweep. New intake + verification (3 read agents + 2 ima
    doméstica). Deferred: PRB-0009 (Ladisláo) enslaved roster — held folios stop before the avaliação;
    names not confirmable from held evidence, unlike PRB-0008.
 make check green (344 entities, 70 tests); GEDCOM 4359; index 344.
+
+## 2026-09-09 — Bohrer djoaovi haul, Wave 3: maternal Rutschmann/Silva line + Klein/Schenkel/Stoffel
+
+Deep-research intake (6 record images, each opened and transcribed centrally against the image —
+the retrieval FINDINGS/CSV were treated as leads only). German Kurrentschrift crops were enlarged
+with PIL to resolve dates and filiations.
+
+1. **Klein/Schenkel/Stoffel (Lutheran, Nova Friburgo).** PAR-0066 Jacob Klein baptism: born 16 Nov
+   1844 ("9br", correcting the lead's October), bapt 4 Mar 1845, son of colonist Johannes Klein
+   (P-0105) × Anna Margaretha née [Neis — uncertain] (P-0106) → F-0052, event E-0090. PAR-0067
+   Conrad Schenkel × Louisa (Maria Luiza) Stoffel marriage 3 Feb 1847 → F-0053, E-0091; names
+   Conrad's father Heinrich Schenkel (→ P-0113/F-0056) and the Swiss colonist Joseph Stoffel
+   (→ P-0114/F-0057, record-stated Swiss origin). PAR-0068 Jakob Klein (26, of Rio Bonito) × Maria
+   Luisa Schenkel (21) marriage 29 Apr 1872 → E-0092; names both parent couples; a struck-through
+   "Maria Luisa Stoffel" in the groom cell is a scribal slip. F-0051 upgraded strong→confirmed.
+2. **Rutschmann/Storck/Silva (Catholic matriz, Nova Friburgo).** PAR-0069 Maria Joanna Rutschmann
+   baptism: born 2 May 1841, bapt 20 Feb 1842, daughter of João José Rocheman (Rutschmann, P-0109)
+   × Elisabeth Storck (P-0110) → F-0054, E-0093. PAR-0070 Antonio da Silva Ferreira × Maria Joanna
+   marriage 3 Mar 1859 → E-0094; Antonio natural de [Guenfães — uncertain] Portugal, son of Justino
+   da Silva (P-0111) × Maria Angelica (P-0112) → F-0055; the groom's age was left blank. F-0017
+   upgraded to confirmed. PAR-0071 João José Rocheman death 22 Jul 1860 → E-0095, aged 59y10m22d
+   (→ born ~30 Aug 1800), natural de Bulle, Cantão de Fribourg, Suíça, brasileiro naturalizado.
+3. **Attributes read from the records (not inferred):** P-0036 nationality Portuguese; P-0037
+   nationality Brazilian (born Nova Friburgo of a Swiss father) + maiden name Maria Joanna Rocheman;
+   P-0114 nationality Swiss ("Schweizer Colonist"). Both P-0036 and P-0037 profiles (EN+PT) rewritten
+   from stale "single record / leads not adopted" to the now-proven marriage, origin and parentage.
+4. **Completeness.** Full event + family reciprocity verified both directions. Ancestor-gap audit:
+   P-0107/P-0108 resolved (father nodes modelled); P-0109 left deliberately parentless (his death
+   record names no parents) with an acknowledged note. Drop-pages audit: no missing pages (all six
+   are single-page). make check green (70 tests, 114 people / 57 families / 92 events / 132 sources);
+   feed 76 entries; GEDCOM 5142 lines. Wave 4 queued (Maria Thecla baptism, Eggendorn–Frees marriage,
+   collateral baptisms, whole-page arrival ledgers).

@@ -1,0 +1,89 @@
+schema_version: 1
+id: PAR-0070
+title: >-
+  1859 marriage of Antonio da Silva Ferreira and Maria Joanna Rocheman at Nova
+  Friburgo — naming both parent couples
+title_pt: >-
+  Casamento de 1859 de Antonio da Silva Ferreira e Maria Joanna Rocheman em Nova
+  Friburgo — nomeando os dois casais de pais
+record_type: Parish marriage register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1859-03-03"
+event_place_text: >-
+  Matriz de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Matriz de São João Baptista, Nova Friburgo (Livro de Casamentos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Casamentos, folha 209 (1859)
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-09"
+language: pt-BR
+transcription: >-
+  [Livro de Casamentos, Nova Friburgo, fl.209, 1859.] "Aos tres dias do mez de Março de mil
+  oitocentos e cincoenta e nove, feitas as tres publicações Canonicas n'esta Igreja parochial de
+  São João Baptista da Villa da Nova Friburgo, onde os contrahentes são fregueses, na forma do
+  Sagrado Concilio Tridentino, sem se discubrir impedimento algum, em presença do Reverendo Padre
+  João José [Arbiard? — uncertain] com licença minha passada em 24 de Janeiro 1859, e sendo
+  presentes como testimunhas Domingos Baptista Bittencourt e Luiz Mathias Pinheiro, pessoas
+  conhecidas, se casarão solemnemente por palavras em face da Igreja, Antonio da Silva Ferreira
+  filho legitimo de Justino da Silva e de Maria Angelica, natural e baptizado na Freguezia de
+  [Guenfães? — uncertain] em Portugal, e Maria Joanna Rocheman filha legitima de João José Rocheman
+  e de Isabel Stork, natural e baptizada n'esta Freguezia de São João Baptista, donde ambos são de
+  presente moradores; sendo o noivo de idade de [em branco] annos, e a noiva de 18 annos; e logo
+  lhes forão dadas as bencões na forma do ritual romano e Constituições do Bispado; e para constar
+  fiz este assento que por ser verdade assignei. O Vigario Jacob Joye."
+abstract: >-
+  Parish marriage of Antonio da Silva Ferreira (P-0036) and Maria Joanna Rocheman (Rutschmann,
+  P-0037), 18 — Iris Bohrer Muniz's Silva Ferreira / Rutschmann ancestors — on 3 March 1859 at the
+  Matriz de São João Baptista, Nova Friburgo. NAMES BOTH PARENT COUPLES: Antonio is a legitimate
+  son of Justino da Silva (P-0111) and Maria Angelica (P-0112), natural and baptised in the parish
+  of [Guenfães — uncertain], Portugal; Maria Joanna a legitimate daughter of João José Rocheman
+  (P-0109) and Isabel Stork (P-0110), of Nova Friburgo. The groom's age was left blank. Source for
+  the marriage event E-0094 and the parent families F-0055 (Silva, new) and F-0054 (Rutschmann).
+abstract_pt: >-
+  Casamento paroquial de Antonio da Silva Ferreira (P-0036) e Maria Joanna Rocheman (Rutschmann,
+  P-0037), 18 anos — ancestrais de Iris Bohrer Muniz na linha Silva Ferreira / Rutschmann — em 3 de
+  março de 1859, na Matriz de São João Baptista, Nova Friburgo. NOMEIA OS DOIS CASAIS DE PAIS:
+  Antonio é filho legítimo de Justino da Silva (P-0111) e Maria Angelica (P-0112), natural e
+  baptizado na Freguezia de [Guenfães — incerto], em Portugal; Maria Joanna é filha legítima de
+  João José Rocheman (P-0109) e Isabel Stork (P-0110), de Nova Friburgo. A idade do noivo ficou em
+  branco. Fonte do evento de casamento E-0094 e das famílias de pais F-0055 (Silva, nova) e F-0054
+  (Rutschmann).
+reliability:
+  assessment: >-
+    Primary parish marriage entry — direct primary for the marriage and, as declared, for both
+    spouses' filiations and Antonio's Portuguese origin.
+  informant: The Vigário Jacob Joye from the contracting parties' declaration.
+  limitations: >-
+    The groom's Portuguese home parish ("Guenfães") and the assisting priest's surname are
+    [uncertain]; the groom's age was left blank. Delivered via the Fundação D. João VI digitisation
+    (C-009).
+digital_file:
+  path: evidence/parish/PAR-0070-bohrer-silvaferreira-rutschmann-marriage-1859-novafriburgo.jpg
+  sha256: 5f99da677b37d7b2f036c33fb8a08b616686247f140aa2c94b581ac89c62e005
+linked_people:
+- P-0036
+- P-0037
+- P-0109
+- P-0110
+- P-0111
+- P-0112
+linked_families:
+- F-0017
+- F-0054
+- F-0055
+linked_events:
+- E-0094
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the marriage event E-0094 (Antonio da Silva Ferreira × Maria Joanna Rocheman, 1859).
+    Upgrades the F-0017 couple link to primary and establishes the parent families F-0055 (Silva)
+    and F-0054 (Rutschmann). Antonio's stated origin (Portugal) is record-attested, not inferred.

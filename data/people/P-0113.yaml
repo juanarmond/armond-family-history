@@ -1,0 +1,19 @@
+schema_version: 1
+id: P-0113
+preferred_name: Heinrich Schenkel
+privacy: deceased
+sex: male
+name_variants:
+- value: Heinrich Schenkel
+  type: source
+  source_ids:
+  - PAR-0067
+event_ids: []
+family_ids:
+- F-0056
+notes:
+- text: >-
+    Father of Conrad Schenkel (P-0107); named as "Heinrich Schenkel" in Conrad's 1847 Lutheran
+    marriage at Nova Friburgo (PAR-0067). Modelled as a father-only node per the stated-ancestor
+    rule; no record of his wife or his own origin is held, so nationality is unset. Clearly deceased
+    (father of an adult marrying in 1847).

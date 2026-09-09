@@ -1,0 +1,23 @@
+schema_version: 1
+id: P-0107
+preferred_name: Conrad Schenkel
+privacy: deceased
+sex: male
+name_variants:
+- value: Conrad Schenkel
+  type: source
+  source_ids:
+  - PAR-0067
+  - PAR-0068
+event_ids:
+- E-0091
+family_ids:
+- F-0053
+- F-0056
+notes:
+- text: >-
+    Father of Maria Luiza Schenkel (P-0104); the groom "Conrad Schenkel, ehelicher lediger Sohn von
+    Heinrich Schenkel" in his 1847 Lutheran marriage to Maria Luiza Stoffel (PAR-0067), and named as
+    Maria Luiza's father in her 1872 marriage (PAR-0068). His own father Heinrich Schenkel is
+    modelled as P-0113 (father-only family F-0056). The register writes only "Conrad" (not "Georg
+    Conrad"). Protestant. Nationality unset.

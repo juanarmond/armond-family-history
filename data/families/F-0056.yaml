@@ -1,0 +1,21 @@
+schema_version: 1
+id: F-0056
+partners:
+- person_id: P-0113
+  role: parent
+children:
+- person_id: P-0107
+  parent_relationships:
+  - parent_id: P-0113
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0067
+    notes: []
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Father-only parentage of Conrad Schenkel (P-0107): his father Heinrich Schenkel (P-0113) is
+    named in Conrad's 1847 marriage (PAR-0067); the mother is not recorded. Single-partner family
+    (no partner_relationship).

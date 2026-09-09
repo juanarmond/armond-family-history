@@ -1,0 +1,22 @@
+schema_version: 1
+id: E-0092
+event_type: marriage
+date:
+  kind: exact
+  value: "1872-04-29"
+place_text: Nova Friburgo (Igreja Evangélica Luterana), Rio de Janeiro, Brazil
+participants:
+- person_id: P-0103
+  role: spouse
+- person_id: P-0104
+  role: spouse
+status: confirmed
+source_ids:
+- PAR-0068
+notes:
+- text: >-
+    Marriage of Jakob Klein (P-0103), 26, of Rio Bonito — legitimate son of Johannes Klein (P-0105)
+    and the late Anna Margaretha née [Neis — uncertain] (P-0106) — and Maria Luisa Schenkel
+    (P-0104), 21 — legitimate daughter of Conrad Schenkel (P-0107) and the late Maria Luisa née
+    Stoffel (P-0108) — at 11 a.m. on 29 April 1872 in the Lutheran congregation of Nova Friburgo
+    (PAR-0068, 1872 nº1). Both single and Evangelical.

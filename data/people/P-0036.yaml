@@ -3,80 +3,94 @@ id: P-0036
 preferred_name: Antonio da Silva Ferreira
 privacy: deceased
 sex: male
+nationality: Portuguese
 name_variants:
 - value: Antonio da Silva Ferreira
   type: source
   source_ids:
   - CIV-0019
-event_ids: []
+  - PAR-0070
+event_ids:
+- E-0094
 family_ids:
 - F-0017
+- F-0055
 notes:
 - text: >-
     Ahnentafel position 62 — father of Lucinda Ferreira da Silva (P-0031), hence
-    Celina's (P-0015) maternal grandfather. Named with his wife Maria Joanna da
-    Silva Ferreira (P-0037) as the maternal grandparents in Alberto Bohrer's 1890
-    Nova Friburgo birth (CIV-0019). No record of his own has been located.
+    Celina's (P-0015) maternal grandfather. His 1859 Nova Friburgo marriage to Maria
+    Joanna Rocheman (Rutschmann, P-0037) is now held (PAR-0070, E-0094); the couple is
+    also named as the child's maternal grandparents in Alberto Bohrer's 1890 Nova
+    Friburgo birth (CIV-0019). No baptism or death of his own has yet been located.
   text_pt: >-
     Posição 62 no Ahnentafel — pai de Lucinda Ferreira da Silva (P-0031), portanto
-    avô materno de Celina (P-0015). Nomeado junto com sua esposa Maria Joanna da Silva
-    Ferreira (P-0037) como os avós maternos no nascimento de 1890 de Alberto Bohrer
-    em Nova Friburgo (CIV-0019). Nenhum registro próprio dele foi localizado.
+    avô materno de Celina (P-0015). Seu casamento de 1859 em Nova Friburgo com Maria
+    Joanna Rocheman (Rutschmann, P-0037) está agora disponível (PAR-0070, E-0094); o
+    casal também é nomeado como os avós maternos da criança no nascimento de 1890 de
+    Alberto Bohrer em Nova Friburgo (CIV-0019). Nenhum batismo ou óbito próprio dele
+    foi ainda localizado.
 - text: >-
-    Nationality left unset: no birthplace or stated nacionalidade is evidenced. His
-    daughter Lucinda was "natural desta Freguezia" (Nova Friburgo), but his own
-    origin is not documented, so it is not asserted.
+    Portuguese origin is now record-attested: his 1859 marriage (PAR-0070) records him
+    as "natural e baptizado na Freguezia de [Guenfães — uncertain], em Portugal", son of
+    Justino da Silva (P-0111) and Maria Angelica (P-0112), both Portuguese (F-0055). His
+    age was left blank in that record, so his birth year is still open. He is the family's
+    only documented non-colony in-migrant — a Portuguese who married into the 1819–1824
+    Swiss/German colony network of Nova Friburgo.
   text_pt: >-
-    Nacionalidade deixada em branco: nenhum local de nascimento ou nacionalidade
-    declarada está evidenciado. Sua filha Lucinda era "natural desta Freguezia" (Nova
-    Friburgo), mas a origem dele próprio não está documentada, portanto não é afirmada.
+    A origem portuguesa está agora atestada em registro: seu casamento de 1859 (PAR-0070)
+    o registra como "natural e baptizado na Freguezia de [Guenfães — incerto], em
+    Portugal", filho de Justino da Silva (P-0111) e Maria Angelica (P-0112), ambos
+    portugueses (F-0055). A idade dele ficou em branco nesse registro, de modo que o ano
+    de nascimento permanece em aberto. É o único imigrante individual não colono
+    documentado da família — um português que se casou dentro da rede da colônia
+    suíço-alemã de 1819–1824, em Nova Friburgo.
 profile: >-
   ## Identity
 
-  **Antonio da Silva Ferreira** — a thinly documented ancestor, known from a single held
-  record. [PROVEN]
+  **Antonio da Silva Ferreira** — a Portuguese immigrant who married into the Swiss/German
+  colony of Nova Friburgo. [PROVEN]
 
-  - **Role:** father of Lucinda Ferreira da Silva (P-0031) and husband of Maria Joanna da
-  Silva Ferreira (P-0037; family F-0017); hence Celina Bohrer's (P-0015) maternal
+  - **Role:** father of Lucinda Ferreira da Silva (P-0031) and husband of Maria Joanna
+  Rocheman/Rutschmann (P-0037; family F-0017); hence Celina Bohrer's (P-0015) maternal
   grandfather. [PROVEN]
 
-  - **Only attestation:** named, with his wife, as the maternal grandparents of the child
-  in Alberto Bohrer's 1890 Nova Friburgo civil birth (CIV-0019). No record of his own has
-  been located. [PROVEN via CIV-0019]
+  - **Origin:** Portuguese — his 1859 marriage (PAR-0070) records him "natural e baptizado na
+  Freguezia de [Guenfães — uncertain], em Portugal", legitimate son of Justino da Silva (P-0111)
+  and Maria Angelica (P-0112), both Portuguese (family F-0055). Read from the record, not inferred
+  from the surname. [PROVEN]
 
-  - **Origin:** undocumented; nationality deliberately left unset. His daughter Lucinda was
-  "natural desta Freguezia" (Nova Friburgo, CIV-0019), but his own birthplace is not
-  evidenced and is not asserted. [OPEN]
+  - **Attestations:** his own marriage to Maria Joanna on 3 March 1859 at the Matriz de São João
+  Baptista, Nova Friburgo (PAR-0070, event E-0094); and the couple named as the maternal
+  grandparents of the child in Alberto Bohrer's 1890 Nova Friburgo civil birth (CIV-0019). His age
+  was left blank in the marriage, so his birth year is not fixed; no baptism or death of his own
+  has yet been located. [PROVEN]
 
   ## Family and social network
 
-  Beyond the parent-child and marriage links above, nothing of his network is documented in
-  this repository. A retrieval synthesis draft floats unverified leads — a Portuguese
-  origin, an 1859 Nova Friburgo marriage, and parents "Justino Ferreira" and "Maria
-  Angélica da Silva" — sourced only to a genealogy blog and not reconciled with our records
-  (which model his wife simply as "Maria Joanna da Silva Ferreira"). These are recorded as
-  leads, not evidence, and are not adopted here. [LEAD]
+  He married the Nova-Friburgo-born Maria Joanna Rocheman (P-0037, 18 at marriage), daughter of the
+  Swiss immigrant João José Rocheman (Rutschmann) of Bulle and Isabel Stork — so a Portuguese man
+  joining a Swiss-colony household. Their daughter Lucinda in turn married **into the documented
+  Nova Friburgo petty-merchant band** — the *negociante* household of Joaquim José Bohrer at the
+  Alto da Serra (CIV-0019) — a non-elite standing of position, not heritable landed capital
+  [INFERRED/CONTEXTUAL].
 
   ## What we can extrapolate
 
-  What the held record does fix is that his daughter Lucinda married **into the documented Nova
-  Friburgo petty-merchant band** — the *negociante* household of Joaquim José Bohrer at the Alto
-  da Serra (CIV-0019) — a non-elite standing of position, not heritable landed capital
-  [INFERRED/CONTEXTUAL]. If the unverified Portuguese-immigrant lead noted above ever proves out,
-  Antonio would be the family's **single non-colony individual in-migration** — a Portuguese who
-  married into the 1819–1824 Swiss/German colony network rather than a subsidised colonist —
-  reinforcing rather than lifting the line's non-elite, petty-commerce trajectory. That reading is
-  a lead, not evidence, and is not asserted here. [LEAD]
+  Antonio is the family's **single documented non-colony individual in-migration** — a Portuguese
+  who married into the 1819–1824 Swiss/German colony network rather than a subsidised colonist —
+  reinforcing rather than lifting the line's non-elite, petty-commerce trajectory
+  [INFERRED/CONTEXTUAL].
 
   ## Open questions
 
-  - His own vital records and Portuguese/Brazilian origin — decisive record: his marriage
-  act (which would state his naturalidade and parents). [OPEN]
+  - His own baptism and death, and the exact Portuguese home parish (read as "Guenfães",
+  uncertain) — a Portuguese baptism would fix his birth year and confirm the parish. [OPEN]
 
   ## Sources held (this repository)
 
-  - CIV-0019 (Alberto Bohrer's 1890 Nova Friburgo birth — the sole record naming him, as
-  maternal grandfather).
+  - PAR-0070 (his 1859 Nova Friburgo marriage — states his Portuguese origin and parents).
+
+  - CIV-0019 (Alberto Bohrer's 1890 Nova Friburgo birth — names him as maternal grandfather).
 
   ## Where to go today
 
@@ -84,50 +98,50 @@ profile: >-
 profile_pt: >-
   ## Identidade
 
-  **Antonio da Silva Ferreira** — um ancestral pouco documentado, conhecido por um único
-  registro disponível. [PROVEN]
+  **Antonio da Silva Ferreira** — um imigrante português que se casou dentro da colônia
+  suíço-alemã de Nova Friburgo. [PROVEN]
 
-  - **Papel:** pai de Lucinda Ferreira da Silva (P-0031) e marido de Maria Joanna da Silva
-  Ferreira (P-0037; família F-0017); portanto, avô materno de Celina Bohrer (P-0015).
+  - **Papel:** pai de Lucinda Ferreira da Silva (P-0031) e marido de Maria Joanna
+  Rocheman/Rutschmann (P-0037; família F-0017); portanto, avô materno de Celina Bohrer (P-0015).
   [PROVEN]
 
-  - **Única atestação:** nomeado, junto com sua esposa, como avós maternos da criança no
-  nascimento civil de 1890 de Alberto Bohrer, em Nova Friburgo (CIV-0019). Nenhum registro
-  próprio dele foi localizado. [PROVEN via CIV-0019]
+  - **Origem:** portuguesa — seu casamento de 1859 (PAR-0070) o registra "natural e baptizado na
+  Freguezia de [Guenfães — incerto], em Portugal", filho legítimo de Justino da Silva (P-0111) e
+  Maria Angelica (P-0112), ambos portugueses (família F-0055). Lido do registro, não inferido do
+  sobrenome. [PROVEN]
 
-  - **Origem:** não documentada; nacionalidade deliberadamente deixada em branco. Sua filha
-  Lucinda era "natural desta Freguezia" (Nova Friburgo, CIV-0019), mas o local de nascimento
-  dele próprio não está evidenciado e não é afirmado. [OPEN]
+  - **Atestações:** seu próprio casamento com Maria Joanna em 3 de março de 1859, na Matriz de São
+  João Baptista, Nova Friburgo (PAR-0070, evento E-0094); e o casal nomeado como avós maternos da
+  criança no nascimento civil de 1890 de Alberto Bohrer, em Nova Friburgo (CIV-0019). A idade dele
+  ficou em branco no casamento, de modo que o ano de nascimento não está fixado; nenhum batismo ou
+  óbito próprio dele foi ainda localizado. [PROVEN]
 
   ## Família e rede social
 
-  Além das ligações de filiação e casamento acima, nada de sua rede está documentado neste
-  repositório. Um rascunho de síntese da recuperação levanta pistas não verificadas — uma
-  origem portuguesa, um casamento de 1859 em Nova Friburgo e os pais "Justino Ferreira" e
-  "Maria Angélica da Silva" — apoiadas apenas em um blog de genealogia e não conciliadas com
-  nossos registros (que modelam sua esposa simplesmente como "Maria Joanna da Silva
-  Ferreira"). Registram-se como pistas, não como evidência, e não são adotadas aqui. [LEAD]
+  Casou-se com Maria Joanna Rocheman (P-0037, 18 anos ao casar), nascida em Nova Friburgo, filha do
+  imigrante suíço João José Rocheman (Rutschmann) de Bulle e de Isabel Stork — ou seja, um português
+  ingressando num lar da colônia suíça. A filha do casal, Lucinda, por sua vez casou-se **com a
+  faixa documentada de pequenos comerciantes de Nova Friburgo** — o lar *negociante* de Joaquim José
+  Bohrer, no Alto da Serra (CIV-0019) — uma posição não elitista de status, não capital fundiário
+  herdável [INFERRED/CONTEXTUAL].
 
   ## O que podemos extrapolar
 
-  O que o registro disponível de fato fixa é que sua filha Lucinda casou-se **com a faixa
-  documentada de pequenos comerciantes de Nova Friburgo** — o lar *negociante* de Joaquim José
-  Bohrer, no Alto da Serra (CIV-0019) — uma posição não elitista de status, não capital fundiário
-  herdável [INFERRED/CONTEXTUAL]. Se a pista não verificada de imigrante português apontada acima
-  algum dia se confirmar, Antonio seria a **única imigração individual não colona da família** —
-  um português que se casou dentro da rede da colônia suíço-alemã de 1819–1824, em vez de um
-  colono subsidiado — reforçando, e não elevando, a trajetória não elitista e de pequeno comércio
-  da linha. Essa leitura é uma pista, não evidência, e não é afirmada aqui. [LEAD]
+  Antonio é a **única imigração individual não colona documentada da família** — um português que se
+  casou dentro da rede da colônia suíço-alemã de 1819–1824, em vez de um colono subsidiado —
+  reforçando, e não elevando, a trajetória não elitista e de pequeno comércio da linha
+  [INFERRED/CONTEXTUAL].
 
   ## Questões em aberto
 
-  - Seus próprios registros vitais e sua origem portuguesa/brasileira — registro decisivo:
-  seu ato de casamento (que declararia sua naturalidade e seus pais). [OPEN]
+  - Seu próprio batismo e óbito, e a freguesia portuguesa exata (lida como "Guenfães", incerta) —
+  um batismo português fixaria o ano de nascimento e confirmaria a freguesia. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
-  - CIV-0019 (nascimento de 1890 de Alberto Bohrer, em Nova Friburgo — o único registro que
-  o nomeia, como avô materno).
+  - PAR-0070 (seu casamento de 1859 em Nova Friburgo — declara sua origem portuguesa e seus pais).
+
+  - CIV-0019 (nascimento de 1890 de Alberto Bohrer, em Nova Friburgo — nomeia-o como avô materno).
 
   ## Onde ir hoje
 

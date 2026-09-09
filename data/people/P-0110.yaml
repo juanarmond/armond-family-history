@@ -1,0 +1,25 @@
+schema_version: 1
+id: P-0110
+preferred_name: Elisabeth Storck
+privacy: deceased
+sex: female
+name_variants:
+- value: Elisabeth Storck
+  type: source
+  source_ids:
+  - PAR-0069
+- value: Isabel Stork
+  type: source
+  source_ids:
+  - PAR-0070
+  - PAR-0071
+event_ids:
+- E-0093
+family_ids:
+- F-0054
+notes:
+- text: >-
+    Mother of Maria Joanna Rutschmann (P-0037); named "Elisabeth Storck" / "Isabel Stork" (variants)
+    with her husband João José Rutschmann in their daughter's 1841 baptism (PAR-0069) and 1859
+    marriage (PAR-0070), and as his surviving wife in his 1860 death (PAR-0071). Likely Swiss-colony
+    (nationality left unset pending her own origin record).
