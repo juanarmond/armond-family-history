@@ -1,0 +1,110 @@
+schema_version: 1
+id: GOV-0007
+title: >-
+  Nova Friburgo Swiss-colony settler register (Heureux Voyage arrivals, c.1819–1820)
+  — naming Laurent Borer among the Borer and Wehrli colonist families
+title_pt: >-
+  Registro de colonos da colônia suíça de Nova Friburgo (chegadas do Heureux Voyage,
+  c.1819–1820) — nomeando Laurent Borer entre as famílias colonas Borer e Wehrli
+record_type: Colonist settlement register (Nova Friburgo Swiss colony)
+record_category: government_record
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: approximate
+  text: c.1819–1820 (Heureux Voyage arrival and Nova Friburgo settlement)
+  earliest: 1819
+  latest: 1820
+event_place_text: >-
+  Colônia de Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Registro de colonos, Colônia de Nova Friburgo
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Nova Friburgo Swiss-colony settler registers
+  catalogue_reference: >-
+    Two register openings (family entries ~70 and ~73), Fundação D. João VI digitisation;
+    delivered to this project via the César Raibert Nova Friburgo genealogy blog (a
+    secondary distribution channel — the underlying archival original was not
+    independently verified)
+access_date: "2026-09-08"
+language: fr
+transcription: >-
+  [Two openings of a Nova Friburgo colonist register, period hand, columns "Nomes / Idade
+  / Navio em que chegou e nome / Data em que Falecidos / Observações"; French/Portuguese
+  mixed, moderate legibility — uncertain reads flagged.] — PAGE 1 (family ~73/76, head
+  "Jean Georges Bott[ely]"): a settler group including "Christian [—] 33", "Jacques [—]",
+  "Joseph [—]", "Jacob [—] 33", "Catharine [—] 23", "Anne Marie [—]", "Henri [—] 35",
+  "[Séphonrne — uncertain] 25", "**Laurent Bocher [Borer] — 18**" [the arrow-marked
+  entry], "Maria [—] 30", "Michel [—]", "Jean Bocher", "Melchior [—]", "Marguerite [—]",
+  "Hugh [Hugo] Bocher", "Joseph Bocher". — PAGE 2 (family ~70/56, head "Victor Br[egat]
+  33"): "Catharina [sa femme] 28", "Jacques son fils 3", "Anton son fils 27", "**Jacques
+  [Jacob] Bocher — 17**", "Ann Both [—] 40 (2 enfants)", "Maxim[ilien] [sa femme] 30",
+  "Marianne sa fille 8", "Rodolph Wehrly [—]", "Anne Marie [sa femme] 36", "Joseph son
+  fils 16", "Jean son fils 5", "Marianne sa fille 14", "Anne sa fille 8", "[Isabelle]
+  Marg[uerite] [—]", "Brigitte [sa femme] [—]", "Jean Borer [—]" [several ages and the
+  arrival/death columns partly illegible]. The two openings list the Swiss families of the
+  Heureux Voyage cohort settled at Nova Friburgo, among them the Borer and Wehrli families.
+abstract: >-
+  A Nova Friburgo Swiss-colony settler register recording the Heureux Voyage cohort
+  (arrived 1819–1820), with colonists' given names, ages, ship and death-date columns. It
+  names "Laurent Bocher [Borer], 18" — Laurent Borer (P-0068, BORER II of Grindel), the
+  owner's Swiss-immigrant ancestor — and, on the second opening (the Casa/Lote 70/56 group),
+  "Jacques [Jacob] Bocher, 17" — Jacob Bohrer (P-0050, BORER I of Erschwil, the separate,
+  not-proven-related Borer line) — plus a Wehrli family and other Borer members. A primary
+  record image corroborating the Heureux Voyage immigration already documented from PUB-0003
+  and Francisco José Bohrer's 1888 will. The roster ages are [uncertain] and do NOT override
+  the birth years already on file: Laurent (P-0068) is recorded b. 27 Feb 1797 (PUB-0003), so
+  an age of "18" here (→ ~1802) is a ~5-year discrepancy; Jacob (P-0050) is recorded b. c.1801,
+  so "17" (→ ~1803) is within ~2 years. Both are preserved as roster-age discrepancies, not
+  adopted.
+abstract_pt: >-
+  Registro de colonos da colônia suíça de Nova Friburgo referente ao grupo do Heureux
+  Voyage (chegado em 1819–1820), com prenomes, idades, navio e colunas de data de óbito. Ele
+  nomeia "Laurent Bocher [Borer], 18" — Laurent Borer (P-0068), ancestral imigrante suíço do
+  proprietário — e "Jacques [Jacob] Bocher, 17", além de uma família Wehrli e outros membros
+  Borer. Uma imagem de registro primário que corrobora a imigração do Heureux Voyage já
+  documentada por PUB-0003 e pelo testamento de 1888 de Francisco José Bohrer. As idades de
+  chegada declaradas (Laurent 18 → n. ~1802; Jacob 17 → n. ~1803) NÃO substituem os anos de
+  nascimento primários já registrados (Jacob Borer n. 11 maio 1801); a diferença de ~2 anos é
+  uma discrepância conhecida e preservada.
+reliability:
+  assessment: >-
+    A primary record image (a period colonist register), corroborating the Nova Friburgo
+    immigration independently established elsewhere. Ages are informant-reported roster
+    figures, so they inform but do not fix birth years.
+  informant: >-
+    Colony registration officer (roster entries); the settlers' reported ages.
+  limitations: >-
+    Provenance runs through a genealogy blog (Fundação D. João VI digitisation, César
+    Raibert republication); the archival original was not independently authenticated.
+    Moderate legibility — many given names and ages are [uncertain]. Two modelled people are
+    matched: "Laurent Bocher" (the arrow-marked entry) → Laurent Borer (P-0068), and, on the
+    Casa/Lote 70/56 opening, "Jacques Bocher" → Jacob Bohrer (P-0050). The register is
+    corroborative only: it does not, by itself, prove any filiation, and its roster ages
+    conflict with the held birth years (~5 years for Laurent, ~2 for Jacob) — preserved, not
+    resolved.
+digital_file:
+  path: evidence/government/GOV-0007-nova-friburgo-colonist-register-heureuxvoyage-1820-laurent-p1.png
+  sha256: f37dfcfc9449937f7fafde861af167080ba48df5480ed959cdaf7eefb2b189ef
+additional_pages:
+- path: evidence/government/GOV-0007-nova-friburgo-colonist-register-heureuxvoyage-1820-jacob-p2.png
+  sha256: c160e833422441008c2a402e878b4b442fa1a2329f78d4c8e74c56178c435de2
+linked_people:
+- P-0068
+- P-0050
+linked_families: []
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Corroborative primary image for the Heureux Voyage immigration of the two distinct
+    Nova Friburgo Borer lines — Laurent Borer (P-0068, BORER II, the owner's ancestor) and
+    Jacob Bohrer (P-0050, BORER I) — catalogued per the owner's standing preference to
+    attach every record image naming a modelled person. Only these two are confidently
+    matched; the other Borer/Wehrli roster names are left unlinked (legibility). The roster
+    ages restate — but do not resolve — the birth-year discrepancies (Laurent b.1797 vs age
+    18; Jacob b.c.1801 vs age 17); the held birth years (PUB-0003 + the 1888 will) stand.
+    Do NOT let this register conflate the two Borer lines, which are not proven related.

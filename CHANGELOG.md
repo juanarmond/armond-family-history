@@ -5,6 +5,23 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — GOV-0007: Nova Friburgo settler register catalogued (reversing the 2026-09-08 "not catalogued" call) (2026-09-09)
+
+- **GOV-0007** — a Nova Friburgo Swiss-colony settler register (Heureux Voyage arrivals,
+  c.1819–1820; Fundação D. João VI digitisation delivered via the Raibert blog), catalogued
+  as two register openings. It names **Laurent Borer (P-0068**, "Laurent Bocher, [18]") and,
+  on the Casa/Lote 70/56 opening, **Jacob Bohrer (P-0050**, "Jacques Bocher, [17]") — the two
+  distinct Nova Friburgo Borer lines. Linked to both and cited in each profile.
+- This **supersedes** the previous cycle's decision to keep these two images corroborative-
+  only: per the owner's standing preference to *attach every record image naming a modelled
+  person*, they are a primary register image (not a tree-claim), so they are catalogued with
+  an honest provenance caveat (blog-delivered, archival original not independently verified).
+- The roster ages are recorded as **preserved discrepancies, not adopted**: Laurent b. 27 Feb
+  1797 (PUB-0003) vs age 18 (~1802) = ~5 years; Jacob b. c.1801 vs age 17 (~1803) = ~2 years.
+  The held birth years stand; the register does not, by itself, prove any filiation, and the
+  two Borer lines are kept distinct. make check green (70 tests); index rebuilt; GEDCOM
+  re-exported.
+
 ### Changed — Value-gate of the 2026-09-08 drop: corroborative settler registers + BPARPD reply logged (2026-09-08)
 
 - Logged correspondence **C-008** (BPARPD Ponta Delgada, 2026-08-11 reply): confirms the

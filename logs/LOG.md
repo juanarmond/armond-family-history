@@ -5,6 +5,22 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-09-09 — Catalogued the Nova Friburgo settler register as GOV-0007 (owner course-correction)
+
+- Trigger: the owner asked about the two `rec-bohrer-borer-arrival-registry-*` images that
+  the previous cycle had kept corroborative-only.
+- Reversal: per the owner's standing "attach every record image naming a modelled person"
+  preference, these are primary register images (not tree-claims), so they are catalogued as
+  **GOV-0007** — a Nova Friburgo Swiss-colony settler register (Heureux Voyage arrivals),
+  two openings, linked to **Laurent Borer (P-0068)** ("Laurent Bocher, [18]") and **Jacob
+  Bohrer (P-0050)** ("Jacques Bocher, [17]", the separate BORER I line). Cited in both
+  profiles; triage ledger updated.
+- Discipline preserved: provenance caveat (blog-delivered, Fundação D. João VI; original not
+  independently verified) recorded in the source reliability; the roster ages are preserved
+  discrepancies (Laurent b.1797 vs 18; Jacob b.c.1801 vs 17), NOT adopted over the held birth
+  years; the two Borer lines kept distinct. make check green (70 tests); index rebuilt (354);
+  GEDCOM re-exported.
+
 ## 2026-09-08 — Value-gate: Nova Friburgo settler registers (corroborative) + BPARPD reply logged
 
 - Question: process the 2026-09-08 drop — 2 Borer 1820 arrival registries (Heureux Voyage)
