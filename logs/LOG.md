@@ -5,6 +5,26 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-09-08 — Value-gate: Nova Friburgo settler registers (corroborative) + BPARPD reply logged
+
+- Question: process the 2026-09-08 drop — 2 Borer 1820 arrival registries (Heureux Voyage)
+  and updated FINDINGS/correspondence — and determine whether any held record now forces
+  modelling work.
+- Key results: **no new promotable evidence and no new modelling gap.** The two settler
+  registers (Fundação D. João VI, via the Raibert NF genealogy blog) name Laurent Borer
+  (P-0068, "Laurent Bocher 18") and Jacob/Jacques Bocher (17); they corroborate the Heureux
+  Voyage 1819–20 immigration already PROVEN by PUB-0003 + Francisco José's 1888 will + the
+  1825 NF marriage register. The arrival ages (~1802/~1803) restate the known ~2-year
+  discrepancy with Jacob's primary b.1801 — preserved, not resolved. Kept as corroborative
+  (triage ledger), consistent with the earlier Grindel-register precedent; not catalogued.
+- Logged the **BPARPD Ponta Delgada** reply (2026-08-11, Lia Gomes, ref SE/2026/1583e) as
+  **C-008**: it confirmed the held 1842 Manoel×Francisca marriage (PAR-0024) and the 1819
+  grandparent marriage, and **voided** the earlier "Bulhões = Manoel's parents" misread (a
+  witness, not a parent; no node was ever minted, verified). Upper Muniz couples already
+  modelled (P-0082–P-0085); `make ancestors-audit` reports all 9 flagged ancestors as
+  acknowledged (deliberate, noted omissions) — no action forced.
+- No structured-data change; make check green (70 tests).
+
 ## 2026-09-07 — Grandparents' death certificates + collateral corroboration (Volta Redonda drop)
 
 - Question: value-gate and ingest the 2026-09-07 drop — 3 grandparent death certs, a 1916

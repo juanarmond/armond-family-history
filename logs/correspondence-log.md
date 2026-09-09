@@ -217,3 +217,45 @@ lead until verified against an original record.
      36976-000; tel/WhatsApp (33) 99911-4366; `paroquianscaj@hotmail.com`.
   Ask São Lourenço first; if not there, ask Alto Jequitibá whether it received the
   pre-1961 books. Recorded on record-coverage P-0007 (baptism target).
+
+### C-008 — Biblioteca Pública e Arquivo Regional de Ponta Delgada (BPARPD), São Miguel (Açores)
+- Who: the regional public archive of Ponta Delgada, custodian of the pre-civil
+  (pre-1911) **Mãe de Deus (Povoação, São Miguel)** parish registers — the books
+  behind the Culturaçores CDN images (their watermark is on every Culturaçores JPEG),
+  covering the owner's maternal **Muniz / Monis Bitancourt** São Miguel line.
+- Contact: `geral-bparpd.cultura@azores.gov.pt`; tel +351 296 305 040;
+  `bparpd.azores.gov.pt`.
+- Purpose (three items): (1) inteiro-teor / higher-res of the 1845 marriage folio;
+  (2) the pre-1822 grandparent marriage of "João Jacinto Moniz de Bulhões × Mencia
+  Jacinta" (the then-hypothesised parents of Manoel); (3) the baptism of Manoel Muniz
+  Byttancourt (~1815–1820).
+- Sent: by the owner. Status: **reply received 2026-08-11** (Lia Gomes, Técnica
+  Superior, Divisão de Arquivo; ref **SE/2026/1583e**, proc **16.04.01/2026/221**).
+- Reply substance — **two of our readings were wrong; the correct records extend the
+  Muniz line up, and one modelled hypothesis is voided:**
+  - The held marriage image (`rec-muniz-manoel-francisca-marriage-maededeus-1842.jpg`
+    → **PAR-0024**) **is** the correct record — Manoel Monis Bitancourt × **Francisca
+    Roza do Espírito Santo**, book `SMG-PV-MAEDEDEUS-C-1841-1854`, fl. 32, dated **17
+    February 1842** (F-0020 / E-0053 already carry this). Nothing was deleted; the
+    archive's "Manuel Carreiro × Roza de Jesus" was a superseded earlier scan we had
+    sent them, not this held file.
+  - **VOID:** the "João Jacinto Moniz de Bulhões × Mencia Jacinta = Manoel's parents"
+    theory rested on a misread — that man was a **witness** ("João Jacinto Botello de
+    Bulhões"), not the godfather, and the p200 record is **Anna (bapt. 17 Feb 1822)**,
+    not "Amora". No Bulhões parent was ever minted as a node (verified — the surname
+    appears only as a witness in the parish sources), so nothing to retract.
+  - The real grandparent marriage: **João Francisco Munis × Maria Jacinta de Medeiros**,
+    book `SMG-PV-MAEDEDEUS-C-1801-1822`, fl. 161 v.º, **7 October 1819** — João Francisco
+    Munis = son of **Manoel Munis Bitancourt (elder) × Teresa do Amaral** (P-0082 ×
+    P-0083); Maria Jacinta de Medeiros = daughter of **João de Medeiros Brandão × Maria
+    Eugénia** (P-0084 × P-0085). These upper couples are already modelled; the ancestors
+    audit reports no gap on this line.
+  - All records are **fully transcribable at free Culturaçores resolution → paid
+    certidões / hi-res copies declined.** The owner's decline/thank-you was **sent
+    2026-08-11**.
+- **Thread reopened 2026-08-12** — Draft #3 **sent 2026-08-12** by the owner: a
+  free-copy request for three pre-1801 Mãe de Deus marriages (Motta×Souza; Manoel Monis
+  Bitancourt *o Velho* × Thereza; João de Medeiros Brandão × Maria Eugénia) + Francisca
+  Roza's baptism, plus a question on whether the pre-1801 / pre-1818 books survive or sit
+  on another portal (Culturaçores, arquivos.azores.gov.pt and FamilySearch all begin at
+  1801/1818). **Awaiting reply.**

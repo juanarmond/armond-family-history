@@ -5,6 +5,18 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — Value-gate of the 2026-09-08 drop: corroborative settler registers + BPARPD reply logged (2026-09-08)
+
+- Logged correspondence **C-008** (BPARPD Ponta Delgada, 2026-08-11 reply): confirms the
+  held 1842 Manoel×Francisca marriage and the 1819 grandparent marriage of the Muniz São
+  Miguel line, and records the **void** of the earlier "Bulhões = Manoel's parents" misread
+  (a witness, not a parent — no node existed to retract). Paid copies declined.
+- Value-gated the two 1820 Nova Friburgo settler registers (Heureux Voyage; Fundação D.
+  João VI via the Raibert blog) naming Laurent Borer (P-0068) and Jacob Borer as
+  **corroborative only** — the immigration is already PROVEN (PUB-0003 + the 1888 will), and
+  the arrival ages restate the known ~2-year birth-year discrepancy. Not catalogued (matches
+  the Grindel-register precedent). No structured-data change; make check green (70 tests).
+
 ### Added — All four grandparents' deaths + collateral corroboration from the 2026-09-07 drop (2026-09-07)
 
 - **Three grandparent death certificates promoted** (owner-supplied civil certidões, Volta
