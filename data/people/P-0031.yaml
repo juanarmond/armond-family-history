@@ -14,7 +14,8 @@ name_variants:
   type: source
   source_ids:
   - CIV-0016
-event_ids: []
+event_ids:
+- E-0085
 family_ids:
 - F-0014
 - F-0017

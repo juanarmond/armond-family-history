@@ -5,6 +5,27 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-09-09 — MAJOR Bohrer djoaovi haul, wave 1: Iris's direct maternal branch (Francisco José → Joaquim → Celina)
+
+- Context: the 2026-09-09 handoff's corrected header flagged ~30 djoaovi Nova Friburgo Bohrer
+  images (the whole Bohrer line for Iris), currently modelled only at strong-evidence (PUB-0003).
+  All read + verified by 4 parallel transcription subagents. Ingesting in committed waves.
+- Wave 1 (this commit) — Iris's direct maternal branch, all upgraded to primary: **PAR-0054**
+  (Francisco José Bohrer baptism, b. 9 Jul 1832, E-0083), **PAR-0055** (his death, 6 Jul 1888,
+  E-0084), **PAR-0056** (Joaquim José Bohrer × Lucinda Rutschmann/Silva Ferreira marriage,
+  19 Apr 1884, E-0085; names both parent couples), **PAR-0057** (**Celina Bohrer, Iris's mother**,
+  b. **13 May 1899** — corrects E-0022 from ~1900 to confirmed), **PAR-0058** (Roza Eugenia de
+  Lemos death, 2 Nov 1919, E-0086). F-0014 and F-0016 parentages upgraded secondary→primary;
+  Laura Maria Bohrer documented_child (F-0016); Rosa Eugenia's 1919 parent-name "Pereira"
+  divergence preserved on F-0025. Celina's profile corrected (EN+PT).
+- Verification caught 3 mislabeled images (do NOT promote): joaquimcarlos-1896 is a **Borel** page
+  (different surname), renato-1898 has no Bohrer, adelaide-carolina-1899 is a 1900 page with no
+  twins. Confirming against the image, not the manifest, is why.
+- Process gap noted: `make triage-audit` MISSED this haul (re-delivered with old mtimes, outside
+  its "newer than last commit" window) — to fix. make check green (70 tests); index rebuilt (365);
+  What's new feed 63 entries; GEDCOM re-exported. Waves 2–4 (Borer chain, deep Swiss ancestors,
+  collateral) queued.
+
 ## 2026-09-09 — Two Nova Friburgo Bohrer baptisms catalogued; Raibert provenance confirmed
 
 - Question: value-gate the 2026-09-09 drop — two Nova Friburgo Bohrer baptism images the new

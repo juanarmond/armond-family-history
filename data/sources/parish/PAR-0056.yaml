@@ -1,0 +1,96 @@
+schema_version: 1
+id: PAR-0056
+title: >-
+  1884 marriage of Joaquim José Bohrer and Lucinda Roschemant da Silva Ferreira at
+  Nova Friburgo — names both parent couples
+title_pt: >-
+  Casamento de 1884 de Joaquim José Bohrer e Lucinda Roschemant da Silva Ferreira em
+  Nova Friburgo — nomeia ambos os casais de pais
+record_type: Parish marriage register entry (two pages)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1884-04-19"
+event_place_text: >-
+  Matriz de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Matriz de São João Baptista, Nova Friburgo (Livro de Casamentos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Casamentos, fólios 10-11, nº 23 (1884)
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-09"
+language: pt-BR
+transcription: >-
+  [Livro de Casamentos, Nova Friburgo, fólios 10-11, nº 23, 1884; Padre José Giffoni under the
+  vicar's licence.] "Nº 23 — Aos dezenove dias do mez de Abril do anno de mil oito centos
+  oitenta e quatro, n'esta matriz de S. João Baptista de Nova Friburgo pelas dez horas e dez
+  minutos da manhã o Padre José Giffoni, de minha licença, uni em matrimonio á Joaquim José
+  Bohrer, brazileiro de vinte e dois annos de idade, filho legitimo de Francisco José Bohrer, e
+  Dona Roza Eugenia de Lemos Bohrer, natural e baptisado em Itaborahy; com Lucinda Roschemant
+  da Silva Ferreira, brazileira de vinte e um annos de idade, filha legitima de Antonio da
+  Silva Ferreira, e de Maria Joanna Roschemant da Silva Ferreira, nascida e baptisada na
+  freguezia de S. João Baptista da Lagoa, na Corte; ambos os contrahentes porém actualmente
+  rezidem n'esta freguezia de S. João Baptista de Nova Friburgo: foram testemunhas os Senhores
+  Eduardo Guilherme Buck, e Candido Pereira de Lemos... Do que para constar mandei fazer este
+  assento em que assigno." [Nº 25 same opening: Laura Maria Bohrer, 18, daughter of Francisco
+  José Bohrer × Roza Eugenia de Lemos, married Bernardo Nunes Pinto, 24 May 1884.]
+abstract: >-
+  Parish marriage of Joaquim José Bohrer (P-0030) and Lucinda Roschemant [Rutschmann] da Silva
+  Ferreira (P-0031) — Iris Bohrer Muniz's maternal great-grandparents — on 19 April 1884 at the
+  Nova Friburgo Matriz. Groom 22 (b. ~1861/62), natural and baptised at Itaboraí, son of
+  Francisco José Bohrer (P-0034) × Roza Eugenia de Lemos (P-0035); bride 21 (b. ~1862/63), born
+  and baptised at São João Baptista da Lagoa, Rio de Janeiro (NOT Nova Friburgo), daughter of
+  Antonio da Silva Ferreira (P-0036) × Maria Joanna Rutschmann (P-0037). Source for the marriage
+  event E-0085, upgrades F-0014 secondary→primary, and corrects Joaquim's baptism place
+  (Itaboraí) and Lucinda's birthplace (Rio/Lagoa). The same opening records a sister, Laura
+  Maria Bohrer (documented_child on F-0016).
+abstract_pt: >-
+  Casamento paroquial de Joaquim José Bohrer (P-0030) e Lucinda Roschemant [Rutschmann] da Silva
+  Ferreira (P-0031) — bisavós maternos de Iris Bohrer Muniz — em 19 de abril de 1884, na Matriz
+  de Nova Friburgo. Noivo 22 anos (n. ~1861/62), natural e batizado em Itaboraí, filho de
+  Francisco José Bohrer (P-0034) × Roza Eugenia de Lemos (P-0035); noiva 21 anos (n. ~1862/63),
+  nascida e batizada em São João Baptista da Lagoa, Rio de Janeiro (NÃO Nova Friburgo), filha de
+  Antonio da Silva Ferreira (P-0036) × Maria Joanna Rutschmann (P-0037). Fonte do evento de
+  casamento E-0085, eleva F-0014 de secundário para primário e corrige o local de batismo de
+  Joaquim (Itaboraí) e o de nascimento de Lucinda (Rio/Lagoa). A mesma abertura registra uma
+  irmã, Laura Maria Bohrer (documented_child em F-0016).
+reliability:
+  assessment: >-
+    Primary parish marriage entry — direct primary for the marriage, both filiations, the
+    spouses' ages and their stated birthplaces.
+  informant: The contracting parties before Padre José Giffoni; witnesses Buck and Pereira de Lemos.
+  limitations: >-
+    Delivered via the Fundação D. João VI digitisation (C-009). Surname of the bride written
+    "Roschemant" (a priest's rendering of Rutschmann). The foot vicar signature is illegible.
+digital_file:
+  path: evidence/parish/PAR-0056-bohrer-joaquim-lucinda-marriage-1884-novafriburgo-p1.jpg
+  sha256: 01f527ae0bde86d0577204a804b009cbc0ef6dab6ce908e87d78cd19cf028015
+additional_pages:
+- path: evidence/parish/PAR-0056-bohrer-joaquim-lucinda-marriage-1884-novafriburgo-p2.jpg
+  sha256: 66ca56794d62662e9eb4a7200a6ba2e66d63407368ffdfbb7cb7e54086429673
+linked_people:
+- P-0030
+- P-0031
+- P-0034
+- P-0035
+- P-0036
+- P-0037
+linked_families:
+- F-0014
+- F-0016
+- F-0017
+linked_events:
+- E-0085
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the marriage event E-0085 (Joaquim × Lucinda, 1884). Confirms both parent
+    couples (F-0016 Francisco José × Roza Eugenia; F-0017 Antonio da Silva Ferreira × Maria
+    Joanna Rutschmann). Records a documented_child on F-0016: Laura Maria Bohrer (b. ~1866,
+    married Bernardo Nunes Pinto 24 May 1884), a sister of Joaquim. Corrections: Joaquim natural
+    de Itaboraí (b. ~1861); Lucinda born São João Baptista da Lagoa, Rio de Janeiro.

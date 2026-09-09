@@ -10,19 +10,27 @@ children:
   parent_relationships:
   - parent_id: P-0030
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
+    - PAR-0057
+    - PAR-0056
     - CIV-0015
     - CIV-0016
     notes: []
   - parent_id: P-0031
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
+    - PAR-0057
+    - PAR-0056
     - CIV-0015
     - CIV-0016
     notes: []
-  notes: []
+  notes:
+  - text: >-
+      Celina's parentage is now confirmed by her own 1899 parish baptism (PAR-0057) and her
+      parents' 1884 marriage (PAR-0056), upgrading the earlier informant-reported civil records
+      (CIV-0015, CIV-0016) from strong-evidence to primary.
 documented_children:
 - name: Alberto Bohrer
   source_ids:

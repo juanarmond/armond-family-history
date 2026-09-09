@@ -1,0 +1,74 @@
+schema_version: 1
+id: PAR-0057
+title: >-
+  1899 baptism of Celina Bohrer at Nova Friburgo — legitimate daughter of Joaquim
+  José Bohrer and Lucinda Ferreira (Iris Bohrer Muniz's mother)
+title_pt: >-
+  Batismo de 1899 de Celina Bohrer em Nova Friburgo — filha legítima de Joaquim
+  José Bohrer e Lucinda Ferreira (mãe de Iris Bohrer Muniz)
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1899-09-27"
+  original_text: >-
+    Baptised 27 September 1899; born 13 May 1899 ("nascida á treze de Maio do dito anno").
+event_place_text: >-
+  Freguesia de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Matriz de São João Baptista, Nova Friburgo (Livro de Baptismos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Baptismos, fólio 19, nº 179 (1899)
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-09"
+language: pt-BR
+transcription: >-
+  [Livro de Baptismos, Nova Friburgo, fólio 19, nº 179, 1899; Cônego José Silvestre Alves de
+  Miranda.] "179 — Celina. Aos vinte sete dias do mes de Setembro de mil oito centos e noventa
+  e nove baptisei solemnemente a Celina, nascida á treze de Maio do dito anno, filha legitima
+  de Joaquim José Bos[b]ere e Lucinda Ferreira Bor[b]er. Forão padrinhos José da Silva Ferreira
+  e Maria da Gloria da Silva Ferreira. Para constar fiz este assento, que assigno. O Vigario
+  Conego José Silvestre Alves de Miranda." [surnames inked "Bos[b]ere" / "Bor[b]er", variants
+  of Bohrer.]
+abstract: >-
+  Parish baptism of Celina Bohrer (P-0015) — Iris Bohrer Muniz's mother — born 13 May 1899,
+  baptised 27 September 1899 at São João Baptista, Nova Friburgo, legitimate daughter of Joaquim
+  José Bohrer (P-0030) × Lucinda Ferreira (P-0031). A primary act that CORRECTS her birth to 13
+  May 1899 (previously inferred ~1900 from her 1977 death age) and confirms her parentage;
+  upgrades that link secondary→primary. Godparents José and Maria da Gloria da Silva Ferreira
+  (maternal kin).
+abstract_pt: >-
+  Batismo paroquial de Celina Bohrer (P-0015) — mãe de Iris Bohrer Muniz — nascida em 13 de maio
+  de 1899, batizada em 27 de setembro de 1899 em São João Baptista, Nova Friburgo, filha legítima
+  de Joaquim José Bohrer (P-0030) × Lucinda Ferreira (P-0031). Ato primário que CORRIGE seu
+  nascimento para 13 de maio de 1899 (antes inferido ~1900 pela idade em seu óbito de 1977) e
+  confirma sua filiação; eleva esse vínculo de secundário para primário. Padrinhos José e Maria
+  da Gloria da Silva Ferreira (parentela materna).
+reliability:
+  assessment: >-
+    Primary parish baptism entry — direct primary for Celina's birth, baptism and legitimate
+    parentage.
+  informant: The officiating cónego (José Silvestre Alves de Miranda).
+  limitations: Delivered via the Fundação D. João VI digitisation (C-009). Surname variants "Bos[b]ere"/"Bor[b]er".
+digital_file:
+  path: evidence/parish/PAR-0057-bohrer-celina-baptism-1899-novafriburgo.jpg
+  sha256: ede0740a2f5dafb8c48671846bc43592e72f5cd679b19546e0ccb698cf5f0753
+linked_people:
+- P-0015
+- P-0030
+- P-0031
+linked_families:
+- F-0014
+linked_events:
+- E-0022
+linked_places: []
+private: false
+notes:
+- text: >-
+    Primary baptism correcting Celina's birth to 13 May 1899 (event E-0022, upgraded to
+    confirmed) and confirming her parents Joaquim José Bohrer (P-0030) × Lucinda Ferreira
+    (P-0031) on F-0014 (upgrade to primary).

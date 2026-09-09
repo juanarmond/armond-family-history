@@ -1,0 +1,79 @@
+schema_version: 1
+id: PAR-0058
+title: >-
+  1919 death of Roza Eugenia de Lemos Bohrer at Nova Friburgo — widow of Francisco
+  José Bohrer, of Itaboraí
+title_pt: >-
+  Óbito de 1919 de Roza Eugenia de Lemos Bohrer em Nova Friburgo — viúva de
+  Francisco José Bohrer, natural de Itaboraí
+record_type: Parish burial/death register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1919-11-02"
+event_place_text: >-
+  Nova Friburgo, Rio de Janeiro, Brazil (natural de Itaboraí)
+repository:
+  name: Matriz de São João Baptista, Nova Friburgo (Livro de Óbitos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Óbitos, fólio 73, nº 501 (1919)
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-09"
+language: pt-BR
+transcription: >-
+  [Livro de Óbitos, Nova Friburgo, fólio 73, nº 501, 1919; Vigário José Silvestre Alves de
+  Miranda.] "Aos dois dias do mez de Novembro de mil nove centos e desenove, na Egreja Matriz,
+  encommendei e depois, com a Irmandade do Sacramento, em cujo cemiterio foi sepultado,
+  acompanhei o cadaver de Roza Eugenia de Lemos Bohrer, de oitenta e seis annos de idade,
+  natural da freguezia de Itaboraby, moradora nesta da Nova Friburgo, ambas neste bispado de
+  Nictheroy, viuva de Francisco José Bohrer e filha legitima de Manoel Pereira Lemos e Maria
+  Tereza Pereira de Lemos falecidos. Confessou-se, recebeu o Viatico, foi ungida e falleceu de
+  [interito — uncertain] hoje de madrugada. Para constar fiz este assento e o assigno. O Vigario
+  José Silvestre Alves de Miranda."
+abstract: >-
+  Parish death/burial of Roza Eugenia de Lemos Bohrer (P-0035), 2 November 1919 at Nova Friburgo,
+  aged 86 (→ b. ~1833), natural de Itaboraí, widow of Francisco José Bohrer (P-0034). Source for
+  her death event E-0086. NAME DIVERGENCE (preserved, not resolved): this death names her parents
+  "Manoel Pereira Lemos" × "Maria Tereza Pereira de Lemos" (with "Pereira"), whereas her 1835
+  baptism (PAR-0016, E-0049) reads "Manoel de Lemos" × "Maria Thereza de Jesus" (P-0052 × P-0053,
+  without "Pereira"). The 1835 baptism form is kept; the 1919 divergent form is recorded as a
+  variant. The stated age 86 implies b. ~1833 (the 1835 baptism governs the birth).
+abstract_pt: >-
+  Óbito/sepultamento paroquial de Roza Eugenia de Lemos Bohrer (P-0035), 2 de novembro de 1919,
+  em Nova Friburgo, aos 86 anos (→ n. ~1833), natural de Itaboraí, viúva de Francisco José Bohrer
+  (P-0034). Fonte de seu evento de óbito E-0086. DIVERGÊNCIA DE NOME (preservada, não resolvida):
+  este óbito nomeia seus pais "Manoel Pereira Lemos" × "Maria Tereza Pereira de Lemos" (com
+  "Pereira"), enquanto seu batismo de 1835 (PAR-0016, E-0049) diz "Manoel de Lemos" × "Maria
+  Thereza de Jesus" (P-0052 × P-0053, sem "Pereira"). Mantém-se a forma do batismo de 1835; a
+  forma divergente de 1919 é registrada como variante. A idade declarada 86 implica n. ~1833 (o
+  batismo de 1835 governa o nascimento).
+reliability:
+  assessment: >-
+    Primary parish death entry — direct primary for the death date, age, origin and widowhood.
+  informant: The officiating vicar (José Silvestre Alves de Miranda).
+  limitations: >-
+    Delivered via the Fundação D. João VI digitisation (C-009). Cause word "[interito]" uncertain.
+    Parents' names diverge from the 1835 baptism (the "Pereira" element) — divergence preserved.
+digital_file:
+  path: evidence/parish/PAR-0058-bohrer-rosaeugenia-lemos-death-1919-novafriburgo.jpg
+  sha256: f284d06753cef16ac0ef2b8e037f11e59acfdaccaedf26110eee1c96bfa9e679
+linked_people:
+- P-0035
+- P-0034
+- P-0052
+- P-0053
+linked_families:
+- F-0025
+linked_events:
+- E-0086
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the new death event E-0086 (Roza Eugenia de Lemos, 2 Nov 1919). Records the
+    divergent parent-name form ("Pereira") against the 1835 baptism (P-0052 × P-0053) as a
+    preserved conflict on F-0025; the 1835 form is not overwritten.

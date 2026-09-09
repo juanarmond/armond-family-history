@@ -1,0 +1,21 @@
+schema_version: 1
+id: E-0085
+event_type: marriage
+date:
+  kind: exact
+  value: "1884-04-19"
+place_text: Matriz de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0030
+  role: spouse
+- person_id: P-0031
+  role: spouse
+status: confirmed
+source_ids:
+- PAR-0056
+notes:
+- text: >-
+    Marriage of Joaquim José Bohrer (P-0030), 22, natural de Itaboraí, and Lucinda Roschemant
+    [Rutschmann] da Silva Ferreira (P-0031), 21, born São João Baptista da Lagoa (Rio de
+    Janeiro), on 19 April 1884 at the Nova Friburgo Matriz (PAR-0056). Names both parent
+    couples (Francisco José × Roza Eugenia; Antonio da Silva Ferreira × Maria Joanna Rutschmann).

@@ -2,20 +2,25 @@ schema_version: 1
 id: E-0022
 event_type: birth
 date:
-  kind: approximate
-  text: c.1900 (aged 77 at her 1977 death, CIV-0015)
-  earliest: 1899
-  latest: 1901
+  kind: exact
+  value: "1899-05-13"
 place_text: Nova Friburgo, Rio de Janeiro, Brazil
 participants:
 - person_id: P-0015
   role: principal
-status: strong-evidence
+- person_id: P-0030
+  role: parent
+- person_id: P-0031
+  role: parent
+status: confirmed
 source_ids:
+- PAR-0057
 - CIV-0015
 - CIV-0016
 notes:
 - text: >-
-    Birth year inferred from the age (77) at her 1977 death (CIV-0015);
-    birthplace Nova Friburgo, RJ, from Eunir Bohrer's 1924 birth registration
-    (CIV-0016, "natural deste Districto").
+    Birth of Celina Bohrer (P-0015) fixed to 13 May 1899 by her own parish baptism (PAR-0057,
+    baptised 27 Sep 1899 at Nova Friburgo), legitimate daughter of Joaquim José Bohrer (P-0030)
+    × Lucinda Ferreira (P-0031). This supersedes the earlier "c.1900" inferred from her age (77)
+    at her 1977 death (CIV-0015); the 1899 date is consistent (77 in Feb 1977). Birthplace Nova
+    Friburgo also corroborated by Eunir Bohrer's 1924 birth registration (CIV-0016).

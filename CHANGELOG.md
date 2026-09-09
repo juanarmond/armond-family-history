@@ -5,6 +5,23 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Bohrer djoaovi haul, wave 1: Iris's direct maternal branch upgraded to primary (2026-09-09)
+
+- Five primary Nova Friburgo parish records catalogued for Iris Bohrer Muniz's direct maternal
+  line (previously modelled only at strong-evidence from the PUB-0003 published genealogy):
+  **PAR-0054** Francisco José Bohrer's 1832 baptism (b. 9 Jul 1832, E-0083), **PAR-0055** his 1888
+  death (E-0084), **PAR-0056** the 1884 Joaquim José Bohrer × Lucinda Rutschmann/Silva Ferreira
+  marriage (E-0085, names both parent couples), **PAR-0057** **Celina Bohrer's 1899 baptism** — she
+  is Iris's mother, born **13 May 1899** (corrects her birth event E-0022 from ~1900 to confirmed) —
+  and **PAR-0058** Roza Eugenia de Lemos's 1919 death (E-0086).
+- F-0014 (Celina's parentage) and F-0016 (Joaquim's) upgraded secondary→primary; Laura Maria Bohrer
+  recorded as a documented_child (F-0016); Rosa Eugenia's 1919 parent-name "Pereira" divergence from
+  her 1835 baptism preserved on F-0025. Celina's profile corrected (EN + PT).
+- Verified via 4 parallel transcription subagents against the images — which caught **3 mislabeled
+  images** the retrieval manifest had wrong (a Borel page, a Bohrer-less page, and a twinless 1900
+  page); those are NOT promoted. What's new feed regenerated (63 entries); make check green (70
+  tests); GEDCOM re-exported. Waves 2–4 (the Borer chain, deep Swiss ancestors, collateral) queued.
+
 ### Added — Two Nova Friburgo Bohrer baptisms (1908, 1910); Raibert provenance confirmed (2026-09-09)
 
 - **PAR-0052** — 1908 Nova Friburgo baptisms of **Maria Clara Bohrer** (daughter of Valentim

@@ -1,0 +1,19 @@
+schema_version: 1
+id: E-0086
+event_type: death
+date:
+  kind: exact
+  value: "1919-11-02"
+place_text: Nova Friburgo, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0035
+  role: principal
+status: confirmed
+source_ids:
+- PAR-0058
+notes:
+- text: >-
+    Death of Roza Eugenia de Lemos Bohrer (P-0035) on 2 November 1919 at Nova Friburgo, aged 86
+    (→ b. ~1833), natural de Itaboraí, widow of Francisco José Bohrer (P-0034) (PAR-0058). Her
+    parents are named here with the "Pereira" element (Manoel Pereira Lemos × Maria Tereza
+    Pereira de Lemos), diverging from her 1835 baptism (P-0052 × P-0053) — divergence preserved.

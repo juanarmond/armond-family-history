@@ -1,0 +1,63 @@
+schema_version: 1
+id: PAR-0055
+title: >-
+  1888 death of Francisco José Bohrer at Nova Friburgo — widower's counterpart,
+  husband of Roza Eugenia de Lemos
+title_pt: >-
+  Óbito de 1888 de Francisco José Bohrer em Nova Friburgo — marido de Roza Eugenia
+  de Lemos
+record_type: Parish burial/death register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1888-07-06"
+event_place_text: >-
+  Nova Friburgo (logar Alto da Serra), Rio de Janeiro, Brazil
+repository:
+  name: Matriz de São João Baptista, Nova Friburgo (Livro de Óbitos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Óbitos, fólio 237, nº 328 (1888)
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-09"
+language: pt-BR
+transcription: >-
+  [Livro de Óbitos, Nova Friburgo, fólio 237, nº 328, 1888; Cônego José Silvestre Alves de
+  Miranda.] "328 — Francisco Bos[b]er. Aos seis dias do mez de Julho de mil oito centos e
+  oitenta e oito foi encommendado e sepultado o cadaver de Francisco José Bos[b]er,
+  brazileiro, casado com Roza Eugenia de Lemos Bos[b]er, de cincoenta e seis annos de edade e
+  morador no logar Alto da Serra, n'esta freguezia. Falleceu de insufficiencia mitral e de
+  dilatação aortica. Para constar fiz este assento, que assigno. O Vigario Conego José
+  Silvestre Alves de Miranda." [surname inked "Bos[b]er", a variant of Bohrer/Borer.]
+abstract: >-
+  Parish death/burial of Francisco José Bohrer (P-0034), 6 July 1888 at Nova Friburgo (Alto da
+  Serra), aged 56 (→ b. ~1832, corroborating his 1832 baptism PAR-0054), husband of Roza
+  Eugenia de Lemos (P-0035); cause mitral insufficiency and aortic dilatation. Source for his
+  death event E-0084. The register gives no parentage. Surname variant "Bos[b]er" noted.
+abstract_pt: >-
+  Óbito/sepultamento paroquial de Francisco José Bohrer (P-0034), 6 de julho de 1888, em Nova
+  Friburgo (Alto da Serra), aos 56 anos (→ n. ~1832, corroborando seu batismo de 1832,
+  PAR-0054), marido de Roza Eugenia de Lemos (P-0035); causa insuficiência mitral e dilatação
+  aórtica. Fonte do evento de óbito E-0084. O registro não dá filiação. Variante de sobrenome
+  "Bos[b]er" registrada.
+reliability:
+  assessment: Primary parish death entry — direct primary for the death date, age and spouse.
+  informant: The officiating cónego (José Silvestre Alves de Miranda).
+  limitations: Delivered via the Fundação D. João VI digitisation (C-009). No parentage stated.
+digital_file:
+  path: evidence/parish/PAR-0055-bohrer-franciscojose-death-1888-novafriburgo.jpg
+  sha256: debfa18876f09e99c6485293ecd8e9cb48fc139ecd3c95ef8fbc465e1677f4d2
+linked_people:
+- P-0034
+- P-0035
+linked_families:
+- F-0016
+linked_events:
+- E-0084
+linked_places: []
+private: false
+notes:
+- text: Source for the new death event E-0084 (Francisco José Bohrer, 6 Jul 1888). Adds the surname variant "Bos[b]er".

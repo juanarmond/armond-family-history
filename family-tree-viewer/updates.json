@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T15:32:39Z",
+ "generated": "2026-09-09T16:17:54Z",
  "updates": [
   {
    "date": "2026-09-09",
@@ -9,6 +9,26 @@
    "primary": "GOV-0007",
    "links": [
     "P-0068"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1908 baptisms of Maria Clara Bohrer and Lucinda Maria Bohrer at São Pedro, Nova Friburgo — daughters of Valentim Martinho Bohrer × Carolina Klein and of Joaquim José Bohrer × Lucinda Ferreira",
+   "title_pt": "Batismos de 1908 de Maria Clara Bohrer e Lucinda Maria Bohrer em São Pedro, Nova Friburgo — filhas de Valentim Martinho Bohrer × Carolina Klein e de Joaquim José Bohrer × Lucinda Ferreira",
+   "primary": "PAR-0052",
+   "links": [
+    "P-0028"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1910 baptism of Durval Baptista Bohrer at São Pedro, Nova Friburgo — legitimate son of Valentim Martinho Bohrer and Carolina Klein",
+   "title_pt": "Batismo de 1910 de Durval Baptista Bohrer em São Pedro, Nova Friburgo — filho legítimo de Valentim Martinho Bohrer e Carolina Klein",
+   "primary": "PAR-0053",
+   "links": [
+    "P-0028"
    ]
   },
   {
@@ -544,21 +564,51 @@
   {
    "date": "",
    "kind": "document",
-   "title": "1908 baptisms of Maria Clara Bohrer and Lucinda Maria Bohrer at São Pedro, Nova Friburgo — daughters of Valentim Martinho Bohrer × Carolina Klein and of Joaquim José Bohrer × Lucinda Ferreira",
-   "title_pt": "Batismos de 1908 de Maria Clara Bohrer e Lucinda Maria Bohrer em São Pedro, Nova Friburgo — filhas de Valentim Martinho Bohrer × Carolina Klein e de Joaquim José Bohrer × Lucinda Ferreira",
-   "primary": "PAR-0052",
+   "title": "1832 baptism of Francisco José Bohrer at São João Baptista, Nova Friburgo — legitimate son of Jacob Bohrer and Catharina Moser",
+   "title_pt": "Batismo de 1832 de Francisco José Bohrer em São João Baptista, Nova Friburgo — filho legítimo de Jacob Bohrer e Catharina Moser",
+   "primary": "PAR-0054",
    "links": [
-    "P-0028"
+    "P-0034"
    ]
   },
   {
    "date": "",
    "kind": "document",
-   "title": "1910 baptism of Durval Baptista Bohrer at São Pedro, Nova Friburgo — legitimate son of Valentim Martinho Bohrer and Carolina Klein",
-   "title_pt": "Batismo de 1910 de Durval Baptista Bohrer em São Pedro, Nova Friburgo — filho legítimo de Valentim Martinho Bohrer e Carolina Klein",
-   "primary": "PAR-0053",
+   "title": "1888 death of Francisco José Bohrer at Nova Friburgo — widower's counterpart, husband of Roza Eugenia de Lemos",
+   "title_pt": "Óbito de 1888 de Francisco José Bohrer em Nova Friburgo — marido de Roza Eugenia de Lemos",
+   "primary": "PAR-0055",
    "links": [
-    "P-0028"
+    "P-0034"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "1884 marriage of Joaquim José Bohrer and Lucinda Roschemant da Silva Ferreira at Nova Friburgo — names both parent couples",
+   "title_pt": "Casamento de 1884 de Joaquim José Bohrer e Lucinda Roschemant da Silva Ferreira em Nova Friburgo — nomeia ambos os casais de pais",
+   "primary": "PAR-0056",
+   "links": [
+    "P-0030"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "1899 baptism of Celina Bohrer at Nova Friburgo — legitimate daughter of Joaquim José Bohrer and Lucinda Ferreira (Iris Bohrer Muniz's mother)",
+   "title_pt": "Batismo de 1899 de Celina Bohrer em Nova Friburgo — filha legítima de Joaquim José Bohrer e Lucinda Ferreira (mãe de Iris Bohrer Muniz)",
+   "primary": "PAR-0057",
+   "links": [
+    "P-0015"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "1919 death of Roza Eugenia de Lemos Bohrer at Nova Friburgo — widow of Francisco José Bohrer, of Itaboraí",
+   "title_pt": "Óbito de 1919 de Roza Eugenia de Lemos Bohrer em Nova Friburgo — viúva de Francisco José Bohrer, natural de Itaboraí",
+   "primary": "PAR-0058",
+   "links": [
+    "P-0035"
    ]
   },
   {

@@ -1,0 +1,75 @@
+schema_version: 1
+id: PAR-0054
+title: >-
+  1832 baptism of Francisco José Bohrer at São João Baptista, Nova Friburgo —
+  legitimate son of Jacob Bohrer and Catharina Moser
+title_pt: >-
+  Batismo de 1832 de Francisco José Bohrer em São João Baptista, Nova Friburgo —
+  filho legítimo de Jacob Bohrer e Catharina Moser
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1832-08-19"
+  original_text: >-
+    Baptised 19 August 1832 ("aos dezenove d'agosto de mil oito centos e trinta e dous");
+    born 9 July 1832 ("nascido aos 9 de julho").
+event_place_text: >-
+  Freguesia de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Matriz de São João Baptista, Nova Friburgo (Livro de Baptismos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Baptismos, fólio 223 (1832)
+  catalogue_reference: >-
+    Fundação D. João VI digitisation (djoaovi), whole-page scan; provenance chain confirmed
+    via C-009
+access_date: "2026-09-09"
+language: pt-BR
+transcription: >-
+  [Livro de Baptismos, Nova Friburgo, fólio 223, 1832; Vigário Jacob Joyé.] "Aos dezenove
+  d'agosto de mil oito centos e trinta e dous baptizei solenemente a Francisco Joze,
+  nascido aos 9 de julho, filho legitimo de Jacob Bohrer e de sua mulher Catharina Moser,
+  moradores n'esta freguezia: forão padri[nhos] Joze Moser e Maria Moser; e para constar
+  fiz este a[ssen]to e por ser verd.e assignei. O Vigario Jacob Joyé."
+abstract: >-
+  Parish baptism of Francisco José Bohrer (P-0034) — Iris Bohrer Muniz's 3×-great-grandfather
+  on the Bohrer maternal line — born 9 July 1832, baptised 19 August 1832 at São João
+  Baptista, Nova Friburgo, legitimate son of Jacob Bohrer (P-0050) × Catharina Moser (P-0051).
+  A primary act fixing his birth (was ~1832 inferred) and confirming his parentage; upgrades
+  that link secondary→primary. Godparents José Moser and Maria Moser (maternal kin).
+abstract_pt: >-
+  Batismo paroquial de Francisco José Bohrer (P-0034) — trisavô de Iris Bohrer Muniz na linha
+  materna Bohrer — nascido em 9 de julho de 1832, batizado em 19 de agosto de 1832 em São João
+  Baptista, Nova Friburgo, filho legítimo de Jacob Bohrer (P-0050) × Catharina Moser (P-0051).
+  Ato primário que fixa seu nascimento (antes inferido ~1832) e confirma sua filiação; eleva
+  esse vínculo de secundário para primário. Padrinhos José Moser e Maria Moser (parentela
+  materna).
+reliability:
+  assessment: >-
+    Primary parish baptism entry — direct primary for the birth, baptism and legitimate
+    parentage of Francisco José Bohrer.
+  informant: The officiating vicar (Jacob Joyé).
+  limitations: >-
+    Delivered via the Fundação D. João VI (djoaovi) digitisation (provenance confirmed, C-009).
+    The mother is written "Catharina Moser" (the 1825 marriage gives "Marie Catharine Moser").
+digital_file:
+  path: evidence/parish/PAR-0054-bohrer-franciscojose-baptism-1832-novafriburgo.jpg
+  sha256: d4008d558f6f29076580aafe30858b4195d746fa172795f5a0625bc89ca9b121
+linked_people:
+- P-0034
+- P-0050
+- P-0051
+linked_families:
+- F-0024
+linked_events:
+- E-0083
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the new birth event E-0083 (Francisco José Bohrer, 9 Jul 1832). Confirms the
+    parentage Jacob Bohrer (P-0050) × Catharina Moser (P-0051) on F-0024 (upgrade to primary).

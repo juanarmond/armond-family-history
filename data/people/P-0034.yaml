@@ -13,6 +13,8 @@ name_variants:
   - PRB-0005
 event_ids:
 - E-0026
+- E-0083
+- E-0084
 family_ids:
 - F-0016
 - F-0024
