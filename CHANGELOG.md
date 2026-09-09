@@ -19,8 +19,15 @@ also remain traceable through source records and research logs.
 - The roster ages are recorded as **preserved discrepancies, not adopted**: Laurent b. 27 Feb
   1797 (PUB-0003) vs age 18 (~1802) = ~5 years; Jacob b. c.1801 vs age 17 (~1803) = ~2 years.
   The held birth years stand; the register does not, by itself, prove any filiation, and the
-  two Borer lines are kept distinct. make check green (70 tests); index rebuilt; GEDCOM
-  re-exported.
+  two Borer lines are kept distinct.
+- GOV-0007's transcription was completed to a **full row-by-row roster** of both register
+  openings (previously partial), with faithful `[uncertain]`/`[illegible]` markers — the
+  low-resolution scan limits the non-key rows, noted in the reliability.
+- **New advisory tool `make triage-audit`** (`scripts/triage_audit.py`): flags drop images
+  synced since the last commit that are neither catalogued (by sha256) nor resolved in the
+  triage ledger — closing the gap that let these two single-image registers be soft-skipped as
+  "corroborative". Scoped to new arrivals to stay low-noise; local-only, advisory, exits 0
+  unless `--strict`. make check green (70 tests); index rebuilt; GEDCOM re-exported.
 
 ### Changed — Value-gate of the 2026-09-08 drop: corroborative settler registers + BPARPD reply logged (2026-09-08)
 

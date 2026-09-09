@@ -18,8 +18,16 @@ entry they amend; they must not erase it.
 - Discipline preserved: provenance caveat (blog-delivered, Fundação D. João VI; original not
   independently verified) recorded in the source reliability; the roster ages are preserved
   discrepancies (Laurent b.1797 vs 18; Jacob b.c.1801 vs 17), NOT adopted over the held birth
-  years; the two Borer lines kept distinct. make check green (70 tests); index rebuilt (354);
-  GEDCOM re-exported.
+  years; the two Borer lines kept distinct.
+- Prevention (owner asked "how do we not miss this again"): (1) hardened the attach-every-doc
+  rule in memory — "already proven", "only corroborates" and "imperfect provenance" are caveats
+  inside the source, never skip reasons; only a byte-identical duplicate or an image naming no
+  modelled person may be skipped. (2) Added `make triage-audit` (`scripts/triage_audit.py`),
+  which flags drop images synced since the last commit that are not yet catalogued or resolved
+  — scoped to new arrivals to stay low-noise (a blanket single-image check flags ~40 legitimate
+  un-promoted leads). Verified it fires on a simulated new arrival and is clean otherwise.
+- Also completed GOV-0007's transcription to a full row-by-row roster (was partial). make check
+  green (70 tests); index rebuilt (354); GEDCOM re-exported.
 
 ## 2026-09-08 — Value-gate: Nova Friburgo settler registers (corroborative) + BPARPD reply logged
 

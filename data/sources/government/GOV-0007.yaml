@@ -31,21 +31,45 @@ repository:
 access_date: "2026-09-08"
 language: fr
 transcription: >-
-  [Two openings of a Nova Friburgo colonist register, period hand, columns "Nomes / Idade
-  / Navio em que chegou e nome / Data em que Falecidos / Observações"; French/Portuguese
-  mixed, moderate legibility — uncertain reads flagged.] — PAGE 1 (family ~73/76, head
-  "Jean Georges Bott[ely]"): a settler group including "Christian [—] 33", "Jacques [—]",
-  "Joseph [—]", "Jacob [—] 33", "Catharine [—] 23", "Anne Marie [—]", "Henri [—] 35",
-  "[Séphonrne — uncertain] 25", "**Laurent Bocher [Borer] — 18**" [the arrow-marked
-  entry], "Maria [—] 30", "Michel [—]", "Jean Bocher", "Melchior [—]", "Marguerite [—]",
-  "Hugh [Hugo] Bocher", "Joseph Bocher". — PAGE 2 (family ~70/56, head "Victor Br[egat]
-  33"): "Catharina [sa femme] 28", "Jacques son fils 3", "Anton son fils 27", "**Jacques
-  [Jacob] Bocher — 17**", "Ann Both [—] 40 (2 enfants)", "Maxim[ilien] [sa femme] 30",
-  "Marianne sa fille 8", "Rodolph Wehrly [—]", "Anne Marie [sa femme] 36", "Joseph son
-  fils 16", "Jean son fils 5", "Marianne sa fille 14", "Anne sa fille 8", "[Isabelle]
-  Marg[uerite] [—]", "Brigitte [sa femme] [—]", "Jean Borer [—]" [several ages and the
-  arrival/death columns partly illegible]. The two openings list the Swiss families of the
-  Heureux Voyage cohort settled at Nova Friburgo, among them the Borer and Wehrli families.
+  [Two openings of a Nova Friburgo colonist register, period hand; columns: house/lot nº |
+  Nomes | [status] | "Navio em que chegou e nome / Data em que Falecidos" | Observações.
+  The digitised image is low-resolution, so non-key rows are read with low confidence —
+  every uncertain cell is flagged and nothing is asserted beyond what is legible.
+  Transcribed row-by-row across both openings.]
+
+
+  — PAGE 1 (opening headed lot "73 / 86" — the Casa 73 / Lote 86 of Laurent Borer): 1.
+  "[Jean Georges — uncertain] Bott[ely — uncertain] · [33?] · [Fevereiro?] · [death-date
+  illegible]"; 2. "[given name illegible] son fer[?] · 33"; 3. "[Jürgen? — uncertain] son
+  fils · [3?]"; 4. "Joseph son fils · [10? — uncertain]"; 5. "Jacob [son fils] · 33"; 6.
+  "Catharine [sa] fille · 23"; 7. "[Anne?] Marie fille · [30? — uncertain]"; 8. "[Henri? —
+  uncertain] son fils · 35"; 9. "[Séraphine? — uncertain] fille · 25 · [Obs.:
+  Catharina?]"; 10. "**Laurent Bocher · [18 — uncertain]**" [the arrow-marked entry]; 11.
+  "[given name illegible] [Bocher?]"; 12. "Maria sa f[emme] · [30?]"; 13. "Michel [son
+  fils? — illegible]"; 14. "Jean Bocher · [Obs. illegible]"; 15. "Melchior [—illegible]";
+  16. "Marguerite sa fille [—illegible]"; 17. "Hugh [Hugo?] Bocher [—illegible]"; 18.
+  "Joseph Bocher [—illegible]".
+
+
+  — PAGE 2 (opening headed lot "70 / 56" — the Casa 70 / Lote 56 of Jacob Bohrer, BORER I):
+  1. "[Victor? — uncertain] Br[eget? — uncertain] · 33 · [Fevereiro?] · [14 Jan 1882? —
+  uncertain]"; 2. "Catharina sa fe[mme] · 28"; 3. "Jacques son fils · 3"; 4. "Anton son
+  fils · 27 · [Obs.: mãe? — illegible]"; 5. "**Jacques [Jacob] Bocher · [17 — uncertain]**"
+  [the arrow-marked entry] · [12 Jan 182-? — uncertain]"; 6. "Ann[a] Both[?] · 40 · [2
+  enfants?] · [18 Jul 182-? — uncertain]"; 7. "Maxim[?] sa fe[mme] · 30"; 8. "Marianne sa
+  fille · 8"; 9. "Rodolph Wehrly · [8?] · Fevereiro · [1 Jan 182-? — uncertain]"; 10.
+  "Anne Marie sa fe[mme] · 36"; 11. "Joseph son fils · 16"; 12. "Jean son fils · 5"; 13.
+  "Marianne sa fille · 14"; 14. "Anne sa fille · 8"; 15. "[Isabel?] Marg[uerite] · [3?] ·
+  [Elisabeth? M...? · 1819? — uncertain]"; 16. "Brigitte [sa femme?] · [45? — uncertain]";
+  17. "Jean [Borer? — uncertain] [—illegible]".
+
+
+  The two openings list the Swiss families of the Heureux Voyage cohort settled at Nova
+  Friburgo, among them the Borer and Wehrli families. Only the two arrow-marked Bocher
+  entries (Laurent, page 1; Jacques/Jacob, page 2) and the Wehrly family block (page 2) are
+  read with confidence; the other surnames and most ages are low-confidence at this
+  resolution and are flagged accordingly. A higher-resolution scan would be needed to fix
+  the remaining names, ages and the arrival/death-date column.
 abstract: >-
   A Nova Friburgo Swiss-colony settler register recording the Heureux Voyage cohort
   (arrived 1819–1820), with colonists' given names, ages, ship and death-date columns. It

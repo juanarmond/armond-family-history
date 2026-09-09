@@ -1,4 +1,4 @@
-.PHONY: check test validate profiles-audit ancestors-audit drop-pages-audit export export-bundle export-legacy
+.PHONY: check test validate profiles-audit ancestors-audit drop-pages-audit triage-audit export export-bundle export-legacy
 
 PYTHON ?= python3
 
@@ -24,6 +24,13 @@ ancestors-audit:
 # the validator cannot see. Run after every drop. Exits 0 unless --strict.
 drop-pages-audit:
 	$(PYTHON) scripts/drop_page_audit.py
+
+# Advisory (local-only): flag drop images that are neither catalogued (by sha256) nor given
+# a resolved triage-ledger disposition ("completed → <ID>" / "duplicate"). Catches a single
+# record image that names a modelled person but was left uncatalogued or soft-skipped as
+# "corroborative / lead". Run after every drop. Exits 0 unless --strict.
+triage-audit:
+	$(PYTHON) scripts/triage_audit.py
 
 test:
 	$(PYTHON) -m unittest discover -s tests -v
