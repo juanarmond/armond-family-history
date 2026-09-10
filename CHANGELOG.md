@@ -5,6 +5,43 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — Four-audit correctness remediation of the Bohrer haul (2026-09-10)
+
+Ran four read-only audits (profile correctness ×2, missed retrieval work, link
+reciprocity) over the waves 2–4 djoaovi output and remediated every real finding
+centrally. Reciprocity was clean (0 gaps); no catalogued record was missed.
+
+- **Generation degrees corrected repo-wide (relative to Iris Bohrer Muniz).** Eight
+  source abstracts (PAR-0059/0066/0067/0068/0069/0071/0072/0073) and eight profiles
+  (P-0103–P-0108, P-0113/P-0114) carried inflated "Nth-great-grandparent" labels
+  computed inconsistently. Corrected against the traced descent: Jacob Klein (P-0103)
+  / Maria Luiza Schenkel (P-0104) are Iris's **great-grandparents**; the Klein/Schenkel/
+  Stoffel and Rutschmann/Silva and Eggendorn couples are her **great-great-grandparents**;
+  Heinrich Schenkel / Joseph Stoffel her **3×-great-grandparents**.
+- **P-0029 Carolina** resynced: her maiden name **Klein** is now primary-confirmed by her
+  1890 marriage (PAR-0064), superseding the old "unverified blog lead" framing; added the
+  `Carolina Klein` name-variant, her parents (Jacob Klein × Maria Luiza Schenkel), ~1873 NF
+  birth and Lutheran→Catholic conversion.
+- **P-0028 Valentim** resynced: birth corrected to **~14 September 1868** (PAR-0063,
+  superseding the impossible PUB-0003 "14 Nov"); baptism/marriage/death (PAR-0063/0064/0065)
+  now reflected in name-variants, notes, open-questions and sources-held.
+- **P-0014 João Gonçalves**: folded the Raibert-index baptism LEAD (São José do Ribeirão,
+  Livro 4 f.66v, 1894) with its next-action, correcting the "likely NF Catedral" guess.
+- **P-0050 Jacob Borer**: death hypothesis corrected — the NF óbito bounded-negative
+  (gap-free 1832–1853, absent; son b.1840) positively excludes "d.1843 at NF"; he died
+  **outside Nova Friburgo** (Macaé/Bom Jardim drift).
+- **Lead-laundering / over-tag fixes:** hedged Elisabeth Storck's German/Hessen origin
+  (P-0110/P-0109, a blog LEAD) out of [PROVEN] lines; relabelled P-0109's calculated
+  30 Aug 1800 birth [INFERRED]; corrected P-0112's surname reasoning to match PAR-0070;
+  fixed P-0103's note month (Nov), P-0106's "reads differently" claim, P-0107's E-0092
+  mis-attribution, P-0096/P-0097 "paternal"→"maternal" line, and a quote-fidelity slip.
+- **P-0115** disambiguated from his same-named son P-0101 (`preferred_name` → "José
+  Eggendorn Sr"; removed an unsourced name-variant), clearing a duplicate-identity warning.
+- **Family Story (family-story.yaml, EN + PT)** brought into step: Valentim's birth
+  (Sep 1868), "Carolina Klein" (not "Schuenck Klein"), João Gonçalves's ~1894 São José do
+  Ribeirão baptism.
+- **updates.json** feed refreshed (previously missing the wave 4b baptisms).
+
 ### Added — Bilingual profiles for 23 Bohrer/Swiss deep ancestors (2026-09-10)
 
 - Added `profile` (English) and `profile_pt` (Portuguese) narrative fields to the 23 deep

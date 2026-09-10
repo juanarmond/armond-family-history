@@ -1,15 +1,11 @@
 schema_version: 1
 id: P-0115
-preferred_name: José Eggendorn
+preferred_name: José Eggendorn Sr
 privacy: deceased
 sex: male
 name_variants:
 - value: José Geggendorn
   type: source
-  source_ids:
-  - PAR-0073
-- value: José Heggendorn
-  type: other
   source_ids:
   - PAR-0073
 event_ids: []
@@ -21,7 +17,10 @@ notes:
     Maria Lutz, in his son's 1829 Nova Friburgo marriage (PAR-0073). His son was "nascido e
     baptizado na Freguezia de São Lucas [St. Lukas — uncertain], Cantão de Soleure" (Solothurn,
     Switzerland), so the family is of that Swiss parish; José Sr's own origin is not separately
-    stated, so nationality is left unset. Already deceased by 1829.
+    stated, so nationality is left unset. Already deceased by 1829. He shares the given name
+    "José Eggendorn" with his son (P-0101); the preferred name here carries the "Sr" suffix to
+    distinguish father from son — this is a genuine namesake, not a duplicate entity. The record
+    spelling of the father is "Geggendorn" (the "Heggendorn" form is a blog spelling, below).
 - text: >-
     [LEAD — collaborative blog, not evidence] A Nova Friburgo genealogy blog (Raibert, Blogspot
     2012, "Cantões Suíços dos Imigrantes de Nova Friburgo") gives this couple as Joseph Heggendorn,

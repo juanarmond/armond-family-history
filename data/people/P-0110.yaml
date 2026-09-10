@@ -26,7 +26,7 @@ notes:
 profile: >-
   ## Identity
 
-  **Elisabeth Storck** (recorded at Nova Friburgo as **Isabel Stork**) — a German colonist
+  **Elisabeth Storck** (recorded at Nova Friburgo as **Isabel Stork**) — a colonist
   woman of the Nova Friburgo settlement, wife of the Swiss immigrant João José Rutschmann
   (P-0109) and mother of Maria Joanna Rutschmann (P-0037). Her nationality is left unset in
   this repository pending a record of her own origin. [PROVEN (identity and family role)]
@@ -53,11 +53,12 @@ profile: >-
 
   ## Family and social network
 
-  She is known as the wife of João José Rutschmann (P-0109), confirmed in his 1860 death
-  entry as the surviving wife. She was alive at the date of her husband's death (July 1860).
-  Their daughter Maria Joanna married Antonio da Silva Ferreira in 1859, linking this
-  German-colonist line to a Portuguese immigrant trunk (F-0017). [PROVEN (alive 1860, couple
-  identity)]
+  She is known as the wife of João José Rutschmann (P-0109), named in his 1860 death entry
+  ("cazado com Isabel Stork"). That he is recorded as married rather than a widower ("viúvo")
+  implies she was still alive at the date of his death (July 1860). [INFERRED (alive 1860) —
+  PAR-0071 records him married, not widowed] Their daughter Maria Joanna married Antonio da
+  Silva Ferreira in 1859, linking this Nova Friburgo colonist line to a Portuguese immigrant
+  trunk (F-0017). [PROVEN (couple identity)]
 
   ## Open questions
 
@@ -78,11 +79,11 @@ profile: >-
   - PAR-0070 (her daughter's 1859 Nova Friburgo marriage — names her as "Isabel Stork").
 
   - PAR-0071 (her husband's 1860 Nova Friburgo death entry — names her as his wife "Isabel
-  Stork"; confirms she was then living).
+  Stork"; he is recorded married rather than widowed, which indicates she was then living).
 profile_pt: >-
   ## Identidade
 
-  **Elisabeth Storck** (registada em Nova Friburgo como **Isabel Stork**) — colonista alemã
+  **Elisabeth Storck** (registada em Nova Friburgo como **Isabel Stork**) — colonista
   da colônia de Nova Friburgo, esposa do imigrante suíço João José Rutschmann (P-0109) e
   mãe de Maria Joanna Rutschmann (P-0037). Sua nacionalidade permanece indefinida neste
   repositório até que um registro próprio confirme sua origem. [PROVEN (identidade e papel
@@ -111,11 +112,12 @@ profile_pt: >-
 
   ## Família e rede social
 
-  É conhecida como esposa de João José Rutschmann (P-0109), confirmada em seu registro de
-  óbito de 1860 como esposa sobrevivente. Consta como viva na data da morte do marido (julho
-  de 1860). Sua filha Maria Joanna casou-se com Antonio da Silva Ferreira em 1859, unindo
-  esta linhagem de colonistas alemães a um tronco de imigrantes portugueses (F-0017). [PROVEN
-  (viva em 1860, identidade do casal)]
+  É conhecida como esposa de João José Rutschmann (P-0109), nomeada em seu registro de óbito
+  de 1860 ("cazado com Isabel Stork"). O fato de ele constar como casado, e não como viúvo,
+  implica que ela ainda estava viva na data da morte do marido (julho de 1860). [INFERRED
+  (viva em 1860) — PAR-0071 registra-o casado, não viúvo] Sua filha Maria Joanna casou-se com
+  Antonio da Silva Ferreira em 1859, unindo esta linhagem de colonistas de Nova Friburgo a um
+  tronco de imigrantes portugueses (F-0017). [PROVEN (identidade do casal)]
 
   ## Questões em aberto
 
@@ -137,4 +139,4 @@ profile_pt: >-
   - PAR-0070 (casamento de 1859 de sua filha em Nova Friburgo — nomeia-a como "Isabel Stork").
 
   - PAR-0071 (registro de óbito de 1860 de seu marido em Nova Friburgo — nomeia-a como esposa
-  "Isabel Stork"; confirma que estava viva nessa data).
+  "Isabel Stork"; ele é registrado casado e não viúvo, o que indica que ela estava então viva).

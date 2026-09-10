@@ -38,8 +38,10 @@ profile: >-
 
   - **Birth:** born and baptised in the parish of Bulle, Canton Fribourg, Switzerland, around
   30 August 1800 — the year and place stated in his 1860 death entry ("natural e baptizado na
-  Frequezia de Bulle, Cantão de Fribourg, na Suíça"), the exact day derived from a secondary
-  source. [PROVEN (~1800, Bulle) — PAR-0071; exact day 30 Aug LEAD]
+  Frequezia de Bulle, Cantão de Fribourg, na Suíça"), the exact day derived by back-calculating
+  the age recorded in that same death entry (22 July 1860 minus 59 years, 10 months and
+  22 days). [PROVEN (~1800, Bulle) — PAR-0071; exact day 30 Aug INFERRED from PAR-0071
+  age-at-death]
 
   - **Death:** died 22 July 1860 at 8.30 p.m. at Nova Friburgo, aged 59 years, 10 months and
   22 days; buried the following day in the town cemetery; officiant Vigário Jacob Joye. [PROVEN
@@ -59,10 +61,9 @@ profile: >-
 
   ## Family and social network
 
-  He married Elisabeth Storck (P-0110) — a German colonist from Hessen-Darmstadt — at Nova
-  Friburgo; the union is confirmed by his 1860 death entry naming her as his wife ("casado com
-  Isabel Stork"), though the marriage act itself is not yet held. [PROVEN (couple) — PAR-0071;
-  OPEN (marriage date/act)]
+  He married Elisabeth Storck (P-0110) at Nova Friburgo; the union is confirmed by his 1860
+  death entry naming her as his wife ("casado com Isabel Stork"), though the marriage act
+  itself is not yet held. [PROVEN (couple) — PAR-0071; OPEN (marriage date/act)]
 
   Their daughter Maria Joanna (P-0037) was born at Nova Friburgo on 2 May 1841 (E-0093,
   PAR-0069) and in 1859 married the Portuguese immigrant Antonio da Silva Ferreira (PAR-0070,
@@ -106,7 +107,9 @@ profile_pt: >-
   - **Nascimento:** nascido e baptizado na Freguesia de Bulle, Cantão de Fribourg, Suíça,
   cerca de 30 de agosto de 1800 — ano e local declarados em seu registro de óbito de 1860
   ("natural e baptizado na Frequezia de Bulle, Cantão de Fribourg, na Suíça"); o dia exato
-  deriva de fontes secundárias. [PROVEN (~1800, Bulle) — PAR-0071; dia exato 30 ago. LEAD]
+  deriva do cálculo da idade registrada nesse mesmo óbito (22 de julho de 1860 menos 59 anos,
+  10 meses e 22 dias). [PROVEN (~1800, Bulle) — PAR-0071; dia exato 30 ago. INFERRED from
+  PAR-0071 age-at-death]
 
   - **Óbito:** faleceu em 22 de julho de 1860, às 20h30, em Nova Friburgo, com 59 anos,
   10 meses e 22 dias; sepultado no dia seguinte no Cemitério da Vila; officiante Vigário
@@ -127,10 +130,10 @@ profile_pt: >-
 
   ## Família e rede social
 
-  Casou-se com Elisabeth Storck (P-0110) — colonista alemã de Hessen-Darmstadt — em Nova
-  Friburgo; a união é confirmada pelo registro de óbito de 1860, que a nomeia como esposa
-  sobrevivente ("casado com Isabel Stork"), embora o assento matrimonial em si não esteja
-  disponível. [PROVEN (casal) — PAR-0071; OPEN (data/assento do casamento)]
+  Casou-se com Elisabeth Storck (P-0110) em Nova Friburgo; a união é confirmada pelo registro
+  de óbito de 1860, que a nomeia como esposa sobrevivente ("casado com Isabel Stork"), embora
+  o assento matrimonial em si não esteja disponível. [PROVEN (casal) — PAR-0071; OPEN
+  (data/assento do casamento)]
 
   Sua filha Maria Joanna (P-0037) nasceu em Nova Friburgo em 2 de maio de 1841 (E-0093,
   PAR-0069) e em 1859 casou-se com o imigrante português Antonio da Silva Ferreira (PAR-0070,

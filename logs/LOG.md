@@ -1752,3 +1752,29 @@ Post-haul closure and enrichment session (no new research retrieval).
    readings and mis-matched candidate profiles were rejected against the catalogued sources. No
    structured relationship/event/source data changed; the GEDCOM is unaffected.
 4. make check green (70 tests). Pure additions across 23 files, no other entity touched.
+
+## 2026-09-10 — Four-audit correctness remediation of the Bohrer haul
+
+Deployed four read-only audit subagents over the waves 2–4 output (profile correctness ×2,
+missed-retrieval-work, link-reciprocity), then remediated every real finding centrally with
+four more disjoint-file subagents plus hand-fixes.
+
+1. **Reciprocity clean (0 gaps); no missed record.** Every family/event/source link resolves
+   both ends; drop-pages and ancestors audits clean. The missed-work audit confirmed every
+   direct-line record is catalogued — it surfaced only note/next-action gaps (P-0014, P-0050)
+   and content staleness (P-0028, P-0029), not missing sources.
+2. **Systemic generation-degree error fixed.** The waves' "Iris's Nth-great-grandparent"
+   labels (only place in the repo that carries such labels) were inflated and inconsistent.
+   Traced the actual descent and corrected 8 source abstracts + 8 profiles (EN+PT):
+   P-0103/P-0104 = great-grandparents; the Klein/Schenkel/Stoffel + Rutschmann/Silva +
+   Eggendorn couples = great-great-grandparents; Heinrich Schenkel/Joseph Stoffel = 3×-great.
+3. **Direct-line resyncs.** P-0029 (maiden name Klein now primary via PAR-0064, + parents,
+   ~1873 birth, conversion); P-0028 (birth ~14 Sep 1868 per PAR-0063, baptism/marriage/death
+   now held); P-0014 (São José do Ribeirão baptism-index LEAD folded); P-0050 (died outside
+   NF, bounded-negative — "d.1843" excluded).
+4. **Lead-laundering / over-tag corrections.** Elisabeth Storck German/Hessen origin hedged
+   out of [PROVEN] (P-0110/P-0109); P-0109 30-Aug birth → [INFERRED]; P-0112 surname reasoning
+   fixed to PAR-0070; P-0103 note month, P-0106 "reads differently", P-0107 E-0092, P-0096/97
+   maternal-line and a quote-fidelity slip. P-0115 disambiguated from son P-0101 ("Sr").
+5. **Downstream artefacts brought into step:** family-story.yaml (EN+PT), updates.json feed,
+   GEDCOM re-exported. make check green (70 tests; 0 errors, 0 warnings).

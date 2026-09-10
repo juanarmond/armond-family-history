@@ -41,7 +41,11 @@ notes:
     who came from Grindel. Jacob's Casa/Lote at Nova Friburgo was 70/56 (Laurent's
     was 73/86 — a useful distinguishing marker). The compilation gives him "9 filhos"
     total (two died in infancy unrecorded). The DB states he sold his property on
-    24 April 1843 (likely already infirm; died 1843-44). The Catharina Mayer/Moser
+    24 April 1843. NOTE the compilation's "died 1843-44" is now positively EXCLUDED
+    by a bounded-negative retrieval search: the Nova Friburgo óbito register (Livro 1)
+    was read gap-free 1832-1853 and Jacob is ABSENT, while his son João José was born
+    10 Sep 1840 — so he was alive into ~1840 and died OUTSIDE Nova Friburgo (the
+    branch's Macaé / Bom Jardim drift), not in 1843 at Nova Friburgo. The Catharina Mayer/Moser
     surname conflict (PRB-0005 gives "Mayer"; compilation gives "Moser") is
     unresolved and preserved as a name variant on P-0051. PRB-0005 evidences
     only his name, his son's parentage and that he was already dead by 1888;
@@ -57,8 +61,13 @@ notes:
     Grindel. A Casa/Lote de Jacob em Nova Friburgo era 70/56 (a de Laurent era
     73/86 — um marcador distintivo útil). A compilação lhe atribui "9 filhos" no
     total (dois morreram na infância sem registro). O banco de dados afirma que
-    ele vendeu sua propriedade em 24 de abril de 1843 (provavelmente já enfermo;
-    morreu em 1843-44). O conflito de sobrenome Catharina Mayer/Moser (PRB-0005
+    ele vendeu sua propriedade em 24 de abril de 1843. NOTE que o "morreu em 1843-44"
+    da compilação está agora positivamente EXCLUÍDO por uma busca de negativa delimitada:
+    o registro de óbitos de Nova Friburgo (Livro 1) foi lido sem lacunas de 1832 a 1853 e
+    Jacob está AUSENTE, ao passo que seu filho João José nasceu em 10 de setembro de 1840 —
+    portanto ele estava vivo até por volta de 1840 e morreu FORA de Nova Friburgo (o
+    deslocamento do ramo para Macaé / Bom Jardim), não em 1843 em Nova Friburgo.
+    O conflito de sobrenome Catharina Mayer/Moser (PRB-0005
     traz "Mayer"; a compilação traz "Moser") permanece sem resolução e é
     preservado como variante de nome em P-0051. PRB-0005 evidencia apenas seu
     nome, a filiação de seu filho e que ele já estava morto em 1888; a confirmação
@@ -85,8 +94,12 @@ profile: >-
   unset.
 
   - **Death:** before 1888 [PROVEN] — his son's registered will (PRB-0005) names him
-  "já fallecido." A compilation places his death at 1843–44, after he sold his Nova
-  Friburgo property on 24 April 1843 [LEAD].
+  "já fallecido." He was alive into ~1840 (his son João José was born 10 Sep 1840) and
+  died **outside Nova Friburgo**: a bounded-negative search read the Nova Friburgo óbito
+  register gap-free 1832–1853 and he is absent, so the compilation's "died 1843–44 at
+  Nova Friburgo" is positively excluded — the death belongs to the branch's Macaé /
+  Bom Jardim drift. He did sell his Nova Friburgo property on 24 April 1843 [LEAD], his
+  last dated act there. [PROVEN he died before 1888; INFERRED he died outside NF after ~1840]
 
   - **Marriage and children:** husband of Catharina Mayer / Moser (P-0051); father of at
   least Francisco José Bohrer (P-0034, b.1832) [PROVEN, via PRB-0005]. PUB-0003 credits
@@ -150,9 +163,11 @@ profile: >-
 
   ## Open questions
 
-  - His Nova Friburgo inventário (c.1843) — the decisive record: it would fix his death
-  date, settle his wife's maiden surname (the will's "Mayer" vs the compilation's
-  "Moser") and name his full child set. [OPEN]
+  - His death record and inventário — the decisive record: it would fix his death date,
+  settle his wife's maiden surname (the will's "Mayer" vs the compilation's "Moser") and
+  name his full child set. Since the Nova Friburgo óbito register (1832–1853) is a
+  bounded-negative for him, look **outside Nova Friburgo** — the Macaé / Bom Jardim
+  parishes and civil registries to which the branch drifted — not a c.1843 NF inventário. [OPEN]
 
   - A Swiss (Erschwil) baptism or emigration document to confirm the Swiss origin and his
   parents at primary level. [OPEN]
@@ -181,10 +196,14 @@ profile: >-
   Solothurn, Switzerland (4228; GPS 47.3736, 7.5431) [RESOLVED] ·
   [Maps](https://maps.google.com/?q=47.3736,7.5431)
 
-  - **Marriage and death (1825, ~1843):** Catedral Diocesana / Igreja Matriz de São João
+  - **Marriage (1825):** Catedral Diocesana / Igreja Matriz de São João
   Batista, Centro, Nova Friburgo, RJ (Rua Monsenhor José Antônio Teixeira 23; GPS -22.28159,
   -42.53085) — the 1825 marriage predates the current 1869 cathedral (earlier church, same
   site) [RESOLVED] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
+
+  - **Death (after ~1840, outside Nova Friburgo):** NOT the NF óbito register (a bounded
+  negative, 1832–1853) — search the **Macaé / Bom Jardim** parishes and civil registries to
+  which the branch drifted (cf. co-line Laurent Borer d.1880 Bom Jardim). [OPEN]
 profile_pt: >-
   ## Identidade
 
@@ -203,8 +222,13 @@ profile_pt: >-
   primário. Sua nacionalidade é, por isso, deliberadamente deixada em aberto.
 
   - **Óbito:** antes de 1888 [PROVEN] — o testamento registrado de seu filho (PRB-0005) o
-  nomeia "já fallecido". Uma compilação situa sua morte em 1843–44, após ter vendido sua
-  propriedade em Nova Friburgo em 24 de abril de 1843 [LEAD].
+  nomeia "já fallecido". Ele estava vivo até ~1840 (seu filho João José nasceu em 10 de
+  setembro de 1840) e morreu **fora de Nova Friburgo**: uma busca de negativa delimitada leu
+  o registro de óbitos de Nova Friburgo sem lacunas de 1832 a 1853 e ele está ausente, de
+  modo que o "morreu em 1843–44 em Nova Friburgo" da compilação está positivamente excluído —
+  o óbito pertence ao deslocamento do ramo para Macaé / Bom Jardim. Ele de fato vendeu sua
+  propriedade em Nova Friburgo em 24 de abril de 1843 [LEAD], seu último ato datado ali.
+  [PROVEN que morreu antes de 1888; INFERRED que morreu fora de NF após ~1840]
 
   - **Casamento e filhos:** marido de Catharina Mayer / Moser (P-0051); pai de ao menos
   Francisco José Bohrer (P-0034, n.1832) [PROVEN, via PRB-0005]. PUB-0003 atribui ao casal
@@ -272,9 +296,12 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seu inventário de Nova Friburgo (c.1843) — o registro decisivo: fixaria sua data de
-  óbito, resolveria o sobrenome de solteira de sua esposa (o "Mayer" do testamento vs o
-  "Moser" da compilação) e nomearia o conjunto completo de seus filhos. [OPEN]
+  - Seu registro de óbito e inventário — o registro decisivo: fixaria sua data de óbito,
+  resolveria o sobrenome de solteira de sua esposa (o "Mayer" do testamento vs o "Moser" da
+  compilação) e nomearia o conjunto completo de seus filhos. Como o registro de óbitos de
+  Nova Friburgo (1832–1853) é uma negativa delimitada para ele, procure **fora de Nova
+  Friburgo** — as paróquias e cartórios de Macaé / Bom Jardim para onde o ramo se deslocou —
+  e não um inventário de NF de c.1843. [OPEN]
 
   - Um batismo suíço (Erschwil) ou documento de emigração que confirme a origem suíça e
   seus pais em nível primário. [OPEN]
@@ -303,7 +330,11 @@ profile_pt: >-
   Cantão de Solothurn, Suíça (4228; GPS 47.3736, 7.5431) [RESOLVED] ·
   [Maps](https://maps.google.com/?q=47.3736,7.5431)
 
-  - **Casamento e óbito (1825, ~1843):** Catedral Diocesana / Igreja Matriz de São João
+  - **Casamento (1825):** Catedral Diocesana / Igreja Matriz de São João
   Batista, Centro, Nova Friburgo, RJ (Rua Monsenhor José Antônio Teixeira 23; GPS -22.28159,
   -42.53085) — o casamento de 1825 é anterior à atual catedral de 1869 (igreja anterior,
   mesmo sítio) [RESOLVED] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
+
+  - **Óbito (após ~1840, fora de Nova Friburgo):** NÃO o registro de óbitos de NF (uma
+  negativa delimitada, 1832–1853) — procure nas paróquias e cartórios de **Macaé / Bom
+  Jardim** para onde o ramo se deslocou (cf. o co-parente Laurent Borer, f.1880 Bom Jardim). [OPEN]
