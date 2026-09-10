@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0106
+event_type: birth
+date:
+  kind: unknown
+  text: >-
+    Age left blank in the marriage act; no birth date derivable.
+place_text: >-
+  Portugal (freguesia de [Guenfães — uncertain])
+participants:
+- person_id: P-0036
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0070
+notes:
+- text: >-
+    Birthplace from his own 1859 Nova Friburgo marriage (PAR-0070): "natural e baptizado na Freguezia de [Guenfães — uncertain] em Portugal". The country (Portugal) is firm; the parish read is [uncertain]. Read from the record, not inferred from the surname.

@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0115
+event_type: birth
+date:
+  kind: unknown
+  text: >-
+    No age in the 1825 marriage act; the compilation 'b.~1801' is a lead.
+place_text: >-
+  Erschwil, Cantão de Soleure (Solothurn), Switzerland
+participants:
+- person_id: P-0050
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0059
+notes:
+- text: >-
+    Birthplace from his own 1825 Nova Friburgo marriage (PAR-0059): "Jacob Bohrer … baptizado na freg.a de Erswill [Erschwil] … ambos do Cantão de Soleure, colonos suiços". Primary parish record → his Swiss (Erschwil, Solothurn) origin is now record-confirmed, superseding the earlier 'compilation-only' caveat. Informant-reported at marriage (indirect for the birth).

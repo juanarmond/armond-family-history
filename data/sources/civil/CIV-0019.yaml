@@ -99,7 +99,9 @@ linked_families:
 - F-0014
 - F-0016
 - F-0017
-linked_events: []
+linked_events:
+- E-0104
+- E-0105
 linked_places: []
 private: true
 notes:

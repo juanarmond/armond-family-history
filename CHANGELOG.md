@@ -5,6 +5,32 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — Card birthplace line + birth events for 14 ancestors with a documented origin (2026-09-10)
+
+Two related fixes so the card's place line honestly reflects a person's **birthplace**:
+
+- **Viewer fix (`family-tree-viewer/app.js`, `primaryPlace`):** the card's place line no
+  longer falls back to `person.events[0]`, which was showing a **marriage venue** (or a
+  child's baptism where the person is only a parent) as if it were their birthplace. It now
+  uses only the person's own vital place — **birth, then baptism**, then death/burial — so a
+  baptism-only ancestor (e.g. João Rodrigues Valle → Ruivães; Rosa Eugenia → Itaboraí) shows
+  their real birthplace, and people with only a marriage record honestly show "place unknown".
+- **14 birth events (E-0103–E-0116)** for ancestors whose birthplace is **stated in a held
+  record** but was never modelled as an event, each cited to that record with reciprocal
+  links: Carolina Klein/P-0029, Joaquim José P-0030 & Lucinda P-0031 (Nova Friburgo, CIV-0019/
+  PAR-0064); Antonio da Silva Ferreira P-0036 (Portugal, PAR-0070); the São Miguel Muniz trio
+  P-0047/P-0048/P-0049 (N.S. Mãe de Deus, Povoação, PAR-0024/PAR-0037); Amaro da Silva Xavier
+  P-0059 (Meia Ponte/Pirenópolis, GO, PAR-0025, conflict preserved); Anna Maria Werhly P-0069
+  (Grindel, PUB-0003); Isabel Ribeiro P-0079 (Borda do Campo/Barbacena, PAR-0034); José
+  Eggendorn P-0101 & Maria Freese P-0102 (Swiss parish, PAR-0073); and **Jacob Bohrer P-0050
+  (Erschwil) & Catharina Moser P-0051 (Hägendorf)** from their 1825 marriage PAR-0059.
+- **P-0050/P-0051 Swiss origin upgraded to primary:** PAR-0059 states their Erschwil/Hägendorf
+  (Canton Solothurn) origin, so `nationality: Swiss` is now set and the stale "compilation-only,
+  nationality deliberately unset" notes/profiles were reconciled (EN + PT).
+- People whose birthplace is **genuinely unstated** (Conrad Schenkel, Maria Luiza Stoffel,
+  Maria Luiza Schenkel, Francisco Leocádio, Ignez Francisca) correctly show "place unknown" —
+  no locality inferred from a surname or a marriage venue.
+
 ### Fixed — Nationality (and viewer flag) for 6 Brazil-born ancestors (2026-09-10)
 
 The viewer draws its country flag from a person's `nationality`, not their birthplace,

@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0110
+event_type: birth
+date:
+  kind: unknown
+  text: >-
+    No age or birth date held.
+place_text: >-
+  Freguesia de Nossa Senhora do Rio de Meia Ponte (today Pirenópolis), Comarca de Goiás, Brazil
+participants:
+- person_id: P-0059
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0025
+notes:
+- text: >-
+    Birthplace from his daughter Maria's 1777 baptism (PAR-0025): "Amaro da Silva Xavier, natural da frequesia de Nossa Senhora do Rio de Meia Ponte, comarca do Goyas" (today Pirenópolis, GO) — explicit and distinct from the record's venue. CONFLICT PRESERVED: the 1810 marriage PAR-0023 carries "naturais e batizados da Freguesia de Barbacena", but that clause is grammatically contested (spouses vs parents) and read by the repo as long-term domicile; the specific 1777 Meia Ponte statement is the stronger evidence for his birthplace.

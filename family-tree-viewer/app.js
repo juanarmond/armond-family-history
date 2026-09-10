@@ -202,9 +202,16 @@ function lifespan(person) {
 }
 
 function primaryPlace(person) {
+  // The card's place line is the person's own BIRTHPLACE — their birth event, or
+  // their baptism as a proxy for it. It must never fall back to a place they only
+  // married or resided in: a marriage location read as a birthplace is misleading
+  // (and the marriage venue is rarely where either spouse was born). Only when no
+  // birth or baptism is held do we fall back to death/burial — still an own vital
+  // place — and otherwise the birthplace is honestly unknown.
   const preferred = ownEvent(person, "birth")
+    || ownEvent(person, "baptism")
     || ownEvent(person, "death")
-    || person.events[0];
+    || ownEvent(person, "burial");
   return localePlace(preferred?.place?.name) || t("place.unknown");
 }
 

@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0108
+event_type: birth
+date:
+  kind: unknown
+  text: >-
+    No age stated; the secondary 'b.1806' is rejected as a lead in his own entry.
+place_text: >-
+  Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel, Açores, Portugal
+participants:
+- person_id: P-0048
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0037
+notes:
+- text: >-
+    Birthplace from his own 1819 marriage (PAR-0037, "ambos naturaes e freguezes desta dita Igreja aonde forão baptizados" — N.S. Mãe de Deus, Povoação) and his son's 1866 death (PAR-0015, "naturaes desta freguesia"). São Miguel, Azores.

@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0104
+event_type: birth
+date:
+  kind: unknown
+  text: >-
+    Born 16 December (day per NWS-0005; birth year not held). Place from CIV-0019.
+place_text: >-
+  Nova Friburgo (freguesia de São João Baptista), Rio de Janeiro, Brazil
+participants:
+- person_id: P-0030
+  role: principal
+status: strong-evidence
+source_ids:
+- CIV-0019
+notes:
+- text: >-
+    Birthplace from his son Alberto's 1890 birth (CIV-0019): "Joaquim José Bohrer … natural desta Freguezia" (São João Baptista, Nova Friburgo), informant his brother Guilherme Samuel Bohrer. His birthday 16 December is documented in A Sentinella (NWS-0005); the year is not held.

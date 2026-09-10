@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0112
+event_type: birth
+date:
+  kind: unknown
+  text: >-
+    No age stated; born some years before her 1751 marriage — no basis to compute.
+place_text: >-
+  Freguesia de Nossa Senhora da Piedade da Borda do Campo (Barbacena), Minas Gerais, Brazil
+participants:
+- person_id: P-0079
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0034
+notes:
+- text: >-
+    Birthplace from her own 1751 marriage certidão (PAR-0034): "Isabel Ribeyro natural, e baptizada nesta freguesia" (N.S. da Piedade da Borda do Campo, Barbacena) — a deliberate statement, since the same act corrects that her groom was NOT local but from Braga.

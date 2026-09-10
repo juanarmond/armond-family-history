@@ -3,6 +3,7 @@ id: P-0050
 preferred_name: Jacob Bohrer
 privacy: deceased
 sex: male
+nationality: Swiss
 name_variants:
 - value: Jacob Bahrer
   type: source
@@ -13,6 +14,7 @@ name_variants:
   source_ids:
   - PRB-0005
 event_ids:
+- E-0115
 - E-0083
 - E-0087
 family_ids:
@@ -33,10 +35,13 @@ notes:
     nome preferencial é dado na forma estabilizada da família, "Bohrer"; o
     testamento o grafa como "Bahrer".
 - text: >-
-    Nationality deliberately left unset (Swiss origin is strong-evidence from
-    compilation but not yet primary-confirmed). The Imigrantes de Nova Friburgo
+    Nationality is Swiss, primary-confirmed by Jacob's own 1825 Nova Friburgo
+    marriage (PAR-0059, event E-0115): the parish register records the spouses as
+    "ambos do Cantão de Soleure, colonos suiços" and Jacob as baptised at Erschwil
+    ("baptizado na freg.a de Erswill"), Canton Solothurn (Soleure), Switzerland
+    [PROVEN for the canton / Swiss origin]. The Imigrantes de Nova Friburgo
     compilation (PUB-0003, p.300, BORER I section) and the Casa Suíça database
-    (image read 2026-08-07) identify him as Jacob Borer born c.1801 at Erschwil,
+    (image read 2026-08-07) corroborate this, identifying him as Jacob Borer born c.1801 at Erschwil,
     Soleure, Switzerland — BORER I, distinct from Laurent Borer (BORER II, P-0068)
     who came from Grindel. Jacob's Casa/Lote at Nova Friburgo was 70/56 (Laurent's
     was 73/86 — a useful distinguishing marker). The compilation gives him "9 filhos"
@@ -49,14 +54,18 @@ notes:
     surname conflict (PRB-0005 gives "Mayer"; compilation gives "Moser") is
     unresolved and preserved as a name variant on P-0051. PRB-0005 evidences
     only his name, his son's parentage and that he was already dead by 1888;
-    primary-record confirmation of Jacob's Swiss origin still awaits his
-    Nova Friburgo inventário or a Swiss baptism/emigration document.
+    with his Swiss origin now primary-confirmed by PAR-0059, what still awaits
+    a record is his exact birth date — a Swiss (Erschwil) baptism register —
+    and his parents at primary level.
   text_pt: >-
-    Nacionalidade deliberadamente deixada em aberto (a origem suíça é evidência
-    forte proveniente da compilação, mas ainda não confirmada por registro
-    primário). A compilação Imigrantes de Nova Friburgo (PUB-0003, p.300, seção
-    BORER I) e o banco de dados da Casa Suíça (imagem lida em 2026-08-07) o
-    identificam como Jacob Borer, nascido por volta de 1801 em Erschwil, Soleure,
+    Nacionalidade suíça, confirmada por registro primário — o próprio casamento de
+    Jacob em Nova Friburgo, em 1825 (PAR-0059, evento E-0115): o registro paroquial
+    lança os cônjuges como "ambos do Cantão de Soleure, colonos suiços" e Jacob como
+    batizado em Erschwil ("baptizado na freg.a de Erswill"), Cantão de Solothurn
+    (Soleure), Suíça [PROVEN quanto ao cantão / origem suíça]. A compilação
+    Imigrantes de Nova Friburgo (PUB-0003, p.300, seção
+    BORER I) e o banco de dados da Casa Suíça (imagem lida em 2026-08-07) a
+    corroboram, identificando-o como Jacob Borer, nascido por volta de 1801 em Erschwil, Soleure,
     Suíça — BORER I, distinto de Laurent Borer (BORER II, P-0068), que veio de
     Grindel. A Casa/Lote de Jacob em Nova Friburgo era 70/56 (a de Laurent era
     73/86 — um marcador distintivo útil). A compilação lhe atribui "9 filhos" no
@@ -70,9 +79,10 @@ notes:
     O conflito de sobrenome Catharina Mayer/Moser (PRB-0005
     traz "Mayer"; a compilação traz "Moser") permanece sem resolução e é
     preservado como variante de nome em P-0051. PRB-0005 evidencia apenas seu
-    nome, a filiação de seu filho e que ele já estava morto em 1888; a confirmação
-    por registro primário da origem suíça de Jacob ainda aguarda seu inventário de
-    Nova Friburgo ou um documento suíço de batismo/emigração.
+    nome, a filiação de seu filho e que ele já estava morto em 1888; com a origem
+    suíça de Jacob agora confirmada por registro primário (PAR-0059), o que ainda
+    aguarda um registro é sua data exata de nascimento — um registro de batismo
+    suíço (Erschwil) — e seus pais em nível primário.
 profile: >-
   ## Identity
 
@@ -85,13 +95,15 @@ profile: >-
   compilation names them as Johann Borer and Barbara Probst, both dead in Switzerland
   before the 1819 emigration — a [LEAD], not catalogued.
 
-  - **Origin:** Swiss — born c.1801 at Erschwil, Canton Soleure (Solothurn) [LEAD], from
-  the Imigrantes de Nova Friburgo compilation (PUB-0003, section BORER I) and the Casa
-  Suíça database, not yet confirmed by any primary record. A Nova Friburgo colonist
-  settler register (GOV-0007, corroborative) lists him on the Casa/Lote 70/56 opening as
+  - **Origin:** Swiss — Canton Solothurn (Soleure) — **primary-confirmed** by his own 1825
+  Nova Friburgo marriage (PAR-0059, event E-0115), which records the spouses as "ambos do
+  Cantão de Soleure, colonos suiços" and Jacob as baptised at Erschwil (Erswill) [PROVEN].
+  The Imigrantes de Nova Friburgo compilation (PUB-0003, section BORER I) and the Casa
+  Suíça database corroborate a birth c.1801 at Erschwil, and a Nova Friburgo colonist
+  settler register (GOV-0007) lists him on the Casa/Lote 70/56 opening as
   "Jacques [Jacob] Bocher, [17]" — a roster age (→ ~1803) within ~2 years of the c.1801
-  attribution; not a primary birth record. His nationality is therefore deliberately left
-  unset.
+  attribution. His exact birth date is not primary-confirmed [LEAD], but his Swiss /
+  Solothurn origin now is.
 
   - **Death:** before 1888 [PROVEN] — his son's registered will (PRB-0005) names him
   "já fallecido." He was alive into ~1840 (his son João José was born 10 Sep 1840) and
@@ -101,9 +113,11 @@ profile: >-
   Bom Jardim drift. He did sell his Nova Friburgo property on 24 April 1843 [LEAD], his
   last dated act there. [PROVEN he died before 1888; INFERRED he died outside NF after ~1840]
 
-  - **Marriage and children:** husband of Catharina Mayer / Moser (P-0051); father of at
-  least Francisco José Bohrer (P-0034, b.1832) [PROVEN, via PRB-0005]. PUB-0003 credits
-  the couple with nine children in all (BORER I), two dying in infancy [LEAD].
+  - **Marriage and children:** husband of Catharina Mayer / Moser (P-0051), whom he married
+  at Nova Friburgo in 1825 (PAR-0059, event E-0115) — the primary record that now confirms
+  both spouses' Swiss / Solothurn origin; father of at least Francisco José Bohrer (P-0034,
+  b.1832) [PROVEN, via PRB-0005]. PUB-0003 credits the couple with nine children in all
+  (BORER I), two dying in infancy [LEAD].
 
   ## Standing and social context
 
@@ -117,13 +131,15 @@ profile: >-
 
   ## What we can extrapolate
 
-  The only fact fixed by a primary record held here is his existence and his death before
-  1888, from his son Francisco José's will (PRB-0005). Everything about his Swiss birth,
-  arrival and household is strong-evidence at best, resting on the Nova Friburgo colonist
-  compilation (PUB-0003) and the Casa Suíça database — which is exactly why the
-  nationality field is deliberately unset rather than asserted "Swiss." [INFERRED]
+  His Swiss / Solothurn origin is now fixed by a primary record — his own 1825 Nova Friburgo
+  marriage (PAR-0059), which names the spouses "colonos suiços" of the Cantão de Soleure and
+  Jacob as baptised at Erschwil — and his death before 1888 is fixed by his son Francisco
+  José's will (PRB-0005). What remains strong-evidence rather than primary is the detail of
+  his arrival and household (the exact birth date, the nine children, the 1843 property sale),
+  resting on the Nova Friburgo colonist compilation (PUB-0003) and the Casa Suíça database.
+  [INFERRED]
 
-  If that Swiss origin holds, his life traces the mirror image of the Armond decline: where
+  His Swiss origin now confirmed, his life traces the mirror image of the Armond decline: where
   the Armond line began at a married-in, office-holding elite and fell, Jacob's trunk begins
   at the floor — there was never a fortune to lose. [CONTEXTUAL / INFERRED]
 
@@ -169,13 +185,19 @@ profile: >-
   bounded-negative for him, look **outside Nova Friburgo** — the Macaé / Bom Jardim
   parishes and civil registries to which the branch drifted — not a c.1843 NF inventário. [OPEN]
 
-  - A Swiss (Erschwil) baptism or emigration document to confirm the Swiss origin and his
-  parents at primary level. [OPEN]
+  - A Swiss (Erschwil) baptism register — to fix his exact birth date (still not held) and
+  name his parents at primary level; his Swiss / Solothurn origin itself is already confirmed
+  by PAR-0059 (his 1825 marriage). [OPEN]
 
   ## Sources held (this repository)
 
   - PRB-0005 (Francisco José Bohrer's 1888 registered will — names Jacob as father, "já
-  fallecido"; the one primary record that names him at all).
+  fallecido").
+
+  - PAR-0059 (Jacob and Catharina's 1825 Nova Friburgo marriage, primary parish register —
+  names both spouses "colonos suiços" of the Cantão de Soleure and Jacob as baptised at
+  Erschwil; the primary record that confirms his Swiss / Solothurn origin and sources his
+  birth event E-0115).
 
   - PUB-0003 (Imigrantes de Nova Friburgo, BORER I — secondary compilation: Erschwil
   origin, b. c.1801, Casa/Lote 70/56, nine children, property sold 24 April 1843;
@@ -183,8 +205,8 @@ profile: >-
 
   ## Regional and migration context
 
-  If the compilation is right, Jacob belongs to the 1819 Swiss-German colonisation of Nova
-  Friburgo, drawn from the poor, land-constrained Catholic Jura of Canton Soleure (the
+  Jacob belongs to the 1819 Swiss-German colonisation of Nova Friburgo, drawn from the poor,
+  land-constrained Catholic Jura of Canton Soleure (the
   Erschwil / Thierstein uplands) under King João VI's colonisation scheme after
   post-Napoleonic and "Year Without a Summer" hardship. [CONTEXTUAL] His branch (BORER I,
   Erschwil) is distinct from the Grindel Borer line — a distinction PUB-0003 exists partly
@@ -216,10 +238,15 @@ profile_pt: >-
   colonos de Nova Friburgo os nomeia como Johann Borer e Barbara Probst, ambos falecidos
   na Suíça antes da emigração de 1819 — uma [LEAD], não catalogada.
 
-  - **Origem:** suíça — nascido por volta de 1801 em Erschwil, Cantão de Soleure
-  (Solothurn) [LEAD], a partir da compilação Imigrantes de Nova Friburgo (PUB-0003, seção
-  BORER I) e do banco de dados da Casa Suíça, ainda não confirmada por nenhum registro
-  primário. Sua nacionalidade é, por isso, deliberadamente deixada em aberto.
+  - **Origem:** suíça — Cantão de Soleure (Solothurn) — **confirmada por registro primário**
+  pelo seu próprio casamento em Nova Friburgo, em 1825 (PAR-0059, evento E-0115), que lança
+  os cônjuges como "ambos do Cantão de Soleure, colonos suiços" e Jacob como batizado em
+  Erschwil (Erswill) [PROVEN]. A compilação Imigrantes de Nova Friburgo (PUB-0003, seção
+  BORER I) e o banco de dados da Casa Suíça corroboram um nascimento por volta de 1801 em
+  Erschwil, e um registro de assentamento de colonos de Nova Friburgo (GOV-0007) o lista na
+  abertura da Casa/Lote 70/56 como "Jacques [Jacob] Bocher, [17]" — idade de rol (→ ~1803),
+  dentro de ~2 anos da atribuição de c.1801. Sua data exata de nascimento não está confirmada
+  por registro primário [LEAD], mas sua origem suíça / de Solothurn agora está.
 
   - **Óbito:** antes de 1888 [PROVEN] — o testamento registrado de seu filho (PRB-0005) o
   nomeia "já fallecido". Ele estava vivo até ~1840 (seu filho João José nasceu em 10 de
@@ -230,9 +257,11 @@ profile_pt: >-
   propriedade em Nova Friburgo em 24 de abril de 1843 [LEAD], seu último ato datado ali.
   [PROVEN que morreu antes de 1888; INFERRED que morreu fora de NF após ~1840]
 
-  - **Casamento e filhos:** marido de Catharina Mayer / Moser (P-0051); pai de ao menos
-  Francisco José Bohrer (P-0034, n.1832) [PROVEN, via PRB-0005]. PUB-0003 atribui ao casal
-  nove filhos no total (BORER I), dois falecidos na infância [LEAD].
+  - **Casamento e filhos:** marido de Catharina Mayer / Moser (P-0051), com quem se casou em
+  Nova Friburgo em 1825 (PAR-0059, evento E-0115) — o registro primário que agora confirma a
+  origem suíça / de Solothurn de ambos os cônjuges; pai de ao menos Francisco José Bohrer
+  (P-0034, n.1832) [PROVEN, via PRB-0005]. PUB-0003 atribui ao casal nove filhos no total
+  (BORER I), dois falecidos na infância [LEAD].
 
   ## Posição social e contexto
 
@@ -246,14 +275,15 @@ profile_pt: >-
 
   ## O que podemos extrapolar
 
-  O único fato fixado por um registro primário aqui disponível é sua existência e sua
-  morte antes de 1888, a partir do testamento de seu filho Francisco José (PRB-0005). Tudo
-  sobre seu nascimento suíço, sua chegada e sua casa é, na melhor das hipóteses, evidência
-  forte, apoiada na compilação de colonos de Nova Friburgo (PUB-0003) e no banco de dados
-  da Casa Suíça — razão pela qual o campo de nacionalidade é deliberadamente deixado em
-  aberto, em vez de afirmar "suíça". [INFERRED]
+  Sua origem suíça / de Solothurn está agora fixada por um registro primário — seu próprio
+  casamento em Nova Friburgo, em 1825 (PAR-0059), que nomeia os cônjuges "colonos suiços" do
+  Cantão de Soleure e Jacob como batizado em Erschwil — e sua morte antes de 1888 está fixada
+  pelo testamento de seu filho Francisco José (PRB-0005). O que permanece como evidência forte,
+  e não primária, é o detalhe de sua chegada e de sua casa (a data exata de nascimento, os nove
+  filhos, a venda da propriedade em 1843), apoiado na compilação de colonos de Nova Friburgo
+  (PUB-0003) e no banco de dados da Casa Suíça. [INFERRED]
 
-  Se essa origem suíça se confirmar, sua vida traça a imagem espelhada do declínio Armond:
+  Sua origem suíça agora confirmada, sua vida traça a imagem espelhada do declínio Armond:
   enquanto a linha Armond começou em uma elite conquistada pelo casamento e detentora de
   cargos e caiu, o tronco de Jacob começa no chão — nunca houve uma fortuna a perder.
   [CONTEXTUAL / INFERRED]
@@ -303,13 +333,19 @@ profile_pt: >-
   Friburgo** — as paróquias e cartórios de Macaé / Bom Jardim para onde o ramo se deslocou —
   e não um inventário de NF de c.1843. [OPEN]
 
-  - Um batismo suíço (Erschwil) ou documento de emigração que confirme a origem suíça e
-  seus pais em nível primário. [OPEN]
+  - Um registro de batismo suíço (Erschwil) — para fixar sua data exata de nascimento (ainda
+  não disponível) e nomear seus pais em nível primário; sua origem suíça / de Solothurn em si
+  já está confirmada por PAR-0059 (seu casamento de 1825). [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
   - PRB-0005 (testamento registrado de 1888 de Francisco José Bohrer — nomeia Jacob como
-  pai, "já fallecido"; o único registro primário que o nomeia).
+  pai, "já fallecido").
+
+  - PAR-0059 (casamento de 1825 de Jacob e Catharina em Nova Friburgo, registro paroquial
+  primário — nomeia ambos os cônjuges "colonos suiços" do Cantão de Soleure e Jacob como
+  batizado em Erschwil; o registro primário que confirma sua origem suíça / de Solothurn e
+  fundamenta seu evento de nascimento E-0115).
 
   - PUB-0003 (Imigrantes de Nova Friburgo, BORER I — compilação secundária: origem em
   Erschwil, n. c.1801, Casa/Lote 70/56, nove filhos, propriedade vendida em 24 de abril de
@@ -317,7 +353,7 @@ profile_pt: >-
 
   ## Contexto regional e migratório
 
-  Se a compilação estiver correta, Jacob pertence à colonização suíço-alemã de Nova
+  Jacob pertence à colonização suíço-alemã de Nova
   Friburgo de 1819, oriunda do pobre e limitado em terras Jura católico do Cantão de
   Soleure (as terras altas de Erschwil / Thierstein), sob o esquema de colonização de Dom
   João VI, após as dificuldades pós-napoleônicas e do "Ano Sem Verão". [CONTEXTUAL] Seu

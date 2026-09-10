@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0113
+event_type: birth
+date:
+  kind: unknown
+  text: >-
+    No age stated in the 1829 marriage act.
+place_text: >-
+  Freguesia de São Lucas [uncertain], Cantão de Soleure (Solothurn), Switzerland
+participants:
+- person_id: P-0101
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0073
+notes:
+- text: >-
+    Birthplace from his own 1829 Nova Friburgo marriage (PAR-0073): "nascido e baptizado na Freguezia de São Lucas [St. Lukas — uncertain], Cantão de Soleure". The canton (Solothurn) is a firm read; the parish 'São Lucas' is [uncertain].

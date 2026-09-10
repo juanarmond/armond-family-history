@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0116
+event_type: birth
+date:
+  kind: unknown
+  text: >-
+    No age in the 1825 marriage act.
+place_text: >-
+  Hägendorf [uncertain — 'Eggendorf'], Cantão de Soleure (Solothurn), Switzerland
+participants:
+- person_id: P-0051
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0059
+notes:
+- text: >-
+    Birthplace from her own 1825 Nova Friburgo marriage (PAR-0059): "Catharina Moser … natural e baptizada na freguezia d'Eggendorf [Hägendorf — uncertain] … ambos do Cantão de Soleure, colonos suiços". Swiss (Solothurn) origin record-confirmed; the parish read 'Eggendorf'/Hägendorf is [uncertain].

@@ -3,6 +3,7 @@ id: P-0051
 preferred_name: Catharina Mayer
 privacy: deceased
 sex: female
+nationality: Swiss
 name_variants:
 - value: Catharina Mayer
   type: source
@@ -13,6 +14,7 @@ name_variants:
   source_ids:
   - PRB-0005
 event_ids:
+- E-0116
 - E-0083
 - E-0087
 family_ids:
@@ -28,23 +30,31 @@ notes:
     José Bohrer (P-0030). Nomeada no testamento registrado de 1888 de seu filho
     (PRB-0005) como "Catharina Mayer … já fallecida" — falecida antes de 1888.
 - text: >-
-    Surname conflict preserved: the primary will writes "Mayer", but two secondary
+    Nationality is Swiss, primary-confirmed by her own 1825 Nova Friburgo marriage
+    (PAR-0059, event E-0116): the parish register names the spouses "ambos do Cantão
+    de Soleure, colonos suiços" and records her as natural / baptised at Eggendorf,
+    read as Hägendorf [uncertain], Canton Solothurn (Soleure), Switzerland [PROVEN
+    for the canton / Swiss origin; the exact parish read is uncertain]. Surname
+    conflict preserved: the primary will (PRB-0005) writes "Mayer", but two secondary
     Nova Friburgo colonist-family compilations (a lead, not catalogued) give "Moser"
-    (Catharina Moser of Hägendorf, Soleure, Switzerland, married Jacob Borer 1825).
+    (Catharina Moser of Hägendorf, Soleure, married Jacob Borer 1825).
     "Mayer" is recorded as the source-attested form and "Moser" as an unresolved
     variant; the retrieval note argues the two are the same person, but no primary
-    record settles it, so neither surname is treated as certain and no origin is
-    asserted. Nationality deliberately left unset for the same reason.
+    record settles the maiden surname, so neither surname is treated as certain.
   text_pt: >-
-    Conflito de sobrenome preservado: o testamento primário escreve "Mayer", mas
-    duas compilações secundárias de famílias de colonos de Nova Friburgo (uma
-    pista, não catalogada) trazem "Moser" (Catharina Moser de Hägendorf, Soleure,
-    Suíça, casada com Jacob Borer em 1825). "Mayer" é registrado como a forma
-    atestada pela fonte e "Moser" como variante não resolvida; a nota de
+    Nacionalidade suíça, confirmada por registro primário — o próprio casamento dela
+    em Nova Friburgo, em 1825 (PAR-0059, evento E-0116): o registro paroquial nomeia
+    os cônjuges "ambos do Cantão de Soleure, colonos suiços" e a lança como natural /
+    batizada em Eggendorf, lido como Hägendorf [uncertain], Cantão de Solothurn
+    (Soleure), Suíça [PROVEN quanto ao cantão / origem suíça; a leitura exata da
+    freguesia é incerta]. Conflito de sobrenome preservado: o testamento primário
+    (PRB-0005) escreve "Mayer", mas duas compilações secundárias de famílias de
+    colonos de Nova Friburgo (uma pista, não catalogada) trazem "Moser" (Catharina
+    Moser de Hägendorf, Soleure, casada com Jacob Borer em 1825). "Mayer" é registrado
+    como a forma atestada pela fonte e "Moser" como variante não resolvida; a nota de
     recuperação argumenta que as duas são a mesma pessoa, mas nenhum registro
-    primário resolve a questão, de modo que nenhum dos sobrenomes é tratado como
-    certo e nenhuma origem é afirmada. A nacionalidade foi deliberadamente deixada
-    em aberto pela mesma razão.
+    primário resolve o sobrenome de solteira, de modo que nenhum dos sobrenomes é
+    tratado como certo.
 profile: >-
   ## Identity
 
@@ -56,28 +66,32 @@ profile: >-
   - **Death:** before 1888 [PROVEN] — named in her son's 1888 registered will (PRB-0005)
   as "Catharina Mayer … já fallecida."
 
-  - **Origin and parents:** unknown from any held record [OPEN]. The compilations place
-  her at Hägendorf, Canton Soleure (Solothurn), married to Jacob Borer in 1825, daughter
-  of Joseph Moser × Anne Marie Weiss — all [LEAD], not catalogued. Nationality is
-  deliberately left unset for the same reason as her husband's.
+  - **Origin:** Swiss — Canton Solothurn (Soleure) — **primary-confirmed** by her own 1825
+  Nova Friburgo marriage (PAR-0059, event E-0116), which names the spouses "colonos suiços"
+  of the Cantão de Soleure and records her as natural / baptised at Eggendorf, read as
+  **Hägendorf [uncertain]** [PROVEN for the canton / Swiss origin; the parish read is
+  uncertain]. **Parents:** unknown from any held record [OPEN]; the compilations name them as
+  Joseph Moser × Anne Marie Weiss of Hägendorf — [LEAD], not catalogued.
 
   ## Family and social network
 
-  Wife of Jacob Bohrer (P-0050); the couple are the Bohrer line's immigrant-boundary
-  generation (family F-0024). Her one securely attested child is Francisco José Bohrer;
-  PUB-0003 (BORER I) credits the couple with nine children [LEAD].
+  Wife of Jacob Bohrer (P-0050), whom she married at Nova Friburgo in 1825 (PAR-0059, event
+  E-0116); the couple are the Bohrer line's immigrant-boundary generation (family F-0024).
+  Her one securely attested child is Francisco José Bohrer; PUB-0003 (BORER I) credits the
+  couple with nine children [LEAD].
 
   ## What we can extrapolate
 
   The surname conflict is the crux of her record: a Portuguese-language will drafted two
   generations later, from memory, is exactly where a German maiden name "Moser" could be
   rendered as the more familiar "Mayer." The compilations converging on "Moser" are
-  suggestive, but nothing primary settles it, so neither surname is treated as certain and
-  no origin is asserted. [INFERRED]
+  suggestive, but nothing primary settles the maiden surname, so neither surname is treated
+  as certain. Her Swiss / Solothurn origin, by contrast, is now primary-confirmed by the
+  1825 marriage (PAR-0059). [INFERRED]
 
-  If the compilation's Swiss origin holds, her life sits at the same socioeconomic floor as
-  her husband's but is reached differently — as an intact family, not as an orphan.
-  [CONTEXTUAL / INFERRED]
+  Her Swiss origin now confirmed, her life sits at the same socioeconomic floor as her
+  husband's, but — if the compilation holds — reached differently, as an intact family
+  rather than as an orphan. [CONTEXTUAL / INFERRED]
 
   - **A whole-family colony emigration** [LEAD / INFERRED] — the compilations have her Moser
   family emigrating together in the 1819 Solothurn wave (her father Joseph Moser granted
@@ -102,14 +116,21 @@ profile: >-
 
   ## Open questions
 
-  - Her maiden surname at primary level (Mayer vs Moser) and her Swiss origin — decisive
-  record: Jacob Bohrer's c.1843 Nova Friburgo inventário, or the 1825 marriage register.
-  [OPEN]
+  - Her maiden surname at primary level (Mayer vs Moser) — still unresolved: the 1825
+  marriage register (PAR-0059) confirms her Swiss / Solothurn origin but does not settle the
+  maiden surname. A decisive record would be Jacob Bohrer's Nova Friburgo inventário or a
+  Swiss (Hägendorf) baptism register, which would also fix her exact birth date (not held)
+  and name her parents at primary level. [OPEN]
 
   ## Sources held (this repository)
 
   - PRB-0005 (Francisco José Bohrer's 1888 registered will — names her "Catharina Mayer …
-  já fallecida"; the only record held that names her).
+  já fallecida").
+
+  - PAR-0059 (her and Jacob's 1825 Nova Friburgo marriage, primary parish register — names
+  both spouses "colonos suiços" of the Cantão de Soleure and records her as baptised at
+  Eggendorf, read as Hägendorf [uncertain]; the primary record that confirms her Swiss /
+  Solothurn origin and sources her birth event E-0116).
 
   ## Where to go today
 
@@ -129,28 +150,34 @@ profile_pt: >-
   - **Óbito:** antes de 1888 [PROVEN] — nomeada no testamento registrado de 1888 de seu
   filho (PRB-0005) como "Catharina Mayer … já fallecida".
 
-  - **Origem e pais:** desconhecidos em qualquer registro disponível [OPEN]. As
-  compilações a situam em Hägendorf, Cantão de Soleure (Solothurn), casada com Jacob Borer
-  em 1825, filha de Joseph Moser × Anne Marie Weiss — tudo [LEAD], não catalogado. A
-  nacionalidade é deliberadamente deixada em aberto pela mesma razão que a de seu marido.
+  - **Origem:** suíça — Cantão de Solothurn (Soleure) — **confirmada por registro primário**
+  pelo seu próprio casamento em Nova Friburgo, em 1825 (PAR-0059, evento E-0116), que nomeia
+  os cônjuges "colonos suiços" do Cantão de Soleure e a lança como natural / batizada em
+  Eggendorf, lido como **Hägendorf [uncertain]** [PROVEN quanto ao cantão / origem suíça; a
+  leitura da freguesia é incerta]. **Pais:** desconhecidos em qualquer registro disponível
+  [OPEN]; as compilações os nomeiam como Joseph Moser × Anne Marie Weiss, de Hägendorf —
+  [LEAD], não catalogado.
 
   ## Família e rede social
 
-  Esposa de Jacob Bohrer (P-0050); o casal é a geração que marca a fronteira imigratória
-  da linha Bohrer (família F-0024). Seu único filho seguramente atestado é Francisco José
-  Bohrer; PUB-0003 (BORER I) atribui ao casal nove filhos [LEAD].
+  Esposa de Jacob Bohrer (P-0050), com quem se casou em Nova Friburgo em 1825 (PAR-0059,
+  evento E-0116); o casal é a geração que marca a fronteira imigratória da linha Bohrer
+  (família F-0024). Seu único filho seguramente atestado é Francisco José Bohrer; PUB-0003
+  (BORER I) atribui ao casal nove filhos [LEAD].
 
   ## O que podemos extrapolar
 
   O conflito de sobrenome é o ponto central de seu registro: um testamento em português,
   redigido duas gerações depois, de memória, é exatamente onde um sobrenome de solteira
   alemão "Moser" poderia ser grafado como o mais familiar "Mayer". A convergência das
-  compilações em "Moser" é sugestiva, mas nada primário resolve a questão, de modo que
-  nenhum dos sobrenomes é tratado como certo e nenhuma origem é afirmada. [INFERRED]
+  compilações em "Moser" é sugestiva, mas nada primário resolve o sobrenome de solteira, de
+  modo que nenhum dos sobrenomes é tratado como certo. Sua origem suíça / de Solothurn, por
+  outro lado, está agora confirmada por registro primário pelo casamento de 1825 (PAR-0059).
+  [INFERRED]
 
-  Se essa origem suíça se confirmar, sua vida situa-se no mesmo piso socioeconômico que a do
-  marido, mas alcançado de outra forma — como família intacta, não como órfã. [CONTEXTUAL /
-  INFERRED]
+  Sua origem suíça agora confirmada, sua vida situa-se no mesmo piso socioeconômico que a do
+  marido, mas — se a compilação se sustentar — alcançado de outra forma, como família intacta
+  e não como órfã. [CONTEXTUAL / INFERRED]
 
   - **Uma emigração de família inteira para a colônia** [LEAD / INFERRED] — as compilações
   têm sua família Moser emigrando junta na leva de Solothurn de 1819 (seu pai Joseph Moser
@@ -176,14 +203,21 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seu sobrenome de solteira em nível primário (Mayer vs Moser) e sua origem suíça —
-  registro decisivo: o inventário de Nova Friburgo de Jacob Bohrer, por volta de 1843, ou
-  o registro de casamento de 1825. [OPEN]
+  - Seu sobrenome de solteira em nível primário (Mayer vs Moser) — ainda não resolvido: o
+  registro de casamento de 1825 (PAR-0059) confirma sua origem suíça / de Solothurn, mas não
+  resolve o sobrenome de solteira. Um registro decisivo seria o inventário de Nova Friburgo
+  de Jacob Bohrer ou um registro de batismo suíço (Hägendorf), que também fixaria sua data
+  exata de nascimento (não disponível) e nomearia seus pais em nível primário. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
   - PRB-0005 (testamento registrado de 1888 de Francisco José Bohrer — a nomeia "Catharina
-  Mayer … já fallecida"; o único registro disponível que a nomeia).
+  Mayer … já fallecida").
+
+  - PAR-0059 (casamento de 1825 dela e de Jacob em Nova Friburgo, registro paroquial
+  primário — nomeia ambos os cônjuges "colonos suiços" do Cantão de Soleure e a lança como
+  batizada em Eggendorf, lido como Hägendorf [uncertain]; o registro primário que confirma
+  sua origem suíça / de Solothurn e fundamenta seu evento de nascimento E-0116).
 
   ## Onde ir hoje
 

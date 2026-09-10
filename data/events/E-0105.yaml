@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0105
+event_type: birth
+date:
+  kind: unknown
+  text: >-
+    No age or birth date is held.
+place_text: >-
+  Nova Friburgo (freguesia de São João Baptista), Rio de Janeiro, Brazil
+participants:
+- person_id: P-0031
+  role: principal
+status: strong-evidence
+source_ids:
+- CIV-0019
+notes:
+- text: >-
+    Birthplace from her son Alberto's 1890 birth (CIV-0019): "Lucinda Ferreira da Silva Bohrer, natural desta Freguezia" (São João Baptista, Nova Friburgo). Informant-reported; no birth date held.

@@ -1,0 +1,20 @@
+schema_version: 1
+id: E-0103
+event_type: birth
+date:
+  kind: approximate
+  text: >-
+    c.1873 (age 17 at her 27 Nov 1890 marriage, PAR-0064)
+  earliest: 1872
+  latest: 1873
+place_text: >-
+  Nova Friburgo (freguesia de São João Baptista), Rio de Janeiro, Brazil
+participants:
+- person_id: P-0029
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0064
+notes:
+- text: >-
+    Birthplace from her own 1890 Nova Friburgo marriage (PAR-0064): "ambos nascidos, baptizados e moradores n'esta freguesia de Nova Friburgo"; born ~1873 (age 17). Informant-reported in a marriage act (indirect for the birth).

@@ -1,0 +1,20 @@
+schema_version: 1
+id: E-0111
+event_type: birth
+date:
+  kind: approximate
+  text: >-
+    1793 (Grindel; PUB-0003 compilation, year only)
+  earliest: 1793
+  latest: 1793
+place_text: >-
+  Grindel, Cantão de Soleure (Solothurn), Switzerland
+participants:
+- person_id: P-0069
+  role: principal
+status: strong-evidence
+source_ids:
+- PUB-0003
+notes:
+- text: >-
+    Birthplace Grindel, Solothurn, from the Imigrantes de Nova Friburgo / Casa Suíça compilation (PUB-0003), which gives her b.1793 Grindel. Secondary compilation → strong-evidence, not primary; her own Grindel baptism is not held.

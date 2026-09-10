@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0114
+event_type: birth
+date:
+  kind: unknown
+  text: >-
+    No age stated; no birth date derivable.
+place_text: >-
+  Switzerland (freguesia and cantão illegible in PAR-0073)
+participants:
+- person_id: P-0102
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0073
+notes:
+- text: >-
+    Birthplace record-stated but illegible: her own 1829 marriage (PAR-0073) reads "natural e baptizada na Freguezia de [Senen? — uncertain], Cantão de [Pottein? — uncertain]" — a Swiss parish birth is attested (the word Cantão), but both toponyms are illegible in the held image, so only country-level Switzerland is recoverable. A clearer scan is the only fix; the canton is NOT guessed.

@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0107
+event_type: birth
+date:
+  kind: unknown
+  text: >-
+    No age stated; no birth date derivable.
+place_text: >-
+  Freguesia de Nossa Senhora Mãe de Deus, Villa da Povoação, Ilha de São Miguel, Açores, Portugal
+participants:
+- person_id: P-0047
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0024
+notes:
+- text: >-
+    Birthplace from her own 1842 marriage (PAR-0024, "naturaes e freguezes desta [parochial]" — N.S. Mãe de Deus, Povoação) and corroborated by her husband's 1866 death (PAR-0015, "natural desta freguesia"). São Miguel, Azores.
