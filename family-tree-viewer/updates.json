@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T07:45:05Z",
+ "generated": "2026-09-10T09:04:48Z",
  "updates": [
   {
    "date": "2026-09-10",
@@ -19,6 +19,26 @@
    "primary": "PAR-0073",
    "links": [
     "P-0101"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "kind": "document",
+   "title": "1902 baptism of Valentim Luciano Bohrer at Nova Friburgo — son of Valentim Martinho Bohrer and Carolina Klein",
+   "title_pt": "Batismo de 1902 de Valentim Luciano Bohrer em Nova Friburgo — filho de Valentim Martinho Bohrer e Carolina Klein",
+   "primary": "PAR-0074",
+   "links": [
+    "P-0028"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "kind": "document",
+   "title": "1902 baptism of Etelvina Bohrer at Nova Friburgo — daughter of Joaquim José Bohrer and Lucinda Ferreira da Silva",
+   "title_pt": "Batismo de 1902 de Etelvina Bohrer em Nova Friburgo — filha de Joaquim José Bohrer e Lucinda Ferreira da Silva",
+   "primary": "PAR-0075",
+   "links": [
+    "P-0030"
    ]
   },
   {
@@ -759,26 +779,6 @@
    "primary": "NWS-0001",
    "links": [
     "P-0018"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1902 baptism of Valentim Luciano Bohrer at Nova Friburgo — son of Valentim Martinho Bohrer and Carolina Klein",
-   "title_pt": "Batismo de 1902 de Valentim Luciano Bohrer em Nova Friburgo — filho de Valentim Martinho Bohrer e Carolina Klein",
-   "primary": "PAR-0074",
-   "links": [
-    "P-0028"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1902 baptism of Etelvina Bohrer at Nova Friburgo — daughter of Joaquim José Bohrer and Lucinda Ferreira da Silva",
-   "title_pt": "Batismo de 1902 de Etelvina Bohrer em Nova Friburgo — filha de Joaquim José Bohrer e Lucinda Ferreira da Silva",
-   "primary": "PAR-0075",
-   "links": [
-    "P-0030"
    ]
   },
   {
