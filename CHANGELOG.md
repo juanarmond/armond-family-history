@@ -5,6 +5,31 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Birth events for 5 ancestors whose birthplace was recorded but not shown (2026-09-10)
+
+A death (or origin) record often *states* the deceased's birthplace, but the viewer
+derives birthplace from a person's own birth-or-baptism event, so people with only a
+death record showed an empty birthplace. Audited all 29 death-event subjects: 24
+already displayed (the viewer falls back to a baptism event, `data-loader.js`), and 5
+had no origin event at all. Created a birth event for each, sourced from the record
+that states the origin, with reciprocal `event_ids` / `linked_events` links:
+
+- **E-0098 P-0109** João José Rocheman — Bulle, Cantão de Fribourg, Switzerland; b. ~30 Aug
+  1800 (calculated from age 59y10m22d at death), from his 1860 death PAR-0071.
+- **E-0099 P-0023** Vicente José de Carvalho Guimarães — country-level **Portugal only**
+  (CIV-0007 states the nationality "portuguez", not a locality; the freguesia/concelho stays
+  the open question); date unknown.
+- **E-0100 P-0009** Liliosa Paz Armond — Eugenópolis, MG (PL-0002; "nascida aqui", CIV-0002);
+  date unknown.
+- **E-0101 P-0027** Mathilde Maria de Jesus — Barbacena, MG (from her 1810 marriage PAR-0023,
+  with the noted spouse-vs-parents grammatical caveat); date left unknown (the ~1795 baptism is
+  a secondary Themudo lead, not held).
+- **E-0102 P-0063** António Ladislão de Toledo — Minas Gerais, state-level (CIV-0024 "natural
+  d'este Estado"); b. c.1834–1839 (age ~70 "presumíveis").
+
+All five are `status: strong-evidence` (informant-reported origin, indirect for the birth
+fact); none invents a locality the record does not state.
+
 ### Added — GEDCOM in-step test + pre-commit gate: every structural rule now runs automatically (2026-09-10)
 
 - **GEDCOM in-step test** (`tests/test_gedcom_export.py`): `make check` now fails if

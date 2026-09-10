@@ -1,0 +1,20 @@
+schema_version: 1
+id: E-0099
+event_type: birth
+date:
+  kind: unknown
+  text: No birth date is stated or derivable; CIV-0007 gives only the nationality "portuguez".
+place_text: Portugal (freguesia/concelho not stated)
+participants:
+- person_id: P-0023
+  role: principal
+status: strong-evidence
+source_ids:
+- CIV-0007
+notes:
+- text: >-
+    Country-level birthplace only. His grandchildren's 1915 collective birth registration
+    (CIV-0007) names him "portuguez" — a stated nationality, not a stated birthplace — so only
+    "Portugal" (country) is supported; the specific Portuguese freguesia and concelho are NOT
+    stated and remain the open research question (do not enter a locality). No birth date is
+    derivable. Informant-reported by his son Francisco José de Carvalho Guimarães.

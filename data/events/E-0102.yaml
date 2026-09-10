@@ -1,0 +1,22 @@
+schema_version: 1
+id: E-0102
+event_type: birth
+date:
+  kind: approximate
+  text: c.1834–1839 (aged ~70 "presumíveis" at his 11 February 1909 death, CIV-0024)
+  earliest: 1834
+  latest: 1839
+place_text: Minas Gerais, Brazil (locality not stated)
+participants:
+- person_id: P-0063
+  role: principal
+status: strong-evidence
+source_ids:
+- CIV-0024
+notes:
+- text: >-
+    Birthplace and approximate birth year derived from his 1909 Leopoldina death record
+    (CIV-0024): "brazileiro, natural d'este Estado … com setenta annos presumíveis de idade" →
+    Minas Gerais (no locality stated), born c.1834–1839. The age is an explicitly presumed
+    estimate by a non-family informant, so both place (state-level only) and date are indirect
+    and approximate. No birth or baptism record of his own is held.

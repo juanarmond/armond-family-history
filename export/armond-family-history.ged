@@ -173,6 +173,11 @@
 2 GIVN Liliosa Paz
 2 SURN Armond
 1 SEX F
+1 BIRT
+2 NOTE Date: No age or birth date is given in CIV-0002; only "nascida aqui" (Eugenópolis).
+2 PLAC Eugenópolis, Minas Gerais, Brazil
+2 SOUR @CIV0002@
+3 QUAY 2
 1 DEAT
 2 DATE 16 APR 1946
 2 PLAC Eugenópolis, Minas Gerais, Brazil
@@ -517,6 +522,11 @@
 2 GIVN Vicente José de Carvalho
 2 SURN Guimarães
 1 SEX M
+1 BIRT
+2 NOTE Date: No birth date is stated or derivable; CIV-0007 gives only the nationality "portuguez".
+2 PLAC Portugal (freguesia/concelho not stated)
+2 SOUR @CIV0007@
+3 QUAY 2
 1 DEAT
 2 NOTE Date: Before the 12 October 1915 registration; exact date not stated.
 2 PLAC Carangola, Minas Gerais, Brazil
@@ -593,6 +603,11 @@
 2 TYPE AKA
 2 SOUR @CIV0024@
 1 SEX F
+1 BIRT
+2 NOTE Date: No age or birth date is in a held record; a secondary Themudo citation gives a 22 March 1795 Barbacena baptism [LEAD], not held — treated as lead-only, so the date is left unknown.
+2 PLAC Barbacena, Minas Gerais, Brazil
+2 SOUR @PAR0023@
+3 QUAY 2
 1 DEAT
 2 DATE 12 MAR 1879
 2 PLAC Comarca de Leopoldina, Minas Gerais, Brazil (exact location not stated in PRB-0006)
@@ -1194,6 +1209,12 @@
 2 TYPE AKA
 2 SOUR @CIV0024@
 1 SEX M
+1 BIRT
+2 DATE ABT 1834
+3 PHRASE c.1834–1839 (aged ~70 "presumíveis" at his 11 February 1909 death, CIV-0024)
+2 PLAC Minas Gerais, Brazil (locality not stated)
+2 SOUR @CIV0024@
+3 QUAY 2
 1 DEAT
 2 DATE 11 FEB 1909
 2 PLAC Fazenda da Concórdia, Districto de Thebes, Leopoldina, Minas Gerais, Brazil
@@ -1712,6 +1733,12 @@
 2 SOUR @PAR0070@
 2 SOUR @PAR0071@
 1 SEX M
+1 BIRT
+2 DATE ABT 1800
+3 PHRASE ~30 August 1800 (calculated from the age 59y 10m 22d at his 22 July 1860 death, PAR-0071)
+2 PLAC Bulle (Freguezia de Bulle), Cantão de Fribourg, Switzerland
+2 SOUR @PAR0071@
+3 QUAY 2
 1 DEAT
 2 DATE 22 JUL 1860
 2 PLAC Nova Friburgo, Rio de Janeiro, Brazil

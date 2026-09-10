@@ -1,0 +1,24 @@
+schema_version: 1
+id: E-0101
+event_type: birth
+date:
+  kind: unknown
+  text: >-
+    No age or birth date is in a held record; a secondary Themudo citation gives a 22 March 1795
+    Barbacena baptism [LEAD], not held — treated as lead-only, so the date is left unknown.
+place_text: Barbacena, Minas Gerais, Brazil
+participants:
+- person_id: P-0027
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0023
+notes:
+- text: >-
+    Birthplace Barbacena, derived from her 1810 marriage act (PAR-0023): "naturais e batizados da
+    Freguesia de Barbacena". Grammatical caveat — that clause sits after her parents' names and
+    could modify the parents, but the repository reads it as attesting both spouses' Barbacena
+    origin (see PAR-0023 / E-0052), corroborated by the family's residence at Barbacena in 1821
+    (PAR-0017). The death source (PRB-0006 estate inventory) states no birthplace or age. The
+    ~1795 baptism date is a secondary Themudo lead only (image not held), so the date is left
+    unknown rather than asserted.

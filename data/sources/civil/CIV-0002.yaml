@@ -130,6 +130,7 @@ linked_events:
   - E-0028
   - E-0029
   - E-0030
+  - E-0100
 linked_places:
   - PL-0002
 private: true

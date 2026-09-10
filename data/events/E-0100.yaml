@@ -1,0 +1,19 @@
+schema_version: 1
+id: E-0100
+event_type: birth
+date:
+  kind: unknown
+  text: No age or birth date is given in CIV-0002; only "nascida aqui" (Eugenópolis).
+place_id: PL-0002
+participants:
+- person_id: P-0009
+  role: principal
+status: strong-evidence
+source_ids:
+- CIV-0002
+notes:
+- text: >-
+    Birthplace Eugenópolis, MG — her son Geraldo's 1952 marriage (CIV-0002) records her
+    "nascida aqui" (Eugenópolis), corroborated by "natural do M.G." in Geraldo's 1991 death
+    (CIV-0003). Informant-reported; no birth date is stated. Her parents and exact birth date
+    remain open.

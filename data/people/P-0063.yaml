@@ -18,6 +18,7 @@ occupations:
   source_ids:
   - CIV-0024
 event_ids:
+- E-0102
 - E-0058
 family_ids:
 - F-0027

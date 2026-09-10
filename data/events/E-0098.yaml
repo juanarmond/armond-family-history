@@ -1,0 +1,22 @@
+schema_version: 1
+id: E-0098
+event_type: birth
+date:
+  kind: approximate
+  text: ~30 August 1800 (calculated from the age 59y 10m 22d at his 22 July 1860 death, PAR-0071)
+  earliest: 1800
+  latest: 1800
+place_text: Bulle (Freguezia de Bulle), Cantão de Fribourg, Switzerland
+participants:
+- person_id: P-0109
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0071
+notes:
+- text: >-
+    Birth derived from his 1860 Nova Friburgo death record (PAR-0071), which states he was
+    "natural e baptizado na Freguezia de Bulle, Cantão de Fribourg, na Suíça" and records his age
+    at death as 59 years, 10 months and 22 days → born ~30 August 1800. The birthplace and age
+    are informant-reported at death (indirect for the birth fact); the exact day is inferred from
+    the age. No birth or baptism record of his own is held.
