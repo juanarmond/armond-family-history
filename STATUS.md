@@ -82,13 +82,13 @@ physical or authorised access, not read-only web.
 
 | Item | Current state |
 | --- | --- |
-| Structured people | 118 |
-| Structured families | 59 |
-| Structured events | 94 |
+| Structured people | 122 |
+| Structured families | 61 |
+| Structured events | 122 |
 | Structured places | 9 |
-| Structured sources | 136 |
+| Structured sources | 142 |
 | Structured FAN references | 13 |
-| Retained evidence scans | 203 |
+| Retained evidence scans | 205 |
 | Validation | zero errors or warnings at the last check (2026-09-10) |
 | Automated tests | 70 passing at the last check |
 
