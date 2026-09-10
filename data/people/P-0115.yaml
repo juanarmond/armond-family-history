@@ -1,0 +1,24 @@
+schema_version: 1
+id: P-0115
+preferred_name: José Eggendorn
+privacy: deceased
+sex: male
+name_variants:
+- value: José Geggendorn
+  type: source
+  source_ids:
+  - PAR-0073
+- value: José Heggendorn
+  type: other
+  source_ids:
+  - PAR-0073
+event_ids: []
+family_ids:
+- F-0058
+notes:
+- text: >-
+    Father of José Eggendorn (P-0101); named as the deceased "defunto Joze Geggendorn", husband of
+    Maria Lutz, in his son's 1829 Nova Friburgo marriage (PAR-0073). His son was "nascido e
+    baptizado na Freguezia de São Lucas [St. Lukas — uncertain], Cantão de Soleure" (Solothurn,
+    Switzerland), so the family is of that Swiss parish; José Sr's own origin is not separately
+    stated, so nationality is left unset. Already deceased by 1829.

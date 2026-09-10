@@ -1,0 +1,20 @@
+schema_version: 1
+id: P-0117
+preferred_name: Jacob Frees
+privacy: deceased
+sex: male
+name_variants:
+- value: Jacob Frees
+  type: source
+  source_ids:
+  - PAR-0073
+event_ids: []
+family_ids:
+- F-0059
+notes:
+- text: >-
+    Father of Anna Maria Frees (P-0102); named as the husband of the (deceased) Anna Maria in his
+    daughter's 1829 Nova Friburgo marriage (PAR-0073). He is not marked deceased in that record.
+    His daughter's stated origin parish and canton are [uncertain] in the register, and his own
+    origin is not separately stated, so nationality is left unset. Clearly deceased (father of a
+    woman marrying in 1829).

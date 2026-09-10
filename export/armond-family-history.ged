@@ -3,8 +3,8 @@
 2 VERS 7.0
 1 SOUR ARMOND-FAMILY-HISTORY
 2 NAME Armond Family History
-2 VERS 2026.09.09
-1 DATE 09 SEP 2026
+2 VERS 2026.09.10
+1 DATE 10 SEP 2026
 1 SUBM @SUBM0001@
 1 LANG pt-BR
 0 @SUBM0001@ SUBM
@@ -1289,11 +1289,19 @@
 1 NAME Maria /Heggendorn/
 2 GIVN Maria
 2 SURN Heggendorn
+1 NAME Maria Thecla /Regina/
+2 TYPE AKA
+2 SOUR @PAR0072@
 1 SEX F
+1 BIRT
+2 DATE 23 SEP 1844
+2 PLAC Nova Friburgo (Matriz de São João Baptista), Rio de Janeiro, Brazil
+2 SOUR @PAR0072@
+3 QUAY 3
 1 FAMS @F0034@
 1 FAMC @F0050@
-1 NOTE Parents per Imigrantes compilation (PUB-0003, p.301): 'filha de Joseph Heggendorn × Maria (Maria Amélia?) Freese.' The same Joseph Heggendorn × Amelie (Anna Maria) Freese couple appears as the parents of Bibiana Heggendorn (who married Vicente's brother José Borer in 1854) — suggesting Maria and Bibiana were sisters. Neither Joseph Heggendorn nor Maria Freese is yet modelled in this repository.
-1 NOTE The names 'Thecla Regina' and birth date '23 Nov 1844' appear in blog/collaborative-tree sources; not confirmed by any primary or record-citing secondary source in this drop. Recorded as unconfirmed.
+1 NOTE Parents per Imigrantes compilation (PUB-0003, p.301): 'filha de Joseph Heggendorn × Maria (Maria Amélia?) Freese.' The same Joseph Heggendorn × Amelie (Anna Maria) Freese couple appears as the parents of Bibiana Heggendorn (who married Vicente's brother José Borer in 1854) — suggesting Maria and Bibiana were sisters. José Eggendorn and Maria (Anna Maria) Freese are now modelled as P-0101 and P-0102 (family F-0050), confirmed by her own 1845 baptism (PAR-0072) and their 1829 marriage (PAR-0073).
+1 NOTE CONFIRMED and corrected: her 1845 Nova Friburgo baptism (PAR-0072, event E-0096) names her "Maria Thecla Regina" and gives her birth as 23 SEPTEMBER 1844 — confirming the given names and correcting the blog/collaborative-tree "23 November 1844" to September.
 0 @P0072@ INDI
 1 NAME Johann Jacob /Wehrli/
 2 GIVN Johann Jacob
@@ -1613,7 +1621,8 @@
 2 SURN Eggendorn
 1 SEX M
 1 FAMS @F0050@
-1 NOTE Father of Maria Thecla Regina Heggendorn (P-0071); named as her father (with Maria Freese) in the 1864 Vicente Borer × Maria Thecla marriage (PAR-0062). He is himself the groom "José Heggendorn, natural e baptizado na freguezia de São Lucas [St. Lukas], Cantão de Soleure" in the 1829 Nova Friburgo marriage to Anna Maria Frees — his own parents (†José Heggendorn Sr × Maria Lutz) are named there (to be catalogued in a later wave). Swiss immigrant to Nova Friburgo. Surname also written Heggendorn / Eckdorn.
+1 FAMC @F0058@
+1 NOTE Father of Maria Thecla Regina Heggendorn (P-0071); named as her father (with Maria Freese) in the 1864 Vicente Borer × Maria Thecla marriage (PAR-0062). He is himself the groom "José Heggendorn, natural e baptizado na freguezia de São Lucas [St. Lukas], Cantão de Soleure" in the 1829 Nova Friburgo marriage to Anna Maria Frees (PAR-0073, event E-0097); his parents †José Eggendorn Sr (P-0115) × Maria Lutz (P-0116) are named there (family F-0058). He is also named as the father in Maria Thecla's own 1845 baptism (PAR-0072). Swiss immigrant to Nova Friburgo (São Lucas, Cantão de Soleure/Solothurn). Surname also written Heggendorn / Eckdorn.
 0 @P0102@ INDI
 1 NAME Maria /Freese/
 2 GIVN Maria
@@ -1621,9 +1630,11 @@
 1 NAME Anna Maria /Frees/
 2 TYPE AKA
 2 SOUR @PAR0062@
+2 SOUR @PAR0073@
 1 SEX F
 1 FAMS @F0050@
-1 NOTE Mother of Maria Thecla Regina Heggendorn (P-0071); named "Maria Freese" (with José Eggendorn) in the 1864 marriage (PAR-0062). She is the bride "Anna Maria Frees, filha legitima de Jacob Frees" in the 1829 Nova Friburgo marriage to José Eggendorn — her father Jacob Frees is named there (to be catalogued in a later wave). Swiss (Frees/Freese). Modelled per the stated-ancestor rule.
+1 FAMC @F0059@
+1 NOTE Mother of Maria Thecla Regina Heggendorn (P-0071); named "Maria Freese" (with José Eggendorn) in the 1864 marriage (PAR-0062). She is the bride "Anna Maria Frees, filha legitima de Jacob Frees" in the 1829 Nova Friburgo marriage to José Eggendorn (PAR-0073, event E-0097); her parents Jacob Frees (P-0117) × Anna Maria (P-0118, deceased by 1829) are named there (family F-0059). She is also named as the mother in Maria Thecla's own 1845 baptism (PAR-0072). Swiss (Frees/Freese; her stated origin canton is [uncertain] in the register). Modelled per the stated-ancestor rule.
 0 @P0103@ INDI
 1 NAME Jacob /Klein/
 2 GIVN Jacob
@@ -1743,6 +1754,40 @@
 2 SOUR @PAR0067@
 1 FAMS @F0057@
 1 NOTE Father of Maria Luiza (Louisa) Stoffel (P-0108); named in his daughter's 1847 Lutheran marriage at Nova Friburgo (PAR-0067) as "dem Schweizer Colonisten Joseph Stoffel" — expressly a Swiss colonist, so his Swiss origin is record-stated (not inferred from the surname). Modelled as a father-only node per the stated-ancestor rule; no record of his wife is held. Clearly deceased (father of an adult marrying in 1847).
+0 @P0115@ INDI
+1 NAME José /Eggendorn/
+2 GIVN José
+2 SURN Eggendorn
+1 NAME José /Geggendorn/
+2 TYPE AKA
+2 SOUR @PAR0073@
+1 NAME José /Heggendorn/
+2 TYPE AKA
+2 SOUR @PAR0073@
+1 SEX M
+1 FAMS @F0058@
+1 NOTE Father of José Eggendorn (P-0101); named as the deceased "defunto Joze Geggendorn", husband of Maria Lutz, in his son's 1829 Nova Friburgo marriage (PAR-0073). His son was "nascido e baptizado na Freguezia de São Lucas [St. Lukas — uncertain], Cantão de Soleure" (Solothurn, Switzerland), so the family is of that Swiss parish; José Sr's own origin is not separately stated, so nationality is left unset. Already deceased by 1829.
+0 @P0116@ INDI
+1 NAME Maria /Lutz/
+2 GIVN Maria
+2 SURN Lutz
+1 SEX F
+1 FAMS @F0058@
+1 NOTE Mother of José Eggendorn (P-0101); named as the wife of the deceased José Geggendorn in her son's 1829 Nova Friburgo marriage (PAR-0073). She is not marked deceased in that record. The family's parish was São Lucas, Cantão de Soleure (Solothurn); her own origin is not separately stated, so nationality is left unset. Clearly deceased (mother of a man marrying in 1829).
+0 @P0117@ INDI
+1 NAME Jacob /Frees/
+2 GIVN Jacob
+2 SURN Frees
+1 SEX M
+1 FAMS @F0059@
+1 NOTE Father of Anna Maria Frees (P-0102); named as the husband of the (deceased) Anna Maria in his daughter's 1829 Nova Friburgo marriage (PAR-0073). He is not marked deceased in that record. His daughter's stated origin parish and canton are [uncertain] in the register, and his own origin is not separately stated, so nationality is left unset. Clearly deceased (father of a woman marrying in 1829).
+0 @P0118@ INDI
+1 NAME Anna /Maria/
+2 GIVN Anna
+2 SURN Maria
+1 SEX F
+1 FAMS @F0059@
+1 NOTE Mother of Anna Maria Frees (P-0102); named only as "de sua mulher Anna Maria, já falecida" (already deceased) — the wife of Jacob Frees — in her daughter's 1829 Nova Friburgo marriage (PAR-0073). Her maiden surname is not recorded, so no surname is asserted; nationality unset. Deceased by 1829.
 0 @DOCF0001_1@ INDI
 1 NAME Aristides Muniz /Bittencourt/
 2 GIVN Aristides Muniz
@@ -3226,8 +3271,11 @@
 1 WIFE @P0102@
 1 CHIL @P0071@
 1 MARR
-2 SOUR @PAR0062@
-3 QUAY 2
+2 DATE 20 JUL 1829
+2 PLAC Nova Friburgo (Matriz de São João Baptista), Rio de Janeiro, Brazil
+2 SOUR @PAR0073@
+3 QUAY 3
+1 SOUR @PAR0072@
 1 SOUR @PAR0062@
 0 @F0051@ FAM
 1 HUSB @P0103@
@@ -3285,6 +3333,22 @@
 1 CHIL @P0108@
 1 SOUR @PAR0067@
 1 NOTE Father-only parentage of Maria Luiza (Louisa) Stoffel (P-0108): her father Joseph Stoffel (P-0114), a "Schweizer Colonist" (Swiss colonist), is named in her 1847 marriage (PAR-0067); the mother is not recorded. Single-partner family (no partner_relationship).
+0 @F0058@ FAM
+1 HUSB @P0115@
+1 WIFE @P0116@
+1 CHIL @P0101@
+1 MARR
+2 SOUR @PAR0073@
+3 QUAY 2
+1 SOUR @PAR0073@
+0 @F0059@ FAM
+1 HUSB @P0117@
+1 WIFE @P0118@
+1 CHIL @P0102@
+1 MARR
+2 SOUR @PAR0073@
+3 QUAY 2
+1 SOUR @PAR0073@
 0 @REPO0001@ REPO
 1 NAME FamilySearch Memories
 0 @REPO0002@ REPO
@@ -4451,6 +4515,24 @@
 1 NOTE Transcription: [Livro de Óbitos, Nova Friburgo, fl.139, 1860.] "Aos vinte e dois dias do mez de Julho, pelas oito horas e meia da noite, do anno de 1860, falleceu da vida presente, n'esta Villa da Nova Friburgo, João José Rocheman, de idade de cincoenta e nove annos, dez mezes e vinte e dois dias, cazado com Isabel Stork, natural e baptizado na Freguezia de Bulle, Cantão de Fribourg, na Suíça, Brasileiro naturalizado; foi encommendado, acompanhado, e sepultado no dia seguinte no Cemiterio d'esta Villa; e para constar fiz este assento que por ser verdade assignei. O Vigario Jacob Joye."
 1 NOTE Archival reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
 1 OBJE @OBJPAR0071@
+0 @PAR0072@ SOUR
+1 TITL 1844/45 baptism of Maria Thecla Regina Eggendorn at Nova Friburgo — daughter of José Eggendorn and Maria (Anna Maria) Freese
+1 TEXT Parish baptism of Maria Thecla Regina Eggendorn (P-0071) — Iris Bohrer Muniz's 4×-great-grandmother on the Bohrer/Eggendorn line and wife of Vicente Borer (P-0070) — born 23 September 1844 and baptised 2 June 1845 at the Matriz de São João Baptista, Nova Friburgo. NAMES HER PARENTS: José Eggendora (Eggendorn, P-0101) and Maria Freese (Anna Maria Frees, P-0102). This is her own baptism; it upgrades the F-0050 couple link to primary and is the source for the birth event E-0096. Godparents Pedro and Regina Freese.
+1 REPO @REPO0036@
+2 CALN Livro de Baptismos, folha 199 (1845), entry 11
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Livro de Baptismos, Nova Friburgo, fl.199, 1845; batismo de 2 de Junho de 1845.] "11. Maria Thecla Regina, nascida a vinte e tres de Setembro, filha legitima de José Eggendora e de Maria Freese; forão padrinhos Pedro Freese com Regina Freese." [Termo aberto: "Aos dois de Junho de mil oitocentos quarenta e cinco baptisei e puz os Santos Olios..."; O Vigario João José Viviand.]
+1 NOTE Archival reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+1 OBJE @OBJPAR0072@
+0 @PAR0073@ SOUR
+1 TITL 1829 marriage of José Eggendorn and Anna Maria Frees at Nova Friburgo — Swiss colonists, naming both parent couples
+1 TEXT Parish marriage of José Eggendorn (P-0101) and Anna Maria Frees (Maria Freese, P-0102) — Iris Bohrer Muniz's Swiss-colony 5×-great-grandparents on the Eggendorn line — on 20 July 1829 at the Matriz de São João Baptista, Nova Friburgo. NAMES BOTH DEEPER-GENERATION COUPLES: José is a legitimate son of the deceased José Eggendorn Sr (P-0115) and Maria Lutz (P-0116), of São Lucas, Canton Solothurn; Anna Maria a legitimate daughter of Jacob Frees (P-0117) and the deceased Anna Maria (P-0118). Source for the marriage event E-0097; upgrades F-0050 to confirmed and adds the new parent families F-0058 (Eggendorn) and F-0059 (Frees).
+1 REPO @REPO0038@
+2 CALN Livro de Casamentos, folha 72 (1829)
+1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
+1 NOTE Transcription: [Livro de Casamentos, Nova Friburgo, fl.72, 1829.] "Aos vinte dias do mez de Julho de mil oitocentos e vinte e nove, feitas as denunciações na forma que manda o Sagrado Concilio Tridentino, sem se discubrir impedimento algum, em presença do R[everendo] P[adre] Sondeo Cosme de minha licença, e sendo presentes por testemunhas Joze Maria Dubra e Anna Maria Geggendorn, se cazarão solemnemente por palavras na face da Igreja n'esta Igreja parochial Joze Geggendorn filho legitimo do defunto Joze Geggendorn e de sua mulher Maria Lutz, nascido e baptizado na Freguezia de São Lucas [St. Lukas — uncertain], Cantão de Soleure [Solothurn], com Anna Maria Frees filha legitima de Jacob Frees e de sua mulher Anna Maria, já falecida, natural e baptizada na Freguezia de [Senen? — uncertain], Cantão de [Pottein? — uncertain], ambos de presente moradores d'esta Freguezia; e logo lhes forão dadas as bencões conforme ao ritual romano, e para constar fiz este assento que por verdade assignei. O Vigario Jacob Joye."
+1 NOTE Archival reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+1 OBJE @OBJPAR0073@
 0 @PRB0001@ SOUR
 1 TITL 1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza Balbina de Toledo (wife of Simplício José Ferreira Armond)
 1 TEXT A page from an 1881 Leopoldina probate/partilha listing the heirs of an estate on Eliza Balbina de Toledo's side. It names Eliza Balbina de Toledo as the wife of Simplício José Ferreira Armond and lists her Toledo siblings with ages: Maria Bulandina de Toledo (m. Manoel Marques Jorge), Ladisláo Egydio Ferreira de Toledo (~23, b. ~1858), Geraldo Augusto de Toledo Lima (~15, b. ~1866, then living in Rio de Janeiro), and Josepha Olympia da Paixão (~12, b. ~1869), plus a predeceased Carolina Leopoldina Marques inheriting by representation. The companion 1884 petition (PRB-0002) names the decedent as D. Mathilde Maria de Jezus.
@@ -5121,6 +5203,16 @@
 2 FORM image/jpeg
 2 TITL 1860 death of João José Rocheman at Nova Friburgo — natural de Bulle, Cantão de Fribourg, Suíça, naturalised Brazilian
 1 NOTE sha256: e22916fc8a29777366c0534ec4d1b8faab4e3c94144eb5d39d48de38d469c215
+0 @OBJPAR0072@ OBJE
+1 FILE evidence/parish/PAR-0072-bohrer-heggendorn-mariathecla-baptism-1844-novafriburgo.jpg
+2 FORM image/jpeg
+2 TITL 1844/45 baptism of Maria Thecla Regina Eggendorn at Nova Friburgo — daughter of José Eggendorn and Maria (Anna Maria) Freese
+1 NOTE sha256: aa8c0a53e05daa32645c0246ecb8213b0fda721267672b3f65d8d41e45c0fc43
+0 @OBJPAR0073@ OBJE
+1 FILE evidence/parish/PAR-0073-bohrer-eggendorn-frees-marriage-1829-novafriburgo.jpg
+2 FORM image/jpeg
+2 TITL 1829 marriage of José Eggendorn and Anna Maria Frees at Nova Friburgo — Swiss colonists, naming both parent couples
+1 NOTE sha256: d3e4945667b831681238480527c095c9fe7b2d8e3035910f7dec98d3b5354753
 0 @OBJPRB0001@ OBJE
 1 FILE evidence/probate/PRB-0001-probate-toledo-heir-list-leopoldina-1881-original.jpg
 2 FORM image/jpeg

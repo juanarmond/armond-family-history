@@ -8,9 +8,14 @@ name_variants:
   type: source
   source_ids:
   - PUB-0003
+- value: Maria Thecla Regina
+  type: source
+  source_ids:
+  - PAR-0072
 event_ids:
 - E-0063
 - E-0064
+- E-0096
 family_ids:
 - F-0034
 - F-0050
@@ -19,41 +24,45 @@ notes:
     Parents per Imigrantes compilation (PUB-0003, p.301): 'filha de Joseph Heggendorn
     × Maria (Maria Amélia?) Freese.' The same Joseph Heggendorn × Amelie (Anna Maria)
     Freese couple appears as the parents of Bibiana Heggendorn (who married Vicente's
-    brother José Borer in 1854) — suggesting Maria and Bibiana were sisters. Neither
-    Joseph Heggendorn nor Maria Freese is yet modelled in this repository.
+    brother José Borer in 1854) — suggesting Maria and Bibiana were sisters. José Eggendorn and
+    Maria (Anna Maria) Freese are now modelled as P-0101 and P-0102 (family F-0050), confirmed by
+    her own 1845 baptism (PAR-0072) and their 1829 marriage (PAR-0073).
   text_pt: >-
     Pais conforme a compilação Imigrantes (PUB-0003, p.301): 'filha de Joseph
     Heggendorn × Maria (Maria Amélia?) Freese.' O mesmo casal Joseph Heggendorn ×
     Amelie (Anna Maria) Freese aparece como pais de Bibiana Heggendorn (que se
     casou com José Borer, irmão de Vicente, em 1854) — sugerindo que Maria e
-    Bibiana eram irmãs. Nem Joseph Heggendorn nem Maria Freese estão ainda
-    modelados neste repositório.
+    Bibiana eram irmãs. José Eggendorn e Maria (Anna Maria) Freese estão agora modelados como
+    P-0101 e P-0102 (família F-0050), confirmados por seu próprio batismo de 1845 (PAR-0072) e pelo
+    casamento deles de 1829 (PAR-0073).
 - text: >-
-    The names 'Thecla Regina' and birth date '23 Nov 1844' appear in
-    blog/collaborative-tree sources; not confirmed by any primary or record-citing
-    secondary source in this drop. Recorded as unconfirmed.
+    CONFIRMED and corrected: her 1845 Nova Friburgo baptism (PAR-0072, event E-0096) names her
+    "Maria Thecla Regina" and gives her birth as 23 SEPTEMBER 1844 — confirming the given names and
+    correcting the blog/collaborative-tree "23 November 1844" to September.
   text_pt: >-
-    Os nomes 'Thecla Regina' e a data de nascimento '23 Nov 1844' aparecem em
-    fontes de blog/árvore colaborativa; não confirmados por nenhuma fonte primária
-    ou fonte secundária que cite registros neste drop. Registrado como não
-    confirmado.
+    CONFIRMADO e corrigido: seu batismo de 1845 em Nova Friburgo (PAR-0072, evento E-0096) a nomeia
+    "Maria Thecla Regina" e dá seu nascimento em 23 de SETEMBRO de 1844 — confirmando os prenomes e
+    corrigindo o "23 de novembro de 1844" de blog/árvore colaborativa para setembro.
 profile: >-
   ## Identity
 
-  **Maria Heggendorn** — the only form given by the record-citing compilation; the
-  fuller "Maria Thecla Regina Heggendorn" and the birth date "23 November 1844" appear
-  only in blogs and are not confirmed here. [LEAD] Surname variants: *Hegendorn /
-  Heggendorf*.
+  **Maria Heggendorn** — recorded fully as **Maria Thecla Regina** in her own baptism; the
+  Bohrer/Eggendorn-line wife of Vicente Borer (P-0070). Surname variants: *Hegendorn /
+  Heggendorf / Eggendorn*.
+
+  - **Birth:** born 23 September 1844 at Nova Friburgo and baptised 2 June 1845 (PAR-0072,
+  event E-0096) — confirming the given names "Maria Thecla Regina" and correcting the
+  blog/collaborative-tree "23 November 1844" to September. [PROVEN]
 
   - **Marriage:** married Vicente Borer (P-0070) on 11 April 1864 (PUB-0003,
   strong-evidence; E-0063).
 
-  - **Parents:** daughter of Joseph Heggendorn × Maria (Maria Amélia?) Freese (PUB-0003,
-  p.301) — a Grindel/Solothurn colonist couple, not modelled here. [LEAD for the
-  mother's exact name]
+  - **Parents:** daughter of José Eggendorn (P-0101) and Maria — Anna Maria — Freese (P-0102),
+  Swiss colonists (family F-0050), confirmed by her baptism (PAR-0072) and their 1829 marriage
+  (PAR-0073, which reaches one generation further to the Eggendorn Sr × Lutz and Frees couples).
+  [PROVEN]
 
-  - **Birth and death:** not established from a held record; born, by context, at Nova
-  Friburgo to the immigrant Heggendorn family. [OPEN]
+  - **Death:** not established from a held record. [OPEN]
 
   ## Family and social network
 
@@ -80,14 +89,15 @@ profile: >-
 
   ## Open questions
 
-  - Her **birth (name and date) and death** would come from the Nova Friburgo
-  parish/civil registers; only they can confirm or reject the blog-only "Thecla Regina,
-  1844". [OPEN]
+  - Her **death** record (Nova Friburgo parish/civil registers) — her birth date and name are
+  now confirmed by PAR-0072. [OPEN]
 
   ## Sources held (this repository)
 
-  - PUB-0003 (*Imigrantes de Nova Friburgo*, BORER II tree entry 1.1.7) — the sole
-  record-citing source naming her, her marriage and her parents.
+  - PAR-0072 (her own 1844/45 Nova Friburgo baptism — confirms her name, birth date and parents).
+
+  - PUB-0003 (*Imigrantes de Nova Friburgo*, BORER II tree entry 1.1.7) — record-citing source
+  naming her, her marriage and her parents.
 
   ## Regional and migration context
 
@@ -107,20 +117,22 @@ profile: >-
 profile_pt: >-
   ## Identidade
 
-  **Maria Heggendorn** — a única forma dada pela compilação que cita registros; a forma
-  mais completa "Maria Thecla Regina Heggendorn" e a data de nascimento "23 de novembro
-  de 1844" aparecem apenas em blogs e não são confirmadas aqui. [LEAD] Variantes do
-  sobrenome: *Hegendorn / Heggendorf*.
+  **Maria Heggendorn** — registrada por extenso como **Maria Thecla Regina** em seu próprio
+  batismo; a esposa, na linha Bohrer/Eggendorn, de Vicente Borer (P-0070). Variantes do
+  sobrenome: *Hegendorn / Heggendorf / Eggendorn*.
+
+  - **Nascimento:** nascida em 23 de setembro de 1844 em Nova Friburgo e baptizada em 2 de junho
+  de 1845 (PAR-0072, evento E-0096) — confirmando os prenomes "Maria Thecla Regina" e corrigindo
+  o "23 de novembro de 1844" de blog/árvore colaborativa para setembro. [PROVEN]
 
   - **Casamento:** casou-se com Vicente Borer (P-0070) em 11 de abril de 1864 (PUB-0003,
   evidência forte; E-0063).
 
-  - **Pais:** filha de Joseph Heggendorn × Maria (Maria Amélia?) Freese (PUB-0003, p.301)
-  — um casal colono de Grindel/Solothurn, não modelado aqui. [LEAD para o nome exato da
-  mãe]
+  - **Pais:** filha de José Eggendorn (P-0101) e Maria — Anna Maria — Freese (P-0102), colonos
+  suíços (família F-0050), confirmados por seu batismo (PAR-0072) e pelo casamento deles de 1829
+  (PAR-0073, que alcança mais uma geração até os casais Eggendorn Sr × Lutz e Frees). [PROVEN]
 
-  - **Nascimento e óbito:** não estabelecidos a partir de registro em mãos; nascida, pelo
-  contexto, em Nova Friburgo, na família imigrante Heggendorn. [OPEN]
+  - **Óbito:** não estabelecido a partir de registro em mãos. [OPEN]
 
   ## Família e rede social
 
@@ -148,14 +160,16 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seu **nascimento (nome e data) e óbito** viriam dos registros paroquiais/civis de
-  Nova Friburgo; apenas eles podem confirmar ou rejeitar o "Thecla Regina, 1844" que só
-  aparece em blogs. [OPEN]
+  - Seu registro de **óbito** (registros paroquiais/civis de Nova Friburgo) — sua data de
+  nascimento e seu nome estão agora confirmados por PAR-0072. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
-  - PUB-0003 (*Imigrantes de Nova Friburgo*, entrada 1.1.7 da árvore BORER II) — a única
-  fonte que cita registros e a nomeia, com seu casamento e seus pais.
+  - PAR-0072 (seu próprio batismo de 1844/45 em Nova Friburgo — confirma nome, data de nascimento
+  e pais).
+
+  - PUB-0003 (*Imigrantes de Nova Friburgo*, entrada 1.1.7 da árvore BORER II) — fonte que cita
+  registros e a nomeia, com seu casamento e seus pais.
 
   ## Contexto regional e migratório
 

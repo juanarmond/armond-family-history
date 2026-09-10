@@ -5,6 +5,20 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Bohrer djoaovi haul, wave 4a: Eggendorn line extension (2026-09-10)
+
+- **PAR-0072** Maria Thecla Regina Eggendorn's own 1844/45 Nova Friburgo baptism (E-0096) — **born
+  23 September 1844** (baptised 2 June 1845), which **confirms her full given names "Maria Thecla
+  Regina" and corrects the blog/collaborative-tree "23 November 1844" to September** — and
+  **PAR-0073** her parents' 1829 marriage (José Eggendorn × Anna Maria Frees, E-0097). Both upgrade
+  F-0050 to confirmed.
+- **Four new deeper ancestors** (P-0115–P-0118) with parentage families F-0058/F-0059: José
+  Eggendorn's parents †José Eggendorn Sr × Maria Lutz (of São Lucas, Cantão de Soleure/Solothurn)
+  and Anna Maria Frees's parents Jacob Frees × Anna Maria (maiden surname unrecorded).
+- P-0071's profile + notes (EN+PT) rewritten from "name/date are blog-only, unconfirmed" to the
+  proven baptism; P-0101/P-0102 notes completed (parents now modelled). make check green (70 tests;
+  118 people / 59 families / 94 events / 134 sources); GEDCOM re-exported.
+
 ### Added — Bohrer djoaovi haul, wave 3: Iris's maternal Rutschmann/Silva line + Klein/Schenkel/Stoffel Swiss ancestors (2026-09-09)
 
 - Six primary Nova Friburgo records catalogued (all read and verified against the image, not from

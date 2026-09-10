@@ -1,0 +1,34 @@
+schema_version: 1
+id: F-0059
+partners:
+- person_id: P-0117
+  role: spouse
+- person_id: P-0118
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0073
+  notes:
+  - text: >-
+      Jacob Frees (P-0117) × Anna Maria (P-0118, maiden surname unrecorded, already deceased),
+      parents of Anna Maria Frees (P-0102); named as a married couple in their daughter's 1829 Nova
+      Friburgo marriage (PAR-0073). No marriage act of their own is held.
+children:
+- person_id: P-0102
+  parent_relationships:
+  - parent_id: P-0117
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0073
+    notes: []
+  - parent_id: P-0118
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0073
+    notes: []
+  notes: []
+event_ids: []
+notes: []

@@ -1,0 +1,35 @@
+schema_version: 1
+id: F-0058
+partners:
+- person_id: P-0115
+  role: spouse
+- person_id: P-0116
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0073
+  notes:
+  - text: >-
+      José Eggendorn (Sr, P-0115) × Maria Lutz (P-0116), of São Lucas, Cantão de Soleure
+      (Solothurn), parents of José Eggendorn (P-0101); named as a married couple (José Sr already
+      deceased) in their son's 1829 Nova Friburgo marriage (PAR-0073). No marriage act of their own
+      is held.
+children:
+- person_id: P-0101
+  parent_relationships:
+  - parent_id: P-0115
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0073
+    notes: []
+  - parent_id: P-0116
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0073
+    notes: []
+  notes: []
+event_ids: []
+notes: []

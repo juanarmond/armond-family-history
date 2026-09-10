@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T20:49:47Z",
+ "generated": "2026-09-10T07:12:36Z",
  "updates": [
   {
    "date": "2026-09-09",
@@ -149,6 +149,66 @@
    "primary": "PAR-0065",
    "links": [
     "P-0028"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1844/45 Lutheran baptism of Jacob Klein at Nova Friburgo — son of the colonist Johannes Klein and Anna Margaretha",
+   "title_pt": "Batismo luterano de 1844/45 de Jacob Klein em Nova Friburgo — filho do colono Johannes Klein e de Anna Margaretha",
+   "primary": "PAR-0066",
+   "links": [
+    "P-0103"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1847 Lutheran marriage of Conrad Schenkel and Louisa Stoffel at Nova Friburgo — daughter of the Swiss colonist Joseph Stoffel",
+   "title_pt": "Casamento luterano de 1847 de Conrad Schenkel e Louisa Stoffel em Nova Friburgo — filha do colono suíço Joseph Stoffel",
+   "primary": "PAR-0067",
+   "links": [
+    "P-0107"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1872 Lutheran marriage of Jakob Klein and Maria Luisa Schenkel at Nova Friburgo — naming both parent couples",
+   "title_pt": "Casamento luterano de 1872 de Jakob Klein e Maria Luisa Schenkel em Nova Friburgo — nomeando os dois casais de pais",
+   "primary": "PAR-0068",
+   "links": [
+    "P-0103"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1841/42 baptism of Maria Joanna Rutschmann at Nova Friburgo — daughter of João José Rocheman and Elisabeth Storck",
+   "title_pt": "Batismo de 1841/42 de Maria Joanna Rutschmann em Nova Friburgo — filha de João José Rocheman e Elisabeth Storck",
+   "primary": "PAR-0069",
+   "links": [
+    "P-0037"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1859 marriage of Antonio da Silva Ferreira and Maria Joanna Rocheman at Nova Friburgo — naming both parent couples",
+   "title_pt": "Casamento de 1859 de Antonio da Silva Ferreira e Maria Joanna Rocheman em Nova Friburgo — nomeando os dois casais de pais",
+   "primary": "PAR-0070",
+   "links": [
+    "P-0036"
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "kind": "document",
+   "title": "1860 death of João José Rocheman at Nova Friburgo — natural de Bulle, Cantão de Fribourg, Suíça, naturalised Brazilian",
+   "title_pt": "Óbito de 1860 de João José Rocheman em Nova Friburgo — natural de Bulle, Cantão de Fribourg, Suíça, brasileiro naturalizado",
+   "primary": "PAR-0071",
+   "links": [
+    "P-0109"
    ]
   },
   {
@@ -684,61 +744,21 @@
   {
    "date": "",
    "kind": "document",
-   "title": "1844/45 Lutheran baptism of Jacob Klein at Nova Friburgo — son of the colonist Johannes Klein and Anna Margaretha",
-   "title_pt": "Batismo luterano de 1844/45 de Jacob Klein em Nova Friburgo — filho do colono Johannes Klein e de Anna Margaretha",
-   "primary": "PAR-0066",
+   "title": "1844/45 baptism of Maria Thecla Regina Eggendorn at Nova Friburgo — daughter of José Eggendorn and Maria (Anna Maria) Freese",
+   "title_pt": "Batismo de 1844/45 de Maria Thecla Regina Eggendorn em Nova Friburgo — filha de José Eggendorn e Maria (Anna Maria) Freese",
+   "primary": "PAR-0072",
    "links": [
-    "P-0103"
+    "P-0071"
    ]
   },
   {
    "date": "",
    "kind": "document",
-   "title": "1847 Lutheran marriage of Conrad Schenkel and Louisa Stoffel at Nova Friburgo — daughter of the Swiss colonist Joseph Stoffel",
-   "title_pt": "Casamento luterano de 1847 de Conrad Schenkel e Louisa Stoffel em Nova Friburgo — filha do colono suíço Joseph Stoffel",
-   "primary": "PAR-0067",
+   "title": "1829 marriage of José Eggendorn and Anna Maria Frees at Nova Friburgo — Swiss colonists, naming both parent couples",
+   "title_pt": "Casamento de 1829 de José Eggendorn e Anna Maria Frees em Nova Friburgo — colonos suíços, nomeando os dois casais de pais",
+   "primary": "PAR-0073",
    "links": [
-    "P-0107"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1872 Lutheran marriage of Jakob Klein and Maria Luisa Schenkel at Nova Friburgo — naming both parent couples",
-   "title_pt": "Casamento luterano de 1872 de Jakob Klein e Maria Luisa Schenkel em Nova Friburgo — nomeando os dois casais de pais",
-   "primary": "PAR-0068",
-   "links": [
-    "P-0103"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1841/42 baptism of Maria Joanna Rutschmann at Nova Friburgo — daughter of João José Rocheman and Elisabeth Storck",
-   "title_pt": "Batismo de 1841/42 de Maria Joanna Rutschmann em Nova Friburgo — filha de João José Rocheman e Elisabeth Storck",
-   "primary": "PAR-0069",
-   "links": [
-    "P-0037"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1859 marriage of Antonio da Silva Ferreira and Maria Joanna Rocheman at Nova Friburgo — naming both parent couples",
-   "title_pt": "Casamento de 1859 de Antonio da Silva Ferreira e Maria Joanna Rocheman em Nova Friburgo — nomeando os dois casais de pais",
-   "primary": "PAR-0070",
-   "links": [
-    "P-0036"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1860 death of João José Rocheman at Nova Friburgo — natural de Bulle, Cantão de Fribourg, Suíça, naturalised Brazilian",
-   "title_pt": "Óbito de 1860 de João José Rocheman em Nova Friburgo — natural de Bulle, Cantão de Fribourg, Suíça, brasileiro naturalizado",
-   "primary": "PAR-0071",
-   "links": [
-    "P-0109"
+    "P-0101"
    ]
   },
   {

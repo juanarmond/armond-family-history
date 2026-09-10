@@ -9,17 +9,24 @@ name_variants:
   type: source
   source_ids:
   - PAR-0062
+  - PAR-0072
 - value: Anna Maria Frees
   type: source
   source_ids:
   - PAR-0062
-event_ids: []
+  - PAR-0073
+event_ids:
+- E-0097
+- E-0096
 family_ids:
 - F-0050
+- F-0059
 notes:
 - text: >-
     Mother of Maria Thecla Regina Heggendorn (P-0071); named "Maria Freese" (with José Eggendorn)
     in the 1864 marriage (PAR-0062). She is the bride "Anna Maria Frees, filha legitima de Jacob
-    Frees" in the 1829 Nova Friburgo marriage to José Eggendorn — her father Jacob Frees is named
-    there (to be catalogued in a later wave). Swiss (Frees/Freese). Modelled per the stated-ancestor
-    rule.
+    Frees" in the 1829 Nova Friburgo marriage to José Eggendorn (PAR-0073, event E-0097); her
+    parents Jacob Frees (P-0117) × Anna Maria (P-0118, deceased by 1829) are named there (family
+    F-0059). She is also named as the mother in Maria Thecla's own 1845 baptism (PAR-0072). Swiss
+    (Frees/Freese; her stated origin canton is [uncertain] in the register). Modelled per the
+    stated-ancestor rule.

@@ -1,0 +1,19 @@
+schema_version: 1
+id: P-0118
+preferred_name: Anna Maria
+privacy: deceased
+sex: female
+name_variants:
+- value: Anna Maria
+  type: source
+  source_ids:
+  - PAR-0073
+event_ids: []
+family_ids:
+- F-0059
+notes:
+- text: >-
+    Mother of Anna Maria Frees (P-0102); named only as "de sua mulher Anna Maria, já falecida"
+    (already deceased) — the wife of Jacob Frees — in her daughter's 1829 Nova Friburgo marriage
+    (PAR-0073). Her maiden surname is not recorded, so no surname is asserted; nationality unset.
+    Deceased by 1829.

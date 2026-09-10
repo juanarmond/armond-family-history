@@ -6,30 +6,35 @@ partners:
 - person_id: P-0102
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
+  - PAR-0073
   - PAR-0062
   notes:
   - text: >-
       José Eggendorn × Maria Freese (Anna Maria Frees), parents of Maria Thecla Regina Heggendorn
-      (P-0071), named in her 1864 marriage (PAR-0062). Their own 1829 Nova Friburgo marriage is to
-      be catalogued in a later wave (it names José's parents †José Heggendorn Sr × Maria Lutz and
-      Anna Maria's father Jacob Frees); this link will then upgrade to primary.
+      (P-0071). Their own 1829 Nova Friburgo marriage is now held (PAR-0073, event E-0097): it names
+      José's parents †José Eggendorn Sr × Maria Lutz (F-0058) and Anna Maria's parents Jacob Frees ×
+      Anna Maria (F-0059) — so the couple link is confirmed. Their daughter's 1864 marriage
+      (PAR-0062) had first named the couple.
 children:
 - person_id: P-0071
   parent_relationships:
   - parent_id: P-0101
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
+    - PAR-0072
     - PAR-0062
     notes: []
   - parent_id: P-0102
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
+    - PAR-0072
     - PAR-0062
     notes: []
   notes: []
-event_ids: []
+event_ids:
+- E-0097
 notes: []

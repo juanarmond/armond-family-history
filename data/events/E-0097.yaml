@@ -1,0 +1,22 @@
+schema_version: 1
+id: E-0097
+event_type: marriage
+date:
+  kind: exact
+  value: "1829-07-20"
+place_text: Nova Friburgo (Matriz de São João Baptista), Rio de Janeiro, Brazil
+participants:
+- person_id: P-0101
+  role: spouse
+- person_id: P-0102
+  role: spouse
+status: confirmed
+source_ids:
+- PAR-0073
+notes:
+- text: >-
+    Marriage of José Eggendorn (P-0101) — legitimate son of the deceased José Eggendorn Sr (P-0115)
+    and Maria Lutz (P-0116), born and baptised in São Lucas, Cantão de Soleure (Solothurn) — and
+    Anna Maria Frees (P-0102) — legitimate daughter of Jacob Frees (P-0117) and the deceased Anna
+    Maria (P-0118) — on 20 July 1829 at the Matriz de São João Baptista, Nova Friburgo (PAR-0073).
+    Witnesses Joze Maria Dubra and Anna Maria Geggendorn; officiant Vigário Jacob Joye.

@@ -1,0 +1,19 @@
+schema_version: 1
+id: P-0116
+preferred_name: Maria Lutz
+privacy: deceased
+sex: female
+name_variants:
+- value: Maria Lutz
+  type: source
+  source_ids:
+  - PAR-0073
+event_ids: []
+family_ids:
+- F-0058
+notes:
+- text: >-
+    Mother of José Eggendorn (P-0101); named as the wife of the deceased José Geggendorn in her
+    son's 1829 Nova Friburgo marriage (PAR-0073). She is not marked deceased in that record. The
+    family's parish was São Lucas, Cantão de Soleure (Solothurn); her own origin is not separately
+    stated, so nationality is left unset. Clearly deceased (mother of a man marrying in 1829).

@@ -9,14 +9,20 @@ name_variants:
   type: source
   source_ids:
   - PAR-0062
-event_ids: []
+  - PAR-0072
+  - PAR-0073
+event_ids:
+- E-0097
+- E-0096
 family_ids:
 - F-0050
+- F-0058
 notes:
 - text: >-
     Father of Maria Thecla Regina Heggendorn (P-0071); named as her father (with Maria Freese) in
     the 1864 Vicente Borer × Maria Thecla marriage (PAR-0062). He is himself the groom "José
     Heggendorn, natural e baptizado na freguezia de São Lucas [St. Lukas], Cantão de Soleure" in
-    the 1829 Nova Friburgo marriage to Anna Maria Frees — his own parents (†José Heggendorn Sr ×
-    Maria Lutz) are named there (to be catalogued in a later wave). Swiss immigrant to Nova
-    Friburgo. Surname also written Heggendorn / Eckdorn.
+    the 1829 Nova Friburgo marriage to Anna Maria Frees (PAR-0073, event E-0097); his parents
+    †José Eggendorn Sr (P-0115) × Maria Lutz (P-0116) are named there (family F-0058). He is also
+    named as the father in Maria Thecla's own 1845 baptism (PAR-0072). Swiss immigrant to Nova
+    Friburgo (São Lucas, Cantão de Soleure/Solothurn). Surname also written Heggendorn / Eckdorn.

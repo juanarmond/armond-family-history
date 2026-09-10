@@ -1681,3 +1681,27 @@ with PIL to resolve dates and filiations.
    are single-page). make check green (70 tests, 114 people / 57 families / 92 events / 132 sources);
    feed 76 entries; GEDCOM 5142 lines. Wave 4 queued (Maria Thecla baptism, Eggendorn–Frees marriage,
    collateral baptisms, whole-page arrival ledgers).
+
+## 2026-09-10 — Bohrer djoaovi haul, Wave 4a: Eggendorn line extension
+
+Two primary Nova Friburgo records opened and transcribed against the image.
+
+1. **Maria Thecla baptism (PAR-0072, E-0096).** Matriz fl.199, batch of 2 June 1845, entry 11:
+   "Maria Thecla Regina, nascida a vinte e tres de Setembro, filha legitima de José Eggendora e de
+   Maria Freese; padrinhos Pedro Freese com Regina Freese." Born 23 Sep 1844 (the batch is June
+   1845, so the birth is the preceding September). This is P-0071's own baptism: it CONFIRMS her
+   full given names "Maria Thecla Regina" (previously blog-only) and CORRECTS the collaborative-tree
+   "23 November 1844" to 23 September. F-0050 (José Eggendorn × Maria/Anna Maria Freese) upgraded
+   strong→confirmed.
+2. **Eggendorn × Frees marriage (PAR-0073, E-0097).** Matriz fl.72, 20 July 1829: José Geggendorn,
+   filho legitimo do defunto José Geggendorn e de sua mulher Maria Lutz, natural de São Lucas,
+   Cantão de Soleure (Solothurn); × Anna Maria Frees, filha legitima de Jacob Frees e de sua mulher
+   Anna Maria (já falecida). Modelled the two deeper couples: †José Eggendorn Sr (P-0115) × Maria
+   Lutz (P-0116) → F-0058, and Jacob Frees (P-0117) × Anna Maria [surname unrecorded] (P-0118) →
+   F-0059. Witnesses Joze Maria Dubra & Anna Maria Geggendorn; Vigário Jacob Joye.
+3. **Completeness.** P-0071 profile/notes (EN+PT) refreshed to the proven baptism; P-0101/P-0102
+   notes completed and their name-variants re-cited to PAR-0072/PAR-0073. Full event + family
+   reciprocity verified both ways; drop-pages audit clean; make check green (70 tests, 118 people /
+   59 families / 94 events / 134 sources). Wave 4b remaining: collateral 1902 baptisms (Valentim
+   Luciano, Etelvina), the Heggendorn Heureux-Voyage arrival record, and the mislabeled
+   adelaide-carolina image (Vicente Bohrer Junior × Hortencia collateral).

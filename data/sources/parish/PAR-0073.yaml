@@ -1,0 +1,86 @@
+schema_version: 1
+id: PAR-0073
+title: >-
+  1829 marriage of José Eggendorn and Anna Maria Frees at Nova Friburgo — Swiss
+  colonists, naming both parent couples
+title_pt: >-
+  Casamento de 1829 de José Eggendorn e Anna Maria Frees em Nova Friburgo — colonos
+  suíços, nomeando os dois casais de pais
+record_type: Parish marriage register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1829-07-20"
+event_place_text: >-
+  Matriz de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Matriz de São João Baptista, Nova Friburgo (Livro de Casamentos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Casamentos, folha 72 (1829)
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-10"
+language: pt-BR
+transcription: >-
+  [Livro de Casamentos, Nova Friburgo, fl.72, 1829.] "Aos vinte dias do mez de Julho de mil
+  oitocentos e vinte e nove, feitas as denunciações na forma que manda o Sagrado Concilio
+  Tridentino, sem se discubrir impedimento algum, em presença do R[everendo] P[adre] Sondeo Cosme
+  de minha licença, e sendo presentes por testemunhas Joze Maria Dubra e Anna Maria Geggendorn, se
+  cazarão solemnemente por palavras na face da Igreja n'esta Igreja parochial Joze Geggendorn filho
+  legitimo do defunto Joze Geggendorn e de sua mulher Maria Lutz, nascido e baptizado na Freguezia
+  de São Lucas [St. Lukas — uncertain], Cantão de Soleure [Solothurn], com Anna Maria Frees filha
+  legitima de Jacob Frees e de sua mulher Anna Maria, já falecida, natural e baptizada na Freguezia
+  de [Senen? — uncertain], Cantão de [Pottein? — uncertain], ambos de presente moradores d'esta
+  Freguezia; e logo lhes forão dadas as bencões conforme ao ritual romano, e para constar fiz este
+  assento que por verdade assignei. O Vigario Jacob Joye."
+abstract: >-
+  Parish marriage of José Eggendorn (P-0101) and Anna Maria Frees (Maria Freese, P-0102) — Iris
+  Bohrer Muniz's Swiss-colony 5×-great-grandparents on the Eggendorn line — on 20 July 1829 at the
+  Matriz de São João Baptista, Nova Friburgo. NAMES BOTH DEEPER-GENERATION COUPLES: José is a
+  legitimate son of the deceased José Eggendorn Sr (P-0115) and Maria Lutz (P-0116), of São Lucas,
+  Canton Solothurn; Anna Maria a legitimate daughter of Jacob Frees (P-0117) and the deceased Anna
+  Maria (P-0118). Source for the marriage event E-0097; upgrades F-0050 to confirmed and adds the
+  new parent families F-0058 (Eggendorn) and F-0059 (Frees).
+abstract_pt: >-
+  Casamento paroquial de José Eggendorn (P-0101) e Anna Maria Frees (Maria Freese, P-0102) —
+  penta-avós de linhagem suíça de Iris Bohrer Muniz na linha Eggendorn — em 20 de julho de 1829, na
+  Matriz de São João Baptista, Nova Friburgo. NOMEIA OS DOIS CASAIS DA GERAÇÃO MAIS PROFUNDA: José é
+  filho legítimo do falecido José Eggendorn Sr (P-0115) e de Maria Lutz (P-0116), de São Lucas,
+  Cantão de Soleure; Anna Maria é filha legítima de Jacob Frees (P-0117) e da falecida Anna Maria
+  (P-0118). Fonte do evento de casamento E-0097; eleva a família F-0050 a confirmada e adiciona as
+  novas famílias de pais F-0058 (Eggendorn) e F-0059 (Frees).
+reliability:
+  assessment: >-
+    Primary parish marriage entry — direct primary for the marriage and, as declared, for both
+    spouses' filiations and José's Solothurn origin.
+  informant: The Vigário Jacob Joye from the contracting parties' declaration.
+  limitations: >-
+    José's home parish ("São Lucas") and the bride's stated parish/canton are [uncertain] reads;
+    the bride's mother is named only "Anna Maria" (maiden surname unrecorded). Delivered via the
+    Fundação D. João VI digitisation (C-009).
+digital_file:
+  path: evidence/parish/PAR-0073-bohrer-eggendorn-frees-marriage-1829-novafriburgo.jpg
+  sha256: d3e4945667b831681238480527c095c9fe7b2d8e3035910f7dec98d3b5354753
+linked_people:
+- P-0101
+- P-0102
+- P-0115
+- P-0116
+- P-0117
+- P-0118
+linked_families:
+- F-0050
+- F-0058
+- F-0059
+linked_events:
+- E-0097
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the marriage event E-0097 (José Eggendorn × Anna Maria Frees, 1829). Upgrades the
+    F-0050 couple link to primary and establishes the parent families F-0058 (José Eggendorn Sr ×
+    Maria Lutz) and F-0059 (Jacob Frees × Anna Maria).
