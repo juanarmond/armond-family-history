@@ -1148,6 +1148,20 @@ a:focus-visible {
 
 /* Source list with clickable evidence files */
 .source-list { display: grid; gap: .65rem; margin: 0; padding: 0; list-style: none; }
+/* Sub-group heading within the sources panel (own records / mentions / context).
+   One tier below the gold .detail-section h3: quieter muted ink, thin paper rule. */
+.source-group-title {
+  margin: .5rem 0 -.1rem;
+  padding-bottom: .3rem;
+  border-bottom: 1px solid var(--rule);
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.source-group-title:first-child { margin-top: 0; }
 .source-item {
   padding: .85rem .95rem;
   border: 1px solid var(--rule);

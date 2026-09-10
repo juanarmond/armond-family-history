@@ -659,6 +659,17 @@ export function projectTreeData({ people, families, events, places, sources, fan
       const cat = (sources[sid] || {}).record_category;
       return VITAL_CATS.has(cat) ? 10 + (sourceRank[sid] ?? 6) : 30;
     };
+    // The three FONTES tiers, exposed as an explicit per-person label so the
+    // viewer can head each group without re-deriving the rank logic:
+    //   own      → the person's OWN records         (rank 0–4)
+    //   mention  → vital certificates that only NAME them (rank 11–16)
+    //   context  → everything else, not about them   (rank 30)
+    const groupOf = (sid) => {
+      const r = orderRank(sid);
+      if (r < 10) return "own";
+      if (r < 30) return "mention";
+      return "context";
+    };
     const sourceIds = [...(personSourceIds[personId] || [])].sort(
       (a, b) =>
         orderRank(a) - orderRank(b) ||
@@ -669,7 +680,11 @@ export function projectTreeData({ people, families, events, places, sources, fan
       .map((note) => `${note.en} ${note.pt || ""}`)
       .join(" ")
       .toLocaleLowerCase();
-    const personSources = living ? [] : sourceIds.map((id) => sourceView[id]).filter(Boolean);
+    const personSources = living
+      ? []
+      : sourceIds
+          .map((id) => (sourceView[id] ? { ...sourceView[id], group: groupOf(id) } : null))
+          .filter(Boolean);
 
     peopleView[personId] = {
       id: personId,

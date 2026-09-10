@@ -1339,10 +1339,32 @@ function sourceList(sources) {
   // ahead of their own marriage and death records.
   const sorted = sources;
 
+  // Sub-group headings, driven by the explicit `group` label the data-loader
+  // attaches to each source (own / mention / context). Only shown when the
+  // person's sources actually span more than one group, so a person with a
+  // single group keeps a clean, unlabelled list under the "Sources" heading.
+  const GROUP_LABELS = {
+    own: t("source.group.own"),
+    mention: t("source.group.mention"),
+    context: t("source.group.context"),
+  };
+  const groupsPresent = new Set(sorted.map((source) => source.group).filter(Boolean));
+  const showGroupHeaders = groupsPresent.size > 1;
+  let lastGroup = null;
+
   const ul = document.createElement("ul");
   ul.className = "source-list";
 
   for (const source of sorted) {
+    if (showGroupHeaders && source.group && source.group !== lastGroup) {
+      lastGroup = source.group;
+      const groupHeader = document.createElement("li");
+      groupHeader.className = "source-group-title";
+      groupHeader.setAttribute("role", "presentation");
+      groupHeader.textContent = GROUP_LABELS[source.group] || "";
+      ul.append(groupHeader);
+    }
+
     const li = document.createElement("li");
     li.className = source.uncertain ? "source-item source-flagged" : "source-item";
 

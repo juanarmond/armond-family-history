@@ -5,6 +5,19 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — Viewer: sources panel grouped into own / mentions / context (2026-09-10)
+
+The person detail panel's **Sources** section now heads its list with sub-group
+titles — *This person's own records* → *Records that mention this person* →
+*Context records* (bilingual EN/PT) — so a reader can tell a person's own
+certificates from records that merely name them. The grouping reuses the existing
+owner-defined FONTES ordering (no re-sort): `data-loader.js` attaches an explicit
+`group` label (`own` / `mention` / `context`) to each per-person source, and
+`app.js` renders a heading at each group boundary. Headings appear only when a
+person's sources span more than one group, so single-group panels stay a clean,
+unlabelled list. Viewer-only change (`data-loader.js`, `app.js`, `styles.css`,
+`i18n.js`); no data, GEDCOM or index change.
+
 ### Added — Retrieval drop: 1840 Rutschmann×Storck marriage + the Silva-Ferreira Rio→NF arc (2026-09-10)
 
 Value-gated and ingested a 7-image drop (all opened and read against the images):
