@@ -77,14 +77,14 @@ physical or authorised access, not read-only web.
 
 | Item | Current state |
 | --- | --- |
-| Structured people | 95 |
-| Structured families | 46 |
-| Structured events | 75 |
+| Structured people | 118 |
+| Structured families | 59 |
+| Structured events | 94 |
 | Structured places | 9 |
-| Structured sources | 101 |
+| Structured sources | 136 |
 | Structured FAN references | 13 |
-| Inventoried retained documents | 99 |
-| Validation | 339 entities; zero errors or warnings at the last check (2026-09-01) |
+| Retained evidence scans | 203 |
+| Validation | zero errors or warnings at the last check (2026-09-10) |
 | Automated tests | 70 passing at the last check |
 
 The catalogued sources span the Armond/Paz, Muniz Bittencourt/Azevedo,
