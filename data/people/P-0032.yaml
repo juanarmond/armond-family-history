@@ -18,14 +18,21 @@ notes:
     named with his wife Luzia Pinheiro da Conceição (P-0033)
     in P-0010's 1964 civil death (CIV-0017), where both are reported already
     deceased. His own vital records are off-index; no dates or places are yet
-    evidenced. Nationality inferred from the family's Minas Gerais origin (jus
-    soli), not from the surname.
+    evidenced. Nationality (Brazilian) is document-based, not a surname inference: his
+    admission as an elector in the 1898 federal (senatorial) election (GOV-0008) attests
+    Brazilian citizenship, since under the 1891 Constitution only Brazilian citizens could
+    vote. That proves citizenship, not birthplace — whether he was native-born or naturalised,
+    and his actual place of birth, remain unknown [OPEN].
   text_pt: >-
     Pai de Antonio Engracio Filho (P-0010) — avô paterno de Cidalia — nomeado junto
     com sua esposa Luzia Pinheiro da Conceição (P-0033) no óbito civil de 1964 de
     P-0010 (CIV-0017), onde ambos são relatados já falecidos. Seus próprios registros
     vitais estão fora dos índices; nenhuma data ou local está ainda evidenciado.
-    Nacionalidade inferida da origem mineira da família (jus soli), não do sobrenome.
+    A nacionalidade (brasileira) é documental, não uma inferência do sobrenome: sua admissão
+    como eleitor na eleição federal (para Senador) de 1898 (GOV-0008) atesta cidadania
+    brasileira, pois pela Constituição de 1891 somente cidadãos brasileiros podiam votar. Isso
+    prova a cidadania, não o local de nascimento — se era nativo ou naturalizado, e onde
+    nasceu, permanece desconhecido [OPEN].
 profile: >-
   ## Identity
 
@@ -55,8 +62,12 @@ profile: >-
 
   The Engracio-Souza household was a Minas Gerais (Carangola-area) family before the line's
   20th-century move to Rio de Janeiro — his son and grandchildren are all MG-born
-  [INFERRED]. His Brazilian nationality is inferred from that Minas Gerais origin (jus
-  soli), not from the surname.
+  [INFERRED]. His **Brazilian nationality is documented, not merely inferred**: he was an
+  admitted elector in the 1898 federal senatorial election (GOV-0008), and under the 1891
+  Constitution the franchise was restricted to Brazilian citizens, so the record attests he
+  was a Brazilian citizen [PROVEN — GOV-0008]. That is *citizenship*, not birthplace: it does
+  not distinguish native-born from naturalised, and his own place of birth is still not held
+  [OPEN] — so it does not by itself close the "where was he born" question.
 
   On the socioeconomic read, he is the obscure trunk of what became a commercial branch.
   [INFERRED / CONTEXTUAL — origin OPEN] Nothing documents his own standing, but the branch's
@@ -98,16 +109,24 @@ profile_pt: >-
 
   ## Nota sobre a evidência
 
-  Ele é nomeado apenas de forma derivada: como pai falecido de Antonio Engracio Filho no
-  óbito civil de 1964 (CIV-0017) e como avô paterno de Cidalia em seu nascimento de 1930
-  (CIV-0022, ali "Antonio Engracio de Souza"). Nenhum registro próprio dele foi obtido.
+  Ele é nomeado como pai falecido de Antonio Engracio Filho no óbito civil de 1964 (CIV-0017)
+  e como avô paterno de Cidalia em seu nascimento de 1930 (CIV-0022, ali "Antonio Engracio de
+  Souza"). Um registro o nomeia em nome próprio — a ata da eleição para Senador de 1898 da
+  Freguesia de São Francisco da Glória, Carangola (GOV-0008), que o arrola entre os eleitores
+  admitidos, corroborando que estava vivo, era eleitor habilitado (alfabetizado) e residente
+  naquela freguesia de MG em 1898 [CONTEXTUAL]. Nenhum registro vital próprio dele (nascimento,
+  casamento ou óbito) foi obtido.
 
   ## O que podemos extrapolar
 
   O lar Engracio-Souza era uma família de Minas Gerais (região de Carangola) antes da
   mudança da linha para o Rio de Janeiro no século XX — seu filho e seus netos são todos
-  nascidos em MG [INFERRED]. Sua nacionalidade brasileira é inferida dessa origem mineira
-  (jus soli), não do sobrenome.
+  nascidos em MG [INFERRED]. Sua **nacionalidade brasileira é documentada, não apenas
+  inferida**: ele foi eleitor admitido na eleição federal para Senador de 1898 (GOV-0008), e
+  pela Constituição de 1891 o sufrágio era restrito a cidadãos brasileiros, de modo que o
+  registro atesta que era cidadão brasileiro [PROVEN — GOV-0008]. Isso é *cidadania*, não local
+  de nascimento: não distingue nativo de naturalizado, e seu próprio local de nascimento ainda
+  não foi obtido [OPEN] — logo não fecha, por si só, a questão de "onde ele nasceu".
 
   Na leitura socioeconômica, ele é o tronco obscuro do que veio a ser um ramo comercial.
   [INFERRED / CONTEXTUAL — origem OPEN] Nada documenta sua própria posição, mas a forma a jusante
