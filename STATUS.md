@@ -90,7 +90,7 @@ physical or authorised access, not read-only web.
 | Structured FAN references | 13 |
 | Retained evidence scans | 205 |
 | Validation | zero errors or warnings at the last check (2026-09-10) |
-| Automated tests | 70 passing at the last check |
+| Automated tests | 75 passing at the last check |
 
 The catalogued sources span the Armond/Paz, Muniz Bittencourt/Azevedo,
 Engracio/Souza/Guimarães, Bohrer and Portuguese-origin lines, include the maternal
