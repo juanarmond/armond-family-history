@@ -5,6 +5,17 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — Nationality (and viewer flag) for 6 Brazil-born ancestors (2026-09-10)
+
+The viewer draws its country flag from a person's `nationality`, not their birthplace,
+so people with a known Brazilian birthplace but no `nationality` field (e.g. Rosa
+Eugenia de Lemos, born Itaboraí) displayed a place but no flag. Audited every deceased
+person with a placed birth/baptism event: 6 lacked a nationality and all 6 were born in
+Brazil, so set `nationality: Brazilian` (jus soli) on P-0035, P-0041, P-0045, P-0046,
+P-0071 and P-0103. Every person whose birthplace is known now carries a nationality/flag;
+foreign-born ancestors whose nationality is deliberately unset (a contested or
+not-yet-primary origin, noted on the entity) are left as-is by design.
+
 ### Added — Birth events for 5 ancestors whose birthplace was recorded but not shown (2026-09-10)
 
 A death (or origin) record often *states* the deceased's birthplace, but the viewer
