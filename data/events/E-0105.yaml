@@ -2,17 +2,22 @@ schema_version: 1
 id: E-0105
 event_type: birth
 date:
-  kind: unknown
-  text: >-
-    No age or birth date is held.
+  kind: exact
+  value: "1862-08-10"
 place_text: >-
-  Nova Friburgo (freguesia de São João Baptista), Rio de Janeiro, Brazil
+  Matriz de São João Baptista da Lagoa, Corte (Rio de Janeiro), Brazil
 participants:
 - person_id: P-0031
   role: principal
 status: strong-evidence
 source_ids:
+- PAR-0077
 - CIV-0019
 notes:
 - text: >-
-    Birthplace from her son Alberto's 1890 birth (CIV-0019): "Lucinda Ferreira da Silva Bohrer, natural desta Freguezia" (São João Baptista, Nova Friburgo). Informant-reported; no birth date held.
+    CORRECTED (2026-09-10): born 10 August 1862 in RIO DE JANEIRO (Corte), per her own baptism
+    PAR-0077 ("Lucinda, nascida a dez de Agosto do anno passado" at the Matriz de S. João Baptista
+    da Lagoa), corroborated by her 1884 Nova Friburgo marriage. This SUPERSEDES the earlier reading
+    from her son Alberto's 1890 birth (CIV-0019, "natural desta Freguezia" = Nova Friburgo), which is
+    preserved here as an informant-reported conflict — the family was in Rio in 1862-63 and returned
+    to Nova Friburgo later.

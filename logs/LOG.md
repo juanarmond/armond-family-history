@@ -1792,3 +1792,26 @@ P-0109 Bulle CH (~1800, PAR-0071); P-0023 Portugal country-only (CIV-0007 nation
 locality); P-0009 Eugenópolis MG (CIV-0002); P-0027 Barbacena MG (PAR-0023 marriage, date
 lead-only→unknown); P-0063 Minas Gerais state-level (CIV-0024, c.1834–1839). All strong-evidence;
 no invented localities. GEDCOM + entity-index regenerated; make check 75 green.
+
+## 2026-09-10 — Retrieval drop: 1840 Rutschmann×Storck marriage + Silva-Ferreira Rio→NF arc
+
+Value-gated a 7-image drop (all opened and read against the images; FINDINGS used as leads only),
+processed with parallel subagents for the profile reconciliations and central ID allocation.
+
+1. **PAR-0076 — Rutschmann × Storck 1840 marriage** (P-0109 × P-0110, event E-0121, NF Matriz).
+   Names both couples' parents → 4 new ancestors + 2 families (F-0060, F-0061). Primary-confirms
+   groom "baptizado na freguesia de Bulle na Suissa" and bride "nascida e baptizada na Allemanha"
+   → P-0110 birth E-0122 (Germany), nationality German; F-0054 marriage now held. This closed the
+   long "Rutschmann×Storck marriage not found (~1828-41)" bounded-negative — it was 1840, later
+   than the swept window; same witnesses (João Balmat, Maria Fabre) as the 1841 daughter's baptism.
+2. **Silva-Ferreira life-arc (Rio→NF) corrected.** CIV-0035: Antonio (P-0036) d. 19 Sep 1914 NF,
+   age 88, widower (falsifies "died in Rio"; event E-0123). PAR-0077: Lucinda (P-0031) b. 10 Aug
+   1862 in RIO (Matriz S. João Baptista da Lagoa), bapt 16 Mar 1863 — corrects her birth E-0105
+   (NF→Rio), superseding CIV-0019 (conflict preserved). CIV-0036 + CIV-0037: siblings Octávio and
+   Maria da Gloria (documented_children on F-0017) bracket Maria Joanna's (P-0037) death to
+   ~1896-99 at NF (event E-0125).
+3. **GOV-0008 (context_only)** — 1898 São Francisco da Glória electoral act corroborating Antonio
+   Engracio de Souza's (P-0032) 1898 residence/voter status.
+4. Reconciled the affected profiles (P-0109/P-0110 and P-0031/P-0036/P-0037) EN+PT to the new
+   records. make check green (75 tests; 122 people / 61 families / 122 events / 142 sources / 205
+   scans); GEDCOM, index and feed regenerated.

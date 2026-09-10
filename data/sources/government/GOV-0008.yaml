@@ -1,0 +1,75 @@
+schema_version: 1
+id: GOV-0008
+title: >-
+  1898 electoral act (senatorial election) at São Francisco da Glória, Carangola (MG) — lists
+  Antonio Engracio de Souza among the qualified voters
+title_pt: >-
+  Ata de eleição de 1898 (Senador Federal) na Freguesia de São Francisco da Glória, Carangola (MG)
+  — arrola Antonio Engracio de Souza entre os eleitores habilitados
+record_type: Municipal electoral act (ata de eleição / senatorial)
+record_category: government_record
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: context_only
+event_date:
+  kind: exact
+  value: "1898-08-06"
+event_place_text: Freguesia de São Francisco da Glória, Município de Carangola, Minas Gerais, Brazil
+repository:
+  name: Ata da secção eleitoral, Freguesia de São Francisco da Glória, Município de Carangola
+  archive_or_registry: FamilySearch (retrieval agent pull)
+  collection: Eleição para um Senador Federal, 1ª secção, 6 August 1898
+  catalogue_reference: rec-engracio-antonio-souza-voting-1898-saofranciscodagloria (retrieval drop)
+access_date: "2026-09-10"
+language: pt-BR
+transcription: >-
+  [Ata da eleição para um Senador Federal, 1ª secção da Freguesia de São Francisco da Glória,
+  Município de Carangola, Estado de Minas Geraes, 6 de agosto de 1898; mesários Joaquim Ribeiro da
+  Silva (presidente), Emiliano Ananias de Souza, José Luis Pires, Ramiro José de Carvalho Guimarães,
+  Augusto Ancante da Costa Brazílio.] "… foram admittidos a votar os eleitores por trinta [pela]
+  primeira secção deste Districto, os cidadãos: Antonio Ferreira de Mello, Custódio Ferreira Lopes,
+  Antonio Ferreira de Carvalho, Domingos Laviola, Antonio Engracio de Souza, Antonio Fernandes do
+  Prado, Antonio Fernandes do Prado Sobrinho, Estevão José do Prado, Antonio Francisco da Silva
+  Valente, Antonio Carlos de Oliveira, Antonio José Pereira, Antonio Luis da Motta, Antonio Pio de
+  Abreu, Antonio Lopes Valente, Antonio Rodrigues Pedroza, Antonio Tereza Gonçalves, Antonio Joaquim
+  da Rocha, Alaerino José de Carvalho Guimarães, Alaerino Carlos de Oliveira, Camillo Gonçalves,
+  Estevão Camillo Pedroza, Frederico Camillo Pedroza, Carlos Camillo … [lista continua]."
+abstract: >-
+  Municipal electoral act (senatorial election, 6 August 1898) for the 1ª secção of the Freguesia de
+  São Francisco da Glória, Município de Carangola (MG). Lists Antonio Engracio de Souza (P-0032) among
+  the admitted voters — a functional-role civic appearance corroborating that he was **alive, a
+  qualified (literate) voter, and resident in São Francisco da Glória / Carangola in 1898**. Context
+  only (no vital event, no parentage). Also names "Ramiro José" and "Alaerino José de Carvalho
+  Guimarães" among the mesa/voters — a possible cross-reference to the Guimarães line, unverified.
+abstract_pt: >-
+  Ata de eleição municipal (Senador Federal, 6 de agosto de 1898) da 1ª secção da Freguesia de São
+  Francisco da Glória, Município de Carangola (MG). Arrola Antonio Engracio de Souza (P-0032) entre os
+  eleitores admitidos — aparição cívica em papel funcional, corroborando que ele estava **vivo, era
+  eleitor habilitado (alfabetizado) e residente em São Francisco da Glória / Carangola em 1898**.
+  Apenas contexto (nenhum evento vital, nenhuma filiação). Também nomeia "Ramiro José" e "Alaerino
+  José de Carvalho Guimarães" na mesa/entre eleitores — possível referência cruzada à linha Guimarães,
+  não verificada.
+reliability:
+  assessment: >-
+    Primary civic (electoral) act; direct for the fact that Antonio Engracio de Souza was a resident
+    qualified voter in São Francisco da Glória (Carangola) in 1898. Context only — it attests no vital
+    event, birthplace or parentage.
+  informant: The electoral board (mesa) of the 1ª secção.
+  limitations: >-
+    A functional-role appearance among many voters; corroborates residence and civic status, nothing
+    more. The "Carvalho Guimarães" names on the board are an unverified possible cross-reference.
+digital_file:
+  path: evidence/government/GOV-0008-engracio-antonio-souza-voting-1898-saofranciscodagloria.jpg
+  sha256: d58745b2be2ae98fca86f829a57c3caa1c12274c7e547c983327d54291ba5454
+linked_people:
+- P-0032
+linked_families: []
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Context (not evidence for a conclusion): corroborates Antonio Engracio de Souza's (P-0032)
+    residence in São Francisco da Glória / Carangola and his alive/voter status in 1898. No vital
+    event modelled.

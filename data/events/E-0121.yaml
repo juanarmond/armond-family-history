@@ -1,0 +1,22 @@
+schema_version: 1
+id: E-0121
+event_type: marriage
+date:
+  kind: exact
+  value: "1840-06-23"
+place_text: Matriz de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0109
+  role: spouse
+- person_id: P-0110
+  role: spouse
+status: confirmed
+source_ids:
+- PAR-0076
+notes:
+- text: >-
+    Marriage of João José Rutschmann ("João José Rosman", P-0109) × Elisabeth Storck ("Isabella
+    Storck", P-0110), 23 June 1840 at the Matriz de São João Baptista, Nova Friburgo (PAR-0076);
+    witnesses João Balmat and Maria Fabre. The same witnesses appear on their daughter Maria
+    Joanna's 1841 baptism (PAR-0069), cross-confirming the family. Names both spouses' parents
+    (F-0060, F-0061).

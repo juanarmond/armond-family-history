@@ -1,0 +1,68 @@
+schema_version: 1
+id: CIV-0035
+title: >-
+  1914 civil death registration of Antonio da Silva Ferreira at Nova Friburgo (termo 5045) —
+  died 19 September 1914, aged 88, Portuguese, widower
+title_pt: >-
+  Registro civil de óbito de 1914 de Antonio da Silva Ferreira em Nova Friburgo (termo 5045) —
+  falecido em 19 de setembro de 1914, 88 anos, português, viúvo
+record_type: Civil death register entry
+record_category: civil_registration
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1914-09-19"
+event_place_text: Nova Friburgo (1º Distrito de São João Baptista), Rio de Janeiro, Brazil
+repository:
+  name: Cartório do Registro Civil, 1º Distrito de São João Baptista, Nova Friburgo (óbitos, termo 5045, folio 172)
+  archive_or_registry: FamilySearch (collection 1582573)
+  collection: Registro Civil de óbitos, 1º Distrito, termo N.5045, folio 172, 1914
+  catalogue_reference: "FS ark: 3:1:S3HT-DYLC-PQK"
+access_date: "2026-09-10"
+language: pt-BR
+transcription: >-
+  [Registro Civil de óbitos, 1º Distrito de São João Baptista, Nova Friburgo, termo N.5045, folio
+  172, 1914; escrivão Pedro Gonçalves Franco.] "Aos vinte de Setembro de mil novecentos e quatorze,
+  nesta Cidade de Friburgo, Estado do Rio de Janeiro, em meu cartorio, compareceu Antonio da Silva
+  Ferreira Junior, operario, residente nesta Cidade ... e exhibindo attestado do Doutor Henrique de
+  Blanchin [uncertain] declarou que na casa da Rua Sete de Setembro, ás vinte e quatro horas de
+  hontem, falleceu de arterio sclerose, seu pae Antonio da Silva Ferreira, com oitenta e oito annos
+  de edade, do sexo masculino, cor branca, Portuguez, viuvo, e vae ser sepultado no Cemiterio
+  Publico desta Cidade. E para constar fiz este termo ... Pedro Gonçalves Franco, escrivão que o
+  escrevi."
+abstract: >-
+  Civil death registration of Antonio da Silva Ferreira (P-0036) — died at 24h on 19 September 1914
+  (registered 20 September) at the Rua Sete de Setembro, Nova Friburgo, of arteriosclerosis, aged 88
+  (→ b. ~1826), "Portuguez, viuvo" (widower — so Maria Joanna Rutschmann P-0037 predeceased him);
+  buried in the Cemitério Público de Nova Friburgo. Declarant = his son Antonio da Silva Ferreira
+  Junior. Source for death event E-0123. Falsifies the earlier "Antonio died in Rio" hypothesis —
+  the family returned to Nova Friburgo. The record states no parish of origin and no parents, so the
+  Portuguese-origin-parish gap is untouched.
+abstract_pt: >-
+  Registro civil de óbito de Antonio da Silva Ferreira (P-0036) — falecido às 24h de 19 de setembro
+  de 1914 (registrado em 20 de setembro) na Rua Sete de Setembro, Nova Friburgo, de arteriosclerose,
+  com 88 anos (→ n. ~1826), "Portuguez, viuvo" (viúvo — logo Maria Joanna Rutschmann P-0037 faleceu
+  antes dele); sepultado no Cemitério Público de Nova Friburgo. Declarante = seu filho Antonio da
+  Silva Ferreira Junior. Fonte do evento de óbito E-0123. Falsifica a hipótese anterior de que
+  "Antonio faleceu no Rio" — a família retornou a Nova Friburgo. O registro não declara freguesia de
+  origem nem os pais, de modo que a lacuna da freguesia portuguesa permanece.
+reliability:
+  assessment: Primary civil death entry — direct primary for the death date, place, age, nationality and marital status.
+  informant: His son Antonio da Silva Ferreira Junior, before the escrivão.
+  limitations: Delivered via the FamilySearch digitisation ("Sem valor legal"). No parish of origin or parents named; the attesting doctor's surname is [uncertain].
+digital_file:
+  path: evidence/civil/CIV-0035-bohrer-antonio-silvaferreira-death-1914-novafriburgo.jpg
+  sha256: bc3c9c6adf782ec70d16a591ee031dd519350a0f321ca2857595ef1d633e4a96
+linked_people:
+- P-0036
+linked_families:
+- F-0017
+linked_events:
+- E-0123
+linked_places: []
+private: false
+notes:
+- text: Source for Antonio da Silva Ferreira's death event E-0123 (19 Sep 1914, Nova Friburgo).

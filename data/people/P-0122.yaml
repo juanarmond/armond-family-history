@@ -1,0 +1,16 @@
+schema_version: 1
+id: P-0122
+preferred_name: Anna Clara
+privacy: deceased
+sex: female
+name_variants:
+- value: Anna Clara
+  type: source
+  source_ids:
+  - PAR-0076
+event_ids: []
+family_ids:
+- F-0061
+notes:
+- text: >-
+    Mother of Elisabeth/Isabel Storck (P-0110); named "Anna Clara já fallecida" (already deceased) in her daughter's 1840 Nova Friburgo marriage (PAR-0076), family F-0061 — so deceased by June 1840. The record gives no maiden surname; the collaborative-tree form "Anna Clara Reheis" is a [LEAD] only, not asserted here. German family (daughter born in Germany); nationality unset.

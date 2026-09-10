@@ -1,0 +1,23 @@
+schema_version: 1
+id: E-0124
+event_type: baptism
+date:
+  kind: exact
+  value: "1863-03-16"
+place_text: Matriz de São João Baptista da Lagoa, Corte (Rio de Janeiro), Brazil
+participants:
+- person_id: P-0031
+  role: principal
+- person_id: P-0036
+  role: parent
+- person_id: P-0037
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0077
+notes:
+- text: >-
+    Baptism of Lucinda (Ferreira da Silva, P-0031) on 16 March 1863 at the Matriz de São João
+    Baptista da Lagoa (Corte/Rio de Janeiro), born 10 August 1862, legitimate daughter of Antonio
+    da Silva Ferreira (P-0036) × Maria Joanna da Silva (P-0037). Establishes her Rio birthplace,
+    correcting the earlier NF assumption (see her birth event E-0105).

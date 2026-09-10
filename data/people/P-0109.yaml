@@ -12,21 +12,25 @@ name_variants:
   - PAR-0070
   - PAR-0071
 event_ids:
+- E-0121
 - E-0098
 - E-0093
 - E-0095
 family_ids:
+- F-0060
 - F-0054
 notes:
 - text: >-
     Father of Maria Joanna Rutschmann (P-0037); named "João José Rocheman" (the priest's spelling of
-    Rutschmann) in his daughter's 1841 baptism (PAR-0069) and 1859 marriage (PAR-0070). His own 1860
-    Nova Friburgo death (PAR-0071) records him as "natural e baptizado na freguezia de Bulle, Cantão
-    de Friburgo, na Suíça [Bulle, canton Fribourg, Switzerland], Brasileiro naturalizado", aged 59y
-    10m 22d → born ~30 August 1800; husband of Isabel/Elisabeth Storck. Swiss immigrant. His own
-    parentage is unrecorded: the parents not named in any held record (the 1860 death gives only his
-    Bulle origin and wife; his daughter's baptism and marriage name him only as the father), so no
-    parentage family is modelled — the omission is deliberate pending a Bulle baptism.
+    Rutschmann) in his daughter's 1841 baptism (PAR-0069) and 1859 marriage (PAR-0070), and "João José
+    Rosman" in his own 1840 Nova Friburgo marriage act (PAR-0076, event E-0121). His own 1860 Nova
+    Friburgo death (PAR-0071) records him as "natural e baptizado na freguezia de Bulle, Cantão de
+    Friburgo, na Suíça [Bulle, canton Fribourg, Switzerland], Brasileiro naturalizado", aged 59y 10m
+    22d → born ~30 August 1800; husband of Isabel/Elisabeth Storck. Swiss immigrant. His parents are
+    now primary-named in his 1840 marriage act (PAR-0076) — "filho legitimo de Frederico Rosman e de
+    Joanna Germana Carolina" — modelled as Frédéric Rutschmann (P-0119) × Jeanne Germaine Caroline
+    (P-0120), family F-0060. Only his exact Bulle baptism date remains open, pending the
+    Saint-Pierre-aux-Liens register.
 profile: >-
   ## Identity
 
@@ -38,11 +42,12 @@ profile: >-
   (P-0110); family F-0054. [PROVEN]
 
   - **Birth:** born and baptised in the parish of Bulle, Canton Fribourg, Switzerland, around
-  30 August 1800 — the year and place stated in his 1860 death entry ("natural e baptizado na
-  Frequezia de Bulle, Cantão de Fribourg, na Suíça"), the exact day derived by back-calculating
-  the age recorded in that same death entry (22 July 1860 minus 59 years, 10 months and
-  22 days). [PROVEN (~1800, Bulle) — PAR-0071; exact day 30 Aug INFERRED from PAR-0071
-  age-at-death]
+  30 August 1800 — the place is stated in both his 1840 marriage act ("nascido e baptizado na
+  freguesia de Bulle na Suissa", PAR-0076) and his 1860 death entry ("natural e baptizado na
+  Frequezia de Bulle, Cantão de Fribourg, na Suíça"); the year and the exact day are derived by
+  back-calculating the age recorded in that same death entry (22 July 1860 minus 59 years,
+  10 months and 22 days). [PROVEN (Bulle) — PAR-0076, PAR-0071; ~1800 and exact day 30 Aug
+  INFERRED from PAR-0071 age-at-death]
 
   - **Death:** died 22 July 1860 at 8.30 p.m. at Nova Friburgo, aged 59 years, 10 months and
   22 days; buried the following day in the town cemetery; officiant Vigário Jacob Joye. [PROVEN
@@ -62,29 +67,33 @@ profile: >-
 
   ## Family and social network
 
-  He married Elisabeth Storck (P-0110) at Nova Friburgo; the union is confirmed by his 1860
-  death entry naming her as his wife ("casado com Isabel Stork"), though the marriage act
-  itself is not yet held. [PROVEN (couple) — PAR-0071; OPEN (marriage date/act)]
+  He married Elisabeth Storck (P-0110) at Nova Friburgo on 23 June 1840; the marriage act is
+  held (PAR-0076, event E-0121) and the union is further confirmed by his 1860 death entry
+  naming her as his wife ("casado com Isabel Stork"). [PROVEN (couple, marriage 23 Jun 1840) —
+  PAR-0076, PAR-0071]
 
   Their daughter Maria Joanna (P-0037) was born at Nova Friburgo on 2 May 1841 (E-0093,
   PAR-0069) and in 1859 married the Portuguese immigrant Antonio da Silva Ferreira (PAR-0070,
   E-0094), connecting the Rutschmann Swiss-colony line to the Portuguese Ferreira/da Silva
   trunk. [PROVEN]
 
-  His parentage is not recorded in any held document; the 1860 death entry states only his Bulle
-  origin and surviving wife. A secondary source names his parents as Frédéric Rutschmann and
-  Jeanne Germaine Caroline, both reportedly dying in transit in 1819. [OPEN (parentage in held
-  records); LEAD (parent names — Raibert blog)]
+  His parents are primary-named in his 1840 marriage act (PAR-0076), which records him as "filho
+  legitimo de Frederico Rosman e de Joanna Germana Carolina" — modelled as Frédéric Rutschmann
+  (P-0119) and Jeanne Germaine Caroline (P-0120), family F-0060. A secondary source additionally
+  reports both parents dying in transit in 1819 during the emigration. [PROVEN (parent names) —
+  PAR-0076; LEAD (deaths in transit — Raibert blog)]
 
   ## Open questions
 
-  - His Bulle baptism (~1800) — the Catholic register of Saint-Pierre-aux-Liens, Bulle, would
-  confirm the exact date and his parentage. [OPEN]
-
-  - The Nova Friburgo marriage act for the Rutschmann × Storck union — the date and filiation
-  of the marriage remain unresolved; bounded to NF Casamentos c. 1828–1831. [OPEN]
+  - His exact Bulle baptism date (~1800) — the Catholic register of Saint-Pierre-aux-Liens,
+  Bulle, would confirm the precise day; his parentage is now primary-established by his 1840
+  marriage act (PAR-0076). [OPEN (exact date only)]
 
   ## Sources held (this repository)
+
+  - PAR-0076 (his own 1840 Nova Friburgo marriage act to Isabella Storck — primary record for
+  the marriage date and for his parentage: "filho legitimo de Frederico Rosman e de Joanna
+  Germana Carolina", born and baptised in the parish of Bulle, Switzerland).
 
   - PAR-0069 (his daughter's 1841/42 Nova Friburgo baptism — names him as father alongside
   Elisabeth Storck).
@@ -106,11 +115,12 @@ profile_pt: >-
   (P-0110); família F-0054. [PROVEN]
 
   - **Nascimento:** nascido e baptizado na Freguesia de Bulle, Cantão de Fribourg, Suíça,
-  cerca de 30 de agosto de 1800 — ano e local declarados em seu registro de óbito de 1860
-  ("natural e baptizado na Frequezia de Bulle, Cantão de Fribourg, na Suíça"); o dia exato
-  deriva do cálculo da idade registrada nesse mesmo óbito (22 de julho de 1860 menos 59 anos,
-  10 meses e 22 dias). [PROVEN (~1800, Bulle) — PAR-0071; dia exato 30 ago. INFERRED from
-  PAR-0071 age-at-death]
+  cerca de 30 de agosto de 1800 — o local é declarado tanto em seu assento matrimonial de 1840
+  ("nascido e baptizado na freguesia de Bulle na Suissa", PAR-0076) quanto em seu registro de
+  óbito de 1860 ("natural e baptizado na Frequezia de Bulle, Cantão de Fribourg, na Suíça"); o
+  ano e o dia exato derivam do cálculo da idade registrada nesse mesmo óbito (22 de julho de
+  1860 menos 59 anos, 10 meses e 22 dias). [PROVEN (Bulle) — PAR-0076, PAR-0071; ~1800 e dia
+  exato 30 ago. INFERRED from PAR-0071 age-at-death]
 
   - **Óbito:** faleceu em 22 de julho de 1860, às 20h30, em Nova Friburgo, com 59 anos,
   10 meses e 22 dias; sepultado no dia seguinte no Cemitério da Vila; officiante Vigário
@@ -131,31 +141,34 @@ profile_pt: >-
 
   ## Família e rede social
 
-  Casou-se com Elisabeth Storck (P-0110) em Nova Friburgo; a união é confirmada pelo registro
-  de óbito de 1860, que a nomeia como esposa sobrevivente ("casado com Isabel Stork"), embora
-  o assento matrimonial em si não esteja disponível. [PROVEN (casal) — PAR-0071; OPEN
-  (data/assento do casamento)]
+  Casou-se com Elisabeth Storck (P-0110) em Nova Friburgo em 23 de junho de 1840; o assento
+  matrimonial está disponível (PAR-0076, evento E-0121) e a união é ainda confirmada pelo
+  registro de óbito de 1860, que a nomeia como esposa ("casado com Isabel Stork"). [PROVEN
+  (casal, casamento 23 jun. 1840) — PAR-0076, PAR-0071]
 
   Sua filha Maria Joanna (P-0037) nasceu em Nova Friburgo em 2 de maio de 1841 (E-0093,
   PAR-0069) e em 1859 casou-se com o imigrante português Antonio da Silva Ferreira (PAR-0070,
   E-0094), unindo a linhagem suíça dos Rutschmann ao tronco português Ferreira/da Silva.
   [PROVEN]
 
-  A filiação de João José não consta em nenhum documento primário disponível; o óbito de
-  1860 indica apenas sua origem em Bulle e a esposa sobrevivente. Uma fonte secundária
-  nomeia seus pais como Frédéric Rutschmann e Jeanne Germaine Caroline, ambos falecidos em
-  trânsito em 1819. [OPEN (filiação em registros primários); LEAD (nomes dos pais — blog
-  Raibert)]
+  A filiação de João José está agora declarada como primária em seu assento matrimonial de
+  1840 (PAR-0076), que o registra como "filho legitimo de Frederico Rosman e de Joanna Germana
+  Carolina" — modelados como Frédéric Rutschmann (P-0119) e Jeanne Germaine Caroline (P-0120),
+  família F-0060. Uma fonte secundária acrescenta que ambos os pais teriam falecido em trânsito
+  em 1819 durante a emigração. [PROVEN (nomes dos pais) — PAR-0076; LEAD (mortes em trânsito —
+  blog Raibert)]
 
   ## Questões em aberto
 
-  - Seu batismo em Bulle (~1800) — o registro paroquial católico de Saint-Pierre-aux-Liens,
-  Bulle, confirmaria a data exata e sua filiação. [OPEN]
-
-  - O assento matrimonial Rutschmann × Storck em Nova Friburgo — data e filiação não
-  resolvidas; estimado nos Casamentos de NF c. 1828–1831. [OPEN]
+  - A data exata de seu batismo em Bulle (~1800) — o registro paroquial católico de
+  Saint-Pierre-aux-Liens, Bulle, confirmaria o dia preciso; sua filiação já está estabelecida
+  como primária pelo assento matrimonial de 1840 (PAR-0076). [OPEN (apenas a data exata)]
 
   ## Fontes disponíveis (neste repositório)
+
+  - PAR-0076 (seu próprio assento matrimonial de 1840 em Nova Friburgo com Isabella Storck —
+  fonte primária para a data do casamento e para sua filiação: "filho legitimo de Frederico
+  Rosman e de Joanna Germana Carolina", nascido e baptizado na freguesia de Bulle, Suíça).
 
   - PAR-0069 (batismo de 1841/42 de sua filha em Nova Friburgo — nomeia-o como pai ao lado
   de Elisabeth Storck).

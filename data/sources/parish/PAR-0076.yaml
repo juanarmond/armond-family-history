@@ -1,0 +1,93 @@
+schema_version: 1
+id: PAR-0076
+title: >-
+  1840 marriage of João José Rutschmann (Rosman) and Elisabeth (Isabella) Storck at Nova
+  Friburgo — names both spouses' parents and their Swiss/German origins
+title_pt: >-
+  Casamento de 1840 de João José Rutschmann (Rosman) e Elisabeth (Isabella) Storck em Nova
+  Friburgo — nomeia os pais de ambos os nubentes e suas origens suíça/alemã
+record_type: Parish marriage register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1840-06-23"
+event_place_text: Matriz de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Matriz de São João Baptista, Nova Friburgo (Livro de Casamentos 1, folio 143v)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Casamentos Livro 1, folio 143v (top entry), 1840
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi)
+access_date: "2026-09-10"
+language: pt-BR
+transcription: >-
+  [Livro de Casamentos 1, Nova Friburgo, folio 143v (top entry), 1840; coadjutor João José
+  Vivianno.] "Aos vinte e tres de junho de mil oitocentos e quarenta, feitas as tres denunciações
+  na Missa conventual nesta Igreja parochial de São João Baptista, sem se descubrir impedimento
+  algum, em minha presença e das testemunhas João Balmat e Maria Fabre, se casaram solemnemente
+  por palavras em face da Igreja João José Rosman, filho legitimo de Frederico Rosman e de Joanna
+  Germana Carolina, nascido e baptizado na freguesia de Bulle na Suissa, e Isabella Storck, filha
+  legitima de Tiago Storck e de Anna Clara já fallecida, nascida e baptizada na Allemanha, ambos
+  moradores nesta freguesia. E logo lhes forão dadas as bênçãos na forma do ritual romano. E para
+  constar fiz este assento que assignei. O coadjutor João José Vivianno."
+abstract: >-
+  Parish marriage of João José Rutschmann ("João José Rosman", P-0109) and Elisabeth Storck
+  ("Isabella Storck", P-0110) on 23 June 1840 at the Matriz de São João Baptista, Nova Friburgo
+  (event E-0121 [marriage] on family F-0054; witnesses João Balmat and Maria Fabre). NAMES BOTH
+  SPOUSES' PARENTS: the groom is a legitimate son of Frédéric Rutschmann ("Frederico Rosman",
+  P-0119) × Jeanne Germaine Caroline ("Joanna Germana Carolina", P-0120) — family F-0060; the
+  bride a legitimate daughter of Jacob Storck ("Tiago Storck", P-0121) × Anna Clara [Reheis]
+  (P-0122, already deceased by 1840) — family F-0061. STATES ORIGINS: the groom "nascido e
+  baptizado na freguesia de Bulle na Suissa" (Bulle, Fribourg, Switzerland — corroborating his
+  1860 death PAR-0071); the bride "nascida e baptizada na Allemanha" (Germany), primary-confirming
+  her German birth (event E-0122).
+abstract_pt: >-
+  Casamento paroquial de João José Rutschmann ("João José Rosman", P-0109) e Elisabeth Storck
+  ("Isabella Storck", P-0110) em 23 de junho de 1840 na Matriz de São João Baptista, Nova Friburgo
+  (evento E-0121 [casamento] da família F-0054; testemunhas João Balmat e Maria Fabre). NOMEIA OS
+  PAIS DE AMBOS: o noivo é filho legítimo de Frédéric Rutschmann ("Frederico Rosman", P-0119) ×
+  Jeanne Germaine Caroline ("Joanna Germana Carolina", P-0120) — família F-0060; a noiva, filha
+  legítima de Jacob Storck ("Tiago Storck", P-0121) × Anna Clara [Reheis] (P-0122, já falecida em
+  1840) — família F-0061. DECLARA AS ORIGENS: o noivo "nascido e baptizado na freguesia de Bulle
+  na Suissa" (Bulle, Fribourg, Suíça — corrobora seu óbito de 1860, PAR-0071); a noiva "nascida e
+  baptizada na Allemanha" (Alemanha), confirmando em fonte primária seu nascimento alemão
+  (evento E-0122).
+reliability:
+  assessment: >-
+    Primary parish marriage entry — direct primary for the marriage, both filiations, and both
+    spouses' stated parish/country of origin.
+  informant: The contracting parties before the coadjutor João José Vivianno.
+  limitations: >-
+    Delivered via the Fundação D. João VI digitisation. Surnames rendered phonetically ("Rosman"
+    = Rutschmann; "Tiago" = Jacobus/Jacob). The bride's mother is named only "Anna Clara" (surname
+    "Reheis" is a collaborative-tree lead, not in this record); the bride's origin is given only at
+    country level ("na Allemanha"), no locality.
+digital_file:
+  path: evidence/parish/PAR-0076-bohrer-rutschmann-storck-marriage-1840-novafriburgo.jpg
+  sha256: 1f49e364784f6f24d53ca0094969812f4bb05ad62d8db84c1d18adb3eb47c3b1
+linked_people:
+- P-0109
+- P-0110
+- P-0119
+- P-0120
+- P-0121
+- P-0122
+linked_families:
+- F-0054
+- F-0060
+- F-0061
+linked_events:
+- E-0121
+- E-0122
+- E-0098
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the 1840 marriage (event E-0121 on F-0054) of João José Rutschmann × Elisabeth
+    Storck. Establishes the two parent couples F-0060 (Frédéric Rutschmann × Jeanne Germaine
+    Caroline) and F-0061 (Jacob Storck × Anna Clara [Reheis]), and primary-confirms the bride's
+    German birth (E-0122) and the groom's Bulle/Switzerland origin.

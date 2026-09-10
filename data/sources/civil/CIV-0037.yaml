@@ -1,0 +1,78 @@
+schema_version: 1
+id: CIV-0037
+title: >-
+  1899 civil marriage of Maria da Gloria da Silva Ferreira and Ezequiel Mathias Dias at Nova
+  Friburgo (termo 580) — Antonio da Silva Ferreira alive and signs; Maria Joanna "aqui fallecida"
+title_pt: >-
+  Casamento civil de 1899 de Maria da Gloria da Silva Ferreira e Ezequiel Mathias Dias em Nova
+  Friburgo (termo 580) — Antonio da Silva Ferreira vivo e assina; Maria Joanna "aqui fallecida"
+record_type: Civil marriage register entry (two pages)
+record_category: civil_registration
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1899-10-28"
+event_place_text: Nova Friburgo (1º Distrito de São João Baptista), Rio de Janeiro, Brazil
+repository:
+  name: Cartório do Registro Civil, 1º Distrito de São João Baptista, Nova Friburgo (casamentos, termo 580, folio 128-129)
+  archive_or_registry: FamilySearch (collection 1582573)
+  collection: Registro Civil de casamentos, 1º Distrito, termo N.580, folio 128-129, 1899
+  catalogue_reference: "FS ark: 3:1:S3HT-68NH-C6 (folio 128); continuation folio 129"
+access_date: "2026-09-10"
+language: pt-BR
+transcription: >-
+  [Registro Civil de casamentos, 1º Distrito de São João Baptista, Nova Friburgo, termo N.580, folio
+  128-129, 1899; escrivão Carlos Miguel Noel; juiz de paz Antonio José da Silva Araujo Braga.] "Aos
+  vinte e oito dias do mês de Outubro de mil oitocentos noventa e nove ... nesta Cidade de Nova
+  Friburgo, ás cinco e meia horas da tarde ... receberão-se em matrimonio no regimen commum Ezequiel
+  Mathias Dias com Dona Maria da Gloria da Silva Ferreira, ambos solteiros, elle com vinte e oito
+  annos de idade, negociante, natural de Portugal, filho legitimo de Antonio Mathias e de Rosalina
+  Dias, moradores em Portugal; ella com vinte e tres annos de idade, occupa-se em serviços domesticos,
+  natural desta Cidade, filha legitima de Antonio da Silva Ferreira, morador na mesma Cidade, e de
+  Maria Joanna da Silva Ferreira aqui fallecida, ambos os contrahentes são moradores na mesma Cidade
+  ... [assinam, entre outros:] Ezequiel Mathias Dias, Maria da Gloria da S. Ferreira, Antonio da Silva
+  Ferreira [o pae], João Julião Froidevaux, Carlos Miguel Noel."
+abstract: >-
+  Civil marriage of Maria da Gloria da Silva Ferreira (23, b. ~1876, "natural desta Cidade" = Nova
+  Friburgo) and the Portuguese Ezequiel Mathias Dias, 28 October 1899 at Nova Friburgo. She is a
+  "filha legitima de Antonio da Silva Ferreira, morador na mesma Cidade [ALIVE], e de Maria Joanna da
+  Silva Ferreira aqui fallecida [DEAD, at Nova Friburgo]" — so Maria Joanna Rutschmann (P-0037) had
+  died at Nova Friburgo by October 1899 (event E-0125), and Antonio (P-0036) was alive and personally
+  SIGNED the act. Maria da Gloria is a documented sibling of the direct ancestor Lucinda (P-0031), and
+  was a godparent at Celina Bohrer's 1899 baptism. Two-page act (folio 128 start → folio 129 signatures).
+abstract_pt: >-
+  Casamento civil de Maria da Gloria da Silva Ferreira (23 anos, n. ~1876, "natural desta Cidade" =
+  Nova Friburgo) e do português Ezequiel Mathias Dias, 28 de outubro de 1899, em Nova Friburgo. Ela é
+  "filha legitima de Antonio da Silva Ferreira, morador na mesma Cidade [VIVO], e de Maria Joanna da
+  Silva Ferreira aqui fallecida [FALECIDA, em Nova Friburgo]" — logo Maria Joanna Rutschmann (P-0037)
+  já falecera em Nova Friburgo até outubro de 1899 (evento E-0125), e Antonio (P-0036) estava vivo e
+  ASSINOU pessoalmente o assento. Maria da Gloria é irmã documentada da ancestral direta Lucinda
+  (P-0031) e foi madrinha no batismo de 1899 de Celina Bohrer. Assento em duas páginas (folha 128
+  início → folha 129 assinaturas).
+reliability:
+  assessment: Primary civil marriage entry — direct primary for the marriage and for Antonio being alive (signs) and Maria Joanna deceased at NF by Oct 1899.
+  informant: The contracting parties before the juiz de paz and escrivão.
+  limitations: Delivered via the FamilySearch digitisation ("Sem valor legal"); Maria da Gloria is a collateral (sibling of the direct ancestor), recorded as a documented_child on F-0017. "Aqui fallecida" gives Maria Joanna's death as before Oct 1899 at NF (no exact date).
+digital_file:
+  path: evidence/civil/CIV-0037-bohrer-mariadagloria-silvaferreira-marriage-1899-novafriburgo.jpg
+  sha256: cd32ac050baac7a9526c85cddceebe26fe25a2c814d48dcd141c1f4fa9ca5e2b
+additional_pages:
+- path: evidence/civil/CIV-0037-bohrer-mariadagloria-silvaferreira-marriage-1899-novafriburgo-p2.jpg
+  sha256: b10c55cf171998cd47fdd0edd1b31d10e8bb38c83d257b71ac318e7e4171f0c0
+linked_people:
+- P-0036
+- P-0037
+linked_families:
+- F-0017
+linked_events:
+- E-0125
+linked_places: []
+private: false
+notes:
+- text: >-
+    Records the collateral Maria da Gloria da Silva Ferreira (documented_child on F-0017); source for
+    Maria Joanna Rutschmann's death event E-0125 ("aqui fallecida" by Oct 1899, at NF); attests
+    Antonio (P-0036) alive and signing in Oct 1899.

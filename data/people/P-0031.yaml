@@ -15,6 +15,7 @@ name_variants:
   source_ids:
   - CIV-0016
 event_ids:
+- E-0124
 - E-0105
 - E-0085
 - E-0022
@@ -28,25 +29,39 @@ notes:
     Alberto's 1890 birth (CIV-0019) and as "Lucinda Ferreira Bohrer" (maternal
     grandmother, "já falecidos") in the 1924 Nova Friburgo birth (CIV-0016).
     "Ferreira da Silva" is her own surname and "Bohrer" her married name; both
-    variants are preserved. "Natural desta Freguezia" (Nova Friburgo, RJ).
+    variants are preserved. Her own 1863 baptism (PAR-0077) now establishes that she was
+    born 10 August 1862 in Rio de Janeiro (Corte) and baptised 16 March 1863 at the
+    Matriz de São João Baptista da Lagoa; this supersedes the earlier "natural desta
+    Freguezia" (Nova Friburgo, RJ) reading from her son Alberto's 1890 birth (CIV-0019),
+    preserved as an informant-reported conflict — the Silva-Ferreira family was in Rio in
+    1862-63 and returned to Nova Friburgo later.
   text_pt: >-
     Posição 31 no Ahnentafel — mãe de Celina (Selina) Bohrer (P-0015). Nomeada como
     "Lucinda Ferreira da Silva Bohrer" no óbito de 1977 de Celina (CIV-0015), no
     nascimento de 1890 de seu filho Alberto (CIV-0019) e como "Lucinda Ferreira
     Bohrer" (avó materna, "já falecidos") no nascimento de 1924 em Nova Friburgo
     (CIV-0016). "Ferreira da Silva" é seu sobrenome próprio e "Bohrer" seu nome de
-    casada; ambas as variantes são preservadas. "Natural desta Freguezia" (Nova
-    Friburgo, RJ).
+    casada; ambas as variantes são preservadas. Seu próprio batismo de 1863 (PAR-0077)
+    agora estabelece que ela nasceu em 10 de agosto de 1862 no Rio de Janeiro (Corte) e
+    foi baptizada em 16 de março de 1863 na Matriz de São João Baptista da Lagoa; isso
+    supera a leitura anterior "natural desta Freguezia" (Nova Friburgo, RJ) do nascimento
+    de 1890 de seu filho Alberto (CIV-0019), preservada como conflito relatado pelo
+    informante — a família Silva-Ferreira estava no Rio em 1862-63 e retornou a Nova
+    Friburgo depois.
 - text: >-
     Her parents are now established: Antonio da Silva Ferreira (P-0036) and Maria
     Joanna da Silva Ferreira (P-0037) — family F-0017 — named as the maternal
-    grandparents in Alberto Bohrer's 1890 birth (CIV-0019). Their own records are
-    unlocated.
+    grandparents in Alberto Bohrer's 1890 birth (CIV-0019) and again in her own 1863
+    baptism (PAR-0077). Both are now documented in their own right — see P-0036 (incl.
+    his 1859 marriage and 1914 Nova Friburgo death) and P-0037 (baptism, marriage, and
+    Nova Friburgo death bracketed to ~1896-1899).
   text_pt: >-
     Seus pais estão agora estabelecidos: Antonio da Silva Ferreira (P-0036) e Maria
     Joanna da Silva Ferreira (P-0037) — família F-0017 — nomeados como os avós maternos
-    no nascimento de 1890 de Alberto Bohrer (CIV-0019). Os registros próprios deles não
-    foram localizados.
+    no nascimento de 1890 de Alberto Bohrer (CIV-0019) e novamente em seu próprio batismo
+    de 1863 (PAR-0077). Ambos estão agora documentados por si mesmos — ver P-0036 (incl.
+    seu casamento de 1859 e seu óbito de 1914 em Nova Friburgo) e P-0037 (batismo,
+    casamento e óbito em Nova Friburgo delimitado a ~1896-1899).
 profile: >-
   ## Identity
 
@@ -54,8 +69,11 @@ profile: >-
   Ferreira Bohrer*) [PROVEN]. Wife of Joaquim José Bohrer (P-0030) and mother of Celina
   (Selina) Bohrer (P-0015).
 
-  - **Born:** "natural desta Freguezia" (Nova Friburgo, RJ) [PROVEN as stated] (CIV-0019);
-  date not held.
+  - **Born:** 10 August 1862 in Rio de Janeiro (Corte), baptised 16 March 1863 at the
+  Matriz de São João Baptista da Lagoa [PROVEN — PAR-0077]. This corrects the earlier
+  "natural desta Freguezia" (Nova Friburgo, RJ) reading from her son Alberto's 1890 birth
+  (CIV-0019), now preserved as an informant-reported conflict — the Silva-Ferreira family
+  was in Rio in 1862-63 and returned to Nova Friburgo later.
 
   - **Parents:** Antonio da Silva Ferreira (P-0036) and Maria Joanna da Silva Ferreira
   (P-0037) [PROVEN] — named as the maternal grandparents in her son Alberto's 1890 birth
@@ -98,26 +116,32 @@ profile: >-
 
   ## Open questions
 
-  - Her birth/baptism (~Nova Friburgo), her marriage act, and her death record — none
-  held; would fix her dates and independently confirm her parents. [OPEN]
+  - Her marriage act and her death record — not held; would fix her marriage and death
+  dates. (Her birth and baptism are now held — PAR-0077, Rio de Janeiro, which also
+  independently confirms her parents.) [OPEN]
 
   ## Sources held (this repository)
 
-  - CIV-0019 (son Alberto's 1890 birth — names her, her husband and her parents) ·
-  CIV-0020 (infant son's 1891 birth) · CIV-0015 (daughter Celina's 1977 death) · CIV-0016
-  (granddaughter Eunir's 1924 birth, naming her a deceased maternal grandmother).
+  - PAR-0077 (her own 1863 Rio de Janeiro baptism — her birth date, birthplace and
+  parents) · CIV-0019 (son Alberto's 1890 birth — names her, her husband and her parents)
+  · CIV-0020 (infant son's 1891 birth) · CIV-0015 (daughter Celina's 1977 death) ·
+  CIV-0016 (granddaughter Eunir's 1924 birth, naming her a deceased maternal grandmother).
 
   ## Regional and migration context
 
-  Her Brazilian nationality follows jus soli from a Nova Friburgo birth. She lived her
-  documented life in the colony town of Nova Friburgo (RJ); the move out of the colony came
-  with a later generation. [CONTEXTUAL]
+  Her Brazilian nationality follows jus soli from her 1862 Rio de Janeiro birth (PAR-0077).
+  Born in the Corte in 1862, she was in Nova Friburgo by the time she married and lived her
+  documented adult life in the colony town (RJ); the move out of the colony came with a
+  later generation. [CONTEXTUAL]
 
   ## Where to go today
 
-  - **Baptism, marriage and death parish:** Catedral Diocesana / Igreja Matriz de São João
+  - **Marriage and death parish:** Catedral Diocesana / Igreja Matriz de São João
   Batista, Nova Friburgo, RJ (Rua Monsenhor José Antônio Teixeira 23, Centro, CEP 28610-390)
   [RESOLVED] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
+
+  - **Baptism (already held, 1863):** Matriz de São João Baptista da Lagoa, Rio de Janeiro
+  (Corte) — her own baptism (PAR-0077) is held. [RESOLVED]
 profile_pt: >-
   ## Identidade
 
@@ -125,8 +149,11 @@ profile_pt: >-
   *Lucinda Ferreira Bohrer*) [PROVEN]. Esposa de Joaquim José Bohrer (P-0030) e mãe de
   Celina (Selina) Bohrer (P-0015).
 
-  - **Nascimento:** "natural desta Freguezia" (Nova Friburgo, RJ) [PROVEN conforme
-  declarado] (CIV-0019); data não obtida.
+  - **Nascimento:** 10 de agosto de 1862 no Rio de Janeiro (Corte), baptizada em 16 de
+  março de 1863 na Matriz de São João Baptista da Lagoa [PROVEN — PAR-0077]. Isso corrige
+  a leitura anterior "natural desta Freguezia" (Nova Friburgo, RJ) do nascimento de 1890
+  de seu filho Alberto (CIV-0019), agora preservada como conflito relatado pelo informante
+  — a família Silva-Ferreira estava no Rio em 1862-63 e retornou a Nova Friburgo depois.
 
   - **Pais:** Antonio da Silva Ferreira (P-0036) e Maria Joanna da Silva Ferreira (P-0037)
   [PROVEN] — nomeados como avós maternos no nascimento de 1890 de seu filho Alberto
@@ -168,24 +195,30 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seu nascimento/batismo (~Nova Friburgo), seu assento de casamento e seu registro de
-  óbito — nenhum obtido; fixariam suas datas e confirmariam de forma independente seus
-  pais. [OPEN]
+  - Seu assento de casamento e seu registro de óbito — não obtidos; fixariam suas datas
+  de casamento e óbito. (Seu nascimento e batismo estão agora obtidos — PAR-0077, Rio de
+  Janeiro, que também confirma de forma independente seus pais.) [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
-  - CIV-0019 (nascimento de 1890 do filho Alberto — nomeia ela, o marido e os pais dela) ·
-  CIV-0020 (nascimento de 1891 do filho menino) · CIV-0015 (óbito de 1977 da filha Celina)
-  · CIV-0016 (nascimento de 1924 da neta Eunir, nomeando-a avó materna falecida).
+  - PAR-0077 (seu próprio batismo de 1863 no Rio de Janeiro — data e local de nascimento e
+  os pais) · CIV-0019 (nascimento de 1890 do filho Alberto — nomeia ela, o marido e os
+  pais dela) · CIV-0020 (nascimento de 1891 do filho menino) · CIV-0015 (óbito de 1977 da
+  filha Celina) · CIV-0016 (nascimento de 1924 da neta Eunir, nomeando-a avó materna
+  falecida).
 
   ## Contexto regional e migratório
 
-  Sua nacionalidade brasileira decorre do jus soli, por nascimento em Nova Friburgo. Viveu
-  sua vida documentada na cidade colonial de Nova Friburgo (RJ); a saída da colônia veio
-  com uma geração posterior. [CONTEXTUAL]
+  Sua nacionalidade brasileira decorre do jus soli, por nascimento no Rio de Janeiro em
+  1862 (PAR-0077). Nascida na Corte em 1862, já estava em Nova Friburgo quando se casou e
+  viveu sua vida adulta documentada na cidade colonial (RJ); a saída da colônia veio com
+  uma geração posterior. [CONTEXTUAL]
 
   ## Onde ir hoje
 
-  - **Freguesia de batismo, casamento e óbito:** Catedral Diocesana / Igreja Matriz de São
+  - **Freguesia de casamento e óbito:** Catedral Diocesana / Igreja Matriz de São
   João Batista, Nova Friburgo, RJ (Rua Monsenhor José Antônio Teixeira 23, Centro, CEP
   28610-390) [RESOLVED] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
+
+  - **Batismo (já obtido, 1863):** Matriz de São João Baptista da Lagoa, Rio de Janeiro
+  (Corte) — seu próprio batismo (PAR-0077) está obtido. [RESOLVED]

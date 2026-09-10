@@ -5,6 +5,30 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Retrieval drop: 1840 Rutschmann×Storck marriage + the Silva-Ferreira Rio→NF arc (2026-09-10)
+
+Value-gated and ingested a 7-image drop (all opened and read against the images):
+
+- **PAR-0076 — 1840 Rutschmann × Storck marriage** (P-0109 × P-0110, 23 Jun 1840, NF Matriz;
+  event E-0121). Names both spouses' parents → 4 new ancestors: Frédéric Rutschmann (P-0119) ×
+  Jeanne Germaine Caroline (P-0120) [F-0060] and Jacob Storck (P-0121) × Anna Clara [Reheis, lead]
+  (P-0122) [F-0061]. Primary-confirms the groom's Bulle/Switzerland origin and the bride's German
+  birth ("na Allemanha", E-0122) — upgrading Elisabeth Storck to `nationality: German` and her
+  origin from a blog lead to a record-stated fact. F-0054's marriage is now held (upgraded).
+- **CIV-0035 — Antonio da Silva Ferreira's 1914 death** (P-0036): d. 19 Sep 1914 at Nova Friburgo,
+  aged 88 (→ b. ~1826), "Portuguez, viuvo"; event E-0123. Falsifies the "died in Rio" hypothesis.
+  Origin parish/parents still not named.
+- **PAR-0077 — Lucinda's 1863 baptism** (P-0031): born **10 Aug 1862 in RIO** (Matriz de S. João
+  Baptista da Lagoa, Corte), baptised 16 Mar 1863; event E-0124. **Corrects her birthplace** (E-0105)
+  from Nova Friburgo to Rio, superseding the informant reading of CIV-0019 (conflict preserved).
+- **CIV-0036 / CIV-0037 — 1895 & 1899 marriages of two siblings** (Octávio and Maria da Gloria da
+  Silva Ferreira), added as `documented_children` on F-0017; they bracket **Maria Joanna
+  Rutschmann's death** (P-0037, event E-0125: alive Dec 1895, "aqui fallecida" by Oct 1899, at NF).
+- **GOV-0008 — 1898 electoral act** (São Francisco da Glória, Carangola): lists Antonio Engracio de
+  Souza (P-0032) among the voters — `context_only`, corroborating his 1898 residence/civic status.
+
+Profiles/notes for P-0109, P-0110, P-0031, P-0036 and P-0037 reconciled (EN+PT) to the new records.
+
 ### Fixed — Card birthplace line + birth events for 14 ancestors with a documented origin (2026-09-10)
 
 Two related fixes so the card's place line honestly reflects a person's **birthplace**:

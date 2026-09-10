@@ -3,6 +3,7 @@ id: P-0110
 preferred_name: Elisabeth Storck
 privacy: deceased
 sex: female
+nationality: German
 name_variants:
 - value: Elisabeth Storck
   type: source
@@ -14,22 +15,30 @@ name_variants:
   - PAR-0070
   - PAR-0071
 event_ids:
+- E-0121
+- E-0122
 - E-0093
 family_ids:
+- F-0061
 - F-0054
 notes:
 - text: >-
     Mother of Maria Joanna Rutschmann (P-0037); named "Elisabeth Storck" / "Isabel Stork" (variants)
     with her husband João José Rutschmann in their daughter's 1841 baptism (PAR-0069) and 1859
-    marriage (PAR-0070), and as his surviving wife in his 1860 death (PAR-0071). Likely Swiss-colony
-    (nationality left unset pending her own origin record).
+    marriage (PAR-0070), and as his wife in his 1860 death (PAR-0071); recorded "Isabella Storck" in
+    their own 1840 marriage act (PAR-0076, event E-0121). German by birth — PAR-0076 states her
+    "nascida e baptizada na Allemanha" (country level; the specific Blödesheim/Hessen locality remains
+    a lead). Her parents are primary-named in that act as Jacob (Tiago) Storck (P-0121) × Anna Clara
+    (P-0122), the latter "já fallecida" (deceased) by 1840; family F-0061. Anna Clara's maiden surname
+    ("Reheis") is a collaborative-tree lead only, not in the record.
 profile: >-
   ## Identity
 
-  **Elisabeth Storck** (recorded at Nova Friburgo as **Isabel Stork**) — a colonist
-  woman of the Nova Friburgo settlement, wife of the Swiss immigrant João José Rutschmann
-  (P-0109) and mother of Maria Joanna Rutschmann (P-0037). Her nationality is left unset in
-  this repository pending a record of her own origin. [PROVEN (identity and family role)]
+  **Elisabeth Storck** (recorded at Nova Friburgo as **Isabel Stork**, and as **Isabella Storck**
+  in her 1840 marriage act) — a German-born colonist of the Nova Friburgo settlement, wife of the
+  Swiss immigrant João José Rutschmann (P-0109) and mother of Maria Joanna Rutschmann (P-0037).
+  Her 1840 marriage act records her as born and baptised in Germany ("nascida e baptizada na
+  Allemanha"). [PROVEN (identity, family role, German birth) — PAR-0076]
 
   - **Role:** mother of Maria Joanna Rutschmann (P-0037); wife of João José Rutschmann
   (P-0109); family F-0054. [PROVEN]
@@ -38,41 +47,50 @@ profile: >-
   "Isabel Stork" in her daughter's 1859 marriage (PAR-0070) and in her husband's 1860 death
   entry (PAR-0071). [PROVEN]
 
-  - **Birth and death:** not established from held records. A secondary source gives birth
-  c. 1812 at Blödesheim (Osthofen), Hessen-Darmstadt, Germany, and death 5 July 1889 at
-  Nova Friburgo. [LEAD — Raibert Storck ship transcription and FS Tree]
+  - **Birth and death:** her German birth is established at country level by her 1840 marriage
+  act ("nascida e baptizada na Allemanha", PAR-0076); the exact date and the specific locality
+  are not established from held records. A secondary source gives birth c. 1812 at Blödesheim
+  (Osthofen), Hessen-Darmstadt, and death 5 July 1889 at Nova Friburgo. [PROVEN (Germany,
+  country) — PAR-0076; LEAD (c. 1812, Blödesheim/Hessen, death 1889) — Raibert Storck ship
+  transcription and FS Tree]
 
   ## Immigration and settlement
 
   A secondary transcription of Nova Friburgo colony records places her in her father's
   household aboard the ship *Caroline*, reaching Nova Friburgo on 3 May 1824 and assigned
   Casa 72 / Lote 78 — origin noted as Blödesheim, Osthofen, Hessen-Darmstadt. She would
-  have arrived as a child of approximately 12. Her parents are given as Jacob Storck ×
-  Anna Clara Reheis. [LEAD — Raibert Storck ship transcription; no held primary names her
-  on this passage]
+  have arrived as a child of approximately 12. The parents it names, Jacob Storck × Anna
+  Clara, agree with her 1840 marriage act (PAR-0076); the maiden surname "Reheis" appears
+  only in this transcription, not in the record. [LEAD — Raibert Storck ship transcription;
+  no held primary names her on this passage]
 
   ## Family and social network
 
-  She is known as the wife of João José Rutschmann (P-0109), named in his 1860 death entry
-  ("cazado com Isabel Stork"). That he is recorded as married rather than a widower ("viúvo")
-  implies she was still alive at the date of his death (July 1860). [INFERRED (alive 1860) —
-  PAR-0071 records him married, not widowed] Their daughter Maria Joanna married Antonio da
-  Silva Ferreira in 1859, linking this Nova Friburgo colonist line to a Portuguese immigrant
-  trunk (F-0017). [PROVEN (couple identity)]
+  She married João José Rutschmann (P-0109) at Nova Friburgo on 23 June 1840; the marriage act
+  is held (PAR-0076, event E-0121). He later names her in his 1860 death entry ("cazado com
+  Isabel Stork"), and that he is recorded as married rather than a widower ("viúvo") implies she
+  was still alive at the date of his death (July 1860). [PROVEN (marriage 23 Jun 1840) —
+  PAR-0076; INFERRED (alive 1860) — PAR-0071 records him married, not widowed] Their daughter
+  Maria Joanna married Antonio da Silva Ferreira in 1859, linking this Nova Friburgo colonist
+  line to a Portuguese immigrant trunk (F-0017). [PROVEN (couple identity)]
 
   ## Open questions
 
-  - Her birth record (Blödesheim/Osthofen, Hessen, ~1812) — the local register would confirm
-  her date and parents; the identity of her father (Jacob vs Joannes Jacobus Storck) is an
-  open naming question. [OPEN]
+  - Her exact birth date and specific German locality (reportedly Blödesheim/Osthofen, Hessen,
+  ~1812) — her country of birth and her parents are now primary-established (PAR-0076), but the
+  local register would confirm the precise date and place. [OPEN (exact date and locality)]
 
-  - The Nova Friburgo marriage act for the Rutschmann × Storck union — date and filiation
-  unresolved. [OPEN]
+  - Her mother Anna Clara's maiden surname ("Reheis" is a collaborative-tree lead, not in the
+  record) and any fuller form of her father's name (recorded only as "Tiago"/Jacob Storck).
+  [OPEN]
 
-  - Her death record (NF, reportedly 1889) — would confirm the date and settle the father-name
-  question. [OPEN]
+  - Her death record (NF, reportedly 1889) — still not located; would confirm the date. [OPEN]
 
   ## Sources held (this repository)
+
+  - PAR-0076 (her own 1840 Nova Friburgo marriage act to João José Rutschmann — primary record
+  for the marriage date, her German birth ("nascida e baptizada na Allemanha"), and her parents:
+  "filha legitima de Tiago Storck e de Anna Clara já fallecida").
 
   - PAR-0069 (her daughter's 1841/42 Nova Friburgo baptism — names her as "Elisabeth Storck").
 
@@ -83,11 +101,12 @@ profile: >-
 profile_pt: >-
   ## Identidade
 
-  **Elisabeth Storck** (registada em Nova Friburgo como **Isabel Stork**) — colonista
-  da colônia de Nova Friburgo, esposa do imigrante suíço João José Rutschmann (P-0109) e
-  mãe de Maria Joanna Rutschmann (P-0037). Sua nacionalidade permanece indefinida neste
-  repositório até que um registro próprio confirme sua origem. [PROVEN (identidade e papel
-  familiar)]
+  **Elisabeth Storck** (registada em Nova Friburgo como **Isabel Stork** e como **Isabella
+  Storck** em seu assento matrimonial de 1840) — colonista de Nova Friburgo nascida na Alemanha,
+  esposa do imigrante suíço João José Rutschmann (P-0109) e mãe de Maria Joanna Rutschmann
+  (P-0037). Seu assento matrimonial de 1840 registra-a como nascida e baptizada na Alemanha
+  ("nascida e baptizada na Allemanha"). [PROVEN (identidade, papel familiar e nascimento na
+  Alemanha) — PAR-0076]
 
   - **Papel:** mãe de Maria Joanna Rutschmann (P-0037); esposa de João José Rutschmann
   (P-0109); família F-0054. [PROVEN]
@@ -96,42 +115,53 @@ profile_pt: >-
   "Isabel Stork" no casamento de sua filha em 1859 (PAR-0070) e no registro de óbito de
   seu marido em 1860 (PAR-0071). [PROVEN]
 
-  - **Nascimento e óbito:** não estabelecidos por registros primários disponíveis. Fonte
-  secundária indica nascimento c. 1812 em Blödesheim (Osthofen), Hessen-Darmstadt, Alemanha,
-  e óbito em 5 de julho de 1889 em Nova Friburgo. [LEAD — transcrição Raibert Storck e FS
-  Tree]
+  - **Nascimento e óbito:** seu nascimento na Alemanha está estabelecido em nível de país pelo
+  assento matrimonial de 1840 ("nascida e baptizada na Allemanha", PAR-0076); a data exata e a
+  localidade específica não estão estabelecidas por registros primários. Fonte secundária indica
+  nascimento c. 1812 em Blödesheim (Osthofen), Hessen-Darmstadt, e óbito em 5 de julho de 1889
+  em Nova Friburgo. [PROVEN (Alemanha, país) — PAR-0076; LEAD (c. 1812, Blödesheim/Hessen, óbito
+  1889) — transcrição Raibert Storck e FS Tree]
 
   ## Imigração e estabelecimento
 
   Uma transcrição secundária dos registros de colonização de Nova Friburgo situa-a no grupo
   familiar de seu pai a bordo do navio *Caroline*, que chegou a Nova Friburgo em 3 de maio
   de 1824 com a Casa 72 / Lote 78 atribuída — origem registrada como Blödesheim, Osthofen,
-  Hessen-Darmstadt. Ela teria chegado com cerca de 12 anos de idade. Seus pais são indicados
-  como Jacob Storck × Anna Clara Reheis. [LEAD — transcrição Raibert Storck; nenhum
-  documento primário a nomeia nessa passagem]
+  Hessen-Darmstadt. Ela teria chegado com cerca de 12 anos de idade. Os pais que ela indica,
+  Jacob Storck × Anna Clara, concordam com o assento matrimonial de 1840 (PAR-0076); o sobrenome
+  de solteira "Reheis" aparece apenas nessa transcrição, não no registro. [LEAD — transcrição
+  Raibert Storck; nenhum documento primário a nomeia nessa passagem]
 
   ## Família e rede social
 
-  É conhecida como esposa de João José Rutschmann (P-0109), nomeada em seu registro de óbito
-  de 1860 ("cazado com Isabel Stork"). O fato de ele constar como casado, e não como viúvo,
-  implica que ela ainda estava viva na data da morte do marido (julho de 1860). [INFERRED
-  (viva em 1860) — PAR-0071 registra-o casado, não viúvo] Sua filha Maria Joanna casou-se com
-  Antonio da Silva Ferreira em 1859, unindo esta linhagem de colonistas de Nova Friburgo a um
-  tronco de imigrantes portugueses (F-0017). [PROVEN (identidade do casal)]
+  Casou-se com João José Rutschmann (P-0109) em Nova Friburgo em 23 de junho de 1840; o assento
+  matrimonial está disponível (PAR-0076, evento E-0121). Ele mais tarde nomeia-a em seu registro
+  de óbito de 1860 ("cazado com Isabel Stork"), e o fato de constar como casado, e não como
+  viúvo, implica que ela ainda estava viva na data da morte do marido (julho de 1860). [PROVEN
+  (casamento 23 jun. 1840) — PAR-0076; INFERRED (viva em 1860) — PAR-0071 registra-o casado, não
+  viúvo] Sua filha Maria Joanna casou-se com Antonio da Silva Ferreira em 1859, unindo esta
+  linhagem de colonistas de Nova Friburgo a um tronco de imigrantes portugueses (F-0017). [PROVEN
+  (identidade do casal)]
 
   ## Questões em aberto
 
-  - Seu registro de nascimento (Blödesheim/Osthofen, Hessen, ~1812) — o registro local
-  confirmaria a data e seus pais; a identidade do pai (Jacob vs Joannes Jacobus Storck) é
-  uma questão onomástica em aberto. [OPEN]
+  - Sua data exata de nascimento e a localidade alemã específica (supostamente Blödesheim/
+  Osthofen, Hessen, ~1812) — seu país de nascimento e sua filiação já estão estabelecidos como
+  primários (PAR-0076), mas o registro local confirmaria a data e o lugar precisos. [OPEN (data
+  exata e localidade)]
 
-  - O assento matrimonial Rutschmann × Storck em Nova Friburgo — data e filiação não
-  resolvidas. [OPEN]
+  - O sobrenome de solteira de sua mãe Anna Clara ("Reheis" é um lead de árvore colaborativa,
+  não consta no registro) e uma forma mais completa do nome do pai (registrado apenas como
+  "Tiago"/Jacob Storck). [OPEN]
 
-  - Seu registro de óbito (NF, supostamente 1889) — confirmaria a data e resolveria a questão
-  do nome do pai. [OPEN]
+  - Seu registro de óbito (NF, supostamente 1889) — ainda não localizado; confirmaria a data.
+  [OPEN]
 
   ## Fontes disponíveis (neste repositório)
+
+  - PAR-0076 (seu próprio assento matrimonial de 1840 em Nova Friburgo com João José Rutschmann
+  — fonte primária para a data do casamento, seu nascimento na Alemanha ("nascida e baptizada na
+  Allemanha") e sua filiação: "filha legitima de Tiago Storck e de Anna Clara já fallecida").
 
   - PAR-0069 (batismo de 1841/42 de sua filha em Nova Friburgo — nomeia-a como "Elisabeth
   Storck").

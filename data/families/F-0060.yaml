@@ -1,0 +1,32 @@
+schema_version: 1
+id: F-0060
+partners:
+- person_id: P-0119
+  role: spouse
+- person_id: P-0120
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0076
+  notes:
+  - text: >-
+      Frédéric Rutschmann ("Frederico Rosman") × Jeanne Germaine Caroline, parents of João José Rutschmann (P-0109); named in his 1840 Nova Friburgo marriage (PAR-0076). No marriage act of their own is held; the family is of Bulle, Fribourg (Switzerland).
+children:
+- person_id: P-0109
+  parent_relationships:
+  - parent_id: P-0119
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0076
+    notes: []
+  - parent_id: P-0120
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0076
+    notes: []
+  notes: []
+event_ids: []
+notes: []

@@ -1,0 +1,20 @@
+schema_version: 1
+id: E-0125
+event_type: death
+date:
+  kind: before
+  text: "by 28 October 1899, at Nova Friburgo (\"aqui fallecida\" in her daughter Maria da Gloria's marriage, CIV-0037); alive at Octávio's Dec 1895 marriage (CIV-0036)"
+  latest: 1899
+place_text: Nova Friburgo, Rio de Janeiro, Brazil
+participants:
+- person_id: P-0037
+  role: principal
+status: strong-evidence
+source_ids:
+- CIV-0037
+notes:
+- text: >-
+    Death of Maria Joanna Rutschmann / da Silva Ferreira (P-0037) at Nova Friburgo, bracketed between
+    December 1895 (alive and resident, per son Octávio's marriage CIV-0036) and 28 October 1899 ("aqui
+    fallecida" — died here — per daughter Maria da Gloria's marriage CIV-0037). Her own NF óbito
+    (~1896-1899) is a located-but-unpulled next target for the exact date.

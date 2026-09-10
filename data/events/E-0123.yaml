@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0123
+event_type: death
+date:
+  kind: exact
+  value: "1914-09-19"
+place_text: Nova Friburgo (Rua Sete de Setembro), Rio de Janeiro, Brazil
+participants:
+- person_id: P-0036
+  role: principal
+status: confirmed
+source_ids:
+- CIV-0035
+notes:
+- text: >-
+    Death of Antonio da Silva Ferreira (P-0036) at 24h on 19 September 1914 (registered 20 Sep) of
+    arteriosclerosis, aged 88 (→ b. ~1826), "Portuguez, viuvo"; buried Cemitério Público de Nova
+    Friburgo; declarant his son Antonio da Silva Ferreira Junior (CIV-0035).

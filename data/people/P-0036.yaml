@@ -11,6 +11,8 @@ name_variants:
   - CIV-0019
   - PAR-0070
 event_ids:
+- E-0123
+- E-0124
 - E-0106
 - E-0094
 family_ids:
@@ -22,29 +24,51 @@ notes:
     Celina's (P-0015) maternal grandfather. His 1859 Nova Friburgo marriage to Maria
     Joanna Rocheman (Rutschmann, P-0037) is now held (PAR-0070, E-0094); the couple is
     also named as the child's maternal grandparents in Alberto Bohrer's 1890 Nova
-    Friburgo birth (CIV-0019). No baptism or death of his own has yet been located.
+    Friburgo birth (CIV-0019). His 1914 Nova Friburgo death is now held (CIV-0035,
+    E-0123); no baptism of his own has yet been located.
   text_pt: >-
     Posição 62 no Ahnentafel — pai de Lucinda Ferreira da Silva (P-0031), portanto
     avô materno de Celina (P-0015). Seu casamento de 1859 em Nova Friburgo com Maria
     Joanna Rocheman (Rutschmann, P-0037) está agora disponível (PAR-0070, E-0094); o
     casal também é nomeado como os avós maternos da criança no nascimento de 1890 de
-    Alberto Bohrer em Nova Friburgo (CIV-0019). Nenhum batismo ou óbito próprio dele
-    foi ainda localizado.
+    Alberto Bohrer em Nova Friburgo (CIV-0019). Seu óbito de 1914 em Nova Friburgo está
+    agora disponível (CIV-0035, E-0123); nenhum batismo próprio dele foi ainda localizado.
 - text: >-
     Portuguese origin is now record-attested: his 1859 marriage (PAR-0070) records him
     as "natural e baptizado na Freguezia de [Guenfães — uncertain], em Portugal", son of
     Justino da Silva (P-0111) and Maria Angelica (P-0112), both Portuguese (F-0055). His
-    age was left blank in that record, so his birth year is still open. He is the family's
+    age was left blank in that record; his 1914 death (CIV-0035) records him aged 88,
+    placing his birth ~1826 [approximate]. He is the family's
     only documented non-colony in-migrant — a Portuguese who married into the 1819–1824
     Swiss/German colony network of Nova Friburgo.
   text_pt: >-
     A origem portuguesa está agora atestada em registro: seu casamento de 1859 (PAR-0070)
     o registra como "natural e baptizado na Freguezia de [Guenfães — incerto], em
     Portugal", filho de Justino da Silva (P-0111) e Maria Angelica (P-0112), ambos
-    portugueses (F-0055). A idade dele ficou em branco nesse registro, de modo que o ano
-    de nascimento permanece em aberto. É o único imigrante individual não colono
+    portugueses (F-0055). A idade dele ficou em branco nesse registro; seu óbito de 1914
+    (CIV-0035) o registra com 88 anos, situando seu nascimento em ~1826 [aproximado]. É o
+    único imigrante individual não colono
     documentado da família — um português que se casou dentro da rede da colônia
     suíço-alemã de 1819–1824, em Nova Friburgo.
+- text: >-
+    His 1914 civil death (CIV-0035, E-0123) falsifies the earlier "Antonio died in Rio"
+    hypothesis — he died 19 September 1914 at Nova Friburgo (Rua Sete de Setembro), aged
+    88, "Portuguez, viuvo" (a widower — so his wife Maria Joanna P-0037 predeceased him),
+    of arteriosclerosis, buried in the Cemitério Público de Nova Friburgo, his son Antonio
+    da Silva Ferreira Junior the declarant; the family had returned to Nova Friburgo. Two
+    collateral children are now documented as siblings of Lucinda (P-0031): Octávio
+    Ferreira da Silva (m. Octavia Froidevaux, 1895, CIV-0036) and Maria da Gloria da Silva
+    Ferreira (m. Ezequiel Mathias Dias, 1899, CIV-0037), both on family F-0017.
+  text_pt: >-
+    Seu óbito civil de 1914 (CIV-0035, E-0123) falsifica a hipótese anterior de que
+    "Antonio faleceu no Rio" — ele faleceu em 19 de setembro de 1914 em Nova Friburgo (Rua
+    Sete de Setembro), com 88 anos, "Portuguez, viuvo" (viúvo — logo sua esposa Maria
+    Joanna P-0037 faleceu antes dele), de arteriosclerose, sepultado no Cemitério Público
+    de Nova Friburgo, sendo declarante seu filho Antonio da Silva Ferreira Junior; a
+    família havia retornado a Nova Friburgo. Dois filhos colaterais estão agora
+    documentados como irmãos de Lucinda (P-0031): Octávio Ferreira da Silva (c. Octavia
+    Froidevaux, 1895, CIV-0036) e Maria da Gloria da Silva Ferreira (c. Ezequiel Mathias
+    Dias, 1899, CIV-0037), ambos na família F-0017.
 profile: >-
   ## Identity
 
@@ -62,9 +86,15 @@ profile: >-
 
   - **Attestations:** his own marriage to Maria Joanna on 3 March 1859 at the Matriz de São João
   Baptista, Nova Friburgo (PAR-0070, event E-0094); and the couple named as the maternal
-  grandparents of the child in Alberto Bohrer's 1890 Nova Friburgo civil birth (CIV-0019). His age
-  was left blank in the marriage, so his birth year is not fixed; no baptism or death of his own
-  has yet been located. [PROVEN]
+  grandparents of the child in Alberto Bohrer's 1890 Nova Friburgo civil birth (CIV-0019). The
+  marriage left his age blank; his 1914 death (CIV-0035) records him aged 88, placing his birth
+  ~1826 [approximate]. His death is now held; no baptism of his own has yet been located. [PROVEN]
+
+  - **Death:** he died 19 September 1914 at the Rua Sete de Setembro, Nova Friburgo (registered
+  20 September), of arteriosclerosis, aged 88, "Portuguez, viuvo" (a widower — so Maria Joanna
+  P-0037 predeceased him); buried in the Cemitério Público de Nova Friburgo; declarant his son
+  Antonio da Silva Ferreira Junior [PROVEN — CIV-0035, event E-0123]. This falsifies the earlier
+  "died in Rio" hypothesis — the family returned to Nova Friburgo.
 
   ## Family and social network
 
@@ -73,7 +103,9 @@ profile: >-
   joining a Swiss-colony household. Their daughter Lucinda in turn married **into the documented
   Nova Friburgo petty-merchant band** — the *negociante* household of Joaquim José Bohrer at the
   Alto da Serra (CIV-0019) — a non-elite standing of position, not heritable landed capital
-  [INFERRED/CONTEXTUAL].
+  [INFERRED/CONTEXTUAL]. He and Maria Joanna also had Octávio Ferreira da Silva (m. Octavia
+  Froidevaux, 1895, CIV-0036) and Maria da Gloria da Silva Ferreira (m. Ezequiel Mathias Dias,
+  1899, CIV-0037), both documented siblings of Lucinda (family F-0017).
 
   ## What we can extrapolate
 
@@ -84,8 +116,10 @@ profile: >-
 
   ## Open questions
 
-  - His own baptism and death, and the exact Portuguese home parish (read as "Guenfães",
-  uncertain) — a Portuguese baptism would fix his birth year and confirm the parish. [OPEN]
+  - His own baptism and the exact Portuguese home parish (read as "Guenfães", uncertain) — a
+  Portuguese baptism would confirm the parish and his ~1826 birth year. The 1914 death (CIV-0035)
+  named neither his origin parish nor his parents, so that gap is unchanged. (His death is now
+  held.) [OPEN]
 
   ## Sources held (this repository)
 
@@ -93,9 +127,18 @@ profile: >-
 
   - CIV-0019 (Alberto Bohrer's 1890 Nova Friburgo birth — names him as maternal grandfather).
 
+  - CIV-0035 (his 1914 Nova Friburgo death — died aged 88, "Portuguez, viuvo").
+
+  - CIV-0036 (son Octávio's 1895 marriage — names him alive and resident at Nova Friburgo) ·
+  CIV-0037 (daughter Maria da Gloria's 1899 marriage — he is alive and personally signs).
+
   ## Where to go today
 
   - **Marriage (3 Mar 1859) & named as maternal grandfather in grandson Alberto's 1890 birth:** Catedral Diocesana / Igreja Matriz de São João Batista, Nova Friburgo, RJ (Rua Monsenhor José Antônio Teixeira 23, Centro, CEP 28610-390) [RESOLVED] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
+
+  - **Death (19 Sep 1914, already held):** Cartório do Registro Civil, 1º Distrito de São João Baptista, Nova Friburgo (óbitos, termo 5045); burial at the Cemitério Público de Nova Friburgo. [RESOLVED]
+
+  - **Portuguese baptism / home parish (read as "Guenfães", uncertain):** to be located in Portugal — would confirm the parish and his ~1826 birth year. [OPEN]
 profile_pt: >-
   ## Identidade
 
@@ -113,9 +156,16 @@ profile_pt: >-
 
   - **Atestações:** seu próprio casamento com Maria Joanna em 3 de março de 1859, na Matriz de São
   João Baptista, Nova Friburgo (PAR-0070, evento E-0094); e o casal nomeado como avós maternos da
-  criança no nascimento civil de 1890 de Alberto Bohrer, em Nova Friburgo (CIV-0019). A idade dele
-  ficou em branco no casamento, de modo que o ano de nascimento não está fixado; nenhum batismo ou
-  óbito próprio dele foi ainda localizado. [PROVEN]
+  criança no nascimento civil de 1890 de Alberto Bohrer, em Nova Friburgo (CIV-0019). O casamento
+  deixou sua idade em branco; seu óbito de 1914 (CIV-0035) o registra com 88 anos, situando seu
+  nascimento em ~1826 [aproximado]. Seu óbito está agora disponível; nenhum batismo próprio dele
+  foi ainda localizado. [PROVEN]
+
+  - **Óbito:** faleceu em 19 de setembro de 1914 na Rua Sete de Setembro, Nova Friburgo (registrado
+  em 20 de setembro), de arteriosclerose, com 88 anos, "Portuguez, viuvo" (viúvo — logo Maria Joanna
+  P-0037 faleceu antes dele); sepultado no Cemitério Público de Nova Friburgo; declarante seu filho
+  Antonio da Silva Ferreira Junior [PROVEN — CIV-0035, evento E-0123]. Isso falsifica a hipótese
+  anterior de que "faleceu no Rio" — a família retornou a Nova Friburgo.
 
   ## Família e rede social
 
@@ -124,7 +174,9 @@ profile_pt: >-
   ingressando num lar da colônia suíça. A filha do casal, Lucinda, por sua vez casou-se **com a
   faixa documentada de pequenos comerciantes de Nova Friburgo** — o lar *negociante* de Joaquim José
   Bohrer, no Alto da Serra (CIV-0019) — uma posição não elitista de status, não capital fundiário
-  herdável [INFERRED/CONTEXTUAL].
+  herdável [INFERRED/CONTEXTUAL]. Ele e Maria Joanna também tiveram Octávio Ferreira da Silva (c.
+  Octavia Froidevaux, 1895, CIV-0036) e Maria da Gloria da Silva Ferreira (c. Ezequiel Mathias Dias,
+  1899, CIV-0037), ambos irmãos documentados de Lucinda (família F-0017).
 
   ## O que podemos extrapolar
 
@@ -135,8 +187,10 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seu próprio batismo e óbito, e a freguesia portuguesa exata (lida como "Guenfães", incerta) —
-  um batismo português fixaria o ano de nascimento e confirmaria a freguesia. [OPEN]
+  - Seu próprio batismo e a freguesia portuguesa exata (lida como "Guenfães", incerta) — um batismo
+  português confirmaria a freguesia e seu ano de nascimento ~1826. O óbito de 1914 (CIV-0035) não
+  nomeou sua freguesia de origem nem seus pais, de modo que essa lacuna permanece. (Seu óbito está
+  agora disponível.) [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
@@ -144,6 +198,15 @@ profile_pt: >-
 
   - CIV-0019 (nascimento de 1890 de Alberto Bohrer, em Nova Friburgo — nomeia-o como avô materno).
 
+  - CIV-0035 (seu óbito de 1914 em Nova Friburgo — falecido aos 88 anos, "Portuguez, viuvo").
+
+  - CIV-0036 (casamento de 1895 do filho Octávio — nomeia-o vivo e residente em Nova Friburgo) ·
+  CIV-0037 (casamento de 1899 da filha Maria da Gloria — está vivo e assina pessoalmente).
+
   ## Onde ir hoje
 
   - **Casamento (3 mar 1859) e citado como avô materno no nascimento de 1890 do neto Alberto:** Catedral Diocesana / Igreja Matriz de São João Batista, Nova Friburgo, RJ (Rua Monsenhor José Antônio Teixeira 23, Centro, CEP 28610-390) [RESOLVED] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
+
+  - **Óbito (19 set 1914, já obtido):** Cartório do Registro Civil, 1º Distrito de São João Baptista, Nova Friburgo (óbitos, termo 5045); sepultamento no Cemitério Público de Nova Friburgo. [RESOLVED]
+
+  - **Batismo português / freguesia de origem (lida como "Guenfães", incerta):** a localizar em Portugal — confirmaria a freguesia e seu ano de nascimento ~1826. [OPEN]

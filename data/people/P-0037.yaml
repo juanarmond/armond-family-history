@@ -15,6 +15,8 @@ name_variants:
   - PAR-0069
   - PAR-0070
 event_ids:
+- E-0125
+- E-0124
 - E-0093
 - E-0094
 family_ids:
@@ -43,6 +45,18 @@ notes:
     Nacionalidade brasileira — é "natural e baptizada n'esta Freguezia de São João Baptista"
     (Nova Friburgo) tanto em seu batismo (PAR-0069) quanto em seu casamento (PAR-0070), ou seja,
     nascida no Brasil. Seu pai, João José Rocheman (Rutschmann), era imigrante suíço de Bulle.
+- text: >-
+    Her death is now bracketed to Nova Friburgo, ~1896-1899 (event E-0125): she was alive and
+    resident there in December 1895 (named a living parent in her son Octávio's marriage,
+    CIV-0036) and had died at Nova Friburgo by 28 October 1899 ("aqui fallecida" in her daughter
+    Maria da Gloria's marriage, CIV-0037). [STRONG-EVIDENCE — CIV-0036/CIV-0037]. Her exact Nova
+    Friburgo óbito (~1896-99) is the next target.
+  text_pt: >-
+    Seu óbito está agora delimitado a Nova Friburgo, ~1896-1899 (evento E-0125): estava viva e
+    residente ali em dezembro de 1895 (nomeada como mãe viva no casamento de seu filho Octávio,
+    CIV-0036) e já falecera em Nova Friburgo até 28 de outubro de 1899 ("aqui fallecida" no
+    casamento de sua filha Maria da Gloria, CIV-0037). [STRONG-EVIDENCE — CIV-0036/CIV-0037]. Seu
+    óbito exato em Nova Friburgo (~1896-99) é o próximo alvo.
 profile: >-
   ## Identity
 
@@ -60,16 +74,24 @@ profile: >-
   - **Marriage:** married Antonio da Silva Ferreira on 3 March 1859 at the same church, aged 18
   (PAR-0070, event E-0094). [PROVEN]
 
+  - **Death:** at Nova Friburgo, ~1896-1899 [STRONG-EVIDENCE — CIV-0036/CIV-0037] (event E-0125).
+  She was alive and resident there in December 1895 (named a living parent in son Octávio's
+  marriage, CIV-0036) and had died at Nova Friburgo by 28 October 1899 ("aqui fallecida" in
+  daughter Maria da Gloria's marriage, CIV-0037).
+
   ## Family and social network
 
   She sits at the junction of two immigrant strands of the Nova Friburgo colony: her father's
   Swiss line (Rutschmann of Bulle) and her husband's Portuguese in-migration. Her daughter Lucinda
   married into the *negociante* Bohrer household at the Alto da Serra (CIV-0019) — the documented
-  petty-merchant band of the colony [INFERRED/CONTEXTUAL].
+  petty-merchant band of the colony [INFERRED/CONTEXTUAL]. She and Antonio also had Octávio Ferreira
+  da Silva (m. Octavia Froidevaux, 1895, CIV-0036) and Maria da Gloria da Silva Ferreira (m.
+  Ezequiel Mathias Dias, 1899, CIV-0037), both documented siblings of Lucinda (family F-0017).
 
   ## Open questions
 
-  - Her death record (not yet located), which would fix her later life and place. [OPEN]
+  - Her exact death record (not yet located) — her death is now bracketed to Nova Friburgo,
+  ~1896-1899 (CIV-0036/CIV-0037); the exact Nova Friburgo óbito would fix the date. [OPEN]
 
   ## Sources held (this repository)
 
@@ -78,6 +100,10 @@ profile: >-
   - PAR-0070 (her 1859 Nova Friburgo marriage to Antonio da Silva Ferreira).
 
   - CIV-0019 (Alberto Bohrer's 1890 Nova Friburgo birth — names her as maternal grandmother).
+
+  - CIV-0036 (son Octávio's 1895 marriage — she is alive and resident at Nova Friburgo) ·
+  CIV-0037 (daughter Maria da Gloria's 1899 marriage — she is "aqui fallecida", died at NF by
+  Oct 1899).
 profile_pt: >-
   ## Identidade
 
@@ -95,16 +121,24 @@ profile_pt: >-
   - **Casamento:** casou-se com Antonio da Silva Ferreira em 3 de março de 1859 na mesma igreja,
   aos 18 anos (PAR-0070, evento E-0094). [PROVEN]
 
+  - **Óbito:** em Nova Friburgo, ~1896-1899 [STRONG-EVIDENCE — CIV-0036/CIV-0037] (evento E-0125).
+  Estava viva e residente ali em dezembro de 1895 (nomeada como mãe viva no casamento do filho
+  Octávio, CIV-0036) e já falecera em Nova Friburgo até 28 de outubro de 1899 ("aqui fallecida" no
+  casamento da filha Maria da Gloria, CIV-0037).
+
   ## Família e rede social
 
   Ela está na junção de duas correntes imigrantes da colônia de Nova Friburgo: a linha suíça do pai
   (Rutschmann, de Bulle) e a imigração portuguesa do marido. Sua filha Lucinda casou-se com o lar
   *negociante* dos Bohrer, no Alto da Serra (CIV-0019) — a faixa documentada de pequenos
-  comerciantes da colônia [INFERRED/CONTEXTUAL].
+  comerciantes da colônia [INFERRED/CONTEXTUAL]. Ela e Antonio também tiveram Octávio Ferreira da
+  Silva (c. Octavia Froidevaux, 1895, CIV-0036) e Maria da Gloria da Silva Ferreira (c. Ezequiel
+  Mathias Dias, 1899, CIV-0037), ambos irmãos documentados de Lucinda (família F-0017).
 
   ## Questões em aberto
 
-  - Seu registro de óbito (ainda não localizado), que fixaria sua vida posterior e o local. [OPEN]
+  - Seu registro de óbito exato (ainda não localizado) — seu óbito está agora delimitado a Nova
+  Friburgo, ~1896-1899 (CIV-0036/CIV-0037); o óbito exato em Nova Friburgo fixaria a data. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
@@ -113,3 +147,7 @@ profile_pt: >-
   - PAR-0070 (seu casamento de 1859 em Nova Friburgo com Antonio da Silva Ferreira).
 
   - CIV-0019 (nascimento de 1890 de Alberto Bohrer, em Nova Friburgo — nomeia-a como avó materna).
+
+  - CIV-0036 (casamento de 1895 do filho Octávio — está viva e residente em Nova Friburgo) ·
+  CIV-0037 (casamento de 1899 da filha Maria da Gloria — está "aqui fallecida", falecida em NF
+  até out. 1899).

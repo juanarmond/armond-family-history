@@ -1,0 +1,68 @@
+schema_version: 1
+id: CIV-0036
+title: >-
+  1895 civil marriage of Octávio Ferreira da Silva and Octavia Froidevaux at Nova Friburgo
+  (termo 399) — names his parents Antonio da Silva Ferreira and Maria Joanna, both alive
+title_pt: >-
+  Casamento civil de 1895 de Octávio Ferreira da Silva e Octavia Froidevaux em Nova Friburgo
+  (termo 399) — nomeia seus pais Antonio da Silva Ferreira e Maria Joanna, ambos vivos
+record_type: Civil marriage register entry
+record_category: civil_registration
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1895-12-28"
+event_place_text: Nova Friburgo (1º Distrito de São João Baptista), Rio de Janeiro, Brazil
+repository:
+  name: Cartório do Registro Civil, 1º Distrito de São João Baptista, Nova Friburgo (casamentos, termo 399, folio 162-163)
+  archive_or_registry: FamilySearch (collection 1582573)
+  collection: Registro Civil de casamentos, 1º Distrito, termo N.399, folio 162-163, 1895
+  catalogue_reference: "FS ark: 3:1:S3HT-68N9-42"
+access_date: "2026-09-10"
+language: pt-BR
+transcription: >-
+  [Registro Civil de casamentos, 1º Distrito de São João Baptista, Nova Friburgo, termo N.399, folio
+  162-163, 1895; escrivão Carlos Miguel Noel.] "Aos vinte e oito dias do mês de Dezembro de mil
+  oitocentos noventa e cinco, ás doze horas do dia, nesta Cidade de Nova Friburgo ... receberam-se em
+  matrimonio no regimen commum Octavio Ferreira da Silva com Dona Octavia Froidevaux, moradores neste
+  Districto, com vinte e sete annos de idade, solteiro, operario, natural da Freguesia de Nossa
+  Senhora da Conceição de Apparecida (Estado do Rio de Janeiro), residente em companhia de seus Pais,
+  filho legitimo de Antonio da Silva Ferreira e de Maria Joanna da Silva Ferreira, moradores neste
+  Districto. Ella ... com vinte e dois annos de idade, solteira ... filha legitima de João Julião
+  Froidevaux e de Joaquina Brazília da Silva Froidevaux, moradores neste Districto ..."
+abstract: >-
+  Civil marriage of Octávio Ferreira da Silva (27, b. ~1868, operário) and Octavia Froidevaux, 28
+  December 1895 at Nova Friburgo. Octávio is a "filho legitimo de Antonio da Silva Ferreira e de
+  Maria Joanna da Silva Ferreira, moradores neste Districto" — so BOTH his parents (P-0036 × P-0037)
+  were ALIVE and resident at Nova Friburgo in December 1895. Octávio is a documented sibling of the
+  direct ancestor Lucinda (P-0031); Octavia is a daughter of the Swiss-NF colony Froidevaux family.
+  Corroborates the parents (F-0017) and brackets Maria Joanna's death (alive Dec 1895).
+abstract_pt: >-
+  Casamento civil de Octávio Ferreira da Silva (27 anos, n. ~1868, operário) e Octavia Froidevaux,
+  28 de dezembro de 1895, em Nova Friburgo. Octávio é "filho legitimo de Antonio da Silva Ferreira e
+  de Maria Joanna da Silva Ferreira, moradores neste Districto" — logo AMBOS os pais (P-0036 × P-0037)
+  estavam VIVOS e residentes em Nova Friburgo em dezembro de 1895. Octávio é irmão documentado da
+  ancestral direta Lucinda (P-0031); Octavia é filha da família Froidevaux, da colônia suíça de NF.
+  Corrobora os pais (F-0017) e delimita o óbito de Maria Joanna (viva em dez. 1895).
+reliability:
+  assessment: Primary civil marriage entry — direct primary for the marriage and for both parents being alive and resident in NF in Dec 1895.
+  informant: The contracting parties before the juiz de paz and escrivão.
+  limitations: Delivered via the FamilySearch digitisation ("Sem valor legal"); Octávio is a collateral (sibling of the direct ancestor), so he is recorded as a documented_child on F-0017, not a person entity.
+digital_file:
+  path: evidence/civil/CIV-0036-bohrer-octavio-silvaferreira-marriage-1895-novafriburgo.jpg
+  sha256: af69da2cffb4748751f951301b24f7fbd761b57e279c0dab4e0509a8c0be5fca
+linked_people:
+- P-0036
+- P-0037
+linked_families:
+- F-0017
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Records the collateral Octávio Ferreira da Silva (documented_child on F-0017) and corroborates
+    that both his parents Antonio (P-0036) and Maria Joanna (P-0037) were alive at NF in Dec 1895.

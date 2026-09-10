@@ -1,0 +1,16 @@
+schema_version: 1
+id: P-0120
+preferred_name: Jeanne Germaine Caroline
+privacy: deceased
+sex: female
+name_variants:
+- value: Joanna Germana Carolina
+  type: source
+  source_ids:
+  - PAR-0076
+event_ids: []
+family_ids:
+- F-0060
+notes:
+- text: >-
+    Mother of João José Rutschmann (P-0109); named "Joanna Germana Carolina" in her son's 1840 Nova Friburgo marriage (PAR-0076), family F-0060. Recorded by given names only; her maiden surname is not stated (the third element "Carolina/Caroline" may be a given name or a surname [uncertain]); nationality unset. Clearly deceased.

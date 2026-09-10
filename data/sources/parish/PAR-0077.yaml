@@ -1,0 +1,72 @@
+schema_version: 1
+id: PAR-0077
+title: >-
+  1863 baptism of Lucinda (Ferreira da Silva) at the Matriz de S. João Baptista da Lagoa,
+  Rio de Janeiro — born 10 August 1862, daughter of Antonio da Silva Ferreira and Maria Joanna
+title_pt: >-
+  Batismo de 1863 de Lucinda (Ferreira da Silva) na Matriz de S. João Baptista da Lagoa,
+  Rio de Janeiro — nascida em 10 de agosto de 1862, filha de Antonio da Silva Ferreira e Maria Joanna
+record_type: Parish baptism register entry (original)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1863-03-16"
+event_place_text: Matriz de São João Baptista da Lagoa, Corte (Rio de Janeiro), Brazil
+repository:
+  name: Matriz de São João Baptista da Lagoa, Rio de Janeiro (baptismos, folio 87)
+  archive_or_registry: FamilySearch (collection 1719212, "RJ Registros da Igreja Católica")
+  collection: Baptismos, folio 87, 1863
+  catalogue_reference: "FS ark: 3:1:939F-R8SX-B7"
+access_date: "2026-09-10"
+language: pt-BR
+transcription: >-
+  [Matriz de São João Baptista da Lagoa, Corte/Rio de Janeiro, baptismos folio 87, 1863; Vigário
+  Braz Martins do Monte.] "Aos dezeseis de Março de mil oitocentos e sessenta e tres, nesta [Matriz
+  de São João] Baptista da Lagôa baptizei ... á Lucinda, nascida a dez de Agosto do anno passado,
+  filha legitima de Antonio [da Silva Ferreira] e de Dona Maria Joanna da Silva; padrinhos Manoel
+  José ... e Dona Maria Anastacia Paulina. ..."
+abstract: >-
+  Parish baptism of Lucinda (Ferreira da Silva, P-0031) — born 10 August 1862, baptised 16 March
+  1863 at the Matriz de São João Baptista da Lagoa (Corte/Rio de Janeiro), legitimate daughter of
+  Antonio da Silva Ferreira (P-0036) × Maria Joanna da Silva [Ferreira] (P-0037). Source for her
+  baptism event E-0124 and for the correction of her birth (E-0105): she was born in RIO, not Nova
+  Friburgo — correcting the informant-reported "natural desta Freguezia [NF]" of CIV-0019 and
+  corroborating her 1884 NF marriage's claim that she was "nascida e baptisada na freg. de S. João
+  Baptista da Lagoa, na Corte." Confirms the Silva-Ferreira family was in Rio in 1862-63.
+abstract_pt: >-
+  Batismo paroquial de Lucinda (Ferreira da Silva, P-0031) — nascida em 10 de agosto de 1862,
+  baptizada em 16 de março de 1863 na Matriz de São João Baptista da Lagoa (Corte/Rio de Janeiro),
+  filha legítima de Antonio da Silva Ferreira (P-0036) × Maria Joanna da Silva [Ferreira] (P-0037).
+  Fonte de seu batismo (E-0124) e da correção de seu nascimento (E-0105): nasceu no RIO, não em Nova
+  Friburgo — corrigindo o "natural desta Freguezia [NF]" informado em CIV-0019 e corroborando a
+  declaração de seu casamento de 1884 (NF) de que era "nascida e baptisada na freg. de S. João
+  Baptista da Lagoa, na Corte". Confirma que a família Silva-Ferreira estava no Rio em 1862-63.
+reliability:
+  assessment: Primary parish baptism entry — direct primary for her birth date, baptism date, birthplace (Rio) and parents.
+  informant: The officiating vicar (Braz Martins do Monte), from the parents' declaration.
+  limitations: >-
+    Delivered via the FamilySearch digitisation ("Tinta permeada"); folio 87 is a dense page. The
+    entry-level transcription follows the retrieval agent's native-resolution read; the Rio
+    birthplace is independently corroborated by her 1884 Nova Friburgo marriage.
+digital_file:
+  path: evidence/parish/PAR-0077-bohrer-lucinda-baptism-1863-riodejaneiro.jpg
+  sha256: 090a0748584a960c3acae87f5ad1e6d92768fcd67b5bd28787e8c83fb4c44633
+linked_people:
+- P-0031
+- P-0036
+- P-0037
+linked_families:
+- F-0017
+linked_events:
+- E-0124
+- E-0105
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for Lucinda's 1863 baptism (E-0124) and the correction of her birth event E-0105 (birthplace
+    Rio, born 10 Aug 1862), superseding the informant-reported NF origin in CIV-0019.

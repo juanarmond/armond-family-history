@@ -1,0 +1,20 @@
+schema_version: 1
+id: E-0122
+event_type: birth
+date:
+  kind: unknown
+  text: >-
+    Only the country of birth is stated ("na Allemanha"); no date derivable.
+place_text: Allemanha (Germany)
+participants:
+- person_id: P-0110
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0076
+notes:
+- text: >-
+    Birthplace Germany, primary-stated in her own 1840 Nova Friburgo marriage (PAR-0076): "Isabella
+    Storck … nascida e baptizada na Allemanha". Country level only — no locality; the reputed
+    Blödesheim/Hessen origin remains a [LEAD]. This upgrades her German origin from a
+    collaborative-tree lead to a record-stated fact.

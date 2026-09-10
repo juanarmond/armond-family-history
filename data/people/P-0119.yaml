@@ -1,0 +1,16 @@
+schema_version: 1
+id: P-0119
+preferred_name: Frédéric Rutschmann
+privacy: deceased
+sex: male
+name_variants:
+- value: Frederico Rosman
+  type: source
+  source_ids:
+  - PAR-0076
+event_ids: []
+family_ids:
+- F-0060
+notes:
+- text: >-
+    Father of João José Rutschmann (P-0109); named "Frederico Rosman" in his son's 1840 Nova Friburgo marriage (PAR-0076), family F-0060. The son was "nascido e baptizado na freguesia de Bulle na Suissa", so the family is of Bulle, Fribourg (Switzerland); Frédéric's own birthplace is not separately stated, so nationality is left unset. Clearly deceased.
