@@ -5,6 +5,21 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Bilingual profiles for 23 Bohrer/Swiss deep ancestors (2026-09-10)
+
+- Added `profile` (English) and `profile_pt` (Portuguese) narrative fields to the 23 deep
+  Swiss/German ancestors created in the djoaovi haul waves 2–4 (P-0096–P-0118), which the
+  `profiles-audit` flagged as having no viewer narrative. Authored via four parallel subagents on
+  disjoint file sets, then validated and committed centrally.
+- Each profile asserts only facts a held source states (`[PROVEN]`), with informant-reported
+  parentage as `[STRONG-EVIDENCE]`, reasoned context as `[INFERRED/CONTEXTUAL]`, unconfirmed
+  blog/collaborative-tree material as `[LEAD]`, and unknowns as `[OPEN]`. Divergent research-profile
+  readings were rejected against the catalogued sources (e.g. the mother's surname "Dürr" vs. the
+  record's "[Neis — uncertain]"; a blog "Justino Ferreira" vs. the record's "Justino da Silva"),
+  and candidate research profiles that proved to be different individuals were not used.
+- No structured genealogical data changed (relationships, events and sources are untouched); the
+  GEDCOM export is unaffected (the exporter does not include the narrative `profile` field).
+
 ### Added — Bohrer djoaovi haul, wave 4b: collateral 1902 baptisms + Heureux-Voyage blog lead (2026-09-10)
 
 - **PAR-0074** Valentim Luciano Bohrer's 1902 baptism (b. 14 May 1902, son of Valentim Martinho

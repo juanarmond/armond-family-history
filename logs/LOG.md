@@ -1729,3 +1729,26 @@ Closing pass on the djoaovi drop's remaining Bohrer images.
    possible maiden surname "Hartmann Storck".
 4. make check green (70 tests; 136 sources / 198 evidence scans). The djoaovi Bohrer haul is now
    fully triaged across waves 1–4.
+
+## 2026-09-10 — Drop closure + bilingual profiles for 23 Bohrer/Swiss deep ancestors
+
+Post-haul closure and enrichment session (no new research retrieval).
+
+1. **Drop fully triaged.** Value-gated the last two untriaged multi-page sets — the imigracaoblog
+   reproductions of the 1864 José Anastácio × Anna Joaquina and 1852 José Rodrigues Valle
+   inventários. Opened p1 of each: both are primary reproductions but document deep Toledo/Valle
+   **collateral** (Eliza's granduncle and gg-granduncle and their own descendants). José Anastácio
+   is already documented_child #9 of F-0028 via the primary 1833 inventário PRB-0010; the 1852 set
+   does not name the F-0038 apex, so José Rodrigues Valle's parentage there stays a blog LEAD.
+   Neither carries a new fact about a modelled direct ancestor → held as **LEAD**, dispositioned in
+   the triage ledger. drop-pages-audit clean (no missing pages); ancestors-audit clean.
+2. **STATUS snapshot refreshed** from the stale pre-haul figures (95/46/75/101) to the current
+   118 people / 59 families / 94 events / 136 sources / 203 evidence scans.
+3. **Bilingual profiles added for P-0096–P-0118** (the 23 deep Swiss/German ancestors created in
+   waves 2–4, which had no viewer narrative). Authored by four parallel subagents on disjoint
+   file sets, validated and committed centrally. Discipline held: `[PROVEN]` only for
+   record-stated facts, `[STRONG-EVIDENCE]` for informant-reported parentage, `[LEAD]` for
+   blog/collaborative material (never laundered), `[OPEN]` for unknowns; divergent research-profile
+   readings and mis-matched candidate profiles were rejected against the catalogued sources. No
+   structured relationship/event/source data changed; the GEDCOM is unaffected.
+4. make check green (70 tests). Pure additions across 23 files, no other entity touched.
