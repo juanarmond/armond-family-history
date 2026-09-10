@@ -437,6 +437,133 @@ def validate_id_ledger(
             )
 
 
+def validate_link_reciprocity(
+    root: Path,
+    entities: dict[str, dict[str, LoadedEntity]],
+    issues: list[Issue],
+) -> None:
+    """Enforce that structured links resolve on BOTH ends (pure symmetry).
+
+    A one-sided link makes an entity invisible in the viewer's dates, timeline or
+    pedigree even though the data "looks" present, and `make check` historically
+    verified only one direction. These are symmetry checks — a person lists exactly
+    the families/events that list the person, and an event and its source agree on
+    their mutual link — so they carry no genealogical-convention exceptions (a
+    parent deliberately absent from a marriage event is simply absent on both
+    sides). Dangling references to a missing entity are reported by
+    ``validate_references``; here we only compare the two ends when both exist.
+    """
+    people = entities.get("people", {})
+    families = entities.get("families", {})
+    events = entities.get("events", {})
+    sources: dict[str, LoadedEntity] = {}
+    for kind, bucket in entities.items():
+        if kind not in {"people", "families", "events", "places", "fan"}:
+            sources.update(bucket)
+
+    def loc(entity: LoadedEntity) -> str:
+        return display_path(entity.path, root)
+
+    def id_list(data: dict[str, Any], field: str) -> list[str]:
+        value = data.get(field)
+        return [v for v in value if isinstance(v, str)] if isinstance(value, list) else []
+
+    def member_ids(data: dict[str, Any], field: str) -> set[str]:
+        value = data.get(field)
+        out: set[str] = set()
+        if isinstance(value, list):
+            for item in value:
+                if isinstance(item, dict) and isinstance(item.get("person_id"), str):
+                    out.add(item["person_id"])
+        return out
+
+    # person.family_ids <-> family.partners / family.children
+    for pid, person in people.items():
+        for fid in id_list(person.data, "family_ids"):
+            family = families.get(fid)
+            if family is None:
+                continue
+            if pid not in member_ids(family.data, "partners") | member_ids(
+                family.data, "children"
+            ):
+                issues.append(
+                    Issue(
+                        "error",
+                        loc(person),
+                        f"family_ids lists {fid}, but {fid} does not name {pid} "
+                        "as a partner or child (one-sided link)",
+                    )
+                )
+    for fid, family in families.items():
+        for pid in member_ids(family.data, "partners") | member_ids(
+            family.data, "children"
+        ):
+            person = people.get(pid)
+            if person is not None and fid not in id_list(person.data, "family_ids"):
+                issues.append(
+                    Issue(
+                        "error",
+                        loc(family),
+                        f"names {pid} as a partner/child, but {pid}.family_ids "
+                        f"omits {fid} (one-sided link)",
+                    )
+                )
+
+    # person.event_ids <-> event.participants
+    for pid, person in people.items():
+        for eid in id_list(person.data, "event_ids"):
+            event = events.get(eid)
+            if event is None:
+                continue
+            if pid not in member_ids(event.data, "participants"):
+                issues.append(
+                    Issue(
+                        "error",
+                        loc(person),
+                        f"event_ids lists {eid}, but {eid} does not name {pid} "
+                        "as a participant (one-sided link)",
+                    )
+                )
+    for eid, event in events.items():
+        for pid in member_ids(event.data, "participants"):
+            person = people.get(pid)
+            if person is not None and eid not in id_list(person.data, "event_ids"):
+                issues.append(
+                    Issue(
+                        "error",
+                        loc(event),
+                        f"names {pid} as a participant, but {pid}.event_ids "
+                        f"omits {eid} (one-sided link)",
+                    )
+                )
+
+    # event.source_ids <-> source.linked_events
+    for eid, event in events.items():
+        for sid in id_list(event.data, "source_ids"):
+            source = sources.get(sid)
+            if source is not None and eid not in id_list(source.data, "linked_events"):
+                issues.append(
+                    Issue(
+                        "error",
+                        loc(event),
+                        f"source_ids lists {sid}, but {sid}.linked_events "
+                        f"omits {eid} (one-sided link)",
+                    )
+                )
+    for sid, source in sources.items():
+        for eid in id_list(source.data, "linked_events"):
+            event = events.get(eid)
+            if event is not None and sid not in id_list(event.data, "source_ids"):
+                issues.append(
+                    Issue(
+                        "error",
+                        loc(source),
+                        f"linked_events lists {eid}, but {eid}.source_ids "
+                        f"omits {sid} (one-sided link)",
+                    )
+                )
+
+
 def validate_repository(
     root: Path, schema_dir: Path | None = None
 ) -> ValidationResult:
@@ -458,6 +585,7 @@ def validate_repository(
     validate_date_ranges(root, entities, issues)
     validate_event_principals(root, entities, issues)
     validate_family_structure_and_chronology(root, entities, issues)
+    validate_link_reciprocity(root, entities, issues)
     validate_duplicate_identities(root, entities, issues)
     validate_privacy(root, entities, issues)
     validate_evidence_files(root, entities, issues)

@@ -5,6 +5,23 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Mechanical enforcement of link reciprocity and the updates feed (2026-09-10)
+
+Turned two Definition-of-Done rules from "remember to do it" into build gates, so
+`make check` fails instead of silently drifting.
+
+- **Link-reciprocity validator** (`scripts/validate_data.py:validate_link_reciprocity`):
+  `make check` now errors on any one-sided `person↔family`, `person↔event` or
+  `event↔source` link — the connectivity the completion protocol required but nothing
+  enforced. Enabling it immediately surfaced two pre-existing latent defects, now fixed:
+  `PAR-0051.linked_events` was missing E-0048 (Manoel Muniz's birth), and E-0026
+  (Francisco José × Rosa marriage) did not cite PUB-0003 back. Locked in by three unit
+  tests in `tests/test_validate_data.py`.
+- **Updates-feed completeness test** (`tests/test_updates_feed.py`): fails when a public
+  source is catalogued but absent from `family-tree-viewer/updates.json` — the exact
+  staleness that had let the wave 4b baptisms miss the feed. Test count 70 → 74.
+- `AGENTS.md` connectivity section updated to say reciprocity symmetry is now enforced.
+
 ### Changed — Completion protocol rewritten as a checkable Definition of Done (2026-09-10)
 
 - `AGENTS.md` "Completion protocol" is now an ordered, grouped Definition of Done

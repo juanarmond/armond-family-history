@@ -247,11 +247,15 @@ explicitly why it does not apply.
    `data/record-coverage.yaml` entry are updated. Every catalogued vital record
    has its **event** (`E-…`), and every drop image has a triage-ledger disposition.
 
-**B. Connectivity & completeness** (mostly *not* enforced by `make check` — verify
-by hand and with the advisory audits):
-2. Both ends of every `family`/`event`/`source`/`fan` link resolve; no unintended
-   orphan; each deliberate omission is noted (see "Entity connectivity and
-   completeness"). Cite each source at the assertion it supports.
+**B. Connectivity & completeness** (link *symmetry* is now enforced by `make check`;
+*completeness* — whether a link that ought to exist is present — is not, so still
+verify by hand and with the advisory audits):
+2. `make check` fails on any one-sided `person↔family`, `person↔event` or
+   `event↔source` link (see `validate_link_reciprocity`). You must still confirm no
+   unintended orphan, that each deliberate omission is noted, that a source is cited
+   at the assertion it supports, and that the link which *should* exist does (a
+   catalogued vital record has its event; a named parent is on the event; see
+   "Entity connectivity and completeness").
 3. Run the advisories and clear or acknowledge every hit:
    `uv run --frozen make ancestors-audit drop-pages-audit profiles-audit`.
 

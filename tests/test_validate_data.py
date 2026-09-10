@@ -254,6 +254,27 @@ class ValidateDataTests(unittest.TestCase):
         self.assertEqual((), result.warnings)
         self.assertEqual(6, result.entity_count)
 
+    def test_person_event_link_must_be_reciprocal(self) -> None:
+        # P-0001 claims E-0002, whose participants list only P-0002.
+        self.fixture.documents["people"]["P-0001"]["event_ids"] = ["E-0001", "E-0002"]
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "does not name P-0001 as a participant")
+
+    def test_family_membership_must_be_reciprocal(self) -> None:
+        # F-0001 lists P-0002 as a child, but P-0002 no longer lists F-0001.
+        self.fixture.documents["people"]["P-0002"]["family_ids"] = []
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "P-0002.family_ids omits F-0001")
+
+    def test_event_source_link_must_be_reciprocal(self) -> None:
+        # E-0001 cites CIV-0001, but CIV-0001 no longer lists E-0001 back.
+        self.fixture.documents["sources"]["CIV-0001"]["linked_events"] = ["E-0002"]
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "CIV-0001.linked_events")
+
     def test_person_occupations_are_optional_and_source_qualified(self) -> None:
         self.fixture.documents["people"]["P-0001"]["occupations"] = [
             {"value": "lavrador", "source_ids": ["CIV-0001"]}
