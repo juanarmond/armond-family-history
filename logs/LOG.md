@@ -1778,3 +1778,17 @@ four more disjoint-file subagents plus hand-fixes.
    maternal-line and a quote-fidelity slip. P-0115 disambiguated from son P-0101 ("Sr").
 5. **Downstream artefacts brought into step:** family-story.yaml (EN+PT), updates.json feed,
    GEDCOM re-exported. make check green (70 tests; 0 errors, 0 warnings).
+
+## 2026-09-10 — Birth events for 5 ancestors with a recorded-but-unshown birthplace
+
+Owner observed that a death record often states the deceased's birthplace, yet the viewer
+showed it empty. Root cause: the viewer derives birthplace from a person's own birth-or-baptism
+event (`data-loader.js`), not from prose. Audited all 29 death-event subjects (two read-only
+subagents extracted the record-stated origin + age→date). 24 already display (the viewer falls
+back to a baptism event — e.g. P-0035/P-0072/P-0073 via their primary Swiss/Itaboraí baptisms).
+Only 5 had no origin event at all. Created a birth event for each (E-0098–E-0102), sourced from
+the record stating the origin, with reciprocal event_ids/linked_events (enforced):
+P-0109 Bulle CH (~1800, PAR-0071); P-0023 Portugal country-only (CIV-0007 nationality, no
+locality); P-0009 Eugenópolis MG (CIV-0002); P-0027 Barbacena MG (PAR-0023 marriage, date
+lead-only→unknown); P-0063 Minas Gerais state-level (CIV-0024, c.1834–1839). All strong-evidence;
+no invented localities. GEDCOM + entity-index regenerated; make check 75 green.
