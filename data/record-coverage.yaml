@@ -1168,15 +1168,29 @@ people:
     source_ids: []
     last_reviewed: "2026-07-29"
     next_action: >-
-      Search the Santa Luzia do Carangola Catholic marriages 1898-1924 and any
-      habilitação (names naturalidade + parents); if the marriage predates 1898,
-      search the mother parish, Tombos.
+      FREE PATH FIRST — flag the São João Batista do Rio Claro (SP) marriage film
+      as a FamilySearch retrieval target for the external agent (owner's authorised
+      session / an FS affiliate library): FS microfilm DGS 4632523, rolls 1252455 /
+      1252454, catálogo koha:339388, images access-restricted online. Also search the
+      Santa Luzia do Carangola Catholic marriages 1898-1924 and any habilitação
+      (names naturalidade + parents); if the marriage predates 1898, search the
+      mother parish, Tombos.
     notes:
     - text: >-
         The 1866 "Vila do Rio Claro" power of attorney most plausibly refers to
         Rio Claro, RJ (a vila from 1849), which is geographically distant from
         Carangola; treat the identity as an unconfirmed hypothesis pending the
         record.
+    - text: >-
+        2026-09-10 (retrieval TARGET): the Vicente × Maria Tertuliana marriage at the
+        Matriz de São João Batista do Rio Claro (~1863-1878) is microfilmed at
+        FamilySearch (DGS 4632523, rolls 1252455 / 1252454, koha:339388) but the images
+        are access-restricted online — so this is a FamilySearch-retrieval-agent target
+        (owner's login / affiliate library, free), NOT a paid archive purchase. The
+        Diocese de Piracicaba documental centre (C-010) is a PAID FALLBACK only: its
+        intake form is a "Solicitação de Pesquisa e Certidão" that likely carries a fee
+        even for a "Cópia do Registro Digitalizada"; do not pay, and never order a
+        certidão, without the owner's explicit go-ahead. Try the free FS route first.
     - text: >-
         29 July 2026: Carangola's parish is Santa Luzia do Carangola, which began
         as a curato subsidiary of the Freguesia de Tombos; FamilySearch collection

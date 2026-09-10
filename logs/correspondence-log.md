@@ -300,7 +300,16 @@ lead until verified against an original record.
   (`https://docs.google.com/forms/d/e/1FAIpQLSexKJ3eYZW2acpR5hWySPlIUkoB1454zkGcPUaraj5Xn_MV1w/viewform`),
   after which a tracking link follows the request. No search has been performed until the form
   is submitted.
-- Status: **awaiting the owner to file the intake form.** NEXT ACTION (owner-only — this
-  assistant must not submit a request on the owner's behalf): fill the diocese Google Form with
-  the same request details above, then track via the link they return. Once the image arrives it
-  is value-gated and catalogued as the primary source for Vicente's Portuguese origin.
+- Form reviewed 2026-09-10 (page 1 of 3): "Centro Documental – Solicitação de Pesquisa e
+  Certidão"; up to 30 days; **one search per submission**; service types include a paid
+  "Cópia do Registro Digitalizada" and various certidões — so a fee is likely even for a plain
+  digital copy.
+- Status: **holding the paid form as a fallback.** NEXT ACTIONS: (1) FREE FIRST — flag the
+  Rio Claro marriage film (FS DGS 4632523, rolls 1252455/1252454, koha:339388) as a
+  FamilySearch-retrieval-agent target (recorded in record-coverage on P-0023's marriage);
+  (2) owner to send a short clarifying reply to Christiane (drafted 2026-09-10) explaining the
+  personal-research purpose and asking whether the Rio Claro books are already digitised for a
+  free consultation, whether the FS microfilm images can be accessed via an affiliate library,
+  and whether the "cópia digitalizada" carries a fee — before filing (and paying) anything. The
+  assistant must not submit the form or pay a fee; those are owner-only. Once the image arrives
+  by any route it is value-gated and catalogued as the primary source for Vicente's origin.
