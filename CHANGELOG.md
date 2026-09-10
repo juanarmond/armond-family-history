@@ -5,6 +5,23 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Bohrer djoaovi haul, wave 4b: collateral 1902 baptisms + Heureux-Voyage blog lead (2026-09-10)
+
+- **PAR-0074** Valentim Luciano Bohrer's 1902 baptism (b. 14 May 1902, son of Valentim Martinho
+  Bohrer × Carolina Klein) → documented child on **F-0013** (a sibling of the direct ancestor João
+  Gonçalves Bohrer, P-0014); and **PAR-0075** Etelvina Bohrer's 1902 baptism (b. 16 May 1900,
+  daughter of Joaquim José Bohrer × Lucinda Ferreira da Silva) → documented child on **F-0014** (a
+  sibling of Celina Bohrer, P-0015).
+- The mislabeled "adelaide-carolina-twins-1899" image identified as a 1900 São Pedro page (no
+  twins); its Vicente Bohrer Junior × Hortencia Heckdorn children (João Pedro, Maria Yzaura) are a
+  collateral leaf left unmodelled (noted in the triage ledger and PAR-0074).
+- The "Heureux Voyage" image is a Raibert genealogy **blog** screenshot — a collaborative lead,
+  never evidence; its detail corroborating the primary PAR-0073 was folded, clearly hedged as
+  [LEAD], into the P-0115/P-0116/P-0118 notes (Heggendorn Sr/Lutz birth-death dates, the 1819
+  Heureux-Voyage arrival, and P-0118's possible surname "Hartmann Storck").
+- make check green (70 tests; 136 sources / 198 evidence scans); GEDCOM re-exported. The djoaovi
+  Bohrer haul is now fully triaged.
+
 ### Added — Bohrer djoaovi haul, wave 4a: Eggendorn line extension (2026-09-10)
 
 - **PAR-0072** Maria Thecla Regina Eggendorn's own 1844/45 Nova Friburgo baptism (E-0096) — **born

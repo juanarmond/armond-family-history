@@ -1,0 +1,73 @@
+schema_version: 1
+id: PAR-0074
+title: >-
+  1902 baptism of Valentim Luciano Bohrer at Nova Friburgo — son of Valentim
+  Martinho Bohrer and Carolina Klein
+title_pt: >-
+  Batismo de 1902 de Valentim Luciano Bohrer em Nova Friburgo — filho de Valentim
+  Martinho Bohrer e Carolina Klein
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1902-09-14"
+event_place_text: >-
+  Nova Friburgo (São Pedro), Rio de Janeiro, Brazil
+repository:
+  name: Paróquia de Nova Friburgo (Livro de Baptismos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Baptismos, folha 207 (1902), entry 2150
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-10"
+language: pt-BR
+transcription: >-
+  [Livro de Baptismos, Nova Friburgo, fl.207, 1902.] "2150. Aos quatorze dias do mes de Setembro de
+  mil novecentos e dois baptisei solemnemente a Valentim Luciano, nascido á quatorze de Maio do
+  dito anno, filho legitimo de Valentim Martinho Borker [Bohrer] e Carolina Klein. Forão padrinhos
+  Vicente Borber Junior e Hortencia Heckdorn. Para constar fiz este assento, que assigno. O Vigario
+  José Silvestre Alves de Miranda." [Na mesma folha, entry 2151: "Maria Yzaura, nascida á vinte
+  cinco de Abril do dito anno, filha legitima de Vicente Borber Junior e Hortencia Heckdorn;
+  padrinhos Valentim Martinho Borker e Carolina Klein" — colateral, não modelado.]
+abstract: >-
+  Parish baptism of Valentim Luciano Bohrer, born 14 May 1902 and baptised 14 September 1902 at
+  Nova Friburgo, legitimate son of Valentim Martinho Bohrer (P-0028) and Carolina Klein (P-0029) —
+  i.e. a younger sibling of the direct ancestor João Gonçalves Bohrer (P-0014). Recorded as a
+  documented child on family F-0013. The same register page also baptises Maria Yzaura, daughter of
+  Vicente Bohrer Junior × Hortencia Heckdorn (a collateral branch descending from Vicente Borer ×
+  Maria Heggendorn, F-0034) — noted here but not modelled. The two brothers' households stand as
+  godparents to each other's children.
+abstract_pt: >-
+  Batismo paroquial de Valentim Luciano Bohrer, nascido em 14 de maio de 1902 e baptizado em 14 de
+  setembro de 1902 em Nova Friburgo, filho legítimo de Valentim Martinho Bohrer (P-0028) e Carolina
+  Klein (P-0029) — ou seja, um irmão mais novo do ancestral direto João Gonçalves Bohrer (P-0014).
+  Registrado como filho documentado na família F-0013. A mesma folha do registro também baptiza
+  Maria Yzaura, filha de Vicente Bohrer Junior × Hortencia Heckdorn (ramo colateral descendente de
+  Vicente Borer × Maria Heggendorn, F-0034) — mencionada aqui, mas não modelada. Os dois lares dos
+  irmãos figuram como padrinhos dos filhos um do outro.
+reliability:
+  assessment: >-
+    Primary parish baptism entry — direct primary for the birth/baptism and the child's filiation.
+  informant: The Vigário José Silvestre Alves de Miranda.
+  limitations: >-
+    Surname written "Borker"/"Borber" (Bohrer). Delivered via the Fundação D. João VI digitisation
+    (C-009).
+digital_file:
+  path: evidence/parish/PAR-0074-bohrer-valentimluciano-baptism-1902-novafriburgo.jpg
+  sha256: 3e2fcbd4e46eb82971abaa32fa891ef63bcb7ce051a3673ce7ab9f1b3b6beebe
+linked_people:
+- P-0028
+- P-0029
+linked_families:
+- F-0013
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the documented child Valentim Luciano Bohrer on family F-0013 (Valentim Martinho
+    Bohrer × Carolina Klein). Also records the collateral baptism of Maria Yzaura (Vicente Bohrer
+    Junior × Hortencia Heckdorn), which is left unmodelled.

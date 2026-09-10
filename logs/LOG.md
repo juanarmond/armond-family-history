@@ -1705,3 +1705,27 @@ Two primary Nova Friburgo records opened and transcribed against the image.
    59 families / 94 events / 134 sources). Wave 4b remaining: collateral 1902 baptisms (Valentim
    Luciano, Etelvina), the Heggendorn Heureux-Voyage arrival record, and the mislabeled
    adelaide-carolina image (Vicente Bohrer Junior × Hortencia collateral).
+
+## 2026-09-10 — Bohrer djoaovi haul, Wave 4b: collateral 1902 baptisms + Heureux-Voyage blog lead
+
+Closing pass on the djoaovi drop's remaining Bohrer images.
+
+1. **Direct-line collateral baptisms (documented_children).** PAR-0074: Valentim Luciano Bohrer,
+   b.14 May 1902 / bapt 14 Sep 1902, son of Valentim Martinho Bohrer (P-0028) × Carolina Klein
+   (P-0029) → documented_child on F-0013 (brother of P-0014). PAR-0075: Etelvina Bohrer, b.16 May
+   1900 / bapt (late) 16 Oct 1902, daughter of Joaquim José Bohrer (P-0030) × Lucinda Ferreira da
+   Silva (P-0031) → documented_child on F-0014 (sister of P-0015).
+2. **Mislabeled image resolved.** "adelaide-carolina-twins-1899" is a 1900 São Pedro page (fl.78),
+   no twins. Its relevant entry (João Pedro, b.25 Dec 1899, son of Vicente Bohrer Junior × Hortencia
+   Heckdorn) belongs to a collateral leaf (Vicente Jr. is only a documented_child of F-0034); it
+   names no modelled person entity, so it is dispositioned in the triage ledger and left unmodelled,
+   as is Maria Yzaura from PAR-0074's page. Recording that whole sub-branch would mint a collateral
+   family the direct-line evidence does not require.
+3. **Heureux-Voyage = blog lead.** The "raibert-heureux-voyage" image is a Blogspot screenshot
+   (collaborative secondary), not a record. It corroborates the primary PAR-0073 Eggendorn/Frees
+   parents and adds lead-level dates; these were folded, clearly hedged as [LEAD], into the
+   P-0115/P-0116/P-0118 notes (never promoted): Joseph Heggendorn Sr b.1765 Grindel/d.1829, Anna
+   Maria Lutz b.1767/d.1836, arrival on the Heureux Voyage 1819 (house 71/lote 92), and P-0118's
+   possible maiden surname "Hartmann Storck".
+4. make check green (70 tests; 136 sources / 198 evidence scans). The djoaovi Bohrer haul is now
+   fully triaged across waves 1–4.

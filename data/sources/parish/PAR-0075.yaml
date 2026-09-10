@@ -1,0 +1,65 @@
+schema_version: 1
+id: PAR-0075
+title: >-
+  1902 baptism of Etelvina Bohrer at Nova Friburgo — daughter of Joaquim José
+  Bohrer and Lucinda Ferreira da Silva
+title_pt: >-
+  Batismo de 1902 de Etelvina Bohrer em Nova Friburgo — filha de Joaquim José
+  Bohrer e Lucinda Ferreira da Silva
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1902-10-16"
+event_place_text: >-
+  Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Paróquia de Nova Friburgo (Livro de Baptismos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Baptismos, folha 214 (1902), entry 2245
+  catalogue_reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
+access_date: "2026-09-10"
+language: pt-BR
+transcription: >-
+  [Livro de Baptismos, Nova Friburgo, fl.214, 1902.] "2245. Aos deseseis dias do mes de Outubro de
+  mil novecentos e dois baptisei solemnemente a Etelvina, nascida á deseseis de Maio de mil
+  novecentos, filha legitima de Joaquim José Borber [Bohrer] e Lucinda da Silva Borber [Bohrer].
+  Forão padrinhos Antonio Auverney Sobrinho e Maria Orich Marchon. Para constar fiz este assento,
+  que assigno. O Vigario José Silvestre Alves de Miranda."
+abstract: >-
+  Parish baptism of Etelvina Bohrer, born 16 May 1900 and baptised (late) 16 October 1902 at Nova
+  Friburgo, legitimate daughter of Joaquim José Bohrer (P-0030) and Lucinda Ferreira da Silva
+  (P-0031) — i.e. a sibling of the direct ancestor Celina Bohrer (P-0015). Recorded as a documented
+  child on family F-0014. Godparents Antonio Auverney Sobrinho and Maria Orich Marchon.
+abstract_pt: >-
+  Batismo paroquial de Etelvina Bohrer, nascida em 16 de maio de 1900 e baptizada (tardiamente) em
+  16 de outubro de 1902 em Nova Friburgo, filha legítima de Joaquim José Bohrer (P-0030) e Lucinda
+  Ferreira da Silva (P-0031) — ou seja, uma irmã da ancestral direta Celina Bohrer (P-0015).
+  Registrada como filha documentada na família F-0014. Padrinhos Antonio Auverney Sobrinho e Maria
+  Orich Marchon.
+reliability:
+  assessment: >-
+    Primary parish baptism entry — direct primary for the birth/baptism and the child's filiation.
+  informant: The Vigário José Silvestre Alves de Miranda.
+  limitations: >-
+    A late baptism (born 16 May 1900, baptised October 1902, as written). Surname written
+    "Borber" (Bohrer). Delivered via the Fundação D. João VI digitisation (C-009).
+digital_file:
+  path: evidence/parish/PAR-0075-bohrer-etelvina-baptism-1902-novafriburgo.jpg
+  sha256: 15cdc9f3e20742657531bb5927fb28e80ad4f59646ce9f16cb29ebf96f378138
+linked_people:
+- P-0030
+- P-0031
+linked_families:
+- F-0014
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the documented child Etelvina Bohrer on family F-0014 (Joaquim José Bohrer × Lucinda
+    Ferreira da Silva).
