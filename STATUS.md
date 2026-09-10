@@ -51,7 +51,10 @@ _Resume checkpoint refreshed 2026-09-01._ Ordered queue; per-record detail lives
    (+ sweep `_0030–_0044`) for the third Cardozo × Fagundes attestation; the Honório 1845
    principal autos; the Pitanguy inventário. Trunk material stays LEAD-level until a primary
    record bridges it.
-4. **Other lines:** Vicente's Portuguese parish (CIV-0007); the João–Susanna Sapucaia ceremony
+4. **Other lines:** Vicente's Portuguese parish (CIV-0007) — now routed to the **Diocese de
+   Piracicaba** documental centre, which holds the São João Batista do Rio Claro books
+   (C-010, replied 2026-09-10: **awaiting the owner to file their Google-Form intake** for the
+   Vicente × Maria Tertuliana marriage + Francisco José's baptism); the João–Susanna Sapucaia ceremony
    entry (Cúria, needs authorisation); the Antonio Engracio × Maria Aurora marriage;
    Iris Bohrer's (P-0007) 1929 baptism — request from São Lourenço de Manhuaçu (1929 matriz),
    then N. Sra. da Conceição Alto Jequitibá (C-007); conflict #15 (Francisco Leocádio son vs son-in-law).

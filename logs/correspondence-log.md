@@ -282,3 +282,25 @@ lead until verified against an original record.
   in-person AN-Rio only). Raibert is retired and no longer researches, so the open family
   questions (a Laurent Borer baptism / his ~1880 death at São José do Ribeirão) stay for other
   channels. Recorded on GOV-0007 (provenance chain confirmed).
+
+### C-010 — Centro Documental da Cúria Diocesana de Piracicaba (Rio Claro parish archive)
+- Who: Centro Documental / Arquivo da Cúria Diocesana de Piracicaba (SP)
+  (`arquivo@diocesedepiracicaba.org.br`); reply signed **Christiane**. This is the diocesan
+  archive holding the São João Batista do Rio Claro parish books.
+- Purpose (targets the standing Portuguese-origin gap on Vicente, P-0023 / CIV-0007):
+  a photo/scan of (1) the marriage of **Vicente José de Carvalho Guimarães** (natural de
+  Portugal) × **Maria Tertuliana da Conceição** at the Matriz de São João Batista do Rio Claro,
+  ~1863–1878 — which should name Vicente's Portuguese *freguesia/concelho* and his parents; and
+  (2) the Rio Claro baptism of their son **Francisco José de Carvalho Guimarães** (P-0023's
+  child, ~1870s), which would name the grandparents. FS microfilm reference given: DGS 4632523,
+  rolls 1252455 / 1252454, catalogue koha:339388 (images online but access-restricted).
+- Sent: 2026-09-10 (by the owner). **Reply received 2026-09-10.**
+- Reply substance — **procedural, no records yet.** The Centro Documental has moved to a new
+  intake: each research request must be registered through a Google Form
+  (`https://docs.google.com/forms/d/e/1FAIpQLSexKJ3eYZW2acpR5hWySPlIUkoB1454zkGcPUaraj5Xn_MV1w/viewform`),
+  after which a tracking link follows the request. No search has been performed until the form
+  is submitted.
+- Status: **awaiting the owner to file the intake form.** NEXT ACTION (owner-only — this
+  assistant must not submit a request on the owner's behalf): fill the diocese Google Form with
+  the same request details above, then track via the link they return. Once the image arrives it
+  is value-gated and catalogued as the primary source for Vicente's Portuguese origin.
