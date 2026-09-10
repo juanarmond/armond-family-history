@@ -5,6 +5,16 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — Completion protocol rewritten as a checkable Definition of Done (2026-09-10)
+
+- `AGENTS.md` "Completion protocol" is now an ordered, grouped Definition of Done
+  (Data → Connectivity → Narrative/bilingual sync → Derived artefacts → Validation →
+  Provenance) so no downstream artefact is missed before finishing. Adds the items
+  that had been drifting silently: profile/`profile_pt` sync for every person whose
+  evidence changed, relationship/degree labels traced from `family_ids` (not copied
+  from abstracts), `family-story.yaml` (EN+PT) updates, the `make updates` feed, and
+  a "zero warnings, not just passing tests" gate.
+
 ### Fixed — Four-audit correctness remediation of the Bohrer haul (2026-09-10)
 
 Ran four read-only audits (profile correctness ×2, missed retrieval work, link

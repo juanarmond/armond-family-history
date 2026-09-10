@@ -233,26 +233,65 @@ reads it as deliberate rather than missing.
   `data/sources/<category>/` + `EntityConfig` + `SOURCE_KINDS` entry + ledger
   section + template + viewer `SOURCE_DIR` entry; see `data/README.md`.
 
-## Completion protocol
+## Completion protocol — Definition of Done
 
-Before declaring an objective complete:
+Run this as an ordered, checkable list before declaring **any** objective
+complete. It exists because downstream artefacts (profiles, the Family Story, the
+"What's new" feed, the GEDCOM, relationship labels) drift silently behind the
+structured data: `make check` does **not** catch most of them. Do not stop at
+"the source is catalogued" — walk every group and confirm each item, or state
+explicitly why it does not apply.
 
-1. Update the relevant structured entities, inventory and coverage entry.
-2. Add a reproducible detailed research log when a search was performed.
-3. Update `STATUS.md` only for material state, priority or conclusion changes.
-4. Append `logs/LOG.md` for completed research or repository-audit sessions.
-5. Add a concise `CHANGELOG.md` entry for notable repository changes.
-6. Run `uv run --frozen make check` and fix every error and warning.
-7. When structured data changed, regenerate the committed GEDCOM full backup with
-   `uv run --frozen make export` so `export/armond-family-history.ged` stays in
-   step with the data. (The `.gdz` bundle is on-demand and gitignored.)
-8. Verify link reciprocity and per-entity completeness, which `make check` does
-   not yet enforce (see "Entity connectivity and completeness"): both ends of
-   every family, event and FAN link resolve, no entity is an unintended orphan,
-   and each deliberate omission is noted.
-9. Review the diff for privacy, unsupported promotion and accidental
-   duplication.
-10. Commit one small completed objective. Do not push unless explicitly asked or
-    the active automation explicitly requires it.
-11. Select the next highest-priority actionable objective and continue until a
+**A. Data & evidence.**
+1. Structured entities, `data/document-inventory.yaml` and the affected
+   `data/record-coverage.yaml` entry are updated. Every catalogued vital record
+   has its **event** (`E-…`), and every drop image has a triage-ledger disposition.
+
+**B. Connectivity & completeness** (mostly *not* enforced by `make check` — verify
+by hand and with the advisory audits):
+2. Both ends of every `family`/`event`/`source`/`fan` link resolve; no unintended
+   orphan; each deliberate omission is noted (see "Entity connectivity and
+   completeness"). Cite each source at the assertion it supports.
+3. Run the advisories and clear or acknowledge every hit:
+   `uv run --frozen make ancestors-audit drop-pages-audit profiles-audit`.
+
+**C. Narrative & bilingual sync** (the layer most prone to lag):
+4. For **every person whose evidence changed**, sync `profile` **and** `profile_pt`
+   from the drop's research profile — assert only sourced facts, tag `[LEAD]`/
+   `[INFERRED]` honestly, never launder a lead, and keep EN⇄PT at parity. When a
+   record supersedes an earlier working fact (a corrected date, a confirmed maiden
+   name, a bounded-negative death), rewrite the person's `notes`, open-questions
+   and "Sources held" too — not just the new source.
+5. **Relationship/degree labels** ("Iris's Nth-great-grandparent", "maternal vs
+   paternal line") must be derived from the actual `family_ids` chain, not copied
+   from a source abstract, and must agree in EN and PT.
+6. Update `family-tree-viewer/family-story.yaml` (**both `en:` and `pt:`**) when a
+   narrative-level fact changed (a corrected date/name, a new documented origin).
+   It is a curated essay — it will not auto-update.
+
+**D. Derived artefacts** (regenerate whichever the change touched; commit them like
+source, except the gitignored `.gdz`/`_site/`):
+7. `uv run --frozen make export` — GEDCOM, when structured data changed.
+8. `uv run --frozen make updates` — the viewer "What's new" feed, when a source was
+   added, removed or retitled.
+9. `entity-index.json` — enforced by `make check`'s index test; regenerate if it flags.
+
+**E. Validation gate:**
+10. `uv run --frozen make check` is green — **zero errors and zero warnings**, not
+    just passing tests (read the `validate` output, not only the test tail).
+
+**F. Provenance, review & commit:**
+11. `STATUS.md` refreshed for material state/priority/conclusion changes **and** the
+    repository-snapshot counts. Append `logs/LOG.md` for a completed research or
+    audit session; add a concise `CHANGELOG.md` entry.
+12. Review the diff for privacy, unsupported promotion, lead-laundering and
+    accidental duplication.
+13. Commit one small completed objective. Do not push unless explicitly asked or
+    the active automation requires it.
+14. Select the next highest-priority actionable objective and continue until a
     natural stopping point or a genuine human-intervention blocker.
+
+For a large or repetitive change, split the work across parallel subagents on
+disjoint files (see "Parallelism and delegation"), then run groups B–E centrally
+before committing — a subagent cannot see the whole graph and will not catch a
+cross-entity or bilingual-parity gap.
