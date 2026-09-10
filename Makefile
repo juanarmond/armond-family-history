@@ -1,8 +1,17 @@
-.PHONY: check test validate profiles-audit ancestors-audit drop-pages-audit triage-audit updates export export-bundle export-legacy
+.PHONY: check test validate profiles-audit ancestors-audit drop-pages-audit triage-audit updates export export-bundle export-legacy install-hooks
 
 PYTHON ?= python3
 
 check: validate test
+
+# Install the repository-health pre-commit gate (runs `make check` on structural
+# commits) alongside the existing Git LFS hooks, without clobbering them.
+install-hooks:
+	@cp .githooks/pre-commit .git/hooks/pre-commit
+	@chmod +x .git/hooks/pre-commit
+	@echo "Installed .git/hooks/pre-commit — runs 'make check' when a commit touches"
+	@echo "data/, scripts/, schemas/, tests/, the Makefile, the viewer or export/."
+	@echo "Git LFS hooks are preserved. Bypass a single commit with: git commit --no-verify"
 
 validate:
 	$(PYTHON) scripts/validate_data.py

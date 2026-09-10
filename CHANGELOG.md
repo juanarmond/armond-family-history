@@ -5,6 +5,21 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — GEDCOM in-step test + pre-commit gate: every structural rule now runs automatically (2026-09-10)
+
+- **GEDCOM in-step test** (`tests/test_gedcom_export.py`): `make check` now fails if
+  `export/armond-family-history.ged` drifts from `data/` (compared ignoring only the
+  export-date header lines). Every committed derived artefact — entity-index, updates
+  feed, GEDCOM — is now in-step-tested, closing the "forgot to regenerate" failure mode.
+- **Committed pre-commit hook** (`.githooks/pre-commit` + `make install-hooks`): runs
+  `make check` automatically on any commit touching `data/`, `scripts/`, `schemas/`,
+  `tests/`, the Makefile, the viewer or `export/`, so the enforced structural rules
+  cannot be committed broken. Installed alongside the Git LFS hooks without clobbering
+  them; bypass a single commit with `git commit --no-verify`.
+- With CI (`.github/workflows/check.yml`, already running `make check` on push + PR) and
+  the local hook, the structural rules run **before every commit and on every push** —
+  not only when someone remembers. Test count 74 → 75.
+
 ### Added — Mechanical enforcement of link reciprocity and the updates feed (2026-09-10)
 
 Turned two Definition-of-Done rules from "remember to do it" into build gates, so

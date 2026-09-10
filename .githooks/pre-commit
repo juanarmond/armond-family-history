@@ -1,0 +1,19 @@
+#!/bin/sh
+# Repository-health pre-commit gate (armond-family-history).
+#
+# Runs `make check` whenever a commit touches structural files, so the enforced
+# rules cannot be committed broken: JSON-schema validity, ID-ledger integrity,
+# link reciprocity (person<->family / person<->event / event<->source), and the
+# in-step committed derived artefacts (entity-index.json, updates.json feed, and
+# the GEDCOM backup). If data changed but `make export` / `make updates` were not
+# re-run, `make check` fails here and the commit is blocked until they are.
+#
+# Install with `make install-hooks`. Bypass in an emergency: git commit --no-verify
+set -e
+
+changed=$(git diff --cached --name-only --diff-filter=ACM)
+if printf '%s\n' "$changed" | grep -qE '^(data/|scripts/|schemas/|tests/|Makefile|family-tree-viewer/|export/)'; then
+	echo "pre-commit: structural files staged — running 'make check'…"
+	uv run --frozen make check
+	echo "pre-commit: repository health OK."
+fi
