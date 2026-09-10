@@ -9,7 +9,8 @@ name_variants:
   type: source
   source_ids:
   - PAR-0025
-event_ids: []
+event_ids:
+- E-0118
 family_ids:
 - F-0031
 notes:

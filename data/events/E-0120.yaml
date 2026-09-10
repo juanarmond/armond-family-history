@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0120
+event_type: birth
+date:
+  kind: unknown
+  text: >-
+    No age or birth date is stated in PAR-0025; only the birthplace.
+place_text: >-
+  Villa de Ouru [Ouro? — uncertain read], Bispado de São Paulo, Brazil
+participants:
+- person_id: P-0067
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0025
+notes:
+- text: >-
+    Birthplace from her granddaughter's 1777 Piracatu baptism (PAR-0025): "Maria Francisca Cordeira, natural da Villa de Ouru [Ouro? — uncertain read], Bispado de S. Paulo". OWNER LEAD: the owner reports the couple's marriage act (Paracatu, not yet catalogued) reads her origin as ITU — baptised at N.S. da Candelária de Itu, 1737 — which is likewise in the Bispado de São Paulo and would RESOLVE this uncertain 'Ouru' read and unlock her Itu baptism. Retrieve and catalogue that marriage act before promoting 'Itu' to evidence.

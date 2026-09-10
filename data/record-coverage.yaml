@@ -1736,10 +1736,12 @@ people:
     source_ids: []
     last_reviewed: "2026-08-07"
     next_action: >-
-      Portuguese immigrant from Viana (Arcebispado de Braga — almost certainly Viana do
-      Castelo). Search Viana do Castelo parish baptism registers; requires Portugal
-      archive access. Identify approximate birth year from Ignez Francisca de Lima's
-      birth and work backwards.
+      KEY RECORD (owner-identified): the couple's own marriage act (Paracatu, NOT yet
+      catalogued) states both spouses' birthplaces and corroborates his "Villa de Viana,
+      Arcebispado de Braga" origin (held via PAR-0025, now birth event E-0119). Retrieve
+      and catalogue that marriage act first — it is the key that unlocks his Viana (do
+      Castelo) baptism. Then search Viana do Castelo parish baptism registers (Portugal
+      archive access); estimate his birth year backwards from Ignez Francisca de Lima's.
     notes: []
   notes:
   - text: >-
@@ -1754,10 +1756,14 @@ people:
     source_ids: []
     last_reviewed: "2026-08-07"
     next_action: >-
-      Maternal grandmother of Ignez Francisca de Lima (P-0060); from "Villa de Ouru
-      [Ouro?]", Bispado de São Paulo. Likely Ouro Preto or another mining town; reading
-      uncertain. Confirm the place name from a higher-resolution image of PAR-0025,
-      then search appropriate parish records.
+      Maternal grandmother of Ignez Francisca de Lima (P-0060). PAR-0025 reads her origin
+      as "Villa de Ouru [Ouro? — uncertain], Bispado de S. Paulo" (birth event E-0120).
+      OWNER LEAD (supersedes the earlier "Ouro Preto" guess): the couple's marriage act
+      (Paracatu, NOT yet catalogued) reads her origin as ITU — baptised at N.S. da
+      Candelária de Itu in 1737 — which is likewise in the Bispado de São Paulo and
+      RESOLVES the uncertain "Ouru" read. KEY RECORD: retrieve and catalogue the Paracatu
+      marriage act, then pull her 1737 N.S. da Candelária de Itu baptism (it names her
+      parents). Do not promote "Itu" to evidence until the marriage act is held.
     notes: []
   notes:
   - text: >-

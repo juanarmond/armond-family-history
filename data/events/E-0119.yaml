@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0119
+event_type: birth
+date:
+  kind: unknown
+  text: >-
+    No age or birth date is stated in PAR-0025; only the birthplace.
+place_text: >-
+  Villa de Viana (Viana do Castelo), Arcebispado de Braga, Portugal
+participants:
+- person_id: P-0066
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0025
+notes:
+- text: >-
+    Birthplace from his granddaughter's 1777 Piracatu baptism (PAR-0025): "João Rodrigues de Mello, natural da Villa de Vianna, Arcebispado de Braga" (almost certainly Viana do Castelo, Minho). OWNER LEAD: the owner reports the couple's own marriage act (Paracatu, not yet catalogued) corroborates his Viana/Braga origin; once catalogued that record would unlock his Viana baptism.

@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0118
+event_type: birth
+date:
+  kind: unknown
+  text: >-
+    No age or birth date is stated in PAR-0025; only the birthplace.
+place_text: >-
+  Cidade de São Paulo, Brazil
+participants:
+- person_id: P-0065
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0025
+notes:
+- text: >-
+    Birthplace from her grandson Amaro's 1777 Piracatu baptism (PAR-0025): "Perpétua da Silva, natural da Cidade de S. Paulo". Informant-reported grandparent origin (indirect for the birth).
