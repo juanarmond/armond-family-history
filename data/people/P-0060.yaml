@@ -21,21 +21,25 @@ notes:
     Eliza Balbina de Toledo (P-0017) on her father's maternal line. Named in her
     daughter's 1810 São João del Rei marriage record (PAR-0023) as "Ignez Francisca
     de Lima" and in the 1777 Piracatu baptism of her daughter Maria (PAR-0025) as
-    "Ignez Francisca de Lima, natural [d]ora frequesias" — birthplace not clearly
-    resolved. Her parents are confirmed by PAR-0025 as João Rodrigues de Mello
-    (P-0066, from Viana, Portugal) × Maria Francisca Cordeira (P-0067, from Villa de
-    Ouro, Bispado de São Paulo). PAR-0023 states both she and Amaro as "naturais e
-    batizados da Freguesia de Barbacena" — see material conflict note in P-0059. Her
-    own baptism and death records have not been located.
+    "Ignez Francisca de Lima, natural desta freguezia" (native of the Paracatú/Manga
+    parish; the earlier ambiguous "[d]ora frequesias" read is superseded by the
+    2026-09-10 transcription). Her parents are confirmed by PAR-0025 as João Rodrigues
+    de Mello (P-0066, from Viana, Portugal) × Maria Francisca Cordeira (P-0067, from the
+    Villa de Itu, Bispado de São Paulo — origin word re-read as "Ytù" 2026-09-10,
+    superseding the earlier "Ouru [Ouro?]"). PAR-0023 states both she and Amaro as
+    "naturais e batizados da Freguesia de Barbacena" — see material conflict note in
+    P-0059. Her own baptism and death records have not been located.
   text_pt: >-
     Mãe de Mathilde Maria de Jesus (P-0027); portanto, bisavó de Eliza Balbina
     de Toledo (P-0017) na linha materna de seu pai. Nomeada no registro de
     casamento de 1810 de sua filha em São João del Rei (PAR-0023) como "Ignez
     Francisca de Lima" e no batismo de 1777 de sua filha Maria em Piracatu
-    (PAR-0025) como "Ignez Francisca de Lima, natural [d]ora frequesias" — local
-    de nascimento não claramente resolvido. Seus pais são confirmados por PAR-0025
+    (PAR-0025) como "Ignez Francisca de Lima, natural desta freguezia" (natural da
+    freguesia de Paracatú/Manga; a leitura anterior e ambígua "[d]ora frequesias" está
+    superada pela transcrição de 2026-09-10). Seus pais são confirmados por PAR-0025
     como João Rodrigues de Mello (P-0066, de Viana, Portugal) × Maria Francisca
-    Cordeira (P-0067, de Villa de Ouro, Bispado de São Paulo). PAR-0023 declara
+    Cordeira (P-0067, da Villa de Itu, Bispado de São Paulo — palavra da origem relida
+    como "Ytù" em 2026-09-10, superando a anterior "Ouru [Ouro?]"). PAR-0023 declara
     tanto ela quanto Amaro como "naturais e batizados da Freguesia de Barbacena" —
     ver a nota de conflito material em P-0059. Seus próprios registros de batismo
     e óbito não foram localizados.
@@ -47,14 +51,17 @@ profile: >-
   on her father's maternal line). Wife of Alferes Amaro da Silva Xavier (P-0059), family F-0029;
   the marriage act is not held.
 
-  - **Origin — unclear:** PAR-0025 (1777) reads her "natural [d]ora frequesias" (not
-  cleanly resolved; a retrieval re-read argues "natural desta freguezia", i.e. the Paracatú
-  / Manga parish); PAR-0023 (1810) describes both her and Amaro as "naturais e batizados da
-  Freguesia de Barbacena" (see the material conflict on P-0059). [conflict flagged]
+  - **Origin:** PAR-0025 (1777) now reads her "natural desta freguezia" — a native of the
+  Paracatú / Manga parish where the baptism was recorded (the earlier ambiguous "[d]ora
+  frequesias" read is superseded by the 2026-09-10 transcription) [PROVEN reading]; PAR-0023
+  (1810) instead describes both her and Amaro as "naturais e batizados da Freguesia de
+  Barbacena" — most likely a long-term Barbacena domicile (see the material conflict on
+  P-0059). [conflict flagged]
 
   - **Parents:** João Rodrigues de Mello (P-0066, of Viana, Arcebispado de Braga, Portugal)
-  × Maria Francisca Cordeira (P-0067, of Villa de Ouru [Ouro?], Bispado de São Paulo),
-  confirmed by PAR-0025 (family F-0032). Nationality Brazilian.
+  × Maria Francisca Cordeira (P-0067, of the Villa de Itu, Bispado de São Paulo — origin
+  re-read "Ytù" 2026-09-10, superseding the earlier "Ouru [Ouro?]"), confirmed by PAR-0025
+  (family F-0032). Nationality Brazilian.
 
   - **Death:** after 1795 (Mathilde baptised 1795) [INFERRED]; own records not located.
 
@@ -127,15 +134,17 @@ profile_pt: >-
   Toledo na linha materna de seu pai). Esposa de Alferes Amaro da Silva Xavier (P-0059), família F-0029; o assento de
   casamento não está disponível.
 
-  - **Origem — incerta:** PAR-0025 (1777) a lê "natural [d]ora frequesias" (não claramente
-  resolvido; uma nova leitura de recuperação defende "natural desta freguezia", isto é, a
-  freguesia de Paracatú / Manga); PAR-0023 (1810) descreve tanto ela quanto Amaro como
-  "naturais e batizados da Freguesia de Barbacena" (ver o conflito material em P-0059).
-  [conflito sinalizado]
+  - **Origem:** PAR-0025 (1777) agora a lê "natural desta freguezia" — natural da freguesia
+  de Paracatú / Manga, onde o batismo foi registrado (a leitura anterior e ambígua "[d]ora
+  frequesias" está superada pela transcrição de 2026-09-10) [PROVEN quanto à leitura];
+  PAR-0023 (1810) descreve tanto ela quanto Amaro como "naturais e batizados da Freguesia de
+  Barbacena" — muito provavelmente um domicílio de longa data em Barbacena (ver o conflito
+  material em P-0059). [conflito sinalizado]
 
   - **Pais:** João Rodrigues de Mello (P-0066, de Viana, Arcebispado de Braga, Portugal) ×
-  Maria Francisca Cordeira (P-0067, de Villa de Ouru [Ouro?], Bispado de São Paulo),
-  confirmados por PAR-0025 (família F-0032). Nacionalidade brasileira.
+  Maria Francisca Cordeira (P-0067, da Villa de Itu, Bispado de São Paulo — palavra da
+  origem relida como "Ytù" em 2026-09-10, superando a anterior "Ouru [Ouro?]"), confirmados
+  por PAR-0025 (família F-0032). Nacionalidade brasileira.
 
   - **Óbito:** depois de 1795 (Mathilde batizada em 1795) [INFERRED]; registros próprios
   não localizados.

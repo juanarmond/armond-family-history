@@ -34,7 +34,9 @@ notes:
     Matriz de São João Baptista da Lagoa; this supersedes the earlier "natural desta
     Freguezia" (Nova Friburgo, RJ) reading from her son Alberto's 1890 birth (CIV-0019),
     preserved as an informant-reported conflict — the Silva-Ferreira family was in Rio in
-    1862-63 and returned to Nova Friburgo later.
+    1862-63 and returned to Nova Friburgo later. Her own 1884 marriage (PAR-0056) independently
+    corroborates the Rio birthplace ("nascida e baptisada na freguezia de S. João Baptista da
+    Lagoa, na Corte").
   text_pt: >-
     Posição 31 no Ahnentafel — mãe de Celina (Selina) Bohrer (P-0015). Nomeada como
     "Lucinda Ferreira da Silva Bohrer" no óbito de 1977 de Celina (CIV-0015), no
@@ -47,21 +49,23 @@ notes:
     supera a leitura anterior "natural desta Freguezia" (Nova Friburgo, RJ) do nascimento
     de 1890 de seu filho Alberto (CIV-0019), preservada como conflito relatado pelo
     informante — a família Silva-Ferreira estava no Rio em 1862-63 e retornou a Nova
-    Friburgo depois.
+    Friburgo depois. Seu próprio casamento de 1884 (PAR-0056) corrobora de forma independente o
+    local de nascimento no Rio ("nascida e baptisada na freguezia de S. João Baptista da Lagoa,
+    na Corte").
 - text: >-
     Her parents are now established: Antonio da Silva Ferreira (P-0036) and Maria
     Joanna da Silva Ferreira (P-0037) — family F-0017 — named as the maternal
-    grandparents in Alberto Bohrer's 1890 birth (CIV-0019) and again in her own 1863
-    baptism (PAR-0077). Both are now documented in their own right — see P-0036 (incl.
-    his 1859 marriage and 1914 Nova Friburgo death) and P-0037 (baptism, marriage, and
-    Nova Friburgo death bracketed to ~1896-1899).
+    grandparents in Alberto Bohrer's 1890 birth (CIV-0019), in her own 1863 baptism (PAR-0077)
+    and in her own 1884 marriage (PAR-0056). Both are now documented in their own right — see
+    P-0036 (incl. his 1859 marriage and 1914 Nova Friburgo death) and P-0037 (baptism, marriage,
+    and Nova Friburgo death bracketed to ~1896-1899).
   text_pt: >-
     Seus pais estão agora estabelecidos: Antonio da Silva Ferreira (P-0036) e Maria
     Joanna da Silva Ferreira (P-0037) — família F-0017 — nomeados como os avós maternos
-    no nascimento de 1890 de Alberto Bohrer (CIV-0019) e novamente em seu próprio batismo
-    de 1863 (PAR-0077). Ambos estão agora documentados por si mesmos — ver P-0036 (incl.
-    seu casamento de 1859 e seu óbito de 1914 em Nova Friburgo) e P-0037 (batismo,
-    casamento e óbito em Nova Friburgo delimitado a ~1896-1899).
+    no nascimento de 1890 de Alberto Bohrer (CIV-0019), em seu próprio batismo de 1863
+    (PAR-0077) e em seu próprio casamento de 1884 (PAR-0056). Ambos estão agora documentados por
+    si mesmos — ver P-0036 (incl. seu casamento de 1859 e seu óbito de 1914 em Nova Friburgo) e
+    P-0037 (batismo, casamento e óbito em Nova Friburgo delimitado a ~1896-1899).
 profile: >-
   ## Identity
 
@@ -79,11 +83,15 @@ profile: >-
   (P-0037) [PROVEN] — named as the maternal grandparents in her son Alberto's 1890 birth
   (CIV-0019).
 
-  - **Marriage:** to Joaquim José Bohrer (P-0030), at the Nova Friburgo matriz [PROVEN of
-  the union] (CIV-0019).
+  - **Marriage:** to Joaquim José Bohrer (P-0030) on 19 April 1884 at the Nova Friburgo Matriz
+  de São João Baptista, aged 21 [PROVEN — her own marriage act PAR-0056, event E-0085]. That act
+  records her "nascida e baptisada na freguezia de S. João Baptista da Lagoa, na Corte" (Rio),
+  independently corroborating her 1863 Rio baptism (PAR-0077).
 
-  - **Children:** Alberto (1890), an infant son (1891–92), Antonio José (d. 1899) and
-  Celina / Selina (P-0015) — see P-0030. [PROVEN]
+  - **Children:** Alberto (1890), an infant son (1891–92), Antonio José (d. 1899, aged 13),
+  Celina / Selina (P-0015, b. 13 May 1899, PAR-0057), Etelvina (b. 1900, baptised 1902,
+  PAR-0075), Lucinda Maria (b. 1908, PAR-0052) and Lucinda Bohrer Moreira (b. 1909, d. 1996,
+  CIV-0032) — see P-0030. [PROVEN]
 
   - **Death:** already deceased by 1924 (recorded "já falecidos" with her husband on
   Eunir's 1924 birth, CIV-0016) and named as Celina's deceased mother in 1977 (CIV-0015)
@@ -116,16 +124,21 @@ profile: >-
 
   ## Open questions
 
-  - Her marriage act and her death record — not held; would fix her marriage and death
-  dates. (Her birth and baptism are now held — PAR-0077, Rio de Janeiro, which also
-  independently confirms her parents.) [OPEN]
+  - Her death record — not held; would fix her death date. (Her marriage is now held —
+  PAR-0056, 19 April 1884; her birth and baptism are held — PAR-0077, Rio de Janeiro, which
+  also independently confirms her parents.) [OPEN]
 
   ## Sources held (this repository)
 
   - PAR-0077 (her own 1863 Rio de Janeiro baptism — her birth date, birthplace and
-  parents) · CIV-0019 (son Alberto's 1890 birth — names her, her husband and her parents)
-  · CIV-0020 (infant son's 1891 birth) · CIV-0015 (daughter Celina's 1977 death) ·
+  parents) · PAR-0056 (her own 1884 Nova Friburgo marriage to Joaquim — 19 April 1884, aged 21,
+  Rio birthplace corroborated) · CIV-0019 (son Alberto's 1890 birth — names her, her husband and
+  her parents) · CIV-0020 (infant son's 1891 birth) · CIV-0015 (daughter Celina's 1977 death) ·
   CIV-0016 (granddaughter Eunir's 1924 birth, naming her a deceased maternal grandmother).
+
+  - PAR-0057 (daughter Celina's 1899 baptism) · PAR-0075 (daughter Etelvina's 1902 baptism) ·
+  PAR-0052 (daughter Lucinda Maria's 1908 baptism) · CIV-0032 (daughter Lucinda Bohrer Moreira's
+  1996 Volta Redonda death) — all naming her as mother.
 
   ## Regional and migration context
 
@@ -136,9 +149,10 @@ profile: >-
 
   ## Where to go today
 
-  - **Marriage and death parish:** Catedral Diocesana / Igreja Matriz de São João
-  Batista, Nova Friburgo, RJ (Rua Monsenhor José Antônio Teixeira 23, Centro, CEP 28610-390)
-  [RESOLVED] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
+  - **Marriage (19 Apr 1884, held) and death (not held) parish:** Catedral Diocesana / Igreja
+  Matriz de São João Batista, Nova Friburgo, RJ (Rua Monsenhor José Antônio Teixeira 23, Centro,
+  CEP 28610-390) — her marriage act (PAR-0056) is held; her death record is not. [RESOLVED for
+  the marriage] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
 
   - **Baptism (already held, 1863):** Matriz de São João Baptista da Lagoa, Rio de Janeiro
   (Corte) — her own baptism (PAR-0077) is held. [RESOLVED]
@@ -159,11 +173,16 @@ profile_pt: >-
   [PROVEN] — nomeados como avós maternos no nascimento de 1890 de seu filho Alberto
   (CIV-0019).
 
-  - **Casamento:** com Joaquim José Bohrer (P-0030), na matriz de Nova Friburgo [PROVEN
-  quanto à união] (CIV-0019).
+  - **Casamento:** com Joaquim José Bohrer (P-0030) em 19 de abril de 1884 na Matriz de São
+  João Baptista de Nova Friburgo, aos 21 anos [PROVEN — seu próprio ato de casamento PAR-0056,
+  evento E-0085]. Esse ato a registra "nascida e baptisada na freguezia de S. João Baptista da
+  Lagoa, na Corte" (Rio), corroborando de forma independente seu batismo de 1863 no Rio
+  (PAR-0077).
 
-  - **Filhos:** Alberto (1890), um filho menino (1891–92), Antonio José (f. 1899) e Celina
-  / Selina (P-0015) — ver P-0030. [PROVEN]
+  - **Filhos:** Alberto (1890), um filho menino (1891–92), Antonio José (f. 1899, aos 13 anos),
+  Celina / Selina (P-0015, n. 13 de maio de 1899, PAR-0057), Etelvina (n. 1900, baptizada em
+  1902, PAR-0075), Lucinda Maria (n. 1908, PAR-0052) e Lucinda Bohrer Moreira (n. 1909, f. 1996,
+  CIV-0032) — ver P-0030. [PROVEN]
 
   - **Óbito:** já falecida em 1924 (registrada "já falecidos" com o marido no nascimento de
   1924 de Eunir, CIV-0016) e nomeada como mãe falecida de Celina em 1977 (CIV-0015) [PROVEN
@@ -195,17 +214,22 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seu assento de casamento e seu registro de óbito — não obtidos; fixariam suas datas
-  de casamento e óbito. (Seu nascimento e batismo estão agora obtidos — PAR-0077, Rio de
-  Janeiro, que também confirma de forma independente seus pais.) [OPEN]
+  - Seu registro de óbito — não obtido; fixaria sua data de óbito. (Seu casamento está agora
+  obtido — PAR-0056, 19 de abril de 1884; seu nascimento e batismo estão obtidos — PAR-0077, Rio
+  de Janeiro, que também confirma de forma independente seus pais.) [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
   - PAR-0077 (seu próprio batismo de 1863 no Rio de Janeiro — data e local de nascimento e
-  os pais) · CIV-0019 (nascimento de 1890 do filho Alberto — nomeia ela, o marido e os
-  pais dela) · CIV-0020 (nascimento de 1891 do filho menino) · CIV-0015 (óbito de 1977 da
-  filha Celina) · CIV-0016 (nascimento de 1924 da neta Eunir, nomeando-a avó materna
-  falecida).
+  os pais) · PAR-0056 (seu próprio casamento de 1884 em Nova Friburgo com Joaquim — 19 de abril
+  de 1884, aos 21 anos, local de nascimento no Rio corroborado) · CIV-0019 (nascimento de 1890
+  do filho Alberto — nomeia ela, o marido e os pais dela) · CIV-0020 (nascimento de 1891 do
+  filho menino) · CIV-0015 (óbito de 1977 da filha Celina) · CIV-0016 (nascimento de 1924 da
+  neta Eunir, nomeando-a avó materna falecida).
+
+  - PAR-0057 (batismo de 1899 da filha Celina) · PAR-0075 (batismo de 1902 da filha Etelvina) ·
+  PAR-0052 (batismo de 1908 da filha Lucinda Maria) · CIV-0032 (óbito de 1996 da filha Lucinda
+  Bohrer Moreira em Volta Redonda) — todos nomeando-a como mãe.
 
   ## Contexto regional e migratório
 
@@ -216,9 +240,10 @@ profile_pt: >-
 
   ## Onde ir hoje
 
-  - **Freguesia de casamento e óbito:** Catedral Diocesana / Igreja Matriz de São
-  João Batista, Nova Friburgo, RJ (Rua Monsenhor José Antônio Teixeira 23, Centro, CEP
-  28610-390) [RESOLVED] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
+  - **Freguesia de casamento (19 abr 1884, obtido) e óbito (não obtido):** Catedral Diocesana /
+  Igreja Matriz de São João Batista, Nova Friburgo, RJ (Rua Monsenhor José Antônio Teixeira 23,
+  Centro, CEP 28610-390) — seu ato de casamento (PAR-0056) está obtido; seu registro de óbito
+  não. [RESOLVED quanto ao casamento] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
 
   - **Batismo (já obtido, 1863):** Matriz de São João Baptista da Lagoa, Rio de Janeiro
   (Corte) — seu próprio batismo (PAR-0077) está obtido. [RESOLVED]

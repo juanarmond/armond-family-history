@@ -50,16 +50,18 @@ notes:
 - text: >-
     Father of Ritta Angélica Rodrigues (P-0058), who married Joaquim José Ferreira de
     Toledo (P-0057); hence a direct maternal-line ancestor of Eliza Balbina de Toledo
-    (P-0017). The link P-0078 → P-0058 rests on PAR-0018 (Ritta's own marriage naming
-    her parents "João Rodrigues [do Valle] e Izabel Ribeira") identified with the
-    PAR-0034 couple — strong-evidence, not certain (common names).
+    (P-0017). The link P-0078 → P-0058 is now PRIMARY: Ritta's own 1764 baptism (PAR-0049)
+    names him her father, "natural da freguesia de São Martinho de Ruivães" — superseding
+    the earlier strong-evidence name-match (her 1783 marriage PAR-0018 identified with the
+    PAR-0034 couple).
   text_pt: >-
     Pai de Ritta Angélica Rodrigues (P-0058), que se casou com Joaquim José
     Ferreira de Toledo (P-0057); portanto, um ancestral direto da linha materna
-    de Eliza Balbina de Toledo (P-0017). A ligação P-0078 → P-0058 baseia-se em
-    PAR-0018 (o próprio casamento de Ritta nomeando seus pais "João Rodrigues [do
-    Valle] e Izabel Ribeira"), identificado com o casal de PAR-0034 — evidência
-    forte, não certa (nomes comuns).
+    de Eliza Balbina de Toledo (P-0017). A ligação P-0078 → P-0058 é agora
+    PRIMÁRIA: o próprio batismo de Ritta, de 1764 (PAR-0049), nomeia-o como seu
+    pai, "natural da freguesia de São Martinho de Ruivães" — superando a anterior
+    correspondência de nomes de evidência forte (seu casamento de 1783, PAR-0018,
+    identificado com o casal de PAR-0034).
 - text: >-
     Nationality Portuguese: born and baptized at Ruivais, Braga, Portugal (PAR-0035),
     a documented foreign birthplace; the 1751 marriage certidão (PAR-0034) corrects
@@ -99,19 +101,22 @@ profile: >-
   "natural desta freguezia" and then corrected itself: "foi equivocação do R.do Vigar.o
   dizer que João Roiz Valle h.[om]em desta freg.a pois h.[om]em de Ruvans do Arceb.o de
   Braga" — an explicit contemporaneous statement of his Ruivais (Braga) origin,
-  corroborated by his 1728 baptism.
+  corroborated by his 1728 baptism. His daughter Rita's 1764 baptism (PAR-0049)
+  independently records him "natural da freguesia de São Martinho de Ruivães, Arcebispado
+  de Braga" — a third attestation of his Braga origin.
 
   ## Family and social network
 
-  - **Father of Ritta Angélica Rodrigues (P-0058)** [strong-evidence], who married
-  Joaquim José Ferreira de Toledo (P-0057). Ritta's own 1783 Barbacena marriage names
-  her parents "João Rodrigues [do Valle] e Izabel Ribeira" (PAR-0018); identifying that
-  couple with this couple — same names, same Borda do Campo parish, consistent timeline —
-  is strong, not certain. Through Ritta he is a direct maternal-line ancestor of Eliza
-  Balbina de Toledo (P-0017).
+  - **Father of Ritta Angélica Rodrigues (P-0058)** [PROVEN], who married Joaquim José
+  Ferreira de Toledo (P-0057). Ritta's own 1764 Barbacena baptism (PAR-0049; E-0076) names
+  him as her father — "João Roiz [Rodrigues] Valle, natural da freguesia de São Martinho de
+  Ruivães, Arcebispado de Braga" — so the P-0078 → P-0058 link is now primary, no longer the
+  earlier strong-evidence name-match. Her later 1783 Barbacena marriage independently names
+  her parents "João Rodrigues [do Valle] e Izabel Ribeira" (PAR-0018), corroborating it.
+  Through Ritta he is a direct maternal-line ancestor of Eliza Balbina de Toledo (P-0017).
 
   - His marriage grafted the Portuguese Rodrigues/Valle line onto the maternal Toledo
-  trunk. [PROVEN for the marriage; strong-evidence for the graft via P-0058]
+  trunk. [PROVEN for the marriage and, via Rita's 1764 baptism, for the graft via P-0058]
 
   ## What we can extrapolate
 
@@ -127,16 +132,16 @@ profile: >-
   José was João's son / Rita's brother rests on a secondary genealogy (the inventário does not
   name his parents), so the attachment to our line is a strong lead, not confirmed. [LEAD for the link]
 
-  - The retrieval synthesis (older than our records) still treats his Portuguese origin
-  and the Ritta link as unproven blog leads and ties his line to a "Fazenda do
-  Contramestre" with a 1750 senzala inscription; that estate attribution is an unverified
-  tree/site lead our sources do not carry. [LEAD]
+  - A retrieval finding ties his line to a "Fazenda do Contramestre" (Barbacena) with a
+  1750 senzala inscription; that estate attribution is an unverified tree/site lead our
+  sources do not carry, and whether the estate was his own or a descendant's is unpinned.
+  [LEAD]
 
   ## Open questions
 
-  - His **death record**, and true-primary confirmation of the Ritta link (ideally
-  Ritta's own ~1760s Barbacena baptism), remain open; the marriage act and baptism
-  already fix his identity and origin. [OPEN]
+  - His **death record** remains unlocated; his identity, origin and the Ritta link are
+  already fixed by primary records (the 1751 marriage certidão, his 1728 baptism, and
+  Rita's 1764 baptism PAR-0049, which names him her father). [OPEN]
 
   ## Sources held (this repository)
 
@@ -144,8 +149,9 @@ profile: >-
   Campo marriage certidão — his marriage and Portuguese origin) · PAR-0036 (1716 Ruivais
   marriage of his parents).
 
-  - PAR-0018 (1783 Barbacena marriage of his daughter Ritta — the strong-evidence
-  child link).
+  - PAR-0049 (1764 Barbacena baptism of his daughter Ritta — names him her father and
+  records his Ruivães origin; the primary that makes the P-0078 → P-0058 link direct) ·
+  PAR-0018 (1783 Barbacena marriage of his daughter Ritta — corroborates the child link).
 
   ## Regional and migration context
 
@@ -198,19 +204,24 @@ profile_pt: >-
   escreveu-o primeiro como "natural desta freguezia" e depois corrigiu-se: "foi
   equivocação do R.do Vigar.o dizer que João Roiz Valle h.[om]em desta freg.a pois
   h.[om]em de Ruvans do Arceb.o de Braga" — uma declaração explícita e contemporânea de
-  sua origem em Ruivais (Braga), corroborada por seu batismo de 1728.
+  sua origem em Ruivais (Braga), corroborada por seu batismo de 1728. O batismo de 1764
+  de sua filha Rita (PAR-0049) o registra, de forma independente, "natural da freguesia de
+  São Martinho de Ruivães, Arcebispado de Braga" — uma terceira atestação de sua origem
+  em Braga.
 
   ## Família e rede social
 
-  - **Pai de Ritta Angélica Rodrigues (P-0058)** [evidência forte], que se casou com
-  Joaquim José Ferreira de Toledo (P-0057). O próprio casamento de Ritta em Barbacena, por
-  volta de 1786, nomeia seus pais "João Rodrigues [do Valle] e Izabel Ribeira" (PAR-0018);
-  identificar esse casal com este casal — mesmos nomes, mesma freguesia da Borda do Campo,
-  cronologia consistente — é forte, não certo. Por meio de Ritta, ele é ancestral direto,
-  pela linha materna, de Eliza Balbina de Toledo (P-0017).
+  - **Pai de Ritta Angélica Rodrigues (P-0058)** [PROVEN], que se casou com Joaquim José
+  Ferreira de Toledo (P-0057). O próprio batismo de Ritta em Barbacena, de 1764 (PAR-0049;
+  E-0076), nomeia-o como seu pai — "João Roiz [Rodrigues] Valle, natural da freguesia de
+  São Martinho de Ruivães, Arcebispado de Braga" — de modo que a ligação P-0078 → P-0058 é
+  agora primária, e não mais a anterior correspondência de nomes de evidência forte. Seu
+  casamento posterior, de 1783 em Barbacena, nomeia de forma independente seus pais "João
+  Rodrigues [do Valle] e Izabel Ribeira" (PAR-0018), corroborando-a. Por meio de Ritta, ele
+  é ancestral direto, pela linha materna, de Eliza Balbina de Toledo (P-0017).
 
   - Seu casamento enxertou a linha portuguesa Rodrigues/Valle no tronco materno Toledo.
-  [PROVEN para o casamento; evidência forte para o enxerto via P-0058]
+  [PROVEN para o casamento e, pelo batismo de 1764 de Rita, para o enxerto via P-0058]
 
   ## O que podemos extrapolar
 
@@ -228,17 +239,16 @@ profile_pt: >-
   não nomeia seus pais), de modo que a vinculação à nossa linha é uma pista forte, não
   confirmada. [LEAD quanto à ligação]
 
-  - A síntese de recuperação (mais antiga que nossos registros) ainda trata sua origem
-  portuguesa e a ligação com Ritta como pistas de blog não comprovadas e associa sua linha
-  a uma "Fazenda do Contramestre" com uma inscrição na senzala de 1750; essa atribuição de
-  fazenda é uma pista de árvore/local não verificada que nossas fontes não carregam.
-  [LEAD]
+  - Um achado de recuperação associa sua linha a uma "Fazenda do Contramestre" (Barbacena)
+  com uma inscrição na senzala de 1750; essa atribuição de fazenda é uma pista de
+  árvore/local não verificada que nossas fontes não carregam, e não se fixou se a
+  propriedade era dele ou de um descendente. [LEAD]
 
   ## Questões em aberto
 
-  - Seu **registro de óbito** e a confirmação verdadeiramente primária da ligação com
-  Ritta (idealmente o próprio batismo de Ritta em Barbacena por volta de 1760) permanecem
-  em aberto; o assento de casamento e o batismo já fixam sua identidade e origem. [OPEN]
+  - Seu **registro de óbito** permanece não localizado; sua identidade, origem e a ligação
+  com Ritta já estão fixadas por registros primários (a certidão de casamento de 1751, seu
+  batismo de 1728 e o batismo de 1764 de Rita, PAR-0049, que o nomeia como seu pai). [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
@@ -246,8 +256,10 @@ profile_pt: >-
   (certidão de casamento de 1751 na Borda do Campo — seu casamento e origem portuguesa) ·
   PAR-0036 (casamento de 1716 em Ruivais de seus pais).
 
-  - PAR-0018 (casamento de sua filha Ritta em Barbacena por volta de 1786 — a ligação
-  filial de evidência forte).
+  - PAR-0049 (batismo de 1764 em Barbacena de sua filha Ritta — nomeia-o como seu pai e
+  registra sua origem em Ruivães; o registro primário que torna direta a ligação P-0078 →
+  P-0058) · PAR-0018 (casamento de 1783 em Barbacena de sua filha Ritta — corrobora a
+  ligação filial).
 
   ## Contexto regional e migratório
 

@@ -17,15 +17,21 @@ notes:
 - text: >-
     Maternal grandmother of Ignez Francisca de Lima (P-0060); named in the 1777
     Piracatu baptism of her granddaughter Maria (PAR-0025) as "Maria Francisca
-    Cordeira, natural da Villa de Ouru [Ouro?], Bispado de S. Paulo" — possibly
-    Villa Rica de Ouro Preto or another settlement in the Bispado de São Paulo;
-    reading uncertain. Wife of João Rodrigues de Mello (P-0066). Her own birth,
-    marriage and death records have not been located.
+    Cordeira, natural da Villa de Itu, Bispado de S. Paulo". The origin word was
+    re-read on 2026-09-10 as "Ytù" (Itu, a São Paulo vila), superseding an earlier
+    tentative "Ouru [Ouro?]" read: Ouro Preto lies in the Bispado de Mariana, not
+    the "Bispado de S. Paulo" the entry states, whereas Itu is a São Paulo vila,
+    and the couple's marriage act corroborates Itu (per the owner). Wife of João
+    Rodrigues de Mello (P-0066). Her own birth, marriage and death records have not
+    been located.
   text_pt: >-
     Avó materna de Ignez Francisca de Lima (P-0060); nomeada no batismo de 1777
     de sua neta Maria em Piracatu (PAR-0025) como "Maria Francisca Cordeira,
-    natural da Villa de Ouru [Ouro?], Bispado de S. Paulo" — possivelmente Villa
-    Rica de Ouro Preto ou outro povoado no Bispado de São Paulo; leitura incerta.
+    natural da Villa de Itu, Bispado de S. Paulo". A palavra da origem foi relida
+    em 2026-09-10 como "Ytù" (Itu, vila paulista), superando uma leitura anterior
+    e tentativa "Ouru [Ouro?]": Ouro Preto fica no Bispado de Mariana, e não no
+    "Bispado de S. Paulo" que o assento declara, ao passo que Itu é vila paulista,
+    e o assento de casamento do casal corrobora Itu (segundo o proprietário).
     Esposa de João Rodrigues de Mello (P-0066). Seus próprios registros de
     nascimento, casamento e óbito não foram localizados.
 - text: >-
@@ -35,12 +41,14 @@ notes:
     Paulo) in 1737, and above that couple traces a deep compiled paulista-founder ascent
     (Genealogia Paulistana / Silva Leme). Drop images: ft_sp-batismo-maria-francisca-cordeira-3SGV-L,
     ft_sp-batismo-francisco-leme-do-prado-F638-R4, ft_sp-casamento-francisco-leme-x-francisca-godoy-3SZB-R.
-    Held as a lead only, for two reasons: (1) no primary record bridges the 1737 Itu Maria
-    to our Ignez (P-0060) — the retrieval agent itself rates the join STRONG, not PROVEN;
-    and (2) the "Itu" premise conflicts with PAR-0025, the sole held source naming this
-    woman, which reads her origin "natural da Villa de Ouru [Ouro?], Bispado de São Paulo"
-    — i.e. Ouro (Preto?), not Itu. Her origin needs the underlying São Paulo register, not
-    the compilation; her parents stay UNKNOWN.
+    Held as a lead only. The earlier origin-conflict objection is now RESOLVED: the
+    2026-09-10 re-read of PAR-0025 reads her origin "natural da Villa de Itu (Ytù),
+    Bispado de S. Paulo", which reconciles the sole held source with the lead's Itu
+    premise. But the join still stays a lead because no primary record bridges the 1737
+    Itu Maria to our Ignez (P-0060) — the retrieval agent itself rates the join STRONG,
+    not PROVEN. The bridge would be the underlying Itu/Paracatú register (or a Paracatú
+    marriage act), not the compilation or the 1777 grandchild entry; her parents stay
+    UNKNOWN.
   text_pt: >-
     Pista Cordeira/Leme paulista — registrada, NÃO promovida (2026-08-13). A síntese de
     recuperação propõe que esta Maria Francisca Cordeira seja a "Maria, filha de Francisco
@@ -48,13 +56,15 @@ notes:
     1737, e acima desse casal traça uma ascendência paulista compilada e profunda
     (Genealogia Paulistana / Silva Leme). Imagens do drop:
     ft_sp-batismo-maria-francisca-cordeira-3SGV-L, ft_sp-batismo-francisco-leme-do-prado-F638-R4,
-    ft_sp-casamento-francisco-leme-x-francisca-godoy-3SZB-R. Mantida apenas como pista, por
-    dois motivos: (1) nenhum registro primário liga a Maria de Itu de 1737 à nossa Ignez
-    (P-0060) — o próprio agente de recuperação classifica a ligação como STRONG, não
-    PROVEN; e (2) a premissa "Itu" conflita com PAR-0025, a única fonte disponível que a
-    nomeia, que lê sua origem "natural da Villa de Ouru [Ouro?], Bispado de São Paulo" —
-    ou seja, Ouro (Preto?), não Itu. Sua origem exige o registro subjacente de São Paulo,
-    não a compilação; seus pais permanecem DESCONHECIDOS.
+    ft_sp-casamento-francisco-leme-x-francisca-godoy-3SZB-R. Mantida apenas como pista.
+    A objeção anterior de conflito de origem está agora RESOLVIDA: a releitura de
+    2026-09-10 de PAR-0025 lê sua origem "natural da Villa de Itu (Ytù), Bispado de S.
+    Paulo", o que reconcilia a única fonte disponível com a premissa "Itu" da pista. Mas a
+    ligação permanece uma pista porque nenhum registro primário liga a Maria de Itu de 1737
+    à nossa Ignez (P-0060) — o próprio agente de recuperação classifica a ligação como
+    STRONG, não PROVEN. A ponte seria o registro subjacente de Itu/Paracatú (ou um assento
+    de casamento em Paracatú), não a compilação nem o assento da neta de 1777; seus pais
+    permanecem DESCONHECIDOS.
 profile: >-
   ## Identity
 
@@ -62,10 +72,12 @@ profile: >-
   granddaughter Maria at Minas do Piracatu (Manga parish) [PROVEN] (PAR-0025). Named
   **Maria Francisca Cordeira** (also *Cordeiro*).
 
-  - **Origin:** *natural da Villa de Ouru [Ouro?], Bispado de São Paulo* — reading
-  uncertain; possibly Vila Rica de Ouro Preto or another settlement within the Bispado
-  de São Paulo [uncertain for the exact vila; PROVEN that she was of the Bispado de São
-  Paulo] (PAR-0025). A Brazilian-born wife paired with her Portuguese (Viana) husband.
+  - **Origin:** *natural da Villa de Itu, Bispado de São Paulo* [PROVEN] (PAR-0025). The
+  origin word was re-read on 2026-09-10 as "Ytù" (Itu, a São Paulo vila), superseding an
+  earlier tentative "Ouru [Ouro?]" read — Ouro Preto lies in the Bispado de Mariana, not
+  the "Bispado de S. Paulo" the entry states, whereas Itu is a São Paulo vila, and the
+  couple's marriage act corroborates Itu (per the owner). A Brazilian-born (colonial São
+  Paulo) wife paired with her Portuguese (Viana) husband.
 
   - **Marriage:** wife of João Rodrigues de Mello (P-0066), named together as the
   maternal grandparents in PAR-0025 [PROVEN].
@@ -73,18 +85,32 @@ profile: >-
   - **Birth, death, parents:** unknown; no record of her own located [OPEN]. Born, by
   inference, in the early-to-mid 18th century [INFERRED].
 
+  - **Parentage — a lead, not promoted:** an FS-tree join and the paulista *Genealogia
+  Paulistana* (Silva Leme) milieu propose she is the *Maria* baptised 30 March 1737 at the
+  Matriz de Nossa Senhora da Candelária de Itu, daughter of Francisco Leme do Prado ×
+  Francisca Cordeira (Cordeiro de Godoy) — which would carry the line into the paulista
+  Leme/Prado/Godoy founders. Her now-confirmed Itu origin (above) is consistent with this,
+  but no held record bridges the 1737 Itu Maria to our Ignez (P-0060); the retrieval
+  synthesis itself rates the join STRONG, not PROVEN, so her parents stay UNKNOWN in this
+  tree. [LEAD — collaborative tree + published genealogy; no held bridging source]
+
   ## Family and social network
 
   Mother of Ignez Francisca de Lima (P-0060), who married Amaro da Silva Xavier (P-0059)
   — hence a direct maternal-line ancestor of Matilde Maria de Jesus and the Toledo line
-  [PROVEN via PAR-0025]. No other children are attested here.
+  [PROVEN via PAR-0025]. No other child is attested at primary level; the "de Lima"
+  kin-cluster of São João del Rei points to probable further children — Capitão Manoel
+  Rodrigues de Lima (Ignez's likely brother) [INFERRED] and, per a Paracatú genealogy
+  blog ("A Raposa da Chapada") and the FS tree, a son José Rodrigues de Lima "o
+  paracatuense" [LEAD].
 
   ## Open questions
 
-  - Her origin vila (Ouro Preto? another São Paulo settlement?) and her own
-  baptism/marriage/parents remain open. The retrieval synthesis read the place as
-  "Itu", which our source image does not support — it reads "Ouru [Ouro?]" — so
-  resolving it needs the underlying register, not the 1777 grandchild entry. [OPEN]
+  - Her own baptism/marriage/parents remain open. Her Itu origin is now attested
+  (PAR-0025, 2026-09-10 re-read); the parentage lead (the 1737 Itu Candelária baptism →
+  Francisco Leme do Prado × Francisca Cordeira) still needs the underlying Itu/Paracatú
+  register or a Paracatú marriage act to bridge it to our Ignez — the 1777 grandchild
+  entry cannot. [OPEN]
 
   ## Sources held (this repository)
 
@@ -93,7 +119,7 @@ profile: >-
 
   ## Regional and migration context
 
-  She anchors the Brazilian (Bispado de São Paulo) end of this maternal couple, her
+  She anchors the Brazilian (Itu, colonial São Paulo) end of this maternal couple, her
   husband the north-west Portuguese (Viana/Braga) end — the colonial-São Paulo + Minho
   pattern that recurs across the Silva Xavier / Lima branch as it moved onto the
   Goiás/Piracatu frontier. [CONTEXTUAL]
@@ -104,10 +130,12 @@ profile_pt: >-
   neta Maria em Minas do Piracatu (freguesia da Manga) [PROVEN] (PAR-0025). Nomeada
   **Maria Francisca Cordeira** (também *Cordeiro*).
 
-  - **Origem:** *natural da Villa de Ouru [Ouro?], Bispado de São Paulo* — leitura
-  incerta; possivelmente Villa Rica de Ouro Preto ou outro povoado no Bispado de São
-  Paulo [incerto quanto à vila exata; PROVEN que era do Bispado de São Paulo]
-  (PAR-0025). Esposa nascida no Brasil, ao lado de seu marido português (de Viana).
+  - **Origem:** *natural da Villa de Itu, Bispado de São Paulo* [PROVEN] (PAR-0025). A
+  palavra da origem foi relida em 2026-09-10 como "Ytù" (Itu, vila paulista), superando
+  uma leitura anterior e tentativa "Ouru [Ouro?]" — Ouro Preto fica no Bispado de Mariana,
+  e não no "Bispado de S. Paulo" que o assento declara, ao passo que Itu é vila paulista,
+  e o assento de casamento do casal corrobora Itu (segundo o proprietário). Esposa nascida
+  no Brasil (São Paulo colonial), ao lado de seu marido português (de Viana).
 
   - **Casamento:** esposa de João Rodrigues de Mello (P-0066), nomeados juntos como os
   avós maternos em PAR-0025 [PROVEN].
@@ -115,19 +143,33 @@ profile_pt: >-
   - **Nascimento, óbito, pais:** desconhecidos; nenhum registro próprio localizado
   [OPEN]. Nascida, por inferência, no início ou meados do século XVIII [INFERRED].
 
+  - **Filiação — uma pista, não promovida:** uma ligação da árvore do FamilySearch e o
+  meio da *Genealogia Paulistana* (Silva Leme) propõem que ela seja a *Maria* batizada em
+  30 de março de 1737 na Matriz de Nossa Senhora da Candelária de Itu, filha de Francisco
+  Leme do Prado × Francisca Cordeira (Cordeiro de Godoy) — o que levaria a linha aos
+  fundadores paulistas Leme/Prado/Godoy. Sua origem em Itu, agora confirmada (acima), é
+  consistente com isso, mas nenhum registro disponível liga a Maria de Itu de 1737 à nossa
+  Ignez (P-0060); a síntese de recuperação classifica a ligação como STRONG, não PROVEN, de
+  modo que seus pais permanecem DESCONHECIDOS nesta árvore. [LEAD — árvore colaborativa +
+  genealogia publicada; sem fonte de ponte disponível]
+
   ## Família e rede social
 
   Mãe de Ignez Francisca de Lima (P-0060), que se casou com Amaro da Silva Xavier
   (P-0059) — portanto, ancestral direta, pela linha materna, de Matilde Maria de Jesus e
-  da linha Toledo [PROVEN via PAR-0025]. Nenhum outro filho está atestado aqui.
+  da linha Toledo [PROVEN via PAR-0025]. Nenhum outro filho está atestado em nível
+  primário; o agrupamento de parentes "de Lima" de São João del Rei aponta para prováveis
+  outros filhos — o Capitão Manoel Rodrigues de Lima (provável irmão de Ignez) [INFERRED]
+  e, conforme um blog genealógico de Paracatú ("A Raposa da Chapada") e a árvore do
+  FamilySearch, um filho José Rodrigues de Lima "o paracatuense" [LEAD].
 
   ## Questões em aberto
 
-  - Sua vila de origem (Ouro Preto? outro povoado de São Paulo?) e seu próprio
-  batismo/casamento/pais permanecem em aberto. A síntese de recuperação leu o local como
-  "Itu", leitura que a imagem de nossa fonte não sustenta — ela diz "Ouru [Ouro?]" — de
-  modo que resolver a questão exige o registro subjacente, não o assento da neta de
-  1777. [OPEN]
+  - Seu próprio batismo/casamento/pais permanecem em aberto. Sua origem em Itu está agora
+  atestada (PAR-0025, releitura de 2026-09-10); a pista de filiação (o batismo de 1737 na
+  Candelária de Itu → Francisco Leme do Prado × Francisca Cordeira) ainda exige o registro
+  subjacente de Itu/Paracatú ou um assento de casamento em Paracatú para ligá-la à nossa
+  Ignez — o assento da neta de 1777 não basta. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
@@ -136,7 +178,7 @@ profile_pt: >-
 
   ## Contexto regional e migratório
 
-  Ela ancora a ponta brasileira (Bispado de São Paulo) deste casal materno, e seu marido
-  a ponta portuguesa do noroeste (Viana/Braga) — o padrão São Paulo colonial + Minho que
-  se repete ao longo do ramo Silva Xavier / Lima à medida que avançou para a fronteira de
-  Goiás/Piracatu. [CONTEXTUAL]
+  Ela ancora a ponta brasileira (Itu, São Paulo colonial) deste casal materno, e seu
+  marido a ponta portuguesa do noroeste (Viana/Braga) — o padrão São Paulo colonial +
+  Minho que se repete ao longo do ramo Silva Xavier / Lima à medida que avançou para a
+  fronteira de Goiás/Piracatu. [CONTEXTUAL]

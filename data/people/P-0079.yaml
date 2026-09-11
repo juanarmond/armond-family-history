@@ -91,18 +91,23 @@ profile: >-
   Matriz de Nossa Senhora da Piedade da Borda do Campo (Barbacena) — [PROVEN] (PAR-0034;
   E-0070; family F-0038).
 
-  - **Birth and death:** no birth or death record located beyond the marriage act's
-  statement of her local birth. [OPEN]
+  - **Birth and death:** no birth or death record located beyond the statement of her
+  local birth — "natural e baptizada nesta freguesia" (Borda do Campo) in the 1751 marriage
+  act (PAR-0034), independently echoed by Rita's 1764 baptism, which records her mother
+  "natural desta freguesia" (PAR-0049). [OPEN]
 
   ## Family and social network
 
-  - **Mother of Ritta Angélica Rodrigues (P-0058)** [strong-evidence], who married
-  Joaquim José Ferreira de Toledo (P-0057); Ritta's own 1783 marriage names her mother
-  "Izabel Ribeira" (PAR-0018). Through Ritta she is a direct maternal-line ancestor of
-  Eliza Balbina de Toledo (P-0017).
+  - **Mother of Ritta Angélica Rodrigues (P-0058)** [PROVEN], who married Joaquim José
+  Ferreira de Toledo (P-0057). Ritta's own 1764 baptism (PAR-0049; E-0076) names her as
+  the mother — "Isabel Ribeira, natural desta freguesia" — so the P-0079 → P-0058 link is
+  now primary; her later 1783 marriage also names her mother "Izabel Ribeira" (PAR-0018),
+  corroborating it. Through Ritta she is a direct maternal-line ancestor of Eliza Balbina
+  de Toledo (P-0017).
 
   - Her marriage to a Portuguese immigrant grafted her Borda do Campo family onto the
-  line that became the maternal Toledo trunk. [PROVEN marriage; strong-evidence graft]
+  line that became the maternal Toledo trunk. [PROVEN marriage; PROVEN graft via Rita's
+  1764 baptism]
 
   ## Open questions
 
@@ -113,8 +118,10 @@ profile: >-
   ## Sources held (this repository)
 
   - PAR-0034 (1751 Borda do Campo marriage certidão — her marriage, local birth and
-  parents) · PAR-0018 (1783 Barbacena marriage of her daughter Ritta — the
-  strong-evidence child link).
+  parents) · PAR-0049 (1764 Barbacena baptism of her daughter Ritta — names her as the
+  mother, "natural desta freguesia"; the primary that makes the P-0079 → P-0058 link
+  direct) · PAR-0018 (1783 Barbacena marriage of her daughter Ritta — corroborates the
+  child link).
 
   ## Regional and migration context
 
@@ -152,18 +159,22 @@ profile_pt: >-
   (PAR-0034; E-0070; família F-0038).
 
   - **Nascimento e óbito:** nenhum registro de nascimento ou óbito localizado além da
-  declaração do assento de casamento sobre seu nascimento local. [OPEN]
+  declaração de seu nascimento local — "natural e baptizada nesta freguesia" (Borda do
+  Campo) no assento de casamento de 1751 (PAR-0034), ecoada de forma independente pelo
+  batismo de 1764 de Rita, que registra a mãe "natural desta freguesia" (PAR-0049). [OPEN]
 
   ## Família e rede social
 
-  - **Mãe de Ritta Angélica Rodrigues (P-0058)** [evidência forte], que se casou com
-  Joaquim José Ferreira de Toledo (P-0057); o próprio casamento de Ritta, por volta de
-  1786, nomeia sua mãe "Izabel Ribeira" (PAR-0018). Por meio de Ritta, ela é ancestral
-  direta, pela linha materna, de Eliza Balbina de Toledo (P-0017).
+  - **Mãe de Ritta Angélica Rodrigues (P-0058)** [PROVEN], que se casou com Joaquim José
+  Ferreira de Toledo (P-0057). O próprio batismo de Ritta, de 1764 (PAR-0049; E-0076),
+  nomeia-a como mãe — "Isabel Ribeira, natural desta freguesia" — de modo que a ligação
+  P-0079 → P-0058 é agora primária; seu casamento posterior, de 1783, também nomeia sua mãe
+  "Izabel Ribeira" (PAR-0018), corroborando-a. Por meio de Ritta, ela é ancestral direta,
+  pela linha materna, de Eliza Balbina de Toledo (P-0017).
 
   - Seu casamento com um imigrante do Minho enxertou sua família da Borda do Campo na
-  linha que se tornou o tronco materno Toledo. [PROVEN para o casamento; evidência forte
-  para o enxerto]
+  linha que se tornou o tronco materno Toledo. [PROVEN para o casamento; PROVEN para o
+  enxerto pelo batismo de 1764 de Rita]
 
   ## Questões em aberto
 
@@ -174,8 +185,10 @@ profile_pt: >-
   ## Fontes disponíveis (neste repositório)
 
   - PAR-0034 (certidão de casamento de 1751 na Borda do Campo — seu casamento, nascimento
-  local e pais) · PAR-0018 (casamento de sua filha Ritta em Barbacena por volta de 1786 —
-  a ligação filial de evidência forte).
+  local e pais) · PAR-0049 (batismo de 1764 em Barbacena de sua filha Ritta — nomeia-a como
+  mãe, "natural desta freguesia"; o registro primário que torna direta a ligação P-0079 →
+  P-0058) · PAR-0018 (casamento de 1783 em Barbacena de sua filha Ritta — corrobora a
+  ligação filial).
 
   ## Contexto regional e migratório
 

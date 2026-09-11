@@ -81,6 +81,23 @@ notes:
     "irmão da Exma. Sra. D. Roza Bohrer". Isso documenta um novo irmão dela (Manoel
     Pereira de Lemos, falecido em 20 jan. 1898 aos 72 anos — acrescentado como filho
     documentado em F-0025) e confirma Rosa viva em janeiro de 1898 (com ~63 anos).
+- text: >-
+    Death now held (supersedes the earlier "death not documented" working note): she died 2
+    November 1919 at Nova Friburgo, aged 86, "viúva de Francisco José Bohrer" and "natural de
+    Itaboraí" (PAR-0058, event E-0086). Her husband Francisco José predeceased her on 6 July
+    1888 (PAR-0055), so she was a widow for 31 years. The 1919 death names her parents in a
+    divergent "Pereira" form ("Manoel Pereira Lemos × Maria Tereza Pereira de Lemos"); the 1835
+    baptism's "Manoel de Lemos × Maria Thereza de Jesus" (P-0052 × P-0053) is nearer the events
+    and governs, with the "Pereira" form preserved as a variant.
+  text_pt: >-
+    Óbito agora obtido (supera a antiga nota de trabalho "óbito não documentado"): faleceu em 2
+    de novembro de 1919 em Nova Friburgo, aos 86 anos, "viúva de Francisco José Bohrer" e
+    "natural de Itaboraí" (PAR-0058, evento E-0086). Seu marido Francisco José faleceu antes
+    dela, em 6 de julho de 1888 (PAR-0055), de modo que foi viúva por 31 anos. O óbito de 1919
+    nomeia seus pais numa forma divergente com "Pereira" ("Manoel Pereira Lemos × Maria Tereza
+    Pereira de Lemos"); a forma do batismo de 1835, "Manoel de Lemos × Maria Thereza de Jesus"
+    (P-0052 × P-0053), é mais próxima do evento e prevalece, preservando-se a forma "Pereira"
+    como variante.
 profile: >-
   ## Identity
 
@@ -108,9 +125,13 @@ profile: >-
   Guilherme (Samuel) and Fernando, the four heirs of her husband's 1888 will (PRB-0005);
   a daughter Ludovina died in infancy in 1862 (PUB-0003). [PROVEN heirs; LEAD Ludovina]
 
-  - **Death:** not documented. She was living in January 1898 — the newspaper óbito of her
-  brother calls the deceased "irmão da Exma. Sra. D. Roza Bohrer" (NWS-0002), aged about 63
-  then. [PROVEN alive Jan 1898]
+  - **Death:** 2 November 1919 at Nova Friburgo, aged 86 [PROVEN — PAR-0058, event E-0086],
+  recorded "viúva de Francisco José Bohrer" and "natural de Itaboraí" (buried the same day by
+  the Irmandade do Sacramento). She had been widowed since 6 July 1888 (her husband Francisco
+  José's death, PAR-0055) and was still living in January 1898, when the newspaper óbito of her
+  brother calls the deceased "irmão da Exma. Sra. D. Roza Bohrer" (NWS-0002). The stated age 86
+  implies a birth ~1833 — close to, and superseded by, the ~late-1834 birth from her 1835
+  baptism ("nascida a dez mezes").
 
   ## Standing and profession
 
@@ -124,9 +145,11 @@ profile: >-
   ## Family and social network
 
   - **Parents:** Manoel de Lemos [Pereira] (P-0052) and Maria Thereza de Jesus (P-0053),
-  an Itaboraí family (family F-0025). [PROVEN via her baptism] The bracketed "Pereira" is
-  an editorial carry-over from her brother Candido Pereira de Lemos, not written in the
-  baptism, which gives only "Manoel de Lemos".
+  an Itaboraí family (family F-0025). [PROVEN via her baptism] Her 1835 baptism writes only
+  "Manoel de Lemos" (no "Pereira"); her own 1919 death (PAR-0058) instead names the couple in
+  a divergent "Pereira" form — "Manoel Pereira Lemos × Maria Tereza Pereira de Lemos" —
+  preserved as a variant, with the nearer-the-event baptism form governing. The "Pereira"
+  element also recurs in her brother Candido Pereira de Lemos (PRB-0005).
 
   - **Siblings:** an Itaboraí register sweep documents Maria (bapt. 14 July 1832,
   PAR-0030), Anna (bapt. 12 February 1834, PAR-0031), Thomaz (bapt. c. June 1836,
@@ -162,10 +185,12 @@ profile: >-
 
   ## Open questions
 
-  - Her own death record (Nova Friburgo, after 1898) — not yet found. [OPEN]
+  - Her own death record — now held (PAR-0058: 2 November 1919, Nova Friburgo, aged 86,
+  widow of Francisco José, natural de Itaboraí). [RESOLVED]
 
   - The Itaboraí marriage of her parents, which would settle the "Pereira/Ferreira" and
-  "Thereza/Nunes" variants and Manoel de Lemos's own parentage. [OPEN]
+  "Thereza/Nunes" variants and Manoel de Lemos's own parentage. (Her 1919 death now attests
+  the "Pereira" form for both parents, diverging from her baptism.) [OPEN]
 
   - The exact marriage date behind the 1879 justification. [OPEN]
 
@@ -181,6 +206,11 @@ profile: >-
   - CIV-0019 (grandson Alberto's 1890 birth — "Roza Eugenia de Lemos Bohrer") · NWS-0002
   (A Sentinella, 1898 — confirms her living and names a brother).
 
+  - PAR-0055 (her husband Francisco José's 1888 Nova Friburgo death — names her as his wife,
+  fixing her widowhood from 6 July 1888) · PAR-0058 (her own 1919 Nova Friburgo death — 2
+  November 1919, aged 86, widow of Francisco José, natural de Itaboraí; names her parents in a
+  divergent "Pereira" form).
+
   ## Regional and migration context
 
   Born and baptised at Itaboraí (RJ), a rural municipality east of Guanabara Bay, she was
@@ -194,7 +224,7 @@ profile: >-
   - **Baptism (12 October 1835) and marriage (~1858):** Igreja Matriz de São João Batista de Itaboraí,
   RJ (Praça Marechal Floriano Peixoto 15, Centro; CEP 24800-165; GPS -22.74472, -42.85833) [RESOLVED] · [Maps](https://maps.google.com/?q=-22.74472,-42.85833)
 
-  - **Married life, widowhood and death (~1919):** Catedral Diocesana / Igreja Matriz de São João
+  - **Married life, widowhood and death (2 Nov 1919):** Catedral Diocesana / Igreja Matriz de São João
   Batista, Nova Friburgo, RJ (Rua Monsenhor José Antônio Teixeira 23, Centro; CEP 28610-390; GPS -22.28159, -42.53085) [RESOLVED] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
 profile_pt: >-
   ## Identidade
@@ -225,9 +255,13 @@ profile_pt: >-
   (PRB-0005); uma filha, Ludovina, faleceu ainda criança em 1862 (PUB-0003). [PROVEN
   herdeiros; LEAD Ludovina]
 
-  - **Óbito:** não documentado. Estava viva em janeiro de 1898 — o óbito jornalístico de seu
-  irmão chama o falecido de "irmão da Exma. Sra. D. Roza Bohrer" (NWS-0002), então com cerca
-  de 63 anos. [PROVEN viva em jan. 1898]
+  - **Óbito:** 2 de novembro de 1919 em Nova Friburgo, aos 86 anos [PROVEN — PAR-0058, evento
+  E-0086], registrada como "viúva de Francisco José Bohrer" e "natural de Itaboraí" (sepultada
+  no mesmo dia pela Irmandade do Sacramento). Estava viúva desde 6 de julho de 1888 (óbito do
+  marido Francisco José, PAR-0055) e ainda viva em janeiro de 1898, quando o óbito jornalístico
+  de seu irmão chama o falecido de "irmão da Exma. Sra. D. Roza Bohrer" (NWS-0002). A idade
+  declarada 86 implica nascimento ~1833 — próximo, e superado por, o nascimento em ~final de
+  1834 de seu batismo ("nascida a dez mezes").
 
   ## Posição social e profissão
 
@@ -241,9 +275,11 @@ profile_pt: >-
   ## Família e rede social
 
   - **Pais:** Manoel de Lemos [Pereira] (P-0052) e Maria Thereza de Jesus (P-0053), uma
-  família de Itaboraí (família F-0025). [PROVEN por seu batismo] O "Pereira" entre colchetes
-  é um acréscimo editorial transposto de seu irmão Candido Pereira de Lemos, não escrito no
-  batismo, que traz apenas "Manoel de Lemos".
+  família de Itaboraí (família F-0025). [PROVEN por seu batismo] Seu batismo de 1835 traz apenas
+  "Manoel de Lemos" (sem "Pereira"); seu próprio óbito de 1919 (PAR-0058), porém, nomeia o casal
+  numa forma divergente com "Pereira" — "Manoel Pereira Lemos × Maria Tereza Pereira de Lemos" —
+  preservada como variante, prevalecendo a forma do batismo, mais próxima do evento. O elemento
+  "Pereira" também reaparece em seu irmão Candido Pereira de Lemos (PRB-0005).
 
   - **Irmãos:** uma varredura do registro de Itaboraí documenta Maria (bat. 14 de julho de
   1832, PAR-0030), Anna (bat. 12 de fevereiro de 1834, PAR-0031), Thomaz (bat. por volta de
@@ -281,11 +317,12 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seu próprio registro de óbito (Nova Friburgo, depois de 1898) — ainda não localizado.
-  [OPEN]
+  - Seu próprio registro de óbito — agora obtido (PAR-0058: 2 de novembro de 1919, Nova
+  Friburgo, aos 86 anos, viúva de Francisco José, natural de Itaboraí). [RESOLVED]
 
   - O casamento em Itaboraí de seus pais, que resolveria as variantes "Pereira/Ferreira" e
-  "Thereza/Nunes" e a própria filiação de Manoel de Lemos. [OPEN]
+  "Thereza/Nunes" e a própria filiação de Manoel de Lemos. (Seu óbito de 1919 agora atesta a
+  forma "Pereira" para ambos os pais, divergindo de seu batismo.) [OPEN]
 
   - A data exata do casamento por trás da justificação de 1879. [OPEN]
 
@@ -301,6 +338,11 @@ profile_pt: >-
   - CIV-0019 (nascimento de 1890 do neto Alberto — "Roza Eugenia de Lemos Bohrer") · NWS-0002
   (A Sentinella, 1898 — confirma-a viva e nomeia um irmão).
 
+  - PAR-0055 (óbito de 1888 de seu marido Francisco José em Nova Friburgo — nomeia-a como esposa,
+  fixando sua viuvez desde 6 de julho de 1888) · PAR-0058 (seu próprio óbito de 1919 em Nova
+  Friburgo — 2 de novembro de 1919, aos 86 anos, viúva de Francisco José, natural de Itaboraí;
+  nomeia seus pais numa forma divergente com "Pereira").
+
   ## Contexto regional e migratório
 
   Nascida e batizada em Itaboraí (RJ), um município rural a leste da Baía de Guanabara, era
@@ -314,5 +356,5 @@ profile_pt: >-
   - **Batismo (12 de outubro de 1835) e casamento (~1858):** Igreja Matriz de São João Batista de
   Itaboraí, RJ (Praça Marechal Floriano Peixoto 15, Centro; CEP 24800-165; GPS -22.74472, -42.85833) [RESOLVED] · [Maps](https://maps.google.com/?q=-22.74472,-42.85833)
 
-  - **Vida de casada, viuvez e óbito (~1919):** Catedral Diocesana / Igreja Matriz de São João Batista,
+  - **Vida de casada, viuvez e óbito (2 nov 1919):** Catedral Diocesana / Igreja Matriz de São João Batista,
   Nova Friburgo, RJ (Rua Monsenhor José Antônio Teixeira 23, Centro; CEP 28610-390; GPS -22.28159, -42.53085) [RESOLVED] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)

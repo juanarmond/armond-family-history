@@ -85,8 +85,13 @@ profile: >-
   Muriaé (MG), about 1898 (aged 18 in 1916), who married Deocleciano Muniz Bittencourt in
   1916 (CIV-0001, PAR-0012). [PROVEN]
 
-  - **Birth and death:** neither documented. His own vital records have not been located.
+  - **Death:** before 21 October 1916 [PROVEN] — the full-content act of his daughter
+  Luiza's 1916 marriage records her father "já fallecido" while her mother Thereza was
+  "residente neste districto" (CIV-0006), and the parish act identifies that father as
+  Secundino (PAR-0012). His own death record — with the exact date and place — is not held.
   [OPEN]
+
+  - **Birth:** undocumented; his own vital records have not been located. [OPEN]
 
   - **Parents:** unknown — the single biggest gap on this side. [OPEN]
 
@@ -142,8 +147,11 @@ profile: >-
   ## Sources held (this repository)
 
   - PAR-0012 (1916 parish marriage of Luiza × Deocleciano — "Secundino Maria de Azevedo",
-  resolves his given name) · CIV-0001 (the 1916 civil marriage, same union) · PAR-0003
-  (grandson Aristides's 1922 baptism — "José Secundino de Azevedo", maternal grandfather).
+  resolves his given name) · CIV-0001 (the 1916 civil marriage, same union) · CIV-0006 (the
+  1916 full-content civil marriage — records Luiza's father already deceased; its
+  "Sebastião" given-name read is a low-contrast misread resolved to Secundino by PAR-0012) ·
+  PAR-0003 (grandson Aristides's 1922 baptism — "José Secundino de Azevedo", maternal
+  grandfather).
 
   ## Regional and migration context
 
@@ -183,8 +191,14 @@ profile_pt: >-
   Muriaé (MG), por volta de 1898 (18 anos em 1916), que se casou com Deocleciano Muniz
   Bittencourt em 1916 (CIV-0001, PAR-0012). [PROVEN]
 
-  - **Nascimento e óbito:** nenhum documentado. Seus próprios registros vitais não foram
-  localizados. [OPEN]
+  - **Óbito:** antes de 21 de outubro de 1916 [PROVEN] — a certidão de inteiro teor do
+  casamento de 1916 de sua filha Luiza registra o pai dela "já fallecido", enquanto a mãe
+  Thereza estava "residente neste districto" (CIV-0006), e o assento paroquial identifica
+  esse pai como Secundino (PAR-0012). Seu próprio registro de óbito — com a data e o local
+  exatos — não é conservado. [OPEN]
+
+  - **Nascimento:** não documentado; seus próprios registros vitais não foram localizados.
+  [OPEN]
 
   - **Pais:** desconhecidos — a maior lacuna deste lado. [OPEN]
 
@@ -240,7 +254,10 @@ profile_pt: >-
 
   - PAR-0012 (casamento paroquial de 1916 de Luiza × Deocleciano — "Secundino Maria de
   Azevedo", resolve seu prenome) · CIV-0001 (o casamento civil de 1916, mesma união) ·
-  PAR-0003 (batismo de 1922 do neto Aristides — "José Secundino de Azevedo", avô materno).
+  CIV-0006 (o casamento civil de 1916 em inteiro teor — registra o pai de Luiza já falecido;
+  sua leitura "Sebastião" do prenome é um erro de leitura de baixo contraste resolvido para
+  Secundino por PAR-0012) · PAR-0003 (batismo de 1922 do neto Aristides — "José Secundino de
+  Azevedo", avô materno).
 
   ## Contexto regional e migratório
 

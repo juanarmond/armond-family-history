@@ -5,6 +5,30 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — Portraits: bilingual biographies refreshed against held evidence across all lines (2026-09-11)
+
+Ran a repository-wide portrait sync: 93 flagged profiles reviewed by parallel agents
+(one per family line, disjoint files), each enriching the YAML `profile`/`profile_pt`
+from the deep research syntheses **only where a held source confirms it** — never
+laundering a `[LEAD]`. 40 people updated; the rest already current. Highlights:
+
+- **P-0067 Maria Francisca Cordeira** — origin corrected **Ouro → Itu (Ytù)** per the
+  2026-09-10 re-read of PAR-0025; Leme-Prado ascent kept `[LEAD]`.
+- **P-0035 Rosa Eugenia** — own death now held (PAR-0058, d. 2 Nov 1919); widowhood
+  from 1888 (PAR-0055). **P-0030/P-0031** — 1884 marriage now held (PAR-0056).
+- **P-0028 Valentim Martinho Bohrer** — marriage & death now `[PROVEN]` (PAR-0064/0065);
+  maiden name Klein confirmed. **Toledo cluster** — superseded marriage year 1786 → 1783.
+- Agents **corrected, not imported,** several research errors (a "left a will" that the
+  source negates; a "born in Rio" the source places in Eugenópolis; date misreads), and
+  fixed a pre-existing overclaim in P-0019 (illegible sibling name downgraded to `[LEAD]`).
+
+Evidence discipline held throughout (EN/PT parity, tags honest, no ID/privacy leaks);
+GEDCOM regenerated for the `notes` that changed. Follow-up (not in this pass): promote
+newly-cited sources (e.g. PAR-0056/0058) into the relevant entities' structured
+`source_ids`/`event_ids` and family `documented_children`, and reconcile a few
+research-vs-source conflicts flagged by the agents.
+
+
 ### Added / Changed — Viewer: help in Novidades & Family Story, portrait Maps note, tidier language field (2026-09-11)
 
 - **"?" help in the What's new (Novidades) and Family Story panels** — each opens a
