@@ -878,13 +878,14 @@ a:focus-visible {
 /* How-to guide — a navigation-first help overlay. Reuses .story-panel / .story-head
    (centred card on desktop, full-screen sheet on mobile); this styles only its body. */
 /* Floating "?" — the persistent help affordance for the bare tree / focus view.
-   Bottom-left so it never overlaps the right-edge detail/story/updates panels; the
-   script hides it whenever a modal is open. Desktop only (mobile uses the nav "?"). */
+   Bottom-right (the conventional FAB position); no overlap with the right-edge
+   detail/story/updates panels because the script hides it whenever a modal is open.
+   Desktop only (mobile uses the nav "?"). */
 .help-fab {
   position: fixed;
   z-index: 15;
   bottom: 1.4rem;
-  left: 1.4rem;
+  right: 1.4rem;
   display: grid;
   place-items: center;
   width: 3rem;

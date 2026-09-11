@@ -11,10 +11,11 @@ A navigation-first help layer so family members can find their way around, on bo
 layouts, styled entirely with the existing design tokens (reuses the Family Story
 overlay shell — centred card on desktop, full-screen sheet on mobile):
 
-- **Persistent floating "?" button** (bottom-left on desktop, so it never overlaps
-  the right-edge panels; auto-hidden while any modal overlay is open, via a
-  MutationObserver on the panel backdrops) opens the bilingual **"How to explore"**
-  navigation guide. The mobile focus-view nav row keeps its own compact "?".
+- **Persistent floating "?" button** (bottom-right on desktop — the conventional FAB
+  position; auto-hidden while any modal overlay is open, via a MutationObserver on
+  the panel backdrops, so it never overlaps the right-edge panels) opens the
+  bilingual **"How to explore"** navigation guide. The mobile focus-view nav row
+  keeps its own compact "?".
 - **A second "?" on the person panel** (beside the × close) opens **"About this
   card"** — a bilingual section-by-section explainer of that page (Biography,
   Relationship, Overview, Events, Family, Sources, and the ⚠ uncertain-reading
