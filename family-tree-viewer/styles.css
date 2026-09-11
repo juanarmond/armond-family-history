@@ -956,6 +956,11 @@ a:focus-visible {
   color: var(--ink);
 }
 .guide-def-body { margin: 0; font-size: .92rem; line-height: 1.55; color: var(--muted); }
+/* Nested list under a def: the Sources sub-groups, and the portrait's tag / code keys. */
+.guide-def-groups { margin: .5rem 0 0; padding-left: 1.1rem; display: grid; gap: .35rem; }
+.guide-def-groups li { font-size: .88rem; line-height: 1.5; color: var(--muted); }
+.guide-def-groups li::marker { color: var(--gold); }
+.guide-def-groups strong { color: var(--ink); font-weight: 600; }
 
 .guide-legend {
   margin: 1.6rem 0 0;

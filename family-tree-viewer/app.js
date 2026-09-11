@@ -1744,6 +1744,24 @@ function guideDef(label, body) {
   return row;
 }
 
+// A def whose body is followed by a small nested list — used for Sources, to name
+// the panel's three sub-groups (own / mention / context) with a one-line gloss each,
+// reusing the exact sub-header labels so the help and the panel read identically.
+function guideDefWithGroups(label, intro, groups) {
+  const row = guideDef(label, intro);
+  const ul = document.createElement("ul");
+  ul.className = "guide-def-groups";
+  for (const [groupLabel, groupBody] of groups) {
+    const li = document.createElement("li");
+    const strong = document.createElement("strong");
+    strong.textContent = groupLabel;
+    li.append(strong, document.createTextNode(` — ${groupBody}`));
+    ul.append(li);
+  }
+  row.append(ul);
+  return row;
+}
+
 // The navigation guide — how to move around the tree (layout-aware).
 function renderGuideNav(container, name) {
   const mobile = isMobile();
@@ -1813,8 +1831,22 @@ function renderGuidePortrait(container) {
   const defs = document.createElement("div");
   defs.className = "guide-defs";
   defs.append(
-    guideDef(t("guide.portrait.tags.label"), t("guide.portrait.tags.body")),
-    guideDef(t("guide.portrait.sources.label"), t("guide.portrait.sources.body")),
+    guideDefWithGroups(t("guide.portrait.tags.label"), t("guide.portrait.tags.body"), [
+      ["[PROVEN]", t("guide.portrait.tag.proven")],
+      ["[STRONG-EVIDENCE]", t("guide.portrait.tag.strong")],
+      ["[INFERRED]", t("guide.portrait.tag.inferred")],
+      ["[LEAD]", t("guide.portrait.tag.lead")],
+      ["[OPEN]", t("guide.portrait.tag.open")],
+    ]),
+    guideDefWithGroups(t("guide.portrait.sources.label"), t("guide.portrait.sources.body"), [
+      ["CIV", t("guide.portrait.src.civ")],
+      ["PAR", t("guide.portrait.src.par")],
+      ["PRB", t("guide.portrait.src.prb")],
+      ["GOV", t("guide.portrait.src.gov")],
+      ["NWS", t("guide.portrait.src.nws")],
+      ["PUB", t("guide.portrait.src.pub")],
+      ["REC", t("guide.portrait.src.rec")],
+    ]),
     guideDef(t("guide.portrait.sections.label"), t("guide.portrait.sections.body")),
     guideDef(t("guide.portrait.vs.label"), t("guide.portrait.vs.body")),
   );
@@ -1836,7 +1868,11 @@ function renderGuideCard(container, name) {
     guideDef(t("guide.card.overview.label"), t("guide.card.overview.body")),
     guideDef(t("guide.card.events.label"), t("guide.card.events.body")),
     guideDef(t("guide.card.family.label"), t("guide.card.family.body")),
-    guideDef(t("guide.card.sources.label"), t("guide.card.sources.body")),
+    guideDefWithGroups(t("guide.card.sources.label"), t("guide.card.sources.body"), [
+      [t("source.group.own"), t("guide.card.sources.own")],
+      [t("source.group.mention"), t("guide.card.sources.mention")],
+      [t("source.group.context"), t("guide.card.sources.context")],
+    ]),
     guideDef(t("guide.card.caution.label"), t("guide.card.caution.body")),
   );
   container.append(defs);

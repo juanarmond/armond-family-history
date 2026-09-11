@@ -20,10 +20,18 @@ overlay shell — centred card on desktop, full-screen sheet on mobile):
   a page-specific explainer: **"About this card"** (Biography, Relationship,
   Overview, Events, Family, Sources, and the ⚠ uncertain-reading banner) and **"About
   this portrait"** (the evidence tags `[PROVEN]`/`[LEAD]`/…, the source codes
-  `CIV-`/`PAR-`/…, what the dossier contains, and card-vs-portrait). Both are kept
-  balanced — a short intro plus a few rows, not a manual — and layer over the panel
-  they explain rather than replacing it. One guide panel serves all three topics
-  (`nav` / `card` / `portrait`) with a dynamic head, raised above the other panels.
+  `CIV-`/`PAR-`/…, what the dossier contains, and card-vs-portrait). Both layer over
+  the panel they explain rather than replacing it, and one guide panel serves all
+  three topics (`nav` / `card` / `portrait`) with a dynamic head, raised above the
+  other panels.
+  - The **Sources** row of the card help expands into the panel's three sub-groups
+    (reusing the exact sub-header labels): *own records* (baptism, birth, marriage,
+    death), *records that mention them* (a relative's act), *context* (electoral roll,
+    probate, newspaper).
+  - The portrait help decodes its notation the same way: an **evidence-tag** key
+    (`[PROVEN]`/`[STRONG-EVIDENCE]`/`[INFERRED]`/`[LEAD]`/`[OPEN]`) and a **source-code**
+    key (`CIV`/`PAR`/`PRB`/`GOV`/`NWS`/`PUB`/`REC`), each a one-line gloss. Kept
+    balanced — a short intro plus concise rows, not a manual.
 - **First-run auto-open:** the navigation guide shows once on a first visit (flagged
   in `localStorage`, key `armond-viewer-guide-seen-v1`), skipped when arriving on a
   deep link (a shared person/record). The "?" buttons always reopen it afterwards.
