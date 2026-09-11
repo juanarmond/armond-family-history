@@ -1813,6 +1813,16 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
     border-left: 0;
     border-radius: 0;
   }
+  /* Keep the "?" (About this card) and × floating/reachable while scrolling the
+     full-screen detail page — same treatment as the Story/Novidades panels. */
+  .detail-head { padding-right: 6rem; }
+  .detail-head-actions {
+    position: fixed;
+    top: .9rem;
+    right: .9rem;
+    z-index: 22;
+  }
+  .detail-head-actions button { box-shadow: var(--shadow-md); }
   .close-button, .portrait-close { min-width: 2.75rem; min-height: 2.75rem; }
 
   /* No room to dock the Portrait beside the sheet on a phone: open it full-screen

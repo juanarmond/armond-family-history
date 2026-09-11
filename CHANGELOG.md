@@ -5,6 +5,13 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — Viewer mobile: float the person-panel "?"/× while scrolling (2026-09-11)
+
+On the full-screen mobile person page, the header (with the "?" *About this card* and the
+× close) scrolled out of view. Its action cluster now floats fixed top-right while the page
+scrolls — the same treatment the Story/Novidades panels use — so help and close stay reachable.
+
+
 ### Added — Three proven Bohrer siblings of Iris (P-0007) catalogued from the 2026-09-11 drop (2026-09-11)
 
 Value-gated (opened + read each image) and catalogued three new held sources naming
