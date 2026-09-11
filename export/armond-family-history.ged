@@ -2153,24 +2153,16 @@
 2 SOUR @NWS0006@
 1 NOTE Younger sibling of Celina (P-0015); son of Joaquim José Bohrer, named "filho de … Joaquim Bohrer" in his 4 April 1899 death notice in A Sentinella (NWS-0006). Died 2 April 1899 aged 13 (so born c.1885–1886) from a jararacussú snakebite in the district of São Pedro de Nova Friburgo; nephew of the paper's manager Guilherme Samuel Bohrer. Deceased.
 0 @DOCF0014_3@ INDI
-1 NAME Lucinda Bohrer /Moreira/
-2 GIVN Lucinda Bohrer
-2 SURN Moreira
+1 NAME Lucinda Maria Bohrer (later Lucinda Bohrer /Moreira)/
+2 GIVN Lucinda Maria Bohrer (later Lucinda Bohrer
+2 SURN Moreira)
 1 SEX U
 1 FAMC @F0014@
-1 NOTE Documented child, not individually modelled. Reported lifespan: 1909–1996.
-2 SOUR @CIV0032@
-1 NOTE Sister of Celina (P-0015); daughter of Joaquim José Bohrer (P-0030) and Lucinda Ferreira da Silva (P-0031), per her 1996 Volta Redonda civil death (CIV-0032): born 26 July 1909 at Rio de Janeiro, died 3 July 1996 at Volta Redonda aged 86, widow of Antonio Moreira, leaving no children. She is the maternal aunt of Iris Bohrer Muniz (P-0007). Deceased.
-0 @DOCF0014_4@ INDI
-1 NAME Lucinda Maria /Bohrer/
-2 GIVN Lucinda Maria
-2 SURN Bohrer
-1 SEX U
-1 FAMC @F0014@
-1 NOTE Documented child, not individually modelled. Reported lifespan: b. 1908.
+1 NOTE Documented child, not individually modelled. Reported lifespan: 1908–1996.
 2 SOUR @PAR0052@
-1 NOTE Sister of Celina (P-0015); legitimate daughter of Joaquim José Bohrer (P-0030) × Lucinda Silva Ferreira (P-0031), born 26 July 1908, baptised 14 September 1908 at the Capela de São Pedro, Nova Friburgo (PAR-0052). A further maternal aunt of Iris Bohrer Muniz (P-0007), distinct from the 1909-born Lucinda Bohrer Moreira above. Deceased.
-0 @DOCF0014_5@ INDI
+2 SOUR @CIV0032@
+1 NOTE Sister of Celina (P-0015); legitimate daughter of Joaquim José Bohrer (P-0030) × Lucinda Ferreira da Silva (P-0031); maternal aunt of Iris Bohrer Muniz (P-0007). Born 26 July 1908, baptised 14 September 1908 at the Capela de São Pedro, Nova Friburgo (PAR-0052); married Antonio Moreira; died 3 July 1996 at Volta Redonda aged 86, widow, leaving no children (CIV-0032). The 1908 baptism and the 1996 death are the same woman [STRONG-EVIDENCE]: identical given name, identical birthday (26 July) and the same parents make two separate daughters implausible; the year differs only between the baptism (1908, primary) and the death informant (26 July 1909). Deceased.
+0 @DOCF0014_4@ INDI
 1 NAME Etelvina /Bohrer/
 2 GIVN Etelvina
 2 SURN Bohrer
@@ -3019,7 +3011,6 @@
 1 CHIL @DOCF0014_2@
 1 CHIL @DOCF0014_3@
 1 CHIL @DOCF0014_4@
-1 CHIL @DOCF0014_5@
 1 SOUR @PAR0057@
 1 SOUR @PAR0056@
 1 SOUR @CIV0015@
@@ -3886,7 +3877,7 @@
 1 REPO @REPO0002@
 2 CALN Brasil, Rio de Janeiro, Registro Civil, 1804-2013, fl. 103, nº 63792
 1 NOTE Evidence classification: civil_registration; original; information mixed; direct evidence.
-1 NOTE Transcription: [Óbito nº 63.792.] "Aos dezesseis de setembro de mil novecentos e noventa e um, nesta cidade e em cartório, compareceu Antonio Engracio Neto, prof. policial, Doc. ident. [uncertain: IFP1848881], residência rua 18 de Outubro, 429/905, e exibindo o atestado de óbito firmado pelo médico Dr. Braulio dos Santos Junior, prestou as seguintes declarações: Nome do obituado: Maria Aurora Guimarães. Data e hora do falecimento: 15/setembro/1991 às 13,30 horas. Est. civil viúva de Antonio Engracio Filho. Sexo feminino, idade 87 anos. Lugar do falecimento: rua David Campista, 326 - Hospital. Residência: Av. Ten. Ribeiro, 361/201, prof. do lar. Naturalidade: Estado de Minas Gerais. Nome dos pais do obituado: Francisco José de Carvalho Guimarães e Emerenciana Maria de Jesus. Causa mortis: infecção respiratória, doença pulmonar obstrutiva crônica, hipertensão arterial sistêmica, insuficiência renal aguda. Lugar do sepultamento: Cemitério São Francisco Xavier. Deixou filhos maiores? Quantos? cinco. Filhos menores? Quantos? não. Deixou bens? não. Era eleitor? não. Faleceu com testamento conhecido? não. Observações: [em branco]. Para constar, lavrei este termo que, lido e achado conforme, assino. Eu, Francisco Edelberto Petraglia, auxiliar juramentado, datilografei. E eu, [assinatura] Oficial, o subscrevo." The declarant Antonio Engracio Neto is named in the register with his police identity document ([uncertain: IFP1848881]) and home address (rua 18 de Outubro, 429/905), transcribed above in full.
+1 NOTE Transcription: [Óbito nº 63.792.] "Aos dezesseis de setembro de mil novecentos e noventa e um, nesta cidade e em cartório, compareceu Antonio Engracio Neto, prof. policial, Doc. ident. [omitido — privacidade], residência [omitida — privacidade], e exibindo o atestado de óbito firmado pelo médico Dr. Braulio dos Santos Junior, prestou as seguintes declarações: Nome do obituado: Maria Aurora Guimarães. Data e hora do falecimento: 15/setembro/1991 às 13,30 horas. Est. civil viúva de Antonio Engracio Filho. Sexo feminino, idade 87 anos. Lugar do falecimento: rua David Campista, 326 - Hospital. Residência: Av. Ten. Ribeiro, 361/201, prof. do lar. Naturalidade: Estado de Minas Gerais. Nome dos pais do obituado: Francisco José de Carvalho Guimarães e Emerenciana Maria de Jesus. Causa mortis: infecção respiratória, doença pulmonar obstrutiva crônica, hipertensão arterial sistêmica, insuficiência renal aguda. Lugar do sepultamento: Cemitério São Francisco Xavier. Deixou filhos maiores? Quantos? cinco. Filhos menores? Quantos? não. Deixou bens? não. Era eleitor? não. Faleceu com testamento conhecido? não. Observações: [em branco]. Para constar, lavrei este termo que, lido e achado conforme, assino. Eu, Francisco Edelberto Petraglia, auxiliar juramentado, datilografei. E eu, [assinatura] Oficial, o subscrevo." The declarant Antonio Engracio Neto — a possibly-living descendant — is named in the register as the informant; his identity-document number and home address are withheld here for privacy.
 1 NOTE Archival reference: Óbito nº 63.792, Livro 386-C, fl. 103, Quinta Circunscrição do Registro Civil, Rio de Janeiro, RJ. Located via a FamilySearch Records relationship-persona search and delivered through the research/from-retrieval/ sync; the exact ARK was not captured in the drop filename. Read and promoted 30 July 2026.
 1 NOTE Repository file: evidence/civil/CIV-0018-maria-aurora-guimaraes-death-1991.jpg
 1 OBJE @OBJCIV0018@
@@ -4767,7 +4758,7 @@
 1 REPO @REPO0043@
 2 CALN Trauregister (marriage register), 1847, p.9, entry 1
 1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
-1 NOTE Transcription: [Trauregister, Nova Friburgo, S.9, 1847, Nr. 1.] "Den 3ten Febr[uar] wurden Conrad Schenkel, ehel[icher] leibl[icher] Sohn von dem [Bürger?] Heinrich Schenkel, mit Louisa [St]offel, ehel[iche] ledige Tochter von dem Schweizer Colonisten Joseph [St]offel, copuliert. Zeugen waren ihr Gustav Lenenroth, Handelsmann [wohnhaft?], und Paul Lenenroth, ebenfalls Handelsmann. — Gustav Lenenroth, Pastor."
+1 NOTE Transcription: [Trauregister, Nova Friburgo, S.9, 1847, Nr. 1.] "Den 3ten Febr[uar] wurden Conrad Schenkel, ehel[icher] leibl[icher] Sohn von dem Kirchenvorsteher Heinrich Schenkel, mit Louisa [St]offel, ehel[iche] ledige Tochter von dem Schweizer Colonisten Joseph [St]offel, copuliert. Zeugen waren ihr Gustav Lenenroth, Handelsmann [wohnhaft?], und Paul Lenenroth, ebenfalls Handelsmann. — Gustav Lenenroth, Pastor."
 1 NOTE Archival reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
 1 OBJE @OBJPAR0067@
 0 @PAR0068@ SOUR

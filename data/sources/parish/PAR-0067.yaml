@@ -26,13 +26,13 @@ access_date: "2026-09-09"
 language: de
 transcription: >-
   [Trauregister, Nova Friburgo, S.9, 1847, Nr. 1.] "Den 3ten Febr[uar] wurden Conrad Schenkel,
-  ehel[icher] leibl[icher] Sohn von dem [Bürger?] Heinrich Schenkel, mit Louisa [St]offel,
+  ehel[icher] leibl[icher] Sohn von dem Kirchenvorsteher Heinrich Schenkel, mit Louisa [St]offel,
   ehel[iche] ledige Tochter von dem Schweizer Colonisten Joseph [St]offel, copuliert. Zeugen waren
   ihr Gustav Lenenroth, Handelsmann [wohnhaft?], und Paul Lenenroth, ebenfalls Handelsmann. —
   Gustav Lenenroth, Pastor."
 transcription_pt: >-
   [Registro de casamentos, Nova Friburgo, p.9, 1847, nº 1.] "No dia 3 de fevereiro casaram-se
-  Conrad Schenkel, filho legítimo do [cidadão?] Heinrich Schenkel, com Louisa [St]offel, filha
+  Conrad Schenkel, filho legítimo do presbítero (Kirchenvorsteher) Heinrich Schenkel, com Louisa [St]offel, filha
   legítima solteira do colono suíço Joseph [St]offel. Foram testemunhas Gustav Lenenroth,
   comerciante, e Paul Lenenroth, igualmente comerciante. — Gustav Lenenroth, Pastor."
 abstract: >-
@@ -55,8 +55,11 @@ reliability:
     spouses' filiations.
   informant: The contracting parties before Pastor Gustav Lenenroth.
   limitations: >-
-    German Kurrentschrift. The Stoffel surname initial and Heinrich Schenkel's descriptor are
-    partly [uncertain]. Delivered via the Fundação D. João VI digitisation (C-009).
+    German Kurrentschrift. The Stoffel surname initial remains partly [uncertain]. Heinrich
+    Schenkel's descriptor, earlier hedged as "[Bürger?]", was resolved to "Kirchenvorsteher"
+    (Lutheran church warden/elder) on a max-zoom re-read of the register image on 2026-09-11 —
+    the word is a long compound clearly ending in "-vorsteher", far too long for "Bürger".
+    Delivered via the Fundação D. João VI digitisation (C-009).
 digital_file:
   path: evidence/parish/PAR-0067-bohrer-schenkel-stoffel-marriage-1847-luterana-novafriburgo.jpg
   sha256: ca58c476c77cfae38f75ab46078fd572b897a799147c5cada9954e85e36a2f00

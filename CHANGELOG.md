@@ -5,6 +5,31 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — Review-driven corrections: PAR-0067 rank, CIV-0018 privacy, Lucinda de-duplication (2026-09-11)
+
+Follow-up to the portrait refresh, from a PAR-0067 image re-read and a fresh-eyes QA
+review of the 40 enriched profiles:
+
+- **PAR-0067** — the rank of Heinrich Schenkel (P-0113), hedged "[Bürger?]", was
+  re-read at max zoom and confirmed **"Kirchenvorsteher"** (Lutheran church warden);
+  transcription (DE+PT) and reliability note corrected, P-0113/P-0107 profiles synced
+  `[PROVEN — PAR-0067]`.
+- **CIV-0018 privacy** — the transcription exposed a declarant's RG-issuer identity
+  number ("IFP…") and home address (a possibly-living descendant, Antonio Engracio
+  Neto). Both redacted (`[omitido — privacidade]`); the deceased subject's own details
+  kept per policy. A repo-wide sweep confirmed no other un-redacted ID number remains.
+- **Lucinda de-duplication (F-0014, P-0030, P-0031)** — "Lucinda Maria" (baptism 1908,
+  PAR-0052) and "Lucinda Bohrer Moreira" (death 1996, CIV-0032) were listed as two
+  daughters; identical given name, identical 26 July birthday and the same parents show
+  **one woman** `[STRONG-EVIDENCE]` (the death's "1909" is informant-reported vs the
+  1908 baptism). Merged the documented_children entry and both profiles (EN+PT).
+- Minor precision (EN+PT): P-0047 "de Pimentel" marked `[uncertain reading]` (PAR-0046);
+  P-0008 "his only office" → "the latest office documented"; P-0042 Agostinho "younger
+  brother" → "documented brother" (birth order not record-stated).
+
+GEDCOM regenerated. `make check` green (75 tests, validate clean).
+
+
 ### Fixed — Viewer mobile: floating "?" on phones, full-screen person page (2026-09-11)
 
 - The floating **"?" help button now shows on mobile** (it was hidden there); the

@@ -50,25 +50,21 @@ documented_children:
     Died 2 April 1899 aged 13 (so born c.1885–1886) from a jararacussú snakebite in
     the district of São Pedro de Nova Friburgo; nephew of the paper's manager
     Guilherme Samuel Bohrer. Deceased.
-- name: Lucinda Bohrer Moreira
-  source_ids:
-  - CIV-0032
-  lifespan: 1909–1996
-  note: >-
-    Sister of Celina (P-0015); daughter of Joaquim José Bohrer (P-0030) and Lucinda
-    Ferreira da Silva (P-0031), per her 1996 Volta Redonda civil death (CIV-0032): born
-    26 July 1909 at Rio de Janeiro, died 3 July 1996 at Volta Redonda aged 86, widow of
-    Antonio Moreira, leaving no children. She is the maternal aunt of Iris Bohrer Muniz
-    (P-0007). Deceased.
-- name: Lucinda Maria Bohrer
+- name: Lucinda Maria Bohrer (later Lucinda Bohrer Moreira)
   source_ids:
   - PAR-0052
-  lifespan: b. 1908
+  - CIV-0032
+  lifespan: 1908–1996
   note: >-
     Sister of Celina (P-0015); legitimate daughter of Joaquim José Bohrer (P-0030) ×
-    Lucinda Silva Ferreira (P-0031), born 26 July 1908, baptised 14 September 1908 at the
-    Capela de São Pedro, Nova Friburgo (PAR-0052). A further maternal aunt of Iris Bohrer
-    Muniz (P-0007), distinct from the 1909-born Lucinda Bohrer Moreira above. Deceased.
+    Lucinda Ferreira da Silva (P-0031); maternal aunt of Iris Bohrer Muniz (P-0007).
+    Born 26 July 1908, baptised 14 September 1908 at the Capela de São Pedro, Nova
+    Friburgo (PAR-0052); married Antonio Moreira; died 3 July 1996 at Volta Redonda
+    aged 86, widow, leaving no children (CIV-0032). The 1908 baptism and the 1996 death
+    are the same woman [STRONG-EVIDENCE]: identical given name, identical birthday (26
+    July) and the same parents make two separate daughters implausible; the year differs
+    only between the baptism (1908, primary) and the death informant (26 July 1909).
+    Deceased.
 - name: Etelvina Bohrer
   source_ids:
   - PAR-0075
