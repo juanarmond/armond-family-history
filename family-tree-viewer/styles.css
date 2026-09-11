@@ -916,7 +916,9 @@ a:focus-visible {
 .help-fab:hover { background: var(--gold-soft); box-shadow: 0 0 0 1px var(--gold), var(--shadow-md); }
 .help-fab:active { transform: translateY(1px); }
 .help-fab[hidden] { display: none; }
-@media (max-width: 700px) { .help-fab { display: none; } }
+/* On mobile the floating "?" is the only help affordance (the focus view has no
+   nav-row "?"); it still auto-hides whenever a panel opens. */
+@media (max-width: 700px) { .help-fab { bottom: 1.15rem; right: 1.15rem; } }
 
 /* The person panel's header actions — the "?" (About this card) beside the × close. */
 .detail-head-actions { display: flex; flex: 0 0 auto; gap: .5rem; align-items: center; }
@@ -1801,29 +1803,15 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
   /* Generations only affects the pedigree, which is hidden in the focus view. */
   .toolbar .field-gen { display: none; }
 
-  /* The detail panel becomes a bottom sheet. */
+  /* The detail panel is a full-screen page on mobile (not a partial floating sheet). */
   .detail-panel {
-    top: auto;
-    bottom: 0;
-    left: 0;
-    right: auto;
+    inset: 0;
     width: 100%;
-    height: auto;
-    max-height: 88vh;
-    padding: 1.3rem 1.15rem 2rem;
+    height: 100%;
+    max-height: none;
+    padding: 1.3rem 1.15rem 2.6rem;
     border-left: 0;
-    border-top: 2px solid var(--gold);
-    border-radius: 20px 20px 0 0;
-  }
-  .detail-panel::before {
-    content: "";
-    display: block;
-    flex: 0 0 auto;
-    width: 2.5rem;
-    height: 4px;
-    margin: -.35rem auto 1rem;
-    border-radius: 999px;
-    background: var(--rule-strong);
+    border-radius: 0;
   }
   .close-button, .portrait-close { min-width: 2.75rem; min-height: 2.75rem; }
 

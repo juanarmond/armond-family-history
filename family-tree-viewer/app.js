@@ -2273,14 +2273,6 @@ function renderMobileFocus() {
   home.textContent = `⌂ ${t("mobile.home")}`;
   home.addEventListener("click", () => focusPerson("P-0001"));
   nav.append(home);
-  const help = document.createElement("button");
-  help.type = "button";
-  help.className = "mobile-nav-btn mobile-nav-help";
-  help.textContent = "?";
-  help.setAttribute("aria-label", t("mobile.help"));
-  help.title = t("mobile.help");
-  help.addEventListener("click", () => openGuide("nav"));
-  nav.append(help);
   container.append(nav);
 
   const head = document.createElement("div");

@@ -5,6 +5,16 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — Viewer mobile: floating "?" on phones, full-screen person page (2026-09-11)
+
+- The floating **"?" help button now shows on mobile** (it was hidden there); the
+  redundant nav-row "?" in the focus view is removed, so there is one consistent
+  floating help affordance on every device (still auto-hides when a panel opens).
+- The **person detail opens as a full-screen page on mobile**, not a partial
+  floating bottom-sheet — matching the "next page" expectation (the portrait was
+  already full-screen). Dropped the sheet's grab-handle/rounded-top treatment.
+
+
 ### Changed — Portraits: bilingual biographies refreshed against held evidence across all lines (2026-09-11)
 
 Ran a repository-wide portrait sync: 93 flagged profiles reviewed by parallel agents
