@@ -138,11 +138,13 @@ const elements = {
   storyPanel: document.querySelector("#story-panel"),
   storyBackdrop: document.querySelector("#story-backdrop"),
   closeStory: document.querySelector("#close-story"),
+  storyHelp: document.querySelector("#story-help"),
   storyContent: document.querySelector("#story-content"),
   openUpdates: document.querySelector("#open-updates"),
   updatesPanel: document.querySelector("#updates-panel"),
   updatesBackdrop: document.querySelector("#updates-backdrop"),
   closeUpdates: document.querySelector("#close-updates"),
+  updatesHelp: document.querySelector("#updates-help"),
   updatesContent: document.querySelector("#updates-content"),
   helpFab: document.querySelector("#help-fab"),
   detailHelp: document.querySelector("#detail-help"),
@@ -1848,6 +1850,7 @@ function renderGuidePortrait(container) {
       ["REC", t("guide.portrait.src.rec")],
     ]),
     guideDef(t("guide.portrait.sections.label"), t("guide.portrait.sections.body")),
+    guideDef(t("guide.portrait.maps.label"), t("guide.portrait.maps.body")),
     guideDef(t("guide.portrait.vs.label"), t("guide.portrait.vs.body")),
   );
   container.append(defs);
@@ -1878,6 +1881,19 @@ function renderGuideCard(container, name) {
   container.append(defs);
 }
 
+// Simple intro + term/explanation list, shared by the "About what's new" and
+// "About the family story" panel-help topics.
+function renderGuideDefs(container, introKey, rows) {
+  const intro = document.createElement("p");
+  intro.className = "guide-intro";
+  intro.textContent = t(introKey);
+  container.append(intro);
+  const defs = document.createElement("div");
+  defs.className = "guide-defs";
+  for (const [labelKey, bodyKey] of rows) defs.append(guideDef(t(labelKey), t(bodyKey)));
+  container.append(defs);
+}
+
 function renderGuide() {
   const container = elements.guideContent;
   if (!container) return;
@@ -1889,6 +1905,20 @@ function renderGuide() {
   } else if (guideTopic === "portrait") {
     setGuideHead(t("guide.portrait.eyebrow"), t("guide.portrait.title"), t("guide.portrait.subtitle"));
     renderGuidePortrait(container);
+  } else if (guideTopic === "updates") {
+    setGuideHead(t("guide.updates.eyebrow"), t("guide.updates.title"), t("guide.updates.subtitle"));
+    renderGuideDefs(container, "guide.updates.intro", [
+      ["guide.updates.what.label", "guide.updates.what.body"],
+      ["guide.updates.open.label", "guide.updates.open.body"],
+      ["guide.updates.privacy.label", "guide.updates.privacy.body"],
+    ]);
+  } else if (guideTopic === "story") {
+    setGuideHead(t("guide.story.eyebrow"), t("guide.story.title"), t("guide.story.subtitle"));
+    renderGuideDefs(container, "guide.story.intro", [
+      ["guide.story.grounded.label", "guide.story.grounded.body"],
+      ["guide.story.living.label", "guide.story.living.body"],
+      ["guide.story.links.label", "guide.story.links.body"],
+    ]);
   } else {
     setGuideHead(t("guide.eyebrow"), t("guide.title"), t("guide.subtitle"));
     renderGuideNav(container, name);
@@ -1917,9 +1947,9 @@ function syncHelpFab() {
 // the detail panel here).
 function openGuide(topic = "nav") {
   if (!elements.guidePanel) return;
-  guideTopic = ["card", "portrait"].includes(topic) ? topic : "nav";
-  closeUpdates();
-  closeStory();
+  guideTopic = ["card", "portrait", "updates", "story"].includes(topic) ? topic : "nav";
+  // The guide layers above every panel (z30), so it does NOT close the panel it is
+  // explaining — "About what's new"/"About this story" sit over their own panel.
   const opening = elements.guidePanel.hidden;
   if (opening && !elements.guidePanel.contains(document.activeElement)) {
     lastFocused = document.activeElement;
@@ -2465,11 +2495,14 @@ function bindEvents() {
   if (elements.updatesBackdrop) elements.updatesBackdrop.addEventListener("click", closeUpdates);
   if (elements.helpFab) elements.helpFab.addEventListener("click", () => openGuide("nav"));
   if (elements.detailHelp) elements.detailHelp.addEventListener("click", () => openGuide("card"));
+  if (elements.storyHelp) elements.storyHelp.addEventListener("click", () => openGuide("story"));
+  if (elements.updatesHelp) elements.updatesHelp.addEventListener("click", () => openGuide("updates"));
   if (elements.closeGuide) elements.closeGuide.addEventListener("click", closeGuide);
   if (elements.guideBackdrop) elements.guideBackdrop.addEventListener("click", closeGuide);
   document.addEventListener("keydown", (event) => {
     if (event.key !== "Escape") return;
-    if (elements.guidePanel && !elements.guidePanel.hidden) closeGuide();
+    // The guide layers on top — Escape closes it first, leaving the panel beneath open.
+    if (elements.guidePanel && !elements.guidePanel.hidden) { closeGuide(); return; }
     if (elements.storyPanel && !elements.storyPanel.hidden) closeStory();
     if (elements.updatesPanel && !elements.updatesPanel.hidden) closeUpdates();
   });

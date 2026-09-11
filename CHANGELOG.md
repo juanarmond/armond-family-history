@@ -5,6 +5,20 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added / Changed — Viewer: help in Novidades & Family Story, portrait Maps note, tidier language field (2026-09-11)
+
+- **"?" help in the What's new (Novidades) and Family Story panels** — each opens a
+  short bilingual explainer ("About what's new" / "About the family story"): what the
+  panel is, how to open items, the living-people rule, and that highlighted names are
+  links. One guide panel now serves five topics (`nav`/`card`/`portrait`/`updates`/
+  `story`); it layers above the panel it explains (z-index raised) and no longer closes
+  it. On mobile the "?" and "×" float together as one cluster so they don't overlap.
+- **Portrait help now explains the Maps links** — a "Maps & 'Where to go today'" row in
+  "About this portrait", covering the `[Maps]` links that open Google Maps at a place.
+- **Language selector** simplified to **English / Português** (dropped "(Brasil)") and
+  its field narrowed to match the shorter labels.
+
+
 ### Added — Viewer: navigation help & "How to explore" guide, desktop + mobile (2026-09-11)
 
 A navigation-first help layer so family members can find their way around, on both

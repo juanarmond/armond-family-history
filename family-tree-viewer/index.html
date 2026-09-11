@@ -71,7 +71,7 @@
         <span data-i18n="control.language">Language</span>
         <select id="language-select">
           <option value="en">English</option>
-          <option value="pt-BR">Português (Brasil)</option>
+          <option value="pt-BR">Português</option>
         </select>
       </label>
 
@@ -132,7 +132,10 @@
         <p class="story-subtitle" data-i18n="story.subtitle">The confluence of four continents in one person</p>
         <p class="story-note" data-i18n="story.note">A narrative synthesis over the family's documented records — grounded in the sources held in this archive. Living people appear by first name only.</p>
       </div>
-      <button id="close-story" class="close-button" type="button" data-i18n-aria="story.close" aria-label="Close family story">×</button>
+      <div class="story-head-actions">
+        <button id="story-help" class="close-button" type="button" data-i18n-aria="guide.story.button" data-i18n-title="guide.story.button" aria-label="About this story" title="About this story">?</button>
+        <button id="close-story" class="close-button" type="button" data-i18n-aria="story.close" aria-label="Close family story">×</button>
+      </div>
     </div>
     <div id="story-content" class="story-content"></div>
   </aside>
@@ -145,7 +148,9 @@
         <h2 id="guide-title" class="story-title" data-i18n="guide.title">How to explore</h2>
         <p id="guide-subtitle" class="story-subtitle" data-i18n="guide.subtitle">A quick guide to finding your way around the family.</p>
       </div>
-      <button id="close-guide" class="close-button" type="button" data-i18n-aria="guide.close" aria-label="Close help">×</button>
+      <div class="story-head-actions">
+        <button id="close-guide" class="close-button" type="button" data-i18n-aria="guide.close" aria-label="Close help">×</button>
+      </div>
     </div>
     <div id="guide-content" class="guide-content"></div>
   </aside>
@@ -158,7 +163,10 @@
         <h2 id="updates-title" class="story-title" data-i18n="updates.title">What's new</h2>
         <p class="story-subtitle" data-i18n="updates.subtitle">The latest records and corrections added to the archive.</p>
       </div>
-      <button id="close-updates" class="close-button" type="button" data-i18n-aria="updates.close" aria-label="Close what's new">×</button>
+      <div class="story-head-actions">
+        <button id="updates-help" class="close-button" type="button" data-i18n-aria="guide.updates.button" data-i18n-title="guide.updates.button" aria-label="About what's new" title="About what's new">?</button>
+        <button id="close-updates" class="close-button" type="button" data-i18n-aria="updates.close" aria-label="Close what's new">×</button>
+      </div>
     </div>
     <div id="updates-content" class="updates-content"></div>
   </aside>

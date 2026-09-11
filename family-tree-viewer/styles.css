@@ -184,7 +184,7 @@ main {
 .toolbar .field-person { flex: 2 1 17rem; }
 .toolbar .field-gen { flex: 0 1 7.5rem; }
 .toolbar .search-field { flex: 3 1 15rem; position: relative; }
-.toolbar .field-lang { flex: 0 1 11rem; }
+.toolbar .field-lang { flex: 0 1 9rem; }
 .toolbar #reset-view { flex: 0 0 auto; align-self: flex-end; }
 
 /* Live search results dropdown, anchored under the search input. */
@@ -841,6 +841,7 @@ a:focus-visible {
   cursor: pointer;
 }
 .story-head button:hover { background: var(--gold-soft); border-color: var(--gold); color: var(--green-deep); }
+.story-head-actions { display: flex; gap: .5rem; align-items: flex-start; flex: 0 0 auto; }
 .story-eyebrow {
   margin: 0 0 .35rem;
   font-family: var(--sans);
@@ -1121,14 +1122,13 @@ a:focus-visible {
     overscroll-behavior: contain;
   }
   .updates-panel .story-head { padding-right: 3.3rem; margin-bottom: 1.1rem; }
-  .updates-panel .story-head button {
+  .updates-panel .story-head-actions {
     position: fixed;
     top: .7rem;
     right: .7rem;
     z-index: 22;
-    background: var(--card);
-    box-shadow: var(--shadow-md);
   }
+  .updates-panel .story-head-actions button { box-shadow: var(--shadow-md); }
   .updates-panel .story-title { font-size: 1.3rem; }
   .updates-panel .story-subtitle { font-size: .92rem; }
   /* Comfortable touch targets for the entity chips on mobile. */
@@ -1151,16 +1151,16 @@ a:focus-visible {
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
   }
-  /* Keep the close control reachable throughout a long read: float it, fixed. */
+  /* Keep the close/help controls reachable throughout a long read: float the
+     actions cluster, fixed, so the "?" and "×" stay side by side top-right. */
   .story-head { padding-right: 3.3rem; margin-bottom: 1.1rem; }
-  .story-head button {
+  .story-head-actions {
     position: fixed;
     top: .7rem;
     right: .7rem;
     z-index: 22;
-    background: var(--card);
-    box-shadow: var(--shadow-md);
   }
+  .story-head-actions button { box-shadow: var(--shadow-md); }
   .story-title { font-size: 1.3rem; }
   .story-subtitle { font-size: .92rem; }
   .story-note { font-size: .76rem; }
