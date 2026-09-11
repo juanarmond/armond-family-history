@@ -11,21 +11,27 @@ A navigation-first help layer so family members can find their way around, on bo
 layouts, styled entirely with the existing design tokens (reuses the Family Story
 overlay shell — centred card on desktop, full-screen sheet on mobile):
 
-- **Compact circular "?" help icon** (the universal help glyph, with a bilingual
-  tooltip/`aria-label` rather than a redundant "? Help" label) in the desktop
-  toolbar and the mobile focus-view nav row — opens a bilingual **"How to explore"**
-  guide anywhere in the app.
-- **First-run auto-open:** the guide shows once on a first visit (flagged in
-  `localStorage`, key `armond-viewer-guide-seen-v1`), skipped when arriving on a
-  deep link (a shared person/record). The button always reopens it afterwards.
+- **Persistent floating "?" button** (bottom-left on desktop, so it never overlaps
+  the right-edge panels; auto-hidden while any modal overlay is open, via a
+  MutationObserver on the panel backdrops) opens the bilingual **"How to explore"**
+  navigation guide. The mobile focus-view nav row keeps its own compact "?".
+- **A second "?" on the person panel** (beside the × close) opens **"About this
+  card"** — a bilingual section-by-section explainer of that page (Biography,
+  Relationship, Overview, Events, Family, Sources, and the ⚠ uncertain-reading
+  banner). It layers over the open card rather than replacing it. One guide panel
+  serves both topics (`nav` / `card`), with a dynamic head.
+- **First-run auto-open:** the navigation guide shows once on a first visit (flagged
+  in `localStorage`, key `armond-viewer-guide-seen-v1`), skipped when arriving on a
+  deep link (a shared person/record). The "?" buttons always reopen it afterwards.
 - **Guide content is navigation-first** and layout-aware: how to move through the
   family (tap a relative / click a card, drag+scroll on desktop), never get lost
   (Back / Home / Reset, naming the subject), jump to anyone (search), and see the
   proof (Full details → records). Plus a short **legend** for the birthplace flag,
   the evidence-tier edge colours (confirmed/strong/hypothesis), and the record badges.
 - **Directional cues** on the mobile focus view: "Parents ↑" and "Children ↓".
-- Fully bilingual (EN/PT parity, 25 guide keys per locale); re-renders on language
-  switch; Escape / backdrop / "Got it" all close it. Viewer-only — no data change.
+- Fully bilingual (EN/PT parity across all nav + card guide keys); re-renders on
+  language switch; Escape / backdrop / "Got it" all close it. Viewer-only — no data
+  change.
 
 ### Changed — Viewer: sources panel grouped into own / mentions / context (2026-09-10)
 

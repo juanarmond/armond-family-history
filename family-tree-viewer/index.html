@@ -76,7 +76,6 @@
       </label>
 
       <button id="reset-view" type="button" data-i18n="control.reset">Reset view</button>
-      <button id="open-guide" type="button" class="guide-button" data-i18n-aria="guide.button" data-i18n-title="guide.button" aria-label="Help" title="Help">?</button>
       <button id="open-updates" type="button" class="updates-button" data-i18n="control.updates">What's new</button>
       <button id="open-story" type="button" class="story-button" data-i18n="control.story">Family Story</button>
     </section>
@@ -116,7 +115,10 @@
         <h2 id="details-title" class="detail-title"></h2>
         <p id="details-lifespan" class="detail-lifespan"></p>
       </div>
-      <button id="close-details" class="close-button" type="button" data-i18n-aria="panel.close" aria-label="Close person details">×</button>
+      <div class="detail-head-actions">
+        <button id="detail-help" class="close-button" type="button" data-i18n-aria="guide.card.button" data-i18n-title="guide.card.button" aria-label="About this card" title="About this card">?</button>
+        <button id="close-details" class="close-button" type="button" data-i18n-aria="panel.close" aria-label="Close person details">×</button>
+      </div>
     </div>
     <div id="details-content"></div>
   </aside>
@@ -139,9 +141,9 @@
   <aside id="guide-panel" class="story-panel guide-panel" aria-labelledby="guide-title" hidden>
     <div class="story-head">
       <div>
-        <p class="story-eyebrow" data-i18n="guide.eyebrow">Getting started</p>
+        <p id="guide-eyebrow" class="story-eyebrow" data-i18n="guide.eyebrow">Getting started</p>
         <h2 id="guide-title" class="story-title" data-i18n="guide.title">How to explore</h2>
-        <p class="story-subtitle" data-i18n="guide.subtitle">A quick guide to finding your way around the family.</p>
+        <p id="guide-subtitle" class="story-subtitle" data-i18n="guide.subtitle">A quick guide to finding your way around the family.</p>
       </div>
       <button id="close-guide" class="close-button" type="button" data-i18n-aria="guide.close" aria-label="Close help">×</button>
     </div>
@@ -161,6 +163,8 @@
     <div id="updates-content" class="updates-content"></div>
   </aside>
   <div id="updates-backdrop" class="panel-backdrop" hidden></div>
+
+  <button id="help-fab" class="help-fab" type="button" data-i18n-aria="guide.button" data-i18n-title="guide.button" aria-label="Help" title="Help" hidden>?</button>
 
   <footer class="site-footer" data-i18n="footer">
     Read-only static visualisation. Repository YAML remains the canonical source of truth.

@@ -877,33 +877,36 @@ a:focus-visible {
 
 /* How-to guide — a navigation-first help overlay. Reuses .story-panel / .story-head
    (centred card on desktop, full-screen sheet on mobile); this styles only its body. */
-/* A compact circular "?" — the universal help glyph, set apart from the action
-   pills rather than competing with them (the word "Help" lives in the tooltip). */
-.toolbar .guide-button {
-  flex: 0 0 auto;
-  align-self: flex-end;
+/* Floating "?" — the persistent help affordance for the bare tree / focus view.
+   Bottom-left so it never overlaps the right-edge detail/story/updates panels; the
+   script hides it whenever a modal is open. Desktop only (mobile uses the nav "?"). */
+.help-fab {
+  position: fixed;
+  z-index: 15;
+  bottom: 1.4rem;
+  left: 1.4rem;
   display: grid;
   place-items: center;
-  width: 2.85rem;
-  height: 2.85rem;
-  min-height: 2.85rem;
-  padding: 0;
-  border: 1px solid var(--rule-strong);
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid var(--gold);
   border-radius: 50%;
   background: var(--card);
-  color: var(--muted);
-  font-family: var(--serif);
-  font-size: 1.2rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  text-transform: none;
-}
-.toolbar .guide-button:hover {
-  background: var(--gold-soft);
-  border-color: var(--gold);
   color: var(--green-deep);
-  box-shadow: none;
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  transition: background .15s ease, box-shadow .15s ease, transform .12s ease;
 }
+.help-fab:hover { background: var(--gold-soft); box-shadow: 0 0 0 1px var(--gold), var(--shadow-md); }
+.help-fab:active { transform: translateY(1px); }
+.help-fab[hidden] { display: none; }
+@media (max-width: 700px) { .help-fab { display: none; } }
+
+/* The person panel's header actions — the "?" (About this card) beside the × close. */
+.detail-head-actions { display: flex; flex: 0 0 auto; gap: .5rem; align-items: center; }
 
 .guide-panel { width: min(40rem, 94vw); }
 .guide-content { color: var(--ink); }
@@ -938,6 +941,17 @@ a:focus-visible {
   color: var(--ink);
 }
 .guide-step-body { margin: 0; font-size: .92rem; line-height: 1.55; color: var(--muted); }
+
+/* "About this card" help: a term → explanation list naming each panel section. */
+.guide-defs { display: grid; gap: 1.05rem; }
+.guide-def-label {
+  margin: 0 0 .2rem;
+  font-family: var(--sans);
+  font-size: .82rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.guide-def-body { margin: 0; font-size: .92rem; line-height: 1.55; color: var(--muted); }
 
 .guide-legend {
   margin: 1.6rem 0 0;

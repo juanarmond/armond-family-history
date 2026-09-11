@@ -144,11 +144,15 @@ const elements = {
   updatesBackdrop: document.querySelector("#updates-backdrop"),
   closeUpdates: document.querySelector("#close-updates"),
   updatesContent: document.querySelector("#updates-content"),
-  openGuide: document.querySelector("#open-guide"),
+  helpFab: document.querySelector("#help-fab"),
+  detailHelp: document.querySelector("#detail-help"),
   guidePanel: document.querySelector("#guide-panel"),
   guideBackdrop: document.querySelector("#guide-backdrop"),
   closeGuide: document.querySelector("#close-guide"),
   guideContent: document.querySelector("#guide-content"),
+  guideEyebrow: document.querySelector("#guide-eyebrow"),
+  guideTitle: document.querySelector("#guide-title"),
+  guideSubtitle: document.querySelector("#guide-subtitle"),
 };
 
 const statusColours = {
@@ -1701,13 +1705,35 @@ function guideStep(num, title, body) {
   return step;
 }
 
-function renderGuide() {
-  const container = elements.guideContent;
-  if (!container) return;
-  container.replaceChildren();
-  const mobile = isMobile();
-  const name = subjectFirstName();
+// The guide serves two topics from one panel: "nav" (how to move around the tree,
+// opened from the floating "?" / the mobile nav) and "card" (what each part of the
+// open person panel means, opened from the panel's own "?").
+let guideTopic = "nav";
 
+function setGuideHead(eyebrow, title, subtitle) {
+  if (elements.guideEyebrow) elements.guideEyebrow.textContent = eyebrow;
+  if (elements.guideTitle) elements.guideTitle.textContent = title;
+  if (elements.guideSubtitle) elements.guideSubtitle.textContent = subtitle;
+}
+
+// A term → explanation row, used by the "About this card" help to name each part
+// of the person panel.
+function guideDef(label, body) {
+  const row = document.createElement("div");
+  row.className = "guide-def";
+  const l = document.createElement("p");
+  l.className = "guide-def-label";
+  l.textContent = label;
+  const b = document.createElement("p");
+  b.className = "guide-def-body";
+  b.textContent = body;
+  row.append(l, b);
+  return row;
+}
+
+// The navigation guide — how to move around the tree (layout-aware).
+function renderGuideNav(container, name) {
+  const mobile = isMobile();
   const intro = document.createElement("p");
   intro.className = "guide-intro";
   intro.textContent = t("guide.intro");
@@ -1740,12 +1766,11 @@ function renderGuide() {
   const tierRow = document.createElement("p");
   tierRow.className = "guide-legend-row";
   tierRow.append(document.createTextNode(`${t("guide.legend.tiers")} `));
-  const tiers = [
+  [
     ["confirmed", t("guide.legend.confirmed")],
     ["strong-evidence", t("guide.legend.strong")],
     ["hypothesis", t("guide.legend.hypothesis")],
-  ];
-  tiers.forEach(([status, label], i) => {
+  ].forEach(([status, label], i) => {
     if (i > 0) tierRow.append(document.createTextNode(" · "));
     const swatch = document.createElement("span");
     swatch.className = "guide-swatch";
@@ -1761,6 +1786,41 @@ function renderGuide() {
   badgeRow.textContent = t("guide.legend.badges");
   legend.append(badgeRow);
   container.append(legend);
+}
+
+// The "About this card" help — names each section of the open person panel.
+function renderGuideCard(container, name) {
+  const intro = document.createElement("p");
+  intro.className = "guide-intro";
+  intro.textContent = t("guide.card.intro");
+  container.append(intro);
+
+  const defs = document.createElement("div");
+  defs.className = "guide-defs";
+  defs.append(
+    guideDef(t("guide.card.bio.label"), t("guide.card.bio.body")),
+    guideDef(t("guide.card.rel.label"), t("guide.card.rel.body").replace("{name}", name)),
+    guideDef(t("guide.card.overview.label"), t("guide.card.overview.body")),
+    guideDef(t("guide.card.events.label"), t("guide.card.events.body")),
+    guideDef(t("guide.card.family.label"), t("guide.card.family.body")),
+    guideDef(t("guide.card.sources.label"), t("guide.card.sources.body")),
+    guideDef(t("guide.card.caution.label"), t("guide.card.caution.body")),
+  );
+  container.append(defs);
+}
+
+function renderGuide() {
+  const container = elements.guideContent;
+  if (!container) return;
+  container.replaceChildren();
+  const name = subjectFirstName();
+  if (guideTopic === "card") {
+    setGuideHead(t("guide.card.eyebrow"), t("guide.card.title"), t("guide.card.subtitle"));
+    renderGuideCard(container, name);
+  } else {
+    setGuideHead(t("guide.eyebrow"), t("guide.title"), t("guide.subtitle"));
+    renderGuideNav(container, name);
+  }
 
   const gotit = document.createElement("button");
   gotit.type = "button";
@@ -1770,8 +1830,22 @@ function renderGuide() {
   container.append(gotit);
 }
 
-function openGuide() {
+// Show the floating "?" only on the bare tree/focus view — hide it whenever any
+// modal overlay is open (each uses a `.panel-backdrop`), so it never floats over a
+// dimmed panel. Driven by a MutationObserver on the backdrops (see bindEvents), so
+// it stays correct without touching every open/close path.
+function syncHelpFab() {
+  if (!elements.helpFab) return;
+  const overlayOpen = [...document.querySelectorAll(".panel-backdrop")].some((b) => !b.hidden);
+  elements.helpFab.hidden = overlayOpen;
+}
+
+// topic: "nav" (default, how to move around) or "card" (explain the open person
+// panel — opened from the panel's own "?" and layered over it, so we do NOT close
+// the detail panel here).
+function openGuide(topic = "nav") {
   if (!elements.guidePanel) return;
+  guideTopic = topic === "card" ? "card" : "nav";
   closeUpdates();
   closeStory();
   const opening = elements.guidePanel.hidden;
@@ -1785,6 +1859,7 @@ function openGuide() {
     elements.guideContent.scrollTop = 0;
     elements.closeGuide.focus();
   }
+  syncHelpFab();
   try { localStorage.setItem(GUIDE_STORAGE_KEY, "1"); } catch { /* storage unavailable */ }
 }
 
@@ -1792,6 +1867,7 @@ function closeGuide() {
   if (!elements.guidePanel) return;
   elements.guidePanel.hidden = true;
   elements.guideBackdrop.hidden = true;
+  syncHelpFab();
   if (lastFocused && lastFocused.isConnected && typeof lastFocused.focus === "function") {
     lastFocused.focus();
   }
@@ -2101,7 +2177,7 @@ function renderMobileFocus() {
   help.textContent = "?";
   help.setAttribute("aria-label", t("mobile.help"));
   help.title = t("mobile.help");
-  help.addEventListener("click", openGuide);
+  help.addEventListener("click", () => openGuide("nav"));
   nav.append(help);
   container.append(nav);
 
@@ -2301,7 +2377,12 @@ function bindEvents() {
   elements.closeDetails.addEventListener("click", closeDetails);
   elements.backdrop.addEventListener("click", closeDetails);
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && !elements.detailsPanel.hidden) closeDetails();
+    if (event.key !== "Escape" || elements.detailsPanel.hidden) return;
+    // Let a help/story/updates overlay on top of the card take Escape first.
+    if (elements.guidePanel && !elements.guidePanel.hidden) return;
+    if (elements.storyPanel && !elements.storyPanel.hidden) return;
+    if (elements.updatesPanel && !elements.updatesPanel.hidden) return;
+    closeDetails();
   });
 
   if (elements.openStory) elements.openStory.addEventListener("click", openStory);
@@ -2310,7 +2391,8 @@ function bindEvents() {
   if (elements.openUpdates) elements.openUpdates.addEventListener("click", openUpdates);
   if (elements.closeUpdates) elements.closeUpdates.addEventListener("click", closeUpdates);
   if (elements.updatesBackdrop) elements.updatesBackdrop.addEventListener("click", closeUpdates);
-  if (elements.openGuide) elements.openGuide.addEventListener("click", openGuide);
+  if (elements.helpFab) elements.helpFab.addEventListener("click", () => openGuide("nav"));
+  if (elements.detailHelp) elements.detailHelp.addEventListener("click", () => openGuide("card"));
   if (elements.closeGuide) elements.closeGuide.addEventListener("click", closeGuide);
   if (elements.guideBackdrop) elements.guideBackdrop.addEventListener("click", closeGuide);
   document.addEventListener("keydown", (event) => {
@@ -2319,6 +2401,15 @@ function bindEvents() {
     if (elements.storyPanel && !elements.storyPanel.hidden) closeStory();
     if (elements.updatesPanel && !elements.updatesPanel.hidden) closeUpdates();
   });
+
+  // Keep the floating "?" in step with the overlays without patching every
+  // open/close path: watch each modal backdrop's `hidden` attribute.
+  if (elements.helpFab) {
+    const backdropObserver = new MutationObserver(syncHelpFab);
+    for (const b of document.querySelectorAll(".panel-backdrop")) {
+      backdropObserver.observe(b, { attributes: true, attributeFilter: ["hidden"] });
+    }
+  }
 }
 
 async function initialise() {
@@ -2349,6 +2440,7 @@ async function initialise() {
     elements.sourceCount.textContent = String(Object.keys(state.data.sources).length);
     elements.loading.hidden = true;
     renderActive();
+    syncHelpFab();
     if (hash.sel && state.data.people[hash.sel]) openDetails(hash.sel);
     else syncHash();
     // First visit: open the guide once so a newcomer is oriented before exploring.
@@ -2356,7 +2448,7 @@ async function initialise() {
     // that, not the tour — and never again after it has been seen.
     let guideSeen = true;
     try { guideSeen = Boolean(localStorage.getItem(GUIDE_STORAGE_KEY)); } catch { /* storage unavailable */ }
-    if (!guideSeen && !hash.sel) openGuide();
+    if (!guideSeen && !hash.sel) openGuide("nav");
   } catch (error) {
     elements.loading.hidden = true;
     elements.error.hidden = false;
