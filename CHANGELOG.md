@@ -5,6 +5,27 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — Family rosters: three source-named children promoted from prose to structured (2026-09-11)
+
+A parallel-agent audit of the child rosters of all 36 families the recently-enriched
+people belong to (the viewer builds Siblings/Children only from structured
+`children` + `documented_children`) found three children that a held record names but
+that lived only in profile prose — so they were not displaying. Now structured:
+
+- **F-0017** — Antonio da Silva Ferreira Junior (CIV-0035; a third sibling of Lucinda
+  P-0031, the son who declared his father's 1914 death).
+- **F-0033** — José Joaquim Borer (PUB-0003; resolves the long-noted "11 vs 12
+  children" / *doze filhos* gap).
+- **F-0042** — Claudina (PAR-0046/0045; sister of Francisca Roza P-0047, an adult
+  godmother by 1843).
+
+The other 33 families were already complete or their extras were correctly excluded:
+`[LEAD]`/`[INFERRED]`/collaborative-tree children and count-only children ("left eleven
+children") were left in prose (no source names them), and possibly-living children of
+recent generations (Cidalia's children, a ~1932-born Engrácio son) were not added on
+privacy grounds. GEDCOM regenerated. `make check` green.
+
+
 ### Fixed — Review-driven corrections: PAR-0067 rank, CIV-0018 privacy, Lucinda de-duplication (2026-09-11)
 
 Follow-up to the portrait refresh, from a PAR-0067 image re-read and a fresh-eyes QA

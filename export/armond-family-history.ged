@@ -2227,6 +2227,15 @@
 1 NOTE Documented child, not individually modelled. Reported lifespan: b. ~1876.
 2 SOUR @CIV0037@
 1 NOTE Sister of Lucinda (P-0031); daughter of Antonio da Silva Ferreira (P-0036) × Maria Joanna da Silva Ferreira (P-0037). Born ~1876 at Nova Friburgo; married the Portuguese Ezequiel Mathias Dias on 28 October 1899 at Nova Friburgo (CIV-0037), the act at which her father Antonio signs and her mother Maria Joanna is recorded "aqui fallecida". She was a godparent at Celina Bohrer's 1899 baptism. Deceased.
+0 @DOCF0017_3@ INDI
+1 NAME Antonio da Silva Ferreira /Junior/
+2 GIVN Antonio da Silva Ferreira
+2 SURN Junior
+1 SEX U
+1 FAMC @F0017@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @CIV0035@
+1 NOTE Brother of Lucinda (P-0031); son of Antonio da Silva Ferreira (P-0036) × Maria Joanna da Silva Ferreira (P-0037). An operário resident at Nova Friburgo, he was the declarant of his father's 19 September 1914 Nova Friburgo civil death (CIV-0035), where the act names him "Antonio da Silva Ferreira Junior" reporting the death of "seu pae Antonio da Silva Ferreira" — so an adult by 1914. Deceased. [STRONG-EVIDENCE]
 0 @DOCF0020_1@ INDI
 1 NAME Maria Muniz /Bytancourt/
 2 GIVN Maria Muniz
@@ -2756,6 +2765,15 @@
 1 NOTE Documented child, not individually modelled.
 2 SOUR @PUB0003@
 1 NOTE n. 25/08/1836. Married 28/04/1856 × José Soares Falcão. Not modelled.
+0 @DOCF0033_11@ INDI
+1 NAME José Joaquim /Borer/
+2 GIVN José Joaquim
+2 SURN Borer
+1 SEX U
+1 FAMC @F0033@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0003@
+1 NOTE Child of Laurent Borer (P-0068) × Anna Maria Werhly (P-0069); sibling of Vicente (P-0070). Listed among the couple's children in the BORER II genealogy tree (PUB-0003, p.301) — placed between Justina (1827) and Vicente (1828) — but the entry is cut off, so no birth date is legible; born at Nova Friburgo in the 1820s–1830s. Accounts for part of the "onze vs doze filhos" count discrepancy (see F-0033 notes below). Not modelled. [STRONG-EVIDENCE — named in the compilation tree; entry truncated]
 0 @DOCF0034_1@ INDI
 1 NAME José Domingos Borer, /n.19/03/1864/
 2 GIVN José Domingos Borer,
@@ -2864,6 +2882,15 @@
 1 NOTE Documented child, not individually modelled.
 2 SOUR @PAR0048@
 1 NOTE Daughter of Manoel Muniz Bitancourt (the elder, P-0082) × Tereza do Amaral (P-0083); sister of João Francisco Muniz Bitancourt (P-0048). Married Manoel Cabral on 30 December 1818 at N.S. Mãe de Deus (PAR-0048). NOTE: a distinct namesake of the spine ancestor Maria Jacintha de Medeiros (P-0049), whose parents are different (João de Medeiros Brandão × Maria Eugenia, PAR-0037) — never merge.
+0 @DOCF0042_1@ INDI
+1 NAME Claudina //
+2 GIVN Claudina
+1 SEX U
+1 FAMC @F0042@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PAR0046@
+2 SOUR @PAR0045@
+1 NOTE Daughter of Manoel de Motta (P-0086) × Anna de Souza (P-0087) and sister of Francisca Roza do Espírito Santo (P-0047). Named as the maternal aunt and godmother of her niece — "Claudina filha familias dos avós maternos" — in the 1849 baptism of Francisca Muniz Bitancourt (PAR-0046, legible), and corroborated as "[Claudina] ... filha de Manoel de [Motta junior] e de Anna de Souza" in the 1843 baptism of Maria Muniz Bytancourt (PAR-0045, name/surname bracketed uncertain). An adult godmother by 1843, hence clearly deceased. No surname of her own is recorded in the acts. [STRONG-EVIDENCE]
 0 @F0001@ FAM
 1 HUSB @P0012@
 1 WIFE @P0013@
@@ -3050,6 +3077,7 @@
 1 CHIL @P0031@
 1 CHIL @DOCF0017_1@
 1 CHIL @DOCF0017_2@
+1 CHIL @DOCF0017_3@
 1 MARR
 2 DATE 03 MAR 1859
 2 PLAC Nova Friburgo (Matriz de São João Baptista), Rio de Janeiro, Brazil
@@ -3301,6 +3329,7 @@
 1 CHIL @DOCF0033_8@
 1 CHIL @DOCF0033_9@
 1 CHIL @DOCF0033_10@
+1 CHIL @DOCF0033_11@
 1 MARR
 2 DATE 03 JUL 1820
 2 PLAC Nova Friburgo, Rio de Janeiro, Brazil
@@ -3426,6 +3455,7 @@
 1 HUSB @P0086@
 1 WIFE @P0087@
 1 CHIL @P0047@
+1 CHIL @DOCF0042_1@
 1 MARR
 2 SOUR @PAR0024@
 3 QUAY 2
