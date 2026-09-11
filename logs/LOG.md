@@ -1815,3 +1815,35 @@ processed with parallel subagents for the profile reconciliations and central ID
 4. Reconciled the affected profiles (P-0109/P-0110 and P-0031/P-0036/P-0037) EN+PT to the new
    records. make check green (75 tests; 122 people / 61 families / 122 events / 142 sources / 205
    scans); GEDCOM, index and feed regenerated.
+
+## 2026-09-11 — Repository-wide portrait refresh (bilingual biographies) + viewer help expansion
+
+Ran a repository-wide sync of the person "portraits" (the `profile`/`profile_pt` narratives),
+delegated to 9 parallel subagents (one per family line — bohrer split A/B — on disjoint files),
+each enriching from the deep research syntheses in `research/from-retrieval/FINDINGS/profiles/`
+**only where a held source confirms it**, confirming pivotal facts against the source records
+and evidence images, and never laundering a `[LEAD]`.
+
+- **93 flagged profiles reviewed; 40 people enriched**, the rest already current. EN/PT parity
+  preserved on every edit; evidence tags kept honest; no ID/privacy leaks (verified centrally).
+- Notable: P-0067 origin **Ouro → Itu (Ytù)** (PAR-0025 re-read); P-0035 Rosa Eugenia death now
+  held (PAR-0058, 1919) + widowhood 1888 (PAR-0055); P-0030/P-0031 1884 marriage (PAR-0056);
+  P-0028 Valentim marriage+death `[PROVEN]` (PAR-0064/0065); Toledo cluster date 1786 → 1783.
+- Agents **corrected, not imported,** several research-profile errors (a will the source negates;
+  a Rio birthplace the source places in Eugenópolis; date misreads) and fixed a pre-existing
+  overclaim in P-0019 (illegible sibling name → `[LEAD]`). Several research-vs-source conflicts
+  flagged for follow-up (e.g. PAR-0067 "Kirchenvorsteher/[Bürger?]" rank; PAR-0037/P-0053
+  structural-link gaps).
+- **Family Story** (`family-story.yaml`) reviewed against every changed fact — already consistent
+  (Itu, 1783, Valentim's 1868 baptism date were the repo's established position; only the profiles
+  lagged), so no narrative edit was warranted.
+- Viewer help expanded in the same session: `?` in the Novidades and Family Story panels; the
+  portrait help now explains the `[Maps]`/"Where to go today" links; language selector simplified
+  to English / Português.
+- GEDCOM regenerated for the changed `notes`. `make check` green (75 tests, validate clean;
+  122 people / 61 families / 122 events / 142 sources / 205 scans).
+
+**Follow-up (separate ingestion pass, not done here):** promote newly-cited sources
+(PAR-0056/0058, child baptisms) into the relevant entities' structured `source_ids`/`event_ids`
+and family `documented_children`; reconcile the flagged research-vs-source conflicts; consider a
+re-read of PAR-0067's rank word.
