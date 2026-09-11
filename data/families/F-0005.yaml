@@ -52,10 +52,44 @@ documented_children:
     road accident at Volta Redonda, married to Lilia de Novaes Bohrer. His given name
     was judicially corrected from "Ercy" to "HERCY BOHRER". Deceased; he left five
     children (possibly living) who are not modelled, per privacy policy.
+- name: Senira Bohrer
+  source_ids:
+  - CIV-0038
+  lifespan: b. 1923
+  note: >-
+    Sister of Iris (P-0007); legitimate daughter of João Gonçalves Bohrer (P-0014) and
+    Celina Bohrer (P-0015), per her 1923 Nova Friburgo civil birth registration (CIV-0038),
+    which also names both grandparent couples (Valentim Martinho × Carolina, P-0028 × P-0029;
+    Joaquim José Bohrer × Lucinda, P-0030 × P-0031). Born ~1923 at Nova Friburgo (km 102).
+    Deceased.
+- name: Alício Borher
+  source_ids:
+  - CIV-0039
+  lifespan: 1924–2005
+  note: >-
+    Brother of Iris (P-0007); son of João Gonçalves Borher (P-0014) and Celina Borher
+    (P-0015), per his 2005 Volta Redonda civil death (CIV-0039): stated born 26 July 1924 at
+    Divino (MG), died 8 April 2005 at Volta Redonda aged 80, widower, retired industrial
+    worker. His informant-stated 1924 birth conflicts with Eunir's held 1924 birth act
+    (b. 7 May); the birth act prevails. Deceased; his surviving children (possibly living)
+    are not modelled, per privacy policy.
+- name: Ivanyr Borher
+  source_ids:
+  - CIV-0040
+  lifespan: c.1930–1992
+  note: >-
+    Brother of Iris (P-0007); son of João Gonçalves Borher (P-0014) and Celina Borher
+    (P-0015), per his 1992 Barra Mansa civil death (CIV-0040): natural de Minas Gerais, died
+    24 August 1992 at Barra Mansa aged 62 (→ b. ~1930), judicially separated, left six
+    children (unnamed). The FS-tree "Ivan Bohrer" is a probable duplicate of this Ivanyr.
+    Deceased; his children (possibly living) are not modelled, per privacy policy.
 event_ids: []
 notes:
 - text: >-
-    João Gonçalves Bohrer and Celina had fifteen children (stated in his 1970
-    death record, CIV-0014). Only clearly-deceased siblings of Iris (P-0007) are
-    recorded here as documented_children — Eunir (CIV-0016) and João (CIV-0025);
-    the remaining siblings are not listed, as living people are omitted.
+    João Gonçalves Bohrer and Celina had fifteen children (stated in his 1970 death record,
+    CIV-0014). Six clearly-deceased siblings of Iris (P-0007) are now recorded here as
+    documented_children — Eunir (CIV-0016), João (CIV-0025), Ercy (CIV-0031), Senira
+    (CIV-0038), Alício (CIV-0039) and Ivanyr (CIV-0040); the remaining ~9 are not listed,
+    being unnamed in any held record or possibly living. Still-open named siblings from the
+    FS tree (Cinésio d.2015, Maria Adyr d.2020) fall outside the online collection range and
+    stay leads pending off-tool cartório records.

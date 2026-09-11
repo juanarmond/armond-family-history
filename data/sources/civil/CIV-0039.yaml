@@ -1,0 +1,87 @@
+schema_version: 1
+id: CIV-0039
+title: >-
+  2005 civil death registration of Alício Borher at Volta Redonda (termo 54404) — son of João
+  Gonçalves Borher and Celina Borher
+title_pt: >-
+  Registro civil de óbito de 2005 de Alício Borher em Volta Redonda (termo 54404) — filho de João
+  Gonçalves Borher e Celina Borher
+record_type: Civil death register entry
+record_category: civil_registration
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "2005-04-08"
+event_place_text: Volta Redonda (1ª Circunscrição), Rio de Janeiro, Brazil
+repository:
+  name: Cartório do 1º Ofício / 1ª Circunscrição do Registro Civil de Volta Redonda (óbitos, Livro C-0126, fl. 246, termo 54404)
+  archive_or_registry: FamilySearch (retrieval-agent pull)
+  collection: Termo de óbito nº 54404, Livro C-0126, folhas 246, 1ª Circunscrição do Registro Civil de Volta Redonda, 2005
+  catalogue_reference: rec-bohrer-alicio-death-2005-voltaredonda (retrieval drop)
+access_date: "2026-09-11"
+language: pt-BR
+transcription: >-
+  [Termo de óbito nº 54404, Livro C-0126, fl. 246, 1ª Circunscrição do Registro Civil de Volta Redonda.
+  O declarante e o(a)(s) filho(a)(s) sobreviventes nomeados no assento são omitidos/redigidos por
+  privacidade (possivelmente vivos), e os números de documento de identidade (RG/CPF) são omitidos.]
+  "Aos nove de abril de dois mil e cinco, nesta cidade de Volta Redonda, do Estado do RJ, compareceu
+  [declarante omitido — privacidade, na qualidade de filho do falecido], … exibindo atestado de óbito
+  firmado pelo Dr. Eduardo Sampaio Diniz, do qual consta que no dia oito de abril de dois mil e cinco
+  (08/04/2005), às quatorze horas e trinta minutos, no Hospital Vita Volta Redonda, dando como causa
+  da morte falência múltipla orgânica, choque refratário, insuficiência renal aguda, acidente vascular
+  encefálico, faleceu ALICIO BORHER, nascido aos vinte e seis de julho de mil novecentos e vinte e
+  quatro (26/07/1924), do sexo masculino, profissão aposentado industriário, natural de Divino-MG, com
+  80 anos de idade, estado civil viúvo, residente e domiciliado na Avenida Julio Caruso, Belmonte,
+  Volta Redonda, RJ, deixou [nº] filhos maiores [nomes omitidos — privacidade] e não deixou filhos
+  menores … era eleitor, não deixou testamento conhecido. Filho de JOÃO GONÇALVES BORHER e de CELINA
+  BORHER. O sepultamento será realizado no cemitério de Volta Redonda-RJ … Nada mais. Dou fé."
+abstract: >-
+  Original civil death register recording the death of Alício Borher on 8 April 2005 at the Hospital
+  Vita, Volta Redonda (RJ), aged 80 (stated birth 26 July 1924, Divino-MG), widower, retired
+  industrial worker — named as "filho de João Gonçalves Borher e de Celina Borher" (P-0014 × P-0015),
+  i.e. a brother of Iris Bohrer Muniz (P-0007). PROVEN sibling. Recorded as a documented_child on
+  F-0005; no event (Alício is not modelled). CONFLICT to note: this cert's informant-reported birth
+  "26 Jul 1924" clashes with the held 1924 Nova Friburgo birth act of his brother Eunir (b. 7 May
+  1924) — two full-term births to the same mother 11 weeks apart are impossible, so one year/date is
+  in error; the birth act (Eunir) outranks this death informant. Private (the surviving declarant and
+  Alício's own children named in the act may be living); their names, addresses and ID numbers are
+  redacted from the transcription.
+abstract_pt: >-
+  Registro civil de óbito de Alício Borher em 8 de abril de 2005 no Hospital Vita, Volta Redonda (RJ),
+  aos 80 anos (nascimento declarado 26 de julho de 1924, Divino-MG), viúvo, aposentado industriário —
+  nomeado como "filho de João Gonçalves Borher e de Celina Borher" (P-0014 × P-0015), ou seja, irmão
+  de Iris Bohrer Muniz (P-0007). Irmão PROVEN. Registrado como documented_child em F-0005; sem evento
+  (Alício não é modelado). CONFLITO a registrar: o nascimento "26/07/1924" declarado neste óbito
+  conflita com o assento de nascimento de 1924 de Nova Friburgo de seu irmão Eunir (n. 7 de maio de
+  1924) — dois nascimentos a termo da mesma mãe com 11 semanas de intervalo são impossíveis, logo uma
+  das datas/anos está errada; o assento de nascimento (Eunir) prevalece sobre o informante do óbito.
+  Privado (o declarante sobrevivente e os filhos de Alício nomeados no assento podem estar vivos);
+  seus nomes, endereços e números de documento são omitidos da transcrição.
+reliability:
+  assessment: >-
+    Primary civil death entry — direct primary for the death date/place and for Alício's parentage
+    (João Gonçalves Borher × Celina). The birth date is informant-reported (secondary).
+  informant: A surviving son of the deceased (name withheld — possibly living).
+  limitations: >-
+    FamilySearch digitisation ("Sem valor legal"). Informant-reported birth date conflicts with
+    Eunir's held birth act. Living-person data (declarant, surviving children, ID numbers) redacted.
+digital_file:
+  path: evidence/civil/CIV-0039-bohrer-alicio-death-2005-voltaredonda.jpg
+  sha256: 0beafdb63df96171f7e611fde21c0297a1d121108052c6607b4ec3374a7293be
+linked_people:
+- P-0014
+- P-0015
+linked_families:
+- F-0005
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Evidence for a documented collateral child (Alício Borher, F-0005 documented_children). Private —
+    the surviving declarant and Alício's own children (possibly living) and all ID numbers are redacted
+    from the transcription. Birth-date conflict with Eunir's held birth act (CIV-0016) noted in the
+    abstract. Alício not modelled as a person entity; no event created.

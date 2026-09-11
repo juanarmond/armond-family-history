@@ -1,0 +1,80 @@
+schema_version: 1
+id: CIV-0038
+title: >-
+  1923 civil birth registration of Senira Bohrer at Nova Friburgo (folio 125) — legitimate
+  daughter of João Gonçalves Bohrer and Celina Bohrer
+title_pt: >-
+  Registro civil de nascimento de 1923 de Senira Bohrer em Nova Friburgo (folha 125) — filha
+  legítima de João Gonçalves Bohrer e Celina Bohrer
+record_type: Civil birth register entry
+record_category: civil_registration
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: year
+  year: 1923
+event_place_text: Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Cartório do Registro Civil, Nova Friburgo (nascimentos, folio 125, 1923)
+  archive_or_registry: FamilySearch (retrieval-agent pull)
+  collection: Registro Civil de nascimentos, Nova Friburgo, folio 125, 1923
+  catalogue_reference: rec-bohrer-senira-birth-1923-novafriburgo (retrieval drop)
+access_date: "2026-09-11"
+language: pt-BR
+transcription: >-
+  [Registro Civil de nascimentos, Nova Friburgo, folio 125, 1923.] "… em meu cartorio compareceu
+  João Gonçalves Bohrer, brazileiro, lavrador, residente no lugar denominado kilometro cento e dois
+  [km 102], neste Districto, e perante as testemunhas adiante nomeadas e assignadas declarou: Que no
+  dia vinte do corrente, na casa de residencia do declarante, ás vinte e uma horas, nasceu uma
+  criança do sexo feminino, de côr branca, que se chamará = Senira Bohrer = filha legitima delle
+  declarante e de sua mulher Celina Bohrer, naturaes deste Estado, casados civilmente no segundo
+  Districto desta [cidade]; netta paterna de Valentim Martinho Bohrer e de Carolina Bohrer, e materna
+  de Joaquim José Bohrer e de Lucinda [Sandra — uncertain] Bohrer, já falecida. … testemunhas Honorio
+  Francisco Portella e Alípio de Carvalho. Eu, José Nunes Pimentel, escrivão que o subscrevo e
+  assigno."
+abstract: >-
+  Original civil birth register recording the birth of Senira Bohrer, a legitimate daughter of João
+  Gonçalves Bohrer (P-0014) and Celina Bohrer (P-0015) — a sister of Iris Bohrer Muniz (P-0007), so a
+  maternal aunt of Cidalia's grandchildren's line. PROVEN sibling (both parents named). The record
+  also names both grandparent couples — paternal Valentim Martinho Bohrer × Carolina (P-0028 × P-0029)
+  and maternal Joaquim José Bohrer × Lucinda [Ferreira da Silva], já falecida (P-0030 × P-0031) — so it
+  is a further primary corroborating those direct-ancestor couples. Recorded as a documented_child on
+  F-0005; no event (Senira is not modelled as a person entity).
+abstract_pt: >-
+  Registro civil de nascimento original de Senira Bohrer, filha legítima de João Gonçalves Bohrer
+  (P-0014) e Celina Bohrer (P-0015) — irmã de Iris Bohrer Muniz (P-0007). Irmã PROVEN (ambos os pais
+  nomeados). O registro também nomeia os dois casais de avós — paternos Valentim Martinho Bohrer ×
+  Carolina (P-0028 × P-0029) e maternos Joaquim José Bohrer × Lucinda [Ferreira da Silva], já falecida
+  (P-0030 × P-0031) — sendo, portanto, uma nova fonte primária que corrobora esses casais de
+  ancestrais diretos. Registrada como documented_child em F-0005; sem evento (Senira não é modelada
+  como entidade pessoa).
+reliability:
+  assessment: >-
+    Primary civil birth entry — direct primary for Senira's parentage (João Gonçalves Bohrer × Celina)
+    and corroborating for both named grandparent couples.
+  informant: The father, João Gonçalves Bohrer, before the escrivão.
+  limitations: >-
+    Delivered via the FamilySearch digitisation ("Sem valor legal"). The maternal grandmother's middle
+    name ("Sandra") and the exact registration month are [uncertain] reads.
+digital_file:
+  path: evidence/civil/CIV-0038-bohrer-senira-birth-1923-novafriburgo.jpg
+  sha256: 443b719f20a100389e8d5d0b936bc7c61fc0c7ed4a2aae0a94cb7734608bff39
+linked_people:
+- P-0014
+- P-0015
+- P-0028
+- P-0029
+- P-0030
+- P-0031
+linked_families:
+- F-0005
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Evidence for a documented collateral child (Senira Bohrer, F-0005 documented_children) and a
+    further primary corroboration of the Bohrer grandparent couples (F-0013 Valentim × Carolina;
+    F-0014 Joaquim José × Lucinda). Senira not modelled as a person entity; no event created.

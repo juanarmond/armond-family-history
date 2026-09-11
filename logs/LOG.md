@@ -1859,3 +1859,17 @@ Balbina de Toledo, already modelled as P-0017 with parentage confirmed to P-0054
 The blog does not name the married Simplício's own parents (only the unrelated suicide-namesake's). The
 decisive record remains the archive-gated Simplício × Elisa Balbina marriage. Recorded in
 data/record-coverage.yaml (P-0016) with a "do not re-run" note; no data changed, nothing promoted.
+
+## 2026-09-11 — Drop ingestion: 3 proven Bohrer siblings of Iris (P-0007) → documented_children
+
+Value-gated (opened + read each image) and catalogued three records from the 2026-09-11 retrieval
+drop, each naming "filho/a de João Gonçalves Bohrer × Celina" → PROVEN siblings of Iris (P-0007),
+added as documented_children on F-0005: CIV-0038 (Senira, 1923 NF birth — also corroborates both
+grandparent couples P-0028×P-0029 and P-0030×P-0031, linked to all four); CIV-0039 (Alício, 2005 VR
+death, private — living descendants + IDs redacted; stated 1924 birth conflicts with Eunir's held
+birth act, flagged); CIV-0040 (Ivanyr, 1992 Barra Mansa death, private — declarant ID redacted).
+Iris now shows 6 documented siblings. Profiles synced EN/PT (P-0007, P-0014, P-0015). Not promoted
+(leads): Houver Engrácio (record proves marriage, not parents → sibling-link tree-asserted); Rozalina/
+Agenor/Thereza/Nestor (Antenor's side); Cinésio/Maria Adyr/Ivan (Ivan = probable dup of Ivanyr) —
+off-tool or tree-only. José Olavo (P-0018) already modelled; his 1975 banns not yet catalogued (still
+in drop — a follow-up for the ancestors' evidence layer). make check green; 145 sources / 208 scans.

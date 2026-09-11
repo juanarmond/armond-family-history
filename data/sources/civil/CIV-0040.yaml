@@ -1,0 +1,82 @@
+schema_version: 1
+id: CIV-0040
+title: >-
+  1992 civil death registration of Ivanyr Borher at Barra Mansa (assento 16.925) — son of João
+  Gonçalves Borher and Celina Borher
+title_pt: >-
+  Registro civil de óbito de 1992 de Ivanyr Borher em Barra Mansa (assento 16.925) — filho de João
+  Gonçalves Borher e Celina Borher
+record_type: Civil death register entry
+record_category: civil_registration
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1992-08-24"
+event_place_text: Barra Mansa, Rio de Janeiro, Brazil
+repository:
+  name: Cartório do Registro Civil de Barra Mansa (óbitos, Livro C nº 80, pág. 156, assento 16.925)
+  archive_or_registry: FamilySearch (retrieval-agent pull)
+  collection: Assento de óbito nº 16.925, Livro C nº 80, pág. 156, Registro Civil de Barra Mansa, 1992
+  catalogue_reference: rec-bohrer-ivanyr-death-1992-barramansa (retrieval drop)
+access_date: "2026-09-11"
+language: pt-BR
+transcription: >-
+  [Assento de óbito nº 16.925, Livro C nº 80, pág. 156, Registro Civil de Barra Mansa. O número de
+  documento de identidade do declarante é omitido por privacidade.] "Em vinte e cinco de agosto de mil
+  novecentos e noventa e dois, nesta cidade de Barra Mansa, Estado do Rio de Janeiro, compareceu neste
+  cartório [declarante — Wilson Cabral Borher, documento de identidade omitido], profissão eletricista,
+  residente em Volta Redonda, neste Estado, e exibindo atestado de óbito firmado pela Dra. Luciene
+  Aparecida Ribeiro de Souza, dando como causa da morte insuficiência respiratória aguda, acidente
+  vascular encefálico hemorrágico, carcinomatose, e declarou que, no dia vinte e quatro de agosto de
+  mil novecentos e noventa e dois, às vinte e duas horas e dez minutos, na Casa de Saúde Santa Maria,
+  nesta cidade, faleceu 'IVANYR BORHER', do sexo masculino, profissão aposentado, natural do Estado de
+  Minas Gerais, e residente à Rua Visconde Cunha Bueno nº 63, Santo Agostinho, em Volta Redonda, neste
+  Estado, com sessenta e dois anos de idade, estado civil separado judicialmente, filho de JOÃO
+  GONÇALVES BORHER e de CELINA BORHER, falecidos, naturais do Estado de Minas Gerais. Não deixou bens.
+  Deixou seis filhos. Era eleitor. O sepultamento será feito no Cemitério Municipal situado em Volta
+  Redonda … Eu, Maria Aparecida de Souza Reis, Oficial do Registro Civil, mandei datilografar."
+abstract: >-
+  Original civil death register recording the death of Ivanyr Borher on 24 August 1992 at the Casa de
+  Saúde Santa Maria, Barra Mansa (RJ), aged 62 (→ b. ~1930), natural of Minas Gerais, judicially
+  separated, retired — named as "filho de João Gonçalves Borher e de Celina Borher" (P-0014 × P-0015),
+  i.e. a brother of Iris Bohrer Muniz (P-0007). PROVEN sibling. The act states he left six children
+  (unnamed). Recorded as a documented_child on F-0005; no event (Ivanyr is not modelled). A separate
+  FS-tree "Ivan Bohrer" is a probable duplicate of this Ivanyr (the collection holds only one ~1930-born
+  son of the couple). Private (the declarant, Wilson Cabral Borher, may be living); his identity-document
+  number is redacted.
+abstract_pt: >-
+  Registro civil de óbito de Ivanyr Borher em 24 de agosto de 1992 na Casa de Saúde Santa Maria, Barra
+  Mansa (RJ), aos 62 anos (→ n. ~1930), natural de Minas Gerais, separado judicialmente, aposentado —
+  nomeado como "filho de João Gonçalves Borher e de Celina Borher" (P-0014 × P-0015), ou seja, irmão de
+  Iris Bohrer Muniz (P-0007). Irmão PROVEN. O assento declara que deixou seis filhos (não nomeados).
+  Registrado como documented_child em F-0005; sem evento (Ivanyr não é modelado). Um "Ivan Bohrer" da
+  árvore do FamilySearch é provável duplicata deste Ivanyr (a coleção tem apenas um filho do casal
+  nascido por volta de 1930). Privado (o declarante, Wilson Cabral Borher, pode estar vivo); seu número
+  de documento de identidade é omitido.
+reliability:
+  assessment: >-
+    Primary civil death entry — direct primary for the death date/place and for Ivanyr's parentage
+    (João Gonçalves Borher × Celina). Age/birth-year is informant-reported.
+  informant: The declarant (name in the act; identity-document number withheld — possibly living).
+  limitations: >-
+    FamilySearch digitisation ("Sem valor legal"). The declarant's ID number is redacted; the six
+    surviving children are unnamed. "Ivan" is a probable duplicate of this Ivanyr.
+digital_file:
+  path: evidence/civil/CIV-0040-bohrer-ivanyr-death-1992-barramansa.jpg
+  sha256: dfd3e2105e8de0f8fc6c908557f6361927736e0f37ce24106c66994d3f48ebd2
+linked_people:
+- P-0014
+- P-0015
+linked_families:
+- F-0005
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Evidence for a documented collateral child (Ivanyr Borher, F-0005 documented_children). Private —
+    the declarant's identity-document number is redacted (possibly living). "Ivan" (FS-tree) is a
+    probable duplicate of this Ivanyr. Ivanyr not modelled as a person entity; no event created.

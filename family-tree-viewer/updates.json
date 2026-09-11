@@ -1,6 +1,46 @@
 {
- "generated": "2026-09-10T15:46:41Z",
+ "generated": "2026-09-11T15:03:11Z",
  "updates": [
+  {
+   "date": "2026-09-10",
+   "kind": "document",
+   "title": "1914 civil death registration of Antonio da Silva Ferreira at Nova Friburgo (termo 5045) — died 19 September 1914, aged 88, Portuguese, widower",
+   "title_pt": "Registro civil de óbito de 1914 de Antonio da Silva Ferreira em Nova Friburgo (termo 5045) — falecido em 19 de setembro de 1914, 88 anos, português, viúvo",
+   "primary": "CIV-0035",
+   "links": [
+    "P-0036"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "kind": "document",
+   "title": "1895 civil marriage of Octávio Ferreira da Silva and Octavia Froidevaux at Nova Friburgo (termo 399) — names his parents Antonio da Silva Ferreira and Maria Joanna, both alive",
+   "title_pt": "Casamento civil de 1895 de Octávio Ferreira da Silva e Octavia Froidevaux em Nova Friburgo (termo 399) — nomeia seus pais Antonio da Silva Ferreira e Maria Joanna, ambos vivos",
+   "primary": "CIV-0036",
+   "links": [
+    "P-0036"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "kind": "document",
+   "title": "1899 civil marriage of Maria da Gloria da Silva Ferreira and Ezequiel Mathias Dias at Nova Friburgo (termo 580) — Antonio da Silva Ferreira alive and signs; Maria Joanna \"aqui fallecida\"",
+   "title_pt": "Casamento civil de 1899 de Maria da Gloria da Silva Ferreira e Ezequiel Mathias Dias em Nova Friburgo (termo 580) — Antonio da Silva Ferreira vivo e assina; Maria Joanna \"aqui fallecida\"",
+   "primary": "CIV-0037",
+   "links": [
+    "P-0036"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "kind": "document",
+   "title": "1898 electoral act (senatorial election) at São Francisco da Glória, Carangola (MG) — lists Antonio Engracio de Souza among the qualified voters",
+   "title_pt": "Ata de eleição de 1898 (Senador Federal) na Freguesia de São Francisco da Glória, Carangola (MG) — arrola Antonio Engracio de Souza entre os eleitores habilitados",
+   "primary": "GOV-0008",
+   "links": [
+    "P-0032"
+   ]
+  },
   {
    "date": "2026-09-10",
    "kind": "document",
@@ -39,6 +79,26 @@
    "primary": "PAR-0075",
    "links": [
     "P-0030"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "kind": "document",
+   "title": "1840 marriage of João José Rutschmann (Rosman) and Elisabeth (Isabella) Storck at Nova Friburgo — names both spouses' parents and their Swiss/German origins",
+   "title_pt": "Casamento de 1840 de João José Rutschmann (Rosman) e Elisabeth (Isabella) Storck em Nova Friburgo — nomeia os pais de ambos os nubentes e suas origens suíça/alemã",
+   "primary": "PAR-0076",
+   "links": [
+    "P-0109"
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "kind": "document",
+   "title": "1863 baptism of Lucinda (Ferreira da Silva) at the Matriz de S. João Baptista da Lagoa, Rio de Janeiro — born 10 August 1862, daughter of Antonio da Silva Ferreira and Maria Joanna",
+   "title_pt": "Batismo de 1863 de Lucinda (Ferreira da Silva) na Matriz de S. João Baptista da Lagoa, Rio de Janeiro — nascida em 10 de agosto de 1862, filha de Antonio da Silva Ferreira e Maria Joanna",
+   "primary": "PAR-0077",
+   "links": [
+    "P-0031"
    ]
   },
   {
@@ -774,41 +834,11 @@
   {
    "date": "",
    "kind": "document",
-   "title": "1914 civil death registration of Antonio da Silva Ferreira at Nova Friburgo (termo 5045) — died 19 September 1914, aged 88, Portuguese, widower",
-   "title_pt": "Registro civil de óbito de 1914 de Antonio da Silva Ferreira em Nova Friburgo (termo 5045) — falecido em 19 de setembro de 1914, 88 anos, português, viúvo",
-   "primary": "CIV-0035",
+   "title": "1923 civil birth registration of Senira Bohrer at Nova Friburgo (folio 125) — legitimate daughter of João Gonçalves Bohrer and Celina Bohrer",
+   "title_pt": "Registro civil de nascimento de 1923 de Senira Bohrer em Nova Friburgo (folha 125) — filha legítima de João Gonçalves Bohrer e Celina Bohrer",
+   "primary": "CIV-0038",
    "links": [
-    "P-0036"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1895 civil marriage of Octávio Ferreira da Silva and Octavia Froidevaux at Nova Friburgo (termo 399) — names his parents Antonio da Silva Ferreira and Maria Joanna, both alive",
-   "title_pt": "Casamento civil de 1895 de Octávio Ferreira da Silva e Octavia Froidevaux em Nova Friburgo (termo 399) — nomeia seus pais Antonio da Silva Ferreira e Maria Joanna, ambos vivos",
-   "primary": "CIV-0036",
-   "links": [
-    "P-0036"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1899 civil marriage of Maria da Gloria da Silva Ferreira and Ezequiel Mathias Dias at Nova Friburgo (termo 580) — Antonio da Silva Ferreira alive and signs; Maria Joanna \"aqui fallecida\"",
-   "title_pt": "Casamento civil de 1899 de Maria da Gloria da Silva Ferreira e Ezequiel Mathias Dias em Nova Friburgo (termo 580) — Antonio da Silva Ferreira vivo e assina; Maria Joanna \"aqui fallecida\"",
-   "primary": "CIV-0037",
-   "links": [
-    "P-0036"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1898 electoral act (senatorial election) at São Francisco da Glória, Carangola (MG) — lists Antonio Engracio de Souza among the qualified voters",
-   "title_pt": "Ata de eleição de 1898 (Senador Federal) na Freguesia de São Francisco da Glória, Carangola (MG) — arrola Antonio Engracio de Souza entre os eleitores habilitados",
-   "primary": "GOV-0008",
-   "links": [
-    "P-0032"
+    "P-0014"
    ]
   },
   {
@@ -819,26 +849,6 @@
    "primary": "NWS-0001",
    "links": [
     "P-0018"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1840 marriage of João José Rutschmann (Rosman) and Elisabeth (Isabella) Storck at Nova Friburgo — names both spouses' parents and their Swiss/German origins",
-   "title_pt": "Casamento de 1840 de João José Rutschmann (Rosman) e Elisabeth (Isabella) Storck em Nova Friburgo — nomeia os pais de ambos os nubentes e suas origens suíça/alemã",
-   "primary": "PAR-0076",
-   "links": [
-    "P-0109"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1863 baptism of Lucinda (Ferreira da Silva) at the Matriz de S. João Baptista da Lagoa, Rio de Janeiro — born 10 August 1862, daughter of Antonio da Silva Ferreira and Maria Joanna",
-   "title_pt": "Batismo de 1863 de Lucinda (Ferreira da Silva) na Matriz de S. João Baptista da Lagoa, Rio de Janeiro — nascida em 10 de agosto de 1862, filha de Antonio da Silva Ferreira e Maria Joanna",
-   "primary": "PAR-0077",
-   "links": [
-    "P-0031"
    ]
   },
   {

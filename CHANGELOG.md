@@ -5,6 +5,28 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Three proven Bohrer siblings of Iris (P-0007) catalogued from the 2026-09-11 drop (2026-09-11)
+
+Value-gated (opened + read each image) and catalogued three new held sources naming
+*"filho/a de João Gonçalves Bohrer × Celina"*, then added each as a `documented_children`
+entry on F-0005 so they display as Iris's siblings:
+
+- **CIV-0038** — Senira Bohrer, 1923 Nova Friburgo civil **birth** (public). Also names both
+  grandparent couples (P-0028×P-0029; P-0030×P-0031), so it is a further primary corroborating
+  those direct ancestors (linked to all four).
+- **CIV-0039** — Alício Borher, 2005 Volta Redonda **death** (`private`; a stated birth 26 Jul
+  1924 that conflicts with Eunir's held birth act is flagged; living descendants + ID numbers
+  redacted).
+- **CIV-0040** — Ivanyr Borher, 1992 Barra Mansa **death** (`private`; declarant ID redacted).
+
+Iris now shows **six** documented siblings (was three). Profiles synced EN/PT (P-0007, P-0014,
+P-0015); the F-0005 roster note updated (6 of 15 named). **Not promoted** (kept as leads):
+Houver Engrácio (his record — nephew Frank's óbito — proves his marriage but not his parents,
+so the sibling-link stays tree-asserted); Rozalina/Agenor/Thereza/Nestor (Antenor's side);
+Cinésio, Maria Adyr, Ivan (Ivan = probable duplicate of Ivanyr) — off-tool or tree-only.
+GEDCOM/updates/index regenerated. `make check` green.
+
+
 ### Fixed — Family rosters: three source-named children promoted from prose to structured (2026-09-11)
 
 A parallel-agent audit of the child rosters of all 36 families the recently-enriched
