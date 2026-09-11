@@ -2,6 +2,9 @@ import { createI18n, resolveLocale, SUPPORTED_LOCALES } from "./i18n.js";
 import { load as parseYaml } from "./vendor/js-yaml.mjs";
 
 const LANG_STORAGE_KEY = "armond-viewer-lang";
+// Set once the first-run guide has been shown, so it never auto-opens again (the
+// "? Help" button always reopens it on demand). Bump the suffix to re-introduce it.
+const GUIDE_STORAGE_KEY = "armond-viewer-guide-seen-v1";
 
 const state = {
   data: null,
@@ -141,6 +144,11 @@ const elements = {
   updatesBackdrop: document.querySelector("#updates-backdrop"),
   closeUpdates: document.querySelector("#close-updates"),
   updatesContent: document.querySelector("#updates-content"),
+  openGuide: document.querySelector("#open-guide"),
+  guidePanel: document.querySelector("#guide-panel"),
+  guideBackdrop: document.querySelector("#guide-backdrop"),
+  closeGuide: document.querySelector("#close-guide"),
+  guideContent: document.querySelector("#guide-content"),
 };
 
 const statusColours = {
@@ -724,6 +732,7 @@ function setLocale(locale) {
   try { localStorage.setItem(LANG_STORAGE_KEY, next); } catch { /* storage unavailable */ }
   if (elements.languageSelect) elements.languageSelect.value = next;
   applyStaticTranslations();
+  if (elements.guidePanel && !elements.guidePanel.hidden) renderGuide();
   if (elements.storyPanel && !elements.storyPanel.hidden) openStory();
   if (elements.updatesPanel && !elements.updatesPanel.hidden) openUpdates();
   if (state.data) {
@@ -1655,6 +1664,137 @@ function closeStory() {
   lastFocused = null;
 }
 
+// The "How to explore" guide — a family-facing, navigation-first help overlay. It
+// opens once automatically on a first visit (flagged in localStorage) and any time
+// the "? Help" button is tapped. Content is built here from i18n keys so it stays
+// bilingual and in step with the actual controls; the panel reuses the Family Story
+// styling (centred card on desktop, full-screen sheet on mobile).
+function subjectFirstName() {
+  const name = state.data?.people?.[state.rootId]?.name
+    || state.data?.people?.["P-0001"]?.name
+    || "";
+  return name.split(" ")[0] || name;
+}
+
+// One numbered "how to" step: a gold chip + a title and body. `body` is chosen per
+// layout by the caller so the wording matches what the user can actually do.
+function guideStep(num, title, body) {
+  const step = document.createElement("div");
+  step.className = "guide-step";
+  const chip = document.createElement("span");
+  chip.className = "guide-step-num";
+  chip.setAttribute("aria-hidden", "true");
+  chip.textContent = String(num);
+  const text = document.createElement("div");
+  text.className = "guide-step-text";
+  const h = document.createElement("p");
+  h.className = "guide-step-title";
+  h.textContent = title;
+  const p = document.createElement("p");
+  p.className = "guide-step-body";
+  p.textContent = body;
+  text.append(h, p);
+  step.append(chip, text);
+  return step;
+}
+
+function renderGuide() {
+  const container = elements.guideContent;
+  if (!container) return;
+  container.replaceChildren();
+  const mobile = isMobile();
+  const name = subjectFirstName();
+
+  const intro = document.createElement("p");
+  intro.className = "guide-intro";
+  intro.textContent = t("guide.intro");
+  container.append(intro);
+
+  const steps = document.createElement("div");
+  steps.className = "guide-steps";
+  steps.append(
+    guideStep(1, t("guide.move.title"), mobile ? t("guide.move.mobile") : t("guide.move.desktop")),
+    guideStep(2, t("guide.home.title"), (mobile ? t("guide.home.mobile") : t("guide.home.desktop")).replace("{name}", name)),
+    guideStep(3, t("guide.search.title"), t("guide.search.body")),
+    guideStep(4, t("guide.records.title"), mobile ? t("guide.records.mobile") : t("guide.records.desktop")),
+  );
+  container.append(steps);
+
+  // Legend — the few glyphs a lay reader cannot decode: the birthplace flag, the
+  // evidence-tier edge colour, and the record badges.
+  const legend = document.createElement("div");
+  legend.className = "guide-legend";
+  const legendTitle = document.createElement("p");
+  legendTitle.className = "guide-legend-title";
+  legendTitle.textContent = t("guide.legend.title");
+  legend.append(legendTitle);
+
+  const flagRow = document.createElement("p");
+  flagRow.className = "guide-legend-row";
+  flagRow.append(document.createTextNode("🏳️ "), document.createTextNode(t("guide.legend.flag")));
+  legend.append(flagRow);
+
+  const tierRow = document.createElement("p");
+  tierRow.className = "guide-legend-row";
+  tierRow.append(document.createTextNode(`${t("guide.legend.tiers")} `));
+  const tiers = [
+    ["confirmed", t("guide.legend.confirmed")],
+    ["strong-evidence", t("guide.legend.strong")],
+    ["hypothesis", t("guide.legend.hypothesis")],
+  ];
+  tiers.forEach(([status, label], i) => {
+    if (i > 0) tierRow.append(document.createTextNode(" · "));
+    const swatch = document.createElement("span");
+    swatch.className = "guide-swatch";
+    swatch.style.background = statusColours[status];
+    swatch.setAttribute("aria-hidden", "true");
+    tierRow.append(swatch, document.createTextNode(` ${label}`));
+  });
+  tierRow.append(document.createTextNode("."));
+  legend.append(tierRow);
+
+  const badgeRow = document.createElement("p");
+  badgeRow.className = "guide-legend-row";
+  badgeRow.textContent = t("guide.legend.badges");
+  legend.append(badgeRow);
+  container.append(legend);
+
+  const gotit = document.createElement("button");
+  gotit.type = "button";
+  gotit.className = "guide-gotit";
+  gotit.textContent = t("guide.gotit");
+  gotit.addEventListener("click", closeGuide);
+  container.append(gotit);
+}
+
+function openGuide() {
+  if (!elements.guidePanel) return;
+  closeUpdates();
+  closeStory();
+  const opening = elements.guidePanel.hidden;
+  if (opening && !elements.guidePanel.contains(document.activeElement)) {
+    lastFocused = document.activeElement;
+  }
+  renderGuide();
+  elements.guidePanel.hidden = false;
+  elements.guideBackdrop.hidden = false;
+  if (opening) {
+    elements.guideContent.scrollTop = 0;
+    elements.closeGuide.focus();
+  }
+  try { localStorage.setItem(GUIDE_STORAGE_KEY, "1"); } catch { /* storage unavailable */ }
+}
+
+function closeGuide() {
+  if (!elements.guidePanel) return;
+  elements.guidePanel.hidden = true;
+  elements.guideBackdrop.hidden = true;
+  if (lastFocused && lastFocused.isConnected && typeof lastFocused.focus === "function") {
+    lastFocused.focus();
+  }
+  lastFocused = null;
+}
+
 // The "What's new / Novidades" panel — a curated, family-facing feed of recent additions,
 // stored as ./updates.yaml (bilingual one-liners + entity links). Mirrors the Family Story
 // panel; the engineering CHANGELOG.md is deliberately NOT surfaced here.
@@ -1952,6 +2092,12 @@ function renderMobileFocus() {
   home.textContent = `⌂ ${t("mobile.home")}`;
   home.addEventListener("click", () => focusPerson("P-0001"));
   nav.append(home);
+  const help = document.createElement("button");
+  help.type = "button";
+  help.className = "mobile-nav-btn mobile-nav-help";
+  help.textContent = `? ${t("mobile.help")}`;
+  help.addEventListener("click", openGuide);
+  nav.append(help);
   container.append(nav);
 
   const head = document.createElement("div");
@@ -1993,7 +2139,7 @@ function renderMobileFocus() {
     ),
   ];
   const parentRows = parentIds.map((pid) => mobileRelationRow(pid, state.data.people[pid]?.name || pid));
-  container.append(mobileSection(t("detail.parents"), parentRows, t("empty.parents")));
+  container.append(mobileSection(`${t("detail.parents")} ↑`, parentRows, t("empty.parents")));
 
   const spouseRows = (person.spouses || []).map((spouse) =>
     mobileRelationRow(spouse.id, spouse.name, spouse.marriage?.date ? bioWhen(spouse.marriage.date) : null),
@@ -2001,7 +2147,7 @@ function renderMobileFocus() {
   container.append(mobileSection(t("detail.marriages"), spouseRows, t("empty.partners")));
 
   const childRows = (person.children || []).map((child) => mobileRelationRow(child.id, child.name));
-  container.append(mobileSection(t("detail.children"), childRows, t("empty.children")));
+  container.append(mobileSection(`${t("detail.children")} ↓`, childRows, t("empty.children")));
 
   const siblingRows = (person.siblings || []).map((sibling) => mobileRelationRow(sibling.id, sibling.name));
   container.append(mobileSection(t("detail.siblings"), siblingRows, t("empty.siblings")));
@@ -2159,8 +2305,12 @@ function bindEvents() {
   if (elements.openUpdates) elements.openUpdates.addEventListener("click", openUpdates);
   if (elements.closeUpdates) elements.closeUpdates.addEventListener("click", closeUpdates);
   if (elements.updatesBackdrop) elements.updatesBackdrop.addEventListener("click", closeUpdates);
+  if (elements.openGuide) elements.openGuide.addEventListener("click", openGuide);
+  if (elements.closeGuide) elements.closeGuide.addEventListener("click", closeGuide);
+  if (elements.guideBackdrop) elements.guideBackdrop.addEventListener("click", closeGuide);
   document.addEventListener("keydown", (event) => {
     if (event.key !== "Escape") return;
+    if (elements.guidePanel && !elements.guidePanel.hidden) closeGuide();
     if (elements.storyPanel && !elements.storyPanel.hidden) closeStory();
     if (elements.updatesPanel && !elements.updatesPanel.hidden) closeUpdates();
   });
@@ -2196,6 +2346,12 @@ async function initialise() {
     renderActive();
     if (hash.sel && state.data.people[hash.sel]) openDetails(hash.sel);
     else syncHash();
+    // First visit: open the guide once so a newcomer is oriented before exploring.
+    // Skipped when arriving on a deep link (a shared person/record) — they came for
+    // that, not the tour — and never again after it has been seen.
+    let guideSeen = true;
+    try { guideSeen = Boolean(localStorage.getItem(GUIDE_STORAGE_KEY)); } catch { /* storage unavailable */ }
+    if (!guideSeen && !hash.sel) openGuide();
   } catch (error) {
     elements.loading.hidden = true;
     elements.error.hidden = false;

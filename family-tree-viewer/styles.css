@@ -875,6 +875,95 @@ a:focus-visible {
 }
 .story-link:hover { color: var(--green-deep); text-decoration: underline; }
 
+/* How-to guide — a navigation-first help overlay. Reuses .story-panel / .story-head
+   (centred card on desktop, full-screen sheet on mobile); this styles only its body. */
+.toolbar .guide-button {
+  flex: 0 0 auto;
+  align-self: flex-end;
+  background: var(--card);
+  color: var(--green-deep);
+  border-color: var(--gold);
+}
+.toolbar .guide-button:hover { background: var(--gold-soft); box-shadow: 0 0 0 1px var(--gold), var(--shadow-xs); }
+
+.guide-panel { width: min(40rem, 94vw); }
+.guide-content { color: var(--ink); }
+.guide-intro {
+  margin: 0 0 1.4rem;
+  font-family: var(--serif);
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+.guide-steps { display: grid; gap: 1.1rem; }
+.guide-step { display: flex; gap: .9rem; align-items: flex-start; }
+.guide-step-num {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 1.9rem;
+  height: 1.9rem;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  background: var(--gold-soft);
+  color: var(--green-deep);
+  font-family: var(--sans);
+  font-size: .95rem;
+  font-weight: 700;
+}
+.guide-step-title {
+  margin: .1rem 0 .2rem;
+  font-family: var(--sans);
+  font-size: .95rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.guide-step-body { margin: 0; font-size: .92rem; line-height: 1.55; color: var(--muted); }
+
+.guide-legend {
+  margin: 1.6rem 0 0;
+  padding: 1.1rem 1.15rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-sm);
+  background: var(--paper);
+}
+.guide-legend-title {
+  margin: 0 0 .6rem;
+  font-family: var(--sans);
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.guide-legend-row { margin: 0 0 .5rem; font-size: .88rem; line-height: 1.5; color: var(--ink-2); }
+.guide-legend-row:last-child { margin-bottom: 0; }
+.guide-swatch {
+  display: inline-block;
+  width: .72rem;
+  height: .72rem;
+  border-radius: 2px;
+  transform: translateY(1px);
+}
+.guide-gotit {
+  margin-top: 1.6rem;
+  min-height: 2.85rem;
+  padding: .65rem 1.6rem;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: var(--green);
+  color: #f6f1e2;
+  font-family: var(--sans);
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: var(--shadow-xs);
+}
+.guide-gotit:hover { background: var(--green-deep); box-shadow: 0 0 0 1px var(--gold), var(--shadow-xs); }
+.guide-gotit:active { transform: translateY(1px); }
+
 /* What's new / Novidades — a right-edge slide-in drawer of recent additions. */
 .toolbar .updates-button {
   flex: 0 0 auto;
