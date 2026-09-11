@@ -1,0 +1,116 @@
+schema_version: 1
+id: CIV-0045
+title: >-
+  1891 civil birth registration of Maria Felomena Bohrer at São José do Ribeirão
+  (Nova Friburgo) — daughter of Valentim Martinho Bohrer and Carolina Klein
+title_pt: >-
+  Registro civil de nascimento de 1891 de Maria Felomena Bohrer em São José do
+  Ribeirão (Nova Friburgo) — filha de Valentim Martinho Bohrer e Carolina Klein
+record_type: Civil birth register entry
+record_category: civil_registration
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1891-10-01"
+registration_date:
+  kind: exact
+  value: "1891-10-02"
+event_place_text: >-
+  São José do Ribeirão (Comarca de Nova Friburgo), Rio de Janeiro, Brazil
+repository:
+  name: >-
+    Registro Civil / Juiz de Paz da Parochia de São José do Ribeirão, Comarca de
+    Nova Friburgo — Livro de Nascimentos, fl. 117–118, termo nº 236
+  archive_or_registry: FamilySearch (retrieval-agent pull)
+  collection: >-
+    Registro Civil de Nascimentos, São José do Ribeirão (Nova Friburgo), RJ,
+    1891, termo nº 236 (margem "Maria")
+  catalogue_reference: >-
+    rec-bohrer-mariafelomena-birth-1891-saojoseribeirao (retrieval drop, 2 pages)
+access_date: "2026-09-11"
+language: pt-BR
+transcription: >-
+  [Registro Civil de Nascimentos, districto de Paz da Parochia de São José do
+  Ribeirão, Comarca de Nova Friburgo, RJ, fl. 117–118; termo nº 236, margem
+  "Maria". Transcrição contínua das duas páginas.] "Nº 236 — Maria. Aos dous de
+  Outubro de mil oitocentos e noventa e um, neste districto de Paz da Parochia de
+  São José do Ribeirão, Comarca de Nova Friburgo, Estado do Rio de Janeiro, em o
+  meu cartorio compareceu Valentim Martins Borrer e em presença dos testemunhas
+  abaixo declarou: Que a tarde do passado ás quatro horas [e trinta — uncertain]
+  nasceo em sua caza nesta Parochia, uma criança do sexo feminino de cor branca, a
+  qual no Pio Baptismal recebera o nome de Maria Feloména, filha legitima d'elle
+  declarante e de sua mulher Carolina Klein, brazileiros, lavradores e moradores
+  desta Parochia e casados na de Nova Friburgo, neta paterna de Vicente Borrer e de
+  Maria Hech[t]forme [Heggendorn — uncertain leitura], e materna de Jacob Klein e
+  de Maria Luiza Sch[m]enckel [Schenkel]. E para constar lavro este termo que
+  depois de lido assigno commigo a rogo do declarante por não saber escrever —
+  Joaquim Jacintho Menzes, com as testemunhas presentes José Fernandes dos Santos
+  Junior e Francisco Pedro de Souza Junior, negociantes e moradores desta Parochia.
+  Perante Carlos José Cidade, escrivão, que escrevi."
+abstract: >-
+  Civil birth registration of Maria Felomena Bohrer, born 1 October 1891 (the day
+  before the 2 October 1891 declaration) at the district/parish of São José do
+  Ribeirão, Comarca de Nova Friburgo, RJ, and declared by her father. She is the
+  legitimate daughter of Valentim Martinho Bohrer (declared here "Valentim Martins
+  Borrer"; P-0028) and Carolina Klein (P-0029) — i.e. a sister of the direct
+  ancestor João Gonçalves Bohrer (P-0014). The record additionally names all four
+  grandparents, corroborating both grandparent couples: paternal Vicente Borrer
+  (P-0070) × Maria Heggendorn (P-0071) [her surname written "Hech(t)forme", an
+  uncertain read] and maternal Jacob Klein (P-0103) × Maria Luiza Schenkel (P-0104).
+  PROVEN. Recorded as a documented child on family F-0013; not modelled as a person
+  entity; no event created.
+abstract_pt: >-
+  Registro civil de nascimento de Maria Felomena Bohrer, nascida em 1º de outubro
+  de 1891 (véspera da declaração de 2 de outubro de 1891) no districto/parochia de
+  São José do Ribeirão, Comarca de Nova Friburgo, RJ, declarada pelo pai. É filha
+  legítima de Valentim Martinho Bohrer (aqui declarado "Valentim Martins Borrer";
+  P-0028) e Carolina Klein (P-0029) — ou seja, irmã do ancestral direto João
+  Gonçalves Bohrer (P-0014). O registro nomeia ainda os quatro avós, corroborando
+  ambos os casais: paternos Vicente Borrer (P-0070) × Maria Heggendorn (P-0071)
+  [sobrenome grafado "Hech(t)forme", leitura incerta] e maternos Jacob Klein
+  (P-0103) × Maria Luiza Schenkel (P-0104). PROVEN. Registrada como filha
+  documentada na família F-0013; não modelada como entidade pessoa; sem evento.
+reliability:
+  assessment: >-
+    Original civil birth register entry — direct primary for the birth, its date,
+    the child's filiation and (as declared) the four grandparents.
+  informant: >-
+    The father, Valentim Martinho Bohrer (declarant, "por não saber escrever").
+  limitations: >-
+    Surname written "Borrer" (Bohrer) and the father's middle name as "Martins"
+    (for Martinho). The paternal grandmother's surname is written oddly
+    ("Hech(t)forme") — read as Heggendorn/Heckdorn from the corroborating records;
+    the birth-hour minutes are an uncertain read. Delivered via the FamilySearch
+    retrieval-agent drop.
+digital_file:
+  path: evidence/civil/CIV-0045-bohrer-mariafelomena-birth-1891-saojoseribeirao.jpg
+  sha256: 3f5eeeb72006f357c899882bb009b99a75538a1d0124e52756279bfb29ede532
+additional_pages:
+- path: evidence/civil/CIV-0045-bohrer-mariafelomena-birth-1891-saojoseribeirao-p2.jpg
+  sha256: 33d0f70f85ceee52479900ab0e6a3b55cebf79c191f24058424bffda5a6a50b3
+linked_people:
+- P-0028
+- P-0029
+- P-0070
+- P-0071
+- P-0103
+- P-0104
+linked_families:
+- F-0013
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the documented collateral child Maria Felomena Bohrer on family
+    F-0013 (Valentim Martinho Bohrer × Carolina Klein). Not modelled as a person
+    entity; no event created. The record also names all four grandparents already
+    modelled — paternal Vicente Borrer (P-0070) × Maria Heggendorn (P-0071),
+    maternal Jacob Klein (P-0103) × Maria Luiza Schenkel (P-0104) — so it
+    corroborates the parent families F-0034 and F-0051; those grandparents are
+    listed in linked_people but their entities were not edited under this batch.
+    Two-page record: fl. 117 (start) + fl. 118 (continuation), transcribed as one
+    continuous act.

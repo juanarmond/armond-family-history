@@ -1,0 +1,114 @@
+schema_version: 1
+id: CIV-0047
+title: >-
+  2003 civil death registration of Maria Bohrer Teixeira at Niterói — daughter of
+  Valentim Martinho Bohrer and Carolina Klein Bohrer
+title_pt: >-
+  Registro civil de óbito de 2003 de Maria Bohrer Teixeira em Niterói — filha de
+  Valentim Martinho Bohrer e Carolina Klein Bohrer
+record_type: Civil death register entry
+record_category: civil_registration
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "2003-09-22"
+registration_date:
+  kind: exact
+  value: "2003-09-23"
+event_place_text: >-
+  Niterói (Hospital Estadual Azevedo Lima), Rio de Janeiro, Brazil
+repository:
+  name: >-
+    Registro Civil da 3ª Zona Judiciária, 1º Distrito de Niterói, RJ — Assento de
+    Óbito, Livro C-97, fl. 172, nº 47406
+  archive_or_registry: FamilySearch (retrieval-agent pull)
+  collection: >-
+    Registro Civil de Óbitos, 3ª Zona Judiciária de Niterói, RJ, Livro C-97, nº
+    47406 (2003)
+  catalogue_reference: rec-bohrer-maria-teixeira-death-2003 (retrieval drop)
+access_date: "2026-09-11"
+language: pt-BR
+transcription: >-
+  [Registro Civil da 3ª Zona Judiciária — 1º Distrito de Niterói-RJ. ASSENTO DE
+  ÓBITO. Livro C-97; Número 47406; Folha 172. Registro recente (2003) que nomeia
+  pessoas possivelmente vivas — declarante e filhos sobreviventes omitidos; números
+  de identidade (IFP/INSS) e da declaração de óbito omitidos. Transcrevem-se os
+  dados próprios da falecida e a filiação.] "Aos VINTE E TRÊS dias do mês de
+  SETEMBRO do ano de DOIS MIL E TRÊS, compareceu nesta serventia
+  [declarante — omitido — privacidade], [dados pessoais do declarante omitidos —
+  privacidade], IFP nº [documento omitido], residente [endereço omitido —
+  privacidade], e exibindo o atestado de óbito firmado pelo(a) Dr(a).
+  [médico — omitido], CRM nº [documento omitido], dando como causa da morte
+  insuficiência respiratória, arritmia cardíaca e insuficiência cardíaca, declarou
+  que no dia VINTE E DOIS do mês de SETEMBRO do ano de DOIS MIL E TRÊS às 19:10
+  horas, no Hospital Estadual Azevedo Lima, nesta cidade, faleceu MARIA BOHRER
+  TEIXEIRA, do sexo feminino, cor branca, profissão do lar, natural do Rio de
+  Janeiro, residente [logradouro omitido — privacidade], Alcântara, São Gonçalo –
+  RJ. Idade: oitenta e quatro anos (08/08/1919). Estado civil viúva. Identidade:
+  IFP nº [documento omitido]. CPF: ignora. INSS nº [documento omitido]. Filha de
+  Valentin Martinho Bohrer e de Carolina Klein Bohrer. Deixa bens? Sim. Deixa
+  Filhos? 05 filhos maiores [não nomeados — possivelmente vivos]. Fez testamento?
+  Não. Era Eleitor? Não. O sepultamento será feito no cemitério Pacheco, em São
+  Gonçalo, neste Estado. OBSERVAÇÃO: Declaração de óbito nº [documento omitido].
+  Autorizado o sepultamento antes de 24 horas. A declarante ignora demais elementos
+  previstos em Lei. Nada mais declarou. Lido e achado conforme, assina. Eu, Paulo
+  Roberto de A. Sabdin — Responsável pelo Expediente, lavrei, li e encerro o
+  presente ato."
+abstract: >-
+  Civil death registration of Maria Bohrer Teixeira, who died 22 September 2003 at
+  19:10 in the Hospital Estadual Azevedo Lima, Niterói (RJ), aged 84 (born 8 August
+  1919), a widow, "do lar", of respiratory and cardiac failure. She is named as the
+  daughter of Valentin Martinho Bohrer (P-0028) and Carolina Klein Bohrer (P-0029)
+  — i.e. a sister of the direct ancestor João Gonçalves Bohrer (P-0014). PROVEN.
+  Recorded as a documented child on family F-0013; not modelled as a person entity;
+  no event created. Private record: the declarant, her attributes/address, the
+  five surviving adult children, the attesting physician, and all identity/document
+  numbers (IFP, INSS, declaração de óbito) are redacted as possibly-living third
+  parties; the deceased's own vitals and her filiation are retained.
+abstract_pt: >-
+  Registro civil de óbito de Maria Bohrer Teixeira, falecida em 22 de setembro de
+  2003 às 19:10 no Hospital Estadual Azevedo Lima, Niterói (RJ), aos 84 anos
+  (nascida em 8 de agosto de 1919), viúva, "do lar", por insuficiência respiratória
+  e cardíaca. É nomeada como filha de Valentin Martinho Bohrer (P-0028) e Carolina
+  Klein Bohrer (P-0029) — ou seja, irmã do ancestral direto João Gonçalves Bohrer
+  (P-0014). PROVEN. Registrada como filha documentada na família F-0013; não
+  modelada como entidade pessoa; sem evento. Registro privado: o declarante, seus
+  dados/endereço, os cinco filhos maiores sobreviventes, o médico atestante e todos
+  os números de identidade/documento (IFP, INSS, declaração de óbito) são omitidos
+  por serem terceiros possivelmente vivos; os dados próprios da falecida e sua
+  filiação são preservados.
+reliability:
+  assessment: >-
+    Original civil death register entry — direct primary for the death, its date,
+    the deceased's stated birth date/age, and (informant-reported) her parents.
+  informant: >-
+    Withheld — the declarant is possibly living and is redacted for privacy.
+  limitations: >-
+    Recent (2003) record naming possibly-living people; declarant, surviving
+    children, physician and all identity/document numbers redacted. The parents'
+    names are informant-reported at death, not a filiation record. Father's given
+    name written "Valentin" (for Valentim). Delivered via the FamilySearch
+    retrieval-agent drop.
+digital_file:
+  path: evidence/civil/CIV-0047-bohrer-maria-teixeira-death-2003.jpg
+  sha256: 5859da028bbbf5ede8b5bf3ca0affddc945d6a0a66044f20f5327ae48ee439bb
+linked_people:
+- P-0028
+- P-0029
+linked_families:
+- F-0013
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Source for the documented collateral child Maria Bohrer Teixeira (b. 1919, d.
+    2003) on family F-0013 (Valentim Martinho Bohrer × Carolina Klein). Not
+    modelled as a person entity; no event created. PRIVATE: names living third
+    parties (declarant, five surviving adult children, attesting physician) and
+    identity numbers (IFP, INSS) and the declaração-de-óbito number — all redacted;
+    the image is private and must not be exported. The deceased's own vitals and
+    her filiation to P-0028 × P-0029 are retained as the evidentiary core.

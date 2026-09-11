@@ -1873,3 +1873,27 @@ Iris now shows 6 documented siblings. Profiles synced EN/PT (P-0007, P-0014, P-0
 Agenor/Thereza/Nestor (Antenor's side); Cinésio/Maria Adyr/Ivan (Ivan = probable dup of Ivanyr) —
 off-tool or tree-only. José Olavo (P-0018) already modelled; his 1975 banns not yet catalogued (still
 in drop — a follow-up for the ancestors' evidence layer). make check green; 145 sources / 208 scans.
+
+## 2026-09-11 — Drop ingestion: great-grandparents' siblings (5 PROVEN of 10 catalogued; 5 rejected at the value gate)
+
+Value-gated + catalogued 5 new PROVEN great-grandparent-siblings via 4 parallel agents (by family,
+disjoint ID blocks), each confirming BOTH parents named against the image before promoting:
+- CIV-0041 Ritta Muniz Bittencourt (1890 birth, Sapucaia; names both parents + all 4 grandparents) → F-0007.
+- CIV-0042 Ana dos Santos Ferreira (1950 óbito, Guaçuí-ES; private) → UPDATED the existing "Anna" F-0007 entry.
+- CIV-0043 Teodolina Engracia de Souza (1962 óbito, Itaperuna; private) → F-0015.
+- CIV-0045 Maria Felomena Bohrer (1891 birth, 2pp; names both parents + all 4 grandparents) → F-0013.
+- CIV-0047 Maria Bohrer Teixeira (2003 death; private) → F-0013.
+
+REJECTED at the value gate (drop manifest marked "PROVEN" but the held images did not support it — NOT promoted):
+- Alcida Fernandes de Azevedo (1975 óbito): mother matches (Thereza P-0039) but father recorded (twice,
+  deliberately) as "Ascendino Maria de Azevedo" ≠ José Secundino (P-0038). Father-name conflict → LEAD to reconcile.
+- Joaquim Carlos (1896) + Renato (1898) baptisms: wrong-folio crops (image shows the folio before the target
+  entry). RE-PULL the next folio.
+- João Bohrer 1891: byte-identical to held CIV-0020; child's name still off the captured frame; "João" is a
+  retrieval-agent inference → LEAD. Needs the continuation folio (page 82).
+- Adelaide + Carolina twins (1899 baptism): image is a 1900 folio (records 767–777), none the twins nor children
+  of Valentim × Carolina → IMAGE MISMATCH. RE-PULL.
+
+CIV-0044 + CIV-0046 (pre-allocated for Alcida/João, not used) retired in the id-ledger. Profile P-0012 synced
+(EN+PT) with the new sisters; F-0007/F-0013/F-0015 documented_children updated. Curated "What's new" milestone
+added. make check green; 150 sources / 214 scans.

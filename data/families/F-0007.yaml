@@ -35,16 +35,33 @@ children:
     notes: []
   notes: []
 documented_children:
-- name: Anna Muniz Bittencourt
+- name: Anna Muniz Bittencourt (Ana dos Santos Ferreira)
   source_ids:
   - PAR-0006
-  lifespan: b. 19 Nov 1884
+  - CIV-0042
+  lifespan: 1884–1950
   note: >-
-    A sister of Deocleciano, baptized 25 July 1885 at Santo Antônio de Sapucaia
-    as the legitimate daughter of João Muniz Bittencourt and Susanna Rita Brandão
-    (PAR-0006). Very likely the "Ana Muniz Bittencourt" who married Antonio dos
-    Santos Ferreira (1908, Santa Luzia do Carangola — a lead) and the "Ana dos
-    Santos Ferreira" who died 1950.
+    A sister of Deocleciano, born 19 November 1884 and baptized 25 July 1885 at
+    Santo Antônio de Sapucaia as the legitimate daughter of João Muniz Bittencourt
+    and Susanna Rita Brandão (PAR-0006). Her 1950 death certificate (CIV-0042,
+    Guaçuí, ES) names the same parents and records her, widowed under her married
+    name Ana dos Santos Ferreira, a doméstica who died 6 July 1950 aged 64 (→ born
+    c.1885/86, within normal age error of the documented 1884) of cardiac
+    insufficiency — confirming the long-standing identification with the "Ana Muniz
+    Bittencourt" who married Antonio dos Santos Ferreira (1908, Santa Luzia do
+    Carangola, a lead). Deceased.
+- name: Ritta Muniz Bittencourt
+  source_ids:
+  - CIV-0041
+  lifespan: b. 15 Jan 1890
+  note: >-
+    A sister of Deocleciano (P-0012); daughter of João Muniz Bittencourt (P-0019)
+    and Suzana Rita Brandão (P-0020), per her 1890 Sapucaia civil birth register
+    (CIV-0041, assento nº 65). Born 15 January 1890 at Conceição, Sapucaia (RJ),
+    and registered 23 January 1890; the act, declared by her father, also names
+    both grandparent couples (Manoel Muniz Bittencourt + Francisca Roza do Espirito
+    Santo; José do Rego Brandão + Rita Ignacia de Jesus). Recorded only as "Ritta"
+    in the act; the surname follows the family. Deceased.
 - name: Joventina Muniz Bittencourt
   source_ids:
   - PAR-0013

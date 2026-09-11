@@ -1,0 +1,99 @@
+schema_version: 1
+id: CIV-0043
+title: >-
+  1962 Itaperuna civil death of Teodolina Engracia de Souza — daughter of Antonio
+  Engracio de Souza and Luzia Pinheiro da Conceição
+title_pt: >-
+  Óbito civil de 1962, em Itaperuna, de Teodolina Engracia de Souza — filha de
+  Antonio Engracio de Souza e Luzia Pinheiro da Conceição
+record_type: Civil death register entry
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1962-12-25"
+  original_text: >-
+    Died 25 December 1962 ("no dia de ontem às dezessete horas"), registered 26
+    December 1962 ("Em vinte e seis de dezembro de mil novecentos e sessenta e
+    dois"), termo Nº 18.941.
+event_place_text: >-
+  Itaperuna, Estado do Rio de Janeiro, Brazil (rua da Harmonia; burial in the
+  town cemetery)
+repository:
+  name: Cartório de Registro Civil, Itaperuna
+  archive_or_registry: FamilySearch (Brazil, Rio de Janeiro civil registration)
+  collection: Brasil, Rio de Janeiro, Registro Civil — óbitos, Itaperuna
+  catalogue_reference: >-
+    Óbito termo Nº 18.941 (fl. ~289); rec-engracio-teodolina-obito-1962-itaperuna
+    (retrieval drop); digitised copy delivered via the research/from-retrieval sync
+access_date: "2026-09-11"
+language: pt-BR
+transcription: >-
+  [Óbito termo Nº 18.941, livro de óbitos de Itaperuna, Estado do Rio de Janeiro,
+  fl. ~289; lower-right entry. Names of the declarant and of any surviving heirs
+  are redacted for privacy (possibly living).] "Em vinte e seis de dezembro de mil
+  novecentos e sessenta e dois, nesta cidade de Itaperuna, no Estado do Rio de
+  Janeiro, em cartório, compareceu [omitido — privacidade], lavrador aqui
+  residente, e exibindo atestado de óbito firmado por Dr. Munir Bussade, dando
+  como causa da morte insuficiência cardíaca congestiva, declarou que no dia de
+  ontem às dezessete horas, em rua da Harmonia, faleceu Teodolina Engracia de
+  Souza, do sexo feminino, de côr branca, profissão doméstica, natural de E[stado]
+  de Minas, domiciliada e residente em esta cidade, com 60 anos de idade, estado
+  civil viúva, filha legítima de Antonio Engracio e Luzia Pinheiro. O sepultamento
+  será feito no cemitério desta cidade [...] [herdeiros omitidos — privacidade]
+  [...]. [Assinaturas do declarante e testemunha — omitidas — privacidade.]"
+abstract: >-
+  Civil death of Teodolina Engracia de Souza (b. ~1902, Minas Gerais; d. 25
+  December 1962, Itaperuna, Rio de Janeiro, aged 60), doméstica, widow. Names her
+  parents as Antonio Engracio de Souza (P-0032) and Luzia Pinheiro da Conceição
+  (P-0033) — "filha legítima de Antonio Engracio e Luzia Pinheiro" — a further
+  documented child of that couple and hence a sister of Antonio Engracio Filho
+  (P-0010). PROVEN: both parents named and both match F-0015. Recorded as a
+  documented_child on F-0015; not modelled as a person entity, so no event
+  created. The declarant was a family member of the Souza line (name redacted,
+  possibly living).
+abstract_pt: >-
+  Óbito civil de Teodolina Engracia de Souza (n. ~1902, Minas Gerais; f. 25 de
+  dezembro de 1962, Itaperuna, Rio de Janeiro, aos 60 anos), doméstica, viúva.
+  Nomeia seus pais Antonio Engracio de Souza (P-0032) e Luzia Pinheiro da
+  Conceição (P-0033) — "filha legítima de Antonio Engracio e Luzia Pinheiro" —
+  mais um filho documentado desse casal e, portanto, irmã de Antonio Engracio
+  Filho (P-0010). COMPROVADO: ambos os pais nomeados e ambos coincidem com F-0015.
+  Registrada como documented_child em F-0015; não modelada como entidade de
+  pessoa, logo nenhum evento criado. O declarante era um familiar da linha Souza
+  (nome omitido, possivelmente vivo).
+reliability:
+  assessment: >-
+    Primary civil death register entry; the filiation is informant-reported at
+    death, so it corroborates the parents' names (already established for F-0015
+    by CIV-0017 and CIV-0026) and documents a further child of the couple.
+  informant: >-
+    withheld — the declarant was a member of the Souza family ("...Engracio... de
+    Souza", lavrador, resident in Itaperuna); name redacted, possibly living.
+  limitations: >-
+    1962 record: the declarant's name and any surviving heirs are redacted for
+    privacy; age→birth (~1902) is approximate. "SEM VALOR LEGAL" watermark ignored
+    (a working copy).
+digital_file:
+  path: evidence/civil/CIV-0043-teodolina-engracia-souza-obito-1962-itaperuna.jpg
+  sha256: 0bbaafc3d25f46087b4a79eb406baecc96dfa90e19d58a68bd2ca3432d42f3a3
+linked_people:
+  - P-0032
+  - P-0033
+linked_families:
+  - F-0015
+linked_events: []
+linked_places: []
+private: true
+notes:
+  - text: >-
+      Records a further (collateral) child of Antonio Engracio de Souza × Luzia
+      Pinheiro da Conceição — Teodolina — added as a documented_child on F-0015.
+      Not modelled as a person entity; no event created. Marked private and the
+      declarant / any surviving heirs are redacted because this is a 1962 death
+      that may name living descendants; Teodolina's own vitals and her parents are
+      transcribed in full. This deliberate privacy handling (declarant redaction,
+      private: true) is intentional, not a data gap.

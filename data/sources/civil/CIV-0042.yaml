@@ -1,0 +1,121 @@
+schema_version: 1
+id: CIV-0042
+title: >-
+  Civil death registration of Ana dos Santos Ferreira (1950, Guaçuí, ES), a
+  daughter of João Muniz Bittencourt and Suzana Rita Brandão
+title_pt: >-
+  Registro civil de óbito de Ana dos Santos Ferreira (1950, Guaçuí, ES), filha de
+  João Muniz Bittencourt e Suzana Rita Brandão
+record_type: Civil death register entry
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1950-07-06"
+event_place_text: Guaçuí, Espírito Santo, Brazil
+registration_date:
+  kind: exact
+  value: "1950-07-07"
+repository:
+  name: >-
+    Cartório do Registro Civil de Guaçuí, Espírito Santo — livro nº 14, fls. 252,
+    óbito nº 4749, talão 24, página 159
+  archive_or_registry: FamilySearch (retrieval-agent pull)
+  collection: >-
+    Brasil, Espírito Santo, Registro Civil — óbitos, Guaçuí, 1950
+  record_number: "4749"
+  page: "252"
+  book: "14"
+  catalogue_reference: >-
+    rec-muniz-ana-santos-ferreira-obito-1950-guacui-es.jpg (retrieval drop).
+    Certidão de óbito (talão 24, página 159), Cartório de Guaçuí (ES); stamped
+    Dalva Amaral Faria, Oficial Substituta, Cidade de Guaçuí - E. E. Santo.
+  repository_path: >-
+    evidence/civil/CIV-0042-ana-dos-santos-ferreira-obito-1950-guacui-es.jpg
+access_date: "2026-09-11"
+language: pt-BR
+transcription: >-
+  [Certidão de óbito, Cartório de Guaçuí (ES); talão nº 24, página nº 159. Óbito
+  nº 4749, a fls. 252 do livro nº 14. A falecida está morta e seus dados são
+  transcritos por completo; o nome do declarante — terceiro possivelmente vivo — é
+  omitido por privacidade. Não há RG/CPF no documento.] "República dos Estados
+  Unidos do Brasil. Óbito Nº 4749. Certifica que, a fls. 252 do livro nº 14, de
+  registro de óbitos, foi lavrado o assento de Ana dos Santos Ferreira, falecida
+  aos 6 de Julho de 1950 ás 17,30 horas, em domicílio, do sexo feminino, de côr
+  branca, profissão doméstica, natural de Minas Gerais, domiciliada neste distrito
+  e residente neste distrito, com 64 annos de idade, estado civil viuva, filha de
+  João Muniz Bittencourt, falecido, [profissão em branco], natural de Minas Gerais
+  e residente em [em branco], e de Suzana Rita Brandão, falecida, [profissão em
+  branco], natural de Minas Gerais e residente em [em branco]. Foi declarante
+  [omitido — privacidade], sendo a declaração de óbito firmada por Dr. Amantino
+  Moreira Bastos, que deu como causa da morte 'insuf. cardíaca'. O sepultamento
+  foi feito no cemitério de [ilegível] Piedade. Observações: [em branco]. O
+  referido é verdade e dou fé. Guaçuí, 7 de Julho de 1950. [assinatura do]
+  Oficial."
+abstract: >-
+  Original 1950 civil death register certificate (Cartório de Guaçuí, ES) of Ana
+  dos Santos Ferreira, a widow, doméstica, who died 6 July 1950 aged 64 (born
+  c.1885/1886) of cardiac insufficiency. It names both parents — João Muniz
+  Bittencourt (P-0019) and Suzana Rita Brandão (P-0020), both already deceased —
+  making her a daughter of that couple and a sibling of Deocleciano (P-0012).
+  PROVEN. She is the same "Anna Muniz Bittencourt" baptised 1885 (PAR-0006), by
+  then widowed under her married name dos Santos Ferreira; recorded (updated) as a
+  documented child on F-0007, not modelled as a person entity. Private record
+  (1950 death): the declarant's name is withheld as a possibly-living third party.
+abstract_pt: >-
+  Certidão original de óbito civil de 1950 (Cartório de Guaçuí, ES) de Ana dos
+  Santos Ferreira, viúva, doméstica, falecida em 6 de julho de 1950 aos 64 anos
+  (nascida c.1885/1886) por insuficiência cardíaca. Nomeia ambos os pais — João
+  Muniz Bittencourt (P-0019) e Suzana Rita Brandão (P-0020), ambos já falecidos —
+  tornando-a filha desse casal e irmã de Deocleciano (P-0012). PROVADO. É a mesma
+  "Anna Muniz Bittencourt" batizada em 1885 (PAR-0006), então já viúva sob o nome
+  de casada dos Santos Ferreira; registrada (atualizada) como filha documentada em
+  F-0007, não modelada como entidade pessoa. Registro privado (óbito de 1950): o
+  nome do declarante é omitido por ser terceiro possivelmente vivo.
+reliability:
+  assessment: >-
+    Contemporary civil death entry: the death facts (date, place, age, cause,
+    marital status) are primary; the parentage is reported by the declarant, hence
+    mixed information quality. The exact name-match of both named parents (João
+    Muniz Bittencourt × Suzana Rita Brandão) directly places Ana as a daughter of
+    that couple and a sibling of Deocleciano (P-0012).
+  informant: >-
+    Withheld — the declarant (possibly living or with living descendants); death
+    attested by Dr. Amantino Moreira Bastos, Guaçuí, 7 July 1950.
+  limitations: >-
+    The stated age (64 → born c.1886) is ~2 years off the 1884 birth documented by
+    her baptism (PAR-0006), within normal death-record error. The "natural de
+    Minas Gerais" given for Ana and for both parents is a 1950 clerk approximation
+    reflecting the family's long Zona da Mata residence, inconsistent with the
+    documented birthplaces (Ana and her mother at Sapucaia, RJ, per PAR-0006 /
+    PAR-0005; her father at São Miguel, Açores, per PAR-0007); it does not weaken
+    the parent identification. Ana is a collateral (a sibling of Deocleciano)
+    recorded as a documented child, not modelled as a person entity.
+digital_file:
+  path: >-
+    evidence/civil/CIV-0042-ana-dos-santos-ferreira-obito-1950-guacui-es.jpg
+  sha256: dc48e60e02000bb2a28e6ca0da04873fdb4bcf9827c8bd43a2e43261e1910509
+linked_people:
+- P-0019
+- P-0020
+linked_families:
+- F-0007
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Evidence for a documented collateral child (Anna Muniz Bittencourt / Ana dos
+    Santos Ferreira, F-0007 documented_children): a daughter of João Muniz
+    Bittencourt (P-0019) and Suzana Rita Brandão (P-0020) and a sibling of
+    Deocleciano (P-0012). This 1950 óbito is her death record; it updates (does not
+    duplicate) the existing "Anna Muniz Bittencourt" entry established by her 1885
+    baptism (PAR-0006). Not modelled as a person entity; no event created.
+- text: >-
+    Privacy: the subject (Ana, d. 1950) is deceased, so her own vitals are
+    displayed in full. The declarant's name is a possibly-living third party (or
+    living descendants) and is withheld ("[omitido — privacidade]"). No RG/CPF or
+    street address appears on the document. Record marked private.

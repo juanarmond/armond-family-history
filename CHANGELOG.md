@@ -5,6 +5,28 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Five proven great-grandparent-siblings catalogued from the 2026-09-11 drop (2026-09-11)
+
+Four parallel agents (one per family, disjoint ID blocks) value-gated the drop's
+"great-grandparent siblings" — **opening each image and confirming both parents are named**
+before promoting. Five held up and were catalogued as new sources + `documented_children`;
+five were rejected because the images didn't support the manifest's "PROVEN" label:
+
+- **CIV-0041** Ritta Muniz Bittencourt (1890 birth, Sapucaia — names both parents + all four
+  grandparents) → F-0007. **CIV-0042** Ana dos Santos Ferreira (1950 óbito, private) → *updated*
+  the existing "Anna" entry (same woman). **CIV-0043** Teodolina Engracia de Souza (1962 óbito,
+  private) → F-0015. **CIV-0045** Maria Felomena Bohrer (1891 birth, 2 pp; both parents + four
+  grandparents) → F-0013. **CIV-0047** Maria Bohrer Teixeira (2003 death, private) → F-0013.
+- **Rejected (kept as leads / re-pull targets):** Alcida (1975 — father recorded "Ascendino Maria
+  de Azevedo" ≠ José Secundino P-0038; mother matches → father-name conflict); Joaquim Carlos
+  (1896) & Renato (1898) baptisms (wrong-folio crops); João-infant 1891 (name off-frame, = held
+  CIV-0020); Adelaide+Carolina twins (image is a 1900 folio — mismatch).
+
+Recent-death sources are `private` with declarants/surviving-children/ID numbers redacted.
+CIV-0044/0046 (pre-allocated, unused) retired in the id-ledger. P-0012 profile synced EN/PT;
+curated "What's new" milestone added. GEDCOM/updates/index regenerated. `make check` green.
+
+
 ### Fixed — Sources panel: order each group by life event (birth/baptism → marriage → death) (2026-09-11)
 
 Within a person's **Fontes** panel, the three groups now sort by the certificate's own

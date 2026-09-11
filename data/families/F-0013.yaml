@@ -48,6 +48,27 @@ documented_children:
     Brother of João Gonçalves Bohrer (P-0014); legitimate son of Valentim Martinho Bohrer
     (P-0028) and Carolina Klein (P-0029), born 14 May 1902, baptised 14 September 1902 at Nova
     Friburgo (PAR-0074). Deceased.
+- name: Maria Felomena Bohrer
+  source_ids:
+  - CIV-0045
+  lifespan: b. 1891
+  note: >-
+    Sister of João Gonçalves Bohrer (P-0014); legitimate daughter of Valentim Martinho Bohrer
+    (P-0028) and Carolina Klein (P-0029), born 1 October 1891 and registered 2 October 1891 at
+    the district/parish of São José do Ribeirão (Comarca de Nova Friburgo), RJ (CIV-0045). That
+    civil birth act also names all four grandparents — paternal Vicente Borrer (P-0070) × Maria
+    Heggendorn (P-0071) and maternal Jacob Klein (P-0103) × Maria Luiza Schenkel (P-0104). This
+    is the earliest-born documented child of the couple, predating their held 1890 marriage's
+    later offspring. Deceased.
+- name: Maria Bohrer Teixeira
+  source_ids:
+  - CIV-0047
+  lifespan: 1919–2003
+  note: >-
+    Sister of João Gonçalves Bohrer (P-0014); daughter of Valentim Martinho Bohrer (P-0028) and
+    Carolina Klein Bohrer (P-0029), born 8 August 1919, died 22 September 2003 at Niterói, RJ, a
+    widow (CIV-0047, a private record). She left five surviving adult children (living
+    descendants, not named). Deceased.
 event_ids:
 - E-0088
 notes:
@@ -55,7 +76,11 @@ notes:
     Valentim Martinho Bohrer and Carolina Bohrer, parents of João Gonçalves
     Bohrer (P-0014). Established by two corroborating civil records: João's 1970
     death (CIV-0014) and Eunir Bohrer's 1924 Nova Friburgo birth (CIV-0016,
-    paternal grandparents). Two of their other children are now attested by primary
-    Nova Friburgo baptism acts — Maria Clara (1908, PAR-0052) and Durval Baptista
-    (1910, PAR-0053), both naming the couple as legitimate parents. João's own membership
-    stays strong-evidence pending his own baptism/filiation act.
+    paternal grandparents). Five of their other children are now attested by primary
+    records, all naming the couple as parents: Maria Felomena (1891 civil birth,
+    São José do Ribeirão, CIV-0045 — the earliest, which also names all four
+    grandparents), Valentim Luciano (1902 baptism, PAR-0074), Maria Clara (1908
+    baptism, PAR-0052), Durval Baptista (1910 baptism, PAR-0053), and Maria Bohrer
+    Teixeira (b. 1919, d. 2003, Niterói, CIV-0047 — a private record). All are held
+    as documented collateral children (not modelled). João's own membership stays
+    strong-evidence pending his own baptism/filiation act.

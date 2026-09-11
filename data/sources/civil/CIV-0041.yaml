@@ -1,0 +1,120 @@
+schema_version: 1
+id: CIV-0041
+title: >-
+  Civil birth registration of Ritta Muniz Bittencourt (1890, Sapucaia), a daughter
+  of João Muniz Bittencourt and Suzana Rita Brandão, naming both grandparent
+  couples
+title_pt: >-
+  Registro civil de nascimento de Ritta Muniz Bittencourt (1890, Sapucaia), filha
+  de João Muniz Bittencourt e Suzana Rita Brandão, nomeando ambos os casais de avós
+record_type: Civil birth register entry
+record_category: civil_registration
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1890-01-15"
+event_place_text: >-
+  Conceição, Districto de Paz da Parochia e Cidade de Sapucaia, Rio de Janeiro,
+  Brazil
+registration_date:
+  kind: exact
+  value: "1890-01-23"
+repository:
+  name: >-
+    Cartório do Districto de Paz da Parochia e Cidade de Sapucaia, Rio de Janeiro,
+    Brazil — assento nº 65, fl. 34
+  archive_or_registry: FamilySearch (retrieval-agent pull)
+  collection: >-
+    Brasil, Rio de Janeiro, Registro Civil — livro de nascimentos, Sapucaia, 1890
+  record_number: "65"
+  page: "34"
+  catalogue_reference: >-
+    rec-muniz-ritta-birth-1890-sapucaia.jpg (retrieval drop). Nascimento nº 65,
+    fl. 34, Cartório de Paz de Sapucaia, RJ; the adjacent entry nº 64 (August,
+    filho de José Guilherme Dias) is another family and is not this record.
+  repository_path: >-
+    evidence/civil/CIV-0041-ritta-muniz-bittencourt-birth-1890-sapucaia.jpg
+access_date: "2026-09-11"
+language: pt-BR
+transcription: >-
+  [Cartório de Paz de Sapucaia, RJ; livro de nascimentos, fl. 34. Margem: "Ritta".]
+  "Nº 65. Assento numero sessenta e cinco. Aos vinte e tres de Janeiro de mil
+  oitocentos e noventa, neste unico Districto de Paz da Parochia e Cidade de
+  Sapucaia, Estado do Rio de Janeiro da Republica Federal dos Estados Unidos do
+  Brazil, em meu cartorio compareceu João Muniz Bittencourt e declarou: Que no dia
+  quinze do corrente, ao meio dia, no lugar denominado Conceição nesta freguezia, e
+  distante em [duas — uncertain] leguas da Sede desta Cidade, nasceu uma criança do
+  sexo feminino, que ha de baptizar-se com o nome de Ritta, filha legitima do
+  declarante e Dona Suzana Rita Bittencourt digo Rita Brandão, lavradores, e
+  moradores no lugar acima declarado; neta paterna de Manoel Muniz Bittencourt e
+  Dona Francisca Roza do Espirito Santo, e materna de Jose do Rego Brandão e Dona
+  Rita Ignacia de Jesus. E para constar lavrou este termo que commigo assigna o
+  declarante e as testemunhas João Evangelista Vieira e Ale[xandre — illegible]."
+  (The clerk first wrote the mother's surname "Bittencourt" and self-corrected to
+  "Rita Brandão" with the notation "digo".)
+abstract: >-
+  Original 1890 civil birth register entry (Cartório de Paz de Sapucaia, RJ) of
+  Ritta, a female child born 15 January 1890 at Conceição (Sapucaia) and
+  registered 23 January 1890, declared by her father. It names both parents —
+  João Muniz Bittencourt (P-0019) and Suzana Rita Brandão (P-0020) — hence a
+  sibling of Deocleciano (P-0012); and both grandparent couples: paternal Manoel
+  Muniz Bittencourt (P-0042) and Francisca Roza do Espirito Santo (P-0047), and
+  maternal José do Rego Brandão (P-0040) and Rita Ignacia de Jesus (P-0041) —
+  corroborating families F-0020 and F-0019. PROVEN. Recorded as a documented child
+  on F-0007; not modelled as a person entity, no event created.
+abstract_pt: >-
+  Assento original de nascimento civil de 1890 (Cartório de Paz de Sapucaia, RJ)
+  de Ritta, criança do sexo feminino nascida em 15 de janeiro de 1890 em Conceição
+  (Sapucaia) e registrada em 23 de janeiro de 1890, declarada pelo pai. Nomeia
+  ambos os pais — João Muniz Bittencourt (P-0019) e Suzana Rita Brandão (P-0020) —
+  portanto irmã de Deocleciano (P-0012); e os dois casais de avós: paternos Manoel
+  Muniz Bittencourt (P-0042) e Francisca Roza do Espirito Santo (P-0047), e
+  maternos José do Rego Brandão (P-0040) e Rita Ignacia de Jesus (P-0041) —
+  corroborando as famílias F-0020 e F-0019. PROVADO. Registrada como filha
+  documentada em F-0007; não modelada como entidade pessoa, sem evento criado.
+reliability:
+  assessment: >-
+    Direct primary civil-register evidence that Ritta is a legitimate daughter of
+    João Muniz Bittencourt and Suzana Rita Brandão (a sibling of Deocleciano). The
+    same entry names both grandparent couples, corroborating F-0020 (paternal) and
+    F-0019 (maternal). The informant is the child's own father.
+  informant: >-
+    The child's father, João Muniz Bittencourt (declarant), Sapucaia, 23 January
+    1890.
+  limitations: >-
+    Handwritten register; the second witness's given name and the distance in
+    leagues are slightly uncertain in the cursive. Ritta is a collateral (a
+    sibling of Deocleciano) recorded as a documented child, not modelled as a
+    person entity. The surname is not written out in the act (the child is named
+    only "Ritta"); "Muniz Bittencourt" follows the family.
+digital_file:
+  path: >-
+    evidence/civil/CIV-0041-ritta-muniz-bittencourt-birth-1890-sapucaia.jpg
+  sha256: 3362b5b57d29857d174b99740c639839084ec0f920fa7dd2a5ba3bf87191ff69
+linked_people:
+- P-0019
+- P-0020
+- P-0042
+- P-0047
+- P-0040
+- P-0041
+linked_families:
+- F-0007
+- F-0020
+- F-0019
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Evidence for a documented collateral child (Ritta Muniz Bittencourt, F-0007
+    documented_children): a daughter of João Muniz Bittencourt (P-0019) and Suzana
+    Rita Brandão (P-0020), born 15 January 1890 at Conceição, Sapucaia (RJ), and a
+    sibling of Deocleciano (P-0012). Not modelled as a person entity; no event
+    created. Public record (1890). The act also names both grandparent couples —
+    paternal Manoel Muniz Bittencourt (P-0042) + Francisca Roza do Espirito Santo
+    (P-0047) and maternal José do Rego Brandão (P-0040) + Rita Ignacia de Jesus
+    (P-0041) — corroborating F-0020 and F-0019.
