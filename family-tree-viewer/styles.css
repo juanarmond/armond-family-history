@@ -909,7 +909,10 @@ a:focus-visible {
 /* The person panel's header actions — the "?" (About this card) beside the × close. */
 .detail-head-actions { display: flex; flex: 0 0 auto; gap: .5rem; align-items: center; }
 
-.guide-panel { width: min(40rem, 94vw); }
+/* The guide sits above every other panel (detail z20, portrait z21) so "About this
+   card / portrait" layers over the panel it explains rather than behind it. */
+.guide-panel { width: min(40rem, 94vw); z-index: 30; }
+#guide-backdrop { z-index: 29; }
 .guide-content { color: var(--ink); }
 .guide-intro {
   margin: 0 0 1.4rem;
@@ -1570,6 +1573,7 @@ body.is-mobile .portrait a.portrait-maplink, body.is-mobile .story-content a.por
   padding: .9rem 1.3rem; border-bottom: 1px solid var(--rule); background: var(--paper);
 }
 .portrait-panel-heading { font-family: var(--serif); font-size: 1rem; color: var(--ink); }
+.portrait-panel-actions { display: flex; flex: 0 0 auto; gap: .4rem; align-items: center; }
 .portrait-close {
   display: grid;
   flex: 0 0 auto;

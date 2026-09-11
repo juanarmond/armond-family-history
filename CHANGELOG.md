@@ -16,11 +16,14 @@ overlay shell — centred card on desktop, full-screen sheet on mobile):
   the panel backdrops, so it never overlaps the right-edge panels) opens the
   bilingual **"How to explore"** navigation guide. The mobile focus-view nav row
   keeps its own compact "?".
-- **A second "?" on the person panel** (beside the × close) opens **"About this
-  card"** — a bilingual section-by-section explainer of that page (Biography,
-  Relationship, Overview, Events, Family, Sources, and the ⚠ uncertain-reading
-  banner). It layers over the open card rather than replacing it. One guide panel
-  serves both topics (`nav` / `card`), with a dynamic head.
+- **A "?" on the person panel and on the portrait** (each beside its × close) opens
+  a page-specific explainer: **"About this card"** (Biography, Relationship,
+  Overview, Events, Family, Sources, and the ⚠ uncertain-reading banner) and **"About
+  this portrait"** (the evidence tags `[PROVEN]`/`[LEAD]`/…, the source codes
+  `CIV-`/`PAR-`/…, what the dossier contains, and card-vs-portrait). Both are kept
+  balanced — a short intro plus a few rows, not a manual — and layer over the panel
+  they explain rather than replacing it. One guide panel serves all three topics
+  (`nav` / `card` / `portrait`) with a dynamic head, raised above the other panels.
 - **First-run auto-open:** the navigation guide shows once on a first visit (flagged
   in `localStorage`, key `armond-viewer-guide-seen-v1`), skipped when arriving on a
   deep link (a shared person/record). The "?" buttons always reopen it afterwards.

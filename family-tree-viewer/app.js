@@ -1002,13 +1002,23 @@ function openPortrait(person) {
   const heading = document.createElement("div");
   heading.className = "portrait-panel-heading";
   heading.textContent = `${t("detail.portrait")} — ${person.name}`;
+  const helpBtn = document.createElement("button");
+  helpBtn.type = "button";
+  helpBtn.className = "portrait-close portrait-help";
+  helpBtn.textContent = "?";
+  helpBtn.setAttribute("aria-label", t("guide.portrait.button"));
+  helpBtn.title = t("guide.portrait.button");
+  helpBtn.addEventListener("click", () => openGuide("portrait"));
   const closeBtn = document.createElement("button");
   closeBtn.type = "button";
   closeBtn.className = "portrait-close";
   closeBtn.textContent = "×";
   closeBtn.setAttribute("aria-label", t("reader.close"));
   closeBtn.addEventListener("click", closePortrait);
-  header.append(heading, closeBtn);
+  const actions = document.createElement("div");
+  actions.className = "portrait-panel-actions";
+  actions.append(helpBtn, closeBtn);
+  header.append(heading, actions);
 
   const body = document.createElement("div");
   body.className = "portrait portrait-panel-body";
@@ -1019,7 +1029,10 @@ function openPortrait(person) {
   if (elements.detailsPanel) elements.detailsPanel.classList.add("with-portrait");
 
   portraitKeyHandler = (event) => {
-    if (event.key === "Escape") closePortrait();
+    if (event.key !== "Escape") return;
+    // A help overlay on top of the portrait takes Escape first.
+    if (elements.guidePanel && !elements.guidePanel.hidden) return;
+    closePortrait();
   };
   document.addEventListener("keydown", portraitKeyHandler);
 }
@@ -1788,6 +1801,26 @@ function renderGuideNav(container, name) {
   container.append(legend);
 }
 
+// The "About this portrait" help — explains the in-depth research narrative and
+// its notation (evidence tags, source codes). Kept balanced: a short intro + a few
+// rows, not a manual.
+function renderGuidePortrait(container) {
+  const intro = document.createElement("p");
+  intro.className = "guide-intro";
+  intro.textContent = t("guide.portrait.intro");
+  container.append(intro);
+
+  const defs = document.createElement("div");
+  defs.className = "guide-defs";
+  defs.append(
+    guideDef(t("guide.portrait.tags.label"), t("guide.portrait.tags.body")),
+    guideDef(t("guide.portrait.sources.label"), t("guide.portrait.sources.body")),
+    guideDef(t("guide.portrait.sections.label"), t("guide.portrait.sections.body")),
+    guideDef(t("guide.portrait.vs.label"), t("guide.portrait.vs.body")),
+  );
+  container.append(defs);
+}
+
 // The "About this card" help — names each section of the open person panel.
 function renderGuideCard(container, name) {
   const intro = document.createElement("p");
@@ -1817,6 +1850,9 @@ function renderGuide() {
   if (guideTopic === "card") {
     setGuideHead(t("guide.card.eyebrow"), t("guide.card.title"), t("guide.card.subtitle"));
     renderGuideCard(container, name);
+  } else if (guideTopic === "portrait") {
+    setGuideHead(t("guide.portrait.eyebrow"), t("guide.portrait.title"), t("guide.portrait.subtitle"));
+    renderGuidePortrait(container);
   } else {
     setGuideHead(t("guide.eyebrow"), t("guide.title"), t("guide.subtitle"));
     renderGuideNav(container, name);
@@ -1845,7 +1881,7 @@ function syncHelpFab() {
 // the detail panel here).
 function openGuide(topic = "nav") {
   if (!elements.guidePanel) return;
-  guideTopic = topic === "card" ? "card" : "nav";
+  guideTopic = ["card", "portrait"].includes(topic) ? topic : "nav";
   closeUpdates();
   closeStory();
   const opening = elements.guidePanel.hidden;
