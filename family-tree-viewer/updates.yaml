@@ -15,6 +15,24 @@
 #            opens the record. Only reference deceased people.
 
 updates:
+  - date: "2026-09-11"
+    kind: milestone
+    title: "Three more of Iris Bohrer's siblings are documented — Senira, Alício and Ivanyr — from their own birth and death records"
+    title_pt: "Mais três irmãos de Iris Bohrer estão documentados — Senira, Alício e Ivanyr — a partir de seus próprios registros de nascimento e óbito"
+    primary: CIV-0038
+    links: [P-0007, CIV-0038]
+
+  - date: "2026-09-11"
+    kind: milestone
+    title: "Family rosters filled in: source-named siblings and children now appear on each person's page"
+    title_pt: "Listas familiares completadas: irmãos e filhos nomeados em registros agora aparecem na página de cada pessoa"
+    links: [P-0031, P-0047]
+
+  - date: "2026-09-11"
+    kind: milestone
+    title: "The family portraits were deepened across every line — richer, fully-sourced life stories in English and Portuguese"
+    title_pt: "Os retratos da família foram aprofundados em todas as linhas — histórias de vida mais ricas e totalmente documentadas, em inglês e português"
+
   - date: "2026-09-07"
     kind: milestone
     title: "All four grandparents' deaths are now documented from their civil death certificates"
