@@ -5,6 +5,19 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — Sources panel: order each group by life event (birth/baptism → marriage → death) (2026-09-11)
+
+Within a person's **Fontes** panel, the three groups now sort by the certificate's own
+life-event type — **birth/baptism → marriage → death** — in both *own records* and
+*records that mention this person*, and *context records* get a defined order (probate →
+government → official index → census → … → newspaper → published genealogy → collaborative
+tree → family recollection). The previous logic ranked a source by the *minimum* rank of
+its linked events, so a death certificate linked to a corroborating birth event — or a
+baptism modelled internally as a "birth" event — mis-sorted; ranking now uses the record's
+own type (`vitalFromText` on `record_type`/title), falling back to events then category.
+Viewer-only (`data-loader.js`).
+
+
 ### Fixed — Viewer mobile: float the person-panel "?"/× while scrolling (2026-09-11)
 
 On the full-screen mobile person page, the header (with the "?" *About this card* and the

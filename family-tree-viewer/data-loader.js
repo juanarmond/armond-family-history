@@ -448,6 +448,33 @@ export function projectTreeData({ people, families, events, places, sources, fan
     institutional_record: 6, other: 6,
     newspaper: 7, published_genealogy: 7, collaborative_tree: 7, family_recollection: 7,
   };
+  // Ordering of the "context" group (records neither about the person's own life nor
+  // vital certificates that merely mention them): closest-to-a-life-event first (probate/
+  // inventory), then the civic/administrative layer, then press / compilations /
+  // family recollection last.
+  const CONTEXT_RANK = {
+    court_or_probate: 1, government_record: 2, official_index: 3, census: 4,
+    military: 5, immigration: 6, naturalisation: 6, cemetery: 7, institutional_record: 8,
+    newspaper: 9, published_genealogy: 10, collaborative_tree: 11, family_recollection: 12,
+    other: 13,
+  };
+  // A source's vital rank inferred from its record type/title (birth 1 · baptism 2 ·
+  // marriage 3 · death 4 · burial 5). Used so a vital certificate with NO modelled event
+  // of its own — e.g. a collateral child's birth/death record that only names the person
+  // as a parent — still sorts by its life-event type instead of dropping to the bottom of
+  // the "mentions" group.
+  const VITAL_KEYWORDS = [
+    [1, /(birth|nascimento|nascid|\bnasc)/i],
+    [2, /(bapti|batism|baptis|christen)/i],
+    [3, /(marriage|casamento|matrim|wedding|banns|proclama|cons[óo]rcio)/i],
+    [4, /(death|[óo]bito|falec|defun)/i],
+    [5, /(burial|sepult|enterr|funeral)/i],
+  ];
+  const vitalFromText = (source) => {
+    const text = `${source.record_type || ""} ${source.title || ""} ${source.title_pt || ""}`;
+    for (const [rank, re] of VITAL_KEYWORDS) if (re.test(text)) return rank;
+    return null;
+  };
   const yearOf = (date) => {
     if (!date || typeof date !== "object") return null;
     if (date.kind === "exact" && typeof date.value === "string") return Number(date.value.slice(0, 4));
@@ -464,13 +491,22 @@ export function projectTreeData({ people, families, events, places, sources, fan
   const sourceRank = {};
   const sourceYear = {};
   for (const [sid, source] of Object.entries(sources)) {
-    let rank = null;
     let year = null;
     for (const event of eventsBySource[sid] || []) {
-      const r = EVENT_RANK[event.event_type] ?? 6;
-      if (rank === null || r < rank) rank = r;
       const y = yearOf(event.date);
       if (y && (year === null || y < year)) year = y;
+    }
+    // Rank a source by its OWN record type first (what certificate it IS — birth /
+    // baptism / marriage / death), so a death cert linked to a corroborating birth
+    // event, or a baptism modelled internally as a "birth" event, still sorts by the
+    // certificate itself rather than by the minimum rank of its linked events. Fall
+    // back to the linked events, then the record category.
+    let rank = vitalFromText(source);
+    if (rank === null) {
+      for (const event of eventsBySource[sid] || []) {
+        const r = EVENT_RANK[event.event_type] ?? 6;
+        if (rank === null || r < rank) rank = r;
+      }
     }
     if (rank === null) rank = CATEGORY_RANK[source.record_category] ?? 6;
     if (year === null) year = yearOf(source.event_date) ?? yearOf(source.registration_date);
@@ -655,9 +691,10 @@ export function projectTreeData({ people, families, events, places, sources, fan
     //   30     non-vital context not about the person (probate, PUB, GOV, press, …)
     const VITAL_CATS = new Set(["civil_registration", "parish_register"]);
     const orderRank = (sid) => {
-      if (ownRank[sid] !== undefined) return ownRank[sid];
+      if (ownRank[sid] !== undefined) return ownRank[sid];               // own: birth/baptism→marriage→death→burial
       const cat = (sources[sid] || {}).record_category;
-      return VITAL_CATS.has(cat) ? 10 + (sourceRank[sid] ?? 6) : 30;
+      if (VITAL_CATS.has(cat)) return 10 + (sourceRank[sid] ?? 6);       // mention: by vital type (same order)
+      return 30 + (CONTEXT_RANK[cat] ?? 20);                             // context: probate → civic → press → recollection
     };
     // The three FONTES tiers, exposed as an explicit per-person label so the
     // viewer can head each group without re-deriving the rank logic:
