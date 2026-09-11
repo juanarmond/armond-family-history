@@ -1847,3 +1847,15 @@ and evidence images, and never laundering a `[LEAD]`.
 (PAR-0056/0058, child baptisms) into the relevant entities' structured `source_ids`/`event_ids`
 and family `documented_children`; reconcile the flagged research-vs-source conflicts; consider a
 re-read of PAR-0067's rank word.
+
+## 2026-09-11 — Read-only web pass on Simplício (P-0016) parentage — confirmatory negative
+
+Ran an authorized read-only public-web pass (WebSearch/WebFetch) on the family's central gap,
+Simplício José Ferreira Armond's (P-0016) unknown parentage. Sources: alemparaibahistoria.blogspot.com
+("Ferreira Armond — Uma Família Mineira", Mauro Senra) and jornalrol.com.br (Afrânio-Mello Armond note).
+Result: no new information — both only re-state leads already held (the daughter Marfisa's 15 Feb 1873
+Piacatuba/Leopoldina baptism naming "Simplicio Ferreira Armond e Elisa Balbina Tolledo"; Eliza = Eliza
+Balbina de Toledo, already modelled as P-0017 with parentage confirmed to P-0054×P-0055 via PRB-0006).
+The blog does not name the married Simplício's own parents (only the unrelated suicide-namesake's). The
+decisive record remains the archive-gated Simplício × Elisa Balbina marriage. Recorded in
+data/record-coverage.yaml (P-0016) with a "do not re-run" note; no data changed, nothing promoted.
