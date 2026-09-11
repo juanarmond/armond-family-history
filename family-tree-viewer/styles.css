@@ -877,14 +877,33 @@ a:focus-visible {
 
 /* How-to guide — a navigation-first help overlay. Reuses .story-panel / .story-head
    (centred card on desktop, full-screen sheet on mobile); this styles only its body. */
+/* A compact circular "?" — the universal help glyph, set apart from the action
+   pills rather than competing with them (the word "Help" lives in the tooltip). */
 .toolbar .guide-button {
   flex: 0 0 auto;
   align-self: flex-end;
+  display: grid;
+  place-items: center;
+  width: 2.85rem;
+  height: 2.85rem;
+  min-height: 2.85rem;
+  padding: 0;
+  border: 1px solid var(--rule-strong);
+  border-radius: 50%;
   background: var(--card);
-  color: var(--green-deep);
-  border-color: var(--gold);
+  color: var(--muted);
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
 }
-.toolbar .guide-button:hover { background: var(--gold-soft); box-shadow: 0 0 0 1px var(--gold), var(--shadow-xs); }
+.toolbar .guide-button:hover {
+  background: var(--gold-soft);
+  border-color: var(--gold);
+  color: var(--green-deep);
+  box-shadow: none;
+}
 
 .guide-panel { width: min(40rem, 94vw); }
 .guide-content { color: var(--ink); }
@@ -1664,6 +1683,14 @@ body.is-mobile .portrait a.portrait-maplink, body.is-mobile .story-content a.por
   cursor: pointer;
 }
 .mobile-nav-home { margin-left: auto; }
+/* Compact circular "?" help glyph, matching the pill height of Back / Home. */
+.mobile-nav-help {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  padding: 0;
+  font-weight: 700;
+}
 .mobile-nav-btn:active { transform: translateY(1px); }
 
 .mobile-focus-head {

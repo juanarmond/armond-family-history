@@ -723,6 +723,9 @@ function applyStaticTranslations() {
   for (const el of document.querySelectorAll("[data-i18n-placeholder]")) {
     el.setAttribute("placeholder", t(el.getAttribute("data-i18n-placeholder")));
   }
+  for (const el of document.querySelectorAll("[data-i18n-title]")) {
+    el.setAttribute("title", t(el.getAttribute("data-i18n-title")));
+  }
 }
 
 function setLocale(locale) {
@@ -2095,7 +2098,9 @@ function renderMobileFocus() {
   const help = document.createElement("button");
   help.type = "button";
   help.className = "mobile-nav-btn mobile-nav-help";
-  help.textContent = `? ${t("mobile.help")}`;
+  help.textContent = "?";
+  help.setAttribute("aria-label", t("mobile.help"));
+  help.title = t("mobile.help");
   help.addEventListener("click", openGuide);
   nav.append(help);
   container.append(nav);

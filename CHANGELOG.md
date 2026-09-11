@@ -11,8 +11,10 @@ A navigation-first help layer so family members can find their way around, on bo
 layouts, styled entirely with the existing design tokens (reuses the Family Story
 overlay shell — centred card on desktop, full-screen sheet on mobile):
 
-- **"? Help" button** in the desktop toolbar and in the mobile focus-view nav row —
-  opens a bilingual **"How to explore"** guide anywhere in the app.
+- **Compact circular "?" help icon** (the universal help glyph, with a bilingual
+  tooltip/`aria-label` rather than a redundant "? Help" label) in the desktop
+  toolbar and the mobile focus-view nav row — opens a bilingual **"How to explore"**
+  guide anywhere in the app.
 - **First-run auto-open:** the guide shows once on a first visit (flagged in
   `localStorage`, key `armond-viewer-guide-seen-v1`), skipped when arriving on a
   deep link (a shared person/record). The button always reopens it afterwards.
