@@ -1665,7 +1665,9 @@ body.is-mobile .portrait a.portrait-maplink, body.is-mobile .story-content a.por
   .toolbar .field-gen,
   .toolbar .search-field,
   .toolbar .field-lang,
-  .toolbar #reset-view { flex-basis: 100%; }
+  .toolbar #reset-view,
+  .toolbar .updates-button,
+  .toolbar .story-button { flex-basis: 100%; }
   .summary { grid-template-columns: 1fr 1fr; }
   .tree-viewport { padding: 2rem 1rem 3rem; }
 }
