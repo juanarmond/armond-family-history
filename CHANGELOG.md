@@ -16,10 +16,11 @@ not part of the Pages build): the country comes from Cloudflare's edge
 counter, with the visitor's own number remembered in `localStorage` so reloads
 never re-increment it. Cookieless, country-level only, nothing identifying stored.
 
-Front-end is gated on `VISITOR_API` in `family-tree-viewer/app.js`: while it is
-empty the greeting stays hidden and nothing breaks. It goes live once the owner
-deploys the Worker (see `workers/visitor-counter/README.md`) and the returned
-`*.workers.dev` URL is filled in. Viewer + infra only; no genealogical data touched.
+Front-end is gated on `VISITOR_API` in `family-tree-viewer/app.js`. The owner
+deployed the Worker (`family-visitor-counter.juan-armond.workers.dev`, KV binding
+`COUNTER` → `family-visitors`) and the URL is wired in, so the greeting is live
+once Pages redeploys. Verified: the endpoint returns `{"country":…,"total":…}`.
+Viewer + infra only; no genealogical data touched.
 
 ### Added — Cloudflare Web Analytics (cookieless visitor stats) on the public site (2026-09-12)
 

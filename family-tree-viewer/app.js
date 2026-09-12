@@ -10,7 +10,7 @@ const GUIDE_STORAGE_KEY = "armond-viewer-guide-seen-v1";
 // visitor #N"). Powered by a small Cloudflare Worker + KV the owner deploys (see
 // workers/visitor-counter/): the country comes from Cloudflare's edge, the number
 // from a KV counter. Leave empty to disable — the greeting simply stays hidden.
-const VISITOR_API = "";
+const VISITOR_API = "https://family-visitor-counter.juan-armond.workers.dev";
 const VISITOR_NUM_KEY = "armond-viewer-visitor-number";
 
 const state = {
