@@ -1638,6 +1638,32 @@ body.is-mobile .portrait a.portrait-maplink, body.is-mobile .story-content a.por
 }
 .site-footer::before { content: "\2726\00a0\00a0"; color: var(--gold); }
 
+/* ---------- Visitor greeting (live flag + running count) ---------- */
+.visitor-welcome {
+  max-width: var(--shell-max);
+  margin: .55rem auto 0;
+  padding: 0 1.5rem;
+  color: var(--muted);
+  text-align: center;
+  font-family: var(--sans);
+  font-size: .82rem;
+  letter-spacing: .01em;
+}
+.visitor-welcome strong { color: var(--ink); font-weight: 600; }
+.visitor-flag {
+  display: inline-block;
+  width: 20px;
+  height: 15px;
+  margin: 0 .18rem;
+  vertical-align: -2px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(41, 36, 26, .12);
+}
+.visitor-sep { opacity: .55; }
+@media (max-width: 620px) {
+  .visitor-welcome { font-size: .78rem; }
+}
+
 /* ---------- Motion ---------- */
 
 @media (prefers-reduced-motion: no-preference) {

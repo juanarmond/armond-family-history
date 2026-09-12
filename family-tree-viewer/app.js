@@ -6,6 +6,13 @@ const LANG_STORAGE_KEY = "armond-viewer-lang";
 // "? Help" button always reopens it on demand). Bump the suffix to re-introduce it.
 const GUIDE_STORAGE_KEY = "armond-viewer-guide-seen-v1";
 
+// Live visitor greeting ("you're visiting from <flag> <country> · you are
+// visitor #N"). Powered by a small Cloudflare Worker + KV the owner deploys (see
+// workers/visitor-counter/): the country comes from Cloudflare's edge, the number
+// from a KV counter. Leave empty to disable — the greeting simply stays hidden.
+const VISITOR_API = "";
+const VISITOR_NUM_KEY = "armond-viewer-visitor-number";
+
 const state = {
   data: null,
   rootId: "P-0001",
@@ -21,6 +28,8 @@ const state = {
   // Mobile "focus view": the person currently centred, and the back stack.
   focusId: "P-0001",
   focusHistory: [],
+  // Live visitor greeting payload once fetched: { number, country }.
+  visitor: null,
 };
 
 // Active translator; reassigned by setLocale. UI code calls t / tn / vocab.
@@ -155,6 +164,7 @@ const elements = {
   guideEyebrow: document.querySelector("#guide-eyebrow"),
   guideTitle: document.querySelector("#guide-title"),
   guideSubtitle: document.querySelector("#guide-subtitle"),
+  visitorWelcome: document.querySelector("#visitor-welcome"),
 };
 
 const statusColours = {
@@ -734,6 +744,67 @@ function applyStaticTranslations() {
   }
 }
 
+// --- Live visitor greeting -------------------------------------------------
+// Render the cached { number, country } into #visitor-welcome in the active
+// locale. Country name via Intl.DisplayNames; flag via a flagcdn image (an
+// external CDN used only for the *live visitor's own* country — deliberately
+// distinct from the evidence-based FLAG_SVGS used for recorded nationality).
+// No-ops (stays hidden) until initVisitorWelcome has data.
+function renderVisitorWelcome() {
+  const el = elements.visitorWelcome;
+  if (!el || !state.visitor || !state.visitor.number) return;
+  const { number, country } = state.visitor;
+  const code = /^[A-Za-z]{2}$/.test(country || "") ? country.toUpperCase() : null;
+  const localeTag = state.locale === "pt-BR" ? "pt-BR" : "en";
+  let countryName = code;
+  try {
+    if (code) countryName = new Intl.DisplayNames([localeTag], { type: "region" }).of(code) || code;
+  } catch { /* Intl.DisplayNames unavailable — fall back to the code */ }
+  const numberText = new Intl.NumberFormat(localeTag).format(number);
+
+  el.textContent = "";
+  if (code) {
+    el.append(t("visitor.from") + " ");
+    const flag = document.createElement("img");
+    flag.className = "visitor-flag";
+    flag.src = `https://flagcdn.com/20x15/${code.toLowerCase()}.png`;
+    flag.srcset = `https://flagcdn.com/40x30/${code.toLowerCase()}.png 2x`;
+    flag.width = 20;
+    flag.height = 15;
+    flag.alt = "";
+    flag.loading = "lazy";
+    el.append(flag, " ");
+    const cname = document.createElement("strong");
+    cname.textContent = countryName;
+    el.append(cname);
+    const sep = document.createElement("span");
+    sep.className = "visitor-sep";
+    sep.textContent = " · ";
+    el.append(sep);
+  }
+  el.append(t("visitor.number", { number: numberText }));
+  el.hidden = false;
+}
+
+async function initVisitorWelcome() {
+  if (!VISITOR_API || !elements.visitorWelcome) return;
+  let stored = null;
+  try { stored = localStorage.getItem(VISITOR_NUM_KEY); } catch { /* storage unavailable */ }
+  const endpoint = VISITOR_API + (stored ? "" : "?new=1");
+  try {
+    const res = await fetch(endpoint, { cache: "no-store" });
+    if (!res.ok) return;
+    const data = await res.json();
+    const number = stored ? Number(stored) : data.number;
+    if (!Number.isFinite(number) || number <= 0) return;
+    if (!stored) {
+      try { localStorage.setItem(VISITOR_NUM_KEY, String(number)); } catch { /* ignore */ }
+    }
+    state.visitor = { number, country: data.country || "" };
+    renderVisitorWelcome();
+  } catch { /* offline, blocked, or Worker unset — leave the greeting hidden */ }
+}
+
 function setLocale(locale) {
   const next = SUPPORTED_LOCALES.includes(locale) ? locale : "en";
   state.locale = next;
@@ -741,6 +812,7 @@ function setLocale(locale) {
   try { localStorage.setItem(LANG_STORAGE_KEY, next); } catch { /* storage unavailable */ }
   if (elements.languageSelect) elements.languageSelect.value = next;
   applyStaticTranslations();
+  renderVisitorWelcome();
   if (elements.guidePanel && !elements.guidePanel.hidden) renderGuide();
   if (elements.storyPanel && !elements.storyPanel.hidden) openStory();
   if (elements.updatesPanel && !elements.updatesPanel.hidden) openUpdates();
@@ -2517,6 +2589,8 @@ async function initialise() {
   i18n = createI18n(state.locale);
   if (elements.languageSelect) elements.languageSelect.value = state.locale;
   applyStaticTranslations();
+  // Independent of the tree data — fetch in parallel; failures stay silent.
+  initVisitorWelcome();
   try {
     const response = await fetch("/api/tree", { cache: "no-store" });
     if (!response.ok) throw new Error(t("error.httpStatus", { status: response.status }));

@@ -5,6 +5,22 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Home-page visitor greeting: live flag + running count (2026-09-12)
+
+The home page can now greet each visitor with their country flag and a running
+visitor number ("Welcome — you're visiting from 🇧🇷 Brazil · you are visitor
+#N"), bilingual (EN/PT). Because a static GitHub Pages site cannot hold a running
+count, this is powered by a small **Cloudflare Worker + KV** (`workers/visitor-counter/`,
+not part of the Pages build): the country comes from Cloudflare's edge
+(`request.cf.country`) — no third-party geo-IP service — and the number from a KV
+counter, with the visitor's own number remembered in `localStorage` so reloads
+never re-increment it. Cookieless, country-level only, nothing identifying stored.
+
+Front-end is gated on `VISITOR_API` in `family-tree-viewer/app.js`: while it is
+empty the greeting stays hidden and nothing breaks. It goes live once the owner
+deploys the Worker (see `workers/visitor-counter/README.md`) and the returned
+`*.workers.dev` URL is filled in. Viewer + infra only; no genealogical data touched.
+
 ### Added — Cloudflare Web Analytics (cookieless visitor stats) on the public site (2026-09-12)
 
 Added a privacy-first, cookieless analytics beacon to the viewer so the owner can
