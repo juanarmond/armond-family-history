@@ -5,6 +5,16 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Cloudflare Web Analytics (cookieless visitor stats) on the public site (2026-09-12)
+
+Added a privacy-first, cookieless analytics beacon to the viewer so the owner can
+see **total visitors and their country** without cookies, consent banners, or any
+personal data being stored — consistent with the project's privacy posture. A
+bilingual footer line discloses it (EN/PT). The `data-cf-beacon` token is a
+placeholder (`REPLACE_WITH_CLOUDFLARE_TOKEN`) until the owner creates the free
+Cloudflare Web Analytics property and supplies the real token; analytics is
+inactive until then. Viewer-only (`index.html`, `i18n.js`); no data touched.
+
 ### Added — Five proven great-grandparent-siblings catalogued from the 2026-09-11 drop (2026-09-11)
 
 Four parallel agents (one per family, disjoint ID blocks) value-gated the drop's
