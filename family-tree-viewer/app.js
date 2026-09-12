@@ -762,9 +762,13 @@ function renderVisitorWelcome() {
   } catch { /* Intl.DisplayNames unavailable — fall back to the code */ }
   const numberText = new Intl.NumberFormat(localeTag).format(number);
 
+  // Two clauses wrapped in .visitor-part spans so narrow screens can stack them
+  // onto their own centred lines (CSS) instead of wrapping mid-phrase.
   el.textContent = "";
   if (code) {
-    el.append(t("visitor.from") + " ");
+    const where = document.createElement("span");
+    where.className = "visitor-part";
+    where.append(t("visitor.from") + " ");
     const flag = document.createElement("img");
     flag.className = "visitor-flag";
     flag.src = `https://flagcdn.com/20x15/${code.toLowerCase()}.png`;
@@ -773,16 +777,20 @@ function renderVisitorWelcome() {
     flag.height = 15;
     flag.alt = "";
     flag.loading = "lazy";
-    el.append(flag, " ");
+    where.append(flag, " ");
     const cname = document.createElement("strong");
     cname.textContent = countryName;
-    el.append(cname);
+    where.append(cname);
+    el.append(where);
     const sep = document.createElement("span");
     sep.className = "visitor-sep";
     sep.textContent = " · ";
     el.append(sep);
   }
-  el.append(t("visitor.number", { number: numberText }));
+  const who = document.createElement("span");
+  who.className = "visitor-part";
+  who.append(t("visitor.number", { number: numberText }));
+  el.append(who);
   el.hidden = false;
 }
 

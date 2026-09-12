@@ -1659,9 +1659,14 @@ body.is-mobile .portrait a.portrait-maplink, body.is-mobile .story-content a.por
   border-radius: 2px;
   box-shadow: 0 0 0 1px rgba(41, 36, 26, .12);
 }
+.visitor-part { white-space: nowrap; }
 .visitor-sep { opacity: .55; }
 @media (max-width: 620px) {
-  .visitor-welcome { font-size: .78rem; }
+  .visitor-welcome { font-size: .8rem; line-height: 1.5; margin-bottom: .15rem; }
+  /* Stack the two clauses onto their own centred lines instead of wrapping
+     mid-phrase; the middot separator is only needed on the single-line layout. */
+  .visitor-welcome .visitor-part { display: block; white-space: normal; }
+  .visitor-welcome .visitor-sep { display: none; }
 }
 
 /* ---------- Motion ---------- */
