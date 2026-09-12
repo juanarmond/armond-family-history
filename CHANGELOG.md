@@ -10,10 +10,11 @@ also remain traceable through source records and research logs.
 Added a privacy-first, cookieless analytics beacon to the viewer so the owner can
 see **total visitors and their country** without cookies, consent banners, or any
 personal data being stored — consistent with the project's privacy posture. A
-bilingual footer line discloses it (EN/PT). The `data-cf-beacon` token is a
-placeholder (`REPLACE_WITH_CLOUDFLARE_TOKEN`) until the owner creates the free
-Cloudflare Web Analytics property and supplies the real token; analytics is
-inactive until then. Viewer-only (`index.html`, `i18n.js`); no data touched.
+bilingual footer line discloses it (EN/PT). The owner created the free Cloudflare
+Web Analytics property (hostname `juanarmond.github.io`) and the live
+`data-cf-beacon` token is wired in, so analytics is active once Pages redeploys;
+total visitors + country appear in the Cloudflare dashboard (Analytics → Web
+Analytics). Viewer-only (`index.html`, `i18n.js`); no data touched.
 
 ### Added — Five proven great-grandparent-siblings catalogued from the 2026-09-11 drop (2026-09-11)
 
