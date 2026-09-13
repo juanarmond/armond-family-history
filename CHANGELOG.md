@@ -5,6 +5,17 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Home-screen app icon (iOS "Add to Home Screen" + Android install) (2026-09-13)
+
+Added a proper opaque PNG **apple-touch-icon** (180×180) so saving the site to an
+iPhone home screen shows the family emblem — the gold-ringed family-tree seal with
+its star — on the deep-green brand field, instead of a blank/screenshot tile (iOS
+ignores the SVG favicon and needs an opaque PNG). Also added a `site.webmanifest`
+with 192/512 (incl. maskable) icons for Android/Chrome install, an
+`apple-mobile-web-app-title` ("Quatro Rios") for the tile label, and a
+`theme-color` (#2f5d43). Source SVG kept in `assets/app-icon.svg` (not shipped).
+Viewer assets only; no genealogical data touched.
+
 ### Added — Home-page visitor greeting: live flag + running count (2026-09-12)
 
 The home page can now greet each visitor with their country flag and a running
