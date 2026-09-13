@@ -36,20 +36,23 @@ notes:
     diferentes e não há prova de que fossem parentes próximos. A compilação afirma
     "não há evidência de parentesco próximo entre os dois grupos."
 - text: >-
-    Father named as "certo Jacob Borer, de Grindel, Soleure" in the compilation
-    (PUB-0003). The qualifier "certo" reflects the compiler's own hedged confidence
-    in this attribution. The Grindel parish register images in the retrieval drop
-    show a "Joannes Borer × Ana Maria Werli" baptising a daughter in 1782 — a
-    strong lead for Laurent's parentage but not yet confirmed as the same individual.
-    No parent family in this repository; the father is noted here only.
+    Father established as Jacob Borer of Grindel (P-0100; parentage family F-0049) by
+    Laurent's own 1820 Nova Friburgo marriage (PAR-0060), which names "Jacobo Borer,
+    natural de Grindel, no cantão de Soleure" as his father. This supersedes the
+    compilation's hedged "certo Jacob Borer, de Grindel" (PUB-0003) and the earlier,
+    unconfirmed "Joannes Borer × Ana Maria Werli" Grindel-register lead. Laurent's mother
+    is not named in PAR-0060 and remains unlocated [OPEN]. Jacob Borer of Grindel (P-0100)
+    is distinct from Jacob Bohrer of Erschwil (P-0050) — do not conflate the two Solothurn
+    Borer lines.
   text_pt: >-
-    Pai nomeado como "certo Jacob Borer, de Grindel, Soleure" na compilação
-    (PUB-0003). O qualificador "certo" reflete a própria confiança comedida do
-    compilador nessa atribuição. As imagens do registro paroquial de Grindel no
-    drop de recuperação mostram um "Joannes Borer × Ana Maria Werli" batizando uma
-    filha em 1782 — uma pista forte para a filiação de Laurent, mas ainda não
-    confirmada como sendo o mesmo indivíduo. Nenhuma família de pais neste
-    repositório; o pai é apenas registrado aqui.
+    Pai estabelecido como Jacob Borer de Grindel (P-0100; família parental F-0049) pelo
+    próprio casamento de Laurent em 1820, em Nova Friburgo (PAR-0060), que nomeia "Jacobo
+    Borer, natural de Grindel, no cantão de Soleure" como seu pai. Isso supera o hedge da
+    compilação "certo Jacob Borer, de Grindel" (PUB-0003) e a anterior pista, não
+    confirmada, do registro de Grindel "Joannes Borer × Ana Maria Werli". A mãe de Laurent
+    não é nomeada em PAR-0060 e permanece não localizada [OPEN]. Jacob Borer de Grindel
+    (P-0100) é distinto de Jacob Bohrer de Erschwil (P-0050) — não confundir as duas linhas
+    Borer de Solothurn.
 - text: >-
     Emigrated to Brazil in 1819 on the ship Heureux Voyage. Settled at Nova Friburgo,
     Rio de Janeiro, occupying Casa 73, Lote 86. Married Anna Maria Werhly (P-0069)
@@ -71,14 +74,14 @@ profile: >-
   strong-evidence; E-0060). A competing "27 July 1797" appears only in blogs our
   repository does not hold; the held compilation reads February. [LEAD for July]
 
-  - **Father:** named by the compiler as "*certo* Jacob Borer, de Grindel, Soleure" —
-  the qualifier "certo" is the compiler's own hedge, and no parent family is modelled
-  here. A Grindel register entry for a "Joannes Borer × Ana Maria Werli" (daughter
-  baptised 1782) is a strong lead for his parentage but is not confirmed as the same man
-  [LEAD]. No held source names his mother [OPEN]; a FamilySearch collaborative tree
+  - **Father:** **Jacob Borer of Grindel** (P-0100; parentage family F-0049), named
+  "Jacobo Borer, natural de Grindel, no cantão de Soleure" in Laurent's own 1820 Nova
+  Friburgo marriage register [PROVEN — PAR-0060]. He is a distinct person from the other
+  immigrant Jacob Bohrer of Erschwil (P-0050) — do not conflate the two Solothurn Borer
+  lines. His mother is not named in that record [OPEN]; a FamilySearch collaborative tree
   (node L7BW-11L) gives his parents as Jakob Borer (1752–1817) × Maria Anna Heggendorn
-  (1755–1829), consistent with the compiler's "Jacob Borer" but resting only on the tree —
-  a navigation lead, never evidence [LEAD].
+  (1755–1829) — consistent with the sourced father but resting only on the tree for the
+  mother, a navigation lead, never evidence [LEAD].
 
   - **Emigration:** arrived Nova Friburgo, Rio de Janeiro, in 1819 aboard the *Heureux
   Voyage*, occupying Casa 73 / Lote 86 — the same house-and-lot as the Wehrli patriarch
@@ -87,8 +90,9 @@ profile: >-
   [18]" — the roster age (→ ~1802) sits ~5 years off his sourced February 1797 birth and is
   a preserved discrepancy, not adopted.
 
-  - **Marriage:** married Anna Maria Werhly (P-0069) on 3 July 1820 at Nova Friburgo
-  (PUB-0003, strong-evidence; E-0061).
+  - **Marriage:** married Anna Maria Werhly (P-0069) on 3 July 1820 at São João Baptista,
+  Nova Friburgo [PROVEN — PAR-0060, event E-0061] — the held parish marriage register, which
+  also names both spouses' fathers.
 
   - **Death:** no death record held [OPEN]; the compilation and Casa Suíça database agree
   he probably lived out his life in the vale do Macaé (Nova Friburgo municipal area),
@@ -162,15 +166,17 @@ profile: >-
 
   ## Open questions
 
-  - His own **Grindel Catholic baptism (~1797)** — FamilySearch-indexed but
-  FHC-restricted — would name his parents and settle the February-vs-July 1797 date, and
-  test whether he was kin to the other immigrant Jacob Borer. [OPEN]
+  - His own **Grindel Catholic baptism (~1797)** — FamilySearch-indexed but FHC-restricted
+  — would name his **mother** (his father Jacob Borer of Grindel is now held, PAR-0060) and
+  settle the February-vs-July 1797 date. [OPEN]
 
-  - His **death** (vale do Macaé, undated) and his **1820 Nova Friburgo marriage and
-  children's baptisms** (Nova Friburgo parish books, reportedly not on FamilySearch).
-  [OPEN]
+  - His **death** (vale do Macaé, undated) and his **children's baptisms** (Nova Friburgo
+  parish books, reportedly not on FamilySearch). [OPEN]
 
   ## Sources held (this repository)
+
+  - PAR-0060 (his own 1820 Nova Friburgo parish marriage to Anna Maria Wehrli — the primary
+  record confirming the marriage and naming his father Jacob Borer of Grindel, P-0100).
 
   - PUB-0003 (Henrique Bon, *Imigrantes de Nova Friburgo* — BORER II section, pp.300–301,
   and the Casa Suíça database) — the record-citing secondary compilation underlying his
@@ -208,15 +214,14 @@ profile_pt: >-
   apenas em blogs que nosso repositório não possui; a compilação em mãos diz fevereiro.
   [LEAD para julho]
 
-  - **Pai:** nomeado pelo compilador como "*certo* Jacob Borer, de Grindel, Soleure" — o
-  qualificador "certo" é a própria ressalva do compilador, e nenhuma família de pais está
-  modelada aqui. Uma entrada do registro de Grindel de um "Joannes Borer × Ana Maria
-  Werli" (filha batizada em 1782) é uma pista forte para sua filiação, mas não está
-  confirmada como o mesmo homem [LEAD]. Nenhuma fonte em mãos nomeia sua mãe [OPEN]; uma
-  árvore colaborativa do FamilySearch (nó L7BW-11L) dá seus pais como Jakob Borer
-  (1752–1817) × Maria Anna Heggendorn (1755–1829), consistente com o "Jacob Borer" do
-  compilador, mas baseada apenas na árvore — uma pista de navegação, nunca evidência
-  [LEAD].
+  - **Pai:** **Jacob Borer de Grindel** (P-0100; família parental F-0049), nomeado "Jacobo
+  Borer, natural de Grindel, no cantão de Soleure" no próprio registro de casamento de 1820
+  de Laurent, em Nova Friburgo [PROVEN — PAR-0060]. É pessoa distinta do outro imigrante
+  Jacob Bohrer de Erschwil (P-0050) — não confundir as duas linhas Borer de Solothurn. Sua
+  mãe não é nomeada nesse registro [OPEN]; uma árvore colaborativa do FamilySearch (nó
+  L7BW-11L) dá seus pais como Jakob Borer (1752–1817) × Maria Anna Heggendorn (1755–1829) —
+  consistente com o pai fontado, mas baseada apenas na árvore quanto à mãe, uma pista de
+  navegação, nunca evidência [LEAD].
 
   - **Emigração:** chegou a Nova Friburgo, Rio de Janeiro, em 1819 no *Heureux Voyage*,
   ocupando a Casa 73 / Lote 86 — a mesma casa e lote da família patriarcal Wehrli na qual
@@ -225,8 +230,9 @@ profile_pt: >-
   do rol (→ ~1802) fica ~5 anos distante de seu nascimento fontado em fevereiro de 1797 e é
   uma discrepância preservada, não adotada.
 
-  - **Casamento:** casou-se com Anna Maria Werhly (P-0069) em 3 de julho de 1820 em Nova
-  Friburgo (PUB-0003, evidência forte; E-0061).
+  - **Casamento:** casou-se com Anna Maria Werhly (P-0069) em 3 de julho de 1820 em São
+  João Baptista, Nova Friburgo [PROVEN — PAR-0060, evento E-0061] — o registro paroquial de
+  casamento em mãos, que também nomeia os pais de ambos os cônjuges.
 
   - **Óbito:** nenhum registro de óbito em mãos [OPEN]; a compilação e o banco de dados da
   Casa Suíça concordam que provavelmente viveu o resto da vida no vale do Macaé (área
@@ -305,15 +311,18 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seu próprio **batismo católico em Grindel (~1797)** — indexado no FamilySearch, mas
-  de acesso restrito a FHC — nomearia seus pais e resolveria a data fevereiro-vs-julho de
-  1797, além de testar se era parente do outro imigrante Jacob Borer. [OPEN]
+  - Seu próprio **batismo católico em Grindel (~1797)** — indexado no FamilySearch, mas de
+  acesso restrito a FHC — nomearia sua **mãe** (seu pai Jacob Borer de Grindel já está em
+  mãos, PAR-0060) e resolveria a data fevereiro-vs-julho de 1797. [OPEN]
 
-  - Seu **óbito** (vale do Macaé, sem data) e seu **casamento de 1820 em Nova Friburgo e
-  os batismos dos filhos** (livros paroquiais de Nova Friburgo, ao que se relata fora do
-  FamilySearch). [OPEN]
+  - Seu **óbito** (vale do Macaé, sem data) e os **batismos dos filhos** (livros paroquiais
+  de Nova Friburgo, ao que se relata fora do FamilySearch). [OPEN]
 
   ## Fontes disponíveis (neste repositório)
+
+  - PAR-0060 (seu próprio casamento paroquial de 1820 em Nova Friburgo com Anna Maria Wehrli
+  — o registro primário que confirma o casamento e nomeia seu pai Jacob Borer de Grindel,
+  P-0100).
 
   - PUB-0003 (Henrique Bon, *Imigrantes de Nova Friburgo* — seção BORER II, pp.300–301, e
   o banco de dados da Casa Suíça) — a compilação secundária que cita registros e embasa

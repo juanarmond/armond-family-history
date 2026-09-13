@@ -15,7 +15,7 @@ the minimum information required for the private research purpose.
 
 | Name as recorded | Context | Source |
 | --- | --- | --- |
-|  |  | `SRC-NNNN` |
+|  |  | `CIV-NNNN` |
 
 Do not silently combine variant spellings. Explain why one form is used as the
 preferred display name.
@@ -24,13 +24,13 @@ preferred display name.
 
 | Event | Date or date text | Historical place | Status | Sources |
 | --- | --- | --- | --- | --- |
-|  |  |  | `hypothesis` | `SRC-NNNN` |
+|  |  |  | `hypothesis` | `CIV-NNNN` |
 
 ## Family relationships
 
 | Relationship | Person | Status | Sources |
 | --- | --- | --- | --- |
-|  | `P-NNNN` | `hypothesis` | `SRC-NNNN` |
+|  | `P-NNNN` | `hypothesis` | `CIV-NNNN` |
 
 ## Conflicts
 

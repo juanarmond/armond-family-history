@@ -1,17 +1,17 @@
 schema_version: 1
 id: FAN-0004
 title: >-
-  1904 Muriaé inventário in which Capitão Simplício José Ferreira Armond was
+  1900 Muriaé inventário in which Capitão Simplício José Ferreira Armond was
   summoned as louvado (appraiser)
 title_pt: >-
-  Inventário de 1904 em Muriaé no qual o Capitão Simplício José Ferreira Armond foi
+  Inventário de 1900 em Muriaé no qual o Capitão Simplício José Ferreira Armond foi
   intimado como louvado (avaliador)
 record_type: Auto de inventário (probate inventory)
 record_category: court_or_probate
 usage: context
 event_date:
   kind: year
-  year: 1904
+  year: 1900
 event_place_text: Muriaé, Minas Gerais, Brazil
 repository:
   name: FamilySearch Full-Text (Minas Gerais court and notarial records)
@@ -77,3 +77,7 @@ notes:
     transcription is the Full-Text OCR extract of a faint preview, not a full
     manual reading. Search context in
     logs/2026-07-29-fulltext-muriae-leopoldina-probate-hits.md.
+- text: >-
+    Date corrected 2026-09-13 from 1904 to 1900: the retained folio's own certidão
+    dates the intimação "Muriahé 26 de Julho de 1900" (and the Data entry "[illegible]
+    1900"). The earlier "1904" was a cataloguing error, not a date on the image.

@@ -7,7 +7,7 @@ name_variants:
   - value: ""
     type: source
     source_ids:
-      - SRC-NNNN
+      - CIV-NNNN
 event_ids: []
 family_ids: []
 notes: []

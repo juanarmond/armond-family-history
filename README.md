@@ -130,8 +130,9 @@ Before adding structured data:
 
 1. Inventory and privacy-review the document.
 2. Preview an ID reservation with
-   `python3 scripts/new_entity.py reserve source --dry-run`, then reserve it
-   without `--dry-run`.
+   `python3 scripts/new_entity.py reserve civil --dry-run` (use the source
+   category you need — `civil`, `government`, `parish`, `probate`, `newspaper`,
+   `publication` or `recollection`), then reserve it without `--dry-run`.
 3. Complete the draft under `research/entity-drafts/` and record the search
    path.
 4. Preview mutually dependent drafts together with

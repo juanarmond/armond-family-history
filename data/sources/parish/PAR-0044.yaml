@@ -132,11 +132,10 @@ notes:
       person entity is minted — he should be recorded as a documented_child on
       F-0023.
   - text: >-
-      Deliberate link scope: this act also names both grandparent couples —
-      paternal Manoel Munis de Betencourt × Tereza d'Assumpção (= P-0082 ×
-      P-0083, family F-0040) and maternal João de Medeiros Brandão × Maria
-      Eugenia (= P-0084 × P-0085, family F-0041). linked_people/linked_families
-      are deliberately limited to the parents (P-0048, P-0049) and F-0023 for
-      this ingest; the lead agent should decide whether to add the grandparent
-      people/families here together with their reciprocal source_ids, so both
-      ends of each link stay in step.
+      Link scope: this act also names both grandparent couples — paternal Manoel
+      Munis de Betencourt × Tereza d'Assumpção (= P-0082 × P-0083, family F-0040)
+      and maternal João de Medeiros Brandão × Maria Eugenia (= P-0084 × P-0085,
+      family F-0041). These grandparent people and families are now linked here
+      (P-0082–P-0085, F-0040/F-0041), together with the parents (P-0048, P-0049)
+      and F-0023 and the godparents Manoel da Motta Junior × Anna de Souza
+      (P-0086, P-0087), so both ends of each link stay in step.

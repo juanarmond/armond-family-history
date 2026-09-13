@@ -46,14 +46,15 @@ notes:
       30/07/2026: o próprio registro de óbito e o peso das evidências civis superam
       a única grafia do casamento.
   - text: >-
-      Died 19 February 1977 at Volta Redonda, RJ, aged 77 (so born c.1900), a
-      widow, per her civil death (CIV-0015). Born in Nova Friburgo, RJ ("natural
+      Died 19 February 1977 at Volta Redonda, RJ, aged 77 (consistent with her 13 May 1899
+      baptism, PAR-0057), a widow, per her civil death (CIV-0015). Born in Nova Friburgo, RJ ("natural
       deste Districto", CIV-0016), which resolves the São Leopoldo (RS) "Celina
       Amalia Bohrer" as a different person. Her parents were Joaquim José Bohrer
       (P-0030) and Lucinda Ferreira da Silva (P-0031) — family F-0014.
     text_pt: >-
       Falecida em 19 de fevereiro de 1977 em Volta Redonda, RJ, com 77 anos
-      (portanto nascida c.1900), viúva, conforme seu óbito civil (CIV-0015).
+      (coerente com seu batismo de 13 de maio de 1899, PAR-0057), viúva, conforme seu óbito
+      civil (CIV-0015).
       Nascida em Nova Friburgo, RJ ("natural deste Districto", CIV-0016), o que
       diferencia a "Celina Amalia Bohrer" de São Leopoldo (RS) como uma pessoa
       diferente. Seus pais foram Joaquim José Bohrer (P-0030) e Lucinda Ferreira
@@ -116,7 +117,7 @@ profile: >-
 
   ## What we can extrapolate
 
-  Born at Nova Friburgo c.1900, married into a Carangola (MG) household, and dead a widow
+  Born at Nova Friburgo in 1899, married into a Carangola (MG) household, and dead a widow
   at Volta Redonda in 1977, Celina's life mirrors the family's Nova Friburgo → Zona da
   Mata Mineira → Volta Redonda steel-city migration. [INFERRED] Her descent runs through
   the Nova Friburgo Bohrer *negociante* family of the Alto da Serra (Joaquim José →
@@ -146,6 +147,9 @@ profile: >-
 
   ## Sources held (this repository)
 
+  - PAR-0057 (her own 1899 Nova Friburgo baptism — born 13 May 1899, baptised 27 September
+  1899 at São João Baptista; parents Joaquim José Bohrer × Lucinda Ferreira).
+
   - CIV-0015 (her 1977 Volta Redonda death — age, widow, doméstica, parents, fourteen
   children) · CIV-0016 (Eunir's 1924 Nova Friburgo birth — "natural deste Districto", her
   parents) · CIV-0014 (husband's 1970 death — names her, fifteen children) · CIV-0004
@@ -169,7 +173,7 @@ profile: >-
 
   ## Where to go today
 
-  - **Birth (~1900):** Catedral Diocesana / Igreja Matriz de São João Batista, Nova Friburgo,
+  - **Birth (1899):** Catedral Diocesana / Igreja Matriz de São João Batista, Nova Friburgo,
   RJ (Rua Monsenhor José Antônio Teixeira 23, Centro, CEP 28610-390) [RESOLVED] ·
   [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
 
@@ -238,7 +242,7 @@ profile_pt: >-
 
   ## O que podemos extrapolar
 
-  Nascida em Nova Friburgo c.1900, casada em um lar de Carangola (MG) e falecida viúva em
+  Nascida em Nova Friburgo em 1899, casada em um lar de Carangola (MG) e falecida viúva em
   Volta Redonda em 1977, a vida de Celina espelha a migração da família de Nova Friburgo
   → Zona da Mata Mineira → cidade siderúrgica de Volta Redonda. [INFERRED] Sua
   descendência corre pela família Bohrer *negociante* do Alto da Serra, em Nova Friburgo
@@ -257,8 +261,9 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seu **nascimento/batismo** (c.1900, Nova Friburgo, São João Baptista) — não está em
-  mãos; fixaria sua data exata e resolveria a grafia Celina/Selina na fonte. [OPEN]
+  - Seu **nascimento/batismo** — **em mãos** (PAR-0057): nascida em 13 de maio de 1899,
+  batizada em 27 de setembro de 1899 em São João Baptista, Nova Friburgo, filha de Joaquim
+  José Bohrer × Lucinda Ferreira. [RESOLVED]
 
   - A **contagem de filhos** (quatorze vs quinze) — resolvível apenas reunindo os
   registros dos próprios filhos. [OPEN]
@@ -267,6 +272,10 @@ profile_pt: >-
   (MG) dataria a união e confirmaria sua filiação de forma independente. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
+
+  - PAR-0057 (seu próprio batismo de 1899 em Nova Friburgo — nascida em 13 de maio de 1899,
+  batizada em 27 de setembro de 1899 em São João Baptista; pais Joaquim José Bohrer × Lucinda
+  Ferreira).
 
   - CIV-0015 (seu óbito de 1977 em Volta Redonda — idade, viúva, doméstica, pais,
   quatorze filhos) · CIV-0016 (nascimento de Eunir em 1924, Nova Friburgo — "natural
@@ -292,7 +301,7 @@ profile_pt: >-
 
   ## Onde ir hoje
 
-  - **Nascimento (~1900):** Catedral Diocesana / Igreja Matriz de São João Batista, Nova
+  - **Nascimento (1899):** Catedral Diocesana / Igreja Matriz de São João Batista, Nova
   Friburgo, RJ (Rua Monsenhor José Antônio Teixeira 23, Centro, CEP 28610-390) [RESOLVED] ·
   [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
 

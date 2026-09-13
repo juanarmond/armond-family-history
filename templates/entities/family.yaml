@@ -12,7 +12,7 @@ children:
         relationship_type: unknown
         status: hypothesis
         source_ids:
-          - SRC-NNNN
+          - CIV-NNNN
         notes: []
     notes: []
 event_ids: []

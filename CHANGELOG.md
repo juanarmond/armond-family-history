@@ -5,6 +5,48 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — Repository-wide audit: privacy hardening + evidence/degree/doc corrections (2026-09-13)
+
+Six parallel read-only auditors swept the whole repo (markdown docs, all 122 person
+portraits, all 162 source transcriptions + 13 FAN); findings were verified against the
+files and fixed centrally across 61 files. `make check` green (489 entities, 75 tests).
+
+**Privacy hardening** — redacted to `[omitido — privacidade]`, repo-wide (verified by
+grep): government/financial ID numbers (GOV-0001 identity+prontuário; CIV-0025 RG+CPF+bank
+account; CIV-0008 two CTPS numbers; CIV-0010 clergy registration); and possibly-living
+third parties' names/addresses/phones/DOBs (NWS-0001 bride; CIV-0009/0010/0011/0012 the
+living ex-spouse's PII + name; CIV-0031/0025 surviving spouses; CIV-0014/0018/0040/0026
+declarants; F-0005 two surviving-spouse names; document-inventory.yaml subject-name lists).
+
+**Evidence integrity** — removed a fabricated inheritance figure ("≈1:539$781") presented
+as documented across P-0027/P-0054/P-0056 (no held source supports it); downgraded two
+overclaims (P-0016 court-appointed arbitrador [PROVEN]→[LEAD]; P-0032 citizenship
+[PROVEN—GOV-0008]→[INFERRED], added GOV-0008 to its Sources held).
+
+**Relationship-degree corrections** (verified against the family_ids chain, EN+PT):
+P-0042/P-0047 (great-great→great-grand re Antenor), P-0082/P-0083/P-0084 (Muniz trisavô→
+bisavô / bisneto→neto), P-0038/P-0039 ("Antenor's maternal grandparents"), P-0004
+(great-grandfather→grandfather), PAR-0054 (3×-great→great-grandfather re Iris), PAR-0056
+(maternal great-grandparents→grandparents).
+
+**Stale-profile resyncs** (EN+PT): P-0034 (to held PAR-0054/0055, birth 9 Jul 1832, death
+1888), P-0068/P-0069 (to PAR-0060 — father F-0049/P-0100 now PROVEN, marriage PROVEN),
+P-0103 (Brazilian nationality established by PAR-0066), P-0015 (PT synced to EN, PAR-0057),
+P-0012 (Muniz Azorean origin now documented), P-0005 (documented occupation).
+
+**Data/doc corrections**: João Muniz Bittencourt's baptism date reconciled 24 Oct→**24 Mar
+1845** (E-0053, F-0020, STATUS, per E-0051); FAN-0004 date 1904→1900 (per its own folio);
+parish transcription nits (PAR-0004/0018/0044/0051/0055/0059/0077/0082); `family-story.yaml`
+"twins" claim hedged to a joint same-day baptism (EN+PT); README/data-README fixed the
+invalid `reserve source` command + "kinds" list; templates' obsolete `SRC-` prefix →
+`CIV-`; STATUS now records the contested 1867 heir-6 (#16) and the resolved Alcida conflict
+(#17), resume date refreshed.
+
+Flagged for the owner, not changed: ~19 pre-1900 parish + several probate `private:true`
+flags (flipping could expose deliberately-withheld register-page scans — needs a decision).
+Deferred minors: PRB-0008 PT-transcription parity, P-0119–P-0122 missing profile stubs,
+README/viewer-README layout omissions, and a tail of name-variant/"Sources held" completeness nits.
+
 ### Resolved — Alcida Fernandes de Azevedo father-name conflict; sister catalogued (CIV-0051) (2026-09-13)
 
 Resolved the held Alcida 1975-death conflict via a dedicated read-only investigation. The

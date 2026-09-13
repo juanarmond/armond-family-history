@@ -78,6 +78,21 @@ notes:
     mostra apenas Ludovina, Laura, Guilherme, Fernando); PRB-0005 (o testamento) é a
     fonte autoritativa que nomeia Joaquim como primogênito — o compilador provavelmente
     não localizou seu registro de batismo.
+- text: >-
+    His own Nova Friburgo baptism (PAR-0054, event E-0083) and death/burial (PAR-0055, event
+    E-0084) are now held (Fundação D. João VI digitisation). The baptism fixes his birth to
+    9 July 1832 (baptised 19 August 1832) — correcting the compilation's 4 July (PUB-0003) —
+    and names his parents Jacob Bohrer × Catharina Moser at primary level; the death act
+    confirms 6 July 1888 at the Alto da Serra, aged 56, cause insuficiência mitral e dilatação
+    aórtica. These make his birth, parentage and death primary rather than compilation-only.
+  text_pt: >-
+    Seu próprio batismo em Nova Friburgo (PAR-0054, evento E-0083) e seu óbito/sepultamento
+    (PAR-0055, evento E-0084) estão agora em mãos (digitalização da Fundação D. João VI). O
+    batismo fixa seu nascimento em 9 de julho de 1832 (batizado em 19 de agosto de 1832) —
+    corrigindo o 4 de julho da compilação (PUB-0003) — e nomeia seus pais Jacob Bohrer ×
+    Catharina Moser em nível primário; o ato de óbito confirma 6 de julho de 1888 no Alto da
+    Serra, aos 56 anos, causa insuficiência mitral e dilatação aórtica. Isso torna primários
+    seu nascimento, filiação e óbito, antes apenas da compilação.
 profile: >-
   ## Identity
 
@@ -85,9 +100,10 @@ profile: >-
   (PUB-0003) and *Bohrer* in his own will and his descendants' civil registers; the
   *Borer → Bohrer* drift runs through him. [PROVEN]
 
-  - **Born:** in the Nova Friburgo comarca — "natural deste termo" in his own 1888 will
-  (PRB-0005). [PROVEN] The Imigrantes de Nova Friburgo compilation dates the birth to
-  4 July 1832 (PUB-0003). [LEAD, secondary]
+  - **Born:** 9 July 1832 in the Nova Friburgo comarca; baptised 19 August 1832 at São João
+  Baptista [PROVEN — PAR-0054]. His own 1888 will independently states he was "natural deste
+  termo" (PRB-0005). [PROVEN] The Imigrantes de Nova Friburgo compilation gives 4 July 1832
+  (PUB-0003) — a five-day discrepancy the held baptism corrects. [LEAD, secondary]
 
   - **Parents:** Jacob Bahrer and Catharina Mayer (P-0050, P-0051; family F-0024), both
   already deceased by 1888, named in his own will (PRB-0005). [PROVEN] The same
@@ -107,10 +123,11 @@ profile: >-
   absent from the compilation's child-list; the will is the authoritative source naming
   him firstborn.
 
-  - **Death:** dead by 1890, when his grandson Alberto's birth register names him "já
-  falecido" (CIV-0019). [PROVEN] The compilation dates his death to 6 July 1888, cause
-  mitral insufficiency and aortic dilation (PUB-0003) [LEAD, secondary], consistent with
-  the will registered in 1888.
+  - **Death:** 6 July 1888 at the Alto da Serra, Nova Friburgo, aged 56, of mitral
+  insufficiency and aortic dilatation [PROVEN — PAR-0055] — his own parish death/burial act.
+  He was already "já falecido" when his grandson Alberto's 1890 birth register names him
+  (CIV-0019) [PROVEN], and the date agrees with the will registered in 1888 and the
+  compilation (PUB-0003).
 
   ## Standing and profession
 
@@ -179,14 +196,9 @@ profile: >-
 
   ## Open questions
 
-  - His Nova Friburgo baptism (1832) — would make the birth date and the Jacob ×
-  Catharina parentage primary. [OPEN]
-
-  - His own death/burial register (1888, Nova Friburgo) — would make the death date and
-  cause primary rather than compilation-only. [OPEN]
-
-  - "Mayer" (will) versus "Moser" (compilation) for his mother's maiden name — decisive
-  record: Jacob Borer's about-1843 Nova Friburgo inventário. [OPEN]
+  - "Mayer" (will) versus "Moser" (baptism and compilation) for his mother's maiden name —
+  his 1832 baptism (PAR-0054) reads "Moser"; a decisive record would be Jacob Borer's
+  about-1843 Nova Friburgo inventário. [OPEN]
 
   - The exact marriage date behind the 1879 justification. [OPEN]
 
@@ -194,6 +206,10 @@ profile: >-
 
   - PRB-0005 (his own 1888 registered will — parents, wife, four children, executors,
   bequest) · PAR-0002 (1879 marriage justification at the Nova Friburgo Matriz).
+
+  - PAR-0054 (his own 1832 Nova Friburgo baptism — born 9 July, baptised 19 August 1832;
+  parents Jacob Bohrer × Catharina Moser) · PAR-0055 (his own 1888 Nova Friburgo
+  death/burial — 6 July 1888, aged 56, cause mitral insufficiency and aortic dilatation).
 
   - CIV-0019 (grandson Alberto's 1890 Nova Friburgo birth — names him paternal
   grandfather, "já falecido").
@@ -226,9 +242,11 @@ profile_pt: >-
   (PUB-0003) e *Bohrer* em seu próprio testamento e nos registros civis de seus
   descendentes; a variação *Borer → Bohrer* passa por ele. [PROVEN]
 
-  - **Nascimento:** na comarca de Nova Friburgo — "natural deste termo" em seu próprio
-  testamento de 1888 (PRB-0005). [PROVEN] A compilação Imigrantes de Nova Friburgo data o
-  nascimento em 4 de julho de 1832 (PUB-0003). [LEAD, secundário]
+  - **Nascimento:** 9 de julho de 1832 na comarca de Nova Friburgo; batizado em 19 de agosto
+  de 1832 em São João Baptista [PROVEN — PAR-0054]. Seu próprio testamento de 1888 declara,
+  de forma independente, que era "natural deste termo" (PRB-0005). [PROVEN] A compilação
+  Imigrantes de Nova Friburgo dá 4 de julho de 1832 (PUB-0003) — uma discrepância de cinco
+  dias que o batismo em mãos corrige. [LEAD, secundário]
 
   - **Pais:** Jacob Bahrer e Catharina Mayer (P-0050, P-0051; família F-0024), ambos já
   falecidos em 1888, nomeados em seu próprio testamento (PRB-0005). [PROVEN] A mesma
@@ -248,10 +266,11 @@ profile_pt: >-
   conforme PUB-0003 [LEAD]. Joaquim está ausente da lista de filhos da compilação; o
   testamento é a fonte autoritativa que o nomeia primogênito.
 
-  - **Óbito:** já falecido em 1890, quando o registro de nascimento de seu neto Alberto o
-  nomeia "já falecido" (CIV-0019). [PROVEN] A compilação data seu óbito em 6 de julho de
-  1888, causa insuficiência mitral e dilatação aórtica (PUB-0003) [LEAD, secundário],
-  coerente com o testamento registrado em 1888.
+  - **Óbito:** 6 de julho de 1888 no Alto da Serra, Nova Friburgo, aos 56 anos, de
+  insuficiência mitral e dilatação aórtica [PROVEN — PAR-0055] — seu próprio ato paroquial de
+  óbito/sepultamento. Já estava "já falecido" quando o registro de nascimento de 1890 de seu
+  neto Alberto o nomeia (CIV-0019) [PROVEN], e a data concorda com o testamento registrado em
+  1888 e com a compilação (PUB-0003).
 
   ## Posição social e profissão
 
@@ -321,15 +340,9 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seu batismo em Nova Friburgo (1832) — tornaria primárias a data de nascimento e a
-  filiação Jacob × Catharina. [OPEN]
-
-  - Seu próprio registro de óbito/sepultamento (1888, Nova Friburgo) — tornaria primárias a
-  data e a causa do óbito, hoje apenas da compilação. [OPEN]
-
-  - "Mayer" (testamento) versus "Moser" (compilação) para o sobrenome de solteira de sua
-  mãe — registro decisivo: o inventário de Jacob Borer, por volta de 1843, em Nova
-  Friburgo. [OPEN]
+  - "Mayer" (testamento) versus "Moser" (batismo e compilação) para o sobrenome de solteira
+  de sua mãe — seu batismo de 1832 (PAR-0054) lê "Moser"; o registro decisivo seria o
+  inventário de Jacob Borer, por volta de 1843, em Nova Friburgo. [OPEN]
 
   - A data exata do casamento por trás da justificação de 1879. [OPEN]
 
@@ -338,6 +351,11 @@ profile_pt: >-
   - PRB-0005 (seu próprio testamento registrado de 1888 — pais, esposa, quatro filhos,
   testamenteiros, legado) · PAR-0002 (justificação de casamento de 1879 na Matriz de Nova
   Friburgo).
+
+  - PAR-0054 (seu próprio batismo de 1832 em Nova Friburgo — nascido em 9 de julho, batizado
+  em 19 de agosto de 1832; pais Jacob Bohrer × Catharina Moser) · PAR-0055 (seu próprio
+  óbito/sepultamento de 1888 em Nova Friburgo — 6 de julho de 1888, aos 56 anos, causa
+  insuficiência mitral e dilatação aórtica).
 
   - CIV-0019 (nascimento de 1890 do neto Alberto, em Nova Friburgo — nomeia-o avô paterno,
   "já falecido").

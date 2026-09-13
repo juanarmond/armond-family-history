@@ -5,6 +5,28 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-09-13 — Repository-wide audit (6 parallel auditors) + central fix sweep
+
+- Ran six read-only auditors over disjoint file sets — docs/narrative layers, portraits
+  P-0001–P-0061 and P-0062–P-0122, and transcriptions (parish / civil / gov+probate+news+FAN).
+  Consolidated + verified findings, then fixed via five parallel fix-agents on disjoint files
+  plus central doc/data edits (61 files total). make check green (489 entities, 75 tests).
+- **Privacy:** redacted government/financial ID numbers (GOV-0001, CIV-0025, CIV-0008, CIV-0010
+  clergy reg.) and possibly-living third-party PII (NWS-0001, CIV-0009/0010/0011/0012, CIV-0031,
+  CIV-0014/0018/0040/0026, F-0005, document-inventory), placeholder `[omitido — privacidade]`,
+  grep-verified gone repo-wide. Fixed a YAML flow-sequence bug the `[`-prefixed placeholder caused
+  as bare scalars (CIV-0018 informant, document-inventory apparent_people) by quoting them.
+- **Evidence integrity:** purged a fabricated "≈1:539$781" quota (P-0027/0054/0056); downgraded
+  P-0016 (arbitrador [PROVEN]→[LEAD]) and P-0032 (citizenship [PROVEN]→[INFERRED]).
+- **Degrees/drift:** corrected 6 relationship-degree slips (verified against family_ids) and
+  resynced 7 stale profiles (P-0034, P-0068/0069, P-0103, P-0015, P-0012, P-0005) to held evidence.
+- **Data/docs:** João Muniz baptism 24 Oct→24 Mar 1845 (E-0053/F-0020/STATUS per E-0051); FAN-0004
+  1904→1900; parish nits; family-story twins hedge; README/template/STATUS fixes; STATUS conflicts
+  #16 (1867 heir-6, open) and #17 (Alcida, resolved).
+- Flagged (not changed): ~19 pre-1900 parish + probate `private:true` flags (owner decision — could
+  expose withheld register scans). Deferred: PRB-0008 PT parity, P-0119–P-0122 profile stubs, a few
+  README/completeness nits.
+
 ## 2026-09-13 — Resolved the Alcida Fernandes de Azevedo father-name conflict (CIV-0051)
 
 - Dedicated read-only investigation of the held 1975 Alcida death conflict. Re-read the image at

@@ -42,15 +42,14 @@ abstract: >-
   Parish baptism of Manoel Muniz Bytancourt (P-0042), born 12 June 1822 and baptised 17
   June 1822 at the Matriz de N. Sra. Mãe de Deus (Povoação, São Miguel), legitimate son of
   João Muniz (P-0048) and Maria Jac[i]nta [de Medeiros] (P-0049), both natives and
-  parishioners there. Godparents: Antonio de Medeiros Brandão and his wife Anna de Souza
-  (P-0087). This primary record fixes his birth date (previously inferred "about 1820" from
+  parishioners there. Godparents: Antonio de Medeiros Brandão and his wife Anna de Souza. This primary record fixes his birth date (previously inferred "about 1820" from
   his age at death) and directly confirms his parentage.
 abstract_pt: >-
   Batismo paroquial de Manoel Muniz Bytancourt (P-0042), nascido em 12 de junho de 1822 e
   batizado em 17 de junho de 1822 na Matriz de N. Sra. Mãe de Deus (Povoação, São Miguel),
   filho legítimo de João Muniz (P-0048) e Maria Jac[i]nta [de Medeiros] (P-0049), ambos
   naturais e freguezes dali. Padrinhos: Antonio de Medeiros Brandão e sua mulher Anna de
-  Souza (P-0087). Este registro primário fixa sua data de nascimento (antes inferida "por
+  Souza. Este registro primário fixa sua data de nascimento (antes inferida "por
   volta de 1820" pela idade ao falecer) e confirma diretamente sua filiação.
 reliability:
   assessment: >-
@@ -77,5 +76,6 @@ private: false
 notes:
   - text: >-
       Right-hand entry of the leaf (the left-hand entry is an unrelated "Antonio" baptism).
-      Godparents Antonio de Medeiros Brandão × Anna de Souza (Anna = P-0087) tie the São
+      Godparents Antonio de Medeiros Brandão × Anna de Souza (a different Anna de Souza
+      from P-0087, whose husband is Manoel da Motta Junior — not equated here) tie the São
       Miguel family network. The record reads 1822 (the drop filename's "1821" is wrong).

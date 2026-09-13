@@ -92,11 +92,14 @@ relatives and later additions continue from the next available person ID.
 Reserve an ID and create its editable, non-live skeleton with:
 
 ```console
-python3 scripts/new_entity.py reserve source --dry-run
-python3 scripts/new_entity.py reserve source
+python3 scripts/new_entity.py reserve civil --dry-run
+python3 scripts/new_entity.py reserve civil
 ```
 
-Kinds are `person`, `family`, `event`, `place` and `source`. Drafts live under
+Kinds are `person`, `family`, `event`, `place`, `fan`, and one kind per source
+category (`civil`, `government`, `parish`, `probate`, `newspaper`, `publication`,
+`recollection`) — there is no bare `source` kind; reserve a source under its
+category. Drafts live under
 `research/entity-drafts/` and are checked only for reservation and identifier
 integrity; they are not genealogical conclusions and do not satisfy the entity
 schemas until completed. If a process stops after reserving an ID but before
