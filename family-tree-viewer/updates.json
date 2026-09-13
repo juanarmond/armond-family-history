@@ -1,6 +1,16 @@
 {
- "generated": "2026-09-13T13:18:11Z",
+ "generated": "2026-09-13T17:21:32Z",
  "updates": [
+  {
+   "date": "2026-09-13",
+   "kind": "correction",
+   "title": "Correction: Eunir Bohrer was one of Iris's brothers (male), not a sister — his 1924 birth record reads 'do sexo masculino'",
+   "title_pt": "Correção: Eunir Bohrer era um dos irmãos de Iris (do sexo masculino), não uma irmã — seu registro de nascimento de 1924 diz 'do sexo masculino'",
+   "links": [
+    "P-0007",
+    "P-0014"
+   ]
+  },
   {
    "date": "2026-09-13",
    "kind": "milestone",
@@ -15,6 +25,66 @@
     "PAR-0078",
     "PAR-0080",
     "PAR-0083"
+   ]
+  },
+  {
+   "date": "2026-09-13",
+   "kind": "document",
+   "title": "1913 civil marriage of José Maria Bocher at Bom Jardim — son of Vicente Bocher and Maria (Regina) Haggendorn, with Valentim Martinho Borer among the signatories",
+   "title_pt": "Casamento civil de 1913 de José Maria Bocher em Bom Jardim — filho de Vicente Bocher e Maria (Regina) Haggendorn, com Valentim Martinho Borer entre os signatários",
+   "primary": "CIV-0048",
+   "links": [
+    "P-0070"
+   ]
+  },
+  {
+   "date": "2026-09-13",
+   "kind": "document",
+   "title": "1898 baptism of Renato Bohrer at Nova Friburgo — son of Joaquim José Bohrer and Lucinda Ferreira da Silva",
+   "title_pt": "Batismo de 1898 de Renato Bohrer em Nova Friburgo — filho de Joaquim José Bohrer e Lucinda Ferreira da Silva",
+   "primary": "PAR-0079",
+   "links": [
+    "P-0030"
+   ]
+  },
+  {
+   "date": "2026-09-13",
+   "kind": "document",
+   "title": "1867 baptism of Maria Elizabeth Bohrer at Nova Friburgo — daughter of Vicente Bohrer and Maria (Thecla) Eggendorn",
+   "title_pt": "Batismo de 1867 de Maria Elizabeth Bohrer em Nova Friburgo — filha de Vicente Bohrer e Maria (Thecla) Eggendorn",
+   "primary": "PAR-0081",
+   "links": [
+    "P-0070"
+   ]
+  },
+  {
+   "date": "2026-09-13",
+   "kind": "document",
+   "title": "1860 death of the infant Isabel da Silva Ferreira at Nova Friburgo — daughter of Antonio da Silva Ferreira and Maria Joanna",
+   "title_pt": "Óbito de 1860 da menina Isabel da Silva Ferreira em Nova Friburgo — filha de Antonio da Silva Ferreira e Maria Joanna",
+   "primary": "PAR-0082",
+   "links": [
+    "P-0036"
+   ]
+  },
+  {
+   "date": "2026-09-13",
+   "kind": "document",
+   "title": "1872 marriage of Claudina Muniz Bettencourt at N.S. Mãe de Deus (Povoação, São Miguel, Azores) — daughter of Manoel Muniz Bettencourt (already deceased) and Francisca Roza do Espírito Santo",
+   "title_pt": "Casamento de 1872 de Claudina Muniz Bettencourt em N.S. Mãe de Deus (Povoação, São Miguel, Açores) — filha de Manoel Muniz Bettencourt (já falecido) e Francisca Roza do Espírito Santo",
+   "primary": "PAR-0084",
+   "links": [
+    "P-0042"
+   ]
+  },
+  {
+   "date": "2026-09-13",
+   "kind": "document",
+   "title": "1854 death of the infant Claudina Muniz Bitancourt at N.S. Mãe de Deus (Povoação, São Miguel, Azores) — daughter of Manoel Muniz de Bitancourt and Francisca Roza",
+   "title_pt": "Óbito de 1854 da menina Claudina Muniz Bitancourt em N.S. Mãe de Deus (Povoação, São Miguel, Açores) — filha de Manoel Muniz de Bitancourt e Francisca Roza",
+   "primary": "PAR-0085",
+   "links": [
+    "P-0042"
    ]
   },
   {
@@ -891,71 +961,11 @@
   {
    "date": "",
    "kind": "document",
-   "title": "1913 civil marriage of José Maria Bocher at Bom Jardim — son of Vicente Bocher and Maria (Regina) Haggendorn, with Valentim Martinho Borer among the signatories",
-   "title_pt": "Casamento civil de 1913 de José Maria Bocher em Bom Jardim — filho de Vicente Bocher e Maria (Regina) Haggendorn, com Valentim Martinho Borer entre os signatários",
-   "primary": "CIV-0048",
-   "links": [
-    "P-0070"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
    "title": "1975 marriage banns in O Processo (Conselheiro Lafaiete) for José Olavo Armond, naming his parents Aristão Ferreira Armond and Liliosa Paz Armond and his origin in Eugenópolis",
    "title_pt": "Edital de proclamas de casamento de 1975 em O Processo (Conselheiro Lafaiete) de José Olavo Armond, que nomeia seus pais Aristão Ferreira Armond e Liliosa Paz Armond e sua origem em Eugenópolis",
    "primary": "NWS-0001",
    "links": [
     "P-0018"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1898 baptism of Renato Bohrer at Nova Friburgo — son of Joaquim José Bohrer and Lucinda Ferreira da Silva",
-   "title_pt": "Batismo de 1898 de Renato Bohrer em Nova Friburgo — filho de Joaquim José Bohrer e Lucinda Ferreira da Silva",
-   "primary": "PAR-0079",
-   "links": [
-    "P-0030"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1867 baptism of Maria Elizabeth Bohrer at Nova Friburgo — daughter of Vicente Bohrer and Maria (Thecla) Eggendorn",
-   "title_pt": "Batismo de 1867 de Maria Elizabeth Bohrer em Nova Friburgo — filha de Vicente Bohrer e Maria (Thecla) Eggendorn",
-   "primary": "PAR-0081",
-   "links": [
-    "P-0070"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1860 death of the infant Isabel da Silva Ferreira at Nova Friburgo — daughter of Antonio da Silva Ferreira and Maria Joanna",
-   "title_pt": "Óbito de 1860 da menina Isabel da Silva Ferreira em Nova Friburgo — filha de Antonio da Silva Ferreira e Maria Joanna",
-   "primary": "PAR-0082",
-   "links": [
-    "P-0036"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1872 marriage of Claudina Muniz Bettencourt at N.S. Mãe de Deus (Povoação, São Miguel, Azores) — daughter of Manoel Muniz Bettencourt (already deceased) and Francisca Roza do Espírito Santo",
-   "title_pt": "Casamento de 1872 de Claudina Muniz Bettencourt em N.S. Mãe de Deus (Povoação, São Miguel, Açores) — filha de Manoel Muniz Bettencourt (já falecido) e Francisca Roza do Espírito Santo",
-   "primary": "PAR-0084",
-   "links": [
-    "P-0042"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1854 death of the infant Claudina Muniz Bitancourt at N.S. Mãe de Deus (Povoação, São Miguel, Azores) — daughter of Manoel Muniz de Bitancourt and Francisca Roza",
-   "title_pt": "Óbito de 1854 da menina Claudina Muniz Bitancourt em N.S. Mãe de Deus (Povoação, São Miguel, Açores) — filha de Manoel Muniz de Bitancourt e Francisca Roza",
-   "primary": "PAR-0085",
-   "links": [
-    "P-0042"
    ]
   },
   {

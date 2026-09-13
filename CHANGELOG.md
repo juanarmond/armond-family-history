@@ -5,6 +5,25 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — 2026-09-13 drop correction layer: Eunir Bohrer is male; Antonio José Bohrer flagged borderline (2026-09-13)
+
+Applied the §5 correction layer of the 2026-09-13 handoff where it touched held entities:
+- **Eunir Bohrer is male** (a brother of Iris, P-0007), not female. His held 1924 Nova
+  Friburgo birth (CIV-0016) records "do sexo masculino, filho legítimo". Corrected the
+  stray "granddaughter/daughter/neta/filha" descriptors in the profiles of P-0014 (his
+  father), P-0030 and P-0031 (his maternal grandparents), in both EN and PT (P-0028 and
+  P-0029 were already corrected in a prior wave; the F-0005 documented-child entry was
+  already correct).
+- **Antonio José Bohrer** (F-0014 documented child) flagged **[BORDERLINE]**: his only
+  source, the 1899 A Sentinella death notice (NWS-0006), names only the father ("Joaquim
+  Bohrer"), so he falls below the strict both-parents bar; retained as a documented lead,
+  not asserted as strictly proven.
+
+Other §5 items were already satisfied in the data (Mercedes' marriage already dated 1917;
+Anna Muniz already on F-0007 = João Jr × Suzana; the 1914 death already attributed to
+Antonio da Silva Ferreira Sr) or target only the retrieval agent's registry leads
+(Julia, Hoare, Hermogenes, "Lina" Rita Brandão), which are not modelled here.
+
 ### Added — 2026-09-13 retrieval drop: 11 collateral-sibling records catalogued (Bohrer, Muniz-Azores, Guimarães) (2026-09-13)
 
 Value-gated the 2026-09-13 sync (four parallel read-only agents opened and transcribed
