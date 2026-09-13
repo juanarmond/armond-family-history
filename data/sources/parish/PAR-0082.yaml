@@ -1,0 +1,82 @@
+schema_version: 1
+id: PAR-0082
+title: >-
+  1860 death of the infant Isabel da Silva Ferreira at Nova Friburgo — daughter
+  of Antonio da Silva Ferreira and Maria Joanna
+title_pt: >-
+  Óbito de 1860 da menina Isabel da Silva Ferreira em Nova Friburgo — filha de
+  Antonio da Silva Ferreira e Maria Joanna
+record_type: Parish death/burial register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1860-06-09"
+event_place_text: >-
+  Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Paróquia de Nova Friburgo (Livro de Óbitos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: >-
+    Livro de Óbitos, página 139 (1860); officiant Vigário Jacob Joye [uncertain]
+  catalogue_reference: >-
+    rec-bohrer-isabel-silvaferreira-obito-1860-novafriburgo.jpg (retrieval
+    drop). Página 139, entrada esquerda; no termo number.
+access_date: "2026-09-13"
+language: pt-BR
+transcription: >-
+  [Livro de Óbitos, Nova Friburgo, p.139, 1860. Margem: "Isabel — 1 mez".] "Aos
+  nove dias do mez de Junho do anno de 1860, falleceu da vida presente … nascida
+  em 23 de Abril [do corrente anno], Isabel[?] filha legítima de Antonio da
+  Silva Ferreira e de Maria Joanna Bock[e]man[?] [sobrenome germânico incerto];
+  foi [acompanhada], encommendada e sepultada no [dia] seguinte no Cemiterio
+  d'esta Villa; e para constar fiz este apento e por ser verdade assignei. O
+  Vigario Jacob Joye [incerto]." [Vários termos ilegíveis pela caligrafia e
+  tinta.]
+abstract: >-
+  Parish death/burial entry of the infant Isabel da Silva Ferreira, born 23
+  April 1860 and died 9 June 1860 (aged about 1½ months) at Nova Friburgo,
+  legitimate daughter of Antonio da Silva Ferreira (P-0036) and Maria Joanna
+  Rocheman/Rutschmann (P-0037) — i.e. an infant sister of Lucinda Ferreira da
+  Silva (P-0031). Recorded as a documented child on family F-0017. Both parents
+  are named; the mother may carry an additional Germanic surname after "Maria
+  Joanna" (uncertain), not asserted. PROVEN. Not modelled as a person entity; no
+  event created.
+abstract_pt: >-
+  Assento de óbito/sepultamento da menina Isabel da Silva Ferreira, nascida em
+  23 de abril de 1860 e falecida em 9 de junho de 1860 (com cerca de 1 mês e
+  meio) em Nova Friburgo, filha legítima de Antonio da Silva Ferreira (P-0036) e
+  Maria Joanna Rocheman/Rutschmann (P-0037) — ou seja, irmã bebê de Lucinda
+  Ferreira da Silva (P-0031). Registrada como filha documentada na família
+  F-0017. Ambos os pais são nomeados; a mãe pode ter um sobrenome germânico
+  adicional após "Maria Joanna" (incerto), não afirmado. PROVADO. Não modelada
+  como entidade pessoa; sem evento criado.
+reliability:
+  assessment: >-
+    Primary parish death/burial entry — direct primary for the infant's death
+    and her filiation to Antonio da Silva Ferreira and Maria Joanna.
+  informant: The Vigário Jacob Joye [uncertain].
+  limitations: >-
+    Handwriting and ink make several words illegible; the mother's possible
+    additional surname after "Maria Joanna" is uncertain and not asserted; the
+    officiant's surname is uncertain.
+digital_file:
+  path: evidence/parish/PAR-0082-isabel-silva-ferreira-obito-1860-novafriburgo.jpg
+  sha256: a48d8c100ad26c823ced716679896644ead829eb8c6f92b5937431a755459556
+linked_people:
+- P-0036
+- P-0037
+linked_families:
+- F-0017
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the documented child Isabel da Silva Ferreira on family F-0017
+    (Antonio da Silva Ferreira × Maria Joanna); an infant sister of Lucinda
+    Ferreira da Silva (P-0031) who died aged about six weeks. Not modelled as a
+    person entity; no event created. Public record (1860).

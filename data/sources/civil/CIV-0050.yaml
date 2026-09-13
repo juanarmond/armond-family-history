@@ -1,0 +1,112 @@
+schema_version: 1
+id: CIV-0050
+title: >-
+  1982 civil death of Sebastião José de Carvalho Guimarães at Jacarezinho (Paraná)
+  — son of Francisco José de Carvalho Guimarães and Emmerenciana Maria de Jesus
+title_pt: >-
+  Óbito civil de 1982 de Sebastião José de Carvalho Guimarães em Jacarezinho
+  (Paraná) — filho de Francisco José de Carvalho Guimarães e Emmerenciana Maria de
+  Jesus
+record_type: Civil death register entry
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1982-04-13"
+event_place_text: >-
+  Jacarezinho, Paraná, Brazil
+registration_date:
+  kind: exact
+  value: "1982-04-13"
+repository:
+  name: >-
+    Cartório do Registro Civil de Jacarezinho, Paraná — termo nº 2207, folha 174
+  archive_or_registry: FamilySearch (retrieval-agent pull)
+  collection: >-
+    Brasil, Paraná, Registro Civil — livro de óbitos, Jacarezinho, 1982
+  record_number: "2207"
+  page: "174"
+  catalogue_reference: >-
+    rec-guimaraes-sebastiao-obito-1982-jacarezinho.jpg (retrieval drop). Termo nº
+    2207, fl.174 (typewritten); the page opening also holds termos nº 2208, 2209,
+    2210 (unrelated, not this record).
+  repository_path: >-
+    evidence/civil/CIV-0050-sebastiao-carvalho-guimaraes-obito-1982-jacarezinho.jpg
+access_date: "2026-09-13"
+language: pt-BR
+transcription: >-
+  [Registro Civil de Jacarezinho (PR), livro de óbitos, fl.174, termo nº 2207,
+  1982 (datilografado). Nomes de terceiros possivelmente vivos e o número do
+  registro de nascimento omitidos por privacidade.] "Em treze — 13 — de abril de
+  mil novecentos e oitenta e dois, nesta cidade e comarca de Jacarezinho — Pr., em
+  cartório, compareceu [declarante — omitido: privacidade], aposentado, casado,
+  brasileiro, e exibindo atestado de óbito firmado pelo médico [omitido] — aquí
+  residentes, dando como causa de morte: síncope cardíaca. Declarou que no dia de
+  hoje, à 1 hora, nesta cidade, na porta da Catedral, faleceu Sebastião José de
+  Carvalho Guimarães, do sexo masculino, de cor branca, profissão lavrador,
+  natural de S. Francisco do Gloria — MG., domiciliado e residente no Asilo S.
+  Vicente de Paula, nesta cidade, com 72 anos de idade, estado civil solteiro,
+  filho de Francisco José de Carvalho Guimarães e Emmerenciana Maria de Jesus. O
+  sepultamento será feito no cemitério local. Não era eleitor. Não deixa bens.
+  Registrado onde nasceu, sob nº [omitido — privacidade], fls. 23 do livro 4-A. Do
+  que faço este termo que lido e achado conforme vai assinado pelo declarante…"
+abstract: >-
+  Civil death of Sebastião José de Carvalho Guimarães, a farmer, who died 13 April
+  1982 at Jacarezinho (PR), aged 72 (implied born ~1910), single, "natural de São
+  Francisco do Glória, MG", resident of the São Vicente de Paula asylum. It names
+  his parents Francisco José de Carvalho Guimarães (P-0021) and Emmerenciana Maria
+  de Jesus (P-0022) — hence Sebastião is a brother of Maria Aurora Guimarães
+  (P-0011) and of José de Carvalho Guimarães Sobrinho (CIV-0049). Recorded as a
+  documented child on family F-0008. It confirms the mother's full name
+  "Emmerenciana Maria de Jesus" (uncertain on the 1964 act CIV-0049). PROVEN. Not
+  modelled as a person entity; no event created. Private record — the declarant,
+  the physician, the registrar and the birth-record number are withheld for
+  privacy.
+abstract_pt: >-
+  Óbito civil de Sebastião José de Carvalho Guimarães, lavrador, falecido em 13 de
+  abril de 1982 em Jacarezinho (PR), com 72 anos (nascido ~1910), solteiro,
+  "natural de São Francisco do Glória, MG", residente no Asilo S. Vicente de
+  Paula. Nomeia seus pais Francisco José de Carvalho Guimarães (P-0021) e
+  Emmerenciana Maria de Jesus (P-0022) — portanto Sebastião é irmão de Maria
+  Aurora Guimarães (P-0011) e de José de Carvalho Guimarães Sobrinho (CIV-0049).
+  Registrado como filho documentado na família F-0008. Confirma o nome completo da
+  mãe "Emmerenciana Maria de Jesus" (incerto no ato de 1964, CIV-0049). PROVADO.
+  Não modelado como entidade pessoa; sem evento criado. Registro privado — o
+  declarante, o médico, a oficiala e o número do registro de nascimento são
+  omitidos por privacidade.
+reliability:
+  assessment: >-
+    Direct primary for the death; the parents and the age/birthplace are
+    informant-reported (hence information_quality mixed). It names both parents,
+    placing Sebastião as a child of Francisco José de Carvalho Guimarães ×
+    Emmerenciana Maria de Jesus (F-0008), and confirms the mother's full name.
+  informant: >-
+    A retired declarant who exhibited the attending physician's death certificate,
+    Jacarezinho, 13 April 1982 (name withheld for privacy).
+  limitations: >-
+    Informant-reported filiation and age. "Não era eleitor" (no voter/ID number);
+    the birth cross-reference number is withheld. The declarant, the physician and
+    the registrar are withheld for privacy.
+digital_file:
+  path: evidence/civil/CIV-0050-sebastiao-carvalho-guimaraes-obito-1982-jacarezinho.jpg
+  sha256: f0b21daf5ab334de925d7d80e1a8f81b1f17572e30bb0a3bfd53fdd4fe96a0d7
+linked_people:
+- P-0021
+- P-0022
+linked_families:
+- F-0008
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Source for the documented child Sebastião José de Carvalho Guimarães on family
+    F-0008 (Francisco José de Carvalho Guimarães × Emmerenciana Maria de Jesus); a
+    brother of Maria Aurora Guimarães (P-0011). Not modelled as a person entity; no
+    event created. Private record (1982) — the declarant, physician, registrar and
+    the birth-record number are withheld. Confirms the mother's full name
+    "Emmerenciana Maria de Jesus" (uncertain on CIV-0049). Same parent couple as
+    CIV-0049 (José Sobrinho); the two men are brothers.

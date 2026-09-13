@@ -15,6 +15,13 @@
 #            opens the record. Only reference deceased people.
 
 updates:
+  - date: "2026-09-13"
+    kind: milestone
+    title: "More brothers and sisters documented across the tree — three Bohrer baptisms re-found at Nova Friburgo, the Muniz sisters' own Azores records, and the Guimarães uncles' life dates"
+    title_pt: "Mais irmãos e irmãs documentados em toda a árvore — três batismos Bohrer reencontrados em Nova Friburgo, os registros açorianos das irmãs Muniz e as datas de vida dos tios Guimarães"
+    primary: PAR-0080
+    links: [P-0014, P-0015, P-0028, P-0030, PAR-0078, PAR-0080, PAR-0083]
+
   - date: "2026-09-11"
     kind: milestone
     title: "Great-grandparents' siblings documented from their own records — Ritta and Ana (Muniz), Teodolina (Engrácio), Maria Felomena and Maria (Bohrer)"

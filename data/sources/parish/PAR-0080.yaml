@@ -1,0 +1,106 @@
+schema_version: 1
+id: PAR-0080
+title: >-
+  1900 baptism of the twin sisters Adelaide and Carolina Bohrer at Lumiar (Nova
+  Friburgo) — daughters of Valentim Martinho Bohrer and Carolina Klein
+title_pt: >-
+  Batismo de 1900 das irmãs gêmeas Adelaide e Carolina Bohrer em Lumiar (Nova
+  Friburgo) — filhas de Valentim Martinho Bohrer e Carolina Klein
+record_type: Parish baptism register entry (twin sisters, two consecutive entries)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1900-09-20"
+event_place_text: >-
+  Lumiar, Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Paróquia de Nova Friburgo (Livro de Baptismos — sub-registro do Lumiar)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: >-
+    Livro de Baptismos (Lumiar), folhas 79-80 (1900), entries 786 (Adelaide) and
+    787 (Carolina)
+  catalogue_reference: >-
+    rec-bohrer-adelaide-carolina-twins-baptism-1899-novafriburgo-djoaovi-p1.jpg /
+    -p2.jpg (retrieval drop). Fl. 79 (entries 786-787), entry 787 closing onto
+    fl. 80; officiant P. Alberto Teixeira Pequeno (Lumiar sub-register). Re-pulled
+    at the correct folio (the earlier delivery was a wrong-folio 1900 crop, fl. 78,
+    and is a different record from the collateral Vicente-Jr twins). "1899" in the
+    filename is the twins' birth year; the baptism act is 1900.
+access_date: "2026-09-13"
+language: pt-BR
+transcription: >-
+  [Livro de Baptismos, Lumiar de Nova Friburgo, fl.79-80, 1900. One continuous
+  record of two consecutive baptism entries for the twin sisters.]
+  "[786 / Adelaide] Aos vinte dias do mez de Setembro de mil e novecentos,
+  baptisei solemnemente em Lumiar de Nova Friburgo a Adelaide, nascida a dezenove
+  de Julho de mil e oito centos e noventa e nove, filha legitima de Valentim
+  Martinho Bohrer e Carolina Klein Bohrer. Forão padrinhos João Maria Bohrer e
+  Luiz Bohrer. Para constar fiz este assento que assigno. P. Alberto Teixeira
+  Pequeno, pro-Parocho. [Diz a entrelinha: João Maria Bohrer e Luiz Bohrer —
+  validada pelo pároco.]"
+  "[787 / Carolina] Aos vinte dias do mez de Setembro de mil e novecentos,
+  baptisei solemnemente em Lumiar de Nova Friburgo a Carolina, nascida em dezenove
+  de Julho de mil e oito centos e noventa e nove, filha legitima de Valentim
+  Martinho Bohrer e Carolina Klein Bohrer. Forão padrinhos Jacob Klein e Maria
+  Luiza Schewele [Schenck? — uncertain]. Para constar fiz [fl.80:] este assento
+  que assigno. Padre Alberto Teixeira Pequeno, pro-Parocho."
+abstract: >-
+  Parish baptism of the twin sisters Adelaide and Carolina Bohrer, both born 19
+  July 1899 and both baptised 20 September 1900 at Lumiar de Nova Friburgo
+  (fl. 79-80, entries 786 and 787), legitimate daughters of Valentim Martinho
+  Bohrer (P-0028) and Carolina Klein (P-0029) — i.e. younger siblings of the
+  direct ancestor João Gonçalves Bohrer (P-0014). Recorded as two documented
+  children on family F-0013. Both parents are named on both entries. Carolina's
+  godparents are her maternal grandparents Jacob Klein and Maria Luiza [Schenck?].
+  This is a distinct record from the previously-rejected 1900 crop
+  (which belonged to the collateral Vicente Bohrer Jr × Hortencia Heckdorn
+  branch). PROVEN. Not modelled as person entities; no events created.
+abstract_pt: >-
+  Batismo paroquial das irmãs gêmeas Adelaide e Carolina Bohrer, ambas nascidas
+  em 19 de julho de 1899 e ambas baptizadas em 20 de setembro de 1900 em Lumiar
+  de Nova Friburgo (fl. 79-80, assentos 786 e 787), filhas legítimas de Valentim
+  Martinho Bohrer (P-0028) e Carolina Klein (P-0029) — ou seja, irmãs mais novas
+  do ancestral direto João Gonçalves Bohrer (P-0014). Registradas como duas
+  filhas documentadas na família F-0013. Ambos os pais são nomeados nos dois
+  assentos. Os padrinhos de Carolina são seus avós maternos Jacob Klein e Maria
+  Luiza [Schenck?] (F-0037). Este é um registro distinto do recorte de 1900
+  anteriormente rejeitado (que pertencia ao ramo colateral Vicente Bohrer Junior
+  × Hortencia Heckdorn). PROVADO. Não modeladas como entidades pessoa; sem
+  eventos criados.
+reliability:
+  assessment: >-
+    Primary parish baptism entries — direct primary for the twins' birth/baptism
+    and their filiation to Valentim Martinho Bohrer and Carolina Klein. Both
+    entries independently name both parents.
+  informant: The pro-Pároco Padre Alberto Teixeira Pequeno (Lumiar).
+  limitations: >-
+    Carolina's godmother surname reads "Schewele" (likely Schenck — uncertain).
+    Adelaide's godparents were interlineated and validated by the priest. The
+    twins were born 1899 but baptised 1900 (a delayed baptism). No grandparents
+    are named beyond Carolina's Klein godparents.
+digital_file:
+  path: evidence/parish/PAR-0080-adelaide-carolina-bohrer-twins-baptism-1900-novafriburgo.jpg
+  sha256: 5b22c2c3329e700d88f23b3cb2f6a0d413dce55a6e9cb935593fe7b1c104d39c
+additional_pages:
+- path: evidence/parish/PAR-0080-adelaide-carolina-bohrer-twins-baptism-1900-novafriburgo-p2.jpg
+  sha256: 8749e6bdd2db0a55bae875ea98e672349c635efc9617df1498fd9533feb120f9
+linked_people:
+- P-0028
+- P-0029
+linked_families:
+- F-0013
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for two documented children — the twin sisters Adelaide Bohrer and
+    Carolina Bohrer — on family F-0013 (Valentim Martinho Bohrer × Carolina
+    Klein); younger siblings of the direct ancestor João Gonçalves Bohrer
+    (P-0014). Not modelled as person entities; no events created. Public record
+    (baptism 1900, birth 1899). Distinct from the collateral Vicente Bohrer Jr ×
+    Hortencia Heckdorn twins that were previously rejected.

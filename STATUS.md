@@ -86,10 +86,10 @@ physical or authorised access, not read-only web.
 | Structured families | 61 |
 | Structured events | 122 |
 | Structured places | 9 |
-| Structured sources | 150 |
+| Structured sources | 161 |
 | Structured FAN references | 13 |
-| Retained evidence scans | 214 |
-| Validation | zero errors or warnings at the last check (2026-09-10) |
+| Retained evidence scans | 226 |
+| Validation | zero errors or warnings at the last check (2026-09-13) |
 | Automated tests | 75 passing at the last check |
 
 The catalogued sources span the Armond/Paz, Muniz Bittencourt/Azevedo,

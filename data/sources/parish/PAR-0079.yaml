@@ -1,0 +1,81 @@
+schema_version: 1
+id: PAR-0079
+title: >-
+  1898 baptism of Renato Bohrer at Nova Friburgo — son of Joaquim José Bohrer and
+  Lucinda Ferreira da Silva
+title_pt: >-
+  Batismo de 1898 de Renato Bohrer em Nova Friburgo — filho de Joaquim José
+  Bohrer e Lucinda Ferreira da Silva
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1898-01-31"
+event_place_text: >-
+  Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Paróquia de Nova Friburgo (Livro de Baptismos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Baptismos, folha 129 (1898), entry 1587
+  catalogue_reference: >-
+    rec-bohrer-renato-baptism-1898-novafriburgo-djoaovi.jpg (retrieval drop).
+    Fl. 129, assento nº 1587, Cônego José Silvestre Alves de Miranda's register.
+    Re-pulled at the correct folio (the earlier delivery was a wrong-folio crop,
+    fl. 128).
+access_date: "2026-09-13"
+language: pt-BR
+transcription: >-
+  [Livro de Baptismos, Nova Friburgo, fl.129, 1898. Margem: "1587 / Renato".]
+  "Aos trinta e um dias do mes de Janeiro de mil oito centos e noventa e oito
+  baptisei solemnemente a Renato, nascido á doze de Setembro de mil oito centos
+  e noventa e sete, filho legitimo de Joaquim José Borber [Bohrer] e Lucinda da
+  Silva Ferreira Berber. Forão padrinhos Bernardo Nunes [Pinto — uncertain] e
+  Laura Borba Nunes [Pinto — uncertain]. Para constar fiz este assento, que
+  assigno. O Vigario Conego José Silvestre Alves de Miranda."
+abstract: >-
+  Parish baptism of Renato Bohrer, born 12 September 1897 and baptised 31 January
+  1898 at Nova Friburgo (fl. 129, entry 1587), legitimate son of Joaquim José
+  Bohrer (P-0030) and Lucinda Ferreira da Silva (P-0031) — i.e. a younger sibling
+  of the direct ancestor Celina Bohrer (P-0015). Recorded as a documented child
+  on family F-0014. Both parents are named (the mother written "Lucinda da Silva
+  Ferreira", the same woman as P-0031); the surname is written "Borber" (a scribal
+  variant of Bohrer). PROVEN. Not modelled as a person entity; no event created.
+abstract_pt: >-
+  Batismo paroquial de Renato Bohrer, nascido em 12 de setembro de 1897 e
+  baptizado em 31 de janeiro de 1898 em Nova Friburgo (fl. 129, assento 1587),
+  filho legítimo de Joaquim José Bohrer (P-0030) e Lucinda Ferreira da Silva
+  (P-0031) — ou seja, um irmão mais novo da ancestral direta Celina Bohrer
+  (P-0015). Registrado como filho documentado na família F-0014. Ambos os pais
+  são nomeados (a mãe grafada "Lucinda da Silva Ferreira", a mesma mulher que
+  P-0031); o sobrenome está escrito "Borber" (variante do escrivão para Bohrer).
+  PROVADO. Não modelado como entidade pessoa; sem evento criado.
+reliability:
+  assessment: >-
+    Primary parish baptism entry — direct primary for the birth/baptism and the
+    child's filiation to Joaquim José Bohrer and Lucinda Ferreira da Silva.
+  informant: The Vigário Cônego José Silvestre Alves de Miranda.
+  limitations: >-
+    Surname written "Borber" (Bohrer); the godparents' surname reads "Nunes
+    [Pinto?]" (uncertain). Re-pulled at the correct folio (fl. 129); the earlier
+    delivery was a wrong-folio crop. No grandparents named.
+digital_file:
+  path: evidence/parish/PAR-0079-renato-bohrer-baptism-1898-novafriburgo.jpg
+  sha256: 1e1bb5a190ad2e9c045520d3bc4edb7ecbe621973e754bf4c3462097cac6bec6
+linked_people:
+- P-0030
+- P-0031
+linked_families:
+- F-0014
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the documented child Renato Bohrer on family F-0014 (Joaquim José
+    Bohrer × Lucinda Ferreira da Silva); a sibling of the direct ancestor Celina
+    Bohrer (P-0015). Not modelled as a person entity; no event created. Public
+    record (1898).

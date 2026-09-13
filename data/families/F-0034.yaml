@@ -35,11 +35,28 @@ documented_children:
 - name: "Maria Elisabeth Borer, n.15/12/1866"
   source_ids:
   - PUB-0003
-  note: "Not modelled."
+  - PAR-0081
+  note: >-
+    Elder sister of Valentim Martinho Bohrer (P-0028). Her 1867 Nova Friburgo baptism
+    (PAR-0081) is now held — born 15 December 1866, baptised 10 February 1867,
+    legitimate daughter of Vicente Bohrer × Maria (Thecla) Eggendorn — upgrading this
+    entry from the secondary Imigrantes compilation (PUB-0003) to a primary parish
+    record. Not modelled.
 - name: "Vicente Borer (Jr.), n.16/04/1871"
   source_ids:
   - PUB-0003
   note: "Not modelled."
+- name: José Maria Bocher (Bohrer)
+  source_ids:
+  - CIV-0048
+  lifespan: b. ~1886
+  note: >-
+    Younger brother of Valentim Martinho Bohrer (P-0028); son of Vicente Borer (P-0070)
+    × Maria Thecla Regina Eggendorn (P-0071). A farmer, born ~1886, natural do Estado do
+    Rio de Janeiro; married Maria Rosaria Pacheco on 2 May 1913 at Maravilhas, Barra
+    Alegre (Bom Jardim, RJ) (CIV-0048) — an act among whose signatories Valentim Martinho
+    Borer himself appears (a corroborating signature). Surname written "Bocher" in that
+    act. Deceased.
 event_ids:
 - E-0063
 notes:

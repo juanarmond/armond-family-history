@@ -32,11 +32,19 @@ children:
     notes: []
   notes: []
 documented_children:
-- name: José de Carvalho Guimarães
+- name: José de Carvalho Guimarães (Sobrinho)
   source_ids:
   - CIV-0007
-  lifespan: b. 1901
-  note: Registered in the 1915 collective birth registration (CIV-0007); born 8 November 1901.
+  - CIV-0049
+  lifespan: 1901–1964
+  note: >-
+    Brother of Maria Aurora Guimarães (P-0011) and maternal uncle of Cidalia (P-0005).
+    Registered in the 1915 collective birth registration (CIV-0007; born 8 November 1901)
+    and documented by his 1964 Califórnia (Arapoti, PR) civil death (CIV-0049; died 21
+    December 1964 aged 63, a married farmer, "natural de São Francisco da Glória, MG"),
+    which names both parents. The death act styles him "José de Carvalho Guimarães
+    Sobrinho" (a nephew-namesake suffix). He left eleven children (Cidalia's first cousins,
+    living descendants), not modelled per the direct-line scope. Deceased.
 - name: Maria da Conceição Guimarães
   source_ids:
   - CIV-0007
@@ -45,8 +53,15 @@ documented_children:
 - name: Sebastião José de Carvalho Guimarães
   source_ids:
   - CIV-0007
-  lifespan: b. 1909
-  note: Registered in CIV-0007; born 2 June 1909.
+  - CIV-0050
+  lifespan: 1909–1982
+  note: >-
+    Brother of Maria Aurora Guimarães (P-0011) and maternal uncle of Cidalia (P-0005).
+    Registered in the 1915 collective birth registration (CIV-0007; born 2 June 1909) and
+    documented by his 1982 Jacarezinho (PR) civil death (CIV-0050; died 13 April 1982 aged
+    72, single, a farmer resident of the São Vicente de Paula asylum, "natural de São
+    Francisco do Glória, MG"), which names both parents and confirms the mother's full name
+    "Emmerenciana Maria de Jesus". Deceased.
 - name: João José de Carvalho Guimarães
   source_ids:
   - CIV-0007

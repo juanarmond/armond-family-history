@@ -1,0 +1,87 @@
+schema_version: 1
+id: PAR-0081
+title: >-
+  1867 baptism of Maria Elizabeth Bohrer at Nova Friburgo — daughter of Vicente
+  Bohrer and Maria (Thecla) Eggendorn
+title_pt: >-
+  Batismo de 1867 de Maria Elizabeth Bohrer em Nova Friburgo — filha de Vicente
+  Bohrer e Maria (Thecla) Eggendorn
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1867-02-10"
+event_place_text: >-
+  Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Paróquia de Nova Friburgo (Livro de Baptismos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: >-
+    Livro de Baptismos (1867), collective-baptism session, subject entry "1.ª";
+    officiant Vigário João José Viviani
+  catalogue_reference: >-
+    rec-bohrer-mariaelisabeth-baptism-1867-novafriburgo-djoaovi.jpg (retrieval
+    drop). No folio/termo number is printed on the opening; the subject is entry
+    "1.ª" of a collective session.
+access_date: "2026-09-13"
+language: pt-BR
+transcription: >-
+  [Livro de Baptismos, Nova Friburgo, 1867. Sessão de baptismos coletivos; o
+  sujeito é a entrada "1.ª". Margem: "M.ª Elisab. Bohrer" (abreviado, leitura
+  incerta).] "A dez de Fevereiro de mil oitocentos sessenta e sete baptizei a
+  1.ª Maria Elizabeth, nascida a quinze de Dezembro, filha leg.ma de Vicente
+  Bohrer e de Maria Eggendorn, forão padrinhos João Eggendorn e Elisabeth
+  Eggendorn." [A entrada seguinte, "2.ª Maria Luiza … filha leg.ma de Antonio
+  Eggendorn e de Maria Catharina Ritter", é um baptismo separado e não
+  relacionado.] "O Vigario João José Viviani."
+abstract: >-
+  Parish baptism of Maria Elizabeth Bohrer, born 15 December 1866 and baptised
+  10 February 1867 at Nova Friburgo, legitimate daughter of Vicente Bohrer
+  (P-0070) and Maria Eggendorn (P-0071, "Maria Thecla Regina Eggendorn"; here
+  written only "Maria Eggendorn") — i.e. an elder sister of Valentim Martinho
+  Bohrer (P-0028). This is a PRIMARY parish baptism confirming the documented
+  child previously held only on the secondary Imigrantes compilation (PUB-0003)
+  on family F-0034. Godparents João Eggendorn and Elisabeth Eggendorn
+  (maternal-side kin). PROVEN. Not modelled as a person entity; no event
+  created.
+abstract_pt: >-
+  Batismo paroquial de Maria Elizabeth Bohrer, nascida em 15 de dezembro de 1866
+  e baptizada em 10 de fevereiro de 1867 em Nova Friburgo, filha legítima de
+  Vicente Bohrer (P-0070) e Maria Eggendorn (P-0071, "Maria Thecla Regina
+  Eggendorn"; aqui grafada apenas "Maria Eggendorn") — ou seja, irmã mais velha
+  de Valentim Martinho Bohrer (P-0028). É um batismo paroquial PRIMÁRIO que
+  confirma a filha documentada antes apoiada apenas na compilação secundária dos
+  Imigrantes (PUB-0003) na família F-0034. Padrinhos João Eggendorn e Elisabeth
+  Eggendorn (parentes do lado materno). PROVADO. Não modelada como entidade
+  pessoa; sem evento criado.
+reliability:
+  assessment: >-
+    Primary parish baptism entry — direct primary for the birth/baptism and the
+    child's filiation to Vicente Bohrer and Maria (Thecla) Eggendorn.
+  informant: The Vigário João José Viviani.
+  limitations: >-
+    Surname written "Bohrer" and mother's given name only "Maria" (not
+    "Thecla"/"Regina") in this act; the marginal name is abbreviated (uncertain).
+    No folio/termo number on the opening.
+digital_file:
+  path: evidence/parish/PAR-0081-maria-elizabeth-bohrer-baptism-1867-novafriburgo.jpg
+  sha256: 23ded614995163e8213e4d09c9bc5cb811873b29c7032446fe5cfc87ef8c1ceb
+linked_people:
+- P-0070
+- P-0071
+linked_families:
+- F-0034
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the documented child Maria Elizabeth Bohrer on family F-0034
+    (Vicente Bohrer × Maria Thecla Regina Eggendorn); an elder sister of Valentim
+    Martinho Bohrer (P-0028). This primary baptism upgrades the entry previously
+    supported only by the secondary Imigrantes compilation (PUB-0003). Not
+    modelled as a person entity; no event created. Public record (1867).

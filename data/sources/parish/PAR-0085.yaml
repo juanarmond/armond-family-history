@@ -1,0 +1,88 @@
+schema_version: 1
+id: PAR-0085
+title: >-
+  1854 death of the infant Claudina Muniz Bitancourt at N.S. Mãe de Deus
+  (Povoação, São Miguel, Azores) — daughter of Manoel Muniz de Bitancourt and
+  Francisca Roza
+title_pt: >-
+  Óbito de 1854 da menina Claudina Muniz Bitancourt em N.S. Mãe de Deus
+  (Povoação, São Miguel, Açores) — filha de Manoel Muniz de Bitancourt e
+  Francisca Roza
+record_type: Parish death/burial register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1854-09-24"
+event_place_text: >-
+  Igreja Parochial de Nossa Senhora Mãe de Deos, Vila da Povoação, Ilha de São
+  Miguel, Diocese de Angra, Açores, Portugal
+repository:
+  name: Paróquia de Nossa Senhora Mãe de Deus, Povoação (Livro de Óbitos)
+  archive_or_registry: FamilySearch (retrieval-agent pull)
+  collection: >-
+    Livro de Óbitos, fl. 528 (1854); officiant Cura Bernardo Antonio Pacheco de
+    Rezende
+  catalogue_reference: >-
+    rec-muniz-claudina-infant-obito-1854-maededeus.jpg (retrieval drop). Fl.
+    528, 2nd entry in the left column (margin "Claudina"). Other entries on the
+    page are unrelated.
+access_date: "2026-09-13"
+language: pt-BR
+transcription: >-
+  [Livro de Óbitos, N.S. Mãe de Deos, Povoação (São Miguel), fl.528, 1854.
+  Margem: "Claudina".] "Em os vinte quatro de Setembro de mil oito centos
+  cincoenta e quatro nesta Parochial de Nossa Senhora Mãe de Deos da Villa da
+  Povoação faleceo de idade de quatro mezes Claudina filha de Manoel Muniz de
+  Bitancourt e de Francisca Roza freguezes desta Parochial, seu corpo foi
+  encommendado em caza e acompanhado até ao cemiterio. E por mim Bernardo
+  Antonio Pacheco de Rezende cura della do que lancei este termo em o dia mez e
+  anno ut supra. O Cura Bernardo Antonio Pacheco de Rezende."
+abstract: >-
+  Parish death/burial entry of the infant Claudina, aged four months (born ~May
+  1854), who died 24 September 1854 at N.S. Mãe de Deus (Povoação, São Miguel,
+  Azores), daughter of Manoel Muniz de Bitancourt (P-0042) and Francisca Roza
+  (P-0047) — hence an infant sister of the emigrant João Muniz Bittencourt
+  (P-0019). Recorded as a documented child on family F-0020. She is a distinct
+  person from the couple's later daughter Claudina (b. ~1856) who married in
+  1872 (PAR-0084) — the given name was reused after the infant's death. PROVEN.
+  Not modelled as a person entity; no event created.
+abstract_pt: >-
+  Assento de óbito/sepultamento da menina Claudina, de quatro meses (nascida
+  ~maio de 1854), falecida em 24 de setembro de 1854 em N.S. Mãe de Deus
+  (Povoação, São Miguel, Açores), filha de Manoel Muniz de Bitancourt (P-0042) e
+  Francisca Roza (P-0047) — portanto irmã bebê do emigrante João Muniz
+  Bittencourt (P-0019). Registrada como filha documentada na família F-0020. É
+  pessoa distinta da filha posterior do casal, Claudina (n. ~1856), que se casou
+  em 1872 (PAR-0084) — o nome foi reutilizado após a morte da bebê. PROVADO. Não
+  modelada como entidade pessoa; sem evento criado.
+reliability:
+  assessment: >-
+    Primary parish death/burial entry — direct primary for the infant's death
+    and her filiation to Manoel Muniz de Bitancourt and Francisca Roza.
+  informant: The Cura Bernardo Antonio Pacheco de Rezende.
+  limitations: >-
+    An infant burial entry names the parents but no birth date (age "quatro
+    mezes" implies birth ~May 1854). The couple reused the name "Claudina" for a
+    later daughter (PAR-0084); the two are distinct.
+digital_file:
+  path: evidence/parish/PAR-0085-claudina-muniz-bitancourt-obito-1854-maededeus.jpg
+  sha256: 8b0065f2f1a67349c5b282486caf4157ff0e2fd054a0fc7e7422d7ae61251ff6
+linked_people:
+- P-0042
+- P-0047
+linked_families:
+- F-0020
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the documented child (infant) Claudina Muniz Bitancourt on family
+    F-0020 (Manoel Muniz Bitancourt × Francisca Roza); an infant sister of the
+    emigrant João Muniz Bittencourt (P-0019) who died aged four months. Distinct
+    from the couple's later daughter Claudina who married in 1872 (PAR-0084). Not
+    modelled as a person entity; no event created. Public record (1854, Azores).

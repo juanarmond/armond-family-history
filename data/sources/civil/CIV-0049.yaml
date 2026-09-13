@@ -1,0 +1,118 @@
+schema_version: 1
+id: CIV-0049
+title: >-
+  1964 civil death of José de Carvalho Guimarães Sobrinho at Califórnia (Paraná) —
+  son of Francisco José de Carvalho Guimarães and Emerenciana Maria de Jesus
+title_pt: >-
+  Óbito civil de 1964 de José de Carvalho Guimarães Sobrinho em Califórnia
+  (Paraná) — filho de Francisco José de Carvalho Guimarães e Emerenciana Maria de
+  Jesus
+record_type: Civil death register entry
+record_category: civil_registration
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1964-12-21"
+event_place_text: >-
+  Califórnia (Comarca de Arapoti), Paraná, Brazil
+registration_date:
+  kind: exact
+  value: "1964-12-22"
+repository:
+  name: >-
+    Cartório do Registro Civil de Califórnia (Comarca de Arapoti), Paraná — termo
+    nº 1876, folha 170
+  archive_or_registry: FamilySearch (retrieval-agent pull)
+  collection: >-
+    Brasil, Paraná, Registro Civil — livro de óbitos, Califórnia (Arapoti), 1964
+  record_number: "1876"
+  page: "170"
+  catalogue_reference: >-
+    rec-guimaraes-jose-sobrinho-obito-1964-california-pr.jpg (retrieval drop).
+    Termo nº 1876, fl.170; the page opening also holds termos nº 1874, 1875, 1877
+    (unrelated namesakes, not this record).
+  repository_path: >-
+    evidence/civil/CIV-0049-jose-carvalho-guimaraes-sobrinho-obito-1964-california.jpg
+access_date: "2026-09-13"
+language: pt-BR
+transcription: >-
+  [Registro Civil de Califórnia (Arapoti, PR), livro de óbitos, fl.170, termo nº
+  1876, 1964. Nomes de terceiros possivelmente vivos e endereços omitidos por
+  privacidade.] "Em vinte e dois de Dezembro de mil novecentos e sessenta e
+  quatro, nesta cidade da Califórnia, Comarca de Arapoti, Est. do Paraná, em
+  cartório, compareceu [declarante — omitido: privacidade], e exibindo o atestado
+  de óbito firmado por [médico — omitido], dando como causa de morte Colapso
+  Cardíaco, declarou que no dia vinte e um do dito mês e ano, às três horas, em
+  seu domicílio, no [bairro — omitido], neste Distrito, faleceu 'José de Carvalho
+  Guimarães Sobrinho', do sexo masculino, de côr branca, profissão Lavrador,
+  natural do Estado de Minas Gerais, São Francisco da Glória, domiciliado e
+  residente neste Distrito, com sessenta e três anos de idade, estado civil
+  Casado, legítimo filho de Francisco J[osé de] C[arvalho] Guimarães e da
+  [Emerenciana — uncertain] M[aria de Jesus] C[arvalho] Guimarães, ambos naturais
+  do Estado de Minas Gerais, e ambos já falecidos. O sepultamento será feito no
+  Cemitério de Califórnia. O falecido era casado civilmente com [viúva —
+  omitido: privacidade]. Deixou onze filhos [descendentes vivos, não nomeados].
+  Não tem bens a inventariar. O que para constar lavrei este termo…"
+abstract: >-
+  Civil death of José de Carvalho Guimarães Sobrinho, a farmer, who died 21
+  December 1964 (registered 22 December) at Califórnia (Arapoti, PR), aged 63
+  (implied born ~1901), "natural do Estado de Minas Gerais, São Francisco da
+  Glória", married. It names his parents Francisco José de Carvalho Guimarães
+  (P-0021) and Emerenciana Maria de Jesus (P-0022) — "ambos já falecidos" — hence
+  José Sobrinho is a brother of Maria Aurora Guimarães (P-0011). Recorded as a
+  documented child on family F-0008. The mother's given name reads "Emerenciana"
+  (uncertain here; corroborated as "Emmerenciana Maria de Jesus" by CIV-0050).
+  PROVEN. Not modelled as a person entity; no event created. Private record — the
+  declarant, the surviving widow, the eleven children and the addresses are
+  withheld for privacy.
+abstract_pt: >-
+  Óbito civil de José de Carvalho Guimarães Sobrinho, lavrador, falecido em 21 de
+  dezembro de 1964 (registrado em 22 de dezembro) em Califórnia (Arapoti, PR), com
+  63 anos (nascido ~1901), "natural do Estado de Minas Gerais, São Francisco da
+  Glória", casado. Nomeia seus pais Francisco José de Carvalho Guimarães (P-0021)
+  e Emerenciana Maria de Jesus (P-0022) — "ambos já falecidos" — portanto José
+  Sobrinho é irmão de Maria Aurora Guimarães (P-0011). Registrado como filho
+  documentado na família F-0008. O nome da mãe lê-se "Emerenciana" (incerto aqui;
+  corroborado como "Emmerenciana Maria de Jesus" por CIV-0050). PROVADO. Não
+  modelado como entidade pessoa; sem evento criado. Registro privado — o
+  declarante, a viúva sobrevivente, os onze filhos e os endereços são omitidos por
+  privacidade.
+reliability:
+  assessment: >-
+    Direct primary for the death; the parents and the age/birthplace are
+    informant-reported (hence information_quality mixed). It names both parents of
+    the deceased, placing José Sobrinho as a child of Francisco José de Carvalho
+    Guimarães × Emerenciana Maria de Jesus (F-0008).
+  informant: >-
+    A declarant who exhibited the attending physician's death certificate,
+    Califórnia (Arapoti), 22 December 1964 (name withheld for privacy).
+  limitations: >-
+    Informant-reported filiation and age. The mother's given name ("Emerenciana")
+    is uncertain on this handwritten act (corroborated by CIV-0050). No government
+    identity numbers appear. The declarant, the surviving widow, the eleven
+    children and the addresses are withheld for privacy.
+digital_file:
+  path: evidence/civil/CIV-0049-jose-carvalho-guimaraes-sobrinho-obito-1964-california.jpg
+  sha256: eea94454848738f6c514956a9e6c6700525cde32c7c7f07471931e58930daa85
+linked_people:
+- P-0021
+- P-0022
+linked_families:
+- F-0008
+linked_events: []
+linked_places: []
+private: true
+notes:
+- text: >-
+    Source for the documented child José de Carvalho Guimarães Sobrinho on family
+    F-0008 (Francisco José de Carvalho Guimarães × Emerenciana Maria de Jesus); a
+    brother of Maria Aurora Guimarães (P-0011). Not modelled as a person entity;
+    no event created. Private record (1964) — the declarant, the surviving widow,
+    the eleven surviving children (living descendants) and residential addresses
+    are withheld. The handoff's claim that his parents were "Vicente × Maria
+    Tertuliana" is corrected by the image: the record names Francisco × Emerenciana
+    (i.e. Maria Aurora's own parents, F-0008), a generation below Vicente/Tertuliana
+    (F-0009).

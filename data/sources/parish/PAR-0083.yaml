@@ -1,0 +1,94 @@
+schema_version: 1
+id: PAR-0083
+title: >-
+  1878 marriage of Anna Maria Byttencourt at N.S. Mãe de Deus (Povoação, São
+  Miguel, Azores) — daughter of Manoel Muniz Byttencourt and Francisca Roza do
+  Espírito Santo
+title_pt: >-
+  Casamento de 1878 de Anna Maria Byttencourt em N.S. Mãe de Deus (Povoação, São
+  Miguel, Açores) — filha de Manoel Muniz Byttencourt e Francisca Roza do
+  Espírito Santo
+record_type: Parish marriage register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1878-04-04"
+event_place_text: >-
+  Igreja Parochial de Nossa Senhora Mãe de Deos, Vila da Povoação, Ilha de São
+  Miguel, Diocese de Angra, Açores, Portugal
+repository:
+  name: Paróquia de Nossa Senhora Mãe de Deus, Povoação (Livro de Casamentos)
+  archive_or_registry: FamilySearch (retrieval-agent pull)
+  collection: Livro de Casamentos, fl. 17, termo nº 10 (1878)
+  catalogue_reference: >-
+    rec-muniz-annamaria-marriage-1878-maededeus.jpg (retrieval drop). Fl. 17,
+    termo nº 10. Adjacent entries nº 9 and nº 11 are unrelated couples.
+access_date: "2026-09-13"
+language: pt-BR
+transcription: >-
+  [Livro de Casamentos, N.S. Mãe de Deos, Povoação (São Miguel), fl.17, termo nº
+  10, 1878. Margem: "Manoel Cabral de Mello e Anna Maria Byttencourt".] "Aos
+  quatro de Abril de mil oito centos setenta e oito nesta Egreja Parochial de
+  Nossa Senhora Mãe de Deos concelho da Villa da Povoação Diocese de Angra na
+  minha presença compareceram os nubentes Manoel Cabral de Mello e Anna Maria
+  Byttencourt, os quaes sei serem os proprios com todos os papeis do estillo
+  correntes sem impedimento algum canonico ou civil para o casamento, elle de
+  vinte cinco annos de idade solteiro official de pedreiro natural baptisado e
+  morador na freguesia de Sam Jorge da Villa do Nordeste, filho legitimo de Jose
+  Cabral de Mello natural da freguesia de Sam Pedro do Lugar do Nordestinho e de
+  Victoria Barbara [de Jesus?] natural da dita freguesia de Sam Jorge; e ella de
+  vinte tres annos de idade solteira d'occupação domestica natural baptisada e
+  moradora nesta freguesia, filha legitima de Manoel Muniz Byttencourt e de
+  Francisca Roza do Espirito Santo naturaes desta mesma freguesia; os quaes
+  nubentes se receberão por marido e mulher e se uniram em Matrimonio procedendo
+  em todo este acto conforme o rito da Santa Egreja Catholica e Apostolica
+  Romana. Forão testemunhas presentes o Reverendo Jose Joaquim de Sousa
+  Barcellos morador nesta freguesia e Jose da Ponte Cordeiro casado, lavrador e
+  morador nesta freguesia. O Cura Jose Joaquim de Sousa Barcellos."
+abstract: >-
+  Parish marriage of Anna Maria Byttencourt, aged 23 (born ~1855), a domestic
+  worker of N.S. Mãe de Deus (Povoação, São Miguel, Azores), to Manoel Cabral de
+  Mello (25, mason of São Jorge do Nordeste) on 4 April 1878. It names her
+  parents Manoel Muniz Byttencourt (P-0042) and Francisca Roza do Espírito Santo
+  (P-0047) — hence Anna Maria is a sister of the emigrant João Muniz Bittencourt
+  (P-0019). Recorded as a documented child on family F-0020. PROVEN. Not modelled
+  as a person entity; no event created.
+abstract_pt: >-
+  Casamento paroquial de Anna Maria Byttencourt, de 23 anos (nascida ~1855), de
+  ocupação doméstica de N.S. Mãe de Deus (Povoação, São Miguel, Açores), com
+  Manoel Cabral de Mello (25 anos, pedreiro de São Jorge do Nordeste) em 4 de
+  abril de 1878. Nomeia seus pais Manoel Muniz Byttencourt (P-0042) e Francisca
+  Roza do Espírito Santo (P-0047) — portanto Anna Maria é irmã do emigrante João
+  Muniz Bittencourt (P-0019). Registrada como filha documentada na família
+  F-0020. PROVADO. Não modelada como entidade pessoa; sem evento criado.
+reliability:
+  assessment: >-
+    Primary parish marriage entry — direct primary for the marriage and for the
+    bride's filiation to Manoel Muniz Byttencourt and Francisca Roza do Espírito
+    Santo.
+  informant: The Cura José Joaquim de Sousa Barcellos.
+  limitations: >-
+    The groom's mother's name reads "Victoria Barbara [de Jesus?]" (uncertain).
+    Anna Maria is a collateral (a sister of João P-0019) recorded as a documented
+    child, not modelled.
+digital_file:
+  path: evidence/parish/PAR-0083-anna-maria-byttencourt-marriage-1878-maededeus.jpg
+  sha256: 71b9748d062577a82d2ab8bb11658262f30e9ce697a7e25e6b9983dbfece9ced
+linked_people:
+- P-0042
+- P-0047
+linked_families:
+- F-0020
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the documented child Anna Maria Byttencourt on family F-0020
+    (Manoel Muniz Byttencourt × Francisca Roza do Espírito Santo); a sister of
+    the emigrant João Muniz Bittencourt (P-0019). Not modelled as a person
+    entity; no event created. Public record (1878, Azores).

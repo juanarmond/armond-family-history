@@ -1,0 +1,117 @@
+schema_version: 1
+id: CIV-0048
+title: >-
+  1913 civil marriage of José Maria Bocher at Bom Jardim — son of Vicente Bocher
+  and Maria (Regina) Haggendorn, with Valentim Martinho Borer among the signatories
+title_pt: >-
+  Casamento civil de 1913 de José Maria Bocher em Bom Jardim — filho de Vicente
+  Bocher e Maria (Regina) Haggendorn, com Valentim Martinho Borer entre os
+  signatários
+record_type: Civil marriage register entry
+record_category: civil_registration
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1913-05-02"
+event_place_text: >-
+  Lugar denominado Maravilhas, Districto de Barra Alegre, Município de Bom Jardim,
+  Rio de Janeiro, Brazil
+repository:
+  name: >-
+    Cartório do Registro Civil de Bom Jardim (Districto de Barra Alegre), Rio de
+    Janeiro — termo nº 164, página 112
+  archive_or_registry: FamilySearch (retrieval-agent pull)
+  collection: >-
+    Brasil, Rio de Janeiro, Registro Civil — livro de casamentos, Bom Jardim
+    (Barra Alegre), 1913
+  record_number: "164"
+  page: "112"
+  catalogue_reference: >-
+    rec-bohrer-joaomaria-marriage-1913-bomjardim.jpg (retrieval drop). Termo nº
+    164, p.112; the image carries a "SEM VALOR LEGAL" watermark (an uncertified
+    reference copy). The filename says "joaomaria" but the record and the groom's
+    own signature read "José Maria". Entry nº 165 (Manuel Gomes & Emma, 10 May
+    1913) on the facing column is unrelated.
+  repository_path: >-
+    evidence/civil/CIV-0048-jose-maria-bocher-marriage-1913-bomjardim.jpg
+access_date: "2026-09-13"
+language: pt-BR
+transcription: >-
+  [Registro Civil de Bom Jardim (Barra Alegre), livro de casamentos, p.112, termo
+  nº 164, 1913. Imagem com marca d'água "SEM VALOR LEGAL".] "Aos dois dias do mez
+  de Maio do anno do Nascimento de Nosso Senhor Jesus Christo de mil novecentos e
+  treze neste Districto de Barra Alegre, Município de Bom Jardim, Estado do Rio de
+  Janeiro, no lugar denominado Maravilhas, em casa de Seu Philomeno Victorino
+  Bocher … o Juiz de Paz em exercício João Eugenio Erthal … e as testemunhas José
+  Vito Eboli, com trinta e tres annos de idade, casado, lavrador … e Manuel
+  Rosseira de Oliveira, com vinte e tres annos de idade, empregado no commercio,
+  solteiro … celebraram-se um matrimonio sob o regimen de communhão de bens … os
+  contrahentes José Maria Bocher e Dona Maria Rosaria Pacheco; elle filho legítimo
+  de Vicente Bocher e Maria [Regina — uncertain] Haggendorn, com vinte e sete
+  annos de idade, natural deste Estado, lavrador, ella, filha legítima de
+  Philomeno Victorino Bocher e Maria Justina de Azevedo, com dezoito annos de
+  idade, de occupação doméstica … ambos solteiros e residentes neste districto …
+  Declararam neste acto não serem parentes e não haver impedimento …" Assignatura
+  a rogo da nubente por Osvaldo Gardim (21, solteiro, negociante). No bloco de
+  assinaturas figura, entre os presentes, "Valentim Martinho Borer" (grafado
+  "Borer"). Escrivão interino Francisco Reis.
+abstract: >-
+  Civil marriage of José Maria Bocher, aged 27 (born ~1886), a farmer "natural
+  deste Estado" (Rio de Janeiro), to Maria Rosaria Pacheco (18) on 2 May 1913 at
+  Maravilhas, Barra Alegre (Bom Jardim, RJ). It names his parents Vicente Bocher
+  and Maria [Regina?] Haggendorn — i.e. Vicente Borer (P-0070) × Maria Thecla
+  Regina Eggendorn (P-0071), family F-0034 — hence José Maria is a younger brother
+  of Valentim Martinho Bohrer (P-0028), who himself appears among the signatories
+  ("Valentim Martinho Borer"), corroborating the sibling group. Recorded as a
+  documented child on family F-0034. The surname is written "Bocher" in the body
+  (a scribal variant of Bohrer/Borer); the mother's given/middle name after
+  "Maria" is uncertain. PROVEN. Not modelled as a person entity; no event created.
+abstract_pt: >-
+  Casamento civil de José Maria Bocher, de 27 anos (nascido ~1886), lavrador
+  "natural deste Estado" (Rio de Janeiro), com Maria Rosaria Pacheco (18) em 2 de
+  maio de 1913 em Maravilhas, Barra Alegre (Bom Jardim, RJ). Nomeia seus pais
+  Vicente Bocher e Maria [Regina?] Haggendorn — ou seja, Vicente Borer (P-0070) ×
+  Maria Thecla Regina Eggendorn (P-0071), família F-0034 — portanto José Maria é
+  irmão mais novo de Valentim Martinho Bohrer (P-0028), que consta entre os
+  signatários ("Valentim Martinho Borer"), corroborando o grupo de irmãos.
+  Registrado como filho documentado na família F-0034. O sobrenome está grafado
+  "Bocher" no corpo do ato (variante de Bohrer/Borer); o nome do meio da mãe após
+  "Maria" é incerto. PROVADO. Não modelado como entidade pessoa; sem evento criado.
+reliability:
+  assessment: >-
+    Primary civil marriage entry — direct primary for the marriage and for the
+    groom's filiation to Vicente Bocher (Borer) and Maria (Regina) Haggendorn
+    (Eggendorn). Valentim Martinho Borer's own signature independently corroborates
+    the sibling connection to family F-0034.
+  informant: >-
+    The Juiz de Paz João Eugenio Erthal and the escrivão interino Francisco Reis,
+    Barra Alegre, 2 May 1913.
+  limitations: >-
+    The image is an uncertified reference copy ("SEM VALOR LEGAL" watermark). The
+    surname is written "Bocher" (Bohrer/Borer); the mother's given/middle name
+    after "Maria" is uncertain (plausibly "Regina"). The filename's "joaomaria" is
+    wrong — the groom is "José Maria".
+digital_file:
+  path: evidence/civil/CIV-0048-jose-maria-bocher-marriage-1913-bomjardim.jpg
+  sha256: ba930e851b80f153c20992886eb4240701bd45f4e19e35da296621305779df30
+linked_people:
+- P-0070
+- P-0071
+- P-0028
+linked_families:
+- F-0034
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the documented child José Maria Bocher on family F-0034 (Vicente
+    Borer × Maria Thecla Regina Eggendorn); a younger brother of Valentim Martinho
+    Bohrer (P-0028), whose own signature ("Valentim Martinho Borer") appears among
+    the signatories — so the record also corroborates P-0028. Not modelled as a
+    person entity; no event created. Public record (1913). Surname variants across
+    the drop: Bohrer (baptism), Bocher (this marriage body), Borer (Valentim's
+    signature).

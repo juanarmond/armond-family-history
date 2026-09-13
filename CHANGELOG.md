@@ -5,6 +5,39 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — 2026-09-13 retrieval drop: 11 collateral-sibling records catalogued (Bohrer, Muniz-Azores, Guimarães) (2026-09-13)
+
+Value-gated the 2026-09-13 sync (four parallel read-only agents opened and transcribed
+every candidate image before promotion). Thirteen documented collateral children were
+established from **11 new source records** (PAR-0078…PAR-0085, CIV-0048…CIV-0050), each
+naming both parents; two of the eleven are **evidence-attachments** to children already
+listed, not new adds:
+
+- **Bohrer re-pulled baptisms** (closing a prior re-pull loop): **PAR-0078** Joaquim Carlos
+  (1896, fl.73) + **PAR-0079** Renato (1898, fl.129) → F-0014 (Joaquim José Bohrer ×
+  Lucinda); **PAR-0080** the twin sisters **Adelaide + Carolina** (b.1899, bapt.1900,
+  Lumiar, fl.79-80, 2 pp) → F-0013 (Valentim × Carolina Klein). All confirmed as children
+  of modelled couples — *not* the previously-rejected Vicente-Jr collateral branch.
+- **Bohrer collateral:** **PAR-0081** Maria Elizabeth's 1867 baptism (upgrades the existing
+  F-0034 entry from the secondary Imigrantes compilation to a primary record); **CIV-0048**
+  José Maria Bocher's 1913 Bom Jardim marriage → F-0034 (Valentim signs it — corroboration);
+  **PAR-0082** the infant Isabel da Silva Ferreira (1860) → F-0017.
+- **Muniz (Azores):** **PAR-0083** Anna Maria (1878 marriage), **PAR-0084** Claudina (1872
+  marriage; father "já defunto", corroborating Manoel's held 1866 óbito) and **PAR-0085**
+  the infant Claudina (1854) → F-0020 (Manoel Muniz Byttencourt × Francisca Roza, N.S. Mãe
+  de Deus, Povoação, São Miguel).
+- **Guimarães:** **CIV-0049** (José, †1964 Califórnia PR) and **CIV-0050** (Sebastião, †1982
+  Jacarezinho PR) — both **private** (recent deaths; declarants, spouse, children and
+  addresses redacted) — attached to Maria Aurora's brothers already registered on F-0008
+  (from the 1915 CIV-0007), correcting the drop's mis-stated parentage and adding their death
+  dates. The mother's full name "Emmerenciana Maria de Jesus" is confirmed.
+
+Held back, not promoted: **Maria José Bittencourt's 1943 death** (a re-sync duplicate of the
+held CIV-0034); **Alcida Fernandes de Azevedo's 1975 death** (identity and mother match, but
+the father reads "Ascendino Maria de Azevedo", conflicting with the modelled father José
+Secundino de Azevedo — held for reconciliation); and the **contested 1867 José Cesário
+partilha "heir 6"** (kept out pending owner adjudication — see STATUS/next actions).
+
 ### Added — Home-screen app icon (iOS "Add to Home Screen" + Android install) (2026-09-13)
 
 Added a proper opaque PNG **apple-touch-icon** (180×180) so saving the site to an

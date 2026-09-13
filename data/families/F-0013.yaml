@@ -69,6 +69,25 @@ documented_children:
     Carolina Klein Bohrer (P-0029), born 8 August 1919, died 22 September 2003 at Niterói, RJ, a
     widow (CIV-0047, a private record). She left five surviving adult children (living
     descendants, not named). Deceased.
+- name: Adelaide Bohrer
+  source_ids:
+  - PAR-0080
+  lifespan: b. 1899
+  note: >-
+    Sister of João Gonçalves Bohrer (P-0014); legitimate daughter of Valentim Martinho Bohrer
+    (P-0028) and Carolina Klein (P-0029), a twin born 19 July 1899 with her sister Carolina,
+    both baptised 20 September 1900 at Lumiar de Nova Friburgo (PAR-0080, fl. 79, entry 786).
+    Deceased.
+- name: Carolina Bohrer
+  source_ids:
+  - PAR-0080
+  lifespan: b. 1899
+  note: >-
+    Sister of João Gonçalves Bohrer (P-0014); legitimate daughter of Valentim Martinho Bohrer
+    (P-0028) and Carolina Klein (P-0029), a twin born 19 July 1899 with her sister Adelaide,
+    both baptised 20 September 1900 at Lumiar de Nova Friburgo (PAR-0080, fl. 79, entry 787).
+    Her godparents were her maternal grandparents Jacob Klein (P-0103) and Maria Luiza (P-0104).
+    Deceased.
 event_ids:
 - E-0088
 notes:

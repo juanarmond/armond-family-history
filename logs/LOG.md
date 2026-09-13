@@ -5,6 +5,27 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-09-13 — Retrieval drop 2026-09-13: 11 collateral-sibling records (Bohrer, Muniz-Azores, Guimarães)
+
+- Value-gated the 2026-09-13 sync with four parallel read-only agents (opened + transcribed every
+  candidate image before any promotion; FINDINGS/CSV treated as leads). Promoted **11 sources**
+  (PAR-0078–PAR-0085, CIV-0048–CIV-0050) → 13 documented collateral children across F-0013, F-0014,
+  F-0017, F-0020, F-0034, F-0008. Two are evidence-attachments (Maria Elizabeth's 1867 baptism onto
+  the existing F-0034 entry; the two Guimarães óbitos onto José b.1901 and Sebastião b.1909 already
+  on F-0008 from CIV-0007), not new adds.
+- Re-pull loop CLOSED: Joaquim Carlos (fl.73), Renato (fl.129) and the Adelaide+Carolina twins
+  (fl.79-80) were re-pulled at the correct folios and confirmed as children of the modelled Bohrer
+  couples (F-0014 / F-0013), not the previously-rejected Vicente-Jr × Hortencia branch.
+- Reads overrode three handoff leads: the 1913 Bom Jardim groom is **José** Maria (not "João");
+  the two Guimarães óbitos name **Francisco José de Carvalho Guimarães × Emmerenciana Maria de Jesus**
+  (F-0008 = Maria Aurora's own parents), not the drop's "Vicente × Maria Tertuliana"; and they match
+  children already registered in 1915 (attach, not duplicate).
+- Not promoted: **Maria José Bittencourt 1943** (= held CIV-0034 duplicate); **Alcida Fernandes de
+  Azevedo 1975** (identity+mother match but father "Ascendino Maria de Azevedo" conflicts with the
+  modelled José Secundino de Azevedo — held for reconciliation, privacy-heavy); **1867 heir-6**
+  (owner adjudication, §6). CIV-0049/CIV-0050 marked private with declarant/spouse/children/address
+  redaction. make check green; 488 entities; 161 sources / 226 scans; drop-pages-audit clean.
+
 ## 2026-09-09 — Bohrer djoaovi haul, wave 2: Iris's paternal Borer chain + 9 deep Swiss ancestors
 
 - Seven primary Nova Friburgo parish records (PAR-0059–PAR-0065) for the Laurent Borer → Vicente

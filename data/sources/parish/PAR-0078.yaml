@@ -1,0 +1,79 @@
+schema_version: 1
+id: PAR-0078
+title: >-
+  1896 baptism of Joaquim Carlos Bohrer at Nova Friburgo — son of Joaquim José
+  Bohrer and Lucinda Ferreira da Silva
+title_pt: >-
+  Batismo de 1896 de Joaquim Carlos Bohrer em Nova Friburgo — filho de Joaquim
+  José Bohrer e Lucinda Ferreira da Silva
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1896-09-23"
+event_place_text: >-
+  Nova Friburgo, Rio de Janeiro, Brazil
+repository:
+  name: Paróquia de Nova Friburgo (Livro de Baptismos)
+  archive_or_registry: Digitised by the Fundação D. João VI (Nova Friburgo)
+  collection: Livro de Baptismos, folha 73 (1896), entry 870
+  catalogue_reference: >-
+    rec-bohrer-joaquimcarlos-baptism-1896-novafriburgo-djoaovi.jpg (retrieval
+    drop). Fl. 73, assento nº 870, Cônego José Silvestre Alves de Miranda's
+    register. Re-pulled at the correct folio (the earlier delivery was a
+    wrong-folio crop, fl. 72).
+access_date: "2026-09-13"
+language: pt-BR
+transcription: >-
+  [Livro de Baptismos, Nova Friburgo, fl.73, 1896. Margem: "870 / Joaquim
+  Carlos".] "Aos vinte tres dias do mes de Setembro de mil oito centos e noventa
+  e seis baptisei solemnemente a Joaquim Carlos, nascido á seis de Janeiro do
+  dito anno, filho legitimo de Joaquim José Borber [Bohrer] e Lucinda Ferreira
+  Borber. Forão padrinhos João Berbert e Luiza Berbert. Para constar fiz este
+  assento, que assigno. O Vigario Conego José Silvestre Alves de Miranda."
+abstract: >-
+  Parish baptism of Joaquim Carlos Bohrer, born 6 January 1896 and baptised 23
+  September 1896 at Nova Friburgo (fl. 73, entry 870), legitimate son of Joaquim
+  José Bohrer (P-0030) and Lucinda Ferreira da Silva (P-0031) — i.e. a younger
+  sibling of the direct ancestor Celina Bohrer (P-0015). Recorded as a documented
+  child on family F-0014. Both parents are named; the surname is written "Borber"
+  (a scribal variant of Bohrer). PROVEN. Not modelled as a person entity; no
+  event created.
+abstract_pt: >-
+  Batismo paroquial de Joaquim Carlos Bohrer, nascido em 6 de janeiro de 1896 e
+  baptizado em 23 de setembro de 1896 em Nova Friburgo (fl. 73, assento 870),
+  filho legítimo de Joaquim José Bohrer (P-0030) e Lucinda Ferreira da Silva
+  (P-0031) — ou seja, um irmão mais novo da ancestral direta Celina Bohrer
+  (P-0015). Registrado como filho documentado na família F-0014. Ambos os pais
+  são nomeados; o sobrenome está escrito "Borber" (variante do escrivão para
+  Bohrer). PROVADO. Não modelado como entidade pessoa; sem evento criado.
+reliability:
+  assessment: >-
+    Primary parish baptism entry — direct primary for the birth/baptism and the
+    child's filiation to Joaquim José Bohrer and Lucinda Ferreira da Silva.
+  informant: The Vigário Cônego José Silvestre Alves de Miranda.
+  limitations: >-
+    Surname written "Borber" (Bohrer). Re-pulled at the correct folio (fl. 73);
+    the earlier delivery was a wrong-folio crop. No grandparents named.
+digital_file:
+  path: evidence/parish/PAR-0078-joaquim-carlos-bohrer-baptism-1896-novafriburgo.jpg
+  sha256: 655a90418db8f1d248d0626a6d9a68b9ff1ffc0adc9b90fe96d03fd09bcf8416
+linked_people:
+- P-0030
+- P-0031
+linked_families:
+- F-0014
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the documented child Joaquim Carlos Bohrer on family F-0014
+    (Joaquim José Bohrer × Lucinda Ferreira da Silva); a sibling of the direct
+    ancestor Celina Bohrer (P-0015). Not modelled as a person entity; no event
+    created. Public record (1896). Godparents João Berbert and Luiza Berbert
+    (Berbert is a distinct Nova Friburgo surname, not Bohrer).

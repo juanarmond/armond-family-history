@@ -1,0 +1,103 @@
+schema_version: 1
+id: PAR-0084
+title: >-
+  1872 marriage of Claudina Muniz Bettencourt at N.S. Mãe de Deus (Povoação, São
+  Miguel, Azores) — daughter of Manoel Muniz Bettencourt (already deceased) and
+  Francisca Roza do Espírito Santo
+title_pt: >-
+  Casamento de 1872 de Claudina Muniz Bettencourt em N.S. Mãe de Deus (Povoação,
+  São Miguel, Açores) — filha de Manoel Muniz Bettencourt (já falecido) e
+  Francisca Roza do Espírito Santo
+record_type: Parish marriage register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1872-09-22"
+event_place_text: >-
+  Igreja Parochial de Nossa Senhora Mãe de Deos, Vila da Povoação, Ilha de São
+  Miguel, Diocese de Angra, Açores, Portugal
+repository:
+  name: Paróquia de Nossa Senhora Mãe de Deus, Povoação (Livro de Casamentos)
+  archive_or_registry: FamilySearch (retrieval-agent pull)
+  collection: Livro de Casamentos, fl. 13, termo nº 23 (1872)
+  catalogue_reference: >-
+    rec-muniz-claudina-marriage-1872-maededeus.jpg (retrieval drop). Fl. 13,
+    termo nº 23. Adjacent entries nº 22 and nº 24 are unrelated couples.
+access_date: "2026-09-13"
+language: pt-BR
+transcription: >-
+  [Livro de Casamentos, N.S. Mãe de Deos, Povoação (São Miguel), fl.13, termo nº
+  23, 1872. Margem: "Manoel Soares de Lima e Claudina Muniz Betencourt".] "Aos
+  vinte dois dias do mez de Setembro do anno de mil oito centos setenta e dois
+  nesta Egreja Parochial de Nossa Senhora Mãe de Deos concelho da Villa da
+  Povoação, Diocese de Angra na minha presença compareceram os nubentes Manoel
+  Soares de Lima e Claudina Muniz Bettencourt, os quaes sei serem os proprios com
+  todos os papeis do estillo correntes sem impedimento algum canonico ou civil
+  para o casamento, elle de vinte quatro annos de idade solteiro sapateiro
+  natural baptisado e morador nesta freguesia, filho legitimo de Manoel Soares de
+  Lima natural da mesma e de Maria Joaquina de Jesus natural da freguesia de
+  Santa Anna do Lugar das Furnas do dito concelho e Diocese; e ella de dezeseis
+  annos de idade solteira d'ocupação domestica natural baptisada e moradora nesta
+  freguesia, filha legitima de Manoel Muniz Bettencourt já defunto e de Francisca
+  Roza [do] Espirito Santo naturaes da mesma; os quaes nubentes se receberão por
+  marido e mulher. Forão dispensados de proclamas legaes. Forão testemunhas o
+  Reverendo Julio Cesar Augusto e Francisco Soares Brandão casado, proprietario,
+  morador nesta freguesia. O Cura Julio Cesar Augusto; assignou tambem Manoel
+  Ignacio Ferreira [incerto]."
+abstract: >-
+  Parish marriage of Claudina Muniz Bettencourt, aged 16 (born ~1856), a domestic
+  worker of N.S. Mãe de Deus (Povoação, São Miguel, Azores), to Manoel Soares de
+  Lima (24, shoemaker of the same parish) on 22 September 1872. It names her
+  parents Manoel Muniz Bettencourt (P-0042), stated "já defunto" (already
+  deceased by 22 September 1872), and Francisca Roza do Espírito Santo (P-0047) —
+  hence Claudina is a sister of the emigrant João Muniz Bittencourt (P-0019).
+  Recorded as a documented child on family F-0020. This bride Claudina (b. ~1856)
+  is a distinct person from the couple's infant daughter of the same name who
+  died in 1854 (PAR-0085) — a reused given name. PROVEN. Not modelled as a person
+  entity; no event created.
+abstract_pt: >-
+  Casamento paroquial de Claudina Muniz Bettencourt, de 16 anos (nascida ~1856),
+  de ocupação doméstica de N.S. Mãe de Deus (Povoação, São Miguel, Açores), com
+  Manoel Soares de Lima (24 anos, sapateiro da mesma freguesia) em 22 de setembro
+  de 1872. Nomeia seus pais Manoel Muniz Bettencourt (P-0042), declarado "já
+  defunto" (já falecido em 22 de setembro de 1872), e Francisca Roza do Espírito
+  Santo (P-0047) — portanto Claudina é irmã do emigrante João Muniz Bittencourt
+  (P-0019). Registrada como filha documentada na família F-0020. Esta noiva
+  Claudina (n. ~1856) é pessoa distinta da filha bebê homônima do casal, falecida
+  em 1854 (PAR-0085) — nome reutilizado. PROVADO. Não modelada como entidade
+  pessoa; sem evento criado.
+reliability:
+  assessment: >-
+    Primary parish marriage entry — direct primary for the marriage and for the
+    bride's filiation to Manoel Muniz Bettencourt and Francisca Roza do Espírito
+    Santo; it also establishes that her father Manoel was already deceased by 22
+    September 1872.
+  informant: The Cura Julio Cesar Augusto.
+  limitations: >-
+    A co-signer's name reads "Manoel Ignacio Ferreira" (uncertain). Claudina is a
+    collateral (a sister of João P-0019) recorded as a documented child, not
+    modelled.
+digital_file:
+  path: evidence/parish/PAR-0084-claudina-muniz-bettencourt-marriage-1872-maededeus.jpg
+  sha256: 025212b5c030e32d5bbc1cbce737d472e27f35f55ed8d0ea54b85b441fac2ce3
+linked_people:
+- P-0042
+- P-0047
+linked_families:
+- F-0020
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Source for the documented child Claudina Muniz Bettencourt on family F-0020
+    (Manoel Muniz Bettencourt × Francisca Roza do Espírito Santo); a sister of the
+    emigrant João Muniz Bittencourt (P-0019). The act states her father Manoel was
+    already deceased ("já defunto") by 22 September 1872 — a death-bound for
+    P-0042. A distinct person from the couple's 1854 infant Claudina (PAR-0085).
+    Not modelled as a person entity; no event created. Public record (1872,
+    Azores).
