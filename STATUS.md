@@ -86,9 +86,9 @@ physical or authorised access, not read-only web.
 | Structured families | 61 |
 | Structured events | 122 |
 | Structured places | 9 |
-| Structured sources | 161 |
+| Structured sources | 162 |
 | Structured FAN references | 13 |
-| Retained evidence scans | 226 |
+| Retained evidence scans | 227 |
 | Validation | zero errors or warnings at the last check (2026-09-13) |
 | Automated tests | 75 passing at the last check |
 

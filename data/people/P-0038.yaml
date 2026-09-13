@@ -13,6 +13,10 @@ name_variants:
   source_ids:
   - CIV-0001
   - PAR-0012
+- value: Ascendino Maria de Azevedo
+  type: source
+  source_ids:
+  - CIV-0051
 event_ids: []
 family_ids:
 - F-0018
@@ -23,14 +27,23 @@ notes:
     "Secundino Maria de Azevedo") and as Aristides Muniz Bittencourt's maternal
     grandfather in the 1922 baptism (PAR-0003, as "José Secundino de Azevedo"). An
     Azevedo family of the Muriaé/Carangola region (MG); his own vital records are
-    not located.
+    not located. A second daughter, Alcida Fernandes de Azevedo (Luiza's sister), is
+    now documented by her 1975 Mesquita death (CIV-0051, on family F-0018); that late
+    act renders his name variantly as "Ascendino Maria de Azevedo" — a 1975
+    non-relative-informant variant preserved in name_variants that does not override
+    the 1916/1922 attestations "Secundino / José Secundino Maria de Azevedo". [STRONG-EVIDENCE]
   text_pt: >-
     Pai de Luiza (Fernandes/Secundina) de Azevedo (P-0013), portanto avô materno de
     Antenor Muniz. Nomeado como pai de Luiza no casamento de 1916 (CIV-0001, como
     "Secundino Maria de Azevedo") e como avô materno de Aristides Muniz Bittencourt
     no batismo de 1922 (PAR-0003, como "José Secundino de Azevedo"). Uma família
     Azevedo da região de Muriaé/Carangola (MG); seus próprios registros vitais não
-    foram localizados.
+    foram localizados. Uma segunda filha, Alcida Fernandes de Azevedo (irmã de Luiza),
+    está agora documentada por seu óbito de 1975 em Mesquita (CIV-0051, na família
+    F-0018); esse ato tardio grafa o nome dele variantemente como "Ascendino Maria de
+    Azevedo" — uma variante informada em 1975 por declarante não parente, preservada
+    em name_variants, que não sobrepõe as atestações de 1916/1922 "Secundino / José
+    Secundino Maria de Azevedo". [STRONG-EVIDENCE]
 - text: >-
     Nationality left unset: no birthplace or stated nacionalidade is evidenced. His
     daughter Luiza was born in the Muriaé district (MG), but his own origin is not

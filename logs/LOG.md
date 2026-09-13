@@ -5,6 +5,20 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-09-13 — Resolved the Alcida Fernandes de Azevedo father-name conflict (CIV-0051)
+
+- Dedicated read-only investigation of the held 1975 Alcida death conflict. Re-read the image at
+  high magnification: the father genuinely reads "Ascendino Maria de Azevedo" (the FS index agrees),
+  but that is one 1975 reading by a non-relative declarant. The modelled father José Secundino de
+  Azevedo (P-0038) is attested 3× near-contemporarily with daughter Luiza as informant — CIV-0001 +
+  PAR-0012 ("Secundino Maria de Azevedo", 1916) and PAR-0003 ("José Secundino de Azevedo", 1922).
+- Verdict (B): keep P-0038; treat "Ascendino" as a low-reliability variant. Added it to P-0038
+  name_variants (CIV-0051) with an EN/PT conflict note; catalogued CIV-0051 (Alcida's 1975 Mesquita
+  death) as a private source (declarant/children/addresses redacted); added Alcida as a documented
+  collateral child of F-0018 (sister of the great-grandmother Luiza P-0013) on the exact mother
+  match + shared Azevedo×Muniz endogamy [STRONG-EVIDENCE, not proven]. make check green; 489
+  entities; 162 sources / 227 scans. Triage ledger updated (HELD → promoted-with-preserved-conflict).
+
 ## 2026-09-13 — Retrieval drop 2026-09-13: 11 collateral-sibling records (Bohrer, Muniz-Azores, Guimarães)
 
 - Value-gated the 2026-09-13 sync with four parallel read-only agents (opened + transcribed every

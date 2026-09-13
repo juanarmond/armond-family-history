@@ -5,6 +5,25 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Resolved — Alcida Fernandes de Azevedo father-name conflict; sister catalogued (CIV-0051) (2026-09-13)
+
+Resolved the held Alcida 1975-death conflict via a dedicated read-only investigation. The
+image genuinely reads the father "Ascendino Maria de Azevedo", but the modelled father
+**José Secundino de Azevedo (P-0038)** is attested three times in near-contemporary acts with
+his own daughter Luiza as informant — "Secundino Maria de Azevedo" (CIV-0001 civil + PAR-0012
+parish, 1916) and "José Secundino de Azevedo" (PAR-0003, 1922) — versus one 1975 reading by a
+**non-relative** declarant 59 years later (with the clerk's own "digo" hesitation). Verdict:
+keep P-0038; the 1975 "Ascendino" is a low-reliability variant.
+
+- **P-0038** keeps its preferred name; "Ascendino Maria de Azevedo" added to `name_variants`
+  (source CIV-0051) with the conflict explained in the notes (EN+PT) — preserved, not laundered.
+- **CIV-0051** (Alcida's 1975 Mesquita death) catalogued as a **private** source (declarant, the
+  ten surviving children and addresses redacted), linking the parents P-0038 × P-0039.
+- **Alcida Fernandes de Azevedo** added as a documented collateral child on **F-0018** — a sister
+  of the great-grandmother Luiza (P-0013), on the exact mother-name match plus the father's
+  matching middle name/surname and the shared Azevedo×Muniz Bittencourt endogamy [STRONG-EVIDENCE,
+  not proven]. Bilingual "What's new" entry added.
+
 ### Fixed — 2026-09-13 drop correction layer: Eunir Bohrer is male; Antonio José Bohrer flagged borderline (2026-09-13)
 
 Applied the §5 correction layer of the 2026-09-13 handoff where it touched held entities:
