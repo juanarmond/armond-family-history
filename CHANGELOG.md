@@ -5,6 +5,15 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Bilingual profiles for the four Rutschmann/Storck 3×-great-grandparent stubs (2026-09-14)
+
+Closed the profiles-audit "no EN profile" gap: wrote bilingual `profile`/`profile_pt` for
+P-0119 (Frédéric Rutschmann), P-0120 (Jeanne Germaine Caroline), P-0121 (Jacob Storck) and
+P-0122 (Anna Clara) — the 2×-great-grandparents' parents named in the 1840 Rutschmann×Storck
+marriage (PAR-0076), i.e. Iris Bohrer Muniz's ancestors five generations up. Each states the
+verified generational chain, the held source (PAR-0076 only), and open questions (own vital
+records; Jeanne's maiden surname; Anna Clara's "Reheis" surname kept as a [LEAD]). Narrative-only.
+
 ### Changed — Opened 24 pre-1900 parish + probate records to public view (2026-09-13)
 
 Resolving the audit's flagged owner-decision: the ~24 pre-1900 records that were
