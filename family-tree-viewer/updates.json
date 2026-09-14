@@ -1,6 +1,12 @@
 {
- "generated": "2026-09-13T18:45:06Z",
+ "generated": "2026-09-13T20:11:00Z",
  "updates": [
+  {
+   "date": "2026-09-13",
+   "kind": "milestone",
+   "title": "Two dozen of the oldest records — 18th- and 19th-century parish acts and probate inventories — are now open to public view",
+   "title_pt": "Duas dezenas dos registros mais antigos — atos paroquiais e inventários dos séculos XVIII e XIX — agora estão abertos ao público"
+  },
   {
    "date": "2026-09-13",
    "kind": "person",
@@ -821,6 +827,46 @@
   {
    "date": "2026-08-10",
    "kind": "document",
+   "title": "Parish baptism register entry of \"Maria\" (Maria de Lemos), 14 July 1832, Matriz de São João Batista de Itaboraí, naming her parents Manoel de Lemos [Ferreira] and Maria Nunes [de Jesus]",
+   "title_pt": "Assento de batismo de \"Maria\" (Maria de Lemos), 14 de julho de 1832, Matriz de São João Batista de Itaboraí, que nomeia seus pais Manoel de Lemos [Ferreira] e Maria Nunes [de Jesus]",
+   "primary": "PAR-0030",
+   "links": [
+    "P-0052"
+   ]
+  },
+  {
+   "date": "2026-08-10",
+   "kind": "document",
+   "title": "Parish baptism register entry of \"Anna\" (Anna de Lemos), 12 February 1834, Matriz de São João Batista de Itaboraí, naming her parents Manoel de Lemos Ferreira and Maria Nunes de Jesus",
+   "title_pt": "Assento de batismo de \"Anna\" (Anna de Lemos), 12 de fevereiro de 1834, Matriz de São João Batista de Itaboraí, que nomeia seus pais Manoel de Lemos Ferreira e Maria Nunes de Jesus",
+   "primary": "PAR-0031",
+   "links": [
+    "P-0052"
+   ]
+  },
+  {
+   "date": "2026-08-10",
+   "kind": "document",
+   "title": "Parish baptism register entry of \"Thomas\" (Thomaz de Lemos), c. June 1836, Matriz de São João Batista de Itaboraí, naming his parents Manoel de Lemos and Maria Thereza [de Jesus]",
+   "title_pt": "Assento de batismo de \"Thomas\" (Thomaz de Lemos), c. junho de 1836, Matriz de São João Batista de Itaboraí, que nomeia seus pais Manoel de Lemos e Maria Thereza [de Jesus]",
+   "primary": "PAR-0032",
+   "links": [
+    "P-0052"
+   ]
+  },
+  {
+   "date": "2026-08-10",
+   "kind": "document",
+   "title": "Parish baptism register entry of \"Polídoro\" (Polidoro de Lemos), c. November 1838, Matriz de São João Batista de Itaboraí, naming his father Manoel de Lemos Ferreira",
+   "title_pt": "Assento de batismo de \"Polídoro\" (Polidoro de Lemos), c. novembro de 1838, Matriz de São João Batista de Itaboraí, que nomeia seu pai Manoel de Lemos Ferreira",
+   "primary": "PAR-0033",
+   "links": [
+    "P-0052"
+   ]
+  },
+  {
+   "date": "2026-08-10",
+   "kind": "document",
    "title": "Certified transcript (Arquivo da Arquidiocese de Mariana) of the 22 February 1751 marriage of João Rodrigues Valle and Isabel Ribeiro, Matriz de Nossa Senhora da Piedade da Borda do Campo (Barbacena), naming both spouses' parents",
    "title_pt": "Traslado certificado (Arquivo da Arquidiocese de Mariana) do casamento de 22 de fevereiro de 1751 de João Rodrigues Valle e Isabel Ribeiro, Matriz de Nossa Senhora da Piedade da Borda do Campo (Barbacena), que nomeia os pais de ambos os cônjuges",
    "primary": "PAR-0034",
@@ -909,6 +955,26 @@
    ]
   },
   {
+   "date": "2026-08-07",
+   "kind": "document",
+   "title": "1867 Concórdia probate inventory of José Cesário de Toledo Lima and Claudina Brandina de Jesus — título de herdeiros listing nine children including Eliza Balbina de Toledo (P-0017) and a son named Simplício de Toledo (item 6, distinct from Simplício Armond P-0016)",
+   "title_pt": "Inventário de bens de 1867, em Concórdia, de José Cesário de Toledo Lima e Claudina Brandina de Jesus — título de herdeiros que arrola nove filhos, incluindo Eliza Balbina de Toledo (P-0017) e um filho de nome Simplício de Toledo (item 6, distinto de Simplício Armond P-0016)",
+   "primary": "PRB-0008",
+   "links": [
+    "P-0054"
+   ]
+  },
+  {
+   "date": "2026-08-07",
+   "kind": "document",
+   "title": "1867 Concórdia probate inventory of Ladisláo Egídio Ferreira de Toledo — título de herdeiros confirming eight children including Francisco Leocádio (item 4, deceased before Ladisláo) and José Cesário Lima (item 8, deceased), with JC's children including a son named Simplício Ferreira de Toledo (item 6, distinct from Simplício Armond P-0016) and a declaration on Claudina Brandina de Jesus",
+   "title_pt": "Inventário de bens de 1867, em Concórdia, de Ladisláo Egídio Ferreira de Toledo — título de herdeiros que confirma oito filhos, incluindo Francisco Leocádio (item 4, falecido antes de Ladisláo) e José Cesário Lima (item 8, falecido), com os filhos de JC incluindo um filho de nome Simplício Ferreira de Toledo (item 6, distinto de Simplício Armond P-0016) e uma declaração sobre Claudina Brandina de Jesus",
+   "primary": "PRB-0009",
+   "links": [
+    "P-0056"
+   ]
+  },
+  {
    "date": "2026-08-05",
    "kind": "document",
    "title": "Parish baptism of João [Muniz Byttancourt] (entry Nº 5, 1845, Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel), naming his parents Manoel Byttancourt and Francisca Roza do Espirito Santo",
@@ -949,6 +1015,176 @@
    ]
   },
   {
+   "date": "2026-08-01",
+   "kind": "document",
+   "title": "Parish death register entry of Manoel Muniz Bytancourt (1866, Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel), naming his wife, his parents and his eight children",
+   "title_pt": "Assento de óbito paroquial de Manoel Muniz Bytancourt (1866, Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel), que nomeia sua esposa, seus pais e seus oito filhos",
+   "primary": "PAR-0015",
+   "links": [
+    "P-0042"
+   ]
+  },
+  {
+   "date": "2026-08-01",
+   "kind": "document",
+   "title": "Parish baptism register entry of \"Roza\" (Rosa Eugenia de Lemos), 1835, Matriz de São João Batista de Itaboraí, naming her parents Manoel de Lemos [Pereira] and Maria Thereza de Jesus",
+   "title_pt": "Assento de batismo paroquial de \"Roza\" (Rosa Eugenia de Lemos), 1835, Matriz de São João Batista de Itaboraí, que nomeia seus pais Manoel de Lemos [Pereira] e Maria Thereza de Jesus",
+   "primary": "PAR-0016",
+   "links": [
+    "P-0035"
+   ]
+  },
+  {
+   "date": "2026-08-01",
+   "kind": "document",
+   "title": "1821 Barbacena baptism of Carolina, daughter of Ladisláo Egídio Ferreira and Matildes Maria [de Jesus] — placing the couple in Barbacena",
+   "title_pt": "Batismo de Carolina em Barbacena, 1821, filha de Ladisláo Egídio Ferreira e Matildes Maria [de Jesus] — situando o casal em Barbacena",
+   "primary": "PAR-0017",
+   "links": [
+    "P-0056"
+   ]
+  },
+  {
+   "date": "2026-08-01",
+   "kind": "document",
+   "title": "Barbacena marriage of Joaquim José Ferreira de Toledo and Ritta Angélica Rodrigues (1783), naming both couples of their parents",
+   "title_pt": "Casamento em Barbacena de Joaquim José Ferreira de Toledo e Ritta Angélica Rodrigues (1783), que nomeia os dois casais de pais",
+   "primary": "PAR-0018",
+   "links": [
+    "P-0057"
+   ]
+  },
+  {
+   "date": "2026-08-01",
+   "kind": "document",
+   "title": "1787 Barbacena baptism of Ladisláo, son of Joaquim José Ferreira de Toledo and Ritta Angélica Rodrigues — confirming Ladisláo Egídio Ferreira de Toledo's parents",
+   "title_pt": "Batismo de Ladisláo em Barbacena, 1787, filho de Joaquim José Ferreira de Toledo e Ritta Angélica Rodrigues — confirmando os pais de Ladisláo Egídio Ferreira de Toledo",
+   "primary": "PAR-0019",
+   "links": [
+    "P-0056"
+   ]
+  },
+  {
+   "date": "2026-08-01",
+   "kind": "document",
+   "title": "1812 Barbacena marriage of Anna Belizaria de Toledo (daughter of João José Ferreira de Toledo and Ritta Angélica Rodrigues) to Antonio Dias",
+   "title_pt": "Casamento em Barbacena, 1812, de Anna Belizaria de Toledo (filha de João José Ferreira de Toledo e Ritta Angélica Rodrigues) com Antonio Dias",
+   "primary": "PAR-0020",
+   "links": [
+    "P-0057"
+   ]
+  },
+  {
+   "date": "2026-08-01",
+   "kind": "document",
+   "title": "1816 Barbacena marriage of Carolina Francelina de Toledo (daughter of Capitão João José Ferreira de Toledo and Ritta Angélica Rodrigues) to Vicente José da Cunha",
+   "title_pt": "Casamento em Barbacena, 1816, de Carolina Francelina de Toledo (filha do Capitão João José Ferreira de Toledo e Ritta Angélica Rodrigues) com Vicente José da Cunha",
+   "primary": "PAR-0021",
+   "links": [
+    "P-0057"
+   ]
+  },
+  {
+   "date": "2026-08-01",
+   "kind": "document",
+   "title": "Registered will (testamento) of Francisco José Bohrer (registered 1888, Provedoria de Nova Friburgo), declaring his parents Jacob Bahrer and Catharina Mayer, his wife and his four children",
+   "title_pt": "Testamento registrado de Francisco José Bohrer (registrado em 1888, Provedoria de Nova Friburgo), que declara seus pais Jacob Bahrer e Catharina Mayer, sua esposa e seus quatro filhos",
+   "primary": "PRB-0005",
+   "links": [
+    "P-0034"
+   ]
+  },
+  {
+   "date": "2026-08-01",
+   "kind": "document",
+   "title": "1879 Leopoldina estate inventory of Mathilde Maria de Jesus — título de herdeiros naming her son José Cezário de Toledo Lima (⚭ D. Claudina) and his eight representantes, including Simplício José Ferreira Armond (⚭ Eliza Balbina de Toledo)",
+   "title_pt": "Inventário de bens de 1879, em Leopoldina, de Mathilde Maria de Jesus — título de herdeiros que nomeia seu filho José Cezário de Toledo Lima (⚭ D. Claudina) e seus oito representantes, incluindo Simplício José Ferreira Armond (⚭ Eliza Balbina de Toledo)",
+   "primary": "PRB-0006",
+   "links": [
+    "P-0017"
+   ]
+  },
+  {
+   "date": "2026-07-31",
+   "kind": "document",
+   "title": "Parish baptism register entry of Deocleciano Muniz Bittencourt (1892, Santo Antônio de Sapucaia), naming his parents",
+   "title_pt": "Assento de batismo paroquial de Deocleciano Muniz Bittencourt (1892, Santo Antônio de Sapucaia), que nomeia seus pais",
+   "primary": "PAR-0004",
+   "links": [
+    "P-0012"
+   ]
+  },
+  {
+   "date": "2026-07-31",
+   "kind": "document",
+   "title": "Parish baptism transcript of Susanna (Suzana) Rita Brandão (1866, transcribed 1882, Santo Antônio de Sapucaia), naming her parents",
+   "title_pt": "Transcrição de batismo paroquial de Susanna (Suzana) Rita Brandão (1866, transcrita em 1882, Santo Antônio de Sapucaia), que nomeia seus pais",
+   "primary": "PAR-0005",
+   "links": [
+    "P-0020"
+   ]
+  },
+  {
+   "date": "2026-07-31",
+   "kind": "document",
+   "title": "Parish baptism register entry of Anna Muniz Bittencourt (1885, Santo Antônio de Sapucaia), a daughter of João Muniz Bittencourt and Susanna Rita Brandão",
+   "title_pt": "Assento de batismo paroquial de Anna Muniz Bittencourt (1885, Santo Antônio de Sapucaia), filha de João Muniz Bittencourt e Susanna Rita Brandão",
+   "primary": "PAR-0006",
+   "links": [
+    "P-0019"
+   ]
+  },
+  {
+   "date": "2026-07-31",
+   "kind": "document",
+   "title": "Parish death register entry of Rita do Rego Brandão (Rita Ignacia de Jesus) (1898, Santa Luzia de Carangola)",
+   "title_pt": "Assento de óbito paroquial de Rita do Rego Brandão (Rita Ignacia de Jesus) (1898, Santa Luzia de Carangola)",
+   "primary": "PAR-0009",
+   "links": [
+    "P-0041"
+   ]
+  },
+  {
+   "date": "2026-07-31",
+   "kind": "document",
+   "title": "Parish death register entry of Antonio Caetano Machado (1868, Santo Antônio de Sapucaia)",
+   "title_pt": "Assento de óbito paroquial de Antonio Caetano Machado (1868, Santo Antônio de Sapucaia)",
+   "primary": "PAR-0010",
+   "links": [
+    "P-0045"
+   ]
+  },
+  {
+   "date": "2026-07-31",
+   "kind": "document",
+   "title": "Parish death register entry of Ignacia Maria de Jesus (1878, Santo Antônio de Sapucaia), widow of Antonio Caetano Machado",
+   "title_pt": "Assento de óbito paroquial de Ignacia Maria de Jesus (1878, Santo Antônio de Sapucaia), viúva de Antonio Caetano Machado",
+   "primary": "PAR-0011",
+   "links": [
+    "P-0046"
+   ]
+  },
+  {
+   "date": "2026-07-30",
+   "kind": "document",
+   "title": "1831 population list (Lista Nominativa de Habitantes) — Distrito de Nossa Senhora do Rosário do Curral Novo, Termo de Barbacena (Minas Gerais)",
+   "title_pt": "Lista de habitantes de 1831 (Lista Nominativa de Habitantes) — Distrito de Nossa Senhora do Rosário do Curral Novo, Termo de Barbacena (Minas Gerais)",
+   "primary": "GOV-0002",
+   "links": [
+    "P-0016"
+   ]
+  },
+  {
+   "date": "2026-07-30",
+   "kind": "document",
+   "title": "Parish marriage justification of Francisco José Bohrer and Rosa Eugenia de Lemos (registered 1879), Nova Friburgo Matriz",
+   "title_pt": "Justificação de casamento paroquial de Francisco José Bohrer e Rosa Eugenia de Lemos (registrada em 1879), Matriz de Nova Friburgo",
+   "primary": "PAR-0002",
+   "links": [
+    "P-0034"
+   ]
+  },
+  {
    "date": "2026-07-30",
    "kind": "document",
    "title": "Undated Leopoldina notarial deed of sale of Toledo Concórdia / Ribeirão de São Bento land, naming the grandparents Mathilde Maria de Jesus and Ladisláo Egydio Ferreira de Toledo and the parents Antonio Zeferino de Toledo and Maria Perpétua",
@@ -976,6 +1212,16 @@
    "primary": "NWS-0001",
    "links": [
     "P-0018"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "Marriage provision for João Monis Bittencourt and Susanna Rita Brondão",
+   "title_pt": "Provisão de casamento para João Monis Bittencourt e Susanna Rita Brondão",
+   "primary": "PAR-0001",
+   "links": [
+    "P-0019"
    ]
   },
   {

@@ -5,6 +5,22 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — Opened 24 pre-1900 parish + probate records to public view (2026-09-13)
+
+Resolving the audit's flagged owner-decision: the ~24 pre-1900 records that were
+`private: true` are now `private: false` (owner confirmation — their subjects and
+everyone named on those 18th–19th-century register pages are long deceased, so the
+"deceased → display everything" convention applies). Flipped: PAR-0001, 0002, 0004,
+0005, 0006, 0009, 0010, 0011, 0015, 0016, 0017, 0018, 0019, 0020, 0021, 0030, 0031,
+0032, 0033; PRB-0005, 0006, 0008, 0009; GOV-0002 (1831 census). Their register-page
+scans now ship to the public site and the records enter the "What's new" feed (dated
+from their original git add). The **post-1900** records stay private — PAR-0003 (1922),
+0007 (1915), 0008 (1912), 0012/0013 (1916), 0014 (1917), and GOV-0001 (1926 ID doc) —
+since those can still name living descendants. **Note:** three of the newly-public
+probates (PRB-0006/0008/0009, 1867/1879 inventários) name enslaved people; publishing
+them follows the deceased-display convention and matches the already-public PRB-0010,
+but flag if you'd prefer those handled differently.
+
 ### Fixed — Repository-wide audit: privacy hardening + evidence/degree/doc corrections (2026-09-13)
 
 Six parallel read-only auditors swept the whole repo (markdown docs, all 122 person

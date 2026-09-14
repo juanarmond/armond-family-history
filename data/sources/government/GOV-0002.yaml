@@ -94,7 +94,7 @@ linked_people:
 linked_families: []
 linked_events: []
 linked_places: []
-private: true
+private: false
 notes:
   - text: >-
       Context lead for the anti-merge, not proof of descent. The manuscript

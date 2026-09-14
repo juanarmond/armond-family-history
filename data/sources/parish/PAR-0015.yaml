@@ -100,7 +100,7 @@ linked_events:
 - E-0047
 - E-0048
 linked_places: []
-private: true
+private: false
 notes:
 - text: >-
     Corrects the óbito conflict on João's father's name: João's 1915 Carangola death

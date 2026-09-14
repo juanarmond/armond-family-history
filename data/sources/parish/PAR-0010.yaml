@@ -87,7 +87,7 @@ linked_events:
 - E-0039
 - E-0045
 linked_places: []
-private: true
+private: false
 notes:
 - text: >-
     Resolves the flagged "Antonio [Castro/Caetano] Machado" reading in favour of

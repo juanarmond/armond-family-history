@@ -75,7 +75,7 @@ linked_events:
 - E-0006
 linked_places:
 - PL-0005
-private: true
+private: false
 notes:
 - text: >-
     The FamilySearch collaborative profiles and index normalise or alter the
