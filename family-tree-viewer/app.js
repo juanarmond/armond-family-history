@@ -19,7 +19,7 @@ const VISITOR_NUM_KEY = "armond-viewer-visitor-number";
 // to disable — the "Ask" button simply stays hidden until the Worker URL is set.
 // A localStorage key "armond-assistant-api" overrides it (for local testing against
 // `wrangler dev`, or pointing the live site at a staging Worker) without a code change.
-const CONFIGURED_ASSISTANT_API = "";
+const CONFIGURED_ASSISTANT_API = "https://family-assistant.juan-armond.workers.dev";
 let ASSISTANT_API = CONFIGURED_ASSISTANT_API;
 try {
   const override = localStorage.getItem("armond-assistant-api");
