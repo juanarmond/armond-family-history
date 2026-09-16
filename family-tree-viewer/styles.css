@@ -890,14 +890,14 @@ a:focus-visible {
 /* How-to guide — a navigation-first help overlay. Reuses .story-panel / .story-head
    (centred card on desktop, full-screen sheet on mobile); this styles only its body. */
 /* Floating "?" — the persistent help affordance for the bare tree / focus view.
-   Bottom-right (the conventional FAB position); no overlap with the right-edge
-   detail/story/updates panels because the script hides it whenever a modal is open.
-   Desktop only (mobile uses the nav "?"). */
+   Bottom-left (the "Ask" pill now takes the conventional bottom-right FAB spot); no
+   overlap with the right-edge detail/story/updates panels because the script hides it
+   whenever a modal is open. Desktop only (mobile uses the nav "?"). */
 .help-fab {
   position: fixed;
   z-index: 15;
   bottom: 1.4rem;
-  right: 1.4rem;
+  left: 1.4rem;
   display: grid;
   place-items: center;
   width: 3rem;
@@ -918,15 +918,15 @@ a:focus-visible {
 .help-fab[hidden] { display: none; }
 /* On mobile the floating "?" is the only help affordance (the focus view has no
    nav-row "?"); it still auto-hides whenever a panel opens. */
-@media (max-width: 700px) { .help-fab { bottom: 1.15rem; right: 1.15rem; } }
+@media (max-width: 700px) { .help-fab { bottom: 1.15rem; left: 1.15rem; } }
 
-/* Family-history AI assistant — a floating "Ask" pill (bottom-left, clear of the
-   bottom-right "?") that opens a chat overlay reusing the .story-panel shell. */
+/* Family-history AI assistant — a floating "Ask" pill (bottom-right, clear of the
+   bottom-left "?") that opens a chat overlay reusing the .story-panel shell. */
 .assistant-fab {
   position: fixed;
   z-index: 15;
   bottom: 1.4rem;
-  left: 1.4rem;
+  right: 1.4rem;
   display: inline-flex;
   align-items: center;
   gap: .5rem;
@@ -947,17 +947,26 @@ a:focus-visible {
 .assistant-fab[hidden] { display: none; }
 .assistant-fab-icon { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
 @media (max-width: 700px) {
-  .assistant-fab { bottom: 1.15rem; left: 1.15rem; padding: .65rem .85rem; }
-  /* Icon-only on the narrowest screens to save room. */
+  /* A clean circular chat button on mobile (the label is hidden to save room). */
+  .assistant-fab {
+    bottom: 1.15rem;
+    right: 1.15rem;
+    width: 3.25rem;
+    height: 3.25rem;
+    padding: 0;
+    justify-content: center;
+    border-radius: 50%;
+  }
   .assistant-fab-label { display: none; }
+  .assistant-fab-icon { width: 1.45rem; height: 1.45rem; }
 }
 
 /* The assistant panel reuses .story-panel positioning; override to a fixed-height
    chat column: scrolling log with a pinned input row. */
 .assistant-panel {
-  width: min(42rem, 94vw);
-  height: min(40rem, 88vh);
-  max-height: 88vh;
+  width: min(72rem, 96vw);
+  height: 95vh;
+  max-height: 95vh;
   overflow: hidden;
   padding-bottom: 1.4rem;
 }
@@ -994,6 +1003,50 @@ a:focus-visible {
   border-bottom-left-radius: 3px;
 }
 .assistant-msg.bot.error { border-color: #b4451f; color: #8f2f12; }
+
+/* Rendered markdown inside a bot answer (renderPortrait output). The pre-wrap on
+   .assistant-msg is for user messages and the plain "searching…" state; a rendered
+   answer lays out as proper block elements instead. */
+.assistant-msg.bot { white-space: normal; }
+.assistant-msg.bot.pending { white-space: pre-wrap; }
+.assistant-msg .portrait-p { margin: 0 0 .55rem; }
+.assistant-msg .portrait-p:last-child { margin-bottom: 0; }
+.assistant-msg .portrait-list { margin: .15rem 0 .55rem; padding-left: 1.15rem; }
+.assistant-msg .portrait-list li { margin: 0 0 .3rem; }
+.assistant-msg .portrait-list li:last-child { margin-bottom: 0; }
+.assistant-msg .portrait-h {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: .95rem;
+  color: var(--green-deep);
+  margin: .7rem 0 .35rem;
+}
+.assistant-msg .portrait-h:first-child { margin-top: 0; }
+.assistant-msg strong { font-weight: 700; }
+.assistant-msg em { font-style: italic; }
+.assistant-msg .portrait-link { color: var(--gold); font-weight: 600; }
+.assistant-msg hr { border: 0; border-top: 1px solid var(--rule-strong); margin: .7rem 0; }
+
+/* Clickable entity reference (a P-#### / PAR-#### … id) inside an answer — opens the
+   person panel or the record reader. */
+.assistant-ref {
+  appearance: none;
+  border: 0;
+  background: none;
+  padding: 0;
+  font: inherit;
+  color: var(--gold);
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.assistant-ref:hover { color: var(--green-deep); }
+/* A clickable person NAME keeps its ink colour and bold/italic weight, with a gold
+   underline to signal it navigates (less heavy than colouring every name gold). */
+.assistant-ref-name { color: inherit; text-decoration-color: var(--gold); }
+.assistant-ref-name:hover { color: var(--green-deep); text-decoration-color: var(--green-deep); }
+.assistant-ref-name strong, .assistant-ref-name em { color: inherit; }
 .assistant-msg.pending::after {
   content: "…";
   animation: assistant-blink 1.2s steps(3, end) infinite;
@@ -1001,30 +1054,75 @@ a:focus-visible {
 @keyframes assistant-blink { 0%, 20% { opacity: .3; } 50% { opacity: 1; } 100% { opacity: .3; } }
 .assistant-empty {
   margin: auto 0;
+  align-self: center;
+  width: 100%;
+  max-width: 58rem;
   text-align: center;
   color: var(--muted);
-  font-size: .92rem;
-  line-height: 1.6;
+}
+.assistant-empty-icon {
+  width: 3.4rem;
+  height: 3.4rem;
+  margin: 0 auto 1.1rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--gold-soft);
+  border: 1px solid var(--gold);
+  color: var(--green-deep);
+}
+.assistant-empty-icon svg { width: 1.7rem; height: 1.7rem; }
+.assistant-empty-lead {
+  margin: 0 auto 1.6rem;
+  max-width: 34rem;
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  line-height: 1.65;
+  color: var(--ink-2);
+}
+.assistant-empty-label {
+  margin: 0 0 .8rem;
+  font-family: var(--sans);
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--gold);
 }
 .assistant-suggest {
   display: flex;
-  flex-wrap: wrap;
-  gap: .5rem;
-  justify-content: center;
-  margin-top: .9rem;
+  flex-direction: column;
+  gap: .55rem;
+  align-items: stretch;
+  text-align: left;
 }
-.assistant-suggest button {
+.assistant-suggest-item {
   appearance: none;
-  padding: .4rem .75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .8rem;
+  padding: .8rem 1rem;
   border: 1px solid var(--rule-strong);
-  border-radius: 1rem;
+  border-radius: 10px;
   background: var(--card);
-  color: var(--ink-2);
+  color: var(--ink);
   font: inherit;
-  font-size: .82rem;
+  font-size: .95rem;
+  line-height: 1.4;
   cursor: pointer;
+  transition: background .15s ease, border-color .15s ease, transform .1s ease;
 }
-.assistant-suggest button:hover { background: var(--gold-soft); border-color: var(--gold); color: var(--green-deep); }
+.assistant-suggest-item::after {
+  content: "›";
+  flex: 0 0 auto;
+  color: var(--gold);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.assistant-suggest-item:hover { background: var(--gold-soft); border-color: var(--gold); }
+.assistant-suggest-item:active { transform: translateY(1px); }
 .assistant-form {
   flex: 0 0 auto;
   display: flex;
@@ -1063,17 +1161,35 @@ a:focus-visible {
 .assistant-disclaimer { flex: 0 0 auto; margin: .7rem 0 0; font-size: .72rem; line-height: 1.5; color: var(--muted); }
 
 @media (max-width: 700px) {
-  /* Full-screen sheet on mobile, matching the other panels. */
+  /* Full-screen sheet on mobile, matching the other panels (updates/story). */
   .assistant-panel {
-    width: 100vw;
-    height: 100dvh;
-    max-height: none;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 100dvh; /* dynamic viewport height: shrinks when the keyboard opens */
+    max-height: none;
     transform: none;
     border-radius: 0;
-    padding: 1.4rem 1.15rem;
+    border-left: 0;
+    padding: 1.3rem 1.05rem calc(1.05rem + env(safe-area-inset-bottom));
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
   }
+  /* Header: smaller type, and the × close pinned top-right so it's always reachable. */
+  .assistant-panel .story-head { padding-right: 3.2rem; margin-bottom: 1rem; padding-bottom: .9rem; }
+  .assistant-panel .story-head-actions { position: fixed; top: .7rem; right: .7rem; z-index: 22; }
+  .assistant-panel .story-head-actions button { box-shadow: var(--shadow-md); }
+  .assistant-panel .story-title { font-size: 1.25rem; }
+  .assistant-panel .story-subtitle { font-size: .9rem; }
+  .assistant-panel .story-eyebrow { font-size: .58rem; }
+  /* Empty state a touch tighter on small screens. */
+  .assistant-empty-icon { width: 3rem; height: 3rem; margin-bottom: .9rem; }
+  .assistant-empty-lead { font-size: 1rem; }
+  .assistant-suggest-item { padding: .75rem .9rem; }
+  /* Input row: 16px font on the textarea prevents iOS auto-zoom on focus. */
+  .assistant-form { gap: .5rem; }
+  .assistant-form textarea { font-size: 16px; }
+  .assistant-form button { padding: .6rem .95rem; }
 }
 
 /* The person panel's header actions — the "?" (About this card) beside the × close. */

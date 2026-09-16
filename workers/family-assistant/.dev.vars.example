@@ -1,0 +1,10 @@
+# Copy this file to `.dev.vars` (gitignored) for `wrangler dev` local testing.
+#
+# Your free Gemini API key — https://aistudio.google.com/app/apikey
+GEMINI_API_KEY=your-gemini-key-here
+#
+# Point the Worker at a locally-served copy of the knowledge base instead of the
+# live site, so you can test kb/ changes before they are pushed/deployed. Run a
+# static server from the REPO ROOT (`python3 -m http.server 8765`) after
+# `make knowledge-base`, then use:
+KB_BASE=http://127.0.0.1:8765/family-tree-viewer/kb/

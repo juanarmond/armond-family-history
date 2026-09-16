@@ -32,5 +32,10 @@ _site/
 # locally to serve the family-assistant Worker in development). Derived, not history.
 family-tree-viewer/kb/
 
+# Wrangler local-dev variables for the Workers (Gemini key, local KB base) — secret
+.dev.vars
+# Wrangler local state / build cache
+.wrangler/
+
 # Local planning and scratch files (never committed)
 _local/

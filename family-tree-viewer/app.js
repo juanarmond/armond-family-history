@@ -17,7 +17,14 @@ const VISITOR_NUM_KEY = "armond-viewer-visitor-number";
 // (see workers/family-assistant/): it answers questions grounded only in this
 // archive's data via Gemini, and streams the reply back as plain text. Leave empty
 // to disable — the "Ask" button simply stays hidden until the Worker URL is set.
-const ASSISTANT_API = "";
+// A localStorage key "armond-assistant-api" overrides it (for local testing against
+// `wrangler dev`, or pointing the live site at a staging Worker) without a code change.
+const CONFIGURED_ASSISTANT_API = "";
+let ASSISTANT_API = CONFIGURED_ASSISTANT_API;
+try {
+  const override = localStorage.getItem("armond-assistant-api");
+  if (override) ASSISTANT_API = override;
+} catch { /* storage unavailable — use the configured default */ }
 
 const state = {
   data: null,
@@ -838,7 +845,10 @@ function setLocale(locale) {
   if (elements.guidePanel && !elements.guidePanel.hidden) renderGuide();
   if (elements.storyPanel && !elements.storyPanel.hidden) openStory();
   if (elements.updatesPanel && !elements.updatesPanel.hidden) openUpdates();
-  // Re-localise the assistant's empty-state (its dynamic chat bubbles are left as-is).
+  // Re-localise the assistant's empty-state (its dynamic chat bubbles are left as-is), and
+  // reload the AI-generated suggestions in the new language.
+  assistantSuggestPool = null;
+  loadAssistantSuggestions();
   if (elements.assistantPanel && !elements.assistantPanel.hidden
       && elements.assistantLog.querySelector(".assistant-empty")) renderAssistantIntro();
   if (state.data) {
@@ -1073,6 +1083,7 @@ function closeReader() {
     document.removeEventListener("keydown", readerKeyHandler);
     readerKeyHandler = null;
   }
+  if (returnToAssistant) { returnToAssistant = false; openAssistant(); }
 }
 
 // The "Portrait / Retrato" layer: opened from the "More details" link inside the
@@ -1787,6 +1798,12 @@ function closeStory() {
 // (workers/family-assistant/). Questions are answered strictly from this archive's
 // data and streamed back token by token. Dormant unless ASSISTANT_API is set.
 let assistantBusy = false;
+// Set when the user clicks an entity link inside an answer: closing the person/document
+// they jumped to then reopens the chat (with its history intact).
+let returnToAssistant = false;
+// AI-generated example questions fetched from the Worker (null until loaded; falls back to
+// the curated i18n pool).
+let assistantSuggestPool = null;
 
 function openAssistant() {
   if (!elements.assistantPanel) return;
@@ -1820,23 +1837,73 @@ function renderAssistantIntro() {
   log.textContent = "";
   const wrap = document.createElement("div");
   wrap.className = "assistant-empty";
+
+  // Emblem — reuse the "Ask" pill's chat glyph so the empty state feels part of the brand.
+  const icon = document.createElement("div");
+  icon.className = "assistant-empty-icon";
+  const fabIcon = document.querySelector("#assistant-fab .assistant-fab-icon");
+  if (fabIcon) icon.appendChild(fabIcon.cloneNode(true));
+  wrap.append(icon);
+
   const intro = document.createElement("p");
+  intro.className = "assistant-empty-lead";
   intro.textContent = t("assistant.intro");
   wrap.append(intro);
+
+  const label = document.createElement("p");
+  label.className = "assistant-empty-label";
+  label.textContent = t("assistant.suggestLabel");
+  wrap.append(label);
+
   const suggest = document.createElement("div");
   suggest.className = "assistant-suggest";
-  for (const key of ["assistant.suggest1", "assistant.suggest2", "assistant.suggest3"]) {
+  // Prefer the AI-generated pool fetched from the Worker (fresh per data version); fall back
+  // to the curated 12. Show 6 at random, so each fresh page/open surfaces a new set.
+  const items = (assistantSuggestPool && assistantSuggestPool.length >= 6)
+    ? [...assistantSuggestPool]
+    : Array.from({ length: 12 }, (_, i) => t(`assistant.q${i + 1}`));
+  for (let i = items.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [items[i], items[j]] = [items[j], items[i]];
+  }
+  for (const q of items.slice(0, 6)) {
     const b = document.createElement("button");
     b.type = "button";
-    b.textContent = t(key);
+    b.className = "assistant-suggest-item";
+    b.textContent = q;
     b.addEventListener("click", () => {
-      elements.assistantInput.value = t(key);
+      elements.assistantInput.value = q;
       submitAssistant();
     });
     suggest.append(b);
   }
   wrap.append(suggest);
   log.append(wrap);
+}
+
+// Fetch a pool of AI-generated example questions for the current language (cached in the
+// Worker per data version). On success, later renders of the empty state draw from it; on
+// failure the curated 12 in i18n remain the fallback.
+async function loadAssistantSuggestions() {
+  if (!ASSISTANT_API) return;
+  const lang = state.locale === "pt-BR" ? "pt" : "en";
+  try {
+    const res = await fetch(`${ASSISTANT_API}/suggest`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ lang }),
+    });
+    if (!res.ok) return;
+    const data = await res.json();
+    if (Array.isArray(data.questions) && data.questions.length >= 6) {
+      assistantSuggestPool = data.questions;
+      // If the empty state is on screen right now, refresh it with the richer pool.
+      if (elements.assistantPanel && !elements.assistantPanel.hidden
+          && elements.assistantLog && elements.assistantLog.querySelector(".assistant-empty")) {
+        renderAssistantIntro();
+      }
+    }
+  } catch { /* keep the curated fallback */ }
 }
 
 function appendAssistantMessage(role, text) {
@@ -1876,38 +1943,137 @@ async function submitAssistant() {
   elements.assistantInput.value = "";
   autoGrowAssistantInput();
   setAssistantBusy(true);
-  const bot = appendAssistantMessage("bot", "");
-  bot.classList.add("pending");
 
+  // Pending bubble with a live "searching the records" label (the CSS adds the animated
+  // dots) so the user always sees progress, never a dead spinner.
+  const bot = appendAssistantMessage("bot", t("assistant.searching"));
+  bot.classList.add("pending");
+  elements.assistantLog.scrollTop = elements.assistantLog.scrollHeight;
+
+  // Hard client timeout so the UI can never appear frozen: if the Worker or model stalls,
+  // abort and tell the user to retry rather than spinning forever.
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 40000);
   try {
     const res = await fetch(ASSISTANT_API, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ question, lang: state.locale === "pt-BR" ? "pt" : "en" }),
+      signal: controller.signal,
     });
-    if (!res.ok || !res.body) throw new Error(`HTTP ${res.status}`);
-    const reader = res.body.getReader();
-    const decoder = new TextDecoder();
-    let answer = "";
-    for (;;) {
-      const { done, value } = await reader.read();
-      if (done) break;
-      answer += decoder.decode(value, { stream: true });
-      bot.classList.remove("pending");
-      bot.textContent = answer;
-      elements.assistantLog.scrollTop = elements.assistantLog.scrollHeight;
-    }
-    if (!answer.trim()) {
-      bot.textContent = t("assistant.error");
+    const data = await res.json().catch(() => ({}));
+    bot.classList.remove("pending");
+    if (res.ok && data.answer && data.answer.trim()) {
+      // Render the answer's markdown (bold names, italic source-forms, bullet lists,
+      // headings) with the same safe DOM renderer the profiles/story use, then turn
+      // entity IDs (people, documents) into clickable navigation links.
+      renderPortrait(bot, data.answer.trim());
+      linkifyAssistant(bot);
+      linkifyAssistantNames(bot);
+    } else {
       bot.classList.add("error");
+      bot.textContent = t("assistant.error");
     }
-  } catch {
+  } catch (err) {
     bot.classList.remove("pending");
     bot.classList.add("error");
-    bot.textContent = t("assistant.error");
+    bot.textContent = err && err.name === "AbortError" ? t("assistant.timeout") : t("assistant.error");
   } finally {
+    clearTimeout(timeout);
     setAssistantBusy(false);
+    elements.assistantLog.scrollTop = elements.assistantLog.scrollHeight;
     if (elements.assistantPanel && !elements.assistantPanel.hidden) elements.assistantInput.focus();
+  }
+}
+
+// Resolve an entity id mentioned in an answer to a navigation action, or null if it
+// cannot be routed (an event/family id, or a private/absent entity). Clicking closes the
+// assistant and opens the target; reopening the "Ask" pill restores the conversation.
+function resolveAssistantLink(id) {
+  if (/^P-\d{3,4}$/.test(id)) {
+    const person = state.data && state.data.people && state.data.people[id];
+    if (!person) return null;
+    return () => { returnToAssistant = true; closeAssistant(); openDetails(id); };
+  }
+  if (/^(?:CIV|GOV|PAR|PRB|NWS|PUB|REC)-\d{3,4}$/.test(id)) {
+    const source = state.data && state.data.sources && state.data.sources[id];
+    if (!source) return null;
+    return () => { returnToAssistant = true; closeAssistant(); openReader(source); };
+  }
+  return null;
+}
+
+// Normalize a name for matching: strip accents, lowercase, collapse whitespace.
+function normAssistName(s) {
+  return s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/\s+/g, " ").trim();
+}
+
+// Lazily build a preferred-name → person-id map from the loaded tree (deceased only),
+// so a **bold name** in an answer becomes a link to that person even when the answer
+// carries no P-#### id for them.
+let assistantNameMap = null;
+function getAssistantNameMap() {
+  if (assistantNameMap) return assistantNameMap;
+  assistantNameMap = new Map();
+  const people = (state.data && state.data.people) || {};
+  for (const [id, p] of Object.entries(people)) {
+    if (!p || !p.name || p.privacy === "living") continue;
+    const key = normAssistName(p.name);
+    if (key && !assistantNameMap.has(key)) assistantNameMap.set(key, id);
+  }
+  return assistantNameMap;
+}
+
+// Turn a rendered bold/italic person name into a link to that person's panel.
+function linkifyAssistantNames(root) {
+  const map = getAssistantNameMap();
+  for (const el of root.querySelectorAll("strong, em")) {
+    if (el.closest("button, a")) continue;
+    const id = map.get(normAssistName(el.textContent || ""));
+    if (!id) continue;
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "assistant-ref assistant-ref-name";
+    btn.addEventListener("click", () => { returnToAssistant = true; closeAssistant(); openDetails(id); });
+    el.parentNode.replaceChild(btn, el);
+    btn.appendChild(el); // keep the original bold/italic styling inside the link
+  }
+}
+
+const ASSISTANT_ID_RE = /\b(P-\d{3,4}|(?:CIV|GOV|PAR|PRB|NWS|PUB|REC)-\d{3,4})\b/g;
+
+// Walk the rendered answer's text nodes and turn each navigable entity id into a
+// clickable link, leaving unroutable ids (events, families, absent people) as plain text.
+function linkifyAssistant(root) {
+  const nodes = [];
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  while (walker.nextNode()) nodes.push(walker.currentNode);
+  for (const node of nodes) {
+    const text = node.nodeValue;
+    ASSISTANT_ID_RE.lastIndex = 0;
+    if (!ASSISTANT_ID_RE.test(text)) continue;
+    if (node.parentElement && node.parentElement.closest("a, button")) continue;
+    const frag = document.createDocumentFragment();
+    let last = 0;
+    let m;
+    ASSISTANT_ID_RE.lastIndex = 0;
+    while ((m = ASSISTANT_ID_RE.exec(text)) !== null) {
+      if (m.index > last) frag.appendChild(document.createTextNode(text.slice(last, m.index)));
+      const open = resolveAssistantLink(m[1]);
+      if (open) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "assistant-ref";
+        btn.textContent = m[1];
+        btn.addEventListener("click", open);
+        frag.appendChild(btn);
+      } else {
+        frag.appendChild(document.createTextNode(m[0]));
+      }
+      last = m.index + m[0].length;
+    }
+    if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
+    node.parentNode.replaceChild(frag, node);
   }
 }
 
@@ -2395,6 +2561,7 @@ function closeDetails() {
   }
   lastFocused = null;
   if (returnToUpdates) { returnToUpdates = false; openUpdates(); }
+  if (returnToAssistant) { returnToAssistant = false; openAssistant(); }
 }
 
 // ---------- Mobile focus view ----------
@@ -2766,6 +2933,7 @@ async function initialise() {
   applyStaticTranslations();
   // Independent of the tree data — fetch in parallel; failures stay silent.
   initVisitorWelcome();
+  loadAssistantSuggestions();
   try {
     const response = await fetch("/api/tree", { cache: "no-store" });
     if (!response.ok) throw new Error(t("error.httpStatus", { status: response.status }));

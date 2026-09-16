@@ -60,15 +60,54 @@ wrangler secret put GEMINI_API_KEY     # paste the key when prompted
 wrangler deploy
 ```
 
-## Local test
+## Full local test (before pushing anything)
 
-```sh
-cd workers/family-assistant
-wrangler dev                           # then POST to the local URL:
-# curl -s http://localhost:8787 -H 'Content-Type: application/json' \
-#   -d '{"question":"How is Frédéric Rutschmann related to Iris?","lang":"en"}'
-```
+You can exercise the whole feature — viewer widget + Worker + Gemini — entirely on
+your machine, reading a **local** copy of the knowledge base so nothing needs to be
+pushed first.
 
-`wrangler dev` needs `GEMINI_API_KEY` in the environment (`.dev.vars` file with
-`GEMINI_API_KEY=...`, which is gitignored) and fetches the knowledge base from the
-live site, so deploy the `kb/` files (push to `main`) before testing.
+1. **Build the knowledge base locally** (from the repo root):
+
+   ```sh
+   make knowledge-base            # writes family-tree-viewer/kb/
+   ```
+
+2. **Serve the repo** (from the repo root) so the viewer *and* kb/ are on localhost:
+
+   ```sh
+   python3 -m http.server 8765
+   ```
+
+   Viewer → <http://127.0.0.1:8765/family-tree-viewer/> ·
+   kb/ → `http://127.0.0.1:8765/family-tree-viewer/kb/`
+
+3. **Configure and run the Worker** (in another terminal):
+
+   ```sh
+   cd workers/family-assistant
+   cp .dev.vars.example .dev.vars        # then edit: real GEMINI_API_KEY, keep the local KB_BASE
+   npx wrangler dev                      # serves the Worker at http://localhost:8787
+   ```
+
+   `.dev.vars` (gitignored) supplies `GEMINI_API_KEY` and `KB_BASE` — the latter
+   points the Worker at the locally-served kb/, so you test current data without a deploy.
+
+   Smoke-test it directly:
+
+   ```sh
+   curl -N http://localhost:8787 -H 'Content-Type: application/json' \
+     -d '{"question":"How is Frédéric Rutschmann related to Iris?","lang":"en"}'
+   ```
+
+4. **Point the viewer at the local Worker** — open the viewer (step 2), open the
+   browser console, and run:
+
+   ```js
+   localStorage.setItem("armond-assistant-api", "http://localhost:8787")
+   ```
+
+   Reload. The **Ask** pill now appears; the chat talks to your local Worker. (Clear
+   it with `localStorage.removeItem("armond-assistant-api")`.)
+
+Once it all works locally, deploy the Worker (above), set `CONFIGURED_ASSISTANT_API`
+in `family-tree-viewer/app.js` to the deployed URL, and push.
