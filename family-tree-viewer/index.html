@@ -202,10 +202,18 @@
 
   <button id="assistant-fab" class="assistant-fab" type="button" data-i18n-aria="assistant.fab" data-i18n-title="assistant.fab" aria-label="Ask AI" title="Ask AI" hidden>
     <svg viewBox="0 0 24 24" class="assistant-fab-icon" aria-hidden="true" focusable="false">
-      <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M4 5.5h16v10.5H10l-4 3.5v-3.5H4z"/>
-      <circle cx="9" cy="10.75" r="1" fill="currentColor"/>
-      <circle cx="12" cy="10.75" r="1" fill="currentColor"/>
-      <circle cx="15" cy="10.75" r="1" fill="currentColor"/>
+      <!-- antenna -->
+      <path d="M11 8V5.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      <circle cx="11" cy="4.4" r="1.05" fill="currentColor"/>
+      <!-- robot head -->
+      <rect x="4" y="8" width="14" height="11" rx="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/>
+      <!-- eyes -->
+      <circle cx="8.5" cy="12.8" r="1.2" fill="currentColor"/>
+      <circle cx="13.5" cy="12.8" r="1.2" fill="currentColor"/>
+      <!-- mouth -->
+      <path d="M8.6 15.9h4.8" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+      <!-- AI sparkle -->
+      <path d="M19.6 3.3 20.45 4.95 22.1 5.8 20.45 6.65 19.6 8.3 18.75 6.65 17.1 5.8 18.75 4.95Z" fill="currentColor"/>
     </svg>
     <span class="assistant-fab-label" data-i18n="assistant.fab">Ask AI</span>
   </button>
