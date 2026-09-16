@@ -1,4 +1,4 @@
-.PHONY: check test validate profiles-audit ancestors-audit drop-pages-audit triage-audit updates export export-bundle export-legacy install-hooks
+.PHONY: check test validate profiles-audit ancestors-audit drop-pages-audit triage-audit updates knowledge-base export export-bundle export-legacy install-hooks
 
 PYTHON ?= python3
 
@@ -46,6 +46,14 @@ triage-audit:
 # after cataloguing new sources; commit the regenerated updates.json like entity-index.json.
 updates:
 	$(PYTHON) scripts/build_updates.py
+
+# Build the AI-assistant knowledge base (family-tree-viewer/kb/): the always-sent
+# Tier A knowledge-base.json + name-index.json, plus per-person and per-source Tier B
+# files fetched on demand. Generated from data/ with the same privacy filter as the
+# public site (living people and their documents excluded). Gitignored; the Pages
+# deploy regenerates it into _site/kb. Run locally to serve the family-assistant Worker.
+knowledge-base:
+	$(PYTHON) scripts/build_knowledge_base.py
 
 test:
 	$(PYTHON) -m unittest discover -s tests -v

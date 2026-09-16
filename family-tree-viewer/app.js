@@ -13,6 +13,12 @@ const GUIDE_STORAGE_KEY = "armond-viewer-guide-seen-v1";
 const VISITOR_API = "https://family-visitor-counter.juan-armond.workers.dev";
 const VISITOR_NUM_KEY = "armond-viewer-visitor-number";
 
+// AI family-history assistant. Powered by a Cloudflare Worker the owner deploys
+// (see workers/family-assistant/): it answers questions grounded only in this
+// archive's data via Gemini, and streams the reply back as plain text. Leave empty
+// to disable — the "Ask" button simply stays hidden until the Worker URL is set.
+const ASSISTANT_API = "";
+
 const state = {
   data: null,
   rootId: "P-0001",
@@ -165,6 +171,14 @@ const elements = {
   guideTitle: document.querySelector("#guide-title"),
   guideSubtitle: document.querySelector("#guide-subtitle"),
   visitorWelcome: document.querySelector("#visitor-welcome"),
+  assistantFab: document.querySelector("#assistant-fab"),
+  assistantPanel: document.querySelector("#assistant-panel"),
+  assistantBackdrop: document.querySelector("#assistant-backdrop"),
+  closeAssistant: document.querySelector("#close-assistant"),
+  assistantLog: document.querySelector("#assistant-log"),
+  assistantForm: document.querySelector("#assistant-form"),
+  assistantInput: document.querySelector("#assistant-input"),
+  assistantSend: document.querySelector("#assistant-send"),
 };
 
 const statusColours = {
@@ -824,6 +838,9 @@ function setLocale(locale) {
   if (elements.guidePanel && !elements.guidePanel.hidden) renderGuide();
   if (elements.storyPanel && !elements.storyPanel.hidden) openStory();
   if (elements.updatesPanel && !elements.updatesPanel.hidden) openUpdates();
+  // Re-localise the assistant's empty-state (its dynamic chat bubbles are left as-is).
+  if (elements.assistantPanel && !elements.assistantPanel.hidden
+      && elements.assistantLog.querySelector(".assistant-empty")) renderAssistantIntro();
   if (state.data) {
     renderActive();
     if (state.selected && !elements.detailsPanel.hidden) openDetails(state.selected);
@@ -1766,6 +1783,134 @@ function closeStory() {
   lastFocused = null;
 }
 
+// AI family-history assistant — a chat overlay backed by the family-assistant Worker
+// (workers/family-assistant/). Questions are answered strictly from this archive's
+// data and streamed back token by token. Dormant unless ASSISTANT_API is set.
+let assistantBusy = false;
+
+function openAssistant() {
+  if (!elements.assistantPanel) return;
+  const opening = elements.assistantPanel.hidden;
+  if (opening && !elements.assistantPanel.contains(document.activeElement)) {
+    lastFocused = document.activeElement;
+  }
+  // Close the sibling reading panels (the guide layers above and is left alone).
+  if (elements.storyPanel) { elements.storyPanel.hidden = true; elements.storyBackdrop.hidden = true; }
+  if (elements.updatesPanel) { elements.updatesPanel.hidden = true; elements.updatesBackdrop.hidden = true; }
+  elements.assistantPanel.hidden = false;
+  elements.assistantBackdrop.hidden = false;
+  if (!elements.assistantLog.querySelector(".assistant-msg")) renderAssistantIntro();
+  if (opening && elements.assistantInput) elements.assistantInput.focus();
+}
+
+function closeAssistant() {
+  if (!elements.assistantPanel) return;
+  elements.assistantPanel.hidden = true;
+  elements.assistantBackdrop.hidden = true;
+  if (lastFocused && lastFocused.isConnected && typeof lastFocused.focus === "function") {
+    lastFocused.focus();
+  }
+  lastFocused = null;
+}
+
+// The empty-state: a one-line prompt plus a few tappable example questions.
+function renderAssistantIntro() {
+  const log = elements.assistantLog;
+  if (!log) return;
+  log.textContent = "";
+  const wrap = document.createElement("div");
+  wrap.className = "assistant-empty";
+  const intro = document.createElement("p");
+  intro.textContent = t("assistant.intro");
+  wrap.append(intro);
+  const suggest = document.createElement("div");
+  suggest.className = "assistant-suggest";
+  for (const key of ["assistant.suggest1", "assistant.suggest2", "assistant.suggest3"]) {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.textContent = t(key);
+    b.addEventListener("click", () => {
+      elements.assistantInput.value = t(key);
+      submitAssistant();
+    });
+    suggest.append(b);
+  }
+  wrap.append(suggest);
+  log.append(wrap);
+}
+
+function appendAssistantMessage(role, text) {
+  const el = document.createElement("div");
+  el.className = `assistant-msg ${role}`;
+  el.textContent = text || "";
+  elements.assistantLog.append(el);
+  elements.assistantLog.scrollTop = elements.assistantLog.scrollHeight;
+  return el;
+}
+
+function setAssistantBusy(busy) {
+  assistantBusy = busy;
+  if (elements.assistantSend) {
+    elements.assistantSend.disabled = busy;
+    elements.assistantSend.textContent = busy ? t("assistant.sending") : t("assistant.send");
+  }
+}
+
+function autoGrowAssistantInput() {
+  const ta = elements.assistantInput;
+  if (!ta) return;
+  ta.style.height = "auto";
+  ta.style.height = Math.min(ta.scrollHeight, 128) + "px";
+}
+
+// Send the current question to the Worker and stream the plain-text reply into a
+// bot bubble. One question at a time (guarded by assistantBusy).
+async function submitAssistant() {
+  if (assistantBusy || !ASSISTANT_API || !elements.assistantInput) return;
+  const question = elements.assistantInput.value.trim();
+  if (!question) return;
+
+  const intro = elements.assistantLog.querySelector(".assistant-empty");
+  if (intro) intro.remove();
+  appendAssistantMessage("user", question);
+  elements.assistantInput.value = "";
+  autoGrowAssistantInput();
+  setAssistantBusy(true);
+  const bot = appendAssistantMessage("bot", "");
+  bot.classList.add("pending");
+
+  try {
+    const res = await fetch(ASSISTANT_API, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ question, lang: state.locale === "pt-BR" ? "pt" : "en" }),
+    });
+    if (!res.ok || !res.body) throw new Error(`HTTP ${res.status}`);
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let answer = "";
+    for (;;) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      answer += decoder.decode(value, { stream: true });
+      bot.classList.remove("pending");
+      bot.textContent = answer;
+      elements.assistantLog.scrollTop = elements.assistantLog.scrollHeight;
+    }
+    if (!answer.trim()) {
+      bot.textContent = t("assistant.error");
+      bot.classList.add("error");
+    }
+  } catch {
+    bot.classList.remove("pending");
+    bot.classList.add("error");
+    bot.textContent = t("assistant.error");
+  } finally {
+    setAssistantBusy(false);
+    if (elements.assistantPanel && !elements.assistantPanel.hidden) elements.assistantInput.focus();
+  }
+}
+
 // The "How to explore" guide — a family-facing, navigation-first help overlay. It
 // opens once automatically on a first visit (flagged in localStorage) and any time
 // the "? Help" button is tapped. Content is built here from i18n keys so it stays
@@ -2017,9 +2162,11 @@ function renderGuide() {
 // dimmed panel. Driven by a MutationObserver on the backdrops (see bindEvents), so
 // it stays correct without touching every open/close path.
 function syncHelpFab() {
-  if (!elements.helpFab) return;
   const overlayOpen = [...document.querySelectorAll(".panel-backdrop")].some((b) => !b.hidden);
-  elements.helpFab.hidden = overlayOpen;
+  if (elements.helpFab) elements.helpFab.hidden = overlayOpen;
+  // The "Ask" pill follows the same rule, and only appears once the assistant Worker
+  // URL is configured (ASSISTANT_API); until then the feature is dormant.
+  if (elements.assistantFab) elements.assistantFab.hidden = overlayOpen || !ASSISTANT_API;
 }
 
 // topic: "nav" (default, how to move around) or "card" (explain the open person
@@ -2565,6 +2712,25 @@ function bindEvents() {
   if (elements.openUpdates) elements.openUpdates.addEventListener("click", openUpdates);
   if (elements.closeUpdates) elements.closeUpdates.addEventListener("click", closeUpdates);
   if (elements.updatesBackdrop) elements.updatesBackdrop.addEventListener("click", closeUpdates);
+  if (elements.assistantFab) elements.assistantFab.addEventListener("click", openAssistant);
+  if (elements.closeAssistant) elements.closeAssistant.addEventListener("click", closeAssistant);
+  if (elements.assistantBackdrop) elements.assistantBackdrop.addEventListener("click", closeAssistant);
+  if (elements.assistantForm) {
+    elements.assistantForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      submitAssistant();
+    });
+  }
+  if (elements.assistantInput) {
+    elements.assistantInput.addEventListener("input", autoGrowAssistantInput);
+    elements.assistantInput.addEventListener("keydown", (event) => {
+      // Enter sends; Shift+Enter inserts a newline.
+      if (event.key === "Enter" && !event.shiftKey) {
+        event.preventDefault();
+        submitAssistant();
+      }
+    });
+  }
   if (elements.helpFab) elements.helpFab.addEventListener("click", () => openGuide("nav"));
   if (elements.detailHelp) elements.detailHelp.addEventListener("click", () => openGuide("card"));
   if (elements.storyHelp) elements.storyHelp.addEventListener("click", () => openGuide("story"));
@@ -2575,6 +2741,7 @@ function bindEvents() {
     if (event.key !== "Escape") return;
     // The guide layers on top — Escape closes it first, leaving the panel beneath open.
     if (elements.guidePanel && !elements.guidePanel.hidden) { closeGuide(); return; }
+    if (elements.assistantPanel && !elements.assistantPanel.hidden) closeAssistant();
     if (elements.storyPanel && !elements.storyPanel.hidden) closeStory();
     if (elements.updatesPanel && !elements.updatesPanel.hidden) closeUpdates();
   });

@@ -37,6 +37,8 @@ from pathlib import Path
 
 import yaml
 
+from build_knowledge_base import build as build_knowledge_base
+
 ROOT = Path.cwd()
 VIEWER = ROOT / "family-tree-viewer"
 DATA = ROOT / "data"
@@ -235,6 +237,15 @@ def main() -> None:
         encoding="utf-8",
     )
 
+    # Regenerate the AI-assistant knowledge base fresh into the deployed site, so the
+    # family-assistant Worker always fetches current data. Applies the same living-person
+    # privacy filter as this build (it reads data/ independently). The committed viewer
+    # dir's kb/ is gitignored, so any stale local copy copied above is overwritten here.
+    kb_out = OUTPUT / "kb"
+    if kb_out.exists():
+        shutil.rmtree(kb_out)
+    kb_stats = build_knowledge_base(DATA, kb_out)
+
     # Deploy the evidence scans for the publishable (deceased-only) records,
     # preserving their repository-relative paths so evidenceHref resolves.
     copied = 0
@@ -256,6 +267,12 @@ def main() -> None:
         f"{len(public_sources)} sources,",
         f"{len(public_fan)} fan,",
         f"{copied} evidence scans",
+    )
+    print(
+        "  + knowledge base:",
+        f"{kb_stats['people']} people, {kb_stats['sources']} sources,",
+        f"{kb_stats['names']} names / {kb_stats['tokens']} tokens indexed,",
+        f"Tier A ≈ {kb_stats['tier_a_tokens_est']:,} tokens",
     )
 
 

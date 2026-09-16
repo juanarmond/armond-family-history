@@ -1,0 +1,9 @@
+# Wrangler config for the family-assistant Worker (CLI deploy path).
+# Dashboard deploy needs none of this — see README.md.
+name = "family-assistant"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+# The Gemini API key is a SECRET, never committed. Set it with:
+#   wrangler secret put GEMINI_API_KEY
+# (or Worker → Settings → Variables and Secrets → Add, in the dashboard).

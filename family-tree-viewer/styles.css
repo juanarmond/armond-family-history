@@ -920,6 +920,162 @@ a:focus-visible {
    nav-row "?"); it still auto-hides whenever a panel opens. */
 @media (max-width: 700px) { .help-fab { bottom: 1.15rem; right: 1.15rem; } }
 
+/* Family-history AI assistant — a floating "Ask" pill (bottom-left, clear of the
+   bottom-right "?") that opens a chat overlay reusing the .story-panel shell. */
+.assistant-fab {
+  position: fixed;
+  z-index: 15;
+  bottom: 1.4rem;
+  left: 1.4rem;
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .7rem 1.1rem;
+  border: 1px solid var(--gold);
+  border-radius: 2rem;
+  background: var(--green-deep);
+  color: #fbf6ea;
+  font-family: var(--sans);
+  font-size: .85rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  transition: background .15s ease, box-shadow .15s ease, transform .12s ease;
+}
+.assistant-fab:hover { background: var(--gold); box-shadow: 0 0 0 1px var(--gold), var(--shadow-md); }
+.assistant-fab:active { transform: translateY(1px); }
+.assistant-fab[hidden] { display: none; }
+.assistant-fab-icon { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+@media (max-width: 700px) {
+  .assistant-fab { bottom: 1.15rem; left: 1.15rem; padding: .65rem .85rem; }
+  /* Icon-only on the narrowest screens to save room. */
+  .assistant-fab-label { display: none; }
+}
+
+/* The assistant panel reuses .story-panel positioning; override to a fixed-height
+   chat column: scrolling log with a pinned input row. */
+.assistant-panel {
+  width: min(42rem, 94vw);
+  height: min(40rem, 88vh);
+  max-height: 88vh;
+  overflow: hidden;
+  padding-bottom: 1.4rem;
+}
+.assistant-log {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+  padding: .2rem .2rem 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--rule-strong) transparent;
+}
+.assistant-msg {
+  max-width: 85%;
+  padding: .7rem .95rem;
+  border-radius: 10px;
+  font-size: .96rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+.assistant-msg.user {
+  align-self: flex-end;
+  background: var(--green-deep);
+  color: #fbf6ea;
+  border-bottom-right-radius: 3px;
+}
+.assistant-msg.bot {
+  align-self: flex-start;
+  background: var(--card);
+  border: 1px solid var(--rule-strong);
+  color: var(--ink);
+  border-bottom-left-radius: 3px;
+}
+.assistant-msg.bot.error { border-color: #b4451f; color: #8f2f12; }
+.assistant-msg.pending::after {
+  content: "…";
+  animation: assistant-blink 1.2s steps(3, end) infinite;
+}
+@keyframes assistant-blink { 0%, 20% { opacity: .3; } 50% { opacity: 1; } 100% { opacity: .3; } }
+.assistant-empty {
+  margin: auto 0;
+  text-align: center;
+  color: var(--muted);
+  font-size: .92rem;
+  line-height: 1.6;
+}
+.assistant-suggest {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  justify-content: center;
+  margin-top: .9rem;
+}
+.assistant-suggest button {
+  appearance: none;
+  padding: .4rem .75rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 1rem;
+  background: var(--card);
+  color: var(--ink-2);
+  font: inherit;
+  font-size: .82rem;
+  cursor: pointer;
+}
+.assistant-suggest button:hover { background: var(--gold-soft); border-color: var(--gold); color: var(--green-deep); }
+.assistant-form {
+  flex: 0 0 auto;
+  display: flex;
+  gap: .6rem;
+  align-items: flex-end;
+  padding-top: .9rem;
+  border-top: 1px solid var(--rule-strong);
+}
+.assistant-form textarea {
+  flex: 1 1 auto;
+  resize: none;
+  max-height: 8rem;
+  padding: .6rem .75rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 8px;
+  background: var(--card);
+  color: var(--ink);
+  font: inherit;
+  font-size: .95rem;
+  line-height: 1.5;
+}
+.assistant-form textarea:focus { outline: 2px solid var(--gold); outline-offset: 1px; }
+.assistant-form button {
+  flex: 0 0 auto;
+  padding: .6rem 1.15rem;
+  border: 1px solid var(--gold);
+  border-radius: 8px;
+  background: var(--green-deep);
+  color: #fbf6ea;
+  font-family: var(--sans);
+  font-weight: 600;
+  cursor: pointer;
+}
+.assistant-form button:hover:not(:disabled) { background: var(--gold); }
+.assistant-form button:disabled { opacity: .55; cursor: default; }
+.assistant-disclaimer { flex: 0 0 auto; margin: .7rem 0 0; font-size: .72rem; line-height: 1.5; color: var(--muted); }
+
+@media (max-width: 700px) {
+  /* Full-screen sheet on mobile, matching the other panels. */
+  .assistant-panel {
+    width: 100vw;
+    height: 100dvh;
+    max-height: none;
+    top: 0;
+    left: 0;
+    transform: none;
+    border-radius: 0;
+    padding: 1.4rem 1.15rem;
+  }
+}
+
 /* The person panel's header actions — the "?" (About this card) beside the × close. */
 .detail-head-actions { display: flex; flex: 0 0 auto; gap: .5rem; align-items: center; }
 

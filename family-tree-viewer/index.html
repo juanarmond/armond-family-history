@@ -180,6 +180,36 @@
   </aside>
   <div id="updates-backdrop" class="panel-backdrop" hidden></div>
 
+  <aside id="assistant-panel" class="story-panel assistant-panel" aria-labelledby="assistant-title" hidden>
+    <div class="story-head">
+      <div>
+        <p class="story-eyebrow" data-i18n="assistant.eyebrow">Ask the archive</p>
+        <h2 id="assistant-title" class="story-title" data-i18n="assistant.title">Family history assistant</h2>
+        <p class="story-subtitle" data-i18n="assistant.subtitle">Ask about people, documents, and how everyone connects.</p>
+      </div>
+      <div class="story-head-actions">
+        <button id="close-assistant" class="close-button" type="button" data-i18n-aria="assistant.close" aria-label="Close assistant">×</button>
+      </div>
+    </div>
+    <div id="assistant-log" class="assistant-log" role="log" aria-live="polite"></div>
+    <form id="assistant-form" class="assistant-form">
+      <textarea id="assistant-input" rows="1" autocomplete="off" data-i18n-placeholder="assistant.placeholder" placeholder="Ask about the family…" aria-label="Your question"></textarea>
+      <button id="assistant-send" type="submit" data-i18n="assistant.send">Ask</button>
+    </form>
+    <p class="assistant-disclaimer" data-i18n="assistant.disclaimer">Answers come only from documented records in this archive, and may be imperfect. Living relatives are not included.</p>
+  </aside>
+  <div id="assistant-backdrop" class="panel-backdrop" hidden></div>
+
+  <button id="assistant-fab" class="assistant-fab" type="button" data-i18n-aria="assistant.fab" data-i18n-title="assistant.fab" aria-label="Ask about the family" title="Ask about the family" hidden>
+    <svg viewBox="0 0 24 24" class="assistant-fab-icon" aria-hidden="true" focusable="false">
+      <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M4 5.5h16v10.5H10l-4 3.5v-3.5H4z"/>
+      <circle cx="9" cy="10.75" r="1" fill="currentColor"/>
+      <circle cx="12" cy="10.75" r="1" fill="currentColor"/>
+      <circle cx="15" cy="10.75" r="1" fill="currentColor"/>
+    </svg>
+    <span class="assistant-fab-label" data-i18n="assistant.fab">Ask about the family</span>
+  </button>
+
   <button id="help-fab" class="help-fab" type="button" data-i18n-aria="guide.button" data-i18n-title="guide.button" aria-label="Help" title="Help" hidden>?</button>
 
   <footer class="site-footer" data-i18n="footer">
