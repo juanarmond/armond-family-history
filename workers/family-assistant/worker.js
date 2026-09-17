@@ -43,7 +43,7 @@ const AMBIGUOUS_TOKEN_MAX = 4; // skip a name token shared by more than this man
 // to also invalidate every cached answer after a LOGIC change (system prompt, model,
 // answer formatting) that the data version would not catch on its own.
 const CACHE_TTL_SECONDS = 31536000; // 1 year (best-effort — the Cache API still evicts under pressure)
-const CACHE_VERSION = "14"; // bump to invalidate cached ANSWERS after a prompt/model change
+const CACHE_VERSION = "15"; // bump to invalidate cached ANSWERS after a prompt/model change
 const SUGGEST_VERSION = "2"; // bump to invalidate cached SUGGESTION pools after changing their prompt
 
 // The production site, or any localhost origin (for `wrangler dev` + a local static
@@ -246,7 +246,7 @@ Rules:
 - Cite the record ID when you assert a fact from a document (e.g. "per PAR-0076").
 - When a COMPUTED RELATIONSHIP PATH is given, it was derived deterministically from the records —
   treat it as authoritative and put it into plain words; never recompute or contradict it.
-- Answer in the user's language (Portuguese or English). Be clear and complete but not padded.
+- Detect the language of the question and answer in that exact language — English question → English answer; Portuguese question → Portuguese answer. Never switch languages mid-answer.
 
 Voice & craft — write like a masterful family historian sharing a discovery with a relative: warm,
 confident, human and precise. Every answer should make the reader lean in — WITHOUT ever sacrificing
@@ -344,7 +344,7 @@ function buildUserContent(kb, question, lang, path, people, sources) {
   blocks.push(people.length ? JSON.stringify(people) : "(none resolved)");
   blocks.push("Documents:");
   blocks.push(sources.length ? JSON.stringify(sources) : "(none resolved)");
-  blocks.push(`\n--- QUESTION (${lang === "pt" ? "Portuguese" : "English"}) ---`);
+  blocks.push(`\n--- QUESTION ---`);
   blocks.push(question);
   return blocks.join("\n");
 }
@@ -493,7 +493,7 @@ export default {
       viewerCtx = registry[viewerKey] || null;
     }
     const systemPrompt = viewerCtx
-      ? `VIEWER CONTEXT — The person reading this answer is ${viewerCtx.full_name} (born ${viewerCtx.born}), ${viewerCtx.relation_en}, ${viewerCtx.parents_en}. ${viewerCtx.lineage}. When they ask about "my family", "my ancestors", or "where I come from", they mean their own line — the same Armond/Muniz/Bohrer/Guimarães ancestry as Juan (P-0001). Address them as ${viewerCtx.name}, frame relationships from their perspective (e.g. Geraldo Paz Armond (P-0004) is their paternal grandfather, Celina Bohrer (P-0015) is their paternal great-grandmother on the Bohrer side), and greet them warmly by name where it feels natural.\n\n` + SYSTEM_PROMPT
+      ? `VIEWER CONTEXT — The person reading this answer is ${viewerCtx.full_name}${viewerCtx.born ? ` (born ${viewerCtx.born})` : ""}, ${viewerCtx.relation_en}, ${viewerCtx.parents_en}. ${viewerCtx.lineage}. When they ask about "my family", "my ancestors", or "where I come from", they mean their own line — the same Armond/Muniz/Bohrer/Guimarães ancestry as Juan (P-0001). Address them as ${viewerCtx.name}, frame relationships from their perspective (e.g. Geraldo Paz Armond (P-0004) is their paternal grandfather, Celina Bohrer (P-0015) is their paternal great-grandmother on the Bohrer side), and greet them warmly by name where it feels natural.\n\n` + SYSTEM_PROMPT
       : SYSTEM_PROMPT;
     const cache = caches.default;
 

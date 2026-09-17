@@ -1,4 +1,4 @@
-.PHONY: check test validate profiles-audit ancestors-audit drop-pages-audit triage-audit updates knowledge-base export export-bundle export-legacy install-hooks
+.PHONY: check test validate profiles-audit ancestors-audit drop-pages-audit triage-audit updates knowledge-base export export-bundle export-legacy install-hooks upload-viewers
 
 PYTHON ?= python3
 
@@ -54,6 +54,14 @@ updates:
 # deploy regenerates it into _site/kb. Run locally to serve the family-assistant Worker.
 knowledge-base:
 	$(PYTHON) scripts/build_knowledge_base.py
+
+# Upload the living-family viewer registry to the Worker as an encrypted secret.
+# Edit _local/viewer_registry.json (gitignored) to add or update entries, then run this.
+# Requires wrangler in PATH (nvm use 22 first if needed).
+upload-viewers:
+	@test -f _local/viewer_registry.json || (echo "Missing _local/viewer_registry.json" && exit 1)
+	$(PYTHON) -c "import json,sys; d={k:v for k,v in json.load(open('_local/viewer_registry.json')).items() if not k.startswith('_')}; print(json.dumps(d,ensure_ascii=False))" \
+		| wrangler secret put VIEWER_REGISTRY --name family-assistant
 
 test:
 	$(PYTHON) -m unittest discover -s tests -v
