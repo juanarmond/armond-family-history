@@ -26,6 +26,12 @@ try {
   if (override) ASSISTANT_API = override;
 } catch { /* storage unavailable — use the configured default */ }
 
+// Optional viewer key from ?viewer=<key> — passed to the Worker so it can personalise
+// answers for known family members without storing any living-person data in the repo.
+const VIEWER_KEY = (() => {
+  try { return new URLSearchParams(location.search).get("viewer") || ""; } catch { return ""; }
+})();
+
 const state = {
   data: null,
   rootId: "P-0001",
@@ -2039,7 +2045,7 @@ async function submitAssistant() {
     const res = await fetch(ASSISTANT_API, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ question, lang: state.locale === "pt-BR" ? "pt" : "en" }),
+      body: JSON.stringify({ question, lang: state.locale === "pt-BR" ? "pt" : "en", viewer: VIEWER_KEY }),
       signal: controller.signal,
     });
     const data = await res.json().catch(() => ({}));

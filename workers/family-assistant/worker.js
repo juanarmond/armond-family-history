@@ -43,7 +43,7 @@ const AMBIGUOUS_TOKEN_MAX = 4; // skip a name token shared by more than this man
 // to also invalidate every cached answer after a LOGIC change (system prompt, model,
 // answer formatting) that the data version would not catch on its own.
 const CACHE_TTL_SECONDS = 31536000; // 1 year (best-effort — the Cache API still evicts under pressure)
-const CACHE_VERSION = "12"; // bump to invalidate cached ANSWERS after a prompt/model change
+const CACHE_VERSION = "13"; // bump to invalidate cached ANSWERS after a prompt/model change
 const SUGGEST_VERSION = "2"; // bump to invalidate cached SUGGESTION pools after changing their prompt
 
 // The production site, or any localhost origin (for `wrangler dev` + a local static
@@ -288,6 +288,15 @@ and economic world they lived in, the migration and regional story, notable even
 questions in the record, and why they matter to the family. The profiles are your DEEPEST and richest
 source — never reduce a person to their dates when a full portrait is provided; mine it.
 
+Each profile begins with an "## Interesting facts" section — tagged [PROVEN], [INFERRED] or
+[CONTEXTUAL]. ALWAYS read this section and weave the most striking facts into your answer: the
+historical epoch that shaped the person (a coffee-economy collapse, a yellow-fever wave, the founding
+of the CSN steel mill, a Swiss colony recruitment drive), the human curiosity (a baker dynasty, a
+deaf-mute carpenter, a newspaper editor reporting a family death, an emigrant who arrived at 68), the
+cross-document pattern or inference the records support. Surface the surprise — the one thing a reader
+did not expect — and make sure it lands. These facts are not decorative; they are what transform a
+list of names and dates into a story worth knowing.
+
 Link every person you name by their id, so the reader can jump to them. You MAY reason and infer from
 what the profiles and records imply — read between the lines, connect the portraits of related
 people — but mark any inference clearly (e.g. "provavelmente", "the record suggests", "[inferido]")
@@ -351,7 +360,7 @@ async function askGemini(apiKey, userContent, systemPrompt = SYSTEM_PROMPT, temp
     contents: [{ role: "user", parts: [{ text: userContent }] }],
     // temperature 0 = as deterministic as the model allows, so the same question yields
     // essentially the same answer each time (the cache guarantees byte-identical repeats).
-    generationConfig: { temperature, maxOutputTokens: 2048 },
+    generationConfig: { temperature, maxOutputTokens: 4096 },
   });
 
   let lastError = "no model responded";
@@ -456,6 +465,17 @@ export default {
     const data = await request.json().catch(() => ({}));
     const lang = data && data.lang === "pt" ? "pt" : "en";
     const kbBase = env.KB_BASE || DEFAULT_KB_BASE;
+
+    // Viewer personalisation: ?viewer=<key> in the URL or viewer in the POST body.
+    // The registry lives in the VIEWER_REGISTRY secret (JSON, never in the repo).
+    const viewerKey = (typeof data.viewer === "string" ? data.viewer.trim().toLowerCase() : "").slice(0, 32);
+    let viewerCtx = null;
+    if (viewerKey && env.VIEWER_REGISTRY) {
+      try { viewerCtx = JSON.parse(env.VIEWER_REGISTRY)[viewerKey] || null; } catch { /* malformed secret */ }
+    }
+    const systemPrompt = viewerCtx
+      ? `VIEWER CONTEXT — The person reading this answer is ${viewerCtx.full_name} (born ${viewerCtx.born}), ${viewerCtx.relation_en}, ${viewerCtx.parents_en}. ${viewerCtx.lineage}. When they ask about "my family", "my ancestors", or "where I come from", they mean their own line — the same Armond/Muniz/Bohrer/Guimarães ancestry as Juan (P-0001). Address them as ${viewerCtx.name}, frame relationships from their perspective (e.g. Geraldo Paz Armond (P-0004) is their paternal grandfather, Celina Bohrer (P-0015) is their paternal great-grandmother on the Bohrer side), and greet them warmly by name where it feels natural.\n\n` + SYSTEM_PROMPT
+      : SYSTEM_PROMPT;
     const cache = caches.default;
 
     // --- Suggestions endpoint: a pool of grounded example questions for the empty state. ---
@@ -527,6 +547,7 @@ export default {
       "https://family-assistant.cache/ask?cv=" + CACHE_VERSION +
         "&v=" + encodeURIComponent(kb.generated || "0") +
         "&lang=" + lang +
+        (viewerKey ? "&viewer=" + encodeURIComponent(viewerKey) : "") +
         "&q=" + encodeURIComponent(normalizedQuestion),
     );
     const hit = await cache.match(cacheKey);
@@ -591,7 +612,7 @@ export default {
     );
 
     try {
-      const rawAnswer = await askGemini(env.GEMINI_API_KEY, userContent);
+      const rawAnswer = await askGemini(env.GEMINI_API_KEY, userContent, systemPrompt);
       // Collapse a name duplicated inside the id parentheses that the model occasionally emits, in
       // both asterisk variants — "**Name** (**Name**, P-0006)" and "Name (**Name**, P-0006)" →
       // "**Name** (P-0006)". The backref + required P-id keep it safe (a normal "(P-0006)" is untouched).
