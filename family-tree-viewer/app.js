@@ -1858,7 +1858,42 @@ function closeAssistant() {
   lastFocused = null;
 }
 
+// Build a pool of context-specific questions when a person's details panel is open.
+// Picks templates that apply to the person's actual data (skips e.g. "Who were X's
+// children?" when they have none), then shuffles and returns up to 6.
+function personContextQuestions(person) {
+  const name = person.name;
+  const firstName = name.split(" ")[0];
+  const rootPerson = state.data?.people[state.rootId];
+  const rootFirst = rootPerson && rootPerson.id !== person.id ? rootPerson.name.split(" ")[0] : null;
+  const repl = (key, extra) => {
+    let s = t(key).replace("{name}", firstName);
+    if (extra) s = s.replace("{root}", extra);
+    return s;
+  };
+
+  const pool = [];
+  pool.push(repl("assistant.ctx.about"));
+  if (rootFirst) pool.push(repl("assistant.ctx.relation", rootFirst));
+  if ((state.data?.parentsByChild[person.id] || []).length) pool.push(repl("assistant.ctx.parents"));
+  if ((person.children || []).length) pool.push(repl("assistant.ctx.children"));
+  if ((person.spouses || []).length) pool.push(repl("assistant.ctx.marriage"));
+  if ((person.occupations || []).length) pool.push(repl("assistant.ctx.occupation"));
+  if ((person.siblings || []).length) pool.push(repl("assistant.ctx.siblings"));
+  if ((person.sources || []).length) pool.push(repl("assistant.ctx.documents"));
+  if (person.profile || person.profilePt) pool.push(repl("assistant.ctx.portrait"));
+  pool.push(repl("assistant.ctx.origin"));
+
+  for (let i = pool.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [pool[i], pool[j]] = [pool[j], pool[i]];
+  }
+  return pool.slice(0, 6);
+}
+
 // The empty-state: a one-line prompt plus a few tappable example questions.
+// When the user has a person's details panel open, the questions are tailored to that
+// person; otherwise falls back to the AI-generated pool or the curated i18n set.
 function renderAssistantIntro() {
   const log = elements.assistantLog;
   if (!log) return;
@@ -1873,28 +1908,46 @@ function renderAssistantIntro() {
   if (fabIcon) icon.appendChild(fabIcon.cloneNode(true));
   wrap.append(icon);
 
+  // Context: if a person panel is open alongside the assistant, tailor everything to them.
+  const ctxPerson = (state.selected && elements.detailsPanel && !elements.detailsPanel.hidden)
+    ? state.data?.people[state.selected]
+    : null;
+  const ctxFirst = ctxPerson ? ctxPerson.name.split(" ")[0] : null;
+
   const intro = document.createElement("p");
   intro.className = "assistant-empty-lead";
-  intro.textContent = t("assistant.intro");
+  intro.textContent = ctxPerson
+    ? t("assistant.ctx.intro").replace("{name}", ctxFirst)
+    : t("assistant.intro");
   wrap.append(intro);
 
   const label = document.createElement("p");
   label.className = "assistant-empty-label";
-  label.textContent = t("assistant.suggestLabel");
+  label.textContent = ctxPerson
+    ? t("assistant.ctx.label").replace("{name}", ctxFirst)
+    : t("assistant.suggestLabel");
   wrap.append(label);
 
   const suggest = document.createElement("div");
   suggest.className = "assistant-suggest";
-  // Prefer the AI-generated pool fetched from the Worker (fresh per data version); fall back
-  // to the curated 12. Show 6 at random, so each fresh page/open surfaces a new set.
-  const items = (assistantSuggestPool && assistantSuggestPool.length >= 6)
-    ? [...assistantSuggestPool]
-    : Array.from({ length: 12 }, (_, i) => t(`assistant.q${i + 1}`));
-  for (let i = items.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [items[i], items[j]] = [items[j], items[i]];
+
+  let items;
+  if (ctxPerson) {
+    items = personContextQuestions(ctxPerson);
+  } else {
+    // Prefer the AI-generated pool fetched from the Worker (fresh per data version); fall back
+    // to the curated 12. Show 6 at random, so each fresh page/open surfaces a new set.
+    items = (assistantSuggestPool && assistantSuggestPool.length >= 6)
+      ? [...assistantSuggestPool]
+      : Array.from({ length: 12 }, (_, i) => t(`assistant.q${i + 1}`));
+    for (let i = items.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [items[i], items[j]] = [items[j], items[i]];
+    }
+    items = items.slice(0, 6);
   }
-  for (const q of items.slice(0, 6)) {
+
+  for (const q of items) {
     const b = document.createElement("button");
     b.type = "button";
     b.className = "assistant-suggest-item";
