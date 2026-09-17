@@ -43,7 +43,7 @@ const AMBIGUOUS_TOKEN_MAX = 4; // skip a name token shared by more than this man
 // to also invalidate every cached answer after a LOGIC change (system prompt, model,
 // answer formatting) that the data version would not catch on its own.
 const CACHE_TTL_SECONDS = 31536000; // 1 year (best-effort — the Cache API still evicts under pressure)
-const CACHE_VERSION = "13"; // bump to invalidate cached ANSWERS after a prompt/model change
+const CACHE_VERSION = "14"; // bump to invalidate cached ANSWERS after a prompt/model change
 const SUGGEST_VERSION = "2"; // bump to invalidate cached SUGGESTION pools after changing their prompt
 
 // The production site, or any localhost origin (for `wrangler dev` + a local static
@@ -466,12 +466,31 @@ export default {
     const lang = data && data.lang === "pt" ? "pt" : "en";
     const kbBase = env.KB_BASE || DEFAULT_KB_BASE;
 
-    // Viewer personalisation: ?viewer=<key> in the URL or viewer in the POST body.
+    // Viewer personalisation: explicit "viewer" key from the client (set after self-introduction)
+    // OR auto-detected from the question text ("I am Felipe", "Eu sou Hugo", etc.).
     // The registry lives in the VIEWER_REGISTRY secret (JSON, never in the repo).
-    const viewerKey = (typeof data.viewer === "string" ? data.viewer.trim().toLowerCase() : "").slice(0, 32);
+    let viewerKey = (typeof data.viewer === "string" ? data.viewer.trim().toLowerCase() : "").slice(0, 32);
+    let detectedViewer = null; // returned to the client so it can persist for the session
     let viewerCtx = null;
-    if (viewerKey && env.VIEWER_REGISTRY) {
-      try { viewerCtx = JSON.parse(env.VIEWER_REGISTRY)[viewerKey] || null; } catch { /* malformed secret */ }
+    let registry = null;
+    if (env.VIEWER_REGISTRY) {
+      try { registry = JSON.parse(env.VIEWER_REGISTRY); } catch { /* malformed secret */ }
+    }
+    if (!viewerKey && registry && data.question) {
+      // Match "I am X", "I'm X", "my name is X", "sou X", "eu sou X", "meu nome é X"
+      const m = data.question.match(
+        /\b(?:I\s+am|I'm|my\s+name\s+is|sou|eu\s+sou|meu\s+nome\s+[eé])\s+([A-ZÀ-ÖØ-öø-ÿa-z]{2,20})\b/i
+      );
+      if (m) {
+        const candidate = m[1].toLowerCase();
+        if (registry[candidate]) {
+          viewerKey = candidate;
+          detectedViewer = candidate;
+        }
+      }
+    }
+    if (viewerKey && registry) {
+      viewerCtx = registry[viewerKey] || null;
     }
     const systemPrompt = viewerCtx
       ? `VIEWER CONTEXT — The person reading this answer is ${viewerCtx.full_name} (born ${viewerCtx.born}), ${viewerCtx.relation_en}, ${viewerCtx.parents_en}. ${viewerCtx.lineage}. When they ask about "my family", "my ancestors", or "where I come from", they mean their own line — the same Armond/Muniz/Bohrer/Guimarães ancestry as Juan (P-0001). Address them as ${viewerCtx.name}, frame relationships from their perspective (e.g. Geraldo Paz Armond (P-0004) is their paternal grandfather, Celina Bohrer (P-0015) is their paternal great-grandmother on the Bohrer side), and greet them warmly by name where it feels natural.\n\n` + SYSTEM_PROMPT
@@ -619,7 +638,7 @@ export default {
       const answer = rawAnswer
         .replace(/\*\*([^*]+?)\*\*\s*\(\s*\*\*\1\*\*[,\s]*(P-\d{3,4})\)/g, "**$1** ($2)")
         .replace(/([A-Za-zÀ-ú][A-Za-zÀ-ú.'\- ]+?)\s*\(\s*\*\*\1\*\*[,\s]*(P-\d{3,4})\)/g, "**$1** ($2)");
-      const payload = JSON.stringify({ answer });
+      const payload = JSON.stringify(detectedViewer ? { answer, detectedViewer } : { answer });
       // Cache only a successful, non-empty answer (askGemini returns non-empty or throws).
       // The cached Response carries a Cache-Control TTL so the Cache API will store it.
       const cacheable = new Response(payload, {

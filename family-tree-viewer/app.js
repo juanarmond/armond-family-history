@@ -26,11 +26,13 @@ try {
   if (override) ASSISTANT_API = override;
 } catch { /* storage unavailable — use the configured default */ }
 
-// Optional viewer key from ?viewer=<key> — passed to the Worker so it can personalise
-// answers for known family members without storing any living-person data in the repo.
-const VIEWER_KEY = (() => {
+// Viewer key for personalisation — set from ?viewer= param or detected by the Worker when
+// someone types "I am Felipe" / "Eu sou Hugo" in the chat. Persisted for the browser session.
+const VIEWER_KEY_PARAM = (() => {
   try { return new URLSearchParams(location.search).get("viewer") || ""; } catch { return ""; }
 })();
+let sessionViewerKey = VIEWER_KEY_PARAM;
+function getViewerKey() { return sessionViewerKey; }
 
 const state = {
   data: null,
@@ -2045,12 +2047,15 @@ async function submitAssistant() {
     const res = await fetch(ASSISTANT_API, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ question, lang: state.locale === "pt-BR" ? "pt" : "en", viewer: VIEWER_KEY }),
+      body: JSON.stringify({ question, lang: state.locale === "pt-BR" ? "pt" : "en", viewer: getViewerKey() }),
       signal: controller.signal,
     });
     const data = await res.json().catch(() => ({}));
     bot.classList.remove("pending");
     if (res.ok && data.answer && data.answer.trim()) {
+      // If the Worker auto-detected a viewer from a self-introduction, persist it for
+      // the rest of the session so all follow-up questions stay personalised.
+      if (data.detectedViewer && !sessionViewerKey) sessionViewerKey = data.detectedViewer;
       // Render the answer's markdown (bold names, italic source-forms, bullet lists,
       // headings) with the same safe DOM renderer the profiles/story use, then turn
       // entity IDs (people, documents) into clickable navigation links.
