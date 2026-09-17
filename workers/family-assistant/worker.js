@@ -43,7 +43,7 @@ const AMBIGUOUS_TOKEN_MAX = 4; // skip a name token shared by more than this man
 // to also invalidate every cached answer after a LOGIC change (system prompt, model,
 // answer formatting) that the data version would not catch on its own.
 const CACHE_TTL_SECONDS = 31536000; // 1 year (best-effort — the Cache API still evicts under pressure)
-const CACHE_VERSION = "19"; // bump to invalidate cached ANSWERS after a prompt/model change
+const CACHE_VERSION = "20"; // bump to invalidate cached ANSWERS after a prompt/model change
 const SUGGEST_VERSION = "2"; // bump to invalidate cached SUGGESTION pools after changing their prompt
 
 // The production site, or any localhost origin (for `wrangler dev` + a local static
@@ -496,8 +496,16 @@ export default {
     if (viewerKey && registry) {
       viewerCtx = registry[viewerKey] || null;
     }
+    // If auto-detected from a first name, check whether the question also contains at least
+    // one additional word from the registry entry's full name (e.g. "Armond", "Carlos").
+    // If yes, the person already provided enough to confirm identity — no gate needed.
+    const needsConfirmation = detectedViewer && viewerCtx && (() => {
+      const fullNameTokens = viewerCtx.full_name.toLowerCase().split(/\s+/).slice(1); // skip first name
+      const qLower = data.question.toLowerCase();
+      return !fullNameTokens.some(tok => tok.length > 2 && qLower.includes(tok));
+    })();
     const viewerHeader = viewerCtx
-      ? `VIEWER CONTEXT — The person reading this answer is ${viewerCtx.full_name}${viewerCtx.born ? ` (born ${viewerCtx.born})` : ""}, ${viewerCtx.relation_en}, ${viewerCtx.parents_en}. ${viewerCtx.lineage}. When they ask about "my family", "my ancestors", or "where I come from", they mean their own line — the same Armond/Muniz/Bohrer/Guimarães ancestry as Juan (P-0001). Address them as ${viewerCtx.name}, frame relationships from their perspective (e.g. Geraldo Paz Armond (P-0004) is their paternal grandfather, Celina Bohrer (P-0015) is their paternal great-grandmother on the Bohrer side), and greet them warmly by name where it feels natural.${detectedViewer ? `\n\nIDENTITY CONFIRMATION REQUIRED — This context was inferred from a first name only. Before using any of it, confirm the full identity: greet them by first name, then ask "Você é ${viewerCtx.full_name}?" (or the English equivalent if the question was in English). Do NOT reveal personalized details (parents, grandparents, lineage, children) until they confirm. A matching surname in their question is NOT confirmation — many people share surnames.` : ""}\n\n`
+      ? `VIEWER CONTEXT — The person reading this answer is ${viewerCtx.full_name}${viewerCtx.born ? ` (born ${viewerCtx.born})` : ""}, ${viewerCtx.relation_en}, ${viewerCtx.parents_en}. ${viewerCtx.lineage}. When they ask about "my family", "my ancestors", or "where I come from", they mean their own line — the same Armond/Muniz/Bohrer/Guimarães ancestry as Juan (P-0001). Address them as ${viewerCtx.name}, frame relationships from their perspective (e.g. Geraldo Paz Armond (P-0004) is their paternal grandfather, Celina Bohrer (P-0015) is their paternal great-grandmother on the Bohrer side), and greet them warmly by name where it feels natural.${needsConfirmation ? `\n\nIDENTITY CONFIRMATION REQUIRED — This context was inferred from a first name only. Before using any of it, confirm the full identity: greet them by first name, then ask "Você é ${viewerCtx.full_name}?" (or the English equivalent). Do NOT reveal personalized details (parents, grandparents, lineage, children) until they confirm.` : ""}\n\n`
       : null;
     const systemPrompt = viewerHeader ? viewerHeader + SYSTEM_PROMPT : SYSTEM_PROMPT;
     const cache = caches.default;
