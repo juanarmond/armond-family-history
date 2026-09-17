@@ -946,6 +946,7 @@ a:focus-visible {
 .assistant-fab:active { transform: translateY(1px); }
 .assistant-fab[hidden] { display: none; }
 .assistant-fab-icon { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
+.panel-ai-icon { width: 1.1rem; height: 1.1rem; display: block; }
 @media (max-width: 700px) {
   /* A clean circular chat button on mobile (the label is hidden to save room). */
   .assistant-fab {
@@ -1747,6 +1748,8 @@ button.source-link { cursor: pointer; }
   cursor: pointer;
 }
 .reader-close:hover { color: var(--conflict); border-color: var(--conflict); }
+.reader-header-btns { display: flex; gap: .4rem; align-items: center; flex: 0 0 auto; }
+.reader-ask-ai:hover { color: var(--green) !important; border-color: var(--gold) !important; }
 .reader-body {
   display: flex;
   flex: 1;

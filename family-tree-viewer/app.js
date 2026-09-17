@@ -178,6 +178,9 @@ const elements = {
   guideTitle: document.querySelector("#guide-title"),
   guideSubtitle: document.querySelector("#guide-subtitle"),
   visitorWelcome: document.querySelector("#visitor-welcome"),
+  detailAskAi: document.querySelector("#detail-ask-ai"),
+  storyAskAi: document.querySelector("#story-ask-ai"),
+  updatesAskAi: document.querySelector("#updates-ask-ai"),
   assistantFab: document.querySelector("#assistant-fab"),
   assistantPanel: document.querySelector("#assistant-panel"),
   assistantBackdrop: document.querySelector("#assistant-backdrop"),
@@ -1127,6 +1130,17 @@ function openPortrait(person) {
   closeBtn.addEventListener("click", closePortrait);
   const actions = document.createElement("div");
   actions.className = "portrait-panel-actions";
+  if (ASSISTANT_API) {
+    const askAiBtn = document.createElement("button");
+    askAiBtn.type = "button";
+    askAiBtn.className = "portrait-close portrait-help panel-ai-btn";
+    askAiBtn.setAttribute("aria-label", t("assistant.fab"));
+    askAiBtn.title = t("assistant.fab");
+    const fabIcon = document.querySelector("#assistant-fab .assistant-fab-icon");
+    if (fabIcon) askAiBtn.appendChild(fabIcon.cloneNode(true));
+    askAiBtn.addEventListener("click", () => { closePortrait(); openAssistant(); });
+    actions.append(askAiBtn);
+  }
   actions.append(helpBtn, closeBtn);
   header.append(heading, actions);
 
@@ -1387,7 +1401,21 @@ function openReader(source) {
   closeBtn.textContent = "✕";
   closeBtn.setAttribute("aria-label", t("reader.close"));
   closeBtn.addEventListener("click", closeReader);
-  header.append(heading, closeBtn);
+  const headerBtns = document.createElement("div");
+  headerBtns.className = "reader-header-btns";
+  if (ASSISTANT_API) {
+    const readerAskAi = document.createElement("button");
+    readerAskAi.type = "button";
+    readerAskAi.className = "reader-close reader-ask-ai panel-ai-btn";
+    readerAskAi.setAttribute("aria-label", t("assistant.fab"));
+    readerAskAi.title = t("assistant.fab");
+    const fabIcon = document.querySelector("#assistant-fab .assistant-fab-icon");
+    if (fabIcon) readerAskAi.appendChild(fabIcon.cloneNode(true));
+    readerAskAi.addEventListener("click", () => { closeReader(); openAssistant(); });
+    headerBtns.append(readerAskAi);
+  }
+  headerBtns.append(closeBtn);
+  header.append(heading, headerBtns);
 
   const body = document.createElement("div");
   body.className = "reader-body";
@@ -2171,6 +2199,11 @@ function renderGuideNav(container, name) {
     guideStep(3, t("guide.search.title"), t("guide.search.body")),
     guideStep(4, t("guide.records.title"), mobile ? t("guide.records.mobile") : t("guide.records.desktop")),
   );
+  if (ASSISTANT_API) {
+    steps.append(
+      guideStep(5, t("guide.ai.title"), mobile ? t("guide.ai.body.mobile") : t("guide.ai.body.desktop")),
+    );
+  }
   container.append(steps);
 
   // Legend — the few glyphs a lay reader cannot decode: the birthplace flag, the
@@ -2902,6 +2935,12 @@ function bindEvents() {
   if (elements.detailHelp) elements.detailHelp.addEventListener("click", () => openGuide("card"));
   if (elements.storyHelp) elements.storyHelp.addEventListener("click", () => openGuide("story"));
   if (elements.updatesHelp) elements.updatesHelp.addEventListener("click", () => openGuide("updates"));
+  if (elements.detailAskAi) elements.detailAskAi.addEventListener("click", openAssistant);
+  if (elements.storyAskAi) elements.storyAskAi.addEventListener("click", openAssistant);
+  if (elements.updatesAskAi) elements.updatesAskAi.addEventListener("click", openAssistant);
+  if (!ASSISTANT_API) {
+    for (const btn of document.querySelectorAll(".panel-ai-btn")) btn.hidden = true;
+  }
   if (elements.closeGuide) elements.closeGuide.addEventListener("click", closeGuide);
   if (elements.guideBackdrop) elements.guideBackdrop.addEventListener("click", closeGuide);
   document.addEventListener("keydown", (event) => {
