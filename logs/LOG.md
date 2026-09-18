@@ -1954,3 +1954,13 @@ REJECTED at the value gate (drop manifest marked "PROVEN" but the held images di
 CIV-0044 + CIV-0046 (pre-allocated for Alcida/João, not used) retired in the id-ledger. Profile P-0012 synced
 (EN+PT) with the new sisters; F-0007/F-0013/F-0015 documented_children updated. Curated "What's new" milestone
 added. make check green; 150 sources / 214 scans.
+
+## 2026-09-18 — COARPE batch received and value-gated (55816018 + 39807751)
+
+Two COARPE/TJMG records requested 2026-08-07 arrived by email. Both were read, transcribed by the retrieval agent (full receipts in research/from-retrieval/output/receipts/), and value-gated here.
+
+**COARPE 55816018** — Lino José Ferreira Armonde × Fortunato de Oliveira Silva, ação de cobrança de dívida, Comarca do Rio Paubuna (= Rio Pomba), 5 pages, 1841–42. Underlying promissory note dated 10 Aug 1834, "Belo Monte" / Dist. do Espírito Santo, 200,000 réis at 1%/month. Reconciliation Oct 1841 (500k réis with interest; debt confessed but debtor pleaded inability); execution filed Jan 1842. Lino acted as plaintiff/creditor through attorney Marianno Dutra de Moraes. KEY FACT: Lino was commercially active in the Zona da Mata / Rio Pomba corridor 1834–42 — the same Zona da Mata corridor where Simplício (P-0016) later lived. Consistent with but not proving the natural-son hypothesis. No child named. Disposition: FAN context record but no modelled participant → NOT promoted to data layer. Facts noted in record-coverage.yaml P-0016 notes. Lino's FINDINGS profile (research layer) already updated by the retrieval agent.
+
+**COARPE 39807751** — Mello & Armond × Matheus de Aquino Nogueira, carta de sentença, Juízo Municipal da 1ª Lei, Mar de Espanha, ~28 pages, 1863. Plaintiffs "Mello & Armond" (Rio de Janeiro commercial house) pursued a debt of 8:935,001 réis (merchandise credit 1860–62 + a bill of exchange). Judgment: 20:020,093 réis. Property attachment 23 Nov 1863 at Fazenda do Monte e Alhos (30,000 coffee plants + townhouse + senzala). The "Armond" partner is NOT individually named. Disposition: collateral commercial context with no modelled participant → NOT promoted. Facts noted in record-coverage.yaml P-0016 notes.
+
+No data-layer entities created. Triage ledger updated. CHANGELOG updated. make check green.

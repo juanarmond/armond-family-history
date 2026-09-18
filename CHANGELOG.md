@@ -5,6 +5,23 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Research — COARPE batch (55816018 + 39807751) received and value-gated (2026-09-18)
+
+Two long-awaited COARPE/TJMG records arrived and were value-gated. Neither promotes to a
+data-layer entity (both are functional-role/creditor records with no modelled participant):
+
+- **COARPE 55816018** — Lino José Ferreira Armonde × Fortunato de Oliveira Silva, ação de
+  cobrança de dívida, Rio Pomba 1841–42. Key finding: Lino commercially active in the Zona
+  da Mata / Rio Pomba corridor 1834–42, the same region where Simplício (P-0016) later lived.
+  Geographically consistent with the natural-son hypothesis; no child named. Filed in research
+  layer; key facts noted in record-coverage.yaml P-0016 notes.
+- **COARPE 39807751** — Mello & Armond × Matheus de Aquino Nogueira, carta de sentença, Mar
+  de Espanha 1863. Key finding: confirms "Mello & Armond" as an active Rio de Janeiro
+  commercial house trading with Mar de Espanha coffee farmers. The "Armond" partner is not
+  individually named; no connection to P-0016 or Juan's direct line. Filed in research layer.
+
+Both records received full transcription in the retrieval agent receipts. Triage ledger updated.
+
 ### Added — Bilingual profiles for the four Rutschmann/Storck 3×-great-grandparent stubs (2026-09-14)
 
 Closed the profiles-audit "no EN profile" gap: wrote bilingual `profile`/`profile_pt` for
