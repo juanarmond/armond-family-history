@@ -234,6 +234,11 @@
     Read-only static visualisation. Repository YAML remains the canonical source of truth. Visitor statistics are collected anonymously (cookieless, no personal data stored).
   </footer>
 
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js");
+    }
+  </script>
   <script type="module" src="static-api.js"></script>
 
   <!-- Cloudflare Web Analytics — cookieless, privacy-first visitor stats (total visitors + country). -->
