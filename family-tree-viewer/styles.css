@@ -1380,6 +1380,7 @@ a:focus-visible {
   width: min(30rem, 94vw);
   height: 100%;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   padding: 1.9rem;
   background: linear-gradient(180deg, var(--card), var(--card-2));
   border-left: 1px solid var(--gold);
@@ -1426,6 +1427,7 @@ a:focus-visible {
   font-weight: 600;
   cursor: pointer;
   text-align: left;
+  touch-action: manipulation;
 }
 .update-chip:hover { background: var(--gold-soft); border-color: var(--gold); color: var(--green-deep); }
 .update-month {
@@ -1450,6 +1452,7 @@ a:focus-visible {
   color: inherit;
   cursor: pointer;
   text-align: left;
+  touch-action: manipulation;
 }
 .update-title-link:hover { color: var(--gold); text-decoration: underline; }
 

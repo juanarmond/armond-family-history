@@ -3107,6 +3107,10 @@ async function initialise() {
     elements.loading.hidden = true;
     renderActive();
     syncHelpFab();
+    // Re-render the updates panel if it was opened before entity data finished loading
+    // (common on slow connections or when the user taps "What's new" immediately on
+    // PWA launch — chips resolve only once state.data is populated).
+    if (elements.updatesPanel && !elements.updatesPanel.hidden) openUpdates();
     if (hash.sel && state.data.people[hash.sel]) openDetails(hash.sel);
     else syncHash();
     // First visit: open the guide once so a newcomer is oriented before exploring.
