@@ -2445,16 +2445,20 @@ function renderGuide() {
 // modal overlay is open (each uses a `.panel-backdrop`), so it never floats over a
 // dimmed panel. Driven by a MutationObserver on the backdrops (see bindEvents), so
 // it stays correct without touching every open/close path.
-let deferredInstallPrompt = null;
+// The beforeinstallprompt event fires early — before module scripts load.
+// The <head> inline script captures it into window.__installPrompt immediately
+// and re-dispatches "installpromptready" so we pick it up here regardless of
+// which fires first.
+let deferredInstallPrompt = window.__installPrompt || null;
 
-window.addEventListener("beforeinstallprompt", (e) => {
-  e.preventDefault();
-  deferredInstallPrompt = e;
+window.addEventListener("installpromptready", () => {
+  deferredInstallPrompt = window.__installPrompt;
   syncHelpFab();
 });
 
 window.addEventListener("appinstalled", () => {
   deferredInstallPrompt = null;
+  window.__installPrompt = null;
   syncHelpFab();
 });
 

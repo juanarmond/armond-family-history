@@ -14,6 +14,17 @@
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#2f5d43">
   <link rel="stylesheet" href="styles.css">
+  <!-- Capture beforeinstallprompt before any module script loads; app.js reads
+       window.__installPrompt on init so the event is never missed. -->
+  <script>
+    window.__installPrompt = null;
+    window.addEventListener("beforeinstallprompt", (e) => {
+      e.preventDefault();
+      window.__installPrompt = e;
+      // Signal app.js in case it already loaded its own listener.
+      window.dispatchEvent(new CustomEvent("installpromptready"));
+    });
+  </script>
 </head>
 <body>
   <header class="site-header">
