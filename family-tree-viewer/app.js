@@ -189,6 +189,7 @@ const elements = {
   detailAskAi: document.querySelector("#detail-ask-ai"),
   storyAskAi: document.querySelector("#story-ask-ai"),
   updatesAskAi: document.querySelector("#updates-ask-ai"),
+  installFab: document.querySelector("#install-fab"),
   assistantFab: document.querySelector("#assistant-fab"),
   assistantPanel: document.querySelector("#assistant-panel"),
   assistantBackdrop: document.querySelector("#assistant-backdrop"),
@@ -2307,6 +2308,26 @@ function renderGuideNav(container, name) {
   badgeRow.textContent = t("guide.legend.badges");
   legend.append(badgeRow);
   container.append(legend);
+
+  // "Save as an app" tip — shown on mobile, hidden if already running as PWA.
+  const standalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+  const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent) && !window.MSStream;
+  const isAndroid = /android/i.test(navigator.userAgent);
+  if (!standalone && (isIos || isAndroid)) {
+    const installBox = document.createElement("div");
+    installBox.className = "guide-legend guide-install-tip";
+    const installTitle = document.createElement("p");
+    installTitle.className = "guide-legend-title";
+    installTitle.textContent = t("guide.install.title");
+    const installBody = document.createElement("p");
+    installBody.className = "guide-legend-row";
+    installBody.textContent = t("guide.install.body");
+    const installHint = document.createElement("p");
+    installHint.className = "guide-legend-row";
+    installHint.textContent = isIos ? t("guide.install.ios") : t("guide.install.android");
+    installBox.append(installTitle, installBody, installHint);
+    container.append(installBox);
+  }
 }
 
 // The "About this portrait" help — explains the in-depth research narrative and
@@ -2424,12 +2445,28 @@ function renderGuide() {
 // modal overlay is open (each uses a `.panel-backdrop`), so it never floats over a
 // dimmed panel. Driven by a MutationObserver on the backdrops (see bindEvents), so
 // it stays correct without touching every open/close path.
+let deferredInstallPrompt = null;
+
+window.addEventListener("beforeinstallprompt", (e) => {
+  e.preventDefault();
+  deferredInstallPrompt = e;
+  syncHelpFab();
+});
+
+window.addEventListener("appinstalled", () => {
+  deferredInstallPrompt = null;
+  syncHelpFab();
+});
+
 function syncHelpFab() {
   const overlayOpen = [...document.querySelectorAll(".panel-backdrop")].some((b) => !b.hidden);
   if (elements.helpFab) elements.helpFab.hidden = overlayOpen;
   // The "Ask" pill follows the same rule, and only appears once the assistant Worker
   // URL is configured (ASSISTANT_API); until then the feature is dormant.
   if (elements.assistantFab) elements.assistantFab.hidden = overlayOpen || !ASSISTANT_API;
+  // The install FAB appears only when the browser has deferred an install prompt
+  // (Android Chrome); hidden on iOS (no API) and when already installed.
+  if (elements.installFab) elements.installFab.hidden = overlayOpen || !deferredInstallPrompt;
 }
 
 // topic: "nav" (default, how to move around) or "card" (explain the open person
@@ -2977,6 +3014,14 @@ function bindEvents() {
   if (elements.closeUpdates) elements.closeUpdates.addEventListener("click", closeUpdates);
   if (elements.updatesBackdrop) elements.updatesBackdrop.addEventListener("click", closeUpdates);
   if (elements.assistantFab) elements.assistantFab.addEventListener("click", openAssistant);
+  if (elements.installFab) {
+    elements.installFab.addEventListener("click", async () => {
+      if (!deferredInstallPrompt) return;
+      elements.installFab.hidden = true;
+      await deferredInstallPrompt.prompt();
+      deferredInstallPrompt = null;
+    });
+  }
   if (elements.closeAssistant) elements.closeAssistant.addEventListener("click", closeAssistant);
   if (elements.assistantBackdrop) elements.assistantBackdrop.addEventListener("click", closeAssistant);
   if (elements.assistantForm) {

@@ -893,6 +893,34 @@ a:focus-visible {
    Bottom-left (the "Ask" pill now takes the conventional bottom-right FAB spot); no
    overlap with the right-edge detail/story/updates panels because the script hides it
    whenever a modal is open. Desktop only (mobile uses the nav "?"). */
+/* Android Chrome install prompt — appears when the browser fires beforeinstallprompt.
+   Sits above the "?" help FAB (bottom-left). Hidden by default; shown via JS. */
+.install-fab {
+  position: fixed;
+  z-index: 15;
+  bottom: 5.6rem;
+  left: 1.4rem;
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  padding: .5rem .9rem;
+  border: 1px solid var(--gold);
+  border-radius: 2rem;
+  background: var(--card);
+  color: var(--green-deep);
+  font-family: var(--sans);
+  font-size: .8rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  white-space: nowrap;
+  transition: background .15s ease, box-shadow .15s ease, transform .12s ease;
+}
+.install-fab:hover { background: var(--gold-soft); box-shadow: 0 0 0 1px var(--gold), var(--shadow-md); }
+.install-fab:active { transform: translateY(1px); }
+.install-fab[hidden] { display: none; }
+@media (max-width: 700px) { .install-fab { bottom: 5.1rem; left: 1.15rem; } }
+
 .help-fab {
   position: fixed;
   z-index: 15;
@@ -1311,6 +1339,8 @@ a:focus-visible {
   border-radius: 2px;
   transform: translateY(1px);
 }
+.guide-install-tip { margin-top: 1rem; }
+
 .guide-gotit {
   margin-top: 1.6rem;
   min-height: 2.85rem;
