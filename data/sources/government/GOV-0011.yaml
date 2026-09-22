@@ -1,0 +1,113 @@
+schema_version: 1
+id: GOV-0011
+title: >-
+  1805 Barbacena complaint by Capitão José Ferreira Armonde against the Juiz Ordinário over a
+  prisoner release — confirms he held the Capitão rank and remained in Barbacena (SG-Cx.65-Doc.49, APM)
+title_pt: >-
+  Queixa de 1805 em Barbacena por Capitão José Ferreira Armonde contra o Juiz Ordinário pela
+  soltura de um preso — confirma que detinha o posto de Capitão e permanecia em Barbacena
+  (SG-Cx.65-Doc.49, APM)
+record_type: Government complaint letter (ofício / queixa ao Governador)
+record_category: government_record
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: context_only
+event_date:
+  kind: exact
+  value: "1805-07-17"
+  original_text: >-
+    Letter from Juiz Ordinário António Macedo Costa, Vila de Barbacena, 17 July 1805, to the
+    Governador de Minas Gerais, forwarding Capitão José Ferreira Armonde's complaint.
+event_place_text: Vila de Barbacena, Comarca de Rio das Mortes, Capitania de Minas Gerais, Brazil
+repository:
+  name: Arquivo Público Mineiro (APM), Secretaria de Governo (SG) series
+  archive_or_registry: Arquivo Público Mineiro, Belo Horizonte, MG
+  collection: Secretaria de Governo (SG), caixas avulsas
+  catalogue_reference: >-
+    SG-Cx.65-Doc.49; retrieved via SIAAPM/brtbusca search 2026-09-19; promoted 2026-09-22. Three
+    page images catalogued.
+access_date: "2026-09-19"
+language: pt-BR
+reading_reliability: complete
+transcription: >-
+  [Government complaint, SG-Cx.65-Doc.49, APM, 17 July 1805. Three page images.]
+
+
+  Letter from Juiz Ordinário António Macedo Costa, Vila de Barbacena, to the Governador de Minas
+  Gerais, 17 July 1805. Subject: Capitão José Ferreira Armonde had ordered the arrest of soldier
+  Miguel Luiz de Medeiros and directed his transport to the Barbacena jail. The Juiz, acting under
+  a dispatch of the Governor (cited), released the prisoner following routine procedure. Capitão José
+  filed a formal complaint (requerimento) claiming that the release disobeyed his military orders
+  and undermined his authority. The Juiz defends his decision as consistent with established
+  practice and requests the Governor's ruling.
+transcription_pt: >-
+  [Queixa ao governo, SG-Cx.65-Doc.49, APM, 17 de julho de 1805. Três imagens de página.]
+
+
+  Carta do Juiz Ordinário António Macedo Costa, Vila de Barbacena, ao Governador de Minas Gerais,
+  17 de julho de 1805. Assunto: o Capitão José Ferreira Armonde havia ordenado a prisão do soldado
+  Miguel Luiz de Medeiros e sua condução à cadeia de Barbacena. O Juiz, agindo sob um despacho do
+  Governador (citado), libertou o preso seguindo procedimento de rotina. O Capitão José apresentou
+  uma queixa formal (requerimento) alegando que a soltura desobedeceu às suas ordens militares e
+  comprometeu sua autoridade. O Juiz defende sua decisão como consistente com a prática estabelecida
+  e solicita a decisão do Governador.
+abstract: >-
+  Government complaint letter (SG-Cx.65-Doc.49, APM, 17 July 1805): Juiz Ordinário António Macedo
+  Costa, Barbacena, reports to the Governador de Minas Gerais that Capitão José Ferreira Armonde
+  filed a complaint over the judicial release of a prisoner he had ordered detained. The document
+  confirms that José Ferreira Armonde held the Capitão rank by 1805 — promoted from the "plain José"
+  (no title) of the 1791 sesmaria (GOV-0009) — and that he remained in the Barbacena area through
+  1805 (did not migrate to the Zona da Mata). This is consistent with the Lacerda thesis reference to
+  "Capitão José" and distinguishes José from Alferes Francisco (who held a different rank and a
+  different sesmaria location). Usage: context_only — José is a collateral relative of P-0016's
+  direct ancestor line (Simplício's line descends from Alferes Francisco, not from Capitão José).
+abstract_pt: >-
+  Carta de queixa ao governo (SG-Cx.65-Doc.49, APM, 17 de julho de 1805): o Juiz Ordinário
+  António Macedo Costa, Barbacena, informa ao Governador de Minas Gerais que o Capitão José Ferreira
+  Armonde apresentou uma queixa pela soltura judicial de um preso que ele havia ordenado detido. O
+  documento confirma que José Ferreira Armonde detinha o posto de Capitão em 1805 — promovido desde
+  o "simples José" (sem título) da sesmaria de 1791 (GOV-0009) — e que permaneceu na área de
+  Barbacena até 1805 (não migrou para a Zona da Mata). Isso é consistente com a referência da tese
+  Lacerda ao "Capitão José" e distingue José do Alferes Francisco (que detinha posto diferente e
+  localização de sesmaria diferente). Uso: apenas contexto — José é um parente colateral da linha
+  ancestral direta de P-0016 (a linha de Simplício descende do Alferes Francisco, não do Capitão José).
+reliability:
+  assessment: >-
+    Primary colonial government record (original letter, APM Secretaria de Governo series). Direct
+    evidence for: (1) José Ferreira Armonde's Capitão rank by 1805; (2) his continued active presence
+    in Barbacena through 1805; (3) his exercise of military command authority in the area.
+  informant: >-
+    Juiz Ordinário António Macedo Costa (letter author); Capitão José Ferreira Armonde (complainant).
+  limitations: >-
+    The document does not name José's wife, children, or parentage. The connection to Alferes
+    Francisco (probable brothers) is inferential, supported by GOV-0009 but not stated here.
+digital_file:
+  path: evidence/government/GOV-0011-armonde-jose-barbacena-1805-siaapm-sg-cx65-doc49-p1.jpg
+  sha256: c79410ea15bdd8e99061ee2a1fc3acf8aafe8f9aeac37efa07642d210ce45f9f
+additional_pages:
+- path: evidence/government/GOV-0011-armonde-jose-barbacena-1805-siaapm-sg-cx65-doc49-p2.jpg
+  sha256: 6370123193378a70315bc60f43c20e917103cca37a5c1461fc1c491657068043
+- path: evidence/government/GOV-0011-armonde-jose-barbacena-1805-siaapm-sg-cx65-doc49-p3.jpg
+  sha256: 2f0338b25c96b52f26e69b24791cfbf1e045f3ed94a43d8ff43c85a0d0041e27
+linked_people:
+- P-0016
+linked_families: []
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Context only: Capitão José is a collateral relative of P-0016 (Simplício's ancestor Alferes
+    Francisco is a distinct person — proved by GOV-0009 where they appear as adjacent landowners).
+    This document extends the portrait of Capitão José as a militarily active figure in Barbacena
+    through 1805, consistent with the Lacerda thesis reference to "Capitão José Ferreira Armond"
+    in the same area and period.
+- text: >-
+    Cross-reference with GOV-0009: In 1791, José held no military title; by 1805 he is "Capitão" —
+    promoted in the 14-year interval. He stayed in Barbacena and did NOT migrate east to the Zona
+    da Mata (unlike the trajectory that would apply to Alferes Francisco's sons). The "Anna Maria
+    de Jesus" wife of Capitão José (from a separate FS full-text record: "José Ferreira Armond alias
+    António Martins Barbosa, fled Barbacena 1809, parents = José Ferreira Armond × Anna Maria de
+    Jesus") is a different surname from Alferes Francisco's wife Felizarda M. F. de Assis — further
+    distinguishing the two brothers.

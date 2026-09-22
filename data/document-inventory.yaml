@@ -2766,6 +2766,149 @@ documents:
           pixel_height: 4159
         privacy_review: cleared
         sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-certidao-herdeiros-fl180-p1.jpg
+        sha256: 001340edc84f42a5b5e03dfc9d3658c0ccce8b60fd6cc1c10826fd5ff64b0649
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 4275
+          pixel_height: 5554
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-certidao-herdeiros-fl180-p2.jpg
+        sha256: 91466474dc33c2ecf73c29535362bf48bf24901b5e4a668ef66ec9517613609d
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 4078
+          pixel_height: 5563
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-certidao-herdeiros-fl180-p3.jpg
+        sha256: 80324f901c4735086a22d1732d27951fc915be00f0d2055b894832c43418798b
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 4231
+          pixel_height: 5522
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-certidao-herdeiros-fl180-p4.jpg
+        sha256: e4662f4dcf69546d5ae98f2a6d9d18d570eb6dc38c185f3073a471bde79fa5d7
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 4144
+          pixel_height: 5595
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-certidao-herdeiros-fl180-p5.jpg
+        sha256: ff0a35489cbf867a06fa8e11d34574251f14f89ba365d78a8278900fb6bd07f3
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 4199
+          pixel_height: 5506
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-certidao-herdeiros-fl180-p6.jpg
+        sha256: 8fa5bcdd65c56f34f59475c2fddbf74dc82dbbe4b35a856ad89fa65a230bcb8a
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 4012
+          pixel_height: 5560
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1880-audiencia-nov-fl136-p1.jpg
+        sha256: 6a7f4e2b0b6c316851aa968820edb1b09555eea75f1cfbfb8c379b3207ffe154
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 4384
+          pixel_height: 5600
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1880-audiencia-nov-fl136-p2.jpg
+        sha256: 8a8147966a2d39f3f7adee5a9564d64397d661bfe9e0f8a2628c2f990b251a57
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 4163
+          pixel_height: 5586
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1880-audiencia-nov-fl137-p3.jpg
+        sha256: 3e190bec0f9e26816de7ec5e78642b992b9901f7d7559794058a71f0f50f6b90
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 4382
+          pixel_height: 5602
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1880-audiencia-nov-fl137-p4.jpg
+        sha256: b73ba353087f51a2b53eb4601627aad12c088d122c881907f4800d4ccc32feb7
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 4180
+          pixel_height: 5586
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-audiencia-ago-fl185-p1.jpg
+        sha256: 2d657fa42613c045c5b96eb6f2e0bee29525e47542e16b46b84a9ee70dc83379
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 4284
+          pixel_height: 5546
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-audiencia-ago-fl185-p2.jpg
+        sha256: 4f1a18ec5823c79fe2c59ad1a10d99ed47b34fb268c64dfe9a74de01fbb76a7d
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 4028
+          pixel_height: 5528
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-audiencia-ago-fl186-p3.jpg
+        sha256: 37aa339e0d30987018512c82bc4022ab4b3ec403a40ed18fba9d0e25c780face
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 4223
+          pixel_height: 5531
+        privacy_review: cleared
+        sensitive_content: []
     duplicate_of: null
     proposed_source_id: PRB-0009
     notes:
@@ -2777,6 +2920,14 @@ documents:
         Simplício's parentage. Also declares Claudina Brandina de Jesus survived
         Ladisláo. Pages gen1 and p2–p5 read in detail (7 August 2026). All persons
         deceased (19th-century probate).
+      - >-
+        Extended 2026-09-22 with 14 new pages: certidão dos herdeiros (folios 180–182,
+        6 images), November 1880 audiência (folios 136–137, 4 images), and August 1881
+        audiência (folios 185–186, 4 images). The 1881 certidão explicitly names
+        "Simplício José Ferreira Armond casado com Dona Elisa Balbina de Toledo" —
+        the clearest primary statement of this marriage. Two new JC×Claudina children
+        confirmed (added to F-0026): Cesário José de Toledo ⚭ Margi de Jesus, and
+        Antonio Ladislau de Toledo.
   - inventory_id: DOC-0060
     status: catalogued
     added_date: "2026-08-07"
@@ -4267,3 +4418,288 @@ documents:
       - >-
         Primary baptism fixing P-0042's birth (12 June 1822) and confirming his parents
         (F-0023); previously his birth was inferred "about 1820" from age at death.
+  - inventory_id: DOC-0102
+    status: reviewed
+    added_date: "2026-09-22"
+    apparent_record_type: >-
+      Last folio of the 1881 audiência de verificação de herdeiros (Aug 1881) from Ladisláo
+      Egídio Ferreira de Toledo 1867 inventário — folha 186, page 4 of 4.
+    apparent_people:
+      - Simplício José Ferreira Armond (P-0016)
+      - Eliza Balbina de Toledo (P-0017)
+    apparent_event: probate
+    image_quality: adequate
+    provenance: >-
+      FamilySearch retrieval drop (research/from-retrieval/ sync, 2026-09-22); part of the
+      14-page PRB-0009 extension batch. This entry exists to preserve sequential ID continuity
+      (DOC-0102 was reserved as the extension batch but then merged into DOC-0059); the
+      remaining 13 extension pages are inventoried in DOC-0059.
+    rights_status: private-research
+    files:
+      - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-audiencia-ago-fl186-p4.jpg
+        sha256: 898642a0e1a52fd51a3ffc2a447113e2705bd0cbc49beb88a6c4296701d66224
+        media_type: image/jpeg
+        role: continuation
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 4006
+          pixel_height: 5504
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: null
+    notes:
+      - >-
+        This page (fl.186 p4/4 of the Aug-1881 audiência) was split off to preserve the
+        DOC-0102 ID that was reserved for the 14-page extension batch. The other 13 pages
+        of that batch are inventoried in DOC-0059 alongside the original 6 pages of PRB-0009.
+  - inventory_id: DOC-0103
+    status: catalogued
+    added_date: "2026-09-22"
+    apparent_record_type: Colonial sesmaria petition and grant (7 pages)
+    apparent_people:
+      - José Ferreira Armonde (petitioner; collateral ancestor of P-0016)
+      - Alferes Francisco Ferreira Armonde (boundary neighbor and witness; ancestor of P-0016)
+    apparent_event: other
+    image_quality: adequate
+    provenance: >-
+      SIAAPM/brtbusca retrieval (research/from-retrieval/ sync, 2026-09-19); SG-Cx.21-Doc.08,
+      Arquivo Público Mineiro. Retrieved as rec-armonde-jose-sesmaria-1791-sg-cx21-doc08-p1..p7.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/government/GOV-0009-armonde-jose-sesmaria-1791-siaapm-sg-cx21-doc08-p1.jpg
+        sha256: 25a22ac911ef00397dace52956db77fff22412866d232807c674ccc7da78fdb7
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 1352
+          pixel_height: 1810
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/government/GOV-0009-armonde-jose-sesmaria-1791-siaapm-sg-cx21-doc08-p2.jpg
+        sha256: b76cc5bc840ede9f388f35255dc6e445c381c08c4aa5d705ede1d160da5f424d
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 1377
+          pixel_height: 1877
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/government/GOV-0009-armonde-jose-sesmaria-1791-siaapm-sg-cx21-doc08-p3.jpg
+        sha256: d339f48fc3d3759e46d8630b386b05c3a51250cd0a175d927983aa6a434b3b16
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 1385
+          pixel_height: 1877
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/government/GOV-0009-armonde-jose-sesmaria-1791-siaapm-sg-cx21-doc08-p4.jpg
+        sha256: c0ffed5c351b69f5ea1588c5455400a7185416c6099d48e36b53b1d9b98524f0
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 2759
+          pixel_height: 2005
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/government/GOV-0009-armonde-jose-sesmaria-1791-siaapm-sg-cx21-doc08-p5.jpg
+        sha256: 0ca7fe8a853ba082d716a432d533fc511664c4c9be8a28198a333bd45d727fdc
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 2749
+          pixel_height: 2005
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/government/GOV-0009-armonde-jose-sesmaria-1791-siaapm-sg-cx21-doc08-p6.jpg
+        sha256: 78ded0f771292ad28b647d51a6a0c063fded72ed3976292be676a7a4d3b483e1
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 2818
+          pixel_height: 2025
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/government/GOV-0009-armonde-jose-sesmaria-1791-siaapm-sg-cx21-doc08-p7.jpg
+        sha256: ba15ed2b6f49bba9aa17c8c414992ccd26bce511b656102a976ce947acbecd61
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 1869
+          pixel_height: 1375
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: GOV-0009
+    notes:
+      - >-
+        PRIMARY proof that Alferes Francisco ≠ Capitão José: Francisco's sesmaria is stated as the
+        northern border of José's grant; both appear as boundary witnesses in the same document.
+        Usage: context_only. Corrects the earlier SILB "0 grantees" bounded-negative.
+  - inventory_id: DOC-0104
+    status: catalogued
+    added_date: "2026-09-22"
+    apparent_record_type: Colonial sesmaria petition and grant (7 pages)
+    apparent_people:
+      - Marianno José Ferreira Armonde (petitioner; probable brother of elder Simplício; collateral of P-0016)
+      - Escolástico Armonde (southern boundary neighbor — new name, unresolved relation)
+    apparent_event: other
+    image_quality: adequate
+    provenance: >-
+      SIAAPM/brtbusca retrieval (research/from-retrieval/ sync, 2026-09-19); SG-Cx.23-Doc.05,
+      Arquivo Público Mineiro. Retrieved as rec-armonde-mariano-sesmaria-1792-sg-cx23-doc05-p1..p7.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/government/GOV-0010-armonde-mariano-sesmaria-1792-siaapm-sg-cx23-doc05-p1.jpg
+        sha256: 6b70116fb257d0afe2ef2a082fe0e1d7799288067a0f64b25a4eec90c73b2672
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 1357
+          pixel_height: 1810
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/government/GOV-0010-armonde-mariano-sesmaria-1792-siaapm-sg-cx23-doc05-p2.jpg
+        sha256: d0bb70b01b7bfdc63a3dfd644a8a3d7daf5777ce0166c91a9f7eacffb09eb93a
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 1389
+          pixel_height: 1895
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/government/GOV-0010-armonde-mariano-sesmaria-1792-siaapm-sg-cx23-doc05-p3.jpg
+        sha256: d1c7c78a68f3ddd0e27fc63c58b8a3f4b215e12a069c319a3a18af8a626bd407
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 1391
+          pixel_height: 1900
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/government/GOV-0010-armonde-mariano-sesmaria-1792-siaapm-sg-cx23-doc05-p4.jpg
+        sha256: 481fc4e448d8252cb22fc2beb09ebb6f30c145af2ae82892d859221bc9abe887
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 2741
+          pixel_height: 1890
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/government/GOV-0010-armonde-mariano-sesmaria-1792-siaapm-sg-cx23-doc05-p5.jpg
+        sha256: 1786290807f97632179bb200b79fcdbe08666a0ec271a8a83fda22134e6ff895
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 2747
+          pixel_height: 1900
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/government/GOV-0010-armonde-mariano-sesmaria-1792-siaapm-sg-cx23-doc05-p6.jpg
+        sha256: 1cc53cb88a658dcf945d1c9e742a4b1fcb1003bf9d398b09e0362ab43d98f603
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 2730
+          pixel_height: 1901
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/government/GOV-0010-armonde-mariano-sesmaria-1792-siaapm-sg-cx23-doc05-p7.jpg
+        sha256: 093caa878aefbe7dbc2ae0bbc04ea67d3fcc52f1f3a0b70804e4f1e854d7d1bb
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 1914
+          pixel_height: 1418
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: GOV-0010
+    notes:
+      - >-
+        Introduces Escolástico Armonde as a southern boundary neighbor — a new name in any held source.
+        Mariano's Borda do Campo residence matches the "predeceased Mariano José" of the 1845 Honório
+        inventário (strong lead for identity). Usage: context_only.
+  - inventory_id: DOC-0105
+    status: catalogued
+    added_date: "2026-09-22"
+    apparent_record_type: Government complaint letter / ofício (3 pages)
+    apparent_people:
+      - Capitão José Ferreira Armonde (complainant; collateral of P-0016)
+      - António Macedo Costa (Juiz Ordinário; letter author)
+    apparent_event: other
+    image_quality: adequate
+    provenance: >-
+      SIAAPM/brtbusca retrieval (research/from-retrieval/ sync, 2026-09-19); SG-Cx.65-Doc.49,
+      Arquivo Público Mineiro. Retrieved as rec-armonde-jose-barbacena-1805-sg-cx65-doc49-p1..p3.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/government/GOV-0011-armonde-jose-barbacena-1805-siaapm-sg-cx65-doc49-p1.jpg
+        sha256: c79410ea15bdd8e99061ee2a1fc3acf8aafe8f9aeac37efa07642d210ce45f9f
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 1326
+          pixel_height: 1799
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/government/GOV-0011-armonde-jose-barbacena-1805-siaapm-sg-cx65-doc49-p2.jpg
+        sha256: 6370123193378a70315bc60f43c20e917103cca37a5c1461fc1c491657068043
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 1477
+          pixel_height: 2121
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/government/GOV-0011-armonde-jose-barbacena-1805-siaapm-sg-cx65-doc49-p3.jpg
+        sha256: 2f0338b25c96b52f26e69b24791cfbf1e045f3ed94a43d8ff43c85a0d0041e27
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 2886
+          pixel_height: 2100
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: GOV-0011
+    notes:
+      - >-
+        Confirms Capitão José Ferreira Armonde held the Capitão rank by 1805 (promoted from "plain
+        José" of 1791 in GOV-0009) and remained in Barbacena. Usage: context_only.

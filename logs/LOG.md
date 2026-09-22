@@ -5,6 +5,42 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-09-22 — Retrieval-drop intake: GOV-0009/0010/0011 + PRB-0009 extension
+
+**Drop:** 55 new images synced 2026-09-19/22. Value-gate classified 31 images as immediate
+intake, 6 as triage-ledger LEADs for future sessions, 19 as bounded-negative (Cágado mapa),
+and 2 as cross-image noise.
+
+**GOV-0009** (APM SG-Cx.21-Doc.08, 7 pp): 1791 sesmaria grant to José Ferreira Armonde,
+Ribeirão da Barra, Freguesia da Igreja Nova. Northern boundary = "terras e Sesmaria do Alferes
+Fran. Ferr.ª Armonde" — PRIMARY evidence Francisco ≠ José. `usage: context_only`, linked P-0016.
+
+**GOV-0010** (APM SG-Cx.23-Doc.05, 7 pp): 1792/1794 sesmaria to Marianno José Ferreira
+Armonde, Borda do Campo, Barbacena. Southern boundary names "Escolástico Armonde" (new lead).
+`usage: context_only`, linked P-0016.
+
+**GOV-0011** (APM SG-Cx.65-Doc.49, 3 pp): 1805 judicial complaint by Capitão José Ferreira
+Armonde, Barbacena. Confirms rank and continued Barbacena residency. `usage: context_only`,
+linked P-0016.
+
+**PRB-0009 extension** (14 new pp): Certidão de herdeiros folio 181r (Oct 1881) names
+"Simplício José Ferreira Armond casado com Dona Elisa Balbina de Toledo" — the most explicit
+surviving statement of the Simplício × Eliza marriage. Folio 181r also names two previously
+unknown Toledo siblings: Cesário José de Toledo (⚭ Margi de Jesus) and Antonio Ladislau de
+Toledo — both added as `documented_children` on F-0026. Nov-1880 audiência (fl.136-137 ×4)
+and Aug-1881 audiência (fl.185-186 ×4) also transcribed.
+
+**Data changes:** GOV-0009, GOV-0010, GOV-0011 created; PRB-0009 title/abstract/transcriptions/
+additional_pages updated; F-0026 gained 2 documented_children; DOC-0059 extended with 13 of the
+14 new probate pages; DOC-0102 created (reviewed, placeholder, holds fl186-p4); DOC-0103/0104/0105
+created for GOV sources; record-coverage P-0016 notes updated; P-0016 profile/profile_pt updated
+with new source references and the c.1875–1921 documented-span correction.
+
+**Triage LEADs logged (future work):** padre-francisco folio36 neighbor; paz-herculano folio38;
+rodrigues-valle entry359 ×2; conde-de-prados obituary 1882; manoel-ignacio carta precatória.
+
+`make check` green: 492 entities, 165 sources, 258 scans, 75 tests.
+
 ## 2026-09-13 — Repository-wide audit (6 parallel auditors) + central fix sweep
 
 - Ran six read-only auditors over disjoint file sets — docs/narrative layers, portraits

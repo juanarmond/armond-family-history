@@ -5,6 +5,29 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — APM sesmaria sources (GOV-0009/0010/0011) and PRB-0009 certidão extension (2026-09-22)
+
+Full data intake of the 2026-09-19/22 FamilySearch retrieval drop (55 images):
+
+- **GOV-0009** (APM SG-Cx.21-Doc.08, 7 pp, 1791): sesmaria to José Ferreira Armonde,
+  Ribeirão da Barra. Northern boundary names Francisco as an adjacent (distinct) landowner —
+  PRIMARY evidence Francisco ≠ José. `context_only`, linked P-0016.
+- **GOV-0010** (APM SG-Cx.23-Doc.05, 7 pp, 1792/1794): sesmaria to Marianno José Ferreira
+  Armonde, Borda do Campo, Barbacena. New name found: Escolástico Armonde (southern boundary).
+  `context_only`, linked P-0016.
+- **GOV-0011** (APM SG-Cx.65-Doc.49, 3 pp, 1805): Capitão José Ferreira Armonde complaint,
+  Barbacena. Confirms rank and Barbacena residency through 1805. `context_only`, linked P-0016.
+- **PRB-0009 extension** (14 new pp): certidão de herdeiros folio 181r (Oct 1881) names
+  "Simplício José Ferreira Armond casado com Dona Elisa Balbina de Toledo" — most explicit
+  surviving statement of the Simplício × Eliza marriage. Also names two new documented
+  Toledo siblings: Cesário José de Toledo and Antonio Ladislau de Toledo (both added as
+  `documented_children` on F-0026). Nov-1880 and Aug-1881 audiências transcribed.
+- **Document-inventory:** DOC-0059 extended (13 new probate pages), DOC-0102 created
+  (reviewed placeholder, fl186-p4), DOC-0103/0104/0105 for GOV sources.
+- **P-0016 profile:** "Sources held" updated with PRB-0009 folio 181r and GOV context
+  sources; documented-span corrected to c.1875–1921; Regional context adds sesmaria note.
+- 6 triage-ledger LEADs logged for future sessions.
+
 ### Research — COARPE batch (55816018 + 39807751) received and value-gated (2026-09-18)
 
 Two long-awaited COARPE/TJMG records arrived and were value-gated. Neither promotes to a

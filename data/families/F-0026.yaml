@@ -135,6 +135,22 @@ documented_children:
     DISTINCT from our Simplício José Ferreira ARMOND (P-0016), who has the Armond
     surname and married Eliza (P-0017). The identical given name "Simplício Ferreira"
     caused a prior misidentification (corrected 7 August 2026).
+- name: Cesário José de Toledo
+  source_ids:
+  - PRB-0009
+  note: >-
+    Sibling of Eliza (the 1881 certidão dos herdeiros, folio 181r: "Cesário José de Toledo ⚭ Margi
+    de Jesus"). Absent from the 1867 inventário title-page child list (PRB-0009 gen1) — either born
+    after 1867 or the certidão lists collateral Toledo relatives alongside Eliza's siblings. Married
+    Margi de Jesus. Do not confuse with the father José Cesário de Toledo Lima (P-0054).
+- name: Antonio Ladislau de Toledo
+  source_ids:
+  - PRB-0009
+  note: >-
+    Sibling of Eliza (the 1881 certidão dos herdeiros, folio 181r: "Antonio Ladislau de Toledo").
+    Absent from the 1867 inventário title-page child list (gen1) — may have been born after 1867.
+    Do not confuse with António Ladislão de Toledo (item 7 in the gen1 title list), who was the
+    deaf-mute son of the elder Ladisláo P-0056, not of JC × Claudina. Source: PRB-0009 certidão 1881.
 event_ids: []
 notes:
 - text: >-

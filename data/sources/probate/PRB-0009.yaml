@@ -1,17 +1,16 @@
 schema_version: 1
 id: PRB-0009
 title: >-
-  1867 Concórdia probate inventory of Ladisláo Egídio Ferreira de Toledo — título
-  de herdeiros confirming eight children including Francisco Leocádio (item 4,
-  deceased before Ladisláo) and José Cesário Lima (item 8, deceased), with JC's
-  children including a son named Simplício Ferreira de Toledo (item 6, distinct from
-  Simplício Armond P-0016) and a declaration on Claudina Brandina de Jesus
+  1867 Concórdia probate inventory of Ladisláo Egídio Ferreira de Toledo — título de herdeiros
+  confirming eight children including Francisco Leocádio (item 4) and José Cesário Lima (item 8);
+  1881 certidão dos herdeiros (folios 180–182) explicitly naming Simplício José Ferreira Armond
+  casado com Dona Elisa Balbina de Toledo; November 1880 and August 1881 audiência folios
 title_pt: >-
-  Inventário de bens de 1867, em Concórdia, de Ladisláo Egídio Ferreira de Toledo —
-  título de herdeiros que confirma oito filhos, incluindo Francisco Leocádio (item 4,
-  falecido antes de Ladisláo) e José Cesário Lima (item 8, falecido), com os filhos
-  de JC incluindo um filho de nome Simplício Ferreira de Toledo (item 6, distinto de
-  Simplício Armond P-0016) e uma declaração sobre Claudina Brandina de Jesus
+  Inventário de bens de 1867, em Concórdia, de Ladisláo Egídio Ferreira de Toledo — título de
+  herdeiros que confirma oito filhos, incluindo Francisco Leocádio (item 4) e José Cesário Lima
+  (item 8); certidão dos herdeiros de 1881 (fólios 180–182) que nomeia explicitamente Simplício
+  José Ferreira Armond casado com Dona Elisa Balbina de Toledo; fólios de audiência de novembro de
+  1880 e agosto de 1881
 record_type: Estate inventory (inventário / título de herdeiros)
 record_category: court_or_probate
 source_form: original
@@ -40,8 +39,12 @@ repository:
     Inventário de Ladisláo Egídio Ferreira de Toledo, proceedings March 1867,
     Concórdia (Districto do Rio Pardo), MG
   catalogue_reference: >-
-    FamilySearch retrieval; read and promoted 7 August 2026. Five pages catalogued:
-    cover/title page (gen1), pp. 2–5.
+    FamilySearch retrieval; read and promoted 7 August 2026 (initial 6 pages); extended 22 September
+    2026 with 14 further pages (certidão dos herdeiros fl.180–182 × 6 images; November 1880 audiência
+    fl.136–137 × 4 images; August 1881 audiência fl.185–186 × 4 images). Twenty pages catalogued
+    total: cover/title page (gen1), pp. 2–5, embargos audiência (earlier 1881 folio 185 supplement),
+    certidão fl.180-p1..p6, audiência nov1880 fl.136-p1..p2/fl.137-p3..p4, audiência ago1881
+    fl.185-p1..p2/fl.186-p3..p4.
   repository_path: >-
     evidence/probate/PRB-0009-ladislao-toledo-inventario-1867-gen1.jpg
 access_date: "2026-08-07"
@@ -173,6 +176,40 @@ transcription: >-
   attorney's names are uncertain cursive reads. See the 1881 embargos note field for
   the wider 1881–82 procedural context (the 1882 judgment finding Maria Joaquina de
   Jesus survived Ladisláo and ordering the 1876 partition redone).
+
+
+  [CERTIDÃO DOS HERDEIROS — folios 180–182, 20 July 1881 — 6 images (fl180-p1..p6)]
+  Certidão issued 20 July 1881 by Escrivão Antonio Carlos da Lobo Carracho, Leopoldina, within the
+  estate autos of Ladisláo Egídio Ferreira de Toledo. Lists the qualified heirs of José Cesário de
+  Toledo Lima (item 8 of the 1867 título de herdeiros), including at folio 181r:
+  "Simplício José Ferreira Armond casado com Dona Elisa Balbina de Toledo" — the clearest primary
+  statement of the Simplício × Eliza marriage in these proceedings. Other heirs listed: "Maria
+  Blandina de Toledo ⚭ Manuel Marques Jorge"; "Ladislau Egídio Ferreira de Toledo, solteiro, 23
+  anos"; "Geraldo, solteiro, 15 anos, empregado à Rua da Amizade 74, Leopoldina"; "Josepha Olympia
+  da Paixão"; "Cesário José de Toledo ⚭ Margi de Jesus"; "Antonio Ladislau de Toledo."
+  Note: The preceding November 1880 audiência (folio 136) appeared to attribute "e sua mulher,
+  Maria Dulcedina de Toledo" after Simplício's name — this is a misattribution corrected by the
+  July 1881 certidão, which confirms Elisa Balbina de Toledo as Simplício's wife.
+  Core facts (heirs' names, date, escrivão) are legible; minor cursive reads may be uncertain.
+
+
+  [AUDIÊNCIA NOVEMBRO 1880 — folios 136–137, November 1880 — 4 images (fl136-p1..p2, fl137-p3..p4)]
+  "Termo de audiência" of November 1880 (folio numbering: fl.136 pp.1–2, fl.137 pp.3–4) within
+  the Ladisláo Egídio Ferreira de Toledo estate embargos á partilha proceedings at Leopoldina.
+  Simplício José Ferreira Armond appears in this folio; the attribution of "Maria Dulcedina de
+  Toledo" as his wife on this folio is a misread corrected by the July 1881 certidão (see above).
+  Core procedural facts legible; party names require careful reading against the July 1881 certidão.
+
+
+  [AUDIÊNCIA AGOSTO 1881 — folios 185–186, August 1881 — 4 images (fl185-p1..p2, fl186-p3..p4)]
+  "Termo de audiência" of 6 August 1881 (folio 185 pp.1–2, folio 186 pp.3–4). This is the SAME
+  August 1881 audiência as the previously catalogued embargos supplement
+  (evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-embargos-audiencia.jpg), which was
+  the earlier partial image of folio 185. The four new fl.185–186 images are the complete set;
+  they supersede the earlier single image as the complete representation of this audiência.
+  For the content summary see the earlier embargos supplement note: 6 August 1881, Juízo dos
+  Órphãos do Termo da Leopoldina, on behalf of Umbelina Ignez de Toledo e outros, citations
+  served on Marianna Claudina de Toledo to appear on the artigos d'embargos á partilha.
 transcription_pt: >-
   [Inventário de Ladisláo Egídio Ferreira de Toledo, Concórdia, Districto do Rio
   Pardo, MG, 1867. Seis imagens de página catalogadas: gen1 (título de herdeiros/capa),
@@ -302,6 +339,43 @@ transcription_pt: >-
   os embargos de 1881 para o contexto processual mais amplo de 1881–82 (a sentença de
   1882 que concluiu que Maria Joaquina de Jesus sobreviveu a Ladisláo e mandou refazer
   a partilha de 1876).
+
+
+  [CERTIDÃO DOS HERDEIROS — fólios 180–182, 20 de julho de 1881 — 6 imagens (fl180-p1..p6)]
+  Certidão emitida em 20 de julho de 1881 pelo Escrivão Antonio Carlos da Lobo Carracho,
+  Leopoldina, nos autos do espólio de Ladisláo Egídio Ferreira de Toledo. Relaciona os herdeiros
+  habilitados de José Cesário de Toledo Lima (item 8 do título de herdeiros de 1867), incluindo
+  no fólio 181r: "Simplício José Ferreira Armond casado com Dona Elisa Balbina de Toledo" — a
+  declaração primária mais clara do casamento Simplício × Eliza nesses autos. Outros herdeiros
+  listados: "Maria Blandina de Toledo ⚭ Manuel Marques Jorge"; "Ladislau Egídio Ferreira de Toledo,
+  solteiro, 23 anos"; "Geraldo, solteiro, 15 anos, empregado à Rua da Amizade 74, Leopoldina";
+  "Josepha Olympia da Paixão"; "Cesário José de Toledo ⚭ Margi de Jesus"; "Antonio Ladislau de
+  Toledo." Observação: a audiência de novembro de 1880 (fólio 136) pareceu atribuir "e sua mulher,
+  Maria Dulcedina de Toledo" após o nome de Simplício — trata-se de uma atribuição incorreta
+  corrigida pela certidão de julho de 1881, que confirma Elisa Balbina de Toledo como esposa de
+  Simplício. Os fatos centrais (nomes dos herdeiros, data, escrivão) são legíveis; leituras cursivas
+  menores podem ser incertas.
+
+
+  [AUDIÊNCIA NOVEMBRO 1880 — fólios 136–137, novembro de 1880 — 4 imagens (fl136-p1..p2, fl137-p3..p4)]
+  "Termo de audiência" de novembro de 1880 (numeração dos fólios: fl.136 pp.1–2, fl.137 pp.3–4)
+  nos autos dos embargos à partilha do espólio de Ladisláo Egídio Ferreira de Toledo, em Leopoldina.
+  Simplício José Ferreira Armond aparece neste fólio; a atribuição de "Maria Dulcedina de Toledo"
+  como sua esposa neste fólio é uma leitura equivocada, corrigida pela certidão de julho de 1881
+  (ver acima). Os fatos processuais centrais são legíveis; os nomes das partes requerem leitura
+  cuidadosa confrontada com a certidão de julho de 1881.
+
+
+  [AUDIÊNCIA AGOSTO 1881 — fólios 185–186, agosto de 1881 — 4 imagens (fl185-p1..p2, fl186-p3..p4)]
+  "Termo de audiência" de 6 de agosto de 1881 (fólio 185 pp.1–2, fólio 186 pp.3–4). Trata-se da
+  MESMA audiência de agosto de 1881 do suplemento de embargos anteriormente catalogado
+  (evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-embargos-audiencia.jpg), que era a
+  imagem parcial anterior do fólio 185. As quatro novas imagens fl.185–186 constituem o conjunto
+  completo; elas substituem a imagem anterior isolada como representação completa desta audiência.
+  Para o resumo do conteúdo, ver a nota anterior sobre o suplemento dos embargos: 6 de agosto de
+  1881, Juízo dos Órphãos do Termo da Leopoldina, por parte de Umbelina Ignez de Toledo e outros,
+  citações intimadas a Marianna Claudina de Toledo para comparecer sobre os artigos d'embargos
+  à partilha.
 abstract: >-
   The 1867 Concórdia (Districto do Rio Pardo, MG) probate inventory of Ladisláo
   Egídio Ferreira de Toledo (P-0056). Its título de herdeiros (gen1) lists Ladisláo's
@@ -329,6 +403,14 @@ abstract: >-
   identity still needs confirmation (see limitations).
   The curator of JC's minor heirs was Aureliano de Sales Toledo (JC's sibling,
   item 5), before the same judge (Dr. Mortimário de Sousa Lintz) as PRB-0008.
+  The 1881 certidão dos herdeiros (folios 180–182, 6 images, issued 20 July 1881 by Escrivão
+  Antonio Carlos da Lobo Carracho) is the single clearest primary statement of the Simplício ×
+  Eliza marriage: it explicitly names "Simplício José Ferreira Armond casado com Dona Elisa Balbina
+  de Toledo" at folio 181r. It also confirms two additional heirs not found in the earlier held
+  pages: Cesário José de Toledo ⚭ Margi de Jesus and Antonio Ladislau de Toledo — both now added
+  as documented_children on F-0026. The November 1880 audiência (folios 136–137, 4 images) and
+  the complete August 1881 audiência (folios 185–186, 4 images, superseding the earlier embargos
+  partial image) are also now catalogued, completing the set of held estate pages.
 abstract_pt: >-
   O inventário de 1867, em Concórdia (Districto do Rio Pardo, MG), de Ladisláo
   Egídio Ferreira de Toledo (P-0056). Seu título de herdeiros (gen1) lista os oito
@@ -357,6 +439,15 @@ abstract_pt: >-
   ainda precisa de confirmação (ver limitations). O curador dos herdeiros menores de JC
   foi Aureliano de Sales Toledo (irmão de JC, item 5), perante o mesmo juiz (Dr.
   Mortimário de Sousa Lintz) de PRB-0008.
+  A certidão dos herdeiros de 1881 (fólios 180–182, 6 imagens, emitida em 20 de julho de 1881
+  pelo Escrivão Antonio Carlos da Lobo Carracho) é a declaração primária mais clara do casamento
+  Simplício × Eliza: nomeia explicitamente "Simplício José Ferreira Armond casado com Dona Elisa
+  Balbina de Toledo" no fólio 181r. Também confirma dois herdeiros adicionais não encontrados nas
+  páginas anteriormente retidas: Cesário José de Toledo ⚭ Margi de Jesus e Antonio Ladislau de
+  Toledo — ambos agora adicionados como documented_children em F-0026. A audiência de novembro de
+  1880 (fólios 136–137, 4 imagens) e a audiência completa de agosto de 1881 (fólios 185–186, 4
+  imagens, substituindo a imagem parcial anterior dos embargos) também estão agora catalogadas,
+  completando o conjunto de páginas retidas do espólio.
 reliability:
   assessment: >-
     Direct primary judicial evidence for: (1) Ladisláo's eight children by Mathilde,
@@ -407,6 +498,34 @@ additional_pages:
   sha256: 03315cd09593432854d26e834630d3a987e3d4a1c0e7e7c16d27d5e84b70430c
 - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-embargos-audiencia.jpg
   sha256: 43342e64893a4a15283d73a19bba2c20d0a094ad9eb11581d490eb1fbae2f81b
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-certidao-herdeiros-fl180-p1.jpg
+  sha256: 001340edc84f42a5b5e03dfc9d3658c0ccce8b60fd6cc1c10826fd5ff64b0649
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-certidao-herdeiros-fl180-p2.jpg
+  sha256: 91466474dc33c2ecf73c29535362bf48bf24901b5e4a668ef66ec9517613609d
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-certidao-herdeiros-fl180-p3.jpg
+  sha256: 80324f901c4735086a22d1732d27951fc915be00f0d2055b894832c43418798b
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-certidao-herdeiros-fl180-p4.jpg
+  sha256: e4662f4dcf69546d5ae98f2a6d9d18d570eb6dc38c185f3073a471bde79fa5d7
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-certidao-herdeiros-fl180-p5.jpg
+  sha256: ff0a35489cbf867a06fa8e11d34574251f14f89ba365d78a8278900fb6bd07f3
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-certidao-herdeiros-fl180-p6.jpg
+  sha256: 8fa5bcdd65c56f34f59475c2fddbf74dc82dbbe4b35a856ad89fa65a230bcb8a
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1880-audiencia-nov-fl136-p1.jpg
+  sha256: 6a7f4e2b0b6c316851aa968820edb1b09555eea75f1cfbfb8c379b3207ffe154
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1880-audiencia-nov-fl136-p2.jpg
+  sha256: 8a8147966a2d39f3f7adee5a9564d64397d661bfe9e0f8a2628c2f990b251a57
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1880-audiencia-nov-fl137-p3.jpg
+  sha256: 3e190bec0f9e26816de7ec5e78642b992b9901f7d7559794058a71f0f50f6b90
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1880-audiencia-nov-fl137-p4.jpg
+  sha256: b73ba353087f51a2b53eb4601627aad12c088d122c881907f4800d4ccc32feb7
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-audiencia-ago-fl185-p1.jpg
+  sha256: 2d657fa42613c045c5b96eb6f2e0bee29525e47542e16b46b84a9ee70dc83379
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-audiencia-ago-fl185-p2.jpg
+  sha256: 4f1a18ec5823c79fe2c59ad1a10d99ed47b34fb268c64dfe9a74de01fbb76a7d
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-audiencia-ago-fl186-p3.jpg
+  sha256: 37aa339e0d30987018512c82bc4022ab4b3ec403a40ed18fba9d0e25c780face
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-audiencia-ago-fl186-p4.jpg
+  sha256: 898642a0e1a52fd51a3ffc2a447113e2705bd0cbc49beb88a6c4296701d66224
 linked_people:
 - P-0056
 - P-0027
@@ -504,3 +623,14 @@ notes:
     resolve material conflict #15 (Maria Joaquina as Ladisláo's daughter / Francisco
     Leocádio P-0061 as son-in-law): the decisive judgment page p.383 still needs direct
     image verification before F-0027 / P-0061 are restructured.
+- text: >-
+    1881 CERTIDÃO DOS HERDEIROS (folios 180–182; 6 images promoted 2026-09-22). The July 1881
+    certidão explicitly names "Simplício José Ferreira Armond casado com Dona Elisa Balbina de
+    Toledo" at folio 181r — the clearest primary statement of this marriage in the entire Ladisláo
+    estate proceedings. It supersedes the ambiguous November 1880 audiência reading (folio 136,
+    which appeared to attribute "Maria Dulcedina de Toledo" to Simplício — that was a misattribution).
+    Two heirs not previously in the data layer are confirmed: Cesário José de Toledo ⚭ Margi de
+    Jesus, and Antonio Ladislau de Toledo. Both added to F-0026 documented_children. The November
+    1880 (fl.136–137) and August 1881 (fl.185–186) audiências are now fully catalogued (4 images
+    each). The earlier embargos supplement image (PRB-0009-ladislao-toledo-inventario-1881-embargos-audiencia.jpg)
+    was a partial crop of folio 185; the four fl.185–186 images now supersede it as the complete set.
