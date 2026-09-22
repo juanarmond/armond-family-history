@@ -1982,6 +1982,11 @@ body.is-mobile .portrait a.portrait-maplink, body.is-mobile .story-content a.por
   border-top: 3px double var(--rule-strong);
 }
 .site-footer::before { content: "\2726\00a0\00a0"; color: var(--gold); }
+.footer-copy {
+  display: block;
+  margin-top: .45rem;
+}
+.footer-copy a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
 
 /* ---------- Visitor greeting (live flag + running count) ---------- */
 .visitor-welcome {
