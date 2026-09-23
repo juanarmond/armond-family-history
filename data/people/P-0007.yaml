@@ -127,6 +127,13 @@ profile: >-
   - Her **death record** — **held** (CIV-0029): died 13 July 2021, Volta Redonda, RJ.
   [RESOLVED]
 
+  - **Naturalidade discrepancy:** her 1949 marriage certificate (CIV-0004) gives her birthplace as
+  **"Presidente Soares, E. de Minas"** (Minas Gerais); her 2021 death certificate (CIV-0029) gives
+  it as **"Alvorada de Minas-MG"**. The marriage certificate, closer in time to her birth and
+  self-declared, is the stronger reading; the death certificate informant may have confused Alvorada
+  (the municipality where she married in 1949) with her actual birth locality. [OPEN — to be resolved
+  by her birth certificate]
+
   ## Sources held (this repository)
 
   - CIV-0004 (1949 Antenor Muniz × Iris Bohrer marriage — her birth date/place, parents
@@ -136,8 +143,11 @@ profile: >-
 
   - CIV-0014 (father João Gonçalves Bohrer's 1970 death — "quinze filhos") · CIV-0016
   (sibling Eunir Bohrer's 1924 Nova Friburgo birth) · CIV-0025 (brother João Bohrer's
-  2001 death) · REC-0001 (owner family roster) · PUB-0003 (published Nova Friburgo
-  genealogy).
+  2001 death) · CIV-0031 (sibling Ercy Bohrer's 1972 Volta Redonda death — names both parents) ·
+  CIV-0038 (sibling Senira Bohrer's 1923 Nova Friburgo birth — names both parents) · CIV-0039
+  (sibling Alício Borher's birth/death record — names both parents) · CIV-0040 (sibling Ivanyr
+  Borher's death — names both parents) · REC-0001 (owner family roster) · PUB-0003 (published
+  Nova Friburgo genealogy).
 
   ## Regional and migration context
 
@@ -256,6 +266,13 @@ profile_pt: >-
   - Seu **registro de óbito** — **em mãos** (CIV-0029): faleceu em 13 de julho de 2021,
   Volta Redonda, RJ. [RESOLVED]
 
+  - **Discrepância de naturalidade:** sua certidão de casamento de 1949 (CIV-0004) registra seu
+  local de nascimento como **"Presidente Soares, E. de Minas"** (Minas Gerais); sua certidão de
+  óbito de 2021 (CIV-0029) registra como **"Alvorada de Minas-MG"**. A certidão de casamento,
+  mais próxima no tempo ao nascimento e autodeclarada, é a leitura mais forte; o declarante do
+  óbito pode ter confundido Alvorada (o município onde ela se casou em 1949) com sua localidade
+  de nascimento real. [OPEN — a ser resolvido por sua certidão de nascimento]
+
   ## Fontes disponíveis (neste repositório)
 
   - CIV-0004 (casamento Antenor Muniz × Iris Bohrer de 1949 — sua data/local de
@@ -265,9 +282,12 @@ profile_pt: >-
   detalhes de vivos omitidos).
 
   - CIV-0014 (óbito do pai João Gonçalves Bohrer em 1970 — "quinze filhos") · CIV-0016
-  (nascimento da irmã Eunir Bohrer em 1924, Nova Friburgo) · CIV-0025 (óbito do irmão
-  João Bohrer em 2001) · REC-0001 (lista familiar do proprietário) · PUB-0003
-  (genealogia publicada de Nova Friburgo).
+  (nascimento da irmã Eunir Bohrer em 1924, Nova Friburgo) · CIV-0025 (óbito do irmão João
+  Bohrer em 2001) · CIV-0031 (óbito da irmã Ercy Bohrer em 1972, Volta Redonda — nomeia ambos os
+  pais) · CIV-0038 (nascimento da irmã Senira Bohrer em 1923, Nova Friburgo — nomeia ambos os
+  pais) · CIV-0039 (registro de nascimento/óbito do irmão Alício Borher — nomeia ambos os pais) ·
+  CIV-0040 (óbito do irmão Ivanyr Borher — nomeia ambos os pais) · REC-0001 (lista familiar do
+  proprietário) · PUB-0003 (genealogia publicada de Nova Friburgo).
 
   ## Contexto regional e migratório
 

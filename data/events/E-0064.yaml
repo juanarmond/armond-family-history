@@ -3,11 +3,10 @@ id: E-0064
 event_type: birth
 date:
   kind: exact
-  value: "1868-09-14"
+  value: "1868-11-14"
   original_text: >-
-    "nascido a quatorze de [Setembro — uncertain]" 1868 per his baptism (PAR-0063, page faded);
-    baptised ~25 Sep 1868. The PUB-0003 "14/11/1868" is impossible (after a September baptism) and
-    is superseded; the birth month is [uncertain] but constrained to before the baptism.
+    "nascido a quatorze de Novembro" 1868 per his baptism (PAR-0063); baptised ~25 Nov 1868.
+    PUB-0003 "14/11/1868" is confirmed by the primary record.
 place_text: Nova Friburgo, Rio de Janeiro, Brazil
 participants:
 - person_id: P-0028
@@ -22,7 +21,7 @@ source_ids:
 - PUB-0003
 notes:
 - text: >-
-    Corrected to ~14 September 1868 by Valentim's own 1868 parish baptism (PAR-0063), legitimate son
-    of Vicente Bohrer × Maria (Thecla) Eggendorn; supersedes the impossible PUB-0003 "14 Nov 1868"
-    (which post-dated the September baptism). The 1868 year is firmly corroborated by his 1890
-    marriage (age 22) and 1948 death (age 80). Birth day/month [uncertain] on the faded page.
+    14 November 1868, confirmed by Valentim's own 1868 parish baptism (PAR-0063), legitimate son
+    of Vicente Bohrer × Maria (Thecla) Eggendorn; also corroborated by PUB-0003 "14/11/1868"
+    (Imigrantes de Nova Friburgo, p.301, entry 1.1.7.3). The 1868 year is further corroborated
+    by his 1890 marriage (age 22) and 1948 death (age 80).

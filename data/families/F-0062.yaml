@@ -73,6 +73,16 @@ documented_children:
 - name: Isabel de Souto-Maior (b.19.9.1666 S.Sebastião)
   source_ids:
   - PUB-0005
+- name: >-
+    Gaspar de Souto-Maior (b.23.12.1657 S.Sebastião per primary baptism register; d.2.12.1727
+    S.Sebastião; m.2.10.1690 Margarida das Candeias Machado; stayed in Terceira, Armond-line
+    ancestor) [COMPILED — PUB-0005 attests parentage; note: PUB-0005 gives birth as 23.2.1657,
+    likely a compiler transposition of 23.12.1657; parentage also confirmed in his 1690 marriage
+    record naming Belchior × Mariana as parents (primary Terceira parish record); distinct from
+    the modelled P-0092 (Brazil Gaspar), whose identity conflict with the 2.12.1727 S.Sebastião
+    death is unresolved — see P-0092 notes]
+  source_ids:
+  - PUB-0005
 event_ids:
 - E-0128
 notes:

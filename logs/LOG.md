@@ -5,6 +5,18 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-09-23 — Profile sync batch (26 entities, all major lines)
+
+Four parallel agents synced profiles/profile_pt for 26 entities across Armond/Paz, Toledo, Bohrer, Guimarães/Engrácio, and Muniz/Azevedo lines. Critical corrections found and applied:
+
+- **P-0004:** "left no will" → "left a will" (four occurrences; critical factual reversal)
+- **P-0010:** Given name proven as "Houver Engrácio Guimarães" [PROVEN]
+- **P-0015:** Death 19 Feb → **15 Feb 1977**; occupation doméstica → **costureira**
+- **P-0028 + E-0064:** Birth **14 Sep 1868 → 14 Nov 1868** — PAR-0063 reads "nascido a quatorze de Novembro"; prior September reading was an error; PUB-0003 "14/11/1868" confirmed, not superseded
+- **P-0038/P-0039:** Gloria Lacerda death **~1900 → 9 May 1960, Niterói** [PROVEN]
+
+Selected enrichments: P-0006 sibling set (6), P-0009 children (6), P-0029 children (7 PROVEN), P-0042/P-0047 children roster complete (8 surviving), P-0056 seven enslaved persons named, P-0092 Azorean origin section. 75/75 make check green. Sync gap: P-0037 (Maria Joanna) not yet synced.
+
 ## 2026-09-23 — Terceira Azorean line intake + Bohrer Beinwil correction
 
 **Terceira line — three new generations (Mendes Forjaz PDFs + Santa Bárbara primary):**

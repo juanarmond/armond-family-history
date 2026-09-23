@@ -13,6 +13,20 @@ New sources: PUB-0004 (Mendes Forjaz, Genealogias da Ilha Terceira Vol.IV), PUB-
 
 Staatsarchiv Solothurn confirmed Erschwil parish holdings searched (bounded negative). FS tree (L85Q-RY2) confirms Beinwil, Canton Solothurn. The 1825 NF marriage register's "Erswill" is a misread of "Beinwil". record-coverage updated; next action is Beinwil parish books.
 
+### Corrected/enriched — Profile sync batch, 26 entities (2026-09-23)
+
+Parallel four-agent profile sync covering all major lines. Critical corrections:
+
+- **P-0004 (Geraldo Paz Armond):** "left no will" corrected to "left a will" in four places (profile EN + PT); Irajá (Zona Norte, RJ) confirmed as primary adult residence; three children documented.
+- **P-0010 (Antonio Engracio Filho):** Given name proven as **"Houver Engrácio Guimarães"** [PROVEN from declarant signature on held image]; siblings Teodolina and Hermogenes added.
+- **P-0015 (Celina Bohrer):** Death date corrected **19 Feb → 15 Feb 1977**; occupation corrected **doméstica → costureira** (both fields, all from CIV-0015).
+- **P-0028 (Valentim Martinho Bohrer) + E-0064:** Birth date corrected **14 Sep → 14 Nov 1868**. PAR-0063 reads "nascido a quatorze de Novembro" — the prior September reading was an error; PUB-0003 "14/11/1868" is confirmed by the primary record, not superseded.
+- **P-0038/P-0039 (José Secundino / Thereza Azevedo):** Gloria Lacerda de Azevedo death corrected **~1900 → 9 May 1960, Niterói** [PROVEN]; Alcida Fernandes de Azevedo (CIV-0051) added as proven daughter.
+
+Notable enrichments: P-0006 sibling set expanded (6 siblings); P-0007 naturalidade discrepancy flagged; P-0008 Muriaé appearances (1903/1917/1922); P-0009 children expanded to 6; P-0018 bride particulars from 1975 banns; P-0021/P-0022 three children confirmed; P-0029 children expanded to 7 [PROVEN]; P-0030/P-0031 two additional children (PAR-0078/0079); P-0032/P-0033 minimum 3 children (Teodolina, Hermogenes [PROVEN]); P-0036 infant daughter Isabel added; P-0042/P-0047 children roster completed at 8 surviving; P-0056 seven enslaved persons named from 1867 inventário; P-0057 "morador na Villa Rica" added; P-0092 Azorean origin section added; F-0062 Terceira Gaspar documented.
+
+Gap noted: P-0037 (Maria Joanna da Silva Ferreira) profile not yet synced; P-0046/P-0062 identity mismatches confirmed (different people from research profiles).
+
 ### Added — APM sesmaria sources (GOV-0009/0010/0011) and PRB-0009 certidão extension (2026-09-22)
 
 Full data intake of the 2026-09-19/22 FamilySearch retrieval drop (55 images):

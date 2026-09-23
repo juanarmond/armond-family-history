@@ -329,12 +329,12 @@
 3 QUAY 3
 2 SOUR @CIV0016@
 3 QUAY 3
-1 OCCU doméstica
+1 OCCU costureira
 2 SOUR @CIV0015@
 1 FAMS @F0005@
 1 FAMC @F0014@
 1 NOTE Ahnentafel position 15. Preferred name is "Celina", the spelling used by three primary civil records — her own 1977 death (CIV-0015), her husband's 1970 death (CIV-0014) and Eunir Bohrer's 1924 birth (CIV-0016). "Selina" is preserved as a variant but appears only in the 1949 marriage certificate (CIV-0004) and the owner's family roster (REC-0001). The preferred name was changed from "Selina" to "Celina" on 2026-07-30: her own death record and the weight of civil evidence outweigh the single marriage spelling.
-1 NOTE Died 19 February 1977 at Volta Redonda, RJ, aged 77 (consistent with her 13 May 1899 baptism, PAR-0057), a widow, per her civil death (CIV-0015). Born in Nova Friburgo, RJ ("natural deste Districto", CIV-0016), which resolves the São Leopoldo (RS) "Celina Amalia Bohrer" as a different person. Her parents were Joaquim José Bohrer (P-0030) and Lucinda Ferreira da Silva (P-0031) — family F-0014.
+1 NOTE Died 15 February 1977 at Volta Redonda, RJ, aged 77 (consistent with her 13 May 1899 baptism, PAR-0057), a widow, per her civil death (CIV-0015). Born in Nova Friburgo, RJ ("natural deste Districto", CIV-0016), which resolves the São Leopoldo (RS) "Celina Amalia Bohrer" as a different person. Her parents were Joaquim José Bohrer (P-0030) and Lucinda Ferreira da Silva (P-0031) — family F-0014.
 0 @P0016@ INDI
 1 NAME Simplício José Ferreira /Armond/
 2 GIVN Simplício José Ferreira
@@ -630,7 +630,7 @@
 2 SOUR @PAR0064@
 1 SEX M
 1 BIRT
-2 DATE 14 SEP 1868
+2 DATE 14 NOV 1868
 2 PLAC Nova Friburgo, Rio de Janeiro, Brazil
 2 SOUR @PAR0063@
 3 QUAY 3
@@ -644,7 +644,7 @@
 1 FAMS @F0013@
 1 FAMC @F0034@
 1 NOTE Ahnentafel position 28 — father of João Gonçalves Bohrer (P-0014). Three records of his own are now held: his 1868 Nova Friburgo baptism (PAR-0063, event E-0064), his 1890 Nova Friburgo marriage to Carolina Klein (PAR-0064, event E-0088) and his death record (PAR-0065, event E-0089). He is also named (already deceased) as João's father in his 1970 Volta Redonda death (CIV-0014) and as Eunir Bohrer's paternal grandfather in the 1924 Nova Friburgo birth (CIV-0016).
-1 NOTE Birth ~14 September 1868 at Nova Friburgo, per his own 1868 parish baptism (PAR-0063, baptised ~25 Sep 1868) — which CORRECTS the Imigrantes de Nova Friburgo compilation's "14/11/1868" (PUB-0003, p.301, BORER II tree entry 1.1.7.3): a 14 November date is impossible after a September baptism, so it is superseded. Parent family F-0034 (Vicente Borer × Maria Heggendorn). Both parents are now modelled (P-0070 × P-0071); their parent family F-0033 extends the line to Laurent Borer (P-0068), a Swiss immigrant (Heureux Voyage, 1819, Grindel, Soleure).
+1 NOTE Birth 14 November 1868 at Nova Friburgo, confirmed by his own 1868 parish baptism (PAR-0063, which reads "nascido a quatorze de Novembro", baptised ~25 Nov 1868). The PUB-0003 "14/11/1868" (Imigrantes de Nova Friburgo, p.301, BORER II tree entry 1.1.7.3) is confirmed by the primary record — the earlier reading of "September" from the baptism was an error. Parent family F-0034 (Vicente Borer × Maria Heggendorn). Both parents are now modelled (P-0070 × P-0071); their parent family F-0033 extends the line to Laurent Borer (P-0068), a Swiss immigrant (Heureux Voyage, 1819, Grindel, Soleure).
 0 @P0029@ INDI
 1 NAME Carolina /Bohrer/
 2 GIVN Carolina
@@ -3265,6 +3265,14 @@
 1 FAMC @F0062@
 1 NOTE Documented child, not individually modelled.
 2 SOUR @PUB0005@
+0 @DOCF0062_9@ INDI
+1 NAME Gaspar de Souto-Maior (b.23.12.1657 S.Sebastião per primary baptism register; d.2.12.1727 S.Sebastião; m.2.10.1690 Margarida das Candeias Machado; stayed in Terceira, Armond-line ancestor) [COMPILED — PUB-0005 attests parentage; note: PUB-0005 gives birth as 23.2.1657, likely a compiler transposition of 23.12.1657; parentage also confirmed in his 1690 marriage record naming Belchior × Mariana as parents (primary Terceira parish record); distinct from the modelled P-0092 (Brazil Gaspar), whose identity conflict with the 2.12.1727 S.Sebastião death is unresolved — see P-0092 /notes]/
+2 GIVN Gaspar de Souto-Maior (b.23.12.1657 S.Sebastião per primary baptism register; d.2.12.1727 S.Sebastião; m.2.10.1690 Margarida das Candeias Machado; stayed in Terceira, Armond-line ancestor) [COMPILED — PUB-0005 attests parentage; note: PUB-0005 gives birth as 23.2.1657, likely a compiler transposition of 23.12.1657; parentage also confirmed in his 1690 marriage record naming Belchior × Mariana as parents (primary Terceira parish record); distinct from the modelled P-0092 (Brazil Gaspar), whose identity conflict with the 2.12.1727 S.Sebastião death is unresolved — see P-0092
+2 SURN notes]
+1 SEX U
+1 FAMC @F0062@
+1 NOTE Documented child, not individually modelled.
+2 SOUR @PUB0005@
 0 @DOCF0063_1@ INDI
 1 NAME Baltazar (b.6.11.1612 /S.Sebastião)/
 2 GIVN Baltazar (b.6.11.1612
@@ -4171,6 +4179,7 @@
 1 CHIL @DOCF0062_6@
 1 CHIL @DOCF0062_7@
 1 CHIL @DOCF0062_8@
+1 CHIL @DOCF0062_9@
 1 MARR
 2 DATE 26 SEP 1650
 2 PLAC Santa Bárbara, Terceira, Azores
