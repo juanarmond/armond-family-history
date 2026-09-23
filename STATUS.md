@@ -170,6 +170,7 @@ relationships. Collaborative profiles remain navigation leads only.
     1916; PAR-0003, 1922) — against one 1975 non-relative-informant reading. "Ascendino"
     preserved as a P-0038 name_variant; Alcida added as a documented sister of Luiza
     (P-0013) on F-0018 [STRONG-EVIDENCE].
+18. **OPEN (2026-09-23):** Gaspar Ferreira (P-0092) death-date: PUB-0005 gives d.2.12.1727 S.Sebastião, but P-0092 is placed in Villa Rica, MG, with a son marrying in 1783. The F-0062 Azorean parentage is [COMPILED/LEAD] pending a primary emigration record. See P-0092 and PUB-0005 notes.
 
 Do not resolve a conflict by deleting the weaker version. Preserve every
 material interpretation with its source and confidence.
