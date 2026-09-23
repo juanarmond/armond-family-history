@@ -6,7 +6,7 @@ partners:
 - person_id: P-0124
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
   - PAR-0086
   - PUB-0004
