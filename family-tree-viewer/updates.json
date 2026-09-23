@@ -1,6 +1,37 @@
 {
- "generated": "2026-09-23T12:07:50Z",
+ "generated": "2026-09-23T15:55:00Z",
  "updates": [
+  {
+   "date": "2026-09-23",
+   "kind": "correction",
+   "title": "Correction: Valentim Martinho Bohrer was born on 14 November 1868, not September — the baptism register reads 'nascido a quatorze de Novembro'",
+   "title_pt": "Correção: Valentim Martinho Bohrer nasceu em 14 de novembro de 1868, não em setembro — o registro de batismo lê 'nascido a quatorze de Novembro'",
+   "links": [
+    "P-0028"
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "kind": "correction",
+   "title": "Correction: the family's António Engrácio Filho's given name is Houver — proven from his own signature on a held document",
+   "title_pt": "Correção: o nome completo de António Engrácio Filho da família é Houver — comprovado pela sua própria assinatura num documento em mãos",
+   "links": [
+    "P-0010"
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "kind": "milestone",
+   "title": "Family portraits deepened across all four lines — new sourced details on 26 ancestors including Geraldo Paz Armond, the Bohrer children, and the Muniz grandparents",
+   "title_pt": "Retratos da família aprofundados em todas as quatro linhas — novos detalhes documentados sobre 26 ancestrais, incluindo Geraldo Paz Armond, os filhos Bohrer e os avós Muniz",
+   "links": [
+    "P-0004",
+    "P-0006",
+    "P-0029",
+    "P-0042",
+    "P-0056"
+   ]
+  },
   {
    "date": "2026-09-23",
    "kind": "milestone",
@@ -9,6 +40,36 @@
    "links": [
     "P-0123",
     "P-0124",
+    "P-0092"
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "kind": "document",
+   "title": "Santa Bárbara marriage register — Belchior da Ponte Cardoso × Mariana Fagundes, 26 Sep 1650",
+   "title_pt": "Registo de casamentos de Santa Bárbara — Belchior da Ponte Cardoso × Mariana Fagundes, 26 set. 1650",
+   "primary": "PAR-0086",
+   "links": [
+    "P-0123"
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "kind": "document",
+   "title": "Genealogias da Ilha Terceira, Vol. IV — FAGUNDES section, § 6º (Mendes Forjaz compiler)",
+   "title_pt": "Genealogias da Ilha Terceira, Vol. IV — secção FAGUNDES, § 6º (compilado por Mendes Forjaz)",
+   "primary": "PUB-0004",
+   "links": [
+    "P-0123"
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "kind": "document",
+   "title": "Genealogias da Ilha Terceira, Vol. IX — SOUTO-MAIOR section, § 1º (Mendes Forjaz compiler)",
+   "title_pt": "Genealogias da Ilha Terceira, Vol. IX — secção SOUTO-MAIOR, § 1º (compilado por Mendes Forjaz)",
+   "primary": "PUB-0005",
+   "links": [
     "P-0092"
    ]
   },
@@ -1280,16 +1341,6 @@
   {
    "date": "",
    "kind": "document",
-   "title": "Santa Bárbara marriage register — Belchior da Ponte Cardoso × Mariana Fagundes, 26 Sep 1650",
-   "title_pt": "Registo de casamentos de Santa Bárbara — Belchior da Ponte Cardoso × Mariana Fagundes, 26 set. 1650",
-   "primary": "PAR-0086",
-   "links": [
-    "P-0123"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
    "title": "1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza Balbina de Toledo (wife of Simplício José Ferreira Armond)",
    "title_pt": "Lista de herdeiros de inventário de 1881, em Leopoldina, que nomeia os irmãos Toledo, incluindo Eliza Balbina de Toledo (esposa de Simplício José Ferreira Armond)",
    "primary": "PRB-0001",
@@ -1305,26 +1356,6 @@
    "primary": "PRB-0002",
    "links": [
     "P-0016"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "Genealogias da Ilha Terceira, Vol. IV — FAGUNDES section, § 6º (Mendes Forjaz compiler)",
-   "title_pt": "Genealogias da Ilha Terceira, Vol. IV — secção FAGUNDES, § 6º (compilado por Mendes Forjaz)",
-   "primary": "PUB-0004",
-   "links": [
-    "P-0124"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "Genealogias da Ilha Terceira, Vol. IX — SOUTO-MAIOR section, § 1º (Mendes Forjaz compiler)",
-   "title_pt": "Genealogias da Ilha Terceira, Vol. IX — secção SOUTO-MAIOR, § 1º (compilado por Mendes Forjaz)",
-   "primary": "PUB-0005",
-   "links": [
-    "P-0092"
    ]
   }
  ]
