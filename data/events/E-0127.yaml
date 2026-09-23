@@ -8,14 +8,21 @@ place_text: São Sebastião, Terceira, Azores
 participants:
 - person_id: P-0123
   role: principal
-status: strong-evidence
+status: confirmed
 source_ids:
 - PUB-0005
+- PAR-0088
 notes:
 - text: >-
     Death of Belchior da Ponte Cardoso (P-0123) on 26 June 1687, S. Sebastião, Terceira.
-    Source: Mendes Forjaz Vol. IX (PUB-0005, p.260): "f. em S. Sebastião a 26.6.1687".
-    Compiled — no primary death image held. Footnote 9 in Vol. IX notes that Belchior "Deve
-    ter morrido de repente pois é ele que assina o registo de óbito anterior, lavrado a 6 de
-    Junho" — implying sudden death, as he had signed the previous death register entry just
-    three weeks before his own death.
+    Mendes Forjaz Vol. IX (PUB-0005, p.260): "f. em S. Sebastião a 26.6.1687". Primary
+    death image (PAR-0088, TER-AH-SAOSEBASTIAO-O-1642-1696, p.0068) confirms: margin
+    "Balchios/da Ponte"; main text "Em os [vinte e] seis dios do mes de Junho de mil e seis
+    centos e oitenta e sete anos fale[ceo] Balchios de Ponte Cardo[so]". The date 26 June
+    1687 is an exact match with PUB-0005. Upgraded from strong-evidence to confirmed
+    2026-09-23 on receipt of primary image.
+- text: >-
+    Vol. IX footnote 9 notes that Belchior "Deve ter morrido de repente pois é ele que
+    assina o registo de óbito anterior, lavrado a 6 de Junho" — implying sudden death, as
+    he had signed the previous death register entry just three weeks before his own death.
+    His rank as Alferes de ordenanças is also confirmed in the primary image.

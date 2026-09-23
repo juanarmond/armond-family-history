@@ -13,6 +13,19 @@ New sources: PUB-0004 (Mendes Forjaz, Genealogias da Ilha Terceira Vol.IV), PUB-
 
 Staatsarchiv Solothurn confirmed Erschwil parish holdings searched (bounded negative). FS tree (L85Q-RY2) confirms Beinwil, Canton Solothurn. The 1825 NF marriage register's "Erswill" is a misread of "Beinwil". record-coverage updated; next action is Beinwil parish books.
 
+### Added — S. Sebastião primary records intake + profile sync batch 2 (2026-09-23)
+
+**Terceira S. Sebastião parish intake — 10 new primary sources (PAR-0087–0096):**
+- PAR-0087: Belchior da Ponte Cardoso (P-0123) baptism 1615, S. Sebastião batismos B-1611-1687 p.0037 (2 images); upgrades E-0126 to confirmed; date reads ~9 Jan (PUB-0005 gives 10 Jan — 1-day scribal discrepancy noted)
+- PAR-0088: Belchior's death 26 Jun 1687, S. Sebastião óbitos O-1642-1696 p.0068 (1 image); upgrades E-0127 to confirmed
+- PAR-0089: Mariana Fagundes (P-0124) death 7 Jul 1684, O-1642-1696 p.0062 (1 image); upgrades E-0136 to confirmed
+- PAR-0090–0096: Seven F-0062 children's baptisms held as primary (14 images): Maria 1651 (p.0281), Manuel 1652 (p.0287), António Coelho Souto-Maior 1654 (p.0298), Manuel 1656 (p.0313), Maria 1662 [PROBABLE — child name uncertain] (p.0352), Belchior filho 1664 (p.0365), Isabel de Souto-Maior 1666 [PROVEN with caveat on father name] (p.0379)
+- Santa Bárbara casamentos pp.0097–0099 searched for Pedro × Maria 1598 marriage: **BOUNDED NEGATIVE**; noted in E-0134
+- Toledo inventário: DOC-0059/DOC-0102 reorganised — 1889 audiência (fl61-p1/p2) moved to DOC-0102; DOC-0059 holds 20 pages of the 1867 inventário proper
+
+**Profile sync batch 2 — 28 entities (2026-09-23):**
+Notable corrections: P-0024 (Maria Tertuliana) death status OPEN (not PROVEN) and Rio Claro origin INFERRED (not PROVEN); P-0073 (Elisabetha Borer) death date PROVEN from NF-Catedral Óbito L1 f.82, refuting "10 December 1832" blog variant; P-0103 (Jacob Klein) birth date corrected 16 November → 16 October 1844; P-0119 (Frédéric Rutschmann) origin corrected — Bergöschingen, Klettgau, Baden-Württemberg (not Fribourg/Alsace); P-0104 (Maria Luiza Schenkel) death retracted from "before 1889" to "after 1896". Notable enrichments: P-0014 siblings (9 named), P-0037 (Maria Joanna) NF placement and sibling set, P-0054 heir-6 contest documented, P-0066/P-0067 five-child list from Paracatú (LEAD), P-0070 (Vicente Borer) major upgrade to PROVEN from primary records, P-0100 (Jacob Borer of Grindel) enriched from stub.
+
 ### Corrected/enriched — Profile sync batch, 26 entities (2026-09-23)
 
 Parallel four-agent profile sync covering all major lines. Critical corrections:

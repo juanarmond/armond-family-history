@@ -1,0 +1,81 @@
+schema_version: 1
+id: PAR-0090
+title: >-
+  São Sebastião baptism register — Maria, daughter of Belchior da Ponte Cardoso × Mariana Fagundes, 5 September 1651
+title_pt: >-
+  Registo de baptismos de São Sebastião — Maria, filha de Belchior da Ponte Cardoso × Mariana Fagundes, 5 de setembro de 1651
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+repository:
+  name: Culturacores / Arquivo Regional dos Açores — BPAR Angra do Heroísmo
+  archive_or_registry: >-
+    Livro de baptismos da Paróquia de São Sebastião (Terceira), TER-AH-SAOSEBASTIAO-B-1611-1687
+    (506 pages). Two image pages downloaded via Culturacores probe 2026-09-23:
+    p1 = rec-terceira-ssebastiao-baptismo-maria-ponte-cardoso-1651-p1.jpg (baptism act, p.0281),
+    p2 = rec-terceira-ssebastiao-baptismo-maria-ponte-cardoso-1651-p2.jpg (context/facing page).
+  collection: Paróquia de São Sebastião, Terceira — Livros de Baptismos
+  catalogue_reference: >-
+    TER-AH-SAOSEBASTIAO-B-1611-1687, p.0281; baptism of Maria, daughter of Belchior × Mariana,
+    5 September 1651. Downloaded via Culturacores CDN (Arquivo Regional dos Açores), 2026-09-23.
+access_date: "2026-09-23"
+language: pt-PT
+transcription: >-
+  [Image p1 — baptism act, p.0281, S. Sebastião batismos 1611–1687]
+  Parents: "Belchior da Ponte Cardogo × Mariana Fagueda"
+  Child: Maria
+  Padrinhos: Asceto André Coelho [and unnamed godmother]
+  Date: 5 September 1651
+  [Image p2 — context/facing page of the register]
+transcription_pt: >-
+  [Imagem p1 — assento de baptismo, p.0281, S. Sebastião baptismos 1611–1687]
+  Pais: "Belchior da Ponte Cardogo × Mariana Fagueda"
+  Criança: Maria
+  Padrinhos: Asceto André Coelho [e madrinha não identificada]
+  Data: 5 de setembro de 1651
+  [Imagem p2 — página de contexto/frente do livro de registo]
+abstract: >-
+  Primary parish baptism record for Maria, eldest daughter of Belchior da Ponte Cardoso
+  (P-0123) × Mariana Fagundes (P-0124), baptised 5 September 1651 in São Sebastião,
+  Terceira (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0281). The act names both parents as
+  "Belchior da Ponte Cardogo × Mariana Fagueda" — confirming parentage. Godfather was
+  Asceto André Coelho. This is the earliest documented child of the couple after their
+  1650 marriage. Status: confirmed (primary image, parents legibly named).
+abstract_pt: >-
+  Registo paroquial primário do baptismo de Maria, filha primogénita de Belchior da
+  Ponte Cardoso (P-0123) × Mariana Fagundes (P-0124), baptizada a 5 de setembro de 1651
+  em São Sebastião, Terceira (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0281). O assento nomeia
+  ambos os pais como "Belchior da Ponte Cardogo × Mariana Fagueda" — confirmando a
+  filiação. Padrinho: Asceto André Coelho. Trata-se do primeiro filho documentado do
+  casal após o casamento de 1650. Estado: confirmado (imagem primária, pais legíveis).
+reliability:
+  assessment: >-
+    Primary source (original parish baptism register). Both parents' names are legible in
+    the act. The date 5 September 1651 is consistent with Vol. IX (PUB-0005, p.260).
+    Evidence quality: confirmed.
+  informant: Parish priest of São Sebastião, Terceira, recording the baptism in 1651
+  limitations: >-
+    Image p2 is a context page only. Godmother's name is not recorded in the extracted
+    text. Resolution: 612×842 px per page.
+digital_file:
+  path: evidence/parish/PAR-0090-baptismo-maria-ponte-cardoso-1651-p1.jpg
+  sha256: c9f9dc752c20dffa642212d948483bc02d1edcf5443630cf01fafdbc96dd87d0
+additional_pages:
+- path: evidence/parish/PAR-0090-baptismo-maria-ponte-cardoso-1651-p2.jpg
+  sha256: c26b556272ef50f83ee9a15c01eae33f45857ec3732d59ba77dd9f8dca714f2a
+linked_people:
+- P-0123
+- P-0124
+linked_families:
+- F-0062
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    This Maria (b.5.9.1651) is the first documented child of Belchior × Mariana after
+    their September 1650 marriage (PAR-0086). She is recorded as a documented_child in
+    F-0062. Not to be confused with the second Maria (b.~18.5.1662, PAR-0094).

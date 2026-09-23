@@ -1,0 +1,85 @@
+schema_version: 1
+id: PAR-0092
+title: >-
+  São Sebastião baptism register — António Coelho Souto-Maior, son of Belchior da Ponte Cardoso × Mariana Fagundes, 12 March 1654
+title_pt: >-
+  Registo de baptismos de São Sebastião — António Coelho Souto-Maior, filho de Belchior da Ponte Cardoso × Mariana Fagundes, 12 de março de 1654
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+repository:
+  name: Culturacores / Arquivo Regional dos Açores — BPAR Angra do Heroísmo
+  archive_or_registry: >-
+    Livro de baptismos da Paróquia de São Sebastião (Terceira), TER-AH-SAOSEBASTIAO-B-1611-1687
+    (506 pages). Two image pages downloaded via Culturacores probe 2026-09-23:
+    p1 = rec-terceira-ssebastiao-baptismo-antonio-soutomaior-1654-p1.jpg (baptism act, p.0298),
+    p2 = rec-terceira-ssebastiao-baptismo-antonio-soutomaior-1654-p2.jpg (context/facing page).
+  collection: Paróquia de São Sebastião, Terceira — Livros de Baptismos
+  catalogue_reference: >-
+    TER-AH-SAOSEBASTIAO-B-1611-1687, p.0298; baptism of António Coelho Souto-Maior,
+    son of Belchior × Mariana, 12 March 1654. Downloaded via Culturacores CDN, 2026-09-23.
+access_date: "2026-09-23"
+language: pt-PT
+transcription: >-
+  [Image p1 — baptism act, p.0298, S. Sebastião batismos 1611–1687]
+  Parents: "Belchior da Ponte × mariAna Faguedes"
+  Child: António Coelho Souto-Maior
+  Padrinho: [?] Cardos da Ponte [uncertain read]
+  Date: 12 March 1654
+  [Image p2 — context/facing page of the register]
+transcription_pt: >-
+  [Imagem p1 — assento de baptismo, p.0298, S. Sebastião baptismos 1611–1687]
+  Pais: "Belchior da Ponte × mariAna Faguedes"
+  Criança: António Coelho Souto-Maior
+  Padrinho: [?] Cardos da Ponte [leitura incerta]
+  Data: 12 de março de 1654
+  [Imagem p2 — página de contexto/frente do livro de registo]
+abstract: >-
+  Primary parish baptism record for António Coelho Souto-Maior, son of Belchior da Ponte
+  Cardoso (P-0123) × Mariana Fagundes (P-0124), baptised 12 March 1654 in São Sebastião,
+  Terceira (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0298). The act names both parents as
+  "Belchior da Ponte × mariAna Faguedes". Vol. IX (PUB-0005) notes António Coelho
+  Souto-Maior "que segue in Vol. IX § 1º", meaning he continued a separate line documented
+  by Mendes Forjaz. The child's compound surname (Coelho Souto-Maior) likely reflects the
+  name of his godfather's family. Status: confirmed.
+abstract_pt: >-
+  Registo paroquial primário do baptismo de António Coelho Souto-Maior, filho de Belchior
+  da Ponte Cardoso (P-0123) × Mariana Fagundes (P-0124), baptizado a 12 de março de 1654
+  em São Sebastião, Terceira (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0298). O assento nomeia
+  ambos os pais como "Belchior da Ponte × mariAna Faguedes". O Vol. IX (PUB-0005) refere
+  António Coelho Souto-Maior como "que segue in Vol. IX § 1º", indicando que continuou uma
+  linha separada documentada por Mendes Forjaz. O apelido composto (Coelho Souto-Maior) do
+  filho reflecte provavelmente o nome da família do padrinho. Estado: confirmado.
+reliability:
+  assessment: >-
+    Primary source (original parish baptism register). Both parents' names are legible.
+    The date 12 March 1654 is consistent with PUB-0005. The padrinho name "[?] Cardos da
+    Ponte" is an uncertain read. Evidence quality: confirmed.
+  informant: Parish priest of São Sebastião, Terceira, recording the baptism in 1654
+  limitations: >-
+    Padrinho's given name is uncertain. Image p2 is a context page only.
+    Resolution: 612×842 px per page.
+digital_file:
+  path: evidence/parish/PAR-0092-baptismo-antonio-coelho-soutomaior-1654-p1.jpg
+  sha256: 5000da8ce92d4e3e0a2aa26d3c0c0bdb1c133fe9acd7ba499bbe8fa4095eff2f
+additional_pages:
+- path: evidence/parish/PAR-0092-baptismo-antonio-coelho-soutomaior-1654-p2.jpg
+  sha256: 9bef43f24bc692d8171d8b7071fd069f755535da3a5cf08816c99b37db8e9d88
+linked_people:
+- P-0123
+- P-0124
+linked_families:
+- F-0062
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    The child's full name "António Coelho Souto-Maior" incorporates the Coelho surname
+    (godfather's family) and Souto-Maior (the ancestral maternal line of the Ponte Cardoso
+    kindred — see PAR-0088 note). The vicar at Mariana's death (PAR-0089) was "Antônio
+    Coelho Sotomayor", suggesting a kin connection between the vicar's family and this
+    child's naming.

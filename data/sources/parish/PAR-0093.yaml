@@ -1,0 +1,84 @@
+schema_version: 1
+id: PAR-0093
+title: >-
+  São Sebastião baptism register — Manuel, son of Belchior da Ponte Cardoso × Mariana Fagundes, 16 January 1656
+title_pt: >-
+  Registo de baptismos de São Sebastião — Manuel, filho de Belchior da Ponte Cardoso × Mariana Fagundes, 16 de janeiro de 1656
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+repository:
+  name: Culturacores / Arquivo Regional dos Açores — BPAR Angra do Heroísmo
+  archive_or_registry: >-
+    Livro de baptismos da Paróquia de São Sebastião (Terceira), TER-AH-SAOSEBASTIAO-B-1611-1687
+    (506 pages). Two image pages downloaded via Culturacores probe 2026-09-23:
+    p1 = rec-terceira-ssebastiao-baptismo-manuel-ponte-cardoso-1656-p1.jpg (baptism act, p.0313),
+    p2 = rec-terceira-ssebastiao-baptismo-manuel-ponte-cardoso-1656-p2.jpg (context/facing page).
+  collection: Paróquia de São Sebastião, Terceira — Livros de Baptismos
+  catalogue_reference: >-
+    TER-AH-SAOSEBASTIAO-B-1611-1687, p.0313; baptism of Manuel, son of Belchior × Mariana,
+    16 January 1656. Downloaded via Culturacores CDN (Arquivo Regional dos Açores), 2026-09-23.
+access_date: "2026-09-23"
+language: pt-PT
+transcription: >-
+  [Image p1 — baptism act, p.0313, S. Sebastião batismos 1611–1687]
+  Parents: "Belchior [da Ponte] Cardoso × morsarana [=Mariana]"
+  Child: Manuel
+  Date: 16 January 1656
+  Note: "morsarana" is a phonetic scribal rendition of "Mariana"
+  [Image p2 — context/facing page of the register]
+transcription_pt: >-
+  [Imagem p1 — assento de baptismo, p.0313, S. Sebastião baptismos 1611–1687]
+  Pais: "Belchior [da Ponte] Cardoso × morsarana [=Mariana]"
+  Criança: Manuel
+  Data: 16 de janeiro de 1656
+  Nota: "morsarana" é uma representação fonética scribal de "Mariana"
+  [Imagem p2 — página de contexto/frente do livro de registo]
+abstract: >-
+  Primary parish baptism record for Manuel, second son of that name born to Belchior da
+  Ponte Cardoso (P-0123) × Mariana Fagundes (P-0124), baptised 16 January 1656 in São
+  Sebastião, Terceira (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0313). The act names the father
+  as "Belchior [da Ponte] Cardoso" and the mother is rendered as "morsarana" (a phonetic
+  scribal variant of Mariana). Consistent with Vol. IX (PUB-0005, p.260), which records him
+  as dying solteiro (unmarried). Status: confirmed.
+abstract_pt: >-
+  Registo paroquial primário do baptismo de Manuel, segundo filho com esse nome nascido de
+  Belchior da Ponte Cardoso (P-0123) × Mariana Fagundes (P-0124), baptizado a 16 de janeiro
+  de 1656 em São Sebastião, Terceira (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0313). O assento
+  nomeia o pai como "Belchior [da Ponte] Cardoso" e a mãe é registada como "morsarana"
+  (variante scribal fonética de Mariana). Consistente com o Vol. IX (PUB-0005, p.260), que
+  o regista como falecido solteiro. Estado: confirmado.
+reliability:
+  assessment: >-
+    Primary source (original parish baptism register). Father's name is legible. The
+    mother's name "morsarana" is a scribal phonetic rendering of Mariana; this is
+    consistent with other São Sebastião register idiosyncrasies and is not an uncertainty
+    about the person's identity. Evidence quality: confirmed.
+  informant: Parish priest of São Sebastião, Terceira, recording the baptism in 1656
+  limitations: >-
+    Mother's name rendered phonetically as "morsarana"; confirmed as Mariana by context
+    (same parents across multiple register entries). Image p2 is a context page only.
+    Resolution: 612×842 px per page.
+digital_file:
+  path: evidence/parish/PAR-0093-baptismo-manuel-ponte-cardoso-1656-p1.jpg
+  sha256: 50b08e53721923430d3f667dd305fa7f87ec410c196027229ebe8ca1950576f2
+additional_pages:
+- path: evidence/parish/PAR-0093-baptismo-manuel-ponte-cardoso-1656-p2.jpg
+  sha256: ba884350dbb0f41f76e89d8e2b4f0f755a505b12bed5cf7835abe97fcb2e5d2c
+linked_people:
+- P-0123
+- P-0124
+linked_families:
+- F-0062
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    This is the second child named Manuel (b.16.1.1656); the first Manuel was born
+    13.10.1652 (PAR-0091). The earlier Manuel may have died in infancy (no óbito record
+    held), prompting the name reuse. Vol. IX (PUB-0005) records this Manuel as dying
+    solteiro.

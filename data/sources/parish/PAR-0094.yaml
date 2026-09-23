@@ -1,0 +1,100 @@
+schema_version: 1
+id: PAR-0094
+title: >-
+  São Sebastião baptism register — Maria(?), daughter of Belchior da Ponte Cardoso × Mariana Fagundes, ~18 May 1662 [child name uncertain]
+title_pt: >-
+  Registo de baptismos de São Sebastião — Maria(?), filha de Belchior da Ponte Cardoso × Mariana Fagundes, ~18 de maio de 1662 [nome da criança incerto]
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+repository:
+  name: Culturacores / Arquivo Regional dos Açores — BPAR Angra do Heroísmo
+  archive_or_registry: >-
+    Livro de baptismos da Paróquia de São Sebastião (Terceira), TER-AH-SAOSEBASTIAO-B-1611-1687
+    (506 pages). Two image pages downloaded via Culturacores probe 2026-09-23:
+    p1 = rec-terceira-ssebastiao-baptismo-maria-ponte-cardoso-1662-p1.jpg (baptism act, p.0352),
+    p2 = rec-terceira-ssebastiao-baptismo-maria-ponte-cardoso-1662-p2.jpg (context/facing page).
+    Note: images at lower CDN resolution (383×527 px) — child name is uncertain at this resolution.
+  collection: Paróquia de São Sebastião, Terceira — Livros de Baptismos
+  catalogue_reference: >-
+    TER-AH-SAOSEBASTIAO-B-1611-1687, p.0352; baptism of a child of Belchior × Mariana,
+    ~18 May 1662. Downloaded via Culturacores CDN (Arquivo Regional dos Açores), 2026-09-23.
+access_date: "2026-09-23"
+language: pt-PT
+transcription: >-
+  [Image p1 — baptism act, p.0352, S. Sebastião batismos 1611–1687]
+  Legible content: "maio … sessenta e dous … da Ponte Cardogo"
+  [Margin annotation:] "Anto" (possibly António, or abbreviated form of another name)
+  ⚠ Child's name uncertain at CDN resolution (383×527 px): margin label reads "Anto"
+    which could be António or an abbreviation of another name. Vol. IX (PUB-0005)
+    records a Maria (b.~18.5.1662) for this couple; the "Anto" margin may be a truncated
+    form or the record may pertain to a different child or name variant.
+  Parents: "da Ponte Cardogo" [= Belchior da Ponte Cardoso × Mariana Fagundes, by context]
+  Date: ~18 May 1662 (month "maio" and year "sessenta e dous" = 1662 are legible)
+  [Image p2 — context/facing page of the register]
+transcription_pt: >-
+  [Imagem p1 — assento de baptismo, p.0352, S. Sebastião baptismos 1611–1687]
+  Conteúdo legível: "maio … sessenta e dous … da Ponte Cardogo"
+  [Anotação marginal:] "Anto" (possivelmente António, ou forma abreviada de outro nome)
+  ⚠ Nome da criança incerto à resolução CDN (383×527 px): a margem lê "Anto",
+    que pode ser António ou abreviatura de outro nome. O Vol. IX (PUB-0005) regista uma
+    Maria (n.~18.5.1662) para este casal; o "Anto" na margem pode ser forma truncada ou
+    o registo pode pertencer a uma criança diferente ou variante do nome.
+  Pais: "da Ponte Cardogo" [= Belchior da Ponte Cardoso × Mariana Fagundes, por contexto]
+  Data: ~18 de maio de 1662 (mês "maio" e ano "sessenta e dous" = 1662 são legíveis)
+  [Imagem p2 — página de contexto/frente do livro de registo]
+abstract: >-
+  Primary parish baptism record for a child of Belchior da Ponte Cardoso (P-0123) ×
+  Mariana Fagundes (P-0124), located at p.0352 of TER-AH-SAOSEBASTIAO-B-1611-1687.
+  The parents are identifiable as "da Ponte Cardogo" and the approximate date (~18 May
+  1662) matches Vol. IX (PUB-0005). However, the child's name is uncertain at the CDN
+  image resolution (383×527 px): the margin annotation reads "Anto" rather than "Maria",
+  creating an unresolved discrepancy with PUB-0005's listing of a "Maria" for this date.
+  Status: strong-evidence (parentage and approximate date confirmed, child name uncertain —
+  [PROBABLE] match). A higher-resolution rescan would resolve the name discrepancy.
+abstract_pt: >-
+  Registo paroquial primário do baptismo de uma criança de Belchior da Ponte Cardoso
+  (P-0123) × Mariana Fagundes (P-0124), localizado na p.0352 de TER-AH-SAOSEBASTIAO-B-1611-1687.
+  Os pais identificam-se como "da Ponte Cardogo" e a data aproximada (~18 de maio de 1662)
+  corresponde ao Vol. IX (PUB-0005). Porém, o nome da criança é incerto à resolução CDN
+  (383×527 px): a anotação marginal lê "Anto" em vez de "Maria", criando uma discrepância
+  não resolvida com o registo de uma "Maria" para esta data em PUB-0005. Estado:
+  strong-evidence (filiação e data aproximada confirmadas, nome da criança incerto —
+  [PROBABLE]). Um rescan de maior resolução resolveria a discrepância.
+reliability:
+  assessment: >-
+    Primary source (original parish baptism register). Parentage ("da Ponte Cardogo") and
+    approximate date (May 1662) are legible. The child's name is uncertain at the delivered
+    image resolution: margin reads "Anto" vs. PUB-0005's "Maria". Assessment: probable
+    match for the Maria (b.~18.5.1662) in the compiled source, but name cannot be confirmed
+    from this image. Evidence quality: strong-evidence.
+  informant: Parish priest of São Sebastião, Terceira, recording the baptism in 1662
+  limitations: >-
+    Reduced CDN resolution (383×527 px) limits legibility. The child's name is uncertain —
+    "Anto" in the margin may be António or truncated. A higher-resolution scan from BPAR
+    Angra is needed to confirm the child's name. Image p2 is a context page only.
+digital_file:
+  path: evidence/parish/PAR-0094-baptismo-maria-ponte-cardoso-1662-p1.jpg
+  sha256: de4eb3fb709b70545e28de8804470e5e21279340c86d739975d65e7be42404d1
+additional_pages:
+- path: evidence/parish/PAR-0094-baptismo-maria-ponte-cardoso-1662-p2.jpg
+  sha256: 7d12c238c98c9dfddac037fef71a2c9e04160a781a33da8163e3c473b5490d14
+linked_people:
+- P-0123
+- P-0124
+linked_families:
+- F-0062
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    ⚠ OPEN QUESTION: The margin annotation reads "Anto" not "Maria". Vol. IX (PUB-0005)
+    records a Maria (b.~18.5.1662). Possible interpretations: (a) "Anto" is an abbreviated
+    form of a longer name, truncated at the binding edge; (b) the child was baptised with
+    a different name than recorded in the compilation; (c) this is a sibling record and the
+    5th child with a different name entirely. Route to resolve: request higher-resolution
+    scan from BPAR Angra (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0352).

@@ -526,6 +526,10 @@ additional_pages:
   sha256: 37aa339e0d30987018512c82bc4022ab4b3ec403a40ed18fba9d0e25c780face
 - path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1881-audiencia-ago-fl186-p4.jpg
   sha256: 898642a0e1a52fd51a3ffc2a447113e2705bd0cbc49beb88a6c4296701d66224
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1889-audiencia-jc-partilha-fl61-p1.jpg
+  sha256: b78767886689b4de4950709ffec252449a55e3539560ec67f89966a2d5356177
+- path: evidence/probate/PRB-0009-ladislao-toledo-inventario-1889-audiencia-jc-partilha-fl61-p2.jpg
+  sha256: 85467621accf8aae848374491e416293525368af983a67266939c52d12842c81
 linked_people:
 - P-0056
 - P-0027
@@ -634,3 +638,15 @@ notes:
     1880 (fl.136–137) and August 1881 (fl.185–186) audiências are now fully catalogued (4 images
     each). The earlier embargos supplement image (PRB-0009-ladislao-toledo-inventario-1881-embargos-audiencia.jpg)
     was a partial crop of folio 185; the four fl.185–186 images now supersede it as the complete set.
+- text: >-
+    1889 AUDIÊNCIA JC PARTILHA (folio 61, 2 images promoted 2026-09-23). A "Termo de audiência" of
+    29 [month] 1889 at Leopoldina, within the Ladisláo estate autos, recording the formal accusation
+    of citations served on the heirs of José Cesário de Toledo for the partilha proceedings.
+    Presiding: Coronel Joaquim António de Almeida e Gama, Juíz Substituto Municipal e de Orfhãos.
+    The citations were served by the porteiro Rubeiro, and the pregados went unacknowledged; the
+    judge declared the parties cited and ordered the mandado + carta tutoria joined to the autos, then
+    passed them to the Doutor Curador for the next step before the conclusão for the partilha
+    deliberation. Attestation by "Juíz de Ordêts Pacheco Escrivão." A "Juntara" entry on the same
+    date records the attachment of the referenced carta. These pages are the late-stage partition
+    hearing for JC's sub-heirs within the Ladisláo estate proceedings; they follow the 1881
+    certidão dos herdeiros (fl.180–182) that established who those heirs were.

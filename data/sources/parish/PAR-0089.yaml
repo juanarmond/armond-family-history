@@ -1,0 +1,97 @@
+schema_version: 1
+id: PAR-0089
+title: >-
+  São Sebastião death register — Mariana Fagundes, 7 July 1684
+title_pt: >-
+  Registo de óbitos de São Sebastião — Mariana Fagundes, 7 de julho de 1684
+record_type: Parish death register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+repository:
+  name: Culturacores / Arquivo Regional dos Açores — BPAR Angra do Heroísmo
+  archive_or_registry: >-
+    Livro de óbitos da Paróquia de São Sebastião (Terceira), TER-AH-SAOSEBASTIAO-O-1642-1696.
+    One image page downloaded via Culturacores probe 2026-09-23:
+    p1 = rec-terceira-ssebastiao-obito-mariana-fagundes-1684-p1.jpg (death act, p.0062).
+  collection: Paróquia de São Sebastião, Terceira — Livros de Óbitos
+  catalogue_reference: >-
+    TER-AH-SAOSEBASTIAO-O-1642-1696, p.0062; death of Mariana Fagundes, 7 July 1684.
+    Downloaded via Culturacores CDN (Arquivo Regional dos Açores), 2026-09-23.
+access_date: "2026-09-23"
+language: pt-PT
+transcription: >-
+  [Image p1 — death act, p.0062, S. Sebastião óbitos 1642–1696]
+  [Margin annotation:] "Mariana / Fags"
+  [Main text:] "Em os sete dios do mes de julho de mil seis centos e oitenta e quatro anos
+  fale Cao Mariana Fagundes [mulher] de M° Balchion de Ponte"
+  [Burial:] sepultura da fabrica segunda fiada nona
+  [Officiant:] Vicar Antônio Coelho Sotomayor
+  [Date:] 7 July 1684 — exact match with Vol. IV (PUB-0004) and Vol. IX (PUB-0005)
+transcription_pt: >-
+  [Imagem p1 — assento de óbito, p.0062, S. Sebastião óbitos 1642–1696]
+  [Anotação marginal:] "Mariana / Fags"
+  [Texto principal:] "Em os sete dios do mes de julho de mil seis centos e oitenta e quatro
+  anos fale Cao Mariana Fagundes [mulher] de M° Balchion de Ponte"
+  [Sepultura:] sepultura da fabrica segunda fiada nona
+  [Officiante:] Vigário Antônio Coelho Sotomayor
+  [Data:] 7 de julho de 1684 — correspondência exacta com Vol. IV (PUB-0004) e Vol. IX (PUB-0005)
+abstract: >-
+  Primary parish death record for Mariana Fagundes (P-0124), died 7 July 1684 in São
+  Sebastião, Terceira. The marginal index annotation reads "Mariana / Fags" (= Mariana
+  Fagundes) and the main text records: "Em os sete dios do mes de julho de mil seis centos
+  e oitenta e quatro anos fale Cao Mariana Fagundes [mulher] de M° Balchion de Ponte."
+  The record identifies her as the wife of "M° Balchion de Ponte" (= Belchior da Ponte
+  Cardoso, P-0123). She was buried in the sepultura da fabrica segunda fiada nona. The
+  death date 7 July 1684 is an exact match for both PUB-0004 and PUB-0005. This primary
+  image upgrades E-0136 from strong-evidence to confirmed. Officiating vicar was Antônio
+  Coelho Sotomayor.
+abstract_pt: >-
+  Registo paroquial primário do óbito de Mariana Fagundes (P-0124), falecida a 7 de julho
+  de 1684 em São Sebastião, Terceira. A anotação marginal de índice lê "Mariana / Fags"
+  (= Mariana Fagundes) e o texto principal regista: "Em os sete dios do mes de julho de
+  mil seis centos e oitenta e quatro anos fale Cao Mariana Fagundes [mulher] de M° Balchion
+  de Ponte." O registo identifica-a como mulher de "M° Balchion de Ponte" (= Belchior da
+  Ponte Cardoso, P-0123). Sepultada na sepultura da fabrica segunda fiada nona. A data de
+  óbito 7 de julho de 1684 corresponde exactamente a PUB-0004 e PUB-0005. Esta imagem
+  primária actualiza E-0136 de strong-evidence para confirmed. O vigário officiante foi
+  Antônio Coelho Sotomayor.
+reliability:
+  assessment: >-
+    Primary source (original parish death register). The marginal annotation names "Mariana
+    Fags" and the main entry reads the day (7), month (July) and year (1684) in full —
+    exact match with PUB-0004 and PUB-0005. The identification of Mariana as wife of
+    "M° Balchion de Ponte" (a consistent scribal variant of Belchior da Ponte Cardoso)
+    confirms the marriage relationship. The burial location (sepultura da fabrica) is new
+    detail not provided by the compiled sources. Evidence quality: confirmed.
+  informant: Vicar Antônio Coelho Sotomayor, São Sebastião, Terceira, recording the death in 1684
+  limitations: >-
+    Some text is partially legible (indicated by square brackets). Single image page held;
+    no context page. The reference to "M° Balchion de Ponte" uses the scribal abbreviation
+    "M°" (possibly "Marido°" = husband or simply an honorific/title abbreviation).
+    Resolution: 1299×944 px.
+digital_file:
+  path: evidence/parish/PAR-0089-obito-mariana-fagundes-1684-p1.jpg
+  sha256: 591bf9b5e728d44c1ccbf3e8c1e2d5cdfc8cfcbbd50a92219867acd7ec23d42a
+additional_pages: []
+linked_people:
+- P-0124
+- P-0123
+linked_families:
+- F-0062
+linked_events:
+- E-0136
+linked_places: []
+private: false
+notes:
+- text: >-
+    The death record identifies Mariana as "mulher de M° Balchion de Ponte", confirming
+    her marriage to Belchior da Ponte Cardoso (P-0123). The vicar Antônio Coelho Sotomayor
+    is noted — this name echoes the surname of the child António Coelho Souto-Maior
+    (baptised 1654, PAR-0092), which Vol. IX notes was named after the family's kin
+    connection to the Coelho Sotomayor line.
+- text: >-
+    Burial in the sepultura da fabrica (church fabric/building burial plot) is a detail
+    absent from the compiled sources and confirms the family's standing in the parish.

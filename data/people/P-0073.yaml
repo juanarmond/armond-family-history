@@ -95,9 +95,14 @@ profile: >-
   - **Emigration:** arrived Nova Friburgo in 1819 aboard the *Heureux Voyage* with her
   husband's household.
 
-  - **Death:** 10 October 1832, Nova Friburgo (PUB-0003, strong-evidence; E-0067) —
-  about thirteen years after arrival. A blog gives 10 December 1832; our repository does
-  not adopt it. [LEAD]
+  - **Death:** **10 October 1832**, Nova Friburgo — [PROVEN 2026-09-10] from the held
+  NF-Catedral óbito (Óbito L1 f.82; E-0067): recorded as "Ysabel Verly, viúva de Jacob
+  Verly, natural do Cantão de Soleure, de idade de setenta e dois annos" (Vigário Jacob
+  Joye); buried "cemeterio do Nº 61" — the same cemetery lot as her husband Johann Jacob
+  Wehrli (who predeceased her in 1827, Óbito L1 f.65). The Raibert-blog "10 December
+  1832" is definitively refuted — the register reads "outobro" (October). Age 72 → b.~1760,
+  consistent with the held Erschwil baptism (PAR-0028). She is entered under her married
+  name "Ysabel Verly / Wehrli"; no parents are named in the death act.
 
   ## Family and social network
 
@@ -128,23 +133,30 @@ profile: >-
   was: the 1816 "Year Without a Summer" famine plus post-Napoleonic poverty made staying
   worse than a crossing that reportedly killed about a quarter of the colonists. Her
   family left no elite behind and arrived as none — it converted land-hunger into a poor
-  Nova Friburgo colony lot (Casa 73 / Lote 86), the bottom-but-landed rung from which the
+  Nova Friburgo colony lot (Lote 73 / Casa 86), the bottom-but-landed rung from which the
   entire Borer/Bohrer socioeconomic arc begins — the structural mirror image of the
   family's Armond line, which began from an office-and-marriage elite and fell.
 
   ## Open questions
 
-  - Her **Nova Friburgo death record (1832)** would settle the 10 October vs 10 December
-  question; her **parents' own parents** would come from the Erschwil registers (and the
-  Thierstein district *Inventar- und Teilungen*). [OPEN]
+  - ✅ Her **Nova Friburgo death record** — now HELD and PROVEN (Óbito L1 f.82, 10 Oct
+  1832; see Death above). The October/December question is settled. [RESOLVED]
+
+  - Her **parents' own parents** would come from the Erschwil registers (and the
+  Thierstein district *Inventar- und Teilungen* — FHC/affiliate-gated; see notes on
+  the Joseph × Anna Maria vs Joannes × Elisabeth FS-tree conflict). [OPEN]
 
   ## Sources held (this repository)
 
   - PAR-0028 (Erschwil baptism register — her 1760 baptism and her parents) · PAR-0029
   (Grindel marriage register — her 1782 marriage).
 
-  - PUB-0003 (*Imigrantes de Nova Friburgo* / Casa Suíça database) — emigration and 1832
-  death.
+  - PUB-0003 (*Imigrantes de Nova Friburgo* / Casa Suíça database) — emigration context.
+
+  - NF-Catedral Óbito L1 f.82 (her own 1832 Nova Friburgo death — 10 Oct 1832, 'Ysabel
+  Verly, viúva de Jacob Verly', age 72, Cantão de Soleure, buried 'cemeterio do Nº 61';
+  E-0067 now PROVEN). Supersedes PUB-0003 for the death and refutes the December blog
+  variant.
 
   ## Regional and migration context
 
@@ -204,9 +216,14 @@ profile_pt: >-
   - **Emigração:** chegou a Nova Friburgo em 1819 no *Heureux Voyage* com o domicílio do
   marido.
 
-  - **Óbito:** 10 de outubro de 1832, Nova Friburgo (PUB-0003, evidência forte; E-0067) —
-  cerca de treze anos após a chegada. Um blog dá 10 de dezembro de 1832; nosso repositório
-  não o adota. [LEAD]
+  - **Óbito:** **10 de outubro de 1832**, Nova Friburgo — [PROVEN 2026-09-10] a partir do
+  óbito/sepultamento retido da NF-Catedral (Óbito L1 f.82; E-0067): registrada como "Ysabel
+  Verly, viúva de Jacob Verly, natural do Cantão de Soleure, de idade de setenta e dois
+  annos" (Vigário Jacob Joye); sepultada no "cemeterio do Nº 61" — o mesmo lote do marido
+  Johann Jacob Wehrli (que a precedeu em 1827, Óbito L1 f.65). A variante do blog Raibert
+  "10 de dezembro de 1832" é definitivamente refutada — o assento lê "outobro" (outubro).
+  Idade 72 → b.~1760, coerente com o batismo de Erschwil retido (PAR-0028). Inscrita sob o
+  nome de casada "Ysabel Verly / Wehrli"; pais não nomeados no assento de óbito.
 
   ## Família e rede social
 
@@ -237,24 +254,32 @@ profile_pt: >-
   1819, mede quão forte foi o empurrão: a fome do "Ano Sem Verão" de 1816 somada à pobreza
   pós-napoleônica tornou ficar pior do que uma travessia que teria matado cerca de um
   quarto dos colonos. Sua família não deixou elite para trás e chegou como nenhuma —
-  converteu a escassez de terra em um pobre lote de colônia em Nova Friburgo (Casa 73 /
-  Lote 86), o degrau no-fundo-mas-com-terra de onde parte todo o arco socioeconômico
+  converteu a escassez de terra em um pobre lote de colônia em Nova Friburgo (Lote 73 /
+  Casa 86), o degrau no-fundo-mas-com-terra de onde parte todo o arco socioeconômico
   Borer/Bohrer — o inverso estrutural da linha Armond da família, que partiu de uma elite
   de ofício e casamento e caiu.
 
   ## Questões em aberto
 
-  - Seu **registro de óbito em Nova Friburgo (1832)** resolveria a questão 10 de outubro
-  vs 10 de dezembro; os **pais de seus próprios pais** viriam dos registros de Erschwil (e
-  do *Inventar- und Teilungen* do distrito de Thierstein). [OPEN]
+  - ✅ Seu **registro de óbito em Nova Friburgo** — agora RETIDO e PROVEN (Óbito L1 f.82,
+  10 out. 1832; ver Óbito acima). A questão outubro/dezembro está resolvida. [RESOLVED]
+
+  - Os **pais de seus próprios pais** viriam dos registros de Erschwil (e do *Inventar- und
+  Teilungen* do distrito de Thierstein — restrito ao FHC/afiliado; ver nota sobre o
+  conflito Joseph × Anna Maria vs Joannes × Elisabeth na árvore FS). [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
   - PAR-0028 (registro de batismo de Erschwil — seu batismo de 1760 e seus pais) ·
   PAR-0029 (registro de casamento de Grindel — seu casamento de 1782).
 
-  - PUB-0003 (*Imigrantes de Nova Friburgo* / banco de dados da Casa Suíça) — emigração e
-  óbito de 1832.
+  - PUB-0003 (*Imigrantes de Nova Friburgo* / banco de dados da Casa Suíça) — contexto de
+  emigração.
+
+  - NF-Catedral Óbito L1 f.82 (seu próprio óbito de 1832 em Nova Friburgo — 10 out. 1832,
+  "Ysabel Verly, viúva de Jacob Verly", 72 anos, Cantão de Soleure, sepultada no
+  "cemeterio do Nº 61"; E-0067 agora PROVEN). Supera PUB-0003 para o óbito e refuta a
+  variante do blog de dezembro.
 
   ## Contexto regional e migratório
 

@@ -1,6 +1,19 @@
 {
- "generated": "2026-09-23T15:55:00Z",
+ "generated": "2026-09-23T16:38:52Z",
  "updates": [
+  {
+   "date": "2026-09-23",
+   "kind": "milestone",
+   "title": "Primary baptism and death records found for Belchior da Ponte Cardoso (b. 1615) and his family — seven of his children's baptisms are now confirmed from the original São Sebastião registers",
+   "title_pt": "Registros primários de batismo e óbito encontrados para Belchior da Ponte Cardoso (n. 1615) e sua família — o batismo de sete de seus filhos está agora confirmado nos registros originais de São Sebastião",
+   "links": [
+    "P-0123",
+    "P-0124",
+    "PAR-0087",
+    "PAR-0088",
+    "PAR-0089"
+   ]
+  },
   {
    "date": "2026-09-23",
    "kind": "correction",
@@ -1336,6 +1349,76 @@
    "primary": "PAR-0001",
    "links": [
     "P-0019"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "São Sebastião baptism register — Maria, daughter of Belchior da Ponte Cardoso × Mariana Fagundes, 5 September 1651",
+   "title_pt": "Registo de baptismos de São Sebastião — Maria, filha de Belchior da Ponte Cardoso × Mariana Fagundes, 5 de setembro de 1651",
+   "primary": "PAR-0090",
+   "links": [
+    "P-0123"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "São Sebastião baptism register — Manuel, son of Belchior da Ponte Cardoso × Mariana Fagundes, 13 October 1652",
+   "title_pt": "Registo de baptismos de São Sebastião — Manuel, filho de Belchior da Ponte Cardoso × Mariana Fagundes, 13 de outubro de 1652",
+   "primary": "PAR-0091",
+   "links": [
+    "P-0123"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "São Sebastião baptism register — António Coelho Souto-Maior, son of Belchior da Ponte Cardoso × Mariana Fagundes, 12 March 1654",
+   "title_pt": "Registo de baptismos de São Sebastião — António Coelho Souto-Maior, filho de Belchior da Ponte Cardoso × Mariana Fagundes, 12 de março de 1654",
+   "primary": "PAR-0092",
+   "links": [
+    "P-0123"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "São Sebastião baptism register — Manuel, son of Belchior da Ponte Cardoso × Mariana Fagundes, 16 January 1656",
+   "title_pt": "Registo de baptismos de São Sebastião — Manuel, filho de Belchior da Ponte Cardoso × Mariana Fagundes, 16 de janeiro de 1656",
+   "primary": "PAR-0093",
+   "links": [
+    "P-0123"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "São Sebastião baptism register — Maria(?), daughter of Belchior da Ponte Cardoso × Mariana Fagundes, ~18 May 1662 [child name uncertain]",
+   "title_pt": "Registo de baptismos de São Sebastião — Maria(?), filha de Belchior da Ponte Cardoso × Mariana Fagundes, ~18 de maio de 1662 [nome da criança incerto]",
+   "primary": "PAR-0094",
+   "links": [
+    "P-0123"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "São Sebastião baptism register — Belchior (filho), son of Belchior da Ponte Cardoso × Mariana Fagundes, 20 May 1664",
+   "title_pt": "Registo de baptismos de São Sebastião — Belchior (filho), filho de Belchior da Ponte Cardoso × Mariana Fagundes, 20 de maio de 1664",
+   "primary": "PAR-0095",
+   "links": [
+    "P-0123"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "São Sebastião baptism register — Isabel de Souto-Maior, daughter of Belchior da Ponte Cardoso × Mariana Fagundes, 19 September 1666",
+   "title_pt": "Registo de baptismos de São Sebastião — Isabel de Souto-Maior, filha de Belchior da Ponte Cardoso × Mariana Fagundes, 19 de setembro de 1666",
+   "primary": "PAR-0096",
+   "links": [
+    "P-0123"
    ]
   },
   {

@@ -1,0 +1,112 @@
+schema_version: 1
+id: PAR-0096
+title: >-
+  São Sebastião baptism register — Isabel de Souto-Maior, daughter of Belchior da Ponte Cardoso × Mariana Fagundes, 19 September 1666
+title_pt: >-
+  Registo de baptismos de São Sebastião — Isabel de Souto-Maior, filha de Belchior da Ponte Cardoso × Mariana Fagundes, 19 de setembro de 1666
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+repository:
+  name: Culturacores / Arquivo Regional dos Açores — BPAR Angra do Heroísmo
+  archive_or_registry: >-
+    Livro de baptismos da Paróquia de São Sebastião (Terceira), TER-AH-SAOSEBASTIAO-B-1611-1687
+    (506 pages). Two image pages downloaded via Culturacores probe 2026-09-23:
+    p1 = rec-terceira-ssebastiao-baptismo-isabel-soutomaior-1666-p1.jpg (baptism act, p.0379),
+    p2 = rec-terceira-ssebastiao-baptismo-isabel-soutomaior-1666-p2.jpg (context/facing page).
+  collection: Paróquia de São Sebastião, Terceira — Livros de Baptismos
+  catalogue_reference: >-
+    TER-AH-SAOSEBASTIAO-B-1611-1687, p.0379; baptism of Isabel de Souto-Maior, daughter
+    of Belchior × Mariana, 19 September 1666. Downloaded via Culturacores CDN, 2026-09-23.
+access_date: "2026-09-23"
+language: pt-PT
+transcription: >-
+  [Image p1 — baptism act, p.0379, S. Sebastião batismos 1611–1687]
+  Parents: "[Alferes Mathias/Belchior?] de Ponte Cardogo × marianna Faguedes"
+  Child: Isabel de Souto-Maior
+  Godmother: Isabel de Souto[?] [surname partially legible]
+  Date: 19 September 1666
+  ⚠ Father's given name: the register reads "Mathias" not "Belchior" at this location;
+    all other identifiers (surname "de Ponte Cardogo", mother "marianna Faguedes",
+    parish, date, godmother's surname matching) are consistent with Belchior da Ponte
+    Cardoso (P-0123). No "Mathias de Ponte Cardoso" is known in S. Sebastião parish
+    records; the discrepancy is attributed to a scribal error or misread in the original.
+  [Image p2 — context/facing page of the register]
+transcription_pt: >-
+  [Imagem p1 — assento de baptismo, p.0379, S. Sebastião baptismos 1611–1687]
+  Pais: "[Alferes Mathias/Belchior?] de Ponte Cardogo × marianna Faguedes"
+  Criança: Isabel de Souto-Maior
+  Madrinha: Isabel de Souto[?] [apelido parcialmente legível]
+  Data: 19 de setembro de 1666
+  ⚠ Nome próprio do pai: o registo lê "Mathias" em vez de "Belchior" neste ponto;
+    todos os outros identificadores (apelido "de Ponte Cardogo", mãe "marianna Faguedes",
+    freguesia, data, apelido da madrinha compatível) são consistentes com Belchior da Ponte
+    Cardoso (P-0123). Nenhum "Mathias de Ponte Cardoso" é conhecido nos registos da
+    freguesia de S. Sebastião; a discrepância é atribuída a erro scribal ou leitura
+    equivocada no original.
+  [Imagem p2 — página de contexto/frente do livro de registo]
+abstract: >-
+  Primary parish baptism record for Isabel de Souto-Maior, daughter of Belchior da Ponte
+  Cardoso (P-0123) × Mariana Fagundes (P-0124), baptised 19 September 1666 in São
+  Sebastião, Terceira (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0379). The act names the mother
+  as "marianna Faguedes" and the child as Isabel de Souto-Maior, with godmother "Isabel de
+  Souto[?]". The father's given name appears as "Mathias" rather than "Belchior" — all
+  other identifiers (surname, mother, parish, date) are consistent with Belchior da Ponte
+  Cardoso (P-0123); no "Mathias de Ponte Cardoso" is known in these records. The
+  discrepancy is attributed to a scribal error or misread. Consistent with Vol. IX
+  (PUB-0005, p.260): Isabel de Souto-Maior (b.19.9.1666). Status: confirmed (with caveat
+  on the father's given name).
+abstract_pt: >-
+  Registo paroquial primário do baptismo de Isabel de Souto-Maior, filha de Belchior da
+  Ponte Cardoso (P-0123) × Mariana Fagundes (P-0124), baptizada a 19 de setembro de 1666
+  em São Sebastião, Terceira (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0379). O assento nomeia
+  a mãe como "marianna Faguedes" e a criança como Isabel de Souto-Maior, com madrinha
+  "Isabel de Souto[?]". O nome próprio do pai aparece como "Mathias" em vez de "Belchior"
+  — todos os outros identificadores (apelido, mãe, freguesia, data) são consistentes com
+  Belchior da Ponte Cardoso (P-0123); nenhum "Mathias de Ponte Cardoso" é conhecido nestes
+  registos. A discrepância é atribuída a erro scribal ou leitura equivocada. Consistente
+  com Vol. IX (PUB-0005, p.260): Isabel de Souto-Maior (n.19.9.1666). Estado: confirmado
+  (com ressalva sobre o nome próprio do pai).
+reliability:
+  assessment: >-
+    Primary source (original parish baptism register). The mother's name ("marianna
+    Faguedes"), child's name (Isabel de Souto-Maior), date (19 September 1666), and parish
+    are all clearly legible and consistent with PUB-0005. The only discrepancy is the father's
+    given name ("Mathias" instead of "Belchior"). Given that no other "Mathias de Ponte
+    Cardoso" is known in S. Sebastião, and all other identifiers align, this is assessed as
+    a scribal error or misread, not a different person. Evidence quality: confirmed (with
+    noted caveat). A higher-resolution rescan would resolve the father's name definitively.
+  informant: Parish priest of São Sebastião, Terceira, recording the baptism in 1666
+  limitations: >-
+    Father's given name reads "Mathias" rather than "Belchior" — discrepancy unexplained;
+    attributed to scribal error pending a higher-resolution rescan. Godmother's surname is
+    partially legible. Resolution: 766×1053 px per page.
+digital_file:
+  path: evidence/parish/PAR-0096-baptismo-isabel-soutomaior-1666-p1.jpg
+  sha256: e5944936a87a30d1ef0ec3d617da0e621d841e943dfbca074a4e77cf47d212f2
+additional_pages:
+- path: evidence/parish/PAR-0096-baptismo-isabel-soutomaior-1666-p2.jpg
+  sha256: 167f18dc222744f42eaa4964a42f61540015ec8cd1a0f79eee2746be06ea091d
+linked_people:
+- P-0123
+- P-0124
+linked_families:
+- F-0062
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    ⚠ The father's given name reads "Mathias" in the primary image. This is inconsistent
+    with all other baptism records for this couple, which give the father's name as
+    "Belchior". The identification is maintained as Belchior da Ponte Cardoso (P-0123)
+    because no "Mathias de Ponte Cardoso" exists in the São Sebastião records, and all
+    other identifiers match. Route to resolve: higher-resolution rescan from BPAR Angra
+    (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0379).
+- text: >-
+    Isabel de Souto-Maior is a documented_child in F-0062. The surname "de Souto-Maior"
+    reflects the Cardoso-Soto matriline of the Ponte Cardoso kindred (see PAR-0088 notes).
+    The godmother "Isabel de Souto[?]" likely shares this family connection.

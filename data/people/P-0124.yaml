@@ -11,6 +11,17 @@ name_variants:
   - PUB-0004
   - PUB-0005
   - PAR-0086
+  - PAR-0089
+- value: Mariana Fagueda
+  type: source
+  source_ids:
+  - PAR-0090
+- value: marianna Faguedes
+  type: source
+  source_ids:
+  - PAR-0091
+  - PAR-0095
+  - PAR-0096
 event_ids:
 - E-0128
 - E-0136

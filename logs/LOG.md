@@ -5,6 +5,12 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-09-23 — Terceira intake (PAR-0087–0096) + profile sync batch 2 (28 entities)
+
+**Terceira S. Sebastião intake:** 10 primary sources created from untriaged retrieval images. Belchior da Ponte Cardoso (P-0123) baptism (PAR-0087, ~9 Jan 1615) and death (PAR-0088, 26 Jun 1687) now held as primary — E-0126/0127 upgraded to confirmed. Mariana Fagundes (P-0124) death (PAR-0089, 7 Jul 1684) confirmed — E-0136 upgraded. Seven F-0062 documented_children's baptisms held: Maria 1651, Manuel 1652, António Coelho Souto-Maior 1654, Manuel 1656, Maria 1662 [PROBABLE], Belchior filho 1664, Isabel de Souto-Maior 1666. Santa Bárbara casamentos pp.0097–0099 = bounded negative for Pedro × Maria 1598 marriage. DOC-0059/DOC-0102 reorganised. Sources 168→178, scans 263→283.
+
+**Profile sync batch 2:** 28 entities across all lines. Critical corrections: P-0024 death status OPEN; P-0073 Elisabetha Borer death PROVEN; P-0103 Jacob Klein birth corrected to 16 Oct 1844; P-0119 Frédéric Rutschmann origin corrected to Bergöschingen, Baden-Württemberg. Notable enrichments: P-0014, P-0037, P-0054, P-0066/P-0067, P-0070 (PROVEN from primary), P-0100. 75/75 make check green.
+
 ## 2026-09-23 — Profile sync batch (26 entities, all major lines)
 
 Four parallel agents synced profiles/profile_pt for 26 entities across Armond/Paz, Toledo, Bohrer, Guimarães/Engrácio, and Muniz/Azevedo lines. Critical corrections found and applied:

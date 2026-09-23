@@ -10,10 +10,20 @@ name_variants:
   source_ids:
   - PUB-0005
   - PAR-0086
+  - PAR-0087
+  - PAR-0088
 - value: Belchior da Ponte Souto-Maior
   type: alias
   source_ids:
   - PUB-0005
+- value: Balchios de Ponte Cardoso
+  type: source
+  source_ids:
+  - PAR-0088
+- value: Balchion de Ponte
+  type: source
+  source_ids:
+  - PAR-0089
 event_ids:
 - E-0126
 - E-0127
@@ -25,6 +35,7 @@ occupations:
 - value: Alferes de ordenanças
   source_ids:
   - PUB-0005
+  - PAR-0088
 notes:
 - text: >-
     Born 10 January 1615, S. Sebastião, Terceira (Azores); died 26 June 1687, S. Sebastião.
@@ -44,12 +55,13 @@ notes:
 profile: >-
   ## Interesting facts
 
-  - **[COMPILED]** Belchior da Ponte Cardoso was born 10 January 1615 in S. Sebastião, Terceira,
-  and died 26 June 1687 in S. Sebastião — a long life of 72 years on the island where he was
-  born.
+  - Belchior da Ponte Cardoso was born approximately 9–10 January 1615 in S. Sebastião, Terceira
+  (PAR-0087 — primary baptism register, p.0037), and died 26 June 1687 in S. Sebastião (PAR-0088
+  — primary death register, p.0068) — a long life of 72 years on the island where he was born.
 
-  - **[COMPILED]** He held the rank of Alferes de ordenanças (Second Lieutenant of the colonial
-  militia) — an officer-level rank attesting to family standing in 17th-century Azorean society.
+  - He held the rank of Alferes de ordenanças (Second Lieutenant of the colonial militia)
+  — confirmed in the primary death register (PAR-0088); an officer-level rank attesting to
+  family standing in 17th-century Azorean society.
 
   - **[COMPILED]** He married twice: first to Bárbara Gato (no surviving children), then to
   Mariana Fagundes on 26 September 1650 at the church of Santa Bárbara — the marriage that
@@ -60,13 +72,13 @@ profile: >-
 
   ## Identity
 
-  **Belchior da Ponte Cardoso** [COMPILED, name via PUB-0005 and PAR-0086] — born 10 January
-  1615, S. Sebastião, Terceira; died 26 June 1687, S. Sebastião. Also known as "Belchior da
-  Ponte Souto-Maior." Son of Manuel da Ponte Valadão (P-0125) × Maria da Costa Leonardes
-  (P-0126), family F-0063. Married Mariana Fagundes (P-0124) on 26 September 1650 at Santa
-  Bárbara; family F-0062.
+  **Belchior da Ponte Cardoso** — born ~9–10 January 1615, S. Sebastião, Terceira (PAR-0087,
+  primary baptism register p.0037); died 26 June 1687, S. Sebastião (PAR-0088, primary death
+  register p.0068). Also known as "Belchior da Ponte Souto-Maior." Son of Manuel da Ponte Valadão
+  (P-0125) × Maria da Costa Leonardes (P-0126), family F-0063. Married Mariana Fagundes (P-0124)
+  on 26 September 1650 at Santa Bárbara (PAR-0086); family F-0062.
 
-  - **Military rank:** Alferes de ordenanças [COMPILED, PUB-0005]
+  - **Military rank:** Alferes de ordenanças [PAR-0088, primary death register; PUB-0005]
   - **Residence:** Belo Jardim, termo da vila da Praia, Terceira [COMPILED, PUB-0005]
   - **Nationality:** Portuguese (born Azores, integral Portuguese territory)
 
@@ -79,21 +91,25 @@ profile: >-
 
   ## Open questions
 
-  - Primary baptism record (10 Jan 1615 S. Sebastião) and death record (26 Jun 1687): not
-  held; compiled data only. BPAR Angra S. Sebastião baptism books for 1615 and death books
-  for 1687 are on Culturacores and could be pulled.
+  - Primary baptism record (10 Jan 1615 S. Sebastião): held as PAR-0087. One-day date
+  discrepancy (primary reads ~9 Jan; PUB-0005 gives 10 Jan) — attributed to scribal
+  convention; 10 Jan retained as canonical. Higher-resolution rescan would confirm.
+  - Primary death record (26 Jun 1687 S. Sebastião): held as PAR-0088. Date confirmed;
+  rank Alferes de ordenanças confirmed.
   - First marriage to Bárbara Gato: date and record unknown; the Vol. IX S.g. notation
   establishes no surviving children but no date is given.
   - The exact emigration path of his son Gaspar to Brazil is not established.
 profile_pt: >-
   ## Fatos interessantes
 
-  - **[COMPILED]** Belchior da Ponte Cardoso nasceu a 10 de janeiro de 1615 em S. Sebastião,
-  Terceira, e faleceu a 26 de junho de 1687 em S. Sebastião — uma longa vida de 72 anos na
-  ilha onde nasceu.
+  - Belchior da Ponte Cardoso nasceu aproximadamente a 9–10 de janeiro de 1615 em S. Sebastião,
+  Terceira (PAR-0087 — registo paroquial primário de baptismos, p.0037), e faleceu a 26 de junho
+  de 1687 em S. Sebastião (PAR-0088 — registo paroquial primário de óbitos, p.0068) — uma longa
+  vida de 72 anos na ilha onde nasceu.
 
-  - **[COMPILED]** Detinha a patente de Alferes de ordenanças (2º tenente da milícia colonial)
-  — patente de oficial que atesta o status familiar na sociedade açoriana do século XVII.
+  - Detinha a patente de Alferes de ordenanças (2º tenente da milícia colonial) — confirmada no
+  registo primário de óbitos (PAR-0088); patente de oficial que atesta o status familiar na
+  sociedade açoriana do século XVII.
 
   - **[COMPILED]** Casou duas vezes: primeiro com Bárbara Gato (sem filhos sobreviventes),
   depois com Mariana Fagundes em 26 de setembro de 1650, na Igreja de Santa Bárbara — o
@@ -104,21 +120,24 @@ profile_pt: >-
 
   ## Identidade
 
-  **Belchior da Ponte Cardoso** [COMPILED, nome via PUB-0005 e PAR-0086] — nascido a 10 de
-  janeiro de 1615, S. Sebastião, Terceira; falecido a 26 de junho de 1687, S. Sebastião.
-  Também conhecido como "Belchior da Ponte Souto-Maior." Filho de Manuel da Ponte Valadão
-  (P-0125) × Maria da Costa Leonardes (P-0126), família F-0063. Casou com Mariana Fagundes
-  (P-0124) a 26 de setembro de 1650 em Santa Bárbara; família F-0062.
+  **Belchior da Ponte Cardoso** — nascido ~9–10 de janeiro de 1615, S. Sebastião, Terceira
+  (PAR-0087, registo primário de baptismos p.0037); falecido a 26 de junho de 1687, S. Sebastião
+  (PAR-0088, registo primário de óbitos p.0068). Também conhecido como "Belchior da Ponte
+  Souto-Maior." Filho de Manuel da Ponte Valadão (P-0125) × Maria da Costa Leonardes (P-0126),
+  família F-0063. Casou com Mariana Fagundes (P-0124) a 26 de setembro de 1650 em Santa Bárbara
+  (PAR-0086); família F-0062.
 
-  - **Patente militar:** Alferes de ordenanças [COMPILED, PUB-0005]
+  - **Patente militar:** Alferes de ordenanças [PAR-0088, registo primário de óbitos; PUB-0005]
   - **Residência:** Belo Jardim, termo da vila da Praia, Terceira [COMPILED, PUB-0005]
   - **Nacionalidade:** portuguesa (nascido nos Açores, território português integral)
 
   ## Questões em aberto
 
-  - Registo primário de baptismo (10 jan. 1615, S. Sebastião) e de óbito (26 jun. 1687):
-  não disponíveis; dados compilados apenas. Os livros de baptismos de S. Sebastião do BPAR
-  Angra para 1615 e os livros de óbitos de 1687 estão no Culturacores e poderiam ser obtidos.
+  - Registo primário de baptismo (10 jan. 1615, S. Sebastião): disponível como PAR-0087.
+  Discrepância de um dia (primário ~9 jan.; PUB-0005 indica 10 jan.) — atribuída a convenção
+  scribal; 10 jan. mantido como data canónica.
+  - Registo primário de óbito (26 jun. 1687, S. Sebastião): disponível como PAR-0088.
+  Data e patente de Alferes de ordenanças confirmadas.
   - Primeiro casamento com Bárbara Gato: data e registo desconhecidos; a notação S.g. do Vol. IX
   confirma ausência de filhos sobreviventes, mas não fornece data.
   - O caminho exato de emigração do filho Gaspar para o Brasil não está estabelecido.

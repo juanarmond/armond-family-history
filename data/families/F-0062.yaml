@@ -55,24 +55,33 @@ documented_children:
 - name: Maria (b.5.9.1651 S.Sebastião)
   source_ids:
   - PUB-0005
+  - PAR-0090
 - name: Manuel (b.13.10.1652 S.Sebastião)
   source_ids:
   - PUB-0005
+  - PAR-0091
 - name: António Coelho Souto-Maior (que segue in Vol.IX § 1º)
   source_ids:
   - PUB-0005
+  - PAR-0092
 - name: Manuel (b.16.1.1656 S.Sebastião, solteiro)
   source_ids:
   - PUB-0005
-- name: Maria (b.18.5.1662 S.Sebastião)
+  - PAR-0093
+- name: >-
+    Maria (b.~18.5.1662 S.Sebastião) [PAR-0094: primary image located, p.0352;
+    margin annotation reads "Anto" — child name uncertain at CDN resolution; see PAR-0094 notes]
   source_ids:
   - PUB-0005
+  - PAR-0094
 - name: Belchior da Ponte Cardoso (b.20.5.1664, c.c.Joana Baptista)
   source_ids:
   - PUB-0005
+  - PAR-0095
 - name: Isabel de Souto-Maior (b.19.9.1666 S.Sebastião)
   source_ids:
   - PUB-0005
+  - PAR-0096
 - name: >-
     Gaspar de Souto-Maior (b.23.12.1657 S.Sebastião per primary baptism register; d.2.12.1727
     S.Sebastião; m.2.10.1690 Margarida das Candeias Machado; stayed in Terceira, Armond-line

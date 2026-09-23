@@ -1,0 +1,102 @@
+schema_version: 1
+id: PAR-0087
+title: >-
+  São Sebastião baptism register — Belchior da Ponte Cardoso, ~9 January 1615
+title_pt: >-
+  Registo de baptismos de São Sebastião — Belchior da Ponte Cardoso, ~9 de janeiro de 1615
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+repository:
+  name: Culturacores / Arquivo Regional dos Açores — BPAR Angra do Heroísmo
+  archive_or_registry: >-
+    Livro de baptismos da Paróquia de São Sebastião (Terceira), TER-AH-SAOSEBASTIAO-B-1611-1687
+    (506 pages). Two image pages downloaded via Culturacores probe 2026-09-23:
+    p1 = rec-terceira-ssebastiao-baptismo-belchior-ponte-cardoso-1615-p1.jpg (baptism act, p.0037),
+    p2 = rec-terceira-ssebastiao-baptismo-belchior-ponte-cardoso-1615-p2.jpg (context/facing page).
+  collection: Paróquia de São Sebastião, Terceira — Livros de Baptismos
+  catalogue_reference: >-
+    TER-AH-SAOSEBASTIAO-B-1611-1687, p.0037; baptism of Belchior da Ponte Cardoso, ~9 January 1615.
+    Downloaded via Culturacores CDN (Arquivo Regional dos Açores), 2026-09-23.
+access_date: "2026-09-23"
+language: pt-PT
+transcription: >-
+  [Image p1 — baptism act, p.0037, S. Sebastião batismos 1611–1687]
+  "Belchior fo[i filho] a Manoell de Ponte e de sua molher Maria da Cota"
+  Padrinhos: Baltezar [surname not recorded] + Ladeza [surname not recorded]
+  Date: [~9 January 1615] — register date reads approximately 9 January 1615;
+  one-day discrepancy vs. Vol. IX (PUB-0005), which gives 10.1.1615; likely scribal
+  convention (act written day after baptism, or date ambiguous in original).
+  Child's name: Belchior. Father: Manuel da Ponte [Valadão/Cardoso]. Mother: Maria da Costa
+  [Leonardes] (recorded as "Maria da Cota" in this entry).
+  [Image p2 — context/facing page of the register]
+transcription_pt: >-
+  [Imagem p1 — assento de baptismo, p.0037, S. Sebastião baptismos 1611–1687]
+  "Belchior fo[i filho] a Manoell de Ponte e de sua molher Maria da Cota"
+  Padrinhos: Baltezar [apelido não registado] + Ladeza [apelido não registado]
+  Data: [~9 de janeiro de 1615] — a data no registo lê-se aproximadamente 9 de janeiro
+  de 1615; discrepância de um dia face ao Vol. IX (PUB-0005), que indica 10.1.1615;
+  provavelmente convenção scribal (assento lavrado no dia seguinte ao baptismo, ou data
+  ambígua no original). Nome da criança: Belchior. Pai: Manuel da Ponte [Valadão/Cardoso].
+  Mãe: Maria da Costa [Leonardes] (registada como "Maria da Cota" neste assento).
+  [Imagem p2 — página de contexto/frente do livro de registo]
+abstract: >-
+  Primary parish baptism record for Belchior da Ponte Cardoso (P-0123), born in São
+  Sebastião, Terceira. The act (p.0037 of TER-AH-SAOSEBASTIAO-B-1611-1687) names the
+  child as "Belchior", son ("fo") of "Manoell de Ponte" (= Manuel da Ponte Valadão,
+  P-0125) and "sua molher Maria da Cota" (= Maria da Costa Leonardes, P-0126), with
+  godparents Baltezar and Ladeza. The register date reads approximately 9 January 1615,
+  a one-day discrepancy from the 10 January 1615 stated in Mendes Forjaz Vol. IX
+  (PUB-0005, p.260); the discrepancy is attributed to scribal convention. This primary
+  image upgrades E-0126 from strong-evidence to confirmed.
+abstract_pt: >-
+  Registo paroquial primário do baptismo de Belchior da Ponte Cardoso (P-0123),
+  nascido em São Sebastião, Terceira. O assento (p.0037 de TER-AH-SAOSEBASTIAO-B-1611-1687)
+  nomeia a criança como "Belchior", filho ("fo") de "Manoell de Ponte" (= Manuel da Ponte
+  Valadão, P-0125) e "sua molher Maria da Cota" (= Maria da Costa Leonardes, P-0126),
+  com padrinhos Baltezar e Ladeza. A data no registo lê-se aproximadamente 9 de janeiro
+  de 1615, com discrepância de um dia face ao 10 de janeiro de 1615 indicado nos Mendes
+  Forjaz Vol. IX (PUB-0005, p.260); a discrepância é atribuída a convenção scribal.
+  Esta imagem primária actualiza E-0126 de strong-evidence para confirmed.
+reliability:
+  assessment: >-
+    Primary source (original parish baptism register). The act names the child (Belchior),
+    his parents (Manuel da Ponte / Maria da Costa), and godparents (Baltezar + Ladeza).
+    The one-day date discrepancy (primary reads ~9 Jan; PUB-0005 gives 10 Jan) is minor
+    and consistent with scribal practices (recording the day after baptism). All principal
+    facts — name, parentage, parish, approximate date — are legible from the primary image.
+    Evidence quality: confirmed for parentage and approximate date.
+  informant: Parish priest of São Sebastião, Terceira, recording the baptism in 1615
+  limitations: >-
+    Godparents' surnames are not recorded in the extracted text. The exact day within
+    January is ambiguous by one day (9 vs. 10 Jan). Image p2 is a context page only.
+    Resolution is approximately 612×842 px per page.
+digital_file:
+  path: evidence/parish/PAR-0087-baptismo-belchior-ponte-cardoso-1615-p1.jpg
+  sha256: 4f38c356d7fec1397f503854e52bea5373ef21df60d60ad4cbc4ccacf8341f9b
+additional_pages:
+- path: evidence/parish/PAR-0087-baptismo-belchior-ponte-cardoso-1615-p2.jpg
+  sha256: dab582c3989ac9532b59badb57a6da5d1276e5ab2768e261778645b055aebad2
+linked_people:
+- P-0123
+- P-0125
+- P-0126
+linked_families:
+- F-0063
+linked_events:
+- E-0126
+linked_places: []
+private: false
+notes:
+- text: >-
+    The baptism names Belchior's parents as "Manoell de Ponte" and "Maria da Cota",
+    confirming their identities as Manuel da Ponte Valadão (P-0125) and Maria da Costa
+    Leonardes (P-0126) — also attested in PUB-0005. "Maria da Cota" is a scribal
+    abbreviation of "Maria da Costa".
+- text: >-
+    The one-day discrepancy (register ~9 Jan vs. PUB-0005 10 Jan 1615) is noted. The
+    compiled date 10 January is preserved in E-0126 as the canonical date, with this
+    discrepancy flagged. A higher-resolution rescan from BPAR Angra would resolve it.

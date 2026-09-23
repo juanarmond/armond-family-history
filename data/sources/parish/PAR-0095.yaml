@@ -1,0 +1,82 @@
+schema_version: 1
+id: PAR-0095
+title: >-
+  São Sebastião baptism register — Belchior (filho), son of Belchior da Ponte Cardoso × Mariana Fagundes, 20 May 1664
+title_pt: >-
+  Registo de baptismos de São Sebastião — Belchior (filho), filho de Belchior da Ponte Cardoso × Mariana Fagundes, 20 de maio de 1664
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+repository:
+  name: Culturacores / Arquivo Regional dos Açores — BPAR Angra do Heroísmo
+  archive_or_registry: >-
+    Livro de baptismos da Paróquia de São Sebastião (Terceira), TER-AH-SAOSEBASTIAO-B-1611-1687
+    (506 pages). Two image pages downloaded via Culturacores probe 2026-09-23:
+    p1 = rec-terceira-ssebastiao-baptismo-belchior-filho-ponte-cardoso-1664-p1.jpg (baptism act, p.0365),
+    p2 = rec-terceira-ssebastiao-baptismo-belchior-filho-ponte-cardoso-1664-p2.jpg (context/facing page).
+    Note: images at lower CDN resolution (383×527 px).
+  collection: Paróquia de São Sebastião, Terceira — Livros de Baptismos
+  catalogue_reference: >-
+    TER-AH-SAOSEBASTIAO-B-1611-1687, p.0365; baptism of Belchior filho, son of Belchior × Mariana,
+    20 May 1664. Downloaded via Culturacores CDN (Arquivo Regional dos Açores), 2026-09-23.
+access_date: "2026-09-23"
+language: pt-PT
+transcription: >-
+  [Image p1 — baptism act, p.0365, S. Sebastião batismos 1611–1687]
+  Parents: "Belchior de Ponte Cardogo × marianna Faguedes"
+  Child: Belchior [filho]
+  Year notation in record: "e quatro annos (1664)" [confirming year 1664]
+  Date: 20 May 1664
+  [Image p2 — context/facing page of the register]
+transcription_pt: >-
+  [Imagem p1 — assento de baptismo, p.0365, S. Sebastião baptismos 1611–1687]
+  Pais: "Belchior de Ponte Cardogo × marianna Faguedes"
+  Criança: Belchior [filho]
+  Nota de ano no registo: "e quatro annos (1664)" [confirmando o ano de 1664]
+  Data: 20 de maio de 1664
+  [Imagem p2 — página de contexto/frente do livro de registo]
+abstract: >-
+  Primary parish baptism record for Belchior (filho), son of Belchior da Ponte Cardoso
+  (P-0123) × Mariana Fagundes (P-0124), baptised 20 May 1664 in São Sebastião, Terceira
+  (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0365). The act names both parents as "Belchior de
+  Ponte Cardogo × marianna Faguedes" and contains a year notation "e quatro annos (1664)"
+  confirming the year. Consistent with Vol. IX (PUB-0005, p.260), which records him as
+  Belchior da Ponte Cardoso (b.20.5.1664, m. Joana Baptista). Status: confirmed.
+abstract_pt: >-
+  Registo paroquial primário do baptismo de Belchior (filho), filho de Belchior da Ponte
+  Cardoso (P-0123) × Mariana Fagundes (P-0124), baptizado a 20 de maio de 1664 em São
+  Sebastião, Terceira (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0365). O assento nomeia ambos
+  os pais como "Belchior de Ponte Cardogo × marianna Faguedes" e contém a notação de ano
+  "e quatro annos (1664)" confirmando o ano. Consistente com o Vol. IX (PUB-0005, p.260),
+  que o regista como Belchior da Ponte Cardoso (n.20.5.1664, c.c. Joana Baptista).
+  Estado: confirmado.
+reliability:
+  assessment: >-
+    Primary source (original parish baptism register). Both parents' names are legible.
+    The year notation "e quatro annos (1664)" explicitly confirms 1664. The date 20 May
+    1664 is consistent with PUB-0005. Evidence quality: confirmed.
+  informant: Parish priest of São Sebastião, Terceira, recording the baptism in 1664
+  limitations: >-
+    Reduced CDN resolution (383×527 px) — lower than p.0037 images but sufficient to
+    read parents' names and year. Image p2 is a context page only.
+digital_file:
+  path: evidence/parish/PAR-0095-baptismo-belchior-filho-ponte-cardoso-1664-p1.jpg
+  sha256: bec14b245864bcfe5ddf99d9c23747ba8cfe9e950ade6328ca347baf3aa52521
+additional_pages:
+- path: evidence/parish/PAR-0095-baptismo-belchior-filho-ponte-cardoso-1664-p2.jpg
+  sha256: 590943720730e3e9144eaeb83e5c161c8d39872ea78d640acb879f24624bb76c
+linked_people:
+- P-0123
+- P-0124
+linked_families:
+- F-0062
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Belchior filho (b.20.5.1664) later married Joana Baptista, per Vol. IX (PUB-0005,
+    p.260). He is a documented_child in F-0062 (not a separate modelled person entity).

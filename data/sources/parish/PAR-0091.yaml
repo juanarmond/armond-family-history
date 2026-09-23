@@ -1,0 +1,76 @@
+schema_version: 1
+id: PAR-0091
+title: >-
+  São Sebastião baptism register — Manuel, son of Belchior da Ponte Cardoso × Mariana Fagundes, 13 October 1652
+title_pt: >-
+  Registo de baptismos de São Sebastião — Manuel, filho de Belchior da Ponte Cardoso × Mariana Fagundes, 13 de outubro de 1652
+record_type: Parish baptism register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+repository:
+  name: Culturacores / Arquivo Regional dos Açores — BPAR Angra do Heroísmo
+  archive_or_registry: >-
+    Livro de baptismos da Paróquia de São Sebastião (Terceira), TER-AH-SAOSEBASTIAO-B-1611-1687
+    (506 pages). Two image pages downloaded via Culturacores probe 2026-09-23:
+    p1 = rec-terceira-ssebastiao-baptismo-manuel-ponte-cardoso-1652-p1.jpg (baptism act, p.0287),
+    p2 = rec-terceira-ssebastiao-baptismo-manuel-ponte-cardoso-1652-p2.jpg (context/facing page).
+  collection: Paróquia de São Sebastião, Terceira — Livros de Baptismos
+  catalogue_reference: >-
+    TER-AH-SAOSEBASTIAO-B-1611-1687, p.0287; baptism of Manuel, son of Belchior × Mariana,
+    13 October 1652. Downloaded via Culturacores CDN (Arquivo Regional dos Açores), 2026-09-23.
+access_date: "2026-09-23"
+language: pt-PT
+transcription: >-
+  [Image p1 — baptism act, p.0287, S. Sebastião batismos 1611–1687]
+  Parents: "Belchior da Ponte Cardogo × marianna Faguedes"
+  Child: Manuel
+  Date: 13 October 1652
+  [Image p2 — context/facing page of the register]
+transcription_pt: >-
+  [Imagem p1 — assento de baptismo, p.0287, S. Sebastião baptismos 1611–1687]
+  Pais: "Belchior da Ponte Cardogo × marianna Faguedes"
+  Criança: Manuel
+  Data: 13 de outubro de 1652
+  [Imagem p2 — página de contexto/frente do livro de registo]
+abstract: >-
+  Primary parish baptism record for Manuel, son of Belchior da Ponte Cardoso (P-0123) ×
+  Mariana Fagundes (P-0124), baptised 13 October 1652 in São Sebastião, Terceira
+  (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0287). The act names both parents as "Belchior da
+  Ponte Cardogo × marianna Faguedes", confirming parentage. Consistent with Vol. IX
+  (PUB-0005, p.260). Status: confirmed.
+abstract_pt: >-
+  Registo paroquial primário do baptismo de Manuel, filho de Belchior da Ponte Cardoso
+  (P-0123) × Mariana Fagundes (P-0124), baptizado a 13 de outubro de 1652 em São
+  Sebastião, Terceira (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0287). O assento nomeia ambos
+  os pais como "Belchior da Ponte Cardogo × marianna Faguedes", confirmando a filiação.
+  Consistente com Vol. IX (PUB-0005, p.260). Estado: confirmado.
+reliability:
+  assessment: >-
+    Primary source (original parish baptism register). Both parents' names are legible.
+    The date 13 October 1652 is consistent with PUB-0005. Evidence quality: confirmed.
+  informant: Parish priest of São Sebastião, Terceira, recording the baptism in 1652
+  limitations: >-
+    Image p2 is a context page only. Godparents' names not recorded in extracted text.
+    Resolution: 612×842 px per page.
+digital_file:
+  path: evidence/parish/PAR-0091-baptismo-manuel-ponte-cardoso-1652-p1.jpg
+  sha256: 63a0d08f876581b0ba48c41f659cadca7e79ff94c98b6b3e380a959655eb5de3
+additional_pages:
+- path: evidence/parish/PAR-0091-baptismo-manuel-ponte-cardoso-1652-p2.jpg
+  sha256: d6b13e2ce88638cb733244b1185010ddab3d65780f1ff6c31b9964cadc70ce90
+linked_people:
+- P-0123
+- P-0124
+linked_families:
+- F-0062
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Manuel (b.13.10.1652) is the second documented child of Belchior × Mariana. Vol. IX
+    (PUB-0005) notes he died solteiro (unmarried). Not to be confused with the second
+    Manuel (b.16.1.1656, PAR-0093).

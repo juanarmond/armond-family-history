@@ -1,0 +1,89 @@
+schema_version: 1
+id: PAR-0088
+title: >-
+  São Sebastião death register — Belchior da Ponte Cardoso, 26 June 1687
+title_pt: >-
+  Registo de óbitos de São Sebastião — Belchior da Ponte Cardoso, 26 de junho de 1687
+record_type: Parish death register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+repository:
+  name: Culturacores / Arquivo Regional dos Açores — BPAR Angra do Heroísmo
+  archive_or_registry: >-
+    Livro de óbitos da Paróquia de São Sebastião (Terceira), TER-AH-SAOSEBASTIAO-O-1642-1696.
+    One image page downloaded via Culturacores probe 2026-09-23:
+    p1 = rec-terceira-ssebastiao-obito-belchior-ponte-cardoso-1687-p1.jpg (death act, p.0068).
+  collection: Paróquia de São Sebastião, Terceira — Livros de Óbitos
+  catalogue_reference: >-
+    TER-AH-SAOSEBASTIAO-O-1642-1696, p.0068; death of Belchior da Ponte Cardoso, 26 June 1687.
+    Downloaded via Culturacores CDN (Arquivo Regional dos Açores), 2026-09-23.
+access_date: "2026-09-23"
+language: pt-PT
+transcription: >-
+  [Image p1 — death act, p.0068, S. Sebastião óbitos 1642–1696]
+  [Margin annotation:] "Balchios / da Ponte"
+  [Main text:] "Em os [vinte e] seis dios do mes de Junho de mil e seis centos e oitenta
+  e sete anos fale[ceo] Balchios de Ponte Cardo[so]"
+  [Officiant:] Vicar Domingos Cardoso Fora
+  [Military rank noted:] Alferes de ordenanças
+  [Date:] 26 June 1687 — exact match with Vol. IX (PUB-0005)
+transcription_pt: >-
+  [Imagem p1 — assento de óbito, p.0068, S. Sebastião óbitos 1642–1696]
+  [Anotação marginal:] "Balchios / da Ponte"
+  [Texto principal:] "Em os [vinte e] seis dios do mes de Junho de mil e seis centos e oitenta
+  e sete anos fale[ceo] Balchios de Ponte Cardo[so]"
+  [Officiante:] Vigário Domingos Cardoso Fora
+  [Patente militar anotada:] Alferes de ordenanças
+  [Data:] 26 de junho de 1687 — correspondência exacta com o Vol. IX (PUB-0005)
+abstract: >-
+  Primary parish death record for Belchior da Ponte Cardoso (P-0123), died 26 June 1687
+  in São Sebastião, Terceira. The marginal index annotation reads "Balchios / da Ponte"
+  (= Belchior da Ponte) and the main text records: "Em os [vinte e] seis dios do mes de
+  Junho de mil e seis centos e oitenta e sete anos fale[ceo] Balchios de Ponte Cardo[so]."
+  His military rank Alferes de ordenanças is noted. The death date 26 June 1687 is an exact
+  match for Vol. IX (PUB-0005). This primary image upgrades E-0127 from strong-evidence to
+  confirmed. Officiating vicar was Domingos Cardoso Fora.
+abstract_pt: >-
+  Registo paroquial primário do óbito de Belchior da Ponte Cardoso (P-0123), falecido
+  a 26 de junho de 1687 em São Sebastião, Terceira. A anotação marginal de índice lê
+  "Balchios / da Ponte" (= Belchior da Ponte) e o texto principal regista: "Em os [vinte
+  e] seis dios do mes de Junho de mil e seis centos e oitenta e sete anos fale[ceo] Balchios
+  de Ponte Cardo[so]." A patente militar de Alferes de ordenanças está anotada. A data de
+  óbito 26 de junho de 1687 corresponde exactamente ao Vol. IX (PUB-0005). Esta imagem
+  primária actualiza E-0127 de strong-evidence para confirmed. O vigário officiante foi
+  Domingos Cardoso Fora.
+reliability:
+  assessment: >-
+    Primary source (original parish death register). The marginal index annotation names
+    "Balchios da Ponte" and the main entry reads the day (26), month (June) and year (1687)
+    in full — exact match with PUB-0005. The name "Balchios de Ponte Cardo[so]" is a period
+    orthographic variant of Belchior da Ponte Cardoso. The Alferes de ordenanças rank is
+    consistent with PUB-0005 and PAR-0086. Evidence quality: confirmed.
+  informant: Vicar Domingos Cardoso Fora, São Sebastião, Terceira, recording the death in 1687
+  limitations: >-
+    Some text is partially legible (indicated by square brackets). Single image page held;
+    no context page. Resolution: 1299×944 px.
+digital_file:
+  path: evidence/parish/PAR-0088-obito-belchior-ponte-cardoso-1687-p1.jpg
+  sha256: c6f5cd36efcd1e9aae7d9c8ad0e54e3478249007e2d4488ac2bc13f6de0cf68e
+additional_pages: []
+linked_people:
+- P-0123
+linked_families: []
+linked_events:
+- E-0127
+linked_places: []
+private: false
+notes:
+- text: >-
+    Vol. IX (PUB-0005) footnote 9 notes that Belchior "Deve ter morrido de repente pois é
+    ele que assina o registo de óbito anterior, lavrado a 6 de Junho" — he had signed the
+    previous death register entry (20 days before his own death), suggesting sudden death.
+    This primary image confirms the death date and the Alferes de ordenanças rank.
+- text: >-
+    The name variant "Balchios" / "Balchion" appears in the São Sebastião óbito registers
+    as the local scribal orthography for "Belchior". See also PAR-0089 (Mariana's death
+    record, which refers to her husband as "M° Balchion de Ponte").
