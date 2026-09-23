@@ -5,6 +5,24 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-09-23 — Terceira Azorean line intake + Bohrer Beinwil correction
+
+**Terceira line — three new generations (Mendes Forjaz PDFs + Santa Bárbara primary):**
+- PUB-0004 (Mendes Forjaz Vol.IV, Fagundes §6º, pp.312–313) and PUB-0005 (Vol.IX, Souto-Maior §1º, pp.257–261) catalogued as secondary compiled genealogy sources.
+- PAR-0086 (Santa Bárbara casamentos 26 Sep 1650, 3 images) catalogued as primary parish record for Belchior × Mariana marriage.
+- 8 new people modelled: Belchior da Ponte Cardoso (P-0123, b.10 Jan 1615 S.Sebastião, d.26 Jun 1687) and wife Mariana Fagundes (P-0124, d.7 Jul 1684); Belchior's parents Manuel da Ponte Valadão (P-0125, d.19 Aug 1652) × Maria da Costa Leonardes (P-0126, d.27 Dec 1654); Mariana's parents António Martins Fagundes (P-0127) × Catarina Machado de Faria (P-0128); Mariana's grandparents Pedro Lourenço Machado (P-0129, b.2 Feb 1571, d.27 Jan 1655) × Maria Fernandes da Costa (P-0130).
+- 4 new families (F-0062–F-0065), 11 new events (E-0126–E-0136). P-0092 (Gaspar Ferreira) linked to F-0062 as Belchior × Mariana's son.
+- Vol.IX also notes Gaspar d.2 Dec 1727 S.Sebastião — conflicts with P-0092's documented Brazilian context; flagged as unresolved conflict in PUB-0005 notes.
+- 5 Culturacores Santa Bárbara images (batismos 1600–1610, casamentos 1560–1606, óbitos 1607–1651) value-gated: no direct-line facts confirmed; retained as LEAD for extended Fagundes/Machado research.
+
+**Bohrer Beinwil correction:**
+- Staatsarchiv Solothurn (Gasche Erich, C-011) confirmed Erschwil holdings are 3 binder sets; searches exhausted — Jakob Borer (P-0050) baptism NOT found in Erschwil.
+- FS collaborative tree (L85Q-RY2) records a Beinwil baptism 13 Dec 1801. The 1825 NF marriage register's "Erswill" is a misread of "Beinwil".
+- record-coverage P-0050 updated; all Erschwil searches for P-0050 closed as bounded negative.
+- **P-0016 Leopoldina LEAD:** Francisco Ferreira Armonde (b.~1842–45, lavrador, Meia Pataca) confirmed as entry #201, Livro 26 p.19recto (Nilza Cantoni, C-012). Collateral context; no filiation column.
+
+New entities: P-0123–P-0130, F-0062–F-0065, E-0126–E-0136, PAR-0086, PUB-0004, PUB-0005. Sources 165→168, people 122→130, events 122→133, scans 258→263. make check 75/75.
+
 ## 2026-09-22 — Retrieval-drop intake: GOV-0009/0010/0011 + PRB-0009 extension
 
 **Drop:** 55 new images synced 2026-09-19/22. Value-gate classified 31 images as immediate

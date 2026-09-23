@@ -1,0 +1,50 @@
+schema_version: 1
+id: P-0130
+preferred_name: Maria Fernandes da Costa
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Maria Fernandes da Costa
+  type: source
+  source_ids:
+  - PUB-0004
+- value: Maria Fernandes de Toledo
+  type: alias
+  source_ids:
+  - PUB-0004
+event_ids:
+- E-0134
+family_ids:
+- F-0065
+notes:
+- text: >-
+    Maria Fernandes da Costa (also called "de Toledo" in the compilation): married Pedro
+    Lourenço Machado (P-0129) at Santa Bárbara on 14 June 1598; family F-0065. Mother of
+    António Martins Fagundes (P-0127). Her parentage: "filha de Belchior Fernandes da Costa
+    e de Beatriz Pires" (PUB-0004, p.312). Birth and death dates not given in the compilation.
+    The "de Toledo" variant in the compilation appears alongside "da Costa" and may reflect a
+    family or place connection; it is unrelated to the Minas Gerais Toledo family in this repository.
+profile: >-
+  ## Identity
+
+  **Maria Fernandes da Costa** [COMPILED, name via PUB-0004] — married Pedro Lourenço Machado
+  (P-0129), 14 June 1598, Santa Bárbara, Terceira; family F-0065. Mother of António Martins
+  Fagundes (P-0127). Daughter of Belchior Fernandes da Costa × Beatriz Pires (compiled; no
+  primary images held for her parentage).
+
+  - **Nationality:** Portuguese (Azores)
+  - **Dates:** unknown — not given in compilation [OPEN]
+
+  Note: the "de Toledo" name variant in the compilation is a Terceira toponymic/family element,
+  unrelated to the Minas Gerais Toledo family (P-0057 line).
+profile_pt: >-
+  ## Identidade
+
+  **Maria Fernandes da Costa** [COMPILED, nome via PUB-0004] — casou com Pedro Lourenço
+  Machado (P-0129), 14 de junho de 1598, Santa Bárbara, Terceira; família F-0065. Mãe de
+  António Martins Fagundes (P-0127). Filha de Belchior Fernandes da Costa × Beatriz Pires
+  (compilado; sem imagens primárias disponíveis para a sua filiação).
+
+  Nota: o variante "de Toledo" na compilação é um elemento toponímico/familiar da Terceira,
+  sem relação com a família Toledo de Minas Gerais (linha P-0057).

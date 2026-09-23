@@ -313,3 +313,38 @@ lead until verified against an original record.
   and whether the "cópia digitalizada" carries a fee — before filing (and paying) anything. The
   assistant must not submit the form or pay a fee; those are owner-only. Once the image arrives
   by any route it is value-gated and catalogued as the primary source for Vicente's origin.
+
+### C-011 — Staatsarchiv Solothurn (Gasche Erich)
+- Who: Staatsarchiv Solothurn, Cantão de Solothurn, Suíça. Contact: Gasche Erich (archivist
+  who handled the enquiry).
+- Purpose: locate the Catholic parish baptism register of Erschwil for Jakob Borer b. ~1801,
+  to confirm his birth date and parents at primary level (previously indicated as "Erswill"
+  in his 1825 Nova Friburgo marriage, PAR-0059).
+- Status: **reply received 2026-09-23.**
+- Reply substance: Gasche Erich confirmed the Erschwil Catholic parish holdings at the
+  Staatsarchiv — 3 binder sets (shelf photo PDF received:
+  `rec-erschwil-staatsarchiv-kirchenbuecher-shelf-photo-2026-09-23.pdf`). The search of
+  those registers for Jakob Borer's baptism is now a **bounded negative** on Erschwil.
+  Cross-reference with the FS collaborative tree (L85Q-RY2) established that the 1825
+  marriage register's "Erswill" is a misread of **Beinwil** (a separate Canton Solothurn
+  parish). Jakob Borer's baptism — FS tree date 13 Dec 1801 — is in Beinwil, not Erschwil.
+- Outcome: Erschwil search CLOSED (bounded negative). **Next action:** search Beinwil
+  parish books (Kantonsarchiv Solothurn) for Jakob Borer b. 13 Dec 1801.
+- Recorded in record-coverage P-0050 and P-0100 notes (2026-09-23).
+
+### C-012 — Nilza Cantoni (2026-09-22 corrected page delivery)
+- Who: Nilza Cantoni (genealogist; `nilza.cantoni@gmail.com`; see C-002 for full profile).
+- Purpose: follow-up on Leopoldina electoral rolls as a source for Ferreira Armonde
+  presence in the Meia Pataca / Leopoldina comarca area — relevant to P-0016's parentage
+  research.
+- Received: 2026-09-22. Nilza delivered a corrected page of the Leopoldina alistamento
+  eleitoral 1870–1873, Livro 26, p.19recto.
+- Reply substance: entry #201 on p.19recto reads **Francisco Ferreira Armonde**, 28 anos,
+  casado, lavrador, Meia Pataca — implying birth ~1842–45. The electoral roll has no
+  filiation column. File:
+  `rec-leopoldina-alistamento-eleitoral-1870-1873-meapataca-livro26-p19recto.tif`
+  (in retrieval drop, not yet catalogued as a source).
+- Classification: LEAD / collateral context for P-0016's parentage search. Does NOT
+  directly name P-0016's parents. Confirms a Ferreira Armonde lavrador in the Meia
+  Pataca district of the Leopoldina comarca by 1870.
+- Recorded in record-coverage P-0016 notes and triage ledger 2026-09-23.

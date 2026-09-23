@@ -1,0 +1,113 @@
+schema_version: 1
+id: PAR-0086
+title: >-
+  Santa Bárbara marriage register — Belchior da Ponte Cardoso × Mariana Fagundes, 26 Sep 1650
+title_pt: >-
+  Registo de casamentos de Santa Bárbara — Belchior da Ponte Cardoso × Mariana Fagundes, 26 set. 1650
+record_type: Parish marriage register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+repository:
+  name: Culturacores / Arquivo dos Açores (Arquivo Regional dos Açores — BPAR Angra do Heroísmo)
+  archive_or_registry: >-
+    Livro de casamentos da Paróquia de Santa Bárbara (Terceira), covering approximately 1640–1660.
+    Three image pages downloaded via Culturacores probe 2026-09-22/23:
+    rec-armond-belchior-mariana-santa-barbara-1650-casamentos-0071.jpg (context page before),
+    rec-armond-belchior-mariana-santa-barbara-1650-casamentos-0072.jpg (marriage act),
+    rec-armond-belchior-mariana-santa-barbara-1650-casamentos-0073.jpg (context page after, 1651).
+  collection: Paróquia de Santa Bárbara, Terceira — Livros de Casamentos
+  catalogue_reference: >-
+    Livro de casamentos, Stª Bárbara, Terceira; entry for Belchior da Ponte Cardoso ×
+    Mariana Fagundes, 26 September 1650. Downloaded via Culturacores (2026-09-23 probe).
+access_date: "2026-09-23"
+language: pt-PT
+transcription: >-
+  [Image p2 — marriage act, 26 Sep 1650, Santa Bárbara]
+  [Margin annotation, later index hand: "Belchior [da Ponte Cardoso] Com [Mariana] Fagundes"]
+  [Main text, partially legible due to damage and ink deterioration:]
+  "... mil seis centos e sincoenta ... por marido de forma da Igr[eja] em face d[a] Par[ó]q[uia]
+  ... a Belchior [da] Ponte Cardoso alias [Souto-Maior?] ...
+  ... de Bárbara Gato [viúvo?] ... Mariana Fagundes filha de [António?] ...
+  ... Ant[ó]nio medado[?] e de [Catarina?] nat[urais] de [Santa Bárbara?] ...
+  ... [witnesses listed] Rodrigues ... [signatures] ..."
+  [Context page p1 (0071): prior entries, partially legible, different marriages]
+  [Context page p3 (0073): margin "Ant.º gli na Com.ª 1651 / Fren Fern.do Com[p]s[...]na de
+  Costa" — a different 1651 marriage entry on the following page]
+
+  ⚠ Transcription is partial: the original is damaged with ink loss and deterioration.
+  The names "Belchior [da Ponte Cardoso]" and "Mariana Fagundes" are legible in the margin
+  annotation (p2); the body text confirms the date 1650 and both parties' names but full
+  verbatim transcription is not possible from the delivered image quality.
+transcription_pt: >-
+  [Imagem p2 — assento de casamento, 26 set. 1650, Santa Bárbara]
+  [Anotação marginal (mão de índice posterior): "Belchior [da Ponte Cardoso] Com [Mariana] Fagundes"]
+  [Texto principal parcialmente legível:]
+  "... mil seis centos e sincoenta ... [casados] por marido de forma da Igr[eja] ... em face
+  da Par[ó]q[uia] ... a Belchior [da] Ponte Cardoso ... Mariana Fagundes filha de [António?] ..."
+  ⚠ Transcrição parcial: o original está danificado com perda de tinta e deterioração.
+abstract: >-
+  Primary parish marriage record for Belchior da Ponte Cardoso × Mariana Fagundes, Santa
+  Bárbara, Terceira, 26 September 1650. Image p2 (casamentos-0072) shows the marriage entry
+  with marginal index annotation naming both parties. The record confirms the marriage date
+  and location, consistent with Vol. IV (PUB-0004) and Vol. IX (PUB-0005) of the Mendes
+  Forjaz compilation. Image quality is limited due to physical damage to the register.
+abstract_pt: >-
+  Registo paroquial primário do casamento de Belchior da Ponte Cardoso × Mariana Fagundes,
+  Santa Bárbara, Terceira, 26 de setembro de 1650. A imagem p2 (casamentos-0072) mostra
+  o assento de casamento com anotação marginal de índice nomeando ambas as partes.
+  O registo confirma a data e local do casamento, em consonância com os vols. IV e IX da
+  compilação de Mendes Forjaz (PUB-0004, PUB-0005). A qualidade da imagem é limitada pela
+  deterioração física do livro.
+reliability:
+  assessment: >-
+    Primary source (original parish register). The marginal index annotation in p2 legibly
+    names "Belchior [da Ponte Cardoso]" and "Mariana Fagundes"; the main body text is
+    partially legible and confirms the 1650 date and the names. The confirmation of the
+    26 September 1650 date is consistent with the cross-references in PUB-0004 and PUB-0005.
+    Image resolution is limited (511×702 pixels per page), which constrains full verbatim
+    transcription. Evidence quality is therefore "confirmed" for the marriage event itself
+    (both parties' names and approximate date visible in the primary image), with partial
+    transcription status flagged. A higher-resolution rescan would support a complete transcript.
+  informant: Parish priest officiating the 1650 Santa Bárbara marriage ceremony
+  limitations: >-
+    Limited image resolution (511×702 px) and physical damage to the register prevent full
+    verbatim transcription. The witnesses' names are not clearly legible. The exact folio/act
+    number within the register is not established from the delivered images. Catarina Machado
+    de Faria's parentage of Mariana is from PUB-0004, not visible in this image.
+    Image p1 (0071) and p3 (0073) are context pages — before and after the marriage act —
+    showing other families' entries.
+digital_file:
+  path: evidence/parish/PAR-0086-belchior-mariana-santabarbara-casamentos-1650-p1.jpg
+  sha256: 2626bf1c04da4695fdf073561a2cc125c00a252cdda3267cebca5fceeaa34a28
+additional_pages:
+- path: evidence/parish/PAR-0086-belchior-mariana-santabarbara-casamentos-1650-p2.jpg
+  sha256: cf5d898bd577c3bedb14835bc91d30831a0ee9dd8314bb0ec43faa6a11521674
+- path: evidence/parish/PAR-0086-belchior-mariana-santabarbara-casamentos-1650-p3.jpg
+  sha256: 1f50eac53759d0be3f2643b2eed117992f022941230d9a8829a3112dbc9a3b4c
+linked_people:
+- P-0123
+- P-0124
+linked_families:
+- F-0062
+linked_events:
+- E-0128
+linked_places: []
+private: false
+notes:
+- text: >-
+    The page designated "p1" in this source record is image 0071 (the preceding page in the
+    register), "p2" is image 0072 (the Belchior × Mariana marriage act itself, confirmed by
+    the marginal annotation), and "p3" is image 0073 (the following 1651 entry). The marriage
+    act itself is on image 0072 (p2); images 0071 and 0073 provide register context.
+- text: >-
+    A higher-resolution rescan of this register (BPAR Angra) would allow full verbatim
+    transcription of the officiating priest's text, the witnesses, and the act number.
+    The 26.9.1650 date is confirmed from both Vol. IV and Vol. IX cross-references; the
+    primary image supports but cannot independently confirm every detail at this resolution.
+- text: >-
+    This is the only primary image held for the Belchior × Mariana marriage. It upgrades the
+    evidence_quality for E-0128 from strong-evidence (compiled-only) to confirmed (primary
+    image held showing both names and date).

@@ -1,0 +1,89 @@
+schema_version: 1
+id: P-0124
+preferred_name: Mariana Fagundes
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Mariana Fagundes
+  type: source
+  source_ids:
+  - PUB-0004
+  - PUB-0005
+  - PAR-0086
+event_ids:
+- E-0128
+- E-0136
+family_ids:
+- F-0064
+- F-0062
+notes:
+- text: >-
+    Mariana Fagundes: died 7 July 1684, S. Sebastião, Terceira (PUB-0004). Married Belchior
+    da Ponte Cardoso at Santa Bárbara, 26 September 1650 (PAR-0086, PUB-0004, PUB-0005).
+    Daughter of António Martins Fagundes (P-0127) × Catarina Machado de Faria (P-0128),
+    family F-0064. Her own birth date and place are not given in the compilation; she died
+    before her husband Belchior (d.26.6.1687), making her survival to 7.7.1684 consistent.
+    The couple's son Gaspar de Souto-Maior (P-0092) was born 23.2.1657.
+- text: >-
+    Vol. IV and Vol. IX each cross-reference the other for this marriage. Vol. IV states
+    "vid. SOUTO-MAIOR, § 5º, nº 5" and Vol. IX states "vid. FAGUNDES, § 6º, nº 7" —
+    bilateral corroboration of the couple's identity in both family lines.
+- text: >-
+    Birth date unknown; not given in either compilation. She was alive for the 1650 marriage
+    and died 1684. If her father António died 1664 and she was still alive, she was at minimum
+    in her teens at the 1650 marriage (born approximately 1620s–1640s). [INFERRED from context]
+profile: >-
+  ## Interesting facts
+
+  - **[COMPILED]** Mariana Fagundes married Belchior da Ponte Cardoso on 26 September 1650 at
+  the church of Santa Bárbara — a marriage confirmed by both a primary parish image (PAR-0086)
+  and bilateral cross-references in the Mendes Forjaz compilation (PUB-0004, PUB-0005).
+
+  - **[COMPILED]** She died 7 July 1684 in S. Sebastião — about three years before her husband
+  Belchior (d.26.6.1687).
+
+  - **[COMPILED]** Her father António Martins Fagundes was a Capitão de ordenanças; her grandfather
+  Pedro Lourenço Machado led 79 men in the 1642 assault on the Castelo de S. Filipe, Angra —
+  a family with a documented military tradition across two generations.
+
+  ## Identity
+
+  **Mariana Fagundes** [COMPILED, name via PUB-0004 and PUB-0005; confirmed in PAR-0086] —
+  died 7 July 1684, S. Sebastião, Terceira. Daughter of António Martins Fagundes (P-0127)
+  × Catarina Machado de Faria (P-0128), family F-0064. Married Belchior da Ponte Cardoso
+  (P-0123) 26 September 1650, Santa Bárbara; family F-0062.
+
+  - **Birth date/place:** unknown — not given in the compilation [OPEN]
+  - **Nationality:** Portuguese (born Azores, integral Portuguese territory)
+
+  ## Open questions
+
+  - Birth date and baptism record: unknown; BPAR Angra Santa Bárbara baptism books (pre-1650)
+  might contain her entry.
+  - Primary death record (7 Jul 1684, S. Sebastião): not held; compiled only.
+profile_pt: >-
+  ## Fatos interessantes
+
+  - **[COMPILED]** Mariana Fagundes casou com Belchior da Ponte Cardoso em 26 de setembro de
+  1650 na Igreja de Santa Bárbara — casamento confirmado por uma imagem primária paroquial
+  (PAR-0086) e referências cruzadas bilaterais na compilação de Mendes Forjaz (PUB-0004, PUB-0005).
+
+  - **[COMPILED]** Faleceu a 7 de julho de 1684 em S. Sebastião — cerca de três anos antes do
+  marido Belchior (f.26.6.1687).
+
+  - **[COMPILED]** Seu pai, António Martins Fagundes, era Capitão de ordenanças; o avô, Pedro
+  Lourenço Machado, liderou 79 homens no assalto ao Castelo de S. Filipe, Angra, em 1642 —
+  família com tradição militar documentada por duas gerações.
+
+  ## Identidade
+
+  **Mariana Fagundes** [COMPILED, nome via PUB-0004 e PUB-0005; confirmado em PAR-0086] —
+  falecida a 7 de julho de 1684, S. Sebastião, Terceira. Filha de António Martins Fagundes
+  (P-0127) × Catarina Machado de Faria (P-0128), família F-0064. Casou com Belchior da Ponte
+  Cardoso (P-0123) a 26 de setembro de 1650 em Santa Bárbara; família F-0062.
+
+  ## Questões em aberto
+
+  - Data e local de nascimento: desconhecidos — não informados na compilação [OPEN].
+  - Registo primário de óbito (7 jul. 1684, S. Sebastião): não disponível; dado compilado apenas.

@@ -1,0 +1,82 @@
+schema_version: 1
+id: P-0129
+preferred_name: Pedro Lourenço Machado
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: Pedro Lourenço Machado
+  type: source
+  source_ids:
+  - PUB-0004
+event_ids:
+- E-0132
+- E-0133
+- E-0134
+family_ids:
+- F-0065
+occupations:
+- value: Capitão (commanded 79 men at Castelo de S. Filipe, Angra, 1642)
+  source_ids:
+  - PUB-0004
+notes:
+- text: >-
+    Pedro Lourenço Machado: born 2 February 1571, Santa Bárbara, Terceira; died 27 January
+    1655, Santa Bárbara (PUB-0004, p.312). Married Maria Fernandes da Costa (P-0130) at
+    Santa Bárbara on 14 June 1598; family F-0065. Father of António Martins Fagundes (P-0127).
+    Son of Antão Martins Fagundes × Bárbara Dias Vieira (Mendes Forjaz Vol. IV, § 5º, nº 4,
+    not read in this session). The "Machado" element of his name derives from his mother's
+    family (Bárbara Dias Vieira's connection to the Machado family is implied by the
+    compiler's naming pattern).
+- text: >-
+    Military record: "Capitão de uma companhia de 79 homens, que tomou parte no assalto do
+    Castelo de S. Filipe, de Angra em 1642" (Vol. IV). The Castelo de S. Filipe was the main
+    fortress of Angra do Heroísmo, the capital of Terceira; the 1642 assault was part of the
+    Portuguese Restoration War actions in the Azores following independence from Spain in 1640.
+    Pedro Lourenço's military role places him as an active participant in the Restoration.
+profile: >-
+  ## Interesting facts
+
+  - **[COMPILED]** Pedro Lourenço Machado was born 2 February 1571 in Santa Bárbara, Terceira,
+  and died 27 January 1655 — a life of nearly 84 years.
+
+  - **[COMPILED]** He commanded 79 men in the 1642 assault on the Castelo de S. Filipe, Angra
+  — part of the Portuguese Restoration War in the Azores, just two years after Portugal
+  declared independence from Spain in 1640. This places the family squarely in the events
+  of the Restoration.
+
+  - **[COMPILED]** He had at least nine children documented in the compilation, reflecting a
+  large established family in Santa Bárbara parish.
+
+  ## Identity
+
+  **Pedro Lourenço Machado** [COMPILED, name via PUB-0004] — born 2 February 1571, Santa
+  Bárbara, Terceira; died 27 January 1655, Santa Bárbara. Capitão. Son of Antão Martins
+  Fagundes × Bárbara Dias Vieira (PUB-0004 § 5º nº 4, not read). Married Maria Fernandes
+  da Costa (P-0130), 14 June 1598, Santa Bárbara; family F-0065. Father of António Martins
+  Fagundes (P-0127).
+
+  - **Nationality:** Portuguese (Azores)
+
+  ## Open questions
+
+  - Primary baptism record (2 Feb 1571, Santa Bárbara) and death record (27 Jan 1655): not held.
+  - His parents (Antão Martins Fagundes × Bárbara Dias Vieira, § 5º nº 4) are in Mendes Forjaz
+  but that section has not been read.
+profile_pt: >-
+  ## Fatos interessantes
+
+  - **[COMPILED]** Pedro Lourenço Machado nasceu a 2 de fevereiro de 1571 em Santa Bárbara,
+  Terceira, e faleceu a 27 de janeiro de 1655 — uma vida de quase 84 anos.
+
+  - **[COMPILED]** Comandou 79 homens no assalto ao Castelo de S. Filipe, Angra, em 1642 —
+  parte da Guerra da Restauração Portuguesa nos Açores, dois anos após Portugal declarar
+  independência da Espanha em 1640.
+
+  ## Identidade
+
+  **Pedro Lourenço Machado** [COMPILED, nome via PUB-0004] — nascido a 2 de fevereiro de 1571,
+  Santa Bárbara, Terceira; falecido a 27 de janeiro de 1655, Santa Bárbara. Capitão. Filho de
+  Antão Martins Fagundes × Bárbara Dias Vieira (PUB-0004 § 5º nº 4, não lido). Casou com
+  Maria Fernandes da Costa (P-0130), 14 de junho de 1598, Santa Bárbara; família F-0065.
+  Pai de António Martins Fagundes (P-0127).

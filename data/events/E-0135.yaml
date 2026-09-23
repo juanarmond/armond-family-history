@@ -1,0 +1,27 @@
+schema_version: 1
+id: E-0135
+event_type: birth
+date:
+  kind: exact
+  value: "1657-02-23"
+place_text: São Sebastião, Terceira, Azores
+participants:
+- person_id: P-0092
+  role: principal
+status: strong-evidence
+source_ids:
+- PUB-0005
+notes:
+- text: >-
+    Birth of Gaspar de Souto-Maior (P-0092, Gaspar Ferreira) on 23 February 1657, S. Sebastião,
+    Terceira. Source: Mendes Forjaz Vol. IX (PUB-0005, p.261): "Gaspar de Souto-Maior, b. em
+    S. Sebastião a 23.2.1657 e f. a 2.12.1727." Son of Belchior da Ponte Cardoso (P-0123) ×
+    Mariana Fagundes (P-0124), family F-0062. Compiled — no primary baptism image held.
+- text: >-
+    ⚠ The compiled death date (f. 2.12.1727 in S. Sebastião) conflicts with P-0092's documented
+    presence in Villa Rica, Minas Gerais (PAR-0018, son Joaquim José marrying in 1783). The
+    conflict is unresolved: either the 1727 date is an error (Gaspar emigrated and the compiler
+    lacked records of his Brazilian life), or P-0092 is the next generation (a son of this
+    Gaspar who also named himself Gaspar). This event records only the birth, which is
+    consistent across the compilation. The Azorean death is NOT modelled as an event for P-0092
+    pending resolution of this conflict.

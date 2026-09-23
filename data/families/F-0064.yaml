@@ -1,0 +1,65 @@
+schema_version: 1
+id: F-0064
+partners:
+- person_id: P-0127
+  role: spouse
+- person_id: P-0128
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PUB-0004
+  notes:
+  - text: >-
+      António Martins Fagundes (P-0127) × Catarina Machado de Faria (P-0128). Vol. IV
+      (PUB-0004, p.312) records: "António Martins Fagundes (ou Machado Fagundes), f. em
+      Stª Bárbara a 17.4.1664. Capitão de ordenanças. C. c. Catarina Machado de Faria
+      – vid. LEMOS, § 3º, nº 5 –." No marriage date or primary record held. The "vid. LEMOS"
+      cross-reference indicates Catarina's family is documented in the LEMOS section of the
+      Mendes Forjaz compilation, not yet read.
+children:
+- person_id: P-0124
+  parent_relationships:
+  - parent_id: P-0127
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PUB-0004
+    notes: []
+  - parent_id: P-0128
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PUB-0004
+    notes: []
+  notes: []
+documented_children:
+- name: António Machado (padre)
+  source_ids:
+  - PUB-0004
+- name: Manuel Machado (que saiu da Terceira — emigrated)
+  source_ids:
+  - PUB-0004
+- name: Margarida de Lemos Machado (m. André de Azedias, alferes; d.na Conceição 15.6.1658)
+  source_ids:
+  - PUB-0004
+- name: Inês de Lemos Machado (m. nas Lajes 15.2.1669 António Ferreira de Melo)
+  source_ids:
+  - PUB-0004
+- name: Pedro Lourenço Machado, alferes de ordenanças (m. nas Lajes 17.11.1669)
+  source_ids:
+  - PUB-0004
+- name: Guilherme Vieira (n. em Stª Bárbara)
+  source_ids:
+  - PUB-0004
+event_ids: []
+notes:
+- text: >-
+    António Martins Fagundes's name in the compilation alternates between "António Martins
+    Fagundes" and "Machado Fagundes" — the latter shows the Machado element adopted from
+    his mother's family (Maria Fernandes da Costa, also called "de Toledo"). He died in
+    Santa Bárbara (not S. Sebastião); his wife Catarina Machado de Faria's family line
+    (LEMOS § 3º nº 5) has not been read and her own dates are unknown.
+- text: >-
+    The Mendes Forjaz Vol. IV entry is the only source for this family. No primary vital
+    records for António Martins Fagundes or Catarina Machado de Faria are held.

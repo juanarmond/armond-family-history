@@ -1,0 +1,38 @@
+schema_version: 1
+id: P-0128
+preferred_name: Catarina Machado de Faria
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Catarina Machado de Faria
+  type: source
+  source_ids:
+  - PUB-0004
+event_ids: []
+family_ids:
+- F-0064
+notes:
+- text: >-
+    Catarina Machado de Faria: married António Martins Fagundes (P-0127); family F-0064.
+    Mother of Mariana Fagundes (P-0124). Her own family line is cited as "vid. LEMOS, § 3º,
+    nº 5" in Mendes Forjaz Vol. IV (PUB-0004) — the LEMOS section of the compilation has not
+    been read in this session. Her birth, death dates and parentage are therefore unknown from
+    held sources. No events are created for her as no dates are confirmed.
+profile: >-
+  ## Identity
+
+  **Catarina Machado de Faria** [COMPILED, name via PUB-0004] — married António Martins
+  Fagundes (P-0127); family F-0064. Mother of Mariana Fagundes (P-0124). Her family line
+  is in the LEMOS section of Mendes Forjaz Vol. IV (§ 3º, nº 5), not yet read.
+
+  - **Nationality:** Portuguese (Azores, presumed)
+  - **Dates:** unknown [OPEN — needs LEMOS § 3º nº 5 read]
+profile_pt: >-
+  ## Identidade
+
+  **Catarina Machado de Faria** [COMPILED, nome via PUB-0004] — casou com António Martins
+  Fagundes (P-0127); família F-0064. Mãe de Mariana Fagundes (P-0124). A sua linha familiar
+  consta na secção LEMOS da compilação de Mendes Forjaz Vol. IV (§ 3º, nº 5), ainda não lida.
+
+  - **Datas:** desconhecidas [OPEN — necessita leitura de LEMOS § 3º nº 5]

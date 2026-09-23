@@ -557,6 +557,40 @@ people:
       Born Nova Friburgo, RJ (CIV-0016), resolving the São Leopoldo (RS) "Celina
       Amalia Bohrer" as a namesake. Civil records register the name "Celina"; the
       1949 marriage used "Selina" (both preserved on P-0015).
+- person_id: P-0050
+  external_profiles:
+  - platform: FamilySearch
+    profile_id: L85Q-RY2
+    url: https://www.familysearch.org/tree/person/details/L85Q-RY2
+    usage: lead_only
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-09-23"
+    next_action: >-
+      Search Beinwil parish books (Kantonsarchiv Solothurn or equivalent microfilm) for
+      Jakob Borer baptism b. ~13 Dec 1801. Do NOT re-search Erschwil — the 1825 NF marriage
+      register's "Erswill" is a misread of "Beinwil" (confirmed 2026-09-23; see notes).
+    notes:
+    - text: >-
+        2026-09-23 — BOUNDED NEGATIVE on Erschwil parish books. Staatsarchiv Solothurn
+        (Gasche Erich) confirmed the Erschwil holdings are 3 binder sets; shelf photo PDF
+        received (rec-erschwil-staatsarchiv-kirchenbuecher-shelf-photo-2026-09-23.pdf).
+        The FS collaborative tree (L85Q-RY2) records a Beinwil baptism 13 Dec 1801 for Jakob
+        Borer, establishing that the 1825 Nova Friburgo marriage register's parish reading
+        "Erswill" is a misread of "Beinwil" (both are Canton Solothurn parishes, but Beinwil
+        is the correct one). All prior Erschwil parish-book searches for this Jakob Borer's
+        baptism are therefore a bounded negative on the wrong parish, not a negative on the
+        record itself. Next action: search Beinwil, Canton Solothurn (Kantonsarchiv Solothurn).
+        Logged in correspondence-log C-011 and triage ledger 2026-09-23.
+  notes:
+  - text: >-
+      Swiss immigrant ancestor (BORER I line); father of Francisco José Bohrer (P-0034).
+      Origin primary-confirmed by his own 1825 Nova Friburgo marriage (PAR-0059): named
+      as "baptizado na freg.a de Erswill" — now known to be a misread of Beinwil (Canton
+      Solothurn). Distinct from Jacob Borer of Grindel (P-0100), father of Laurent Borer
+      (P-0068, BORER II line).
 - person_id: P-0016
   external_profiles: []
   records:
@@ -923,6 +957,17 @@ people:
       KEY SESMARIA LEAD (SILB correction): the earlier 2026-08-13 "0 grantees" SILB
       bounded-negative is CORRECTED — SILB's MG coverage was incomplete. The three APM
       SG documents are the primary evidence of the grants.
+  - text: >-
+      2026-09-22 (Nilza Cantoni; corrected page delivered): Leopoldina alistamento
+      eleitoral 1870–1873, Livro 26, p.19recto, entry #201 — **Francisco Ferreira
+      Armonde**, 28 anos, casado, lavrador, Meia Pataca. Implies birth ~1842–45. File:
+      rec-leopoldina-alistamento-eleitoral-1870-1873-meapataca-livro26-p19recto.tif
+      (in retrieval drop, not yet catalogued). Classification: LEAD / collateral context
+      — confirms a Ferreira Armonde active as a lavrador in the Leopoldina comarca (Meia
+      Pataca district) by 1870, geographically consistent with P-0016's family area.
+      The electoral roll has NO filiation column, so this record does not directly name
+      P-0016's parents. It is collateral context for the parentage search, not evidence.
+      Logged in correspondence-log C-012 and triage ledger 2026-09-23.
 - person_id: P-0017
   external_profiles: []
   records:

@@ -1,0 +1,124 @@
+schema_version: 1
+id: P-0123
+preferred_name: Belchior da Ponte Cardoso
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: Belchior da Ponte Cardoso
+  type: source
+  source_ids:
+  - PUB-0005
+  - PAR-0086
+- value: Belchior da Ponte Souto-Maior
+  type: alias
+  source_ids:
+  - PUB-0005
+event_ids:
+- E-0126
+- E-0127
+- E-0128
+family_ids:
+- F-0063
+- F-0062
+occupations:
+- value: Alferes de ordenanças
+  source_ids:
+  - PUB-0005
+notes:
+- text: >-
+    Born 10 January 1615, S. Sebastião, Terceira (Azores); died 26 June 1687, S. Sebastião.
+    Alferes de ordenanças (Second Lieutenant of the militia). Married twice: first to Bárbara
+    Gato (no surviving children, S.g.); second to Mariana Fagundes at Santa Bárbara on 26
+    September 1650 (F-0062). Lived at Belo Jardim, in the termo of the vila da Praia, Terceira.
+    Son of Manuel da Ponte Valadão (P-0125) × Maria da Costa Leonardes (P-0126) (F-0063).
+    All facts from Mendes Forjaz Vol. IX (PUB-0005), corroborated by primary parish marriage
+    image PAR-0086.
+- text: >-
+    Nationality Portuguese: born in the Azores (then Portuguese Crown territory). The Azores
+    were an integral part of the Portuguese Crown; persons born there are recorded as Portuguese,
+    not separately "Azorean" for nationality purposes.
+- text: >-
+    First marriage (Bárbara Gato): not modelled as a separate family entity since Vol. IX states
+    S.g. (sem geração — no surviving children). No primary record held for this first marriage.
+profile: >-
+  ## Interesting facts
+
+  - **[COMPILED]** Belchior da Ponte Cardoso was born 10 January 1615 in S. Sebastião, Terceira,
+  and died 26 June 1687 in S. Sebastião — a long life of 72 years on the island where he was
+  born.
+
+  - **[COMPILED]** He held the rank of Alferes de ordenanças (Second Lieutenant of the colonial
+  militia) — an officer-level rank attesting to family standing in 17th-century Azorean society.
+
+  - **[COMPILED]** He married twice: first to Bárbara Gato (no surviving children), then to
+  Mariana Fagundes on 26 September 1650 at the church of Santa Bárbara — the marriage that
+  produced his line into Brazil.
+
+  - **[COMPILED]** The couple lived at "Belo Jardim, termo da vila da Praia" — a named place
+  in Terceira, distinct from the parish of S. Sebastião where their children were baptised.
+
+  ## Identity
+
+  **Belchior da Ponte Cardoso** [COMPILED, name via PUB-0005 and PAR-0086] — born 10 January
+  1615, S. Sebastião, Terceira; died 26 June 1687, S. Sebastião. Also known as "Belchior da
+  Ponte Souto-Maior." Son of Manuel da Ponte Valadão (P-0125) × Maria da Costa Leonardes
+  (P-0126), family F-0063. Married Mariana Fagundes (P-0124) on 26 September 1650 at Santa
+  Bárbara; family F-0062.
+
+  - **Military rank:** Alferes de ordenanças [COMPILED, PUB-0005]
+  - **Residence:** Belo Jardim, termo da vila da Praia, Terceira [COMPILED, PUB-0005]
+  - **Nationality:** Portuguese (born Azores, integral Portuguese territory)
+
+  ## Standing and family
+
+  Belchior's father Manuel da Ponte Valadão traces back to the Gaspar de Souto Cardoso /
+  Catarina Valadão family (Vol. IX gen.3). The "Valadão" element of his father's name came
+  from his grandmother. His officer rank and the family's documented multi-generation presence
+  in S. Sebastião suggest solid established-colonist standing in Terceira.
+
+  ## Open questions
+
+  - Primary baptism record (10 Jan 1615 S. Sebastião) and death record (26 Jun 1687): not
+  held; compiled data only. BPAR Angra S. Sebastião baptism books for 1615 and death books
+  for 1687 are on Culturacores and could be pulled.
+  - First marriage to Bárbara Gato: date and record unknown; the Vol. IX S.g. notation
+  establishes no surviving children but no date is given.
+  - The exact emigration path of his son Gaspar to Brazil is not established.
+profile_pt: >-
+  ## Fatos interessantes
+
+  - **[COMPILED]** Belchior da Ponte Cardoso nasceu a 10 de janeiro de 1615 em S. Sebastião,
+  Terceira, e faleceu a 26 de junho de 1687 em S. Sebastião — uma longa vida de 72 anos na
+  ilha onde nasceu.
+
+  - **[COMPILED]** Detinha a patente de Alferes de ordenanças (2º tenente da milícia colonial)
+  — patente de oficial que atesta o status familiar na sociedade açoriana do século XVII.
+
+  - **[COMPILED]** Casou duas vezes: primeiro com Bárbara Gato (sem filhos sobreviventes),
+  depois com Mariana Fagundes em 26 de setembro de 1650, na Igreja de Santa Bárbara — o
+  casamento que originou sua linhagem no Brasil.
+
+  - **[COMPILED]** O casal viveu no "Belo Jardim, termo da vila da Praia" — um lugar nomeado
+  na Terceira, distinto da freguesia de S. Sebastião onde os filhos foram baptizados.
+
+  ## Identidade
+
+  **Belchior da Ponte Cardoso** [COMPILED, nome via PUB-0005 e PAR-0086] — nascido a 10 de
+  janeiro de 1615, S. Sebastião, Terceira; falecido a 26 de junho de 1687, S. Sebastião.
+  Também conhecido como "Belchior da Ponte Souto-Maior." Filho de Manuel da Ponte Valadão
+  (P-0125) × Maria da Costa Leonardes (P-0126), família F-0063. Casou com Mariana Fagundes
+  (P-0124) a 26 de setembro de 1650 em Santa Bárbara; família F-0062.
+
+  - **Patente militar:** Alferes de ordenanças [COMPILED, PUB-0005]
+  - **Residência:** Belo Jardim, termo da vila da Praia, Terceira [COMPILED, PUB-0005]
+  - **Nacionalidade:** portuguesa (nascido nos Açores, território português integral)
+
+  ## Questões em aberto
+
+  - Registo primário de baptismo (10 jan. 1615, S. Sebastião) e de óbito (26 jun. 1687):
+  não disponíveis; dados compilados apenas. Os livros de baptismos de S. Sebastião do BPAR
+  Angra para 1615 e os livros de óbitos de 1687 estão no Culturacores e poderiam ser obtidos.
+  - Primeiro casamento com Bárbara Gato: data e registo desconhecidos; a notação S.g. do Vol. IX
+  confirma ausência de filhos sobreviventes, mas não fornece data.
+  - O caminho exato de emigração do filho Gaspar para o Brasil não está estabelecido.

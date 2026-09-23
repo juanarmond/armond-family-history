@@ -1,0 +1,59 @@
+schema_version: 1
+id: F-0063
+partners:
+- person_id: P-0125
+  role: spouse
+- person_id: P-0126
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PUB-0005
+  notes:
+  - text: >-
+      Manuel da Ponte Valadão (P-0125) × Maria da Costa Leonardes (P-0126), married date
+      unknown. Vol. IX (PUB-0005, p.259) records: "MANUEL DA PONTE VALADÃO – Ou Manuel da
+      Ponte Cardoso. F. em S. Sebastião a 19.8.1652. C. c. Maria da Costa Leonardes, f. em
+      S. Sebastião a 27.12.1654." No marriage date or primary record held. Both deaths are
+      stated in S. Sebastião; the marriage may also have been in S. Sebastião but is not
+      confirmed. Manuel was a son of Gaspar de Souto Cardoso × Catarina Valadão (compiled,
+      Vol. IX p.258).
+children:
+- person_id: P-0123
+  parent_relationships:
+  - parent_id: P-0125
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PUB-0005
+    notes: []
+  - parent_id: P-0126
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PUB-0005
+    notes: []
+  notes: []
+documented_children:
+- name: Baltazar (b.6.11.1612 S.Sebastião)
+  source_ids:
+  - PUB-0005
+- name: Francisco Cardoso da Ponte / Cardoso Souto-Maior (b.12.3.1617, d.28.12.1679, solteira)
+  source_ids:
+  - PUB-0005
+- name: António Coelho Souto-Maior (b.13.2.1619, d.17.7.1686, padre vigário S.Sebastião)
+  source_ids:
+  - PUB-0005
+event_ids: []
+notes:
+- text: >-
+    Manuel da Ponte Valadão is listed in Vol. IX under the Souto Cardoso family tree as
+    generation 4, son of Gaspar de Souto Cardoso × Catarina Valadão. His name variant
+    "Manuel da Ponte Cardoso" is given in the compilation. The "Valadão" element of his
+    name derives from his mother's family (Catarina Valadão). Both Manuel and Maria da Costa
+    Leonardes died in S. Sebastião within two years of each other (1652, 1654).
+- text: >-
+    No primary record of this marriage or of Manuel's own birth is held. His parentage
+    (Gaspar de Souto Cardoso × Catarina Valadão) is from the compiled genealogy Vol. IX
+    and is not separately evidenced by a primary source. This family entity is therefore
+    modelled at strong-evidence based on the Mendes Forjaz compilation.

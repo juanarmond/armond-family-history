@@ -1,0 +1,20 @@
+schema_version: 1
+id: E-0132
+event_type: birth
+date:
+  kind: exact
+  value: "1571-02-02"
+place_text: Santa Bárbara, Terceira, Azores
+participants:
+- person_id: P-0129
+  role: principal
+status: strong-evidence
+source_ids:
+- PUB-0004
+notes:
+- text: >-
+    Birth of Pedro Lourenço Machado (P-0129) on 2 February 1571, Santa Bárbara, Terceira.
+    Source: Mendes Forjaz Vol. IV (PUB-0004, p.312): "B. em Stª Bárbara a 2.2.1571."
+    Compiled — no primary baptism image held. This is a specific date likely drawn from
+    a parish baptism register that the compiler consulted; Culturacores Santa Bárbara books
+    for 1571 would be the target for confirmation.

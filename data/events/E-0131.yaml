@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0131
+event_type: death
+date:
+  kind: exact
+  value: "1664-04-17"
+place_text: Santa Bárbara, Terceira, Azores
+participants:
+- person_id: P-0127
+  role: principal
+status: strong-evidence
+source_ids:
+- PUB-0004
+notes:
+- text: >-
+    Death of António Martins Fagundes (P-0127) on 17 April 1664, Santa Bárbara, Terceira.
+    Source: Mendes Forjaz Vol. IV (PUB-0004, p.312): "António Martins Fagundes (ou Machado
+    Fagundes), f. em Stª Bárbara a 17.4.1664." Compiled — no primary death image held.

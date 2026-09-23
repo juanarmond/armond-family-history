@@ -1,0 +1,20 @@
+schema_version: 1
+id: E-0136
+event_type: death
+date:
+  kind: exact
+  value: "1684-07-07"
+place_text: São Sebastião, Terceira, Azores
+participants:
+- person_id: P-0124
+  role: principal
+status: strong-evidence
+source_ids:
+- PUB-0004
+notes:
+- text: >-
+    Death of Mariana Fagundes (P-0124) on 7 July 1684, S. Sebastião, Terceira.
+    Source: Mendes Forjaz Vol. IV (PUB-0004, p.312): "Mariana Fagundes, f. em S. Sebastião
+    a 7.7.1684." Compiled — no primary death image held. She predeceased her husband Belchior
+    da Ponte Cardoso (P-0123) by about three years (d.26.6.1687). Their son Gaspar was by
+    then about 27 years old (b.23.2.1657).

@@ -1,0 +1,174 @@
+schema_version: 1
+id: PUB-0005
+title: >-
+  Genealogias da Ilha Terceira, Vol. IX — SOUTO-MAIOR section, § 1º (Mendes Forjaz compiler)
+title_pt: >-
+  Genealogias da Ilha Terceira, Vol. IX — secção SOUTO-MAIOR, § 1º (compilado por Mendes Forjaz)
+record_type: Published genealogical compilation
+record_category: published_genealogy
+source_form: authored_narrative
+information_quality: secondary
+evidence_type: indirect
+usage: evidence
+repository:
+  name: Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR Angra), Terceira, Azores
+  archive_or_registry: >-
+    Genealogias da Ilha Terceira compiled by Doutor Luís Bernardo Leite de Ataíde Mendes Forjaz;
+    Vol. IX covers the SOUTO-MAIOR surname family. PDF held in research/from-retrieval/resources/
+    source-books/genealogias-ilha-terceira-vol9-mendes-forjaz.pdf; evidence copy archived at
+    evidence/publications/PUB-0005-genealogias-ilha-terceira-vol9-souto-maior.pdf.
+  collection: Genealogias da Ilha Terceira (multi-volume series)
+  book: >-
+    Vol. IX, § 1º, pp. 257–261 — SOUTO-MAIOR / Ponte Cardoso family; specifically the lines
+    through Gaspar de Souto Cardoso (gen 3) → Manuel da Ponte Valadão (gen 4) → Belchior da
+    Ponte Cardoso (gen 5) → Gaspar de Souto-Maior (gen 6, b.23.2.1657).
+  catalogue_reference: >-
+    Mendes Forjaz (compiler), Genealogias da Ilha Terceira, Vol. IX, § 1º, pp. 257–261.
+    The compilation draws on Terceira parish registers, notarial records, and ecclesiastical
+    archives. Received from BPAR Angra as part of the 2026-09-23 retrieval delivery.
+access_date: "2026-09-23"
+language: pt-PT
+transcription: >-
+  [p.258 — GASPAR DE SOUTO CARDOSO (3)]
+  "GASPAR DE SOUTO CARDOSO – F. na Praia a 15.2.1618, em idade avançada (sep. na Matriz).
+  C. c. Catarina Valadão – vid. VALADÃO, § 1º, nº 4 –."
+  Children include:
+  "4 Manuel da Ponte Valadão, que segue."
+  "4 Roque da Ponte Cardoso, b. na Praia a 13.2.1575. C. c. Beatriz Álvares Cardoso.
+  Viveram no Pico de Gil de Borba."
+  "4 Belchior da Ponte Maciel, que segue no § 3º."
+
+  [p.259 — MANUEL DA PONTE VALADÃO (4)]
+  "MANUEL DA PONTE VALADÃO – Ou Manuel da Ponte Cardoso. F. em S. Sebastião a 19.8.1652.
+  C. c. Maria da Costa Leonardes, f. em S. Sebastião a 27.12.1654."
+  Children include (gen 5):
+  "5 Baltazar, b. em S. Sebastião a 6.11.1612."
+  "5 Belchior da Ponte Cardoso, que segue."
+  "5 Francisco Cardoso da Ponte (ou Cardoso Souto-Maior), b. em S. Sebastião a 12.3.1617
+  e f. em S. Sebastião a 28.12.1679. Solteira."
+  "5 António Coelho Souto-Maior, b. em S. Sebastião a 13.2.1619 e f. em S. Sebastião a
+  17.7.1686 [footnote 9: Deve ter morrido de repente pois é ele que assina o registo de
+  óbito anterior, lavrado a 6 de Junho]. Padre vigário da Matriz de S. Sebastião."
+
+  [p.260 — BELCHIOR DA PONTE CARDOSO (5)]
+  "BELCHIOR DA PONTE CARDOSO – Ou Belchior da Ponte Souto-Maior. B. em S. Sebastião a
+  10.1.1615 e f. em S. Sebastião a 26.6.1687. Alferes de ordenanças.
+  C. 1ª vez com Bárbara Gato. S.g.
+  C. 2ª vez em Stª Bárbara a 26.9.1650 com Mariana Fagundes – vid. FAGUNDES, § 6º, nº 7 –.
+  Viveram no Belo Jardim, termo da vila da Praia."
+  Children of 2nd marriage (gen 6):
+  "6 Mariana Fagundes, c. em S. Sebastião a 30.3.1693 com António Gonçalves da Costa,
+  viúvo de Maria de S. Mateus."
+  "6 Maria, b. em S. Sebastião a 5.9.1651."
+  "6 Manuel, b. em S. Sebastião a 13.10.1652."
+  "6 António Coelho Souto-Maior, que segue."
+
+  [p.261 — continuation of Belchior's children]
+  "6 Manuel, b. em S. Sebastião a 16.1.1656. Solteiro."
+  "6 Gaspar de Souto-Maior, b. em S. Sebastião a 23.2.1657 e f. a 2.12.1727.
+  Capitão de ordenanças.
+  C. no Porto Judeu a 5.6.1687 com D. Ana de Sousa – vid. REGO, § 3º, nº 6 –. S.g.
+  [wait — checking actual text: 'C. 1ª vez na Igreja do Convento da Graça em Angra
+  (reg. S. Sebastião) a 2.10.1690 com D. Margarida Machado – vid. DRUMMOND, § 3º, nº 5 –.
+  C.g. que aí segue, por ter preferido os apelidos maternos.
+  C. 2ª vez em S. Sebastião a 8.2.1694 com Maria Mendes de Borba [footnote 10], filha de
+  Bartolomeu Vieira de Borba e de Iria Mendes.']"
+  Filhos do 2º casamento (gen 7):
+  "7 Maria, b. em S. Sebastião a 16.2.1698."
+  "7 António, b. em S. Sebastião a 4.6.1700."
+  "7 Lourença, b. em S. Sebastião a 17.8.1701."
+  "6 Maria, b. em S. Sebastião a 18.5.1662."
+  "6 Belchior da Ponte Cardoso, b. em S. Sebastião a 20.5.1664. C.c. Joana Baptista."
+  "6 Isabel de Souto-Maior, b. em S. Sebastião a 19.9.1666."
+
+transcription_pt: >-
+  [p.258 — GASPAR DE SOUTO CARDOSO (3)]
+  Pai: Catarina Valadão. Filhos (gen 4): Manuel da Ponte Valadão, Roque da Ponte Cardoso,
+  Belchior da Ponte Maciel (§ 3).
+  [p.259 — MANUEL DA PONTE VALADÃO (4)]
+  "MANUEL DA PONTE VALADÃO – Ou Manuel da Ponte Cardoso. F. em S. Sebastião a 19.8.1652.
+  C. c. Maria da Costa Leonardes, f. em S. Sebastião a 27.12.1654."
+  Filhos (gen 5) incluem: Baltazar, Belchior da Ponte Cardoso, Francisco Cardoso da Ponte,
+  António Coelho Souto-Maior.
+  [p.260 — BELCHIOR DA PONTE CARDOSO (5)]
+  "BELCHIOR DA PONTE CARDOSO – Ou Belchior da Ponte Souto-Maior. N. em S. Sebastião a
+  10.1.1615 e f. em S. Sebastião a 26.6.1687. Alferes de ordenanças.
+  C. 1ª vez com Bárbara Gato. S.g.
+  C. 2ª vez em Stª Bárbara a 26.9.1650 com Mariana Fagundes – vid. FAGUNDES, § 6º, nº 7.
+  Viveram no Belo Jardim, termo da vila da Praia."
+  Filhos do 2º casamento listados às pp. 260–261.
+  [p.261] Gaspar de Souto-Maior, n. em S. Sebastião a 23.2.1657, f. a 2.12.1727.
+abstract: >-
+  Genealogical compilation for the SOUTO-MAIOR / Ponte Cardoso family on Terceira Island.
+  § 1º traces the Gaspar de Souto Cardoso (died 15.2.1618) line through his son Manuel da
+  Ponte Valadão (died 19.8.1652) × Maria da Costa Leonardes (died 27.12.1654) to their son
+  Belchior da Ponte Cardoso (b.10.1.1615, d.26.6.1687), Alferes de ordenanças. Belchior
+  married Mariana Fagundes at Santa Bárbara on 26.9.1650. Their son Gaspar de Souto-Maior
+  was born 23.2.1657. This Gaspar is the ancestor identified as P-0092 (Gaspar Ferreira)
+  in the Armond-Toledo repository — note the death date conflict (Vol. IX gives d.2.12.1727
+  in São Sebastião; P-0092 is placed in Villa Rica, Brazil, with a son marrying in 1783).
+abstract_pt: >-
+  Compilação genealógica da família SOUTO-MAIOR / Ponte Cardoso na Ilha Terceira.
+  O § 1º traça a linha de Gaspar de Souto Cardoso (f. 15.2.1618) pelo filho Manuel da Ponte
+  Valadão (f. 19.8.1652) × Maria da Costa Leonardes (f. 27.12.1654) até o neto Belchior da
+  Ponte Cardoso (n.10.1.1615, f.26.6.1687), Alferes de ordenanças. Belchior casou com Mariana
+  Fagundes em Stª Bárbara a 26.9.1650. O filho Gaspar de Souto-Maior nasceu a 23.2.1657.
+  Este Gaspar é o ancestral identificado como P-0092 (Gaspar Ferreira) — nota: conflito de
+  data de óbito (Vol. IX dá f.2.12.1727 em S. Sebastião; P-0092 situa-se em Villa Rica, Brasil,
+  com filho casando em 1783).
+reliability:
+  assessment: >-
+    Mendes Forjaz is a rigorous Terceira genealogical compiler. Treated as strong-evidence
+    for specific dates and parentage. Key data for our line confirmed internally across
+    Vol. IV × Vol. IX cross-references: both volumes record the Belchior × Mariana 1650
+    marriage. Belchior's birth (10.1.1615) and death (26.6.1687) are compiled-only; his
+    military rank (Alferes de ordenanças) is stated without documentary reference. Manuel da
+    Ponte Valadão and Maria da Costa Leonardes death dates (1652, 1654) are stated by the
+    compiler. Gaspar de Souto-Maior's birth (23.2.1657) and death (2.12.1727) are compiled-only.
+    ⚠ The stated death date (2.12.1727 in S. Sebastião) conflicts with his role as ancestor of
+    P-0092 who was in Villa Rica c.1750–1783; this is unresolved and flagged in P-0092 notes.
+  informant: Mendes Forjaz (compiler)
+  limitations: >-
+    Secondary compiled source; no primary parish images held for Belchior's own baptism or
+    death, for Manuel × Maria da Costa's marriage, or for Gaspar's Azorean vital records.
+    The Gaspar de Souto-Maior death date conflict with P-0092's Brazil context is a material
+    uncertainty (see P-0092 notes). Belchior's first wife (Bárbara Gato) and that marriage
+    are stated S.g. (no children); we do not hold a primary image for that event.
+digital_file:
+  path: evidence/publications/PUB-0005-genealogias-ilha-terceira-vol9-souto-maior.pdf
+  sha256: 5afba9dc99b26078d7cff6dc3fb77eb742035f75d2d9305460e84233f60d65ea
+linked_people:
+- P-0092
+- P-0123
+- P-0124
+- P-0125
+- P-0126
+linked_families:
+- F-0062
+- F-0063
+linked_events:
+- E-0126
+- E-0127
+- E-0128
+- E-0129
+- E-0130
+- E-0135
+linked_places: []
+private: false
+notes:
+- text: >-
+    The genealogical chain from the repository root to Belchior, as established by Vol. IX:
+    Gaspar de Souto Cardoso (gen 3) × Catarina Valadão → Manuel da Ponte Valadão (gen 4)
+    × Maria da Costa Leonardes → Belchior da Ponte Cardoso (gen 5) × Mariana Fagundes →
+    Gaspar de Souto-Maior (gen 6, b.23.2.1657, identified as P-0092). The STATUS description
+    "Roque→Manuel→Belchior chain" is imprecise: Roque da Ponte Cardoso (b.13.2.1575) is
+    Manuel's BROTHER (not father); the grandfather is Gaspar de Souto Cardoso × Catarina Valadão.
+- text: >-
+    Gaspar de Souto-Maior (gen 6) death date: the compilation gives f.2.12.1727 in S. Sebastião.
+    However, P-0092 (Gaspar Ferreira) is documented in Villa Rica, Minas Gerais, with his son
+    marrying in 1783. For P-0092 to be the same Gaspar, either the 1727 date is erroneous, or
+    P-0092 is a different (next-generation) Gaspar. This conflict must be resolved by future
+    primary research. The Vol. IX Gaspar's 2nd-marriage children (born 1698–1701) could be
+    the parents of a subsequent Gaspar who emigrated; no primary evidence resolves this yet.
+    The F-0062 connection to P-0092 is therefore flagged [COMPILED/LEAD] until primary evidence
+    confirms the emigration link.

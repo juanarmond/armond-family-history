@@ -4703,3 +4703,125 @@ documents:
       - >-
         Confirms Capitão José Ferreira Armonde held the Capitão rank by 1805 (promoted from "plain
         José" of 1791 in GOV-0009) and remained in Barbacena. Usage: context_only.
+  - inventory_id: DOC-0106
+    status: catalogued
+    added_date: "2026-09-23"
+    apparent_record_type: Published genealogical compilation (PDF, full volume)
+    apparent_people:
+      - Pedro Lourenço Machado (P-0129; b.2.2.1571 Stª Bárbara, d.27.1.1655)
+      - Maria Fernandes da Costa (P-0130; m.14.6.1598 Stª Bárbara)
+      - António Martins Fagundes (P-0127; d.17.4.1664 Stª Bárbara)
+      - Catarina Machado de Faria (P-0128)
+      - Mariana Fagundes (P-0124; d.7.7.1684, m.26.9.1650)
+    apparent_event: marriage
+    image_quality: adequate
+    provenance: >-
+      BPAR Angra delivery 2026-09-23 — Mendes Forjaz compiled genealogy Vol. IV;
+      source-books folder research/from-retrieval/resources/source-books/. Covers
+      FAGUNDES § 6º pp.312-313.
+    rights_status: private-research
+    files:
+      - path: evidence/publications/PUB-0004-genealogias-ilha-terceira-vol4-fagundes.pdf
+        sha256: b6c0afc7a49ad55ec6f7660b3fc95b8b8fb1b83ef5493738f3c3dbb10d240403
+        media_type: application/pdf
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PUB-0004
+    notes:
+      - >-
+        Mendes Forjaz Vol. IV — FAGUNDES section. Key pages for our line: pp.312-313
+        (§ 6º: Pedro Lourenço Machado → António Martins Fagundes → Mariana Fagundes).
+  - inventory_id: DOC-0107
+    status: catalogued
+    added_date: "2026-09-23"
+    apparent_record_type: Published genealogical compilation (PDF, full volume)
+    apparent_people:
+      - Belchior da Ponte Cardoso (P-0123; b.10.1.1615, d.26.6.1687 S.Sebastião)
+      - Manuel da Ponte Valadão (P-0125; d.19.8.1652 S.Sebastião)
+      - Maria da Costa Leonardes (P-0126; d.27.12.1654 S.Sebastião)
+      - Gaspar de Souto-Maior (P-0092; b.23.2.1657 S.Sebastião)
+    apparent_event: birth
+    image_quality: adequate
+    provenance: >-
+      BPAR Angra delivery 2026-09-23 — Mendes Forjaz compiled genealogy Vol. IX;
+      source-books folder research/from-retrieval/resources/source-books/. Covers
+      SOUTO-MAIOR § 1º pp.257-261.
+    rights_status: private-research
+    files:
+      - path: evidence/publications/PUB-0005-genealogias-ilha-terceira-vol9-souto-maior.pdf
+        sha256: 5afba9dc99b26078d7cff6dc3fb77eb742035f75d2d9305460e84233f60d65ea
+        media_type: application/pdf
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PUB-0005
+    notes:
+      - >-
+        Mendes Forjaz Vol. IX — SOUTO-MAIOR section. Key pages for our line: pp.257-261
+        (§ 1º: Gaspar de Souto Cardoso → Manuel da Ponte Valadão → Belchior da Ponte Cardoso
+        → Gaspar de Souto-Maior b.1657 = P-0092).
+  - inventory_id: DOC-0108
+    status: catalogued
+    added_date: "2026-09-23"
+    apparent_record_type: Parish marriage register (3 pages)
+    apparent_people:
+      - Belchior da Ponte Cardoso (P-0123)
+      - Mariana Fagundes (P-0124)
+    apparent_event: marriage
+    image_quality: partly-illegible
+    provenance: >-
+      Culturacores probe 2026-09-22/23; Santa Bárbara (Terceira) casamentos register c.1640-1660.
+      Three pages downloaded: 0071 (context before), 0072 (marriage act), 0073 (context after 1651).
+      Source filenames rec-armond-belchior-mariana-santa-barbara-1650-casamentos-0071/0072/0073.jpg.
+    rights_status: private-research
+    files:
+      - path: evidence/parish/PAR-0086-belchior-mariana-santabarbara-casamentos-1650-p1.jpg
+        sha256: 2626bf1c04da4695fdf073561a2cc125c00a252cdda3267cebca5fceeaa34a28
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 511
+          pixel_height: 702
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/parish/PAR-0086-belchior-mariana-santabarbara-casamentos-1650-p2.jpg
+        sha256: cf5d898bd577c3bedb14835bc91d30831a0ee9dd8314bb0ec43faa6a11521674
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 511
+          pixel_height: 702
+        privacy_review: cleared
+        sensitive_content: []
+      - path: evidence/parish/PAR-0086-belchior-mariana-santabarbara-casamentos-1650-p3.jpg
+        sha256: 1f50eac53759d0be3f2643b2eed117992f022941230d9a8829a3112dbc9a3b4c
+        media_type: image/jpeg
+        role: primary
+        preservation:
+          acquisition_method: authorised-original-download
+          resolution_status: highest-authorised
+          pixel_width: 511
+          pixel_height: 702
+        privacy_review: cleared
+        sensitive_content: []
+    duplicate_of: null
+    proposed_source_id: PAR-0086
+    notes:
+      - >-
+        Image p2 (0072) is the Belchior × Mariana marriage act: marginal annotation names
+        both parties, body text confirms 1650 date. Images p1 (0071) and p3 (0073) are
+        context register pages (other marriages). Resolution is limited (511×702 px); a
+        higher-resolution rescan from BPAR Angra is needed for full verbatim transcription.

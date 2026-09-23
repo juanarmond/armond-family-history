@@ -1,0 +1,21 @@
+schema_version: 1
+id: E-0134
+event_type: marriage
+date:
+  kind: exact
+  value: "1598-06-14"
+place_text: Santa Bárbara, Terceira, Azores
+participants:
+- person_id: P-0129
+  role: spouse
+- person_id: P-0130
+  role: spouse
+status: strong-evidence
+source_ids:
+- PUB-0004
+notes:
+- text: >-
+    Marriage of Pedro Lourenço Machado (P-0129) × Maria Fernandes da Costa (P-0130) on
+    14 June 1598, Santa Bárbara, Terceira. Source: Mendes Forjaz Vol. IV (PUB-0004, p.312):
+    "C. em Stª Bárbara a 14.6.1598 com Maria Fernandes da Costa (ou de Toledo), filha de
+    Belchior Fernandes da Costa e de Beatriz Pires." Compiled — no primary marriage image held.

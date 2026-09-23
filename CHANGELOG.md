@@ -5,6 +5,14 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Terceira Azorean line extended three generations (2026-09-23)
+
+New sources: PUB-0004 (Mendes Forjaz, Genealogias da Ilha Terceira Vol.IV), PUB-0005 (Vol.IX), PAR-0086 (Santa Bárbara casamentos 1650, primary marriage act). New people: Belchior da Ponte Cardoso (P-0123) × Mariana Fagundes (P-0124, F-0062); Belchior's parents Manuel da Ponte Valadão (P-0125) × Maria da Costa Leonardes (P-0126, F-0063); Mariana's parents António Martins Fagundes (P-0127) × Catarina Machado de Faria (P-0128, F-0064); Mariana's grandparents Pedro Lourenço Machado (P-0129) × Maria Fernandes da Costa (P-0130, F-0065). Gaspar Ferreira (P-0092) linked to F-0062. Total: +8 people, +4 families, +11 events, +3 sources, +5 evidence files.
+
+### Corrected — Jakob Borer (P-0050) baptized in Beinwil, not Erschwil (2026-09-23)
+
+Staatsarchiv Solothurn confirmed Erschwil parish holdings searched (bounded negative). FS tree (L85Q-RY2) confirms Beinwil, Canton Solothurn. The 1825 NF marriage register's "Erswill" is a misread of "Beinwil". record-coverage updated; next action is Beinwil parish books.
+
 ### Added — APM sesmaria sources (GOV-0009/0010/0011) and PRB-0009 certidão extension (2026-09-22)
 
 Full data intake of the 2026-09-19/22 FamilySearch retrieval drop (55 images):

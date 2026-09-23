@@ -1,0 +1,19 @@
+schema_version: 1
+id: E-0130
+event_type: death
+date:
+  kind: exact
+  value: "1654-12-27"
+place_text: São Sebastião, Terceira, Azores
+participants:
+- person_id: P-0126
+  role: principal
+status: strong-evidence
+source_ids:
+- PUB-0005
+notes:
+- text: >-
+    Death of Maria da Costa Leonardes (P-0126) on 27 December 1654, S. Sebastião, Terceira.
+    Source: Mendes Forjaz Vol. IX (PUB-0005, p.259): "C. c. Maria da Costa Leonardes, f.
+    em S. Sebastião a 27.12.1654." Compiled — no primary death image held. She died about
+    two years after her husband Manuel da Ponte Valadão (E-0129, d.19.8.1652).

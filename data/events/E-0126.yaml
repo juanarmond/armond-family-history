@@ -1,0 +1,20 @@
+schema_version: 1
+id: E-0126
+event_type: birth
+date:
+  kind: exact
+  value: "1615-01-10"
+place_text: São Sebastião, Terceira, Azores
+participants:
+- person_id: P-0123
+  role: principal
+status: strong-evidence
+source_ids:
+- PUB-0005
+notes:
+- text: >-
+    Birth of Belchior da Ponte Cardoso (P-0123) on 10 January 1615, S. Sebastião, Terceira.
+    Source: Mendes Forjaz Vol. IX (PUB-0005, p.260): "B. em S. Sebastião a 10.1.1615".
+    Compiled — no primary baptism image held. Status strong-evidence per the compilation;
+    would upgrade to confirmed if a primary baptism record is located in BPAR Angra São
+    Sebastião books (available via Culturacores).

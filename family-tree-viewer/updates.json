@@ -1,6 +1,47 @@
 {
- "generated": "2026-09-22T09:59:31Z",
+ "generated": "2026-09-23T12:07:50Z",
  "updates": [
+  {
+   "date": "2026-09-23",
+   "kind": "milestone",
+   "title": "Terceira (Azores) ancestral line extended three generations: Belchior da Ponte Cardoso (b. 1615) and his parents and grandparents are now modelled",
+   "title_pt": "Linha ancestral da Ilha Terceira estendida três gerações: Belchior da Ponte Cardoso (n. 1615) e seus pais e avós estão agora modelados",
+   "links": [
+    "P-0123",
+    "P-0124",
+    "P-0092"
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "kind": "document",
+   "title": "1791 colonial sesmaria grant to José Ferreira Armonde at Ribeirão da Barra, Freguesia da Igreja Nova — Alferes Francisco Ferreira Armonde named as northern boundary neighbor, proving the two are distinct individuals (SG-Cx.21-Doc.08, APM)",
+   "title_pt": "Concessão de sesmaria colonial de 1791 a José Ferreira Armonde no Ribeirão da Barra, Freguesia da Igreja Nova — Alferes Francisco Ferreira Armonde nomeado como confrontante ao norte, comprovando que os dois são indivíduos distintos (SG-Cx.21-Doc.08, APM)",
+   "primary": "GOV-0009",
+   "links": [
+    "P-0016"
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "kind": "document",
+   "title": "1792/1794 colonial sesmaria grant to Marianno José Ferreira Armonde, Borda do Campo, Barbacena — Escolástico Armonde named as southern boundary neighbor; Mariano resident at the ancestral Borda do Campo seat (SG-Cx.23-Doc.05, APM)",
+   "title_pt": "Concessão de sesmaria colonial de 1792/1794 a Marianno José Ferreira Armonde, Borda do Campo, Barbacena — Escolástico Armonde nomeado como confrontante ao sul; Mariano residente na sede ancestral de Borda do Campo (SG-Cx.23-Doc.05, APM)",
+   "primary": "GOV-0010",
+   "links": [
+    "P-0016"
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "kind": "document",
+   "title": "1805 Barbacena complaint by Capitão José Ferreira Armonde against the Juiz Ordinário over a prisoner release — confirms he held the Capitão rank and remained in Barbacena (SG-Cx.65-Doc.49, APM)",
+   "title_pt": "Queixa de 1805 em Barbacena por Capitão José Ferreira Armonde contra o Juiz Ordinário pela soltura de um preso — confirma que detinha o posto de Capitão e permanecia em Barbacena (SG-Cx.65-Doc.49, APM)",
+   "primary": "GOV-0011",
+   "links": [
+    "P-0016"
+   ]
+  },
   {
    "date": "2026-09-14",
    "kind": "milestone",
@@ -1219,36 +1260,6 @@
   {
    "date": "",
    "kind": "document",
-   "title": "1791 colonial sesmaria grant to José Ferreira Armonde at Ribeirão da Barra, Freguesia da Igreja Nova — Alferes Francisco Ferreira Armonde named as northern boundary neighbor, proving the two are distinct individuals (SG-Cx.21-Doc.08, APM)",
-   "title_pt": "Concessão de sesmaria colonial de 1791 a José Ferreira Armonde no Ribeirão da Barra, Freguesia da Igreja Nova — Alferes Francisco Ferreira Armonde nomeado como confrontante ao norte, comprovando que os dois são indivíduos distintos (SG-Cx.21-Doc.08, APM)",
-   "primary": "GOV-0009",
-   "links": [
-    "P-0016"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1792/1794 colonial sesmaria grant to Marianno José Ferreira Armonde, Borda do Campo, Barbacena — Escolástico Armonde named as southern boundary neighbor; Mariano resident at the ancestral Borda do Campo seat (SG-Cx.23-Doc.05, APM)",
-   "title_pt": "Concessão de sesmaria colonial de 1792/1794 a Marianno José Ferreira Armonde, Borda do Campo, Barbacena — Escolástico Armonde nomeado como confrontante ao sul; Mariano residente na sede ancestral de Borda do Campo (SG-Cx.23-Doc.05, APM)",
-   "primary": "GOV-0010",
-   "links": [
-    "P-0016"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1805 Barbacena complaint by Capitão José Ferreira Armonde against the Juiz Ordinário over a prisoner release — confirms he held the Capitão rank and remained in Barbacena (SG-Cx.65-Doc.49, APM)",
-   "title_pt": "Queixa de 1805 em Barbacena por Capitão José Ferreira Armonde contra o Juiz Ordinário pela soltura de um preso — confirma que detinha o posto de Capitão e permanecia em Barbacena (SG-Cx.65-Doc.49, APM)",
-   "primary": "GOV-0011",
-   "links": [
-    "P-0016"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
    "title": "1975 marriage banns in O Processo (Conselheiro Lafaiete) for José Olavo Armond, naming his parents Aristão Ferreira Armond and Liliosa Paz Armond and his origin in Eugenópolis",
    "title_pt": "Edital de proclamas de casamento de 1975 em O Processo (Conselheiro Lafaiete) de José Olavo Armond, que nomeia seus pais Aristão Ferreira Armond e Liliosa Paz Armond e sua origem em Eugenópolis",
    "primary": "NWS-0001",
@@ -1269,6 +1280,16 @@
   {
    "date": "",
    "kind": "document",
+   "title": "Santa Bárbara marriage register — Belchior da Ponte Cardoso × Mariana Fagundes, 26 Sep 1650",
+   "title_pt": "Registo de casamentos de Santa Bárbara — Belchior da Ponte Cardoso × Mariana Fagundes, 26 set. 1650",
+   "primary": "PAR-0086",
+   "links": [
+    "P-0123"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
    "title": "1881 Leopoldina probate heir list naming the Toledo siblings, including Eliza Balbina de Toledo (wife of Simplício José Ferreira Armond)",
    "title_pt": "Lista de herdeiros de inventário de 1881, em Leopoldina, que nomeia os irmãos Toledo, incluindo Eliza Balbina de Toledo (esposa de Simplício José Ferreira Armond)",
    "primary": "PRB-0001",
@@ -1284,6 +1305,26 @@
    "primary": "PRB-0002",
    "links": [
     "P-0016"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "Genealogias da Ilha Terceira, Vol. IV — FAGUNDES section, § 6º (Mendes Forjaz compiler)",
+   "title_pt": "Genealogias da Ilha Terceira, Vol. IV — secção FAGUNDES, § 6º (compilado por Mendes Forjaz)",
+   "primary": "PUB-0004",
+   "links": [
+    "P-0124"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "Genealogias da Ilha Terceira, Vol. IX — SOUTO-MAIOR section, § 1º (Mendes Forjaz compiler)",
+   "title_pt": "Genealogias da Ilha Terceira, Vol. IX — secção SOUTO-MAIOR, § 1º (compilado por Mendes Forjaz)",
+   "primary": "PUB-0005",
+   "links": [
+    "P-0092"
    ]
   }
  ]

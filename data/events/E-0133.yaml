@@ -1,0 +1,20 @@
+schema_version: 1
+id: E-0133
+event_type: death
+date:
+  kind: exact
+  value: "1655-01-27"
+place_text: Santa Bárbara, Terceira, Azores
+participants:
+- person_id: P-0129
+  role: principal
+status: strong-evidence
+source_ids:
+- PUB-0004
+notes:
+- text: >-
+    Death of Pedro Lourenço Machado (P-0129) on 27 January 1655, Santa Bárbara, Terceira.
+    Source: Mendes Forjaz Vol. IV (PUB-0004, p.312): "f. em Stª Bárbara a 27.1.1655."
+    Compiled — no primary death image held. He died in Santa Bárbara, same parish where
+    he was born (1571) and married (1598). His wife Maria Fernandes da Costa's death date
+    is not given in the compilation.

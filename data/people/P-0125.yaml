@@ -1,0 +1,55 @@
+schema_version: 1
+id: P-0125
+preferred_name: Manuel da Ponte Valadão
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: Manuel da Ponte Valadão
+  type: source
+  source_ids:
+  - PUB-0005
+- value: Manuel da Ponte Cardoso
+  type: alias
+  source_ids:
+  - PUB-0005
+event_ids:
+- E-0129
+family_ids:
+- F-0063
+notes:
+- text: >-
+    Manuel da Ponte Valadão (also called Manuel da Ponte Cardoso): died 19 August 1652,
+    S. Sebastião, Terceira (PUB-0005, p.259). Married Maria da Costa Leonardes (P-0126),
+    who died 27 December 1654, S. Sebastião. Father of Belchior da Ponte Cardoso (P-0123).
+    Son of Gaspar de Souto Cardoso × Catarina Valadão (compiled, Vol. IX p.258); the
+    "Valadão" surname derives from his mother's family. His birth date is not given.
+- text: >-
+    His father Gaspar de Souto Cardoso × Catarina Valadão are not modelled as separate entities
+    in this repository batch (they are two generations above Belchior, and no primary records
+    for them are held). Their existence is noted in PUB-0005 notes for traceability.
+profile: >-
+  ## Identity
+
+  **Manuel da Ponte Valadão** [COMPILED, name via PUB-0005] — died 19 August 1652, S. Sebastião,
+  Terceira. Also named "Manuel da Ponte Cardoso." Son of Gaspar de Souto Cardoso × Catarina
+  Valadão. Married Maria da Costa Leonardes (P-0126); family F-0063. Father of Belchior da
+  Ponte Cardoso (P-0123).
+
+  - **Nationality:** Portuguese (born Azores)
+  - **Birth date/place:** unknown — not in the compilation [OPEN]
+
+  ## Open questions
+
+  - Birth date and primary records for Manuel and his parents: not held. His parentage
+  (Gaspar de Souto Cardoso × Catarina Valadão) is compiled.
+profile_pt: >-
+  ## Identidade
+
+  **Manuel da Ponte Valadão** [COMPILED, nome via PUB-0005] — falecido a 19 de agosto de 1652,
+  S. Sebastião, Terceira. Também chamado "Manuel da Ponte Cardoso." Filho de Gaspar de Souto
+  Cardoso × Catarina Valadão. Casou com Maria da Costa Leonardes (P-0126); família F-0063.
+  Pai de Belchior da Ponte Cardoso (P-0123).
+
+  - **Nacionalidade:** portuguesa (nascido nos Açores)
+  - **Data/local de nascimento:** desconhecidos — não informados na compilação [OPEN]

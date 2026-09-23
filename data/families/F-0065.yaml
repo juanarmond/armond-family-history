@@ -1,0 +1,77 @@
+schema_version: 1
+id: F-0065
+partners:
+- person_id: P-0129
+  role: spouse
+- person_id: P-0130
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PUB-0004
+  notes:
+  - text: >-
+      Pedro Lourenço Machado (P-0129) × Maria Fernandes da Costa (P-0130), married 14 June 1598
+      at Santa Bárbara, Terceira. Vol. IV (PUB-0004, p.312) records: "C. em Stª Bárbara a
+      14.6.1598 com Maria Fernandes da Costa (ou de Toledo), filha de Belchior Fernandes da
+      Costa e de Beatriz Pires." A primary marriage record is not held; the date is compiled.
+children:
+- person_id: P-0127
+  parent_relationships:
+  - parent_id: P-0129
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PUB-0004
+    notes: []
+  - parent_id: P-0130
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PUB-0004
+    notes: []
+  notes: []
+documented_children:
+- name: Pedro Lourenço Machado (gen.6, que segue in Vol.IV § 6)
+  source_ids:
+  - PUB-0004
+- name: Antão Martins Fagundes, o Giga (gen.6, d.28.1.1661 Stª Bárbara)
+  source_ids:
+  - PUB-0004
+- name: Belchior Machado Fagundes (gen.6, frade franciscano)
+  source_ids:
+  - PUB-0004
+- name: Manuel Machado Fagundes (gen.6, f.22.3.1643 Stª Bárbara, m.21.11.1635 Maria Coelho)
+  source_ids:
+  - PUB-0004
+- name: André Machado Fagundes (gen.6, b.4.12.1612 Stª Bárbara, padre beneficiado)
+  source_ids:
+  - PUB-0004
+- name: Beatriz Dias Fagundes / Machado (gen.6, b.8.3.1609 Stª Bárbara)
+  source_ids:
+  - PUB-0004
+- name: Inês Pacheco / Machado (gen.6, b.30.1.1611 Stª Bárbara)
+  source_ids:
+  - PUB-0004
+- name: Grácia (gen.6, b.18.5.1607 Stª Bárbara)
+  source_ids:
+  - PUB-0004
+- name: Maria Fernandes Machado (gen.6, m.27.2.1631 Pedro Gonçalves de Lemos)
+  source_ids:
+  - PUB-0004
+event_ids:
+- E-0134
+notes:
+- text: >-
+    Pedro Lourenço Machado (P-0129) was a Capitão who led 79 men in the assault on the Castelo
+    de S. Filipe, Angra, in 1642 — a significant military action documented in the compilation.
+    His wife Maria Fernandes da Costa is also named "de Toledo" in the compilation, possibly
+    derived from a connection to the Toledo family in Terceira (unrelated to the Minas Gerais
+    Toledo line). Her parentage: Belchior Fernandes da Costa × Beatriz Pires (compiled, no
+    primary image held).
+- text: >-
+    Mariana Fagundes (P-0124, Belchior × Mariana's wife) is the granddaughter of Pedro Lourenço
+    Machado × Maria Fernandes da Costa, through their son António Martins Fagundes (P-0127).
+    This makes Pedro Lourenço Machado the 4× great-grandfather of P-0092 (Gaspar Ferreira) and
+    the 5× great-grandfather of Joaquim José Ferreira de Toledo (P-0057) if the Azorean chain
+    is confirmed.

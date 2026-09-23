@@ -1,0 +1,39 @@
+schema_version: 1
+id: P-0126
+preferred_name: Maria da Costa Leonardes
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Maria da Costa Leonardes
+  type: source
+  source_ids:
+  - PUB-0005
+event_ids:
+- E-0130
+family_ids:
+- F-0063
+notes:
+- text: >-
+    Maria da Costa Leonardes: died 27 December 1654, S. Sebastião, Terceira (PUB-0005, p.259).
+    Married Manuel da Ponte Valadão (P-0125); family F-0063. Mother of Belchior da Ponte
+    Cardoso (P-0123). Her own birth date, place and parentage are not given in the compilation.
+    She died two years after her husband Manuel (d.19.8.1652).
+profile: >-
+  ## Identity
+
+  **Maria da Costa Leonardes** [COMPILED, name via PUB-0005] — died 27 December 1654,
+  S. Sebastião, Terceira. Married Manuel da Ponte Valadão (P-0125); family F-0063.
+  Mother of Belchior da Ponte Cardoso (P-0123).
+
+  - **Nationality:** Portuguese (Azores)
+  - **Birth/parentage:** unknown — not given in the compilation [OPEN]
+profile_pt: >-
+  ## Identidade
+
+  **Maria da Costa Leonardes** [COMPILED, nome via PUB-0005] — falecida a 27 de dezembro de
+  1654, S. Sebastião, Terceira. Casou com Manuel da Ponte Valadão (P-0125); família F-0063.
+  Mãe de Belchior da Ponte Cardoso (P-0123).
+
+  - **Nacionalidade:** portuguesa (Açores)
+  - **Nascimento/filiação:** desconhecidos — não informados na compilação [OPEN]

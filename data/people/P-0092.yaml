@@ -9,8 +9,10 @@ name_variants:
   type: source
   source_ids:
   - PAR-0018
-event_ids: []
+event_ids:
+- E-0135
 family_ids:
+- F-0062
 - F-0045
 notes:
 - text: >-
@@ -33,6 +35,17 @@ notes:
     Ouro Preto, Minas Gerais) — the apparent origin of the family's "Ferreira" + "de
     Toledo" surname. "Villa" is a bracketed/uncertain read on the ink-bled folio; no
     explicit nacionalidade or birthplace of his own is otherwise stated.
+- text: >-
+    Azorean origin hypothesis [COMPILED]: Mendes Forjaz Vol. IX (PUB-0005) lists a "Gaspar de
+    Souto-Maior" born 23.2.1657 in S. Sebastião, Terceira, as a son of Belchior da Ponte Cardoso
+    × Mariana Fagundes (F-0062). The retrieval agent has identified this Gaspar as P-0092. The
+    birth event E-0135 records his 23.2.1657 birth. ⚠ CONFLICT: Vol. IX gives his death as
+    2.12.1727 in S. Sebastião, but P-0092 is documented in Villa Rica, Minas Gerais, with a son
+    (Joaquim José, P-0057) marrying in 1783 — inconsistent if they are the same person (the son
+    would need to have been born c.1750-65, after the compiled death date). Resolution pending:
+    either the 1727 death date is an error (Gaspar emigrated and the Azorean compiler lacked
+    records), or P-0092 is a later-generation descendant of this Gaspar. The F-0062 parentage
+    is flagged [COMPILED/LEAD] until primary evidence confirms the emigration link.
   text_pt: >-
     Nacionalidade brasileira: PAR-0018 situa a família "de [Villa] Rica" (Vila Rica /
     Ouro Preto, Minas Gerais) — a aparente origem do sobrenome "Ferreira" + "de

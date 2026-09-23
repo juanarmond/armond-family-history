@@ -1,0 +1,52 @@
+schema_version: 1
+id: P-0127
+preferred_name: António Martins Fagundes
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: António Martins Fagundes
+  type: source
+  source_ids:
+  - PUB-0004
+- value: Machado Fagundes
+  type: alias
+  source_ids:
+  - PUB-0004
+event_ids:
+- E-0131
+family_ids:
+- F-0065
+- F-0064
+occupations:
+- value: Capitão de ordenanças
+  source_ids:
+  - PUB-0004
+notes:
+- text: >-
+    António Martins Fagundes (also called "Machado Fagundes"): died 17 April 1664, Santa Bárbara,
+    Terceira (PUB-0004, p.312). Capitão de ordenanças. Married Catarina Machado de Faria
+    (P-0128); family F-0064. Father of Mariana Fagundes (P-0124). Son of Pedro Lourenço
+    Machado (P-0129) × Maria Fernandes da Costa (P-0130); family F-0065.
+- text: >-
+    The name variant "Machado Fagundes" in the compilation reflects the Machado element taken
+    from his mother's family (Maria Fernandes da Costa). His wife Catarina Machado de Faria
+    belongs to the LEMOS family line (Mendes Forjaz Vol. IV, LEMOS § 3º, nº 5), not yet read
+    in this repository.
+profile: >-
+  ## Identity
+
+  **António Martins Fagundes** [COMPILED, name via PUB-0004] — died 17 April 1664, Santa Bárbara,
+  Terceira. Also named "Machado Fagundes." Capitão de ordenanças. Son of Pedro Lourenço Machado
+  (P-0129) × Maria Fernandes da Costa (P-0130), family F-0065. Married Catarina Machado de Faria
+  (P-0128); family F-0064. Father of Mariana Fagundes (P-0124).
+
+  - **Nationality:** Portuguese (Azores)
+  - **Birth date/place:** unknown — not in the compilation [OPEN]
+profile_pt: >-
+  ## Identidade
+
+  **António Martins Fagundes** [COMPILED, nome via PUB-0004] — falecido a 17 de abril de 1664,
+  Santa Bárbara, Terceira. Também chamado "Machado Fagundes." Capitão de ordenanças. Filho de
+  Pedro Lourenço Machado (P-0129) × Maria Fernandes da Costa (P-0130), família F-0065. Casou
+  com Catarina Machado de Faria (P-0128); família F-0064. Pai de Mariana Fagundes (P-0124).

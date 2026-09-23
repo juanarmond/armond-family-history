@@ -1,0 +1,18 @@
+schema_version: 1
+id: E-0129
+event_type: death
+date:
+  kind: exact
+  value: "1652-08-19"
+place_text: São Sebastião, Terceira, Azores
+participants:
+- person_id: P-0125
+  role: principal
+status: strong-evidence
+source_ids:
+- PUB-0005
+notes:
+- text: >-
+    Death of Manuel da Ponte Valadão (P-0125) on 19 August 1652, S. Sebastião, Terceira.
+    Source: Mendes Forjaz Vol. IX (PUB-0005, p.259): "F. em S. Sebastião a 19.8.1652."
+    Compiled — no primary death image held.
