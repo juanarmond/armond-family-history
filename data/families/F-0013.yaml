@@ -14,14 +14,34 @@ children:
     source_ids:
     - CIV-0014
     - CIV-0016
-    notes: []
+    - CIV-0038
+    notes:
+    - text: >-
+        Senira Bohrer's 1923 Nova Friburgo civil birth act (CIV-0038) names her
+        "netta paterna de Valentim Martinho Bohrer e de Carolina Bohrer" and is
+        now cited here. It does not raise the tier, and the count of cited
+        records overstates the count of independent informants: CIV-0038 (1923)
+        and CIV-0016 (1924) were both declared by João Gonçalves Bohrer himself
+        at the same Nova Friburgo cartório, so they are two acts carrying one
+        chain of information, and CIV-0014 is his filiation as reported by a
+        relative at his 1970 death. As already recorded below, João's own
+        membership of this couple's household stays strong-evidence pending his
+        own baptism or filiation act.
   - parent_id: P-0029
     relationship_type: biological
     status: strong-evidence
     source_ids:
     - CIV-0014
     - CIV-0016
-    notes: []
+    - CIV-0038
+    notes:
+    - text: >-
+        CIV-0038 names Carolina Bohrer as João's mother (as Senira's paternal
+        grandmother) and is cited here. Tier unchanged for the same reason as the
+        paternal link — CIV-0016 and CIV-0038 share one declarant, João himself.
+        Note that CIV-0038 is catalogued with F-0005 in its linked_families and
+        does not yet back-link to F-0013; that source-side field was out of scope
+        for this audit.
   notes: []
 documented_children:
 - name: Maria Clara Bohrer

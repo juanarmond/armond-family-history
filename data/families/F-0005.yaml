@@ -13,13 +13,30 @@ children:
     status: strong-evidence
     source_ids:
     - CIV-0004
-    notes: []
+    - CIV-0029
+    notes:
+    - text: >-
+        Iris's 2021 Volta Redonda civil death act (CIV-0029) states "Filho(a) de
+        JOÃO GONÇALVES BOHRER e SELINA BOHRER" and is now cited here. The tier is
+        unchanged: both attestations report the parentage at second hand — Iris's
+        own declaration as bride in the 1949 Alvorada marriage (CIV-0004) and a
+        family member's declaration at her 2021 death — so they run through the
+        same family knowledge rather than forming two independent records of her
+        birth. Her own 1929 birth registration (Presidente Soares, MG) is not
+        held; it remains the record that would confirm this link.
   - parent_id: P-0015
     relationship_type: unknown
     status: strong-evidence
     source_ids:
     - CIV-0004
-    notes: []
+    - CIV-0029
+    notes:
+    - text: >-
+        CIV-0029 names the mother "SELINA BOHRER" — the same person as Celina
+        Bohrer (P-0015), whom CIV-0004 spells "Selina" as well — and is cited
+        here. Tier unchanged, for the same reason as the paternal link. Note that
+        her children's birth acts (CIV-0016, CIV-0038) attest Celina as their
+        mother, not Iris's parentage specifically.
   notes: []
 documented_children:
 - name: Eunir Bohrer

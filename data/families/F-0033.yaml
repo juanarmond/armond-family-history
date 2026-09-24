@@ -6,29 +6,77 @@ partners:
 - person_id: P-0069
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
   - PUB-0003
+  - PAR-0060
+  - PAR-0061
+  - PAR-0062
   notes:
   - text: >-
       Marriage at Nova Friburgo, 03/07/1820, attested by the Imigrantes de Nova
       Friburgo compilation (PUB-0003). No primary civil or parish marriage record
       has been catalogued; this date rests on the secondary compiled source.
+  - text: >-
+      Under-citation audit 2026-09-24: three original Nova Friburgo parish acts
+      are cited and the tier is upgraded strong-evidence → confirmed. This
+      supersedes the note above — a primary parish marriage record has been
+      catalogued, and the date no longer rests on the compilation. PAR-0060 is
+      the couple's own marriage act: Livro de Casamentos, Nova Friburgo, p.66
+      nº 38, 3 July 1820, "se casarão solemnemente á face do Igreja em a freguesia
+      de S. João Batista da Villa da Nova Friburgo … Laurenço filho de Jacobo
+      Borer natural de Grindel no cantão de Soleure e Anna e Maria filha de João
+      Jacobo Verly [Wehrli] natural do mesmo lugar", before Vigário J. Joye. It
+      names both partners and both fathers, and it independently confirms the
+      03/07/1820 date that PUB-0003 had only asserted.
+  - text: >-
+      Corroborated by two later originals naming the pair jointly: their son
+      Vicente's 1828 baptism, "filho legitimo de Lourenço Bhorer e da sua mulher
+      Anna Maria Verly" (PAR-0061 — "his wife", recorded at the font by Vigário
+      Jacob Joye), and Vicente's own 1864 marriage 36 years later, "filho legitimo
+      de Lourenço Bohrer e de Anna Maria Verly" (PAR-0062, his own declaration
+      before Vigário João José Viviand). "Verly" is the vicars' rendering of
+      Wehrli/Werhly, the same spelling used for her in her own 1820 marriage act;
+      the variant is preserved on P-0069, not resolved here. PUB-0003 is retained
+      as corroboration only — a published compilation can never carry a tier, and
+      it carries no part of this one.
 children:
 - person_id: P-0070
   parent_relationships:
   - parent_id: P-0068
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PUB-0003
-    notes: []
+    - PAR-0061
+    - PAR-0062
+    notes:
+    - text: >-
+        Tier audit 2026-09-24: upgraded strong-evidence → confirmed. The link previously rested on
+        PUB-0003 alone — a published colonist compilation, which can corroborate but can never
+        confirm. Two original Nova Friburgo parish acts now state the filiation and are cited
+        here: his 1828 baptism (PAR-0061, "a Vicente nascido a seis de Setembro filho legitimo de
+        Lourenço Bhorer e da sua mulher Anna Maria Verly", recorded at the font by Vigário Jacob
+        Joye) and his own 1864 marriage 36 years later (PAR-0062, "Vicente Bohrer, de trinta e
+        cinco annos, filho legitimo de Lourenço Bohrer e de Anna Maria Verly", declared by the
+        groom before Vigário João José Viviand). Different occasions, different informants,
+        different priests — two independent originals. PUB-0003 is retained as corroboration only.
   - parent_id: P-0069
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PUB-0003
-    notes: []
+    - PAR-0061
+    - PAR-0062
+    notes:
+    - text: >-
+        Tier audit 2026-09-24: upgraded strong-evidence → confirmed on the same two independent
+        original parish acts as the paternal link — PAR-0061 (1828 baptism, "sua mulher Anna Maria
+        Verly") and PAR-0062 (1864 marriage, "filho legitimo de Lourenço Bohrer e de Anna Maria
+        Verly"). "Verly" is the vicar's rendering of Wehrli/Werhly, the same spelling used for her
+        in her own 1820 marriage act (PAR-0060); the variant is preserved on P-0069, not resolved
+        here. PUB-0003 (published compilation) is retained as corroboration only and does not
+        carry the upgrade.
   notes: []
 documented_children:
 - name: José Borer

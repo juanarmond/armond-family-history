@@ -13,13 +13,29 @@ children:
     status: strong-evidence
     source_ids:
     - CIV-0017
-    notes: []
+    - CIV-0022
+    notes:
+    - text: >-
+        Cidália's 1930 Alvorada birth act (CIV-0022) names her paternal
+        grandparents as "Antonio Engracio de Souza e dona Luzia da Conceição" and
+        was declared by her father, Antonio Engracio Filho (P-0010) himself — so
+        it is his own statement of his parentage, and is now cited here. The tier
+        is unchanged: this and the filiation in his 1964 death act (CIV-0017,
+        declared by a relative) both trace to the family's own knowledge rather
+        than to a contemporaneous record of his c.1895 birth, which is not held.
+        The two renderings of the mother's name (Luzia da Conceição / Luzia
+        Pinheiro da Conceição) are compatible, not conflicting.
   - parent_id: P-0033
     relationship_type: biological
     status: strong-evidence
     source_ids:
     - CIV-0017
-    notes: []
+    - CIV-0022
+    notes:
+    - text: >-
+        CIV-0022 names Luzia (Pinheiro) da Conceição as Antonio Engracio Filho's
+        mother, in his own declaration of 1930, and is cited here. Tier unchanged
+        for the same reason as the paternal link.
   notes: []
 documented_children:
 - name: Hermogenes Engracio de Souza

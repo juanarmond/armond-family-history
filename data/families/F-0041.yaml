@@ -22,16 +22,41 @@ children:
   parent_relationships:
   - parent_id: P-0084
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PAR-0037
-    notes: []
+    - PAR-0044
+    notes:
+    - text: >-
+        PAR-0044 cited and tier upgraded strong-evidence → confirmed on 2026-09-24
+        (under-citation audit). This supersedes the 2026-08-13 tier-audit note below,
+        which recorded the edge as resting "solely on PAR-0037". Two independent
+        original parish registers each state the parentage directly — Maria Jacintha's
+        own marriage act of 7 October 1819 ("Maria Jacintha de Medeiros, filha de João
+        de Medeiros Brandão e de Maria Eugenia", PAR-0037, Livro
+        SMG-PV-MAEDEDEUS-C-1801-1822 fl. 161v, Vigário José Duarte de Medeiros) and
+        the baptism of her son Agostinho on 23 April 1843 ("neto ... materno de João
+        de Medeiros Brandão, e Maria Eugenia", PAR-0044, Livro
+        SMG-PV-MAEDEDEUS-B-1842-1844 fl. 93, Cura José Pacheco Lopes Ferreira).
+        Different books, different officiants, twenty-four years apart, and both
+        acts spell the parents identically — no variant to reconcile. PAR-0044 also
+        rules out the namesake trap: it names Agostinho's maternal grandparents as
+        Medeiros Brandão × Eugenia, which separates this Maria Jacintha de Medeiros
+        (P-0049) from the distinct namesake recorded as a documented child of F-0040.
   - parent_id: P-0085
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PAR-0037
-    notes: []
+    - PAR-0044
+    notes:
+    - text: >-
+        PAR-0044 cited and tier upgraded strong-evidence → confirmed on 2026-09-24
+        (under-citation audit), on the same two independent original acts as the
+        paternal link: PAR-0037 (1819 marriage, "filha de João de Medeiros Brandão e
+        de Maria Eugenia") and PAR-0044 (1843 baptism of the grandson Agostinho,
+        "materno de João de Medeiros Brandão, e Maria Eugenia"). Maria Eugenia is
+        named identically in both acts.
   notes: []
 documented_children: []
 event_ids: []

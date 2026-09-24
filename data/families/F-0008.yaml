@@ -18,18 +18,48 @@ children:
   parent_relationships:
   - parent_id: P-0021
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - CIV-0007
     - CIV-0018
-    notes: []
+    - CIV-0022
+    notes:
+    - text: >-
+        Upgraded strong-evidence → confirmed (2026-09-24 citation audit). Three
+        records from three different informants name Francisco José de Carvalho
+        Guimarães as Maria Aurora's father, with no material conflict. (1) Her
+        own civil birth registration (CIV-0007; act of 12 October 1915, livro
+        4-A, fl. 23, nº 38, São Francisco do Glória), declared by Francisco
+        himself, who registered her among "seus filhos" and "filhos legítimos do
+        declarante ... e sua mulher Emmerenciana Maria de Jesus" — the direct
+        record of the parentage, from the person with best knowledge, held as a
+        certified certidão de inteiro teor, which the repository's evidence rule
+        accepts as able to confirm. (2) Her daughter Cidália's 1930 Alvorada
+        birth act (CIV-0022), declared by Cidália's father, naming the same
+        couple as the maternal grandparents. (3) Her own 1991 Rio de Janeiro
+        death act (CIV-0018), declared by a descendant. Independence: the
+        declarants are her father (1915), her husband (1930) and a descendant
+        (1991), in three different registries across 76 years. The 1 January
+        1904 birth date agrees across CIV-0007, CIV-0002 and the age 87 recorded
+        in CIV-0018; the 1915 register's "Maria Amora" is a scribal variant of
+        Aurora.
   - parent_id: P-0022
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - CIV-0007
     - CIV-0018
-    notes: []
+    - CIV-0022
+    notes:
+    - text: >-
+        Upgraded strong-evidence → confirmed (2026-09-24 citation audit) on the
+        same three-record basis as the paternal link. Emmerenciana Maria de Jesus
+        is named as Maria Aurora's mother in her own 1915 birth registration
+        (CIV-0007, as the declarant's wife and mother of his legitimate
+        children), as the maternal grandmother in Cidália's 1930 birth act
+        (CIV-0022, spelled "Emerenciana"), and in her 1991 death act (CIV-0018).
+        The spelling variants Emmerenciana / Emerenciana are orthographic, not a
+        conflict of identity.
   notes: []
 documented_children:
 - name: José de Carvalho Guimarães (Sobrinho)
@@ -90,3 +120,16 @@ notes:
     the same parents, corroborating this parent-child link. It stays
     strong-evidence, not confirmed: CIV-0007 is a certified derivative and the
     CIV-0018 parentage is informant-reported at death.
+- text: >-
+    SUPERSEDED on the parent-child tier (2026-09-24 citation audit). Two grounds
+    overturn the note above. First, a certified copy that faithfully reproduces
+    an official civil record may confirm under this repository's evidence rule,
+    so CIV-0007 being a certidão de inteiro teor is not itself a bar — and it is
+    Maria Aurora's own birth registration, declared by her father, which is the
+    direct record of her parentage rather than an informant report at death.
+    Second, Cidália's 1930 Alvorada birth act (CIV-0022) is now cited on both
+    parent links, adding a third independent informant (Maria Aurora's husband).
+    Both parent_relationships are therefore confirmed; see the reasoning recorded
+    on each. The couple's partner_relationship tier is NOT changed — the 1915 act
+    calls Emmerenciana the declarant's wife but supplies no marriage date or
+    place, and no marriage record has been located.

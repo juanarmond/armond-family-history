@@ -5,6 +5,61 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — relationship links were under-cited: sources held but never cited at the assertion (2026-09-24)
+
+An audit found parent-child links and partner unions marked `strong-evidence` while the archive
+already held sources naming both people that were not cited on the link. The repo's rule is *"cite
+each source at the assertion it supports, not only in `linked_people` or prose"*, and `make check`
+cannot catch a violation — a missing citation is not a broken link, so these had accumulated
+silently. The viewer paints its confidence badge from the link status, so the tree was
+**understating evidence it already had**.
+
+Four agents worked disjoint family files, reading each candidate source before citing it.
+
+| | before | after |
+| --- | ---: | ---: |
+| parent links `confirmed` | 46 | **67** |
+| parent links `strong-evidence` | 85 | 64 |
+| partner unions `confirmed` | 24 | **31** |
+| partner unions `strong-evidence` | 28 | 21 |
+
+**The upgrade rate split sharply by record era, and the reason is the finding.** Group B (parish
+registers) upgraded 11 of 11; Group C (Azorean parish acts) 8 of 10; Group A (20th-century civil
+records) only **2 of 14**. Twentieth-century Brazilian civil records recycle each other — `CIV-0028`
+names Antenor's parents but its own averbação records that the declarant produced the 1949 marriage
+certificate at the counter, so it is a copy of the source already cited, not a second witness.
+`CIV-0016` and `CIV-0038` were both declared by João Gonçalves Bohrer himself. `CIV-0001` and
+`CIV-0006` are two certificates of the *same* civil act, with `PAR-0012` its same-day religious
+counterpart — one fact, not three proofs. Nineteenth-century parish acts from different parishes and
+decades genuinely are independent witnesses. The older parts of the tree are now better evidenced
+than the recent parts.
+
+**Unions where the couple's own marriage act was held but never cited at the union** — the worst
+shape of this defect: `F-0033` (PAR-0060, 1820), `F-0034` (PAR-0062, 1864) and `F-0054` (PAR-0076,
+1840) each cited only the published compilation `PUB-0003` while their own parish marriage register
+sat in `data/sources/parish/`. All three now cite the act, with PUB-0003 kept as corroboration.
+Likewise `F-0034`'s Valentim→Vicente parentage rested on PUB-0003 while four primary records said
+the same thing.
+
+**The audit heuristic over-reached five times, each recorded as a deliberate omission in the
+relationship notes** so a later audit does not re-propose them: `CIV-0002` lists Aristão but the
+document is torn exactly where his father's name was; `CIV-0048` states a *different* man's
+filiation; `PAR-0045` names no grandparents at all; `PAR-0006` shows a pair only as co-godparents
+(superseding an existing note that wrongly called it corroboration); and `REC-0001`, an owner-supplied
+roster whose own terms disclaim substituting for evidence.
+
+**Upgrades declined on judgement, not on tooling.** Three agents independently noted the validator is
+*more permissive* than the repo's written rules — it would have accepted `confirmed` on a single
+source in several cases. They declined on substance: two João Rodrigues Valle links where the parents
+are named but the names ("João Rodrigues", "Joanna Gonçalves") cannot be distinguished from any other
+couple in the parish, and `F-0042` where only one record actually states a marriage and the rest is
+one household re-attesting joint parentage. The prose standard being stricter than the code is the
+safe direction, but it means the tool cannot be relied on alone.
+
+Also fixed: `CIV-0038.linked_families` now lists F-0013 (family↔source reciprocity is unvalidated),
+and an F-0034 note calling PAR-0062 a "civil marriage" — an 1864 act can only be a parish record,
+since Brazil had no civil registration until 1889.
+
 ### Added — 2026-09-24 retrieval drop: Terceira óbitos, two 1831 population maps, and three corrections (2026-09-24)
 
 Processed the drop synced 2026-09-24 (1,026 images; handoff plan

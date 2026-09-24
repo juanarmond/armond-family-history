@@ -20,16 +20,39 @@ children:
   parent_relationships:
   - parent_id: P-0036
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - CIV-0019
-    notes: []
+    - PAR-0077
+    - PAR-0056
+    notes:
+    - text: >-
+        Tier audit 2026-09-24: upgraded strong-evidence → confirmed, and the two original acts
+        that state the filiation are now cited here. PAR-0077 is Lucinda's own 1863 baptism at the
+        Matriz de S. João Baptista da Lagoa, Rio de Janeiro ("filha legitima de Antonio [da Silva
+        Ferreira] e de Dona Maria Joanna da Silva"), recorded from the parents' declaration at the
+        font. PAR-0056 is her 1884 Nova Friburgo marriage ("filha legitima de Antonio da Silva
+        Ferreira, e de Maria Joanna Roschemant da Silva Ferreira"), declared by the bride herself
+        21 years later, in another diocese and before another priest — an independent original,
+        not a copy of the first. The 1884 act's stated birthplace ("nascida e baptisada na
+        freguezia de S. João Baptista da Lagoa, na Corte") ties the two records to the same woman.
+        CIV-0019 (her son Alberto's 1890 civil birth, naming the same couple as maternal
+        grandparents) is retained as further corroboration.
   - parent_id: P-0037
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - CIV-0019
-    notes: []
+    - PAR-0077
+    - PAR-0056
+    notes:
+    - text: >-
+        Tier audit 2026-09-24: upgraded strong-evidence → confirmed on the same two independent
+        original acts as the paternal link — PAR-0077 (1863 baptism, "Dona Maria Joanna da Silva")
+        and PAR-0056 (1884 marriage, "Maria Joanna Roschemant da Silva Ferreira"). The 1863 entry
+        gives the contracted form of her name, without the Roschemant (Rutschmann) element carried
+        in the 1884 act and in the couple's own 1859 marriage (PAR-0070); the same woman
+        throughout, and the variant is preserved on P-0037 rather than resolved here.
   notes: []
 documented_children:
 - name: Octávio Ferreira da Silva

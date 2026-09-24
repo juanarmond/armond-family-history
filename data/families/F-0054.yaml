@@ -6,14 +6,37 @@ partners:
 - person_id: P-0110
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
   - PAR-0069
+  - PAR-0076
+  - PAR-0070
+  - PAR-0071
   notes:
   - text: >-
       João José Rutschmann (Rocheman, natural de Bulle, Fribourg) × Elisabeth/Isabel Storck (Stork),
       parents of Maria Joanna Rutschmann (P-0037); named in her 1841 baptism (PAR-0069), 1859 marriage
       (PAR-0070) and João José's 1860 death (PAR-0071). No marriage act of their own is held.
+  - text: >-
+      Under-citation audit 2026-09-24: three further held records are cited and
+      the tier is upgraded strong-evidence → confirmed. This supersedes "No
+      marriage act of their own is held" in the note above — it is held. PAR-0076
+      is this couple's own marriage act: Nova Friburgo, Livro de Casamentos 1,
+      folio 143v, 23 June 1840, "se casaram solemnemente por palavras em face da
+      Igreja João José Rosman, filho legitimo de Frederico Rosman e de Joanna
+      Germana Carolina, nascido e baptizado na freguesia de Bulle na Suissa, e
+      Isabella Storck, filha legitima de Tiago Storck e de Anna Clara já
+      fallecida, nascida e baptizada na Allemanha, ambos moradores nesta
+      freguesia". It names both partners, both parent couples and both origins,
+      and it already sources the marriage event E-0121 on this family — the act
+      was catalogued and evented, but was never cited at the union it proves.
+  - text: >-
+      Direct primary evidence of the union, independently corroborated by João
+      José's 1860 burial act, "cazado com Isabel Stork" (PAR-0071), and by their
+      daughter Maria Joanna's 1859 marriage, "filha legitima de João José Rocheman
+      e de Isabel Stork" (PAR-0070), alongside her 1841/42 baptism already cited
+      (PAR-0069). The 1840 act also fixes the sequence: married June 1840, first
+      held child born 2 May 1841.
 children:
 - person_id: P-0037
   parent_relationships:

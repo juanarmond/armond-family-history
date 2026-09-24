@@ -3134,7 +3134,7 @@
 1 FAMC @F0034@
 1 NOTE Documented child, not individually modelled.
 2 SOUR @PUB0003@
-1 NOTE Born ~3 weeks before parents' 11 April 1864 civil marriage; place: São José do Ribeirão. Not modelled.
+1 NOTE Born ~3 weeks before parents' 11 April 1864 marriage (PAR-0062, a parish act — Brazil had no civil registration until 1889); place: São José do Ribeirão. Not modelled.
 0 @DOCF0034_2@ INDI
 1 NAME Maria Elisabeth Borer, /n.15/12/1866/
 2 GIVN Maria Elisabeth Borer,
@@ -3493,6 +3493,7 @@
 2 SOUR @PAR0012@
 3 QUAY 3
 1 SOUR @CIV0004@
+1 SOUR @CIV0028@
 1 NOTE Union tier upgraded strong-evidence → confirmed on 2026-08-13 (confidence-tier audit): the couple's own civil marriage act — CIV-0006 (inteiro teor) and CIV-0001 — is direct-primary evidence for the union.
 0 @F0002@ FAM
 1 HUSB @P0004@
@@ -3511,7 +3512,9 @@
 1 CHIL @P0004@
 1 CHIL @P0018@
 1 SOUR @CIV0003@
+1 SOUR @CIV0002@
 1 SOUR @GOV0001@
+1 SOUR @NWS0001@
 0 @F0004@ FAM
 1 HUSB @P0006@
 1 WIFE @P0007@
@@ -3534,6 +3537,7 @@
 1 CHIL @DOCF0005_5@
 1 CHIL @DOCF0005_6@
 1 SOUR @CIV0004@
+1 SOUR @CIV0029@
 1 NOTE João Gonçalves Bohrer and Celina had fifteen children (stated in his 1970 death record, CIV-0014). Six clearly-deceased siblings of Iris (P-0007) are now recorded here as documented_children — Eunir (CIV-0016), João (CIV-0025), Ercy (CIV-0031), Senira (CIV-0038), Alício (CIV-0039) and Ivanyr (CIV-0040); the remaining ~9 are not listed, being unnamed in any held record or possibly living. Still-open named siblings from the FS tree (Cinésio d.2015, Maria Adyr d.2020) fall outside the online collection range and stay leads pending off-tool cartório records.
 0 @F0006@ FAM
 1 HUSB @P0016@
@@ -3553,9 +3557,29 @@
 1 CHIL @DOCF0007_4@
 1 MARR
 2 SOUR @PAR0001@
-3 QUAY 2
+3 QUAY 3
+2 SOUR @PAR0006@
+3 QUAY 3
+2 SOUR @CIV0041@
+3 QUAY 3
 2 SOUR @PAR0004@
-3 QUAY 2
+3 QUAY 3
+2 SOUR @PAR0007@
+3 QUAY 3
+2 SOUR @CIV0001@
+3 QUAY 3
+2 SOUR @CIV0006@
+3 QUAY 3
+2 SOUR @PAR0012@
+3 QUAY 3
+2 SOUR @PAR0013@
+3 QUAY 3
+2 SOUR @PAR0014@
+3 QUAY 3
+2 SOUR @PAR0003@
+3 QUAY 3
+2 SOUR @CIV0042@
+3 QUAY 3
 1 SOUR @CIV0001@
 1 SOUR @PAR0004@
 1 NOTE Deocleciano's parentage is confirmed by his own 1892 baptism (PAR-0004) as well as the 1916 marriage (CIV-0001). Collateral Muniz Bittencourt couples of Sapucaia (Manoel, Maria José, Altina, Maria Eugenia, Elvira) are likely João's siblings — a lead toward his parents — but no record names them; a separate José Muniz Bettencourt × Anna Barbara de Jesus couple, and a non-Muniz "Antônio Firmino Bittencourt" family of Bemposta, are distinct and must not be conflated (see data/record-coverage.yaml).
@@ -3573,8 +3597,10 @@
 3 QUAY 2
 1 SOUR @CIV0007@
 1 SOUR @CIV0018@
+1 SOUR @CIV0022@
 1 NOTE The source calls the six registered children legitimate children of the declarant and his wife. The source is a certified derivative, so these assertions remain strong evidence rather than confirmed.
 1 NOTE Maria Aurora Guimarães's own 1991 civil death (CIV-0018) independently names the same parents, corroborating this parent-child link. It stays strong-evidence, not confirmed: CIV-0007 is a certified derivative and the CIV-0018 parentage is informant-reported at death.
+1 NOTE SUPERSEDED on the parent-child tier (2026-09-24 citation audit). Two grounds overturn the note above. First, a certified copy that faithfully reproduces an official civil record may confirm under this repository's evidence rule, so CIV-0007 being a certidão de inteiro teor is not itself a bar — and it is Maria Aurora's own birth registration, declared by her father, which is the direct record of her parentage rather than an informant report at death. Second, Cidália's 1930 Alvorada birth act (CIV-0022) is now cited on both parent links, adding a third independent informant (Maria Aurora's husband). Both parent_relationships are therefore confirmed; see the reasoning recorded on each. The couple's partner_relationship tier is NOT changed — the 1915 act calls Emmerenciana the declarant's wife but supplies no marriage date or place, and no marriage record has been located.
 0 @F0009@ FAM
 1 HUSB @P0023@
 1 WIFE @P0024@
@@ -3600,9 +3626,15 @@
 1 CHIL @P0005@
 1 MARR
 2 SOUR @CIV0017@
-3 QUAY 2
+3 QUAY 3
 2 SOUR @CIV0018@
-3 QUAY 2
+3 QUAY 3
+2 SOUR @CIV0022@
+3 QUAY 3
+2 SOUR @CIV0002@
+3 QUAY 3
+2 SOUR @CIV0027@
+3 QUAY 3
 1 SOUR @CIV0022@
 1 SOUR @CIV0002@
 1 NOTE This family group records the two people reported as Cidalia's parents. Their marriage is now attested by two original civil death records (see partner_relationship); its date and place remain unlocated.
@@ -3624,6 +3656,7 @@
 3 QUAY 3
 1 SOUR @CIV0014@
 1 SOUR @CIV0016@
+1 SOUR @CIV0038@
 1 NOTE Valentim Martinho Bohrer and Carolina Bohrer, parents of João Gonçalves Bohrer (P-0014). Established by two corroborating civil records: João's 1970 death (CIV-0014) and Eunir Bohrer's 1924 Nova Friburgo birth (CIV-0016, paternal grandparents). Five of their other children are now attested by primary records, all naming the couple as parents: Maria Felomena (1891 civil birth, São José do Ribeirão, CIV-0045 — the earliest, which also names all four grandparents), Valentim Luciano (1902 baptism, PAR-0074), Maria Clara (1908 baptism, PAR-0052), Durval Baptista (1910 baptism, PAR-0053), and Maria Bohrer Teixeira (b. 1919, d. 2003, Niterói, CIV-0047 — a private record). All are held as documented collateral children (not modelled). João's own membership stays strong-evidence pending his own baptism/filiation act.
 0 @F0014@ FAM
 1 HUSB @P0030@
@@ -3648,6 +3681,7 @@
 1 CHIL @DOCF0015_1@
 1 CHIL @DOCF0015_2@
 1 SOUR @CIV0017@
+1 SOUR @CIV0022@
 1 NOTE Antonio Engracio de Souza and Luzia Pinheiro da Conceição, parents of Antonio Engracio Filho (P-0010). Established by his 1964 civil death (CIV-0017), which names both as his parents and reports them already deceased. A second independent primary, Hermogenes's 1961 death (CIV-0026), likewise names the couple. Strong-evidence, not confirmed — the parentage is informant-reported at death by a son. This group records the reported parents; it does not independently assert a marriage between them.
 0 @F0016@ FAM
 1 HUSB @P0034@
@@ -3683,6 +3717,8 @@
 2 SOUR @PAR0070@
 3 QUAY 3
 1 SOUR @CIV0019@
+1 SOUR @PAR0077@
+1 SOUR @PAR0056@
 1 NOTE Antonio da Silva Ferreira and Maria Joanna da Silva Ferreira, parents of Lucinda Ferreira da Silva (P-0031). Their 1859 marriage (PAR-0070, E-0094) is now held and names both spouses' parents; the couple link is confirmed. Alberto Bohrer's 1890 birth (CIV-0019) independently names them as the child's maternal grandparents (Antonio "e de sua mulher Maria Joanna").
 0 @F0018@ FAM
 1 HUSB @P0038@
@@ -3691,14 +3727,23 @@
 1 CHIL @DOCF0018_1@
 1 SOUR @PAR0003@
 1 SOUR @CIV0001@
+1 SOUR @PAR0012@
+1 SOUR @CIV0006@
 1 NOTE José Secundino de Azevedo and Thereza Fernandes de Azevedo, parents of Luiza (Fernandes/Secundina) de Azevedo (P-0013). Established by two records that name Luiza's parents: her 1916 marriage (CIV-0001) and her son Aristides's 1922 baptism (PAR-0003). Strong-evidence — both name the parents as reported information, not from the couple's own records. This group records the reported parents; no marriage record between them has been located.
+1 NOTE SUPERSEDED IN PART (tier audit 2026-09-24): the strong-evidence reasoning in the note above was written when only the two derivatives (CIV-0001, PAR-0003) were cited. The original 1916 parish marriage act PAR-0012 was catalogued afterwards and is now cited on both parent links, which are raised to confirmed. The earlier reasoning is kept as the record of how the conclusion stood. Still true and unchanged: no marriage record between José Secundino and Thereza themselves has been located, and no record contemporaneous with Luiza's own birth or baptism has been found.
 0 @F0019@ FAM
 1 HUSB @P0040@
 1 WIFE @P0041@
 1 CHIL @P0020@
 1 MARR
 2 SOUR @PAR0005@
-3 QUAY 2
+3 QUAY 3
+2 SOUR @CIV0041@
+3 QUAY 3
+2 SOUR @PAR0009@
+3 QUAY 3
+2 SOUR @PAR0008@
+3 QUAY 3
 1 SOUR @PAR0005@
 1 NOTE Parents of Susanna (Suzana) Rita Brandão (P-0020), established by her 1866 baptism (PAR-0005) and corroborated by the 1885 baptism of her daughter Anna (PAR-0006), where this couple stand as godparents. No marriage record located; the union is inferred from the legitimate-birth statement. Antonio Caetano Machado (Rita Ignacia's father, per the baptism's "avô materno") is now modelled as P-0045 with his wife Ignacia Maria de Jesus (P-0046) in family F-0022; his name was resolved from the earlier "Castro/Caetano" ambiguity by his 1868 óbito (PAR-0010) and his widow's 1878 óbito (PAR-0011).
 0 @F0020@ FAM
@@ -3792,6 +3837,7 @@
 2 SOUR @PAR0016@
 3 QUAY 2
 1 SOUR @PAR0016@
+1 SOUR @PAR0058@
 1 NOTE Parents of Rosa Eugenia de Lemos (P-0035), the Lemos family of Itaboraí, RJ, established by her own 1835 Itaboraí baptism (PAR-0016). Extends the maternal Bohrer (Lemos) line one generation above P-0035.
 1 NOTE Rosa's siblings from the same 1832-1838 Itaborahy register (PAR-0030/0031/0032/ 0033): Maria (bapt. 14 Jul 1832), Anna (bapt. 12 Feb 1834), Thomaz (bapt. c. Jun 1836), Polidoro (bapt. c. Nov 1838). All now individually catalogued with their own source IDs. The older Candido Pereira de Lemos (PRB-0005, unnamed in the baptism sweep) preceded them.
 1 NOTE ⚠️ Mother-name discrepancy: Maria and Anna's baptisms (PAR-0030, PAR-0031) record the mother as "Maria Nunes [de Jesus]"; Rosa's baptism (PAR-0016) and Thomaz's (PAR-0032) record her as "Maria Thereza [de Jesus]". The vigário recorded the same woman inconsistently. P-0053 retains "Maria Thereza de Jesus" as the preferred form (from the majority of readings and Rosa's own entry), but "Maria Nunes de Jesus" is preserved as a variant documented in PAR-0030/0031.
@@ -3943,6 +3989,8 @@
 2 SOUR @PUB0003@
 3 QUAY 3
 1 SOUR @PUB0003@
+1 SOUR @PAR0061@
+1 SOUR @PAR0062@
 1 NOTE The compilation gives "ao menos onze filhos" in the main narrative and "doze filhos" in the Casa Suíça DB text — a one-child discrepancy between the two secondary accounts. Eleven children appear in the genealogy tree on p.301 of the compilation; a twelfth may be missing. Vicente (P-0070) is listed as the 7th child (entry 1.1.7 in the Lorenz tree) but as the 6th son ("6º filho") in the Casa Suíça DB family list (rec-bohrer-borer-laurent-pesquisa-familia-nvfriburgo-1797.jpg, read 2026-08-09). Both are PUB-0003 sub-sources; the discrepancy is unresolved.
 1 NOTE Internal PUB-0003 date conflict for Thereza: the Lorenz genealogy tree (pp.300–301) gives 25/08/1836, while the Casa Suíça DB family list gives 25/09/1838. The DB also labels her "1ª filha" (first daughter) despite listing her last, after all other children born 1822–1834 — likely a database entry error for her ordinal. The dates differ by more than two years; neither can be preferred on current evidence. Both read values preserved here.
 1 NOTE "José Joaquim Borer" is also listed in the compilation tree but the entry is partially cut off; he is not modelled. This may account for part of the 11-vs-12 discrepancy.
@@ -3962,6 +4010,9 @@
 2 SOUR @PUB0003@
 3 QUAY 3
 1 SOUR @PUB0003@
+1 SOUR @PAR0063@
+1 SOUR @PAR0064@
+1 SOUR @CIV0045@
 1 NOTE Valentim Martinho Bohrer (P-0028) is listed as Vicente's 3rd child in the Imigrantes compilation (BORER II tree entry 1.1.7.3). His birth date 14/11/1868 is now confirmed from this secondary source.
 0 @F0035@ FAM
 1 HUSB @P0072@
@@ -3982,6 +4033,7 @@
 2 SOUR @PAR0029@
 3 QUAY 3
 1 SOUR @PUB0003@
+1 SOUR @PAR0060@
 1 NOTE The patriarch Johann Jacob Wehrli (P-0072) and his wife Elisabetha Borer (P-0073) emigrated to Brazil in 1819 on the Heureux Voyage together with most of their children, including Anna Maria (P-0069). The patriarch died at Nova Friburgo on 28 May 1827; his wife died at Nova Friburgo on 10 October 1832.
 1 NOTE Marianne and Elise Wehrli did not embark ("não embarcaram") despite being listed on the manifest — they stayed in Europe. The Casa Suíça DB lists nine children who emigrated. Anna Maria (P-0069) was the 5th daughter.
 0 @F0036@ FAM
@@ -4029,6 +4081,7 @@
 2 SOUR @PAR0036@
 3 QUAY 2
 1 SOUR @PAR0035@
+1 SOUR @PAR0034@
 1 NOTE João Rodrigues (P-0080) × Joanna Gonçalves (P-0081) of São Martinho de Ruivais, Braga, Portugal; parents of João Rodrigues Valle (P-0078). Extends the maternal Toledo line one generation into early-18th-century Portugal.
 1 NOTE The couple's own parents (Gonçalo Rodrigues † × Elebia Francisca; Domingos Gonçalves † × Maria Fernandes) are named in PAR-0036 and were modelled 2026-08-13 as P-0088 × P-0089 (F-0043) and P-0090 × P-0091 (F-0044); no records of their own are located, so this G10 extension rests on the single 1716 marriage entry.
 1 NOTE Union tier upgraded strong-evidence → confirmed on 2026-08-13 (confidence-tier audit): PAR-0036 is the couple's own 1716 Ruivais marriage act (direct-primary for the union).
@@ -4043,6 +4096,7 @@
 2 SOUR @PAR0044@
 3 QUAY 3
 1 SOUR @PAR0037@
+1 SOUR @PAR0044@
 1 NOTE Parents of João Francisco Muniz Bitancourt (P-0048), established by his 1819 Mãe de Deus marriage (PAR-0037). Extends the Muniz Bittencourt line one further generation, into Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores). Only João Francisco is modelled as a child here.
 1 NOTE Tier audit 2026-08-13: parentage edges P-0048←P-0082 and P-0048←P-0083 downgraded confirmed → strong-evidence — both rest solely on PAR-0037 (João Francisco's own 1819 marriage naming his parents). The partner_relationship P-0082 × P-0083 is kept confirmed under the "coherent body of primary evidence" clause: it cites the son's 1819 marriage (PAR-0037) plus the 1843 baptism of grandson Agostinho (PAR-0044), two independent primary records naming the couple.
 0 @F0041@ FAM
@@ -4055,6 +4109,7 @@
 2 SOUR @PAR0044@
 3 QUAY 3
 1 SOUR @PAR0037@
+1 SOUR @PAR0044@
 1 NOTE Parents of Maria Jacintha de Medeiros (P-0049), established by her 1819 Mãe de Deus marriage (PAR-0037). A witness at that act, "Antonio de Medeiros Brandão", is very likely their son (Maria Jacintha's brother). Extends the Muniz Bittencourt maternal line one further generation into Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores).
 1 NOTE Tier audit 2026-08-13: parentage edges P-0049←P-0084 and P-0049←P-0085 downgraded confirmed → strong-evidence — both rest solely on PAR-0037 (Maria Jacintha's own 1819 marriage naming her parents). The partner_relationship P-0084 × P-0085 is kept confirmed under the "coherent body of primary evidence" clause: it cites the daughter's 1819 marriage (PAR-0037) plus the 1843 baptism of grandson Agostinho (PAR-0044), two independent primary records naming the couple.
 0 @F0042@ FAM
@@ -4065,7 +4120,17 @@
 1 MARR
 2 SOUR @PAR0024@
 3 QUAY 2
+2 SOUR @PAR0044@
+3 QUAY 2
+2 SOUR @PAR0045@
+3 QUAY 2
+2 SOUR @PAR0046@
+3 QUAY 2
+2 SOUR @PAR0047@
+3 QUAY 2
 1 SOUR @PAR0024@
+1 SOUR @PAR0046@
+1 SOUR @PAR0047@
 1 NOTE Parents of Francisca Roza do Espírito Santo (P-0047), established by her 1842 Mãe de Deus marriage (PAR-0024, folio 32r). This supersedes the earlier "parents unknown / Manoel de Mello × Anna de Souza [LEAD]" position on P-0047, now proven from the legible 1842 act. Native to Nossa Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores).
 1 NOTE Tier audit 2026-08-13: parentage edges P-0047←P-0086 and P-0047←P-0087, and the partner_relationship P-0086 × P-0087, all downgraded confirmed → strong-evidence. All three rest solely on PAR-0024 (Francisca Roza's own 1842 marriage naming her parents), a single record; no marriage act for the couple.
 0 @F0043@ FAM
@@ -4148,13 +4213,16 @@
 2 SOUR @PAR0068@
 3 QUAY 3
 1 SOUR @PAR0064@
+1 SOUR @CIV0045@
 0 @F0052@ FAM
 1 HUSB @P0105@
 1 WIFE @P0106@
 1 CHIL @P0103@
 1 MARR
 2 SOUR @PAR0066@
-3 QUAY 2
+3 QUAY 3
+2 SOUR @PAR0068@
+3 QUAY 3
 1 SOUR @PAR0066@
 1 SOUR @PAR0068@
 0 @F0053@ FAM

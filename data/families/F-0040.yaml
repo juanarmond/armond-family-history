@@ -24,16 +24,46 @@ children:
   parent_relationships:
   - parent_id: P-0082
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PAR-0037
-    notes: []
+    - PAR-0044
+    notes:
+    - text: >-
+        PAR-0044 cited and tier upgraded strong-evidence → confirmed on 2026-09-24
+        (under-citation audit). This supersedes the 2026-08-13 tier-audit note below,
+        which recorded the edge as resting "solely on PAR-0037": it does not. Two
+        independent original parish registers each state the parentage directly —
+        João Francisco's own marriage act of 7 October 1819 ("João Francisco Muniz
+        Bitancourt, filho de Manoel Muniz Bitancourt e de Tereza do Amaral já
+        defunta", PAR-0037, Livro SMG-PV-MAEDEDEUS-C-1801-1822 fl. 161v, Vigário José
+        Duarte de Medeiros) and the baptism of his son Agostinho on 23 April 1843
+        ("neto paterno de Manoel Munis de Betencourt, e Tereza d'Assumpção", PAR-0044,
+        Livro SMG-PV-MAEDEDEUS-B-1842-1844 fl. 93, Cura José Pacheco Lopes Ferreira).
+        Different books, different officiants, twenty-four years apart, no material
+        conflict — the "coherent body of primary evidence" clause of
+        research/README.md, and the same two records already relied on to confirm this
+        couple's partner_relationship.
   - parent_id: P-0083
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PAR-0037
-    notes: []
+    - PAR-0044
+    notes:
+    - text: >-
+        PAR-0044 cited and tier upgraded strong-evidence → confirmed on 2026-09-24
+        (under-citation audit), on the same two independent original acts as the
+        paternal link: PAR-0037 (1819 marriage, "filho de Manoel Muniz Bitancourt e de
+        Tereza do Amaral já defunta") and PAR-0044 (1843 baptism of the grandson
+        Agostinho, "neto paterno de Manoel Munis de Betencourt, e Tereza
+        d'Assumpção"). The mother's surname differs between the two acts — "do Amaral"
+        in 1819, "d'Assumpção" in 1843 — a devotional/family-name variant for one
+        woman rather than a conflict: both acts place her as the wife of Manoel Muniz
+        Bitancourt and the mother of João Francisco, and she is already recorded "já
+        defunta" in 1819, so the 1843 clerk was writing a remembered name. The variant
+        is recorded rather than resolved; if a further act ever names a second wife of
+        Manoel Muniz Bitancourt, revisit this edge.
   notes: []
 documented_children:
 - name: Maria Jacintha de Medeiros

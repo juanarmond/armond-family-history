@@ -20,9 +20,10 @@ children:
   parent_relationships:
   - parent_id: P-0052
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PAR-0016
+    - PAR-0058
     notes:
     - text: >-
         The 1835 baptism records only the forename "Roza". Identification as Rosa
@@ -31,12 +32,33 @@ children:
         1879 marriage justification was held (PAR-0002) and matching the Lemos-Itaboraí
         family (brother Candido Pereira de Lemos, named in PRB-0005). Hence
         strong-evidence rather than confirmed.
+    - text: >-
+        SUPERSEDED (tier audit 2026-09-24): status raised strong-evidence → confirmed, and
+        PAR-0058 added. The note above turns on the 1835 register giving only the forename
+        "Roza", so that the tie from the baptism to Rosa Eugenia was indirect. Her 1919 Nova
+        Friburgo parish death (PAR-0058) states the filiation directly and under her full
+        identity: "Roza Eugenia de Lemos Bohrer, de oitenta e seis annos de idade, natural da
+        freguezia de Itaborahy ... viuva de Francisco José Bohrer e filha legitima de Manoel
+        Pereira Lemos e Maria Tereza Pereira de Lemos". That is a second original act, 84 years
+        later, from a different parish and informant, and it does not depend on identifying the
+        1835 entry. The two records are therefore independent originals for the parentage. The
+        baptism-identification caveat above still stands for the birth event E-0049; only the
+        parent-child conclusion is upgraded.
   - parent_id: P-0053
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PAR-0016
-    notes: []
+    - PAR-0058
+    notes:
+    - text: >-
+        Tier audit 2026-09-24: upgraded strong-evidence → confirmed on the same two independent
+        originals as the paternal link — PAR-0016 (1835 Itaboraí baptism, "filha legitima de
+        Manoel de Lemos e Maria Thereza de Jesus") and PAR-0058 (1919 Nova Friburgo death,
+        "filha legitima de Manoel Pereira Lemos e Maria Tereza Pereira de Lemos"). The 1919 act
+        gives the mother's married-surname form rather than the devotional "de Jesus" of 1835;
+        both forms are preserved as variants on P-0053 and in the F-0025 notes below, and the
+        divergence is a naming difference, not a conflict of identity.
   notes: []
 documented_children:
 - name: Candido Pereira de Lemos

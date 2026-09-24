@@ -13,13 +13,33 @@ children:
     status: strong-evidence
     source_ids:
     - CIV-0003
-    notes: []
+    notes:
+    - text: >-
+        Geraldo's 1952 marriage certificate (CIV-0002) is deliberately NOT cited
+        on this link. The certificate is torn and water-stained exactly across
+        the paternal clause — it reads "filho de [torn/stain: nome do pai
+        perdido] ... e de Dona Liliosa Paz" — so it names only the mother and
+        attests nothing about Aristão. Aristão's paternity therefore still rests
+        on the single informant-reported filiation in Geraldo's 1991 Volta
+        Redonda death act (CIV-0003) and stays strong-evidence pending Geraldo's
+        own birth or baptism record (Limeira / Eugenópolis, 1915).
   - parent_id: P-0009
     relationship_type: unknown
     status: strong-evidence
     source_ids:
+    - CIV-0002
     - CIV-0003
-    notes: []
+    notes:
+    - text: >-
+        Geraldo's 1952 marriage certificate (CIV-0002) names his mother as "Dona
+        Liliosa Paz [uncertain: Armond], nascida aqui, falecida em 16-4-946" —
+        the damage that destroyed the father's name spared this clause — and is
+        now cited here; the stated 1946 death and Eugenópolis birth match the
+        held evidence for Liliosa, so the identification is secure. The tier is
+        unchanged: both attestations (Geraldo's own declaration at his 1952
+        marriage and a family member's at the 1991 death registration) descend
+        from the same family knowledge, so they are not two independent records
+        of the birth itself.
   notes: []
 - person_id: P-0018
   parent_relationships:
@@ -28,18 +48,34 @@ children:
     status: strong-evidence
     source_ids:
     - GOV-0001
+    - NWS-0001
     notes:
     - text: >-
         The government index prints the father's given name as "Aristac".
         Identity with Aristão is strongly supported by the full name pattern,
         the exact maternal name and the existing family evidence, but the
         source spelling is preserved.
+    - text: >-
+        The February 1975 marriage banns published in O Processo (NWS-0001) name
+        José Olavo as "filho de Aristão Ferreira Armond e de d. Liliosa Paz
+        Armond" and are now cited here; being a registrar's proclamas from a
+        different jurisdiction (Conselheiro Lafaiete), they independently settle
+        the "Aristac" print variant above as Aristão. The tier is unchanged: a
+        newspaper republication of proclamas carries secondary information, as
+        does the 1973 driver-dossier index, so neither is a primary record of
+        the birth and no birth or baptism act for José Olavo has been located.
   - parent_id: P-0009
     relationship_type: unknown
     status: strong-evidence
     source_ids:
     - GOV-0001
-    notes: []
+    - NWS-0001
+    notes:
+    - text: >-
+        NWS-0001 names Liliosa Paz Armond as José Olavo's mother and is cited
+        here. The tier is unchanged for the same reason as the paternal link:
+        both the 1973 driver-dossier index and the 1975 banns report the
+        parentage at second hand, decades after the birth.
   notes: []
 event_ids: []
 notes: []

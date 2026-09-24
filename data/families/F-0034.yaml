@@ -6,31 +6,114 @@ partners:
 - person_id: P-0071
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
   - PUB-0003
+  - PAR-0062
+  - PAR-0081
+  - PAR-0063
+  - PAR-0064
+  - CIV-0045
+  - CIV-0048
+  notes:
+  - text: >-
+      Under-citation audit 2026-09-24: six original records are cited and the
+      tier is upgraded strong-evidence → confirmed. The union previously rested
+      on PUB-0003 alone, a published colonist compilation that can never confirm,
+      while the couple's own marriage act sat uncited in the archive. PAR-0062 is
+      that act: Livro de Casamentos, Nova Friburgo, p.234, 11 April 1864,
+      "casarão-se solemnemente Vicente Bohrer, de trinta e cinco annos, filho
+      legitimo de Lourenço Bohrer e de Anna Maria Verly, e Maria Eggendorn, de
+      vinte annos, filha legitima de José Eggendorn e de Maria Freese, ambos
+      nascidos, baptizados e moradores nesta freguezia", before Vigário João José
+      Viviand, with the bride's father José Eggendorn among the witnesses. Direct
+      primary evidence of the union, and it already sources the marriage event
+      E-0063 on this family.
+  - text: >-
+      Independently corroborated by five further originals naming the pair
+      jointly as the parents of a legitimate child, across two registries and 49
+      years: the 1867 baptism of Maria Elizabeth, "filha leg.ma de Vicente Bohrer
+      e de Maria Eggendorn" (PAR-0081); the 1868 baptism of Valentim Martinho,
+      "filho legitimo de Vicente Bohrer, e de Maria [Regina?] Eggendorn"
+      (PAR-0063); Valentim's own 1890 marriage, "filho legitimo de Vicente
+      Bor[b]er e Maria Regina Eckdorn" (PAR-0064); the 1891 civil birth of his
+      daughter Maria Felomena, which he declared in person, entering the child as
+      "neta paterna de Vicente Borrer e de Maria Hech[t]forme" (CIV-0045); and the
+      1913 Bom Jardim civil marriage of another son, "José Maria Bocher … filho
+      legítimo de Vicente Bocher e Maria [Regina] Haggendorn" (CIV-0048).
+  - text: >-
+      CIV-0048 is cited here although the parentage links below deliberately
+      exclude it — correctly so, since it states José Maria's filiation and not
+      Valentim's. It does state that Vicente and Maria had a legitimate son
+      together, which is an assertion about this union, so it belongs at this
+      assertion and not at that one. The mother's surname is written differently
+      in nearly every act (Eggendorn / Eckdorn / Hech[t]forme / Haggendorn); the
+      variants are preserved on P-0071 and are not resolved here, and none of them
+      puts the union in doubt, since PAR-0062 fixes her as Vicente's only recorded
+      wife. PUB-0003 is retained as corroboration only and carries no part of the
+      upgrade.
+  - text: >-
+      Chronology left as read, not adjusted: PUB-0003 places a first son, José
+      Domingos, at 19/03/1864, about three weeks before the 11 April 1864 marriage
+      act. That date is secondary and uncorroborated by any held record; it is
+      preserved on the documented_children entry below rather than silently
+      altered, and it does not bear on the union, which the marriage act
+      establishes directly.
 children:
 - person_id: P-0028
   parent_relationships:
   - parent_id: P-0070
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PUB-0003
-    notes: []
+    - PAR-0063
+    - PAR-0064
+    - CIV-0045
+    notes:
+    - text: >-
+        Tier audit 2026-09-24: upgraded strong-evidence → confirmed. The link previously rested on
+        PUB-0003 alone — a published colonist compilation, which can never confirm on its own.
+        Three original records that state the filiation are now cited: his 1868 Nova Friburgo
+        baptism (PAR-0063, "Valentim Martinho, nascido a quatorze de Novembro, filho legitimo de
+        Vicente Bohrer, e de Maria [Regina?] Eggendorn"); his 1890 marriage (PAR-0064, "elle de
+        vinte dois annos de edade e filho legitimo de Vicente Bor[b]er e Maria Regina Eckdorn",
+        his own declaration); and the 1891 civil birth of his daughter Maria Felomena (CIV-0045),
+        which he declared in person and in which the child is entered as "neta paterna de Vicente
+        Borrer e de Maria Hech[t]forme". Three occasions, two registries, 23 years apart.
+    - text: >-
+        CIV-0048 (the 1913 Bom Jardim civil marriage of José Maria Bocher) is deliberately NOT
+        cited on this relationship. The act states the filiation of the groom José Maria, not of
+        Valentim: Valentim appears only among the signatories. His signature corroborates the
+        sibling group and is recorded on the documented_children entry below, but the record makes
+        no statement about his own parents.
   - parent_id: P-0071
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PUB-0003
-    notes: []
+    - PAR-0063
+    - PAR-0064
+    - CIV-0045
+    notes:
+    - text: >-
+        Tier audit 2026-09-24: upgraded strong-evidence → confirmed on the same three original
+        records as the paternal link. Her surname is written differently in each — "Eggendorn"
+        (PAR-0063, the middle name faded and the read uncertain), "Eckdorn" (PAR-0064) and
+        "Hech[t]forme" (CIV-0045, an uncertain read) — so no single one of them fixes her
+        identity. It is fixed instead by PAR-0062, the 1864 marriage that made her Vicente's only
+        recorded wife: "Maria Eggendorn, de vinte annos, filha legitima de José Eggendorn e de
+        Maria Freese". Every act above names Valentim's mother as Vicente's wife Maria
+        [Eggendorn], and no second wife is attested; the spelling variants are preserved on P-0071
+        rather than resolved here. CIV-0048 is excluded for the reason given on the paternal link.
   notes: []
 documented_children:
 - name: "José Domingos Borer, n.19/03/1864"
   source_ids:
   - PUB-0003
   note: >-
-    Born ~3 weeks before parents' 11 April 1864 civil marriage; place: São José do
+    Born ~3 weeks before parents' 11 April 1864 marriage (PAR-0062, a parish act —
+    Brazil had no civil registration until 1889); place: São José do
     Ribeirão. Not modelled.
 - name: "Maria Elisabeth Borer, n.15/12/1866"
   source_ids:

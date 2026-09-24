@@ -22,6 +22,7 @@ children:
     status: strong-evidence
     source_ids:
     - PAR-0035
+    - PAR-0034
     notes:
     - text: >-
         João Rodrigues Valle (P-0078) is named in his 1728 Ruivais baptism (PAR-0035)
@@ -29,12 +30,33 @@ children:
         desta Villa de Ruiuais". Identifying those parents with the 1716 Ruivais
         marriage couple (PAR-0036) — same names, same parish, consistent timeline —
         is strong-evidence.
+    - text: >-
+        Citation added 2026-09-24 (under-citation audit): PAR-0034, the certified
+        Arquidiocese de Mariana transcript of his 1751 Borda do Campo marriage, states
+        the same parentage directly — "João Rodrigues Valle natural e baptizado nesta
+        mesma freguezia filho legitimo de João Rodrigues, e Joanna Gonçalves" — and its
+        closing correction fixes him as "h.[om]em de Ruvans do Arceb.o de Braga".
+        The tier is deliberately left at strong-evidence: both records give only the
+        bare names "João Rodrigues" and "Joanna Gonçalves", so the second citation
+        corroborates the parents' names but adds nothing that discriminates them from
+        any other couple of those names in Ruivais. The limiting question is the
+        identification of those parents with the 1716 Ruivais marriage couple
+        (PAR-0036) who are modelled as P-0080 × P-0081, and that identification still
+        rests on name, parish and timeline alone.
   - parent_id: P-0081
     relationship_type: biological
     status: strong-evidence
     source_ids:
     - PAR-0035
-    notes: []
+    - PAR-0034
+    notes:
+    - text: >-
+        Joanna Gonçalves is named as the mother in both records cited here: the 1728
+        Ruivais baptism (PAR-0035, "sua molher Joana Gonçalues desta Villa de
+        Ruiuais") and the 1751 Borda do Campo marriage certidão of her son (PAR-0034,
+        "filho legitimo de João Rodrigues, e Joanna Gonçalves"). PAR-0034 added
+        2026-09-24 (under-citation audit); the tier stays strong-evidence for the same
+        reason as the paternal link — see the note on P-0080.
   notes: []
 event_ids:
 - E-0072

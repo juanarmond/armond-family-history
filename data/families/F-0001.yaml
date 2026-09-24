@@ -19,13 +19,31 @@ children:
         status: strong-evidence
         source_ids:
           - CIV-0004
-        notes: []
+          - CIV-0028
+        notes:
+          - text: >-
+              Antenor's 2014 Volta Redonda civil death act (CIV-0028) states the
+              filiation "DEOCLECIANO MUNIZ e LUIZA FERNANDES DE AZEVEDO" and is
+              cited here at the assertion it supports. It does not raise the
+              tier: the act's own averbação records that the declarant presented
+              the deceased's marriage certificate from the cartório of Alvorada
+              (MG), "livro 05, folhas 066" — the very document already cited as
+              CIV-0004 — so the 1949 and 2014 filiations are one chain of
+              information, not two independent attestations. Confirmation awaits
+              Antenor's own birth or baptism act (Alvorada, Carangola, 1923).
       - parent_id: P-0013
         relationship_type: unknown
         status: strong-evidence
         source_ids:
           - CIV-0004
-        notes: []
+          - CIV-0028
+        notes:
+          - text: >-
+              CIV-0028 names Luiza Fernandes de Azevedo as Antenor's mother and
+              is cited here. The tier is unchanged for the same reason as the
+              paternal link: the 2014 act's filiation was taken from the 1949
+              marriage certificate (CIV-0004) presented at the registration, so
+              it is not an independent second source.
     notes: []
 documented_children:
   - name: Aristides Muniz Bittencourt

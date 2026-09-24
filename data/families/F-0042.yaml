@@ -9,27 +9,109 @@ partner_relationship:
   status: strong-evidence
   source_ids:
   - PAR-0024
+  - PAR-0044
+  - PAR-0045
+  - PAR-0046
+  - PAR-0047
   notes:
   - text: >-
       Manoel de Motta (P-0086) and Anna de Souza (P-0087) are named together as the
       parents of their daughter Francisca Roza do Espírito Santo (P-0047) in her
       1842 Mãe de Deus marriage (PAR-0024), which attests the couple; their own
       marriage record is not located.
+  - text: >-
+      Under-citation audit 2026-09-24: four further held Nossa Senhora Mãe de
+      Deus acts are cited here. The tier is deliberately left at
+      strong-evidence — the note above stands. PAR-0044 (baptism of Agostinho
+      Muniz, 23 April 1843) is the only held record that states the marriage
+      itself: "Foraõ Padrinhos Manoel da Motta Junior, e sua mulher Anna de
+      Souza, naturaes, e freguezes d'esta referida Igreja". It is cited for that
+      "sua mulher" clause alone, not for the co-godparenthood, which on its own
+      would prove nothing — and it is valuable precisely because it is an outside
+      household's act (a child of João Munis Bittencourt × Maria Jacintha de
+      Medeiros, F-0023), independent of this couple's own descendants. PAR-0046
+      (1849) and PAR-0047 (1851) name the pair jointly as the "avós maternos" of
+      two granddaughters, "materna de Manoel de Motta Junior e Anna de Souza".
+      PAR-0045 (1 January 1843) names them jointly as the parents of another
+      daughter, "[Claudina] … filha de Manoel de [Motta] [junior?] e de Anna de
+      Souza".
+  - text: >-
+      Why PAR-0045 is cited here although the parentage links below exclude it:
+      the two assertions differ. PAR-0045 makes no statement about Francisca
+      Roza's parentage, so it cannot support that link; it does state that Manoel
+      de Motta and Anna de Souza were jointly the parents of Claudina, which
+      bears on this union — and this family already cites it for exactly that on
+      the documented_children entry for Claudina. Its weight is limited: both the
+      surname "Motta" and the "junior" epithet are bracketed uncertain reads in
+      that act.
+  - text: >-
+      Why this is not upgraded to confirmed. The couple's own marriage act —
+      necessarily a Mãe de Deus or neighbouring Povoação casamentos entry of
+      roughly 1810–1820 — is not held, and has not been searched to a bounded
+      negative. Absent it, confirmation would need two independent originals
+      stating that the couple were married, and only one does. PAR-0024 reads
+      "Francisca Roza do Espirito Santo, filha de Manoel de Motta mancebo e de
+      Anna de Souza" — joint parentage with no "legítima" (the groom in the same
+      act is likewise "filho de", not "filho legitimo"), so it does not assert a
+      marriage; "mancebo" is read here, with the "Junior" of 1849 and 1851, as
+      the epithet distinguishing the younger Manoel de Motta from his father, but
+      it is not a marital statement either way. PAR-0046 and PAR-0047 are two acts
+      of the same informant household (Manoel Muniz Bytancourt × Francisca Roza)
+      two years apart, attesting one ongoing fact — corroboration, not a second
+      independent proof — and PAR-0045 is a third act of that same household,
+      with an uncertain reading at the decisive word. The union is very well
+      attested; it is not yet proven to the confirmed standard.
 children:
 - person_id: P-0047
   parent_relationships:
   - parent_id: P-0086
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PAR-0024
-    notes: []
+    - PAR-0046
+    - PAR-0047
+    notes:
+    - text: >-
+        PAR-0046 and PAR-0047 cited and tier upgraded strong-evidence → confirmed on
+        2026-09-24 (under-citation audit). This supersedes the 2026-08-13 tier-audit
+        note below, which recorded the edge as resting "solely on PAR-0024". Three
+        independent original Mãe de Deus registers each state the parentage directly:
+        Francisca Roza's own marriage act of 17 February 1842 ("Francisca Roza do
+        Espirito Santo, filha de Manoel de Motta mancebo e de Anna de Souza",
+        PAR-0024, Livro SMG-PV-MAEDEDEUS-C-1841-1854 fl. 32r), and the baptisms of two
+        of her daughters, each naming her parents as the maternal grandparents —
+        Francisca, 2 September 1849 ("materna de Manoel de Motta Junior e Anna de
+        Souza", PAR-0046, Livro SMG-PV-MAEDEDEUS-B-1849-1851 fl. 41) and Maria, 21
+        December 1851 (same clause, PAR-0047, Livro SMG-PV-MAEDEDEUS-B-1851-1853 fl.
+        42). Three different books over nine years, no material conflict; "mancebo"
+        (1842) and "Junior" (1849, 1851) are the same epithet distinguishing the
+        younger Manoel de Motta from his father.
+    - text: >-
+        Deliberately NOT cited here: PAR-0045, the 1843 baptism of the couple's
+        daughter Maria. That act names no grandparents at all; Manoel de [Motta]
+        [junior?] × Anna de Souza appear in it only as the parents of the godmother
+        Claudina, with both the surname and the "junior" bracketed as uncertain
+        readings. It therefore corroborates Claudina's own parentage (see
+        documented_children) but does not state Francisca Roza's, and adding it here
+        would cite a source at an assertion it does not make.
   - parent_id: P-0087
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PAR-0024
-    notes: []
+    - PAR-0046
+    - PAR-0047
+    notes:
+    - text: >-
+        PAR-0046 and PAR-0047 cited and tier upgraded strong-evidence → confirmed on
+        2026-09-24 (under-citation audit), on the same three independent original acts
+        as the paternal link: PAR-0024 (1842 marriage, "filha de Manoel de Motta
+        mancebo e de Anna de Souza"), PAR-0046 (1849 baptism of the granddaughter
+        Francisca, "materna de Manoel de Motta Junior e Anna de Souza") and PAR-0047
+        (1851 baptism of the granddaughter Maria, same clause). Anna de Souza is named
+        identically in all three. PAR-0045 is not cited, for the reason given on the
+        P-0086 link.
   notes: []
 documented_children:
 - name: Claudina

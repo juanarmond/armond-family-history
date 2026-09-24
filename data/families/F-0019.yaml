@@ -6,9 +6,12 @@ partners:
 - person_id: P-0041
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
   - PAR-0005
+  - CIV-0041
+  - PAR-0009
+  - PAR-0008
   notes:
   - text: >-
       The union is attested by the "filha legítima" statement in their daughter
@@ -16,6 +19,38 @@ partner_relationship:
       godparents of their granddaughter Anna in 1885 (PAR-0006); no marriage
       record has been located, so it remains strong evidence rather than a
       confirmed marriage.
+  - text: >-
+      Under-citation audit 2026-09-24: three further held records are cited and
+      the tier is upgraded strong-evidence → confirmed. Two original parish death
+      acts state the marriage directly, each from the other spouse's side —
+      Rita's 1898 óbito at Santa Luzia de Carangola, "faleceu de morte natural
+      Rita do Rego Brandão, de 51 annos de idade, casada com José do Rego
+      Brandão" (PAR-0009), and José's own 1912 óbito, "viuvo de Rita do Rego
+      Brandão" (PAR-0008). Fourteen years apart, different priests, different
+      informants. Independent of both, Susanna's 1866 baptism transcript names
+      her "filha legítima de José do Rego Brandão e de Rita Ignacia de Jesus"
+      (PAR-0005), and her daughter Ritta's 1890 Sapucaia civil birth, declared by
+      João Muniz Bittencourt, names the pair jointly as the maternal grandparents
+      (CIV-0041). No marriage act of their own has been located; the two óbitos
+      supply what it would have supplied.
+  - text: >-
+      Identity caveat, preserved rather than resolved: the two óbitos call her by
+      her married name "Rita do Rego Brandão", so the equation with "Rita Ignacia
+      de Jesus" (P-0041) rests on the married-name convention plus the husband
+      match, not on a stated identity. PAR-0005 and CIV-0041 name her under the
+      maiden name jointly with José, so the union itself does not depend on that
+      equation.
+  - text: >-
+      Deliberately NOT cited here: PAR-0006, the 1885 Sapucaia baptism of their
+      granddaughter Anna. The pair appear in it only as godparents ("Foram
+      padrinhos José do Rego Brandão e Rita Ignacia de Jesus"); the act gives them
+      no marital descriptor and does not state that they are the mother's
+      parents — that identification comes from PAR-0005, not from this act.
+      Standing together at a font is not evidence of a union. This supersedes the
+      claim in the first note above, and in the family notes below, that their
+      "appearing together as godparents" corroborates the couple: it does not,
+      and the union no longer needs it. PAR-0006 remains correctly cited on
+      F-0007, for Anna's own legitimate parentage.
 children:
 - person_id: P-0020
   parent_relationships:

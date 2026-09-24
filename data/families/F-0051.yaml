@@ -23,16 +23,40 @@ children:
   parent_relationships:
   - parent_id: P-0103
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PAR-0064
-    notes: []
+    - CIV-0045
+    notes:
+    - text: >-
+        CIV-0045 cited and tier upgraded strong-evidence → confirmed on 2026-09-24
+        (under-citation audit). Two independent original records, in two different
+        jurisdictions and from two different declarants, each state the parentage
+        directly: Carolina's own Catholic marriage act of 27 November 1890 at the Nova
+        Friburgo Matriz ("filha legitima de Jacob Klein e Maria Luiza Schenkel",
+        PAR-0064, Livro de Casamentos p. 79 nº 333, declared by the contracting
+        parties, with her father giving verbal licence) and the civil birth
+        registration of her daughter Maria Felomena on 2 October 1891 at São José do
+        Ribeirão ("neta ... materna de Jacob Klein e de Maria Luiza Sch[m]enckel
+        [Schenkel]", CIV-0045, fl. 117-118, termo nº 236), declared by her husband
+        Valentim. No material conflict; the Schenkel surname carries only a scribal
+        variant in the civil act.
   - parent_id: P-0104
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PAR-0064
-    notes: []
+    - CIV-0045
+    notes:
+    - text: >-
+        CIV-0045 cited and tier upgraded strong-evidence → confirmed on 2026-09-24
+        (under-citation audit), on the same two independent original records as the
+        paternal link: PAR-0064 (1890 parish marriage, "filha legitima de Jacob Klein
+        e Maria Luiza Schenkel") and CIV-0045 (1891 civil birth registration of the
+        granddaughter Maria Felomena, "materna de Jacob Klein e de Maria Luiza
+        Sch[m]enckel"). The civil clerk's "Sch[m]enckel" is a spelling variant of
+        Schenkel, not a second woman: both acts pair her with Jacob Klein as
+        Carolina's parents.
   notes: []
 event_ids:
 - E-0092

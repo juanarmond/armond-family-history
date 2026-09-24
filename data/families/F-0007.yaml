@@ -6,16 +6,71 @@ partners:
 - person_id: P-0020
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
   - PAR-0001
+  - PAR-0006
+  - CIV-0041
   - PAR-0004
+  - PAR-0007
+  - CIV-0001
+  - CIV-0006
+  - PAR-0012
+  - PAR-0013
+  - PAR-0014
+  - PAR-0003
+  - CIV-0042
   notes:
   - text: >-
       The 1882 provision (PAR-0001) documents a provision to marry, not a
       completed ceremony; their son Deocleciano's 1892 baptism (PAR-0004) records
       him as "filho legítimo" of the couple, corroborating the union. Kept as
       strong evidence pending the parish marriage act.
+  - text: >-
+      Under-citation audit 2026-09-24: ten further held records naming both
+      partners are now cited, and the tier is upgraded strong-evidence →
+      confirmed. This supersedes the "kept as strong evidence pending the parish
+      marriage act" reservation in the note above. The Sapucaia ceremony act is
+      still unlocated, but it is no longer the only record that could settle the
+      union.
+  - text: >-
+      The upgrade rests on independence, not on quantity. The twelve cited acts
+      collapse into four informant groups, and it is the crossing of the groups
+      that confirms. (a) Licence: the 23 December 1882 ecclesiastical provision
+      of the Court of Rio de Janeiro authorising the couple to marry in the
+      matriz of Santo Antônio de Sapucaia (PAR-0001). (b) The couple's own
+      household declaring their children legitimate in that same parish,
+      contemporaneously — Anna's 1885 baptism, "filha legítima de João Muniz
+      Betencourt e Suzana Rita Brandão" (PAR-0006); Ritta's 1890 Sapucaia civil
+      birth, declared by João in person, "filha legitima do declarante e Dona …
+      Rita Brandão" (CIV-0041); Deocleciano's 1892 baptism, "filho legítimo"
+      (PAR-0004). (c) João's own 1915 death act at Santa Luzia de Carangola,
+      "casado com Suzana Rita Brandão, a qual deixa Onze [filhos]" (PAR-0007) — a
+      direct statement of the marital bond, recorded at his death by an informant
+      outside the couple. (d) The adult children declaring their parents at their
+      own marriages a generation later — Deocleciano in 1916 (PAR-0012, and the
+      civil act of the same day, CIV-0001/CIV-0006), Joventina in 1916
+      (PAR-0013), Mercedes in 1917 (PAR-0014) — plus the grandson Aristides's
+      1922 baptism naming the pair as paternal grandparents (PAR-0003) and Ana's
+      1950 death naming both parents (CIV-0042).
+  - text: >-
+      Group (b) is one fact re-attested by one household and cannot confirm on
+      its own, however many baptisms it contains; the same is true of group (d),
+      where CIV-0001 and CIV-0006 are two certificates of the *same* civil act
+      (Carangola livro 8, fl. 118, termo 62) and PAR-0012 is its religious
+      counterpart of the same day and the same informants. What confirms is (c)
+      crossing (b): an original primary death act stating that João was married
+      to Suzana, independent of the legitimacy declarations the couple themselves
+      made thirty years earlier, with (a) placing a licensed marriage in exactly
+      the parish where those children were then baptised.
+  - text: >-
+      Deliberately left open: the marriage act itself. PAR-0001 is a licence, not
+      a performed ceremony, and the Sapucaia casamentos entry for late 1882/1883
+      has not been located — the search is not bounded and the omission is not an
+      absence. No candidate was rejected in this audit: every one of the ten
+      names the couple in a role that bears on the union (stated legitimacy,
+      joint parentage, or marital status), none merely as co-witnesses or
+      co-godparents.
 children:
 - person_id: P-0012
   parent_relationships:

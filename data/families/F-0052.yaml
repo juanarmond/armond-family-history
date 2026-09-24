@@ -6,14 +6,30 @@ partners:
 - person_id: P-0106
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
   - PAR-0066
+  - PAR-0068
   notes:
   - text: >-
       Johannes Klein × Anna Margaretha, Lutheran colonists, parents of Jacob Klein (P-0103); named
       in his 1844 baptism (PAR-0066) and 1872 marriage (PAR-0068). No marriage act of their own is
       held; Anna Margaretha's maiden surname is [uncertain].
+  - text: >-
+      Under-citation audit 2026-09-24: PAR-0068 is cited and the tier is upgraded
+      strong-evidence → confirmed. Their own marriage act is still not held — the
+      note above stands — but two independent original Nova Friburgo Lutheran
+      register entries each state the marital bond. The 1844/45 Taufregister
+      entry for their son Jacob reads "wurde dem Colonisten Joh. Klein, und
+      seiner Ehefrau Anna Margar[etha] … ein Söhnchen geboren" (PAR-0066: "his
+      wife", recorded at the font). The 1872 Trauregister entry for that son's
+      own marriage reads "Jakob Klein, ehl[icher] Sohn von Johannes Klein und der
+      verstorbenen Anna Margaretha geb. [Neis]" (PAR-0068: legitimate son of the
+      pair, declared by Jakob himself, his mother by then deceased). Two events
+      twenty-eight years apart, two different registers, two different
+      informants. Anna Margaretha's maiden surname remains [uncertain: Neis] in
+      both, but that is a name-variant question carried on P-0106, not a doubt
+      about the union.
 children:
 - person_id: P-0103
   parent_relationships:

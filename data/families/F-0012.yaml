@@ -6,16 +6,47 @@ partners:
 - person_id: P-0011
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
   - CIV-0017
   - CIV-0018
+  - CIV-0022
+  - CIV-0002
+  - CIV-0027
   notes:
   - text: >-
       Antonio Engracio Filho's 1964 civil death (CIV-0017) records him "casado com
       Maria Aurora Guimarães", and her 1991 civil death (CIV-0018) records her
       "viúva de Antonio Engracio Filho". Two original civil records thus attest
       the marriage, though neither states its date or place.
+  - text: >-
+      Under-citation audit 2026-09-24: three further held records naming both
+      partners are cited, and the tier is upgraded strong-evidence → confirmed.
+      The note above stands unchanged: the marriage act is still unlocated and
+      its date and place are still unknown. What carries the upgrade is that the
+      two death registers state the bond directly and independently of each
+      other — his 1964 óbito, "estado civil casado com Maria Aurora Guimarães"
+      (CIV-0017, informant a son), and her 1991 óbito, "Est. civil viúva de
+      Antonio Engracio Filho" (CIV-0018, a different descendant as informant, 27
+      years later at a different registry). In both, that is the registrar's
+      formal civil-status field, not narrative.
+  - text: >-
+      Cited alongside them, but carrying no part of the upgrade: Cidália's 1930
+      birth registration, declared by the father in person, "filha de Antonio
+      Engracio de Souza e Maria Aurora Guimarães" (CIV-0022 — contemporaneous,
+      but it records joint parentage only and states neither legitimacy nor a
+      marriage); her 1952 marriage, naming both as her parents while both were
+      living in Eugenópolis (CIV-0002); and her 2023 death, again naming both as
+      her parents (CIV-0027, the weakest — a family informant 93 years after the
+      couple's first documented child). These three attest joint parenthood, and
+      all three come from the couple's own descendants re-stating one ongoing
+      fact: corroboration, not independence.
+  - text: >-
+      Deliberately NOT cited: REC-0001, the owner-supplied direct-ancestor roster
+      that lists this couple at Ahnentafel positions 10–11. It is a family
+      recollection whose own terms say it "does not substitute for civil or
+      parish evidence of vital events or relationships"; it asserts no marriage,
+      and a recollection could never carry a tier in any case.
 children:
 - person_id: P-0005
   parent_relationships:

@@ -22,16 +22,35 @@ children:
   parent_relationships:
   - parent_id: P-0072
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PUB-0003
-    notes: []
+    - PAR-0060
+    notes:
+    - text: >-
+        Tier audit 2026-09-24: upgraded strong-evidence → confirmed. PAR-0060, her own 1820 Nova
+        Friburgo marriage act, states the filiation directly: "Laurenço filho de Jacobo Borer
+        natural de Grindel no cantão de Soleure e Anna e Maria filha de João Jacobo Verly
+        [Wehrli] natural do mesmo lugar". That is an original parish register entry carrying
+        primary information — the bride's own declaration before Vigário J. Joye — and it names
+        the father and his Grindel origin, matching P-0072, whose own 1782 Grindel marriage is
+        held (PAR-0029, cited on the partner_relationship above). The same page records her
+        sister Salomea Verly marrying on the same day, consistent with the Wehrli family group.
+        The upgrade rests on PAR-0060 alone; PUB-0003 is a published compilation and corroborates
+        without confirming. No second original naming her parentage has been located.
   - parent_id: P-0073
     relationship_type: biological
     status: strong-evidence
     source_ids:
     - PUB-0003
-    notes: []
+    notes:
+    - text: >-
+        Deliberately left at strong-evidence in the 2026-09-24 tier audit, unlike the paternal
+        link. The 1820 marriage act (PAR-0060) names only the bride's father, "João Jacobo Verly";
+        it does not name her mother. Elisabetha Borer's maternity therefore still rests on
+        PUB-0003 (a published compilation, which cannot confirm) together with the couple's 1782
+        Grindel marriage (PAR-0029), which establishes the marriage but does not name this
+        daughter. The asymmetry between the two parent links is intended, not an oversight.
   notes: []
 documented_children:
 - name: Henri Wehrli

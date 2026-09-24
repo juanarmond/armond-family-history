@@ -10,18 +10,44 @@ children:
   parent_relationships:
   - parent_id: P-0038
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PAR-0003
     - CIV-0001
-    notes: []
+    - PAR-0012
+    notes:
+    - text: >-
+        Tier audit 2026-09-24: upgraded strong-evidence → confirmed, and PAR-0012 — the original
+        1916 parish marriage act at Santa Luzia de Carangola — is now cited at the assertion it
+        supports: "a oradora ... filha legitima de Secundino Maria de Azevedo e D. Thereza
+        Fernandes de Azevedo". That act is an original register entry with primary information
+        (the bride's own declaration), and it is the record that settled the father's given name
+        against the "Sebastião" misread of CIV-0006. It is joined by a second, separate act six
+        years later — Aristides's 1922 baptism (PAR-0003), a certified parish copy naming "José
+        Secundino de Azevedo" as maternal grandfather — and by CIV-0001, the registrar's certified
+        certidão of the civil marriage. Note on independence: CIV-0001 and PAR-0012 record the
+        same 21 October 1916 union from the same declarations, so they are one chain of
+        information for this fact, not two; PAR-0003 is the genuinely separate occasion.
   - parent_id: P-0039
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PAR-0003
     - CIV-0001
-    notes: []
+    - PAR-0012
+    - CIV-0006
+    notes:
+    - text: >-
+        Tier audit 2026-09-24: upgraded strong-evidence → confirmed on the same basis as the
+        paternal link — the original 1916 parish act (PAR-0012, "filha legitima de Secundino Maria
+        de Azevedo e D. Thereza Fernandes de Azevedo") plus the separate 1922 baptism of her son
+        Aristides (PAR-0003, "materno de José Secundino de Azevedo e de Thereza Fernandes de
+        Azevedo"). The mother's name is recorded identically in every reading, with none of the
+        variance that affects the father. CIV-0006 (the 2019 full-content certidão) is cited here
+        because it reproduces the clause naming "Dona Thereza Fernandes de Azevedo", but it is a
+        derivative of the very same civil act as CIV-0001 — one source of information, not an
+        independent second one - and it is deliberately not cited on the paternal link, where its
+        low-contrast reproduction yields the unresolved "Sebastião [uncertain: Manoel]" read.
   notes: []
 documented_children:
 - name: Alcida Fernandes de Azevedo
@@ -47,3 +73,11 @@ notes:
     baptism (PAR-0003). Strong-evidence — both name the parents as reported
     information, not from the couple's own records. This group records the reported
     parents; no marriage record between them has been located.
+- text: >-
+    SUPERSEDED IN PART (tier audit 2026-09-24): the strong-evidence reasoning in the note
+    above was written when only the two derivatives (CIV-0001, PAR-0003) were cited. The
+    original 1916 parish marriage act PAR-0012 was catalogued afterwards and is now cited on
+    both parent links, which are raised to confirmed. The earlier reasoning is kept as the
+    record of how the conclusion stood. Still true and unchanged: no marriage record between
+    José Secundino and Thereza themselves has been located, and no record contemporaneous
+    with Luiza's own birth or baptism has been found.
