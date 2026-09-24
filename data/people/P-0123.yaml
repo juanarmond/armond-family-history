@@ -42,7 +42,7 @@ notes:
     Alferes de ordenanças (Second Lieutenant of the militia). Married twice: first to Bárbara
     Gato (no surviving children, S.g.); second to Mariana Fagundes at Santa Bárbara on 26
     September 1650 (F-0062). Lived at Belo Jardim, in the termo of the vila da Praia, Terceira.
-    Son of Manuel da Ponte Valadão (P-0125) × Maria da Costa Leonardes (P-0126) (F-0063).
+    Son of Manuel da Ponte Cardoso (P-0125) × Maria da Costa Leonardes (P-0126) (F-0063).
     All facts from Mendes Forjaz Vol. IX (PUB-0005), corroborated by primary parish marriage
     image PAR-0086.
 - text: >-
@@ -52,6 +52,23 @@ notes:
 - text: >-
     First marriage (Bárbara Gato): not modelled as a separate family entity since Vol. IX states
     S.g. (sem geração — no surviving children). No primary record held for this first marriage.
+- text: >-
+    His father's name was corrected on 2026-09-24 from "Manuel da Ponte Valadão" to Manuel da
+    Ponte Cardoso (P-0125). "Valadão" is the compiled genealogy's form (PUB-0005, Vol. IX
+    p.259, which itself offers "Ou Manuel da Ponte Cardoso"); the original registers write the
+    father "Manoell de Ponte" (PAR-0087), "m.el de Ponte Cardozo" (PAR-0097) and "M.el de
+    Ponte Cardoso" (PAR-0098) — the same surname Belchior carries.
+- text: >-
+    The identification of the São Sebastião vicar as Belchior's brother is now [PROVEN], not
+    inferred. His parents' own death acts, read 2026-09-24, are written by the officiating
+    priest in the first person: a marginal "M.el de Pon / te Cardozo / meu pai" on the 1652
+    act (PAR-0097) and "faleceo maria da Costa Leonardes minha mai, molher de M.el de Ponte
+    Cardoso meu pai" in the 1654 act (PAR-0098). The vicar was therefore a son of F-0063 and
+    Belchior's brother. He is identified as António Coelho Souto-Maior (b.13.2.1619,
+    d.17.7.1686) — the only priest among the couple's children in PUB-0005, and the man who
+    signs "Antônio Coelho Sotomayor" when he buries Belchior's wife Mariana in 1684
+    (PAR-0089). He is recorded as a documented child on F-0063 and is not modelled as a
+    person entity.
 profile: >-
   ## Interesting facts
 
@@ -67,11 +84,13 @@ profile: >-
 
   - **[PROVEN + CONTEXTUAL]** The household drew its boys' names from the three Magi: his brother was Baltazar (b.1612), he was Belchior (b.1615), and his own son was Gaspar (b.1657); the godfather at his 1615 baptism was a "Baltezar" (surname not recorded). The Magi name-set was a standing convention in these islands, and it is why Belchior/Baltazar/Gaspar recur so thickly through this line.
 
+  - **[PROVEN, 2026-09-24]** His brother was the vicar of São Sebastião. Their parents' own death acts, read this cycle, are written by the officiating priest in the first person: a three-line margin note on the 1652 act, "M.el de Pon / te Cardozo / **meu pai**" (PAR-0097), and the opening of the 1654 act, "faleceo maria da Costa Leonardes **minha mai**, molher de M.el de Ponte Cardoso **meu pai**" (PAR-0098). What was an inference here is now documented: the long-serving parish priest was Belchior's own brother, identified from PUB-0005 and the neighbouring signatures as **António Coelho Souto-Maior** (b.13 February 1619, d.17 July 1686). Belchior named a son after him in 1654.
+
   - **[COMPILED]** He married twice: first Bárbara Gato (recorded *S.g.* — no surviving issue, no date, no record), then Mariana Fagundes on 26 September 1650. The couple lived at **Belo Jardim, termo da vila da Praia**.
 
   ## Identity
 
-  **Belchior da Ponte Cardoso** — baptised ~9 January 1615, São Sebastião, Terceira **[PROVEN, PAR-0087]**; died and buried 26 June 1687, São Sebastião **[PROVEN, PAR-0088]**. Son of **Manuel da Ponte Valadão** (P-0125) and **Maria da Costa Leonardes** (P-0126), family F-0063 — a parentage named in his own baptism act as "Manoell de Ponte e … sua molher Maria da Cota" **[PROVEN]** and independently stated by Mendes Forjaz Vol. IX **[COMPILED]**. Married **Mariana Fagundes** (P-0124) on 26 September 1650 at Santa Bárbara **[PROVEN, PAR-0086]**; family F-0062.
+  **Belchior da Ponte Cardoso** — baptised ~9 January 1615, São Sebastião, Terceira **[PROVEN, PAR-0087]**; died and buried 26 June 1687, São Sebastião **[PROVEN, PAR-0088]**. Son of **Manuel da Ponte Cardoso** (P-0125) and **Maria da Costa Leonardes** (P-0126), family F-0063 — a parentage named in his own baptism act as "Manoell de Ponte e … sua molher Maria da Cota" **[PROVEN]** and independently stated by Mendes Forjaz Vol. IX **[COMPILED]**. (The compilation heads his father "Manuel da Ponte Valadão"; no register uses that form, and this repository dropped it as his name on 24 September 2026.) Married **Mariana Fagundes** (P-0124) on 26 September 1650 at Santa Bárbara **[PROVEN, PAR-0086]**; family F-0062.
 
   - **Rank:** Alferes de ordenanças **[PROVEN, PAR-0088; also PUB-0005]**
   - **Residence:** Belo Jardim, termo da vila da Praia **[COMPILED, PUB-0005]** — not verified by any held act
@@ -95,7 +114,7 @@ profile: >-
   - **Marriage:** at **Santa Bárbara**, his bride's parish, on 26 September 1650 **[PROVEN, PAR-0086]** — the normal Portuguese pattern of marrying in the bride's parish **[CONTEXTUAL]**, and the reason this one act sits in a different parish's book from everything else about him. The act is water- and ink-damaged; the marginal index reads "Belchior [da Ponte Cardoso] Com [Mariana] Fagundes", while the filiation clause and the witnesses are only partly legible.
   - **Children:** Mendes Forjaz lists nine by Mariana **[COMPILED]**; seven of those baptisms are held as images **[PROVEN]** — Maria (1651, PAR-0090), Manuel (1652, PAR-0091), António Coelho Souto-Maior (1654, PAR-0092), Manuel again (1656, PAR-0093), a child read as "Anto" but compiled as Maria (1662, PAR-0094 — **[PROBABLE]**, name uncertain), Belchior (1664, PAR-0095) and Isabel de Souto-Maior (1666, PAR-0096). **[INFERRED]** The name Manuel is used twice, four years apart, which in this period almost always means the first child had died; no burial act for him is held.
   - **Godparents [PROVEN, with uncertain reads].** The few godparents legible in the acts come from inside the kindred, not outside it: "Asceto André Coelho" at the 1651 baptism (first word an uncertain read), "[?] Cardos da Ponte" in 1654 (given name **[uncertain]**), and a godmother "Isabel de Souto[?]" for Isabel in 1666. A small island parish's godparent network is a standing signal, and this one is endogamous — Coelho, Cardoso da Ponte, Souto.
-  - **A priest in the house [COMPILED + INFERRED].** Vol. IX gives Belchior a brother, **António Coelho Souto-Maior** (b.1619, d.17 July 1686), *padre vigário* of the Matriz de São Sebastião. The vicar who buried Mariana in July 1684 signs as **Antônio Coelho Sotomayor** **[PROVEN, PAR-0089]**. **[INFERRED]** These are very probably the same man — Belchior's own brother burying Belchior's wife — though no held record states the identification. Consistent with it, the vicar who buried Belchior himself in June 1687 is a different man, **Domingos Cardoso Fora** **[PROVEN, PAR-0088]**: the brother had died the previous year. The child baptised in 1654 carries the priest-brother's exact name.
+  - **A priest in the house — now documented [PROVEN].** Vol. IX gives Belchior a brother, **António Coelho Souto-Maior** (b.1619, d.17 July 1686), *padre vigário* of the Matriz de São Sebastião **[COMPILED]**. That the parish vicar was a son of Belchior's parents is now **[PROVEN]** from two first-person statements in the death register: the margin of their father's 1652 act, "M.el de Pon / te Cardozo / meu pai" (PAR-0097), and the body of their mother's 1654 act, "faleceo maria da Costa Leonardes minha mai, molher de M.el de Ponte Cardoso meu pai" (PAR-0098). **[INFERRED — identification]** Which son is not stated in those two acts, which are signed only "o Vig.º So[u]tomaior": the neighbouring 1652 entries are signed "o Vig.º Ant.º Coelho Sotto[ma]yor", the vicar who buried Mariana in July 1684 signs **Antônio Coelho Sotomayor** **[PROVEN, PAR-0089]**, and PUB-0005 names only one priest among the couple's children. So the brother is António. Consistent with it, the vicar who buried Belchior himself in June 1687 is a different man, **Domingos Cardoso Fora** **[PROVEN, PAR-0088]**: the brother had died the previous year. The child baptised in 1654 carries the priest-brother's exact name. **[NOTE]** The retrieval agent's 2026-09-24 handoff called the vicar "Manoel Coelho Souto Maior"; the images do not support that name — "M.el" in the 1652 margin is the *deceased father's* forename.
   - **In-laws:** the Fagundes/Machado household of Santa Bárbara, headed by **Capitão de ordenanças António Martins Fagundes** (P-0127) **[COMPILED]**.
 
   ## What we can extrapolate
@@ -106,7 +125,9 @@ profile: >-
 
   **A household larger than the island could seat [INFERRED + CONTEXTUAL].** Nine recorded children on a finite, long-settled island is the crux. Terceira's land regime locked entailed estates (*morgadios*) on eldest sons under primogeniture, while non-entailed property divided; either way, the younger children of a nine-child household had to find the Church, the militia, a marriage or the sea **[CONTEXTUAL]**. Belchior's own documented family shows exactly that dispersal: sons who died *solteiro*, a daughter married off in 1693, an uncle in the vicarage, and — in his wife's sibling set — a brother-in-law recorded simply as "que saiu da Terceira" **[COMPILED]**. The Azorean emigration to Brazil that carries this line to Minas is the same pressure, one turn later.
 
-  **What we should not say.** "Souto-Maior", "Valadão" and "Ponte Cardoso" all look armigerous. No held record grants this family arms, a *foro*, a *morgadio* or a *Dom*; the compiled genealogy places them in a documented Terceira kindred but does not ennoble them. Nothing here should be read as nobility.
+  **Where "Souto Maior" may have come from [STRONG LEAD — not proven].** With his brother now documented as the parish vicar who signed for decades as Souto Maior, the obvious reading is that Belchior's son **Gaspar de Souto Maior** (b.23 December 1657, P-0092) took the house name from his uncle the priest. It is a lead, not a finding: Gaspar's own baptism act is held only at the CDN's published maximum of 383×527 px, and its filiation and priest-signature lines are illegible, so nothing documents the transmission. Do not state it as fact.
+
+  **What we should not say.** "Souto-Maior" and "Ponte Cardoso" both look armigerous, as does the "Valadão" the compiler attaches to his father. No held record grants this family arms, a *foro*, a *morgadio* or a *Dom*; the compiled genealogy places them in a documented Terceira kindred but does not ennoble them. Nothing here should be read as nobility — and no origin or standing should be read off a surname.
 
   ## Open questions
 
@@ -125,6 +146,7 @@ profile: >-
   - **PAR-0086** — his marriage to Mariana Fagundes, Santa Bárbara, 26 September 1650 (3 images: context, act, context). *Primary, damaged and partly legible.*
   - **PAR-0088** — his burial, São Sebastião, 26 June 1687 (O-1642-1696 p.0068); records the Alferes de ordenanças rank; officiant Vicar Domingos Cardoso Fora. *Primary.*
   - **PAR-0089** — his wife's burial, 7 July 1684, which names him as "M° Balchion de Ponte". *Primary.*
+  - **PAR-0097 / PAR-0098** — his parents' burials, 19 August 1652 and 27 December 1654, from the same register. They do not name Belchior, but they fix his father's surname as Ponte Cardoso and prove that the parish vicar was his brother. *Primary, context.*
   - **PAR-0090 / 0091 / 0092 / 0093 / 0094 / 0095 / 0096** — the baptisms of seven of his children, 1651–1666, each naming him as father. *Primary.*
   - **PUB-0005** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IX, SOUTO-MAIOR § 1º, pp. 257–261: his dates, rank, both marriages, residence and the full child list. *Secondary, compiled.*
   - **PUB-0004** — the same compilation, Vol. IV, FAGUNDES § 6º, pp. 312–313, which records the 1650 marriage from his wife's side. *Secondary, compiled.*
@@ -158,11 +180,13 @@ profile_pt: >-
 
   - **[PROVEN + CONTEXTUAL]** A casa tirava os nomes dos filhos dos três Reis Magos: o irmão era Baltazar (n.1612), ele era Belchior (n.1615) e o seu próprio filho foi Gaspar (n.1657); o padrinho no baptismo de 1615 foi um "Baltezar" (apelido não registado). O conjunto de nomes dos Magos era convenção corrente nas ilhas, e é por isso que Belchior/Baltazar/Gaspar reaparecem tanto nesta linha.
 
+  - **[PROVEN, 2026-09-24]** O irmão era o vigário de São Sebastião. Os assentos de óbito dos pais, lidos neste ciclo, estão escritos em primeira pessoa pelo sacerdote officiante: uma nota marginal de três linhas no assento de 1652, "M.el de Pon / te Cardozo / **meu pai**" (PAR-0097), e a abertura do assento de 1654, "faleceo maria da Costa Leonardes **minha mai**, molher de M.el de Ponte Cardoso **meu pai**" (PAR-0098). O que aqui era inferência está agora documentado: o pároco de longa duração era o próprio irmão de Belchior, identificado pelo PUB-0005 e pelas assinaturas vizinhas como **António Coelho Souto-Maior** (n.13 de fevereiro de 1619, f.17 de julho de 1686). Belchior deu o nome dele a um filho, em 1654.
+
   - **[COMPILED]** Casou duas vezes: primeiro com Bárbara Gato (registada *S.g.* — sem geração sobrevivente, sem data e sem registo), depois com Mariana Fagundes a 26 de setembro de 1650. O casal viveu no **Belo Jardim, termo da vila da Praia**.
 
   ## Identidade
 
-  **Belchior da Ponte Cardoso** — baptizado ~9 de janeiro de 1615, São Sebastião, Terceira **[PROVEN, PAR-0087]**; falecido e sepultado a 26 de junho de 1687, São Sebastião **[PROVEN, PAR-0088]**. Filho de **Manuel da Ponte Valadão** (P-0125) e **Maria da Costa Leonardes** (P-0126), família F-0063 — filiação nomeada no próprio assento de baptismo como "Manoell de Ponte e … sua molher Maria da Cota" **[PROVEN]** e declarada de forma independente pelo Vol. IX de Mendes Forjaz **[COMPILED]**. Casou com **Mariana Fagundes** (P-0124) a 26 de setembro de 1650, em Santa Bárbara **[PROVEN, PAR-0086]**; família F-0062.
+  **Belchior da Ponte Cardoso** — baptizado ~9 de janeiro de 1615, São Sebastião, Terceira **[PROVEN, PAR-0087]**; falecido e sepultado a 26 de junho de 1687, São Sebastião **[PROVEN, PAR-0088]**. Filho de **Manuel da Ponte Cardoso** (P-0125) e **Maria da Costa Leonardes** (P-0126), família F-0063 — filiação nomeada no próprio assento de baptismo como "Manoell de Ponte e … sua molher Maria da Cota" **[PROVEN]** e declarada de forma independente pelo Vol. IX de Mendes Forjaz **[COMPILED]**. (A compilação encabeça o pai como "Manuel da Ponte Valadão"; nenhum registo usa essa forma, e este repositório deixou de a usar como nome dele a 24 de setembro de 2026.) Casou com **Mariana Fagundes** (P-0124) a 26 de setembro de 1650, em Santa Bárbara **[PROVEN, PAR-0086]**; família F-0062.
 
   - **Patente:** Alferes de ordenanças **[PROVEN, PAR-0088; também PUB-0005]**
   - **Residência:** Belo Jardim, termo da vila da Praia **[COMPILED, PUB-0005]** — não confirmada por nenhum assento disponível
@@ -186,7 +210,7 @@ profile_pt: >-
   - **Casamento:** em **Santa Bárbara**, freguesia da noiva, a 26 de setembro de 1650 **[PROVEN, PAR-0086]** — o padrão português normal de casar na freguesia da noiva **[CONTEXTUAL]**, e a razão pela qual este assento está num livro de outra paróquia. O assento tem danos de água e tinta; o índice marginal lê "Belchior [da Ponte Cardoso] Com [Mariana] Fagundes", enquanto a cláusula de filiação e as testemunhas só são parcialmente legíveis.
   - **Filhos:** Mendes Forjaz lista nove com Mariana **[COMPILED]**; sete desses baptismos estão disponíveis em imagem **[PROVEN]** — Maria (1651, PAR-0090), Manuel (1652, PAR-0091), António Coelho Souto-Maior (1654, PAR-0092), outro Manuel (1656, PAR-0093), uma criança lida como "Anto" mas compilada como Maria (1662, PAR-0094 — **[PROBABLE]**, nome incerto), Belchior (1664, PAR-0095) e Isabel de Souto-Maior (1666, PAR-0096). **[INFERRED]** O nome Manuel é usado duas vezes, com quatro anos de intervalo, o que neste período quase sempre significa que o primeiro morrera; não há assento de óbito disponível para ele.
   - **Padrinhos [PROVEN, com leituras incertas].** Os poucos padrinhos legíveis vêm de dentro da parentela, não de fora: "Asceto André Coelho" no baptismo de 1651 (primeira palavra de leitura incerta), "[?] Cardos da Ponte" em 1654 (nome próprio **[incerto]**) e a madrinha "Isabel de Souto[?]" para Isabel em 1666. Numa pequena freguesia insular a rede de padrinhos é sinal de posição, e esta é endogâmica — Coelho, Cardoso da Ponte, Souto.
-  - **Um padre em casa [COMPILED + INFERRED].** O Vol. IX dá a Belchior um irmão, **António Coelho Souto-Maior** (n.1619, f. 17 de julho de 1686), *padre vigário* da Matriz de São Sebastião. O vigário que sepultou Mariana em julho de 1684 assina **Antônio Coelho Sotomayor** **[PROVEN, PAR-0089]**. **[INFERRED]** Muito provavelmente é o mesmo homem — o próprio irmão de Belchior a sepultar a mulher de Belchior — embora nenhum registo disponível o afirme. De forma coerente, o vigário que sepultou o próprio Belchior em junho de 1687 é outro, **Domingos Cardoso Fora** **[PROVEN, PAR-0088]**: o irmão morrera no ano anterior. O filho baptizado em 1654 leva exactamente o nome do tio padre.
+  - **Um padre em casa — agora documentado [PROVEN].** O Vol. IX dá a Belchior um irmão, **António Coelho Souto-Maior** (n.1619, f. 17 de julho de 1686), *padre vigário* da Matriz de São Sebastião **[COMPILED]**. Que o vigário da freguesia era filho dos pais de Belchior está agora **[PROVEN]** por duas declarações em primeira pessoa no livro de óbitos: a margem do assento do pai, em 1652, "M.el de Pon / te Cardozo / meu pai" (PAR-0097), e o corpo do assento da mãe, em 1654, "faleceo maria da Costa Leonardes minha mai, molher de M.el de Ponte Cardoso meu pai" (PAR-0098). **[INFERRED — identificação]** Qual dos filhos não vem dito nesses dois assentos, assinados apenas "o Vig.º So[u]tomaior": os assentos vizinhos de 1652 são assinados "o Vig.º Ant.º Coelho Sotto[ma]yor", o vigário que sepultou Mariana em julho de 1684 assina **Antônio Coelho Sotomayor** **[PROVEN, PAR-0089]**, e o PUB-0005 nomeia um único sacerdote entre os filhos do casal. Logo, o irmão é António. De forma coerente, o vigário que sepultou o próprio Belchior em junho de 1687 é outro, **Domingos Cardoso Fora** **[PROVEN, PAR-0088]**: o irmão morrera no ano anterior. O filho baptizado em 1654 leva exactamente o nome do tio padre. **[NOTA]** O handoff do agente de recolha de 2026-09-24 chamou ao vigário "Manoel Coelho Souto Maior"; as imagens não sustentam esse nome — o "M.el" na margem de 1652 é o nome próprio do *pai defunto*.
   - **Sogros:** a casa Fagundes/Machado de Santa Bárbara, chefiada pelo **Capitão de ordenanças António Martins Fagundes** (P-0127) **[COMPILED]**.
 
   ## O que podemos extrapolar
@@ -197,7 +221,9 @@ profile_pt: >-
 
   **Uma casa maior do que a ilha podia acomodar [INFERRED + CONTEXTUAL].** Nove filhos registados numa ilha finita e povoada há dois séculos é o ponto central. O regime fundiário da Terceira prendia os bens vinculados (*morgadios*) aos filhos primogénitos, enquanto a propriedade não vinculada se dividia; de qualquer modo, os filhos mais novos de uma casa de nove tinham de procurar a Igreja, a milícia, um casamento ou o mar **[CONTEXTUAL]**. A própria família documentada de Belchior mostra essa dispersão: filhos falecidos *solteiros*, uma filha casada em 1693, um tio no vicariato e — no conjunto de irmãos da mulher — um cunhado registado apenas como "que saiu da Terceira" **[COMPILED]**. A emigração açoriana que leva esta linha às Minas é a mesma pressão, uma volta depois.
 
-  **O que não devemos dizer.** "Souto-Maior", "Valadão" e "Ponte Cardoso" soam a apelidos de armas. Nenhum registo disponível concede a esta família armas, *foro*, *morgadio* ou tratamento de *Dom*; a genealogia compilada coloca-os numa parentela terceirense documentada, mas não os enobrece. Nada aqui deve ser lido como nobreza.
+  **De onde pode vir "Souto Maior" [STRONG LEAD — não provado].** Documentado agora o irmão como o vigário da freguesia que assinou durante décadas como Souto Maior, a leitura óbvia é que o filho de Belchior, **Gaspar de Souto Maior** (n.23 de dezembro de 1657, P-0092), tomou o nome de casa ao tio padre. É pista, não achado: o assento de baptismo de Gaspar só existe no máximo publicado pelo CDN, 383×527 px, e as linhas da filiação e da assinatura do sacerdote são ilegíveis, pelo que nada documenta a transmissão. Não afirmar como facto.
+
+  **O que não devemos dizer.** "Souto-Maior" e "Ponte Cardoso" soam a apelidos de armas, tal como o "Valadão" que o compilador atribui ao pai. Nenhum registo disponível concede a esta família armas, *foro*, *morgadio* ou tratamento de *Dom*; a genealogia compilada coloca-os numa parentela terceirense documentada, mas não os enobrece. Nada aqui deve ser lido como nobreza — e nenhuma origem ou posição deve ser lida a partir de um apelido.
 
   ## Questões em aberto
 
@@ -216,6 +242,7 @@ profile_pt: >-
   - **PAR-0086** — o seu casamento com Mariana Fagundes, Santa Bárbara, 26 de setembro de 1650 (3 imagens: contexto, assento, contexto). *Primária, danificada e parcialmente legível.*
   - **PAR-0088** — o seu óbito, São Sebastião, 26 de junho de 1687 (O-1642-1696 p.0068); regista a patente de Alferes de ordenanças; officiante o Vigário Domingos Cardoso Fora. *Primária.*
   - **PAR-0089** — o óbito da mulher, 7 de julho de 1684, que o nomeia como "M° Balchion de Ponte". *Primária.*
+  - **PAR-0097 / PAR-0098** — os óbitos dos pais, 19 de agosto de 1652 e 27 de dezembro de 1654, do mesmo livro. Não nomeiam Belchior, mas fixam o apelido do pai como Ponte Cardoso e provam que o vigário da freguesia era seu irmão. *Primárias, contexto.*
   - **PAR-0090 / 0091 / 0092 / 0093 / 0094 / 0095 / 0096** — os baptismos de sete dos seus filhos, 1651–1666, cada um nomeando-o como pai. *Primárias.*
   - **PUB-0005** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IX, SOUTO-MAIOR § 1º, pp. 257–261: datas, patente, os dois casamentos, residência e a lista completa de filhos. *Secundária, compilada.*
   - **PUB-0004** — a mesma compilação, Vol. IV, FAGUNDES § 6º, pp. 312–313, que regista o casamento de 1650 pelo lado da mulher. *Secundária, compilada.*

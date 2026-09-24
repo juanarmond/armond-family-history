@@ -5,6 +5,64 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — 2026-09-24 retrieval drop: Terceira óbitos, two 1831 population maps, and three corrections (2026-09-24)
+
+Processed the drop synced 2026-09-24 (1,026 images; handoff plan
+`plans/PLAN-promotion-handoff-2026-09-24.md`). Three agents worked disjoint packages with
+pre-allocated IDs; document-inventory entries were routed through scratch files and merged
+centrally to avoid a shared-ledger collision (both agents independently proposed DOC-0119/0120;
+G1's were renumbered to DOC-0121/0122).
+
+**New sources.** `PAR-0097` (óbito of Manuel da Ponte Cardoso, 19 Aug 1652) and `PAR-0098` (óbito of
+Maria da Costa Leonardes, 27 Dec 1654), both from `TER-AH-SAOSEBASTIAO-O-1642-1696`. These upgrade
+Belchior's parents from compiled-only to **primary**, and upgrade events E-0129/E-0130 from
+`strong-evidence` to `confirmed`. `GOV-0012` (APM Mapa de População, Juiz de Fora 1831 — 26 PDFs,
+Cx 07 Doc 04) and `GOV-0013` (Mapa de População de Santa Rita do Meia Pataca 1831, fls. 16), both
+census/`context_only`. +4 sources, +29 evidence files.
+
+**★ Mariana Fagundes's parentage: `[LEAD]` → `[PROVEN]`** — from `PAR-0086`, a record held since
+22 September. It required magnification, not acquisition. The clause reads *"Mariana Fagunda filha
+do [illegible] Ant.º Machado e de sua m[ulhe]r C.ta Machada"*. Mendes & Forjaz Vol. IV §6° is
+thereby **confirmed at primary level, not replaced**. P-0127/P-0128 are upgraded narrowly — attested
+as Mariana's parents and as a couple; their own births, deaths and parentage remain unknown.
+
+**★ New fact: Belchior was a widower.** The right margin of that same 1650 act reads *"Melchior de
+Ponte Cardo[so] viuvo [de] Barbora G[a]tta com Mariana Fagund[a]"* — a first wife no part of this
+archive had recorded.
+
+**Corrections.**
+- **"Manuel da Ponte Valadão" → "Manuel da Ponte Cardoso"** (P-0125). The surname rested solely on
+  `PUB-0005`; the primary baptism `PAR-0087` reads *"Manoell de Ponte"* and the 1652 óbito reads
+  *"m.el de Ponte Cardozo"*. Valadão is retained as an `other` variant cited to the compilation — it
+  is the compiler's headline form, derived from his mother Catarina Valadão. Propagated through
+  P-0123, P-0125, P-0126, F-0063, PAR-0087, `STATUS.md` and the Family Story in both languages.
+- **The handoff plan's own vicar identification was wrong** and was not adopted. It named the priest
+  son "Manoel Coelho Souto Maior", taking "M.el" from the 1652 margin — but that is the *deceased
+  father's* forename. Neighbouring entries read *"o Vig.º Ant.º Coelho Sotto[ma]yor"*, PAR-0089 gives
+  "Antônio Coelho Sotomayor", and PUB-0005 lists one priest son, **António** (b.1619, d.1686), and no
+  Manoel. He was already a `documented_children` entry on F-0063, so no duplicate was minted. The
+  sonship itself is proven by two first-person attestations; the onward claim that Gaspar took the
+  surname from this uncle stays `[STRONG LEAD]` — Gaspar's own baptism is illegible at 383×527.
+- **Juiz de Fora 1831 totals**: 118 fogos · 586 livres · 833 captivos · 1,419 habitantes (the
+  original writes "1:419"). Readings of 616, 419 or 1,449 are rejected.
+
+**Bounded negative.** All 26 pages / 52 sheets of the Juiz de Fora map were re-swept: **no Armond in
+any spelling**, no Souto Maior or Ponte Cardoso, no militia rank in the district. Recorded on P-0016
+so the search is not repeated. *"Amada"* (fogo 3) is not an Armond variant. Two Toledo households
+(fogos 109, 110) are recorded as `[LEAD]` on P-0056 — José Antonio de Toledo is **not** José
+Cesário's father.
+
+**Nilza's Santa Rita folio (C-013).** Entry no. 68's first two tokens read **"An.to Ferr.a"**
+(António Ferreira) under magnification — correcting this archive's own earlier "Ferd[o?]". **The
+surname remains unread**: a looped capital A and a terminal "-ndes" across ~60 px for eight-plus
+letters, an optical limit. Armendes, Armonde and Almendes cannot be distinguished, and it is
+recorded `[uncertain]` rather than resolved in the direction the research would prefer. C-013 and the
+draft reply to Nilza are updated accordingly.
+
+Inventory note: `resolution_status` on the two new government documents was corrected from
+`working-copy` to `highest-authorised`, following the precedent of PAR-0094 — "working-copy" denotes
+a derivative we made, not the best copy available to us.
+
 ### Rewritten — the Family Story, from the enriched portraits, in both languages (2026-09-24)
 
 `family-tree-viewer/family-story.yaml` rebuilt section by section against the 127 rewritten

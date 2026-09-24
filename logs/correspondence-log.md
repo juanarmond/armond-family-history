@@ -358,7 +358,7 @@ lead until verified against an original record.
   - **No. 65:** José Luís de [Azevedo?] (Branco, 30, Casado, Lavrador); Mariana Josefa (Branca, 21, Casada, Fiandeira); Maria (Branca, 6); Anna (Branca, 4); Florentino/a (Branca, 1).
   - **No. 66:** Dom[ingos?] [de] Souza (Branco, 30, Casado, Lavrador); Anna Ferr[eira] Gomes (Branca, 25, Casada, Fiandeira); Maria (B., 8); Josefa (B., 4); Joaquina (B., 1); José (Branco, 5); José An[tônio] de Souza (Branco, 15, Casado); Josefa Maria (Branco, 60, Casada).
   - **No. 67:** José Luís da Ro[cha?] (Branco, 36, Viúvo, Lavrador); Manuel Luís (B., 12, Roceiro); Francisca Luís (B., 11); Joaquim Luís (B., 10); Domingos Luís (B., 9); José (B., 8); Custódio (B., 6); José (B., 4); Maria Luíza (B., 17, Solteira, Fiandeira); Anna Luíza (B., 16, Solteira, Fiandeira); Luíza (B., 3); Tito (B., 2); then 7 enslaved persons: [name illegible] (Preto, Cativo, 30, Solteiro, Roceiro); António (Preto, Cativo, 35, Solteiro, Roceiro); José (Preto, Cativo, 30, Solteiro, Roceiro); José (Preto, Cativo, 25, [uncertain], Roceiro); José (Preto, Cativo, 22, Solteiro, [Roceiro?]); Manuel (Preto, Cativo, 30, Solteiro, [Carpinteiro/Engenheiro?]); Maria (Preto, Cativo, 30, Solteira, [?]).
-  - **No. 68 (partial — bottom of page):** Head of household: An[tô]... Ferd[o?] A[rm/lm]end[e]s [uncertain — likely "António/a Ferr[eira?] Armonde/s" given context; letterforms consistent but not fully legible at this resolution] (Branco, 23, Casado, Lavrador); Angélica Maria (Branca, 24, Casada, Fiandeira). Household continues on next folio.
+  - **No. 68 (partial — bottom of page):** Head of household: An[tô]... Ferd[o?] A[rm/lm]end[e]s (Branco, 23, Casado, Lavrador); Angélica Maria (Branca, 24, Casada, Fiandeira). Household continues on next folio. **[SUPERSEDED 2026-09-24 — see the follow-up below: magnified reading gives "An.to Ferr.a" (António Ferreira) for the first two tokens; "Ferd[o?]" was a misreading. The surname remains unread at this resolution.]**
 - Assessment: **LEAD for P-0016 parentage.** If the head of no. 68 reads "Armonde" (needs image verification or physical consult), this places a male Armonde, born ~1808, a lavrador branco, married to Angélica Maria (~b. 1807), in Santa Rita do Meia Pataca in 1831 — a generation between the 1791/1805 José Ferreira Armonde sesmaria holder (GOV-0009/11) and the 1870 Francisco Ferreira Armonde voter (C-012, b. ~1842–45). This person at no. 68 could be Francisco's father. The entry could extend to further members of the household on the following folio. Full archival reference: AMPL / APM?, Mapa de População, Santa Rita do Meia Pataca, 1831, fls. 16, no. 68.
 - Next actions: (1) Reply to Nilza confirming receipt; ask her to clarify the "pergunta pendente" from the subject line; ask if she has the next folio (fls. 17) or a higher-res crop of entry 68. (2) If name confirmed as Armonde, catalogue as a new GOV source and record as LEAD in P-0016 coverage notes. Do NOT promote to evidence without physical verification of the surname.
 - Reply drafted: 2026-09-24 (see below).
@@ -369,7 +369,11 @@ lead until verified against an original record.
 >
 > Nilza, bom dia!
 >
-> Obrigado pela imagem — que pista valiosa! Estou a ver o fólio 16 do Mapa de População de Santa Rita do Meia Pataca de 1831. No nº 68, o chefe de fogo é um homem branco, 23 anos, casado, lavrador, com a esposa Angélica Maria (24, casada, fiandeira). A caligrafia do sobrenome é um pouco difícil de ler com certeza — parece "A...Ferd...Armende/s" ou variante —, mas dado o contexto da família Ferreira Armonde no Meia Pataca, é exactamente a geração que faltava entre o José do sesmeiro de 1791 e o Francisco do alistamento de 1870. Se nasceu por volta de 1808 e já estava casado em 1831, poderia ser o pai (ou tio próximo) do Francisco.
+> Obrigado pela imagem — que pista valiosa! Trabalhei o fólio 16 com ampliação (7× a 16×) e consigo dizer o seguinte com alguma segurança sobre o nº 68. Os dois primeiros elementos do nome do chefe de fogo leem-se **"An.to Ferr.a"** — ou seja, **António Ferreira** — e o resto da entrada está claro: branco, 23 anos, casado, lavrador, com a mulher **H[e]ngelica Maria**, branca, 24, casada, fiandeira.
+>
+> O sobrenome, esse, não consigo ler. Na imagem que tenho vejo apenas um **A maiúsculo em laço e uma terminação "-ndes"** — a palavra ocupa cerca de 60 pixels para oito ou mais letras, o que é o limite óptico do ficheiro e não falta de tentativa. **Armendes, Armonde e Almendes são indistinguíveis** nesta resolução, e por isso não quis registá-lo como Armonde: seria exactamente o tipo de leitura que a gente quer acreditar. Fica anotado como incerto.
+>
+> Dito isto, "António Ferreira" já é significativo — e, se o sobrenome for mesmo Armonde, seria a geração que falta entre o José do sesmeiro de 1791 e o Francisco do alistamento de 1870. Nascido por volta de 1808 e já casado em 1831, poderia ser o pai (ou tio próximo) do Francisco.
 >
 > Pergunto: tem o fólio seguinte (fls. 17) desta lista, onde o domicílio 68 provavelmente continua? E se puder, um recorte em maior resolução do nº 68 seria muitíssimo útil para confirmar a leitura do sobrenome.
 >
@@ -377,3 +381,43 @@ lead until verified against an original record.
 >
 > Um abraço,
 > Juan
+
+**C-013 follow-up (2026-09-24) — image catalogued as GOV-0013; own reading of entry 68; outstanding ask.**
+
+- **Catalogued.** The fls. 16 image is now `GOV-0013` (`data/sources/government/GOV-0013.yaml`),
+  government/census, `usage: context_only`, `reading_reliability: partial`. The scan is held at
+  `evidence/government/GOV-0013-mapa-populacao-santa-rita-meia-pataca-1831-fls16.png`
+  (sha256 `c53f0ecc6b2b74ae8abf52fdc9fdd7ff78a403ea05ef66d55188b91e5d06fa20`, 960×1280). The source
+  carries the full folio transcription of households 65–68, including the six enslaved people of
+  household 67. It is linked to P-0016 as a parentage lead only; **no person entity was created from it.**
+- **Own reading of entry no. 68 — the surname is NOT resolved.** Read directly from the image on
+  2026-09-24 at 7×, 9×, 14× and 16× (LANCZOS and nearest-neighbour, with autocontrast and unsharp
+  masking). What *is* legible, with confidence: the two standard abbreviations **"An.to"** (António)
+  and **"Ferr.a"** (Ferreira) — so C-013's earlier tentative "Ferd[o?]" can be dropped — followed by a
+  third element beginning with a looped capital **A** and ending in **"-ndes"**. What is **not**
+  legible is the letter or letters between them, which is exactly what would separate *Armendes* /
+  *Armonde* from *Almendes*. The word measures roughly 60 px for eight or more letters at this
+  resolution (~7 px per letter); that is an optical limit, not a question of effort, and further
+  magnification only enlarges the blur. **Recorded as `[uncertain]`. The reading is unresolved and must
+  not be settled by how much we would like it to say "Armonde".** The rest of the entry is clear:
+  Branco · 23 · Cazado · Lavrador, with **H[e]ngelica Maria** (the initial reads H or A; the name is
+  Angélica) · Branco · 24 · Cazada · Fiandeira.
+- **Two corrections to the C-013 transcription above, recorded rather than silently applied** (both in
+  household 67, neither touching entry 68; GOV-0013's notes preserve both readings): the 2026-09-24
+  reading finds **six** enslaved people in fogo 67, not seven — Vicente [uncertain], Antonio, José,
+  José, Manoel, Maria — and reads the head of fogo 67 as aged **30**, where C-013 read 36. Neither
+  reading is certain. Also confirmed against the image: fogo 65 head is **José Luis d'Azevedo**, and the
+  fogo 66 wife is **Anna Ferr.a Gomes** (Anna Ferreira Gomes).
+- **Continuation is unconfirmed.** A horizontal rule closes fogo 68 at the foot of the folio, in the
+  same style as the rules dividing fogos 65/66/67, but the sheet ends immediately after. It cannot be
+  determined from this image whether fogo 68 is complete with just the couple or continues on fls. 17.
+  C-013's "household continues on next folio" is an assumption, not a reading.
+- **Outstanding ask to Nilza (unchanged and now sharpened — the draft reply above is still unsent):**
+  (1) a **higher-resolution crop of entry no. 68** — this single word is the whole value of the folio,
+  and nothing further can be concluded without it; (2) **fls. 17**, to settle whether fogo 68 continues
+  and, if so, who else is in the household; (3) the full **archival reference** (fundo, caixa,
+  documento) for this map — GOV-0013 currently records APM as presumed but unconfirmed; and (4) the
+  still-unanswered "pergunta que ficou pendente" from her subject line.
+- **Related, from the same correspondent on 2026-09-24:** the Juiz de Fora 1831 population map she
+  supplied is now catalogued as `GOV-0012`, with a bounded negative for Armond in that district — see
+  `data/record-coverage.yaml` (P-0016) and `logs/LOG.md`.

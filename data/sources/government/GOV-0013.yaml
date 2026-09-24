@@ -1,0 +1,254 @@
+schema_version: 1
+id: GOV-0013
+title: >-
+  1831 population map (Mapa de População) of Santa Rita do Meia Pataca, folio 16 —
+  households 65–68, the head of no. 68 read as "An.to Ferr.a A[…]ndes", a white
+  married lavrador of 23 with his wife H[e]ngelica Maria, 24 (surname UNRESOLVED at
+  this resolution)
+title_pt: >-
+  Mapa de População de Santa Rita do Meia Pataca de 1831, fls. 16 — fogos 65 a 68,
+  com o chefe do fogo nº 68 lido como "An.to Ferr.a A[…]ndes", lavrador branco casado
+  de 23 anos, e sua mulher H[e]ngelica Maria, 24 (sobrenome NÃO RESOLVIDO nesta
+  resolução)
+record_type: Provincial population map (census), 1831 — single folio (fls. 16)
+record_category: census
+source_form: original
+information_quality: primary
+evidence_type: indirect
+usage: context_only
+event_date:
+  kind: year
+  year: 1831
+  original_text: >-
+    The folio itself carries no date; the map is the 1831 Mapa de População of the
+    district of Santa Rita do Meia Pataca. The closing certification, which would
+    carry the exact date and the enumerator's signature, is not on this folio.
+event_place_text: >-
+  Distrito de Santa Rita do Meia Pataca, Termo de Barbacena (later Leopoldina),
+  Minas Gerais, Brazil
+repository:
+  name: >-
+    Manuscript population map (Mapa de População) of Santa Rita do Meia Pataca, 1831
+  archive_or_registry: >-
+    Repository not stated on the folio. Supplied as a photographic copy by the
+    genealogist Nilza Cantoni; the 1831 Minas Gerais population maps for this region
+    are held at the Arquivo Público Mineiro (APM), which is the presumed but
+    UNCONFIRMED repository for this one. Confirm the box/document reference before
+    citing it as an APM holding.
+  series: Mapas de População, Minas Gerais, 1831
+  page: "fls. 16"
+  catalogue_reference: >-
+    Mapa de População de Santa Rita do Meia Pataca, 1831, fls. 16, households
+    (fogos) nos. 65–68. Full archival reference (fundo, caixa, documento) not yet
+    established — see repository note.
+  repository_path: >-
+    evidence/government/GOV-0013-mapa-populacao-santa-rita-meia-pataca-1831-fls16.png
+access_date: "2026-09-23"
+language: pt-BR
+reading_reliability: partial
+transcription: >-
+  [Transcrição do fólio 16 do Mapa de População de Santa Rita do Meia Pataca, 1831,
+  feita directamente da imagem fotográfica (960×1280 px) a 24 de Setembro de 2026,
+  cotejada com a transcrição registada em C-013 no logs/correspondence-log.md.
+  Colunas do original: Nº do fogo | Habitantes | Cor/Qualidade | Condição | Idade |
+  Estado | Ocupações. A coluna "Condição" fica em branco para as pessoas livres. As
+  designações de cor e a condição de cativo são transcritas tal como o original as
+  escreve. Leituras incertas marcadas [uncertain]; ilegíveis, [illegible].]
+
+
+  [Fogo 65:] José Luis d'Azevedo · Branco · 30 · Cazado · Lavrador; Marianna Josefa ·
+  Branca · 21 · Cazada · Fiandeira; Maria · Branca · 6; Anna · Branca · 4;
+  Florentina · Branca · 1.
+
+
+  [Fogo 66:] Dom.os M[…]a de Souza [uncertain — o segundo elemento está abreviado e
+  não se resolve; lê-se como "Mar.a"/"Mart.s", provavelmente Martins ou Marques] ·
+  Branco · 30 · Cazado · Lavrador; Anna Ferr.a Gomes [Anna Ferreira Gomes] · Branca ·
+  25 · Cazada · Fiandeira; Maria · B. · 8; Josefa · B. · 4; Joaquinna · B. · 1; José ·
+  Branco · 5; José An.to de Souza · Branco · 15 · Cazado; Josefa Maria · Branca · 60 ·
+  Cazada.
+
+
+  [Fogo 67:] José Luis da Ro[cha?] [uncertain] · Branco · 30 [uncertain — lido como
+  "30"; a transcrição de C-013 leu "36"] · Viuvo · Lavrador; Manoel Luis · B. · 12 ·
+  Roceiro; Francisca Luis · B. · 11; Joaquim Luis · B. · 10; Dom.os [Domingos] Luis ·
+  B. · 9; José · B. · 8; Custodio · B. · 6; José · B. · 4; Maria Luiza · B. · 17 ·
+  Solteira · Fiandeira; Anna Luiza · B. · 16 · Solteira · Fiandeira; Luiza · B. · 3;
+  Tito · B. · 2.
+
+  [Fogo 67 — pessoas escravizadas, seis, tal como o original as regista:] Vicente
+  [uncertain] · Preto · Cativo · 30 · Solteiro · Roceiro; Antonio · Preto · Cativo ·
+  35 · Solteiro · Roceiro; José · Preto · Cativo · 30 · Solteiro · Roceiro; José ·
+  Preto · Cativo · 26 [uncertain] · Solteiro · Roceiro; Manoel · Preto · Cativo · 27
+  [uncertain] · Solteiro · Roceiro; Maria · Preto [assim no original] · Cativo · 30 ·
+  Solteira · Cozinheira.
+
+
+  [Fogo 68 — ao pé da página:] An.to Ferr.a A[…]ndes [SOBRENOME NÃO RESOLVIDO —
+  ver abaixo] · Branco · 23 · Cazado · Lavrador; H[e]ngelica Maria [uncertain — a
+  inicial lê-se como "H" ou "A"; o nome é Angélica] · Branco · 24 · Cazada ·
+  Fiandeira.
+
+
+  [NOTA DE LEITURA SOBRE O Nº 68 — o ponto decisivo deste documento.] Os dois
+  primeiros elementos do nome do chefe do fogo 68 lêem-se com confiança como as
+  abreviaturas correntes "An.to" (António) e "Ferr.a" (Ferreira). O TERCEIRO elemento
+  — o sobrenome — NÃO se resolve nesta imagem de 960×1280 px: a palavra ocupa cerca de
+  60 px para oito ou mais letras, ou seja ~7 px por letra, abaixo do limite de leitura.
+  O que se distingue é uma maiúscula com laçada ascendente, um grupo de hastes
+  indistintas e uma terminação em "-ndes"/"-ndez". NÃO é possível decidir entre
+  "Armendes", "Almendes" e "Armonde(s)": a letra que separaria "Ar-" de "Al-" não está
+  legível. Ampliações a 7×, 9×, 14× e 16× (LANCZOS e vizinho-mais-próximo, com
+  autocontraste e máscara de nitidez) foram tentadas a 24 de Setembro de 2026 e
+  nenhuma resolveu a palavra. É necessário um recorte em maior resolução ou a consulta
+  ao original.
+
+
+  [Continuação:] Uma linha horizontal fecha o fogo 68 ao pé do fólio, no mesmo estilo
+  das que separam os fogos 65/66/67, mas a folha termina imediatamente a seguir. Não é
+  possível determinar por esta imagem se o fogo 68 se completa aqui (apenas o casal) ou
+  se continua no fólio 17. A transcrição de C-013 assumiu que continua; essa suposição
+  fica por confirmar.
+abstract: >-
+  A single photographed folio (fls. 16) of the 1831 population map of the district of
+  Santa Rita do Meia Pataca, recording households 65 to 68 with each inhabitant's
+  colour, condition (free or enslaved), age, marital state and occupation. Household
+  67 includes six enslaved people, named and enumerated here as the original does.
+  The folio matters to this archive only for its last entry, no. 68, a white married
+  lavrador of 23 whose given names read as "An.to Ferr.a" (António Ferreira) and
+  whose SURNAME CANNOT BE READ at the resolution held, with his wife, a spinner of
+  24. If — and only if — that surname is an Armonde variant, the entry would place a
+  male Armonde born c.1808 in the Meia Pataca district in 1831; that is a [LEAD] for
+  the parentage of Simplício José Ferreira Armond (P-0016), not evidence. The record
+  is catalogued as context because its decisive fact is unread.
+abstract_pt: >-
+  Um único fólio fotografado (fls. 16) do Mapa de População de 1831 do distrito de
+  Santa Rita do Meia Pataca, que regista os fogos 65 a 68 com a cor, a condição
+  (livre ou cativa), a idade, o estado e a ocupação de cada habitante. O fogo 67
+  inclui seis pessoas escravizadas, nomeadas e enumeradas aqui tal como o original o
+  faz. O fólio importa a este arquivo apenas pelo último assento, o nº 68: um lavrador
+  branco casado de 23 anos cujos nomes próprios se lêem "An.to Ferr.a" (António
+  Ferreira) e cujo SOBRENOME NÃO SE CONSEGUE LER na resolução disponível, com a sua
+  mulher, fiandeira de 24 anos. Se — e só se — esse sobrenome for uma variante de
+  Armonde, o assento colocaria um Armonde varão nascido por volta de 1808 no distrito
+  do Meia Pataca em 1831; isso é uma PISTA [LEAD] para a filiação de Simplício José
+  Ferreira Armond (P-0016), não uma prova. O documento é catalogado como contexto
+  precisamente porque o seu facto decisivo continua por ler.
+reliability:
+  assessment: >-
+    A contemporary manuscript population map, held as a photographic copy of the
+    original folio, so the information is primary in quality. Its genealogical value
+    to this archive rests entirely on one word that cannot be read. Everything this
+    folio is being kept for is therefore [LEAD]-grade, and the source is filed as
+    context_only until the surname is resolved from a higher-resolution image or the
+    original manuscript.
+  informant: >-
+    The unnamed 1831 district enumerator of Santa Rita do Meia Pataca (the
+    certification and signature are not on this folio). The photographic copy was
+    supplied by the genealogist Nilza Cantoni, who emailed it to the owner on 23
+    September 2026 and herself pointed to entry no. 68 as a lead for the Ferreira
+    Armond line (correspondence C-013).
+  limitations: >-
+    (1) The image is 960×1280 px — adequate for the columns and the common names, but
+    BELOW the threshold needed for the entry that matters. The no. 68 surname has been
+    read variously as "Almendes", "Armendes" and "Armonde"; none of those readings can
+    be substantiated from this file, and the desirability of an "Armonde" reading must
+    not be allowed to settle it. (2) Only one folio is held; the households before 65
+    and after 68, and the closing certification with the district totals and the
+    enumerator's name, are all absent, so nothing can be concluded about who else the
+    district contained. (3) The archival reference (fundo, caixa, documento) is not
+    established; APM is presumed, not confirmed. (4) No person in this folio is
+    identified with any modelled person in this repository. The source is attached to
+    P-0016 solely because it is a lead in the search for his parents.
+digital_file:
+  path: >-
+    evidence/government/GOV-0013-mapa-populacao-santa-rita-meia-pataca-1831-fls16.png
+  sha256: c53f0ecc6b2b74ae8abf52fdc9fdd7ff78a403ea05ef66d55188b91e5d06fa20
+linked_people:
+  - P-0016
+linked_families: []
+linked_events: []
+linked_places: []
+private: false
+notes:
+  - text: >-
+      [LEAD — NOT EVIDENCE] Why entry no. 68 matters, stated conditionally. IF the
+      surname is an Armonde variant, the entry would place a male Armonde born c.1808,
+      a white married lavrador, in the Santa Rita do Meia Pataca district in 1831 —
+      a generation sitting between the 1791/1805 José Ferreira Armonde of the Barbacena
+      sesmaria documents (GOV-0009, GOV-0011) and the 1870 Leopoldina electoral-roll
+      voter Francisco Ferreira Armonde of Meia Pataca, b. ~1842–45 (correspondence
+      C-012). That would be a genuine lead on the ancestry of Simplício José Ferreira
+      Armond (P-0016), whose parents are unknown. It is NOT a lead until the surname is
+      read, and it would still not be evidence of descent even then: the record states
+      a residence, an age, a colour, a marital state and an occupation, and nothing
+      about anyone's parents. No person entity may be minted from this folio.
+    text_pt: >-
+      [PISTA — NÃO É PROVA] Por que importa o assento nº 68, dito condicionalmente. SE
+      o sobrenome for uma variante de Armonde, o assento colocaria um Armonde varão
+      nascido por volta de 1808, lavrador branco casado, no distrito de Santa Rita do
+      Meia Pataca em 1831 — uma geração situada entre o José Ferreira Armonde das
+      sesmarias de Barbacena de 1791/1805 (GOV-0009, GOV-0011) e o eleitor Francisco
+      Ferreira Armonde do alistamento de Leopoldina de 1870, do Meia Pataca, n. ~1842–45
+      (correspondência C-012). Seria uma pista verdadeira sobre a ascendência de
+      Simplício José Ferreira Armond (P-0016), cujos pais se desconhecem. NÃO é pista
+      enquanto o sobrenome não for lido, e mesmo então não seria prova de descendência:
+      o assento declara uma residência, uma idade, uma cor, um estado e uma ocupação, e
+      nada sobre os pais de ninguém. Nenhuma entidade-pessoa pode ser criada a partir
+      deste fólio.
+  - text: >-
+      Reading discipline on the no. 68 surname. This is the failure mode the archive
+      exists to avoid: a desirable reading being written down as a fact. What is
+      legible is "An.to Ferr.a" plus a capital-A word ending in "-ndes". What is NOT
+      legible is the letter or letters after that capital, which is exactly what
+      distinguishes Armendes/Armonde from Almendes. The word is about 60 px wide for
+      eight or more letters in a 960×1280 image; that is a hard optical limit, not a
+      matter of effort. Exact next action: obtain from Nilza Cantoni a
+      higher-resolution crop of entry no. 68 (and, separately, folio 17), or consult
+      the original manuscript. Do not upgrade this source's usage, and do not create
+      a person, on any re-reading of this same file.
+    text_pt: >-
+      Disciplina de leitura quanto ao sobrenome do nº 68. Este é precisamente o modo de
+      falha que este arquivo existe para evitar: uma leitura desejável ser registada
+      como facto. O que é legível é "An.to Ferr.a" mais uma palavra iniciada por A
+      maiúsculo e terminada em "-ndes". O que NÃO é legível é a letra ou letras a
+      seguir a essa maiúscula — exactamente o que distingue Armendes/Armonde de
+      Almendes. A palavra mede cerca de 60 px para oito ou mais letras numa imagem de
+      960×1280; é um limite óptico, não uma questão de esforço. Acção seguinte exacta:
+      obter de Nilza Cantoni um recorte em maior resolução do assento nº 68 (e, à parte,
+      o fólio 17), ou consultar o manuscrito original. Não elevar o uso desta fonte, nem
+      criar qualquer pessoa, com base em nova leitura deste mesmo ficheiro.
+  - text: >-
+      Conflict with the C-013 transcription, preserved rather than silently corrected.
+      C-013 (logs/correspondence-log.md), transcribed from the same emailed copy on
+      2026-09-23, lists SEVEN enslaved people in household 67 and gives the head of
+      household 67 as aged 36. The reading made from the image on 2026-09-24 and
+      recorded above finds SIX enslaved people (Vicente [uncertain], Antonio, José,
+      José, Manoel, Maria) and reads the head's age as 30. Neither reading is certain;
+      both are recorded so that a later reader with a better image can settle it. The
+      discrepancy does not touch entry no. 68.
+    text_pt: >-
+      Conflito com a transcrição de C-013, preservado em vez de corrigido em silêncio.
+      C-013 (logs/correspondence-log.md), transcrito da mesma cópia enviada por email a
+      2026-09-23, lista SETE pessoas escravizadas no fogo 67 e dá 36 anos ao chefe do
+      fogo 67. A leitura feita a partir da imagem a 2026-09-24 e registada acima
+      encontra SEIS pessoas escravizadas (Vicente [incerto], Antonio, José, José,
+      Manoel, Maria) e lê 30 anos para o chefe do fogo. Nenhuma das leituras é certa;
+      ambas ficam registadas para que um leitor futuro, com melhor imagem, as possa
+      dirimir. A divergência não toca o assento nº 68.
+  - text: >-
+      Provenance and privacy. Received by email from Nilza Cantoni on 2026-09-23 and
+      logged as correspondence C-013; the same image was later carried in the
+      2026-09-24 retrieval drop. Every person named in this folio died long ago, so
+      nothing here is privacy-restricted. The six enslaved people of household 67 are
+      transcribed in full, with their names, ages and the colour and condition terms
+      the enumerator used: omitting them would falsify the household and erase people
+      the record does name.
+    text_pt: >-
+      Proveniência e privacidade. Recebido por email de Nilza Cantoni a 2026-09-23 e
+      registado como correspondência C-013; a mesma imagem veio depois na entrega de
+      2026-09-24. Todas as pessoas nomeadas neste fólio morreram há muito, pelo que nada
+      aqui é restrito por privacidade. As seis pessoas escravizadas do fogo 67 são
+      transcritas na íntegra, com os seus nomes, idades e os termos de cor e condição
+      que o recenseador usou: omiti-las falsificaria o fogo e apagaria pessoas que o
+      próprio documento nomeia.

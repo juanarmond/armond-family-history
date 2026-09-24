@@ -4966,3 +4966,394 @@ documents:
   - 'Baptism of Isabel de Souto-Maior (b.19.9.1666). Mother: "marianna Faguedes".
     Father name reads "Mathias" (attributed scribal error; all other identifiers match
     Belchior da Ponte Cardoso). Documented_child in F-0062.'
+- inventory_id: DOC-0119
+  status: catalogued
+  added_date: '2026-09-24'
+  apparent_record_type: Parish death register entry
+  apparent_people:
+  - Manuel da Ponte Cardoso (P-0125)
+  apparent_event: death
+  image_quality: adequate
+  provenance: 'Culturacores CDN download 2026-09-24; TER-AH-SAOSEBASTIAO-O-1642-1696, CDN image 0016,
+    São Sebastião, Terceira. One whole-spread image downloaded; the act is the third entry on the right-hand
+    page. Source filename: rec-terceira-ssebastiao-obito-manoel-ponte-cardozo-1652.jpg.'
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0097-obito-manoel-ponte-cardozo-1652-p1.jpg
+    sha256: 233a984b243e05bdf9a1d5d15d24d0a89c0894fabe7bbba8b0cd1287fc1295f6
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 1239
+      pixel_height: 944
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0097
+  notes:
+  - 'Death act: "faleceo m.el de Ponte Cardozo aos dezanove dias de Agosto de mil e seiscentos [e] cinquoenta
+    e dous annos con todos os sacramentos da Igr[ej]a, está sepultado nesta Igr[ej]a … sepultura sua junto
+    ao arco da cape[la mor]". Exact match with PUB-0005. Upgrades E-0129 to confirmed.'
+  - Three-line marginal annotation "M.el de Pon / te Cardozo / meu pai" — the officiating priest recording
+    the deceased as his own father. With PAR-0098 this proves the vicar of São Sebastião was a son of
+    F-0063 and a brother of Belchior (P-0123).
+  - 'MANDATORY NAME CORRECTION: the register reads "Ponte Cardozo", never "Valadão". P-0125 renamed Manuel
+    da Ponte Cardoso on 2026-09-24; "Manuel da Ponte Valadão" kept only as a compiled-genealogy variant
+    (PUB-0005).'
+  - 'Divergence from the retrieval handoff: the plan named the vicar "Manoel Coelho Souto Maior". The
+    act is signed only "o Vig.º So[u]tomaior"; neighbouring 1652 entries are signed "o Vig.º Ant.º Coelho
+    Sotto[ma]yor", and PUB-0005 names only António Coelho Souto-Maior (b.1619, d.1686) as the couple''s
+    priest son. Identified as António.'
+  - One word at the start of the burial clause is illegible at 1239×944 px (possibly "matriz"); the signature
+    carries no forename. Both would be settled by a higher-resolution BPAR Angra reproduction.
+- inventory_id: DOC-0120
+  status: catalogued
+  added_date: '2026-09-24'
+  apparent_record_type: Parish death register entry
+  apparent_people:
+  - Maria da Costa Leonardes (P-0126)
+  - Manuel da Ponte Cardoso (P-0125, named as husband)
+  apparent_event: death
+  image_quality: adequate
+  provenance: 'Culturacores CDN download 2026-09-24; TER-AH-SAOSEBASTIAO-O-1642-1696, CDN image 0018,
+    São Sebastião, Terceira. One whole-spread image downloaded; the act is the first entry on the left-hand
+    page. Source filename: rec-terceira-ssebastiao-obito-maria-costa-leonardes-1654.jpg.'
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0098-obito-maria-costa-leonardes-1654-p1.jpg
+    sha256: bb032e78feaa20fbcca31ee4710c3919f471769d2cbe21b7b2e056eb9ee703d5
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 1239
+      pixel_height: 944
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0098
+  notes:
+  - 'Death act written in the FIRST PERSON by the officiating priest: "faleceo maria da Costa Leonardes
+    minha mai, molher de M.el de Ponte Cardoso meu pai, aos vinte e sete de dezembro de mil seissentos
+    e sinquoenta e quatro annos com todos os sacramentos da Sancta Madre Igr[ej]a, está sepultada nesta
+    Igr[ej]a matriz da Villa de sam Sebastiam em sepultura sua junto ao arco da capela mor." Exact match
+    with PUB-0005. Upgrades E-0130 to confirmed.'
+  - Confirms in a primary hand that "Leonardes" is contemporary, not the compiler's addition, and gives
+    her husband's surname as Ponte Cardoso, not "Valadão".
+  - The act was written up and signed the following month — "me assinei em … que he de Janeiro de seissentos
+    e sincoenta e sinquo annos" (January 1655). The exact day of the signing is not legible.
+  - Marginal index annotation faint; read "m.ª da Cos[t]a" [uncertain]. Signature is "o Vig.º So[u]tomaior"
+    with no forename — the son is identified as António Coelho Souto-Maior from PUB-0005 and the neighbouring
+    signatures, not from this act.
+- inventory_id: DOC-0121
+  status: catalogued
+  added_date: '2026-09-24'
+  apparent_record_type: Provincial population map (census), 1831 — 26-page manuscript corpus
+  apparent_people:
+  - Jose Antonio de Tolledo (fogo 109; [LEAD] only, NOT an ancestor)
+  - Manoel de Toledo (fogo 110; [LEAD] only)
+  - Jose Bastos Pinto (district enumerator, fogo 1)
+  apparent_event: residence
+  image_quality: adequate
+  provenance: Arquivo Publico Mineiro (APM), Cx 07 Doc 04 — "Relacao dos Habitantes do Districto de Santo
+    Antonio do Juiz de Fora, Termo da Nobre e muito Leal Villa de Barbacenna", certified 18 February 1831
+    by Jose Bastos Pinto. Captured from the APM image viewer by the genealogist Nilza Cantoni in March
+    2018 and supplied by her to the owner by email on 2026-09-24 as Juiz-de-Fora-MP.zip; delivered through
+    the research/from-retrieval/ resources cache. The 26 PDFs held here are the owner's rotation-corrected
+    set (25 of 26 as-received pages had rotation baked into the image content while reporting rot=0);
+    the untouched as-received originals remain in the retrieval drop only.
+  rights_status: permission-required
+  files:
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p01.pdf
+    sha256: c0142c65da9c7b4d7314c95c6de5257166704f5e1f3d00f46f1bcf1dc57cb60e
+    media_type: application/pdf
+    role: primary
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p02.pdf
+    sha256: bf287e77c9ea14a1ac8dac14258a3c58a9070a9a39a175e510a8737b7543ecf6
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p03.pdf
+    sha256: a29cf21a11f8be3e048e3a20201b909f73e49065cde712d5602d36928e5fd004
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p04.pdf
+    sha256: 67dc357f3625b25a47fe5b939e5675d8926fd648ca4e6768bcdee3cfd30489a4
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p05.pdf
+    sha256: 210de612f49ef457fef2c7ef340aeaf84f3f8fb694484a87e09a192ca0cd57b5
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p06.pdf
+    sha256: 26c833bf350a5971cacf7fff594f8e076faaf36e6b7fd8494816c40ea9b95a32
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p07.pdf
+    sha256: d001c67b6173ad9b627bdea38b3ddc164445cf623777785364e9c57248c284d0
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p08.pdf
+    sha256: ed5b9ea40aec91a29649f68f040faca9c817a0b6ba5a9911ccecc8f4fdfe2b62
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p09.pdf
+    sha256: 496910dca477305aa8b501aaffe4641322611c389d08b5ddce4d86c2a9d6a761
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p10.pdf
+    sha256: 380815e205328a30786275a29122897df8e0b0ecb899f6857e6a98ac42ec0f6b
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p11.pdf
+    sha256: 80b76eccdad794a01205b0cd81bca66416ad2b29674b18034d6df42646fc1f85
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p12.pdf
+    sha256: ee67a8c12d7b909a1f29b8c991e88bd901d168fa133fb88aafb49eab417714db
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p13.pdf
+    sha256: 48e9359f1be13777ed19a30e12e69aedab4102d6c4d2da079fea6f5fabe325c3
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p14.pdf
+    sha256: 0f9a18c59742ef9b409c6b45a12bf264455bfeaab45d1136023d542b25a8b2a4
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p15.pdf
+    sha256: ba5b0200e4a196a3174fac3917ebd2f9c6e1555f2d86bfe8e01414e28e72ae4a
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p16.pdf
+    sha256: 032397a52c786d174d64313af5ac87bf6feadd4d96828668dcbfec70d56a5669
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p17.pdf
+    sha256: 1f85be097d7075cad75aa2aec8f9bd20f4650d97c9ffc1d743a272fdc7d451c8
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p18.pdf
+    sha256: a102f97ff8dec4103066d5e3d9c3eabc59e6c004601d807a968776e333380638
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p19.pdf
+    sha256: a89764761465274a42c139d0678485ca35e28fecb3dff71d42f756811d5bb469
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p20.pdf
+    sha256: 7ffc989cead444d52094e9755c9a2460cabc8847d9b0522ab76d115ce425022f
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p21.pdf
+    sha256: 193bef20897d70e53125a8790ae6702f960fad649db626d6b68a6b938d071339
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p22.pdf
+    sha256: a4a5ce013e55d61569c191229de94bfa022a37f55d72d634aaacb3831db7d7a5
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p23.pdf
+    sha256: 1b2715bbf7847ff1e573743e513681a4b7ca8c478de3f04a9c89bc448b40254f
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p24.pdf
+    sha256: b6966b6b874e2daa25538a488a0b1d2e9f4173b36723dc79ad40f7f61de7634c
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p25.pdf
+    sha256: 3c299769599f24ca5cfaff602c8b6aac31ef97c3cf0526b1b03c148d753232b2
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p26.pdf
+    sha256: 611d7bd8d032fdf7abf7fb14594819866ca150519347e1f9e0e4e29402008637
+    media_type: application/pdf
+    role: continuation
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: GOV-0012
+  notes:
+  - 'BOUNDED NEGATIVE for Armond in this district in 1831: no Armond variant in any spelling across all
+    26 pages, and no Souto Maior, Ponte Cardoso or Fagundes. Proves absence from the pages of this one
+    district list, nothing more. Usage: context_only.'
+  - 'Totals verified from the page-26 certification by direct read: 118 fogos, 586 livres, 833 captivos,
+    1,419 habitantes (the original writes "1:419", colon as thousands separator). Earlier readings of
+    616, 419 and 1,449 are wrong.'
+  - Two Toledo households (fogos 109 and 110) are a [LEAD] only. Jose Antonio de Toledo is NOT Jose Cesario
+    de Toledo Lima's father.
+  - The corpus names a large enslaved population (833 of 1,419 inhabitants) throughout; those entries
+    are part of the record and are not to be omitted from any transcription or count.
+  - 'Preservation gap for the coordinator: the retrieval drop also holds a 1,827-line fogo-by-fogo TRANSCRIPTION.md
+    produced by the retrieval agent. It is gitignored and will be lost on the next sync. It is unverified
+    derivative work, so it was not embedded in GOV-0012; decide whether to preserve it somewhere durable.'
+- inventory_id: DOC-0122
+  status: catalogued
+  added_date: '2026-09-24'
+  apparent_record_type: Provincial population map (census), 1831 — single folio (fls. 16)
+  apparent_people:
+  - An.to Ferr.a A[...]ndes (head of fogo 68; surname UNREADABLE, [LEAD] only)
+  - H[e]ngelica Maria (wife, fogo 68)
+  - José Luis d'Azevedo (fogo 65)
+  - José Luis da Ro[cha?] (fogo 67)
+  apparent_event: residence
+  image_quality: low-resolution
+  provenance: Mapa de Populacao de Santa Rita do Meia Pataca, 1831, fls. 16 (fogos 65-68). Photographic
+    copy emailed to the owner by the genealogist Nilza Cantoni on 2026-09-23, flagging entry no. 68 as
+    a lead for the Ferreira Armond line; logged as correspondence C-013 and later carried in the 2026-09-24
+    retrieval drop as rec-mapa-populacao-santarita-meapataca-1831-fls16.png. Repository not stated on
+    the folio; APM presumed but UNCONFIRMED.
+  rights_status: permission-required
+  files:
+  - path: evidence/government/GOV-0013-mapa-populacao-santa-rita-meia-pataca-1831-fls16.png
+    sha256: c53f0ecc6b2b74ae8abf52fdc9fdd7ff78a403ea05ef66d55188b91e5d06fa20
+    media_type: image/png
+    role: primary
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+      pixel_width: 960
+      pixel_height: 1280
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: GOV-0013
+  notes:
+  - The decisive fact is UNREAD. The head of fogo 68 reads "An.to Ferr.a" plus a capital-A surname ending
+    "-ndes"; the letters that would distinguish Armendes / Armonde from Almendes are below the optical
+    limit of a 960x1280 image. Catalogued [uncertain]; usage context_only. Do not mint a person from it.
+  - 'Exact next action: ask Nilza Cantoni for a higher-resolution crop of entry no. 68 and for folio 17
+    (where fogo 68 may continue).'
+  - Household 67 names six enslaved people; they are transcribed in full in GOV-0013. A conflict with
+    the C-013 transcription (which counted seven, and read the head of fogo 67 as 36 rather than 30) is
+    recorded in GOV-0013's notes, not silently resolved.

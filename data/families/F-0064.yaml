@@ -6,32 +6,56 @@ partners:
 - person_id: P-0128
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
+  - PAR-0086
   - PUB-0004
   notes:
   - text: >-
-      António Martins Fagundes (P-0127) × Catarina Machado de Faria (P-0128). Vol. IV
-      (PUB-0004, p.312) records: "António Martins Fagundes (ou Machado Fagundes), f. em
-      Stª Bárbara a 17.4.1664. Capitão de ordenanças. C. c. Catarina Machado de Faria
-      – vid. LEMOS, § 3º, nº 5 –." No marriage date or primary record held. The "vid. LEMOS"
-      cross-reference indicates Catarina's family is documented in the LEMOS section of the
-      Mendes Forjaz compilation, not yet read.
+      [PROVEN, PAR-0086] The union itself is attested by a primary record. The Santa Bárbara
+      marriage act of their daughter Mariana, 26 September 1650, describes the bride as
+      "filha do [illegible] Ant.º Machado e de sua m[ulhe]r C.ta [Cat(arin)a] Machada" —
+      "and of his wife". The register therefore states that the two were husband and wife at
+      that date, independently of the compilation. The marriage date and place remain unknown;
+      no marriage act of their own has been located.
+  - text: >-
+      [COMPILED, PUB-0004] Vol. IV (p.312) records: "António Martins Fagundes (ou Machado
+      Fagundes), f. em Stª Bárbara a 17.4.1664. Capitão de ordenanças. C. c. Catarina Machado
+      de Faria – vid. LEMOS, § 3º, nº 5 –." The "vid. LEMOS" cross-reference indicates
+      Catarina's family is documented in the LEMOS section of the Mendes Forjaz compilation,
+      not yet read. Everything in this compiled entry other than the fact of the marriage —
+      his fuller name, his rank, his 1664 death, her fuller name — remains secondary only.
 children:
 - person_id: P-0124
   parent_relationships:
   - parent_id: P-0127
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
+    - PAR-0086
     - PUB-0004
-    notes: []
+    notes:
+    - text: >-
+        [PROVEN, PAR-0086] Mariana's own marriage act (Santa Bárbara, 26 September 1650) names
+        her father in its filiation clause: "Mariana Fagunda filha do [illegible] Ant.º
+        Machado". Read directly from the register image under magnification, 2026-09-24. The
+        compiled attribution in PUB-0004 § 6º is thereby confirmed at primary level, not
+        superseded; the register's short form "Ant.º Machado" and the compiler's "António
+        Martins Fagundes ou Machado Fagundes" are the same man.
   - parent_id: P-0128
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
+    - PAR-0086
     - PUB-0004
-    notes: []
+    notes:
+    - text: >-
+        [PROVEN, PAR-0086] The same filiation clause continues "e de sua m[ulhe]r C.ta
+        [Cat(arin)a] Machada" — naming the bride's mother as the father's wife. The given name
+        is written abbreviated (capital C with superscript "ta") and is expanded here;
+        the surname "Machada" is unambiguous. The compiled form "Catarina Machado de Faria"
+        (PUB-0004 § 6º) is confirmed at primary level for the maternity, and only for that:
+        the "de Faria" element and the LEMOS cross-reference remain compiled.
   notes: []
 documented_children:
 - name: António Machado (padre)
@@ -61,5 +85,16 @@ notes:
     Santa Bárbara (not S. Sebastião); his wife Catarina Machado de Faria's family line
     (LEMOS § 3º nº 5) has not been read and her own dates are unknown.
 - text: >-
-    The Mendes Forjaz Vol. IV entry is the only source for this family. No primary vital
-    records for António Martins Fagundes or Catarina Machado de Faria are held.
+    Evidence standing, revised 2026-09-24. This family is no longer compiled-only. PAR-0086,
+    the 1650 Santa Bárbara marriage act of the daughter Mariana (P-0124), is a primary record
+    that names both parents and states their marriage — so the couple and both parent-child
+    links to P-0124 are [PROVEN]. What remains compiled on PUB-0004 alone: the parents' fuller
+    name forms, his rank and 17.4.1664 death, her LEMOS descent, the couple's marriage date,
+    and every one of the documented_children below, none of whom appears in any held primary
+    record. No vital record of either parent's own life — birth, marriage or death — is held.
+- text: >-
+    Deliberate omissions. No event entity exists for this couple's marriage: the record that
+    proves the union gives no date or place for it. The documented_children remain
+    documented_children (not person entities) because each is attested only by the
+    compilation; they are not to be promoted on the strength of PAR-0086, which names none
+    of them.

@@ -9,70 +9,112 @@ name_variants:
   type: source
   source_ids:
   - PUB-0005
+  - PAR-0098
+  note: >-
+    Her own 1654 death act writes the full form "maria da Costa Leonardes" in a primary
+    hand (PAR-0098), settling that "Leonardes" is contemporary and not the compiler's
+    addition.
+- value: Maria da Cota
+  type: source
+  source_ids:
+  - PAR-0087
+  note: >-
+    The scribe's contraction of "Maria da Costa" in her son Belchior's 1615 baptism act.
 event_ids:
 - E-0130
 family_ids:
 - F-0063
 notes:
 - text: >-
-    Maria da Costa Leonardes: died 27 December 1654, S. Sebastião, Terceira (PUB-0005, p.259).
-    Married Manuel da Ponte Valadão (P-0125); family F-0063. Mother of Belchior da Ponte
-    Cardoso (P-0123). Her own birth date, place and parentage are not given in the compilation.
-    She died two years after her husband Manuel (d.19.8.1652).
+    Maria da Costa Leonardes: died 27 December 1654, S. Sebastião, Terceira, with all the
+    sacraments of Holy Mother Church, and was buried inside the Igreja Matriz of the vila
+    de São Sebastião in her own grave beside the arch of the chancel (PAR-0098, the original
+    óbito; the date is also in PUB-0005, p.259). Married Manuel da Ponte Cardoso (P-0125);
+    family F-0063. Mother of Belchior da Ponte Cardoso (P-0123). Her own birth date, place
+    and parentage are not given in any held source. She died two years and four months after
+    her husband (d.19.8.1652, PAR-0097).
+- text: >-
+    HER HUSBAND'S NAME — superseded 2026-09-24. Earlier entries here called him "Manuel da
+    Ponte Valadão", which is the compiled genealogy's form (PUB-0005, Vol. IX p.259, itself
+    offering "Ou Manuel da Ponte Cardoso"). Her own death act names him in a primary hand as
+    "M.el de Ponte Cardoso" (PAR-0098), and his own as "m.el de Ponte Cardozo" (PAR-0097).
+    The repository now carries him as Manuel da Ponte Cardoso (P-0125).
+- text: >-
+    Her 1654 death act is written in the FIRST PERSON by the officiating priest — "faleceo
+    maria da Costa Leonardes minha mai, molher de M.el de Ponte Cardoso meu pai" — so the
+    vicar of São Sebastião was her son. With the marginal "meu pai" note on her husband's
+    1652 act (PAR-0097) that is two independent attestations. The son is identified as
+    António Coelho Souto-Maior (b.13.2.1619, d.17.7.1686), the only priest among the couple's
+    children in PUB-0005; he is recorded as a documented child on F-0063 and is not modelled
+    as a person entity. The retrieval agent's handoff called him "Manoel Coelho Souto Maior";
+    the images do not support that name — see the notes on F-0063 and PAR-0098.
+- text: >-
+    Her parentage is unknown and deliberately left unmodelled: neither PUB-0005 nor her own
+    death act names her parents, and the "Leonardes" link to the founding São Sebastião
+    settler family of João Leonardes, o Velho, is an untested lead, never evidence.
 profile: >-
   ## Interesting facts
 
-  - **[PROVEN]** She is named in an original parish register: her son Belchior's baptism act of ~9 January 1615 reads "Belchior fo[i filho] a Manoell de Ponte e de **sua molher Maria da Cota**" (PAR-0087, São Sebastião B-1611-1687 p.0037). "Cota" is the scribe's contraction of "Costa". That one clause is her entire primary documentation — and it fixes three things at once: that she existed, that she was Manuel's wife, and that Belchior was her son.
+  - **[PROVEN]** Her own death act is one of the most remarkable documents in this archive. On 27 December 1654 the vicar of São Sebastião wrote, in the first person: "faleceo **maria da Costa Leonardes minha mai**, molher de M.el de Ponte Cardoso **meu pai**" (PAR-0098, book O-1642-1696, CDN image 0018). The priest keeping the parish register was her son, and he buried his mother himself.
 
-  - **[COMPILED]** Mendes Forjaz gives her fuller name, **Maria da Costa Leonardes**, and her death: São Sebastião, 27 December 1654, two years and four months after her husband (19 August 1652). Neither death act is held.
+  - **[PROVEN]** "Leonardes" is contemporary, not the compiler's addition. Until September 2026 her fuller name came only from Mendes Forjaz, while the one original act naming her — her son Belchior's 1615 baptism, "Belchior fo[i filho] a Manoell de Ponte e de **sua molher Maria da Cota**" (PAR-0087; "Cota" is the scribe's contraction of "Costa") — gave only the short form. Her own death act writes "maria da Costa Leonardes" in full, in a primary hand.
 
-  - **[INFERRED — actionable]** That 1654 death falls inside TER-AH-SAOSEBASTIAO-O-1642-1696, the very São Sebastião burial register from which PAR-0088 and PAR-0089 were already taken. Her burial act is therefore very likely sitting in an already-digitised book and simply has not been pulled.
+  - **[PROVEN]** She died with all the sacraments of Holy Mother Church and was buried inside the church: "está sepultada nesta Igreja matriz da Villa de sam Sebastiam em sepultura sua junto ao arco da capela mor" — her own grave, beside the arch of the chancel, the same position her husband had been given two years and four months earlier (PAR-0097). The act was written up and signed the following January, in 1655.
+
+  - **[PROVEN]** Her husband's surname, in her own act, is **Ponte Cardoso** — not "Valadão". The Valadão form comes only from Mendes Forjaz, who derives it from his mother Catarina Valadão; the registers never use it.
 
   - **[LEAD — explicitly not evidence]** "Leonardes" is the name of a documented founding family of her own parish: **João Leonardes, o Velho**, one of Terceira's first settlers in the 1460s, held land at *Contendas* in São Sebastião, was party to a recorded 1480 dispute with João Vaz Côrte-Real, and died between 1503 and 1507. The compiled genealogies cover only that founding generation, and **no document connects her to it**. A surname is not a descent. It is worth testing, and worth refusing to assume.
 
   ## Identity
 
-  **Maria da Costa Leonardes** — recorded as "Maria da Cota" in the one original act that names her **[PROVEN, PAR-0087]**; died São Sebastião, Terceira, 27 December 1654 **[COMPILED, PUB-0005 p.259]**. Wife of **Manuel da Ponte Valadão** (P-0125), family F-0063; mother of **Belchior da Ponte Cardoso** (P-0123).
+  **Maria da Costa Leonardes** — written in full in her own death act **[PROVEN, PAR-0098]** and contracted to "Maria da Cota" in her son's 1615 baptism **[PROVEN, PAR-0087]**; died São Sebastião, Terceira, 27 December 1654, with the sacraments, and buried in the matriz beside the chancel arch **[PROVEN, PAR-0098; date also PUB-0005 p.259]**. Wife of **Manuel da Ponte Cardoso** (P-0125) — the compiled genealogy's "Manuel da Ponte Valadão" **[COMPILED]** — family F-0063; mother of **Belchior da Ponte Cardoso** (P-0123) and of the parish vicar **António Coelho Souto-Maior**.
 
   - **Birth date and place:** unknown. **[INFERRED]** Her recorded children were baptised between 1612 and 1619, so she was probably born in the 1580s or early 1590s; nothing narrows it further.
   - **Parents:** not given. Vol. IX names her husband's parents but not hers **[OPEN]**.
   - **Nationality:** Portuguese (Azores, Crown territory)
   - **Occupation:** none recorded — as for virtually every woman in these registers.
+  - **Burial:** inside the Igreja Matriz de São Sebastião, "em sepultura sua junto ao arco da capela mor" **[PROVEN, PAR-0098]**.
 
   **Position in the tree.** Along the modelled chain P-0126 → P-0123 → P-0092 → P-0057 → P-0056 → P-0054 → P-0017 → P-0008 → P-0004, Maria stands eight generations above Geraldo Paz Armond (P-0004) — his 6th-great-grandmother — and ten generations above the family's present living generation. The step P-0123 → P-0092 is **[COMPILED]** only and turns on the unresolved "two Gaspars" question; if P-0092 is the following generation, every degree here moves back one.
 
   ## Standing and profession
 
-  Nothing is documented about her own standing, property, literacy or origin. She appears in the record only as a wife and a mother, and the reason is structural rather than personal: seventeenth-century Azorean parish registers identify women through their husbands, which is why her death is a date in a compiler's line and her life is a five-word clause in her son's baptism **[CONTEXTUAL]**.
+  Nothing is documented about her own standing, property, literacy or origin. She appears in the record as a wife and a mother, and the reason is structural rather than personal: seventeenth-century Azorean parish registers identify women through their husbands **[CONTEXTUAL]**. Even her own death act names her by her husband before it says anything else about her — "molher de M.el de Ponte Cardoso".
 
-  The only indirect signals come from the household she was part of, and they belong to it rather than to her: one son became *Alferes de ordenanças* and another *padre vigário* of the parish matriz **[COMPILED]** — placements that imply a household able to fund a clerical *título de património* and to be counted among the parish's principal families **[INFERRED + CONTEXTUAL]**. None of that documents her personally, and no held record grants this family arms, a *foro* or a title.
+  **What the burial does say [PROVEN + CONTEXTUAL].** She was buried inside the parish church, in a grave described as hers, beside the arch of the chancel — interment within the building, at the end nearest the altar, in a grave the household held. That was the most sought-after position a parish had to give, and it was not open to everyone **[CONTEXTUAL]**. It is the one hard, document-stated indicator of this household's standing, and it applies to her as directly as to her husband.
+
+  The other indirect signals come from the household she was part of: one son became *Alferes de ordenanças* **[COMPILED]** and another *padre vigário* of the parish matriz — the latter now **[PROVEN]** by his own first-person hand in her death act — placements that imply a household able to fund a clerical *título de património* and to be counted among the parish's principal families **[INFERRED + CONTEXTUAL]**. None of that documents her personally, and no held record grants this family arms, a *foro* or a title.
 
   ## Family and social network
 
-  - **Husband:** Manuel da Ponte Valadão (P-0125), named with her in the 1615 baptism **[PROVEN]**. No marriage record, date or parish is known **[OPEN]**.
-  - **Children [COMPILED, PUB-0005 p.259]:** Baltazar (b. São Sebastião 6 November 1612); **Belchior da Ponte Cardoso** (b.1615, whose baptism act is the record that names her) **[PROVEN]**; Francisco Cardoso da Ponte / Cardoso Souto-Maior (b.12 March 1617, d.28 December 1679, unmarried); António Coelho Souto-Maior (b.13 February 1619, d.17 July 1686), *padre vigário* of the Matriz de São Sebastião.
+  - **Husband:** Manuel da Ponte Cardoso (P-0125), named with her in the 1615 baptism **[PROVEN, PAR-0087]** and named as her husband again in her own death act **[PROVEN, PAR-0098]**. He died 19 August 1652 and was buried in the same place she would be (PAR-0097). No marriage record, date or parish is known **[OPEN]**.
+  - **Children [COMPILED, PUB-0005 p.259]:** Baltazar (b. São Sebastião 6 November 1612); **Belchior da Ponte Cardoso** (b.1615, whose baptism act is one of the two records naming her) **[PROVEN]**; Francisco Cardoso da Ponte / Cardoso Souto-Maior (b.12 March 1617, d.28 December 1679, unmarried); **António Coelho Souto-Maior** (b.13 February 1619, d.17 July 1686), *padre vigário* of the Matriz de São Sebastião — the son who wrote her death act and called her "minha mai" **[PROVEN, PAR-0098]**. Do not confuse him with his namesake grandson, baptised 12 March 1654 to Belchior × Mariana Fagundes (PAR-0092).
   - **Grandchildren:** through Belchior, at least nine, seven of whose baptism acts are held (1651–1666).
   - **Her surname in her descendants:** it does not survive. Her children carry Ponte, Cardoso and Souto-Maior combinations; "Leonardes" stops with her in this line — which is itself a small piece of evidence about how surnames were chosen here, from a pool rather than by strict descent.
 
   ## What we can extrapolate
 
-  **She is the point where the primary record and the compiled record meet [INFERRED].** Her existence, marriage and motherhood are *proven* — an original register states them. Her name in full, her death date, and everything else about her are *compiled*. Keeping those two layers apart matters especially for her, because the fuller name "Maria da Costa Leonardes" comes only from Mendes Forjaz, while the register says just "Maria da Cota".
+  **The compiled layer has been checked and held [PROVEN].** Until September 2026 her existence, marriage and motherhood were proven from one register clause while her full name and her death date rested on Mendes Forjaz alone. Her own death act now confirms both in a primary hand — same name, same date — which is worth noting as a calibration: on this couple, at least, the compilation was accurate. It is still a compilation, and her parentage, which it does not give, remains unknown.
 
   **A parish-rooted household [INFERRED + CONTEXTUAL].** Her children were all baptised at São Sebastião and both she and her husband died there, while his father had died at Praia in 1618. Something settled this branch into São Sebastião in her married lifetime. A wife's family land is one of the commonest reasons a Portuguese household sits where it does **[CONTEXTUAL]** — and the Leonardes name is attached to early São Sebastião landholding. That is a hypothesis with a clear test (below), not a finding.
 
   **Women disappear from this archive faster than men, and it compounds upward [CONTEXTUAL].** Her husband has a compiled parentage; she has none. Her granddaughter-in-law Mariana Fagundes at least has a named father; Maria has no named parent at all. Each generation back, the female half of the pedigree thins faster — not because those women mattered less, but because the registers recorded them less.
 
+  **Her death act is the exception that shows the rule [INFERRED].** The only reason she is described at all — full name, sacraments, the grave she held, the words "minha mai" — is that the man holding the pen was her son. Where the clerk was a stranger, the same woman would have been four words in a line.
+
   ## Open questions
 
-  - **Her burial act (27 December 1654) should be retrievable.** It falls inside TER-AH-SAOSEBASTIAO-O-1642-1696, already digitised and already used for two other acts in this repository. **Highest-value next action for her** — it would also likely give her full name in a primary hand, settling whether "Leonardes" is contemporary or the compiler's addition.
+  - **[RESOLVED 2026-09-24] Her burial act has been read.** TER-AH-SAOSEBASTIAO-O-1642-1696, CDN image 0018, is catalogued as PAR-0098. It gave her full name in a primary hand — "Leonardes" is contemporary — plus the sacraments, the grave beside the chancel arch, and the first-person proof that the vicar was her son. The marginal index annotation is faint (read "m.ª da Cos[t]a", uncertain) and the day of the January 1655 signing is not legible; a higher-resolution BPAR Angra scan would settle both.
   - **Her parentage is entirely unknown.** Vol. IX gives none, and the 2026-09-23 full-corpus search of the *Genealogias* found no entry for her.
   - **The Leonardes question [LEAD].** Whether she descends from the founding São Sebastião settler family of João Leonardes, o Velho, is untested. The compiled genealogies cover only the 1460s–1500s generation; the 17th-century Leonardes of São Sebastião would have to be traced through the parish registers themselves. **Do not assume the descent from the surname.**
   - **Her birth and marriage** are undocumented, and her baptism probably predates the surviving São Sebastião baptism book (which begins in 1611).
 
   ## Sources held (this repository)
 
-  - **PAR-0087** — her son Belchior's baptism, São Sebastião, ~9 January 1615: the only original act naming her, as "sua molher Maria da Cota". *Primary.*
-  - **PUB-0005** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IX, SOUTO-MAIOR § 1º, p. 259: her full name, her marriage to Manuel da Ponte Valadão, her death on 27 December 1654 and her four recorded children. *Secondary, compiled — the sole source for everything except the 1615 act.*
+  - **PAR-0098** — her own death act, São Sebastião, 27 December 1654: her full name in a primary hand, the sacraments, the burial in the matriz beside the chancel arch, her husband's name, and the first-person statement that the officiating vicar was her son. *Primary.*
+  - **PAR-0087** — her son Belchior's baptism, São Sebastião, ~9 January 1615: names her "sua molher Maria da Cota". *Primary.*
+  - **PAR-0097** — her husband's death act, São Sebastião, 19 August 1652: not about her, but it fixes his name and his burial place, and carries the second "meu pai" attestation. *Primary, context.*
+  - **PUB-0005** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IX, SOUTO-MAIOR § 1º, p. 259: her full name, her marriage to Manuel da Ponte Cardoso (there headed "Manuel da Ponte Valadão"), her death on 27 December 1654 and her four recorded children. *Secondary, compiled — still the only source for three of her four children.*
 
   ## Regional and migration context
 
@@ -84,63 +126,72 @@ profile: >-
 
   ## Where to go today
 
-  - **Igreja Matriz de São Sebastião (Nossa Senhora da Graça), São Sebastião, Angra do Heroísmo, Terceira** — where her four recorded children were baptised between 1612 and 1619, where one of them served as vicar, and where she died in 1654. [RESOLVED — parish] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20S%C3%A3o%20Sebasti%C3%A3o%2C%20Terceira%2C%20A%C3%A7ores)
+  - **Igreja Matriz de São Sebastião (Nossa Senhora da Graça), São Sebastião, Angra do Heroísmo, Terceira** — where her four recorded children were baptised between 1612 and 1619, where one of them served as vicar and buried her himself, where she died in 1654, and where she lies inside the church beside the arch of the chancel. [RESOLVED — parish] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20S%C3%A3o%20Sebasti%C3%A3o%2C%20Terceira%2C%20A%C3%A7ores)
   - **Contendas, São Sebastião, Terceira** — the locality held by the Leonardes founding family from the 1460s. Visit it as an open question, not as her home: no document places her there. [LEAD] · [Maps](https://www.google.com/maps/search/?api=1&query=Contendas%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20Terceira%2C%20A%C3%A7ores)
-  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — holds TER-AH-SAOSEBASTIAO-O-1642-1696, which should contain her 27 December 1654 burial act, and the São Sebastião registers in which any 17th-century Leonardes connection would have to be traced. · [Maps](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)
+  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — holds TER-AH-SAOSEBASTIAO-O-1642-1696, the book containing her 27 December 1654 burial act (held as PAR-0098 at the CDN maximum of 1239×944 px), can supply a higher-resolution reproduction, and holds the São Sebastião registers in which any 17th-century Leonardes connection would have to be traced. · [Maps](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)
 profile_pt: >-
   ## Fatos interessantes
 
-  - **[PROVEN]** É nomeada num registo paroquial original: o assento de baptismo do filho Belchior, de ~9 de janeiro de 1615, lê "Belchior fo[i filho] a Manoell de Ponte e de **sua molher Maria da Cota**" (PAR-0087, São Sebastião B-1611-1687 p.0037). "Cota" é a contracção do escrivão para "Costa". Essa única cláusula é toda a sua documentação primária — e fixa três coisas de uma vez: que existiu, que era mulher de Manuel e que Belchior era seu filho.
+  - **[PROVEN]** O seu próprio assento de óbito é um dos documentos mais notáveis deste arquivo. A 27 de dezembro de 1654 o vigário de São Sebastião escreveu, em primeira pessoa: "faleceo **maria da Costa Leonardes minha mai**, molher de M.el de Ponte Cardoso **meu pai**" (PAR-0098, livro O-1642-1696, imagem CDN 0018). O sacerdote que mantinha o registo paroquial era seu filho, e foi ele quem sepultou a mãe.
 
-  - **[COMPILED]** Mendes Forjaz dá o nome completo, **Maria da Costa Leonardes**, e o óbito: São Sebastião, 27 de dezembro de 1654, dois anos e quatro meses depois do marido (19 de agosto de 1652). Nenhum dos dois assentos de óbito está disponível.
+  - **[PROVEN]** "Leonardes" é contemporâneo, e não acrescento do compilador. Até setembro de 2026, o nome completo vinha só de Mendes Forjaz, enquanto o único assento original que a nomeava — o baptismo do filho Belchior, em 1615, "Belchior fo[i filho] a Manoell de Ponte e de **sua molher Maria da Cota**" (PAR-0087; "Cota" é a contracção do escrivão para "Costa") — dava apenas a forma curta. O seu próprio assento de óbito escreve "maria da Costa Leonardes" por extenso, em mão primária.
 
-  - **[INFERRED — accionável]** Esse óbito de 1654 cai dentro do TER-AH-SAOSEBASTIAO-O-1642-1696, o mesmo livro de óbitos de São Sebastião de onde já saíram PAR-0088 e PAR-0089. O assento dela está, portanto, muito provavelmente num livro já digitalizado, apenas por puxar.
+  - **[PROVEN]** Morreu com todos os sacramentos da Sancta Madre Igreja e foi sepultada dentro da igreja: "está sepultada nesta Igreja matriz da Villa de sam Sebastiam em sepultura sua junto ao arco da capela mor" — sepultura sua, junto ao arco da capela-mor, a mesma posição dada ao marido dois anos e quatro meses antes (PAR-0097). O assento foi lavrado e assinado no mês de janeiro seguinte, já em 1655.
+
+  - **[PROVEN]** O apelido do marido, no assento dela, é **Ponte Cardoso** — e não "Valadão". A forma Valadão vem apenas de Mendes Forjaz, que a faz derivar da mãe dele, Catarina Valadão; os registos nunca a usam.
 
   - **[LEAD — explicitamente, não é evidência]** "Leonardes" é o nome de uma família fundadora documentada da sua própria freguesia: **João Leonardes, o Velho**, um dos primeiros povoadores da Terceira, na década de 1460, tinha terra nas *Contendas*, em São Sebastião, foi parte numa disputa registada de 1480 com João Vaz Côrte-Real e morreu entre 1503 e 1507. As genealogias compiladas cobrem apenas essa geração fundadora, e **nenhum documento a liga a ela**. Um apelido não é uma descendência. Vale a pena testar, e vale a pena recusar-se a assumir.
 
   ## Identidade
 
-  **Maria da Costa Leonardes** — registada como "Maria da Cota" no único assento original que a nomeia **[PROVEN, PAR-0087]**; falecida em São Sebastião, Terceira, a 27 de dezembro de 1654 **[COMPILED, PUB-0005 p.259]**. Mulher de **Manuel da Ponte Valadão** (P-0125), família F-0063; mãe de **Belchior da Ponte Cardoso** (P-0123).
+  **Maria da Costa Leonardes** — escrita por extenso no seu próprio assento de óbito **[PROVEN, PAR-0098]** e contraída para "Maria da Cota" no baptismo do filho, em 1615 **[PROVEN, PAR-0087]**; falecida em São Sebastião, Terceira, a 27 de dezembro de 1654, com os sacramentos, e sepultada na matriz junto ao arco da capela-mor **[PROVEN, PAR-0098; data também em PUB-0005 p.259]**. Mulher de **Manuel da Ponte Cardoso** (P-0125) — o "Manuel da Ponte Valadão" da genealogia compilada **[COMPILED]** — família F-0063; mãe de **Belchior da Ponte Cardoso** (P-0123) e do vigário da freguesia **António Coelho Souto-Maior**.
 
   - **Data e local de nascimento:** desconhecidos. **[INFERRED]** Os filhos registados foram baptizados entre 1612 e 1619, pelo que terá nascido na década de 1580 ou no início da de 1590; nada estreita mais.
   - **Pais:** não indicados. O Vol. IX nomeia os pais do marido, mas não os dela **[OPEN]**.
   - **Nacionalidade:** portuguesa (Açores, território da Coroa)
   - **Ocupação:** nenhuma registada — como para praticamente todas as mulheres nestes livros.
+  - **Sepultura:** dentro da Igreja Matriz de São Sebastião, "em sepultura sua junto ao arco da capela mor" **[PROVEN, PAR-0098]**.
 
   **Posição na árvore.** Pela cadeia modelada P-0126 → P-0123 → P-0092 → P-0057 → P-0056 → P-0054 → P-0017 → P-0008 → P-0004, Maria está oito gerações acima de Geraldo Paz Armond (P-0004) — sua 6.ª bisavó (*6th-great-grandmother*) — e dez gerações acima da atual geração viva da família. O passo P-0123 → P-0092 é apenas **[COMPILED]** e depende da questão não resolvida dos "dois Gaspares"; se P-0092 for a geração seguinte, todos os graus aqui recuam um.
 
   ## Posição social e profissão
 
-  Nada está documentado sobre a sua posição, bens, alfabetização ou origem. Aparece no registo apenas como mulher e mãe, e a razão é estrutural, não pessoal: os registos paroquiais açorianos do século XVII identificam as mulheres através dos maridos, e é por isso que a sua morte é uma data numa linha de compilador e a sua vida é uma cláusula de cinco palavras no baptismo do filho **[CONTEXTUAL]**.
+  Nada está documentado sobre a sua posição, bens, alfabetização ou origem. Aparece no registo como mulher e mãe, e a razão é estrutural, não pessoal: os registos paroquiais açorianos do século XVII identificam as mulheres através dos maridos **[CONTEXTUAL]**. Até o seu próprio assento de óbito a nomeia pelo marido antes de dizer mais alguma coisa sobre ela — "molher de M.el de Ponte Cardoso".
 
-  Os únicos sinais indirectos vêm da casa de que fazia parte, e pertencem a ela e não à pessoa: um filho tornou-se *Alferes de ordenanças* e outro *padre vigário* da matriz da freguesia **[COMPILED]** — colocações que implicam uma casa capaz de custear um *título de património* clerical e de se contar entre as principais da paróquia **[INFERRED + CONTEXTUAL]**. Nada disso a documenta pessoalmente, e nenhum registo disponível concede armas, *foro* ou título a esta família.
+  **O que a sepultura diz [PROVEN + CONTEXTUAL].** Foi sepultada dentro da igreja paroquial, em sepultura descrita como sua, junto ao arco da capela-mor — enterramento no interior do templo, na extremidade mais próxima do altar, em sepultura pertencente à casa. Era a posição mais disputada que uma freguesia tinha para dar, e não estava ao alcance de todos **[CONTEXTUAL]**. É o único indicador firme, declarado por documento, da posição desta casa, e aplica-se-lhe tão directamente como ao marido.
+
+  Os outros sinais indirectos vêm da casa de que fazia parte: um filho tornou-se *Alferes de ordenanças* **[COMPILED]** e outro *padre vigário* da matriz da freguesia — este último agora **[PROVEN]** pela sua própria mão, em primeira pessoa, no assento de óbito dela — colocações que implicam uma casa capaz de custear um *título de património* clerical e de se contar entre as principais da paróquia **[INFERRED + CONTEXTUAL]**. Nada disso a documenta pessoalmente, e nenhum registo disponível concede armas, *foro* ou título a esta família.
 
   ## Família e rede social
 
-  - **Marido:** Manuel da Ponte Valadão (P-0125), nomeado com ela no baptismo de 1615 **[PROVEN]**. Não se conhece registo, data nem freguesia do casamento **[OPEN]**.
-  - **Filhos [COMPILED, PUB-0005 p.259]:** Baltazar (n. São Sebastião 6 de novembro de 1612); **Belchior da Ponte Cardoso** (n.1615, cujo assento de baptismo é o registo que a nomeia) **[PROVEN]**; Francisco Cardoso da Ponte / Cardoso Souto-Maior (n.12 de março de 1617, f.28 de dezembro de 1679, solteiro); António Coelho Souto-Maior (n.13 de fevereiro de 1619, f.17 de julho de 1686), *padre vigário* da Matriz de São Sebastião.
+  - **Marido:** Manuel da Ponte Cardoso (P-0125), nomeado com ela no baptismo de 1615 **[PROVEN, PAR-0087]** e nomeado de novo como seu marido no próprio assento de óbito dela **[PROVEN, PAR-0098]**. Faleceu a 19 de agosto de 1652 e foi sepultado no mesmo lugar onde ela viria a ser (PAR-0097). Não se conhece registo, data nem freguesia do casamento **[OPEN]**.
+  - **Filhos [COMPILED, PUB-0005 p.259]:** Baltazar (n. São Sebastião 6 de novembro de 1612); **Belchior da Ponte Cardoso** (n.1615, cujo assento de baptismo é um dos dois registos que a nomeiam) **[PROVEN]**; Francisco Cardoso da Ponte / Cardoso Souto-Maior (n.12 de março de 1617, f.28 de dezembro de 1679, solteiro); **António Coelho Souto-Maior** (n.13 de fevereiro de 1619, f.17 de julho de 1686), *padre vigário* da Matriz de São Sebastião — o filho que escreveu o assento de óbito dela e lhe chamou "minha mai" **[PROVEN, PAR-0098]**. Não confundir com o neto homónimo, baptizado a 12 de março de 1654, filho de Belchior × Mariana Fagundes (PAR-0092).
   - **Netos:** por Belchior, pelo menos nove, dos quais sete assentos de baptismo estão disponíveis (1651–1666).
   - **O seu apelido nos descendentes:** não sobrevive. Os filhos levam combinações de Ponte, Cardoso e Souto-Maior; "Leonardes" pára nela nesta linha — o que é, em si, um pequeno indício de como os apelidos eram escolhidos aqui, de um repertório e não por descendência estrita.
 
   ## O que podemos extrapolar
 
-  **É o ponto onde o registo primário e o registo compilado se encontram [INFERRED].** A sua existência, casamento e maternidade estão *provados* — um registo original afirma-os. O nome completo, a data de óbito e tudo o mais são *compilados*. Manter as duas camadas separadas importa sobretudo nela, porque o nome mais completo "Maria da Costa Leonardes" vem apenas de Mendes Forjaz, enquanto o livro diz só "Maria da Cota".
+  **A camada compilada foi verificada e confirmada [PROVEN].** Até setembro de 2026, a existência, o casamento e a maternidade estavam provados por uma cláusula de registo, enquanto o nome completo e a data de óbito assentavam só em Mendes Forjaz. O seu próprio assento de óbito confirma agora ambos em mão primária — mesmo nome, mesma data — o que vale como calibragem: neste casal, pelo menos, a compilação estava certa. Continua a ser uma compilação, e a filiação dela, que não dá, continua desconhecida.
 
   **Uma casa enraizada na freguesia [INFERRED + CONTEXTUAL].** Os filhos foram todos baptizados em São Sebastião e tanto ela como o marido ali morreram, ao passo que o sogro morrera na Praia em 1618. Alguma coisa fixou este ramo em São Sebastião durante a sua vida de casada. A terra da família da mulher é uma das razões mais comuns para uma casa portuguesa estar onde está **[CONTEXTUAL]** — e o nome Leonardes está ligado à propriedade antiga em São Sebastião. É uma hipótese com teste claro (abaixo), não um achado.
 
   **As mulheres desaparecem deste arquivo mais depressa do que os homens, e o efeito acumula para cima [CONTEXTUAL].** O marido tem filiação compilada; ela não tem nenhuma. A nora do neto, Mariana Fagundes, tem pelo menos um pai nomeado; Maria não tem nenhum progenitor nomeado. A cada geração para trás, a metade feminina da ascendência afina mais depressa — não porque essas mulheres importassem menos, mas porque os livros as registavam menos.
 
+  **O assento de óbito dela é a excepção que mostra a regra [INFERRED].** A única razão por que é descrita — nome completo, sacramentos, a sepultura que a casa detinha, as palavras "minha mai" — é que quem segurava a pena era seu filho. Se o escrivão fosse um estranho, a mesma mulher seria quatro palavras numa linha.
+
   ## Questões em aberto
 
-  - **O assento de óbito (27 de dezembro de 1654) deve ser recuperável.** Cai dentro do TER-AH-SAOSEBASTIAO-O-1642-1696, já digitalizado e já usado para dois outros assentos neste repositório. **Acção seguinte de maior valor para ela** — daria também, provavelmente, o nome completo em mão primária, resolvendo se "Leonardes" é contemporâneo ou acrescento do compilador.
+  - **[RESOLVIDO 2026-09-24] O assento de óbito foi lido.** O TER-AH-SAOSEBASTIAO-O-1642-1696, imagem CDN 0018, está catalogado como PAR-0098. Deu o nome completo em mão primária — "Leonardes" é contemporâneo —, os sacramentos, a sepultura junto ao arco da capela-mor e a prova, em primeira pessoa, de que o vigário era seu filho. A anotação marginal de índice está esbatida (lida "m.ª da Cos[t]a", incerta) e o dia da assinatura, em janeiro de 1655, não é legível; uma reprodução de maior resolução do BPAR de Angra resolveria ambas.
   - **A filiação é totalmente desconhecida.** O Vol. IX não a dá, e a busca integral de 2026-09-23 nas *Genealogias* não encontrou entrada para ela.
   - **A questão Leonardes [LEAD].** Se descende ou não da família fundadora de São Sebastião de João Leonardes, o Velho, está por testar. As genealogias compiladas só cobrem a geração de 1460–1500; os Leonardes seiscentistas de São Sebastião teriam de ser traçados nos próprios registos paroquiais. **Não assumir a descendência a partir do apelido.**
   - **O nascimento e o casamento** não estão documentados, e o baptismo é provavelmente anterior ao livro de baptismos de São Sebastião que sobrevive (que começa em 1611).
 
   ## Fontes disponíveis (neste repositório)
 
-  - **PAR-0087** — o baptismo do filho Belchior, São Sebastião, ~9 de janeiro de 1615: o único assento original que a nomeia, como "sua molher Maria da Cota". *Primária.*
-  - **PUB-0005** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IX, SOUTO-MAIOR § 1º, p. 259: o nome completo, o casamento com Manuel da Ponte Valadão, o óbito a 27 de dezembro de 1654 e os quatro filhos registados. *Secundária, compilada — fonte única para tudo o que não seja o assento de 1615.*
+  - **PAR-0098** — o seu próprio assento de óbito, São Sebastião, 27 de dezembro de 1654: o nome completo em mão primária, os sacramentos, a sepultura na matriz junto ao arco da capela-mor, o nome do marido e a declaração, em primeira pessoa, de que o vigário officiante era seu filho. *Primária.*
+  - **PAR-0087** — o baptismo do filho Belchior, São Sebastião, ~9 de janeiro de 1615: nomeia-a como "sua molher Maria da Cota". *Primária.*
+  - **PAR-0097** — o assento de óbito do marido, São Sebastião, 19 de agosto de 1652: não é sobre ela, mas fixa o nome e o lugar de sepultura dele e traz a segunda atestação "meu pai". *Primária, contexto.*
+  - **PUB-0005** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IX, SOUTO-MAIOR § 1º, p. 259: o nome completo, o casamento com Manuel da Ponte Cardoso (ali encabeçado "Manuel da Ponte Valadão"), o óbito a 27 de dezembro de 1654 e os quatro filhos registados. *Secundária, compilada — continua a ser a única fonte para três dos quatro filhos.*
 
   ## Contexto regional e migratório
 
@@ -152,6 +203,6 @@ profile_pt: >-
 
   ## Onde ir hoje
 
-  - **Igreja Matriz de São Sebastião (Nossa Senhora da Graça), São Sebastião, Angra do Heroísmo, Terceira** — onde os quatro filhos registados foram baptizados entre 1612 e 1619, onde um deles serviu como vigário e onde ela morreu, em 1654. [RESOLVIDO — freguesia] · [Mapa](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20S%C3%A3o%20Sebasti%C3%A3o%2C%20Terceira%2C%20A%C3%A7ores)
+  - **Igreja Matriz de São Sebastião (Nossa Senhora da Graça), São Sebastião, Angra do Heroísmo, Terceira** — onde os quatro filhos registados foram baptizados entre 1612 e 1619, onde um deles serviu como vigário e a sepultou com as próprias mãos, onde ela morreu em 1654 e onde jaz, dentro da igreja, junto ao arco da capela-mor. [RESOLVIDO — freguesia] · [Mapa](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20S%C3%A3o%20Sebasti%C3%A3o%2C%20Terceira%2C%20A%C3%A7ores)
   - **Contendas, São Sebastião, Terceira** — a localidade detida pela família fundadora Leonardes desde a década de 1460. Visitar como questão em aberto, não como casa dela: nenhum documento a coloca ali. [LEAD] · [Mapa](https://www.google.com/maps/search/?api=1&query=Contendas%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20Terceira%2C%20A%C3%A7ores)
-  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — guarda o TER-AH-SAOSEBASTIAO-O-1642-1696, que deve conter o assento de óbito de 27 de dezembro de 1654, e os livros de São Sebastião onde qualquer ligação Leonardes seiscentista teria de ser traçada. · [Mapa](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)
+  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — guarda o TER-AH-SAOSEBASTIAO-O-1642-1696, o livro que contém o assento de óbito de 27 de dezembro de 1654 (disponível como PAR-0098, a 1239×944 px, máximo do CDN), pode fornecer reprodução de maior resolução e guarda os livros de São Sebastião onde qualquer ligação Leonardes seiscentista teria de ser traçada. · [Mapa](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)

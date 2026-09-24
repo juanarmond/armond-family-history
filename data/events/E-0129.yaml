@@ -8,11 +8,28 @@ place_text: São Sebastião, Terceira, Azores
 participants:
 - person_id: P-0125
   role: principal
-status: strong-evidence
+status: confirmed
 source_ids:
 - PUB-0005
+- PAR-0097
 notes:
 - text: >-
-    Death of Manuel da Ponte Valadão (P-0125) on 19 August 1652, S. Sebastião, Terceira.
-    Source: Mendes Forjaz Vol. IX (PUB-0005, p.259): "F. em S. Sebastião a 19.8.1652."
-    Compiled — no primary death image held.
+    Death of Manuel da Ponte Cardoso (P-0125) on 19 August 1652, S. Sebastião, Terceira.
+    Mendes Forjaz Vol. IX (PUB-0005, p.259): "F. em S. Sebastião a 19.8.1652." The primary
+    death image (PAR-0097, TER-AH-SAOSEBASTIAO-O-1642-1696, CDN image 0016) confirms it:
+    "faleceo m.el de Ponte Cardozo aos dezanove dias de Agosto de mil e seiscentos [e]
+    cinquoenta e dous annos con todos os sacramentos da Igr[ej]a, está sepultado nesta
+    Igr[ej]a … sepultura sua junto ao arco da cape[la mor]". Upgraded from strong-evidence
+    to confirmed 2026-09-24 on receipt of the primary image.
+- text: >-
+    The act supplies three facts the compilation did not: he received the sacraments before
+    death; he was buried inside the parish church, in his own grave beside the arch of the
+    chancel; and the register spells his surname "Ponte Cardozo". The compiled form
+    "Valadão" (PUB-0005) does not appear in the register — see the name_variants of P-0125.
+- text: >-
+    A three-line marginal annotation in the same hand reads "M.el de Pon / te Cardozo /
+    meu pai" — the officiating priest recording the deceased as his own father. With the
+    first-person body of PAR-0098 (his wife's 1654 act) this proves that the vicar of São
+    Sebastião was their son; PUB-0005 identifies that son as António Coelho Souto-Maior
+    (b.13.2.1619, d.17.7.1686). He is not modelled as a person entity; he is recorded as a
+    documented child on F-0063.

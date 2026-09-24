@@ -1,0 +1,157 @@
+schema_version: 1
+id: PAR-0098
+title: >-
+  São Sebastião death register — Maria da Costa Leonardes, 27 December 1654
+title_pt: >-
+  Registo de óbitos de São Sebastião — Maria da Costa Leonardes, 27 de dezembro de 1654
+record_type: Parish death register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+reading_reliability: complete
+event_date:
+  kind: exact
+  value: "1654-12-27"
+  original_text: >-
+    "aos vinte e sete de dezembro de mil seissentos e sinquoenta e quatro annos" — read
+    directly from the act; exact match with Mendes Forjaz Vol. IX (PUB-0005, p.259). The
+    act itself was written up and signed the following month: "me assinei em … que he de
+    Janeiro de seissentos e sincoenta e sinquo annos" (January 1655).
+event_place_text: São Sebastião, Terceira, Azores
+repository:
+  name: Culturacores / Arquivo Regional dos Açores — BPAR Angra do Heroísmo
+  archive_or_registry: >-
+    Livro de óbitos da Paróquia de São Sebastião (Terceira), TER-AH-SAOSEBASTIAO-O-1642-1696.
+    One whole-spread image downloaded via the Culturacores CDN, 2026-09-24:
+    p1 = rec-terceira-ssebastiao-obito-maria-costa-leonardes-1654.jpg (CDN image 0018).
+    The act is the first entry on the left-hand page of the spread.
+  collection: Paróquia de São Sebastião, Terceira — Livros de Óbitos
+  catalogue_reference: >-
+    TER-AH-SAOSEBASTIAO-O-1642-1696, CDN image 0018 (left-hand page, first entry);
+    death of Maria da Costa Leonardes, 27 December 1654. Downloaded via Culturacores CDN
+    (Arquivo Regional dos Açores), 2026-09-24. Native maximum resolution 1239×944 px.
+access_date: "2026-09-24"
+language: pt-PT
+transcription: >-
+  [Image p1 — CDN image 0018, left-hand page, first entry; S. Sebastião óbitos 1642–1696.
+  Read from the original at magnification 2026-09-24; square brackets mark expansions and
+  uncertain or unread text.]
+
+  [Marginal annotation:] "m.ª da Cos[t]a" [uncertain]
+
+  [Main text:] "faleceo maria da Costa Leonardes minha / mai, molher de M.el de Ponte
+  Cardoso meu / pai, aos vinte e sete de dezembro de mil / seissentos e sinquoenta e quatro
+  annos / com todos os sacramentos da Sancta Madre / Igr[ej]a, está sepultada nesta Igr[ej]a
+  / matriz da Villa de sam Sebastiam em se- / pultura sua junto ao arco da ca- / pela mor.
+  por verdade me assinei em / [o dia] que he de Janeiro de seissentos e sincoen- / ta e
+  sinquo annos."
+
+  [Signature:] "o Vig.º So[u]tomaior" [followed by a rubric; no forename in this signature]
+transcription_pt: >-
+  [Imagem p1 — imagem CDN 0018, página esquerda, primeiro assento; S. Sebastião óbitos
+  1642–1696. Lido do original com ampliação a 2026-09-24; os parênteses rectos marcam
+  expansões e texto incerto ou não lido.]
+
+  [Anotação marginal:] "m.ª da Cos[t]a" [incerto]
+
+  [Texto principal:] "faleceo maria da Costa Leonardes minha / mai, molher de M.el de Ponte
+  Cardoso meu / pai, aos vinte e sete de dezembro de mil / seissentos e sinquoenta e quatro
+  annos / com todos os sacramentos da Sancta Madre / Igr[ej]a, está sepultada nesta Igr[ej]a
+  / matriz da Villa de sam Sebastiam em se- / pultura sua junto ao arco da ca- / pela mor.
+  por verdade me assinei em / [o dia] que he de Janeiro de seissentos e sincoen- / ta e
+  sinquo annos."
+
+  [Assinatura:] "o Vig.º So[u]tomaior" [seguida de rubrica; sem nome próprio nesta assinatura]
+abstract: >-
+  Primary parish death record for Maria da Costa Leonardes (P-0126), died 27 December 1654
+  in São Sebastião, Terceira. The act is written in the FIRST PERSON by the officiating
+  priest: "faleceo maria da Costa Leonardes minha mai, molher de M.el de Ponte Cardoso meu
+  pai" — my mother, wife of Manuel da Ponte Cardoso my father. It confirms in a primary hand
+  the full name that had until now rested only on the compiled genealogy PUB-0005, records
+  that she died with all the sacraments of Holy Mother Church, and places her burial inside
+  the parish church: "está sepultada nesta Igreja matriz da Villa de sam Sebastiam em
+  sepultura sua junto ao arco da capela mor." The death date is an exact match with
+  PUB-0005; the act itself was signed the following January (1655). The record also gives
+  her husband's surname in a primary hand as "Ponte Cardoso" — not "Valadão". Signed
+  "o Vig.º So[u]tomaior". This primary image upgrades E-0130 from strong-evidence to
+  confirmed and raises P-0126 from compiled-only to primary documentation.
+abstract_pt: >-
+  Registo paroquial primário do óbito de Maria da Costa Leonardes (P-0126), falecida a 27 de
+  dezembro de 1654 em São Sebastião, Terceira. O assento está escrito na PRIMEIRA PESSOA
+  pelo sacerdote officiante: "faleceo maria da Costa Leonardes minha mai, molher de M.el de
+  Ponte Cardoso meu pai". Confirma em mão primária o nome completo que até aqui assentava
+  apenas na genealogia compilada PUB-0005, regista que morreu com todos os sacramentos da
+  Sancta Madre Igreja e situa a sepultura dentro da igreja paroquial: "está sepultada nesta
+  Igreja matriz da Villa de sam Sebastiam em sepultura sua junto ao arco da capela mor." A
+  data de óbito corresponde exactamente a PUB-0005; o assento foi assinado no mês de janeiro
+  seguinte (1655). O registo dá também, em mão primária, o apelido do marido como "Ponte
+  Cardoso" — e não "Valadão". Assinado "o Vig.º So[u]tomaior". Esta imagem primária actualiza
+  E-0130 de strong-evidence para confirmed e eleva P-0126 de documentação apenas compilada a
+  documentação primária.
+reliability:
+  assessment: >-
+    Primary source (original parish death register), read from the native-maximum CDN image
+    at magnification. Her full name, the first-person kinship clause ("minha mai … meu pai"),
+    her husband's name, the day, month and year, the sacraments and the burial place inside
+    the matriz beside the chancel arch are all legible. The date matches PUB-0005 exactly.
+    Evidence quality: confirmed for the death date, the burial, her full name and her
+    marriage to P-0125; and confirmed for the fact that the officiating priest was her son.
+  informant: >-
+    The officiating vicar of São Sebastião, a son of the deceased, who signs
+    "o Vig.º So[u]tomaior" and writes of her in the first person, January 1655
+  limitations: >-
+    The marginal index annotation is faint; read as "m.ª da Cos[t]a" and marked uncertain.
+    The exact day of the January 1655 signing is not legible, so only the month and year of
+    the signature are asserted. The signature gives no forename, so the son's identity is
+    established by inference from the neighbouring signatures in the same book and from
+    PUB-0005 rather than stated in this act (see notes). Whole-spread image; the act is the
+    first of four entries on the left-hand page. Resolution 1239×944 px — the CDN's
+    published maximum for the page, not a processing loss.
+digital_file:
+  path: evidence/parish/PAR-0098-obito-maria-costa-leonardes-1654-p1.jpg
+  sha256: bb032e78feaa20fbcca31ee4710c3919f471769d2cbe21b7b2e056eb9ee703d5
+additional_pages: []
+linked_people:
+- P-0126
+- P-0125
+linked_families:
+- F-0063
+linked_events:
+- E-0130
+linked_places: []
+private: false
+notes:
+- text: >-
+    FIRST-PERSON ATTESTATION. The body of the act states the officiating priest's own
+    parentage: "maria da Costa Leonardes minha mai, molher de M.el de Ponte Cardoso meu
+    pai". Read against the marginal note in PAR-0097 ("M.el de Pon / te Cardozo / meu pai"),
+    this gives two independent first-person statements in the same book that the vicar of
+    São Sebastião was a son of Manuel da Ponte Cardoso × Maria da Costa Leonardes (F-0063)
+    — and therefore a brother of Belchior da Ponte Cardoso (P-0123).
+- text: >-
+    IDENTIFICATION OF THE SON — divergence from the retrieval agent's handoff note. The
+    handoff named the priest "Manoel Coelho Souto Maior"; the image does not support it.
+    This act and PAR-0097 are signed only "o Vig.º So[u]tomaior", without a forename; the
+    neighbouring 1652 entries in the same book are signed "o Vig.º Ant.º Coelho
+    Sotto[ma]yor" [uncertain expansion], and PAR-0089 (1684, same book) records the vicar as
+    "Antônio Coelho Sotomayor". PUB-0005 (Vol. IX, p.259) names exactly one priest among
+    this couple's children — António Coelho Souto-Maior (b. 13 February 1619, d. 17 July
+    1686, padre vigário of the Matriz de São Sebastião) — and no son named Manoel. The
+    officiating son is therefore identified as António Coelho Souto-Maior, whose sonship
+    moves from [COMPILED] to [PROVEN] on these two acts.
+- text: >-
+    Do not confuse this António Coelho Souto-Maior (b.1619, the couple's son) with his
+    namesake nephew, António Coelho Souto-Maior baptised 12 March 1654, son of Belchior da
+    Ponte Cardoso × Mariana Fagundes (PAR-0092). The 1654 nephew was an infant when this
+    act was written.
+- text: >-
+    NAME EVIDENCE for P-0125. This act gives her husband's name in a primary hand as
+    "M.el de Ponte Cardoso" — the second independent register attestation (with PAR-0097)
+    that his surname was Ponte Cardoso, not "Valadão". The Valadão form survives only as a
+    compiled-genealogy variant (PUB-0005).
+- text: >-
+    Book context: the same register yielded PAR-0088 (Belchior da Ponte Cardoso, 1687),
+    PAR-0089 (Mariana Fagundes, 1684) and PAR-0097 (Manuel da Ponte Cardoso, 1652, two CDN
+    images earlier).

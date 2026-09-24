@@ -5,6 +5,15 @@ privacy: deceased
 sex: male
 nationality: Portuguese
 name_variants:
+- value: Ant.º Machado
+  type: source
+  source_ids:
+  - PAR-0086
+  note: >-
+    The form written by the register itself, in the filiation clause of his daughter Mariana's
+    marriage act (Santa Bárbara, 26 September 1650): "Mariana Fagunda filha do [illegible]
+    Ant.º Machado e de sua m[ulhe]r C.ta Machada". "Ant.º" is the ordinary period abbreviation
+    of António. This is the only contemporary form of his name held in this repository.
 - value: António Martins Fagundes
   type: source
   source_ids:
@@ -24,10 +33,23 @@ occupations:
   - PUB-0004
 notes:
 - text: >-
-    António Martins Fagundes (also called "Machado Fagundes"): died 17 April 1664, Santa Bárbara,
-    Terceira (PUB-0004, p.312). Capitão de ordenanças. Married Catarina Machado de Faria
-    (P-0128); family F-0064. Father of Mariana Fagundes (P-0124). Son of Pedro Lourenço
-    Machado (P-0129) × Maria Fernandes da Costa (P-0130); family F-0065.
+    António Martins Fagundes (also called "Machado Fagundes"; written "Ant.º Machado" by the
+    register): died 17 April 1664, Santa Bárbara, Terceira (PUB-0004, p.312) [COMPILED].
+    Capitão de ordenanças [COMPILED]. Married Catarina Machado de Faria (P-0128); family
+    F-0064. Father of Mariana Fagundes (P-0124) — [PROVEN, PAR-0086]. Son of Pedro Lourenço
+    Machado (P-0129) × Maria Fernandes da Costa (P-0130); family F-0065 [COMPILED].
+- text: >-
+    EVIDENCE STANDING UPGRADED, 2026-09-24 — he is no longer a compiled-only person. The
+    filiation clause of PAR-0086 (his daughter Mariana's marriage act, Santa Bárbara,
+    26 September 1650, image 0072) was re-read under magnification and is legible:
+    "Mariana Fagunda filha do [illegible] Ant.º Machado e de sua m[ulhe]r C.ta [Cat(arin)a]
+    Machada". A contemporary record therefore attests him, as Mariana's father and as
+    Catarina's husband. The earlier reading recorded here and in PAR-0086, "[António?]" /
+    "Ant[ó]nio medado[?]", was simply a misread and is superseded. Mendes Forjaz Vol. IV § 6º
+    is confirmed at primary level for the parentage and for the marriage — and for nothing
+    else. His fuller name forms, his rank of Capitão de ordenanças, his death on 17.4.1664 and
+    his own parentage (P-0129 × P-0130) rest on PUB-0004 alone and stay [COMPILED]. No record
+    of his own life — birth, marriage or death — is held.
 - text: >-
     The name variant "Machado Fagundes" in the compilation reflects the Machado element taken
     from his mother's family (Maria Fernandes da Costa). His wife Catarina Machado de Faria
@@ -40,7 +62,7 @@ profile: >-
 
   - **[COMPILED]** The compiler cannot settle on his name either. Vol. IV writes him "António Martins Fagundes (ou **Machado Fagundes**)" — the Machado element taken from his mother's side. His children then carry a third combination again: two daughters are recorded as "de Lemos Machado", from *their* mother.
 
-  - **[PROVEN, partial — the one primary trace of him]** The damaged 1650 marriage act of his daughter Mariana (PAR-0086, Santa Bárbara) appears to name the bride's father in its filiation clause: the reading is "... Mariana Fagundes filha de **[António?]** ...". It is bracketed and not secure at the delivered resolution — but it means his fatherhood is one legible scan away from moving out of the compiled layer altogether.
+  - **[PROVEN — the one primary trace of him, and it is enough]** The 1650 marriage act of his daughter Mariana (PAR-0086, Santa Bárbara, image 0072) names him in its filiation clause: "…Mariana Fagunda filha do [one word illegible] **Ant.º Machado** e de sua m[ulhe]r **C.ta Machada**…". Read at magnification on 24 September 2026. A single line in a torn register is the whole of his contemporary documentation — but it is a direct statement, by the priest who married his daughter, that he was her father and Catarina's husband. Everything else about him is a genealogist's summary.
 
   - **[COMPILED]** He died at **Santa Bárbara on 17 April 1664** — in his own parish, not in São Sebastião where his daughter had gone to live.
 
@@ -48,12 +70,12 @@ profile: >-
 
   ## Identity
 
-  **António Martins Fagundes**, also written **Machado Fagundes** **[COMPILED, PUB-0004 p.312]** — died Santa Bárbara, Terceira, 17 April 1664. *Capitão de ordenanças*. Son of **Pedro Lourenço Machado** (P-0129) × **Maria Fernandes da Costa** (P-0130), family F-0065. Married **Catarina Machado de Faria** (P-0128), family F-0064. Father of **Mariana Fagundes** (P-0124).
+  **António Martins Fagundes**, also written **Machado Fagundes** **[COMPILED, PUB-0004 p.312]**, and called simply **Ant.º Machado** by the one register that names him **[PROVEN, PAR-0086]** — died Santa Bárbara, Terceira, 17 April 1664 **[COMPILED]**. *Capitão de ordenanças* **[COMPILED]**. Husband of **Catarina Machado de Faria** (P-0128) and father of **Mariana Fagundes** (P-0124), family F-0064 — both **[PROVEN, PAR-0086]**. Son of **Pedro Lourenço Machado** (P-0129) × **Maria Fernandes da Costa** (P-0130), family F-0065 **[COMPILED]**.
 
   - **Birth date and place:** unknown, not given by the compiler. **[INFERRED]** His parents married in 1598 and his daughter married in 1650, so he was most likely born between about 1600 and 1615.
   - **Marriage:** no date, no parish, no record **[OPEN]**.
   - **Nationality:** Portuguese (Azores, Crown territory)
-  - **Evidence standing:** everything above is **[COMPILED]** from a single secondary source. No original act naming him is securely legible in this repository — only the uncertain "[António?]" in PAR-0086.
+  - **Evidence standing:** **his fatherhood of Mariana and his marriage to Catarina are [PROVEN]** from PAR-0086, a contemporary parish act that names him. Everything else above — the fuller name forms, the captaincy, the 17 April 1664 death, his own parents — is **[COMPILED]** from a single secondary source, and the register neither confirms nor contradicts any of it. **No record of his own life is held**: no baptism, no marriage act of his own, no burial entry.
 
   **Position in the tree.** Along the modelled chain P-0127 → P-0124 → P-0092 → P-0057 → P-0056 → P-0054 → P-0017 → P-0008 → P-0004, António stands eight generations above Geraldo Paz Armond (P-0004) — his 6th-great-grandfather — and ten generations above the family's present living generation. The P-0124 → P-0092 step is **[COMPILED]** only and turns on the unresolved "two Gaspars" question; if P-0092 is the following generation, each degree moves back one.
 
@@ -71,7 +93,7 @@ profile: >-
   ## Family and social network
 
   - **Parents [COMPILED]:** Pedro Lourenço Machado (b. Santa Bárbara 2 February 1571, d. there 27 January 1655), the captain credited with a 79-man company at the Castelo de S. Filipe in 1642, and Maria Fernandes da Costa (also "de Toledo"), married at Santa Bárbara 14 June 1598.
-  - **Wife:** Catarina Machado de Faria (P-0128), whom Vol. IV sends to "LEMOS, § 3º, nº 5" — a section that has never been read **[OPEN]**.
+  - **Wife:** Catarina Machado de Faria (P-0128) — the marriage itself is **[PROVEN, PAR-0086]**, which calls her "sua m[ulhe]r C.ta Machada"; its date and place are unknown. Vol. IV sends her to "LEMOS, § 3º, nº 5", a section that has never been read **[OPEN]**.
   - **Children [COMPILED, PUB-0004 p.312]:** António Machado, *padre*; Manuel Machado, "que saiu da Terceira"; **Mariana Fagundes** (P-0124), married 26 September 1650 to Belchior da Ponte Cardoso; Margarida de Lemos Machado, married to **André de Azedias**, *alferes de ordenanças*, died at Conceição 15 June 1658 *com testamento*; Inês de Lemos Machado, married at Lajes 15 February 1669 to António Ferreira de Melo; Pedro Lourenço Machado, *alferes de ordenanças*, married at Lajes 17 November 1669; and Guilherme Vieira.
   - **Siblings [COMPILED]:** among the nine children of Pedro Lourenço Machado — including Antão Martins Fagundes, "o Giga"; Belchior Machado Fagundes, a Franciscan friar; André Machado Fagundes, a beneficed priest; Manuel Machado Fagundes; and several sisters married into Santa Bárbara families.
   - **The marriage network [INFERRED].** His daughters married into Conceição and Lajes, his son-in-law André de Azedias was himself an ensign, and Mariana married an ensign of São Sebastião. The household married *across* the island and *within* the officer layer — a consistent pattern rather than a coincidence.
@@ -82,12 +104,12 @@ profile: >-
 
   **A household that exported its children [COMPILED + INFERRED].** Seven of his children are named, and the compiler's one-line notes track them outward: to the priesthood, to other parishes by marriage, and — in Manuel's case — off the island entirely. Terceira had been settled for two centuries and was full; entailed estates (*morgadios*) passed intact to eldest sons under primogeniture, and non-entailed property fragmented **[CONTEXTUAL]**. The children of a captain with seven recorded heirs had to leave, marry out, or take orders. His generation shows the process a full fifty years before the Minas gold rush made Brazil the obvious destination.
 
-  **Surnames here are chosen, not inherited [PROVEN pattern + COMPILED].** He is "Martins Fagundes" or "Machado Fagundes"; two daughters are "de Lemos Machado", from their mother; his own mother's family supplies the Machado. The same fluidity is visible in the São Sebastião registers on his son-in-law's side. This is not sloppiness in the sources — it is how Azorean naming worked, and it is why searching these registers by surname alone produces false negatives.
+  **Surnames here are chosen, not inherited [PROVEN pattern + COMPILED].** He is "Martins Fagundes" or "Machado Fagundes" to the compiler and plain "Ant.º Machado" to the priest who wrote his daughter's marriage act **[PROVEN, PAR-0086]** — a fourth form, and the only contemporary one. Two daughters are "de Lemos Machado", from their mother; his own mother's family supplies the Machado. The same fluidity is visible in the São Sebastião registers on his son-in-law's side. This is not sloppiness in the sources — it is how Azorean naming worked, and it is why searching these registers by surname alone produces false negatives.
 
   ## Open questions
 
-  - **Nothing of his own is held as an image.** His baptism, his marriage and his 17 April 1664 burial at Santa Bárbara are all compiled only. No Santa Bárbara burial register covering 1664 has been identified in the retrieval drop — the accessible Santa Bárbara books are the *casamentos* C-1560-1606 and the *baptismos* B-1600-1610. Requesting the Santa Bárbara óbitos for 1664 from BPAR Angra is the decisive next action for him.
-  - **The 1650 marriage act could prove his fatherhood.** PAR-0086's filiation clause reads "[António?]" at 511×702 px. A higher-resolution scan from BPAR would move Mariana's parentage from **[COMPILED]** to **[PROVEN]** and confirm his own name in a contemporary hand.
+  - **No record of his own life is held.** His baptism, his own marriage and his 17 April 1664 burial at Santa Bárbara are compiled only. No Santa Bárbara burial register covering 1664 has been identified in the retrieval drop — the accessible Santa Bárbara books are the *casamentos* C-1560-1606 and the *baptismos* B-1600-1610. Requesting the Santa Bárbara óbitos for 1664 from BPAR Angra is now the decisive next action for him, and the only one.
+  - **His fatherhood is no longer an open question — closed 2026-09-24.** This entry previously asked for a BPAR rescan of PAR-0086 to secure the "[António?]" reading. The rescan is not needed: the clause is legible in the image already held and reads "Ant.º Machado". What the clause does *not* give is the single word before his name, very likely a style or militia rank — if it ever becomes readable it would be the one contemporary corroboration of his compiled captaincy, so it remains worth a rescan for that reason alone, at low priority.
   - **His wife's line is unread.** Vol. IV's cross-reference "LEMOS, § 3º, nº 5" was not located in the nine volumes covered by the 2026-09-23 full-corpus search.
   - **A bounded negative on the surname.** All 169 pages of Santa Bárbara *casamentos* C-1560-1606 were read and produced **no confirmed Fagundes entry**; the Santa Bárbara *baptismos* 1600–1610 produced none either (one possible "Bárbora F[agun?]andes" is explicitly uncertain between Fagundes and Fernandes). Since the compiler places his father's family in that parish from the 1590s, this most likely reflects damage, hand and indexing limits — it is **not** evidence that the family was absent.
   - **His birth date and his own marriage date** are unknown, so the c.1600–1615 birth window above is inference only.
@@ -95,7 +117,7 @@ profile: >-
   ## Sources held (this repository)
 
   - **PUB-0004** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IV, FAGUNDES § 6º, pp. 312–313: his name variants, his rank, his death date, his wife, his parents and his seven recorded children. *Secondary, compiled — the sole substantive source for him.*
-  - **PAR-0086** — his daughter Mariana's marriage, Santa Bárbara, 26 September 1650: the damaged filiation clause that appears to name him "[António?]". *Primary, partially legible.*
+  - **PAR-0086** — his daughter Mariana's marriage, Santa Bárbara, 26 September 1650: the filiation clause that names him "Ant.º Machado" and his wife "C.ta Machada". *Primary — the only contemporary record that names him at all.*
 
   ## Regional and migration context
 
@@ -117,7 +139,7 @@ profile_pt: >-
 
   - **[COMPILED]** O compilador também não consegue fixar-lhe o nome. O Vol. IV escreve "António Martins Fagundes (ou **Machado Fagundes**)" — o elemento Machado vindo do lado materno. Os filhos levam depois uma terceira combinação: duas filhas são registadas como "de Lemos Machado", vindo *da mãe delas*.
 
-  - **[PROVEN, parcial — o único traço primário dele]** O danificado assento de casamento de 1650 da filha Mariana (PAR-0086, Santa Bárbara) parece nomear o pai da noiva na cláusula de filiação: a leitura é "... Mariana Fagundes filha de **[António?]** ...". Está entre colchetes e não é segura na resolução entregue — mas significa que a sua paternidade está a uma digitalização legível de sair da camada compilada.
+  - **[PROVEN — o único traço primário dele, e chega]** O assento de casamento de 1650 da filha Mariana (PAR-0086, Santa Bárbara, imagem 0072) nomeia-o na cláusula de filiação: "…Mariana Fagunda filha do [uma palavra ilegível] **Ant.º Machado** e de sua m[ulhe]r **C.ta Machada**…". Lido com ampliação a 24 de setembro de 2026. Uma única linha num livro rasgado é toda a documentação contemporânea dele — mas é uma declaração directa, feita pelo padre que casou a filha, de que era pai dela e marido de Catarina. Todo o resto a seu respeito é resumo de genealogista.
 
   - **[COMPILED]** Faleceu em **Santa Bárbara a 17 de abril de 1664** — na sua freguesia, e não em São Sebastião, para onde a filha fora viver.
 
@@ -125,12 +147,12 @@ profile_pt: >-
 
   ## Identidade
 
-  **António Martins Fagundes**, também escrito **Machado Fagundes** **[COMPILED, PUB-0004 p.312]** — falecido em Santa Bárbara, Terceira, a 17 de abril de 1664. *Capitão de ordenanças*. Filho de **Pedro Lourenço Machado** (P-0129) × **Maria Fernandes da Costa** (P-0130), família F-0065. Casou com **Catarina Machado de Faria** (P-0128), família F-0064. Pai de **Mariana Fagundes** (P-0124).
+  **António Martins Fagundes**, também escrito **Machado Fagundes** **[COMPILED, PUB-0004 p.312]**, e chamado simplesmente **Ant.º Machado** pelo único livro que o nomeia **[PROVEN, PAR-0086]** — falecido em Santa Bárbara, Terceira, a 17 de abril de 1664 **[COMPILED]**. *Capitão de ordenanças* **[COMPILED]**. Marido de **Catarina Machado de Faria** (P-0128) e pai de **Mariana Fagundes** (P-0124), família F-0064 — ambos **[PROVEN, PAR-0086]**. Filho de **Pedro Lourenço Machado** (P-0129) × **Maria Fernandes da Costa** (P-0130), família F-0065 **[COMPILED]**.
 
   - **Data e local de nascimento:** desconhecidos, não indicados pelo compilador. **[INFERRED]** Os pais casaram em 1598 e a filha casou em 1650, pelo que terá nascido, muito provavelmente, entre cerca de 1600 e 1615.
   - **Casamento:** sem data, sem freguesia, sem registo **[OPEN]**.
   - **Nacionalidade:** portuguesa (Açores, território da Coroa)
-  - **Estatuto de evidência:** tudo o que está acima é **[COMPILED]** a partir de uma única fonte secundária. Nenhum assento original que o nomeie é seguramente legível neste repositório — apenas o incerto "[António?]" no PAR-0086.
+  - **Estatuto de evidência:** **a paternidade de Mariana e o casamento com Catarina são [PROVEN]** pelo PAR-0086, assento paroquial contemporâneo que o nomeia. Tudo o resto acima — as formas mais extensas do nome, a capitania, o óbito de 17 de abril de 1664, os seus próprios pais — é **[COMPILED]** a partir de uma única fonte secundária, e o livro paroquial nem confirma nem contradiz nada disso. **Nenhum registo da vida dele está disponível**: nem baptismo, nem assento do seu próprio casamento, nem óbito.
 
   **Posição na árvore.** Pela cadeia modelada P-0127 → P-0124 → P-0092 → P-0057 → P-0056 → P-0054 → P-0017 → P-0008 → P-0004, António está oito gerações acima de Geraldo Paz Armond (P-0004) — seu 6.º bisavô (*6th-great-grandfather*) — e dez gerações acima da atual geração viva da família. O passo P-0124 → P-0092 é apenas **[COMPILED]** e depende da questão não resolvida dos "dois Gaspares"; se P-0092 for a geração seguinte, cada grau recua um.
 
@@ -148,7 +170,7 @@ profile_pt: >-
   ## Família e rede social
 
   - **Pais [COMPILED]:** Pedro Lourenço Machado (n. Santa Bárbara 2 de fevereiro de 1571, f. ali a 27 de janeiro de 1655), o capitão a quem se credita uma companhia de 79 homens no Castelo de S. Filipe em 1642, e Maria Fernandes da Costa (também "de Toledo"), casados em Santa Bárbara a 14 de junho de 1598.
-  - **Mulher:** Catarina Machado de Faria (P-0128), que o Vol. IV remete para "LEMOS, § 3º, nº 5" — secção que nunca foi lida **[OPEN]**.
+  - **Mulher:** Catarina Machado de Faria (P-0128) — o casamento em si é **[PROVEN, PAR-0086]**, que lhe chama "sua m[ulhe]r C.ta Machada"; a data e o lugar são desconhecidos. O Vol. IV remete-a para "LEMOS, § 3º, nº 5", secção que nunca foi lida **[OPEN]**.
   - **Filhos [COMPILED, PUB-0004 p.312]:** António Machado, *padre*; Manuel Machado, "que saiu da Terceira"; **Mariana Fagundes** (P-0124), casada a 26 de setembro de 1650 com Belchior da Ponte Cardoso; Margarida de Lemos Machado, casada com **André de Azedias**, *alferes de ordenanças*, falecida na Conceição a 15 de junho de 1658 *com testamento*; Inês de Lemos Machado, casada nas Lajes a 15 de fevereiro de 1669 com António Ferreira de Melo; Pedro Lourenço Machado, *alferes de ordenanças*, casado nas Lajes a 17 de novembro de 1669; e Guilherme Vieira.
   - **Irmãos [COMPILED]:** entre os nove filhos de Pedro Lourenço Machado — incluindo Antão Martins Fagundes, "o Giga"; Belchior Machado Fagundes, frade franciscano; André Machado Fagundes, padre beneficiado; Manuel Machado Fagundes; e várias irmãs casadas em famílias de Santa Bárbara.
   - **A rede de casamentos [INFERRED].** As filhas casaram para a Conceição e para as Lajes, o genro André de Azedias era ele próprio alferes, e Mariana casou com um alferes de São Sebastião. A casa casava *através* da ilha e *dentro* da camada de oficiais — padrão consistente, não coincidência.
@@ -159,12 +181,12 @@ profile_pt: >-
 
   **Uma casa que exportava filhos [COMPILED + INFERRED].** Sete filhos estão nomeados, e as notas de uma linha do compilador seguem-nos para fora: para o sacerdócio, para outras freguesias pelo casamento e — no caso de Manuel — para fora da ilha. A Terceira estava povoada havia dois séculos e estava cheia; os bens vinculados (*morgadios*) passavam intactos aos primogénitos por primogenitura, e a propriedade não vinculada fragmentava-se **[CONTEXTUAL]**. Os filhos de um capitão com sete herdeiros registados tinham de partir, casar para fora ou tomar ordens. A geração dele mostra o processo cinquenta anos antes de o ouro das Minas tornar o Brasil o destino óbvio.
 
-  **Aqui os apelidos escolhem-se, não se herdam [padrão PROVEN + COMPILED].** Ele é "Martins Fagundes" ou "Machado Fagundes"; duas filhas são "de Lemos Machado", da mãe; a família da própria mãe dele fornece o Machado. A mesma fluidez é visível nos registos de São Sebastião, do lado do genro. Não é desleixo das fontes — é como funcionava a nomeação açoriana, e é a razão pela qual buscar nestes livros só pelo apelido produz falsos negativos.
+  **Aqui os apelidos escolhem-se, não se herdam [padrão PROVEN + COMPILED].** Para o compilador é "Martins Fagundes" ou "Machado Fagundes"; para o padre que escreveu o assento de casamento da filha é simplesmente "Ant.º Machado" **[PROVEN, PAR-0086]** — uma quarta forma, e a única contemporânea. Duas filhas são "de Lemos Machado", da mãe; a família da própria mãe dele fornece o Machado. A mesma fluidez é visível nos registos de São Sebastião, do lado do genro. Não é desleixo das fontes — é como funcionava a nomeação açoriana, e é a razão pela qual buscar nestes livros só pelo apelido produz falsos negativos.
 
   ## Questões em aberto
 
-  - **Nada de próprio está disponível em imagem.** O baptismo, o casamento e o óbito de 17 de abril de 1664 em Santa Bárbara são todos apenas compilados. Nenhum livro de óbitos de Santa Bárbara cobrindo 1664 foi identificado no lote de recolha — os livros acessíveis de Santa Bárbara são os *casamentos* C-1560-1606 e os *baptismos* B-1600-1610. Pedir ao BPAR de Angra os óbitos de Santa Bárbara de 1664 é a acção decisiva seguinte.
-  - **O assento de casamento de 1650 pode provar a paternidade.** A cláusula de filiação do PAR-0086 lê "[António?]" a 511×702 px. Uma digitalização em maior resolução do BPAR passaria a filiação de Mariana de **[COMPILED]** a **[PROVEN]** e confirmaria o nome dele em mão contemporânea.
+  - **Nenhum registo da vida dele está disponível.** O baptismo, o seu próprio casamento e o óbito de 17 de abril de 1664 em Santa Bárbara são apenas compilados. Nenhum livro de óbitos de Santa Bárbara cobrindo 1664 foi identificado no lote de recolha — os livros acessíveis de Santa Bárbara são os *casamentos* C-1560-1606 e os *baptismos* B-1600-1610. Pedir ao BPAR de Angra os óbitos de Santa Bárbara de 1664 é agora a acção decisiva seguinte, e a única.
+  - **A paternidade dele já não é questão em aberto — fechada a 2026-09-24.** Esta entrada pedia antes uma nova digitalização do PAR-0086 no BPAR para firmar a leitura "[António?]". A nova digitalização não é necessária: a cláusula está legível na imagem já disponível e lê "Ant.º Machado". O que a cláusula não dá é a palavra única antes do nome dele, muito provavelmente um tratamento ou uma patente — se algum dia se tornar legível, seria a única corroboração contemporânea da capitania compilada, e só por isso a nova digitalização continua a valer a pena, em prioridade baixa.
   - **A linha da mulher está por ler.** A remissão do Vol. IV, "LEMOS, § 3º, nº 5", não foi localizada nos nove volumes cobertos pela busca integral de 2026-09-23.
   - **Um negativo delimitado sobre o apelido.** As 169 páginas dos *casamentos* de Santa Bárbara C-1560-1606 foram lidas e não deram **nenhuma entrada Fagundes confirmada**; os *baptismos* de Santa Bárbara de 1600–1610 também não (uma possível "Bárbora F[agun?]andes" é explicitamente incerta entre Fagundes e Fernandes). Como o compilador coloca a família do pai nessa freguesia desde a década de 1590, isto reflecte muito provavelmente danos, letra e limites de indexação — **não** é prova de que a família estivesse ausente.
   - **A data de nascimento e a data do próprio casamento** são desconhecidas, pelo que a janela de nascimento c.1600–1615 acima é apenas inferência.
@@ -172,7 +194,7 @@ profile_pt: >-
   ## Fontes disponíveis (neste repositório)
 
   - **PUB-0004** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IV, FAGUNDES § 6º, pp. 312–313: variantes do nome, patente, data de óbito, mulher, pais e os sete filhos registados. *Secundária, compilada — fonte substantiva única para ele.*
-  - **PAR-0086** — o casamento da filha Mariana, Santa Bárbara, 26 de setembro de 1650: a cláusula de filiação danificada que parece nomeá-lo "[António?]". *Primária, parcialmente legível.*
+  - **PAR-0086** — o casamento da filha Mariana, Santa Bárbara, 26 de setembro de 1650: a cláusula de filiação que o nomeia "Ant.º Machado" e à mulher "C.ta Machada". *Primária — o único registo contemporâneo que o nomeia.*
 
   ## Contexto regional e migratório
 

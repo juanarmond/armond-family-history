@@ -1,6 +1,56 @@
 {
- "generated": "2026-09-24T14:32:28Z",
+ "generated": "2026-09-24T17:16:09Z",
  "updates": [
+  {
+   "date": "2026-09-24",
+   "kind": "person",
+   "title": "Belchior da Ponte Cardoso was a widower when he married in 1650 — the margin of the act names a first wife, Bárbara Gata, nobody in this archive knew about",
+   "title_pt": "Belchior da Ponte Cardoso era viúvo quando se casou em 1650 — a margem do assento nomeia uma primeira mulher, Bárbara Gata, que este arquivo desconhecia",
+   "links": [
+    "P-0123"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "kind": "milestone",
+   "title": "Mariana Fagundes's parents are proven — not from a new document, but from one held since September, read again under magnification",
+   "title_pt": "Os pais de Mariana Fagundes estão comprovados — não por um documento novo, mas por um já em mãos desde setembro, lido de novo sob ampliação",
+   "links": [
+    "P-0124",
+    "P-0127",
+    "P-0128"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "kind": "correction",
+   "title": "Correction: Belchior's father was a Ponte Cardoso, not a \"Valadão\" — that surname came from a printed genealogy and appears in no register we hold",
+   "title_pt": "Correção: o pai de Belchior era um Ponte Cardoso, não um \"Valadão\" — esse sobrenome veio de uma genealogia impressa e não consta de nenhum registro que temos",
+   "links": [
+    "P-0125",
+    "P-0126"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "kind": "milestone",
+   "title": "The burial records of Belchior's own parents are now held — the couple had rested on a printed genealogy alone, and the 1654 entry turns out to be written by their son, a priest",
+   "title_pt": "Os assentos de óbito dos pais de Belchior estão agora em mãos — o casal apoiava-se apenas numa genealogia impressa, e o assento de 1654 foi escrito por um filho deles, sacerdote",
+   "links": [
+    "P-0125",
+    "P-0126",
+    "P-0123"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "kind": "milestone",
+   "title": "Two 1831 population maps catalogued — and an exhaustive page-by-page search of the Juiz de Fora census found no Armond at all, which is itself a useful answer",
+   "title_pt": "Dois mapas de população de 1831 catalogados — e uma busca exaustiva, página a página, no censo de Juiz de Fora não encontrou nenhum Armond, o que já é uma resposta útil",
+   "links": [
+    "P-0016"
+   ]
+  },
   {
    "date": "2026-09-24",
    "kind": "milestone",
@@ -1501,6 +1551,46 @@
    "primary": "PRB-0003",
    "links": [
     "P-0017"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "1831 population map (Mapa de População) — Districto de Santo Antonio do Juiz de Fora, Termo de Barbacena (Minas Gerais): 26-page manuscript, 118 fogos, 586 livres, 833 captivos, 1,419 inhabitants, certified 18 February 1831 by José Bastos Pinto. Contains NO Armond in any spelling; yields two Toledo households (fogos 109, 110)",
+   "title_pt": "Mapa de População de 1831 — Districto de Santo Antonio do Juiz de Fora, Termo de Barbacena (Minas Gerais): manuscrito de 26 páginas, 118 fogos, 586 livres, 833 captivos, 1 419 habitantes, certificado a 18 de Fevereiro de 1831 por José Bastos Pinto. NÃO contém nenhum Armond em grafia alguma; revela dois fogos Toledo (nºs 109 e 110)",
+   "primary": "GOV-0012",
+   "links": [
+    "P-0016"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "1831 population map (Mapa de População) of Santa Rita do Meia Pataca, folio 16 — households 65–68, the head of no. 68 read as \"An.to Ferr.a A[…]ndes\", a white married lavrador of 23 with his wife H[e]ngelica Maria, 24 (surname UNRESOLVED at this resolution)",
+   "title_pt": "Mapa de População de Santa Rita do Meia Pataca de 1831, fls. 16 — fogos 65 a 68, com o chefe do fogo nº 68 lido como \"An.to Ferr.a A[…]ndes\", lavrador branco casado de 23 anos, e sua mulher H[e]ngelica Maria, 24 (sobrenome NÃO RESOLVIDO nesta resolução)",
+   "primary": "GOV-0013",
+   "links": [
+    "P-0016"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "São Sebastião death register — Manuel da Ponte Cardoso (\"M.el de Ponte Cardozo\"), 19 August 1652",
+   "title_pt": "Registo de óbitos de São Sebastião — Manuel da Ponte Cardoso (\"M.el de Ponte Cardozo\"), 19 de agosto de 1652",
+   "primary": "PAR-0097",
+   "links": [
+    "P-0125"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "São Sebastião death register — Maria da Costa Leonardes, 27 December 1654",
+   "title_pt": "Registo de óbitos de São Sebastião — Maria da Costa Leonardes, 27 de dezembro de 1654",
+   "primary": "PAR-0098",
+   "links": [
+    "P-0126"
    ]
   }
  ]

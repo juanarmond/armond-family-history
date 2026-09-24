@@ -8,12 +8,30 @@ place_text: São Sebastião, Terceira, Azores
 participants:
 - person_id: P-0126
   role: principal
-status: strong-evidence
+status: confirmed
 source_ids:
 - PUB-0005
+- PAR-0098
 notes:
 - text: >-
     Death of Maria da Costa Leonardes (P-0126) on 27 December 1654, S. Sebastião, Terceira.
-    Source: Mendes Forjaz Vol. IX (PUB-0005, p.259): "C. c. Maria da Costa Leonardes, f.
-    em S. Sebastião a 27.12.1654." Compiled — no primary death image held. She died about
-    two years after her husband Manuel da Ponte Valadão (E-0129, d.19.8.1652).
+    Mendes Forjaz Vol. IX (PUB-0005, p.259): "C. c. Maria da Costa Leonardes, f. em S.
+    Sebastião a 27.12.1654." The primary death image (PAR-0098,
+    TER-AH-SAOSEBASTIAO-O-1642-1696, CDN image 0018) confirms it: "faleceo maria da Costa
+    Leonardes minha mai, molher de M.el de Ponte Cardoso meu pai, aos vinte e sete de
+    dezembro de mil seissentos e sinquoenta e quatro annos com todos os sacramentos da
+    Sancta Madre Igr[ej]a, está sepultada nesta Igr[ej]a matriz da Villa de sam Sebastiam em
+    sepultura sua junto ao arco da capela mor." Upgraded from strong-evidence to confirmed
+    2026-09-24 on receipt of the primary image.
+- text: >-
+    The act is written in the first person by the officiating priest, who calls the deceased
+    "minha mai" and her husband "M.el de Ponte Cardoso meu pai". It therefore also settles
+    two other points: her full name "Maria da Costa Leonardes" is contemporary, not the
+    compiler's addition; and her husband's surname in a primary hand is Ponte Cardoso, not
+    the compiled "Valadão". She died two years and four months after her husband (E-0129,
+    d.19.8.1652).
+- text: >-
+    The act was written up and signed the following month — "me assinei em … que he de
+    Janeiro de seissentos e sincoenta e sinquo annos" (January 1655). The exact day of the
+    signing is not legible; the death date itself (27 December 1654) is fully legible and
+    is the date recorded here.

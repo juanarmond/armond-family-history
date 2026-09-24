@@ -1,0 +1,453 @@
+schema_version: 1
+id: GOV-0012
+title: >-
+  1831 population map (Mapa de População) — Districto de Santo Antonio do Juiz de
+  Fora, Termo de Barbacena (Minas Gerais): 26-page manuscript, 118 fogos, 586 livres,
+  833 captivos, 1,419 inhabitants, certified 18 February 1831 by José Bastos Pinto.
+  Contains NO Armond in any spelling; yields two Toledo households (fogos 109, 110)
+title_pt: >-
+  Mapa de População de 1831 — Districto de Santo Antonio do Juiz de Fora, Termo de
+  Barbacena (Minas Gerais): manuscrito de 26 páginas, 118 fogos, 586 livres, 833
+  captivos, 1 419 habitantes, certificado a 18 de Fevereiro de 1831 por José Bastos
+  Pinto. NÃO contém nenhum Armond em grafia alguma; revela dois fogos Toledo (nºs 109
+  e 110)
+record_type: Provincial population map (census), 1831 — complete 26-page district list
+record_category: census
+source_form: original
+information_quality: primary
+evidence_type: negative
+usage: context_only
+event_date:
+  kind: exact
+  value: "1831-02-18"
+  original_text: >-
+    "Districto de Santo Antonio de Juiz de Fora 18 de Fev.º de 1831" — the closing
+    certification at the foot of page 26, signed José Bastos Pinto. (An internal
+    heading in the retrieval drop's working transcription gives 19 February; the
+    certification itself, read directly at 200 dpi on 2026-09-24, reads 18.)
+event_place_text: >-
+  Districto de Santo Antonio do Juiz de Fora, Termo da Nobre e muito Leal Villa de
+  Barbacena, Minas Gerais, Brazil
+repository:
+  name: >-
+    Arquivo Público Mineiro (APM) — manuscript population map of the Juiz de Fora
+    district, 1831
+  archive_or_registry: Arquivo Público Mineiro (APM), Belo Horizonte, Minas Gerais
+  collection: Mapas de População, Minas Gerais, 1831
+  catalogue_reference: >-
+    APM, Cx 07, Doc 04 — "Relação dos Habitantes do Districto de Santo Antonio do
+    Juiz de Fora, Termo da Nobre e muito Leal Villa de Barbacenna", 26 pages.
+    Photographed from the APM image viewer by the genealogist Nilza Cantoni in March
+    2018 and supplied by her to the owner on 2026-09-24.
+  repository_path: >-
+    evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p01.pdf
+access_date: "2026-09-24"
+language: pt-BR
+reading_reliability: complete
+transcription: >-
+  [Extracto transcrito do Mapa de População de Santo Antonio do Juiz de Fora, 1831
+  (APM, Cx 07, Doc 04), 26 páginas. As três passagens abaixo — a certificação final, o
+  fogo 109 e o fogo 110 — foram lidas directamente das imagens a 200 dpi a 24 de
+  Setembro de 2026. Este campo NÃO é a transcrição integral dos 118 fogos: ver a nota
+  "Scope of this transcription" abaixo. Colunas do original: Habitantes · Qualidade ·
+  Condição · Idade · Estado · Ocupações. A página 01 é folha única (rosto + fogo 1);
+  cada uma das páginas 02–26 é um SPREAD DE DUAS FOLHAS fotografadas lado a lado, cada
+  uma com o seu conjunto completo de colunas, e a numeração dos fogos corre através das
+  duas.]
+
+
+  [CERTIFICAÇÃO FINAL — pé da página 26, leitura directa:] "Districto de Santo Antonio
+  de Juiz de Fora 18 de Fev.º de 1831 / José Bastos Pinto — Fogos — 118 / Habit.es
+  ——— 1:419 / Livres ————— 586 ⎫ 1:419 / Captivos ———— 833 ⎭".
+
+  [Nota de leitura numérica:] o documento escreve o total como "1:419", usando os dois
+  pontos como SEPARADOR DE MILHARES (convenção brasileira oitocentista, a mesma dos
+  valores em réis). Significa 1 419, e a leitura valida-se por si: 586 + 833 = 1 419.
+  Leituras anteriores de 616 livres, de 419 habitantes e de um total de 1 449 são
+  ERRADAS e não devem ser repetidas. Assim, 833 dos 1 419 habitantes do distrito — 58,7
+  % — eram pessoas escravizadas.
+
+
+  [FOGO 109 — página 24, folha direita; leitura directa:] Jose Antonio de Tolledo ·
+  Branco · [livre] · 54 · Cazado · Rosseiro; Jenovefa [Genovefa] Maria · dito · 36 ·
+  Cazada; Narcizo genro [genro = son-in-law] · dito · 30 · Cazado · Rosseiro; Maria de
+  Tolledo · dito · 20 · Cazada; Joaquina de Oliveira · dito · 7; Antonio de Oliveira ·
+  dito · 5; Francisca de Olivi.ª [Oliveira] · dito · 3. A coluna "Condição" está em
+  branco em todas as linhas (pessoas livres) e o fogo NÃO regista nenhuma pessoa
+  escravizada.
+
+
+  [FOGO 110 — página 25, folha esquerda; leitura directa:] Joaquim Coelho · Pardo ·
+  [livre] · 40 · Cazado · Roceiro; Maria Jacinta · dito · 36 · Cazada; Manoel Coelho ·
+  dito · 15 · Solteiro; [linha em branco;] Manoel de Tolledo · dito · 30 · Cazado ·
+  Roceiro; Gertrudes Maria · dito · 20 · Cazada. Manoel de Tolledo NÃO é o chefe do
+  fogo 110: a coluna do número do fogo está EM BRANCO nas suas duas linhas (o número
+  110 está lançado contra Joaquim Coelho, e o número seguinte, 111, contra Venancio de
+  Lima Rocha), pelo que ele e a mulher são agregados alojados no fogo de Joaquim
+  Coelho, cada um com a sua qualidade, idade e estado, e ele com ocupação própria.
+
+  [Grafia:] o escrivão escreve "Tolledo", com duplo l, nas três ocorrências (fogos 109
+  e 110); a esta resolução não se pode excluir de todo um "Toledo" de l simples
+  [uncertain].
+
+
+  [ÚLTIMO FOGO — página 26, folha direita:] José Albino · Pardo · Livre · 24 · Cazado ·
+  Rosseiro; Francisca Antonia · dito · 24 · Cazada; Domingos · dito · 2.
+
+
+  [RESULTADO NEGATIVO — Armond:] varrimento das 26 páginas, folha esquerda e folha
+  direita separadamente, procurando POR SOM e não por grafia: ARMOND · ARMONDE ·
+  ARMENDE · ARMENDES · ERMONDE · ORMONDE · ARMANDE · ALMENDES · DRUMMOND · FERREIRA
+  ARMENDES. NENHUMA ocorrência em nenhuma das 52 folhas. Nenhuma folha ficou por ler.
+  O apelido FERREIRA ocorre isolado ou noutros compostos, nunca ligado a um elemento
+  Armond. Nenhum ALFERES, CAPITÃO, CORONEL, TENENTE ou SARGENTO em todo o distrito.
+
+  [Apelidos-alvo, com as ressalvas exactas:] SOUTO MAIOR — ausente. PONTE
+  CARDOSO/CARDOZO — nenhum composto com "Ponte"; há dois "Cardozo" isolados, José Paulo
+  Cardozo (fogo 99) e Francisco Cardozo (criança de 6 anos, fogo 115). FAGUNDES —
+  nenhuma ocorrência lida, com UMA célula por resolver: o chefe do fogo 33 (pág. 12,
+  folha direita) lê-se "José F[…]des da Costa" (Branco, 32, cazado, roceiro; mulher
+  Josefa Maria, 22; filha Maria Josefa, 3), compatível tanto com Fernandes como com
+  Fagundes, e desvanecido para além da leitura. Fica registado como POR RESOLVER em vez
+  de contado para um dos lados; em caso algum é um Armond.
+
+  [Falsos positivos a não voltar a "descobrir":] (1) o nome da fogo 3 lido pelo
+  varrimento inicial como "Rosa Joanna do Valle ARMADA" foi relido como "do Valle
+  AMADA" (sem r); as duas leituras divergem nessa letra e nenhuma delas é variante de
+  Armond — "armada"/"amada" são palavras portuguesas correntes e o apelido ali é do
+  Valle. (2) Um varrimento inicial, feito sobre as digitalizações ainda rodadas, leu o
+  fogo 77 (pág. 18) como "d'Armanda"; corrigida a rotação, lê-se sem ambiguidade
+  "Silverio da Silva BRANDAÕ · Pardo · 38 · Cazado · Jornaleiro" (com Anna Antonia,
+  crioula, 26, e Francisco Silverio, crioulo, 8) — capital B cursivo seguido de
+  "randaõ", sem apóstrofo e sem A inicial. A rotação transformou Brandão num falso
+  Armond — e pode igualmente transformar um Armond verdadeiro numa omissão.
+
+  [Duas armadilhas de leitura da palavra "Capitão":] (1) "Captivo" repete-se por toda a
+  coluna Condição, muitas vezes abreviado, e à primeira vista assemelha-se a "Capitão";
+  é a condição de cativo, não uma patente. (2) Na pág. 25, folha direita, o rol do fogo
+  113 traz um homem escravizado chamado "Jose Capitão" (Africano, cativo, 25, solteiro)
+  — alcunha na coluna dos Habitantes, não um posto militar. A assinatura de fecho da
+  pág. 26, "José Bastos Pinto", não traz patente alguma.
+abstract: >-
+  The complete 26-page manuscript population map of the district of Santo Antonio do
+  Juiz de Fora, then within the Termo de Barbacena — the same jurisdiction as the
+  Ferreira Armond of Barbacena — certified on 18 February 1831 by the district
+  official José Bastos Pinto, himself fogo 1. It enumerates 118 households: 586 free
+  people and 833 enslaved people, 1,419 inhabitants in all, so 58.7 per cent of the
+  district was enslaved. Its value to this archive is chiefly negative: no Armond in
+  any spelling appears anywhere in it, nor any Souto Maior, nor any Ponte Cardoso
+  compound, nor any military title, nor — with one illegible cell at fogo 33 left
+  expressly open — any Fagundes. It also yields two Toledo households — José
+  Antonio de Toledo (fogo 109, white, 54, married, roceiro) and Manoel de Toledo (fogo
+  110, pardo, 30, married, roceiro, lodging in Joaquim Coelho's household) — recorded
+  here as leads only.
+abstract_pt: >-
+  O mapa de população manuscrito completo, em 26 páginas, do districto de Santo
+  Antonio do Juiz de Fora, então dentro do Termo de Barbacena — a mesma jurisdição dos
+  Ferreira Armond de Barbacena —, certificado a 18 de Fevereiro de 1831 pelo oficial do
+  distrito José Bastos Pinto, ele próprio o fogo 1. Arrola 118 fogos: 586 pessoas livres
+  e 833 pessoas escravizadas, 1 419 habitantes ao todo, ou seja 58,7 % do distrito em
+  cativeiro. O seu valor para este arquivo é sobretudo negativo: nenhum Armond, em
+  grafia alguma, aparece em parte alguma do documento, nem qualquer Souto Maior, nem
+  qualquer composto com Ponte Cardoso, nem qualquer título militar, nem — deixando
+  expressamente em aberto uma célula ilegível no fogo 33 — qualquer Fagundes. Revela
+  também dois
+  fogos Toledo — José Antonio de Toledo (fogo 109, branco, 54, casado, roceiro) e Manoel
+  de Toledo (fogo 110, pardo, 30, casado, roceiro, alojado no fogo de Joaquim Coelho) —
+  aqui registados apenas como pistas.
+reliability:
+  assessment: >-
+    A contemporary official enumeration, held as photographs of the APM manuscript
+    itself, so both the form and the information are primary. The three passages
+    transcribed above — the certification, fogo 109 and fogo 110 — were read directly
+    from the page images and are reliable. The document is filed as context_only
+    because it names no person identified with this repository's line: its
+    genealogical work is to exclude a district and to raise a lead.
+  informant: >-
+    José Bastos Pinto, the district official who compiled, certified and signed the
+    list on 18 February 1831 and who is himself enumerated as fogo 1. Supplied to the
+    owner by the genealogist Nilza Cantoni on 2026-09-24, from her own March 2018
+    capture of the APM image viewer.
+  limitations: >-
+    (1) The negative result is bounded to this document. It shows only that no Armond
+    variant was written on these 26 pages of this one district list for this one year.
+    It says nothing about the neighbouring districts, about the Serra de Ibitipoca,
+    about Santa Rita do Meia Pataca, or about any register the family may appear in
+    elsewhere or later. Do not restate it as "the family was not in the region". (2)
+    The PDFs held are the owner's rotation-corrected set, not the as-received files;
+    25 of the 26 as-received pages had rotation baked into the image content while
+    reporting rot=0, which is invisible to metadata and defeated an automated
+    orientation detector (ruled tables break projection-profile methods). Rotation is
+    not cosmetic here: uncorrected, it produced a false Armond hit at fogo 77. Do not
+    re-rotate these files. (3) Each of pages 02–26 is a two-sheet spread; a sweep that
+    treats a page as one sheet undercounts by roughly half. (4) Resolution ceiling:
+    each PDF embeds a single 1233×1754 px image at 150 ppi, so each of the two sheets
+    on a spread is only about 870 px wide, and rendering at 400 or 800 dpi upsamples
+    without adding detail. That ceiling, not effort, is why two readings stay open —
+    whether the enumerator wrote "Tolledo" or "Toledo", and whether the head of fogo 33
+    is a Fernandes or a Fagundes. (5) A handful of other individual surnames and
+    occupations across the corpus remain uncertain reads; none of them is an Armond
+    candidate.
+digital_file:
+  path: >-
+    evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p01.pdf
+  sha256: c0142c65da9c7b4d7314c95c6de5257166704f5e1f3d00f46f1bcf1dc57cb60e
+additional_pages:
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p02.pdf
+    sha256: bf287e77c9ea14a1ac8dac14258a3c58a9070a9a39a175e510a8737b7543ecf6
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p03.pdf
+    sha256: a29cf21a11f8be3e048e3a20201b909f73e49065cde712d5602d36928e5fd004
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p04.pdf
+    sha256: 67dc357f3625b25a47fe5b939e5675d8926fd648ca4e6768bcdee3cfd30489a4
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p05.pdf
+    sha256: 210de612f49ef457fef2c7ef340aeaf84f3f8fb694484a87e09a192ca0cd57b5
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p06.pdf
+    sha256: 26c833bf350a5971cacf7fff594f8e076faaf36e6b7fd8494816c40ea9b95a32
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p07.pdf
+    sha256: d001c67b6173ad9b627bdea38b3ddc164445cf623777785364e9c57248c284d0
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p08.pdf
+    sha256: ed5b9ea40aec91a29649f68f040faca9c817a0b6ba5a9911ccecc8f4fdfe2b62
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p09.pdf
+    sha256: 496910dca477305aa8b501aaffe4641322611c389d08b5ddce4d86c2a9d6a761
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p10.pdf
+    sha256: 380815e205328a30786275a29122897df8e0b0ecb899f6857e6a98ac42ec0f6b
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p11.pdf
+    sha256: 80b76eccdad794a01205b0cd81bca66416ad2b29674b18034d6df42646fc1f85
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p12.pdf
+    sha256: ee67a8c12d7b909a1f29b8c991e88bd901d168fa133fb88aafb49eab417714db
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p13.pdf
+    sha256: 48e9359f1be13777ed19a30e12e69aedab4102d6c4d2da079fea6f5fabe325c3
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p14.pdf
+    sha256: 0f9a18c59742ef9b409c6b45a12bf264455bfeaab45d1136023d542b25a8b2a4
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p15.pdf
+    sha256: ba5b0200e4a196a3174fac3917ebd2f9c6e1555f2d86bfe8e01414e28e72ae4a
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p16.pdf
+    sha256: 032397a52c786d174d64313af5ac87bf6feadd4d96828668dcbfec70d56a5669
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p17.pdf
+    sha256: 1f85be097d7075cad75aa2aec8f9bd20f4650d97c9ffc1d743a272fdc7d451c8
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p18.pdf
+    sha256: a102f97ff8dec4103066d5e3d9c3eabc59e6c004601d807a968776e333380638
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p19.pdf
+    sha256: a89764761465274a42c139d0678485ca35e28fecb3dff71d42f756811d5bb469
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p20.pdf
+    sha256: 7ffc989cead444d52094e9755c9a2460cabc8847d9b0522ab76d115ce425022f
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p21.pdf
+    sha256: 193bef20897d70e53125a8790ae6702f960fad649db626d6b68a6b938d071339
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p22.pdf
+    sha256: a4a5ce013e55d61569c191229de94bfa022a37f55d72d634aaacb3831db7d7a5
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p23.pdf
+    sha256: 1b2715bbf7847ff1e573743e513681a4b7ca8c478de3f04a9c89bc448b40254f
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p24.pdf
+    sha256: b6966b6b874e2daa25538a488a0b1d2e9f4173b36723dc79ad40f7f61de7634c
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p25.pdf
+    sha256: 3c299769599f24ca5cfaff602c8b6aac31ef97c3cf0526b1b03c148d753232b2
+  - path: evidence/government/GOV-0012-mapa-populacao-juiz-de-fora-1831-apm-cx07-doc04-p26.pdf
+    sha256: 611d7bd8d032fdf7abf7fb14594819866ca150519347e1f9e0e4e29402008637
+linked_people:
+  - P-0016
+linked_families: []
+linked_events: []
+linked_places: []
+private: false
+notes:
+  - text: >-
+      BOUNDED NEGATIVE, worded to the pages actually searched. All 26 pages of this
+      list, left sheet and right sheet separately, were swept for Armond by sound
+      rather than by spelling (ARMOND, ARMONDE, ARMENDE, ARMENDES, ERMONDE, ORMONDE,
+      ARMANDE, ALMENDES, DRUMMOND, FERREIRA ARMENDES) and no occurrence was found;
+      neither was any Souto Maior, nor any Ponte Cardoso compound, nor any Alferes,
+      Capitão, Coronel, Tenente or Sargento in the district. TWO EXACT QUALIFICATIONS,
+      so that the negative is not overstated: (a) "no Fagundes" holds for every legible
+      cell, but ONE is not legible — the head of fogo 33 (page 12, right sheet) reads
+      "José F[…]des da Costa", equally consistent with Fernandes or Fagundes and faded
+      past reading at this scan's resolution; it is left unresolved rather than counted
+      either way, and is in no case an Armond; (b) "no Ponte Cardoso" means no compound
+      with "Ponte": two bare Cardozos do occur, José Paulo Cardozo (fogo 99) and a
+      six-year-old Francisco Cardozo (fogo 115). VERIFICATION: the sweep was re-run
+      independently inside this repository on 2026-09-24, over all 26 pages and all 52
+      sheets, before this bounded negative was written down; no sheet went unread, and
+      the result agreed with the retrieval agent's. What this proves is that no such
+      name was written on these 26 pages of the Juiz de Fora district list for 1831,
+      subject to qualification (a). It does NOT prove
+      absence from any other district, from any other year, or from any unindexed
+      register. In particular it says nothing about the Serra de Ibitipoca, about Santa
+      Rita do Meia Pataca, or about Barbacena's own parish books, which remain the
+      live targets. Do not re-run this search on this document.
+    text_pt: >-
+      NEGATIVO DELIMITADO, formulado às páginas efectivamente pesquisadas. As 26 páginas
+      desta relação, folha esquerda e folha direita separadamente, foram varridas em
+      busca de Armond por som e não por grafia (ARMOND, ARMONDE, ARMENDE, ARMENDES,
+      ERMONDE, ORMONDE, ARMANDE, ALMENDES, DRUMMOND, FERREIRA ARMENDES) sem qualquer
+      ocorrência; também não há Souto Maior, nem qualquer composto com Ponte Cardoso,
+      nem Alferes, Capitão, Coronel, Tenente ou Sargento no distrito. DUAS RESSALVAS
+      EXACTAS, para que o negativo não seja exagerado: (a) "sem Fagundes" vale para
+      todas as células legíveis, mas UMA não é legível — o chefe do fogo 33 (pág. 12,
+      folha direita) lê-se "José F[…]des da Costa", igualmente compatível com Fernandes
+      ou Fagundes e desvanecido para além da leitura nesta digitalização; fica por
+      resolver em vez de contado para um dos lados, e em caso algum é um Armond; (b)
+      "sem Ponte Cardoso" significa sem composto com "Ponte": há dois Cardozo isolados,
+      José Paulo Cardozo (fogo 99) e um Francisco Cardozo de seis anos (fogo 115).
+      VERIFICAÇÃO: o varrimento foi repetido de forma independente dentro deste
+      repositório a 2026-09-24, sobre as 26 páginas e as 52 folhas, antes de este
+      negativo delimitado ser escrito; nenhuma folha ficou por ler e o resultado
+      coincidiu com o do agente de recolha. O que isto prova é que nenhum desses nomes
+      foi escrito nestas 26 páginas da relação do districto do Juiz de Fora de 1831,
+      com a ressalva (a). NÃO
+      prova ausência de qualquer outro distrito, de qualquer outro ano, ou de qualquer
+      registo não indexado. Em particular, nada diz sobre a Serra de Ibitipoca, sobre
+      Santa Rita do Meia Pataca, ou sobre os livros paroquiais da própria Barbacena, que
+      continuam a ser os alvos vivos. Não repetir esta busca neste documento.
+  - text: >-
+      [LEAD — NOT AN ANCESTOR] The two Toledo households. Toledo reaches this line
+      through Eliza Balbina de Toledo (P-0017), wife of Simplício José Ferreira Armond
+      (P-0016), so a Toledo in the right termo in 1831 is worth recording. José Antonio
+      de Toledo (fogo 109, white, 54, so b. ~1777, married, roceiro) is NOT the father
+      of José Cesário de Toledo Lima: that filiation is documented as Ladisláo Egídio
+      Ferreira de Toledo × Matilde Maria de Jesus (m. 1810 São João del Rei; José
+      Cesário bapt. 1813). The live and untested possibility is that José Antonio was
+      Ladisláo's BROTHER, which would make him Eliza Balbina's great-uncle —
+      chronologically viable and nothing more. Note also that these Toledos are of
+      modest means (roceiros, no enslaved people in fogo 109, and the fogo 110 Manoel
+      lodging inside another man's household), a different profile from the propertied
+      Toledos of the 1867 and 1879 partilhas. Same surname in the right termo is not
+      the same family. Test it through José Antonio's own baptism or marriage naming
+      his parents; do not model either man as a person until then.
+    text_pt: >-
+      [PISTA — NÃO É ANTEPASSADO] Os dois fogos Toledo. Os Toledo chegam a esta linha
+      através de Eliza Balbina de Toledo (P-0017), mulher de Simplício José Ferreira
+      Armond (P-0016), pelo que um Toledo no termo certo em 1831 merece registo. José
+      Antonio de Toledo (fogo 109, branco, 54, logo n. ~1777, casado, roceiro) NÃO é o
+      pai de José Cesário de Toledo Lima: essa filiação está documentada como Ladisláo
+      Egídio Ferreira de Toledo × Matilde Maria de Jesus (cas. 1810, São João del Rei;
+      José Cesário bapt. 1813). A possibilidade viva e por testar é que José Antonio
+      fosse IRMÃO de Ladisláo, o que faria dele tio-avô de Eliza Balbina —
+      cronologicamente viável e nada mais. Note-se ainda que estes Toledo são de meios
+      modestos (roceiros, sem pessoas escravizadas no fogo 109, e o Manoel do fogo 110
+      alojado no fogo de outro homem), perfil diferente do dos Toledo proprietários das
+      partilhas de 1867 e 1879. O mesmo apelido no termo certo não é a mesma família.
+      Testar pelo baptismo ou casamento do próprio José Antonio, que nomeie os seus pais;
+      até lá, não modelar nenhum dos dois como pessoa.
+  - text: >-
+      CORRECTED TOTALS — supersedes every earlier figure. 118 fogos · 586 livres · 833
+      captivos · 1,419 habitantes, certified 18 February 1831. The original writes the
+      total "1:419", using the colon as a thousands separator in the nineteenth-century
+      Brazilian convention also used for réis amounts (3:885$000). Two earlier readings
+      of this same certification were wrong — one took "1:419" for the number of free
+      people (419), the other assumed a total of 1,449 and derived 616 free. Neither is
+      a palaeographic error; both are errors of numeric convention. The correct reading
+      validates itself: 586 + 833 = 1,419. Watch for this notation in any Brazilian
+      document of the period.
+    text_pt: >-
+      TOTAIS CORRIGIDOS — substituem todos os números anteriores. 118 fogos · 586 livres
+      · 833 captivos · 1 419 habitantes, certificados a 18 de Fevereiro de 1831. O
+      original escreve o total "1:419", usando os dois pontos como separador de milhares
+      na convenção brasileira oitocentista que também servia para os valores em réis
+      (3:885$000). Duas leituras anteriores desta mesma certificação estavam erradas —
+      uma tomou "1:419" pelo número de livres (419), a outra presumiu um total de 1 449 e
+      derivou 616 livres. Nenhum dos erros é de paleografia; ambos são de convenção
+      numérica. A leitura correcta valida-se por si: 586 + 833 = 1 419. Atenção a esta
+      notação em qualquer documento brasileiro do período.
+  - text: >-
+      Two false Armond positives, recorded so that nobody re-finds them. (a) The fogo 3
+      name that an initial sweep read as "Rosa Joanna do Valle ARMADA" was read on
+      re-examination as "do Valle AMADA", without the r. The two readings differ on that
+      one letter and neither is an Armond variant: "armada" and "amada" are ordinary
+      Portuguese words and the surname there is do Valle. (b) The same initial sweep,
+      made over the still-rotated scans, read fogo 77 (page 18) as "d'Armanda"; with the
+      rotation corrected it reads unambiguously "Silverio da Silva BRANDAÕ, Pardo, 38,
+      Cazado, Jornaleiro", with Anna Antonia, crioula, 26, and Francisco Silverio,
+      crioulo, 8 — a cursive capital B followed by "randaõ", with no apostrophe and no
+      leading A. This was re-confirmed at magnification on 2026-09-24. Rotation turned
+      Brandão into a false Armond and could as easily have turned a real Armond into a
+      miss, which is why the uncorrected sweep was discarded.
+    text_pt: >-
+      Dois falsos positivos de Armond, registados para que ninguém os volte a
+      "descobrir". (a) O nome do fogo 3 que um varrimento inicial leu como "Rosa Joanna
+      do Valle ARMADA" foi relido como "do Valle AMADA", sem o r. As duas leituras
+      divergem nessa única letra e nenhuma é variante de Armond: "armada" e "amada" são
+      palavras portuguesas correntes e o apelido ali é do Valle. (b) O mesmo varrimento
+      inicial, feito sobre as digitalizações ainda rodadas, leu o fogo 77 (pág. 18) como
+      "d'Armanda"; corrigida a rotação, lê-se sem ambiguidade "Silverio da Silva BRANDAÕ,
+      Pardo, 38, Cazado, Jornaleiro", com Anna Antonia, crioula, 26, e Francisco
+      Silverio, crioulo, 8 — um B maiúsculo cursivo seguido de "randaõ", sem apóstrofo e
+      sem A inicial. Releitura confirmada com ampliação a 2026-09-24. A rotação
+      transformou Brandão num falso Armond e poderia com a mesma facilidade ter
+      transformado um Armond verdadeiro numa omissão, razão pela qual o varrimento não
+      corrigido foi descartado.
+  - text: >-
+      Scope of this transcription, stated so that nobody mistakes it for the whole. The
+      `transcription` field holds an extract: the closing certification, fogos 109 and
+      110, the last fogo, and the negative result — the passages this archive relies on,
+      each read directly from the page image. The remaining 115 households, and the 833
+      enslaved people the list names, are NOT transcribed here; all 26 pages are
+      catalogued and held, so the full text is available in the images themselves. A
+      1,827-line fogo-by-fogo working transcription of the whole corpus was produced by
+      the external retrieval agent and lives outside this repository; it is unverified
+      derivative work and was deliberately not folded in as though it were a read of the
+      record. Anyone needing a specific household should read that household's page.
+    text_pt: >-
+      Âmbito desta transcrição, declarado para que ninguém a tome pelo todo. O campo
+      `transcription` contém um extracto: a certificação final, os fogos 109 e 110, o
+      último fogo e o resultado negativo — as passagens de que este arquivo depende, cada
+      uma lida directamente da imagem da página. Os restantes 115 fogos, e as 833 pessoas
+      escravizadas que a relação nomeia, NÃO estão aqui transcritos; as 26 páginas estão
+      catalogadas e guardadas, pelo que o texto integral está disponível nas próprias
+      imagens. Uma transcrição de trabalho, fogo a fogo, com 1 827 linhas, foi produzida
+      pelo agente externo de recolha e vive fora deste repositório; é trabalho derivado
+      não verificado e foi deliberadamente não incorporado como se fosse uma leitura do
+      documento. Quem precisar de um fogo concreto deve ler a página desse fogo.
+  - text: >-
+      Handling note, technical. The 26 PDFs held here are the owner's
+      ROTATION-CORRECTED set and render landscape; do NOT rotate them again. The
+      as-received originals had the rotation baked into the image content while
+      pdfinfo reported rot=0 on every page, so there was no metadata signal and the
+      fault could only be seen by eye; an automated projection-profile orientation
+      detector was tried and failed, because the long horizontal rules of this table
+      swamp the text-line periodicity the method depends on. If another APM census
+      turns up in this state, correct it by eye. The as-received files remain only in
+      the retrieval drop, which is gitignored and overwritten on each sync.
+    text_pt: >-
+      Nota técnica de manuseamento. Os 26 PDFs aqui guardados são o conjunto CORRIGIDO
+      DE ROTAÇÃO pelo proprietário e apresentam-se em paisagem; NÃO os voltar a rodar. Os
+      originais tal como recebidos tinham a rotação incorporada no próprio conteúdo da
+      imagem, enquanto o pdfinfo indicava rot=0 em todas as páginas, pelo que não havia
+      sinal nos metadados e a falha só se detectava a olho; tentou-se um detector
+      automático de orientação por perfil de projecção, que falhou, porque as longas
+      pautas horizontais desta tabela abafam a periodicidade das linhas de texto de que o
+      método depende. Se outro censo do APM surgir neste estado, corrigi-lo a olho. Os
+      ficheiros tal como recebidos permanecem apenas na entrega de recolha, que está
+      gitignored e é sobrescrita a cada sincronização.
+  - text: >-
+      The enslaved population is part of this record and is not to be omitted. The list
+      enumerates 833 enslaved people by given name, with the enumerator's terms for
+      colour and condition (Africano, Crioulo, Cabra, Pardo; Captivo/Captiva), against
+      586 free inhabitants — 58.7 per cent of the district. The largest holding is fogo
+      102 (Antonio Dias Portes, a coffee estate, 80+ enslaved people). Any count,
+      summary or transcription drawn from this source must include them.
+    text_pt: >-
+      A população escravizada faz parte deste documento e não deve ser omitida. A relação
+      arrola 833 pessoas escravizadas pelo nome próprio, com os termos que o recenseador
+      usou para cor e condição (Africano, Crioulo, Cabra, Pardo; Captivo/Captiva), contra
+      586 habitantes livres — 58,7 % do distrito. A maior posse é a do fogo 102 (Antonio
+      Dias Portes, propriedade cafeeira, mais de 80 pessoas escravizadas). Qualquer
+      contagem, resumo ou transcrição feita a partir desta fonte tem de as incluir.
+  - text: >-
+      Why the district matters at all, and what the negative is worth. In 1831 Juiz de
+      Fora fell within the Termo de Barbacena, the Ferreira Armond jurisdiction, which
+      is why the list was searched. Its social profile — smallholding roceiros and
+      jornaleiros, overwhelmingly pardo and crioulo, with a single large coffee estate
+      and not one military title — is markedly unlike the titled, propertied Ferreira
+      Armond of Barbacena. That is context, not argument: the absence of the name is the
+      finding, and the demographic contrast merely makes it unsurprising. Nilza
+      Cantoni's separate statement that the Ferreira Armond lived in the SERRA DE
+      IBITIPOCA is a lead this negative leaves standing.
+    text_pt: >-
+      Por que importa o distrito, e quanto vale o negativo. Em 1831 o Juiz de Fora
+      estava dentro do Termo de Barbacena, a jurisdição dos Ferreira Armond, razão pela
+      qual a relação foi pesquisada. O seu perfil social — roceiros e jornaleiros de
+      pequena posse, esmagadoramente pardos e crioulos, com uma única grande propriedade
+      cafeeira e nenhum título militar — é bastante diferente do dos Ferreira Armond de
+      Barbacena, titulados e proprietários. Isso é contexto, não argumento: o achado é a
+      ausência do nome, e o contraste demográfico apenas a torna pouco surpreendente. A
+      afirmação separada de Nilza Cantoni de que os Ferreira Armond viveram na SERRA DE
+      IBITIPOCA é uma pista que este negativo deixa de pé.

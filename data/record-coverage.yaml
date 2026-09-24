@@ -597,9 +597,16 @@ people:
   - record_type: birth
     status: unsearched
     source_ids: []
-    last_reviewed: "2026-08-14"
+    last_reviewed: "2026-09-24"
     next_action: >-
-      First verify the identity and fuller name through Aristão's birth,
+      HIGHEST-VALUE ACTION NOW (2026-09-24): ask Nilza Cantoni for a
+      higher-resolution crop of entry no. 68 of the 1831 Santa Rita do Meia Pataca
+      population map, fls. 16 (held as GOV-0013), and for the following folio
+      (fls. 17). That single unread surname is the nearest thing to a bridge between
+      the 1791/1805 Barbacena Armonde sesmaria holder and the 1870 Meia Pataca voter;
+      see the dedicated note below. Second: pursue the Serra de Ibitipoca pointer
+      through the Barbacena parish books rather than repeating broad name searches.
+      Then, as before: verify the identity and fuller name through Aristão's birth,
       baptism or marriage record; then search this person's own earlier record.
       Trunk lead: retrieve the Barbacena PRINCIPAL autos of Honório J. F. Armonde's
       1845 inventário (partilha/título with filiation + ages) to test the six named
@@ -667,6 +674,33 @@ people:
         Barroso / de Souza" 20th-c network (memorial-card dates; naming echoes
         "Aristão"/"Marfiza") has NO primary kinship document to our line and includes
         recent (privacy-sensitive) deaths — held as an unproven lead, not promoted.
+    - text: >-
+        BOUNDED NEGATIVE — Juiz de Fora district, 1831 (2026-09-24; source GOV-0012).
+        DO NOT SEARCH THIS DOCUMENT AGAIN. The complete 26-page APM population map of
+        the Districto de Santo Antonio do Juiz de Fora (Cx 07 Doc 04, certified 18 Feb
+        1831 by José Bastos Pinto; 118 fogos, 586 livres, 833 captivos, 1,419
+        habitantes) was swept page by page, LEFT and RIGHT sheet of every spread
+        separately, matching by sound and not by spelling: ARMOND, ARMONDE, ARMENDE,
+        ARMENDES, ERMONDE, ORMONDE, ARMANDE, ALMENDES, DRUMMOND, FERREIRA ARMENDES.
+        NO occurrence. No SOUTO MAIOR and no PONTE CARDOSO/CARDOZO compound (one bare
+        "Cardozo" — José Paulo Cardozo, fogo 99 — has no "Ponte" element). No ALFERES,
+        CAPITÃO, CORONEL, TENENTE or SARGENTO anywhere in the district; beware that
+        "Captivo" recurs down the Condição column and superficially resembles
+        "Capitão". FAGUNDES: none found, with ONE unresolved cell — fogo 33 (page 12,
+        right sheet) reads "José F[…]des da Costa", consistent with either Fernandes or
+        Fagundes, faded past reading; it is recorded as unresolved rather than counted
+        either way, and is in any case not an Armond. The sweep was made on the
+        rotation-corrected files (the as-received scans had rotation baked into the
+        image content while reporting rot=0, which previously produced a FALSE Armond
+        hit at fogo 77 — corrected, that entry reads "Silverio da Silva BRANDÃO", now
+        independently re-confirmed). Also not an Armond variant: "Rosa Joanna do Valle
+        Armada"/"Amada" at fogo 3 (the two sweeps differ on that one letter; neither
+        reading is an Armond). SCOPE OF THE NEGATIVE: this proves only that no such
+        name was written on these 26 pages of this one district list for this one
+        year. It proves nothing about neighbouring districts, about later years, or
+        about any unindexed register, and it does NOT touch the live targets — the
+        Serra de Ibitipoca, the Barbacena parish books, or Santa Rita do Meia Pataca.
+        If anything it strengthens the Ibitipoca pointer by removing an alternative.
   - record_type: marriage
     status: unsearched
     source_ids: []
@@ -968,6 +1002,37 @@ people:
       The electoral roll has NO filiation column, so this record does not directly name
       P-0016's parents. It is collateral context for the parentage search, not evidence.
       Logged in correspondence-log C-012 and triage ledger 2026-09-23.
+  - text: >-
+      2026-09-24 — ★ THE SANTA RITA DO MEIA PATACA 1831 ENTRY No. 68 (source GOV-0013;
+      correspondence C-013). Nilza Cantoni emailed fls. 16 of the 1831 Mapa de População
+      de Santa Rita do Meia Pataca on 2026-09-23, pointing to entry no. 68 as a lead for
+      this line. Household 68 records a head of household — Branco, 23, Cazado, Lavrador
+      — with his wife H[e]ngelica Maria (Angélica), Branco, 24, Cazada, Fiandeira.
+      WHAT IS LEGIBLE: the abbreviations "An.to" (António) and "Ferr.a" (Ferreira).
+      WHAT IS NOT: the surname. Read directly from the 960×1280 image on 2026-09-24 at
+      7×–16× magnification, the third element shows only a looped capital A and a
+      terminal "-ndes"; the letters that would distinguish ARMENDES/ARMONDE from
+      ALMENDES are below the optical limit of the file (~7 px per letter). It has been
+      read variously as "Almendes", "Armendes" and "Armonde" — NONE of those readings
+      is substantiated, and the reading must not be settled by how much we want it to
+      say Armonde. WHY IT MATTERS, CONDITIONALLY: *if* the surname is an Armonde
+      variant, the entry places a male Armonde born c.1808 as a lavrador in the Meia
+      Pataca district in 1831 — precisely the missing generation between the 1791/1805
+      José Ferreira Armonde of GOV-0009/GOV-0011 and the 1870 Meia Pataca voter
+      Francisco Ferreira Armonde, b. ~1842–45 (C-012), and therefore a candidate father
+      for Francisco. That would be a real lead on P-0016's ancestry. It is NOT a lead
+      until the word is read, and even then the census states a residence, age, colour,
+      state and occupation and NOTHING about anyone's parentage. No person entity has
+      been created; GOV-0013 is usage context_only, reading_reliability partial.
+      EXACT NEXT ACTION: reply to Nilza (the C-013 draft is still unsent) asking for
+      (a) a higher-resolution crop of entry no. 68, (b) folio 17 — a rule closes fogo 68
+      at the foot of fls. 16 but the sheet ends there, so whether the household
+      continues is UNKNOWN, not established — and (c) the full archival reference for
+      the map, since GOV-0013 records APM as presumed, not confirmed. Related
+      unretrieved target from the same correspondent: the 1839 Meia Pataca population
+      map, said to exist at the APM catalogued under Cataguases and never retrieved; if
+      the no. 68 couple are the right family, their children date from 1832 and an 1839
+      map could list them.
 - person_id: P-0017
   external_profiles: []
   records:
@@ -1720,6 +1785,26 @@ people:
       (P-0056) × Mathilde Maria de Jesus (P-0027), family F-0027. His own children
       include JC (P-0054) and Francisco Leocádio (P-0061), per PRB-0009 (1867
       inventário). He and Mathilde were at Barbacena in 1821 (PAR-0017).
+  - text: >-
+      [LEAD — NOT PROMOTED] 2026-09-24, source GOV-0012 (APM Juiz de Fora 1831
+      population map, Cx 07 Doc 04). Fogo 109 of that list, read from the page image,
+      records "Jose Antonio de Tolledo · Branco · 54 · Cazado · Rosseiro" (so b. ~1777)
+      with Jenovefa Maria 36, a son-in-law Narcizo 30, a daughter Maria de Tolledo 20
+      and three Oliveira grandchildren aged 7, 5 and 3; the household holds no enslaved
+      people. Fogo 110 has a second Toledo, Manoel de Toledo, pardo, 30, cazado,
+      roceiro, lodging with his wife inside Joaquim Coelho's household. The untested
+      hypothesis is that José Antonio was a BROTHER of this P-0056 — i.e. another son
+      of Capitão Joaquim José Ferreira de Toledo × Ritta Angélica Rodrigues (F-0028),
+      whose parentage of Ladisláo is already confirmed by PAR-0019 — which would make
+      him Eliza Balbina de Toledo's (P-0017) great-uncle. Chronologically viable
+      (Ladisláo b. 1787, José Antonio b. ~1777) and in the right termo, Barbacena.
+      TWO CAUTIONS AGAINST IT: the 1831 Juiz de Fora Toledos are of modest means —
+      roceiros, no enslaved people, one of the two lodging in another man's household
+      — which sits awkwardly against a Capitão's sons and against the propertied
+      Toledos of the 1867 and 1879 partilhas; and the same surname in the same termo is
+      not the same family. TEST: José Antonio's own baptism or marriage naming his
+      parents, searched in the Barbacena books alongside PAR-0019. Do NOT model either
+      man as a person, and do NOT attach either to F-0028, until that record is found.
 - person_id: P-0057
   external_profiles: []
   records:

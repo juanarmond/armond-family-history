@@ -1,0 +1,158 @@
+schema_version: 1
+id: PAR-0097
+title: >-
+  São Sebastião death register — Manuel da Ponte Cardoso ("M.el de Ponte Cardozo"),
+  19 August 1652
+title_pt: >-
+  Registo de óbitos de São Sebastião — Manuel da Ponte Cardoso ("M.el de Ponte Cardozo"),
+  19 de agosto de 1652
+record_type: Parish death register entry
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+reading_reliability: complete
+event_date:
+  kind: exact
+  value: "1652-08-19"
+  original_text: >-
+    "aos dezanove dias de Agosto de mil e seiscentos [e] cinquoenta e dous annos" — read
+    directly from the act; exact match with Mendes Forjaz Vol. IX (PUB-0005, p.259).
+event_place_text: São Sebastião, Terceira, Azores
+repository:
+  name: Culturacores / Arquivo Regional dos Açores — BPAR Angra do Heroísmo
+  archive_or_registry: >-
+    Livro de óbitos da Paróquia de São Sebastião (Terceira), TER-AH-SAOSEBASTIAO-O-1642-1696.
+    One whole-spread image downloaded via the Culturacores CDN, 2026-09-24:
+    p1 = rec-terceira-ssebastiao-obito-manoel-ponte-cardozo-1652.jpg (CDN image 0016).
+    The act is the third entry on the right-hand page of the spread.
+  collection: Paróquia de São Sebastião, Terceira — Livros de Óbitos
+  catalogue_reference: >-
+    TER-AH-SAOSEBASTIAO-O-1642-1696, CDN image 0016 (right-hand page, third entry);
+    death of Manuel da Ponte Cardoso, 19 August 1652. Downloaded via Culturacores CDN
+    (Arquivo Regional dos Açores), 2026-09-24. Native maximum resolution 1239×944 px.
+access_date: "2026-09-24"
+language: pt-PT
+transcription: >-
+  [Image p1 — CDN image 0016, right-hand page, third entry; S. Sebastião óbitos 1642–1696.
+  Read from the original at magnification 2026-09-24; square brackets mark expansions and
+  uncertain or unread text.]
+
+  [Marginal annotation, three lines:] "M.el de Pon | te Cardozo | meu pai"
+
+  [Main text:] "faleceo m.el de Ponte Cardozo aos dezanove dias de Agosto / de mil e
+  seiscentos [e] cinquoenta e dous annos con todos / os sacramentos da Igr[ej]a, está
+  sepultado nesta Igr[ej]a / [illegible — one word, possibly "matriz"] sepultura sua junto
+  ao arco da cape[la] / [mor. por ser ver]dade me assiney, dia mes e anno ut supra."
+
+  [Signature:] "o Vig.º So[u]tomaior" [followed by a rubric; no forename in this signature]
+
+  [Context — same page, same hand:] the neighbouring entries of 1652 are signed
+  "o Vig.º Ant.º Coelho Sotto[ma]yor" [uncertain expansion of the abbreviated forename].
+transcription_pt: >-
+  [Imagem p1 — imagem CDN 0016, página direita, terceiro assento; S. Sebastião óbitos
+  1642–1696. Lido do original com ampliação a 2026-09-24; os parênteses rectos marcam
+  expansões e texto incerto ou não lido.]
+
+  [Anotação marginal, três linhas:] "M.el de Pon | te Cardozo | meu pai"
+
+  [Texto principal:] "faleceo m.el de Ponte Cardozo aos dezanove dias de Agosto / de mil e
+  seiscentos [e] cinquoenta e dous annos con todos / os sacramentos da Igr[ej]a, está
+  sepultado nesta Igr[ej]a / [ilegível — uma palavra, possivelmente "matriz"] sepultura sua
+  junto ao arco da cape[la] / [mor. por ser ver]dade me assiney, dia mes e anno ut supra."
+
+  [Assinatura:] "o Vig.º So[u]tomaior" [seguida de rubrica; sem nome próprio nesta assinatura]
+
+  [Contexto — mesma página, mesma mão:] os assentos vizinhos de 1652 são assinados
+  "o Vig.º Ant.º Coelho Sotto[ma]yor" [expansão incerta do nome próprio abreviado].
+abstract: >-
+  Primary parish death record for Manuel da Ponte Cardoso (P-0125), died 19 August 1652 in
+  São Sebastião, Terceira. The act names him "m.el de Ponte Cardozo" — the register spelling
+  of his surname is **Cardozo**, not "Valadão"; the "Valadão" form comes only from the
+  compiled genealogy Mendes Forjaz Vol. IX (PUB-0005, p.259), which itself offers "ou Manuel
+  da Ponte Cardoso" as an alternative. He died with all the sacraments of the Church and was
+  buried inside the parish church, in his own grave beside the arch of the chancel
+  ("sepultura sua junto ao arco da cape[la mor]"). The death date is an exact match with
+  PUB-0005. A three-line marginal annotation in the same hand reads "M.el de Pon / te Cardozo
+  / meu pai" — a first-person note by the officiating priest identifying the deceased as his
+  own father. The act is signed "o Vig.º So[u]tomaior"; the neighbouring 1652 entries on the
+  same page are signed "o Vig.º Ant.º Coelho Sotto[ma]yor". This primary image upgrades
+  E-0129 from strong-evidence to confirmed and raises P-0125 from compiled-only to primary
+  documentation.
+abstract_pt: >-
+  Registo paroquial primário do óbito de Manuel da Ponte Cardoso (P-0125), falecido a 19 de
+  agosto de 1652 em São Sebastião, Terceira. O assento nomeia-o "m.el de Ponte Cardozo" — a
+  grafia do apelido no registo é **Cardozo**, e não "Valadão"; a forma "Valadão" vem apenas
+  da genealogia compilada Mendes Forjaz Vol. IX (PUB-0005, p.259), que por sua vez oferece
+  "ou Manuel da Ponte Cardoso" como alternativa. Morreu com todos os sacramentos da Igreja e
+  foi sepultado dentro da igreja paroquial, em sepultura sua junto ao arco da capela-mor
+  ("sepultura sua junto ao arco da cape[la mor]"). A data de óbito corresponde exactamente a
+  PUB-0005. Uma anotação marginal de três linhas, na mesma mão, lê "M.el de Pon / te Cardozo
+  / meu pai" — nota em primeira pessoa do sacerdote officiante, identificando o defunto como
+  seu próprio pai. O assento é assinado "o Vig.º So[u]tomaior"; os assentos vizinhos de 1652,
+  na mesma página, são assinados "o Vig.º Ant.º Coelho Sotto[ma]yor". Esta imagem primária
+  actualiza E-0129 de strong-evidence para confirmed e eleva P-0125 de documentação apenas
+  compilada a documentação primária.
+reliability:
+  assessment: >-
+    Primary source (original parish death register), read from the native-maximum CDN image
+    at magnification. The subject's name, the day, month and year, the mention of the
+    sacraments, the burial inside the church and the marginal "meu pai" annotation are all
+    legible. The date matches PUB-0005 exactly, and the surname as written ("Cardozo")
+    matches the son's surname in PAR-0087/PAR-0088 ("Ponte Cardoso"). Evidence quality:
+    confirmed for the death date, place, burial and the register form of the name.
+  informant: >-
+    The officiating vicar of São Sebastião, who signs "o Vig.º So[u]tomaior" and annotates
+    the margin "meu pai" — i.e. a son of the deceased, writing in 1652
+  limitations: >-
+    One word at the start of the burial clause could not be read (possibly "matriz") and is
+    marked [illegible]; the formula "[por ser ver]dade" is a reconstructed expansion of a
+    partly-abraded line. The signature on this act gives no forename, only "o Vig.º
+    So[u]tomaior", so the annotator's identity is established by inference from the
+    neighbouring signatures and from PUB-0005 rather than stated here (see notes).
+    Whole-spread image; the act is one of four entries on the right-hand page. Resolution
+    1239×944 px — this is the CDN's published maximum for the page, not a processing loss.
+digital_file:
+  path: evidence/parish/PAR-0097-obito-manoel-ponte-cardozo-1652-p1.jpg
+  sha256: 233a984b243e05bdf9a1d5d15d24d0a89c0894fabe7bbba8b0cd1287fc1295f6
+additional_pages: []
+linked_people:
+- P-0125
+linked_families:
+- F-0063
+linked_events:
+- E-0129
+linked_places: []
+private: false
+notes:
+- text: >-
+    NAME CORRECTION. This act is the primary evidence for the repository's preferred name
+    "Manuel da Ponte Cardoso" (P-0125). The register writes "m.el de Ponte Cardozo"; the
+    surname "Valadão" does not appear in it. "Manuel da Ponte Valadão" is retained as a
+    name variant sourced to the compiled genealogy PUB-0005 (Vol. IX, p.259), which derives
+    the Valadão element from his mother Catarina Valadão and itself records the alternative
+    "ou Manuel da Ponte Cardoso". PUB-0005 is not altered — it legitimately records what
+    the compilation says.
+- text: >-
+    The three-line marginal annotation "M.el de Pon / te Cardozo / meu pai" is a first-person
+    statement by the priest keeping the book: the deceased was his father. Taken with the
+    same priest's first-person entry for Maria da Costa Leonardes in 1654 ("minha mãi …
+    molher de M.el de Ponte Cardoso meu pai", PAR-0098), it proves that the officiating
+    vicar of São Sebastião was a son of this couple.
+- text: >-
+    IDENTIFICATION OF THE VICAR — divergence from the retrieval agent's handoff note. The
+    retrieval plan named the vicar "Manoel Coelho Souto Maior". The image does not support
+    that reading: this act is signed only "o Vig.º So[u]tomaior" (no forename), while the
+    neighbouring 1652 entries on the same page are signed "o Vig.º Ant.º Coelho
+    Sotto[ma]yor" [uncertain expansion], and PAR-0089 (1684, same book) gives the vicar as
+    "Antônio Coelho Sotomayor". PUB-0005 (Vol. IX, p.259) lists exactly one priest among
+    this couple's children — António Coelho Souto-Maior, b. 13 February 1619, d. 17 July
+    1686, padre vigário of the Matriz de São Sebastião — and no son named Manoel. The
+    officiating son is therefore identified as António Coelho Souto-Maior. "M.el" in the
+    margin is the deceased's own forename (Manoel), not the annotator's; that is the likely
+    origin of the handoff's error.
+- text: >-
+    Book context: this is the same register that yielded PAR-0088 (Belchior da Ponte
+    Cardoso, 1687) and PAR-0089 (Mariana Fagundes, 1684), and PAR-0098 (Maria da Costa
+    Leonardes, 1654) two images later.
