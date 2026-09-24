@@ -348,3 +348,32 @@ lead until verified against an original record.
   directly name P-0016's parents. Confirms a Ferreira Armonde lavrador in the Meia
   Pataca district of the Leopoldina comarca by 1870.
 - Recorded in record-coverage P-0016 notes and triage ledger 2026-09-23.
+
+### C-013 — Nilza Cantoni (2026-09-23 — 1831 Mapa de População lead)
+- Who: Nilza Cantoni (genealogist; `nilza.cantoni@gmail.com`; see C-002 for full profile).
+- Received: 2026-09-23, 12:55. Subject: "Ferreira Armond — novidades desde agosto e uma pergunta que ficou pendente."
+- Message: Nilza sends an image of fls. 16 of the **Mapa de População de Santa Rita do Meia Pataca, 1831**, pointing specifically to **entry no. 68** as a "pista" (lead) for the Ferreira Armond line. Subject line also mentions a pending question from prior correspondence (not identified in this message; to be clarified in reply).
+- Document description: Population census/map, fls. 16, showing households 65–68 (partial). Structured columns: No. | Nome | Cor | Condição | Idade | Estado civil | Profissão.
+- Transcription of fls. 16 (all four households visible):
+  - **No. 65:** José Luís de [Azevedo?] (Branco, 30, Casado, Lavrador); Mariana Josefa (Branca, 21, Casada, Fiandeira); Maria (Branca, 6); Anna (Branca, 4); Florentino/a (Branca, 1).
+  - **No. 66:** Dom[ingos?] [de] Souza (Branco, 30, Casado, Lavrador); Anna Ferr[eira] Gomes (Branca, 25, Casada, Fiandeira); Maria (B., 8); Josefa (B., 4); Joaquina (B., 1); José (Branco, 5); José An[tônio] de Souza (Branco, 15, Casado); Josefa Maria (Branco, 60, Casada).
+  - **No. 67:** José Luís da Ro[cha?] (Branco, 36, Viúvo, Lavrador); Manuel Luís (B., 12, Roceiro); Francisca Luís (B., 11); Joaquim Luís (B., 10); Domingos Luís (B., 9); José (B., 8); Custódio (B., 6); José (B., 4); Maria Luíza (B., 17, Solteira, Fiandeira); Anna Luíza (B., 16, Solteira, Fiandeira); Luíza (B., 3); Tito (B., 2); then 7 enslaved persons: [name illegible] (Preto, Cativo, 30, Solteiro, Roceiro); António (Preto, Cativo, 35, Solteiro, Roceiro); José (Preto, Cativo, 30, Solteiro, Roceiro); José (Preto, Cativo, 25, [uncertain], Roceiro); José (Preto, Cativo, 22, Solteiro, [Roceiro?]); Manuel (Preto, Cativo, 30, Solteiro, [Carpinteiro/Engenheiro?]); Maria (Preto, Cativo, 30, Solteira, [?]).
+  - **No. 68 (partial — bottom of page):** Head of household: An[tô]... Ferd[o?] A[rm/lm]end[e]s [uncertain — likely "António/a Ferr[eira?] Armonde/s" given context; letterforms consistent but not fully legible at this resolution] (Branco, 23, Casado, Lavrador); Angélica Maria (Branca, 24, Casada, Fiandeira). Household continues on next folio.
+- Assessment: **LEAD for P-0016 parentage.** If the head of no. 68 reads "Armonde" (needs image verification or physical consult), this places a male Armonde, born ~1808, a lavrador branco, married to Angélica Maria (~b. 1807), in Santa Rita do Meia Pataca in 1831 — a generation between the 1791/1805 José Ferreira Armonde sesmaria holder (GOV-0009/11) and the 1870 Francisco Ferreira Armonde voter (C-012, b. ~1842–45). This person at no. 68 could be Francisco's father. The entry could extend to further members of the household on the following folio. Full archival reference: AMPL / APM?, Mapa de População, Santa Rita do Meia Pataca, 1831, fls. 16, no. 68.
+- Next actions: (1) Reply to Nilza confirming receipt; ask her to clarify the "pergunta pendente" from the subject line; ask if she has the next folio (fls. 17) or a higher-res crop of entry 68. (2) If name confirmed as Armonde, catalogue as a new GOV source and record as LEAD in P-0016 coverage notes. Do NOT promote to evidence without physical verification of the surname.
+- Reply drafted: 2026-09-24 (see below).
+
+**Draft reply to Nilza (C-013) — to be sent by owner to nilza.cantoni@gmail.com:**
+
+> Assunto: Re: Ferreira Armond — novidades desde agosto e uma pergunta que ficou pendente
+>
+> Nilza, bom dia!
+>
+> Obrigado pela imagem — que pista valiosa! Estou a ver o fólio 16 do Mapa de População de Santa Rita do Meia Pataca de 1831. No nº 68, o chefe de fogo é um homem branco, 23 anos, casado, lavrador, com a esposa Angélica Maria (24, casada, fiandeira). A caligrafia do sobrenome é um pouco difícil de ler com certeza — parece "A...Ferd...Armende/s" ou variante —, mas dado o contexto da família Ferreira Armonde no Meia Pataca, é exactamente a geração que faltava entre o José do sesmeiro de 1791 e o Francisco do alistamento de 1870. Se nasceu por volta de 1808 e já estava casado em 1831, poderia ser o pai (ou tio próximo) do Francisco.
+>
+> Pergunto: tem o fólio seguinte (fls. 17) desta lista, onde o domicílio 68 provavelmente continua? E se puder, um recorte em maior resolução do nº 68 seria muitíssimo útil para confirmar a leitura do sobrenome.
+>
+> Quanto à "pergunta que ficou pendente" no assunto do email — desculpe não ter respondido antes. Poderia relembrá-la, por favor? Quero ter a certeza de que a respondo correctamente.
+>
+> Um abraço,
+> Juan
