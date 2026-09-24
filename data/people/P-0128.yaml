@@ -20,19 +20,142 @@ notes:
     been read in this session. Her birth, death dates and parentage are therefore unknown from
     held sources. No events are created for her as no dates are confirmed.
 profile: >-
+  ## Interesting facts
+
+  - **[COMPILED]** She is the thinnest-documented person in this Terceira group. One line of Mendes Forjaz Vol. IV names her at all: "C. c. Catarina Machado de Faria – vid. LEMOS, § 3º, nº 5 –". No date of birth, no date of death, no parents, no parish, no record of her own.
+
+  - **[COMPILED + INFERRED]** That bare cross-reference is nonetheless corroborated from an unexpected direction: two of her daughters are recorded as **Margarida de Lemos Machado** and **Inês de Lemos Machado**. Children took surnames from a family pool rather than by strict descent **[CONTEXTUAL]**, and "de Lemos" appears in her children while being absent from her husband's side — consistent with the compiler's placement of her in the LEMOS line.
+
+  - **[CONTEXTUAL]** Her surname group was resident in the right place. The Santa Bárbara baptism book of 1600–1610 was read page by page in the 2026-09-23 retrieval pass, and the conclusion recorded there is that "the Machado de Faria family is well-represented in this parish" across that decade. That establishes the family in Santa Bárbara before her marriage — it does not identify her.
+
+  - **[LEAD — flagged and NOT adopted]** The same transcription flags a godmother, "Catarina Machado", in an August 1603 baptism (p.58) and suggests she is "almost certainly" this Catarina. **That identification is rejected pending evidence, on two counts.** First, an adult godmother in 1603 would be born around 1585, which sits at the far edge of plausibility for a woman whose daughter married in 1650 and whose husband died in 1664. Second, the note that accompanies the suggestion misstates the relationships — it calls her Mariana Fagundes's *maternal grandmother* and makes her the daughter of Pedro Lourenço Machado × Maria Fernandes da Costa, who are in fact Mariana's *paternal* grandparents, and whose daughter she is not. A name match in a small parish where the Machado surname was common is not an identification.
+
   ## Identity
 
-  **Catarina Machado de Faria** [COMPILED, name via PUB-0004] — married António Martins
-  Fagundes (P-0127); family F-0064. Mother of Mariana Fagundes (P-0124). Her family line
-  is in the LEMOS section of Mendes Forjaz Vol. IV (§ 3º, nº 5), not yet read.
+  **Catarina Machado de Faria** **[COMPILED, PUB-0004 p.312]** — wife of **António Martins Fagundes** (P-0127), *Capitão de ordenanças* of Santa Bárbara, family F-0064; mother of **Mariana Fagundes** (P-0124).
 
-  - **Nationality:** Portuguese (Azores, presumed)
-  - **Dates:** unknown [OPEN — needs LEMOS § 3º nº 5 read]
+  - **Birth, death, parentage, parish of origin:** all unknown **[OPEN]**. The compiler gives none of them and refers her line to the LEMOS section of the same series.
+  - **Marriage date and place:** not recorded. **[INFERRED]** Her husband's father married in 1598 and her daughter Mariana married in 1650, so the marriage most plausibly falls in the 1620s.
+  - **Nationality:** Portuguese is the working assumption for an Azorean-resident household of this period, but **no record states her birthplace** and none should be invented for her.
+  - **Evidence standing:** a single secondary source, with no primary act naming her anywhere in this repository. No event entity exists for her because no date of hers is confirmed — a deliberate omission, not a gap in the modelling.
+
+  **Position in the tree.** Along the modelled chain P-0128 → P-0124 → P-0092 → P-0057 → P-0056 → P-0054 → P-0017 → P-0008 → P-0004, Catarina stands eight generations above Geraldo Paz Armond (P-0004) — his 6th-great-grandmother — and ten generations above the family's present living generation. The P-0124 → P-0092 step is **[COMPILED]** only and depends on the unresolved "two Gaspars" question; if P-0092 is the following generation, each degree moves back one.
+
+  ## Standing and profession
+
+  Nothing whatever is documented: no property, no literacy, no origin, no dates. She is known only as a wife and a mother, and her own surname is the only thing that travels with her.
+
+  The one thing that can be said is about the household rather than the woman: she married a *Capitão de ordenanças* whose own father captained a militia company **[COMPILED]**. Marriage into the parish's officer layer normally happened between families of comparable standing **[CONTEXTUAL]**, which is a weak but real signal that her family was of that layer too — and the compiler's referral of her to a named genealogical section (LEMOS) points the same way, since compiled genealogies of this kind only trace families that left records.
+
+  **"Machado de Faria" is not evidence of rank or origin.** It looks like a compound gentry name; nothing held grants this family arms, a *foro* or a title, and the surname must not be read as a claim.
+
+  ## Family and social network
+
+  - **Husband:** António Martins Fagundes, also called Machado Fagundes (P-0127), *Capitão de ordenanças*, died Santa Bárbara 17 April 1664 **[COMPILED]**.
+  - **Children [COMPILED, PUB-0004 p.312]:** António Machado, *padre*; Manuel Machado, "que saiu da Terceira"; **Mariana Fagundes** (P-0124), married 26 September 1650 at Santa Bárbara to Belchior da Ponte Cardoso; **Margarida de Lemos Machado**, married André de Azedias, *alferes de ordenanças*, died at Conceição 15 June 1658 *com testamento*; **Inês de Lemos Machado**, married at Lajes 15 February 1669 to António Ferreira de Melo; Pedro Lourenço Machado, *alferes de ordenanças*, married at Lajes 17 November 1669; and Guilherme Vieira.
+  - **Her name in her children [INFERRED]:** the "de Lemos" that two daughters carry, and the "Machado" that runs through most of them, are the visible trace of her in the record — more durable than anything written about her directly.
+  - **Her own family:** unknown. The compiler's "LEMOS, § 3º, nº 5" is the only address we have for it, and it has never been opened.
+
+  ## What we can extrapolate
+
+  **She is the clearest illustration in this group of how the archive loses women [CONTEXTUAL].** Her husband has a rank, a death date and a named father. She has a name and a cross-reference. Seventeenth-century Azorean parish registers record women through the men they belong to, so a woman who did not die in a parish whose burial book survives, and whose baptism falls in a digitisation gap, effectively disappears. That is a property of the sources, not a statement about her life.
+
+  **Her surnames are doing the genealogical work that documents cannot [INFERRED].** In a naming system where children drew from a pool of family names, the appearance of "de Lemos" in two of her daughters is not decorative — it is the mechanism by which her line is still traceable at all. This is the strongest internal argument that the compiler's LEMOS referral is right, and it costs nothing to test.
+
+  **What we must not do.** There is a real temptation here — a compiled genealogy that reads authoritatively, a matching surname in the right parish a generation earlier, and a convenient godmother in 1603. Assembling those into a parentage would be exactly the failure mode this archive exists to avoid. She stays **[COMPILED]**, with an explicit open question, until the LEMOS section or a Santa Bárbara register says otherwise.
+
+  ## Open questions
+
+  - **Read LEMOS § 3º, nº 5.** This is the single decisive action for her, and it would likely supply her parents and dates in one step. The section was **not located** in the nine volumes of *Genealogias da Ilha Terceira* covered by the 2026-09-23 full-corpus search; the volume containing the LEMOS chapter has to be obtained from BPAR Angra.
+  - **No vital record of her own is held or identified.** Her baptism would fall in the Santa Bárbara baptism gap: no book covering 1610–1650 is on the Culturacores CDN (50+ candidate identifiers tested, all HTTP 404). If she was born before 1610, the surviving B-1600-1610 book might hold her — a bounded, checkable search, but her birth year is unknown.
+  - **Her death date and burial place are unknown,** and no Santa Bárbara burial register for the relevant period has been identified in the retrieval drop.
+  - **The August 1603 "Catarina Machado" godmother [LEAD — rejected pending evidence].** See Interesting facts: chronologically strained and attached to a relationship error in the retrieval note. Preserved here so that a later researcher does not rediscover and adopt it.
+  - **Her nationality and birthplace are formally unattested.** Portuguese is assumed from the household's Azorean residence; no record states it.
+
+  ## Sources held (this repository)
+
+  - **PUB-0004** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IV, FAGUNDES § 6º, pp. 312–313: her name, her marriage to António Martins Fagundes, her children, and the cross-reference "vid. LEMOS, § 3º, nº 5". *Secondary, compiled — the only source that names her.*
+  - *(No primary record naming her is held. Her daughter's 1650 marriage act, PAR-0086, names the bride's father in a damaged clause but does not reach the bride's mother.)*
+
+  ## Regional and migration context
+
+  **Santa Bárbara das Nove Ribeiras [CONTEXTUAL].** Her married household's parish, on Terceira's western side in the district of Angra — a city since 1534 and seat of the Azores bishopric, and one of the mid-Atlantic's principal ports of call for the returning India and Brazil fleets. The island lived on wheat exported to mainland Portugal and the African presidios, on the blue dye *pastel* (woad), on wine and on shipbuilding timber. Her own parish of origin is unknown, and the Machado de Faria presence in Santa Bárbara in 1600–1610 is a surname observation, not a placement of her.
+
+  **A household in the Restoration decades [CONTEXTUAL].** If she married in the 1620s, she raised her children through Portugal's break with Spain in December 1640 and the eleven-month blockade that forced the Castilian garrison of the Castelo de São Filipe above Angra to capitulate on 4 March 1642 — an operation carried out by the *ordenanças* of Terceira and the other islands, the force her husband captained. She was widowed, or nearly, by 1664.
+
+  **Dispersal in her own children [COMPILED + CONTEXTUAL].** Two daughters married out to Lajes and Conceição; one son took orders; one son is recorded only as having left Terceira. That is the ordinary arithmetic of a full island with entailed estates passing intact to eldest sons **[CONTEXTUAL]** — the same pressure that, once the Minas Gerais gold strike of 1697 supplied a destination, carried this line's descendants to Brazil.
+
+  ## Where to go today
+
+  - **Igreja de Santa Bárbara, Santa Bárbara (Angra do Heroísmo), Terceira** — her married parish, where her husband died in 1664 and her daughter Mariana married in 1650. Her own parish of origin is not known. [APPROX — residence by marriage; no record places her birth] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20de%20Santa%20B%C3%A1rbara%2C%20Terceira%2C%20A%C3%A7ores)
+  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — the only route forward for her: the *Genealogias da Ilha Terceira* volume containing the LEMOS chapter, the Santa Bárbara baptism register for 1610–1650 that is missing from the Culturacores CDN, and the Santa Bárbara burial registers. · [Maps](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)
 profile_pt: >-
+  ## Fatos interessantes
+
+  - **[COMPILED]** É a pessoa mais escassamente documentada deste conjunto terceirense. Uma única linha do Vol. IV de Mendes Forjaz a nomeia: "C. c. Catarina Machado de Faria – vid. LEMOS, § 3º, nº 5 –". Sem data de nascimento, sem data de óbito, sem pais, sem freguesia, sem registo próprio.
+
+  - **[COMPILED + INFERRED]** Essa remissão seca é, ainda assim, corroborada por um lado inesperado: duas filhas suas estão registadas como **Margarida de Lemos Machado** e **Inês de Lemos Machado**. Os filhos tomavam apelidos de um repertório familiar e não por descendência estrita **[CONTEXTUAL]**, e o "de Lemos" aparece nos filhos dela estando ausente do lado do marido — coerente com a colocação dela na linha LEMOS pelo compilador.
+
+  - **[CONTEXTUAL]** O seu grupo de apelido residia no sítio certo. O livro de baptismos de Santa Bárbara de 1600–1610 foi lido página a página na recolha de 2026-09-23, e a conclusão ali registada é que "a família Machado de Faria está bem representada nesta freguesia" ao longo dessa década. Isso fixa a família em Santa Bárbara antes do casamento dela — não a identifica.
+
+  - **[LEAD — sinalizado e NÃO adoptado]** A mesma transcrição assinala uma madrinha, "Catarina Machado", num baptismo de agosto de 1603 (p.58) e sugere que é "quase de certeza" esta Catarina. **Essa identificação é rejeitada enquanto não houver evidência, por dois motivos.** Primeiro, uma madrinha adulta em 1603 teria nascido por volta de 1585, o que fica no limite da plausibilidade para uma mulher cuja filha casou em 1650 e cujo marido morreu em 1664. Segundo, a nota que acompanha a sugestão erra as relações — chama-lhe *avó materna* de Mariana Fagundes e faz dela filha de Pedro Lourenço Machado × Maria Fernandes da Costa, que são na verdade os avós *paternos* de Mariana, e de quem ela não é filha. Uma coincidência de nome numa freguesia pequena onde o apelido Machado era comum não é uma identificação.
+
   ## Identidade
 
-  **Catarina Machado de Faria** [COMPILED, nome via PUB-0004] — casou com António Martins
-  Fagundes (P-0127); família F-0064. Mãe de Mariana Fagundes (P-0124). A sua linha familiar
-  consta na secção LEMOS da compilação de Mendes Forjaz Vol. IV (§ 3º, nº 5), ainda não lida.
+  **Catarina Machado de Faria** **[COMPILED, PUB-0004 p.312]** — mulher de **António Martins Fagundes** (P-0127), *Capitão de ordenanças* de Santa Bárbara, família F-0064; mãe de **Mariana Fagundes** (P-0124).
 
-  - **Datas:** desconhecidas [OPEN — necessita leitura de LEMOS § 3º nº 5]
+  - **Nascimento, óbito, filiação, freguesia de origem:** tudo desconhecido **[OPEN]**. O compilador não dá nada disso e remete a sua linha para a secção LEMOS da mesma série.
+  - **Data e local do casamento:** não registados. **[INFERRED]** O pai do marido casou em 1598 e a filha Mariana casou em 1650, pelo que o casamento cai, com maior plausibilidade, na década de 1620.
+  - **Nacionalidade:** portuguesa é o pressuposto de trabalho para uma casa residente nos Açores neste período, mas **nenhum registo declara a sua naturalidade** e nenhuma deve ser inventada.
+  - **Estatuto de evidência:** fonte secundária única, sem nenhum assento primário a nomeá-la em todo este repositório. Não existe entidade de evento para ela porque nenhuma data sua está confirmada — omissão deliberada, não falha de modelação.
+
+  **Posição na árvore.** Pela cadeia modelada P-0128 → P-0124 → P-0092 → P-0057 → P-0056 → P-0054 → P-0017 → P-0008 → P-0004, Catarina está oito gerações acima de Geraldo Paz Armond (P-0004) — sua 6.ª bisavó (*6th-great-grandmother*) — e dez gerações acima da atual geração viva da família. O passo P-0124 → P-0092 é apenas **[COMPILED]** e depende da questão não resolvida dos "dois Gaspares"; se P-0092 for a geração seguinte, cada grau recua um.
+
+  ## Posição social e profissão
+
+  Nada, absolutamente, está documentado: nem bens, nem alfabetização, nem origem, nem datas. É conhecida apenas como mulher e mãe, e o próprio apelido é a única coisa que viaja com ela.
+
+  O que se pode dizer diz respeito à casa e não à pessoa: casou com um *Capitão de ordenanças* cujo pai capitaneara igualmente uma companhia de milícia **[COMPILED]**. O casamento na camada de oficiais da freguesia dava-se normalmente entre famílias de posição comparável **[CONTEXTUAL]**, o que é um sinal fraco mas real de que a família dela também pertencia a essa camada — e a remissão do compilador para uma secção genealógica nomeada (LEMOS) aponta no mesmo sentido, visto que genealogias compiladas deste tipo só traçam famílias que deixaram registo.
+
+  **"Machado de Faria" não é prova de posição nem de origem.** Parece um apelido composto de gente principal; nada do que temos concede a esta família armas, *foro* ou título, e o apelido não deve ser lido como reivindicação.
+
+  ## Família e rede social
+
+  - **Marido:** António Martins Fagundes, também dito Machado Fagundes (P-0127), *Capitão de ordenanças*, falecido em Santa Bárbara a 17 de abril de 1664 **[COMPILED]**.
+  - **Filhos [COMPILED, PUB-0004 p.312]:** António Machado, *padre*; Manuel Machado, "que saiu da Terceira"; **Mariana Fagundes** (P-0124), casada a 26 de setembro de 1650 em Santa Bárbara com Belchior da Ponte Cardoso; **Margarida de Lemos Machado**, casada com André de Azedias, *alferes de ordenanças*, falecida na Conceição a 15 de junho de 1658 *com testamento*; **Inês de Lemos Machado**, casada nas Lajes a 15 de fevereiro de 1669 com António Ferreira de Melo; Pedro Lourenço Machado, *alferes de ordenanças*, casado nas Lajes a 17 de novembro de 1669; e Guilherme Vieira.
+  - **O seu nome nos filhos [INFERRED]:** o "de Lemos" que duas filhas levam, e o "Machado" que atravessa a maioria deles, são o traço visível dela no registo — mais duradouro do que qualquer coisa escrita directamente a seu respeito.
+  - **A sua própria família:** desconhecida. O "LEMOS, § 3º, nº 5" do compilador é a única morada que temos para ela, e nunca foi aberta.
+
+  ## O que podemos extrapolar
+
+  **É a ilustração mais nítida, neste grupo, de como o arquivo perde as mulheres [CONTEXTUAL].** O marido tem patente, data de óbito e pai nomeado. Ela tem um nome e uma remissão. Os registos paroquiais açorianos do século XVII inscrevem as mulheres através dos homens a que pertencem, pelo que uma mulher que não morreu numa freguesia cujo livro de óbitos sobreviva, e cujo baptismo cai numa lacuna de digitalização, desaparece na prática. Isso é propriedade das fontes, não afirmação sobre a vida dela.
+
+  **Os apelidos fazem o trabalho genealógico que os documentos não fazem [INFERRED].** Num sistema de nomes em que os filhos tiravam de um repertório familiar, o aparecimento de "de Lemos" em duas filhas não é ornamento — é o mecanismo pelo qual a linha dela ainda é rastreável. É o argumento interno mais forte de que a remissão LEMOS do compilador está certa, e nada custa testá-lo.
+
+  **O que não devemos fazer.** Há aqui uma tentação real — uma genealogia compilada de tom autoritativo, um apelido coincidente na freguesia certa uma geração antes e uma madrinha conveniente em 1603. Montar tudo isso numa filiação seria exactamente o modo de falha que este arquivo existe para evitar. Ela fica **[COMPILED]**, com questão em aberto explícita, até que a secção LEMOS ou um registo de Santa Bárbara digam outra coisa.
+
+  ## Questões em aberto
+
+  - **Ler LEMOS § 3º, nº 5.** É a acção decisiva para ela, e forneceria provavelmente pais e datas de uma só vez. A secção **não foi localizada** nos nove volumes das *Genealogias da Ilha Terceira* cobertos pela busca integral de 2026-09-23; o volume com o capítulo LEMOS tem de ser obtido no BPAR de Angra.
+  - **Nenhum registo vital próprio está disponível nem identificado.** O baptismo cairia na lacuna de Santa Bárbara: não há no CDN da Culturacores livro que cubra 1610–1650 (mais de 50 identificadores candidatos testados, todos HTTP 404). Se nasceu antes de 1610, o livro sobrevivente B-1600-1610 poderia contê-la — busca delimitada e verificável, mas o ano de nascimento é desconhecido.
+  - **A data de óbito e o local de sepultura são desconhecidos,** e nenhum livro de óbitos de Santa Bárbara para o período relevante foi identificado no lote de recolha.
+  - **A madrinha "Catarina Machado" de agosto de 1603 [LEAD — rejeitado enquanto não houver evidência].** Ver Fatos interessantes: cronologia forçada e ligada a um erro de relação na nota de recolha. Preservado aqui para que um investigador futuro não o redescubra e adopte.
+  - **A nacionalidade e a naturalidade estão formalmente por atestar.** Portuguesa é pressuposto a partir da residência açoriana da casa; nenhum registo o declara.
+
+  ## Fontes disponíveis (neste repositório)
+
+  - **PUB-0004** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IV, FAGUNDES § 6º, pp. 312–313: o nome, o casamento com António Martins Fagundes, os filhos e a remissão "vid. LEMOS, § 3º, nº 5". *Secundária, compilada — a única fonte que a nomeia.*
+  - *(Nenhum registo primário a nomeia. O assento de casamento da filha, em 1650, PAR-0086, nomeia o pai da noiva numa cláusula danificada, mas não chega à mãe da noiva.)*
+
+  ## Contexto regional e migratório
+
+  **Santa Bárbara das Nove Ribeiras [CONTEXTUAL].** A freguesia da casa em que casou, no lado ocidental da Terceira, no distrito de Angra — cidade desde 1534 e sede do bispado dos Açores, e um dos principais portos de escala do Atlântico médio para as armadas da Índia e do Brasil no regresso. A ilha vivia do trigo exportado para o reino e para as praças africanas, do corante azul *pastel*, do vinho e da madeira de construção naval. A sua freguesia de origem é desconhecida, e a presença Machado de Faria em Santa Bárbara em 1600–1610 é observação de apelido, não colocação dela.
+
+  **Uma casa nas décadas da Restauração [CONTEXTUAL].** Se casou na década de 1620, criou os filhos ao longo da ruptura de Portugal com Espanha, em dezembro de 1640, e do cerco de onze meses que obrigou a guarnição castelhana do Castelo de São Filipe, sobre Angra, a capitular a 4 de março de 1642 — operação conduzida pelas *ordenanças* da Terceira e das outras ilhas, a força que o marido capitaneava. Ficou viúva, ou quase, em 1664.
+
+  **Dispersão nos próprios filhos [COMPILED + CONTEXTUAL].** Duas filhas casaram para fora, nas Lajes e na Conceição; um filho tomou ordens; um filho está registado apenas como tendo saído da Terceira. É a aritmética corrente de uma ilha cheia, com bens vinculados a passar intactos aos primogénitos **[CONTEXTUAL]** — a mesma pressão que, assim que o ouro das Minas Gerais (1697) forneceu destino, levou os descendentes desta linha ao Brasil.
+
+  ## Onde ir hoje
+
+  - **Igreja de Santa Bárbara, Santa Bárbara (Angra do Heroísmo), Terceira** — a freguesia do seu casamento, onde o marido morreu em 1664 e a filha Mariana casou em 1650. A sua freguesia de origem não é conhecida. [APROX — residência por casamento; nenhum registo situa o nascimento] · [Mapa](https://www.google.com/maps/search/?api=1&query=Igreja%20de%20Santa%20B%C3%A1rbara%2C%20Terceira%2C%20A%C3%A7ores)
+  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — o único caminho à frente para ela: o volume das *Genealogias da Ilha Terceira* com o capítulo LEMOS, o livro de baptismos de Santa Bárbara de 1610–1650 em falta no CDN da Culturacores, e os livros de óbitos de Santa Bárbara. · [Mapa](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)

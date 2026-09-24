@@ -5,6 +5,50 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Retracted — P-0103's birth was never "16 October 1844"; the register reads November (2026-09-24)
+
+The 2026-09-23 entry below records "P-0103 (Jacob Klein) birth date corrected 16 November →
+16 October 1844". That correction was itself the error, and it was never applied to the data —
+`PAR-0066`'s transcription, its abstract and event `E-0090` all correctly carried 16 November
+throughout.
+
+The register writes the month as **"9br"**, the standard early-modern abbreviation for
+*Novembris*, not a reference to the ninth month: the series runs 7br = September, 8br = October,
+9br = November, Xbr = December, inherited from the Roman year that began in March. Reading "9br"
+as September or October is a well-known trap in early-modern dating.
+
+The claim reached P-0103's `profile`/`profile_pt` during the 2026-09-24 enrichment pass, because
+the coordinator passed it to the subagent as an established fact. Both are now back to
+16 November, with the abbreviation explained in place so the mistake is not repeated. Nothing in
+`data/events/` or `data/sources/` ever had to change.
+
+### Retracted — P-0010's "given name is Houver" correction was wrong, and named a possibly-living person (2026-09-24)
+
+The 2026-09-23 profile sync concluded that Antonio Engracio Filho's (P-0010) given name was proven
+to be "Houver Engrácio Guimarães" from a declarant signature, and published that as a curated
+"What's new" correction. It was wrong on two counts, both now undone:
+
+- **Wrong person.** CIV-0017 is the death registration *of* P-0010. The signature belongs to the
+  **declarant** — an adult son, solteiro, 32, comerciário — not to the deceased. The earlier entry
+  conflated the two.
+- **Not proven, and not publishable.** CIV-0017's own record still reads the informant's given name
+  as "an uncertain H-initial read … possibly-living, name withheld pending a clearer image". The
+  profile asserted `[PROVEN]` against its own source and disclosed a name the source deliberately
+  withholds. Born c.1932, that person may well be living.
+
+Actions: name redacted from `P-0010`'s `profile` and `profile_pt` (now describing the informant as
+CIV-0017 does, tagged `[uncertain]`); the erroneous curated entry removed from `updates.yaml`;
+`STATUS.md` retracted. `CHANGELOG`/`LOG` history entries are left standing as the record of what was
+concluded and when — this entry supersedes them.
+
+### Fixed — a living third party was named in P-0018's profile (2026-09-24)
+
+`P-0018`'s profile and `profile_pt` named José Olavo Armond's 1975 intended bride and both her
+parents, while the source record `NWS-0001` redacts exactly those as `[omitido — privacidade]`. She
+was recorded *maior* in 1975 and is presumed living. Redacted to match the source, keeping the
+detail the source itself keeps (*natural de Conselheiro Lafaiete, maior, professora*). José Olavo's
+own details, including his 1975 address, are unchanged — he is deceased and NWS-0001 publishes them.
+
 ### Fixed — "What's new" feed dated records by catalogue date, not by when readers could see them (2026-09-24)
 
 `scripts/build_updates.py` dated every document entry from the commit that first added the

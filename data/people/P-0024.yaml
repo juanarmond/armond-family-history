@@ -24,20 +24,27 @@ profile: >-
   establishing her existence and marriage into the Carvalho-Guimarães couple. No held
   primary record names her with her own dates, filiation or signature.
 
-  - **[INFERRED]** She was most likely based in Vila do Rio Claro, São Paulo — where her son
-  Francisco was "natural" (CIV-0007) and where her husband married (~1863–1878). Her origin
-  is inferred from context, not stated in any held record.
+  - **[PROVEN as stated]** CIV-0007 states her naturalidade outright — "Maria Tertuliana da
+  Conceição, natural da Villa do Rio Claro" — and records her death "também fallecida na
+  cidade do Carangola". Her origin is therefore recorded, not inferred; only the *state* of
+  that Villa do Rio Claro is unsettled (this profile's research trail assumes São Paulo, while
+  the repository's structured place entry PL-0008 records Rio de Janeiro). Corrected here: an
+  earlier reading of this profile treated both her birthplace and her death as unstated.
 
-  - **[INFERRED]** As the likely Brazilian-born wife of the Portuguese immigrant Vicente
-  (P-0023), she is the native anchor that helped him put down roots — the common pattern of
-  an immigrant man marrying a Brazilian-born woman on the coffee frontier. Her devotional
-  surname "da Conceição" carries no class signal; her standing was being built in the new
-  country, not inherited.
+  - **[PROVEN as stated / INFERRED]** She was Brazilian-born — CIV-0007 gives her
+  naturalidade as Villa do Rio Claro — and so she is the native anchor that helped the
+  Portuguese immigrant Vicente (P-0023) put down roots: the common pattern of an immigrant
+  man marrying a Brazilian-born woman on the coffee frontier [INFERRED — the pattern]. Her
+  devotional surname "da Conceição" carries no class signal; her standing was being built in
+  the new country, not inherited.
 
-  - **[CONTEXTUAL]** Vila do Rio Claro (São Paulo) was a growing coffee-economy town in the
-  second half of the 19th century, a booming Oeste Paulista coffee municipality and a major
-  European-immigrant magnet — the textbook setting for a local Brazilian woman to meet and
-  marry a newly-arrived Portuguese immigrant.
+  - **[CONTEXTUAL]** If the Villa do Rio Claro of CIV-0007 is Rio Claro, São Paulo — the
+  reading this profile's research trail assumes, though the repository's structured place
+  entry PL-0008 records Rio de Janeiro instead — then it was a booming Oeste Paulista coffee
+  municipality in the second half of the 19th century and a major European-immigrant magnet:
+  the textbook setting for a local Brazilian woman to meet and marry a newly-arrived
+  Portuguese immigrant. The setting depends on which Rio Claro it was, and that is not yet
+  settled.
 
   - **[LEAD, REJECTED — 2026-08-13]** The FS public-tree node LZGL-S2G "Tertuliana Maria
   da Conceição" is NOT her — it is a woman of Salvador, Bahia (relatives "José …"
@@ -52,26 +59,54 @@ profile: >-
   "Emmerenciana" — corrected: Vicente's wife = Maria Tertuliana; Emerenciana = Francisco's
   wife, one generation down.
 
-  - **Origin:** likely Vila do Rio Claro, SP — where her son Francisco was "natural"
-  (CIV-0007), implying she too was Rio-Claro-based; her parents are unknown. [INFERRED]
+  - **Origin:** "natural da Villa do Rio Claro" — stated of her directly in CIV-0007, the
+  same place given for her son Francisco [PROVEN as stated]. The state is unsettled: this
+  profile's research trail assumes Rio Claro, São Paulo; the repository's structured place
+  entry (PL-0008) records Vila do Rio Claro in Rio de Janeiro. Her parents are unknown.
+  [OPEN]
 
   - **Child (in our line):** Francisco José de Carvalho Guimarães (P-0021). [PROVEN — CIV-0007]
 
-  - **Death:** unknown. [OPEN] (CIV-0007 records Vicente's death at Carangola; whether Maria
-  Tertuliana also died there is not stated in any held record.)
+  - **Death:** in the city of Carangola (MG), before the 12 October 1915 registration —
+  CIV-0007 states it of her explicitly ("também fallecida na cidade do Carangola"), as it
+  does of her husband [PROVEN as stated]; the date is not recorded. [OPEN — date]
 
   - **Birth date and parents:** not held. [OPEN]
 
   ## What we can extrapolate
 
-  She is the likely Brazilian-born local half of an immigrant match. [INFERRED / CONTEXTUAL]
-  As the probable Rio-Claro-based wife of the Portuguese immigrant Vicente José de Carvalho
-  Guimarães, she is the native anchor that helped a newly-arrived emigrant put down roots —
-  the local partner in the standard "immigrant man ⚭ Brazilian-born woman" pattern of the
-  Oeste Paulista coffee frontier. Her devotional surname "da Conceição" carries no class
-  signal of its own; like the couple's, her standing was being built in the new country
-  rather than inherited. Her own parents and natal rung remain unrecorded [OPEN] — the one
-  datum that would show what local family the immigrant married into.
+  She is the Brazilian-born local half of an immigrant match, and the record says so.
+  [PROVEN as stated / CONTEXTUAL] CIV-0007 gives her naturalidade directly — "natural da
+  Villa do Rio Claro" — so the standard coffee-frontier pattern of an immigrant man marrying
+  a native-born woman is here documented rather than merely assumed. She is the native anchor
+  that helped a newly-arrived emigrant put down roots. Her devotional surname "da Conceição"
+  carries no class signal of its own; like the couple's, her standing was being built in the
+  new country rather than inherited. Her own parents and natal rung remain unrecorded [OPEN]
+  — the one datum that would show what local family the immigrant married into.
+
+  Her documented life is a single migration, and it is the family's founding one. [PROVEN /
+  INFERRED] CIV-0007 states both ends of it: she was "natural da Villa do Rio Claro" and she
+  died "na cidade do Carangola". So she is not merely the local half of an immigrant match —
+  she is the person who left her own birthplace to follow the family onto the Carangola
+  coffee frontier, and who ended, as her husband did, in the municipal seat rather than out
+  on the land her son was farming. That is a Brazilian-born woman uprooting herself once, in
+  middle life, for the same opportunity that had brought her husband across the Atlantic.
+  [INFERRED — the motive; the two places are stated]
+
+  She brought no inheritance into the marriage that the record can see, and there is a
+  structural reason to expect none. [INFERRED / CONTEXTUAL] Under Brazilian partible
+  succession a daughter inherits an equal share with her brothers, so a woman of a propertied
+  Rio Claro family would ordinarily arrive with a *dote* or a quota — and the couple would
+  then appear in a notarial or probate record somewhere. They appear in none. Either her
+  natal family had nothing to divide, or her share was small enough to vanish into the move.
+  The bounded negative matters: no Rio Claro or Carangola probate search has been run
+  specifically on her name. [OPEN]
+
+  What she transmitted was residence and legitimacy, not capital. [INFERRED] Her son Francisco
+  was born in her home town, married there or nearby, and carried into Carangola the standing
+  of a Brazilian-born family rather than of a newly-landed foreigner — which is the practical
+  value a local wife gave an immigrant in that period: naturalisation by kinship. Any position
+  the next generation reached was built on the frontier, not inherited from her side.
 
   "Tertuliana" is a distinctive given name — a useful discriminator when searching the Rio
   Claro SP marriage and baptism registers for her and her children. [INFERRED]
@@ -95,20 +130,28 @@ profile_pt: >-
   estabelecendo sua existência e casamento no casal Carvalho-Guimarães. Nenhum registro
   primário em mãos a nomeia com datas próprias, filiação ou assinatura.
 
-  - **[INFERRED]** Estava muito provavelmente sediada em Vila do Rio Claro, São Paulo —
-  onde seu filho Francisco era "natural" (CIV-0007) e onde seu marido casou (~1863–1878).
-  Sua origem é inferida pelo contexto, não declarada em nenhum registro em mãos.
+  - **[PROVEN conforme declarado]** CIV-0007 declara sua naturalidade de forma direta —
+  "Maria Tertuliana da Conceição, natural da Villa do Rio Claro" — e registra seu óbito
+  "também fallecida na cidade do Carangola". Sua origem está, portanto, registrada, não
+  inferida; apenas o *estado* dessa Villa do Rio Claro permanece em aberto (a trilha de
+  pesquisa deste perfil pressupõe São Paulo, enquanto a entrada estruturada de lugar PL-0008
+  registra Rio de Janeiro). Corrigido aqui: uma leitura anterior deste perfil tratava tanto
+  seu local de nascimento quanto seu óbito como não declarados.
 
-  - **[INFERRED]** Como provável esposa brasileira nata do imigrante português Vicente
-  (P-0023), é a âncora local que o ajudou a criar raízes — o padrão comum do homem imigrante
-  que se casa com uma mulher nascida no Brasil na fronteira cafeeira. Seu sobrenome devocional
-  "da Conceição" não carrega sinal de classe; sua posição estava sendo construída no novo
-  país, não herdada.
+  - **[PROVEN conforme declarado / INFERRED]** Ela nasceu no Brasil — CIV-0007 dá sua
+  naturalidade como Villa do Rio Claro — e é, portanto, a âncora nativa que ajudou o imigrante
+  português Vicente (P-0023) a criar raízes: o padrão comum do homem imigrante que se casa com
+  uma mulher nascida no Brasil na fronteira cafeeira [INFERRED — o padrão]. Seu sobrenome
+  devocional "da Conceição" não carrega sinal de classe; sua posição estava sendo construída
+  no novo país, não herdada.
 
-  - **[CONTEXTUAL]** A Vila do Rio Claro (São Paulo) era uma cidade em crescimento na
-  economia cafeeira na segunda metade do século XIX, um grande município cafeeiro do Oeste
-  Paulista e importante destino de imigrantes europeus — o cenário ideal para uma mulher
-  brasileira local conhecer e casar com um imigrante português recém-chegado.
+  - **[CONTEXTUAL]** Se a Villa do Rio Claro de CIV-0007 for Rio Claro, São Paulo — a
+  leitura que a trilha de pesquisa deste perfil pressupõe, embora a entrada estruturada de
+  lugar PL-0008 do repositório registre Rio de Janeiro —, então era um pujante município
+  cafeeiro do Oeste Paulista na segunda metade do século XIX e importante destino de
+  imigrantes europeus: o cenário ideal para uma mulher brasileira local conhecer e casar com
+  um imigrante português recém-chegado. O cenário depende de qual Rio Claro era, e isso ainda
+  não está resolvido.
 
   - **[LEAD, REJEITADO — 2026-08-13]** O nó da árvore pública FS LZGL-S2G "Tertuliana
   Maria da Conceição" NÃO é ela — trata-se de uma mulher de Salvador, Bahia (parentes "José
@@ -123,27 +166,57 @@ profile_pt: >-
   — corrigido: esposa de Vicente = Maria Tertuliana; Emerenciana = esposa de Francisco, uma
   geração abaixo.
 
-  - **Origem:** provavelmente Vila do Rio Claro, SP — onde seu filho Francisco era "natural"
-  (CIV-0007), sugerindo que ela também era originária de Rio Claro; seus pais são
-  desconhecidos. [INFERRED]
+  - **Origem:** "natural da Villa do Rio Claro" — declarado dela diretamente em CIV-0007, o
+  mesmo lugar dado para seu filho Francisco [PROVEN conforme declarado]. O estado permanece
+  em aberto: a trilha de pesquisa deste perfil pressupõe Rio Claro, São Paulo; a entrada
+  estruturada de lugar do repositório (PL-0008) registra a Vila do Rio Claro no Rio de
+  Janeiro. Seus pais são desconhecidos. [OPEN]
 
   - **Filho (em nossa linha):** Francisco José de Carvalho Guimarães (P-0021). [PROVEN — CIV-0007]
 
-  - **Óbito:** desconhecido. [OPEN] (CIV-0007 registra o óbito de Vicente em Carangola; se
-  Maria Tertuliana também faleceu ali não está declarado em nenhum registro em mãos.)
+  - **Óbito:** na cidade de Carangola (MG), antes do registro de 12 de outubro de 1915 —
+  CIV-0007 o declara dela de forma explícita ("também fallecida na cidade do Carangola"),
+  como o faz de seu marido [PROVEN conforme declarado]; a data não está registrada. [OPEN —
+  data]
 
   - **Data de nascimento e pais:** não obtidos. [OPEN]
 
   ## O que podemos extrapolar
 
-  Ela é provavelmente a metade local, nascida no Brasil, de um par imigrante. [INFERRED /
-  CONTEXTUAL] Como a provável esposa baseada em Rio Claro do imigrante português Vicente José
-  de Carvalho Guimarães, é a âncora nativa que ajudou um emigrante recém-chegado a lançar
-  raízes — a parceira local no padrão clássico do "homem imigrante ⚭ mulher nascida no
-  Brasil" da fronteira cafeeira do Oeste Paulista. Seu sobrenome devocional "da Conceição"
-  não carrega sinal de classe próprio; como a do casal, sua posição estava sendo construída no
-  novo país, e não herdada. Seus próprios pais e o degrau de origem permanecem não registrados
-  [OPEN] — o único dado que mostraria em qual família local o imigrante se casou.
+  Ela é a metade local, nascida no Brasil, de um par imigrante — e o registro o diz. [PROVEN
+  conforme declarado / CONTEXTUAL] CIV-0007 dá sua naturalidade de forma direta — "natural da
+  Villa do Rio Claro" —, de modo que o padrão clássico da fronteira cafeeira, do homem
+  imigrante que se casa com uma mulher nascida no país, está aqui documentado, e não apenas
+  suposto. Ela é a âncora nativa que ajudou um emigrante recém-chegado a lançar raízes. Seu
+  sobrenome devocional "da Conceição" não carrega sinal de classe próprio; como a do casal,
+  sua posição estava sendo construída no novo país, e não herdada. Seus próprios pais e o
+  degrau de origem permanecem não registrados [OPEN] — o único dado que mostraria em qual
+  família local o imigrante se casou.
+
+  Sua vida documentada é uma única migração, e é a migração fundadora da família. [PROVEN /
+  INFERRED] CIV-0007 declara as duas pontas: era "natural da Villa do Rio Claro" e faleceu
+  "na cidade do Carangola". Ela não é, portanto, apenas a metade local de um par imigrante —
+  é a pessoa que deixou o próprio lugar de nascimento para acompanhar a família até a
+  fronteira cafeeira de Carangola e que terminou, como o marido, na sede do município, e não
+  na lavoura em que o filho trabalhava. É uma mulher nascida no Brasil desenraizando-se uma
+  vez, em plena vida adulta, pela mesma oportunidade que trouxera o marido através do
+  Atlântico. [INFERRED — o motivo; os dois lugares estão declarados]
+
+  Ela não trouxe para o casamento nenhuma herança que o registro possa ver, e há uma razão
+  estrutural para não esperar nenhuma. [INFERRED / CONTEXTUAL] Na sucessão partível
+  brasileira a filha herda quota igual à dos irmãos, de modo que uma mulher de família com
+  bens em Rio Claro normalmente chegaria com um *dote* ou uma quota — e o casal apareceria,
+  então, em algum registro notarial ou de inventário. Não aparecem em nenhum. Ou sua família
+  natal não tinha o que partilhar, ou sua quota era pequena o bastante para desaparecer na
+  mudança. O negativo delimitado importa: nenhuma busca em inventários de Rio Claro ou
+  Carangola foi feita especificamente sobre seu nome. [OPEN]
+
+  O que ela transmitiu foi residência e legitimidade, não capital. [INFERRED] Seu filho
+  Francisco nasceu na terra dela, casou-se ali ou nas imediações e levou para Carangola a
+  posição de uma família nascida no Brasil, e não a de um estrangeiro recém-chegado — que é o
+  valor prático que uma esposa local dava a um imigrante naquele período: naturalização por
+  parentesco. Qualquer posição que a geração seguinte alcançou foi construída na fronteira,
+  não herdada do lado dela.
 
   "Tertuliana" é um nome de batismo raro — um discriminador útil ao buscar nos registros de
   casamento e batismo de Rio Claro SP por ela e seus filhos. [INFERRED]

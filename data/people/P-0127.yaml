@@ -34,19 +34,156 @@ notes:
     belongs to the LEMOS family line (Mendes Forjaz Vol. IV, LEMOS § 3º, nº 5), not yet read
     in this repository.
 profile: >-
+  ## Interesting facts
+
+  - **[COMPILED]** He was a **Capitão de ordenanças** — the commanding officer of a militia company, the highest rank documented anywhere in this Terceira cluster apart from his own father's. His son-in-law Belchior da Ponte Cardoso was an *Alferes*, two grades below him.
+
+  - **[COMPILED]** The compiler cannot settle on his name either. Vol. IV writes him "António Martins Fagundes (ou **Machado Fagundes**)" — the Machado element taken from his mother's side. His children then carry a third combination again: two daughters are recorded as "de Lemos Machado", from *their* mother.
+
+  - **[PROVEN, partial — the one primary trace of him]** The damaged 1650 marriage act of his daughter Mariana (PAR-0086, Santa Bárbara) appears to name the bride's father in its filiation clause: the reading is "... Mariana Fagundes filha de **[António?]** ...". It is bracketed and not secure at the delivered resolution — but it means his fatherhood is one legible scan away from moving out of the compiled layer altogether.
+
+  - **[COMPILED]** He died at **Santa Bárbara on 17 April 1664** — in his own parish, not in São Sebastião where his daughter had gone to live.
+
+  - **[COMPILED]** The exits his children took read like a catalogue of what a large 17th-century island household did with its young: one son a *padre*, one son recorded only as "**que saiu da Terceira**" — he left the island — one daughter married to another *alferes de ordenanças*, two married out to Lajes and Conceição, and one son carrying his grandfather's full name and rank.
+
   ## Identity
 
-  **António Martins Fagundes** [COMPILED, name via PUB-0004] — died 17 April 1664, Santa Bárbara,
-  Terceira. Also named "Machado Fagundes." Capitão de ordenanças. Son of Pedro Lourenço Machado
-  (P-0129) × Maria Fernandes da Costa (P-0130), family F-0065. Married Catarina Machado de Faria
-  (P-0128); family F-0064. Father of Mariana Fagundes (P-0124).
+  **António Martins Fagundes**, also written **Machado Fagundes** **[COMPILED, PUB-0004 p.312]** — died Santa Bárbara, Terceira, 17 April 1664. *Capitão de ordenanças*. Son of **Pedro Lourenço Machado** (P-0129) × **Maria Fernandes da Costa** (P-0130), family F-0065. Married **Catarina Machado de Faria** (P-0128), family F-0064. Father of **Mariana Fagundes** (P-0124).
 
-  - **Nationality:** Portuguese (Azores)
-  - **Birth date/place:** unknown — not in the compilation [OPEN]
+  - **Birth date and place:** unknown, not given by the compiler. **[INFERRED]** His parents married in 1598 and his daughter married in 1650, so he was most likely born between about 1600 and 1615.
+  - **Marriage:** no date, no parish, no record **[OPEN]**.
+  - **Nationality:** Portuguese (Azores, Crown territory)
+  - **Evidence standing:** everything above is **[COMPILED]** from a single secondary source. No original act naming him is securely legible in this repository — only the uncertain "[António?]" in PAR-0086.
+
+  **Position in the tree.** Along the modelled chain P-0127 → P-0124 → P-0092 → P-0057 → P-0056 → P-0054 → P-0017 → P-0008 → P-0004, António stands eight generations above Geraldo Paz Armond (P-0004) — his 6th-great-grandfather — and ten generations above the family's present living generation. The P-0124 → P-0092 step is **[COMPILED]** only and turns on the unresolved "two Gaspars" question; if P-0092 is the following generation, each degree moves back one.
+
+  ## Standing and profession
+
+  **Capitão de ordenanças [COMPILED].** The *ordenanças* were the third and lowest tier of the Portuguese military organisation — a territorial reserve raised parish by parish and officered by local householders serving **without pay** **[CONTEXTUAL]**. A captaincy was the command of one such company; it was conferred on a principal householder of the parish, and it brought precedence, local authority and the obligation to muster, not a salary.
+
+  Two consequences follow, and they matter more than the title itself:
+
+  - **[INFERRED + CONTEXTUAL]** His standing had **no wage base underneath it**. An unpaid commission cannot be inherited, sold or divided; it ends with the man. Whatever the family owned in land is invisible to us, but the rank tells us about position, not about money.
+  - **[INFERRED]** The rank is nonetheless a real class signal. Ordenanças captaincies were not given to labourers; they marked the *gente principal* of a parish. His father held the same grade, his son Pedro Lourenço an ensign's, and his daughter married an ensign. Across three generations this is a family reproducing itself inside the militia officer corps.
+
+  **Nothing else is documented.** No property, no will, no inventory, no literacy, no other office. "Fagundes", "Machado" and "de Faria" are not evidence of nobility, and no held record grants this family arms, a *foro* or a *morgadio*.
+
+  ## Family and social network
+
+  - **Parents [COMPILED]:** Pedro Lourenço Machado (b. Santa Bárbara 2 February 1571, d. there 27 January 1655), the captain credited with a 79-man company at the Castelo de S. Filipe in 1642, and Maria Fernandes da Costa (also "de Toledo"), married at Santa Bárbara 14 June 1598.
+  - **Wife:** Catarina Machado de Faria (P-0128), whom Vol. IV sends to "LEMOS, § 3º, nº 5" — a section that has never been read **[OPEN]**.
+  - **Children [COMPILED, PUB-0004 p.312]:** António Machado, *padre*; Manuel Machado, "que saiu da Terceira"; **Mariana Fagundes** (P-0124), married 26 September 1650 to Belchior da Ponte Cardoso; Margarida de Lemos Machado, married to **André de Azedias**, *alferes de ordenanças*, died at Conceição 15 June 1658 *com testamento*; Inês de Lemos Machado, married at Lajes 15 February 1669 to António Ferreira de Melo; Pedro Lourenço Machado, *alferes de ordenanças*, married at Lajes 17 November 1669; and Guilherme Vieira.
+  - **Siblings [COMPILED]:** among the nine children of Pedro Lourenço Machado — including Antão Martins Fagundes, "o Giga"; Belchior Machado Fagundes, a Franciscan friar; André Machado Fagundes, a beneficed priest; Manuel Machado Fagundes; and several sisters married into Santa Bárbara families.
+  - **The marriage network [INFERRED].** His daughters married into Conceição and Lajes, his son-in-law André de Azedias was himself an ensign, and Mariana married an ensign of São Sebastião. The household married *across* the island and *within* the officer layer — a consistent pattern rather than a coincidence.
+
+  ## What we can extrapolate
+
+  **Three generations inside the militia, and not one of them paid [INFERRED + CONTEXTUAL].** His father commanded a company; he commanded a company; his son and his son-in-law held ensigns' commissions. That is a family whose visible standing was *entirely* office-based, and *ordenanças* office produced no income. The mechanism is worth stating plainly, because it explains what happens to this line later: status of this kind transmits as expectation and bearing, and has to be re-founded from scratch wherever the family lands next. When their descendants appear in colonial Minas Gerais, they arrive with an officer family's habits and without an officer family's capital.
+
+  **A household that exported its children [COMPILED + INFERRED].** Seven of his children are named, and the compiler's one-line notes track them outward: to the priesthood, to other parishes by marriage, and — in Manuel's case — off the island entirely. Terceira had been settled for two centuries and was full; entailed estates (*morgadios*) passed intact to eldest sons under primogeniture, and non-entailed property fragmented **[CONTEXTUAL]**. The children of a captain with seven recorded heirs had to leave, marry out, or take orders. His generation shows the process a full fifty years before the Minas gold rush made Brazil the obvious destination.
+
+  **Surnames here are chosen, not inherited [PROVEN pattern + COMPILED].** He is "Martins Fagundes" or "Machado Fagundes"; two daughters are "de Lemos Machado", from their mother; his own mother's family supplies the Machado. The same fluidity is visible in the São Sebastião registers on his son-in-law's side. This is not sloppiness in the sources — it is how Azorean naming worked, and it is why searching these registers by surname alone produces false negatives.
+
+  ## Open questions
+
+  - **Nothing of his own is held as an image.** His baptism, his marriage and his 17 April 1664 burial at Santa Bárbara are all compiled only. No Santa Bárbara burial register covering 1664 has been identified in the retrieval drop — the accessible Santa Bárbara books are the *casamentos* C-1560-1606 and the *baptismos* B-1600-1610. Requesting the Santa Bárbara óbitos for 1664 from BPAR Angra is the decisive next action for him.
+  - **The 1650 marriage act could prove his fatherhood.** PAR-0086's filiation clause reads "[António?]" at 511×702 px. A higher-resolution scan from BPAR would move Mariana's parentage from **[COMPILED]** to **[PROVEN]** and confirm his own name in a contemporary hand.
+  - **His wife's line is unread.** Vol. IV's cross-reference "LEMOS, § 3º, nº 5" was not located in the nine volumes covered by the 2026-09-23 full-corpus search.
+  - **A bounded negative on the surname.** All 169 pages of Santa Bárbara *casamentos* C-1560-1606 were read and produced **no confirmed Fagundes entry**; the Santa Bárbara *baptismos* 1600–1610 produced none either (one possible "Bárbora F[agun?]andes" is explicitly uncertain between Fagundes and Fernandes). Since the compiler places his father's family in that parish from the 1590s, this most likely reflects damage, hand and indexing limits — it is **not** evidence that the family was absent.
+  - **His birth date and his own marriage date** are unknown, so the c.1600–1615 birth window above is inference only.
+
+  ## Sources held (this repository)
+
+  - **PUB-0004** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IV, FAGUNDES § 6º, pp. 312–313: his name variants, his rank, his death date, his wife, his parents and his seven recorded children. *Secondary, compiled — the sole substantive source for him.*
+  - **PAR-0086** — his daughter Mariana's marriage, Santa Bárbara, 26 September 1650: the damaged filiation clause that appears to name him "[António?]". *Primary, partially legible.*
+
+  ## Regional and migration context
+
+  **Santa Bárbara das Nove Ribeiras [CONTEXTUAL].** A rural parish on Terceira's western side, in the district of Angra — a city since 1534 and the seat of the Azores bishopric, and one of the mid-Atlantic's major ports of call for the returning India and Brazil fleets. The island lived on wheat exported to mainland Portugal and the African presidios, on the blue dye *pastel* (woad) in its long decline against American indigo, on wine and on shipbuilding timber.
+
+  **A militia officer of the Restoration generation [CONTEXTUAL].** If he was born between about 1600 and 1615, his adult life spans the break with Spain in December 1640, Terceira's immediate adherence to D. João IV, and the eleven-month blockade that forced the Castilian garrison of the Castelo de São Filipe above Angra to capitulate on 4 March 1642. That operation was carried out by the *ordenanças* of Terceira and the other islands — the force he captained and his father is credited with leading a company in. **No held record names him in it.** He would have been of an age to serve, and his company would have been of the right kind; that is a reason to look, not a reason to assert.
+
+  **Emigration already in the family, well before the gold [COMPILED + CONTEXTUAL].** The standard account puts Azorean emigration to Brazil after the Minas Gerais gold strike of 1697 and the Crown's 1720 passport controls. But one of his own sons is recorded in the 17th century simply as having left Terceira. The push — a finite island, entail and primogeniture, recurrent seismic disaster — was operating in his lifetime; only the destination changed later.
+
+  ## Where to go today
+
+  - **Igreja de Santa Bárbara, Santa Bárbara (Angra do Heroísmo), Terceira** — his parish: where he died in April 1664, where his parents married in 1598, and where his daughter Mariana married in 1650. [RESOLVED — parish] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20de%20Santa%20B%C3%A1rbara%2C%20Terceira%2C%20A%C3%A7ores)
+  - **Fortaleza de São João Baptista (the former Castelo de São Filipe), Monte Brasil, Angra do Heroísmo, Terceira** — the fortress the island's *ordenanças* blockaded into surrender in 1642, still standing and visitable. Context for his rank, not a documented place of his own. [CONTEXTUAL] · [Maps](https://www.google.com/maps/search/?api=1&query=Fortaleza%20de%20S%C3%A3o%20Jo%C3%A3o%20Baptista%2C%20Angra%20do%20Hero%C3%ADsmo)
+  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — where to request the Santa Bárbara burial register covering April 1664 and a higher-resolution copy of the 1650 marriage act. · [Maps](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)
 profile_pt: >-
+  ## Fatos interessantes
+
+  - **[COMPILED]** Era **Capitão de ordenanças** — comandante de uma companhia de milícia, a patente mais alta documentada em todo este conjunto terceirense, tirando a do próprio pai. O genro, Belchior da Ponte Cardoso, era *Alferes*, dois graus abaixo.
+
+  - **[COMPILED]** O compilador também não consegue fixar-lhe o nome. O Vol. IV escreve "António Martins Fagundes (ou **Machado Fagundes**)" — o elemento Machado vindo do lado materno. Os filhos levam depois uma terceira combinação: duas filhas são registadas como "de Lemos Machado", vindo *da mãe delas*.
+
+  - **[PROVEN, parcial — o único traço primário dele]** O danificado assento de casamento de 1650 da filha Mariana (PAR-0086, Santa Bárbara) parece nomear o pai da noiva na cláusula de filiação: a leitura é "... Mariana Fagundes filha de **[António?]** ...". Está entre colchetes e não é segura na resolução entregue — mas significa que a sua paternidade está a uma digitalização legível de sair da camada compilada.
+
+  - **[COMPILED]** Faleceu em **Santa Bárbara a 17 de abril de 1664** — na sua freguesia, e não em São Sebastião, para onde a filha fora viver.
+
+  - **[COMPILED]** As saídas que os filhos tomaram leem-se como catálogo do que uma casa insular numerosa do século XVII fazia com os seus jovens: um filho *padre*, um filho registado apenas como "**que saiu da Terceira**", uma filha casada com outro *alferes de ordenanças*, duas casadas para fora, nas Lajes e na Conceição, e um filho a levar o nome completo e a carreira do avô.
+
   ## Identidade
 
-  **António Martins Fagundes** [COMPILED, nome via PUB-0004] — falecido a 17 de abril de 1664,
-  Santa Bárbara, Terceira. Também chamado "Machado Fagundes." Capitão de ordenanças. Filho de
-  Pedro Lourenço Machado (P-0129) × Maria Fernandes da Costa (P-0130), família F-0065. Casou
-  com Catarina Machado de Faria (P-0128); família F-0064. Pai de Mariana Fagundes (P-0124).
+  **António Martins Fagundes**, também escrito **Machado Fagundes** **[COMPILED, PUB-0004 p.312]** — falecido em Santa Bárbara, Terceira, a 17 de abril de 1664. *Capitão de ordenanças*. Filho de **Pedro Lourenço Machado** (P-0129) × **Maria Fernandes da Costa** (P-0130), família F-0065. Casou com **Catarina Machado de Faria** (P-0128), família F-0064. Pai de **Mariana Fagundes** (P-0124).
+
+  - **Data e local de nascimento:** desconhecidos, não indicados pelo compilador. **[INFERRED]** Os pais casaram em 1598 e a filha casou em 1650, pelo que terá nascido, muito provavelmente, entre cerca de 1600 e 1615.
+  - **Casamento:** sem data, sem freguesia, sem registo **[OPEN]**.
+  - **Nacionalidade:** portuguesa (Açores, território da Coroa)
+  - **Estatuto de evidência:** tudo o que está acima é **[COMPILED]** a partir de uma única fonte secundária. Nenhum assento original que o nomeie é seguramente legível neste repositório — apenas o incerto "[António?]" no PAR-0086.
+
+  **Posição na árvore.** Pela cadeia modelada P-0127 → P-0124 → P-0092 → P-0057 → P-0056 → P-0054 → P-0017 → P-0008 → P-0004, António está oito gerações acima de Geraldo Paz Armond (P-0004) — seu 6.º bisavô (*6th-great-grandfather*) — e dez gerações acima da atual geração viva da família. O passo P-0124 → P-0092 é apenas **[COMPILED]** e depende da questão não resolvida dos "dois Gaspares"; se P-0092 for a geração seguinte, cada grau recua um.
+
+  ## Posição social e profissão
+
+  **Capitão de ordenanças [COMPILED].** As *ordenanças* eram o terceiro e mais baixo escalão da organização militar portuguesa — reserva territorial levantada freguesia a freguesia, com oficiais que eram moradores locais servindo **sem soldo** **[CONTEXTUAL]**. Uma capitania era o comando de uma dessas companhias; era conferida a um morador principal da freguesia e trazia precedência, autoridade local e obrigação de mostra, não um salário.
+
+  Daí decorrem duas consequências, e importam mais do que o título:
+
+  - **[INFERRED + CONTEXTUAL]** A posição dele **não tinha base salarial por baixo**. Uma patente sem soldo não se herda, não se vende e não se divide; acaba com o homem. O que a família possuísse em terra é-nos invisível, mas a patente diz-nos da posição, não do dinheiro.
+  - **[INFERRED]** Ainda assim, a patente é sinal de classe real. As capitanias de ordenanças não se davam a jornaleiros; marcavam a *gente principal* de uma freguesia. O pai tinha o mesmo grau, o filho Pedro Lourenço o de alferes, e a filha casou com um alferes. Ao longo de três gerações, é uma família a reproduzir-se dentro do corpo de oficiais da milícia.
+
+  **Mais nada está documentado.** Nem bens, nem testamento, nem inventário, nem alfabetização, nem outro cargo. "Fagundes", "Machado" e "de Faria" não são prova de nobreza, e nenhum registo disponível concede a esta família armas, *foro* ou *morgadio*.
+
+  ## Família e rede social
+
+  - **Pais [COMPILED]:** Pedro Lourenço Machado (n. Santa Bárbara 2 de fevereiro de 1571, f. ali a 27 de janeiro de 1655), o capitão a quem se credita uma companhia de 79 homens no Castelo de S. Filipe em 1642, e Maria Fernandes da Costa (também "de Toledo"), casados em Santa Bárbara a 14 de junho de 1598.
+  - **Mulher:** Catarina Machado de Faria (P-0128), que o Vol. IV remete para "LEMOS, § 3º, nº 5" — secção que nunca foi lida **[OPEN]**.
+  - **Filhos [COMPILED, PUB-0004 p.312]:** António Machado, *padre*; Manuel Machado, "que saiu da Terceira"; **Mariana Fagundes** (P-0124), casada a 26 de setembro de 1650 com Belchior da Ponte Cardoso; Margarida de Lemos Machado, casada com **André de Azedias**, *alferes de ordenanças*, falecida na Conceição a 15 de junho de 1658 *com testamento*; Inês de Lemos Machado, casada nas Lajes a 15 de fevereiro de 1669 com António Ferreira de Melo; Pedro Lourenço Machado, *alferes de ordenanças*, casado nas Lajes a 17 de novembro de 1669; e Guilherme Vieira.
+  - **Irmãos [COMPILED]:** entre os nove filhos de Pedro Lourenço Machado — incluindo Antão Martins Fagundes, "o Giga"; Belchior Machado Fagundes, frade franciscano; André Machado Fagundes, padre beneficiado; Manuel Machado Fagundes; e várias irmãs casadas em famílias de Santa Bárbara.
+  - **A rede de casamentos [INFERRED].** As filhas casaram para a Conceição e para as Lajes, o genro André de Azedias era ele próprio alferes, e Mariana casou com um alferes de São Sebastião. A casa casava *através* da ilha e *dentro* da camada de oficiais — padrão consistente, não coincidência.
+
+  ## O que podemos extrapolar
+
+  **Três gerações dentro da milícia, e nenhuma delas paga [INFERRED + CONTEXTUAL].** O pai comandou uma companhia; ele comandou uma companhia; o filho e o genro tiveram patentes de alferes. É uma família cuja posição visível era *inteiramente* baseada em cargo, e o cargo de *ordenanças* não produzia rendimento. Vale dizer o mecanismo com clareza, porque explica o que acontece a esta linha depois: estatuto deste tipo transmite-se como expectativa e porte, e tem de ser refundado do zero onde quer que a família vá parar. Quando os descendentes aparecem nas Minas Gerais coloniais, chegam com os hábitos de uma família de oficiais e sem o capital de uma família de oficiais.
+
+  **Uma casa que exportava filhos [COMPILED + INFERRED].** Sete filhos estão nomeados, e as notas de uma linha do compilador seguem-nos para fora: para o sacerdócio, para outras freguesias pelo casamento e — no caso de Manuel — para fora da ilha. A Terceira estava povoada havia dois séculos e estava cheia; os bens vinculados (*morgadios*) passavam intactos aos primogénitos por primogenitura, e a propriedade não vinculada fragmentava-se **[CONTEXTUAL]**. Os filhos de um capitão com sete herdeiros registados tinham de partir, casar para fora ou tomar ordens. A geração dele mostra o processo cinquenta anos antes de o ouro das Minas tornar o Brasil o destino óbvio.
+
+  **Aqui os apelidos escolhem-se, não se herdam [padrão PROVEN + COMPILED].** Ele é "Martins Fagundes" ou "Machado Fagundes"; duas filhas são "de Lemos Machado", da mãe; a família da própria mãe dele fornece o Machado. A mesma fluidez é visível nos registos de São Sebastião, do lado do genro. Não é desleixo das fontes — é como funcionava a nomeação açoriana, e é a razão pela qual buscar nestes livros só pelo apelido produz falsos negativos.
+
+  ## Questões em aberto
+
+  - **Nada de próprio está disponível em imagem.** O baptismo, o casamento e o óbito de 17 de abril de 1664 em Santa Bárbara são todos apenas compilados. Nenhum livro de óbitos de Santa Bárbara cobrindo 1664 foi identificado no lote de recolha — os livros acessíveis de Santa Bárbara são os *casamentos* C-1560-1606 e os *baptismos* B-1600-1610. Pedir ao BPAR de Angra os óbitos de Santa Bárbara de 1664 é a acção decisiva seguinte.
+  - **O assento de casamento de 1650 pode provar a paternidade.** A cláusula de filiação do PAR-0086 lê "[António?]" a 511×702 px. Uma digitalização em maior resolução do BPAR passaria a filiação de Mariana de **[COMPILED]** a **[PROVEN]** e confirmaria o nome dele em mão contemporânea.
+  - **A linha da mulher está por ler.** A remissão do Vol. IV, "LEMOS, § 3º, nº 5", não foi localizada nos nove volumes cobertos pela busca integral de 2026-09-23.
+  - **Um negativo delimitado sobre o apelido.** As 169 páginas dos *casamentos* de Santa Bárbara C-1560-1606 foram lidas e não deram **nenhuma entrada Fagundes confirmada**; os *baptismos* de Santa Bárbara de 1600–1610 também não (uma possível "Bárbora F[agun?]andes" é explicitamente incerta entre Fagundes e Fernandes). Como o compilador coloca a família do pai nessa freguesia desde a década de 1590, isto reflecte muito provavelmente danos, letra e limites de indexação — **não** é prova de que a família estivesse ausente.
+  - **A data de nascimento e a data do próprio casamento** são desconhecidas, pelo que a janela de nascimento c.1600–1615 acima é apenas inferência.
+
+  ## Fontes disponíveis (neste repositório)
+
+  - **PUB-0004** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IV, FAGUNDES § 6º, pp. 312–313: variantes do nome, patente, data de óbito, mulher, pais e os sete filhos registados. *Secundária, compilada — fonte substantiva única para ele.*
+  - **PAR-0086** — o casamento da filha Mariana, Santa Bárbara, 26 de setembro de 1650: a cláusula de filiação danificada que parece nomeá-lo "[António?]". *Primária, parcialmente legível.*
+
+  ## Contexto regional e migratório
+
+  **Santa Bárbara das Nove Ribeiras [CONTEXTUAL].** Freguesia rural do lado ocidental da Terceira, no distrito de Angra — cidade desde 1534 e sede do bispado dos Açores, e um dos grandes portos de escala do Atlântico médio para as armadas da Índia e do Brasil no regresso. A ilha vivia do trigo exportado para o reino e para as praças africanas, do corante azul *pastel* em longo declínio face ao índigo americano, do vinho e da madeira de construção naval.
+
+  **Um oficial de milícia da geração da Restauração [CONTEXTUAL].** Se nasceu entre cerca de 1600 e 1615, a sua vida adulta cobre a ruptura com Espanha em dezembro de 1640, a adesão imediata da Terceira a D. João IV e o cerco de onze meses que obrigou a guarnição castelhana do Castelo de São Filipe, sobre Angra, a capitular a 4 de março de 1642. Essa operação foi conduzida pelas *ordenanças* da Terceira e das outras ilhas — a força que ele capitaneava e em que se credita ao pai o comando de uma companhia. **Nenhum registo disponível o nomeia nela.** Teria idade para servir, e a sua companhia seria do tipo certo; é razão para procurar, não para afirmar.
+
+  **Emigração já na família, bem antes do ouro [COMPILED + CONTEXTUAL].** A narrativa habitual põe a emigração açoriana para o Brasil depois do ouro das Minas Gerais (1697) e dos controlos de passaporte de 1720. Mas um dos seus filhos está registado no século XVII apenas como tendo saído da Terceira. A pressão — ilha finita, vínculo e primogenitura, desastre sísmico recorrente — funcionava no tempo dele; só o destino mudou depois.
+
+  ## Onde ir hoje
+
+  - **Igreja de Santa Bárbara, Santa Bárbara (Angra do Heroísmo), Terceira** — a sua freguesia: onde morreu em abril de 1664, onde os pais casaram em 1598 e onde a filha Mariana casou em 1650. [RESOLVIDO — freguesia] · [Mapa](https://www.google.com/maps/search/?api=1&query=Igreja%20de%20Santa%20B%C3%A1rbara%2C%20Terceira%2C%20A%C3%A7ores)
+  - **Fortaleza de São João Baptista (antigo Castelo de São Filipe), Monte Brasil, Angra do Heroísmo, Terceira** — a fortaleza que as *ordenanças* da ilha cercaram até à rendição, em 1642, ainda de pé e visitável. Contexto para a sua patente, não lugar documentado dele. [CONTEXTUAL] · [Mapa](https://www.google.com/maps/search/?api=1&query=Fortaleza%20de%20S%C3%A3o%20Jo%C3%A3o%20Baptista%2C%20Angra%20do%20Hero%C3%ADsmo)
+  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — onde pedir o livro de óbitos de Santa Bárbara que cobre abril de 1664 e uma cópia em maior resolução do assento de casamento de 1650. · [Mapa](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)

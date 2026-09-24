@@ -1,16 +1,17 @@
 schema_version: 1
 id: P-0051
-preferred_name: Catharina Mayer
+preferred_name: Catharina Moser
 privacy: deceased
 sex: female
 nationality: Swiss
 name_variants:
-- value: Catharina Mayer
+- value: Catharina Moser
   type: source
   source_ids:
-  - PRB-0005
-- value: Catharina Moser
-  type: other
+  - PAR-0059
+  - PAR-0054
+- value: Catharina Mayer
+  type: source
   source_ids:
   - PRB-0005
 event_ids:
@@ -35,226 +36,438 @@ notes:
     de Soleure, colonos suiços" and records her as natural / baptised at Eggendorf,
     read as Hägendorf [uncertain], Canton Solothurn (Soleure), Switzerland [PROVEN
     for the canton / Swiss origin; the exact parish read is uncertain]. Surname
-    conflict preserved: the primary will (PRB-0005) writes "Mayer", but two secondary
-    Nova Friburgo colonist-family compilations (a lead, not catalogued) give "Moser"
-    (Catharina Moser of Hägendorf, Soleure, married Jacob Borer 1825).
-    "Mayer" is recorded as the source-attested form and "Moser" as an unresolved
-    variant; the retrieval note argues the two are the same person, but no primary
-    record settles the maiden surname, so neither surname is treated as certain.
+    conflict RESOLVED 2026-09-24 in favour of **Moser**, and `preferred_name` changed
+    accordingly. Two held primary records write it: her own 1825 marriage act
+    ("Catharina Moser filha legitima de Jose Moser", PAR-0059) and her son's 1832
+    baptism ("sua mulher Catharina Moser", PAR-0054). "Mayer" survives only in her
+    son's 1888 registered will (PRB-0005) — second-hand testimony about a woman
+    already long dead, 63 years after the marriage act — and is kept as a name
+    variant. An earlier note justified preferring "Mayer" on the grounds that
+    "Moser" rested only on uncatalogued colonist compilations; that reasoning was
+    superseded once PAR-0059 and PAR-0054 were catalogued. The structured data
+    already agreed: F-0048 models her as the daughter of José Moser (P-0098).
   text_pt: >-
     Nacionalidade suíça, confirmada por registro primário — o próprio casamento dela
     em Nova Friburgo, em 1825 (PAR-0059, evento E-0116): o registro paroquial nomeia
     os cônjuges "ambos do Cantão de Soleure, colonos suiços" e a lança como natural /
     batizada em Eggendorf, lido como Hägendorf [uncertain], Cantão de Solothurn
     (Soleure), Suíça [PROVEN quanto ao cantão / origem suíça; a leitura exata da
-    freguesia é incerta]. Conflito de sobrenome preservado: o testamento primário
-    (PRB-0005) escreve "Mayer", mas duas compilações secundárias de famílias de
-    colonos de Nova Friburgo (uma pista, não catalogada) trazem "Moser" (Catharina
-    Moser de Hägendorf, Soleure, casada com Jacob Borer em 1825). "Mayer" é registrado
-    como a forma atestada pela fonte e "Moser" como variante não resolvida; a nota de
-    recuperação argumenta que as duas são a mesma pessoa, mas nenhum registro
-    primário resolve o sobrenome de solteira, de modo que nenhum dos sobrenomes é
-    tratado como certo.
+    freguesia é incerta]. Conflito de sobrenome RESOLVIDO em 2026-09-24 em favor de
+    **Moser**, com alteração do `preferred_name`. Dois registros primários disponíveis
+    o escrevem: seu próprio ato de casamento de 1825 ("Catharina Moser filha legitima
+    de Jose Moser", PAR-0059) e o batismo de seu filho em 1832 ("sua mulher Catharina
+    Moser", PAR-0054). "Mayer" sobrevive apenas no testamento registrado de 1888 de
+    seu filho (PRB-0005) — testemunho de segunda mão sobre uma mulher havia muito
+    falecida, 63 anos após o ato de casamento — e é mantido como variante de nome.
+    Uma nota anterior justificava preferir "Mayer" alegando que "Moser" se apoiava
+    apenas em compilações de colonos não catalogadas; esse raciocínio foi superado
+    quando PAR-0059 e PAR-0054 foram catalogados. Os dados estruturados já
+    concordavam: F-0048 a modela como filha de José Moser (P-0098).
 profile: >-
   ## Interesting facts
 
-  - **[CONTEXTUAL]** Swiss colonists at Nova Friburgo had to be Catholic (or convert) to receive Crown land grants — this is why her 1825 marriage appears in the Catholic parish register even though the Solothurn Jura had a mixed-confession population; the Catholic requirement acted as a confessional filter on the whole emigration.
+  - **[PROVEN]** Two held primary records write her maiden surname **Moser**, not Mayer: her
+  own 1825 Nova Friburgo marriage ("Catharina Moser filha legitima de Jose Moser e de sua
+  mulher Maria Veisse [Weiss]", PAR-0059) and her son Francisco José's 1832 baptism ("sua
+  mulher Catharina Moser", PAR-0054). "Mayer" appears once, in that son's 1888 registered will
+  (PRB-0005) — dictated to an escrivão sixty-three years after the wedding, about a mother
+  long dead.
 
-  - **[CONTEXTUAL]** The 1819 emigration wave that brought her family to Brazil was driven partly by the 1816 "Year Without a Summer" — crop failures across Switzerland following the 1815 Mount Tambora eruption made the Solothurn Jura desperate enough to emigrate in whole-family groups.
+  - **[PROVEN]** The 1825 register also states where she came from: "natural e baptizada na
+  freguezia d'Eggendorf", read as **Hägendorf** [uncertain], Canton Solothurn — an origin
+  declared in the record, not inferred from a surname.
 
-  - **[INFERRED]** Her whole-family emigration from Solothurn contrasts with her husband Jacob's reported orphan arrival; having parents and siblings nearby is the most likely reason the widowed household survived Jacob's early death intact rather than dispersing.
+  - **[INFERRED]** She emigrated inside an intact family and her husband did not. Her father
+  José Moser stood godfather at their son's 1832 baptism (PAR-0054), and a Moser colonist lot
+  is credited to him [LEAD] — so the marriage put an orphan colonist inside a functioning kin
+  network, which is the likeliest reason the household held together when Jacob later died
+  away from Nova Friburgo.
 
-  - **[INFERRED]** The surname conflict ("Mayer" vs "Moser") almost certainly reflects a scribal error: a Portuguese-language will drafted two generations later, from memory, is precisely the context where a German maiden name would be misrecorded, and both "Mayer" and "Moser" are common Solothurn German surnames.
+  - **[CONTEXTUAL]** Dom João VI's 1818 decree contracted for Swiss **Catholic** families, so
+  confession was a selection filter on the whole emigration; her marriage being recorded in
+  the Nova Friburgo Catholic parish register is a consequence of the scheme's own terms, not
+  an incidental detail.
 
-  - **[PROVEN]** Her 1825 Nova Friburgo marriage register names both spouses "colonos suiços" of Canton Soleure — primary confirmation that she and Jacob were part of the same Solothurn emigration wave and not from different cantons (PAR-0059).
+  - **[CONTEXTUAL]** The 1819 wave she travelled in was driven by the 1815 Tambora eruption
+  and the 1816 "Year Without a Summer" — crop failures across Switzerland that made whole
+  Solothurn households, not just surplus sons, willing to leave.
 
-  - **[CONTEXTUAL]** Brazilian partible succession divided estates equally among all children; with nine attributed children, whatever colony lot the couple held was destined to be split nine ways, and each generation split it further — structurally preventing any heritable estate from accumulating from the original poor serra holding.
+  - **[LEAD]** She very probably outlived Jacob by at least a decade: a "Viúva Catharina
+  Bohrer" appears in the 1854–55 Nova Friburgo land registry (declaração N.217, 6 March 1855),
+  which would make her the head of the widowed household and the holder of the family's land.
 
-  - **[INFERRED]** Named "já fallecida" in the 1888 will of her son Francisco (PRB-0005), she died before both abolition (1888) and the Republic (1889), spending her entire documented life under the Brazilian Empire and its Catholic record system.
+  - **[INFERRED]** Named "já fallecida" in her son's 1888 will, she died before abolition
+  (1888) and the Republic (1889) — her whole documented life ran under the Empire and its
+  parish-register system.
 
   ## Identity
 
-  **Catharina Mayer** in the one primary record; **Catharina Moser** in the Nova Friburgo
-  colonist compilations [PROVEN for "Mayer", the will's form; "Moser" is an unresolved
-  variant, [LEAD]]. She is the mother of Francisco José Bohrer (P-0034) and hence paternal
-  grandmother of Joaquim José Bohrer (P-0030).
+  **Catharina Moser** in both held primary records; **Catharina Mayer** in the 1888 will,
+  which is the form this repository currently carries as her preferred name. She is the mother
+  of Francisco José Bohrer (P-0034) and so paternal grandmother of Joaquim José Bohrer
+  (P-0030), through whom the line reaches Celina Bohrer (P-0015) and Iris Bohrer (P-0007).
 
-  - **Death:** before 1888 [PROVEN] — named in her son's 1888 registered will (PRB-0005)
-  as "Catharina Mayer … já fallecida."
+  - **The surname question, stated exactly:** her own marriage act (PAR-0059, 1825) and her
+  son's baptism act (PAR-0054, 1832) both write **Moser**, and the marriage act names her
+  father *José Moser* — so the primary, contemporaneous record is consistent and specific. The
+  1888 will's **Mayer** is a single later, second-hand spelling. On the documents held,
+  "Moser" is the better-attested reading [PROVEN that both 1825 and 1832 write Moser]; the
+  entity's `preferred_name` and `name_variants` still record "Mayer" as the source form, and
+  that mismatch is left for central adjudication rather than settled here.
 
-  - **Origin:** Swiss — Canton Solothurn (Soleure) — **primary-confirmed** by her own 1825
-  Nova Friburgo marriage (PAR-0059, event E-0116), which names the spouses "colonos suiços"
-  of the Cantão de Soleure and records her as natural / baptised at Eggendorf, read as
-  **Hägendorf [uncertain]** [PROVEN for the canton / Swiss origin; the parish read is
-  uncertain]. **Parents:** unknown from any held record [OPEN]; the compilations name them as
-  Joseph Moser × Anne Marie Weiss of Hägendorf — [LEAD], not catalogued.
+  - **Origin:** Swiss, Canton Solothurn (Soleure) — [PROVEN] from PAR-0059 (event E-0116),
+  which calls both spouses "colonos suiços" of the "Cantão de Soleure" and records her as
+  "natural e baptizada na freguezia d'Eggendorf", read as **Hägendorf** [uncertain]. Her birth
+  date is not held.
+
+  - **Parents:** José Moser (P-0098) × Maria "Veisse" / Weiss (P-0099), named in her own 1825
+  marriage [PROVEN — PAR-0059; family F-0048]. The compilation adds that her father held a
+  Nova Friburgo colonist lot (Lote 67) [LEAD].
+
+  - **Marriage:** married Jacob Bohrer (P-0050) at Nova Friburgo on 8 August 1825 before the
+  vicar Jacob Joye, witnesses João Probst and Isabel Sch[oser — uncertain] [PROVEN — PAR-0059;
+  E-0116].
+
+  - **Death:** before 1888 [PROVEN — PRB-0005, "já fallecida"]. If she is the 1855
+  land-registry widow, she was alive in 1855 [LEAD]; no death record is held, and a Nova
+  Friburgo óbito search across the relevant unindexed years was judged impractical.
+
+  ## Standing and profession
+
+  - **No occupation, office or literacy is documented for her personally.** What the records
+  give her is a position: colonist's daughter, colonist's wife, and — on the 1855
+  land-registry lead — **head of the widowed household** holding the family's land after
+  Jacob's death. That is a real economic role, and the only one the documents assign her.
+
+  - **Property:** the household's single colonist house-and-lot (Casa 70 / Lote 56) [LEAD],
+  sold in April 1843 [LEAD]; her father's Lote 67 stands beside it as the Moser household's
+  own allotment [LEAD]. Nothing indicates holdings beyond one lot per family.
 
   ## Family and social network
 
-  Wife of Jacob Bohrer (P-0050), whom she married at Nova Friburgo in 1825 (PAR-0059, event
-  E-0116); the couple are the Bohrer line's immigrant-boundary generation (family F-0024).
-  Her one securely attested child is Francisco José Bohrer; PUB-0003 (BORER I) credits the
-  couple with nine children [LEAD].
+  - **Husband:** Jacob Bohrer (P-0050), married 1825; family F-0024, the Bohrer line's
+  immigrant-boundary couple.
+
+  - **Her own kin were present in the colony and her husband's were not.** Her father José
+  Moser and a Maria Moser were the godparents at Francisco José's 1832 baptism (PAR-0054); her
+  parents-in-law João Borer and Barbara Probst never left Switzerland. The Moser side is
+  therefore the household's entire documented kin network at Nova Friburgo.
+
+  - **Children:** Francisco José Bohrer (P-0034) is the one attested here at primary level.
+  PUB-0003 credits the couple with nine in all, two dying in infancy, and names Catharina
+  (1830), Maria (1834), Augusto (1837) and João José (1840–1859) [LEAD]; two daughters married
+  two Chaboudez brothers [LEAD].
 
   ## What we can extrapolate
 
-  The surname conflict is the crux of her record: a Portuguese-language will drafted two
-  generations later, from memory, is exactly where a German maiden name "Moser" could be
-  rendered as the more familiar "Mayer." The compilations converging on "Moser" are
-  suggestive, but nothing primary settles the maiden surname, so neither surname is treated
-  as certain. Her Swiss / Solothurn origin, by contrast, is now primary-confirmed by the
-  1825 marriage (PAR-0059). [INFERRED]
+  - **Standing acquired by neither office nor money, but by belonging [INFERRED].** Nothing
+  raises her above the colonist floor — no title, no office, no schooling in the record. What
+  she brought to the 1825 marriage was not capital but *kin*: an intact Moser household
+  already settled with its own lot. In a colony where the state package expired after two
+  years and the lots were poor, a nearby family was the difference between a household that
+  survived a shock and one that dispersed. Hers survived exactly that shock.
 
-  Her Swiss origin now confirmed, her life sits at the same socioeconomic floor as her
-  husband's, but — if the compilation holds — reached differently, as an intact family
-  rather than as an orphan. [CONTEXTUAL / INFERRED]
+  - **Wealth mechanics: two floor-level state packages joined, and nothing above them
+  [CONTEXTUAL / INFERRED].** Both families lived from the same *Decreto de 16 de maio de 1818*
+  settlement terms — a lot and a house, rations, seed and livestock, and a daily subsidy of
+  0$160 falling to 0$080 across a two-year establishment period, roughly 58$000 in the first
+  year against a free rural labourer's ~420$000 a year. The 1825 union added a second poor
+  lot's worth of family to the first; it added no heritable capital to either. There was no
+  land above the lot, no office income, no commerce yet.
 
-  - **A whole-family colony emigration** [LEAD / INFERRED] — the compilations have her Moser
-  family emigrating together in the 1819 Solothurn wave (her father Joseph Moser granted
-  colonist Lote 67, her mother Anne Marie Weiss), unlike her husband Jacob, who came out an
-  orphan. She married a fellow Solothurn colonist at the Nova Friburgo Cathedral in 1825,
-  and her daughters later married into the Chaboudez family — endogamous colony society. Her
-  parents living nearby is the likeliest reason the widowed household survived Jacob's early
-  death intact.
+  - **Widowhood gave her the property and the law then took it apart [INFERRED /
+  CONTEXTUAL].** If she is the "Viúva Catharina Bohrer" of the 1855 registry, she held and
+  worked the family land for at least a decade after Jacob died away from the colony — and
+  that is the pattern this line repeats: its women hold property in widowhood and administer
+  it as tutoras (her daughter-in-law Rosa Eugenia de Lemos is named first *testamenteira e
+  tutora* in the 1888 will), but they never accumulate it, because Brazilian partible
+  succession hands each estate on in equal shares. One poor serra lot divided among as many as
+  nine children, and again among theirs, cannot become an estate no matter who manages it
+  well.
 
-  - **She married sideways into an equally-poor household** [INFERRED] — Jacob was a
-  butcher-colonist orphan carrying no Swiss capital; the 1825 union joined two floor-level
-  colony families, adding no heritable wealth to either. This is the Bohrer arc's bottom,
-  the structural opposite of the Armond decline — there was never a fortune to lose.
-  [CONTEXTUAL]
+  - **Education was the asset her generation could not buy and the next one still had
+  [CONTEXTUAL / INFERRED].** Brazilian schooling in the 19th century was a purchased,
+  class-linked privilege with no free rural alternative, so a colonist family could not buy
+  literacy for its children. The Solothurn colonists did not have to: they arrived with
+  Catholic parish-school literacy in German. Nothing documents Catharina's own letters either
+  way, but her son Francisco José **signed** his own 1888 will, and his sons reached commerce,
+  local office and a newspaper — so on this branch the imported literacy survived the crossing
+  and was converted, one generation later, into town standing rather than land.
 
-  - **Widowhood put a small holding into her hands, then partible succession dissolved it**
-  [INFERRED / CONTEXTUAL] — after Jacob's death (~1843) she is very likely the "Viúva
-  Catharina Bohrer" of the 1855 Nova Friburgo land registry, so she held and managed the
-  family land into widowhood; but Brazilian partible succession then split that one poor lot
-  equally among the many children, and again among theirs — poor land ÷ many heirs, which
-  forecloses any estate from forming. [LEAD for the widow identification]
+  - **Migration did not change her class; it changed the risk profile of her household
+  [INFERRED].** Hägendorf smallholder's daughter to Nova Friburgo colonist's wife is a lateral
+  move — the same subsistence position, differently located. What the move altered was
+  exposure: a stony undersized lot, a subsidy designed to stop, a husband who sold up in 1843
+  and died outside the colony. That she and the children stayed in Nova Friburgo while Jacob's
+  death happened elsewhere is why the Bohrer name remains anchored to the town at all.
+
+  - **The arc, named [INFERRED].** Hägendorf smallholder's daughter (pre-1819) → colonist wife
+  on Casa 70 / Lote 56 (1825) → widow at the head of a small landholding (by 1855) → that
+  holding dissolved among many heirs → a son who dies a literate, modestly propertied townsman
+  in 1888, leaving four minor children, twenty masses for his parents and a 50$000 chapel
+  legacy. Flat-to-slightly-up, never elite: the mirror image of the family's Armond line,
+  which began at an office-and-marriage elite and fell.
 
   ## Open questions
 
-  - Her maiden surname at primary level (Mayer vs Moser) — still unresolved: the 1825
-  marriage register (PAR-0059) confirms her Swiss / Solothurn origin but does not settle the
-  maiden surname. A decisive record would be Jacob Bohrer's Nova Friburgo inventário or a
-  Swiss (Hägendorf) baptism register, which would also fix her exact birth date (not held)
-  and name her parents at primary level. [OPEN]
+  - **Her maiden surname at entity level.** The evidence question is effectively answered by
+  the two held acts (Moser, 1825 and 1832); what remains is reconciling the entity's
+  `preferred_name` ("Catharina Mayer") with them — a central data decision, not a research
+  one. A Hägendorf baptism register would independently confirm the surname and give her birth
+  date and parents at primary level. [OPEN]
+
+  - **Her death.** No record held; a Nova Friburgo óbito or civil register after 1855 would
+  fix it. A direct read of the 1854–55 Nova Friburgo land registry (declaração N.217, 6 March
+  1855) would also confirm the widow identification and may state her maiden name
+  independently. [OPEN]
 
   ## Sources held (this repository)
 
-  - PRB-0005 (Francisco José Bohrer's 1888 registered will — names her "Catharina Mayer …
-  já fallecida").
+  - PAR-0059 (her own 1825 Nova Friburgo marriage — "Catharina Moser filha legitima de Jose
+  Moser e de sua mulher Maria Veisse", "natural e baptizada na freguezia d'Eggendorf
+  [Hägendorf — uncertain]", both spouses "colonos suiços" of the Cantão de Soleure; sources
+  event E-0116).
 
-  - PAR-0059 (her and Jacob's 1825 Nova Friburgo marriage, primary parish register — names
-  both spouses "colonos suiços" of the Cantão de Soleure and records her as baptised at
-  Eggendorf, read as Hägendorf [uncertain]; the primary record that confirms her Swiss /
-  Solothurn origin and sources her birth event E-0116).
+  - PAR-0054 (her son Francisco José's 1832 Nova Friburgo baptism — "filho legitimo de Jacob
+  Bohrer e de sua mulher Catharina Moser"; godparents José Moser and Maria Moser).
+
+  - PRB-0005 (her son's 1888 registered will — "filho legitimo de Jacob Bahrer e de Catharina
+  Mayer, já fallecidos"; twenty masses ordered for both parents).
+
+  - Not held: the 1854–55 Nova Friburgo land registry entry "Viúva Catharina Bohrer"
+  (declaração N.217) — a lead.
+
+  ## Regional and migration context
+
+  She came from Hägendorf [uncertain] in Canton Solothurn and emigrated in the 1819 wave of
+  Dom João VI's Swiss colony at Nova Friburgo, created by the *Decreto de 16 de maio de 1818*
+  to settle 100 Swiss **Catholic** families on the Fazenda do Morro Queimado. [CONTEXTUAL] The
+  push was the 1816 "Year Without a Summer" famine on top of post-Napoleonic poverty and Jura
+  land hunger; recruitment overshot to some 261–265 families (roughly 1,700–2,000 people), and
+  about a quarter died at sea of typhus and scurvy. What arrived was less than promised —
+  small, steep, stony lots and inadequate support — and many colonists abandoned their plots
+  within a few years. Her household's record fits that exactly: a lot sold in 1843, a husband
+  dead outside the colony, and a widow still holding land in 1855.
 
   ## Where to go today
 
-  - **Birth (~1805):** Kath. Pfarrkirche St. Gervasius und Protasius, Hägendorf, Solothurn, Switzerland
-  (4614 Hägendorf; GPS 47.3347, 7.8445) [RESOLVED] · [Maps](https://maps.google.com/?q=47.3347,7.8445)
+  - **Birth (date unknown; parish read "Eggendorf" = Hägendorf [uncertain]):** Kath.
+  Pfarrkirche St. Gervasius und Protasius, 4614 Hägendorf, Kt. Solothurn, Switzerland (GPS
+  47.3347, 7.8445) — the parish read is uncertain; confirm before searching [PARTIAL] ·
+  [Maps](https://maps.google.com/?q=47.3347,7.8445)
 
-  - **Marriage to Jacob Borer (1825):** Catedral Diocesana / Igreja Matriz de São João Batista, Nova
-  Friburgo, RJ (Rua Monsenhor José Antônio Teixeira 23, Centro; GPS -22.28159, -42.53085) [RESOLVED] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
+  - **Marriage (8 August 1825):** Catedral Diocesana / Igreja Matriz de São João Batista, Rua
+  Monsenhor José Antônio Teixeira 23, Centro, Nova Friburgo, RJ — the 1825 marriage predates
+  the present 1869 cathedral and took place in the colony's earlier church on the same site
+  [RESOLVED] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
+
+  - **Widowhood and death (after 1855):** the Nova Friburgo land registry and the town's
+  parish and civil death registers. [OPEN]
 profile_pt: >-
-  ## Factos notáveis
+  ## Fatos interessantes
 
-  - **[CONTEXTUAL]** Os colonos suíços em Nova Friburgo precisavam ser católicos (ou converter-se) para receber sesmarias da Coroa — é por isso que o seu casamento de 1825 consta do registo paroquial católico, mesmo que o Jura de Solothurn tivesse população de confissão mista; o requisito católico funcionava como filtro confessional para toda a emigração.
+  - **[PROVEN]** Dois registros primários disponíveis grafam seu sobrenome de solteira como
+  **Moser**, não Mayer: seu próprio casamento de 1825 em Nova Friburgo ("Catharina Moser filha
+  legitima de Jose Moser e de sua mulher Maria Veisse [Weiss]", PAR-0059) e o batismo de seu
+  filho Francisco José, em 1832 ("sua mulher Catharina Moser", PAR-0054). "Mayer" aparece uma
+  única vez, no testamento registrado desse filho, em 1888 (PRB-0005) — ditado a um escrivão
+  sessenta e três anos depois do casamento, a respeito de uma mãe havia muito falecida.
 
-  - **[CONTEXTUAL]** A onda de emigração de 1819 que trouxe a sua família ao Brasil foi impulsionada em parte pelo "Ano Sem Verão" de 1816 — as falhas de colheita em toda a Suíça na sequência da erupção do Monte Tambora em 1815 tornaram o Jura de Solothurn suficientemente desesperado para emigrar em grupos familiares inteiros.
+  - **[PROVEN]** O registro de 1825 também declara de onde ela veio: "natural e baptizada na
+  freguezia d'Eggendorf", lido como **Hägendorf** [incerto], Cantão de Solothurn — origem
+  declarada no registro, não inferida de sobrenome.
 
-  - **[INFERRED]** A emigração familiar completa de Solothurn contrasta com a chegada reportada do marido Jacob como órfão; ter pais e irmãos por perto é a explicação mais plausível para que o agregado viúvo tenha sobrevivido à morte prematura de Jacob sem se dispersar.
+  - **[INFERRED]** Ela emigrou dentro de uma família intacta, e o marido não. Seu pai, José
+  Moser, foi padrinho do batismo do filho do casal em 1832 (PAR-0054), e atribui-se a ele um
+  lote de colono [LEAD] — de modo que o casamento colocou um colono órfão dentro de uma rede
+  de parentesco em funcionamento, o que é a razão mais provável de o domicílio ter se mantido
+  quando Jacob mais tarde morreu longe de Nova Friburgo.
 
-  - **[INFERRED]** O conflito de apelido ("Mayer" vs "Moser") reflecte quase certamente um erro de escrivão: um testamento redigido em português duas gerações depois, de memória, é precisamente o contexto em que um apelido alemão materno seria mal registado; e tanto "Mayer" como "Moser" são apelidos alemães comuns em Solothurn.
+  - **[CONTEXTUAL]** O decreto de 1818 de Dom João VI contratava famílias suíças
+  **católicas**, de modo que a confissão foi um filtro de seleção sobre toda a emigração; o
+  registro de seu casamento no livro paroquial católico de Nova Friburgo é consequência dos
+  próprios termos do esquema, não um detalhe incidental.
 
-  - **[PROVEN]** O registo de casamento de Nova Friburgo de 1825 designa ambos os cônjuges "colonos suiços" do Cantão de Soleure — confirmação primária de que ela e Jacob pertenciam à mesma vaga de emigração de Solothurn e não provinham de cantões diferentes (PAR-0059).
+  - **[CONTEXTUAL]** A leva de 1819 em que viajou foi impulsionada pela erupção do Tambora em
+  1815 e pelo "Ano Sem Verão" de 1816 — quebras de safra por toda a Suíça que tornaram
+  domicílios inteiros de Solothurn, e não apenas filhos excedentes, dispostos a partir.
 
-  - **[CONTEXTUAL]** A sucessão partilhável brasileira dividia os espólios em partes iguais por todos os filhos; com nove filhos atribuídos, qualquer lote colonial do casal estava destinado a ser dividido em nove partes — e cada geração voltava a dividir — impedindo estruturalmente a acumulação de qualquer herança significativa a partir do pobre lote serrano original.
+  - **[LEAD]** Muito provavelmente sobreviveu a Jacob por pelo menos uma década: uma "Viúva
+  Catharina Bohrer" figura no registro de terras de Nova Friburgo de 1854–55 (declaração
+  N.217, 6 de março de 1855), o que faria dela a chefe do domicílio viúvo e a detentora da
+  terra da família.
 
-  - **[INFERRED]** Referida como "já fallecida" no testamento de 1888 do filho Francisco (PRB-0005), morreu antes tanto da abolição (1888) como da República (1889), vivendo toda a sua vida documentada sob o Império brasileiro e o sistema de registos paroquiais católicos.
+  - **[INFERRED]** Nomeada "já fallecida" no testamento do filho, em 1888, morreu antes da
+  abolição (1888) e da República (1889) — toda a sua vida documentada correu sob o Império e
+  seu sistema de registros paroquiais.
 
   ## Identidade
 
-  **Catharina Mayer** no único registro primário; **Catharina Moser** nas compilações de
-  colonos de Nova Friburgo [PROVEN para "Mayer", a forma do testamento; "Moser" é uma
-  variante não resolvida, [LEAD]]. Ela é a mãe de Francisco José Bohrer (P-0034) e,
-  portanto, avó paterna de Joaquim José Bohrer (P-0030).
+  **Catharina Moser** nos dois registros primários disponíveis; **Catharina Mayer** no
+  testamento de 1888, forma que este repositório hoje carrega como nome preferencial. É a mãe
+  de Francisco José Bohrer (P-0034) e, portanto, avó paterna de Joaquim José Bohrer (P-0030),
+  por quem a linha chega a Celina Bohrer (P-0015) e a Iris Bohrer (P-0007).
 
-  - **Óbito:** antes de 1888 [PROVEN] — nomeada no testamento registrado de 1888 de seu
-  filho (PRB-0005) como "Catharina Mayer … já fallecida".
+  - **A questão do sobrenome, posta com exatidão:** seu próprio ato de casamento (PAR-0059,
+  1825) e o ato de batismo do filho (PAR-0054, 1832) grafam ambos **Moser**, e o ato de
+  casamento nomeia seu pai *José Moser* — o registro primário e contemporâneo é, portanto,
+  coerente e específico. O **Mayer** do testamento de 1888 é uma única grafia posterior e de
+  segunda mão. Pelos documentos disponíveis, "Moser" é a leitura mais bem atestada [PROVEN que
+  tanto 1825 quanto 1832 grafam Moser]; o `preferred_name` e os `name_variants` da entidade
+  ainda registram "Mayer" como forma da fonte, e essa divergência fica para decisão central,
+  não é resolvida aqui.
 
-  - **Origem:** suíça — Cantão de Solothurn (Soleure) — **confirmada por registro primário**
-  pelo seu próprio casamento em Nova Friburgo, em 1825 (PAR-0059, evento E-0116), que nomeia
-  os cônjuges "colonos suiços" do Cantão de Soleure e a lança como natural / batizada em
-  Eggendorf, lido como **Hägendorf [uncertain]** [PROVEN quanto ao cantão / origem suíça; a
-  leitura da freguesia é incerta]. **Pais:** desconhecidos em qualquer registro disponível
-  [OPEN]; as compilações os nomeiam como Joseph Moser × Anne Marie Weiss, de Hägendorf —
-  [LEAD], não catalogado.
+  - **Origem:** suíça, Cantão de Soleure (Solothurn) — [PROVEN] por PAR-0059 (evento E-0116),
+  que chama os dois cônjuges de "colonos suiços" do "Cantão de Soleure" e a registra como
+  "natural e baptizada na freguezia d'Eggendorf", lido como **Hägendorf** [incerto]. Sua data
+  de nascimento não está documentada.
+
+  - **Pais:** José Moser (P-0098) × Maria "Veisse" / Weiss (P-0099), nomeados em seu próprio
+  casamento de 1825 [PROVEN — PAR-0059; família F-0048]. A compilação acrescenta que o pai
+  detinha um lote de colono em Nova Friburgo (Lote 67) [LEAD].
+
+  - **Casamento:** casou-se com Jacob Bohrer (P-0050) em Nova Friburgo, em 8 de agosto de
+  1825, perante o vigário Jacob Joye, testemunhas João Probst e Isabel Sch[oser — incerto]
+  [PROVEN — PAR-0059; E-0116].
+
+  - **Óbito:** antes de 1888 [PROVEN — PRB-0005, "já fallecida"]. Se for a viúva do registro
+  de terras de 1855, estava viva em 1855 [LEAD]; nenhum registro de óbito está disponível, e
+  uma busca no livro de óbitos de Nova Friburgo pelos anos não indexados pertinentes foi
+  julgada impraticável.
+
+  ## Posição social e profissão
+
+  - **Nenhuma ocupação, cargo ou alfabetização está documentada para ela pessoalmente.** O que
+  os registros lhe dão é uma posição: filha de colono, esposa de colono e — pela pista do
+  registro de terras de 1855 — **chefe do domicílio viúvo**, detentora da terra da família
+  após a morte de Jacob. É um papel econômico real, e o único que os documentos lhe atribuem.
+
+  - **Propriedade:** a única casa-e-lote de colono do domicílio (Casa 70 / Lote 56) [LEAD],
+  vendida em abril de 1843 [LEAD]; o Lote 67 do pai dela está ao lado, como a alocação do
+  próprio domicílio Moser [LEAD]. Nada indica posses além de um lote por família.
 
   ## Família e rede social
 
-  Esposa de Jacob Bohrer (P-0050), com quem se casou em Nova Friburgo em 1825 (PAR-0059,
-  evento E-0116); o casal é a geração que marca a fronteira imigratória da linha Bohrer
-  (família F-0024). Seu único filho seguramente atestado é Francisco José Bohrer; PUB-0003
-  (BORER I) atribui ao casal nove filhos [LEAD].
+  - **Marido:** Jacob Bohrer (P-0050), casados em 1825; família F-0024, o casal que marca a
+  fronteira imigratória da linha Bohrer.
+
+  - **A parentela dela estava na colônia; a dele, não.** Seu pai José Moser e uma Maria Moser
+  foram os padrinhos do batismo de Francisco José em 1832 (PAR-0054); os sogros João Borer e
+  Barbara Probst nunca deixaram a Suíça. O lado Moser é, portanto, toda a rede de parentesco
+  documentada do domicílio em Nova Friburgo.
+
+  - **Filhos:** Francisco José Bohrer (P-0034) é o atestado aqui em nível primário. PUB-0003
+  atribui nove ao casal, dois falecidos na infância, e nomeia Catharina (1830), Maria (1834),
+  Augusto (1837) e João José (1840–1859) [LEAD]; duas filhas casaram-se com dois irmãos
+  Chaboudez [LEAD].
 
   ## O que podemos extrapolar
 
-  O conflito de sobrenome é o ponto central de seu registro: um testamento em português,
-  redigido duas gerações depois, de memória, é exatamente onde um sobrenome de solteira
-  alemão "Moser" poderia ser grafado como o mais familiar "Mayer". A convergência das
-  compilações em "Moser" é sugestiva, mas nada primário resolve o sobrenome de solteira, de
-  modo que nenhum dos sobrenomes é tratado como certo. Sua origem suíça / de Solothurn, por
-  outro lado, está agora confirmada por registro primário pelo casamento de 1825 (PAR-0059).
-  [INFERRED]
+  - **Posição adquirida nem por cargo nem por dinheiro, mas por pertencimento [INFERRED].**
+  Nada a eleva acima do piso colono — nenhum título, nenhum cargo, nenhuma escolarização no
+  registro. O que ela trouxe ao casamento de 1825 não foi capital, e sim *parentela*: um
+  domicílio Moser intacto, já assentado e com lote próprio. Numa colônia em que o pacote
+  estatal expirava em dois anos e os lotes eram pobres, uma família por perto era a diferença
+  entre um domicílio que sobrevive a um choque e outro que se dispersa. O dela sobreviveu
+  exatamente a esse choque.
 
-  Sua origem suíça agora confirmada, sua vida situa-se no mesmo piso socioeconômico que a do
-  marido, mas — se a compilação se sustentar — alcançado de outra forma, como família intacta
-  e não como órfã. [CONTEXTUAL / INFERRED]
+  - **Mecânica da riqueza: dois pacotes estatais de piso somados, e nada acima deles
+  [CONTEXTUAL / INFERRED].** As duas famílias viviam dos mesmos termos de assentamento do
+  *Decreto de 16 de maio de 1818* — lote e casa, víveres, sementes e gado, e subsídio diário
+  de 0$160 caindo a 0$080 ao longo de dois anos de estabelecimento, cerca de 58$000 no
+  primeiro ano contra os ~420$000 anuais de um trabalhador rural livre. A união de 1825
+  acrescentou à primeira família o equivalente a um segundo lote pobre de gente; não
+  acrescentou capital herdável a nenhuma delas. Não havia terra acima do lote, nem renda de
+  cargo, nem comércio ainda.
 
-  - **Uma emigração de família inteira para a colônia** [LEAD / INFERRED] — as compilações
-  têm sua família Moser emigrando junta na leva de Solothurn de 1819 (seu pai Joseph Moser
-  recebeu o lote de colono 67, sua mãe Anne Marie Weiss), ao contrário do marido Jacob, que
-  veio órfão. Casou-se com um colono conterrâneo de Solothurn na Catedral de Nova Friburgo
-  em 1825, e suas filhas mais tarde se casaram com a família Chaboudez — sociedade colonial
-  endogâmica. Ter os pais por perto é a razão mais provável de o lar viúvo ter sobrevivido
-  intacto à morte precoce de Jacob.
+  - **A viuvez lhe deu a propriedade, e a lei em seguida a desmontou [INFERRED /
+  CONTEXTUAL].** Se ela é a "Viúva Catharina Bohrer" do registro de 1855, deteve e trabalhou a
+  terra da família por pelo menos uma década depois de Jacob morrer longe da colônia — e esse
+  é o padrão que esta linha repete: suas mulheres detêm propriedade na viuvez e a administram
+  como tutoras (a nora, Rosa Eugenia de Lemos, é nomeada primeira *testamenteira e tutora* no
+  testamento de 1888), mas nunca a acumulam, porque a sucessão partível brasileira repassa
+  cada espólio em quinhões iguais. Um lote serrano pobre dividido entre até nove filhos, e
+  outra vez entre os filhos destes, não vira patrimônio por melhor que seja administrado.
 
-  - **Ela casou-se lateralmente com um lar igualmente pobre** [INFERRED] — Jacob era um
-  açougueiro-colono órfão que não trazia capital suíço; a união de 1825 juntou duas famílias
-  coloniais de nível de chão, sem acrescentar riqueza herdável a nenhuma. Este é o fundo do
-  arco Bohrer, o oposto estrutural do declínio Armond — nunca houve uma fortuna a perder.
-  [CONTEXTUAL]
+  - **A educação era o ativo que a geração dela não podia comprar e que a seguinte ainda tinha
+  [CONTEXTUAL / INFERRED].** A escolarização brasileira no século XIX era privilégio comprado
+  e ligado à classe, sem alternativa rural gratuita; uma família de colonos não podia comprar
+  alfabetização para os filhos. Os colonos de Solothurn não precisaram: chegaram com
+  alfabetização de escola paroquial católica em alemão. Nada documenta as letras da própria
+  Catharina em um sentido ou no outro, mas seu filho Francisco José **assinou** o próprio
+  testamento de 1888, e os filhos dele chegaram ao comércio, a cargo local e a um jornal —
+  nesse ramo, portanto, a alfabetização importada sobreviveu à travessia e foi convertida, uma
+  geração depois, em posição urbana, não em terra.
 
-  - **A viuvez pôs uma pequena posse em suas mãos, e depois a sucessão partível a dissolveu**
-  [INFERRED / CONTEXTUAL] — após a morte de Jacob (~1843), ela é muito provavelmente a "Viúva
-  Catharina Bohrer" do registro de terras de Nova Friburgo de 1855, de modo que deteve e
-  administrou a terra da família na viuvez; mas a sucessão partível brasileira dividiu em
-  seguida aquele único lote pobre igualmente entre os muitos filhos, e de novo entre os
-  filhos destes — terra pobre ÷ muitos herdeiros, o que impede a formação de qualquer
-  patrimônio. [LEAD quanto à identificação da viúva]
+  - **A migração não mudou sua classe; mudou o perfil de risco do domicílio [INFERRED].** De
+  filha de pequeno lavrador de Hägendorf a esposa de colono em Nova Friburgo há um passo
+  lateral — a mesma posição de subsistência, em outro lugar. O que a mudança alterou foi a
+  exposição: um lote pedregoso e subdimensionado, um subsídio projetado para acabar, um marido
+  que vendeu tudo em 1843 e morreu fora da colônia. Que ela e os filhos tenham permanecido em
+  Nova Friburgo enquanto a morte de Jacob aconteceu alhures é a razão pela qual o nome Bohrer
+  segue ancorado à vila.
+
+  - **O arco, nomeado [INFERRED].** Filha de pequeno lavrador de Hägendorf (pré-1819) → esposa
+  de colono na Casa 70 / Lote 56 (1825) → viúva à frente de uma pequena posse de terra (até
+  1855) → essa posse dissolvida entre muitos herdeiros → um filho que morre em 1888 como homem
+  da vila, alfabetizado e modestamente proprietário, deixando quatro filhos menores, vinte
+  missas pelos pais e um legado de 50$000 a uma capela. Plano a levemente ascendente, nunca de
+  elite: a imagem espelhada da linha Armond da família, que partiu de uma elite de cargo e
+  casamento e caiu.
 
   ## Questões em aberto
 
-  - Seu sobrenome de solteira em nível primário (Mayer vs Moser) — ainda não resolvido: o
-  registro de casamento de 1825 (PAR-0059) confirma sua origem suíça / de Solothurn, mas não
-  resolve o sobrenome de solteira. Um registro decisivo seria o inventário de Nova Friburgo
-  de Jacob Bohrer ou um registro de batismo suíço (Hägendorf), que também fixaria sua data
-  exata de nascimento (não disponível) e nomearia seus pais em nível primário. [OPEN]
+  - **Seu sobrenome de solteira no nível da entidade.** A questão de evidência está, na
+  prática, respondida pelos dois atos disponíveis (Moser, 1825 e 1832); resta conciliar o
+  `preferred_name` da entidade ("Catharina Mayer") com eles — decisão central de dados, não de
+  pesquisa. Um livro de batismos de Hägendorf confirmaria o sobrenome de forma independente e
+  daria sua data de nascimento e seus pais em nível primário. [OPEN]
+
+  - **Seu óbito.** Nenhum registro disponível; um assento paroquial ou civil de Nova Friburgo
+  posterior a 1855 o fixaria. Uma leitura direta do registro de terras de Nova Friburgo de
+  1854–55 (declaração N.217, 6 de março de 1855) também confirmaria a identificação da viúva e
+  pode declarar seu nome de solteira de forma independente. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
-  - PRB-0005 (testamento registrado de 1888 de Francisco José Bohrer — a nomeia "Catharina
-  Mayer … já fallecida").
+  - PAR-0059 (seu próprio casamento de 1825 em Nova Friburgo — "Catharina Moser filha legitima
+  de Jose Moser e de sua mulher Maria Veisse", "natural e baptizada na freguezia d'Eggendorf
+  [Hägendorf — incerto]", ambos os cônjuges "colonos suiços" do Cantão de Soleure; fundamenta
+  o evento E-0116).
 
-  - PAR-0059 (casamento de 1825 dela e de Jacob em Nova Friburgo, registro paroquial
-  primário — nomeia ambos os cônjuges "colonos suiços" do Cantão de Soleure e a lança como
-  batizada em Eggendorf, lido como Hägendorf [uncertain]; o registro primário que confirma
-  sua origem suíça / de Solothurn e fundamenta seu evento de nascimento E-0116).
+  - PAR-0054 (batismo de 1832, em Nova Friburgo, de seu filho Francisco José — "filho legitimo
+  de Jacob Bohrer e de sua mulher Catharina Moser"; padrinhos José Moser e Maria Moser).
+
+  - PRB-0005 (testamento registrado de 1888 do filho — "filho legitimo de Jacob Bahrer e de
+  Catharina Mayer, já fallecidos"; vinte missas mandadas dizer por ambos os pais).
+
+  - Não disponível: o assento do registro de terras de Nova Friburgo de 1854–55 "Viúva
+  Catharina Bohrer" (declaração N.217) — uma pista.
+
+  ## Contexto regional e migratório
+
+  Veio de Hägendorf [incerto], no Cantão de Solothurn, e emigrou na leva de 1819 da colônia
+  suíça de Dom João VI em Nova Friburgo, criada pelo *Decreto de 16 de maio de 1818* para
+  assentar 100 famílias suíças **católicas** na Fazenda do Morro Queimado. [CONTEXTUAL] O
+  empurrão foi a fome do "Ano Sem Verão" de 1816 sobre a pobreza pós-napoleônica e a fome de
+  terra do Jura; o recrutamento excedeu para cerca de 261–265 famílias (aproximadamente
+  1.700–2.000 pessoas), e cerca de um quarto morreu no mar de tifo e escorbuto. O que chegou
+  foi menos do que o prometido — lotes pequenos, íngremes e pedregosos e apoio insuficiente —
+  e muitos colonos abandonaram as glebas em poucos anos. O registro de seu domicílio
+  encaixa-se nisso exatamente: um lote vendido em 1843, um marido morto fora da colônia e uma
+  viúva ainda com terra em 1855.
 
   ## Onde ir hoje
 
-  - **Nascimento (~1805):** Kath. Pfarrkirche St. Gervasius und Protasius, Hägendorf, Solothurn, Suíça
-  (4614 Hägendorf; GPS 47.3347, 7.8445) [RESOLVED] · [Maps](https://maps.google.com/?q=47.3347,7.8445)
+  - **Nascimento (data desconhecida; freguesia lida "Eggendorf" = Hägendorf [incerto]):**
+  Kath. Pfarrkirche St. Gervasius und Protasius, 4614 Hägendorf, Kt. Solothurn, Suíça (GPS
+  47.3347, 7.8445) — a leitura da freguesia é incerta; confirmar antes de buscar [PARCIAL] ·
+  [Maps](https://maps.google.com/?q=47.3347,7.8445)
 
-  - **Casamento com Jacob Borer (1825):** Catedral Diocesana / Igreja Matriz de São João Batista, Nova
-  Friburgo, RJ (Rua Monsenhor José Antônio Teixeira 23, Centro; GPS -22.28159, -42.53085) [RESOLVED] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
+  - **Casamento (8 de agosto de 1825):** Catedral Diocesana / Igreja Matriz de São João
+  Batista, Rua Monsenhor José Antônio Teixeira 23, Centro, Nova Friburgo, RJ — o casamento de
+  1825 é anterior à atual catedral de 1869 e ocorreu na igreja anterior da colônia, no mesmo
+  sítio [RESOLVED] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
+
+  - **Viuvez e óbito (após 1855):** o registro de terras de Nova Friburgo e os livros de óbito
+  paroquiais e civis da vila. [OPEN]

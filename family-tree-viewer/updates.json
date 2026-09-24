@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T12:19:31Z",
+ "generated": "2026-09-24T14:08:34Z",
  "updates": [
   {
    "date": "2026-09-23",
@@ -21,15 +21,6 @@
    "title_pt": "Correção: Valentim Martinho Bohrer nasceu em 14 de novembro de 1868, não em setembro — o registro de batismo lê 'nascido a quatorze de Novembro'",
    "links": [
     "P-0028"
-   ]
-  },
-  {
-   "date": "2026-09-23",
-   "kind": "correction",
-   "title": "Correction: the family's António Engrácio Filho's given name is Houver — proven from his own signature on a held document",
-   "title_pt": "Correção: o nome completo de António Engrácio Filho da família é Houver — comprovado pela sua própria assinatura num documento em mãos",
-   "links": [
-    "P-0010"
    ]
   },
   {
@@ -771,8 +762,8 @@
   {
    "date": "2026-09-09",
    "kind": "document",
-   "title": "1825 marriage of Jacob Bohrer and Catharina Moser at Nova Friburgo — Swiss colonists of Erschwil and Hägendorf [uncertain], Canton Solothurn",
-   "title_pt": "Casamento de 1825 de Jacob Bohrer e Catharina Moser em Nova Friburgo — colonos suíços de Erschwil e Hägendorf [incerto], Cantão de Soleure",
+   "title": "1825 marriage of Jacob Bohrer and Catharina Moser at Nova Friburgo — Swiss colonists of Beinwil [register writes \"Erswill\"] and Hägendorf [uncertain], Canton Solothurn",
+   "title_pt": "Casamento de 1825 de Jacob Bohrer e Catharina Moser em Nova Friburgo — colonos suíços de Beinwil [o registro grafa \"Erswill\"] e Hägendorf [incerto], Cantão de Soleure",
    "primary": "PAR-0059",
    "links": [
     "P-0050"

@@ -26,62 +26,245 @@ notes:
 profile: >-
   ## Interesting facts
 
-  - **[PROVEN]** Described in the 1847 Nova Friburgo Lutheran marriage register as "dem Schweizer Colonisten Joseph [St]offel" — his Swiss origin and colonist status are record-stated facts, not inferences from his surname. He is one of only a handful of people in this archive whose Swiss identity is explicitly attested by the word "Schweizer" in the source. (PAR-0067)
+  - **[PROVEN]** His entry in the record contains a word that almost nothing else in this group
+  does: "dem **Schweizer** Colonisten Joseph [St]offel". A held document calls him a Swiss
+  colonist in so many words. Everywhere else in this cluster, Swiss or German origin has to be
+  argued from a parish reading or left open — for Joseph Stoffel the register simply says it.
+  (PAR-0067)
 
-  - **[CONTEXTUAL]** His presence in the Nova Friburgo Lutheran congregation as an explicit Swiss colonist represents a minority within a minority: most Swiss recruits to Nova Friburgo were Catholic, so a Swiss Protestant colonist documented in a Lutheran register is a notable exception to the general pattern.
+  - **[PROVEN]** He was a Swiss named in a *German* Lutheran register, at his daughter's wedding
+  to the son of the congregation's church warden. Nova Friburgo's Swiss intake was recruited as
+  Catholic; a Swiss man documented inside the Protestant community is a real exception to the
+  colony's usual shape, and the record makes it plain rather than leaving it to inference.
 
-  - **[INFERRED]** Given that his daughter married in 1847 as an adult, Joseph was likely among the founding generation of Swiss settlers who arrived 1819–1820 — old enough on arrival to have had children who reached adulthood by the 1840s.
+  - **[PROVEN]** The 1847 act describes his daughter as an unmarried daughter — "ehel[iche]
+  ledige Tochter" — of him, without any death qualifier. He appears to have been alive at the
+  wedding, which is as close to a life date as any held source comes.
+
+  - **[uncertain]** Even the surname is not fully secure: the transcription carries the initial
+  letters as "[St]offel" in both places the name appears, because the Kurrent hand is ambiguous
+  at that point.
 
   ## Identity
 
-  **Joseph Stoffel** — father of Maria Luiza (Louisa) Stoffel (P-0108), expressly recorded as
-  a "Schweizer Colonist" (Swiss colonist) in the 1847 Lutheran marriage register of Nova Friburgo.
-  [PROVEN]
+  **Joseph Stoffel** — father of Maria Luiza (Louisa) Stoffel (P-0108), named once, in his
+  daughter's 1847 Lutheran marriage act at Nova Friburgo, and expressly described there as a
+  Swiss colonist. Iris Bohrer Muniz's (P-0007) 3×-great-grandfather, by the chain Maria Luiza
+  Stoffel → Maria Luiza Schenkel (P-0104) → Carolina Klein (P-0029) → João Gonçalves Bohrer
+  (P-0014). [PROVEN that he is named; degree derived from the family links]
 
-  - **Role:** father of Maria Luiza Stoffel (P-0108; family F-0057, father-only node); Iris Bohrer
-  Muniz's 3×-great-grandfather on the Stoffel line. [PROVEN]
+  - **Named in one record:** "Louisa [St]offel, ehel[iche] ledige Tochter von dem Schweizer
+  Colonisten Joseph [St]offel" (PAR-0067, 3 February 1847). He is modelled as a father-only
+  node, family F-0057. [PROVEN]
 
-  - **Swiss origin stated by the record:** the 1847 Lutheran marriage (PAR-0067) names him as
-  "dem Schweizer Colonisten Joseph [St]offel" — his Swiss identity and his occupation as a colonist
-  are record-stated, not inferred from the surname. [PROVEN]
+  - **Nationality and status:** Swiss, and a colonist of the Nova Friburgo settlement — both
+  stated by the record, neither inferred from his surname. [PROVEN]
+
+  - **Wife, birth, death, canton of origin:** none documented. His wife is not named at all.
+  [OPEN]
+
+  ## Standing and profession
+
+  One word again, and it is a good one: *Colonist*. In the Nova Friburgo registers that
+  designates a settler of the colonization scheme — a grant-holder, not a labourer or a
+  passer-through. Which lot he held, what he farmed, whether he could write: none of it is
+  recorded. He was a Swiss colonist, and beyond that the sources are silent.
+
+  ## Family and social network
+
+  His one documented act is giving a daughter in marriage. Louisa married Conrad Schenkel on 3
+  February 1847 at the Nova Friburgo Lutheran church, with two merchant witnesses named
+  Lenenroth and the pastor Gustav Lenenroth officiating. The groom's father was the
+  congregation's *Kirchenvorsteher*. [PROVEN — PAR-0067] That is the entire social picture: a
+  Swiss colonist's daughter marrying into the family of a German church warden, inside one small
+  congregation.
+
+  His wife is nowhere named, which is why his daughter's own nationality is left unset in this
+  archive rather than assumed to be Swiss.
+
+  ## What we can extrapolate
+
+  - **[CONTEXTUAL]** "Swiss colonist" at Nova Friburgo in 1847 most naturally means the 1819–20
+  intake, recruited under Dom João VI's decree of 16 May 1818 and swollen by over-recruitment to
+  some 261–265 families from Fribourg, Solothurn, Valais and Bern. A daughter of marriageable
+  age in 1847 is consistent with a father who arrived as an adult in that cohort — an inference
+  from arithmetic and cohort history, not a documented arrival.
+
+  - **[CONTEXTUAL]** That cohort left Switzerland under the 1816–17 harvest failures,
+  post-Napoleonic poverty and land fragmentation, travelled from Estavayer-le-Lac on 4 July 1819
+  through Basel and Rotterdam, and lost roughly a quarter of its people to typhus and scurvy at
+  sea. A man who survived that and was still holding colonist status in the 1840s had already
+  outlasted the worst of the scheme.
+
+  - **[INFERRED]** His importance to this tree is evidential rather than biographical. He is the
+  point where a Swiss strand enters the Klein/Schenkel line, and he corrects the tempting
+  assumption that everything in the Lutheran register is German. That single word in his
+  daughter's marriage act is worth more than a page of speculation about his life.
 
   ## Open questions
 
-  - His wife, birth date, origin canton, and death record are not yet located; no record of him
-  beyond this single mention is held. [OPEN]
+  - His canton and parish of origin. The record says "Swiss" and stops; no held source narrows
+  it. [OPEN]
+
+  - His wife, entirely unnamed. [OPEN]
+
+  - His birth and death, and which colonist lot he held. The Fundação D. João VI's book of house
+  and lot distributions is the natural place to look for a Stoffel entry. [OPEN]
+
+  - Whether the Stoffels came with the 1819–20 Swiss wave or later. [OPEN]
 
   ## Sources held (this repository)
 
-  - PAR-0067 (his daughter's 1847 Lutheran marriage — names him as father and expressly as
-  a Swiss colonist).
+  - **PAR-0067** — his daughter Louisa's 1847 Lutheran marriage to Conrad Schenkel at Nova
+  Friburgo; the sole held record naming him, and the source of both his Swiss origin and his
+  colonist status.
+
+  ## Regional and migration context
+
+  Nova Friburgo was created by Dom João VI's decree of 16 May 1818, which contracted the
+  Fribourg agent Sébastien-Nicolas Gachet to settle 100 Swiss Catholic families on the Fazenda
+  do Morro Queimado; the recruitment overshot, the crossing killed about a quarter of those who
+  embarked, and the settlement became Vila de Nova Friburgo on 3 January 1820. [CONTEXTUAL] The
+  land handed to the survivors was stony and the plots small, and many abandoned them within a
+  few years. [CONTEXTUAL] A German second wave arrived in May 1824 and founded the Lutheran
+  congregation — the community in whose register Joseph Stoffel, a Swiss, is recorded. The two
+  migrations were distinct in origin and confession and thoroughly mixed in practice. [PROVEN
+  for his appearance there; CONTEXTUAL for the rest]
+
+  ## Where to go today
+
+  - **Comunidade Evangélica de Nova Friburgo (IECLB)** — Av. Dr. Galdino do Valle Filho 1,
+  Centro, Nova Friburgo, RJ · [Maps](https://maps.google.com/?q=-22.28705,-42.53424). The
+  continuing community of the congregation whose 1847 register is the only document naming him.
+  [RESOLVED]
+
+  - **Historic colony core, Nova Friburgo** — Praça Getúlio Vargas / Praça Dermerval Barbosa
+  Moreira, Centro · [Maps](https://maps.google.com/?q=-22.28035,-42.53284). The former Fazenda
+  do Morro Queimado, where the colonist lots were laid out. His lot is unidentified, so this is
+  the ground rather than an address. [APPROX]
+
+  - **Switzerland — canton unlocated.** He is called Swiss and nothing more. Until a lot list,
+  ship list or a second record names his canton, there is no origin parish to visit, and
+  guessing one from the surname would be exactly the error this archive refuses. [UNLOCATED]
 profile_pt: >-
   ## Fatos interessantes
 
-  - **[PROVEN]** Descrito no registro de casamento luterano de Nova Friburgo de 1847 como "dem Schweizer Colonisten Joseph [St]offel" — sua origem suíça e condição de colono são fatos declarados pelo registro, não inferências a partir do sobrenome. É um dos poucos indivíduos neste arquivo cuja identidade suíça é explicitamente atestada pela palavra "Schweizer" na fonte. (PAR-0067)
+  - **[PROVEN]** Seu assento contém uma palavra que quase nada mais neste grupo contém: "dem
+  **Schweizer** Colonisten Joseph [St]offel". Um documento retido o chama de colono suíço com
+  todas as letras. Em todo o resto deste conjunto, a origem suíça ou alemã precisa ser
+  argumentada a partir da leitura de uma freguesia, ou fica em aberto — no caso de Joseph
+  Stoffel, o livro simplesmente o diz. (PAR-0067)
 
-  - **[CONTEXTUAL]** Sua presença na congregação luterana de Nova Friburgo como colono suíço explícito representa uma minoria dentro de uma minoria: a maioria dos suíços recrutados para Nova Friburgo era católica, de modo que um colono protestante suíço documentado num registro luterano é uma exceção notável ao padrão geral.
+  - **[PROVEN]** Ele era um suíço nomeado num livro luterano *alemão*, no casamento da filha com
+  o filho do presbítero da congregação. A entrada suíça de Nova Friburgo foi recrutada como
+  católica; um suíço documentado dentro da comunidade protestante é uma exceção real ao formato
+  habitual da colônia, e o registro o torna explícito em vez de deixá-lo à inferência.
 
-  - **[INFERRED]** Dado que sua filha casou em 1847 já adulta, Joseph era provavelmente da geração fundadora de colonos suíços que chegou em 1819–1820 — velho o suficiente na chegada para ter tido filhos que alcançaram a maioridade na década de 1840.
+  - **[PROVEN]** O assento de 1847 descreve a filha como filha solteira — "ehel[iche] ledige
+  Tochter" — dele, sem qualquer qualificador de falecimento. Parece ter estado vivo no
+  casamento, o que é o mais próximo de uma data de vida que qualquer fonte retida oferece.
+
+  - **[incerto]** Nem o sobrenome está plenamente seguro: a transcrição traz as letras iniciais
+  como "[St]offel" nas duas ocorrências do nome, porque a mão Kurrent é ambígua naquele ponto.
 
   ## Identidade
 
-  **Joseph Stoffel** — pai de Maria Luiza (Louisa) Stoffel (P-0108), expressamente registrado
-  como "Schweizer Colonist" (colono suíço) no registro do casamento luterano de 1847 em Nova
-  Friburgo. [PROVEN]
+  **Joseph Stoffel** — pai de Maria Luiza (Louisa) Stoffel (P-0108), nomeado uma única vez, no
+  assento de casamento luterano da filha, em 1847, em Nova Friburgo, e ali expressamente
+  descrito como colono suíço. Tetravô de Iris Bohrer Muniz (P-0007), pela cadeia Maria Luiza
+  Stoffel → Maria Luiza Schenkel (P-0104) → Carolina Klein (P-0029) → João Gonçalves Bohrer
+  (P-0014). [PROVEN que é nomeado; grau derivado dos vínculos familiares]
 
-  - **Papel:** pai de Maria Luiza Stoffel (P-0108; família F-0057, nó somente de pai); tetravô
-  de Iris Bohrer Muniz na linha Stoffel. [PROVEN]
+  - **Nomeado em um registro:** "Louisa [St]offel, ehel[iche] ledige Tochter von dem Schweizer
+  Colonisten Joseph [St]offel" (PAR-0067, 3 de fevereiro de 1847). É modelado como nó somente de
+  pai, família F-0057. [PROVEN]
 
-  - **Origem suíça declarada pelo registro:** o casamento luterano de 1847 (PAR-0067) nomeia-o
-  como "dem Schweizer Colonisten Joseph [St]offel" — sua identidade suíça e sua ocupação como
-  colono são declaradas pelo registro, não inferidas do sobrenome. [PROVEN]
+  - **Nacionalidade e estatuto:** suíço, e colono do povoamento de Nova Friburgo — ambos
+  declarados pelo registro, nenhum inferido do sobrenome. [PROVEN]
+
+  - **Esposa, nascimento, óbito e cantão de origem:** nada documentado. Sua esposa não é sequer
+  nomeada. [OPEN]
+
+  ## Posição social e profissão
+
+  Outra vez uma palavra só, e das boas: *Colonist*. Nos livros de Nova Friburgo, designa um
+  colono do programa de colonização — beneficiário de concessão, não um jornaleiro nem um
+  passante. Qual lote detinha, o que cultivava, se sabia escrever: nada disso está registrado.
+  Era um colono suíço e, além disso, as fontes calam.
+
+  ## Família e rede social
+
+  Seu único ato documentado é entregar uma filha em casamento. Louisa casou-se com Conrad
+  Schenkel em 3 de fevereiro de 1847, na igreja luterana de Nova Friburgo, com duas testemunhas
+  comerciantes de sobrenome Lenenroth e o pastor Gustav Lenenroth oficiando. O pai do noivo era
+  o *Kirchenvorsteher* da congregação. [PROVEN — PAR-0067] É todo o quadro social: a filha de um
+  colono suíço casando-se na família de um presbítero alemão, dentro de uma pequena congregação.
+
+  Sua esposa não é nomeada em parte alguma, razão pela qual a nacionalidade da própria filha
+  fica em aberto neste arquivo, em vez de ser presumida suíça.
+
+  ## O que podemos extrapolar
+
+  - **[CONTEXTUAL]** "Colono suíço", em Nova Friburgo em 1847, aponta com mais naturalidade para
+  a entrada de 1819–20, recrutada sob o decreto de Dom João VI de 16 de maio de 1818 e inchada
+  pelo excesso de recrutamento para cerca de 261–265 famílias, de Friburgo, Solothurn, Valais e
+  Berna. Uma filha em idade de casar em 1847 é compatível com um pai que tenha chegado adulto
+  nessa coorte — inferência de aritmética e de história da coorte, não chegada documentada.
+
+  - **[CONTEXTUAL]** Essa coorte deixou a Suíça sob as quebras de safra de 1816–17, a pobreza
+  pós-napoleônica e a fragmentação da terra, viajou de Estavayer-le-Lac em 4 de julho de 1819
+  por Basileia e Roterdã, e perdeu cerca de um quarto de sua gente para tifo e escorbuto no mar.
+  Um homem que sobreviveu a isso e ainda detinha estatuto de colono na década de 1840 já havia
+  superado o pior do programa.
+
+  - **[INFERRED]** Sua importância para esta árvore é probatória, não biográfica. Ele é o ponto
+  em que uma vertente suíça entra na linha Klein/Schenkel, e corrige a suposição tentadora de
+  que tudo no livro luterano é alemão. Aquela única palavra no assento de casamento da filha
+  vale mais do que uma página de especulação sobre sua vida.
 
   ## Questões em aberto
 
-  - Sua esposa, data de nascimento, cantão de origem e registro de óbito ainda não foram
-  localizados; nenhum registro além desta única menção está disponível. [OPEN]
+  - Seu cantão e freguesia de origem. O registro diz "suíço" e para por aí; nenhuma fonte retida
+  estreita isso. [OPEN]
+
+  - Sua esposa, inteiramente sem nome. [OPEN]
+
+  - Seu nascimento e óbito, e qual lote de colono detinha. O livro de distribuição de casas e
+  lotes da Fundação D. João VI é o lugar natural para procurar um assento Stoffel. [OPEN]
+
+  - Se os Stoffel vieram com a leva suíça de 1819–20 ou depois. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
-  - PAR-0067 (casamento luterano de 1847 de sua filha — nomeia-o como pai e expressamente
-  como colono suíço).
+  - **PAR-0067** — casamento luterano de 1847 da filha Louisa com Conrad Schenkel, em Nova
+  Friburgo; o único documento retido que o nomeia, e a fonte tanto de sua origem suíça quanto de
+  seu estatuto de colono.
+
+  ## Contexto regional e migratório
+
+  Nova Friburgo foi criada pelo decreto de Dom João VI de 16 de maio de 1818, que contratou o
+  agente friburguês Sébastien-Nicolas Gachet para assentar 100 famílias católicas suíças na
+  Fazenda do Morro Queimado; o recrutamento excedeu-se, a travessia matou cerca de um quarto dos
+  embarcados, e o povoado tornou-se Vila de Nova Friburgo em 3 de janeiro de 1820. [CONTEXTUAL]
+  A terra entregue aos sobreviventes era pedregosa e os lotes pequenos, e muitos os abandonaram
+  em poucos anos. [CONTEXTUAL] Uma segunda leva alemã chegou em maio de 1824 e fundou a
+  congregação luterana — a comunidade em cujo livro Joseph Stoffel, um suíço, está registrado.
+  As duas migrações eram distintas em origem e confissão, e inteiramente misturadas na prática.
+  [PROVEN quanto à sua aparição ali; CONTEXTUAL quanto ao restante]
+
+  ## Onde ir hoje
+
+  - **Comunidade Evangélica de Nova Friburgo (IECLB)** — Av. Dr. Galdino do Valle Filho 1,
+  Centro, Nova Friburgo, RJ · [Mapa](https://maps.google.com/?q=-22.28705,-42.53424). A
+  comunidade herdeira da congregação cujo livro de 1847 é o único documento que o nomeia.
+  [RESOLVED]
+
+  - **Núcleo histórico da colônia, Nova Friburgo** — Praça Getúlio Vargas / Praça Dermerval
+  Barbosa Moreira, Centro · [Mapa](https://maps.google.com/?q=-22.28035,-42.53284). A antiga
+  Fazenda do Morro Queimado, onde foram demarcados os lotes de colono. Seu lote não está
+  identificado, de modo que este é o terreno, não um endereço. [APPROX]
+
+  - **Suíça — cantão não localizado.** Ele é chamado de suíço e nada mais. Enquanto uma lista de
+  lotes, uma lista de navio ou um segundo documento não nomearem seu cantão, não há freguesia de
+  origem a visitar — e adivinhá-la pelo sobrenome seria exatamente o erro que este arquivo
+  recusa. [UNLOCATED]

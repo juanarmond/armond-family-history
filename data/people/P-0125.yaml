@@ -29,27 +29,160 @@ notes:
     in this repository batch (they are two generations above Belchior, and no primary records
     for them are held). Their existence is noted in PUB-0005 notes for traceability.
 profile: >-
+  ## Interesting facts
+
+  - **[PROVEN]** He is named in an original parish register — not only in a compiled genealogy. His son Belchior's baptism act of ~9 January 1615 reads "Belchior fo[i filho] a **Manoell de Ponte** e de sua molher Maria da Cota" (PAR-0087, São Sebastião B-1611-1687 p.0037). That single line is the whole of his primary documentation, and it is enough to fix his existence, his wife and his paternity.
+
+  - **[PROVEN + COMPILED]** The register calls him plainly "Manoell de Ponte". Mendes Forjaz calls him "Manuel da Ponte Valadão, ou Manuel da Ponte Cardoso" and derives the Valadão element from his mother, Catarina Valadão. Three surnames for one man, none of them fixed — the standard condition of Terceira naming in this period.
+
+  - **[COMPILED]** He died at São Sebastião on 19 August 1652; his wife followed on 27 December 1654. **[INFERRED — actionable]** Both dates fall *inside* the São Sebastião burial register we already hold images from, TER-AH-SAOSEBASTIAO-O-1642-1696 (the book that yielded PAR-0088 and PAR-0089). His burial act and his wife's are therefore very likely retrievable from the same digitised book — the single cheapest outstanding gain for this couple.
+
+  - **[COMPILED]** His household placed one son in the militia officer corps and another at the head of the parish: Belchior became *Alferes de ordenanças*, while **António Coelho Souto-Maior** (b.13 February 1619, d.17 July 1686) became *padre vigário* of the Matriz de São Sebastião — the senior cleric of the family's own parish.
+
+  - **[COMPILED]** His father, **Gaspar de Souto Cardoso**, died at Praia on 15 February 1618 "em idade avançada" and was buried in the Matriz there. **[INFERRED]** The family's centre therefore shifted from Praia to São Sebastião between his father's generation and his own — Manuel's children are all baptised at São Sebastião from 1612.
+
   ## Identity
 
-  **Manuel da Ponte Valadão** [COMPILED, name via PUB-0005] — died 19 August 1652, S. Sebastião,
-  Terceira. Also named "Manuel da Ponte Cardoso." Son of Gaspar de Souto Cardoso × Catarina
-  Valadão. Married Maria da Costa Leonardes (P-0126); family F-0063. Father of Belchior da
-  Ponte Cardoso (P-0123).
+  **Manuel da Ponte Valadão** — also recorded as *Manuel da Ponte Cardoso* **[COMPILED, PUB-0005 p.259]**, and as plain "Manoell de Ponte" in the one original act that names him **[PROVEN, PAR-0087]**. Died São Sebastião, Terceira, 19 August 1652 **[COMPILED]**. Married **Maria da Costa Leonardes** (P-0126), family F-0063; father of **Belchior da Ponte Cardoso** (P-0123).
 
-  - **Nationality:** Portuguese (born Azores)
-  - **Birth date/place:** unknown — not in the compilation [OPEN]
+  - **Birth date and place:** unknown. **[INFERRED]** His children's baptisms run from 1612, so he married by about 1611 and was probably born in the 1580s. His baptism, on that reckoning, predates the earliest surviving São Sebastião baptism book (B-1611-1687) and may not exist in any digitised series.
+  - **Parents:** **Gaspar de Souto Cardoso** × **Catarina Valadão** **[COMPILED, PUB-0005 p.258]** — not modelled as entities here, and not independently evidenced.
+  - **Nationality:** Portuguese (Azores, Crown territory)
+  - **Rank or occupation:** none recorded anywhere in the held sources. **[OPEN]**
+
+  **Position in the tree.** Along the modelled chain P-0125 → P-0123 → P-0092 → P-0057 → P-0056 → P-0054 → P-0017 → P-0008 → P-0004, Manuel stands eight generations above Geraldo Paz Armond (P-0004) — his 6th-great-grandfather — and ten generations above the family's present living generation. The degree is provisional in one respect: the P-0123 → P-0092 step is **[COMPILED]** only and rests on the unresolved "two Gaspars" question, so if P-0092 is the following generation each degree moves back one.
+
+  ## Standing and profession
+
+  **Nothing states what he did.** No rank, no office, no trade, no property, no will and no inventory is recorded for him in any source we hold — a real gap, not an oversight in this profile. His son's *Alferes* rank is documented; his own is not.
+
+  What can be reasoned from the household, carefully:
+
+  - **[INFERRED + CONTEXTUAL]** Placing a son as *padre vigário* of the parish matriz was not free. A candidate for ordination needed Latin schooling and a *título de património* — a settled income assigned to him so that he would not be a burden on the Church. That is a real capital requirement, and it implies a household with land or rents behind it, even though no deed survives to name them.
+  - **[INFERRED]** A second son with a militia ensign's commission points the same way: *ordenanças* officers were drawn from the parish's principal householders **[CONTEXTUAL]**.
+  - **[INFERRED]** Taken together, one priest and one officer is the classic placement strategy of a middling landholding family — but it remains an inference from the children's careers, not a documented statement about the father.
+
+  **Do not read the surnames as rank.** "Valadão", "Souto Cardoso" and "da Ponte" all look armigerous; nothing in the held record grants this family arms, a *foro*, a *morgadio* or the style of *Dom*.
+
+  ## Family and social network
+
+  - **Wife:** Maria da Costa Leonardes (P-0126) — named alongside him in Belchior's 1615 baptism as "sua molher Maria da Cota" **[PROVEN]**. No marriage record, date or parish is known **[OPEN]**.
+  - **Children [COMPILED, PUB-0005 p.259]:** Baltazar (b. São Sebastião 6 November 1612); **Belchior da Ponte Cardoso** (b.10 January 1615 per the compilation; the primary act reads ~9 January) **[PROVEN via PAR-0087]**; Francisco Cardoso da Ponte, also called Cardoso Souto-Maior (b.12 March 1617, d.28 December 1679, unmarried); and António Coelho Souto-Maior (b.13 February 1619, d.17 July 1686), *padre vigário* of the Matriz de São Sebastião.
+  - **Brothers [COMPILED, PUB-0005 p.258]:** Roque da Ponte Cardoso (b. Praia 13 February 1575, married Beatriz Álvares Cardoso, lived at Pico de Gil de Borba) and Belchior da Ponte Maciel. **[NOTE]** An earlier working description of this line as a "Roque → Manuel → Belchior chain" is wrong and is already corrected in the source record: Roque was Manuel's *brother*, not his father.
+  - **Grandchildren:** through Belchior, at least nine, seven of whose baptisms are held as images (1651–1666).
+  - **The name he passed on.** Three of his four recorded sons carry a different surname combination, and two of them carry "Souto-Maior" — the house name that his grandson Gaspar would bear, and that the compiler eventually used as the chapter heading for the whole family.
+
+  ## What we can extrapolate
+
+  **A family reorganising itself around São Sebastião [INFERRED].** His father died at Praia in 1618 and was buried in the Matriz there; his own children were all baptised at São Sebastião from 1612 onward; he and his wife both died at São Sebastião in the 1650s. Something moved this branch from the Praia district to São Sebastião in his lifetime — a marriage, an inheritance, or simply the land available. No record we hold says which.
+
+  **Two sons, two institutions, one strategy [INFERRED + CONTEXTUAL].** The Church and the *ordenanças* were the two ladders available to the sons of a middling island household that could not divide its land indefinitely. Manuel's family used both. Neither produced transferable wealth: a priest has no heirs, and an unpaid militia commission dies with the man holding it. So what this generation actually transmitted downward was *standing*, and standing has to be re-earned. That is the mechanism that makes the family's later Brazilian restart legible — they arrive on the Minas frontier with the bearing of an established household and no island capital behind them.
+
+  **The documentary floor is right here [INFERRED].** Below Manuel the evidence changes character completely: his son's generation is covered by original registers, his own is covered by one line in a baptism act plus Mendes Forjaz, and his parents' generation is compiled only. São Sebastião's surviving baptism book begins in 1611 — which is very likely *why* this is where the primary record stops.
 
   ## Open questions
 
-  - Birth date and primary records for Manuel and his parents: not held. His parentage
-  (Gaspar de Souto Cardoso × Catarina Valadão) is compiled.
+  - **His burial act (19 August 1652) has not been pulled, and it should be easy.** TER-AH-SAOSEBASTIAO-O-1642-1696 is already in the drop and already yielded two acts (pp.0062 and 0068). The 1652 entries lie earlier in the same book. **Highest-value next action for this person.**
+  - **His birth and baptism are probably not recoverable from the digitised series.** The São Sebastião baptism book begins in 1611; if he was born in the 1580s his act predates it. Whether an earlier São Sebastião book survives at BPAR Angra is unverified.
+  - **His marriage to Maria da Costa Leonardes:** no date, no parish, no record **[OPEN]**.
+  - **His parentage is compiled only.** Gaspar de Souto Cardoso × Catarina Valadão rest on Vol. IX p.258 and on nothing else we hold. They are deliberately not modelled as entities.
+  - **He is absent from the compiled genealogies by name.** The 2026-09-23 full-corpus search of *Genealogias da Ilha Terceira* Vols I–VIII did not find him; the VALADÃO chapter in Vol. I covers the Praia, Vila Nova and Lajes branches, not his. He exists in the compilation only inside the Vol. IX SOUTO-MAIOR narrative, as the link between his father and his son.
+  - **No occupation, property, will or inventory** has been located for him. His standing is inferred from his sons' careers, which is weaker than it reads.
+
+  ## Sources held (this repository)
+
+  - **PAR-0087** — his son Belchior's baptism, São Sebastião, ~9 January 1615: the only original act naming him ("Manoell de Ponte"), with his wife and his son. *Primary.*
+  - **PUB-0005** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IX, SOUTO-MAIOR § 1º, p. 259 (and p. 258 for his parents and brothers): his name variants, his death date, his wife and his four recorded children. *Secondary, compiled — the sole source for everything except the 1615 act.*
+
+  ## Regional and migration context
+
+  **Terceira in his lifetime [CONTEXTUAL].** If he was born in the 1580s, Manuel lived his whole life under the Spanish Habsburg union of the crowns (1580–1640), on an island that had been the last part of the Portuguese realm to resist Philip II and was taken only by the invasion of 1583. He was in his fifties or sixties at the Restoration of 1640 and at the eleven-month blockade that forced the Castilian garrison of the Castelo de São Filipe at Angra to capitulate on 4 March 1642. He died ten years later.
+
+  **The island economy around him [CONTEXTUAL].** Terceira exported wheat to mainland Portugal and the African presidios, grew the blue dye *pastel* (woad) in what was already its long decline against American indigo, made wine, and cut shipbuilding timber. Angra — city since 1534, seat of the Azores bishopric — was a mid-Atlantic port of call for the returning India and Brazil fleets. Praia, where his father died, and São Sebastião, where he did, sit at the island's eastern and south-eastern ends.
+
+  **Emigration is not his story [CONTEXTUAL].** The pressures that later pushed Azoreans to Brazil — a finite island, *morgadio* and primogeniture locking estates on eldest sons, periodic seismic disaster — were already present, but the pull that made emigration mass was the Minas Gerais gold strike of 1697, forty-five years after his death. His descendants leave; he did not.
+
+  ## Where to go today
+
+  - **Igreja Matriz de São Sebastião (Nossa Senhora da Graça), São Sebastião, Angra do Heroísmo, Terceira** — the parish where his four sons were baptised (1612–1619), where one of them served as vicar, and where he and his wife died. [RESOLVED — parish] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20S%C3%A3o%20Sebasti%C3%A3o%2C%20Terceira%2C%20A%C3%A7ores)
+  - **Igreja Matriz de Santa Cruz, Praia da Vitória, Terceira** — where his father Gaspar de Souto Cardoso was buried in 1618, per Mendes Forjaz. [APPROX — compiled only, not verified against a register] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20Santa%20Cruz%2C%20Praia%20da%20Vit%C3%B3ria%2C%20Terceira)
+  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — holds TER-AH-SAOSEBASTIAO-O-1642-1696, which should contain his 19 August 1652 burial act, and can say whether any São Sebastião register predating 1611 survives. · [Maps](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)
 profile_pt: >-
+  ## Fatos interessantes
+
+  - **[PROVEN]** É nomeado num registo paroquial original — e não apenas numa genealogia compilada. O assento de baptismo do filho Belchior, de ~9 de janeiro de 1615, lê "Belchior fo[i filho] a **Manoell de Ponte** e de sua molher Maria da Cota" (PAR-0087, São Sebastião B-1611-1687 p.0037). Essa única linha é toda a sua documentação primária, e chega para fixar a sua existência, a mulher e a paternidade.
+
+  - **[PROVEN + COMPILED]** O registo chama-lhe simplesmente "Manoell de Ponte". Mendes Forjaz chama-lhe "Manuel da Ponte Valadão, ou Manuel da Ponte Cardoso" e faz derivar o elemento Valadão da mãe, Catarina Valadão. Três apelidos para um homem, nenhum fixo — a condição corrente da nomeação terceirense no período.
+
+  - **[COMPILED]** Faleceu em São Sebastião a 19 de agosto de 1652; a mulher seguiu-o a 27 de dezembro de 1654. **[INFERRED — accionável]** As duas datas caem *dentro* do livro de óbitos de São Sebastião de que já temos imagens, TER-AH-SAOSEBASTIAO-O-1642-1696 (o livro que deu PAR-0088 e PAR-0089). Os assentos de óbito dele e da mulher são, portanto, muito provavelmente recuperáveis do mesmo livro digitalizado — o ganho pendente mais barato para este casal.
+
+  - **[COMPILED]** A casa colocou um filho no corpo de oficiais da milícia e outro à frente da paróquia: Belchior tornou-se *Alferes de ordenanças*, enquanto **António Coelho Souto-Maior** (n.13 de fevereiro de 1619, f.17 de julho de 1686) se tornou *padre vigário* da Matriz de São Sebastião — o clérigo principal da freguesia da própria família.
+
+  - **[COMPILED]** O pai, **Gaspar de Souto Cardoso**, faleceu na Praia a 15 de fevereiro de 1618 "em idade avançada" e foi sepultado na Matriz. **[INFERRED]** O centro da família terá, pois, passado da Praia para São Sebastião entre a geração do pai e a dele — os filhos de Manuel são todos baptizados em São Sebastião a partir de 1612.
+
   ## Identidade
 
-  **Manuel da Ponte Valadão** [COMPILED, nome via PUB-0005] — falecido a 19 de agosto de 1652,
-  S. Sebastião, Terceira. Também chamado "Manuel da Ponte Cardoso." Filho de Gaspar de Souto
-  Cardoso × Catarina Valadão. Casou com Maria da Costa Leonardes (P-0126); família F-0063.
-  Pai de Belchior da Ponte Cardoso (P-0123).
+  **Manuel da Ponte Valadão** — também registado como *Manuel da Ponte Cardoso* **[COMPILED, PUB-0005 p.259]** e como simples "Manoell de Ponte" no único assento original que o nomeia **[PROVEN, PAR-0087]**. Falecido em São Sebastião, Terceira, a 19 de agosto de 1652 **[COMPILED]**. Casou com **Maria da Costa Leonardes** (P-0126), família F-0063; pai de **Belchior da Ponte Cardoso** (P-0123).
 
-  - **Nacionalidade:** portuguesa (nascido nos Açores)
-  - **Data/local de nascimento:** desconhecidos — não informados na compilação [OPEN]
+  - **Data e local de nascimento:** desconhecidos. **[INFERRED]** Os baptismos dos filhos começam em 1612, logo terá casado por volta de 1611 e nascido, provavelmente, na década de 1580. Nessa conta, o seu baptismo é anterior ao mais antigo livro de baptismos de São Sebastião que sobrevive (B-1611-1687) e pode não existir em nenhuma série digitalizada.
+  - **Pais:** **Gaspar de Souto Cardoso** × **Catarina Valadão** **[COMPILED, PUB-0005 p.258]** — não modelados como entidades aqui, e sem evidência independente.
+  - **Nacionalidade:** portuguesa (Açores, território da Coroa)
+  - **Patente ou ocupação:** nenhuma registada em qualquer fonte disponível. **[OPEN]**
+
+  **Posição na árvore.** Pela cadeia modelada P-0125 → P-0123 → P-0092 → P-0057 → P-0056 → P-0054 → P-0017 → P-0008 → P-0004, Manuel está oito gerações acima de Geraldo Paz Armond (P-0004) — seu 6.º bisavô (*6th-great-grandfather*) — e dez gerações acima da atual geração viva da família. O grau é provisório num ponto: o passo P-0123 → P-0092 é apenas **[COMPILED]** e depende da questão não resolvida dos "dois Gaspares"; se P-0092 for a geração seguinte, cada grau recua um.
+
+  ## Posição social e profissão
+
+  **Nada diz o que ele fazia.** Nenhuma patente, cargo, ofício, propriedade, testamento ou inventário está registado para ele em nenhuma fonte disponível — é uma lacuna real, não um descuido deste retrato. A patente de *Alferes* do filho está documentada; a dele não.
+
+  O que se pode raciocinar a partir da casa, com cuidado:
+
+  - **[INFERRED + CONTEXTUAL]** Colocar um filho como *padre vigário* da matriz não era grátis. Um candidato à ordenação precisava de estudos de latim e de um *título de património* — um rendimento fixo consignado para que não pesasse sobre a Igreja. É uma exigência real de capital, e implica uma casa com terra ou rendas por trás, ainda que nenhuma escritura sobreviva para as nomear.
+  - **[INFERRED]** Um segundo filho com patente de alferes aponta no mesmo sentido: os oficiais das *ordenanças* saíam dos principais moradores da freguesia **[CONTEXTUAL]**.
+  - **[INFERRED]** Somados, um padre e um oficial são a estratégia clássica de colocação de uma família proprietária de meios medianos — mas continua a ser inferência a partir das carreiras dos filhos, e não declaração documentada sobre o pai.
+
+  **Não ler os apelidos como posição.** "Valadão", "Souto Cardoso" e "da Ponte" soam a apelidos de armas; nada no registo disponível concede a esta família armas, *foro*, *morgadio* ou tratamento de *Dom*.
+
+  ## Família e rede social
+
+  - **Mulher:** Maria da Costa Leonardes (P-0126) — nomeada ao lado dele no baptismo de Belchior, em 1615, como "sua molher Maria da Cota" **[PROVEN]**. Não se conhece registo, data nem freguesia do casamento **[OPEN]**.
+  - **Filhos [COMPILED, PUB-0005 p.259]:** Baltazar (n. São Sebastião 6 de novembro de 1612); **Belchior da Ponte Cardoso** (n.10 de janeiro de 1615 na compilação; o assento primário lê ~9 de janeiro) **[PROVEN via PAR-0087]**; Francisco Cardoso da Ponte, também dito Cardoso Souto-Maior (n.12 de março de 1617, f.28 de dezembro de 1679, solteiro); e António Coelho Souto-Maior (n.13 de fevereiro de 1619, f.17 de julho de 1686), *padre vigário* da Matriz de São Sebastião.
+  - **Irmãos [COMPILED, PUB-0005 p.258]:** Roque da Ponte Cardoso (n. Praia 13 de fevereiro de 1575, casado com Beatriz Álvares Cardoso, viveram no Pico de Gil de Borba) e Belchior da Ponte Maciel. **[NOTA]** Uma descrição de trabalho anterior desta linha como "cadeia Roque → Manuel → Belchior" está errada e já se encontra corrigida no registo da fonte: Roque era *irmão* de Manuel, não o pai.
+  - **Netos:** por Belchior, pelo menos nove, dos quais sete baptismos estão disponíveis em imagem (1651–1666).
+  - **O nome que transmitiu.** Três dos quatro filhos registados levam combinações de apelido diferentes, e dois deles levam "Souto-Maior" — o nome de casa que o neto Gaspar viria a usar e que o compilador acabou por adoptar como título de capítulo para toda a família.
+
+  ## O que podemos extrapolar
+
+  **Uma família a reorganizar-se em torno de São Sebastião [INFERRED].** O pai morreu na Praia em 1618 e foi ali sepultado na Matriz; os filhos dele foram todos baptizados em São Sebastião a partir de 1612; ele e a mulher morreram em São Sebastião, na década de 1650. Alguma coisa deslocou este ramo do termo da Praia para São Sebastião durante a sua vida — um casamento, uma herança ou simplesmente a terra disponível. Nenhum registo disponível diz qual.
+
+  **Dois filhos, duas instituições, uma estratégia [INFERRED + CONTEXTUAL].** A Igreja e as *ordenanças* eram as duas escadas ao alcance dos filhos de uma casa insular mediana que não podia dividir a terra indefinidamente. A família de Manuel usou ambas. Nenhuma produzia riqueza transferível: um padre não tem herdeiros, e uma patente de milícia sem soldo morre com quem a detém. O que esta geração de facto transmitiu para baixo foi *posição*, e a posição tem de ser reconquistada. É esse o mecanismo que torna legível o recomeço brasileiro da família — chegam à fronteira das Minas com o porte de uma casa estabelecida e sem capital insular por trás.
+
+  **O piso documental é exactamente aqui [INFERRED].** Abaixo de Manuel a evidência muda de natureza: a geração do filho está coberta por registos originais, a dele por uma linha num assento de baptismo mais Mendes Forjaz, e a dos pais apenas por compilação. O livro de baptismos de São Sebastião que sobrevive começa em 1611 — o que é, muito provavelmente, *a razão* pela qual o registo primário pára aqui.
+
+  ## Questões em aberto
+
+  - **O assento de óbito dele (19 de agosto de 1652) não foi puxado, e deveria ser fácil.** O TER-AH-SAOSEBASTIAO-O-1642-1696 já está no lote e já deu dois assentos (pp.0062 e 0068). As entradas de 1652 ficam mais atrás no mesmo livro. **Acção seguinte de maior valor para esta pessoa.**
+  - **O nascimento e o baptismo provavelmente não são recuperáveis na série digitalizada.** O livro de baptismos de São Sebastião começa em 1611; se nasceu na década de 1580, o assento é anterior. Se sobrevive algum livro de São Sebastião anterior a 1611 no BPAR de Angra é coisa por verificar.
+  - **O casamento com Maria da Costa Leonardes:** sem data, sem freguesia, sem registo **[OPEN]**.
+  - **A filiação é apenas compilada.** Gaspar de Souto Cardoso × Catarina Valadão assentam no Vol. IX p.258 e em mais nada do que temos. Deliberadamente, não são modelados como entidades.
+  - **Está ausente das genealogias compiladas pelo nome.** A busca integral de 2026-09-23 nos vols. I–VIII das *Genealogias da Ilha Terceira* não o encontrou; o capítulo VALADÃO do Vol. I cobre os ramos da Praia, Vila Nova e Lajes, não o dele. Na compilação só existe dentro da narrativa SOUTO-MAIOR do Vol. IX, como elo entre o pai e o filho.
+  - **Nenhuma ocupação, propriedade, testamento ou inventário** foi localizado. A sua posição é inferida das carreiras dos filhos, o que é mais frágil do que parece.
+
+  ## Fontes disponíveis (neste repositório)
+
+  - **PAR-0087** — o baptismo do filho Belchior, São Sebastião, ~9 de janeiro de 1615: o único assento original que o nomeia ("Manoell de Ponte"), com a mulher e o filho. *Primária.*
+  - **PUB-0005** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IX, SOUTO-MAIOR § 1º, p. 259 (e p. 258 para pais e irmãos): variantes do nome, data de óbito, mulher e os quatro filhos registados. *Secundária, compilada — fonte única para tudo o que não seja o assento de 1615.*
+
+  ## Contexto regional e migratório
+
+  **A Terceira no seu tempo [CONTEXTUAL].** Se nasceu na década de 1580, Manuel viveu toda a vida sob a união dinástica com Espanha (1580–1640), numa ilha que fora a última parcela do reino português a resistir a Filipe II e só foi tomada pela invasão de 1583. Tinha cinquenta e tal ou sessenta e tal anos na Restauração de 1640 e no cerco de onze meses que obrigou a guarnição castelhana do Castelo de São Filipe, em Angra, a capitular a 4 de março de 1642. Morreu dez anos depois.
+
+  **A economia da ilha à sua volta [CONTEXTUAL].** A Terceira exportava trigo para o reino e para as praças africanas, cultivava o corante azul *pastel* já em longo declínio face ao índigo americano, fazia vinho e cortava madeira de construção naval. Angra — cidade desde 1534, sede do bispado dos Açores — era porto de escala do Atlântico médio para as armadas da Índia e do Brasil no regresso. A Praia, onde o pai morreu, e São Sebastião, onde ele morreu, ficam no extremo oriental e sudeste da ilha.
+
+  **A emigração não é a história dele [CONTEXTUAL].** As pressões que mais tarde empurraram os açorianos para o Brasil — ilha finita, *morgadio* e primogenitura a prender bens aos primogénitos, desastre sísmico periódico — já existiam, mas o ímã que tornou a emigração massiva foi a descoberta do ouro nas Minas Gerais, em 1697, quarenta e cinco anos depois da sua morte. Os descendentes partem; ele não.
+
+  ## Onde ir hoje
+
+  - **Igreja Matriz de São Sebastião (Nossa Senhora da Graça), São Sebastião, Angra do Heroísmo, Terceira** — a freguesia onde os quatro filhos foram baptizados (1612–1619), onde um deles serviu como vigário e onde ele e a mulher morreram. [RESOLVIDO — freguesia] · [Mapa](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20S%C3%A3o%20Sebasti%C3%A3o%2C%20Terceira%2C%20A%C3%A7ores)
+  - **Igreja Matriz de Santa Cruz, Praia da Vitória, Terceira** — onde o pai, Gaspar de Souto Cardoso, foi sepultado em 1618, segundo Mendes Forjaz. [APROX — apenas compilado, não verificado em registo] · [Mapa](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20Santa%20Cruz%2C%20Praia%20da%20Vit%C3%B3ria%2C%20Terceira)
+  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — guarda o TER-AH-SAOSEBASTIAO-O-1642-1696, que deve conter o assento de óbito de 19 de agosto de 1652, e pode dizer se sobrevive algum livro de São Sebastião anterior a 1611. · [Mapa](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)

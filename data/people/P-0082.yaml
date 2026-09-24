@@ -62,6 +62,19 @@ profile: >-
   status marker above the many parishioners who signed with a cross. The surname is not unique
   in the parish, so the identification is not proven. [LEAD]
 
+  ## Standing and profession
+
+  - **Nothing documented** [PROVEN absence]. He appears in the held records only as a named
+  parent (PAR-0037, PAR-0048) and as a named grandparent (PAR-0044); none of those acts
+  states an occupation, office, title or property for him, and none carries a signature of
+  his. The Mãe de Deus formularies of the 1810s–40s name parents and grandparents without
+  describing them.
+
+  - **[INFERRED]** His son João is recorded a *proprietário* at Mãe de Deus (PAR-0015),
+  which makes a landholding household the most plausible setting for him; but that is an
+  inference from the next generation, not a statement any record makes about this man. The
+  field is left unset deliberately.
+
   ## Family and social network
 
   Husband of Tereza do Amaral (P-0083) and father of the Mãe de Deus landowner João Francisco
@@ -80,21 +93,40 @@ profile: >-
 
   ## What we can extrapolate
 
-  *Proportionate to a top-of-patriline ancestor documented as a parent and grandparent.*
+  *Proportionate to the top of the documented patriline — a man named only as a parent and a
+  grandparent.*
 
-  - **Most plausibly the source of the family's land base [INFERRED / CONTEXTUAL].** His son
-  João Sr held land as a *proprietário* at Mãe de Deus; on a *morgadio*-entailed island where
-  patrimony passed largely intact, that holding most plausibly descended from this man's estate.
-  His standing reads as inherited land — the smallest heritable kind, not office or commerce:
-  real but modest, and structurally destined to fragment as partible succession divided it among
-  heirs over the following generations (see P-0042 for the full arc).
+  **1. His standing is entirely inferential, and should stay that way [PROVEN absence /
+  INFERRED].** Not one of the three acts that name him states an occupation, property,
+  office or title (PAR-0037, PAR-0048, PAR-0044). His son João is recorded a *proprietário*
+  at Mãe de Deus in 1866 (PAR-0015), which makes a landholding household the plausible
+  setting; but no record says so of this man, and on a *morgadio*-entailed island where
+  patrimony passed largely intact to a firstborn, the direction of transmission cannot be
+  assumed from the son's status alone.
 
-  - **A rooted parish family, not an elite [INFERRED].** "Muniz Bitancourt" is a São Miguel
-  parish surname that recurs across the Povoação registers in collateral cousin-couples,
-  consistent with an endogamous small-proprietor kin network rather than a titled or
-  office-holding house. Nothing in the records signals wealth-display; what he transmitted was
-  belonging plus a smallholding — exactly what his emigrant descendants had to rebuild from
-  scratch in Brazil.
+  **2. What his records do establish is depth in one parish [PROVEN / INFERRED].** His
+  children are "naturaes e freguezes desta dita Igreja onde forão baptizados" (PAR-0037,
+  PAR-0048), and his grandchildren are recorded the same way a generation later (PAR-0038 to
+  PAR-0044). **[INFERRED]** Three consecutive generations born, married and buried inside
+  the freguesia of Nossa Senhora Mãe de Deus is the whole of what he transmitted: local
+  belonging, which cost nothing, was real, and proved entirely non-portable when his
+  great-grandsons crossed the Atlantic.
+
+  **3. He settled two children in ten months, newly widowed [PROVEN / INFERRED].** His wife
+  Tereza do Amaral is recorded "já defunta" by October 1819 (PAR-0037), and is named without
+  that marker at his daughter's marriage the previous December (PAR-0048). In those ten
+  months he married off a daughter and a son in the same church. **[INFERRED]** A widower
+  settling two adult children in quick succession is a household reorganising after the loss
+  of the mother; it is also the moment at which whatever he held first became a question of
+  who would inherit it.
+
+  **4. No status display anywhere in his record [PROVEN absence / INFERRED].** Neither he
+  nor his wife is ever given an honorific, in registers that style a witness at his own
+  daughter's wedding *Capitão* (Luis Antonio de Almeida, PAR-0048). **[INFERRED]** "Muniz
+  Bitancourt" recurs across the Povoação books in collateral cousin-couples, consistent with
+  an endogamous small-proprietor kin network rather than a titled or office-holding house.
+  He sits at the documented top of the line and it is already, visibly, a modest one — which
+  is the point: the Muniz arc has no lost golden age above it.
 
   ## Open questions
 
@@ -116,12 +148,13 @@ profile: >-
 
   The deepest São Miguel root of the Muniz Byttancourt patriline yet reached — a resident of
   N.S. Mãe de Deus / Povoação, with no move documented. [INFERRED] The Atlantic crossing is
-  three generations below him (his great-grandsons, about 1866–1870), driven by the island's
-  *morgadio* land-lock, overpopulation and the 1860s collapse of the orange-export economy.
-  [CONTEXTUAL] The Brazil pull ran through the mid-century legal shift — the Lei nº 581 de 4 de
-  setembro de 1850 (Eusébio de Queirós), ending the Atlantic slave trade, and the Lei de Terras
-  (nº 601/1850) — while the São Miguel push eased as the Carta de Lei de 19 de maio de 1863
-  abolished the Portuguese *morgadios* in the very years they crossed. [CONTEXTUAL]
+  three generations below him (his great-grandsons, between 1866 and 1882 (most plausibly
+  near 1880; see P-0019)), driven by the island's *morgadio* land-lock, overpopulation and
+  the 1860s collapse of the orange-export economy. [CONTEXTUAL] The Brazil pull ran through
+  the mid-century legal shift — the Lei nº 581 de 4 de setembro de 1850 (Eusébio de
+  Queirós), ending the Atlantic slave trade, and the Lei de Terras (nº 601/1850) — while the
+  São Miguel push eased as the Carta de Lei de 19 de maio de 1863 abolished the Portuguese
+  *morgadios* in the very years they crossed. [CONTEXTUAL]
 
   ## Where to go today
 
@@ -161,6 +194,18 @@ profile_pt: >-
   alfabetizado — um modesto marcador de posição acima dos muitos paroquianos que assinavam com
   uma cruz. O sobrenome não é único na freguesia, portanto a identificação não está provada. [LEAD]
 
+  ## Posição social e profissão
+
+  - **Nada documentado** [PROVEN na ausência]. Nos registros que temos, ele aparece apenas
+  como pai nomeado (PAR-0037, PAR-0048) e como avô nomeado (PAR-0044); nenhum desses atos
+  lhe declara ocupação, cargo, título ou bens, e nenhum traz assinatura sua. Os formulários
+  de Mãe de Deus das décadas de 1810 a 1840 nomeiam pais e avós sem descrevê-los.
+
+  - **[INFERRED]** Seu filho João é registrado como *proprietário* em Mãe de Deus
+  (PAR-0015), o que torna uma casa com terras o cenário mais plausível para ele; mas isso é
+  inferência a partir da geração seguinte, e não afirmação que registro algum faça sobre
+  este homem. O campo fica deliberadamente sem preencher.
+
   ## Família e rede social
 
   Marido de Tereza do Amaral (P-0083) e pai do proprietário de Mãe de Deus João Francisco Muniz
@@ -180,22 +225,41 @@ profile_pt: >-
 
   ## O que podemos extrapolar
 
-  *Proporcional a um ancestral do topo da patrilinha documentado como pai e avô.*
+  *Proporcional ao topo da patrilinha documentada — um homem nomeado apenas como pai e como
+  avô.*
 
-  - **É, muito provavelmente, a origem da base fundiária da família [INFERRED / CONTEXTUAL].** Seu
-  filho João Sr possuía terra como *proprietário* em Mãe de Deus; numa ilha vinculada por
-  *morgadio*, onde o patrimônio passava em grande parte intacto, essa posse muito provavelmente
-  descendeu do espólio deste homem. Sua posição lê-se como terra herdada — o menor tipo herdável,
-  não ofício nem comércio: real, mas modesta, e estruturalmente destinada a fragmentar-se à medida
-  que a sucessão partível a dividia entre os herdeiros nas gerações seguintes (ver P-0042 para o
-  arco completo).
+  **1. Sua posição é inteiramente inferencial, e assim deve permanecer [PROVEN na ausência /
+  INFERRED].** Nenhum dos três atos que o nomeiam declara ocupação, bens, cargo ou título
+  (PAR-0037, PAR-0048, PAR-0044). Seu filho João é registrado *proprietário* em Mãe de Deus
+  em 1866 (PAR-0015), o que torna plausível uma casa com terras; mas registro algum o diz
+  deste homem, e numa ilha travada pelo *morgadio*, em que o patrimônio passava quase
+  íntegro a um primogênito, a direção da transmissão não pode ser presumida só pela condição
+  do filho.
 
-  - **Uma família de freguesia enraizada, não uma elite [INFERRED].** "Muniz Bitancourt" é um
-  sobrenome de freguesia de São Miguel que reaparece nos registros da Povoação em casais primos
-  colaterais, consistente com uma rede de parentesco endogâmica de pequenos proprietários, e não
-  com uma casa titulada ou detentora de ofícios. Nada nos registros sinaliza ostentação de riqueza;
-  o que ele transmitiu foi pertencimento mais uma pequena propriedade — exatamente o que seus
-  descendentes emigrantes tiveram de reconstruir do zero no Brasil.
+  **2. O que seus registros estabelecem é profundidade numa só freguesia [PROVEN /
+  INFERRED].** Seus filhos são "naturaes e freguezes desta dita Igreja onde forão
+  baptizados" (PAR-0037, PAR-0048), e seus netos são registrados do mesmo modo uma geração
+  depois (PAR-0038 a PAR-0044). **[INFERRED]** Três gerações consecutivas nascidas, casadas
+  e sepultadas dentro da freguesia de Nossa Senhora Mãe de Deus é tudo o que ele transmitiu:
+  pertencimento local, que nada custava, era real e se provou inteiramente intransportável
+  quando seus bisnetos atravessaram o Atlântico.
+
+  **3. Estabeleceu dois filhos em dez meses, recém-enviuvado [PROVEN / INFERRED].** Sua
+  mulher Tereza do Amaral está registrada "já defunta" em outubro de 1819 (PAR-0037), e é
+  nomeada sem esse indicativo no casamento da filha, em dezembro anterior (PAR-0048). Nesses
+  dez meses casou uma filha e um filho na mesma igreja. **[INFERRED]** Um viúvo
+  estabelecendo dois filhos adultos em rápida sucessão é uma casa que se reorganiza depois
+  da perda da mãe; é também o momento em que o que quer que ele tivesse passou, pela
+  primeira vez, a ser uma questão de quem herdaria.
+
+  **4. Nenhuma exibição de posição em todo o seu registro [PROVEN na ausência / INFERRED].**
+  Nem ele nem a mulher recebem jamais tratamento honorífico, em registros que chamam de
+  *Capitão* uma testemunha do casamento da própria filha (Luis Antonio de Almeida,
+  PAR-0048). **[INFERRED]** "Muniz Bitancourt" recorre nos livros da Povoação em casais de
+  primos colaterais, coerente com uma rede endogâmica de pequenos proprietários, e não com
+  uma casa titulada ou de cargos. Ele ocupa o topo documentado da linhagem, e este já é,
+  visivelmente, modesto — que é justamente o ponto: o arco Muniz não tem, acima de si,
+  nenhuma idade de ouro perdida.
 
   ## Questões em aberto
 
@@ -215,15 +279,16 @@ profile_pt: >-
 
   ## Contexto regional e migratório
 
-  A raiz mais profunda em São Miguel da patrilinha Muniz Byttancourt até agora alcançada — um
-  residente de N.S. Mãe de Deus / Povoação, sem mudança documentada. [INFERRED] A travessia
-  atlântica está três gerações abaixo dele (seus bisnetos, por volta de 1866–1870), impulsionada
-  pelo bloqueio fundiário do *morgadio* da ilha, pela superpopulação e pelo colapso, na década de
-  1860, da economia de exportação da laranja. [CONTEXTUAL] A atração para o Brasil passou pela
-  mudança legal de meados do século — a Lei nº 581 de 4 de setembro de 1850 (Eusébio de Queirós),
-  que encerrou o tráfico atlântico de escravizados, e a Lei de Terras (nº 601/1850) —, enquanto o
-  empurrão em São Miguel afrouxou quando a Carta de Lei de 19 de maio de 1863 aboliu os *morgadios*
-  portugueses nos próprios anos em que eles cruzaram. [CONTEXTUAL]
+  A raiz mais profunda em São Miguel da patrilinha Muniz Byttancourt até agora alcançada —
+  um residente de N.S. Mãe de Deus / Povoação, sem mudança documentada. [INFERRED] A
+  travessia atlântica está três gerações abaixo dele (seus bisnetos, entre 1866 e 1882 (mais
+  plausivelmente por volta de 1880; ver P-0019)), impulsionada pelo bloqueio fundiário do
+  *morgadio* da ilha, pela superpopulação e pelo colapso, na década de 1860, da economia de
+  exportação da laranja. [CONTEXTUAL] A atração para o Brasil passou pela mudança legal de
+  meados do século — a Lei nº 581 de 4 de setembro de 1850 (Eusébio de Queirós), que
+  encerrou o tráfico atlântico de escravizados, e a Lei de Terras (nº 601/1850) —, enquanto
+  o empurrão em São Miguel afrouxou quando a Carta de Lei de 19 de maio de 1863 aboliu os
+  *morgadios* portugueses nos próprios anos em que eles cruzaram. [CONTEXTUAL]
 
   ## Onde ir hoje
 

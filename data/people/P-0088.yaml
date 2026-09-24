@@ -26,7 +26,7 @@ notes:
     Pai de João Rodrigues (P-0080). Nomeado com sua mulher Elebia Francisca (P-0089) no
     casamento de seu filho em 13 de maio de 1716 em Ruivais (PAR-0036), da Freguesia de
     São Martinho de Ruivais, Arcebispado de Braga, Portugal. Modelado em 2026-08-13 (antes
-    registrado como pista não modelada em P-0080). Trisavô (8×) de Juan pela linha materna
+    registrado como pista não modelada em P-0080). Nonavô (8×) de Juan pela linha materna
     Toledo.
 - text: >-
     Reading conflict, preserved: PAR-0036 transcribes him "Gonçallo Roiz já defunto"
@@ -51,105 +51,132 @@ notes:
 profile: >-
   ## Interesting facts
 
-  - **[PROVEN]** Named "Gonçallo Roiz já defunto" (already deceased) in his son's 1716 Ruivais marriage (PAR-0036) — the only document attesting him, placing him in São Martinho de Ruivais and confirming death before May 1716.
+  - **[PROVEN]** Named "Gonçallo Roiz já defunto" — already deceased — in his son's 1716 Ruivais marriage (PAR-0036). That single clause is the only document attesting him: it places him in São Martinho de Ruivais and fixes his death before May 1716, and it is all there is.
 
-  - **[CONTEXTUAL]** His son João married in 1716 at Ruivais, and his grandson João Rodrigues Valle emigrated to Minas Gerais around 1748–1751 — two generations separating the Minho smallholder from the colonial Brazil settler, both shaped by the same land-pressure dynamic of Portugal's densest rural region (~96 inhabitants/km² by 1801).
+  - **[INFERRED]** A page-by-page reading of the Ruivais marriage register for 1664–1706 found neither his marriage to Elebia Francisca nor her distinctive forename anywhere in the run. Under the ordinary Catholic rule that a couple marries in the bride's parish, that bounded negative points to an out-of-parish wife — and it is why the generation above him cannot be reached from the Ruivais books.
 
-  - **[INFERRED]** He may have been of the lugar de Frades in Ruivais (one reading of PAR-0036) — a named sub-locality implying a minimal but recognised landed position in the parish; a family at Frades had a defined holding, yet one too small to sustain all non-inheriting sons, which is precisely the structural driver that sent his grandson across the Atlantic.
+  - **[INFERRED]** One reading of the same worn clause makes him "de Frades", a named sub-locality of Ruivais. If that is right, the family held a defined smallholding rather than being landless — a position recognised enough to be used as an address, and small enough that it could not keep all its descendants.
 
-  - **[INFERRED]** A thorough search of the Ruivais marriage register 1664–1706 failed to find his marriage to Elebia Francisca — a bounded negative suggesting the couple married in her home parish, meaning the generation above him cannot be reached through the Ruivais registers.
+  - **[CONTEXTUAL]** He stands two generations above the Atlantic crossing: his son João married at Ruivais in 1716 and stayed; his grandson João Rodrigues Valle emigrated to Minas Gerais around 1748–1751. The same land pressure shaped both lives, but only one of them had to leave.
 
   ## Identity
 
-  **Gonçalo Rodrigues** (recorded *Gonçallo Roiz* in the 1716 Ruivais marriage). Of the
-  Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal. Portuguese.
+  **Gonçalo Rodrigues** (recorded *Gonçallo Roiz* in the 1716 Ruivais marriage). Of the Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal. Portuguese. Father of João Rodrigues (P-0080) and so 4th-great-grandfather of Eliza Balbina de Toledo (P-0017) on the maternal Toledo line.
 
-  - **Role:** father of João Rodrigues (P-0080), named with his wife Elebia Francisca
-  (P-0089) in their son's 13 May 1716 Ruivais marriage (PAR-0036; family F-0043).
-  [strong-evidence — identifying that 1716 groom with P-0080 rests on the name-pair,
-  parish and timeline match to P-0078's 1728 Ruivais baptism]
+  - **Role:** named with his wife Elebia Francisca (P-0089) in their son's 13 May 1716 Ruivais marriage (PAR-0036; family F-0043). [strong-evidence — identifying that 1716 groom with P-0080 rests on the name-pair, parish and timeline match to P-0078's 1728 Ruivais baptism]
 
-  - **Birth, death, own parents:** unrecorded. PAR-0036 reads him "já defunto"
-  (preferred); the retrieval synthesis alternatively read "de Frades". [OPEN] A page-by-page
-  read of the Ruivães marriage register 1664–1706 (retrieval) did not find his own marriage to
-  Estêbia Francisca, so the couple most likely married in the bride's out-of-parish freguesia —
-  the generation above him is therefore not reachable from the Ruivães registers. A further
-  retrieval sweep (September 2026) of the Ruivães baptisms (1650–1674) and of the neighbouring
-  Vieira do Minho parishes' marriages (Campos, Salamonde/São Gens, Ventosa, Cantelães) was also
-  bounded-negative, so both Ruivães paths are exhausted; the highest-value unread lever is now
-  the Montalegre/Barroso parishes across the Rabagão (Vila Real district, at the ADVR). A
-  same-period "João, son of Gonçalo Rodrigues × Angela Pereira" in that register is flagged
-  only to avoid conflation (a possible remarriage or a namesake), not our line. [LEAD]
+  - **Reading conflict, preserved:** PAR-0036 transcribes him "Gonçallo Roiz já defunto", the preferred reading, parallel to the bride's father "Domingos Gonçalves já defunto". The retrieval synthesis alternatively read the same clause "Gonçalo Rodrigues **de Frades**" (of the lugar de Frades in Ruivais), from a lower-resolution copy; that is kept as a less-certain alternative. [uncertain]
+
+  - **Birth, death, own parents:** unrecorded. [OPEN]
+
+  ## Standing and profession
+
+  - **Nothing is recorded.** No occupation, no rank, no property, no act of his own. He exists as four words in his son's marriage entry. [OPEN]
+
+  - **Literacy — [UNCLASSIFIABLE]:** he was dead before the only document that names him was written. Nothing signable can exist.
+
+  - **The one possible status marker is the alternative reading "de Frades":** a lugar-name used as an identifier implies a household with a recognised place, not a floating labourer. It rests on the weaker of the two readings. [uncertain / INFERRED]
+
+  ## Family and social network
+
+  - **Wife:** Elebia Francisca (P-0089), also read *Estêbia Francisca* — the forename is worn and both are preserved.
+
+  - **Son:** João Rodrigues (P-0080), who married Joanna Gonçalves at Ruivais in 1716 and fathered the emigrant João Rodrigues Valle (P-0078).
+
+  - **No other relation, witness or associate of his is recorded anywhere.** The FAN network that would place him socially does not survive; the witnesses at his son's wedding (Duarte Dias, Domingos Afonso, Gregorio do Rego Macedo) are all of the same parish and cannot be tied to him personally. [OPEN]
+
+  ## What we can extrapolate
+
+  - **His household was already broken open before 1716, and that is the one economic fact we have** [PROVEN / CONTEXTUAL]. He was dead when his son married. In a partible-inheritance jurisdiction that means the holding had already been settled — a widow's portion and the children's shares — so his son entered marriage with a fraction rather than a farm. Two generations later the family's answer to that arithmetic was an ocean crossing.
+
+  - **A wife from outside the parish is a structural clue, not a curiosity** [INFERRED]. The absence of his marriage from forty-two years of the Ruivais register points to a bride from a neighbouring freguesia, since a couple normally married in hers. Mountain parishes of this size could not sustain endogamy; households routinely drew wives across the ridge. The practical consequence for us is that his own parents lie in an unidentified register on the other side of that line.
+
+  - **He is the floor of the documented line, and the floor is very low** [INFERRED]. There is no rank, no office, no trade and no land title anywhere in this branch until it reaches Brazil. What the Ruivais generations transmitted was a parish, a lugar-name and legitimacy. Those are worth nothing in Portugal and, as his grandson's Brazilian marriage shows, worth a great deal to an immigrant.
+
+  - **Education never enters the picture** [CONTEXTUAL]. There was no public schooling in rural Portugal in his lifetime; letters were a purchased, class-linked good bought for office or commerce, neither of which existed for this household. The family's literacy question first becomes answerable in Brazil, several generations later, when a militia commission finally makes letters useful.
+
+  ## Open questions
+
+  - **His origin parish and his own parents** [OPEN]. The page-by-page read of the Ruivais marriage register 1664–1706 found neither his marriage nor his wife's forename — a bounded negative suggesting the couple married in her home parish, so the generation above him is not reachable from the Ruivais registers. A further retrieval sweep (September 2026) of the Ruivães baptisms (1650–1674) and of the neighbouring Vieira do Minho parishes' marriages (Campos, Salamonde/São Gens, Ventosa, Cantelães) was also bounded-negative, so both Ruivães paths are exhausted; the highest-value unread lever is now the Montalegre/Barroso parishes across the Rabagão (Vila Real district, at the ADVR). A same-period "João, son of Gonçalo Rodrigues × Angela Pereira" in that register is flagged only to avoid conflation — a possible remarriage or a namesake, not our line. [LEAD]
+
+  - His death date and his own Ruivães óbito entry. [OPEN]
+
+  - Which of the two readings of the 1716 clause is correct. A higher-resolution image would settle "já defunto" against "de Frades". [OPEN]
 
   ## Sources held (this repository)
 
-  - PAR-0036 (1716 Ruivais marriage of his son — names him as the groom's father).
+  - PAR-0036 (1716 Ruivais marriage of his son — names him as the groom's father, deceased).
 
   ## Regional and migration context
 
-  Of São Martinho de Ruivais in the Minho highlands (Arcebispado de Braga), the origin
-  parish of this branch; his grandson João Rodrigues Valle (P-0078) emigrated to Minas
-  Gerais. He himself is not documented as leaving Portugal. [CONTEXTUAL] He is the
-  non-emigrating Ruivães generation at the origin-end of that move: the Minho was Portugal's
-  densest, most land-fragmented region — a smallholding minifúndio at ~96 inhabitants per km²
-  by 1801 — whose surplus non-inheriting sons made it the single greatest source of
-  18th-century Portuguese emigration to Brazil, his grandson's crossing falling under the
-  Provisão de 20 de março de 1720 passport regime. [CONTEXTUAL]
+  Of São Martinho de Ruivais in the Minho highlands (Arcebispado de Braga), the origin parish of this branch; his grandson João Rodrigues Valle (P-0078) emigrated to Minas Gerais. He himself is not documented as leaving Portugal. [CONTEXTUAL] He is the non-emigrating Ruivães generation at the origin-end of that move: the Minho was Portugal's densest, most land-fragmented region — a smallholding minifúndio at ~96 inhabitants per km² by 1801 — whose surplus non-inheriting sons made it the single greatest source of 18th-century Portuguese emigration to Brazil, his grandson's crossing falling under the Provisão de 20 de março de 1720 passport regime. [CONTEXTUAL]
 
   ## Where to go today
 
-  - **His parish (of lugar de Frades; named in his son's 1716 marriage):** Igreja de São Martinho de Ruivães, Av. de São Martinho 3896, 4850-341 Ruivães, Vieira do Minho, Braga PT [DOCUMENTED-addr / RESOLVED] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20de%20S%C3%A3o%20Martinho%2C%20Ruiv%C3%A3es%2C%20Vieira%20do%20Minho%2C%20Portugal)
+  - **His parish (named in his son's 1716 marriage; possibly of the lugar de Frades):** Igreja de São Martinho de Ruivães, Av. de São Martinho 3896, 4850-341 Ruivães, Vieira do Minho, Braga PT [DOCUMENTED-addr / RESOLVED] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20de%20S%C3%A3o%20Martinho%2C%20Ruiv%C3%A3es%2C%20Vieira%20do%20Minho%2C%20Portugal)
 profile_pt: >-
   ## Fatos interessantes
 
-  - **[PROVEN]** Nomeado "Gonçallo Roiz já defunto" (já falecido) no casamento de seu filho em Ruivais de 1716 (PAR-0036) — o único documento que o atesta, situando-o em São Martinho de Ruivais e confirmando morte antes de maio de 1716.
+  - **[PROVEN]** Nomeado "Gonçallo Roiz já defunto" — já falecido — no casamento de seu filho em Ruivais, em 1716 (PAR-0036). Essa única cláusula é o único documento que o atesta: situa-o em São Martinho de Ruivais e fixa sua morte antes de maio de 1716, e é tudo o que existe.
 
-  - **[CONTEXTUAL]** Seu filho João casou-se em Ruivais em 1716, e seu neto João Rodrigues Valle emigrou para Minas Gerais por volta de 1748–1751 — duas gerações separando o pequeno proprietário minhoto do colono no Brasil colonial, ambas moldadas pela mesma dinâmica de pressão fundiária da região mais densa de Portugal (~96 habitantes/km² em 1801).
+  - **[INFERRED]** Uma leitura página a página do registro de casamentos de Ruivais de 1664–1706 não encontrou nem seu casamento com Elebia Francisca nem o prenome distintivo dela em toda a série. Pela regra católica comum de que o casal se casa na paróquia da noiva, esse negativo delimitado aponta para uma esposa de fora da freguesia — e é por isso que a geração acima dele não pode ser alcançada pelos livros de Ruivais.
 
-  - **[INFERRED]** Pode ter sido do lugar de Frades em Ruivais (uma leitura de PAR-0036) — uma sub-localidade nomeada que implica uma posição fundiária mínima mas reconhecida na paróquia; uma família em Frades tinha uma posse definida, porém pequena demais para sustentar todos os filhos não herdeiros, exatamente o motor estrutural que enviou seu neto para o outro lado do Atlântico.
+  - **[INFERRED]** Uma das leituras da mesma cláusula gasta o faz "de Frades", sub-localidade nomeada de Ruivais. Se estiver certa, a família detinha uma pequena propriedade definida, em vez de ser sem terra — posição reconhecida o bastante para servir de endereço, e pequena o bastante para não reter todos os seus descendentes.
 
-  - **[INFERRED]** Uma pesquisa exaustiva no registro de casamentos de Ruivais de 1664–1706 não localizou seu casamento com Elebia Francisca — um negativo delimitado que sugere que o casal se casou na paróquia natal dela, significando que a geração acima dele não pode ser alcançada pelos registros de Ruivais.
+  - **[CONTEXTUAL]** Ele está duas gerações acima da travessia atlântica: seu filho João casou-se em Ruivais em 1716 e ficou; seu neto João Rodrigues Valle emigrou para Minas Gerais por volta de 1748–1751. A mesma pressão fundiária moldou as duas vidas, mas só uma delas teve de partir.
 
   ## Identidade
 
-  **Gonçalo Rodrigues** (registrado *Gonçallo Roiz* no casamento de 1716 em Ruivais). Da
-  Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal. Português.
+  **Gonçalo Rodrigues** (registrado *Gonçallo Roiz* no casamento de 1716 em Ruivais). Da Freguesia de São Martinho de Ruivais, Arcebispado de Braga, Portugal. Português. Pai de João Rodrigues (P-0080) e, portanto, pentavô de Eliza Balbina de Toledo (P-0017) na linha materna Toledo.
 
-  - **Papel:** pai de João Rodrigues (P-0080), nomeado com sua mulher Elebia Francisca
-  (P-0089) no casamento de 13 de maio de 1716 em Ruivais de seu filho (PAR-0036; família
-  F-0043). [evidência forte — identificar aquele noivo de 1716 com P-0080 apoia-se na
-  correspondência de nomes, paróquia e cronologia com o batismo de 1728 de P-0078 em
-  Ruivais]
+  - **Papel:** nomeado com sua mulher Elebia Francisca (P-0089) no casamento de seu filho, em 13 de maio de 1716, em Ruivais (PAR-0036; família F-0043). [evidência forte — identificar aquele noivo de 1716 com P-0080 apoia-se na correspondência do par de nomes, da freguesia e da cronologia com o batismo de 1728 de P-0078 em Ruivais]
 
-  - **Nascimento, óbito, pais próprios:** sem registro. PAR-0036 o lê "já defunto"
-  (preferido); a síntese de recuperação leu alternativamente "de Frades". [OPEN] Uma leitura
-  página a página do registro de casamentos de Ruivães de 1664–1706 (recuperação) não encontrou
-  seu próprio casamento com Estêbia Francisca, de modo que o casal provavelmente se casou na
-  freguesia de origem da noiva, fora da paróquia — a geração acima dele não é, portanto,
-  alcançável pelos registros de Ruivães. Uma nova varredura de recuperação (setembro de 2026)
-  dos batismos de Ruivães (1650–1674) e dos casamentos das freguesias vizinhas de Vieira do
-  Minho (Campos, Salamonde/São Gens, Ventosa, Cantelães) também foi negativa e delimitada, de
-  modo que ambos os caminhos por Ruivães estão esgotados; o lead de maior valor ainda não lido
-  são as freguesias de Montalegre/Barroso do outro lado do Rabagão (distrito de Vila Real, no
-  ADVR). Um "João, filho de Gonçalo Rodrigues × Angela Pereira" do mesmo período nesse registro
-  é sinalizado apenas para evitar confusão (um possível segundo casamento ou um homônimo), não
-  sendo nossa linha. [LEAD]
+  - **Conflito de leitura, preservado:** PAR-0036 o transcreve "Gonçallo Roiz já defunto", leitura preferida, paralela à do pai da noiva, "Domingos Gonçalves já defunto". A síntese de recuperação leu alternativamente a mesma cláusula como "Gonçalo Rodrigues **de Frades**" (do lugar de Frades, em Ruivais), a partir de cópia de resolução mais baixa; fica preservada como alternativa menos certa. [uncertain]
+
+  - **Nascimento, óbito, pais próprios:** sem registro. [OPEN]
+
+  ## Posição social e profissão
+
+  - **Nada está registrado.** Nenhuma ocupação, patente, propriedade ou ato próprio. Ele existe como quatro palavras no assento de casamento do filho. [OPEN]
+
+  - **Alfabetização — [UNCLASSIFIABLE]:** ele já estava morto quando se escreveu o único documento que o nomeia. Nada assinável pode existir.
+
+  - **O único marcador possível de condição é a leitura alternativa "de Frades":** um nome de lugar usado como identificador implica uma casa com lugar reconhecido, não um jornaleiro à deriva. Apoia-se na mais frágil das duas leituras. [uncertain / INFERRED]
+
+  ## Família e rede social
+
+  - **Esposa:** Elebia Francisca (P-0089), também lida *Estêbia Francisca* — o prenome está gasto e ambas as formas ficam preservadas.
+
+  - **Filho:** João Rodrigues (P-0080), casado com Joanna Gonçalves em Ruivais em 1716 e pai do emigrante João Rodrigues Valle (P-0078).
+
+  - **Nenhuma outra relação, testemunha ou associado seu está registrado em parte alguma.** A rede FAN que o situaria socialmente não sobreviveu; as testemunhas do casamento do filho (Duarte Dias, Domingos Afonso, Gregorio do Rego Macedo) são todas da mesma freguesia e não podem ser ligadas a ele pessoalmente. [OPEN]
+
+  ## O que podemos extrapolar
+
+  - **Sua casa já havia sido aberta antes de 1716, e esse é o único fato econômico de que dispomos** [PROVEN / CONTEXTUAL]. Ele estava morto quando o filho se casou. Numa jurisdição de herança partível, isso significa que a posse já havia sido acertada — a parte da viúva e as cotas dos filhos —, de modo que o filho entrou no casamento com uma fração, não com uma lavoura. Duas gerações depois, a resposta da família a essa aritmética foi uma travessia oceânica.
+
+  - **Uma esposa de fora da freguesia é pista estrutural, não curiosidade** [INFERRED]. A ausência de seu casamento em quarenta e dois anos do registro de Ruivais aponta para uma noiva de freguesia vizinha, já que o casal normalmente se casava na dela. Paróquias serranas desse tamanho não sustentavam endogamia; as casas buscavam esposas do outro lado da serra rotineiramente. A consequência prática para nós é que seus próprios pais estão num registro não identificado, do outro lado dessa linha.
+
+  - **Ele é o piso da linha documentada, e o piso é muito baixo** [INFERRED]. Não há patente, ofício, ocupação nem título de terra em parte alguma deste ramo até que ele chegue ao Brasil. O que as gerações de Ruivais transmitiram foi uma freguesia, um nome de lugar e legitimidade. Isso não vale nada em Portugal e, como mostra o casamento brasileiro de seu neto, vale muito para um imigrante.
+
+  - **A educação nunca entra em cena** [CONTEXTUAL]. Não havia escolarização pública no Portugal rural em seu tempo; as letras eram bem comprado e ligado à classe, adquirido para ofício ou comércio, e nenhum dos dois existia para esta casa. A questão da alfabetização da família só se torna respondível no Brasil, várias gerações depois, quando uma provisão miliciana finalmente torna as letras úteis.
+
+  ## Questões em aberto
+
+  - **Sua paróquia de origem e seus próprios pais** [OPEN]. A leitura página a página do registro de casamentos de Ruivais de 1664–1706 não encontrou nem seu casamento nem o prenome da esposa — negativo delimitado que sugere que o casal se casou na paróquia natal dela, de modo que a geração acima dele não é alcançável pelos registros de Ruivais. Uma nova varredura de recuperação (setembro de 2026) dos batismos de Ruivães (1650–1674) e dos casamentos das freguesias vizinhas de Vieira do Minho (Campos, Salamonde/São Gens, Ventosa, Cantelães) também foi negativa e delimitada, de modo que ambos os caminhos por Ruivães estão esgotados; a alavanca não lida de maior valor são agora as freguesias de Montalegre/Barroso, do outro lado do Rabagão (distrito de Vila Real, no ADVR). Um "João, filho de Gonçalo Rodrigues × Angela Pereira" do mesmo período naquele registro é sinalizado apenas para evitar confusão — possível segundo casamento ou homônimo, não a nossa linha. [LEAD]
+
+  - Sua data de óbito e seu próprio assento de óbito em Ruivães. [OPEN]
+
+  - Qual das duas leituras da cláusula de 1716 está correta. Uma imagem de maior resolução decidiria entre "já defunto" e "de Frades". [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
-  - PAR-0036 (casamento de 1716 em Ruivais de seu filho — nomeia-o como pai do noivo).
+  - PAR-0036 (casamento de 1716 em Ruivais de seu filho — nomeia-o como pai do noivo, falecido).
 
   ## Contexto regional e migratório
 
-  De São Martinho de Ruivais, nas terras altas do Minho (Arcebispado de Braga), a paróquia
-  de origem deste ramo; seu neto João Rodrigues Valle (P-0078) emigrou para Minas Gerais.
-  Ele próprio não está documentado como tendo deixado Portugal. [CONTEXTUAL] Ele é a geração
-  não-emigrante de Ruivães na origem desse movimento: o Minho era a região mais densa e mais
-  fragmentada em terra de Portugal — um minifúndio de pequenas propriedades, ~96 habitantes por
-  km² em 1801 — cujos filhos excedentes não herdeiros fizeram dele a maior fonte isolada de
-  emigração portuguesa setecentista para o Brasil, com a travessia de seu neto caindo sob o
-  regime de passaportes da Provisão de 20 de março de 1720. [CONTEXTUAL]
+  De São Martinho de Ruivais, nas terras altas do Minho (Arcebispado de Braga), a paróquia de origem deste ramo; seu neto João Rodrigues Valle (P-0078) emigrou para Minas Gerais. Ele próprio não está documentado como tendo deixado Portugal. [CONTEXTUAL] É a geração não emigrante de Ruivães, na origem desse movimento: o Minho era a região mais densa e mais fragmentada em terra de Portugal — minifúndio de pequenas propriedades a ~96 habitantes por km² em 1801 —, cujos filhos excedentes não herdeiros fizeram dele a maior fonte isolada da emigração portuguesa setecentista para o Brasil, caindo a travessia de seu neto sob o regime de passaportes da Provisão de 20 de março de 1720. [CONTEXTUAL]
 
   ## Onde ir hoje
 
-  - **Sua paróquia (do lugar de Frades; nomeada no casamento de 1716 do filho):** Igreja de São Martinho de Ruivães, Av. de São Martinho 3896, 4850-341 Ruivães, Vieira do Minho, Braga PT [DOCUMENTED-addr / RESOLVED] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20de%20S%C3%A3o%20Martinho%2C%20Ruiv%C3%A3es%2C%20Vieira%20do%20Minho%2C%20Portugal)
+  - **Sua paróquia (nomeada no casamento de seu filho, em 1716; possivelmente do lugar de Frades):** Igreja de São Martinho de Ruivães, Av. de São Martinho 3896, 4850-341 Ruivães, Vieira do Minho, Braga PT [DOCUMENTED-addr / RESOLVED] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20de%20S%C3%A3o%20Martinho%2C%20Ruiv%C3%A3es%2C%20Vieira%20do%20Minho%2C%20Portugal)

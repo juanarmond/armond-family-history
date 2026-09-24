@@ -3,8 +3,8 @@
 2 VERS 7.0
 1 SOUR ARMOND-FAMILY-HISTORY
 2 NAME Armond Family History
-2 VERS 2026.09.23
-1 DATE 23 SEP 2026
+2 VERS 2026.09.24
+1 DATE 24 SEP 2026
 1 SUBM @SUBM0001@
 1 LANG pt-BR
 0 @SUBM0001@ SUBM
@@ -1057,10 +1057,10 @@
 1 NOTE Father of Francisco José Bohrer (P-0034); hence Joaquim José Bohrer's (P-0030) paternal grandfather and Iris Bohrer's Bohrer-line immigrant-boundary ancestor. Named in his son's 1888 registered will (PRB-0005) as "Jacob Bahrer … já fallecido" — deceased before 1888. Preferred name given in the family's stabilised form "Bohrer"; the will spells it "Bahrer".
 1 NOTE Nationality is Swiss, primary-confirmed by Jacob's own 1825 Nova Friburgo marriage (PAR-0059, event E-0115): the parish register records the spouses as "ambos do Cantão de Soleure, colonos suiços" and Jacob as baptised at Erschwil ("baptizado na freg.a de Erswill"), Canton Solothurn (Soleure), Switzerland [PROVEN for the canton / Swiss origin]. The Imigrantes de Nova Friburgo compilation (PUB-0003, p.300, BORER I section) and the Casa Suíça database (image read 2026-08-07) corroborate this, identifying him as Jacob Borer born c.1801 at Erschwil, Soleure, Switzerland — BORER I, distinct from Laurent Borer (BORER II, P-0068) who came from Grindel. Jacob's Casa/Lote at Nova Friburgo was 70/56 (Laurent's was 73/86 — a useful distinguishing marker). The compilation gives him "9 filhos" total (two died in infancy unrecorded). The DB states he sold his property on 24 April 1843. NOTE the compilation's "died 1843-44" is now positively EXCLUDED by a bounded-negative retrieval search: the Nova Friburgo óbito register (Livro 1) was read gap-free 1832-1853 and Jacob is ABSENT, while his son João José was born 10 Sep 1840 — so he was alive into ~1840 and died OUTSIDE Nova Friburgo (the branch's Macaé / Bom Jardim drift), not in 1843 at Nova Friburgo. The Catharina Mayer/Moser surname conflict (PRB-0005 gives "Mayer"; compilation gives "Moser") is unresolved and preserved as a name variant on P-0051. PRB-0005 evidences only his name, his son's parentage and that he was already dead by 1888; with his Swiss origin now primary-confirmed by PAR-0059, what still awaits a record is his exact birth date — a Swiss (Erschwil) baptism register — and his parents at primary level.
 0 @P0051@ INDI
-1 NAME Catharina /Mayer/
-2 GIVN Catharina
-2 SURN Mayer
 1 NAME Catharina /Moser/
+2 GIVN Catharina
+2 SURN Moser
+1 NAME Catharina /Mayer/
 2 TYPE AKA
 2 SOUR @PRB0005@
 1 SEX F
@@ -1072,7 +1072,7 @@
 1 FAMS @F0024@
 1 FAMC @F0048@
 1 NOTE Mother of Francisco José Bohrer (P-0034); hence Joaquim José Bohrer's (P-0030) paternal grandmother. Named in her son's 1888 registered will (PRB-0005) as "Catharina Mayer … já fallecida" — deceased before 1888.
-1 NOTE Nationality is Swiss, primary-confirmed by her own 1825 Nova Friburgo marriage (PAR-0059, event E-0116): the parish register names the spouses "ambos do Cantão de Soleure, colonos suiços" and records her as natural / baptised at Eggendorf, read as Hägendorf [uncertain], Canton Solothurn (Soleure), Switzerland [PROVEN for the canton / Swiss origin; the exact parish read is uncertain]. Surname conflict preserved: the primary will (PRB-0005) writes "Mayer", but two secondary Nova Friburgo colonist-family compilations (a lead, not catalogued) give "Moser" (Catharina Moser of Hägendorf, Soleure, married Jacob Borer 1825). "Mayer" is recorded as the source-attested form and "Moser" as an unresolved variant; the retrieval note argues the two are the same person, but no primary record settles the maiden surname, so neither surname is treated as certain.
+1 NOTE Nationality is Swiss, primary-confirmed by her own 1825 Nova Friburgo marriage (PAR-0059, event E-0116): the parish register names the spouses "ambos do Cantão de Soleure, colonos suiços" and records her as natural / baptised at Eggendorf, read as Hägendorf [uncertain], Canton Solothurn (Soleure), Switzerland [PROVEN for the canton / Swiss origin; the exact parish read is uncertain]. Surname conflict RESOLVED 2026-09-24 in favour of **Moser**, and `preferred_name` changed accordingly. Two held primary records write it: her own 1825 marriage act ("Catharina Moser filha legitima de Jose Moser", PAR-0059) and her son's 1832 baptism ("sua mulher Catharina Moser", PAR-0054). "Mayer" survives only in her son's 1888 registered will (PRB-0005) — second-hand testimony about a woman already long dead, 63 years after the marriage act — and is kept as a name variant. An earlier note justified preferring "Mayer" on the grounds that "Moser" rested only on uncatalogued colonist compilations; that reasoning was superseded once PAR-0059 and PAR-0054 were catalogued. The structured data already agreed: F-0048 models her as the daughter of José Moser (P-0098).
 0 @P0052@ INDI
 1 NAME Manoel de Lemos /Pereira/
 2 GIVN Manoel de Lemos
@@ -3294,8 +3294,8 @@
 2 SOUR @PUB0005@
 2 SOUR @PAR0096@
 0 @DOCF0062_9@ INDI
-1 NAME Gaspar de Souto-Maior (b.23.12.1657 S.Sebastião per primary baptism register; d.2.12.1727 S.Sebastião; m.2.10.1690 Margarida das Candeias Machado; stayed in Terceira, Armond-line ancestor) [COMPILED — PUB-0005 attests parentage; note: PUB-0005 gives birth as 23.2.1657, likely a compiler transposition of 23.12.1657; parentage also confirmed in his 1690 marriage record naming Belchior × Mariana as parents (primary Terceira parish record); distinct from the modelled P-0092 (Brazil Gaspar), whose identity conflict with the 2.12.1727 S.Sebastião death is unresolved — see P-0092 /notes]/
-2 GIVN Gaspar de Souto-Maior (b.23.12.1657 S.Sebastião per primary baptism register; d.2.12.1727 S.Sebastião; m.2.10.1690 Margarida das Candeias Machado; stayed in Terceira, Armond-line ancestor) [COMPILED — PUB-0005 attests parentage; note: PUB-0005 gives birth as 23.2.1657, likely a compiler transposition of 23.12.1657; parentage also confirmed in his 1690 marriage record naming Belchior × Mariana as parents (primary Terceira parish record); distinct from the modelled P-0092 (Brazil Gaspar), whose identity conflict with the 2.12.1727 S.Sebastião death is unresolved — see P-0092
+1 NAME Gaspar de Souto-Maior (b.23.2.1657 S.Sebastião; d.2.12.1727 S.Sebastião; m.2.10.1690 Margarida das Candeias Machado; stayed in Terceira, Armond-line ancestor) [COMPILED — every fact in this entry rests on PUB-0005 alone. No primary Terceira baptism or marriage record for this Gaspar is catalogued here. An earlier version cited a "primary baptism register" for a birth of 23.12.1657 and a 1690 marriage act naming Belchior × Mariana; neither record is held, so both citations and the "compiler transposition" reading that demoted PUB-0005's 23.2.1657 were removed 2026-09-24. Distinct from the modelled P-0092 (Brazil Gaspar), whose identity conflict with the 2.12.1727 S.Sebastião death is unresolved — see P-0092 /notes]/
+2 GIVN Gaspar de Souto-Maior (b.23.2.1657 S.Sebastião; d.2.12.1727 S.Sebastião; m.2.10.1690 Margarida das Candeias Machado; stayed in Terceira, Armond-line ancestor) [COMPILED — every fact in this entry rests on PUB-0005 alone. No primary Terceira baptism or marriage record for this Gaspar is catalogued here. An earlier version cited a "primary baptism register" for a birth of 23.12.1657 and a 1690 marriage act naming Belchior × Mariana; neither record is held, so both citations and the "compiler transposition" reading that demoted PUB-0005's 23.2.1657 were removed 2026-09-24. Distinct from the modelled P-0092 (Brazil Gaspar), whose identity conflict with the 2.12.1727 S.Sebastião death is unresolved — see P-0092
 2 SURN notes]
 1 SEX U
 1 FAMC @F0062@
@@ -5511,12 +5511,12 @@
 1 NOTE Archival reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
 1 OBJE @OBJPAR0058@
 0 @PAR0059@ SOUR
-1 TITL 1825 marriage of Jacob Bohrer and Catharina Moser at Nova Friburgo — Swiss colonists of Erschwil and Hägendorf [uncertain], Canton Solothurn
-1 TEXT Parish marriage of Jacob Bohrer (P-0050) and Catharina Moser (P-0051) — Iris Bohrer Muniz's Swiss-immigrant great-great-grandparents on the Bohrer maternal line — on 8 August 1825 at Nova Friburgo. NAMES BOTH DEEPER-GENERATION COUPLES: Jacob is a legitimate son of João Bohrer × Barbara Probst of Erschwil (Erswill), and Catharina of José Moser × Maria Weiss (Veisse) of Hägendorf [uncertain] — all of Canton Solothurn. Source for the marriage event E-0087; adds the parent families F-0047 (Jacob's parents, new) and F-0048 (Catharina's parents, new).
+1 TITL 1825 marriage of Jacob Bohrer and Catharina Moser at Nova Friburgo — Swiss colonists of Beinwil [register writes "Erswill"] and Hägendorf [uncertain], Canton Solothurn
+1 TEXT Parish marriage of Jacob Bohrer (P-0050) and Catharina Moser (P-0051) — Iris Bohrer Muniz's Swiss-immigrant great-great-grandparents on the Bohrer maternal line — on 8 August 1825 at Nova Friburgo. NAMES BOTH DEEPER-GENERATION COUPLES: Jacob is a legitimate son of João Bohrer × Barbara Probst of Beinwil (the register writes "Erswill"), and Catharina of José Moser × Maria Weiss (Veisse) of Hägendorf [uncertain] — all of Canton Solothurn. Source for the marriage event E-0087; adds the parent families F-0047 (Jacob's parents, new) and F-0048 (Catharina's parents, new).
 1 REPO @REPO0053@
 2 CALN Livro de Casamentos, página 50 (1825)
 1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
-1 NOTE Transcription: [Livro de Casamentos, Nova Friburgo, p.50, 1825; Vigário Jacob Joye.] "Aos oito dias do mes de Agosto do anno de mil oito cent[os] e vinte e cinco... receberam-se em face de Igreja n'esta Matriz solemnemente por palavras, Jacob Bohrer filho legitimo de João Bohrer e da sua mulher Barbara Probst naturaes e baptizado na freg.a de Erswill [Erschwil], com Catharina Moser filha legitima de Jose Moser e de sua mulher Maria Veisse [Weiss], natural e baptizada na freguezia d'Eggendorf [Hägendorf — uncertain], ambos do Cantão de Soleure [Solothurn], colonos suiços e moradores n'esta freg.a... O Vigario Jacob Joye." [Testemunhas: João Probst; Isabel Sch[oser — uncertain]. Padre coadjutor presente: Rodrigo de Souza Sabia.]
+1 NOTE Transcription: [Livro de Casamentos, Nova Friburgo, p.50, 1825; Vigário Jacob Joye.] "Aos oito dias do mes de Agosto do anno de mil oito cent[os] e vinte e cinco... receberam-se em face de Igreja n'esta Matriz solemnemente por palavras, Jacob Bohrer filho legitimo de João Bohrer e da sua mulher Barbara Probst naturaes e baptizado na freg.a de Erswill [read as Beinwil, not Erschwil — see limitations], com Catharina Moser filha legitima de Jose Moser e de sua mulher Maria Veisse [Weiss], natural e baptizada na freguezia d'Eggendorf [Hägendorf — uncertain], ambos do Cantão de Soleure [Solothurn], colonos suiços e moradores n'esta freg.a... O Vigario Jacob Joye." [Testemunhas: João Probst; Isabel Sch[oser — uncertain]. Padre coadjutor presente: Rodrigo de Souza Sabia.]
 1 NOTE Archival reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
 1 OBJE @OBJPAR0059@
 0 @PAR0060@ SOUR
@@ -5548,11 +5548,11 @@
 1 OBJE @OBJPAR0062@
 0 @PAR0063@ SOUR
 1 TITL 1868 baptism of Valentim Martinho Bohrer at Nova Friburgo — son of Vicente Bohrer and Maria Eggendorn
-1 TEXT Parish baptism of Valentim Martinho Bohrer (P-0028) — João Gonçalves Bohrer's father (Iris Bohrer Muniz's paternal grandfather-line) — in 1868, legitimate son of Vicente Bohrer (P-0070) × Maria (Thecla) Eggendorn (P-0071). CORRECTS his birth event E-0064 from "1868-11-14" (impossible after a September baptism) to 14 Sep 1868. The page is faded; the birth month is [uncertain] but the 1868 year is firmly corroborated by his 1890 marriage (age 22) and 1948 death (age 80).
+1 TEXT Parish baptism of Valentim Martinho Bohrer (P-0028) — João Gonçalves Bohrer's father (Iris Bohrer Muniz's paternal grandfather-line) — in 1868, legitimate son of Vicente Bohrer (P-0070) × Maria (Thecla) Eggendorn (P-0071). CONFIRMS his birth event E-0064 at 14 November 1868, baptised eleven days later on 25 November. An earlier reading of both months as "Setembro" was an error, corrected 2026-09-24 against the image: the register reads "Novembro" in both places, Valentim heads a batch of twelve children baptised under the one 25 November act, and PUB-0003 independently gives 14/11/1868. The 1868 year is further corroborated by his 1890 marriage (age 22) and 1948 death (age 80).
 1 REPO @REPO0051@
 2 CALN Livro de Baptismos, ~página 174 (1868)
 1 NOTE Evidence classification: parish_register; original; information primary; direct evidence.
-1 NOTE Transcription: [Livro de Baptismos, Nova Friburgo, ~p.174, 1868; Vigário João José Viviand. Heavily faded.] "A[os] vinte e cinco de Setembro [uncertain] de mil oito centos e sessenta e oito baptizei a Valentim Martinho, nascido a quatorze de [Setembro — uncertain], filho legitimo de Vicente Bohrer, e de Maria [Eugenia? — uncertain] Eggendorn; forão padrinhos Valentim Freize [uncertain] e Anna Maria Bohrer."
+1 NOTE Transcription: [Livro de Baptismos, Nova Friburgo, ~p.174, 1868; Vigário João José Viviand. Faded page.] "A[os] vinte e cinco de Novembro de mil oito centos e sessenta e oito baptizei a Valentim Martinho, nascido a quatorze de Novembro, filho legitimo de Vicente Bohrer, e de Maria [Regina? — uncertain] Eggendorn; forão padrinhos Valentim Freize [uncertain] e Anna Maria Bohrer." [Valentim is entry no. 1 of twelve children entered under the single baptism act of 25 November 1868.]
 1 NOTE Archival reference: Fundação D. João VI digitisation (djoaovi); provenance confirmed via C-009
 1 OBJE @OBJPAR0063@
 0 @PAR0064@ SOUR
@@ -6553,7 +6553,7 @@
 0 @OBJPAR0059@ OBJE
 1 FILE evidence/parish/PAR-0059-bohrer-jacob-moser-marriage-1825-novafriburgo.jpg
 2 FORM image/jpeg
-2 TITL 1825 marriage of Jacob Bohrer and Catharina Moser at Nova Friburgo — Swiss colonists of Erschwil and Hägendorf [uncertain], Canton Solothurn
+2 TITL 1825 marriage of Jacob Bohrer and Catharina Moser at Nova Friburgo — Swiss colonists of Beinwil [register writes "Erswill"] and Hägendorf [uncertain], Canton Solothurn
 1 NOTE sha256: 051957c3af9d9ca5159d80e9e6c2c32de981df40d45b0e1b17f7c6a7c5d487a3
 0 @OBJPAR0060@ OBJE
 1 FILE evidence/parish/PAR-0060-bohrer-laurent-wehrli-marriage-1820-novafriburgo.jpg
