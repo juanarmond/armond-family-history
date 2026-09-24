@@ -21,7 +21,9 @@ updates:
     title_pt: "Os bisavós suíços de Iris Bohrer agora têm suas próprias páginas — quatro ancestrais nomeados no registro de casamento de Nova Friburgo de 1840"
     links: [P-0119, P-0120, P-0121, P-0122]
 
-  - date: "2026-09-13"
+  # Dated to the day the private flag was cleared (not the day the files were catalogued),
+  # so this headline leads the 24 records it announces in the feed.
+  - date: "2026-09-14"
     kind: milestone
     title: "Two dozen of the oldest records — 18th- and 19th-century parish acts and probate inventories — are now open to public view"
     title_pt: "Duas dezenas dos registros mais antigos — atos paroquiais e inventários dos séculos XVIII e XIX — agora estão abertos ao público"
@@ -99,6 +101,7 @@ updates:
     kind: milestone
     title: "The family portraits were deepened across every line — richer, fully-sourced life stories in English and Portuguese"
     title_pt: "Os retratos da família foram aprofundados em todas as linhas — histórias de vida mais ricas e totalmente documentadas, em inglês e português"
+    links: [P-0016, P-0028, P-0035, P-0042, P-0011]
 
   - date: "2026-09-07"
     kind: milestone

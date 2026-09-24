@@ -2,7 +2,8 @@
 """Generate the viewer's "What's new / Novidades" feed (family-tree-viewer/updates.json).
 
 Comprehensive by construction so nothing is missed: every NON-private source becomes a dated
-"document" entry (dated by the git commit that first added it), with its subject person linked
+"document" entry (dated by when it became readable — the commit that added it, or the later
+commit that cleared its `private` flag), with its subject person linked
 so a reader can jump straight to that ancestor. Curated editorial entries — milestones,
 corrections and profile/"portrait" highlights that git cannot classify — are read from
 family-tree-viewer/updates.yaml and merged in. Living people and private sources are never
@@ -17,12 +18,9 @@ import datetime as _dt
 import glob
 import json
 import os
-import re
 import subprocess
 
 import yaml
-
-_DATE_LINE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VIEWER = os.path.join(ROOT, "family-tree-viewer")
@@ -33,23 +31,71 @@ SOURCE_ID_PREFIXES = ("CIV", "GOV", "PAR", "PRB", "NWS", "PUB", "REC")
 
 
 def git_add_dates(pathspec: str) -> dict[str, str]:
-    """Map each added file (repo-relative) to the date of the commit that first added it."""
+    """Map each file (by its CURRENT repo-relative path) to the date it was first added.
+
+    Renames are followed: reclassifying a source moves its file between category
+    directories, and `--diff-filter=A` alone reports nothing for the new path, leaving
+    the record undated and stranded at the foot of the feed.
+    """
     out = subprocess.run(
-        ["git", "-C", ROOT, "log", "--diff-filter=A", "--name-only",
-         "--date=short", "--format=%ad", "--", pathspec],
+        ["git", "-C", ROOT, "log", "--diff-filter=AR", "--name-status", "--find-renames",
+         "--reverse", "--date=short", "--format=%x01%ad", "--", pathspec],
         capture_output=True, text=True, check=True,
     ).stdout
     dates: dict[str, str] = {}
-    current = None
+    date = None
     for line in out.splitlines():
-        line = line.strip()
-        if not line:
+        if line.startswith("\x01"):
+            date = line[1:].strip()
             continue
-        if _DATE_LINE.match(line):
-            current = line
-        elif current:  # a file path added in the `current` commit
-            if line not in dates or current < dates[line]:
-                dates[line] = current  # keep the earliest (original) add date
+        parts = line.split("\t")
+        if not date or len(parts) < 2:
+            continue
+        if parts[0].startswith("R") and len(parts) >= 3:
+            dates[parts[2]] = dates.pop(parts[1], date)  # carry the original add date over
+        elif parts[0] == "A":
+            dates.setdefault(parts[1], date)  # oldest-first, so the first A is the original
+    return dates
+
+
+def git_public_dates(pathspec: str, add_dates: dict[str, str]) -> dict[str, str]:
+    """Map each source file to the date it became visible to a reader.
+
+    A record catalogued while `private: true` is not new to the public on the day the
+    file was added — it is new on the day the flag was cleared. Dating it by the add
+    date files it under a month when nobody could open it, stranding it far from the
+    milestone that announces it.
+    """
+    out = subprocess.run(
+        ["git", "-C", ROOT, "log", "-G", r"^private:", "-p", "--date=short",
+         "--format=%x01%ad", "--", pathspec],
+        capture_output=True, text=True, check=True,
+    ).stdout
+
+    # Newest-first; keep the first (most recent) true -> false flip seen per file.
+    flips: dict[str, str] = {}
+    date = None
+    path = None
+    removed_private_true = False
+    for line in out.splitlines():
+        if line.startswith("\x01"):
+            date = line[1:].strip()
+            path = None
+            removed_private_true = False
+        elif line.startswith("+++ b/"):
+            path = line[6:].strip()
+            removed_private_true = False
+        elif line.startswith("-private:"):
+            removed_private_true = "true" in line
+        elif line.startswith("+private:"):
+            if path and date and removed_private_true and "false" in line:
+                flips.setdefault(path, date)
+            removed_private_true = False
+
+    dates = dict(add_dates)
+    for path, flipped in flips.items():
+        # A flip can only postpone visibility, never predate the file itself.
+        dates[path] = max(flipped, add_dates.get(path, ""))
     return dates
 
 
@@ -75,7 +121,7 @@ def main() -> int:
                 return pid
         return None
 
-    add_dates = git_add_dates("data/sources")
+    public_dates = git_public_dates("data/sources", git_add_dates("data/sources"))
 
     auto: list[dict] = []
     for path in sorted(glob.glob(os.path.join(ROOT, "data", "sources", "*", "*.yaml"))):
@@ -85,7 +131,7 @@ def main() -> int:
             continue  # never surface a private (living-adjacent) record
         rel = os.path.relpath(path, ROOT)
         entry = {
-            "date": add_dates.get(rel, ""),
+            "date": public_dates.get(rel, ""),
             "kind": "document",
             "title": source.get("title", sid),
             "title_pt": source.get("title_pt", source.get("title", sid)),

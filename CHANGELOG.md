@@ -5,6 +5,27 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — "What's new" feed dated records by catalogue date, not by when readers could see them (2026-09-24)
+
+`scripts/build_updates.py` dated every document entry from the commit that first added the
+file. Two consequences, both visible in the viewer's feed:
+
+- **Records opened to the public long after cataloguing were filed under the wrong month.**
+  The 24 pre-1900 parish/probate records freed in `8950e44` (2026-09-14) sat under July and
+  August — dates on which no reader could open them — a month away from the milestone that
+  announced them, which therefore had nothing to click through to. Entries are now dated by
+  the later of the add commit and the commit that cleared `private` (`git_public_dates`).
+- **Reclassified sources lost their date entirely.** `--diff-filter=A` finds nothing for a
+  path created by a rename, so NWS-0001, PRB-0001, PRB-0002 (renamed out of the old flat
+  `SRC-####` scheme) and PAR-0001 rendered undated at the foot of the feed. `git_add_dates`
+  now follows renames, which matters because recategorising a source is a documented
+  operation that moves its file between category directories.
+
+Feed is now fully dated (0 undated entries, previously 8). `updates.yaml`: the "two dozen
+oldest records" milestone moved to 2026-09-14 so it heads the 24 records it announces, and
+the 2026-09-11 portraits milestone gained links to one ancestor per family line (it
+previously offered the reader nothing to click).
+
 ### Added — Terceira Azorean line extended three generations (2026-09-23)
 
 New sources: PUB-0004 (Mendes Forjaz, Genealogias da Ilha Terceira Vol.IV), PUB-0005 (Vol.IX), PAR-0086 (Santa Bárbara casamentos 1650, primary marriage act). New people: Belchior da Ponte Cardoso (P-0123) × Mariana Fagundes (P-0124, F-0062); Belchior's parents Manuel da Ponte Valadão (P-0125) × Maria da Costa Leonardes (P-0126, F-0063); Mariana's parents António Martins Fagundes (P-0127) × Catarina Machado de Faria (P-0128, F-0064); Mariana's grandparents Pedro Lourenço Machado (P-0129) × Maria Fernandes da Costa (P-0130, F-0065). Gaspar Ferreira (P-0092) linked to F-0062. Total: +8 people, +4 families, +11 events, +3 sources, +5 evidence files.
