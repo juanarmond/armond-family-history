@@ -5,6 +5,54 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Rewritten — the Family Story, from the enriched portraits, in both languages (2026-09-24)
+
+`family-tree-viewer/family-story.yaml` rebuilt section by section against the 127 rewritten
+profiles: EN 37,965 → 76,685 chars, PT 40,100 → 80,331, with 27 headings at exact EN/PT parity.
+Four subagents drafted one river each into scratch files; the Prologue and the three closing
+sections were written centrally, since those synthesise all ten profile passes. No evidence tags
+or entity IDs appear in the prose — the essay carries uncertainty in the sentence, per its own
+standing convention.
+
+Substantive narrative corrections, all of which the old text asserted more confidently than the
+records allow:
+
+- **Volta Redonda.** The old text and an intermediate draft had Juan's grandfather Geraldo ending
+  his working life as a baker in the steel city. `P-0004` says otherwise: his adult working life
+  was in **Irajá**, Rio's Zona Norte — "Volta Redonda was where he died, not his lifelong home".
+  The real and sharper symmetry is his father **Aristão**: a district police authority in Muriaé
+  by state gazette in 1931, registered *"de profissão padeiro"* at Volta Redonda by 1957. The
+  line's whole fall completes inside one lifetime, in twenty-six years, opposite Antenor Muniz
+  rising to a plumber's trade and the first estate in his line since 1866.
+- **"Out of the Minho"** was removed from River Two's heading, the Prologue and both closing
+  sections. Vicente José de Carvalho Guimarães is recorded only as *portuguez*; Minho exists in
+  this archive as hypothesis. (The Minho *is* documented elsewhere in the tree — João Rodrigues
+  do Valle, "natural da freguesia de São Martinho de Ruivães, Arcebispado de Braga" — so the
+  reference survives where a record supports it.)
+- **"Out of Switzerland and Hessen"** likewise. Every Hessen reference in `data/` is tagged
+  `[LEAD]`, resting on a blog and a secondary transcription; the records say only *"na Allemanha"*.
+  River Four is now "out of Switzerland and Germany".
+- **River One retitled** "the Armond **and the Toledo**". The Terceira headwater reaches the
+  family through Gaspar Ferreira into the Ferreira de Toledo line and only meets the Armond
+  surname when Eliza married Simplício — whose own parentage remains unknown. The old framing
+  credited Terceira to the Armond line directly.
+- **The Fazenda da Concórdia** is no longer the ancestral seat: a 1862 purchase, undivided from
+  its 1856 registration, mortgaged at 3:885$000, sold by about 1880.
+- Other old-text errors dropped or fixed by the drafting agents: two Borer brothers did **not**
+  marry two Wehrli sisters (Salomea married Luiz Nicolão Vilette); Jacob Bohrer was not a
+  documented orphan; Gloria Lacerda died in **1960**, not 1900 (an index misparse); the
+  "sixteen-years-late baptism as poverty marker" reading is better explained by Sapucaia only
+  becoming a freguesia in 1871; the 1819 Lomba do Botão inventário is a Ponta Delgada **catalogue
+  entry**, not a held record.
+
+The closing sections gain two throughlines the documents earned: **office is not an asset**,
+traced from Simplício's unpaid `cargo gratuito` down to Joseph Borer's undecipherable
+*"fusemnistr"* village duty three rungs below; and a passage on the archive correcting itself,
+naming the Houver, "9br", Moser and Concórdia errors in the text rather than burying them.
+
+Six curated "What's new" entries added for this pass, including a visible retraction of the
+withdrawn given-name claim, phrased so it names no living person.
+
 ### Retracted — P-0103's birth was never "16 October 1844"; the register reads November (2026-09-24)
 
 The 2026-09-23 entry below records "P-0103 (Jacob Klein) birth date corrected 16 November →

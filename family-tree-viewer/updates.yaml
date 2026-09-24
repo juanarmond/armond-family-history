@@ -15,6 +15,42 @@
 #            opens the record. Only reference deceased people.
 
 updates:
+  - date: "2026-09-24"
+    kind: milestone
+    title: "Every ancestor's life story rewritten — all 127 portraits now explain not just who someone was, but why the family's fortunes moved the way they did"
+    title_pt: "A história de vida de cada ancestral foi reescrita — todos os 127 retratos agora explicam não só quem a pessoa era, mas por que a sorte da família mudou como mudou"
+    links: [P-0016, P-0006, P-0028, P-0054, P-0123]
+
+  - date: "2026-09-24"
+    kind: milestone
+    title: "The Family Story has been rewritten from the new portraits — and the two grandfathers turn out to be mirror images, both ending as tradesmen in Volta Redonda from opposite directions"
+    title_pt: "A História da Família foi reescrita a partir dos novos retratos — e os dois avôs revelam-se imagens espelhadas, ambos terminando como trabalhadores de ofício em Volta Redonda, vindos de direções opostas"
+    links: [P-0004, P-0006]
+
+  - date: "2026-09-24"
+    kind: correction
+    title: "Correction: the Fazenda da Concórdia was not the family's ancestral land — it was bought in 1862 and sold by about 1880, one generation deep"
+    title_pt: "Correção: a Fazenda da Concórdia não era a terra ancestral da família — foi comprada em 1862 e vendida por volta de 1880, com apenas uma geração de profundidade"
+    links: [P-0056, P-0054, P-0017]
+
+  - date: "2026-09-24"
+    kind: correction
+    title: "Correction: Jacob Bohrer's wife was Catharina Moser, not Mayer — her own 1825 marriage record names her father as José Moser"
+    title_pt: "Correção: a esposa de Jacob Bohrer era Catharina Moser, não Mayer — seu próprio registro de casamento de 1825 nomeia o pai dela como José Moser"
+    links: [P-0051, P-0098]
+
+  - date: "2026-09-24"
+    kind: correction
+    title: "Withdrawn: we previously reported a given name for António Engrácio Filho, read from a signature on his 1964 death record. That signature is the declarant's — one of his sons — not his own, so the claim is withdrawn"
+    title_pt: "Retirado: informamos anteriormente um prenome para António Engrácio Filho, lido de uma assinatura em seu registro de óbito de 1964. Essa assinatura é do declarante — um de seus filhos — e não dele próprio, de modo que a afirmação é retirada"
+    links: [P-0010]
+
+  - date: "2026-09-24"
+    kind: milestone
+    title: "Two unrelated Borer families crossed on the same 1819 ship and settled adjacent lots — within two generations one signed its own will and the other could not write"
+    title_pt: "Duas famílias Borer sem parentesco atravessaram no mesmo navio de 1819 e se estabeleceram em lotes vizinhos — em duas gerações, uma assinava o próprio testamento e a outra não sabia escrever"
+    links: [P-0028, P-0034, P-0050]
+
   - date: "2026-09-14"
     kind: milestone
     title: "Iris Bohrer's Swiss great-great-grandparents now have their own pages — four ancestors named in the 1840 Nova Friburgo marriage record"
