@@ -37,8 +37,8 @@ language: pt-BR
 reading_reliability: complete
 transcription: >-
   [Óbito nº 63.792.] "Aos dezesseis de setembro de mil novecentos e noventa e um,
-  nesta cidade e em cartório, compareceu [omitido — privacidade], prof. policial,
-  Doc. ident. [omitido — privacidade], residência [omitida — privacidade], e
+  nesta cidade e em cartório, compareceu Antonio Engracio Neto, prof. policial,
+  Doc. ident. IFP1848881 [uncertain], residência rua 18 de Outubro 429/905, e
   exibindo o atestado de óbito firmado pelo médico Dr. Braulio dos Santos
   Junior, prestou as seguintes declarações: Nome do obituado: Maria Aurora
   Guimarães. Data e hora do falecimento: 15/setembro/1991 às 13,30 horas. Est.
@@ -48,9 +48,9 @@ transcription: >-
   obituado: Francisco José de Carvalho Guimarães e Emerenciana Maria de Jesus.
   Causa mortis: infecção respiratória, doença pulmonar obstrutiva crônica,
   hipertensão arterial sistêmica, insuficiência renal aguda. Lugar do sepultamento:
-  Cemitério São Francisco Xavier. Deixou filhos maiores? Quantos? cinco. Filhos menores? Quantos? não. Deixou bens? não. Era eleitor? não. Faleceu com testamento conhecido? não. Observações: [em branco]. Para constar, lavrei este termo que, lido e achado conforme, assino. Eu, Francisco Edelberto Petraglia, auxiliar juramentado, datilografei. E eu, [assinatura] Oficial, o subscrevo." The declarant [omitido — privacidade] — a possibly-living descendant — is named in the register as the
-  informant; his identity-document number and home address are withheld here for
-  privacy.
+  Cemitério São Francisco Xavier. Deixou filhos maiores? Quantos? cinco. Filhos menores? Quantos? não. Deixou bens? não. Era eleitor? não. Faleceu com testamento conhecido? não. Observações: [em branco]. Para constar, lavrei este termo que, lido e achado conforme, assino. Eu, Francisco Edelberto Petraglia, auxiliar juramentado, datilografei. E eu, [assinatura] Oficial, o subscrevo." The declarant, Antonio Engracio Neto (policial), is named in the
+  register as the informant, with his identity document and home address; the
+  entry does not state his relationship to the deceased.
 abstract: >-
   Original civil death register recording the death of Maria Aurora Guimarães
   (P-0011) on 15 September 1991 at Rio de Janeiro, aged 87 (so born c.1904),
@@ -72,7 +72,13 @@ reliability:
     directly reports her as the widow of Antonio Engracio Filho. Her parents are
     stated as secondary (informant-reported) information, but they match CIV-0007
     exactly.
-  informant: "[omitido — privacidade], a relative (grandson) of the deceased."
+  informant: >-
+    Antonio Engracio Neto, policial, Doc. ident. IFP1848881 [uncertain], residing
+    at rua 18 de Outubro 429/905. The register does not state his relationship to
+    the deceased (the earlier gloss "grandson" was not read from the record). The
+    "Neto" suffix and the Engracio surname suggest [INFERRED] a descendant in the
+    Antonio Engracio naming line — a son or a grandson of the deceased; neither is
+    proven.
   limitations: >-
     The register page also carries three unrelated adjacent death entries
     (nº 63.793, 63.794, 63.795). The parent names are informant-reported at death.
@@ -98,3 +104,18 @@ notes:
     but both name the identical parents (Francisco José de Carvalho Guimarães +
     Emerenciana Maria de Jesus), proving the two forms are one woman (P-0011).
     "Emerenciana" here matches "Emmerenciana" in CIV-0007 (spelling preserved).
+- text: >-
+    Privacy omissions of deceased people restored from the image 2026-10-08 (owner:
+    only P-0001–P-0003 are living); omissions concerning them are kept. Restored here:
+    the declarant's name (Antonio Engracio Neto, policial, previously withheld as a
+    possibly-living descendant), his identity-document number (IFP1848881 [uncertain])
+    and his address (rua 18 de Outubro 429/905). His relationship to the deceased is
+    not stated in the entry.
+  text_pt: >-
+    Omissões de privacidade relativas a pessoas falecidas restauradas a partir da
+    imagem em 2026-10-08 (proprietário: apenas P-0001–P-0003 estão vivos); as omissões
+    que lhes dizem respeito são mantidas. Restaurados aqui: o nome do declarante
+    (Antonio Engracio Neto, policial, antes omitido como descendente possivelmente
+    vivo), o número do seu documento de identidade (IFP1848881 [uncertain]) e o seu
+    endereço (rua 18 de Outubro 429/905). O parentesco com a falecida não é declarado
+    no assento.

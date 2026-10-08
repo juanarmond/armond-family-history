@@ -253,6 +253,15 @@ authorisation.
 
 ## Living people
 
+Only three people in this repository are living: the owner, Juan Carlos Muniz Armond
+(P-0001), and his parents, Luis Carlos Igracio Armond (P-0002) and Lucinea Aparecida Muniz
+Armond (P-0003) — owner's statement, 2026-10-08. Everyone else, whether modelled or merely
+named in a family-tree record (spouses, declarants, witnesses, children), is deceased:
+transcribe and display them in full, and do not redact or withhold them as "possibly
+living". Protect the three — and, in the owner's own documents, people outside the family
+tree who appear only there (his spouse, officiants, notary clerks), who stay redacted
+(owner's clarification, 2026-10-08).
+
 Minimise data for living people. Do not store identity numbers, full addresses,
 signatures, financial information or unnecessary certificate images. The
 repository is private, but privacy-by-design still applies.

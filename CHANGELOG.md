@@ -5,6 +5,15 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — only P-0001–P-0003 are living; privacy omissions of the dead restored (2026-10-08)
+
+- Recorded the owner's rule in `research/README.md` and `data/README.md`: only the owner and his
+  parents are living; everyone else in the family tree or its records is deceased; outsiders in his
+  own documents stay protected.
+- Reverted the day's "possibly living" redactions and NWS-0001's site withholding; restored
+  privacy omissions of deceased people from the images across 18 sources, and updated the people,
+  families, Family Story and STATUS that referred to them.
+
 ### Added — `withhold_from_site` for records naming an unmodelled living person (2026-10-08)
 
 - New optional boolean on sources and FAN references. When true, the Pages build publishes display
@@ -231,7 +240,7 @@ records allow:
 The closing sections gain two throughlines the documents earned: **office is not an asset**,
 traced from Simplício's unpaid `cargo gratuito` down to Joseph Borer's undecipherable
 *"fusemnistr"* village duty three rungs below; and a passage on the archive correcting itself,
-naming the P-0010 given-name, "9br", Moser and Concórdia errors in the text rather than burying them.
+naming the Houver, "9br", Moser and Concórdia errors in the text rather than burying them.
 
 Six curated "What's new" entries added for this pass, including a visible retraction of the
 withdrawn given-name claim, phrased so it names no living person.
@@ -253,10 +262,10 @@ the coordinator passed it to the subagent as an established fact. Both are now b
 16 November, with the abbreviation explained in place so the mistake is not repeated. Nothing in
 `data/events/` or `data/sources/` ever had to change.
 
-### Retracted — P-0010's given-name correction was wrong, and named a possibly-living person (2026-09-24)
+### Retracted — P-0010's "given name is Houver" correction was wrong, and named a possibly-living person (2026-09-24)
 
 The 2026-09-23 profile sync concluded that Antonio Engracio Filho's (P-0010) given name was proven
-to be [name withheld — possibly living] from a declarant signature, and published that as a curated
+to be "Houver Engrácio Guimarães" from a declarant signature, and published that as a curated
 "What's new" correction. It was wrong on two counts, both now undone:
 
 - **Wrong person.** CIV-0017 is the death registration *of* P-0010. The signature belongs to the
@@ -327,7 +336,7 @@ Notable corrections: P-0024 (Maria Tertuliana) death status OPEN (not PROVEN) an
 Parallel four-agent profile sync covering all major lines. Critical corrections:
 
 - **P-0004 (Geraldo Paz Armond):** "left no will" corrected to "left a will" in four places (profile EN + PT); Irajá (Zona Norte, RJ) confirmed as primary adult residence; three children documented.
-- **P-0010 (Antonio Engracio Filho):** Given name proven as **[name withheld — possibly living]** [PROVEN from declarant signature on held image]; siblings Teodolina and Hermogenes added.
+- **P-0010 (Antonio Engracio Filho):** Given name proven as **"Houver Engrácio Guimarães"** [PROVEN from declarant signature on held image]; siblings Teodolina and Hermogenes added.
 - **P-0015 (Celina Bohrer):** Death date corrected **19 Feb → 15 Feb 1977**; occupation corrected **doméstica → costureira** (both fields, all from CIV-0015).
 - **P-0028 (Valentim Martinho Bohrer) + E-0064:** Birth date corrected **14 Sep → 14 Nov 1868**. PAR-0063 reads "nascido a quatorze de Novembro" — the prior September reading was an error; PUB-0003 "14/11/1868" is confirmed by the primary record, not superseded.
 - **P-0038/P-0039 (José Secundino / Thereza Azevedo):** Gloria Lacerda de Azevedo death corrected **~1900 → 9 May 1960, Niterói** [PROVEN]; Alcida Fernandes de Azevedo (CIV-0051) added as proven daughter.
@@ -611,7 +620,7 @@ entry on F-0005 so they display as Iris's siblings:
 
 Iris now shows **six** documented siblings (was three). Profiles synced EN/PT (P-0007, P-0014,
 P-0015); the F-0005 roster note updated (6 of 15 named). **Not promoted** (kept as leads):
-[a collateral, name withheld — possibly living] (his record — nephew Frank's óbito — proves his marriage but not his parents,
+Houver Engrácio (his record — nephew Frank's óbito — proves his marriage but not his parents,
 so the sibling-link stays tree-asserted); Rozalina/Agenor/Thereza/Nestor (Antenor's side);
 Cinésio, Maria Adyr, Ivan (Ivan = probable duplicate of Ivanyr) — off-tool or tree-only.
 GEDCOM/updates/index regenerated. `make check` green.

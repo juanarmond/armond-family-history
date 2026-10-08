@@ -24,10 +24,11 @@ repository:
 access_date: "2026-09-11"
 language: pt-BR
 transcription: >-
-  [Assento de óbito nº 16.925, Livro C nº 80, pág. 156, Registro Civil de Barra Mansa. O número de
-  documento de identidade do declarante é omitido por privacidade.] "Em vinte e cinco de agosto de mil
+  [Assento de óbito nº 16.925, Livro C nº 80, pág. 156, Registro Civil de Barra Mansa.] "Em vinte e
+  cinco de agosto de mil
   novecentos e noventa e dois, nesta cidade de Barra Mansa, Estado do Rio de Janeiro, compareceu neste
-  cartório [declarante — [omitido — privacidade], documento de identidade omitido], profissão eletricista,
+  cartório WILSON CABRAL BORHER, portador da carteira de identidade nº 10.416.859-SSP-SP, profissão
+  eletricista,
   residente em Volta Redonda, neste Estado, e exibindo atestado de óbito firmado pela Dra. Luciene
   Aparecida Ribeiro de Souza, dando como causa da morte insuficiência respiratória aguda, acidente
   vascular encefálico hemorrágico, carcinomatose, e declarou que, no dia vinte e quatro de agosto de
@@ -37,7 +38,9 @@ transcription: >-
   Estado, com sessenta e dois anos de idade, estado civil separado judicialmente, filho de JOÃO
   GONÇALVES BORHER e de CELINA BORHER, falecidos, naturais do Estado de Minas Gerais. Não deixou bens.
   Deixou seis filhos. Era eleitor. O sepultamento será feito no Cemitério Municipal situado em Volta
-  Redonda … Eu, Maria Aparecida de Souza Reis, Oficial do Registro Civil, mandei datilografar."
+  Redonda, neste Estado. Do que para constar lavrei este termo que assino com o declarante. Eu, Maria
+  Aparecida de Souza Reis, Oficial do Registro Civil, mandei datilografar." [Assinaturas: a da
+  Oficial e a do declarante, "Wilson Cabral Borher".]
 abstract: >-
   Original civil death register recording the death of Ivanyr Borher on 24 August 1992 at the Casa de
   Saúde Santa Maria, Barra Mansa (RJ), aged 62 (→ b. ~1930), natural of Minas Gerais, judicially
@@ -45,8 +48,8 @@ abstract: >-
   i.e. a brother of Iris Bohrer Muniz (P-0007). PROVEN sibling. The act states he left six children
   (unnamed). Recorded as a documented_child on F-0005; no event (Ivanyr is not modelled). A separate
   FS-tree "Ivan Bohrer" is a probable duplicate of this Ivanyr (the collection holds only one ~1930-born
-  son of the couple). Private (the declarant, [omitido — privacidade], may be living); his identity-document
-  number is redacted.
+  son of the couple). The declarant was Wilson Cabral Borher, electrician, of Volta Redonda (identity
+  card 10.416.859-SSP-SP); his relationship to the deceased is not stated.
 abstract_pt: >-
   Registro civil de óbito de Ivanyr Borher em 24 de agosto de 1992 na Casa de Saúde Santa Maria, Barra
   Mansa (RJ), aos 62 anos (→ n. ~1930), natural de Minas Gerais, separado judicialmente, aposentado —
@@ -54,16 +57,18 @@ abstract_pt: >-
   Iris Bohrer Muniz (P-0007). Irmão PROVEN. O assento declara que deixou seis filhos (não nomeados).
   Registrado como documented_child em F-0005; sem evento (Ivanyr não é modelado). Um "Ivan Bohrer" da
   árvore do FamilySearch é provável duplicata deste Ivanyr (a coleção tem apenas um filho do casal
-  nascido por volta de 1930). Privado (o declarante, [omitido — privacidade], pode estar vivo); seu número
-  de documento de identidade é omitido.
+  nascido por volta de 1930). O declarante foi Wilson Cabral Borher, eletricista, de Volta Redonda
+  (carteira de identidade 10.416.859-SSP-SP); seu parentesco com o falecido não é declarado.
 reliability:
   assessment: >-
     Primary civil death entry — direct primary for the death date/place and for Ivanyr's parentage
     (João Gonçalves Borher × Celina). Age/birth-year is informant-reported.
-  informant: The declarant (name in the act; identity-document number withheld — possibly living).
+  informant: >-
+    The declarant Wilson Cabral Borher, electrician, resident in Volta Redonda (identity card
+    10.416.859-SSP-SP); relationship to the deceased not stated.
   limitations: >-
-    FamilySearch digitisation ("Sem valor legal"). The declarant's ID number is redacted; the six
-    surviving children are unnamed. "Ivan" is a probable duplicate of this Ivanyr.
+    FamilySearch digitisation ("Sem valor legal"). The six surviving children are unnamed in the
+    act. "Ivan" is a probable duplicate of this Ivanyr.
 digital_file:
   path: evidence/civil/CIV-0040-bohrer-ivanyr-death-1992-barramansa.jpg
   sha256: dfd3e2105e8de0f8fc6c908557f6361927736e0f37ce24106c66994d3f48ebd2
@@ -77,6 +82,17 @@ linked_places: []
 private: true
 notes:
 - text: >-
-    Evidence for a documented collateral child (Ivanyr Borher, F-0005 documented_children). Private —
-    the declarant's identity-document number is redacted (possibly living). "Ivan" (FS-tree) is a
+    Evidence for a documented collateral child (Ivanyr Borher, F-0005 documented_children). The
+    declarant, Wilson Cabral Borher, is transcribed in full (2026-10-08). "Ivan" (FS-tree) is a
     probable duplicate of this Ivanyr. Ivanyr not modelled as a person entity; no event created.
+- text: >-
+    Privacy omissions of deceased people restored from the image 2026-10-08 (owner: only
+    P-0001–P-0003 are living); omissions concerning them are kept. Restored here: the declarant's
+    name (Wilson Cabral Borher) and identity-card number (10.416.859-SSP-SP), plus the act's closing
+    formula and signatures. Nothing concerned P-0001–P-0003, so nothing is kept omitted.
+  text_pt: >-
+    Omissões de privacidade relativas a pessoas falecidas restauradas a partir da imagem em
+    2026-10-08 (proprietário: apenas P-0001–P-0003 estão vivos); as omissões que lhes dizem respeito
+    são mantidas. Restaurados aqui: o nome do declarante (Wilson Cabral Borher) e o número da sua
+    carteira de identidade (10.416.859-SSP-SP), além do fecho do assento e das assinaturas. Nada
+    dizia respeito a P-0001–P-0003, portanto nada permanece omitido.

@@ -39,11 +39,11 @@ access_date: "2026-09-13"
 language: pt-BR
 transcription: >-
   [Registro Civil de Jacarezinho (PR), livro de óbitos, fl.174, termo nº 2207,
-  1982 (datilografado). Nomes de terceiros possivelmente vivos e o número do
-  registro de nascimento omitidos por privacidade.] "Em treze — 13 — de abril de
-  mil novecentos e oitenta e dois, nesta cidade e comarca de Jacarezinho — Pr., em
-  cartório, compareceu [declarante — omitido: privacidade], aposentado, casado,
-  brasileiro, e exibindo atestado de óbito firmado pelo médico [omitido] — aquí
+  1982 (datilografado). Transcrito na íntegra; as omissões de privacidade foram
+  restauradas a partir da imagem em 2026-10-08.] "Em treze — 13 — de abril de mil
+  novecentos e oitenta e dois, nesta cidade e comarca de Jacarezinho — Pr., em
+  cartório, compareceu Antonio Galerani, aposentado, casado, brasileiro, e
+  exibindo atestado de óbito firmado pelo médico, Dr. Jorge Yasbick — aquí
   residentes, dando como causa de morte: síncope cardíaca. Declarou que no dia de
   hoje, à 1 hora, nesta cidade, na porta da Catedral, faleceu Sebastião José de
   Carvalho Guimarães, do sexo masculino, de cor branca, profissão lavrador,
@@ -51,8 +51,10 @@ transcription: >-
   Vicente de Paula, nesta cidade, com 72 anos de idade, estado civil solteiro,
   filho de Francisco José de Carvalho Guimarães e Emmerenciana Maria de Jesus. O
   sepultamento será feito no cemitério local. Não era eleitor. Não deixa bens.
-  Registrado onde nasceu, sob nº [omitido — privacidade], fls. 23 do livro 4-A. Do
-  que faço este termo que lido e achado conforme vai assinado pelo declarante…"
+  Registrado onde nasceu, sob nº, digo, às fls. 23 do livro 4-A. Do que faço este
+  termo que lido e achado conforme, vai assinado pelo declarante. Eu, [rubrica],
+  Oficial do Registro Civil, o datilografei e assino. Nihil." [Assinaturas:]
+  "Antonio Galerani"; "Anna Santiago Coutinho" [a oficial].
 abstract: >-
   Civil death of Sebastião José de Carvalho Guimarães, a farmer, who died 13 April
   1982 at Jacarezinho (PR), aged 72 (implied born ~1910), single, "natural de São
@@ -62,9 +64,10 @@ abstract: >-
   (P-0011) and of José de Carvalho Guimarães Sobrinho (CIV-0049). Recorded as a
   documented child on family F-0008. It confirms the mother's full name
   "Emmerenciana Maria de Jesus" (uncertain on the 1964 act CIV-0049). PROVEN. Not
-  modelled as a person entity; no event created. Private record — the declarant,
-  the physician, the registrar and the birth-record number are withheld for
-  privacy.
+  modelled as a person entity; no event created. Private record. The declarant
+  was Antonio Galerani (retired, married, Brazilian; relationship not stated), the
+  physician Dr. Jorge Yasbick and the registrar Anna Santiago Coutinho. The birth
+  cross-reference gives no number, only "fls. 23 do livro 4-A".
 abstract_pt: >-
   Óbito civil de Sebastião José de Carvalho Guimarães, lavrador, falecido em 13 de
   abril de 1982 em Jacarezinho (PR), com 72 anos (nascido ~1910), solteiro,
@@ -74,9 +77,11 @@ abstract_pt: >-
   Aurora Guimarães (P-0011) e de José de Carvalho Guimarães Sobrinho (CIV-0049).
   Registrado como filho documentado na família F-0008. Confirma o nome completo da
   mãe "Emmerenciana Maria de Jesus" (incerto no ato de 1964, CIV-0049). PROVADO.
-  Não modelado como entidade pessoa; sem evento criado. Registro privado — o
-  declarante, o médico, a oficiala e o número do registro de nascimento são
-  omitidos por privacidade.
+  Não modelado como entidade pessoa; sem evento criado. Registro privado. O
+  declarante foi Antonio Galerani (aposentado, casado, brasileiro; parentesco não
+  declarado), o médico o Dr. Jorge Yasbick e a oficiala Anna Santiago Coutinho. A
+  remissão ao registro de nascimento não traz número, apenas "fls. 23 do livro
+  4-A".
 reliability:
   assessment: >-
     Direct primary for the death; the parents and the age/birthplace are
@@ -84,12 +89,14 @@ reliability:
     placing Sebastião as a child of Francisco José de Carvalho Guimarães ×
     Emmerenciana Maria de Jesus (F-0008), and confirms the mother's full name.
   informant: >-
-    A retired declarant who exhibited the attending physician's death certificate,
-    Jacarezinho, 13 April 1982 (name withheld for privacy).
+    Antonio Galerani, retired, married, Brazilian (relationship to the deceased
+    not stated), who exhibited the death certificate signed by Dr. Jorge Yasbick,
+    Jacarezinho, 13 April 1982.
   limitations: >-
-    Informant-reported filiation and age. "Não era eleitor" (no voter/ID number);
-    the birth cross-reference number is withheld. The declarant, the physician and
-    the registrar are withheld for privacy.
+    Informant-reported filiation and age. "Não era eleitor" (no voter/ID number).
+    The birth cross-reference leaves the number blank ("sob nº, digo, às fls. 23
+    do livro 4-A"); the earlier "[omitido — privacidade]" marker at that point was
+    erroneous — no number was withheld.
 digital_file:
   path: evidence/civil/CIV-0050-sebastiao-carvalho-guimaraes-obito-1982-jacarezinho.jpg
   sha256: f0b21daf5ab334de925d7d80e1a8f81b1f17572e30bb0a3bfd53fdd4fe96a0d7
@@ -106,7 +113,25 @@ notes:
     Source for the documented child Sebastião José de Carvalho Guimarães on family
     F-0008 (Francisco José de Carvalho Guimarães × Emmerenciana Maria de Jesus); a
     brother of Maria Aurora Guimarães (P-0011). Not modelled as a person entity; no
-    event created. Private record (1982) — the declarant, physician, registrar and
-    the birth-record number are withheld. Confirms the mother's full name
-    "Emmerenciana Maria de Jesus" (uncertain on CIV-0049). Same parent couple as
-    CIV-0049 (José Sobrinho); the two men are brothers.
+    event created. Private record (1982), transcribed in full (declarant Antonio
+    Galerani; physician Dr. Jorge Yasbick; registrar Anna Santiago Coutinho).
+    Confirms the mother's full name "Emmerenciana Maria de Jesus" (uncertain on
+    CIV-0049). Same parent couple as CIV-0049 (José Sobrinho); the two men are
+    brothers.
+- text: >-
+    Privacy omissions of deceased people restored from the image 2026-10-08
+    (owner: only P-0001–P-0003 are living); omissions concerning them are kept.
+    Restored here: the declarant (Antonio Galerani), the physician (Dr. Jorge
+    Yasbick), the closing formula with the registrar's signature (Anna Santiago
+    Coutinho) and the declarant's signature. The birth-record "number" was never
+    on the act (it reads "sob nº, digo, às fls. 23"). Nothing concerned
+    P-0001–P-0003, so nothing is kept omitted.
+  text_pt: >-
+    Omissões de privacidade relativas a pessoas falecidas restauradas a partir da
+    imagem em 2026-10-08 (proprietário: apenas P-0001–P-0003 estão vivos); as
+    omissões que lhes dizem respeito são mantidas. Restaurados aqui: o declarante
+    (Antonio Galerani), o médico (Dr. Jorge Yasbick), a fórmula de encerramento com
+    a assinatura da oficiala (Anna Santiago Coutinho) e a assinatura do declarante.
+    O "número" do registro de nascimento nunca constou do ato (lê-se "sob nº, digo,
+    às fls. 23"). Nada dizia respeito a P-0001–P-0003, portanto nada permanece
+    omitido.

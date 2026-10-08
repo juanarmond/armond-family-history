@@ -40,21 +40,23 @@ access_date: "2026-09-13"
 language: pt-BR
 transcription: >-
   [Registro Civil de Mesquita (RJ), livro de óbitos, p.96, óbito nº 10.977, 1975.
-  Nome e endereço do declarante (terceiro possivelmente vivo) e os filhos
-  sobreviventes omitidos por privacidade.] "Aos vinte (20) de maio de mil
-  novecentos e setenta e cinco, em meu Cartório, compareceu [declarante —
-  omitido: privacidade], nacionalidade brasileiro, com 37 anos de idade, profissão
-  pintor, residente [endereço — omitido: privacidade], neste distrito, e exibindo
-  atestado de óbito firmado pelo médico Dr. Joaquim da Silva Duarte, declarou: Que
-  no dia 20 de maio de 1975, às 13 horas, no domicílio à rua S. Paulo, Mesquita,
-  faleceu Alcida Fernandes de Azevedo, do sexo feminino, côr branca, com 80 anos de
+  Transcrito na íntegra; as omissões de privacidade foram restauradas a partir da
+  imagem em 2026-10-08.] "Aos vinte (20) de maio de mil novecentos e setenta e
+  cinco, em meu Cartório, compareceu Antonio de Souza, nacionalidade brasileiro,
+  com 37 anos de idade, profissão pintor, residente na rua Sarmento nº 56, neste
+  distrito, e exibindo atestado de óbito firmado pelo médico Dr. Joaquim da Silva
+  Duarte, declarou: Que no dia 20 de maio de 1975, às 13 horas, no domicílio à R.
+  S. Paulo 2414 [uncertain], Mesquita, faleceu Alcida Fernandes de Azevedo, do sexo feminino, côr branca, com 80 anos de
   idade, natural de [Minas — uncertain] Geraes, estado civil viúva de Manoel Muniz
   Bittencourt, profissão doméstica, residente neste distrito, filha de Ascendino
   Maria de Azevedo, digo Ascendino Maria de Asevedo, falecido, e de Thereza
   Fernandes de Azevedo, falecida. Causa mortis: insuficiencia vascular cerebral,
   insuficiencia cardiaca congestiva, arteriosclerose generalizada. Vai ser
-  sepultada no Cemitério de Mesquita. Observações: Não deixou bens, e deixou dez
-  filhos [descendentes possivelmente vivos, não nomeados]…"
+  sepultada no Cemitério de Mesquita. Observações: Não deixou bens, e deixou 10
+  filhos. Para constar lavrei êste têrmo que, lido e achado conforme, assino. Eu,
+  Yedda da Silva Braz [uncertain], escrevente juramentado, o escrevi. Eu,
+  [assinatura ilegível], Oficial do Registro Civil, subscrevo e assino."
+  [Assinatura do declarante:] "x Antonio de Souza".
 abstract: >-
   Civil death of Alcida Fernandes de Azevedo, a widow, who died 20 May 1975 at
   Mesquita (RJ), aged 80 (implied born ~1895), "natural de [Minas] Gerais", a
@@ -88,19 +90,22 @@ abstract_pt: >-
 reliability:
   assessment: >-
     Direct primary for the death; the parents' names, age and birthplace are
-    informant-reported by a non-relative declarant 59 years after the parents'
+    informant-reported by a declarant (Antonio de Souza, aged 37) whose
+    relationship to the deceased is not stated, 59 years after the parents'
     generation, hence information_quality mixed. It corroborates Alcida's siblinghood
     to Luiza (P-0013) via the exact mother match, but its "Ascendino" for the father
     is a low-reliability variant of the better-attested "Secundino / José Secundino".
   informant: >-
-    A non-relative declarant (a painter, aged 37) who exhibited the attending
-    physician's death certificate, Mesquita, 20 May 1975 (name withheld for privacy).
+    Antonio de Souza, Brazilian, a painter aged 37, resident at rua Sarmento nº 56
+    (relationship to the deceased not stated), who exhibited the death
+    certificate signed by Dr. Joaquim da Silva Duarte, Mesquita, 20 May 1975.
   limitations: >-
-    Informant-reported filiation from a non-relative; the father's given name
+    Informant-reported filiation from a declarant whose relationship is not
+    stated (his surname differs from the deceased's); the father's given name
     ("Ascendino") conflicts with three near-contemporary attestations naming him
     "Secundino / José Secundino Maria de Azevedo" — treated as a variant, not a
-    correction. "[Minas] Gerais" is an uncertain read. The declarant, the ten
-    surviving children and the addresses are withheld for privacy.
+    correction. "[Minas] Gerais" is an uncertain read, as is the house number of
+    the domicile (2414). The ten children are not named in the act.
 digital_file:
   path: evidence/civil/CIV-0051-alcida-fernandes-de-azevedo-obito-1975-mesquita.jpg
   sha256: 3eb9e77d5a67284594f747d22ed7016655a884a740741ef85128d815b92298ef
@@ -118,8 +123,25 @@ notes:
     F-0018 (José Secundino de Azevedo × Thereza Fernandes de Azevedo); a sister of
     Luiza Fernandes de Azevedo (P-0013), the grandfather Antenor Muniz's mother
     [STRONG-EVIDENCE]. Not modelled as a person entity; no event created. Private
-    record (1975) — the declarant, the ten surviving children (living descendants)
-    and residential addresses are withheld. The father is written "Ascendino Maria de
-    Azevedo" here — a 1975 non-relative-informant variant preserved on P-0038's
-    name_variants; it does not override the 1916/1922 attestations "Secundino / José
-    Secundino Maria de Azevedo".
+    record (1975), transcribed in full (declarant Antonio de Souza, painter, 37);
+    the ten children are not named in the act. The father is written "Ascendino
+    Maria de Azevedo" here — a 1975 informant variant (declarant of unstated
+    relationship) preserved on P-0038's name_variants; it does not override the
+    1916/1922 attestations "Secundino / José Secundino Maria de Azevedo".
+- text: >-
+    Privacy omissions of deceased people restored from the image 2026-10-08
+    (owner: only P-0001–P-0003 are living); omissions concerning them are kept.
+    Restored here: the declarant (Antonio de Souza) and his address (rua Sarmento
+    nº 56), the house number of the domicile (R. S. Paulo 2414 [uncertain]), the
+    children clause ("deixou 10 filhos" — no names given), the scrivener (Yedda da
+    Silva Braz [uncertain]) and the declarant's signature. Nothing concerned
+    P-0001–P-0003, so nothing is kept omitted.
+  text_pt: >-
+    Omissões de privacidade relativas a pessoas falecidas restauradas a partir da
+    imagem em 2026-10-08 (proprietário: apenas P-0001–P-0003 estão vivos); as
+    omissões que lhes dizem respeito são mantidas. Restaurados aqui: o declarante
+    (Antonio de Souza) e o seu endereço (rua Sarmento nº 56), o número do domicílio
+    (R. S. Paulo 2414 [incerto]), a cláusula dos filhos ("deixou 10 filhos" — sem
+    nomes), a escrevente (Yedda da Silva Braz [incerto]) e a assinatura do
+    declarante. Nada dizia respeito a P-0001–P-0003, portanto nada permanece
+    omitido.

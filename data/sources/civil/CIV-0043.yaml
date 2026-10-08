@@ -33,18 +33,21 @@ access_date: "2026-09-11"
 language: pt-BR
 transcription: >-
   [Óbito termo Nº 18.941, livro de óbitos de Itaperuna, Estado do Rio de Janeiro,
-  fl. ~289; lower-right entry. Names of the declarant and of any surviving heirs
-  are redacted for privacy (possibly living).] "Em vinte e seis de dezembro de mil
-  novecentos e sessenta e dois, nesta cidade de Itaperuna, no Estado do Rio de
-  Janeiro, em cartório, compareceu [omitido — privacidade], lavrador aqui
-  residente, e exibindo atestado de óbito firmado por Dr. Munir Bussade, dando
-  como causa da morte insuficiência cardíaca congestiva, declarou que no dia de
-  ontem às dezessete horas, em rua da Harmonia, faleceu Teodolina Engracia de
-  Souza, do sexo feminino, de côr branca, profissão doméstica, natural de E[stado]
-  de Minas, domiciliada e residente em esta cidade, com 60 anos de idade, estado
-  civil viúva, filha legítima de Antonio Engracio e Luzia Pinheiro. O sepultamento
-  será feito no cemitério desta cidade [...] [herdeiros omitidos — privacidade]
-  [...]. [Assinaturas do declarante e testemunha — omitidas — privacidade.]"
+  fl. ~289; lower-right entry. In the left margin: "Indigente", with a mark.] "Em
+  vinte e seis de dezembro de mil novecentos e sessenta e dois, nesta cidade de
+  Itaperuna, no Estado do Rio de Janeiro, em cartório, compareceu Engracio Antonio
+  de Souza, lavrador aqui residente, e exibindo atestado de óbito firmado por Dr.
+  Munir Bussade, dando como causa da morte insuficiência cardíaca congestiva,
+  declarou que no dia de ontem às dezessete horas, em rua da Harmonia, faleceu
+  Teodolina Engracia de Souza, do sexo feminino, de côr branca, profissão
+  doméstica, natural de E[stado] de Minas, domiciliada e residente em esta cidade,
+  com 60 anos de idade, estado civil viúva, filha legítima de Antonio Engracio e
+  Luzia Pinheiro. O sepultamento será feito no cemitério desta cidade. Era viúva de
+  Alcesterman [uncertain] Pinheiro, deixa os filhos: Luzia e o declarante, maiores,
+  não deixa bens. Para constar lavrei este termo que assina o declarante comigo
+  Sebastiana de Souza Medeiros, escrevente de justiça, que escrevi. Eu, [ilegível]
+  de Souza, oficial, que subscrevo e assino." [Assinatura do oficial; na linha
+  seguinte: "x Maria José Glória".]
 abstract: >-
   Civil death of Teodolina Engracia de Souza (b. ~1902, Minas Gerais; d. 25
   December 1962, Itaperuna, Rio de Janeiro, aged 60), doméstica, widow. Names her
@@ -53,8 +56,9 @@ abstract: >-
   documented child of that couple and hence a sister of Antonio Engracio Filho
   (P-0010). PROVEN: both parents named and both match F-0015. Recorded as a
   documented_child on F-0015; not modelled as a person entity, so no event
-  created. The declarant was a family member of the Souza line (name redacted,
-  possibly living).
+  created. The act adds that she was the widow of Alcesterman [uncertain] Pinheiro
+  and left two adult children, Luzia and the declarant, Engracio Antonio de Souza
+  (lavrador, of Itaperuna).
 abstract_pt: >-
   Óbito civil de Teodolina Engracia de Souza (n. ~1902, Minas Gerais; f. 25 de
   dezembro de 1962, Itaperuna, Rio de Janeiro, aos 60 anos), doméstica, viúva.
@@ -63,19 +67,21 @@ abstract_pt: >-
   mais um filho documentado desse casal e, portanto, irmã de Antonio Engracio
   Filho (P-0010). COMPROVADO: ambos os pais nomeados e ambos coincidem com F-0015.
   Registrada como documented_child em F-0015; não modelada como entidade de
-  pessoa, logo nenhum evento criado. O declarante era um familiar da linha Souza
-  (nome omitido, possivelmente vivo).
+  pessoa, logo nenhum evento criado. O assento acrescenta que ela era viúva de
+  Alcesterman [incerto] Pinheiro e deixou dois filhos maiores, Luzia e o
+  declarante, Engracio Antonio de Souza (lavrador, de Itaperuna).
 reliability:
   assessment: >-
     Primary civil death register entry; the filiation is informant-reported at
     death, so it corroborates the parents' names (already established for F-0015
     by CIV-0017 and CIV-0026) and documents a further child of the couple.
   informant: >-
-    withheld — the declarant was a member of the Souza family ("...Engracio... de
-    Souza", lavrador, resident in Itaperuna); name redacted, possibly living.
+    Her son Engracio Antonio de Souza, lavrador, resident in Itaperuna ("deixa os
+    filhos: Luzia e o declarante").
   limitations: >-
-    1962 record: the declarant's name and any surviving heirs are redacted for
-    privacy; age→birth (~1902) is approximate. "SEM VALOR LEGAL" watermark ignored
+    Age→birth (~1902) is approximate; her late husband's given name is an uncertain
+    reading. The signature line reads "x Maria José Glória", a name not otherwise
+    explained in the act. "SEM VALOR LEGAL" watermark ignored
     (a working copy).
 digital_file:
   path: evidence/civil/CIV-0043-teodolina-engracia-souza-obito-1962-itaperuna.jpg
@@ -92,8 +98,22 @@ notes:
   - text: >-
       Records a further (collateral) child of Antonio Engracio de Souza × Luzia
       Pinheiro da Conceição — Teodolina — added as a documented_child on F-0015.
-      Not modelled as a person entity; no event created. Marked private and the
-      declarant / any surviving heirs are redacted because this is a 1962 death
-      that may name living descendants; Teodolina's own vitals and her parents are
-      transcribed in full. This deliberate privacy handling (declarant redaction,
-      private: true) is intentional, not a data gap.
+      Not modelled as a person entity; no event created. Marked private; the act
+      is transcribed in full, including the declarant (her son Engracio Antonio de
+      Souza), her late husband and her two named children (restored 2026-10-08).
+  - text: >-
+      Privacy omissions of deceased people restored from the image 2026-10-08
+      (owner: only P-0001–P-0003 are living); omissions concerning them are kept.
+      Restored here: the declarant (her son Engracio Antonio de Souza), her late
+      husband (Alcesterman [uncertain] Pinheiro), her children (Luzia and the
+      declarant), the scrivener's name, the "Indigente" margin note and the
+      signature line "x Maria José Glória". Nothing concerned P-0001–P-0003, so
+      nothing is kept omitted.
+    text_pt: >-
+      Omissões de privacidade relativas a pessoas falecidas restauradas a partir da
+      imagem em 2026-10-08 (proprietário: apenas P-0001–P-0003 estão vivos); as
+      omissões que lhes dizem respeito são mantidas. Restaurados aqui: o declarante
+      (seu filho Engracio Antonio de Souza), o marido falecido (Alcesterman [incerto]
+      Pinheiro), os filhos (Luzia e o declarante), o nome da escrevente, a nota
+      marginal "Indigente" e a linha de assinatura "x Maria José Glória". Nada dizia
+      respeito a P-0001–P-0003, portanto nada permanece omitido.

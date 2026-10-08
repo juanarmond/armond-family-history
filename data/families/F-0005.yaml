@@ -55,9 +55,9 @@ documented_children:
     Brother of Iris (P-0007); son of João Gonçalves Bohrer (P-0014) and Celina
     Bohrer (P-0015), per his 2001 Volta Redonda civil death (CIV-0025): born
     c.1940 in Carangola (MG), died 12 January 2001 at Volta Redonda aged 61,
-    married to [omitido — privacidade]. Distinct from his father João Gonçalves
-    Bohrer (d. 1970). Deceased; his four surviving adult children are living and
-    are not modelled, per privacy policy.
+    married to Alice Batista Bohrer (CIV-0025; restored from the image 2026-10-08). Distinct
+    from his father João Gonçalves Bohrer (d. 1970). Deceased; his four adult children are
+    not named in the record and are not modelled.
 - name: Ercy Bohrer
   source_ids:
   - CIV-0031
@@ -67,9 +67,10 @@ documented_children:
     and Celina Bohrer (P-0015), per his 1972 Volta Redonda civil death (CIV-0031):
     born c.1932 (aged 40 at death — "com quarenta anos"; corrected 2026-10-08 from the image,
     previously read as thirty), natural de Minas Gerais, died 21 October 1972 in a
-    road accident at Volta Redonda, married to [omitido — privacidade]. His given name
+    road accident at Volta Redonda, married to Lília [uncertain] de Novaes Bohrer (written
+    "Lailia [uncertain] Novaes Bohrer" in the entry; CIV-0031, restored 2026-10-08). His given name
     was judicially corrected from "Ercy" to "HERCY BOHRER". Deceased; he left five
-    children (possibly living) who are not modelled, per privacy policy. His death between
+    children, not named in the record and not modelled. His death between
     his father's (1970, "quinze filhos") and his mother's (1977, "quatorze filhos") is the
     likely reason for the one-child difference in those counts [INFERRED].
 - name: Senira Bohrer
@@ -93,9 +94,9 @@ documented_children:
     Divino (MG), died 8 April 2005 at Volta Redonda aged 80, widower, retired industrial
     worker. His informant-stated 1924 birth conflicts with Eunir's held 1924 birth act
     (b. 17 May 1924, CIV-0016 — about 10 weeks earlier); the birth act prevails.
-    [Corrected 2026-10-08 from the image: Eunir was born 17 May, not 7 May.] Deceased; his
-    surviving children (possibly living)
-    are not modelled, per privacy policy.
+    [Corrected 2026-10-08 from the image: Eunir was born 17 May, not 7 May.] Deceased. His
+    death names two adult children, Paulo Cesar Borher (53, the declarant) and Katia Regina
+    Borher Grecia (31) (CIV-0039); not modelled.
 - name: Ivanyr Borher
   source_ids:
   - CIV-0040
@@ -105,7 +106,7 @@ documented_children:
     (P-0015), per his 1992 Barra Mansa civil death (CIV-0040): natural de Minas Gerais, died
     24 August 1992 at Barra Mansa aged 62 (→ b. ~1930), judicially separated, left six
     children (unnamed). The FS-tree "Ivan Bohrer" is a probable duplicate of this Ivanyr.
-    Deceased; his children (possibly living) are not modelled, per privacy policy.
+    Deceased; his six children are not named in the record and are not modelled.
 event_ids: []
 notes:
 - text: >-
@@ -113,6 +114,6 @@ notes:
     CIV-0014). Six clearly-deceased siblings of Iris (P-0007) are now recorded here as
     documented_children — Eunir (CIV-0016), João (CIV-0025), Ercy (CIV-0031), Senira
     (CIV-0038), Alício (CIV-0039) and Ivanyr (CIV-0040); the remaining ~9 are not listed,
-    being unnamed in any held record or possibly living. Still-open named siblings from the
+    being unnamed in any held record. Still-open named siblings from the
     FS tree (Cinésio d.2015, Maria Adyr d.2020) fall outside the online collection range and
     stay leads pending off-tool cartório records.

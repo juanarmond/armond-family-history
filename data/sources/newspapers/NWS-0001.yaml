@@ -50,8 +50,10 @@ transcription: >-
   Paula, Silva):] JOSÉ CLAVO ARMOND [sic; = José Olavo Armond], natural de
   Eugenópolis, maior, representante comercial, residente no Rio de Janeiro, à
   Avenida Ministro Edgar Romero, 351, Bloco 18, apt.º 102, filho de Aristão
-  Ferreira Armond e de d. Liliosa Paz Armond e [omitido — privacidade],
-  natural de Cons. Lafaiete, maior, professora, residente nesta cidade à [omitido — privacidade], filha de [omitido — privacidade] e de d. [omitido — privacidade].
+  Ferreira Armond e de d. Liliosa Paz Armond e MARIA DE FATIMA GOMES BEATO,
+  natural de Cons. Lafaiete, maior, professora, residente nesta cidade à rua
+  Wences-láu [quebra de linha; i.e. Wenceslau] Braz, 260, filha de Agostinho
+  Gomes Beato e de d. Anadem de Siqueira Beato.
 
   Apresentaram os documentos exigidos pelo artigo 180, n.ºs 1, 2 e 4, do Código
   Civil. Se alguém souber de algum impedimento, oponha-o na forma da lei. a) Irene
@@ -59,7 +61,10 @@ transcription: >-
 abstract: >-
   A marriage-banns notice (edital de proclamas) published in the fortnightly
   newspaper O Processo (Conselheiro Lafaiete, MG), issue n.º 42 of 1–15 February
-  1975, announcing the intended marriage of José Olavo Armond and [omitido — privacidade]. It records José Olavo as natural de Eugenópolis, a
+  1975, announcing the intended marriage of José Olavo Armond and Maria de
+  Fátima Gomes Beato, a teacher (professora) natural de Conselheiro Lafaiete and
+  resident there at rua Wenceslau Braz 260, daughter of Agostinho Gomes Beato and
+  Anadem de Siqueira Beato. It records José Olavo as natural de Eugenópolis, a
   commercial representative then resident in Rio de Janeiro, and names his
   parents as Aristão Ferreira Armond and Liliosa Paz Armond. Independently
   corroborates the 1973 driver-dossier index (GOV-0001) and Aristão's death
@@ -68,7 +73,10 @@ abstract: >-
 abstract_pt: >-
   Um edital de proclamas de casamento publicado no jornal quinzenal O Processo
   (Conselheiro Lafaiete, MG), edição n.º 42 de 1 a 15 de fevereiro de 1975,
-  anunciando o pretendido casamento de José Olavo Armond e [omitido — privacidade]. Registra José Olavo como natural de Eugenópolis, representante
+  anunciando o pretendido casamento de José Olavo Armond e Maria de Fátima Gomes
+  Beato, professora, natural de Conselheiro Lafaiete e ali residente à rua
+  Wenceslau Braz, 260, filha de Agostinho Gomes Beato e de Anadem de Siqueira
+  Beato. Registra José Olavo como natural de Eugenópolis, representante
   comercial então residente no Rio de Janeiro, e nomeia seus pais como Aristão
   Ferreira Armond e Liliosa Paz Armond. Corrobora de forma independente o índice
   de prontuário de motorista de 1973 (GOV-0001) e o registro de óbito de Aristão
@@ -88,9 +96,12 @@ reliability:
   limitations: >-
     A marriage bann evidences the intent to marry, not a completed marriage; the
     marriage act itself (with its exact date and place) must be sought in the
-    civil registry. The newspaper print is small, so the mother's given name and
-    the bride's maternal surname were read from a low-resolution scan. Being a
-    newspaper republication of registry proclamas, the information is secondary.
+    civil registry. The newspaper print is small and the scan low-resolution
+    (about 120 ppi), so names and numbers were read with care: the bride's
+    mother's given name reads "Anadem" as printed (an earlier reading "Anadir" is
+    not supported by the print; whether "Anadem" is a misprint cannot be told from
+    this source), and the groom's house number (351) could also be read 331. Being
+    a newspaper republication of registry proclamas, the information is secondary.
 digital_file:
   path: >-
     evidence/newspapers/NWS-0001-marriage-banns-jose-olavo-armond-1975-original.pdf
@@ -106,18 +117,7 @@ linked_events:
 linked_places:
 - PL-0002
 private: false
-withhold_from_site: true
 notes:
-- text: >-
-    Withheld from the public site 2026-10-08 (withhold_from_site: true): the published banns
-    page names the bride (presumed living), her parents and her address, so the scan must not
-    be deployed. The
-    facts it supplies about the deceased family members stay cited in their records.
-  text_pt: >-
-    Retido do site público em 2026-10-08 (withhold_from_site: true): a página publicada dos
-    proclamas nomeia a noiva (presumivelmente viva), os pais dela e o endereço, pelo que a
-    digitalização não pode ser publicada. Os factos que fornece sobre os familiares falecidos continuam
-    citados nos respectivos registos.
 - text: >-
     Owner-supplied digital copy of the full 8-page issue (front page and pp. 2–8
     read to locate the banns on p. 6). The José Olavo edital is one of several
@@ -126,8 +126,24 @@ notes:
     not a single-page crop.
 - text: >-
     "JOSÉ CLAVO ARMOND" is a print/typographic rendering of José Olavo Armond
-    (compare GOV-0001 "JOSE OLAVO ARMOND"). The bride and her parents are named
-    in the printed notice but are withheld here and not modelled as entities: she
-    is presumed living, so her name, her parents' names and her address are
-    omitted under the repository's living-person privacy rule. [Redacted
-    2026-10-08: an earlier version of this note named her and her parents.]
+    (compare GOV-0001 "JOSE OLAVO ARMOND"). The bride Maria de Fátima Gomes
+    Beato and her parents are named but not modelled as entities (not on the
+    owner's direct line). [A same-day redaction of her name as "presumed living" was
+    reverted 2026-10-08: the owner confirms that only P-0001–P-0003 are living.]
+- text: >-
+    Privacy omissions of deceased people restored from the image 2026-10-08
+    (owner: only P-0001–P-0003 are living); omissions concerning them are kept.
+    Restored here from the printed p. 6 (PDF page 8 of the issue): the bride
+    (MARIA DE FATIMA GOMES BEATO, professora, natural de Cons. Lafaiete), her
+    address (rua Wenceslau Braz, 260) and her parents (Agostinho Gomes Beato and
+    d. Anadem de Siqueira Beato — the print reads "Anadem", not the earlier
+    "Anadir"). Nothing concerned P-0001–P-0003, so nothing is kept omitted.
+  text_pt: >-
+    Omissões de privacidade relativas a pessoas falecidas restauradas a partir da
+    imagem em 2026-10-08 (proprietário: apenas P-0001–P-0003 estão vivos); as
+    omissões que lhes dizem respeito são mantidas. Restaurados aqui a partir da p. 6
+    impressa (página 8 do PDF da edição): a noiva (MARIA DE FATIMA GOMES BEATO,
+    professora, natural de Cons. Lafaiete), o seu endereço (rua Wenceslau Braz,
+    260) e os seus pais (Agostinho Gomes Beato e d. Anadem de Siqueira Beato — o
+    impresso lê "Anadem", não o anterior "Anadir"). Nada dizia respeito a
+    P-0001–P-0003, portanto nada permanece omitido.

@@ -32,7 +32,7 @@ language: pt-BR
 transcription: >-
   [Óbito Nº 91.554, fl. 27, Rio de Janeiro. Left-hand entry.] "Aos vinte e quatro de
   novembro de mil novecentos e setenta e um, nesta Cidade, e neste cartório, compareceu
-  [Nicolau Mozaguio — uncertain], profissão comércio, residente [omitido — privacidade], e
+  [Nicolau Mozaguio — uncertain], profissão comércio, residente Santa Luzia 206, e
   exibindo atestado de óbito firmado pelo Doutor [illegible] CRM 7230, declarou: Que no
   dia dezenove do corrente às 5 horas, [no] Hospital Estadual Santa Ma[ria], faleceu
   Hermogenes Engracio de Souza, do sexo masculino, côr branca, com 65 annos de idade,
@@ -84,7 +84,7 @@ notes:
   - text: >-
       Records a further (collateral) child of Antonio Engracio de Souza × Luzia Pinheiro
       da Conceição — Hermogenes — added as a documented_child on F-0015. His three adult
-      daughters are possibly living and are not named in the record; not modelled.
+      daughters are not named in the record, so they are not modelled.
   - text: >-
       [Corrected 2026-10-08 from the image: the register opens "Aos vinte e quatro de
       novembro de mil novecentos e setenta e um" — registered 24 November 1971, death
@@ -93,3 +93,14 @@ notes:
       scan filename (CIV-0026-hermogenes-engracio-souza-obito-1961-rj.jpg) still carries
       "1961" and is deliberately left unchanged to preserve its path and sha256; the
       source ID CIV-0026 is unchanged.
+  - text: >-
+      Privacy omissions of deceased people restored from the image 2026-10-08 (owner:
+      only P-0001–P-0003 are living); omissions concerning them are kept. Restored
+      here: the non-relative declarant's address as written ("Santa Luzia 206"). The
+      "possibly living" wording about Hermogenes's three unnamed daughters is removed.
+    text_pt: >-
+      Omissões de privacidade relativas a pessoas falecidas restauradas a partir da
+      imagem em 2026-10-08 (proprietário: apenas P-0001–P-0003 estão vivos); as
+      omissões que lhes dizem respeito são mantidas. Restaurado aqui: o endereço do
+      declarante não parente, tal como escrito ("Santa Luzia 206"). Removida a menção
+      a "possivelmente vivas" sobre as três filhas não nomeadas de Hermogenes.

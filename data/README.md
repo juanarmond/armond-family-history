@@ -141,7 +141,10 @@ not established"). For each `P-NNNN`:
 
 1. **preferred_name** — the fullest documented form.
 2. **privacy** — `living` / `deceased` / `unknown`; treat possibly-living people
-   as `living`, never `deceased` on assumption.
+   as `living`, never `deceased` on assumption. In this repository the owner has
+   settled it: only P-0001, P-0002 and P-0003 are living (2026-10-08); everyone else,
+   modelled or merely named in a record, is deceased (see `research/README.md`,
+   "Living people").
 3. **sex** — `male` / `female` / `unknown`; drives the GEDCOM export's `INDI.SEX`
    and a family's `HUSB` / `WIFE`. Derive it from the person's cited vital records
    (gendered terms, spousal or parental role), never from a name alone.

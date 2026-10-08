@@ -30,18 +30,19 @@ access_date: "2026-09-07"
 language: pt-BR
 transcription: >-
   [Registro Civil, Volta Redonda — right-hand entry Nº 39.854 (handwritten).] "Aos quatro
-  de maio de mil novecentos e noventa e dois, em meu Cartório, compareceu [o declarante —
-  nacionalidade brasileira, 44 anos, industriário; relação não declarada; dados de
-  identificação e endereço omitidos], e exibindo atestado de óbito firmado pelo médico
-  Luiz Carlos [Abdallack] Sarkis [uncertain], declarou: que no dia de hoje às 10 horas, em
-  domicílio ([rua], Volta Redonda), faleceu João José de Carvalho Guimarães, do sexo
-  masculino, com setenta e nove anos de idade, natural de Minas Gerais, estado civil viúvo,
-  profissão aposentado, residente em Monte Castelo, nesta cidade, filho de Francisco José
-  de Carvalho Guimarães e de Emerenciana Maria de Jesus. Causa mortis: edema agudo do
+  de maio de mil novecentos e noventa e dois, em meu Cartório, compareceu Paulo Sehelk
+  [uncertain] de Matos, CI 05862942-9 RJ, nacionalidade brasileira, com 44 anos de idade,
+  profissão industriário, residente rua Dr. Paulo Monteiro Mendes, 697, Monte Castelo, e
+  exibindo atestado de óbito firmado pelo médico Luiz Carlos Hallack [uncertain] Sarkis,
+  declarou: que no dia hoje às 10 horas, em domicílio, Av. Amaral Peixoto, 832, faleceu
+  João José de Carvalho Guimarães, do sexo masculino, com setenta e nove anos de idade,
+  natural de Minas Gerais, estado civil viúvo, profissão aposentado, residente rua Dr.
+  Paulo Monteiro Mendes, 697, Monte Castelo, nesta cidade, filho de Francisco José de
+  Carvalho Guimarães e de Emerenciana Maria de Jesus. Causa mortis: edema agudo do
   pulmão; congestão. Vai ser sepultado no cemitério municipal desta cidade. Observações: o
   falecido não deixou testamento, deixou bens a inventariar, deixou quatorze [uncertain]
-  filhos." [Documentos de identificação do falecido constam do registro; omitidos desta
-  transcrição pública.]
+  filhos. Benefício INSS 70749205-0 — CT 20493/117 — CI 919630-RJ." [Assinatura do
+  declarante: "Paulo Sehelk [uncertain] de Matos".]
 abstract: >-
   Civil death of João José de Carvalho Guimarães on 4 May 1992 at Volta Redonda, RJ, aged
   79 (b. ~1913; matches the 16 December 1912 birth registered in CIV-0007), a widower,
@@ -49,8 +50,8 @@ abstract: >-
   Emmerenciana Maria de Jesus (P-0022) — i.e. Maria Aurora Guimarães's (P-0011) parents —
   confirming that he is Cidalia Engracio Guimarães's (P-0005) maternal uncle. Upgrades his
   existing documented_child entry on F-0008 with a death record. He left an estate and,
-  per the record, "quatorze" (14, uncertain) adult children (not modelled — direct-line
-  scope; possibly living).
+  per the record, "quatorze" (14, uncertain) children (unnamed in the act; not modelled —
+  direct-line scope).
 abstract_pt: >-
   Óbito civil de João José de Carvalho Guimarães em 4 de maio de 1992, em Volta Redonda,
   RJ, aos 79 anos (n. ~1913; coincide com o nascimento em 16 de dezembro de 1912
@@ -59,17 +60,19 @@ abstract_pt: >-
   Aurora Guimarães (P-0011) — confirmando que ele é tio materno de Cidalia Engracio
   Guimarães (P-0005). Eleva sua entrada existente de documented_child em F-0008 com um
   registro de óbito. Deixou bens a inventariar e, segundo o registro, "quatorze" (14,
-  incerto) filhos maiores (não modelados — escopo de linha direta; possivelmente vivos).
+  incerto) filhos (não nomeados no assento; não modelados — escopo de linha direta).
 reliability:
   assessment: >-
     Primary civil death register entry. Direct primary for the death; the filiation is
     informant-reported and corroborates the parents already modelled for F-0008 (and the
     b.1912 identification from CIV-0007).
   informant: >-
-    The declarant (relationship not stated; a living person — identifiers withheld).
+    The declarant, Paulo Sehelk [uncertain] de Matos, 44, industriário, resident at the
+    same address as the deceased (rua Dr. Paulo Monteiro Mendes, 697, Monte Castelo);
+    relationship to the deceased not stated.
   limitations: >-
     Handwritten; the number of children ("quatorze"), the doctor's surname and the
-    deceased's document numbers are uncertain or withheld. His children (Cidalia's first
+    declarant's surname are uncertain readings. His children (Cidalia's first
     cousins) are not modelled, per the direct-line scope.
 digital_file:
   path: evidence/civil/CIV-0033-joao-jose-carvalho-guimaraes-obito-1992-voltaredonda.jpg
@@ -90,3 +93,18 @@ notes:
     on F-0008 (b. 1912, CIV-0007). CIV-0033 is added to that entry. His ~14 children —
     Cidalia's first cousins — are not modelled (direct-line scope; the two of them whose
     death certs are in this drop are held unpromoted in the triage ledger).
+- text: >-
+    Privacy omissions of deceased people restored from the image 2026-10-08 (owner: only
+    P-0001–P-0003 are living); omissions concerning them are kept. Restored here: the
+    declarant's name, identity card, age, occupation and address; the place of death (Av.
+    Amaral Peixoto, 832); the deceased's street address; and the deceased's INSS, CT and CI
+    numbers. Nothing concerned P-0001–P-0003, so nothing is kept omitted. The doctor's
+    surname, earlier read "[Abdallack]", reads "Hallack" [uncertain] on the image.
+  text_pt: >-
+    Omissões de privacidade relativas a pessoas falecidas restauradas a partir da imagem em
+    2026-10-08 (proprietário: apenas P-0001–P-0003 estão vivos); as omissões que lhes dizem
+    respeito são mantidas. Restaurados aqui: nome, carteira de identidade, idade, profissão
+    e endereço do declarante; o local do óbito (Av. Amaral Peixoto, 832); o endereço do
+    falecido; e os números de INSS, CT e CI do falecido. Nada dizia respeito a
+    P-0001–P-0003, portanto nada permanece omitido. O sobrenome do médico, antes lido
+    "[Abdallack]", lê-se "Hallack" [incerto] na imagem.

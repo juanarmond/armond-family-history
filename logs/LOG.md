@@ -5,6 +5,30 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-10-08 — Owner: only P-0001–P-0003 are living; privacy omissions of the dead restored
+
+**Amends the earlier 2026-10-08 entries**, which redacted José Olavo's bride and the 1964
+declarant as "possibly living" and withheld NWS-0001 from the site. The owner states that only he
+(P-0001) and his parents (P-0002, P-0003) are living; everyone else in the family tree, including
+people merely named in its records, is deceased. Asked about outsiders in his own documents, he
+confirmed that his spouse, the 2003 officiant and notary clerks stay protected. The rule is now in
+`research/README.md` ("Living people") and `data/README.md`.
+
+- **Reverted today's redactions:** the bride's name in NWS-0001 and the 2026-07-29 session log, and
+  the declarant's name in STATUS, LOG and CHANGELOG; NWS-0001 is published again
+  (`withhold_from_site` stays available but unused).
+- **Restored from the images** (four parallel passes; omissions about P-0001–P-0003 kept): CIV-0014,
+  -0015, -0017, -0018, -0025, -0026, -0031, -0033, -0039, -0040, -0042, -0043, -0047, -0049, -0050,
+  -0051, GOV-0001 and NWS-0001 — declarants, spouses, children and addresses. Among them: Houver
+  [uncertain] Engracio Guimarães (CIV-0017), Maria de Fátima Gomes Beato and her parents Agostinho
+  Gomes Beato and Anadem [sic, not "Anadir"] de Siqueira Beato (NWS-0001), Alice Batista Bohrer and
+  Lília [uncertain] de Novaes Bohrer (wives of João and Ercy Bohrer), Alício's children Paulo Cesar
+  Borher and Katia Regina Borher Grecia, Teodolina's husband and children, and José de Carvalho
+  Guimarães Sobrinho's widow. Several misreadings were corrected along the way (CIV-0049's hour and
+  estate clause, CIV-0042's burial, CIV-0033's physician, CIV-0050's marker).
+- The owner's own records (CIV-0008–CIV-0012, DOC-0011–0014) stay redacted. P-0010, P-0011, P-0018,
+  P-0038, F-0005, F-0008, F-0015, the Family Story and STATUS were updated to match.
+
 ## 2026-10-08 — Second code review: carry-through fixes and a site privacy mechanism
 
 **Amends the entry below.** A second review of the unpushed commits found corrections applied in
@@ -162,7 +186,7 @@ the top P-0016 ask. Session file: `logs/2026-09-25-cagado-1831-bounded-negative.
 Four parallel agents synced profiles/profile_pt for 26 entities across Armond/Paz, Toledo, Bohrer, Guimarães/Engrácio, and Muniz/Azevedo lines. Critical corrections found and applied:
 
 - **P-0004:** "left no will" → "left a will" (four occurrences; critical factual reversal)
-- **P-0010:** Given name proven as [name withheld — possibly living] [PROVEN]
+- **P-0010:** Given name proven as "Houver Engrácio Guimarães" [PROVEN]
 - **P-0015:** Death 19 Feb → **15 Feb 1977**; occupation doméstica → **costureira**
 - **P-0028 + E-0064:** Birth **14 Sep 1868 → 14 Nov 1868** — PAR-0063 reads "nascido a quatorze de Novembro"; prior September reading was an error; PUB-0003 "14/11/1868" confirmed, not superseded
 - **P-0038/P-0039:** Gloria Lacerda death **~1900 → 9 May 1960, Niterói** [PROVEN]
@@ -2144,7 +2168,7 @@ grandparent couples P-0028×P-0029 and P-0030×P-0031, linked to all four); CIV-
 death, private — living descendants + IDs redacted; stated 1924 birth conflicts with Eunir's held
 birth act, flagged); CIV-0040 (Ivanyr, 1992 Barra Mansa death, private — declarant ID redacted).
 Iris now shows 6 documented siblings. Profiles synced EN/PT (P-0007, P-0014, P-0015). Not promoted
-(leads): [a collateral, name withheld — possibly living] (record proves marriage, not parents → sibling-link tree-asserted); Rozalina/
+(leads): Houver Engrácio (record proves marriage, not parents → sibling-link tree-asserted); Rozalina/
 Agenor/Thereza/Nestor (Antenor's side); Cinésio/Maria Adyr/Ivan (Ivan = probable dup of Ivanyr) —
 off-tool or tree-only. José Olavo (P-0018) already modelled; his 1975 banns not yet catalogued (still
 in drop — a follow-up for the ancestors' evidence layer). make check green; 145 sources / 208 scans.

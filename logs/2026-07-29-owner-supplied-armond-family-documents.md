@@ -22,8 +22,8 @@ newspaper) about Aristão Ferreira Armond's family, and refine the search.
    Memory artifact 120876994, `per829587_1975_00042.pdf`). Reads: José [Olavo]
    Armond, **natural de Eugenópolis**, representante comercial, residente no Rio
    (Av. Ministro Edgar Romero, Madureira), **filho de Aristão Ferreira Armond e de
-   d. Liliosa Paz Armond**, marrying [the bride's name, occupation and parents are
-   withheld — presumed living; redacted 2026-10-08].
+   d. Liliosa Paz Armond**, marrying Maria de Fátima Gomes Beato (Cons. Lafaiete,
+   professora, filha de Agostinho Gomes Beato e Anadir de Siqueira Beato).
 
 ## What is now strongly established
 
