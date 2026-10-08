@@ -19,8 +19,10 @@ Privacy model (the site is public; the repository is private):
 * places    – verbatim.
 * sources   – a record about only deceased people is published verbatim, and its
               evidence scan is deployed (owner directive: the dead may be shown).
-              A record involving any living person (the owner's own documents) is
-              reduced to display metadata, with no scan, transcription or link.
+              A record involving any living person (the owner's own documents), or
+              marked ``withhold_from_site: true`` because its scan names a living person
+              who is not modelled, is reduced to display metadata, with no scan,
+              transcription or link.
 * fan       – same rule; all are third-party (deceased) records, so published with
               their scans unless one ever names a living participant.
 
@@ -178,7 +180,7 @@ def main() -> None:
     public_sources: dict[str, dict] = {}
     for sid, source in sources.items():
         living_linked = any(pid in living_ids for pid in source.get("linked_people", []) or [])
-        if living_linked:
+        if living_linked or source.get("withhold_from_site") is True:
             reduced = reduce_record(source, PUBLIC_SOURCE_FIELDS)
             reduced["linked_people"] = [
                 pid for pid in source.get("linked_people", []) if pid not in living_ids
@@ -193,7 +195,7 @@ def main() -> None:
     public_fan: dict[str, dict] = {}
     for fid, ref in fan.items():
         living_part = involves_living(ref.get("participants"))
-        if living_part:
+        if living_part or ref.get("withhold_from_site") is True:
             reduced = reduce_record(ref, PUBLIC_FAN_FIELDS)
             reduced["participants"] = [
                 {k: v for k, v in item.items() if k in ("person_id", "role", "note")}

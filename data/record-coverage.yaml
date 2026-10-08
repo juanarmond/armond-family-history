@@ -564,8 +564,9 @@ people:
     - PAR-0057
     last_reviewed: "2026-10-08"
     next_action: >-
-      Catalogued: her 13 May 1899 baptism at Nova Friburgo (PAR-0057), consistent with
-      her age of 77 at her 1977 death (CIV-0015). A civil birth registration, if one
+      Catalogued: her baptism at Nova Friburgo on 27 September 1899, which gives her birth as
+      13 May 1899 (PAR-0057; event E-0022), consistent with her age of 77 at her 1977 death
+      (CIV-0015). A civil birth registration, if one
       exists, would only corroborate. [Updated 2026-10-08: this row still asked for a
       record "around 1889–1890".]
     notes: []
@@ -2039,8 +2040,11 @@ people:
       of the Rio Pomba 1838–39 nominative lists, 14,851 rows, derived from the primary
       maps): Antônio Zeferino de Toledo (43, so b. ~1796) × Maria Perpétua (27), distrito 6,
       fogo 38, 1839, with daughters Emetea (7), Maria (5), Mariana (3) and Carolina (1) and
-      three enslaved people. He is her documented son (PRB-0006), so this is the first dated
-      household for that collateral line. An unlinked José Inácio de Toledo (30) × Rita
+      three enslaved people. He is NOT her son: he is Ladisláo's brother (F-0028; PRB-0010,
+      child #10 of the 1833 inventory) and the husband of her daughter Maria Perpétua (F-0027,
+      corrected 7 August 2026), and the ages fit that reading (he b. ~1796, before the 1810
+      marriage; she b. ~1812). This is the first dated household for that couple. [Corrected
+      2026-10-08: this note first called him her documented son.] An unlinked José Inácio de Toledo (30) × Rita
       Maria (28), Feijão Cru 1838, children Firmino, Delfina and Cassiano, is also reported.
       Leads only; catalogue nothing from a coded dataset without the map itself.
 - person_id: P-0056

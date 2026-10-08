@@ -20,8 +20,9 @@ what is already public on the deployed site:
 
 * living people (``privacy: living`` → P-0001/2/3) are excluded entirely: no
   summary, no Tier B file, no name-index entry.
-* a source that names any living person (the owner's own documents) is skipped
-  entirely — no transcription reaches the knowledge base.
+* a source that names any living person (the owner's own documents), or is marked
+  ``withhold_from_site: true``, is skipped entirely — no transcription reaches the
+  knowledge base.
 * an event with any living participant is skipped.
 * families are kept structurally (they carry no evidence text); a living partner
   or child appears only as an opaque P-ID with no name or profile anywhere.
@@ -108,7 +109,7 @@ def build(data_root: Path, output_dir: Path) -> dict[str, int]:
     skipped_sources = 0
     for sid, src in sources.items():
         linked = src.get("linked_people") or []
-        if has_living(linked):
+        if has_living(linked) or src.get("withhold_from_site") is True:
             skipped_sources += 1
             continue
         public_linked = [pid for pid in linked if pid not in living_ids]

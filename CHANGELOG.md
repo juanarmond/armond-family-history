@@ -5,6 +5,20 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — `withhold_from_site` for records naming an unmodelled living person (2026-10-08)
+
+- New optional boolean on sources and FAN references. When true, the Pages build publishes display
+  metadata only (no scan, transcription or link) and the assistant knowledge base skips the record.
+  `private` keeps its existing meaning. Regression test in `tests/test_pages_site.py`. Applied to
+  NWS-0001, whose banns page names a presumed-living bride.
+
+### Fixed — second review: carry-through of the day's corrections (2026-10-08)
+
+- Antonio Zeferino's relationship, the Villa Rica misreading, NWS-0004's depositário, P-0016's custodian
+  sentence, STATUS's superseded facts, F-0062's child name field, CIV-0045's title, P-0103/P-0104
+  occupations and nationality, P-0106/P-0107 name forms, P-0047's 1872 hedge, P-0015's child-count
+  explanation, E-0029's ARK, and the Family Story on Mariana Fagundes's parentage.
+
 ### Fixed — image audit of the 2026-09-23 batch, source corrections, correspondence log (2026-10-08)
 
 - Re-read the 2026-09-23 batch's changes against the scans and corrected the wrong values (CIV-0026,

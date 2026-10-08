@@ -69,13 +69,14 @@ documented_children:
   source_ids:
   - PUB-0005
   - PAR-0093
-- name: >-
-    Maria (b.~18.5.1662 S.Sebastião) [COMPILED — PUB-0005 only. Corrected 2026-10-08:
-    PAR-0094, once cited here, does not attest her — its legible "Ant.º" entry is António,
-    son of Gregório Cardozo, baptised 12 June 1662, and its facing-page "M[?]" entry is
-    illegible; no baptism image for this Maria is held]
+- name: Maria (b.~18.5.1662 S.Sebastião)
   source_ids:
   - PUB-0005
+  note: >-
+    [COMPILED — PUB-0005 only.] Corrected 2026-10-08: PAR-0094, once cited here, does not
+    attest her — its legible "Ant.º" entry is António, son of Gregório Cardozo, baptised
+    12 June 1662, and its facing-page "M[?]" entry is illegible; no baptism image for this
+    Maria is held.
 - name: Belchior da Ponte Cardoso (b.20.5.1664, c.c.Joana Baptista)
   source_ids:
   - PUB-0005

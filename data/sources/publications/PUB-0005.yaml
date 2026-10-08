@@ -106,7 +106,7 @@ abstract: >-
   married Mariana Fagundes at Santa Bárbara on 26.9.1650. Their son Gaspar de Souto-Maior
   was born 23.2.1657. This Gaspar is the ancestor identified as P-0092 (Gaspar Ferreira)
   in the Armond-Toledo repository — note the death date conflict (Vol. IX gives d.2.12.1727
-  in São Sebastião; P-0092 is placed in Villa Rica, Brazil, with a son marrying in 1783).
+  in São Sebastião; P-0092 is placed at Villa Rica, Brazil, only by his son's birthplace, with that son marrying in 1783).
 abstract_pt: >-
   Compilação genealógica da família SOUTO-MAIOR / Ponte Cardoso na Ilha Terceira.
   O § 1º traça a linha de Gaspar de Souto Cardoso (f. 15.2.1618) pelo filho Manuel da Ponte
@@ -114,7 +114,7 @@ abstract_pt: >-
   Ponte Cardoso (n.10.1.1615, f.26.6.1687), Alferes de ordenanças. Belchior casou com Mariana
   Fagundes em Stª Bárbara a 26.9.1650. O filho Gaspar de Souto-Maior nasceu a 23.2.1657.
   Este Gaspar é o ancestral identificado como P-0092 (Gaspar Ferreira) — nota: conflito de
-  data de óbito (Vol. IX dá f.2.12.1727 em S. Sebastião; P-0092 situa-se em Villa Rica, Brasil,
+  data de óbito (Vol. IX dá f.2.12.1727 em S. Sebastião; P-0092 situa-se em Villa Rica, Brasil, apenas pelo local de nascimento do filho,
   com filho casando em 1783).
 reliability:
   assessment: >-
@@ -126,7 +126,7 @@ reliability:
     Ponte Valadão and Maria da Costa Leonardes death dates (1652, 1654) are stated by the
     compiler. Gaspar de Souto-Maior's birth (23.2.1657) and death (2.12.1727) are compiled-only.
     ⚠ The stated death date (2.12.1727 in S. Sebastião) conflicts with his role as ancestor of
-    P-0092 who was in Villa Rica c.1750–1783; this is unresolved and flagged in P-0092 notes.
+    P-0092, placed at Villa Rica c.1750 only by his son's birthplace; this is unresolved and flagged in P-0092 notes.
   informant: Mendes Forjaz (compiler)
   limitations: >-
     Secondary compiled source; no primary parish images held for Belchior's own baptism or
@@ -165,7 +165,8 @@ notes:
     Manuel's BROTHER (not father); the grandfather is Gaspar de Souto Cardoso × Catarina Valadão.
 - text: >-
     Gaspar de Souto-Maior (gen 6) death date: the compilation gives f.2.12.1727 in S. Sebastião.
-    However, P-0092 (Gaspar Ferreira) is documented in Villa Rica, Minas Gerais, with his son
+    However, P-0092 (Gaspar Ferreira) is placed at Villa Rica, Minas Gerais, only by his son's
+    birthplace (corrected 2026-10-08 from "documented in Villa Rica"), with his son
     marrying in 1783. For P-0092 to be the same Gaspar, either the 1727 date is erroneous, or
     P-0092 is a different (next-generation) Gaspar. This conflict must be resolved by future
     primary research. The Vol. IX Gaspar's 2nd-marriage children (born 1698–1701) could be

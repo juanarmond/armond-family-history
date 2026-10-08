@@ -61,6 +61,8 @@ class PagesSiteEvidenceTest(unittest.TestCase):
                     for rec in _load_dir(directory):
                         if any(pid in living for pid in linked_of(rec)):
                             continue  # living-linked: intentionally no scan deployed
+                        if rec.get("withhold_from_site") is True:
+                            continue  # names an unmodelled living person: withheld
                         refs = [rec.get("digital_file"), *(rec.get("additional_pages") or [])]
                         for ref in refs:
                             path = ref.get("path") if isinstance(ref, dict) else None
@@ -76,6 +78,34 @@ class PagesSiteEvidenceTest(unittest.TestCase):
                     "deployed Pages site is missing evidence pages (multi-page docs "
                     f"would show only page 1): {missing}",
                 )
+            finally:
+                build_pages_site.OUTPUT = original
+
+    def test_withheld_records_ship_no_scan_or_transcription(self) -> None:
+        withheld = [
+            rec
+            for directory in (ROOT / "data" / "sources", ROOT / "data" / "fan")
+            for rec in _load_dir(directory)
+            if rec.get("withhold_from_site") is True
+        ]
+        with tempfile.TemporaryDirectory() as tmp:
+            original = build_pages_site.OUTPUT
+            build_pages_site.OUTPUT = Path(tmp) / "_site"
+            try:
+                build_pages_site.main()
+                site = build_pages_site.OUTPUT
+                leaked: list[str] = []
+                for rec in withheld:
+                    refs = [rec.get("digital_file"), *(rec.get("additional_pages") or [])]
+                    for ref in refs:
+                        path = ref.get("path") if isinstance(ref, dict) else None
+                        if isinstance(path, str) and (site / path).exists():
+                            leaked.append(f"{rec['id']}: {path}")
+                    for published in site.rglob(f"{rec['id']}.yaml"):
+                        data = yaml.safe_load(published.read_text(encoding="utf-8"))
+                        if isinstance(data, dict) and data.get("transcription"):
+                            leaked.append(f"{rec['id']}: transcription")
+                self.assertEqual(leaked, [], f"withheld records were published: {leaked}")
             finally:
                 build_pages_site.OUTPUT = original
 

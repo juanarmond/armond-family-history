@@ -9,6 +9,10 @@ name_variants:
   source_ids:
   - PAR-0067
   - PAR-0068
+- value: Jorge Conrad Schenengel
+  type: source
+  source_ids:
+  - CIV-0045
 event_ids:
 - E-0091
 family_ids:
@@ -19,8 +23,10 @@ notes:
     Father of Maria Luiza Schenkel (P-0104); the groom "Conrad Schenkel, ehelicher lediger Sohn von
     Heinrich Schenkel" in his 1847 Lutheran marriage to Maria Luiza Stoffel (PAR-0067), and named as
     Maria Luiza's father in her 1872 marriage (PAR-0068). His own father Heinrich Schenkel is
-    modelled as P-0113 (father-only family F-0056). The register writes only "Conrad" (not "Georg
-    Conrad"). Protestant. Nationality unset.
+    modelled as P-0113 (father-only family F-0056). The Lutheran registers write only "Conrad";
+    his grandson's 1891 civil birth (CIV-0045, termo nº 235) names him "Jorge Conrad Schenengel"
+    [Schenkel] — the first held record to give "Jorge" (Georg). [Updated 2026-10-08.] Protestant.
+    Nationality unset.
 profile: >-
   ## Interesting facts
 

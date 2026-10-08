@@ -9,6 +9,10 @@ name_variants:
   source_ids:
   - PAR-0066
   - PAR-0068
+- value: Anna Margarida
+  type: source
+  source_ids:
+  - CIV-0045
 event_ids:
 - E-0090
 family_ids:
@@ -19,6 +23,9 @@ notes:
     Lutheran baptism (PAR-0066) and, as "verstorbenen Anna Margaretha geb. [Deir/Beir? — uncertain]"
     (deceased by 1872), in his 1872 marriage (PAR-0068). Her maiden surname is illegibly different
     between the two records — kept [uncertain], both readings preserved, not asserted as fact.
+    A third reading: her grandson's 1891 civil birth (CIV-0045, termo nº 235) names her "Anna
+    Margarida Ther." [uncertain — abbreviated surname], deceased ("fallecidos", with João
+    Klein). [Added 2026-10-08.]
 profile: >-
   ## Interesting facts
 

@@ -3,6 +3,7 @@ id: P-0104
 preferred_name: Maria Luiza Schenkel
 privacy: deceased
 sex: female
+nationality: Brazilian
 name_variants:
 - value: Maria Luiza Schenkel
   type: source
@@ -22,7 +23,10 @@ notes:
     Mother of Carolina Klein (P-0029); named with her husband Jacob Klein in Valentim × Carolina's
     1890 marriage (PAR-0064). She is the daughter of Conrad (Georg Conrad) Schenkel × Maria Luiza
     Stoffel per her own 1872 Lutheran marriage (catalogued in a later wave). Protestant family.
-    Nationality left unset pending her origin.
+    Nationality: Brazilian as stated in her son's 1891 civil birth (CIV-0045, termo nº 235:
+    the couple "brazileiros"; set 2026-10-08). Her birthplace is still unstated, and after the
+    1889 Grande Naturalização "brazileiro" in an 1891 register does not by itself mean born in
+    Brazil [CONTEXTUAL].
 profile: >-
   ## Interesting facts
 
@@ -66,13 +70,15 @@ profile: >-
   - **Death:** unlocated. The "before 1889" reading is withdrawn; index entries would place her
   alive to at least 1896 [LEAD — index, record not held]. [OPEN]
 
-  - **Nationality:** left unset in this archive, deliberately — no held record states where she
-  was born, and the Schenkel and Stoffel strands point to German and Swiss origins respectively.
-  [OPEN by decision]
+  - **Nationality:** Brazilian — her son's 1891 civil birth calls the couple "brazileiros"
+  (CIV-0045, termo nº 235) [PROVEN as stated]. Where she was born is still unstated, and after the
+  1889 Grande Naturalização the word does not by itself mean born in Brazil [CONTEXTUAL]. (Set
+  2026-10-08; previously left unset.)
 
   ## Standing and profession
 
-  Nothing is recorded — no occupation, property, literacy or signature. What the records do fix
+  Only one held record gives her an occupation: "lavradores", said of the couple in 1891
+  (CIV-0045, termo nº 235). No property, literacy or signature is recorded. What the records do fix
   is her position in a household: married at twenty-one into another colony family of the same
   confession, then named as mother and grandmother in three later acts. The one structural fact
   about her life that the evidence supports is the scale of her childbearing, and that comes
@@ -127,8 +133,8 @@ profile: >-
   confirmed against the original São José do Ribeirão register pages, which are not digitised.
   [LEAD / OPEN]
 
-  - Her nationality, left unset on purpose pending a record that states her birthplace. [OPEN by
-  decision]
+  - Her birthplace — no held record states it (her nationality, Brazilian, is stated in 1891,
+  CIV-0045). [OPEN]
 
   ## Sources held (this repository)
 
@@ -212,13 +218,15 @@ profile_pt: >-
   - **Óbito:** não localizado. A leitura "antes de 1889" está retirada; entradas de índice a
   situariam viva até pelo menos 1896 [LEAD — índice, registro não em mãos]. [OPEN]
 
-  - **Nacionalidade:** deliberadamente não atribuída neste arquivo — nenhum documento retido
-  declara onde nasceu, e as vertentes Schenkel e Stoffel apontam, respectivamente, para origens
-  alemã e suíça. [OPEN por decisão]
+  - **Nacionalidade:** brasileira — o registro civil de nascimento do filho, de 1891, chama o
+  casal de "brazileiros" (CIV-0045, termo nº 235) [PROVEN conforme declarado]. Onde nasceu continua
+  sem declaração, e depois da Grande Naturalização de 1889 a palavra não significa, por si só,
+  nascida no Brasil [CONTEXTUAL]. (Atribuída em 2026-10-08; antes deixada em aberto.)
 
   ## Posição social e profissão
 
-  Nada está registrado — nenhuma ocupação, propriedade, alfabetização ou assinatura. O que os
+  Só um documento retido lhe dá ocupação: "lavradores", dito do casal em 1891 (CIV-0045, termo
+  nº 235). Nenhuma propriedade, alfabetização ou assinatura está registrada. O que os
   documentos fixam é sua posição num domicílio: casada aos vinte e um anos com outra família
   colona da mesma confissão, depois nomeada como mãe e avó em três atos posteriores. O único
   fato estrutural de sua vida que as evidências sustentam é a extensão de sua maternidade, e ele
@@ -274,8 +282,8 @@ profile_pt: >-
   podem ser confirmadas contra as páginas originais do registro de São José do Ribeirão, não
   digitalizadas. [LEAD / OPEN]
 
-  - Sua nacionalidade, deixada em aberto de propósito, à espera de um documento que declare seu
-  local de nascimento. [OPEN por decisão]
+  - Seu local de nascimento — nenhum documento retido o declara (a nacionalidade, brasileira, é
+  declarada em 1891, CIV-0045). [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 

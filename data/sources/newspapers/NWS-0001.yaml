@@ -106,7 +106,18 @@ linked_events:
 linked_places:
 - PL-0002
 private: false
+withhold_from_site: true
 notes:
+- text: >-
+    Withheld from the public site 2026-10-08 (withhold_from_site: true): the published banns
+    page names the bride (presumed living), her parents and her address, so the scan must not
+    be deployed. The
+    facts it supplies about the deceased family members stay cited in their records.
+  text_pt: >-
+    Retido do site público em 2026-10-08 (withhold_from_site: true): a página publicada dos
+    proclamas nomeia a noiva (presumivelmente viva), os pais dela e o endereço, pelo que a
+    digitalização não pode ser publicada. Os factos que fornece sobre os familiares falecidos continuam
+    citados nos respectivos registos.
 - text: >-
     Owner-supplied digital copy of the full 8-page issue (front page and pp. 2–8
     read to locate the banns on p. 6). The José Olavo edital is one of several

@@ -5,6 +5,28 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-10-08 — Second code review: carry-through fixes and a site privacy mechanism
+
+**Amends the entry below.** A second review of the unpushed commits found corrections applied in
+one file but not in the others stating the same fact, and one privacy gap:
+- **Privacy:** NWS-0001's 1975 banns page (naming a presumed-living bride, her parents and her
+  address) was still deployed to the public site, because the build withholds only records linked to
+  a modelled living person, and `private` is a repository marker the build ignores for
+  deceased-only records. New schema field `withhold_from_site: true` (sources and FAN), honoured by
+  `build_pages_site.py` and `build_knowledge_base.py`, with a regression test. NWS-0001 now ships as
+  metadata only. Earlier commits on origin still contain her name in text (owner's decision).
+- **Relationships:** Antonio Zeferino de Toledo is Ladisláo's brother and the husband of Mathilde's
+  daughter Maria Perpétua, not Mathilde's son — the new Rio Pomba note had revived the superseded
+  reading; P-0027's stale note is marked superseded.
+- **Carry-through:** the Villa Rica misreading (P-0092, P-0093, F-0045, PUB-0005); NWS-0004's abstracts
+  and the inventory still naming P-0056 as the depositário; P-0016's custodian sentence (Taruaçu);
+  STATUS (Geraldo's will retraction, C-014, six Terceira baptisms); P-0015's baptism date in coverage;
+  E-0029's ARK; F-0062's child name field (prose moved to `note`); CIV-0045's title now names both acts.
+- **Evidence handling:** P-0103/P-0104 occupation text and P-0104's stated nationality (Brazilian,
+  CIV-0045); the 1891 name forms on P-0106/P-0107; Francisca's 1872 survival hedged to [INFERRED] (P-0047);
+  Ercy's 1972 death named as the likely cause of the 15-vs-14 child counts (P-0015, F-0005); the Family
+  Story now says Mariana Fagundes's parents are proven from her own marriage act.
+
 ## 2026-10-08 — Image audit of the 2026-09-23 batch; source corrections; correspondence log rebuilt
 
 **Audit.** A read-only audit re-read about 83 factual changes made by the two 2026-09-23

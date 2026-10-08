@@ -72,7 +72,7 @@ profile: >-
 
   - **[CONTEXTUAL]** Her 1899 birth is at the exact moment of the Nova Friburgo colony's civil registration transition: before 1889 vital records were kept by the Catholic church (PAR- sources); after 1889's Republican proclamation, civil registration became standard. She is documented by her parish baptism at São João Baptista (PAR-0057); no civil birth registration for her has been located, which does not show that none was made — she belongs to the transition generation.
 
-  - **[PROVEN]** Both her 1977 death record (CIV-0015) and her husband's 1970 death (CIV-0014) name her, but they conflict on the number of children: she "deixou quatorze filhos" per CIV-0015, but "quinze" per CIV-0014. The one-child discrepancy remains unresolved — one child either died between 1970 and 1977, or one death record misstated the count.
+  - **[PROVEN]** Both her 1977 death record (CIV-0015) and her husband's 1970 death (CIV-0014) name her, but they conflict on the number of children: she "deixou quatorze filhos" per CIV-0015, but "quinze" per CIV-0014. The one-child gap has a documented candidate: her son Ercy died on 21 October 1972 (CIV-0031), between the two counts — most likely the child the 1977 figure no longer counts [INFERRED]; a misstated count remains possible.
 
   - **[INFERRED]** Her entire life traces the family's migration arc: born in Nova Friburgo (1899), her father a negociante of the Alto da Serra; married by early 1923 — in Nova Friburgo on her husband's own 1923–1924 statements (CIV-0038, CIV-0016), in Carangola, MG, on his 1970 death record (CIV-0014); mother of children born in Minas Gerais from 1929 (CIV-0004, CIV-0040, CIV-0025); dead a widow in Volta Redonda (1977). Nova Friburgo → Zona da Mata Mineira → CSN steel city — the same three-stage migration as her husband João Gonçalves Bohrer.
 
@@ -177,8 +177,8 @@ profile: >-
   São João Baptista, Nova Friburgo, daughter of Joaquim José Bohrer × Lucinda Ferreira.
   [RESOLVED]
 
-  - The **child count** (fourteen vs fifteen) — resolvable only by assembling the
-  children's own records. [OPEN]
+  - The **child count** (fourteen vs fifteen) — Ercy's 1972 death (CIV-0031) is the likely
+  explanation [INFERRED]; confirming it means assembling the children's own records. [OPEN]
 
   - Her **marriage to João Gonçalves** — no record held, and the place conflicts (Carangola per CIV-0014; Nova Friburgo per CIV-0038 and CIV-0016). The Nova Friburgo civil marriage registers before March 1923, then Carangola's, would date the union and confirm her filiation independently. [OPEN]
 
@@ -230,7 +230,7 @@ profile_pt: >-
 
   - **[CONTEXTUAL]** Seu nascimento em 1899 coincide com o exato momento da transição do registro civil na colônia de Nova Friburgo: antes de 1889 os registros vitais eram mantidos pela igreja católica (fontes PAR-); após a proclamação da República em 1889, o registro civil tornou-se padrão. Ela está documentada por seu batismo paroquial em São João Baptista (PAR-0057); nenhum registro civil de nascimento dela foi localizado, o que não prova que não tenha sido feito — ela pertence à geração de transição.
 
-  - **[PROVEN]** Tanto seu óbito de 1977 (CIV-0015) quanto o óbito de 1970 de seu marido (CIV-0014) a nomeiam, mas divergem no número de filhos: ela "deixou quatorze filhos" segundo CIV-0015, mas "quinze" segundo CIV-0014. A discrepância de um filho permanece não resolvida — um filho pode ter falecido entre 1970 e 1977, ou um dos registros de óbito declarou a contagem incorretamente.
+  - **[PROVEN]** Tanto seu óbito de 1977 (CIV-0015) quanto o óbito de 1970 de seu marido (CIV-0014) a nomeiam, mas divergem no número de filhos: ela "deixou quatorze filhos" segundo CIV-0015, mas "quinze" segundo CIV-0014. A diferença de um filho tem um candidato documentado: o filho Ercy morreu em 21 de outubro de 1972 (CIV-0031), entre as duas contagens — muito provavelmente o filho que o número de 1977 já não conta [INFERRED]; um erro de contagem continua possível.
 
   - **[INFERRED]** Toda a sua vida traça o arco migratório da família: nascida em Nova Friburgo (1899), pai negociante do Alto da Serra; casada até o início de 1923 — em Nova Friburgo segundo as declarações do próprio marido em 1923–1924 (CIV-0038, CIV-0016), em Carangola, MG, segundo o óbito dele de 1970 (CIV-0014); mãe de filhos nascidos em Minas Gerais a partir de 1929 (CIV-0004, CIV-0040, CIV-0025); falecida viúva em Volta Redonda (1977). Nova Friburgo → Zona da Mata Mineira → cidade siderúrgica da CSN — a mesma migração em três etapas do marido João Gonçalves Bohrer.
 
@@ -335,8 +335,8 @@ profile_pt: >-
   batizada em 27 de setembro de 1899 em São João Baptista, Nova Friburgo, filha de Joaquim
   José Bohrer × Lucinda Ferreira. [RESOLVED]
 
-  - A **contagem de filhos** (quatorze vs quinze) — resolvível apenas reunindo os
-  registros dos próprios filhos. [OPEN]
+  - A **contagem de filhos** (quatorze vs quinze) — a morte de Ercy em 1972 (CIV-0031) é a
+  explicação provável [INFERRED]; confirmá-la exige reunir os registros dos próprios filhos. [OPEN]
 
   - Seu **casamento com João Gonçalves** — nenhum registro em mãos, e o local é conflitante (Carangola segundo CIV-0014; Nova Friburgo segundo CIV-0038 e CIV-0016). Os registros civis de casamento de Nova Friburgo anteriores a março de 1923, e depois os de Carangola, datariam a união e confirmariam sua filiação de forma independente. [OPEN]
 

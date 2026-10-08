@@ -271,6 +271,10 @@
     "private": {
       "type": "boolean"
     },
+    "withhold_from_site": {
+      "type": "boolean",
+      "description": "true when the scan or transcription names a living person who is not modelled as a person entity, so the living-person filter cannot see them. The public site and the assistant knowledge base then treat the record like one naming a living person: display metadata only, no scan, transcription or link. Distinct from `private`, which the site build does not use for deceased-only records."
+    },
     "notes": {
       "$ref": "common.schema.json#/$defs/notes"
     }
