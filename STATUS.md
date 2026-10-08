@@ -28,7 +28,7 @@ catalogues each valuable image as evidence. The deeper open problem — **Simpl�
 
 ## Next steps
 
-_Resume checkpoint refreshed 2026-09-13._ Ordered queue; per-record detail lives in
+_Resume checkpoint refreshed 2026-09-25._ Ordered queue; per-record detail lives in
 `data/record-coverage.yaml`, archive replies in `logs/correspondence-log.md`.
 
 1. **PRIMARY OPEN PROBLEM — Simplício José Ferreira Armond (P-0016): father unknown.**
@@ -50,10 +50,8 @@ _Resume checkpoint refreshed 2026-09-13._ Ordered queue; per-record detail lives
 3. **★ Highest-value unretrieved document for P-0016: the 1839 Meia Pataca population map**
    (APM, catalogued under Cataguases). GOV-0013's fogo 68 couple were childless in 1831, so an
    1839 return should name their children — the test that makes entry 68 evidence or kills it.
-   Ask Nilza with the C-013 reply (still unsent). Retired on her authority: no Meia Pataca
-   baptism books 1832–1853; no Armond in either Cataguases map. Bounded negative, do not repeat:
-   Cágado/Mar de Espanha 1831, ~88 fogos, no Armond — corpus probably incomplete. Full detail and
-   caveats in `record-coverage` P-0016.
+   Ask Nilza with the C-013 reply (still unsent). Retired dead ends and the Cágado 1831 bounded
+   negative: `record-coverage` P-0016.
 4. **Flagged drop targets (record-coverage P-0016):** culturacores C-1673-1766 `_0034`
    (+ sweep `_0030–_0044`) for the third Cardozo × Fagundes attestation; the Honório 1845
    principal autos; the Pitanguy inventário. Trunk material stays LEAD-level until a primary
@@ -82,21 +80,12 @@ _Resume checkpoint refreshed 2026-09-13._ Ordered queue; per-record detail lives
   need explicit owner authorisation; the João–Susanna Sapucaia ceremony entry and the
   repository-health branch rule are pending human access.
 
-These gate archive retrieval only; the Simplício records need physical or authorised access.
-
 ## Repository snapshot
 
-| Item | Current state |
-| --- | --- |
-| Structured people | 130 |
-| Structured families | 65 |
-| Structured events | 133 |
-| Structured places | 9 |
-| Structured sources | 182 |
-| Structured FAN references | 13 |
-| Retained evidence scans | 312 |
-| Validation | zero errors or warnings at the last check (2026-09-25) |
-| Automated tests | 75 passing at the last check |
+Counts are not kept by hand. `uv run --frozen make check` prints them on its "Built
+privacy-filtered Pages site" line (people, families, events, places, sources, FAN references
+and published evidence scans), and that same command is the validation gate, run by the
+pre-commit hook and CI.
 
 The catalogued sources span the Armond/Paz, Muniz Bittencourt/Azevedo,
 Engracio/Souza/Guimarães, Bohrer and Portuguese-origin lines, include the maternal
@@ -113,9 +102,6 @@ subject's private records. Details are canonical in `data/sources/`; gaps in
 | Engracio, Souza and Guimarães | The 1915 collective registration documents Maria Amora/Aurora, her parents and all four grandparents; her 1991 death (CIV-0018) confirms the same parents, and Antonio Engracio Filho's 1964 death (CIV-0017) names his parents — Antonio Engracio de Souza × Luzia Pinheiro da Conceição — and attests the couple's marriage; Cidalia's own 1930 birth (CIV-0022) confirms her parents and all four grandparents and fixes her birth date at 15 September 1930. **Profile sync 2026-09-23, RETRACTED 2026-09-24:** the claim that P-0010's given name was "Houver Engrácio Guimarães" was wrong — that name belongs to the *declarant* of P-0010's 1964 death record (an adult son, solteiro, 32), not to P-0010 himself, and CIV-0017 still records the reading as an uncertain H-initial with the name withheld as possibly-living. Name redacted from the profile and the erroneous "What's new" correction removed; P-0021/P-0022 children confirmed (CIV-0049/0050/0033); P-0032/P-0033 children expanded to minimum three (Teodolina, Hermogenes [PROVEN]); P-0005 Irajá adult residence confirmed [LEAD]. | Locate Vicente's Portuguese origin; find the Antonio × Maria Aurora marriage act and the P-0032/P-0033 own vital records (both off-index) |
 | Bohrer | João Gonçalves Bohrer (d.1970) and Celina/Selina Bohrer (d.1977) catalogued from RJ civil deaths (CIV-0014/0015). Celina's maternal line reaches grandparents: Joaquim José Bohrer's parents Francisco José Bohrer × Rosa Eugenia de Lemos (PAR-0002) and Lucinda's parents Antonio da Silva Ferreira × Maria Joanna da Silva Ferreira (CIV-0019). Francisco José's parents Jacob Bahrer × Catharina Moser (F-0024) primary-confirmed by PRB-0005 (which writes the mother "Mayer"; her own 1825 marriage act PAR-0059 and PAR-0054 both write "Moser", adopted as preferred 2026-09-24); Rosa Eugenia's parents Manoel de Lemos Pereira × Maria Thereza de Jesus (F-0025) confirmed by PAR-0016. **Valentim's paternal line extended (2026-08-08/09, PUB-0003 + primary Swiss parish registers):** Valentim Martinho Bohrer b. 14/11/1868 (primary — PAR-0063 reads "nascido a quatorze de Novembro", confirming PUB-0003; earlier "September" reading was an error); parents Vicente Borer (P-0070, b.06/09/1828) × Maria Heggendorn (P-0071) — F-0034; grandparents Laurent Borer (P-0068, b.27/02/1797, Grindel, Soleure, CH, Heureux Voyage 1819) × Anna Maria Werhly (P-0069) — F-0033; great-grandparents Johann Jacob Wehrli (P-0072, b.17/01/1751, d.NF 28/05/1827) × Elisabetha Borer (P-0073, d.NF 10/10/1832) — F-0035, marriage PRIMARY confirmed by PAR-0029 (Grindel 27/01/1782); **2026-08-09 NEW (PRIMARY):** JJ Wehrli's parents confirmed by PAR-0027 (Grindel 1751 baptism): Johannes Wehrli (P-0074) × Barbara Alleman (P-0075), F-0036; Elisabetha Borer's parents confirmed by PAR-0028 (Erschwil 1760 baptism, church book #68): Joseph Borer (P-0076) × Anna Maria Borer (P-0077), F-0037. Line now reaches **1719 (est. birth of Johannes Wehrli × Barbara Alleman)** in Grindel/Solothurn. **2026-09-09 (djoaovi Bohrer haul, waves 2–3, primary Nova Friburgo registers):** paternal line — Jacob Bohrer × Catharina Moser marriage (PAR-0059, names their Erschwil/Hägendorf parents), Laurent Borer of Grindel and the Moser/Eggendorn couples modelled (P-0096–P-0104). Maternal line documented deep — Lucinda's parents Antonio da Silva Ferreira (**Portuguese**, PAR-0070) × Maria Joanna Rutschmann (b.1841, PAR-0069), whose father João José Rocheman was **natural de Bulle, Fribourg, Switzerland** (PAR-0071); Carolina Klein's parents Jakob Klein × Maria Luisa Schenkel (own 1872 marriage, PAR-0068) and the Klein/Schenkel/Stoffel Swiss-colonist ancestors (P-0103–P-0114). See CHANGELOG. **2026-09-23 INTAKE (Terceira S. Sebastião primary records):** Belchior's own baptism (PAR-0087, B-1611-1687 p.0037) and death (PAR-0088, O-1642-1696 p.0068) now held as primary — E-0126/0127 upgraded to confirmed. Mariana's death (PAR-0089, p.0062) confirmed — E-0136 upgraded. Seven children's baptisms held as primary (PAR-0090–0096): Maria 1651, Manuel 1652, António Coelho Souto-Maior 1654, Manuel 1656, Maria 1662 [PROBABLE], Belchior filho 1664, Isabel de Souto-Maior 1666. +10 sources, +20 scans. Pedro × Maria 1598 marriage: Santa Bárbara casamentos pp.0097–0099 searched — BOUNDED NEGATIVE. **2026-09-23 CORRECTION:** Jakob Borer (P-0050) was baptized in **Beinwil**, not Erschwil — the 1825 NF marriage register's "Erswill" is a misread of "Beinwil"; Staatsarchiv Solothurn confirmed Erschwil holdings searched (bounded negative); Beinwil confirmed by FS tree (L85Q-RY2). All prior Erschwil searches for P-0050's baptism are closed. **Profile sync 2026-09-23 CORRECTIONS:** Valentim Martinho Bohrer (P-0028) birth confirmed as **14 November 1868** (PAR-0063 reads "nascido a quatorze de Novembro"; prior September reading was an error); Celina Bohrer (P-0015) death corrected to **15 February 1977** and occupation to **costureira** (both from CIV-0015); E-0064 date updated to 1868-11-14. P-0007 naturalidade discrepancy flagged (CIV-0029 vs CIV-0004); P-0029 children expanded to 7 [PROVEN]; P-0030/P-0031 two additional children (Joaquim Carlos, Renato) from PAR-0078/0079; P-0036 infant daughter Isabel added. | Valentim's NF baptism (pre-1874, Fundação D. João VI); Carolina Bohrer's maiden name and birth record; Joaquim José's baptism (absent from Imigrantes compilation); Laurent Borer's parents (best lead: Jacob Borer × Catharina Heggendorn, Grindel 1782); Johannes Wehrli × Barbara Alleman marriage record not found |
 | Portuguese origins | `CIV-0007` directly reports Vicente as Portuguese; an 1866 Rio Claro record is an unlinked identity lead | Identify a district, municipality and parish before searching Portugal |
-
-Identifier conventions and the lead-vs-evidence rule are in `data/README.md` and
-`AGENTS.md`, not repeated here.
 
 ## Material unresolved conflicts
 
@@ -192,7 +178,7 @@ Canonical person-by-record actions and last-reviewed dates live in `data/record-
 ## Engineering state
 
 - **Active:** catalogue the Aristão and Liliosa retrievals once the retrieval
-  agent delivers. Assertion-level citation quality was reassessed 2026-09-25.
+  agent delivers.
 - **External:** require the frozen repository-health check in GitHub branch
   rules; the external retrieval agent syncs authorised FamilySearch finds into
   `research/from-retrieval/` for the value gate.

@@ -301,9 +301,10 @@ the three in-step artefacts above):
     runs it on every push and PR; keep the branch-protection rule requiring it.
 
 **F. Provenance, review & commit:**
-11. `STATUS.md` refreshed for material state/priority/conclusion changes **and** the
-    repository-snapshot counts. Append `logs/LOG.md` for a completed research or
-    audit session; add a concise `CHANGELOG.md` entry.
+11. `STATUS.md` refreshed for material state/priority/conclusion changes (its
+    repository snapshot points to `make check` for counts; do not hand-maintain them).
+    Append `logs/LOG.md` for a completed research or audit session; add a concise
+    `CHANGELOG.md` entry.
 12. Review the diff for privacy, unsupported promotion, lead-laundering and
     accidental duplication.
 13. Commit one small completed objective. Do not push unless explicitly asked or

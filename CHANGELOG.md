@@ -5,6 +5,11 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — STATUS stops hand-keeping counts; P-0016's next ask has one owner (2026-10-08)
+
+- `STATUS.md`'s repository snapshot now points to `make check` for counts instead of a hand-kept table. That table had already drifted: its "Retained evidence scans" row actually tracked the *published* count. AGENTS.md Definition of Done item 11 no longer asks for counts. Removed two STATUS sentences that pointed elsewhere or repeated what was already said.
+- The 1839 Meia Pataca map request lives in P-0016's birth `next_action` (it was in three places, and the field was stale). The Cágado 1831 bounded negative's provenance moved to `logs/2026-09-25-cagado-1831-bounded-negative.md`, and the coverage note keeps only the negative and its limits. GOV-0013 now owns the caution about the drop's "Armendes" reading, and C-013 lists the 1839 map as ask (5).
+
 ### Fixed — relationship links were under-cited: sources held but never cited at the assertion (2026-09-24)
 
 An audit found parent-child links and partner unions marked `strong-evidence` while the archive

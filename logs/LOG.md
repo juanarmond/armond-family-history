@@ -5,6 +5,15 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-09-25 — Cágado (→ Mar de Espanha) 1831 population map: bounded negative for Armond
+
+APM curato map of Cágado (1 Oct 1831), ~88 fogos read: no Armond in any spelling. It is
+bounded to the fogos read, because there is no recapitulation and the list stops at
+fogo 88. The images were deleted from the drop, so the map is not catalogued. Two
+dead ends were retired on Nilza Cantoni's authority, and the 1839 Meia Pataca map is now
+the top P-0016 ask. Session file: `logs/2026-09-25-cagado-1831-bounded-negative.md`
+(written up 2026-10-08).
+
 ## 2026-09-23 — Terceira intake (PAR-0087–0096) + profile sync batch 2 (28 entities)
 
 **Terceira S. Sebastião intake:** 10 primary sources created from untriaged retrieval images. Belchior da Ponte Cardoso (P-0123) baptism (PAR-0087, ~9 Jan 1615) and death (PAR-0088, 26 Jun 1687) now held as primary — E-0126/0127 upgraded to confirmed. Mariana Fagundes (P-0124) death (PAR-0089, 7 Jul 1684) confirmed — E-0136 upgraded. Seven F-0062 documented_children's baptisms held: Maria 1651, Manuel 1652, António Coelho Souto-Maior 1654, Manuel 1656, Maria 1662 [PROBABLE], Belchior filho 1664, Isabel de Souto-Maior 1666. Santa Bárbara casamentos pp.0097–0099 = bounded negative for Pedro × Maria 1598 marriage. DOC-0059/DOC-0102 reorganised. Sources 168→178, scans 263→283.

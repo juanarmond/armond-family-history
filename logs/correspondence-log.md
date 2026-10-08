@@ -421,3 +421,9 @@ lead until verified against an original record.
 - **Related, from the same correspondent on 2026-09-24:** the Juiz de Fora 1831 population map she
   supplied is now catalogued as `GOV-0012`, with a bounded negative for Armond in that district — see
   `data/record-coverage.yaml` (P-0016) and `logs/LOG.md`.
+
+**C-013 follow-up (2026-09-25) — one more item for the outstanding ask.** (5) The **1839 Meia Pataca
+population map** (APM, catalogued under Cataguases), which Nilza pointed to: if the fogo-68 couple are
+the right family, it should name their children. The Portuguese draft reply above does not yet include
+this ask; add it before sending. Her 2026-09-24 statements retiring two dead ends are recorded in
+`logs/2026-09-25-cagado-1831-bounded-negative.md`.
