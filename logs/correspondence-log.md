@@ -485,7 +485,7 @@ notes; confirm with her). Also received, as reported by the retrieval side and h
 - 2026-09-25, after a video call that was not recorded: her index to the **Tombos Registros
   Paroquiais de Terra** (row "Simplicio José Ferreira", local "santo antonio", p. 26 — a
   candidate-father lead) and the **Ibertioga 1831 census and 1834 mapa de fogos**, both negative.
-- **Still to ask (supersedes the outstanding list):** (1) the entry-68 crop and (2) fls. 17, for our
+- **Outstanding on the retrieval side's thread (it owns this correspondence):** (1) the entry-68 crop and (2) fls. 17, for our
   own reading; (3) confirmation of the archival reference; (4) the "pergunta que ficou pendente";
   and **(6) the transcription or image of Tombos p. 26, and whether it states filiation.** The
   retrieval side drafted a WhatsApp reply on 2026-09-25 that asks for p. 26; whether it was sent is
@@ -524,7 +524,7 @@ notes; confirm with her). Also received, as reported by the retrieval side and h
   research, reports them at the parish house, in excellent condition and legible, and says a
   visitor could photograph them on site. His own notes are paper worksheets on the enslaved
   population only, so they do not cover our family.
-- Status: **open — owner action.** Ask the parish for permission to photograph the 1860–1882
-  marriage book on site. A paid search (R$50 per name) needs the owner's go-ahead, and the free
-  photograph route comes first. The Mar de Espanha slice (1863–69) is separately queued at Juiz de
+- Status: **open, pursued by the retrieval side**, which owns this correspondence; its next step is
+  permission to photograph the 1860–1882 marriage book on site. This repository value-gates the
+  entry when it arrives. The Mar de Espanha slice (1863–69) is separately queued at Juiz de
   Fora (C-004, ticket 160/2026).

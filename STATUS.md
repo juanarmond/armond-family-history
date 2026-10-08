@@ -41,16 +41,16 @@ _Resume checkpoint refreshed 2026-10-08._ Ordered queue; per-record detail lives
    Pedro José Joaquim, Flávio José, Marcelino, Padre Francisco Antonio); circumstantial only,
    mint no trunk nodes. _Three decisive records, all needing physical/authorised retrieval:_
    (a) the Simplício × Eliza marriage (~1868–72, Argirita) — best test; book 1 (1860–1882) is at
-   the Argirita parish itself, undigitised; owner to ask permission to photograph it (C-014);
+   the Argirita parish itself, undigitised; access is with the retrieval side (C-014);
    (b) his ~1853 baptism; (c) the
    Barbacena Ferreira Armonde _principal_ autos (off-tool, AHMPAJS) and the Pitanguy inventário
    (proc. 39803183/39803190, COARPE BH via the C-006 form).
 2. **Aristão & Liliosa (external agent):** Aristão's baptism (film 004640627 img 54) and his
    marriage to Liliosa (film 004640632 img 6); Liliosa's own records (her 1946 Eugenópolis
    óbito naming her parents; Barra Mansa 1946 civil-death index). Value-gate and catalogue.
-3. **P-0016 nearer leads (via Nilza, C-013 reply still unsent):** the Tombos 1854–57 land-register
-   index row "Simplicio José Ferreira", p. 26 — a candidate father; ask for the page and whether it
-   states filiation. The 1838–39 Meia Pataca map is read and negative (the fogo-68 couple left
+3. **P-0016 nearer leads (requested by the retrieval side, C-013):** the Tombos 1854–57
+   land-register index row "Simplicio José Ferreira", p. 26 — a candidate father; value-gate the
+   page when it arrives. The 1838–39 Meia Pataca map is read and negative (the fogo-68 couple left
    between 1831 and 1838), so the question is now where they went. Detail, negatives and the
    44-variant caveat: `record-coverage` P-0016 (2026-10-08 note).
 4. **Flagged drop targets (record-coverage P-0016):** culturacores C-1673-1766 `_0034`
@@ -70,16 +70,16 @@ _Resume checkpoint refreshed 2026-10-08._ Ordered queue; per-record detail lives
 ## Current blockers and dependencies
 
 - **Simplício (P-0016) parentage bridge:** the decisive Simplício × Eliza marriage book is at the
-  Argirita parish (C-014), not digitised; it needs the owner's request to photograph it on site
-  (or a paid R$50-per-name search). Juiz de Fora holds only the Mar de Espanha 1863–69 slice
+  Argirita parish (C-014), not digitised; access is being pursued by the retrieval side. Juiz de
+  Fora holds only the Mar de Espanha 1863–69 slice
   (C-004, queued as 160/2026). The Barbacena/Pitanguy trunk probate is reachable via the COARPE
   form (C-006, BH central); the Honório 1845 _principal_ autos are off-tool (AHMPAJS Barbacena).
   BPAR Angra: the 6 € high-res set was declined, but a €2 order (Requisição nº101) was delivered
   2026-09-25 to the retrieval side (C-005).
-- **Retrieval images no longer reach this repo:** since 2026-10-06 the retrieval handoff excludes
-  record images, so new finds cannot be value-gated here: Jacob Borer's Beinwil baptism, the
-  BPAR Requisição nº101 scans, the two BPARPD Muniz inventários (1819, 1867) and the AMAP São
-  Paio baptisms. Owner to choose a delivery route.
+- **Awaiting images from the retrieval side:** its handoff has excluded record images since
+  2026-10-06, so these located finds cannot be value-gated yet: Jacob Borer's Beinwil baptism,
+  the BPAR Requisição nº101 scans, the two BPARPD Muniz inventários (1819, 1867) and the AMAP São
+  Paio baptisms.
 - **FamilySearch restricted images:** groups `004640627` (Aristão baptism, from img 54) and
   `004640632` (Aristão × Liliosa marriage, from img 6) are queued for the external retrieval
   agent; earlier images in each group need authorised FS Center/Library access.
