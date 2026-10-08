@@ -5,6 +5,42 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-10-08 — Image audit of the 2026-09-23 batch; source corrections; correspondence log rebuilt
+
+**Audit.** A read-only audit re-read about 83 factual changes made by the two 2026-09-23
+profile-sync batches (commits e0bbff7, 74a0b24) against the scans. About 50 hold; 14 are wrong and
+19 unverifiable. Of the eleven headline "critical corrections", 2 hold (P-0028's birth, P-0070's
+records), 4 are wrong (P-0004, P-0015, P-0024, P-0103) and 5 cannot be verified. Treat any other
+"correction" or [PROVEN] upgrade from those batches as unverified until its image is re-read.
+
+**Corrected from the images (each re-read by at least two passes, decisive words checked by the
+lead):** CIV-0026 Hermogenes died 1971, not 1961; CIV-0031 Ercy was 40 ("quarenta"), not 30,
+reversing a wrong change made earlier today; CIV-0016 and CIV-0038 mark only Lucinda "já fallecida"
+(singular), so Joaquim José Bohrer's death is open again; CIV-0038 "Lucinda [Sandra]" is "Lucinda
+Ferreira Borherer"; CIV-0039's "7 May" is wrong; PAR-0084 gains its omitted consent clause and
+sign-off; GOV-0008 no longer asserts a secção the held page does not show; PAR-0063 Valentim was
+baptised 25 December 1868; CIV-0045 Maria Felomena was born 30 September 1891; PAR-0082 Isabel was
+born 28 April 1860; P-0105/P-0106 carry Jacob Klein's 16 November birth. Unheld death acts and
+index-only claims on P-0069, P-0072, P-0073, P-0104, P-0119 and P-0120 are now tagged [LEAD].
+
+**New record attached:** CIV-0045's scan also holds civil birth Nº 235 (2 Oct 1891): Jacob Klein
+(P-0103) declared his son Antonio Ramos, born 1 Oct 1891, to Maria Luiza Schenkel (P-0104), naming
+the paternal grandparents as "fallecidos". Transcribed, linked, and recorded as a documented child
+on F-0051; occupations and life bounds added to P-0103–P-0105.
+
+**Other fixes:** PRB-0008's abstract and assessment no longer call item 6 (Simplício de Toledo) our
+P-0016; stale coverage rows for P-0004, P-0005, P-0014, P-0015 and P-0054; "father-in-law" for the
+1881 depositário (NWS-0004, P-0016); P-0042's birth note; Venda das Pedras is in Itaboraí (F-0025);
+P-0103's "Rio bonito" is hedged (probably Lumiar); P-0064's "Capitão-mor" removed (Silva Leme's
+"Cap. 1.º" is a chapter number); the Rio Claro film is DGS 004632513–515; the Rio Pomba Toledo and
+Paz leads, the Conde de Prados "Simplício, pardo claro" lead, a Liliosa death-record lead
+("Liliosa Paz Amaral", 1945, identity unconfirmed) and the heir-list question are recorded in
+coverage; the Bohrer marriage-place conflict is noted. A possibly-living declarant's name was
+removed from STATUS, LOG and CHANGELOG.
+
+**Correspondence log:** 10 stale entries updated and 14 contacts added (C-016–C-029), each checked
+against the retrieval threads. The C-013 asks for the entry-68 crop and fls. 17 were never sent.
+
 ## 2026-10-08 — Code-review fixes; profile sync of 28 ancestors; Geraldo's will corrected
 
 **Amends the three 2026-10-08 entries below.** A code review of the day's commits found:
@@ -104,7 +140,7 @@ the top P-0016 ask. Session file: `logs/2026-09-25-cagado-1831-bounded-negative.
 Four parallel agents synced profiles/profile_pt for 26 entities across Armond/Paz, Toledo, Bohrer, Guimarães/Engrácio, and Muniz/Azevedo lines. Critical corrections found and applied:
 
 - **P-0004:** "left no will" → "left a will" (four occurrences; critical factual reversal)
-- **P-0010:** Given name proven as "Houver Engrácio Guimarães" [PROVEN]
+- **P-0010:** Given name proven as [name withheld — possibly living] [PROVEN]
 - **P-0015:** Death 19 Feb → **15 Feb 1977**; occupation doméstica → **costureira**
 - **P-0028 + E-0064:** Birth **14 Sep 1868 → 14 Nov 1868** — PAR-0063 reads "nascido a quatorze de Novembro"; prior September reading was an error; PUB-0003 "14/11/1868" confirmed, not superseded
 - **P-0038/P-0039:** Gloria Lacerda death **~1900 → 9 May 1960, Niterói** [PROVEN]
@@ -2086,7 +2122,7 @@ grandparent couples P-0028×P-0029 and P-0030×P-0031, linked to all four); CIV-
 death, private — living descendants + IDs redacted; stated 1924 birth conflicts with Eunir's held
 birth act, flagged); CIV-0040 (Ivanyr, 1992 Barra Mansa death, private — declarant ID redacted).
 Iris now shows 6 documented siblings. Profiles synced EN/PT (P-0007, P-0014, P-0015). Not promoted
-(leads): Houver Engrácio (record proves marriage, not parents → sibling-link tree-asserted); Rozalina/
+(leads): [a collateral, name withheld — possibly living] (record proves marriage, not parents → sibling-link tree-asserted); Rozalina/
 Agenor/Thereza/Nestor (Antenor's side); Cinésio/Maria Adyr/Ivan (Ivan = probable dup of Ivanyr) —
 off-tool or tree-only. José Olavo (P-0018) already modelled; his 1975 banns not yet catalogued (still
 in drop — a follow-up for the ancestors' evidence layer). make check green; 145 sources / 208 scans.

@@ -19,10 +19,12 @@ people:
     source_ids: []
     last_reviewed: "2026-07-30"
     next_action: >-
-      Retrieve the 1915 Rio de Janeiro civil birth image via the FamilySearch
-      Records-index entry 77DD-TX6Z ("Brasil, Rio de Janeiro, Registro Civil,
-      1804-2013"); the index already reports parents Aristão Ferreira Armond and
-      Liliosa Paz Armond (and spouse Cidalia Engracio), so it is the same Geraldo.
+      Retrieve his 1915 civil birth record. CAUTION (2026-10-08): the identifier cited
+      below, ARK 77DD-TX6Z, is the record ARK of his 1991 death (CIV-0003: page 557,
+      record 39006, confirmed against the image), so the 1915 birth index entry still
+      needs its own identifier. An index entry naming his parents Aristão Ferreira Armond
+      and Liliosa Paz Armond and his spouse Cidalia Engracio fits a death record better
+      than a birth, so the "birth index" reading of 2026-07-30 is probably a mix-up.
     notes:
     - text: >-
         30 July 2026 (retrieval-agent Records-index sweep): Geraldo's birth is
@@ -93,8 +95,10 @@ people:
       1582573 require an authenticated FamilySearch session, so it cannot be fetched from
       the read-only public web — it must be pulled by the external retrieval agent
       (owner's login) into research/from-retrieval/ and value-gated here. It is a
-      DIFFERENT record from CIV-0007 (the 1915 RJ civil birth, personArk 77DD-TX6Z, which
-      already names Maria Aurora's four grandparents). On retrieval: identify which
+      DIFFERENT record from CIV-0007 (the 1915 RJ civil birth, which already names Maria
+      Aurora's four grandparents). [Corrected 2026-10-08: this note gave CIV-0007's
+      personArk as 77DD-TX6Z, but that is CIV-0003's record ARK (Geraldo's 1991 death);
+      CIV-0007's own ARK is unrecorded.] On retrieval: identify which
       grandparent and the record type (likely a Guimarães-line RJ civil birth/marriage/
       death), then catalogue and attach.
 - person_id: P-0006
@@ -347,7 +351,25 @@ people:
         distrito, Barra Mansa). registrocivil.org.br's free name locator excludes
         RJ. Liliosa's parents/origin should also fall out of the Aristao x Liliosa
         marriage record (see P-0008 marriage next action).
-  notes: []
+  notes:
+  - text: >-
+      2026-10-08 — WEAK UPSTREAM LEAD, not held (retrieval drop; LAMPEH/UFV coded dataset of
+      the Rio Pomba 1838–39 lists): at Feijão Cru, Rio Pomba, 1838, Maximiana Paz (23) and
+      Mariana Paz (50), both branca, are wives in adjacent fogos 19 and 20, plausibly
+      daughter and mother. No Paz head of household appears in the dataset. Unlinked to
+      Liliosa: wrong município, a bare "Paz" against her family's compound forms, and two
+      generations early. Rio Pomba to Muriaé is a documented migration corridor, so keep it
+      only as a possible origin to test once her parents are known.
+  - text: >-
+      2026-10-08 — DEATH-RECORD LEAD, identity unconfirmed (retrieval-side correspondence
+      with the RCPN Eugenópolis, 2026-09-18; no record held): the registry found a
+      "LILIOSA PAZ AMARAL", died 09/11/1945, parents MARIA (mother) and JOSÉ (father), and
+      will release the entry only as a certidão de inteiro teor (R$144,31). Two
+      discrepancies against what we hold: the surname (Amaral, not Armond — a misreading of
+      an unfamiliar surname is possible) and the date (9 Nov 1945 against 16 Apr 1946 from
+      CIV-0002). Whether the entry names her husband was asked and is unanswered. Do not
+      take "Maria" and "José" as her parents until the record is read; a certidão needs the
+      owner's authorisation.
 - person_id: P-0010
   external_profiles:
   - platform: FamilySearch
@@ -487,13 +509,23 @@ people:
     status: lead_only
     source_ids: []
     last_reviewed: "2026-07-28"
-    next_action: Locate the civil birth or parish baptism around 1903–1904.
+    next_action: >-
+      Locate his civil birth or parish baptism, c.1894 (aged 76 at his 1970 death,
+      CIV-0014), most likely in the Nova Friburgo district. [Updated 2026-10-08: this
+      row said "around 1903–1904", which conflicts with his stated age.]
     notes: []
   - record_type: marriage
     status: lead_only
     source_ids: []
     last_reviewed: "2026-07-28"
-    next_action: Locate the marriage to Celina Bohrer.
+    next_action: >-
+      Locate the civil marriage to Celina Bohrer. CONFLICT on the place (2026-10-08): his
+      1970 death (CIV-0014) says "casado com Celina Bohrer em Carangola, Minas Gerais"
+      (confirmed on the image), but in 1923 and 1924 he himself declared the couple
+      "casados civilmente" in the Nova Friburgo municipality — "no segundo [districto]"
+      (CIV-0038) and "neste Município" (CIV-0016, where the place may read "Lumiar"
+      [uncertain]). The two declarations made by the groom, decades nearer the event,
+      point to Nova Friburgo; search its 2º district civil marriages before ~1923.
     notes: []
   - record_type: death
     status: catalogued
@@ -527,16 +559,24 @@ people:
     usage: lead_only
   records:
   - record_type: birth
-    status: lead_only
-    source_ids: []
-    last_reviewed: "2026-07-28"
-    next_action: Locate the civil birth or parish baptism around 1889–1890.
+    status: catalogued
+    source_ids:
+    - PAR-0057
+    last_reviewed: "2026-10-08"
+    next_action: >-
+      Catalogued: her 13 May 1899 baptism at Nova Friburgo (PAR-0057), consistent with
+      her age of 77 at her 1977 death (CIV-0015). A civil birth registration, if one
+      exists, would only corroborate. [Updated 2026-10-08: this row still asked for a
+      record "around 1889–1890".]
     notes: []
   - record_type: marriage
     status: lead_only
     source_ids: []
     last_reviewed: "2026-07-28"
-    next_action: Locate the marriage to João Gonçalves Bohrer.
+    next_action: >-
+      Locate the civil marriage to João Gonçalves Bohrer; see P-0014's marriage row for
+      the place conflict (Carangola in CIV-0014 against Nova Friburgo in CIV-0038 and
+      CIV-0016).
     notes: []
   - record_type: death
     status: catalogued
@@ -630,9 +670,11 @@ people:
       [INFERRED]. Too early to be this man, it is a candidate for his father [LEAD —
       index row only]. (3) The 1838–39 Meia Pataca map has no Armond, but that is a
       zero-hit search of a transcription, not proof that the couple left. The entry-68
-      crop and fls. 17 asks went to Nilza in the C-013 reply the owner sent on
-      2026-10-08; the published Capella transcription already reads "Almondes" and
-      closes fogo 68 with the couple alone (GOV-0013 notes). Lower: the Serra de Ibitipoca pointer is
+      crop and fls. 17 have not been asked for in any message actually sent (the
+      2026-10-08 e-mail asked for Tombos p. 26, the Sinimbu entries, the notarial books,
+      the 1838 district boundary and 1870–1940 sources) [corrected 2026-10-08]; the
+      published Capella transcription already reads "Almondes" and closes fogo 68 with
+      the couple alone (GOV-0013 notes). Lower: the Serra de Ibitipoca pointer is
       weakened, since the 1831 Ibitipoca census is reported clean at 44 variants;
       pursue it only through the Barbacena parish books, not broad name searches.
       Then, as before: verify the identity and fuller name through Aristão's birth,
@@ -879,7 +921,8 @@ people:
       husband, p.178 passivo entry) are the highest-priority images to verify from
       the 2026-08-08 drop.
   - text: >-
-      2026-09-01 (BPAR Angra reply, C-005 in logs/correspondence-log.md): the
+      2026-09-01 (BPAR Angra reply, C-005 in logs/correspondence-log.md; the retrieval
+      thread dates BPAR's first reply 2026-08-21 — see C-005, updated 2026-10-08): the
       Terceira archive's response on the Azorean Ferreira Armond / de Ermonde
       trunk. (a) It cites the printed "Genealogias da ilha Terceira" (Ornelas
       Mendes & Forjaz) as referencing only the son Francisco Ferreira de Souto
@@ -1177,6 +1220,18 @@ people:
       pardo claro", each with a legacy of 2:000$000. "Crias" is not "filhos", and nothing
       connects that child to P-0016. Test: a Barbacena baptism of c.1840–56 of a Simplício
       baptised liberto by Dr. Camilo. Do not model any link from the thesis alone.
+  - text: >-
+      2026-10-08 — QUESTION TO TEST, raised during the profile sync; not a conclusion. The
+      sync agent reports that in the Toledo heir lists (PRB-0006, 1879; PRB-0001; PRB-0011)
+      Simplício's entry is written with his own name first ("Simplicio … cazado com D.
+      Eliza"), the way sons are entered; that Eliza is not among the children on the
+      catalogued pages of the 1867 inventory (PRB-0008 pp. 6–9; she may be on the
+      uncatalogued p7); and that in 1884 he calls himself Mathilde's heir. The current
+      reading stands: Eliza is José Cezário's daughter (PRB-0006) and Simplício is entered
+      for her share; the 7 August 2026 reading that made him José Cezário's son confused
+      him with Simplício de Toledo (PRB-0008 item 6). Before revisiting anything: catalogue
+      PRB-0008 p7, and compare how each list enters the husbands of the other married
+      daughters.
 - person_id: P-0017
   external_profiles: []
   records:
@@ -1513,8 +1568,10 @@ people:
     next_action: >-
       FREE PATH FIRST — flag the São João Batista do Rio Claro (SP) marriage film
       as a FamilySearch retrieval target for the external agent (owner's authorised
-      session / an FS affiliate library): FS microfilm DGS 4632523, rolls 1252455 /
-      1252454, catálogo koha:339388, images access-restricted online. Also search the
+      session / an FS affiliate library): FS DGS 004632513 / 004632514 / 004632515
+      (corrected by the retrieval side on 2026-09-08; the "4632523" used here before was
+      a transposition), rolls 1252455 / 1252454, catálogo koha:339388, images viewable
+      only at a FamilySearch centre or affiliate library. Also search the
       Santa Luzia do Carangola Catholic marriages 1898-1924 and any habilitação
       (names naturalidade + parents); if the marriage predates 1898, search the
       mother parish, Tombos.
@@ -1527,7 +1584,8 @@ people:
     - text: >-
         2026-09-10 (retrieval TARGET): the Vicente × Maria Tertuliana marriage at the
         Matriz de São João Batista do Rio Claro (~1863-1878) is microfilmed at
-        FamilySearch (DGS 4632523, rolls 1252455 / 1252454, koha:339388) but the images
+        FamilySearch (DGS 004632513–515, corrected 2026-09-08 from a transposed "4632523";
+        rolls 1252455 / 1252454, koha:339388) but the images
         are access-restricted online — so this is a FamilySearch-retrieval-agent target
         (owner's login / affiliate library, free), NOT a paid archive purchase. The
         Diocese de Piracicaba documental centre (C-010) is a PAID FALLBACK only: its
@@ -1860,10 +1918,14 @@ people:
   external_profiles: []
   records:
   - record_type: birth
-    status: inaccessible
-    source_ids: []
-    last_reviewed: "2026-08-10"
+    status: catalogued
+    source_ids:
+    - PAR-0050
+    last_reviewed: "2026-10-08"
     next_action: >-
+      Catalogued as PAR-0050: his baptism of 10 March 1813 at São João del Rei (events
+      E-0077 baptism and E-0078 birth). [Updated 2026-10-08: the text that follows is the
+      August 2026 blocker, kept as history; it no longer applies.] FORMER NEXT ACTION:
       BLOCKED — pending a higher-resolution scan. The São João del Rei baptism
       register image (March 1813, rec-toledo-jose-cesario-baptism-1813-sjdrei.jpg,
       page 54) is too degraded to transcribe: the archive's own labels read "página(s)
@@ -1972,6 +2034,15 @@ people:
       1810 marriage): Alferes Amaro da Silva Xavier (P-0059) × Ignez Francisca de
       Lima (P-0060), family F-0029. Married Ladisláo Egídio de Toledo (P-0056) 8 May
       1810.
+  - text: >-
+      2026-10-08 — COLLATERAL LEAD, not held (retrieval drop; the LAMPEH/UFV coded dataset
+      of the Rio Pomba 1838–39 nominative lists, 14,851 rows, derived from the primary
+      maps): Antônio Zeferino de Toledo (43, so b. ~1796) × Maria Perpétua (27), distrito 6,
+      fogo 38, 1839, with daughters Emetea (7), Maria (5), Mariana (3) and Carolina (1) and
+      three enslaved people. He is her documented son (PRB-0006), so this is the first dated
+      household for that collateral line. An unlinked José Inácio de Toledo (30) × Rita
+      Maria (28), Feijão Cru 1838, children Firmino, Delfina and Cassiano, is also reported.
+      Leads only; catalogue nothing from a coded dataset without the map itself.
 - person_id: P-0056
   external_profiles: []
   records:

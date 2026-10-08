@@ -13,6 +13,10 @@ event_ids:
 family_ids:
 - F-0051
 - F-0053
+occupations:
+  - value: lavradora
+    source_ids:
+      - CIV-0045
 notes:
 - text: >-
     Mother of Carolina Klein (P-0029); named with her husband Jacob Klein in Valentim × Carolina's
@@ -29,8 +33,8 @@ profile: >-
   - **[LEAD — index-derived, correcting an earlier conclusion]** A secondary blog once had her
   dying "before 1889", and this archive carried that reading. It is retracted. The Raibert Nova
   Friburgo baptism index names her as the mother of children baptised in 1891 and 1896 at São
-  José do Ribeirão, which would put her alive at roughly forty-five — not a woman who died
-  young. Her actual death date and place remain unlocated; the correction rests on an index, not
+  José do Ribeirão, which would put her alive in 1896, at roughly forty-five [LEAD — index,
+  record not held] — not a woman who died young. Her actual death date and place remain unlocated; the correction rests on an index, not
   on a held image.
 
   - **[PROVEN]** She carries two colonist surnames into the Bohrer line, and they point in
@@ -59,8 +63,8 @@ profile: >-
   - **Marriage:** to Jacob Klein (P-0103) on 29 April 1872 at the Nova Friburgo Lutheran church,
   aged 21, single, "evang." (PAR-0068, event E-0092). [PROVEN]
 
-  - **Death:** unlocated. The "before 1889" reading is withdrawn; index entries place her alive
-  to at least 1896. [OPEN]
+  - **Death:** unlocated. The "before 1889" reading is withdrawn; index entries would place her
+  alive to at least 1896 [LEAD — index, record not held]. [OPEN]
 
   - **Nationality:** left unset in this archive, deliberately — no held record states where she
   was born, and the Schenkel and Stoffel strands point to German and Swiss origins respectively.
@@ -75,6 +79,12 @@ profile: >-
   from an index rather than from held images.
 
   ## Family and social network
+
+  - **[PROVEN — CIV-0045, entry Nº 235]** She bore a son, Antonio Ramos, on 1 October 1891 at São
+  José do Ribeirão; her husband declared the birth the next day, naming her as "sua mulher" and
+  both as lavradores of the parish. This proves her alive in October 1891, five years short of the
+  1896 index entry, which stays a [LEAD]. The act names her parents as Jorge Conrad Schenkel and
+  Maria Luiza Stoffel. (Catalogued 2026-10-08.)
 
   Her marriage joined Klein to Schenkel/Stoffel — two German-Protestant colony families marrying
   inside the same congregation, at the same level. [PROVEN — PAR-0068] Her daughter Carolina
@@ -95,11 +105,12 @@ profile: >-
   no industrial alternative for a smallholder's surplus children — and both were promised more
   than the Morro Queimado lots could deliver.
 
-  - **[INFERRED]** A childbearing span of 1869 to 1896 is not a detail; it is the shape of her
-  adult life, and it also supplies the only firm correction to her death date. It is worth
-  saying plainly that the earlier "died young" reading was an inference from a blog, and that
-  correcting it changed her from a figure of early loss into a woman who outlived most of the
-  colony's first Brazilian-born generation.
+  - **[INFERRED from a LEAD]** If the index holds, a childbearing span of 1869 to 1896 is not a
+  detail; it is the shape of her adult life, and it also supplies the only correction to her
+  death date — one that rests on an index, the 1896 record itself not being held [LEAD —
+  index, record not held]. It is worth saying plainly that the earlier "died young" reading was
+  an inference from a blog, and that correcting it would change her from a figure of early loss
+  into a woman who outlived most of the colony's first Brazilian-born generation.
 
   - **[CONTEXTUAL / INFERRED]** The Stoffel strand deserves care. Her maternal grandfather is
   called a *Swiss* colonist in the 1847 register, which means at least one branch of her
@@ -168,8 +179,8 @@ profile_pt: >-
   - **[LEAD — derivado de índice, corrigindo conclusão anterior]** Um blog secundário chegou a
   dar sua morte como "antes de 1889", e este arquivo adotou essa leitura. Ela está retratada. O
   índice de batismos de Nova Friburgo (Raibert) a nomeia como mãe de crianças batizadas em 1891
-  e 1896 em São José do Ribeirão, o que a colocaria viva por volta dos quarenta e cinco anos —
-  não uma mulher morta jovem. Sua data e local de óbito continuam não localizados; a correção
+  e 1896 em São José do Ribeirão, o que a colocaria viva em 1896, por volta dos quarenta e cinco
+  anos [LEAD — índice, registro não em mãos] — não uma mulher morta jovem. Sua data e local de óbito continuam não localizados; a correção
   repousa num índice, não numa imagem retida.
 
   - **[PROVEN]** Ela leva dois sobrenomes de colono para a linha Bohrer, e eles apontam para
@@ -199,7 +210,7 @@ profile_pt: >-
   Friburgo, com 21 anos, solteira, "evang." (PAR-0068, evento E-0092). [PROVEN]
 
   - **Óbito:** não localizado. A leitura "antes de 1889" está retirada; entradas de índice a
-  situam viva até pelo menos 1896. [OPEN]
+  situariam viva até pelo menos 1896 [LEAD — índice, registro não em mãos]. [OPEN]
 
   - **Nacionalidade:** deliberadamente não atribuída neste arquivo — nenhum documento retido
   declara onde nasceu, e as vertentes Schenkel e Stoffel apontam, respectivamente, para origens
@@ -214,6 +225,12 @@ profile_pt: >-
   vem de índice, não de imagens retidas.
 
   ## Família e rede social
+
+  - **[PROVEN — CIV-0045, termo Nº 235]** Deu à luz um filho, Antonio Ramos, a 1 de outubro de
+  1891 em São José do Ribeirão; o marido declarou o nascimento no dia seguinte, nomeando-a como
+  "sua mulher" e ambos como lavradores da paróquia. Isto prova-a viva em outubro de 1891, cinco
+  anos antes da entrada de índice de 1896, que permanece [LEAD]. O termo nomeia os pais dela como
+  Jorge Conrad Schenkel e Maria Luiza Stoffel. (Catalogado em 2026-10-08.)
 
   Seu casamento uniu Klein a Schenkel/Stoffel — duas famílias protestantes alemãs da colônia
   casando dentro da mesma congregação, no mesmo nível. [PROVEN — PAR-0068] A filha Carolina
@@ -234,11 +251,12 @@ profile_pt: >-
   terra, nenhuma alternativa industrial para os filhos excedentes de um pequeno proprietário — e
   a ambas se prometeu mais do que os lotes do Morro Queimado podiam entregar.
 
-  - **[INFERRED]** Uma maternidade que vai de 1869 a 1896 não é detalhe; é o formato de sua vida
-  adulta, e é também o que fornece a única correção firme à data de sua morte. Vale dizer com
-  clareza que a leitura anterior de "morte jovem" era inferência de um blog, e que corrigi-la a
-  transformou de figura de perda precoce em mulher que sobreviveu à maior parte da primeira
-  geração da colônia nascida no Brasil.
+  - **[INFERRED a partir de LEAD]** Se o índice se sustentar, uma maternidade que vai de 1869 a
+  1896 não é detalhe; é o formato de sua vida adulta, e é também o que fornece a única correção
+  à data de sua morte — correção que repousa num índice, sem o registro de 1896 em mãos [LEAD —
+  índice, registro não em mãos]. Vale dizer com clareza que a leitura anterior de "morte jovem"
+  era inferência de um blog, e que corrigi-la a transformaria de figura de perda precoce em
+  mulher que sobreviveu à maior parte da primeira geração da colônia nascida no Brasil.
 
   - **[CONTEXTUAL / INFERRED]** A vertente Stoffel merece cuidado. Seu avô materno é chamado de
   colono *suíço* no registro de 1847, o que significa que pelo menos um ramo de sua ascendência

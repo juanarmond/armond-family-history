@@ -17,6 +17,60 @@
 updates:
   - date: "2026-10-08"
     kind: correction
+    title: "Correction: Joaquim José Ferreira de Toledo was born and baptised in Vila Rica — the record says \"natural e baptizado\" there, not merely living there"
+    title_pt: "Correção: Joaquim José Ferreira de Toledo nasceu e foi batizado em Vila Rica — o registro diz \"natural e baptizado\" ali, e não apenas morador"
+    links: [P-0057, PAR-0018]
+
+  - date: "2026-10-08"
+    kind: correction
+    title: "Correction: the 1662 baptism once read as Maria, daughter of Belchior and Mariana, is another family's child — her baptism is not held"
+    title_pt: "Correção: o batismo de 1662 antes lido como o de Maria, filha de Belchior e Mariana, é de uma criança de outra família — o batismo dela não está em mãos"
+    links: [P-0123, P-0124]
+
+  - date: "2026-10-08"
+    kind: milestone
+    title: "A birth entry nobody had read: in October 1891 Jacob Klein declared a son, Antonio Ramos — proof that he and Maria Luiza Schenkel were both alive then, and that his own parents had died"
+    title_pt: "Um termo de nascimento que ninguém tinha lido: em outubro de 1891 Jacob Klein declarou um filho, Antonio Ramos — prova de que ele e Maria Luiza Schenkel estavam vivos então e de que os pais dele já tinham morrido"
+    links: [P-0103, P-0104, P-0105, CIV-0045]
+
+  - date: "2026-10-08"
+    kind: milestone
+    title: "A new lead for Simplício's father: an Antonio Ferreira Armondes declared a farm in Meia Pataca parish in 1856 — a lead, not yet proof"
+    title_pt: "Uma nova pista para o pai de Simplício: um Antonio Ferreira Armondes declarou uma fazenda na freguesia do Meia Pataca em 1856 — uma pista, ainda não uma prova"
+    links: [P-0016]
+
+  - date: "2026-10-08"
+    kind: correction
+    title: "Correction: Joaquim José Bohrer was not recorded as dead in 1923–24 — both registers mark only his wife Lucinda \"já fallecida\""
+    title_pt: "Correção: Joaquim José Bohrer não consta como falecido em 1923–24 — os dois registros marcam apenas a mulher, Lucinda, como \"já fallecida\""
+    links: [P-0030, P-0031, CIV-0016, CIV-0038]
+
+  - date: "2026-10-08"
+    kind: correction
+    title: "Correction: Ercy Bohrer was forty when he died in 1972 — born about 1932, not 1942"
+    title_pt: "Correção: Ercy Bohrer tinha quarenta anos quando morreu, em 1972 — nascido por volta de 1932, não 1942"
+    links: [P-0014, P-0015, CIV-0031]
+
+  - date: "2026-10-08"
+    kind: correction
+    title: "Correction: Hermogenes Engracio de Souza died in 1971, not 1961 — his death register reads \"setenta e um\""
+    title_pt: "Correção: Hermogenes Engracio de Souza morreu em 1971, não em 1961 — o assento de óbito diz \"setenta e um\""
+    links: [P-0032, P-0033, CIV-0026]
+
+  - date: "2026-10-08"
+    kind: correction
+    title: "Correction: Valentim Martinho Bohrer was baptised on Christmas Day 1868, not in November"
+    title_pt: "Correção: Valentim Martinho Bohrer foi batizado no dia de Natal de 1868, não em novembro"
+    links: [P-0028, PAR-0063]
+
+  - date: "2026-10-08"
+    kind: correction
+    title: "Correction: the man a published genealogy names as Perpétua da Silva's father held no rank — \"Cap. 1.º\" is the book's chapter number, not \"Capitão-mor\""
+    title_pt: "Correção: o homem que uma genealogia publicada aponta como pai de Perpétua da Silva não tinha patente — \"Cap. 1.º\" é o número do capítulo, não \"Capitão-mor\""
+    links: [P-0065, P-0064]
+
+  - date: "2026-10-08"
+    kind: correction
     title: "Correction: Celina Bohrer died on 19 February 1977 and was recorded as a doméstica — an earlier edit had changed her death to the 15th and her work to seamstress"
     title_pt: "Correção: Celina Bohrer morreu em 19 de fevereiro de 1977 e foi registrada como doméstica — uma edição anterior tinha mudado o óbito para o dia 15 e o ofício para costureira"
     links: [P-0015, CIV-0015]

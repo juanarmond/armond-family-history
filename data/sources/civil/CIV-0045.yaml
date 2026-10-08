@@ -14,7 +14,11 @@ evidence_type: direct
 usage: evidence
 event_date:
   kind: exact
-  value: "1891-10-01"
+  value: "1891-09-30"
+  original_text: >-
+    "Que a trinta do passado ás quatro horas da tarde nasceo", in an act dated "Aos dous de
+    Outubro" 1891 → born 30 September 1891. [Corrected 2026-10-08 from the image: previously
+    read as ~1 October 1891.]
 registration_date:
   kind: exact
   value: "1891-10-02"
@@ -39,7 +43,7 @@ transcription: >-
   Outubro de mil oitocentos e noventa e um, neste districto de Paz da Parochia de
   São José do Ribeirão, Comarca de Nova Friburgo, Estado do Rio de Janeiro, em o
   meu cartorio compareceu Valentim Martins Borrer e em presença dos testemunhas
-  abaixo declarou: Que a tarde do passado ás quatro horas [e trinta — uncertain]
+  abaixo declarou: Que a trinta do passado ás quatro horas da tarde
   nasceo em sua caza nesta Parochia, uma criança do sexo feminino de cor branca, a
   qual no Pio Baptismal recebera o nome de Maria Feloména, filha legitima d'elle
   declarante e de sua mulher Carolina Klein, brazileiros, lavradores e moradores
@@ -49,10 +53,28 @@ transcription: >-
   depois de lido assigno commigo a rogo do declarante por não saber escrever —
   Joaquim Jacintho Menzes, com as testemunhas presentes José Fernandes dos Santos
   Junior e Francisco Pedro de Souza Junior, negociantes e moradores desta Parochia.
-  Perante Carlos José Cidade, escrivão, que escrevi."
+  Perante Carlos José Cidade, escrivão, que escrevi." [Corrected 2026-10-08 from the
+  image: the birth clause reads "a trinta do passado ás quatro horas da tarde" — born the 30th
+  of the previous month (September) at four in the afternoon; an earlier pass misplaced
+  "tarde" and "trinta".] [Mesma digitalização, fl. 116v–117, termo imediatamente anterior — catalogado em
+  2026-10-08, lido directamente da imagem:] "Nº 235 — Antonio. Aos dous de Outubro de mil
+  oitocentos e noventa e um, neste districto de Paz da Parochia de São José do Ribeirão,
+  Comarca de Nova Friburgo, Estado do Rio de Janeiro, em o meu cartorio compareceu Jacob
+  Klein e em presença das testemunhas abaixo declarou: Que hontem ás [cinco — uncertain]
+  horas da tarde, nasceo em sua caza nesta Parochia, uma criança do sexo masculino de cor
+  branca, a qual no Pio baptismal receberá o nome de Antonio Ramos, filho legitimo delle
+  declarante e de sua mulher Maria Luiza Schenengel [Schenkel], brazileiros, lavradores e
+  moradores desta Parochia e casados na de Nova Friburgo, neto paterno de João Klein e de
+  Anna Margarida Ther. [uncertain], fallecidos, e materno de Jorge Conrad Schenengel
+  [Schenkel] e de Maria Luiza Stoffle [Stoffel]. E para constar lavrei este termo que
+  depois de lido assigno commigo a rogo do declarante por não saber escrever Joaquim
+  Jacintho Menezes com as testemunhas presentes José Fernandes dos Santos Junior e
+  Francisco Pedro de Souza Junior, negociantes e moradores desta Parochia. Eu Carlos José
+  Cidade, escrivão que escrevi."
 abstract: >-
-  Civil birth registration of Maria Felomena Bohrer, born 1 October 1891 (the day
-  before the 2 October 1891 declaration) at the district/parish of São José do
+  Civil birth registration of Maria Felomena Bohrer, born 30 September 1891 ("a trinta
+  do passado", declared 2 October 1891; corrected 2026-10-08 from the image, previously
+  read as 1 October) at the district/parish of São José do
   Ribeirão, Comarca de Nova Friburgo, RJ, and declared by her father. She is the
   legitimate daughter of Valentim Martinho Bohrer (declared here "Valentim Martins
   Borrer"; P-0028) and Carolina Klein (P-0029) — i.e. a sister of the direct
@@ -61,10 +83,17 @@ abstract: >-
   (P-0070) × Maria Heggendorn (P-0071) [her surname written "Hech(t)forme", an
   uncertain read] and maternal Jacob Klein (P-0103) × Maria Luiza Schenkel (P-0104).
   PROVEN. Recorded as a documented child on family F-0013; not modelled as a person
-  entity; no event created.
+  entity; no event created. The same scan also carries the preceding entry, Nº 235
+  (catalogued 2026-10-08): on 2 October 1891 Jacob Klein (P-0103) declared his son Antonio
+  Ramos, born "hontem" (1 October 1891), legitimate son of his wife Maria Luiza Schenkel
+  (P-0104), both lavradores of the parish; it names the paternal grandparents João Klein
+  and Anna Margarida (P-0105 × P-0106) as "fallecidos" and the maternal grandparents Jorge
+  Conrad Schenkel × Maria Luiza Stoffel (P-0107 × P-0108). Recorded as a documented child
+  on family F-0051.
 abstract_pt: >-
-  Registro civil de nascimento de Maria Felomena Bohrer, nascida em 1º de outubro
-  de 1891 (véspera da declaração de 2 de outubro de 1891) no districto/parochia de
+  Registro civil de nascimento de Maria Felomena Bohrer, nascida em 30 de setembro
+  de 1891 ("a trinta do passado", declarada em 2 de outubro de 1891; corrigido em 2026-10-08
+  a partir da imagem, antes lido como 1º de outubro) no districto/parochia de
   São José do Ribeirão, Comarca de Nova Friburgo, RJ, declarada pelo pai. É filha
   legítima de Valentim Martinho Bohrer (aqui declarado "Valentim Martins Borrer";
   P-0028) e Carolina Klein (P-0029) — ou seja, irmã do ancestral direto João
@@ -72,7 +101,13 @@ abstract_pt: >-
   ambos os casais: paternos Vicente Borrer (P-0070) × Maria Heggendorn (P-0071)
   [sobrenome grafado "Hech(t)forme", leitura incerta] e maternos Jacob Klein
   (P-0103) × Maria Luiza Schenkel (P-0104). PROVEN. Registrada como filha
-  documentada na família F-0013; não modelada como entidade pessoa; sem evento.
+  documentada na família F-0013; não modelada como entidade pessoa; sem evento. A mesma
+  digitalização traz também o termo anterior, Nº 235 (catalogado em 2026-10-08): a 2 de
+  outubro de 1891 Jacob Klein (P-0103) declarou o filho Antonio Ramos, nascido "hontem"
+  (1 de outubro de 1891), filho legítimo de sua mulher Maria Luiza Schenkel (P-0104), ambos
+  lavradores da paróquia; nomeia os avós paternos João Klein e Anna Margarida (P-0105 ×
+  P-0106) como "fallecidos" e os maternos Jorge Conrad Schenkel × Maria Luiza Stoffel
+  (P-0107 × P-0108). Registrado como filho documentado na família F-0051.
 reliability:
   assessment: >-
     Original civil birth register entry — direct primary for the birth, its date,
@@ -83,7 +118,8 @@ reliability:
     Surname written "Borrer" (Bohrer) and the father's middle name as "Martins"
     (for Martinho). The paternal grandmother's surname is written oddly
     ("Hech(t)forme") — read as Heggendorn/Heckdorn from the corroborating records;
-    the birth-hour minutes are an uncertain read. Delivered via the FamilySearch
+    the birth clause reads "a trinta do passado ás quatro horas da tarde" (born 30
+    September at 4 p.m.; corrected 2026-10-08 from the image). Delivered via the FamilySearch
     retrieval-agent drop.
 digital_file:
   path: evidence/civil/CIV-0045-bohrer-mariafelomena-birth-1891-saojoseribeirao.jpg
@@ -98,8 +134,15 @@ linked_people:
 - P-0071
 - P-0103
 - P-0104
+- P-0105
+- P-0106
+- P-0107
+- P-0108
 linked_families:
 - F-0013
+- F-0051
+- F-0052
+- F-0053
 linked_events: []
 linked_places: []
 private: false

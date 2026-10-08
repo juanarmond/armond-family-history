@@ -31,10 +31,13 @@ notes:
     A filiação assenta na declaração informada no casamento do filho, não em um
     registro de nascimento/batismo, portanto evidência forte.
 - text: >-
-    Nationality Brazilian: PAR-0018 places the family "de [Villa] Rica" (Vila Rica /
-    Ouro Preto, Minas Gerais) — the apparent origin of the family's "Ferreira" + "de
-    Toledo" surname. "Villa" is a bracketed/uncertain read on the ink-bled folio; no
-    explicit nacionalidade or birthplace of his own is otherwise stated.
+    Nationality Brazilian [INFERRED]: PAR-0018 records his son Joaquim José as "n.al e
+    batiz.do na freg.a de Villa Rica" — born and baptised in the parish of Villa Rica
+    (Ouro Preto, Minas Gerais) — which places Gaspar there around the son's birth
+    (c.1750s–60s) by inference; the act states no residence, nacionalidade or
+    birthplace for Gaspar himself. [Corrected 2026-10-08 on a direct image re-read:
+    the clause was earlier transcribed "de [Villa] Rica" and read as placing the
+    family there.]
 - text: >-
     Azorean origin hypothesis [COMPILED]: Mendes Forjaz Vol. IX (PUB-0005) lists a "Gaspar de
     Souto-Maior" born 23.2.1657 in S. Sebastião, Terceira, as a son of Belchior da Ponte Cardoso
@@ -47,11 +50,13 @@ notes:
     records), or P-0092 is a later-generation descendant of this Gaspar. The F-0062 parentage
     is flagged [COMPILED/LEAD] until primary evidence confirms the emigration link.
   text_pt: >-
-    Nacionalidade brasileira: PAR-0018 situa a família "de [Villa] Rica" (Vila Rica /
-    Ouro Preto, Minas Gerais) — a aparente origem do sobrenome "Ferreira" + "de
-    Toledo" da família. "Villa" é uma leitura entre colchetes/incerta no fólio
-    borrado por tinta; nenhuma nacionalidade ou local de nascimento próprio é de
-    outro modo declarado.
+    Nacionalidade brasileira [INFERRED]: PAR-0018 registra seu filho Joaquim José como
+    "n.al e batiz.do na freg.a de Villa Rica" — nascido e batizado na freguesia de
+    Villa Rica (Ouro Preto, Minas Gerais) — o que situa Gaspar ali por volta do
+    nascimento do filho (c.1750–60), por inferência; o assento não declara residência,
+    nacionalidade nem local de nascimento do próprio Gaspar. [Corrigido em 2026-10-08
+    após releitura direta da imagem: a cláusula fora transcrita "de [Villa] Rica" e
+    lida como situando a família ali.]
 profile: >-
   ## Interesting facts
 
@@ -89,10 +94,13 @@ profile: >-
   present day and three above Eliza Balbina de Toledo (P-0017). His wife was Gertrudes
   Maria de Toledo (P-0093, family F-0045).
 
-  - **Residence / nationality:** the record seats the family at Villa Rica (Ouro Preto),
-  Comarca de Vila Rica, Minas Gerais — the basis for the Brazilian nationality assigned
-  here; "Villa" is a bracketed and uncertain read on the ink-bled folio, and no explicit
-  *nacionalidade* or birthplace of his own is stated. [family place; read uncertain]
+  - **Residence / nationality:** the record gives no residence for him; it records his son
+  as born and baptised in the parish of Villa Rica (Ouro Preto), Comarca de Vila Rica,
+  Minas Gerais ("n.al e batiz.do na freg.a de Villa Rica"), which places Gaspar there
+  around that birth by inference and is the basis for the Brazilian nationality assigned
+  here; no explicit *nacionalidade* or birthplace of his own is stated. [INFERRED from the
+  son's birthplace; Corrected 2026-10-08 — earlier read as the record seating the family
+  at Villa Rica]
 
   - **Birth / death / own parents:** unknown from any held Brazilian record — no baptism,
   marriage or death record of his own is held. He would have been born in the first third
@@ -204,14 +212,16 @@ profile: >-
   ## Sources held (this repository)
 
   - PAR-0018 (his son Joaquim José's 1783 Barbacena marriage — the sole record naming him,
-  giving his name, his wife's name and the family's seat at Villa Rica) · PUB-0005
+  giving his name and his wife's name, and recording the son as born and baptised in the
+  parish of Villa Rica) · PUB-0005
   (Genealogias da Ilha Terceira, Vol. IX, SOUTO-MAIOR § 1º — the compiled Azorean
   identification, held as a lead with an unresolved date conflict).
 
   ## Regional and migration context
 
-  Recorded as of Villa Rica (Ouro Preto), Comarca de Vila Rica, Capitania de Minas Gerais
-  — the administrative and mining heart of 18th-century Minas. No move is documented for
+  Placed at Villa Rica (Ouro Preto), Comarca de Vila Rica, Capitania de Minas Gerais, by
+  inference from his son's recorded birth and baptism there [INFERRED] — the administrative
+  and mining heart of 18th-century Minas. No move is documented for
   him personally. The family's Villa Rica → Barbacena movement appears in his son's
   generation and is the local expression of the gold-to-agriculture shift that followed
   the exhaustion of the placers after about 1760, when families of the mining district
@@ -220,7 +230,7 @@ profile: >-
 
   ## Where to go today
 
-  - **Recorded residence (Villa Rica):** Basílica de N.S. do Pilar / Igreja de N.S. da
+  - **His son's birth and baptism parish (Villa Rica):** Basílica de N.S. do Pilar / Igreja de N.S. da
   Conceição de Antônio Dias, Ouro Preto, MG [RESOLVED] ·
   [Maps](https://www.google.com/maps/search/?api=1&query=Praca%20Monsenhor%20Castilho%20Barbosa%2017%2C%20Ouro%20Preto%2C%20MG)
 
@@ -269,11 +279,13 @@ profile_pt: >-
   seis gerações acima do presente e três acima de Eliza Balbina de Toledo (P-0017). Sua
   esposa era Gertrudes Maria de Toledo (P-0093, família F-0045).
 
-  - **Residência / nacionalidade:** o registro situa a família em Villa Rica (Ouro Preto),
-  Comarca de Vila Rica, Minas Gerais — base da nacionalidade brasileira aqui atribuída;
-  "Villa" é leitura entre colchetes e incerta no fólio borrado de tinta, e nenhuma
-  *nacionalidade* ou local de nascimento próprio é declarado. [lugar da família; leitura
-  incerta]
+  - **Residência / nacionalidade:** o registro não lhe dá residência; registra o filho como
+  nascido e batizado na freguesia de Villa Rica (Ouro Preto), Comarca de Vila Rica, Minas
+  Gerais ("n.al e batiz.do na freg.a de Villa Rica"), o que situa Gaspar ali por volta
+  desse nascimento, por inferência, e é a base da nacionalidade brasileira aqui
+  atribuída; nenhuma *nacionalidade* ou local de nascimento próprio é declarado.
+  [INFERRED a partir do local de nascimento do filho; Corrigido em 2026-10-08 — antes lido
+  como se o registro situasse a família em Villa Rica]
 
   - **Nascimento / óbito / pais próprios:** desconhecidos em qualquer registro brasileiro
   disponível — nenhum batismo, casamento ou óbito próprio está disponível. Teria nascido
@@ -390,14 +402,16 @@ profile_pt: >-
   ## Fontes disponíveis (neste repositório)
 
   - PAR-0018 (casamento de 1783, em Barbacena, de seu filho Joaquim José — o único
-  registro que o nomeia, dando seu nome, o da esposa e a sede da família em Villa Rica) ·
+  registro que o nomeia, dando seu nome e o da esposa, e registrando o filho como nascido
+  e batizado na freguesia de Villa Rica) ·
   PUB-0005 (Genealogias da Ilha Terceira, Vol. IX, SOUTO-MAIOR § 1º — a identificação
   açoriana compilada, mantida como pista, com conflito de datas não resolvido).
 
   ## Contexto regional e migratório
 
-  Registrado como de Villa Rica (Ouro Preto), Comarca de Vila Rica, Capitania de Minas
-  Gerais — o coração administrativo e minerador das Minas setecentistas. Nenhum
+  Situado em Villa Rica (Ouro Preto), Comarca de Vila Rica, Capitania de Minas Gerais, por
+  inferência a partir do nascimento e batismo do filho ali registrados [INFERRED] — o
+  coração administrativo e minerador das Minas setecentistas. Nenhum
   deslocamento está documentado para ele pessoalmente. O movimento Villa Rica → Barbacena
   da família aparece na geração de seu filho e é a expressão local do giro do ouro para a
   lavoura que se seguiu ao esgotamento das lavras depois de cerca de 1760, quando as
@@ -406,7 +420,7 @@ profile_pt: >-
 
   ## Onde ir hoje
 
-  - **Residência registrada (Villa Rica):** Basílica de N.S. do Pilar / Igreja de N.S. da
+  - **Freguesia de nascimento e batismo do filho (Villa Rica):** Basílica de N.S. do Pilar / Igreja de N.S. da
   Conceição de Antônio Dias, Ouro Preto, MG [RESOLVED] ·
   [Maps](https://www.google.com/maps/search/?api=1&query=Praca%20Monsenhor%20Castilho%20Barbosa%2017%2C%20Ouro%20Preto%2C%20MG)
 

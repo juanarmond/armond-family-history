@@ -24,32 +24,52 @@ repository:
 access_date: "2026-09-23"
 language: pt-PT
 transcription: >-
-  [Image p1 — baptism act, p.0281, S. Sebastião batismos 1611–1687]
-  Parents: "Belchior da Ponte Cardogo × Mariana Fagueda"
+  [Image p1 — baptism act, p.0281, S. Sebastião batismos 1611–1687; margin "M.ª"]
+  [Re-read from the image 2026-10-08:] "Em os cinquo dias do mes de setembro de mil e
+  seis sentos cinquenta e hu' annos baptizei nesta matriz da villa de São Sebastião a M.ª
+  f.ª de belchior de Ponte cardozo e de sua m.er mariana Fagunda [final letters
+  uncertain] forão padrinhos o Cappitão André Coelho [abbreviation, uncertain] Fagundes e
+  Maria de Ponte por verdade me asignei dia mes era ut supra Vig.º Sottomajor"
+  Parents: "belchior de Ponte cardozo × mariana Fagunda [uncertain]"
   Child: Maria
-  Padrinhos: Asceto André Coelho [and unnamed godmother]
+  Padrinhos: o Cappitão André Coelho [?] Fagundes and Maria de Ponte
   Date: 5 September 1651
+  [Earlier transcribed "Belchior da Ponte Cardogo × Mariana Fagueda" and godfather
+  "Asceto André Coelho": "Asceto" is "o Cappitão", the mother's surname reads
+  "Fagunda" [uncertain], and the godmother Maria de Ponte is named.]
   [Image p2 — context/facing page of the register]
 transcription_pt: >-
-  [Imagem p1 — assento de baptismo, p.0281, S. Sebastião baptismos 1611–1687]
-  Pais: "Belchior da Ponte Cardogo × Mariana Fagueda"
+  [Imagem p1 — assento de baptismo, p.0281, S. Sebastião baptismos 1611–1687; margem "M.ª"]
+  [Relido na imagem em 2026-10-08:] "Em os cinquo dias do mes de setembro de mil e seis
+  sentos cinquenta e hu' annos baptizei nesta matriz da villa de São Sebastião a M.ª f.ª
+  de belchior de Ponte cardozo e de sua m.er mariana Fagunda [letras finais incertas]
+  forão padrinhos o Cappitão André Coelho [abreviatura, incerta] Fagundes e Maria de Ponte
+  por verdade me asignei dia mes era ut supra Vig.º Sottomajor"
+  Pais: "belchior de Ponte cardozo × mariana Fagunda [incerto]"
   Criança: Maria
-  Padrinhos: Asceto André Coelho [e madrinha não identificada]
+  Padrinhos: o Cappitão André Coelho [?] Fagundes e Maria de Ponte
   Data: 5 de setembro de 1651
+  [Antes transcrito "Belchior da Ponte Cardogo × Mariana Fagueda" e padrinho "Asceto
+  André Coelho": "Asceto" é "o Cappitão", o apelido da mãe lê-se "Fagunda" [incerto], e
+  a madrinha Maria de Ponte é nomeada.]
   [Imagem p2 — página de contexto/frente do livro de registo]
 abstract: >-
   Primary parish baptism record for Maria, eldest daughter of Belchior da Ponte Cardoso
   (P-0123) × Mariana Fagundes (P-0124), baptised 5 September 1651 in São Sebastião,
   Terceira (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0281). The act names both parents as
-  "Belchior da Ponte Cardogo × Mariana Fagueda" — confirming parentage. Godfather was
-  Asceto André Coelho. This is the earliest documented child of the couple after their
+  "belchior de Ponte cardozo" and "mariana Fagunda" [surname ending uncertain] —
+  confirming parentage. Godparents were the Capitão André Coelho [?] Fagundes and Maria
+  de Ponte. [Corrected 2026-10-08: earlier read "Mariana Fagueda" and godfather "Asceto
+  André Coelho".] This is the earliest documented child of the couple after their
   1650 marriage. Status: confirmed (primary image, parents legibly named).
 abstract_pt: >-
   Registo paroquial primário do baptismo de Maria, filha primogénita de Belchior da
   Ponte Cardoso (P-0123) × Mariana Fagundes (P-0124), baptizada a 5 de setembro de 1651
   em São Sebastião, Terceira (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0281). O assento nomeia
-  ambos os pais como "Belchior da Ponte Cardogo × Mariana Fagueda" — confirmando a
-  filiação. Padrinho: Asceto André Coelho. Trata-se do primeiro filho documentado do
+  ambos os pais como "belchior de Ponte cardozo" e "mariana Fagunda" [terminação do
+  apelido incerta] — confirmando a filiação. Padrinhos: o Capitão André Coelho [?]
+  Fagundes e Maria de Ponte. [Corrigido em 2026-10-08: antes lido "Mariana Fagueda" e
+  padrinho "Asceto André Coelho".] Trata-se do primeiro filho documentado do
   casal após o casamento de 1650. Estado: confirmado (imagem primária, pais legíveis).
 reliability:
   assessment: >-
@@ -58,8 +78,9 @@ reliability:
     Evidence quality: confirmed.
   informant: Parish priest of São Sebastião, Terceira, recording the baptism in 1651
   limitations: >-
-    Image p2 is a context page only. Godmother's name is not recorded in the extracted
-    text. Resolution: 612×842 px per page.
+    Image p2 is a context page only. The mother's surname ending ("Fagunda") and one
+    abbreviation in the godfather's name are uncertain at this resolution. Resolution:
+    612×842 px per page.
 digital_file:
   path: evidence/parish/PAR-0090-baptismo-maria-ponte-cardoso-1651-p1.jpg
   sha256: c9f9dc752c20dffa642212d948483bc02d1edcf5443630cf01fafdbc96dd87d0
@@ -78,4 +99,6 @@ notes:
 - text: >-
     This Maria (b.5.9.1651) is the first documented child of Belchior × Mariana after
     their September 1650 marriage (PAR-0086). She is recorded as a documented_child in
-    F-0062. Not to be confused with the second Maria (b.~18.5.1662, PAR-0094).
+    F-0062. Not to be confused with the second Maria (b.~18.5.1662) listed by PUB-0005;
+    no baptism image for that Maria is held (PAR-0094, once proposed for her, is the
+    baptism of António son of Gregório Cardozo — corrected 2026-10-08).

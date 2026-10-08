@@ -33,8 +33,9 @@ children:
         Gaspar de Souto-Maior (P-0092, here identified as Gaspar Ferreira) is listed in Vol. IX
         (PUB-0005, p.261) as born 23.2.1657 in S. Sebastião, son of Belchior da Ponte Cardoso
         × Mariana Fagundes. ⚠ CONFLICT: the compiled source gives his death as 2.12.1727 in
-        S. Sebastião; but P-0092 is documented in Villa Rica, Minas Gerais, with a son marrying
-        in 1783 — inconsistent if one person. This connection is [COMPILED] strong-evidence
+        S. Sebastião; but P-0092 is placed at Villa Rica, Minas Gerais (his son's recorded
+        birth and baptism parish, PAR-0018), with that son marrying in 1783 — inconsistent if
+        one person. This connection is [COMPILED] strong-evidence
         pending resolution of the death-date conflict (he may have emigrated and the compiler
         lacked records of his Brazilian life, or P-0092 is the next generation).
   - parent_id: P-0124
@@ -46,7 +47,7 @@ children:
   notes:
   - text: >-
       Gaspar de Souto-Maior (P-0092 / Gaspar Ferreira) b.23.2.1657, son of Belchior × Mariana
-      per Vol. IX. The name "Ferreira" used in Villa Rica (PAR-0018) may have been adopted in
+      per Vol. IX. The name "Ferreira" used in Minas Gerais (PAR-0018) may have been adopted in
       Brazil or on emigration; "de Souto-Maior" was the Azorean house name. [COMPILED]
 documented_children:
 - name: Mariana Fagundes (daughter, m.30.3.1693 S.Sebastião with António Gonçalves da Costa)
@@ -69,11 +70,12 @@ documented_children:
   - PUB-0005
   - PAR-0093
 - name: >-
-    Maria (b.~18.5.1662 S.Sebastião) [PAR-0094: primary image located, p.0352;
-    margin annotation reads "Anto" — child name uncertain at CDN resolution; see PAR-0094 notes]
+    Maria (b.~18.5.1662 S.Sebastião) [COMPILED — PUB-0005 only. Corrected 2026-10-08:
+    PAR-0094, once cited here, does not attest her — its legible "Ant.º" entry is António,
+    son of Gregório Cardozo, baptised 12 June 1662, and its facing-page "M[?]" entry is
+    illegible; no baptism image for this Maria is held]
   source_ids:
   - PUB-0005
-  - PAR-0094
 - name: Belchior da Ponte Cardoso (b.20.5.1664, c.c.Joana Baptista)
   source_ids:
   - PUB-0005

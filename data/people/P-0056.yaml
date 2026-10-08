@@ -79,7 +79,7 @@ notes:
     processing (the …-alt scan) and the parents + 9-Sep-1787 date read clearly; the
     faded forename is corroborated by the index and the 1821 Carolina baptism
     (PAR-0017). His paternal grandparents (Gaspar Ferreira × Gertrudes Maria de
-    Toledo, of Vila Rica) and maternal grandparents (João Rodrigues do Valle × Izabel
+    Toledo; their son, his father, was born and baptised at Vila Rica) and maternal grandparents (João Rodrigues do Valle × Izabel
     Ribeira) are named in PAR-0018 as leads, not yet modelled. His marriage to
     Mathilde Maria de Jesus (P-0027) is now confirmed by the 1810 São João del Rei
     marriage record (PAR-0023 → event E-0052): both spouses are stated to be born
@@ -94,8 +94,8 @@ notes:
     ilegível, mas a filiação foi recuperada por processamento de imagem (o scan
     …-alt) e os pais + a data de 9-set-1787 leem-se com clareza; o prenome
     esmaecido é corroborado pelo índice e pelo batismo de Carolina de 1821
-    (PAR-0017). Seus avós paternos (Gaspar Ferreira × Gertrudes Maria de Toledo,
-    de Vila Rica) e avós maternos (João Rodrigues do Valle × Izabel Ribeira) são
+    (PAR-0017). Seus avós paternos (Gaspar Ferreira × Gertrudes Maria de Toledo;
+    o filho deles, seu pai, nasceu e foi batizado em Vila Rica) e avós maternos (João Rodrigues do Valle × Izabel Ribeira) são
     nomeados em PAR-0018 como pistas, ainda não modelados. Seu casamento com
     Mathilde Maria de Jesus (P-0027) está agora confirmado pelo registro de
     casamento de 1810 de São João del Rei (PAR-0023 → evento E-0052): ambos os
@@ -228,8 +228,8 @@ profile: >-
 
   - Parents: Joaquim José Ferreira de Toledo (P-0057) × Ritta Angélica Rodrigues (P-0058),
   family F-0028 — he is the eldest of their thirteen children (PRB-0010). His paternal
-  grandparents Gaspar Ferreira (P-0092) × Gertrudes Maria de Toledo (P-0093) of Vila Rica,
-  and maternal grandparents João Rodrigues do Valle (P-0078) × Izabel Ribeira (P-0079),
+  grandparents Gaspar Ferreira (P-0092) × Gertrudes Maria de Toledo (P-0093) — his father
+  being recorded as born and baptised in the parish of Vila Rica — and maternal grandparents João Rodrigues do Valle (P-0078) × Izabel Ribeira (P-0079),
   are named in PAR-0018.
 
   - Wife: Mathilde Maria de Jesus (P-0027, d.1879), who signed the 1867 louvação folio in
@@ -272,10 +272,10 @@ profile: >-
   patrimony, but the documents do not support that reading. His son declared possession of
   the 200-alqueire Concórdia under the Lei de Terras in April 1856; his widow bought the
   fazenda outright from Felippe Barbosa Castro of Espírito Santo, a third party from
-  another province, on 2 August 1862 for six contos; and the property was sold out of the
-  family around 1879–80 in her probate. On the documented record the Toledo hold on the
-  Concórdia lasted under a quarter of a century, from a claimed *posse* perfected by
-  purchase to a forced sale in probate. A landed clan whose land is a single-generation
+  another province, on 2 August 1862 for six contos; and the property was reportedly sold
+  out of the family around 1879–80 in her probate [LEAD — the transmissão receipt is on a
+  folio not held here]. If that holds, the Toledo hold on the Concórdia lasted under a
+  quarter of a century, from a claimed *posse* perfected by purchase to a sale in probate. A landed clan whose land is a single-generation
   acquisition has far less protection than the phrase "landed clan" implies.
 
   - **Wealth in land plus enslaved labour — and the fragility of that mix** [PROVEN base /
@@ -476,7 +476,8 @@ profile_pt: >-
 
   - Pais: Joaquim José Ferreira de Toledo (P-0057) × Ritta Angélica Rodrigues (P-0058),
   família F-0028 — ele é o mais velho dos treze filhos do casal (PRB-0010). Seus avós
-  paternos Gaspar Ferreira (P-0092) × Gertrudes Maria de Toledo (P-0093), de Vila Rica, e
+  paternos Gaspar Ferreira (P-0092) × Gertrudes Maria de Toledo (P-0093) — sendo seu pai
+  registrado como nascido e batizado na freguesia de Vila Rica — e
   os maternos João Rodrigues do Valle (P-0078) × Izabel Ribeira (P-0079) são nomeados em
   PAR-0018.
 
@@ -521,9 +522,10 @@ profile_pt: >-
   posse dos 200 alqueires da Concórdia sob a Lei de Terras em abril de 1856; sua viúva
   comprou a fazenda em definitivo de Felippe Barbosa Castro, do Espírito Santo, um
   terceiro de outra província, em 2 de agosto de 1862, por seis contos; e a propriedade
-  foi vendida para fora da família por volta de 1879–80, no inventário dela. No registro
-  documentado, a posse Toledo da Concórdia durou menos de um quarto de século, de uma
-  posse reivindicada e aperfeiçoada por compra até uma venda forçada em inventário. Um clã
+  teria sido vendida para fora da família por volta de 1879–80, no inventário dela [LEAD —
+  o recibo de transmissão está num fólio não guardado aqui]. Se isso se confirmar, a posse
+  Toledo da Concórdia durou menos de um quarto de século, de uma posse reivindicada e
+  aperfeiçoada por compra até uma venda em inventário. Um clã
   fundiário cuja terra é aquisição de uma só geração tem muito menos proteção do que a
   expressão "clã fundiário" sugere.
 

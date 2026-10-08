@@ -30,15 +30,23 @@ notes:
 - text: >-
     The surname "de Toledo" is a bracketed/uncertain read on the ink-bled PAR-0018
     folio, preserved here as the recorded form (it is the apparent origin of the
-    family's "Ferreira" + "de Toledo" surname). Nationality Brazilian: PAR-0018 places
-    the family "de [Villa] Rica" (Vila Rica / Ouro Preto, Minas Gerais); no explicit
-    nacionalidade or birthplace of her own is otherwise stated.
+    family's "Ferreira" + "de Toledo" surname). Nationality Brazilian [INFERRED]:
+    PAR-0018 records her son Joaquim José as "n.al e batiz.do na freg.a de Villa Rica"
+    (born and baptised in the parish of Villa Rica / Ouro Preto, Minas Gerais), which
+    places her there around his birth by inference; no residence, nacionalidade or
+    birthplace of her own is stated. [Corrected 2026-10-08 on a direct image re-read:
+    the clause was earlier transcribed "de [Villa] Rica" and read as placing the
+    family there.]
   text_pt: >-
     O sobrenome "de Toledo" é uma leitura entre colchetes/incerta no fólio borrado por
     tinta de PAR-0018, preservado aqui como a forma registrada (é a aparente origem do
-    sobrenome "Ferreira" + "de Toledo" da família). Nacionalidade brasileira: PAR-0018
-    situa a família "de [Villa] Rica" (Vila Rica / Ouro Preto, Minas Gerais); nenhuma
-    nacionalidade ou local de nascimento próprio é de outro modo declarado.
+    sobrenome "Ferreira" + "de Toledo" da família). Nacionalidade brasileira [INFERRED]:
+    PAR-0018 registra seu filho Joaquim José como "n.al e batiz.do na freg.a de Villa
+    Rica" (nascido e batizado na freguesia de Villa Rica / Ouro Preto, Minas Gerais), o
+    que a situa ali por volta do nascimento dele, por inferência; nenhuma residência,
+    nacionalidade ou local de nascimento próprio é declarado. [Corrigido em 2026-10-08
+    após releitura direta da imagem: a cláusula fora transcrita "de [Villa] Rica" e
+    lida como situando a família ali.]
 profile: >-
   ## Interesting facts
 
@@ -77,11 +85,13 @@ profile: >-
   hard-to-read folio it is a navigation lead, not a second physical source. [recorded form
   uncertain; index corroboration LEAD]
 
-  - **Residence / nationality:** the family is seated at Villa Rica (Ouro Preto), Minas
-  Gerais, at the time her son married — the basis for the Brazilian nationality assigned
-  here; "Villa" is likewise a bracketed and uncertain read on the ink-bled folio, and no
-  explicit *nacionalidade* or birthplace of her own is stated. [family place; read
-  uncertain]
+  - **Residence / nationality:** the record gives no residence for her; it records her son
+  as born and baptised in the parish of Villa Rica (Ouro Preto), Minas Gerais ("n.al e
+  batiz.do na freg.a de Villa Rica"), which places her there around that birth by
+  inference and is the basis for the Brazilian nationality assigned here; no explicit
+  *nacionalidade* or birthplace of her own is stated. [INFERRED from the son's birthplace;
+  Corrected 2026-10-08 — earlier read as the family being seated at Villa Rica when her
+  son married]
 
   - **Birth / death / parents:** unknown — no record of her own is held. Born in the first
   third of the 18th century, inferred softly from her son's 1783 marriage. [OPEN; birth
@@ -97,7 +107,9 @@ profile: >-
 
   ## Family and social network
 
-  - Husband: Gaspar Ferreira (P-0092), *morador* at Villa Rica, family F-0045.
+  - Husband: Gaspar Ferreira (P-0092), family F-0045 (no residence stated; placed at Villa
+  Rica only by their son's birthplace [INFERRED]; "morador" was a misreading, corrected
+  2026-10-08).
 
   - Son (the direct line): Capitão Joaquim José Ferreira de Toledo (P-0057), who married
   Ritta Angélica Rodrigues at Barbacena in 1783 and fathered the thirteen-child Barbacena
@@ -132,8 +144,8 @@ profile: >-
   caution]. "de Toledo" is a toponymic surname long naturalised in Portugal and Brazil;
   its presence carries no reliable information about Spanish, hidalgo or Old-Christian
   descent, and any such reading would be an inference from a name rather than from a
-  record. The only documented facts are the name as written, the family's seat at Villa
-  Rica, and her son.
+  record. The only documented facts are the name as written, her son, and his birth and
+  baptism in the parish of Villa Rica.
 
   - **The gap above her is one identifiable act** [INFERRED]. Her son's Villa Rica
   baptism, of about 1750–1762, would name her own parents and confirm the surname in a
@@ -159,12 +171,13 @@ profile: >-
   ## Sources held (this repository)
 
   - PAR-0018 (her son Joaquim José's 1783 Barbacena marriage — the sole record naming her,
-  giving her given name, the uncertain surname, her husband's name and the family's seat
-  at Villa Rica).
+  giving her given name, the uncertain surname and her husband's name, and recording the
+  son as born and baptised in the parish of Villa Rica).
 
   ## Regional and migration context
 
-  Recorded as of Villa Rica (Ouro Preto), Minas Gerais — the administrative and mining
+  Placed at Villa Rica (Ouro Preto), Minas Gerais, by inference from her son's recorded
+  birth and baptism there [INFERRED] — the administrative and mining
   heart of the 18th-century captaincy, at a point when its gold economy was past its peak
   of about 1750. No move of her own is documented; the family's Villa Rica → Barbacena
   migration appears only in her son's generation, as the mining district's families
@@ -172,7 +185,7 @@ profile: >-
 
   ## Where to go today
 
-  - **Recorded residence (Villa Rica):** Basílica de N.S. do Pilar / Igreja de N.S. da
+  - **Her son's birth and baptism parish (Villa Rica):** Basílica de N.S. do Pilar / Igreja de N.S. da
   Conceição de Antônio Dias, Ouro Preto, MG [RESOLVED] ·
   [Maps](https://www.google.com/maps/search/?api=1&query=Praca%20Monsenhor%20Castilho%20Barbosa%2017%2C%20Ouro%20Preto%2C%20MG)
 
@@ -222,11 +235,13 @@ profile_pt: >-
   navegação e não segunda fonte física. [forma registrada incerta; corroboração de índice
   LEAD]
 
-  - **Residência / nacionalidade:** a família está situada em Villa Rica (Ouro Preto),
-  Minas Gerais, à época do casamento do filho — base da nacionalidade brasileira aqui
-  atribuída; "Villa" é igualmente leitura entre colchetes e incerta no fólio borrado, e
-  nenhuma *nacionalidade* ou local de nascimento próprio é declarado. [lugar da família;
-  leitura incerta]
+  - **Residência / nacionalidade:** o registro não lhe dá residência; registra o filho como
+  nascido e batizado na freguesia de Villa Rica (Ouro Preto), Minas Gerais ("n.al e
+  batiz.do na freg.a de Villa Rica"), o que a situa ali por volta desse nascimento, por
+  inferência, e é a base da nacionalidade brasileira aqui atribuída; nenhuma
+  *nacionalidade* ou local de nascimento próprio é declarado. [INFERRED a partir do local
+  de nascimento do filho; Corrigido em 2026-10-08 — antes lido como a família situada em
+  Villa Rica à época do casamento do filho]
 
   - **Nascimento / óbito / pais:** desconhecidos — nenhum registro próprio está
   disponível. Nascida no primeiro terço do século XVIII, inferência aproximada a partir do
@@ -242,7 +257,9 @@ profile_pt: >-
 
   ## Família e rede social
 
-  - Marido: Gaspar Ferreira (P-0092), *morador* em Villa Rica, família F-0045.
+  - Marido: Gaspar Ferreira (P-0092), família F-0045 (nenhuma residência declarada;
+  situado em Villa Rica apenas pelo local de nascimento do filho [INFERRED]; "morador" era
+  leitura equivocada, corrigida em 2026-10-08).
 
   - Filho (a linha direta): Capitão Joaquim José Ferreira de Toledo (P-0057), que se casou
   com Ritta Angélica Rodrigues em Barbacena em 1783 e foi pai da geração Toledo de treze
@@ -279,7 +296,7 @@ profile_pt: >-
   Brasil; sua presença não carrega informação confiável sobre ascendência espanhola,
   fidalga ou cristã-velha, e qualquer leitura nesse sentido seria inferência a partir de
   um nome, e não de um registro. Os únicos fatos documentados são o nome tal como escrito,
-  a sede da família em Villa Rica e seu filho.
+  seu filho e o nascimento e batismo dele na freguesia de Villa Rica.
 
   - **A lacuna acima dela é um único assento identificável** [INFERRED]. O batismo de seu
   filho em Villa Rica, de cerca de 1750–1762, nomearia seus próprios pais e confirmaria o
@@ -307,12 +324,13 @@ profile_pt: >-
   ## Fontes disponíveis (neste repositório)
 
   - PAR-0018 (casamento de 1783, em Barbacena, de seu filho Joaquim José — o único
-  registro que a nomeia, dando seu prenome, o sobrenome incerto, o nome do marido e a sede
-  da família em Villa Rica).
+  registro que a nomeia, dando seu prenome, o sobrenome incerto e o nome do marido, e
+  registrando o filho como nascido e batizado na freguesia de Villa Rica).
 
   ## Contexto regional e migratório
 
-  Registrada como de Villa Rica (Ouro Preto), Minas Gerais — o coração administrativo e
+  Situada em Villa Rica (Ouro Preto), Minas Gerais, por inferência a partir do nascimento e
+  batismo do filho ali registrados [INFERRED] — o coração administrativo e
   minerador da capitania setecentista, num momento em que sua economia aurífera já passara
   do auge de cerca de 1750. Nenhum deslocamento próprio está documentado; a migração Villa
   Rica → Barbacena da família aparece apenas na geração de seu filho, quando as famílias
@@ -320,7 +338,7 @@ profile_pt: >-
 
   ## Onde ir hoje
 
-  - **Residência registrada (Villa Rica):** Basílica de N.S. do Pilar / Igreja de N.S. da
+  - **Freguesia de nascimento e batismo do filho (Villa Rica):** Basílica de N.S. do Pilar / Igreja de N.S. da
   Conceição de Antônio Dias, Ouro Preto, MG [RESOLVED] ·
   [Maps](https://www.google.com/maps/search/?api=1&query=Praca%20Monsenhor%20Castilho%20Barbosa%2017%2C%20Ouro%20Preto%2C%20MG)
 

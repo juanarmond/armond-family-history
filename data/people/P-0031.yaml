@@ -14,6 +14,10 @@ name_variants:
   type: source
   source_ids:
   - CIV-0016
+- value: Lucinda Ferreira Borherer
+  type: source
+  source_ids:
+  - CIV-0038
 event_ids:
 - E-0124
 - E-0105
@@ -26,8 +30,11 @@ notes:
 - text: >-
     Ahnentafel position 31 — mother of Celina (Selina) Bohrer (P-0015). Named as
     "Lucinda Ferreira da Silva Bohrer" in Celina's 1977 death (CIV-0015), her son
-    Alberto's 1890 birth (CIV-0019) and as "Lucinda Ferreira Bohrer" (maternal
-    grandmother, "já falecidos") in the 1924 Nova Friburgo birth (CIV-0016).
+    Alberto's 1890 birth (CIV-0019), as "Lucinda Ferreira Bohrer" (maternal
+    grandmother, "já fallecida") in the 1924 Nova Friburgo birth (CIV-0016) and as
+    "Lucinda Ferreira Borherer" ("já fallecida") in the 1923 Nova Friburgo birth
+    (CIV-0038). [Corrected 2026-10-08 from the image: CIV-0016 reads the singular "já
+    fallecida", marking only her as deceased, not "já falecidos".]
     "Ferreira da Silva" is her own surname and "Bohrer" her married name; both
     variants are preserved. Her own 1863 baptism (PAR-0077) now establishes that she was
     born 10 August 1862 in Rio de Janeiro (Corte) and baptised 16 March 1863 at the
@@ -40,10 +47,12 @@ notes:
   text_pt: >-
     Posição 31 no Ahnentafel — mãe de Celina (Selina) Bohrer (P-0015). Nomeada como
     "Lucinda Ferreira da Silva Bohrer" no óbito de 1977 de Celina (CIV-0015), no
-    nascimento de 1890 de seu filho Alberto (CIV-0019) e como "Lucinda Ferreira
-    Bohrer" (avó materna, "já falecidos") no nascimento de 1924 em Nova Friburgo
-    (CIV-0016). "Ferreira da Silva" é seu sobrenome próprio e "Bohrer" seu nome de
-    casada; ambas as variantes são preservadas. Seu próprio batismo de 1863 (PAR-0077)
+    nascimento de 1890 de seu filho Alberto (CIV-0019), como "Lucinda Ferreira
+    Bohrer" (avó materna, "já fallecida") no nascimento de 1924 em Nova Friburgo
+    (CIV-0016) e como "Lucinda Ferreira Borherer" ("já fallecida") no nascimento de 1923
+    em Nova Friburgo (CIV-0038). [Corrigido em 2026-10-08 a partir da imagem: CIV-0016 lê
+    o singular "já fallecida", marcando apenas ela como falecida, e não "já falecidos".]
+    "Ferreira da Silva" é seu sobrenome próprio e "Bohrer" seu nome de casada; ambas as variantes são preservadas. Seu próprio batismo de 1863 (PAR-0077)
     agora estabelece que ela nasceu em 10 de agosto de 1862 no Rio de Janeiro (Corte) e
     foi baptizada em 16 de março de 1863 na Matriz de São João Baptista da Lagoa; isso
     supera a leitura anterior "natural desta Freguezia" (Nova Friburgo, RJ) do nascimento
@@ -121,8 +130,10 @@ profile: >-
   Álvaro José — with no record found for any of them [LEAD — tree only, not modelled].
 
   - **Death:** already deceased by 1923, when a granddaughter's birth registration calls her
-  "já falecida" (CIV-0038), again "já fallecidos" with her husband on Eunir's 1924 birth
-  (CIV-0016), and named as Celina's deceased mother in 1977 (CIV-0015) [PROVEN of the bound];
+  "já fallecida" (CIV-0038), again "já fallecida" on Eunir's 1924 birth (CIV-0016), and named
+  as Celina's deceased mother in 1977 (CIV-0015) [PROVEN of the bound]; [Corrected 2026-10-08
+  from the image: CIV-0016 uses the singular "fallecida" — only she, not her husband, is marked
+  deceased in 1924;]
   exact date not held. [OPEN] A death in 1921 is reported by a genealogy blog and the
   FamilySearch tree [LEAD]; the retrieval research reports searching the Nova Friburgo
   cathedral death register gap-free from November 1919 to May 1924 without finding her
@@ -143,7 +154,7 @@ profile: >-
   consistent with a woman who predeceased the generation that would have registered her.
   [INFERRED]
 
-  - **Her own siblings** (children of Antonio × Maria Joanna, family F-0017): Isabel (b. 23 April,
+  - **Her own siblings** (children of Antonio × Maria Joanna, family F-0017): Isabel (b. 28 April,
   d. 9 June 1860, Nova Friburgo; PAR-0082), Octávio Ferreira da Silva (b. ~1868 at Aparecida, RJ,
   operário; m. Octavia Froidevaux at Nova Friburgo, 28 December 1895; CIV-0036) and Maria da
   Gloria da Silva Ferreira (b. ~1876 at Nova Friburgo; m. the Portuguese merchant Ezequiel Mathias
@@ -336,9 +347,10 @@ profile_pt: >-
   encontrado para nenhum deles [LEAD — apenas árvore, não modelados].
 
   - **Óbito:** já falecida em 1923, quando o registro de nascimento de uma neta a chama "já
-  falecida" (CIV-0038), de novo "já fallecidos" com o marido no nascimento de 1924 de Eunir
-  (CIV-0016), e nomeada como mãe falecida de Celina em 1977 (CIV-0015) [PROVEN quanto ao
-  limite]; data exata não obtida. [OPEN] Um óbito em 1921 é relatado por um blog genealógico e
+  fallecida" (CIV-0038), de novo "já fallecida" no nascimento de 1924 de Eunir (CIV-0016), e
+  nomeada como mãe falecida de Celina em 1977 (CIV-0015) [PROVEN quanto ao limite];
+  [Corrigido em 2026-10-08 a partir da imagem: CIV-0016 usa o singular "fallecida" — apenas
+  ela, e não o marido, é dada como falecida em 1924;] data exata não obtida. [OPEN] Um óbito em 1921 é relatado por um blog genealógico e
   pela árvore do FamilySearch [LEAD]; a pesquisa de recuperação relata ter percorrido sem lacunas o
   livro de óbitos da catedral de Nova Friburgo de novembro de 1919 a maio de 1924 sem encontrá-la
   [LEAD — busca negativa do lado da recuperação], de modo que o óbito provavelmente foi registrado
@@ -357,7 +369,7 @@ profile_pt: >-
   apenas como esposa e mãe nos registros disponíveis, nunca como declarante — coerente com
   uma mulher que faleceu antes da geração que a teria registrado. [INFERRED]
 
-  - **Seus próprios irmãos** (filhos de Antonio × Maria Joanna, família F-0017): Isabel (n. 23 de
+  - **Seus próprios irmãos** (filhos de Antonio × Maria Joanna, família F-0017): Isabel (n. 28 de
   abril, f. 9 de junho de 1860, Nova Friburgo; PAR-0082), Octávio Ferreira da Silva (n. ~1868 em
   Aparecida, RJ, operário; c. Octavia Froidevaux em Nova Friburgo, 28 de dezembro de 1895;
   CIV-0036) e Maria da Gloria da Silva Ferreira (n. ~1876 em Nova Friburgo; c. o negociante

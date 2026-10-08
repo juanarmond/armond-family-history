@@ -37,7 +37,8 @@ notes:
     E-0048) is the primary record for him: a landowner (proprietário) of Nossa
     Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal), resident
     at Lomba do Botão, who drowned at sea off the Garajau on 24 July 1866 aged 46
-    (born c.1820), intestate, leaving eight children. It names his wife Francisca
+    (so born c.1820 by that age; his own baptism, PAR-0051, gives 12 June 1822 — the
+    stated age is about two years high), intestate, leaving eight children. It names his wife Francisca
     Roza do Espirito Santo (P-0047, family F-0020) and his parents João Muniz
     Bytancourt (P-0048) and Maria Jacintha de Medeiros (P-0049, family F-0023).
   text_pt: >-
@@ -46,7 +47,9 @@ notes:
     E-0047, E-0048) é o registro primário sobre ele: um proprietário de Nossa
     Senhora Mãe de Deus, Povoação, Ilha de São Miguel (Açores, Portugal),
     residente na Lomba do Botão, que morreu afogado no mar defronte ao Garajau
-    em 24 de julho de 1866, aos 46 anos (nascido por volta de 1820), intestado,
+    em 24 de julho de 1866, aos 46 anos (pela idade, nascido por volta de 1820; seu
+    próprio batismo, PAR-0051, dá 12 de junho de 1822 — a idade declarada é cerca de
+    dois anos alta), intestado,
     deixando oito filhos. O registro nomeia sua esposa Francisca Roza do Espirito
     Santo (P-0047, família F-0020) e seus pais João Muniz Bytancourt (P-0048) e
     Maria Jacintha de Medeiros (P-0049, família F-0023).
@@ -137,20 +140,35 @@ profile: >-
   (P-0083, already dead in 1819); maternal, João de Medeiros Brandão (P-0084) and Maria
   Eugenia (P-0085) — all named in his parents' 1819 marriage act (PAR-0037). [PROVEN]
 
-  - **Children:** he left eight children (PAR-0015); **all 8 surviving children are now
-  individually PROVEN** [roster completed 2026-09-13]. Through held records: the future
-  immigrant João Muniz Bittencourt (P-0019), baptised 1845 in a joint baptism with a sibling
-  (identified as a brother Manoel [LEAD]) (PAR-0022); three daughters, Maria (b. 26 December
-  1842; PAR-0045), Francisca (b. 31 August 1849; PAR-0046) and Maria (b. 29 November 1851;
-  PAR-0047); and three further children found through their later records — **Anna Maria
-  Byttancourt** (b. ~1855; proved by her 1878 Mãe de Deus marriage naming her "filha legitima
-  de Manoel Muniz Byttancourt e de Francisca Roza do Espirito Santo", PAR-0083), **Claudina
-  Muniz Bettencourt** (b. ~1856; proved by her 1872 Mãe de Deus marriage, PAR-0084, which
-  also records Manoel already deceased), and **Maria José Bittencourt** (b. ~1858 São Miguel,
-  d. 8 November 1943 Rio de Janeiro; proved by her civil death register, CIV-0034). A ninth
-  birth — infant **Claudina** (b. ~May 1854, d. 24 September 1854, PAR-0085) — predeceased
-  Manoel and is not counted in the "8 filhos." [PROVEN eight surviving children, all
-  individually attested; + 1 infant death PROVEN]
+  - **Children:** his 1866 óbito states that he left eight children (PAR-0015) [PROVEN — the
+  count]. Eight candidate names are attested, but the roster is **not** fully proven
+  [Corrected 2026-10-08: earlier "all 8 surviving children are now individually PROVEN"]:
+
+  - *Proven children of the couple, alive after 1866:* the future immigrant João Muniz
+  Bittencourt (P-0019, b. 1845; PAR-0022; d. 1915); Maria (b. 26 December 1842; PAR-0045,
+  whose margin note records a death about April 1931); **Claudina Muniz Bettencourt** (b.
+  ~1856; her 1872 Mãe de Deus marriage, PAR-0084, names the parents and records Manoel
+  already deceased); and **Anna Maria Byttancourt** (b. ~1855; her 1878 Mãe de Deus marriage
+  names her "filha legitima de Manoel Muniz Byttancourt e de Francisca Roza do Espirito
+  Santo", PAR-0083) [PROVEN].
+
+  - *Proven births, survival to 1866 not shown:* Francisca (b. 31 August 1849; PAR-0046) and
+  Maria (b. 29 November 1851; PAR-0047) — baptisms only [PROVEN birth; survival OPEN].
+
+  - *Lead:* the sibling co-baptised with João in 1845 (PAR-0022), identified as a brother
+  Manoel only by the retrieval research [LEAD].
+
+  - *Probable, possibly a duplicate:* **Maria José Bittencourt** (d. 8 November 1943 Rio de
+  Janeiro, aged 85, so b. ~1858), whose civil death register (CIV-0034) names Manoel Muniz
+  Bittencourt and Francisca Rosa Bittencourt as parents and records her as "natural de
+  Portugal" — not a parish or island; informant a non-relative. She may be a distinct child
+  or the same person as the 1851 Maria (PAR-0047); the identity is open [PROBABLE].
+
+  - A ninth birth — infant **Claudina** (b. ~May 1854, d. 24 September 1854, PAR-0085) —
+  predeceased Manoel and is not counted in the "8 filhos" [PROVEN].
+
+  The eight names match the stated count only if the co-baptised brother is real, Maria José
+  is distinct from the 1851 Maria, and Francisca and the 1851 Maria survived to 1866.
 
   - **Death:** 24 July 1866, about 1 p.m., "na bahia, fóra do Garajau" (at sea off the
   Garajau) of the parish, without the sacraments, intestate (PAR-0015). [PROVEN] The
@@ -312,7 +330,7 @@ profile: >-
   images are read here:** the heir list omits the Maria born 29 November 1851 (PAR-0047) —
   perhaps dead before April 1867 — and adds a Maria Isabel born about 1860–61 who is not
   otherwise documented; and João, not yet "ausente", would have emigrated after April
-  1867. The roster of eight surviving children above is unchanged. [OPEN]
+  1867. The candidate roster above is unchanged pending that read. [OPEN]
 
   ## Sources held (this repository)
 
@@ -413,21 +431,39 @@ profile_pt: >-
   falecida em 1819); maternos, João de Medeiros Brandão (P-0084) e Maria Eugenia (P-0085)
   — todos nomeados no ato de casamento de seus pais, de 1819 (PAR-0037). [PROVEN]
 
-  - **Filhos:** deixou oito filhos (PAR-0015); **todos os 8 filhos sobreviventes estão agora
-  individualmente PROVADOS** [rol concluído em 2026-09-13]. Pelos registros em mãos: o futuro
-  imigrante João Muniz Bittencourt (P-0019), batizado em 1845 em batismo conjunto com um
-  irmão (identificado como irmão Manoel [LEAD]) (PAR-0022); três filhas, Maria (n. 26 de
-  dezembro de 1842; PAR-0045), Francisca (n. 31 de agosto de 1849; PAR-0046) e Maria (n. 29
-  de novembro de 1851; PAR-0047); e três filhos adicionais encontrados por registros
-  posteriores — **Anna Maria Byttancourt** (n. ~1855; provada por seu casamento de 1878 em
-  Mãe de Deus nomeando-a "filha legitima de Manoel Muniz Byttancourt e de Francisca Roza do
-  Espirito Santo", PAR-0083), **Claudina Muniz Bettencourt** (n. ~1856; provada por seu
-  casamento de 1872 em Mãe de Deus, PAR-0084, que também registra Manoel já falecido) e
-  **Maria José Bittencourt** (n. ~1858 São Miguel, f. 8 de novembro de 1943 Rio de Janeiro;
-  provada por seu registro de óbito civil, CIV-0034). Um nono nascimento — a infante
-  **Claudina** (n. ~maio de 1854, f. 24 de setembro de 1854, PAR-0085) — premorreu a Manoel
-  e não é contada entre os "8 filhos." [PROVEN oito filhos sobreviventes, todos atestados
-  individualmente; + 1 óbito de infante PROVEN]
+  - **Filhos:** seu óbito de 1866 declara que deixou oito filhos (PAR-0015) [PROVEN — a
+  contagem]. Oito nomes candidatos estão atestados, mas o rol **não** está inteiramente
+  provado [Corrigido em 2026-10-08: antes "todos os 8 filhos sobreviventes estão agora
+  individualmente PROVADOS"]:
+
+  - *Filhos provados do casal, vivos depois de 1866:* o futuro imigrante João Muniz
+  Bittencourt (P-0019, n. 1845; PAR-0022; f. 1915); Maria (n. 26 de dezembro de 1842;
+  PAR-0045, cuja nota marginal registra um óbito por volta de abril de 1931); **Claudina
+  Muniz Bettencourt** (n. ~1856; seu casamento de 1872 em Mãe de Deus, PAR-0084, nomeia os
+  pais e registra Manoel já falecido); e **Anna Maria Byttancourt** (n. ~1855; seu
+  casamento de 1878 em Mãe de Deus nomeia-a "filha legitima de Manoel Muniz Byttancourt e de
+  Francisca Roza do Espirito Santo", PAR-0083) [PROVEN].
+
+  - *Nascimentos provados, sobrevivência até 1866 não demonstrada:* Francisca (n. 31 de
+  agosto de 1849; PAR-0046) e Maria (n. 29 de novembro de 1851; PAR-0047) — apenas os
+  batismos [PROVEN o nascimento; sobrevivência OPEN].
+
+  - *Pista:* o irmão batizado com João em 1845 (PAR-0022), identificado como Manoel apenas
+  pela pesquisa de recuperação [LEAD].
+
+  - *Provável, possivelmente duplicada:* **Maria José Bittencourt** (f. 8 de novembro de
+  1943 no Rio de Janeiro, aos 85 anos, logo n. ~1858), cujo registro civil de óbito
+  (CIV-0034) nomeia Manoel Muniz Bittencourt e Francisca Rosa Bittencourt como pais e a
+  registra como "natural de Portugal" — sem freguesia nem ilha; declarante não parente. Pode
+  ser uma filha distinta ou a mesma pessoa que a Maria de 1851 (PAR-0047); a identidade está
+  em aberto [PROBABLE].
+
+  - Um nono nascimento — a infante **Claudina** (n. ~maio de 1854, f. 24 de setembro de
+  1854, PAR-0085) — premorreu a Manoel e não é contada entre os "8 filhos" [PROVEN].
+
+  Os oito nomes só coincidem com a contagem declarada se o irmão batizado em conjunto for
+  real, se Maria José for distinta da Maria de 1851 e se Francisca e a Maria de 1851
+  sobreviveram até 1866.
 
   - **Óbito:** 24 de julho de 1866, por volta de uma hora da tarde, "na bahia, fóra do
   Garajau" da freguesia, sem os sacramentos, intestado (PAR-0015). [PROVEN] As circunstâncias
@@ -596,8 +632,8 @@ profile_pt: >-
   que as imagens sejam lidas aqui:** a lista de herdeiros omite a Maria nascida em 29 de
   novembro de 1851 (PAR-0047) — talvez falecida antes de abril de 1867 — e acrescenta uma
   Maria Isabel nascida por volta de 1860–61, não documentada de outro modo; e João, ainda
-  não "ausente", teria emigrado depois de abril de 1867. O rol de oito filhos
-  sobreviventes acima permanece inalterado. [OPEN]
+  não "ausente", teria emigrado depois de abril de 1867. O rol de candidatos acima
+  permanece inalterado até essa leitura. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 

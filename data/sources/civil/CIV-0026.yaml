@@ -1,10 +1,10 @@
 schema_version: 1
 id: CIV-0026
 title: >-
-  1961 Rio de Janeiro civil death of Hermogenes Engracio de Souza — son of Antonio
+  1971 Rio de Janeiro civil death of Hermogenes Engracio de Souza — son of Antonio
   Engracio de Souza and Luzia Pinheiro da Conceição
 title_pt: >-
-  Óbito civil de 1961, no Rio de Janeiro, de Hermogenes Engracio de Souza — filho de
+  Óbito civil de 1971, no Rio de Janeiro, de Hermogenes Engracio de Souza — filho de
   Antonio Engracio de Souza e Luzia Pinheiro da Conceição
 record_type: Civil death register entry
 record_category: civil_registration
@@ -14,10 +14,12 @@ evidence_type: direct
 usage: evidence
 event_date:
   kind: exact
-  value: "1961-11-19"
+  value: "1971-11-19"
   original_text: >-
-    Died 19 November 1961 ("no dia dezenove do corrente"), registered 24 November 1961
-    (declaration date), entry Nº 91.554.
+    Died 19 November 1971 ("no dia dezenove do corrente"), registered 24 November 1971
+    ("Aos vinte e quatro de novembro de mil novecentos e setenta e um" — declaration
+    date), entry Nº 91.554. [Corrected 2026-10-08 from the image: the year reads "setenta
+    e um" (1971), not 1961.]
 event_place_text: >-
   Rio de Janeiro, Distrito Federal / Guanabara, Brazil (Hospital Estadual Santa Maria)
 repository:
@@ -29,7 +31,7 @@ access_date: "2026-09-02"
 language: pt-BR
 transcription: >-
   [Óbito Nº 91.554, fl. 27, Rio de Janeiro. Left-hand entry.] "Aos vinte e quatro de
-  novembro de mil novecentos e sessenta e um, nesta Cidade, e neste cartório, compareceu
+  novembro de mil novecentos e setenta e um, nesta Cidade, e neste cartório, compareceu
   [Nicolau Mozaguio — uncertain], profissão comércio, residente [omitido — privacidade], e
   exibindo atestado de óbito firmado pelo Doutor [illegible] CRM 7230, declarou: Que no
   dia dezenove do corrente às 5 horas, [no] Hospital Estadual Santa Ma[ria], faleceu
@@ -38,21 +40,27 @@ transcription: >-
   lavrador, residente rua 'R' lote 30 quadra 38 [Duque de] Caxias, filho de Antonio
   Engracio de Souza e Luzia Pinheiro [da] Conceição — e será sepultado no cemitério de
   São Francisco Xavier. Causa Mortis: caquexia, tuberculose pulmonar. O obitado deixou
-  tres filhas maiores; não deixou bens."
+  tres filhas maiores; não deixou bens." [Corrected 2026-10-08 from the image: the year
+  of the opening date reads "setenta e um" (1971); it was earlier transcribed "sessenta e
+  um" (1961).]
 abstract: >-
-  Civil death of Hermogenes Engracio de Souza (b. ~1896, Minas Gerais; d. 19 November
-  1961, Rio de Janeiro, aged 65), lavrador, married to Maria Dutra de Souza. Names his
+  Civil death of Hermogenes Engracio de Souza (b. ~1906, Minas Gerais; d. 19 November
+  1971, Rio de Janeiro, aged 65), lavrador, married to Maria Dutra de Souza. Names his
   parents as Antonio Engracio de Souza (P-0032) and Luzia Pinheiro da Conceição (P-0033)
   — a second independent primary confirming that couple's names, and documenting a further
   child of theirs (a brother of Antonio Engracio Filho, P-0010). He left three adult
-  daughters (not named in the record).
+  daughters (not named in the record). [Corrected 2026-10-08 from the image: the death
+  and registration year is 1971 ("setenta e um"), not 1961, so the estimated birth is
+  ~1906, not ~1896.]
 abstract_pt: >-
-  Óbito civil de Hermogenes Engracio de Souza (n. ~1896, Minas Gerais; f. 19 de novembro
-  de 1961, Rio de Janeiro, aos 65 anos), lavrador, casado com Maria Dutra de Souza. Nomeia
+  Óbito civil de Hermogenes Engracio de Souza (n. ~1906, Minas Gerais; f. 19 de novembro
+  de 1971, Rio de Janeiro, aos 65 anos), lavrador, casado com Maria Dutra de Souza. Nomeia
   seus pais Antonio Engracio de Souza (P-0032) e Luzia Pinheiro da Conceição (P-0033) — uma
   segunda confirmação primária independente dos nomes do casal, e documenta mais um filho
   deles (irmão de Antonio Engracio Filho, P-0010). Deixou três filhas maiores (não nomeadas
-  no registro).
+  no registro). [Corrigido em 2026-10-08 a partir da imagem: o ano do óbito e do registro
+  é 1971 ("setenta e um"), não 1961; o nascimento estimado passa, portanto, a ~1906, e não
+  ~1896.]
 reliability:
   assessment: >-
     Primary civil death register entry; the filiation is informant-reported (by a
@@ -77,3 +85,11 @@ notes:
       Records a further (collateral) child of Antonio Engracio de Souza × Luzia Pinheiro
       da Conceição — Hermogenes — added as a documented_child on F-0015. His three adult
       daughters are possibly living and are not named in the record; not modelled.
+  - text: >-
+      [Corrected 2026-10-08 from the image: the register opens "Aos vinte e quatro de
+      novembro de mil novecentos e setenta e um" — registered 24 November 1971, death
+      19 November 1971, aged 65 (→ b. ~1906). The entry was first catalogued as 1961
+      (b. ~1896); title, event_date, transcription and abstracts are corrected.] The
+      scan filename (CIV-0026-hermogenes-engracio-souza-obito-1961-rj.jpg) still carries
+      "1961" and is deliberately left unchanged to preserve its path and sha256; the
+      source ID CIV-0026 is unchanged.

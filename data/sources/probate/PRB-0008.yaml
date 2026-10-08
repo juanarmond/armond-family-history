@@ -2,13 +2,13 @@ schema_version: 1
 id: PRB-0008
 title: >-
   1867 Concórdia probate inventory of José Cesário de Toledo Lima and Claudina
-  Brandina de Jesus — título de herdeiros listing nine children including Eliza
-  Balbina de Toledo (P-0017) and a son named Simplício de Toledo (item 6, distinct
+  Brandina de Jesus — título de herdeiros of nine children (Eliza, P-0017, is not on
+  the catalogued pages) including a son named Simplício de Toledo (item 6, distinct
   from Simplício Armond P-0016)
 title_pt: >-
   Inventário de bens de 1867, em Concórdia, de José Cesário de Toledo Lima e Claudina
-  Brandina de Jesus — título de herdeiros que arrola nove filhos, incluindo Eliza
-  Balbina de Toledo (P-0017) e um filho de nome Simplício de Toledo (item 6, distinto
+  Brandina de Jesus — título de herdeiros de nove filhos (Eliza, P-0017, não está nas
+  páginas catalogadas), incluindo um filho de nome Simplício de Toledo (item 6, distinto
   de Simplício Armond P-0016)
 record_type: Estate inventory (inventário / título de herdeiros)
 record_category: court_or_probate
@@ -445,35 +445,42 @@ abstract: >-
   de Toledo Lima (P-0054) and his wife Claudina Brandina de Jesus (P-0055), both
   deceased by the opening date of 4 March 1867. The título de herdeiros lists their
   children (herdeiros); the page catalogued as p8 shows item 6 as "Simplicio José
-  Ferreira de Tolledo, Solteiro de quatorze annos" — direct primary evidence that
-  Simplício José Ferreira Armond (P-0016) is a son of José Cesário de Toledo Lima
-  and Claudina Brandina de Jesus, settling his parentage. Items 7–9 (Ladisláo,
-  Geraldo and an unnamed female infant) are also listed. The cover (gen1) explicitly
-  names both deceased spouses: "José Cesario de Tolledo Lima / Claudina Brandina de
-  Jesus." The certification is dated 7 March 1867, signed by J. de Bastos Pacheco
-  (Escrivão dos Órfãos), before the judge Dr. Mortimário de Sousa Lintz; Aureliano
-  de Sales Toledo (a sibling of JC) served as Curador of the minor heirs.
+  Ferreira de Tolledo, Solteiro de quatorze annos" — JC's own son Simplício de Toledo
+  (b. ~1853), a different man from Simplício José Ferreira Armond (P-0016), who married
+  JC's daughter Eliza. [Corrected 2026-10-08: this abstract still carried the
+  superseded 7 August 2026 reading that item 6 is P-0016 and settles his parentage; see
+  the notes.] Eliza is not among the children on the catalogued pages (pp. 6–9); she
+  may be on the uncatalogued p7. Items 7–9 (Ladisláo, Geraldo and an unnamed female
+  infant) are also listed. The cover (gen1) explicitly names both deceased spouses:
+  "José Cesario de Tolledo Lima / Claudina Brandina de Jesus." The certification is
+  dated 7 March 1867, signed by J. de Bastos Pacheco (Escrivão dos Órfãos), before the
+  judge Dr. Mortimário de Sousa Lintz; Aureliano de Sales Toledo (a sibling of JC)
+  served as Curador of the minor heirs.
 abstract_pt: >-
   O inventário de 1867, em Concórdia (Districto do Rio Pardo, MG), de José Cesário
   de Toledo Lima (P-0054) e de sua esposa Claudina Brandina de Jesus (P-0055), ambos
   falecidos até a data de abertura, 4 de março de 1867. O título de herdeiros lista
   seus filhos (herdeiros); a página catalogada como p8 mostra o item 6 como
-  "Simplicio José Ferreira de Tolledo, Solteiro de quatorze annos" — evidência
-  primária direta de que Simplício José Ferreira Armond (P-0016) é filho de José
-  Cesário de Toledo Lima e de Claudina Brandina de Jesus, resolvendo sua filiação. Os
-  itens 7–9 (Ladisláo, Geraldo e uma menina de nome não indicado) também são
-  arrolados. A capa (gen1) nomeia explicitamente ambos os cônjuges falecidos: "José
-  Cesario de Tolledo Lima / Claudina Brandina de Jesus". A certidão é datada de 7 de
-  março de 1867, assinada por J. de Bastos Pacheco (Escrivão dos Órfãos), perante o
-  juiz Dr. Mortimário de Sousa Lintz; Aureliano de Sales Toledo (um irmão de JC)
-  serviu como Curador dos herdeiros menores.
+  "Simplicio José Ferreira de Tolledo, Solteiro de quatorze annos" — o próprio filho
+  de JC, Simplício de Toledo (n. ~1853), homem diferente de Simplício José Ferreira
+  Armond (P-0016), que se casou com Eliza, filha de JC. [Corrigido em 2026-10-08: este
+  resumo ainda trazia a leitura superada de 7 de agosto de 2026, segundo a qual o item
+  6 seria P-0016 e resolveria sua filiação; ver as notas.] Eliza não está entre os
+  filhos das páginas catalogadas (pp. 6–9); pode estar na p7, não catalogada. Os itens
+  7–9 (Ladisláo, Geraldo e uma menina de nome não indicado) também são arrolados. A
+  capa (gen1) nomeia explicitamente ambos os cônjuges falecidos: "José Cesario de
+  Tolledo Lima / Claudina Brandina de Jesus". A certidão é datada de 7 de março de
+  1867, assinada por J. de Bastos Pacheco (Escrivão dos Órfãos), perante o juiz Dr.
+  Mortimário de Sousa Lintz; Aureliano de Sales Toledo (um irmão de JC) serviu como
+  Curador dos herdeiros menores.
 reliability:
   assessment: >-
-    Direct primary evidence from a judicial estate inventory: names Simplício
-    explicitly as a son of José Cesário de Toledo Lima, solteiro aged 14 in 1867.
-    Independent of PRB-0006 (1879 Matilde inventário) which, through a different
-    proceeding twelve years later, names the same children. Both records together
-    constitute two independent primary confirmations of Simplício's parentage.
+    Direct primary evidence from a judicial estate inventory for José Cesário de Toledo
+    Lima's household and heirs, including his son Simplício de Toledo (solteiro, 14 in
+    1867), who is NOT Simplício José Ferreira Armond (P-0016). It is not evidence of
+    P-0016's parentage. [Corrected 2026-10-08: the earlier text called this, with
+    PRB-0006, two primary confirmations of P-0016's parentage — the superseded 7 August
+    2026 reading.]
   informant: >-
     J. de Bastos Pacheco, Escrivão dos Órfãos, Concórdia, 1867; judicial process.
   limitations: >-

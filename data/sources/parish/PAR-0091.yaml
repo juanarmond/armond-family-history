@@ -24,28 +24,49 @@ repository:
 access_date: "2026-09-23"
 language: pt-PT
 transcription: >-
-  [Image p1 — baptism act, p.0287, S. Sebastião batismos 1611–1687]
-  Parents: "Belchior da Ponte Cardogo × marianna Faguedes"
-  Child: Manuel
+  [Image p1 — baptism act, p.0287, S. Sebastião batismos 1611–1687; margin "M.el"]
+  [Re-read from the image 2026-10-08:] "Em os treze dias do mes de outubro de mil e
+  seissentos cinquenta e dous annos baptizou o R.do P.e Mathias Machado de Utra [uncertain]
+  cura nesta matriz da villa de São Sebastião a manoel filho do Alferes belchior de Ponte
+  cardozo e de sua molher mariana Fa-gundes forão padrinhos o R.do P.e André Machado e
+  Ignes Machada f.ª do Cappitão Ant.º Machado por verdade me asignei dia mes era ut supra
+  Vig.º Ant.º Coelho Sottomajor"
+  Parents: "Alferes belchior de Ponte cardozo × mariana Fagundes"
+  Child: Manuel [manoel]
+  Padrinhos: o R.do P.e André Machado and Ignes Machada, daughter of the Cappitão Ant.º
+  Machado
+  [Earlier transcribed "Belchior da Ponte Cardogo × marianna Faguedes": the mother's
+  surname is "Fagundes", split across the line as "Fa-gundes".]
   Date: 13 October 1652
   [Image p2 — context/facing page of the register]
 transcription_pt: >-
-  [Imagem p1 — assento de baptismo, p.0287, S. Sebastião baptismos 1611–1687]
-  Pais: "Belchior da Ponte Cardogo × marianna Faguedes"
-  Criança: Manuel
+  [Imagem p1 — assento de baptismo, p.0287, S. Sebastião baptismos 1611–1687; margem "M.el"]
+  [Relido na imagem em 2026-10-08:] "Em os treze dias do mes de outubro de mil e
+  seissentos cinquenta e dous annos baptizou o R.do P.e Mathias Machado de Utra [incerto]
+  cura nesta matriz da villa de São Sebastião a manoel filho do Alferes belchior de Ponte
+  cardozo e de sua molher mariana Fa-gundes forão padrinhos o R.do P.e André Machado e
+  Ignes Machada f.ª do Cappitão Ant.º Machado por verdade me asignei dia mes era ut supra
+  Vig.º Ant.º Coelho Sottomajor"
+  Pais: "Alferes belchior de Ponte cardozo × mariana Fagundes"
+  Criança: Manuel [manoel]
+  Padrinhos: o R.do P.e André Machado e Ignes Machada, filha do Cappitão Ant.º Machado
+  [Antes transcrito "Belchior da Ponte Cardogo × marianna Faguedes": o apelido da mãe é
+  "Fagundes", partido na linha como "Fa-gundes".]
   Data: 13 de outubro de 1652
   [Imagem p2 — página de contexto/frente do livro de registo]
 abstract: >-
   Primary parish baptism record for Manuel, son of Belchior da Ponte Cardoso (P-0123) ×
   Mariana Fagundes (P-0124), baptised 13 October 1652 in São Sebastião, Terceira
-  (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0287). The act names both parents as "Belchior da
-  Ponte Cardogo × marianna Faguedes", confirming parentage. Consistent with Vol. IX
+  (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0287). The act names both parents as "Alferes
+  belchior de Ponte cardozo" and "mariana Fagundes", confirming parentage. [Corrected
+  2026-10-08: earlier read "marianna Faguedes".] Consistent with Vol. IX
   (PUB-0005, p.260). Status: confirmed.
 abstract_pt: >-
   Registo paroquial primário do baptismo de Manuel, filho de Belchior da Ponte Cardoso
   (P-0123) × Mariana Fagundes (P-0124), baptizado a 13 de outubro de 1652 em São
   Sebastião, Terceira (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0287). O assento nomeia ambos
-  os pais como "Belchior da Ponte Cardogo × marianna Faguedes", confirmando a filiação.
+  os pais como "Alferes belchior de Ponte cardozo" e "mariana Fagundes", confirmando a
+  filiação. [Corrigido em 2026-10-08: antes lido "marianna Faguedes".]
   Consistente com Vol. IX (PUB-0005, p.260). Estado: confirmado.
 reliability:
   assessment: >-
@@ -53,8 +74,8 @@ reliability:
     The date 13 October 1652 is consistent with PUB-0005. Evidence quality: confirmed.
   informant: Parish priest of São Sebastião, Terceira, recording the baptism in 1652
   limitations: >-
-    Image p2 is a context page only. Godparents' names not recorded in extracted text.
-    Resolution: 612×842 px per page.
+    Image p2 is a context page only. The officiating cura's surname ("de Utra") is an
+    uncertain read. Resolution: 612×842 px per page.
 digital_file:
   path: evidence/parish/PAR-0091-baptismo-manuel-ponte-cardoso-1652-p1.jpg
   sha256: 63a0d08f876581b0ba48c41f659cadca7e79ff94c98b6b3e380a959655eb5de3

@@ -48,25 +48,32 @@ transcription: >-
   côr branca, que se chamará "Eunir", filho legitimo delle declarante e de
   Celina Bohrer, natural deste Districto, e casados civilmente neste Município.
   Netto paterno de Valentim Martinho Bohrer e de Carolina Bohrer, e materno de
-  Joaquim José Bohrer e de Lucinda Ferreira Bohrer, já fallecidos. Do que para
+  Joaquim José Bohrer e de Lucinda Ferreira Bohrer, já fallecida. Do que para
   constar, fiz este termo que depois de lido assignam commigo o declarante e as
   testemunhas Antonio da Silva Brandão e Olympio de Carvalho. Eu, José Alves Pimentel, Escrivão de Paz, o escrevi. [assinaturas:] José Alves Pimentel; João Gonçalves Bohrer; Antonio da Silva Brandão; Olympio
-  de Carvalho.
+  de Carvalho. [Corrected 2026-10-08 from the image: the grandparents' clause ends "já
+  fallecida" (singular), marking only Lucinda as deceased; it was earlier transcribed "já
+  fallecidos".]
 abstract: >-
   The 1924 Nova Friburgo birth registration of Eunir Bohrer, declared by the
   father João Gonçalves Bohrer (P-0014). The mother, Celina Bohrer (P-0015), is
   recorded as "natural deste Districto" (born in Nova Friburgo, RJ). It names both
   grandparent couples — paternal Valentim Martinho Bohrer + Carolina Bohrer,
-  maternal Joaquim José Bohrer + Lucinda Ferreira Bohrer (deceased) — corroborating
-  the parentage of P-0014 and P-0015 and fixing Celina's origin as Nova Friburgo.
+  maternal Joaquim José Bohrer + Lucinda Ferreira Bohrer ("já fallecida" — the
+  singular marks only Lucinda as deceased; Joaquim José's status is not stated) —
+  corroborating the parentage of P-0014 and P-0015 and fixing Celina's origin as Nova
+  Friburgo. [Corrected 2026-10-08 from the image: the record reads "já fallecida", not
+  "já fallecidos"; it does not mark Joaquim José as deceased.]
 abstract_pt: >-
   O registro de nascimento de 1924, em Nova Friburgo, de Eunir Bohrer, declarado
   pelo pai João Gonçalves Bohrer (P-0014). A mãe, Celina Bohrer (P-0015), é
   registrada como "natural deste Districto" (nascida em Nova Friburgo, RJ).
   Nomeia os dois casais de avós — paternos Valentim Martinho Bohrer + Carolina
-  Bohrer, maternos Joaquim José Bohrer + Lucinda Ferreira Bohrer (falecidos) —
-  corroborando a filiação de P-0014 e P-0015 e fixando a origem de Celina como
-  Nova Friburgo.
+  Bohrer, maternos Joaquim José Bohrer + Lucinda Ferreira Bohrer ("já fallecida" —
+  o singular marca apenas Lucinda como falecida; a situação de Joaquim José não é
+  declarada) — corroborando a filiação de P-0014 e P-0015 e fixando a origem de
+  Celina como Nova Friburgo. [Corrigido em 2026-10-08 a partir da imagem: o registro lê
+  "já fallecida", e não "já fallecidos"; não dá Joaquim José como falecido.]
 reliability:
   assessment: >-
     Original civil-register evidence; the informant is the father, João Gonçalves
@@ -76,7 +83,11 @@ reliability:
   informant: The father, João Gonçalves Bohrer.
   limitations: >-
     The page carries other, unrelated birth entries. Eunir (the child, a sibling
-    of Iris P-0007) is a collateral person and is not modelled as an entity.
+    of Iris P-0007) is a collateral person and is not modelled as an entity. The
+    place of the parents' civil marriage, transcribed "neste Município", may instead
+    read "Lumiar" [uncertain] (a 2026-10-08 image check); the transcription is left
+    unchanged pending a clearer read. Only Lucinda is marked deceased ("já
+    fallecida"); the record does not state whether Joaquim José was living.
 digital_file:
   path: evidence/civil/CIV-0016-eunir-bohrer-birth-1924-nova-friburgo.jpg
   sha256: b52d0480b8e0d696d2ffa506983d9912cb7b58bfb7785be120b65ba4ebcd8036

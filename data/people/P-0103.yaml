@@ -15,6 +15,10 @@ event_ids:
 family_ids:
 - F-0051
 - F-0052
+occupations:
+  - value: lavrador
+    source_ids:
+      - CIV-0045
 notes:
 - text: >-
     Father of Carolina Klein (P-0029, wife of Valentim Martinho Bohrer); named with his wife Maria
@@ -36,8 +40,10 @@ profile: >-
   this should read 16 October was withdrawn on 2026-09-24 — it mistook "9br" for the ninth month.
 
   - **[PROVEN]** At his own wedding on 29 April 1872 he was twenty-six, "ledig" — never married
-  — and living not at Nova Friburgo but at **Rio Bonito**, some distance down the fluminense
-  highlands. His father Johannes is named without a death qualifier; his mother is "der
+  — and living at **"Rio bonito"** (PAR-0068: "wohnhaft no Rio bonito"). Which Rio Bonito is
+  not stated: most likely the colonist settlement on the Rio Bonito at Lumiar, inside Nova
+  Friburgo's own highlands, rather than the lowland town of that name [INFERRED; corrected
+  2026-10-08 from "down the fluminense highlands"]. His father Johannes is named without a death qualifier; his mother is "der
   verstorbenen Anna Margaretha". (PAR-0068)
 
   - **[PROVEN]** He was still alive and exercising paternal authority in November 1890: his
@@ -77,7 +83,7 @@ profile: >-
   Lutheran church; he was 26, single and resident at Rio Bonito (PAR-0068, event E-0092).
   [PROVEN]
 
-  - **Death:** not located. He was alive in November 1890 (PAR-0064). [OPEN, with a firm lower
+  - **Death:** not located. He was alive on 2 October 1891, when he declared his son Antonio Ramos's birth (CIV-0045, entry Nº 235; earlier bound November 1890, PAR-0064). [OPEN, with a firm lower
   bound]
 
   ## Standing and profession
@@ -91,6 +97,13 @@ profile: >-
   residences; his trade is OPEN]
 
   ## Family and social network
+
+  - **[PROVEN — CIV-0045, entry Nº 235]** On 2 October 1891 he declared in person, at São José
+  do Ribeirão, the birth of a son, Antonio Ramos, born the day before to "sua mulher Maria Luiza
+  Schenengel" [Schenkel]; the couple are "lavradores e moradores desta Parochia", married at Nova
+  Friburgo, and he signed by another's hand "por não saber escrever". The act names his own
+  parents, João Klein and Anna Margarida, as "fallecidos". So he was alive on 2 October 1891.
+  (Catalogued 2026-10-08.)
 
   His 1844 baptism already shows the Klein name doubled in the congregation: the godmother was
   "Elisabeth, Tochter von Jacob Klein, [Küster] daselbst" — Elisabeth, daughter of a *Jacob
@@ -132,7 +145,7 @@ profile: >-
 
   ## Open questions
 
-  - His death record — unlocated. He was alive in November 1890; the Nova Friburgo and São José
+  - His death record — unlocated. He was alive on 2 October 1891 (CIV-0045); the Nova Friburgo and São José
   do Ribeirão civil death books after that date are the target. [OPEN]
 
   - His mother's maiden surname. The catalogued transcriptions of both records read it as "[Neis
@@ -186,10 +199,10 @@ profile: >-
   daughter Carolina abjured Protestantism and married in November 1890, with his verbal consent.
   [RESOLVED]
 
-  - **Rio Bonito, RJ** — Igreja Matriz Nossa Senhora da Conceição, Praça Fonseca Portela s/n,
-  Centro · [Maps](https://maps.google.com/?q=-22.71229,-42.62456). The town he was living in
-  when he married in 1872, and where his parents are said to have died. [RESOLVED as a place;
-  his own record there is OPEN]
+  - **"Rio bonito" (his 1872 residence)** — not resolved [OPEN]. Most likely the Rio Bonito at
+  Lumiar, district of Nova Friburgo, where colonist families settled [INFERRED]; the lowland
+  town of Rio Bonito, RJ (Igreja Matriz Nossa Senhora da Conceição) is the alternative. His
+  parents are said to have died there; his own record there is OPEN.
 profile_pt: >-
   ## Fatos interessantes
 
@@ -202,8 +215,10 @@ profile_pt: >-
   deveria ler 16 de outubro foi retirada em 2026-09-24 — confundia "9br" com o nono mês.
 
   - **[PROVEN]** No próprio casamento, em 29 de abril de 1872, tinha vinte e seis anos, era
-  "ledig" — nunca casado — e morava não em Nova Friburgo, mas no **Rio Bonito**, serra
-  fluminense abaixo. O pai, Johannes, é nomeado sem qualificador de falecimento; a mãe é "der
+  "ledig" — nunca casado — e morava no **"Rio bonito"** (PAR-0068: "wohnhaft no Rio bonito").
+  Qual Rio Bonito não se diz: muito provavelmente o povoado de colonos no Rio Bonito, em Lumiar,
+  na própria serra de Nova Friburgo, e não a cidade baixa desse nome [INFERRED; corrigido em
+  2026-10-08 de "serra fluminense abaixo"]. O pai, Johannes, é nomeado sem qualificador de falecimento; a mãe é "der
   verstorbenen Anna Margaretha". (PAR-0068)
 
   - **[PROVEN]** Ainda estava vivo e exercendo autoridade paterna em novembro de 1890: sua filha
@@ -242,7 +257,7 @@ profile_pt: >-
   igreja luterana de Nova Friburgo; tinha 26 anos, era solteiro e morava no Rio Bonito
   (PAR-0068, evento E-0092). [PROVEN]
 
-  - **Óbito:** não localizado. Estava vivo em novembro de 1890 (PAR-0064). [OPEN, com limite
+  - **Óbito:** não localizado. Estava vivo a 2 de outubro de 1891, quando declarou o nascimento do filho Antonio Ramos (CIV-0045, termo Nº 235; limite anterior novembro de 1890, PAR-0064). [OPEN, com limite
   inferior firme]
 
   ## Posição social e profissão
@@ -256,6 +271,13 @@ profile_pt: >-
   está OPEN]
 
   ## Família e rede social
+
+  - **[PROVEN — CIV-0045, termo Nº 235]** A 2 de outubro de 1891 declarou pessoalmente, em São
+  José do Ribeirão, o nascimento de um filho, Antonio Ramos, nascido na véspera de "sua mulher
+  Maria Luiza Schenengel" [Schenkel]; o casal é "lavradores e moradores desta Parochia", casados
+  em Nova Friburgo, e ele assinou a rogo "por não saber escrever". O termo nomeia os próprios pais
+  dele, João Klein e Anna Margarida, como "fallecidos". Estava, portanto, vivo a 2 de outubro de
+  1891. (Catalogado em 2026-10-08.)
 
   Seu batismo de 1844 já mostra o nome Klein duplicado na congregação: a madrinha foi
   "Elisabeth, Tochter von Jacob Klein, [Küster] daselbst" — Elisabeth, filha de um *Jacob Klein*
@@ -296,7 +318,7 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seu registro de óbito — não localizado. Estava vivo em novembro de 1890; os livros civis de
+  - Seu registro de óbito — não localizado. Estava vivo a 2 de outubro de 1891 (CIV-0045); os livros civis de
   óbito de Nova Friburgo e São José do Ribeirão posteriores a essa data são o alvo. [OPEN]
 
   - O sobrenome de solteira da mãe. As transcrições catalogadas dos dois registros o leem como
@@ -350,7 +372,7 @@ profile_pt: >-
   filha Carolina abjurou o protestantismo e se casou em novembro de 1890, com o consentimento
   verbal dele. [RESOLVED]
 
-  - **Rio Bonito, RJ** — Igreja Matriz Nossa Senhora da Conceição, Praça Fonseca Portela s/n,
-  Centro · [Mapa](https://maps.google.com/?q=-22.71229,-42.62456). A cidade em que morava quando
-  se casou, em 1872, e onde se diz que morreram seus pais. [RESOLVED como lugar; o registro dele
-  ali está OPEN]
+  - **"Rio bonito" (sua residência em 1872)** — não resolvido [OPEN]. Muito provavelmente o Rio
+  Bonito em Lumiar, distrito de Nova Friburgo, onde se fixaram famílias de colonos [INFERRED]; a
+  cidade baixa de Rio Bonito, RJ (Igreja Matriz Nossa Senhora da Conceição) é a alternativa.
+  Diz-se que os pais morreram ali; o registro dele ali está OPEN.

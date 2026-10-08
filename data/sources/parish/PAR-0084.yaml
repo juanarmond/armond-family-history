@@ -44,10 +44,23 @@ transcription: >-
   annos de idade solteira d'ocupação domestica natural baptisada e moradora nesta
   freguesia, filha legitima de Manoel Muniz Bettencourt já defunto e de Francisca
   Roza [do] Espirito Santo naturaes da mesma; os quaes nubentes se receberão por
-  marido e mulher. Forão dispensados de proclamas legaes. Forão testemunhas o
-  Reverendo Julio Cesar Augusto e Francisco Soares Brandão casado, proprietario,
-  morador nesta freguesia. O Cura Julio Cesar Augusto; assignou tambem Manoel
-  Ignacio Ferreira [incerto]."
+  marido e mulher, e os uni em Matrimonio procedendo em tudo este acto conforme o
+  Rito da Santa Madre Igreja Catholica Apostolica Romana. Forão dispensados dos
+  proclamas Legaes e a nubente obteve o consenso materno como consta do Mandado do
+  Illustrissimo e Reverendissimo Senhor Ouvidor Geral Delegado de Sua Excellencia
+  Reverendissima em Ponta Delgada o qual fica archivado; e forão testemunhas
+  presentes que sei serem os proprios o Reverendo Julio Cesar Augusto Cura
+  [uncertain] da dita Parochial e Francisco Soares Brandão casado proprietario
+  naturaes e moradores nesta freguezia. E para constar lavrei em duplicado este
+  assento, que depois
+  de ser lido e conferido perante os Conjuges e testemunhas comigo o não assignão os
+  Conjuges e a segunda testemunha por não saberem escrever. Era ut supra. Padre
+  Julio Cesar Augusto / O Cura Manoel Ignacio Ferreira." [Corrected 2026-10-08 from
+  the image: the earlier transcription omitted the nuptial-blessing clause, the
+  maternal-consent mandate and the closing formula, compressed the witness clause
+  (the witnesses are "naturaes e moradores", not one "morador"), and misread the
+  sign-off — the officiating Cura who wrote and signed the act is Manoel Ignacio
+  Ferreira; Padre Julio Cesar Augusto signed as first witness.]
 abstract: >-
   Parish marriage of Claudina Muniz Bettencourt, aged 16 (born ~1856), a domestic
   worker of N.S. Mãe de Deus (Povoação, São Miguel, Azores), to Manoel Soares de
@@ -55,7 +68,10 @@ abstract: >-
   parents Manoel Muniz Bettencourt (P-0042), stated "já defunto" (already
   deceased by 22 September 1872), and Francisca Roza do Espírito Santo (P-0047) —
   hence Claudina is a sister of the emigrant João Muniz Bittencourt (P-0019).
-  Recorded as a documented child on family F-0020. This bride Claudina (b. ~1856)
+  The bride, a minor, obtained her mother's consent ("consenso materno"), recorded
+  by mandate of the Ouvidor Geral at Ponta Delgada — so Francisca was presumably
+  living when that consent was given in 1872 [INFERRED]. The proclamations were
+  dispensed. Recorded as a documented child on family F-0020. This bride Claudina (b. ~1856)
   is a distinct person from the couple's infant daughter of the same name who
   died in 1854 (PAR-0085) — a reused given name. PROVEN. Not modelled as a person
   entity; no event created.
@@ -66,7 +82,11 @@ abstract_pt: >-
   de 1872. Nomeia seus pais Manoel Muniz Bettencourt (P-0042), declarado "já
   defunto" (já falecido em 22 de setembro de 1872), e Francisca Roza do Espírito
   Santo (P-0047) — portanto Claudina é irmã do emigrante João Muniz Bittencourt
-  (P-0019). Registrada como filha documentada na família F-0020. Esta noiva
+  (P-0019). A noiva, menor, obteve o consentimento materno ("consenso materno"),
+  registrado por mandado do Ouvidor Geral em Ponta Delgada — portanto Francisca
+  presumivelmente estava viva quando esse consentimento foi dado em 1872 [INFERRED].
+  Os proclamas foram dispensados. Registrada como filha documentada na família
+  F-0020. Esta noiva
   Claudina (n. ~1856) é pessoa distinta da filha bebê homônima do casal, falecida
   em 1854 (PAR-0085) — nome reutilizado. PROVADO. Não modelada como entidade
   pessoa; sem evento criado.
@@ -76,10 +96,19 @@ reliability:
     bride's filiation to Manoel Muniz Bettencourt and Francisca Roza do Espírito
     Santo; it also establishes that her father Manoel was already deceased by 22
     September 1872.
-  informant: The Cura Julio Cesar Augusto.
+  informant: >-
+    The officiating Cura Manoel Ignacio Ferreira, who wrote and signed the act
+    ("comigo"); Padre Julio Cesar Augusto signed as first witness. The spouses and
+    the second witness (Francisco Soares Brandão) did not sign, not knowing how to
+    write. [Corrected 2026-10-08 from the image: previously given as "the Cura Julio
+    Cesar Augusto".]
   limitations: >-
-    A co-signer's name reads "Manoel Ignacio Ferreira" (uncertain). Claudina is a
-    collateral (a sister of João P-0019) recorded as a documented child, not
+    The Ouvidor Geral's mandate granting the maternal consent is stated to be filed
+    ("fica archivado") but is not held. One word in the closing is uncertain — the
+    descriptor "Cura" after Julio Cesar Augusto's name in the witness clause; it does not
+    affect a genealogical fact. (The closing verb reads "lavrei", confirmed on the image
+    2026-10-08.) Claudina is
+    a collateral (a sister of João P-0019) recorded as a documented child, not
     modelled.
 digital_file:
   path: evidence/parish/PAR-0084-claudina-muniz-bettencourt-marriage-1872-maededeus.jpg
@@ -101,3 +130,10 @@ notes:
     P-0042. A distinct person from the couple's 1854 infant Claudina (PAR-0085).
     Not modelled as a person entity; no event created. Public record (1872,
     Azores).
+- text: >-
+    [Corrected 2026-10-08 from the image: the transcription was completed with the
+    omitted passages (nuptial-blessing clause, the maternal-consent mandate of the
+    Ouvidor Geral at Ponta Delgada, the full witness clause and the closing formula),
+    and the sign-off corrected to "Padre Julio Cesar Augusto / O Cura Manoel Ignacio
+    Ferreira" — the officiant is the Cura Manoel Ignacio Ferreira, not Julio Cesar
+    Augusto. Reliability informant and limitations updated to match.]

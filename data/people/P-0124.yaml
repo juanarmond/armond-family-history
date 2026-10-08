@@ -12,16 +12,26 @@ name_variants:
   - PUB-0005
   - PAR-0086
   - PAR-0089
-- value: Mariana Fagueda
+  - PAR-0091
+  - PAR-0092
+  - PAR-0095
+- value: Mariana Fagunda
   type: source
   source_ids:
   - PAR-0090
-- value: marianna Faguedes
+  note: >-
+    "mariana Fagunda" in her daughter Maria's 1651 baptism; the surname ending is
+    uncertain at 612×842 px [uncertain]. Re-read 2026-10-08; supersedes the misreading
+    "Mariana Fagueda".
+- value: Marianna Fagundes
   type: source
   source_ids:
-  - PAR-0091
-  - PAR-0095
   - PAR-0096
+  note: >-
+    "marianna Fa-gundes" (split across the line) in her daughter Isabel's 1666 baptism.
+    Re-read 2026-10-08; supersedes the misreading "marianna Faguedes", which had also been
+    attributed to PAR-0091 and PAR-0095 (both read "mariana Fa-gundes", now under the
+    Mariana Fagundes variant).
 event_ids:
 - E-0128
 - E-0136
@@ -68,7 +78,7 @@ profile: >-
 
   - **[PROVEN]** Her burial act is unusually specific about where she was put: "sepultura da fabrica, segunda fiada nona" — the ninth grave in the second row of the parish fabric's plots, *inside* the church (PAR-0089, São Sebastião óbitos O-1642-1696 p.0062). Burial within the church body was a paid privilege **[CONTEXTUAL]**, and it is the one status marker the record gives her in her own right.
 
-  - **[PROVEN]** She appears in nine held parish images, and the scribes spell her name differently in almost every one: "Mariana Fagundes" (1650 marriage margin and her own burial), "Mariana Fagueda" (1651), "marianna Faguedes" (1652, 1664, 1666), "mariAna Faguedes" (1654) and — at the extreme — "morsarana" in 1656, a purely phonetic rendering of Mariana.
+  - **[PROVEN]** She appears in eight held parish images, and the scribes vary her name: "Mariana Fagundes" (1650 marriage margin, 1652, 1654, 1664 and her own burial), "mariana Fagunda" (1651, ending **[uncertain]**), "marian[a/e] Fg.des" (1656, surname abbreviated) and "marianna Fagundes" (1666). [Corrected 2026-10-08 on direct image re-reads: earlier versions gave "Fagueda", "Faguedes" and, for 1656, "morsarana", and counted nine images including PAR-0094, which is another family's baptism.]
 
   - **[PROVEN]** The vicar who buried her on 7 July 1684 signs as **Antônio Coelho Sotomayor**. **[INFERRED]** That is, very probably, her husband's own brother — Mendes Forjaz makes an António Coelho Souto-Maior *padre vigário* of the Matriz de São Sebastião until his death in 1686 **[COMPILED]**. Her son baptised in 1654 carries the same name.
 
@@ -82,7 +92,7 @@ profile: >-
 
   ## Identity
 
-  **Mariana Fagundes** — died and was buried 7 July 1684, São Sebastião, Terceira **[PROVEN, PAR-0089]**; married **Belchior da Ponte Cardoso** (P-0123) on 26 September 1650 at Santa Bárbara **[PROVEN, PAR-0086]**; family F-0062. Her burial act identifies her only as "Mariana Fagundes [mulher] de M° Balchion de Ponte" — wife of Belchior da Ponte. Daughter of **António Martins Fagundes** (P-0127) and **Catarina Machado de Faria** (P-0128), family F-0064 — **[PROVEN, PAR-0086]**: her own marriage act names both parents, "filha do [illegible] **Ant.º Machado** e de sua m[ulhe]r **C.ta [Cat(arin)a] Machada**". Mendes Forjaz Vol. IV § 6º, which gives the same couple under their fuller names, is thereby **confirmed at primary level — confirmed, not replaced**.
+  **Mariana Fagundes** — died and was buried 7 July 1684, São Sebastião, Terceira **[PROVEN, PAR-0089]**; married **Belchior da Ponte Cardoso** (P-0123) on 26 September 1650 at Santa Bárbara **[PROVEN, PAR-0086]**; family F-0062. Her burial act identifies her only as "Mariana Fagundes m.er do Alf.es Balchior de Ponte" — wife of the Alferes Belchior da Ponte (re-read 2026-10-08; earlier misread "M° Balchion de Ponte"). Daughter of **António Martins Fagundes** (P-0127) and **Catarina Machado de Faria** (P-0128), family F-0064 — **[PROVEN, PAR-0086]**: her own marriage act names both parents, "filha do [illegible] **Ant.º Machado** e de sua m[ulhe]r **C.ta [Cat(arin)a] Machada**". Mendes Forjaz Vol. IV § 6º, which gives the same couple under their fuller names, is thereby **confirmed at primary level — confirmed, not replaced**.
 
   - **Birth:** unknown; inferred **c.1625–1632** (see above). No baptism located — and, at present, none locatable: see Open questions.
   - **Nationality:** Portuguese (born in the Azores, Crown territory)
@@ -103,8 +113,8 @@ profile: >-
 
   - **Parents [PROVEN, PAR-0086]:** the 1650 marriage act names them, in the register's own short forms, as **Ant.º Machado** and **C.ta [Cat(arin)a] Machada** — "e de sua m[ulhe]r", which also attests that the two were married. **[COMPILED, PUB-0004]** the same couple appear in Vol. IV as António Martins Fagundes (*ou* Machado Fagundes) and Catarina Machado de Faria, of Santa Bárbara; the fuller forms, his captaincy, his 1664 death and her LEMOS descent remain compiled. One word stands between "filha do" and her father's name — very likely a style or militia rank — and it is **not** readable at the held resolution.
   - **Siblings [COMPILED, PUB-0004 p.312]:** António Machado, *padre*; **Manuel Machado, "que saiu da Terceira"**; Margarida de Lemos Machado, who married André de Azedias, *alferes de ordenanças*, and died at Conceição on 15 June 1658 *com testamento*; Inês de Lemos Machado, married at Lajes 15 February 1669 to António Ferreira de Melo; Pedro Lourenço Machado, *alferes de ordenanças*, married at Lajes 17 November 1669; and Guilherme Vieira. Note the pattern: a priest, an emigrant, two daughters married to men of other parishes, and a brother carrying their grandfather's full name.
-  - **Her own children:** nine listed by Mendes Forjaz **[COMPILED]**, seven of them with held baptism images naming her as mother **[PROVEN]** — 1651, 1652, 1654, 1656, 1662 (name uncertain, **[PROBABLE]**), 1664 and 1666. Her last documented childbirth was at Isabel's baptism in September 1666, eighteen years before her death.
-  - **Godparents at her children's baptisms [PROVEN, uncertain reads]:** "Asceto André Coelho" (1651), "[?] Cardos da Ponte" (1654), "Isabel de Souto[?]" (1666) — all within the husband's kindred rather than hers, consistent with a wife who had moved into her husband's parish.
+  - **Her own children:** nine listed by Mendes Forjaz **[COMPILED]**, six of them with held baptism images naming her as mother **[PROVEN]** — 1651, 1652, 1654, 1656, 1664 and 1666. The compiled Maria of ~1662 has no held baptism (PAR-0094 is another family's act; corrected 2026-10-08). Her last documented childbirth was at Isabel's baptism in September 1666, eighteen years before her death.
+  - **Godparents at her children's baptisms [PROVEN, some reads uncertain]:** the Capitão André Coelho [?] Fagundes and Maria de Ponte (1651); the Padre André Machado and Ignes Machada (1652); Fr.co Cardozo de Ponte (1654); Ant.º Cardozo (1664); the Alferes Pedro Lourenço and Izabel de Souto (1666). Mostly from the husband's Ponte–Cardozo–Souto kindred, but the 1651 godfather carries her own surname, Fagundes — so her kin were not wholly absent **[INFERRED]**. [Corrected 2026-10-08: earlier read "Asceto André Coelho" and "[?] Cardos da Ponte", and described all godparents as the husband's kin.]
   - **Two parishes, one life [PROVEN].** Santa Bárbara holds her marriage; São Sebastião holds her children and her grave. That split is the documentary signature of a woman who married out of her home parish.
 
   ## What we can extrapolate
@@ -125,14 +135,14 @@ profile: >-
   - **Nothing is known of her parents' own lives from any record.** PAR-0086 proves who they were; it says nothing about when either was born, married or died. Their own vital records remain unlocated.
   - **Her mother's line is unread.** Vol. IV sends Catarina Machado de Faria to "LEMOS, § 3º, nº 5"; that section was not located in the nine volumes covered by the 2026-09-23 full-corpus search.
   - **A surname-level negative worth recording.** The Santa Bárbara *casamentos* book C-1560-1606 was read in full (all 169 pages) and yielded **no confirmed Fagundes entry** across 1560–1606, and the Santa Bárbara baptisms 1600–1610 yielded none either (one "Bárbora F[agun?]andes" reading is explicitly uncertain between Fagundes and Fernandes). Since Vol. IV places her grandfather's family in that parish from the 1590s, this is most likely a legibility and indexing limit rather than a real absence — it must not be read as proof that the family was not there.
-  - **The "two Gaspars" question — UNRESOLVED.** Vol. IX lists one Gaspar for her and Belchior (b. São Sebastião 1657, d. there 2 December 1727). The Brazilian Gaspar Ferreira (P-0092) is at Villa Rica with a son marrying in 1783. Either the compiled death date is wrong, or P-0092 is the next generation. Awaiting the owner's decision; not to be settled here.
-  - **PAR-0094 (1662)** names her as mother of a child whose own name is uncertain ("Anto" in the margin against Vol. IX's Maria) — held as **[PROBABLE]**.
+  - **The "two Gaspars" question — UNRESOLVED.** Vol. IX lists one Gaspar for her and Belchior (b. São Sebastião 1657, d. there 2 December 1727). The Brazilian Gaspar Ferreira (P-0092) is placed at Villa Rica by his son's recorded birth and baptism there, with that son marrying in 1783. Either the compiled death date is wrong, or P-0092 is the next generation. Awaiting the owner's decision; not to be settled here.
+  - **The compiled Maria of ~1662 is unattested by any held image.** PAR-0094, once read as naming Mariana as her mother, does not: its legible "Ant.º" entry is António, son of Gregório Cardozo (12 June 1662), and its facing-page "M[?]" entry is illegible. [Corrected 2026-10-08: earlier held as **[PROBABLE]**.]
 
   ## Sources held (this repository)
 
-  - **PAR-0089** — her burial, São Sebastião, 7 July 1684 (O-1642-1696 p.0062): margin "Mariana / Fags"; body "…fale Cao Mariana Fagundes [mulher] de M° Balchion de Ponte"; grave "sepultura da fabrica segunda fiada nona"; officiant Vicar Antônio Coelho Sotomayor. *Primary.*
+  - **PAR-0089** — her burial, São Sebastião, 7 July 1684 (O-1642-1696 p.0062): margin "Mariana / Fags"; body "…faleceo Mariana Fagundes m.er do Alf.es Balchior de Ponte" (re-read 2026-10-08; earlier misread "…de M° Balchion de Ponte"); grave "sepultura da fabrica segunda fiada nona"; officiant Vicar Antônio Coelho Sotomayor. *Primary.*
   - **PAR-0086** — her marriage, Santa Bárbara, 26 September 1650 (3 images). Besides the marriage itself, the act is **the proof of her parentage**: "filha do [illegible] Ant.º Machado e de sua m[ulhe]r C.ta Machada". *Primary; the leaf is torn and the officiant's formula and most of the witness list remain unread, but the filiation clause is legible.*
-  - **PAR-0090 / 0091 / 0092 / 0093 / 0094 / 0095 / 0096** — the baptisms of seven of her children, 1651–1666, each naming her as mother. *Primary.*
+  - **PAR-0090 / 0091 / 0092 / 0093 / 0095 / 0096** — the baptisms of six of her children, 1651–1666, each naming her as mother. *Primary.* (PAR-0094, the pages probed for the compiled Maria of 1662, does not attest her.)
   - **PUB-0004** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IV, FAGUNDES § 6º, pp. 312–313: her parents, her death date, her marriage and her siblings. *Secondary, compiled — and, for the parentage specifically, now corroborated by PAR-0086 at primary level.*
   - **PUB-0005** — the same compilation, Vol. IX, SOUTO-MAIOR § 1º, pp. 257–261: the 1650 marriage from her husband's side and the full list of their children. The two volumes cross-refer to each other for this marriage, which is why the couple's identity is firm even where the image is not.
 
@@ -154,7 +164,7 @@ profile_pt: >-
 
   - **[PROVEN]** O assento de óbito é invulgarmente preciso quanto ao lugar em que foi sepultada: "sepultura da fabrica, segunda fiada nona" — a nona cova da segunda fiada das sepulturas da fábrica da paróquia, *dentro* da igreja (PAR-0089, óbitos de São Sebastião O-1642-1696 p.0062). A sepultura no corpo da igreja era privilégio pago **[CONTEXTUAL]**, e é o único marcador de posição que o registo lhe dá em nome próprio.
 
-  - **[PROVEN]** Aparece em nove imagens paroquiais disponíveis, e os escrivães grafam o nome dela de forma diferente em quase todas: "Mariana Fagundes" (margem do casamento de 1650 e o próprio óbito), "Mariana Fagueda" (1651), "marianna Faguedes" (1652, 1664, 1666), "mariAna Faguedes" (1654) e — no extremo — "morsarana" em 1656, transcrição puramente fonética de Mariana.
+  - **[PROVEN]** Aparece em oito imagens paroquiais disponíveis, e os escrivães variam o nome dela: "Mariana Fagundes" (margem do casamento de 1650, 1652, 1654, 1664 e o próprio óbito), "mariana Fagunda" (1651, terminação **[incerta]**), "marian[a/e] Fg.des" (1656, apelido abreviado) e "marianna Fagundes" (1666). [Corrigido em 2026-10-08 após releitura direta das imagens: versões anteriores davam "Fagueda", "Faguedes" e, para 1656, "morsarana", e contavam nove imagens incluindo o PAR-0094, que é o baptismo de outra família.]
 
   - **[PROVEN]** O vigário que a sepultou a 7 de julho de 1684 assina **Antônio Coelho Sotomayor**. **[INFERRED]** Muito provavelmente é o próprio irmão do marido — Mendes Forjaz faz de um António Coelho Souto-Maior *padre vigário* da Matriz de São Sebastião até à sua morte, em 1686 **[COMPILED]**. O filho dela baptizado em 1654 leva o mesmo nome.
 
@@ -168,7 +178,7 @@ profile_pt: >-
 
   ## Identidade
 
-  **Mariana Fagundes** — falecida e sepultada a 7 de julho de 1684, São Sebastião, Terceira **[PROVEN, PAR-0089]**; casou com **Belchior da Ponte Cardoso** (P-0123) a 26 de setembro de 1650, em Santa Bárbara **[PROVEN, PAR-0086]**; família F-0062. O assento de óbito identifica-a apenas como "Mariana Fagundes [mulher] de M° Balchion de Ponte". Filha de **António Martins Fagundes** (P-0127) e **Catarina Machado de Faria** (P-0128), família F-0064 — **[PROVEN, PAR-0086]**: o próprio assento de casamento nomeia os dois, "filha do [ilegível] **Ant.º Machado** e de sua m[ulhe]r **C.ta [Cat(arin)a] Machada**". Mendes Forjaz, Vol. IV § 6º, que dá o mesmo casal com os nomes mais extensos, fica assim **confirmado ao nível primário — confirmado, não substituído**.
+  **Mariana Fagundes** — falecida e sepultada a 7 de julho de 1684, São Sebastião, Terceira **[PROVEN, PAR-0089]**; casou com **Belchior da Ponte Cardoso** (P-0123) a 26 de setembro de 1650, em Santa Bárbara **[PROVEN, PAR-0086]**; família F-0062. O assento de óbito identifica-a apenas como "Mariana Fagundes m.er do Alf.es Balchior de Ponte" — mulher do Alferes Belchior da Ponte (relido em 2026-10-08; antes lido "M° Balchion de Ponte"). Filha de **António Martins Fagundes** (P-0127) e **Catarina Machado de Faria** (P-0128), família F-0064 — **[PROVEN, PAR-0086]**: o próprio assento de casamento nomeia os dois, "filha do [ilegível] **Ant.º Machado** e de sua m[ulhe]r **C.ta [Cat(arin)a] Machada**". Mendes Forjaz, Vol. IV § 6º, que dá o mesmo casal com os nomes mais extensos, fica assim **confirmado ao nível primário — confirmado, não substituído**.
 
   - **Nascimento:** desconhecido; inferido **c.1625–1632** (ver acima). Nenhum baptismo localizado — e, de momento, não localizável: ver Questões em aberto.
   - **Nacionalidade:** portuguesa (nascida nos Açores, território da Coroa)
@@ -189,8 +199,8 @@ profile_pt: >-
 
   - **Pais [PROVEN, PAR-0086]:** o assento de 1650 nomeia-os, nas formas curtas do próprio livro, como **Ant.º Machado** e **C.ta [Cat(arin)a] Machada** — "e de sua m[ulhe]r", o que atesta também que os dois eram casados. **[COMPILED, PUB-0004]** o mesmo casal aparece no Vol. IV como António Martins Fagundes (*ou* Machado Fagundes) e Catarina Machado de Faria, de Santa Bárbara; as formas mais extensas, a capitania dele, o óbito de 1664 e a descendência LEMOS dela continuam compilados. Entre "filha do" e o nome do pai há uma palavra — muito provavelmente um tratamento ou uma patente — que **não** é legível na resolução disponível.
   - **Irmãos [COMPILED, PUB-0004 p.312]:** António Machado, *padre*; **Manuel Machado, "que saiu da Terceira"**; Margarida de Lemos Machado, casada com André de Azedias, *alferes de ordenanças*, falecida na Conceição a 15 de junho de 1658 *com testamento*; Inês de Lemos Machado, casada nas Lajes a 15 de fevereiro de 1669 com António Ferreira de Melo; Pedro Lourenço Machado, *alferes de ordenanças*, casado nas Lajes a 17 de novembro de 1669; e Guilherme Vieira. Repare-se no padrão: um padre, um emigrante, duas filhas casadas com homens de outras freguesias e um irmão que leva o nome completo do avô.
-  - **Os seus filhos:** nove listados por Mendes Forjaz **[COMPILED]**, sete deles com imagem de baptismo disponível nomeando-a como mãe **[PROVEN]** — 1651, 1652, 1654, 1656, 1662 (nome incerto, **[PROBABLE]**), 1664 e 1666. O último parto documentado foi o baptismo de Isabel, em setembro de 1666, dezoito anos antes da sua morte.
-  - **Padrinhos dos filhos [PROVEN, leituras incertas]:** "Asceto André Coelho" (1651), "[?] Cardos da Ponte" (1654), "Isabel de Souto[?]" (1666) — todos da parentela do marido, e não da dela, coerente com uma mulher que se mudara para a freguesia do marido.
+  - **Os seus filhos:** nove listados por Mendes Forjaz **[COMPILED]**, seis deles com imagem de baptismo disponível nomeando-a como mãe **[PROVEN]** — 1651, 1652, 1654, 1656, 1664 e 1666. A Maria compilada de ~1662 não tem baptismo disponível (o PAR-0094 é assento de outra família; corrigido em 2026-10-08). O último parto documentado foi o baptismo de Isabel, em setembro de 1666, dezoito anos antes da sua morte.
+  - **Padrinhos dos filhos [PROVEN, algumas leituras incertas]:** o Capitão André Coelho [?] Fagundes e Maria de Ponte (1651); o Padre André Machado e Ignes Machada (1652); Fr.co Cardozo de Ponte (1654); Ant.º Cardozo (1664); o Alferes Pedro Lourenço e Izabel de Souto (1666). Sobretudo da parentela Ponte–Cardozo–Souto do marido, mas o padrinho de 1651 leva o apelido dela, Fagundes — a parentela dela não estava de todo ausente **[INFERRED]**. [Corrigido em 2026-10-08: antes lidos "Asceto André Coelho" e "[?] Cardos da Ponte", e todos os padrinhos descritos como parentes do marido.]
   - **Duas freguesias, uma vida [PROVEN].** Santa Bárbara guarda o casamento; São Sebastião guarda os filhos e a sepultura. Essa divisão é a assinatura documental de uma mulher que casou fora da sua freguesia de origem.
 
   ## O que podemos extrapolar
@@ -211,14 +221,14 @@ profile_pt: >-
   - **Nada se sabe, por registo, da vida dos próprios pais.** O PAR-0086 prova quem eles eram; não diz quando nasceu, casou ou morreu qualquer um deles. Os registos vitais próprios continuam por localizar.
   - **A linha materna está por ler.** O Vol. IV remete Catarina Machado de Faria para "LEMOS, § 3º, nº 5"; essa secção não foi localizada nos nove volumes cobertos pela busca integral de 2026-09-23.
   - **Um negativo ao nível do apelido, que importa registar.** O livro de *casamentos* de Santa Bárbara C-1560-1606 foi lido integralmente (as 169 páginas) e não deu **nenhuma entrada Fagundes confirmada** entre 1560 e 1606; os baptismos de Santa Bárbara de 1600–1610 também não (uma leitura "Bárbora F[agun?]andes" é explicitamente incerta entre Fagundes e Fernandes). Como o Vol. IV coloca a família do avô nessa freguesia desde a década de 1590, trata-se muito provavelmente de um limite de legibilidade e de indexação, e não de uma ausência real — não deve ser lido como prova de que a família ali não estava.
-  - **A questão dos "dois Gaspares" — NÃO RESOLVIDA.** O Vol. IX lista um só Gaspar para ela e Belchior (n. São Sebastião 1657, f. ali a 2 de dezembro de 1727). O Gaspar Ferreira brasileiro (P-0092) está em Villa Rica, com um filho a casar em 1783. Ou a data compilada de óbito está errada, ou P-0092 é a geração seguinte. Aguarda decisão do proprietário; não se resolve aqui.
-  - **O PAR-0094 (1662)** nomeia-a como mãe de uma criança cujo nome é incerto ("Anto" na margem, contra a Maria do Vol. IX) — mantido como **[PROBABLE]**.
+  - **A questão dos "dois Gaspares" — NÃO RESOLVIDA.** O Vol. IX lista um só Gaspar para ela e Belchior (n. São Sebastião 1657, f. ali a 2 de dezembro de 1727). O Gaspar Ferreira brasileiro (P-0092) é situado em Villa Rica pelo nascimento e baptismo ali registados do filho, que casou em 1783. Ou a data compilada de óbito está errada, ou P-0092 é a geração seguinte. Aguarda decisão do proprietário; não se resolve aqui.
+  - **A Maria compilada de ~1662 não é atestada por nenhuma imagem disponível.** O PAR-0094, antes lido como nomeando Mariana como mãe dela, não o faz: o seu assento legível "Ant.º" é de António, filho de Gregório Cardozo (12 de junho de 1662), e o assento "M[?]" da página fronteira é ilegível. [Corrigido em 2026-10-08: antes mantido como **[PROBABLE]**.]
 
   ## Fontes disponíveis (neste repositório)
 
-  - **PAR-0089** — o seu óbito, São Sebastião, 7 de julho de 1684 (O-1642-1696 p.0062): margem "Mariana / Fags"; corpo "…fale Cao Mariana Fagundes [mulher] de M° Balchion de Ponte"; sepultura "da fabrica segunda fiada nona"; officiante o Vigário Antônio Coelho Sotomayor. *Primária.*
+  - **PAR-0089** — o seu óbito, São Sebastião, 7 de julho de 1684 (O-1642-1696 p.0062): margem "Mariana / Fags"; corpo "…faleceo Mariana Fagundes m.er do Alf.es Balchior de Ponte" (relido em 2026-10-08; antes lido "…de M° Balchion de Ponte"); sepultura "da fabrica segunda fiada nona"; officiante o Vigário Antônio Coelho Sotomayor. *Primária.*
   - **PAR-0086** — o seu casamento, Santa Bárbara, 26 de setembro de 1650 (3 imagens). Além do casamento, o assento é **a prova da sua filiação**: "filha do [ilegível] Ant.º Machado e de sua m[ulhe]r C.ta Machada". *Primária; a folha está rasgada e a fórmula do celebrante e quase toda a lista de testemunhas ficam por ler, mas a cláusula de filiação está legível.*
-  - **PAR-0090 / 0091 / 0092 / 0093 / 0094 / 0095 / 0096** — os baptismos de sete dos seus filhos, 1651–1666, cada um nomeando-a como mãe. *Primárias.*
+  - **PAR-0090 / 0091 / 0092 / 0093 / 0095 / 0096** — os baptismos de seis dos seus filhos, 1651–1666, cada um nomeando-a como mãe. *Primárias.* (O PAR-0094, as páginas sondadas para a Maria compilada de 1662, não a atesta.)
   - **PUB-0004** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IV, FAGUNDES § 6º, pp. 312–313: os pais, a data de óbito, o casamento e os irmãos. *Secundária, compilada — e, quanto à filiação em concreto, agora corroborada pelo PAR-0086 ao nível primário.*
   - **PUB-0005** — a mesma compilação, Vol. IX, SOUTO-MAIOR § 1º, pp. 257–261: o casamento de 1650 pelo lado do marido e a lista completa dos filhos. Os dois volumes remetem um para o outro neste casamento, e é por isso que a identidade do casal é firme mesmo onde a imagem não é.
 

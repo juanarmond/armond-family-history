@@ -29,14 +29,20 @@ notes:
     Ahnentafel position 30 — father of Celina (Selina) Bohrer (P-0015). Named as
     Celina's father (already deceased) in her 1977 Volta Redonda death (CIV-0015)
     and as Eunir Bohrer's maternal grandfather in the 1924 Nova Friburgo birth
-    (CIV-0016, "já falecidos" by 1924). A negociante at the Alto da Serra, Nova
-    Friburgo (RJ), "natural desta Freguezia".
+    (CIV-0016, which marks only Lucinda "já fallecida" and does not state his death).
+    A negociante at the Alto da Serra, Nova Friburgo (RJ), "natural desta Freguezia".
+    [Corrected 2026-10-08 from the image: CIV-0016 reads the singular "já fallecida";
+    it was earlier cited as "já falecidos" by 1924, which wrongly made him deceased by
+    then. His death date is open.]
   text_pt: >-
     Posição 30 no Ahnentafel — pai de Celina (Selina) Bohrer (P-0015). Nomeado como
     pai de Celina (já falecido) em seu óbito de 1977 em Volta Redonda (CIV-0015) e
     como avô materno de Eunir Bohrer no nascimento de 1924 em Nova Friburgo (CIV-0016,
-    "já falecidos" em 1924). Negociante no Alto da Serra, Nova Friburgo (RJ), "natural
-    desta Freguezia".
+    que marca apenas Lucinda como "já fallecida" e não declara o óbito dele). Negociante
+    no Alto da Serra, Nova Friburgo (RJ), "natural desta Freguezia". [Corrigido em
+    2026-10-08 a partir da imagem: CIV-0016 lê o singular "já fallecida"; antes era
+    citado como "já falecidos" em 1924, o que o dava erroneamente como falecido até
+    então. A data do seu óbito está em aberto.]
 - text: >-
     His parents are now established: Francisco José Bohrer (P-0034, deceased by
     1890) and Rosa Eugenia de Lemos (P-0035) — family F-0016 — named as the
@@ -135,13 +141,14 @@ profile: >-
   retrieval side labels him João. The FamilySearch tree adds Francisco José (b. 1885), Joaquim
   José Júnior (b. 1899) and Álvaro José [LEAD — tree only; no record found].
 
-  - **Death:** already deceased by 1924 — recorded "já falecidos" with his wife on his
-  grandson Eunir's 1924 Nova Friburgo birth (CIV-0016) and as Celina's deceased father
-  in her 1977 death (CIV-0015) [PROVEN of the bound]; exact date not held. [OPEN] The bound is
-  only from above. His granddaughter Senira's 1923 birth names him as maternal grandfather and
-  marks only Lucinda "já fallecida", in the singular, which this project confirmed on the image
-  (CIV-0038). That hints he was still living in 1923, though a scribe's grammar is weak evidence
-  [INFERRED]. The 1921 lower bound used elsewhere rests on Lucinda's reported 1921 death, not on
+  - **Death:** date not held. The only documentary bound held is from above: Celina's 1977
+  death names him as her deceased father (CIV-0015) [PROVEN of the bound]. [OPEN] [Corrected
+  2026-10-08 from the image: Eunir's 1924 Nova Friburgo birth (CIV-0016) reads "já fallecida" in
+  the singular, marking only Lucinda as deceased — not "já falecidos" with his wife — so it does
+  not place his death before 1924.] Both his granddaughter Senira's 1923 birth (CIV-0038) and his
+  grandson Eunir's May 1924 birth (CIV-0016) name him as maternal grandfather and mark only
+  Lucinda as deceased. That hints he was still living in 1923 and in May 1924, though a scribe's
+  grammar is weak evidence [INFERRED]. The 1921 lower bound used elsewhere rests on Lucinda's reported 1921 death, not on
   his [LEAD]. The latest held proof of life is the conception of Lucinda Maria, born July 1908
   (PAR-0052) [INFERRED].
 
@@ -254,14 +261,17 @@ profile: >-
 
   ## Open questions
 
-  - His exact baptism act (Itaboraí, ~1858–62) and his death record (Nova Friburgo, between
-  1921 and 1924) — not held. (His 1884 marriage to Lucinda is now held — PAR-0056.) [OPEN]
+  - His exact baptism act (Itaboraí, ~1858–62) and his death record (Nova Friburgo; date open —
+  no longer bounded to 1921–1924, since CIV-0016 does not mark him deceased) — not held. (His 1884 marriage to Lucinda is now held — PAR-0056.) [OPEN]
 
   - **Death search bounds.** The retrieval research reports a bounded negative for him in the
   Nova Friburgo Matriz óbito book from November 1919 to 11 May 1924, with one gap of about six
   entries around September–October 1920 [LEAD — search not repeated here]. The remaining
   targets are the São Pedro and São José do Ribeirão parish books and the civil death registers
-  of 1921–1924, or 1923–1924 if the CIV-0038 hint holds. [OPEN]
+  — from 1921 onward, or from late May 1924 onward if the singular "já fallecida" in CIV-0038
+  (1923) and CIV-0016 (May 1924) means he was then living [INFERRED]; the Matriz negative to 11
+  May 1924 would not reach that later window. [OPEN] [Corrected 2026-10-08: the earlier
+  1921–1924 window rested partly on misreading CIV-0016 as "já falecidos".]
 
   - **The tree-only children** (Francisco José, Joaquim José Júnior, Álvaro José): Nova Friburgo
   civil births or baptisms would confirm or retire them. [OPEN]
@@ -283,8 +293,9 @@ profile: >-
 
   - PRB-0005 (his father Francisco José's 1888 will — names Joaquim firstborn; gives the
   Swiss immigrant grandparents) · PAR-0002 (his parents' 1879 marriage justification) ·
-  CIV-0015 (daughter Celina's 1977 death) · CIV-0016 (grandson Eunir's 1924 birth) —
-  the last two name him as deceased father / grandfather · CIV-0038 (granddaughter Senira's
+  CIV-0015 (daughter Celina's 1977 death — names him as deceased father) · CIV-0016
+  (grandson Eunir's 1924 birth — names him as maternal grandfather, with only Lucinda marked
+  "já fallecida"; corrected 2026-10-08 from the image) · CIV-0038 (granddaughter Senira's
   1923 birth — names him as maternal grandfather, with only Lucinda marked "já fallecida").
 
   ## Regional and migration context
@@ -382,12 +393,14 @@ profile_pt: >-
   Joaquim José Júnior (n. 1899) e Álvaro José [LEAD — apenas na árvore; nenhum registro
   encontrado].
 
-  - **Óbito:** já falecido em 1924 — registrado "já falecidos" com a esposa no nascimento
-  de 1924 de seu neto Eunir em Nova Friburgo (CIV-0016) e como pai falecido de Celina em
-  seu óbito de 1977 (CIV-0015) [PROVEN quanto ao limite]; data exata não obtida. [OPEN] O limite
-  é só superior. O nascimento de 1923 da neta Senira o nomeia como avô materno e marca apenas
-  Lucinda como "já fallecida", no singular, o que este projeto confirmou na imagem (CIV-0038).
-  Isso sugere que ele ainda vivia em 1923, embora a gramática de um escrivão seja indício fraco
+  - **Óbito:** data não obtida. O único limite documental disponível é superior: o óbito de
+  Celina em 1977 o nomeia como seu pai falecido (CIV-0015) [PROVEN quanto ao limite]. [OPEN]
+  [Corrigido em 2026-10-08 a partir da imagem: o nascimento de 1924 de Eunir em Nova Friburgo
+  (CIV-0016) lê "já fallecida" no singular, marcando apenas Lucinda como falecida — e não "já
+  falecidos" com a esposa —, portanto não situa o óbito dele antes de 1924.] Tanto o nascimento
+  de 1923 da neta Senira (CIV-0038) quanto o nascimento de maio de 1924 do neto Eunir (CIV-0016)
+  o nomeiam como avô materno e marcam apenas Lucinda como falecida. Isso sugere que ele ainda
+  vivia em 1923 e em maio de 1924, embora a gramática de um escrivão seja indício fraco
   [INFERRED]. O limite inferior de 1921 usado em outros lugares apoia-se no óbito de Lucinda,
   relatado para 1921, e não no dele [LEAD]. A última prova de vida disponível é a concepção de
   Lucinda Maria, nascida em julho de 1908 (PAR-0052) [INFERRED].
@@ -507,16 +520,20 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seu ato de batismo exato (Itaboraí, ~1858–62) e seu registro de óbito (Nova Friburgo, entre
-  1921 e 1924) — não obtidos. (Seu casamento de 1884 com Lucinda está agora obtido — PAR-0056.)
+  - Seu ato de batismo exato (Itaboraí, ~1858–62) e seu registro de óbito (Nova Friburgo; data
+  em aberto — não mais limitada a 1921–1924, pois CIV-0016 não o dá como falecido) — não
+  obtidos. (Seu casamento de 1884 com Lucinda está agora obtido — PAR-0056.)
   [OPEN]
 
   - **Limites da busca do óbito.** A pesquisa de recuperação relata um negativo delimitado para
   ele no livro de óbitos da Matriz de Nova Friburgo de novembro de 1919 a 11 de maio de 1924, com
   uma lacuna de cerca de seis assentos por volta de setembro–outubro de 1920 [LEAD — busca não
   repetida aqui]. Restam os livros paroquiais de São Pedro e de São José do Ribeirão e os
-  registros civis de óbito de 1921–1924, ou 1923–1924 se o indício de CIV-0038 se sustentar.
-  [OPEN]
+  registros civis de óbito — a partir de 1921, ou a partir do fim de maio de 1924 se o singular
+  "já fallecida" em CIV-0038 (1923) e CIV-0016 (maio de 1924) significar que ele então vivia
+  [INFERRED]; o negativo da Matriz até 11 de maio de 1924 não alcançaria essa janela posterior.
+  [OPEN] [Corrigido em 2026-10-08: a janela anterior de 1921–1924 apoiava-se em parte na
+  leitura equivocada de CIV-0016 como "já falecidos".]
 
   - **Os filhos só da árvore** (Francisco José, Joaquim José Júnior, Álvaro José): nascimentos
   civis ou batismos de Nova Friburgo os confirmariam ou descartariam. [OPEN]
@@ -538,8 +555,9 @@ profile_pt: >-
 
   - PRB-0005 (o testamento de 1888 de seu pai Francisco José — nomeia Joaquim primogênito;
   dá os avós imigrantes suíços) · PAR-0002 (a justificação de casamento de 1879 de seus
-  pais) · CIV-0015 (óbito de 1977 da filha Celina) · CIV-0016 (nascimento de 1924 da neta
-  Eunir) — os dois últimos o nomeiam como pai / avô falecido · CIV-0038 (nascimento de 1923 da
+  pais) · CIV-0015 (óbito de 1977 da filha Celina — nomeia-o como pai falecido) · CIV-0016
+  (nascimento de 1924 do neto Eunir — nomeia-o como avô materno, marcando apenas Lucinda como
+  "já fallecida"; corrigido em 2026-10-08 a partir da imagem) · CIV-0038 (nascimento de 1923 da
   neta Senira — nomeia-o como avô materno, marcando apenas Lucinda como "já fallecida").
 
   ## Contexto regional e migratório

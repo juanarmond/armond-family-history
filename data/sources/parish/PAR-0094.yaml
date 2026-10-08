@@ -1,15 +1,15 @@
 schema_version: 1
 id: PAR-0094
 title: >-
-  São Sebastião baptism register — Maria(?), daughter of Belchior da Ponte Cardoso × Mariana Fagundes, ~18 May 1662 [child name uncertain]
+  São Sebastião baptism register, p.0352 (1662) — baptism of António, son of Gregório Cardozo, 12 June 1662, and an illegible "M[?]" entry; does not attest a Maria of Belchior da Ponte Cardoso × Mariana Fagundes
 title_pt: >-
-  Registo de baptismos de São Sebastião — Maria(?), filha de Belchior da Ponte Cardoso × Mariana Fagundes, ~18 de maio de 1662 [nome da criança incerto]
+  Registo de baptismos de São Sebastião, p.0352 (1662) — baptismo de António, filho de Gregório Cardozo, 12 de junho de 1662, e um assento "M[?]" ilegível; não atesta uma Maria de Belchior da Ponte Cardoso × Mariana Fagundes
 record_type: Parish baptism register entry
 record_category: parish_register
 source_form: original
 information_quality: primary
-evidence_type: direct
-usage: evidence
+evidence_type: undetermined
+usage: context_only
 repository:
   name: Culturacores / Arquivo Regional dos Açores — BPAR Angra do Heroísmo
   archive_or_registry: >-
@@ -20,62 +20,81 @@ repository:
     Note: images at lower CDN resolution (383×527 px) — child name is uncertain at this resolution.
   collection: Paróquia de São Sebastião, Terceira — Livros de Baptismos
   catalogue_reference: >-
-    TER-AH-SAOSEBASTIAO-B-1611-1687, p.0352; baptism of a child of Belchior × Mariana,
-    ~18 May 1662. Downloaded via Culturacores CDN (Arquivo Regional dos Açores), 2026-09-23.
+    TER-AH-SAOSEBASTIAO-B-1611-1687, p.0352 and facing page; probed 2026-09-23 as the
+    baptism of the Maria (~18 May 1662) that PUB-0005 gives to Belchior × Mariana; re-read
+    2026-10-08, it does not contain that act legibly. Downloaded via Culturacores CDN
+    (Arquivo Regional dos Açores), 2026-09-23.
 access_date: "2026-09-23"
 language: pt-PT
+reading_reliability: partial
 transcription: >-
-  [Image p1 — baptism act, p.0352, S. Sebastião batismos 1611–1687]
-  Legible content: "maio … sessenta e dous … da Ponte Cardogo"
-  [Margin annotation:] "Anto" (possibly António, or abbreviated form of another name)
-  ⚠ Child's name uncertain at CDN resolution (383×527 px): margin label reads "Anto"
-    which could be António or an abbreviation of another name. Vol. IX (PUB-0005)
-    records a Maria (b.~18.5.1662) for this couple; the "Anto" margin may be a truncated
-    form or the record may pertain to a different child or name variant.
-  Parents: "da Ponte Cardogo" [= Belchior da Ponte Cardoso × Mariana Fagundes, by context]
-  Date: ~18 May 1662 (month "maio" and year "sessenta e dous" = 1662 are legible)
-  [Image p2 — context/facing page of the register]
+  [Image p1 — p.0352, S. Sebastião batismos 1611–1687; re-read from the image 2026-10-08
+  at 383×527 px.] [Top entry, margin "Izabel": baptism of Isabel, daughter of [?] Machado
+  Fagun[des?] and his wife M.ª [?], [21?] May 1662 — not a child of Belchior × Mariana; not
+  fully transcribed.] [Second entry, margin "Ant.º":] "Em os doze dias
+  do mes de Junho de mil e seis sentos e sessenta e dous annos bautizou o R.do P.e P.º
+  Borges [?] … nesta Matriz da villa de S. Sebastião a Ant.º f.º de Gregorio Cardozo e de
+  [?] … forão padrinhos … [?] Cardoza m.er de … Henrique … por verdade fiz este termo dia
+  mes e era ut supra. Domingos Cardozo Fr[?]" [several words illegible]
+  [Image p2 — facing page.] [Entry with margin "M[?]" (read as "Mª" or "M.el" — uncertain),
+  dated [?] 1662:] [illegible — heavy bleed-through at this resolution; neither the child's
+  name nor the parents can be read.]
+  [Corrected 2026-10-08: an earlier transcription took the "Ant.º" margin as a possible
+  form of the child Maria and read "maio … sessenta e dous … da Ponte Cardogo" as this
+  family's act. The "Ant.º" entry is António, son of Gregório Cardozo, 12 June 1662; no
+  legible entry on either page names Belchior da Ponte Cardoso or Mariana Fagundes.]
 transcription_pt: >-
-  [Imagem p1 — assento de baptismo, p.0352, S. Sebastião baptismos 1611–1687]
-  Conteúdo legível: "maio … sessenta e dous … da Ponte Cardogo"
-  [Anotação marginal:] "Anto" (possivelmente António, ou forma abreviada de outro nome)
-  ⚠ Nome da criança incerto à resolução CDN (383×527 px): a margem lê "Anto",
-    que pode ser António ou abreviatura de outro nome. O Vol. IX (PUB-0005) regista uma
-    Maria (n.~18.5.1662) para este casal; o "Anto" na margem pode ser forma truncada ou
-    o registo pode pertencer a uma criança diferente ou variante do nome.
-  Pais: "da Ponte Cardogo" [= Belchior da Ponte Cardoso × Mariana Fagundes, por contexto]
-  Data: ~18 de maio de 1662 (mês "maio" e ano "sessenta e dous" = 1662 são legíveis)
-  [Imagem p2 — página de contexto/frente do livro de registo]
+  [Imagem p1 — p.0352, S. Sebastião baptismos 1611–1687; relida na imagem em 2026-10-08 a
+  383×527 px.] [Assento superior, margem "Izabel": baptismo de Isabel, filha de [?] Machado
+  Fagun[des?] e de sua mulher M.ª [?], [21?] de maio de 1662 — não é filha de Belchior ×
+  Mariana; não transcrito por inteiro.] [Segundo assento, margem "Ant.º":] "Em
+  os doze dias do mes de Junho de mil e seis sentos e sessenta e dous annos bautizou o
+  R.do P.e P.º Borges [?] … nesta Matriz da villa de S. Sebastião a Ant.º f.º de Gregorio
+  Cardozo e de [?] … forão padrinhos … [?] Cardoza m.er de … Henrique … por verdade fiz
+  este termo dia mes e era ut supra. Domingos Cardozo Fr[?]" [várias palavras ilegíveis]
+  [Imagem p2 — página fronteira.] [Assento com margem "M[?]" (lida como "Mª" ou "M.el" —
+  incerta), datado de [?] 1662:] [ilegível — forte repasse de tinta a esta resolução; nem
+  o nome da criança nem os pais podem ser lidos.]
+  [Corrigido em 2026-10-08: uma transcrição anterior tomou a margem "Ant.º" como possível
+  forma da criança Maria e leu "maio … sessenta e dous … da Ponte Cardogo" como o assento
+  desta família. O assento "Ant.º" é de António, filho de Gregório Cardozo, 12 de junho
+  de 1662; nenhum assento legível de nenhuma das páginas nomeia Belchior da Ponte Cardoso
+  ou Mariana Fagundes.]
 abstract: >-
-  Primary parish baptism record for a child of Belchior da Ponte Cardoso (P-0123) ×
-  Mariana Fagundes (P-0124), located at p.0352 of TER-AH-SAOSEBASTIAO-B-1611-1687.
-  The parents are identifiable as "da Ponte Cardogo" and the approximate date (~18 May
-  1662) matches Vol. IX (PUB-0005). However, the child's name is uncertain at the CDN
-  image resolution (383×527 px): the margin annotation reads "Anto" rather than "Maria",
-  creating an unresolved discrepancy with PUB-0005's listing of a "Maria" for this date.
-  Status: strong-evidence (parentage and approximate date confirmed, child name uncertain —
-  [PROBABLE] match). A higher-resolution rescan would resolve the name discrepancy.
+  Two register pages (p.0352 and its facing page) of TER-AH-SAOSEBASTIAO-B-1611-1687,
+  downloaded as the candidate baptism of the Maria (b.~18 May 1662) whom Vol. IX (PUB-0005)
+  lists as a daughter of Belchior da Ponte Cardoso (P-0123) × Mariana Fagundes (P-0124).
+  Re-read from the images on 8 October 2026, they do not attest her: the "Ant.º" entry is
+  the baptism of António, son of Gregório Cardozo, on 12 June 1662, and the only other
+  candidate, a "M[?]" entry on the facing page, is illegible at 383×527 px. The Maria of
+  1662 therefore rests on PUB-0005 alone. Retained as an inconclusive search result for
+  the couple; a higher-resolution rescan of the facing page is the only route to test the
+  "M[?]" entry. [Corrected 2026-10-08: earlier catalogued as this couple's 1662 baptism of
+  a child "probably" Maria, at strong-evidence.]
 abstract_pt: >-
-  Registo paroquial primário do baptismo de uma criança de Belchior da Ponte Cardoso
-  (P-0123) × Mariana Fagundes (P-0124), localizado na p.0352 de TER-AH-SAOSEBASTIAO-B-1611-1687.
-  Os pais identificam-se como "da Ponte Cardogo" e a data aproximada (~18 de maio de 1662)
-  corresponde ao Vol. IX (PUB-0005). Porém, o nome da criança é incerto à resolução CDN
-  (383×527 px): a anotação marginal lê "Anto" em vez de "Maria", criando uma discrepância
-  não resolvida com o registo de uma "Maria" para esta data em PUB-0005. Estado:
-  strong-evidence (filiação e data aproximada confirmadas, nome da criança incerto —
-  [PROBABLE]). Um rescan de maior resolução resolveria a discrepância.
+  Duas páginas do livro (p.0352 e a fronteira) de TER-AH-SAOSEBASTIAO-B-1611-1687,
+  descarregadas como o baptismo candidato da Maria (n.~18 de maio de 1662) que o Vol. IX
+  (PUB-0005) lista como filha de Belchior da Ponte Cardoso (P-0123) × Mariana Fagundes
+  (P-0124). Relidas nas imagens a 8 de outubro de 2026, não a atestam: o assento "Ant.º" é
+  o baptismo de António, filho de Gregório Cardozo, a 12 de junho de 1662, e o único outro
+  candidato, um assento "M[?]" na página fronteira, é ilegível a 383×527 px. A Maria de
+  1662 assenta, portanto, apenas no PUB-0005. Mantido como resultado de pesquisa
+  inconclusivo para o casal; uma digitalização em maior resolução da página fronteira é a
+  única via para testar o assento "M[?]". [Corrigido em 2026-10-08: antes catalogado como o
+  baptismo de 1662, deste casal, de uma criança "provavelmente" Maria, como
+  strong-evidence.]
 reliability:
   assessment: >-
-    Primary source (original parish baptism register). Parentage ("da Ponte Cardogo") and
-    approximate date (May 1662) are legible. The child's name is uncertain at the delivered
-    image resolution: margin reads "Anto" vs. PUB-0005's "Maria". Assessment: probable
-    match for the Maria (b.~18.5.1662) in the compiled source, but name cannot be confirmed
-    from this image. Evidence quality: strong-evidence.
-  informant: Parish priest of São Sebastião, Terceira, recording the baptism in 1662
+    Primary register images, but they carry no legible evidence for Belchior × Mariana's
+    family: the legible "Ant.º" entry (12 June 1662) names Gregório Cardozo as father, and
+    the facing-page "M[?]" entry is illegible. Not evidence for the Maria of 1662 or for
+    any child of this couple. [Corrected 2026-10-08 from "strong-evidence — probable
+    match".]
+  informant: Parish clergy of São Sebastião, Terceira, recording baptisms in 1662
   limitations: >-
-    Reduced CDN resolution (383×527 px) limits legibility. The child's name is uncertain —
-    "Anto" in the margin may be António or truncated. A higher-resolution scan from BPAR
-    Angra is needed to confirm the child's name. Image p2 is a context page only.
+    Reduced CDN resolution (383×527 px) and heavy bleed-through on the facing page. Only a
+    higher-resolution scan from BPAR Angra could show whether the "M[?]" entry is a child
+    of Belchior × Mariana.
 digital_file:
   path: evidence/parish/PAR-0094-baptismo-maria-ponte-cardoso-1662-p1.jpg
   sha256: de4eb3fb709b70545e28de8804470e5e21279340c86d739975d65e7be42404d1
@@ -92,9 +111,26 @@ linked_places: []
 private: false
 notes:
 - text: >-
-    ⚠ OPEN QUESTION: The margin annotation reads "Anto" not "Maria". Vol. IX (PUB-0005)
-    records a Maria (b.~18.5.1662). Possible interpretations: (a) "Anto" is an abbreviated
-    form of a longer name, truncated at the binding edge; (b) the child was baptised with
-    a different name than recorded in the compilation; (c) this is a sibling record and the
-    5th child with a different name entirely. Route to resolve: request higher-resolution
-    scan from BPAR Angra (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0352).
+    Reclassified 2026-10-08 (usage evidence → context_only; evidence_type direct →
+    undetermined; reading_reliability partial). The page was catalogued as the baptism of
+    Maria, daughter of Belchior da Ponte Cardoso (P-0123) and Mariana Fagundes (P-0124), but
+    its readable entry is António, son of Gregório Cardozo (12 June 1662), and the "M[?]" entry
+    on page 2 is illegible. It is kept, linked to P-0123, P-0124 and F-0062, only as the page
+    on which the compiled Maria of ~1662 (PUB-0005) would be expected: inconclusive, neither
+    evidence for her nor a negative.
+  text_pt: >-
+    Reclassificado em 2026-10-08 (uso evidence → context_only; evidence_type direct →
+    undetermined; reading_reliability partial). A página foi catalogada como o baptismo de
+    Maria, filha de Belchior da Ponte Cardoso (P-0123) e Mariana Fagundes (P-0124), mas o seu
+    assento legível é António, filho de Gregório Cardozo (12 de junho de 1662), e o assento
+    "M[?]" da página 2 é ilegível. Fica guardado, ligado a P-0123, P-0124 e F-0062, apenas como
+    a página em que se esperaria a Maria compilada de ~1662 (PUB-0005): inconclusivo, nem prova
+    dela nem negativo.
+- text: >-
+    [Superseded 2026-10-08] An earlier open-question note held that the margin "Anto" might
+    be a truncated form of Maria or a sibling's name, and treated the page as this couple's
+    1662 baptism. A direct image re-read shows the "Ant.º" entry is a complete act for
+    António, son of Gregório Cardozo, baptised 12 June 1662 — not this family. The facing
+    page's "M[?]" entry is illegible. The Maria (b.~18.5.1662) of PUB-0005 is unattested by
+    any held image; route to test: higher-resolution rescan from BPAR Angra
+    (TER-AH-SAOSEBASTIAO-B-1611-1687, p.0352 and facing page).

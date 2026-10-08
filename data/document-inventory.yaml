@@ -4109,15 +4109,17 @@ documents:
   added_date: '2026-09-02'
   apparent_record_type: Civil death register entry (Rio de Janeiro)
   apparent_people:
-  - Hermogenes Engracio de Souza (d. 19 Nov 1961)
+  - Hermogenes Engracio de Souza (d. 19 Nov 1971)
   - Antonio Engracio de Souza (father)
   - Luzia Pinheiro da Conceição (mother)
   apparent_event: death
   image_quality: adequate
-  provenance: FamilySearch/owner retrieval drop (research/from-retrieval/ sync); 1961
+  provenance: FamilySearch/owner retrieval drop (research/from-retrieval/ sync); 1971
     Rio de Janeiro civil death of Hermogenes Engracio de Souza, óbito Nº 91.554, fl.
     27. Names his parents Antonio Engracio de Souza and Luzia Pinheiro da Conceição
     — a further (collateral) child of that couple. Retrieved as image rec-engracio-hermogenes-obito-rj-1961.jpg.
+    [Corrected 2026-10-08 from the image — the year reads "setenta e um" (1971), not 1961;
+    the retrieval and evidence filenames still carry "1961".]
   rights_status: private-research
   files:
   - path: evidence/civil/CIV-0026-hermogenes-engracio-souza-obito-1961-rj.jpg
@@ -4646,8 +4648,9 @@ documents:
   duplicate_of: null
   proposed_source_id: PAR-0088
   notes:
-  - 'Death act: margin "Balchios/da Ponte"; main text confirms 26 Jun 1687; Alferes
-    de ordenanças noted; vicar Domingos Cardoso Fora. Upgrades E-0127 to confirmed.'
+  - 'Death act: margin "Balchior/de Ponte"; main text "o Alferes [B]elchior de Ponte
+    Cardozo", 26 Jun 1687; vicar Domingos Cardoso Fora. Upgrades E-0127 to confirmed.
+    [Re-read 2026-10-08: earlier noted as "Balchios".]'
 - inventory_id: DOC-0111
   status: catalogued
   added_date: '2026-09-23'
@@ -4677,8 +4680,9 @@ documents:
   proposed_source_id: PAR-0089
   notes:
   - 'Death act: margin "Mariana/Fags"; main text confirms 7 Jul 1684; identifies her
-    as wife of "M° Balchion de Ponte"; buried sepultura da fabrica; vicar Antônio
-    Coelho Sotomayor. Upgrades E-0136 to confirmed.'
+    as "m.er do Alf.es Balchior de Ponte"; buried sepultura da fabrica; vicar Antônio
+    Coelho Sotomayor. Upgrades E-0136 to confirmed. [Re-read 2026-10-08: earlier noted
+    as "M° Balchion de Ponte".]'
 - inventory_id: DOC-0112
   status: catalogued
   added_date: '2026-09-23'
@@ -4719,8 +4723,9 @@ documents:
   proposed_source_id: PAR-0090
   notes:
   - 'Baptism of Maria (b.5.9.1651), first documented child of Belchior × Mariana.
-    Parents named: "Belchior da Ponte Cardogo × Mariana Fagueda". Documented_child
-    in F-0062.'
+    Parents named: "belchior de Ponte cardozo × mariana Fagunda [uncertain]";
+    godparents the Cappitão André Coelho [?] Fagundes and Maria de Ponte. Documented_child
+    in F-0062. [Re-read 2026-10-08: earlier noted as "Mariana Fagueda".]'
 - inventory_id: DOC-0113
   status: catalogued
   added_date: '2026-09-23'
@@ -4760,7 +4765,8 @@ documents:
   proposed_source_id: PAR-0091
   notes:
   - 'Baptism of Manuel (b.13.10.1652), second child of Belchior × Mariana. Parents:
-    "Belchior da Ponte Cardogo × marianna Faguedes". Documented_child in F-0062.'
+    "Alferes belchior de Ponte cardozo × mariana Fagundes". Documented_child in F-0062.
+    [Re-read 2026-10-08: earlier noted as "marianna Faguedes".]'
 - inventory_id: DOC-0114
   status: catalogued
   added_date: '2026-09-23'
@@ -4799,8 +4805,10 @@ documents:
   duplicate_of: null
   proposed_source_id: PAR-0092
   notes:
-  - 'Baptism of António Coelho Souto-Maior (b.12.3.1654). Parents: "Belchior da Ponte
-    × mariAna Faguedes"; padrinho [?] Cardos da Ponte. Documented_child in F-0062.'
+  - 'Baptism of António ("Ant.º"; compiled as António Coelho Souto-Maior), b.12.3.1654.
+    Parents: "Alferes belchior de Ponte × mari-ana Fagundes"; padrinho Fr.co Cardozo de
+    Ponte. Documented_child in F-0062. [Re-read 2026-10-08: earlier noted as "mariAna
+    Faguedes" and padrinho "[?] Cardos da Ponte".]'
 - inventory_id: DOC-0115
   status: catalogued
   added_date: '2026-09-23'
@@ -4839,15 +4847,16 @@ documents:
   duplicate_of: null
   proposed_source_id: PAR-0093
   notes:
-  - 'Baptism of Manuel (b.16.1.1656), second Manuel. Parents: "Belchior [da Ponte]
-    Cardoso × morsarana [=Mariana]" (scribal phonetic). Documented_child in F-0062.'
+  - 'Baptism of Manuel (b.16.1.1656), second Manuel. Parents: "belchior de Ponte cardozo
+    × marian[a/e] Fg.des". Documented_child in F-0062. [Re-read 2026-10-08: earlier noted
+    as "morsarana".]'
 - inventory_id: DOC-0116
   status: catalogued
   added_date: '2026-09-23'
   apparent_record_type: Parish baptism register entry
   apparent_people:
-  - Belchior da Ponte Cardoso (P-0123, father)
-  - Mariana Fagundes (P-0124, mother)
+  - Ant.º [António], son of Gregório Cardozo (p1 entry, 12 June 1662 — not of this family)
+  - '[illegible parents] (p2 entry, margin "M[?]")'
   apparent_event: baptism
   image_quality: partly-illegible
   provenance: 'Culturacores CDN probe 2026-09-23; TER-AH-SAOSEBASTIAO-B-1611-1687
@@ -4880,9 +4889,11 @@ documents:
   duplicate_of: null
   proposed_source_id: PAR-0094
   notes:
-  - 'Baptism ~18 May 1662, child of "da Ponte Cardogo". Margin reads "Anto" — child
-    name uncertain at CDN resolution. PUB-0005 records Maria for this date. Status:
-    probable. Higher-resolution rescan needed. Documented_child in F-0062.'
+  - '[Corrected 2026-10-08] Not a baptism of a child of Belchior × Mariana. The legible
+    p1 entry (margin "Ant.º") is the baptism of Ant.º [António], son of Gregório Cardozo,
+    12 June 1662; the p2 entry (margin "M[?]") is illegible at 383×527 px and its parents
+    cannot be read. The Maria (b.~18.5.1662) of PUB-0005 therefore has no held baptism
+    image. Earlier noted as "Baptism ~18 May 1662, child of da Ponte Cardogo … probable".'
 - inventory_id: DOC-0117
   status: catalogued
   added_date: '2026-09-23'
@@ -4922,15 +4933,17 @@ documents:
   duplicate_of: null
   proposed_source_id: PAR-0095
   notes:
-  - 'Baptism of Belchior filho (b.20.5.1664). Parents: "Belchior de Ponte Cardogo
-    × marianna Faguedes; e quatro annos (1664)". Documented_child in F-0062.'
+  - 'Baptism of Belchior filho (b.20.5.1664), written "Melchior". Parents: "Alferes
+    Melchior de Ponte × mariana Fagundes"; padrinho Ant.º Cardozo. Documented_child in
+    F-0062. [Re-read 2026-10-08: earlier noted as "Belchior de Ponte Cardogo × marianna
+    Faguedes".]'
 - inventory_id: DOC-0118
   status: catalogued
   added_date: '2026-09-23'
   apparent_record_type: Parish baptism register entry
   apparent_people:
-  - Belchior da Ponte Cardoso (P-0123, father — name reads Mathias in image, attributed
-    scribal error)
+  - Belchior da Ponte Cardoso (P-0123, father — written "melchior"; an earlier
+    "Mathias" reading was corrected 2026-10-08)
   - Mariana Fagundes (P-0124, mother)
   apparent_event: baptism
   image_quality: adequate
@@ -4963,9 +4976,10 @@ documents:
   duplicate_of: null
   proposed_source_id: PAR-0096
   notes:
-  - 'Baptism of Isabel de Souto-Maior (b.19.9.1666). Mother: "marianna Faguedes".
-    Father name reads "Mathias" (attributed scribal error; all other identifiers match
-    Belchior da Ponte Cardoso). Documented_child in F-0062.'
+  - 'Baptism of Isabel ("Izabel"; compiled as Isabel de Souto-Maior), b.19.9.1666.
+    Parents: "Alferes melchior de Ponte Cardozo × marianna Fagundes". Documented_child
+    in F-0062. [Re-read 2026-10-08: earlier noted as mother "marianna Faguedes" and
+    father "Mathias".]'
 - inventory_id: DOC-0119
   status: catalogued
   added_date: '2026-09-24'

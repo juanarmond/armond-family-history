@@ -36,6 +36,26 @@ event_ids:
 family_ids:
 - F-0003
 - F-0006
+fan_references:
+- fan_id: FAN-0010
+  role: testemunha (witness)
+  note: >-
+    Witness to the 21 October 1903 escritura de hipoteca at Laginha, Muriaé (FAN context).
+- fan_id: FAN-0011
+  role: credor (creditor)
+  note: >-
+    Petitioned on 29 May 1917 for payment from the estate of Antonio Marques da Silva,
+    Muriaé (FAN context).
+- fan_id: FAN-0012
+  role: credor (creditor)
+  note: >-
+    Listed in the 30 May 1917 creditors' rateio of the same estate, share 18$584 marked
+    "Pg" (FAN context).
+- fan_id: FAN-0013
+  role: requerente (petitioner)
+  note: >-
+    Petitioning party in the inventário of Joaquim dos Santos Garcia, Muriaé, 20 May 1922
+    (FAN context).
 notes:
 - text: Ahnentafel position 8.
   text_pt: Posição 8 no Ahnentafel.
@@ -93,21 +113,23 @@ profile: >-
   - **Padeiro (baker)** — recorded "de profissão padeiro" in his own 1957 civil death
   registration (CIV-0005). [PROVEN]
 
-  - **Muriaé legal and credit world, 1903–1922** [PROVEN — primary images in research
-  folder, not yet formally catalogued as sources]: three FAN-role appearances establish
-  him as a literate, commercially active Zona-da-Mata townsman across nearly three
-  decades before the move to Rio: (a) *testemunha* (witness) to an escritura de
-  hipoteca at the 1º Ofício de Muriaé, 21 Oct 1903; (b) creditor in the estate of
-  António Marques da Silva, Comarca de Muriaé, 29–30 May 1917 — awarded and paid
-  18$584 in the pro-rata creditor rateio; (c) *requerente* (petitioning party) in the
-  inventário of Joaquim dos Santos Garcia, Comarca de Muriaé, 20 May 1922. None of
-  these names his own kin, but together they bracket his Muriaé presence from 1903 to
-  1931. [FAN-role records; not yet catalogued in data/sources/] The retrieval research
-  further reports that the 1917 estate was an arrecadação of an estate with no known
-  heirs (herança jacente), whose assets were sold at public auction before the
-  creditors' rateio was judged by sentence; his line is marked "Pg" (paid) and the
-  payment order issued on 31 May 1917. [LEAD — images held by the retrieval side, not
-  here]
+  - **Muriaé legal and credit world, 1903–1922** [PROVEN — primary images catalogued as FAN
+  context records FAN-0010 to FAN-0013]: three FAN-role appearances establish him as a
+  commercially active Zona-da-Mata townsman across nearly three decades before the move
+  to Rio: (a) *testemunha* (witness) to an escritura de hipoteca drawn by the tabelião
+  Romualdo Moreira de Albuquerque at Laginha, district of Muriaé, 21 Oct 1903 (FAN-0010);
+  (b) creditor in the estate of António Marques da Silva, Comarca de Muriaé — his petition
+  for payment dated 29 May 1917 (FAN-0011) and the creditors' rateio of 30 May 1917, where
+  his share of 18$584 is marked "Pg" (paid) (FAN-0012); (c) *requerente* (petitioning
+  party) in the inventário of Joaquim dos Santos Garcia, Comarca de Muriaé, 20 May 1922
+  (FAN-0013). None of these names his own kin, but together they bracket his Muriaé
+  presence from 1903 to 1931. [FAN-role records, usage: context — they place him, they
+  are not evidence of kinship. Corrected 2026-10-08: earlier labelled "not yet
+  catalogued", although FAN-0010–FAN-0013 hold them.] The rateio also shows the estate's
+  "producto da praça" (auction proceeds, 931$000) (FAN-0012). The retrieval research
+  further reports that the 1917 estate was an arrecadação of an estate with no known heirs
+  (herança jacente) and that the payment order was issued on 31 May 1917. [LEAD — those
+  two points are not on the catalogued pages]
 
   - **Father→son police-authority pattern** [PROVEN]: Simplício (2.º/3.º *suplente* de
   delegado, 1899/1902) → Aristão (*subdelegado*, 1931) — two Armond generations held
@@ -166,10 +188,10 @@ profile: >-
   fraction of a few hundred mil-réis — arriving in middle age, long after the point at which an
   inheritance sets up a life.
 
-  - **His own money moved at a small scale** [research-folder records, not yet catalogued here].
+  - **His own money moved at a small scale** [FAN context records FAN-0010–FAN-0013].
   Three Muriaé FAN appearances bracket him from 1903 to 1922 inside the propertied legal world:
-  witness to an escritura de hipoteca in 1903, creditor in the estate of António Marques da Silva in
-  1917, and petitioning party in an inventário in 1922. The 1917 entry is the informative one — he
+  witness to an escritura de hipoteca in 1903 (FAN-0010), creditor in the estate of António Marques
+  da Silva in 1917 (FAN-0011, FAN-0012), and petitioning party in an inventário in 1922 (FAN-0013). The 1917 entry is the informative one — he
   was paid 18$584 in a pro-rata creditor rateio, that is, a share-out among creditors of an estate
   that could not pay them in full. He was present in the same credit-and-probate world his father
   had operated in, but on the scale of a small local claim rather than a lender's book. [The
@@ -221,11 +243,14 @@ profile: >-
   through the post-1888 labour rupture, soil exhaustion and the price collapses to 1929.
 
   - **His own literacy is the one thing the held records do not show** [OPEN]. His father's autograph
-  survives (PRB-0002); for Aristão we hold no signature, and none for his son Geraldo either, whose
-  1952 certificate is a registrar's extract without the spouses' signatures (CIV-0002). The 1903
-  witness role and the 1917 and 1922 court appearances imply he could sign, and the retrieval research
-  reports his signature as a witness on the 1903 escritura and on a 1917 requerimento [LEAD], but
-  those images are not yet catalogued here. This matters because education tracked the money: schooling
+  survives (PRB-0002); for his son Geraldo we hold none either, whose 1952 certificate is a
+  registrar's extract without the spouses' signatures (CIV-0002). For Aristão the catalogued FAN
+  records now come close: his 29 May 1917 petition (FAN-0011) closes with "Aristão Ferreira Armond"
+  written under a revenue stamp, in the same hand as the body of the petition — consistent with
+  his own signature, though a clerk's hand cannot be excluded [INFERRED]; the 1903 deed (FAN-0010)
+  is a notarial traslado, so the witness names at its foot are the notary's copy, not autographs.
+  [Corrected 2026-10-08: earlier said these images were not yet catalogued here; they are FAN-0010
+  and FAN-0011.] This matters because education tracked the money: schooling
   in the rural Mata was bought and had to be re-bought each generation, and his is the generation where
   the money to buy it ran out.
 
@@ -367,22 +392,24 @@ profile_pt: >-
   - **Padeiro** — registrado "de profissão padeiro" em seu próprio registro civil de
   óbito de 1957 (CIV-0005). [PROVEN]
 
-  - **Mundo jurídico e de crédito de Muriaé, 1903–1922** [PROVEN — imagens primárias na
-  pasta de pesquisa, ainda não catalogadas formalmente como fontes]: três aparições em
-  papel de FAN estabelecem-no como um homem letrado e comercialmente ativo na Zona da
-  Mata por quase três décadas antes da mudança para o Rio: (a) *testemunha* em uma
-  escritura de hipoteca no 1º Ofício de Muriaé, 21 de outubro de 1903; (b) credor no
-  espólio de António Marques da Silva, Comarca de Muriaé, 29–30 de maio de 1917 —
-  recebeu e foi pago 18$584 no rateio proporcional entre credores; (c) *requerente*
-  (parte peticionante) no inventário de Joaquim dos Santos Garcia, Comarca de Muriaé,
-  20 de maio de 1922. Nenhum desses documentos nomeia seus próprios parentes, mas
-  juntos delimitam sua presença em Muriaé de 1903 a 1931. [Registros em papel de FAN;
-  ainda não catalogados em data/sources/] A pesquisa de recuperação informa ainda que o
-  espólio de 1917 era uma arrecadação de herança sem herdeiros conhecidos (herança
-  jacente), cujos bens foram vendidos em praça antes de o rateio entre credores ser
-  julgado por sentença; sua linha está marcada "Pg" (pago) e o mandado de pagamento foi
-  expedido em 31 de maio de 1917. [LEAD — imagens em poder do lado da recuperação, não
-  aqui]
+  - **Mundo jurídico e de crédito de Muriaé, 1903–1922** [PROVEN — imagens primárias
+  catalogadas como registros de contexto FAN, FAN-0010 a FAN-0013]: três aparições em papel
+  de FAN estabelecem-no como um homem comercialmente ativo na Zona da Mata por quase três
+  décadas antes da mudança para o Rio: (a) *testemunha* em uma escritura de hipoteca
+  lavrada pelo tabelião Romualdo Moreira de Albuquerque em Laginha, distrito de Muriaé, em
+  21 de outubro de 1903 (FAN-0010); (b) credor no espólio de António Marques da Silva,
+  Comarca de Muriaé — sua petição de pagamento datada de 29 de maio de 1917 (FAN-0011) e o
+  rateio entre credores de 30 de maio de 1917, em que sua parte de 18$584 está marcada "Pg"
+  (pago) (FAN-0012); (c) *requerente* (parte peticionante) no inventário de Joaquim dos
+  Santos Garcia, Comarca de Muriaé, 20 de maio de 1922 (FAN-0013). Nenhum desses documentos
+  nomeia seus próprios parentes, mas juntos delimitam sua presença em Muriaé de 1903 a
+  1931. [Registros em papel de FAN, usage: context — situam-no, não são evidência de
+  parentesco. Corrigido em 2026-10-08: antes rotulados "ainda não catalogados", embora
+  FAN-0010–FAN-0013 os contenham.] O rateio mostra também o "producto da praça" do espólio
+  (931$000) (FAN-0012). A pesquisa de recuperação informa ainda que o espólio de 1917 era
+  uma arrecadação de herança sem herdeiros conhecidos (herança jacente) e que o mandado de
+  pagamento foi expedido em 31 de maio de 1917. [LEAD — esses dois pontos não estão nas
+  páginas catalogadas]
 
   - **Padrão de autoridade policial de pai para filho** [PROVEN]: Simplício (2.º/3.º
   *suplente* de delegado, 1899/1902) → Aristão (*subdelegado*, 1931) — duas gerações de
@@ -445,10 +472,11 @@ profile_pt: >-
   centenas de mil-réis — e chegou na meia-idade, muito depois do momento em que uma herança arma uma
   vida.
 
-  - **Seu próprio dinheiro movia-se em pequena escala** [registros da pasta de pesquisa, ainda não
-  catalogados aqui]. Três aparições em papel de FAN em Muriaé o delimitam entre 1903 e 1922 dentro do
-  mundo jurídico proprietário: testemunha de uma escritura de hipoteca em 1903, credor no espólio de
-  António Marques da Silva em 1917 e parte requerente num inventário em 1922. O registro de 1917 é o
+  - **Seu próprio dinheiro movia-se em pequena escala** [registros de contexto FAN, FAN-0010–FAN-0013].
+  Três aparições em papel de FAN em Muriaé o delimitam entre 1903 e 1922 dentro do mundo jurídico
+  proprietário: testemunha de uma escritura de hipoteca em 1903 (FAN-0010), credor no espólio de
+  António Marques da Silva em 1917 (FAN-0011, FAN-0012) e parte requerente num inventário em 1922
+  (FAN-0013). O registro de 1917 é o
   informativo — ele recebeu 18$584 num rateio proporcional entre credores, isto é, numa divisão entre
   credores de um espólio que não podia pagá-los por inteiro. Ele estava presente no mesmo mundo de
   crédito e inventário em que o pai operara, mas na escala de um pequeno crédito local, não de uma
@@ -501,11 +529,14 @@ profile_pt: >-
   após 1888, pelo esgotamento do solo e pelas quedas de preço até 1929.
 
   - **Seu próprio letramento é a única coisa que os registros em mãos não mostram** [OPEN]. A assinatura
-  autógrafa do pai sobrevive (PRB-0002); de Aristão não temos assinatura, nem tampouco de seu filho
-  Geraldo, cuja certidão de 1952 é uma certidão extraída pelo oficial, sem as assinaturas dos cônjuges
-  (CIV-0002). O papel de testemunha em 1903 e as aparições em juízo de 1917 e 1922 implicam que sabia
-  assinar, e a pesquisa de recuperação informa sua assinatura como testemunha na escritura de 1903 e
-  num requerimento de 1917 [LEAD], mas essas imagens ainda não estão catalogadas aqui. Isso importa porque a
+  autógrafa do pai sobrevive (PRB-0002); de seu filho Geraldo tampouco temos, cuja certidão de 1952
+  é uma certidão extraída pelo oficial, sem as assinaturas dos cônjuges (CIV-0002). Para Aristão os
+  registros FAN catalogados chegam perto: sua petição de 29 de maio de 1917 (FAN-0011) fecha com
+  "Aristão Ferreira Armond" escrito sob uma estampilha, na mesma letra do corpo da petição —
+  compatível com sua própria assinatura, embora não se possa excluir a mão de um escrevente
+  [INFERRED]; a escritura de 1903 (FAN-0010) é um traslado notarial, de modo que os nomes das
+  testemunhas ao pé são cópia do tabelião, não autógrafos. [Corrigido em 2026-10-08: antes dizia
+  que essas imagens ainda não estavam catalogadas aqui; são FAN-0010 e FAN-0011.] Isso importa porque a
   instrução acompanhava o dinheiro: a escola na Mata rural era comprada e tinha de ser recomprada a cada
   geração, e é na geração dele que o dinheiro para comprá-la acaba.
 
