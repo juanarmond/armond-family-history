@@ -5,6 +5,20 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — stale P-0016 priority and archive custodian; 2026-09-25 retrieval cycle folded in (2026-10-08)
+
+- Withdrew the 1839 Meia Pataca map as P-0016's top ask, which the previous entry had promoted
+  (that map was already read and negative). P-0016's birth and marriage `next_action`s, STATUS,
+  C-013 and the Cágado session log now carry the current actions; earlier notes are marked
+  superseded, not erased.
+- Corrected the marriage-book custodian (Argirita parish, not the Juiz de Fora archive) in
+  STATUS, record-coverage, the correspondence log (C-002, C-004, new C-014) and the Family Story
+  (EN and PT).
+- GOV-0013 records Projeto Compartilhar's published transcription ("Almondes") as a third reading,
+  verified from the public PDF. P-0050's Beinwil baptism is `located`, with its date conflict
+  preserved. R-only surname negatives are marked as such, and `research/README.md` states the
+  L↔R variant rule.
+
 ### Changed — STATUS stops hand-keeping counts; P-0016's next ask has one owner (2026-10-08)
 
 - `STATUS.md`'s repository snapshot now points to `make check` for counts instead of a hand-kept table. That table had already drifted: its "Retained evidence scans" row actually tracked the *published* count. AGENTS.md Definition of Done item 11 no longer asks for counts. Removed two STATUS sentences that pointed elsewhere or repeated what was already said.

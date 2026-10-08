@@ -244,6 +244,61 @@ notes:
       ambas ficam registadas para que um leitor futuro, com melhor imagem, as possa
       dirimir. A divergência não toca o assento nº 68.
   - text: >-
+      Third reading: the published transcription (verified 2026-10-08). Projeto
+      Compartilhar publishes Joana Capella's full transcription of this map: "Mapa dos
+      Abitantes do Destrito da Capella de Santa Rita do Meia Pataca, Termo da Cidade de
+      Marianna", sent to the provincial president on 19.11.1831, Arquivo Público
+      Mineiro Cx 02 Doc 14 (http://www.projetocompartilhar.org/Censos/1831MeiaPatacaMG.pdf,
+      read 2026-10-08, sha256
+      4c97d05a6511c15a0b3d15ea9a96ec6742516af195ab7842e7b4e9dd4419be93). Entry 68 reads
+      "Antonio Ferreira Almondes · b · 23 · cas · lavr", followed by "Hengelina Maria ·
+      b · 24 · cas · fiad.", and fogo 69 begins on the next line, so in that
+      transcription fogo 68 is the couple alone. It is an independent derivative
+      reading, not the original, and we do not know whether it was made from the
+      manuscript or from a copy. What it does and does not settle: it reads "Al-" in
+      exactly the letters our image cannot resolve, and it is the only full reading
+      made without an Armond hypothesis in view, so it is the best reading of the
+      surname on record. But whether Almondes is an Armond form, through L↔R drift, is
+      an interpretation, and the entry still states nothing about parentage, so usage
+      stays context_only. It also bears on the recorded conflicts. In fogo 67 it lists
+      six enslaved people (Vicente, Antonio, João, Jose, Manoel, Maria), agreeing with
+      our six against C-013's seven, though it has João where we read a second José.
+      It gives the fogo-67 head as José Luis de Medeiros, 50, viúvo, which matches
+      neither our 30 nor C-013's 36, and it reads the fogo-65 head as José Lucas de
+      Azevedo, not José Luis. It also supplies the archival reference (APM Cx 02
+      Doc 14) and places the district in the Termo de Mariana, where this record's
+      place text says Barbacena; confirm both against the APM catalogue before
+      changing the repository or place fields. None of these readings is settled here.
+      A better image or the manuscript decides.
+    text_pt: >-
+      Terceira leitura: a transcrição publicada (verificada em 2026-10-08). O Projeto
+      Compartilhar publica a transcrição integral deste mapa feita por Joana Capella:
+      "Mapa dos Abitantes do Destrito da Capella de Santa Rita do Meia Pataca, Termo da
+      Cidade de Marianna", encaminhado ao Presidente da Província em 19.11.1831,
+      Arquivo Público Mineiro Cx 02 Doc 14
+      (http://www.projetocompartilhar.org/Censos/1831MeiaPatacaMG.pdf, lido em
+      2026-10-08, sha256
+      4c97d05a6511c15a0b3d15ea9a96ec6742516af195ab7842e7b4e9dd4419be93). O assento 68 lê
+      "Antonio Ferreira Almondes · b · 23 · cas · lavr", seguido de "Hengelina Maria ·
+      b · 24 · cas · fiad.", e o fogo 69 começa na linha seguinte; nessa transcrição,
+      portanto, o fogo 68 é apenas o casal. É uma leitura derivada independente, não o
+      original, e não sabemos se foi feita a partir do manuscrito ou de uma cópia. O
+      que resolve e o que não resolve: lê "Al-" exactamente nas letras que a nossa
+      imagem não consegue distinguir, e é a única leitura integral feita sem uma
+      hipótese Armond em vista, pelo que é a melhor leitura do sobrenome que existe.
+      Mas saber se Almondes é uma forma de Armond, por troca de L por R, é
+      interpretação, e o assento continua a nada dizer sobre filiação, pelo que o uso
+      se mantém context_only. Toca também nos conflitos registados. No fogo 67 lista
+      seis pessoas escravizadas (Vicente, Antonio, João, Jose, Manoel, Maria),
+      concordando com as nossas seis contra as sete de C-013, embora leia João onde
+      lemos um segundo José. Dá o chefe do fogo 67 como José Luis de Medeiros, 50,
+      viúvo, o que não coincide nem com os nossos 30 nem com os 36 de C-013, e lê o
+      chefe do fogo 65 como José Lucas de Azevedo, não José Luis. Fornece ainda a cota
+      arquivística (APM Cx 02 Doc 14) e situa o distrito no Termo de Mariana, onde o
+      lugar deste registo diz Barbacena; confirmar ambos no catálogo do APM antes de
+      alterar os campos de repositório ou de lugar. Nenhuma destas leituras fica aqui
+      resolvida. Uma imagem melhor ou o manuscrito decidirá.
+  - text: >-
       Provenance and privacy. Received by email from Nilza Cantoni on 2026-09-23 and
       logged as correspondence C-013; the same image was later carried in the
       2026-09-24 retrieval drop. Every person named in this folio died long ago, so

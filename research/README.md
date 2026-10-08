@@ -83,6 +83,9 @@ Preserve the reason for rejection.
 - Do not assume `Muniz` and `Muniz Bittencourt` were always used as the same
   legal name.
 - Preserve Portuguese diacritics where supported by the source.
+- A surname negative must state the variants searched. Scribes swap L and R
+  (Armond → Almond-, Almend-), so include those forms; a negative searched
+  with R-forms only is recorded as an R-form negative.
 
 ## Date handling
 

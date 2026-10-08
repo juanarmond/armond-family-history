@@ -49,6 +49,10 @@ do Valle are also absent.
 - Column 4 of the right-hand page was cropped out of images p12–p15, so condição and age are
   missing for many entries in fogos 33–61. Names and qualidade were legible throughout, so
   the **surname** negative holds.
+- **Variants (bound added 2026-10-08):** only R-forms were searched. The retrieval side
+  adopted a 44-variant standard with L-forms (Almond-, Almend-, …) on 2026-09-25, after a
+  32-variant sweep missed "Almondes" in the 1831 Meia Pataca map. The Cágado images are
+  deleted, so this cannot be re-swept, and it stays an **R-form negative**.
 
 ## Access restrictions and retention
 
@@ -75,3 +79,7 @@ district, and it says nothing about Bom Jesus do Rio Pardo itself.
 Ask for the 1839 Meia Pataca population map in the unsent C-013 reply (P-0016 birth
 `next_action`). Do not repeat the Cágado 1831 read unless the missing sheets or the
 recapitulation surface.
+
+**Superseded 2026-10-08:** Nilza had already supplied the 1838–39 Meia Pataca map on
+2026-09-24, and the retrieval side read it as negative (the fogo-68 couple are absent). The
+current P-0016 actions are in its birth `next_action` and the 2026-10-08 coverage note.

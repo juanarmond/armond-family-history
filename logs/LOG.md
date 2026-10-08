@@ -5,6 +5,32 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-10-08 — Retrieval cycle 2026-09-25 folded in (text only); 1839-map priority withdrawn
+
+**Amends the 2026-09-25 Cágado entry below,** which named the 1839 Meia Pataca map as the top
+P-0016 ask. Nilza had already supplied the 1838–39 map on 2026-09-24, and the retrieval side read
+it as negative: no Armond in 118 fogos, and the fogo-68 couple are absent. The couple left
+between 1831 and 1838.
+
+Folded from the retrieval drop (synced 2026-10-08; no images, since its handoff now excludes them):
+- **Custodian corrected:** the Argirita marriage book 1 (1860–1882) is at the parish, not at the
+  Juiz de Fora archive. Our C-004 entry had been stale since that archive's reply of 2026-07-30.
+  New contact C-014; STATUS and the P-0016 marriage row updated.
+- **Entry 68 read as "Almondes":** verified here from Projeto Compartilhar's public transcription
+  of the 1831 map (APM Cx 02 Doc 14). It is recorded on GOV-0013 as a third reading; the surname
+  is still unresolved as an Armond form. The same transcription also bears on GOV-0013's fogo-65
+  and fogo-67 conflicts.
+- **L-form variants:** our R-only negatives, including Cágado 1831, are now marked as R-form
+  negatives, and `research/README.md` gains the variant rule.
+- **Reported negatives:** Presídio 1819, Ibertioga 1831/1834, Ibitipoca 1831. The Ibitipoca
+  pointer is weakened. **New lead:** Tombos land-register index, "Simplicio José Ferreira", p. 26
+  (candidate father).
+- **Located, not held:** Jacob Borer's Beinwil baptism (P-0050, now `located`, with a 13-vs-14 Dec
+  conflict preserved) and the BPAR Requisição nº101 scans. Both await an image delivery route.
+
+Not folded (leads for a later pass): the Rio Pomba 1838–39 Toledo and Paz households, and the
+BPAR archivist's Armond/Ormonde/Drumond remark.
+
 ## 2026-09-25 — Cágado (→ Mar de Espanha) 1831 population map: bounded negative for Armond
 
 APM curato map of Cágado (1 Oct 1831), ~88 fogos read: no Armond in any spelling. It is

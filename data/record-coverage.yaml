@@ -565,14 +565,31 @@ people:
     usage: lead_only
   records:
   - record_type: birth
-    status: lead_only
+    status: located
     source_ids: []
-    last_reviewed: "2026-09-23"
+    last_reviewed: "2026-10-08"
     next_action: >-
-      Search Beinwil parish books (Kantonsarchiv Solothurn or equivalent microfilm) for
-      Jakob Borer baptism b. ~13 Dec 1801. Do NOT re-search Erschwil — the 1825 NF marriage
-      register's "Erswill" is a misread of "Beinwil" (confirmed 2026-09-23; see notes).
+      LOCATED, NOT YET HELD HERE (2026-10-08). Obtain the Beinwil PDF that Staatsarchiv
+      Solothurn sent the retrieval side on 2026-09-25, then value-gate and catalogue it:
+      Kirchenbuch Beinwil 1773–1837, Band 26, baptism fol. 44 and the parents' marriage
+      fol. 15. Since 2026-10-06 the retrieval handoff excludes images, so this needs a
+      separate delivery route. Do not change his birth date until the image is read.
+      Do NOT re-search Erschwil; the 1825 NF marriage register's "Erswill" is a misread
+      of "Beinwil" (confirmed 2026-09-23; see notes).
     notes:
+    - text: >-
+        2026-10-08 — BEINWIL BAPTISM REPORTED FOUND (retrieval drop; not yet verified
+        here). Staatsarchiv Solothurn replied on 2026-09-25 (C-011), free of charge,
+        with a 2-page image PDF from the Kirchenbuch von Beinwil, 1773–1837, Band 26.
+        The retrieval agent reads baptism fol. 44 as 14 December 1801, "Jacob Borer, et
+        Ursus Victor Borer. Gemelli" (twins), with the father Joannes Borer, born in
+        Oberkirch parish to Jacob Borer and Catharina Grolimund, and the mother Barbara
+        Probst, born in Borschwil parish to Jacob Probst and Barbara Koller. Marriage
+        fol. 15 is the parents' marriage on 14 November 1797. DATE CONFLICT, preserved:
+        the archivist's covering email gives 13.12.1801 (as does the FS tree), while the
+        retrieval reading of the register gives 14 December. The image decides. If
+        confirmed, the record adds a twin brother and four 6×-great-grandparents, but
+        none may be modelled until the scan is held and read here.
     - text: >-
         2026-09-23 — BOUNDED NEGATIVE on Erschwil parish books. Staatsarchiv Solothurn
         (Gasche Erich) confirmed the Erschwil holdings are 3 binder sets; shelf photo PDF
@@ -597,19 +614,22 @@ people:
   - record_type: birth
     status: unsearched
     source_ids: []
-    last_reviewed: "2026-09-25"
+    last_reviewed: "2026-10-08"
     next_action: >-
-      HIGHEST-VALUE ACTION NOW (2026-09-25): in the unsent C-013 reply, ask Nilza
-      Cantoni for a higher-resolution crop of entry no. 68 of the 1831 Santa Rita do
-      Meia Pataca population map, fls. 16 (held as GOV-0013), and for the following
-      folio (fls. 17). That single unread surname is the nearest thing to a bridge
-      between the 1791/1805 Barbacena Armonde sesmaria holder and the 1870 Meia Pataca
-      voter. In the same reply, ask for the 1839 Meia Pataca population map (APM,
-      catalogued under Cataguases, never retrieved) — the highest-value unretrieved
-      document: the fogo-68 couple were childless in 1831, so an 1839 return should
-      name their children, the test that turns entry 68 into evidence or kills it.
-      See the dedicated notes below. Second: pursue the Serra de Ibitipoca pointer
-      through the Barbacena parish books rather than repeating broad name searches.
+      HIGHEST-VALUE ACTIONS NOW (2026-10-08). The 2026-09-25 ask for the 1839 Meia
+      Pataca map is superseded: that map has been read and is negative (2026-10-08
+      note below). (1) Ask Nilza Cantoni for the transcription or image of p. 26 of
+      the Tombos Registros Paroquiais de Terra (1854–57), which her index lists as
+      "Simplicio José Ferreira", local "santo antonio", and whether the declaration
+      states filiation. It is too early to be this man, so it is a candidate for his
+      father [LEAD — index row only]. (2) Find where the 1831 Meia Pataca fogo-68
+      couple went: they are absent from the 1838–39 map, so look for neighbouring
+      districts' maps of the 1830s–40s. (3) The entry-68 crop and fls. 17 asks in the
+      unsent C-013 reply still stand for our own reading, but the published Capella
+      transcription already reads the surname "Almondes" and closes fogo 68 with the
+      couple alone (GOV-0013 notes). Lower: the Serra de Ibitipoca pointer is
+      weakened, since the 1831 Ibitipoca census is reported clean at 44 variants;
+      pursue it only through the Barbacena parish books, not broad name searches.
       Then, as before: verify the identity and fuller name through Aristão's birth,
       baptism or marriage record; then search this person's own earlier record.
       Trunk lead: retrieve the Barbacena PRINCIPAL autos of Honório J. F. Armonde's
@@ -708,11 +728,23 @@ people:
   - record_type: marriage
     status: unsearched
     source_ids: []
-    last_reviewed: "2026-07-29"
+    last_reviewed: "2026-10-08"
     next_action: >-
       Locate the Simplício José Ferreira Armond x Elisa Balbina (Toledo/Tolledo)
-      marriage ~1855-1872 (the decisive bridge record; names both spouses'
-      parents). Search Piacatuba/Leopoldina, then the Além Paraíba matriz.
+      marriage (~1868–74; see the notes). CUSTODIAN CORRECTED 2026-10-08 (C-004,
+      C-014): Argirita / Bom Jesus do Rio Pardo marriage book 1 (1860–1882) is kept at
+      the Argirita parish itself, not at the Juiz de Fora archdiocesan archive, which
+      has twice said it holds nothing for Argirita. The book is not digitised, and a
+      parish search costs R$50 per name. Owner action: ask the parish for permission
+      to photograph the 1860–1882 book on site. A historian who worked it reports it
+      legible and photographable. Any paid search needs the owner's go-ahead. Only the
+      Mar de Espanha slice (Jul 1863–Nov 1869) is at Juiz de Fora, queued as search
+      160/2026. That archive cautions that marriage acts here usually give only the
+      date, spouses and witnesses, and rarely filiation, so the act may not name
+      Simplício's parents. The earlier route ("search Piacatuba/Leopoldina, then the
+      Além Paraíba matriz", 2026-07-29) is superseded. Piacatuba book 1 is a documented
+      negative for its covered ranges (29 July 2026 note), and Além Paraíba is the
+      fallback if Argirita is negative.
     notes:
     - text: >-
         31 July 2026 (CIV-0023): the couple's daughter Aristides Ferreira Armand was
@@ -1046,7 +1078,10 @@ people:
       Armonde, Ermonde, Asmonde or Ormonde; Toledo, Paz, Assis, Lage, Lima and
       Rodrigues do Valle also absent. BOUNDS: no recapitulation table and the list
       stops mid-household at fogo 88, so the negative covers the fogos read, NOT the
-      district; do not repeat unless the missing sheets surface. On the search path
+      district; do not repeat unless the missing sheets surface. VARIANTS: R-forms
+      only, with no L-forms such as Almond-/Almend- (see the 2026-10-08 note). The
+      images are deleted, so this cannot be re-swept at the 44-variant standard; it
+      is an R-form negative. On the search path
       because Cágado became Mar de Espanha in 1851, the jurisdiction over Bom Jesus do
       Rio Pardo in 1863–69 (29 July 2026 marriage-record note above; C-002); it was a
       curato under São João Nepomuceno with no register series of its own before 1851.
@@ -1054,8 +1089,50 @@ people:
       books survive for 1832–1853, and no other Armond appears in either Cataguases
       map. The 1839 Meia Pataca population map (2026-09-24 entry-68 note above) is now
       the highest-value outstanding document; the ask is in the birth `next_action`.
-      Before syncing P-0016's profile, read GOV-0013's notes: the drop's profile writes
-      the fogo-68 head as "António Ferreira Armendes", a reading we do not hold.
+      [SUPERSEDED 2026-10-08: Nilza supplied the 1838–39 map on 2026-09-24, and it was
+      read as negative. See the 2026-10-08 note.] Before syncing P-0016's profile,
+      read GOV-0013's notes: the drop's profile writes the fogo-68 head as "António
+      Ferreira Armendes", a reading we do not hold.
+  - text: >-
+      2026-10-08 — WHAT THE RETRIEVAL AGENT'S 2026-09-25 CYCLE CHANGES FOR P-0016.
+      Folded from the retrieval drop. These are reported results unless marked
+      verified, and the documents are held by the retrieval side, not here.
+      (1) THE 1838–39 MEIA PATACA MAP IS READ, AND IT IS NEGATIVE. On 2026-09-24
+      Nilza Cantoni supplied the "Mapa da população do Districto de Santa Rita do
+      Meia Pataca, realizado em 1838, encaminhado em 21.01.1839" (APM caixa 93
+      doc. 18, transcribed by Joana Capella and Nilza Cantoni). It was read on
+      2026-09-25 across 118 fogos at 44 variants: no Armond, and the fogo-68 couple
+      are absent. They were present in 1831 and gone by 1838, so any children born
+      from 1832 were born or raised elsewhere. This relocates the parentage
+      hypothesis; it does not disprove it. A "Simplicio … 17 … Ibitipoca" in fogo 57
+      is a da Silva born ~1821, not ours. The 2026-09-24 and 2026-09-25 notes above
+      that call this map the highest-value document are superseded.
+      (2) ENTRY 68 READS "ALMONDES" in the published Projeto Compartilhar
+      transcription of the 1831 map (verified here 2026-10-08 from the public PDF;
+      see GOV-0013's notes). Whether Almondes is an Armond form, through L↔R drift,
+      is an interpretation, not a reading. The entry stays a LEAD and gives no
+      filiation.
+      (3) THE 44-VARIANT STANDARD. A 32-variant sweep missed "Almondes", so the
+      retrieval side now searches a 44-variant list that adds L-forms (almond-,
+      almand-, almend-, aumond-, …). Read every negative in this file recorded with
+      R-forms only as an R-form negative; that includes the Cágado 1831 map above and
+      other negatives that predate 2026-09-25. The retrieval side reports re-sweeping
+      its eight text corpora at 44 variants (Meia Pataca 1831 and 1838–39, Ibertioga
+      1831 and 1834, Presídio 1819, Tombos, São João Nepomuceno, Ibitipoca), and only
+      entry 68 changed.
+      (4) FURTHER BOUNDED NEGATIVES (reported), all with no Armond: the Presídio 1819
+      Lista Nominativa (códice 398, Arquivo da Câmara Municipal de Mariana); the
+      Ibertioga 1831 census and 1834 mapa de fogos (APM MP cx 8 doc 37); and the
+      Ibitipoca 1831 census, at 44 variants. The Ibitipoca result weakens Nilza's
+      Serra de Ibitipoca pointer but does not close it, since the family may have
+      been there in another decade.
+      (5) NEW LEAD. Nilza's index to the Tombos Registros Paroquiais de Terra
+      (1854–57) lists "Simplicio José Ferreira", local "santo antonio", p. 26. It is
+      an index row only, with no filiation, age or bounds. Our man (b. ~1845–53) was
+      a child then, so this is a candidate for his FATHER [LEAD]. A request for the
+      p. 26 transcription was drafted on the retrieval side on 2026-09-25; whether it
+      was sent is not recorded.
+      (6) CUSTODIAN CORRECTED for the marriage: see the marriage row above and C-014.
 - person_id: P-0017
   external_profiles: []
   records:

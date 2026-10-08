@@ -61,6 +61,9 @@ lead until verified against an original record.
   C-004), so the "where are the books" / marriage-certidão track moved to that
   archive; Nilza is now asked only for her expert knowledge and the baptism
   padrinhos.
+- **Superseded (recorded 2026-10-08):** that public-source premise was wrong for
+  Argirita. The Juiz de Fora archive replied the same day that it does not hold
+  Argirita (see C-004), and the Argirita books are at the parish itself (C-014).
 
 ### C-003 — Paróquia N. Sra. da Piedade, Piacatuba (via Diocese de Leopoldina)
 - Who: the parish that holds the Piacatuba baptism and marriage books.
@@ -94,8 +97,23 @@ lead until verified against an original record.
   dispensa de parentesco, which can carry the earlier generation) and, secondarily,
   Marfisa's 1873 baptism certidão for the padrinhos.
 - Sent: 2026-07-30 (by the owner).
-- Status: awaiting reply.
-- Reply: —
+- Status: **replied 2026-07-30; Argirita closed here (recorded 2026-10-08 from the
+  retrieval drop's thread, which carries the replies).**
+- Reply (2026-07-30): the archive does **not** hold Argirita, Leopoldina or
+  Piacatuba, which belong to the Diocese de Leopoldina. Of our localities it holds
+  sacramental records only for **Mar de Espanha** and **Taruaçu**. Marriage acts
+  in its books usually give the date, spouses and witnesses only. Filiation is
+  rare, and it holds no processos matrimoniais. Team searches cost R$115 each and
+  return a search extract, with the certidão charged separately; the queue is 6–12
+  months. In-person research by appointment is the free alternative.
+- Follow-up (2026-07-30/31): a team search was accepted for the marriage in **Mar
+  de Espanha, ~1864–1869**, the window when Bom Jesus do Rio Pardo was under Mar de
+  Espanha. Queue ticket **160/2026**; the fee is invoiced when the turn comes.
+- Second enquiry (2026-09-19, by the owner), asking whether the archive holds the
+  Bom Jesus do Rio Pardo books. Reply (2026-09-22): Argirita is not in its
+  ecclesiastical territory and it holds no record of that locality. Argirita is
+  **closed** at this archive; only ticket 160/2026 remains open. The books are at
+  the Argirita parish (C-014).
 
 ### C-005 — Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro (BPAR), Angra do Heroísmo (Terceira)
 - Who: the regional public archive of the Azores, custodian of the Terceira
@@ -151,6 +169,16 @@ lead until verified against an original record.
   page=34) appears to name "Belchior Cardozo … e sua mãe Mariana Fagundes" — a likely
   third attestation of Gaspar's parents; flagged as a from-retrieval target in
   data/record-coverage.yaml (P-0016), trunk-lead only.
+- **Update (recorded 2026-10-08 from the retrieval drop):** the owner later placed
+  a small paid order, Requisição nº101 (€2,00, invoiced as FAC BAH/99 and paid
+  2026-09-25). BPAR delivered it on 2026-09-25: two 300 dpi TIFF scans of Santa
+  Bárbara (Angra) baptism pages, December 1657 and December 1661–January 1662. They
+  were requested to check the Gaspar de Souto Maior baptism of 23 Dec 1657 and a
+  Manoel Machado Ermonde baptism. The scans are held by the retrieval side, are not
+  yet fully transcribed, and have **not** been delivered to this repository. With
+  the delivery, the archivist noted unprompted that the surname Armond is related to
+  Ormonde and Drumond. That is expert opinion, not a document, and it proves no one's
+  descent.
 
 ### C-006 — Coordenação de Arquivo Permanente (COARPE), Tribunal de Justiça de Minas Gerais
 - Who: the TJMG permanent-archive coordination holding the historical judicial
@@ -331,6 +359,13 @@ lead until verified against an original record.
 - Outcome: Erschwil search CLOSED (bounded negative). **Next action:** search Beinwil
   parish books (Kantonsarchiv Solothurn) for Jakob Borer b. 13 Dec 1801.
 - Recorded in record-coverage P-0050 and P-0100 notes (2026-09-23).
+- Corrected-parish email sent 2026-09-23 (by the owner). **Reply 2026-09-25 (recorded
+  2026-10-08 from the retrieval drop): both entries found and sent free** as a 2-page
+  image PDF from the Kirchenbuch von Beinwil, 1773–1837, Band 26: the baptism (fol. 44)
+  and the parents' marriage of 14.11.1797 (fol. 15). The archivist's email dates the
+  baptism 13.12.1801; the retrieval agent reads the register as 14 December 1801, twins
+  Jacob and Ursus Victor. The PDF is held by the retrieval side and is not yet in this
+  repository; see record-coverage P-0050.
 
 ### C-012 — Nilza Cantoni (2026-09-22 corrected page delivery)
 - Who: Nilza Cantoni (genealogist; `nilza.cantoni@gmail.com`; see C-002 for full profile).
@@ -427,3 +462,43 @@ population map** (APM, catalogued under Cataguases), which Nilza pointed to: if 
 the right family, it should name their children. The Portuguese draft reply above does not yet include
 this ask; add it before sending. Her 2026-09-24 statements retiring two dead ends are recorded in
 `logs/2026-09-25-cagado-1831-bounded-negative.md`.
+
+**C-013 follow-up (2026-10-08) — ask (5) withdrawn; what Nilza has sent since (from the retrieval
+drop's thread).** Ask (5) above was already answered when it was written. Nilza **supplied the 1838–39
+Meia Pataca map on 2026-09-24** (APM caixa 93 doc. 18, transcribed by Joana Capella and Nilza), and it
+reads as negative: no Armond, and the fogo-68 couple are absent (record-coverage P-0016, 2026-10-08
+note). Do not add ask (5) to the draft. Ask (3), the archival reference, is answered in part:
+Projeto Compartilhar's published transcription cites the 1831 map as **APM Cx 02 Doc 14** (GOV-0013
+notes; confirm with her). Also received, as reported by the retrieval side and held there, not here:
+- 2026-09-24: the **Presídio 1819 Lista Nominativa** (códice 398, Arquivo da Câmara Municipal de
+  Mariana), negative for Armond; and the **Rio Pomba 1838–39 LAMPEH/UFV coded dataset**, with Toledo
+  and Paz households of interest (leads only).
+- 2026-09-25, after a video call that was not recorded: her index to the **Tombos Registros
+  Paroquiais de Terra** (row "Simplicio José Ferreira", local "santo antonio", p. 26 — a
+  candidate-father lead) and the **Ibertioga 1831 census and 1834 mapa de fogos**, both negative.
+- **Still to ask (supersedes the outstanding list):** (1) the entry-68 crop and (2) fls. 17, for our
+  own reading; (3) confirmation of the archival reference; (4) the "pergunta que ficou pendente";
+  and **(6) the transcription or image of Tombos p. 26, and whether it states filiation.** The
+  retrieval side drafted a WhatsApp reply on 2026-09-25 that asks for p. 26; whether it was sent is
+  not recorded here. Owed by us: tell her when the COARPE processes she asked about arrive.
+
+### C-014 — Paróquia Senhor Bom Jesus, Argirita (Bom Jesus do Rio Pardo), Diocese de Leopoldina
+- Who: the parish that **holds** the Argirita / Bom Jesus do Rio Pardo registers. The books are kept
+  at the parish house beside the church, not at a diocesan or archdiocesan archive.
+- Contact: the parish's WhatsApp line (held by the owner).
+- Purpose: the **Simplício José Ferreira Armond ⚭ Eliza Balbina de Toledo marriage (~1868–74)**,
+  the record most likely to name Simplício's parents, plus the couple's children's baptisms.
+- Sent: 2026-08 and 2026-08-12 (by the owner, via WhatsApp). Recorded here 2026-10-08 from the
+  retrieval drop's thread; until then this contact was missing from this log.
+- Replies: (2026-08) a search costs R$50 and takes 30–60 working days. (**2026-09-15**) the first
+  marriage book runs from early **1860 to 1882**, which covers the whole window; the fee is **R$50
+  per name**, so searches cannot be bundled; **the books are not digitised**; PIX is accepted, but
+  no key has been given.
+- Corroboration of custody (2026-09-22/23): historian Jonis Freire, who worked these books for his
+  research, reports them at the parish house, in excellent condition and legible, and says a
+  visitor could photograph them on site. His own notes are paper worksheets on the enslaved
+  population only, so they do not cover our family.
+- Status: **open — owner action.** Ask the parish for permission to photograph the 1860–1882
+  marriage book on site. A paid search (R$50 per name) needs the owner's go-ahead, and the free
+  photograph route comes first. The Mar de Espanha slice (1863–69) is separately queued at Juiz de
+  Fora (C-004, ticket 160/2026).
