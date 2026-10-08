@@ -54,7 +54,7 @@ profile: >-
 
   - **[INFERRED]** Her double surname "Engrácio Guimarães" is the visible fusion of two lines: her father's Engrácio-Souza commercial family and her mother's Carvalho-Guimarães immigrant-descended farming family — two non-landed routes to standing, joined in one woman.
 
-  - **[PROVEN]** She appears as "CIDÁLIA" at birth (CIV-0022), "Cidalia Engrácio Guimarães" at marriage (CIV-0002), "Cidalia Engrácio Armond" as a wife and widow (CIV-0003), and "Cidalia Igracio Armond" on a later family birth certificate (CIV-0008) — four name forms across a 93-year documented life.
+  - **[PROVEN]** She appears as "CIDÁLIA" at birth (CIV-0022), "Cidalia Engrácio Guimarães" at marriage (CIV-0002), "Cidalia Engrácio Armond" as a wife and widow (CIV-0003), and "Cidalia Igracio Armond" on a later family birth certificate (CIV-0008) — four name forms across a 92-year life.
 
   - **[CONTEXTUAL]** She was born in the coffee-frontier Zona da Mata Mineira (Alvorada, Carangola, 1930), married in the adjacent município of Eugenópolis (1952), and died in Volta Redonda (2023) — her biography spans the same Minas interior → Rio de Janeiro industrial-city trajectory that defined mid-20th-century Brazil.
 
@@ -76,14 +76,18 @@ profile: >-
 
   - **Birth:** 15 September 1930, at home ("em domicílio"), district of Alvorada,
   município de Carangola, Minas Gerais [PROVEN] — her own civil birth registration,
-  declared by her father (CIV-0022). This supersedes the "15 November" family variant.
+  declared by her father (CIV-0022). This supersedes the "15 November" family variant. The
+  act (nº 132, fl. 142, book 2 of the Alvorada register) was made on the day of her birth.
 
   - **Parents:** Antonio Engracio Filho (P-0010, recorded there as "Antônio Engrácio de
   Souza") and Maria Aurora Guimarães (P-0011) [PROVEN] (CIV-0022, CIV-0002).
 
   - **Marriage:** married Geraldo Paz Armond (P-0004) on 31 May 1952 at Eugenópolis,
-  Minas Gerais (Casamento nº 898, livro 13-B) [PROVEN] (CIV-0002); she thereafter signed
-  "Cidalia Engrácio Armond".
+  Minas Gerais (Casamento nº 898, livro 13-B, fl. 22) [PROVEN] (CIV-0002); she thereafter
+  signed "Cidalia Engrácio Armond" (the certificate is water-damaged, and the
+  Engrácio/Engrácia and Armond/Armand endings are uncertain reads). The certificate records
+  her and both her parents as resident in Eugenópolis at the time, and gives her parents'
+  birth dates as 15 June 1894 and 1 January 1904 [PROVEN as stated] (CIV-0002).
 
   - **Children:** she and Geraldo left at least one child — a living descendant, details
   withheld [PROVEN] (Geraldo's 1991 death records "deixou um filho", CIV-0003).
@@ -95,7 +99,7 @@ profile: >-
   Municipal de Volta Redonda, and left three adult children — one living and two already
   deceased (none named, for privacy). The cause of death was left pending a forensic report
   (art. 160 CPP). Her death certificate records her *naturalidade* as "Eugenópolis-MG" — the
-  Zona-da-Mata município of her 1952 marriage and last residence, not her birthplace, which
+  Zona-da-Mata município where she married and was resident in 1952 (CIV-0002), not her birthplace, which
   her own 1930 registration fixes at Alvorada, Carangola (CIV-0022 governs). [PROVEN] She had
   been living as recently as February 1991, named as surviving wife in Geraldo's death record
   (CIV-0003).
@@ -118,6 +122,11 @@ profile: >-
   both her parents and both grandparent couples — paternal Antonio Engracio de Souza and
   Luzia da Conceição, maternal Francisco José de Carvalho Guimarães and Emerenciana Maria
   de Jesus — which makes it the structural spine of the whole line. [PROVEN]
+
+  Her 1952 marriage was contracted before a judge read as Cyrano Portilho, with witnesses
+  read as Camilo Soares Galvão Filho and Mário Dutra da Silva — all uncertain readings on a
+  damaged certificate (CIV-0002). They are recorded only as her wedding-day network; no
+  relationship to her is stated. [uncertain]
 
   ## What we can extrapolate
 
@@ -186,8 +195,10 @@ profile: >-
   - Her civil death registration — **held** (CIV-0027): confirms her death on 17 April
   2023 at Volta Redonda, aged 92, a retired seamstress. [RESOLVED]
 
-  - Her full sibling set — her parents' death records report several adult children, but
-  her siblings are not yet named from the records held for her. [OPEN]
+  - Her full sibling set — her father's 1964 death reports six adult children (CIV-0017)
+  and her mother's 1991 death five (CIV-0018), so she was one of at least six children who
+  reached adulthood; the drop suggests one died between 1964 and 1991 [INFERRED from the
+  counts]. Her siblings are not yet named from the records held for her. [OPEN]
 
   ## Sources held (this repository)
 
@@ -200,6 +211,9 @@ profile: >-
   death — names her as surviving wife "Cidalia Engracio Armond"; the couple left one child)
   · CIV-0008 (a later family birth certificate — records the name form "Cidalia Igracio
   Armond").
+
+  - CIV-0017 · CIV-0018 (her parents' 1964 and 1991 deaths — cited here only for the
+  counts of adult children).
 
   ## Regional and migration context
 
@@ -225,7 +239,7 @@ profile_pt: >-
 
   - **[INFERRED]** Seu sobrenome duplo "Engrácio Guimarães" é a fusão visível de duas linhas: a família comercial Engrácio-Souza de seu pai e a família de lavradores descendentes de imigrantes Carvalho-Guimarães de sua mãe — dois caminhos não fundiários rumo à posição social, reunidos em uma só mulher.
 
-  - **[PROVEN]** Ela aparece como "CIDÁLIA" ao nascer (CIV-0022), "Cidalia Engrácio Guimarães" ao se casar (CIV-0002), "Cidalia Engrácio Armond" como esposa e viúva (CIV-0003), e "Cidalia Igracio Armond" em uma certidão de nascimento familiar posterior (CIV-0008) — quatro formas de nome ao longo de uma vida documentada de 93 anos.
+  - **[PROVEN]** Ela aparece como "CIDÁLIA" ao nascer (CIV-0022), "Cidalia Engrácio Guimarães" ao se casar (CIV-0002), "Cidalia Engrácio Armond" como esposa e viúva (CIV-0003), e "Cidalia Igracio Armond" em uma certidão de nascimento familiar posterior (CIV-0008) — quatro formas de nome ao longo de uma vida de 92 anos.
 
   - **[CONTEXTUAL]** Nasceu na Zona da Mata Mineira cafeeira (Alvorada, Carangola, 1930), casou-se no município vizinho de Eugenópolis (1952) e faleceu em Volta Redonda (2023) — sua biografia percorre a mesma trajetória interior mineiro → cidade industrial do Rio de Janeiro que definiu o Brasil de meados do século XX.
 
@@ -248,14 +262,20 @@ profile_pt: >-
 
   - **Nascimento:** 15 de setembro de 1930, em domicílio, distrito de Alvorada, município
   de Carangola, Minas Gerais [PROVEN] — seu próprio registro civil de nascimento,
-  declarado por seu pai (CIV-0022). Isso supera a variante familiar de "15 de novembro".
+  declarado por seu pai (CIV-0022). Isso supera a variante familiar de "15 de novembro". O
+  assento (nº 132, fl. 142, livro 2 do registro de Alvorada) foi lavrado no próprio dia do
+  nascimento.
 
   - **Pais:** Antonio Engracio Filho (P-0010, ali registrado como "Antônio Engrácio de
   Souza") e Maria Aurora Guimarães (P-0011) [PROVEN] (CIV-0022, CIV-0002).
 
   - **Casamento:** casou-se com Geraldo Paz Armond (P-0004) em 31 de maio de 1952, em
-  Eugenópolis, Minas Gerais (Casamento nº 898, livro 13-B) [PROVEN] (CIV-0002); passou
-  então a assinar "Cidalia Engrácio Armond".
+  Eugenópolis, Minas Gerais (Casamento nº 898, livro 13-B, fl. 22) [PROVEN] (CIV-0002);
+  passou então a assinar "Cidalia Engrácio Armond" (a certidão está danificada pela água, e
+  as terminações Engrácio/Engrácia e Armond/Armand são leituras incertas). A certidão a
+  registra, assim como ambos os pais, como residentes em Eugenópolis na ocasião, e dá as
+  datas de nascimento dos pais como 15 de junho de 1894 e 1º de janeiro de 1904 [PROVEN
+  conforme declarado] (CIV-0002).
 
   - **Filhos:** ela e Geraldo deixaram ao menos um filho — um descendente vivo, cujos
   detalhes são omitidos [PROVEN] (o óbito de Geraldo de 1991 registra "deixou um
@@ -268,7 +288,7 @@ profile_pt: >-
   e deixou três filhos maiores — um vivo e dois já falecidos (não nomeados, por privacidade).
   A causa da morte ficou pendente de laudo pericial (art. 160 do CPP). Sua certidão de óbito
   registra a *naturalidade* como "Eugenópolis-MG" — o município da Zona da Mata de seu
-  casamento de 1952 e última residência, não o de nascimento, que seu próprio registro de
+  casamento e residência em 1952 (CIV-0002), não o de nascimento, que seu próprio registro de
   1930 fixa em Alvorada, Carangola (CIV-0022 prevalece). [PROVEN] Ainda estava viva em
   fevereiro de 1991, nomeada como esposa sobrevivente no registro de óbito de Geraldo (CIV-0003).
 
@@ -290,6 +310,11 @@ profile_pt: >-
   único ato fixa tanto seus pais quanto os dois casais de avós — paternos Antonio Engracio
   de Souza e Luzia da Conceição, maternos Francisco José de Carvalho Guimarães e
   Emerenciana Maria de Jesus — o que o torna a espinha estrutural de toda a linha. [PROVEN]
+
+  Seu casamento de 1952 foi contraído perante um juiz lido como Cyrano Portilho, tendo como
+  testemunhas os lidos como Camilo Soares Galvão Filho e Mário Dutra da Silva — todas
+  leituras incertas numa certidão danificada (CIV-0002). Registram-se apenas como a rede do
+  dia do casamento; nenhuma relação com ela é declarada. [uncertain]
 
   ## O que podemos extrapolar
 
@@ -360,9 +385,11 @@ profile_pt: >-
   - Seu registro civil de óbito — **localizado** (CIV-0027): confirma seu falecimento em 17
   de abril de 2023, em Volta Redonda, aos 92 anos, costureira aposentada. [RESOLVED]
 
-  - O conjunto completo de seus irmãos — os registros de óbito de seus pais informam
-  vários filhos adultos, mas seus irmãos ainda não foram nomeados a partir dos registros
-  mantidos para ela. [OPEN]
+  - O conjunto completo de seus irmãos — o óbito de seu pai em 1964 informa seis filhos
+  maiores (CIV-0017) e o de sua mãe em 1991, cinco (CIV-0018), de modo que ela foi uma de ao
+  menos seis filhos que chegaram à idade adulta; a diferença sugere que um faleceu entre 1964
+  e 1991 [INFERRED a partir das contagens]. Seus irmãos ainda não foram nomeados a partir dos
+  registros mantidos para ela. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
@@ -375,6 +402,9 @@ profile_pt: >-
   1991 — nomeia-a como esposa sobrevivente "Cidalia Engracio Armond"; o casal deixou um
   filho) · CIV-0008 (uma certidão de nascimento familiar posterior — registra a forma de
   nome "Cidalia Igracio Armond").
+
+  - CIV-0017 · CIV-0018 (óbitos de seus pais, de 1964 e 1991 — citados aqui apenas pelas
+  contagens de filhos maiores).
 
   ## Contexto regional e migratório
 

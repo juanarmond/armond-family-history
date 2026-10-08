@@ -5,6 +5,22 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — code-review findings, Geraldo's will, and a 28-ancestor profile sync (2026-10-08)
+
+- Fixed the review findings on the day's commits: the "couple left Meia Pataca" inference
+  (reopened by an 1856 land declaration, recorded as a lead), the false "transcription lost"
+  claim for Cágado (re-swept at 44 variants), the custodian text left in the Family Story's
+  Open Questions, C-004's header, Juiz de Fora's Taruaçu holdings, the marriage row's status
+  (`inaccessible`), the restored paid-search authorisation rule, the GOV-0013 variant list, the
+  inventário conflict notes, and P-0019's unsupported 1866 claim.
+- Corrected two errors introduced on 2026-09-23, both checked against the images: Geraldo Paz
+  Armond left no will (CIV-0003), and Celina Bohrer died on 19 Feb 1977 as a doméstica (CIV-0015;
+  `occupations`, notes, Family Story, STATUS). Four curated corrections were added to "What's
+  new", and the GEDCOM export was regenerated.
+- Synced `profile`/`profile_pt` for 28 ancestors from the retrieval drop's research profiles,
+  with reported-only facts tagged [LEAD] and several narrative errors corrected from held
+  sources.
+
 ### Changed — São Paio lead retired on P-0023; Muniz inventários recorded as located (2026-10-08)
 
 - P-0023's profile (EN and PT) and coverage now record the AMAP São Paio hypothesis as

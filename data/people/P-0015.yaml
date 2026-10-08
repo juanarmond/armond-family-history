@@ -24,9 +24,10 @@ family_ids:
   - F-0005
   - F-0014
 occupations:
-  - value: costureira
+  - value: doméstica
     source_ids:
       - CIV-0015
+      - CIV-0031
 notes:
   - text: >-
       Ahnentafel position 15. Preferred name is "Celina", the spelling used by
@@ -46,13 +47,18 @@ notes:
       30/07/2026: o próprio registro de óbito e o peso das evidências civis superam
       a única grafia do casamento.
   - text: >-
-      Died 15 February 1977 at Volta Redonda, RJ, aged 77 (consistent with her 13 May 1899
+      Died 19 February 1977 at Volta Redonda, RJ (registered 20 February), aged 77
+      (corrected 2026-10-08 from the image: a 2026-09-23 edit had changed this to 15 February
+      and her occupation to costureira; CIV-0015 reads "dezenove" and "doméstica"; consistent with her 13 May 1899
       baptism, PAR-0057), a widow, per her civil death (CIV-0015). Born in Nova Friburgo, RJ ("natural
       deste Districto", CIV-0016), which resolves the São Leopoldo (RS) "Celina
       Amalia Bohrer" as a different person. Her parents were Joaquim José Bohrer
       (P-0030) and Lucinda Ferreira da Silva (P-0031) — family F-0014.
     text_pt: >-
-      Falecida em 15 de fevereiro de 1977 em Volta Redonda, RJ, com 77 anos
+      Falecida em 19 de fevereiro de 1977 em Volta Redonda, RJ (registrado a 20 de fevereiro),
+      com 77 anos (corrigido em 2026-10-08 a partir da imagem: uma edição de 2026-09-23 tinha
+      mudado a data para 15 de fevereiro e a ocupação para costureira; CIV-0015 lê "dezenove" e
+      "doméstica")
       (coerente com seu batismo de 13 de maio de 1899, PAR-0057), viúva, conforme seu óbito
       civil (CIV-0015).
       Nascida em Nova Friburgo, RJ ("natural deste Districto", CIV-0016), o que
@@ -64,11 +70,11 @@ profile: >-
 
   - **[PROVEN]** She was born at Nova Friburgo on 13 May 1899 (PAR-0057) — the same year her brother Antonio José Bohrer, aged 13, died of a snakebite (jararacussú), reported in the family newspaper *A Sentinella* edited by a Bohrer relative in Muriaé (NWS-0006). Birth and death in the same family, in the same year, one reported in the family's own press.
 
-  - **[CONTEXTUAL]** Her 1899 birth is at the exact moment of the Nova Friburgo colony's civil registration transition: before 1889 vital records were kept by the Catholic church (PAR- sources); after 1889's Republican proclamation, civil registration became standard. She was baptised at São João Baptista parish (PAR-0057) rather than registered civilly — the transition generation.
+  - **[CONTEXTUAL]** Her 1899 birth is at the exact moment of the Nova Friburgo colony's civil registration transition: before 1889 vital records were kept by the Catholic church (PAR- sources); after 1889's Republican proclamation, civil registration became standard. She is documented by her parish baptism at São João Baptista (PAR-0057); no civil birth registration for her has been located, which does not show that none was made — she belongs to the transition generation.
 
   - **[PROVEN]** Both her 1977 death record (CIV-0015) and her husband's 1970 death (CIV-0014) name her, but they conflict on the number of children: she "deixou quatorze filhos" per CIV-0015, but "quinze" per CIV-0014. The one-child discrepancy remains unresolved — one child either died between 1970 and 1977, or one death record misstated the count.
 
-  - **[INFERRED]** Her entire life traces the family's migration arc: born in Nova Friburgo (1899), her father a negociante of the Alto da Serra; married in Carangola, MG (probably c.1920s); dead a widow in Volta Redonda (1977). Nova Friburgo → Zona da Mata Mineira → CSN steel city — the same three-stage migration as her husband João Gonçalves Bohrer.
+  - **[INFERRED]** Her entire life traces the family's migration arc: born in Nova Friburgo (1899), her father a negociante of the Alto da Serra; married by early 1923 — in Nova Friburgo on her husband's own 1923–1924 statements (CIV-0038, CIV-0016), in Carangola, MG, on his 1970 death record (CIV-0014); mother of children born in Minas Gerais from 1929 (CIV-0004, CIV-0040, CIV-0025); dead a widow in Volta Redonda (1977). Nova Friburgo → Zona da Mata Mineira → CSN steel city — the same three-stage migration as her husband João Gonçalves Bohrer.
 
   - **[CONTEXTUAL]** The Bohrer family of the Alto da Serra, Nova Friburgo, where Celina was born, were by 1899 already two or three generations removed from the original Swiss colonists of 1819–1824; her father Joaquim José Bohrer ran a small business (negócio, CIV-0019) rather than farming — the typical assimilation arc from colonist-farmer to petty merchant across three generations.
 
@@ -94,16 +100,13 @@ profile: >-
   (CIV-0015; corroborated by CIV-0016, where they are already *já fallecidos* by May
   1924).
 
-  - **Marriage:** married **João Gonçalves Bohrer** (P-0014), reportedly at **Carangola,
-  Minas Gerais** [uncertain reading, CIV-0014] — a **Bohrer × Bohrer** union.
+  - **Marriage:** married **João Gonçalves Bohrer** (P-0014) — a **Bohrer × Bohrer** union — by March 1923, when Senira's birth calls them husband and wife (CIV-0038). **Place in conflict** [PROVEN, conflicting]: her husband's 1970 death states "casado com Celina Bohrer em Carangola, Minas Gerais" (CIV-0014, a son-in-law's report), while João's own 1923 and 1924 declarations say the couple was "casados civilmente" in Nova Friburgo (CIV-0038, CIV-0016); the earlier, first-hand statements carry more weight [INFERRED]. No marriage record is held.
 
-  - **Death:** **15 February 1977** (registered 20 February 1977), at the Casa de Saúde
-  São José, **Volta Redonda, RJ**, aged 77, a **widow**; *causa mortis* **carcinoma
-  gástrico** [PROVEN] (CIV-0015). She left no goods and no will.
+  - **Death:** **19 February 1977**, at 18:00 (registered 20 February 1977), at the Casa de Saúde São José, **Volta Redonda, RJ**, aged 77, a **widow**, resident at Rua Paulo Mendes 205 (the same address as on her husband's death, CIV-0014); *causa mortis* **"blastoma gástrico"** (a gastric tumour) [PROVEN] (CIV-0015, óbito nº 25.651; event E-0021). She left no goods and no will. The declarant was not a relative, appearing "no impedimento ocasional de membros da família". (The retrieval research gives 15 February, "carcinoma gástrico" and registration nº 3551 for this death; the catalogued register image reads "dezenove", "Blastoma gástrico" and nº 25.651, and that reading governs here.)
 
   ## Standing and profession
 
-  - **Costureira (seamstress)** [PROVEN] — her occupation on her 1977 death record (CIV-0015). She was
+  - **Doméstica** [PROVEN] — her occupation on her own 1977 death record (CIV-0015) and on her son Ercy's 1972 death, where she is the surviving mother (CIV-0031). The retrieval research reports her as a *costureira* (seamstress) on both records, but the catalogued images of both read *doméstica*, so the seamstress label is not supported by any record held here and is withdrawn from this profile. She was
   a **widow** at death, João Gonçalves having predeceased her in 1970 (CIV-0014,
   CIV-0015) — consistent across both records.
 
@@ -115,13 +118,13 @@ profile: >-
   preserved. [PROVEN, conflicting] Seven are individually documented: Iris Bohrer Muniz
   (P-0007), Eunir Bohrer (1924; CIV-0016), João Bohrer (d. 2001; CIV-0025), Ercy Bohrer
   (c.1942–1972; CIV-0031), Senira Bohrer (1923; CIV-0038), Alício Borher (1924–2005; CIV-0039)
-  and Ivanyr Borher (c.1930–1992; CIV-0040) — each naming both parents.
+  and Ivanyr Borher (c.1930–1992; CIV-0040) — each naming both parents. Three further names — Cinésio (1926–2015), Ivan (1930; probably a duplicate of Ivanyr) and Maria Adyr (1936–2020) — come from the FamilySearch tree as reported by the retrieval research [LEAD — no record held here].
 
   - **Her Nova Friburgo birth family:** her siblings' civil records fix her parents
   Joaquim José × Lucinda as a couple of the Alto da Serra, Nova Friburgo. Her brother
   **Alberto Bohrer** was born there in 1890 (CIV-0019), an infant brother in 1891 who
   died in 1892 (CIV-0020), and a brother **Antonio José Bohrer** died in 1899 aged 13 of
-  a jararacussú snakebite (NWS-0006). CIV-0019 also names her grandparents — paternal
+  a jararacussú snakebite (NWS-0006). Further siblings are documented by baptisms naming both parents: **Joaquim Carlos** (b. 6 Jan 1896; PAR-0078), **Renato** (b. 12 Sep 1897; PAR-0079), **Etelvina** (b. 16 May 1900; PAR-0075) and **Lucinda Maria** (b. 26 Jul 1908; PAR-0052) — very probably the **Lucinda Bohrer Moreira** who died at Volta Redonda in 1996, whose death names the same parents and gives her birth as 26 July 1909 (CIV-0032) [INFERRED — same day and month, one year apart]. Three more brothers — Francisco José (1885–1973), Joaquim José Júnior and Álvaro José — appear only in the FamilySearch tree [LEAD]. CIV-0019 also names her grandparents — paternal
   **Francisco José Bohrer** (deceased) × **Roza Eugenia de Lemos**, maternal **Antonio
   da Silva Ferreira** × **Maria Joanna da Silva Ferreira**.
 
@@ -131,12 +134,7 @@ profile: >-
 
   ## What we can extrapolate
 
-  **Her whole recorded economic life is one profession and one clause.** She is recorded as a
-  *costureira* (CIV-0015) [PROVEN], and the same act states that she "não deixou bens nem
-  testamento" and left fourteen children. She had been a widow for seven years. Piece-work
-  sewing was the standard paid trade available to a working-class woman running a large
-  household — income that flexes with demand, is earned at home alongside the children, and
-  never accumulates into anything [CONTEXTUAL].
+  **Her whole recorded economic life is one word and one clause.** She is recorded as *doméstica* — on her own death and on her son Ercy's in 1972 (CIV-0015, CIV-0031) [PROVEN] — and the 1977 act states that she "não deixou bens nem testamento" and left fourteen children. She had been a widow for seven years. In Brazilian civil registers of the period *doméstica* usually describes a woman keeping her own household, though it can also mean a domestic servant [CONTEXTUAL]; either way it names household labour that produced no property of its own. (An earlier version of this profile, following the retrieval research, called her a seamstress; no record held here supports that.) [INFERRED]
 
   **Two generations separate an Alto da Serra merchant's daughter from a woman who left
   nothing.** Her father Joaquim José Bohrer was a *negociante* with his own house in the serra
@@ -154,9 +152,7 @@ profile: >-
   godparenthood was a device for attaching a child to a patron; here it attaches her to her own
   uncle and aunt. A household with no patron to offer stands as godparent to itself. [INFERRED]
 
-  **Her life maps the family's migration exactly**: born at Nova Friburgo in 1899 (PAR-0057),
-  married in Carangola in the Zona da Mata Mineira, widowed and dead at Volta Redonda in 1977
-  (CIV-0014, CIV-0015) [PROVEN]. She is the female face of a line that never held heritable
+  **Her life maps the family's migration exactly**: born at Nova Friburgo in 1899 (PAR-0057), married by 1923 (the place is in conflict — see Identity) and first a mother there in 1923–1924 (CIV-0038, CIV-0016), then a mother in the Zona da Mata Mineira from 1929 (CIV-0004, CIV-0025, CIV-0040), widowed and dead at Volta Redonda in 1977 (CIV-0014, CIV-0015) [PROVEN]. She is the female face of a line that never held heritable
   capital — colonist-descended serra people whose wealth was labour and petty trade, resettled
   as urban working people in the CSN steel city [CONTEXTUAL]. That she left no property is not
   decline but the line's baseline, and the exact inverse of the paternal Armond arc, where
@@ -166,10 +162,7 @@ profile: >-
   **Her marriage closes a circle the colony opened.** She and her husband were both Bohrers, but
   from the two distinct Borer families the Nova Friburgo compilation places on the same 1819
   *Heureux Voyage*, on adjacent lots, with no evidence of close kinship — hers descending from
-  Jacob, his from Laurent (PUB-0003) [COMPILED]. Eighty years after the landing, the branch that
-  had reached the merchant plateau and the branch that had stayed smallholders married each
-  other, at the bottom of both trajectories, in a Minas Gerais coffee district. Whether the
-  union was consanguineous is undocumented and remains open. [INFERRED]
+  Jacob, his from Laurent (PUB-0003) [COMPILED]. Each descent is now documented by parish records held here: hers through her father's 1884 marriage (PAR-0056), her grandfather Francisco José's 1832 baptism (PAR-0054) and Jacob Bohrer × Catharina Moser's 1825 marriage (PAR-0059); his through PAR-0063, PAR-0061 and PAR-0060. A century after the landing, the branch that had reached the merchant plateau and the branch that had stayed smallholders married each other, at the bottom of both trajectories — in Nova Friburgo itself on the groom's own 1923–1924 statements, though his 1970 death names Carangola (CIV-0038, CIV-0016, CIV-0014). Whether the union was consanguineous is undocumented and remains open. [INFERRED]
 
   **Most of her children are known only from their own deaths.** Nine or ten of the fourteen or
   fifteen are still unnamed in the record, and those we can name surface in civil death
@@ -187,15 +180,18 @@ profile: >-
   - The **child count** (fourteen vs fifteen) — resolvable only by assembling the
   children's own records. [OPEN]
 
-  - Her **marriage to João Gonçalves** — the Carangola (MG) civil marriage register would
-  date the union and confirm her filiation independently. [OPEN]
+  - Her **marriage to João Gonçalves** — no record held, and the place conflicts (Carangola per CIV-0014; Nova Friburgo per CIV-0038 and CIV-0016). The Nova Friburgo civil marriage registers before March 1923, then Carangola's, would date the union and confirm her filiation independently. [OPEN]
+
+  - **Two 1924 births:** Eunir's birth act gives 17 May 1924 at Nova Friburgo (CIV-0016); Alício's 2005 death gives 26 July 1924 at Divino, MG (CIV-0039). Both cannot be true for one mother; the birth act outranks the death informant. [OPEN]
+
+  - **Death details:** the retrieval research's 15 February / "carcinoma gástrico" / nº 3551 does not match the catalogued register (CIV-0015: 19 February, "blastoma gástrico", nº 25.651). If the retrieval side holds a different copy of this death, it should be delivered and compared. [OPEN]
 
   ## Sources held (this repository)
 
   - PAR-0057 (her own 1899 Nova Friburgo baptism — born 13 May 1899, baptised 27 September
   1899 at São João Baptista; parents Joaquim José Bohrer × Lucinda Ferreira).
 
-  - CIV-0015 (her 1977 Volta Redonda death — age, widow, costureira, parents, fourteen
+  - CIV-0015 (her 1977 Volta Redonda death — age, widow, doméstica, parents, fourteen
   children) · CIV-0016 (Eunir's 1924 Nova Friburgo birth — "natural deste Districto", her
   parents) · CIV-0014 (husband's 1970 death — names her, fifteen children) · CIV-0004
   (daughter Iris's 1949 marriage — "Selina") · CIV-0025 (son João Bohrer's 2001 death) ·
@@ -206,15 +202,13 @@ profile: >-
   (A Sentinella — her father's 16 December birthday) · NWS-0006 (A Sentinella — her brother
   Antonio José's 1899 death) · PUB-0003 (published Nova Friburgo genealogy).
 
+  - Children's records naming her as mother: CIV-0038 (Senira, 1923) · CIV-0031 (Ercy, 1972 — "doméstica") · CIV-0039 (Alício, 2005) · CIV-0040 (Ivanyr, 1992). Siblings: PAR-0078 (Joaquim Carlos, 1896) · PAR-0079 (Renato, 1898) · PAR-0075 (Etelvina, 1902) · PAR-0052 (Lucinda Maria, 1908) · CIV-0032 (Lucinda Bohrer Moreira, 1996). Line and kin: PAR-0056 (parents' 1884 marriage) · PAR-0054 (grandfather Francisco José's 1832 baptism) · PAR-0059 (Jacob Bohrer × Catharina Moser, 1825) · PRB-0005 (Francisco José's 1888 will) · CIV-0037 (aunt Maria da Gloria's 1899 marriage).
+
   ## Regional and migration context
 
   She was born at **Nova Friburgo** (CIV-0016), the Serra-fluminense town built by the
   1819–1824 Swiss / German Catholic colony, into the Bohrer *negociante* family of the
-  Alto da Serra (CIV-0019, CIV-0020). The family's descent from the Nova Friburgo
-  Borer/Bohrer immigrants (her line through Joaquim José → Francisco José Bohrer, P-0034)
-  is documented in the published Nova Friburgo genealogy (PUB-0003) [LEAD] and is not
-  inferred from the surname alone. She married into a Carangola (MG) household and died at
-  **Volta Redonda**, the CSN steel city, in 1977. [CONTEXTUAL]
+  Alto da Serra (CIV-0019, CIV-0020). The family's descent from the Nova Friburgo Borer/Bohrer immigrants is documented by parish records held here, not inferred from the surname: her father's 1884 marriage names his parents Francisco José Bohrer (P-0034) × Roza Eugenia de Lemos (PAR-0056); Francisco José's 1832 baptism names Jacob Bohrer × Catharina Moser (PAR-0054); and their 1825 Nova Friburgo marriage records them as Swiss colonists of Canton Solothurn — Jacob of Beinwil, which the register writes "Erswill" (PAR-0059). The published genealogy (PUB-0003) agrees. (The retrieval research places Jacob at Erschwil; this repository reads the register's "Erswill" as Beinwil.) After her marriage she lived in the Zona da Mata Mineira, where children were born from 1929 (CIV-0004, CIV-0025, CIV-0040) [INFERRED from the children's birthplaces], and she died at **Volta Redonda**, the CSN steel city, in 1977. [CONTEXTUAL]
 
   ## Where to go today
 
@@ -222,8 +216,8 @@ profile: >-
   RJ (Rua Monsenhor José Antônio Teixeira 23, Centro, CEP 28610-390) [RESOLVED] ·
   [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
 
-  - **Marriage to João Gonçalves Bohrer:** Igreja Matriz de Santa Luzia, Carangola, MG
-  (Praça Coronel Maximiano 138, Centro, CEP 36800-000) [DOCUMENTED-addr] ·
+  - **Marriage to João Gonçalves Bohrer (place in conflict):** Igreja Matriz de Santa Luzia, Carangola, MG
+  (Praça Coronel Maximiano 138, Centro, CEP 36800-000) — Carangola rests on CIV-0014 alone; CIV-0038 and CIV-0016 place the civil marriage in Nova Friburgo [DOCUMENTED-addr] ·
   [Maps](https://maps.google.com/?q=-20.73337,-42.02975)
 
   - **Death (1977):** Igreja Matriz de Santa Cecília, Vila Santa Cecília, Volta Redonda, RJ
@@ -234,11 +228,11 @@ profile_pt: >-
 
   - **[PROVEN]** Nasceu em Nova Friburgo em 13 de maio de 1899 (PAR-0057) — o mesmo ano em que seu irmão Antonio José Bohrer, com 13 anos, faleceu por mordida de cobra (jararacussú), relatada no jornal familiar *A Sentinella*, editado por um parente Bohrer em Muriaé (NWS-0006). Nascimento e morte na mesma família, no mesmo ano, um relatado pela própria imprensa da família.
 
-  - **[CONTEXTUAL]** Seu nascimento em 1899 coincide com o exato momento da transição do registro civil na colônia de Nova Friburgo: antes de 1889 os registros vitais eram mantidos pela igreja católica (fontes PAR-); após a proclamação da República em 1889, o registro civil tornou-se padrão. Ela foi batizada na paróquia de São João Baptista (PAR-0057), não registrada civilmente — a geração de transição.
+  - **[CONTEXTUAL]** Seu nascimento em 1899 coincide com o exato momento da transição do registro civil na colônia de Nova Friburgo: antes de 1889 os registros vitais eram mantidos pela igreja católica (fontes PAR-); após a proclamação da República em 1889, o registro civil tornou-se padrão. Ela está documentada por seu batismo paroquial em São João Baptista (PAR-0057); nenhum registro civil de nascimento dela foi localizado, o que não prova que não tenha sido feito — ela pertence à geração de transição.
 
   - **[PROVEN]** Tanto seu óbito de 1977 (CIV-0015) quanto o óbito de 1970 de seu marido (CIV-0014) a nomeiam, mas divergem no número de filhos: ela "deixou quatorze filhos" segundo CIV-0015, mas "quinze" segundo CIV-0014. A discrepância de um filho permanece não resolvida — um filho pode ter falecido entre 1970 e 1977, ou um dos registros de óbito declarou a contagem incorretamente.
 
-  - **[INFERRED]** Toda a sua vida traça o arco migratório da família: nascida em Nova Friburgo (1899), pai negociante do Alto da Serra; casada em Carangola, MG (provavelmente por volta dos anos 1920); falecida viúva em Volta Redonda (1977). Nova Friburgo → Zona da Mata Mineira → cidade siderúrgica da CSN — a mesma migração em três etapas do marido João Gonçalves Bohrer.
+  - **[INFERRED]** Toda a sua vida traça o arco migratório da família: nascida em Nova Friburgo (1899), pai negociante do Alto da Serra; casada até o início de 1923 — em Nova Friburgo segundo as declarações do próprio marido em 1923–1924 (CIV-0038, CIV-0016), em Carangola, MG, segundo o óbito dele de 1970 (CIV-0014); mãe de filhos nascidos em Minas Gerais a partir de 1929 (CIV-0004, CIV-0040, CIV-0025); falecida viúva em Volta Redonda (1977). Nova Friburgo → Zona da Mata Mineira → cidade siderúrgica da CSN — a mesma migração em três etapas do marido João Gonçalves Bohrer.
 
   - **[CONTEXTUAL]** A família Bohrer do Alto da Serra de Nova Friburgo, onde Celina nasceu, já estava em 1899 duas ou três gerações afastada dos colonos suíços originais de 1819–1824; seu pai Joaquim José Bohrer administrava um pequeno negócio (negócio, CIV-0019) em vez de lavrar a terra — o arco de assimilação típico do colono-lavrador ao pequeno comerciante ao longo de três gerações.
 
@@ -263,17 +257,13 @@ profile_pt: >-
   registrada "Lucinda Ferreira da Silva Bohrer"), ambos falecidos [PROVEN] (CIV-0015;
   corroborado por CIV-0016, onde já constam *já fallecidos* em maio de 1924).
 
-  - **Casamento:** casou-se com **João Gonçalves Bohrer** (P-0014), ao que consta em
-  **Carangola, Minas Gerais** [uncertain — leitura, CIV-0014] — uma união **Bohrer ×
-  Bohrer**.
+  - **Casamento:** casou-se com **João Gonçalves Bohrer** (P-0014) — uma união **Bohrer × Bohrer** — até março de 1923, quando o nascimento de Senira os chama de marido e mulher (CIV-0038). **Local em conflito** [PROVEN, conflitante]: o óbito do marido em 1970 declara "casado com Celina Bohrer em Carangola, Minas Gerais" (CIV-0014, relato de um genro), enquanto as declarações do próprio João em 1923 e 1924 dizem que o casal era "casados civilmente" em Nova Friburgo (CIV-0038, CIV-0016); as declarações anteriores e de primeira mão pesam mais [INFERRED]. Nenhum registro do casamento está em mãos.
 
-  - **Óbito:** **15 de fevereiro de 1977** (registrado em 20 de fevereiro de 1977), na
-  Casa de Saúde São José, **Volta Redonda, RJ**, aos 77 anos, **viúva**; *causa mortis*
-  **carcinoma gástrico** [PROVEN] (CIV-0015). Não deixou bens nem testamento.
+  - **Óbito:** **19 de fevereiro de 1977**, às 18h (registrado em 20 de fevereiro de 1977), na Casa de Saúde São José, **Volta Redonda, RJ**, aos 77 anos, **viúva**, residente à Rua Paulo Mendes 205 (o mesmo endereço do óbito do marido, CIV-0014); *causa mortis* **"blastoma gástrico"** (um tumor gástrico) [PROVEN] (CIV-0015, óbito nº 25.651; evento E-0021). Não deixou bens nem testamento. O declarante não era parente e compareceu "no impedimento ocasional de membros da família". (A pesquisa de recuperação dá 15 de fevereiro, "carcinoma gástrico" e registro nº 3551 para este óbito; a imagem do registro catalogado lê "dezenove", "Blastoma gástrico" e nº 25.651, e essa leitura prevalece aqui.)
 
   ## Posição social e profissão
 
-  - **Costureira** [PROVEN] — sua ocupação no óbito de 1977 (CIV-0015). Era **viúva** ao
+  - **Doméstica** [PROVEN] — sua ocupação em seu próprio óbito de 1977 (CIV-0015) e no óbito de 1972 do filho Ercy, em que ela é a mãe sobrevivente (CIV-0031). A pesquisa de recuperação a registra como *costureira* em ambos os registros, mas as imagens catalogadas de ambos leem *doméstica*; o rótulo de costureira não é sustentado por nenhum registro em mãos aqui e foi retirado deste perfil. Era **viúva** ao
   falecer, tendo João Gonçalves falecido antes dela em 1970 (CIV-0014, CIV-0015) —
   consistente entre ambos os registros.
 
@@ -285,13 +275,13 @@ profile_pt: >-
   conflitante] Sete estão documentados individualmente: Iris Bohrer Muniz (P-0007), Eunir
   Bohrer (1924; CIV-0016), João Bohrer (f. 2001; CIV-0025), Ercy Bohrer (c.1942–1972;
   CIV-0031), Senira Bohrer (1923; CIV-0038), Alício Borher (1924–2005; CIV-0039) e Ivanyr
-  Borher (c.1930–1992; CIV-0040) — cada um nomeando ambos os pais.
+  Borher (c.1930–1992; CIV-0040) — cada um nomeando ambos os pais. Outros três nomes — Cinésio (1926–2015), Ivan (1930; provavelmente duplicata de Ivanyr) e Maria Adyr (1936–2020) — vêm da árvore do FamilySearch, segundo a pesquisa de recuperação [LEAD — nenhum registro em mãos aqui].
 
   - **Sua família de origem em Nova Friburgo:** os registros civis de seus irmãos fixam
   seus pais Joaquim José × Lucinda como um casal do Alto da Serra, em Nova Friburgo. Seu
   irmão **Alberto Bohrer** nasceu ali em 1890 (CIV-0019), um irmão infante em 1891 que
   faleceu em 1892 (CIV-0020) e um irmão **Antonio José Bohrer** faleceu em 1899 aos 13
-  anos por mordedura de cobra jararacussú (NWS-0006). CIV-0019 também nomeia seus avós —
+  anos por mordedura de cobra jararacussú (NWS-0006). Outros irmãos estão documentados por batismos que nomeiam ambos os pais: **Joaquim Carlos** (n. 6 jan. 1896; PAR-0078), **Renato** (n. 12 set. 1897; PAR-0079), **Etelvina** (n. 16 mai. 1900; PAR-0075) e **Lucinda Maria** (n. 26 jul. 1908; PAR-0052) — muito provavelmente a **Lucinda Bohrer Moreira** falecida em Volta Redonda em 1996, cujo óbito nomeia os mesmos pais e dá seu nascimento como 26 de julho de 1909 (CIV-0032) [INFERRED — mesmo dia e mês, um ano de diferença]. Outros três irmãos — Francisco José (1885–1973), Joaquim José Júnior e Álvaro José — aparecem apenas na árvore do FamilySearch [LEAD]. CIV-0019 também nomeia seus avós —
   paternos **Francisco José Bohrer** (falecido) × **Roza Eugenia de Lemos**, maternos
   **Antonio da Silva Ferreira** × **Maria Joanna da Silva Ferreira**.
 
@@ -301,12 +291,7 @@ profile_pt: >-
 
   ## O que podemos extrapolar
 
-  **Toda a sua vida econômica registrada cabe numa profissão e numa cláusula.** Ela é registrada
-  como *costureira* (CIV-0015) [PROVEN], e o mesmo ato declara que "não deixou bens nem
-  testamento" e deixou catorze filhos. Era viúva havia sete anos. A costura por peça era o
-  ofício remunerado padrão ao alcance de uma mulher trabalhadora que tocava um lar numeroso —
-  renda que oscila com a procura, ganha em casa junto com os filhos, e que nunca se acumula em
-  coisa alguma [CONTEXTUAL].
+  **Toda a sua vida econômica registrada cabe numa palavra e numa cláusula.** Ela é registrada como *doméstica* — em seu próprio óbito e no do filho Ercy, em 1972 (CIV-0015, CIV-0031) [PROVEN] —, e o ato de 1977 declara que "não deixou bens nem testamento" e deixou catorze filhos. Era viúva havia sete anos. Nos registros civis brasileiros da época, *doméstica* em geral descreve a mulher que cuida da própria casa, embora possa também designar uma empregada doméstica [CONTEXTUAL]; de um modo ou de outro, nomeia um trabalho doméstico que não produzia propriedade própria. (Uma versão anterior deste perfil, seguindo a pesquisa de recuperação, a chamava de costureira; nenhum registro em mãos aqui sustenta isso.) [INFERRED]
 
   **Duas gerações separam a filha de um negociante do Alto da Serra de uma mulher que nada
   deixou.** Seu pai, Joaquim José Bohrer, era *negociante* com casa própria na serra (CIV-0019,
@@ -325,9 +310,7 @@ profile_pt: >-
   liga ao próprio tio e à própria tia. Um domicílio sem protetor a oferecer apadrinha a si
   mesmo. [INFERRED]
 
-  **Sua vida desenha exatamente a migração da família**: nascida em Nova Friburgo em 1899
-  (PAR-0057), casada em Carangola, na Zona da Mata Mineira, viúva e falecida em Volta Redonda em
-  1977 (CIV-0014, CIV-0015) [PROVEN]. Ela é a face feminina de uma linha que nunca deteve
+  **Sua vida desenha exatamente a migração da família**: nascida em Nova Friburgo em 1899 (PAR-0057), casada até 1923 (o local é conflitante — ver Identidade) e mãe pela primeira vez ali em 1923–1924 (CIV-0038, CIV-0016), depois mãe na Zona da Mata Mineira a partir de 1929 (CIV-0004, CIV-0025, CIV-0040), viúva e falecida em Volta Redonda em 1977 (CIV-0014, CIV-0015) [PROVEN]. Ela é a face feminina de uma linha que nunca deteve
   capital herdável — gente da serra descendente de colonos, cuja riqueza era o trabalho e o
   pequeno comércio, reassentada como gente trabalhadora urbana na cidade siderúrgica da CSN
   [CONTEXTUAL]. Não deixar propriedade não é declínio, e sim a linha de base desta família — o
@@ -337,10 +320,7 @@ profile_pt: >-
   **Seu casamento fecha um círculo que a colônia abriu.** Ela e o marido eram ambos Bohrer, mas
   de duas famílias Borer distintas que a compilação friburguense situa no mesmo *Heureux Voyage*
   de 1819, em lotes vizinhos e sem evidência de parentesco próximo — a dela descendendo de
-  Jacob, a dele de Laurent (PUB-0003) [COMPILED]. Oitenta anos após o desembarque, o ramo que
-  havia alcançado o platô comercial e o ramo que permanecera de pequenos lavradores casaram-se
-  entre si, no ponto mais baixo de ambas as trajetórias, num distrito cafeeiro de Minas Gerais.
-  Se a união era consanguínea, nenhum documento diz, e a questão permanece aberta. [INFERRED]
+  Jacob, a dele de Laurent (PUB-0003) [COMPILED]. Cada descendência está agora documentada por registros paroquiais em mãos neste repositório: a dela pelo casamento do pai em 1884 (PAR-0056), pelo batismo do avô Francisco José em 1832 (PAR-0054) e pelo casamento de Jacob Bohrer × Catharina Moser em 1825 (PAR-0059); a dele por PAR-0063, PAR-0061 e PAR-0060. Um século após o desembarque, o ramo que havia alcançado o platô comercial e o ramo que permanecera de pequenos lavradores casaram-se entre si, no ponto mais baixo de ambas as trajetórias — na própria Nova Friburgo, segundo as declarações do noivo em 1923–1924, embora o óbito dele de 1970 diga Carangola (CIV-0038, CIV-0016, CIV-0014). Se a união era consanguínea, nenhum documento diz, e a questão permanece aberta. [INFERRED]
 
   **A maior parte de seus filhos só é conhecida pelas próprias mortes.** Nove ou dez dos catorze
   ou quinze continuam sem nome no registro, e os que podemos nomear emergem em certidões de
@@ -358,8 +338,11 @@ profile_pt: >-
   - A **contagem de filhos** (quatorze vs quinze) — resolvível apenas reunindo os
   registros dos próprios filhos. [OPEN]
 
-  - Seu **casamento com João Gonçalves** — o registro civil de casamento de Carangola
-  (MG) dataria a união e confirmaria sua filiação de forma independente. [OPEN]
+  - Seu **casamento com João Gonçalves** — nenhum registro em mãos, e o local é conflitante (Carangola segundo CIV-0014; Nova Friburgo segundo CIV-0038 e CIV-0016). Os registros civis de casamento de Nova Friburgo anteriores a março de 1923, e depois os de Carangola, datariam a união e confirmariam sua filiação de forma independente. [OPEN]
+
+  - **Dois nascimentos em 1924:** o assento de nascimento de Eunir dá 17 de maio de 1924 em Nova Friburgo (CIV-0016); o óbito de Alício em 2005 dá 26 de julho de 1924 em Divino, MG (CIV-0039). Ambos não podem ser verdadeiros para uma mesma mãe; o assento de nascimento prevalece sobre o informante do óbito. [OPEN]
+
+  - **Detalhes do óbito:** os 15 de fevereiro / "carcinoma gástrico" / nº 3551 da pesquisa de recuperação não coincidem com o registro catalogado (CIV-0015: 19 de fevereiro, "blastoma gástrico", nº 25.651). Se a recuperação tiver outra cópia deste óbito, ela deve ser entregue e comparada. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
@@ -367,7 +350,7 @@ profile_pt: >-
   batizada em 27 de setembro de 1899 em São João Baptista; pais Joaquim José Bohrer × Lucinda
   Ferreira).
 
-  - CIV-0015 (seu óbito de 1977 em Volta Redonda — idade, viúva, costureira, pais,
+  - CIV-0015 (seu óbito de 1977 em Volta Redonda — idade, viúva, doméstica, pais,
   quatorze filhos) · CIV-0016 (nascimento de Eunir em 1924, Nova Friburgo — "natural
   deste Districto", seus pais) · CIV-0014 (óbito do marido em 1970 — nomeia-a, quinze
   filhos) · CIV-0004 (casamento da filha Iris em 1949 — "Selina") · CIV-0025 (óbito do
@@ -379,15 +362,13 @@ profile_pt: >-
   Sentinella — a morte do irmão Antonio José em 1899) · PUB-0003 (genealogia publicada de
   Nova Friburgo).
 
+  - Registros dos filhos que a nomeiam como mãe: CIV-0038 (Senira, 1923) · CIV-0031 (Ercy, 1972 — "doméstica") · CIV-0039 (Alício, 2005) · CIV-0040 (Ivanyr, 1992). Irmãos: PAR-0078 (Joaquim Carlos, 1896) · PAR-0079 (Renato, 1898) · PAR-0075 (Etelvina, 1902) · PAR-0052 (Lucinda Maria, 1908) · CIV-0032 (Lucinda Bohrer Moreira, 1996). Linha e parentes: PAR-0056 (casamento dos pais em 1884) · PAR-0054 (batismo do avô Francisco José em 1832) · PAR-0059 (Jacob Bohrer × Catharina Moser, 1825) · PRB-0005 (testamento de Francisco José, 1888) · CIV-0037 (casamento da tia Maria da Gloria em 1899).
+
   ## Contexto regional e migratório
 
   Nasceu em **Nova Friburgo** (CIV-0016), a cidade serrano-fluminense construída pela
   colônia católica suíço-alemã de 1819–1824, na família Bohrer *negociante* do Alto da
-  Serra (CIV-0019, CIV-0020). A descendência da família a partir dos imigrantes
-  Borer/Bohrer de Nova Friburgo (sua linha através de Joaquim José → Francisco José
-  Bohrer, P-0034) está documentada na genealogia publicada de Nova Friburgo (PUB-0003)
-  [LEAD] e não é inferida apenas a partir do sobrenome. Casou-se em um lar de Carangola
-  (MG) e faleceu em **Volta Redonda**, a cidade siderúrgica da CSN, em 1977. [CONTEXTUAL]
+  Serra (CIV-0019, CIV-0020). A descendência da família a partir dos imigrantes Borer/Bohrer de Nova Friburgo está documentada por registros paroquiais em mãos neste repositório, e não inferida do sobrenome: o casamento do pai em 1884 nomeia os pais dele, Francisco José Bohrer (P-0034) × Roza Eugenia de Lemos (PAR-0056); o batismo de Francisco José em 1832 nomeia Jacob Bohrer × Catharina Moser (PAR-0054); e o casamento destes em Nova Friburgo em 1825 os registra como colonos suíços do cantão de Soleure — Jacob de Beinwil, que o registro grafa "Erswill" (PAR-0059). A genealogia publicada (PUB-0003) concorda. (A pesquisa de recuperação situa Jacob em Erschwil; este repositório lê o "Erswill" do registro como Beinwil.) Depois do casamento viveu na Zona da Mata Mineira, onde nasceram filhos a partir de 1929 (CIV-0004, CIV-0025, CIV-0040) [INFERRED a partir dos locais de nascimento dos filhos], e faleceu em **Volta Redonda**, a cidade siderúrgica da CSN, em 1977. [CONTEXTUAL]
 
   ## Onde ir hoje
 
@@ -395,8 +376,8 @@ profile_pt: >-
   Friburgo, RJ (Rua Monsenhor José Antônio Teixeira 23, Centro, CEP 28610-390) [RESOLVED] ·
   [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
 
-  - **Casamento com João Gonçalves Bohrer:** Igreja Matriz de Santa Luzia, Carangola, MG
-  (Praça Coronel Maximiano 138, Centro, CEP 36800-000) [DOCUMENTED-addr] ·
+  - **Casamento com João Gonçalves Bohrer (local em conflito):** Igreja Matriz de Santa Luzia, Carangola, MG
+  (Praça Coronel Maximiano 138, Centro, CEP 36800-000) — Carangola apoia-se apenas em CIV-0014; CIV-0038 e CIV-0016 situam o casamento civil em Nova Friburgo [DOCUMENTED-addr] ·
   [Maps](https://maps.google.com/?q=-20.73337,-42.02975)
 
   - **Óbito (1977):** Igreja Matriz de Santa Cecília, Vila Santa Cecília, Volta Redonda, RJ

@@ -35,11 +35,11 @@ profile: >-
 
   - **[INFERRED]** Her documentary silence — she appears only as a named parent on her descendants' certificates, never in an estate, land record or court proceeding — is itself class evidence: women who appear in those records held property worth dividing. Her absence is the expected archive footprint of a family already at non-propertied status by the time she married Aristão.
 
-  - **[CONTEXTUAL]** She was born and died in Eugenópolis, Minas Gerais — a Zona da Mata município in the coffee-frontier hinterland — while her sons' lives shifted toward Rio de Janeiro. She may have remained on the family's last Zona da Mata base while the next generation urbanised.
+  - **[CONTEXTUAL]** She was born in Eugenópolis, Minas Gerais — a Zona da Mata município in the coffee-frontier hinterland — and is recorded as dying there, while her sons' lives shifted toward Rio de Janeiro. She may have remained on the family's last Zona da Mata base while the next generation urbanised.
 
   - **[INFERRED]** Her surname "Paz" is the only lead into her origin: a "Ferreira Paz / de Sousa Paz" family cluster appears in the Muriaé comarca (an 1897 inventário), and no other Paz line is documented in nearby comarcas — giving a strongly localised search space if her parentage is ever researched.
 
-  - **[PROVEN]** She died 16 April 1946 at Eugenópolis, MG (CIV-0002) — four years before Brazil's first national minimum wage had fully bedded in, and before the CSN's steel production began in earnest. Her sons' migration to Volta Redonda happened after her death; she never saw the industrial city.
+  - **[PROVEN date]** She died 16 April 1946 (CIV-0002; the place, recorded as Eugenópolis, MG, is inferred) — four years before Brazil's first national minimum wage had fully bedded in, and before the CSN's steel production began in earnest. Her sons' migration to Volta Redonda happened after her death; she never saw the industrial city.
 
   - **[CONTEXTUAL]** Civil registration became mandatory in Brazil from 1889; by 1916 it was standard practice. Yet no civil birth, baptism or marriage record is held for Liliosa. This is consistent with a rural, non-propertied Zona da Mata woman of her generation — her paper trail begins and ends with her role as a named parent in other people's records.
 
@@ -47,7 +47,8 @@ profile: >-
 
   **Liliosa Paz Armond**, Juan's paternal great-grandmother and the **Paz** side of
   the line. "Paz" is her maiden/family surname, carried by both of her sons. Her name
-  is firmly attested across three records (CIV-0002, CIV-0003, GOV-0001). [PROVEN]
+  is firmly attested across four records (CIV-0002, CIV-0003, GOV-0001, NWS-0001).
+  [PROVEN]
 
   - **Birth:** birthplace **Eugenópolis, MG** — her son Geraldo's 1952 marriage records
   her as "nascida aqui" (i.e. at Eugenópolis), and his 1991 óbito gives her as "natural
@@ -57,18 +58,22 @@ profile: >-
   - **Marriage:** married **Aristão Ferreira Armond** (P-0008); the marriage act is not
   held. [OPEN]
 
-  - **Death:** **16 April 1946**, at Eugenópolis, MG — stated in her son Geraldo's 1952
-  marriage certificate (CIV-0002, "falecida em 16-4-946"), not in her own óbito. [PROVEN
-  as recorded]
+  - **Death:** **16 April 1946** — stated in her son Geraldo's 1952 marriage certificate
+  (CIV-0002, "falecida em 16-4-946"), not in her own óbito. The certificate gives the
+  date only; the place is recorded here as Eugenópolis, MG, inferred from her stated
+  birthplace ("nascida aqui") and the family's residence there (event E-0028). [PROVEN
+  date as recorded; place INFERRED]
 
   - **Parents:** **UNKNOWN** — the entire Paz family is undocumented in this repository.
   [OPEN]
 
-  - **Children:** six in total with Aristão — **Geraldo Paz Armond** (P-0004) and
-  **José Olavo Armond** (P-0018) are primary-confirmed (both carry the "Paz" surname
-  confirming her maternity). The other four — Maria Aparecida Armond de Oliveira
-  (d.~2000), Lucia, Marina, and Otavia — appear on the FS Family Tree but none has a
-  held birth or death record; all were searched exhaustively across the full FS ecosystem
+  - **Children:** six in total with Aristão — **Geraldo Paz Armond** (P-0004, born 30
+  January 1915 at Limeira, CIV-0002) and **José Olavo Armond** (P-0018, born 25
+  September 1926 at Eugenópolis, GOV-0001 and NWS-0001) are primary-confirmed (both
+  carry the "Paz" surname confirming her maternity). The other four — Maria Aparecida
+  Armond de Oliveira (3 October 1933 – 25 September 2000 per the FS tree, dates typed
+  with no attached record), Lucia, Marina, and Otavia — appear on the FS Family Tree but
+  none has a held birth or death record; all were searched exhaustively across the full FS ecosystem
   (Sources, Memories, record-matches, constrained and unconstrained personas) with a
   clean bounded-negative result. [PROVEN for Geraldo + José Olavo; LEAD for the
   remaining four; bounded-negative 2026-09-11]
@@ -91,8 +96,7 @@ profile: >-
   Olavo, which records her as "Liliosa Paz Armond" (GOV-0001). [PROVEN] A 1975 newspaper
   marriage-banns notice (*O Processo* Nº 42, Cons. Lafaiete MG) for José Olavo also names
   her — "*filho de Aristão Ferreira Armond e de d. Liliosa Paz Armond*" — a second typed
-  government-era attestation of her name (found 2026-09-11 via the parents' FS Memories
-  tab). [secondary attestation, not yet catalogued as a standalone source]
+  attestation of her name, from a different jurisdiction. [PROVEN — NWS-0001]
 
   ## What we can extrapolate
 
@@ -123,9 +127,11 @@ profile: >-
   the education thread — which tracked the money down this line — cannot be traced through her at
   all.
 
-  - **Her whole documented life sits in one município** [PROVEN; reading INFERRED]. She was born at
-  Eugenópolis ("nascida aqui", CIV-0002) and died there on 16 April 1946, while her sons' lives moved
-  to Rio de Janeiro: Geraldo married at Eugenópolis in 1952 and died at Volta Redonda in 1991
+  - **Her whole documented life sits in one município** [PROVEN birthplace and date; death place and
+  reading INFERRED]. She was born at Eugenópolis ("nascida aqui", CIV-0002) and is recorded as dying
+  there on 16 April 1946 (the record gives the date, not the place), while her sons' lives moved to
+  Rio de Janeiro: Geraldo was still resident at Eugenópolis when he married there in 1952 (CIV-0002)
+  and died at Volta Redonda in 1991
   (CIV-0003), José Olavo was resident in Rio by 1975 (NWS-0001). Her husband Aristão died at Volta
   Redonda in 1957 (CIV-0005). The family's move out of the Zona da Mata therefore falls after her
   death — she may have been the household's last anchor to the region, though no held record says so.
@@ -140,16 +146,31 @@ profile: >-
   home Muriaé comarca (an 1897 Muriaé inventário of Olímpio de Sousa Paz and children), the
   neighbouring comarcas holding only unrelated Paz lines — so if her Paz kin are to be found, that
   cluster is the strongly localized space to test. Liliosa is not named among its known heirs, so
-  the connection is unproven. [LEAD — not promoted]
+  the connection is unproven. [LEAD — not promoted] The retrieval research gives the inventário as
+  COARPE process 43913941 (Caixa 4715), indexing seven "Ferreira Paz" children (Laphaette, Albertina,
+  Alberto, Olga, Maria, João, Virgolino), with the family recurring in Muriaé inventários of 1879 and
+  1900. If Olímpio were her father and the c.1885 birth lead is right, she would have been about
+  twelve at his death, but the index does not name her; the inventário itself would list all children, minors included. [LEAD — index
+  reported by the retrieval side; not held] It also reports a low, unconfirmed lead: a Paz household
+  (Libério Felício Paz × Maria Arruda Costa) living at Argirita around 1930. [LEAD]
 
   ## Open questions
 
   - Her parents and the Paz family — the single decisive record is the **Eugenópolis
-  1946 óbito** (inteiro teor), which should name her parents. [OPEN]
+  1946 óbito** (inteiro teor), which should name her parents. The retrieval research
+  reports (2026-09-11) that no FamilySearch-indexed record names her parents, that her
+  parents are blank on the FS tree, and that her sons' baptisms are not indexed — a
+  bounded negative for FamilySearch only, not for the unindexed registers. [OPEN]
 
   - Her exact birth date. [OPEN]
 
-  - Her marriage act to Aristão. [OPEN]
+  - Her marriage act to Aristão — record-coverage directs the search first to
+  Eugenópolis civil and Catholic records (and the districts of Alvorada and Limeira),
+  where the couple lived; the retrieval research also points to the unindexed Argirita /
+  Leopoldina books. [OPEN]
+
+  - The 1897 Muriaé inventário of Olímpio de Sousa Paz (COARPE 43913941) — the test of
+  the Muriaé Paz lead. [OPEN]
 
   ## Sources held (this repository)
 
@@ -162,11 +183,15 @@ profile: >-
   - GOV-0001 — 1973 driver-dossier index for her son José Olavo (records her as
   "Liliosa Paz Armond").
 
+  - NWS-0001 — 1975 marriage bann for her son José Olavo in O Processo, Conselheiro
+  Lafaiete (names her "d. Liliosa Paz Armond").
+
   ## Regional and migration context
 
   Her whole documented life sits in **Eugenópolis, Minas Gerais**, in the coffee-frontier
-  **Zona da Mata Mineira** — born there ("nascida aqui", CIV-0002) and dead there on 16
-  April 1946. No held record places her outside Minas Gerais. The family's move to the
+  **Zona da Mata Mineira** — born there ("nascida aqui", CIV-0002) and recorded as dying
+  there on 16 April 1946 (place inferred). No held record places her outside Minas
+  Gerais. The family's move to the
   Rio de Janeiro industrial belt (her husband died at Volta Redonda in 1957, CIV-0005;
   her son José Olavo was resident in Rio by 1975, NWS-0001) falls entirely after her
   death. [PROVEN places; the sequencing INFERRED]
@@ -189,11 +214,11 @@ profile_pt: >-
 
   - **[INFERRED]** Seu silêncio documental — ela aparece apenas como mãe nomeada nas certidões de seus descendentes, nunca em inventário, registro de terra ou processo judicial — é, em si, evidência de classe: as mulheres que aparecem nesses registros detinham bens que valiam a pena dividir. A ausência dela é o rastro de arquivo esperado de uma família já em condição não proprietária no momento em que se casou com Aristão.
 
-  - **[CONTEXTUAL]** Nasceu e faleceu em Eugenópolis, Minas Gerais — município do interior cafeeiro da Zona da Mata — enquanto a vida dos filhos se deslocava rumo ao Rio de Janeiro. Ela pode ter permanecido na última base da família na Zona da Mata enquanto a geração seguinte se urbanizava.
+  - **[CONTEXTUAL]** Nasceu em Eugenópolis, Minas Gerais — município do interior cafeeiro da Zona da Mata — e é registrada como tendo falecido ali, enquanto a vida dos filhos se deslocava rumo ao Rio de Janeiro. Ela pode ter permanecido na última base da família na Zona da Mata enquanto a geração seguinte se urbanizava.
 
   - **[INFERRED]** Seu sobrenome "Paz" é a única pista sobre sua origem: um grupo familiar "Ferreira Paz / de Sousa Paz" aparece na comarca de Muriaé (inventário de 1897), e nenhuma outra linha Paz está documentada nas comarcas vizinhas — fornecendo um espaço de busca fortemente localizado caso sua filiação venha a ser pesquisada.
 
-  - **[PROVEN]** Faleceu em 16 de abril de 1946 em Eugenópolis, MG (CIV-0002) — quatro anos antes de o primeiro salário mínimo nacional do Brasil ter se consolidado plenamente, e antes de a produção de aço da CSN começar de fato. A migração dos filhos para Volta Redonda ocorreu após sua morte; ela nunca conheceu a cidade industrial.
+  - **[PROVEN quanto à data]** Faleceu em 16 de abril de 1946 (CIV-0002; o lugar, registrado como Eugenópolis, MG, é inferido) — quatro anos antes de o primeiro salário mínimo nacional do Brasil ter se consolidado plenamente, e antes de a produção de aço da CSN começar de fato. A migração dos filhos para Volta Redonda ocorreu após sua morte; ela nunca conheceu a cidade industrial.
 
   - **[CONTEXTUAL]** O registro civil tornou-se obrigatório no Brasil a partir de 1889; em 1916 já era prática corrente. Mesmo assim, não há registro civil de nascimento, batismo ou casamento para Liliosa. Isso é condizente com uma mulher rural, não proprietária, da Zona da Mata de sua geração — seu rastro documental começa e termina com seu papel de mãe nomeada nos registros de outras pessoas.
 
@@ -201,7 +226,8 @@ profile_pt: >-
 
   **Liliosa Paz Armond**, bisavó paterna de Juan e o lado **Paz** da linha. "Paz" é seu
   sobrenome de solteira/de família, levado por ambos os seus filhos. Seu nome está
-  firmemente atestado em três registros (CIV-0002, CIV-0003, GOV-0001). [PROVEN]
+  firmemente atestado em quatro registros (CIV-0002, CIV-0003, GOV-0001, NWS-0001).
+  [PROVEN]
 
   - **Nascimento:** local de nascimento **Eugenópolis, MG** — o casamento de 1952 de
   seu filho Geraldo a registra como "nascida aqui" (isto é, em Eugenópolis), e o óbito
@@ -211,18 +237,23 @@ profile_pt: >-
   - **Casamento:** casou-se com **Aristão Ferreira Armond** (P-0008); o assento de
   casamento não foi obtido. [OPEN]
 
-  - **Óbito:** **16 de abril de 1946**, em Eugenópolis, MG — declarado na certidão de
-  casamento de 1952 de seu filho Geraldo (CIV-0002, "falecida em 16-4-946"), não em seu
-  próprio óbito. [PROVEN as recorded]
+  - **Óbito:** **16 de abril de 1946** — declarado na certidão de casamento de 1952 de
+  seu filho Geraldo (CIV-0002, "falecida em 16-4-946"), não em seu próprio óbito. A
+  certidão dá apenas a data; o lugar é registrado aqui como Eugenópolis, MG, inferido
+  do local de nascimento declarado ("nascida aqui") e da residência da família ali
+  (evento E-0028). [PROVEN quanto à data, como registrada; lugar INFERRED]
 
   - **Pais:** **DESCONHECIDOS** — toda a família Paz está indocumentada neste
   repositório. [OPEN]
 
-  - **Filhos:** seis no total com Aristão — **Geraldo Paz Armond** (P-0004) e **José
-  Olavo Armond** (P-0018) são confirmados por documentos primários (ambos levam o
-  sobrenome "Paz" que confirma sua maternidade). Os outros quatro — Maria Aparecida
-  Armond de Oliveira (f.~2000), Lucia, Marina e Otavia — constam da Árvore Genealógica
-  FS, mas nenhum tem registro de nascimento ou óbito em mãos; todos foram buscados de
+  - **Filhos:** seis no total com Aristão — **Geraldo Paz Armond** (P-0004, nascido em
+  30 de janeiro de 1915 em Limeira, CIV-0002) e **José Olavo Armond** (P-0018, nascido
+  em 25 de setembro de 1926 em Eugenópolis, GOV-0001 e NWS-0001) são confirmados por
+  documentos primários (ambos levam o sobrenome "Paz" que confirma sua maternidade). Os
+  outros quatro — Maria Aparecida Armond de Oliveira (3 de outubro de 1933 – 25 de
+  setembro de 2000 segundo a árvore FS, datas digitadas sem registro anexado), Lucia,
+  Marina e Otavia — constam da Árvore Genealógica FS, mas nenhum tem registro de
+  nascimento ou óbito em mãos; todos foram buscados de
   forma exaustiva em todo o ecossistema FS (Fontes, Memórias, correspondências de
   registros, personas com e sem restrição de pais) com resultado de negativo delimitado.
   [PROVEN para Geraldo + José Olavo; LEAD para os outros quatro; negativo delimitado
@@ -246,9 +277,8 @@ profile_pt: >-
   de motorista de 1973 de seu filho José Olavo, que a registra como "Liliosa Paz Armond"
   (GOV-0001). [PROVEN] Um edital de proclamas de casamento de 1975 (*O Processo* Nº 42,
   Cons. Lafaiete MG) de José Olavo também a nomeia — "*filho de Aristão Ferreira Armond e
-  de d. Liliosa Paz Armond*" — uma segunda atestação datilografada de seu nome (encontrada
-  em 2026-09-11 via aba Memórias do FamilySearch dos pais). [atestação secundária, ainda
-  não catalogada como fonte autônoma]
+  de d. Liliosa Paz Armond*" — uma segunda atestação datilografada de seu nome, de outra
+  jurisdição. [PROVEN — NWS-0001]
 
   ## O que podemos extrapolar
 
@@ -280,10 +310,11 @@ profile_pt: >-
   significa que o fio da instrução — que nesta linha acompanhou o dinheiro — não pode ser traçado por
   meio dela.
 
-  - **Toda a sua vida documentada cabe em um município** [PROVEN; leitura INFERRED]. Nasceu em
-  Eugenópolis ("nascida aqui", CIV-0002) e ali faleceu em 16 de abril de 1946, enquanto a vida dos
-  filhos se deslocava para o Rio de Janeiro: Geraldo casou-se em Eugenópolis em 1952 e morreu em Volta
-  Redonda em 1991 (CIV-0003); José Olavo residia no Rio em 1975 (NWS-0001). Seu marido Aristão morreu
+  - **Toda a sua vida documentada cabe em um município** [local de nascimento e data PROVEN; local do
+  óbito e leitura INFERRED]. Nasceu em Eugenópolis ("nascida aqui", CIV-0002) e é registrada como
+  tendo falecido ali em 16 de abril de 1946 (o registro dá a data, não o lugar), enquanto a vida dos
+  filhos se deslocava para o Rio de Janeiro: Geraldo ainda residia em Eugenópolis quando ali se casou
+  em 1952 (CIV-0002) e morreu em Volta Redonda em 1991 (CIV-0003); José Olavo residia no Rio em 1975 (NWS-0001). Seu marido Aristão morreu
   em Volta Redonda em 1957 (CIV-0005). A saída da família da Zona da Mata, portanto, é posterior à
   morte dela — ela pode ter sido a última âncora da casa na região, embora nenhum registro em mãos o
   diga. [INFERRED]
@@ -298,16 +329,33 @@ profile_pt: >-
   Paz e filhos), enquanto as comarcas vizinhas trazem apenas linhas Paz não aparentadas — de modo que,
   se seus parentes Paz houverem de ser achados, esse núcleo é o espaço fortemente localizado a testar.
   Liliosa não é nomeada entre seus herdeiros conhecidos, portanto a ligação é não comprovada. [LEAD —
-  não promovido]
+  não promovido] A pesquisa de recuperação indica o inventário como processo COARPE 43913941 (Caixa
+  4715), que indexa sete filhos "Ferreira Paz" (Laphaette, Albertina, Alberto, Olga, Maria, João,
+  Virgolino), com a família reaparecendo em inventários de Muriaé de 1879 e 1900. Se Olímpio fosse
+  seu pai e a pista de nascimento por volta de 1885 estiver certa, ela teria uns doze anos quando ele
+  morreu, mas o índice não a nomeia; o inventário em si listaria todos os filhos, inclusive menores.
+  [LEAD — índice informado pelo lado da recuperação; não obtido] Informa também uma pista fraca e não
+  confirmada: um domicílio Paz (Libério Felício Paz × Maria Arruda Costa) vivendo em Argirita por
+  volta de 1930. [LEAD]
 
   ## Questões em aberto
 
   - Seus pais e a família Paz — o único registro decisivo é o **óbito de 1946 de
-  Eugenópolis** (inteiro teor), que deveria nomear seus pais. [OPEN]
+  Eugenópolis** (inteiro teor), que deveria nomear seus pais. A pesquisa de recuperação
+  informa (2026-09-11) que nenhum registro indexado no FamilySearch nomeia seus pais,
+  que os pais dela estão em branco na árvore FS e que os batismos dos filhos não estão
+  indexados — um negativo delimitado apenas para o FamilySearch, não para os livros não
+  indexados. [OPEN]
 
   - Sua data exata de nascimento. [OPEN]
 
-  - Seu assento de casamento com Aristão. [OPEN]
+  - Seu assento de casamento com Aristão — o record-coverage orienta a busca primeiro
+  para os registros civis e católicos de Eugenópolis (e os distritos de Alvorada e
+  Limeira), onde o casal vivia; a pesquisa de recuperação aponta também os livros não
+  indexados de Argirita / Leopoldina. [OPEN]
+
+  - O inventário de 1897 de Olímpio de Sousa Paz em Muriaé (COARPE 43913941) — o teste da
+  pista Paz de Muriaé. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
@@ -320,11 +368,15 @@ profile_pt: >-
   - GOV-0001 — índice de prontuário de motorista de 1973 de seu filho José Olavo (a
   registra como "Liliosa Paz Armond").
 
+  - NWS-0001 — edital de proclamas de 1975 de seu filho José Olavo em O Processo,
+  Conselheiro Lafaiete (a nomeia "d. Liliosa Paz Armond").
+
   ## Contexto regional e migratório
 
   Toda a sua vida documentada situa-se em **Eugenópolis, Minas Gerais**, na **Zona da
-  Mata Mineira**, fronteira cafeeira — nascida ali ("nascida aqui", CIV-0002) e ali
-  falecida em 16 de abril de 1946. Nenhum registro em mãos a situa fora de Minas Gerais.
+  Mata Mineira**, fronteira cafeeira — nascida ali ("nascida aqui", CIV-0002) e
+  registrada como falecida ali em 16 de abril de 1946 (lugar inferido). Nenhum registro
+  em mãos a situa fora de Minas Gerais.
   A mudança da família para o cinturão industrial do Rio de Janeiro (o marido faleceu em
   Volta Redonda em 1957, CIV-0005; o filho José Olavo residia no Rio em 1975, NWS-0001)
   é inteiramente posterior à morte dela. [lugares PROVEN; a sequência é INFERRED]

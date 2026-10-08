@@ -49,18 +49,23 @@ do Valle are also absent.
 - Column 4 of the right-hand page was cropped out of images p12–p15, so condição and age are
   missing for many entries in fogos 33–61. Names and qualidade were legible throughout, so
   the **surname** negative holds.
-- **Variants (bound added 2026-10-08):** only R-forms were searched. The retrieval side
-  adopted a 44-variant standard with L-forms (Almond-, Almend-, …) on 2026-09-25, after a
-  32-variant sweep missed "Almondes" in the 1831 Meia Pataca map. The Cágado images are
-  deleted, so this cannot be re-swept, and it stays an **R-form negative**.
+- **Variants (bound added 2026-10-08):** the 2026-09-19/24 reads searched R-forms only. The
+  retrieval side adopted a 44-variant standard with L-forms (Almond-, Almend-, …) on
+  2026-09-25, after a 32-variant sweep missed "Almondes" in the 1831 Meia Pataca map. The
+  surviving transcription (below) was re-swept here on 2026-10-08 at 44 variants: no Armond
+  form, R or L, in any transcribed name. That transcription names household heads only, so
+  the negative is **44-variant for heads and R-form for everyone else**.
 
 ## Access restrictions and retention
 
 The 19 images were deleted from the retrieval drop on 2026-09-24 under its keep-only-family
 rule. No image is held in this repository, so the map is not catalogued as a source. The
-fogo-by-fogo transcription existed only in the gitignored drop. On 2026-10-08 it was no
-longer there, and no copy was found elsewhere on the working machine, so it is lost. This
-log and the P-0016 coverage note are the durable record. If the images are obtained again,
+fogo-by-fogo transcription was removed from the drop by a later re-sync, but it survives in
+the retrieval side's own workspace (`research/resources/apm-mapa-populacao-cagado-1831/
+TRANSCRIPTION.md`, dated 2026-09-24: household heads named, other members given as counts).
+**[Corrected 2026-10-08: an earlier version of this log said the transcription was lost.
+The search that supported that claim had timed out without output.]** This log and the
+P-0016 coverage note are this repository's record. If the images are obtained again,
 catalogue them as a negative-evidence government source on the GOV-0012 pattern
 (`evidence_type: negative`, `usage: context_only`).
 

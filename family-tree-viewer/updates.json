@@ -1,6 +1,45 @@
 {
- "generated": "2026-09-24T17:16:09Z",
+ "generated": "2026-10-08T14:30:56Z",
  "updates": [
+  {
+   "date": "2026-10-08",
+   "kind": "correction",
+   "title": "Correction: Celina Bohrer died on 19 February 1977 and was recorded as a doméstica — an earlier edit had changed her death to the 15th and her work to seamstress",
+   "title_pt": "Correção: Celina Bohrer morreu em 19 de fevereiro de 1977 e foi registrada como doméstica — uma edição anterior tinha mudado o óbito para o dia 15 e o ofício para costureira",
+   "links": [
+    "P-0015",
+    "CIV-0015"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "correction",
+   "title": "Correction: Geraldo Paz Armond left no will — his 1991 death register reads \"não deixou testamento\", and an earlier edit had reversed it",
+   "title_pt": "Correção: Geraldo Paz Armond não deixou testamento — o assento de óbito de 1991 diz \"não deixou testamento\", e uma edição anterior tinha invertido isso",
+   "links": [
+    "P-0004",
+    "CIV-0003"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "correction",
+   "title": "Correction: the marriage register that could name Simplício's parents is kept at the Argirita parish itself, not in the Juiz de Fora archive — that archive holds nothing for Argirita",
+   "title_pt": "Correção: o livro de casamentos que pode nomear os pais de Simplício está guardado na própria paróquia de Argirita, não no arquivo de Juiz de Fora — esse arquivo nada guarda de Argirita",
+   "links": [
+    "P-0016",
+    "P-0017"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "correction",
+   "title": "Correction: the suggested origin of Vicente José de Carvalho Guimarães in São Paio, Guimarães, is withdrawn — the archive found no son of that couple who could be him",
+   "title_pt": "Correção: a origem sugerida para Vicente José de Carvalho Guimarães em São Paio, Guimarães, foi retirada — o arquivo não encontrou nenhum filho desse casal que pudesse ser ele",
+   "links": [
+    "P-0023"
+   ]
+  },
   {
    "date": "2026-09-24",
    "kind": "person",
@@ -113,6 +152,46 @@
     "P-0028",
     "P-0034",
     "P-0050"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "kind": "document",
+   "title": "1831 population map (Mapa de População) — Districto de Santo Antonio do Juiz de Fora, Termo de Barbacena (Minas Gerais): 26-page manuscript, 118 fogos, 586 livres, 833 captivos, 1,419 inhabitants, certified 18 February 1831 by José Bastos Pinto. Contains NO Armond in any spelling; yields two Toledo households (fogos 109, 110)",
+   "title_pt": "Mapa de População de 1831 — Districto de Santo Antonio do Juiz de Fora, Termo de Barbacena (Minas Gerais): manuscrito de 26 páginas, 118 fogos, 586 livres, 833 captivos, 1 419 habitantes, certificado a 18 de Fevereiro de 1831 por José Bastos Pinto. NÃO contém nenhum Armond em grafia alguma; revela dois fogos Toledo (nºs 109 e 110)",
+   "primary": "GOV-0012",
+   "links": [
+    "P-0016"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "kind": "document",
+   "title": "1831 population map (Mapa de População) of Santa Rita do Meia Pataca, folio 16 — households 65–68, the head of no. 68 read as \"An.to Ferr.a A[…]ndes\", a white married lavrador of 23 with his wife H[e]ngelica Maria, 24 (surname UNRESOLVED at this resolution)",
+   "title_pt": "Mapa de População de Santa Rita do Meia Pataca de 1831, fls. 16 — fogos 65 a 68, com o chefe do fogo nº 68 lido como \"An.to Ferr.a A[…]ndes\", lavrador branco casado de 23 anos, e sua mulher H[e]ngelica Maria, 24 (sobrenome NÃO RESOLVIDO nesta resolução)",
+   "primary": "GOV-0013",
+   "links": [
+    "P-0016"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "kind": "document",
+   "title": "São Sebastião death register — Manuel da Ponte Cardoso (\"M.el de Ponte Cardozo\"), 19 August 1652",
+   "title_pt": "Registo de óbitos de São Sebastião — Manuel da Ponte Cardoso (\"M.el de Ponte Cardozo\"), 19 de agosto de 1652",
+   "primary": "PAR-0097",
+   "links": [
+    "P-0125"
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "kind": "document",
+   "title": "São Sebastião death register — Maria da Costa Leonardes, 27 December 1654",
+   "title_pt": "Registo de óbitos de São Sebastião — Maria da Costa Leonardes, 27 de dezembro de 1654",
+   "primary": "PAR-0098",
+   "links": [
+    "P-0126"
    ]
   },
   {
@@ -1551,46 +1630,6 @@
    "primary": "PRB-0003",
    "links": [
     "P-0017"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1831 population map (Mapa de População) — Districto de Santo Antonio do Juiz de Fora, Termo de Barbacena (Minas Gerais): 26-page manuscript, 118 fogos, 586 livres, 833 captivos, 1,419 inhabitants, certified 18 February 1831 by José Bastos Pinto. Contains NO Armond in any spelling; yields two Toledo households (fogos 109, 110)",
-   "title_pt": "Mapa de População de 1831 — Districto de Santo Antonio do Juiz de Fora, Termo de Barbacena (Minas Gerais): manuscrito de 26 páginas, 118 fogos, 586 livres, 833 captivos, 1 419 habitantes, certificado a 18 de Fevereiro de 1831 por José Bastos Pinto. NÃO contém nenhum Armond em grafia alguma; revela dois fogos Toledo (nºs 109 e 110)",
-   "primary": "GOV-0012",
-   "links": [
-    "P-0016"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "1831 population map (Mapa de População) of Santa Rita do Meia Pataca, folio 16 — households 65–68, the head of no. 68 read as \"An.to Ferr.a A[…]ndes\", a white married lavrador of 23 with his wife H[e]ngelica Maria, 24 (surname UNRESOLVED at this resolution)",
-   "title_pt": "Mapa de População de Santa Rita do Meia Pataca de 1831, fls. 16 — fogos 65 a 68, com o chefe do fogo nº 68 lido como \"An.to Ferr.a A[…]ndes\", lavrador branco casado de 23 anos, e sua mulher H[e]ngelica Maria, 24 (sobrenome NÃO RESOLVIDO nesta resolução)",
-   "primary": "GOV-0013",
-   "links": [
-    "P-0016"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "São Sebastião death register — Manuel da Ponte Cardoso (\"M.el de Ponte Cardozo\"), 19 August 1652",
-   "title_pt": "Registo de óbitos de São Sebastião — Manuel da Ponte Cardoso (\"M.el de Ponte Cardozo\"), 19 de agosto de 1652",
-   "primary": "PAR-0097",
-   "links": [
-    "P-0125"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "São Sebastião death register — Maria da Costa Leonardes, 27 December 1654",
-   "title_pt": "Registo de óbitos de São Sebastião — Maria da Costa Leonardes, 27 de dezembro de 1654",
-   "primary": "PAR-0098",
-   "links": [
-    "P-0126"
    ]
   }
  ]

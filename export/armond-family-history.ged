@@ -3,8 +3,8 @@
 2 VERS 7.0
 1 SOUR ARMOND-FAMILY-HISTORY
 2 NAME Armond Family History
-2 VERS 2026.09.24
-1 DATE 24 SEP 2026
+2 VERS 2026.10.08
+1 DATE 08 OCT 2026
 1 SUBM @SUBM0001@
 1 LANG pt-BR
 0 @SUBM0001@ SUBM
@@ -329,12 +329,13 @@
 3 QUAY 3
 2 SOUR @CIV0016@
 3 QUAY 3
-1 OCCU costureira
+1 OCCU doméstica
 2 SOUR @CIV0015@
+2 SOUR @CIV0031@
 1 FAMS @F0005@
 1 FAMC @F0014@
 1 NOTE Ahnentafel position 15. Preferred name is "Celina", the spelling used by three primary civil records — her own 1977 death (CIV-0015), her husband's 1970 death (CIV-0014) and Eunir Bohrer's 1924 birth (CIV-0016). "Selina" is preserved as a variant but appears only in the 1949 marriage certificate (CIV-0004) and the owner's family roster (REC-0001). The preferred name was changed from "Selina" to "Celina" on 2026-07-30: her own death record and the weight of civil evidence outweigh the single marriage spelling.
-1 NOTE Died 15 February 1977 at Volta Redonda, RJ, aged 77 (consistent with her 13 May 1899 baptism, PAR-0057), a widow, per her civil death (CIV-0015). Born in Nova Friburgo, RJ ("natural deste Districto", CIV-0016), which resolves the São Leopoldo (RS) "Celina Amalia Bohrer" as a different person. Her parents were Joaquim José Bohrer (P-0030) and Lucinda Ferreira da Silva (P-0031) — family F-0014.
+1 NOTE Died 19 February 1977 at Volta Redonda, RJ (registered 20 February), aged 77 (corrected 2026-10-08 from the image: a 2026-09-23 edit had changed this to 15 February and her occupation to costureira; CIV-0015 reads "dezenove" and "doméstica"; consistent with her 13 May 1899 baptism, PAR-0057), a widow, per her civil death (CIV-0015). Born in Nova Friburgo, RJ ("natural deste Districto", CIV-0016), which resolves the São Leopoldo (RS) "Celina Amalia Bohrer" as a different person. Her parents were Joaquim José Bohrer (P-0030) and Lucinda Ferreira da Silva (P-0031) — family F-0014.
 0 @P0016@ INDI
 1 NAME Simplício José Ferreira /Armond/
 2 GIVN Simplício José Ferreira

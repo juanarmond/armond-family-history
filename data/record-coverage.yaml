@@ -618,16 +618,21 @@ people:
     next_action: >-
       HIGHEST-VALUE ACTIONS NOW (2026-10-08). The 2026-09-25 ask for the 1839 Meia
       Pataca map is superseded: that map has been read and is negative (2026-10-08
-      note below). (1) Value-gate p. 26 of the Tombos Registros Paroquiais de Terra
-      (1854–57) when the retrieval side obtains it from Nilza Cantoni; her index lists it as
-      "Simplicio José Ferreira", local "santo antonio", and whether the declaration
-      states filiation. It is too early to be this man, so it is a candidate for his
-      father [LEAD — index row only]. (2) Find where the 1831 Meia Pataca fogo-68
-      couple went: they are absent from the 1838–39 map, so look for neighbouring
-      districts' maps of the 1830s–40s. (3) The entry-68 crop and fls. 17 asks in the
-      unsent C-013 reply still stand for our own reading, but the published Capella
-      transcription already reads the surname "Almondes" and closes fogo 68 with the
-      couple alone (GOV-0013 notes). Lower: the Serra de Ibitipoca pointer is
+      note below). (1) Value-gate the 1856 land declaration of an "Antonio Ferreira
+      Armondes" in Santa Rita do Meia Pataca parish (APM Terras Públicas TP 120, reg.
+      nº 53) when it is delivered; the retrieval side holds only reduced-resolution
+      copies. It has the same name and parish as the 1831 fogo-68 head, but it states
+      no age, spouse or parents, and Nilza cautions there may be two men of this name
+      [LEAD; see the second 2026-10-08 note]. (2) Value-gate p. 26 of the Tombos
+      Registros Paroquiais de Terra (1854–57), indexed as "Simplicio José Ferreira",
+      local "santo antonio", when the retrieval side obtains it, and check whether it
+      states filiation; the TP 120 declaration suggests this register type does not
+      [INFERRED]. Too early to be this man, it is a candidate for his father [LEAD —
+      index row only]. (3) The 1838–39 Meia Pataca map has no Armond, but that is a
+      zero-hit search of a transcription, not proof that the couple left. The entry-68
+      crop and fls. 17 asks went to Nilza in the C-013 reply the owner sent on
+      2026-10-08; the published Capella transcription already reads "Almondes" and
+      closes fogo 68 with the couple alone (GOV-0013 notes). Lower: the Serra de Ibitipoca pointer is
       weakened, since the 1831 Ibitipoca census is reported clean at 44 variants;
       pursue it only through the Barbacena parish books, not broad name searches.
       Then, as before: verify the identity and fuller name through Aristão's birth,
@@ -726,20 +731,23 @@ people:
         Serra de Ibitipoca, the Barbacena parish books, or Santa Rita do Meia Pataca.
         If anything it strengthens the Ibitipoca pointer by removing an alternative.
   - record_type: marriage
-    status: unsearched
+    status: inaccessible
     source_ids: []
     last_reviewed: "2026-10-08"
     next_action: >-
       Locate the Simplício José Ferreira Armond x Elisa Balbina (Toledo/Tolledo)
-      marriage (~1868–74; see the notes). CUSTODIAN CORRECTED 2026-10-08 (C-004,
+      marriage (~1868–72; see the notes). CUSTODIAN CORRECTED 2026-10-08 (C-004,
       C-014): Argirita / Bom Jesus do Rio Pardo marriage book 1 (1860–1882) is kept at
       the Argirita parish itself, not at the Juiz de Fora archdiocesan archive, which
       has twice said it holds nothing for Argirita. The book is not digitised, and a
-      parish search costs R$50 per name. Access (permission to photograph on site, which
-      a historian who worked the book reports is practicable) is with the retrieval side;
-      value-gate the marriage entry when it arrives. Only the
-      Mar de Espanha slice (Jul 1863–Nov 1869) is at Juiz de Fora, queued as search
-      160/2026. That archive cautions that marriage acts here usually give only the
+      parish search costs R$50 per name. Access is pursued by the retrieval side:
+      permission to photograph on site, which a historian who worked the book reports is
+      practicable but needs a person in Argirita. Any paid search needs the owner's
+      explicit authorisation. Value-gate the entry when it arrives. Juiz de Fora holds
+      the Mar de Espanha and Taruaçu registers, not Argirita's: a Mar de Espanha search
+      for 1864–69 (when Bom Jesus do Rio Pardo was under Mar de Espanha) is queued as
+      160/2026, and Taruaçu (Dores do Monte Alegre, the couple's district per C-002) is
+      untested there. That archive cautions that marriage acts here usually give only the
       date, spouses and witnesses, and rarely filiation, so the act may not name
       Simplício's parents. The earlier route ("search Piacatuba/Leopoldina, then the
       Além Paraíba matriz", 2026-07-29) is superseded. Piacatuba book 1 is a documented
@@ -1078,10 +1086,12 @@ people:
       Armonde, Ermonde, Asmonde or Ormonde; Toledo, Paz, Assis, Lage, Lima and
       Rodrigues do Valle also absent. BOUNDS: no recapitulation table and the list
       stops mid-household at fogo 88, so the negative covers the fogos read, NOT the
-      district; do not repeat unless the missing sheets surface. VARIANTS: R-forms
-      only, with no L-forms such as Almond-/Almend- (see the 2026-10-08 note). The
-      images are deleted, so this cannot be re-swept at the 44-variant standard; it
-      is an R-form negative. On the search path
+      district; do not repeat unless the missing sheets surface. VARIANTS: the
+      2026-09-19/24 reads searched R-forms only. The images are deleted, but the
+      retrieval side's transcription survives in its own workspace (household heads
+      named, other members given as counts). Re-swept here on 2026-10-08 at 44
+      variants, it has no Armond form, R or L, in any transcribed name. The negative is
+      therefore 44-variant for household heads and R-form for everyone else. On the search path
       because Cágado became Mar de Espanha in 1851, the jurisdiction over Bom Jesus do
       Rio Pardo in 1863–69 (29 July 2026 marriage-record note above; C-002); it was a
       curato under São João Nepomuceno with no register series of its own before 1851.
@@ -1102,9 +1112,10 @@ people:
       Meia Pataca, realizado em 1838, encaminhado em 21.01.1839" (APM caixa 93
       doc. 18, transcribed by Joana Capella and Nilza Cantoni). It was read on
       2026-09-25 across 118 fogos at 44 variants: no Armond, and the fogo-68 couple
-      are absent. They were present in 1831 and gone by 1838, so any children born
-      from 1832 were born or raised elsewhere. This relocates the parentage
-      hypothesis; it does not disprove it. A "Simplicio … 17 … Ibitipoca" in fogo 57
+      are absent. The retrieval side inferred that they had left by 1838, so that
+      children born from 1832 were raised elsewhere. [REOPENED the same day: a
+      zero-hit search does not show that they left, and an 1856 land declaration by an
+      Antonio Ferreira Armondes in the same parish follows in the next note.] A "Simplicio … 17 … Ibitipoca" in fogo 57
       is a da Silva born ~1821, not ours. The 2026-09-24 and 2026-09-25 notes above
       that call this map the highest-value document are superseded.
       (2) ENTRY 68 READS "ALMONDES" in the published Projeto Compartilhar
@@ -1129,10 +1140,43 @@ people:
       (5) NEW LEAD. Nilza's index to the Tombos Registros Paroquiais de Terra
       (1854–57) lists "Simplicio José Ferreira", local "santo antonio", p. 26. It is
       an index row only, with no filiation, age or bounds. Our man (b. ~1845–53) was
-      a child then, so this is a candidate for his FATHER [LEAD]. A request for the
-      p. 26 transcription was drafted on the retrieval side on 2026-09-25; whether it
-      was sent is not recorded.
+      a child then, so this is a candidate for his FATHER [LEAD]. The request for p. 26
+      went in the reply the owner sent Nilza by e-mail on 2026-10-08 (per the retrieval
+      thread).
       (6) CUSTODIAN CORRECTED for the marriage: see the marriage row above and C-014.
+  - text: >-
+      2026-10-08 (later the same day) — REOPENED: AN 1856 LAND DECLARATION IN MEIA
+      PATACA. Folded from the retrieval drop; reported, not held here. Copies by Joana
+      Capella, sent by Nilza Cantoni, of a Registro Paroquial de Terras entry: APM
+      Terras Públicas TP 120, reg. nº 53 (APM images 593–594, fol. 28), dated 2 January
+      1856. As read by the retrieval side from reduced-resolution WhatsApp copies:
+      "Antonio Ferreira Armondes" declares a fazenda de cultura of about 600 alqueires
+      in the district of the freguesia of Santa Rita do Meia Pataca, on the slopes of
+      the ribeirão of that name, bought from the late Antonio Teixeira de Siqueira.
+      Confrontantes: Ignacio Antonio de Andrade, Domingos Cardoso, Francisco Teixeira de
+      Siqueira and Custodio Luiz de Medeiros. Reg. nº 54 on the same page, Francisco
+      Teixeira de Siqueira's fazenda "Boa vista", borders "Custodio Luiz, e Antonio
+      Ferreira Armondes". The declaration states no age, spouse, parents, children or
+      date of purchase. LINKS, all [LEAD]: (a) the same name and parish as the 1831
+      fogo-68 head, who would be about 48 in 1856; (b) a 1904 Cataguases testimony, not
+      held here, that an Antonio Ferreira Armond owned a Fazenda "Bôa Vista" and had a
+      son José Ferreira Armond; (c) the right generation to be Simplício's father — a
+      hypothesis only. CAUTIONS: Nilza notes that other registrants name him as a
+      confrontante at Sinimbu, far from this land, so there may be two properties or two
+      men of the same name. The 1838–39 map covered the district of Santa Rita do Meia
+      Pataca, while the freguesia (from 1851) took in a wider area, so the 1838–39 zero
+      and this 1856 entry do not conflict. The 2026-09-19 land-register sweep read five
+      other books (Mar de Espanha, Bom Jesus do Rio Pardo, Leopoldina, Muriaé,
+      Barbacena), not Meia Pataca's own. WHAT WOULD SETTLE IT: Antonio's inventário (it
+      names every heir), José Ferreira Armond's inventário, the Meia Pataca notarial
+      books, and native-resolution TP 120 images.
+  - text: >-
+      2026-10-08 — LEAD from the retrieval research, not held: Resende's 2008 UFMG thesis
+      reports that the 1856 will of the Conde de Prados (Dr. Camilo Maria Ferreira Armond;
+      AHMPAS, 1SVC Cx. 61/17) had "suas crias" baptised as freed, among them "Simplício,
+      pardo claro", each with a legacy of 2:000$000. "Crias" is not "filhos", and nothing
+      connects that child to P-0016. Test: a Barbacena baptism of c.1840–56 of a Simplício
+      baptised liberto by Dr. Camilo. Do not model any link from the thesis alone.
 - person_id: P-0017
   external_profiles: []
   records:
@@ -1701,8 +1745,13 @@ people:
         not among these heirs (so she probably died before April 1867), and it omits Maria
         Isabel (b. ~1860–61). The reported read also places João's emigration after
         4 April 1867, since he is not "ausente". The family council names a paternal uncle,
-        João Moniz Bettencourt, and a maternal uncle, Antonio da Motta Madeira. Reuse of
-        BPARPD images must credit the Biblioteca Pública e Arquivo Regional de Ponta
+        João Moniz Bettencourt, and a maternal uncle, Antonio da Motta Madeira. Further
+        conflicts to check on reading: João's stated age (20) against his 1845 baptism
+        (PAR-0022), which makes him 21–22; whether "Manoel Jacinto, absent" (called João's
+        twin by the retrieval side; PAR-0022 names João alone) matches a son in the held
+        roster; and the widow declaring in April 1867 against P-0019's profile, which said
+        both parents died in 1866 (corrected 2026-10-08: only the father's death is held,
+        PAR-0015). Reuse of BPARPD images must credit the Biblioteca Pública e Arquivo Regional de Ponta
         Delgada (Portaria n.º 18/2011).
   notes:
   - text: >-
@@ -1733,7 +1782,13 @@ people:
         as Maria Jacintha de Medeiros (P-0049), who married João Francisco Muniz on 7 Oct
         1819 and is called "Maria Eugenia" in other records [STRONG on the retrieval side;
         INFERRED here until read]. Vitoria and Anna would be her sisters, collaterals to
-        record as documented_children only once the record is held.
+        record as documented_children only once the record is held. CONFLICT TO
+        PRESERVE: P-0049's profile and P-0085's notes explain "Eugenia" as a scribe
+        misapplying her mother's name in the 1842 act (PAR-0024), marked PROVEN there.
+        If heir 1 is Maria Jacintha, an 1819 record from before her marriage already calls
+        her Maria Eugenia, which undoes that explanation; if not, heir 1 is a different
+        daughter and Maria Jacintha is missing from the heir list. Resolve when the image
+        is read.
   notes:
   - text: >-
       Coverage entry opened 2026-10-08 for the BPARPD inventário. Father of Maria

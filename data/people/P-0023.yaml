@@ -32,7 +32,7 @@ profile: >-
 
   - **[INFERRED]** He is the line's door back to Portugal, but the record closes immediately: origin must not be inferred from the surname alone. His parish remains the single highest-value open target for this branch — if found, it would extend the documented line back into the Old World.
 
-  - **[CONTEXTUAL]** He died in Carangola, Minas Gerais (CIV-0007) — the Zona da Mata coffee frontier that drew immigrant-descended families in the late 19th century. He followed, or his son followed, the classic São Paulo coffee plateau → Minas Gerais interior frontier movement of the period.
+  - **[CONTEXTUAL]** He died in Carangola, Minas Gerais (CIV-0007) — the Zona da Mata coffee frontier that drew immigrant-descended families in the late 19th century. If the "Villa do Rio Claro" of the record is the São Paulo town (see below), he or his son followed the classic São Paulo coffee plateau → Minas Gerais interior frontier movement of the period.
 
   ## Identity
 
@@ -40,24 +40,32 @@ profile: >-
   this line.
 
   - **Origin:** described only as "portuguez" (Portuguese) [PROVEN] (CIV-0007); no
-  district, municipality, island or parish is stated. Leading prior = mainland / Minho
-  (the surname "Guimarães" is a Minho toponymic; the AMAP São Paio hypothesis — see
-  below — was retired in September 2026).
+  district, municipality, island or parish is stated. No regional prior is adopted: the
+  surname "Guimarães" must not be converted into an origin, and the AMAP São Paio hypothesis
+  — see below — was retired in September 2026. [OPEN]
 
-  - **Pre-Carangola base:** Villa do Rio Claro, SP — his son Francisco and daughter-in-law
-  were "naturais da Villa do Rio Claro" (CIV-0007). [DOCUMENTED]
+  - **Pre-Carangola base:** "Villa do Rio Claro" — his son Francisco and his wife Maria
+  Tertuliana are each recorded as "natural da Villa do Rio Claro" (CIV-0007) [PROVEN as
+  stated], so the couple was most probably living there when Francisco was born [INFERRED].
+  The record does not name the state; whether this is Rio Claro, São Paulo, or the Vila do
+  Rio Claro of Rio de Janeiro is unresolved (see below).
 
-  - **Spouse:** Maria Tertuliana da Conceição (P-0024) [PROVEN as reported] (CIV-0007).
-  Marriage ~1863–1878 at Igreja Matriz de São João Batista, Rio Claro, SP (access-gated
-  remotely).
+  - **Spouse:** Maria Tertuliana da Conceição (P-0024), also a native of the "Villa do Rio
+  Claro" and, like him, deceased at the city of Carangola by 1915 [PROVEN as reported]
+  (CIV-0007). The marriage itself has not been located; the working target is the Matriz de
+  São João Batista at Rio Claro, SP, c.1863–1878, whose registers are microfilmed at
+  FamilySearch but access-restricted online [LEAD — place and date window are research
+  estimates].
 
   - **Child (in our line):** Francisco José de Carvalho Guimarães (P-0021) — the only
   documented child. A 2026-09-12 sibling investigation found 0 PROVEN additional siblings
   (probable leads only: the 1897 militia / 1898 voter cluster of Carvalho-Guimarães names
-  in Carangola). [PROVEN — Francisco; other siblings LEAD]
+  in Carangola — the 1898 electoral act held here, GOV-0008, names a Ramiro José and an
+  Alaerino José de Carvalho Guimarães at São Francisco da Glória, relationship unverified).
+  [PROVEN — Francisco; other siblings LEAD]
 
-  - **Death:** at the city of Carangola (MG) [PROVEN as stated] (CIV-0007); date not
-  recorded.
+  - **Death:** at the city of Carangola (MG), before the 12 October 1915 registration that
+  calls him "fallecido" [PROVEN as stated] (CIV-0007); date not recorded.
 
   - **Birth and parents:** not held. [OPEN]
 
@@ -75,8 +83,8 @@ profile: >-
   holds ([LEAD]). Vicente is the low base of an upward immigrant arc.
 
   The two-step internal migration is opportunity-seeking, not flight. [INFERRED / CONTEXTUAL]
-  Portugal (Minho land-hunger) → Rio Claro SP (booming Oeste Paulista coffee frontier, a
-  heavy immigrant magnet) → Carangola MG (late-opening coffee frontier). Each step moves
+  Portugal (district unknown) → Rio Claro (on this profile's São Paulo reading, the booming
+  Oeste Paulista coffee frontier, a heavy immigrant magnet) → Carangola MG (late-opening coffee frontier). Each step moves
   toward fresher opportunity — the immigrant-climb pattern, the pattern of a man accumulating
   a foothold that the next generation converted into local standing.
 
@@ -108,7 +116,7 @@ profile: >-
   On his literacy nothing is recorded. [OPEN] He appears in no act he could have signed. The
   only literacy datum in this generation of the family belongs to the other side of the
   eventual marriage — Antonio Engracio de Souza (P-0032), a qualified voter in 1898 and a
-  signing witness in 1917 — and cannot be transferred to him.
+  signing witness in 1917 as reported [LEAD] — and cannot be transferred to him.
 
   A former lead — tied to no held record — pointed to a same-named "Vicente José de
   Carvalho", mestre pedreiro (master stonemason), active at Guimarães (Minho) 1787–1808, as
@@ -122,18 +130,43 @@ profile: >-
   the parents but give no trade or origin, so even the stonemason link rests on an index
   only. [LEAD — retired]
 
+  ## Open questions
+
+  - His Portuguese parish and parents. The bridge record is his Brazilian marriage to Maria
+  Tertuliana (or its habilitação), which should state his naturalidade and parents; if it
+  was not at Rio Claro, the Santa Luzia do Carangola marriages (1898–1924) and, before 1898,
+  the mother parish of Tombos are the fallbacks. Do not convert "portuguez" into a specific
+  origin before a record names one, and do not re-run the São Paio search. [OPEN]
+
+  - His death. The Carangola civil death books before 12 October 1915 may hold his óbito,
+  which in Minas Gerais typically states naturalidade, parents and surviving spouse. [OPEN]
+
+  - Which "Villa do Rio Claro". CIV-0007 names no state; this repository's place entry
+  (PL-0008) records the Rio de Janeiro vila, while the research trail reads São Paulo.
+  [OPEN]
+
+  - Name-searchable immigration sources — the CEPESE passport database and the Arquivo
+  Nacional "Entrada de Estrangeiros" (Rio de Janeiro, 1875–1910) — can be searched without
+  knowing a locality and might themselves reveal his origin. An 1866 power of attorney at
+  "Vila do Rio Claro" naming a Vicente José de Carvalho Guimarães has not been tied to him;
+  it most plausibly refers to the Rio de Janeiro vila. [LEAD]
+
   ## Sources held (this repository)
 
   - CIV-0007 (1915 collective birth registration of his grandchildren — names him as their
   Portuguese paternal grandfather, deceased at Carangola). He appears in no other held
-  record. Note: CIV-0007's own FamilySearch ark/persona ID is unrecorded and the 1915
-  registration is not re-findable on the current FS index; best-fit read [INFERRED] = a
-  late birth registration of Maria Aurora (~1915), Carangola / São Francisco do Glória MG.
+  record. CIV-0007 is a 2025 full-content certificate of the 12 October 1915 collective
+  registration of six siblings (São Francisco do Glória, book 4-A, fl. 23, nº 38), obtained
+  through a FamilySearch Family Tree source attachment. The retrieval research reports that
+  it cannot re-find the 1915 entry on the FamilySearch index and treats the record as
+  unrecoverable, but this repository holds the certificate, and Sebastião's 1982 death
+  (CIV-0050) cites the same book and folio.
 
   ## Where to go today
 
-  - **Marriage to Maria Tertuliana (~1863–1878):** Igreja Matriz de São João Batista, Rua 6,
-  Centro, Rio Claro, SP — the single visitable site tied to him [RESOLVED] ·
+  - **Marriage to Maria Tertuliana (~1863–1878, not yet located):** Igreja Matriz de São
+  João Batista, Rua 6, Centro, Rio Claro, SP — the working target, if the record's "Villa do
+  Rio Claro" is the São Paulo town [LEAD] ·
   [Maps](https://www.google.com/maps/search/?api=1&query=Igreja+Matriz+S%C3%A3o+Jo%C3%A3o+Batista%2C+Rua+6%2C+Centro%2C+Rio+Claro%2C+SP)
 
   - **Death:** Igreja Matriz de Santa Luzia, Carangola, MG [RESOLVED town] ·
@@ -150,7 +183,7 @@ profile_pt: >-
 
   - **[INFERRED]** Ele é a porta da linha de volta a Portugal, mas o registro se fecha imediatamente: a origem não deve ser inferida apenas do sobrenome. Sua freguesia continua sendo o alvo em aberto de maior valor para este ramo — se encontrada, estenderia a linha documentada de volta ao Velho Mundo.
 
-  - **[CONTEXTUAL]** Faleceu em Carangola, Minas Gerais (CIV-0007) — a fronteira cafeeira da Zona da Mata que atraía famílias de descendência imigrante no final do século XIX. Ele ou seu filho seguiu o clássico movimento de fronteira do plateau cafeeiro paulista → interior mineiro do período.
+  - **[CONTEXTUAL]** Faleceu em Carangola, Minas Gerais (CIV-0007) — a fronteira cafeeira da Zona da Mata que atraía famílias de descendência imigrante no final do século XIX. Se a "Villa do Rio Claro" do registro for a cidade paulista (ver abaixo), ele ou seu filho seguiu o clássico movimento de fronteira do planalto cafeeiro paulista → interior mineiro do período.
 
   ## Identidade
 
@@ -158,24 +191,32 @@ profile_pt: >-
   linhagem.
 
   - **Origem:** descrito apenas como "portuguez" (português) [PROVEN] (CIV-0007); não se
-  indica distrito, município, ilha ou freguesia. Prior principal = continente / Minho (o
-  sobrenome "Guimarães" é um topônimo do Minho; a hipótese AMAP São Paio — ver abaixo —
-  foi abandonada em setembro de 2026).
+  indica distrito, município, ilha ou freguesia. Nenhuma hipótese regional é adotada: o
+  sobrenome "Guimarães" não deve ser convertido em origem, e a hipótese AMAP São Paio — ver
+  abaixo — foi abandonada em setembro de 2026. [OPEN]
 
-  - **Base antes de Carangola:** Villa do Rio Claro, SP — seu filho Francisco e nora eram
-  "naturais da Villa do Rio Claro" (CIV-0007). [DOCUMENTADO]
+  - **Base antes de Carangola:** "Villa do Rio Claro" — seu filho Francisco e sua esposa
+  Maria Tertuliana são registrados cada um como "natural da Villa do Rio Claro" (CIV-0007)
+  [PROVEN conforme declarado], de modo que o casal muito provavelmente vivia ali quando
+  Francisco nasceu [INFERRED]. O registro não indica o estado; se se trata de Rio Claro, São
+  Paulo, ou da Vila do Rio Claro fluminense, segue sem solução (ver abaixo).
 
-  - **Cônjuge:** Maria Tertuliana da Conceição (P-0024) [PROVEN conforme declarado]
-  (CIV-0007). Casamento ~1863–1878 na Igreja Matriz de São João Batista, Rio Claro, SP
-  (acesso remoto bloqueado).
+  - **Cônjuge:** Maria Tertuliana da Conceição (P-0024), também natural da "Villa do Rio
+  Claro" e, como ele, falecida na cidade do Carangola antes de 1915 [PROVEN conforme
+  declarado] (CIV-0007). O casamento em si não foi localizado; o alvo de trabalho é a Matriz
+  de São João Batista de Rio Claro, SP, c.1863–1878, cujos livros estão microfilmados no
+  FamilySearch mas com acesso restrito online [LEAD — lugar e janela de datas são estimativas
+  da pesquisa].
 
   - **Filho (em nossa linha):** Francisco José de Carvalho Guimarães (P-0021) — o único
   filho documentado. Uma investigação de irmãos em 2026-09-12 encontrou 0 irmãos
   PROVEN (apenas pistas prováveis: o grupo de nomes Carvalho-Guimarães na milícia de 1897
-  e nos eleitores de 1898 em Carangola). [PROVEN — Francisco; outros irmãos LEAD]
+  e nos eleitores de 1898 em Carangola — a ata eleitoral de 1898 mantida aqui, GOV-0008,
+  nomeia um Ramiro José e um Alaerino José de Carvalho Guimarães em São Francisco da Glória,
+  relação não verificada). [PROVEN — Francisco; outros irmãos LEAD]
 
-  - **Óbito:** na cidade de Carangola (MG) [PROVEN conforme declarado] (CIV-0007); data
-  não registrada.
+  - **Óbito:** na cidade do Carangola (MG), antes do registro de 12 de outubro de 1915, que
+  o diz "fallecido" [PROVEN conforme declarado] (CIV-0007); data não registrada.
 
   - **Nascimento e pais:** não obtidos. [OPEN]
 
@@ -195,8 +236,8 @@ profile_pt: >-
   a base baixa de um arco imigrante ascendente.
 
   A migração interna em dois passos é busca de oportunidade, não fuga. [INFERRED /
-  CONTEXTUAL] Portugal (fome de terra no Minho) → Rio Claro SP (próspera fronteira cafeeira do
-  Oeste Paulista, grande ímã de imigrantes) → Carangola MG (fronteira cafeeira de abertura
+  CONTEXTUAL] Portugal (distrito desconhecido) → Rio Claro (na leitura paulista deste perfil,
+  próspera fronteira cafeeira do Oeste Paulista, grande ímã de imigrantes) → Carangola MG (fronteira cafeeira de abertura
   tardia). Cada passo em direção a uma oportunidade mais nova — o padrão do imigrante que
   acumula um ponto de apoio que a geração seguinte converteu em posição local.
 
@@ -228,7 +269,7 @@ profile_pt: >-
   Sobre sua alfabetização nada está registrado. [OPEN] Ele não aparece em nenhum ato que
   pudesse ter assinado. O único dado de alfabetização nesta geração da família pertence ao
   outro lado do casamento futuro — Antonio Engracio de Souza (P-0032), eleitor habilitado em
-  1898 e testemunha signatária em 1917 — e não pode ser transferido para ele.
+  1898 e, segundo se informa, testemunha signatária em 1917 [LEAD] — e não pode ser transferido para ele.
 
   Uma antiga pista — atada a nenhum registro disponível — apontava um homônimo "Vicente José
   de Carvalho", mestre pedreiro, ativo em Guimarães (Minho) 1787–1808, como possível pai,
@@ -242,19 +283,45 @@ profile_pt: >-
   (ainda não guardadas aqui), nomeiam os pais mas não dão ofício nem origem, de modo que até
   o vínculo com o mestre pedreiro assenta apenas num índice. [LEAD — abandonada]
 
+  ## Questões em aberto
+
+  - Sua freguesia portuguesa e seus pais. O registro-ponte é seu casamento brasileiro com
+  Maria Tertuliana (ou a habilitação), que deve declarar sua naturalidade e seus pais; se
+  não foi em Rio Claro, os casamentos de Santa Luzia do Carangola (1898–1924) e, antes de
+  1898, a freguesia-mãe de Tombos são as alternativas. Não converter "portuguez" em uma
+  origem específica antes que um registro a nomeie, e não repetir a busca em São Paio.
+  [OPEN]
+
+  - Seu óbito. Os livros de óbitos civis de Carangola anteriores a 12 de outubro de 1915
+  podem conter seu assento, que em Minas Gerais costuma declarar naturalidade, pais e
+  cônjuge sobrevivente. [OPEN]
+
+  - Qual "Villa do Rio Claro". CIV-0007 não indica o estado; a entrada de lugar deste
+  repositório (PL-0008) registra a vila fluminense, enquanto a trilha de pesquisa lê São
+  Paulo. [OPEN]
+
+  - Fontes de imigração pesquisáveis por nome — a base de passaportes do CEPESE e a "Entrada
+  de Estrangeiros" do Arquivo Nacional (Rio de Janeiro, 1875–1910) — podem ser consultadas
+  sem conhecer a localidade e poderiam, elas próprias, revelar sua origem. Uma procuração de
+  1866 na "Vila do Rio Claro" que nomeia um Vicente José de Carvalho Guimarães não foi ligada
+  a ele; muito provavelmente refere-se à vila fluminense. [LEAD]
+
   ## Fontes disponíveis (neste repositório)
 
   - CIV-0007 (registro coletivo de nascimento de 1915 de seus netos — o nomeia como o avô
   paterno português, falecido em Carangola). Não aparece em nenhum outro registro obtido.
-  Nota: o próprio ark/ID-persona do FamilySearch de CIV-0007 não está registado no
-  repositório e o registro de 1915 não é re-localizável no índice atual do FS; leitura de
-  melhor encaixe [INFERRED] = um registro tardio de nascimento de Maria Aurora (~1915),
-  Carangola / São Francisco do Glória MG.
+  CIV-0007 é uma certidão de inteiro teor, de 2025, do registro coletivo de seis irmãos de
+  12 de outubro de 1915 (São Francisco do Glória, livro 4-A, fl. 23, nº 38), obtida por meio
+  de uma fonte anexada à árvore do FamilySearch. A pesquisa de recuperação informa não
+  conseguir re-localizar o assento de 1915 no índice do FamilySearch e o trata como
+  irrecuperável, mas este repositório detém a certidão, e o óbito de 1982 de Sebastião
+  (CIV-0050) cita o mesmo livro e folha.
 
   ## Onde ir hoje
 
-  - **Casamento com Maria Tertuliana (~1863–1878):** Igreja Matriz de São João Batista, Rua 6,
-  Centro, Rio Claro, SP — o único local visitável ligado a ele [RESOLVED] ·
+  - **Casamento com Maria Tertuliana (~1863–1878, ainda não localizado):** Igreja Matriz de
+  São João Batista, Rua 6, Centro, Rio Claro, SP — o alvo de trabalho, se a "Villa do Rio
+  Claro" do registro for a cidade paulista [LEAD] ·
   [Maps](https://www.google.com/maps/search/?api=1&query=Igreja+Matriz+S%C3%A3o+Jo%C3%A3o+Batista%2C+Rua+6%2C+Centro%2C+Rio+Claro%2C+SP)
 
   - **Óbito:** Igreja Matriz de Santa Luzia, Carangola, MG [RESOLVED town] ·

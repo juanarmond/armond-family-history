@@ -5,6 +5,44 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-10-08 — Code-review fixes; profile sync of 28 ancestors; Geraldo's will corrected
+
+**Amends the three 2026-10-08 entries below.** A code review of the day's commits found:
+- **Meia Pataca.** "The couple left between 1831 and 1838" was an inference from a zero-hit
+  search, and the drop had already reopened it the same day. An Antonio Ferreira Armondes
+  declared land in Santa Rita do Meia Pataca parish on 2 Jan 1856 (APM TP 120, reg. nº 53;
+  reported, not held). Coverage and STATUS are corrected and the lead is recorded.
+- **Cágado.** The transcription is not lost; it survives in the retrieval workspace. Re-swept
+  here at 44 variants, it shows no Armond form among the household heads it names.
+- **Custodian and access.** The Family Story's Open Questions section still named Juiz de Fora
+  (now fixed, EN and PT). C-004's header is marked superseded. Juiz de Fora holds Mar de Espanha
+  *and* Taruaçu. The marriage row is now `inaccessible`, the window is aligned to ~1868–72, and
+  the owner-authorisation rule for paid searches is restored.
+- **Other fixes.** GOV-0013's third-reading variants are completed and corrected. The P-0084 and
+  P-0042 inventário notes now record their conflicts with held records. P-0019's unsupported
+  "both parents died in 1866" is corrected. Three curated "What's new" corrections were added.
+
+**Geraldo's will (P-0004).** The CIV-0003 image reads "O falecido não deixou testamento". The
+2026-09-23 batch below had reversed this to "left a will"; the profile (by the sync) and the
+Family Story (EN and PT) are corrected. **Celina Bohrer (P-0015)** had the same problem: her
+CIV-0015 image reads death on the "dezenove" (19 Feb 1977) and profession "doméstica", which the
+2026-09-23 batch had changed to 15 Feb and costureira. Her occupation, notes, the Family Story
+and STATUS are corrected; her death event was already right.
+
+**Profile sync.** Eight parallel agents synced `profile`/`profile_pt` for 28 ancestors from the
+drop's research profiles. Facts known only to the retrieval side are tagged [LEAD], and several
+YAML errors were corrected from held sources (generation labels on P-0006, the PAR-0051 birth
+date on P-0042, a false "Capitão-mor" on P-0065, the mother's surname reading on P-0037, and
+Geraldo's signature on P-0004/P-0008). Skipped: P-0043 (the assigned research file is his son),
+and P-0062, P-0080 and P-0111 (false audit name-matches).
+
+**Raised by the agents, still to verify and fix:** the CIV-0026 death year (1961 against 1971 on
+the image); a consent clause missing from the PAR-0084 transcription; the CIV-0038 name reading;
+PRB-0008's abstract, which still states a superseded parentage; P-0054's stale birth coverage;
+the P-0004 coverage ARK; F-0025's Venda das Pedras place; P-0103's Rio Bonito; GOV-0008's
+secção; P-0064's "Capitão-mor"; P-0042's notes ("born c.1820"); and "father-in-law" wording in
+NWS-0004 and the P-0016 notes.
+
 ## 2026-10-08 — Second sync of the day: AMAP São Paio retired; BPARPD Muniz inventários located
 
 Folded from the 14:39 sync (text only):

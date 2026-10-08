@@ -15,6 +15,30 @@
 #            opens the record. Only reference deceased people.
 
 updates:
+  - date: "2026-10-08"
+    kind: correction
+    title: "Correction: Celina Bohrer died on 19 February 1977 and was recorded as a doméstica — an earlier edit had changed her death to the 15th and her work to seamstress"
+    title_pt: "Correção: Celina Bohrer morreu em 19 de fevereiro de 1977 e foi registrada como doméstica — uma edição anterior tinha mudado o óbito para o dia 15 e o ofício para costureira"
+    links: [P-0015, CIV-0015]
+
+  - date: "2026-10-08"
+    kind: correction
+    title: "Correction: Geraldo Paz Armond left no will — his 1991 death register reads \"não deixou testamento\", and an earlier edit had reversed it"
+    title_pt: "Correção: Geraldo Paz Armond não deixou testamento — o assento de óbito de 1991 diz \"não deixou testamento\", e uma edição anterior tinha invertido isso"
+    links: [P-0004, CIV-0003]
+
+  - date: "2026-10-08"
+    kind: correction
+    title: "Correction: the marriage register that could name Simplício's parents is kept at the Argirita parish itself, not in the Juiz de Fora archive — that archive holds nothing for Argirita"
+    title_pt: "Correção: o livro de casamentos que pode nomear os pais de Simplício está guardado na própria paróquia de Argirita, não no arquivo de Juiz de Fora — esse arquivo nada guarda de Argirita"
+    links: [P-0016, P-0017]
+
+  - date: "2026-10-08"
+    kind: correction
+    title: "Correction: the suggested origin of Vicente José de Carvalho Guimarães in São Paio, Guimarães, is withdrawn — the archive found no son of that couple who could be him"
+    title_pt: "Correção: a origem sugerida para Vicente José de Carvalho Guimarães em São Paio, Guimarães, foi retirada — o arquivo não encontrou nenhum filho desse casal que pudesse ser ele"
+    links: [P-0023]
+
   - date: "2026-09-24"
     kind: person
     title: "Belchior da Ponte Cardoso was a widower when he married in 1650 — the margin of the act names a first wife, Bárbara Gata, nobody in this archive knew about"

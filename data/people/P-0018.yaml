@@ -72,7 +72,7 @@ profile: >-
 
   - **[PROVEN]** He held a driver's licence (categoria amador) in the Guanabara register as of March 1973 (GOV-0001) — a mundane administrative fact that places him in the urbanised working/middle class of the former Guanabara state (Rio de Janeiro). Car ownership or access was a meaningful class marker in early-1970s Brazil.
 
-  - **[CONTEXTUAL]** Born in 1926 in Eugenópolis, Minas Gerais — the same Zona da Mata town where his mother Liliosa would die in 1946 and where his brother Geraldo had married in 1952 — he was the last Armond to be born in the family's home region before the move to Rio de Janeiro.
+  - **[CONTEXTUAL]** Born in 1926 in Eugenópolis, Minas Gerais — the Zona da Mata town where his mother Liliosa had been born (and, on the repository's reading, died in 1946) and where his brother Geraldo would marry in 1952 — he is the younger of the two primary-confirmed sons born in the family's home region before the move to Rio de Janeiro. He was not necessarily the last: the FS tree gives a sister, Maria Aparecida, born in 1933 [LEAD].
 
   - **[INFERRED]** Recorded as a "representante comercial" (commercial representative) resident in Rio de Janeiro in 1975 (NWS-0001), he followed the same Zona da Mata → Rio de Janeiro trajectory as his brother Geraldo's household, but via a different trade: sales representation rather than baking.
 
@@ -103,7 +103,12 @@ profile: >-
   by 1975 (NWS-0001). [PROVEN]
 
   - Held a driver's licence (categoria amador) in the Guanabara register, per the 1973
-  driver-dossier index (GOV-0001). [PROVEN]
+  driver-dossier index (GOV-0001), last revalidated in January 1971 — the earliest date
+  at which he is placed in Guanabara. The index leaves his street-address fields blank.
+  [PROVEN]
+
+  - **Literacy not documented** — no signature of his is held, and neither record
+  states it. [OPEN]
 
   ## Family and social network
 
@@ -130,6 +135,13 @@ profile: >-
   brother Geraldo worked (padeiro, CIV-0002). Both are wage or commission livelihoods with no land,
   capital or office attached; the Minas → Rio move is the same, the route into the city is not.
 
+  - **His own move is datable only to a window** [PROVEN bounds; INFERRED reading]. Born in Minas in
+  1926 and first placed in Guanabara by his licence revalidation of January 1971 (GOV-0001), he
+  moved to Rio at some point in 1926–1971; no record narrows it. He was a child who made the Minas →
+  Rio move, not one born after it — an earlier retrieval-side reading that he was born in Rio, which would have
+  dated the family's move to 1915–1926, rested on an inference from the 1973 index (which says only
+  "BRASIL") and is superseded by the bann's "natural de Eugenópolis" (NWS-0001).
+
   - **A settled lower-middle-class Rio household** [PROVEN; class reading CONTEXTUAL]. The 1973
   Guanabara register records him holding a driver's licence in the *categoria amador* — the private,
   non-professional class, so the car was for his own use rather than his work (GOV-0001) — and the
@@ -155,9 +167,12 @@ profile: >-
 
   - His birth/baptism register (Eugenópolis, ~1926) — not held. [OPEN]
 
-  - Whether the 1975 marriage was completed, and its exact date and place. [OPEN]
+  - Whether the 1975 marriage was completed, and its exact date and place. The banns
+  were published by the civil registry of the district of Conselheiro Lafaiete
+  (NWS-0001), so the marriage entry, if the marriage took place, should be there. [OPEN]
 
-  - His death date and place. [OPEN]
+  - His death date and place. A Rio de Janeiro civil death record would close his dates
+  and could independently re-name Aristão × Liliosa. [OPEN]
 
   ## Sources held (this repository)
 
@@ -171,14 +186,17 @@ profile: >-
 
   ## Regional and migration context
 
-  Born at Eugenópolis, in the **Zona da Mata Mineira**, in 1926; by 1975 he was resident
-  in **Rio de Janeiro** — the same Minas → Rio trajectory that his brother Geraldo's
-  branch followed. [CONTEXTUAL]
+  Born at Eugenópolis, in the **Zona da Mata Mineira**, in 1926; in Guanabara by 1971
+  (GOV-0001) and resident in **Rio de Janeiro** in 1975 (NWS-0001) — the same Minas → Rio
+  trajectory that his brother Geraldo's branch followed. [CONTEXTUAL]
 
   ## Where to go today
 
-  - **Born (1926) / resident (1971):** Rio de Janeiro, RJ (former Guanabara / Federal
-  District) [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%2C%20RJ)
+  - **Born (25 Sep 1926):** Eugenópolis, MG — the civil registry and the Matriz São Sebastião would hold any birth or baptism entry [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Eugenopolis%2C%20MG)
+
+  - **Resident (1971–1975):** Rio de Janeiro, RJ (former Guanabara) [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%2C%20RJ)
+
+  - **Marriage banns (February 1975):** civil registry of Conselheiro Lafaiete, MG [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Registro%20Civil%2C%20Conselheiro%20Lafaiete%2C%20MG)
 profile_pt: >-
   ## Fatos interessantes
 
@@ -186,7 +204,7 @@ profile_pt: >-
 
   - **[PROVEN]** Possuía carteira de habilitação (categoria amador) no registro da Guanabara até março de 1973 (GOV-0001) — um fato administrativo trivial que o situa na classe trabalhadora/média urbanizada do antigo estado da Guanabara (Rio de Janeiro). O acesso a automóvel era um marcador de classe significativo no Brasil do início dos anos 1970.
 
-  - **[CONTEXTUAL]** Nasceu em 1926 em Eugenópolis, Minas Gerais — a mesma cidade da Zona da Mata onde sua mãe Liliosa viria a falecer em 1946 e onde seu irmão Geraldo se casaria em 1952 — sendo o último Armond a nascer na região de origem da família antes da mudança para o Rio de Janeiro.
+  - **[CONTEXTUAL]** Nasceu em 1926 em Eugenópolis, Minas Gerais — a cidade da Zona da Mata onde sua mãe Liliosa havia nascido (e, pela leitura do repositório, viria a falecer em 1946) e onde seu irmão Geraldo se casaria em 1952 — sendo o mais novo dos dois filhos confirmados por documentos primários nascidos na região de origem da família antes da mudança para o Rio de Janeiro. Não foi necessariamente o último: a árvore FS dá uma irmã, Maria Aparecida, nascida em 1933 [LEAD].
 
   - **[INFERRED]** Registrado como "representante comercial" residente no Rio de Janeiro em 1975 (NWS-0001), seguiu a mesma trajetória Zona da Mata → Rio de Janeiro que o ramo de seu irmão Geraldo, mas por um ofício diferente: representação comercial em vez de panificação.
 
@@ -217,7 +235,12 @@ profile_pt: >-
   - **Representante comercial**, residente no Rio de Janeiro em 1975 (NWS-0001). [PROVEN]
 
   - Possuía carteira de habilitação (categoria amador) no registro da Guanabara,
-  conforme o índice de prontuário de motorista de 1973 (GOV-0001). [PROVEN]
+  conforme o índice de prontuário de motorista de 1973 (GOV-0001), revalidada pela
+  última vez em janeiro de 1971 — a data mais antiga em que ele está situado na
+  Guanabara. O índice deixa em branco seus campos de endereço. [PROVEN]
+
+  - **Letramento não documentado** — nenhuma assinatura sua está em mãos, e nenhum dos
+  registros o declara. [OPEN]
 
   ## Família e rede social
 
@@ -243,6 +266,14 @@ profile_pt: >-
   comercial — uma ocupação urbana de serviços, remunerada por comissão, e não o ofício manual que seu
   irmão Geraldo exercia (padeiro, CIV-0002). Ambos são sustentos por salário ou comissão, sem terra,
   capital ou cargo associados; a mudança Minas → Rio é a mesma, o caminho de entrada na cidade não é.
+
+  - **Sua própria mudança só é datável dentro de uma janela** [limites PROVEN; leitura INFERRED].
+  Nascido em Minas em 1926 e situado pela primeira vez na Guanabara pela revalidação da habilitação em
+  janeiro de 1971 (GOV-0001), mudou-se para o Rio em algum momento entre 1926 e 1971; nenhum registro a
+  estreita. Foi um filho que fez a mudança Minas → Rio, e não um nascido depois dela — uma leitura
+  anterior do lado da recuperação, de que teria nascido no Rio, o que dataria a mudança da família em
+  1915–1926, apoiava-se numa inferência a partir do índice de 1973 (que diz apenas "BRASIL") e é
+  superada pelo "natural de Eugenópolis" do edital (NWS-0001).
 
   - **Uma casa carioca de classe média baixa, já assentada** [PROVEN; leitura de classe CONTEXTUAL]. O
   registro da Guanabara de 1973 o traz com carteira de habilitação na *categoria amador* — a classe
@@ -271,9 +302,12 @@ profile_pt: >-
 
   - Seu registro de nascimento/batismo (Eugenópolis, ~1926) — não obtido. [OPEN]
 
-  - Se o casamento de 1975 se realizou, e sua data e local exatos. [OPEN]
+  - Se o casamento de 1975 se realizou, e sua data e local exatos. As proclamas foram
+  publicadas pelo registro civil do distrito de Conselheiro Lafaiete (NWS-0001), de modo
+  que o assento de casamento, se o casamento se realizou, deve estar ali. [OPEN]
 
-  - A data e o local de seu óbito. [OPEN]
+  - A data e o local de seu óbito. Um registro civil de óbito do Rio de Janeiro fecharia
+  suas datas e poderia nomear de novo, de forma independente, Aristão × Liliosa. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
@@ -288,11 +322,14 @@ profile_pt: >-
 
   ## Contexto regional e migratório
 
-  Nascido em Eugenópolis, na **Zona da Mata Mineira**, em 1926; em 1975 já residia no
-  **Rio de Janeiro** — a mesma trajetória Minas → Rio que o ramo de seu irmão Geraldo
-  seguiu. [CONTEXTUAL]
+  Nascido em Eugenópolis, na **Zona da Mata Mineira**, em 1926; na Guanabara em 1971
+  (GOV-0001) e residente no **Rio de Janeiro** em 1975 (NWS-0001) — a mesma trajetória
+  Minas → Rio que o ramo de seu irmão Geraldo seguiu. [CONTEXTUAL]
 
   ## Onde ir hoje
 
-  - **Nascido (1926) / residente (1971):** Rio de Janeiro, RJ (antigo Distrito Federal /
-  Guanabara) [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%2C%20RJ)
+  - **Nascimento (25 set. 1926):** Eugenópolis, MG — o registro civil e a Matriz São Sebastião guardariam um eventual assento de nascimento ou batismo [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Eugenopolis%2C%20MG)
+
+  - **Residente (1971–1975):** Rio de Janeiro, RJ (antiga Guanabara) [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%2C%20RJ)
+
+  - **Proclamas de casamento (fevereiro de 1975):** registro civil de Conselheiro Lafaiete, MG [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Registro%20Civil%2C%20Conselheiro%20Lafaiete%2C%20MG)

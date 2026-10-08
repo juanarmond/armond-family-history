@@ -81,7 +81,9 @@ lead until verified against an original record.
 ### C-004 — Arquivo Histórico Arquidiocesano de Juiz de Fora
 - Who: the archdiocesan archive that physically holds the parish registers of the
   Diocese de Leopoldina (Piacatuba, Bom Jesus do Rio Pardo / Argirita, São
-  Sebastião, etc., back to the 18th century). Does parish-book **searches** and
+  Sebastião, etc., back to the 18th century). **[Superseded 2026-10-08: that
+  description was the premise of the enquiry and is wrong; the archive's own
+  replies below say it holds no Argirita, Leopoldina or Piacatuba registers.]** Does parish-book **searches** and
   issues **certidões** (does not transcribe; manual, slow, likely a fee).
 - Contact: `arquivo@arquidiocesejuizdefora.org.br`; tel (32) 3229-5450
   (13h30–16h30).
@@ -488,8 +490,32 @@ notes; confirm with her). Also received, as reported by the retrieval side and h
 - **Outstanding on the retrieval side's thread (it owns this correspondence):** (1) the entry-68 crop and (2) fls. 17, for our
   own reading; (3) confirmation of the archival reference; (4) the "pergunta que ficou pendente";
   and **(6) the transcription or image of Tombos p. 26, and whether it states filiation.** The
-  retrieval side drafted a WhatsApp reply on 2026-09-25 that asks for p. 26; whether it was sent is
-  not recorded here. Owed by us: tell her when the COARPE processes she asked about arrive.
+  owner sent the reply by e-mail on 2026-10-08 (per the retrieval thread), including the p. 26
+  request. By then Nilza had also sent Joana Capella's copies of an 1856 land declaration by an
+  Antonio Ferreira Armondes in Santa Rita do Meia Pataca parish (APM TP 120, reg. nº 53); see
+  record-coverage P-0016. Owed by us: tell her when the COARPE processes she asked about arrive.
+
+### C-014 — Paróquia Senhor Bom Jesus, Argirita (Bom Jesus do Rio Pardo), Diocese de Leopoldina
+- Who: the parish that **holds** the Argirita / Bom Jesus do Rio Pardo registers. The books are kept
+  at the parish house beside the church, not at a diocesan or archdiocesan archive.
+- Contact: the parish's WhatsApp line (held by the owner).
+- Purpose: the **Simplício José Ferreira Armond ⚭ Eliza Balbina de Toledo marriage (~1868–72)**,
+  the record most likely to name Simplício's parents, plus the couple's children's baptisms.
+- Sent: 2026-08 and 2026-08-12 (by the owner, via WhatsApp). Recorded here 2026-10-08 from the
+  retrieval drop's thread; until then this contact was missing from this log.
+- Replies: (2026-08) a search costs R$50 and takes 30–60 working days. (**2026-09-15**) the first
+  marriage book runs from early **1860 to 1882**, which covers the whole window; the fee is **R$50
+  per name**, so searches cannot be bundled; **the books are not digitised**; PIX is accepted, but
+  no key has been given.
+- Corroboration of custody (2026-09-22/23): historian Jonis Freire, who worked these books for his
+  research, reports them at the parish house, in excellent condition and legible, and says a
+  visitor could photograph them on site. His own notes are paper worksheets on the enslaved
+  population only, so they do not cover our family.
+- Status: **open, pursued by the retrieval side**, which owns this correspondence; its next step is
+  permission to photograph the 1860–1882 marriage book on site, which needs a person in Argirita.
+  Any paid search (R$50 per name) needs the owner's explicit authorisation. This repository
+  value-gates the entry when it arrives. A Mar de Espanha search for 1864–69 is separately queued
+  at Juiz de Fora (C-004, ticket 160/2026).
 
 ### C-015 — Arquivo Municipal Alfredo Pimenta (AMAP), Guimarães
 - Who: the municipal archive of Guimarães, Portugal, which holds the parish registers of the
@@ -507,24 +533,3 @@ notes; confirm with her). Also received, as reported by the retrieval side and h
   2026-10-01). Delivered 2026-09-28 and read by the retrieval agent on 2026-10-08; they give
   dates and the mother's name, but no trade or origin. Held by the retrieval side, not here.
 - Status: **closed.** The owner sent a thank-you on 2026-10-08. See record-coverage P-0023.
-
-### C-014 — Paróquia Senhor Bom Jesus, Argirita (Bom Jesus do Rio Pardo), Diocese de Leopoldina
-- Who: the parish that **holds** the Argirita / Bom Jesus do Rio Pardo registers. The books are kept
-  at the parish house beside the church, not at a diocesan or archdiocesan archive.
-- Contact: the parish's WhatsApp line (held by the owner).
-- Purpose: the **Simplício José Ferreira Armond ⚭ Eliza Balbina de Toledo marriage (~1868–74)**,
-  the record most likely to name Simplício's parents, plus the couple's children's baptisms.
-- Sent: 2026-08 and 2026-08-12 (by the owner, via WhatsApp). Recorded here 2026-10-08 from the
-  retrieval drop's thread; until then this contact was missing from this log.
-- Replies: (2026-08) a search costs R$50 and takes 30–60 working days. (**2026-09-15**) the first
-  marriage book runs from early **1860 to 1882**, which covers the whole window; the fee is **R$50
-  per name**, so searches cannot be bundled; **the books are not digitised**; PIX is accepted, but
-  no key has been given.
-- Corroboration of custody (2026-09-22/23): historian Jonis Freire, who worked these books for his
-  research, reports them at the parish house, in excellent condition and legible, and says a
-  visitor could photograph them on site. His own notes are paper worksheets on the enslaved
-  population only, so they do not cover our family.
-- Status: **open, pursued by the retrieval side**, which owns this correspondence; its next step is
-  permission to photograph the 1860–1882 marriage book on site. This repository value-gates the
-  entry when it arrives. The Mar de Espanha slice (1863–69) is separately queued at Juiz de
-  Fora (C-004, ticket 160/2026).
