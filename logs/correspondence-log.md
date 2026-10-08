@@ -287,6 +287,15 @@ lead until verified against an original record.
   Roza's baptism, plus a question on whether the pre-1801 / pre-1818 books survive or sit
   on another portal (Culturaçores, arquivos.azores.gov.pt and FamilySearch all begin at
   1801/1818). **Awaiting reply.**
+- **Paid order (recorded 2026-10-08 from the retrieval drop):** after a €133,90 quote for
+  full digitisation, the archive re-quoted €4,55 for seven targeted pages, which was paid
+  2026-09-24 (invoice FAC BPD/176). The pages are the capa and *Título dos herdeiros* (fol. 2)
+  of **João de Medeiros Brandão's 1819 inventário**, and the capa and *Auto de juramento à
+  inventariante* (f. 3–4v) of **Manoel Moniz Bettencourt's 1867 inventário**. The archivist
+  confirmed that in this series the inventariante's sworn statement lists the heirs. All
+  seven images were delivered 2026-09-28 and read by the retrieval agent on 2026-10-08. They
+  are held by the retrieval side, not here; see record-coverage P-0042 and P-0084. Reuse
+  must credit the archive (Portaria n.º 18/2011).
 
 ### C-009 — César Raibert Valverde (Nova Friburgo Swiss-immigrant genealogy)
 - Who: César Raibert Valverde (`cesarraibertvalverde@gmail.com`), long-time blogger of the
@@ -481,6 +490,23 @@ notes; confirm with her). Also received, as reported by the retrieval side and h
   and **(6) the transcription or image of Tombos p. 26, and whether it states filiation.** The
   retrieval side drafted a WhatsApp reply on 2026-09-25 that asks for p. 26; whether it was sent is
   not recorded here. Owed by us: tell her when the COARPE processes she asked about arrive.
+
+### C-015 — Arquivo Municipal Alfredo Pimenta (AMAP), Guimarães
+- Who: the municipal archive of Guimarães, Portugal, which holds the parish registers of the
+  Guimarães freguesias.
+- Purpose: test the São Paio hypothesis for Vicente José de Carvalho Guimarães (P-0023), i.e.
+  whether he was a later son of Vicente José de Carvalho × Maria Rosa of São Paio.
+- Sent: September 2026 (by the owner). Recorded here 2026-10-08 from the retrieval drop's
+  thread; until then this contact was missing from this log.
+- Reply (2026-09-25): the archive searched and found **no further son** of the couple beyond
+  José (1806) and Domingos (1808). This is a strong bounded negative: the method, year range
+  and other freguesias are unconfirmed. **The São Paio hypothesis is retired.** It declined, as
+  outside its remit, a question about whether the São Paio Vicente is the same man as a
+  Fermentões namesake.
+- Paid: €0,50 for the two baptism images (paid 2026-09-25, receipt FTI 0000326/6696 dated
+  2026-10-01). Delivered 2026-09-28 and read by the retrieval agent on 2026-10-08; they give
+  dates and the mother's name, but no trade or origin. Held by the retrieval side, not here.
+- Status: **closed.** The owner sent a thank-you on 2026-10-08. See record-coverage P-0023.
 
 ### C-014 — Paróquia Senhor Bom Jesus, Argirita (Bom Jesus do Rio Pardo), Diocese de Leopoldina
 - Who: the parish that **holds** the Argirita / Bom Jesus do Rio Pardo registers. The books are kept

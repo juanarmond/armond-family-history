@@ -5,6 +5,14 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — São Paio lead retired on P-0023; Muniz inventários recorded as located (2026-10-08)
+
+- P-0023's profile (EN and PT) and coverage now record the AMAP São Paio hypothesis as
+  retired, on the archive's bounded negative. New correspondence entry C-015.
+- `located` probate rows for P-0042 (1867) and P-0084 (1819, new coverage entry) carry the
+  BPARPD inventários reported by the retrieval side. The 1867 heir list's conflict with the
+  held roster is preserved pending the images. C-008 and STATUS updated.
+
 ### Fixed — stale P-0016 priority and archive custodian; 2026-09-25 retrieval cycle folded in (2026-10-08)
 
 - Withdrew the 1839 Meia Pataca map as P-0016's top ask, which the previous entry had promoted

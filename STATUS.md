@@ -77,8 +77,9 @@ _Resume checkpoint refreshed 2026-10-08._ Ordered queue; per-record detail lives
   BPAR Angra: the 6 € high-res set was declined, but a €2 order (Requisição nº101) was delivered
   2026-09-25 to the retrieval side (C-005).
 - **Retrieval images no longer reach this repo:** since 2026-10-06 the retrieval handoff excludes
-  record images, so new finds (Jacob Borer's Beinwil baptism, the BPAR Requisição nº101 scans)
-  cannot be value-gated here. Owner to choose a delivery route.
+  record images, so new finds cannot be value-gated here: Jacob Borer's Beinwil baptism, the
+  BPAR Requisição nº101 scans, the two BPARPD Muniz inventários (1819, 1867) and the AMAP São
+  Paio baptisms. Owner to choose a delivery route.
 - **FamilySearch restricted images:** groups `004640627` (Aristão baptism, from img 54) and
   `004640632` (Aristão × Liliosa marriage, from img 6) are queued for the external retrieval
   agent; earlier images in each group need authorised FS Center/Library access.

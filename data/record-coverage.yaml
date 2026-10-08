@@ -1428,7 +1428,7 @@ people:
   - record_type: birth
     status: lead_only
     source_ids: []
-    last_reviewed: "2026-07-28"
+    last_reviewed: "2026-10-08"
     next_action: >-
       Locate a record that gives Vicente's Portuguese district, municipality
       or parish; do not convert nationality into a specific origin.
@@ -1450,6 +1450,18 @@ people:
         (bases.an.gov.br, CAPTCHA) are name-searchable without knowing the
         locality, so they can be run proactively by the Codex browser agent and
         may themselves reveal his origin.
+    - text: >-
+        2026-10-08 — the AMAP São Paio (Guimarães) hypothesis is RETIRED (folded from the
+        retrieval drop; C-015). The hypothesis was that our Vicente was an unindexed later
+        son of Vicente José de Carvalho × Maria Rosa of São Paio. On 2026-09-25 the
+        archive reported that it had searched and found no son of that couple beyond José
+        (1806) and Domingos (1808). This is a strong bounded negative, not a disproof: other
+        freguesias, and the archive's method and year range, are unconfirmed. The two paid
+        baptism images (delivered 2026-09-28, held by the retrieval side, not here) are
+        reported to read José b. 4 Apr 1806 and Domingos b. 21 Dec 1808 (the index gives
+        20 Dec), with no trade, origin or grandparents. The "mestre pedreiro" link is
+        index-only, and the retrieval side infers two same-named men. Do not re-run the
+        São Paio search. His Brazilian marriage (Rio Claro) remains the bridge record.
   - record_type: marriage
     status: unsearched
     source_ids: []
@@ -1663,11 +1675,69 @@ people:
       Seek his baptism/marriage on the Ilha de São Miguel (Açores), the origin of his
       son João; his own vitals would name the mother of João and his own parents.
     notes: []
+  - record_type: probate
+    status: located
+    source_ids: []
+    last_reviewed: "2026-10-08"
+    next_action: >-
+      Obtain the BPARPD images held by the retrieval side (delivered 2026-09-28: the
+      capa and the Auto de juramento à inventariante, PT-BPARPD-JUD/TCPVC/1SEC/082/00214),
+      then value-gate and catalogue them. Since 2026-10-06 the retrieval handoff excludes
+      images, so this needs a separate delivery route. Do not change the children roster
+      or the profiles until the images are read here.
+    notes:
+    - text: >-
+        2026-10-08 — INVENTÁRIO LOCATED, NOT YET HELD HERE (reported by the retrieval
+        agent, which read the images on 2026-10-08). Juízo Ordinário da Povoação, São
+        Miguel, "Autos de Inventario entre menores", opened ~3–4 April 1867. The widow
+        Francisca Roza do Espirito Santo (P-0047), of Lomba do Botão, declared that
+        Manoel Moniz Bettencourt died intestate on 24 July 1866; she did not sign, "por
+        dizer não saber escrever". Reported heirs: (1) Maria, married to Antonio Moniz
+        Bettencourt; (2) Manoel Jacinto, single, absent; (3) João, single, 20 (our
+        P-0019); (4) Francisca Isabel, married to Francisco Soares Brandão; (5) Anna, 13;
+        (6) Claudina Roza, 10; (7) Maria José, 8; (8) Maria Isabel, 6. CONFLICT WITH THE
+        HELD ROSTER, preserved until the image is read here: P-0047's profile counts a
+        Maria born 29 Nov 1851 (PAR-0047) among the eight surviving children, but she is
+        not among these heirs (so she probably died before April 1867), and it omits Maria
+        Isabel (b. ~1860–61). The reported read also places João's emigration after
+        4 April 1867, since he is not "ausente". The family council names a paternal uncle,
+        João Moniz Bettencourt, and a maternal uncle, Antonio da Motta Madeira. Reuse of
+        BPARPD images must credit the Biblioteca Pública e Arquivo Regional de Ponta
+        Delgada (Portaria n.º 18/2011).
   notes:
   - text: >-
       New direct ancestor (31 July 2026): father of João Muniz Bittencourt (P-0019),
       named in João's 1915 death (PAR-0007, family F-0020). Likely São Miguel-born
       (unstated); own vitals off-tool in the Açores.
+- person_id: P-0084
+  external_profiles: []
+  records:
+  - record_type: probate
+    status: located
+    source_ids: []
+    last_reviewed: "2026-10-08"
+    next_action: >-
+      Obtain the BPARPD images held by the retrieval side (delivered 2026-09-28: the capa
+      and the Título dos herdeiros, fol. 2, PT-BPARPD-JUD/TCPVC/1SEC/082/00213), then
+      value-gate and catalogue them. This would be the first held record listing Maria
+      Jacintha de Medeiros (P-0049) among his children. It needs a delivery route, since
+      the handoff has excluded images since 2026-10-06.
+    notes:
+    - text: >-
+        2026-10-08 — INVENTÁRIO LOCATED, NOT YET HELD HERE (reported read). Juízo de Fora e
+        Órfãos de Vila Franca do Campo, opened 27 January 1819. The widow and inventariante
+        Maria Eugenia (P-0085), of Lomba do Botão, Povoação, declared that João de Medeiros
+        Brandão died on [7?] April 1818. Título dos herdeiros (fol. 2): (1) Maria Eugenia,
+        single, 20, with the margin note "Casada com João [Moniz?]"; (2) Vitoria de
+        Medeiros, single, 15; (3) Anna de Medeiros, 2. The retrieval agent identifies heir 1
+        as Maria Jacintha de Medeiros (P-0049), who married João Francisco Muniz on 7 Oct
+        1819 and is called "Maria Eugenia" in other records [STRONG on the retrieval side;
+        INFERRED here until read]. Vitoria and Anna would be her sisters, collaterals to
+        record as documented_children only once the record is held.
+  notes:
+  - text: >-
+      Coverage entry opened 2026-10-08 for the BPARPD inventário. Father of Maria
+      Jacintha de Medeiros (P-0049), with Maria Eugenia (P-0085), as already modelled.
 - person_id: P-0043
   external_profiles: []
   records:

@@ -5,6 +5,21 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-10-08 — Second sync of the day: AMAP São Paio retired; BPARPD Muniz inventários located
+
+Folded from the 14:39 sync (text only):
+- **P-0023 Vicente:** the AMAP São Paio origin hypothesis was retired on the archive's
+  2026-09-25 bounded negative (no further son of the São Paio couple). The profile (EN and PT)
+  now calls it a retired lead, and its "Where to go" no longer points to São Paio. The
+  baptism date correction (Domingos b. 21 Dec 1808) is recorded as the retrieval agent's
+  reading. New contact C-015.
+- **Muniz line:** BPARPD's 1819 João de Medeiros Brandão and 1867 Manoel Moniz Bettencourt
+  inventários (seven pages) were delivered 2026-09-28 and read on the retrieval side. They
+  are recorded as `located` probate rows on P-0084 (new coverage entry) and P-0042. The
+  reported 1867 heir list conflicts with the held "eight surviving children" roster: Maria
+  b. 1851 is absent, and a Maria Isabel b. ~1860–61 is new. The conflict is preserved, not
+  applied, until the images are read here. C-008 updated.
+
 ## 2026-10-08 — Retrieval cycle 2026-09-25 folded in (text only); 1839-map priority withdrawn
 
 **Amends the 2026-09-25 Cágado entry below,** which named the 1839 Meia Pataca map as the top
