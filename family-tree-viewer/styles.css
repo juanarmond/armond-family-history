@@ -1897,14 +1897,15 @@ button.source-link { cursor: pointer; }
 .portrait .portrait-list { margin: 0 0 .6rem; padding-left: 1.1rem; }
 .portrait .portrait-list li { margin: 0 0 .3rem; }
 .portrait hr { border: 0; border-top: 1px solid var(--rule); margin: .9rem 0; }
-.portrait .tier { font-family: var(--mono, monospace); font-size: .72em; font-weight: 600; letter-spacing: .02em; border-radius: 3px; padding: 0 .28em; white-space: nowrap; }
+/* Tags wrap like text: a long one ("[LEAD — owner's knowledge; …]") must not push the page sideways. */
+.portrait .tier { font-family: var(--mono, monospace); font-size: .72em; font-weight: 600; letter-spacing: .02em; border-radius: 3px; padding: 0 .28em; overflow-wrap: anywhere; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .portrait .tier-proven, .portrait .tier-documented { color: #1c6b3f; background: rgba(28, 107, 63, .12); }
 .portrait .tier-inferred, .portrait .tier-strong { color: #8a5a12; background: rgba(169, 132, 63, .15); }
 .portrait .tier-lead, .portrait .tier-open, .portrait .tier-contextual { color: #8a3b2e; background: rgba(138, 59, 46, .12); }
 .portrait .tier-resolved { color: #1c6b3f; background: rgba(28, 107, 63, .12); }
 .portrait .tier-approx { color: #8a5a12; background: rgba(169, 132, 63, .15); }
 .portrait .tier-unlocated, .story-content .tier-unlocated { color: #8a3b2e; background: rgba(138, 59, 46, .12); }
-.story-content .tier { font-family: var(--mono, monospace); font-size: .72em; font-weight: 600; border-radius: 3px; padding: 0 .28em; white-space: nowrap; }
+.story-content .tier { font-family: var(--mono, monospace); font-size: .72em; font-weight: 600; border-radius: 3px; padding: 0 .28em; overflow-wrap: anywhere; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .story-content .tier-proven, .story-content .tier-documented, .story-content .tier-resolved { color: #1c6b3f; background: rgba(28, 107, 63, .12); }
 .story-content .tier-inferred, .story-content .tier-strong, .story-content .tier-approx { color: #8a5a12; background: rgba(169, 132, 63, .15); }
 .story-content .tier-lead, .story-content .tier-open, .story-content .tier-contextual { color: #8a3b2e; background: rgba(138, 59, 46, .12); }
@@ -1968,7 +1969,7 @@ body.is-mobile .portrait a.portrait-maplink, body.is-mobile .story-content a.por
   transition: background .15s ease, color .15s ease, border-color .15s ease;
 }
 .portrait-close:hover { background: var(--gold-soft); border-color: var(--gold); color: var(--green-deep); }
-.portrait-panel-body { flex: 1 1 auto; min-height: 0; padding: 1.2rem 1.4rem; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+.portrait-panel-body { flex: 1 1 auto; min-height: 0; padding: 1.2rem 1.4rem; overflow-x: hidden; overflow-y: auto; overflow-wrap: break-word; -webkit-overflow-scrolling: touch; }
 .reader-hint {
   padding: .45rem 1rem;
   border-top: 1px solid var(--rule);
@@ -2267,7 +2268,7 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
 .branch-chip:hover { background: var(--gold-soft); border-color: var(--gold); }
 .branch-chip-label { min-width: 0; }
 .branch-chip-caret { color: var(--muted); font-size: .7rem; }
-.header-branch-chip { display: none; }
+.header-branch-chip, .header-help { display: none; } /* phone only: desktop keeps the floating ? */
 .toolbar .field-branch { display: flex; flex-direction: column; flex: 0 0 auto; }
 .toolbar .field-label {
   display: block;
@@ -2661,6 +2662,8 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
   .story-panel:not(.guide-panel):not(.branch-panel):not(.assistant-panel) { bottom: var(--tabbar-h); height: auto; }
   .assistant-panel { height: calc(100dvh - var(--tabbar-h)); }
   #close-story, #close-updates, #close-assistant, #close-details { display: none; }
+  /* Ask AI lives in the bottom bar, so no page repeats it at the top. */
+  .panel-ai-btn { display: none !important; }
   .detail-head .detail-back {
     display: inline-flex;
     align-items: center;
@@ -2697,7 +2700,25 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
   .site-title .eyebrow, .site-title .subtitle { display: none; }
   .site-header h1 { margin: 0; overflow: hidden; color: var(--green-deep); font-size: 1.15rem; text-overflow: ellipsis; white-space: nowrap; }
   .brand-emblem { order: 0; width: 2.3rem; height: 2.3rem; filter: none; }
-  .header-branch-chip { order: 2; display: inline-flex; max-width: 55vw; min-height: 2.3rem; padding: .3rem .7rem .3rem .55rem; font-size: .78rem; }
+  .header-branch-chip { order: 2; display: inline-flex; max-width: 46vw; min-height: 2.3rem; padding: .3rem .7rem .3rem .55rem; font-size: .78rem; }
+  .header-help {
+    order: 3;
+    display: grid;
+    flex: none;
+    place-items: center;
+    width: 2.3rem;
+    height: 2.3rem;
+    padding: 0;
+    border: 1px solid var(--rule-strong);
+    border-radius: 50%;
+    background: #fffdf6;
+    color: var(--green-deep);
+    font-family: var(--sans);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .header-help:hover { background: var(--gold-soft); border-color: var(--gold); }
   .header-branch-chip .branch-chip-label { overflow: hidden; text-overflow: ellipsis; }
   .app-menu { top: calc(100% + .3rem); right: auto; left: .8rem; }
 
@@ -2709,7 +2730,7 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
   .summary { display: none; }
 
   /* The families sheet rises from the bottom; the first-visit question fills the screen. */
-  .branch-panel { --branch-pad: 1.15rem; padding: 1.3rem var(--branch-pad) 0; }
+  .branch-panel { --branch-pad: 1.15rem; right: 0; left: 0; width: 100%; padding: 1.3rem var(--branch-pad) 0; }
   .branch-panel:not(.is-welcome) { top: auto; bottom: 0; height: auto; max-height: 90dvh; border-top: 1px solid var(--gold); border-radius: 16px 16px 0 0; }
 }
 @media (max-width: 700px) {
@@ -2717,4 +2738,11 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
   .search-results { max-height: min(62vh, 32rem); }
   /* Jumping to a person scrolls the view to the top — below the sticky header, not under it. */
   .mobile-view { scroll-margin-top: 4.2rem; }
+}
+@media (max-width: 380px) {
+  /* Small phones: emblem, title, chip and help still share one row. */
+  .site-header { gap: .45rem; padding-right: .8rem; padding-left: .8rem; }
+  .site-header h1 { font-size: 1.02rem; }
+  .brand-emblem, .header-help { width: 2.1rem; height: 2.1rem; }
+  .header-branch-chip { padding: .25rem .6rem .25rem .5rem; font-size: .74rem; }
 }

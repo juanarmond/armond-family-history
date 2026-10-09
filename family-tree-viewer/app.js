@@ -1,6 +1,7 @@
 import { createI18n, resolveLocale, SUPPORTED_LOCALES } from "./i18n.js";
 import { load as parseYaml } from "./vendor/js-yaml.mjs";
 import {
+  branchSides,
   computeBranches,
   entryBranches,
   entryInScope,
@@ -245,6 +246,7 @@ const elements = {
   appMenuButton: document.querySelector("#app-menu-button"),
   appMenu: document.querySelector("#app-menu"),
   detailsBack: document.querySelector("#details-back"),
+  headerHelp: document.querySelector("#header-help"),
 };
 
 const statusColours = {
@@ -3603,13 +3605,12 @@ function renderBranchPanel() {
     or.textContent = t("branch.or");
     panel.append(or);
   }
-  for (const side of ["paternal", "maternal", null]) {
-    const group = state.branches.list.filter((branch) => branch.side === side);
-    if (!group.length) continue;
+  for (const side of branchSides(state.branches)) {
+    const group = side.branches;
     const sideHead = document.createElement("div");
     sideHead.className = "branch-side-head";
     const label = document.createElement("h3");
-    label.textContent = side ? t("branch.side", { label: group[0].label }) : t("branch.otherSide");
+    label.textContent = side.parentId ? t("branch.side", { label: group[0].label }) : t("branch.otherSide");
     if (group.length === 2) {
       const couple = document.createElement("span");
       couple.className = "branch-side-couple";
@@ -3744,20 +3745,25 @@ function syncTabbar() {
   }
 }
 
+// Like a phone app's tabs, Family keeps its place: a person page stays open underneath the
+// other tabs (so Ask AI suggests questions about that person), and tapping Family returns to
+// it; tapping Family again closes it, and once more goes home.
 function openTab(name) {
-  const wasHome = activeTab() === "family" && elements.detailsPanel.hidden;
+  const current = activeTab();
   hideSearchResults();
   // Switching tabs is not "going back": drop the return-to-panel flags before closing.
   returnToUpdates = false;
   returnToAssistant = false;
-  if (!elements.detailsPanel.hidden) closeDetails();
   if (name !== "assistant") closeAssistant();
   if (name !== "story") closeStory();
   if (name !== "updates") closeUpdates();
   if (name === "updates") openUpdates();
   else if (name === "story") openStory();
   else if (name === "assistant") openAssistant();
-  else if (wasHome) showHome(); // tapping Family again goes home
+  else if (current === "family") {
+    if (!elements.detailsPanel.hidden) closeDetails();
+    else showHome();
+  }
   syncTabbar();
 }
 
@@ -3995,6 +4001,7 @@ function bindEvents() {
     });
   }
   if (elements.helpFab) elements.helpFab.addEventListener("click", () => openGuide("nav"));
+  if (elements.headerHelp) elements.headerHelp.addEventListener("click", () => openGuide("nav"));
   if (elements.detailHelp) elements.detailHelp.addEventListener("click", () => openGuide("card"));
   if (elements.storyHelp) elements.storyHelp.addEventListener("click", () => openGuide("story"));
   if (elements.updatesHelp) elements.updatesHelp.addEventListener("click", () => openGuide("updates"));

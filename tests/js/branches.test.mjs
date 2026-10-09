@@ -6,6 +6,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 
 import {
+  branchSides,
   computeBranches,
   entryBranches,
   entryInScope,
@@ -69,11 +70,11 @@ test("a branch is a grandparent's line: ancestors, plus collaterals and their sp
   for (const id of ["P-0001", "P-0002", "P-0003"]) assert.ok(!info.personBranches[id], "the living subject and parents are in no branch");
 });
 
-test("sides come from the tree: the father's parents are the paternal side", () => {
-  assert.equal(info.byKey.armond.side, "paternal");
-  assert.equal(info.byKey.armond.sideParentId, "P-0002");
-  assert.equal(info.byKey.bohrer.side, "maternal");
-  assert.equal(info.byKey.bohrer.sideParentId, "P-0003");
+test("sides come from the tree alone, even when a living parent's sex is withheld", () => {
+  const unsexed = { ...people, "P-0002": { ...people["P-0002"], sex: "unknown" }, "P-0003": { ...people["P-0003"], sex: "unknown" } };
+  const sides = branchSides(computeBranches({ people: unsexed, parentsByChild }));
+  assert.deepEqual(sides.map((side) => side.parentId), ["P-0002", "P-0003"]);
+  assert.deepEqual(sides.map((side) => side.branches.map((branch) => branch.key)), [["armond", "engracio"], ["muniz", "bohrer"]]);
 });
 
 test("a scoped tree starts at the grandparent, the shared child, or the subject", () => {

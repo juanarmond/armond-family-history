@@ -8,7 +8,7 @@
 export const SUBJECT_ID = "P-0001";
 
 // The four branches, in the order the Family Story tells them (`river`). Each `rootId` is a
-// grandparent of the subject; the side (father's or mother's) is derived from the tree. The
+// grandparent of the subject; which parent's side it is on is derived from the tree. The
 // colours are kept clear of the evidence-tier colours (confirmed / strong / hypothesis).
 export const BRANCHES = [
   { key: "armond", rootId: "P-0004", label: "Armond", colour: "#2f5d43", river: 1 },
@@ -127,12 +127,11 @@ export function surnameIndex(people, ids, vocabulary = surnameVocabulary(people)
 
 // ---------- Branch membership ----------
 export function computeBranches({ people, parentsByChild }, config = BRANCHES) {
+  // A branch's side is the subject's parent it descends through — found from the tree alone,
+  // since the public site withholds a living parent's sex.
   const subjectParents = visibleParents(parentsByChild, SUBJECT_ID);
-  const sideOf = (rootId) => {
-    const parentId = subjectParents.find((id) => visibleParents(parentsByChild, id).includes(rootId)) || null;
-    const side = parentId ? (people[parentId]?.sex === "female" ? "maternal" : "paternal") : null;
-    return { parentId, side };
-  };
+  const sideParentOf = (rootId) =>
+    subjectParents.find((id) => visibleParents(parentsByChild, id).includes(rootId)) || null;
   const vocabulary = surnameVocabulary(people);
   const list = [];
   const personBranches = {};
@@ -162,12 +161,10 @@ export function computeBranches({ people, parentsByChild }, config = BRANCHES) {
       for (const spouse of people[id]?.spouses || []) if (people[spouse.id]) members.add(spouse.id);
     }
     const years = [...members].map((id) => earliestEventYear(people[id])).filter(Number.isFinite);
-    const { parentId, side } = sideOf(branch.rootId);
     list.push({
       ...branch,
       name: people[branch.rootId].name,
-      side,
-      sideParentId: parentId,
+      sideParentId: sideParentOf(branch.rootId),
       members: [...members].sort(),
       generations: Math.max(...depth.values()),
       earliestYear: years.length ? Math.min(...years) : null,
@@ -188,6 +185,18 @@ export function computeBranches({ people, parentsByChild }, config = BRANCHES) {
   }
   for (const branch of list) delete branch.surnameEntries;
   return { list, byKey: Object.fromEntries(list.map((branch) => [branch.key, branch])), personBranches, vocabulary };
+}
+
+// The branches grouped by side (the two grandparents of each parent), in branch order; a
+// branch whose side cannot be traced sits in a group of its own at the end.
+export function branchSides(info) {
+  const groups = [];
+  for (const branch of info.list) {
+    const group = branch.sideParentId && groups.find((entry) => entry.parentId === branch.sideParentId);
+    if (group) group.branches.push(branch);
+    else groups.push({ parentId: branch.sideParentId, branches: [branch] });
+  }
+  return [...groups.filter((group) => group.parentId), ...groups.filter((group) => !group.parentId)];
 }
 
 // ---------- Scope (the viewer's choice of branches) ----------
