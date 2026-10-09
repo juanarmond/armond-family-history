@@ -15,6 +15,12 @@
 #            opens the record. Only reference deceased people.
 
 updates:
+  - date: "2026-10-09"
+    kind: correction
+    title: "Correction: Pedro Lourenço Machado's birth in 1571 is now marked a hypothesis — its only source is a published genealogy, not a parish record"
+    title_pt: "Correção: o nascimento de Pedro Lourenço Machado em 1571 agora é uma hipótese — a única fonte é uma genealogia publicada, não um registro paroquial"
+    links: [P-0129, PUB-0004]
+
   - date: "2026-10-08"
     kind: milestone
     title: "Names no longer hidden: relatives earlier withheld as \"possibly living\" — José Olavo's bride, the son who reported Antonio Engracio Filho's death, the wives of João and Ercy Bohrer and others — are now transcribed from the records"

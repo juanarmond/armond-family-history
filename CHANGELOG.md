@@ -5,6 +5,13 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — E-0132 downgraded to hypothesis (2026-10-09)
+
+- Pedro Lourenço Machado's 1571 birth (E-0132, P-0129) rests only on PUB-0004, a published genealogy,
+  so it is now a hypothesis rather than strong evidence — the policy in research/README.md and the
+  reasoning that downgraded E-0060. The date is unchanged; a 1571 Santa Bárbara baptism image would
+  restore it. His profile already called it [COMPILED]; What's new carries a correction.
+
 ### Fixed — the share message claims only what the evidence supports (2026-10-09)
 
 - The "back to" year (and each family card's "since" year) now counts only confirmed or

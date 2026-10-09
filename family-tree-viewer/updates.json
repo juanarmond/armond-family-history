@@ -1,6 +1,16 @@
 {
- "generated": "2026-10-08T18:43:11Z",
+ "generated": "2026-10-09T12:56:51Z",
  "updates": [
+  {
+   "date": "2026-10-09",
+   "kind": "correction",
+   "title": "Correction: Pedro Lourenço Machado's birth in 1571 is now marked a hypothesis — its only source is a published genealogy, not a parish record",
+   "title_pt": "Correção: o nascimento de Pedro Lourenço Machado em 1571 agora é uma hipótese — a única fonte é uma genealogia publicada, não um registro paroquial",
+   "links": [
+    "P-0129",
+    "PUB-0004"
+   ]
+  },
   {
    "date": "2026-10-08",
    "kind": "milestone",
@@ -423,16 +433,6 @@
    "title": "São Sebastião baptism register — Isabel de Souto-Maior, daughter of Belchior da Ponte Cardoso × Mariana Fagundes, 19 September 1666",
    "title_pt": "Registo de baptismos de São Sebastião — Isabel de Souto-Maior, filha de Belchior da Ponte Cardoso × Mariana Fagundes, 19 de setembro de 1666",
    "primary": "PAR-0096",
-   "links": [
-    "P-0123"
-   ]
-  },
-  {
-   "date": "2026-09-23",
-   "kind": "document",
-   "title": "Genealogias da Ilha Terceira, Vol. IV — FAGUNDES section, § 6º (Mendes Forjaz compiler)",
-   "title_pt": "Genealogias da Ilha Terceira, Vol. IV — secção FAGUNDES, § 6º (compilado por Mendes Forjaz)",
-   "primary": "PUB-0004",
    "links": [
     "P-0123"
    ]

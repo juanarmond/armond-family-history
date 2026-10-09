@@ -3,8 +3,8 @@
 2 VERS 7.0
 1 SOUR ARMOND-FAMILY-HISTORY
 2 NAME Armond Family History
-2 VERS 2026.10.08
-1 DATE 08 OCT 2026
+2 VERS 2026.10.09
+1 DATE 09 OCT 2026
 1 SUBM @SUBM0001@
 1 LANG pt-BR
 0 @SUBM0001@ SUBM
@@ -2162,7 +2162,8 @@
 2 DATE 02 FEB 1571
 2 PLAC Santa Bárbara, Terceira, Azores
 2 SOUR @PUB0004@
-3 QUAY 2
+3 QUAY 1
+2 NOTE Unproven hypothesis (not yet confirmed by evidence).
 1 DEAT
 2 DATE 27 JAN 1655
 2 PLAC Santa Bárbara, Terceira, Azores

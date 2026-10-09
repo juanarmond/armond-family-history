@@ -8,7 +8,7 @@ place_text: Santa Bárbara, Terceira, Azores
 participants:
 - person_id: P-0129
   role: principal
-status: strong-evidence
+status: hypothesis
 source_ids:
 - PUB-0004
 notes:
@@ -18,3 +18,11 @@ notes:
     Compiled — no primary baptism image held. This is a specific date likely drawn from
     a parish baptism register that the compiler consulted; Culturacores Santa Bárbara books
     for 1571 would be the target for confirmation.
+- text: >-
+    Tier downgraded strong-evidence → hypothesis on 2026-10-09 (code review of the
+    share message, which had quoted this 1571 date as the Armond line's earliest
+    original record): the only source is PUB-0004, a published genealogy, which by
+    policy cannot confirm and, as a lone secondary source, is below the strong-evidence
+    bar of several consistent records (research/README.md, Confidence statuses) — the
+    same reasoning that downgraded E-0060 on 2026-08-13. The date stays as recorded; a
+    Santa Bárbara baptism image for 1571 would restore it.
