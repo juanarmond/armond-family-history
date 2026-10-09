@@ -671,8 +671,46 @@ class ValidateDataTests(unittest.TestCase):
         self.assert_issue(
             result,
             "error",
-            "strong-evidence conclusion is supported only by lead or "
-            "recollection sources",
+            "strong-evidence conclusion is supported only by lead, "
+            "recollection or published-narrative sources",
+        )
+
+    def test_published_genealogy_alone_is_not_strong_evidence(self) -> None:
+        # A published genealogy is evidence, but an authored narrative: alone it
+        # supports a hypothesis, never strong evidence.
+        source = self.fixture.documents["sources"]["CIV-0001"]
+        source["record_category"] = "published_genealogy"
+        source["source_form"] = "authored_narrative"
+        source["information_quality"] = "secondary"
+        source["evidence_type"] = "direct"
+        self.fixture.documents["events"]["E-0001"]["status"] = "strong-evidence"
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(
+            result,
+            "error",
+            "strong-evidence conclusion is supported only by lead, "
+            "recollection or published-narrative sources",
+        )
+
+    def test_published_genealogy_with_a_record_can_be_strong_evidence(self) -> None:
+        # The same genealogy alongside an original record clears the bar.
+        record = copy.deepcopy(self.fixture.documents["sources"]["CIV-0001"])
+        source = self.fixture.documents["sources"]["CIV-0001"]
+        source["record_category"] = "published_genealogy"
+        source["source_form"] = "authored_narrative"
+        source["information_quality"] = "secondary"
+        record["id"] = "CIV-0002"
+        record["evidence_type"] = "indirect"
+        self.fixture.documents["sources"]["CIV-0002"] = record
+        event = self.fixture.documents["events"]["E-0001"]
+        event["status"] = "strong-evidence"
+        event["source_ids"] = ["CIV-0001", "CIV-0002"]
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assertFalse(
+            [issue for issue in result.errors if "strong-evidence" in issue.message],
+            result.errors,
         )
 
     def test_certified_official_derivative_can_confirm_conclusion(self) -> None:

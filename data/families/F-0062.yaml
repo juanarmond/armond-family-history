@@ -25,7 +25,7 @@ children:
   parent_relationships:
   - parent_id: P-0123
     relationship_type: biological
-    status: strong-evidence
+    status: hypothesis
     source_ids:
     - PUB-0005
     notes:
@@ -38,12 +38,44 @@ children:
         one person. This connection is [COMPILED] strong-evidence
         pending resolution of the death-date conflict (he may have emigrated and the compiler
         lacked records of his Brazilian life, or P-0092 is the next generation).
+    - text: >-
+        Tier downgraded strong-evidence → hypothesis on 2026-10-09: the only source is PUB-0005,
+        a published genealogy, which by policy cannot confirm and, as a lone secondary source,
+        is below the strong-evidence bar of several consistent records (research/README.md,
+        Confidence statuses) — the reasoning that downgraded E-0060 and E-0132. make check now
+        rejects a strong-evidence conclusion resting only on published or authored narratives.
+        The identification of P-0092 with Vol. IX's Gaspar de Souto-Maior is itself unresolved
+        (see the conflict above), so this link is a lead to test, not a finding.
+      text_pt: >-
+        Nível rebaixado de evidência forte para hipótese em 2026-10-09: a única fonte é
+        PUB-0005, uma genealogia publicada, que pela política do arquivo não pode confirmar e,
+        sozinha, fica abaixo do patamar de evidência forte (vários registros concordantes;
+        research/README.md) — o mesmo raciocínio que rebaixou E-0060 e E-0132. O make check
+        agora rejeita uma conclusão de evidência forte apoiada só em narrativas publicadas. A
+        identificação de P-0092 com o Gaspar de Souto-Maior do Vol. IX também está por resolver
+        (ver o conflito acima); este vínculo é uma pista a testar, não uma conclusão.
   - parent_id: P-0124
     relationship_type: biological
-    status: strong-evidence
+    status: hypothesis
     source_ids:
     - PUB-0005
-    notes: []
+    notes:
+    - text: >-
+        Tier downgraded strong-evidence → hypothesis on 2026-10-09: the only source is PUB-0005,
+        a published genealogy, which by policy cannot confirm and, as a lone secondary source,
+        is below the strong-evidence bar of several consistent records (research/README.md,
+        Confidence statuses) — the reasoning that downgraded E-0060 and E-0132. make check now
+        rejects a strong-evidence conclusion resting only on published or authored narratives.
+        The identification of P-0092 with Vol. IX's Gaspar de Souto-Maior is itself unresolved
+        (see the conflict above), so this link is a lead to test, not a finding.
+      text_pt: >-
+        Nível rebaixado de evidência forte para hipótese em 2026-10-09: a única fonte é
+        PUB-0005, uma genealogia publicada, que pela política do arquivo não pode confirmar e,
+        sozinha, fica abaixo do patamar de evidência forte (vários registros concordantes;
+        research/README.md) — o mesmo raciocínio que rebaixou E-0060 e E-0132. O make check
+        agora rejeita uma conclusão de evidência forte apoiada só em narrativas publicadas. A
+        identificação de P-0092 com o Gaspar de Souto-Maior do Vol. IX também está por resolver
+        (ver o conflito acima); este vínculo é uma pista a testar, não uma conclusão.
   notes:
   - text: >-
       Gaspar de Souto-Maior (P-0092 / Gaspar Ferreira) b.23.2.1657, son of Belchior × Mariana

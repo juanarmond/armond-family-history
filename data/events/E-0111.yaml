@@ -12,9 +12,23 @@ place_text: >-
 participants:
 - person_id: P-0069
   role: principal
-status: strong-evidence
+status: hypothesis
 source_ids:
 - PUB-0003
 notes:
 - text: >-
     Birthplace Grindel, Solothurn, from the Imigrantes de Nova Friburgo / Casa Suíça compilation (PUB-0003), which gives her b.1793 Grindel. Secondary compilation → strong-evidence, not primary; her own Grindel baptism is not held.
+- text: >-
+    Tier downgraded strong-evidence → hypothesis on 2026-10-09: the only source is PUB-0003, a
+    published genealogy, which by policy cannot confirm and, as a lone secondary source, is
+    below the strong-evidence bar of several consistent records (research/README.md, Confidence
+    statuses) — the reasoning that downgraded E-0060 and E-0132. make check now rejects a
+    strong-evidence conclusion resting only on published or authored narratives. The year stays
+    as recorded; her c.1793 baptism in the Grindel register would restore it.
+  text_pt: >-
+    Nível rebaixado de evidência forte para hipótese em 2026-10-09: a única fonte é PUB-0003,
+    uma genealogia publicada, que pela política do arquivo não pode confirmar e, sozinha, fica
+    abaixo do patamar de evidência forte (vários registros concordantes; research/README.md) — o
+    mesmo raciocínio que rebaixou E-0060 e E-0132. O make check agora rejeita uma conclusão de
+    evidência forte apoiada só em narrativas publicadas. O ano fica como registrado; o batismo
+    dela por volta de 1793 no registro de Grindel o restabeleceria.

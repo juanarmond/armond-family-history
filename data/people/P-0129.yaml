@@ -34,6 +34,18 @@ notes:
     fortress of Angra do Heroísmo, the capital of Terceira; the 1642 assault was part of the
     Portuguese Restoration War actions in the Azores following independence from Spain in 1640.
     Pedro Lourenço's military role places him as an active participant in the Restoration.
+- text: >-
+    Parents not modelled, deliberately: Antão Martins Fagundes × Bárbara Dias Vieira are named only
+    by PUB-0004, a published genealogy, so they remain only a lead and get no person entities (a
+    compiled work alone never creates an ancestor; AGENTS.md). His own birth, marriage and death are
+    hypotheses on the same source since 2026-10-09. A 1571 Santa Bárbara baptism naming his parents
+    would let them be modelled. [OPEN]
+  text_pt: >-
+    Pais não modelados, de propósito: Antão Martins Fagundes × Bárbara Dias Vieira são nomeados apenas
+    por PUB-0004, uma genealogia publicada, e por isso continuam só uma pista, sem entidades de pessoa
+    (uma obra compilada, sozinha, nunca cria um antepassado; AGENTS.md). O nascimento, o casamento e a
+    morte dele são hipóteses com base na mesma fonte desde 2026-10-09. Um batismo de 1571 em Santa
+    Bárbara que nomeie os pais permitiria modelá-los. [OPEN]
 profile: >-
   ## Interesting facts
 

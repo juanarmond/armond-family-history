@@ -8,7 +8,7 @@ place_text: São Sebastião, Terceira, Azores
 participants:
 - person_id: P-0092
   role: principal
-status: strong-evidence
+status: hypothesis
 source_ids:
 - PUB-0005
 notes:
@@ -25,3 +25,20 @@ notes:
     Gaspar who also named himself Gaspar). This event records only the birth, which is
     consistent across the compilation. The Azorean death is NOT modelled as an event for P-0092
     pending resolution of this conflict.
+- text: >-
+    Tier downgraded strong-evidence → hypothesis on 2026-10-09: the only source is PUB-0005, a
+    published genealogy, which by policy cannot confirm and, as a lone secondary source, is
+    below the strong-evidence bar of several consistent records (research/README.md, Confidence
+    statuses) — the reasoning that downgraded E-0060 and E-0132. make check now rejects a
+    strong-evidence conclusion resting only on published or authored narratives. The date stays
+    as recorded; it also carries the unresolved identity conflict noted above. His 1657 São
+    Sebastião baptism would restore the date, though not by itself the identification with
+    P-0092.
+  text_pt: >-
+    Nível rebaixado de evidência forte para hipótese em 2026-10-09: a única fonte é PUB-0005,
+    uma genealogia publicada, que pela política do arquivo não pode confirmar e, sozinha, fica
+    abaixo do patamar de evidência forte (vários registros concordantes; research/README.md) — o
+    mesmo raciocínio que rebaixou E-0060 e E-0132. O make check agora rejeita uma conclusão de
+    evidência forte apoiada só em narrativas publicadas. A data fica como registrada; carrega
+    ainda o conflito de identidade não resolvido indicado acima. O batismo de 1657 em São
+    Sebastião restabeleceria a data, mas não, por si só, a identificação com P-0092.

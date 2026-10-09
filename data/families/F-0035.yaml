@@ -43,6 +43,7 @@ children:
     status: strong-evidence
     source_ids:
     - PUB-0003
+    - PAR-0029
     notes:
     - text: >-
         Deliberately left at strong-evidence in the 2026-09-24 tier audit, unlike the paternal
@@ -51,6 +52,22 @@ children:
         PUB-0003 (a published compilation, which cannot confirm) together with the couple's 1782
         Grindel marriage (PAR-0029), which establishes the marriage but does not name this
         daughter. The asymmetry between the two parent links is intended, not an oversight.
+    - text: >-
+        Reviewed 2026-10-09, when make check began rejecting strong-evidence that rests only on
+        published narratives: the tier stands, because the reasoning above already rests on two
+        records, not one — PUB-0003 names Elisabetha as the mother, and the original 1782
+        marriage act (PAR-0029) shows her married to the proven father eleven years before this
+        birth, with the couple's other children following from c.1782. PAR-0029 was relied on
+        but never cited here; it is now. Her own c.1793 Grindel baptism, naming the mother,
+        would confirm it.
+      text_pt: >-
+        Revisto em 2026-10-09, quando o make check passou a rejeitar evidência forte apoiada só
+        em narrativas publicadas: o nível se mantém, porque o raciocínio acima já se apoia em
+        dois registros, não em um — PUB-0003 nomeia Elisabetha como mãe, e o assento original de
+        casamento de 1782 (PAR-0029) a mostra casada com o pai comprovado onze anos antes deste
+        nascimento, com os outros filhos do casal a partir de c.1782. PAR-0029 sustentava a
+        conclusão mas não estava citado aqui; agora está. O batismo dela em Grindel, por volta
+        de 1793, nomeando a mãe, a confirmaria.
   notes: []
 documented_children:
 - name: Henri Wehrli

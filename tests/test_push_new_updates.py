@@ -53,6 +53,13 @@ class BuildPayloadTests(unittest.TestCase):
         redated = dict(OLDER, date="2026-09-30")
         self.assertIsNone(push.build_payload(feed(MILESTONE, OLDER), feed(MILESTONE, redated)))
 
+    def test_rewording_the_newest_entry_with_replaces_is_not_news(self) -> None:
+        reworded = dict(CORRECTION, title="Correction, widened", title_pt="Correção, ampliada", replaces=CORRECTION["title"])
+        self.assertIsNone(push.build_payload(feed(CORRECTION, OLDER), feed(reworded, OLDER)))
+        unmarked = dict(reworded)
+        del unmarked["replaces"]
+        self.assertIsNotNone(push.build_payload(feed(CORRECTION, OLDER), feed(unmarked, OLDER)), "without replaces it reads as a same-day addition")
+
     def test_a_same_day_addition_after_an_earlier_deploy_is_news(self) -> None:
         payload = push.build_payload(feed(MILESTONE, OLDER), feed(CORRECTION, MILESTONE, OLDER))
         self.assertEqual(payload["counts"], {"updates": 1, "documents": 0})

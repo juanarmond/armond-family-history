@@ -140,8 +140,12 @@ def validate_evidence_statuses(
                             )
                         )
                 elif status == "strong-evidence":
+                    # Strong evidence rests on records. A published genealogy or
+                    # other authored narrative may corroborate one, but alone —
+                    # like a tree or a recollection — it supports a hypothesis.
                     qualifies = any(
                         source.get("usage") == "evidence"
+                        and source.get("source_form") in CONFIRMING_SOURCE_FORMS
                         and source.get("record_category")
                         not in WEAK_STANDALONE_CATEGORIES
                         and source.get("evidence_type")
@@ -154,7 +158,8 @@ def validate_evidence_statuses(
                                 "error",
                                 f"{location}:{json_path(path)}",
                                 "strong-evidence conclusion is supported only by "
-                                "lead or recollection sources",
+                                "lead, recollection or published-narrative sources "
+                                "(it needs at least one original or derivative record)",
                             )
                         )
 

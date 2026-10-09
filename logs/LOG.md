@@ -5,6 +5,32 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-10-09 — Tier audit: strong evidence must rest on a record
+
+**Extends the E-0132 downgrade earlier today.** Research question: which strong-evidence conclusions
+rest on a published genealogy alone? A new `make check` rule (strong evidence needs at least one
+original or derivative record; `scripts/validation/rules.py`) listed exactly 13. Each was checked
+against every record linked to its people before changing it:
+
+- **Downgraded to hypothesis (12), each with a dated EN/PT note naming the record that would restore
+  it:** E-0133 (Pedro Lourenço Machado's death, 1655), E-0134 and the F-0065 partnership (his 1598
+  marriage), E-0131 (António Martins Fagundes's death, 1664), both F-0065 parent links (António's
+  parents), E-0135 (Gaspar de Souto-Maior's 1657 birth) and both F-0062 parent links (Gaspar
+  Ferreira's proposed Azorean parents — an identity conflict already open, STATUS item 18), E-0066 and
+  E-0067 (Johann Jacob Wehrli's and Elisabetha Borer's Nova Friburgo deaths) and E-0111 (Anna Maria
+  Werhly's 1793 birth). Sources: PUB-0003, PUB-0004, PUB-0005 only. Negative check: no held original
+  attests any of them — PAR-0060 names only Anna Maria's father; PAR-0086 names Mariana's parents, not
+  António's; PAR-0018 concerns Gaspar as a father, not his parentage.
+- **Kept at strong evidence (1):** Elisabetha Borer's maternity of Anna Maria (F-0035). The 2026-09-24
+  audit had already reasoned from PUB-0003 *and* the parents' original 1782 marriage act (PAR-0029),
+  but cited only PUB-0003; PAR-0029 is now cited on the link.
+- Narrative sync: P-0069, P-0072 and P-0073 profiles (EN+PT), the Family Story's Wehrli sentence (EN+PT)
+  and STATUS. Today's What's new correction is reworded to cover all 13, with a new `replaces` field so
+  the deploy recognises it and sends no second notification (dry run against the live feed: none).
+- Restoring records (leads for the retrieval agent): the Nova Friburgo death acts reported in its
+  research (Óbito L1 f.65 for Johann Jacob, f.82 for Elisabetha), Anna Maria's c.1793 Grindel baptism,
+  and the 1598 Santa Bárbara marriage act already located but too damaged to read.
+
 ## 2026-10-08 — Owner: only P-0001–P-0003 are living; privacy omissions of the dead restored
 
 **Amends the earlier 2026-10-08 entries**, which redacted José Olavo's bride and the 1964

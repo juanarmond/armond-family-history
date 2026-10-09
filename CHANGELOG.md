@@ -5,6 +5,20 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — strong evidence must rest on a record; 12 compiled conclusions are now hypotheses (2026-10-09)
+
+- `make check` now rejects a strong-evidence conclusion whose only sources are published or authored
+  narratives (a published genealogy, like a tree or a recollection, may corroborate but not carry it);
+  the policy line is in research/README.md. Tests cover both sides of the rule.
+- Twelve conclusions resting on PUB-0003, PUB-0004 or PUB-0005 alone are downgraded to hypothesis with
+  dated notes: E-0066, E-0067, E-0111, E-0131, E-0133, E-0134, E-0135, the F-0062 and F-0065 parent
+  links and the F-0065 partnership. Dates and links are kept, not deleted.
+- F-0035 (Elisabetha Borer's maternity) stays strong evidence: its reasoning already rested on the
+  parents' original 1782 marriage act (PAR-0029), now cited on the link.
+- Profiles (P-0069, P-0072, P-0073), the Family Story, STATUS, the GEDCOM and the What's new feed follow.
+  Today's correction is reworded to cover all 13 and carries `replaces`, a new optional feed field that
+  stops a reworded same-day entry from notifying subscribers twice.
+
 ### Fixed — records open fully on an iPhone, and books open on the cited pages (2026-10-09)
 
 - A book or thesis held as a whole PDF opened on its cover only: an iPhone draws just the first page of a

@@ -1397,10 +1397,11 @@
 3 PHRASE 1793 (Grindel; PUB-0003 compilation, year only)
 2 PLAC Grindel, Cantão de Soleure (Solothurn), Switzerland
 2 SOUR @PUB0003@
-3 QUAY 2
+3 QUAY 1
+2 NOTE Unproven hypothesis (not yet confirmed by evidence).
 1 FAMS @F0033@
 1 FAMC @F0035@
-1 NOTE Born 1793 at Grindel, Soleure (Solothurn), Switzerland [PUB-0003, strong-evidence]. Exact day of birth unknown. Fifth daughter of Johann Jacob Wehrli (P-0072) × Elisabetha Borer (P-0073); family F-0035. Emigrated to Brazil in 1819 on the Heureux Voyage, aged approximately 26. Married Laurent Borer (P-0068) on 03/07/1820 at Nova Friburgo, Rio de Janeiro. Date of death unknown.
+1 NOTE Born 1793 at Grindel, Soleure (Solothurn), Switzerland [PUB-0003, hypothesis — a published compilation alone; downgraded 2026-10-09]. Exact day of birth unknown. Fifth daughter of Johann Jacob Wehrli (P-0072) × Elisabetha Borer (P-0073); family F-0035. Emigrated to Brazil in 1819 on the Heureux Voyage, aged approximately 26. Married Laurent Borer (P-0068) on 03/07/1820 at Nova Friburgo, Rio de Janeiro. Date of death unknown.
 1 NOTE The compilation gives "doze filhos" for this couple in the Casa Suíça DB narrative and "ao menos onze filhos" in the main text — a one-child discrepancy. See F-0033 notes for the full count discussion.
 0 @P0070@ INDI
 1 NAME Vicente /Borer/
@@ -1455,7 +1456,8 @@
 2 DATE 28 MAY 1827
 2 PLAC Nova Friburgo, Rio de Janeiro, Brazil
 2 SOUR @PUB0003@
-3 QUAY 2
+3 QUAY 1
+2 NOTE Unproven hypothesis (not yet confirmed by evidence).
 1 OCCU agricultor
 2 SOUR @PUB0003@
 1 FAMC @F0036@
@@ -1480,7 +1482,8 @@
 2 DATE 10 OCT 1832
 2 PLAC Nova Friburgo, Rio de Janeiro, Brazil
 2 SOUR @PUB0003@
-3 QUAY 2
+3 QUAY 1
+2 NOTE Unproven hypothesis (not yet confirmed by evidence).
 1 FAMC @F0037@
 1 FAMS @F0035@
 1 NOTE Wife of Johann Jacob Wehrli (P-0072). Born 17 June 1760, Erschwil (Erischwyg), Soleure (Solothurn), Switzerland — PRIMARY evidence: Erschwil Catholic parish baptism register (PAR-0028, church book #68): "die 17 Junii 1760, Ecisabeth, parents Joseph Borer fusemnistr × anna Maria Borer." Parents confirmed as Joseph Borer (P-0076) × Anna Maria Borer (P-0077). She died at Nova Friburgo on 10 October 1832 (PUB-0003, E-0067).
@@ -1686,7 +1689,8 @@
 2 DATE 23 FEB 1657
 2 PLAC São Sebastião, Terceira, Azores
 2 SOUR @PUB0005@
-3 QUAY 2
+3 QUAY 1
+2 NOTE Unproven hypothesis (not yet confirmed by evidence).
 1 FAMC @F0062@
 1 FAMS @F0045@
 1 NOTE Named as the father of Joaquim José Ferreira de Toledo (P-0057) in the groom's 1783 Barbacena marriage act (PAR-0018): "filho leg.[itimo] de Gaspar Fer[reira] e de Gertrudes M[aria] [de Toledo], de [Villa] Rica" [misread — corrected 2026-10-08: the act gives the groom as "n.al e batiz.do na freg.a de Villa Rica", his birthplace, not the parents' residence]. His wife is Gertrudes Maria de Toledo (P-0093, family F-0045). No record of his own is located; birth, death and own vital records are unknown. The parentage rests on the informant-reported filiation in his son's marriage, not a birth/baptism, hence strong-evidence.
@@ -2133,7 +2137,8 @@
 2 DATE 17 APR 1664
 2 PLAC Santa Bárbara, Terceira, Azores
 2 SOUR @PUB0004@
-3 QUAY 2
+3 QUAY 1
+2 NOTE Unproven hypothesis (not yet confirmed by evidence).
 1 OCCU Capitão de ordenanças
 2 SOUR @PUB0004@
 1 FAMC @F0065@
@@ -2168,12 +2173,14 @@
 2 DATE 27 JAN 1655
 2 PLAC Santa Bárbara, Terceira, Azores
 2 SOUR @PUB0004@
-3 QUAY 2
+3 QUAY 1
+2 NOTE Unproven hypothesis (not yet confirmed by evidence).
 1 OCCU Capitão (commanded 79 men at Castelo de S. Filipe, Angra, 1642)
 2 SOUR @PUB0004@
 1 FAMS @F0065@
 1 NOTE Pedro Lourenço Machado: born 2 February 1571, Santa Bárbara, Terceira; died 27 January 1655, Santa Bárbara (PUB-0004, p.312). Married Maria Fernandes da Costa (P-0130) at Santa Bárbara on 14 June 1598; family F-0065. Father of António Martins Fagundes (P-0127). Son of Antão Martins Fagundes × Bárbara Dias Vieira (Mendes Forjaz Vol. IV, § 5º, nº 4, not read in this session). The "Machado" element of his name derives from his mother's family (Bárbara Dias Vieira's connection to the Machado family is implied by the compiler's naming pattern).
 1 NOTE Military record: "Capitão de uma companhia de 79 homens, que tomou parte no assalto do Castelo de S. Filipe, de Angra em 1642" (Vol. IV). The Castelo de S. Filipe was the main fortress of Angra do Heroísmo, the capital of Terceira; the 1642 assault was part of the Portuguese Restoration War actions in the Azores following independence from Spain in 1640. Pedro Lourenço's military role places him as an active participant in the Restoration.
+1 NOTE Parents not modelled, deliberately: Antão Martins Fagundes × Bárbara Dias Vieira are named only by PUB-0004, a published genealogy, so they remain only a lead and get no person entities (a compiled work alone never creates an ancestor; AGENTS.md). His own birth, marriage and death are hypotheses on the same source since 2026-10-09. A 1571 Santa Bárbara baptism naming his parents would let them be modelled. [OPEN]
 0 @P0130@ INDI
 1 NAME Maria Fernandes da /Costa/
 2 GIVN Maria Fernandes da
@@ -4060,6 +4067,7 @@
 3 QUAY 3
 1 SOUR @PUB0003@
 1 SOUR @PAR0060@
+1 SOUR @PAR0029@
 1 NOTE The patriarch Johann Jacob Wehrli (P-0072) and his wife Elisabetha Borer (P-0073) emigrated to Brazil in 1819 on the Heureux Voyage together with most of their children, including Anna Maria (P-0069). The patriarch died at Nova Friburgo on 28 May 1827; his wife died at Nova Friburgo on 10 October 1832.
 1 NOTE Marianne and Elise Wehrli did not embark ("não embarcaram") despite being listed on the manifest — they stayed in Europe. The Casa Suíça DB lists nine children who emigrated. Anna Maria (P-0069) was the 5th daughter.
 0 @F0036@ FAM
@@ -4406,7 +4414,8 @@
 2 DATE 14 JUN 1598
 2 PLAC Santa Bárbara, Terceira, Azores
 2 SOUR @PUB0004@
-3 QUAY 2
+3 QUAY 1
+2 NOTE Unproven hypothesis (not yet confirmed by evidence).
 1 SOUR @PUB0004@
 1 NOTE Pedro Lourenço Machado (P-0129) was a Capitão who led 79 men in the assault on the Castelo de S. Filipe, Angra, in 1642 — a significant military action documented in the compilation. His wife Maria Fernandes da Costa is also named "de Toledo" in the compilation, possibly derived from a connection to the Toledo family in Terceira (unrelated to the Minas Gerais Toledo line). Her parentage: Belchior Fernandes da Costa × Beatriz Pires (compiled, no primary image held).
 1 NOTE Mariana Fagundes (P-0124, Belchior × Mariana's wife) is the granddaughter of Pedro Lourenço Machado × Maria Fernandes da Costa, through their son António Martins Fagundes (P-0127). This makes Pedro Lourenço Machado the 4× great-grandfather of P-0092 (Gaspar Ferreira) and the 5× great-grandfather of Joaquim José Ferreira de Toledo (P-0057) if the Azorean chain is confirmed.

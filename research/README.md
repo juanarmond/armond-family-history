@@ -63,7 +63,11 @@ probate spouse-mention) is *strong-evidence*, not a coherent body.
 ### Strong evidence
 
 A conclusion supported by several consistent records or close-relative
-records, but lacking the ideal direct record.
+records, but lacking the ideal direct record. At least one of them must be a
+record (an original or a faithful copy): a published genealogy or other
+authored narrative may corroborate it, but alone — like a collaborative tree or
+a family recollection — supports at most a *hypothesis*. `make check` enforces
+this.
 
 ### Hypothesis
 

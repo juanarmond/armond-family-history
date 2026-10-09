@@ -6,7 +6,7 @@ partners:
 - person_id: P-0130
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: hypothesis
   source_ids:
   - PUB-0004
   notes:
@@ -15,21 +15,63 @@ partner_relationship:
       at Santa Bárbara, Terceira. Vol. IV (PUB-0004, p.312) records: "C. em Stª Bárbara a
       14.6.1598 com Maria Fernandes da Costa (ou de Toledo), filha de Belchior Fernandes da
       Costa e de Beatriz Pires." A primary marriage record is not held; the date is compiled.
+  - text: >-
+      Tier downgraded strong-evidence → hypothesis on 2026-10-09: the only source is PUB-0004, a
+      published genealogy, which by policy cannot confirm and, as a lone secondary source, is
+      below the strong-evidence bar of several consistent records (research/README.md,
+      Confidence statuses) — the reasoning that downgraded E-0060 and E-0132. make check now
+      rejects a strong-evidence conclusion resting only on published or authored narratives. A
+      legible reading of the 1598 Santa Bárbara marriage act would restore it.
+    text_pt: >-
+      Nível rebaixado de evidência forte para hipótese em 2026-10-09: a única fonte é PUB-0004,
+      uma genealogia publicada, que pela política do arquivo não pode confirmar e, sozinha, fica
+      abaixo do patamar de evidência forte (vários registros concordantes; research/README.md) —
+      o mesmo raciocínio que rebaixou E-0060 e E-0132. O make check agora rejeita uma conclusão
+      de evidência forte apoiada só em narrativas publicadas. Uma leitura legível do assento de
+      casamento de 1598 em Santa Bárbara o restabeleceria.
 children:
 - person_id: P-0127
   parent_relationships:
   - parent_id: P-0129
     relationship_type: biological
-    status: strong-evidence
+    status: hypothesis
     source_ids:
     - PUB-0004
-    notes: []
+    notes:
+    - text: >-
+        Tier downgraded strong-evidence → hypothesis on 2026-10-09: the only source is PUB-0004,
+        a published genealogy, which by policy cannot confirm and, as a lone secondary source,
+        is below the strong-evidence bar of several consistent records (research/README.md,
+        Confidence statuses) — the reasoning that downgraded E-0060 and E-0132. make check now
+        rejects a strong-evidence conclusion resting only on published or authored narratives.
+        His own baptism, naming his parents, would restore it.
+      text_pt: >-
+        Nível rebaixado de evidência forte para hipótese em 2026-10-09: a única fonte é
+        PUB-0004, uma genealogia publicada, que pela política do arquivo não pode confirmar e,
+        sozinha, fica abaixo do patamar de evidência forte (vários registros concordantes;
+        research/README.md) — o mesmo raciocínio que rebaixou E-0060 e E-0132. O make check
+        agora rejeita uma conclusão de evidência forte apoiada só em narrativas publicadas. O
+        batismo dele, nomeando os pais, o restabeleceria.
   - parent_id: P-0130
     relationship_type: biological
-    status: strong-evidence
+    status: hypothesis
     source_ids:
     - PUB-0004
-    notes: []
+    notes:
+    - text: >-
+        Tier downgraded strong-evidence → hypothesis on 2026-10-09: the only source is PUB-0004,
+        a published genealogy, which by policy cannot confirm and, as a lone secondary source,
+        is below the strong-evidence bar of several consistent records (research/README.md,
+        Confidence statuses) — the reasoning that downgraded E-0060 and E-0132. make check now
+        rejects a strong-evidence conclusion resting only on published or authored narratives.
+        His own baptism, naming his parents, would restore it.
+      text_pt: >-
+        Nível rebaixado de evidência forte para hipótese em 2026-10-09: a única fonte é
+        PUB-0004, uma genealogia publicada, que pela política do arquivo não pode confirmar e,
+        sozinha, fica abaixo do patamar de evidência forte (vários registros concordantes;
+        research/README.md) — o mesmo raciocínio que rebaixou E-0060 e E-0132. O make check
+        agora rejeita uma conclusão de evidência forte apoiada só em narrativas publicadas. O
+        batismo dele, nomeando os pais, o restabeleceria.
   notes: []
 documented_children:
 - name: Pedro Lourenço Machado (gen.6, que segue in Vol.IV § 6)

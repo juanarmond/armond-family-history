@@ -8,7 +8,7 @@ place_text: Santa Bárbara, Terceira, Azores
 participants:
 - person_id: P-0129
   role: principal
-status: strong-evidence
+status: hypothesis
 source_ids:
 - PUB-0004
 notes:
@@ -18,3 +18,17 @@ notes:
     Compiled — no primary death image held. He died in Santa Bárbara, same parish where
     he was born (1571) and married (1598). His wife Maria Fernandes da Costa's death date
     is not given in the compilation.
+- text: >-
+    Tier downgraded strong-evidence → hypothesis on 2026-10-09: the only source is PUB-0004, a
+    published genealogy, which by policy cannot confirm and, as a lone secondary source, is
+    below the strong-evidence bar of several consistent records (research/README.md, Confidence
+    statuses) — the reasoning that downgraded E-0060 and E-0132. make check now rejects a
+    strong-evidence conclusion resting only on published or authored narratives. The date stays
+    as recorded; his 1655 Santa Bárbara death entry would restore it.
+  text_pt: >-
+    Nível rebaixado de evidência forte para hipótese em 2026-10-09: a única fonte é PUB-0004,
+    uma genealogia publicada, que pela política do arquivo não pode confirmar e, sozinha, fica
+    abaixo do patamar de evidência forte (vários registros concordantes; research/README.md) — o
+    mesmo raciocínio que rebaixou E-0060 e E-0132. O make check agora rejeita uma conclusão de
+    evidência forte apoiada só em narrativas publicadas. A data fica como registrada; o assento
+    de óbito dele de 1655 em Santa Bárbara a restabeleceria.

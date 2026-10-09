@@ -58,13 +58,20 @@ def new_curated(old: dict[str, Any], new: dict[str, Any]) -> list[dict[str, Any]
     Curated entries carry no stable id, so "new" means: not already live AND dated no earlier
     than the newest curated entry already live. Rewording or re-dating an older entry (which
     keeps or lowers its date) therefore never re-announces it; a same-day addition still counts.
+    Rewording the newest entry looks like a same-day addition, so such an entry names the title
+    it went out under in ``replaces`` and is recognised as already live.
     """
     live = [entry for entry in _entries(old) if not _is_document(entry)]
     seen = {entry_key(entry) for entry in live}
     newest = max((str(entry.get("date") or "") for entry in live), default="")
+
+    def already_live(entry: dict[str, Any]) -> bool:
+        replaced = entry.get("replaces")
+        return entry_key(entry) in seen or (bool(replaced) and entry_key({**entry, "title": replaced}) in seen)
+
     return [
         entry for entry in _entries(new)
-        if not _is_document(entry) and entry_key(entry) not in seen and str(entry.get("date") or "") >= newest
+        if not _is_document(entry) and not already_live(entry) and str(entry.get("date") or "") >= newest
     ]
 
 
