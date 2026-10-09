@@ -1,0 +1,16 @@
+# Wrangler config for the family-notify Worker (CLI deploy path).
+# Dashboard deploy needs none of this — see README.md.
+name = "family-notify"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+# Create the namespace with:  wrangler kv namespace create SUBSCRIPTIONS
+# then paste the printed id below (and remove the placeholder).
+[[kv_namespaces]]
+binding = "SUBSCRIPTIONS"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+# The VAPID PUBLIC key is not secret. generate-keys.mjs writes it here; its private half
+# and the deploy token are set as secrets (see README.md), never committed.
+[vars]
+VAPID_PUBLIC_KEY = "BMNrna0MPrJODBm6qXpMkrNt0M-pSC5RNytyr0xVKkBord58t5PYbygmBSLVQ5p4GM5FUQ0cgwfRNnhIkATk8Io"

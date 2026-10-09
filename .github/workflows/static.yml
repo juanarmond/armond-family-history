@@ -57,7 +57,28 @@ jobs:
         # Requires Pages to be enabled once in the repo settings
         # (Settings -> Pages -> Source: "GitHub Actions"); the Actions token
         # cannot create the Pages site itself.
+        id: pages
         uses: actions/configure-pages@v5
+
+      - name: Prepare the What's new notification
+        # Compare the feed readers see now with the one about to be published and write
+        # at most ONE summary notification (curated entries only). Needs no secrets; an
+        # unreachable live feed means no notification, never the whole history.
+        run: |
+          mkdir -p push
+          if curl -fsSL "${{ steps.pages.outputs.base_url }}/updates.json" -o push/live-updates.json; then
+            python3 scripts/push_new_updates.py --old push/live-updates.json --new _site/updates.json --write push/payload.json
+          else
+            echo "Live feed unavailable; no notification will be sent."
+          fi
+
+      - name: Keep the notification for the deploy job
+        if: hashFiles('push/payload.json') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: push-payload
+          path: push/payload.json
+          retention-days: 7
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
@@ -70,7 +91,33 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
+    env:
+      # Optional: without these repository secrets the notification steps are skipped.
+      NOTIFY_ENDPOINT: ${{ secrets.NOTIFY_ENDPOINT }}
+      NOTIFY_TOKEN: ${{ secrets.NOTIFY_TOKEN }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+      - name: Fetch the notification sender
+        if: env.NOTIFY_ENDPOINT != '' && env.NOTIFY_TOKEN != ''
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts/push_new_updates.py
+          sparse-checkout-cone-mode: false
+
+      - name: Fetch the prepared notification
+        id: payload
+        if: env.NOTIFY_ENDPOINT != '' && env.NOTIFY_TOKEN != ''
+        # No artifact simply means there was nothing new to announce.
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: push-payload
+          path: push
+
+      - name: Send the What's new notification
+        # Only after the new site is live, so the tap opens the updated feed.
+        if: env.NOTIFY_ENDPOINT != '' && env.NOTIFY_TOKEN != '' && steps.payload.outcome == 'success'
+        run: python3 scripts/push_new_updates.py --send push/payload.json

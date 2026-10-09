@@ -26,6 +26,12 @@ try {
   if (override) ASSISTANT_API = override;
 } catch { /* storage unavailable — use the configured default */ }
 
+// "What's new" push notifications. Powered by a Cloudflare Worker the owner deploys (see
+// workers/family-notify/): devices register anonymously and the deploy workflow sends one
+// summary notification per publish. The opt-in bar stays hidden until the Worker's /health
+// answers with its public key, so the site is safe to deploy before the Worker exists.
+const NOTIFY_API = "https://family-notify.juan-armond.workers.dev";
+
 // Viewer key for personalisation — set from ?viewer= param or detected by the Worker when
 // someone types "I am Felipe" / "Eu sou Hugo" in the chat. Persisted for the browser session.
 const VIEWER_KEY_PARAM = (() => {
@@ -176,6 +182,7 @@ const elements = {
   closeUpdates: document.querySelector("#close-updates"),
   updatesHelp: document.querySelector("#updates-help"),
   updatesContent: document.querySelector("#updates-content"),
+  updatesNotify: document.querySelector("#updates-notify"),
   helpFab: document.querySelector("#help-fab"),
   detailHelp: document.querySelector("#detail-help"),
   guidePanel: document.querySelector("#guide-panel"),
@@ -857,6 +864,7 @@ function setLocale(locale) {
   if (elements.guidePanel && !elements.guidePanel.hidden) renderGuide();
   if (elements.storyPanel && !elements.storyPanel.hidden) openStory();
   if (elements.updatesPanel && !elements.updatesPanel.hidden) openUpdates();
+  refreshPushLanguage();
   // Re-localise the assistant's empty-state (its dynamic chat bubbles are left as-is), and
   // reload the AI-generated suggestions in the new language.
   assistantSuggestPool = null;
@@ -2420,6 +2428,7 @@ function renderGuide() {
       ["guide.updates.what.label", "guide.updates.what.body"],
       ["guide.updates.open.label", "guide.updates.open.body"],
       ["guide.updates.privacy.label", "guide.updates.privacy.body"],
+      ["guide.updates.notify.label", "guide.updates.notify.body"],
     ]);
   } else if (guideTopic === "story") {
     setGuideHead(t("guide.story.eyebrow"), t("guide.story.title"), t("guide.story.subtitle"));
@@ -2658,6 +2667,135 @@ function renderUpdates(container, entries) {
   }
 }
 
+// ---------- "What's new" notifications ----------
+// One opt-in bar at the top of the What's new panel. iPhone/iPad only allow web push for a
+// site added to the Home Screen and opened from there (iOS 16.4+), and only after a tap,
+// so the bar explains that instead of offering a button that cannot work.
+let notifyConfigPromise = null;
+
+function pushEnvironment() {
+  const ua = navigator.userAgent || "";
+  const isIos = /iphone|ipad|ipod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  const standalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+  const supported = "serviceWorker" in navigator && "PushManager" in window && "Notification" in window;
+  if (isIos && !standalone) return "ios-install";
+  return supported ? "supported" : "unsupported";
+}
+
+function notifyConfig() {
+  if (!NOTIFY_API) return Promise.resolve(null);
+  notifyConfigPromise ||= (async () => {
+    try {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 4000);
+      const response = await fetch(`${NOTIFY_API}/health`, { cache: "no-store", signal: controller.signal });
+      clearTimeout(timer);
+      const data = response.ok ? await response.json() : null;
+      return data && data.ok && data.publicKey ? data : null;
+    } catch {
+      return null;
+    }
+  })();
+  return notifyConfigPromise;
+}
+
+async function currentPushSubscription() {
+  if (pushEnvironment() !== "supported") return null;
+  // `ready` never settles if the service worker failed to register; do not hang the bar.
+  const registration = await Promise.race([
+    navigator.serviceWorker.ready,
+    new Promise((resolve) => setTimeout(() => resolve(null), 4000)),
+  ]);
+  return registration ? registration.pushManager.getSubscription() : null;
+}
+
+async function postSubscription(subscription) {
+  const response = await fetch(`${NOTIFY_API}/subscribe`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ subscription: subscription.toJSON(), lang: state.locale }),
+  });
+  if (!response.ok) throw new Error(String(response.status));
+}
+
+async function enableNotifications() {
+  const config = await notifyConfig();
+  if (!config) throw new Error("notifications unavailable");
+  const permission = await Notification.requestPermission();
+  if (permission !== "granted") return;
+  const registration = await navigator.serviceWorker.ready;
+  const subscription = (await registration.pushManager.getSubscription())
+    || (await registration.pushManager.subscribe({
+      userVisibleOnly: true,
+      applicationServerKey: b64urlToBytes(config.publicKey),
+    }));
+  await postSubscription(subscription);
+}
+
+async function disableNotifications() {
+  const subscription = await currentPushSubscription();
+  if (!subscription) return;
+  try {
+    await fetch(`${NOTIFY_API}/unsubscribe`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ endpoint: subscription.endpoint }),
+    });
+  } finally {
+    await subscription.unsubscribe();
+  }
+}
+
+// Re-register with the new language so the next notification arrives in it.
+async function refreshPushLanguage() {
+  try {
+    if (!(await notifyConfig())) return;
+    const subscription = await currentPushSubscription();
+    if (subscription) await postSubscription(subscription);
+  } catch { /* best effort — the old language stays until the next change */ }
+}
+
+function b64urlToBytes(text) {
+  const base64 = text.replace(/-/g, "+").replace(/_/g, "/");
+  const binary = atob(base64 + "=".repeat((4 - (base64.length % 4)) % 4));
+  return Uint8Array.from(binary, (char) => char.charCodeAt(0));
+}
+
+async function renderNotifyBar(message) {
+  const bar = elements.updatesNotify;
+  if (!bar) return;
+  const environment = pushEnvironment();
+  const config = environment === "unsupported" ? null : await notifyConfig();
+  if (!config) { bar.hidden = true; return; }
+  bar.textContent = "";
+  bar.hidden = false;
+  const text = document.createElement("p");
+  text.className = "updates-notify-text";
+  bar.appendChild(text);
+
+  if (environment === "ios-install") { text.textContent = t("notify.iosInstall"); return; }
+  if (Notification.permission === "denied") { text.textContent = t("notify.denied"); return; }
+
+  const subscribed = Boolean(await currentPushSubscription().catch(() => null));
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "update-chip updates-notify-button";
+  text.textContent = message || (subscribed ? t("notify.enabled") : t("notify.prompt"));
+  button.textContent = subscribed ? t("notify.disable") : t("notify.enable");
+  button.addEventListener("click", async () => {
+    button.disabled = true;
+    button.textContent = t("notify.working");
+    try {
+      if (subscribed) await disableNotifications();
+      else await enableNotifications();
+      renderNotifyBar();
+    } catch {
+      renderNotifyBar(t("notify.error"));
+    }
+  });
+  bar.appendChild(button);
+}
+
 async function openUpdates() {
   if (!elements.updatesPanel) return;
   closeStory();
@@ -2669,6 +2807,7 @@ async function openUpdates() {
     lastFocused = document.activeElement;
   }
   elements.updatesContent.textContent = t("updates.loading");
+  renderNotifyBar();
   if (opening) elements.closeUpdates.focus();
   try {
     renderUpdates(elements.updatesContent, await loadUpdates());
@@ -2890,6 +3029,13 @@ function renderActive() {
 }
 
 function bindEvents() {
+  // A tapped notification focuses this already-open window and asks for the feed.
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.addEventListener("message", (event) => {
+      if (event.data && event.data.type === "open-updates") openUpdates();
+    });
+  }
+
   // Switch layouts when the viewport crosses the mobile breakpoint (e.g. rotate).
   MOBILE_QUERY.addEventListener("change", () => {
     if (state.data) renderActive();
@@ -3113,6 +3259,15 @@ async function initialise() {
     if (elements.updatesPanel && !elements.updatesPanel.hidden) openUpdates();
     if (hash.sel && state.data.people[hash.sel]) openDetails(hash.sel);
     else syncHash();
+    // Opened from a "What's new" notification: show the feed, then drop the flag so a
+    // reload or a shared link does not reopen it.
+    const search = new URLSearchParams(location.search);
+    if (search.get("open") === "updates") {
+      openUpdates();
+      search.delete("open");
+      const query = search.toString();
+      history.replaceState(null, "", `${location.pathname}${query ? `?${query}` : ""}${location.hash}`);
+    }
     // First visit: open the guide once so a newcomer is oriented before exploring.
     // Skipped when arriving on a deep link (a shared person/record) — they came for
     // that, not the tour — and never again after it has been seen.
