@@ -28,12 +28,14 @@
 </head>
 <body>
   <header class="site-header">
+    <!-- Phone top bar: ‹ Back replaces the logo and title once you go deeper (app.js syncHeader). -->
+    <button id="header-back" class="header-back" type="button">‹ <span data-i18n="mobile.back">Back</span></button>
     <div class="site-title">
       <p class="eyebrow" data-i18n="header.eyebrow">Private research archive</p>
       <h1><button id="title-button" class="title-button" type="button" data-i18n="page.title" data-i18n-title="header.start">Four Rivers</button></h1>
       <p class="subtitle" data-i18n="header.subtitle">Four family lines, from four continents — every ancestor traced to an original record.</p>
     </div>
-    <button id="branch-chip" class="branch-chip header-branch-chip" type="button" hidden></button>
+    <div id="header-lang" class="header-lang"></div>
     <button id="header-help" class="header-help" type="button" data-i18n-aria="guide.button" data-i18n-title="guide.button" aria-label="Help" title="Help">?</button>
     <button id="home-button" class="brand-emblem" type="button" data-i18n-aria="header.start" data-i18n-title="header.start" aria-label="Choose your families" title="Choose your families">
       <svg viewBox="0 0 72 72" class="emblem" aria-hidden="true" focusable="false">

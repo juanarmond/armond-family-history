@@ -238,7 +238,6 @@ const elements = {
   assistantInput: document.querySelector("#assistant-input"),
   assistantSend: document.querySelector("#assistant-send"),
   assistantHelp: document.querySelector("#assistant-help"),
-  branchChip: document.querySelector("#branch-chip"),
   branchChipToolbar: document.querySelector("#branch-chip-toolbar"),
   branchPanel: document.querySelector("#branch-panel"),
   branchBackdrop: document.querySelector("#branch-backdrop"),
@@ -248,6 +247,8 @@ const elements = {
   titleButton: document.querySelector("#title-button"),
   detailsBack: document.querySelector("#details-back"),
   headerHelp: document.querySelector("#header-help"),
+  headerBack: document.querySelector("#header-back"),
+  headerLang: document.querySelector("#header-lang"),
 };
 
 const statusColours = {
@@ -835,9 +836,12 @@ function setSearchAll(all) {
 
 function updateSearchPlaceholder() {
   if (!elements.search) return;
-  elements.search.placeholder = state.scope.size
-    ? t("control.searchScoped", { families: scopeLabel() })
-    : t("control.searchPlaceholder");
+  // On a phone the families chip sits beside the box and names the scope, so keep it short.
+  elements.search.placeholder = isMobile()
+    ? t("control.searchShort")
+    : state.scope.size
+      ? t("control.searchScoped", { families: scopeLabel() })
+      : t("control.searchPlaceholder");
 }
 
 // Live autocomplete, each match a tappable row; works by tap (mobile) and click/Enter
@@ -1251,6 +1255,7 @@ function closeReader() {
     readerKeyHandler = null;
   }
   if (returnToAssistant) { returnToAssistant = false; openAssistant(); }
+  syncHeader();
 }
 
 // The "Portrait / Retrato" layer: opened from the "More details" link inside the
@@ -1265,6 +1270,7 @@ function closePortrait() {
     document.removeEventListener("keydown", portraitKeyHandler);
     portraitKeyHandler = null;
   }
+  syncHeader();
 }
 function openPortrait(person) {
   closePortrait();
@@ -1315,6 +1321,7 @@ function openPortrait(person) {
   panel.append(header, body);
   document.body.appendChild(panel);
   if (elements.detailsPanel) elements.detailsPanel.classList.add("with-portrait");
+  syncHeader();
 
   portraitKeyHandler = (event) => {
     if (event.key !== "Escape") return;
@@ -1639,6 +1646,7 @@ function openReader(source) {
   }
   overlay.appendChild(dialog);
   document.body.appendChild(overlay);
+  syncHeader();
   readerKeyHandler = (event) => {
     if (event.key === "Escape") closeReader();
   };
@@ -2746,6 +2754,7 @@ function syncHelpFab() {
   // (Android Chrome); hidden on iOS (no API) and when already installed.
   if (elements.installFab) elements.installFab.hidden = overlayOpen || !deferredInstallPrompt;
   syncTabbar();
+  syncHeader();
 }
 
 // topic: "nav" (default, how to move around) or "card" (explain the open person
@@ -3339,15 +3348,6 @@ function showHomeView(view) {
   scrollFocusIntoView();
 }
 
-function mobileNavButton(label, onClick, extraClass = "") {
-  const button = document.createElement("button");
-  button.type = "button";
-  button.className = `mobile-nav-btn ${extraClass}`.trim();
-  button.textContent = label;
-  button.addEventListener("click", onClick);
-  return button;
-}
-
 // A titled block holding any content (mobileSection holds rows).
 function mobileBlock(title, content) {
   const section = document.createElement("section");
@@ -3431,12 +3431,7 @@ function renderMobileHome(container) {
 function renderSurnameView(container) {
   const people = state.data.people;
   const index = surnameIndex(people, scopedPeopleIds(), state.branches.vocabulary);
-  const nav = document.createElement("div");
-  nav.className = "mobile-nav";
   const key = state.homeView.startsWith("surname:") ? state.homeView.slice(8) : null;
-  nav.append(mobileNavButton(`‹ ${t("mobile.back")}`, () => showHomeView(key ? "surnames" : null)));
-  nav.append(mobileNavButton(`⌂ ${t("mobile.home")}`, showHome, "mobile-nav-home"));
-  container.append(nav);
 
   if (key) {
     const entry = index.find((item) => item.key === key);
@@ -3466,6 +3461,7 @@ function renderMobileFocus() {
   const container = elements.mobileView;
   if (!container || !state.data) return;
   container.replaceChildren();
+  syncHeader();
   if (!state.focusId && state.branches) {
     if (state.homeView) renderSurnameView(container);
     else renderMobileHome(container);
@@ -3473,19 +3469,6 @@ function renderMobileFocus() {
   }
   const person = state.data.people[state.focusId] || state.data.people[state.rootId];
   if (!person) return;
-
-  const nav = document.createElement("div");
-  nav.className = "mobile-nav";
-  if (state.focusHistory.length) {
-    const back = document.createElement("button");
-    back.type = "button";
-    back.className = "mobile-nav-btn";
-    back.textContent = `‹ ${t("mobile.back")}`;
-    back.addEventListener("click", focusBack);
-    nav.append(back);
-  }
-  nav.append(mobileNavButton(`⌂ ${t("mobile.home")}`, showHome, "mobile-nav-home"));
-  container.append(nav);
 
   const head = document.createElement("div");
   head.className = "mobile-focus-head";
@@ -3586,7 +3569,7 @@ let afterBranchWelcome = null;
 function renderBranchChips() {
   if (!state.branches) return;
   const keys = chosenBranches().map((branch) => branch.key);
-  for (const chip of [elements.branchChip, elements.branchChipToolbar]) {
+  for (const chip of [elements.branchChipToolbar]) {
     if (!chip) continue;
     const label = document.createElement("span");
     label.className = "branch-chip-label";
@@ -3888,6 +3871,53 @@ function closeBranchPanel() {
   }
 }
 
+// ---------- Top bar (mobile) ----------
+// Every phone screen shares one frame: this top bar and the bottom tab bar. The top bar shows
+// the logo and title on a main screen and ‹ Back once you go deeper; its ? explains whichever
+// screen is on top, and the family question adds EN | PT. The layers are listed top first.
+function topLayer() {
+  if (document.querySelector(".reader-overlay")) return "reader";
+  if (elements.guidePanel && !elements.guidePanel.hidden) return "guide";
+  if (elements.branchPanel && !elements.branchPanel.hidden) return branchPanelMode === "welcome" ? "welcome" : "sheet";
+  if (document.querySelector(".portrait-panel")) return "portrait";
+  const tab = activeTab();
+  if (tab !== "family") return tab;
+  if (elements.detailsPanel && !elements.detailsPanel.hidden) return "details";
+  return "family";
+}
+
+const HELP_TOPIC = { welcome: "start", portrait: "portrait", assistant: "assistant", story: "story", updates: "updates", details: "card", family: "nav" };
+const currentHelpTopic = () => HELP_TOPIC[topLayer()] || "nav";
+
+function syncHeader() {
+  const layer = topLayer();
+  const deeper = ["reader", "guide", "portrait", "details"].includes(layer)
+    || (layer === "family" && Boolean(state.focusId || state.homeView));
+  document.body.classList.toggle("can-go-back", deeper);
+  document.body.classList.toggle("welcome-open", layer === "welcome");
+  document.body.classList.toggle("sheet-open", layer === "sheet");
+  document.body.classList.toggle("header-help-off", ["guide", "reader", "sheet"].includes(layer));
+  if (elements.headerLang) {
+    if (layer === "welcome") elements.headerLang.replaceChildren(languageSwitch());
+    else elements.headerLang.replaceChildren();
+  }
+}
+
+// ‹ Back in the top bar: close whatever is on top, or step back through the family.
+function goBack() {
+  const layer = topLayer();
+  if (layer === "reader") closeReader();
+  else if (layer === "guide") closeGuide();
+  else if (layer === "portrait") closePortrait();
+  else if (layer === "details") closeDetails();
+  else if (layer === "family") {
+    if (state.homeView) showHomeView(state.homeView.startsWith("surname:") ? "surnames" : null);
+    else if (state.focusHistory.length) focusBack();
+    else if (state.focusId) showHome();
+  }
+  syncHeader();
+}
+
 // ---------- Bottom tab bar (mobile) ----------
 // Family · What's new · Story · Ask AI, always one thumb-tap away. The panels it opens are
 // the same ones the desktop buttons open; on a phone they fill the screen above the bar.
@@ -3917,6 +3947,9 @@ function openTab(name) {
   // Switching tabs is not "going back": drop the return-to-panel flags before closing.
   returnToUpdates = false;
   returnToAssistant = false;
+  if (document.querySelector(".reader-overlay")) closeReader();
+  if (elements.guidePanel && !elements.guidePanel.hidden) closeGuide();
+  if (name !== "family") closePortrait();
   if (name !== "assistant") closeAssistant();
   if (name !== "story") closeStory();
   if (name !== "updates") closeUpdates();
@@ -3941,6 +3974,8 @@ function bindEvents() {
   // Switch layouts when the viewport crosses the mobile breakpoint (e.g. rotate).
   MOBILE_QUERY.addEventListener("change", () => {
     if (state.data) renderActive();
+    updateSearchPlaceholder();
+    syncHeader();
   });
 
   elements.rootSelect.addEventListener("change", () => {
@@ -4050,9 +4085,7 @@ function bindEvents() {
   }
 
   // Families: the header chip (mobile) and the toolbar chip (desktop) open the same sheet.
-  for (const chip of [elements.branchChip, elements.branchChipToolbar]) {
-    if (chip) chip.addEventListener("click", () => openBranchPanel("switch"));
-  }
+  if (elements.branchChipToolbar) elements.branchChipToolbar.addEventListener("click", () => openBranchPanel("switch"));
   if (elements.branchBackdrop) elements.branchBackdrop.addEventListener("click", closeBranchPanel);
   for (const tab of elements.tabs) tab.addEventListener("click", () => openTab(tab.dataset.tab));
   if (!ASSISTANT_API) elements.tabs.filter((tab) => tab.dataset.tab === "assistant").forEach((tab) => { tab.hidden = true; });
@@ -4110,7 +4143,8 @@ function bindEvents() {
     });
   }
   if (elements.helpFab) elements.helpFab.addEventListener("click", () => openGuide("nav"));
-  if (elements.headerHelp) elements.headerHelp.addEventListener("click", () => openGuide("nav"));
+  if (elements.headerHelp) elements.headerHelp.addEventListener("click", () => openGuide(currentHelpTopic()));
+  if (elements.headerBack) elements.headerBack.addEventListener("click", goBack);
   if (elements.detailHelp) elements.detailHelp.addEventListener("click", () => openGuide("card"));
   if (elements.storyHelp) elements.storyHelp.addEventListener("click", () => openGuide("story"));
   if (elements.updatesHelp) elements.updatesHelp.addEventListener("click", () => openGuide("updates"));

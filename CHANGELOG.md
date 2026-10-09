@@ -5,6 +5,20 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — one frame for every phone screen (2026-10-09)
+
+- Every phone screen now shares the same top bar and bottom bar. The top bar shows the logo and the
+  title on a main screen, or ‹ Back once you go deeper (person view, person page, More details, a
+  record, help, a surname list); its ? explains whichever screen is on top. The family question gets
+  the same bar, with EN | PT beside ?. Pages open between the bars; their own ×, ? and Ask AI buttons
+  give way, so More details now has ‹ Back instead of ×. Help and records keep the bottom bar.
+- The families chip moves beside the search box, so the full title fits on every phone and long
+  choices such as “Armond + Muniz + Bohrer” are no longer cut; the phone search placeholder is
+  “Search…”, and the results list spans the whole row.
+- The in-page ‹ Back / ⌂ Home pills are gone: ‹ Back is in the top bar, and Family in the bottom bar
+  goes home. Help texts follow.
+- Design: the concept mockup adopts the frame and adds screen 9 (More details); 36 screens recaptured.
+
 ### Changed — every help page revised against the current app (2026-10-09)
 
 - Corrected: flags show recorded nationality, not birthplace; the story's names are not links;

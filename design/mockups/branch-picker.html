@@ -191,6 +191,18 @@
   .lang-mini { display: inline-flex; padding: 2px; border-radius: 999px; background: var(--paper-2); }
   .lang-mini button { border: 0; background: none; border-radius: 999px; padding: 4px 11px; font-size: .74rem; font-weight: 700; color: var(--muted); cursor: pointer; }
   .lang-mini button[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: var(--shadow-sm); }
+
+  /* As shipped: one top bar on every screen; the families chip sits beside the search box. */
+  .scope-row { display: flex; align-items: center; gap: 8px; }
+  .scope-row .search { flex: 1; min-width: 0; }
+  .scope-row .branch-chip { flex: none; padding: 9px 10px 9px 8px; }
+  .appbar .lang-mini { float: none; margin: 0; }
+  .dp-title { padding: 12px 18px; border-bottom: 1px solid var(--rule); background: var(--paper); font-family: var(--serif); font-size: .98rem; }
+  .dp .tier { font-family: ui-monospace, monospace; font-size: .72em; font-weight: 700; padding: 0 .28em; border-radius: 3px; }
+  .dp .tier-proven { background: #e3efe6; color: #2f6b47; }
+  .dp .tier-contextual { background: #ece7f3; color: #5d4f7a; }
+  .dp ul.facts { padding-left: 1.05rem; }
+  .dp ul.facts li + li { margin-top: .5rem; }
 </style>
 </head>
 <body>
@@ -221,9 +233,8 @@
     <div class="phone" data-picker data-initial="all">
       <div class="statusbar"><span>9:41</span><span class="notch"></span><span>●●● ▮</span></div>
       <div class="screen">
-        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span></div>
+        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span><div class="lang-mini" role="group" aria-label="Language"><button type="button" data-lang="en">EN</button><button type="button" data-lang="pt">PT</button></div><span class="round-help" title="How the app works and how to install it">?</span></div>
         <div class="pad">
-          <div class="welcome-actions"><span class="round-help" title="How the app works and how to install it">?</span><div class="lang-mini" role="group" aria-label="Language"><button type="button" data-lang="en">EN</button><button type="button" data-lang="pt">PT</button></div></div>
           <h2 class="q" data-en="Which family are you exploring?" data-pt="Qual família você quer explorar?"></h2>
           <p class="lede" data-en="See everything, or follow just one family. You can change it at any time." data-pt="Veja tudo ou siga só uma família. Dá para mudar quando quiser."></p>
 
@@ -285,7 +296,7 @@
         </div>
       </div>
     </div>
-    <p class="note"><b>Everything is at the top and already selected</b>, so for you this screen is one tap: “Explore everything”. <b>?</b> explains the layout and how to install the app on iPhone and Android, <b>EN | PT</b> sets the language, and tapping the logo or the title brings this page back later (try it on the other screens). A cousin picks a side underneath, or uses <b>Select both</b> for their two grandparents. The screen shows only once. After that the choice is remembered, and a shared link skips it.</p>
+    <p class="note"><b>Everything is at the top and already selected</b>, so for you this screen is one tap: “Explore everything”. The top bar is the same as everywhere — logo and title — with <b>EN | PT</b> and <b>?</b> (the layout, and how to install the app on iPhone and Android). Tapping the logo or the title brings this page back later (try it on the other screens). A cousin picks a side underneath, or uses <b>Select both</b> for their two grandparents. The screen shows only once. After that the choice is remembered, and a shared link skips it.</p>
   </figure>
 
   <!-- 2 · HOME, EVERYTHING -->
@@ -294,10 +305,9 @@
     <div class="phone has-tabs">
       <div class="statusbar"><span>9:41</span><span class="notch"></span><span>●●● ▮</span></div>
       <div class="screen">
-        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span>
-          <span class="branch-chip"><span class="dots"><span class="dot" style="--b: var(--b-armond)"></span><span class="dot" style="--b: var(--b-engracio)"></span><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span><span data-en="Everything" data-pt="Tudo"></span> <span class="caret">▾</span></span><span class="round-help">?</span></div>
+        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span><span class="round-help">?</span></div>
         <div class="pad">
-          <div class="search">⌕ <span data-en="Search everyone…" data-pt="Buscar em todos…"></span></div>
+          <div class="scope-row"><span class="branch-chip"><span class="dots"><span class="dot" style="--b: var(--b-armond)"></span><span class="dot" style="--b: var(--b-engracio)"></span><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span><span data-en="Everything" data-pt="Tudo"></span> <span class="caret">▾</span></span><div class="search">⌕ <span data-en="Search…" data-pt="Buscar…"></span></div></div>
 
           <div class="section-label" data-en="The four rivers" data-pt="Os quatro rios"></div>
           <div class="couple">
@@ -336,10 +346,9 @@
     <div class="phone has-tabs">
       <div class="statusbar"><span>9:41</span><span class="notch"></span><span>●●● ▮</span></div>
       <div class="screen">
-        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span>
-          <span class="branch-chip"><span class="dots"><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span>Muniz + Bohrer <span class="caret">▾</span></span><span class="round-help">?</span></div>
+        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span><span class="round-help">?</span></div>
         <div class="pad">
-          <div class="search">⌕ <span data-en="Search Muniz + Bohrer…" data-pt="Buscar em Muniz + Bohrer…"></span></div>
+          <div class="scope-row"><span class="branch-chip"><span class="dots"><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span>Muniz + Bohrer <span class="caret">▾</span></span><div class="search">⌕ <span data-en="Search…" data-pt="Buscar…"></span></div></div>
 
           <div class="section-label" data-en="Where these families meet" data-pt="Onde estas famílias se encontram"></div>
           <div class="couple">
@@ -374,7 +383,7 @@
         <span class="tab"><svg><use href="#i-ask"/></svg><span data-en="Ask AI" data-pt="Perguntar"></span></span>
       </nav>
     </div>
-    <p class="note"><b>Same layout, narrowed.</b> The header chip shows the choice and opens screen 7. The home starts where the chosen families meet, so the living owner and parents never fill a cousin’s screen. Search, surnames, the tree, What’s new and the Story all follow the choice.</p>
+    <p class="note"><b>Same layout, narrowed.</b> The top bar keeps the logo, the full title and ?; the families chip sits beside the search box, shows the choice and opens screen 7. The home starts where the chosen families meet, so the living owner and parents never fill a cousin’s screen. Search, surnames, the tree, What’s new and the Story all follow the choice.</p>
   </figure>
 
   <!-- 4 · SEARCH -->
@@ -383,10 +392,9 @@
     <div class="phone has-tabs">
       <div class="statusbar"><span>9:41</span><span class="notch"></span><span>●●● ▮</span></div>
       <div class="screen">
-        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span>
-          <span class="branch-chip"><span class="dots"><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span>Muniz + Bohrer <span class="caret">▾</span></span><span class="round-help">?</span></div>
+        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span><span class="round-help">?</span></div>
         <div class="pad">
-          <div class="search">⌕ <span class="typed">Maria</span><span class="x">✕</span></div>
+          <div class="scope-row"><span class="branch-chip"><span class="dots"><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span>Muniz + Bohrer <span class="caret">▾</span></span><div class="search">⌕ <span class="typed">Maria</span><span class="x">✕</span></div></div>
           <div class="seg" role="group">
             <button aria-pressed="true" data-en="These families · 16" data-pt="Estas famílias · 16"></button>
             <button aria-pressed="false" data-en="Everyone · 28" data-pt="Todos · 28"></button>
@@ -427,8 +435,7 @@
     <div class="phone has-tabs">
       <div class="statusbar"><span>9:41</span><span class="notch"></span><span>●●● ▮</span></div>
       <div class="screen">
-        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span>
-          <span class="branch-chip"><span class="dots"><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span>Muniz + Bohrer <span class="caret">▾</span></span><span class="round-help">?</span></div>
+        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span><span class="round-help">?</span></div>
         <div class="pad">
           <h2 class="title" data-en="What's new" data-pt="Novidades"></h2>
           <div class="notify"><span data-en="🔔 Notifications are on for this device." data-pt="🔔 As notificações estão ativas neste aparelho."></span><button class="link" data-en="Turn off" data-pt="Desativar"></button></div>
@@ -459,8 +466,7 @@
     <div class="phone has-tabs">
       <div class="statusbar"><span>9:41</span><span class="notch"></span><span>●●● ▮</span></div>
       <div class="screen">
-        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span>
-          <span class="branch-chip"><span class="dots"><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span>Muniz + Bohrer <span class="caret">▾</span></span><span class="round-help">?</span></div>
+        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span><span class="round-help">?</span></div>
         <div class="pad">
           <h2 class="title" data-en="Family Story" data-pt="História da Família"></h2>
           <p class="lede" data-en="Your families’ chapters first. The whole story is always here." data-pt="Os capítulos das suas famílias primeiro. A história inteira continua aqui."></p>
@@ -497,9 +503,8 @@
     <div class="phone has-tabs" data-picker data-initial="muniz,bohrer">
       <div class="statusbar"><span>9:41</span><span class="notch"></span><span>●●● ▮</span></div>
       <div class="screen">
-        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span>
-          <span class="branch-chip"><span class="dots"><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span>Muniz + Bohrer <span class="caret">▾</span></span><span class="round-help">?</span></div>
-        <div class="pad"><div class="search">⌕ <span data-en="Search Muniz + Bohrer…" data-pt="Buscar em Muniz + Bohrer…"></span></div></div>
+        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span><span class="round-help">?</span></div>
+        <div class="pad"><div class="scope-row"><span class="branch-chip"><span class="dots"><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span>Muniz + Bohrer <span class="caret">▾</span></span><div class="search">⌕ <span data-en="Search…" data-pt="Buscar…"></span></div></div></div>
       </div>
       <div class="dim"></div>
       <div class="sheet">
@@ -562,6 +567,32 @@
       </nav>
     </div>
     <p class="note"><b>The content is unchanged</b>: same sections, fonts, colours and sources, and the ? (about this card). What changes: <b>‹ Back</b> replaces the ×, the bottom bar stays visible, a small family tag sits by the dates, the robot button is gone on the phone (Ask AI is in the bar), and the relationship reads “to the archive's owner” because the owner's name is withheld on the public site.</p>
+  </figure>
+
+  <!-- 9 · MORE DETAILS -->
+  <figure>
+    <figcaption>9 · More details <span>— ‹ Back, no ×</span></figcaption>
+    <div class="phone has-tabs">
+      <div class="statusbar"><span>9:41</span><span class="notch"></span><span>●●● ▮</span></div>
+      <div class="screen">
+        <div class="dp-top"><span class="dp-back" data-en="‹ Back" data-pt="‹ Voltar"></span><span class="round">?</span></div>
+        <div class="dp-title" data-en="Portrait — Celina Bohrer" data-pt="Retrato — Celina Bohrer"></div>
+        <div class="dp">
+          <h4 data-en="Interesting facts" data-pt="Fatos interessantes"></h4>
+          <ul class="facts">
+            <li data-en="<span class='tier tier-proven'>[PROVEN]</span> She was born at Nova Friburgo on 13 May 1899 (PAR-0057) — the same year her brother Antonio José Bohrer, aged 13, died of a snakebite (jararacussú), reported in the family newspaper <i>A Sentinella</i> edited by a Bohrer relative in Muriaé (NWS-0006)." data-pt="<span class='tier tier-proven'>[PROVEN]</span> Nasceu em Nova Friburgo em 13 de maio de 1899 (PAR-0057) — o mesmo ano em que seu irmão Antonio José Bohrer, com 13 anos, faleceu por mordida de cobra (jararacussú), relatada no jornal familiar <i>A Sentinella</i>, editado por um parente Bohrer em Muriaé (NWS-0006)."></li>
+            <li data-en="<span class='tier tier-contextual'>[CONTEXTUAL]</span> Her 1899 birth is at the exact moment of the Nova Friburgo colony's civil registration transition: before 1889 vital records were kept by the Catholic church; after 1889's Republican proclamation, civil registration became standard." data-pt="<span class='tier tier-contextual'>[CONTEXTUAL]</span> Seu nascimento em 1899 coincide com o exato momento da transição do registro civil na colônia de Nova Friburgo: antes de 1889 os registros vitais eram mantidos pela igreja católica; após a proclamação da República em 1889, o registro civil tornou-se padrão."></li>
+          </ul>
+        </div>
+      </div>
+      <nav class="tabbar">
+        <span class="tab on"><svg><use href="#i-family"/></svg><span data-en="Family" data-pt="Família"></span></span>
+        <span class="tab"><svg><use href="#i-bell"/></svg><span class="badge">3</span><span data-en="What's new" data-pt="Novidades"></span></span>
+        <span class="tab"><svg><use href="#i-book"/></svg><span data-en="Story" data-pt="História"></span></span>
+        <span class="tab"><svg><use href="#i-ask"/></svg><span data-en="Ask AI" data-pt="Perguntar"></span></span>
+      </nav>
+    </div>
+    <p class="note"><b>The same frame as every other page.</b> The top bar shows <b>‹ Back</b> (to the person page) and <b>?</b> (about the portrait); there is no ×. The bottom bar stays. Long evidence tags wrap, so the text never slides sideways.</p>
   </figure>
 
 </main>

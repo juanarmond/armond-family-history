@@ -139,11 +139,11 @@ async function shot(name) {
 await viewport("mobile");
 await open({ branch: null });
 await shot("01-welcome");
-await click(".branch-help", 800);
+await click("#header-help", 800);
 await shot("01b-start-help");
 await scroll("#guide-panel", 560);
 await shot("01c-install-steps");
-await click("#close-guide", 500);
+await click("#header-back", 500);
 await evaluate("document.querySelectorAll('.branch-both')[1].click()");
 await sleep(400);
 await shot("02-welcome-one-side");
@@ -166,7 +166,7 @@ await click(".surname-chip-all");
 await shot("08-surnames-a-z");
 await clickText(".surname-chip", "Bohrer");
 await shot("09-surname-people");
-await click(".mobile-nav-home");
+await click(".tab[data-tab=family]");
 await clickText(".mobile-row", "Celina Bohrer");
 await shot("10-person-focus");
 
@@ -181,8 +181,7 @@ await open({ branch: "all", hash: "sel=P-0004" });
 await click(".portrait-more-btn", 900);
 await scroll(".portrait-panel-body", 700);
 await shot("14-more-details");
-await evaluate("document.querySelector('.portrait-panel .portrait-close:last-child').click()");
-await sleep(400);
+await click("#header-back", 500);
 await click("#details-content .reader-open", 1800);
 await shot("15-record-reader");
 
@@ -192,7 +191,7 @@ await shot("16-whats-new");
 await click(".tab[data-tab=story]", 1500);
 await shot("17-story");
 await click(".tab[data-tab=family]", 500);
-await click("#branch-chip");
+await click("#branch-chip-toolbar");
 await shot("18-families-sheet");
 await click(".branch-panel .branch-cta", 400);
 await click("#home-button", 800);
@@ -205,11 +204,11 @@ await open({ branch: "all", lang: "pt-BR" });
 await shot("21-home-portuguese");
 
 await open({ branch: "muniz,bohrer", hash: "sel=P-0007" });
-await click("#detail-help", 800);
+await click("#header-help", 800);
 await shot("22-help-person-page");
-await click("#close-guide", 400);
+await click("#header-back", 400);
 await click(".tab[data-tab=assistant]", 900);
-await click("#assistant-help", 800);
+await click("#header-help", 800);
 await shot("23-help-assistant");
 
 // ---------- Desktop ----------

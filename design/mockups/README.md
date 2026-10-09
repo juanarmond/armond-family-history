@@ -9,7 +9,8 @@ Design references for the family-tree viewer (`family-tree-viewer/`), on phone a
 - `screens/mobile/`, `screens/desktop/` — the screenshots the two galleries show.
 - [`capture.mjs`](capture.mjs) — regenerates those screenshots from the real app.
 
-The screens were last captured on 2026-10-09, after every help page was revised against the app.
+The screens were last captured on 2026-10-09, after every phone screen moved into one frame (top bar
+with logo and title or ‹ Back, and ?; bottom bar) and the families chip moved beside the search box.
 
 ## Regenerate after a viewer change
 
