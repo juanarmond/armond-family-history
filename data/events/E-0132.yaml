@@ -1,6 +1,6 @@
 schema_version: 1
 id: E-0132
-event_type: birth
+event_type: baptism
 date:
   kind: exact
   value: "1571-02-02"
@@ -26,3 +26,15 @@ notes:
     bar of several consistent records (research/README.md, Confidence statuses) — the
     same reasoning that downgraded E-0060 on 2026-08-13. The date stays as recorded; a
     Santa Bárbara baptism image for 1571 would restore it.
+- text: >-
+    Event type corrected birth → baptism on 2026-10-09, from the full transcription of PUB-0004
+    p.312: the book prints "B. em Stª Bárbara a 2.2.1571", and on the same pages it writes "b."
+    for baptised (e.g. "André Machado Fagundes, b. em Stª Bárbara a 4.12.1612") and "n." for
+    born (e.g. "Manuel, n. nas Lajes a 22.11.1670"). The earlier Portuguese transcription had
+    turned the "B." into "N.". Status stays hypothesis.
+  text_pt: >-
+    Tipo de evento corrigido de nascimento para batismo em 2026-10-09, a partir da transcrição
+    integral de PUB-0004, p. 312: o livro imprime "B. em Stª Bárbara a 2.2.1571", e nas mesmas
+    páginas escreve "b." para batizado (p. ex. "André Machado Fagundes, b. em Stª Bárbara a
+    4.12.1612") e "n." para nascido (p. ex. "Manuel, n. nas Lajes a 22.11.1670"). A transcrição
+    portuguesa anterior tinha trocado o "B." por "N.". O nível continua hipótese.

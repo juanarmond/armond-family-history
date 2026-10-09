@@ -21,7 +21,7 @@ occupations:
   - PUB-0004
 notes:
 - text: >-
-    Pedro Lourenço Machado: born 2 February 1571, Santa Bárbara, Terceira; died 27 January
+    Pedro Lourenço Machado: baptised 2 February 1571, Santa Bárbara, Terceira; died 27 January
     1655, Santa Bárbara (PUB-0004, p.312). Married Maria Fernandes da Costa (P-0130) at
     Santa Bárbara on 14 June 1598; family F-0065. Father of António Martins Fagundes (P-0127).
     Son of Antão Martins Fagundes × Bárbara Dias Vieira (Mendes Forjaz Vol. IV, § 5º, nº 4,
@@ -37,19 +37,19 @@ notes:
 - text: >-
     Parents not modelled, deliberately: Antão Martins Fagundes × Bárbara Dias Vieira are named only
     by PUB-0004, a published genealogy, so they remain only a lead and get no person entities (a
-    compiled work alone never creates an ancestor; AGENTS.md). His own birth, marriage and death are
+    compiled work alone never creates an ancestor; AGENTS.md). His own baptism, marriage and death are
     hypotheses on the same source since 2026-10-09. A 1571 Santa Bárbara baptism naming his parents
     would let them be modelled. [OPEN]
   text_pt: >-
     Pais não modelados, de propósito: Antão Martins Fagundes × Bárbara Dias Vieira são nomeados apenas
     por PUB-0004, uma genealogia publicada, e por isso continuam só uma pista, sem entidades de pessoa
-    (uma obra compilada, sozinha, nunca cria um antepassado; AGENTS.md). O nascimento, o casamento e a
+    (uma obra compilada, sozinha, nunca cria um antepassado; AGENTS.md). O batismo, o casamento e a
     morte dele são hipóteses com base na mesma fonte desde 2026-10-09. Um batismo de 1571 em Santa
     Bárbara que nomeie os pais permitiria modelá-los. [OPEN]
 profile: >-
   ## Interesting facts
 
-  - **[COMPILED]** He is the deepest-dated ancestor in this entire archive: born at Santa Bárbara, Terceira, on **2 February 1571**, died there on **27 January 1655** — a week short of 84 years, and a life that opens nine years before the Spanish Habsburgs took the Portuguese crown and closes fifteen years after they lost it.
+  - **[COMPILED]** He is the deepest-dated ancestor in this entire archive: baptised at Santa Bárbara, Terceira, on **2 February 1571** (the book prints "B.", its abbreviation for baptised, distinct from "n." for born), died there on **27 January 1655** — a week short of 84 years after that baptism, and a life that opens nine years before the Spanish Habsburgs took the Portuguese crown and closes fifteen years after they lost it.
 
   - **[COMPILED]** Mendes Forjaz credits him with the single most concrete act recorded of anyone in this Azorean group: "*Capitão de uma companhia de 79 homens, que tomou parte no assalto do Castelo de S. Filipe, de Angra em 1642*" — captain of a company of 79 men in the operation against the Castelo de São Filipe at Angra.
 
@@ -57,17 +57,17 @@ profile: >-
 
   - **[INFERRED — a real problem, not a flourish]** If he was born in 1571, he was **70 or 71 years old** during that siege. Ordenanças captaincies were local appointments held by a parish's senior householders rather than field commands **[CONTEXTUAL]**, so an old captain is not impossible — but the age is striking enough that the alternative should stay open: the compiler may have attached the company to the head of the family rather than to the man who marched with it.
 
-  - **[COMPILED]** He married at Santa Bárbara on **14 June 1598**, and Mendes Forjaz lists **nine children** of that marriage — among them a Franciscan friar, a beneficed priest, a captain of *ordenanças* and an ensign. A household that placed its sons systematically.
+  - **[COMPILED]** He married at Santa Bárbara on **14 June 1598**, and Mendes Forjaz lists **ten children** of that marriage — among them a Franciscan friar, a beneficed priest, a captain of *ordenanças* and an ensign. A household that placed its sons systematically.
 
   - **[PROVEN — a bounded negative]** His marriage act has been hunted and not read. Pages 0097–0099 of the Santa Bárbara *casamentos* book C-1560-1606 were browsed via the Culturacores CDN in the 2026-09-23 pass; they cover April 1597 to June 1598 and therefore bracket 14 June 1598 exactly. The act is in that window, but physical damage makes the names illegible at the delivered resolution. Recorded on event E-0134. **This is a failed read, not an absence.**
 
   ## Identity
 
-  **Pedro Lourenço Machado** **[COMPILED, PUB-0004 p.312]** — born Santa Bárbara, Terceira, 2 February 1571; died Santa Bárbara, 27 January 1655. *Capitão*. Son of **Antão Martins Fagundes** × **Bárbara Dias Vieira** (Vol. IV § 5º, nº 4 — a section not read, and not modelled here). Married **Maria Fernandes da Costa** (P-0130) at Santa Bárbara, 14 June 1598; family F-0065. Father of **António Martins Fagundes** (P-0127).
+  **Pedro Lourenço Machado** **[COMPILED, PUB-0004 p.312]** — baptised Santa Bárbara, Terceira, 2 February 1571; died Santa Bárbara, 27 January 1655. *Capitão*. Son of **Antão Martins Fagundes** × **Bárbara Dias Vieira** (Vol. IV § 5º, nº 4 — a section not read, and not modelled here). Married **Maria Fernandes da Costa** (P-0130) at Santa Bárbara, 14 June 1598; family F-0065. Father of **António Martins Fagundes** (P-0127).
 
   - **Nationality:** Portuguese (Azores, Crown territory)
   - **Name:** the "Machado" element comes from his mother's side, not his father's — his father is recorded as Antão Martins Fagundes **[COMPILED]**. Three of the surnames in play here (Machado, Martins, Fagundes) redistribute across his children in no fixed pattern.
-  - **Evidence standing:** entirely **[COMPILED]**. No original act naming him is held. His birth, marriage and death are three precise dates from one secondary source — precise because the compiler was reading parish registers we have not yet reached, not because we have verified them.
+  - **Evidence standing:** entirely **[COMPILED]**. No original act naming him is held. His baptism, marriage and death are three precise dates from one secondary source — precise because the compiler was reading parish registers we have not yet reached, not because we have verified them.
 
   **Position in the tree.** Along the modelled chain P-0129 → P-0127 → P-0124 → P-0092 → P-0057 → P-0056 → P-0054 → P-0017 → P-0008 → P-0004, Pedro Lourenço stands nine generations above Geraldo Paz Armond (P-0004) — his 7th-great-grandfather — and eleven generations above the family's present living generation. He is, on the current modelling, the earliest-born person in the tree. The P-0124 → P-0092 step is **[COMPILED]** only and depends on the unresolved "two Gaspars" question; if P-0092 is the following generation, every degree here moves back one.
 
@@ -91,13 +91,13 @@ profile: >-
 
   ## What we can extrapolate
 
-  **Nine children on a full island: the arithmetic that eventually produced the emigration [INFERRED + CONTEXTUAL].** Terceira had been settled since about 1450 and by 1600 carried a dense population on finite land. Entailed estates (*morgadios*) passed intact to eldest sons under primogeniture; non-entailed property divided among all children and fragmented fast. Either regime leaves the same problem for a captain with nine surviving children, and the compiler's own list shows every available answer being used at once: the Church took two sons, the militia absorbed two more, daughters married into Lajes, Conceição and other parishes, and a grandson is recorded simply as having left Terceira. Three generations later, descendants of this household are on the Minas Gerais frontier. The emigration is not a rupture; it is the last term in a sequence that starts in his lifetime.
+  **Ten children on a full island: the arithmetic that eventually produced the emigration [INFERRED + CONTEXTUAL].** Terceira had been settled since about 1450 and by 1600 carried a dense population on finite land. Entailed estates (*morgadios*) passed intact to eldest sons under primogeniture; non-entailed property divided among all children and fragmented fast. Either regime leaves the same problem for a captain with nine surviving children, and the compiler's own list shows every available answer being used at once: the Church took two sons, the militia absorbed two more, daughters married into Lajes, Conceição and other parishes, and a grandson is recorded simply as having left Terceira. Three generations later, descendants of this household are on the Minas Gerais frontier. The emigration is not a rupture; it is the last term in a sequence that starts in his lifetime.
 
   **Status without a wage base — the pattern that repeats for three hundred years [INFERRED + CONTEXTUAL].** Everything this family is credited with is *office* — captaincies, ensigncies, benefices. None of it paid, none of it inherited. It is a striking anticipation of what the same bloodline does in Brazil generations later, where the family's proudest posts are again unpaid appointments sitting on top of no income. A line that reproduces standing rather than capital is permanently exposed: it looks secure until the land behind it goes, and then it falls in one generation.
 
   **His life is a perfect frame for the Habsburg period [CONTEXTUAL].** Born 1571, he was twelve when the 1583 invasion finally broke Terceira's resistance to Philip II — the island had been the last part of the Portuguese realm to hold out for D. António, Prior do Crato. The Spanish crown then built the Castelo de São Filipe above Angra to garrison the island it had had to conquer. He was 69 at the Restoration of 1640, and the fortress his company is credited with besieging in 1641–42 was the same one built to hold his island down. He died in 1655, fifteen years into a restored kingdom, in the parish he was born in.
 
-  **The compiler's precision is a lead, not a proof [INFERRED].** Mendes Forjaz gives day-exact dates for his birth, marriage and death. Dates that precise come from parish registers the compiler had in front of him. Two of those three books should therefore exist — the Santa Bárbara *baptismos* for 1571 and the *óbitos* for 1655 — and neither has yet been reached in the digitised series. That is the strongest argument that the gaps below are retrieval gaps, not archival ones.
+  **The compiler's precision is a lead, not a proof [INFERRED].** Mendes Forjaz gives day-exact dates for his baptism, marriage and death. Dates that precise come from parish registers the compiler had in front of him. Two of those three books should therefore exist — the Santa Bárbara *baptismos* for 1571 and the *óbitos* for 1655 — and neither has yet been reached in the digitised series. That is the strongest argument that the gaps below are retrieval gaps, not archival ones.
 
   ## Open questions
 
@@ -111,7 +111,7 @@ profile: >-
 
   ## Sources held (this repository)
 
-  - **PUB-0004** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IV, FAGUNDES § 6º, pp. 312–313: his birth, marriage and death dates, his captaincy and the 1642 company, his parents, his wife and her parents, and his nine children. *Secondary, compiled — the sole source for everything about him.*
+  - **PUB-0004** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IV, FAGUNDES § 6º, pp. 312–313: his baptism, marriage and death dates, his captaincy and the 1642 company, his parents, his wife and her parents, and his ten children. *Secondary, compiled — the sole source for everything about him.*
   - *(No primary image naming him is held. The bounded-negative search of Santa Bárbara* casamentos *C-1560-1606 pp.0097–0099 is recorded on event E-0134.)*
 
   ## Regional and migration context
@@ -132,7 +132,7 @@ profile: >-
 profile_pt: >-
   ## Fatos interessantes
 
-  - **[COMPILED]** É o ancestral com datas mais recuadas de todo este arquivo: nascido em Santa Bárbara, Terceira, a **2 de fevereiro de 1571**, e ali falecido a **27 de janeiro de 1655** — a uma semana de fazer 84 anos, numa vida que abre nove anos antes de os Habsburgos espanhóis tomarem a coroa portuguesa e fecha quinze anos depois de a perderem.
+  - **[COMPILED]** É o ancestral com datas mais recuadas de todo este arquivo: batizado em Santa Bárbara, Terceira, a **2 de fevereiro de 1571** (o livro imprime "B.", sua abreviatura de batizado, distinta de "n." para nascido), e ali falecido a **27 de janeiro de 1655** — a uma semana de completar 84 anos desse batismo, numa vida que abre nove anos antes de os Habsburgos espanhóis tomarem a coroa portuguesa e fecha quinze anos depois de a perderem.
 
   - **[COMPILED]** Mendes Forjaz credita-lhe o acto mais concreto registado para quem quer que seja deste grupo açoriano: "*Capitão de uma companhia de 79 homens, que tomou parte no assalto do Castelo de S. Filipe, de Angra em 1642*".
 
@@ -140,17 +140,17 @@ profile_pt: >-
 
   - **[INFERRED — problema real, não floreado]** Se nasceu em 1571, tinha **70 ou 71 anos** durante esse cerco. As capitanias de ordenanças eram nomeações locais detidas pelos moradores mais graduados de uma freguesia, e não comandos de campanha **[CONTEXTUAL]**, pelo que um capitão idoso não é impossível — mas a idade é bastante notável para manter aberta a alternativa: o compilador pode ter atribuído a companhia ao chefe da família e não ao homem que de facto marchou com ela.
 
-  - **[COMPILED]** Casou em Santa Bárbara a **14 de junho de 1598**, e Mendes Forjaz lista **nove filhos** desse casamento — entre eles um frade franciscano, um padre beneficiado, um capitão de *ordenanças* e um alferes. Uma casa que colocava os filhos com método.
+  - **[COMPILED]** Casou em Santa Bárbara a **14 de junho de 1598**, e Mendes Forjaz lista **dez filhos** desse casamento — entre eles um frade franciscano, um padre beneficiado, um capitão de *ordenanças* e um alferes. Uma casa que colocava os filhos com método.
 
   - **[PROVEN — negativo delimitado]** O assento do casamento foi procurado e não foi lido. As páginas 0097–0099 do livro de *casamentos* de Santa Bárbara C-1560-1606 foram percorridas no CDN da Culturacores na passagem de 2026-09-23; cobrem abril de 1597 a junho de 1598 e, portanto, balizam exactamente 14 de junho de 1598. O assento está nessa janela, mas os danos físicos tornam os nomes ilegíveis na resolução entregue. Registado no evento E-0134. **É uma leitura falhada, não uma ausência.**
 
   ## Identidade
 
-  **Pedro Lourenço Machado** **[COMPILED, PUB-0004 p.312]** — nascido em Santa Bárbara, Terceira, a 2 de fevereiro de 1571; falecido em Santa Bárbara a 27 de janeiro de 1655. *Capitão*. Filho de **Antão Martins Fagundes** × **Bárbara Dias Vieira** (Vol. IV § 5º, nº 4 — secção não lida e aqui não modelada). Casou com **Maria Fernandes da Costa** (P-0130) em Santa Bárbara, a 14 de junho de 1598; família F-0065. Pai de **António Martins Fagundes** (P-0127).
+  **Pedro Lourenço Machado** **[COMPILED, PUB-0004 p.312]** — batizado em Santa Bárbara, Terceira, a 2 de fevereiro de 1571; falecido em Santa Bárbara a 27 de janeiro de 1655. *Capitão*. Filho de **Antão Martins Fagundes** × **Bárbara Dias Vieira** (Vol. IV § 5º, nº 4 — secção não lida e aqui não modelada). Casou com **Maria Fernandes da Costa** (P-0130) em Santa Bárbara, a 14 de junho de 1598; família F-0065. Pai de **António Martins Fagundes** (P-0127).
 
   - **Nacionalidade:** portuguesa (Açores, território da Coroa)
   - **Nome:** o elemento "Machado" vem do lado materno, não do paterno — o pai está registado como Antão Martins Fagundes **[COMPILED]**. Três dos apelidos em jogo (Machado, Martins, Fagundes) redistribuem-se pelos filhos sem padrão fixo.
-  - **Estatuto de evidência:** inteiramente **[COMPILED]**. Nenhum assento original que o nomeie está disponível. Nascimento, casamento e óbito são três datas precisas de uma única fonte secundária — precisas porque o compilador lia registos paroquiais a que ainda não chegámos, e não porque as tenhamos verificado.
+  - **Estatuto de evidência:** inteiramente **[COMPILED]**. Nenhum assento original que o nomeie está disponível. Batismo, casamento e óbito são três datas precisas de uma única fonte secundária — precisas porque o compilador lia registos paroquiais a que ainda não chegámos, e não porque as tenhamos verificado.
 
   **Posição na árvore.** Pela cadeia modelada P-0129 → P-0127 → P-0124 → P-0092 → P-0057 → P-0056 → P-0054 → P-0017 → P-0008 → P-0004, Pedro Lourenço está nove gerações acima de Geraldo Paz Armond (P-0004) — seu 7.º bisavô (*7th-great-grandfather*) — e onze gerações acima da atual geração viva da família. É, na modelação actual, a pessoa nascida mais cedo em toda a árvore. O passo P-0124 → P-0092 é apenas **[COMPILED]** e depende da questão não resolvida dos "dois Gaspares"; se P-0092 for a geração seguinte, todos os graus aqui recuam um.
 
@@ -174,13 +174,13 @@ profile_pt: >-
 
   ## O que podemos extrapolar
 
-  **Nove filhos numa ilha cheia: a aritmética que acabou por produzir a emigração [INFERRED + CONTEXTUAL].** A Terceira estava povoada desde cerca de 1450 e, em 1600, sustentava população densa em terra finita. Os bens vinculados (*morgadios*) passavam intactos aos primogénitos por primogenitura; a propriedade não vinculada dividia-se por todos e fragmentava-se depressa. Qualquer dos regimes deixa o mesmo problema a um capitão com nove filhos sobreviventes, e a própria lista do compilador mostra todas as respostas disponíveis a serem usadas ao mesmo tempo: a Igreja levou dois filhos, a milícia absorveu mais dois, as filhas casaram para as Lajes, a Conceição e outras freguesias, e um neto está registado apenas como tendo saído da Terceira. Três gerações depois, descendentes desta casa estão na fronteira das Minas Gerais. A emigração não é ruptura; é o último termo de uma sequência que começa no tempo dele.
+  **Dez filhos numa ilha cheia: a aritmética que acabou por produzir a emigração [INFERRED + CONTEXTUAL].** A Terceira estava povoada desde cerca de 1450 e, em 1600, sustentava população densa em terra finita. Os bens vinculados (*morgadios*) passavam intactos aos primogénitos por primogenitura; a propriedade não vinculada dividia-se por todos e fragmentava-se depressa. Qualquer dos regimes deixa o mesmo problema a um capitão com nove filhos sobreviventes, e a própria lista do compilador mostra todas as respostas disponíveis a serem usadas ao mesmo tempo: a Igreja levou dois filhos, a milícia absorveu mais dois, as filhas casaram para as Lajes, a Conceição e outras freguesias, e um neto está registado apenas como tendo saído da Terceira. Três gerações depois, descendentes desta casa estão na fronteira das Minas Gerais. A emigração não é ruptura; é o último termo de uma sequência que começa no tempo dele.
 
   **Estatuto sem base salarial — o padrão que se repete por trezentos anos [INFERRED + CONTEXTUAL].** Tudo o que se credita a esta família é *cargo* — capitanias, alferesias, benefícios. Nada pagava, nada se herdava. É uma antecipação notável do que a mesma linhagem faz no Brasil, gerações depois, onde os postos de que a família mais se orgulha são de novo nomeações sem soldo assentes sobre rendimento nenhum. Uma linha que reproduz posição em vez de capital fica permanentemente exposta: parece segura até a terra por trás desaparecer, e depois cai numa geração.
 
   **A vida dele emoldura com perfeição o período habsburgo [CONTEXTUAL].** Nascido em 1571, tinha doze anos quando a invasão de 1583 quebrou finalmente a resistência da Terceira a Filipe II — a ilha fora a última parcela do reino a sustentar D. António, Prior do Crato. A coroa espanhola ergueu então o Castelo de São Filipe, sobre Angra, para guarnecer a ilha que tivera de conquistar. Tinha 69 anos na Restauração de 1640, e a fortaleza que a sua companhia é creditada de cercar em 1641–42 era a mesma construída para manter a sua ilha sujeita. Morreu em 1655, quinze anos dentro de um reino restaurado, na freguesia onde nasceu.
 
-  **A precisão do compilador é pista, não prova [INFERRED].** Mendes Forjaz dá datas ao dia para nascimento, casamento e óbito. Datas assim vêm de registos paroquiais que o compilador tinha à frente. Dois desses três livros deveriam, portanto, existir — os *baptismos* de Santa Bárbara de 1571 e os *óbitos* de 1655 — e nenhum foi ainda alcançado na série digitalizada. É o argumento mais forte de que as lacunas abaixo são de recolha, e não de arquivo.
+  **A precisão do compilador é pista, não prova [INFERRED].** Mendes Forjaz dá datas ao dia para batismo, casamento e óbito. Datas assim vêm de registos paroquiais que o compilador tinha à frente. Dois desses três livros deveriam, portanto, existir — os *baptismos* de Santa Bárbara de 1571 e os *óbitos* de 1655 — e nenhum foi ainda alcançado na série digitalizada. É o argumento mais forte de que as lacunas abaixo são de recolha, e não de arquivo.
 
   ## Questões em aberto
 
@@ -194,7 +194,7 @@ profile_pt: >-
 
   ## Fontes disponíveis (neste repositório)
 
-  - **PUB-0004** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IV, FAGUNDES § 6º, pp. 312–313: datas de nascimento, casamento e óbito, a capitania e a companhia de 1642, os pais, a mulher e os pais dela, e os nove filhos. *Secundária, compilada — fonte única para tudo o que lhe diz respeito.*
+  - **PUB-0004** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IV, FAGUNDES § 6º, pp. 312–313: datas de batismo, casamento e óbito, a capitania e a companhia de 1642, os pais, a mulher e os pais dela, e os dez filhos. *Secundária, compilada — fonte única para tudo o que lhe diz respeito.*
   - *(Nenhuma imagem primária o nomeia. A busca de negativo delimitado nos* casamentos *de Santa Bárbara C-1560-1606 pp.0097–0099 está registada no evento E-0134.)*
 
   ## Contexto regional e migratório

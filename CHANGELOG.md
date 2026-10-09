@@ -5,6 +5,25 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — the five published works' cited pages transcribed in full, and what that corrected (2026-10-09)
+
+- Owner directive, now in research/README.md: for a book or thesis, "full" means every line of each
+  cited page. PUB-0001 (contents + ff. 151–156, the whole of section 4.6), PUB-0002 (ff. 54–55,
+  150–155, 218), PUB-0003 (pp. 300–303 + three Casa Suíça entries), PUB-0004 (pp. 312–313) and PUB-0005
+  (pp. 257–261) are transcribed verbatim against the page images, EN/PT at parity; `show_pages` lists the
+  same pages so the reader shows what the transcription covers.
+- Corrections the full text forced: E-0132 (Pedro Lourenço Machado, 1571) and E-0135 (Gaspar de
+  Souto-Maior, 1657) are baptisms, not births ("b." in these books); Gaspar's 1727 death has no place
+  printed, the captaincy and 1687 marriage were a cousin's, and his 1694 remarriage and 1698–1701
+  baptisms on Terceira make the P-0092 identification weaker; Mariana's cross-reference is SOUTO-MAIOR
+  § 1º, not § 5º; Pedro had ten children, not nine; in F-0033 a phantom "José Joaquim Borer" is removed
+  (BORER III's grandson, misread), Thereza is n. 25/09/1838 and Justina n. 04/06/1827; BORER III is not
+  "unrelated" (Johann Borer married Anna Maria's sister); PUB-0001's and PUB-0002's abstracts now say
+  what the pages say.
+- New lead (not modelled): Lacerda quotes the Barbacena patriarch Francisco Ferreira Armonde's 1751 will
+  naming his parents Gaspar de Souto Maior and Margarida das Candeyas of São Sebastião, Terceira; his
+  footnote 74 (citing an online list post) makes her the first wife of Vol. IX's Gaspar b.1657.
+
 ### Changed — strong evidence must rest on a record; 12 compiled conclusions are now hypotheses (2026-10-09)
 
 - `make check` now rejects a strong-evidence conclusion whose only sources are published or authored

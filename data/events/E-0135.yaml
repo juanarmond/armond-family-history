@@ -1,6 +1,6 @@
 schema_version: 1
 id: E-0135
-event_type: birth
+event_type: baptism
 date:
   kind: exact
   value: "1657-02-23"
@@ -13,17 +13,22 @@ source_ids:
 - PUB-0005
 notes:
 - text: >-
-    Birth of Gaspar de Souto-Maior (P-0092, Gaspar Ferreira) on 23 February 1657, S. Sebastião,
+    Birth [corrected 2026-10-09: baptism — "b." is the book's abbreviation for baptised] of
+    Gaspar de Souto-Maior (P-0092, Gaspar Ferreira) on 23 February 1657, S. Sebastião,
     Terceira. Source: Mendes Forjaz Vol. IX (PUB-0005, p.261): "Gaspar de Souto-Maior, b. em
     S. Sebastião a 23.2.1657 e f. a 2.12.1727." Son of Belchior da Ponte Cardoso (P-0123) ×
     Mariana Fagundes (P-0124), family F-0062. Compiled — no primary baptism image held.
 - text: >-
-    ⚠ The compiled death date (f. 2.12.1727 in S. Sebastião) conflicts with P-0092's documented
-    presence in Villa Rica, Minas Gerais (PAR-0018, son Joaquim José marrying in 1783). The
+    ⚠ The compiled death date (f. 2.12.1727 in S. Sebastião [corrected 2026-10-09: the book
+    prints no place]) conflicts with P-0092's documented
+    presence in Villa Rica, Minas Gerais [corrected 2026-10-09: PAR-0018 places only the son's
+    birth and baptism at Villa Rica, not Gaspar himself] (PAR-0018, son Joaquim José marrying in 1783). The
     conflict is unresolved: either the 1727 date is an error (Gaspar emigrated and the compiler
     lacked records of his Brazilian life), or P-0092 is the next generation (a son of this
-    Gaspar who also named himself Gaspar). This event records only the birth, which is
-    consistent across the compilation. The Azorean death is NOT modelled as an event for P-0092
+    Gaspar who also named himself Gaspar). This event records only the birth [corrected
+    2026-10-09: baptism], which is
+    consistent across the compilation. The Azorean death [corrected 2026-10-09: the compiled
+    death; no place is printed] is NOT modelled as an event for P-0092
     pending resolution of this conflict.
 - text: >-
     Tier downgraded strong-evidence → hypothesis on 2026-10-09: the only source is PUB-0005, a
@@ -42,3 +47,24 @@ notes:
     evidência forte apoiada só em narrativas publicadas. A data fica como registrada; carrega
     ainda o conflito de identidade não resolvido indicado acima. O batismo de 1657 em São
     Sebastião restabeleceria a data, mas não, por si só, a identificação com P-0092.
+- text: >-
+    Corrected 2026-10-09 after a full verbatim transcription of Vol. IX pp. 257–261 (PUB-0005):
+    event_type changed from birth to baptism. The entry reads "6 Gaspar de Souto-Maior, b. em S.
+    Sebastião a 23.2.1657 e f. a 2.12.1727", and the book's own abbreviation key uses "b." for
+    baptizado and "n." for nasceu, so 23.2.1657 is his baptism; no birth date is printed. The
+    book prints no place for the 2.12.1727 death, so the earlier notes here that placed it "in S.
+    Sebastião" were wrong. The same entry records a second marriage at São Sebastião on 8.2.1694
+    to Maria Mendes de Borba and three children baptised there in 1698–1701, which places him on
+    Terceira into his forties and makes the identification with P-0092 weaker; it stays an
+    unresolved hypothesis. Status, date and sources are unchanged.
+  text_pt: >-
+    Corrigido em 2026-10-09 após a transcrição integral e literal das pp. 257–261 do Vol. IX
+    (PUB-0005): event_type passou de birth (nascimento) para baptism (batismo). A entrada diz "6
+    Gaspar de Souto-Maior, b. em S. Sebastião a 23.2.1657 e f. a 2.12.1727", e a chave de
+    abreviaturas do próprio livro usa "b." para baptizado e "n." para nasceu; logo, 23.2.1657 é
+    o batismo, e nenhuma data de nascimento é impressa. O livro não imprime local para o óbito de
+    2.12.1727 (sem local impresso), pelo que as notas anteriores que o situavam "em S. Sebastião"
+    estavam erradas. A mesma entrada registra um segundo casamento em São Sebastião a 8.2.1694
+    com Maria Mendes de Borba e três filhos ali batizados em 1698–1701, o que o situa na Terceira
+    até passados os quarenta anos e enfraquece a identificação com P-0092; ela continua uma
+    hipótese não resolvida. Estatuto, data e fontes inalterados.

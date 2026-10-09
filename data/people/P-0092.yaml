@@ -38,17 +38,6 @@ notes:
     birthplace for Gaspar himself. [Corrected 2026-10-08 on a direct image re-read:
     the clause was earlier transcribed "de [Villa] Rica" and read as placing the
     family there.]
-- text: >-
-    Azorean origin hypothesis [COMPILED]: Mendes Forjaz Vol. IX (PUB-0005) lists a "Gaspar de
-    Souto-Maior" born 23.2.1657 in S. Sebastião, Terceira, as a son of Belchior da Ponte Cardoso
-    × Mariana Fagundes (F-0062). The retrieval agent has identified this Gaspar as P-0092. The
-    birth event E-0135 records his 23.2.1657 birth. ⚠ CONFLICT: Vol. IX gives his death as
-    2.12.1727 in S. Sebastião, but P-0092 is placed at Villa Rica, Minas Gerais, only by his son's birthplace, with a son
-    (Joaquim José, P-0057) marrying in 1783 — inconsistent if they are the same person (the son
-    would need to have been born c.1750-65, after the compiled death date). Resolution pending:
-    either the 1727 death date is an error (Gaspar emigrated and the Azorean compiler lacked
-    records), or P-0092 is a later-generation descendant of this Gaspar. The F-0062 parentage
-    is flagged [COMPILED/LEAD] until primary evidence confirms the emigration link.
   text_pt: >-
     Nacionalidade brasileira [INFERRED]: PAR-0018 registra seu filho Joaquim José como
     "n.al e batiz.do na freg.a de Villa Rica" — nascido e batizado na freguesia de
@@ -57,6 +46,41 @@ notes:
     nacionalidade nem local de nascimento do próprio Gaspar. [Corrigido em 2026-10-08
     após releitura direta da imagem: a cláusula fora transcrita "de [Villa] Rica" e
     lida como situando a família ali.]
+- text: >-
+    Azorean origin hypothesis [COMPILED]: Mendes Forjaz Vol. IX (PUB-0005) lists a "Gaspar de
+    Souto-Maior" born [corrected 2026-10-09: baptised — the book prints "b.", its abbreviation
+    for baptised] 23.2.1657 in S. Sebastião, Terceira, as a son of Belchior da Ponte Cardoso
+    × Mariana Fagundes (F-0062). The retrieval agent has identified this Gaspar as P-0092. The
+    birth event E-0135 records his 23.2.1657 birth [corrected 2026-10-09: E-0135 is now a
+    baptism event]. ⚠ CONFLICT: Vol. IX gives his death as 2.12.1727 in S. Sebastião [corrected
+    2026-10-09: the book prints no place], but P-0092 is placed at Villa Rica, Minas Gerais, only by his son's birthplace, with a son
+    (Joaquim José, P-0057) marrying in 1783 — inconsistent if they are the same person (the son
+    would need to have been born c.1750-65, after the compiled death date). Resolution pending:
+    either the 1727 death date is an error (Gaspar emigrated and the Azorean compiler lacked
+    records), or P-0092 is a later-generation descendant of this Gaspar. The F-0062 parentage
+    is flagged [COMPILED/LEAD] until primary evidence confirms the emigration link. [Added
+    2026-10-09: the full transcription of p.261 also records his second marriage at São
+    Sebastião on 8.2.1694 to Maria Mendes de Borba and three children baptised there in
+    1698–1701, which keeps him on Terceira into his forties and makes the identification with
+    P-0092 weaker; it remains an unresolved hypothesis, not a rejected one.]
+  text_pt: >-
+    Hipótese de origem açoriana [COMPILED]: Mendes Forjaz, Vol. IX (PUB-0005), arrola um "Gaspar
+    de Souto-Maior" nascido [corrigido em 2026-10-09: batizado — o livro imprime "b.", sua
+    abreviatura de baptizado] em 23.2.1657 em S. Sebastião, Terceira, filho de Belchior da Ponte
+    Cardoso × Mariana Fagundes (F-0062). O agente de recuperação identificou este Gaspar como
+    P-0092. O evento de nascimento E-0135 registra esse nascimento de 23.2.1657 [corrigido em
+    2026-10-09: E-0135 é agora um evento de batismo]. ⚠ CONFLITO: o Vol. IX dá o óbito dele em
+    2.12.1727 em S. Sebastião [corrigido em 2026-10-09: o livro não imprime local — sem local
+    impresso], mas P-0092 é situado em Villa Rica, Minas Gerais, apenas pelo local de nascimento
+    do filho, com um filho (Joaquim José, P-0057) casando em 1783 — inconsistente se forem a
+    mesma pessoa (o filho teria de ter nascido c.1750–65, depois da data de óbito compilada).
+    Resolução pendente: ou a data de óbito de 1727 está errada (Gaspar emigrou e o compilador
+    açoriano não tinha os registros), ou P-0092 é descendente de geração posterior deste Gaspar.
+    A filiação F-0062 fica sinalizada [COMPILED/LEAD] até que evidência primária confirme a
+    emigração. [Acrescentado em 2026-10-09: a transcrição integral da p.261 registra também o
+    segundo casamento dele em São Sebastião em 8.2.1694 com Maria Mendes de Borba e três filhos
+    ali batizados em 1698–1701, o que o mantém na Terceira até passados os quarenta anos e
+    enfraquece a identificação com P-0092; ela continua hipótese não resolvida, não rejeitada.]
 profile: >-
   ## Interesting facts
 
@@ -81,8 +105,9 @@ profile: >-
   is not in the published record.
 
   - **[COMPILED]** A tentative Azorean origin has been proposed: Mendes Forjaz (PUB-0005,
-  Vol. IX, p.261) lists a "Gaspar de Souto-Maior" born in São Sebastião, Ilha Terceira, as
-  a son of Belchior da Ponte Cardoso × Mariana Fagundes (family F-0062). ⚠️ An unresolved
+  Vol. IX, p.261) lists a "Gaspar de Souto-Maior" baptised in São Sebastião, Ilha Terceira,
+  on 23 February 1657, as a son of Belchior da Ponte Cardoso × Mariana Fagundes (family
+  F-0062). ⚠️ An unresolved
   conflict prevents confirming it — see below. Do NOT treat the Azorean parentage as
   established.
 
@@ -109,13 +134,16 @@ profile: >-
 
   - **Tentative Azorean parentage [COMPILED — NOT resolved]:** the retrieval agent has
   tentatively identified this person with "Gaspar de Souto-Maior" of Mendes Forjaz Vol. IX
-  (PUB-0005), a son of Belchior da Ponte Cardoso × Mariana Fagundes (family F-0062), born
-  23.2.1657 in São Sebastião, Terceira (event E-0135 records that compiled birth). If
-  correct, he emigrated from Terceira to Villa Rica and used the name "Gaspar Ferreira" in
-  place of "Gaspar de Souto-Maior". ⚠️ The identification is inconsistent on its face:
-  PUB-0005 records that Terceira Gaspar's death on 2.12.1727 in São Sebastião, and a man
-  born in 1657 could not father a son who married in 1783. Either the compiled dates
-  belong to a different man, or P-0092 is a son or grandson of the Terceira Gaspar, or the
+  (PUB-0005), a son of Belchior da Ponte Cardoso × Mariana Fagundes (family F-0062),
+  baptised 23.2.1657 in São Sebastião, Terceira (event E-0135 records that compiled
+  baptism). If correct, he emigrated from Terceira to Villa Rica and used the name "Gaspar
+  Ferreira" in place of "Gaspar de Souto-Maior". ⚠️ The identification is weak on the
+  compiled entry itself. PUB-0005 gives that Terceira Gaspar a death date of 2.12.1727 (it
+  prints no place), and a man baptised in 1657 could not father a son who married in 1783.
+  The same entry has him marrying twice — D. Margarida Machado at the Convento da Graça,
+  Angra, in 1690, and Maria Mendes de Borba at São Sebastião in 1694 — with three children
+  baptised at São Sebastião in 1698–1701, which keeps him on Terceira into his forties.
+  Either the compiled dates belong to a different man, or P-0092 is a son or grandson of the Terceira Gaspar, or the
   two are simply unrelated people who share a common given name. [COMPILED — parentage NOT
   proven; the conflict is preserved, not resolved]
 
@@ -195,9 +223,11 @@ profile: >-
 
   - The "two Gaspars" question, preserved and unresolved: for P-0092 (Villa Rica, a son
   marrying in 1783) to be the same man as the Terceira "Gaspar de Souto-Maior" of PUB-0005
-  (b.1657, d.1727 São Sebastião), either the compiled dates are wrong, or P-0092 is a
-  later-generation descendant, or the identification is simply mistaken. Not resolvable
-  from held sources; a separate line of work covers the Terceira ancestors. [OPEN —
+  (baptised São Sebastião 1657; died 1727, no place printed; remarried at São Sebastião in
+  1694, with children baptised there in 1698–1701), either the compiled dates are wrong, or
+  P-0092 is a later-generation descendant, or the identification is simply mistaken. The
+  1694–1701 entries keep that Gaspar on Terceira into his forties and make the
+  identification weaker, though not rejected. Not resolvable from held sources; a separate line of work covers the Terceira ancestors. [OPEN —
   COMPILED identification pending]
 
   - The resulting inconsistency in the data graph, where family F-0062 holds P-0092 as a
@@ -267,8 +297,9 @@ profile_pt: >-
   vez deteve concessão de terras colonial, ela não está no registro publicado.
 
   - **[COMPILED]** Uma origem açoriana tentativa foi proposta: Mendes Forjaz (PUB-0005,
-  Vol. IX, p.261) arrola um "Gaspar de Souto-Maior" nascido em São Sebastião, Ilha
-  Terceira, filho de Belchior da Ponte Cardoso × Mariana Fagundes (família F-0062). ⚠️ Um
+  Vol. IX, p.261) arrola um "Gaspar de Souto-Maior" batizado em São Sebastião, Ilha
+  Terceira, em 23 de fevereiro de 1657, filho de Belchior da Ponte Cardoso × Mariana
+  Fagundes (família F-0062). ⚠️ Um
   conflito não resolvido impede confirmá-la — ver abaixo. NÃO tratar a filiação açoriana
   como estabelecida.
 
@@ -297,12 +328,15 @@ profile_pt: >-
   - **Filiação açoriana tentativa [COMPILED — NÃO resolvida]:** o agente de recuperação
   identificou tentativamente esta pessoa com o "Gaspar de Souto-Maior" de Mendes Forjaz,
   Vol. IX (PUB-0005), filho de Belchior da Ponte Cardoso × Mariana Fagundes (família
-  F-0062), nascido em 23.2.1657 em São Sebastião, Terceira (o evento E-0135 registra esse
-  nascimento compilado). Se correta, ele teria emigrado da Terceira para Villa Rica e
-  usado o nome "Gaspar Ferreira" em lugar de "Gaspar de Souto-Maior". ⚠️ A identificação é
-  inconsistente em si mesma: PUB-0005 registra a morte daquele Gaspar terceirense em
-  2.12.1727, em São Sebastião, e um homem nascido em 1657 não poderia gerar um filho que
-  se casasse em 1783. Ou as datas compiladas pertencem a outro homem, ou P-0092 é filho ou
+  F-0062), batizado em 23.2.1657 em São Sebastião, Terceira (o evento E-0135 registra esse
+  batismo compilado). Se correta, ele teria emigrado da Terceira para Villa Rica e usado o
+  nome "Gaspar Ferreira" em lugar de "Gaspar de Souto-Maior". ⚠️ A identificação é fraca na
+  própria entrada compilada. PUB-0005 dá àquele Gaspar terceirense a data de óbito de
+  2.12.1727 (sem local impresso), e um homem batizado em 1657 não poderia gerar um filho que
+  se casasse em 1783. A mesma entrada o faz casar duas vezes — com D. Margarida Machado no
+  Convento da Graça, em Angra, em 1690, e com Maria Mendes de Borba em São Sebastião em
+  1694 — com três filhos batizados em São Sebastião em 1698–1701, o que o mantém na Terceira
+  até passados os quarenta anos. Ou as datas compiladas pertencem a outro homem, ou P-0092 é filho ou
   neto do Gaspar terceirense, ou são simplesmente pessoas distintas que partilham um
   prenome comum. [COMPILED — filiação NÃO provada; o conflito é preservado, não resolvido]
 
@@ -384,9 +418,12 @@ profile_pt: >-
 
   - A questão dos "dois Gaspares", preservada e não resolvida: para que P-0092 (Villa
   Rica, com um filho casando em 1783) seja o mesmo homem que o "Gaspar de Souto-Maior"
-  terceirense de PUB-0005 (n.1657, f.1727 São Sebastião), ou as datas compiladas estão
-  erradas, ou P-0092 é descendente de geração posterior, ou a identificação está
-  simplesmente equivocada. Não é resolvível pelas fontes disponíveis; uma linha de
+  terceirense de PUB-0005 (batizado em São Sebastião em 1657; falecido em 1727, sem local
+  impresso; casado de novo em São Sebastião em 1694, com filhos ali batizados em
+  1698–1701), ou as datas compiladas estão erradas, ou P-0092 é descendente de geração
+  posterior, ou a identificação está simplesmente equivocada. As entradas de 1694–1701
+  mantêm aquele Gaspar na Terceira até passados os quarenta anos e enfraquecem a
+  identificação, sem a rejeitar. Não é resolvível pelas fontes disponíveis; uma linha de
   trabalho separada cobre os ancestrais terceirenses. [OPEN — identificação COMPILED
   pendente]
 

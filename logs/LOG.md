@@ -5,6 +5,32 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-10-09 — Published works: cited pages transcribed in full
+
+Owner directive: transcribe each cited page in full, so a page is read once and researched from the
+text. Five parallel passes, one record each, read every line against the page images (the PDF text
+layers only as drafts); the lead researcher spot-checked the key readings on the images. Result:
+PUB-0001 contents + ff. 151–156; PUB-0002 ff. 54–55, 150–155, 218; PUB-0003 pp. 300–303 and three Casa
+Suíça entries; PUB-0004 pp. 312–313; PUB-0005 pp. 257–261. No [illegible] marks; four [uncertain] on
+PUB-0003's low-resolution p.302–303.
+
+Corrections (each verified on the image): E-0132 and E-0135 are baptisms ("b.", distinct from "n.");
+PUB-0005 prints no place for Gaspar de Souto-Maior's 1727 death, gives him no rank (the captain who
+married at Porto Judeu in 1687 is a cousin), and shows him remarried at São Sebastião in 1694 with
+children baptised there 1698–1701 — the P-0092 identification is weaker, still open (STATUS 18); Vol. IV
+prints SOUTO-MAIOR "§ 1º" (not "§ 5º") and ten children of Pedro Lourenço Machado; PUB-0003 p.301 has no
+"José Joaquim" (numbering jumps 1.1.4 → 1.1.6), Thereza n. 25/09/1838, Justina n. 04/06/1827, and BORER
+III's Johann Borer married Catharina Werhly, Anna Maria's sister; PUB-0002 lists Simplício as "solteiro"
+among the heirs dead by 1845, and quotes (f. 55) the patriarch Francisco Ferreira Armonde's 1751 will:
+"natural da Ilha Terceira da Freguesia da Vila de São Sebastião … Filho legítimo de Gaspar de Souto Maior
+e de sua mulher Margarida das Candeyas". Lead, not evidence: Lacerda's footnote 74, citing a RootsWeb
+AZORES list post, makes Margarida das Candeyas (bapt. 29.5.1667, d. 9.4.1693) the first wife of Gaspar de
+Souto Maior (bapt. "23 de setembro de 1657" — Vol. IX has 23.2.1657 — d. 2.12.1727), who then married Maria
+Mendes Borba; Vol. IX independently gives Gaspar b.1657 a first marriage in 1690 to D. Margarida Machado,
+whose children took maternal surnames, and a second in 1694 to Maria Mendes de Borba. If the patriarch is
+that couple's son, the Azorean Souto-Maior line reaches Brazil through the Ferreira Armonde of Barbacena —
+whose bridge to this tree is itself unproven — rather than through P-0092.
+
 ## 2026-10-09 — Tier audit: strong evidence must rest on a record
 
 **Extends the E-0132 downgrade earlier today.** Research question: which strong-evidence conclusions

@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-09T14:03:46Z",
+ "generated": "2026-10-09T14:34:31Z",
  "updates": [
   {
    "date": "2026-10-09",
    "kind": "correction",
-   "title": "Correction: 13 dates and family links that rest only on a published genealogy are now hypotheses, not strong evidence — in the Azores, Pedro Lourenço Machado's birth, marriage and death, his son António Martins Fagundes's parentage and death, and the Azorean birth and parents proposed for Gaspar Ferreira; in Nova Friburgo, the Wehrli deaths and Anna Maria Werhly's birth",
-   "title_pt": "Correção: 13 datas e vínculos de família apoiados só numa genealogia publicada agora são hipóteses, não evidência forte — nos Açores, o nascimento, o casamento e a morte de Pedro Lourenço Machado, a filiação e a morte de seu filho António Martins Fagundes e o nascimento e os pais açorianos propostos para Gaspar Ferreira; em Nova Friburgo, as mortes dos Wehrli e o nascimento de Anna Maria Werhly",
-   "replaces": "Correction: Pedro Lourenço Machado's birth in 1571 is now marked a hypothesis — its only source is a published genealogy, not a parish record",
+   "title": "Correction: 13 dates and family links that rest only on a published genealogy are now hypotheses, not strong evidence — in the Azores, Pedro Lourenço Machado's baptism, marriage and death, his son António Martins Fagundes's parentage and death, and the Azorean baptism and parents proposed for Gaspar Ferreira; in Nova Friburgo, the Wehrli deaths and Anna Maria Werhly's birth",
+   "title_pt": "Correção: 13 datas e vínculos de família apoiados só numa genealogia publicada agora são hipóteses, não evidência forte — nos Açores, o batismo, o casamento e a morte de Pedro Lourenço Machado, a filiação e a morte de seu filho António Martins Fagundes e o batismo e os pais açorianos propostos para Gaspar Ferreira; em Nova Friburgo, as mortes dos Wehrli e o nascimento de Anna Maria Werhly",
+   "replaces": "Correction: 13 dates and family links that rest only on a published genealogy are now hypotheses, not strong evidence — in the Azores, Pedro Lourenço Machado's birth, marriage and death, his son António Martins Fagundes's parentage and death, and the Azorean birth and parents proposed for Gaspar Ferreira; in Nova Friburgo, the Wehrli deaths and Anna Maria Werhly's birth",
    "links": [
     "P-0129",
     "P-0127",
@@ -1597,8 +1597,8 @@
   {
    "date": "2026-08-08",
    "kind": "document",
-   "title": "Imigrantes de Nova Friburgo — genealogias: BORER I, BORER II, WEHRLI sections (Henrique Bon compiler)",
-   "title_pt": "Imigrantes de Nova Friburgo — genealogias: seções BORER I, BORER II e WEHRLI (compilado por Henrique Bon)",
+   "title": "Imigrantes de Nova Friburgo — genealogias: BORER I, II and III (pp. 300–303), with Casa Suíça database entries for the Wehrli and Borer families (Henrique Bon compiler)",
+   "title_pt": "Imigrantes de Nova Friburgo — genealogias: BORER I, II e III (pp. 300–303), com registros do banco de dados da Casa Suíça para as famílias Wehrli e Borer (compilado por Henrique Bon)",
    "primary": "PUB-0003",
    "links": [
     "P-0028"

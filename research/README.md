@@ -161,8 +161,12 @@ Every source entry should capture, when available:
 - If the original is unavailable and only a legible copy remains, transcribe the
   copy and say so; never reconstruct a transcript from memory.
 - For a published or authored secondary work (a book, thesis or article),
-  "full" means the **relevant passage(s) transcribed verbatim with page
-  citations**, not the entire publication; the `abstract` carries the summary.
+  "full" means **every line of each cited page transcribed verbatim** — other
+  people's entries, footnotes and the printed page number included — with page
+  markers, not the entire publication; the `abstract` carries the summary. The
+  owner's reason (2026-10-09): read a page once, then research from the
+  transcription without reopening a large PDF. List those pages in the file's
+  `show_pages` so the viewer shows the same pages the transcription covers.
 
 ## Collaborative trees
 

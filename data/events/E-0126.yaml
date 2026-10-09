@@ -1,6 +1,6 @@
 schema_version: 1
 id: E-0126
-event_type: birth
+event_type: baptism
 date:
   kind: exact
   value: "1615-01-10"
@@ -22,3 +22,12 @@ notes:
     attributed to scribal convention (act recorded the day after the event). The 10 January
     date from PUB-0005 is retained as canonical; the discrepancy is recorded in PAR-0087.
     Upgraded from strong-evidence to confirmed 2026-09-23 on receipt of primary image.
+- text: >-
+    Event type corrected birth → baptism on 2026-10-09: both sources record a baptism — the
+    original São Sebastião baptism register entry (PAR-0087) and Vol. IX, which prints "B." (its
+    abbreviation for baptised, distinct from "n." for born). Date, status and sources unchanged.
+  text_pt: >-
+    Tipo de evento corrigido de nascimento para batismo em 2026-10-09: as duas fontes registram
+    um batismo — o assento original do livro de batismos de São Sebastião (PAR-0087) e o Vol. IX,
+    que imprime "B." (sua abreviatura de batizado, distinta de "n." para nascido). Data, nível e
+    fontes inalterados.
