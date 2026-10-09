@@ -5,6 +5,21 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — viewer code simplified, no new features (2026-10-09)
+
+- One `LAYERS` table in `app.js` now drives ‹ Back, Escape, the context ? and the active tab, in place
+  of four hand-kept lists; help pages come from one `GUIDES` table; What's new is fetched once and
+  reused; storage, focus and segmented-control helpers replace repeated code. Fixed a crash in the
+  Ask AI person questions (a variable shadowed `firstName`).
+- `styles.css`: the six appended phone blocks are one phone section with a single rule placing every
+  page between the bars; `desktop-only` / `phone-only` classes replace per-button hiding; a `--z-*`
+  stacking scale and `--field` / `--badge` colours replace raw values; dead rules (old floating
+  buttons, the person page's hidden Back, unused row classes) are gone.
+- Visible effects are fixes only: the family question's footer (and Install the app) no longer runs
+  below the screen, the record reader's title has the full width, and help's last lines are no longer
+  hidden under the tab bar. The mockup capture waits for the archive to load instead of fixed pauses, and reuses
+  `isCurated` / `updateKey`. UI-STANDARDS points new screens at `LAYERS` and the shared page rule.
+
 ### Changed — E-0132 downgraded to hypothesis (2026-10-09)
 
 - Pedro Lourenço Machado's 1571 birth (E-0132, P-0129) rests only on PUB-0004, a published genealogy,

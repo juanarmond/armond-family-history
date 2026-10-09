@@ -17,10 +17,12 @@ export const BRANCHES = [
   { key: "bohrer", rootId: "P-0007", label: "Bohrer", colour: "#8c4a5a", river: 4 },
 ];
 
-const visibleParents = (parentsByChild, personId) =>
+// A person's parents on every link that is not rejected (each parent once).
+export const visibleParents = (parentsByChild, personId) => [...new Set(
   (parentsByChild[personId] || [])
     .filter((relationship) => relationship.status !== "rejected")
-    .map((relationship) => relationship.parentId);
+    .map((relationship) => relationship.parentId),
+)];
 
 // The year of a structured date ({ kind: exact | month | year | approximate | … }).
 export function yearOfDate(date) {
@@ -33,14 +35,18 @@ export function yearOfDate(date) {
 }
 
 // The earliest year an original record documents a person: one of their own events that is
-// confirmed or strong evidence and rests on at least one record that is not a published genealogy
-// or a family recollection. (A 1571 birth known only from a printed genealogy does not count.)
-const NOT_ORIGINAL = new Set(["published_genealogy", "family_recollection"]);
+// confirmed or strong evidence and rests on at least one record the validator would let confirm
+// a conclusion — an original or a faithful copy (never an authored narrative such as a published
+// genealogy) outside the weak categories. Mirrors scripts/validation/rules.py
+// (CONFIRMING_SOURCE_FORMS, WEAK_STANDALONE_CATEGORIES); keep the two in step.
+const CONFIRMING_SOURCE_FORMS = new Set(["original", "derivative"]);
+const WEAK_STANDALONE_CATEGORIES = new Set(["collaborative_tree", "family_recollection"]);
 const PROVEN = new Set(["confirmed", "strong-evidence"]);
+const isOriginalRecord = (source) => Boolean(source)
+  && CONFIRMING_SOURCE_FORMS.has(source.sourceForm) && !WEAK_STANDALONE_CATEGORIES.has(source.recordCategory);
 function earliestRecordYear(person, sources = {}) {
   const years = (person?.events || [])
-    .filter((event) => PROVEN.has(event.status)
-      && (event.sourceIds || []).some((id) => sources[id] && !NOT_ORIGINAL.has(sources[id].recordCategory)))
+    .filter((event) => PROVEN.has(event.status) && (event.sourceIds || []).some((id) => isOriginalRecord(sources[id])))
     .map((event) => yearOfDate(event.date))
     .filter(Number.isFinite);
   return years.length ? Math.min(...years) : null;
@@ -144,21 +150,21 @@ export function computeBranches({ people, parentsByChild, sources = {} }, config
   const vocabulary = surnameVocabulary(people);
   const list = [];
   const personBranches = {};
+  const surnameEntries = new Map();
   for (const branch of config) {
     if (!people[branch.rootId]) continue;
-    const depth = new Map([[branch.rootId, 1]]);
+    const ancestors = new Set([branch.rootId]);
     const queue = [branch.rootId];
     while (queue.length) {
-      const id = queue.shift();
-      for (const parentId of visibleParents(parentsByChild, id)) {
-        if (depth.has(parentId) || !people[parentId]) continue;
-        depth.set(parentId, depth.get(id) + 1);
+      for (const parentId of visibleParents(parentsByChild, queue.shift())) {
+        if (ancestors.has(parentId) || !people[parentId]) continue;
+        ancestors.add(parentId);
         queue.push(parentId);
       }
     }
-    const members = new Set(depth.keys());
+    const members = new Set(ancestors);
     const collaterals = new Set();
-    for (const id of depth.keys()) {
+    for (const id of ancestors) {
       for (const child of people[id]?.children || []) {
         if (child.type !== "person" || !child.id || members.has(child.id) || child.id === SUBJECT_ID || !people[child.id]) continue;
         collaterals.add(child.id);
@@ -175,24 +181,22 @@ export function computeBranches({ people, parentsByChild, sources = {} }, config
       name: people[branch.rootId].name,
       sideParentId: sideParentOf(branch.rootId),
       members: [...members].sort(),
-      generations: Math.max(...depth.values()),
       earliestYear: years.length ? Math.min(...years) : null,
-      surnameEntries: surnameIndex(people, members, vocabulary),
     });
+    surnameEntries.set(branch.key, surnameIndex(people, members, vocabulary));
     for (const id of members) (personBranches[id] ||= []).push(branch.key);
   }
   // The few surnames that identify each branch on its card: its own commonest surnames,
   // preferring those found in no other branch (Silva and Ferreira recur everywhere).
   for (const branch of list) {
     const ownSurname = surnameKey(branch.label);
-    const elsewhere = new Set(list.filter((other) => other !== branch).flatMap((other) => other.surnameEntries.map((entry) => entry.key)));
-    const candidates = branch.surnameEntries.filter((entry) => entry.key !== ownSurname);
+    const elsewhere = new Set(list.filter((other) => other !== branch).flatMap((other) => surnameEntries.get(other.key).map((entry) => entry.key)));
+    const candidates = surnameEntries.get(branch.key).filter((entry) => entry.key !== ownSurname);
     branch.surnames = [
       ...candidates.filter((entry) => !elsewhere.has(entry.key)),
       ...candidates.filter((entry) => elsewhere.has(entry.key)),
     ].slice(0, 4).map((entry) => entry.spellings[0]);
   }
-  for (const branch of list) delete branch.surnameEntries;
   return { list, byKey: Object.fromEntries(list.map((branch) => [branch.key, branch])), personBranches, vocabulary };
 }
 
@@ -209,6 +213,9 @@ export function branchSides(info) {
 }
 
 // ---------- Scope (the viewer's choice of branches) ----------
+// The chosen branches in branch order; an empty scope (everything) means all of them.
+export const chosenBranches = (info, scope) =>
+  scope.size ? info.list.filter((branch) => scope.has(branch.key)) : info.list;
 // A scope is a Set of branch keys; the empty set means "everything". Choosing every branch is
 // the same as everything, so it normalises to the empty set.
 export function normaliseScope(keys, info) {
@@ -224,7 +231,7 @@ export function parseScope(text, info) {
 // Branch order, so a shared link reads the same however the boxes were ticked.
 export function serialiseScope(scope, info) {
   if (!scope.size) return "all";
-  return info.list.filter((branch) => scope.has(branch.key)).map((branch) => branch.key).join(",");
+  return chosenBranches(info, scope).map((branch) => branch.key).join(",");
 }
 
 export function inScope(info, scope, personId) {
@@ -235,8 +242,8 @@ export function inScope(info, scope, personId) {
 // Where a scoped tree starts: one grandparent; for both grandparents on one side, their child
 // (the subject's parent); anything wider starts at the subject, as the full tree does.
 export function scopeRoot(info, scope) {
-  const chosen = info.list.filter((branch) => scope.has(branch.key));
-  if (!chosen.length) return SUBJECT_ID;
+  if (!scope.size) return SUBJECT_ID;
+  const chosen = chosenBranches(info, scope);
   if (chosen.length === 1) return chosen[0].rootId;
   const parents = new Set(chosen.map((branch) => branch.sideParentId));
   return parents.size === 1 && !parents.has(null) ? [...parents][0] : SUBJECT_ID;
@@ -245,15 +252,13 @@ export function scopeRoot(info, scope) {
 // How many people the chosen branches hold; everything is all the branches together — the living
 // subject and parents belong to none, so they are never counted as traced.
 export function scopeSize(info, scope) {
-  const ids = new Set();
-  for (const branch of info.list) if (!scope.size || scope.has(branch.key)) branch.members.forEach((id) => ids.add(id));
-  return ids.size;
+  return new Set(chosenBranches(info, scope).flatMap((branch) => branch.members)).size;
 }
 
 // What a shared link's message says: which families, how many people, and the earliest year an
 // original record reaches (null when none of them has one). The app turns this into words.
 export function shareSummary(info, scope) {
-  const chosen = scope.size ? info.list.filter((branch) => scope.has(branch.key)) : info.list;
+  const chosen = chosenBranches(info, scope);
   const years = chosen.map((branch) => branch.earliestYear).filter(Number.isFinite);
   return {
     everything: !scope.size,
@@ -277,11 +282,10 @@ export function entryBranches(entry, info, sources = {}) {
   return keys;
 }
 
-export function entryInScope(entry, info, scope, sources) {
-  if (!scope.size) return true;
-  const keys = entryBranches(entry, info, sources);
-  return !keys.size || [...keys].some((key) => scope.has(key));
-}
+export const keysInScope = (keys, scope) => !scope.size || !keys.size || [...keys].some((key) => scope.has(key));
+
+export const entryInScope = (entry, info, scope, sources) =>
+  keysInScope(entryBranches(entry, info, sources), scope);
 
 // Curated entries (milestones, corrections, new people) drive the unread badge — the same rule
 // that sends a notification. Routine document additions never count.

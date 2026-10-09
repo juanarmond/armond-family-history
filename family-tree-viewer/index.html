@@ -29,14 +29,14 @@
 <body>
   <header class="site-header">
     <!-- Phone top bar: ‹ Back replaces the logo and title once you go deeper (app.js syncHeader). -->
-    <button id="header-back" class="header-back" type="button">‹ <span data-i18n="mobile.back">Back</span></button>
+    <button id="header-back" class="header-back phone-only" type="button">‹ <span data-i18n="mobile.back">Back</span></button>
     <div class="site-title">
       <p class="eyebrow" data-i18n="header.eyebrow">Private research archive</p>
       <h1><button id="title-button" class="title-button" type="button" data-i18n="page.title" data-i18n-title="header.start">Four Rivers</button></h1>
       <p class="subtitle" data-i18n="header.subtitle">Four family lines, from four continents — every ancestor traced to an original record.</p>
     </div>
-    <div id="header-lang" class="header-lang"></div>
-    <button id="header-help" class="header-help" type="button" data-i18n-aria="guide.button" data-i18n-title="guide.button" aria-label="Help" title="Help">?</button>
+    <div id="header-lang" class="header-lang phone-only"></div>
+    <button id="header-help" class="round-help header-help phone-only" type="button" data-i18n-aria="guide.button" data-i18n-title="guide.button" aria-label="Help" title="Help">?</button>
     <button id="home-button" class="brand-emblem" type="button" data-i18n-aria="header.start" data-i18n-title="header.start" aria-label="Choose your families" title="Choose your families">
       <svg viewBox="0 0 72 72" class="emblem" aria-hidden="true" focusable="false">
         <circle cx="36" cy="36" r="32" fill="#fbf6ea"/>
@@ -70,7 +70,7 @@
     <section class="toolbar" data-i18n-aria="toolbar.aria" aria-label="Tree controls">
       <div class="field-branch">
         <span class="field-label" data-i18n="control.families">Families</span>
-        <button id="branch-chip-toolbar" class="branch-chip" type="button" hidden></button>
+        <button id="branch-chip" class="branch-chip" type="button" hidden></button>
       </div>
 
       <label class="field-person">
@@ -139,12 +139,11 @@
   <aside id="details-panel" class="detail-panel" aria-labelledby="details-title" hidden>
     <div class="detail-head">
       <div>
-        <button id="details-back" class="detail-back" type="button">‹ <span data-i18n="mobile.back">Back</span></button>
         <p id="details-id" class="detail-id"></p>
         <h2 id="details-title" class="detail-title"></h2>
         <p id="details-lifespan" class="detail-lifespan"></p>
       </div>
-      <div class="detail-head-actions">
+      <div class="detail-head-actions desktop-only">
         <button id="detail-ask-ai" class="close-button panel-ai-btn" type="button" data-i18n-aria="assistant.fab" data-i18n-title="assistant.fab" aria-label="Ask AI" title="Ask AI">
           <svg viewBox="0 0 24 24" class="panel-ai-icon" aria-hidden="true" focusable="false"><path d="M11 8V5.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="11" cy="4.4" r="1.05" fill="currentColor"/><rect x="4" y="8" width="14" height="11" rx="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="8.5" cy="12.8" r="1.2" fill="currentColor"/><circle cx="13.5" cy="12.8" r="1.2" fill="currentColor"/><path d="M8.6 15.9h4.8" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M19.6 3.3 20.45 4.95 22.1 5.8 20.45 6.65 19.6 8.3 18.75 6.65 17.1 5.8 18.75 4.95Z" fill="currentColor"/></svg>
         </button>
@@ -164,7 +163,7 @@
         <p class="story-subtitle" data-i18n="story.subtitle">The confluence of four continents in one person</p>
         <p class="story-note" data-i18n="story.note">A narrative synthesis over the family's documented records — grounded in the sources held in this archive. Living people appear by first name only.</p>
       </div>
-      <div class="story-head-actions">
+      <div class="story-head-actions desktop-only">
         <button id="story-ask-ai" class="close-button panel-ai-btn" type="button" data-i18n-aria="assistant.fab" data-i18n-title="assistant.fab" aria-label="Ask AI" title="Ask AI">
           <svg viewBox="0 0 24 24" class="panel-ai-icon" aria-hidden="true" focusable="false"><path d="M11 8V5.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="11" cy="4.4" r="1.05" fill="currentColor"/><rect x="4" y="8" width="14" height="11" rx="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="8.5" cy="12.8" r="1.2" fill="currentColor"/><circle cx="13.5" cy="12.8" r="1.2" fill="currentColor"/><path d="M8.6 15.9h4.8" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M19.6 3.3 20.45 4.95 22.1 5.8 20.45 6.65 19.6 8.3 18.75 6.65 17.1 5.8 18.75 4.95Z" fill="currentColor"/></svg>
         </button>
@@ -183,7 +182,7 @@
         <h2 id="guide-title" class="story-title" data-i18n="guide.title">How to explore</h2>
         <p id="guide-subtitle" class="story-subtitle" data-i18n="guide.subtitle">A quick guide to finding your way around the family.</p>
       </div>
-      <div class="story-head-actions">
+      <div class="story-head-actions desktop-only">
         <button id="close-guide" class="close-button" type="button" data-i18n-aria="guide.close" aria-label="Close help">×</button>
       </div>
     </div>
@@ -198,7 +197,7 @@
         <h2 id="updates-title" class="story-title" data-i18n="updates.title">What's new</h2>
         <p class="story-subtitle" data-i18n="updates.subtitle">The latest records and corrections added to the archive.</p>
       </div>
-      <div class="story-head-actions">
+      <div class="story-head-actions desktop-only">
         <button id="updates-ask-ai" class="close-button panel-ai-btn" type="button" data-i18n-aria="assistant.fab" data-i18n-title="assistant.fab" aria-label="Ask AI" title="Ask AI">
           <svg viewBox="0 0 24 24" class="panel-ai-icon" aria-hidden="true" focusable="false"><path d="M11 8V5.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="11" cy="4.4" r="1.05" fill="currentColor"/><rect x="4" y="8" width="14" height="11" rx="3.4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="8.5" cy="12.8" r="1.2" fill="currentColor"/><circle cx="13.5" cy="12.8" r="1.2" fill="currentColor"/><path d="M8.6 15.9h4.8" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M19.6 3.3 20.45 4.95 22.1 5.8 20.45 6.65 19.6 8.3 18.75 6.65 17.1 5.8 18.75 4.95Z" fill="currentColor"/></svg>
         </button>
@@ -218,7 +217,7 @@
         <h2 id="assistant-title" class="story-title" data-i18n="assistant.title">Family history assistant</h2>
         <p class="story-subtitle" data-i18n="assistant.subtitle">Ask about people, documents, and how everyone connects.</p>
       </div>
-      <div class="story-head-actions">
+      <div class="story-head-actions desktop-only">
         <button id="assistant-help" class="close-button" type="button" data-i18n-aria="guide.assistant.button" data-i18n-title="guide.assistant.button" aria-label="About the assistant" title="About the assistant">?</button>
         <button id="close-assistant" class="close-button" type="button" data-i18n-aria="assistant.close" aria-label="Close assistant">×</button>
       </div>
@@ -238,7 +237,7 @@
   <div id="branch-backdrop" class="panel-backdrop" hidden></div>
 
   <!-- Mobile only: the four sections one thumb-tap away (hidden on wider screens by CSS). -->
-  <nav id="tabbar" class="tabbar" data-i18n-aria="tabs.aria" aria-label="Sections">
+  <nav id="tabbar" class="tabbar phone-only" data-i18n-aria="tabs.aria" aria-label="Sections">
     <button type="button" class="tab" data-tab="family">
       <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 21v-4H6v-4M12 17h6v-4M6 13V9.3M18 13V9.3"/><circle cx="6" cy="6.6" r="2.4"/><circle cx="18" cy="6.6" r="2.4"/></svg>
       <span data-i18n="tabs.family">Family</span>
@@ -258,7 +257,7 @@
     </button>
   </nav>
 
-  <button id="assistant-fab" class="assistant-fab" type="button" data-i18n-aria="assistant.fab" data-i18n-title="assistant.fab" aria-label="Ask AI" title="Ask AI" hidden>
+  <button id="assistant-fab" class="assistant-fab desktop-only" type="button" data-i18n-aria="assistant.fab" data-i18n-title="assistant.fab" aria-label="Ask AI" title="Ask AI" hidden>
     <svg viewBox="0 0 24 24" class="assistant-fab-icon" aria-hidden="true" focusable="false">
       <!-- antenna -->
       <path d="M11 8V5.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
@@ -276,8 +275,8 @@
     <span class="assistant-fab-label" data-i18n="assistant.fab">Ask AI</span>
   </button>
 
-  <button id="install-fab" class="install-fab" type="button" data-i18n-aria="install.fab" aria-label="Add to home screen" hidden>📲 <span data-i18n="install.fab">Add to home screen</span></button>
-  <button id="help-fab" class="help-fab" type="button" data-i18n-aria="guide.button" data-i18n-title="guide.button" aria-label="Help" title="Help" hidden>?</button>
+  <button id="install-fab" class="install-fab desktop-only" type="button" data-i18n-aria="install.fab" aria-label="Add to home screen" hidden>📲 <span data-i18n="install.fab">Add to home screen</span></button>
+  <button id="help-fab" class="help-fab desktop-only" type="button" data-i18n-aria="guide.button" data-i18n-title="guide.button" aria-label="Help" title="Help" hidden>?</button>
 
   <footer class="site-footer">
     <span data-i18n="footer.text">Read-only static visualisation. Repository YAML remains the canonical source of truth. Visitor statistics are collected anonymously (cookieless, no personal data stored).</span>

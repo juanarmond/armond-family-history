@@ -25,10 +25,13 @@ These rules govern every change to the viewer (`family-tree-viewer/`) and its re
 - Pages open *between* the bars (`top: var(--header-h)`; `bottom: var(--tabbar-h)`). Only the
   family question (the start page) and the families sheet (which has its own Done) may cover the
   bottom bar.
-- Phone pages carry no close (×), help or Ask AI buttons of their own — the bars provide them.
+- Phone pages carry no close (×), help or Ask AI buttons of their own — the bars provide them. Mark
+  such desktop controls `desktop-only` and the bars' controls `phone-only`; never hide them one by one.
 - The families chip sits beside the search box, never in the top bar; the title must always fit in
   full.
-- A new screen needs a place in `topLayer()`, a help topic in `HELP_TOPIC`, and a ‹ Back path.
+- A new screen needs an entry in `LAYERS` (`app.js`): how to tell it is open, how ‹ Back closes it,
+  and its help topic. Pages share one rule in the phone section of `styles.css` — add the new panel
+  to it rather than giving it its own geometry; stacking uses the `--z-*` scale.
 
 ## Desktop layout (> 700px)
 
@@ -51,8 +54,7 @@ These rules govern every change to the viewer (`family-tree-viewer/`) and its re
   small print.
 - Shape: `--radius-sm` (rows, inputs), `--radius` (blocks), `--radius-lg` (cards, sheets), `999px`
   (chips, pills, tags); shadows `--shadow-xs` / `--shadow-sm` / `--shadow-md` / `--shadow-lg`.
-- No raw colour values in new CSS; the few legacy exceptions (such as the count badge `#b3412f`) may
-  not be copied.
+- Fields and chips use `--field`; the unread count uses `--badge`. No raw colour values in new CSS.
 
 ## Components
 

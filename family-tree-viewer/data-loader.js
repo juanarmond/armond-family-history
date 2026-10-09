@@ -1,4 +1,5 @@
 import { load as parseYaml } from "./vendor/js-yaml.mjs";
+import { SUBJECT_ID } from "./branches.js";
 
 const ENTITY_TYPES = {
   people: { directory: "people" },
@@ -542,7 +543,6 @@ export function projectTreeData({ people, families, events, places, sources, fan
   // person, so a detail card can show "how this person connects to me". Because
   // the tree is the subject's ancestry, these paths are almost always a clean
   // upward parent chain.
-  const SUBJECT_ID = "P-0001";
   const adjacency = {};
   const addEdge = (a, b, kind) => {
     (adjacency[a] ||= []).push({ id: b, kind });

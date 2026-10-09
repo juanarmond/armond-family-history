@@ -14,6 +14,8 @@ import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { isCurated, updateKey } from "../../family-tree-viewer/branches.js";
+
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.resolve(HERE, "../../_site");
 const OUT = path.join(HERE, "screens");
@@ -97,8 +99,7 @@ const scroll = async (selector, top) => { await evaluate(`(document.querySelecto
 // The newest curated What's new entries are left unread, so the badge and NEW marks show.
 const feed = JSON.parse(fs.readFileSync(path.join(SITE, "updates.json"), "utf8")).updates
   .slice().sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
-const curatedKeys = feed.filter((entry) => (entry.kind || "document") !== "document").map((entry) => `${entry.date || ""}|${entry.title || ""}`);
-const seenKeys = curatedKeys.slice(6);
+const seenKeys = feed.filter(isCurated).map(updateKey).slice(6);
 
 let device = "mobile";
 async function viewport(kind) {
@@ -123,7 +124,9 @@ async function open({ branch = "all", lang = "en", guideSeen = true, hash = "" }
   await evaluate(`localStorage.clear(); Object.entries(${JSON.stringify(storage)}).forEach(([k, v]) => localStorage.setItem(k, v));`);
   loads += 1;
   await send("Page.navigate", { url: `${BASE}/index.html?load=${loads}${hash ? `#${hash}` : ""}` });
-  await sleep(device === "mobile" ? 3500 : 4500);
+  // Wait for the archive to load, then let the first view settle.
+  for (let i = 0; i < 100 && !(await evaluate("Boolean(document.querySelector('#loading')?.hidden)").catch(() => false)); i += 1) await sleep(150);
+  await sleep(900);
 }
 
 const written = [];
@@ -191,7 +194,7 @@ await shot("16-whats-new");
 await click(".tab[data-tab=story]", 1500);
 await shot("17-story");
 await click(".tab[data-tab=family]", 500);
-await click("#branch-chip-toolbar");
+await click("#branch-chip");
 await shot("18-families-sheet");
 await click(".branch-panel .branch-cta", 400);
 await click("#home-button", 800);
@@ -215,13 +218,13 @@ await shot("23-help-assistant");
 await viewport("desktop");
 await open({ branch: null });
 await shot("01-welcome");
-await click(".branch-help", 800);
+await click(".branch-panel .round-help", 800);
 await shot("01b-start-help");
 await open({ branch: "all" });
 await shot("02-tree-everything");
 await open({ branch: "bohrer" });
 await shot("03-tree-one-family");
-await click("#branch-chip-toolbar");
+await click("#branch-chip");
 await shot("04-families-sheet");
 await click(".branch-panel .branch-cta", 400);
 await open({ branch: "muniz,bohrer" });

@@ -4,6 +4,9 @@
 
 import test from "node:test";
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+
+import { load as parseYaml } from "../../family-tree-viewer/vendor/js-yaml.mjs";
 
 import {
   branchSides,
@@ -28,7 +31,10 @@ import {
 
 // Own events, proven by an original (parish) record unless stated otherwise.
 const born = (year, extra = {}) => [{ type: "birth", role: "principal", status: "confirmed", sourceIds: ["S-PAR"], date: { kind: "exact", value: `${year}-01-01` }, ...extra }];
-const sources = { "S-PAR": { recordCategory: "parish_register" }, "S-PUB": { recordCategory: "published_genealogy" } };
+const sources = {
+  "S-PAR": { recordCategory: "parish_register", sourceForm: "original" },
+  "S-PUB": { recordCategory: "published_genealogy", sourceForm: "authored_narrative" },
+};
 const person = (id, name, sex, extra = {}) => ({ id, name, sex, privacy: "deceased", events: [], children: [], spouses: [], ...extra });
 const parent = (parentId, status = "confirmed") => ({ parentId, status });
 
@@ -70,7 +76,6 @@ const info = computeBranches({ people, parentsByChild, sources });
 test("a branch is a grandparent's line: ancestors, plus collaterals and their spouses", () => {
   assert.deepEqual(info.byKey.bohrer.members, ["P-0007", "P-0014", "P-0015", "P-0016"]);
   assert.deepEqual(info.byKey.armond.members, ["P-0004", "P-0018", "P-0020", "P-0030"]);
-  assert.equal(info.byKey.bohrer.generations, 3);
   assert.equal(info.byKey.bohrer.earliestYear, 1870, "only proven events resting on an original record count");
   assert.ok(!info.personBranches["P-0099"], "a rejected parentage edge is not followed");
   for (const id of ["P-0001", "P-0002", "P-0003"]) assert.ok(!info.personBranches[id], "the living subject and parents are in no branch");
@@ -171,4 +176,14 @@ test("a share summary names the families, counts their people and gives the earl
   assert.equal(shareSummary(info, new Set()).people, 10);
   const undated = computeBranches({ people: { ...people, "P-0004": { ...people["P-0004"], events: [] }, "P-0020": { ...people["P-0020"], events: [] } }, parentsByChild, sources });
   assert.equal(shareSummary(undated, new Set(["armond"])).year, null, "no record year: the message leaves the year out");
+});
+
+test("the shipped Family Story has each of the four rivers exactly once, in both languages", () => {
+  // reorderStory finds the rivers by their headings; a renamed heading would silently stop
+  // the families-first order, so pin it to the real essay.
+  const story = parseYaml(readFileSync(new URL("../../family-tree-viewer/family-story.yaml", import.meta.url), "utf8"));
+  for (const lang of ["en", "pt"]) {
+    const rivers = storyChapters(story[lang]).map((chapter) => chapter.river).filter(Boolean);
+    assert.deepEqual(rivers.sort(), [1, 2, 3, 4], `${lang}: one chapter per river`);
+  }
 });

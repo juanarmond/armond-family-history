@@ -43,6 +43,19 @@
   --shadow-md: 0 18px 36px -16px rgba(48, 38, 18, .3), 0 6px 14px -10px rgba(48, 38, 18, .2);
   --shadow-lg: -26px 0 64px -24px rgba(40, 32, 16, .38);
 
+  /* Stacking, bottom to top: pages, the portrait over the person page, the families sheet, help,
+     the phone's bars (above help's dimming), and the record reader over everything. */
+  --z-page: 20;
+  --z-portrait: 21;
+  --z-sheet: 27;
+  --z-help: 30;
+  --z-bars: 31;
+  --z-reader: 1000;
+
+  /* Form fields and chips; the unread count. */
+  --field: #fffdf6;
+  --badge: #b3412f;
+
   --radius-sm: 5px;
   --radius: 7px;
   --radius-lg: 11px;
@@ -88,7 +101,7 @@ button, input, select { font: inherit; color: inherit; }
 h1, h2, h3, p { margin-top: 0; }
 
 /* Small-caps engraved labels */
-.eyebrow, .summary span, .toolbar label > span:first-child,
+.eyebrow, .summary span, .toolbar label > span:first-child, .toolbar .field-label,
 .detail-section h3, .badge, .site-footer, .generation-stop {
   font-family: var(--sans);
 }
@@ -204,10 +217,6 @@ main {
   box-shadow: var(--shadow-md);
 }
 .search-result {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: .7rem;
   width: 100%;
   min-height: 2.75rem;
   padding: .55rem .85rem;
@@ -223,7 +232,8 @@ main {
 .search-result:last-child { border-bottom: 0; }
 .search-result:hover, .search-result:focus-visible { background: var(--card-2); outline: none; }
 
-.toolbar label > span:first-child {
+.toolbar label > span:first-child,
+.toolbar .field-label {
   display: block;
   margin-bottom: .45rem;
   color: var(--muted);
@@ -240,7 +250,7 @@ input[type="search"] {
   padding: .5rem .85rem;
   border: 1px solid var(--rule-strong);
   border-radius: var(--radius-sm);
-  background-color: #fffdf6;
+  background-color: var(--field);
   color: var(--ink);
   font-family: var(--serif);
   appearance: none;              /* … normalise native control chrome so the WebKit  */
@@ -765,7 +775,7 @@ a:focus-visible {
 
 .detail-panel {
   position: fixed;
-  z-index: 20;
+  z-index: var(--z-page);
   top: 0;
   right: 0;
   display: flex;
@@ -782,7 +792,7 @@ a:focus-visible {
 }
 .panel-backdrop {
   position: fixed;
-  z-index: 19;
+  z-index: calc(var(--z-page) - 1);
   inset: 0;
   background: rgba(41, 34, 20, .42);
   backdrop-filter: blur(2px);
@@ -800,7 +810,7 @@ a:focus-visible {
 
 .story-panel {
   position: fixed;
-  z-index: 20;
+  z-index: var(--z-page);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -919,7 +929,6 @@ a:focus-visible {
 .install-fab:hover { background: var(--gold-soft); box-shadow: 0 0 0 1px var(--gold), var(--shadow-md); }
 .install-fab:active { transform: translateY(1px); }
 .install-fab[hidden] { display: none; }
-@media (max-width: 700px) { .install-fab { bottom: 5.1rem; left: 1.15rem; } }
 
 .help-fab {
   position: fixed;
@@ -944,9 +953,6 @@ a:focus-visible {
 .help-fab:hover { background: var(--gold-soft); box-shadow: 0 0 0 1px var(--gold), var(--shadow-md); }
 .help-fab:active { transform: translateY(1px); }
 .help-fab[hidden] { display: none; }
-/* On mobile the floating "?" is the only help affordance (the focus view has no
-   nav-row "?"); it still auto-hides whenever a panel opens. */
-@media (max-width: 700px) { .help-fab { bottom: 1.15rem; left: 1.15rem; } }
 
 /* Family-history AI assistant — a floating "Ask" pill (bottom-right, clear of the
    bottom-left "?") that opens a chat overlay reusing the .story-panel shell. */
@@ -975,20 +981,6 @@ a:focus-visible {
 .assistant-fab[hidden] { display: none; }
 .assistant-fab-icon { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; }
 .panel-ai-icon { width: 1.1rem; height: 1.1rem; display: block; }
-@media (max-width: 700px) {
-  /* A clean circular chat button on mobile (the label is hidden to save room). */
-  .assistant-fab {
-    bottom: 1.15rem;
-    right: 1.15rem;
-    width: 3.25rem;
-    height: 3.25rem;
-    padding: 0;
-    justify-content: center;
-    border-radius: 50%;
-  }
-  .assistant-fab-label { display: none; }
-  .assistant-fab-icon { width: 1.45rem; height: 1.45rem; }
-}
 
 /* The assistant panel reuses .story-panel positioning; override to a fixed-height
    chat column: scrolling log with a pinned input row. */
@@ -1224,24 +1216,14 @@ a:focus-visible {
 .assistant-disclaimer { flex: 0 0 auto; margin: .7rem 0 0; font-size: .72rem; line-height: 1.5; color: var(--muted); }
 
 @media (max-width: 700px) {
-  /* Full-screen sheet on mobile, matching the other panels (updates/story). */
+  /* On a phone the chat opens between the bars like every page (see "One frame"). */
   .assistant-panel {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100dvh; /* dynamic viewport height: shrinks when the keyboard opens */
-    max-height: none;
-    transform: none;
-    border-radius: 0;
     border-left: 0;
     padding: 1.3rem 1.05rem calc(1.05rem + env(safe-area-inset-bottom));
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
   }
-  /* Header: smaller type, and the × close pinned top-right so it's always reachable. */
-  .assistant-panel .story-head { padding-right: 3.2rem; margin-bottom: 1rem; padding-bottom: .9rem; }
-  .assistant-panel .story-head-actions { position: fixed; top: .7rem; right: .7rem; z-index: 22; }
-  .assistant-panel .story-head-actions button { box-shadow: var(--shadow-md); }
+  .assistant-panel .story-head { margin-bottom: 1rem; padding-bottom: .9rem; }
   .assistant-panel .story-title { font-size: 1.25rem; }
   .assistant-panel .story-subtitle { font-size: .9rem; }
   .assistant-panel .story-eyebrow { font-size: .58rem; }
@@ -1263,8 +1245,8 @@ a:focus-visible {
 
 /* The guide sits above every other panel (detail z20, portrait z21) so "About this
    card / portrait" layers over the panel it explains rather than behind it. */
-.guide-panel { width: min(40rem, 94vw); z-index: 30; }
-#guide-backdrop { z-index: 29; }
+.guide-panel { width: min(40rem, 94vw); z-index: var(--z-help); }
+#guide-backdrop { z-index: calc(var(--z-help) - 1); }
 .guide-content { color: var(--ink); }
 .guide-intro {
   margin: 0 0 1.4rem;
@@ -1372,7 +1354,7 @@ a:focus-visible {
 
 .updates-panel {
   position: fixed;
-  z-index: 20;
+  z-index: var(--z-page);
   top: 0;
   right: 0;
   display: flex;
@@ -1472,22 +1454,12 @@ a:focus-visible {
 
 @media (max-width: 700px) {
   .updates-panel {
-    width: 100%;
-    inset: 0;
-    height: 100%;
     border-left: 0;
     padding: 1.3rem 1.15rem 2.6rem;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
   }
-  .updates-panel .story-head { padding-right: 3.3rem; margin-bottom: 1.1rem; }
-  .updates-panel .story-head-actions {
-    position: fixed;
-    top: .7rem;
-    right: .7rem;
-    z-index: 22;
-  }
-  .updates-panel .story-head-actions button { box-shadow: var(--shadow-md); }
+  .updates-panel .story-head { margin-bottom: 1.1rem; }
   .updates-panel .story-title { font-size: 1.3rem; }
   .updates-panel .story-subtitle { font-size: .92rem; }
   /* Comfortable touch targets for the entity chips on mobile. */
@@ -1497,29 +1469,13 @@ a:focus-visible {
 
 @media (max-width: 700px) {
   .story-panel {
-    top: 0;
-    left: 0;
-    transform: none;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    max-height: none;
     border: 0;
     border-radius: 0;
     padding: 1.3rem 1.15rem 2.6rem;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
   }
-  /* Keep the close/help controls reachable throughout a long read: float the
-     actions cluster, fixed, so the "?" and "×" stay side by side top-right. */
-  .story-head { padding-right: 3.3rem; margin-bottom: 1.1rem; }
-  .story-head-actions {
-    position: fixed;
-    top: .7rem;
-    right: .7rem;
-    z-index: 22;
-  }
-  .story-head-actions button { box-shadow: var(--shadow-md); }
+  .story-head { margin-bottom: 1.1rem; }
   .story-title { font-size: 1.3rem; }
   .story-subtitle { font-size: .92rem; }
   .story-note { font-size: .76rem; }
@@ -1749,7 +1705,7 @@ button.source-link { cursor: pointer; }
 .reader-overlay {
   position: fixed;
   inset: 0;
-  z-index: 1000;
+  z-index: var(--z-reader);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1897,14 +1853,13 @@ button.source-link { cursor: pointer; }
 .portrait .portrait-list li { margin: 0 0 .3rem; }
 .portrait hr { border: 0; border-top: 1px solid var(--rule); margin: .9rem 0; }
 /* Tags wrap like text: a long one ("[LEAD — owner's knowledge; …]") must not push the page sideways. */
-.portrait .tier { font-family: var(--mono, monospace); font-size: .72em; font-weight: 600; letter-spacing: .02em; border-radius: 3px; padding: 0 .28em; overflow-wrap: anywhere; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.portrait .tier, .story-content .tier { font-family: var(--mono, monospace); font-size: .72em; font-weight: 600; letter-spacing: .02em; border-radius: 3px; padding: 0 .28em; overflow-wrap: anywhere; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .portrait .tier-proven, .portrait .tier-documented { color: #1c6b3f; background: rgba(28, 107, 63, .12); }
 .portrait .tier-inferred, .portrait .tier-strong { color: #8a5a12; background: rgba(169, 132, 63, .15); }
 .portrait .tier-lead, .portrait .tier-open, .portrait .tier-contextual { color: #8a3b2e; background: rgba(138, 59, 46, .12); }
 .portrait .tier-resolved { color: #1c6b3f; background: rgba(28, 107, 63, .12); }
 .portrait .tier-approx { color: #8a5a12; background: rgba(169, 132, 63, .15); }
 .portrait .tier-unlocated, .story-content .tier-unlocated { color: #8a3b2e; background: rgba(138, 59, 46, .12); }
-.story-content .tier { font-family: var(--mono, monospace); font-size: .72em; font-weight: 600; border-radius: 3px; padding: 0 .28em; overflow-wrap: anywhere; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .story-content .tier-proven, .story-content .tier-documented, .story-content .tier-resolved { color: #1c6b3f; background: rgba(28, 107, 63, .12); }
 .story-content .tier-inferred, .story-content .tier-strong, .story-content .tier-approx { color: #8a5a12; background: rgba(169, 132, 63, .15); }
 .story-content .tier-lead, .story-content .tier-open, .story-content .tier-contextual { color: #8a3b2e; background: rgba(138, 59, 46, .12); }
@@ -1936,7 +1891,7 @@ body.is-mobile .portrait a.portrait-maplink, body.is-mobile .story-content a.por
    panel left so both stay visible side by side (no modal overlay). */
 .detail-panel.with-portrait { right: min(30rem, 50vw); }
 .portrait-panel {
-  position: fixed; top: 0; right: 0; z-index: 21;
+  position: fixed; top: 0; right: 0; z-index: var(--z-portrait);
   display: flex; flex-direction: column;
   width: min(30rem, 50vw); height: 100%;
   overflow: hidden;
@@ -2105,28 +2060,6 @@ body.is-mobile .portrait a.portrait-maplink, body.is-mobile .story-content a.por
   padding: 1rem 1rem 3rem;
 }
 
-.mobile-nav { display: flex; gap: .6rem; margin-bottom: 1rem; }
-.mobile-nav-btn {
-  min-height: 2.75rem;
-  padding: .5rem 1.05rem;
-  border: 1px solid var(--rule-strong);
-  border-radius: 999px;
-  background: var(--card);
-  color: var(--green-deep);
-  font-family: var(--serif);
-  font-size: .95rem;
-  cursor: pointer;
-}
-.mobile-nav-home { margin-left: auto; }
-/* Compact circular "?" help glyph, matching the pill height of Back / Home. */
-.mobile-nav-help {
-  display: grid;
-  place-items: center;
-  width: 2.75rem;
-  padding: 0;
-  font-weight: 700;
-}
-.mobile-nav-btn:active { transform: translateY(1px); }
 
 .mobile-focus-head {
   padding: 1.35rem 1.2rem 1.4rem;
@@ -2187,8 +2120,6 @@ button.mobile-row { cursor: pointer; }
 button.mobile-row:hover { border-color: var(--gold); }
 button.mobile-row:active { transform: translateY(1px); background: var(--card-2); }
 .mobile-row.is-static { color: var(--ink-2); background: transparent; border-style: dashed; }
-.mobile-row-name { flex: 1 1 auto; min-width: 0; }
-.mobile-row-meta { color: var(--muted); font-size: .82rem; white-space: nowrap; }
 .mobile-row-chevron { color: var(--gold); font-size: 1.3rem; line-height: 1; }
 .mobile-empty { margin: 0; color: var(--faint); font-style: italic; font-size: .9rem; }
 .mobile-hint { margin: 1.8rem 0 0; text-align: center; color: var(--faint); font-size: .78rem; }
@@ -2201,38 +2132,10 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
   /* Generations only affects the pedigree, which is hidden in the focus view. */
   .toolbar .field-gen { display: none; }
 
-  /* The detail panel is a full-screen page on mobile (not a partial floating sheet). */
-  .detail-panel {
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    max-height: none;
-    padding: 1.3rem 1.15rem 2.6rem;
-    border-left: 0;
-    border-radius: 0;
-  }
-  /* Keep the "?" (About this card) and × floating/reachable while scrolling the
-     full-screen detail page — same treatment as the Story/Novidades panels. */
-  .detail-head { padding-right: 6rem; }
-  .detail-head-actions {
-    position: fixed;
-    top: .9rem;
-    right: .9rem;
-    z-index: 22;
-  }
-  .detail-head-actions button { box-shadow: var(--shadow-md); }
-  .close-button, .portrait-close { min-width: 2.75rem; min-height: 2.75rem; }
-
-  /* No room to dock the Portrait beside the sheet on a phone: open it full-screen
-     over the detail sheet, and drop the desktop side-shift. */
-  .portrait-panel {
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    border-left: 0;
-    box-shadow: none;
-  }
-  .detail-panel.with-portrait { right: auto; }
+  /* The person page and the portrait open between the bars (see "One frame"). */
+  .detail-panel { padding: 1.3rem 1.15rem 2.6rem; border-left: 0; }
+  .portrait-panel { border-left: 0; box-shadow: none; }
+  .detail-panel.with-portrait { right: 0; } /* no desktop side-shift on a phone */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -2245,7 +2148,6 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
 /* Each branch has a colour (branches.js), set per element as --b. The colours stay clear of
    the evidence-tier colours, so a branch tag never reads as an evidence badge. */
 
-.site-header { position: relative; }
 .brand-emblem { padding: 0; border: 0; border-radius: 50%; background: none; cursor: pointer; }
 
 .branch-chip {
@@ -2256,7 +2158,7 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
   padding: .4rem .9rem .4rem .75rem;
   border: 1px solid var(--rule-strong);
   border-radius: 999px;
-  background: #fffdf6;
+  background: var(--field);
   color: var(--ink-2);
   font-family: var(--sans);
   font-size: .85rem;
@@ -2267,18 +2169,7 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
 .branch-chip:hover { background: var(--gold-soft); border-color: var(--gold); }
 .branch-chip-label { min-width: 0; }
 .branch-chip-caret { color: var(--muted); font-size: .7rem; }
-.header-help, .header-back, .header-lang { display: none; } /* phone top bar only; desktop keeps the floating ? */
 .toolbar .field-branch { display: flex; flex-direction: column; flex: 0 0 auto; }
-.toolbar .field-label {
-  display: block;
-  margin-bottom: .45rem;
-  color: var(--muted);
-  font-family: var(--sans);
-  font-size: .66rem;
-  font-weight: 700;
-  letter-spacing: .13em;
-  text-transform: uppercase;
-}
 
 .branch-dots { display: inline-flex; align-items: center; }
 .branch-dot {
@@ -2286,7 +2177,7 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
   height: .62rem;
   border-radius: 50%;
   background: var(--b);
-  border: 1.5px solid #fffdf6;
+  border: 1.5px solid var(--field);
 }
 .branch-dot + .branch-dot { margin-left: -.22rem; }
 
@@ -2317,7 +2208,7 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
   margin-left: .45rem;
   padding: 0 .3rem;
   border-radius: 999px;
-  background: #b3412f;
+  background: var(--badge);
   color: #fff;
   font-family: var(--sans);
   font-size: .66rem;
@@ -2329,7 +2220,7 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
 .update-new {
   padding: .05rem .45rem;
   border-radius: 999px;
-  background: #b3412f;
+  background: var(--badge);
   color: #fff;
   font-family: var(--sans);
   font-size: .62rem;
@@ -2362,7 +2253,6 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
 }
 .segmented button[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: var(--shadow-xs); }
 .search-results .segmented { position: sticky; top: .4rem; z-index: 1; margin: .4rem .5rem .3rem; }
-.search-result .branch-tags { flex: 0 0 auto; }
 .search-more {
   display: block;
   width: 100%;
@@ -2393,8 +2283,8 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
 .story-scope-note p { flex: 1 1 14rem; margin: 0; color: var(--ink-2); font-family: var(--sans); font-size: .82rem; line-height: 1.45; }
 
 /* The families panel: the first-visit question, and the sheet behind the chip. */
-.branch-panel { --branch-pad: 1.6rem; width: min(34rem, 94vw); z-index: 27; padding: 1.8rem var(--branch-pad) 0; }
-#branch-backdrop { z-index: 26; }
+.branch-panel { --branch-pad: 1.6rem; width: min(34rem, 94vw); z-index: var(--z-sheet); padding: 1.8rem var(--branch-pad) 0; }
+#branch-backdrop { z-index: calc(var(--z-sheet) - 1); }
 .branch-head { margin-bottom: 1rem; }
 .branch-lede { margin: .45rem 0 0; color: var(--muted); font-size: .95rem; line-height: 1.5; }
 .branch-or {
@@ -2543,10 +2433,10 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
 /* The logo and the title lead back to the family question. */
 .title-button { padding: 0; border: 0; background: none; color: inherit; font: inherit; letter-spacing: inherit; text-align: left; cursor: pointer; }
 .title-button:hover { color: var(--green-deep); }
-.branch-head { position: relative; }
 .branch-head-actions { float: right; display: flex; align-items: center; gap: .45rem; margin: 0 0 .6rem .8rem; }
 .branch-lang { width: 6.4rem; margin: 0; }
-.branch-help {
+/* The round "?" — the phone's top bar and the family question. */
+.round-help {
   display: grid;
   flex: none;
   place-items: center;
@@ -2555,14 +2445,14 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
   padding: 0;
   border: 1px solid var(--rule-strong);
   border-radius: 50%;
-  background: #fffdf6;
+  background: var(--field);
   color: var(--green-deep);
   font-family: var(--sans);
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
 }
-.branch-help:hover { background: var(--gold-soft); border-color: var(--gold); }
+.round-help:hover { background: var(--gold-soft); border-color: var(--gold); }
 .branch-install {
   display: block;
   margin: .7rem auto 0;
@@ -2579,7 +2469,6 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
 
 /* Mobile home: the grandparents, the surname index. */
 .mobile-row.has-branch-edge { border-left: 4px solid var(--b); }
-.mobile-row .branch-tags { flex: 0 0 auto; }
 .home-married { margin: .1rem .2rem 0; color: var(--muted); font-size: .85rem; }
 .home-browse {
   display: block;
@@ -2614,18 +2503,89 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
 .surname-chip-all { border-color: var(--green); color: var(--green); font-family: var(--sans); font-size: .82rem; font-weight: 700; }
 .mobile-screen-title { margin: 0 0 .5rem; font-size: 1.25rem; }
 .mobile-focus-tags { margin: .45rem 0 0; }
-.detail-head .detail-back { display: none; } /* phone only (see the mobile chrome below) */
 
-/* ---------- Mobile app chrome: compact header, bottom tab bar ---------- */
-.tabbar { display: none; }
+/* ---------- Person rows: name on top; flag and family tag aligned on the right ---------- */
+.person-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: .6rem;
+  row-gap: .2rem;
+}
+.person-grid .pg-line { grid-column: 1; display: flex; align-items: center; gap: .6rem; min-width: 0; }
+.person-grid .pg-name { flex: 1 1 auto; min-width: 0; line-height: 1.3; }
+.person-grid .pg-flag { flex: none; margin-left: auto; }
+.person-grid .pg-sub { flex: 1 1 auto; color: var(--muted); font-family: var(--sans); font-size: .78rem; line-height: 1.4; }
+.person-grid .pg-tags { flex: none; margin-left: auto; justify-content: flex-end; }
+.person-grid .pg-chev { grid-column: 2; grid-row: 1 / span 2; }
+.search-result.person-grid { grid-template-columns: minmax(0, 1fr); }
 
+/* The install steps in "How the app works". */
+.guide-install-platform { margin: .9rem 0 .35rem; font-family: var(--sans); font-size: .82rem; font-weight: 700; color: var(--green-deep); }
+.guide-install-steps { margin: 0; padding-left: 1.25rem; font-size: .9rem; line-height: 1.5; }
+.guide-install-steps li + li { margin-top: .25rem; }
+.guide-install-done { color: var(--confirmed); font-weight: 600; }
+
+/* ---------- Phone and desktop only ---------- */
+.phone-only { display: none; }
+
+/* ---------- One frame for every phone screen (≤ 700px) ----------
+   Every screen sits between a top bar (the logo and title, or ‹ Back once deeper; ? for the
+   screen on top; EN | PT on the family question) and the bottom tab bar. Pages open between the
+   two; the controls they carry on desktop (×, ?, Ask AI, the floating buttons) give way. */
 @media (max-width: 700px) {
-  :root { --tabbar-h: calc(3.85rem + env(safe-area-inset-bottom)); }
+  :root {
+    --header-h: calc(3.3rem + env(safe-area-inset-top));
+    --tabbar-h: calc(3.85rem + env(safe-area-inset-bottom));
+  }
   body { padding-bottom: var(--tabbar-h); }
+  .desktop-only { display: none !important; }
 
+  /* Top bar */
+  .site-header {
+    position: sticky;
+    z-index: var(--z-bars);
+    top: 0;
+    height: var(--header-h);
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: .6rem;
+    padding: env(safe-area-inset-top) 1rem 0;
+    border-bottom: 1px solid var(--rule-strong);
+    background: var(--card);
+  }
+  body.sheet-open .site-header { z-index: auto; } /* the families sheet dims the bar like the page */
+  .site-title { order: 1; flex: 1 1 auto; min-width: 0; }
+  .site-title .eyebrow, .site-title .subtitle { display: none; }
+  .site-header h1 { margin: 0; color: var(--green-deep); font-size: 1.15rem; }
+  .site-header h1 .title-button { display: block; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .brand-emblem { order: 0; width: 2.3rem; height: 2.3rem; filter: none; }
+  .header-back {
+    order: 0;
+    align-items: center;
+    gap: .3rem;
+    margin-right: auto;
+    padding: .35rem .2rem;
+    border: 0;
+    background: none;
+    color: var(--green-deep);
+    font-family: var(--sans);
+    font-size: 1.02rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  body.can-go-back .header-back { display: inline-flex; }
+  body.can-go-back .site-header .brand-emblem,
+  body.can-go-back .site-title { display: none; }
+  body.welcome-open .header-lang { order: 2; display: flex; }
+  .header-lang .branch-lang { width: 5.6rem; }
+  .header-help { order: 3; display: grid; }
+  body.header-help-off .header-help { visibility: hidden; }
+
+  /* Bottom bar */
   .tabbar {
     position: fixed;
-    z-index: 25;
+    z-index: var(--z-bars);
     right: 0;
     bottom: 0;
     left: 0;
@@ -2635,10 +2595,10 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
     height: var(--tabbar-h);
     padding: .3rem .3rem env(safe-area-inset-bottom);
     border-top: 1px solid var(--rule-strong);
-    background: rgba(251, 246, 234, .97);
+    background: var(--card);
     box-shadow: 0 -6px 18px -12px rgba(48, 38, 18, .35);
-    backdrop-filter: blur(6px);
   }
+  body.welcome-open .tabbar, body.sheet-open .tabbar { display: none; }
   .tab {
     position: relative;
     display: flex;
@@ -2660,174 +2620,38 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
   .tab.is-active { color: var(--green); }
   .tab .count-badge { position: absolute; top: .05rem; left: calc(50% + .3rem); margin: 0; border: 2px solid var(--card); }
 
-  /* Every section fills the screen above the bar; the bar is how you move between them,
-     so their × buttons give way (the person page gets ‹ Back instead). */
-  .detail-panel,
-  .updates-panel,
-  .portrait-panel,
-  .story-panel:not(.guide-panel):not(.branch-panel):not(.assistant-panel) { bottom: var(--tabbar-h); height: auto; }
-  .assistant-panel { height: calc(100dvh - var(--tabbar-h)); }
-  #close-story, #close-updates, #close-assistant, #close-details { display: none; }
-  /* Ask AI lives in the bottom bar, so no page repeats it at the top. */
-  .panel-ai-btn { display: none !important; }
-  .detail-head .detail-back {
-    display: inline-flex;
-    align-items: center;
-    gap: .3rem;
+  /* Every page opens between the bars. */
+  :is(.detail-panel, .updates-panel, .portrait-panel, .story-panel, .reader-overlay) {
+    inset: var(--header-h) 0 var(--tabbar-h);
     width: auto;
     height: auto;
-    min-height: 2.6rem;
-    margin: 0 0 .9rem;
-    padding: .4rem .95rem;
-    border: 1px solid var(--rule-strong);
-    border-radius: 999px;
-    background: var(--card);
-    color: var(--green-deep);
-    font-family: var(--serif);
-    font-size: .95rem;
-    cursor: pointer;
+    max-height: none;
+    transform: none;
+    border-radius: 0;
   }
-  .help-fab, .assistant-fab, .install-fab { display: none !important; }
+  /* The chat follows the keyboard (dynamic viewport height). */
+  .assistant-panel { bottom: auto; height: calc(100dvh - var(--header-h) - var(--tabbar-h)); }
+  /* The start page covers the bottom bar; the families sheet rises from the bottom. */
+  .branch-panel { --branch-pad: 1.15rem; padding: 1.3rem var(--branch-pad) 0; }
+  .branch-panel.is-welcome { bottom: 0; }
+  .branch-panel:not(.is-welcome) { top: auto; bottom: 0; max-height: 90dvh; border-top: 1px solid var(--gold); border-radius: 16px 16px 0 0; }
+  .reader-overlay { padding: 0; }
+  .reader-dialog { width: 100%; height: 100%; max-height: none; border: 0; border-radius: 0; }
 
-  /* A compact, sticky app bar: emblem (menu) · title · families chip. */
-  .site-header {
-    position: sticky;
-    z-index: 18;
-    top: 0;
-    flex-wrap: nowrap;
-    align-items: center;
-    gap: .6rem;
-    padding: calc(.5rem + env(safe-area-inset-top)) 1rem .5rem;
-    border-bottom: 1px solid var(--rule-strong);
-    background: rgba(251, 246, 234, .97);
-    backdrop-filter: blur(6px);
-  }
-  .site-title { order: 1; flex: 1 1 auto; min-width: 0; }
-  .site-title .eyebrow, .site-title .subtitle { display: none; }
-  .site-header h1 { margin: 0; overflow: hidden; color: var(--green-deep); font-size: 1.15rem; text-overflow: ellipsis; white-space: nowrap; }
-  .brand-emblem { order: 0; width: 2.3rem; height: 2.3rem; filter: none; }
-  .header-help {
-    order: 3;
-    display: grid;
-    flex: none;
-    place-items: center;
-    width: 2.3rem;
-    height: 2.3rem;
-    padding: 0;
-    border: 1px solid var(--rule-strong);
-    border-radius: 50%;
-    background: #fffdf6;
-    color: var(--green-deep);
-    font-family: var(--sans);
-    font-size: 1rem;
-    font-weight: 700;
-    cursor: pointer;
-  }
-  .header-help:hover { background: var(--gold-soft); border-color: var(--gold); }
-
-  /* The toolbar keeps only the search box; the rest lives in the chip, the menu and the bar. */
+  /* The toolbar keeps the families chip and the search box; its results span the row. */
   main { padding-top: 1rem; }
-  .toolbar { margin: 0 0 .4rem; padding: 0; border: 0; background: none; box-shadow: none; }
+  .toolbar { position: relative; align-items: center; gap: .55rem; margin: 0 0 .4rem; padding: 0; border: 0; background: none; box-shadow: none; }
   .toolbar > :not(.search-field):not(.field-branch) { display: none; }
-  .toolbar .search-field > span:first-child { display: none; }
-  .summary { display: none; }
-
-  /* The families sheet rises from the bottom; the first-visit question fills the screen. */
-  .branch-panel { --branch-pad: 1.15rem; right: 0; left: 0; width: 100%; padding: 1.3rem var(--branch-pad) 0; }
-  .branch-panel:not(.is-welcome) { top: auto; bottom: 0; height: auto; max-height: 90dvh; border-top: 1px solid var(--gold); border-radius: 16px 16px 0 0; }
-}
-@media (max-width: 700px) {
-  /* On a phone the results list may use most of the screen, at the search box's width. */
+  .toolbar .field-branch .field-label, .toolbar .search-field > span:first-child { display: none; }
+  .toolbar .search-field { position: static; flex: 1 1 9rem; }
   .search-results { min-width: 0; max-height: min(62vh, 32rem); }
-  /* Jumping to a person scrolls the view to the top — below the sticky header, not under it. */
-  .mobile-view { scroll-margin-top: 4.2rem; }
+  .summary { display: none; }
+  /* Jumping to a person scrolls the view to the top — below the sticky top bar, not under it. */
+  .mobile-view { scroll-margin-top: var(--header-h); }
 }
 @media (max-width: 380px) {
-  /* Small phones: emblem, title, chip and help still share one row. */
+  /* Small phones: the logo, title and ? still share one row. */
   .site-header { gap: .45rem; padding-right: .8rem; padding-left: .8rem; }
   .site-header h1 { font-size: 1.02rem; }
   .brand-emblem, .header-help { width: 2.1rem; height: 2.1rem; }
-}
-
-/* ---------- Person rows: name on top; flag and family tag aligned on the right ---------- */
-.person-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: center;
-  column-gap: .6rem;
-  row-gap: .2rem;
-}
-.person-grid .pg-line { grid-column: 1; display: flex; align-items: center; gap: .6rem; min-width: 0; }
-.person-grid .pg-name { flex: 1 1 auto; min-width: 0; line-height: 1.3; }
-.person-grid .pg-flag { flex: none; margin-left: auto; }
-.person-grid .pg-sub { flex: 1 1 auto; color: var(--muted); font-family: var(--sans); font-size: .78rem; line-height: 1.4; }
-.person-grid .pg-tags { flex: none; margin-left: auto; justify-content: flex-end; }
-.person-grid .pg-chev { grid-column: 2; grid-row: 1 / span 2; }
-.search-result.person-grid { grid-template-columns: minmax(0, 1fr); }
-@media (max-width: 700px) {
-  .site-header h1 .title-button { display: block; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-}
-
-/* The install steps in "How the app works". */
-.guide-install-platform { margin: .9rem 0 .35rem; font-family: var(--sans); font-size: .82rem; font-weight: 700; color: var(--green-deep); }
-.guide-install-steps { margin: 0; padding-left: 1.25rem; font-size: .9rem; line-height: 1.5; }
-.guide-install-steps li + li { margin-top: .25rem; }
-.guide-install-done { color: var(--confirmed); font-weight: 600; }
-
-/* ---------- One frame for every phone screen ----------
-   The top bar (logo and title, or ‹ Back once deeper; ? for the screen on top; EN | PT on the
-   family question) and the bottom bar frame every page. Pages open between the two, and their
-   own close, help and Ask AI buttons give way to the bars. */
-@media (max-width: 700px) {
-  :root { --header-h: calc(3.3rem + env(safe-area-inset-top)); }
-  .site-header { z-index: 31; height: var(--header-h); padding-top: env(safe-area-inset-top); padding-bottom: 0; }
-  body.sheet-open .site-header { z-index: 18; } /* the families sheet dims the bar like the page */
-  .header-back {
-    order: 0;
-    align-items: center;
-    gap: .3rem;
-    margin-right: auto;
-    padding: .35rem .2rem;
-    border: 0;
-    background: none;
-    color: var(--green-deep);
-    font-family: var(--sans);
-    font-size: 1.02rem;
-    font-weight: 600;
-    cursor: pointer;
-  }
-  body.can-go-back .header-back { display: inline-flex; }
-  body.can-go-back .site-header .brand-emblem,
-  body.can-go-back .site-title { display: none; }
-  body.welcome-open .header-lang { order: 2; display: flex; }
-  .header-lang .branch-lang { width: 5.6rem; }
-  body.header-help-off .header-help { visibility: hidden; }
-
-  /* Pages open between the bars. */
-  .detail-panel, .updates-panel, .portrait-panel, .story-panel { top: var(--header-h); }
-  .assistant-panel { height: calc(100dvh - var(--header-h) - var(--tabbar-h)); }
-  .branch-panel:not(.is-welcome) { top: auto; }
-  .reader-overlay { top: var(--header-h); bottom: var(--tabbar-h); padding: 0; }
-  .guide-panel { bottom: var(--tabbar-h); }
-  /* The bar stays tappable above help's dimming; only the family question and the families
-     sheet (which has its own Done) hide it. */
-  .tabbar { z-index: 32; }
-  body.welcome-open .tabbar, body.sheet-open .tabbar { display: none; }
-  .reader-dialog { width: 100%; height: 100%; max-height: none; border: 0; border-radius: 0; }
-  .reader-close { display: none; }
-
-  /* Their own buttons give way to the bars. */
-  .story-head-actions, .detail-head-actions, .portrait-panel-actions, .branch-head-actions { display: none !important; }
-  .detail-head .detail-back { display: none !important; }
-  .story-head, .updates-panel .story-head, .assistant-panel .story-head, .detail-head { padding-right: 0; }
-
-  /* The families chip sits beside the search box. */
-  .toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem; }
-  .toolbar > .field-branch { display: flex; flex: 0 0 auto; }
-  .toolbar .field-branch .field-label { display: none; }
-  .toolbar .field-branch .branch-chip { min-height: 2.85rem; }
-  .toolbar .search-field { flex: 1 1 9rem; }
-  /* The results list spans the whole row (chip and box), not just the narrower box. */
-  .toolbar { position: relative; }
-  .toolbar .search-field { position: static; }
 }

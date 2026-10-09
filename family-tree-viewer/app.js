@@ -2,11 +2,12 @@ import { createI18n, resolveLocale, SUPPORTED_LOCALES } from "./i18n.js";
 import { load as parseYaml } from "./vendor/js-yaml.mjs";
 import {
   branchSides,
+  chosenBranches,
   computeBranches,
   entryBranches,
-  entryInScope,
   inScope,
   isCurated,
+  keysInScope,
   normaliseScope,
   parseScope,
   reorderStory,
@@ -17,6 +18,7 @@ import {
   surnameIndex,
   SUBJECT_ID,
   updateKey,
+  visibleParents,
 } from "./branches.js";
 
 const LANG_STORAGE_KEY = "armond-viewer-lang";
@@ -239,14 +241,13 @@ const elements = {
   assistantInput: document.querySelector("#assistant-input"),
   assistantSend: document.querySelector("#assistant-send"),
   assistantHelp: document.querySelector("#assistant-help"),
-  branchChipToolbar: document.querySelector("#branch-chip-toolbar"),
+  branchChip: document.querySelector("#branch-chip"),
   branchPanel: document.querySelector("#branch-panel"),
   branchBackdrop: document.querySelector("#branch-backdrop"),
   branchContent: document.querySelector("#branch-content"),
   tabs: [...document.querySelectorAll("#tabbar [data-tab]")],
   homeButton: document.querySelector("#home-button"),
   titleButton: document.querySelector("#title-button"),
-  detailsBack: document.querySelector("#details-back"),
   headerHelp: document.querySelector("#header-help"),
   headerBack: document.querySelector("#header-back"),
   headerLang: document.querySelector("#header-lang"),
@@ -332,6 +333,39 @@ function relationshipVisible(relationship) {
 
 const firstName = (name) => String(name || "").split(" ")[0];
 
+// ---------- Small shared helpers ----------
+function storageGet(key) {
+  try { return localStorage.getItem(key); } catch { return null; }
+}
+function storageSet(key, value) {
+  try { localStorage.setItem(key, value); } catch { /* storage unavailable */ }
+}
+const isStandalone = () => window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+// Give focus back to whatever had it before a layer opened.
+function restoreFocus() {
+  if (lastFocused && lastFocused.isConnected && typeof lastFocused.focus === "function") lastFocused.focus();
+  lastFocused = null;
+}
+// A URL's address part from its parameters, keeping commas readable (#branch=muniz,bohrer).
+const toHash = (params) => `#${params.toString().replace(/%2C/g, ",")}`;
+// A row of toggle buttons: [{ label, pressed, onPick, lang? }].
+function segmented(options, className = "segmented", ariaLabel = "") {
+  const group = document.createElement("div");
+  group.className = className;
+  group.setAttribute("role", "group");
+  if (ariaLabel) group.setAttribute("aria-label", ariaLabel);
+  for (const option of options) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = option.label;
+    if (option.lang) button.lang = option.lang;
+    button.setAttribute("aria-pressed", String(option.pressed));
+    button.addEventListener("click", option.onPick);
+    group.append(button);
+  }
+  return group;
+}
+
 // Who "Relationship to …" refers to. The subject is living, so the public site withholds
 // their name; say "the archive's owner" rather than print the placeholder.
 function subjectLabel() {
@@ -340,14 +374,13 @@ function subjectLabel() {
 }
 
 // ---------- Family branches ----------
-const chosenBranches = () =>
-  state.branches ? state.branches.list.filter((branch) => !state.scope.size || state.scope.has(branch.key)) : [];
+const scopeBranches = (scope = state.scope) => (state.branches ? chosenBranches(state.branches, scope) : []);
 const personInScope = (personId) => !state.branches || inScope(state.branches, state.scope, personId);
 
 // "Everything", or the chosen branches joined: "Muniz + Bohrer".
 function scopeLabel(scope = state.scope) {
   if (!state.branches || !scope.size) return t("branch.everything");
-  return state.branches.list.filter((branch) => scope.has(branch.key)).map((branch) => branch.label).join(" + ");
+  return scopeBranches(scope).map((branch) => branch.label).join(" + ");
 }
 
 function branchDots(keys) {
@@ -788,7 +821,7 @@ function syncHash() {
   params.set("lang", state.locale);
   if (state.branches && state.scope.size) params.set("branch", serialiseScope(state.scope, state.branches));
   if (state.selected) params.set("sel", state.selected);
-  const next = `#${params.toString().replace(/%2C/g, ",")}`;
+  const next = toHash(params);
   if (next !== location.hash) history.replaceState(null, "", next);
 }
 
@@ -869,20 +902,7 @@ function renderSearchResults(query) {
   const showAll = !state.scope.size || state.searchAll;
   const matches = (showAll ? everyone : scoped).slice(0, 12);
 
-  if (state.scope.size) {
-    const switcher = document.createElement("div");
-    switcher.className = "segmented search-scope";
-    switcher.setAttribute("role", "group");
-    for (const [all, label] of [[false, t("search.scope", { n: scoped.length })], [true, t("search.everyone", { n: everyone.length })]]) {
-      const option = document.createElement("button");
-      option.type = "button";
-      option.textContent = label;
-      option.setAttribute("aria-pressed", String(all === showAll));
-      option.addEventListener("click", () => setSearchAll(all));
-      switcher.append(option);
-    }
-    box.append(switcher);
-  }
+  if (state.scope.size) box.append(scopeSwitch(scoped.length, everyone.length, showAll, "search.everyone", setSearchAll));
   if (!matches.length) {
     const empty = document.createElement("p");
     empty.className = "search-empty";
@@ -986,7 +1006,7 @@ function renderVisitorWelcome() {
 async function initVisitorWelcome() {
   if (!VISITOR_API || !elements.visitorWelcome) return;
   let stored = null;
-  try { stored = localStorage.getItem(VISITOR_NUM_KEY); } catch { /* storage unavailable */ }
+  stored = storageGet(VISITOR_NUM_KEY);
   const endpoint = VISITOR_API + (stored ? "" : "?new=1");
   try {
     const res = await fetch(endpoint, { cache: "no-store" });
@@ -995,7 +1015,7 @@ async function initVisitorWelcome() {
     const number = stored ? Number(stored) : data.number;
     if (!Number.isFinite(number) || number <= 0) return;
     if (!stored) {
-      try { localStorage.setItem(VISITOR_NUM_KEY, String(number)); } catch { /* ignore */ }
+      storageSet(VISITOR_NUM_KEY, String(number));
     }
     state.visitor = { number, country: data.country || "" };
     renderVisitorWelcome();
@@ -1006,12 +1026,13 @@ function setLocale(locale) {
   const next = SUPPORTED_LOCALES.includes(locale) ? locale : "en";
   state.locale = next;
   i18n = createI18n(next);
-  try { localStorage.setItem(LANG_STORAGE_KEY, next); } catch { /* storage unavailable */ }
+  storageSet(LANG_STORAGE_KEY, next);
   if (elements.languageSelect) elements.languageSelect.value = next;
   applyStaticTranslations();
   renderVisitorWelcome();
   renderBranchChips();
   updateSearchPlaceholder();
+  syncLanguageSwitches();
   if (elements.branchPanel && !elements.branchPanel.hidden) renderBranchPanel();
   if (elements.guidePanel && !elements.guidePanel.hidden) renderGuide();
   if (elements.storyPanel && !elements.storyPanel.hidden) openStory();
@@ -1033,7 +1054,7 @@ function setLocale(locale) {
 function resolveInitialLocale(hashLang) {
   if (hashLang && SUPPORTED_LOCALES.includes(hashLang)) return hashLang;
   let stored = null;
-  try { stored = localStorage.getItem(LANG_STORAGE_KEY); } catch { /* storage unavailable */ }
+  stored = storageGet(LANG_STORAGE_KEY);
   if (stored && SUPPORTED_LOCALES.includes(stored)) return stored;
   const nav = typeof navigator !== "undefined"
     ? (navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language])
@@ -1247,14 +1268,9 @@ function externalLink(href, label, extraClass = "") {
   return anchor;
 }
 
-let readerKeyHandler = null;
 function closeReader() {
   const overlay = document.querySelector(".reader-overlay");
   if (overlay) overlay.remove();
-  if (readerKeyHandler) {
-    document.removeEventListener("keydown", readerKeyHandler);
-    readerKeyHandler = null;
-  }
   if (returnToAssistant) { returnToAssistant = false; openAssistant(); }
   syncHeader();
 }
@@ -1262,15 +1278,10 @@ function closeReader() {
 // The "Portrait / Retrato" layer: opened from the "More details" link inside the
 // biography. It docks as its OWN panel at the right edge and pushes the details panel
 // left, so both stay visible side by side (no modal overlay / no dimming).
-let portraitKeyHandler = null;
 function closePortrait() {
   const panel = document.querySelector(".portrait-panel");
   if (panel) panel.remove();
   if (elements.detailsPanel) elements.detailsPanel.classList.remove("with-portrait");
-  if (portraitKeyHandler) {
-    document.removeEventListener("keydown", portraitKeyHandler);
-    portraitKeyHandler = null;
-  }
   syncHeader();
 }
 function openPortrait(person) {
@@ -1300,7 +1311,7 @@ function openPortrait(person) {
   closeBtn.setAttribute("aria-label", t("reader.close"));
   closeBtn.addEventListener("click", closePortrait);
   const actions = document.createElement("div");
-  actions.className = "portrait-panel-actions";
+  actions.className = "portrait-panel-actions desktop-only";
   if (ASSISTANT_API) {
     const askAiBtn = document.createElement("button");
     askAiBtn.type = "button";
@@ -1323,14 +1334,6 @@ function openPortrait(person) {
   document.body.appendChild(panel);
   if (elements.detailsPanel) elements.detailsPanel.classList.add("with-portrait");
   syncHeader();
-
-  portraitKeyHandler = (event) => {
-    if (event.key !== "Escape") return;
-    // A help overlay on top of the portrait takes Escape first.
-    if (elements.guidePanel && !elements.guidePanel.hidden) return;
-    closePortrait();
-  };
-  document.addEventListener("keydown", portraitKeyHandler);
 }
 
 // Render a transcript, styling only genuine gap/uncertainty markers ([torn],
@@ -1574,7 +1577,7 @@ function openReader(source) {
   closeBtn.setAttribute("aria-label", t("reader.close"));
   closeBtn.addEventListener("click", closeReader);
   const headerBtns = document.createElement("div");
-  headerBtns.className = "reader-header-btns";
+  headerBtns.className = "reader-header-btns desktop-only";
   if (ASSISTANT_API) {
     const readerAskAi = document.createElement("button");
     readerAskAi.type = "button";
@@ -1648,10 +1651,6 @@ function openReader(source) {
   overlay.appendChild(dialog);
   document.body.appendChild(overlay);
   syncHeader();
-  readerKeyHandler = (event) => {
-    if (event.key === "Escape") closeReader();
-  };
-  document.addEventListener("keydown", readerKeyHandler);
 }
 
 function readerOpenButton(source) {
@@ -1980,7 +1979,7 @@ async function openStory() {
   try {
     const text = await loadStory(state.locale);
     // The story is written as four rivers; a reader following some families gets theirs first.
-    const rivers = state.scope.size && !state.storyFullOrder ? chosenBranches().map((branch) => branch.river) : [];
+    const rivers = state.scope.size && !state.storyFullOrder ? scopeBranches().map((branch) => branch.river) : [];
     renderPortrait(elements.storyContent, rivers.length ? reorderStory(text, rivers) : text);
     if (state.scope.size) elements.storyContent.prepend(storyScopeNote());
     if (opening) elements.storyContent.scrollTop = 0;
@@ -2013,10 +2012,7 @@ function closeStory() {
   if (!elements.storyPanel) return;
   elements.storyPanel.hidden = true;
   elements.storyBackdrop.hidden = true;
-  if (lastFocused && lastFocused.isConnected && typeof lastFocused.focus === "function") {
-    lastFocused.focus();
-  }
-  lastFocused = null;
+  restoreFocus();
 }
 
 // AI family-history assistant — a chat overlay backed by the family-assistant Worker
@@ -2049,25 +2045,21 @@ function closeAssistant() {
   if (!elements.assistantPanel) return;
   elements.assistantPanel.hidden = true;
   elements.assistantBackdrop.hidden = true;
-  if (lastFocused && lastFocused.isConnected && typeof lastFocused.focus === "function") {
-    lastFocused.focus();
-  }
-  lastFocused = null;
+  restoreFocus();
 }
 
 // Build a pool of context-specific questions when a person's details panel is open.
 // Picks templates that apply to the person's actual data (skips e.g. "Who were X's
 // children?" when they have none), then shuffles and returns up to 6.
 function personContextQuestions(person) {
-  const name = person.name;
-  const firstName = name.split(" ")[0];
+  const personFirst = firstName(person.name);
   const rootPerson = state.data?.people[state.rootId];
   // A living root's name is withheld on the public site — no "related to Private?" question.
   const rootFirst = rootPerson && rootPerson.id !== person.id && rootPerson.privacy !== "living"
     ? firstName(rootPerson.name)
     : null;
   const repl = (key, extra) => {
-    let s = t(key).replace("{name}", firstName);
+    let s = t(key).replace("{name}", personFirst);
     if (extra) s = s.replace("{root}", extra);
     return s;
   };
@@ -2450,19 +2442,14 @@ function renderGuideNav(container, name) {
     [t("guide.search.title"), t("guide.search.body")],
     [t("guide.records.title"), mobile ? t("guide.records.mobile") : t("guide.records.desktop")],
   ];
-  if (mobile) rows.push([t("guide.tabs.title"), t("guide.tabs.body")]);
+  if (mobile) rows.push([t("guide.start.bottom.label"), t("guide.tabs.body")]);
   if (ASSISTANT_API) rows.push([t("guide.ai.title"), mobile ? t("guide.ai.body.mobile") : t("guide.ai.body.desktop")]);
   rows.forEach(([title, body], index) => steps.append(guideStep(index + 1, title, body)));
   container.append(steps);
 
   // Legend — what a lay reader cannot decode on sight: the family colours, the nationality flag,
   // the evidence strength and the two badges.
-  const legend = document.createElement("div");
-  legend.className = "guide-legend";
-  const legendTitle = document.createElement("p");
-  legendTitle.className = "guide-legend-title";
-  legendTitle.textContent = t("guide.legend.title");
-  legend.append(legendTitle);
+  const legend = guideBox(t("guide.legend.title"));
 
   if (state.branches) {
     const familyRow = document.createElement("p");
@@ -2502,29 +2489,18 @@ function renderGuideNav(container, name) {
   }
   legend.append(tierRow);
 
-  const badgeRow = document.createElement("p");
-  badgeRow.className = "guide-legend-row";
-  badgeRow.textContent = t("guide.legend.badges");
-  legend.append(badgeRow);
+  legend.append(guideRow(t("guide.legend.badges")));
   container.append(legend);
 
   // Installing as an app: one line here; the steps live in "How the app works" (one place to keep).
-  const standalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
-  if (!standalone) {
-    const installBox = document.createElement("div");
-    installBox.className = "guide-legend guide-install-tip";
-    const installTitle = document.createElement("p");
-    installTitle.className = "guide-legend-title";
-    installTitle.textContent = t("guide.install.title");
-    const installBody = document.createElement("p");
-    installBody.className = "guide-legend-row";
-    installBody.textContent = t("guide.install.short");
+  if (!isStandalone()) {
     const more = document.createElement("button");
     more.type = "button";
     more.className = "update-chip";
     more.textContent = `${t("guide.install.more")} ›`;
     more.addEventListener("click", () => openGuide("start"));
-    installBox.append(installTitle, installBody, more);
+    const installBox = guideBox(t("guide.install.title"), guideRow(t("guide.install.short")), more);
+    installBox.classList.add("guide-install-tip");
     container.append(installBox);
   }
 }
@@ -2602,42 +2578,16 @@ function renderGuideCard(container, name) {
 // site as an app — a real installed app (iPhone: a Home Screen web app; Android: Chrome's
 // "Install app"), not a browser bookmark. The reader's own phone comes first.
 function renderGuideStart(container) {
-  const intro = document.createElement("p");
-  intro.className = "guide-intro";
-  intro.textContent = t("guide.start.intro");
-  container.append(intro);
-
-  const defs = document.createElement("div");
-  defs.className = "guide-defs";
   const mobile = isMobile();
-  defs.append(
-    guideDef(t("guide.start.families.label"), t("guide.start.families.body")),
-    mobile
-      ? guideDef(t("guide.start.top.label"), t("guide.start.top.body"))
-      : guideDef(t("guide.start.top.label.desktop"), t("guide.start.top.desktop")),
-    mobile
-      ? guideDef(t("guide.start.bottom.label"), t("guide.start.bottom.mobile"))
-      : guideDef(t("guide.start.ai.label"), t("guide.start.ai.desktop")),
-    guideDef(t("guide.start.records.label"), t("guide.start.records.body")),
-  );
-  container.append(defs);
-
-  const install = document.createElement("div");
-  install.className = "guide-legend guide-install";
-  const title = document.createElement("p");
-  title.className = "guide-legend-title";
-  title.textContent = t("guide.start.install.title");
-  const why = document.createElement("p");
-  why.className = "guide-legend-row";
-  why.textContent = t("guide.start.install.intro");
-  install.append(title, why);
-  const standalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
-  if (standalone) {
-    const done = document.createElement("p");
-    done.className = "guide-legend-row guide-install-done";
-    done.textContent = t("guide.start.install.done");
-    install.append(done);
-  }
+  renderGuideDefs(container, "guide.start.intro", [
+    ["guide.start.families.label", "guide.start.families.body"],
+    mobile ? ["guide.start.top.label", "guide.start.top.body"] : ["guide.start.top.label.desktop", "guide.start.top.desktop"],
+    mobile ? ["guide.start.bottom.label", "guide.start.bottom.mobile"] : ["guide.start.ai.label", "guide.start.ai.desktop"],
+    ["guide.start.records.label", "guide.start.records.body"],
+  ]);
+  const install = guideBox(t("guide.install.title"), guideRow(t("guide.start.install.intro")));
+  install.classList.add("guide-install");
+  if (isStandalone()) install.append(guideRow(t("guide.start.install.done"), "guide-legend-row guide-install-done"));
   const ios = ["guide.start.ios.label", ["guide.start.ios.1", "guide.start.ios.2", "guide.start.ios.3", "guide.start.ios.4"]];
   const android = ["guide.start.android.label", ["guide.start.android.1", "guide.start.android.2", "guide.start.android.3", "guide.start.android.4"]];
   const onAndroid = /android/i.test(navigator.userAgent || "");
@@ -2657,8 +2607,25 @@ function renderGuideStart(container) {
   container.append(install);
 }
 
-// Simple intro + term/explanation list, shared by the "About what's new" and
-// "About the family story" panel-help topics.
+// A framed box in the guide: a small title, then its rows.
+function guideBox(title, ...rows) {
+  const box = document.createElement("div");
+  box.className = "guide-legend";
+  const heading = document.createElement("p");
+  heading.className = "guide-legend-title";
+  heading.textContent = title;
+  box.append(heading, ...rows);
+  return box;
+}
+
+function guideRow(text, className = "guide-legend-row") {
+  const row = document.createElement("p");
+  row.className = className;
+  row.textContent = text;
+  return row;
+}
+
+// Simple intro + term/explanation list, shared by the panel-help topics.
 function renderGuideDefs(container, introKey, rows) {
   const intro = document.createElement("p");
   intro.className = "guide-intro";
@@ -2670,51 +2637,43 @@ function renderGuideDefs(container, introKey, rows) {
   container.append(defs);
 }
 
+// Every help topic: how to render it. Its heading comes from guide.<topic>.eyebrow/title/subtitle
+// (the navigation guide uses plain guide.*). openGuide accepts exactly these topics.
+const GUIDES = {
+  nav: (container, name) => renderGuideNav(container, name),
+  start: (container) => renderGuideStart(container),
+  card: (container, name) => renderGuideCard(container, name),
+  portrait: (container) => renderGuidePortrait(container),
+  updates: (container) => renderGuideDefs(container, "guide.updates.intro", [
+    ["guide.updates.what.label", "guide.updates.what.body"],
+    ["guide.updates.families.label", "guide.updates.families.body"],
+    ["guide.updates.open.label", "guide.updates.open.body"],
+    ["guide.updates.notify.label", "guide.updates.notify.body"],
+    ["guide.updates.privacy.label", "guide.updates.privacy.body"],
+  ]),
+  story: (container) => renderGuideDefs(container, "guide.story.intro", [
+    ["guide.story.grounded.label", "guide.story.grounded.body"],
+    ["guide.story.order.label", "guide.story.order.body"],
+    ["guide.story.living.label", "guide.story.living.body"],
+    ["guide.story.ask.label", "guide.story.ask.body"],
+  ]),
+  assistant: (container) => renderGuideDefs(container, "guide.assistant.intro", [
+    ["guide.assistant.knows.label", "guide.assistant.knows.body"],
+    ["guide.assistant.ask.label", "guide.assistant.ask.body"],
+    ["guide.assistant.who.label", "guide.assistant.who.body"],
+    ["guide.assistant.links.label", "guide.assistant.links.body"],
+    ["guide.assistant.limits.label", "guide.assistant.limits.body"],
+    ["guide.assistant.privacy.label", "guide.assistant.privacy.body"],
+  ]),
+};
+
 function renderGuide() {
   const container = elements.guideContent;
   if (!container) return;
   container.replaceChildren();
-  const name = subjectLabel();
-  if (guideTopic === "card") {
-    setGuideHead(t("guide.card.eyebrow"), t("guide.card.title"), t("guide.card.subtitle"));
-    renderGuideCard(container, name);
-  } else if (guideTopic === "portrait") {
-    setGuideHead(t("guide.portrait.eyebrow"), t("guide.portrait.title"), t("guide.portrait.subtitle"));
-    renderGuidePortrait(container);
-  } else if (guideTopic === "updates") {
-    setGuideHead(t("guide.updates.eyebrow"), t("guide.updates.title"), t("guide.updates.subtitle"));
-    renderGuideDefs(container, "guide.updates.intro", [
-      ["guide.updates.what.label", "guide.updates.what.body"],
-      ["guide.updates.families.label", "guide.updates.families.body"],
-      ["guide.updates.open.label", "guide.updates.open.body"],
-      ["guide.updates.notify.label", "guide.updates.notify.body"],
-      ["guide.updates.privacy.label", "guide.updates.privacy.body"],
-    ]);
-  } else if (guideTopic === "start") {
-    setGuideHead(t("guide.start.eyebrow"), t("guide.start.title"), t("guide.start.subtitle"));
-    renderGuideStart(container);
-  } else if (guideTopic === "story") {
-    setGuideHead(t("guide.story.eyebrow"), t("guide.story.title"), t("guide.story.subtitle"));
-    renderGuideDefs(container, "guide.story.intro", [
-      ["guide.story.grounded.label", "guide.story.grounded.body"],
-      ["guide.story.order.label", "guide.story.order.body"],
-      ["guide.story.living.label", "guide.story.living.body"],
-      ["guide.story.ask.label", "guide.story.ask.body"],
-    ]);
-  } else if (guideTopic === "assistant") {
-    setGuideHead(t("guide.assistant.eyebrow"), t("guide.assistant.title"), t("guide.assistant.subtitle"));
-    renderGuideDefs(container, "guide.assistant.intro", [
-      ["guide.assistant.knows.label", "guide.assistant.knows.body"],
-      ["guide.assistant.ask.label", "guide.assistant.ask.body"],
-      ["guide.assistant.who.label", "guide.assistant.who.body"],
-      ["guide.assistant.links.label", "guide.assistant.links.body"],
-      ["guide.assistant.limits.label", "guide.assistant.limits.body"],
-      ["guide.assistant.privacy.label", "guide.assistant.privacy.body"],
-    ]);
-  } else {
-    setGuideHead(t("guide.eyebrow"), t("guide.title"), t("guide.subtitle"));
-    renderGuideNav(container, name);
-  }
+  const prefix = guideTopic === "nav" ? "guide" : `guide.${guideTopic}`;
+  setGuideHead(t(`${prefix}.eyebrow`), t(`${prefix}.title`), t(`${prefix}.subtitle`));
+  GUIDES[guideTopic](container, subjectLabel());
 
   const gotit = document.createElement("button");
   gotit.type = "button";
@@ -2734,18 +2693,28 @@ function renderGuide() {
 // which fires first.
 let deferredInstallPrompt = window.__installPrompt || null;
 
+// Show the browser's own install dialog (Android Chrome), once.
+async function promptInstall() {
+  const prompt = deferredInstallPrompt;
+  if (!prompt) return;
+  deferredInstallPrompt = null;
+  window.__installPrompt = null;
+  await prompt.prompt();
+  syncChrome();
+}
+
 window.addEventListener("installpromptready", () => {
   deferredInstallPrompt = window.__installPrompt;
-  syncHelpFab();
+  syncChrome();
 });
 
 window.addEventListener("appinstalled", () => {
   deferredInstallPrompt = null;
   window.__installPrompt = null;
-  syncHelpFab();
+  syncChrome();
 });
 
-function syncHelpFab() {
+function syncChrome() {
   const overlayOpen = [...document.querySelectorAll(".panel-backdrop")].some((b) => !b.hidden);
   if (elements.helpFab) elements.helpFab.hidden = overlayOpen;
   // The "Ask" pill follows the same rule, and only appears once the assistant Worker
@@ -2763,7 +2732,7 @@ function syncHelpFab() {
 // the detail panel here).
 function openGuide(topic = "nav") {
   if (!elements.guidePanel) return;
-  guideTopic = ["card", "portrait", "updates", "story", "start", "assistant"].includes(topic) ? topic : "nav";
+  guideTopic = topic in GUIDES ? topic : "nav";
   // The guide layers above every panel (z30), so it does NOT close the panel it is
   // explaining — "About what's new"/"About this story" sit over their own panel.
   const opening = elements.guidePanel.hidden;
@@ -2777,48 +2746,50 @@ function openGuide(topic = "nav") {
     elements.guideContent.scrollTop = 0;
     elements.closeGuide.focus();
   }
-  syncHelpFab();
-  try { localStorage.setItem(GUIDE_STORAGE_KEY, "1"); } catch { /* storage unavailable */ }
+  syncChrome();
+  storageSet(GUIDE_STORAGE_KEY, "1");
 }
 
 function closeGuide() {
   if (!elements.guidePanel) return;
   elements.guidePanel.hidden = true;
   elements.guideBackdrop.hidden = true;
-  syncHelpFab();
-  if (lastFocused && lastFocused.isConnected && typeof lastFocused.focus === "function") {
-    lastFocused.focus();
-  }
-  lastFocused = null;
+  syncChrome();
+  restoreFocus();
 }
 
 // The "What's new / Novidades" panel — a curated, family-facing feed of recent additions,
 // stored as ./updates.yaml (bilingual one-liners + entity links). Mirrors the Family Story
 // panel; the engineering CHANGELOG.md is deliberately NOT surfaced here.
-let updatesDoc = null;
 // When a person is opened from the What's new feed, remember to return to it when that
 // person panel is closed (the panel and the feed share the right edge, so the feed is
 // closed first). A document opens in the reader overlay on top, so it needs no flag —
 // closing the reader simply reveals the feed underneath.
 let returnToUpdates = false;
-async function loadUpdates() {
-  if (!updatesDoc) {
+// The feed, fetched once (revalidated, not re-downloaded) and sorted newest first. Callers share
+// the promise, so opening the panel during start-up never fetches it twice.
+let updatesPromise = null;
+function loadUpdates() {
+  updatesPromise ||= (async () => {
     // Prefer the generated, comprehensive updates.json (every public document + the curated
     // editorial entries); fall back to the curated updates.yaml if the build has not run.
     let doc = null;
     try {
-      const jsonResp = await fetch("./updates.json", { cache: "no-store" });
+      const jsonResp = await fetch("./updates.json", { cache: "no-cache" });
       if (jsonResp.ok) doc = await jsonResp.json();
     } catch { /* fall back to YAML */ }
     if (!doc) {
-      const yamlResp = await fetch("./updates.yaml", { cache: "no-store" });
+      const yamlResp = await fetch("./updates.yaml", { cache: "no-cache" });
       if (!yamlResp.ok) throw new Error(String(yamlResp.status));
       doc = parseYaml(await yamlResp.text());
     }
-    updatesDoc = doc || {};
-  }
-  const list = Array.isArray(updatesDoc.updates) ? updatesDoc.updates.slice() : [];
-  return list.sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
+    const list = Array.isArray(doc?.updates) ? doc.updates.slice() : [];
+    return list.sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
+  })().catch((error) => {
+    updatesPromise = null; // try again next time
+    throw error;
+  });
+  return updatesPromise;
 }
 
 function monthLabel(iso) {
@@ -2873,17 +2844,29 @@ function resolveUpdateLink(id) {
 // counts as seen, so a new visitor is not greeted by a badge of 40.
 function seenUpdateKeys(entries) {
   let seen = null;
-  try { seen = JSON.parse(localStorage.getItem(UPDATES_SEEN_KEY) || "null"); } catch { /* unreadable */ }
+  try { seen = JSON.parse(storageGet(UPDATES_SEEN_KEY) || "null"); } catch { /* unreadable */ }
   if (Array.isArray(seen)) return new Set(seen);
   markUpdatesSeen(entries);
   return new Set(entries.filter(isCurated).map(updateKey));
 }
 
 function markUpdatesSeen(entries) {
-  try { localStorage.setItem(UPDATES_SEEN_KEY, JSON.stringify(entries.filter(isCurated).map(updateKey))); } catch { /* storage unavailable */ }
+  storageSet(UPDATES_SEEN_KEY, JSON.stringify(entries.filter(isCurated).map(updateKey)));
 }
 
-const updateInScope = (entry) => !state.branches || entryInScope(entry, state.branches, state.scope, state.data?.sources);
+// The branches an update touches, computed once per entry (entries and branches never change).
+const entryKeysCache = new WeakMap();
+function entryKeys(entry) {
+  if (!entryKeysCache.has(entry)) entryKeysCache.set(entry, entryBranches(entry, state.branches, state.data?.sources));
+  return entryKeysCache.get(entry);
+}
+const updateInScope = (entry) => !state.branches || keysInScope(entryKeys(entry), state.scope);
+
+// Keys of the curated entries this device has not seen yet.
+function unseenKeys(entries) {
+  const seen = seenUpdateKeys(entries);
+  return new Set(entries.filter((entry) => isCurated(entry) && !seen.has(updateKey(entry))).map(updateKey));
+}
 
 // The unread count on the What's new tab and button (and the installed app's icon, where the
 // platform supports it): curated entries not yet seen, within the chosen families.
@@ -2891,8 +2874,8 @@ async function refreshUpdatesBadge() {
   if (!state.data) return;
   let entries;
   try { entries = await loadUpdates(); } catch { return; }
-  const seen = seenUpdateKeys(entries);
-  const count = entries.filter((entry) => isCurated(entry) && !seen.has(updateKey(entry)) && updateInScope(entry)).length;
+  const unseen = unseenKeys(entries);
+  const count = entries.filter((entry) => unseen.has(updateKey(entry)) && updateInScope(entry)).length;
   for (const badge of document.querySelectorAll("[data-updates-badge]")) {
     badge.hidden = !count;
     badge.textContent = count > 9 ? "9+" : String(count);
@@ -2905,18 +2888,10 @@ async function refreshUpdatesBadge() {
 
 // The "These families · N / Everything · M" switch shown over a scoped list.
 function scopeSwitch(scopedCount, allCount, showingAll, allLabelKey, onChange) {
-  const switcher = document.createElement("div");
-  switcher.className = "segmented";
-  switcher.setAttribute("role", "group");
-  for (const [all, label] of [[false, t("search.scope", { n: scopedCount })], [true, t(allLabelKey, { n: allCount })]]) {
-    const option = document.createElement("button");
-    option.type = "button";
-    option.textContent = label;
-    option.setAttribute("aria-pressed", String(all === showingAll));
-    option.addEventListener("click", () => onChange(all));
-    switcher.append(option);
-  }
-  return switcher;
+  return segmented([
+    { label: t("search.scope", { n: scopedCount }), pressed: !showingAll, onPick: () => onChange(false) },
+    { label: t(allLabelKey, { n: allCount }), pressed: showingAll, onPick: () => onChange(true) },
+  ]);
 }
 
 // unseen: keys of curated entries this device had not seen when the panel opened.
@@ -2968,9 +2943,8 @@ function renderUpdates(container, entries, unseen = new Set()) {
       meta.append(fresh);
     }
     meta.append(kind, date);
-    const tags = state.branches ? branchTagsFor(
-      state.branches.list.map((branch) => branch.key).filter((key) => entryBranches(entry, state.branches, state.data?.sources).has(key)),
-    ) : null;
+    const keys = state.branches ? entryKeys(entry) : new Set();
+    const tags = branchTagsFor(state.branches ? state.branches.list.map((branch) => branch.key).filter((key) => keys.has(key)) : []);
     if (tags) meta.append(tags);
 
     // Headline. When a `primary` entity resolves, the headline itself opens it (the document
@@ -3023,7 +2997,7 @@ const NOTIFY_SYNC_KEY = "armond-notify-synced";
 function pushEnvironment() {
   const ua = navigator.userAgent || "";
   const isIos = /iphone|ipad|ipod/i.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
-  const standalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+  const standalone = isStandalone();
   const supported = "serviceWorker" in navigator && "PushManager" in window && "Notification" in window;
   if (isIos && !standalone) return "ios-install";
   return supported ? "supported" : "unsupported";
@@ -3067,14 +3041,14 @@ async function postSubscription(subscription) {
     body: JSON.stringify({ subscription: subscription.toJSON(), lang: state.locale }),
   });
   if (!response.ok) throw new Error(String(response.status));
-  try { localStorage.setItem(NOTIFY_SYNC_KEY, new Date().toISOString().slice(0, 10)); } catch { /* storage unavailable */ }
+  storageSet(NOTIFY_SYNC_KEY, new Date().toISOString().slice(0, 10));
 }
 
 // Re-send this device's subscription at most once a day (an idempotent save), so a device the
 // Worker has dropped or lost — or one the browser replaced — quietly recovers.
 async function resyncSubscription(subscription) {
   let last = "";
-  try { last = localStorage.getItem(NOTIFY_SYNC_KEY) || ""; } catch { /* storage unavailable */ }
+  last = storageGet(NOTIFY_SYNC_KEY) || "";
   if (last === new Date().toISOString().slice(0, 10)) return;
   try { await postSubscription(subscription); } catch { /* try again on another day */ }
 }
@@ -3183,10 +3157,7 @@ async function openUpdates() {
   try {
     const entries = await loadUpdates();
     // NEW marks what was unread when the panel opened; opening it then marks everything read.
-    if (opening || !openUpdatesUnseen) {
-      const seen = seenUpdateKeys(entries);
-      openUpdatesUnseen = new Set(entries.filter((entry) => isCurated(entry) && !seen.has(updateKey(entry))).map(updateKey));
-    }
+    if (opening || !openUpdatesUnseen) openUpdatesUnseen = unseenKeys(entries);
     renderUpdates(elements.updatesContent, entries, openUpdatesUnseen);
     if (opening) elements.updatesContent.scrollTop = 0;
     markUpdatesSeen(entries);
@@ -3201,10 +3172,7 @@ function closeUpdates() {
   openUpdatesUnseen = null;
   elements.updatesPanel.hidden = true;
   elements.updatesBackdrop.hidden = true;
-  if (lastFocused && lastFocused.isConnected && typeof lastFocused.focus === "function") {
-    lastFocused.focus();
-  }
-  lastFocused = null;
+  restoreFocus();
 }
 
 function closeDetails() {
@@ -3213,10 +3181,7 @@ function closeDetails() {
   elements.backdrop.hidden = true;
   state.selected = null;
   syncHash();
-  if (lastFocused && lastFocused.isConnected && typeof lastFocused.focus === "function") {
-    lastFocused.focus();
-  }
-  lastFocused = null;
+  restoreFocus();
   if (returnToUpdates) { returnToUpdates = false; openUpdates(); }
   if (returnToAssistant) { returnToAssistant = false; openAssistant(); }
 }
@@ -3290,25 +3255,19 @@ function mobileRelationRow(id, name, meta, options = {}) {
   return row;
 }
 
+function mobileList(rows, extraClass = "") {
+  const list = document.createElement("div");
+  list.className = `mobile-list ${extraClass}`.trim();
+  list.append(...rows);
+  return list;
+}
+
 function mobileSection(title, rows, emptyText) {
-  const section = document.createElement("section");
-  section.className = "mobile-section";
-  const heading = document.createElement("h3");
-  heading.className = "mobile-section-title";
-  heading.textContent = title;
-  section.append(heading);
-  if (!rows.length) {
-    const empty = document.createElement("p");
-    empty.className = "mobile-empty";
-    empty.textContent = emptyText;
-    section.append(empty);
-  } else {
-    const list = document.createElement("div");
-    list.className = "mobile-list";
-    for (const row of rows) list.append(row);
-    section.append(list);
-  }
-  return section;
+  if (rows.length) return mobileBlock(title, mobileList(rows));
+  const empty = document.createElement("p");
+  empty.className = "mobile-empty";
+  empty.textContent = emptyText;
+  return mobileBlock(title, empty);
 }
 
 function focusPerson(personId) {
@@ -3357,7 +3316,16 @@ function mobileBlock(title, content) {
   return section;
 }
 
-const scopedPeopleIds = () => Object.keys(state.data.people).filter(personInScope);
+// The surname index of the chosen families, built once per choice (the data never changes).
+const surnameCache = new Map();
+function scopedSurnames() {
+  const key = serialiseScope(state.scope, state.branches);
+  if (!surnameCache.has(key)) {
+    const ids = Object.keys(state.data.people).filter(personInScope);
+    surnameCache.set(key, surnameIndex(state.data.people, ids, state.branches.vocabulary));
+  }
+  return surnameCache.get(key);
+}
 
 function surnameChip(entry, onClick) {
   const chip = document.createElement("button");
@@ -3376,14 +3344,11 @@ function surnameChip(entry, onClick) {
 // those grandparents' parents; then a surname index. Living people never lead a scoped home.
 function renderMobileHome(container) {
   const people = state.data.people;
-  const chosen = chosenBranches().filter((branch) => people[branch.rootId]);
+  const chosen = scopeBranches();
   const scoped = state.scope.size > 0;
 
-  const roots = document.createElement("div");
-  roots.className = "mobile-list home-roots";
-  for (const branch of chosen) {
-    roots.append(mobileRelationRow(branch.rootId, people[branch.rootId].name, null, { tags: true, colour: branch.colour }));
-  }
+  const roots = mobileList(chosen.map((branch) =>
+    mobileRelationRow(branch.rootId, people[branch.rootId].name, null, { tags: true, colour: branch.colour })), "home-roots");
   if (scoped && chosen.length === 2) {
     const spouse = (people[chosen[0].rootId].spouses || []).find((entry) => entry.id === chosen[1].rootId);
     if (spouse?.marriage?.date) {
@@ -3397,8 +3362,7 @@ function renderMobileHome(container) {
   container.append(mobileBlock(title, roots));
 
   if (scoped) {
-    const parentIds = [...new Set(chosen.flatMap((branch) =>
-      (state.data.parentsByChild[branch.rootId] || []).filter(relationshipVisible).map((entry) => entry.parentId)))];
+    const parentIds = [...new Set(chosen.flatMap((branch) => visibleParents(state.data.parentsByChild, branch.rootId)))];
     const rows = parentIds.map((id) => mobileRelationRow(id, people[id]?.name || id, null, { tags: true }));
     container.append(mobileSection(chosen.length === 1 ? t("detail.parents") : t("home.parents"), rows, t("empty.parents")));
   }
@@ -3410,7 +3374,7 @@ function renderMobileHome(container) {
   browse.addEventListener("click", () => focusPerson(scoped ? chosen[0].rootId : SUBJECT_ID));
   container.append(browse);
 
-  const index = surnameIndex(people, scopedPeopleIds(), state.branches.vocabulary);
+  const index = scopedSurnames();
   if (index.length) {
     const chips = document.createElement("div");
     chips.className = "surname-chips";
@@ -3428,7 +3392,7 @@ function renderMobileHome(container) {
 // Every surname in the chosen families, A–Z, or the people who carry one.
 function renderSurnameView(container) {
   const people = state.data.people;
-  const index = surnameIndex(people, scopedPeopleIds(), state.branches.vocabulary);
+  const index = scopedSurnames();
   const key = state.homeView.startsWith("surname:") ? state.homeView.slice(8) : null;
 
   if (key) {
@@ -3505,13 +3469,7 @@ function renderMobileFocus() {
   head.append(detailsButton);
   container.append(head);
 
-  const parentIds = [
-    ...new Set(
-      (state.data.parentsByChild[person.id] || [])
-        .filter(relationshipVisible)
-        .map((entry) => entry.parentId),
-    ),
-  ];
+  const parentIds = visibleParents(state.data.parentsByChild, person.id);
   const parentRows = parentIds.map((pid) => mobileRelationRow(pid, state.data.people[pid]?.name || pid));
   container.append(mobileSection(`${t("detail.parents")} ↑`, parentRows, t("empty.parents")));
 
@@ -3559,36 +3517,38 @@ function renderActive() {
 // ---------- Choosing families ----------
 // One panel, two modes. "welcome" is the first-visit question — Everything first and already
 // chosen, so for the main user it is a single tap — with a card per branch. "switch" is the
-// sheet behind the header chip: live toggles, back to Everything, and a link to share.
+// sheet behind the families chip: live toggles, back to Everything, and a link to share.
 let branchPanelMode = "switch";
 let branchDraft = new Set();
 let afterBranchWelcome = null;
 
 function renderBranchChips() {
   if (!state.branches) return;
-  const keys = chosenBranches().map((branch) => branch.key);
-  for (const chip of [elements.branchChipToolbar]) {
-    if (!chip) continue;
-    const label = document.createElement("span");
-    label.className = "branch-chip-label";
-    label.textContent = scopeLabel();
-    const caret = document.createElement("span");
-    caret.className = "branch-chip-caret";
-    caret.setAttribute("aria-hidden", "true");
-    caret.textContent = "▾";
-    chip.replaceChildren(branchDots(keys), label, caret);
-    chip.setAttribute("aria-label", t("branch.chipAria", { families: scopeLabel() }));
-    chip.hidden = false;
-  }
+  const chip = elements.branchChip;
+  if (!chip) return;
+  const label = document.createElement("span");
+  label.className = "branch-chip-label";
+  label.textContent = scopeLabel();
+  const caret = document.createElement("span");
+  caret.className = "branch-chip-caret";
+  caret.setAttribute("aria-hidden", "true");
+  caret.textContent = "▾";
+  chip.replaceChildren(branchDots(scopeBranches().map((branch) => branch.key)), label, caret);
+  chip.setAttribute("aria-label", t("branch.chipAria", { families: scopeLabel() }));
+  chip.hidden = false;
 }
 
 // Apply a choice everywhere: the tree's starting person, the home screen, search, What's new,
 // the story and the address (so the view can be shared).
-function applyScope(scope, { persist = true } = {}) {
-  state.scope = normaliseScope(scope, state.branches);
-  if (persist) {
-    try { localStorage.setItem(BRANCH_STORAGE_KEY, serialiseScope(state.scope, state.branches)); } catch { /* storage unavailable */ }
-  }
+const saveScope = () => storageSet(BRANCH_STORAGE_KEY, serialiseScope(state.scope, state.branches));
+
+function applyScope(scope) {
+  const next = normaliseScope(scope, state.branches);
+  const unchanged = serialiseScope(next, state.branches) === serialiseScope(state.scope, state.branches);
+  const atStart = !state.focusId && !state.homeView && state.rootId === scopeRoot(state.branches, next);
+  state.scope = next;
+  saveScope();
+  if (unchanged && atStart) return; // e.g. the first visit keeping Everything: nothing to redraw
   state.searchAll = false;
   state.updatesAll = false;
   state.storyFullOrder = false;
@@ -3612,20 +3572,12 @@ function applyScope(scope, { persist = true } = {}) {
 // The message that goes with a shared link, in the sender's language: which families, how many
 // people, and how far back an original record reaches (shareSummary in branches.js). The link
 // carries the same language.
-function listInWords(items) {
-  try {
-    return new Intl.ListFormat(state.locale === "pt-BR" ? "pt-BR" : "en-GB", { type: "conjunction" }).format(items);
-  } catch {
-    return items.join(", ");
-  }
-}
-
 function shareMessage() {
   const summary = shareSummary(state.branches, state.scope);
   const vars = {
     app: t("page.title"),
     n: summary.people,
-    families: listInWords(summary.labels),
+    families: joinAnd(summary.labels),
     since: summary.year ? t("share.since", { year: summary.year }) : "",
   };
   const key = summary.everything
@@ -3638,7 +3590,7 @@ function shareUrl() {
   const params = new URLSearchParams();
   if (state.scope.size) params.set("branch", serialiseScope(state.scope, state.branches));
   params.set("lang", state.locale);
-  return `${location.origin}${location.pathname}#${params.toString().replace(/%2C/g, ",")}`;
+  return `${location.origin}${location.pathname}${toHash(params)}`;
 }
 
 function setBranchDraft(next, focusKey) {
@@ -3724,10 +3676,10 @@ function renderBranchPanel() {
   if (welcome) {
     // Help and language come first on the first page a visitor sees.
     const actions = document.createElement("div");
-    actions.className = "branch-head-actions";
+    actions.className = "branch-head-actions desktop-only";
     const help = document.createElement("button");
     help.type = "button";
-    help.className = "branch-help";
+    help.className = "round-help";
     help.textContent = "?";
     help.setAttribute("aria-label", t("guide.start.button"));
     help.title = t("guide.start.button");
@@ -3770,7 +3722,7 @@ function renderBranchPanel() {
       const subtitle = welcome
         ? (branch.earliestYear
           ? t("branch.cardSub", { name: branch.name, n: branch.members.length, year: branch.earliestYear })
-          : t("branch.cardSubNoYear", { name: branch.name, n: branch.members.length }))
+          : t("branch.rowSub", { name: branch.name, n: branch.members.length }))
         : t("branch.rowSub", { name: firstName(branch.name), n: branch.members.length });
       panel.append(branchOption(branch.key, branch.label, subtitle, [branch.key], branchDraft.has(branch.key)));
     }
@@ -3796,12 +3748,7 @@ function renderBranchPanel() {
       install.type = "button";
       install.className = "branch-install";
       install.textContent = `📲 ${t("install.fab")}`;
-      install.addEventListener("click", async () => {
-        if (!deferredInstallPrompt) return;
-        await deferredInstallPrompt.prompt();
-        deferredInstallPrompt = null;
-        install.remove();
-      });
+      install.addEventListener("click", () => promptInstall().then(() => install.remove()));
       footer.append(install);
     }
   } else {
@@ -3827,22 +3774,21 @@ function renderBranchPanel() {
       }
     });
     actions.append(copy);
-    if (navigator.share) {
-      const send = document.createElement("button");
-      send.type = "button";
-      send.className = "update-chip";
-      send.textContent = t("branch.send");
-      send.addEventListener("click", () => {
-        navigator.share({ title: t("page.title"), text: shareMessage(), url: shareUrl() }).catch(() => { /* dismissed */ });
-      });
-      actions.append(send);
-    }
     share.append(shareTitle);
+    // Where the browser can share, Send… adds the message — and only there is it previewed.
     if (navigator.share) {
       const message = document.createElement("p");
       message.className = "branch-share-message";
       message.textContent = shareMessage();
       share.append(message);
+      const send = document.createElement("button");
+      send.type = "button";
+      send.className = "update-chip";
+      send.textContent = t("branch.send");
+      send.addEventListener("click", () => {
+        navigator.share({ title: t("page.title"), text: message.textContent, url: shareUrl() }).catch(() => { /* dismissed */ });
+      });
+      actions.append(send);
     }
     share.append(url, actions);
     const done = document.createElement("button");
@@ -3857,20 +3803,17 @@ function renderBranchPanel() {
 
 // EN | PT at the top of the family question, so the language is set before anything else.
 function languageSwitch() {
-  const group = document.createElement("div");
-  group.className = "segmented branch-lang";
-  group.setAttribute("role", "group");
-  group.setAttribute("aria-label", t("control.language"));
-  for (const [code, label] of [["en", "EN"], ["pt-BR", "PT"]]) {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.textContent = label;
-    button.lang = code;
-    button.setAttribute("aria-pressed", String(state.locale === code));
-    button.addEventListener("click", () => setLocale(code));
-    group.append(button);
+  return segmented([["en", "EN"], ["pt-BR", "PT"]].map(([code, label]) => (
+    { label, lang: code, pressed: state.locale === code, onPick: () => setLocale(code) }
+  )), "segmented branch-lang", t("control.language"));
+}
+
+// The language switches already on screen follow a change in place, keeping focus on them.
+function syncLanguageSwitches() {
+  for (const group of document.querySelectorAll(".branch-lang")) {
+    group.setAttribute("aria-label", t("control.language"));
+    for (const button of group.querySelectorAll("button")) button.setAttribute("aria-pressed", String(button.lang === state.locale));
   }
-  return group;
 }
 
 function openBranchPanel(mode = "switch") {
@@ -3893,8 +3836,7 @@ function closeBranchPanel() {
   if (welcome) applyScope(branchDraft);
   elements.branchPanel.hidden = true;
   elements.branchBackdrop.hidden = true;
-  if (lastFocused && lastFocused.isConnected && typeof lastFocused.focus === "function") lastFocused.focus();
-  lastFocused = null;
+  restoreFocus();
   if (welcome && afterBranchWelcome) {
     const next = afterBranchWelcome;
     afterBranchWelcome = null;
@@ -3902,62 +3844,50 @@ function closeBranchPanel() {
   }
 }
 
-// ---------- Top bar (mobile) ----------
-// Every phone screen shares one frame: this top bar and the bottom tab bar. The top bar shows
-// the logo and title on a main screen and ‹ Back once you go deeper; its ? explains whichever
-// screen is on top, and the family question adds EN | PT. The layers are listed top first.
-function topLayer() {
-  if (document.querySelector(".reader-overlay")) return "reader";
-  if (elements.guidePanel && !elements.guidePanel.hidden) return "guide";
-  if (elements.branchPanel && !elements.branchPanel.hidden) return branchPanelMode === "welcome" ? "welcome" : "sheet";
-  if (document.querySelector(".portrait-panel")) return "portrait";
-  const tab = activeTab();
-  if (tab !== "family") return tab;
-  if (elements.detailsPanel && !elements.detailsPanel.hidden) return "details";
-  return "family";
-}
-
-const HELP_TOPIC = { welcome: "start", portrait: "portrait", assistant: "assistant", story: "story", updates: "updates", details: "card", family: "nav" };
-const currentHelpTopic = () => HELP_TOPIC[topLayer()] || "nav";
-
-function syncHeader() {
-  const layer = topLayer();
-  const deeper = ["reader", "guide", "portrait", "details"].includes(layer)
-    || (layer === "family" && Boolean(state.focusId || state.homeView));
-  document.body.classList.toggle("can-go-back", deeper);
-  document.body.classList.toggle("welcome-open", layer === "welcome");
-  document.body.classList.toggle("sheet-open", layer === "sheet");
-  document.body.classList.toggle("header-help-off", ["guide", "reader", "sheet"].includes(layer));
-  if (elements.headerLang) {
-    if (layer === "welcome") elements.headerLang.replaceChildren(languageSwitch());
-    else elements.headerLang.replaceChildren();
-  }
-}
-
-// ‹ Back in the top bar: close whatever is on top, or step back through the family.
-function goBack() {
-  const layer = topLayer();
-  if (layer === "reader") closeReader();
-  else if (layer === "guide") closeGuide();
-  else if (layer === "portrait") closePortrait();
-  else if (layer === "details") closeDetails();
-  else if (layer === "family") {
+// ---------- Layers: one list for Back, Escape, help and the bars ----------
+// Everything that can sit over the family view, top first. topLayer(), ‹ Back, Escape, the
+// phone's ? and the tab bar all read this list, so a new screen is added here once.
+//   deeper — ‹ Back replaces the logo and title; help — the guide topic its ? opens;
+//   tab — which bottom tab it belongs to.
+const isShown = (element) => Boolean(element) && !element.hidden;
+const LAYERS = [
+  { name: "reader", isOpen: () => Boolean(document.querySelector(".reader-overlay")), close: () => closeReader(), deeper: true },
+  { name: "guide", isOpen: () => isShown(elements.guidePanel), close: () => closeGuide(), deeper: true },
+  { name: "welcome", isOpen: () => isShown(elements.branchPanel) && branchPanelMode === "welcome", close: () => closeBranchPanel(), help: "start" },
+  { name: "sheet", isOpen: () => isShown(elements.branchPanel) && branchPanelMode !== "welcome", close: () => closeBranchPanel() },
+  { name: "portrait", isOpen: () => Boolean(document.querySelector(".portrait-panel")), close: () => closePortrait(), deeper: true, help: "portrait" },
+  { name: "assistant", isOpen: () => isShown(elements.assistantPanel), close: () => closeAssistant(), help: "assistant", tab: "assistant" },
+  { name: "updates", isOpen: () => isShown(elements.updatesPanel), close: () => closeUpdates(), help: "updates", tab: "updates" },
+  { name: "story", isOpen: () => isShown(elements.storyPanel), close: () => closeStory(), help: "story", tab: "story" },
+  { name: "details", isOpen: () => isShown(elements.detailsPanel), close: () => closeDetails(), deeper: true, help: "card" },
+];
+// The family view itself: ‹ Back steps back through the people and surname lists.
+const FAMILY_LAYER = {
+  name: "family",
+  help: "nav",
+  get deeper() { return Boolean(state.focusId || state.homeView); },
+  close() {
     if (state.homeView) showHomeView(state.homeView.startsWith("surname:") ? "surnames" : null);
     else if (state.focusHistory.length) focusBack();
     else if (state.focusId) showHome();
-  }
-  syncHeader();
+  },
+};
+const topLayer = () => LAYERS.find((layer) => layer.isOpen()) || FAMILY_LAYER;
+const currentHelpTopic = () => topLayer().help || "nav";
+const goBack = () => topLayer().close();
+
+function syncHeader() {
+  const layer = topLayer().name;
+  document.body.classList.toggle("can-go-back", Boolean(topLayer().deeper));
+  document.body.classList.toggle("welcome-open", layer === "welcome");
+  document.body.classList.toggle("sheet-open", layer === "sheet");
+  document.body.classList.toggle("header-help-off", ["guide", "reader", "sheet"].includes(layer));
 }
 
 // ---------- Bottom tab bar (mobile) ----------
 // Family · What's new · Story · Ask AI, always one thumb-tap away. The panels it opens are
 // the same ones the desktop buttons open; on a phone they fill the screen above the bar.
-function activeTab() {
-  if (elements.assistantPanel && !elements.assistantPanel.hidden) return "assistant";
-  if (elements.updatesPanel && !elements.updatesPanel.hidden) return "updates";
-  if (elements.storyPanel && !elements.storyPanel.hidden) return "story";
-  return "family";
-}
+const activeTab = () => LAYERS.find((layer) => layer.tab && layer.isOpen())?.tab || "family";
 
 function syncTabbar() {
   const active = activeTab();
@@ -3991,7 +3921,6 @@ function openTab(name) {
     if (!elements.detailsPanel.hidden) closeDetails();
     else showHome();
   }
-  syncTabbar();
 }
 
 function bindEvents() {
@@ -4088,6 +4017,7 @@ function bindEvents() {
       const first = elements.searchResults?.querySelector(".search-result");
       if (first) first.click();
     } else if (event.key === "Escape") {
+      event.stopPropagation();
       hideSearchResults();
     }
   });
@@ -4115,8 +4045,8 @@ function bindEvents() {
     elements.languageSelect.addEventListener("change", () => setLocale(elements.languageSelect.value));
   }
 
-  // Families: the header chip (mobile) and the toolbar chip (desktop) open the same sheet.
-  if (elements.branchChipToolbar) elements.branchChipToolbar.addEventListener("click", () => openBranchPanel("switch"));
+  // The families chip (beside the search box on a phone, in the toolbar on desktop) opens the sheet.
+  if (elements.branchChip) elements.branchChip.addEventListener("click", () => openBranchPanel("switch"));
   if (elements.branchBackdrop) elements.branchBackdrop.addEventListener("click", closeBranchPanel);
   for (const tab of elements.tabs) tab.addEventListener("click", () => openTab(tab.dataset.tab));
   if (!ASSISTANT_API) elements.tabs.filter((tab) => tab.dataset.tab === "assistant").forEach((tab) => { tab.hidden = true; });
@@ -4124,21 +4054,11 @@ function bindEvents() {
   for (const button of [elements.homeButton, elements.titleButton]) {
     if (button) button.addEventListener("click", () => openBranchPanel("welcome"));
   }
-  if (elements.detailsBack) elements.detailsBack.addEventListener("click", closeDetails);
   // A tap on the results list must not blur the box (which would close the list first).
   if (elements.searchResults) elements.searchResults.addEventListener("mousedown", (event) => event.preventDefault());
 
   elements.closeDetails.addEventListener("click", closeDetails);
   elements.backdrop.addEventListener("click", closeDetails);
-  document.addEventListener("keydown", (event) => {
-    if (event.key !== "Escape" || elements.detailsPanel.hidden) return;
-    // Let a help/story/updates/families overlay on top of the card take Escape first.
-    if (elements.guidePanel && !elements.guidePanel.hidden) return;
-    if (elements.branchPanel && !elements.branchPanel.hidden) return;
-    if (elements.storyPanel && !elements.storyPanel.hidden) return;
-    if (elements.updatesPanel && !elements.updatesPanel.hidden) return;
-    closeDetails();
-  });
 
   if (elements.openStory) elements.openStory.addEventListener("click", openStory);
   if (elements.closeStory) elements.closeStory.addEventListener("click", closeStory);
@@ -4148,11 +4068,9 @@ function bindEvents() {
   if (elements.updatesBackdrop) elements.updatesBackdrop.addEventListener("click", closeUpdates);
   if (elements.assistantFab) elements.assistantFab.addEventListener("click", openAssistant);
   if (elements.installFab) {
-    elements.installFab.addEventListener("click", async () => {
-      if (!deferredInstallPrompt) return;
+    elements.installFab.addEventListener("click", () => {
       elements.installFab.hidden = true;
-      await deferredInstallPrompt.prompt();
-      deferredInstallPrompt = null;
+      promptInstall();
     });
   }
   if (elements.closeAssistant) elements.closeAssistant.addEventListener("click", closeAssistant);
@@ -4188,23 +4106,18 @@ function bindEvents() {
   }
   if (elements.closeGuide) elements.closeGuide.addEventListener("click", closeGuide);
   if (elements.guideBackdrop) elements.guideBackdrop.addEventListener("click", closeGuide);
+  // Escape closes the top layer only — the one ‹ Back would close.
   document.addEventListener("keydown", (event) => {
     if (event.key !== "Escape") return;
-    // The guide layers on top — Escape closes it first, leaving the panel beneath open.
-    if (elements.guidePanel && !elements.guidePanel.hidden) { closeGuide(); return; }
-    if (elements.branchPanel && !elements.branchPanel.hidden) { closeBranchPanel(); return; }
-    if (elements.assistantPanel && !elements.assistantPanel.hidden) closeAssistant();
-    if (elements.storyPanel && !elements.storyPanel.hidden) closeStory();
-    if (elements.updatesPanel && !elements.updatesPanel.hidden) closeUpdates();
+    const layer = LAYERS.find((candidate) => candidate.isOpen());
+    if (layer) layer.close();
   });
 
-  // Keep the floating "?" in step with the overlays without patching every
-  // open/close path: watch each modal backdrop's `hidden` attribute.
-  if (elements.helpFab) {
-    const backdropObserver = new MutationObserver(syncHelpFab);
-    for (const b of document.querySelectorAll(".panel-backdrop")) {
-      backdropObserver.observe(b, { attributes: true, attributeFilter: ["hidden"] });
-    }
+  // Keep the bars, the floating buttons and the top bar in step with the overlays without
+  // patching every open/close path: watch each modal backdrop's `hidden` attribute.
+  const backdropObserver = new MutationObserver(syncChrome);
+  for (const b of document.querySelectorAll(".panel-backdrop")) {
+    backdropObserver.observe(b, { attributes: true, attributeFilter: ["hidden"] });
   }
 }
 
@@ -4216,9 +4129,13 @@ async function initialise() {
   i18n = createI18n(state.locale);
   if (elements.languageSelect) elements.languageSelect.value = state.locale;
   applyStaticTranslations();
-  // Independent of the tree data — fetch in parallel; failures stay silent.
+  // The top bar's EN | PT (shown on the family question), built once in the chosen language.
+  if (elements.headerLang) elements.headerLang.replaceChildren(languageSwitch());
+  // Independent of the tree data — fetch in parallel; failures stay silent. The What's new feed
+  // starts loading now so the unread badge is ready as soon as the families are known.
   initVisitorWelcome();
   loadAssistantSuggestions();
+  loadUpdates().catch(() => { /* the badge and the panel retry */ });
   try {
     const response = await fetch("/api/tree", { cache: "no-store" });
     if (!response.ok) throw new Error(t("error.httpStatus", { status: response.status }));
@@ -4229,12 +4146,10 @@ async function initialise() {
     // device's earlier choice. Nothing chosen yet means the first-visit question.
     const hash = readHash();
     let storedScope = null;
-    try { storedScope = localStorage.getItem(BRANCH_STORAGE_KEY); } catch { /* storage unavailable */ }
+    storedScope = storageGet(BRANCH_STORAGE_KEY);
     const scopeFromLink = hash.branch !== null;
     state.scope = parseScope(scopeFromLink ? hash.branch : storedScope || "", state.branches);
-    if (scopeFromLink) {
-      try { localStorage.setItem(BRANCH_STORAGE_KEY, serialiseScope(state.scope, state.branches)); } catch { /* storage unavailable */ }
-    }
+    if (scopeFromLink) saveScope();
     const askForFamilies = !scopeFromLink && storedScope === null && !hash.sel;
 
     // Restore a shared/bookmarked view from the URL hash. A root other than the families'
@@ -4254,7 +4169,7 @@ async function initialise() {
     elements.sourceCount.textContent = String(Object.keys(state.data.sources).length);
     elements.loading.hidden = true;
     renderActive();
-    syncHelpFab();
+    syncChrome();
     refreshUpdatesBadge();
     // Re-render the updates panel if it was opened before entity data finished loading
     // (common on slow connections or when the user taps "What's new" immediately on
@@ -4275,7 +4190,7 @@ async function initialise() {
     // Skipped when arriving on a deep link (a shared person/record) — they came for
     // that, not the tour — and never again after it has been seen.
     let guideSeen = true;
-    try { guideSeen = Boolean(localStorage.getItem(GUIDE_STORAGE_KEY)); } catch { /* storage unavailable */ }
+    guideSeen = Boolean(storageGet(GUIDE_STORAGE_KEY));
     const showGuide = !guideSeen && !hash.sel;
     // The families question comes first; the guide (if still unseen) follows it.
     if (askForFamilies) {
