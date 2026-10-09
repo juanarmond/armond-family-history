@@ -319,6 +319,9 @@ export function projectTreeData({ people, families, events, places, sources, fan
         involvesLiving: (source.linked_people || []).some(
           (pid) => (people[pid]?.privacy) === "living",
         ),
+        // Who the record is about — lets the viewer file a "What's new" document under a
+        // family branch.
+        linkedPeople: (source.linked_people || []).filter((pid) => typeof pid === "string" && people[pid]),
         uncertain: source.reading_reliability === "partial",
         transcription:
           typeof source.transcription === "string" && source.transcription.trim()

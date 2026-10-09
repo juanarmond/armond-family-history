@@ -28,12 +28,13 @@
 </head>
 <body>
   <header class="site-header">
-    <div>
+    <div class="site-title">
       <p class="eyebrow" data-i18n="header.eyebrow">Private research archive</p>
       <h1 data-i18n="page.title">Four Rivers</h1>
       <p class="subtitle" data-i18n="header.subtitle">Four family lines, from four continents — every ancestor traced to an original record.</p>
     </div>
-    <div class="brand-emblem" role="img" data-i18n-aria="header.emblem" aria-label="Four Rivers family-history emblem: a family-tree seal">
+    <button id="branch-chip" class="branch-chip header-branch-chip" type="button" hidden></button>
+    <button id="app-menu-button" class="brand-emblem" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="app-menu" data-i18n-aria="menu.button" aria-label="Menu: families, help, language">
       <svg viewBox="0 0 72 72" class="emblem" aria-hidden="true" focusable="false">
         <circle cx="36" cy="36" r="32" fill="#fbf6ea"/>
         <circle cx="36" cy="36" r="32" fill="none" stroke="#a9843f" stroke-width="2"/>
@@ -57,13 +58,19 @@
         <circle cx="36" cy="49" r="2.9" fill="#2f5d43"/>
         <path d="M36 13.4 l1.5 3.05 3.35.45 -2.45 2.35 .6 3.3 -2.95 -1.6 -2.95 1.6 .6 -3.3 -2.45 -2.35 3.35 -.45 z" fill="#c9a24b"/>
       </svg>
-    </div>
+    </button>
+    <div id="app-menu" class="app-menu" role="menu" hidden></div>
   </header>
 
   <p id="visitor-welcome" class="visitor-welcome" aria-live="polite" hidden></p>
 
   <main>
     <section class="toolbar" data-i18n-aria="toolbar.aria" aria-label="Tree controls">
+      <div class="field-branch">
+        <span class="field-label" data-i18n="control.families">Families</span>
+        <button id="branch-chip-toolbar" class="branch-chip" type="button" hidden></button>
+      </div>
+
       <label class="field-person">
         <span data-i18n="control.startPerson">Start person</span>
         <select id="root-person"></select>
@@ -95,7 +102,7 @@
       </label>
 
       <button id="reset-view" type="button" data-i18n="control.reset">Reset view</button>
-      <button id="open-updates" type="button" class="updates-button" data-i18n="control.updates">What's new</button>
+      <button id="open-updates" type="button" class="updates-button"><span data-i18n="control.updates">What's new</span><span class="count-badge" data-updates-badge hidden></span></button>
       <button id="open-story" type="button" class="story-button" data-i18n="control.story">Family Story</button>
     </section>
 
@@ -130,6 +137,7 @@
   <aside id="details-panel" class="detail-panel" aria-labelledby="details-title" hidden>
     <div class="detail-head">
       <div>
+        <button id="details-back" class="detail-back" type="button">‹ <span data-i18n="mobile.back">Back</span></button>
         <p id="details-id" class="detail-id"></p>
         <h2 id="details-title" class="detail-title"></h2>
         <p id="details-lifespan" class="detail-lifespan"></p>
@@ -220,6 +228,32 @@
     <p class="assistant-disclaimer" data-i18n="assistant.disclaimer">Answers come only from documented records in this archive, and may be imperfect. Living relatives are not included.</p>
   </aside>
   <div id="assistant-backdrop" class="panel-backdrop" hidden></div>
+
+  <aside id="branch-panel" class="story-panel branch-panel" role="dialog" aria-modal="true" aria-labelledby="branch-title" hidden>
+    <div id="branch-content" class="branch-content"></div>
+  </aside>
+  <div id="branch-backdrop" class="panel-backdrop" hidden></div>
+
+  <!-- Mobile only: the four sections one thumb-tap away (hidden on wider screens by CSS). -->
+  <nav id="tabbar" class="tabbar" data-i18n-aria="tabs.aria" aria-label="Sections">
+    <button type="button" class="tab" data-tab="family">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 21v-4H6v-4M12 17h6v-4M6 13V9.3M18 13V9.3"/><circle cx="6" cy="6.6" r="2.4"/><circle cx="18" cy="6.6" r="2.4"/></svg>
+      <span data-i18n="tabs.family">Family</span>
+    </button>
+    <button type="button" class="tab" data-tab="updates">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 10a6 6 0 1 1 12 0c0 5 2 6.5 2 6.5H4S6 15 6 10M10 19.5a2 2 0 0 0 4 0"/></svg>
+      <span class="count-badge" data-updates-badge hidden></span>
+      <span data-i18n="tabs.updates">What's new</span>
+    </button>
+    <button type="button" class="tab" data-tab="story">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5zM4 20.5v-15M20 18v3H6.5"/></svg>
+      <span data-i18n="tabs.story">Story</span>
+    </button>
+    <button type="button" class="tab" data-tab="assistant">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M11 8V5.7"/><circle cx="11" cy="4.4" r="1"/><rect x="4" y="8" width="14" height="11" rx="3.4"/><path d="M8.6 15.9h4.8M8.5 12.6h.01M13.5 12.6h.01M19.6 3.3l.85 1.65 1.65.85-1.65.85-.85 1.65-.85-1.65-1.65-.85 1.65-.85z"/></svg>
+      <span data-i18n="tabs.assistant">Ask AI</span>
+    </button>
+  </nav>
 
   <button id="assistant-fab" class="assistant-fab" type="button" data-i18n-aria="assistant.fab" data-i18n-title="assistant.fab" aria-label="Ask AI" title="Ask AI" hidden>
     <svg viewBox="0 0 24 24" class="assistant-fab-icon" aria-hidden="true" focusable="false">

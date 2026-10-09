@@ -19,14 +19,18 @@ self.addEventListener("push", (event) => {
   } catch {
     data = { body: event.data ? event.data.text() : "" };
   }
-  event.waitUntil(self.registration.showNotification(data.title || "Quatro Rios", {
-    body: data.body || "",
-    tag: data.tag || "whats-new",
-    renotify: true,
-    icon: "icon-192.png",
-    badge: "icon-192.png",
-    data: { url: data.url || "./?open=updates" },
-  }));
+  event.waitUntil(Promise.all([
+    self.registration.showNotification(data.title || "Quatro Rios", {
+      body: data.body || "",
+      tag: data.tag || "whats-new",
+      renotify: true,
+      icon: "icon-192.png",
+      badge: "icon-192.png",
+      data: { url: data.url || "./?open=updates" },
+    }),
+    // A dot on the installed app's icon until What's new is opened (the page clears it).
+    self.navigator && "setAppBadge" in self.navigator ? self.navigator.setAppBadge().catch(() => {}) : null,
+  ]));
 });
 
 // Tapping the notification: bring an open copy of the site forward and ask it to show

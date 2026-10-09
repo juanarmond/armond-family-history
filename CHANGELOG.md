@@ -5,6 +5,23 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — follow a family branch, and a phone app layout (2026-10-09)
+
+- **Family branches ("the four rivers"):** a viewer can follow one grandparent's branch, several,
+  or everything. A first-visit question offers Everything first and pre-selected; a chip switches
+  branches later and copies a share link (`#branch=…`). Search, the tree's starting person, the phone
+  home screen, a surname index, What's new and the Family Story's chapter order all follow the choice.
+  Membership is derived from the tree (`family-tree-viewer/branches.js`, unit-tested): 41 / 11 / 23 / 52
+  people; only the three living people sit outside every branch.
+- **Phone layout:** compact header with the families chip, an emblem menu (families, help, language,
+  install), and a bottom tab bar — Family · What's new · Story · Ask AI — with an unread count on What's
+  new (curated entries only, the notification rule) and a dot on the installed app's icon after a push.
+  Person pages, the story and the assistant keep their design; the person page gets ‹ Back.
+- **Fixed:** "Relationship to Private" — the owner's name is withheld on the public site, so the heading
+  now reads "Relationship to the archive's owner" (PT "Parentesco com o dono do arquivo"); the assistant
+  no longer suggests "How is X related to Private?". Search results no longer pick up the toolbar's
+  green button style.
+
 ### Fixed — push notifications: code-review findings and Apple delivery (2026-10-09)
 
 - **Apple delivery:** iPhone pushes failed with `{"reason":"BadWebPushTopic"}`; the Worker no

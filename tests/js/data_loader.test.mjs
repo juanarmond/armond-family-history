@@ -235,6 +235,7 @@ test("source view gates files and carries citation metadata", () => {
   assert.equal(s1.quality, "primary");
   assert.equal(s1.limitation, "The ink is faded in places.");
   assert.equal(s1.private, true);
+  assert.deepEqual(s1.linkedPeople, ["P-1", "P-2", "P-4"], "the people a record is about, for filing it under a branch");
 
   const s2 = data.sources["S-2"];
   assert.equal(s2.file, null, "a repository_path of STATUS.md must not become a file link");

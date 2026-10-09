@@ -181,9 +181,9 @@ main {
   flex-direction: column;
   min-width: 0;
 }
-.toolbar .field-person { flex: 2 1 17rem; }
+.toolbar .field-person { flex: 2 1 11rem; }
 .toolbar .field-gen { flex: 0 1 7.5rem; }
-.toolbar .search-field { flex: 3 1 15rem; position: relative; }
+.toolbar .search-field { flex: 3 1 10rem; position: relative; }
 .toolbar .field-lang { flex: 0 1 9rem; }
 .toolbar #reset-view { flex: 0 0 auto; align-self: flex-end; }
 
@@ -274,7 +274,8 @@ a:focus-visible {
 }
 
 
-.toolbar button {
+/* The toolbar's own buttons only — not the buttons inside the search results list. */
+.toolbar > button {
   min-height: 2.85rem;
   padding: .65rem 1.35rem;
   border: 1px solid var(--green-deep);
@@ -290,8 +291,8 @@ a:focus-visible {
   box-shadow: var(--shadow-xs);
   transition: background .15s ease, transform .12s ease, box-shadow .15s ease;
 }
-.toolbar button:hover { background: var(--green-deep); box-shadow: 0 0 0 1px var(--gold), var(--shadow-xs); }
-.toolbar button:active { transform: translateY(1px); }
+.toolbar > button:hover { background: var(--green-deep); box-shadow: 0 0 0 1px var(--gold), var(--shadow-xs); }
+.toolbar > button:active { transform: translateY(1px); }
 
 /* ---------- Summary tiles ---------- */
 
@@ -2239,3 +2240,481 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
   body.is-mobile .portrait-panel { animation: sheet-up .28s cubic-bezier(.2, .7, .2, 1); }
 }
 @keyframes sheet-up { from { transform: translateY(24px); opacity: 0; } to { transform: none; opacity: 1; } }
+
+/* ---------- Family branches ("the four rivers") ---------- */
+/* Each branch has a colour (branches.js), set per element as --b. The colours stay clear of
+   the evidence-tier colours, so a branch tag never reads as an evidence badge. */
+
+.site-header { position: relative; }
+.brand-emblem { padding: 0; border: 0; border-radius: 50%; background: none; cursor: pointer; }
+
+.branch-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  min-height: 2.85rem;
+  padding: .4rem .9rem .4rem .75rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 999px;
+  background: #fffdf6;
+  color: var(--ink-2);
+  font-family: var(--sans);
+  font-size: .85rem;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.branch-chip:hover { background: var(--gold-soft); border-color: var(--gold); }
+.branch-chip-label { min-width: 0; }
+.branch-chip-caret { color: var(--muted); font-size: .7rem; }
+.header-branch-chip { display: none; }
+.toolbar .field-branch { display: flex; flex-direction: column; flex: 0 0 auto; }
+.toolbar .field-label {
+  display: block;
+  margin-bottom: .45rem;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+
+.branch-dots { display: inline-flex; align-items: center; }
+.branch-dot {
+  width: .62rem;
+  height: .62rem;
+  border-radius: 50%;
+  background: var(--b);
+  border: 1.5px solid #fffdf6;
+}
+.branch-dot + .branch-dot { margin-left: -.22rem; }
+
+.branch-tags { display: inline-flex; flex-wrap: wrap; gap: .25rem; vertical-align: middle; }
+.branch-tag {
+  padding: .05rem .45rem;
+  border: 1px solid var(--rule-strong);
+  border-color: color-mix(in srgb, var(--b) 40%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--b) 7%, transparent);
+  color: var(--b);
+  font-family: var(--sans);
+  font-size: .66rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: .02em;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+.detail-lifespan .branch-tags { margin-left: .2rem; }
+
+/* Unread count on the What's new button and tab. */
+.count-badge {
+  display: inline-grid;
+  place-items: center;
+  min-width: 1.15rem;
+  height: 1.15rem;
+  margin-left: .45rem;
+  padding: 0 .3rem;
+  border-radius: 999px;
+  background: #b3412f;
+  color: #fff;
+  font-family: var(--sans);
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1;
+}
+.count-badge[hidden] { display: none; }
+.update-new {
+  padding: .05rem .45rem;
+  border-radius: 999px;
+  background: #b3412f;
+  color: #fff;
+  font-family: var(--sans);
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+/* "These families · N / Everything · M" */
+.segmented {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .2rem;
+  margin: 0 0 .9rem;
+  padding: .2rem;
+  border-radius: 999px;
+  background: var(--paper-2);
+}
+.segmented button {
+  min-height: 2.2rem;
+  padding: .4rem .6rem;
+  border: 0;
+  border-radius: 999px;
+  background: none;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .78rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.segmented button[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: var(--shadow-xs); }
+.search-results .segmented { position: sticky; top: .4rem; z-index: 1; margin: .4rem .5rem .3rem; }
+.search-result .branch-tags { flex: 0 0 auto; }
+.search-more {
+  display: block;
+  width: 100%;
+  padding: .7rem .85rem;
+  border: 0;
+  border-top: 1px dashed var(--rule-strong);
+  background: var(--card-2);
+  color: var(--green-deep);
+  font-family: var(--sans);
+  font-size: .8rem;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+.search-empty { margin: .5rem .85rem .7rem; color: var(--muted); font-size: .85rem; font-style: italic; }
+
+.story-scope-note {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem .8rem;
+  margin: 0 0 1.3rem;
+  padding: .7rem .85rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-sm);
+  background: var(--card-2);
+}
+.story-scope-note p { flex: 1 1 14rem; margin: 0; color: var(--ink-2); font-family: var(--sans); font-size: .82rem; line-height: 1.45; }
+
+/* The families panel: the first-visit question, and the sheet behind the chip. */
+.branch-panel { --branch-pad: 1.6rem; width: min(34rem, 94vw); z-index: 27; padding: 1.8rem var(--branch-pad) 0; }
+#branch-backdrop { z-index: 26; }
+.branch-head { margin-bottom: 1rem; }
+.branch-lede { margin: .45rem 0 0; color: var(--muted); font-size: .95rem; line-height: 1.5; }
+.branch-or {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  margin: 1rem .1rem .2rem;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .78rem;
+}
+.branch-or::before, .branch-or::after { content: ""; flex: 1; height: 1px; background: var(--rule-strong); }
+.branch-side-head { display: flex; align-items: baseline; justify-content: space-between; gap: .8rem; margin: 1rem .1rem .5rem; }
+.branch-side-head h3 {
+  margin: 0;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+.branch-side-couple { margin-left: .2rem; font-size: .8rem; font-weight: 500; letter-spacing: 0; text-transform: none; }
+.branch-both {
+  padding: .3rem 0;
+  border: 0;
+  background: none;
+  color: var(--green);
+  font-family: var(--sans);
+  font-size: .8rem;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.branch-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  width: 100%;
+  margin: 0 0 .55rem;
+  padding: .75rem .85rem .75rem 1.25rem;
+  overflow: hidden;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-lg);
+  background: var(--card);
+  box-shadow: var(--shadow-xs);
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+.branch-card-stripe { position: absolute; top: 0; bottom: 0; left: 0; width: .38rem; background: var(--b); }
+.branch-card[aria-pressed="true"] {
+  border-color: var(--b);
+  background: color-mix(in srgb, var(--b) 7%, var(--card));
+  box-shadow: 0 0 0 1.5px var(--b), var(--shadow-xs);
+}
+.branch-card.is-everything { padding-top: .95rem; padding-bottom: .95rem; }
+.branch-option-body { display: grid; flex: 1; gap: .15rem; min-width: 0; }
+.branch-option-title { font-family: var(--serif); font-size: 1.12rem; font-weight: 600; }
+.branch-card.is-everything .branch-option-title { font-size: 1.25rem; }
+.branch-option-sub { color: var(--muted); font-family: var(--sans); font-size: .8rem; }
+.branch-option-surnames { color: var(--b); font-family: var(--sans); font-size: .8rem; font-weight: 600; }
+.branch-card .branch-dots { margin-top: .25rem; }
+.branch-card .branch-dot { width: .7rem; height: .7rem; border: 0; }
+.branch-card .branch-dot + .branch-dot { margin-left: .2rem; }
+.branch-check {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1.5px solid var(--rule-strong);
+  border-radius: 50%;
+  color: #fff;
+  font-family: var(--sans);
+  font-size: .85rem;
+  font-weight: 700;
+}
+[aria-pressed="true"] > .branch-check { background: var(--b); border-color: var(--b); }
+[aria-pressed="true"] > .branch-check::after { content: "✓"; }
+.branch-row {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  width: 100%;
+  padding: .7rem .15rem;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  background: none;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+.branch-row .branch-option-title { font-family: var(--sans); font-size: .95rem; }
+.branch-switch {
+  position: relative;
+  flex: none;
+  width: 2.65rem;
+  height: 1.55rem;
+  border-radius: 999px;
+  background: var(--rule-strong);
+  transition: background .15s ease;
+}
+.branch-switch::after {
+  content: "";
+  position: absolute;
+  top: .18rem;
+  left: .18rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .25);
+  transition: left .15s ease;
+}
+[aria-pressed="true"] > .branch-switch { background: var(--b); }
+[aria-pressed="true"] > .branch-switch::after { left: 1.27rem; }
+.branch-footer {
+  position: sticky;
+  bottom: 0;
+  margin: 1rem calc(-1 * var(--branch-pad)) 0;
+  padding: .9rem var(--branch-pad) calc(1.3rem + env(safe-area-inset-bottom));
+  background: linear-gradient(to bottom, rgba(246, 239, 221, 0), var(--card-2) 30%);
+}
+.branch-cta {
+  width: 100%;
+  min-height: 3rem;
+  border: 0;
+  border-radius: 999px;
+  background: var(--green);
+  color: #fff;
+  font-family: var(--sans);
+  font-size: .95rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.branch-cta:hover { background: var(--green-deep); }
+.branch-hint { margin: .6rem 0 0; color: var(--muted); font-family: var(--sans); font-size: .76rem; text-align: center; }
+.branch-share { margin-bottom: .9rem; padding: .8rem .9rem; border: 1px solid var(--rule); border-radius: var(--radius-sm); background: var(--paper); }
+.branch-share-title { margin: 0; font-family: var(--sans); font-size: .85rem; font-weight: 700; }
+.branch-share code { display: block; margin: .35rem 0 .6rem; color: var(--ink-2); font-size: .74rem; word-break: break-all; }
+.branch-share-actions { display: flex; flex-wrap: wrap; gap: .5rem; }
+
+/* The emblem's menu: families, help, language, install. */
+.app-menu {
+  position: absolute;
+  z-index: 40;
+  top: calc(100% - 1.2rem);
+  right: 1.5rem;
+  min-width: 14rem;
+  padding: .4rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow-md);
+  font-family: var(--sans);
+}
+.app-menu-item {
+  display: block;
+  width: 100%;
+  padding: .65rem .8rem;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: none;
+  color: var(--ink);
+  font-size: .9rem;
+  text-align: left;
+  cursor: pointer;
+}
+.app-menu-item:hover { background: var(--card-2); }
+.app-menu-languages { display: grid; grid-template-columns: 1fr 1fr; gap: .25rem; margin: .35rem .2rem .2rem; padding-top: .45rem; border-top: 1px solid var(--rule); }
+.app-menu-languages button { padding: .5rem; border: 1px solid var(--rule-strong); border-radius: 999px; background: none; font-size: .82rem; cursor: pointer; }
+.app-menu-languages button[aria-pressed="true"] { background: var(--green); border-color: var(--green); color: #fff; }
+
+/* Mobile home: the grandparents, the surname index. */
+.mobile-row.has-branch-edge { border-left: 4px solid var(--b); }
+.mobile-row .branch-tags { flex: 0 0 auto; }
+.home-married { margin: .1rem .2rem 0; color: var(--muted); font-size: .85rem; }
+.home-browse {
+  display: block;
+  width: 100%;
+  min-height: 2.9rem;
+  margin-top: 1.3rem;
+  border: 1px solid var(--green);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--green);
+  font-family: var(--sans);
+  font-size: .9rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.surname-chips { display: flex; flex-wrap: wrap; gap: .45rem; }
+.surname-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  min-height: 2.35rem;
+  padding: .35rem .8rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--ink-2);
+  font-family: var(--serif);
+  font-size: .92rem;
+  cursor: pointer;
+}
+.surname-chip-count { color: var(--muted); font-family: var(--sans); font-size: .75rem; font-weight: 600; }
+.surname-chip-all { border-color: var(--green); color: var(--green); font-family: var(--sans); font-size: .82rem; font-weight: 700; }
+.mobile-screen-title { margin: 0 0 .5rem; font-size: 1.25rem; }
+.mobile-focus-tags { margin: .45rem 0 0; }
+.detail-head .detail-back { display: none; } /* phone only (see the mobile chrome below) */
+
+/* ---------- Mobile app chrome: compact header, bottom tab bar ---------- */
+.tabbar { display: none; }
+
+@media (max-width: 700px) {
+  :root { --tabbar-h: calc(3.85rem + env(safe-area-inset-bottom)); }
+  body { padding-bottom: var(--tabbar-h); }
+
+  .tabbar {
+    position: fixed;
+    z-index: 25;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    height: var(--tabbar-h);
+    padding: .3rem .3rem env(safe-area-inset-bottom);
+    border-top: 1px solid var(--rule-strong);
+    background: rgba(251, 246, 234, .97);
+    box-shadow: 0 -6px 18px -12px rgba(48, 38, 18, .35);
+    backdrop-filter: blur(6px);
+  }
+  .tab {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .18rem;
+    min-height: 2.9rem;
+    border: 0;
+    background: none;
+    color: var(--muted);
+    font-family: var(--sans);
+    font-size: .66rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .tab[hidden] { display: none; }
+  .tab svg { width: 1.45rem; height: 1.45rem; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+  .tab.is-active { color: var(--green); }
+  .tab .count-badge { position: absolute; top: .05rem; left: calc(50% + .3rem); margin: 0; border: 2px solid var(--card); }
+
+  /* Every section fills the screen above the bar; the bar is how you move between them,
+     so their × buttons give way (the person page gets ‹ Back instead). */
+  .detail-panel,
+  .updates-panel,
+  .portrait-panel,
+  .story-panel:not(.guide-panel):not(.branch-panel):not(.assistant-panel) { bottom: var(--tabbar-h); height: auto; }
+  .assistant-panel { height: calc(100dvh - var(--tabbar-h)); }
+  #close-story, #close-updates, #close-assistant, #close-details { display: none; }
+  .detail-head .detail-back {
+    display: inline-flex;
+    align-items: center;
+    gap: .3rem;
+    width: auto;
+    height: auto;
+    min-height: 2.6rem;
+    margin: 0 0 .9rem;
+    padding: .4rem .95rem;
+    border: 1px solid var(--rule-strong);
+    border-radius: 999px;
+    background: var(--card);
+    color: var(--green-deep);
+    font-family: var(--serif);
+    font-size: .95rem;
+    cursor: pointer;
+  }
+  .help-fab, .assistant-fab, .install-fab { display: none !important; }
+
+  /* A compact, sticky app bar: emblem (menu) · title · families chip. */
+  .site-header {
+    position: sticky;
+    z-index: 18;
+    top: 0;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: .6rem;
+    padding: calc(.5rem + env(safe-area-inset-top)) 1rem .5rem;
+    border-bottom: 1px solid var(--rule-strong);
+    background: rgba(251, 246, 234, .97);
+    backdrop-filter: blur(6px);
+  }
+  .site-title { order: 1; flex: 1 1 auto; min-width: 0; }
+  .site-title .eyebrow, .site-title .subtitle { display: none; }
+  .site-header h1 { margin: 0; overflow: hidden; color: var(--green-deep); font-size: 1.15rem; text-overflow: ellipsis; white-space: nowrap; }
+  .brand-emblem { order: 0; width: 2.3rem; height: 2.3rem; filter: none; }
+  .header-branch-chip { order: 2; display: inline-flex; max-width: 55vw; min-height: 2.3rem; padding: .3rem .7rem .3rem .55rem; font-size: .78rem; }
+  .header-branch-chip .branch-chip-label { overflow: hidden; text-overflow: ellipsis; }
+  .app-menu { top: calc(100% + .3rem); right: auto; left: .8rem; }
+
+  /* The toolbar keeps only the search box; the rest lives in the chip, the menu and the bar. */
+  main { padding-top: 1rem; }
+  .toolbar { margin: 0 0 .4rem; padding: 0; border: 0; background: none; box-shadow: none; }
+  .toolbar > :not(.search-field) { display: none; }
+  .toolbar .search-field > span:first-child { display: none; }
+  .summary { display: none; }
+
+  /* The families sheet rises from the bottom; the first-visit question fills the screen. */
+  .branch-panel { --branch-pad: 1.15rem; padding: 1.3rem var(--branch-pad) 0; }
+  .branch-panel:not(.is-welcome) { top: auto; bottom: 0; height: auto; max-height: 90dvh; border-top: 1px solid var(--gold); border-radius: 16px 16px 0 0; }
+}
+@media (max-width: 700px) {
+  /* On a phone the results list may use most of the screen. */
+  .search-results { max-height: min(62vh, 32rem); }
+  /* Jumping to a person scrolls the view to the top — below the sticky header, not under it. */
+  .mobile-view { scroll-margin-top: 4.2rem; }
+}

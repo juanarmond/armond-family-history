@@ -1,0 +1,294 @@
+// Family branches — "the four rivers". The subject's four grandparents each head a branch:
+// their own ancestors plus the deceased children of every couple in that line (siblings of
+// an ancestor, aunts and uncles). A viewer can follow one branch, several, or everything,
+// and the app scopes search, the home screen, What's new and the Family Story to that
+// choice. Pure functions over the projected tree data (no DOM), so they are unit-tested
+// under Node (tests/js/branches.test.mjs).
+
+export const SUBJECT_ID = "P-0001";
+
+// The four branches, in the order the Family Story tells them (`river`). Each `rootId` is a
+// grandparent of the subject; the side (father's or mother's) is derived from the tree. The
+// colours are kept clear of the evidence-tier colours (confirmed / strong / hypothesis).
+export const BRANCHES = [
+  { key: "armond", rootId: "P-0004", label: "Armond", colour: "#2f5d43", river: 1 },
+  { key: "engracio", rootId: "P-0005", label: "Engracio", colour: "#b07d2b", river: 2 },
+  { key: "muniz", rootId: "P-0006", label: "Muniz", colour: "#3d6b8c", river: 3 },
+  { key: "bohrer", rootId: "P-0007", label: "Bohrer", colour: "#8c4a5a", river: 4 },
+];
+
+const visibleParents = (parentsByChild, personId) =>
+  (parentsByChild[personId] || [])
+    .filter((relationship) => relationship.status !== "rejected")
+    .map((relationship) => relationship.parentId);
+
+// The year of a structured date ({ kind: exact | month | year | approximate | … }).
+export function yearOfDate(date) {
+  if (!date || typeof date !== "object") return null;
+  if (date.kind === "exact" && typeof date.value === "string") return Number(date.value.slice(0, 4)) || null;
+  if (Number.isFinite(date.year)) return date.year;
+  if (Number.isFinite(date.earliest)) return date.earliest;
+  const match = String(date.text || date.original_text || "").match(/\b(1[5-9]\d{2}|20\d{2})\b/);
+  return match ? Number(match[1]) : null;
+}
+
+function earliestEventYear(person) {
+  const years = (person?.events || []).map((event) => yearOfDate(event.date)).filter(Number.isFinite);
+  return years.length ? Math.min(...years) : null;
+}
+
+// ---------- Surnames ----------
+// A browsable surname index. Portuguese and colonial German names carry devotional and second
+// given names ("Maria de Jesus", "Anna Clara"), so a word counts as a surname only when it ends
+// someone's name, never starts anyone's name, and is not on the short list below. Spellings that
+// differ only by a silent h, y/i or a doubled letter share one entry ("Bohrer / Borer").
+const PARTICLES = new Set(["de", "da", "do", "dos", "das", "e", "d'", "del", "della", "van", "von", "der", "zu"]);
+const SUFFIXES = new Set(["filho", "filha", "junior", "jr", "sr", "neto", "neta", "sobrinho", "velho", "moco"]);
+const NOT_SURNAMES = new Set([
+  // devotional names
+  "jesus", "conceicao", "santo", "espirito", "deus", "anjos", "luz", "paixao", "assumpcao", "assuncao",
+  "piedade", "gloria", "rosario", "dores", "natividade", "trindade", "nazare", "graca", "gracas",
+  // second given names that end some women's names in this archive
+  "eugenia", "clara", "angelica", "caroline", "margaretha", "francisca", "luiza", "thereza", "tereza",
+]);
+
+const fold = (text) => text.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+
+export function nameTokens(name) {
+  return String(name || "")
+    .replace(/\(.*?\)|\[.*?\]/g, " ")
+    .split(/\s+/)
+    .map((token) => token.replace(/[^\p{L}'-]/gu, ""))
+    .filter(Boolean);
+}
+
+export function surnameKey(token) {
+  return fold(token).replace(/h/g, "").replace(/y/g, "i").replace(/(.)\1+/g, "$1");
+}
+
+// Tokens after the given name, without particles or generational suffixes.
+function tailTokens(name) {
+  return nameTokens(name)
+    .slice(1)
+    .filter((token) => !PARTICLES.has(fold(token)) && !SUFFIXES.has(fold(token)));
+}
+
+// The set of surname keys known to the archive, built from every person's name.
+export function surnameVocabulary(people) {
+  const givenNames = new Set();
+  const lastWords = new Set();
+  for (const person of Object.values(people)) {
+    if (person.privacy === "living") continue;
+    const tokens = nameTokens(person.name);
+    if (tokens[0]) givenNames.add(fold(tokens[0]));
+    const tail = tailTokens(person.name);
+    if (tail.length) lastWords.add(tail[tail.length - 1]);
+  }
+  const vocabulary = new Set();
+  for (const word of lastWords) {
+    const folded = fold(word);
+    if (givenNames.has(folded) || NOT_SURNAMES.has(folded)) continue;
+    vocabulary.add(surnameKey(word));
+  }
+  return vocabulary;
+}
+
+// Surname entries for a set of person ids: [{ key, label, spellings, ids }], most people first.
+export function surnameIndex(people, ids, vocabulary = surnameVocabulary(people)) {
+  const groups = new Map();
+  for (const id of ids) {
+    const person = people[id];
+    if (!person || person.privacy === "living") continue;
+    const seen = new Set();
+    for (const token of tailTokens(person.name)) {
+      const key = surnameKey(token);
+      if (!vocabulary.has(key) || seen.has(key)) continue;
+      seen.add(key);
+      const group = groups.get(key) || { key, spellings: new Map(), ids: [] };
+      group.spellings.set(token, (group.spellings.get(token) || 0) + 1);
+      group.ids.push(id);
+      groups.set(key, group);
+    }
+  }
+  return [...groups.values()]
+    .map((group) => {
+      const spellings = [...group.spellings.entries()]
+        .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+        .map(([spelling]) => spelling);
+      return {
+        key: group.key,
+        label: spellings.slice(0, 2).join(" / "),
+        spellings,
+        ids: group.ids.sort((a, b) => (people[a]?.name || "").localeCompare(people[b]?.name || "")),
+      };
+    })
+    .sort((a, b) => b.ids.length - a.ids.length || a.label.localeCompare(b.label));
+}
+
+// ---------- Branch membership ----------
+export function computeBranches({ people, parentsByChild }, config = BRANCHES) {
+  const subjectParents = visibleParents(parentsByChild, SUBJECT_ID);
+  const sideOf = (rootId) => {
+    const parentId = subjectParents.find((id) => visibleParents(parentsByChild, id).includes(rootId)) || null;
+    const side = parentId ? (people[parentId]?.sex === "female" ? "maternal" : "paternal") : null;
+    return { parentId, side };
+  };
+  const vocabulary = surnameVocabulary(people);
+  const list = [];
+  const personBranches = {};
+  for (const branch of config) {
+    if (!people[branch.rootId]) continue;
+    const depth = new Map([[branch.rootId, 1]]);
+    const queue = [branch.rootId];
+    while (queue.length) {
+      const id = queue.shift();
+      for (const parentId of visibleParents(parentsByChild, id)) {
+        if (depth.has(parentId) || !people[parentId]) continue;
+        depth.set(parentId, depth.get(id) + 1);
+        queue.push(parentId);
+      }
+    }
+    const members = new Set(depth.keys());
+    const collaterals = new Set();
+    for (const id of depth.keys()) {
+      for (const child of people[id]?.children || []) {
+        if (child.type !== "person" || !child.id || members.has(child.id) || child.id === SUBJECT_ID || !people[child.id]) continue;
+        collaterals.add(child.id);
+      }
+    }
+    // A collateral's spouse is part of the family story too (a great-aunt by marriage).
+    for (const id of collaterals) {
+      members.add(id);
+      for (const spouse of people[id]?.spouses || []) if (people[spouse.id]) members.add(spouse.id);
+    }
+    const years = [...members].map((id) => earliestEventYear(people[id])).filter(Number.isFinite);
+    const { parentId, side } = sideOf(branch.rootId);
+    list.push({
+      ...branch,
+      name: people[branch.rootId].name,
+      side,
+      sideParentId: parentId,
+      members: [...members].sort(),
+      generations: Math.max(...depth.values()),
+      earliestYear: years.length ? Math.min(...years) : null,
+      surnameEntries: surnameIndex(people, members, vocabulary),
+    });
+    for (const id of members) (personBranches[id] ||= []).push(branch.key);
+  }
+  // The few surnames that identify each branch on its card: its own commonest surnames,
+  // preferring those found in no other branch (Silva and Ferreira recur everywhere).
+  for (const branch of list) {
+    const ownSurname = surnameKey(branch.label);
+    const elsewhere = new Set(list.filter((other) => other !== branch).flatMap((other) => other.surnameEntries.map((entry) => entry.key)));
+    const candidates = branch.surnameEntries.filter((entry) => entry.key !== ownSurname);
+    branch.surnames = [
+      ...candidates.filter((entry) => !elsewhere.has(entry.key)),
+      ...candidates.filter((entry) => elsewhere.has(entry.key)),
+    ].slice(0, 4).map((entry) => entry.spellings[0]);
+  }
+  for (const branch of list) delete branch.surnameEntries;
+  return { list, byKey: Object.fromEntries(list.map((branch) => [branch.key, branch])), personBranches, vocabulary };
+}
+
+// ---------- Scope (the viewer's choice of branches) ----------
+// A scope is a Set of branch keys; the empty set means "everything". Choosing every branch is
+// the same as everything, so it normalises to the empty set.
+export function normaliseScope(keys, info) {
+  const valid = new Set([...keys].filter((key) => info.byKey[key]));
+  return valid.size === info.list.length ? new Set() : valid;
+}
+
+export function parseScope(text, info) {
+  if (typeof text !== "string" || !text.trim() || text.trim() === "all") return new Set();
+  return normaliseScope(text.split(",").map((key) => key.trim().toLowerCase()), info);
+}
+
+// Branch order, so a shared link reads the same however the boxes were ticked.
+export function serialiseScope(scope, info) {
+  if (!scope.size) return "all";
+  return info.list.filter((branch) => scope.has(branch.key)).map((branch) => branch.key).join(",");
+}
+
+export function inScope(info, scope, personId) {
+  if (!scope.size) return true;
+  return (info.personBranches[personId] || []).some((key) => scope.has(key));
+}
+
+// Where a scoped tree starts: one grandparent; for both grandparents on one side, their child
+// (the subject's parent); anything wider starts at the subject, as the full tree does.
+export function scopeRoot(info, scope) {
+  const chosen = info.list.filter((branch) => scope.has(branch.key));
+  if (!chosen.length) return SUBJECT_ID;
+  if (chosen.length === 1) return chosen[0].rootId;
+  const parents = new Set(chosen.map((branch) => branch.sideParentId));
+  return parents.size === 1 && !parents.has(null) ? [...parents][0] : SUBJECT_ID;
+}
+
+export function scopeSize(info, scope, totalPeople) {
+  if (!scope.size) return totalPeople;
+  const ids = new Set();
+  for (const branch of info.list) if (scope.has(branch.key)) branch.members.forEach((id) => ids.add(id));
+  return ids.size;
+}
+
+// ---------- What's new ----------
+// The branches an update touches: through the people it links, and the people linked to the
+// records it links. An update that touches no branch (a site-wide note) belongs to every scope.
+export function entryBranches(entry, info, sources = {}) {
+  const ids = [...(Array.isArray(entry?.links) ? entry.links : []), entry?.primary].filter((id) => typeof id === "string");
+  const keys = new Set();
+  for (const id of ids) {
+    const people = /^P-\d+$/.test(id) ? [id] : sources[id]?.linkedPeople || [];
+    for (const personId of people) for (const key of info.personBranches[personId] || []) keys.add(key);
+  }
+  return keys;
+}
+
+export function entryInScope(entry, info, scope, sources) {
+  if (!scope.size) return true;
+  const keys = entryBranches(entry, info, sources);
+  return !keys.size || [...keys].some((key) => scope.has(key));
+}
+
+// Curated entries (milestones, corrections, new people) drive the unread badge — the same rule
+// that sends a notification. Routine document additions never count.
+export const isCurated = (entry) => Boolean(entry) && (entry.kind || "document") !== "document";
+export const updateKey = (entry) => `${entry.date || ""}|${entry.title || ""}`;
+
+// ---------- Family Story ----------
+// The story is written as four "## RIVER …" chapters (in Portuguese "## RIO …"). For a scoped
+// reader: the opening, the chosen rivers, the closing chapters, then the other rivers.
+const RIVER_NUMBERS = { one: 1, two: 2, three: 3, four: 4, um: 1, dois: 2, tres: 3, quatro: 4 };
+const RIVER_HEADING = /^##\s+(?:RIVER|RIO)\s+(\p{L}+)/iu;
+
+export function storyChapters(text) {
+  const chapters = [];
+  let current = null;
+  for (const line of String(text || "").split("\n")) {
+    if (/^## /.test(line) || !current) {
+      current = { lines: [], river: null };
+      chapters.push(current);
+      const match = line.match(RIVER_HEADING);
+      if (match) current.river = RIVER_NUMBERS[fold(match[1])] || null;
+    }
+    current.lines.push(line);
+  }
+  return chapters.map((chapter) => ({ river: chapter.river, text: chapter.lines.join("\n").replace(/\s+$/, "") }));
+}
+
+export function reorderStory(text, rivers) {
+  if (!rivers.length) return text;
+  const chapters = storyChapters(text);
+  const first = chapters.findIndex((chapter) => chapter.river);
+  if (first < 0) return text;
+  const tail = chapters.slice(first);
+  return [
+    ...chapters.slice(0, first),
+    ...tail.filter((chapter) => chapter.river && rivers.includes(chapter.river)),
+    ...tail.filter((chapter) => !chapter.river),
+    ...tail.filter((chapter) => chapter.river && !rivers.includes(chapter.river)),
+  ]
+    .map((chapter) => chapter.text)
+    .filter(Boolean)
+    .join("\n\n");
+}

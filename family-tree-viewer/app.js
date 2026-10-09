@@ -1,10 +1,31 @@
 import { createI18n, resolveLocale, SUPPORTED_LOCALES } from "./i18n.js";
 import { load as parseYaml } from "./vendor/js-yaml.mjs";
+import {
+  computeBranches,
+  entryBranches,
+  entryInScope,
+  inScope,
+  isCurated,
+  normaliseScope,
+  parseScope,
+  reorderStory,
+  scopeRoot,
+  scopeSize,
+  serialiseScope,
+  surnameIndex,
+  SUBJECT_ID,
+  updateKey,
+} from "./branches.js";
 
 const LANG_STORAGE_KEY = "armond-viewer-lang";
 // Set once the first-run guide has been shown, so it never auto-opens again (the
 // "? Help" button always reopens it on demand). Bump the suffix to re-introduce it.
 const GUIDE_STORAGE_KEY = "armond-viewer-guide-seen-v1";
+// The family branches a viewer chose ("all" or e.g. "muniz,bohrer"); absent until the
+// first-visit picker has been answered.
+const BRANCH_STORAGE_KEY = "armond-viewer-branches";
+// The curated What's new entries this device has already seen, for the unread badge.
+const UPDATES_SEEN_KEY = "armond-updates-seen-v1";
 
 // Live visitor greeting ("you're visiting from <flag> <country> · you are
 // visitor #N"). Powered by a small Cloudflare Worker + KV the owner deploys (see
@@ -52,9 +73,19 @@ const state = {
   autoFit: true,
   selected: null,
   locale: "en",
-  // Mobile "focus view": the person currently centred, and the back stack.
-  focusId: "P-0001",
+  // Mobile "focus view": the person currently centred (null shows the home screen), and the
+  // back stack. homeView picks a home sub-screen: null, "surnames" or "surname:<key>".
+  focusId: null,
   focusHistory: [],
+  homeView: null,
+  // Family branches ("the four rivers", see branches.js) and the viewer's choice of them; an
+  // empty scope means everything. searchAll / updatesAll widen one list past the scope;
+  // storyFullOrder reads the story in its written order.
+  branches: null,
+  scope: new Set(),
+  searchAll: false,
+  updatesAll: false,
+  storyFullOrder: false,
   // Live visitor greeting payload once fetched: { number, country }.
   visitor: null,
 };
@@ -205,6 +236,15 @@ const elements = {
   assistantForm: document.querySelector("#assistant-form"),
   assistantInput: document.querySelector("#assistant-input"),
   assistantSend: document.querySelector("#assistant-send"),
+  branchChip: document.querySelector("#branch-chip"),
+  branchChipToolbar: document.querySelector("#branch-chip-toolbar"),
+  branchPanel: document.querySelector("#branch-panel"),
+  branchBackdrop: document.querySelector("#branch-backdrop"),
+  branchContent: document.querySelector("#branch-content"),
+  tabs: [...document.querySelectorAll("#tabbar [data-tab]")],
+  appMenuButton: document.querySelector("#app-menu-button"),
+  appMenu: document.querySelector("#app-menu"),
+  detailsBack: document.querySelector("#details-back"),
 };
 
 const statusColours = {
@@ -284,6 +324,57 @@ function primaryPlace(person) {
 function relationshipVisible(relationship) {
   return relationship.status !== "rejected";
 }
+
+const firstName = (name) => String(name || "").split(" ")[0];
+
+// Who "Relationship to …" refers to. The subject is living, so the public site withholds
+// their name; say "the archive's owner" rather than print the placeholder.
+function subjectLabel() {
+  const subject = state.data?.people?.[SUBJECT_ID];
+  return subject && subject.privacy !== "living" ? firstName(subject.name) : t("subject.owner");
+}
+
+// ---------- Family branches ----------
+const chosenBranches = () =>
+  state.branches ? state.branches.list.filter((branch) => !state.scope.size || state.scope.has(branch.key)) : [];
+const personInScope = (personId) => !state.branches || inScope(state.branches, state.scope, personId);
+
+// "Everything", or the chosen branches joined: "Muniz + Bohrer".
+function scopeLabel(scope = state.scope) {
+  if (!state.branches || !scope.size) return t("branch.everything");
+  return state.branches.list.filter((branch) => scope.has(branch.key)).map((branch) => branch.label).join(" + ");
+}
+
+function branchDots(keys) {
+  const dots = document.createElement("span");
+  dots.className = "branch-dots";
+  dots.setAttribute("aria-hidden", "true");
+  for (const key of keys) {
+    const dot = document.createElement("span");
+    dot.className = "branch-dot";
+    dot.style.setProperty("--b", state.branches.byKey[key]?.colour || "var(--muted)");
+    dots.append(dot);
+  }
+  return dots;
+}
+
+// Small coloured tags naming the branch(es) a person, or an update, belongs to.
+function branchTagsFor(keys) {
+  if (!state.branches || !keys.length) return null;
+  const wrap = document.createElement("span");
+  wrap.className = "branch-tags";
+  for (const key of keys) {
+    const branch = state.branches.byKey[key];
+    if (!branch) continue;
+    const tag = document.createElement("span");
+    tag.className = "branch-tag";
+    tag.style.setProperty("--b", branch.colour);
+    tag.textContent = branch.label;
+    wrap.append(tag);
+  }
+  return wrap;
+}
+const branchTags = (personId) => branchTagsFor(state.branches?.personBranches[personId] || []);
 
 function createBadge(label, className = "") {
   const badge = document.createElement("span");
@@ -681,6 +772,7 @@ function readHash() {
     gen: params.get("gen"),
     sel: params.get("sel"),
     lang: params.get("lang"),
+    branch: params.get("branch"),
   };
 }
 
@@ -689,8 +781,9 @@ function syncHash() {
   params.set("root", state.rootId);
   params.set("gen", String(state.generations));
   params.set("lang", state.locale);
+  if (state.branches && state.scope.size) params.set("branch", serialiseScope(state.scope, state.branches));
   if (state.selected) params.set("sel", state.selected);
-  const next = `#${params.toString()}`;
+  const next = `#${params.toString().replace(/%2C/g, ",")}`;
   if (next !== location.hash) history.replaceState(null, "", next);
 }
 
@@ -710,6 +803,8 @@ function populatePersonSelect(query = "") {
   }
 }
 
+let searchHideTimer = null;
+
 function hideSearchResults() {
   if (!elements.searchResults) return;
   elements.searchResults.hidden = true;
@@ -720,29 +815,71 @@ function hideSearchResults() {
 // Navigate to a searched person: clear the box, dismiss the list, and re-root.
 function selectSearchResult(personId) {
   elements.search.value = "";
+  state.searchAll = false;
   hideSearchResults();
   elements.search.blur();
   setRoot(personId);
 }
 
-// Live autocomplete: up to eight name matches, each a tappable row. Works by tap
-// (mobile) and click/Enter (desktop); no submit gesture required.
+// Widen or narrow the results without losing the search box (a tap on the list would
+// otherwise blur it and close the list).
+function setSearchAll(all) {
+  clearTimeout(searchHideTimer);
+  state.searchAll = all;
+  renderSearchResults(elements.search.value);
+  elements.search.focus();
+}
+
+function updateSearchPlaceholder() {
+  if (!elements.search) return;
+  elements.search.placeholder = state.scope.size
+    ? t("control.searchScoped", { families: scopeLabel() })
+    : t("control.searchPlaceholder");
+}
+
+// Live autocomplete, each match a tappable row; works by tap (mobile) and click/Enter
+// (desktop) with no submit gesture. With families chosen, the list stays inside them and
+// says how many more matches are elsewhere, one tap from showing them.
 function renderSearchResults(query) {
   const box = elements.searchResults;
   if (!box || !state.data) return;
   const normalised = query.trim().toLocaleLowerCase();
   box.replaceChildren();
   if (!normalised) {
+    state.searchAll = false;
     hideSearchResults();
     return;
   }
-  const matches = Object.values(state.data.people)
+  const everyone = Object.values(state.data.people)
     .filter((person) => person.name.toLocaleLowerCase().includes(normalised))
-    .sort((a, b) => a.name.localeCompare(b.name))
-    .slice(0, 8);
-  if (!matches.length) {
+    .sort((a, b) => a.name.localeCompare(b.name));
+  if (!everyone.length) {
     hideSearchResults();
     return;
+  }
+  const scoped = state.scope.size ? everyone.filter((person) => personInScope(person.id)) : everyone;
+  const showAll = !state.scope.size || state.searchAll;
+  const matches = (showAll ? everyone : scoped).slice(0, 12);
+
+  if (state.scope.size) {
+    const switcher = document.createElement("div");
+    switcher.className = "segmented search-scope";
+    switcher.setAttribute("role", "group");
+    for (const [all, label] of [[false, t("search.scope", { n: scoped.length })], [true, t("search.everyone", { n: everyone.length })]]) {
+      const option = document.createElement("button");
+      option.type = "button";
+      option.textContent = label;
+      option.setAttribute("aria-pressed", String(all === showAll));
+      option.addEventListener("click", () => setSearchAll(all));
+      switcher.append(option);
+    }
+    box.append(switcher);
+  }
+  if (!matches.length) {
+    const empty = document.createElement("p");
+    empty.className = "search-empty";
+    empty.textContent = t("search.noneHere", { families: scopeLabel() });
+    box.append(empty);
   }
   for (const person of matches) {
     const item = document.createElement("button");
@@ -753,6 +890,8 @@ function renderSearchResults(query) {
     name.className = "search-result-name";
     name.textContent = person.name;
     item.append(name);
+    const tags = branchTags(person.id);
+    if (tags) item.append(tags);
     const years = person.privacy === "living" ? "" : lifespan(person);
     if (years) {
       const meta = document.createElement("span");
@@ -762,6 +901,15 @@ function renderSearchResults(query) {
     }
     item.addEventListener("click", () => selectSearchResult(person.id));
     box.append(item);
+  }
+  const elsewhere = everyone.length - scoped.length;
+  if (state.scope.size && !showAll && elsewhere > 0) {
+    const more = document.createElement("button");
+    more.type = "button";
+    more.className = "search-more";
+    more.textContent = `${tn("search.more", elsewhere, { n: elsewhere })} — ${t("search.showThem")}`;
+    more.addEventListener("click", () => setSearchAll(true));
+    box.append(more);
   }
   box.hidden = false;
   elements.search.setAttribute("aria-expanded", "true");
@@ -861,6 +1009,9 @@ function setLocale(locale) {
   if (elements.languageSelect) elements.languageSelect.value = next;
   applyStaticTranslations();
   renderVisitorWelcome();
+  renderBranchChips();
+  updateSearchPlaceholder();
+  if (elements.branchPanel && !elements.branchPanel.hidden) renderBranchPanel();
   if (elements.guidePanel && !elements.guidePanel.hidden) renderGuide();
   if (elements.storyPanel && !elements.storyPanel.hidden) openStory();
   if (elements.updatesPanel && !elements.updatesPanel.hidden) openUpdates();
@@ -1661,6 +1812,8 @@ function openDetails(personId) {
   elements.detailsId.textContent = person.id;
   elements.detailsTitle.textContent = person.name;
   elements.detailsLifespan.textContent = lifespan(person);
+  const tags = branchTags(person.id);
+  if (tags) elements.detailsLifespan.append(" ", tags);
   elements.detailsContent.replaceChildren();
 
   if (person.hasConflict) {
@@ -1694,8 +1847,7 @@ function openDetails(personId) {
 
   const relationship = relationshipContent(person);
   if (relationship) {
-    const subjectName = (state.data.people["P-0001"]?.name || "").split(" ")[0] || "";
-    elements.detailsContent.append(section(t("detail.relationship", { name: subjectName }), relationship));
+    elements.detailsContent.append(section(t("detail.relationship", { name: subjectLabel() }), relationship));
   }
 
   const facts = document.createElement("dl");
@@ -1822,11 +1974,34 @@ async function openStory() {
   if (opening) elements.closeStory.focus();
   try {
     const text = await loadStory(state.locale);
-    renderPortrait(elements.storyContent, text);
+    // The story is written as four rivers; a reader following some families gets theirs first.
+    const rivers = state.scope.size && !state.storyFullOrder ? chosenBranches().map((branch) => branch.river) : [];
+    renderPortrait(elements.storyContent, rivers.length ? reorderStory(text, rivers) : text);
+    if (state.scope.size) elements.storyContent.prepend(storyScopeNote());
     if (opening) elements.storyContent.scrollTop = 0;
   } catch {
     elements.storyContent.textContent = t("story.error");
   }
+}
+
+function storyScopeNote() {
+  const note = document.createElement("div");
+  note.className = "story-scope-note";
+  if (!state.storyFullOrder) {
+    const text = document.createElement("p");
+    text.textContent = t("story.scopedNote", { families: scopeLabel() });
+    note.append(text);
+  }
+  const toggle = document.createElement("button");
+  toggle.type = "button";
+  toggle.className = "update-chip";
+  toggle.textContent = state.storyFullOrder ? t("story.scopedOrder", { families: scopeLabel() }) : t("story.fullOrder");
+  toggle.addEventListener("click", () => {
+    state.storyFullOrder = !state.storyFullOrder;
+    openStory().then(() => { elements.storyPanel.scrollTop = 0; });
+  });
+  note.append(toggle);
+  return note;
 }
 
 function closeStory() {
@@ -1882,7 +2057,10 @@ function personContextQuestions(person) {
   const name = person.name;
   const firstName = name.split(" ")[0];
   const rootPerson = state.data?.people[state.rootId];
-  const rootFirst = rootPerson && rootPerson.id !== person.id ? rootPerson.name.split(" ")[0] : null;
+  // A living root's name is withheld on the public site — no "related to Private?" question.
+  const rootFirst = rootPerson && rootPerson.id !== person.id && rootPerson.privacy !== "living"
+    ? firstName(rootPerson.name)
+    : null;
   const repl = (key, extra) => {
     let s = t(key).replace("{name}", firstName);
     if (extra) s = s.replace("{root}", extra);
@@ -2183,12 +2361,6 @@ function linkifyAssistant(root) {
 // the "? Help" button is tapped. Content is built here from i18n keys so it stays
 // bilingual and in step with the actual controls; the panel reuses the Family Story
 // styling (centred card on desktop, full-screen sheet on mobile).
-function subjectFirstName() {
-  const name = state.data?.people?.[state.rootId]?.name
-    || state.data?.people?.["P-0001"]?.name
-    || "";
-  return name.split(" ")[0] || name;
-}
 
 // One numbered "how to" step: a gold chip + a title and body. `body` is chosen per
 // layout by the caller so the wording matches what the user can actually do.
@@ -2266,17 +2438,16 @@ function renderGuideNav(container, name) {
 
   const steps = document.createElement("div");
   steps.className = "guide-steps";
-  steps.append(
-    guideStep(1, t("guide.move.title"), mobile ? t("guide.move.mobile") : t("guide.move.desktop")),
-    guideStep(2, t("guide.home.title"), (mobile ? t("guide.home.mobile") : t("guide.home.desktop")).replace("{name}", name)),
-    guideStep(3, t("guide.search.title"), t("guide.search.body")),
-    guideStep(4, t("guide.records.title"), mobile ? t("guide.records.mobile") : t("guide.records.desktop")),
-  );
-  if (ASSISTANT_API) {
-    steps.append(
-      guideStep(5, t("guide.ai.title"), mobile ? t("guide.ai.body.mobile") : t("guide.ai.body.desktop")),
-    );
-  }
+  const rows = [
+    [t("guide.families.title"), mobile ? t("guide.families.mobile") : t("guide.families.desktop")],
+    [t("guide.move.title"), mobile ? t("guide.move.mobile") : t("guide.move.desktop")],
+    [t("guide.home.title"), (mobile ? t("guide.home.mobile") : t("guide.home.desktop")).replace("{name}", name)],
+    [t("guide.search.title"), t("guide.search.body")],
+    [t("guide.records.title"), mobile ? t("guide.records.mobile") : t("guide.records.desktop")],
+  ];
+  if (mobile) rows.push([t("guide.tabs.title"), t("guide.tabs.body")]);
+  if (ASSISTANT_API) rows.push([t("guide.ai.title"), mobile ? t("guide.ai.body.mobile") : t("guide.ai.body.desktop")]);
+  rows.forEach(([title, body], index) => steps.append(guideStep(index + 1, title, body)));
   container.append(steps);
 
   // Legend — the few glyphs a lay reader cannot decode: the birthplace flag, the
@@ -2415,7 +2586,7 @@ function renderGuide() {
   const container = elements.guideContent;
   if (!container) return;
   container.replaceChildren();
-  const name = subjectFirstName();
+  const name = subjectLabel();
   if (guideTopic === "card") {
     setGuideHead(t("guide.card.eyebrow"), t("guide.card.title"), t("guide.card.subtitle"));
     renderGuideCard(container, name);
@@ -2480,6 +2651,7 @@ function syncHelpFab() {
   // The install FAB appears only when the browser has deferred an install prompt
   // (Android Chrome); hidden on iOS (no API) and when already installed.
   if (elements.installFab) elements.installFab.hidden = overlayOpen || !deferredInstallPrompt;
+  syncTabbar();
 }
 
 // topic: "nav" (default, how to move around) or "card" (explain the open person
@@ -2593,8 +2765,67 @@ function resolveUpdateLink(id) {
   return null;
 }
 
-function renderUpdates(container, entries) {
+// The curated entries this device has seen. The first time, everything already published
+// counts as seen, so a new visitor is not greeted by a badge of 40.
+function seenUpdateKeys(entries) {
+  let seen = null;
+  try { seen = JSON.parse(localStorage.getItem(UPDATES_SEEN_KEY) || "null"); } catch { /* unreadable */ }
+  if (Array.isArray(seen)) return new Set(seen);
+  markUpdatesSeen(entries);
+  return new Set(entries.filter(isCurated).map(updateKey));
+}
+
+function markUpdatesSeen(entries) {
+  try { localStorage.setItem(UPDATES_SEEN_KEY, JSON.stringify(entries.filter(isCurated).map(updateKey))); } catch { /* storage unavailable */ }
+}
+
+const updateInScope = (entry) => !state.branches || entryInScope(entry, state.branches, state.scope, state.data?.sources);
+
+// The unread count on the What's new tab and button (and the installed app's icon, where the
+// platform supports it): curated entries not yet seen, within the chosen families.
+async function refreshUpdatesBadge() {
+  if (!state.data) return;
+  let entries;
+  try { entries = await loadUpdates(); } catch { return; }
+  const seen = seenUpdateKeys(entries);
+  const count = entries.filter((entry) => isCurated(entry) && !seen.has(updateKey(entry)) && updateInScope(entry)).length;
+  for (const badge of document.querySelectorAll("[data-updates-badge]")) {
+    badge.hidden = !count;
+    badge.textContent = count > 9 ? "9+" : String(count);
+  }
+  try {
+    if (count && navigator.setAppBadge) await navigator.setAppBadge(count);
+    else if (!count && navigator.clearAppBadge) await navigator.clearAppBadge();
+  } catch { /* badging unsupported or not permitted */ }
+}
+
+// The "These families · N / Everything · M" switch shown over a scoped list.
+function scopeSwitch(scopedCount, allCount, showingAll, allLabelKey, onChange) {
+  const switcher = document.createElement("div");
+  switcher.className = "segmented";
+  switcher.setAttribute("role", "group");
+  for (const [all, label] of [[false, t("search.scope", { n: scopedCount })], [true, t(allLabelKey, { n: allCount })]]) {
+    const option = document.createElement("button");
+    option.type = "button";
+    option.textContent = label;
+    option.setAttribute("aria-pressed", String(all === showingAll));
+    option.addEventListener("click", () => onChange(all));
+    switcher.append(option);
+  }
+  return switcher;
+}
+
+// unseen: keys of curated entries this device had not seen when the panel opened.
+function renderUpdates(container, entries, unseen = new Set()) {
   container.textContent = "";
+  if (state.scope.size) {
+    const scoped = entries.filter(updateInScope);
+    container.append(scopeSwitch(scoped.length, entries.length, state.updatesAll, "updates.all", (all) => {
+      state.updatesAll = all;
+      renderUpdates(container, entries, unseen);
+    }));
+    if (!state.updatesAll) entries = scoped;
+  }
   if (!entries.length) {
     const empty = document.createElement("p");
     empty.className = "empty-note";
@@ -2626,7 +2857,17 @@ function renderUpdates(container, entries) {
     date.className = "update-date";
     if (typeof entry.date === "string") date.dateTime = entry.date;
     date.textContent = formatUpdateDate(entry.date);
+    if (unseen.has(updateKey(entry))) {
+      const fresh = document.createElement("span");
+      fresh.className = "update-new";
+      fresh.textContent = t("updates.new");
+      meta.append(fresh);
+    }
     meta.append(kind, date);
+    const tags = state.branches ? branchTagsFor(
+      state.branches.list.map((branch) => branch.key).filter((key) => entryBranches(entry, state.branches, state.data?.sources).has(key)),
+    ) : null;
+    if (tags) meta.append(tags);
 
     // Headline. When a `primary` entity resolves, the headline itself opens it (the document
     // reader or the person panel); otherwise it is plain text.
@@ -2821,6 +3062,7 @@ async function renderNotifyBar(message) {
   bar.replaceChildren(...content);
 }
 
+let openUpdatesUnseen = null;
 async function openUpdates() {
   if (!elements.updatesPanel) return;
   closeStory();
@@ -2835,8 +3077,16 @@ async function openUpdates() {
   renderNotifyBar();
   if (opening) elements.closeUpdates.focus();
   try {
-    renderUpdates(elements.updatesContent, await loadUpdates());
+    const entries = await loadUpdates();
+    // NEW marks what was unread when the panel opened; opening it then marks everything read.
+    if (opening || !openUpdatesUnseen) {
+      const seen = seenUpdateKeys(entries);
+      openUpdatesUnseen = new Set(entries.filter((entry) => isCurated(entry) && !seen.has(updateKey(entry))).map(updateKey));
+    }
+    renderUpdates(elements.updatesContent, entries, openUpdatesUnseen);
     if (opening) elements.updatesContent.scrollTop = 0;
+    markUpdatesSeen(entries);
+    refreshUpdatesBadge();
   } catch {
     elements.updatesContent.textContent = t("updates.error");
   }
@@ -2844,6 +3094,7 @@ async function openUpdates() {
 
 function closeUpdates() {
   if (!elements.updatesPanel || elements.updatesPanel.hidden) return;
+  openUpdatesUnseen = null;
   elements.updatesPanel.hidden = true;
   elements.updatesBackdrop.hidden = true;
   if (lastFocused && lastFocused.isConnected && typeof lastFocused.focus === "function") {
@@ -2876,11 +3127,13 @@ const MOBILE_QUERY = window.matchMedia("(max-width: 700px)");
 const isMobile = () => MOBILE_QUERY.matches;
 
 // One tappable relation row. Rows for a modelled person we can re-centre on are
-// buttons; documented-only relations (no entity) are inert.
-function mobileRelationRow(id, name, meta) {
+// buttons; documented-only relations (no entity) are inert. options.tags adds the person's
+// branch tags; options.colour draws that branch's colour down the row's edge.
+function mobileRelationRow(id, name, meta, options = {}) {
   const target = id && state.data.people[id];
   const row = document.createElement(target ? "button" : "div");
-  row.className = `mobile-row${target ? "" : " is-static"}`;
+  row.className = `mobile-row${target ? "" : " is-static"}${options.colour ? " has-branch-edge" : ""}`;
+  if (options.colour) row.style.setProperty("--b", options.colour);
   if (target) {
     row.type = "button";
     row.addEventListener("click", () => focusPerson(id));
@@ -2898,6 +3151,8 @@ function mobileRelationRow(id, name, meta) {
     m.textContent = detail;
     row.append(m);
   }
+  const tags = options.tags && target ? branchTags(id) : null;
+  if (tags) row.append(tags);
   if (target) {
     const chevron = document.createElement("span");
     chevron.className = "mobile-row-chevron";
@@ -2946,11 +3201,157 @@ function focusBack() {
   scrollFocusIntoView();
 }
 
+// Back to the home screen of the chosen families.
+function showHome() {
+  if (elements.detailsPanel && !elements.detailsPanel.hidden) closeDetails();
+  state.focusId = null;
+  state.focusHistory = [];
+  state.homeView = null;
+  if (isMobile()) {
+    renderMobileFocus();
+    scrollFocusIntoView();
+  }
+}
+
+function showHomeView(view) {
+  state.homeView = view;
+  renderMobileFocus();
+  scrollFocusIntoView();
+}
+
+function mobileNavButton(label, onClick, extraClass = "") {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = `mobile-nav-btn ${extraClass}`.trim();
+  button.textContent = label;
+  button.addEventListener("click", onClick);
+  return button;
+}
+
+// A titled block holding any content (mobileSection holds rows).
+function mobileBlock(title, content) {
+  const section = document.createElement("section");
+  section.className = "mobile-section";
+  const heading = document.createElement("h3");
+  heading.className = "mobile-section-title";
+  heading.textContent = title;
+  section.append(heading, content);
+  return section;
+}
+
+const scopedPeopleIds = () => Object.keys(state.data.people).filter(personInScope);
+
+function surnameChip(entry, onClick) {
+  const chip = document.createElement("button");
+  chip.type = "button";
+  chip.className = "surname-chip";
+  chip.textContent = entry.label;
+  const count = document.createElement("span");
+  count.className = "surname-chip-count";
+  count.textContent = String(entry.ids.length);
+  chip.append(count);
+  chip.addEventListener("click", onClick);
+  return chip;
+}
+
+// The home screen: the four grandparents (everything), or where the chosen families meet and
+// those grandparents' parents; then a surname index. Living people never lead a scoped home.
+function renderMobileHome(container) {
+  const people = state.data.people;
+  const chosen = chosenBranches().filter((branch) => people[branch.rootId]);
+  const scoped = state.scope.size > 0;
+
+  const roots = document.createElement("div");
+  roots.className = "mobile-list home-roots";
+  for (const branch of chosen) {
+    roots.append(mobileRelationRow(branch.rootId, people[branch.rootId].name, null, { tags: true, colour: branch.colour }));
+  }
+  if (scoped && chosen.length === 2) {
+    const spouse = (people[chosen[0].rootId].spouses || []).find((entry) => entry.id === chosen[1].rootId);
+    if (spouse?.marriage?.date) {
+      const married = document.createElement("p");
+      married.className = "home-married";
+      married.textContent = `${t("home.married")}${bioWhen(spouse.marriage.date)}`;
+      roots.append(married);
+    }
+  }
+  const title = !scoped ? t("home.fourRivers") : chosen.length === 1 ? t("home.single") : t("home.meet");
+  container.append(mobileBlock(title, roots));
+
+  if (scoped) {
+    const parentIds = [...new Set(chosen.flatMap((branch) =>
+      (state.data.parentsByChild[branch.rootId] || []).filter(relationshipVisible).map((entry) => entry.parentId)))];
+    const rows = parentIds.map((id) => mobileRelationRow(id, people[id]?.name || id, null, { tags: true }));
+    container.append(mobileSection(chosen.length === 1 ? t("detail.parents") : t("home.parents"), rows, t("empty.parents")));
+  }
+
+  const browse = document.createElement("button");
+  browse.type = "button";
+  browse.className = "home-browse";
+  browse.textContent = t("home.browseTree");
+  browse.addEventListener("click", () => focusPerson(scoped ? chosen[0].rootId : SUBJECT_ID));
+  container.append(browse);
+
+  const index = surnameIndex(people, scopedPeopleIds(), state.branches.vocabulary);
+  if (index.length) {
+    const chips = document.createElement("div");
+    chips.className = "surname-chips";
+    for (const entry of index.slice(0, 8)) chips.append(surnameChip(entry, () => showHomeView(`surname:${entry.key}`)));
+    const all = document.createElement("button");
+    all.type = "button";
+    all.className = "surname-chip surname-chip-all";
+    all.textContent = `${t("home.allSurnames")} ›`;
+    all.addEventListener("click", () => showHomeView("surnames"));
+    chips.append(all);
+    container.append(mobileBlock(t("home.surnames"), chips));
+  }
+}
+
+// Every surname in the chosen families, A–Z, or the people who carry one.
+function renderSurnameView(container) {
+  const people = state.data.people;
+  const index = surnameIndex(people, scopedPeopleIds(), state.branches.vocabulary);
+  const nav = document.createElement("div");
+  nav.className = "mobile-nav";
+  const key = state.homeView.startsWith("surname:") ? state.homeView.slice(8) : null;
+  nav.append(mobileNavButton(`‹ ${t("mobile.back")}`, () => showHomeView(key ? "surnames" : null)));
+  nav.append(mobileNavButton(`⌂ ${t("mobile.home")}`, showHome, "mobile-nav-home"));
+  container.append(nav);
+
+  if (key) {
+    const entry = index.find((item) => item.key === key);
+    const rows = (entry?.ids || []).map((id) => mobileRelationRow(id, people[id].name, null, { tags: !state.scope.size || state.scope.size > 1 }));
+    container.append(mobileSection(entry ? entry.spellings.join(" · ") : key, rows, t("home.none")));
+    return;
+  }
+  const byLetter = new Map();
+  for (const entry of [...index].sort((a, b) => a.label.localeCompare(b.label))) {
+    const letter = entry.label[0].normalize("NFD")[0].toUpperCase();
+    if (!byLetter.has(letter)) byLetter.set(letter, []);
+    byLetter.get(letter).push(entry);
+  }
+  const title = document.createElement("h2");
+  title.className = "mobile-screen-title";
+  title.textContent = t("home.surnameTitle", { families: scopeLabel() });
+  container.append(title);
+  for (const [letter, entries] of byLetter) {
+    const chips = document.createElement("div");
+    chips.className = "surname-chips";
+    for (const entry of entries) chips.append(surnameChip(entry, () => showHomeView(`surname:${entry.key}`)));
+    container.append(mobileBlock(letter, chips));
+  }
+}
+
 function renderMobileFocus() {
   const container = elements.mobileView;
   if (!container || !state.data) return;
-  const person = state.data.people[state.focusId] || state.data.people[state.rootId];
   container.replaceChildren();
+  if (!state.focusId && state.branches) {
+    if (state.homeView) renderSurnameView(container);
+    else renderMobileHome(container);
+    return;
+  }
+  const person = state.data.people[state.focusId] || state.data.people[state.rootId];
   if (!person) return;
 
   const nav = document.createElement("div");
@@ -2963,12 +3364,7 @@ function renderMobileFocus() {
     back.addEventListener("click", focusBack);
     nav.append(back);
   }
-  const home = document.createElement("button");
-  home.type = "button";
-  home.className = "mobile-nav-btn mobile-nav-home";
-  home.textContent = `⌂ ${t("mobile.home")}`;
-  home.addEventListener("click", () => focusPerson("P-0001"));
-  nav.append(home);
+  nav.append(mobileNavButton(`⌂ ${t("mobile.home")}`, showHome, "mobile-nav-home"));
   container.append(nav);
 
   const head = document.createElement("div");
@@ -2986,12 +3382,18 @@ function renderMobileFocus() {
     yearsLine.textContent = years;
     head.append(yearsLine);
   }
+  const tags = branchTags(person.id);
+  if (tags) {
+    const line = document.createElement("p");
+    line.className = "mobile-focus-tags";
+    line.append(tags);
+    head.append(line);
+  }
   const relTerm = relationshipTerm(person);
-  if (relTerm && person.id !== "P-0001") {
+  if (relTerm && person.id !== SUBJECT_ID) {
     const chip = document.createElement("p");
     chip.className = "mobile-focus-rel";
-    const subjectName = (state.data.people["P-0001"]?.name || "").split(" ")[0] || "";
-    chip.textContent = `${t("detail.relationship", { name: subjectName })}: ${relTerm}`;
+    chip.textContent = `${t("detail.relationship", { name: subjectLabel() })}: ${relTerm}`;
     head.append(chip);
   }
   const detailsButton = document.createElement("button");
@@ -3051,6 +3453,366 @@ function renderActive() {
     if (elements.treeShell) elements.treeShell.hidden = false;
     renderTree();
   }
+}
+
+// ---------- Choosing families ----------
+// One panel, two modes. "welcome" is the first-visit question — Everything first and already
+// chosen, so for the main user it is a single tap — with a card per branch. "switch" is the
+// sheet behind the header chip: live toggles, back to Everything, and a link to share.
+let branchPanelMode = "switch";
+let branchDraft = new Set();
+let afterBranchWelcome = null;
+
+function renderBranchChips() {
+  if (!state.branches) return;
+  const keys = chosenBranches().map((branch) => branch.key);
+  for (const chip of [elements.branchChip, elements.branchChipToolbar]) {
+    if (!chip) continue;
+    const label = document.createElement("span");
+    label.className = "branch-chip-label";
+    label.textContent = scopeLabel();
+    const caret = document.createElement("span");
+    caret.className = "branch-chip-caret";
+    caret.setAttribute("aria-hidden", "true");
+    caret.textContent = "▾";
+    chip.replaceChildren(branchDots(keys), label, caret);
+    chip.setAttribute("aria-label", t("branch.chipAria", { families: scopeLabel() }));
+    chip.hidden = false;
+  }
+}
+
+// Apply a choice everywhere: the tree's starting person, the home screen, search, What's new,
+// the story and the address (so the view can be shared).
+function applyScope(scope, { persist = true } = {}) {
+  state.scope = normaliseScope(scope, state.branches);
+  if (persist) {
+    try { localStorage.setItem(BRANCH_STORAGE_KEY, serialiseScope(state.scope, state.branches)); } catch { /* storage unavailable */ }
+  }
+  state.searchAll = false;
+  state.updatesAll = false;
+  state.storyFullOrder = false;
+  state.rootId = scopeRoot(state.branches, state.scope);
+  state.focusId = null;
+  state.focusHistory = [];
+  state.homeView = null;
+  state.toggled.clear();
+  state.autoFit = true;
+  if (elements.rootSelect) elements.rootSelect.value = state.rootId;
+  renderBranchChips();
+  updateSearchPlaceholder();
+  hideSearchResults();
+  renderActive();
+  refreshUpdatesBadge();
+  if (elements.updatesPanel && !elements.updatesPanel.hidden) openUpdates();
+  if (elements.storyPanel && !elements.storyPanel.hidden) openStory();
+  syncHash();
+}
+
+function shareUrl() {
+  const params = new URLSearchParams();
+  if (state.scope.size) params.set("branch", serialiseScope(state.scope, state.branches));
+  params.set("lang", state.locale);
+  return `${location.origin}${location.pathname}#${params.toString().replace(/%2C/g, ",")}`;
+}
+
+function setBranchDraft(next, focusKey) {
+  branchDraft = normaliseScope(next, state.branches);
+  if (branchPanelMode === "switch") applyScope(branchDraft);
+  renderBranchPanel();
+  const again = elements.branchContent.querySelector(`[data-branch-key="${focusKey}"]`);
+  if (again) again.focus();
+}
+
+function toggleBranchDraft(key) {
+  if (key === "all") return setBranchDraft(new Set(), "all");
+  const next = new Set(branchDraft);
+  if (next.has(key)) next.delete(key); else next.add(key);
+  setBranchDraft(next, key);
+}
+
+// A branch as a card (welcome) or a switch row (sheet). key "all" is Everything.
+function branchOption(key, title, subtitle, colourKeys, pressed) {
+  const welcome = branchPanelMode === "welcome";
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = welcome ? `branch-card${key === "all" ? " is-everything" : ""}` : "branch-row";
+  button.dataset.branchKey = key;
+  button.setAttribute("aria-pressed", String(pressed));
+  const colour = key === "all" ? "var(--green)" : state.branches.byKey[key].colour;
+  button.style.setProperty("--b", colour);
+  if (welcome) {
+    const stripe = document.createElement("span");
+    stripe.className = "branch-card-stripe";
+    if (key === "all") {
+      stripe.style.background = `linear-gradient(${state.branches.list.map((branch, i, all) =>
+        `${branch.colour} ${(i / all.length) * 100}% ${((i + 1) / all.length) * 100}%`).join(", ")})`;
+    }
+    button.append(stripe);
+  } else {
+    button.append(branchDots(colourKeys));
+  }
+  const body = document.createElement("span");
+  body.className = "branch-option-body";
+  const heading = document.createElement("span");
+  heading.className = "branch-option-title";
+  heading.textContent = title;
+  const sub = document.createElement("span");
+  sub.className = "branch-option-sub";
+  sub.textContent = subtitle;
+  body.append(heading, sub);
+  const branch = state.branches.byKey[key];
+  if (welcome && branch?.surnames.length) {
+    const surnames = document.createElement("span");
+    surnames.className = "branch-option-surnames";
+    surnames.textContent = branch.surnames.join(" · ");
+    body.append(surnames);
+  }
+  if (welcome && key === "all") body.append(branchDots(colourKeys));
+  const mark = document.createElement("span");
+  mark.className = welcome ? "branch-check" : "branch-switch";
+  mark.setAttribute("aria-hidden", "true");
+  button.append(body, mark);
+  button.addEventListener("click", () => toggleBranchDraft(key));
+  return button;
+}
+
+function renderBranchPanel() {
+  const panel = elements.branchContent;
+  if (!panel || !state.branches) return;
+  const welcome = branchPanelMode === "welcome";
+  const total = Object.keys(state.data.people).length;
+  const allKeys = state.branches.list.map((branch) => branch.key);
+  panel.replaceChildren();
+
+  const head = document.createElement("div");
+  head.className = "branch-head";
+  const title = document.createElement("h2");
+  title.id = "branch-title";
+  title.className = "story-title";
+  title.textContent = welcome ? t("branch.welcomeTitle") : t("branch.sheetTitle");
+  const lede = document.createElement("p");
+  lede.className = "branch-lede";
+  lede.textContent = welcome ? t("branch.welcomeLede") : t("branch.sheetLede");
+  head.append(title, lede);
+  panel.append(head);
+
+  panel.append(branchOption("all", t("branch.everything"), t("branch.everythingSub", { n: total }), allKeys, branchDraft.size === 0));
+  if (welcome) {
+    const or = document.createElement("p");
+    or.className = "branch-or";
+    or.textContent = t("branch.or");
+    panel.append(or);
+  }
+  for (const side of ["paternal", "maternal", null]) {
+    const group = state.branches.list.filter((branch) => branch.side === side);
+    if (!group.length) continue;
+    const sideHead = document.createElement("div");
+    sideHead.className = "branch-side-head";
+    const label = document.createElement("h3");
+    label.textContent = side ? t("branch.side", { label: group[0].label }) : t("branch.otherSide");
+    if (group.length === 2) {
+      const couple = document.createElement("span");
+      couple.className = "branch-side-couple";
+      couple.textContent = t("branch.couple", { a: firstName(group[0].name), b: firstName(group[1].name) });
+      label.append(" ", couple);
+    }
+    sideHead.append(label);
+    if (group.length > 1) {
+      const both = document.createElement("button");
+      both.type = "button";
+      both.className = "branch-both";
+      both.textContent = t("branch.selectBoth");
+      both.addEventListener("click", () => setBranchDraft(new Set(group.map((branch) => branch.key)), group[0].key));
+      sideHead.append(both);
+    }
+    panel.append(sideHead);
+    for (const branch of group) {
+      const subtitle = welcome
+        ? (branch.earliestYear
+          ? t("branch.cardSub", { name: branch.name, n: branch.members.length, year: branch.earliestYear })
+          : t("branch.cardSubNoYear", { name: branch.name, n: branch.members.length }))
+        : t("branch.rowSub", { name: firstName(branch.name), n: branch.members.length });
+      panel.append(branchOption(branch.key, branch.label, subtitle, [branch.key], branchDraft.has(branch.key)));
+    }
+  }
+
+  const footer = document.createElement("div");
+  footer.className = "branch-footer";
+  if (welcome) {
+    const cta = document.createElement("button");
+    cta.type = "button";
+    cta.className = "branch-cta";
+    cta.textContent = branchDraft.size
+      ? t("branch.explore", { families: scopeLabel(branchDraft), n: scopeSize(state.branches, branchDraft, total) })
+      : t("branch.exploreAll", { n: total });
+    cta.addEventListener("click", closeBranchPanel);
+    const hint = document.createElement("p");
+    hint.className = "branch-hint";
+    hint.textContent = t("branch.welcomeHint");
+    footer.append(cta, hint);
+  } else {
+    const share = document.createElement("div");
+    share.className = "branch-share";
+    const shareTitle = document.createElement("p");
+    shareTitle.className = "branch-share-title";
+    shareTitle.textContent = t("branch.share");
+    const url = document.createElement("code");
+    url.textContent = shareUrl();
+    const actions = document.createElement("div");
+    actions.className = "branch-share-actions";
+    const copy = document.createElement("button");
+    copy.type = "button";
+    copy.className = "update-chip";
+    copy.textContent = t("branch.copy");
+    copy.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(shareUrl());
+        copy.textContent = t("branch.copied");
+      } catch {
+        copy.textContent = t("branch.copyFailed");
+      }
+    });
+    actions.append(copy);
+    if (navigator.share) {
+      const send = document.createElement("button");
+      send.type = "button";
+      send.className = "update-chip";
+      send.textContent = t("branch.send");
+      send.addEventListener("click", () => {
+        navigator.share({ title: t("page.title"), url: shareUrl() }).catch(() => { /* dismissed */ });
+      });
+      actions.append(send);
+    }
+    share.append(shareTitle, url, actions);
+    const done = document.createElement("button");
+    done.type = "button";
+    done.className = "branch-cta";
+    done.textContent = t("branch.done");
+    done.addEventListener("click", closeBranchPanel);
+    footer.append(share, done);
+  }
+  panel.append(footer);
+}
+
+function openBranchPanel(mode = "switch") {
+  if (!state.branches || !elements.branchPanel) return;
+  closeAppMenu();
+  branchPanelMode = mode;
+  branchDraft = new Set(state.scope);
+  if (!elements.branchPanel.contains(document.activeElement)) lastFocused = document.activeElement;
+  elements.branchPanel.classList.toggle("is-welcome", mode === "welcome");
+  renderBranchPanel();
+  elements.branchPanel.hidden = false;
+  elements.branchBackdrop.hidden = false;
+  elements.branchPanel.scrollTop = 0;
+  elements.branchContent.querySelector("[aria-pressed='true']")?.focus();
+}
+
+// Closing the welcome question applies its choice (Everything unless changed).
+function closeBranchPanel() {
+  if (!elements.branchPanel || elements.branchPanel.hidden) return;
+  const welcome = branchPanelMode === "welcome";
+  if (welcome) applyScope(branchDraft);
+  elements.branchPanel.hidden = true;
+  elements.branchBackdrop.hidden = true;
+  if (lastFocused && lastFocused.isConnected && typeof lastFocused.focus === "function") lastFocused.focus();
+  lastFocused = null;
+  if (welcome && afterBranchWelcome) {
+    const next = afterBranchWelcome;
+    afterBranchWelcome = null;
+    next();
+  }
+}
+
+// ---------- Bottom tab bar (mobile) ----------
+// Family · What's new · Story · Ask AI, always one thumb-tap away. The panels it opens are
+// the same ones the desktop buttons open; on a phone they fill the screen above the bar.
+function activeTab() {
+  if (elements.assistantPanel && !elements.assistantPanel.hidden) return "assistant";
+  if (elements.updatesPanel && !elements.updatesPanel.hidden) return "updates";
+  if (elements.storyPanel && !elements.storyPanel.hidden) return "story";
+  return "family";
+}
+
+function syncTabbar() {
+  const active = activeTab();
+  for (const tab of elements.tabs) {
+    const on = tab.dataset.tab === active;
+    tab.classList.toggle("is-active", on);
+    if (on) tab.setAttribute("aria-current", "page");
+    else tab.removeAttribute("aria-current");
+  }
+}
+
+function openTab(name) {
+  const wasHome = activeTab() === "family" && elements.detailsPanel.hidden;
+  hideSearchResults();
+  // Switching tabs is not "going back": drop the return-to-panel flags before closing.
+  returnToUpdates = false;
+  returnToAssistant = false;
+  if (!elements.detailsPanel.hidden) closeDetails();
+  if (name !== "assistant") closeAssistant();
+  if (name !== "story") closeStory();
+  if (name !== "updates") closeUpdates();
+  if (name === "updates") openUpdates();
+  else if (name === "story") openStory();
+  else if (name === "assistant") openAssistant();
+  else if (wasHome) showHome(); // tapping Family again goes home
+  syncTabbar();
+}
+
+// ---------- Emblem menu ----------
+// The emblem opens a small menu: families, help, language and "Add to Home Screen" — the
+// rarely used controls that floated over the page before the tab bar.
+function closeAppMenu() {
+  if (!elements.appMenu || elements.appMenu.hidden) return;
+  elements.appMenu.hidden = true;
+  elements.appMenuButton?.setAttribute("aria-expanded", "false");
+}
+
+function renderAppMenu() {
+  const menu = elements.appMenu;
+  menu.replaceChildren();
+  const item = (label, action) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "app-menu-item";
+    button.setAttribute("role", "menuitem");
+    button.textContent = label;
+    button.addEventListener("click", () => { closeAppMenu(); action(); });
+    menu.append(button);
+  };
+  if (state.branches) item(t("menu.families"), () => openBranchPanel("switch"));
+  item(t("menu.help"), () => openGuide("nav"));
+  const languages = document.createElement("div");
+  languages.className = "app-menu-languages";
+  languages.setAttribute("role", "group");
+  languages.setAttribute("aria-label", t("control.language"));
+  for (const [code, label] of [["en", "English"], ["pt-BR", "Português"]]) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = label;
+    button.setAttribute("aria-pressed", String(state.locale === code));
+    button.addEventListener("click", () => { closeAppMenu(); setLocale(code); });
+    languages.append(button);
+  }
+  menu.append(languages);
+  if (deferredInstallPrompt) {
+    item(t("install.fab"), async () => {
+      if (!deferredInstallPrompt) return;
+      await deferredInstallPrompt.prompt();
+      deferredInstallPrompt = null;
+    });
+  }
+}
+
+function toggleAppMenu() {
+  if (!elements.appMenu) return;
+  if (!elements.appMenu.hidden) { closeAppMenu(); return; }
+  renderAppMenu();
+  elements.appMenu.hidden = false;
+  elements.appMenuButton.setAttribute("aria-expanded", "true");
+  elements.appMenu.querySelector("button")?.focus();
 }
 
 function bindEvents() {
@@ -3150,12 +3912,13 @@ function bindEvents() {
   });
   // Hide the list on blur, but after a beat so a tap on a result registers first.
   elements.search.addEventListener("blur", () => {
-    setTimeout(hideSearchResults, 200);
+    searchHideTimer = setTimeout(hideSearchResults, 200);
   });
 
   elements.reset.addEventListener("click", () => {
-    state.rootId = state.data.people["P-0001"] ? "P-0001" : Object.keys(state.data.people)[0];
-    state.focusId = state.rootId;
+    state.rootId = scopeRoot(state.branches, state.scope);
+    state.focusId = null;
+    state.homeView = null;
     state.focusHistory = [];
     state.generations = 4;
     state.autoFit = true;
@@ -3171,12 +3934,28 @@ function bindEvents() {
     elements.languageSelect.addEventListener("change", () => setLocale(elements.languageSelect.value));
   }
 
+  // Families: the header chip (mobile) and the toolbar chip (desktop) open the same sheet.
+  for (const chip of [elements.branchChip, elements.branchChipToolbar]) {
+    if (chip) chip.addEventListener("click", () => openBranchPanel("switch"));
+  }
+  if (elements.branchBackdrop) elements.branchBackdrop.addEventListener("click", closeBranchPanel);
+  for (const tab of elements.tabs) tab.addEventListener("click", () => openTab(tab.dataset.tab));
+  if (!ASSISTANT_API) elements.tabs.filter((tab) => tab.dataset.tab === "assistant").forEach((tab) => { tab.hidden = true; });
+  if (elements.appMenuButton) elements.appMenuButton.addEventListener("click", (event) => { event.stopPropagation(); toggleAppMenu(); });
+  document.addEventListener("click", (event) => {
+    if (elements.appMenu && !elements.appMenu.hidden && !elements.appMenu.contains(event.target)) closeAppMenu();
+  });
+  if (elements.detailsBack) elements.detailsBack.addEventListener("click", closeDetails);
+  // A tap on the results list must not blur the box (which would close the list first).
+  if (elements.searchResults) elements.searchResults.addEventListener("mousedown", (event) => event.preventDefault());
+
   elements.closeDetails.addEventListener("click", closeDetails);
   elements.backdrop.addEventListener("click", closeDetails);
   document.addEventListener("keydown", (event) => {
     if (event.key !== "Escape" || elements.detailsPanel.hidden) return;
-    // Let a help/story/updates overlay on top of the card take Escape first.
+    // Let a help/story/updates/families overlay on top of the card take Escape first.
     if (elements.guidePanel && !elements.guidePanel.hidden) return;
+    if (elements.branchPanel && !elements.branchPanel.hidden) return;
     if (elements.storyPanel && !elements.storyPanel.hidden) return;
     if (elements.updatesPanel && !elements.updatesPanel.hidden) return;
     closeDetails();
@@ -3229,8 +4008,10 @@ function bindEvents() {
   if (elements.guideBackdrop) elements.guideBackdrop.addEventListener("click", closeGuide);
   document.addEventListener("keydown", (event) => {
     if (event.key !== "Escape") return;
+    if (elements.appMenu && !elements.appMenu.hidden) { closeAppMenu(); elements.appMenuButton?.focus(); return; }
     // The guide layers on top — Escape closes it first, leaving the panel beneath open.
     if (elements.guidePanel && !elements.guidePanel.hidden) { closeGuide(); return; }
+    if (elements.branchPanel && !elements.branchPanel.hidden) { closeBranchPanel(); return; }
     if (elements.assistantPanel && !elements.assistantPanel.hidden) closeAssistant();
     if (elements.storyPanel && !elements.storyPanel.hidden) closeStory();
     if (elements.updatesPanel && !elements.updatesPanel.hidden) closeUpdates();
@@ -3261,13 +4042,28 @@ async function initialise() {
     const response = await fetch("/api/tree", { cache: "no-store" });
     if (!response.ok) throw new Error(t("error.httpStatus", { status: response.status }));
     state.data = await response.json();
-    state.rootId = state.data.people["P-0001"] ? "P-0001" : Object.keys(state.data.people)[0];
+    state.branches = computeBranches(state.data);
 
-    // Restore a shared/bookmarked view from the URL hash.
+    // The families to show: a shared link's choice (remembered from then on), else this
+    // device's earlier choice. Nothing chosen yet means the first-visit question.
     const hash = readHash();
-    if (hash.root && state.data.people[hash.root]) state.rootId = hash.root;
+    let storedScope = null;
+    try { storedScope = localStorage.getItem(BRANCH_STORAGE_KEY); } catch { /* storage unavailable */ }
+    const scopeFromLink = hash.branch !== null;
+    state.scope = parseScope(scopeFromLink ? hash.branch : storedScope || "", state.branches);
+    if (scopeFromLink) {
+      try { localStorage.setItem(BRANCH_STORAGE_KEY, serialiseScope(state.scope, state.branches)); } catch { /* storage unavailable */ }
+    }
+    const askForFamilies = !scopeFromLink && storedScope === null && !hash.sel;
+
+    // Restore a shared/bookmarked view from the URL hash. A root other than the families'
+    // own starting person opens on that person; otherwise the phone shows the home screen.
+    const defaultRoot = scopeRoot(state.branches, state.scope);
+    state.rootId = hash.root && state.data.people[hash.root] ? hash.root : defaultRoot;
     if (hash.gen && /^[2-6]$/.test(hash.gen)) state.generations = Number(hash.gen);
-    state.focusId = state.rootId;
+    state.focusId = state.rootId === defaultRoot ? null : state.rootId;
+    renderBranchChips();
+    updateSearchPlaceholder();
 
     populatePersonSelect();
     elements.rootSelect.value = state.rootId;
@@ -3278,6 +4074,7 @@ async function initialise() {
     elements.loading.hidden = true;
     renderActive();
     syncHelpFab();
+    refreshUpdatesBadge();
     // Re-render the updates panel if it was opened before entity data finished loading
     // (common on slow connections or when the user taps "What's new" immediately on
     // PWA launch — chips resolve only once state.data is populated).
@@ -3298,7 +4095,14 @@ async function initialise() {
     // that, not the tour — and never again after it has been seen.
     let guideSeen = true;
     try { guideSeen = Boolean(localStorage.getItem(GUIDE_STORAGE_KEY)); } catch { /* storage unavailable */ }
-    if (!guideSeen && !hash.sel) openGuide("nav");
+    const showGuide = !guideSeen && !hash.sel;
+    // The families question comes first; the guide (if still unseen) follows it.
+    if (askForFamilies) {
+      if (showGuide) afterBranchWelcome = () => openGuide("nav");
+      openBranchPanel("welcome");
+    } else if (showGuide) {
+      openGuide("nav");
+    }
   } catch (error) {
     elements.loading.hidden = true;
     elements.error.hidden = false;

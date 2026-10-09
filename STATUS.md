@@ -193,5 +193,7 @@ Canonical person-by-record actions and last-reviewed dates live in `data/record-
   `research/from-retrieval/` for the value gate.
 - **Push notifications for What's new:** live since 2026-10-09 (Worker deployed, GitHub
   secrets set); see `workers/family-notify/README.md`.
+- **Family branches + phone layout (viewer):** built 2026-10-09 — branch picker, share links,
+  scoped search / home / What's new / story, bottom tab bar; see `family-tree-viewer/README.md`.
 - **Deferred until schema stability:** generated person pages.
 Completed engineering work is recorded only in `CHANGELOG.md`.
