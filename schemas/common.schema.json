@@ -3,6 +3,21 @@
   "$id": "https://armond-family-history.invalid/schemas/common.schema.json",
   "title": "Armond Family History common definitions",
   "$defs": {
+    "showPages": {
+      "type": "array",
+      "minItems": 1,
+      "description": "For a PDF of a whole book or thesis: the pages the public viewer shows as images, in order — usually the cover or title page, then the cited pages. `page` is the 1-based page within the PDF file (not the printed number); `label` / `label_pt` caption it (\"p. 312\"). Omit it for a short PDF: the site build then shows every page.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["page"],
+        "properties": {
+          "page": { "type": "integer", "minimum": 1 },
+          "label": { "type": "string", "minLength": 1 },
+          "label_pt": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
     "personId": {
       "type": "string",
       "pattern": "^P-(?!0000$)[0-9]{4}$"

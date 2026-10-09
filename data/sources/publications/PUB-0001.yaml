@@ -105,6 +105,17 @@ digital_file:
   path: >-
     evidence/publications/PUB-0001-chagas-ferreira-armond-family-strategy-2018-original.pdf
   sha256: 42d595dc816eaaf50f5dba0a476558ba9a5d2f002d12f8174ada21e4e6370769
+  show_pages:
+  - page: 1
+    label: Title page
+    label_pt: Folha de rosto
+  - page: 16
+    label: Contents, f. 16
+    label_pt: Sumário, f. 16
+  - page: 152
+    label: f. 151
+  - page: 154
+    label: f. 153
 linked_people:
   - P-0008
 linked_families: []

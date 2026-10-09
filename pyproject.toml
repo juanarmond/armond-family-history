@@ -5,6 +5,8 @@ description = "Validation tooling for a private evidence-led genealogy repositor
 requires-python = ">=3.11"
 dependencies = [
     "jsonschema>=4.23,<5",
+    "pillow>=11,<13",
+    "pypdfium2>=4.30,<6",
     "PyYAML>=6,<7",
 ]
 

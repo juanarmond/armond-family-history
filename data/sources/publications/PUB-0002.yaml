@@ -124,6 +124,18 @@ digital_file:
   path: >-
     evidence/publications/PUB-0002-lacerda-negocios-de-minas-ferreira-armonde-2010.pdf
   sha256: c5d2ee45e98a35aa06d546f69ab7c2b973a4897b404ed191dd21d48019081037
+  show_pages:
+  - page: 1
+    label: Title page
+    label_pt: Folha de rosto
+  - page: 150
+    label: f. 150
+  - page: 152
+    label: f. 152
+  - page: 155
+    label: f. 155
+  - page: 218
+    label: f. 218
 linked_people:
   - P-0016
 linked_families: []

@@ -16,6 +16,7 @@ The screens were last captured on 2026-10-09, after every phone screen moved int
 with logo and title or ‹ Back, and ?; bottom bar) and the families chip moved beside the search box.
 Recaptured the same day after the phone styles were consolidated: the family question's footer
 and the record reader's header now fit the screen.
+Recaptured again the same day to add a record from a book (cover, then the cited pages).
 
 ## Regenerate after a viewer change
 

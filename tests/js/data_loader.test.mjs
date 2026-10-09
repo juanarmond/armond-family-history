@@ -384,6 +384,34 @@ test("source view carries a file type for image vs pdf", () => {
   assert.equal(data.sources["CIV-2"].fileType, "pdf");
 });
 
+test("a rendered PDF becomes its page images, in order, with captions; an unrendered one stays a PDF", () => {
+  const book = {
+    path: "evidence/publications/PUB-1-book.pdf",
+    rendered_pages: [
+      { path: "evidence/publications/PUB-1-book-page-0001.jpg", page: 1, label: "Cover", label_pt: "Capa" },
+      { path: "evidence/publications/PUB-1-book-page-0305.jpg", page: 305, label: "p. 312" },
+    ],
+  };
+  const input = {
+    people: {},
+    families: {},
+    events: {},
+    places: {},
+    sources: {
+      "PUB-1": { title: "book", linked_people: ["P-1"], digital_file: book },
+      "PUB-2": { title: "local", linked_people: ["P-1"], digital_file: { path: "evidence/publications/PUB-2-book.pdf" } },
+    },
+    fan: {},
+  };
+  const data = projectTreeData(input);
+  assert.deepEqual(data.sources["PUB-1"].pages, [
+    { url: "../evidence/publications/PUB-1-book-page-0001.jpg", fileType: "image", label: "Cover", labelPt: "Capa" },
+    { url: "../evidence/publications/PUB-1-book-page-0305.jpg", fileType: "image", label: "p. 312", labelPt: null },
+  ]);
+  assert.equal(data.sources["PUB-1"].fileType, "pdf", "the download link still offers the whole PDF");
+  assert.deepEqual(data.sources["PUB-2"].pages, [{ url: "../evidence/publications/PUB-2-book.pdf", fileType: "pdf" }]);
+});
+
 test("a person's sources are ordered by life event, supporting records last", () => {
   const input = {
     people: {

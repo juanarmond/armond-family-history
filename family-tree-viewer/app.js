@@ -1430,14 +1430,43 @@ function renderPortrait(container, text) {
 
 // A dependency-free pan/zoom pane: wheel OR two-finger pinch to zoom, one-finger
 // drag to pan, double-tap/click resets. Pointer events cover mouse and touch.
+// A scan whose download fails (a dropped connection) is asked for once more; if that fails
+// too, a button offers another try instead of leaving a blank box.
+function scanImage(url, className, eager = true) {
+  const img = document.createElement("img");
+  img.className = className;
+  img.alt = "";
+  img.draggable = false;
+  img.loading = eager ? "eager" : "lazy";
+  const fresh = () => `${url}${url.includes("?") ? "&" : "?"}retry=${Date.now()}`;
+  let retried = false;
+  img.addEventListener("error", () => {
+    if (!retried) {
+      retried = true;
+      img.src = fresh();
+      return;
+    }
+    const retry = document.createElement("button");
+    retry.type = "button";
+    retry.className = "reader-page-retry";
+    retry.textContent = t("reader.pageFailed");
+    retry.addEventListener("click", (event) => {
+      event.stopPropagation();
+      retry.remove();
+      img.hidden = false;
+      img.src = fresh();
+    });
+    img.hidden = true;
+    img.after(retry);
+  });
+  img.src = url;
+  return img;
+}
+
 function imagePane(src) {
   const pane = document.createElement("div");
   pane.className = "reader-image-pane";
-  const img = document.createElement("img");
-  img.className = "reader-img";
-  img.src = src;
-  img.alt = "";
-  img.draggable = false;
+  const img = scanImage(src, "reader-img");
   pane.appendChild(img);
 
   let scale = 1;
@@ -1519,7 +1548,8 @@ function imagePane(src) {
 
 // A scrollable multi-page gallery for a document held as several page images (or
 // PDFs), each page labelled. The column scrolls on desktop and mobile so every
-// page of a multi-page document is reachable, not just the first.
+// page of a multi-page document is reachable, not just the first. Tapping a page
+// enlarges it (scroll to move around it); tapping again fits it back.
 function pagesGallery(pages, label) {
   const wrap = document.createElement("div");
   wrap.className = "reader-image-pane reader-gallery";
@@ -1528,7 +1558,7 @@ function pagesGallery(pages, label) {
     fig.className = "reader-page";
     const cap = document.createElement("figcaption");
     cap.className = "reader-page-label";
-    cap.textContent = t("reader.page", { n: index + 1, total: pages.length });
+    cap.textContent = localeText(page.label, page.labelPt) || t("reader.page", { n: index + 1, total: pages.length });
     fig.appendChild(cap);
     if (page.fileType === "pdf") {
       const frame = document.createElement("iframe");
@@ -1537,12 +1567,19 @@ function pagesGallery(pages, label) {
       frame.title = label || "";
       fig.appendChild(frame);
     } else {
-      const img = document.createElement("img");
-      img.className = "reader-page-img";
-      img.src = page.url;
-      img.alt = "";
-      img.loading = "lazy";
-      img.draggable = false;
+      // The first pages load at once; later ones as they scroll into view.
+      const img = scanImage(page.url, "reader-page-img", index < 3);
+      img.addEventListener("click", (event) => {
+        const box = img.getBoundingClientRect();
+        const x = (event.clientX - box.left) / box.width;
+        const y = (event.clientY - box.top) / box.height;
+        fig.classList.toggle("is-zoomed");
+        // Keep the tapped spot under the finger.
+        const after = img.getBoundingClientRect();
+        const pane = wrap.getBoundingClientRect();
+        wrap.scrollLeft += after.left + x * after.width - (pane.left + pane.width / 2);
+        wrap.scrollTop += after.top + y * after.height - (pane.top + pane.height / 2);
+      });
       fig.appendChild(img);
     }
     wrap.appendChild(fig);
@@ -1594,16 +1631,23 @@ function openReader(source) {
 
   const body = document.createElement("div");
   body.className = "reader-body";
+  // Several pages (including a PDF the site rendered into page images) → the gallery; one
+  // image → the zoomable pane; an unrendered PDF → the browser's own viewer.
+  const pages = Array.isArray(source.pages) ? source.pages : [];
+  const single = pages[0] || { url: source.file, fileType: source.fileType };
   let leftPane;
-  if (Array.isArray(source.pages) && source.pages.length > 1) {
-    leftPane = pagesGallery(source.pages, localeText(source.title, source.titlePt) || source.id);
-  } else if (source.fileType === "pdf") {
+  let hintKey = "reader.zoomHint";
+  if (pages.length > 1) {
+    leftPane = pagesGallery(pages, localeText(source.title, source.titlePt) || source.id);
+    hintKey = "reader.galleryHint";
+  } else if (single.fileType === "pdf") {
     leftPane = document.createElement("iframe");
     leftPane.className = "reader-pdf";
-    leftPane.src = source.file;
+    leftPane.src = single.url;
     leftPane.title = localeText(source.title, source.titlePt) || source.id;
+    hintKey = null;
   } else {
-    leftPane = imagePane(source.file);
+    leftPane = imagePane(single.url);
   }
 
   const right = document.createElement("div");
@@ -1642,10 +1686,10 @@ function openReader(source) {
 
   body.append(leftPane, right);
   dialog.append(header, body);
-  if (source.fileType !== "pdf") {
+  if (hintKey) {
     const hint = document.createElement("div");
     hint.className = "reader-hint";
-    hint.textContent = t("reader.zoomHint");
+    hint.textContent = t(hintKey);
     dialog.append(hint);
   }
   overlay.appendChild(dialog);

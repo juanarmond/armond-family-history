@@ -29,14 +29,21 @@ Privacy model (the site is public; the repository is private):
 Only the scans of publishable (deceased-only) records are copied into the site,
 under their repository-relative evidence/ path. Sources are written into their
 category subfolders to match the viewer's per-category fetch paths.
+
+A multi-page PDF is also rendered into page images, because iOS draws only the first
+page of a PDF embedded in a page. A short PDF shows every page; a book or thesis lists
+the pages to show in ``show_pages`` (the cover, then the cited pages). The published
+record's file reference gains a site-only ``rendered_pages`` list that the viewer reads.
 """
 
 from __future__ import annotations
 
+import copy
 import json
 import shutil
 from pathlib import Path
 
+import pypdfium2 as pdfium
 import yaml
 
 from build_knowledge_base import build as build_knowledge_base
@@ -103,6 +110,58 @@ def reduce_record(record: dict, fields: tuple[str, ...]) -> dict:
     out.setdefault("schema_version", record.get("schema_version", 1))
     out.setdefault("id", record["id"])
     return out
+
+
+# A PDF longer than this must list its pages in show_pages: a whole book would otherwise
+# ship hundreds of page images.
+MAX_PAGES_WITHOUT_LIST = 40
+# Rendered width in pixels: printed text stays legible when a phone enlarges the page.
+PAGE_WIDTH = 1400
+
+
+def render_pdf_pages(record: dict) -> tuple[dict, int]:
+    """Return the record with its multi-page PDFs rendered, and how many pages were drawn.
+
+    Each such file reference gains ``rendered_pages`` — ``{path, page, label?, label_pt?}``
+    for every image written beside the PDF in the site. The record itself is not changed.
+    """
+    refs = [("digital_file", None), *(("additional_pages", i) for i in range(len(record.get("additional_pages") or [])))]
+    out = record
+    drawn = 0
+    for key, index in refs:
+        ref = record.get(key) if index is None else record[key][index]
+        path = ref.get("path") if isinstance(ref, dict) else None
+        if not isinstance(path, str) or not path.lower().endswith(".pdf") or not (ROOT / path).is_file():
+            continue
+        pdf = pdfium.PdfDocument(ROOT / path)
+        try:
+            total = len(pdf)
+            wanted = ref.get("show_pages") or (
+                [{"page": number} for number in range(1, total + 1)] if total > 1 else []
+            )
+            if total > MAX_PAGES_WITHOUT_LIST and not ref.get("show_pages"):
+                raise SystemExit(f"{record['id']}: {path} has {total} pages; list the pages to show in show_pages")
+            rendered = []
+            for spec in wanted:
+                number = spec["page"]
+                if number > total:
+                    raise SystemExit(f"{record['id']}: show_pages asks for page {number} of a {total}-page PDF")
+                page = pdf[number - 1]
+                image = page.render(scale=PAGE_WIDTH / page.get_width()).to_pil().convert("RGB")
+                rel = f"{path[:-4]}-page-{number:04d}.jpg"
+                (OUTPUT / rel).parent.mkdir(parents=True, exist_ok=True)
+                # Progressive: a slow connection shows the whole page at once, then sharpens it.
+                image.save(OUTPUT / rel, "JPEG", quality=80, optimize=True, progressive=True)
+                rendered.append({"path": rel, "page": number, **{k: spec[k] for k in ("label", "label_pt") if k in spec}})
+                drawn += 1
+        finally:
+            pdf.close()
+        if rendered:
+            if out is record:
+                out = copy.deepcopy(record)
+            target = out[key] if index is None else out[key][index]
+            target["rendered_pages"] = rendered
+    return out, drawn
 
 
 def main() -> None:
@@ -178,6 +237,7 @@ def main() -> None:
     # and transcription included); a record involving any living person (the owner's
     # own documents) is reduced to display metadata, with no scan or transcription.
     public_sources: dict[str, dict] = {}
+    rendered_pages = 0
     for sid, source in sources.items():
         living_linked = any(pid in living_ids for pid in source.get("linked_people", []) or [])
         if living_linked or source.get("withhold_from_site") is True:
@@ -187,7 +247,8 @@ def main() -> None:
             ]
             public_sources[sid] = reduced
         else:
-            public_sources[sid] = source
+            public_sources[sid], drawn = render_pdf_pages(source)
+            rendered_pages += drawn
             evidence_to_copy.update(scan_paths(source))
 
     # FAN references: same rule. All are third-party (deceased) records, so they are
@@ -204,7 +265,8 @@ def main() -> None:
             ]
             public_fan[fid] = reduced
         else:
-            public_fan[fid] = ref
+            public_fan[fid], drawn = render_pdf_pages(ref)
+            rendered_pages += drawn
             evidence_to_copy.update(scan_paths(ref))
 
     datasets = {
@@ -268,7 +330,8 @@ def main() -> None:
         f"{len(places)} places,",
         f"{len(public_sources)} sources,",
         f"{len(public_fan)} fan,",
-        f"{copied} evidence scans",
+        f"{copied} evidence scans,",
+        f"{rendered_pages} PDF pages rendered",
     )
     print(
         "  + knowledge base:",

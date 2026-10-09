@@ -188,6 +188,14 @@ await click("#header-back", 500);
 await click("#details-content .reader-open", 1800);
 await shot("15-record-reader");
 
+// A book: the cover, then the cited pages, rendered from the PDF by the site build.
+await open({ branch: "all", hash: "sel=P-0129" });
+await evaluate(`[...document.querySelectorAll("#details-content .source-item")].find((item) => item.textContent.includes("PUB-0004")).querySelector(".reader-open").click()`);
+await sleep(1800);
+await evaluate(`document.querySelectorAll(".reader-page")[1].scrollIntoView()`);
+await sleep(300);
+await shot("15b-record-book-pages");
+
 await open({ branch: "muniz,bohrer" });
 await click(".tab[data-tab=updates]", 1600);
 await shot("16-whats-new");

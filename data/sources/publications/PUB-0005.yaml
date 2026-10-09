@@ -137,6 +137,20 @@ reliability:
 digital_file:
   path: evidence/publications/PUB-0005-genealogias-ilha-terceira-vol9-souto-maior.pdf
   sha256: 5afba9dc99b26078d7cff6dc3fb77eb742035f75d2d9305460e84233f60d65ea
+  show_pages:
+  - page: 1
+    label: Cover
+    label_pt: Capa
+  - page: 255
+    label: p. 257
+  - page: 256
+    label: p. 258
+  - page: 257
+    label: p. 259
+  - page: 258
+    label: p. 260
+  - page: 259
+    label: p. 261
 linked_people:
 - P-0092
 - P-0123

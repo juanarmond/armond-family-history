@@ -290,6 +290,24 @@ export function projectTreeData({ people, families, events, places, sources, fan
   // primary `digital_file`: pad every run of digits so "p2" < "p10" and "page-01" <
   // "page-02" sort numerically (e.g. gen1 < p2 < p10; 1867-p5 < 1881-embargos).
   const naturalPageKey = (p) => (typeof p === "string" ? p : "").replace(/\d+/g, (n) => n.padStart(6, "0"));
+  const pageLabel = (value) => (typeof value === "string" && value.trim() ? value.trim() : null);
+  // A record's pages in reading order. The site build renders a multi-page PDF into page
+  // images (`rendered_pages`; iOS draws only a PDF's first page), each with an optional
+  // caption ("p. 312"); the local viewer, reading the repository directly, keeps the PDF.
+  const pagesOf = (record) =>
+    [record.digital_file, ...(record.additional_pages || [])]
+      .filter((ref) => typeof ref?.path === "string")
+      .sort((a, b) => naturalPageKey(a.path).localeCompare(naturalPageKey(b.path)))
+      .flatMap((ref) => {
+        const rendered = (Array.isArray(ref.rendered_pages) ? ref.rendered_pages : []).filter((page) => typeof page?.path === "string");
+        if (!rendered.length) return [{ url: evidenceHref(ref.path), fileType: fileKind(ref.path) }];
+        return rendered.map((page) => ({
+          url: evidenceHref(page.path),
+          fileType: "image",
+          label: pageLabel(page.label),
+          labelPt: pageLabel(page.label_pt),
+        }));
+      });
   // A source is flagged as an "uncertain reading" only when a CORE genealogical
   // fact could not be read — recorded explicitly per source as
   // `reading_reliability: partial`. Peripheral gap markers (a witness's bairro, an
@@ -300,10 +318,6 @@ export function projectTreeData({ people, families, events, places, sources, fan
       const rawPath = source.digital_file?.path || source.repository?.repository_path || null;
       const url = source.repository?.url;
       const limitation = source.reliability?.limitations;
-      const pagePaths = [
-        ...(source.digital_file?.path ? [source.digital_file.path] : []),
-        ...(source.additional_pages || []).map((p) => p?.path).filter((p) => typeof p === "string"),
-      ].sort((a, b) => naturalPageKey(a).localeCompare(naturalPageKey(b)));
       return [sourceId, {
         id: sourceId,
         title: source.title || sourceId,
@@ -342,7 +356,7 @@ export function projectTreeData({ people, families, events, places, sources, fan
             : null,
         file: evidenceHref(rawPath),
         fileType: fileKind(rawPath),
-        pages: pagePaths.map((p) => ({ url: evidenceHref(p), fileType: fileKind(p) })),
+        pages: pagesOf(source),
         url: typeof url === "string" && url.trim() ? url.trim() : null,
       }];
     }),
@@ -370,10 +384,7 @@ export function projectTreeData({ people, families, events, places, sources, fan
         abstractPt: trimmedText(ref.abstract_pt),
         file: evidenceHref(ref.digital_file?.path || null),
         fileType: fileKind(ref.digital_file?.path || null),
-        pages: [
-          ...(ref.digital_file?.path ? [ref.digital_file.path] : []),
-          ...(ref.additional_pages || []).map((p) => p?.path).filter((p) => typeof p === "string"),
-        ].sort((a, b) => naturalPageKey(a).localeCompare(naturalPageKey(b))).map((p) => ({ url: evidenceHref(p), fileType: fileKind(p) })),
+        pages: pagesOf(ref),
         url: trimmedText(ref.repository?.url),
       };
       for (const participant of ref.participants || []) {

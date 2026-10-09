@@ -1,14 +1,17 @@
-// Service worker — required for Chrome's beforeinstallprompt to fire, and for the
-// optional "What's new" push notifications. Chrome's installability checklist still
-// requires a fetch event handler; this one is a transparent passthrough (no caching).
-// Add cache logic here if you ever want offline support.
+// Service worker — for the optional "What's new" push notifications, and for Chrome's install
+// prompt (beforeinstallprompt), which still asks for a fetch handler. The handler answers only
+// page loads, and passes them straight to the network (no caching): images, scripts and data
+// load directly, so a scan never streams through the worker (the suspected cause of scans left
+// half-drawn on an iPhone). Add cache logic here if you ever want offline support.
 
 // Must match NOTIFY_API in app.js.
 const NOTIFY_API = "https://family-notify.juan-armond.workers.dev";
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (e) => e.waitUntil(self.clients.claim()));
-self.addEventListener("fetch", (e) => e.respondWith(fetch(e.request)));
+self.addEventListener("fetch", (event) => {
+  if (event.request.mode === "navigate") event.respondWith(fetch(event.request));
+});
 
 // A push from the family-notify Worker: { title, body, url, tag }. One tag means a newer
 // summary replaces an unread older one instead of stacking up.

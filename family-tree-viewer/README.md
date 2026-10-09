@@ -52,6 +52,7 @@ Do not publish the site publicly while it contains private family data. GitHub P
 - Limits the displayed number of generations for usability.
 - Auto-fits the tree to the viewport, with manual zoom (buttons, `Ctrl`/`⌘`+scroll) and drag-to-pan.
 - Links each non-private evidence file and external record from the detail panel, and surfaces each source's form, quality, transcription, abstract and reliability limitations.
+- Opens a record in a reader: the scan beside its transcription. A multi-page record shows every page in a scrolling column (tap a page to enlarge it); a page that fails to download is retried once, then offers a tap to try again. The deployed site renders a multi-page PDF into page images, because an iPhone shows only a PDF's first page — every page of a short PDF, and for a book or thesis the pages its record lists in `show_pages` (the cover, then the cited pages, captioned "p. 312"). The PDF itself stays downloadable.
 - Lists the FAN / context references a person appears in (witness, appraiser, creditor, attorney, party or co-owner), with the person's role, record category, place, image link and transcription.
 - Shows each person's nationality on the card (below the name, lifespan and birthplace) and in the details overview, from the person record's `nationality` field.
 - Encodes the current root, generation depth, hypothesis toggle and selected person in the URL hash, so a view is bookmarkable and shareable.

@@ -5,6 +5,23 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — records open fully on an iPhone, and books open on the cited pages (2026-10-09)
+
+- A book or thesis held as a whole PDF opened on its cover only: an iPhone draws just the first page of a
+  PDF shown inside a page. The site build now renders the pages to show into images (pypdfium2 +
+  Pillow): for PUB-0001, PUB-0002, PUB-0004 and PUB-0005 the cover or title page, then the cited pages,
+  captioned with their printed numbers (PUB-0004 now shows pp. 312–313, Pedro Lourenço Machado's
+  entry). The new optional `show_pages` on a file reference lists them by PDF page; a short PDF
+  (GOV-0002, NWS-0001, PRB-0008) shows every page. A PDF over 40 pages without the list fails the build.
+- Scans left half-drawn (PAR-0087): the files and the live server are intact, so the fault is in the
+  phone. The likely cause is the service worker relaying every download — it now answers only page
+  loads, and images load directly. Pages no longer sit on a white box while arriving; a failed page is
+  retried once and then offers "Tap to try again"; the first three pages load at once. Not reproduced
+  on a device: to be confirmed on the owner's iPhone after deploy.
+- In the reader's page column, tapping a page enlarges it; tapping again fits it back.
+- `tests/test_pages_site.py` builds the site once (was once per test) and checks every published
+  multi-page PDF ships its page images. Mockups gain "A record from a book".
+
 ### Changed — viewer code simplified, no new features (2026-10-09)
 
 - One `LAYERS` table in `app.js` now drives ‹ Back, Escape, the context ? and the active tab, in place

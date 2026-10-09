@@ -240,6 +240,9 @@
           "type": "string",
           "minLength": 1,
           "pattern": "^evidence/(?!.*\\.\\.).+$"
+        },
+        "show_pages": {
+          "$ref": "common.schema.json#/$defs/showPages"
         }
       }
     },
@@ -252,7 +255,8 @@
         "required": ["path", "sha256"],
         "properties": {
           "path": { "type": "string", "minLength": 1, "pattern": "^evidence/(?!.*\\.\\.).+$" },
-          "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+          "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+          "show_pages": { "$ref": "common.schema.json#/$defs/showPages" }
         }
       }
     },
