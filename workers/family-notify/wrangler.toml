@@ -5,10 +5,10 @@ main = "worker.js"
 compatibility_date = "2024-11-01"
 
 # Create the namespace with:  wrangler kv namespace create SUBSCRIPTIONS
-# then paste the printed id below (and remove the placeholder).
+# (created 2026-10-09; the id below is not secret).
 [[kv_namespaces]]
 binding = "SUBSCRIPTIONS"
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
+id = "13249208d49544978f36a0527be693fb"
 
 # The VAPID PUBLIC key is not secret. generate-keys.mjs writes it here; its private half
 # and the deploy token are set as secrets (see README.md), never committed.

@@ -24,6 +24,14 @@ How it fits together:
 The Worker has no dependencies, so it can be pasted into the dashboard. Its crypto is
 covered by `tests/js/push-crypto.test.mjs`, which decrypts and verifies what it produces.
 
+## Current deployment (2026-10-09)
+
+Deployed with Wrangler to <https://family-notify.juan-armond.workers.dev> (KV namespace
+`SUBSCRIPTIONS`, id in `wrangler.toml`; secrets `VAPID_PRIVATE_KEY` and `NOTIFY_TOKEN` set
+from `_local/`). The GitHub repository secrets `NOTIFY_ENDPOINT` and `NOTIFY_TOKEN` are set,
+so every deploy that adds a curated What's new entry now sends one notification. To
+redeploy after editing `worker.js`: `cd workers/family-notify && wrangler deploy`.
+
 ## Keys (already generated)
 
 `node workers/family-notify/generate-keys.mjs` was run on 2026-10-09:

@@ -98,7 +98,12 @@ def send(payload: dict[str, Any], endpoint: str, token: str) -> dict[str, int]:
         request = urllib.request.Request(
             endpoint.rstrip("/") + "/notify",
             data=json.dumps(body).encode("utf-8"),
-            headers={"Content-Type": "application/json", "Authorization": f"Bearer {token}"},
+            # Cloudflare rejects Python's default "Python-urllib" user agent (error 1010).
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {token}",
+                "User-Agent": "quatro-rios-notify/1.0 (+https://juanarmond.github.io/armond-family-history/)",
+            },
             method="POST",
         )
         with urllib.request.urlopen(request, timeout=60) as response:

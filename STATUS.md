@@ -191,8 +191,7 @@ Canonical person-by-record actions and last-reviewed dates live in `data/record-
 - **External:** require the frozen repository-health check in GitHub branch
   rules; the external retrieval agent syncs authorised FamilySearch finds into
   `research/from-retrieval/` for the value gate.
-- **Push notifications for What's new:** built and tested; goes live once the
-  `family-notify` Worker is deployed and two GitHub secrets are set
-  (`workers/family-notify/README.md`).
+- **Push notifications for What's new:** live since 2026-10-09 (Worker deployed, GitHub
+  secrets set); see `workers/family-notify/README.md`.
 - **Deferred until schema stability:** generated person pages.
 Completed engineering work is recorded only in `CHANGELOG.md`.

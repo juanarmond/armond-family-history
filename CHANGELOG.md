@@ -5,6 +5,13 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — push notifications deployed (2026-10-09)
+
+- Deployed the `family-notify` Worker with its KV namespace and secrets, and set the GitHub
+  secrets, so publishing curated What's new entries now sends a notification.
+- `scripts/push_new_updates.py` sends an explicit User-Agent: Cloudflare rejects Python's default
+  `Python-urllib` agent with error 1010, which would have blocked every deploy notification.
+
 ### Added — "What's new" push notifications for the installed app (2026-10-09)
 
 - New zero-dependency Cloudflare Worker `workers/family-notify/`: stores anonymous push
