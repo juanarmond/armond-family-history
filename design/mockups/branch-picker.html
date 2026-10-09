@@ -208,6 +208,10 @@
   .pname { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
   .pyears-line { justify-content: space-between; }
   .pyears-line .tag { margin-left: auto; }
+
+  .flag-ch, .flag-pt { display: inline-block; height: .74em; vertical-align: -.05em; border-radius: 1px; box-shadow: 0 0 0 .5px rgba(0,0,0,.15); }
+  .flag-ch { width: .74em; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Crect width='14' height='14' fill='%23da291c'/%3E%3Crect x='5.5' y='2' width='3' height='10' fill='%23fff'/%3E%3Crect x='2' y='5.5' width='10' height='3' fill='%23fff'/%3E%3C/svg%3E") center / cover; }
+  .flag-pt { width: 1.1em; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 14'%3E%3Crect width='21' height='14' fill='%23da291c'/%3E%3Crect width='8.4' height='14' fill='%23046a38'/%3E%3Ccircle cx='8.4' cy='7' r='2.8' fill='none' stroke='%23ffdf00' stroke-width='0.9'/%3E%3C/svg%3E") center / cover; }
 </style>
 </head>
 <body>
@@ -405,22 +409,22 @@
             <button aria-pressed="false" data-en="Everyone · 28" data-pt="Todos · 28"></button>
           </div>
           <div class="result-count" data-en="16 people named Maria in Muniz + Bohrer" data-pt="16 pessoas chamadas Maria em Muniz + Bohrer"></div>
-          <div class="rel"><span class="grow"><span class="pname">Anna Maria</span><span class="pyears-line"><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
-          <div class="rel"><span class="grow"><span class="pname">Anna Maria Borer</span><span class="pyears-line"><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
-          <div class="rel"><span class="grow"><span class="pname">Anna Maria Werhly</span><span class="pyears-line"><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
-          <div class="rel"><span class="grow"><span class="pname">Ignacia Maria de Jesus</span><span class="pyears-line"><span class="tag" style="--b: var(--b-muniz)">Muniz</span></span></span></div>
-          <div class="rel"><span class="grow"><span class="pname">Maria Angelica</span><span class="pyears-line"><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
-          <div class="rel"><span class="grow"><span class="pname">Maria de Mendonça</span><span class="pyears-line"><span class="tag" style="--b: var(--b-muniz)">Muniz</span></span></span></div>
-          <div class="rel"><span class="grow"><span class="pname">Maria Eugenia</span><span class="pyears-line"><span class="tag" style="--b: var(--b-muniz)">Muniz</span></span></span></div>
-          <div class="rel"><span class="grow"><span class="pname">Maria Freese</span><span class="pyears-line"><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
-          <div class="rel"><span class="grow"><span class="pname">Maria Heggendorn</span><span class="pyears-line"><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
-          <div class="rel"><span class="grow"><span class="pname">Maria Jacintha de Medeiros</span><span class="pyears-line"><span class="tag" style="--b: var(--b-muniz)">Muniz</span></span></span></div>
-          <div class="rel"><span class="grow"><span class="pname">Maria Joanna da Silva Ferreira</span><span class="pyears-line"><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
-          <div class="rel"><span class="grow"><span class="pname">Maria Luiza Schenkel</span><span class="pyears-line"><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
-          <div class="rel"><span class="grow"><span class="pname">Maria Luiza Stoffel</span><span class="pyears-line"><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
-          <div class="rel"><span class="grow"><span class="pname">Maria Lutz</span><span class="pyears-line"><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
-          <div class="rel"><span class="grow"><span class="pname">Maria Thereza de Jesus</span><span class="pyears-line"><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
-          <div class="rel"><span class="grow"><span class="pname">Maria Weiss</span><span class="pyears-line"><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
+          <div class="rel"><span class="grow"><span class="pname">Anna Maria</span><span class="pyears-line"><span class="pyears" data-en="Dates not established" data-pt="Datas não estabelecidas"></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
+          <div class="rel"><span class="grow"><span class="pname">Anna Maria Borer <span class="flag-ch" role="img" aria-label="Swiss"></span></span><span class="pyears-line"><span class="pyears" data-en="Dates not established" data-pt="Datas não estabelecidas"></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
+          <div class="rel"><span class="grow"><span class="pname">Anna Maria Werhly <span class="flag-ch" role="img" aria-label="Swiss"></span></span><span class="pyears-line"><span class="pyears">1793–</span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
+          <div class="rel"><span class="grow"><span class="pname">Ignacia Maria de Jesus <span class="flag-br" role="img" aria-label="Brazilian"></span></span><span class="pyears-line"><span class="pyears">1813–1878</span><span class="tag" style="--b: var(--b-muniz)">Muniz</span></span></span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Angelica <span class="flag-pt" role="img" aria-label="Portuguese"></span></span><span class="pyears-line"><span class="pyears" data-en="Dates not established" data-pt="Datas não estabelecidas"></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria de Mendonça</span><span class="pyears-line"><span class="pyears" data-en="Dates not established" data-pt="Datas não estabelecidas"></span><span class="tag" style="--b: var(--b-muniz)">Muniz</span></span></span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Eugenia <span class="flag-pt" role="img" aria-label="Portuguese"></span></span><span class="pyears-line"><span class="pyears" data-en="Dates not established" data-pt="Datas não estabelecidas"></span><span class="tag" style="--b: var(--b-muniz)">Muniz</span></span></span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Freese <span class="flag-ch" role="img" aria-label="Swiss"></span></span><span class="pyears-line"><span class="pyears" data-en="Dates not established" data-pt="Datas não estabelecidas"></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Heggendorn <span class="flag-br" role="img" aria-label="Brazilian"></span></span><span class="pyears-line"><span class="pyears">1844–</span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Jacintha de Medeiros <span class="flag-pt" role="img" aria-label="Portuguese"></span></span><span class="pyears-line"><span class="pyears" data-en="Dates not established" data-pt="Datas não estabelecidas"></span><span class="tag" style="--b: var(--b-muniz)">Muniz</span></span></span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Joanna da Silva Ferreira <span class="flag-br" role="img" aria-label="Brazilian"></span></span><span class="pyears-line"><span class="pyears">1841–1899</span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Luiza Schenkel <span class="flag-br" role="img" aria-label="Brazilian"></span></span><span class="pyears-line"><span class="pyears" data-en="Dates not established" data-pt="Datas não estabelecidas"></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Luiza Stoffel</span><span class="pyears-line"><span class="pyears" data-en="Dates not established" data-pt="Datas não estabelecidas"></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Lutz</span><span class="pyears-line"><span class="pyears" data-en="Dates not established" data-pt="Datas não estabelecidas"></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Thereza de Jesus <span class="flag-br" role="img" aria-label="Brazilian"></span></span><span class="pyears-line"><span class="pyears" data-en="Dates not established" data-pt="Datas não estabelecidas"></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Weiss <span class="flag-ch" role="img" aria-label="Swiss"></span></span><span class="pyears-line"><span class="pyears" data-en="Dates not established" data-pt="Datas não estabelecidas"></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span></div>
           <div class="more-elsewhere" data-en="<b>12 more in other families</b> — <a href='#'>show</a>" data-pt="<b>Mais 12 em outras famílias</b> — <a href='#'>mostrar</a>"></div>
         </div>
       </div>
