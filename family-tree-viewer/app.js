@@ -237,6 +237,7 @@ const elements = {
   assistantForm: document.querySelector("#assistant-form"),
   assistantInput: document.querySelector("#assistant-input"),
   assistantSend: document.querySelector("#assistant-send"),
+  assistantHelp: document.querySelector("#assistant-help"),
   branchChip: document.querySelector("#branch-chip"),
   branchChipToolbar: document.querySelector("#branch-chip-toolbar"),
   branchPanel: document.querySelector("#branch-panel"),
@@ -2445,8 +2446,8 @@ function renderGuideNav(container, name) {
   rows.forEach(([title, body], index) => steps.append(guideStep(index + 1, title, body)));
   container.append(steps);
 
-  // Legend — the few glyphs a lay reader cannot decode: the birthplace flag, the
-  // evidence-tier edge colour, and the record badges.
+  // Legend — what a lay reader cannot decode on sight: the family colours, the nationality flag,
+  // the evidence strength and the two badges.
   const legend = document.createElement("div");
   legend.className = "guide-legend";
   const legendTitle = document.createElement("p");
@@ -2454,27 +2455,42 @@ function renderGuideNav(container, name) {
   legendTitle.textContent = t("guide.legend.title");
   legend.append(legendTitle);
 
+  if (state.branches) {
+    const familyRow = document.createElement("p");
+    familyRow.className = "guide-legend-row";
+    familyRow.append(document.createTextNode(`${t("guide.legend.families")} `));
+    const tags = branchTagsFor(state.branches.list.map((branch) => branch.key));
+    if (tags) familyRow.append(tags);
+    legend.append(familyRow);
+  }
+
   const flagRow = document.createElement("p");
   flagRow.className = "guide-legend-row";
-  flagRow.append(document.createTextNode("🏳️ "), document.createTextNode(t("guide.legend.flag")));
+  const sampleFlag = nationalityFlag("Brazilian");
+  if (sampleFlag) flagRow.append(sampleFlag, " ");
+  flagRow.append(document.createTextNode(t("guide.legend.flag")));
   legend.append(flagRow);
 
   const tierRow = document.createElement("p");
   tierRow.className = "guide-legend-row";
-  tierRow.append(document.createTextNode(`${t("guide.legend.tiers")} `));
-  [
-    ["confirmed", t("guide.legend.confirmed")],
-    ["strong-evidence", t("guide.legend.strong")],
-    ["hypothesis", t("guide.legend.hypothesis")],
-  ].forEach(([status, label], i) => {
-    if (i > 0) tierRow.append(document.createTextNode(" · "));
-    const swatch = document.createElement("span");
-    swatch.className = "guide-swatch";
-    swatch.style.background = statusColours[status];
-    swatch.setAttribute("aria-hidden", "true");
-    tierRow.append(swatch, document.createTextNode(` ${label}`));
-  });
-  tierRow.append(document.createTextNode("."));
+  if (mobile) {
+    tierRow.textContent = t("guide.legend.tiers.mobile");
+  } else {
+    tierRow.append(document.createTextNode(`${t("guide.legend.tiers")} `));
+    [
+      ["confirmed", t("guide.legend.confirmed")],
+      ["strong-evidence", t("guide.legend.strong")],
+      ["hypothesis", t("guide.legend.hypothesis")],
+    ].forEach(([status, label], i) => {
+      if (i > 0) tierRow.append(document.createTextNode(" · "));
+      const swatch = document.createElement("span");
+      swatch.className = "guide-swatch";
+      swatch.style.background = statusColours[status];
+      swatch.setAttribute("aria-hidden", "true");
+      tierRow.append(swatch, document.createTextNode(` ${label}`));
+    });
+    tierRow.append(document.createTextNode("."));
+  }
   legend.append(tierRow);
 
   const badgeRow = document.createElement("p");
@@ -2483,11 +2499,9 @@ function renderGuideNav(container, name) {
   legend.append(badgeRow);
   container.append(legend);
 
-  // "Save as an app" tip — shown on mobile, hidden if already running as PWA.
-  const standalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone;
-  const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent) && !window.MSStream;
-  const isAndroid = /android/i.test(navigator.userAgent);
-  if (!standalone && (isIos || isAndroid)) {
+  // Installing as an app: one line here; the steps live in "How the app works" (one place to keep).
+  const standalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+  if (!standalone) {
     const installBox = document.createElement("div");
     installBox.className = "guide-legend guide-install-tip";
     const installTitle = document.createElement("p");
@@ -2495,11 +2509,13 @@ function renderGuideNav(container, name) {
     installTitle.textContent = t("guide.install.title");
     const installBody = document.createElement("p");
     installBody.className = "guide-legend-row";
-    installBody.textContent = t("guide.install.body");
-    const installHint = document.createElement("p");
-    installHint.className = "guide-legend-row";
-    installHint.textContent = isIos ? t("guide.install.ios") : t("guide.install.android");
-    installBox.append(installTitle, installBody, installHint);
+    installBody.textContent = t("guide.install.short");
+    const more = document.createElement("button");
+    more.type = "button";
+    more.className = "update-chip";
+    more.textContent = `${t("guide.install.more")} ›`;
+    more.addEventListener("click", () => openGuide("start"));
+    installBox.append(installTitle, installBody, more);
     container.append(installBox);
   }
 }
@@ -2520,6 +2536,7 @@ function renderGuidePortrait(container) {
       ["[PROVEN]", t("guide.portrait.tag.proven")],
       ["[STRONG-EVIDENCE]", t("guide.portrait.tag.strong")],
       ["[INFERRED]", t("guide.portrait.tag.inferred")],
+      ["[CONTEXTUAL]", t("guide.portrait.tag.contextual")],
       ["[LEAD]", t("guide.portrait.tag.lead")],
       ["[OPEN]", t("guide.portrait.tag.open")],
     ]),
@@ -2533,7 +2550,12 @@ function renderGuidePortrait(container) {
       ["REC", t("guide.portrait.src.rec")],
     ]),
     guideDef(t("guide.portrait.sections.label"), t("guide.portrait.sections.body")),
-    guideDef(t("guide.portrait.maps.label"), t("guide.portrait.maps.body")),
+    guideDefWithGroups(t("guide.portrait.maps.label"), t("guide.portrait.maps.body"), [
+      ["[RESOLVED]", t("guide.portrait.loc.resolved")],
+      ["[APPROX]", t("guide.portrait.loc.approx")],
+      ["[UNLOCATED]", t("guide.portrait.loc.unlocated")],
+      ["[DOCUMENTED]", t("guide.portrait.loc.documented")],
+    ]),
     guideDef(t("guide.portrait.vs.label"), t("guide.portrait.vs.body")),
   );
   container.append(defs);
@@ -2549,16 +2571,19 @@ function renderGuideCard(container, name) {
   const defs = document.createElement("div");
   defs.className = "guide-defs";
   defs.append(
+    guideDef(t("guide.card.head.label"), t("guide.card.head.body")),
     guideDef(t("guide.card.bio.label"), t("guide.card.bio.body")),
     guideDef(t("guide.card.rel.label"), t("guide.card.rel.body").replace("{name}", name)),
     guideDef(t("guide.card.overview.label"), t("guide.card.overview.body")),
     guideDef(t("guide.card.events.label"), t("guide.card.events.body")),
-    guideDef(t("guide.card.family.label"), t("guide.card.family.body")),
+    guideDef(t("guide.card.family.label"), isMobile() ? t("guide.card.family.mobile") : t("guide.card.family.desktop")),
+    guideDef(t("guide.card.more.label"), t("guide.card.more.body")),
     guideDefWithGroups(t("guide.card.sources.label"), t("guide.card.sources.body"), [
       [t("source.group.own"), t("guide.card.sources.own")],
       [t("source.group.mention"), t("guide.card.sources.mention")],
       [t("source.group.context"), t("guide.card.sources.context")],
     ]),
+    guideDef(t("guide.card.fan.label"), t("guide.card.fan.body")),
     guideDef(t("guide.card.caution.label"), t("guide.card.caution.body")),
   );
   container.append(defs);
@@ -2575,10 +2600,15 @@ function renderGuideStart(container) {
 
   const defs = document.createElement("div");
   defs.className = "guide-defs";
+  const mobile = isMobile();
   defs.append(
     guideDef(t("guide.start.families.label"), t("guide.start.families.body")),
-    guideDef(t("guide.start.top.label"), t("guide.start.top.body")),
-    guideDef(t("guide.start.bottom.label"), isMobile() ? t("guide.start.bottom.mobile") : t("guide.start.bottom.desktop")),
+    mobile
+      ? guideDef(t("guide.start.top.label"), t("guide.start.top.body"))
+      : guideDef(t("guide.start.top.label.desktop"), t("guide.start.top.desktop")),
+    mobile
+      ? guideDef(t("guide.start.bottom.label"), t("guide.start.bottom.mobile"))
+      : guideDef(t("guide.start.ai.label"), t("guide.start.ai.desktop")),
     guideDef(t("guide.start.records.label"), t("guide.start.records.body")),
   );
   container.append(defs);
@@ -2646,9 +2676,10 @@ function renderGuide() {
     setGuideHead(t("guide.updates.eyebrow"), t("guide.updates.title"), t("guide.updates.subtitle"));
     renderGuideDefs(container, "guide.updates.intro", [
       ["guide.updates.what.label", "guide.updates.what.body"],
+      ["guide.updates.families.label", "guide.updates.families.body"],
       ["guide.updates.open.label", "guide.updates.open.body"],
-      ["guide.updates.privacy.label", "guide.updates.privacy.body"],
       ["guide.updates.notify.label", "guide.updates.notify.body"],
+      ["guide.updates.privacy.label", "guide.updates.privacy.body"],
     ]);
   } else if (guideTopic === "start") {
     setGuideHead(t("guide.start.eyebrow"), t("guide.start.title"), t("guide.start.subtitle"));
@@ -2657,8 +2688,19 @@ function renderGuide() {
     setGuideHead(t("guide.story.eyebrow"), t("guide.story.title"), t("guide.story.subtitle"));
     renderGuideDefs(container, "guide.story.intro", [
       ["guide.story.grounded.label", "guide.story.grounded.body"],
+      ["guide.story.order.label", "guide.story.order.body"],
       ["guide.story.living.label", "guide.story.living.body"],
-      ["guide.story.links.label", "guide.story.links.body"],
+      ["guide.story.ask.label", "guide.story.ask.body"],
+    ]);
+  } else if (guideTopic === "assistant") {
+    setGuideHead(t("guide.assistant.eyebrow"), t("guide.assistant.title"), t("guide.assistant.subtitle"));
+    renderGuideDefs(container, "guide.assistant.intro", [
+      ["guide.assistant.knows.label", "guide.assistant.knows.body"],
+      ["guide.assistant.ask.label", "guide.assistant.ask.body"],
+      ["guide.assistant.who.label", "guide.assistant.who.body"],
+      ["guide.assistant.links.label", "guide.assistant.links.body"],
+      ["guide.assistant.limits.label", "guide.assistant.limits.body"],
+      ["guide.assistant.privacy.label", "guide.assistant.privacy.body"],
     ]);
   } else {
     setGuideHead(t("guide.eyebrow"), t("guide.title"), t("guide.subtitle"));
@@ -2711,7 +2753,7 @@ function syncHelpFab() {
 // the detail panel here).
 function openGuide(topic = "nav") {
   if (!elements.guidePanel) return;
-  guideTopic = ["card", "portrait", "updates", "story", "start"].includes(topic) ? topic : "nav";
+  guideTopic = ["card", "portrait", "updates", "story", "start", "assistant"].includes(topic) ? topic : "nav";
   // The guide layers above every panel (z30), so it does NOT close the panel it is
   // explaining — "About what's new"/"About this story" sit over their own panel.
   const opening = elements.guidePanel.hidden;
@@ -4072,6 +4114,7 @@ function bindEvents() {
   if (elements.detailHelp) elements.detailHelp.addEventListener("click", () => openGuide("card"));
   if (elements.storyHelp) elements.storyHelp.addEventListener("click", () => openGuide("story"));
   if (elements.updatesHelp) elements.updatesHelp.addEventListener("click", () => openGuide("updates"));
+  if (elements.assistantHelp) elements.assistantHelp.addEventListener("click", () => openGuide("assistant"));
   if (elements.detailAskAi) elements.detailAskAi.addEventListener("click", openAssistant);
   if (elements.storyAskAi) elements.storyAskAi.addEventListener("click", openAssistant);
   if (elements.updatesAskAi) elements.updatesAskAi.addEventListener("click", openAssistant);

@@ -204,6 +204,14 @@ await shot("20-help");
 await open({ branch: "all", lang: "pt-BR" });
 await shot("21-home-portuguese");
 
+await open({ branch: "muniz,bohrer", hash: "sel=P-0007" });
+await click("#detail-help", 800);
+await shot("22-help-person-page");
+await click("#close-guide", 400);
+await click(".tab[data-tab=assistant]", 900);
+await click("#assistant-help", 800);
+await shot("23-help-assistant");
+
 // ---------- Desktop ----------
 await viewport("desktop");
 await open({ branch: null });

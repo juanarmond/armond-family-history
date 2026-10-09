@@ -5,6 +5,21 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — every help page revised against the current app (2026-10-09)
+
+- Corrected: flags show recorded nationality, not birthplace; the story's names are not links;
+  relatives on a person's page are not clickable (the help now says how to reach them on each layout);
+  the phone has no robot buttons; a coloured edge on a phone row means the family, not evidence
+  strength (the evidence legend is now layout-specific).
+- Added: the family colours to the legend; ‘More details’, the family tag, occupations/names/notes and
+  context references (FAN) to the person-page help; [CONTEXTUAL] and the place-precision tags
+  ([RESOLVED], [APPROX], [UNLOCATED], [DOCUMENTED]) to the portrait help; NEW, the red number, the
+  families switch and the iPhone install requirement to What's new; the families-first order to the
+  story; double-click and + in the desktop tree; a new ? help page for Ask AI (what it knows, how to
+  ask, telling it who you are, links, limits, where the question goes).
+- One place for install steps: How to explore links to them in "How the app works".
+- Design: two more screens (help on a person's page, help for Ask AI); 36 in all.
+
 ### Added — "How the app works" on the family question (2026-10-09)
 
 - A ? beside EN | PT on "Which family are you exploring?" opens a short guide: the layout (this page,
