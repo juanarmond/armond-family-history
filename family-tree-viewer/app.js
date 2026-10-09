@@ -3608,6 +3608,23 @@ function applyScope(scope, { persist = true } = {}) {
   syncHash();
 }
 
+// The message that goes with a shared link, in the sender's language: which families, how many
+// people and how far back — all read from the data. The link carries the same language.
+function shareMessage() {
+  const total = Object.keys(state.data.people).length;
+  const chosen = chosenBranches();
+  const years = chosen.map((branch) => branch.earliestYear).filter(Number.isFinite);
+  const year = years.length ? Math.min(...years) : "";
+  if (!state.scope.size) return t("share.text.all", { n: total, year });
+  let families = chosen.map((branch) => branch.label).join(", ");
+  try {
+    families = new Intl.ListFormat(state.locale === "pt-BR" ? "pt-BR" : "en", { type: "conjunction" })
+      .format(chosen.map((branch) => branch.label));
+  } catch { /* Intl.ListFormat unavailable — the comma list stands */ }
+  const n = scopeSize(state.branches, state.scope, total);
+  return t(chosen.length === 1 ? "share.text.one" : "share.text.other", { families, n, year });
+}
+
 function shareUrl() {
   const params = new URLSearchParams();
   if (state.scope.size) params.set("branch", serialiseScope(state.scope, state.branches));
@@ -3783,6 +3800,9 @@ function renderBranchPanel() {
     const shareTitle = document.createElement("p");
     shareTitle.className = "branch-share-title";
     shareTitle.textContent = t("branch.share");
+    const message = document.createElement("p");
+    message.className = "branch-share-message";
+    message.textContent = shareMessage();
     const url = document.createElement("code");
     url.textContent = shareUrl();
     const actions = document.createElement("div");
@@ -3806,11 +3826,11 @@ function renderBranchPanel() {
       send.className = "update-chip";
       send.textContent = t("branch.send");
       send.addEventListener("click", () => {
-        navigator.share({ title: t("page.title"), url: shareUrl() }).catch(() => { /* dismissed */ });
+        navigator.share({ title: t("page.title"), text: shareMessage(), url: shareUrl() }).catch(() => { /* dismissed */ });
       });
       actions.append(send);
     }
-    share.append(shareTitle, url, actions);
+    share.append(shareTitle, message, url, actions);
     const done = document.createElement("button");
     done.type = "button";
     done.className = "branch-cta";

@@ -2536,7 +2536,8 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
 .branch-hint { margin: .6rem 0 0; color: var(--muted); font-family: var(--sans); font-size: .76rem; text-align: center; }
 .branch-share { margin-bottom: .9rem; padding: .8rem .9rem; border: 1px solid var(--rule); border-radius: var(--radius-sm); background: var(--paper); }
 .branch-share-title { margin: 0; font-family: var(--sans); font-size: .85rem; font-weight: 700; }
-.branch-share code { display: block; margin: .35rem 0 .6rem; color: var(--ink-2); font-size: .74rem; word-break: break-all; }
+.branch-share-message { margin: .35rem 0 0; color: var(--ink-2); font-size: .86rem; font-style: italic; line-height: 1.45; }
+.branch-share code { display: block; margin: .35rem 0 .6rem; color: var(--muted); font-size: .72rem; word-break: break-all; }
 .branch-share-actions { display: flex; flex-wrap: wrap; gap: .5rem; }
 
 /* The logo and the title lead back to the family question. */

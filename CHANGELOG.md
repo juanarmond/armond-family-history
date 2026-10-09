@@ -5,6 +5,19 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — a message with every shared link (2026-10-09)
+
+- Send… on the families sheet now shares a short message with the link, in the app's language and
+  built from the data — e.g. "Explore the Muniz and Bohrer families — 75 people traced to original
+  records, back to 1751 — in Four Rivers, our family history." The sheet previews it; Copy link still
+  copies only the link.
+- Concept mockup, per review: the search shows the 12 results the app lists, in one results card with
+  the switch at its top and no count line; flags are sized like the app's (one width, height from each
+  flag's shape, never shrinking) and the Portuguese flag has its shield; screens 2 and 3 use the app's
+  date format ("1892–", "1894–1970"); one shared flag rule uses a theme variable instead of a raw
+  colour. Earlier the search rows gained their flags and dates (56f752b). The design README now says
+  the concept is hand-maintained and the generated screens are the authority.
+
 ### Changed — flags and family tags aligned on the right (2026-10-09)
 
 - Person rows (phone lists and search results) keep the name across the full width and line up the

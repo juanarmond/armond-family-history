@@ -6,7 +6,9 @@ The rules they follow are in [`../UI-STANDARDS.md`](../UI-STANDARDS.md).
 - [`mobile.html`](mobile.html) — every phone screen (390 × 844), with what each one is for.
 - [`desktop.html`](desktop.html) — every desktop screen (1440 × 900).
 - [`branch-picker.html`](branch-picker.html) — the interactive concept mockup used to design the
-  family branches and the phone layout (2026-10-09), kept in step with what shipped.
+  family branches and the phone layout (2026-10-09), kept in step with what shipped. It is written
+  by hand (its names, flags and dates are copied from the data, and nothing re-checks them), so the
+  generated screens below are the authority when the two disagree.
 - `screens/mobile/`, `screens/desktop/` — the screenshots the two galleries show.
 - [`capture.mjs`](capture.mjs) — regenerates those screenshots from the real app.
 
