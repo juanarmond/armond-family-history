@@ -3,6 +3,9 @@
 // requires a fetch event handler; this one is a transparent passthrough (no caching).
 // Add cache logic here if you ever want offline support.
 
+// Must match NOTIFY_API in app.js.
+const NOTIFY_API = "https://family-notify.juan-armond.workers.dev";
+
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (e) => e.waitUntil(self.clients.claim()));
 self.addEventListener("fetch", (e) => e.respondWith(fetch(e.request)));
@@ -34,11 +37,40 @@ self.addEventListener("notificationclick", (event) => {
   event.waitUntil((async () => {
     const windows = await self.clients.matchAll({ type: "window", includeUncontrolled: true });
     for (const client of windows) {
-      if (client.url.startsWith(self.registration.scope) && "focus" in client) {
+      // Only the app page listens for "open-updates" (not, say, terms.html).
+      const path = new URL(client.url).pathname;
+      const isApp = client.url.startsWith(self.registration.scope) && (path.endsWith("/") || path.endsWith("/index.html"));
+      if (isApp && "focus" in client) {
         client.postMessage({ type: "open-updates" });
         return client.focus();
       }
     }
     return self.clients.openWindow(target);
+  })());
+});
+
+// The browser replaced this device's push subscription (keys rotated or expired). Register the
+// new one with the Worker, which carries over the old one's language and forgets the old one;
+// without this the device would silently stop receiving notifications.
+self.addEventListener("pushsubscriptionchange", (event) => {
+  event.waitUntil((async () => {
+    try {
+      let subscription = event.newSubscription;
+      if (!subscription) {
+        const health = await (await fetch(`${NOTIFY_API}/health`, { cache: "no-store" })).json();
+        if (!health || !health.ok || !health.publicKey) return;
+        const base64 = health.publicKey.replace(/-/g, "+").replace(/_/g, "/");
+        const key = Uint8Array.from(atob(base64 + "=".repeat((4 - (base64.length % 4)) % 4)), (c) => c.charCodeAt(0));
+        subscription = await self.registration.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: key });
+      }
+      await fetch(`${NOTIFY_API}/subscribe`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          subscription: subscription.toJSON(),
+          replaces: event.oldSubscription ? event.oldSubscription.endpoint : undefined,
+        }),
+      });
+    } catch { /* the page's daily re-sync is the fallback */ }
   })());
 });

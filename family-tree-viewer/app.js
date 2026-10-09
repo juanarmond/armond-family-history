@@ -2672,6 +2672,8 @@ function renderUpdates(container, entries) {
 // site added to the Home Screen and opened from there (iOS 16.4+), and only after a tap,
 // so the bar explains that instead of offering a button that cannot work.
 let notifyConfigPromise = null;
+let notifyRenderToken = 0;
+const NOTIFY_SYNC_KEY = "armond-notify-synced";
 
 function pushEnvironment() {
   const ua = navigator.userAgent || "";
@@ -2691,21 +2693,25 @@ function notifyConfig() {
       const response = await fetch(`${NOTIFY_API}/health`, { cache: "no-store", signal: controller.signal });
       clearTimeout(timer);
       const data = response.ok ? await response.json() : null;
-      return data && data.ok && data.publicKey ? data : null;
-    } catch {
-      return null;
-    }
+      if (data && data.ok && data.publicKey) return data;
+    } catch { /* offline or slow — try again next time */ }
+    notifyConfigPromise = null; // only a successful answer is kept for the session
+    return null;
   })();
   return notifyConfigPromise;
 }
 
-async function currentPushSubscription() {
-  if (pushEnvironment() !== "supported") return null;
-  // `ready` never settles if the service worker failed to register; do not hang the bar.
-  const registration = await Promise.race([
+// `ready` never settles if the service worker failed to register; never wait on it forever.
+function serviceWorkerReady() {
+  return Promise.race([
     navigator.serviceWorker.ready,
     new Promise((resolve) => setTimeout(() => resolve(null), 4000)),
   ]);
+}
+
+async function currentPushSubscription() {
+  if (pushEnvironment() !== "supported") return null;
+  const registration = await serviceWorkerReady();
   return registration ? registration.pushManager.getSubscription() : null;
 }
 
@@ -2716,6 +2722,16 @@ async function postSubscription(subscription) {
     body: JSON.stringify({ subscription: subscription.toJSON(), lang: state.locale }),
   });
   if (!response.ok) throw new Error(String(response.status));
+  try { localStorage.setItem(NOTIFY_SYNC_KEY, new Date().toISOString().slice(0, 10)); } catch { /* storage unavailable */ }
+}
+
+// Re-send this device's subscription at most once a day (an idempotent save), so a device the
+// Worker has dropped or lost — or one the browser replaced — quietly recovers.
+async function resyncSubscription(subscription) {
+  let last = "";
+  try { last = localStorage.getItem(NOTIFY_SYNC_KEY) || ""; } catch { /* storage unavailable */ }
+  if (last === new Date().toISOString().slice(0, 10)) return;
+  try { await postSubscription(subscription); } catch { /* try again on another day */ }
 }
 
 async function enableNotifications() {
@@ -2723,7 +2739,8 @@ async function enableNotifications() {
   if (!config) throw new Error("notifications unavailable");
   const permission = await Notification.requestPermission();
   if (permission !== "granted") return;
-  const registration = await navigator.serviceWorker.ready;
+  const registration = await serviceWorkerReady();
+  if (!registration) throw new Error("service worker unavailable");
   const subscription = (await registration.pushManager.getSubscription())
     || (await registration.pushManager.subscribe({
       userVisibleOnly: true,
@@ -2764,19 +2781,26 @@ function b64urlToBytes(text) {
 async function renderNotifyBar(message) {
   const bar = elements.updatesNotify;
   if (!bar) return;
+  // Opening the panel, switching language and a notification tap can all render at once;
+  // only the newest render may touch the bar, and it swaps its content in one step.
+  const token = ++notifyRenderToken;
   const environment = pushEnvironment();
   const config = environment === "unsupported" ? null : await notifyConfig();
+  const subscription = config && environment === "supported" && Notification.permission !== "denied"
+    ? await currentPushSubscription().catch(() => null)
+    : null;
+  if (token !== notifyRenderToken) return;
   if (!config) { bar.hidden = true; return; }
-  bar.textContent = "";
-  bar.hidden = false;
   const text = document.createElement("p");
   text.className = "updates-notify-text";
-  bar.appendChild(text);
+  const content = [text];
+  bar.hidden = false;
 
-  if (environment === "ios-install") { text.textContent = t("notify.iosInstall"); return; }
-  if (Notification.permission === "denied") { text.textContent = t("notify.denied"); return; }
+  if (environment === "ios-install") { text.textContent = t("notify.iosInstall"); bar.replaceChildren(...content); return; }
+  if (Notification.permission === "denied") { text.textContent = t("notify.denied"); bar.replaceChildren(...content); return; }
 
-  const subscribed = Boolean(await currentPushSubscription().catch(() => null));
+  const subscribed = Boolean(subscription);
+  if (subscription) resyncSubscription(subscription);
   const button = document.createElement("button");
   button.type = "button";
   button.className = "update-chip updates-notify-button";
@@ -2793,7 +2817,8 @@ async function renderNotifyBar(message) {
       renderNotifyBar(t("notify.error"));
     }
   });
-  bar.appendChild(button);
+  content.push(button);
+  bar.replaceChildren(...content);
 }
 
 async function openUpdates() {

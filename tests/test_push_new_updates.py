@@ -47,6 +47,31 @@ class BuildPayloadTests(unittest.TestCase):
         self.assertEqual(payload["url"], "./?open=updates")
         self.assertEqual(payload["tag"], "whats-new")
 
+    def test_rewording_or_redating_an_old_entry_is_not_news(self) -> None:
+        reworded = dict(OLDER, title="Older news, reworded", title_pt="Notícia antiga, reescrita")
+        self.assertIsNone(push.build_payload(feed(MILESTONE, OLDER), feed(MILESTONE, reworded)))
+        redated = dict(OLDER, date="2026-09-30")
+        self.assertIsNone(push.build_payload(feed(MILESTONE, OLDER), feed(MILESTONE, redated)))
+
+    def test_a_same_day_addition_after_an_earlier_deploy_is_news(self) -> None:
+        payload = push.build_payload(feed(MILESTONE, OLDER), feed(CORRECTION, MILESTONE, OLDER))
+        self.assertEqual(payload["counts"], {"updates": 1, "documents": 0})
+
+    def test_a_retitled_document_is_not_counted_again(self) -> None:
+        retitled = dict(DOCUMENT, title="1891 civil birth, retitled")
+        payload = push.build_payload(feed(DOCUMENT, OLDER), feed(CORRECTION, retitled, OLDER))
+        self.assertEqual(payload["counts"]["documents"], 0)
+
+    def test_malformed_entries_are_ignored(self) -> None:
+        payload = push.build_payload({"updates": ["junk", None, OLDER]}, {"updates": [CORRECTION, 7, OLDER]})
+        self.assertEqual(payload["counts"]["updates"], 1)
+
+    def test_the_payload_has_a_stable_id_for_safe_retries(self) -> None:
+        first = push.build_payload(feed(OLDER), feed(CORRECTION, OLDER))
+        second = push.build_payload(feed(OLDER), feed(CORRECTION, OLDER))
+        self.assertEqual(first["id"], second["id"])
+        self.assertEqual(len(first["id"]), 20)
+
     def test_long_headlines_are_shortened(self) -> None:
         long_entry = dict(MILESTONE, title="x" * 400, title_pt="y" * 400)
         payload = push.build_payload(feed(), feed(long_entry))

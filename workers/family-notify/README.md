@@ -13,8 +13,13 @@ How it fits together:
    this only works after the site is added to the Home Screen and opened from there; the
    bar says so.
 2. **This Worker** stores each subscription in KV — only the push-service URL, two browser
-   keys and the language (EN/PT). Nothing personal. It accepts subscriptions only from the
-   site's origin, and only for real push services (Apple, Google, Mozilla, Microsoft).
+   keys, the language (EN/PT) and, if deliveries keep failing, a failure count. Nothing
+   personal. It checks the Origin header (browsers cannot fake it; scripts can) and accepts
+   only real push services (Apple, Google, Mozilla, Microsoft) with valid P-256 keys. A
+   subscription the push service reports gone (404/410) is deleted at once; one that keeps
+   failing with another client error is deleted after three attempts, so junk does not pile
+   up. The browser's `pushsubscriptionchange` and a daily re-sync from the page keep a
+   device registered if its subscription is replaced or lost.
 3. **The deploy workflow** (`.github/workflows/static.yml`) compares the live
    `updates.json` with the one being published (`scripts/push_new_updates.py`). After the
    deploy it calls `/notify` with one bilingual summary. The Worker encrypts it for each
@@ -94,7 +99,13 @@ and `gh secret set NOTIFY_TOKEN < _local/notify-token.txt`.
 
 ## Limits
 
-- Cloudflare's free plan allows 50 outgoing requests per Worker call, so `/notify` sends to
-  40 devices at a time and returns a cursor; the script follows it until everyone is reached.
+- Cloudflare's free plan allows 50 outgoing requests and 10 ms of CPU per Worker call, so
+  `/notify` sends to 20 devices at a time (one VAPID signature per push service per call) and
+  returns a cursor; the script follows it until everyone is reached.
+- Re-running a failed deploy is safe: each summary has an id, and the Worker skips any page
+  it already sent for that id (markers expire after a week).
+- What counts as new: a curated entry not already live and dated no earlier than the newest
+  live one, so rewording or re-dating an old entry does not re-announce it. Documents are
+  matched by record id. There is no per-IP rate limit on `/subscribe`.
 - Push delivery is best effort: phones in power-saving mode may show it late, and a device
   that never opens the site again eventually drops its subscription.

@@ -8,20 +8,26 @@
 //
 // Endpoints:
 //   GET  /health       -> { ok, publicKey }          the site uses it to show the button
-//   POST /subscribe    { subscription, lang }        from the site (origin-checked)
-//   POST /unsubscribe  { endpoint }                  from the site (origin-checked)
-//   POST /notify       { title:{en,pt}, body:{en,pt}, url, tag, cursor }
+//   POST /subscribe    { subscription, lang, replaces }   from the site or its service
+//                      worker (the Origin header is checked — browsers cannot fake it,
+//                      scripts can; garbage is cleaned up by the failure count below)
+//   POST /unsubscribe  { endpoint }                  from the site
+//   POST /notify       { id, title:{en,pt}, body:{en,pt}, url, tag, cursor }
 //                      Authorization: Bearer NOTIFY_TOKEN — from the deploy workflow.
 //                      Sends to one page of subscribers and returns { cursor } for the
-//                      next page (the free plan allows 50 outgoing requests per call).
+//                      next page. A page already sent for the same message id is skipped,
+//                      so re-running a failed deploy never notifies a device twice.
 //
 // Setup (see README.md): bind a KV namespace as SUBSCRIPTIONS; set the variable
 // VAPID_PUBLIC_KEY and the secrets VAPID_PRIVATE_KEY and NOTIFY_TOKEN.
 
 const ALLOW_ORIGIN = "https://juanarmond.github.io";
 const VAPID_SUBJECT = "https://juanarmond.github.io/";
-const PAGE_SIZE = 40;
+// 20 devices per call keeps well inside the free plan's 50 outgoing requests and 10 ms CPU.
+const PAGE_SIZE = 20;
 const TTL_SECONDS = 4 * 24 * 3600;
+const MAX_FAILURES = 3;
+const SENT_MARKER_TTL = 7 * 24 * 3600;
 const MAX_BODY_BYTES = 8192;
 // Only real browser push services may be stored, so /notify can never be turned into a
 // way of POSTing to arbitrary URLs.
@@ -107,41 +113,58 @@ export async function encryptPayload(plaintext, p256dh, auth, options = {}) {
   return concat(header, ciphertext);
 }
 
-// RFC 8292 VAPID: a short-lived ES256 JWT for the push service's origin.
-export async function vapidAuthorization(endpoint, publicKey, privateKey, now = Math.floor(Date.now() / 1000)) {
-  const header = b64urlEncode(encoder.encode(JSON.stringify({ typ: "JWT", alg: "ES256" })));
-  const claims = b64urlEncode(encoder.encode(JSON.stringify({
-    aud: new URL(endpoint).origin,
-    exp: now + 12 * 3600,
-    sub: VAPID_SUBJECT,
-  })));
-  const raw = b64urlDecode(publicKey);
-  const key = await crypto.subtle.importKey(
-    "jwk",
-    { kty: "EC", crv: "P-256", x: b64urlEncode(raw.slice(1, 33)), y: b64urlEncode(raw.slice(33, 65)), d: privateKey },
-    { name: "ECDSA", namedCurve: "P-256" },
-    false,
-    ["sign"],
-  );
-  const signature = new Uint8Array(
-    await crypto.subtle.sign({ name: "ECDSA", hash: "SHA-256" }, key, encoder.encode(`${header}.${claims}`)),
-  );
-  return `vapid t=${header}.${claims}.${b64urlEncode(signature)}, k=${publicKey}`;
+// RFC 8292 VAPID: a short-lived ES256 JWT for the push service's origin. The signer imports
+// the private key once and reuses one JWT per push-service origin for the whole request.
+export function createVapidSigner(publicKey, privateKey, now = Math.floor(Date.now() / 1000)) {
+  let keyPromise = null;
+  const tokens = new Map();
+  const signingKey = () => {
+    keyPromise ||= (() => {
+      const raw = b64urlDecode(publicKey);
+      return crypto.subtle.importKey(
+        "jwk",
+        { kty: "EC", crv: "P-256", x: b64urlEncode(raw.slice(1, 33)), y: b64urlEncode(raw.slice(33, 65)), d: privateKey },
+        { name: "ECDSA", namedCurve: "P-256" },
+        false,
+        ["sign"],
+      );
+    })();
+    return keyPromise;
+  };
+  return (endpoint) => {
+    const aud = new URL(endpoint).origin;
+    if (!tokens.has(aud)) {
+      tokens.set(aud, (async () => {
+        const header = b64urlEncode(encoder.encode(JSON.stringify({ typ: "JWT", alg: "ES256" })));
+        const claims = b64urlEncode(encoder.encode(JSON.stringify({ aud, exp: now + 12 * 3600, sub: VAPID_SUBJECT })));
+        const signature = new Uint8Array(
+          await crypto.subtle.sign({ name: "ECDSA", hash: "SHA-256" }, await signingKey(), encoder.encode(`${header}.${claims}`)),
+        );
+        return `vapid t=${header}.${claims}.${b64urlEncode(signature)}, k=${publicKey}`;
+      })());
+    }
+    return tokens.get(aud);
+  };
 }
 
-async function sendPush(subscription, message, env) {
+export function vapidAuthorization(endpoint, publicKey, privateKey, now) {
+  return createVapidSigner(publicKey, privateKey, now)(endpoint);
+}
+
+async function sendPush(subscription, message, sign) {
   const body = await encryptPayload(
     encoder.encode(JSON.stringify(message)), subscription.keys.p256dh, subscription.keys.auth,
   );
   const response = await fetch(subscription.endpoint, {
     method: "POST",
     headers: {
-      Authorization: await vapidAuthorization(subscription.endpoint, env.VAPID_PUBLIC_KEY, env.VAPID_PRIVATE_KEY),
+      Authorization: await sign(subscription.endpoint),
       "Content-Encoding": "aes128gcm",
       "Content-Type": "application/octet-stream",
       TTL: String(TTL_SECONDS),
       Urgency: "normal",
-      Topic: "whats-new",
+      // No Topic header: Apple's push service rejects it ({"reason":"BadWebPushTopic"}).
+      // The notification's own tag already makes a newer summary replace an older one.
     },
     body,
   });
@@ -193,23 +216,46 @@ function configured(env) {
   return Boolean(env.SUBSCRIPTIONS && env.VAPID_PUBLIC_KEY && env.VAPID_PRIVATE_KEY);
 }
 
+// A browser key must be a real P-256 point; random bytes are rejected here.
+async function validBrowserKeys(keys) {
+  try {
+    if (!keys || b64urlDecode(keys.auth || "").length !== 16) return false;
+    const point = b64urlDecode(keys.p256dh || "");
+    if (point.length !== 65) return false;
+    await crypto.subtle.importKey("raw", point, { name: "ECDH", namedCurve: "P-256" }, false, []);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function saveRecord(env, name, record) {
+  // The record also rides in the key's metadata, so /notify gets it from list() alone.
+  await env.SUBSCRIPTIONS.put(name, JSON.stringify(record), { metadata: record });
+}
+
 async function subscribe(request, env) {
   if (!isAllowedOrigin(request.headers.get("Origin") || "")) return json(request, { error: "forbidden" }, 403);
   let data;
   try { data = await readJson(request); } catch { return json(request, { error: "bad request" }, 400); }
   const subscription = data && data.subscription;
-  const keys = subscription && subscription.keys;
-  if (!subscription || !isPushEndpoint(subscription.endpoint) || !keys
-      || b64urlDecode(keys.p256dh || "").length !== 65 || b64urlDecode(keys.auth || "").length !== 16) {
+  if (!subscription || !isPushEndpoint(subscription.endpoint) || !(await validBrowserKeys(subscription.keys))) {
     return json(request, { error: "invalid subscription" }, 400);
   }
-  const lang = data.lang === "pt-BR" ? "pt-BR" : "en";
-  await env.SUBSCRIPTIONS.put(await subscriptionKey(subscription.endpoint), JSON.stringify({
+  // A browser-replaced subscription (service worker "pushsubscriptionchange") keeps the
+  // language of the one it replaces.
+  let lang = data.lang;
+  if (typeof data.replaces === "string" && data.replaces !== subscription.endpoint) {
+    const oldName = await subscriptionKey(data.replaces);
+    const old = await env.SUBSCRIPTIONS.get(oldName, "json");
+    if (!lang && old) lang = old.lang;
+    await env.SUBSCRIPTIONS.delete(oldName);
+  }
+  await saveRecord(env, await subscriptionKey(subscription.endpoint), {
     endpoint: subscription.endpoint,
-    keys: { p256dh: keys.p256dh, auth: keys.auth },
-    lang,
-    updated: new Date().toISOString().slice(0, 10),
-  }));
+    keys: { p256dh: subscription.keys.p256dh, auth: subscription.keys.auth },
+    lang: lang === "pt-BR" ? "pt-BR" : "en",
+  });
   return json(request, { ok: true });
 }
 
@@ -230,32 +276,52 @@ async function notify(request, env) {
   const pick = (field, lang) => (field && (lang === "pt-BR" ? field.pt : field.en)) || "";
 
   const page = await env.SUBSCRIPTIONS.list({ prefix: "sub:", limit: PAGE_SIZE, cursor: data.cursor || undefined });
+  const next = page.list_complete ? null : page.cursor;
+  const marker = typeof data.id === "string" && data.id ? `sent:${data.id}:${data.cursor || "start"}` : null;
+  if (marker && (await env.SUBSCRIPTIONS.get(marker))) {
+    return json(request, { sent: 0, removed: 0, failed: 0, skipped: page.keys.length, cursor: next });
+  }
+
+  const sign = createVapidSigner(env.VAPID_PUBLIC_KEY, env.VAPID_PRIVATE_KEY);
   let sent = 0;
   let removed = 0;
   let failed = 0;
-  await Promise.all(page.keys.map(async ({ name }) => {
-    const stored = await env.SUBSCRIPTIONS.get(name, "json");
-    if (!stored) return;
+  await Promise.all(page.keys.map(async ({ name, metadata }) => {
     try {
-      const status = await sendPush(stored, {
-        title: pick(data.title, stored.lang),
-        body: pick(data.body, stored.lang),
+      const record = metadata || (await env.SUBSCRIPTIONS.get(name, "json"));
+      if (!record) return;
+      const status = await sendPush(record, {
+        title: pick(data.title, record.lang),
+        body: pick(data.body, record.lang),
         url: data.url || "./?open=updates",
         tag: data.tag || "whats-new",
-      }, env);
-      if (status === 404 || status === 410) {
+      }, sign);
+      if (status >= 200 && status < 300) {
+        sent += 1;
+        if (record.fails) await saveRecord(env, name, { ...record, fails: 0 });
+      } else if (status === 404 || status === 410) {
         await env.SUBSCRIPTIONS.delete(name);
         removed += 1;
-      } else if (status >= 200 && status < 300) {
-        sent += 1;
+      } else if (status === 429 || status >= 500) {
+        failed += 1; // the push service's problem, not the subscription's
       } else {
+        // Other 4xx: a broken or foreign subscription. Count it and drop it after a few, so a
+        // one-off problem on our side never wipes every subscriber at once.
         failed += 1;
+        const fails = (record.fails || 0) + 1;
+        if (fails >= MAX_FAILURES) {
+          await env.SUBSCRIPTIONS.delete(name);
+          removed += 1;
+        } else {
+          await saveRecord(env, name, { ...record, fails });
+        }
       }
     } catch {
       failed += 1;
     }
   }));
-  return json(request, { sent, removed, failed, cursor: page.list_complete ? null : page.cursor });
+  if (marker) await env.SUBSCRIPTIONS.put(marker, "1", { expirationTtl: SENT_MARKER_TTL });
+  return json(request, { sent, removed, failed, cursor: next });
 }
 
 export default {

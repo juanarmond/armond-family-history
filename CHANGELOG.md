@@ -5,6 +5,24 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — push notifications: code-review findings and Apple delivery (2026-10-09)
+
+- **Apple delivery:** iPhone pushes failed with `{"reason":"BadWebPushTopic"}`; the Worker no
+  longer sends a `Topic` header (regression-tested). Verified: a live test reached the owner's iPhone.
+- **What counts as new:** a reworded or re-dated old entry is no longer re-announced; documents
+  match by record id; malformed feed entries are ignored.
+- **Safe retries:** each summary has an id; the Worker skips pages already sent for it, and the
+  sender retries transient errors, so re-running a failed deploy never notifies twice. The live feed
+  is fetched without cache, and the optional preparation step can no longer block publishing.
+- **Worker:** 20 devices per call with one VAPID signature per push service (CPU limit); subscriptions
+  ride in KV list metadata; a broken read no longer fails a page; invalid keys return 400 with CORS;
+  devices failing with other client errors are dropped after three attempts; replaced subscriptions
+  keep their language.
+- **Viewer:** no duplicate buttons from overlapping renders; a failed `/health` is not cached; no
+  hang if the service worker is not ready; daily re-sync of the subscription; the service worker
+  handles `pushsubscriptionchange` and only reuses an app window on tap.
+- Terms page and Worker README now describe exactly what is stored.
+
 ### Changed — push notifications deployed (2026-10-09)
 
 - Deployed the `family-notify` Worker with its KV namespace and secrets, and set the GitHub

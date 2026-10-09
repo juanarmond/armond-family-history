@@ -63,10 +63,13 @@ jobs:
       - name: Prepare the What's new notification
         # Compare the feed readers see now with the one about to be published and write
         # at most ONE summary notification (curated entries only). Needs no secrets; an
-        # unreachable live feed means no notification, never the whole history.
+        # unreachable live feed means no notification, never the whole history. Optional:
+        # a failure here must never stop the site from being published.
+        continue-on-error: true
         run: |
           mkdir -p push
-          if curl -fsSL "${{ steps.pages.outputs.base_url }}/updates.json" -o push/live-updates.json; then
+          # Bypass the Pages cache so a deploy right after another sees the newest live feed.
+          if curl -fsSL -H "Cache-Control: no-cache" "${{ steps.pages.outputs.base_url }}/updates.json?ts=$(date +%s)" -o push/live-updates.json; then
             python3 scripts/push_new_updates.py --old push/live-updates.json --new _site/updates.json --write push/payload.json
           else
             echo "Live feed unavailable; no notification will be sent."
@@ -117,7 +120,8 @@ jobs:
           name: push-payload
           path: push
 
-      - name: Send the What's new notification
-        # Only after the new site is live, so the tap opens the updated feed.
+      - name: Send the What's new notification (safe to re-run)
+        # Only after the new site is live, so the tap opens the updated feed. If this step
+        # fails, re-run the job: the Worker skips devices this message already reached.
         if: env.NOTIFY_ENDPOINT != '' && env.NOTIFY_TOKEN != '' && steps.payload.outcome == 'success'
         run: python3 scripts/push_new_updates.py --send push/payload.json

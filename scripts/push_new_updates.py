@@ -20,9 +20,12 @@ Standard library only, so the deploy job can run it without installing anything.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 import sys
+import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 from typing import Any
@@ -41,9 +44,36 @@ def entry_key(entry: dict[str, Any]) -> tuple[Any, ...]:
     return (entry.get("date"), entry.get("kind"), entry.get("title"), entry.get("primary"))
 
 
-def new_entries(old: dict[str, Any], new: dict[str, Any]) -> list[dict[str, Any]]:
-    seen = {entry_key(entry) for entry in old.get("updates") or []}
-    return [entry for entry in new.get("updates") or [] if entry_key(entry) not in seen]
+def _entries(feed: dict[str, Any]) -> list[dict[str, Any]]:
+    return [entry for entry in feed.get("updates") or [] if isinstance(entry, dict)]
+
+
+def _is_document(entry: dict[str, Any]) -> bool:
+    return (entry.get("kind") or "document") == "document"
+
+
+def new_curated(old: dict[str, Any], new: dict[str, Any]) -> list[dict[str, Any]]:
+    """Curated entries that are genuinely new.
+
+    Curated entries carry no stable id, so "new" means: not already live AND dated no earlier
+    than the newest curated entry already live. Rewording or re-dating an older entry (which
+    keeps or lowers its date) therefore never re-announces it; a same-day addition still counts.
+    """
+    live = [entry for entry in _entries(old) if not _is_document(entry)]
+    seen = {entry_key(entry) for entry in live}
+    newest = max((str(entry.get("date") or "") for entry in live), default="")
+    return [
+        entry for entry in _entries(new)
+        if not _is_document(entry) and entry_key(entry) not in seen and str(entry.get("date") or "") >= newest
+    ]
+
+
+def new_documents(old: dict[str, Any], new: dict[str, Any]) -> list[dict[str, Any]]:
+    """Documents whose record (primary id) is not live yet; a retitled document is not new."""
+    def ident(entry: dict[str, Any]) -> Any:
+        return entry.get("primary") or entry_key(entry)
+    seen = {ident(entry) for entry in _entries(old) if _is_document(entry)}
+    return [entry for entry in _entries(new) if _is_document(entry) and ident(entry) not in seen]
 
 
 def _shorten(text: str) -> str:
@@ -57,9 +87,8 @@ def _plural(count: int, one: str, many: str) -> str:
 
 def build_payload(old: dict[str, Any], new: dict[str, Any]) -> dict[str, Any] | None:
     """Return the notification for this deploy, or None when there is nothing to announce."""
-    added = new_entries(old, new)
-    curated = [entry for entry in added if (entry.get("kind") or "document") != "document"]
-    documents = [entry for entry in added if (entry.get("kind") or "document") == "document"]
+    curated = new_curated(old, new)
+    documents = new_documents(old, new)
     if not curated:
         return None
 
@@ -78,9 +107,14 @@ def build_payload(old: dict[str, Any], new: dict[str, Any]) -> dict[str, Any] | 
         body_en = f"{body_en} ({' · '.join(extras_en)})"
         body_pt = f"{body_pt} ({' · '.join(extras_pt)})"
 
+    title = {"en": f"{SITE_NAME} — what's new", "pt": f"{SITE_NAME} — novidades"}
+    body = {"en": body_en, "pt": body_pt}
+    # The id lets the Worker skip pages it already sent if a failed deploy is re-run.
+    message_id = hashlib.sha256(json.dumps([title, body], ensure_ascii=False).encode("utf-8")).hexdigest()[:20]
     return {
-        "title": {"en": f"{SITE_NAME} — what's new", "pt": f"{SITE_NAME} — novidades"},
-        "body": {"en": body_en, "pt": body_pt},
+        "id": message_id,
+        "title": title,
+        "body": body,
         "url": "./?open=updates",
         "tag": "whats-new",
         "counts": {"updates": len(curated), "documents": len(documents)},
@@ -92,7 +126,7 @@ def send(payload: dict[str, Any], endpoint: str, token: str) -> dict[str, int]:
     totals = {"sent": 0, "removed": 0, "failed": 0}
     cursor = None
     for _ in range(1000):  # a hard stop far above any realistic subscriber count
-        body = {key: payload[key] for key in ("title", "body", "url", "tag")}
+        body = {key: payload[key] for key in ("id", "title", "body", "url", "tag") if key in payload}
         if cursor:
             body["cursor"] = cursor
         request = urllib.request.Request(
@@ -106,14 +140,30 @@ def send(payload: dict[str, Any], endpoint: str, token: str) -> dict[str, int]:
             },
             method="POST",
         )
-        with urllib.request.urlopen(request, timeout=60) as response:
-            result = json.loads(response.read().decode("utf-8"))
+        result = _post_with_retries(request)
         for key in totals:
             totals[key] += int(result.get(key) or 0)
         cursor = result.get("cursor")
         if not cursor:
             break
     return totals
+
+
+def _post_with_retries(request: urllib.request.Request, attempts: int = 3) -> dict[str, Any]:
+    """POST, retrying transient failures (network errors, 429, 5xx). Retrying is safe: the
+    Worker skips any page it already sent for the same message id."""
+    for attempt in range(1, attempts + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=60) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as error:
+            if (error.code != 429 and error.code < 500) or attempt == attempts:
+                raise
+        except urllib.error.URLError:
+            if attempt == attempts:
+                raise
+        time.sleep(3 * attempt)
+    raise RuntimeError("unreachable")
 
 
 def _load(path: Path) -> dict[str, Any] | None:
