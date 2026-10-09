@@ -5,6 +5,14 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — back to the start from the logo; calmer person rows (2026-10-09)
+
+- Tapping the logo or the title reopens "Which family are you exploring?" with the current choice
+  selected; that page now has an EN | PT switch at the top and, on Android, Add to Home Screen at
+  the foot. The emblem menu is gone — families, help and language each have their own place.
+- Person rows (phone lists and search results) put the name across the full width, the flag kept
+  with the last word, and the years and family tag on a small second line.
+
 ### Added — viewer mockups in the repository; phone layout fixes (2026-10-09)
 
 - `design/mockups/`: mobile and desktop galleries of every screen (31 screenshots from the

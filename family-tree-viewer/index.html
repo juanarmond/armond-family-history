@@ -30,12 +30,12 @@
   <header class="site-header">
     <div class="site-title">
       <p class="eyebrow" data-i18n="header.eyebrow">Private research archive</p>
-      <h1 data-i18n="page.title">Four Rivers</h1>
+      <h1><button id="title-button" class="title-button" type="button" data-i18n="page.title" data-i18n-title="header.start">Four Rivers</button></h1>
       <p class="subtitle" data-i18n="header.subtitle">Four family lines, from four continents — every ancestor traced to an original record.</p>
     </div>
     <button id="branch-chip" class="branch-chip header-branch-chip" type="button" hidden></button>
     <button id="header-help" class="header-help" type="button" data-i18n-aria="guide.button" data-i18n-title="guide.button" aria-label="Help" title="Help">?</button>
-    <button id="app-menu-button" class="brand-emblem" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="app-menu" data-i18n-aria="menu.button" aria-label="Menu: families, help, language">
+    <button id="home-button" class="brand-emblem" type="button" data-i18n-aria="header.start" data-i18n-title="header.start" aria-label="Choose your families" title="Choose your families">
       <svg viewBox="0 0 72 72" class="emblem" aria-hidden="true" focusable="false">
         <circle cx="36" cy="36" r="32" fill="#fbf6ea"/>
         <circle cx="36" cy="36" r="32" fill="none" stroke="#a9843f" stroke-width="2"/>
@@ -60,7 +60,6 @@
         <path d="M36 13.4 l1.5 3.05 3.35.45 -2.45 2.35 .6 3.3 -2.95 -1.6 -2.95 1.6 .6 -3.3 -2.45 -2.35 3.35 -.45 z" fill="#c9a24b"/>
       </svg>
     </button>
-    <div id="app-menu" class="app-menu" role="menu" hidden></div>
   </header>
 
   <p id="visitor-welcome" class="visitor-welcome" aria-live="polite" hidden></p>

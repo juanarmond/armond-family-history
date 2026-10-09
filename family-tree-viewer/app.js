@@ -243,8 +243,8 @@ const elements = {
   branchBackdrop: document.querySelector("#branch-backdrop"),
   branchContent: document.querySelector("#branch-content"),
   tabs: [...document.querySelectorAll("#tabbar [data-tab]")],
-  appMenuButton: document.querySelector("#app-menu-button"),
-  appMenu: document.querySelector("#app-menu"),
+  homeButton: document.querySelector("#home-button"),
+  titleButton: document.querySelector("#title-button"),
   detailsBack: document.querySelector("#details-back"),
   headerHelp: document.querySelector("#header-help"),
 };
@@ -890,17 +890,10 @@ function renderSearchResults(query) {
     item.setAttribute("role", "option");
     const name = document.createElement("span");
     name.className = "search-result-name";
-    name.textContent = person.name;
+    appendNameWithFlag(name, person.name, nationalityFlag(person.nationality));
     item.append(name);
-    const tags = branchTags(person.id);
-    if (tags) item.append(tags);
-    const years = person.privacy === "living" ? "" : lifespan(person);
-    if (years) {
-      const meta = document.createElement("span");
-      meta.className = "search-result-meta";
-      meta.textContent = years;
-      item.append(meta);
-    }
+    const subline = personSubline(person.privacy === "living" ? "" : lifespan(person), branchTags(person.id));
+    if (subline) item.append(subline);
     item.addEventListener("click", () => selectSearchResult(person.id));
     box.append(item);
   }
@@ -3128,9 +3121,41 @@ function closeDetails() {
 const MOBILE_QUERY = window.matchMedia("(max-width: 700px)");
 const isMobile = () => MOBILE_QUERY.matches;
 
-// One tappable relation row. Rows for a modelled person we can re-centre on are
-// buttons; documented-only relations (no entity) are inert. options.tags adds the person's
-// branch tags; options.colour draws that branch's colour down the row's edge.
+// A name with its flag kept on the same line as the last word, so a long name wraps but the
+// flag never drops onto a line of its own.
+function appendNameWithFlag(container, name, flag) {
+  if (!flag) {
+    container.append(name);
+    return;
+  }
+  const words = String(name).split(" ");
+  const last = words.pop();
+  if (words.length) container.append(`${words.join(" ")} `);
+  const tail = document.createElement("span");
+  tail.className = "name-tail";
+  tail.append(last, " ", flag);
+  container.append(tail);
+}
+
+// The second line of a person row: years, then the family tag, small and muted.
+function personSubline(text, tags) {
+  if (!text && !tags) return null;
+  const line = document.createElement("span");
+  line.className = "person-subline";
+  if (text) {
+    const years = document.createElement("span");
+    years.className = "person-subline-years";
+    years.textContent = text;
+    line.append(years);
+  }
+  if (tags) line.append(tags);
+  return line;
+}
+
+// One tappable relation row: the name across the full width (flag attached), and beneath it
+// the years and family tag, like a contacts list. Rows for a modelled person we can re-centre
+// on are buttons; documented-only relations (no entity) are inert. options.tags adds the
+// person's branch tags; options.colour draws that branch's colour down the row's edge.
 function mobileRelationRow(id, name, meta, options = {}) {
   const target = id && state.data.people[id];
   const row = document.createElement(target ? "button" : "div");
@@ -3140,21 +3165,15 @@ function mobileRelationRow(id, name, meta, options = {}) {
     row.type = "button";
     row.addEventListener("click", () => focusPerson(id));
   }
+  const main = document.createElement("span");
+  main.className = "mobile-row-main";
   const label = document.createElement("span");
   label.className = "mobile-row-name";
-  label.textContent = name;
-  const flag = target ? nationalityFlag(target.nationality) : null;
-  if (flag) label.append(" ", flag);
-  row.append(label);
-  const detail = target ? lifespan(target) : meta;
-  if (detail) {
-    const m = document.createElement("span");
-    m.className = "mobile-row-meta";
-    m.textContent = detail;
-    row.append(m);
-  }
-  const tags = options.tags && target ? branchTags(id) : null;
-  if (tags) row.append(tags);
+  appendNameWithFlag(label, name, target ? nationalityFlag(target.nationality) : null);
+  main.append(label);
+  const subline = personSubline(target ? lifespan(target) : meta, options.tags && target ? branchTags(id) : null);
+  if (subline) main.append(subline);
+  row.append(main);
   if (target) {
     const chevron = document.createElement("span");
     chevron.className = "mobile-row-chevron";
@@ -3596,6 +3615,7 @@ function renderBranchPanel() {
   lede.className = "branch-lede";
   lede.textContent = welcome ? t("branch.welcomeLede") : t("branch.sheetLede");
   head.append(title, lede);
+  if (welcome) head.prepend(languageSwitch());
   panel.append(head);
 
   panel.append(branchOption("all", t("branch.everything"), t("branch.everythingSub", { n: total }), allKeys, branchDraft.size === 0));
@@ -3651,6 +3671,20 @@ function renderBranchPanel() {
     hint.className = "branch-hint";
     hint.textContent = t("branch.welcomeHint");
     footer.append(cta, hint);
+    // Android offers an install prompt; iPhone users get the steps in the guide instead.
+    if (deferredInstallPrompt) {
+      const install = document.createElement("button");
+      install.type = "button";
+      install.className = "branch-install";
+      install.textContent = `📲 ${t("install.fab")}`;
+      install.addEventListener("click", async () => {
+        if (!deferredInstallPrompt) return;
+        await deferredInstallPrompt.prompt();
+        deferredInstallPrompt = null;
+        install.remove();
+      });
+      footer.append(install);
+    }
   } else {
     const share = document.createElement("div");
     share.className = "branch-share";
@@ -3695,9 +3729,26 @@ function renderBranchPanel() {
   panel.append(footer);
 }
 
+// EN | PT at the top of the family question, so the language is set before anything else.
+function languageSwitch() {
+  const group = document.createElement("div");
+  group.className = "segmented branch-lang";
+  group.setAttribute("role", "group");
+  group.setAttribute("aria-label", t("control.language"));
+  for (const [code, label] of [["en", "EN"], ["pt-BR", "PT"]]) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = label;
+    button.lang = code;
+    button.setAttribute("aria-pressed", String(state.locale === code));
+    button.addEventListener("click", () => setLocale(code));
+    group.append(button);
+  }
+  return group;
+}
+
 function openBranchPanel(mode = "switch") {
   if (!state.branches || !elements.branchPanel) return;
-  closeAppMenu();
   branchPanelMode = mode;
   branchDraft = new Set(state.scope);
   if (!elements.branchPanel.contains(document.activeElement)) lastFocused = document.activeElement;
@@ -3765,60 +3816,6 @@ function openTab(name) {
     else showHome();
   }
   syncTabbar();
-}
-
-// ---------- Emblem menu ----------
-// The emblem opens a small menu: families, help, language and "Add to Home Screen" — the
-// rarely used controls that floated over the page before the tab bar.
-function closeAppMenu() {
-  if (!elements.appMenu || elements.appMenu.hidden) return;
-  elements.appMenu.hidden = true;
-  elements.appMenuButton?.setAttribute("aria-expanded", "false");
-}
-
-function renderAppMenu() {
-  const menu = elements.appMenu;
-  menu.replaceChildren();
-  const item = (label, action) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "app-menu-item";
-    button.setAttribute("role", "menuitem");
-    button.textContent = label;
-    button.addEventListener("click", () => { closeAppMenu(); action(); });
-    menu.append(button);
-  };
-  if (state.branches) item(t("menu.families"), () => openBranchPanel("switch"));
-  item(t("menu.help"), () => openGuide("nav"));
-  const languages = document.createElement("div");
-  languages.className = "app-menu-languages";
-  languages.setAttribute("role", "group");
-  languages.setAttribute("aria-label", t("control.language"));
-  for (const [code, label] of [["en", "English"], ["pt-BR", "Português"]]) {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.textContent = label;
-    button.setAttribute("aria-pressed", String(state.locale === code));
-    button.addEventListener("click", () => { closeAppMenu(); setLocale(code); });
-    languages.append(button);
-  }
-  menu.append(languages);
-  if (deferredInstallPrompt) {
-    item(t("install.fab"), async () => {
-      if (!deferredInstallPrompt) return;
-      await deferredInstallPrompt.prompt();
-      deferredInstallPrompt = null;
-    });
-  }
-}
-
-function toggleAppMenu() {
-  if (!elements.appMenu) return;
-  if (!elements.appMenu.hidden) { closeAppMenu(); return; }
-  renderAppMenu();
-  elements.appMenu.hidden = false;
-  elements.appMenuButton.setAttribute("aria-expanded", "true");
-  elements.appMenu.querySelector("button")?.focus();
 }
 
 function bindEvents() {
@@ -3947,10 +3944,10 @@ function bindEvents() {
   if (elements.branchBackdrop) elements.branchBackdrop.addEventListener("click", closeBranchPanel);
   for (const tab of elements.tabs) tab.addEventListener("click", () => openTab(tab.dataset.tab));
   if (!ASSISTANT_API) elements.tabs.filter((tab) => tab.dataset.tab === "assistant").forEach((tab) => { tab.hidden = true; });
-  if (elements.appMenuButton) elements.appMenuButton.addEventListener("click", (event) => { event.stopPropagation(); toggleAppMenu(); });
-  document.addEventListener("click", (event) => {
-    if (elements.appMenu && !elements.appMenu.hidden && !elements.appMenu.contains(event.target)) closeAppMenu();
-  });
+  // The logo and the title go back to the start: the "Which family?" question.
+  for (const button of [elements.homeButton, elements.titleButton]) {
+    if (button) button.addEventListener("click", () => openBranchPanel("welcome"));
+  }
   if (elements.detailsBack) elements.detailsBack.addEventListener("click", closeDetails);
   // A tap on the results list must not blur the box (which would close the list first).
   if (elements.searchResults) elements.searchResults.addEventListener("mousedown", (event) => event.preventDefault());
@@ -4015,7 +4012,6 @@ function bindEvents() {
   if (elements.guideBackdrop) elements.guideBackdrop.addEventListener("click", closeGuide);
   document.addEventListener("keydown", (event) => {
     if (event.key !== "Escape") return;
-    if (elements.appMenu && !elements.appMenu.hidden) { closeAppMenu(); elements.appMenuButton?.focus(); return; }
     // The guide layers on top — Escape closes it first, leaving the panel beneath open.
     if (elements.guidePanel && !elements.guidePanel.hidden) { closeGuide(); return; }
     if (elements.branchPanel && !elements.branchPanel.hidden) { closeBranchPanel(); return; }

@@ -190,9 +190,9 @@ await click(".tab[data-tab=family]", 500);
 await click("#branch-chip");
 await shot("18-families-sheet");
 await click(".branch-panel .branch-cta", 400);
-await click("#app-menu-button", 500);
-await shot("19-menu");
-await evaluate("document.body.click()");
+await click("#home-button", 800);
+await shot("19-start-again");
+await click(".branch-panel .branch-cta", 600);
 await click("#header-help", 800);
 await shot("20-help");
 
