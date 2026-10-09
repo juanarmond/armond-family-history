@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Concept mockup — family branches and phone layout (Quatro Rios)</title>
+<style>
+  :root {
+    --paper: #f1e8d5; --paper-2: #ece1ca; --card: #fbf6ea; --card-2: #f6efdd;
+    --ink: #29241a; --ink-2: #4c4535; --muted: #857a63; --faint: #a99d84;
+    --rule: #ddd0b2; --rule-strong: #cabf9c;
+    --green: #2f5d43; --green-deep: #234833; --green-soft: #e6efe6;
+    --gold: #a9843f; --gold-soft: #f0e6cc; --badge: #b3412f;
+    --radius-sm: 5px; --radius: 7px; --radius-lg: 11px;
+    --shadow-sm: 0 1px 2px rgba(58,45,20,.08), 0 3px 10px rgba(58,45,20,.07);
+    --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+    --sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    /* One colour per river (proposed), kept clear of the evidence colours. */
+    --b-armond: #2f5d43; --b-engracio: #b07d2b; --b-muniz: #3d6b8c; --b-bohrer: #8c4a5a; --b-all: #4c4535;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #2b2820; font-family: var(--sans); color: var(--ink); }
+  button { font: inherit; color: inherit; }
+
+  /* ---------- presentation page ---------- */
+  .page-head { max-width: 1680px; margin: 0 auto; padding: 28px 32px 8px; color: #efe6d2; display: flex; gap: 24px; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; }
+  .page-head h1 { font-family: var(--serif); font-weight: 600; margin: 0 0 6px; font-size: 1.6rem; }
+  .page-head p { margin: 0; color: #c8bea6; max-width: 78ch; line-height: 1.45; font-size: .95rem; }
+  .lang { display: inline-flex; border: 1px solid #6d6450; border-radius: 999px; overflow: hidden; }
+  .lang button { background: none; border: 0; color: #c8bea6; padding: 6px 14px; cursor: pointer; font-size: .85rem; }
+  .lang button[aria-pressed="true"] { background: #efe6d2; color: var(--ink); }
+  .screens { max-width: 1680px; margin: 0 auto; padding: 18px 32px 48px; display: flex; gap: 30px 30px; flex-wrap: wrap; justify-content: center; }
+  figure { margin: 0; width: 375px; }
+  figcaption { color: #efe6d2; font-weight: 600; margin: 0 0 10px; font-size: .95rem; }
+  figcaption span { color: #a99d84; font-weight: 400; }
+  .note { color: #c8bea6; font-size: .84rem; line-height: 1.5; margin: 12px 2px 0; }
+  .note b { color: #efe6d2; font-weight: 600; }
+
+  /* ---------- phone frame ---------- */
+  .phone { position: relative; width: 375px; height: 790px; border-radius: 44px; border: 11px solid #15130e; background: var(--paper); overflow: hidden; box-shadow: 0 30px 60px -20px rgba(0,0,0,.6); }
+  .statusbar { height: 40px; display: flex; align-items: center; justify-content: space-between; padding: 6px 26px 0; font-size: .8rem; font-weight: 600; }
+  .statusbar .notch { width: 110px; height: 26px; background: #15130e; border-radius: 0 0 16px 16px; position: absolute; left: 50%; top: 0; transform: translateX(-50%); }
+  .screen { position: absolute; inset: 40px 0 0; overflow-y: auto; scrollbar-width: none; }
+  .screen::-webkit-scrollbar { display: none; }
+  .has-tabs .screen { bottom: 74px; }
+
+  /* ---------- app chrome ---------- */
+  .appbar { display: flex; align-items: center; gap: 9px; padding: 8px 16px 10px; border-bottom: 1px solid var(--rule); background: var(--card); position: sticky; top: 0; z-index: 2; }
+  .appbar img { width: 30px; height: 30px; }
+  .round-help { width: 30px; height: 30px; flex: none; border: 1px solid var(--rule-strong); border-radius: 50%; display: grid; place-items: center; font-weight: 700; font-size: .85rem; color: var(--green-deep); background: #fffdf6; }
+  .appbar .brand { font-family: var(--serif); font-weight: 600; font-size: 1.02rem; color: var(--green-deep); flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+  .branch-chip { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--rule-strong); background: var(--card-2); border-radius: 999px; padding: 5px 10px 5px 8px; font-size: .8rem; font-weight: 600; color: var(--ink-2); cursor: pointer; }
+  .dots { display: inline-flex; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--b); display: inline-block; border: 1.5px solid var(--card-2); flex: none; }
+  .dots .dot + .dot { margin-left: -4px; }
+  .caret { font-size: .7rem; color: var(--muted); }
+
+  .tabbar { position: absolute; left: 0; right: 0; bottom: 0; height: 74px; background: var(--card); border-top: 1px solid var(--rule); display: grid; grid-template-columns: repeat(4, 1fr); padding: 7px 6px 18px; z-index: 3; }
+  .tab { display: grid; justify-items: center; align-content: start; gap: 3px; font-size: .68rem; font-weight: 600; color: var(--muted); position: relative; }
+  .tab svg { width: 23px; height: 23px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+  .tab.on { color: var(--green); }
+  .tab .badge { position: absolute; top: -3px; left: calc(50% + 5px); min-width: 17px; height: 17px; border-radius: 999px; background: var(--badge); color: #fff; font-size: .64rem; font-weight: 700; display: grid; place-items: center; padding: 0 4px; border: 2px solid var(--card); }
+
+  .pad { padding: 16px 16px 24px; }
+  h2.q { font-family: var(--serif); font-weight: 600; font-size: 1.4rem; line-height: 1.2; margin: 6px 0 6px; color: var(--ink); }
+  h2.title { font-family: var(--serif); font-weight: 600; font-size: 1.35rem; margin: 2px 0 10px; }
+  .lede { color: var(--muted); margin: 0 0 12px; font-size: .9rem; line-height: 1.45; }
+  .group-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin: 12px 2px 7px; }
+  .group-head h3 { margin: 0; font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+  .group-head h3 em { font-style: normal; text-transform: none; letter-spacing: 0; font-weight: 500; font-size: .8rem; margin-left: 4px; }
+  .link { background: none; border: 0; padding: 0; color: var(--green); font-weight: 600; font-size: .82rem; cursor: pointer; white-space: nowrap; }
+  .or { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: .78rem; margin: 14px 2px 0; }
+  .or::before, .or::after { content: ""; flex: 1; height: 1px; background: var(--rule-strong); }
+
+  .branch-card { position: relative; display: flex; gap: 12px; width: 100%; text-align: left; background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-lg); padding: 10px 12px 10px 18px; margin-bottom: 8px; cursor: pointer; box-shadow: var(--shadow-sm); overflow: hidden; }
+  .branch-card .stripe { position: absolute; left: 0; top: 0; bottom: 0; width: 6px; background: var(--b); }
+  .branch-card[aria-pressed="true"] { border-color: var(--b); background: color-mix(in srgb, var(--b) 7%, var(--card)); box-shadow: 0 0 0 1.5px var(--b), var(--shadow-sm); }
+  .bc-body { flex: 1; display: grid; gap: 3px; }
+  .bc-title { font-family: var(--serif); font-size: 1.1rem; font-weight: 600; color: var(--ink); }
+  .bc-sub { font-size: .8rem; color: var(--muted); }
+  .bc-surnames { font-size: .8rem; color: var(--b); font-weight: 600; }
+  .check { width: 24px; height: 24px; flex: none; border-radius: 50%; border: 1.5px solid var(--rule-strong); align-self: center; display: grid; place-items: center; color: #fff; font-size: .8rem; }
+  [aria-pressed="true"] > .check { background: var(--b); border-color: var(--b); }
+  [aria-pressed="true"] > .check::after { content: "✓"; font-weight: 700; }
+  .everything { --b: var(--b-all); padding: 14px 12px 14px 18px; }
+  .everything .stripe { background: linear-gradient(var(--b-armond) 0 25%, var(--b-engracio) 25% 50%, var(--b-muniz) 50% 75%, var(--b-bohrer) 75%); }
+  .everything .bc-title { font-size: 1.22rem; }
+  .four-dots { display: inline-flex; gap: 4px; margin-top: 2px; }
+  .four-dots .dot { border: 0; }
+
+  .cta-bar { position: sticky; bottom: 0; padding: 12px 16px 22px; background: linear-gradient(to bottom, rgba(241,232,213,0), var(--paper) 30%); }
+  .cta { width: 100%; border: 0; border-radius: 999px; background: var(--green); color: #fff; padding: 14px 16px; font-weight: 700; font-size: .95rem; cursor: pointer; }
+  .cta-hint { text-align: center; color: var(--muted); font-size: .76rem; margin: 8px 0 0; }
+
+  .search { display: flex; align-items: center; gap: 8px; background: var(--card); border: 1px solid var(--rule-strong); border-radius: var(--radius-lg); padding: 10px 12px; color: var(--muted); font-size: .92rem; }
+  .search .typed { color: var(--ink); flex: 1; }
+  .search .x { color: var(--muted); }
+  .section-label { margin: 18px 2px 8px; font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+  .couple { background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); overflow: hidden; }
+  .couple .row { display: flex; gap: 10px; align-items: center; padding: 11px 12px 11px 0; }
+  .couple .row + .row { border-top: 1px solid var(--rule); }
+  .couple .bar { width: 6px; align-self: stretch; background: var(--b); }
+  .couple .grow { flex: 1; }
+  .couple .married { font-size: .76rem; color: var(--muted); padding: 6px 12px 9px 16px; border-top: 1px solid var(--rule); background: var(--card-2); }
+  .pname { font-family: var(--serif); font-weight: 600; font-size: 1.02rem; }
+  .pyears { font-size: .8rem; color: var(--muted); }
+  .rel { display: flex; align-items: center; gap: 10px; background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius); padding: 9px 12px; margin-bottom: 6px; }
+  .rel .grow { flex: 1; display: grid; gap: 1px; }
+  .rel .pname { font-size: .95rem; }
+  .chev { color: var(--faint); }
+  .tag { font-size: .7rem; font-weight: 700; color: var(--b); border: 1px solid color-mix(in srgb, var(--b) 40%, transparent); border-radius: 999px; padding: 1px 7px; white-space: nowrap; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { border: 1px solid var(--rule-strong); background: var(--card); border-radius: 999px; padding: 5px 10px; font-size: .8rem; color: var(--ink-2); }
+  .chip b { color: var(--muted); font-weight: 600; margin-left: 3px; }
+  .chip.more { color: var(--green); font-weight: 600; border-color: var(--green); }
+  .full-tree { display: block; width: 100%; margin-top: 14px; border: 1px solid var(--green); color: var(--green); background: transparent; border-radius: 999px; padding: 11px; font-weight: 700; font-size: .88rem; }
+
+  .seg { display: grid; grid-template-columns: 1fr 1fr; background: var(--paper-2); border-radius: 999px; padding: 3px; margin: 12px 0 4px; }
+  .seg button { border: 0; background: none; border-radius: 999px; padding: 7px 8px; font-size: .82rem; font-weight: 600; color: var(--muted); cursor: pointer; }
+  .seg button[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: var(--shadow-sm); }
+  .result-count { font-size: .78rem; color: var(--muted); margin: 10px 2px 8px; }
+  .more-elsewhere { margin-top: 10px; background: var(--card-2); border: 1px dashed var(--rule-strong); border-radius: var(--radius); padding: 11px 12px; font-size: .84rem; color: var(--ink-2); line-height: 1.4; }
+
+  .notify { display: flex; align-items: center; gap: 10px; background: var(--green-soft); border: 1px solid color-mix(in srgb, var(--green) 25%, transparent); border-radius: var(--radius); padding: 9px 12px; font-size: .8rem; color: var(--green-deep); }
+  .notify span { flex: 1; }
+  .news { background: var(--card); border: 1px solid var(--rule); border-left: 4px solid var(--gold); border-radius: var(--radius); padding: 9px 12px; margin-bottom: 7px; font-size: .84rem; line-height: 1.4; }
+  .news.correction { border-left-color: #a4483c; }
+  .news .meta { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; font-size: .72rem; color: var(--muted); margin-bottom: 3px; }
+  .news .new { background: var(--badge); color: #fff; border-radius: 999px; padding: 0 6px; font-weight: 700; font-size: .64rem; letter-spacing: .03em; }
+  .news .text { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+  .toc a { display: flex; gap: 10px; align-items: stretch; text-decoration: none; color: var(--ink); background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius); margin-bottom: 6px; overflow: hidden; }
+  .toc .bar { width: 5px; background: var(--b, var(--rule-strong)); flex: none; }
+  .toc .txt { padding: 9px 10px 9px 0; display: grid; gap: 2px; flex: 1; }
+  .toc .k { font-size: .66rem; letter-spacing: .08em; text-transform: uppercase; color: var(--b, var(--muted)); font-weight: 700; }
+  .toc .h { font-family: var(--serif); font-size: .93rem; line-height: 1.3; }
+  .toc .faded a { opacity: .62; }
+  .toc details summary { list-style: none; cursor: pointer; color: var(--green); font-weight: 600; font-size: .82rem; margin: 12px 2px 8px; }
+  .toc details summary::-webkit-details-marker { display: none; }
+
+  .dim { position: absolute; inset: 0; background: rgba(30,25,15,.45); z-index: 4; }
+  .sheet { position: absolute; left: 0; right: 0; bottom: 0; background: var(--card); border-radius: 18px 18px 0 0; padding: 8px 16px 22px; box-shadow: 0 -10px 30px rgba(0,0,0,.25); z-index: 5; }
+  .handle { width: 38px; height: 5px; border-radius: 3px; background: var(--rule-strong); margin: 4px auto 10px; }
+  .sheet h3 { font-family: var(--serif); margin: 0 0 2px; font-size: 1.15rem; }
+  .sheet .sub { color: var(--muted); font-size: .8rem; margin: 0 0 4px; }
+  .toggle-row { display: flex; align-items: center; gap: 10px; width: 100%; background: none; border: 0; border-bottom: 1px solid var(--rule); padding: 9px 2px; text-align: left; cursor: pointer; }
+  .toggle-row .grow { flex: 1; display: grid; }
+  .toggle-row .t { font-weight: 600; font-size: .92rem; }
+  .toggle-row .s { font-size: .74rem; color: var(--muted); }
+  .switch { width: 42px; height: 25px; border-radius: 999px; background: var(--rule-strong); position: relative; flex: none; transition: background .15s; }
+  .switch::after { content: ""; position: absolute; top: 3px; left: 3px; width: 19px; height: 19px; border-radius: 50%; background: #fff; transition: left .15s; box-shadow: 0 1px 2px rgba(0,0,0,.25); }
+  [aria-pressed="true"] .switch { background: var(--b); }
+  [aria-pressed="true"] .switch::after { left: 20px; }
+  .side-label { font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 700; margin: 10px 2px 0; }
+  .share { margin-top: 12px; background: var(--paper); border: 1px solid var(--rule); border-radius: var(--radius); padding: 10px 12px; }
+  .share .t { font-weight: 700; font-size: .86rem; }
+  .share code { display: block; font-size: .72rem; color: var(--ink-2); margin: 5px 0 8px; word-break: break-all; }
+  .share .row { display: flex; gap: 8px; }
+  .share button { flex: 1; border: 1px solid var(--green); background: none; color: var(--green); border-radius: 999px; padding: 7px; font-weight: 700; font-size: .8rem; }
+  .sheet .cta { margin-top: 12px; }
+
+  /* person page — copied from today's detail panel */
+  .dp-top { display: flex; align-items: center; gap: 8px; padding: 8px 14px; position: sticky; top: 0; background: var(--card); z-index: 2; border-bottom: 1px solid var(--rule); }
+  .dp-back { flex: 1; color: var(--green); font-weight: 600; font-size: .9rem; }
+  .round { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--rule-strong); display: grid; place-items: center; color: var(--ink-2); font-size: .95rem; background: var(--card); }
+  .round svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+  .dp { padding: 14px 18px 24px; background: var(--card); min-height: 100%; font-family: var(--serif); }
+  .dp .eyebrow { font-family: var(--sans); font-size: .66rem; letter-spacing: .14em; color: var(--gold); font-weight: 700; }
+  .dp h2 { margin: 2px 0 2px; font-size: 1.75rem; font-weight: 600; line-height: 1.15; }
+  .dp .yrs { font-style: italic; color: var(--muted); font-size: 1rem; display: flex; align-items: center; gap: 8px; }
+  .dp .yrs .tag { font-style: normal; font-family: var(--sans); }
+  .dp .dbl { border: 0; border-top: 3px double var(--rule-strong); margin: 12px 0 0; }
+  .dp h4 { font-family: var(--sans); font-size: .66rem; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); margin: 16px 0 7px; font-weight: 700; }
+  .dp p { margin: 0; font-size: .93rem; line-height: 1.55; color: var(--ink); }
+  .dp .more { color: var(--gold); text-decoration: underline; font-size: .86rem; }
+  .dp hr { border: 0; border-top: 1px solid var(--rule); margin: 14px 0 0; }
+  .dp .ov { display: grid; grid-template-columns: 9.5rem 1fr; gap: 5px 8px; font-size: .9rem; }
+  .dp .ov dt { color: var(--muted); }
+  .dp .ov dd { margin: 0; }
+  .dp ul { margin: 0; padding-left: 1.1rem; font-size: .9rem; line-height: 1.5; }
+  .dp li::marker { color: var(--gold); }
+  .dp .path a { color: var(--green); }
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="i-family" viewBox="0 0 24 24"><path d="M12 21v-4H6v-4M12 17h6v-4M6 13V9M18 13V9"/><circle cx="6" cy="6.5" r="2.3"/><circle cx="18" cy="6.5" r="2.3"/><circle cx="12" cy="21" r=".6"/></symbol>
+  <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 10a6 6 0 1 1 12 0c0 5 2 6.5 2 6.5H4S6 15 6 10M10 19.5a2 2 0 0 0 4 0"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5zM4 20.5V5.5M20 18v3H6.5"/></symbol>
+  <symbol id="i-ask" viewBox="0 0 24 24"><path d="M12 3l1.9 4.8L18.7 9.7l-4.8 1.9L12 16.4l-1.9-4.8L5.3 9.7l4.8-1.9zM18.5 15.5l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></symbol>
+</svg>
+
+<header class="page-head">
+  <div>
+    <h1>Family branches and phone layout — concept mockup</h1>
+    <p>The interactive concept behind the shipped design (built 2026-10-09), kept in step with it: Everything first, the families chip and help (?) in the header, Ask AI only in the bottom bar. Names, counts, dates, What's new items and story chapters come from the data. Tap the cards and switches to try it; the EN/PT toggle switches the app text. For the real screens see <a href="mobile.html" style="color:#e3c98f">mobile</a> and <a href="desktop.html" style="color:#e3c98f">desktop</a>.</p>
+  </div>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-lang="en" aria-pressed="true">EN</button>
+    <button type="button" data-lang="pt" aria-pressed="false">PT</button>
+  </div>
+</header>
+
+<main class="screens">
+
+  <!-- 1 · FIRST VISIT -->
+  <figure>
+    <figcaption>1 · First visit <span>— Everything first</span></figcaption>
+    <div class="phone" data-picker data-initial="all">
+      <div class="statusbar"><span>9:41</span><span class="notch"></span><span>●●● ▮</span></div>
+      <div class="screen">
+        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span></div>
+        <div class="pad">
+          <h2 class="q" data-en="Which family are you exploring?" data-pt="Qual família você quer explorar?"></h2>
+          <p class="lede" data-en="See everything, or follow just one family. You can change it at any time." data-pt="Veja tudo ou siga só uma família. Dá para mudar quando quiser."></p>
+
+          <button class="branch-card everything" data-all aria-pressed="true">
+            <span class="stripe"></span>
+            <span class="bc-body">
+              <span class="bc-title" data-en="Everything" data-pt="Tudo"></span>
+              <span class="bc-sub" data-en="All four families · 130 people" data-pt="As quatro famílias · 130 pessoas"></span>
+              <span class="four-dots"><span class="dot" style="--b: var(--b-armond)"></span><span class="dot" style="--b: var(--b-engracio)"></span><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span>
+            </span>
+            <span class="check"></span>
+          </button>
+
+          <div class="or" data-en="or follow one family" data-pt="ou siga uma família"></div>
+
+          <div class="group-head"><h3><span data-en="Armond side" data-pt="Lado Armond"></span> <em data-en="Geraldo &amp; Cidalia" data-pt="Geraldo e Cidalia"></em></h3><button class="link" data-pair="armond,engracio" data-en="Select both" data-pt="Escolher os dois"></button></div>
+          <button class="branch-card" data-branch="armond" aria-pressed="false" style="--b: var(--b-armond)">
+            <span class="stripe"></span>
+            <span class="bc-body">
+              <span class="bc-title">Armond</span>
+              <span class="bc-sub" data-en="Geraldo Paz Armond · 41 people · since 1571" data-pt="Geraldo Paz Armond · 41 pessoas · desde 1571"></span>
+              <span class="bc-surnames">Toledo · Rodrigues · Cardoso · Costa</span>
+            </span>
+            <span class="check"></span>
+          </button>
+          <button class="branch-card" data-branch="engracio" aria-pressed="false" style="--b: var(--b-engracio)">
+            <span class="stripe"></span>
+            <span class="bc-body">
+              <span class="bc-title">Engracio</span>
+              <span class="bc-sub" data-en="Cidalia Engracio Guimarães · 11 people · since 1894" data-pt="Cidalia Engracio Guimarães · 11 pessoas · desde 1894"></span>
+              <span class="bc-surnames">Guimarães · Silva · Souza</span>
+            </span>
+            <span class="check"></span>
+          </button>
+
+          <div class="group-head"><h3><span data-en="Muniz side" data-pt="Lado Muniz"></span> <em data-en="Antenor &amp; Iris" data-pt="Antenor e Iris"></em></h3><button class="link" data-pair="muniz,bohrer" data-en="Select both" data-pt="Escolher os dois"></button></div>
+          <button class="branch-card" data-branch="muniz" aria-pressed="false" style="--b: var(--b-muniz)">
+            <span class="stripe"></span>
+            <span class="bc-body">
+              <span class="bc-title">Muniz</span>
+              <span class="bc-sub" data-en="Antenor Muniz · 23 people · since 1797" data-pt="Antenor Muniz · 23 pessoas · desde 1797"></span>
+              <span class="bc-surnames">Azevedo · Brandão · Bytancourt · Bittencourt</span>
+            </span>
+            <span class="check"></span>
+          </button>
+          <button class="branch-card" data-branch="bohrer" aria-pressed="false" style="--b: var(--b-bohrer)">
+            <span class="stripe"></span>
+            <span class="bc-body">
+              <span class="bc-title">Bohrer</span>
+              <span class="bc-sub" data-en="Iris Bohrer Muniz · 52 people · since 1751" data-pt="Iris Bohrer Muniz · 52 pessoas · desde 1751"></span>
+              <span class="bc-surnames">Eggendorn · Schenkel · Wehrli · Klein</span>
+            </span>
+            <span class="check"></span>
+          </button>
+        </div>
+        <div class="cta-bar">
+          <button class="cta" data-cta></button>
+          <p class="cta-hint" data-en="Saved on this phone. A shared link can pre-select a family." data-pt="Fica salvo neste celular. Um link compartilhado pode já vir com a família escolhida."></p>
+        </div>
+      </div>
+    </div>
+    <p class="note"><b>Everything is at the top and already selected</b>, so for you this screen is one tap: “Explore everything”. A cousin picks a side underneath, or uses <b>Select both</b> for their two grandparents. The screen shows only once. After that the choice is remembered, and a shared link skips it.</p>
+  </figure>
+
+  <!-- 2 · HOME, EVERYTHING -->
+  <figure>
+    <figcaption>2 · Home <span>— Everything (you)</span></figcaption>
+    <div class="phone has-tabs">
+      <div class="statusbar"><span>9:41</span><span class="notch"></span><span>●●● ▮</span></div>
+      <div class="screen">
+        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span>
+          <span class="branch-chip"><span class="dots"><span class="dot" style="--b: var(--b-armond)"></span><span class="dot" style="--b: var(--b-engracio)"></span><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span><span data-en="Everything" data-pt="Tudo"></span> <span class="caret">▾</span></span><span class="round-help">?</span></div>
+        <div class="pad">
+          <div class="search">⌕ <span data-en="Search everyone…" data-pt="Buscar em todos…"></span></div>
+
+          <div class="section-label" data-en="The four rivers" data-pt="Os quatro rios"></div>
+          <div class="couple">
+            <div class="row"><span class="bar" style="--b: var(--b-armond)"></span><span class="grow"><div class="pname">Geraldo Paz Armond</div><div class="pyears">1915 – 1991</div></span><span class="tag" style="--b: var(--b-armond)">Armond</span><span class="chev">›</span></div>
+            <div class="row"><span class="bar" style="--b: var(--b-engracio)"></span><span class="grow"><div class="pname">Cidalia Engracio Guimarães</div><div class="pyears">1930 – 2023</div></span><span class="tag" style="--b: var(--b-engracio)">Engracio</span><span class="chev">›</span></div>
+            <div class="row"><span class="bar" style="--b: var(--b-muniz)"></span><span class="grow"><div class="pname">Antenor Muniz</div><div class="pyears">1923 – 2014</div></span><span class="tag" style="--b: var(--b-muniz)">Muniz</span><span class="chev">›</span></div>
+            <div class="row"><span class="bar" style="--b: var(--b-bohrer)"></span><span class="grow"><div class="pname">Iris Bohrer Muniz</div><div class="pyears">1929 – 2021</div></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span><span class="chev">›</span></div>
+          </div>
+          <button class="full-tree" data-en="Browse the tree" data-pt="Navegar pela árvore"></button>
+
+          <div class="section-label" data-en="Browse by surname" data-pt="Navegar por sobrenome"></div>
+          <div class="chips">
+            <span class="chip">Bohrer / Borer<b>15</b></span>
+            <span class="chip">Ferreira<b>9</b></span>
+            <span class="chip">Silva<b>8</b></span>
+            <span class="chip">Muniz<b>6</b></span>
+            <span class="chip">Toledo<b>6</b></span>
+            <span class="chip">Armond<b>5</b></span>
+            <span class="chip more" data-en="A–Z ›" data-pt="A–Z ›"></span>
+          </div>
+        </div>
+      </div>
+      <nav class="tabbar">
+        <span class="tab on"><svg><use href="#i-family"/></svg><span data-en="Family" data-pt="Família"></span></span>
+        <span class="tab"><svg><use href="#i-bell"/></svg><span class="badge">3</span><span data-en="What's new" data-pt="Novidades"></span></span>
+        <span class="tab"><svg><use href="#i-book"/></svg><span data-en="Story" data-pt="História"></span></span>
+        <span class="tab"><svg><use href="#i-ask"/></svg><span data-en="Ask AI" data-pt="Perguntar"></span></span>
+      </nav>
+    </div>
+    <p class="note"><b>Your home.</b> It starts at the four grandparents, one tap into any river, and <b>Browse the tree</b> opens the person-by-person view. <b>The bar at the bottom</b> holds What’s new, the Story and Ask AI, always one thumb-tap away. The <b>3</b> counts the updates published since you last opened What’s new. Help is the <b>?</b> at the top right; families, language and “Add to Home Screen” are under the emblem at the top left.</p>
+  </figure>
+
+  <!-- 3 · HOME, MUNIZ + BOHRER -->
+  <figure>
+    <figcaption>3 · Home <span>— a cousin on Muniz + Bohrer</span></figcaption>
+    <div class="phone has-tabs">
+      <div class="statusbar"><span>9:41</span><span class="notch"></span><span>●●● ▮</span></div>
+      <div class="screen">
+        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span>
+          <span class="branch-chip"><span class="dots"><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span>Muniz + Bohrer <span class="caret">▾</span></span><span class="round-help">?</span></div>
+        <div class="pad">
+          <div class="search">⌕ <span data-en="Search Muniz + Bohrer…" data-pt="Buscar em Muniz + Bohrer…"></span></div>
+
+          <div class="section-label" data-en="Where these families meet" data-pt="Onde estas famílias se encontram"></div>
+          <div class="couple">
+            <div class="row"><span class="bar" style="--b: var(--b-muniz)"></span><span class="grow"><div class="pname">Antenor Muniz</div><div class="pyears">1923 – 2014</div></span><span class="chev">›</span></div>
+            <div class="row"><span class="bar" style="--b: var(--b-bohrer)"></span><span class="grow"><div class="pname">Iris Bohrer Muniz</div><div class="pyears">1929 – 2021</div></span><span class="chev">›</span></div>
+            <div class="married" data-en="Married 7 December 1949" data-pt="Casaram-se em 7 de dezembro de 1949"></div>
+          </div>
+
+          <div class="section-label" data-en="Their parents" data-pt="Os pais deles"></div>
+          <div class="rel"><span class="grow"><span class="pname">Deocleciano Muniz Bittencourt</span><span class="pyears" data-en="born 1892" data-pt="nasceu em 1892"></span></span><span class="tag" style="--b: var(--b-muniz)">Muniz</span><span class="chev">›</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Luiza Fernandes de Azevedo</span><span class="pyears" data-en="born about 1898" data-pt="nasceu por volta de 1898"></span></span><span class="tag" style="--b: var(--b-muniz)">Muniz</span><span class="chev">›</span></div>
+          <div class="rel"><span class="grow"><span class="pname">João Gonçalves Bohrer</span><span class="pyears">c.1894 – 1970</span></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span><span class="chev">›</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Celina Bohrer</span><span class="pyears">1899 – 1977</span></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span><span class="chev">›</span></div>
+
+          <div class="section-label" data-en="Browse by surname" data-pt="Navegar por sobrenome"></div>
+          <div class="chips">
+            <span class="chip">Bohrer / Borer<b>15</b></span>
+            <span class="chip">Muniz<b>6</b></span>
+            <span class="chip">Silva<b>4</b></span>
+            <span class="chip">Azevedo<b>3</b></span>
+            <span class="chip">Brandão<b>3</b></span>
+            <span class="chip">Schenkel<b>3</b></span>
+            <span class="chip more" data-en="A–Z ›" data-pt="A–Z ›"></span>
+          </div>
+          <button class="full-tree" data-en="Browse the tree" data-pt="Navegar pela árvore"></button>
+        </div>
+      </div>
+      <nav class="tabbar">
+        <span class="tab on"><svg><use href="#i-family"/></svg><span data-en="Family" data-pt="Família"></span></span>
+        <span class="tab"><svg><use href="#i-bell"/></svg><span class="badge">3</span><span data-en="What's new" data-pt="Novidades"></span></span>
+        <span class="tab"><svg><use href="#i-book"/></svg><span data-en="Story" data-pt="História"></span></span>
+        <span class="tab"><svg><use href="#i-ask"/></svg><span data-en="Ask AI" data-pt="Perguntar"></span></span>
+      </nav>
+    </div>
+    <p class="note"><b>Same layout, narrowed.</b> The header chip shows the choice and opens screen 7. The home starts where the chosen families meet, so the living owner and parents never fill a cousin’s screen. Search, surnames, the tree, What’s new and the Story all follow the choice.</p>
+  </figure>
+
+  <!-- 4 · SEARCH -->
+  <figure>
+    <figcaption>4 · Search <span>— inside the families, with a way out</span></figcaption>
+    <div class="phone has-tabs">
+      <div class="statusbar"><span>9:41</span><span class="notch"></span><span>●●● ▮</span></div>
+      <div class="screen">
+        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span>
+          <span class="branch-chip"><span class="dots"><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span>Muniz + Bohrer <span class="caret">▾</span></span><span class="round-help">?</span></div>
+        <div class="pad">
+          <div class="search">⌕ <span class="typed">Maria</span><span class="x">✕</span></div>
+          <div class="seg" role="group">
+            <button aria-pressed="true" data-en="These families · 16" data-pt="Estas famílias · 16"></button>
+            <button aria-pressed="false" data-en="Everyone · 28" data-pt="Todos · 28"></button>
+          </div>
+          <div class="result-count" data-en="16 people named Maria in Muniz + Bohrer" data-pt="16 pessoas chamadas Maria em Muniz + Bohrer"></div>
+          <div class="rel"><span class="grow"><span class="pname">Anna Maria</span></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Anna Maria Borer</span></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Anna Maria Werhly</span></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Ignacia Maria de Jesus</span></span><span class="tag" style="--b: var(--b-muniz)">Muniz</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Angelica</span></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria de Mendonça</span></span><span class="tag" style="--b: var(--b-muniz)">Muniz</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Eugenia</span></span><span class="tag" style="--b: var(--b-muniz)">Muniz</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Freese</span></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Heggendorn</span></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Jacintha de Medeiros</span></span><span class="tag" style="--b: var(--b-muniz)">Muniz</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Joanna da Silva Ferreira</span></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Luiza Schenkel</span></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Luiza Stoffel</span></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Lutz</span></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Thereza de Jesus</span></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Maria Weiss</span></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div>
+          <div class="more-elsewhere" data-en="<b>12 more in other families</b> — <a href='#'>show</a>" data-pt="<b>Mais 12 em outras famílias</b> — <a href='#'>mostrar</a>"></div>
+        </div>
+      </div>
+      <nav class="tabbar">
+        <span class="tab on"><svg><use href="#i-family"/></svg><span data-en="Family" data-pt="Família"></span></span>
+        <span class="tab"><svg><use href="#i-bell"/></svg><span class="badge">3</span><span data-en="What's new" data-pt="Novidades"></span></span>
+        <span class="tab"><svg><use href="#i-book"/></svg><span data-en="Story" data-pt="História"></span></span>
+        <span class="tab"><svg><use href="#i-ask"/></svg><span data-en="Ask AI" data-pt="Perguntar"></span></span>
+      </nav>
+    </div>
+    <p class="note"><b>Search stays inside the chosen families</b>, and it always says how many matches are elsewhere, so nobody thinks a person is missing. With Everything chosen (you), there is no switch: search covers everyone, as it does today.</p>
+  </figure>
+
+  <!-- 5 · WHAT'S NEW TAB -->
+  <figure>
+    <figcaption>5 · What’s new tab <span>— notifications live here</span></figcaption>
+    <div class="phone has-tabs">
+      <div class="statusbar"><span>9:41</span><span class="notch"></span><span>●●● ▮</span></div>
+      <div class="screen">
+        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span>
+          <span class="branch-chip"><span class="dots"><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span>Muniz + Bohrer <span class="caret">▾</span></span><span class="round-help">?</span></div>
+        <div class="pad">
+          <h2 class="title" data-en="What's new" data-pt="Novidades"></h2>
+          <div class="notify"><span data-en="🔔 Notifications are on for this device." data-pt="🔔 As notificações estão ativas neste aparelho."></span><button class="link" data-en="Turn off" data-pt="Desativar"></button></div>
+          <div class="seg" role="group">
+            <button aria-pressed="true" data-en="These families · 99" data-pt="Estas famílias · 99"></button>
+            <button aria-pressed="false" data-en="Everything · 167" data-pt="Tudo · 167"></button>
+          </div>
+          <div class="news correction"><div class="meta"><span class="new" data-en="NEW" data-pt="NOVO"></span><span data-en="8 Oct 2026 · correction" data-pt="8 out 2026 · correção"></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div><div class="text" data-en="Correction: Celina Bohrer died on 19 February 1977 and was recorded as a doméstica — an earlier edit had changed her death to the 15th and her work to seamstress" data-pt="Correção: Celina Bohrer morreu em 19 de fevereiro de 1977 e foi registrada como doméstica — uma edição anterior tinha mudado o óbito para o dia 15 e o ofício para costureira"></div></div>
+          <div class="news correction"><div class="meta"><span class="new" data-en="NEW" data-pt="NOVO"></span><span data-en="8 Oct 2026 · correction" data-pt="8 out 2026 · correção"></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div><div class="text" data-en="Correction: Valentim Martinho Bohrer was baptised on Christmas Day 1868, not in November" data-pt="Correção: Valentim Martinho Bohrer foi batizado no dia de Natal de 1868, não em novembro"></div></div>
+          <div class="news"><div class="meta"><span class="new" data-en="NEW" data-pt="NOVO"></span><span data-en="8 Oct 2026 · new record" data-pt="8 out 2026 · novo registro"></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div><div class="text" data-en="A birth entry nobody had read: in October 1891 Jacob Klein declared a son, Antonio Ramos — proof that he and Maria Luiza Schenkel were both alive then, and that his own parents had died" data-pt="Um termo de nascimento que ninguém tinha lido: em outubro de 1891 Jacob Klein declarou um filho, Antonio Ramos — prova de que ele e Maria Luiza Schenkel estavam vivos então e de que os pais dele já tinham morrido"></div></div>
+          <div class="news"><div class="meta"><span data-en="8 Oct 2026 · milestone" data-pt="8 out 2026 · marco"></span><span class="tag" style="--b: var(--b-armond)">Armond</span><span class="tag" style="--b: var(--b-engracio)">Engracio</span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div><div class="text" data-en="Names no longer hidden: relatives earlier withheld as “possibly living” — José Olavo’s bride, the son who reported Antonio Engracio Filho’s death, the wives of João and Ercy Bohrer and others — are now transcribed from the records" data-pt="Nomes não mais ocultos: parentes antes omitidos como “possivelmente vivos” — a noiva de José Olavo, o filho que declarou a morte de Antonio Engracio Filho, as esposas de João e Ercy Bohrer e outros — agora transcritos dos registros"></div></div>
+          <div class="news"><div class="meta"><span data-en="24 Sep 2026 · milestone" data-pt="24 set 2026 · marco"></span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div><div class="text" data-en="Two unrelated Borer families crossed on the same 1819 ship and settled adjacent lots" data-pt="Duas famílias Borer sem parentesco atravessaram no mesmo navio de 1819 e se estabeleceram em lotes vizinhos"></div></div>
+        </div>
+      </div>
+      <nav class="tabbar">
+        <span class="tab"><svg><use href="#i-family"/></svg><span data-en="Family" data-pt="Família"></span></span>
+        <span class="tab on"><svg><use href="#i-bell"/></svg><span data-en="What's new" data-pt="Novidades"></span></span>
+        <span class="tab"><svg><use href="#i-book"/></svg><span data-en="Story" data-pt="História"></span></span>
+        <span class="tab"><svg><use href="#i-ask"/></svg><span data-en="Ask AI" data-pt="Perguntar"></span></span>
+      </nav>
+    </div>
+    <p class="note"><b>What’s new becomes a tab.</b> The notification switch you already have sits at the top, unchanged, and tapping a notification opens this tab. Opening it clears the badge, and the unseen items are marked <b>NEW</b>. A cousin sees their families’ news first (99 of the 167 entries, documents included), with Everything one tap away. For you it shows everything, as today.</p>
+  </figure>
+
+  <!-- 6 · STORY TAB -->
+  <figure>
+    <figcaption>6 · Story tab <span>— their rivers first</span></figcaption>
+    <div class="phone has-tabs">
+      <div class="statusbar"><span>9:41</span><span class="notch"></span><span>●●● ▮</span></div>
+      <div class="screen">
+        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span>
+          <span class="branch-chip"><span class="dots"><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span>Muniz + Bohrer <span class="caret">▾</span></span><span class="round-help">?</span></div>
+        <div class="pad">
+          <h2 class="title" data-en="Family Story" data-pt="História da Família"></h2>
+          <p class="lede" data-en="Your families’ chapters first. The whole story is always here." data-pt="Os capítulos das suas famílias primeiro. A história inteira continua aqui."></p>
+          <div class="toc">
+            <a href="#"><span class="bar"></span><span class="txt"><span class="k" data-en="Prologue" data-pt="Prólogo"></span><span class="h" data-en="The arithmetic of a single person" data-pt="A aritmética de uma única pessoa"></span></span></a>
+            <a href="#" style="--b: var(--b-muniz)"><span class="bar"></span><span class="txt"><span class="k" data-en="River Three · Antenor Muniz" data-pt="Rio Três · Antenor Muniz"></span><span class="h" data-en="The Muniz, out of the Azorean sea and the class floor" data-pt="Os Muniz, saídos do mar açoriano e do piso da escala social"></span></span></a>
+            <a href="#" style="--b: var(--b-bohrer)"><span class="bar"></span><span class="txt"><span class="k" data-en="River Four · Iris Bohrer" data-pt="Rio Quatro · Iris Bohrer"></span><span class="h" data-en="The Bohrer, out of Switzerland and Germany" data-pt="Os Bohrer, saídos da Suíça e da Alemanha"></span></span></a>
+            <a href="#"><span class="bar"></span><span class="txt"><span class="k" data-en="The Confluence" data-pt="A Confluência"></span><span class="h" data-en="Where four rivers become one family" data-pt="Onde quatro rios se tornam uma família"></span></span></a>
+            <a href="#"><span class="bar"></span><span class="txt"><span class="k" data-en="The Meaning" data-pt="O Significado"></span><span class="h" data-en="Why it had to be a convergence, not a lineage" data-pt="Por que teve de ser uma convergência, não uma linhagem"></span></span></a>
+            <a href="#"><span class="bar"></span><span class="txt"><span class="k" data-en="Still open" data-pt="Em aberto"></span><span class="h" data-en="The threads still being pulled" data-pt="Os fios ainda sendo puxados"></span></span></a>
+            <details open>
+              <summary data-en="The other two rivers ▾" data-pt="Os outros dois rios ▾"></summary>
+              <div class="faded">
+                <a href="#" style="--b: var(--b-armond)"><span class="bar"></span><span class="txt"><span class="k" data-en="River One · Geraldo Paz Armond" data-pt="Rio Um · Geraldo Paz Armond"></span><span class="h" data-en="The Armond and the Toledo, out of Terceira and the gold highlands" data-pt="Os Armond e os Toledo, saídos da Terceira e das terras altas do ouro"></span></span></a>
+                <a href="#" style="--b: var(--b-engracio)"><span class="bar"></span><span class="txt"><span class="k" data-en="River Two · Cidalia Engrácio Guimarães" data-pt="Rio Dois · Cidalia Engrácio Guimarães"></span><span class="h" data-en="The Guimarães and the Engrácio, out of Portugal by way of commerce" data-pt="Os Guimarães e os Engrácio, saídos de Portugal pela via do comércio"></span></span></a>
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+      <nav class="tabbar">
+        <span class="tab"><svg><use href="#i-family"/></svg><span data-en="Family" data-pt="Família"></span></span>
+        <span class="tab"><svg><use href="#i-bell"/></svg><span class="badge">3</span><span data-en="What's new" data-pt="Novidades"></span></span>
+        <span class="tab on"><svg><use href="#i-book"/></svg><span data-en="Story" data-pt="História"></span></span>
+        <span class="tab"><svg><use href="#i-ask"/></svg><span data-en="Ask AI" data-pt="Perguntar"></span></span>
+      </nav>
+    </div>
+    <p class="note"><b>The Family Story is already written as four rivers</b>, so this costs no rewriting. A cousin gets the prologue, their two rivers, then the confluence. The other two rivers stay one tap away, never hidden. With Everything chosen, the story reads in its normal order, exactly as today.</p>
+  </figure>
+
+  <!-- 7 · SWITCH & SHARE -->
+  <figure>
+    <figcaption>7 · Tap the chip <span>— switch, or back to Everything</span></figcaption>
+    <div class="phone has-tabs" data-picker data-initial="muniz,bohrer">
+      <div class="statusbar"><span>9:41</span><span class="notch"></span><span>●●● ▮</span></div>
+      <div class="screen">
+        <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span>
+          <span class="branch-chip"><span class="dots"><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span>Muniz + Bohrer <span class="caret">▾</span></span><span class="round-help">?</span></div>
+        <div class="pad"><div class="search">⌕ <span data-en="Search Muniz + Bohrer…" data-pt="Buscar em Muniz + Bohrer…"></span></div></div>
+      </div>
+      <div class="dim"></div>
+      <div class="sheet">
+        <div class="handle"></div>
+        <h3 data-en="Families shown" data-pt="Famílias exibidas"></h3>
+        <button class="toggle-row" data-all aria-pressed="false" style="--b: var(--green)"><span class="four-dots"><span class="dot" style="--b: var(--b-armond)"></span><span class="dot" style="--b: var(--b-engracio)"></span><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span><span class="grow"><span class="t" data-en="Everything" data-pt="Tudo"></span><span class="s" data-en="All four families · 130 people" data-pt="As quatro famílias · 130 pessoas"></span></span><span class="switch"></span></button>
+        <div class="side-label" data-en="Armond side" data-pt="Lado Armond"></div>
+        <button class="toggle-row" data-branch="armond" aria-pressed="false" style="--b: var(--b-armond)"><span class="dot"></span><span class="grow"><span class="t">Armond</span><span class="s" data-en="Geraldo · 41 people" data-pt="Geraldo · 41 pessoas"></span></span><span class="switch"></span></button>
+        <button class="toggle-row" data-branch="engracio" aria-pressed="false" style="--b: var(--b-engracio)"><span class="dot"></span><span class="grow"><span class="t">Engracio</span><span class="s" data-en="Cidalia · 11 people" data-pt="Cidalia · 11 pessoas"></span></span><span class="switch"></span></button>
+        <div class="side-label" data-en="Muniz side" data-pt="Lado Muniz"></div>
+        <button class="toggle-row" data-branch="muniz" aria-pressed="true" style="--b: var(--b-muniz)"><span class="dot"></span><span class="grow"><span class="t">Muniz</span><span class="s" data-en="Antenor · 23 people" data-pt="Antenor · 23 pessoas"></span></span><span class="switch"></span></button>
+        <button class="toggle-row" data-branch="bohrer" aria-pressed="true" style="--b: var(--b-bohrer)"><span class="dot"></span><span class="grow"><span class="t">Bohrer</span><span class="s" data-en="Iris · 52 people" data-pt="Iris · 52 pessoas"></span></span><span class="switch"></span></button>
+        <div class="share">
+          <div class="t" data-en="Share this view" data-pt="Compartilhar esta visão"></div>
+          <code data-share></code>
+          <div class="row"><button data-en="Copy link" data-pt="Copiar link"></button><button data-en="Send…" data-pt="Enviar…"></button></div>
+        </div>
+        <button class="cta" data-en="Done" data-pt="Pronto"></button>
+      </div>
+    </div>
+    <p class="note"><b>Everything is the first switch</b>, so getting back to the full view is one tap. Turning on all four families also lands on Everything. <b>The share link</b> carries the choice: send <code>#branch=muniz,bohrer</code> to the Muniz cousins and the app opens on their side. A link with no choice opens on Everything.</p>
+  </figure>
+
+  <!-- 8 · PERSON PAGE -->
+  <figure>
+    <figcaption>8 · Person page <span>— the same page as today</span></figcaption>
+    <div class="phone has-tabs">
+      <div class="statusbar"><span>9:41</span><span class="notch"></span><span>●●● ▮</span></div>
+      <div class="screen">
+        <div class="dp-top"><span class="dp-back" data-en="‹ Back" data-pt="‹ Voltar"></span><span class="round">?</span></div>
+        <div class="dp">
+          <div class="eyebrow">P-0007</div>
+          <h2>Iris Bohrer Muniz</h2>
+          <div class="yrs">1929–2021 <span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div>
+          <hr class="dbl">
+          <h4 data-en="Biography" data-pt="Biografia"></h4>
+          <p data-en="Iris Bohrer Muniz was born on 27 February 1929 in Presidente Soares, Minas Gerais, Brazil, a daughter of João Gonçalves Bohrer and Celina Bohrer. She married Antenor Muniz on 7 December 1949 in Alvorada, Minas Gerais, Brazil. She worked as pensionista. She died on 13 July 2021 in Volta Redonda, Rio de Janeiro, Brazil, aged 92." data-pt="Iris Bohrer Muniz nasceu em 27 de fevereiro de 1929 em Presidente Soares, Minas Gerais, Brasil, filha de João Gonçalves Bohrer e Celina Bohrer. Casou-se com Antenor Muniz em 7 de dezembro de 1949 em Alvorada, Minas Gerais, Brasil. Trabalhou como pensionista. Morreu em 13 de julho de 2021 em Volta Redonda, Rio de Janeiro, Brasil, aos 92 anos."></p>
+          <span class="more" data-en="More details ›" data-pt="Mais detalhes ›"></span>
+          <hr>
+          <h4 data-en="Relationship to the archive's owner" data-pt="Parentesco com o dono do arquivo"></h4>
+          <p class="path"><b data-en="Grandmother" data-pt="Avó"></b><br><a data-en="Private living person" data-pt="Pessoa viva privada"></a> → <a data-en="Private living person" data-pt="Pessoa viva privada"></a> → <b>Iris Bohrer Muniz</b></p>
+          <hr>
+          <h4 data-en="Overview" data-pt="Resumo"></h4>
+          <dl class="ov">
+            <dt data-en="Sources" data-pt="Fontes"></dt><dd>4</dd>
+            <dt data-en="Birthplace" data-pt="Local de nascimento"></dt><dd>Presidente Soares, Minas Gerais</dd>
+            <dt data-en="Nationality" data-pt="Nacionalidade"></dt><dd data-en="Brazilian 🇧🇷" data-pt="Brasileira 🇧🇷"></dd>
+            <dt data-en="Death place" data-pt="Local do óbito"></dt><dd>Volta Redonda, Rio de Janeiro</dd>
+          </dl>
+          <hr>
+          <h4 data-en="Parents" data-pt="Pais"></h4>
+          <ul><li>João Gonçalves Bohrer</li><li>Celina Bohrer</li></ul>
+        </div>
+      </div>
+      <nav class="tabbar">
+        <span class="tab on"><svg><use href="#i-family"/></svg><span data-en="Family" data-pt="Família"></span></span>
+        <span class="tab"><svg><use href="#i-bell"/></svg><span class="badge">3</span><span data-en="What's new" data-pt="Novidades"></span></span>
+        <span class="tab"><svg><use href="#i-book"/></svg><span data-en="Story" data-pt="História"></span></span>
+        <span class="tab"><svg><use href="#i-ask"/></svg><span data-en="Ask AI" data-pt="Perguntar"></span></span>
+      </nav>
+    </div>
+    <p class="note"><b>The content is unchanged</b>: same sections, fonts, colours and sources, and the ? (about this card). What changes: <b>‹ Back</b> replaces the ×, the bottom bar stays visible, a small family tag sits by the dates, the robot button is gone on the phone (Ask AI is in the bar), and the relationship reads “to the archive's owner” because the owner's name is withheld on the public site.</p>
+  </figure>
+
+</main>
+
+<script>
+  const BRANCHES = {
+    armond: { name: "Armond", people: 41 },
+    engracio: { name: "Engracio", people: 11 },
+    muniz: { name: "Muniz", people: 23 },
+    bohrer: { name: "Bohrer", people: 52 },
+  };
+  const TOTAL = 130; // includes the three living people
+  const SITE = "juanarmond.github.io/armond-family-history/";
+  let lang = location.hash === "#pt" ? "pt" : "en";
+  // Each picker keeps its own choice; an empty set means Everything.
+  const pickers = new Map();
+  document.querySelectorAll("[data-picker]").forEach((root) => {
+    const initial = root.dataset.initial === "all" ? [] : root.dataset.initial.split(",");
+    pickers.set(root, new Set(initial));
+  });
+
+  function t(en, pt) { return lang === "pt" ? pt : en; }
+
+  function renderPicker(root, chosen) {
+    root.querySelectorAll("[data-branch]").forEach((el) => el.setAttribute("aria-pressed", String(chosen.has(el.dataset.branch))));
+    root.querySelectorAll("[data-all]").forEach((el) => el.setAttribute("aria-pressed", String(chosen.size === 0)));
+    const names = Object.keys(BRANCHES).filter((key) => chosen.has(key)).map((key) => BRANCHES[key].name);
+    const people = [...chosen].reduce((sum, key) => sum + BRANCHES[key].people, 0);
+    const cta = root.querySelector("[data-cta]");
+    if (cta) cta.textContent = chosen.size === 0
+      ? t(`Explore everything · ${TOTAL} people`, `Explorar tudo · ${TOTAL} pessoas`)
+      : t(`Explore ${names.join(" + ")} · ${people} people`, `Explorar ${names.join(" + ")} · ${people} pessoas`);
+    const share = root.querySelector("[data-share]");
+    if (share) share.textContent = chosen.size === 0 ? SITE : `${SITE}#branch=${[...chosen].join(",")}`;
+  }
+
+  function render() {
+    document.documentElement.lang = lang === "pt" ? "pt-BR" : "en";
+    document.querySelectorAll("[data-en]").forEach((el) => {
+      const text = el.dataset[lang];
+      if (text.includes("<")) el.innerHTML = text; else el.textContent = text;
+    });
+    pickers.forEach((chosen, root) => renderPicker(root, chosen));
+    document.querySelectorAll(".lang button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
+  }
+
+  document.addEventListener("click", (event) => {
+    const langButton = event.target.closest("[data-lang]");
+    if (langButton) { lang = langButton.dataset.lang; render(); return; }
+    const root = event.target.closest("[data-picker]");
+    if (!root) return;
+    const chosen = pickers.get(root);
+    const branch = event.target.closest("[data-branch]");
+    const pair = event.target.closest("[data-pair]");
+    if (branch) {
+      const key = branch.dataset.branch;
+      chosen.has(key) ? chosen.delete(key) : chosen.add(key);
+      if (chosen.size === Object.keys(BRANCHES).length) chosen.clear();
+    } else if (pair) {
+      chosen.clear();
+      pair.dataset.pair.split(",").forEach((key) => chosen.add(key));
+    } else if (event.target.closest("[data-all]")) {
+      chosen.clear();
+    } else return;
+    render();
+  });
+  render();
+</script>
+</body>
+</html>

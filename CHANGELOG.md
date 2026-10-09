@@ -5,6 +5,18 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — viewer mockups in the repository; phone layout fixes (2026-10-09)
+
+- `design/mockups/`: mobile and desktop galleries of every screen (31 screenshots from the
+  privacy-filtered build), the interactive concept mockup updated to the shipped design, and
+  `capture.mjs` to regenerate the screenshots (blocks the visitor counter, analytics and the AI Worker).
+- Phone: a help (?) button in the header; no robot buttons above the tab bar (Ask AI lives in the bar,
+  and keeps the person page underneath for person-specific suggestions); a full-width families sheet;
+  long evidence tags wrap so More details no longer scrolls sideways; a tighter header on 360px phones.
+- Families are grouped by side through the tree rather than a parent's sex (the public site withholds
+  a living parent's sex, which had put all four families under the Armond side).
+- Desktop: the search results list keeps a usable width beside the narrower toolbar search box.
+
 ### Added — follow a family branch, and a phone app layout (2026-10-09)
 
 - **Family branches ("the four rivers"):** a viewer can follow one grandparent's branch, several,

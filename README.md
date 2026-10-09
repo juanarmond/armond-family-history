@@ -75,6 +75,7 @@ Each concern has one owner:
 ├── STATUS.md
 ├── CHANGELOG.md
 ├── data/               # structured YAML: entities + control ledgers (id, inventory, coverage)
+├── design/             # viewer mockups and screen references (phone + desktop)
 ├── evidence/           # authorised source files, organised by record category
 ├── family-tree-viewer/ # static, read-only viewer generated from the YAML
 ├── logs/               # research history: LOG.md index, correspondence log, dated sessions

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Desktop screens — Quatro Rios viewer</title>
+<style>
+  :root { --paper: #f1e8d5; --card: #fbf6ea; --ink: #29241a; --muted: #857a63; --gold: #a9843f; --green: #2f5d43;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    --sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #2b2820; color: #efe6d2; font-family: var(--sans); }
+  header { max-width: 1680px; margin: 0 auto; padding: 28px 32px 6px; }
+  h1 { margin: 0 0 6px; font-family: var(--serif); font-weight: 600; font-size: 1.7rem; }
+  header p { margin: 0 0 6px; max-width: 80ch; color: #c8bea6; line-height: 1.5; font-size: .95rem; }
+  header nav a { color: #e3c98f; margin-right: 1rem; font-size: .9rem; }
+  main { max-width: 1680px; margin: 0 auto; padding: 18px 32px 48px; display: grid; gap: 34px 28px; }
+  figure { margin: 0; }
+  figcaption b { display: block; margin: 0 0 4px; font-size: .95rem; }
+  figcaption b span { color: #a99d84; font-weight: 500; margin-right: .35rem; }
+  figcaption p { margin: 0 0 10px; color: #c8bea6; font-size: .84rem; line-height: 1.5; }
+  a.shot { display: block; }
+  img { display: block; width: 100%; height: auto; }
+
+  main { grid-template-columns: repeat(auto-fill, minmax(620px, 1fr)); }
+  a.shot { border: 1px solid #4a4335; border-top: 26px solid #3a352b; border-radius: 10px; overflow: hidden; box-shadow: 0 24px 48px -24px rgba(0,0,0,.6); position: relative; }
+</style>
+</head>
+<body>
+<!-- Captions are kept here; the screenshots come from capture.mjs (see README.md). -->
+<header>
+  <h1>Desktop screens</h1>
+  <p>Every screen of the viewer, captured from the real app (the privacy-filtered public build, so living people appear only as “Private living person”). Regenerate with <code>node design/mockups/capture.mjs</code> after any viewer change; see README.md. Click a screen for full size.</p>
+  <nav><a href="mobile.html">Mobile screens →</a><a href="branch-picker.html">Interactive concept mockup →</a></nav>
+</header>
+<main>
+  <figure id="01-welcome">
+    <figcaption><b><span>01</span>First visit</b><p>The same question as a centred card: Everything first and already chosen.</p></figcaption>
+    <a class="shot" href="screens/desktop/01-welcome.webp"><img src="screens/desktop/01-welcome.webp" alt="First visit" loading="lazy"></a>
+  </figure>
+  <figure id="02-tree-everything">
+    <figcaption><b><span>02</span>The tree — Everything</b><p>The full tree from the archive&#x27;s owner. “Families” is the first toolbar control; What&#x27;s new shows its unread count.</p></figcaption>
+    <a class="shot" href="screens/desktop/02-tree-everything.webp"><img src="screens/desktop/02-tree-everything.webp" alt="The tree — Everything" loading="lazy"></a>
+  </figure>
+  <figure id="03-tree-one-family">
+    <figcaption><b><span>03</span>The tree — one family</b><p>With Bohrer chosen, the tree starts at that grandparent (Iris) and search is scoped to it.</p></figcaption>
+    <a class="shot" href="screens/desktop/03-tree-one-family.webp"><img src="screens/desktop/03-tree-one-family.webp" alt="The tree — one family" loading="lazy"></a>
+  </figure>
+  <figure id="04-families-sheet">
+    <figcaption><b><span>04</span>Families shown</b><p>Switch families or go back to Everything, and share a link that opens on them.</p></figcaption>
+    <a class="shot" href="screens/desktop/04-families-sheet.webp"><img src="screens/desktop/04-families-sheet.webp" alt="Families shown" loading="lazy"></a>
+  </figure>
+  <figure id="05-search-chosen-families">
+    <figcaption><b><span>05</span>Search inside the chosen families</b><p>The same switch as on the phone, with family tags on each result.</p></figcaption>
+    <a class="shot" href="screens/desktop/05-search-chosen-families.webp"><img src="screens/desktop/05-search-chosen-families.webp" alt="Search inside the chosen families" loading="lazy"></a>
+  </figure>
+  <figure id="06-person-panel">
+    <figcaption><b><span>06</span>Person panel</b><p>The family tag sits by the dates; the relationship reads “to the archive&#x27;s owner”. On desktop the robot button stays — there is no bottom bar.</p></figcaption>
+    <a class="shot" href="screens/desktop/06-person-panel.webp"><img src="screens/desktop/06-person-panel.webp" alt="Person panel" loading="lazy"></a>
+  </figure>
+  <figure id="07-whats-new">
+    <figcaption><b><span>07</span>What&#x27;s new</b><p>Filtered to the chosen families, with NEW marks and family tags.</p></figcaption>
+    <a class="shot" href="screens/desktop/07-whats-new.webp"><img src="screens/desktop/07-whats-new.webp" alt="What&#x27;s new" loading="lazy"></a>
+  </figure>
+  <figure id="08-story">
+    <figcaption><b><span>08</span>Family Story</b><p>The chosen rivers first, with the original order one click away.</p></figcaption>
+    <a class="shot" href="screens/desktop/08-story.webp"><img src="screens/desktop/08-story.webp" alt="Family Story" loading="lazy"></a>
+  </figure>
+  <figure id="09-ask-ai">
+    <figcaption><b><span>09</span>Ask AI from a person</b><p>Opened from a person&#x27;s panel, the assistant suggests questions about them.</p></figcaption>
+    <a class="shot" href="screens/desktop/09-ask-ai.webp"><img src="screens/desktop/09-ask-ai.webp" alt="Ask AI from a person" loading="lazy"></a>
+  </figure>
+  <figure id="10-help">
+    <figcaption><b><span>10</span>How to explore</b><p>The guide now begins with “Choose your families”.</p></figcaption>
+    <a class="shot" href="screens/desktop/10-help.webp"><img src="screens/desktop/10-help.webp" alt="How to explore" loading="lazy"></a>
+  </figure>
+</main>
+</body>
+</html>

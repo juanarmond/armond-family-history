@@ -193,6 +193,7 @@ main {
   top: 100%;
   left: 0;
   right: 0;
+  min-width: 22rem; /* wider than a narrow toolbar search box, so rows and tags fit */
   z-index: 40;
   margin-top: .3rem;
   max-height: 17rem;
@@ -2734,8 +2735,8 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
   .branch-panel:not(.is-welcome) { top: auto; bottom: 0; height: auto; max-height: 90dvh; border-top: 1px solid var(--gold); border-radius: 16px 16px 0 0; }
 }
 @media (max-width: 700px) {
-  /* On a phone the results list may use most of the screen. */
-  .search-results { max-height: min(62vh, 32rem); }
+  /* On a phone the results list may use most of the screen, at the search box's width. */
+  .search-results { min-width: 0; max-height: min(62vh, 32rem); }
   /* Jumping to a person scrolls the view to the top — below the sticky header, not under it. */
   .mobile-view { scroll-margin-top: 4.2rem; }
 }
