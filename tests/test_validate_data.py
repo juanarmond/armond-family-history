@@ -844,6 +844,16 @@ class ValidateDataTests(unittest.TestCase):
         result = self.fixture.validate()
         self.assert_issue(result, "error", "is born on or after child")
 
+    def test_a_parent_born_after_the_childs_baptism_is_an_error(self) -> None:
+        # A baptism bounds the birth from above, so a child known only by baptism is
+        # still checked against a parent's birth.
+        self.fixture.documents["events"]["E-0002"]["event_type"] = "baptism"
+        parent_birth = self.fixture.documents["events"]["E-0001"]
+        parent_birth["date"] = {"kind": "exact", "value": "1940-01-01"}
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "is born on or after child")
+
     def test_possible_duplicate_identity_is_a_warning(self) -> None:
         duplicate = copy.deepcopy(self.fixture.documents["people"]["P-0001"])
         duplicate["id"] = "P-0003"

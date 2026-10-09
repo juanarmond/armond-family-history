@@ -36,7 +36,9 @@ children:
         × Mariana Fagundes. ⚠ CONFLICT: the compiled source gives his death as 2.12.1727 in
         S. Sebastião [corrected 2026-10-09: the book prints no place]; but P-0092 is placed at
         Villa Rica, Minas Gerais (his son's recorded birth and baptism parish, PAR-0018), with that son marrying in 1783 — inconsistent if
-        one person. This connection is [COMPILED] strong-evidence
+        one person. This connection is [COMPILED] strong-evidence [corrected 2026-10-09: the
+        link is now status hypothesis — see the tier note below; a published genealogy alone
+        cannot carry strong-evidence]
         pending resolution of the death-date conflict (he may have emigrated and the compiler
         lacked records of his Brazilian life, or P-0092 is the next generation). [Added
         2026-10-09: the full transcription of p.261 shows this Gaspar remarrying at São
@@ -123,35 +125,6 @@ documented_children:
   source_ids:
   - PUB-0005
   - PAR-0096
-- name: >-
-    Gaspar de Souto-Maior (bapt.23.2.1657 S.Sebastião; d.2.12.1727, no place printed; m.1
-    2.10.1690 Convento da Graça, Angra, D. Margarida Machado; m.2 8.2.1694 S.Sebastião Maria
-    Mendes de Borba; children Maria, António and Lourença bapt. S.Sebastião 1698–1701;
-    possibly the father of the Barbacena patriarch Francisco Ferreira Armonde — a lead from
-    PUB-0002 f. 55, unproven) [Corrected 2026-10-09 against the full verbatim transcription of
-    PUB-0005: "b." is the book's abbreviation for baptised, not born; the book prints no death
-    place (earlier "d.2.12.1727 S.Sebastião" and "stayed in Terceira"); the 1694 marriage and
-    the 1698–1701 baptisms were omitted; and Vol. IX names the 1690 wife "D. Margarida
-    Machado" — the earlier "Margarida das Candeias Machado" is not the book's form. "Margarida
-    das Candeyas" comes from another source: the 1751 will of Francisco Ferreira Armonde, as
-    quoted by Lacerda (PUB-0002, f. 55), names him "natural da Ilha Terceira da Freguesia da
-    Vila de São Sebastião" and son of "Gaspar de Souto Maior e de sua mulher Margarida das
-    Candeyas, já defuntos"; Lacerda's footnote 74, citing an online mailing-list post (a lead,
-    not proof), makes Margarida das Candeyas (bapt. 29.5.1667, d. 9.4.1693, São Sebastião) the
-    first wife of a Gaspar de Souto Maior bapt. 23.9.1657 (against Vol. IX's 23.2.1657), d.
-    2.12.1727, who remarried Maria Mendes Borba. Whether the will's couple is this Gaspar and
-    D. Margarida Machado is an open question. Vol. IX's footnote 10 names a different woman,
-    D. Maria das Candeias, wife of Domingos Mendes de Borba.]
-    [COMPILED — every fact in this entry rests on PUB-0005 alone. No primary Terceira baptism or marriage
-    record for this Gaspar is catalogued here. An earlier version cited a "primary baptism
-    register" for a birth of 23.12.1657 and a 1690 marriage act naming Belchior × Mariana;
-    neither record is held, so both citations and the "compiler transposition" reading that
-    demoted PUB-0005's 23.2.1657 were removed 2026-09-24. Distinct from the modelled P-0092
-    (Brazil Gaspar), whose identity conflict with the 2.12.1727 S.Sebastião [corrected
-    2026-10-09: no place printed] death and the 1694–1701 Terceira entries is unresolved —
-    see P-0092 notes]
-  source_ids:
-  - PUB-0005
 event_ids:
 - E-0128
 notes:
@@ -162,4 +135,126 @@ notes:
 - text: >-
     The couple lived at "Belo Jardim, termo da vila da Praia" (Vol. IX). Belchior's military
     rank was Alferes de ordenanças. The family's Azorean Terceira origin is the basis for the
-    Azorean nationality assigned to both Belchior and Mariana.
+    Azorean nationality assigned to both Belchior and Mariana. [Corrected 2026-10-09: both carry
+    nationality "Portuguese" — the Azores were Portuguese Crown territory; "Azorean" is their
+    origin, not a nationality value.]
+- text: >-
+    Moved here 2026-10-09 from documented_children: the entry duplicated the modelled child
+    P-0092, who carries this compiled Gaspar by hypothesis (E-0135 and the hypothesis-tier
+    parent links above). Listed again as a documented child, P-0092 appeared as his own
+    sibling, and the entry's paragraph-length text was being shown and exported as a child's
+    name. The entry's text follows, unchanged except for the bracketed 2026-10-09 corrections.
+    — Gaspar de Souto-Maior (bapt.23.2.1657 S.Sebastião; d.2.12.1727, no place printed; m.1
+    2.10.1690 Convento da Graça, Angra, D. Margarida Machado; m.2 8.2.1694 S.Sebastião Maria
+    Mendes de Borba; children Maria, António and Lourença bapt. S.Sebastião 1698–1701;
+    possibly the father of the Barbacena patriarch Francisco Ferreira Armonde — a lead from
+    PUB-0002 f. 55 [corrected 2026-10-09: ff. 55–56], unproven) [Corrected 2026-10-09 against
+    the full verbatim transcription of PUB-0005: "b." is the book's abbreviation for baptised,
+    not born; the book prints no death place (earlier "d.2.12.1727 S.Sebastião" and "stayed in
+    Terceira"); the 1694 marriage and the 1698–1701 baptisms were omitted; and Vol. IX names
+    the 1690 wife "D. Margarida Machado" — the earlier "Margarida das Candeias Machado" is not
+    the book's form. "Margarida das Candeyas" comes from another source: the 1751 will of
+    Francisco Ferreira Armonde, as quoted by Lacerda (PUB-0002, f. 55), names him "natural da
+    Ilha Terceira da Freguesia da Vila de São Sebastião" and son of "Gaspar de Souto Maior e
+    de sua mulher Margarida das Candeyas, já defuntos"; Lacerda's footnote 74, citing an
+    online mailing-list post (a lead, not proof), makes Margarida das Candeyas (bapt.
+    29.5.1667, d. 9.4.1693, São Sebastião) the first wife of a Gaspar de Souto Maior bapt.
+    23.9.1657 (against Vol. IX's 23.2.1657), d. 2.12.1727, who remarried Maria Mendes Borba.
+    Whether the will's couple is this Gaspar and D. Margarida Machado is an open question
+    [updated 2026-10-09: probably one couple, as a lead — on f. 56 Lacerda, quoting a private
+    2008 typescript by Paulo Ribeiro Luz, makes Francisco Ferreira Armonde "neto paterno do
+    Alferes Belchior da Ponte Cardoso e de sua segunda esposa Mariana Fagundes" and names his
+    mother "Margarida das Candeyas Machado", daughter of Capitão Francisco Ferreira
+    Ermonde/Armonde (1601–1672) and Ana/Maria Machado alias Maria das Candeyas (1631–1704).
+    That form joins Vol. IX's "D. Margarida Machado" and the will's "Margarida das Candeyas",
+    so the two are probably one woman. LEAD — a compiled typescript quoted second-hand, not a
+    record; not proof]. Vol. IX's footnote 10 names a different woman, D. Maria das Candeias,
+    wife of Domingos Mendes de Borba [updated 2026-10-09: a different woman from Margarida,
+    but not an unrelated one — the footnote cross-refers her to the same "DRUMMOND, § 3º, nº
+    5" as D. Margarida Machado, and the book's "nº" is the person's generation number in the
+    cited section (Belchior is "SOUTO-MAIOR, § 1º, nº 5", Mariana "FAGUNDES, § 6º, nº 7"), so
+    both are of one generation in that family; with the f. 56 lead naming Margarida's mother
+    "Maria das Candeyas", the "das Candeias" name evidently ran in it — INFERRED].] [COMPILED
+    — every fact in this entry rests on PUB-0005 alone [corrected 2026-10-09: not so — the
+    will quotation and the footnote-74 dates come from PUB-0002 f. 55 and the Luz lead from
+    PUB-0002 f. 56; the rest rests on PUB-0005 alone]. No primary Terceira baptism or marriage
+    record for this Gaspar is catalogued here [added 2026-10-09: the retrieval agent has seen
+    an image it identifies as his São Sebastião baptism (book B-1611-1687, image 0324, which
+    it dates 23.12.1657), available only at the CDN maximum of 383×527 px with the filiation
+    and signature lines illegible, and an image of the 2.10.1690 marriage, whose parents'
+    names this repository read from the drop on 2026-09-01 as "Alferes Belchior de Ponte" and
+    Mariana, and Francisco Ferreira de Ermonde and D. Ana Machado (logs/LOG.md). Both images
+    were read in the retrieval drop and not promoted (triage ledger: TRUNK-Terceira); neither
+    is catalogued or held here, so those readings are leads]. An earlier version cited a
+    "primary baptism register" for a birth of 23.12.1657 and a 1690 marriage act naming
+    Belchior × Mariana; neither record is held, so both citations and the "compiler
+    transposition" reading that demoted PUB-0005's 23.2.1657 were removed 2026-09-24. Distinct
+    from the modelled P-0092 (Brazil Gaspar) [corrected 2026-10-09: not distinct in this model
+    — P-0092 is the modelled child who carries this compiled Gaspar by hypothesis; the open
+    question is whether the two are one man], whose identity conflict with the 2.12.1727
+    S.Sebastião [corrected 2026-10-09: no place printed] death and the 1694–1701 Terceira
+    entries is unresolved — see P-0092 notes]
+  text_pt: >-
+    Transferido para aqui em 2026-10-09 a partir de documented_children: a entrada duplicava o
+    filho modelado P-0092, que carrega este Gaspar compilado a título de hipótese (E-0135 e os
+    vínculos parentais de nível hipótese acima). Listado de novo como filho documentado,
+    P-0092 aparecia como irmão de si próprio, e o texto da entrada, do tamanho de um
+    parágrafo, era mostrado e exportado como nome de um filho. Segue o texto da entrada,
+    inalterado salvo as correções de 2026-10-09 entre parênteses retos. — Gaspar de
+    Souto-Maior (bat. 23.2.1657 S. Sebastião; f. 2.12.1727, sem local impresso; c. 1ª vez
+    2.10.1690 no Convento da Graça, Angra, com D. Margarida Machado; c. 2ª vez 8.2.1694 em S.
+    Sebastião com Maria Mendes de Borba; filhos Maria, António e Lourença bat. em S. Sebastião
+    1698–1701; possivelmente pai do patriarca de Barbacena Francisco Ferreira Armonde — pista
+    do PUB-0002 f. 55 [corrigido em 2026-10-09: ff. 55–56], não provada) [Corrigido em
+    2026-10-09 contra a transcrição integral e literal do PUB-0005: "b." é a abreviatura do
+    livro para batizado, não para nascido; o livro não imprime local de óbito (antes "f.
+    2.12.1727 S. Sebastião" e "ficou na Terceira"); o casamento de 1694 e os batismos de
+    1698–1701 tinham sido omitidos; e o Vol. IX nomeia a mulher de 1690 "D. Margarida Machado"
+    — o anterior "Margarida das Candeias Machado" não é a forma do livro. "Margarida das
+    Candeyas" vem de outra fonte: o testamento de 1751 de Francisco Ferreira Armonde, citado
+    por Lacerda (PUB-0002, f. 55), dá-o como "natural da Ilha Terceira da Freguesia da Vila de
+    São Sebastião" e filho de "Gaspar de Souto Maior e de sua mulher Margarida das Candeyas,
+    já defuntos"; a nota 74 de Lacerda, que cita uma mensagem de lista de discussão on-line
+    (pista, não prova), faz de Margarida das Candeyas (bat. 29.5.1667, f. 9.4.1693, São
+    Sebastião) a primeira mulher de um Gaspar de Souto Maior bat. 23.9.1657 (contra o
+    23.2.1657 do Vol. IX), f. 2.12.1727, que voltou a casar com Maria Mendes Borba. Se o casal
+    do testamento é este Gaspar e D. Margarida Machado é pergunta aberta [atualizado em
+    2026-10-09: provavelmente é o mesmo casal, como pista — na f. 56, Lacerda, citando um
+    datiloscrito particular de 2008 de Paulo Ribeiro Luz, faz de Francisco Ferreira Armonde
+    "neto paterno do Alferes Belchior da Ponte Cardoso e de sua segunda esposa Mariana
+    Fagundes" e chama à mãe dele "Margarida das Candeyas Machado", filha do Capitão Francisco
+    Ferreira Ermonde/Armonde (1601–1672) e de Ana/Maria Machado, dita Maria das Candeyas
+    (1631–1704). Essa forma junta a "D. Margarida Machado" do Vol. IX e a "Margarida das
+    Candeyas" do testamento, pelo que as duas são provavelmente a mesma mulher. LEAD — um
+    datiloscrito compilado citado em segunda mão, não um registro; não é prova]. A nota 10 do
+    Vol. IX nomeia outra mulher, D. Maria das Candeias, mulher de Domingos Mendes de Borba
+    [atualizado em 2026-10-09: outra mulher que não Margarida, mas não sem relação com ela — a
+    nota remete-a para o mesmo "DRUMMOND, § 3º, nº 5" que D. Margarida Machado, e o "nº" do
+    livro é o número de geração da pessoa na secção citada (Belchior é "SOUTO-MAIOR, § 1º, nº
+    5", Mariana "FAGUNDES, § 6º, nº 7"), logo ambas são da mesma geração dessa família; com a
+    pista da f. 56 a nomear a mãe de Margarida "Maria das Candeyas", o nome "das Candeias"
+    corria, ao que parece, nessa família — INFERRED].] [COMPILED — todos os factos desta
+    entrada assentam só no PUB-0005 [corrigido em 2026-10-09: não é assim — a citação do
+    testamento e as datas da nota 74 vêm do PUB-0002 f. 55, e a pista de Luz do PUB-0002 f.
+    56; o resto assenta só no PUB-0005]. Nenhum registro primário terceirense de batismo ou
+    casamento deste Gaspar está catalogado aqui [acrescentado em 2026-10-09: o agente de
+    recolha viu uma imagem que identifica como o batismo dele em São Sebastião (livro
+    B-1611-1687, imagem 0324, que data de 23.12.1657), disponível só no máximo do CDN, 383×527
+    px, com as linhas da filiação e da assinatura ilegíveis, e uma imagem do casamento de
+    2.10.1690, cujos nomes dos pais este repositório leu na entrega a 2026-09-01 como "Alferes
+    Belchior de Ponte" e Mariana, e Francisco Ferreira de Ermonde e D. Ana Machado
+    (logs/LOG.md). As duas imagens foram lidas na entrega do agente e não promovidas (registo
+    de triagem: TRUNK-Terceira); nenhuma está catalogada nem guardada aqui, pelo que essas
+    leituras são pistas]. Uma versão anterior citava um "livro de batismos primário" para um
+    nascimento a 23.12.1657 e um assento de casamento de 1690 que nomeava Belchior × Mariana;
+    nenhum desses registros está disponível, pelo que ambas as citações e a leitura de
+    "transposição do compilador", que despromovia o 23.2.1657 do PUB-0005, foram removidas em
+    2026-09-24. Distinto do P-0092 modelado (o Gaspar do Brasil) [corrigido em 2026-10-09: não
+    é distinto neste modelo — P-0092 é o filho modelado que carrega este Gaspar compilado a
+    título de hipótese; a questão aberta é se os dois são o mesmo homem], cujo conflito de
+    identidade com o óbito de 2.12.1727 em S. Sebastião [corrigido em 2026-10-09: sem local
+    impresso] e com as entradas terceirenses de 1694–1701 está por resolver — ver as notas de
+    P-0092]
+  source_ids:
+  - PUB-0005
+  - PUB-0002

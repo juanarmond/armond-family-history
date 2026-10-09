@@ -5,6 +5,25 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — review of the transcription pass (2026-10-09)
+
+- PUB-0002 f. 56 transcribed in full: the patriarch's paternal grandparents (Belchior × Mariana) and
+  maternal grandparents (Capitão Francisco Ferreira Ermonde/Armonde × Ana Machado), after a private 2008
+  typescript — a lead, now recorded in P-0092, P-0016, the coverage ledger, the Story and STATUS 18 with
+  the 1690 marriage image (read 2026-09-01, uncatalogued) as the record to catalogue next.
+- F-0062: the documented child "Gaspar" (a 2,200-character paragraph in a name field, shown as a sibling
+  and written to the GEDCOM as a name, duplicating P-0092) becomes a family note citing PUB-0005 and
+  PUB-0002. E-0126 names Belchior's parents (PAR-0087) and notes the 9-or-10 January reading.
+- Remnants of today's corrections: ten children (not nine) and baptism wording across P-0123, P-0125,
+  P-0126, P-0127, P-0129, P-0130, STATUS and the inventory; eleven-or-twelve heirs in P-0068/P-0069;
+  Grindel as Anna Maria's and Laurent's stated origin, not a stated birthplace (E-0111, P-0068, P-0069,
+  PUB-0003); F-0033's resolved child count; F-0035 keeps both of PUB-0003's hedges on Catherine Wehrli's
+  husband; PUB-0004/0005 reliability text matches the held originals and the strong-evidence policy.
+- Validator: a baptism now bounds a birth from above (and a burial a death), so a person known by
+  baptism is still checked against a parent's birth. `replaces` in the What's new feed accepts a list of
+  earlier titles. Today's correction entry now also reports the transcription corrections — still one
+  entry, no new notification.
+
 ### Changed — the five published works' cited pages transcribed in full, and what that corrected (2026-10-09)
 
 - Owner directive, now in research/README.md: for a book or thesis, "full" means every line of each
@@ -20,9 +39,10 @@ also remain traceable through source records and research logs.
   (BORER III's grandson, misread), Thereza is n. 25/09/1838 and Justina n. 04/06/1827; BORER III is not
   "unrelated" (Johann Borer married Anna Maria's sister); PUB-0001's and PUB-0002's abstracts now say
   what the pages say.
-- New lead (not modelled): Lacerda quotes the Barbacena patriarch Francisco Ferreira Armonde's 1751 will
-  naming his parents Gaspar de Souto Maior and Margarida das Candeyas of São Sebastião, Terceira; his
-  footnote 74 (citing an online list post) makes her the first wife of Vol. IX's Gaspar b.1657.
+- Lead restated (not modelled; recorded since 2026-08-10): Lacerda quotes the Barbacena patriarch
+  Francisco Ferreira Armonde's 1751 will naming his parents Gaspar de Souto Maior and Margarida das
+  Candeyas of São Sebastião, Terceira; his footnote 74 (citing an online list post) makes her the first
+  wife of Vol. IX's Gaspar b.1657.
 
 ### Changed — strong evidence must rest on a record; 12 compiled conclusions are now hypotheses (2026-10-09)
 

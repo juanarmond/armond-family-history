@@ -31,13 +31,20 @@ family_ids:
 notes:
 - text: >-
     Born 1793 at Grindel, Soleure (Solothurn), Switzerland [PUB-0003,
-    hypothesis — a published compilation alone; downgraded 2026-10-09]. Exact day of birth unknown. Fifth daughter of Johann Jacob Wehrli (P-0072) ×
+    hypothesis — a published compilation alone; downgraded 2026-10-09]. [corrected
+    2026-10-09 from the full transcription of PUB-0003: the Casa Suíça entry gives only
+    "Nasceu em 1793." and names Grindel as her place of origin, not her birthplace; that
+    she was born at Grindel is inferred from that origin — see E-0111.] Exact day of birth unknown. Fifth daughter of Johann Jacob Wehrli (P-0072) ×
     Elisabetha Borer (P-0073); family F-0035. Emigrated to Brazil in 1819 on the
     Heureux Voyage, aged approximately 26. Married Laurent Borer (P-0068) on
     03/07/1820 at Nova Friburgo, Rio de Janeiro. Date of death unknown.
   text_pt: >-
     Nascida em 1793 em Grindel, Soleure (Solothurn), Suíça [PUB-0003, hipótese —
-    só uma compilação publicada; rebaixada em 2026-10-09]. Dia exato de nascimento desconhecido. Quinta filha de Johann Jacob
+    só uma compilação publicada; rebaixada em 2026-10-09]. [corrigido em 2026-10-09 a
+    partir da transcrição integral de PUB-0003: o registro da Casa Suíça diz apenas
+    "Nasceu em 1793." e dá Grindel como seu local de origem, não como local de
+    nascimento; que ela nasceu em Grindel é uma inferência a partir dessa origem — ver
+    E-0111.] Dia exato de nascimento desconhecido. Quinta filha de Johann Jacob
     Wehrli (P-0072) × Elisabetha Borer (P-0073); família F-0035. Emigrou para o
     Brasil em 1819 no Heureux Voyage, com aproximadamente 26 anos. Casou-se com
     Laurent Borer (P-0068) em 03/07/1820 em Nova Friburgo, Rio de Janeiro. Data de
@@ -45,12 +52,18 @@ notes:
 - text: >-
     The compilation gives "doze filhos" for this couple in the Casa Suíça DB narrative
     and "ao menos onze filhos" in the main text — a one-child discrepancy. See F-0033
-    notes for the full count discussion.
+    notes for the full count discussion. [Clarified 2026-10-09 from the full
+    transcription: the book reads "pelo menos onze filhos" (p.300) and numbers eleven
+    children (p.301, no 1.1.5 entry), and the Casa Suíça Borer (II) database history
+    also says "11 filhos"; "doze filhos" is only in the Wehrli database history.]
   text_pt: >-
     A compilação atribui "doze filhos" a este casal na narrativa do banco de
     dados da Casa Suíça e "ao menos onze filhos" no texto principal — uma
     discrepância de um filho. Ver as notas de F-0033 para a discussão completa da
-    contagem.
+    contagem. [Esclarecido em 2026-10-09 a partir da transcrição integral: o livro diz
+    "pelo menos onze filhos" (p.300) e numera onze filhos (p.301, sem entrada 1.1.5), e
+    o histórico Borer (II) do banco de dados da Casa Suíça também diz "11 filhos"; os
+    "doze filhos" estão só no histórico Wehrli do banco de dados.]
 profile: >-
   ## Interesting facts
 
@@ -72,7 +85,7 @@ profile: >-
 
   - **[INFERRED]** With eleven or twelve children from the Borer marriage, she is the most direct
   demographic reason the branch never accumulated land: one poor colony lot under Brazilian
-  partible succession, divided twelve ways and then again.
+  partible succession, divided eleven or twelve ways and then again.
 
   - **[CONTEXTUAL]** The colony was named for Canton Fribourg but settled largely by Solothurn
   households like hers, on land that had been the private Fazenda do Morro Queimado two years
@@ -84,8 +97,10 @@ profile: >-
   [PUB-0003]. The immigrant matriarch of the Borer/Bohrer trunk in Brazil, and the point where
   the Wehrli and Borer families fuse.
 
-  - **Birth:** 1793 at Grindel, Soleure (Solothurn), Switzerland; exact day unknown (PUB-0003,
-  hypothesis — a published compilation alone; E-0111).
+  - **Birth:** 1793, year only; exact day unknown (PUB-0003, hypothesis — a published
+  compilation alone; E-0111). The Casa Suíça entry gives Grindel, Soleure (Solothurn),
+  Switzerland as her place of **origin**, not her birthplace; that she was born there is
+  inferred [INFERRED].
 
   - **Parents:** a daughter — the compilation says the fifth — of Johann Jacob Wehrli (P-0072)
   × Elisabetha Borer (P-0073), family F-0035 (PUB-0003; the parents' own 1782 Grindel marriage
@@ -120,9 +135,10 @@ profile: >-
 
   - **Husband:** Laurent Borer (P-0068), married 1820; family F-0033.
 
-  - **Children:** twelve with Laurent per the Casa Suíça database narrative, "at least eleven"
-  per the compilation's main text — a discrepancy preserved, not resolved [PUB-0003]. See
-  F-0033 for the collateral children; the modelled child is Vicente Borer (P-0070), born 6
+  - **Children:** at least eleven with Laurent. The book numbers eleven (p.301) and says "pelo
+  menos onze filhos" (p.300), and the Casa Suíça Borer (II) database history says "11
+  filhos"; only the Wehrli database history says twelve — a conflict within the
+  compilation, preserved [PUB-0003]. See F-0033 for the collateral children; the modelled child is Vicente Borer (P-0070), born 6
   September 1828 and baptised 13 October 1828 at Nova Friburgo (PAR-0061).
 
   - **A double wedding:** on the day she married Laurent her sister Salomea married Louis
@@ -212,7 +228,7 @@ profile: >-
 
   ## Regional and migration context
 
-  Born in the poor, land-constrained Catholic Solothurn Jura, she emigrated at about 26 with
+  From the poor, land-constrained Catholic Solothurn Jura, she emigrated at about 26 with
   the whole Wehrli household under Dom João VI's 1819 Swiss-colony scheme, driven by
   post-Napoleonic poverty and the 1816 famine. [CONTEXTUAL] She married in the colony's first
   year and remained in the Nova Friburgo area, anchoring a household on its poor serra lots.
@@ -230,8 +246,9 @@ profile: >-
 
   ## Where to go today
 
-  - **Birth (~1793):** Kath. Pfarrkirche St. Stephan, 4247 Grindel, Kt. Solothurn, Switzerland
-  — her birthplace parish, still standing [RESOLVED] ·
+  - **Birth (~1793; place inferred from her stated origin):** Kath. Pfarrkirche St. Stephan,
+  4247 Grindel, Kt. Solothurn, Switzerland — the parish of her family's origin and her
+  probable birthplace parish, still standing [RESOLVED] ·
   [Maps](https://maps.google.com/?q=47.3833,7.5042)
 
   - **Marriage to Laurent Borer (3 July 1820):** Catedral Diocesana / Igreja Matriz de São
@@ -263,7 +280,7 @@ profile_pt: >-
 
   - **[INFERRED]** Com onze ou doze filhos no casamento Borer, é a razão demográfica mais
   direta de o ramo nunca ter acumulado terra: um lote colonial pobre, sob a sucessão partível
-  brasileira, dividido em doze partes e depois outra vez.
+  brasileira, dividido em onze ou doze partes e depois outra vez.
 
   - **[CONTEXTUAL]** A colônia levou o nome do Cantão de Friburgo, mas foi povoada em grande
   parte por domicílios de Solothurn como o dela, em terras que dois anos antes de sua chegada
@@ -276,8 +293,10 @@ profile_pt: >-
   [PUB-0003]. A matriarca imigrante do tronco Borer/Bohrer no Brasil e o ponto em que as
   famílias Wehrli e Borer se fundem.
 
-  - **Nascimento:** 1793 em Grindel, Soleure (Solothurn), Suíça; dia exato desconhecido
-  (PUB-0003, hipótese — só uma compilação publicada; E-0111).
+  - **Nascimento:** 1793, só o ano; dia exato desconhecido (PUB-0003, hipótese — só uma
+  compilação publicada; E-0111). O registro da Casa Suíça dá Grindel, Soleure (Solothurn),
+  Suíça como seu local de **origem**, não de nascimento; que ela nasceu lá é uma inferência
+  [INFERRED].
 
   - **Pais:** filha — a quinta, segundo a compilação — de Johann Jacob Wehrli (P-0072) ×
   Elisabetha Borer (P-0073), família F-0035 (PUB-0003; o casamento dos pais, em Grindel, em
@@ -313,9 +332,10 @@ profile_pt: >-
 
   - **Marido:** Laurent Borer (P-0068), casados em 1820; família F-0033.
 
-  - **Filhos:** doze com Laurent segundo a narrativa do banco de dados da Casa Suíça, "ao
-  menos onze" segundo o texto principal da compilação — discrepância preservada, não resolvida
-  [PUB-0003]. Ver F-0033 para os filhos colaterais; o filho modelado é Vicente Borer (P-0070),
+  - **Filhos:** pelo menos onze com Laurent. O livro numera onze (p.301) e diz "pelo menos
+  onze filhos" (p.300), e o histórico Borer (II) do banco de dados da Casa Suíça diz "11
+  filhos"; só o histórico Wehrli do banco de dados diz doze — conflito dentro da compilação,
+  preservado [PUB-0003]. Ver F-0033 para os filhos colaterais; o filho modelado é Vicente Borer (P-0070),
   nascido em 6 de setembro de 1828 e batizado em 13 de outubro de 1828, em Nova Friburgo
   (PAR-0061).
 
@@ -407,7 +427,7 @@ profile_pt: >-
 
   ## Contexto regional e migratório
 
-  Nascida no Jura católico de Solothurn, pobre e limitado em terra, emigrou por volta dos 26
+  Vinda do Jura católico de Solothurn, pobre e limitado em terra, emigrou por volta dos 26
   anos com todo o domicílio Wehrli, sob o esquema de colônia suíça de Dom João VI de 1819,
   impelida pela pobreza pós-napoleônica e pela fome de 1816. [CONTEXTUAL] Casou-se no primeiro
   ano da colônia e permaneceu na região de Nova Friburgo, ancorando um domicílio em seus
@@ -427,8 +447,9 @@ profile_pt: >-
 
   ## Onde ir hoje
 
-  - **Nascimento (~1793):** Kath. Pfarrkirche St. Stephan, 4247 Grindel, Kt. Solothurn, Suíça
-  — a paróquia de seu nascimento, ainda de pé [RESOLVED] ·
+  - **Nascimento (~1793; local inferido da origem declarada):** Kath. Pfarrkirche St.
+  Stephan, 4247 Grindel, Kt. Solothurn, Suíça — a paróquia de origem da família e provável
+  paróquia de seu nascimento, ainda de pé [RESOLVED] ·
   [Maps](https://maps.google.com/?q=47.3833,7.5042)
 
   - **Casamento com Laurent Borer (3 de julho de 1820):** Catedral Diocesana / Igreja Matriz

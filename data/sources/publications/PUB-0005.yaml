@@ -873,15 +873,26 @@ abstract_pt: >-
   os batismos de 1698–1701 na Terceira enfraquecem ainda mais a identificação.
 reliability:
   assessment: >-
-    Mendes Forjaz is a rigorous Terceira genealogical compiler. Treated as strong-evidence
-    for specific dates and parentage. Key data for our line confirmed internally across
-    Vol. IV × Vol. IX cross-references: both volumes record the Belchior × Mariana 1650
+    Mendes Forjaz is a rigorous Terceira genealogical compiler. Its dates and parentage
+    corroborate the primary records; alone they support a hypothesis, not strong evidence
+    (research/README.md, Confidence statuses, since 2026-10-09) [reworded 2026-10-09 from
+    "Treated as strong-evidence for specific dates and parentage"]. Key data for our line
+    confirmed internally across Vol. IV × Vol. IX cross-references [corrected 2026-10-09:
+    corroborated, not confirmed — the 1650 marriage is confirmed by the original act PAR-0086;
+    the two volumes' cross-references corroborate it]: both volumes record the Belchior × Mariana 1650
     marriage. Belchior's birth [corrected 2026-10-09: baptism — the book prints "B."]
-    (10.1.1615) and death (26.6.1687) are compiled-only; his
-    military rank (Alferes de ordenanças) is stated without documentary reference. Manuel da
+    (10.1.1615) and death (26.6.1687) are compiled-only [corrected 2026-10-09: no longer — his
+    original baptism act PAR-0087 (which reads ~9 January 1615, a day before the book) and
+    burial act PAR-0088 (26.6.1687) are held, and E-0126/E-0127 are confirmed]; his
+    military rank (Alferes de ordenanças) is stated without documentary reference [added
+    2026-10-09: the book cites none, but his own burial act PAR-0088 records the rank]. Manuel da
     Ponte Valadão and Maria da Costa Leonardes death dates (1652, 1654) are stated by the
-    compiler. Gaspar de Souto-Maior's birth [corrected 2026-10-09: baptism — the book prints
-    "b."] (23.2.1657) and death (2.12.1727) are compiled-only.
+    compiler [added 2026-10-09: both are now confirmed by the original burial acts PAR-0097 and
+    PAR-0098, which write him Manuel "de Ponte Cardozo/Cardoso"]. Gaspar de Souto-Maior's birth [corrected 2026-10-09: baptism — the book prints
+    "b."] (23.2.1657) and death (2.12.1727) are compiled-only [added 2026-10-09: no record of
+    either is catalogued here; the retrieval agent has seen an image it identifies as his
+    baptism, at the CDN maximum of 383×527 px with the filiation illegible, which it dates
+    23.12.1657 — not promoted, so a lead].
     ⚠ The stated death date (2.12.1727 in S. Sebastião [corrected 2026-10-09: the book prints
     no place of death]) conflicts with his role as ancestor of
     P-0092, placed at Villa Rica c.1750 only by his son's birthplace; this is unresolved and flagged in P-0092 notes.
@@ -892,6 +903,9 @@ reliability:
   limitations: >-
     Secondary compiled source; no primary parish images held for Belchior's own baptism or
     death, for Manuel × Maria da Costa's marriage, or for Gaspar's Azorean vital records.
+    [Corrected 2026-10-09: Belchior's baptism (PAR-0087) and burial (PAR-0088) are now held, as
+    are his parents' burials (PAR-0097, PAR-0098); no image is held for Manuel × Maria da Costa's
+    marriage or for any of Gaspar's Azorean vital records.]
     The Gaspar de Souto-Maior death date conflict with P-0092's Brazil context is a material
     uncertainty (see P-0092 notes). Belchior's first wife (Bárbara Gato) and that marriage
     are stated S.g. (no children); we do not hold a primary image for that event.
@@ -935,7 +949,8 @@ notes:
     The genealogical chain from the repository root to Belchior, as established by Vol. IX:
     Gaspar de Souto Cardoso (gen 3) × Catarina Valadão → Manuel da Ponte Valadão (gen 4)
     × Maria da Costa Leonardes → Belchior da Ponte Cardoso (gen 5) × Mariana Fagundes →
-    Gaspar de Souto-Maior (gen 6, b.23.2.1657, identified as P-0092). The STATUS description
+    Gaspar de Souto-Maior (gen 6, b.23.2.1657, identified as P-0092 [corrected 2026-10-09: only
+    as a weakened hypothesis — see the next note]). The STATUS description
     "Roque→Manuel→Belchior chain" is imprecise: Roque da Ponte Cardoso (b.13.2.1575) is
     Manuel's BROTHER (not father); the grandfather is Gaspar de Souto Cardoso × Catarina Valadão.
 - text: >-
@@ -963,7 +978,17 @@ notes:
     Maria Mendes de Borba (m. 8.2.1694). A different source, PUB-0002 f. 55 (Lacerda, quoting
     the 1751 will of Francisco Ferreira Armonde, and his footnote 74 citing an online
     mailing-list post), names a "Margarida das Candeyas" as the wife of a Gaspar de Souto Maior;
-    whether she is D. Margarida Machado is an open question, not settled by this book. (5) The 1694 remarriage and the three 1698–1701 São
+    whether she is D. Margarida Machado is an open question, not settled by this book.
+    [Updated 2026-10-09: footnote 10 cross-refers D. Maria das Candeias to the same "DRUMMOND,
+    § 3º, nº 5" as D. Margarida Machado — and the book's "nº" is the person's generation number
+    in the cited section — so she is a different woman from Margarida but of her family and
+    generation [INFERRED]; and PUB-0002 f. 56, quoting a private 2008 typescript by Paulo Ribeiro Luz, makes
+    Francisco Ferreira Armonde "neto paterno do Alferes Belchior da Ponte Cardoso e de sua
+    segunda esposa Mariana Fagundes" and calls his mother "Margarida das Candeyas Machado",
+    daughter of Capitão Francisco Ferreira Ermonde/Armonde (1601–1672) and Ana/Maria Machado
+    alias Maria das Candeyas (1631–1704). Vol. IX's D. Margarida Machado and the will's Margarida
+    das Candeyas are therefore probably one woman — a [LEAD] resting on a compiled typescript
+    quoted second-hand, not proof.] (5) The 1694 remarriage and the three 1698–1701 São
     Sebastião baptisms keep him on Terceira into his forties and make the identification with
     P-0092 weaker; it stays an unresolved hypothesis. (6) § 1º names several Gaspars; only one
     is a child of Belchior × Mariana. (7) § 1º begins one generation above Gaspar de Souto
@@ -983,7 +1008,17 @@ notes:
     Maria Mendes de Borba (c. 8.2.1694). Outra fonte, PUB-0002 f. 55 (Lacerda, citando o
     testamento de 1751 de Francisco Ferreira Armonde, e a sua nota 74, que cita uma mensagem de
     lista de discussão on-line), nomeia uma "Margarida das Candeyas" como mulher de um Gaspar de
-    Souto Maior; se ela é D. Margarida Machado é pergunta aberta, que este livro não resolve. (5) O segundo casamento de 1694 e os três batismos de
+    Souto Maior; se ela é D. Margarida Machado é pergunta aberta, que este livro não resolve.
+    [Atualizado em 2026-10-09: a nota 10 remete D. Maria das Candeias para o mesmo "DRUMMOND,
+    § 3º, nº 5" que D. Margarida Machado — e o "nº" do livro é o número de geração da pessoa na
+    secção citada —, pelo que é outra mulher que não Margarida, mas da família e da geração dela
+    [INFERRED]; e o PUB-0002 f. 56, citando um datiloscrito particular de 2008 de Paulo Ribeiro Luz, faz de
+    Francisco Ferreira Armonde "neto paterno do Alferes Belchior da Ponte Cardoso e de sua
+    segunda esposa Mariana Fagundes" e chama à mãe dele "Margarida das Candeyas Machado", filha
+    do Capitão Francisco Ferreira Ermonde/Armonde (1601–1672) e de Ana/Maria Machado, dita Maria
+    das Candeyas (1631–1704). A D. Margarida Machado do Vol. IX e a Margarida das Candeyas do
+    testamento são, portanto, provavelmente a mesma mulher — [LEAD] apoiada num datiloscrito
+    compilado citado em segunda mão, não prova.] (5) O segundo casamento de 1694 e os três batismos de
     1698–1701 em São Sebastião mantêm-no na Terceira até passados os quarenta anos e enfraquecem
     a identificação com P-0092, que continua hipótese não resolvida. (6) O § 1º nomeia vários
     Gaspares; só um é filho de Belchior × Mariana. (7) O § 1º começa uma geração acima de Gaspar

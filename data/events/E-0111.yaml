@@ -4,11 +4,13 @@ event_type: birth
 date:
   kind: approximate
   text: >-
-    1793 (Grindel; PUB-0003 compilation, year only)
+    1793 (year only, PUB-0003 compilation; Grindel is her stated place of origin, the
+    birthplace inferred)
   earliest: 1793
   latest: 1793
 place_text: >-
-  Grindel, Cantão de Soleure (Solothurn), Switzerland
+  Grindel, Cantão de Soleure (Solothurn), Switzerland — her stated place of origin;
+  birthplace inferred
 participants:
 - person_id: P-0069
   role: principal
@@ -17,7 +19,7 @@ source_ids:
 - PUB-0003
 notes:
 - text: >-
-    Birthplace Grindel, Solothurn, from the Imigrantes de Nova Friburgo / Casa Suíça compilation (PUB-0003), which gives her b.1793 Grindel. Secondary compilation → strong-evidence, not primary; her own Grindel baptism is not held.
+    Birthplace Grindel, Solothurn, from the Imigrantes de Nova Friburgo / Casa Suíça compilation (PUB-0003), which gives her b.1793 Grindel. [corrected 2026-10-09: the compilation gives only "Nasceu em 1793." and names Grindel as her place of origin, not her birthplace — Grindel as birthplace is inferred; see the place note below.] Secondary compilation → strong-evidence, not primary; her own Grindel baptism is not held.
 - text: >-
     Tier downgraded strong-evidence → hypothesis on 2026-10-09: the only source is PUB-0003, a
     published genealogy, which by policy cannot confirm and, as a lone secondary source, is

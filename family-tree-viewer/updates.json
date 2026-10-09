@@ -1,19 +1,24 @@
 {
- "generated": "2026-10-09T14:34:31Z",
+ "generated": "2026-10-09T15:17:05Z",
  "updates": [
   {
    "date": "2026-10-09",
    "kind": "correction",
-   "title": "Correction: 13 dates and family links that rest only on a published genealogy are now hypotheses, not strong evidence — in the Azores, Pedro Lourenço Machado's baptism, marriage and death, his son António Martins Fagundes's parentage and death, and the Azorean baptism and parents proposed for Gaspar Ferreira; in Nova Friburgo, the Wehrli deaths and Anna Maria Werhly's birth",
-   "title_pt": "Correção: 13 datas e vínculos de família apoiados só numa genealogia publicada agora são hipóteses, não evidência forte — nos Açores, o batismo, o casamento e a morte de Pedro Lourenço Machado, a filiação e a morte de seu filho António Martins Fagundes e o batismo e os pais açorianos propostos para Gaspar Ferreira; em Nova Friburgo, as mortes dos Wehrli e o nascimento de Anna Maria Werhly",
-   "replaces": "Correction: 13 dates and family links that rest only on a published genealogy are now hypotheses, not strong evidence — in the Azores, Pedro Lourenço Machado's birth, marriage and death, his son António Martins Fagundes's parentage and death, and the Azorean birth and parents proposed for Gaspar Ferreira; in Nova Friburgo, the Wehrli deaths and Anna Maria Werhly's birth",
+   "title": "Correction: the published genealogies, re-read in full — 13 dates and family links that rest only on them are now hypotheses; several of their dates prove to be baptisms, not births; the case that Gaspar Ferreira came from Terceira is weaker; and a brother of Vicente Borer listed by mistake is removed, with two of his sisters' birth dates corrected",
+   "title_pt": "Correção: as genealogias publicadas, relidas na íntegra — 13 datas e vínculos de família apoiados só nelas agora são hipóteses; várias das suas datas são batismos, não nascimentos; a hipótese de Gaspar Ferreira ter vindo da Terceira fica mais fraca; e um irmão de Vicente Borer listado por engano foi removido, com as datas de nascimento de duas irmãs corrigidas",
+   "replaces": [
+    "Correction: 13 dates and family links that rest only on a published genealogy are now hypotheses, not strong evidence — in the Azores, Pedro Lourenço Machado's baptism, marriage and death, his son António Martins Fagundes's parentage and death, and the Azorean baptism and parents proposed for Gaspar Ferreira; in Nova Friburgo, the Wehrli deaths and Anna Maria Werhly's birth",
+    "Correction: 13 dates and family links that rest only on a published genealogy are now hypotheses, not strong evidence — in the Azores, Pedro Lourenço Machado's birth, marriage and death, his son António Martins Fagundes's parentage and death, and the Azorean birth and parents proposed for Gaspar Ferreira; in Nova Friburgo, the Wehrli deaths and Anna Maria Werhly's birth",
+    "Correction: Pedro Lourenço Machado's birth in 1571 is now marked a hypothesis — its only source is a published genealogy, not a parish record"
+   ],
    "links": [
     "P-0129",
     "P-0127",
     "P-0092",
     "P-0072",
     "P-0073",
-    "P-0069"
+    "P-0069",
+    "P-0070"
    ]
   },
   {

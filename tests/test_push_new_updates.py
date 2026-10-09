@@ -60,6 +60,12 @@ class BuildPayloadTests(unittest.TestCase):
         del unmarked["replaces"]
         self.assertIsNotNone(push.build_payload(feed(CORRECTION, OLDER), feed(unmarked, OLDER)), "without replaces it reads as a same-day addition")
 
+    def test_replaces_may_list_every_earlier_title(self) -> None:
+        # A deploy skipped between two rewordings leaves an older title live; listing every
+        # earlier title still matches it.
+        twice = dict(CORRECTION, title="Correction, widened again", replaces=["Correction, widened", CORRECTION["title"]])
+        self.assertIsNone(push.build_payload(feed(CORRECTION, OLDER), feed(twice, OLDER)))
+
     def test_a_same_day_addition_after_an_earlier_deploy_is_news(self) -> None:
         payload = push.build_payload(feed(MILESTONE, OLDER), feed(CORRECTION, MILESTONE, OLDER))
         self.assertEqual(payload["counts"], {"updates": 1, "documents": 0})

@@ -27,14 +27,32 @@ notes:
     Casa/Lote 70/56. Laurent originates from Grindel and held Casa/Lote 73/86.
     The two families shared the Heureux Voyage but were allocated different lots
     and are not proven to be closely related. The compilation states "não há
-    evidência de parentesco próximo entre os dois grupos."
+    evidência de parentesco próximo entre os dois grupos." [corrected 2026-10-09 from the
+    full transcription of PUB-0003: that quotation is on p.302 and reads "não havendo
+    evidência de parentesco próximo entre os dois grupos (Borer e Bohrer)" — it contrasts
+    these Soleure Borers with the Jura Bohrers, not BORER I with BORER II. On p.300 the
+    compiler in fact counts "os conterrâneos e também imigrantes, Jacob e Johann Borer"
+    among Laurent's relatives, without stating the degree. "Casa/Lote 70/56" for Jacob is
+    on no held page of the compilation; its only held attestation is the heading "70 / 56"
+    of the second opening of the GOV-0007 colonist register, on which "Jacques [Jacob]
+    Bocher" is the arrow-marked entry. That Laurent and Jacob were not brothers rests on
+    their two marriage registers, which name different fathers.]
   text_pt: >-
     BORER II na compilação Imigrantes de Nova Friburgo (Henrique Bon), distinto
     de Jacob Borer (P-0050, BORER I), que é originário de Erschwil e ocupou a
     Casa/Lote 70/56. Laurent é originário de Grindel e ocupou a Casa/Lote 73/86.
     As duas famílias compartilharam o Heureux Voyage, mas receberam lotes
     diferentes e não há prova de que fossem parentes próximos. A compilação afirma
-    "não há evidência de parentesco próximo entre os dois grupos."
+    "não há evidência de parentesco próximo entre os dois grupos." [corrigido em
+    2026-10-09 a partir da transcrição integral de PUB-0003: essa citação está na p.302 e
+    diz "não havendo evidência de parentesco próximo entre os dois grupos (Borer e
+    Bohrer)" — contrapõe estes Borer de Soleure aos Bohrer do Jura, e não BORER I a BORER
+    II. Na p.300 o compilador, na verdade, conta "os conterrâneos e também imigrantes,
+    Jacob e Johann Borer" entre os parentes de Laurent, sem dizer o grau. A "Casa/Lote
+    70/56" de Jacob não está em nenhuma página guardada da compilação; seu único atestado
+    guardado é o cabeçalho "70 / 56" da segunda abertura do registro de colonos GOV-0007,
+    na qual "Jacques [Jacob] Bocher" é a entrada marcada com seta. Que Laurent e Jacob não
+    eram irmãos apoia-se nos dois registros de casamento, que nomeiam pais diferentes.]
 - text: >-
     Father established as Jacob Borer of Grindel (P-0100; parentage family F-0049) by
     Laurent's own 1820 Nova Friburgo marriage (PAR-0060), which names "Jacobo Borer,
@@ -89,10 +107,10 @@ profile: >-
 
   - **[INFERRED]** With eleven or twelve children, he is the arithmetic engine of the branch's
   permanent land-poverty: one poor serra lot divided under Brazilian partible succession among
-  twelve heirs, and again among theirs, cannot become an estate.
+  eleven or twelve heirs, and again among theirs, cannot become an estate.
 
   - **[CONTEXTUAL]** His line (BORER II, Grindel, Casa 73 / Lote 86) and Jacob Bohrer's (BORER
-  I, Casa 70 / Lote 56) were co-passengers on the *Heureux Voyage* and are documented as
+  I, Casa 70 / Lote 56 per the GOV-0007 colonist register) were co-passengers on the *Heureux Voyage* and are documented as
   distinct families — a disambiguation that matters because their descendants later married
   each other and the surname converged on the single spelling "Bohrer".
 
@@ -102,8 +120,13 @@ profile: >-
   **Bohrer** in his Brazilian descendants). The immigrant founder of the Grindel Borer trunk
   in Brazil.
 
-  - **Birth:** 27 February 1797, Grindel, Soleure (Solothurn), Switzerland (PUB-0003,
-  strong-evidence; E-0060). A competing "27 July 1797" circulates only in blogs this
+  - **Birth:** 27 February 1797 (PUB-0003, the p.300 colonist table; hypothesis — a published
+  compilation alone; E-0060). The compilation gives Grindel, Soleure (Solothurn), Switzerland
+  as his place of **origin**, not his birthplace; that he was born there is inferred
+  [INFERRED]. No held original states it: his son's 1828 baptism (PAR-0061) calls the parents
+  only "naturaes do cantão de Soleure", and in his 1820 marriage (PAR-0060), "Laurenço filho
+  de Jacobo Borer natural de Grindel", the "natural de Grindel" may qualify his father rather
+  than him. A competing "27 July 1797" circulates only in blogs this
   repository does not hold [LEAD]. The Nova Friburgo settler register (GOV-0007) lists him as
   "Laurent Bocher, [18]", a roster age implying ~1802 — a ~5-year discrepancy preserved, not
   adopted.
@@ -160,21 +183,31 @@ profile: >-
   Salomea Wehrli × Luiz Nicolão Vilette and Laurent × Anna Maria on the same day, with Laurent
   witnessing his sister-in-law's act [PROVEN — PAR-0060].
 
-  - **Children:** twelve per the Casa Suíça database narrative, "at least eleven" per the
-  compilation's main text — a discrepancy preserved, not resolved [PUB-0003]. Ten collateral
-  children are catalogued on F-0033 (José, two Anna Marias, José Lourenço, Justina, José
-  Constantino, Barbara Elisabeth, Regina, Maria, Thereza); the modelled child is **Vicente
-  Borer** (P-0070, b. 6 September 1828, baptised 13 October 1828 — PAR-0061), listed as the
-  sixth son, through whom the line continues.
+  - **Children:** at least eleven. The book numbers eleven (p.301, which skips 1.1.5) and says
+  "pelo menos onze filhos" (p.300), and the Casa Suíça Borer (II) database history says "11
+  filhos"; only the Wehrli database history says twelve — a conflict within the compilation,
+  preserved [PUB-0003]. Ten collateral children are catalogued on F-0033 (José, two Anna
+  Marias, José Lourenço, Justina, José Constantino, Barbara Elisabeth, Regina, Maria,
+  Thereza); the modelled child is **Vicente Borer** (P-0070, b. 6 September 1828, baptised 13
+  October 1828 — PAR-0061), the sixth child listed (the database's "6º filho"), through whom
+  the line continues.
 
-  - **A second Borer–Wehrli tie:** a blog this repository does not hold adds that Laurent's
-  brother Johann Borer married Anna Maria's sister Catherine Wehrli — a claimed double
-  sibling-marriage [LEAD].
+  - **A second Borer–Wehrli tie:** Johann Borer (BORER III, of Erschwil), who married Anna
+  Maria's sister Catherine Wehrli in the Netherlands and shared house 73 / lot 86, is called by
+  the book itself "provavelmente também filho de Jacob Borer" (p.302) — probably Laurent's
+  brother, which would make a double sibling-marriage; the Casa Suíça Wehrli history calls him
+  instead "provavelmente seu primo" (Catherine's cousin). A hedged compiled suggestion
+  [PUB-0003], repeated by a blog this repository does not hold — not evidence [LEAD].
 
   - **Distinct from BORER I:** Laurent (Grindel, Casa 73 / Lote 86) is not Jacob Bohrer
-  (P-0050, Beinwil/Erschwil, Casa 70 / Lote 56); the compilation states "não há evidência de
-  parentesco próximo entre os dois grupos", and the two marriage registers name different
-  fathers from different villages [PROVEN that the fathers differ].
+  (P-0050, Beinwil/Erschwil; Casa 70 / Lote 56 per the heading of the GOV-0007 register
+  opening on which he is listed — no held page of the compilation gives it): the two marriage
+  registers name different fathers from different villages, so they were not brothers [PROVEN
+  that the fathers differ]. The compilation treats them as separate families, yet on p.300 it
+  counts "os conterrâneos e também imigrantes, Jacob e Johann Borer" among Laurent's
+  relatives, without saying how they were related [PUB-0003; that this Jacob is BORER I's is
+  INFERRED]. Its line "não havendo evidência de parentesco próximo entre os dois grupos (Borer
+  e Bohrer)" (p.302) concerns the Soleure Borers and the Jura Bohrers, not these two lines.
 
   ## What we can extrapolate
 
@@ -224,13 +257,13 @@ profile: >-
   Ribeirão**, his grandson José Maria Bocher marries in 1913 at Maravilhas, **Barra Alegre
   (Bom Jardim)**, described as a *lavrador* (CIV-0048), and the FS-tree lead puts Laurent's
   own death at São José do Ribeirão. That is the colony's documented failure pattern working
-  itself out in one family: the lot could not carry twelve heirs, so the sons went out as farm
+  itself out in one family: the lot could not carry eleven or twelve heirs, so the sons went out as farm
   labour onto the surrounding fluminense highlands.
 
   - **The arc, named, with its turning points [INFERRED].** Grindel smallholder's son with
   nothing to inherit (pre-1819) → **turning point 1: the 1819 decree**, which converts
   landlessness into a poor colony lot → **turning point 2: the 1820 marriage**, which buys kin
-  and standing but no capital → **turning point 3: twelve heirs**, which guarantees the lot
+  and standing but no capital → **turning point 3: eleven or twelve heirs**, which guarantees the lot
   cannot descend intact → **turning point 4: the drift off the lot** into São José do Ribeirão
   and Bom Jardim as *lavradores*, with literacy lost on the way. Flat, then flat again; no
   fortune was built, so none was lost. His trunk only rises much later, and elsewhere, when a
@@ -292,8 +325,9 @@ profile: >-
 
   ## Where to go today
 
-  - **Birth (27 February 1797):** Kath. Pfarrkirche St. Stephan, 4247 Grindel, Kt. Solothurn,
-  Switzerland [RESOLVED] · [Maps](https://maps.google.com/?q=47.3833,7.5042)
+  - **Birth (27 February 1797; place inferred from his stated origin):** Kath. Pfarrkirche St.
+  Stephan, 4247 Grindel, Kt. Solothurn, Switzerland — the parish of his stated origin and his
+  probable birthplace parish [RESOLVED] · [Maps](https://maps.google.com/?q=47.3833,7.5042)
 
   - **Marriage to Anna Maria Wehrli (3 July 1820):** Catedral Diocesana / Igreja Matriz de São
   João Batista, Rua Monsenhor José Antônio Teixeira 23, Centro, Nova Friburgo, RJ — the 1820
@@ -329,10 +363,10 @@ profile_pt: >-
 
   - **[INFERRED]** Com onze ou doze filhos, é o motor aritmético da pobreza fundiária
   permanente do ramo: um lote serrano pobre dividido, sob a sucessão partível brasileira,
-  entre doze herdeiros, e outra vez entre os filhos destes, não pode virar patrimônio.
+  entre onze ou doze herdeiros, e outra vez entre os filhos destes, não pode virar patrimônio.
 
   - **[CONTEXTUAL]** Sua linha (BORER II, Grindel, Casa 73 / Lote 86) e a de Jacob Bohrer
-  (BORER I, Casa 70 / Lote 56) foram copassageiras no *Heureux Voyage* e estão documentadas
+  (BORER I, Casa 70 / Lote 56 segundo o registro de colonos GOV-0007) foram copassageiras no *Heureux Voyage* e estão documentadas
   como famílias distintas — desambiguação que importa porque os descendentes das duas se
   casaram depois entre si e o sobrenome convergiu na grafia única "Bohrer".
 
@@ -342,8 +376,13 @@ profile_pt: >-
   **Bohrer** em seus descendentes brasileiros). O fundador imigrante do tronco Borer de
   Grindel no Brasil.
 
-  - **Nascimento:** 27 de fevereiro de 1797, Grindel, Soleure (Solothurn), Suíça (PUB-0003,
-  evidência forte; E-0060). Um concorrente "27 de julho de 1797" circula apenas em blogs que
+  - **Nascimento:** 27 de fevereiro de 1797 (PUB-0003, o quadro de colonos da p.300; hipótese
+  — só uma compilação publicada; E-0060). A compilação dá Grindel, Soleure (Solothurn), Suíça
+  como seu local de **origem**, não de nascimento; que ele nasceu lá é uma inferência
+  [INFERRED]. Nenhum original guardado o afirma: o batismo do filho em 1828 (PAR-0061) diz os
+  pais apenas "naturaes do cantão de Soleure", e no casamento dele em 1820 (PAR-0060),
+  "Laurenço filho de Jacobo Borer natural de Grindel", o "natural de Grindel" pode qualificar
+  o pai, e não ele. Um concorrente "27 de julho de 1797" circula apenas em blogs que
   este repositório não retém [LEAD]. O registro de colonos de Nova Friburgo (GOV-0007) o lista
   como "Laurent Bocher, [18]", idade de rol que implicaria ~1802 — discrepância de ~5 anos
   preservada, não adotada.
@@ -402,21 +441,32 @@ profile_pt: >-
   1820 registram Salomea Wehrli × Luiz Nicolão Vilette e Laurent × Anna Maria no mesmo dia,
   com Laurent testemunhando o ato da cunhada [PROVEN — PAR-0060].
 
-  - **Filhos:** doze segundo a narrativa do banco de dados da Casa Suíça, "ao menos onze"
-  segundo o texto principal da compilação — discrepância preservada, não resolvida [PUB-0003].
-  Dez filhos colaterais estão catalogados em F-0033 (José, duas Anna Marias, José Lourenço,
-  Justina, José Constantino, Barbara Elisabeth, Regina, Maria, Thereza); o filho modelado é
-  **Vicente Borer** (P-0070, n. 6 de setembro de 1828, batizado em 13 de outubro de 1828 —
-  PAR-0061), listado como sexto filho, por quem a linha continua.
+  - **Filhos:** pelo menos onze. O livro numera onze (p.301, que salta o 1.1.5) e diz "pelo
+  menos onze filhos" (p.300), e o histórico Borer (II) do banco de dados da Casa Suíça diz "11
+  filhos"; só o histórico Wehrli do banco de dados diz doze — conflito dentro da compilação,
+  preservado [PUB-0003]. Dez filhos colaterais estão catalogados em F-0033 (José, duas Anna
+  Marias, José Lourenço, Justina, José Constantino, Barbara Elisabeth, Regina, Maria,
+  Thereza); o filho modelado é **Vicente Borer** (P-0070, n. 6 de setembro de 1828, batizado
+  em 13 de outubro de 1828 — PAR-0061), o sexto filho listado (o "6º filho" do banco de
+  dados), por quem a linha continua.
 
-  - **Um segundo laço Borer–Wehrli:** um blog que este repositório não retém acrescenta que o
-  irmão de Laurent, Johann Borer, casou-se com a irmã de Anna Maria, Catherine Wehrli —
-  alegado casamento duplo entre irmãos [LEAD].
+  - **Um segundo laço Borer–Wehrli:** Johann Borer (BORER III, de Erschwil), que se casou na
+  Holanda com a irmã de Anna Maria, Catherine Wehrli, e dividiu a casa 73 / lote 86, é chamado
+  pelo próprio livro de "provavelmente também filho de Jacob Borer" (p.302) — provável irmão
+  de Laurent, o que faria um casamento duplo entre irmãos; o histórico Wehrli da Casa Suíça o
+  diz, em vez disso, "provavelmente seu primo" (primo de Catherine). Sugestão compilada e
+  ressalvada [PUB-0003], repetida por um blog que este repositório não retém — não evidência
+  [LEAD].
 
   - **Distinto de BORER I:** Laurent (Grindel, Casa 73 / Lote 86) não é Jacob Bohrer (P-0050,
-  Beinwil/Erschwil, Casa 70 / Lote 56); a compilação afirma "não há evidência de parentesco
-  próximo entre os dois grupos", e os dois registros de casamento nomeiam pais diferentes, de
-  aldeias diferentes [PROVEN que os pais diferem].
+  Beinwil/Erschwil; Casa 70 / Lote 56 segundo o cabeçalho da abertura do registro GOV-0007 em
+  que ele está listado — nenhuma página guardada da compilação a dá): os dois registros de
+  casamento nomeiam pais diferentes, de aldeias diferentes, logo não eram irmãos [PROVEN que
+  os pais diferem]. A compilação os trata como famílias separadas, mas na p.300 conta "os
+  conterrâneos e também imigrantes, Jacob e Johann Borer" entre os parentes de Laurent, sem
+  dizer como eram aparentados [PUB-0003; que este Jacob seja o de BORER I é INFERRED]. Sua
+  frase "não havendo evidência de parentesco próximo entre os dois grupos (Borer e Bohrer)"
+  (p.302) trata dos Borer de Soleure e dos Bohrer do Jura, não destas duas linhas.
 
   ## O que podemos extrapolar
 
@@ -467,13 +517,13 @@ profile_pt: >-
   Vicente nasce em **São José do Ribeirão**, seu neto José Maria Bocher casa-se em 1913 em
   Maravilhas, **Barra Alegre (Bom Jardim)**, descrito como *lavrador* (CIV-0048), e a pista da
   árvore FS põe o próprio óbito de Laurent em São José do Ribeirão. É o padrão documentado de
-  fracasso da colônia se desenrolando numa família: o lote não podia sustentar doze herdeiros,
+  fracasso da colônia se desenrolando numa família: o lote não podia sustentar onze ou doze herdeiros,
   e os filhos saíram como mão de obra agrícola pelas serras fluminenses vizinhas.
 
   - **O arco, nomeado, com seus pontos de virada [INFERRED].** Filho de pequeno lavrador de
   Grindel, sem nada a herdar (pré-1819) → **virada 1: o decreto de 1819**, que converte a
   falta de terra num lote colonial pobre → **virada 2: o casamento de 1820**, que compra
-  parentela e posição, mas não capital → **virada 3: doze herdeiros**, que garante que o lote
+  parentela e posição, mas não capital → **virada 3: onze ou doze herdeiros**, que garante que o lote
   não possa descer inteiro → **virada 4: a saída do lote** rumo a São José do Ribeirão e Bom
   Jardim como *lavradores*, com a alfabetização perdida no caminho. Plano, e depois plano de
   novo; nenhuma fortuna foi construída, então nenhuma foi perdida. Seu tronco só sobe muito
@@ -538,8 +588,9 @@ profile_pt: >-
 
   ## Onde ir hoje
 
-  - **Nascimento (27 de fevereiro de 1797):** Kath. Pfarrkirche St. Stephan, 4247 Grindel, Kt.
-  Solothurn, Suíça [RESOLVED] · [Maps](https://maps.google.com/?q=47.3833,7.5042)
+  - **Nascimento (27 de fevereiro de 1797; local inferido da origem declarada):** Kath.
+  Pfarrkirche St. Stephan, 4247 Grindel, Kt. Solothurn, Suíça — a paróquia de sua origem
+  declarada e provável paróquia de seu nascimento [RESOLVED] · [Maps](https://maps.google.com/?q=47.3833,7.5042)
 
   - **Casamento com Anna Maria Wehrli (3 de julho de 1820):** Catedral Diocesana / Igreja
   Matriz de São João Batista, Rua Monsenhor José Antônio Teixeira 23, Centro, Nova Friburgo,

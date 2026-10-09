@@ -8,13 +8,18 @@ place_text: São Sebastião, Terceira, Azores
 participants:
 - person_id: P-0123
   role: principal
+- person_id: P-0125
+  role: parent
+- person_id: P-0126
+  role: parent
 status: confirmed
 source_ids:
 - PUB-0005
 - PAR-0087
 notes:
 - text: >-
-    Birth of Belchior da Ponte Cardoso (P-0123) on 10 January 1615, S. Sebastião, Terceira.
+    Birth [corrected 2026-10-09: baptism] of Belchior da Ponte Cardoso (P-0123) on 10 January
+    1615, S. Sebastião, Terceira.
     Mendes Forjaz Vol. IX (PUB-0005, p.260): "B. em S. Sebastião a 10.1.1615". Primary
     baptism image (PAR-0087, TER-AH-SAOSEBASTIAO-B-1611-1687, p.0037) confirms: child
     "Belchior fo a Manoell de Ponte e de sua molher Maria da Cota". The primary image date
@@ -31,3 +36,26 @@ notes:
     um batismo — o assento original do livro de batismos de São Sebastião (PAR-0087) e o Vol. IX,
     que imprime "B." (sua abreviatura de batizado, distinta de "n." para nascido). Data, nível e
     fontes inalterados.
+- text: >-
+    Date and participants reviewed 2026-10-09. DATE: the event keeps the compiled day, 10 January
+    1615 (Vol. IX, PUB-0005 p.260: "B. em S. Sebastião a 10.1.1615"), but the primary register
+    entry PAR-0087 reads approximately 9 January 1615, so the honest statement is "baptised 9 or
+    10 January 1615". The date schema has no day-precision range (a range carries only years, and
+    a "conflicting" date would drop the day and the year from the timeline), so the exact value is
+    retained and this note records the one-day discrepancy; neither day is settled. A
+    higher-resolution scan of TER-AH-SAOSEBASTIAO-B-1611-1687 p.0037 would decide it.
+    PARTICIPANTS: PAR-0087 names the parents, "Manoell de Ponte" and "sua molher Maria da Cota",
+    so Manuel da Ponte Cardoso (P-0125) and Maria da Costa Leonardes (P-0126) were added as
+    parents and this event was added to their event_ids.
+  text_pt: >-
+    Data e participantes revistos em 2026-10-09. DATA: o evento mantém o dia compilado, 10 de
+    janeiro de 1615 (Vol. IX, PUB-0005 p.260: "B. em S. Sebastião a 10.1.1615"), mas o assento
+    original PAR-0087 lê-se aproximadamente 9 de janeiro de 1615, pelo que a afirmação honesta é
+    "batizado a 9 ou 10 de janeiro de 1615". O esquema de datas não tem intervalo com precisão de
+    dia (um intervalo só leva anos, e uma data "conflicting" tiraria o dia e o ano da linha do
+    tempo), por isso o valor exato fica e esta nota regista a discrepância de um dia; nenhum dos
+    dois dias está decidido. Uma digitalização em maior resolução de
+    TER-AH-SAOSEBASTIAO-B-1611-1687 p.0037 resolveria a questão. PARTICIPANTES: o PAR-0087 nomeia
+    os pais, "Manoell de Ponte" e "sua molher Maria da Cota"; por isso Manuel da Ponte Cardoso
+    (P-0125) e Maria da Costa Leonardes (P-0126) foram acrescentados como pais e este evento foi
+    acrescentado aos event_ids deles.

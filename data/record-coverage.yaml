@@ -655,7 +655,7 @@ people:
   - record_type: birth
     status: unsearched
     source_ids: []
-    last_reviewed: "2026-10-08"
+    last_reviewed: "2026-10-09"
     next_action: >-
       HIGHEST-VALUE ACTIONS NOW (2026-10-08). The 2026-09-25 ask for the 1839 Meia
       Pataca map is superseded: that map has been read and is negative (2026-10-08
@@ -684,6 +684,20 @@ people:
       1845 inventário (partilha/título with filiation + ages) to test the six named
       adult "Ferreira Armonde" heirs as candidate fathers; then Simplício's ~1853
       baptism / his marriage to Eliza (each names his parents).
+      Trunk-origin lead (added 2026-10-09; PUB-0002 ff. 55–56 — LEAD; these test the
+      Barbacena trunk's own Terceira genealogy, not Simplício's link to the trunk):
+      (a) obtain Francisco Ferreira Armonde's 1751 inventário post mortem with the will
+      attached to it (fls. 17, per PUB-0002 n. 74), Museu Regional de São João del-Rei
+      (MRSJDR); the will states his birthplace and parents in his own declaration.
+      (b) Read the São Sebastião (Terceira) baptism register page by page for c.1690–1697
+      for a Francisco, son of Gaspar de Souto Maior and Margarida (das Candeyas) Machado.
+      The window narrows to c.1691–April 1693 if the 2.10.1690 marriage (PUB-0005) and
+      Margarida's 9.4.1693 death (PUB-0002 n. 74) are both right; it runs to 1697 only for
+      n. 73's age of 50 in 1747. BPAR's 2026-09-01 reply (person note below) relays that
+      the printed genealogy locates no baptism for him, so this is a manual register read,
+      not a repeat index search. (c) Seek the unpublished typescript "LUZ, Paulo Ribeiro,
+      Material genealógico sobre a família Ferreira Armonde, digitado, 2008" (privately
+      shared with Lacerda) as a lead to its underlying parish citations, never as evidence.
     notes:
     - text: >-
         Collateral Barbacena Armond leads to cross-search when hunting Simplício's
@@ -1233,6 +1247,19 @@ people:
       him with Simplício de Toledo (PRB-0008 item 6). Before revisiting anything: catalogue
       PRB-0008 p7, and compare how each list enters the husbands of the other married
       daughters.
+  - text: >-
+      2026-10-09 — PUB-0002 f. 56 transcribed (LEAD, trunk-level). Lacerda, following a
+      private 2008 typescript by Paulo Ribeiro Luz and a RootsWeb AZORES list post, makes
+      the Barbacena patriarch Francisco Ferreira Armonde (d. 1751) the son of Gaspar de
+      Souto Maior and Margarida das Candeyas Machado, a paternal grandson of Belchior da
+      Ponte Cardoso × Mariana Fagundes (F-0062) and a maternal grandson of a Capitão
+      Francisco Ferreira Ermonde or Armonde (1601–1672). Only the parents' names come from
+      the will as the thesis quotes it. If this genealogy and the unproven
+      Piacatuba–Barbacena bridge both hold, Simplício's own line would reach F-0062, which
+      the tree now places, on a weakened identification, above Eliza's Toledo line through
+      P-0092. Flagged conflict inside the thesis: n. 73's age of 50 in 1747 (born c.1697)
+      against n. 74's death of the mother on 9.4.1693. No node minted, no link changed;
+      the three tests are in the birth next_action.
 - person_id: P-0017
   external_profiles: []
   records:

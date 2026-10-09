@@ -256,17 +256,24 @@ def merge_intervals(intervals: Iterable[DateInterval]) -> DateInterval | None:
     )
 
 
+# A baptism bounds a birth from above (the child was born on or before it), as a burial bounds
+# a death. A person with no proven birth or death event is checked against those bounds, so the
+# chronology rules still see someone whose earliest record is a baptism or a burial.
+VITAL_BOUNDS = {"baptism": "birth", "burial": "death"}
+
+
 def vital_intervals(
     entities: Mapping[str, Mapping[str, LoadedEntity]],
 ) -> tuple[dict[str, DateInterval], dict[str, DateInterval]]:
-    births: dict[str, list[DateInterval]] = defaultdict(list)
-    deaths: dict[str, list[DateInterval]] = defaultdict(list)
+    found: dict[str, dict[str, list[DateInterval]]] = {
+        kind: defaultdict(list) for kind in ("birth", "death", *VITAL_BOUNDS)
+    }
     for event in entities["events"].values():
         data = event.data
         if data.get("status") not in {"confirmed", "strong-evidence"}:
             continue
         event_type = data.get("event_type")
-        if event_type not in {"birth", "death"}:
+        if event_type not in found:
             continue
         interval = date_interval(data.get("date"))
         if interval is None:
@@ -280,20 +287,25 @@ def vital_intervals(
         ]
         if len(principals) != 1:
             continue
-        target = births if event_type == "birth" else deaths
-        target[principals[0]].append(interval)
-    return (
-        {
+        found[event_type][principals[0]].append(interval)
+
+    def resolve(kind: str) -> dict[str, DateInterval]:
+        resolved = {
             person_id: interval
-            for person_id, values in births.items()
+            for person_id, values in found[kind].items()
             if (interval := merge_intervals(values)) is not None
-        },
-        {
-            person_id: interval
-            for person_id, values in deaths.items()
-            if (interval := merge_intervals(values)) is not None
-        },
-    )
+        }
+        for bound, bounded in VITAL_BOUNDS.items():
+            if bounded != kind:
+                continue
+            for person_id, values in found[bound].items():
+                interval = merge_intervals(values)
+                if person_id not in resolved and interval is not None:
+                    # Only the upper bound is known: no earlier limit on the birth or death.
+                    resolved[person_id] = DateInterval(date.min, interval.latest)
+        return resolved
+
+    return resolve("birth"), resolve("death")
 
 
 def validate_event_principals(

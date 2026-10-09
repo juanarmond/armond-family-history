@@ -5,6 +5,21 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-10-09 — Code review of the transcription pass; Lacerda f. 56
+
+**Amends the entry below**, which called the Ferreira Armonde trunk a new lead: it has been recorded since
+2026-08-10 (logs/2026-08-10-newdrop-azorean-trunk-and-asentinella.md), and on 2026-09-01 the uncatalogued
+1690 São Sebastião marriage image was read with all four parents' given names (Alferes Belchior de Ponte,
+Mariana; Francisco Ferreira de Ermonde, D. Ana Machado). PUB-0002 f. 56, now transcribed in full,
+restates it after Paulo Ribeiro Luz's private 2008 typescript: the patriarch was "neto paterno do
+Alferes Belchior da Ponte Cardoso e de sua segunda esposa Mariana Fagundes" and "neto materno do Capitão
+Francisco Ferreira Ermonde ou Armonde (1601-1672) com Ana Machado, também conhecida por Maria Machado ou
+Maria das Candeyas (1631-1704)"; his mother "Margarida das Candeyas Machado". Still a lead; the 1690 act
+is the record to catalogue. A review then found remnants of the day's corrections; four parallel passes
+on disjoint files fixed them (see CHANGELOG). Engineering: baptism and burial now bound births and
+deaths in the chronology checks; `replaces` takes a list. Restoring/next records: the 1690 marriage image,
+the patriarch's 1751 will and inventory (MRSJDR), a page read of São Sebastião baptisms 1691–1693.
+
 ## 2026-10-09 — Published works: cited pages transcribed in full
 
 Owner directive: transcribe each cited page in full, so a page is read once and researched from the
