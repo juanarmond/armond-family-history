@@ -5,6 +5,14 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — flags and family tags aligned on the right (2026-10-09)
+
+- Person rows (phone lists and search results) keep the name across the full width and line up the
+  flag (on the name line) and the family tag (on the years line) on the right, so they read as two
+  columns down a list; each line has its own space, so long names still fit on one line.
+  `design/UI-STANDARDS.md` records the new rule (owner-approved); headers and What's new keep their
+  tags beside the dates or in the entry's meta line.
+
 ### Added — UI & layout standards (2026-10-09)
 
 - `design/UI-STANDARDS.md` records the viewer's rules — the phone frame, the desktop layout, theme

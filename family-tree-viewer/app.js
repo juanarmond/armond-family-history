@@ -893,12 +893,12 @@ function renderSearchResults(query) {
     item.type = "button";
     item.className = "search-result";
     item.setAttribute("role", "option");
-    const name = document.createElement("span");
-    name.className = "search-result-name";
-    appendNameWithFlag(name, person.name, nationalityFlag(person.nationality));
-    item.append(name);
-    const subline = personSubline(person.privacy === "living" ? "" : lifespan(person), branchTags(person.id));
-    if (subline) item.append(subline);
+    fillPersonRow(item, {
+      name: person.name,
+      flag: nationalityFlag(person.nationality),
+      sub: person.privacy === "living" ? "" : lifespan(person),
+      tags: branchTags(person.id),
+    });
     item.addEventListener("click", () => selectSearchResult(person.id));
     box.append(item);
   }
@@ -3229,41 +3229,47 @@ function closeDetails() {
 const MOBILE_QUERY = window.matchMedia("(max-width: 700px)");
 const isMobile = () => MOBILE_QUERY.matches;
 
-// A name with its flag kept on the same line as the last word, so a long name wraps but the
-// flag never drops onto a line of its own.
-function appendNameWithFlag(container, name, flag) {
-  if (!flag) {
-    container.append(name);
-    return;
+// A person row: the name across the full width; the flag and the family tag lined up on the right
+// (flag beside the name, tag beside the years), so they read as two tidy columns down a list.
+function fillPersonRow(row, { name, flag, sub, tags, chevron }) {
+  row.classList.add("person-grid");
+  // Each line is its own flex row, so the name line gives up only the flag's width.
+  const top = document.createElement("span");
+  top.className = "pg-line";
+  const label = document.createElement("span");
+  label.className = "pg-name";
+  label.textContent = name;
+  top.append(label);
+  if (flag) {
+    flag.classList.add("pg-flag");
+    top.append(flag);
   }
-  const words = String(name).split(" ");
-  const last = words.pop();
-  if (words.length) container.append(`${words.join(" ")} `);
-  const tail = document.createElement("span");
-  tail.className = "name-tail";
-  tail.append(last, " ", flag);
-  container.append(tail);
-}
-
-// The second line of a person row: years, then the family tag, small and muted.
-function personSubline(text, tags) {
-  if (!text && !tags) return null;
-  const line = document.createElement("span");
-  line.className = "person-subline";
-  if (text) {
+  row.append(top);
+  if (sub || tags) {
+    const bottom = document.createElement("span");
+    bottom.className = "pg-line pg-sub-line";
     const years = document.createElement("span");
-    years.className = "person-subline-years";
-    years.textContent = text;
-    line.append(years);
+    years.className = "pg-sub";
+    years.textContent = sub || "";
+    bottom.append(years);
+    if (tags) {
+      tags.classList.add("pg-tags");
+      bottom.append(tags);
+    }
+    row.append(bottom);
   }
-  if (tags) line.append(tags);
-  return line;
+  if (chevron) {
+    const mark = document.createElement("span");
+    mark.className = "mobile-row-chevron pg-chev";
+    mark.setAttribute("aria-hidden", "true");
+    mark.textContent = "›";
+    row.append(mark);
+  }
 }
 
-// One tappable relation row: the name across the full width (flag attached), and beneath it
-// the years and family tag, like a contacts list. Rows for a modelled person we can re-centre
-// on are buttons; documented-only relations (no entity) are inert. options.tags adds the
-// person's branch tags; options.colour draws that branch's colour down the row's edge.
+// One tappable relation row (see fillPersonRow). Rows for a modelled person we can re-centre on
+// are buttons; documented-only relations (no entity) are inert. options.tags adds the person's
+// branch tags; options.colour draws that branch's colour down the row's edge.
 function mobileRelationRow(id, name, meta, options = {}) {
   const target = id && state.data.people[id];
   const row = document.createElement(target ? "button" : "div");
@@ -3273,22 +3279,13 @@ function mobileRelationRow(id, name, meta, options = {}) {
     row.type = "button";
     row.addEventListener("click", () => focusPerson(id));
   }
-  const main = document.createElement("span");
-  main.className = "mobile-row-main";
-  const label = document.createElement("span");
-  label.className = "mobile-row-name";
-  appendNameWithFlag(label, name, target ? nationalityFlag(target.nationality) : null);
-  main.append(label);
-  const subline = personSubline(target ? lifespan(target) : meta, options.tags && target ? branchTags(id) : null);
-  if (subline) main.append(subline);
-  row.append(main);
-  if (target) {
-    const chevron = document.createElement("span");
-    chevron.className = "mobile-row-chevron";
-    chevron.setAttribute("aria-hidden", "true");
-    chevron.textContent = "›";
-    row.append(chevron);
-  }
+  fillPersonRow(row, {
+    name,
+    flag: target ? nationalityFlag(target.nationality) : null,
+    sub: target ? lifespan(target) : meta,
+    tags: options.tags && target ? branchTags(id) : null,
+    chevron: Boolean(target),
+  });
   return row;
 }
 

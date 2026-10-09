@@ -58,9 +58,11 @@ These rules govern every change to the viewer (`family-tree-viewer/`) and its re
 
 - **Container card:** `background: var(--card); border: 1px solid var(--rule); border-radius:
   var(--radius-lg); box-shadow: var(--shadow-sm)`.
-- **Person row** (`mobileRelationRow`, search results): two lines — the name across the full width
-  with the flag kept beside the last word (`appendNameWithFlag`); beneath, years and family tag,
-  small and muted (`personSubline`); a chevron when tappable. Never "…" on a name.
+- **Person row** (`mobileRelationRow`, search results — built by `fillPersonRow`): two lines — the
+  name across the full width with the **flag aligned right** on its line; beneath, the years (small,
+  muted) with the **family tag aligned right**; a chevron when tappable. Flags and tags so form two
+  tidy columns down a list. Never "…" on a name. Headers (the person page title, the person-view
+  card) keep the tag beside the dates, and What's new keeps its tags in the entry's meta line.
 - **Family tag** `branchTagsFor()`; **evidence badge** `createBadge()` — never mix them.
 - **"These families · N / Everything · M"** — `scopeSwitch()`, for any list that can be scoped.
 - **Buttons:** primary green full-width pill (`.branch-cta`); secondary outlined pill

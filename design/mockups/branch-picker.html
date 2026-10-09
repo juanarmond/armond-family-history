@@ -203,6 +203,11 @@
   .dp .tier-contextual { background: #ece7f3; color: #5d4f7a; }
   .dp ul.facts { padding-left: 1.05rem; }
   .dp ul.facts li + li { margin-top: .5rem; }
+
+  /* As shipped: the flag and the family tag line up on the right of their rows. */
+  .pname { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  .pyears-line { justify-content: space-between; }
+  .pyears-line .tag { margin-left: auto; }
 </style>
 </head>
 <body>
@@ -311,10 +316,10 @@
 
           <div class="section-label" data-en="The four rivers" data-pt="Os quatro rios"></div>
           <div class="couple">
-            <div class="row"><span class="bar" style="--b: var(--b-armond)"></span><span class="grow"><div class="pname">Geraldo Paz <span class="name-tail">Armond <span class="flag-br" role="img" aria-label="Brazilian"></span></span></div><div class="pyears-line"><span class="pyears">1915 – 1991</span><span class="tag" style="--b: var(--b-armond)">Armond</span></div></span><span class="chev">›</span></div>
-            <div class="row"><span class="bar" style="--b: var(--b-engracio)"></span><span class="grow"><div class="pname">Cidalia Engracio <span class="name-tail">Guimarães <span class="flag-br" role="img" aria-label="Brazilian"></span></span></div><div class="pyears-line"><span class="pyears">1930 – 2023</span><span class="tag" style="--b: var(--b-engracio)">Engracio</span></div></span><span class="chev">›</span></div>
-            <div class="row"><span class="bar" style="--b: var(--b-muniz)"></span><span class="grow"><div class="pname">Antenor <span class="name-tail">Muniz <span class="flag-br" role="img" aria-label="Brazilian"></span></span></div><div class="pyears-line"><span class="pyears">1923 – 2014</span><span class="tag" style="--b: var(--b-muniz)">Muniz</span></div></span><span class="chev">›</span></div>
-            <div class="row"><span class="bar" style="--b: var(--b-bohrer)"></span><span class="grow"><div class="pname">Iris Bohrer <span class="name-tail">Muniz <span class="flag-br" role="img" aria-label="Brazilian"></span></span></div><div class="pyears-line"><span class="pyears">1929 – 2021</span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div></span><span class="chev">›</span></div>
+            <div class="row"><span class="bar" style="--b: var(--b-armond)"></span><span class="grow"><div class="pname">Geraldo Paz Armond <span class="flag-br" role="img" aria-label="Brazilian"></span></div><div class="pyears-line"><span class="pyears">1915 – 1991</span><span class="tag" style="--b: var(--b-armond)">Armond</span></div></span><span class="chev">›</span></div>
+            <div class="row"><span class="bar" style="--b: var(--b-engracio)"></span><span class="grow"><div class="pname">Cidalia Engracio Guimarães <span class="flag-br" role="img" aria-label="Brazilian"></span></div><div class="pyears-line"><span class="pyears">1930 – 2023</span><span class="tag" style="--b: var(--b-engracio)">Engracio</span></div></span><span class="chev">›</span></div>
+            <div class="row"><span class="bar" style="--b: var(--b-muniz)"></span><span class="grow"><div class="pname">Antenor Muniz <span class="flag-br" role="img" aria-label="Brazilian"></span></div><div class="pyears-line"><span class="pyears">1923 – 2014</span><span class="tag" style="--b: var(--b-muniz)">Muniz</span></div></span><span class="chev">›</span></div>
+            <div class="row"><span class="bar" style="--b: var(--b-bohrer)"></span><span class="grow"><div class="pname">Iris Bohrer Muniz <span class="flag-br" role="img" aria-label="Brazilian"></span></div><div class="pyears-line"><span class="pyears">1929 – 2021</span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></div></span><span class="chev">›</span></div>
           </div>
           <button class="full-tree" data-en="Browse the tree" data-pt="Navegar pela árvore"></button>
 
@@ -337,7 +342,7 @@
         <span class="tab"><svg><use href="#i-ask"/></svg><span data-en="Ask AI" data-pt="Perguntar"></span></span>
       </nav>
     </div>
-    <p class="note"><b>Your home.</b> Each row puts the name across the width with its flag, and the years and family beneath. It starts at the four grandparents, one tap into any river, and <b>Browse the tree</b> opens the person-by-person view. <b>The bar at the bottom</b> holds What’s new, the Story and Ask AI, always one thumb-tap away. The <b>3</b> counts the updates published since you last opened What’s new. Help is the <b>?</b> at the top right; tapping the logo or the title goes back to the family question, which has the EN | PT switch.</p>
+    <p class="note"><b>Your home.</b> Each row puts the name across the width, with the flag and the family tag lined up on the right. It starts at the four grandparents, one tap into any river, and <b>Browse the tree</b> opens the person-by-person view. <b>The bar at the bottom</b> holds What’s new, the Story and Ask AI, always one thumb-tap away. The <b>3</b> counts the updates published since you last opened What’s new. Help is the <b>?</b> at the top right; tapping the logo or the title goes back to the family question, which has the EN | PT switch.</p>
   </figure>
 
   <!-- 3 · HOME, MUNIZ + BOHRER -->
@@ -352,16 +357,16 @@
 
           <div class="section-label" data-en="Where these families meet" data-pt="Onde estas famílias se encontram"></div>
           <div class="couple">
-            <div class="row"><span class="bar" style="--b: var(--b-muniz)"></span><span class="grow"><div class="pname">Antenor <span class="name-tail">Muniz <span class="flag-br" role="img" aria-label="Brazilian"></span></span></div><div class="pyears">1923 – 2014</div></span><span class="chev">›</span></div>
-            <div class="row"><span class="bar" style="--b: var(--b-bohrer)"></span><span class="grow"><div class="pname">Iris Bohrer <span class="name-tail">Muniz <span class="flag-br" role="img" aria-label="Brazilian"></span></span></div><div class="pyears">1929 – 2021</div></span><span class="chev">›</span></div>
+            <div class="row"><span class="bar" style="--b: var(--b-muniz)"></span><span class="grow"><div class="pname">Antenor Muniz <span class="flag-br" role="img" aria-label="Brazilian"></span></div><div class="pyears">1923 – 2014</div></span><span class="chev">›</span></div>
+            <div class="row"><span class="bar" style="--b: var(--b-bohrer)"></span><span class="grow"><div class="pname">Iris Bohrer Muniz <span class="flag-br" role="img" aria-label="Brazilian"></span></div><div class="pyears">1929 – 2021</div></span><span class="chev">›</span></div>
             <div class="married" data-en="Married 7 December 1949" data-pt="Casaram-se em 7 de dezembro de 1949"></div>
           </div>
 
           <div class="section-label" data-en="Their parents" data-pt="Os pais deles"></div>
-          <div class="rel"><span class="grow"><span class="pname">Deocleciano Muniz <span class="name-tail">Bittencourt <span class="flag-br" role="img" aria-label="Brazilian"></span></span></span><span class="pyears-line"><span class="pyears" data-en="born 1892" data-pt="nasceu em 1892"></span><span class="tag" style="--b: var(--b-muniz)">Muniz</span></span></span><span class="chev">›</span></div>
-          <div class="rel"><span class="grow"><span class="pname">Luiza Fernandes de <span class="name-tail">Azevedo <span class="flag-br" role="img" aria-label="Brazilian"></span></span></span><span class="pyears-line"><span class="pyears" data-en="born about 1898" data-pt="nasceu por volta de 1898"></span><span class="tag" style="--b: var(--b-muniz)">Muniz</span></span></span><span class="chev">›</span></div>
-          <div class="rel"><span class="grow"><span class="pname">João Gonçalves <span class="name-tail">Bohrer <span class="flag-br" role="img" aria-label="Brazilian"></span></span></span><span class="pyears-line"><span class="pyears">c.1894 – 1970</span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span><span class="chev">›</span></div>
-          <div class="rel"><span class="grow"><span class="pname">Celina <span class="name-tail">Bohrer <span class="flag-br" role="img" aria-label="Brazilian"></span></span></span><span class="pyears-line"><span class="pyears">1899 – 1977</span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span><span class="chev">›</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Deocleciano Muniz Bittencourt <span class="flag-br" role="img" aria-label="Brazilian"></span></span><span class="pyears-line"><span class="pyears" data-en="born 1892" data-pt="nasceu em 1892"></span><span class="tag" style="--b: var(--b-muniz)">Muniz</span></span></span><span class="chev">›</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Luiza Fernandes de Azevedo <span class="flag-br" role="img" aria-label="Brazilian"></span></span><span class="pyears-line"><span class="pyears" data-en="born about 1898" data-pt="nasceu por volta de 1898"></span><span class="tag" style="--b: var(--b-muniz)">Muniz</span></span></span><span class="chev">›</span></div>
+          <div class="rel"><span class="grow"><span class="pname">João Gonçalves Bohrer <span class="flag-br" role="img" aria-label="Brazilian"></span></span><span class="pyears-line"><span class="pyears">c.1894 – 1970</span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span><span class="chev">›</span></div>
+          <div class="rel"><span class="grow"><span class="pname">Celina Bohrer <span class="flag-br" role="img" aria-label="Brazilian"></span></span><span class="pyears-line"><span class="pyears">1899 – 1977</span><span class="tag" style="--b: var(--b-bohrer)">Bohrer</span></span></span><span class="chev">›</span></div>
 
           <div class="section-label" data-en="Browse by surname" data-pt="Navegar por sobrenome"></div>
           <div class="chips">
