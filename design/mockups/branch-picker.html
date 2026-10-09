@@ -118,8 +118,6 @@
   .seg { display: grid; grid-template-columns: 1fr 1fr; background: var(--paper-2); border-radius: 999px; padding: 3px; margin: 12px 0 4px; }
   .seg button { border: 0; background: none; border-radius: 999px; padding: 7px 8px; font-size: .82rem; font-weight: 600; color: var(--muted); cursor: pointer; }
   .seg button[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: var(--shadow-sm); }
-  .result-count { font-size: .78rem; color: var(--muted); margin: 10px 2px 8px; }
-  .more-elsewhere { margin-top: 10px; background: var(--card-2); border: 1px dashed var(--rule-strong); border-radius: var(--radius); padding: 11px 12px; font-size: .84rem; color: var(--ink-2); line-height: 1.4; }
 
   .notify { display: flex; align-items: center; gap: 10px; background: var(--green-soft); border: 1px solid color-mix(in srgb, var(--green) 25%, transparent); border-radius: var(--radius); padding: 9px 12px; font-size: .8rem; color: var(--green-deep); }
   .notify span { flex: 1; }
@@ -209,10 +207,10 @@
   .pyears-line .tag { margin-left: auto; }
 
 
-  /* Flags as the app draws them (app.js FLAG_SVGS, styles.css .person-flag): all 1.15em wide,
-     height from each flag's own shape, never shrinking in a row. */
-  .flag-br, .flag-ch, .flag-pt { display: inline-block; flex: none; width: 1.15em; background: center / contain no-repeat; box-shadow: 0 0 0 .5px var(--rule-strong); }
-  .flag-br { aspect-ratio: 20 / 14; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 14'%3E%3Crect width='20' height='14' fill='%23009c3b'/%3E%3Cpolygon points='10,1.4 18.6,7 10,12.6 1.4,7' fill='%23ffdf00'/%3E%3Ccircle cx='10' cy='7' r='3.5' fill='%23002776'/%3E%3C/svg%3E"); }
+  /* Flags drawn from the app's own (app.js FLAG_SVGS) and sized like them (styles.css .person-flag):
+     all 1.15em wide, height from each flag's own shape, never shrinking in a row. */
+  .flag-br, .flag-ch, .flag-pt { display: inline-block; flex: none; width: 1.15em; background: center / contain no-repeat; border-radius: 1.5px; box-shadow: 0 0 0 .5px var(--rule-strong); }
+  .flag-br { aspect-ratio: 20 / 14; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 14'%3E%3Crect width='20' height='14' fill='%23009c3b'/%3E%3Cpolygon points='10%2C1.4 18.6%2C7 10%2C12.6 1.4%2C7' fill='%23ffdf00'/%3E%3Ccircle cx='10' cy='7' r='3.5' fill='%23002776'/%3E%3Cpath d='M6.7 6.4 Q10 8.5 13.3 6.4' fill='none' stroke='%23fff' stroke-width='0.8'/%3E%3C/svg%3E"); }
   .flag-ch { aspect-ratio: 1; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Crect width='14' height='14' fill='%23da291c'/%3E%3Crect x='5.5' y='2' width='3' height='10' fill='%23fff'/%3E%3Crect x='2' y='5.5' width='10' height='3' fill='%23fff'/%3E%3C/svg%3E"); }
   .flag-pt { aspect-ratio: 21 / 14; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 14'%3E%3Crect width='21' height='14' fill='%23da291c'/%3E%3Crect width='8.4' height='14' fill='%23046a38'/%3E%3Ccircle cx='8.4' cy='7' r='2.8' fill='none' stroke='%23ffdf00' stroke-width='0.9'/%3E%3Crect x='7.3' y='4.6' width='2.2' height='4.8' rx='0.5' fill='%23fff' stroke='%23da291c' stroke-width='0.5'/%3E%3C/svg%3E"); }
 
@@ -222,7 +220,8 @@
   .results-card .rel { margin: 0; border: 0; border-bottom: 1px solid var(--rule); border-radius: 0; background: transparent; }
   .results-card .search-more { padding: 10px 12px; border-top: 1px dashed var(--rule-strong); background: var(--card-2); color: var(--green-deep); font-size: .8rem; font-weight: 600; }
 
-  .share-msg { margin: 5px 0 0; font-size: .78rem; font-style: italic; line-height: 1.4; color: var(--ink-2); }
+  .share-msg { margin: 5px 0 0; font-size: .86rem; font-style: italic; line-height: 1.45; color: var(--ink-2); }
+  .share code { font-size: .74rem; color: var(--ink-2); }
 </style>
 </head>
 <body>
@@ -262,7 +261,7 @@
             <span class="stripe"></span>
             <span class="bc-body">
               <span class="bc-title" data-en="Everything" data-pt="Tudo"></span>
-              <span class="bc-sub" data-en="All four families · 130 people" data-pt="As quatro famílias · 130 pessoas"></span>
+              <span class="bc-sub" data-en="All four families · 127 people" data-pt="As quatro famílias · 127 pessoas"></span>
               <span class="four-dots"><span class="dot" style="--b: var(--b-armond)"></span><span class="dot" style="--b: var(--b-engracio)"></span><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span>
             </span>
             <span class="check"></span>
@@ -275,7 +274,7 @@
             <span class="stripe"></span>
             <span class="bc-body">
               <span class="bc-title">Armond</span>
-              <span class="bc-sub" data-en="Geraldo Paz Armond · 41 people · since 1571" data-pt="Geraldo Paz Armond · 41 pessoas · desde 1571"></span>
+              <span class="bc-sub" data-en="Geraldo Paz Armond · 41 people · since 1615" data-pt="Geraldo Paz Armond · 41 pessoas · desde 1615"></span>
               <span class="bc-surnames">Toledo · Rodrigues · Cardoso · Costa</span>
             </span>
             <span class="check"></span>
@@ -527,7 +526,7 @@
       <div class="sheet">
         <div class="handle"></div>
         <h3 data-en="Families shown" data-pt="Famílias exibidas"></h3>
-        <button class="toggle-row" data-all aria-pressed="false" style="--b: var(--green)"><span class="four-dots"><span class="dot" style="--b: var(--b-armond)"></span><span class="dot" style="--b: var(--b-engracio)"></span><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span><span class="grow"><span class="t" data-en="Everything" data-pt="Tudo"></span><span class="s" data-en="All four families · 130 people" data-pt="As quatro famílias · 130 pessoas"></span></span><span class="switch"></span></button>
+        <button class="toggle-row" data-all aria-pressed="false" style="--b: var(--green)"><span class="four-dots"><span class="dot" style="--b: var(--b-armond)"></span><span class="dot" style="--b: var(--b-engracio)"></span><span class="dot" style="--b: var(--b-muniz)"></span><span class="dot" style="--b: var(--b-bohrer)"></span></span><span class="grow"><span class="t" data-en="Everything" data-pt="Tudo"></span><span class="s" data-en="All four families · 127 people" data-pt="As quatro famílias · 127 pessoas"></span></span><span class="switch"></span></button>
         <div class="side-label" data-en="Armond side" data-pt="Lado Armond"></div>
         <button class="toggle-row" data-branch="armond" aria-pressed="false" style="--b: var(--b-armond)"><span class="dot"></span><span class="grow"><span class="t">Armond</span><span class="s" data-en="Geraldo · 41 people" data-pt="Geraldo · 41 pessoas"></span></span><span class="switch"></span></button>
         <button class="toggle-row" data-branch="engracio" aria-pressed="false" style="--b: var(--b-engracio)"><span class="dot"></span><span class="grow"><span class="t">Engracio</span><span class="s" data-en="Cidalia · 11 people" data-pt="Cidalia · 11 pessoas"></span></span><span class="switch"></span></button>
@@ -617,12 +616,12 @@
 
 <script>
   const BRANCHES = {
-    armond: { name: "Armond", people: 41, since: 1571 },
+    armond: { name: "Armond", people: 41, since: 1615 },
     engracio: { name: "Engracio", people: 11, since: 1894 },
     muniz: { name: "Muniz", people: 23, since: 1797 },
     bohrer: { name: "Bohrer", people: 52, since: 1751 },
   };
-  const TOTAL = 130; // includes the three living people
+  const TOTAL = 127; // everyone in the four families (the living subject and parents are in none)
   const SITE = "juanarmond.github.io/armond-family-history/";
   let lang = location.hash === "#pt" ? "pt" : "en";
   // Each picker keeps its own choice; an empty set means Everything.
@@ -644,21 +643,24 @@
       ? t(`Explore everything · ${TOTAL} people`, `Explorar tudo · ${TOTAL} pessoas`)
       : t(`Explore ${names.join(" + ")} · ${people} people`, `Explorar ${names.join(" + ")} · ${people} pessoas`);
     const msg = root.querySelector("[data-share-msg]");
+    const keys = chosen.size ? Object.keys(BRANCHES).filter((key) => chosen.has(key)) : Object.keys(BRANCHES);
     if (msg) {
-      const keys = chosen.size ? Object.keys(BRANCHES).filter((key) => chosen.has(key)) : Object.keys(BRANCHES);
       const year = Math.min(...keys.map((key) => BRANCHES[key].since));
-      const list = new Intl.ListFormat(lang === "pt" ? "pt-BR" : "en", { type: "conjunction" }).format(keys.map((key) => BRANCHES[key].name));
+      const list = new Intl.ListFormat(lang === "pt" ? "pt-BR" : "en-GB", { type: "conjunction" }).format(keys.map((key) => BRANCHES[key].name));
+      const n = chosen.size ? people : TOTAL;
+      const since = t(`, with original records back to ${year}`, `, com registros originais desde ${year}`);
       msg.textContent = !chosen.size
-        ? t(`Explore all four of our family lines — ${TOTAL} people traced to original records, back to ${year} — in Four Rivers, our family history.`,
-            `Conheça as quatro linhas da nossa família — ${TOTAL} pessoas ligadas a registros originais, desde ${year} — no Quatro Rios, a história da nossa família.`)
+        ? t(`Explore all four of our family lines — ${n} people${since} — in Four Rivers, our family history.`,
+            `Conheça as quatro linhas da nossa família — ${n} pessoas${since} — no Quatro Rios, a história da nossa família.`)
         : keys.length === 1
-          ? t(`Explore the ${list} family — ${people} people traced to original records, back to ${year} — in Four Rivers, our family history.`,
-              `Conheça a família ${list} — ${people} pessoas ligadas a registros originais, desde ${year} — no Quatro Rios, a história da nossa família.`)
-          : t(`Explore the ${list} families — ${people} people traced to original records, back to ${year} — in Four Rivers, our family history.`,
-              `Conheça as famílias ${list} — ${people} pessoas ligadas a registros originais, desde ${year} — no Quatro Rios, a história da nossa família.`);
+          ? t(`Explore the ${list} family — ${n} people${since} — in Four Rivers, our family history.`,
+              `Conheça a família ${list} — ${n} pessoas${since} — no Quatro Rios, a história da nossa família.`)
+          : t(`Explore the ${list} families — ${n} people${since} — in Four Rivers, our family history.`,
+              `Conheça as famílias ${list} — ${n} pessoas${since} — no Quatro Rios, a história da nossa família.`);
     }
     const share = root.querySelector("[data-share]");
-    if (share) share.textContent = chosen.size === 0 ? SITE : `${SITE}#branch=${[...chosen].join(",")}`;
+    const langParam = `lang=${lang === "pt" ? "pt-BR" : "en"}`;
+    if (share) share.textContent = chosen.size === 0 ? `${SITE}#${langParam}` : `${SITE}#branch=${keys.join(",")}&${langParam}`;
   }
 
   function render() {

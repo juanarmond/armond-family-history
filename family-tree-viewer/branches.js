@@ -32,8 +32,17 @@ export function yearOfDate(date) {
   return match ? Number(match[1]) : null;
 }
 
-function earliestEventYear(person) {
-  const years = (person?.events || []).map((event) => yearOfDate(event.date)).filter(Number.isFinite);
+// The earliest year an original record documents a person: one of their own events that is
+// confirmed or strong evidence and rests on at least one record that is not a published genealogy
+// or a family recollection. (A 1571 birth known only from a printed genealogy does not count.)
+const NOT_ORIGINAL = new Set(["published_genealogy", "family_recollection"]);
+const PROVEN = new Set(["confirmed", "strong-evidence"]);
+function earliestRecordYear(person, sources = {}) {
+  const years = (person?.events || [])
+    .filter((event) => PROVEN.has(event.status)
+      && (event.sourceIds || []).some((id) => sources[id] && !NOT_ORIGINAL.has(sources[id].recordCategory)))
+    .map((event) => yearOfDate(event.date))
+    .filter(Number.isFinite);
   return years.length ? Math.min(...years) : null;
 }
 
@@ -126,7 +135,7 @@ export function surnameIndex(people, ids, vocabulary = surnameVocabulary(people)
 }
 
 // ---------- Branch membership ----------
-export function computeBranches({ people, parentsByChild }, config = BRANCHES) {
+export function computeBranches({ people, parentsByChild, sources = {} }, config = BRANCHES) {
   // A branch's side is the subject's parent it descends through — found from the tree alone,
   // since the public site withholds a living parent's sex.
   const subjectParents = visibleParents(parentsByChild, SUBJECT_ID);
@@ -160,7 +169,7 @@ export function computeBranches({ people, parentsByChild }, config = BRANCHES) {
       members.add(id);
       for (const spouse of people[id]?.spouses || []) if (people[spouse.id]) members.add(spouse.id);
     }
-    const years = [...members].map((id) => earliestEventYear(people[id])).filter(Number.isFinite);
+    const years = [...members].map((id) => earliestRecordYear(people[id], sources)).filter(Number.isFinite);
     list.push({
       ...branch,
       name: people[branch.rootId].name,
@@ -233,11 +242,26 @@ export function scopeRoot(info, scope) {
   return parents.size === 1 && !parents.has(null) ? [...parents][0] : SUBJECT_ID;
 }
 
-export function scopeSize(info, scope, totalPeople) {
-  if (!scope.size) return totalPeople;
+// How many people the chosen branches hold; everything is all the branches together — the living
+// subject and parents belong to none, so they are never counted as traced.
+export function scopeSize(info, scope) {
   const ids = new Set();
-  for (const branch of info.list) if (scope.has(branch.key)) branch.members.forEach((id) => ids.add(id));
+  for (const branch of info.list) if (!scope.size || scope.has(branch.key)) branch.members.forEach((id) => ids.add(id));
   return ids.size;
+}
+
+// What a shared link's message says: which families, how many people, and the earliest year an
+// original record reaches (null when none of them has one). The app turns this into words.
+export function shareSummary(info, scope) {
+  const chosen = scope.size ? info.list.filter((branch) => scope.has(branch.key)) : info.list;
+  const years = chosen.map((branch) => branch.earliestYear).filter(Number.isFinite);
+  return {
+    everything: !scope.size,
+    lines: info.list.length,
+    labels: chosen.map((branch) => branch.label),
+    people: scopeSize(info, scope),
+    year: years.length ? Math.min(...years) : null,
+  };
 }
 
 // ---------- What's new ----------

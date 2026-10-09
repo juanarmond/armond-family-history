@@ -18,6 +18,7 @@ import {
   scopeRoot,
   scopeSize,
   serialiseScope,
+  shareSummary,
   storyChapters,
   surnameIndex,
   surnameKey,
@@ -25,7 +26,9 @@ import {
   yearOfDate,
 } from "../../family-tree-viewer/branches.js";
 
-const born = (year) => [{ type: "birth", role: "principal", date: { kind: "exact", value: `${year}-01-01` } }];
+// Own events, proven by an original (parish) record unless stated otherwise.
+const born = (year, extra = {}) => [{ type: "birth", role: "principal", status: "confirmed", sourceIds: ["S-PAR"], date: { kind: "exact", value: `${year}-01-01` }, ...extra }];
+const sources = { "S-PAR": { recordCategory: "parish_register" }, "S-PUB": { recordCategory: "published_genealogy" } };
 const person = (id, name, sex, extra = {}) => ({ id, name, sex, privacy: "deceased", events: [], children: [], spouses: [], ...extra });
 const parent = (parentId, status = "confirmed") => ({ parentId, status });
 
@@ -38,7 +41,10 @@ const people = {
   "P-0005": person("P-0005", "Cidalia Engracio Guimarães", "female", { events: born(1930) }),
   "P-0006": person("P-0006", "Antenor Muniz", "male", { events: born(1923) }),
   "P-0007": person("P-0007", "Iris Bohrer Muniz", "female", { events: born(1929) }),
-  "P-0014": person("P-0014", "João Gonçalves Bohrer", "male", { events: born(1894) }),
+  // A 1700 birth known only from a printed genealogy, and a 1710 hypothesis: neither counts as a record year.
+  "P-0014": person("P-0014", "João Gonçalves Bohrer", "male", {
+    events: [...born(1894), ...born(1700, { sourceIds: ["S-PUB"] }), ...born(1710, { status: "hypothesis" })],
+  }),
   "P-0015": person("P-0015", "Celina Borer", "female", { events: born(1899) }),
   "P-0016": person("P-0016", "Maria de Jesus", "female", { events: born(1870) }),
   "P-0020": person("P-0020", "Aristão Ferreira Armond", "male", {
@@ -59,20 +65,20 @@ const parentsByChild = {
   "P-0007": [parent("P-0014"), parent("P-0015")],
   "P-0014": [parent("P-0099", "rejected"), parent("P-0016", "hypothesis")],
 };
-const info = computeBranches({ people, parentsByChild });
+const info = computeBranches({ people, parentsByChild, sources });
 
 test("a branch is a grandparent's line: ancestors, plus collaterals and their spouses", () => {
   assert.deepEqual(info.byKey.bohrer.members, ["P-0007", "P-0014", "P-0015", "P-0016"]);
   assert.deepEqual(info.byKey.armond.members, ["P-0004", "P-0018", "P-0020", "P-0030"]);
   assert.equal(info.byKey.bohrer.generations, 3);
-  assert.equal(info.byKey.bohrer.earliestYear, 1870);
+  assert.equal(info.byKey.bohrer.earliestYear, 1870, "only proven events resting on an original record count");
   assert.ok(!info.personBranches["P-0099"], "a rejected parentage edge is not followed");
   for (const id of ["P-0001", "P-0002", "P-0003"]) assert.ok(!info.personBranches[id], "the living subject and parents are in no branch");
 });
 
 test("sides come from the tree alone, even when a living parent's sex is withheld", () => {
   const unsexed = { ...people, "P-0002": { ...people["P-0002"], sex: "unknown" }, "P-0003": { ...people["P-0003"], sex: "unknown" } };
-  const sides = branchSides(computeBranches({ people: unsexed, parentsByChild }));
+  const sides = branchSides(computeBranches({ people: unsexed, parentsByChild, sources }));
   assert.deepEqual(sides.map((side) => side.parentId), ["P-0002", "P-0003"]);
   assert.deepEqual(sides.map((side) => side.branches.map((branch) => branch.key)), [["armond", "engracio"], ["muniz", "bohrer"]]);
 });
@@ -99,8 +105,8 @@ test("people are in scope through their branch; everything includes everyone", (
   assert.ok(!inScope(info, bohrer, "P-0004"));
   assert.ok(!inScope(info, bohrer, "P-0001"));
   assert.ok(inScope(info, new Set(), "P-0001"));
-  assert.equal(scopeSize(info, bohrer, 14), 4);
-  assert.equal(scopeSize(info, new Set(), 14), 14);
+  assert.equal(scopeSize(info, bohrer), 4);
+  assert.equal(scopeSize(info, new Set()), 10, "everything is the branches together — never the living subject and parents");
 });
 
 test("surnames: spellings merge, and devotional or given names are not surnames", () => {
@@ -157,4 +163,12 @@ test("years come from any recorded date shape", () => {
   assert.equal(yearOfDate({ kind: "approximate", text: "about 1898", earliest: 1897, latest: 1898 }), 1897);
   assert.equal(yearOfDate({ kind: "approximate", text: "c.1894 (aged 76)" }), 1894);
   assert.equal(yearOfDate(null), null);
+});
+
+test("a share summary names the families, counts their people and gives the earliest record year", () => {
+  assert.deepEqual(shareSummary(info, new Set(["bohrer"])), { everything: false, lines: 4, labels: ["Bohrer"], people: 4, year: 1870 });
+  assert.deepEqual(shareSummary(info, new Set()).labels, ["Armond", "Engracio", "Muniz", "Bohrer"]);
+  assert.equal(shareSummary(info, new Set()).people, 10);
+  const undated = computeBranches({ people: { ...people, "P-0004": { ...people["P-0004"], events: [] }, "P-0020": { ...people["P-0020"], events: [] } }, parentsByChild, sources });
+  assert.equal(shareSummary(undated, new Set(["armond"])).year, null, "no record year: the message leaves the year out");
 });

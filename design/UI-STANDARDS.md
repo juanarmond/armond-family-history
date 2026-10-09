@@ -78,6 +78,10 @@ These rules govern every change to the viewer (`family-tree-viewer/`) and its re
 - Help must match the screen exactly: when a control moves, is renamed or is removed, update its
   help text in the same commit. Claim only what the app does (flags show recorded nationality, not
   birthplace).
+- Numbers and years shown or shared publicly come from tested functions (`branches.js`) and claim no
+  more than the evidence: a "since" or "back to" year counts only confirmed or strong-evidence events
+  resting on an original record (never a published genealogy or a recollection alone), and people
+  counts never include the living.
 
 ## Forbidden without the owner's explicit approval
 

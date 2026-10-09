@@ -13,6 +13,7 @@ import {
   scopeRoot,
   scopeSize,
   serialiseScope,
+  shareSummary,
   surnameIndex,
   SUBJECT_ID,
   updateKey,
@@ -3609,20 +3610,28 @@ function applyScope(scope, { persist = true } = {}) {
 }
 
 // The message that goes with a shared link, in the sender's language: which families, how many
-// people and how far back — all read from the data. The link carries the same language.
-function shareMessage() {
-  const total = Object.keys(state.data.people).length;
-  const chosen = chosenBranches();
-  const years = chosen.map((branch) => branch.earliestYear).filter(Number.isFinite);
-  const year = years.length ? Math.min(...years) : "";
-  if (!state.scope.size) return t("share.text.all", { n: total, year });
-  let families = chosen.map((branch) => branch.label).join(", ");
+// people, and how far back an original record reaches (shareSummary in branches.js). The link
+// carries the same language.
+function listInWords(items) {
   try {
-    families = new Intl.ListFormat(state.locale === "pt-BR" ? "pt-BR" : "en", { type: "conjunction" })
-      .format(chosen.map((branch) => branch.label));
-  } catch { /* Intl.ListFormat unavailable — the comma list stands */ }
-  const n = scopeSize(state.branches, state.scope, total);
-  return t(chosen.length === 1 ? "share.text.one" : "share.text.other", { families, n, year });
+    return new Intl.ListFormat(state.locale === "pt-BR" ? "pt-BR" : "en-GB", { type: "conjunction" }).format(items);
+  } catch {
+    return items.join(", ");
+  }
+}
+
+function shareMessage() {
+  const summary = shareSummary(state.branches, state.scope);
+  const vars = {
+    app: t("page.title"),
+    n: summary.people,
+    families: listInWords(summary.labels),
+    since: summary.year ? t("share.since", { year: summary.year }) : "",
+  };
+  const key = summary.everything
+    ? (summary.lines === 4 ? "share.text.all" : "share.text.allLines")
+    : (summary.labels.length === 1 ? "share.text.one" : "share.text.other");
+  return t(key, vars);
 }
 
 function shareUrl() {
@@ -3697,7 +3706,8 @@ function renderBranchPanel() {
   const panel = elements.branchContent;
   if (!panel || !state.branches) return;
   const welcome = branchPanelMode === "welcome";
-  const total = Object.keys(state.data.people).length;
+  // Everything counts the families' people — not the living subject and parents, who are in none.
+  const total = scopeSize(state.branches, new Set());
   const allKeys = state.branches.list.map((branch) => branch.key);
   panel.replaceChildren();
 
@@ -3773,7 +3783,7 @@ function renderBranchPanel() {
     cta.type = "button";
     cta.className = "branch-cta";
     cta.textContent = branchDraft.size
-      ? t("branch.explore", { families: scopeLabel(branchDraft), n: scopeSize(state.branches, branchDraft, total) })
+      ? t("branch.explore", { families: scopeLabel(branchDraft), n: scopeSize(state.branches, branchDraft) })
       : t("branch.exploreAll", { n: total });
     cta.addEventListener("click", closeBranchPanel);
     const hint = document.createElement("p");
@@ -3800,9 +3810,6 @@ function renderBranchPanel() {
     const shareTitle = document.createElement("p");
     shareTitle.className = "branch-share-title";
     shareTitle.textContent = t("branch.share");
-    const message = document.createElement("p");
-    message.className = "branch-share-message";
-    message.textContent = shareMessage();
     const url = document.createElement("code");
     url.textContent = shareUrl();
     const actions = document.createElement("div");
@@ -3830,7 +3837,14 @@ function renderBranchPanel() {
       });
       actions.append(send);
     }
-    share.append(shareTitle, message, url, actions);
+    share.append(shareTitle);
+    if (navigator.share) {
+      const message = document.createElement("p");
+      message.className = "branch-share-message";
+      message.textContent = shareMessage();
+      share.append(message);
+    }
+    share.append(url, actions);
     const done = document.createElement("button");
     done.type = "button";
     done.className = "branch-cta";

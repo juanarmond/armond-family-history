@@ -5,6 +5,21 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Fixed — the share message claims only what the evidence supports (2026-10-09)
+
+- The "back to" year (and each family card's "since" year) now counts only confirmed or
+  strong-evidence events resting on an original record: Armond moves from 1571 (a birth known only from
+  a published genealogy) to 1615. The message no longer says every person is "traced to original
+  records" — it reads "75 people, with original records back to 1751".
+- Everything counts the families' 127 people, not the archive's 130 (which include the living subject
+  and parents), on the family question, its button and the message.
+- The message logic moves to a tested `shareSummary()` in `branches.js`; a family with no record year
+  drops the clause instead of breaking the sentence; the app name and "all four" come from the data;
+  English lists use the app's British style ("Armond, Muniz and Bohrer").
+- The message preview appears only where Send… exists; the link text is back to a readable colour.
+- Concept mockup: the Brazilian flag has its arc, the link follows the app's order and language, stale
+  styles are removed; the desktop gallery caption mentions the message. UI-STANDARDS records the rule.
+
 ### Added — a message with every shared link (2026-10-09)
 
 - Send… on the families sheet now shares a short message with the link, in the app's language and
