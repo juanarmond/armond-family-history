@@ -31,8 +31,10 @@ At the start of every task:
    - [`schemas/README.md`](schemas/README.md) and the relevant schema for YAML;
    - [`evidence/README.md`](evidence/README.md) and
      [`data/document-inventory.yaml`](data/document-inventory.yaml)
-     for document intake; or
-   - [`templates/README.md`](templates/README.md) for canonical templates.
+     for document intake;
+   - [`templates/README.md`](templates/README.md) for canonical templates; or
+   - [`design/UI-STANDARDS.md`](design/UI-STANDARDS.md) for any change to the viewer's screens
+     (`family-tree-viewer/`) or `design/mockups/` — enforce it strictly.
 7. Search the repository for the people, source IDs, places and conclusions
    involved before editing. Do not assume the summary documents are exhaustive.
 

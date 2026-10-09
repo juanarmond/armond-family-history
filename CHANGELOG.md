@@ -5,6 +5,12 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — UI & layout standards (2026-10-09)
+
+- `design/UI-STANDARDS.md` records the viewer's rules — the phone frame, the desktop layout, theme
+  variables, components, bilingual text, what needs the owner's approval, and the checks before a UI
+  commit. AGENTS.md routes every viewer or mockup change to it.
+
 ### Changed — one frame for every phone screen (2026-10-09)
 
 - Every phone screen now shares the same top bar and bottom bar. The top bar shows the logo and the

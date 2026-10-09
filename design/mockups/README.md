@@ -1,6 +1,7 @@
 # Viewer mockups
 
 Design references for the family-tree viewer (`family-tree-viewer/`), on phone and desktop.
+The rules they follow are in [`../UI-STANDARDS.md`](../UI-STANDARDS.md).
 
 - [`mobile.html`](mobile.html) — every phone screen (390 × 844), with what each one is for.
 - [`desktop.html`](desktop.html) — every desktop screen (1440 × 900).
