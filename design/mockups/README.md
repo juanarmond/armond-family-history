@@ -9,8 +9,8 @@ Design references for the family-tree viewer (`family-tree-viewer/`), on phone a
 - `screens/mobile/`, `screens/desktop/` — the screenshots the two galleries show.
 - [`capture.mjs`](capture.mjs) — regenerates those screenshots from the real app.
 
-The screens were last captured on 2026-10-09, after the logo/title start-page link, the EN | PT
-switch on the family question and the two-line person rows.
+The screens were last captured on 2026-10-09, after the family question gained its ? (how the app
+works and how to install it) beside the EN | PT switch.
 
 ## Regenerate after a viewer change
 

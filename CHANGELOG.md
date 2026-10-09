@@ -5,6 +5,16 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — "How the app works" on the family question (2026-10-09)
+
+- A ? beside EN | PT on "Which family are you exploring?" opens a short guide: the layout (this page,
+  the top bar, the bottom bar, records behind every fact) and how to install Quatro Rios as an app —
+  iPhone/iPad (Safari → Share → Add to Home Screen, Open as Web App on iOS 26+) and Android (Install app,
+  not a shortcut). The reader's own platform comes first; the page notes when it is already installed.
+- The install button now reads "Install the app" / "Instalar o app".
+- Design mockups: the concept's logo and title lead back to the family question, and the galleries add
+  the new help screens (34 screens).
+
 ### Changed — back to the start from the logo; calmer person rows (2026-10-09)
 
 - Tapping the logo or the title reopens "Which family are you exploring?" with the current choice

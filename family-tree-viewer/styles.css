@@ -2545,7 +2545,25 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
 .title-button { padding: 0; border: 0; background: none; color: inherit; font: inherit; letter-spacing: inherit; text-align: left; cursor: pointer; }
 .title-button:hover { color: var(--green-deep); }
 .branch-head { position: relative; }
-.branch-lang { float: right; width: 6.4rem; margin: 0 0 .6rem .8rem; }
+.branch-head-actions { float: right; display: flex; align-items: center; gap: .45rem; margin: 0 0 .6rem .8rem; }
+.branch-lang { width: 6.4rem; margin: 0; }
+.branch-help {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 2.3rem;
+  height: 2.3rem;
+  padding: 0;
+  border: 1px solid var(--rule-strong);
+  border-radius: 50%;
+  background: #fffdf6;
+  color: var(--green-deep);
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.branch-help:hover { background: var(--gold-soft); border-color: var(--gold); }
 .branch-install {
   display: block;
   margin: .7rem auto 0;
@@ -2756,3 +2774,9 @@ button.mobile-row:active { transform: translateY(1px); background: var(--card-2)
 @media (max-width: 700px) {
   .site-header h1 .title-button { display: block; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 }
+
+/* The install steps in "How the app works". */
+.guide-install-platform { margin: .9rem 0 .35rem; font-family: var(--sans); font-size: .82rem; font-weight: 700; color: var(--green-deep); }
+.guide-install-steps { margin: 0; padding-left: 1.25rem; font-size: .9rem; line-height: 1.5; }
+.guide-install-steps li + li { margin-top: .25rem; }
+.guide-install-done { color: var(--confirmed); font-weight: 600; }

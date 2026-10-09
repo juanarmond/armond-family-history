@@ -185,7 +185,10 @@
   .name-tail { white-space: nowrap; }
   .flag-br { display: inline-block; width: 1.05em; height: .74em; vertical-align: -.05em; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 14'%3E%3Crect width='20' height='14' fill='%23009c3b'/%3E%3Cpolygon points='10,1.4 18.6,7 10,12.6 1.4,7' fill='%23ffdf00'/%3E%3Ccircle cx='10' cy='7' r='3.5' fill='%23002776'/%3E%3C/svg%3E") center / cover; border-radius: 1px; box-shadow: 0 0 0 .5px rgba(0,0,0,.15); }
   .pyears-line { display: flex; align-items: center; gap: .45rem; flex-wrap: wrap; font-size: .8rem; color: var(--muted); }
-  .lang-mini { float: right; display: inline-flex; padding: 2px; border-radius: 999px; background: var(--paper-2); margin: 4px 0 6px 10px; }
+  .welcome-actions { float: right; display: flex; align-items: center; gap: 6px; margin: 4px 0 6px 10px; }
+  .appbar img, .appbar .brand { cursor: pointer; }
+  .first-visit-flash .phone { box-shadow: 0 0 0 4px #e3c98f, 0 30px 60px -20px rgba(0,0,0,.6); }
+  .lang-mini { display: inline-flex; padding: 2px; border-radius: 999px; background: var(--paper-2); }
   .lang-mini button { border: 0; background: none; border-radius: 999px; padding: 4px 11px; font-size: .74rem; font-weight: 700; color: var(--muted); cursor: pointer; }
   .lang-mini button[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: var(--shadow-sm); }
 </style>
@@ -213,14 +216,14 @@
 <main class="screens">
 
   <!-- 1 · FIRST VISIT -->
-  <figure>
+  <figure id="first-visit">
     <figcaption>1 · First visit <span>— Everything first</span></figcaption>
     <div class="phone" data-picker data-initial="all">
       <div class="statusbar"><span>9:41</span><span class="notch"></span><span>●●● ▮</span></div>
       <div class="screen">
         <div class="appbar"><img src="../../family-tree-viewer/favicon.svg" alt=""><span class="brand">Quatro Rios</span></div>
         <div class="pad">
-          <div class="lang-mini" role="group" aria-label="Language"><button type="button" data-lang="en">EN</button><button type="button" data-lang="pt">PT</button></div>
+          <div class="welcome-actions"><span class="round-help" title="How the app works and how to install it">?</span><div class="lang-mini" role="group" aria-label="Language"><button type="button" data-lang="en">EN</button><button type="button" data-lang="pt">PT</button></div></div>
           <h2 class="q" data-en="Which family are you exploring?" data-pt="Qual família você quer explorar?"></h2>
           <p class="lede" data-en="See everything, or follow just one family. You can change it at any time." data-pt="Veja tudo ou siga só uma família. Dá para mudar quando quiser."></p>
 
@@ -282,7 +285,7 @@
         </div>
       </div>
     </div>
-    <p class="note"><b>Everything is at the top and already selected</b>, so for you this screen is one tap: “Explore everything”. <b>EN | PT</b> sits at the top, and tapping the logo or the title brings this page back later. A cousin picks a side underneath, or uses <b>Select both</b> for their two grandparents. The screen shows only once. After that the choice is remembered, and a shared link skips it.</p>
+    <p class="note"><b>Everything is at the top and already selected</b>, so for you this screen is one tap: “Explore everything”. <b>?</b> explains the layout and how to install the app on iPhone and Android, <b>EN | PT</b> sets the language, and tapping the logo or the title brings this page back later (try it on the other screens). A cousin picks a side underneath, or uses <b>Select both</b> for their two grandparents. The screen shows only once. After that the choice is remembered, and a shared link skips it.</p>
   </figure>
 
   <!-- 2 · HOME, EVERYTHING -->
@@ -625,6 +628,13 @@
     } else return;
     render();
   });
+  // The logo and the title lead back to the family question, as in the app.
+  document.querySelectorAll(".appbar img, .appbar .brand").forEach((el) => el.addEventListener("click", () => {
+    const first = document.getElementById("first-visit");
+    first.scrollIntoView({ behavior: "smooth", block: "center" });
+    first.classList.add("first-visit-flash");
+    setTimeout(() => first.classList.remove("first-visit-flash"), 1200);
+  }));
   render();
 </script>
 </body>

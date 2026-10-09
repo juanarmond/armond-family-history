@@ -2564,6 +2564,60 @@ function renderGuideCard(container, name) {
   container.append(defs);
 }
 
+// The help behind the family question's "?": the layout in a minute, then how to install the
+// site as an app — a real installed app (iPhone: a Home Screen web app; Android: Chrome's
+// "Install app"), not a browser bookmark. The reader's own phone comes first.
+function renderGuideStart(container) {
+  const intro = document.createElement("p");
+  intro.className = "guide-intro";
+  intro.textContent = t("guide.start.intro");
+  container.append(intro);
+
+  const defs = document.createElement("div");
+  defs.className = "guide-defs";
+  defs.append(
+    guideDef(t("guide.start.families.label"), t("guide.start.families.body")),
+    guideDef(t("guide.start.top.label"), t("guide.start.top.body")),
+    guideDef(t("guide.start.bottom.label"), isMobile() ? t("guide.start.bottom.mobile") : t("guide.start.bottom.desktop")),
+    guideDef(t("guide.start.records.label"), t("guide.start.records.body")),
+  );
+  container.append(defs);
+
+  const install = document.createElement("div");
+  install.className = "guide-legend guide-install";
+  const title = document.createElement("p");
+  title.className = "guide-legend-title";
+  title.textContent = t("guide.start.install.title");
+  const why = document.createElement("p");
+  why.className = "guide-legend-row";
+  why.textContent = t("guide.start.install.intro");
+  install.append(title, why);
+  const standalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+  if (standalone) {
+    const done = document.createElement("p");
+    done.className = "guide-legend-row guide-install-done";
+    done.textContent = t("guide.start.install.done");
+    install.append(done);
+  }
+  const ios = ["guide.start.ios.label", ["guide.start.ios.1", "guide.start.ios.2", "guide.start.ios.3", "guide.start.ios.4"]];
+  const android = ["guide.start.android.label", ["guide.start.android.1", "guide.start.android.2", "guide.start.android.3", "guide.start.android.4"]];
+  const onAndroid = /android/i.test(navigator.userAgent || "");
+  for (const [labelKey, stepKeys] of onAndroid ? [android, ios] : [ios, android]) {
+    const heading = document.createElement("h4");
+    heading.className = "guide-install-platform";
+    heading.textContent = t(labelKey);
+    const steps = document.createElement("ol");
+    steps.className = "guide-install-steps";
+    for (const key of stepKeys) {
+      const step = document.createElement("li");
+      step.textContent = t(key);
+      steps.append(step);
+    }
+    install.append(heading, steps);
+  }
+  container.append(install);
+}
+
 // Simple intro + term/explanation list, shared by the "About what's new" and
 // "About the family story" panel-help topics.
 function renderGuideDefs(container, introKey, rows) {
@@ -2596,6 +2650,9 @@ function renderGuide() {
       ["guide.updates.privacy.label", "guide.updates.privacy.body"],
       ["guide.updates.notify.label", "guide.updates.notify.body"],
     ]);
+  } else if (guideTopic === "start") {
+    setGuideHead(t("guide.start.eyebrow"), t("guide.start.title"), t("guide.start.subtitle"));
+    renderGuideStart(container);
   } else if (guideTopic === "story") {
     setGuideHead(t("guide.story.eyebrow"), t("guide.story.title"), t("guide.story.subtitle"));
     renderGuideDefs(container, "guide.story.intro", [
@@ -2654,7 +2711,7 @@ function syncHelpFab() {
 // the detail panel here).
 function openGuide(topic = "nav") {
   if (!elements.guidePanel) return;
-  guideTopic = ["card", "portrait", "updates", "story"].includes(topic) ? topic : "nav";
+  guideTopic = ["card", "portrait", "updates", "story", "start"].includes(topic) ? topic : "nav";
   // The guide layers above every panel (z30), so it does NOT close the panel it is
   // explaining — "About what's new"/"About this story" sit over their own panel.
   const opening = elements.guidePanel.hidden;
@@ -3615,7 +3672,20 @@ function renderBranchPanel() {
   lede.className = "branch-lede";
   lede.textContent = welcome ? t("branch.welcomeLede") : t("branch.sheetLede");
   head.append(title, lede);
-  if (welcome) head.prepend(languageSwitch());
+  if (welcome) {
+    // Help and language come first on the first page a visitor sees.
+    const actions = document.createElement("div");
+    actions.className = "branch-head-actions";
+    const help = document.createElement("button");
+    help.type = "button";
+    help.className = "branch-help";
+    help.textContent = "?";
+    help.setAttribute("aria-label", t("guide.start.button"));
+    help.title = t("guide.start.button");
+    help.addEventListener("click", () => openGuide("start"));
+    actions.append(help, languageSwitch());
+    head.prepend(actions);
+  }
   panel.append(head);
 
   panel.append(branchOption("all", t("branch.everything"), t("branch.everythingSub", { n: total }), allKeys, branchDraft.size === 0));
