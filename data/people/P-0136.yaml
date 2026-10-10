@@ -1,0 +1,362 @@
+schema_version: 1
+id: P-0136
+preferred_name: Margarida das Candeias Machado
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Margarida
+  type: source
+  source_ids:
+  - PAR-0103
+  note: >-
+    Her baptism names her by forename only, body and margin: "baptizei a Margarida f.a de Fr.co
+    Fer.a Ermonde" (29 May 1667).
+- value: D. Margarida
+  type: source
+  source_ids:
+  - PAR-0104
+  note: >-
+    Her marriage act: "Com D. Margarida", followed by an abbreviated surname read "M.da"
+    [uncertain on the reduced-resolution copy], "f.a de Fr.co Fer.a de Ermonde" (2 October 1690).
+- value: D. Margarida Machado
+  type: source
+  source_ids:
+  - PUB-0005
+  note: >-
+    Mendes Forjaz, Genealogias da Ilha Terceira, Vol. IX, SOUTO-MAIOR § 1º, p.261: Gaspar de
+    Souto-Maior "C. 1ª vez … a 2.10.1690 com D. Margarida Machado – vid. DRUMMOND, § 3º, nº 5 –".
+- value: Margarida das Candeyas
+  type: source
+  source_ids:
+  - PUB-0002
+  note: >-
+    The form in the 1751 will of Francisco Ferreira Armonde as quoted by Lacerda (PUB-0002, f.
+    55: "Filho legítimo de Gaspar de Souto Maior e de sua mulher Margarida das Candeyas, já
+    defuntos"), and in Lacerda's footnote 74, which dates her baptism to 29 May 1667. A
+    quotation in a thesis, not the will itself.
+- value: Margarida das Candeyas Machado
+  type: source
+  source_ids:
+  - PUB-0002
+  note: >-
+    Lacerda, f. 56, after a private 2008 typescript by Paulo Ribeiro Luz: "pai de Margarida das
+    Candeyas Machado, que era o Capitão Francisco Ferreira Armonde (ou Ermonde)". A compiled
+    form joining the will's name and Vol. IX's surname.
+event_ids:
+- E-0139
+- E-0138
+family_ids:
+- F-0068
+- F-0069
+connection: >-
+  Family tradition, not a proven ancestor: she is claimed as the mother of Francisco Ferreira
+  Armonde (d. 1751), patriarch of the Ferreira Armonde of Barbacena, who would attach to the
+  archive's owner only through the unknown parents of Simplício José Ferreira Armond (P-0016). No
+  record yet proves either link.
+connection_pt: >-
+  Tradição familiar, não ancestral provada: é apontada como mãe de Francisco Ferreira Armonde (f.
+  1751), patriarca dos Ferreira Armonde de Barbacena, que só se ligaria ao proprietário do arquivo
+  através dos pais desconhecidos de Simplício José Ferreira Armond (P-0016). Nenhum registo prova
+  ainda qualquer dos dois elos.
+notes:
+- text: >-
+    Created 2026-10-10 from two original São Sebastião acts: her baptism on 29 May 1667,
+    daughter of Fr.co Fer.a Ermonde and D. Anna M.da (PAR-0103, E-0139), and her marriage on 2
+    October 1690 to Gaspar de Souto Maior (P-0131), daughter of Fr.co Fer.a de Ermonde, dead, and
+    D. Anna (PAR-0104, E-0138). The same parents in both acts identify the bride with the child.
+    She is the "D. Margarida Machado" whom Mendes Forjaz Vol. IX (PUB-0005) gives as Gaspar's
+    first wife, married on the same day.
+  text_pt: >-
+    Criada a 2026-10-10 a partir de dois assentos originais de São Sebastião: o baptismo a 29 de
+    maio de 1667, filha de Fr.co Fer.a Ermonde e de D. Anna M.da (PAR-0103, E-0139), e o casamento a
+    2 de outubro de 1690 com Gaspar de Souto Maior (P-0131), filha de Fr.co Fer.a de Ermonde, já
+    falecido, e de D. Anna (PAR-0104, E-0138). Os mesmos pais nos dois assentos identificam a noiva
+    com a criança. É a "D. Margarida Machado" que o Vol. IX de Mendes Forjaz (PUB-0005) dá como
+    primeira mulher de Gaspar, casada no mesmo dia.
+- text: >-
+    Display name. "Margarida das Candeias Machado" is a composite chosen for display, as
+    "Gaspar de Souto Maior" is for P-0131: only "Margarida" is written out in a held record.
+    "Machado" is Vol. IX's surname for her [COMPILED], consistent with the abbreviated "M.da" of
+    the marriage act and with her mother's "M.da" [uncertain readings]; "das Candeias" (written
+    "Candeyas") is the will's form as quoted by Lacerda [LEAD], in modern spelling. Every form is
+    kept as a name variant with its source.
+  text_pt: >-
+    Nome de apresentação. "Margarida das Candeias Machado" é um composto escolhido para
+    apresentação, como "Gaspar de Souto Maior" para o P-0131: só "Margarida" está escrito por
+    extenso num registo guardado. "Machado" é o apelido que o Vol. IX lhe dá [COMPILED],
+    compatível com o "M.da" abreviado do assento de casamento e com o "M.da" da mãe [leituras
+    incertas]; "das Candeias" (escrito "Candeyas") é a forma do testamento citado por Lacerda
+    [LEAD], em ortografia moderna. Cada forma fica como variante do nome, com a sua fonte.
+- text: >-
+    The will's "Margarida das Candeyas". That she is the mother named in the 1751 will of
+    Francisco Ferreira Armonde, as Lacerda quotes it (PUB-0002 f. 55), remains a lead, but a
+    pointed one: Lacerda's footnote 74, after an online mailing-list post, dates the baptism of
+    "Margarida das Candeyas" to 29 May 1667 at São Sebastião — the date and parish of PAR-0103 —
+    and makes her the first wife of a Gaspar de Souto Maior who remarried Maria Mendes Borba, as
+    P-0131 did [LEAD — the post and the will are not held; the will must be read at the original].
+  text_pt: >-
+    A "Margarida das Candeyas" do testamento. Que seja a mãe nomeada no testamento de 1751 de
+    Francisco Ferreira Armonde, tal como Lacerda o cita (PUB-0002, f. 55), continua a ser uma
+    pista, mas certeira: a nota 74 de Lacerda, a partir de uma mensagem de lista de discussão
+    on-line, data o baptismo de "Margarida das Candeyas" de 29 de maio de 1667 em São Sebastião —
+    a data e a freguesia do PAR-0103 — e faz dela a primeira mulher de um Gaspar de Souto Maior
+    que voltou a casar com Maria Mendes Borba, como o P-0131 [LEAD — nem a mensagem nem o
+    testamento estão guardados; o testamento tem de ser lido no original].
+- text: >-
+    Death deliberately NOT modelled. The retrieval side reports her death act in the São
+    Sebastião book O-1642-1696, p.0080, "faleceu D. Margarida, m.er de Gaspar de Souto", April
+    1693 (the day read 9 or 19); Lacerda's footnote 74 gives 9 April 1693 [LEAD]. The image is
+    not held here, so no death event exists — an intentional omission, not a gap for an audit to
+    fill.
+  text_pt: >-
+    Morte deliberadamente NÃO modelada. A pesquisa de recuperação refere o assento de óbito dela
+    no livro de São Sebastião O-1642-1696, p.0080, "faleceu D. Margarida, m.er de Gaspar de
+    Souto", em abril de 1693 (o dia lido 9 ou 19); a nota 74 de Lacerda dá 9 de abril de 1693
+    [LEAD]. A imagem não está guardada aqui, pelo que não existe evento de óbito — omissão
+    intencional, não lacuna a preencher por uma auditoria.
+- text: >-
+    Children — none modelled; see F-0069. Vol. IX sends the issue of the marriage to DRUMMOND §
+    3º, not held [COMPILED]; Lacerda makes Francisco Ferreira Armonde (d. 1751) and his brother
+    Antônio her sons [LEAD].
+  text_pt: >-
+    Filhos — nenhum modelado; ver F-0069. O Vol. IX remete a geração do casamento para DRUMMOND,
+    § 3º, não guardado [COMPILED]; Lacerda faz de Francisco Ferreira Armonde (f. 1751) e do irmão
+    Antônio filhos dela [LEAD].
+- text: >-
+    Nationality Portuguese: baptised in the Azores, then Portuguese Crown territory. Neither
+    held record states a nationality; as for P-0131 and P-0123, persons born in the islands are
+    recorded as Portuguese, not separately "Azorean" for nationality purposes. No occupation or
+    residence beyond her parish is stated, so none is recorded.
+  text_pt: >-
+    Nacionalidade portuguesa: baptizada nos Açores, então território da Coroa portuguesa. Nenhum
+    dos registos guardados declara nacionalidade; tal como para o P-0131 e o P-0123, quem nasceu
+    nas ilhas é registado como português, e não à parte como "açoriano" para efeitos de
+    nacionalidade. Não se declara ofício nem residência além da freguesia, pelo que nada se
+    regista.
+profile: >-
+  ## Interesting facts
+
+
+  - **[PROVEN]** Both her baptism (29 May 1667) and her wedding (2 October 1690) survive as original acts of São Sebastião, Terceira, and the same priest wrote both: the cura Domingos Cardoso Froes.
+
+
+  - **[PROVEN]** Her father's name in these acts is the earliest form of the Barbacena family's surname held in this archive: "Fr.co Fer.a Ermonde" in 1667, "Fr.co Fer.a de Ermonde" in 1690.
+
+
+  - **[PROVEN]** When she married, twenty-three years after her baptism, her father was already dead ("ja defunto"), and so were both of her husband's parents ("ja defuntos").
+
+
+  - **[PROVEN]** The registers style her and her mother "Dona" — "D. Margarida", "D. Anna" — **[CONTEXTUAL]** a mark of standing: on the same register pages most mothers are written without it.
+
+
+  - **[LEAD]** Lacerda's thesis dates the baptism of the will's "Margarida das Candeyas" to 29 May 1667 at São Sebastião — exactly the day of her held baptism.
+
+
+  - **[LEAD]** She died in April 1693, after less than three years of marriage, according to the retrieval side's reading of her death act and to Lacerda.
+
+
+  ## Identity
+
+
+  **Margarida** — baptised 29 May 1667, São Sebastião, Terceira **[PROVEN, PAR-0103]**; married Gaspar de Souto Maior (P-0131) on 2 October 1690 **[PROVEN, PAR-0104]**. Daughter of **Francisco Ferreira (de) Ermonde** (P-0137) and **D. Ana M[achada]** (P-0138), family F-0068 — named in her baptism as "f.a de Fr.co Fer.a Ermonde e de sua m.er D. Anna M.da" and again in her marriage **[PROVEN]**.
+
+
+  - **Names in the records:** "Margarida" (1667); "D. Margarida" with an abbreviated surname read "M.da" **[uncertain]** (1690); "D. Margarida Machado" (Vol. IX) **[COMPILED]**; "Margarida das Candeyas" (the 1751 will, quoted) and "Margarida das Candeyas Machado" (Luz, via Lacerda) **[LEAD]**. Only "Margarida" is written out in a held record; the display name joins the other forms.
+
+
+  - **Brother:** Manuel, baptised 27 December 1661, "filho de Fr.co Fer.ra e de sua mulher Dona Anna M.da" — very probably her full brother **[strong identification, PAR-0105]**.
+
+
+  - **Death:** April 1693, São Sebastião **[LEAD]**. Not modelled.
+
+
+  - **Children:** per Lacerda, Francisco Ferreira Armonde (d. 1751) and his brother Antônio **[LEAD]**; Vol. IX sends the issue to the Drummond family **[COMPILED, not held]**. None is modelled.
+
+
+  - **Nationality:** Portuguese (the Azores were Crown territory, not a separate polity).
+
+
+  **Position in the tree.** She is not an ancestor of the archive's owner on any proven chain. Family tradition makes her the mother of Francisco Ferreira Armonde of Barbacena, whose line would reach the owner only if the unknown parents of Simplício José Ferreira Armond (P-0016) belong to it.
+
+
+  ## Evidence standing
+
+
+  - **Baptism (E-0139) [PROVEN].** Her original act; date, child and both parents legible.
+
+
+  - **Parentage [PROVEN].** Named in her baptism and again in her marriage, 23 years apart.
+
+
+  - **Marriage (E-0138) [PROVEN].** The original act names both parties' parents, which match the two held baptisms. The church is "N. S.ra da Graça"; Vol. IX places it at the Convento da Graça in Angra, while the act seems to call it subordinate to the São Sebastião mother church **[uncertain reading]**.
+
+
+  - **= Vol. IX's "D. Margarida Machado" [strong].** Same husband and same wedding day; the act's abbreviated surname is consistent with Machado but cannot be read with certainty on the copy held.
+
+
+  - **= the will's "Margarida das Candeyas" [LEAD].** Rests on the will as quoted in a thesis and on a mailing-list post whose baptism date matches hers.
+
+
+  - **Death [LEAD].** Reported, not held.
+
+
+  ## Open questions
+
+
+  - **Was she the mother of Francisco Ferreira Armonde (d. 1751)?** Decisive records: Francisco's own baptism (c. 1691–93, not found) or the 1751 will, read at the original.
+
+
+  - **What surname does her marriage act give her?** A 300-dpi scan of C-1673-1766 p.0036, ordered from BPAR, would read the abbreviation.
+
+
+  - **Which church of Nossa Senhora da Graça?** The act's qualifier, read "sufraganea a esta Matriz", would point to a church of the São Sebastião parish rather than the Angra convent; the same scan would settle it.
+
+
+  - **Where does "das Candeias" come from?** It is in neither held act. Luz calls her mother "Maria das Candeyas", and Vol. IX note 10 names a D. Maria das Candeias of the Drummond family **[INFERRED — a name that ran in the family]**.
+
+
+  - **Her death act.** São Sebastião O-1642-1696 p.0080 — catalogue it to date her death.
+
+
+  ## Sources held (this repository)
+
+
+  - **PAR-0103** — her baptism, São Sebastião, 29 May 1667 (B-1611-1687 p.0384, entry 3 of 4); names both parents and the godparents. Reduced-resolution open-CDN copy, legible for the core facts. *Primary.*
+
+
+  - **PAR-0104** — her marriage, 2 October 1690 (C-1673-1766 p.0036, left page, first entry); names both parties' parents. Reduced-resolution open-CDN copy; three surnames and the church's qualifier uncertain. *Primary.*
+
+
+  - **PAR-0105** — the baptism of Manuel, 27 December 1661, very probably her brother. BPAR 300-dpi scan. *Primary; context for her family.*
+
+
+  - **PUB-0005** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IX, p.261: "D. Margarida Machado" and the 1690 marriage. *Secondary, compiled.*
+
+
+  - **PUB-0002** — Lacerda's thesis, ff. 55–56: the will's "Margarida das Candeyas", her baptism and death dates (n. 74), and Luz's genealogy of her parents. *Secondary; a lead.*
+
+
+  ## Where to go today
+
+
+  - **Igreja Matriz de São Sebastião, São Sebastião, Angra do Heroísmo, Terceira** — her parish: her baptism and marriage are entered in its books. [RESOLVED — parish] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20S%C3%A3o%20Sebasti%C3%A3o%2C%20Terceira%2C%20A%C3%A7ores)
+
+
+  - **Nossa Senhora da Graça** — the church of her wedding; whether a parish ermida of São Sebastião or the Convento da Graça at Angra (Vol. IX) is open. [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Nossa%20Senhora%20da%20Gra%C3%A7a%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20Terceira)
+
+
+  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — holds the original books: B-1611-1687 (her baptism), C-1673-1766 (her marriage, worth ordering at 300 dpi) and O-1642-1696 (her death, not yet held here). · [Maps](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)
+profile_pt: >-
+  ## Fatos interessantes
+
+
+  - **[PROVEN]** O baptismo (29 de maio de 1667) e o casamento (2 de outubro de 1690) dela sobrevivem como assentos originais de São Sebastião, Terceira, e foi o mesmo padre que escreveu os dois: o cura Domingos Cardoso Froes.
+
+
+  - **[PROVEN]** O nome do pai nestes assentos é a forma mais antiga do apelido da família de Barbacena guardada neste arquivo: "Fr.co Fer.a Ermonde" em 1667, "Fr.co Fer.a de Ermonde" em 1690.
+
+
+  - **[PROVEN]** Quando casou, vinte e três anos depois do baptismo, o pai já tinha morrido ("ja defunto"), e também os dois pais do marido ("ja defuntos").
+
+
+  - **[PROVEN]** Os registos dão a ela e à mãe o tratamento de "Dona" — "D. Margarida", "D. Anna" — **[CONTEXTUAL]** sinal de posição: nas mesmas páginas dos livros, a maior parte das mães é escrita sem ele.
+
+
+  - **[LEAD]** A tese de Lacerda data o baptismo da "Margarida das Candeyas" do testamento de 29 de maio de 1667 em São Sebastião — exactamente o dia do baptismo guardado.
+
+
+  - **[LEAD]** Morreu em abril de 1693, com menos de três anos de casada, segundo a leitura do assento de óbito pela pesquisa de recuperação e segundo Lacerda.
+
+
+  ## Identidade
+
+
+  **Margarida** — baptizada a 29 de maio de 1667, São Sebastião, Terceira **[PROVEN, PAR-0103]**; casada com Gaspar de Souto Maior (P-0131) a 2 de outubro de 1690 **[PROVEN, PAR-0104]**. Filha de **Francisco Ferreira (de) Ermonde** (P-0137) e de **D. Ana M[achada]** (P-0138), família F-0068 — nomeados no baptismo como "f.a de Fr.co Fer.a Ermonde e de sua m.er D. Anna M.da" e de novo no casamento **[PROVEN]**.
+
+
+  - **Nomes nos registos:** "Margarida" (1667); "D. Margarida" com um apelido abreviado lido "M.da" **[incerto]** (1690); "D. Margarida Machado" (Vol. IX) **[COMPILED]**; "Margarida das Candeyas" (o testamento de 1751, citado) e "Margarida das Candeyas Machado" (Luz, via Lacerda) **[LEAD]**. Só "Margarida" está escrito por extenso num registo guardado; o nome de apresentação junta as outras formas.
+
+
+  - **Irmão:** Manuel, baptizado a 27 de dezembro de 1661, "filho de Fr.co Fer.ra e de sua mulher Dona Anna M.da" — muito provavelmente irmão inteiro dela **[identificação forte, PAR-0105]**.
+
+
+  - **Morte:** abril de 1693, São Sebastião **[LEAD]**. Não modelada.
+
+
+  - **Filhos:** segundo Lacerda, Francisco Ferreira Armonde (f. 1751) e o irmão Antônio **[LEAD]**; o Vol. IX remete a geração para a família Drummond **[COMPILED, não guardado]**. Nenhum está modelado.
+
+
+  - **Nacionalidade:** portuguesa (os Açores eram território da Coroa, não uma entidade política à parte).
+
+
+  **Posição na árvore.** Não é antepassada do proprietário do arquivo em nenhuma cadeia provada. A tradição familiar faz dela a mãe de Francisco Ferreira Armonde, de Barbacena, cuja linha só chegaria ao proprietário se os pais desconhecidos de Simplício José Ferreira Armond (P-0016) pertencerem a ela.
+
+
+  ## Situação da evidência
+
+
+  - **Baptismo (E-0139) [PROVEN].** O assento original; data, criança e os dois pais legíveis.
+
+
+  - **Filiação [PROVEN].** Nomeada no baptismo e de novo no casamento, com 23 anos de intervalo.
+
+
+  - **Casamento (E-0138) [PROVEN].** O assento original nomeia os pais das duas partes, que coincidem com os dos dois baptismos guardados. A igreja é a de "N. S.ra da Graça"; o Vol. IX situa-a no Convento da Graça, em Angra, ao passo que o assento parece dizê-la subordinada à matriz de São Sebastião **[leitura incerta]**.
+
+
+  - **= a "D. Margarida Machado" do Vol. IX [forte].** O mesmo marido e o mesmo dia de casamento; o apelido abreviado do assento é compatível com Machado, mas não se lê com certeza na cópia guardada.
+
+
+  - **= a "Margarida das Candeyas" do testamento [LEAD].** Assenta no testamento citado numa tese e numa mensagem de lista de discussão cuja data de baptismo coincide com a dela.
+
+
+  - **Morte [LEAD].** Referida, não guardada.
+
+
+  ## Questões em aberto
+
+
+  - **Era ela a mãe de Francisco Ferreira Armonde (f. 1751)?** Registos decisivos: o baptismo do próprio Francisco (c. 1691–93, não encontrado) ou o testamento de 1751, lido no original.
+
+
+  - **Que apelido lhe dá o assento de casamento?** Uma digitalização a 300 dpi de C-1673-1766, p.0036, pedida ao BPAR, leria a abreviatura.
+
+
+  - **Que igreja de Nossa Senhora da Graça?** O qualificativo do assento, lido "sufraganea a esta Matriz", apontaria para uma igreja da freguesia de São Sebastião e não para o convento de Angra; a mesma digitalização resolveria a questão.
+
+
+  - **Donde vem "das Candeias"?** Não está em nenhum dos assentos guardados. Luz chama à mãe "Maria das Candeyas", e a nota 10 do Vol. IX nomeia uma D. Maria das Candeias da família Drummond **[INFERRED — um nome que corria na família]**.
+
+
+  - **O assento de óbito.** São Sebastião O-1642-1696, p.0080 — catalogá-lo para datar a morte.
+
+
+  ## Fontes disponíveis (neste repositório)
+
+
+  - **PAR-0103** — o baptismo, São Sebastião, 29 de maio de 1667 (B-1611-1687, p.0384, assento 3 de 4); nomeia os dois pais e os padrinhos. Cópia de resolução reduzida do CDN aberto, legível para os factos essenciais. *Primária.*
+
+
+  - **PAR-0104** — o casamento, 2 de outubro de 1690 (C-1673-1766, p.0036, página esquerda, primeiro assento); nomeia os pais das duas partes. Cópia de resolução reduzida do CDN aberto; três apelidos e o qualificativo da igreja incertos. *Primária.*
+
+
+  - **PAR-0105** — o baptismo de Manuel, 27 de dezembro de 1661, muito provavelmente irmão dela. Digitalização a 300 dpi do BPAR. *Primária; contexto da família.*
+
+
+  - **PUB-0005** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IX, p.261: "D. Margarida Machado" e o casamento de 1690. *Secundária, compilada.*
+
+
+  - **PUB-0002** — a tese de Lacerda, ff. 55–56: a "Margarida das Candeyas" do testamento, as datas de baptismo e de óbito (n. 74) e a genealogia dos pais segundo Luz. *Secundária; uma pista.*
+
+
+  ## Onde ir hoje
+
+
+  - **Igreja Matriz de São Sebastião, São Sebastião, Angra do Heroísmo, Terceira** — a freguesia dela: o baptismo e o casamento estão lançados nos seus livros. [RESOLVIDO — freguesia] · [Mapa](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20S%C3%A3o%20Sebasti%C3%A3o%2C%20Terceira%2C%20A%C3%A7ores)
+
+
+  - **Nossa Senhora da Graça** — a igreja do casamento; está em aberto se era uma ermida da freguesia de São Sebastião ou o Convento da Graça, em Angra (Vol. IX). [APROX] · [Mapa](https://www.google.com/maps/search/?api=1&query=Nossa%20Senhora%20da%20Gra%C3%A7a%2C%20S%C3%A3o%20Sebasti%C3%A3o%2C%20Terceira)
+
+
+  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — guarda os livros originais: B-1611-1687 (o baptismo), C-1673-1766 (o casamento, que vale a pena pedir a 300 dpi) e O-1642-1696 (o óbito, ainda não guardado aqui). · [Mapa](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)

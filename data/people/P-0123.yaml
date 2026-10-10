@@ -41,11 +41,20 @@ name_variants:
   note: >-
     "do Alferes Melchior de Ponte" in his son's 1664 baptism (the child also written
     Melchior); read at low resolution (383×527 px), 2026-10-08.
+- value: Belchior de Ponte
+  type: source
+  source_ids:
+  - PAR-0104
+  note: >-
+    "f.º do Alferes Belchior de Ponte" in his son Gaspar's marriage act of 2 October 1690, read
+    2026-10-10 on a reduced-resolution copy; a blot follows the name, so whether "Cardoso" was
+    written cannot be read.
 event_ids:
 - E-0126
 - E-0127
 - E-0128
 - E-0135
+- E-0138
 family_ids:
 - F-0063
 - F-0062
@@ -104,6 +113,20 @@ notes:
     Ribeiro Luz and the 1751 will it quotes) claims for the Ferreira Armonde of Barbacena;
     that family would attach to the owner only through the unknown parents of Simplício José
     Ferreira Armond (P-0016). Neither link is proven. See `connection`.
+- text: >-
+    2026-10-10 — Dead by 2 October 1690, corroborated. His son Gaspar's marriage act of that day
+    (PAR-0104, event E-0138) names the groom "f.º do Alferes Belchior de Ponte … e de sua m.er
+    Mariana … ja defuntos": both parents already dead, consistent with his burial on 26 June 1687
+    (PAR-0088, E-0127) and Mariana's on 7 July 1684 (PAR-0089, E-0136). It is the second original
+    act, after Gaspar's baptism (PAR-0099), to name him as Gaspar's father, and it again styles
+    him Alferes.
+  text_pt: >-
+    2026-10-10 — Já falecido a 2 de outubro de 1690, corroborado. O assento de casamento do filho
+    Gaspar desse dia (PAR-0104, evento E-0138) nomeia o noivo "f.º do Alferes Belchior de Ponte … e
+    de sua m.er Mariana … ja defuntos": os dois pais já falecidos, de acordo com a sepultura dele a
+    26 de junho de 1687 (PAR-0088, E-0127) e a de Mariana a 7 de julho de 1684 (PAR-0089, E-0136).
+    É o segundo assento original, depois do baptismo de Gaspar (PAR-0099), a nomeá-lo como pai de
+    Gaspar, e volta a dar-lhe o posto de Alferes.
 connection: >-
   Family tradition, not a proven ancestor. Father of Gaspar de Souto Maior (P-0131) in the
   Terceira trunk that family tradition makes the forebears of the Ferreira Armonde of

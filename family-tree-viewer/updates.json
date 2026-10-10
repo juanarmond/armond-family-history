@@ -1,12 +1,13 @@
 {
- "generated": "2026-10-10T10:53:24Z",
+ "generated": "2026-10-10T20:15:57Z",
  "updates": [
   {
    "date": "2026-10-10",
    "kind": "correction",
-   "title": "Correction and new ancestors: Rosa Eugenia de Lemos's four grandparents are now in the tree from two Itaboraí baptisms; her family's baptisms were re-read on the images and her parents' marriage confirmed; Francisco José Bohrer's will proves to date from 1879, and his estate went to his creditors; and the Terceira family of Belchior da Ponte Cardoso is no longer shown as a proven ancestry — the Gaspar of Vila Rica and the Gaspar of Terceira were two different men",
-   "title_pt": "Correção e novos antepassados: os quatro avós de Rosa Eugenia de Lemos entram na árvore por dois batismos de Itaboraí; os batismos da família foram relidos nas imagens e o casamento dos pais confirmado; o testamento de Francisco José Bohrer é de 1879, e os bens foram para os credores; e a família terceirense de Belchior da Ponte Cardoso deixa de aparecer como ascendência provada — o Gaspar de Vila Rica e o Gaspar da Terceira eram dois homens diferentes",
+   "title": "Correction and new ancestors: Rosa Eugenia de Lemos's four grandparents are now in the tree from two Itaboraí baptisms; her family's baptisms were re-read on the images and her parents' marriage confirmed; Francisco José Bohrer's will proves to date from 1879, and his estate went to his creditors; and the Terceira family of Belchior da Ponte Cardoso is no longer shown as a proven ancestry — the Gaspar of Vila Rica and the Gaspar of Terceira were two different men; that Terceira Gaspar's wife Margarida and her Ermonde parents are now documented from her baptism and their 1690 marriage",
+   "title_pt": "Correção e novos antepassados: os quatro avós de Rosa Eugenia de Lemos entram na árvore por dois batismos de Itaboraí; os batismos da família foram relidos nas imagens e o casamento dos pais confirmado; o testamento de Francisco José Bohrer é de 1879, e os bens foram para os credores; e a família terceirense de Belchior da Ponte Cardoso deixa de aparecer como ascendência provada — o Gaspar de Vila Rica e o Gaspar da Terceira eram dois homens diferentes; a mulher desse Gaspar terceirense, Margarida, e os pais dela, os Ermonde, estão agora documentados pelo batismo dela e pelo casamento de 1690",
    "replaces": [
+    "Correction and new ancestors: Rosa Eugenia de Lemos's four grandparents are now in the tree from two Itaboraí baptisms; her family's baptisms were re-read on the images and her parents' marriage confirmed; Francisco José Bohrer's will proves to date from 1879, and his estate went to his creditors; and the Terceira family of Belchior da Ponte Cardoso is no longer shown as a proven ancestry — the Gaspar of Vila Rica and the Gaspar of Terceira were two different men",
     "Correction: the Lemos baptisms re-read on the images — Rosa Eugenia de Lemos was baptised on 12 October 1835, her parents' marriage is now confirmed by five baptisms, the supposed second wife \"Maria Nunes de Jesus\" was a misreading, and her 1879 marriage was registered at Itaboraí, not Nova Friburgo"
    ],
    "links": [
@@ -15,8 +16,59 @@
     "P-0134",
     "P-0034",
     "P-0131",
+    "P-0136",
     "P-0092",
     "PRB-0005"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "kind": "document",
+   "title": "São Sebastião baptism register — Gaspar, son of the Alferes Belchior da Ponte Cardoso and Mariana Fagundes, 23 December 1657",
+   "title_pt": "Registo de baptismos de São Sebastião — Gaspar, filho do Alferes Belchior da Ponte Cardoso e de Mariana Fagundes, 23 de dezembro de 1657",
+   "primary": "PAR-0099",
+   "links": [
+    "P-0131"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "kind": "document",
+   "title": "São Sebastião death register — Gaspar de Souto, husband of Maria Mendes, 2 December 1727",
+   "title_pt": "Registo de óbitos de São Sebastião — Gaspar de Souto, marido de Maria Mendes, 2 de dezembro de 1727",
+   "primary": "PAR-0100",
+   "links": [
+    "P-0131"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "kind": "document",
+   "title": "Parish baptism register entry of \"Antonio\" (Antonio de Lemos), 21 October 1821, Matriz de São João Batista de Itaboraí, naming his parents Manoel de Lemos Pereira and Maria Thereza de Jezus and all four grandparents",
+   "title_pt": "Assento de batismo de \"Antonio\" (Antonio de Lemos), 21 de outubro de 1821, Matriz de São João Batista de Itaboraí, que nomeia seus pais Manoel de Lemos Pereira e Maria Thereza de Jezus e os quatro avós",
+   "primary": "PAR-0101",
+   "links": [
+    "P-0052"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "kind": "document",
+   "title": "Parish baptism register entries of \"João\" (b. 16 August 1839) and \"Maria\" (b. 24 September 1840), both baptised 4 March 1841, Matriz de São João Batista de Itaboraí, naming their parents Manoel de Lemos Pereira and Maria Thereza de Jesus and all four grandparents",
+   "title_pt": "Assentos de batismo de \"João\" (n. 16 de agosto de 1839) e \"Maria\" (n. 24 de setembro de 1840), ambos batizados em 4 de março de 1841, Matriz de São João Batista de Itaboraí, que nomeiam seus pais Manoel de Lemos Pereira e Maria Thereza de Jesus e os quatro avós",
+   "primary": "PAR-0102",
+   "links": [
+    "P-0052"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "kind": "document",
+   "title": "Contas testamentárias of the estate of Francisco José Bohrer (Juízo da Provedoria de Nova Friburgo, 1890): his widow and executrix Rosa Eugenia de Lemos is summoned to render the executor's accounts and is exonerated, the inventoried estate having been sold at auction and absorbed by the creditors",
+   "title_pt": "Contas testamentárias do espólio de Francisco José Bohrer (Juízo da Provedoria de Nova Friburgo, 1890): sua viúva e testamenteira Rosa Eugenia de Lemos é intimada a prestar as contas da testamentaria e é exonerada, porque os bens inventariados foram vendidos em praça e absorvidos pelos credores",
+   "primary": "PRB-0012",
+   "links": [
+    "P-0034"
    ]
   },
   {
@@ -1730,9 +1782,19 @@
   {
    "date": "",
    "kind": "document",
-   "title": "São Sebastião baptism register — Gaspar, son of the Alferes Belchior da Ponte Cardoso and Mariana Fagundes, 23 December 1657",
-   "title_pt": "Registo de baptismos de São Sebastião — Gaspar, filho do Alferes Belchior da Ponte Cardoso e de Mariana Fagundes, 23 de dezembro de 1657",
-   "primary": "PAR-0099",
+   "title": "São Sebastião baptism register — Margarida, daughter of Francisco Ferreira Ermonde and D. Ana M[achada], 29 May 1667",
+   "title_pt": "Registo de baptismos de São Sebastião — Margarida, filha de Francisco Ferreira Ermonde e de D. Ana M[achada], 29 de maio de 1667",
+   "primary": "PAR-0103",
+   "links": [
+    "P-0136"
+   ]
+  },
+  {
+   "date": "",
+   "kind": "document",
+   "title": "São Sebastião marriage register — Gaspar de Souto and D. Margarida, daughter of Francisco Ferreira de Ermonde, 2 October 1690",
+   "title_pt": "Registo de casamentos de São Sebastião — Gaspar de Souto e D. Margarida, filha de Francisco Ferreira de Ermonde, 2 de outubro de 1690",
+   "primary": "PAR-0104",
    "links": [
     "P-0131"
    ]
@@ -1740,41 +1802,11 @@
   {
    "date": "",
    "kind": "document",
-   "title": "São Sebastião death register — Gaspar de Souto, husband of Maria Mendes, 2 December 1727",
-   "title_pt": "Registo de óbitos de São Sebastião — Gaspar de Souto, marido de Maria Mendes, 2 de dezembro de 1727",
-   "primary": "PAR-0100",
+   "title": "São Sebastião baptism register — Manuel, son of Francisco Ferreira and Dona Ana M[achada], 27 December 1661",
+   "title_pt": "Registo de baptismos de São Sebastião — Manuel, filho de Francisco Ferreira e de Dona Ana M[achada], 27 de dezembro de 1661",
+   "primary": "PAR-0105",
    "links": [
-    "P-0131"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "Parish baptism register entry of \"Antonio\" (Antonio de Lemos), 21 October 1821, Matriz de São João Batista de Itaboraí, naming his parents Manoel de Lemos Pereira and Maria Thereza de Jezus and all four grandparents",
-   "title_pt": "Assento de batismo de \"Antonio\" (Antonio de Lemos), 21 de outubro de 1821, Matriz de São João Batista de Itaboraí, que nomeia seus pais Manoel de Lemos Pereira e Maria Thereza de Jezus e os quatro avós",
-   "primary": "PAR-0101",
-   "links": [
-    "P-0052"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "Parish baptism register entries of \"João\" (b. 16 August 1839) and \"Maria\" (b. 24 September 1840), both baptised 4 March 1841, Matriz de São João Batista de Itaboraí, naming their parents Manoel de Lemos Pereira and Maria Thereza de Jesus and all four grandparents",
-   "title_pt": "Assentos de batismo de \"João\" (n. 16 de agosto de 1839) e \"Maria\" (n. 24 de setembro de 1840), ambos batizados em 4 de março de 1841, Matriz de São João Batista de Itaboraí, que nomeiam seus pais Manoel de Lemos Pereira e Maria Thereza de Jesus e os quatro avós",
-   "primary": "PAR-0102",
-   "links": [
-    "P-0052"
-   ]
-  },
-  {
-   "date": "",
-   "kind": "document",
-   "title": "Contas testamentárias of the estate of Francisco José Bohrer (Juízo da Provedoria de Nova Friburgo, 1890): his widow and executrix Rosa Eugenia de Lemos is summoned to render the executor's accounts and is exonerated, the inventoried estate having been sold at auction and absorbed by the creditors",
-   "title_pt": "Contas testamentárias do espólio de Francisco José Bohrer (Juízo da Provedoria de Nova Friburgo, 1890): sua viúva e testamenteira Rosa Eugenia de Lemos é intimada a prestar as contas da testamentaria e é exonerada, porque os bens inventariados foram vendidos em praça e absorvidos pelos credores",
-   "primary": "PRB-0012",
-   "links": [
-    "P-0034"
+    "P-0137"
    ]
   }
  ]

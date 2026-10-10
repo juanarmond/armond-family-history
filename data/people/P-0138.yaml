@@ -1,0 +1,181 @@
+schema_version: 1
+id: P-0138
+preferred_name: Ana Machado
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: D. Anna M.da
+  type: source
+  source_ids:
+  - PAR-0103
+  note: >-
+    Her daughter Margarida's baptism: "e de sua m.er D. Anna M.da" (29 May 1667). The surname is
+    an abbreviation with the "da" raised, read with an [uncertain] mark; it is consistent with
+    "Machada", which is not written out.
+- value: D. Anna
+  type: source
+  source_ids:
+  - PAR-0104
+  note: >-
+    Her daughter's marriage: "e de sua m.er D. Anna", followed at the next line by an
+    abbreviated surname read "M.do" [uncertain on the reduced-resolution copy] (2 October 1690).
+- value: Dona Anna M.da
+  type: source
+  source_ids:
+  - PAR-0105
+  note: >-
+    The baptism of Manuel, 27 December 1661: "filho de Fr.co Fer.ra e de sua mulher Dona Anna
+    M.da" (BPAR 300-dpi scan; the "da" written above the line). The identification of this
+    mother with P-0138 is strong, not proven (the father lacks "Ermonde").
+- value: Ana Machado
+  type: source
+  source_ids:
+  - PUB-0002
+  note: >-
+    Lacerda, f. 56, after a private 2008 typescript by Paulo Ribeiro Luz: "Ana Machado, também
+    conhecida por Maria Machado ou Maria das Candeyas (1631-1704)" [LEAD].
+- value: Maria Machado
+  type: alias
+  source_ids:
+  - PUB-0002
+  note: >-
+    Lacerda, f. 56 (after Luz): "também conhecida por Maria Machado" [LEAD]. No held record
+    calls her Maria.
+- value: Maria das Candeyas
+  type: alias
+  source_ids:
+  - PUB-0002
+  note: >-
+    Lacerda, f. 56 (after Luz): "ou Maria das Candeyas" [LEAD]. No held record gives this form.
+event_ids:
+- E-0139
+- E-0138
+family_ids:
+- F-0068
+connection: >-
+  Family tradition, not a proven ancestor: she is claimed as the maternal grandmother of
+  Francisco Ferreira Armonde (d. 1751), patriarch of the Ferreira Armonde of Barbacena, who would
+  attach to the archive's owner only through the unknown parents of Simplício José Ferreira
+  Armond (P-0016). No record yet proves either link.
+connection_pt: >-
+  Tradição familiar, não ancestral provada: é apontada como avó materna de Francisco Ferreira
+  Armonde (f. 1751), patriarca dos Ferreira Armonde de Barbacena, que só se ligaria ao
+  proprietário do arquivo através dos pais desconhecidos de Simplício José Ferreira Armond
+  (P-0016). Nenhum registo prova ainda qualquer dos dois elos.
+notes:
+- text: >-
+    Created 2026-10-10 as the mother named in two original São Sebastião acts of her daughter
+    Margarida (P-0136): her baptism, 29 May 1667, "e de sua m.er D. Anna M.da" (PAR-0103), and
+    her marriage, 2 October 1690, "e de sua m.er D. Anna" (PAR-0104). Wife of Francisco Ferreira
+    (de) Ermonde (P-0137), family F-0068. Very probably also the "Dona Anna M.da" whose son
+    Manuel was baptised on 27 December 1661 (PAR-0105) [strong identification].
+  text_pt: >-
+    Criada a 2026-10-10 como a mãe nomeada em dois assentos originais de São Sebastião da filha
+    Margarida (P-0136): o baptismo, 29 de maio de 1667, "e de sua m.er D. Anna M.da" (PAR-0103), e
+    o casamento, 2 de outubro de 1690, "e de sua m.er D. Anna" (PAR-0104). Mulher de Francisco
+    Ferreira (de) Ermonde (P-0137), família F-0068. Muito provavelmente também a "Dona Anna M.da"
+    cujo filho Manuel foi baptizado a 27 de dezembro de 1661 (PAR-0105) [identificação forte].
+- text: >-
+    Display name. "Ana Machado" expands the abbreviated surname of the held acts ("M.da",
+    "M.do" — both read with uncertain marks) in the form Lacerda gives (PUB-0002) and the
+    retrieval side read ("D. Ana Machado"). The acts style her "Dona". Lacerda's "Maria Machado"
+    and "Maria das Candeyas" are kept as aliases from a lead only.
+  text_pt: >-
+    Nome de apresentação. "Ana Machado" desdobra o apelido abreviado dos assentos guardados
+    ("M.da", "M.do" — ambos lidos com marca de incerteza) na forma que Lacerda dá (PUB-0002) e que
+    a pesquisa de recuperação leu ("D. Ana Machado"). Os assentos dão-lhe o tratamento de "Dona".
+    "Maria Machado" e "Maria das Candeyas", de Lacerda, ficam como aliases tirados apenas de uma
+    pista.
+- text: >-
+    Dates. No record of her own birth, marriage or death is held, so none is modelled. She is
+    not called "defunta" in her daughter's 1690 marriage act, unlike her husband [INFERRED —
+    probably still living in October 1690, but the omission alone does not prove it]. Lacerda
+    (after Luz) gives 1631–1704; the retrieval side gives a baptism of 8 August 1630 [LEAD —
+    both].
+  text_pt: >-
+    Datas. Não está guardado nenhum registo do nascimento, casamento ou óbito dela, pelo que
+    nada se modela. Não é dita "defunta" no assento de casamento da filha de 1690, ao contrário do
+    marido [INFERRED — provavelmente ainda vivia em outubro de 1690, mas a omissão por si só não o
+    prova]. Lacerda (a partir de Luz) dá 1631–1704; a pesquisa de recuperação dá um baptismo a 8
+    de agosto de 1630 [LEAD — ambas].
+- text: >-
+    Parents not named in any held record; no parentage family is modelled — deliberate. No
+    occupation or residence beyond the parish is stated.
+  text_pt: >-
+    Pais não nomeados em nenhum registo guardado; não se modela família de origem — de
+    propósito. Não se declara ofício nem residência além da freguesia.
+- text: >-
+    Nationality Portuguese. Neither held act states her nationality or birthplace; she appears
+    as the mother of children baptised and married at São Sebastião, Terceira, then Portuguese
+    Crown territory. Recorded as Portuguese on that basis, as for the other Terceira people of
+    this trunk — a residence-based default, not a stated attribute.
+  text_pt: >-
+    Nacionalidade portuguesa. Nenhum dos assentos guardados declara nacionalidade ou
+    naturalidade; aparece como mãe de filhos baptizados e casados em São Sebastião, Terceira,
+    então território da Coroa portuguesa. Registada como portuguesa nessa base, como as outras
+    pessoas da Terceira deste tronco — uma regra por residência, não um atributo declarado.
+profile: >-
+  ## Interesting facts
+
+
+  - **[PROVEN]** Every held record styles her "Dona" — "D. Anna" in 1667 and 1690, "Dona Anna" written out in 1661 — **[CONTEXTUAL]** a mark of standing that most mothers on the same register pages do not receive.
+
+
+  - **[LEAD]** Luz's genealogy, via Lacerda, says she was also known as Maria Machado or Maria das Candeyas — the "das Candeyas" that the 1751 will gives her daughter.
+
+
+  ## Identity
+
+
+  **D. Ana M[achada]** — mother of Margarida (P-0136), named in her baptism (29 May 1667, PAR-0103) as "sua m.er D. Anna M.da" and in her marriage (2 October 1690, PAR-0104) **[PROVEN]**; wife of Francisco Ferreira (de) Ermonde (P-0137), family F-0068. The surname is abbreviated in every act ("M.da", "M.do") **[uncertain]**; "Machado" is Lacerda's and the retrieval side's expansion. Very probably also the mother of Manuel, baptised 27 December 1661 (PAR-0105), "Dona Anna M.da" **[strong identification]**. Lacerda's 1631–1704 and the retrieval side's baptism of 8 August 1630 are **[LEAD]**.
+
+
+  **Position in the tree.** Not an ancestor of the archive's owner on any proven chain; part of the Terceira trunk claimed for the Ferreira Armonde of Barbacena, which would reach the owner only through the unknown parents of Simplício José Ferreira Armond (P-0016).
+
+
+  ## Sources held (this repository)
+
+
+  - **PAR-0103** — her daughter Margarida's baptism, 1667. *Primary.*
+
+
+  - **PAR-0104** — her daughter's marriage, 1690. *Primary.*
+
+
+  - **PAR-0105** — the baptism of Manuel, 1661, very probably her son. *Primary.*
+
+
+  - **PUB-0002** — Lacerda's thesis, f. 56: her other names and dates. *Secondary; a lead.*
+profile_pt: >-
+  ## Fatos interessantes
+
+
+  - **[PROVEN]** Todos os registos guardados lhe dão o tratamento de "Dona" — "D. Anna" em 1667 e 1690, "Dona Anna" por extenso em 1661 — **[CONTEXTUAL]** sinal de posição que a maior parte das mães, nas mesmas páginas dos livros, não recebe.
+
+
+  - **[LEAD]** A genealogia de Luz, via Lacerda, diz que era também conhecida por Maria Machado ou Maria das Candeyas — o "das Candeyas" que o testamento de 1751 dá à filha.
+
+
+  ## Identidade
+
+
+  **D. Ana M[achada]** — mãe de Margarida (P-0136), nomeada no baptismo dela (29 de maio de 1667, PAR-0103) como "sua m.er D. Anna M.da" e no casamento (2 de outubro de 1690, PAR-0104) **[PROVEN]**; mulher de Francisco Ferreira (de) Ermonde (P-0137), família F-0068. O apelido está abreviado em todos os assentos ("M.da", "M.do") **[incerto]**; "Machado" é o desdobramento de Lacerda e da pesquisa de recuperação. Muito provavelmente também mãe de Manuel, baptizado a 27 de dezembro de 1661 (PAR-0105), "Dona Anna M.da" **[identificação forte]**. O 1631–1704 de Lacerda e o baptismo de 8 de agosto de 1630 da pesquisa de recuperação são **[LEAD]**.
+
+
+  **Posição na árvore.** Não é antepassada do proprietário do arquivo em nenhuma cadeia provada; faz parte do tronco da Terceira reivindicado para os Ferreira Armonde de Barbacena, que só chegaria ao proprietário através dos pais desconhecidos de Simplício José Ferreira Armond (P-0016).
+
+
+  ## Fontes disponíveis (neste repositório)
+
+
+  - **PAR-0103** — o baptismo da filha Margarida, 1667. *Primária.*
+
+
+  - **PAR-0104** — o casamento da filha, 1690. *Primária.*
+
+
+  - **PAR-0105** — o baptismo de Manuel, 1661, muito provavelmente filho dela. *Primária.*
+
+
+  - **PUB-0002** — a tese de Lacerda, f. 56: os outros nomes e as datas. *Secundária; uma pista.*

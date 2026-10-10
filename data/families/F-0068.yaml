@@ -1,0 +1,133 @@
+schema_version: 1
+id: F-0068
+partners:
+- person_id: P-0137
+  role: spouse
+- person_id: P-0138
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PAR-0103
+  - PAR-0104
+  notes:
+  - text: >-
+      Francisco Ferreira (de) Ermonde (P-0137) × D. Ana M[achada] (P-0138); marriage date and
+      parish unknown. Two original São Sebastião acts, 23 years apart and made on different
+      occasions, each call her his wife: their daughter Margarida's baptism, 29 May 1667,
+      "f.a de Fr.co Fer.a Ermonde e de sua m.er D. Anna M.da" (PAR-0103), and the same
+      daughter's marriage, 2 October 1690, "f.a de Fr.co Fer.a de Ermonde ja defunto e de sua
+      m.er D. Anna" (PAR-0104). Confirmed under research/README.md (a coherent body of primary
+      evidence with no conflict), on the same footing as F-0063 (a son's baptism plus the
+      wife's own death act). A third act, Manuel's baptism of 27 December 1661, "filho de Fr.co
+      Fer.ra e de sua mulher Dona Anna M.da" (PAR-0105), very probably names the same couple
+      but omits "Ermonde", so it is not counted towards the status. Role "spouse" because the
+      records call her "sua m.er / sua mulher". No marriage act is held; Lacerda's thesis f.
+      56 (PUB-0002, after a private 2008 typescript) names the couple "Capitão Francisco
+      Ferreira Ermonde ou Armonde (1601-1672) com Ana Machado, também conhecida por Maria
+      Machado ou Maria das Candeyas (1631-1704)" [LEAD]; it is not cited for the status.
+    text_pt: >-
+      Francisco Ferreira (de) Ermonde (P-0137) × D. Ana M[achada] (P-0138); data e freguesia do
+      casamento desconhecidas. Dois assentos originais de São Sebastião, com 23 anos de
+      intervalo e feitos em ocasiões diferentes, chamam-lhe sua mulher: o baptismo da filha
+      Margarida, 29 de maio de 1667, "f.a de Fr.co Fer.a Ermonde e de sua m.er D. Anna M.da"
+      (PAR-0103), e o casamento da mesma filha, 2 de outubro de 1690, "f.a de Fr.co Fer.a de
+      Ermonde ja defunto e de sua m.er D. Anna" (PAR-0104). Confirmado segundo o
+      research/README.md (um conjunto coerente de evidência primária sem conflito), nos mesmos
+      termos que a F-0063 (o baptismo de um filho mais o próprio assento de óbito da mulher). Um
+      terceiro assento, o baptismo de Manuel a 27 de dezembro de 1661, "filho de Fr.co Fer.ra e
+      de sua mulher Dona Anna M.da" (PAR-0105), nomeia muito provavelmente o mesmo casal, mas
+      omite "Ermonde", pelo que não conta para o estatuto. Papel "spouse" porque os registos lhe
+      chamam "sua m.er / sua mulher". Não há assento de casamento guardado; a f. 56 da tese de
+      Lacerda (PUB-0002, a partir de um datiloscrito particular de 2008) nomeia o casal
+      "Capitão Francisco Ferreira Ermonde ou Armonde (1601-1672) com Ana Machado, também
+      conhecida por Maria Machado ou Maria das Candeyas (1631-1704)" [LEAD]; não é citada para o
+      estatuto.
+children:
+- person_id: P-0136
+  parent_relationships:
+  - parent_id: P-0137
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0103
+    - PAR-0104
+    notes:
+    - text: >-
+        Her own baptism names her father, "Margarida f.a de Fr.co Fer.a Ermonde" (PAR-0103, 29
+        May 1667), and her marriage repeats it, "D. Margarida … f.a de Fr.co Fer.a de Ermonde ja
+        defunto" (PAR-0104, 2 October 1690). Confirmed: a primary original act naming the
+        parent, corroborated by a second.
+      text_pt: >-
+        O próprio baptismo nomeia o pai, "Margarida f.a de Fr.co Fer.a Ermonde" (PAR-0103, 29
+        de maio de 1667), e o casamento repete-o, "D. Margarida … f.a de Fr.co Fer.a de Ermonde
+        ja defunto" (PAR-0104, 2 de outubro de 1690). Confirmado: assento original primário que
+        nomeia o pai, corroborado por um segundo.
+  - parent_id: P-0138
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0103
+    - PAR-0104
+    notes:
+    - text: >-
+        Her own baptism names her mother, "e de sua m.er D. Anna M.da" (PAR-0103), and her
+        marriage repeats it, "e de sua m.er D. Anna M.do" [the surname uncertain] (PAR-0104).
+        Confirmed: the mother is legible by forename, style and husband in both acts; only her
+        abbreviated surname is uncertain.
+      text_pt: >-
+        O próprio baptismo nomeia a mãe, "e de sua m.er D. Anna M.da" (PAR-0103), e o casamento
+        repete-o, "e de sua m.er D. Anna M.do" [apelido incerto] (PAR-0104). Confirmado: a mãe
+        é legível pelo prenome, pelo tratamento e pelo marido nos dois assentos; só o apelido
+        abreviado é incerto.
+  notes:
+  - text: >-
+      Margarida (P-0136), baptised at São Sebastião on 29 May 1667 (E-0139), married there to
+      Gaspar de Souto Maior (P-0131) on 2 October 1690 (E-0138, family F-0069).
+    text_pt: >-
+      Margarida (P-0136), baptizada em São Sebastião a 29 de maio de 1667 (E-0139), ali casada
+      com Gaspar de Souto Maior (P-0131) a 2 de outubro de 1690 (E-0138, família F-0069).
+documented_children:
+- name: Manuel
+  source_ids:
+  - PAR-0105
+  lifespan: bapt. 27 Dec 1661, São Sebastião, Terceira
+  note: >-
+    Baptised 27 December 1661 at São Sebastião, "manuel filho de Fr.co Fer.ra e de sua mulher
+    Dona Anna M.da", godparents pedro [de] Sotto and Izabel, wife of Bento pacheco (PAR-0105,
+    BPAR 300-dpi scan). The identification of "Fr.co Fer.ra" and "Dona Anna M.da" with this
+    couple is strong, not proven: the forenames, the mother's abbreviated surname "M.da" and her
+    style "Dona" match PAR-0103 in the same parish, but the father's "Ermonde" is not written.
+    The retrieval side links him to a collaborative-tree profile "Alferes Manoel Machado
+    Ermonde" (1661–1704) [LEAD — not a record]. Recorded here, not as a person entity, because
+    no further record of him is held.
+notes:
+- text: >-
+    Parents of Margarida (P-0136), first wife of Gaspar de Souto Maior (P-0131). Like P-0131 and
+    his parents, this couple belongs to the "Terceira trunk" that family tradition claims for
+    the Ferreira Armonde of Barbacena: Lacerda's thesis (PUB-0002 ff. 55–56) makes them the
+    maternal grandparents of the Barbacena patriarch Francisco Ferreira Armonde (d. 1751), who
+    "possuía o nome do avô materno". That tradition would reach the archive's owner only through
+    the unknown parents of Simplício José Ferreira Armond (P-0016). They are not proven
+    ancestors of the owner.
+  text_pt: >-
+    Pais de Margarida (P-0136), primeira mulher de Gaspar de Souto Maior (P-0131). Tal como o
+    P-0131 e os pais dele, este casal pertence ao "tronco da Terceira" que a tradição familiar
+    reivindica para os Ferreira Armonde de Barbacena: a tese de Lacerda (PUB-0002, ff. 55–56)
+    faz deles os avós maternos do patriarca de Barbacena Francisco Ferreira Armonde (f. 1751), que
+    "possuía o nome do avô materno". Essa tradição só chegaria ao proprietário do arquivo através
+    dos pais desconhecidos de Simplício José Ferreira Armond (P-0016). Não são antepassados
+    provados do proprietário.
+- text: >-
+    No event is linked to this family: their own marriage act is not held, and Lacerda's dates
+    for the couple (1601–1672 and 1631–1704) and the retrieval side's (Francisco 1629 – 22
+    August 1672; Ana baptised 8 August 1630) are leads, not modelled. Other children are not
+    recorded: Lacerda and the retrieval side name none from a held record besides Margarida and
+    Manuel.
+  text_pt: >-
+    Nenhum evento está ligado a esta família: o assento de casamento do casal não está guardado,
+    e as datas de Lacerda (1601–1672 e 1631–1704) e da pesquisa de recuperação (Francisco 1629 –
+    22 de agosto de 1672; Ana baptizada a 8 de agosto de 1630) são pistas, não modeladas. Outros
+    filhos não são registados: Lacerda e a pesquisa de recuperação não nomeiam nenhum a partir de
+    um registo guardado além de Margarida e Manuel.
+event_ids: []

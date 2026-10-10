@@ -16,9 +16,11 @@ name_variants:
   type: source
   source_ids:
   - PAR-0100
+  - PAR-0104
   note: >-
     His death act, body and margin: "Gaspar de / Souto Cazado Com Maria Mendes" (2 December
-    1727).
+    1727). [Added 2026-10-10:] His 1690 marriage act gives the same form — margin "G.par / de
+    Souto", body "Gaspar de So- / uto", possibly followed by "Mayor" [uncertain] (PAR-0104).
 - value: Gaspar de Souto-Maior
   type: source
   source_ids:
@@ -37,8 +39,10 @@ name_variants:
 event_ids:
 - E-0135
 - E-0137
+- E-0138
 family_ids:
 - F-0062
+- F-0069
 connection: >-
   Family tradition, not a proven ancestor: he is claimed as the father of Francisco Ferreira
   Armonde (d. 1751), patriarch of the Ferreira Armonde of Barbacena, who would attach to the
@@ -95,9 +99,12 @@ notes:
     ilhas é registado como português, e não à parte como "açoriano" para efeitos de
     nacionalidade.
 - text: >-
-    Marriages — spouses deliberately NOT modelled. (1) 2 October 1690, Igreja do Convento da
+    Marriages — spouses deliberately NOT modelled [superseded 2026-10-10: the first wife is now
+    modelled — see the bracket at the end of this note]. (1) 2 October 1690, Igreja do Convento da
     Graça, Angra (registered at São Sebastião), to D. Margarida Machado (Vol. IX, PUB-0005)
-    [COMPILED]; she is very probably the "Margarida das Candeyas" whom the 1751 will of
+    [COMPILED] [2026-10-10: now PROVEN by the original act, PAR-0104, which names the church
+    "Igreja de N. S.ra da Graça" with a qualifier read "sufraganea a esta Matriz" [uncertain] —
+    not obviously the Angra convent]; she is very probably the "Margarida das Candeyas" whom the 1751 will of
     Francisco Ferreira Armonde, as quoted by Lacerda, names as his mother (PUB-0002 ff. 55–56;
     f. 56, after a private 2008 typescript by Paulo Ribeiro Luz, joins the two as "Margarida das
     Candeyas Machado"; n. 74 has her baptised 29.5.1667 and dead 9.4.1693 at São Sebastião)
@@ -108,11 +115,20 @@ notes:
     family exists for him — an intentional omission, not a gap for an audit to fill. The
     retrieval side reports reading both marriage acts (São Sebastião C-1673-1766 pp.0036 and
     0044) and gives Maria's parents as Brás Gil de Borba × D. Iria/Inês Mendes, against Vol. IX's
-    Bartolomeu Vieira de Borba [LEAD — not held].
+    Bartolomeu Vieira de Borba [LEAD — not held]. [Superseded 2026-10-10: the 1690 act (p.0036)
+    is now held as PAR-0104 (event E-0138), and the first wife is modelled as Margarida,
+    P-0136, with the partner family F-0069. The act names her "D. Margarida", daughter of "Fr.co
+    Fer.a de Ermonde ja defunto" and "D. Anna" — the parents of her own held baptism of 29 May
+    1667 (PAR-0103, family F-0068); her surname is abbreviated and uncertain on the
+    reduced-resolution copy. The second wife, Maria Mendes, is still not modelled: the 1694 act
+    (p.0044) remains a lead.]
   text_pt: >-
-    Casamentos — cônjuges deliberadamente NÃO modelados. (1) 2 de outubro de 1690, Igreja do
+    Casamentos — cônjuges deliberadamente NÃO modelados [substituído em 2026-10-10: a primeira
+    mulher está agora modelada — ver o parêntese no fim desta nota]. (1) 2 de outubro de 1690, Igreja do
     Convento da Graça, Angra (registado em São Sebastião), com D. Margarida Machado (Vol. IX,
-    PUB-0005) [COMPILED]; é muito provavelmente a "Margarida das Candeyas" que o testamento de
+    PUB-0005) [COMPILED] [2026-10-10: agora PROVEN pelo assento original, PAR-0104, que nomeia a
+    igreja "Igreja de N. S.ra da Graça" com um qualificativo lido "sufraganea a esta Matriz"
+    [incerto] — não forçosamente o convento de Angra]; é muito provavelmente a "Margarida das Candeyas" que o testamento de
     1751 de Francisco Ferreira Armonde, citado por Lacerda, nomeia como sua mãe (PUB-0002 ff.
     55–56; a f. 56, a partir de um datiloscrito particular de 2008 de Paulo Ribeiro Luz, junta as
     duas como "Margarida das Candeyas Machado"; a n. 74 dá-a baptizada a 29.5.1667 e falecida a
@@ -124,7 +140,13 @@ notes:
     intencional, não lacuna a preencher por uma auditoria. A pesquisa de recuperação diz ter lido
     os dois assentos de casamento (São Sebastião C-1673-1766, pp.0036 e 0044) e dá os pais de
     Maria como Brás Gil de Borba × D. Iria/Inês Mendes, contra o Bartolomeu Vieira de Borba do
-    Vol. IX [LEAD — não guardado].
+    Vol. IX [LEAD — não guardado]. [Substituído em 2026-10-10: o assento de 1690 (p.0036) está
+    agora guardado como PAR-0104 (evento E-0138), e a primeira mulher está modelada como
+    Margarida, P-0136, com a família conjugal F-0069. O assento nomeia-a "D. Margarida", filha de
+    "Fr.co Fer.a de Ermonde ja defunto" e de "D. Anna" — os pais do baptismo dela, guardado, de 29
+    de maio de 1667 (PAR-0103, família F-0068); o apelido está abreviado e é incerto na cópia de
+    resolução reduzida. A segunda mulher, Maria Mendes, continua não modelada: o assento de 1694
+    (p.0044) continua a ser uma pista.]
 - text: >-
     Children — none modelled. Vol. IX lists three children of the second marriage, all baptised
     at São Sebastião: Maria (16.2.1698), António (4.6.1700) and Lourença (17.8.1701) [COMPILED];
@@ -133,7 +155,10 @@ notes:
     2008 typescript, makes the Barbacena patriarch Francisco Ferreira Armonde (d. 1751) and his
     brother Antônio sons of the first marriage (PUB-0002 ff. 55–56) [LEAD]. Because no partner
     family is modelled (see the marriages note), these children cannot be recorded as
-    documented_children; that is deliberate.
+    documented_children; that is deliberate. [Superseded 2026-10-10: the first marriage is now
+    modelled as F-0069, but no child of it rests on a held record, so none is recorded there
+    either — see F-0069's notes. The second marriage is still not modelled, so its three
+    compiled children remain unrecorded.]
   text_pt: >-
     Filhos — nenhum modelado. O Vol. IX lista três filhos do segundo casamento, todos baptizados
     em São Sebastião: Maria (16.2.1698), António (4.6.1700) e Lourença (17.8.1701) [COMPILED]; no
@@ -142,7 +167,10 @@ notes:
     datiloscrito de Luz de 2008, faz do patriarca de Barbacena Francisco Ferreira Armonde (f.
     1751) e do irmão Antônio filhos do primeiro casamento (PUB-0002 ff. 55–56) [LEAD]. Como não
     há família conjugal modelada (ver a nota dos casamentos), estes filhos não podem ser
-    registados como documented_children; é deliberado.
+    registados como documented_children; é deliberado. [Substituído em 2026-10-10: o primeiro
+    casamento está agora modelado como F-0069, mas nenhum filho dele assenta num registo
+    guardado, pelo que também ali nenhum é registado — ver as notas da F-0069. O segundo casamento
+    continua não modelado, pelo que os três filhos compilados continuam por registar.]
 - text: >-
     Namesakes. His godfather was another Gaspar de Souto Maior, "f.º de Ba[…]z leonardes"
     (PAR-0099) — the cousin of Vol. IX p.260, son of Águeda Simões Cardoso and Baltazar Gonçalves
@@ -178,10 +206,13 @@ profile: >-
   - **[PROVEN]** His godfather was *another* Gaspar de Souto Maior, "son of Ba[…]z leonardes" — a cousin whom Mendes Forjaz lists separately **[COMPILED]**. The same page names a third Gaspar, a Gaspar Ferreira of Porto Judeu. The namesake problem that once merged him with a Brazilian Gaspar Ferreira is visible on his own baptism page.
 
 
-  - **[PROVEN]** The registers never call him "Souto Maior" in the acts held here: he is just "Gasp.ar" at baptism and "Gaspar de Souto" at death. "Gaspar de Souto-Maior" is the compiler's form **[COMPILED]**; "Gaspar de Souto Maior" is the form of the 1751 will quoted by Lacerda **[LEAD]**.
+  - **[PROVEN]** The registers never call him "Souto Maior" in the acts held here: he is just "Gasp.ar" at baptism and "Gaspar de Souto" at his first marriage in 1690 and at death (in the marriage act a following word, possibly "Mayor", cannot be read on the copy held). "Gaspar de Souto-Maior" is the compiler's form **[COMPILED]**; "Gaspar de Souto Maior" is the form of the 1751 will quoted by Lacerda **[LEAD]**.
 
 
   - **[PROVEN]** He died intestate — "não fez testamento" — and was buried in a grave belonging to the church fabric.
+
+
+  - **[PROVEN]** At his first wedding, on 2 October 1690, both his parents were already dead — the act calls them "ja defuntos" — and so was his bride's father.
 
 
   - **[COMPILED]** Of his first marriage the compiler says its issue "follows" under the Drummond family "por ter preferido os apelidos maternos" — because they preferred their mother's surnames. That is the printed explanation for why his supposed sons did not carry Souto Maior.
@@ -193,10 +224,10 @@ profile: >-
   **Gaspar de Souto Maior** — baptised 23 December 1657, São Sebastião, Terceira **[PROVEN, PAR-0099]**; died 2 December 1727, São Sebastião, "casado com Maria Mendes", aged about seventy **[PROVEN, PAR-0100]**. Son of the **Alferes Belchior da Ponte Cardoso** (P-0123) and **Mariana Fagundes** (P-0124), family F-0062 — named in his own baptism as "do Alferes belchior da ponte cardozo e de sua molher mariana Fag.des" **[PROVEN]** and stated independently by Mendes Forjaz Vol. IX **[COMPILED]**.
 
 
-  - **Names in the records:** "Gasp.ar" (1657), "Gaspar de Souto" (1727), "Gaspar de Souto-Maior" (Vol. IX), "Gaspar de Souto Maior" (the 1751 will, quoted).
+  - **Names in the records:** "Gasp.ar" (1657), "Gaspar de Souto" (1690 and 1727), "Gaspar de Souto-Maior" (Vol. IX), "Gaspar de Souto Maior" (the 1751 will, quoted).
 
 
-  - **Marriages [COMPILED]:** first, on 2 October 1690 at the church of the Convento da Graça, Angra, to D. Margarida Machado — very probably the "Margarida das Candeyas" of the 1751 will **[LEAD]**; second, on 8 February 1694 at São Sebastião, to Maria Mendes de Borba. That he was married to a Maria Mendes when he died is **[PROVEN]** by his death act. Neither wife is modelled: no marriage record is held here.
+  - **Marriages:** first, on 2 October 1690, to **Margarida** (P-0136), daughter of Francisco Ferreira de Ermonde and D. Ana M[achada] **[PROVEN, PAR-0104]** — Vol. IX's "D. Margarida Machado" **[COMPILED]** and very probably the "Margarida das Candeyas" of the 1751 will **[LEAD]**; she died in April 1693 **[LEAD]**. Second, on 8 February 1694 at São Sebastião, to Maria Mendes de Borba **[COMPILED]**; that he was married to a Maria Mendes when he died is **[PROVEN]** by his death act. The first marriage is modelled (family F-0069, event E-0138); the second is not — no 1694 act is held here.
 
 
   - **Children:** three of the second marriage per Vol. IX — Maria (1698), António (1700), Lourença (1701), baptised at São Sebastião **[COMPILED]**; issue of the first marriage per Vol. IX, under the Drummond family **[COMPILED, not held]**; and, per Lacerda after Luz's 2008 typescript, Francisco Ferreira Armonde (d. 1751) and his brother Antônio **[LEAD]**. None is modelled.
@@ -220,7 +251,10 @@ profile: >-
   - **Parentage [PROVEN].** Named in his own baptism; Vol. IX agrees.
 
 
-  - **Marriages and children [COMPILED / LEAD].** Known from Vol. IX and from Lacerda's thesis. The retrieval side reports reading records that are **not held here**: his 1690 marriage (São Sebastião C-1673-1766 p.0036), naming the same parents; his sister Isabel's 1693 marriage (p.0043), with Gaspar as a witness; his 1694 marriage (p.0044), "viúvo de D. Margarida", giving Maria's parents as Brás Gil de Borba × D. Iria/Inês Mendes (Vol. IX: Bartolomeu Vieira de Borba × Iria Mendes); Margarida's death in April 1693 (O-1642-1696 p.0080); and his signature on a 1696 marriage (p.0052). Each is **[LEAD]** until the image is catalogued here.
+  - **First marriage (E-0138) [PROVEN].** The original act is held (PAR-0104, São Sebastião C-1673-1766 p.0036, a reduced-resolution open-CDN copy). It names him with his parents, "f.º do Alferes Belchior de Ponte … e de sua m.er Mariana … ja defuntos" — the second original act to name them, after his baptism — and his bride "D. Margarida" with hers, "Fr.co Fer.a de Ermonde ja defunto" and "D. Anna", the parents of her held baptism (PAR-0103). Her surname is abbreviated and uncertain on the copy, so equating her with Vol. IX's "D. Margarida Machado" rests on the husband, the date and the consistent abbreviation (strong). The act names the church "Igreja de N. S.ra da Graça", with a qualifier read "sufraganea a esta Matriz" **[uncertain]**; Vol. IX says the Convento da Graça, Angra.
+
+
+  - **Second marriage and children [COMPILED / LEAD].** Known from Vol. IX and from Lacerda's thesis. The retrieval side reports reading records that are **not held here**, all in São Sebastião books: his sister Isabel's 1693 marriage (p.0043), with Gaspar as a witness; his 1694 marriage (p.0044), "viúvo de D. Margarida", giving Maria's parents as Brás Gil de Borba × D. Iria/Inês Mendes (Vol. IX: Bartolomeu Vieira de Borba × Iria Mendes); Margarida's death in April 1693 (O-1642-1696 p.0080); and his signature on a 1696 marriage (p.0052). Each is **[LEAD]** until the image is catalogued here.
 
 
   - **The Francisco link [LEAD].** Rests on the 1751 will as quoted in a thesis, and on genealogists' e-mails and a private typescript (PUB-0002 nn. 74–75). The retrieval side found no baptism of Francisco at São Sebastião for 1687–94 (a qualified negative, with a damaged leaf in April–May 1693) and a register lacuna at Fonte do Bastardo (November 1691 – December 1693). Absence from those books proves nothing either way.
@@ -238,7 +272,10 @@ profile: >-
   - **Who were Maria Mendes's parents?** Vol. IX says Bartolomeu Vieira de Borba and Iria Mendes; the retrieval side's read of the 1694 act says Brás Gil de Borba and D. Iria/Inês Mendes. The 1694 act, catalogued here, would settle it.
 
 
-  - **Was D. Margarida Machado the will's "Margarida das Candeyas"?** Probably — Luz's "Margarida das Candeyas Machado" joins the two forms — but only her baptism or the 1690 marriage act would show it.
+  - **Was his first wife the will's "Margarida das Candeyas"?** Probably. Her baptism (29 May 1667, PAR-0103) and their marriage act (PAR-0104) are now held and neither writes "das Candeyas", but Lacerda's footnote 74 dates the will's Margarida's baptism to the very day of PAR-0103 **[LEAD]**, and Luz's "Margarida das Candeyas Machado" joins the forms. The 1751 will, read at the original, would settle it.
+
+
+  - **Which church of Nossa Senhora da Graça?** The act's qualifier, read "sufraganea a esta Matriz", would point to a church of the São Sebastião parish rather than Vol. IX's Convento da Graça at Angra; a 300-dpi scan of C-1673-1766 p.0036 from BPAR would settle it.
 
 
   - **The children of 1698–1701.** No baptism of Maria, António or Lourença is held; the retrieval side sampled 1695–1705 without finding them (not exhaustive).
@@ -256,13 +293,16 @@ profile: >-
   - **PAR-0100** — his death, São Sebastião, 2 December 1727 (O-1696-1762 image p.0099); "casado com Maria Mendes", about seventy, intestate. Reduced-resolution open-CDN copy, legible for the core facts. *Primary.*
 
 
+  - **PAR-0104** — his first marriage, 2 October 1690 (C-1673-1766 p.0036, left page, first entry); names his parents, both dead, and his bride D. Margarida with hers. Reduced-resolution open-CDN copy; three surnames and the church's qualifier uncertain. *Primary.*
+
+
   - **PUB-0005** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IX, SOUTO-MAIOR § 1º, pp. 257–261: his baptism (with the month misprinted), death date, both marriages and the children of the second; also the namesake cousin. *Secondary, compiled.*
 
 
   - **PUB-0002** — Lacerda's thesis, ff. 55–56: the 1751 will naming "Gaspar de Souto Maior e … Margarida das Candeyas" as Francisco Ferreira Armonde's parents, and the Luz genealogy. *Secondary; a lead.*
 
 
-  - **Context:** his parents' records are catalogued under P-0123 and P-0124 — their 1650 marriage (PAR-0086), six of his siblings' baptisms (PAR-0090 to PAR-0096, except PAR-0094) and their burials (PAR-0088, PAR-0089) — and his grandparents' burials (PAR-0097, PAR-0098), which prove the vicar who baptised him was his uncle.
+  - **Context:** his parents' records are catalogued under P-0123 and P-0124 — their 1650 marriage (PAR-0086), six of his siblings' baptisms (PAR-0090 to PAR-0096, except PAR-0094) and their burials (PAR-0088, PAR-0089) — and his grandparents' burials (PAR-0097, PAR-0098), which prove the vicar who baptised him was his uncle. His first wife's baptism (PAR-0103) and her family are under P-0136 and F-0068.
 
 
   ## Where to go today
@@ -271,10 +311,10 @@ profile: >-
   - **Igreja Matriz de São Sebastião, São Sebastião, Angra do Heroísmo, Terceira** — his parish: he was baptised in it in 1657 and was "natural e freguez desta Matriz" when he died in 1727; his fabric grave was presumably in it, though the act does not name the church **[INFERRED]**. [RESOLVED — parish] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20S%C3%A3o%20Sebasti%C3%A3o%2C%20Terceira%2C%20A%C3%A7ores)
 
 
-  - **Convento da Graça, Angra do Heroísmo** — where Vol. IX places his first marriage in 1690 **[COMPILED]**. Whether the convent church survives was not checked. [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Convento%20da%20Gra%C3%A7a%2C%20Angra%20do%20Hero%C3%ADsmo)
+  - **Nossa Senhora da Graça** — the church of his first marriage in 1690: "Igreja de N. S.ra da Graça" in the act (PAR-0104), seemingly a church subordinate to the São Sebastião mother church **[uncertain reading]**; Vol. IX places the marriage at the Convento da Graça, Angra **[COMPILED]**. Which building it was, and whether it survives, was not established. [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Convento%20da%20Gra%C3%A7a%2C%20Angra%20do%20Hero%C3%ADsmo)
 
 
-  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — holds the original books: B-1611-1687 (his baptism), O-1696-1762 (his death, worth ordering at 300 dpi) and C-1673-1766 (his two marriages, not yet held here). · [Maps](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)
+  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — holds the original books: B-1611-1687 (his baptism), O-1696-1762 (his death, worth ordering at 300 dpi) and C-1673-1766 (his two marriages: the 1690 act is held here only as a reduced-resolution copy, worth ordering at 300 dpi; the 1694 act is not yet held). · [Maps](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)
 profile_pt: >-
   ## Fatos interessantes
 
@@ -288,10 +328,13 @@ profile_pt: >-
   - **[PROVEN]** O padrinho foi *outro* Gaspar de Souto Maior, "filho de Ba[…]z leonardes" — um primo que Mendes Forjaz lista à parte **[COMPILED]**. A mesma página nomeia um terceiro Gaspar, um Gaspar Ferreira do Porto Judeu. O problema dos homónimos, que um dia o fundiu com um Gaspar Ferreira brasileiro, está à vista na própria página do seu baptismo.
 
 
-  - **[PROVEN]** Os registos aqui guardados nunca lhe chamam "Souto Maior": é só "Gasp.ar" no baptismo e "Gaspar de Souto" no óbito. "Gaspar de Souto-Maior" é a forma do compilador **[COMPILED]**; "Gaspar de Souto Maior" é a forma do testamento de 1751 citado por Lacerda **[LEAD]**.
+  - **[PROVEN]** Os registos aqui guardados nunca lhe chamam "Souto Maior": é só "Gasp.ar" no baptismo e "Gaspar de Souto" no primeiro casamento, em 1690, e no óbito (no assento de casamento, uma palavra a seguir, possivelmente "Mayor", não se lê na cópia guardada). "Gaspar de Souto-Maior" é a forma do compilador **[COMPILED]**; "Gaspar de Souto Maior" é a forma do testamento de 1751 citado por Lacerda **[LEAD]**.
 
 
   - **[PROVEN]** Morreu sem testamento — "não fez testamento" — e foi sepultado numa sepultura da fábrica da igreja.
+
+
+  - **[PROVEN]** No primeiro casamento, a 2 de outubro de 1690, os dois pais já tinham morrido — o assento chama-lhes "ja defuntos" — e também o pai da noiva.
 
 
   - **[COMPILED]** Do primeiro casamento, o compilador diz que a geração "segue" na família Drummond "por ter preferido os apelidos maternos". É a explicação impressa para os seus supostos filhos não usarem Souto Maior.
@@ -303,10 +346,10 @@ profile_pt: >-
   **Gaspar de Souto Maior** — baptizado a 23 de dezembro de 1657, São Sebastião, Terceira **[PROVEN, PAR-0099]**; falecido a 2 de dezembro de 1727, São Sebastião, "casado com Maria Mendes", com cerca de setenta anos **[PROVEN, PAR-0100]**. Filho do **Alferes Belchior da Ponte Cardoso** (P-0123) e de **Mariana Fagundes** (P-0124), família F-0062 — nomeados no próprio baptismo como "do Alferes belchior da ponte cardozo e de sua molher mariana Fag.des" **[PROVEN]** e declarados de forma independente pelo Vol. IX de Mendes Forjaz **[COMPILED]**.
 
 
-  - **Nomes nos registos:** "Gasp.ar" (1657), "Gaspar de Souto" (1727), "Gaspar de Souto-Maior" (Vol. IX), "Gaspar de Souto Maior" (o testamento de 1751, citado).
+  - **Nomes nos registos:** "Gasp.ar" (1657), "Gaspar de Souto" (1690 e 1727), "Gaspar de Souto-Maior" (Vol. IX), "Gaspar de Souto Maior" (o testamento de 1751, citado).
 
 
-  - **Casamentos [COMPILED]:** primeiro, a 2 de outubro de 1690, na igreja do Convento da Graça, em Angra, com D. Margarida Machado — muito provavelmente a "Margarida das Candeyas" do testamento de 1751 **[LEAD]**; segundo, a 8 de fevereiro de 1694, em São Sebastião, com Maria Mendes de Borba. Que estava casado com uma Maria Mendes quando morreu é **[PROVEN]** pelo assento de óbito. Nenhuma das mulheres é modelada: não há registo de casamento guardado aqui.
+  - **Casamentos:** primeiro, a 2 de outubro de 1690, com **Margarida** (P-0136), filha de Francisco Ferreira de Ermonde e de D. Ana M[achada] **[PROVEN, PAR-0104]** — a "D. Margarida Machado" do Vol. IX **[COMPILED]** e muito provavelmente a "Margarida das Candeyas" do testamento de 1751 **[LEAD]**; morreu em abril de 1693 **[LEAD]**. Segundo, a 8 de fevereiro de 1694, em São Sebastião, com Maria Mendes de Borba **[COMPILED]**; que estava casado com uma Maria Mendes quando morreu é **[PROVEN]** pelo assento de óbito. O primeiro casamento está modelado (família F-0069, evento E-0138); o segundo não — não há assento de 1694 guardado aqui.
 
 
   - **Filhos:** três do segundo casamento segundo o Vol. IX — Maria (1698), António (1700), Lourença (1701), baptizados em São Sebastião **[COMPILED]**; geração do primeiro casamento segundo o Vol. IX, na família Drummond **[COMPILED, não guardado]**; e, segundo Lacerda a partir do datiloscrito de Luz de 2008, Francisco Ferreira Armonde (f. 1751) e o irmão Antônio **[LEAD]**. Nenhum está modelado.
@@ -330,7 +373,10 @@ profile_pt: >-
   - **Filiação [PROVEN].** Nomeada no próprio baptismo; o Vol. IX concorda.
 
 
-  - **Casamentos e filhos [COMPILED / LEAD].** Conhecidos pelo Vol. IX e pela tese de Lacerda. A pesquisa de recuperação diz ter lido registos que **não estão guardados aqui**: o casamento dele de 1690 (São Sebastião C-1673-1766, p.0036), que nomeia os mesmos pais; o casamento da irmã Isabel em 1693 (p.0043), com Gaspar como testemunha; o casamento de 1694 (p.0044), "viúvo de D. Margarida", que dá os pais de Maria como Brás Gil de Borba × D. Iria/Inês Mendes (Vol. IX: Bartolomeu Vieira de Borba × Iria Mendes); a morte de Margarida em abril de 1693 (O-1642-1696, p.0080); e a assinatura dele num casamento de 1696 (p.0052). Cada um é **[LEAD]** até a imagem ser catalogada aqui.
+  - **Primeiro casamento (E-0138) [PROVEN].** O assento original está guardado (PAR-0104, São Sebastião C-1673-1766, p.0036, cópia de resolução reduzida do CDN aberto). Nomeia-o com os pais, "f.º do Alferes Belchior de Ponte … e de sua m.er Mariana … ja defuntos" — o segundo assento original a nomeá-los, depois do baptismo — e a noiva "D. Margarida" com os dela, "Fr.co Fer.a de Ermonde ja defunto" e "D. Anna", os pais do baptismo dela, guardado (PAR-0103). O apelido dela está abreviado e é incerto na cópia, pelo que identificá-la com a "D. Margarida Machado" do Vol. IX assenta no marido, na data e na abreviatura compatível (forte). O assento nomeia a igreja "Igreja de N. S.ra da Graça", com um qualificativo lido "sufraganea a esta Matriz" **[incerto]**; o Vol. IX diz o Convento da Graça, em Angra.
+
+
+  - **Segundo casamento e filhos [COMPILED / LEAD].** Conhecidos pelo Vol. IX e pela tese de Lacerda. A pesquisa de recuperação diz ter lido registos que **não estão guardados aqui**, todos em livros de São Sebastião: o casamento da irmã Isabel em 1693 (p.0043), com Gaspar como testemunha; o casamento de 1694 (p.0044), "viúvo de D. Margarida", que dá os pais de Maria como Brás Gil de Borba × D. Iria/Inês Mendes (Vol. IX: Bartolomeu Vieira de Borba × Iria Mendes); a morte de Margarida em abril de 1693 (O-1642-1696, p.0080); e a assinatura dele num casamento de 1696 (p.0052). Cada um é **[LEAD]** até a imagem ser catalogada aqui.
 
 
   - **O elo com Francisco [LEAD].** Assenta no testamento de 1751 citado numa tese, e em mensagens de genealogistas e num datiloscrito particular (PUB-0002, nn. 74–75). A pesquisa de recuperação não achou o baptismo de Francisco em São Sebastião para 1687–94 (negativo qualificado, com uma folha danificada em abril–maio de 1693) e encontrou uma lacuna no livro da Fonte do Bastardo (novembro de 1691 – dezembro de 1693). A ausência nesses livros não prova nada, num sentido ou noutro.
@@ -348,7 +394,10 @@ profile_pt: >-
   - **Quem eram os pais de Maria Mendes?** O Vol. IX diz Bartolomeu Vieira de Borba e Iria Mendes; a leitura do assento de 1694 pela pesquisa de recuperação diz Brás Gil de Borba e D. Iria/Inês Mendes. O assento de 1694, catalogado aqui, resolveria a questão.
 
 
-  - **D. Margarida Machado era a "Margarida das Candeyas" do testamento?** Provavelmente — a "Margarida das Candeyas Machado" de Luz junta as duas formas —, mas só o baptismo dela ou o assento de casamento de 1690 o mostrariam.
+  - **A primeira mulher era a "Margarida das Candeyas" do testamento?** Provavelmente. O baptismo dela (29 de maio de 1667, PAR-0103) e o assento de casamento (PAR-0104) estão agora guardados e nenhum escreve "das Candeyas", mas a nota 74 de Lacerda data o baptismo da Margarida do testamento do próprio dia do PAR-0103 **[LEAD]**, e a "Margarida das Candeyas Machado" de Luz junta as formas. O testamento de 1751, lido no original, resolveria a questão.
+
+
+  - **Que igreja de Nossa Senhora da Graça?** O qualificativo do assento, lido "sufraganea a esta Matriz", apontaria para uma igreja da freguesia de São Sebastião e não para o Convento da Graça, em Angra, do Vol. IX; uma digitalização a 300 dpi de C-1673-1766, p.0036, pedida ao BPAR, resolveria a questão.
 
 
   - **Os filhos de 1698–1701.** Não há baptismo guardado de Maria, António ou Lourença; a pesquisa de recuperação percorreu amostras de 1695–1705 sem os achar (não exaustivo).
@@ -366,13 +415,16 @@ profile_pt: >-
   - **PAR-0100** — o óbito, São Sebastião, 2 de dezembro de 1727 (O-1696-1762, imagem p.0099); "casado com Maria Mendes", cerca de setenta anos, sem testamento. Cópia de resolução reduzida do CDN aberto, legível para os factos essenciais. *Primária.*
 
 
+  - **PAR-0104** — o primeiro casamento, 2 de outubro de 1690 (C-1673-1766, p.0036, página esquerda, primeiro assento); nomeia os pais dele, ambos falecidos, e a noiva D. Margarida com os dela. Cópia de resolução reduzida do CDN aberto; três apelidos e o qualificativo da igreja incertos. *Primária.*
+
+
   - **PUB-0005** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IX, SOUTO-MAIOR, § 1º, pp. 257–261: o baptismo (com o mês mal impresso), a data do óbito, os dois casamentos e os filhos do segundo; também o primo homónimo. *Secundária, compilada.*
 
 
   - **PUB-0002** — a tese de Lacerda, ff. 55–56: o testamento de 1751 que nomeia "Gaspar de Souto Maior e … Margarida das Candeyas" como pais de Francisco Ferreira Armonde, e a genealogia de Luz. *Secundária; uma pista.*
 
 
-  - **Contexto:** os registos dos pais estão catalogados em P-0123 e P-0124 — o casamento de 1650 (PAR-0086), os baptismos de seis irmãos (PAR-0090 a PAR-0096, excepto PAR-0094) e os óbitos (PAR-0088, PAR-0089) — e os óbitos dos avós (PAR-0097, PAR-0098), que provam que o vigário que o baptizou era seu tio.
+  - **Contexto:** os registos dos pais estão catalogados em P-0123 e P-0124 — o casamento de 1650 (PAR-0086), os baptismos de seis irmãos (PAR-0090 a PAR-0096, excepto PAR-0094) e os óbitos (PAR-0088, PAR-0089) — e os óbitos dos avós (PAR-0097, PAR-0098), que provam que o vigário que o baptizou era seu tio. O baptismo da primeira mulher (PAR-0103) e a família dela estão em P-0136 e F-0068.
 
 
   ## Onde ir hoje
@@ -381,7 +433,7 @@ profile_pt: >-
   - **Igreja Matriz de São Sebastião, São Sebastião, Angra do Heroísmo, Terceira** — a freguesia dele: foi ali baptizado em 1657 e era "natural e freguez desta Matriz" quando morreu, em 1727; a sepultura da fábrica era presumivelmente ali, embora o assento não nomeie a igreja **[INFERRED]**. [RESOLVIDO — freguesia] · [Mapa](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20S%C3%A3o%20Sebasti%C3%A3o%2C%20Terceira%2C%20A%C3%A7ores)
 
 
-  - **Convento da Graça, Angra do Heroísmo** — onde o Vol. IX situa o primeiro casamento, em 1690 **[COMPILED]**. Não se verificou se a igreja do convento subsiste. [APROX] · [Mapa](https://www.google.com/maps/search/?api=1&query=Convento%20da%20Gra%C3%A7a%2C%20Angra%20do%20Hero%C3%ADsmo)
+  - **Nossa Senhora da Graça** — a igreja do primeiro casamento, em 1690: "Igreja de N. S.ra da Graça" no assento (PAR-0104), aparentemente subordinada à matriz de São Sebastião **[leitura incerta]**; o Vol. IX situa o casamento no Convento da Graça, em Angra **[COMPILED]**. Não se apurou que edifício era nem se subsiste. [APROX] · [Mapa](https://www.google.com/maps/search/?api=1&query=Convento%20da%20Gra%C3%A7a%2C%20Angra%20do%20Hero%C3%ADsmo)
 
 
-  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — guarda os livros originais: B-1611-1687 (o baptismo), O-1696-1762 (o óbito, que vale a pena pedir a 300 dpi) e C-1673-1766 (os dois casamentos, ainda não guardados aqui). · [Mapa](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)
+  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — guarda os livros originais: B-1611-1687 (o baptismo), O-1696-1762 (o óbito, que vale a pena pedir a 300 dpi) e C-1673-1766 (os dois casamentos: o assento de 1690 só está guardado aqui em cópia de resolução reduzida, que vale a pena pedir a 300 dpi; o de 1694 ainda não está guardado). · [Mapa](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)

@@ -5,6 +5,21 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-10-10 — Margarida das Candeias Machado and her parents (Terceira trunk)
+
+Owner-authorised (third batch): Margarida's baptism, the 1690 marriage and Manuel's 1661 baptism, read by path in the
+retrieval repo once a macOS access block on that folder was lifted. PAR-0103 (29 May 1667, "Margarida f.a de Fr.co Fer.a
+Ermonde e de sua m.er D. Anna M.da"), PAR-0104 (2 Oct 1690, "Gaspar de So-/uto f.º do Alferes Belchior de Ponte … e de sua
+m.er Mariana … ja defuntos" with "D. Margarida … f.a de Fr.co Fer.a de Ermonde ja defunto e de sua m.er D. Anna", at "N. S.ra da
+Graça su-/fraganea [uncertain] a esta Matriz" — not obviously Vol. IX's Convento da Graça in Angra), PAR-0105 (27 Dec 1661,
+"manuel filho de Fr.co Fer.ra e de sua mulher Dona Anna M.da"). New: P-0136 Margarida, P-0137 Francisco Ferreira de Ermonde,
+P-0138 Ana Machado; F-0068 (union confirmed on two acts; Manuel a documented child, identification strong), F-0069 (Gaspar ×
+Margarida, confirmed), E-0138, E-0139 — all on the Terceira trunk, each with a `connection` note (family tradition, not a
+proven ancestry). The 1690 act is reading_reliability partial (the bride's surname). Lacerda's footnote 74 gives exactly
+29 May 1667 for the will's Margarida das Candeyas, so the woman Vol. IX calls D. Margarida Machado and the will's mother of
+the Barbacena patriarch are very probably one person; the patriarch's own baptism is still unfound (the link to Brazil stays
+a lead).
+
 ## 2026-10-10 — Owner-authorised promotions; the two Gaspars separated; Rosa's grandparents modelled
 
 **Amends the entry below**, which treated the drop's images as "not delivered": the intake was corrected — scans are read

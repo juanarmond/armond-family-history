@@ -134,6 +134,7 @@ children:
     status: confirmed
     source_ids:
     - PAR-0099
+    - PAR-0104
     - PUB-0005
     notes:
     - text: >-
@@ -149,6 +150,7 @@ children:
     status: confirmed
     source_ids:
     - PAR-0099
+    - PAR-0104
     - PUB-0005
     notes: []
   notes: []
@@ -335,3 +337,28 @@ notes:
     são antepassados provados do dono do arquivo: formam o tronco da Terceira reivindicado pelos
     Ferreira Armonde de Barbacena, que só se ligaria ao dono pelos pais desconhecidos de
     Simplício (P-0016).
+- text: >-
+    2026-10-10 — Gaspar's 1690 marriage is now held. The notes above describe his first
+    marriage (2.10.1690, D. Margarida Machado) as known only from Vol. IX, and the marriage image
+    as one read on the retrieval side and "not catalogued nor held here"; that is superseded. The
+    act is catalogued as PAR-0104 (São Sebastião C-1673-1766 p.0036), event E-0138, family
+    F-0069. It names the groom "Gaspar de So-/uto f.º do Alferes Belchior de Ponte … e de sua
+    m.er Mariana … ja defuntos" — a second original act naming this couple as Gaspar's parents,
+    after his baptism (PAR-0099), and proof that both were dead by 2 October 1690, consistent
+    with their held deaths (E-0127, 1687; E-0136, 1684). His bride is Margarida (P-0136),
+    daughter of Francisco Ferreira de Ermonde and D. Ana M[achada] (F-0068; her baptism is
+    PAR-0103). The act names the church "Igreja de N. S.ra da Graça", with a qualifier read
+    "sufraganea a esta Matriz" [uncertain] — not obviously Vol. IX's Convento da Graça at Angra.
+  text_pt: >-
+    2026-10-10 — O casamento de Gaspar de 1690 está agora guardado. As notas acima descrevem o
+    primeiro casamento dele (2.10.1690, D. Margarida Machado) como conhecido só pelo Vol. IX, e a
+    imagem do casamento como lida pela pesquisa de recuperação e "nem catalogada nem guardada
+    aqui"; isso fica substituído. O assento está catalogado como PAR-0104 (São Sebastião
+    C-1673-1766, p.0036), evento E-0138, família F-0069. Nomeia o noivo "Gaspar de So-/uto f.º do
+    Alferes Belchior de Ponte … e de sua m.er Mariana … ja defuntos" — um segundo assento original
+    a nomear este casal como pais de Gaspar, depois do baptismo (PAR-0099), e a prova de que ambos
+    tinham morrido antes de 2 de outubro de 1690, de acordo com os óbitos guardados (E-0127, 1687;
+    E-0136, 1684). A noiva é Margarida (P-0136), filha de Francisco Ferreira de Ermonde e de D. Ana
+    M[achada] (F-0068; o baptismo dela é o PAR-0103). O assento nomeia a igreja "Igreja de N. S.ra
+    da Graça", com um qualificativo lido "sufraganea a esta Matriz" [incerto] — não forçosamente
+    o Convento da Graça, em Angra, do Vol. IX.

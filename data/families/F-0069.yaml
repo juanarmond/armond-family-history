@@ -1,0 +1,92 @@
+schema_version: 1
+id: F-0069
+partners:
+- person_id: P-0131
+  role: spouse
+- person_id: P-0136
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PAR-0104
+  - PUB-0005
+  notes:
+  - text: >-
+      Gaspar de Souto Maior (P-0131) × Margarida (P-0136), married 2 October 1690 in the
+      "Igreja de N. S.ra da Graça", entered in the São Sebastião register (E-0138). Confirmed by
+      the original marriage act, PAR-0104: "a Gaspar de So-/uto f.º do Alferes Belchior de Ponte
+      … e de sua m.er Mariana … Com D. Margarida … f.a de Fr.co Fer.a de Ermonde ja defunto e de
+      sua m.er D. Anna". Both parties are identified by their named parents, who are those of
+      their held baptisms (PAR-0099, PAR-0103). Mendes Forjaz Vol. IX (PUB-0005, p.261)
+      corroborates the date and calls the bride "D. Margarida Machado"; the act's abbreviated
+      surname for her, read "M.da", is uncertain on the reduced-resolution copy.
+    text_pt: >-
+      Gaspar de Souto Maior (P-0131) × Margarida (P-0136), casados a 2 de outubro de 1690 na
+      "Igreja de N. S.ra da Graça", com assento no livro de São Sebastião (E-0138). Confirmado pelo
+      assento original de casamento, PAR-0104: "a Gaspar de So-/uto f.º do Alferes Belchior de
+      Ponte … e de sua m.er Mariana … Com D. Margarida … f.a de Fr.co Fer.a de Ermonde ja defunto e
+      de sua m.er D. Anna". As duas partes são identificadas pelos pais nomeados, que são os dos
+      respectivos baptismos guardados (PAR-0099, PAR-0103). O Vol. IX de Mendes Forjaz (PUB-0005,
+      p.261) corrobora a data e chama à noiva "D. Margarida Machado"; o apelido abreviado que o
+      assento lhe dá, lido "M.da", é incerto na cópia de resolução reduzida.
+children: []
+event_ids:
+- E-0138
+notes:
+- text: >-
+    The marriage ended with Margarida's death: the retrieval side reports her burial act in the
+    São Sebastião death book O-1642-1696, p.0080, "faleceu D. Margarida, m.er de Gaspar de
+    Souto", in April 1693 (the day read 9 or 19), and Lacerda's footnote 74 (PUB-0002) gives 9
+    April 1693 [LEAD — the image is not held here]. Her death is not modelled.
+  text_pt: >-
+    O casamento terminou com a morte de Margarida: a pesquisa de recuperação refere o assento de
+    óbito dela no livro de óbitos de São Sebastião O-1642-1696, p.0080, "faleceu D. Margarida,
+    m.er de Gaspar de Souto", em abril de 1693 (o dia lido 9 ou 19), e a nota 74 de Lacerda
+    (PUB-0002) dá 9 de abril de 1693 [LEAD — a imagem não está guardada aqui]. A morte dela não é
+    modelada.
+- text: >-
+    Children — none modelled, deliberately. Vol. IX (PUB-0005, p.261) says of this marriage
+    "C.g. que aí segue, por ter preferido os apelidos maternos", sending the issue to DRUMMOND §
+    3º, which is not held [COMPILED, not held]. Lacerda, after Paulo Ribeiro Luz's private 2008
+    typescript, makes the Barbacena patriarch Francisco Ferreira Armonde (d. 1751) and his
+    brother Antônio sons of this marriage (PUB-0002 ff. 55–56); the 1751 will, as Lacerda quotes
+    it, calls Francisco "Filho legítimo de Gaspar de Souto Maior e de sua mulher Margarida das
+    Candeyas, já defuntos" [LEAD]. The retrieval side found no baptism of Francisco at São
+    Sebastião for 1687–94 (a qualified negative, with a damaged leaf in April–May 1693) and a
+    lacuna in the Fonte do Bastardo book from November 1691 to December 1693 — absence from those
+    books proves nothing. Because no child of the marriage rests on a held record, none is listed
+    as a child or documented child; that is intentional, not a gap for an audit to fill.
+  text_pt: >-
+    Filhos — nenhum modelado, de propósito. O Vol. IX (PUB-0005, p.261) diz deste casamento "C.g.
+    que aí segue, por ter preferido os apelidos maternos", remetendo a geração para DRUMMOND, §
+    3º, que não está guardado [COMPILED, não guardado]. Lacerda, a partir do datiloscrito
+    particular de Paulo Ribeiro Luz de 2008, faz do patriarca de Barbacena Francisco Ferreira
+    Armonde (f. 1751) e do irmão Antônio filhos deste casamento (PUB-0002, ff. 55–56); o
+    testamento de 1751, tal como Lacerda o cita, chama a Francisco "Filho legítimo de Gaspar de
+    Souto Maior e de sua mulher Margarida das Candeyas, já defuntos" [LEAD]. A pesquisa de
+    recuperação não achou o baptismo de Francisco em São Sebastião para 1687–94 (negativo
+    qualificado, com uma folha danificada em abril–maio de 1693) e encontrou uma lacuna no livro
+    da Fonte do Bastardo de novembro de 1691 a dezembro de 1693 — a ausência nesses livros não
+    prova nada. Como nenhum filho do casamento assenta num registo guardado, nenhum é listado como
+    filho nem como filho documentado; é intencional, não lacuna a preencher por uma auditoria.
+- text: >-
+    Gaspar's second marriage, on 8 February 1694 at São Sebastião, to Maria Mendes de Borba (Vol.
+    IX) [COMPILED], is not modelled as a family: no marriage act is held (the retrieval side
+    reports reading it, C-1673-1766 p.0044, "viúvo de D. Margarida" [LEAD]). His death act of
+    1727 (PAR-0100) proves only that he was then married to a Maria Mendes.
+  text_pt: >-
+    O segundo casamento de Gaspar, a 8 de fevereiro de 1694 em São Sebastião, com Maria Mendes de
+    Borba (Vol. IX) [COMPILED], não é modelado como família: não há assento de casamento guardado
+    (a pesquisa de recuperação diz tê-lo lido, C-1673-1766, p.0044, "viúvo de D. Margarida"
+    [LEAD]). O assento de óbito de 1727 (PAR-0100) prova apenas que estava então casado com uma
+    Maria Mendes.
+- text: >-
+    Terceira trunk, not proven ancestry. This couple is the link that family tradition makes
+    between the Terceira Souto Maior and Ermonde families and the Ferreira Armonde of Barbacena;
+    it would reach the archive's owner only through the unknown parents of Simplício José
+    Ferreira Armond (P-0016). Neither partner is a proven ancestor of the owner.
+  text_pt: >-
+    Tronco da Terceira, não ascendência provada. Este casal é o elo que a tradição familiar faz
+    entre os Souto Maior e os Ermonde da Terceira e os Ferreira Armonde de Barbacena; só chegaria
+    ao proprietário do arquivo através dos pais desconhecidos de Simplício José Ferreira Armond
+    (P-0016). Nenhum dos dois é antepassado provado do proprietário.

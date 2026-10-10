@@ -1,0 +1,49 @@
+schema_version: 1
+id: E-0139
+event_type: baptism
+date:
+  kind: exact
+  value: "1667-05-29"
+  original_text: >-
+    Em os vinte e nove dias do mes de Mayo de mil e seis sentos sessenta e sete annos
+place_text: São Sebastião, Terceira, Azores
+participants:
+- person_id: P-0136
+  role: principal
+- person_id: P-0137
+  role: parent
+- person_id: P-0138
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0103
+notes:
+- text: >-
+    Baptism of Margarida (P-0136) on 29 May 1667, from her original act (PAR-0103, São
+    Sebastião baptisms B-1611-1687, image p.0384, entry 3): "baptizei a Margarida f.a de Fr.co
+    Fer.a Ermonde e de sua m.er D. Anna M.da", godparents M.el M.do and Cat.na Roiz, daughter of
+    B[…] Roiz Pacheco; signed by the cura Domingos Cardoso Froes. Confirmed: a primary original
+    act in which the date, the child and both parents are legible. The mother's surname is an
+    abbreviation ("M.da", read with an uncertain mark), but she is identified by forename,
+    style and husband. Lacerda's thesis footnote 74 (PUB-0002) gives the baptism of "Margarida
+    das Candeyas" on this same day at São Sebastião [LEAD]; Mendes Forjaz Vol. IX does not give
+    her baptism. No birth date is stated, so no birth event is modelled.
+  text_pt: >-
+    Baptismo de Margarida (P-0136) a 29 de maio de 1667, pelo assento original (PAR-0103,
+    baptismos de São Sebastião B-1611-1687, imagem p.0384, assento 3): "baptizei a Margarida f.a
+    de Fr.co Fer.a Ermonde e de sua m.er D. Anna M.da", padrinhos M.el M.do e Cat.na Roiz, filha de
+    B[…] Roiz Pacheco; assinado pelo cura Domingos Cardoso Froes. Confirmado: assento original
+    primário em que a data, a criança e os dois pais são legíveis. O apelido da mãe é uma
+    abreviatura ("M.da", lida com marca de incerteza), mas ela fica identificada pelo prenome,
+    pelo tratamento e pelo marido. A nota 74 da tese de Lacerda (PUB-0002) dá o baptismo de
+    "Margarida das Candeyas" neste mesmo dia em São Sebastião [LEAD]; o Vol. IX de Mendes Forjaz
+    não dá o baptismo dela. Não há data de nascimento declarada, pelo que não se modela evento de
+    nascimento.
+- text: >-
+    Place. The act does not name the church or parish in words; it is entered in the São
+    Sebastião baptism book, so place_text gives São Sebastião, Terceira, Azores from the
+    register's identity.
+  text_pt: >-
+    Local. O assento não nomeia por extenso a igreja nem a freguesia; está lançado no livro de
+    baptismos de São Sebastião, pelo que place_text dá São Sebastião, Terceira, Açores, pela
+    identidade do livro.

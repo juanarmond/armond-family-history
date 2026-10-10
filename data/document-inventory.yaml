@@ -5768,3 +5768,102 @@ documents:
   proposed_source_id: PRB-0012
   notes:
   - All 23 pages are transcribed as one record. Pages 3–10 are the certified copy of the will (27 Jan 1890) and are catalogued under PRB-0005 (DOC-0047) — pp. 3–4 were already held there byte-identical, and pp. 5–10 were added to it on 2026-10-10. This record keeps the proceedings, pp. 1–2 and 11–23.
+- inventory_id: DOC-0128
+  status: catalogued
+  added_date: '2026-10-10'
+  apparent_record_type: Catholic parish baptism register (original), São Sebastião, Terceira — open-CDN
+    copy
+  apparent_people:
+  - Margarida (P-0136; bapt. 29 May 1667)
+  - Fr.co Fer.a Ermonde (P-0137, father)
+  - D. Anna (P-0138, mother)
+  apparent_event: baptism
+  image_quality: low-resolution
+  provenance: Culturacores open digital archive (DRaC – BPARAH), São Sebastião baptism book TER-AH-SAOSEBASTIAO-B-1611-1687,
+    p.0384 per the retrieval side. Authorised by the owner for promotion on 2026-10-10; read in place
+    at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-armond-margarida-candeias-baptism-terceira-1667-culturacores.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0103-baptism-margarida-1667-saosebastiao-terceira.jpg
+    sha256: 8c8bdc3d3b48a3d1f9fdb88c7d21f4d84c4554b54346f6c42d834ef6b72c1580
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 766
+      pixel_height: 1053
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0103
+  notes:
+  - Reduced resolution (766×1053), the most the open CDN serves; a 300-dpi master can be ordered from
+    BPAR Angra.
+- inventory_id: DOC-0129
+  status: catalogued
+  added_date: '2026-10-10'
+  apparent_record_type: Catholic parish marriage register (original), São Sebastião, Terceira — open-CDN
+    copy, two-page spread
+  apparent_people:
+  - Gaspar de Souto [Maior] (P-0131, groom)
+  - D. Margarida (P-0136, bride)
+  - their parents (P-0123, P-0124, P-0137, P-0138)
+  apparent_event: marriage
+  image_quality: low-resolution
+  provenance: Culturacores open digital archive (DRaC – BPARAH), São Sebastião marriage book TER-AH-SAOSEBASTIAO-C-1673-1766,
+    p.0036 per the retrieval side. Authorised by the owner for promotion on 2026-10-10; read in place
+    at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-armond-gaspar-margarida-marriage-terceira-1690-culturacores.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0104-marriage-gaspar-de-souto-maior-margarida-1690-saosebastiao-terceira.jpg
+    sha256: 9746d329fe6d2233a045e0a76adecad9bcd23888314c73cdac30a650cc327dcc
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 1299
+      pixel_height: 974
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0104
+  notes:
+  - Reduced resolution (1299×974 for two pages), the most the open CDN serves; a 300-dpi master can be
+    ordered from BPAR Angra.
+- inventory_id: DOC-0130
+  status: catalogued
+  added_date: '2026-10-10'
+  apparent_record_type: Catholic parish baptism register (original), São Sebastião, Terceira — 300-dpi
+    archive digitisation
+  apparent_people:
+  - Manuel (bapt. 27 Dec 1661)
+  - Fr.co Fer.ra (P-0137, father)
+  - Dona Anna (P-0138, mother)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: BPAR Angra do Heroísmo, Requisição nº 101, image 2 — a paid digitisation of São Sebastião
+    baptism book TER-AH-SAOSEBASTIAO-B-1611-1687, delivered 2026-09-25 to the retrieval side. Authorised
+    by the owner for promotion on 2026-10-10; read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-armond-manuel-filho-francisco-ferreira-baptism-terceira-1661-bpar-req101.tif
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0105-baptism-manuel-1661-saosebastiao-terceira.tif
+    sha256: ecc3b341c12b6cc7b211bfc531cc1eb7f84829029360781c8dae41850236f8e7
+    media_type: image/tiff
+    role: primary
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: original-file
+      pixel_width: 2073
+      pixel_height: 3260
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0105
+  notes:
+  - Kept as the archive's TIFF, bytes unchanged; the site build renders a JPEG. Earlier retrieval filenames
+    …manuel-ermonde… — same image.

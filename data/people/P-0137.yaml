@@ -1,0 +1,168 @@
+schema_version: 1
+id: P-0137
+preferred_name: Francisco Ferreira de Ermonde
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: Fr.co Fer.a Ermonde
+  type: source
+  source_ids:
+  - PAR-0103
+  note: >-
+    His daughter Margarida's baptism: "Margarida f.a de Fr.co Fer.a Ermonde e de sua m.er D.
+    Anna M.da" (29 May 1667). Expanded: Francisco Ferreira Ermonde.
+- value: Fr.co Fer.a de Ermonde
+  type: source
+  source_ids:
+  - PAR-0104
+  note: >-
+    His daughter's marriage: "D. Margarida … f.a de Fr.co Fer.a de Ermonde ja defunto" (2
+    October 1690). Expanded: Francisco Ferreira de Ermonde.
+- value: Fr.co Fer.ra
+  type: source
+  source_ids:
+  - PAR-0105
+  note: >-
+    The baptism of Manuel, 27 December 1661: "filho de Fr.co Fer.ra e de sua mulher Dona Anna
+    M.da". Without "Ermonde"; the identification of this father with P-0137 is strong, not
+    proven (see F-0068's documented child).
+- value: Francisco Ferreira Ermonde ou Armonde
+  type: source
+  source_ids:
+  - PUB-0002
+  note: >-
+    Lacerda, f. 56, after a private 2008 typescript by Paulo Ribeiro Luz: "Capitão Francisco
+    Ferreira Ermonde ou Armonde (1601-1672)", and "o Capitão Francisco Ferreira Armonde (ou
+    Ermonde)", maternal grandfather and namesake of the Barbacena patriarch [LEAD].
+event_ids:
+- E-0139
+- E-0138
+family_ids:
+- F-0068
+connection: >-
+  Family tradition, not a proven ancestor: he is claimed as the maternal grandfather and
+  namesake of Francisco Ferreira Armonde (d. 1751), patriarch of the Ferreira Armonde of
+  Barbacena, who would attach to the archive's owner only through the unknown parents of
+  Simplício José Ferreira Armond (P-0016). No record yet proves either link.
+connection_pt: >-
+  Tradição familiar, não ancestral provado: é apontado como avô materno e homónimo de Francisco
+  Ferreira Armonde (f. 1751), patriarca dos Ferreira Armonde de Barbacena, que só se ligaria ao
+  proprietário do arquivo através dos pais desconhecidos de Simplício José Ferreira Armond
+  (P-0016). Nenhum registo prova ainda qualquer dos dois elos.
+notes:
+- text: >-
+    Created 2026-10-10 as the father named in two original São Sebastião acts of his daughter
+    Margarida (P-0136): her baptism, 29 May 1667, "f.a de Fr.co Fer.a Ermonde e de sua m.er D.
+    Anna M.da" (PAR-0103), and her marriage, 2 October 1690, "f.a de Fr.co Fer.a de Ermonde ja
+    defunto e de sua m.er D. Anna" (PAR-0104). Husband of D. Ana M[achada] (P-0138), family
+    F-0068. Very probably also the "Fr.co Fer.ra" whose son Manuel was baptised at São
+    Sebastião on 27 December 1661 (PAR-0105) [strong identification].
+  text_pt: >-
+    Criado a 2026-10-10 como o pai nomeado em dois assentos originais de São Sebastião da filha
+    Margarida (P-0136): o baptismo, 29 de maio de 1667, "f.a de Fr.co Fer.a Ermonde e de sua m.er D.
+    Anna M.da" (PAR-0103), e o casamento, 2 de outubro de 1690, "f.a de Fr.co Fer.a de Ermonde ja
+    defunto e de sua m.er D. Anna" (PAR-0104). Marido de D. Ana M[achada] (P-0138), família F-0068.
+    Muito provavelmente também o "Fr.co Fer.ra" cujo filho Manuel foi baptizado em São Sebastião a
+    27 de dezembro de 1661 (PAR-0105) [identificação forte].
+- text: >-
+    Dates. Dead by 2 October 1690 — "ja defunto" in his daughter's marriage act (PAR-0104)
+    [PROVEN]. No birth, baptism, marriage or death record of his is held, so no event of his own
+    is modelled; a death "before 2 October 1690" is left unmodelled for want of a dated record.
+    Lacerda (PUB-0002 f. 56, after Luz) gives 1601–1672; the retrieval side gives 1629 – 22
+    August 1672 [LEAD — both; they disagree on his birth by almost thirty years].
+  text_pt: >-
+    Datas. Já falecido a 2 de outubro de 1690 — "ja defunto" no assento de casamento da filha
+    (PAR-0104) [PROVEN]. Não está guardado nenhum registo de nascimento, baptismo, casamento ou
+    óbito dele, pelo que não se modela evento próprio; uma morte "antes de 2 de outubro de 1690"
+    fica por modelar, à falta de registo datado. Lacerda (PUB-0002, f. 56, a partir de Luz) dá
+    1601–1672; a pesquisa de recuperação dá 1629 – 22 de agosto de 1672 [LEAD — ambas; divergem
+    quase trinta anos no nascimento].
+- text: >-
+    Rank and occupation. Lacerda calls him "Capitão" [LEAD]; none of the held acts gives him a
+    rank or occupation, so none is recorded.
+  text_pt: >-
+    Posto e ofício. Lacerda chama-lhe "Capitão" [LEAD]; nenhum dos assentos guardados lhe dá
+    posto ou ofício, pelo que nada se regista.
+- text: >-
+    Parents not named in any held record; no parentage family is modelled — deliberate. The
+    surname is recorded as written ("Ermonde", "de Ermonde"); no origin is inferred from its form.
+  text_pt: >-
+    Pais não nomeados em nenhum registo guardado; não se modela família de origem — de
+    propósito. O apelido regista-se como está escrito ("Ermonde", "de Ermonde"); não se infere
+    nenhuma origem da sua forma.
+- text: >-
+    Nationality Portuguese. Neither held act states his nationality or birthplace; he appears as
+    the father of children baptised and married at São Sebastião, Terceira, then Portuguese Crown
+    territory. Recorded as Portuguese on that basis, as for the other Terceira people of this
+    trunk (P-0123, P-0131) — a residence-based default, not a stated attribute.
+  text_pt: >-
+    Nacionalidade portuguesa. Nenhum dos assentos guardados declara nacionalidade ou
+    naturalidade; aparece como pai de filhos baptizados e casados em São Sebastião, Terceira,
+    então território da Coroa portuguesa. Registado como português nessa base, como as outras
+    pessoas da Terceira deste tronco (P-0123, P-0131) — uma regra por residência, não um atributo
+    declarado.
+profile: >-
+  ## Interesting facts
+
+
+  - **[PROVEN]** His name — "Fr.co Fer.a Ermonde" (1667), "Fr.co Fer.a de Ermonde" (1690) — is the earliest form held in this archive of the surname that the Barbacena family later wrote Armonde and Armond.
+
+
+  - **[LEAD]** Family tradition makes him the maternal grandfather and namesake of the Barbacena patriarch Francisco Ferreira Armonde, who, Lacerda writes, "possuía o nome do avô materno".
+
+
+  ## Identity
+
+
+  **Francisco Ferreira (de) Ermonde** — father of Margarida (P-0136), named in her baptism (29 May 1667, PAR-0103) and her marriage (2 October 1690, PAR-0104) **[PROVEN]**; husband of D. Ana M[achada] (P-0138), family F-0068. Dead by 2 October 1690 ("ja defunto") **[PROVEN]**. Very probably also the father of Manuel, baptised 27 December 1661 (PAR-0105) **[strong identification]**. Lacerda's "Capitão Francisco Ferreira Ermonde ou Armonde (1601-1672)" and the retrieval side's 1629 – 22 August 1672 are **[LEAD]**.
+
+
+  **Position in the tree.** Not an ancestor of the archive's owner on any proven chain; part of the Terceira trunk claimed for the Ferreira Armonde of Barbacena, which would reach the owner only through the unknown parents of Simplício José Ferreira Armond (P-0016).
+
+
+  ## Sources held (this repository)
+
+
+  - **PAR-0103** — his daughter Margarida's baptism, 1667. *Primary.*
+
+
+  - **PAR-0104** — her marriage, 1690, calling him dead. *Primary.*
+
+
+  - **PAR-0105** — the baptism of Manuel, 1661, very probably his son. *Primary.*
+
+
+  - **PUB-0002** — Lacerda's thesis, f. 56: the rank, dates and namesake tradition. *Secondary; a lead.*
+profile_pt: >-
+  ## Fatos interessantes
+
+
+  - **[PROVEN]** O nome dele — "Fr.co Fer.a Ermonde" (1667), "Fr.co Fer.a de Ermonde" (1690) — é a forma mais antiga guardada neste arquivo do apelido que a família de Barbacena viria a escrever Armonde e Armond.
+
+
+  - **[LEAD]** A tradição familiar faz dele o avô materno e homónimo do patriarca de Barbacena Francisco Ferreira Armonde, que, escreve Lacerda, "possuía o nome do avô materno".
+
+
+  ## Identidade
+
+
+  **Francisco Ferreira (de) Ermonde** — pai de Margarida (P-0136), nomeado no baptismo dela (29 de maio de 1667, PAR-0103) e no casamento (2 de outubro de 1690, PAR-0104) **[PROVEN]**; marido de D. Ana M[achada] (P-0138), família F-0068. Já falecido a 2 de outubro de 1690 ("ja defunto") **[PROVEN]**. Muito provavelmente também pai de Manuel, baptizado a 27 de dezembro de 1661 (PAR-0105) **[identificação forte]**. O "Capitão Francisco Ferreira Ermonde ou Armonde (1601-1672)" de Lacerda e o 1629 – 22 de agosto de 1672 da pesquisa de recuperação são **[LEAD]**.
+
+
+  **Posição na árvore.** Não é antepassado do proprietário do arquivo em nenhuma cadeia provada; faz parte do tronco da Terceira reivindicado para os Ferreira Armonde de Barbacena, que só chegaria ao proprietário através dos pais desconhecidos de Simplício José Ferreira Armond (P-0016).
+
+
+  ## Fontes disponíveis (neste repositório)
+
+
+  - **PAR-0103** — o baptismo da filha Margarida, 1667. *Primária.*
+
+
+  - **PAR-0104** — o casamento dela, 1690, que o dá como falecido. *Primária.*
+
+
+  - **PAR-0105** — o baptismo de Manuel, 1661, muito provavelmente filho dele. *Primária.*
+
+
+  - **PUB-0002** — a tese de Lacerda, f. 56: o posto, as datas e a tradição do homónimo. *Secundária; uma pista.*

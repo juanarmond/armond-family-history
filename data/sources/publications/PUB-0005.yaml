@@ -948,9 +948,11 @@ linked_people:
 - P-0125
 - P-0126
 - P-0131
+- P-0136
 linked_families:
 - F-0062
 - F-0063
+- F-0069
 linked_events:
 - E-0126
 - E-0127
@@ -959,6 +961,7 @@ linked_events:
 - E-0130
 - E-0135
 - E-0137
+- E-0138
 linked_places: []
 private: false
 notes:

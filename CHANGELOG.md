@@ -5,6 +5,14 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Margarida das Candeias Machado and her Ermonde parents (2026-10-10)
+
+- From three newly promoted São Sebastião (Terceira) records — Margarida's 1667 baptism (PAR-0103), her 1690 marriage to Gaspar
+  de Souto Maior (PAR-0104) and her brother Manuel's 1661 baptism (PAR-0105) — Margarida (P-0136) and her parents Francisco
+  Ferreira de Ermonde (P-0137) and Ana Machado (P-0138) join the Terceira trunk (F-0068, F-0069, E-0138, E-0139), shown as a
+  family tradition, not a proven ancestry. Her baptism writes her father "Fr.co Fer.a Ermonde" — the Ermonde form of the
+  name on a held original record.
+
 ### Changed — the two Gaspars separated; Rosa Eugenia de Lemos's grandparents added; the 1879 will (2026-10-10)
 
 - Owner decision: Gaspar Ferreira (P-0092, Vila Rica) and Gaspar de Souto Maior (new P-0131, Terceira) are two men. P-0131's

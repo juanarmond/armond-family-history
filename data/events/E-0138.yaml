@@ -1,0 +1,85 @@
+schema_version: 1
+id: E-0138
+event_type: marriage
+date:
+  kind: exact
+  value: "1690-10-02"
+  original_text: >-
+    Em os dous dias do mes de outubro de mil e seis sentos e noventa Annos
+place_text: >-
+  Igreja de Nossa Senhora da Graça, entered in the register of the Matriz of São Sebastião,
+  Terceira, Azores
+participants:
+- person_id: P-0131
+  role: spouse
+- person_id: P-0136
+  role: spouse
+- person_id: P-0123
+  role: parent
+- person_id: P-0124
+  role: parent
+- person_id: P-0137
+  role: parent
+- person_id: P-0138
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0104
+- PUB-0005
+notes:
+- text: >-
+    Marriage of Gaspar de Souto Maior (P-0131) and Margarida (P-0136) on 2 October 1690, from
+    the original act (PAR-0104, São Sebastião marriages C-1673-1766, image p.0036, left page,
+    first entry): "Recebeo o R.do P.e beneficiado Ant.º Cardoso … a Gaspar de So-/uto f.º do
+    Alferes Belchior de Ponte … e de sua m.er Mariana … ja defuntos … Com D. Margarida … f.a de
+    Fr.co Fer.a de Ermonde ja defunto e de sua m.er D. Anna". Mendes Forjaz Vol. IX (PUB-0005,
+    p.261) gives the same date: "C. 1ª vez … a 2.10.1690 com D. Margarida Machado".
+  text_pt: >-
+    Casamento de Gaspar de Souto Maior (P-0131) e de Margarida (P-0136) a 2 de outubro de 1690,
+    pelo assento original (PAR-0104, casamentos de São Sebastião C-1673-1766, imagem p.0036,
+    página esquerda, primeiro assento): "Recebeo o R.do P.e beneficiado Ant.º Cardoso … a Gaspar
+    de So-/uto f.º do Alferes Belchior de Ponte … e de sua m.er Mariana … ja defuntos … Com D.
+    Margarida … f.a de Fr.co Fer.a de Ermonde ja defunto e de sua m.er D. Anna". O Vol. IX de
+    Mendes Forjaz (PUB-0005, p.261) dá a mesma data: "C. 1ª vez … a 2.10.1690 com D. Margarida
+    Machado".
+- text: >-
+    Status confirmed. The act is primary and direct for the marriage, and the date, both
+    parties and all four parents are legible by name; the groom's parents (the Alferes Belchior
+    and Mariana) are those of P-0131's baptism (PAR-0099) and the bride's (Fr.co Fer.a de
+    Ermonde and D. Anna) those of P-0136's baptism (PAR-0103), so the identification of both
+    parties rests on named parents, not on name alone. The source's reading_reliability is
+    partial because three abbreviated surnames (including the bride's) and the word after the
+    church name are uncertain on the reduced-resolution copy; none of them affects who married
+    whom or when.
+  text_pt: >-
+    Estatuto confirmado. O assento é primário e directo para o casamento, e a data, as duas
+    partes e os quatro pais são legíveis pelo nome; os pais do noivo (o Alferes Belchior e
+    Mariana) são os do baptismo do P-0131 (PAR-0099) e os da noiva (Fr.co Fer.a de Ermonde e D.
+    Anna) os do baptismo da P-0136 (PAR-0103), pelo que a identificação das duas partes assenta em
+    pais nomeados e não só no nome. A reading_reliability da fonte é partial porque três apelidos
+    abreviados (incluindo o da noiva) e a palavra a seguir ao nome da igreja são incertos na cópia
+    de resolução reduzida; nenhum deles altera quem casou com quem nem quando.
+- text: >-
+    Place. The act reads "na Igreja de N. S.ra da Graça su-/fraganea [uncertain] a esta Matriz da
+    villa de S. Bas.am"; place_text follows the act. Vol. IX prints "na Igreja do Convento da
+    Graça em Angra (reg. S. Sebastião)". If "sufraganea a esta Matriz" is right, the church was
+    one subordinate to the São Sebastião mother church — Vol. IX p.260 itself records an "Ermida
+    de Nª Srª da Graça (reg. S. Sebastião)" in 1678 — rather than the convent at Angra
+    [INFERRED]. Which building it was is left open; no place entity is linked.
+  text_pt: >-
+    Local. O assento lê "na Igreja de N. S.ra da Graça su-/fraganea [incerto] a esta Matriz da
+    villa de S. Bas.am"; o place_text segue o assento. O Vol. IX imprime "na Igreja do Convento da
+    Graça em Angra (reg. S. Sebastião)". Se "sufraganea a esta Matriz" estiver certo, a igreja era
+    uma das subordinadas à matriz de São Sebastião — o próprio Vol. IX, p.260, regista uma "Ermida
+    de Nª Srª da Graça (reg. S. Sebastião)" em 1678 — e não o convento de Angra [INFERRED]. Fica
+    em aberto qual era o edifício; não se liga nenhuma entidade de lugar.
+- text: >-
+    Parents as participants. Belchior (P-0123) and Mariana (P-0124) are named "ja defuntos" and
+    were dead by the wedding (E-0127, 1687; E-0136, 1684); Francisco Ferreira de Ermonde
+    (P-0137) is named "ja defunto". They are listed with role parent because the act names them
+    as the parties' parents, not because they attended. D. Anna (P-0138) is not called "defunta".
+  text_pt: >-
+    Pais como participantes. Belchior (P-0123) e Mariana (P-0124) são nomeados "ja defuntos" e
+    tinham morrido antes do casamento (E-0127, 1687; E-0136, 1684); Francisco Ferreira de Ermonde
+    (P-0137) é nomeado "ja defunto". Ficam com o papel de pais porque o assento os nomeia como pais
+    das partes, não porque tenham assistido. D. Anna (P-0138) não é dita "defunta".

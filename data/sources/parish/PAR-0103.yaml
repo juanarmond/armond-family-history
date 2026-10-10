@@ -1,0 +1,270 @@
+schema_version: 1
+id: PAR-0103
+title: >-
+  São Sebastião baptism register — Margarida, daughter of Francisco Ferreira Ermonde and D. Ana
+  M[achada], 29 May 1667
+title_pt: >-
+  Registo de baptismos de São Sebastião — Margarida, filha de Francisco Ferreira Ermonde e de D.
+  Ana M[achada], 29 de maio de 1667
+record_type: Parish baptism register entry (whole page of four entries transcribed)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1667-05-29"
+  original_text: >-
+    Em os vinte e nove dias do mes de Mayo de mil e seis sentos sessenta e sete annos
+event_place_text: São Sebastião, Terceira, Azores
+repository:
+  name: >-
+    Culturacores / DRaC — Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro (BPAR),
+    Angra do Heroísmo
+  archive_or_registry: >-
+    Arquivo Regional de Angra do Heroísmo — registos paroquiais de São Sebastião (Terceira)
+  collection: Paróquia de São Sebastião, Terceira — Livros de Baptismos
+  book: TER-AH-SAOSEBASTIAO-B-1611-1687
+  page: p.0384 (Culturacores image numbering, per the retrieval side)
+  image: >-
+    One open-CDN image of the single page, 766×1053 px (a reduced-resolution copy, not a scan of
+    the original)
+  record_number: entry 3 of the 4 entries on the page
+  catalogue_reference: >-
+    TER-AH-SAOSEBASTIAO-B-1611-1687, p.0384, entry 3 — baptism of Margarida, 29 May 1667.
+    Downloaded by the retrieval agent from the open Culturacores CDN (DRaC / BPAR Angra do
+    Heroísmo) and synced to this repository; promoted 2026-10-10.
+access_date: "2026-10-10"
+language: pt-PT
+transcription: >-
+  [Whole page — São Sebastião baptisms, book TER-AH-SAOSEBASTIAO-B-1611-1687, image p.0384;
+  reduced-resolution open-CDN copy, 766×1053 px. Four entries, 19 March – 30 May 1667: entry 1
+  in the hand of the vicar António Coelho Sotto major, entries 2–4 in the hand of the cura
+  Domingos Cardoso Froes. " / " marks a line break of the original. Spelling, capitals and
+  abbreviations are kept as written; expansions follow each entry in a separate bracket. Read
+  2026-10-10.]
+
+  [Page head: at the top right a faded line of writing and a number — illegible (the number
+  possibly 41 [uncertain]); a pen mark at the top centre; a mark at the top left, illegible. The
+  top edge of the leaf is torn and repaired.]
+
+  [entry 1 of 4 — Domingos, son of Br.[…] machado faria and maria Coelha; 19 March 1667]
+  [Margin:] [illegible on this copy]
+  "Em os dezanove [uncertain: dezanove] dias do mes de março de mil seis sentos e sesenta / e
+  sete annos baptizei a domingos filho de Br.[illegible — abbreviated forename] machado /
+  faria e de sua molher maria Coelha foi padrinho o / R.do p.e melchior Coelho por verdade me
+  assignei"
+  [Signature:] Ant.º Coelho Sotto major
+  [Expansions: R.do p.e = Reverendo padre; Ant.º = António. The father's forename is
+  abbreviated and is not legible letter by letter at this size.]
+
+  [entry 2 of 4 — Alexandre, son of Joanna, exorcisms after a baptism at home; 9 May 1667]
+  [Margin:] Alexan- / dre [and above it a modern "X" mark]
+  "Em os nove dias do mes de Mayo de mil e seis sentos / sessenta e sete annos fis os
+  exorcismos a Alexandre / f.º de Joanna [uncertain: escrava] do R.do p.e Vig.º por ser bap- /
+  tizado em caza foi padrinho o R.do p.e [uncertain: Fr.co] / [uncertain: Fr.z] beneficiado
+  confirmado na Matriz desta / villa de S. Seb.am e por verdade fis e assignei / o Cura"
+  [Signature:] Domingos Cardoso Froes
+  [Expansions: f.º = filho; Vig.º = Vigário; S. Seb.am = São Sebastião. "fis os exorcismos …
+  por ser baptizado em caza": the priest supplied the ceremonies for a child already baptised
+  at home.]
+
+  [entry 3 of 4 — TARGET: Margarida, daughter of Fr.co Fer.a Ermonde and D. Anna M.da; 29 May
+  1667]
+  [Margin:] Marga- / rida [and below it a modern blue "X" mark]
+  "Em os vinte e nove dias do mes de Mayo de / mil e seis sentos sessenta e sete annos bapti- /
+  zei a Margarida f.a de Fr.co Fer.a Ermonde / e de sua m.er D. Anna M.da [uncertain: M.da —
+  an abbreviated surname, the "da" raised] forão padrinhos / M.el M.do [uncertain: M.do] e
+  Cat.na Roiz f.a de B[illegible — the forename is blotted] Roiz / Pacheco e por verdade me
+  assignei o Cura"
+  [Signature:] Domingos Cardoso Froes [uncertain: Froes — the last letters are compressed;
+  "Frois" is possible]
+  [Expansions: f.a = filha; Fr.co = Francisco; Fer.a = Ferreira; m.er = molher; D. = Dona; M.el
+  = Manoel; Cat.na = Catharina; Roiz = Rodrigues. "M.da" is consistent with "Machada" (the
+  feminine form, as "Anna machada" in PAR-0099) and "M.do" with "Machado", but neither
+  expansion is written out on this page.]
+
+  [entry 4 of 4 — Joaõ, son of [uncertain: Fran.co] da Costa and Catherina Camela, exorcisms
+  after a baptism at home; 30 May 1667]
+  [Margin:] Joaõ
+  "Em os trinta dias do mes de Mayo de mil / e seis sentos sessenta e sete annos fis os exor- /
+  cismos a Joaõ f.º de [uncertain: Fran.co] da Costa e de / sua m.er Catherina Camela por ser
+  bap- / tizado em caza foi padrinho Alexandre / Camello f.º de M.el Camelo o moço e / por
+  verdade fis e assignei o Cura"
+  [Signature:] Domingos Cardoso Froes
+  [Expansions: o moço = the younger.]
+transcription_pt: >-
+  [Página inteira — baptismos de São Sebastião, livro TER-AH-SAOSEBASTIAO-B-1611-1687, imagem
+  p.0384; cópia de resolução reduzida do CDN aberto, 766×1053 px. Quatro assentos, de 19 de março
+  a 30 de maio de 1667: o assento 1 com a letra do vigário António Coelho Sotto major, os
+  assentos 2 a 4 com a letra do cura Domingos Cardoso Froes. " / " marca uma mudança de linha do
+  original. Ortografia, maiúsculas e abreviaturas como estão escritas; os desdobramentos vêm a
+  seguir a cada assento, entre parênteses retos à parte. Lido em 2026-10-10.]
+
+  [Cabeçalho: no canto superior direito, uma linha de escrita apagada e um número — ilegíveis (o
+  número possivelmente 41 [incerto]); um traço de pena ao centro, no alto; uma marca no canto
+  superior esquerdo, ilegível. A margem superior da folha está rasgada e restaurada.]
+
+  [assento 1 de 4 — Domingos, filho de Br.[…] machado faria e de maria Coelha; 19 de março de
+  1667]
+  [Margem:] [ilegível nesta cópia]
+  "Em os dezanove [incerto: dezanove] dias do mes de março de mil seis sentos e sesenta / e sete
+  annos baptizei a domingos filho de Br.[ilegível — prenome abreviado] machado / faria e de sua
+  molher maria Coelha foi padrinho o / R.do p.e melchior Coelho por verdade me assignei"
+  [Assinatura:] Ant.º Coelho Sotto major
+  [Desdobramentos: R.do p.e = Reverendo padre; Ant.º = António. O prenome do pai está abreviado
+  e não se lê letra a letra neste tamanho.]
+
+  [assento 2 de 4 — Alexandre, filho de Joanna, exorcismos depois de um baptismo em casa; 9 de
+  maio de 1667]
+  [Margem:] Alexan- / dre [e por cima um sinal "X" moderno]
+  "Em os nove dias do mes de Mayo de mil e seis sentos / sessenta e sete annos fis os exorcismos
+  a Alexandre / f.º de Joanna [incerto: escrava] do R.do p.e Vig.º por ser bap- / tizado em caza
+  foi padrinho o R.do p.e [incerto: Fr.co] / [incerto: Fr.z] beneficiado confirmado na Matriz
+  desta / villa de S. Seb.am e por verdade fis e assignei / o Cura"
+  [Assinatura:] Domingos Cardoso Froes
+  [Desdobramentos: f.º = filho; Vig.º = Vigário; S. Seb.am = São Sebastião. "fis os exorcismos …
+  por ser baptizado em caza": o padre supriu as cerimónias de uma criança já baptizada em
+  casa.]
+
+  [assento 3 de 4 — ALVO: Margarida, filha de Fr.co Fer.a Ermonde e de D. Anna M.da; 29 de maio
+  de 1667]
+  [Margem:] Marga- / rida [e por baixo um sinal "X" moderno, a azul]
+  "Em os vinte e nove dias do mes de Mayo de / mil e seis sentos sessenta e sete annos bapti- /
+  zei a Margarida f.a de Fr.co Fer.a Ermonde / e de sua m.er D. Anna M.da [incerto: M.da —
+  apelido abreviado, com o "da" alçado] forão padrinhos / M.el M.do [incerto: M.do] e Cat.na
+  Roiz f.a de B[ilegível — o prenome está borrado] Roiz / Pacheco e por verdade me assignei o
+  Cura"
+  [Assinatura:] Domingos Cardoso Froes [incerto: Froes — as últimas letras estão apertadas;
+  "Frois" é possível]
+  [Desdobramentos: f.a = filha; Fr.co = Francisco; Fer.a = Ferreira; m.er = molher; D. = Dona;
+  M.el = Manoel; Cat.na = Catharina; Roiz = Rodrigues. "M.da" é compatível com "Machada" (a
+  forma feminina, como "Anna machada" no PAR-0099) e "M.do" com "Machado", mas nenhum dos
+  desdobramentos está escrito por extenso nesta página.]
+
+  [assento 4 de 4 — Joaõ, filho de [incerto: Fran.co] da Costa e de Catherina Camela,
+  exorcismos depois de um baptismo em casa; 30 de maio de 1667]
+  [Margem:] Joaõ
+  "Em os trinta dias do mes de Mayo de mil / e seis sentos sessenta e sete annos fis os exor- /
+  cismos a Joaõ f.º de [incerto: Fran.co] da Costa e de / sua m.er Catherina Camela por ser
+  bap- / tizado em caza foi padrinho Alexandre / Camello f.º de M.el Camelo o moço e / por
+  verdade fis e assignei o Cura"
+  [Assinatura:] Domingos Cardoso Froes
+  [Desdobramentos: o moço = o mais novo.]
+reading_reliability: complete
+abstract: >-
+  Original baptism act of Margarida (P-0136), the third of four entries on image p.0384 of the
+  São Sebastião (Terceira) baptism book TER-AH-SAOSEBASTIAO-B-1611-1687, held as a
+  reduced-resolution copy (766×1053 px) from the open Culturacores CDN. On 29 May 1667 the cura
+  Domingos Cardoso Froes baptised "Margarida", daughter of "Fr.co Fer.a Ermonde" (Francisco
+  Ferreira Ermonde, P-0137) and "his wife D. Anna M.da" (P-0138), family F-0068. The godparents
+  were M.el M.do and Cat.na Roiz, daughter of B[…] Roiz Pacheco. The margin repeats "Margarida".
+  This is the woman whom Mendes Forjaz Vol. IX (PUB-0005) calls "D. Margarida Machado", first
+  wife of Gaspar de Souto Maior (P-0131): her 1690 marriage act (PAR-0104) names the same
+  parents. Lacerda's thesis footnote 74 (PUB-0002) dates the baptism of the will's "Margarida
+  das Candeyas" to this same day, 29 May 1667, at São Sebastião. The act also gives the earliest
+  held form of the surname that the Ferreira Armonde of Barbacena later carried: "Ermonde".
+abstract_pt: >-
+  Assento original de baptismo de Margarida (P-0136), o terceiro de quatro assentos da imagem
+  p.0384 do livro de baptismos de São Sebastião (Terceira) TER-AH-SAOSEBASTIAO-B-1611-1687,
+  guardado como cópia de resolução reduzida (766×1053 px) do CDN aberto do Culturacores. A 29 de
+  maio de 1667 o cura Domingos Cardoso Froes baptizou "Margarida", filha de "Fr.co Fer.a
+  Ermonde" (Francisco Ferreira Ermonde, P-0137) e "de sua m.er D. Anna M.da" (P-0138), família
+  F-0068. Foram padrinhos M.el M.do e Cat.na Roiz, filha de B[…] Roiz Pacheco. A margem repete
+  "Margarida". É a mulher a quem o Vol. IX de Mendes Forjaz (PUB-0005) chama "D. Margarida
+  Machado", primeira mulher de Gaspar de Souto Maior (P-0131): o assento do casamento dela de
+  1690 (PAR-0104) nomeia os mesmos pais. A nota 74 da tese de Lacerda (PUB-0002) data o baptismo
+  da "Margarida das Candeyas" do testamento deste mesmo dia, 29 de maio de 1667, em São
+  Sebastião. O assento dá ainda a forma mais antiga aqui guardada do apelido que os Ferreira
+  Armonde de Barbacena viriam a usar: "Ermonde".
+reliability:
+  assessment: >-
+    Primary, original and direct for the baptism, its date, the child's forename, both parents
+    and the godparents: the act was written and signed by the officiating cura at the time.
+    Every core fact of entry 3 is legible on this copy — the date written out ("vinte e nove
+    dias do mes de Mayo de mil e seis sentos sessenta e sete annos"; the year word "sessenta" is
+    written in the same form in entries 2 and 4 of the page, both of May 1667), the child
+    ("Margarida", body and margin), the father ("Fr.co Fer.a Ermonde") and the mother ("sua m.er
+    D. Anna", followed by an abbreviated surname) — so reading_reliability is complete. The
+    mother is identified by forename, style and husband; her surname is written only as the
+    abbreviation "M.da", read with an [uncertain] mark because the expansion ("Machada") is not
+    written out here. The other inline marks fall on godparents, on the other entries and on the
+    signature's last letters. The child is named by forename only; "das Candeias" and
+    "Machado" are not on this page.
+  informant: >-
+    Not named; the cura Domingos Cardoso Froes officiated, wrote and signed ("me assignei o Cura")
+  limitations: >-
+    This is a REDUCED-RESOLUTION copy from the open Culturacores / DRaC-BPARAH CDN (766×1053 px
+    for the whole page), not a scan of the original. It is legible for the core facts of the
+    target entry, but the mother's and the godfather's abbreviated surnames, the godmother's
+    father's blotted forename, the father's forename in entry 1, two words of entry 2 and the
+    page head could not be read with certainty at this size and are marked [uncertain] or
+    [illegible]. A 300-dpi scan of the original can be ordered from BPAR Angra do Heroísmo (the
+    route used for PAR-0099 and PAR-0105, Requisição nº 101) if a fuller reading is needed. The
+    page number p.0384 is the retrieval side's image number; no folio number was read. The two
+    "X" marks in the margins of entries 2 and 3 are modern (one in blue) and are not part of the
+    record.
+digital_file:
+  path: evidence/parish/PAR-0103-baptism-margarida-1667-saosebastiao-terceira.jpg
+  sha256: 8c8bdc3d3b48a3d1f9fdb88c7d21f4d84c4554b54346f6c42d834ef6b72c1580
+linked_people:
+- P-0136
+- P-0137
+- P-0138
+linked_families:
+- F-0068
+linked_events:
+- E-0139
+linked_places: []
+private: false
+notes:
+- text: >-
+    Identification. The child of this act is the bride of 2 October 1690 (PAR-0104): that act
+    names "D. Margarida", daughter of "Fr.co Fer.a de Ermonde ja defunto" and "sua m.er D.
+    Anna" — the same father, by the same three-part name, and the same mother, in the same
+    parish. She is therefore D. Margarida Machado, first wife of Gaspar de Souto Maior (P-0131)
+    in Mendes Forjaz Vol. IX (PUB-0005, p.261). That she is also the "Margarida das Candeyas"
+    whom the 1751 will of Francisco Ferreira Armonde, as quoted by Lacerda (PUB-0002 f. 55),
+    names as his mother is a lead, but a pointed one: Lacerda's footnote 74, after an online
+    mailing-list post, gives that Margarida's baptism as 29 May 1667 at São Sebastião — this
+    act's exact date and parish [LEAD — the post and the will are not held].
+  text_pt: >-
+    Identificação. A criança deste assento é a noiva de 2 de outubro de 1690 (PAR-0104): esse
+    assento nomeia "D. Margarida", filha de "Fr.co Fer.a de Ermonde ja defunto" e de "sua m.er D.
+    Anna" — o mesmo pai, com o mesmo nome em três partes, e a mesma mãe, na mesma freguesia. É,
+    portanto, a D. Margarida Machado, primeira mulher de Gaspar de Souto Maior (P-0131) no Vol. IX
+    de Mendes Forjaz (PUB-0005, p.261). Que seja também a "Margarida das Candeyas" que o
+    testamento de 1751 de Francisco Ferreira Armonde, citado por Lacerda (PUB-0002, f. 55), nomeia
+    como sua mãe é uma pista, mas certeira: a nota 74 de Lacerda, a partir de uma mensagem de
+    lista de discussão on-line, dá o baptismo dessa Margarida a 29 de maio de 1667 em São
+    Sebastião — a data e a freguesia exactas deste assento [LEAD — nem a mensagem nem o
+    testamento estão guardados].
+- text: >-
+    The surname. "Ermonde" here (and "de Ermonde" in PAR-0104) is the earliest form of the name
+    held in this repository; the Barbacena line wrote "Armonde" and later "Armond". The
+    repository draws no conclusion about the origin of the name from its form.
+  text_pt: >-
+    O apelido. "Ermonde" aqui (e "de Ermonde" no PAR-0104) é a forma mais antiga do nome guardada
+    neste repositório; a linha de Barbacena escreveu "Armonde" e depois "Armond". O repositório
+    não tira conclusão nenhuma sobre a origem do nome a partir da sua forma.
+- text: >-
+    The first entry on the page is signed "Ant.º Coelho Sotto major" — the vicar António Coelho
+    Souto-Maior, the paternal uncle of Margarida's future husband (see PAR-0099 and P-0123). The
+    other three entries are by the cura Domingos Cardoso Froes, who also wrote and signed her 1690
+    marriage act (PAR-0104).
+  text_pt: >-
+    O primeiro assento da página é assinado "Ant.º Coelho Sotto major" — o vigário António Coelho
+    Souto-Maior, tio paterno do futuro marido de Margarida (ver PAR-0099 e P-0123). Os outros três
+    assentos são do cura Domingos Cardoso Froes, que também escreveu e assinou o assento do
+    casamento dela em 1690 (PAR-0104).
+- text: >-
+    Provenance. Synced by the retrieval agent from the open Culturacores CDN (plan
+    PLAN-armond-azorean-origin-terceira, item A2; the agent's corrected page is p.0384 — an
+    earlier receipt's pp.388–389, of 1668, were the wrong leaf) and value-gated and promoted here
+    on 2026-10-10 after a direct read of the image.
+  text_pt: >-
+    Proveniência. Sincronizado pelo agente de recolha a partir do CDN aberto do Culturacores
+    (plano PLAN-armond-azorean-origin-terceira, item A2; a página corrigida pelo agente é a
+    p.0384 — as pp.388–389 de um recibo anterior, de 1668, eram a folha errada) e avaliado e
+    promovido aqui a 2026-10-10 após leitura directa da imagem.
