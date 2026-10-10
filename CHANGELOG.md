@@ -5,6 +5,23 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — the two Gaspars separated; Rosa Eugenia de Lemos's grandparents added; the 1879 will (2026-10-10)
+
+- Owner decision: Gaspar Ferreira (P-0092, Vila Rica) and Gaspar de Souto Maior (new P-0131, Terceira) are two men. P-0131's
+  baptism (PAR-0099, BPAR 300-dpi TIFF, 23 Dec 1657) and death (PAR-0100, São Sebastião 1727, reduced-resolution copy) are
+  catalogued; P-0092's F-0062 links are rejected. Belchior, Mariana and the Terceira line (P-0123–P-0131) are no longer shown
+  as the owner's ancestors: each carries a new `connection` note — a family tradition reaching him only through Simplício's
+  unknown parents. Armond now counts 33 people with records from 1716 (was 41, from 1615); Everything 123.
+- Four new ancestors: José Henriques de Mattos, Anna Joaquina da Conceição, José Campello de Moraes ("natural do Porto") and
+  Emerenciana Maria de Jesus, Rosa's grandparents, from two Itaboraí baptisms (PAR-0101, PAR-0102), at strong-evidence; three
+  more Lemos siblings; Rosa as godmother 1858–59 (FAN-0014–0016).
+- Francisco José Bohrer's will is dated 27 June 1879 (registered 1888); PRB-0005 now holds all 8 pages of its certificate and
+  PRB-0012 the 1890 proceedings, in which the estate went to creditors and his widow, who could not write, was exonerated.
+- Simplício's 1905 Muriaé witness entry, "natural de Barbacena, commerciante", is held (FAN-0017).
+- Viewer: rejected parent links no longer feed the relationship path or biographies; a person the tree does not connect shows
+  "Connection to {name} — not proven" (EN/PT; help updated). Validator reads TIFF dimensions; the site build renders TIFF scans
+  to JPEG. AGENTS.md carries the retrieval intake block (Part A), the synced copy winning.
+
 ### Changed — retrieval drop of 2026-10-10 (text only): corrections applied from held scans (2026-10-10)
 
 - Lemos baptisms re-read on our own scans (PAR-0016, PAR-0030–0033): every reading the retrieval side

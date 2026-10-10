@@ -558,8 +558,10 @@ export function projectTreeData({ people, families, events, places, sources, fan
   const addEdge = (a, b, kind) => {
     (adjacency[a] ||= []).push({ id: b, kind });
   };
+  // A rejected parentage edge is kept for the record but never joins two people.
   for (const [childId, parentRels] of Object.entries(parentsByChild)) {
     for (const rel of parentRels) {
+      if (rel.status === "rejected") continue;
       addEdge(childId, rel.parentId, "parent"); // child → parent
       addEdge(rel.parentId, childId, "child"); // parent → child
     }
@@ -593,6 +595,7 @@ export function projectTreeData({ people, families, events, places, sources, fan
       .filter((r) => people[r.parentId]?.sex === "female")
       .map((r) => r.parentId),
   );
+  const trimmed = (value) => (typeof value === "string" && value.trim() ? value.trim() : null);
   const lineageOf = (targetId) => {
     if (targetId === SUBJECT_ID || !(targetId in pred)) return null;
     const rev = [];
@@ -624,6 +627,7 @@ export function projectTreeData({ people, families, events, places, sources, fan
     const parents = [
       ...new Set(
         (parentsByChild[personId] || [])
+          .filter((p) => p.status !== "rejected")
           .map((p) => people[p.parentId]?.preferred_name)
           .filter(Boolean),
       ),
@@ -744,6 +748,10 @@ export function projectTreeData({ people, families, events, places, sources, fan
       sex: person.sex || "unknown",
       biography: living ? null : buildBiography(personId),
       lineage: living ? null : lineageOf(personId),
+      // Only for someone the tree does not connect to the subject: how they are said to
+      // connect (a family tradition or a hypothesis), shown instead of a relationship.
+      connection: living || personId === SUBJECT_ID || lineageOf(personId) ? null : trimmed(person.connection),
+      connectionPt: living || personId === SUBJECT_ID || lineageOf(personId) ? null : trimmed(person.connection_pt),
       nationality: typeof person.nationality === "string" && person.nationality.trim()
         ? person.nationality.trim()
         : null,

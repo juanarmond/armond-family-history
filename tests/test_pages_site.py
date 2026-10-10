@@ -110,6 +110,25 @@ class PagesSiteEvidenceTest(unittest.TestCase):
         self.assertGreater(checked, 0, "no multi-page PDF was checked")
         self.assertEqual(problems, [], f"multi-page PDFs would show only their first page on iOS: {problems}")
 
+    def test_tiff_scans_ship_a_displayable_rendering(self) -> None:
+        # Browsers cannot draw a TIFF; the site must carry a JPEG beside each published one.
+        living = {p["id"] for p in _load_dir(ROOT / "data" / "people") if p.get("privacy") == "living"}
+        problems: list[str] = []
+        for directory in (ROOT / "data" / "sources", ROOT / "data" / "fan"):
+            for rec in _load_dir(directory):
+                if not _published(rec, living):
+                    continue
+                published = next(self.site.rglob(f"data/**/{rec['id']}.yaml"))
+                site_rec = yaml.safe_load(published.read_text(encoding="utf-8"))
+                for ref in [site_rec.get("digital_file"), *(site_rec.get("additional_pages") or [])]:
+                    path = ref.get("path") if isinstance(ref, dict) else None
+                    if not isinstance(path, str) or not path.lower().endswith((".tif", ".tiff")):
+                        continue
+                    rendered = ref.get("rendered_pages") or []
+                    if not rendered or not all((self.site / page["path"]).is_file() for page in rendered):
+                        problems.append(f"{rec['id']}: {path}")
+        self.assertEqual(problems, [], f"TIFF scans without a displayable rendering: {problems}")
+
     def test_withheld_records_ship_no_scan_or_transcription(self) -> None:
         withheld = [
             rec

@@ -1,0 +1,174 @@
+schema_version: 1
+id: P-0135
+preferred_name: Emerenciana Maria de Jesus
+privacy: deceased
+sex: female
+nationality: Brazilian
+name_variants:
+- value: Emmerencianna Maria de Jezus
+  type: source
+  source_ids:
+  - PAR-0101
+  note: >-
+    Named as maternal grandmother, beside Joze Campello de Moraes, in the 21 October
+    1821 Itaboraí baptism of Antonio, son of Manoel de Lemos Pereira and Maria Thereza
+    de Jezus.
+- value: Emmerencianna Maria de Jesus
+  type: source
+  source_ids:
+  - PAR-0102
+  note: >-
+    João's entry of 4 March 1841. The 1841 hand runs the minims together; the doubled
+    "m" is read by comparison with the 1821 form.
+- value: Emerencianna Maria de Jesus
+  type: source
+  source_ids:
+  - PAR-0102
+  note: >-
+    Maria's entry of 4 March 1841 (the second of the two on the image), where a single
+    "m" is the better reading of the run-together minims.
+event_ids: []
+family_ids:
+- F-0067
+notes:
+- text: >-
+    Mother of Maria Thereza de Jesus (P-0053) [STRONG], hence maternal grandmother of
+    Rosa Eugenia de Lemos (P-0035) and 5th-great-grandmother of the archive's owner
+    (P-0001) through his mother's Bohrer line (P-0001 → P-0003 → P-0007 → P-0015 →
+    P-0030 → P-0035 → P-0053 → P-0135; Ahnentafel 247). Known only as a grandmother,
+    named beside José Campello de Moraes (P-0134, family F-0067) in the 1821 and 1841
+    Itaboraí baptisms of three children of Manoel de Lemos Pereira and Maria Thereza
+    [PROVEN as records]. The link to Rosa's mother is strong evidence, not proven, for
+    the reasons on F-0067 and PAR-0101/PAR-0102. Modelled on the owner's authorisation
+    of 2026-10-10.
+  text_pt: >-
+    Mãe de Maria Thereza de Jesus (P-0053) [STRONG], portanto avó materna de Rosa
+    Eugenia de Lemos (P-0035) e hexavó do dono do arquivo (P-0001) pela linha Bohrer de
+    sua mãe (P-0001 → P-0003 → P-0007 → P-0015 → P-0030 → P-0035 → P-0053 → P-0135;
+    Ahnentafel 247). Conhecida apenas como avó, nomeada ao lado de José Campello de
+    Moraes (P-0134, família F-0067) nos batismos de 1821 e 1841, em Itaboraí, de três
+    filhos de Manoel de Lemos Pereira e Maria Thereza [PROVEN como registros]. O
+    vínculo com a mãe de Rosa é evidência forte, não prova, pelas razões dadas em
+    F-0067 e em PAR-0101/PAR-0102. Modelada com a autorização do dono de 2026-10-10.
+- text: >-
+    Not the same woman as Emmerenciana Maria de Jesus (P-0022), the Engrácio/Guimarães
+    line ancestor of the late nineteenth century: a different line, generation and
+    place. The name was very common at Itaboraí — the retrieval side reports several
+    namesakes there married to other men (Floriano José Freire, Simpliciano Nunes
+    Vieira, Bento Caldeira de Oliveira and others) [LEAD] — so attach no record to her
+    without her husband or a Lemos/Campello relative in it.
+  text_pt: >-
+    Não é a mesma mulher que Emmerenciana Maria de Jesus (P-0022), ancestral da linha
+    Engrácio/Guimarães do fim do século XIX: outra linha, outra geração, outro lugar. O
+    nome era muito comum em Itaboraí — a pesquisa de recuperação relata ali várias
+    homônimas casadas com outros homens (Floriano José Freire, Simpliciano Nunes
+    Vieira, Bento Caldeira de Oliveira e outros) [LEAD] —, de modo que não se lhe deve
+    atribuir registro sem o marido ou um parente Lemos/Campello nele.
+- text: >-
+    Nationality Brazilian, following P-0052/P-0053: covered by the 1821 "todos
+    naturaes desta Freguezia" (Itaboraí), which immediately follows her name, and by
+    the same formula in João's 1841 entry — a stated birthplace. In 1821 Itaboraí lay
+    within the Portuguese realm (the United Kingdom of Portugal, Brazil and the
+    Algarves): the value records a Brazilian birthplace, not a citizenship. No event
+    is modelled: no birth, marriage or death is held, and neither record says whether
+    she was living. Born no later than about 1785 [INFERRED — a grandmother by October
+    1821].
+  text_pt: >-
+    Nacionalidade brasileira, como P-0052/P-0053: abrangida pelo "todos naturaes desta
+    Freguezia" (Itaboraí) de 1821, que vem logo depois do seu nome, e pela mesma
+    fórmula no assento de João de 1841 — um local de nascimento declarado. Em 1821
+    Itaboraí pertencia ao reino português (o Reino Unido de Portugal, Brasil e
+    Algarves): o valor registra um local de nascimento no Brasil, não uma cidadania.
+    Nenhum evento é modelado: não há nascimento, casamento nem óbito disponível, e
+    nenhum dos registros diz se estava viva. Nascida no máximo por volta de 1785
+    [INFERRED — avó em outubro de 1821].
+profile: >-
+  ## Identity
+
+  **Emerenciana Maria de Jesus** — "Emmerencianna Maria de Jezus" in the 21 October
+  1821 Itaboraí baptism of her grandson Antonio (PAR-0101), and "Emmerencianna" /
+  "Emerencianna Maria de Jesus" in the 4 March 1841 baptisms of her grandchildren João
+  and Maria (PAR-0102) [PROVEN]. Both records pair her with José Campello de Moraes
+  (P-0134) as maternal grandparents of children of Manoel de Lemos Pereira and Maria
+  Thereza de Jesus. She is the mother of Maria Thereza de Jesus (P-0053) [STRONG],
+  hence Rosa Eugenia de Lemos's (P-0035) maternal grandmother. Her daughter's "de
+  Jesus" repeats her own devotional name [PROVEN as written; a family echo is
+  INFERRED].
+
+  - **Nationality:** Brazilian — "todos naturaes desta Freguezia" (Itaboraí) [PROVEN as
+  written].
+
+  - **Birth, marriage, death:** none located; born no later than about 1785
+  [INFERRED].
+
+  ## Evidence standing
+
+  The two entries are original parish records, read from the images [PROVEN]. That
+  they concern Rosa's family is strong evidence, not proof: the parents carry exactly
+  the names of Rosa's parents, in the same parish register series, and the 1821 and
+  1841 entries agree on all four grandparents [STRONG]. She is a different woman from
+  the Guimarães-line Emmerenciana Maria de Jesus (P-0022).
+
+  ## Open questions
+
+  - Her own baptism, marriage and death (Itaboraí; before 1821 off the filmed books,
+  per the retrieval side) [OPEN].
+
+  - **Leads reported by the retrieval side, images not held here [LEAD]:** she and José
+  Campello de Moraes stood godparents together on 16 August 1822, to a girl also named
+  Emmerencianna; on 29 November 1835 a "D. Emerencianna Maria de Jezus", styled "sua
+  Avó", was godmother to Antonio, son of Manoel Campello de Moraes (her probable son),
+  which would show her alive and styled "Dona" in 1835; and the 24 May 1840 baptism of
+  Manoel Campello's son Procopio reportedly names her as paternal grandmother.
+
+  ## Sources held (this repository)
+
+  - PAR-0101 (Antonio's 1821 Itaboraí baptism — "Emmerencianna Maria de Jezus").
+
+  - PAR-0102 (João's and Maria's 1841 Itaboraí baptisms — "Emmerencianna" /
+  "Emerencianna Maria de Jesus").
+profile_pt: >-
+  ## Identidade
+
+  **Emerenciana Maria de Jesus** — "Emmerencianna Maria de Jezus" no batismo de seu
+  neto Antonio, em Itaboraí, de 21 de outubro de 1821 (PAR-0101), e "Emmerencianna" /
+  "Emerencianna Maria de Jesus" nos batismos de seus netos João e Maria, de 4 de março
+  de 1841 (PAR-0102) [PROVEN]. Os dois registros a emparelham com José Campello de
+  Moraes (P-0134) como avós maternos de filhos de Manoel de Lemos Pereira e Maria
+  Thereza de Jesus. É a mãe de Maria Thereza de Jesus (P-0053) [STRONG], portanto avó
+  materna de Rosa Eugenia de Lemos (P-0035). O "de Jesus" da filha repete o seu próprio
+  nome devocional [PROVEN como escrito; um eco familiar é INFERRED].
+
+  - **Nacionalidade:** brasileira — "todos naturaes desta Freguezia" (Itaboraí)
+  [PROVEN como escrito].
+
+  - **Nascimento, casamento, óbito:** nenhum localizado; nascida no máximo por volta
+  de 1785 [INFERRED].
+
+  ## Situação da evidência
+
+  Os dois assentos são registros paroquiais originais, lidos nas imagens [PROVEN].
+  Que digam respeito à família de Rosa é evidência forte, não prova: os pais têm
+  exatamente os nomes dos pais de Rosa, na mesma série de livros da freguesia, e os
+  assentos de 1821 e 1841 concordam nos quatro avós [STRONG]. É uma mulher diferente
+  da Emmerenciana Maria de Jesus da linha Guimarães (P-0022).
+
+  ## Questões em aberto
+
+  - Seu próprio batismo, casamento e óbito (Itaboraí; antes de 1821 fora dos livros
+  filmados, segundo a pesquisa de recuperação) [OPEN].
+
+  - **Pistas relatadas pela pesquisa de recuperação, imagens não disponíveis aqui
+  [LEAD]:** ela e José Campello de Moraes foram padrinhos juntos em 16 de agosto de
+  1822, de uma menina também chamada Emmerencianna; em 29 de novembro de 1835 uma "D.
+  Emerencianna Maria de Jezus", tratada por "sua Avó", foi madrinha de Antonio, filho
+  de Manoel Campello de Moraes (seu provável filho), o que a mostraria viva e tratada
+  por "Dona" em 1835; e o batismo, em 24 de maio de 1840, de Procopio, filho de Manoel
+  Campello, a nomearia como avó paterna.
+
+  ## Fontes disponíveis (neste repositório)
+
+  - PAR-0101 (batismo de Antonio em Itaboraí, 1821 — "Emmerencianna Maria de Jezus").
+
+  - PAR-0102 (batismos de João e Maria em Itaboraí, 1841 — "Emmerencianna" /
+  "Emerencianna Maria de Jesus").

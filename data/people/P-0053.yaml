@@ -11,6 +11,8 @@ name_variants:
   - PAR-0016
   - PAR-0031
   - PAR-0033
+  - PAR-0101
+  - PAR-0102
   note: >-
     "de Jesus" in Rosa's 1835 baptism (PAR-0016); spelled "de Jezus" in Anna's 1834
     and Polidoro's 1838 baptisms (PAR-0031, PAR-0033). Sources re-read from the images
@@ -28,6 +30,7 @@ event_ids:
 - E-0049
 family_ids:
 - F-0025
+- F-0067
 notes:
 - text: >-
     Mother of Rosa Eugenia de Lemos (P-0035); hence Joaquim José Bohrer's (P-0030)
@@ -81,6 +84,7 @@ notes:
     inconsistência de escrivão e a alternativa de duas mulheres ficam aposentadas:
     apoiavam-se numa leitura errada.]
 - text: >-
+    SUPERSEDED 2026-10-10 by the next note (the record images are now held and read).
     LEAD (2026-10-10, retrieval agent; record images not yet held here): the
     retrieval agent reports that the 21 October 1821 Itaboraí baptism of her son
     Antonio and the 4 March 1841 baptisms of her children João and Maria name the
@@ -94,10 +98,12 @@ notes:
     statement about her father, to be read from the record itself, not an inference
     from any surname.
   text_pt: >-
-    PISTA (2026-10-10, agente de recuperação; imagens dos registros ainda não
-    disponíveis aqui): o agente de recuperação relata que o batismo de seu filho
-    Antonio em Itaboraí, de 21 de outubro de 1821, e os batismos de seus filhos João
-    e Maria, de 4 de março de 1841, nomeiam os avós — maternos (seus próprios pais):
+    SUPERADA em 2026-10-10 pela nota seguinte (as imagens dos registros estão agora
+    disponíveis e lidas). PISTA (2026-10-10, agente de recuperação; imagens dos
+    registros ainda não disponíveis aqui): o agente de recuperação relata que o
+    batismo de seu filho Antonio em Itaboraí, de 21 de outubro de 1821, e os batismos
+    de seus filhos João e Maria, de 4 de março de 1841, nomeiam os avós — maternos
+    (seus próprios pais):
     José Campello de Moraes, "natural do Porto", × Emerenciana Maria de Jesus;
     paternos (os pais de seu marido Manoel): José Henriques de Mattos × Anna Joaquina
     (também dada como Anna Maria) da Conceição — e que ela e Manoel eram casados antes
@@ -107,10 +113,47 @@ notes:
     continuam sem evidência neste repositório. O "natural do Porto" relatado é uma
     declaração sobre seu pai, a ser lida no próprio registro, não uma inferência a
     partir de sobrenome.
+- text: >-
+    [2026-10-10, records held] The baptisms reported in the note above are now held
+    and read from the images: Antonio, 21 October 1821 (PAR-0101, mother "Maria
+    Thereza de Jezus"), and João (b. 16 August 1839) and Maria (b. 24 September 1840),
+    both baptised 4 March 1841 (PAR-0102, mother "Maria Thereza de Jesus") — each a
+    legitimate child of Manoel de Lemos Pereira, and documented children of F-0025.
+    Both records name her parents as José Campello de Moraes (1841: "de Morais",
+    P-0134) and Emmerencianna Maria de Jezus/Jesus (P-0135), now modelled as her
+    parentage family F-0067 at strong-evidence, not confirmed: the records are
+    original and direct for the Maria Thereza they name, but identifying her with this
+    one rests on the identical names of the couple in the same parish register series
+    and on the two records agreeing, twenty years apart, on all four grandparents (the
+    owner's authorisation of 2026-10-10: the link to Rosa at STRONG, not PROVEN). This
+    supersedes the statement in the nationality note above that her parents are not
+    evidenced by the located records. Her father's origin is read from the record, not
+    his surname: "natural do Port[o]" (1821), read as the city of Porto, although the
+    entry does not say "Portugal" and João's 1841 entry places its generic "todos
+    naturaes desta Freguezia de Itaborahy" right after his name (see P-0134).
+  text_pt: >-
+    [2026-10-10, registros disponíveis] Os batismos relatados na nota acima estão agora
+    disponíveis e lidos nas imagens: Antonio, 21 de outubro de 1821 (PAR-0101, mãe
+    "Maria Thereza de Jezus"), e João (n. 16 de agosto de 1839) e Maria (n. 24 de
+    setembro de 1840), ambos batizados em 4 de março de 1841 (PAR-0102, mãe "Maria
+    Thereza de Jesus") — cada um filho legítimo de Manoel de Lemos Pereira, e filhos
+    documentados de F-0025. Os dois registros nomeiam seus pais como José Campello de
+    Moraes (1841: "de Morais", P-0134) e Emmerencianna Maria de Jezus/Jesus (P-0135),
+    agora modelados como sua família de filiação F-0067 em strong-evidence, não
+    confirmed: os registros são originais e diretos para a Maria Thereza que nomeiam,
+    mas identificá-la com esta apoia-se nos nomes idênticos do casal na mesma série de
+    livros da freguesia e na concordância dos dois registros, com vinte anos de
+    intervalo, quanto aos quatro avós (autorização do dono de 2026-10-10: o vínculo a
+    Rosa em STRONG, não PROVEN). Isto supera a afirmação da nota de nacionalidade acima
+    de que seus pais não são evidenciados pelos registros localizados. A origem de seu
+    pai é lida no registro, não no sobrenome: "natural do Port[o]" (1821), lida como a
+    cidade do Porto, embora o assento não diga "Portugal" e o assento de João de 1841
+    ponha seu genérico "todos naturaes desta Freguezia de Itaborahy" logo depois do
+    nome dele (ver P-0134).
 profile: >-
   ## Interesting facts
 
-  - **[CONTEXTUAL]** The devotional surname "de Jesus" hides her paternal lineage entirely — a common practice among lower-status Brazilian families of the period, where a devotional particle replaced a fixed surname. Only her own marriage or death act could supply a paternal surname, and the retrieval research reports both as falling in gaps of the filmed Itaboraí registers [LEAD], so her ancestry is out of reach for now rather than untraceable in principle. The retrieval agent now reports that the 1821 and 1841 baptisms of her children name her parents — José Campello de Moraes, "natural do Porto", and Emerenciana Maria de Jesus [LEAD — images not yet held; not modelled]; if confirmed, her "de Jesus" would echo her mother's name [INFERRED].
+  - **[CONTEXTUAL]** The devotional surname "de Jesus" hides her paternal lineage entirely — a common practice among lower-status Brazilian families of the period, where a devotional particle replaced a fixed surname. Only her own marriage or death act could supply a paternal surname, and the retrieval research reports both as falling in gaps of the filmed Itaboraí registers [LEAD], so her ancestry was out of reach through her own records. It is reached instead through her children's: the 1821 and 1841 baptisms of Antonio, João and Maria, held since 2026-10-10, name her parents — José Campello de Moraes, "natural do Porto", and Emerenciana Maria de Jesus (P-0134, P-0135; PAR-0101, PAR-0102) [STRONG]. Her "de Jesus" echoes her mother's name [INFERRED].
 
   - **[PROVEN]** Every baptism of her children from 1832 to 1838 names her "Maria Thereza" — with "de Jesus" / "de Jezus" in 1834, 1835 and 1838 (PAR-0030, PAR-0031, PAR-0016, PAR-0032, PAR-0033). A "Maria Nunes de Jesus" form once carried here, and the question whether two women lay behind it, rested on a misreading of the 1832 and 1834 entries and were retired after a re-reading of the images on 2026-10-10.
 
@@ -136,10 +179,14 @@ profile: >-
   - **Nationality:** Brazilian [PROVEN] — "natural desta freguezia" (Itaboraí) in the 1835
   baptism (PAR-0016).
 
-  - **Parents:** unknown from any held record [OPEN]; the devotional surname "de Jesus"
-  carries no lineage clue. The retrieval agent reports them as José Campello de Moraes,
-  "natural do Porto", and Emerenciana Maria de Jesus, named in the 1821 and 1841 baptisms of
-  her children [LEAD — images not yet held; not modelled].
+  - **Parents:** José Campello de Moraes (P-0134), "natural do Port[o]", and Emerenciana
+  Maria de Jesus (P-0135), family F-0067 [STRONG] — named as maternal grandparents in the
+  1821 and 1841 baptisms of her children Antonio, João and Maria (PAR-0101, PAR-0102), held
+  and read on 2026-10-10 [PROVEN as records]. The link is strong, not proven: it rests on
+  identifying her with the Maria Thereza those records name. Her own devotional "de Jesus"
+  carries no lineage clue; her father's surname survives in her probable brother Manoel
+  Campello de Moraes [LEAD]. (Until 2026-10-10 this read "unknown from any held record",
+  with the names as a retrieval lead.)
 
   - **Marriage and children:** wife of Manoel de Lemos [Pereira] (P-0052), family F-0025;
   mother of the 1832–1838 Itaboraí children (Maria, Anna, Rosa Eugenia, Thomaz, Polídoro).
@@ -148,10 +195,11 @@ profile: >-
   retrieval research but not held here [LEAD]. Rosa's brothers Candido Pereira de Lemos
   (PRB-0005) and Manoel Pereira de Lemos (d. 1898 aged 72, so b. c.1826, NWS-0002) are
   documented, but no held record names their mother. If they were her sons, her childbearing
-  began by c.1826 and her birth falls no later than c.1810 [INFERRED]. The retrieval agent also
-  reports a son Antonio baptised 21 October 1821 and children João and Maria baptised 4 March
-  1841, the couple being married before 18 March 1821 [LEAD — images not yet held]; if
-  confirmed, her birth falls about 1805 or earlier [INFERRED].
+  began by c.1826 and her birth falls no later than c.1810 [INFERRED]. Three more children are now
+  held: Antonio, baptised 21 October 1821 (PAR-0101), and João (b. 16 August 1839) and Maria
+  (b. 24 September 1840), both baptised 4 March 1841 (PAR-0102) [STRONG]; the mother of a
+  legitimate son in October 1821 was born about 1805 or earlier [INFERRED]. The retrieval
+  agent reports the couple married before 18 March 1821 [LEAD].
 
   - **Death:** not located. She was dead by November 1919, when Rosa's death names both
   parents as "falecidos" (PAR-0058) [PROVEN of the bound]. The retrieval agent reports her
@@ -173,7 +221,10 @@ profile: >-
   **Children in held records.** Maria, baptised 14 July 1832 (PAR-0030); Anna, 11 February 1834
   (PAR-0031); Rosa, 12 October 1835, "nascida a dez mezes" (PAR-0016); Thomaz, 13 June 1836,
   "nascido a tres mezes" (PAR-0032); and Polidoro, 18 March 1838, "nascido a tres mezes"
-  (PAR-0033) [PROVEN]. The older brothers Candido and Manoel are discussed under Identity.
+  (PAR-0033) [PROVEN]. To these the 1821 and 1841 entries add Antonio, baptised 21 October 1821
+  (PAR-0101), and João, born 16 August 1839, and a second Maria, born 24 September 1840, both
+  baptised 4 March 1841 (PAR-0102) [STRONG — through the identification]. The older brothers
+  Candido and Manoel are discussed under Identity.
 
   **Godparents.** Capitão José Custodio Vieira (Maria, PAR-0030; and Thomaz, with Nossa Senhora,
   PAR-0032); João José Antunes and Anna Roza da Encarnação (Anna, PAR-0031); Manoel José da
@@ -181,10 +232,13 @@ profile: >-
   Nossa Senhora (Polidoro, PAR-0033) [PROVEN]. One sponsor carries a style — the *Capitão*,
   chosen twice. (Corrected from the images on 2026-10-10; earlier readings gave "Flor de
   Maria", "[Felício?]", "José Antonio and Anna Roza de Guimarães" and illegible 1836/1838
-  sponsors, and said none carried a rank.)
+  sponsors, and said none carried a rank.) The 1821 and 1841 entries add Antonio Joze da
+  Fonceca and Anna Maria das Dores (Antonio, PAR-0101) and the Reverendo José Antonio Ferreira
+  Pacheco (João and Maria, PAR-0102) [STRONG].
 
-  **Her own parents:** unknown; no held record names them. The retrieval agent reports them
-  [LEAD — see Identity].
+  **Her own parents:** José Campello de Moraes (P-0134) and Emerenciana Maria de Jesus
+  (P-0135), family F-0067 [STRONG — see Identity]. (Until 2026-10-10: "unknown; no held record
+  names them", with a retrieval lead.)
 
   ## What we can extrapolate
 
@@ -192,13 +246,14 @@ profile: >-
   re-read from the images on 2026-10-10, all five baptisms of 1832–1838 name her "Maria
   Thereza", so the "two wives, or two Manoel de Lemos" alternative is retired [PROVEN].
 
-  **Her entire documented life is five baptisms across six years.** [INFERRED] Between 1832
-  and 1838 she appears in five held Itaboraí baptism entries (a sixth, from 1831, and three more,
-  from 1821 and 1841, are reported but not held [LEAD]) — a birth roughly every eighteen months
-  through the middle of her
-  childbearing years — and in nothing else of her own: no property act, no
+  **Her entire documented life is a run of baptisms.** [INFERRED] Between 1832 and 1838 she
+  appears in five held Itaboraí baptism entries — a birth roughly every eighteen months
+  through the middle of her childbearing years — and the 1821 and 1841 entries, held since
+  2026-10-10, stretch the run to twenty years [STRONG] (a further baptism, from 1831, is
+  reported but not held [LEAD]); and in nothing else of her own: no property act, no
   will, no signature, no occupation, no burial record located. Even her own surname withholds
-  her: the devotional *de Jesus* carries no lineage, which is why her parentage is invisible.
+  her: the devotional *de Jesus* carries no lineage, which is why her parentage stayed
+  invisible until her children's baptisms named her parents (PAR-0101, PAR-0102).
   That is not a gap in the research. In a household with nothing to transact, the parish
   register is the only archive that records anything at all, so the bottom of a genealogy looks
   flat — and the flatness is a property of the record-keeping, not of the lives.
@@ -214,7 +269,8 @@ profile: >-
   **The turn comes after her, and it comes by moving.** [INFERRED] Her own generation neither
   rose nor migrated; her children's did. A daughter married into the Nova Friburgo Swiss colony
   and died there in 1919, "moradora nesta da Nova Friburgo" (PAR-0058); Rosa's brother Candido
-  appears in Nova Friburgo acts as executor and wedding witness (PRB-0005, PAR-0056) [PROVEN].
+  is named second executor in her husband's 1879 will and witnessed a wedding at Nova Friburgo
+  in 1884 (PRB-0005, PAR-0056) [PROVEN].
   Rosa's other brother Manoel was "o conhecido industrial da Venda das Pedras" at his death in
   1898 (NWS-0002) [PROVEN], and may have stayed nearer home, since Venda das Pedras is today a
   neighbourhood of Itaboraí [CONTEXTUAL]; no held record names either brother's mother. The Lemos
@@ -222,9 +278,10 @@ profile: >-
 
   ## Open questions
 
-  - Her own parents — reported by the retrieval agent from the 1821 and 1841 baptisms of her
-  children [LEAD]; decisive here: those baptism images, then the Itaboraí marriage of Manoel de
-  Lemos × Maria Thereza de Jesus. (Whether "Maria Thereza" and "Maria Nunes" were one woman is
+  - Her own parents — now named from the 1821 and 1841 baptisms of her children (PAR-0101,
+  PAR-0102) and modelled as F-0067 at strong evidence; what would prove the link is her own
+  baptism or the Itaboraí marriage of Manoel de Lemos × Maria Thereza de Jesus. Her father's
+  "natural do Port[o]" is read as the city of Porto but not stated so [uncertain]. (Whether "Maria Thereza" and "Maria Nunes" were one woman is
   no longer a question: the "Nunes" reading was a misreading, retired 2026-10-10.) [OPEN]
 
   - **Search bounds reported by the retrieval research (2026-09-10) [LEAD — not repeated
@@ -248,12 +305,20 @@ profile: >-
   "Maria Thereza de Jezus"). PAR-0058 (daughter Rosa's 1919 Nova Friburgo death — names her
   "Maria Tereza Pereira de Lemos", a later variant).
 
+  - PAR-0101 (son Antonio's 1821 baptism — "Maria Thereza de Jezus") · PAR-0102 (João's and
+  Maria's 1841 baptisms — "Maria Thereza de Jesus") — both name her parents [identification
+  STRONG].
+
   ## Regional and migration context
 
   She was "natural desta freguezia", Itaboraí, and baptised her children at the Itaboraí matriz
   from 1832 to 1838 (PAR-0016, PAR-0030, PAR-0031, PAR-0032, PAR-0033) [PROVEN]. Itaboraí was
   then a Portuguese-descended sugar and farming parish east of Guanabara Bay, worked by enslaved
-  labour [CONTEXTUAL]. Her Brazilian nationality follows from that documented birthplace. The
+  labour [CONTEXTUAL]. Her Brazilian nationality follows from that documented birthplace. Her
+  father, José Campello de Moraes, is "natural do Port[o]" in 1821 (PAR-0101) — most naturally
+  the Portuguese city [uncertain] — so she was probably the Brazilian-born daughter of a
+  Portuguese immigrant and an Itaboraí-born mother [STRONG for the parentage; INFERRED for
+  the migration]. The
   family's move into the Nova Friburgo colony belongs to her daughter Rosa's generation: Rosa's
   marriage was celebrated at Itaboraí (PAR-0002) and she died a resident of Nova Friburgo
   (PAR-0058).
@@ -264,7 +329,7 @@ profile: >-
 profile_pt: >-
   ## Fatos interessantes
 
-  - **[CONTEXTUAL]** O sobrenome devocional "de Jesus" oculta por completo sua linhagem paterna — prática comum nas famílias brasileiras de condição mais modesta da época, em que uma partícula devocional substituía um sobrenome fixo. Só seu próprio casamento ou óbito poderia fornecer um sobrenome paterno, e a pesquisa de recuperação relata que ambos caem em lacunas dos registros filmados de Itaboraí [LEAD]; sua ascendência está, portanto, fora de alcance por ora, e não impossível de rastrear em princípio. O agente de recuperação relata agora que os batismos de 1821 e 1841 de seus filhos nomeiam seus pais — José Campello de Moraes, "natural do Porto", e Emerenciana Maria de Jesus [LEAD — imagens ainda não disponíveis; não modelado]; se confirmado, seu "de Jesus" ecoaria o nome da mãe [INFERRED].
+  - **[CONTEXTUAL]** O sobrenome devocional "de Jesus" oculta por completo sua linhagem paterna — prática comum nas famílias brasileiras de condição mais modesta da época, em que uma partícula devocional substituía um sobrenome fixo. Só seu próprio casamento ou óbito poderia fornecer um sobrenome paterno, e a pesquisa de recuperação relata que ambos caem em lacunas dos registros filmados de Itaboraí [LEAD]; sua ascendência estava, portanto, fora de alcance pelos seus próprios registros. É alcançada pelos dos filhos: os batismos de 1821 e 1841 de Antonio, João e Maria, disponíveis desde 2026-10-10, nomeiam seus pais — José Campello de Moraes, "natural do Porto", e Emerenciana Maria de Jesus (P-0134, P-0135; PAR-0101, PAR-0102) [STRONG]. Seu "de Jesus" ecoa o nome da mãe [INFERRED].
 
   - **[PROVEN]** Todos os batismos de seus filhos de 1832 a 1838 a nomeiam "Maria Thereza" — com "de Jesus" / "de Jezus" em 1834, 1835 e 1838 (PAR-0030, PAR-0031, PAR-0016, PAR-0032, PAR-0033). Uma forma "Maria Nunes de Jesus" antes registrada aqui, e a questão de haver duas mulheres por trás dela, apoiavam-se numa leitura errada dos assentos de 1832 e 1834 e foram aposentadas após nova leitura das imagens em 2026-10-10.
 
@@ -290,10 +355,14 @@ profile_pt: >-
   - **Nacionalidade:** brasileira [PROVEN] — "natural desta freguezia" (Itaboraí) no
   batismo de 1835 (PAR-0016).
 
-  - **Pais:** desconhecidos em qualquer registro disponível [OPEN]; o sobrenome devocional
-  "de Jesus" não traz pista de linhagem. O agente de recuperação os relata como José Campello
-  de Moraes, "natural do Porto", e Emerenciana Maria de Jesus, nomeados nos batismos de 1821 e
-  1841 de seus filhos [LEAD — imagens ainda não disponíveis; não modelado].
+  - **Pais:** José Campello de Moraes (P-0134), "natural do Port[o]", e Emerenciana Maria de
+  Jesus (P-0135), família F-0067 [STRONG] — nomeados avós maternos nos batismos de 1821 e 1841
+  de seus filhos Antonio, João e Maria (PAR-0101, PAR-0102), disponíveis e lidos em 2026-10-10
+  [PROVEN como registros]. O vínculo é forte, não provado: depende de identificá-la com a
+  Maria Thereza que esses registros nomeiam. Seu próprio "de Jesus" devocional não traz pista
+  de linhagem; o sobrenome do pai sobrevive no seu provável irmão Manoel Campello de Moraes
+  [LEAD]. (Até 2026-10-10 dizia-se aqui "desconhecidos em qualquer registro disponível", com
+  os nomes como pista da pesquisa de recuperação.)
 
   - **Casamento e filhos:** esposa de Manoel de Lemos [Pereira] (P-0052), família F-0025;
   mãe dos filhos de Itaboraí de 1832–1838 (Maria, Anna, Rosa Eugenia, Thomaz, Polídoro).
@@ -303,10 +372,11 @@ profile_pt: >-
   Pereira de Lemos (PRB-0005) e Manoel Pereira de Lemos (f. 1898 aos 72 anos, portanto n.
   c.1826, NWS-0002), estão documentados, mas nenhum registro disponível nomeia a mãe deles. Se
   fossem filhos dela, sua fase de partos começou até c.1826 e seu nascimento não é posterior a
-  c.1810 [INFERRED]. O agente de recuperação relata ainda um filho Antonio batizado em 21 de
-  outubro de 1821 e os filhos João e Maria batizados em 4 de março de 1841, sendo o casal
-  casado antes de 18 de março de 1821 [LEAD — imagens ainda não disponíveis]; se confirmado,
-  seu nascimento cai por volta de 1805 ou antes [INFERRED].
+  c.1810 [INFERRED]. Mais três filhos estão agora disponíveis: Antonio, batizado em 21 de
+  outubro de 1821 (PAR-0101), e João (n. 16 de agosto de 1839) e Maria (n. 24 de setembro de
+  1840), ambos batizados em 4 de março de 1841 (PAR-0102) [STRONG]; a mãe de um filho legítimo
+  em outubro de 1821 nasceu por volta de 1805 ou antes [INFERRED]. O agente de recuperação
+  relata o casal casado antes de 18 de março de 1821 [LEAD].
 
   - **Óbito:** não localizado. Já estava morta em novembro de 1919, quando o óbito de Rosa nomeia
   ambos os pais como "falecidos" (PAR-0058) [PROVEN quanto ao limite]. O agente de recuperação
@@ -328,8 +398,11 @@ profile_pt: >-
   **Filhos nos registros disponíveis.** Maria, batizada em 14 de julho de 1832 (PAR-0030); Anna,
   em 11 de fevereiro de 1834 (PAR-0031); Rosa, em 12 de outubro de 1835, "nascida a dez mezes"
   (PAR-0016); Thomaz, em 13 de junho de 1836, "nascido a tres mezes" (PAR-0032); e Polidoro, em
-  18 de março de 1838, "nascido a tres mezes" (PAR-0033) [PROVEN]. Os irmãos mais velhos Candido
-  e Manoel são tratados em Identidade.
+  18 de março de 1838, "nascido a tres mezes" (PAR-0033) [PROVEN]. A estes os assentos de 1821 e
+  1841 acrescentam Antonio, batizado em 21 de outubro de 1821 (PAR-0101), e João, nascido em 16
+  de agosto de 1839, e uma segunda Maria, nascida em 24 de setembro de 1840, ambos batizados em
+  4 de março de 1841 (PAR-0102) [STRONG — pela identificação]. Os irmãos mais velhos Candido e
+  Manoel são tratados em Identidade.
 
   **Padrinhos.** O Capitão José Custodio Vieira (Maria, PAR-0030; e Thomaz, com Nossa Senhora,
   PAR-0032); João José Antunes e Anna Roza da Encarnação (Anna, PAR-0031); Manoel José da Silva
@@ -337,10 +410,13 @@ profile_pt: >-
   Senhora (Polidoro, PAR-0033) [PROVEN]. Um padrinho traz tratamento — o *Capitão*, escolhido
   duas vezes. (Corrigido a partir das imagens em 2026-10-10; leituras anteriores davam "Flor de
   Maria", "[Felício?]", "José Antonio e Anna Roza de Guimarães" e padrinhos ilegíveis em
-  1836/1838, e diziam que nenhum tinha patente.)
+  1836/1838, e diziam que nenhum tinha patente.) Os assentos de 1821 e 1841 acrescentam
+  Antonio Joze da Fonceca e Anna Maria das Dores (Antonio, PAR-0101) e o Reverendo José
+  Antonio Ferreira Pacheco (João e Maria, PAR-0102) [STRONG].
 
-  **Seus próprios pais:** desconhecidos; nenhum registro disponível os nomeia. O agente de
-  recuperação os relata [LEAD — ver Identidade].
+  **Seus próprios pais:** José Campello de Moraes (P-0134) e Emerenciana Maria de Jesus
+  (P-0135), família F-0067 [STRONG — ver Identidade]. (Até 2026-10-10: "desconhecidos; nenhum
+  registro disponível os nomeia", com uma pista da pesquisa de recuperação.)
 
   ## O que podemos extrapolar
 
@@ -349,14 +425,15 @@ profile_pt: >-
   "Maria Thereza", de modo que a alternativa "duas esposas, ou dois Manoel de Lemos" fica
   aposentada [PROVEN].
 
-  **Toda a sua vida documentada cabe em cinco batismos ao longo de seis anos.** [INFERRED]
-  Entre 1832 e 1838 ela aparece em cinco assentos de batismo de Itaboraí disponíveis (um sexto,
-  de 1831, e mais três, de 1821 e 1841, são relatados mas não estão disponíveis [LEAD]) — um
-  parto a cada dezoito meses,
-  aproximadamente, no meio de seus anos férteis — e em mais nada de seu: nenhum ato
+  **Toda a sua vida documentada cabe numa sequência de batismos.** [INFERRED] Entre 1832 e
+  1838 ela aparece em cinco assentos de batismo de Itaboraí disponíveis — um parto a cada
+  dezoito meses, aproximadamente, no meio de seus anos férteis —, e os assentos de 1821 e
+  1841, disponíveis desde 2026-10-10, estendem a sequência a vinte anos [STRONG] (outro
+  batismo, de 1831, é relatado mas não está disponível [LEAD]); e em mais nada de seu: nenhum ato
   de propriedade, nenhum testamento, nenhuma assinatura, nenhuma ocupação, nenhum registro de
   sepultamento localizado. Até o próprio sobrenome a esconde: o devocional *de Jesus* não
-  carrega linhagem, e é por isso que sua filiação é invisível. Isso não é uma lacuna de
+  carrega linhagem, e é por isso que sua filiação ficou invisível até os batismos dos filhos
+  nomearem seus pais (PAR-0101, PAR-0102). Isso não é uma lacuna de
   pesquisa. Num domicílio sem nada a transacionar, o registro paroquial é o único arquivo que
   registra o que quer que seja, de modo que o fundo de uma genealogia parece plano — e a planura
   é uma propriedade do sistema de registro, não das vidas.
@@ -372,8 +449,8 @@ profile_pt: >-
   **A virada vem depois dela, e vem pela mudança de lugar.** [INFERRED] Sua própria geração não
   subiu nem migrou; a dos filhos, sim. Uma filha casou-se na colônia suíça de Nova Friburgo e ali
   morreu em 1919, "moradora nesta da Nova Friburgo" (PAR-0058); Candido, irmão de Rosa, aparece
-  em atos de Nova Friburgo como testamenteiro e testemunha de casamento (PRB-0005, PAR-0056)
-  [PROVEN]. O outro irmão de Rosa, Manoel, era "o conhecido industrial da Venda das Pedras" ao
+  como segundo testamenteiro no testamento do marido dela de 1879 e como testemunha de um
+  casamento em Nova Friburgo em 1884 (PRB-0005, PAR-0056) [PROVEN]. O outro irmão de Rosa, Manoel, era "o conhecido industrial da Venda das Pedras" ao
   morrer em 1898 (NWS-0002) [PROVEN] e pode ter ficado mais perto de casa, pois Venda das Pedras
   é hoje um bairro de Itaboraí [CONTEXTUAL]; nenhum registro disponível nomeia a mãe de qualquer
   dos dois irmãos. Os Lemos entram no mundo da colônia apenas por essa geração, e entram nele
@@ -381,9 +458,11 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seus próprios pais — relatados pelo agente de recuperação a partir dos batismos de 1821 e
-  1841 de seus filhos [LEAD]; decisivos aqui: as imagens desses batismos e, depois, o casamento
-  em Itaboraí de Manoel de Lemos × Maria Thereza de Jesus. (Se "Maria Thereza" e "Maria Nunes"
+  - Seus próprios pais — agora nomeados pelos batismos de 1821 e 1841 de seus filhos
+  (PAR-0101, PAR-0102) e modelados como F-0067 com evidência forte; o que provaria o vínculo é
+  o seu próprio batismo ou o casamento em Itaboraí de Manoel de Lemos × Maria Thereza de
+  Jesus. O "natural do Port[o]" de seu pai é lido como a cidade do Porto, mas não está
+  declarado assim [uncertain]. (Se "Maria Thereza" e "Maria Nunes"
   eram uma só mulher já não é questão: a leitura "Nunes" era errada, aposentada em
   2026-10-10.) [OPEN]
 
@@ -408,13 +487,20 @@ profile_pt: >-
   — "Maria Thereza de Jezus"). PAR-0058 (óbito de 1919 da filha Rosa em Nova Friburgo —
   nomeia-a "Maria Tereza Pereira de Lemos", uma variante tardia).
 
+  - PAR-0101 (batismo do filho Antonio, 1821 — "Maria Thereza de Jezus") · PAR-0102 (batismos
+  de João e Maria, 1841 — "Maria Thereza de Jesus") — ambos nomeiam seus pais [identificação
+  STRONG].
+
   ## Contexto regional e migratório
 
   Era "natural desta freguezia", Itaboraí, e batizou os filhos na matriz de Itaboraí de 1832 a
   1838 (PAR-0016, PAR-0030, PAR-0031, PAR-0032, PAR-0033) [PROVEN]. Itaboraí era então uma
   freguesia de descendência portuguesa, açucareira e agrícola, a leste da baía de Guanabara,
   movida por trabalho escravizado [CONTEXTUAL]. Sua nacionalidade brasileira decorre desse local
-  de nascimento documentado. A entrada da família na colônia de Nova Friburgo pertence à geração
+  de nascimento documentado. Seu pai, José Campello de Moraes, é "natural do Port[o]" em 1821
+  (PAR-0101) — mais naturalmente a cidade portuguesa [uncertain] —, de modo que ela era
+  provavelmente a filha, nascida no Brasil, de um imigrante português e de uma mãe natural de
+  Itaboraí [STRONG quanto à filiação; INFERRED quanto à migração]. A entrada da família na colônia de Nova Friburgo pertence à geração
   da filha Rosa: o casamento de Rosa foi celebrado em Itaboraí (PAR-0002) e ela morreu moradora
   de Nova Friburgo (PAR-0058).
 

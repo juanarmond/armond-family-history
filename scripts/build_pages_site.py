@@ -44,6 +44,7 @@ import shutil
 from pathlib import Path
 
 import pypdfium2 as pdfium
+from PIL import Image
 import yaml
 
 from build_knowledge_base import build as build_knowledge_base
@@ -119,11 +120,25 @@ MAX_PAGES_WITHOUT_LIST = 40
 PAGE_WIDTH = 1400
 
 
+def render_tiff(path: str) -> list[dict]:
+    """A browser-displayable JPEG of a TIFF scan, written beside it in the site.
+
+    Most browsers cannot draw a TIFF; the evidence keeps the archive's bytes unchanged
+    (evidence/README.md), so the site shows this rendering and still links the TIFF.
+    """
+    with Image.open(ROOT / path) as image:
+        rendered = image.convert("RGB")
+    rel = f"{path.rsplit('.', 1)[0]}-display.jpg"
+    (OUTPUT / rel).parent.mkdir(parents=True, exist_ok=True)
+    rendered.save(OUTPUT / rel, "JPEG", quality=85, optimize=True, progressive=True)
+    return [{"path": rel, "page": 1}]
+
+
 def render_pdf_pages(record: dict) -> tuple[dict, int]:
-    """Return the record with its multi-page PDFs rendered, and how many pages were drawn.
+    """Return the record with its multi-page PDFs and its TIFFs rendered, and how many images were drawn.
 
     Each such file reference gains ``rendered_pages`` — ``{path, page, label?, label_pt?}``
-    for every image written beside the PDF in the site. The record itself is not changed.
+    for every image written beside the file in the site. The record itself is not changed.
     """
     refs = [("digital_file", None), *(("additional_pages", i) for i in range(len(record.get("additional_pages") or [])))]
     out = record
@@ -131,7 +146,16 @@ def render_pdf_pages(record: dict) -> tuple[dict, int]:
     for key, index in refs:
         ref = record.get(key) if index is None else record[key][index]
         path = ref.get("path") if isinstance(ref, dict) else None
-        if not isinstance(path, str) or not path.lower().endswith(".pdf") or not (ROOT / path).is_file():
+        if not isinstance(path, str) or not (ROOT / path).is_file():
+            continue
+        if path.lower().endswith((".tif", ".tiff")):
+            rendered = render_tiff(path)
+            drawn += 1
+            if out is record:
+                out = copy.deepcopy(record)
+            (out[key] if index is None else out[key][index])["rendered_pages"] = rendered
+            continue
+        if not path.lower().endswith(".pdf"):
             continue
         pdf = pdfium.PdfDocument(ROOT / path)
         try:
@@ -331,7 +355,7 @@ def main() -> None:
         f"{len(public_sources)} sources,",
         f"{len(public_fan)} fan,",
         f"{copied} evidence scans,",
-        f"{rendered_pages} PDF pages rendered",
+        f"{rendered_pages} PDF pages and TIFFs rendered",
     )
     print(
         "  + knowledge base:",

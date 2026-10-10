@@ -385,6 +385,26 @@ class ValidateDataTests(unittest.TestCase):
         result = self.fixture.validate()
         self.assert_issue(result, "error", "checksum does not match")
 
+    def test_tiff_dimensions_are_read_from_either_byte_order(self) -> None:
+        from io import BytesIO
+
+        from PIL import Image
+
+        from scripts.validation.inventory import tiff_dimensions
+
+        buffer = BytesIO()
+        Image.new("RGB", (37, 23)).save(buffer, format="TIFF", compression="tiff_lzw")
+        self.assertEqual(tiff_dimensions(buffer.getvalue()), (37, 23))  # little-endian, LZW
+        # A minimal big-endian file: width as SHORT, height as LONG.
+        big_endian = (
+            b"MM\x00*" + (8).to_bytes(4, "big") + (2).to_bytes(2, "big")
+            + (256).to_bytes(2, "big") + (3).to_bytes(2, "big") + (1).to_bytes(4, "big") + (37).to_bytes(2, "big") + b"\x00\x00"
+            + (257).to_bytes(2, "big") + (4).to_bytes(2, "big") + (1).to_bytes(4, "big") + (23).to_bytes(4, "big")
+            + (0).to_bytes(4, "big")
+        )
+        self.assertEqual(tiff_dimensions(big_endian), (37, 23))
+        self.assertIsNone(tiff_dimensions(b"not a tiff"))
+
     def test_inventory_image_dimensions_must_match_encoded_file(self) -> None:
         content = base64.b64decode(
             "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4"

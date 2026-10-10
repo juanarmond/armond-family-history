@@ -13,6 +13,8 @@ partner_relationship:
   - PAR-0031
   - PAR-0032
   - PAR-0033
+  - PAR-0101
+  - PAR-0102
   notes:
   - text: >-
       Manoel de Lemos [Pereira] and Maria Thereza de Jesus are named as the married
@@ -92,6 +94,8 @@ documented_children:
     Lemos" and second-named executor in her husband Francisco José Bohrer's 1888 will
     (PRB-0005). Born before 1832 (absent from the 1832-1838 Itaboraí baptism sweep);
     his own baptism/inventário is unlocated.
+    [corrected 2026-10-10: the will is dated 27 June 1879 and was opened and registered in
+    1888 (PRB-0005); it is not an "1888 will", so Candido is attested alive in June 1879.]
 - name: Maria de Lemos
   source_ids:
   - PAR-0030
@@ -154,6 +158,31 @@ documented_children:
     1832–1838 Itaboraí baptism sweep (predates it), consistent with a c.1826 birth.
     Surname "Pereira de Lemos" (matching brother Candido Pereira de Lemos); the
     "Antunes de Lemos" form in the 6 Feb 1898 mass notice is a typo.
+- name: Antonio de Lemos
+  source_ids:
+  - PAR-0101
+  note: >-
+    Brother of Rosa Eugenia (P-0035); baptised 21 October 1821, Matriz de Itaboraí,
+    legitimate son of Manoel de Lemos Pereira and Maria Thereza de Jezus; godparents
+    Antonio Joze da Fonceca and Anna Maria das Dores. Names all four grandparents
+    (F-0066, F-0067). Identification with this couple STRONG. His legitimate birth by
+    October 1821 shows the couple married by then.
+- name: João de Lemos
+  source_ids:
+  - PAR-0102
+  note: >-
+    Brother of Rosa Eugenia (P-0035); born 16 August 1839, baptised 4 March 1841,
+    Matriz de Itaboraí; godfather Rev. José Antonio Ferreira Pacheco. Probably the
+    "João de Lemos Pereira" who stood godfather beside Rosa in 1858 (FAN-0014,
+    FAN-0015) [INFERRED]. Identification with this couple STRONG.
+- name: Maria de Lemos (b. 1840)
+  source_ids:
+  - PAR-0102
+  note: >-
+    Sister of Rosa Eugenia (P-0035); born 24 September 1840, baptised 4 March 1841,
+    Matriz de Itaboraí; godfather Rev. José Antonio Ferreira Pacheco. A second daughter
+    of the name (an elder Maria was baptised in 1832, PAR-0030). Identification with
+    this couple STRONG.
 event_ids: []
 notes:
 - text: >-

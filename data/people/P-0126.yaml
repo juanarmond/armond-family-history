@@ -53,6 +53,38 @@ notes:
     Her parentage is unknown and deliberately left unmodelled: neither PUB-0005 nor her own
     death act names her parents, and the "Leonardes" link to the founding São Sebastião
     settler family of João Leonardes, o Velho, is an untested lead, never evidence.
+- text: >-
+    PLACE IN THE ARCHIVE — corrected 2026-10-10 (owner's decision). Until this date the tree
+    routed her line to the owner through Gaspar Ferreira (P-0092) of Vila Rica, on the Toledo
+    side, and counted her as Geraldo Paz Armond's (P-0004) 6th-great-grandmother. The
+    identification of her grandson Gaspar de Souto Maior with Gaspar Ferreira (P-0092) is
+    rejected: Gaspar de Souto Maior is P-0131 (baptised São Sebastião 23 December 1657,
+    PAR-0099; died there 2 December 1727, PAR-0100), and this person is no longer a modelled
+    ancestor of the owner — see connection. She stays in the archive as part of the Terceira
+    Armond trunk, which family tradition (PUB-0002 ff. 55–56) makes the forebears of the
+    Ferreira Armonde of Barbacena [LEAD]; that family would attach to the owner only through
+    the unknown parents of Simplício José Ferreira Armond (P-0016) [OPEN].
+  text_pt: >-
+    LUGAR NO ARQUIVO — corrigido em 2026-10-10 (decisão do proprietário). Até esta data a
+    árvore ligava a sua linha ao proprietário através de Gaspar Ferreira (P-0092), de Vila
+    Rica, do lado Toledo, e contava-a como 6.ª bisavó de Geraldo Paz Armond (P-0004). A
+    identificação do neto Gaspar de Souto Maior com Gaspar Ferreira (P-0092) foi rejeitada:
+    Gaspar de Souto Maior é P-0131 (baptizado em São Sebastião a 23 de dezembro de 1657,
+    PAR-0099; falecido ali a 2 de dezembro de 1727, PAR-0100), e esta pessoa deixa de ser
+    ancestral modelada do proprietário — ver connection. Fica no arquivo como parte do tronco
+    terceirense dos Armond, que a tradição familiar (PUB-0002 ff. 55–56) dá como antepassados
+    dos Ferreira Armonde de Barbacena [LEAD]; essa família só se ligaria ao proprietário pelos
+    pais desconhecidos de Simplício José Ferreira Armond (P-0016) [OPEN].
+connection: >-
+  Family tradition, not a proven ancestor. Paternal grandmother of Gaspar de Souto Maior
+  (P-0131) in the Terceira trunk that family tradition makes the forebears of the Ferreira
+  Armonde of Barbacena; that family would attach to the archive's owner only through the
+  unknown parents of Simplício José Ferreira Armond (P-0016).
+connection_pt: >-
+  Tradição familiar, não ancestral provado. Avó paterna de Gaspar de Souto Maior (P-0131) no
+  tronco terceirense que a tradição familiar dá como antepassados dos Ferreira Armonde de
+  Barbacena; essa família só se ligaria ao proprietário do arquivo pelos pais desconhecidos de
+  Simplício José Ferreira Armond (P-0016).
 profile: >-
   ## Interesting facts
 
@@ -76,7 +108,7 @@ profile: >-
   - **Occupation:** none recorded — as for virtually every woman in these registers.
   - **Burial:** inside the Igreja Matriz de São Sebastião, "em sepultura sua junto ao arco da capela mor" **[PROVEN, PAR-0098]**.
 
-  **Position in the tree.** Along the modelled chain P-0126 → P-0123 → P-0092 → P-0057 → P-0056 → P-0054 → P-0017 → P-0008 → P-0004, Maria stands eight generations above Geraldo Paz Armond (P-0004) — his 6th-great-grandmother — and ten generations above the family's present living generation. The step P-0123 → P-0092 is **[COMPILED]** only and turns on the unresolved "two Gaspars" question; if P-0092 is the following generation, every degree here moves back one.
+  **Place in the archive [corrected 2026-10-10].** Maria is not a proven ancestor of the archive's owner. She belongs to the Terceira Armond trunk as the paternal grandmother of Gaspar de Souto Maior (P-0131), through her son Belchior da Ponte Cardoso (P-0123). Family tradition — Lacerda's 2010 thesis (PUB-0002, ff. 55–56), after a private 2008 typescript by Paulo Ribeiro Luz and the 1751 will it quotes — makes that Gaspar the father of Francisco Ferreira Armonde (d. 1751), patriarch of the Ferreira Armonde of Barbacena **[LEAD]**; that family would attach to the owner only through the unknown parents of Simplício José Ferreira Armond (P-0016) **[OPEN]**. Neither link is proven. Until 10 October 2026 the tree routed this line through Gaspar Ferreira (P-0092) of Vila Rica, on the Toledo side, and counted Maria as Geraldo Paz Armond's (P-0004) 6th-great-grandmother; that identification is rejected (owner's decision, 2026-10-10) — Gaspar de Souto Maior was baptised at São Sebastião on 23 December 1657 (PAR-0099) and died there on 2 December 1727 aged about seventy (PAR-0100), decades before Gaspar Ferreira's son was born at Vila Rica — and the degree is withdrawn.
 
   ## Standing and profession
 
@@ -109,6 +141,7 @@ profile: >-
   - **Her parentage is entirely unknown.** Vol. IX gives none, and the 2026-09-23 full-corpus search of the *Genealogias* found no entry for her.
   - **The Leonardes question [LEAD].** Whether she descends from the founding São Sebastião settler family of João Leonardes, o Velho, is untested. The compiled genealogies cover only the 1460s–1500s generation; the 17th-century Leonardes of São Sebastião would have to be traced through the parish registers themselves. **Do not assume the descent from the surname.**
   - **Her birth and marriage** are undocumented, and her baptism probably predates the surviving São Sebastião baptism book (which begins in 1611).
+  - **[RESOLVED 2026-10-10] The "two Gaspars" question — two men (owner's decision).** Her grandson Gaspar de Souto Maior of São Sebastião (P-0131) is not Gaspar Ferreira (P-0092) of Vila Rica, so this trunk no longer reaches the owner through the Toledo line. What stays open is the family tradition linking the trunk to the Ferreira Armonde of Barbacena **[LEAD]**, and that family's own link to the owner through the parents of Simplício José Ferreira Armond (P-0016) **[OPEN]**.
 
   ## Sources held (this repository)
 
@@ -123,7 +156,7 @@ profile: >-
 
   **Her lifetime spans the Habsburg period almost exactly [CONTEXTUAL].** Born probably in the 1580s or early 1590s, she lived her whole adult life under the union of the Portuguese and Spanish crowns (1580–1640), on the island that had resisted Philip II longest and was taken by invasion only in 1583. She saw the Restoration of 1640 and the eleven-month blockade that ended with the Castilian garrison of the Castelo de São Filipe capitulating on 4 March 1642, and died twelve years later.
 
-  **Not an emigrant, and not yet in an emigrant generation [CONTEXTUAL].** The Azorean exodus to Brazil became mass movement only with the Minas Gerais gold strike of 1697 — more than forty years after her death. The push conditions she lived with (a finite island, *morgadio* and primogeniture, seismic shock) were the same ones that would move her descendants; the pull had not yet appeared.
+  **Not an emigrant, and not yet in an emigrant generation [CONTEXTUAL].** The Azorean exodus to Brazil became mass movement only with the Minas Gerais gold strike of 1697 — more than forty years after her death. The push conditions she lived with (a finite island, *morgadio* and primogeniture, seismic shock) were the same ones that, if the family tradition holds **[LEAD]**, would move her descendants; the pull had not yet appeared.
 
   ## Where to go today
 
@@ -153,7 +186,7 @@ profile_pt: >-
   - **Ocupação:** nenhuma registada — como para praticamente todas as mulheres nestes livros.
   - **Sepultura:** dentro da Igreja Matriz de São Sebastião, "em sepultura sua junto ao arco da capela mor" **[PROVEN, PAR-0098]**.
 
-  **Posição na árvore.** Pela cadeia modelada P-0126 → P-0123 → P-0092 → P-0057 → P-0056 → P-0054 → P-0017 → P-0008 → P-0004, Maria está oito gerações acima de Geraldo Paz Armond (P-0004) — sua 6.ª bisavó (*6th-great-grandmother*) — e dez gerações acima da atual geração viva da família. O passo P-0123 → P-0092 é apenas **[COMPILED]** e depende da questão não resolvida dos "dois Gaspares"; se P-0092 for a geração seguinte, todos os graus aqui recuam um.
+  **Lugar no arquivo [corrigido em 2026-10-10].** Maria não é ancestral provada do proprietário do arquivo. Pertence ao tronco terceirense dos Armond como avó paterna de Gaspar de Souto Maior (P-0131), pelo filho Belchior da Ponte Cardoso (P-0123). A tradição familiar — a tese de Lacerda de 2010 (PUB-0002, ff. 55–56), na esteira de um dactiloscrito privado de 2008 de Paulo Ribeiro Luz e do testamento de 1751 que este cita — faz desse Gaspar o pai de Francisco Ferreira Armonde (f. 1751), patriarca dos Ferreira Armonde de Barbacena **[LEAD]**; essa família só se ligaria ao proprietário pelos pais desconhecidos de Simplício José Ferreira Armond (P-0016) **[OPEN]**. Nenhuma das duas ligações está provada. Até 10 de outubro de 2026 a árvore fazia passar esta linha por Gaspar Ferreira (P-0092), de Vila Rica, do lado Toledo, e contava Maria como 6.ª bisavó de Geraldo Paz Armond (P-0004); essa identificação foi rejeitada (decisão do proprietário, 2026-10-10) — Gaspar de Souto Maior foi baptizado em São Sebastião a 23 de dezembro de 1657 (PAR-0099) e ali faleceu a 2 de dezembro de 1727, com cerca de setenta anos (PAR-0100), décadas antes de o filho de Gaspar Ferreira nascer em Vila Rica — e o grau fica retirado.
 
   ## Posição social e profissão
 
@@ -186,6 +219,7 @@ profile_pt: >-
   - **A filiação é totalmente desconhecida.** O Vol. IX não a dá, e a busca integral de 2026-09-23 nas *Genealogias* não encontrou entrada para ela.
   - **A questão Leonardes [LEAD].** Se descende ou não da família fundadora de São Sebastião de João Leonardes, o Velho, está por testar. As genealogias compiladas só cobrem a geração de 1460–1500; os Leonardes seiscentistas de São Sebastião teriam de ser traçados nos próprios registos paroquiais. **Não assumir a descendência a partir do apelido.**
   - **O nascimento e o casamento** não estão documentados, e o baptismo é provavelmente anterior ao livro de baptismos de São Sebastião que sobrevive (que começa em 1611).
+  - **[RESOLVIDO 2026-10-10] A questão dos "dois Gaspares" — dois homens (decisão do proprietário).** O neto Gaspar de Souto Maior, de São Sebastião (P-0131), não é Gaspar Ferreira (P-0092), de Vila Rica, pelo que este tronco já não chega ao proprietário pela linha Toledo. Fica em aberto a tradição familiar que liga o tronco aos Ferreira Armonde de Barbacena **[LEAD]**, e a ligação dessa família ao proprietário pelos pais de Simplício José Ferreira Armond (P-0016) **[OPEN]**.
 
   ## Fontes disponíveis (neste repositório)
 
@@ -200,7 +234,7 @@ profile_pt: >-
 
   **A sua vida cobre quase exactamente o período habsburgo [CONTEXTUAL].** Nascida provavelmente na década de 1580 ou no início da de 1590, viveu toda a vida adulta sob a união das coroas portuguesa e espanhola (1580–1640), na ilha que mais tempo resistiu a Filipe II e só foi tomada por invasão em 1583. Viu a Restauração de 1640 e o cerco de onze meses que terminou com a capitulação da guarnição castelhana do Castelo de São Filipe a 4 de março de 1642, e morreu doze anos depois.
 
-  **Não emigrante, e ainda não de uma geração emigrante [CONTEXTUAL].** O êxodo açoriano para o Brasil só se tornou movimento de massa com o ouro das Minas Gerais, em 1697 — mais de quarenta anos depois da sua morte. As condições de pressão com que viveu (ilha finita, *morgadio* e primogenitura, choque sísmico) foram as mesmas que moveriam os descendentes; o ímã ainda não existia.
+  **Não emigrante, e ainda não de uma geração emigrante [CONTEXTUAL].** O êxodo açoriano para o Brasil só se tornou movimento de massa com o ouro das Minas Gerais, em 1697 — mais de quarenta anos depois da sua morte. As condições de pressão com que viveu (ilha finita, *morgadio* e primogenitura, choque sísmico) foram as mesmas que, se a tradição familiar se confirmar **[LEAD]**, moveriam os descendentes; o ímã ainda não existia.
 
   ## Onde ir hoje
 

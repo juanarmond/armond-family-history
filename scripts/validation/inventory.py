@@ -39,6 +39,32 @@ JPEG_START_OF_FRAME_MARKERS = {
 }
 
 
+def tiff_dimensions(content: bytes) -> tuple[int, int] | None:
+    """Width and height from the first image directory of a baseline TIFF (II or MM)."""
+
+    if len(content) < 8 or content[:4] not in {b"II*\x00", b"MM\x00*"}:
+        return None
+    order = "little" if content[:2] == b"II" else "big"
+    offset = int.from_bytes(content[4:8], order)
+    if offset + 2 > len(content):
+        return None
+    count = int.from_bytes(content[offset : offset + 2], order)
+    found: dict[int, int] = {}
+    for index in range(count):
+        entry = offset + 2 + index * 12
+        if entry + 12 > len(content):
+            return None
+        tag = int.from_bytes(content[entry : entry + 2], order)
+        field_type = int.from_bytes(content[entry + 2 : entry + 4], order)
+        if tag in (256, 257):
+            # SHORT (3) or LONG (4), held in the value field itself.
+            size = 2 if field_type == 3 else 4
+            found[tag] = int.from_bytes(content[entry + 8 : entry + 8 + size], order)
+    if 256 in found and 257 in found:
+        return found[256], found[257]
+    return None
+
+
 def image_dimensions(path: Path, media_type: str) -> tuple[int, int] | None:
     """Return encoded pixel dimensions for supported preservation images."""
 
@@ -50,6 +76,9 @@ def image_dimensions(path: Path, media_type: str) -> tuple[int, int] | None:
             int.from_bytes(content[16:20], "big"),
             int.from_bytes(content[20:24], "big"),
         )
+
+    if media_type == "image/tiff":
+        return tiff_dimensions(content)
 
     if media_type not in {"image/jpeg", "image/jpg"}:
         return None

@@ -5,6 +5,34 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-10-10 — Owner-authorised promotions; the two Gaspars separated; Rosa's grandparents modelled
+
+**Amends the entry below**, which treated the drop's images as "not delivered": the intake was corrected — scans are read
+by path in the retrieval repo (AGENTS.md intake block, now pasted from the synced Part A; the synced copy wins). The owner
+authorised the cycle's PROMOTION CHECKLIST, the 1905 Muriaé act and Gaspar's 1727 death record; dispositions and hashes are
+in the triage ledger.
+
+- **Terceira (owner decision):** Gaspar Ferreira (P-0092, Vila Rica, Toledo line) and Gaspar de Souto Maior (new P-0131,
+  Terceira) are two men. His own baptism, read on the BPAR 300-dpi original (PAR-0099), is 23 Dec 1657, parents Alferes
+  Belchior da Ponte Cardozo × Mariana Fag[un]des (E-0135 moved, re-dated, confirmed; F-0062 link confirmed); his godfather
+  was the cousin Gaspar de Souto Maior "f.º de Ba[…]z leonardes". His death (PAR-0100, reduced-resolution CDN copy):
+  São Sebastião, 2 Dec 1727, "casado com Maria Mendes", "de idade de setenta annos" (E-0137, strong-evidence). P-0092's
+  F-0062 links are rejected, kept with the reason; the eight Terceira people and P-0131 carry a `connection` note (family
+  tradition — the trunk the Barbacena Ferreira Armonde claim, reaching the owner only through Simplício's unknown parents).
+  The viewer no longer follows rejected links (lineage, biography) and shows that note instead of a relationship.
+- **Itaboraí:** PAR-0101 (Antonio, 21 Oct 1821) and PAR-0102 (João and Maria, 4 Mar 1841) name Rosa Eugenia de Lemos's four
+  grandparents — José Henriques de Mattos × Anna Joaquina (Maria) da Conceição, José Campello de Moraes "natural do Porto"
+  × Emerenciana Maria de Jesus — modelled as P-0132–P-0135 in F-0066/F-0067 at strong-evidence (the owner's STRONG, not
+  PROVEN). Conflict kept: 1841 calls all four "naturaes desta Freguezia de Itaborahy". Rosa as godmother 1858–59
+  (FAN-0014–0016; the last dated 18, not 17, Sep 1859).
+- **Bohrer:** the 23-page 1890 contas testamentárias case — pp. 3–4 were byte-identical to PRB-0005, so PRB-0005 now holds the
+  whole will certificate (pp. 3–10) and PRB-0012 the proceedings. The will is dated 27 Jun 1879 (not 1888), opened 6 Jul 1888
+  and registered 24 Jul 1888; Rosa "não saber escrever"; the estate was auctioned and absorbed by creditors and Rosa was
+  exonerated on 16 Sep 1890; the father's surname reads like "Bohrer" [uncertain]. Narratives corrected across 15 files.
+- **Not promoted:** Manuel's 1661 baptism (parents not modelled; needs Margarida's 1667 baptism). **Gaps:** images 682/688
+  of the 1905 act.
+- Engineering: TIFF dimensions in the validator; TIFF → JPEG rendering in the site build; `connection` person field.
+
 ## 2026-10-10 — Retrieval drop (cycle 2026-10-09): text-only value gate
 
 The drop carried findings, leads, plans and correspondence but no images (the handoff excludes them by

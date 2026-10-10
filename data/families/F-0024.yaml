@@ -17,6 +17,8 @@ partner_relationship:
       giving their own parents (F-0047, F-0048) — upgrading the union from the earlier
       will-inferred strong-evidence (PRB-0005) to confirmed. (The 1888 will spells the mother
       "Mayer"; the 1825 marriage and Francisco José's 1832 baptism, PAR-0054, both give "Moser".)
+      [corrected 2026-10-10: the will is dated 27 June 1879 and was opened and registered in
+      1888 (PRB-0005); it is not an "1888 will".]
 children:
 - person_id: P-0034
   parent_relationships:
@@ -46,6 +48,9 @@ notes:
     Bohrer line's immigrant boundary: Francisco José was "natural deste termo" (Nova
     Friburgo), so his parents Jacob and Catharina are the immigrant generation. Only
     Francisco José is modelled as a child here.
+    [corrected 2026-10-10: the will is dated 27 June 1879 and was opened and registered in
+    1888 (PRB-0005), not an "1888 will"; it states both parents "já fallecidos" by then. The
+    father's surname reads "Bohrer" on the image ("Bahrer" possible but not secure).]
 - text: >-
     Tier audit 2026-08-13: child edges P-0034←P-0050 and P-0034←P-0051 kept
     confirmed under the "coherent body of primary evidence" clause — Francisco
@@ -53,3 +58,5 @@ notes:
     ("filho legitimo"). The partner_relationship P-0050 × P-0051 is downgraded
     confirmed → strong-evidence: no marriage act is catalogued, so the couple's
     union is inferred from that same will.
+    [corrected 2026-10-10: the will is dated 27 June 1879 and was opened and registered in
+    1888 (PRB-0005); it is not an "1888 will".]

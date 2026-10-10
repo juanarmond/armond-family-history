@@ -551,6 +551,50 @@ test("lineage traces the direct line from the subject (P-0001) to each person", 
   assert.equal(data.people["P-0001"].lineage, null);
 });
 
+test("a rejected parentage edge neither links a person to the subject nor names a parent", () => {
+  const input = {
+    people: {
+      "P-0001": { id: "P-0001", preferred_name: "Subject", privacy: "deceased" },
+      "P-0002": { id: "P-0002", preferred_name: "Kept Parent", privacy: "deceased" },
+      "P-0009": { id: "P-0009", preferred_name: "Rejected Parent", privacy: "deceased" },
+    },
+    families: {
+      "F-1": {
+        id: "F-1",
+        partners: [{ person_id: "P-0002", role: "parent" }],
+        children: [{ person_id: "P-0001", parent_relationships: [{ parent_id: "P-0002", relationship_type: "biological", status: "confirmed", source_ids: [] }] }],
+      },
+      "F-2": {
+        id: "F-2",
+        partners: [{ person_id: "P-0009", role: "parent" }],
+        children: [{ person_id: "P-0002", parent_relationships: [{ parent_id: "P-0009", relationship_type: "biological", status: "rejected", source_ids: [] }] }],
+      },
+    },
+    events: {},
+    places: {},
+    sources: {},
+    fan: {},
+  };
+  const data = projectTreeData(input);
+  assert.deepEqual(data.people["P-0002"].lineage.ids, ["P-0001", "P-0002"]);
+  assert.equal(data.people["P-0009"].lineage, null, "a rejected edge is not a path to the subject");
+  assert.ok(!JSON.stringify(data.people["P-0002"].biography || {}).includes("Rejected Parent"));
+  assert.equal(data.people["P-0002"].connection, null, "a connected person shows its relationship, not a connection note");
+});
+
+test("a connection note shows only for someone the tree does not connect", () => {
+  const input = {
+    people: {
+      "P-0001": { id: "P-0001", preferred_name: "Subject", privacy: "deceased", connection: "ignored" },
+      "P-0007": { id: "P-0007", preferred_name: "Trunk Ancestor", privacy: "deceased", connection: "Family tradition.", connection_pt: "Tradição de família." },
+    },
+    families: {}, events: {}, places: {}, sources: {}, fan: {},
+  };
+  const data = projectTreeData(input);
+  assert.equal(data.people["P-0007"].connection, "Family tradition.");
+  assert.equal(data.people["P-0007"].connectionPt, "Tradição de família.");
+});
+
 test("a widow does not inherit her late spouse's death (own events = principal, or spouse/partner in a marriage)", () => {
   // Reproduces the Geraldo/Cidalia bug: a person named only as `spouse` in their partner's
   // death record must not be shown as having died that year, nor as an event on their own

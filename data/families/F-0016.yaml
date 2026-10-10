@@ -20,6 +20,10 @@ partner_relationship:
       testimony, so strong-evidence rather than confirmed. Francisco José's own 1888
       will (PRB-0005) additionally confirms he was "casado á face da Igreja com Roza
       Eugenia de Lemos".
+      [corrected 2026-10-10: the 1879 registration was entered in the Itaboraí Matriz
+      marriage book (fl. 177), not Nova Friburgo's (PAR-0002). The will is a closed will
+      dated 27 June 1879, opened and registered in July 1888, not an "1888 will"; re-read
+      whole, it reads "casado á face da Igreja com Rosa Eugenia de Lemos Bohrer" (PRB-0005).]
 children:
 - person_id: P-0030
   parent_relationships:
@@ -36,6 +40,8 @@ children:
         children) and independently by Joaquim's own 1884 marriage (PAR-0056), which names his
         parents as Francisco José Bohrer × Roza Eugenia de Lemos; previously strong-evidence via
         the grandchild's 1890 birth (CIV-0019).
+        [corrected 2026-10-10: the will is dated 27 June 1879 and was opened and registered in
+        1888 (PRB-0005); it is not an "1888 will".]
   - parent_id: P-0035
     relationship_type: biological
     status: confirmed
@@ -57,6 +63,8 @@ documented_children:
     "Laura Maria Bohrer", 18, when she married Bernardo Nunes Pinto on 24 May 1884 at Nova
     Friburgo (PAR-0056, nº 25, same opening as her brother Joaquim's marriage) — so born ~1866.
     A sister of Joaquim José Bohrer (P-0030). Deceased.
+    [corrected 2026-10-10: the will is dated 27 June 1879 (opened and registered 1888), not
+    "1888"; it calls all four heirs "de menor idade" (PRB-0005).]
 - name: Guilherme Samuel Bohrer
   source_ids:
   - CIV-0019
@@ -66,6 +74,8 @@ documented_children:
     Friburgo; declared his nephew Alberto's 1890 birth (CIV-0019) in the father's
     absence, and named "Guilherme" among the four heirs in his father's 1888 will
     (PRB-0005).
+    [corrected 2026-10-10: the will is dated 27 June 1879 (opened and registered 1888), not
+    "1888"; it calls all four heirs "de menor idade" (PRB-0005).]
 - name: Fernando Bohrer
   source_ids:
   - PRB-0005
@@ -73,6 +83,9 @@ documented_children:
     Son of Francisco José Bohrer and Rosa Eugenia de Lemos, a minor in 1888; named
     "Fernando" (the youngest) among the four children/heirs in his father's 1888
     will (PRB-0005). The will gives only the forename; surname taken from the family.
+    [corrected 2026-10-10: the will is dated 27 June 1879 (opened and registered 1888), not
+    "1888", and it records him as a minor ("todos de menor idade") in 1879; his minority in
+    1888 is not stated (PRB-0005).]
 event_ids:
 - E-0026
 notes:
@@ -82,7 +95,11 @@ notes:
     (PRB-0005), which names all four children (Joaquim, Laura, Guilherme, Fernando)
     as sole heirs; it is corroborated by Alberto Bohrer's 1890 birth (CIV-0019) and
     the couple's 1879 marriage (PAR-0002).
+    [corrected 2026-10-10: the will is dated 27 June 1879 and was opened and registered in
+    1888 (PRB-0005); it is not an "1888 will".]
 - text: >-
     The 1888 will also names Rosa's brother "Candido Pereira de Lemos" as Francisco
     José's cunhado and second-named executor — a lead for the (still open) Lemos
     maternal line of Rosa Eugenia de Lemos (P-0035); not modelled as its own entity.
+    [corrected 2026-10-10: the will is dated 27 June 1879 (opened and registered 1888), so
+    Candido was alive and Francisco José's cunhado in 1879 (PRB-0005).]

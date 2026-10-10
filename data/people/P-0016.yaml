@@ -46,6 +46,12 @@ fan_references:
   note: >-
     Signed an 1875 Muriaé procuração on behalf of the illiterate grantor (FAN
     context, not a record about the family).
+- fan_id: FAN-0017
+  role: testemunha (witness)
+  note: >-
+    One of five instrumentary witnesses to the approval of Antonio Moreira de Carvalho's
+    sealed will, S. Paulo do Muriaé, 15 April 1905 (in a 1919 copy); stated "natural de
+    Barbacena, commerciante" (FAN context; identity strong, not proven).
 notes:
 - text: Ahnentafel position 16.
   text_pt: Posição 16 no Ahnentafel.
@@ -72,6 +78,39 @@ notes:
     como louvado juramentado ali em 27 de julho de 1905 —, mas o filho Simplício Filho teria
     cerca de 18 anos. Quando chegar, catalogar como referência FAN (papel
     de testemunha) e registrar nesta pessoa a naturalidade e a ocupação declaradas, citando-a.
+- text: >-
+    2026-10-10 — the act is now held as FAN-0017 (all five images, DGS 108401115 imgs 683–687,
+    read in full from the scans; FAN context, not a source). The images confirm the LEAD's
+    reading of his clause exactly — "São testemunhas presentes: … Simplicio José Ferreira
+    Armond, natural de Barbacena, commerciante; …", the five witnesses being "todos residentes
+    nesta cidade" (pp. 3–4) — and confirm that the tabelião's ressalva concerns another witness
+    only: "reclamou a testemunha Dr. João Chrysostomo, contra a sua naturalidade declarada, pois
+    é nascido na cidade de Santa Barbara do Matto Dentro, deste Estado" (p. 4). His "natural de
+    Barbacena" was read aloud and stood. The corrections to the retrieval-side reading concern
+    other witnesses (see FAN-0017 notes). Here he is not styled "Capitão" (nor "Filho"), and his
+    signature on these pages is the copyist's, not an autograph. Because FAN-0017 is context,
+    not evidence, it sets no structured birth place and no `occupations` entry (which must cite
+    a source) on this person — a deliberate omission; the stated naturalidade and "commerciante"
+    are carried in the profile as FAN context. Identity stays strong, not proven: the son
+    Simplício Filho (b. c.1887, a tree lead) is not excluded. The LEAD note above is superseded
+    on delivery and kept as research history.
+  text_pt: >-
+    2026-10-10 — o auto está agora guardado como FAN-0017 (as cinco imagens, DGS 108401115
+    imgs 683–687, lidas por inteiro a partir dos scans; contexto FAN, não fonte). As imagens
+    confirmam exatamente a leitura da PISTA para a sua cláusula — "São testemunhas presentes: …
+    Simplicio José Ferreira Armond, natural de Barbacena, commerciante; …", sendo as cinco
+    testemunhas "todos residentes nesta cidade" (pp. 3–4) — e confirmam que a ressalva do
+    tabelião diz respeito apenas a outra testemunha: "reclamou a testemunha Dr. João
+    Chrysostomo, contra a sua naturalidade declarada, pois é nascido na cidade de Santa Barbara
+    do Matto Dentro, deste Estado" (p. 4). O seu "natural de Barbacena" foi lido em voz alta e
+    prevaleceu. As correções à leitura da pesquisa de recuperação dizem respeito a outras
+    testemunhas (ver notas de FAN-0017). Aqui ele não é qualificado como "Capitão" (nem
+    "Filho"), e a sua assinatura nestas páginas é do copista, não autógrafa. Como FAN-0017 é
+    contexto, não evidência, não define nesta pessoa local de nascimento estruturado nem entrada
+    em `occupations` (que exige citar uma fonte) — omissão deliberada; a naturalidade declarada
+    e o "commerciante" constam do perfil como contexto FAN. A identidade continua forte, não
+    provada: o filho Simplício Filho (n. c.1887, pista de árvore) não está excluído. A nota de
+    PISTA acima fica superada com a entrega e é mantida como histórico de pesquisa.
 - text: >-
     1881 Leopoldina lottery consortium (NWS-0004): "Simplicio José Ferreira Armond"
     is listed among the members of a "Grande Loteria da Côrte" ticket consortium
@@ -183,6 +222,10 @@ notes:
     Armonde), his own Armond line would descend from Belchior × Mariana of Terceira — the
     couple already modelled in this tree as F-0062, where they now sit, on a weakened compiled
     identification, above his wife Eliza's Toledo line through Gaspar Ferreira (P-0092).
+    [Corrected 2026-10-10: that join is rejected — Gaspar Ferreira (P-0092) and Belchior ×
+    Mariana's son Gaspar de Souto Maior (P-0131) were two different men — so F-0062 no longer
+    sits above Eliza's line, and this route through Simplício is the only way the Terceira
+    trunk could reach the owner.]
     Neither condition is met: the grandparents rest on a typescript and a list post, not a
     parish act, and nothing yet links Simplício to the Barbacena trunk. His parents remain
     UNKNOWN; no status, link or name was changed.
@@ -199,7 +242,10 @@ notes:
     Armonde de Barbacena), sua própria linha Armond descenderia de Belchior × Mariana, da
     Terceira — o casal já modelado nesta árvore como F-0062, onde hoje está, por uma
     identificação compilada enfraquecida, acima da linha Toledo de sua mulher Eliza, por meio de
-    Gaspar Ferreira (P-0092). Nenhuma das condições está satisfeita: os avós assentam num
+    Gaspar Ferreira (P-0092). [Corrigido em 2026-10-10: essa junção foi rejeitada — Gaspar
+    Ferreira (P-0092) e o filho de Belchior × Mariana, Gaspar de Souto Maior (P-0131), eram dois
+    homens diferentes —, de modo que F-0062 já não está acima da linha de Eliza, e este caminho
+    por Simplício é a única via pela qual o tronco da Terceira poderia chegar ao dono.] Nenhuma das condições está satisfeita: os avós assentam num
     material digitado e numa mensagem de lista, não num assento paroquial, e nada ainda liga
     Simplício ao tronco de Barbacena. Seus pais continuam DESCONHECIDOS; nenhum status, vínculo
     ou nome foi alterado.
@@ -234,12 +280,19 @@ profile: >-
   - **Birth:** c.1845–1853 [INFERRED] — no baptism located; he was already an adult,
   married, court-appointed official by the mid-1870s. Treat the upper bound as soft:
   "c.1853" partly echoes the age of the Toledo namesake (14 in 1867, PRB-0008 / PRB-0009),
-  so it is not independent evidence about this man [INFERRED]. **Birthplace [LEAD — reported
-  2026-10-09; the image is not yet held here]:** a will-approval of 15 April 1905 at S. Paulo
-  do Muriaé, copied in 1919, lists among its witnesses "Simplicio José Ferreira Armond, natural
-  de Barbacena, commerciante" — the first record known to state where he was born. "Natural de"
-  may mean the município or termo, which in the 1840s still reached deep into the Mata
-  [CONTEXTUAL]; and his son Simplício Filho (b. c.1887, a tree lead) would have been 18.
+  so it is not independent evidence about this man [INFERRED]. **Birthplace [FAN context —
+  FAN-0017, read from the held images 2026-10-10]:** the auto de aprovação of Antonio Moreira de
+  Carvalho's sealed will, S. Paulo do Muriaé, 15 April 1905 (held in a copy made at or after the
+  will's opening in March 1919), lists among its five witnesses, "todos residentes nesta
+  cidade", "Simplicio José Ferreira Armond, natural de Barbacena, commerciante" — the first
+  record known to state where a man of his name was born. When the act was read aloud another
+  witness objected to his own stated naturalidade and the tabelião entered a ressalva;
+  Simplício's stood unchallenged. Being a FAN record — context, not evidence — it sets no
+  structured birthplace here, and identity is strong, not proven: his son Simplício Filho
+  (b. c.1887, a tree lead) would have been about 18, though the witness is not styled "Filho".
+  "Natural de" may mean the município or termo, which in the 1840s still reached deep into the
+  Mata [CONTEXTUAL]. (Until 2026-10-10 this line was a LEAD reported 2026-10-09 from the
+  retrieval side; the held images confirm the clause word for word.)
 
   - **Marriage:** married Eliza Balbina de Toledo (P-0017), c.1868–1872, at Bom Jesus do
   Rio Pardo (Argirita) [LEAD] — implied by downstream records; the marriage act is not yet
@@ -316,6 +369,12 @@ profile: >-
   see Interesting facts). No commission is held, so do not present it as an office he is
   shown to have held [OPEN].
 
+  - **Entered "commerciante" in 1905** [FAN context — FAN-0017] — witnessing the approval of a
+  third party's sealed will at S. Paulo do Muriaé on 15 April 1905, he is qualified "natural de
+  Barbacena, commerciante": the first record held that gives an occupation for a man of his
+  name. It is the tabelião's qualification in a FAN record, not a source, so it is not entered
+  among his structured occupations; what trade it covered is not stated [OPEN].
+
   Documented span of activity: c.1875–1921, across Leopoldina, Muriaé and Argirita
   (Zona da Mata Mineira).
 
@@ -336,7 +395,9 @@ profile: >-
   Outside the Toledo circle, Muriaé court and notarial papers place him among the comarca's
   trusted men from 1875 to 1913 — signing for an illiterate grantor (FAN-0001), a party to an
   1889 escritura (FAN-0003), louvado, arbitrador, procurador and witness (FAN-0004 to
-  FAN-0009) — all FAN context, not records about his family.
+  FAN-0009), and one of five instrumentary witnesses to a sealed will's approval in 1905 beside
+  an advogado, a solicitador, a Portuguese-born merchant styled Capitão and a typographer
+  (FAN-0017) — all FAN context, not records about his family.
 
   ## What we can extrapolate
 
@@ -458,8 +519,9 @@ profile: >-
   - His parents — the decisive records are the Argirita marriage (c.1868–72; see Identity)
   and his own death record, whose filiation would answer it. [OPEN]
 
-  - **The retrieval round of 2026-10-09 (all leads; no image yet held here):** (1) the
-  1905 "natural de Barbacena" (see Identity) moves the baptism search to the Barbacena
+  - **The retrieval round of 2026-10-09 (leads; the 1905 act of item (1) is now held as
+  FAN-0017, FAN context, since 2026-10-10):** (1) the 1905 "natural de Barbacena"
+  (FAN-0017; see Identity) moves the baptism search to the Barbacena
   parish books; (2) the candidate Simplício José Ferreira da Fonseca (b. c.1813, of Tombos
   and São José do Paraíba) is reported excluded as a legitimate father — neither his first
   wife's 1865 inventário nor his own 1894 one lists a Simplício Armond; (3) the Barbacena
@@ -519,10 +581,12 @@ profile: >-
   Francisco Ferreira Armonde (d. 1751), the son of Gaspar de Souto Maior and Margarida das
   Candeyas Machado and a paternal grandson of Belchior da Ponte Cardoso and Mariana Fagundes
   of Terceira; the Armonde name, it says, came from his maternal grandfather, a Capitão
-  Francisco Ferreira Ermonde or Armonde. Belchior and Mariana are already modelled in this
-  tree (F-0062), above Eliza's Toledo line through the weakened Gaspar Ferreira
-  identification (P-0092). So if both the Lacerda/Luz genealogy and the Piacatuba–Barbacena
-  bridge hold, Simplício's own line would reach the same Terceira couple. Two unproven links
+  Francisco Ferreira Ermonde or Armonde. Belchior and Mariana are modelled in this archive
+  (F-0062) as the Terceira trunk, with their son Gaspar de Souto Maior (P-0131); since
+  2026-10-10 they no longer hang above Eliza's Toledo line, because Gaspar Ferreira (P-0092) was
+  a different man. So this is the only route by which they could be the owner's ancestors: if
+  both the Lacerda/Luz genealogy and the Piacatuba–Barbacena bridge hold, Simplício's own line
+  would reach that Terceira couple. Two unproven links
   stand in the way — an unpublished typescript genealogy not seen here, whose parish acts are
   not cited in the thesis, and a bridge no record yet supports — so this changes no conclusion; it raises the stakes of the Barbacena-trunk
   test above.
@@ -572,7 +636,9 @@ profile: >-
   (1882–83 D. Rita Maria Ferreira account — payee) · FAN-0003 (1889 Muriaé escritura —
   party) · FAN-0004 (1900 — louvado, "Cap.m") · FAN-0005 (c.1906–07 — suplente de
   arbitrador, "Capitão") · FAN-0006 (1907 — procurador) · FAN-0007 (1910 — condômino of the
-  fazenda Vae e Volta) · FAN-0008 (1913 — witness) · FAN-0009 (undated — proposed louvado).
+  fazenda Vae e Volta) · FAN-0008 (1913 — witness) · FAN-0009 (undated — proposed louvado) ·
+  FAN-0017 (1905, in a copy of 1919 or later — witness to a will-approval; "natural de
+  Barbacena, commerciante").
 
   - GOV-0009 · GOV-0010 · GOV-0011 (APM Secretaria de Governo sesmaria grants and
   complaint, 1791–1805, Barbacena — context_only; document the wider Armond trunk active
@@ -591,7 +657,8 @@ profile: >-
   Rio market. No move out of the Mata is documented for him; his court roles are
   those of an established man of that booming frontier society. [CONTEXTUAL] The origin
   parish of his own Armond branch — whether the family came east from Barbacena — remains
-  the open gap; the three APM sesmaria documents (GOV-0009/0010/0011) establish Francisco,
+  the open gap, though a 1905 FAN record now states him "natural de Barbacena" (FAN-0017 —
+  context, not evidence; see Identity) and no baptism is yet located; the three APM sesmaria documents (GOV-0009/0010/0011) establish Francisco,
   José and Marianno as separately named adjacent landowners in Barbacena c.1791–1805,
   narrowing (but not yet resolving) that question. The live leads now sit in the Meia Pataca /
   Cataguases orbit and in the Barbacena trunk (see Open questions).
@@ -637,12 +704,20 @@ profile_pt: >-
   casado e oficial nomeado pela justiça em meados da década de 1870. Trate o limite
   superior como frágil: "c.1853" ecoa em parte a idade do homônimo Toledo (14 anos em 1867,
   PRB-0008 / PRB-0009), e portanto não é evidência independente sobre este homem
-  [INFERRED]. **Naturalidade [LEAD — informada em 2026-10-09; a imagem ainda não está
-  aqui]:** um auto de aprovação de testamento de 15 de abril de 1905, em S. Paulo do Muriaé,
-  copiado em 1919, lista entre as testemunhas "Simplicio José Ferreira Armond, natural de
-  Barbacena, commerciante" — o primeiro registro conhecido que diz onde ele nasceu. "Natural
-  de" pode designar o município ou termo, que na década de 1840 ainda se estendia fundo pela
-  Mata [CONTEXTUAL]; e o filho Simplício Filho (n. c.1887, pista de árvore) teria 18 anos.
+  [INFERRED]. **Naturalidade [contexto FAN — FAN-0017, lida nas imagens guardadas em
+  2026-10-10]:** o auto de aprovação do testamento cerrado de Antonio Moreira de Carvalho, S.
+  Paulo do Muriaé, 15 de abril de 1905 (guardado numa cópia feita na abertura do testamento, em
+  março de 1919, ou depois), lista entre as suas cinco testemunhas, "todos residentes nesta
+  cidade", "Simplicio José Ferreira Armond, natural de Barbacena, commerciante" — o primeiro
+  registro conhecido que diz onde nasceu um homem com o seu nome. Na leitura do auto, outra
+  testemunha reclamou contra a própria naturalidade declarada e o tabelião lançou uma ressalva;
+  a de Simplício ficou sem reclamação. Por ser um registro FAN — contexto, não evidência — não
+  define aqui naturalidade estruturada, e a identidade é forte, não provada: o filho Simplício
+  Filho (n. c.1887, pista de árvore) teria cerca de 18 anos, embora a testemunha não seja
+  qualificada como "Filho". "Natural de" pode designar o município ou termo, que na década de
+  1840 ainda se estendia fundo pela Mata [CONTEXTUAL]. (Até 2026-10-10 esta linha era uma PISTA
+  informada em 2026-10-09 pela pesquisa de recuperação; as imagens guardadas confirmam a
+  cláusula palavra por palavra.)
 
   - **Casamento:** casou-se com Eliza Balbina de Toledo (P-0017), c.1868–1872, em Bom
   Jesus do Rio Pardo (Argirita) [LEAD] — deduzido de registros posteriores; o assento de
@@ -723,6 +798,13 @@ profile_pt: >-
   FAN-0005 — ver Fatos interessantes). Nenhuma patente foi localizada, então não o apresente
   como cargo que se mostre ter ocupado [OPEN].
 
+  - **Qualificado como "commerciante" em 1905** [contexto FAN — FAN-0017] — ao testemunhar a
+  aprovação do testamento cerrado de um terceiro em S. Paulo do Muriaé, a 15 de abril de 1905,
+  é qualificado "natural de Barbacena, commerciante": o primeiro registro guardado que dá uma
+  ocupação para um homem com o seu nome. É a qualificação do tabelião num registro FAN, não uma
+  fonte, de modo que não entra entre as suas ocupações estruturadas; que comércio era, não se
+  diz [OPEN].
+
   Período documentado de atividade: c.1875–1921, entre Leopoldina, Muriaé e Argirita
   (Zona da Mata Mineira).
 
@@ -743,7 +825,10 @@ profile_pt: >-
   Fora do círculo Toledo, papéis judiciais e notariais de Muriaé o situam entre os homens de
   confiança da comarca de 1875 a 1913 — assinando a rogo de uma outorgante analfabeta
   (FAN-0001), parte numa escritura de 1889 (FAN-0003), louvado, arbitrador, procurador e
-  testemunha (FAN-0004 a FAN-0009) — tudo contexto FAN, não registros sobre sua família.
+  testemunha (FAN-0004 a FAN-0009), e uma das cinco testemunhas instrumentárias da aprovação
+  de um testamento cerrado em 1905, ao lado de um advogado, um solicitador, um comerciante
+  natural de Portugal tratado por Capitão e um tipógrafo (FAN-0017) — tudo contexto FAN, não
+  registros sobre sua família.
 
   ## O que podemos extrapolar
 
@@ -866,8 +951,9 @@ profile_pt: >-
   - Seus pais — os registros decisivos são o casamento de Argirita (c.1868–72; ver
   Identidade) e seu próprio registro de óbito, cuja filiação responderia à questão. [OPEN]
 
-  - **A rodada de pesquisa de 2026-10-09 (todas pistas; nenhuma imagem ainda aqui):** (1) o
-  "natural de Barbacena" de 1905 (ver Identidade) leva a busca do batismo aos livros
+  - **A rodada de pesquisa de 2026-10-09 (pistas; o auto de 1905 do item (1) está agora
+  guardado como FAN-0017, contexto FAN, desde 2026-10-10):** (1) o "natural de Barbacena" de
+  1905 (FAN-0017; ver Identidade) leva a busca do batismo aos livros
   paroquiais de Barbacena; (2) o candidato Simplício José Ferreira da Fonseca (n. c.1813, de
   Tombos e São José do Paraíba) é dado como excluído como pai legítimo — nem o inventário de
   1865 da primeira mulher nem o dele, de 1894, listam um Simplício Armond; (3) os batismos de
@@ -929,11 +1015,12 @@ profile_pt: >-
   Luz, faz do patriarca do tronco, Francisco Ferreira Armonde (f. 1751), filho de Gaspar de
   Souto Maior e de Margarida das Candeyas Machado e neto paterno de Belchior da Ponte Cardoso
   e de Mariana Fagundes, da Terceira; o nome Armonde, diz ela, veio de seu avô materno, um
-  Capitão Francisco Ferreira Ermonde ou Armonde. Belchior e Mariana já estão modelados nesta
-  árvore (F-0062), acima da linha Toledo de Eliza, por meio da identificação enfraquecida de
-  Gaspar Ferreira (P-0092). Assim, se a genealogia de Lacerda/Luz e a ponte
-  Piacatuba–Barbacena se sustentarem, a própria linha de Simplício chegaria ao mesmo casal
-  terceirense. Dois elos não provados estão no caminho — uma genealogia digitada e inédita, não
+  Capitão Francisco Ferreira Ermonde ou Armonde. Belchior e Mariana estão modelados neste
+  arquivo (F-0062) como o tronco da Terceira, com o filho Gaspar de Souto Maior (P-0131); desde
+  2026-10-10 já não ficam acima da linha Toledo de Eliza, porque Gaspar Ferreira (P-0092) era
+  outro homem. Esta é, portanto, a única via pela qual poderiam ser antepassados do dono: se a
+  genealogia de Lacerda/Luz e a ponte Piacatuba–Barbacena se sustentarem, a própria linha de
+  Simplício chegaria a esse casal terceirense. Dois elos não provados estão no caminho — uma genealogia digitada e inédita, não
   vista aqui, cujos assentos paroquiais a tese não cita, e uma ponte que nenhum registro ainda
   sustenta —, de modo que isto não muda
   nenhuma conclusão; eleva o que está em jogo no teste do tronco de Barbacena acima.
@@ -985,7 +1072,8 @@ profile_pt: >-
   1889 em Muriaé — parte) · FAN-0004 (1900 — louvado, "Cap.m") · FAN-0005 (c.1906–07 —
   suplente de arbitrador, "Capitão") · FAN-0006 (1907 — procurador) · FAN-0007 (1910 —
   condômino da fazenda Vae e Volta) · FAN-0008 (1913 — testemunha) · FAN-0009 (sem data —
-  louvado proposto).
+  louvado proposto) · FAN-0017 (1905, em cópia de 1919 ou posterior — testemunha de uma
+  aprovação de testamento; "natural de Barbacena, commerciante").
 
   - GOV-0009 · GOV-0010 · GOV-0011 (APM Secretaria de Governo, sesmarias e queixa,
   1791–1805, Barbacena — apenas contexto; documentam o tronco Armond mais amplo ativo em
@@ -1004,7 +1092,9 @@ profile_pt: >-
   terras férteis próximas do mercado do Rio. Nenhuma saída da Mata está documentada para
   ele; seus cargos judiciais são os de um homem estabelecido naquela sociedade de fronteira
   em expansão. [CONTEXTUAL] A paróquia de origem de seu próprio ramo Armond — se a família
-  veio de Barbacena para leste — permanece a lacuna em aberto; os três documentos da APM
+  veio de Barbacena para leste — permanece a lacuna em aberto, embora um registro FAN de 1905
+  agora o declare "natural de Barbacena" (FAN-0017 — contexto, não evidência; ver Identidade) e
+  nenhum batismo tenha sido ainda localizado; os três documentos da APM
   Secretaria de Governo (GOV-0009/0010/0011) estabelecem Francisco, José e Marianno como
   proprietários adjacentes distintos em Barbacena c.1791–1805, delimitando (mas ainda não
   resolvendo) essa questão. As pistas vivas estão agora na órbita do Meia Pataca /

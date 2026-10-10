@@ -66,6 +66,8 @@ These rules govern every change to the viewer (`family-tree-viewer/`) and its re
   tidy columns down a list. Never "…" on a name. Headers (the person page title, the person-view
   card) keep the tag beside the dates, and What's new keeps its tags in the entry's meta line.
 - **Family tag** `branchTagsFor()`; **evidence badge** `createBadge()` — never mix them.
+- **Connection note:** a person the tree does not connect to the owner shows "Connection to {name} — not proven"
+  with their `connection` text (and "Family tradition — not a proven ancestor" on the person view), never a relationship term.
 - **"These families · N / Everything · M"** — `scopeSwitch()`, for any list that can be scoped.
 - **Buttons:** primary green full-width pill (`.branch-cta`); secondary outlined pill
   (`.update-chip`, `.home-browse`); round **?** in the bars.

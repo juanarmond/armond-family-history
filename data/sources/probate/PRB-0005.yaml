@@ -1,114 +1,261 @@
 schema_version: 1
 id: PRB-0005
 title: >-
-  Registered will (testamento) of Francisco José Bohrer (registered 1888,
-  Provedoria de Nova Friburgo), declaring his parents Jacob Bahrer and Catharina
-  Mayer, his wife and his four children
+  Certified copy (27 January 1890) of the registered closed will of Francisco José Bohrer,
+  made 27 June 1879 and opened at his death on 6 July 1888 (Provedoria de Nova Friburgo,
+  Livro de Registro de Testamentos nº 9, fl. 8v), declaring his parents Jacob Bohrer and
+  Catharina Mayer, his wife and his four minor children
 title_pt: >-
-  Testamento registrado de Francisco José Bohrer (registrado em 1888, Provedoria de
-  Nova Friburgo), que declara seus pais Jacob Bahrer e Catharina Mayer, sua esposa e
-  seus quatro filhos
-record_type: Registered will (registro de testamento, certified copy)
+  Certidão (27 de janeiro de 1890) do testamento cerrado registrado de Francisco José
+  Bohrer, feito em 27 de junho de 1879 e aberto à sua morte em 6 de julho de 1888
+  (Provedoria de Nova Friburgo, Livro de Registro de Testamentos nº 9, fl. 8v), que declara
+  seus pais Jacob Bohrer e Catharina Mayer, sua esposa e seus quatro filhos menores
+record_type: Certified copy (certidão, 1890) of a registered closed will (testamento cerrado, 1879) with its auto de approvação, opening and registration (1888)
 record_category: court_or_probate
 source_form: original
 information_quality: primary
 evidence_type: direct
 usage: evidence
 event_date:
-  kind: year
-  year: 1888
+  kind: exact
+  value: "1879-06-27"
   original_text: >-
-    Registered in the Livro de Registro de Testamentos nº 9, fl. 8v, Provedoria de
-    Nova Friburgo; the approval/registration year reads 1888 (the exact day and
-    month are only partly legible in the certified copy).
+    The will: "Nova-Friburgo, vinte e sete de Junho de mil oitocentos e setenta e nove"; the
+    auto de approvação was made the same day "nesta Villa de Nova-Friburgo … em meu
+    cartorio". Opened 6 July 1888, cumpra-se 7 July 1888, registered 24 July 1888 (see
+    registration_date); this certified copy was made 27 January 1890.
 event_place_text: >-
-  Cidade de Nova Friburgo, Província (later Estado) do Rio de Janeiro, Brazil
+  Villa (from 1890 Cidade) de Nova Friburgo, Província (later Estado) do Rio de Janeiro,
+  Brazil
+registration_date:
+  kind: exact
+  value: "1888-07-24"
+  original_text: >-
+    Registered in the Livro de Registro de Testamentos nº 9, fl. 8v, Provedoria de Nova
+    Friburgo ("que aqui registei aos vinte e quatro de Julho de mil oitocentos e oitenta e
+    oito"), and the same day at the Collectoria Provincial de Nova Friburgo, nº 122, fl. 10.
+    The certified copy closes "aos vinte sete dias do mez de Janeiro de mil oitocentos e
+    noventa".
 repository:
   name: FamilySearch (Brazil, Rio de Janeiro, court and notarial/probate records)
   archive_or_registry: >-
-    Provedoria de Nova Friburgo (Juízo de Órfãos e Provedoria), Rio de Janeiro —
-    certified copy by the escrivão Capitão João José Kramith
+    Juízo da Provedoria de Nova Friburgo, 2º Ofício — certified copy (certidão) by the
+    escrivão Capitão João José Zamith [surname uncertain: Zamith / Kamith / Hamith; formerly
+    read "Kramith"]
   collection: >-
-    Brazil, Rio de Janeiro, "Legal" records (TJERJ fund); FamilySearch DGS
-    105875530
+    FamilySearch collection M9J1-SYF "Brazil, Rio de Janeiro, Legal" (court records of the
+    Tribunal de Justiça do Estado do Rio de Janeiro fund); DGS 105875530 (TJERJ Caixa
+    15764862)
   book: "Livro de Registro de Testamentos nº 9, fl. 8 verso"
   catalogue_reference: >-
-    FamilySearch DGS 105875530, images ~867-869 (Provedoria de Nova Friburgo, Livro
-    de Testamentos nº 9, fl. 8v). Located via the FamilySearch retrieval and
-    delivered through the research/from-retrieval/ sync; read and promoted 1 August
-    2026. FamilySearch attaches this image to Rosa Eugenia de Lemos as a "1888
-    inventário", but it is in fact Francisco José Bohrer's own registered will.
+    The certidão forms fl. 3–6v (case pages 3–10) of the 1890 Juízo da Provedoria case of
+    contas testamentárias of Francisco José Bohrer's estate, catalogued as PRB-0012 (DGS
+    105875530 _00866–_00888 per the retrieval side's receipt; these eight pages would be
+    about _00868–_00875 if the case images run consecutively [inferred]). The first two
+    pages were located through the FamilySearch retrieval and promoted 1 August 2026
+    (FamilySearch attaches that image to Rosa Eugenia de Lemos as a "1888 inventário");
+    pages 3–8 were added from the whole case and the record re-read on 10 October 2026.
   repository_path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p1.jpg
-access_date: "2026-08-01"
+access_date: "2026-10-10"
 language: pt-BR
+reading_reliability: complete
 transcription: >-
-  [Certidão do escrivão da Provedoria de Nova Friburgo. Duas imagens (…-p1.jpg,
-  …-p2.jpg); no alto da p1 o fólio "3".]
+  [Certified copy (certidão) made on 27 January 1890 by the escrivão of the Provedoria de
+  Nova Friburgo from the Livro de Registro de Testamentos nº 9, fl. 8v: the closed will of
+  Francisco José Bohrer dated 27 June 1879, its auto de approvação of the same day, its
+  opening on 6 July 1888, the order to comply and register (7 July 1888), the summons and
+  acceptance of the first testamenteira and the registrations (24 July 1888). Eight page
+  images, …-p1.jpg to …-p8.jpg = pp. 3–10 (fl. 3–6v) of the 1890 contas testamentárias case,
+  PRB-0012. Running transcription: the scribe's line breaks are not kept and words he split
+  across lines are joined; spelling as written; expansions only in square brackets. The copy
+  is in a clerk's round hand; only the closing subscription on p8 is in the escrivão's own
+  cursive. The escrivão's surname is read "Zamith" throughout [uncertain: the copperplate
+  initial reads best as Z, possibly K or H; no "r" appears in any occurrence — see notes].]
 
+  [p1 = case p03 — fl. 3]
 
-  [p1] "O Capitão João José Kramith[?], Escrivão da Provedoria da Cidade de
-  Nova-Friburgo. Certifico que revendo em meu cartorio o livro de Registro de
-  testamentos numero nove, delle a folhas oito verso consta o Registro do theor
-  seguinte: — Registro d'um testamento na forma abaixo. — Jesus, Maria, José. Em
-  Nome da Santissima Trindade, Padre, Filho, Espirito Santo, em quem eu Francisco
-  José Bohrer firmemente creio, em cuja fé protesto viver e morrer. Este é o meu
-  testamento e ultima vontade. Declaro que sou natural deste termo, filho legitimo
-  de Jacob Bahrer e de Catharina Mayer, já fallecidos. Declaro que sou casado á face
-  da Igreja com Roza Eugenia de Lemos Bohrer, de cujo matrimonio tenho actualmente
-  quatro filhos que são Joaquim, Laura, Guilherme e Fernando, todos de menor idade,
-  os quaes são meus [p2] unicos e legitimos herdeiros. O meu enterro será feito á
-  vontade de meu testamenteiro. Mando que por alma de meus paes se digão vinte
-  missas. Deixo a quantia de cincoenta mil réis para obras ou conservação da Capella
-  de Santo Antonio que se vae edificar no Suspiro nesta Villa, livre de imposto que
-  será pago pelos meus bens. Nomeio para meus testamenteiros e tutores de meus
-  filhos, na ordem em que se achão: em primeiro lugar a minha mulher Rosa Eugenia de
-  Lemos Bohrer, em segundo lugar a meu cunhado Candido Pereira de Lemos, e em
-  terceiro lugar ao meu amigo Samuel Antonio dos Santos. Esta é a minha ultima
-  vontade e disposição para depois de minha morte, que pedi a João José Kramith que
-  por mim escrevesse conforme lhe ditei, e no qual me assigno por estar conforme."
-  [Segue o auto de approvação, Nova Friburgo, 188[8], parcialmente legível.]
+  "O Capitão João José Zamith Escrivão da Provedoria da Cidade de Nova-Friburgo. Certifico
+  que revendo em meu cartorio o livro de Registro de testamentos numero nove delle a folhas
+  oito verso consta o Registro do theor seguinte: Registro de um testamento na fórma abaixo.
+  Jesuz, Maria, José. Em Nome da Santissima Trindade, Padre, Filho, Espirito Santo em quem
+  eu Francisco José Bohrer firmemente creio e em cuja fé protesto viver e morrer. Este é o
+  meu testamento, e ultima vontade. Declaro que sou natural deste termo, filho legitimo de
+  Jacob Bohrer [uncertain: second letter o/a — it is formed like the "o" of the two other
+  "Bohrer" on this page; earlier catalogued as "Bahrer"] e de Catharina Mayer, já
+  fallecidos, Declaro que sou casado á face da Igreja com Rosa Eugenia de Lemos Bohrer, de
+  cujo matrimonio tenho actualmente quatro filhos que são Joaquim, Laura, Guilherme e
+  Fernando todos de menor idade os quaes são meus
+
+  [p2 = case p04 — fl. 3v]
+
+  unicos e legitimos herdeiros. O meu enterro será feito á vontade de meu testamenteiro.
+  Mando que por alma de meus paes se digão vinte missas. Deixo a quantia de cincoenta mil
+  réis para obras ou conservação da Capella de Santo Antonio que se vae edificar no Suspiro
+  nesta Villa, livre de imposto que será pago pelos meus bens. Nomeio para meus
+  testamenteiros e tutores de meus filhos, na ordem em que se achão em primeiro lugar a
+  minha mulher Rosa Eugenia de Lemos Bohrer, em segundo lugar a meu cunhado Candido Pereira
+  de Lemos e em terceiro lugar ao meu amigo Samuel Antonio dos Santos. Esta é a minha ultima
+  vontade e disposição para depois de minha morte, que pedi a João José Zamith que por mim
+  escrevesse conforme lhe ditei e no qual me assigno por estar conforme.
+
+  [p3 = case p05 — fl. 4]
+
+  Nova-Friburgo, vinte e sete de Junho de mil oitocentos e setenta e nove. Francisco José
+  Bohrer. João José Zamith. Testemunha que este fiz. Auto de approvação. Saibão quantos este
+  publico Instrumento virem que no anno do Nascimento de Nosso Senhor Jesus Christo de mil
+  oitocentos e setenta e nove, nesta Villa de Nova-Friburgo aos vinte e sete dias do mez de
+  Junho em meu cartorio compareceu Francisco José Borer, que reconheço pelo proprio e em seu
+  perfeito juiso e entendimento segundo o meu parecer e das testemunhas que presentes
+  estavão e positivamente forão convocadas, perante as quaes por elle testador das suas mãos
+  ás minhas me foi dado uma folha de papel fechado e cosido, dizendo-me que era o seu
+  testamento que lhe fizera a seu rogo eu Tabellião conforme o havia ditado e por
+
+  [p4 = case p06 — fl. 4v]
+
+  elle assignado e que queria eu lho approvasse, cujo papel eu aceitei e achei com effeito
+  ser o testamento do sobredicto testador Francisco José Borer escripto em duas laudas de
+  papel que findão retro, o qual vi e não li, e não achando em todo elle, borrão, riscado ou
+  entrelinha, nem cousa que duvida faça e lhe fiz as perguntas da lei em presença das
+  testemunhas abaixo assignadas, o que respondendo que este era o seu testamento e ultima
+  vontade, escripto por mim Tabellião e por elle dictado e assignado, que rogara ás Justiças
+  de Sua Magestade Imperial lhe dessem cumprimento de Justiça e que se não valesse como
+  testamento, valesse como cedula ou codicillo e finalmente que era contente que ficasse
+  fechado, cosido e lacrado com cinco pingos de lacre digo cosido e lacrado e que não fosse
+  aberto senão depois de seu
+
+  [p5 = case p07 — fl. 5]
+
+  fallecimento, o qual por não ter cousa que duvida fizesse, rubriquei em todas as suas
+  folhas em que se acha escripto o testamento com o meu appellido de Zamith e lh'o approvei
+  e houve por approvado na fórma da lei e do seu regimento com todas as solemnidades de
+  direito e fica fechado, cosido e lacrado com cinco pingos de lacre por lauda e para
+  constar fiz este auto de approvação de testamento que assigna o testador sendo testemunhas
+  presentes Antonio Rodrigues Teixeira, José Ribeiro Ramalho. Francisco Paulo Marcello
+  Leglaye [uncertain]. Rodrigo Joaquim da Silva. Samuel Antonio dos Santos, moradores nesta
+  Villa que reconhecem [uncertain] ser o dito testador o proprio do que dou fé e assignárão
+  depois de lhes ser lido este auto por mim Tabellião. Eu João José Zamith Tabellião que o
+  escrevi e assigno em publico e raso. Em testemunho de verdade. (O signal
+
+  [p6 = case p08 — fl. 5v]
+
+  publico.) João José Zamith. Francisco José Borer. Antonio Rodrigues Teixeira. José Ribeiro
+  Ramalho. Samuel Antonio dos Santos. Francisco Paulo Marcello Leglaye [uncertain]. Rodrigo
+  Joaquim da Silva. Apresentação. Aos seis dias do mez de Julho de mil oitocentos e oitenta
+  e oito nesta Villa de Nova-Friburgo em casa do Juiz da Provedoria Doutor Carlos Marques de
+  Sá onde eu Escrivão vim ahi compareceu Samuel Antonio dos Santos que apresentou este
+  testamento com que falleceu Francisco José Borer e pelo Juiz foi o mesmo aberto, mandando
+  lavrar este termo que assigna com o apresentante. Eu João José Zamith o escrevi. Carlos
+  Marques de Sá. Samuel Antonio dos Santos. Conclusão. E faço este testamento concluso ao
+  Juiz da Provedoria Doutor Carlos Marques de Sá e faço este termo. Eu João José Zamith o
+  escrevi. Em sete de Julho de mil oito
+
+  [p7 = case p09 — fl. 6]
+
+  centos e oitenta e oito. Cumpra-se e registre-se. Nova Friburgo sete de Julho de mil
+  oitocentos e oitenta e oito. Marques de Sá. Data. No [uncertain: No/Ao] mesmo dia, mez e
+  anno e lugar supra declarado em casa do Juiz Provedor Doutor Carlos Marques de Sá me forão
+  entregues estes autos com o despacho supra e faço este termo. Eu João José Zamith o
+  escrevi. Certidão. Certifico que intimei a primeira testamenteira para vir acceitar a
+  testamentaria do que dou fé. Nova Friburgo vinte e quatro de Julho de mil oitocentos e
+  oitenta e oito. João José Zamith. Termo de acceitação. Aos vinte e quatro dias do mez de
+  Julho de mil oitocentos e oitenta e oito nesta Villa de Nova Friburgo em meu cartorio
+  compareceu Dona Rosa Eugenia de Lemos Borer e por ella foi dito que aceitara a presente
+  testamentaria. Assim o disse do que dou fé e assigna a seu rogo por dizer não
+
+  [p8 = case p10 — fl. 6v]
+
+  saber escrever o Doutor Candido da Silveira Rodrigues. Eu João José Zamith o escrevi.
+  Candido da Silveira Rodrigues. Numero cento e vinte e dois. Registrado a folhas dez do
+  livro competente de Registros. Collectoria Provincial de Nova-Friburgo vinte e quatro de
+  Julho de mil oitocentos e oitenta e oito. Cunha Valle. O Escrivão Gonzaga. Nada mais se
+  continha em o dito testamento que aqui registei aos vinte e quatro de Julho de mil
+  oitocentos e oitenta e oito Eu João José Zamith o escrevi e assigno João José Zamith. Nada
+  mais se continha em o dito testamento que aqui fiz extrahir do proprio livro ao qual me
+  reporto nesta Cidade de Nova-Friburgo aos vinte sete dias do mez de Janeiro de mil
+  oitocentos e noventa. [From here in the escrivão's own cursive hand:] Eu João José Zamith
+  o subscrevi e assignei [uncertain: assignei/assigno]. [Signature with flourish:] João José
+  Zamith [a small mark above the surname — illegible]"
 abstract: >-
-  Francisco José Bohrer's own registered will (Provedoria de Nova Friburgo, Livro de
-  Testamentos nº 9, fl. 8v; registered 1888). He declares himself "natural deste
-  termo" (born in the Nova Friburgo comarca) and "filho legitimo de Jacob Bahrer e
-  de Catharina Mayer, já fallecidos" — primary evidence of his parents (P-0050,
-  P-0051), the Bohrer line's immigrant boundary. He names his wife Rosa Eugenia de
-  Lemos Bohrer (P-0035) and their four children Joaquim (P-0030), Laura, Guilherme
-  and Fernando as sole heirs, and his brother-in-law Candido Pereira de Lemos as an
-  executor. Resolves the previously open question of whether Francisco José was
-  himself an immigrant: he was Brazilian-born (Nova Friburgo), and the immigrant
-  generation is his parents.
+  Certified copy, made by the escrivão of the Provedoria de Nova Friburgo on 27 January
+  1890, of the entry in the Livro de Registro de Testamentos nº 9, fl. 8v: Francisco José
+  Bohrer's (P-0034) closed will, dated Nova Friburgo 27 June 1879, written at his dictation
+  by the tabellião João José Zamith [uncertain] and signed by him; its auto de approvação
+  the same day before five witnesses (Antonio Rodrigues Teixeira, José Ribeiro Ramalho,
+  Francisco Paulo Marcello Leglaye [uncertain], Rodrigo Joaquim da Silva, Samuel Antonio dos
+  Santos); its presentation by Samuel Antonio dos Santos and opening by the Juiz da
+  Provedoria Dr. Carlos Marques de Sá on 6 July 1888, "este testamento com que falleceu
+  Francisco José Borer"; the order "Cumpra-se e registre-se" of 7 July 1888; and, on 24 July
+  1888, the summons and acceptance of the first testamenteira, his widow Rosa Eugenia de
+  Lemos (P-0035), signed for her "a seu rogo por dizer não saber escrever" by Dr. Candido da
+  Silveira Rodrigues, and the registrations. In the will he declares himself "natural deste
+  termo" and "filho legitimo de Jacob Bohrer e de Catharina Mayer, já fallecidos" (parents
+  P-0050, P-0051, dead before 27 June 1879); married "á face da Igreja" to Rosa Eugenia de
+  Lemos Bohrer, with "actualmente quatro filhos que são Joaquim, Laura, Guilherme e Fernando
+  todos de menor idade" (Joaquim = P-0030) as his sole heirs; he orders twenty masses for
+  his parents, leaves 50$000 to the chapel of Santo Antonio "que se vae edificar no
+  Suspiro", and names as testamenteiros and tutors of his children, in order, his wife, his
+  brother-in-law Candido Pereira de Lemos and his friend Samuel Antonio dos Santos. The
+  children were minors in 1879, not 1888. Primary evidence of his parentage and Nova
+  Friburgo birth: he was Brazilian-born, and the immigrant generation is his parents.
 abstract_pt: >-
-  O próprio testamento registrado de Francisco José Bohrer (Provedoria de Nova
-  Friburgo, Livro de Testamentos nº 9, fl. 8v; registrado em 1888). Ele se declara
-  "natural deste termo" (nascido na comarca de Nova Friburgo) e "filho legitimo de
-  Jacob Bahrer e de Catharina Mayer, já fallecidos" — evidência primária de seus
-  pais (P-0050, P-0051), o limite imigrante da linha Bohrer. Ele nomeia sua esposa
-  Rosa Eugenia de Lemos Bohrer (P-0035) e seus quatro filhos Joaquim (P-0030), Laura,
-  Guilherme e Fernando como únicos herdeiros, e seu cunhado Candido Pereira de Lemos
-  como testamenteiro. Resolve a questão até então em aberto sobre se o próprio
-  Francisco José era imigrante: ele nasceu no Brasil (Nova Friburgo), e a geração
-  imigrante é a de seus pais.
+  Certidão, passada pelo escrivão da Provedoria de Nova Friburgo em 27 de janeiro de 1890,
+  do assento do Livro de Registro de Testamentos nº 9, fl. 8v: o testamento cerrado de
+  Francisco José Bohrer (P-0034), datado de Nova Friburgo, 27 de junho de 1879, escrito a
+  seu ditado pelo tabelião João José Zamith [incerto] e por ele assinado; o auto de
+  approvação do mesmo dia, perante cinco testemunhas (Antonio Rodrigues Teixeira, José
+  Ribeiro Ramalho, Francisco Paulo Marcello Leglaye [incerto], Rodrigo Joaquim da Silva,
+  Samuel Antonio dos Santos); a apresentação por Samuel Antonio dos Santos e a abertura pelo
+  Juiz da Provedoria Dr. Carlos Marques de Sá em 6 de julho de 1888, "este testamento com
+  que falleceu Francisco José Borer"; o despacho "Cumpra-se e registre-se" de 7 de julho de
+  1888; e, em 24 de julho de 1888, a intimação e o termo de acceitação da primeira
+  testamenteira, sua viúva Rosa Eugenia de Lemos (P-0035), assinado por ela "a seu rogo por
+  dizer não saber escrever" pelo Dr. Candido da Silveira Rodrigues, e os registros. No
+  testamento ele se declara "natural deste termo" e "filho legitimo de Jacob Bohrer e de
+  Catharina Mayer, já fallecidos" (pais P-0050, P-0051, mortos antes de 27 de junho de
+  1879); casado "á face da Igreja" com Rosa Eugenia de Lemos Bohrer, com "actualmente quatro
+  filhos que são Joaquim, Laura, Guilherme e Fernando todos de menor idade" (Joaquim =
+  P-0030) como únicos herdeiros; manda dizer vinte missas pelos pais, deixa 50$000 à capela
+  de Santo Antonio "que se vae edificar no Suspiro" e nomeia testamenteiros e tutores dos
+  filhos, nesta ordem, a esposa, o cunhado Candido Pereira de Lemos e o amigo Samuel Antonio
+  dos Santos. Os filhos eram menores em 1879, não em 1888. Evidência primária de sua
+  filiação e de seu nascimento em Nova Friburgo: ele nasceu no Brasil, e a geração imigrante
+  é a de seus pais.
 reliability:
   assessment: >-
-    Direct primary evidence (the testator's own sworn declaration) of Francisco
-    José Bohrer's parentage, his Nova Friburgo birth, his marriage to Rosa Eugenia
-    de Lemos, and his four children.
+    Direct primary evidence (the testator's own declaration, in a will he dictated and
+    signed in 1879) of Francisco José Bohrer's parentage, his Nova Friburgo birth, his
+    marriage to Rosa Eugenia de Lemos and his four children; and direct evidence, from the
+    court's own termos of 1888, of the will's opening on the day of his death and of Rosa's
+    acceptance of the testamentaria.
   informant: >-
-    Francisco José Bohrer himself (testator), dictated to and written by the
-    escrivão João José Kramith.
+    Francisco José Bohrer himself (testator), dictated to and written by the tabellião João
+    José Zamith [uncertain]; the 1888 termos by the same man as escrivão of the Provedoria.
   limitations: >-
-    A certified register copy, not the autograph will; the escrivão's surname
-    (Kramith) and the exact registration day/month are uncertain/partly legible
-    reads. The parents' surnames are written "Bahrer" and "Mayer"; Nova Friburgo
-    colonist-family compilations (secondary) give the mother's surname as Moser —
-    recorded as a variant/lead, not overwriting the primary "Mayer".
+    A certified copy (1890) of the register copy (1888) of the closed will, not the
+    autograph: the signatures are copied, so it attests that he signed but shows no
+    autograph. Uncertain peripheral readings: the escrivão's surname (Zamith / Kamith /
+    Hamith), the witness Leglaye, and the second letter of the father's surname (Bohrer,
+    possibly Bahrer). The mother's surname is written "Mayer"; her own 1825 marriage
+    (PAR-0059) and her son's 1832 baptism (PAR-0054) write "Moser", which this repository
+    prefers.
 digital_file:
   path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p1.jpg
   sha256: 18e7879fe48128539ccf10077dbd1f193f49cf1667cd50ae1b392827e744188b
 additional_pages:
 - path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p2.jpg
   sha256: 1113864bead1e5a49ea616f35266e7b0e80d2dffd6c07d165de9c782faf3c8fb
+- path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p3.jpg
+  sha256: b0004b77d385ae319f8531c47318285b32a0be9c59a21afbb4b89ab6c58e2fd5
+- path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p4.jpg
+  sha256: 95731976d9338b49c338759e9c9e5a54a326142f284f7e554802b5f5ddaca38c
+- path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p5.jpg
+  sha256: 486b061060ea90188cdba33004306efa2401151a46feb87232fcb0b7f99bfd41
+- path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p6.jpg
+  sha256: 232d86455319b11e12f44639cdb5464e8b2893227d0c491ac7e4476e5bbc0717
+- path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p7.jpg
+  sha256: 63c695cad20e6d4583fb95e87e21b2ebace7b18f2256e4387df47b9fd40b7799
+- path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p8.jpg
+  sha256: bdd04b62440fa5c5ab70caacad9222c0b969a09cc22fd16c94405884867ead88
 linked_people:
 - P-0034
 - P-0035
@@ -126,6 +273,9 @@ notes:
     The act spans two page images: the parentage, marriage and children are on
     …-p1.jpg (the primary scan, in digital_file); the executors, the masses for his
     parents and the closing are on …-p2.jpg.
+    [Superseded 2026-10-10: the certidão runs to eight page images, …-p1.jpg to …-p8.jpg
+    (case pages 3–10 of PRB-0012); p3–p8 carry the will's date, the auto de approvação,
+    the 1888 opening, acceptance and registrations, and the certidão's own date.]
 - text: >-
     Parents' surnames as written here are "Jacob Bahrer" and "Catharina Mayer".
     Secondary Nova Friburgo colonist-family compilations (a lead, not catalogued)
@@ -134,3 +284,60 @@ notes:
     The "Moser" surname and the Swiss origin are NOT asserted from this record; they
     remain a lead pending a primary Borer baptism/marriage or Jacob's c.1843 Nova
     Friburgo inventário.
+    [2026-10-10: on re-reading the image, the father's surname is written with the same
+    letterforms as the testator's and his wife's "Bohrer" on the same page and is now
+    transcribed "Jacob Bohrer" ("Bahrer" possible, not secure). The reading "Jacob
+    Borer (b. 1801 Erschwil…; d. 1843)" above is the compilation's; Erschwil has since
+    been closed as a bounded negative (see P-0050) and Jacob Borer's inventário is
+    reported on FamilySearch as of 1851–52 [LEAD].]
+- text: >-
+    Re-catalogued 2026-10-10 from the whole 1890 case (PRB-0012). What changed and why: (1)
+    The earlier record held only 2 of the certidão's 8 pages (fl. 3–3v: the will up to "me
+    assigno por estar conforme"). Its date, the auto de approvação, the opening, the
+    acceptance, the registrations and the certidão's own date are on fl. 4–6v, now added as
+    p3–p8, and the transcription now runs across all eight pages. (2) "1888" was the year of
+    the will's opening (6 July) and registration (24 July), not of the will: the will and
+    its approval are dated 27 June 1879, and the copy itself 27 January 1890. The former
+    "auto de approvação, Nova Friburgo, 188[8], parcialmente legível" was a misreading of
+    pages not then held; title, record_type, event_date (now the will, 1879-06-27),
+    registration_date (1888-07-24), abstracts, reliability and repository were corrected
+    accordingly. "Todos de menor idade" and "já fallecidos" therefore describe June 1879.
+    The evidence file names keep "1888" because paths are stable. (3) The escrivão's surname
+    reads "Zamith" [uncertain: the copperplate initial reads best as Z, possibly K; the
+    retrieval side reads "Hamitt(h)"], not "Kramith": no "r" appears in any of its roughly
+    fifteen occurrences in the case, in the copy or in his own signature. He is the same man
+    as tabellião in 1879 and escrivão in 1888–90. (4) The father's surname on fl. 3 was
+    checked on the image (crops enlarged 4–8×): its letterforms match the testator's own
+    "Bohrer" and his wife's "Bohrer" on the same page, so it is transcribed "Bohrer";
+    "Bahrer" is possible but not secure. (5) The wife is written "Rosa" in the will
+    (formerly transcribed "Roza"); the surname is "Bohrer" in the will and "Borer" in the
+    1879 approval and 1888 termos.
+  text_pt: >-
+    Recatalogado em 2026-10-10 a partir do processo completo de 1890 (PRB-0012). O que mudou
+    e por quê: (1) O registro anterior tinha apenas 2 das 8 páginas da certidão (fl. 3–3v: o
+    testamento até "me assigno por estar conforme"). A data, o auto de approvação, a
+    abertura, a aceitação, os registros e a data da própria certidão estão nas fl. 4–6v,
+    agora acrescentadas como p3–p8, e a transcrição passa a correr pelas oito páginas. (2)
+    "1888" era o ano da abertura (6 de julho) e do registro (24 de julho), não do
+    testamento: o testamento e sua aprovação são de 27 de junho de 1879, e a certidão de 27
+    de janeiro de 1890. O antigo "auto de approvação, Nova Friburgo, 188[8], parcialmente
+    legível" era leitura errada de páginas então não disponíveis; título, record_type,
+    event_date (agora o testamento, 1879-06-27), registration_date (1888-07-24), resumos,
+    confiabilidade e repositório foram corrigidos. "Todos de menor idade" e "já fallecidos"
+    descrevem, portanto, junho de 1879. Os nomes dos arquivos de evidência mantêm "1888"
+    porque os caminhos são estáveis. (3) O sobrenome do escrivão lê-se "Zamith" [incerto: a
+    inicial caligráfica lê-se melhor como Z, talvez K; o lado da recuperação lê
+    "Hamitt(h)"], não "Kramith": não há "r" em nenhuma de suas cerca de quinze ocorrências
+    no processo, na cópia ou na assinatura dele. É o mesmo homem, tabelião em 1879 e
+    escrivão em 1888–90. (4) O sobrenome do pai na fl. 3 foi conferido na imagem (recortes
+    ampliados 4–8×): suas letras coincidem com o "Bohrer" do próprio testador e o da esposa
+    na mesma página, e por isso é transcrito "Bohrer"; "Bahrer" é possível, mas não seguro.
+    (5) A esposa é escrita "Rosa" no testamento (antes transcrito "Roza"); o sobrenome é
+    "Bohrer" no testamento e "Borer" na aprovação de 1879 e nos termos de 1888.
+- text: >-
+    Previous catalogue reference, kept for history (1 August 2026): "FamilySearch DGS
+    105875530, images ~867-869 (Provedoria de Nova Friburgo, Livro de Testamentos nº 9, fl.
+    8v)" — it was taken then for the register book itself; it is the 1890 certidão copying
+    it. The will itself does not date his death (an earlier P-0034 note said it dated it to
+    c.1888); the opening on 6 July 1888 of "este testamento com que falleceu Francisco José
+    Borer" agrees with his death act (PAR-0055).

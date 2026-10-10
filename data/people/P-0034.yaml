@@ -11,6 +11,11 @@ name_variants:
   - PAR-0002
   - CIV-0019
   - PRB-0005
+- value: Francisco José Borer
+  type: source
+  source_ids:
+  - PRB-0005
+  - PRB-0012
 event_ids:
 - E-0026
 - E-0083
@@ -42,6 +47,11 @@ notes:
     to his parents Jacob and Catharina. The will also names his wife and their four
     children (Joaquim, Laura, Guilherme, Fernando) as sole heirs and dates his death
     to c.1888 (consistent with "já falecido" by 1890).
+    [Corrected 2026-10-10: PRB-0005 is now held whole (8 pages). The will was made on 27 June
+    1879 and only opened on 6 July 1888 (the day he died) and registered on 24 July 1888, so
+    it was not an "1888 will", and it does not itself date his death, which rests on his death
+    act (PAR-0055). The father's surname reads "Bohrer" on the image; "Bahrer" is possible
+    but not secure (see P-0050).]
   text_pt: >-
     Filiação e local de nascimento RESOLVIDOS (1 de agosto de 2026) por seu próprio
     testamento registrado (PRB-0005, Provedoria de Nova Friburgo, registrado em 1888):
@@ -54,6 +64,11 @@ notes:
     nomeia sua esposa e os quatro filhos deles (Joaquim, Laura, Guilherme, Fernando)
     como herdeiros únicos e data sua morte em c.1888 (coerente com "já falecido" em
     1890).
+    [Corrigido em 2026-10-10: PRB-0005 está agora disponível por inteiro (8 páginas). O
+    testamento foi feito em 27 de junho de 1879 e só aberto em 6 de julho de 1888 (o dia de
+    sua morte) e registrado em 24 de julho de 1888; não era, portanto, um "testamento de 1888",
+    e não data por si a sua morte, que se apoia no ato de óbito (PAR-0055). O sobrenome do pai
+    lê-se "Bohrer" na imagem; "Bahrer" é possível, mas não seguro (ver P-0050).]
 - text: >-
     Exact death date and cause now confirmed by the Imigrantes de Nova Friburgo
     compilation (PUB-0003, p.300, BORER I entry 1.1.4): born 04/07/1832, died
@@ -93,10 +108,52 @@ notes:
     Catharina Moser em nível primário; o ato de óbito confirma 6 de julho de 1888 no Alto da
     Serra, aos 56 anos, causa insuficiência mitral e dilatação aórtica. Isso torna primários
     seu nascimento, filiação e óbito, antes apenas da compilação.
+- text: >-
+    [2026-10-10] The whole will and its sequel are now held (PRB-0005, 8 pages; PRB-0012, the
+    1890 Provedoria proceedings). His closed will was made on 27 June 1879, written at his
+    dictation by the tabellião João José Zamith [surname uncertain; formerly read "Kramith"]
+    and signed by him, and approved the same day before five witnesses (Antonio Rodrigues
+    Teixeira, José Ribeiro Ramalho, Francisco Paulo Marcello Leglaye [uncertain], Rodrigo
+    Joaquim da Silva, Samuel Antonio dos Santos). It was presented by Samuel Antonio dos
+    Santos and opened by the Juiz da Provedoria on 6 July 1888, the day he died ("este
+    testamento com que falleceu Francisco José Borer"), ordered complied with on 7 July and
+    registered on 24 July 1888 (Livro de Registro de Testamentos nº 9, fl. 8v). It names as
+    sole heirs Joaquim, Laura, Guilherme and Fernando, "todos de menor idade" in 1879, so a
+    child born after June 1879 would not appear (none is known; Ludovina, d. 1862, is absent
+    as already dead). His parents were already dead by 27 June 1879. The testamenteiros and
+    tutors of his children, in order, were his wife Rosa, his brother-in-law Candido Pereira
+    de Lemos and his friend Samuel Antonio dos Santos. In the inventário that followed, the
+    couple's goods were sold at public auction and wholly absorbed by his creditors, and on
+    16 September 1890 the court exonerated Rosa from rendering the executor's accounts
+    (PRB-0012). The will was approved three days before the Rio sentence of 30 June 1879 that
+    justified his marriage (PAR-0002): he appears to have put his marriage and his succession
+    in order together [INFERRED].
+  text_pt: >-
+    [2026-10-10] O testamento completo e o seu desfecho estão agora disponíveis (PRB-0005, 8
+    páginas; PRB-0012, os autos da Provedoria de 1890). Seu testamento cerrado foi feito em 27
+    de junho de 1879, escrito a seu ditado pelo tabelião João José Zamith [sobrenome incerto;
+    antes lido "Kramith"] e por ele assinado, e aprovado no mesmo dia perante cinco
+    testemunhas (Antonio Rodrigues Teixeira, José Ribeiro Ramalho, Francisco Paulo Marcello
+    Leglaye [incerto], Rodrigo Joaquim da Silva, Samuel Antonio dos Santos). Foi apresentado
+    por Samuel Antonio dos Santos e aberto pelo Juiz da Provedoria em 6 de julho de 1888, o dia
+    de sua morte ("este testamento com que falleceu Francisco José Borer"), mandado cumprir em
+    7 de julho e registrado em 24 de julho de 1888 (Livro de Registro de Testamentos nº 9, fl.
+    8v). Nomeia como únicos herdeiros Joaquim, Laura, Guilherme e Fernando, "todos de menor
+    idade" em 1879; um filho nascido depois de junho de 1879 não apareceria (não se conhece
+    nenhum; Ludovina, f. 1862, está ausente por já ter morrido). Seus pais já tinham morrido em
+    27 de junho de 1879. Os testamenteiros e tutores dos filhos, nesta ordem, foram a esposa
+    Rosa, o cunhado Candido Pereira de Lemos e o amigo Samuel Antonio dos Santos. No inventário
+    que se seguiu, os bens do casal foram vendidos em praça pública e inteiramente absorvidos
+    pelos credores, e em 16 de setembro de 1890 o juízo exonerou Rosa da prestação de contas da
+    testamentaria (PRB-0012). O testamento foi aprovado três dias antes da sentença do Rio de
+    30 de junho de 1879 que justificou seu casamento (PAR-0002): ele parece ter posto em ordem
+    o casamento e a sucessão ao mesmo tempo [INFERRED].
 profile: >-
   ## Interesting facts
 
-  - **[PROVEN]** He left a formal registered will (PRB-0005, 1888) that included a charitable bequest of 50 mil réis to the construction of the Capella de Santo Antonio at the Suspiro in Nova Friburgo — a modest but real act of civic philanthropy that marks him as a propertied, church-connected colonist householder.
+  - **[PROVEN]** He made a formal closed will on 27 June 1879 (PRB-0005; opened on the day of his death, 6 July 1888, and registered that month) that included a charitable bequest of 50 mil réis to the construction of the Capella de Santo Antonio at the Suspiro in Nova Friburgo — a modest but real act of civic philanthropy that marks him as a propertied, church-connected colonist householder.
+
+  - **[PROVEN]** By his death the estate no longer covered his debts: in the inventário the couple's goods were described, appraised, sold at public auction and "absorvidos" by his creditors, and in September 1890 the court exonerated his widow from rendering the executor's accounts because she could not "dar cumprimento do testamento" (PRB-0012).
 
   - **[PROVEN]** His own 1832 baptism record (PAR-0054) fixes his birth to 9 July 1832 — correcting the Imigrantes de Nova Friburgo compilation's "4 July" by five days, illustrating how a primary parish baptism quietly corrects a secondary genealogy compilation.
 
@@ -106,21 +163,23 @@ profile: >-
 
   - **[INFERRED]** His marriage to Rosa Eugenia de Lemos (P-0035) from Itaboraí — celebrated before the Itaboraí coadjutor and only justified by the Rio ecclesiastical court and registered at the Itaboraí Matriz decades later — is the one non-colonist thread in this branch, and it required navigating the ecclesiastical system to accomplish: the colonist community was tight enough that marrying outside it was not straightforward.
 
-  - **[CONTEXTUAL]** His will (PRB-0005) is the load-bearing document of the entire Jacob Borer line: the only primary record that names Jacob Bahrer as Francisco's father, and the only primary source counting Joaquim among Francisco's heirs — a single 1888 testamentary act that answers questions no census or vital record answered.
+  - **[CONTEXTUAL]** His will (PRB-0005) is the load-bearing document of the entire Jacob Borer line: the only record in which Francisco himself names his parents Jacob Bohrer and Catharina Mayer, and the only primary source counting Joaquim among Francisco's heirs — a single testamentary act, made in 1879 and opened in 1888, that answers questions no census or vital record answered.
 
   ## Identity
 
   **Francisco José Bohrer** — spelled *Borer* in the Nova Friburgo colonist compilation
-  (PUB-0003) and *Bohrer* in his own will and his descendants' civil registers; the
-  *Borer → Bohrer* drift runs through him. [PROVEN]
+  (PUB-0003) and *Bohrer* in his own will and his descendants' civil registers (the copy of
+  his will writes *Bohrer* in the will itself and *Borer* in the notary's 1879 approval and
+  the 1888 termos); the *Borer → Bohrer* drift runs through him. [PROVEN]
 
   - **Born:** 9 July 1832 in the Nova Friburgo comarca; baptised 19 August 1832 at São João
-  Baptista [PROVEN — PAR-0054]. His own 1888 will independently states he was "natural deste
-  termo" (PRB-0005). [PROVEN] The Imigrantes de Nova Friburgo compilation gives 4 July 1832
+  Baptista [PROVEN — PAR-0054]. His own will (made 1879, opened 1888) independently states he
+  was "natural deste termo" (PRB-0005). [PROVEN] The Imigrantes de Nova Friburgo compilation gives 4 July 1832
   (PUB-0003) — a five-day discrepancy the held baptism corrects. [LEAD, secondary]
 
-  - **Parents:** Jacob Bahrer and Catharina Moser (P-0050, P-0051; family F-0024), both
-  already deceased by 1888, named in his own will (PRB-0005). [PROVEN] The same
+  - **Parents:** Jacob Bohrer (so read on the will's image; formerly catalogued "Bahrer"
+  [uncertain]) and Catharina Moser (P-0050, P-0051; family F-0024), both already deceased by
+  27 June 1879, named in his own will (PRB-0005) — which writes her "Mayer". [PROVEN] The same
   compilation identifies them as the Swiss colonist couple Jacob Borer (b. 1801,
   Erschwil, Soleure) and Catharina Moser (PUB-0003) [LEAD] — the Swiss origin and the
   "Moser" maiden name are NOT asserted from the will, which reads "Mayer".
@@ -129,10 +188,13 @@ profile: >-
   Itaboraí, before the coadjutor Rufino José Alves and at the house of José Antunes de
   Lemos's father, and only judicially justified (Rio, 30 June 1879) and registered at the
   Itaboraí Matriz on 1 August 1879 (PAR-0002). [PROVEN it predates 1879] An uncertain "more than
-  twenty years" clause in that act would push the wedding back to about 1858. [LEAD]
+  twenty years" clause in that act would push the wedding back to about 1858. [LEAD] His closed
+  will was approved on 27 June 1879, three days before that sentence: he appears to have put his
+  marriage and his succession in order together. [INFERRED]
 
   - **Children:** Joaquim José Bohrer (P-0030, the firstborn), Laura, Guilherme (Samuel)
-  and Fernando — the four heirs named in his will (PRB-0005) [PROVEN] — plus Ludovina
+  and Fernando — the four heirs named in his will, "todos de menor idade" on 27 June 1879
+  (PRB-0005) [PROVEN] — plus Ludovina
   Borer (b. 21 July 1862, d. in infancy 27 December 1862) per PUB-0003 [LEAD]. Joaquim is
   absent from the compilation's child-list; the will is the authoritative source naming
   him firstborn.
@@ -140,28 +202,39 @@ profile: >-
   - **Death:** 6 July 1888 at the Alto da Serra, Nova Friburgo, aged 56, of mitral
   insufficiency and aortic dilatation [PROVEN — PAR-0055] — his own parish death/burial act.
   He was already "já falecido" when his grandson Alberto's 1890 birth register names him
-  (CIV-0019) [PROVEN], and the date agrees with the will registered in 1888 and the
+  (CIV-0019) [PROVEN], and the date agrees with the opening of his will that same day, 6 July
+  1888 — "este testamento com que falleceu Francisco José Borer" (PRB-0005) — and with the
   compilation (PUB-0003).
 
   ## Standing and profession
 
-  - **A propertied testator** [PROVEN] — he left a formal registered will with named
+  - **A propertied testator** [PROVEN] — in 1879 he made a formal closed will with named
   executors and a charitable bequest, the mark of a man with an estate to dispose of
-  (PRB-0005).
+  (PRB-0005). By his death in 1888 that estate no longer covered his debts: it was sold at
+  public auction and absorbed by his creditors (PRB-0012) [PROVEN].
 
   - **Charitable bequest** [PROVEN] — 50 mil réis to the works of the Capella de Santo
-  Antonio to be built at the Suspiro in the vila (PRB-0005).
+  Antonio to be built at the Suspiro in the vila (PRB-0005). Whether it was ever paid is
+  doubtful: in 1890 his widow told the court she could not "dar cumprimento do testamento"
+  because the goods had not sufficed for the creditors (PRB-0012) [INFERRED that the bequest
+  went unpaid].
 
-  - **Executors named in the will** [PROVEN] — his wife Rosa Eugenia de Lemos first, then
-  his brother-in-law Candido Pereira de Lemos (Rosa's brother), then his friend Samuel
-  Antonio dos Santos (PRB-0005). The choice of a Lemos brother-in-law situates him inside
-  his wife's Itaboraí-Lemos network.
+  - **Executors named in the will** [PROVEN] — "testamenteiros e tutores de meus filhos, na
+  ordem em que se achão": his wife Rosa Eugenia de Lemos first, then his brother-in-law
+  Candido Pereira de Lemos (Rosa's brother), then his friend Samuel Antonio dos Santos
+  (PRB-0005). The choice of a Lemos brother-in-law situates him inside his wife's
+  Itaboraí-Lemos network. Samuel Antonio dos Santos also witnessed the 1879 approval,
+  presented the will for opening on 6 July 1888 and in 1890 signed Rosa's petition for her
+  (PRB-0005, PRB-0012).
 
-  - **Literate** [PROVEN] — his 1888 will closes "…que pedi a João José Kramith que por
-  mim escrevesse conforme lhe ditei, e no qual me assigno por estar conforme" (PRB-0005):
-  the drafting was delegated to the escrivão (standard for a notarial testamento), but the
-  testator signs the instrument himself — not an *a rogo* / illiteracy formula. The
-  literacy is consistent with his propertied colonist standing.
+  - **Literate** [PROVEN] — his 1879 will closes "…que pedi a João José Zamith que por mim
+  escrevesse conforme lhe ditei e no qual me assigno por estar conforme" (PRB-0005; the
+  notary's surname is an uncertain reading, formerly "Kramith"): the drafting was delegated
+  to the notary (standard for a testamento cerrado), but the testator signs the instrument
+  himself — not an *a rogo* / illiteracy formula — and the auto de approvação records "que
+  assigna o testador". The held text is a certified copy, so it attests his signature rather
+  than showing it. The literacy is consistent with his propertied colonist standing; his
+  wife, by contrast, could not write (PRB-0005, PRB-0012).
 
   - **Resident at the Alto da Serra** of the Freguesia de São João Baptista, Nova Friburgo
   [PROVEN] — the same neighbourhood his son Joaquim and grandson Alberto occupy in the
@@ -208,33 +281,39 @@ profile: >-
   Antonio** (PRB-0005) [PROVEN] — about an eighth of that same labourer's year, and on the order
   of a twentieth of what one enslaved adult cost in these decades [CONTEXTUAL]. Real property,
   real standing, a real act of civic philanthropy — and, measured against the world it sat in,
-  very little money.
+  very little money; and by 1890 even that legacy had probably gone unpaid, the estate having
+  been absorbed by his creditors (PRB-0012) [INFERRED].
 
   **What the will does not contain is as informative as what it does.** [INFERRED] It disposes
   of "meus bens" without naming a single item: no lot, no house, no store, no credit owed to him
   — and no enslaved person. A testamento is not an inventário and is under no obligation to
-  enumerate an estate, so the silence is not proof of a small one. But it was dictated months
-  before Abolition, in a province where slaveholding was the ordinary form of propertied
-  capital, and **no record held in this repository names an enslaved person in any Bohrer, Lemos
+  enumerate an estate, so the silence is not proof of a small one (his inventário, which would
+  list it, is not held; the retrieval side reports it on FamilySearch [LEAD]). But it was
+  dictated in June 1879, nine years before Abolition, in a province where slaveholding was the
+  ordinary form of propertied capital, and **no record held in this repository names an enslaved person in any Bohrer, Lemos
   or Silva-Ferreira household** — a bounded negative across the held corpus, not a claim about
   records not yet seen. Whatever this family owned, the documents we hold never show it owning
   people, which places it outside the landed stratum entirely.
 
-  **Partible succession and a long widowhood kept the one landed moment from ever compounding.**
-  [CONTEXTUAL/INFERRED] Brazilian law split an estate equally among all children, and his will
-  names four — Joaquim, Laura, Guilherme and Fernando — as "meus unicos e legitimos herdeiros"
-  (PRB-0005) [PROVEN]; the holding was therefore quartered from the outset. The widow's meação
-  then held half of it out of the heirs' reach for as long as Rosa Eugenia lived, and she lived
-  another thirty-one years, to November 1919 (PAR-0058) [PROVEN]. By the time the property could
-  actually devolve, the firstborn Joaquim was himself dead — he is already "já fallecido" in
-  1924 (CIV-0016) [PROVEN]. The line's single landed moment never reached the next generation as
-  working capital; it arrived late, and in fractions.
+  **A creditors' sale, not partition, is what ended the one landed moment.** [PROVEN/INFERRED]
+  His will names four children — Joaquim, Laura, Guilherme and Fernando — as "meus unicos e
+  legitimos herdeiros" (PRB-0005) [PROVEN], and Brazilian law would have split the estate
+  equally among them after the widow's meação [CONTEXTUAL]. That division never happened. In
+  the inventário that followed his death the couple's goods ("os bens de seu cazal") were
+  described, appraised, sold at public auction and prorated among his creditors, "e
+  consequentemente, absorvidos para taes pagamentos"; in September 1890 Rosa Eugenia told the
+  Provedoria she could not carry out the will, and the court exonerated her from rendering
+  accounts (PRB-0012) [PROVEN]. Neither the heirs' shares nor the widow's half survived the
+  sale [INFERRED]. Rosa Eugenia lived another thirty-one years, to November 1919 (PAR-0058)
+  [PROVEN], without the estate. The line's single landed moment never reached the next
+  generation as working capital at all.
 
   **From here the base does not grow; it converts — from heritable to contingent.** [INFERRED]
   His surviving sons moved off the land into commerce and local public life: Joaquim a
   *negociante* at the Alto da Serra (CIV-0019, CIV-0020), Guilherme the manager and proprietor
   of the town weekly *A Sentinella* (NWS-0002, NWS-0005, NWS-0006) [PROVEN]. That is a move from
-  wealth that can be inherited to wealth that ends with the man and the market. Literacy
+  wealth that can be inherited to wealth that ends with the man and the market — and after the
+  1888–90 creditors' sale (PRB-0012) what the sons had was rebuilt, not inherited [INFERRED]. Literacy
   travelled the same way: he signs his own will [PROVEN], and in his sons' generation letters
   were the working tool of a merchant and a newspaperman — bought because the role demanded it,
   not transmitted as class advantage [CONTEXTUAL/INFERRED]. This is the Bohrer arc at its high
@@ -250,10 +329,19 @@ profile: >-
 
   - The exact marriage date behind the 1879 justification. [OPEN]
 
+  - His own inventário (Juízo de Órfãos de Nova Friburgo, 1888–90; inventariante Rosa) would
+  list the estate, the debts, the creditors and the heirs' ages. The retrieval side reports it
+  located on FamilySearch (DGS 105875671, about 300 images, including the auction of a "caza de
+  negocio do Alto da Serra") [LEAD — not read]. [OPEN]
+
   ## Sources held (this repository)
 
-  - PRB-0005 (his own 1888 registered will — parents, wife, four children, executors,
-  bequest) · PAR-0002 (1879 marriage justification registered at the Itaboraí Matriz).
+  - PRB-0005 (certified copy, 27 January 1890, of his registered closed will of 27 June 1879 —
+  parents, wife, four minor children, executors and tutors, bequest; its approval the same day,
+  its opening on 6 July 1888 and its registration on 24 July 1888) · PRB-0012 (the 1890
+  Provedoria proceedings on his testamentaria — the estate sold at auction and absorbed by
+  creditors; his widow exonerated from rendering accounts, 16 September 1890) · PAR-0002 (1879
+  marriage justification registered at the Itaboraí Matriz).
 
   - PAR-0054 (his own 1832 Nova Friburgo baptism — born 9 July, baptised 19 August 1832;
   parents Jacob Bohrer × Catharina Moser) · PAR-0055 (his own 1888 Nova Friburgo
@@ -275,18 +363,21 @@ profile: >-
 
   ## Where to go today
 
-  - **Birth, death and marriage justification (1832, 1888, 1879):** Catedral Diocesana /
+  - **Birth and death (1832, 1888):** Catedral Diocesana /
   Igreja Matriz de São João Batista, Centro, Nova Friburgo, RJ (Rua Monsenhor José Antônio
   Teixeira 23, CEP 28610-390; GPS -22.28159, -42.53085) [RESOLVED] ·
   [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
 
-  - **Marriage as celebrated (~1858 or earlier):** Igreja Matriz de São João Batista de
+  - **Marriage as celebrated (~1858 or earlier) and its 1879 justification, registered in
+  the Itaboraí Matriz marriage book (fl. 177):** Igreja Matriz de São João Batista de
   Itaboraí, Centro, Itaboraí, RJ (Praça Marechal Floriano Peixoto 15, CEP 24800-165; GPS
   -22.74472, -42.85833) [RESOLVED] · [Maps](https://maps.google.com/?q=-22.74472,-42.85833)
 profile_pt: >-
   ## Fatos interessantes
 
-  - **[PROVEN]** Ele deixou um testamento registrado formal (PRB-0005, 1888) que incluía um legado de caridade de 50 mil réis para a construção da Capella de Santo Antonio no Suspiro, em Nova Friburgo — um ato modesto mas real de filantropia cívica que o marca como um chefe de família colono proprietário e vinculado à igreja.
+  - **[PROVEN]** Ele fez um testamento cerrado formal em 27 de junho de 1879 (PRB-0005; aberto no dia de sua morte, 6 de julho de 1888, e registrado naquele mês) que incluía um legado de caridade de 50 mil réis para a construção da Capella de Santo Antonio no Suspiro, em Nova Friburgo — um ato modesto mas real de filantropia cívica que o marca como um chefe de família colono proprietário e vinculado à igreja.
+
+  - **[PROVEN]** À sua morte o espólio já não cobria as dívidas: no inventário os bens do casal foram descritos, avaliados, vendidos em praça pública e "absorvidos" pelos credores, e em setembro de 1890 o juízo exonerou a viúva da prestação de contas da testamentaria, porque ela não podia "dar cumprimento do testamento" (PRB-0012).
 
   - **[PROVEN]** Seu próprio registro de batismo de 1832 (PAR-0054) fixa seu nascimento em 9 de julho de 1832 — corrigindo o "4 de julho" da compilação Imigrantes de Nova Friburgo por cinco dias, ilustrando como um batismo paroquial primário silenciosamente corrige uma compilação genealógica secundária.
 
@@ -296,22 +387,26 @@ profile_pt: >-
 
   - **[INFERRED]** Seu casamento com Rosa Eugenia de Lemos (P-0035), de Itaboraí — celebrado perante o coadjutor de Itaboraí e só justificado pelo juízo eclesiástico do Rio e registrado na Matriz de Itaboraí décadas depois — é o único fio não colono deste ramo, e exigiu navegar pelo sistema eclesiástico: a comunidade colona era fechada o suficiente para que casar fora dela não fosse simples.
 
-  - **[CONTEXTUAL]** Seu testamento (PRB-0005) é o documento que sustenta toda a linhagem Jacob Borer: o único registro primário que nomeia Jacob Bahrer como pai de Francisco, e a única fonte primária que conta Joaquim entre os herdeiros de Francisco — um único ato testamentário de 1888 que responde a questões que nenhum censo ou registro vital havia respondido.
+  - **[CONTEXTUAL]** Seu testamento (PRB-0005) é o documento que sustenta toda a linhagem Jacob Borer: o único registro em que o próprio Francisco nomeia seus pais Jacob Bohrer e Catharina Mayer, e a única fonte primária que conta Joaquim entre os herdeiros de Francisco — um único ato testamentário, feito em 1879 e aberto em 1888, que responde a questões que nenhum censo ou registro vital havia respondido.
 
   ## Identidade
 
   **Francisco José Bohrer** — grafado *Borer* na compilação dos colonos de Nova Friburgo
   (PUB-0003) e *Bohrer* em seu próprio testamento e nos registros civis de seus
-  descendentes; a variação *Borer → Bohrer* passa por ele. [PROVEN]
+  descendentes (a cópia do testamento escreve *Bohrer* no testamento propriamente dito e
+  *Borer* na aprovação do tabelião de 1879 e nos termos de 1888); a variação *Borer → Bohrer*
+  passa por ele. [PROVEN]
 
   - **Nascimento:** 9 de julho de 1832 na comarca de Nova Friburgo; batizado em 19 de agosto
-  de 1832 em São João Baptista [PROVEN — PAR-0054]. Seu próprio testamento de 1888 declara,
-  de forma independente, que era "natural deste termo" (PRB-0005). [PROVEN] A compilação
+  de 1832 em São João Baptista [PROVEN — PAR-0054]. Seu próprio testamento (feito em 1879,
+  aberto em 1888) declara, de forma independente, que era "natural deste termo" (PRB-0005).
+  [PROVEN] A compilação
   Imigrantes de Nova Friburgo dá 4 de julho de 1832 (PUB-0003) — uma discrepância de cinco
   dias que o batismo em mãos corrige. [LEAD, secundário]
 
-  - **Pais:** Jacob Bahrer e Catharina Moser (P-0050, P-0051; família F-0024), ambos já
-  falecidos em 1888, nomeados em seu próprio testamento (PRB-0005). [PROVEN] A mesma
+  - **Pais:** Jacob Bohrer (assim lido na imagem do testamento; antes catalogado "Bahrer"
+  [incerto]) e Catharina Moser (P-0050, P-0051; família F-0024), ambos já falecidos em 27 de
+  junho de 1879, nomeados em seu próprio testamento (PRB-0005) — que a escreve "Mayer". [PROVEN] A mesma
   compilação os identifica como o casal de colonos suíços Jacob Borer (n. 1801, Erschwil,
   Soleure) e Catharina Moser (PUB-0003) [LEAD] — a origem suíça e o sobrenome de solteira
   "Moser" NÃO são afirmados a partir do testamento, que lê "Mayer".
@@ -320,10 +415,13 @@ profile_pt: >-
   Itaboraí, perante o coadjutor Rufino José Alves e na casa do pai de José Antunes de
   Lemos, e só foi judicialmente justificado (Rio, 30 de junho de 1879) e registrado na
   Matriz de Itaboraí em 1º de agosto de 1879 (PAR-0002). [PROVEN, é anterior a 1879] Uma cláusula incerta de
-  "mais de vinte anos" nesse ato recuaria o casamento para cerca de 1858. [LEAD]
+  "mais de vinte anos" nesse ato recuaria o casamento para cerca de 1858. [LEAD] Seu testamento
+  cerrado foi aprovado em 27 de junho de 1879, três dias antes daquela sentença: ele parece ter
+  posto em ordem o casamento e a sucessão ao mesmo tempo. [INFERRED]
 
   - **Filhos:** Joaquim José Bohrer (P-0030, o primogênito), Laura, Guilherme (Samuel) e
-  Fernando — os quatro herdeiros nomeados em seu testamento (PRB-0005) [PROVEN] — além de
+  Fernando — os quatro herdeiros nomeados em seu testamento, "todos de menor idade" em 27 de
+  junho de 1879 (PRB-0005) [PROVEN] — além de
   Ludovina Borer (n. 21 de julho de 1862, f. ainda criança em 27 de dezembro de 1862),
   conforme PUB-0003 [LEAD]. Joaquim está ausente da lista de filhos da compilação; o
   testamento é a fonte autoritativa que o nomeia primogênito.
@@ -331,28 +429,38 @@ profile_pt: >-
   - **Óbito:** 6 de julho de 1888 no Alto da Serra, Nova Friburgo, aos 56 anos, de
   insuficiência mitral e dilatação aórtica [PROVEN — PAR-0055] — seu próprio ato paroquial de
   óbito/sepultamento. Já estava "já falecido" quando o registro de nascimento de 1890 de seu
-  neto Alberto o nomeia (CIV-0019) [PROVEN], e a data concorda com o testamento registrado em
-  1888 e com a compilação (PUB-0003).
+  neto Alberto o nomeia (CIV-0019) [PROVEN], e a data concorda com a abertura de seu
+  testamento nesse mesmo dia, 6 de julho de 1888 — "este testamento com que falleceu Francisco
+  José Borer" (PRB-0005) — e com a compilação (PUB-0003).
 
   ## Posição social e profissão
 
-  - **Testador com bens** [PROVEN] — deixou um testamento registrado formal, com
+  - **Testador com bens** [PROVEN] — em 1879 fez um testamento cerrado formal, com
   testamenteiros nomeados e um legado de caridade, marca de um homem com patrimônio a
-  dispor (PRB-0005).
+  dispor (PRB-0005). À sua morte, em 1888, esse patrimônio já não cobria as dívidas: foi
+  vendido em praça pública e absorvido pelos credores (PRB-0012) [PROVEN].
 
   - **Legado de caridade** [PROVEN] — 50 mil réis para as obras da Capella de Santo
-  Antonio a ser edificada no Suspiro, na vila (PRB-0005).
+  Antonio a ser edificada no Suspiro, na vila (PRB-0005). É duvidoso que tenha sido pago:
+  em 1890 a viúva declarou ao juízo que não podia "dar cumprimento do testamento" porque os
+  bens não bastaram para os credores (PRB-0012) [INFERRED que o legado ficou sem pagamento].
 
-  - **Testamenteiros nomeados no testamento** [PROVEN] — primeiro sua esposa Rosa Eugenia
-  de Lemos, depois seu cunhado Candido Pereira de Lemos (irmão de Rosa) e por fim seu
-  amigo Samuel Antonio dos Santos (PRB-0005). A escolha de um cunhado Lemos o situa dentro
-  da rede Lemos-Itaboraí de sua esposa.
+  - **Testamenteiros nomeados no testamento** [PROVEN] — "testamenteiros e tutores de meus
+  filhos, na ordem em que se achão": primeiro sua esposa Rosa Eugenia de Lemos, depois seu
+  cunhado Candido Pereira de Lemos (irmão de Rosa) e por fim seu amigo Samuel Antonio dos
+  Santos (PRB-0005). A escolha de um cunhado Lemos o situa dentro da rede Lemos-Itaboraí de
+  sua esposa. Samuel Antonio dos Santos também foi testemunha da aprovação de 1879,
+  apresentou o testamento para abertura em 6 de julho de 1888 e em 1890 assinou a petição de
+  Rosa por ela (PRB-0005, PRB-0012).
 
-  - **Letrado** [PROVEN] — seu testamento de 1888 encerra com "…que pedi a João José
-  Kramith que por mim escrevesse conforme lhe ditei, e no qual me assigno por estar
-  conforme" (PRB-0005): a redação foi delegada ao escrivão (praxe de um testamento
-  notarial), mas o próprio testador assina o instrumento — não uma fórmula *a rogo* / de
-  analfabetismo. O letramento é coerente com sua condição de colono proprietário.
+  - **Letrado** [PROVEN] — seu testamento de 1879 encerra com "…que pedi a João José Zamith
+  que por mim escrevesse conforme lhe ditei e no qual me assigno por estar conforme"
+  (PRB-0005; o sobrenome do tabelião é leitura incerta, antes "Kramith"): a redação foi
+  delegada ao tabelião (praxe de um testamento cerrado), mas o próprio testador assina o
+  instrumento — não uma fórmula *a rogo* / de analfabetismo —, e o auto de approvação
+  registra "que assigna o testador". O texto disponível é uma certidão, de modo que atesta a
+  assinatura sem mostrá-la. O letramento é coerente com sua condição de colono proprietário;
+  sua esposa, ao contrário, não sabia escrever (PRB-0005, PRB-0012).
 
   - **Residente no Alto da Serra** da Freguesia de São João Baptista, Nova Friburgo
   [PROVEN] — o mesmo bairro que seu filho Joaquim e seu neto Alberto ocupam no registro de
@@ -400,35 +508,43 @@ profile_pt: >-
   que legou às obras da Capela de Santo Antonio** (PRB-0005) [PROVEN] — cerca de um oitavo do
   ano desse mesmo trabalhador e da ordem de um vigésimo do que custava uma pessoa escravizada
   adulta nessas décadas [CONTEXTUAL]. Propriedade real, posição real, um ato real de filantropia
-  cívica — e, medido contra o mundo em que se inseria, muito pouco dinheiro.
+  cívica — e, medido contra o mundo em que se inseria, muito pouco dinheiro; e em 1890 até esse
+  legado provavelmente ficara sem pagamento, absorvido o espólio pelos credores (PRB-0012)
+  [INFERRED].
 
   **O que o testamento não contém informa tanto quanto o que contém.** [INFERRED] Ele dispõe de
   "meus bens" sem nomear um único item: nenhum lote, nenhuma casa, nenhuma venda, nenhum crédito
   a receber — e nenhuma pessoa escravizada. Um testamento não é um inventário e não tem
-  obrigação de arrolar o espólio, de modo que o silêncio não prova que ele fosse pequeno. Mas
-  foi ditado poucos meses antes da Abolição, numa província em que a escravização era a forma
+  obrigação de arrolar o espólio, de modo que o silêncio não prova que ele fosse pequeno (o
+  inventário, que o arrolaria, não está disponível; o lado da recuperação o relata no
+  FamilySearch [LEAD]). Mas foi ditado em junho de 1879, nove anos antes da Abolição, numa
+  província em que a escravização era a forma
   corrente de capital entre proprietários, e **nenhum registro disponível neste repositório
   nomeia uma pessoa escravizada em qualquer domicílio Bohrer, Lemos ou Silva-Ferreira** — uma
   negativa delimitada ao corpus disponível, não uma afirmação sobre registros ainda não vistos.
   Seja o que for que esta família possuísse, os documentos que temos nunca a mostram possuindo
   pessoas, o que a situa inteiramente fora do estrato fundiário.
 
-  **A sucessão partível e uma longa viuvez impediram que o único momento fundiário se
-  compusesse.** [CONTEXTUAL/INFERRED] A lei brasileira dividia o espólio igualmente entre todos
-  os filhos, e o testamento nomeia quatro — Joaquim, Laura, Guilherme e Fernando — como "meus
-  unicos e legitimos herdeiros" (PRB-0005) [PROVEN]; o patrimônio foi, portanto, dividido em
-  quatro desde o início. A meação da viúva manteve depois metade dele fora do alcance dos
-  herdeiros enquanto Rosa Eugenia vivesse, e ela viveu mais trinta e um anos, até novembro de
-  1919 (PAR-0058) [PROVEN]. Quando a propriedade pôde de fato ser transmitida, o primogênito
-  Joaquim já estava morto — em 1924 consta "já fallecido" (CIV-0016) [PROVEN]. O único momento
-  fundiário da linha nunca chegou à geração seguinte como capital de giro; chegou tarde e em
-  frações.
+  **Uma venda para os credores, e não a partilha, pôs fim ao único momento fundiário.**
+  [PROVEN/INFERRED] O testamento nomeia quatro filhos — Joaquim, Laura, Guilherme e Fernando —
+  como "meus unicos e legitimos herdeiros" (PRB-0005) [PROVEN], e a lei brasileira dividiria o
+  espólio igualmente entre eles, depois da meação da viúva [CONTEXTUAL]. Essa divisão nunca
+  aconteceu. No inventário que se seguiu à sua morte os bens do casal ("os bens de seu cazal")
+  foram descritos, avaliados, vendidos em praça pública e rateados entre os credores, "e
+  consequentemente, absorvidos para taes pagamentos"; em setembro de 1890 Rosa Eugenia declarou
+  à Provedoria que não podia cumprir o testamento, e o juízo a exonerou da prestação de contas
+  (PRB-0012) [PROVEN]. Nem os quinhões dos herdeiros nem a metade da viúva sobreviveram à venda
+  [INFERRED]. Rosa Eugenia viveu mais trinta e um anos, até novembro de 1919 (PAR-0058)
+  [PROVEN], sem o espólio. O único momento fundiário da linha nunca chegou à geração seguinte
+  como capital de giro.
 
   **Daqui em diante a base não cresce; ela se converte — de herdável em contingente.**
   [INFERRED] Seus filhos sobreviventes saíram da terra para o comércio e a vida pública local:
   Joaquim, *negociante* no Alto da Serra (CIV-0019, CIV-0020); Guilherme, gerente e proprietário
   do semanário *A Sentinella* (NWS-0002, NWS-0005, NWS-0006) [PROVEN]. É uma passagem de riqueza
-  que se herda para riqueza que termina com o homem e com o mercado. O letramento seguiu o mesmo
+  que se herda para riqueza que termina com o homem e com o mercado — e, depois da venda para os
+  credores de 1888–90 (PRB-0012), o que os filhos tinham foi reconstruído, não herdado
+  [INFERRED]. O letramento seguiu o mesmo
   caminho: ele assina o próprio testamento [PROVEN] e, na geração dos filhos, as letras eram o
   instrumento de trabalho de um comerciante e de um jornalista — compradas porque o papel as
   exigia, não transmitidas como vantagem de classe [CONTEXTUAL/INFERRED]. Este é o arco Bohrer
@@ -444,11 +560,20 @@ profile_pt: >-
 
   - A data exata do casamento por trás da justificação de 1879. [OPEN]
 
+  - Seu próprio inventário (Juízo de Órfãos de Nova Friburgo, 1888–90; inventariante Rosa)
+  arrolaria o espólio, as dívidas, os credores e as idades dos herdeiros. O lado da
+  recuperação o relata localizado no FamilySearch (DGS 105875671, cerca de 300 imagens,
+  incluindo a praça de uma "caza de negocio do Alto da Serra") [LEAD — não lido]. [OPEN]
+
   ## Fontes disponíveis (neste repositório)
 
-  - PRB-0005 (seu próprio testamento registrado de 1888 — pais, esposa, quatro filhos,
-  testamenteiros, legado) · PAR-0002 (justificação de casamento de 1879 na Matriz de Nova
-  Friburgo).
+  - PRB-0005 (certidão, de 27 de janeiro de 1890, de seu testamento cerrado registrado de 27
+  de junho de 1879 — pais, esposa, quatro filhos menores, testamenteiros e tutores, legado;
+  sua aprovação no mesmo dia, sua abertura em 6 de julho de 1888 e seu registro em 24 de julho
+  de 1888) · PRB-0012 (os autos da Provedoria de 1890 sobre a sua testamentaria — o espólio
+  vendido em praça e absorvido pelos credores; a viúva exonerada da prestação de contas, 16 de
+  setembro de 1890) · PAR-0002 (justificação de casamento de 1879 registrada na Matriz de
+  Itaboraí).
 
   - PAR-0054 (seu próprio batismo de 1832 em Nova Friburgo — nascido em 9 de julho, batizado
   em 19 de agosto de 1832; pais Jacob Bohrer × Catharina Moser) · PAR-0055 (seu próprio
@@ -472,11 +597,12 @@ profile_pt: >-
 
   ## Onde ir hoje
 
-  - **Nascimento, óbito e justificação do casamento (1832, 1888, 1879):** Catedral
+  - **Nascimento e óbito (1832, 1888):** Catedral
   Diocesana / Igreja Matriz de São João Batista, Centro, Nova Friburgo, RJ (Rua Monsenhor
   José Antônio Teixeira 23, CEP 28610-390; GPS -22.28159, -42.53085) [RESOLVED] ·
   [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
 
-  - **Casamento como celebrado (~1858 ou antes):** Igreja Matriz de São João Batista de
+  - **Casamento como celebrado (~1858 ou antes) e sua justificação de 1879, registrada no
+  livro de casamentos da Matriz de Itaboraí (fl. 177):** Igreja Matriz de São João Batista de
   Itaboraí, Centro, Itaboraí, RJ (Praça Marechal Floriano Peixoto 15, CEP 24800-165; GPS
   -22.74472, -42.85833) [RESOLVED] · [Maps](https://maps.google.com/?q=-22.74472,-42.85833)

@@ -1,0 +1,348 @@
+schema_version: 1
+id: PAR-0100
+title: >-
+  São Sebastião death register — Gaspar de Souto, husband of Maria Mendes, 2 December 1727
+title_pt: >-
+  Registo de óbitos de São Sebastião — Gaspar de Souto, marido de Maria Mendes, 2 de dezembro de
+  1727
+record_type: Parish death register entry (whole two-page spread of five entries transcribed)
+record_category: parish_register
+source_form: original
+information_quality: primary
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1727-12-02"
+  original_text: >-
+    Em os dois dias do mes de Dezembro do anno de mil e sete Centos vinte e dois, digo vinte e
+    sete annos
+event_place_text: São Sebastião, Terceira, Azores
+repository:
+  name: >-
+    Culturacores / DRaC — Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro (BPAR),
+    Angra do Heroísmo
+  archive_or_registry: >-
+    Arquivo Regional de Angra do Heroísmo — registos paroquiais de São Sebastião (Terceira)
+  collection: Paróquia de São Sebastião, Terceira — Livros de Óbitos
+  book: TER-AH-SAOSEBASTIAO-O-1696-1762
+  page: >-
+    p.0099 (Culturacores image numbering, per the retrieval side); the right-hand page carries
+    the written folio number 97
+  image: >-
+    One open-CDN image of the two-page spread, 1269×1004 px, watermarked "DRaC - BPARAH" (a
+    reduced-resolution copy)
+  record_number: first entry of the left-hand page (year head 1727)
+  catalogue_reference: >-
+    TER-AH-SAOSEBASTIAO-O-1696-1762, p.0099, left page, first entry — death of Gaspar de Souto,
+    2 December 1727. Downloaded by the retrieval agent from the open Culturacores CDN (DRaC /
+    BPAR Angra do Heroísmo) and synced to this repository; promoted 2026-10-10.
+access_date: "2026-10-10"
+language: pt-PT
+transcription: >-
+  [Whole two-page spread — São Sebastião óbitos, book TER-AH-SAOSEBASTIAO-O-1696-1762, image
+  p.0099; reduced-resolution open-CDN copy, 1269×1004 px, watermark "DRaC - BPARAH" across both
+  pages and a stamp of the Arquivo Distrital (Angra) at the lower right. Five entries: December
+  1727 and January 1728 on the left page (hand of the cura Manoel Fernandes), three of 1728 on
+  the right page (another hand, the vigário). " / " marks a line break of the original;
+  spelling and abbreviations as written, expansions in a separate bracket. Read 2026-10-10.]
+
+
+  LEFT PAGE
+
+
+  [Year head:] 1727
+
+
+  [entry 1 of 5 — TARGET: Gaspar de Souto, husband of Maria Mendes; 2 December 1727]
+  [Margin, in lighter ink:] Gaspar de / Souto ca- / zado com / M.ª Mendes
+  [Margin, below, a single word in darker ink:] [illegible]
+  "Em os dois dias do mes de Dezembro do anno / de mil e sete Centos vinte e dois, digo vinte e
+  sete / annos faleceo da vida presente Gaspar de / Souto Cazado Com Maria Mendes natural e
+  freguez / desta Matriz de S. Seb.am [uncertain: S. Seb.am — abbreviated] de idade de setenta /
+  annos pouco mais ou menos Recebeo todos os divinos / Sacram.tos foi sepultado em huma
+  sepultura da / fabrica não fez testamento sg.º [uncertain: sg.º] o R.do Confessor / Lavrei
+  este termo die et mẽse, et anno ut supra"
+  [Signature:] o Cura Manoel Fernandes
+  [Expansions: digo = "I mean" (the scribe's own correction of the year); M.ª = Maria; S.
+  Seb.am = São Sebastião; Sacram.tos = Sacramentos; sg.º = segundo (if so read); R.do =
+  Reverendo.]
+
+
+  [Year head:] 1728
+
+
+  [entry 2 of 5 — Antonio Dias, husband of Antonia teixeira; 5 January 1728]
+  [Margin:] Antonio / Dias Caza- / do Com Ã- / tonia tei- / xeira
+  [Right margin:] Pobre
+  "Em os sinco dias do mes de Janeiro do anno / de mil e sete Centos e vinte e outo annos /
+  faleceo da vida prezente Antonio / Dias Cazado Com Ãtonia [uncertain: Ãtonia] teixeira ella
+  / natural da freguezia desta Matriz e elle [uncertain: elle] / natural da Ilha do Pico
+  [uncertain: Pico] de idade de / setenta e outo [interlinear: annos] pouco mais ou menos
+  Recebeo / todos os divinos Sacramentos foi sepul- / tado na Igreja da Mizericordia não fez /
+  testamento por ser pobre sg.º [uncertain: sg.º] o R.do Confessor / Lavrei este termo die et
+  mẽse, et anno ut / supra"
+  [Signature:] o Cura Manoel Fernandes
+  [Expansions: Ãtonia = Antonia; outo = oito.]
+
+
+  [Lower left margin, below entry 2, uncertain throughout:] Aqui deu / Conta das sepul- /
+  turas o Mordo- / mo da [illegible] Villa
+
+
+  RIGHT PAGE
+
+
+  [Year head:] 1728   [Folio number, top right:] 97
+
+
+  [entry 3 of 5 — Barbora M.da, widow of Fernando de Aguiar; 12 January 1728]
+  [Margin:] Barbora M.da / v.ª de Fernando / Aguiar
+  [Right margin:] Pobre
+  "Em os doze dias do mes de Jan.ro do anno de [a flourished word, illegible] / mil e sete
+  Centos vinte e outo faleceo da / vida p.nte Barbora M.da viuva de Fernando de / Aguiar de
+  idade de setenta annos pouco mais / ou menos Recebeo todos os divinos Sacramentos / foi
+  sepultada no corpo [illegible] Igr.a Matriz desta / Villa onde era freguesa em huma sepultura
+  da / fabrica junto a [illegible] não fes testa- / m.to [illegible] p.ª constar [illegible]
+  este termo q. assignei"
+  [Signature:] o Vig.º Manoel Teixeira [uncertain: Forte]
+  [Expansions: Jan.ro = Janeiro; p.nte = presente; M.da = Machada (probable); v.ª = viuva;
+  Igr.a = Igreja; p.ª = para; q. = que; Vig.º = Vigário.]
+
+
+  [entry 4 of 5 — Beatriz R.z, wife of M.el Camelo; 25 January 1728]
+  [Margin:] Beatriz R.z m.er / de M.el [illegible] Camelo
+  "Em os vinte e sinco dias do mes de Janeiro do / anno de mil e sete Centos e vinte e outo
+  fale- / ceo da vida p.nte Beatriz R.z molher de [uncertain: M.el] / [illegible] Camello
+  [illegible] digo Camelo de idade de / setenta e sinco annos pouco mais ou menos / Recebeo
+  todos os divinos Sacram.tos e ella [illegible] / [illegible] testam.to [illegible] sepultada
+  [illegible] / [illegible] Igr.a Matriz de S. Seb.am onde / era freguesa em huma sepultura da
+  fabri- / ca junto a porta Principal [uncertain: porta Principal] de q. p.ª constar / fiz
+  [illegible] este termo q. assignei"
+  [Signature:] o Vig.º Manoel Teixeira [uncertain: Forte]
+  [Expansions: R.z = Rodriguez (probable); m.er = molher; M.el = Manoel.]
+
+
+  [entry 5 of 5 — M.el Camelo Leonardes, widower; 10 March 1728]
+  [Margin:] M.el Camelo Leonar- / [des] v.º de [illegible]
+  [Right margin:] Pobre
+  "Em os des dias do mes de M.ço [uncertain: M.ço] do anno de mil e sete sen- / tos e vinte e
+  outo faleceo da vida p.nte M.el Camelo / Leonardes v.º de [illegible] freguez [illegible]
+  Matriz / de S. Seb.am Villa do mesmo n.e de idade de outenta / annos pouco mais ou menos
+  Recebeo todos os divinos / Sacram.tos foi sepultado no corpo da dita Matriz / em huma
+  sepultura da fabrica não fes testam.to / por ser m.to pobre [illegible] sg.º [uncertain:
+  sg.º] o R.do Confessor e lavrei / este termo q. assignei"
+  [Signature:] o Vig.º Manoel Teixeira [uncertain: Forte]
+  [Expansions: M.ço = Março; v.º = viuvo; n.e = nome; outenta = oitenta; m.to = muito.]
+transcription_pt: >-
+  [Página dupla inteira — óbitos de São Sebastião, livro TER-AH-SAOSEBASTIAO-O-1696-1762,
+  imagem p.0099; cópia de resolução reduzida do CDN aberto, 1269×1004 px, marca de água "DRaC -
+  BPARAH" sobre as duas páginas e um carimbo do Arquivo Distrital (Angra) no canto inferior
+  direito. Cinco assentos: dezembro de 1727 e janeiro de 1728 na página esquerda (letra do cura
+  Manoel Fernandes), três de 1728 na página direita (outra letra, a do vigário). " / " marca uma
+  mudança de linha do original; ortografia e abreviaturas como estão escritas, desdobramentos
+  entre parênteses retos à parte. Lido em 2026-10-10.]
+
+
+  PÁGINA ESQUERDA
+
+
+  [Ano no cabeçalho:] 1727
+
+
+  [assento 1 de 5 — ALVO: Gaspar de Souto, marido de Maria Mendes; 2 de dezembro de 1727]
+  [Margem, em tinta mais clara:] Gaspar de / Souto ca- / zado com / M.ª Mendes
+  [Margem, por baixo, uma palavra em tinta mais escura:] [ilegível]
+  "Em os dois dias do mes de Dezembro do anno / de mil e sete Centos vinte e dois, digo vinte e
+  sete / annos faleceo da vida presente Gaspar de / Souto Cazado Com Maria Mendes natural e
+  freguez / desta Matriz de S. Seb.am [incerto: S. Seb.am — abreviado] de idade de setenta /
+  annos pouco mais ou menos Recebeo todos os divinos / Sacram.tos foi sepultado em huma
+  sepultura da / fabrica não fez testamento sg.º [incerto: sg.º] o R.do Confessor / Lavrei este
+  termo die et mẽse, et anno ut supra"
+  [Assinatura:] o Cura Manoel Fernandes
+  [Desdobramentos: digo = correcção do próprio escrivão ao ano; M.ª = Maria; S. Seb.am = São
+  Sebastião; Sacram.tos = Sacramentos; sg.º = segundo (se assim se ler); R.do = Reverendo.]
+
+
+  [Ano no cabeçalho:] 1728
+
+
+  [assento 2 de 5 — Antonio Dias, marido de Antonia teixeira; 5 de janeiro de 1728]
+  [Margem:] Antonio / Dias Caza- / do Com Ã- / tonia tei- / xeira
+  [Margem direita:] Pobre
+  "Em os sinco dias do mes de Janeiro do anno / de mil e sete Centos e vinte e outo annos /
+  faleceo da vida prezente Antonio / Dias Cazado Com Ãtonia [incerto: Ãtonia] teixeira ella /
+  natural da freguezia desta Matriz e elle [incerto: elle] / natural da Ilha do Pico [incerto:
+  Pico] de idade de / setenta e outo [entrelinhado: annos] pouco mais ou menos Recebeo / todos
+  os divinos Sacramentos foi sepul- / tado na Igreja da Mizericordia não fez / testamento por
+  ser pobre sg.º [incerto: sg.º] o R.do Confessor / Lavrei este termo die et mẽse, et anno ut
+  / supra"
+  [Assinatura:] o Cura Manoel Fernandes
+  [Desdobramentos: Ãtonia = Antonia; outo = oito.]
+
+
+  [Margem inferior esquerda, abaixo do assento 2, toda incerta:] Aqui deu / Conta das sepul- /
+  turas o Mordo- / mo da [ilegível] Villa
+
+
+  PÁGINA DIREITA
+
+
+  [Ano no cabeçalho:] 1728   [Número de fólio, no alto à direita:] 97
+
+
+  [assento 3 de 5 — Barbora M.da, viúva de Fernando de Aguiar; 12 de janeiro de 1728]
+  [Margem:] Barbora M.da / v.ª de Fernando / Aguiar
+  [Margem direita:] Pobre
+  "Em os doze dias do mes de Jan.ro do anno de [uma palavra com floreados, ilegível] / mil e
+  sete Centos vinte e outo faleceo da / vida p.nte Barbora M.da viuva de Fernando de / Aguiar
+  de idade de setenta annos pouco mais / ou menos Recebeo todos os divinos Sacramentos / foi
+  sepultada no corpo [ilegível] Igr.a Matriz desta / Villa onde era freguesa em huma sepultura
+  da / fabrica junto a [ilegível] não fes testa- / m.to [ilegível] p.ª constar [ilegível] este
+  termo q. assignei"
+  [Assinatura:] o Vig.º Manoel Teixeira [incerto: Forte]
+  [Desdobramentos: Jan.ro = Janeiro; p.nte = presente; M.da = Machada (provável); v.ª = viuva;
+  Igr.a = Igreja; p.ª = para; q. = que; Vig.º = Vigário.]
+
+
+  [assento 4 de 5 — Beatriz R.z, mulher de M.el Camelo; 25 de janeiro de 1728]
+  [Margem:] Beatriz R.z m.er / de M.el [ilegível] Camelo
+  "Em os vinte e sinco dias do mes de Janeiro do / anno de mil e sete Centos e vinte e outo
+  fale- / ceo da vida p.nte Beatriz R.z molher de [incerto: M.el] / [ilegível] Camello
+  [ilegível] digo Camelo de idade de / setenta e sinco annos pouco mais ou menos / Recebeo
+  todos os divinos Sacram.tos e ella [ilegível] / [ilegível] testam.to [ilegível] sepultada
+  [ilegível] / [ilegível] Igr.a Matriz de S. Seb.am onde / era freguesa em huma sepultura da
+  fabri- / ca junto a porta Principal [incerto: porta Principal] de q. p.ª constar / fiz
+  [ilegível] este termo q. assignei"
+  [Assinatura:] o Vig.º Manoel Teixeira [incerto: Forte]
+  [Desdobramentos: R.z = Rodriguez (provável); m.er = molher; M.el = Manoel.]
+
+
+  [assento 5 de 5 — M.el Camelo Leonardes, viúvo; 10 de março de 1728]
+  [Margem:] M.el Camelo Leonar- / [des] v.º de [ilegível]
+  [Margem direita:] Pobre
+  "Em os des dias do mes de M.ço [incerto: M.ço] do anno de mil e sete sen- / tos e vinte e
+  outo faleceo da vida p.nte M.el Camelo / Leonardes v.º de [ilegível] freguez [ilegível] Matriz
+  / de S. Seb.am Villa do mesmo n.e de idade de outenta / annos pouco mais ou menos Recebeo
+  todos os divinos / Sacram.tos foi sepultado no corpo da dita Matriz / em huma sepultura da
+  fabrica não fes testam.to / por ser m.to pobre [ilegível] sg.º [incerto: sg.º] o R.do
+  Confessor e lavrei / este termo q. assignei"
+  [Assinatura:] o Vig.º Manoel Teixeira [incerto: Forte]
+  [Desdobramentos: M.ço = Março; v.º = viuvo; n.e = nome; outenta = oitenta; m.to = muito.]
+reading_reliability: complete
+abstract: >-
+  Original death act of Gaspar de Souto Maior (P-0131), the first entry under the year head
+  1727 on image p.0099 of the São Sebastião (Terceira) death book TER-AH-SAOSEBASTIAO-O-1696-1762,
+  held as a reduced-resolution copy (1269×1004 px) from the open Culturacores CDN. On 2 December
+  1727 "Gaspar de Souto", "Cazado Com Maria Mendes", native and parishioner of "this Matriz of
+  S. Seb[astião]", died aged "setenta annos pouco mais ou menos", having received the
+  sacraments; he was buried in a grave belonging to the church fabric and made no will. The
+  entry is written and signed by the cura Manoel Fernandes; the margin repeats "Gaspar de Souto
+  cazado com M.ª Mendes". The wife and the age identify him: Mendes Forjaz Vol. IX (PUB-0005)
+  gives the Gaspar baptised in 1657 a second marriage on 8.2.1694 to Maria Mendes de Borba and
+  a death "a 2.12.1727" with no place, while his namesake cousin married D. Ana de Sousa and
+  left no issue; seventy years fits a December 1657 baptism (PAR-0099). The act places his
+  death on Terceira.
+abstract_pt: >-
+  Assento original de óbito de Gaspar de Souto Maior (P-0131), o primeiro sob o ano 1727 na
+  imagem p.0099 do livro de óbitos de São Sebastião (Terceira) TER-AH-SAOSEBASTIAO-O-1696-1762,
+  guardado como cópia de resolução reduzida (1269×1004 px) do CDN aberto do Culturacores. A 2 de
+  dezembro de 1727 faleceu "Gaspar de Souto", "Cazado Com Maria Mendes", natural e freguês
+  "desta Matriz de S. Seb[astião]", com "setenta annos pouco mais ou menos", tendo recebido os
+  sacramentos; foi sepultado numa sepultura da fábrica da igreja e não fez testamento. O assento
+  é escrito e assinado pelo cura Manoel Fernandes; a margem repete "Gaspar de Souto cazado com
+  M.ª Mendes". A mulher e a idade identificam-no: o Vol. IX de Mendes Forjaz (PUB-0005) dá ao
+  Gaspar baptizado em 1657 um segundo casamento, a 8.2.1694, com Maria Mendes de Borba, e um
+  óbito "a 2.12.1727" sem local, ao passo que o primo homónimo casou com D. Ana de Sousa e não
+  deixou geração; setenta anos condizem com um baptismo de dezembro de 1657 (PAR-0099). O
+  assento situa a morte dele na Terceira.
+reliability:
+  assessment: >-
+    Primary, original and direct for the death, its date and place, the deceased's name, his
+    marital status and wife, his approximate age, his receiving the sacraments, his burial in a
+    fabric grave and his dying intestate: the act was written by the cura of the parish at the
+    time. Every core fact of the target entry is legible on this copy — the date (with the
+    scribe's own correction "vinte e dois, digo vinte e sete" and the page head 1727), the name
+    "Gaspar de Souto" (body and margin), the wife "Maria Mendes" (body and margin) and the age
+    "setenta annos" — so reading_reliability is complete; the inline [uncertain] marks in this
+    entry fall only on a formula word ("sg.º") and on the spelling of the parish abbreviation,
+    whose meaning is fixed by the book itself. The information on age and origin came from an
+    unnamed informant and is approximate ("pouco mais ou menos"). The act states no parents, so
+    the identification with the man baptised on 23 December 1657 (PAR-0099) is indirect: it
+    rests on the name, the age (~70 in 1727), the wife Maria Mendes (whom Vol. IX gives as the
+    second wife of Gaspar b. 1657, by a marriage of 8.2.1694 not held here) and the exact
+    agreement with Vol. IX's death date 2.12.1727.
+  informant: >-
+    Not named; the cura Manoel Fernandes wrote and signed the act ("Lavrei este termo")
+  limitations: >-
+    This is a REDUCED-RESOLUTION copy from the open Culturacores / DRaC-BPARAH CDN (1269×1004
+    px for the whole two-page spread, watermarked), not a scan of the original. It is legible
+    for the core facts of the target entry, but several words of the four other entries — and
+    the vicar's surname on the right page — could not be read at this size and are marked
+    [illegible] or [uncertain]. A 300-dpi scan of the original can be ordered from BPAR Angra do
+    Heroísmo (the route used for PAR-0099, Requisição nº 101) if a fuller reading is ever
+    needed. The page number p.0099 is the retrieval side's image number; the written folio on
+    the right page reads 97. The burial date is not stated separately.
+digital_file:
+  path: evidence/parish/PAR-0100-death-gaspar-de-souto-maior-1727-saosebastiao-terceira.jpg
+  sha256: 5f214d9a72407f6072d517151f983270f7f7e729d0d49d5d0a67d9d656dd6788
+linked_people:
+- P-0131
+linked_families: []
+linked_events:
+- E-0137
+linked_places: []
+private: false
+notes:
+- text: >-
+    Identification. "Casado com Maria Mendes" is what ties this entry to P-0131 rather than to
+    his namesake cousin: Mendes Forjaz Vol. IX (PUB-0005, p.261) gives Gaspar de Souto-Maior,
+    baptised 1657, a second marriage at São Sebastião on 8.2.1694 to Maria Mendes de Borba, and
+    "f. a 2.12.1727" — the same day as this act; the cousin Gaspar de Souto-Maior (p.260, son of
+    Baltazar Gonçalves Leonardes) married D. Ana de Sousa at Porto Judeu in 1687 and was S.g.
+    "Setenta annos pouco mais ou menos" fits a man baptised on 23 December 1657 (PAR-0099), who
+    would have been just under 70. The marriage to Maria Mendes is known here only from Vol. IX;
+    the retrieval side reports reading the 1694 act itself (C-1673-1766 p.0044), which is not
+    held here.
+  text_pt: >-
+    Identificação. "Cazado com Maria Mendes" é o que liga este assento ao P-0131 e não ao primo
+    homónimo: o Vol. IX de Mendes Forjaz (PUB-0005, p.261) dá a Gaspar de Souto-Maior, baptizado
+    em 1657, um segundo casamento em São Sebastião a 8.2.1694 com Maria Mendes de Borba, e "f. a
+    2.12.1727" — o mesmo dia deste assento; o primo Gaspar de Souto-Maior (p.260, filho de
+    Baltazar Gonçalves Leonardes) casou com D. Ana de Sousa no Porto Judeu em 1687 e foi S.g.
+    "Setenta annos pouco mais ou menos" condiz com um homem baptizado a 23 de dezembro de 1657
+    (PAR-0099), que teria pouco menos de 70 anos. O casamento com Maria Mendes só é conhecido
+    aqui pelo Vol. IX; a pesquisa de recuperação diz ter lido o próprio assento de 1694
+    (C-1673-1766 p.0044), que não está guardado aqui.
+- text: >-
+    Consequence. This act places Gaspar's death — undated as to place in Vol. IX — in his home
+    parish of São Sebastião, Terceira. A man who died on Terceira in 1727, still married to
+    Maria Mendes, cannot be Gaspar Ferreira (P-0092), the father of Joaquim José Ferreira de
+    Toledo, who was born and baptised at Villa Rica, Minas Gerais, and married in 1783 (PAR-0018).
+    That is why the two were separated on 2026-10-10 and this source is linked to P-0131 only.
+  text_pt: >-
+    Consequência. Este assento situa a morte de Gaspar — sem local no Vol. IX — na sua freguesia
+    natal de São Sebastião, Terceira. Um homem que morreu na Terceira em 1727, ainda casado com
+    Maria Mendes, não pode ser Gaspar Ferreira (P-0092), pai de Joaquim José Ferreira de Toledo,
+    nascido e baptizado em Villa Rica, Minas Gerais, e casado em 1783 (PAR-0018). Por isso os dois
+    foram separados a 2026-10-10 e esta fonte liga-se apenas ao P-0131.
+- text: >-
+    Year correction. The scribe first wrote "vinte e dois" and corrected himself in the line:
+    "vinte e dois, digo vinte e sete". The cancelled word has the same letter forms as the "dois"
+    of the date in the first line ("Em os dois dias"). The page head (1727) and the next entry (5
+    January 1728) confirm 1727.
+  text_pt: >-
+    Correcção do ano. O escrivão escreveu primeiro "vinte e dois" e corrigiu-se na própria
+    linha: "vinte e dois, digo vinte e sete". A palavra emendada tem as mesmas formas de letra
+    que o "dois" da data na primeira linha ("Em os dois dias"). O cabeçalho da página (1727) e o
+    assento seguinte (5 de janeiro de 1728) confirmam 1727.
+- text: >-
+    Provenance. Synced by the retrieval agent as
+    rec-armond-gaspar-soutomaior-death-terceira-1727-culturacores.jpg (plan
+    PLAN-armond-azorean-origin-terceira, item A5) and value-gated and promoted here on
+    2026-10-10 after a direct read of the image.
+  text_pt: >-
+    Proveniência. Sincronizado pelo agente de recolha como
+    rec-armond-gaspar-soutomaior-death-terceira-1727-culturacores.jpg (plano
+    PLAN-armond-azorean-origin-terceira, item A5) e avaliado e promovido aqui a 2026-10-10 após
+    leitura directa da imagem.

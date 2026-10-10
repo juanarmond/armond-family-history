@@ -1,0 +1,117 @@
+schema_version: 1
+id: F-0067
+partners:
+- person_id: P-0134
+  role: partner
+- person_id: P-0135
+  role: partner
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0101
+  - PAR-0102
+  notes:
+  - text: >-
+      José Campello de Moraes and Emerenciana Maria de Jesus are named together as the
+      maternal grandparents of children of Manoel de Lemos Pereira and Maria Thereza
+      de Jesus in two original Itaboraí baptism records twenty years apart — Antonio,
+      21 October 1821 (PAR-0101), and João and Maria, 4 March 1841 (PAR-0102).
+      Strong-evidence, not confirmed (research/README.md, Confirmed / Strong
+      evidence): neither entry states a marriage — the pair is named as grandparents,
+      indirect evidence of a union — and both statements presumably come from the
+      same family's declarations at a grandchild's baptism, so they are not
+      independent in the way a marriage act plus a grandchild's baptism would be.
+      Partner role "partner", not "spouse", because no record held states that they
+      were married. The retrieval side reports them as godparents together in 1822
+      and as paternal grandparents in an 1840 baptism of another grandson [LEAD —
+      images not held]; their marriage act (Itaboraí, before about 1800) would
+      confirm the union.
+    text_pt: >-
+      José Campello de Moraes e Emerenciana Maria de Jesus são nomeados juntos como
+      avós maternos de filhos de Manoel de Lemos Pereira e Maria Thereza de Jesus em
+      dois registros originais de batismo de Itaboraí, com vinte anos de intervalo —
+      Antonio, 21 de outubro de 1821 (PAR-0101), e João e Maria, 4 de março de 1841
+      (PAR-0102). Strong-evidence, não confirmed (research/README.md, Confirmado /
+      Evidência forte): nenhum assento declara casamento — o par é nomeado como avós,
+      evidência indireta de uma união — e as duas declarações vêm presumivelmente da
+      mesma família, ao batizar um neto, e não são independentes como seriam um
+      assento de casamento e um batismo de neto. Papel "partner", não "spouse",
+      porque nenhum registro disponível declara que eram casados. A pesquisa de
+      recuperação os relata como padrinhos juntos em 1822 e como avós paternos num
+      batismo de 1840 de outro neto [LEAD — imagens não disponíveis]; seu assento de
+      casamento (Itaboraí, antes de cerca de 1800) confirmaria a união.
+children:
+- person_id: P-0053
+  parent_relationships:
+  - parent_id: P-0134
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0101
+    - PAR-0102
+    notes:
+    - text: >-
+        Both records name José Campello de Moraes as maternal grandfather of children
+        of "Manoel de Lemos Pereira" and "Maria Thereza de Jezus/Jesus" (PAR-0101,
+        1821; PAR-0102, 1841), so as these records stand he is that Maria Thereza's
+        father. Strong-evidence, not confirmed: the link to P-0053 rests on
+        identifying that couple with Rosa Eugenia de Lemos's parents — the same two
+        names, in the same full form as the couple's 1834 and 1838 entries, in the
+        same Itaboraí register series; the two records, twenty years apart, agree on
+        all four grandparents; and the retrieval side reports no competing couple of
+        these names in its 1821-1842 sweep [LEAD]. No record states the parentage
+        directly — Maria Thereza's own baptism or marriage is not held (reported to
+        fall in gaps of the filmed registers). Modelled at strong-evidence on the
+        owner's authorisation of 2026-10-10 ("with their link to Rosa at STRONG, not
+        PROVEN").
+      text_pt: >-
+        Os dois registros nomeiam José Campello de Moraes como avô materno de filhos
+        de "Manoel de Lemos Pereira" e "Maria Thereza de Jezus/Jesus" (PAR-0101, 1821;
+        PAR-0102, 1841), de modo que, nesses registros, ele é o pai dessa Maria
+        Thereza. Strong-evidence, não confirmed: o vínculo com P-0053 depende de
+        identificar esse casal com os pais de Rosa Eugenia de Lemos — os mesmos dois
+        nomes, na mesma forma completa dos assentos do casal de 1834 e 1838, na mesma
+        série de livros de Itaboraí; os dois registros, com vinte anos de intervalo,
+        concordam nos quatro avós; e a pesquisa de recuperação não relata casal
+        concorrente com esses nomes na sua varredura de 1821-1842 [LEAD]. Nenhum
+        registro declara a filiação diretamente — o batismo ou casamento da própria
+        Maria Thereza não está disponível (relatados como caindo em lacunas dos livros
+        filmados). Modelado em strong-evidence com a autorização do dono de
+        2026-10-10 ("com o vínculo a Rosa em STRONG, não PROVEN").
+  - parent_id: P-0135
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0101
+    - PAR-0102
+    notes:
+    - text: >-
+        As for the paternal link: "Emmerencianna Maria de Jezus" (1821) and
+        "Emmerencianna/Emerencianna Maria de Jesus" (1841) is named as maternal
+        grandmother of the same couple's children. Strong-evidence for the same
+        identification reasons.
+      text_pt: >-
+        Como no vínculo paterno: "Emmerencianna Maria de Jezus" (1821) e
+        "Emmerencianna/Emerencianna Maria de Jesus" (1841) é nomeada avó materna dos
+        filhos do mesmo casal. Strong-evidence pelas mesmas razões de identificação.
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Parents of Maria Thereza de Jesus (P-0053), hence Rosa Eugenia de Lemos's
+    (P-0035) maternal grandparents — the first generation above the Itaboraí Lemos
+    couple F-0025 on the mother's side. Source-qualified by the two baptism records
+    that name them (PAR-0101, PAR-0102); no event is modelled for the couple, since no
+    record of their marriage or deaths is held. A son, Manoel Campello de Moraes
+    (Maria Thereza's probable brother), is reported by the retrieval side from an
+    1840 baptism [LEAD — image not held]; he is not recorded as a documented_child,
+    because no image held here names him.
+  text_pt: >-
+    Pais de Maria Thereza de Jesus (P-0053), portanto avós maternos de Rosa Eugenia de
+    Lemos (P-0035) — a primeira geração acima do casal Lemos de Itaboraí F-0025 do lado
+    materno. Qualificados pelas duas fontes de batismo que os nomeiam (PAR-0101,
+    PAR-0102); nenhum evento é modelado para o casal, pois não há registro disponível
+    de seu casamento ou óbitos. Um filho, Manoel Campello de Moraes (provável irmão de
+    Maria Thereza), é relatado pela pesquisa de recuperação a partir de um batismo de
+    1840 [LEAD — imagem não disponível]; não é registrado como documented_child, pois
+    nenhuma imagem disponível aqui o nomeia.

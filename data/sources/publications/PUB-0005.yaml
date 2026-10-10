@@ -848,11 +848,14 @@ abstract: >-
   baptised at São Sebastião in 1698–1701. The book writes "b." for baptised and "n." for
   born. § 1º names several other Gaspars (bapt. 1567, bapt. 1621, a godfather in 1622, and a
   cousin who was a Capitão de ordenanças and married at Porto Judeu in 1687); only one is a
-  son of Belchior × Mariana. This Gaspar is tentatively identified as P-0092 (Gaspar
-  Ferreira) in this repository — a hypothesis, not a finding: P-0092 is placed at Villa Rica,
-  Brazil, only by his son's birthplace, with that son marrying in 1783, which conflicts with
-  Gaspar's 1727 death date; the 1694 remarriage and 1698–1701 baptisms on Terceira make the
-  identification weaker still.
+  son of Belchior × Mariana. This Gaspar is P-0131 in this repository; his own baptism
+  (PAR-0099, 23 December 1657 — the book's 23.2.1657 is a slip) and death act (PAR-0100, São
+  Sebastião, 2 December 1727) are now held. The repository once identified him, tentatively,
+  with Gaspar Ferreira (P-0092), placed at Villa Rica, Brazil, by his son's birthplace, with
+  that son marrying in 1783; that identification was rejected on 10 October 2026 (owner's
+  decision) — he lived and died on Terceira. The people of this section are kept as the
+  Terceira Armond trunk, a family tradition (PUB-0002), not as proven ancestors of the
+  archive's owner.
 abstract_pt: >-
   Compilação genealógica da família SOUTO-MAIOR / Ponte Cardoso na Ilha Terceira. O § 1º
   começa em Pedro Gonçalves do Souto, o Cavaleiro (1) × Margarida Cardoso, cuja filha Maria
@@ -866,18 +869,23 @@ abstract_pt: >-
   três filhos do segundo casamento foram batizados em São Sebastião em 1698–1701. O livro
   escreve "b." para batizado e "n." para nascido. O § 1º nomeia vários outros Gaspares (bat.
   1567, bat. 1621, um padrinho em 1622 e um primo, Capitão de ordenanças, casado no Porto
-  Judeu em 1687); só um é filho de Belchior × Mariana. Este Gaspar é identificado, a título
-  de hipótese, como P-0092 (Gaspar Ferreira) neste repositório — hipótese, não conclusão:
-  P-0092 é situado em Villa Rica, Brasil, apenas pelo local de nascimento do filho, que casou
-  em 1783, o que colide com a data de óbito de 1727 de Gaspar; o segundo casamento de 1694 e
-  os batismos de 1698–1701 na Terceira enfraquecem ainda mais a identificação.
+  Judeu em 1687); só um é filho de Belchior × Mariana. Este Gaspar é P-0131 neste
+  repositório; o próprio batismo (PAR-0099, 23 de dezembro de 1657 — o 23.2.1657 do livro é
+  um lapso) e o assento de óbito (PAR-0100, São Sebastião, 2 de dezembro de 1727) estão agora
+  disponíveis. O repositório chegou a identificá-lo, a título de hipótese, com Gaspar
+  Ferreira (P-0092), situado em Villa Rica, Brasil, pelo local de nascimento do filho, que
+  casou em 1783; essa identificação foi rejeitada em 10 de outubro de 2026 (decisão do
+  proprietário) — ele viveu e morreu na Terceira. As pessoas desta secção ficam guardadas
+  como o tronco Armond terceirense, uma tradição familiar (PUB-0002), e não como ancestrais
+  provados do proprietário do arquivo.
 reliability:
   assessment: >-
     Mendes Forjaz is a rigorous Terceira genealogical compiler. Its dates and parentage
     corroborate the primary records; alone they support a hypothesis, not strong evidence
     (research/README.md, Confidence statuses, since 2026-10-09) [reworded 2026-10-09 from
     "Treated as strong-evidence for specific dates and parentage"]. Key data for our line
-    confirmed internally across Vol. IV × Vol. IX cross-references [corrected 2026-10-09:
+    [corrected 2026-10-10: for the Terceira trunk — a family tradition, not a proven line of
+    the owner's] confirmed internally across Vol. IV × Vol. IX cross-references [corrected 2026-10-09:
     corroborated, not confirmed — the 1650 marriage is confirmed by the original act PAR-0086;
     the two volumes' cross-references corroborate it]: both volumes record the Belchior × Mariana 1650
     marriage. Belchior's birth [corrected 2026-10-09: baptism — the book prints "B."]
@@ -892,13 +900,19 @@ reliability:
     "b."] (23.2.1657) and death (2.12.1727) are compiled-only [added 2026-10-09: no record of
     either is catalogued here; the retrieval agent has seen an image it identifies as his
     baptism, at the CDN maximum of 383×527 px with the filiation illegible, which it dates
-    23.12.1657 — not promoted, so a lead].
+    23.12.1657 — not promoted, so a lead] [updated 2026-10-10: both are now held — his
+    baptism as PAR-0099, the BPAR 300-dpi scan of the original, which reads 23 December 1657
+    (so the book's 23.2.1657 is a slip), and his death as PAR-0100, São Sebastião, 2 December
+    1727].
     ⚠ The stated death date (2.12.1727 in S. Sebastião [corrected 2026-10-09: the book prints
     no place of death]) conflicts with his role as ancestor of
     P-0092, placed at Villa Rica c.1750 only by his son's birthplace; this is unresolved and flagged in P-0092 notes.
     [Added 2026-10-09: the same entry records his second marriage at São Sebastião on 8.2.1694
     and three children baptised there in 1698–1701, which keep him on Terceira into his forties
-    and make the identification with P-0092 weaker; it remains unresolved.]
+    and make the identification with P-0092 weaker; it remains unresolved.] [Resolved
+    2026-10-10: there is no such role. The identification of this Gaspar — now P-0131 — with
+    P-0092 is rejected (owner's decision), and his death act (PAR-0100) records his death at
+    São Sebastião, "de idade de setenta annos".]
   informant: Mendes Forjaz (compiler)
   limitations: >-
     Secondary compiled source; no primary parish images held for Belchior's own baptism or
@@ -907,7 +921,9 @@ reliability:
     are his parents' burials (PAR-0097, PAR-0098); no image is held for Manuel × Maria da Costa's
     marriage or for any of Gaspar's Azorean vital records.]
     The Gaspar de Souto-Maior death date conflict with P-0092's Brazil context is a material
-    uncertainty (see P-0092 notes). Belchior's first wife (Bárbara Gato) and that marriage
+    uncertainty (see P-0092 notes). [Resolved 2026-10-10: the identification with P-0092 is
+    rejected; Gaspar de Souto Maior is P-0131, and his baptism and death acts (PAR-0099,
+    PAR-0100) are now held.] Belchior's first wife (Bárbara Gato) and that marriage
     are stated S.g. (no children); we do not hold a primary image for that event.
 digital_file:
   path: evidence/publications/PUB-0005-genealogias-ilha-terceira-vol9-souto-maior.pdf
@@ -927,11 +943,11 @@ digital_file:
   - page: 259
     label: p. 261
 linked_people:
-- P-0092
 - P-0123
 - P-0124
 - P-0125
 - P-0126
+- P-0131
 linked_families:
 - F-0062
 - F-0063
@@ -942,6 +958,7 @@ linked_events:
 - E-0129
 - E-0130
 - E-0135
+- E-0137
 linked_places: []
 private: false
 notes:
@@ -950,7 +967,8 @@ notes:
     Gaspar de Souto Cardoso (gen 3) × Catarina Valadão → Manuel da Ponte Valadão (gen 4)
     × Maria da Costa Leonardes → Belchior da Ponte Cardoso (gen 5) × Mariana Fagundes →
     Gaspar de Souto-Maior (gen 6, b.23.2.1657, identified as P-0092 [corrected 2026-10-09: only
-    as a weakened hypothesis — see the next note]). The STATUS description
+    as a weakened hypothesis — see the next note] [corrected 2026-10-10: rejected — this
+    Gaspar is P-0131; see the 2026-10-10 note]). The STATUS description
     "Roque→Manuel→Belchior chain" is imprecise: Roque da Ponte Cardoso (b.13.2.1575) is
     Manuel's BROTHER (not father); the grandfather is Gaspar de Souto Cardoso × Catarina Valadão.
 - text: >-
@@ -964,7 +982,9 @@ notes:
     baptised at São Sebastião] 1698–1701) could be
     the parents of a subsequent Gaspar who emigrated; no primary evidence resolves this yet.
     The F-0062 connection to P-0092 is therefore flagged [COMPILED/LEAD] until primary evidence
-    confirms the emigration link.
+    confirms the emigration link. [Resolved 2026-10-10: the primary evidence went the other
+    way — his death act (PAR-0100) records his death at São Sebastião in 1727, aged about
+    seventy; the F-0062 link to P-0092 is rejected and this Gaspar is P-0131.]
 - text: >-
     Corrections of 2026-10-09, from the full verbatim transcription of pp. 257–261 checked
     against the page images. (1) In this book "b." means baptised and "n." born, so 23.2.1657
@@ -990,7 +1010,7 @@ notes:
     das Candeyas are therefore probably one woman — a [LEAD] resting on a compiled typescript
     quoted second-hand, not proof.] (5) The 1694 remarriage and the three 1698–1701 São
     Sebastião baptisms keep him on Terceira into his forties and make the identification with
-    P-0092 weaker; it stays an unresolved hypothesis. (6) § 1º names several Gaspars; only one
+    P-0092 weaker; it stays an unresolved hypothesis [superseded 2026-10-10: rejected]. (6) § 1º names several Gaspars; only one
     is a child of Belchior × Mariana. (7) § 1º begins one generation above Gaspar de Souto
     Cardoso: Pedro Gonçalves do Souto, o Cavaleiro (1) × Margarida Cardoso → Maria Vaz Cardoso
     (2) → Gaspar de Souto Cardoso (3).
@@ -1020,7 +1040,37 @@ notes:
     testamento são, portanto, provavelmente a mesma mulher — [LEAD] apoiada num datiloscrito
     compilado citado em segunda mão, não prova.] (5) O segundo casamento de 1694 e os três batismos de
     1698–1701 em São Sebastião mantêm-no na Terceira até passados os quarenta anos e enfraquecem
-    a identificação com P-0092, que continua hipótese não resolvida. (6) O § 1º nomeia vários
+    a identificação com P-0092, que continua hipótese não resolvida [superado em 2026-10-10:
+    rejeitada]. (6) O § 1º nomeia vários
     Gaspares; só um é filho de Belchior × Mariana. (7) O § 1º começa uma geração acima de Gaspar
     de Souto Cardoso: Pedro Gonçalves do Souto, o Cavaleiro (1) × Margarida Cardoso → Maria Vaz
     Cardoso (2) → Gaspar de Souto Cardoso (3).
+- text: >-
+    2026-10-10 — Owner's decision: two men. The gen-6 Gaspar de Souto-Maior of § 1º is now a
+    separate person, P-0131, and his identification with Gaspar Ferreira (P-0092), the Vila
+    Rica father of Joaquim José Ferreira de Toledo (P-0057), is REJECTED. His own baptism is
+    held as PAR-0099 (BPAR 300-dpi scan of the original, São Sebastião B-1611-1687 image 0324):
+    23 December 1657, son of the Alferes Belchior da Ponte Cardoso and Mariana Fagundes — so
+    this book's "b. 23.2.1657" is a slip [INFERRED: a lost "1" of "12"]. His death act is held
+    as PAR-0100: São Sebastião, 2 December 1727, "de idade de setenta annos", "casado com Maria
+    Mendes" — which supplies the place the book omits and matches its date. The book's
+    evidential weight is unchanged; what changes is that the people of § 1º are no longer
+    modelled as ancestors of the archive's owner. They are kept as the Terceira Armond trunk,
+    which family tradition (PUB-0002, ff. 55–56) claims for the Ferreira Armonde of Barbacena,
+    a family that would attach to the owner only through the unknown parents of Simplício José
+    Ferreira Armond (P-0016). Neither link is proven.
+  text_pt: >-
+    2026-10-10 — Decisão do proprietário: dois homens. O Gaspar de Souto-Maior da geração 6 do
+    § 1º é agora uma pessoa distinta, P-0131, e a sua identificação com Gaspar Ferreira
+    (P-0092), o pai, em Vila Rica, de Joaquim José Ferreira de Toledo (P-0057), foi REJEITADA.
+    O próprio batismo está disponível como PAR-0099 (digitalização a 300 dpi do original, feita
+    pelo BPAR, São Sebastião B-1611-1687, imagem 0324): 23 de dezembro de 1657, filho do
+    Alferes Belchior da Ponte Cardoso e de Mariana Fagundes — pelo que o "b. 23.2.1657" deste
+    livro é um lapso [INFERRED: um "1" perdido de "12"]. O assento de óbito está disponível
+    como PAR-0100: São Sebastião, 2 de dezembro de 1727, "de idade de setenta annos", "casado
+    com Maria Mendes" — o que dá o local que o livro omite e confirma a data. O peso probatório
+    do livro não muda; muda que as pessoas do § 1º deixam de ser modeladas como ancestrais do
+    proprietário do arquivo. Ficam guardadas como o tronco Armond terceirense, que a tradição
+    familiar (PUB-0002, f. 55–56) reclama para os Ferreira Armonde de Barbacena, família que só
+    se ligaria ao proprietário pelos pais desconhecidos de Simplício José Ferreira Armond
+    (P-0016). Nenhum dos dois elos está provado.

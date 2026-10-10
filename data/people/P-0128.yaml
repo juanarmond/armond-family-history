@@ -48,6 +48,40 @@ notes:
     and her surname in feminine concord ("Machada"). The surname is unambiguous in the hand;
     the expansion to Catarina is the standard reading of that abbreviation and agrees with
     PUB-0004. Nothing in the clause states her age, origin, residence or parentage.
+- text: >-
+    PLACE IN THE ARCHIVE CORRECTED, 2026-10-10 (owner's decision). The tree had identified her
+    grandson Gaspar de Souto Maior with Gaspar Ferreira (P-0092) of Vila Rica, Minas Gerais, on
+    the Toledo side, and so counted her as a modelled ancestor of the owner (Geraldo Paz Armond's,
+    P-0004, 6th-great-grandmother). That identification is rejected: Gaspar de Souto Maior is a
+    separate person, P-0131, baptised at São Sebastião on 23 December 1657 (PAR-0099) and died
+    there on 2 December 1727 (PAR-0100). She is no longer a modelled ancestor of the owner. She
+    stays in the archive in the Terceira Armond trunk: family tradition (PUB-0002, ff. 55–56)
+    makes Gaspar de Souto Maior the father of Francisco Ferreira Armonde (d. 1751) of Barbacena
+    [LEAD], and that family would attach to the owner only through the unknown parents of
+    Simplício José Ferreira Armond (P-0016) [OPEN] — see connection. Her own evidence (PAR-0086,
+    PUB-0004) is unchanged.
+  text_pt: >-
+    LUGAR NO ARQUIVO CORRIGIDO, 2026-10-10 (decisão do proprietário). A árvore identificara o
+    neto dela, Gaspar de Souto Maior, com Gaspar Ferreira (P-0092), de Vila Rica, Minas Gerais,
+    do lado Toledo, e por isso contava-a como antepassada modelada do proprietário (6.ª bisavó de
+    Geraldo Paz Armond, P-0004). Essa identificação foi rejeitada: Gaspar de Souto Maior é outra
+    pessoa, P-0131, baptizado em São Sebastião a 23 de dezembro de 1657 (PAR-0099) e ali falecido
+    a 2 de dezembro de 1727 (PAR-0100). Ela deixa de ser antepassada modelada do proprietário.
+    Fica no arquivo, no tronco terceirense dos Armond: a tradição familiar (PUB-0002, ff. 55–56)
+    dá Gaspar de Souto Maior como pai de Francisco Ferreira Armonde (f. 1751), de Barbacena
+    [LEAD], e essa família só se ligaria ao proprietário pelos pais desconhecidos de Simplício
+    José Ferreira Armond (P-0016) [OPEN] — ver connection. A evidência dela (PAR-0086, PUB-0004)
+    fica inalterada.
+connection: >-
+  Family tradition, not a proven ancestor. Maternal grandmother of Gaspar de Souto Maior (P-0131)
+  in the Terceira trunk that family tradition makes the forebears of the Ferreira Armonde of
+  Barbacena; that family would attach to the archive's owner only through the unknown parents of
+  Simplício José Ferreira Armond (P-0016).
+connection_pt: >-
+  Tradição familiar, não ancestral provado. Avó materna de Gaspar de Souto Maior (P-0131) no
+  tronco terceirense que a tradição familiar dá como antepassados dos Ferreira Armonde de
+  Barbacena; essa família só se ligaria ao proprietário do arquivo pelos pais desconhecidos de
+  Simplício José Ferreira Armond (P-0016).
 profile: >-
   ## Interesting facts
 
@@ -72,7 +106,7 @@ profile: >-
   - **Nationality:** Portuguese is the working assumption for an Azorean-resident household of this period, but **no record states her birthplace** and none should be invented for her.
   - **Evidence standing:** **primary-attested as a wife and mother, and in no other respect.** PAR-0086 names her; it gives no age, no origin, no residence, no parentage and no date. Everything else about her — the "de Faria" element, the LEMOS descent, her placement in Santa Bárbara — is **[COMPILED]** or unknown. No event entity exists for her because no date of hers is confirmed: a deliberate omission, not a gap in the modelling.
 
-  **Position in the tree.** Along the modelled chain P-0128 → P-0124 → P-0092 → P-0057 → P-0056 → P-0054 → P-0017 → P-0008 → P-0004, Catarina stands eight generations above Geraldo Paz Armond (P-0004) — his 6th-great-grandmother — and ten generations above the family's present living generation. The P-0124 → P-0092 step is **[COMPILED]** only and depends on the unresolved "two Gaspars" question; if P-0092 is the following generation, each degree moves back one.
+  **Place in the archive [corrected 2026-10-10].** Catarina is not a proven ancestor of the archive's owner. She belongs to the Terceira Armond trunk as the maternal grandmother of Gaspar de Souto Maior (P-0131), through her daughter Mariana Fagundes (P-0124). Family tradition — Lacerda's 2010 thesis (PUB-0002, ff. 55–56), after a private 2008 typescript by Paulo Ribeiro Luz and the 1751 will it quotes — makes that Gaspar the father of Francisco Ferreira Armonde (d. 1751), patriarch of the Ferreira Armonde of Barbacena **[LEAD]**; that family would attach to the owner only through the unknown parents of Simplício José Ferreira Armond (P-0016) **[OPEN]**. Neither link is proven. Until 10 October 2026 the tree routed this line through Gaspar Ferreira (P-0092) of Vila Rica, on the Toledo side, and counted her as Geraldo Paz Armond's (P-0004) 6th-great-grandmother; that identification is rejected and the "two Gaspars" are two men (owner's decision, 2026-10-10) — Gaspar de Souto Maior was baptised at São Sebastião on 23 December 1657 (PAR-0099) and died there on 2 December 1727 aged about seventy (PAR-0100), decades before Gaspar Ferreira's son was born at Vila Rica — and the degree is withdrawn.
 
   ## Standing and profession
 
@@ -117,7 +151,7 @@ profile: >-
 
   **A household in the Restoration decades [CONTEXTUAL].** If she married in the 1620s, she raised her children through Portugal's break with Spain in December 1640 and the eleven-month blockade that forced the Castilian garrison of the Castelo de São Filipe above Angra to capitulate on 4 March 1642 — an operation carried out by the *ordenanças* of Terceira and the other islands, the force her husband captained. She was widowed, or nearly, by 1664.
 
-  **Dispersal in her own children [COMPILED + CONTEXTUAL].** Two daughters married out to Lajes and Conceição; one son took orders; one son is recorded only as having left Terceira. That is the ordinary arithmetic of a full island with entailed estates passing intact to eldest sons **[CONTEXTUAL]** — the same pressure that, once the Minas Gerais gold strike of 1697 supplied a destination, carried this line's descendants to Brazil.
+  **Dispersal in her own children [COMPILED + CONTEXTUAL].** Two daughters married out to Lajes and Conceição; one son took orders; one son is recorded only as having left Terceira. That is the ordinary arithmetic of a full island with entailed estates passing intact to eldest sons **[CONTEXTUAL]** — the same pressure that, once the Minas Gerais gold strike of 1697 supplied a destination, sent islanders to Brazil. If the family tradition holds, it carried her great-grandson Francisco Ferreira Armonde (d. 1751), patriarch of the Ferreira Armonde of Barbacena, among them **[LEAD]**; no proven chain shows this line reaching Brazil.
 
   ## Where to go today
 
@@ -147,7 +181,7 @@ profile_pt: >-
   - **Nacionalidade:** portuguesa é o pressuposto de trabalho para uma casa residente nos Açores neste período, mas **nenhum registo declara a sua naturalidade** e nenhuma deve ser inventada.
   - **Estatuto de evidência:** **atestada em fonte primária como mulher e como mãe, e em mais nada.** O PAR-0086 nomeia-a; não dá idade, nem origem, nem residência, nem filiação, nem data. Todo o resto — o elemento "de Faria", a descendência LEMOS, a colocação em Santa Bárbara — é **[COMPILED]** ou desconhecido. Não existe entidade de evento para ela porque nenhuma data sua está confirmada: omissão deliberada, não falha de modelação.
 
-  **Posição na árvore.** Pela cadeia modelada P-0128 → P-0124 → P-0092 → P-0057 → P-0056 → P-0054 → P-0017 → P-0008 → P-0004, Catarina está oito gerações acima de Geraldo Paz Armond (P-0004) — sua 6.ª bisavó (*6th-great-grandmother*) — e dez gerações acima da atual geração viva da família. O passo P-0124 → P-0092 é apenas **[COMPILED]** e depende da questão não resolvida dos "dois Gaspares"; se P-0092 for a geração seguinte, cada grau recua um.
+  **Lugar no arquivo [corrigido em 2026-10-10].** Catarina não é antepassada provada do proprietário do arquivo. Pertence ao tronco terceirense dos Armond como avó materna de Gaspar de Souto Maior (P-0131), pela filha Mariana Fagundes (P-0124). A tradição familiar — a tese de Lacerda de 2010 (PUB-0002, ff. 55–56), na esteira de um dactiloscrito particular de 2008 de Paulo Ribeiro Luz e do testamento de 1751 que este cita — dá esse Gaspar como pai de Francisco Ferreira Armonde (f. 1751), patriarca dos Ferreira Armonde de Barbacena **[LEAD]**; essa família só se ligaria ao proprietário pelos pais desconhecidos de Simplício José Ferreira Armond (P-0016) **[OPEN]**. Nenhuma das duas ligações está provada. Até 10 de outubro de 2026 a árvore fazia passar esta linha por Gaspar Ferreira (P-0092), de Vila Rica, do lado Toledo, e contava-a como 6.ª bisavó (*6th-great-grandmother*) de Geraldo Paz Armond (P-0004); essa identificação foi rejeitada e os "dois Gaspares" são dois homens (decisão do proprietário, 2026-10-10) — Gaspar de Souto Maior foi baptizado em São Sebastião a 23 de dezembro de 1657 (PAR-0099) e ali faleceu a 2 de dezembro de 1727, com cerca de setenta anos (PAR-0100), décadas antes de o filho de Gaspar Ferreira nascer em Vila Rica — e o grau fica retirado.
 
   ## Posição social e profissão
 
@@ -192,7 +226,7 @@ profile_pt: >-
 
   **Uma casa nas décadas da Restauração [CONTEXTUAL].** Se casou na década de 1620, criou os filhos ao longo da ruptura de Portugal com Espanha, em dezembro de 1640, e do cerco de onze meses que obrigou a guarnição castelhana do Castelo de São Filipe, sobre Angra, a capitular a 4 de março de 1642 — operação conduzida pelas *ordenanças* da Terceira e das outras ilhas, a força que o marido capitaneava. Ficou viúva, ou quase, em 1664.
 
-  **Dispersão nos próprios filhos [COMPILED + CONTEXTUAL].** Duas filhas casaram para fora, nas Lajes e na Conceição; um filho tomou ordens; um filho está registado apenas como tendo saído da Terceira. É a aritmética corrente de uma ilha cheia, com bens vinculados a passar intactos aos primogénitos **[CONTEXTUAL]** — a mesma pressão que, assim que o ouro das Minas Gerais (1697) forneceu destino, levou os descendentes desta linha ao Brasil.
+  **Dispersão nos próprios filhos [COMPILED + CONTEXTUAL].** Duas filhas casaram para fora, nas Lajes e na Conceição; um filho tomou ordens; um filho está registado apenas como tendo saído da Terceira. É a aritmética corrente de uma ilha cheia, com bens vinculados a passar intactos aos primogénitos **[CONTEXTUAL]** — a mesma pressão que, assim que o ouro das Minas Gerais (1697) forneceu destino, levou ilhéus ao Brasil. Se a tradição familiar se confirmar, levou entre eles o bisneto Francisco Ferreira Armonde (f. 1751), patriarca dos Ferreira Armonde de Barbacena **[LEAD]**; nenhuma cadeia provada mostra esta linha a chegar ao Brasil.
 
   ## Onde ir hoje
 

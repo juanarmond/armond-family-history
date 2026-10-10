@@ -1,0 +1,188 @@
+schema_version: 1
+id: P-0134
+preferred_name: José Campello de Moraes
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: Joze Campello de Moraes
+  type: source
+  source_ids:
+  - PAR-0101
+  note: >-
+    Named as maternal grandfather, "natural do Port[o]", in the 21 October 1821
+    Itaboraí baptism of Antonio, son of Manoel de Lemos Pereira and Maria Thereza de
+    Jezus.
+- value: José Campello de Morais
+  type: source
+  source_ids:
+  - PAR-0102
+  note: >-
+    Named as maternal grandfather in both 4 March 1841 Itaboraí baptisms, of João and
+    Maria, children of the same couple; the surname ends "-ais" in both entries.
+event_ids: []
+family_ids:
+- F-0067
+notes:
+- text: >-
+    Father of Maria Thereza de Jesus (P-0053) [STRONG], hence maternal grandfather of
+    Rosa Eugenia de Lemos (P-0035) and 5th-great-grandfather of the archive's owner
+    (P-0001) through his mother's Bohrer line: P-0001 → P-0003 → P-0007 (Iris) →
+    P-0015 (Celina) → P-0030 (Joaquim José) → P-0035 (Rosa) → P-0053 (Maria Thereza) →
+    P-0134 (Ahnentafel 246). Known only as a grandparent: the 1821 and 1841 Itaboraí
+    baptisms of three children of Manoel de Lemos Pereira and Maria Thereza name him
+    as their maternal grandfather, beside Emerenciana Maria de Jesus (P-0135, family
+    F-0067) [PROVEN as records]. The link to Rosa's mother is strong evidence, not
+    proven — same names, same parish register series, two records twenty years apart
+    agreeing on all four grandparents — and is held at strong-evidence (see F-0067).
+    Modelled on the owner's authorisation of 2026-10-10.
+  text_pt: >-
+    Pai de Maria Thereza de Jesus (P-0053) [STRONG], portanto avô materno de Rosa
+    Eugenia de Lemos (P-0035) e hexavô do dono do arquivo (P-0001) pela linha Bohrer de
+    sua mãe: P-0001 → P-0003 → P-0007 (Iris) → P-0015 (Celina) → P-0030 (Joaquim
+    José) → P-0035 (Rosa) → P-0053 (Maria Thereza) → P-0134 (Ahnentafel 246). Conhecido
+    apenas como avô: os batismos de 1821 e 1841, em Itaboraí, de três filhos de Manoel
+    de Lemos Pereira e Maria Thereza o nomeiam como avô materno, ao lado de Emerenciana
+    Maria de Jesus (P-0135, família F-0067) [PROVEN como registros]. O vínculo com a mãe
+    de Rosa é evidência forte, não prova — mesmos nomes, mesma série de livros da
+    freguesia, dois registros com vinte anos de intervalo concordando nos quatro avós
+    — e fica em strong-evidence (ver F-0067). Modelado com a autorização do dono de
+    2026-10-10.
+- text: >-
+    Nationality Portuguese, from a stated naturalidade, not from his surname: the 1821
+    baptism (PAR-0101) calls him "natural do Port[o]", set apart from the other
+    grandparents, who are "todos naturaes desta Freguezia". Two caveats are recorded.
+    (1) The entry writes only "do Porto", without "cidade" or "Portugal"; it is read
+    as the city of Porto, the ordinary sense of the formula. A local "Porto" — Porto
+    das Caixas, then an arraial (later curato and freguesia) within Itaboraí — cannot
+    be excluded from this entry alone [uncertain]. (2) João's 1841 entry (PAR-0102)
+    places "todos naturaes desta Freguezia de Itaborahy" directly after his name, which
+    read literally would make him a native of Itaboraí; the formula is generic and
+    misplaced (it splits him from his wife), and Maria's entry of the same day gives no
+    naturalidade, so the specific 1821 statement is preferred. The conflict is kept
+    open; his Porto baptism or his Itaboraí marriage or death would settle it.
+  text_pt: >-
+    Nacionalidade portuguesa, a partir de uma naturalidade declarada, não do
+    sobrenome: o batismo de 1821 (PAR-0101) o diz "natural do Port[o]", à parte dos
+    demais avós, que são "todos naturaes desta Freguezia". Duas ressalvas ficam
+    registradas. (1) O assento escreve só "do Porto", sem "cidade" nem "Portugal"; é
+    lido como a cidade do Porto, o sentido corrente da fórmula. Um "Porto" local —
+    Porto das Caixas, então arraial (depois curato e freguesia) dentro de Itaboraí —
+    não pode ser excluído só por este assento [uncertain]. (2) O assento de João de
+    1841 (PAR-0102) põe "todos naturaes desta Freguezia de Itaborahy" logo depois do seu
+    nome, o que, lido à letra, o faria natural de Itaboraí; a fórmula é genérica e está
+    fora de lugar (separa-o da mulher), e o assento de Maria, do mesmo dia, não dá
+    naturalidade, de modo que se prefere a declaração específica de 1821. O conflito
+    fica em aberto; seu batismo no Porto ou seu casamento ou óbito em Itaboraí o
+    resolveriam.
+- text: >-
+    No event is modelled: neither record gives his birth, marriage or death, or says
+    whether he was living. Born no later than about 1780 [INFERRED — a grandfather by
+    October 1821]. A younger namesake, José Campello de Moraes, husband of Clara Maria
+    de Santa Rita, baptised a son at Itaboraí in 1868 [LEAD — reported by the
+    retrieval side; not this man]: attach no record to him without his wife or a
+    Lemos/Campello relative in it.
+  text_pt: >-
+    Nenhum evento é modelado: nenhum dos registros dá seu nascimento, casamento ou
+    óbito, nem diz se estava vivo. Nascido no máximo por volta de 1780 [INFERRED — avô
+    em outubro de 1821]. Um homônimo mais novo, José Campello de Moraes, marido de
+    Clara Maria de Santa Rita, batizou um filho em Itaboraí em 1868 [LEAD — relatado
+    pela pesquisa de recuperação; não é este homem]: não lhe atribuir registro sem a
+    mulher ou um parente Lemos/Campello nele.
+profile: >-
+  ## Identity
+
+  **José Campello de Moraes** — "Joze Campello de Moraes, natural do Port[o]" in the
+  21 October 1821 Itaboraí baptism of his grandson Antonio (PAR-0101); "José Campello
+  de Morais" in the 4 March 1841 baptisms of his grandchildren João and Maria
+  (PAR-0102) [PROVEN]. Both records name him, with Emerenciana Maria de Jesus
+  (P-0135), as maternal grandfather of children of Manoel de Lemos Pereira and Maria
+  Thereza de Jesus. He is the father of Maria Thereza de Jesus (P-0053) [STRONG],
+  hence Rosa Eugenia de Lemos's (P-0035) maternal grandfather — and, if "do Porto"
+  means the Portuguese city, the first Portugal-born ancestor documented on the Lemos
+  side.
+
+  - **Nationality:** Portuguese — "natural do Port[o]" (1821) [PROVEN as written]; the
+  reading of "Porto" as the city of Porto is the ordinary one but not stated
+  [uncertain], and João's 1841 entry's generic "todos naturaes desta Freguezia" sits
+  after his name [conflict, recorded].
+
+  - **Birth, marriage, death:** none located; born no later than about 1780
+  [INFERRED].
+
+  ## Evidence standing
+
+  The two entries are original parish records, read from the images [PROVEN]. That
+  they concern Rosa's family is strong evidence, not proof: the parents carry exactly
+  the names of Rosa's parents, in the same parish register series, and the 1821 and
+  1841 entries agree on all four grandparents [STRONG]. His daughter carries the
+  devotional "de Jesus", not his surname — the ordinary pattern for daughters then
+  [CONTEXTUAL].
+
+  ## Open questions
+
+  - His Porto baptism and parents — the Porto diocesan registers would need his
+  parish, which only his Itaboraí marriage or death is likely to give [OPEN].
+
+  - **Leads reported by the retrieval side, images not held here [LEAD]:** he and
+  Emerenciana stood godparents together at Itaboraí on 16 August 1822; a son, Manoel
+  Campello de Moraes — Maria Thereza's probable brother — appears as the father of
+  Procopio (baptised 24 May 1840), whose entry reportedly names "José Campello de
+  Morais, e Emerencianna Maria de Jesus" as paternal grandparents; and a "Joze
+  Campello" owned enslaved people baptised at Itaboraí in 1830-1833, possibly him
+  (identity not established).
+
+  ## Sources held (this repository)
+
+  - PAR-0101 (Antonio's 1821 Itaboraí baptism — "Joze Campello de Moraes, natural do
+  Port[o]").
+
+  - PAR-0102 (João's and Maria's 1841 Itaboraí baptisms — "José Campello de Morais").
+profile_pt: >-
+  ## Identidade
+
+  **José Campello de Moraes** — "Joze Campello de Moraes, natural do Port[o]" no
+  batismo de seu neto Antonio, em Itaboraí, de 21 de outubro de 1821 (PAR-0101); "José
+  Campello de Morais" nos batismos de seus netos João e Maria, de 4 de março de 1841
+  (PAR-0102) [PROVEN]. Os dois registros o nomeiam, com Emerenciana Maria de Jesus
+  (P-0135), como avô materno de filhos de Manoel de Lemos Pereira e Maria Thereza de
+  Jesus. É o pai de Maria Thereza de Jesus (P-0053) [STRONG], portanto avô materno de
+  Rosa Eugenia de Lemos (P-0035) — e, se "do Porto" designa a cidade portuguesa, o
+  primeiro ancestral nascido em Portugal documentado do lado Lemos.
+
+  - **Nacionalidade:** portuguesa — "natural do Port[o]" (1821) [PROVEN como escrito];
+  ler "Porto" como a cidade do Porto é a leitura corrente, mas não está declarada
+  [uncertain], e o genérico "todos naturaes desta Freguezia" do assento de João de
+  1841 vem depois do seu nome [conflito, registrado].
+
+  - **Nascimento, casamento, óbito:** nenhum localizado; nascido no máximo por volta de
+  1780 [INFERRED].
+
+  ## Situação da evidência
+
+  Os dois assentos são registros paroquiais originais, lidos nas imagens [PROVEN].
+  Que digam respeito à família de Rosa é evidência forte, não prova: os pais têm
+  exatamente os nomes dos pais de Rosa, na mesma série de livros da freguesia, e os
+  assentos de 1821 e 1841 concordam nos quatro avós [STRONG]. Sua filha traz o
+  devocional "de Jesus", não o sobrenome dele — o padrão corrente para as filhas na
+  época [CONTEXTUAL].
+
+  ## Questões em aberto
+
+  - Seu batismo no Porto e seus pais — os livros da diocese do Porto exigiriam a
+  freguesia, que provavelmente só seu casamento ou óbito em Itaboraí dariam [OPEN].
+
+  - **Pistas relatadas pela pesquisa de recuperação, imagens não disponíveis aqui
+  [LEAD]:** ele e Emerenciana foram padrinhos juntos em Itaboraí em 16 de agosto de
+  1822; um filho, Manoel Campello de Moraes — provável irmão de Maria Thereza —
+  aparece como pai de Procopio (batizado em 24 de maio de 1840), cujo assento
+  nomearia "José Campello de Morais, e Emerencianna Maria de Jesus" como avós
+  paternos; e um "Joze Campello" possuía pessoas escravizadas batizadas em Itaboraí em
+  1830-1833, possivelmente ele (identidade não estabelecida).
+
+  ## Fontes disponíveis (neste repositório)
+
+  - PAR-0101 (batismo de Antonio em Itaboraí, 1821 — "Joze Campello de Moraes, natural
+  do Port[o]").
+
+  - PAR-0102 (batismos de João e Maria em Itaboraí, 1841 — "José Campello de Morais").

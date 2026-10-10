@@ -1,0 +1,387 @@
+schema_version: 1
+id: P-0131
+preferred_name: Gaspar de Souto Maior
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: Gaspar
+  type: source
+  source_ids:
+  - PAR-0099
+  note: >-
+    His baptism names him by forename only: "baptizei a Gasp.ar filho do Alferes belchior da
+    ponte cardozo", with "Gasp.ar" in the margin (23 December 1657).
+- value: Gaspar de Souto
+  type: source
+  source_ids:
+  - PAR-0100
+  note: >-
+    His death act, body and margin: "Gaspar de / Souto Cazado Com Maria Mendes" (2 December
+    1727).
+- value: Gaspar de Souto-Maior
+  type: source
+  source_ids:
+  - PUB-0005
+  note: >-
+    Mendes Forjaz, Genealogias da Ilha Terceira, Vol. IX, SOUTO-MAIOR § 1º, p.261: "6 Gaspar de
+    Souto-Maior, b. em S. Sebastião a 23.2.1657 e f. a 2.12.1727".
+- value: Gaspar de Souto Maior
+  type: source
+  source_ids:
+  - PUB-0002
+  note: >-
+    The form in the 1751 will of Francisco Ferreira Armonde as quoted by Lacerda (PUB-0002, f.
+    55: "Filho legítimo de Gaspar de Souto Maior e de sua mulher Margarida das Candeyas, já
+    defuntos"), and in Lacerda's footnote 74. A quotation in a thesis, not the will itself.
+event_ids:
+- E-0135
+- E-0137
+family_ids:
+- F-0062
+connection: >-
+  Family tradition, not a proven ancestor: he is claimed as the father of Francisco Ferreira
+  Armonde (d. 1751), patriarch of the Ferreira Armonde of Barbacena, who would attach to the
+  archive's owner only through the unknown parents of Simplício José Ferreira Armond (P-0016). No
+  record yet proves either link.
+connection_pt: >-
+  Tradição familiar, não ancestral provado: é apontado como pai de Francisco Ferreira Armonde
+  (f. 1751), patriarca dos Ferreira Armonde de Barbacena, que só se ligaria ao proprietário do
+  arquivo através dos pais desconhecidos de Simplício José Ferreira Armond (P-0016). Nenhum
+  registo prova ainda qualquer dos dois elos.
+notes:
+- text: >-
+    Created 2026-10-10 to separate two different men whom the tree had joined. Gaspar Ferreira
+    (P-0092) is the father of Joaquim José Ferreira de Toledo (P-0057), named in the son's 1783
+    Barbacena marriage (PAR-0018), whose son was born and baptised at Villa Rica, Minas Gerais —
+    the Toledo line. Gaspar de Souto Maior (this person) is the son of the Alferes Belchior da
+    Ponte Cardoso (P-0123) and Mariana Fagundes (P-0124), family F-0062, baptised at São
+    Sebastião, Terceira, on 23 December 1657 (PAR-0099) and dead there on 2 December 1727, still
+    married to Maria Mendes (PAR-0100). The Terceira Gaspar lived and died on Terceira; no record
+    places him in Brazil. The baptism event E-0135, once attached to P-0092, is his. The
+    identification of the two had rested on Mendes Forjaz Vol. IX alone and was withdrawn by
+    the owner's decision of 10 October 2026.
+  text_pt: >-
+    Criado a 2026-10-10 para separar dois homens diferentes que a árvore tinha unido. Gaspar
+    Ferreira (P-0092) é o pai de Joaquim José Ferreira de Toledo (P-0057), nomeado no casamento
+    do filho em Barbacena, em 1783 (PAR-0018), filho esse nascido e baptizado em Villa Rica,
+    Minas Gerais — a linha Toledo. Gaspar de Souto Maior (esta pessoa) é filho do Alferes
+    Belchior da Ponte Cardoso (P-0123) e de Mariana Fagundes (P-0124), família F-0062, baptizado
+    em São Sebastião, Terceira, a 23 de dezembro de 1657 (PAR-0099) e ali falecido a 2 de
+    dezembro de 1727, ainda casado com Maria Mendes (PAR-0100). O Gaspar da Terceira viveu e
+    morreu na Terceira; nenhum registo o situa no Brasil. O evento de baptismo E-0135, antes
+    ligado ao P-0092, é dele. A identificação dos dois assentava só no Vol. IX de Mendes Forjaz e
+    foi retirada por decisão do proprietário de 10 de outubro de 2026.
+- text: >-
+    Baptism date. His own baptism act reads 23 DECEMBER 1657 (PAR-0099). Mendes Forjaz Vol. IX
+    (PUB-0005, p.261) prints "b. … 23.2.1657" and Lacerda's thesis footnote 74 (PUB-0002) "23 de
+    setembro de 1657". The register governs; the printed months are kept as variants in E-0135
+    and PAR-0099, without asserting how either book went wrong. No birth date is evidenced, so
+    no birth event is modelled; the baptism is his earliest dated event.
+  text_pt: >-
+    Data do baptismo. O próprio assento de baptismo lê 23 de DEZEMBRO de 1657 (PAR-0099). O Vol.
+    IX de Mendes Forjaz (PUB-0005, p.261) imprime "b. … 23.2.1657" e a nota 74 da tese de Lacerda
+    (PUB-0002) "23 de setembro de 1657". Prevalece o registo; os meses impressos ficam como
+    variantes no E-0135 e no PAR-0099, sem afirmar como errou cada livro. Não há data de
+    nascimento comprovada, pelo que não se modela evento de nascimento; o baptismo é o seu evento
+    datado mais antigo.
+- text: >-
+    Nationality Portuguese: born in the Azores, then Portuguese Crown territory. Neither held
+    record states a nationality; as for his father (P-0123), persons born in the islands are
+    recorded as Portuguese, not separately "Azorean" for nationality purposes.
+  text_pt: >-
+    Nacionalidade portuguesa: nascido nos Açores, então território da Coroa portuguesa. Nenhum
+    dos registos guardados declara nacionalidade; tal como para o pai (P-0123), quem nasceu nas
+    ilhas é registado como português, e não à parte como "açoriano" para efeitos de
+    nacionalidade.
+- text: >-
+    Marriages — spouses deliberately NOT modelled. (1) 2 October 1690, Igreja do Convento da
+    Graça, Angra (registered at São Sebastião), to D. Margarida Machado (Vol. IX, PUB-0005)
+    [COMPILED]; she is very probably the "Margarida das Candeyas" whom the 1751 will of
+    Francisco Ferreira Armonde, as quoted by Lacerda, names as his mother (PUB-0002 ff. 55–56;
+    f. 56, after a private 2008 typescript by Paulo Ribeiro Luz, joins the two as "Margarida das
+    Candeyas Machado"; n. 74 has her baptised 29.5.1667 and dead 9.4.1693 at São Sebastião)
+    [LEAD]. (2) 8 February 1694, São Sebastião, to Maria Mendes de Borba, daughter of Bartolomeu
+    Vieira de Borba and Iria Mendes (Vol. IX) [COMPILED]; corroborated by his own death act,
+    "Cazado Com Maria Mendes" (PAR-0100) [PROVEN that his wife in 1727 was a Maria Mendes]. No
+    marriage record is held in this repository, so neither wife is modelled and no partner
+    family exists for him — an intentional omission, not a gap for an audit to fill. The
+    retrieval side reports reading both marriage acts (São Sebastião C-1673-1766 pp.0036 and
+    0044) and gives Maria's parents as Brás Gil de Borba × D. Iria/Inês Mendes, against Vol. IX's
+    Bartolomeu Vieira de Borba [LEAD — not held].
+  text_pt: >-
+    Casamentos — cônjuges deliberadamente NÃO modelados. (1) 2 de outubro de 1690, Igreja do
+    Convento da Graça, Angra (registado em São Sebastião), com D. Margarida Machado (Vol. IX,
+    PUB-0005) [COMPILED]; é muito provavelmente a "Margarida das Candeyas" que o testamento de
+    1751 de Francisco Ferreira Armonde, citado por Lacerda, nomeia como sua mãe (PUB-0002 ff.
+    55–56; a f. 56, a partir de um datiloscrito particular de 2008 de Paulo Ribeiro Luz, junta as
+    duas como "Margarida das Candeyas Machado"; a n. 74 dá-a baptizada a 29.5.1667 e falecida a
+    9.4.1693 em São Sebastião) [LEAD]. (2) 8 de fevereiro de 1694, São Sebastião, com Maria
+    Mendes de Borba, filha de Bartolomeu Vieira de Borba e de Iria Mendes (Vol. IX) [COMPILED];
+    corroborado pelo próprio assento de óbito dele, "Cazado Com Maria Mendes" (PAR-0100) [PROVEN
+    que a mulher em 1727 era uma Maria Mendes]. Nenhum registo de casamento está guardado neste
+    repositório, pelo que nenhuma das mulheres é modelada e ele não tem família conjugal — omissão
+    intencional, não lacuna a preencher por uma auditoria. A pesquisa de recuperação diz ter lido
+    os dois assentos de casamento (São Sebastião C-1673-1766, pp.0036 e 0044) e dá os pais de
+    Maria como Brás Gil de Borba × D. Iria/Inês Mendes, contra o Bartolomeu Vieira de Borba do
+    Vol. IX [LEAD — não guardado].
+- text: >-
+    Children — none modelled. Vol. IX lists three children of the second marriage, all baptised
+    at São Sebastião: Maria (16.2.1698), António (4.6.1700) and Lourença (17.8.1701) [COMPILED];
+    under the first marriage it writes "C.g. que aí segue, por ter preferido os apelidos
+    maternos", sending the issue to DRUMMOND § 3º, which is not held here. Lacerda, after Luz's
+    2008 typescript, makes the Barbacena patriarch Francisco Ferreira Armonde (d. 1751) and his
+    brother Antônio sons of the first marriage (PUB-0002 ff. 55–56) [LEAD]. Because no partner
+    family is modelled (see the marriages note), these children cannot be recorded as
+    documented_children; that is deliberate.
+  text_pt: >-
+    Filhos — nenhum modelado. O Vol. IX lista três filhos do segundo casamento, todos baptizados
+    em São Sebastião: Maria (16.2.1698), António (4.6.1700) e Lourença (17.8.1701) [COMPILED]; no
+    primeiro casamento escreve "C.g. que aí segue, por ter preferido os apelidos maternos",
+    remetendo a geração para DRUMMOND, § 3º, que não está guardado aqui. Lacerda, a partir do
+    datiloscrito de Luz de 2008, faz do patriarca de Barbacena Francisco Ferreira Armonde (f.
+    1751) e do irmão Antônio filhos do primeiro casamento (PUB-0002 ff. 55–56) [LEAD]. Como não
+    há família conjugal modelada (ver a nota dos casamentos), estes filhos não podem ser
+    registados como documented_children; é deliberado.
+- text: >-
+    Namesakes. His godfather was another Gaspar de Souto Maior, "f.º de Ba[…]z leonardes"
+    (PAR-0099) — the cousin of Vol. IX p.260, son of Águeda Simões Cardoso and Baltazar Gonçalves
+    Leonardes, Capitão de ordenanças, married at Porto Judeu on 5.6.1687 to D. Ana de Sousa,
+    S.g. The captaincy and the 1687 marriage are the cousin's, not this man's. The same baptism
+    page names a third namesake, "Gasp.ar Fer.ra do porto judeu". None of them is P-0092.
+  text_pt: >-
+    Homónimos. O padrinho dele foi outro Gaspar de Souto Maior, "f.º de Ba[…]z leonardes"
+    (PAR-0099) — o primo do Vol. IX, p.260, filho de Águeda Simões Cardoso e de Baltazar
+    Gonçalves Leonardes, Capitão de ordenanças, casado no Porto Judeu a 5.6.1687 com D. Ana de
+    Sousa, S.g. A capitania e o casamento de 1687 são do primo, não deste homem. A mesma página
+    de baptismos nomeia um terceiro homónimo, "Gasp.ar Fer.ra do porto judeu". Nenhum deles é o
+    P-0092.
+- text: >-
+    No occupation, rank or residence beyond his parish is stated in either held record, so none
+    is recorded. The retrieval side reports his autograph as a witness on a 1696 São Sebastião
+    marriage (C-1673-1766 p.0052) [LEAD — not held]; literacy is therefore not asserted here.
+  text_pt: >-
+    Nenhum dos registos guardados declara ofício, patente ou residência além da freguesia, pelo
+    que nada se regista. A pesquisa de recuperação refere a assinatura dele como testemunha num
+    casamento de 1696 em São Sebastião (C-1673-1766, p.0052) [LEAD — não guardado]; por isso a
+    alfabetização não é afirmada aqui.
+profile: >-
+  ## Interesting facts
+
+
+  - **[PROVEN]** Both ends of his life are held as original acts from the same parish: his baptism at São Sebastião on 23 December 1657 (PAR-0099, read from a 300-dpi scan BPAR made of the original) and his death there on 2 December 1727 (PAR-0100). He died three weeks short of seventy years after his baptism — and the death act, independently, calls him "setenta annos pouco mais ou menos".
+
+
+  - **[PROVEN]** His uncle baptised him. The act is signed "Vig.ro Ant.º Coelho Soto mayor" — the vicar of São Sebastião, his father Belchior's brother (see P-0123).
+
+
+  - **[PROVEN]** His godfather was *another* Gaspar de Souto Maior, "son of Ba[…]z leonardes" — a cousin whom Mendes Forjaz lists separately **[COMPILED]**. The same page names a third Gaspar, a Gaspar Ferreira of Porto Judeu. The namesake problem that once merged him with a Brazilian Gaspar Ferreira is visible on his own baptism page.
+
+
+  - **[PROVEN]** The registers never call him "Souto Maior" in the acts held here: he is just "Gasp.ar" at baptism and "Gaspar de Souto" at death. "Gaspar de Souto-Maior" is the compiler's form **[COMPILED]**; "Gaspar de Souto Maior" is the form of the 1751 will quoted by Lacerda **[LEAD]**.
+
+
+  - **[PROVEN]** He died intestate — "não fez testamento" — and was buried in a grave belonging to the church fabric.
+
+
+  - **[COMPILED]** Of his first marriage the compiler says its issue "follows" under the Drummond family "por ter preferido os apelidos maternos" — because they preferred their mother's surnames. That is the printed explanation for why his supposed sons did not carry Souto Maior.
+
+
+  ## Identity
+
+
+  **Gaspar de Souto Maior** — baptised 23 December 1657, São Sebastião, Terceira **[PROVEN, PAR-0099]**; died 2 December 1727, São Sebastião, "casado com Maria Mendes", aged about seventy **[PROVEN, PAR-0100]**. Son of the **Alferes Belchior da Ponte Cardoso** (P-0123) and **Mariana Fagundes** (P-0124), family F-0062 — named in his own baptism as "do Alferes belchior da ponte cardozo e de sua molher mariana Fag.des" **[PROVEN]** and stated independently by Mendes Forjaz Vol. IX **[COMPILED]**.
+
+
+  - **Names in the records:** "Gasp.ar" (1657), "Gaspar de Souto" (1727), "Gaspar de Souto-Maior" (Vol. IX), "Gaspar de Souto Maior" (the 1751 will, quoted).
+
+
+  - **Marriages [COMPILED]:** first, on 2 October 1690 at the church of the Convento da Graça, Angra, to D. Margarida Machado — very probably the "Margarida das Candeyas" of the 1751 will **[LEAD]**; second, on 8 February 1694 at São Sebastião, to Maria Mendes de Borba. That he was married to a Maria Mendes when he died is **[PROVEN]** by his death act. Neither wife is modelled: no marriage record is held here.
+
+
+  - **Children:** three of the second marriage per Vol. IX — Maria (1698), António (1700), Lourença (1701), baptised at São Sebastião **[COMPILED]**; issue of the first marriage per Vol. IX, under the Drummond family **[COMPILED, not held]**; and, per Lacerda after Luz's 2008 typescript, Francisco Ferreira Armonde (d. 1751) and his brother Antônio **[LEAD]**. None is modelled.
+
+
+  - **Nationality:** Portuguese (the Azores were Crown territory, not a separate polity).
+
+
+  **Position in the tree.** He is not an ancestor of the archive's owner on any proven chain. Until 10 October 2026 the tree made him one by merging him with Gaspar Ferreira (P-0092), father of Joaquim José Ferreira de Toledo; his own death on Terceira in 1727, still married to Maria Mendes, ruled that out, and the two were separated. His only remaining tie to the owner is a family tradition: that he fathered Francisco Ferreira Armonde of Barbacena, whose line would reach the owner only if the unknown parents of Simplício José Ferreira Armond (P-0016) belong to it.
+
+
+  ## Evidence standing
+
+
+  - **Baptism (E-0135) [PROVEN].** Rests on his original act. Vol. IX's 23.2.1657 and Lacerda's 23.9.1657 are recorded as variants; the register's 23 December governs.
+
+
+  - **Death (E-0137) [PROVEN record; identification strong].** The act is primary and direct for the death of "Gaspar de Souto, casado com Maria Mendes, of about seventy". It names no parents, so tying it to the child of 1657 rests on the age, on the exact agreement with Vol. IX's "f. a 2.12.1727", and on the wife — Vol. IX gives this Gaspar a second wife Maria Mendes de Borba, while his cousin married D. Ana de Sousa. Hence strong-evidence, not confirmed.
+
+
+  - **Parentage [PROVEN].** Named in his own baptism; Vol. IX agrees.
+
+
+  - **Marriages and children [COMPILED / LEAD].** Known from Vol. IX and from Lacerda's thesis. The retrieval side reports reading records that are **not held here**: his 1690 marriage (São Sebastião C-1673-1766 p.0036), naming the same parents; his sister Isabel's 1693 marriage (p.0043), with Gaspar as a witness; his 1694 marriage (p.0044), "viúvo de D. Margarida", giving Maria's parents as Brás Gil de Borba × D. Iria/Inês Mendes (Vol. IX: Bartolomeu Vieira de Borba × Iria Mendes); Margarida's death in April 1693 (O-1642-1696 p.0080); and his signature on a 1696 marriage (p.0052). Each is **[LEAD]** until the image is catalogued here.
+
+
+  - **The Francisco link [LEAD].** Rests on the 1751 will as quoted in a thesis, and on genealogists' e-mails and a private typescript (PUB-0002 nn. 74–75). The retrieval side found no baptism of Francisco at São Sebastião for 1687–94 (a qualified negative, with a damaged leaf in April–May 1693) and a register lacuna at Fonte do Bastardo (November 1691 – December 1693). Absence from those books proves nothing either way.
+
+
+  ## Open questions
+
+
+  - **Was Francisco Ferreira Armonde (d. 1751) his son?** Decisive records: Francisco's own baptism (c. 1691–93, not yet found) or the 1751 will itself (inventory of Francisco Ferreira Armonde, São João del-Rei), read at the original.
+
+
+  - **Does the Barbacena line reach the owner at all?** Only through the unknown parents of Simplício José Ferreira Armond (P-0016) — the open question that governs whether any of this is the owner's ancestry.
+
+
+  - **Who were Maria Mendes's parents?** Vol. IX says Bartolomeu Vieira de Borba and Iria Mendes; the retrieval side's read of the 1694 act says Brás Gil de Borba and D. Iria/Inês Mendes. The 1694 act, catalogued here, would settle it.
+
+
+  - **Was D. Margarida Machado the will's "Margarida das Candeyas"?** Probably — Luz's "Margarida das Candeyas Machado" joins the two forms — but only her baptism or the 1690 marriage act would show it.
+
+
+  - **The children of 1698–1701.** No baptism of Maria, António or Lourença is held; the retrieval side sampled 1695–1705 without finding them (not exhaustive).
+
+
+  - **His godfather's father.** The abbreviation in the baptism reads "Ba[…]z leonardes"; "Baltazar Gonçalves" fits Vol. IX but is inferred, not read.
+
+
+  ## Sources held (this repository)
+
+
+  - **PAR-0099** — his baptism, São Sebastião, 23 December 1657 (B-1611-1687 p.0324, entry 4 of 5); names his parents, godparents and the officiating vicar. BPAR 300-dpi scan of the original. *Primary.*
+
+
+  - **PAR-0100** — his death, São Sebastião, 2 December 1727 (O-1696-1762 image p.0099); "casado com Maria Mendes", about seventy, intestate. Reduced-resolution open-CDN copy, legible for the core facts. *Primary.*
+
+
+  - **PUB-0005** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IX, SOUTO-MAIOR § 1º, pp. 257–261: his baptism (with the month misprinted), death date, both marriages and the children of the second; also the namesake cousin. *Secondary, compiled.*
+
+
+  - **PUB-0002** — Lacerda's thesis, ff. 55–56: the 1751 will naming "Gaspar de Souto Maior e … Margarida das Candeyas" as Francisco Ferreira Armonde's parents, and the Luz genealogy. *Secondary; a lead.*
+
+
+  - **Context:** his parents' records are catalogued under P-0123 and P-0124 — their 1650 marriage (PAR-0086), six of his siblings' baptisms (PAR-0090 to PAR-0096, except PAR-0094) and their burials (PAR-0088, PAR-0089) — and his grandparents' burials (PAR-0097, PAR-0098), which prove the vicar who baptised him was his uncle.
+
+
+  ## Where to go today
+
+
+  - **Igreja Matriz de São Sebastião, São Sebastião, Angra do Heroísmo, Terceira** — his parish: he was baptised in it in 1657 and was "natural e freguez desta Matriz" when he died in 1727; his fabric grave was presumably in it, though the act does not name the church **[INFERRED]**. [RESOLVED — parish] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20S%C3%A3o%20Sebasti%C3%A3o%2C%20Terceira%2C%20A%C3%A7ores)
+
+
+  - **Convento da Graça, Angra do Heroísmo** — where Vol. IX places his first marriage in 1690 **[COMPILED]**. Whether the convent church survives was not checked. [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Convento%20da%20Gra%C3%A7a%2C%20Angra%20do%20Hero%C3%ADsmo)
+
+
+  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — holds the original books: B-1611-1687 (his baptism), O-1696-1762 (his death, worth ordering at 300 dpi) and C-1673-1766 (his two marriages, not yet held here). · [Maps](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)
+profile_pt: >-
+  ## Fatos interessantes
+
+
+  - **[PROVEN]** As duas pontas da vida dele estão guardadas em assentos originais da mesma freguesia: o baptismo em São Sebastião a 23 de dezembro de 1657 (PAR-0099, lido numa digitalização a 300 dpi feita pelo BPAR a partir do original) e o óbito ali a 2 de dezembro de 1727 (PAR-0100). Morreu três semanas antes de completar setenta anos sobre o baptismo — e o assento de óbito, de forma independente, dá-lhe "setenta annos pouco mais ou menos".
+
+
+  - **[PROVEN]** Foi o tio que o baptizou. O assento é assinado "Vig.ro Ant.º Coelho Soto mayor" — o vigário de São Sebastião, irmão do pai, Belchior (ver P-0123).
+
+
+  - **[PROVEN]** O padrinho foi *outro* Gaspar de Souto Maior, "filho de Ba[…]z leonardes" — um primo que Mendes Forjaz lista à parte **[COMPILED]**. A mesma página nomeia um terceiro Gaspar, um Gaspar Ferreira do Porto Judeu. O problema dos homónimos, que um dia o fundiu com um Gaspar Ferreira brasileiro, está à vista na própria página do seu baptismo.
+
+
+  - **[PROVEN]** Os registos aqui guardados nunca lhe chamam "Souto Maior": é só "Gasp.ar" no baptismo e "Gaspar de Souto" no óbito. "Gaspar de Souto-Maior" é a forma do compilador **[COMPILED]**; "Gaspar de Souto Maior" é a forma do testamento de 1751 citado por Lacerda **[LEAD]**.
+
+
+  - **[PROVEN]** Morreu sem testamento — "não fez testamento" — e foi sepultado numa sepultura da fábrica da igreja.
+
+
+  - **[COMPILED]** Do primeiro casamento, o compilador diz que a geração "segue" na família Drummond "por ter preferido os apelidos maternos". É a explicação impressa para os seus supostos filhos não usarem Souto Maior.
+
+
+  ## Identidade
+
+
+  **Gaspar de Souto Maior** — baptizado a 23 de dezembro de 1657, São Sebastião, Terceira **[PROVEN, PAR-0099]**; falecido a 2 de dezembro de 1727, São Sebastião, "casado com Maria Mendes", com cerca de setenta anos **[PROVEN, PAR-0100]**. Filho do **Alferes Belchior da Ponte Cardoso** (P-0123) e de **Mariana Fagundes** (P-0124), família F-0062 — nomeados no próprio baptismo como "do Alferes belchior da ponte cardozo e de sua molher mariana Fag.des" **[PROVEN]** e declarados de forma independente pelo Vol. IX de Mendes Forjaz **[COMPILED]**.
+
+
+  - **Nomes nos registos:** "Gasp.ar" (1657), "Gaspar de Souto" (1727), "Gaspar de Souto-Maior" (Vol. IX), "Gaspar de Souto Maior" (o testamento de 1751, citado).
+
+
+  - **Casamentos [COMPILED]:** primeiro, a 2 de outubro de 1690, na igreja do Convento da Graça, em Angra, com D. Margarida Machado — muito provavelmente a "Margarida das Candeyas" do testamento de 1751 **[LEAD]**; segundo, a 8 de fevereiro de 1694, em São Sebastião, com Maria Mendes de Borba. Que estava casado com uma Maria Mendes quando morreu é **[PROVEN]** pelo assento de óbito. Nenhuma das mulheres é modelada: não há registo de casamento guardado aqui.
+
+
+  - **Filhos:** três do segundo casamento segundo o Vol. IX — Maria (1698), António (1700), Lourença (1701), baptizados em São Sebastião **[COMPILED]**; geração do primeiro casamento segundo o Vol. IX, na família Drummond **[COMPILED, não guardado]**; e, segundo Lacerda a partir do datiloscrito de Luz de 2008, Francisco Ferreira Armonde (f. 1751) e o irmão Antônio **[LEAD]**. Nenhum está modelado.
+
+
+  - **Nacionalidade:** portuguesa (os Açores eram território da Coroa, não uma entidade política à parte).
+
+
+  **Posição na árvore.** Não é ancestral do proprietário do arquivo em nenhuma cadeia provada. Até 10 de outubro de 2026 a árvore fazia dele um, ao fundi-lo com Gaspar Ferreira (P-0092), pai de Joaquim José Ferreira de Toledo; a própria morte dele na Terceira em 1727, ainda casado com Maria Mendes, excluiu essa hipótese, e os dois foram separados. O único laço que resta com o proprietário é uma tradição familiar: a de que foi pai de Francisco Ferreira Armonde, de Barbacena, cuja linha só chegaria ao proprietário se os pais desconhecidos de Simplício José Ferreira Armond (P-0016) pertencerem a ela.
+
+
+  ## Situação da evidência
+
+
+  - **Baptismo (E-0135) [PROVEN].** Assenta no assento original. O 23.2.1657 do Vol. IX e o 23.9.1657 de Lacerda ficam como variantes; prevalece o 23 de dezembro do registo.
+
+
+  - **Óbito (E-0137) [PROVEN o registo; identificação forte].** O assento é primário e directo para a morte de "Gaspar de Souto, casado com Maria Mendes, de uns setenta anos". Não nomeia pais, pelo que ligá-lo à criança de 1657 assenta na idade, na concordância exacta com o "f. a 2.12.1727" do Vol. IX e na mulher — o Vol. IX dá a este Gaspar uma segunda mulher, Maria Mendes de Borba, ao passo que o primo casou com D. Ana de Sousa. Daí evidência forte, e não confirmado.
+
+
+  - **Filiação [PROVEN].** Nomeada no próprio baptismo; o Vol. IX concorda.
+
+
+  - **Casamentos e filhos [COMPILED / LEAD].** Conhecidos pelo Vol. IX e pela tese de Lacerda. A pesquisa de recuperação diz ter lido registos que **não estão guardados aqui**: o casamento dele de 1690 (São Sebastião C-1673-1766, p.0036), que nomeia os mesmos pais; o casamento da irmã Isabel em 1693 (p.0043), com Gaspar como testemunha; o casamento de 1694 (p.0044), "viúvo de D. Margarida", que dá os pais de Maria como Brás Gil de Borba × D. Iria/Inês Mendes (Vol. IX: Bartolomeu Vieira de Borba × Iria Mendes); a morte de Margarida em abril de 1693 (O-1642-1696, p.0080); e a assinatura dele num casamento de 1696 (p.0052). Cada um é **[LEAD]** até a imagem ser catalogada aqui.
+
+
+  - **O elo com Francisco [LEAD].** Assenta no testamento de 1751 citado numa tese, e em mensagens de genealogistas e num datiloscrito particular (PUB-0002, nn. 74–75). A pesquisa de recuperação não achou o baptismo de Francisco em São Sebastião para 1687–94 (negativo qualificado, com uma folha danificada em abril–maio de 1693) e encontrou uma lacuna no livro da Fonte do Bastardo (novembro de 1691 – dezembro de 1693). A ausência nesses livros não prova nada, num sentido ou noutro.
+
+
+  ## Questões em aberto
+
+
+  - **Francisco Ferreira Armonde (f. 1751) era filho dele?** Registos decisivos: o baptismo do próprio Francisco (c. 1691–93, ainda não encontrado) ou o testamento de 1751 (inventário de Francisco Ferreira Armonde, São João del-Rei), lido no original.
+
+
+  - **A linha de Barbacena chega de todo ao proprietário?** Só através dos pais desconhecidos de Simplício José Ferreira Armond (P-0016) — a questão em aberto que decide se alguma coisa disto é ascendência do proprietário.
+
+
+  - **Quem eram os pais de Maria Mendes?** O Vol. IX diz Bartolomeu Vieira de Borba e Iria Mendes; a leitura do assento de 1694 pela pesquisa de recuperação diz Brás Gil de Borba e D. Iria/Inês Mendes. O assento de 1694, catalogado aqui, resolveria a questão.
+
+
+  - **D. Margarida Machado era a "Margarida das Candeyas" do testamento?** Provavelmente — a "Margarida das Candeyas Machado" de Luz junta as duas formas —, mas só o baptismo dela ou o assento de casamento de 1690 o mostrariam.
+
+
+  - **Os filhos de 1698–1701.** Não há baptismo guardado de Maria, António ou Lourença; a pesquisa de recuperação percorreu amostras de 1695–1705 sem os achar (não exaustivo).
+
+
+  - **O pai do padrinho.** A abreviatura no baptismo lê-se "Ba[…]z leonardes"; "Baltazar Gonçalves" condiz com o Vol. IX, mas é inferido, não lido.
+
+
+  ## Fontes disponíveis (neste repositório)
+
+
+  - **PAR-0099** — o baptismo, São Sebastião, 23 de dezembro de 1657 (B-1611-1687, p.0324, assento 4 de 5); nomeia os pais, os padrinhos e o vigário oficiante. Digitalização a 300 dpi do original pelo BPAR. *Primária.*
+
+
+  - **PAR-0100** — o óbito, São Sebastião, 2 de dezembro de 1727 (O-1696-1762, imagem p.0099); "casado com Maria Mendes", cerca de setenta anos, sem testamento. Cópia de resolução reduzida do CDN aberto, legível para os factos essenciais. *Primária.*
+
+
+  - **PUB-0005** — Mendes Forjaz, *Genealogias da Ilha Terceira*, Vol. IX, SOUTO-MAIOR, § 1º, pp. 257–261: o baptismo (com o mês mal impresso), a data do óbito, os dois casamentos e os filhos do segundo; também o primo homónimo. *Secundária, compilada.*
+
+
+  - **PUB-0002** — a tese de Lacerda, ff. 55–56: o testamento de 1751 que nomeia "Gaspar de Souto Maior e … Margarida das Candeyas" como pais de Francisco Ferreira Armonde, e a genealogia de Luz. *Secundária; uma pista.*
+
+
+  - **Contexto:** os registos dos pais estão catalogados em P-0123 e P-0124 — o casamento de 1650 (PAR-0086), os baptismos de seis irmãos (PAR-0090 a PAR-0096, excepto PAR-0094) e os óbitos (PAR-0088, PAR-0089) — e os óbitos dos avós (PAR-0097, PAR-0098), que provam que o vigário que o baptizou era seu tio.
+
+
+  ## Onde ir hoje
+
+
+  - **Igreja Matriz de São Sebastião, São Sebastião, Angra do Heroísmo, Terceira** — a freguesia dele: foi ali baptizado em 1657 e era "natural e freguez desta Matriz" quando morreu, em 1727; a sepultura da fábrica era presumivelmente ali, embora o assento não nomeie a igreja **[INFERRED]**. [RESOLVIDO — freguesia] · [Mapa](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20S%C3%A3o%20Sebasti%C3%A3o%2C%20Terceira%2C%20A%C3%A7ores)
+
+
+  - **Convento da Graça, Angra do Heroísmo** — onde o Vol. IX situa o primeiro casamento, em 1690 **[COMPILED]**. Não se verificou se a igreja do convento subsiste. [APROX] · [Mapa](https://www.google.com/maps/search/?api=1&query=Convento%20da%20Gra%C3%A7a%2C%20Angra%20do%20Hero%C3%ADsmo)
+
+
+  - **Biblioteca Pública e Arquivo Regional de Angra do Heroísmo (BPAR)** — guarda os livros originais: B-1611-1687 (o baptismo), O-1696-1762 (o óbito, que vale a pena pedir a 300 dpi) e C-1673-1766 (os dois casamentos, ainda não guardados aqui). · [Mapa](https://www.google.com/maps/search/?api=1&query=Biblioteca%20P%C3%BAblica%20e%20Arquivo%20Regional%20de%20Angra%20do%20Hero%C3%ADsmo)

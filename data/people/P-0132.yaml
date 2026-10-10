@@ -1,0 +1,189 @@
+schema_version: 1
+id: P-0132
+preferred_name: José Henriques de Mattos
+privacy: deceased
+sex: male
+nationality: Brazilian
+name_variants:
+- value: Joze Henriques de Mattos
+  type: source
+  source_ids:
+  - PAR-0101
+  note: >-
+    Named as paternal grandfather ("neto pela parte paterna de Joze Henriques de
+    Mattos") in the 21 October 1821 Itaboraí baptism of Antonio, son of Manoel de Lemos
+    Pereira and Maria Thereza de Jezus.
+- value: José Henriques de Mattos
+  type: source
+  source_ids:
+  - PAR-0102
+  note: >-
+    Named as paternal grandfather ("neto paterno de José Henriques de Mattos") in both
+    4 March 1841 Itaboraí baptisms, of João and Maria, children of the same couple.
+event_ids: []
+family_ids:
+- F-0066
+notes:
+- text: >-
+    Father of Manoel de Lemos Pereira (P-0052) [STRONG], hence paternal grandfather of
+    Rosa Eugenia de Lemos (P-0035) and 5th-great-grandfather of the archive's owner
+    (P-0001) through his mother's Bohrer line: P-0001 → P-0003 → P-0007 (Iris) →
+    P-0015 (Celina) → P-0030 (Joaquim José) → P-0035 (Rosa) → P-0052 (Manoel) →
+    P-0132 (Ahnentafel 244). Known only as a grandparent: the 1821 and 1841 Itaboraí
+    baptisms of three of Manoel's children name him as their paternal grandfather,
+    beside Anna Joaquina (Anna Maria) da Conceição (P-0133, family F-0066). The
+    records are held and read [PROVEN as records]; that the Manoel de Lemos Pereira
+    they name is Rosa's father is strong evidence, not proven — same names, same
+    parish register series, two records twenty years apart agreeing on all four
+    grandparents, and no competing couple reported — so the parentage link to P-0052
+    is held at strong-evidence (see F-0066). Modelled on the owner's authorisation of
+    2026-10-10 ("with their link to Rosa at STRONG, not PROVEN").
+  text_pt: >-
+    Pai de Manoel de Lemos Pereira (P-0052) [STRONG], portanto avô paterno de Rosa
+    Eugenia de Lemos (P-0035) e hexavô do dono do arquivo (P-0001) pela
+    linha Bohrer de sua mãe: P-0001 → P-0003 → P-0007 (Iris) → P-0015 (Celina) →
+    P-0030 (Joaquim José) → P-0035 (Rosa) → P-0052 (Manoel) → P-0132 (Ahnentafel 244).
+    Conhecido apenas como avô: os batismos de 1821 e 1841, em Itaboraí, de três filhos
+    de Manoel o nomeiam como avô paterno, ao lado de Anna Joaquina (Anna Maria) da
+    Conceição (P-0133, família F-0066). Os registros estão disponíveis e lidos
+    [PROVEN como registros]; que o Manoel de Lemos Pereira neles nomeado seja o pai de
+    Rosa é evidência forte, não prova — mesmos nomes, mesma série de livros da
+    freguesia, dois registros com vinte anos de intervalo concordando nos quatro avós,
+    e nenhum casal concorrente relatado —, de modo que o vínculo de filiação com
+    P-0052 fica em strong-evidence (ver F-0066). Modelado com a autorização do dono de
+    2026-10-10 ("com o vínculo a Rosa em STRONG, não PROVEN").
+- text: >-
+    Nationality Brazilian, following his son and daughter-in-law (P-0052, P-0053): the
+    1821 baptism closes the grandparent clause with "todos naturaes desta Freguezia"
+    (Itaboraí), and João's 1841 entry repeats "todos naturaes desta Freguezia de
+    Itaborahy". Both formulas are generic and attached to the maternal clause; they
+    are read as covering him, a documented birthplace by statement rather than an
+    inference from his surname. In 1821 Itaboraí lay within the Portuguese realm (the
+    United Kingdom of Portugal, Brazil and the Algarves, 1815-1822): "Brazilian" here
+    records a Brazilian birthplace, as on P-0052/P-0053, not a citizenship he could
+    have held at his birth.
+  text_pt: >-
+    Nacionalidade brasileira, como seu filho e sua nora (P-0052, P-0053): o batismo
+    de 1821 fecha a cláusula dos avós com "todos naturaes desta Freguezia" (Itaboraí),
+    e o assento de João de 1841 repete "todos naturaes desta Freguezia de Itaborahy".
+    As duas fórmulas são genéricas e vêm presas à cláusula materna; são lidas como
+    abrangendo-o — um local de nascimento declarado, não uma inferência a partir do
+    sobrenome. Em 1821 Itaboraí pertencia ao reino português (o Reino Unido de
+    Portugal, Brasil e Algarves, 1815-1822): "brasileira" registra aqui um local de
+    nascimento no Brasil, como em P-0052/P-0053, não uma cidadania que pudesse ter ao
+    nascer.
+- text: >-
+    No event is modelled: neither record gives his birth, marriage or death, and
+    neither says whether he was living or dead ("fallecido" is not written). Born no
+    later than about 1780 [INFERRED — a grandfather by October 1821 whose son was a
+    married householder by then]. Namesakes in the same register are reported by the
+    retrieval side (a "[João? Francisco?] Henriques de Mattos", a "Henrique Antunes de
+    Mattos", a "Felicio(?) José Henriques de Mattos" and others) [LEAD]: attach no
+    further record to him without a relative in it.
+  text_pt: >-
+    Nenhum evento é modelado: nenhum dos registros dá seu nascimento, casamento ou
+    óbito, nem diz se estava vivo ou morto ("fallecido" não está escrito). Nascido no
+    máximo por volta de 1780 [INFERRED — avô em outubro de 1821, com um filho já chefe
+    de família casado]. A pesquisa de recuperação relata homônimos no mesmo livro (um
+    "[João? Francisco?] Henriques de Mattos", um "Henrique Antunes de Mattos", um
+    "Felicio(?) José Henriques de Mattos" e outros) [LEAD]: não lhe atribuir outro
+    registro sem um parente nele.
+profile: >-
+  ## Identity
+
+  **José Henriques de Mattos** — "Joze Henriques de Mattos" in the 21 October 1821
+  Itaboraí baptism of his grandson Antonio (PAR-0101), "José Henriques de Mattos" in
+  the 4 March 1841 baptisms of his grandchildren João and Maria (PAR-0102) [PROVEN].
+  Both records name him as the paternal grandfather of children of Manoel de Lemos
+  Pereira and Maria Thereza de Jesus, beside Anna Joaquina (in 1841, Anna Maria) da
+  Conceição (P-0133). He is the father of Manoel de Lemos Pereira (P-0052) [STRONG],
+  hence Rosa Eugenia de Lemos's (P-0035) paternal grandfather and the owner's
+  5th-great-grandfather on his mother's Bohrer line.
+
+  - **Nationality:** Brazilian — "todos naturaes desta Freguezia" (Itaboraí) in 1821
+  and 1841 [PROVEN as written; the generic formula is read as covering him].
+
+  - **Birth, marriage, death:** none located; born no later than about 1780
+  [INFERRED].
+
+  ## Evidence standing
+
+  The two baptism entries are original parish records, read from the images
+  [PROVEN]. That they concern Rosa's family is strong evidence, not proof: the
+  parents carry exactly the names of Rosa's parents, in the same parish register
+  series, and the 1821 and 1841 entries agree on all four grandparents [STRONG]. No
+  record states the link outright. His son's surname differs from his: the son of a
+  "Henriques de Mattos" is a "de Lemos Pereira" — ordinary in the period, when
+  children often took another relative's or a devotional name [CONTEXTUAL]; where
+  "Lemos Pereira" came from is unknown [OPEN].
+
+  ## Open questions
+
+  - Manoel de Lemos Pereira's own baptism or his marriage to Maria Thereza (Itaboraí,
+  before 1821), either of which would name his parents directly and settle the link
+  [OPEN]. The retrieval side reports that both fall in gaps of the filmed Itaboraí
+  registers (no baptisms 1730-February 1821, no marriages 1768-1832), with the
+  unfilmed books at the archdiocesan archive in Niterói [LEAD].
+
+  - His own baptism, marriage and death — before 1821 or after 1841 [OPEN]. A probable
+  daughter, Maria Luiza de Jezus, wife of Laureano Antonio da Costa, whose children's
+  baptisms (1821, 1833, 1840) reportedly name "Joze Henriques de Mattos e Anna
+  Joaquina" as maternal grandparents [LEAD — images not held].
+
+  ## Sources held (this repository)
+
+  - PAR-0101 (Antonio's 1821 Itaboraí baptism — "neto pela parte paterna de Joze
+  Henriques de Mattos, e Anna Joaquina da Conceição").
+
+  - PAR-0102 (João's and Maria's 1841 Itaboraí baptisms — "neto paterno de José
+  Henriques de Mattos").
+profile_pt: >-
+  ## Identidade
+
+  **José Henriques de Mattos** — "Joze Henriques de Mattos" no batismo de seu neto
+  Antonio, em Itaboraí, de 21 de outubro de 1821 (PAR-0101), e "José Henriques de
+  Mattos" nos batismos de seus netos João e Maria, de 4 de março de 1841 (PAR-0102)
+  [PROVEN]. Os dois registros o nomeiam como avô paterno de filhos de Manoel de Lemos
+  Pereira e Maria Thereza de Jesus, ao lado de Anna Joaquina (em 1841, Anna Maria) da
+  Conceição (P-0133). É o pai de Manoel de Lemos Pereira (P-0052) [STRONG], portanto
+  avô paterno de Rosa Eugenia de Lemos (P-0035) e hexavô do dono do arquivo pela
+  linha Bohrer de sua mãe.
+
+  - **Nacionalidade:** brasileira — "todos naturaes desta Freguezia" (Itaboraí) em
+  1821 e 1841 [PROVEN como escrito; a fórmula genérica é lida como abrangendo-o].
+
+  - **Nascimento, casamento, óbito:** nenhum localizado; nascido no máximo por volta de
+  1780 [INFERRED].
+
+  ## Situação da evidência
+
+  Os dois assentos de batismo são registros paroquiais originais, lidos nas imagens
+  [PROVEN]. Que digam respeito à família de Rosa é evidência forte, não prova: os pais
+  têm exatamente os nomes dos pais de Rosa, na mesma série de livros da freguesia, e
+  os assentos de 1821 e 1841 concordam nos quatro avós [STRONG]. Nenhum registro
+  declara o vínculo expressamente. O sobrenome do filho difere do seu: o filho de um
+  "Henriques de Mattos" é um "de Lemos Pereira" — coisa comum na época, em que os
+  filhos muitas vezes tomavam o nome de outro parente ou um nome devocional
+  [CONTEXTUAL]; de onde veio "Lemos Pereira" é desconhecido [OPEN].
+
+  ## Questões em aberto
+
+  - O próprio batismo de Manoel de Lemos Pereira ou seu casamento com Maria Thereza
+  (Itaboraí, antes de 1821), qualquer dos quais nomearia diretamente seus pais e
+  resolveria o vínculo [OPEN]. A pesquisa de recuperação relata que ambos caem em
+  lacunas dos livros filmados de Itaboraí (sem batismos de 1730 a fevereiro de 1821,
+  sem casamentos de 1768 a 1832), estando os livros não filmados no arquivo da
+  arquidiocese em Niterói [LEAD].
+
+  - Seu próprio batismo, casamento e óbito — antes de 1821 ou depois de 1841 [OPEN].
+  Uma provável filha, Maria Luiza de Jezus, mulher de Laureano Antonio da Costa,
+  cujos filhos batizados em 1821, 1833 e 1840 teriam como avós maternos "Joze
+  Henriques de Mattos e Anna Joaquina" [LEAD — imagens não disponíveis].
+
+  ## Fontes disponíveis (neste repositório)
+
+  - PAR-0101 (batismo de Antonio em Itaboraí, 1821 — "neto pela parte paterna de Joze
+  Henriques de Mattos, e Anna Joaquina da Conceição").
+
+  - PAR-0102 (batismos de João e Maria em Itaboraí, 1841 — "neto paterno de José
+  Henriques de Mattos").

@@ -16,6 +16,8 @@ name_variants:
   - PAR-0030
   - PAR-0031
   - PAR-0033
+  - PAR-0101
+  - PAR-0102
   note: >-
     Written in full in the 1832, 1834 and 1838 Itaboraí baptisms of his children
     Maria, Anna and Polidoro (re-read from the images 2026-10-10). Previously carried
@@ -26,6 +28,7 @@ event_ids:
 - E-0049
 family_ids:
 - F-0025
+- F-0066
 notes:
 - text: >-
     Father of Rosa Eugenia de Lemos (P-0035); hence Joaquim José Bohrer's (P-0030)
@@ -34,7 +37,9 @@ notes:
     desta freguezia", married to Maria Thereza de Jesus (P-0053, family F-0025). The
     fuller surname "de Lemos Pereira" is the family form (his son "Thomaz de Lemos
     Pereira" is so indexed, and his son Candido Pereira de Lemos is named in Rosa's
-    husband's 1888 will, PRB-0005).
+    husband's 1888 will, PRB-0005). [corrected 2026-10-10: the will is dated 27 June 1879;
+    it was opened and registered in 1888. Candido is named in it as Rosa's brother and
+    second testamenteiro.]
   text_pt: >-
     Pai de Rosa Eugenia de Lemos (P-0035); portanto, o avô materno de Joaquim
     José Bohrer (P-0030) e o chefe da linha Lemos de Itaboraí, RJ. Nomeado no
@@ -43,6 +48,8 @@ notes:
     F-0025). O sobrenome mais completo "de Lemos Pereira" é a forma da família
     (seu filho "Thomaz de Lemos Pereira" está assim indexado, e seu filho Candido
     Pereira de Lemos é nomeado no testamento de 1888 do marido de Rosa, PRB-0005).
+    [corrigido em 2026-10-10: o testamento é de 27 de junho de 1879; foi aberto e
+    registrado em 1888. Candido é nele nomeado irmão de Rosa e segundo testamenteiro.]
 - text: >-
     Nationality Brazilian: he and his wife are "naturaes desta freguezia" (Itaboraí,
     RJ) in the 1835 baptism — a documented birthplace, not a surname inference. His
@@ -77,6 +84,7 @@ notes:
     "o Capitão José Custodio Vieira", de modo que fica retirada a afirmação anterior
     de que nenhum padrinho de seus filhos tinha patente.]
 - text: >-
+    SUPERSEDED 2026-10-10 by the next note (the record images are now held and read).
     LEAD (2026-10-10, retrieval agent; record images not yet held here): the
     retrieval agent reports that the 21 October 1821 Itaboraí baptism of his son
     Antonio and the 4 March 1841 baptisms of his children João and Maria name the
@@ -88,8 +96,10 @@ notes:
     delivered and read here: no person, family, event or source is created from this
     report, and his parents remain unevidenced in this repository.
   text_pt: >-
-    PISTA (2026-10-10, agente de recuperação; imagens dos registros ainda não
-    disponíveis aqui): o agente de recuperação relata que o batismo de seu filho
+    SUPERADA em 2026-10-10 pela nota seguinte (as imagens dos registros estão agora
+    disponíveis e lidas). PISTA (2026-10-10, agente de recuperação; imagens dos
+    registros ainda não disponíveis aqui): o agente de recuperação relata que o
+    batismo de seu filho
     Antonio em Itaboraí, de 21 de outubro de 1821, e os batismos de seus filhos João
     e Maria, de 4 de março de 1841, nomeiam os avós — paternos (seus próprios pais):
     José Henriques de Mattos × Anna Joaquina (também dada como Anna Maria) da
@@ -99,20 +109,59 @@ notes:
     setembro de 1856. Não modelado até que as imagens dos registros sejam entregues e
     lidas aqui: nenhuma pessoa, família, evento ou fonte é criado a partir deste
     relato, e seus pais continuam sem evidência neste repositório.
+- text: >-
+    [2026-10-10, records held] The baptisms reported in the note above are now held
+    and read from the images: Antonio, 21 October 1821 (PAR-0101), and João (b. 16
+    August 1839) and Maria (b. 24 September 1840), both baptised 4 March 1841
+    (PAR-0102) — each a legitimate child of "Manoel de Lemos Pereira" and "Maria
+    Thereza de Jezus/Jesus", and documented children of F-0025. Both records name his
+    parents as José Henriques de Mattos (P-0132) and Anna Joaquina da Conceição (1821)
+    / Anna Maria da Conceição (1841) (P-0133), "todos naturaes desta Freguezia", now
+    modelled as his parentage family F-0066 at strong-evidence, not confirmed: the
+    records are original and direct for the Manoel they name, but identifying that
+    Manoel with this one rests on the identical name in the same parish register
+    series and on the two records agreeing, twenty years apart, on all four
+    grandparents (the owner's authorisation of 2026-10-10: the link to Rosa at STRONG,
+    not PROVEN). This supersedes the statement in the nationality note above that his
+    parents are not evidenced by the located records. A legitimate son baptised on 21
+    October 1821 also shows the couple married by then [STRONG, through the same
+    identification]; the retrieval agent's bound of 18 March 1821 remains a lead. The
+    reported readings were confirmed, except that in 1841 the grandmother's "Maria
+    digo" is a written self-correction, not a struck word.
+  text_pt: >-
+    [2026-10-10, registros disponíveis] Os batismos relatados na nota acima estão agora
+    disponíveis e lidos nas imagens: Antonio, 21 de outubro de 1821 (PAR-0101), e João
+    (n. 16 de agosto de 1839) e Maria (n. 24 de setembro de 1840), ambos batizados em 4
+    de março de 1841 (PAR-0102) — cada um filho legítimo de "Manoel de Lemos Pereira" e
+    "Maria Thereza de Jezus/Jesus", e filhos documentados de F-0025. Os dois registros
+    nomeiam seus pais como José Henriques de Mattos (P-0132) e Anna Joaquina da
+    Conceição (1821) / Anna Maria da Conceição (1841) (P-0133), "todos naturaes desta
+    Freguezia", agora modelados como sua família de filiação F-0066 em
+    strong-evidence, não confirmed: os registros são originais e diretos para o Manoel
+    que nomeiam, mas identificar esse Manoel com este apoia-se no nome idêntico na
+    mesma série de livros da freguesia e na concordância dos dois registros, com vinte
+    anos de intervalo, quanto aos quatro avós (autorização do dono de 2026-10-10: o
+    vínculo a Rosa em STRONG, não PROVEN). Isto supera a afirmação da nota de
+    nacionalidade acima de que seus pais não são evidenciados pelos registros
+    localizados. Um filho legítimo batizado em 21 de outubro de 1821 mostra também o
+    casal já casado nessa data [STRONG, pela mesma identificação]; o limite de 18 de
+    março de 1821 do agente de recuperação continua sendo uma pista. As leituras
+    relatadas foram confirmadas, exceto que em 1841 o "Maria digo" da avó é uma
+    autocorreção escrita, não uma palavra riscada.
 profile: >-
   ## Interesting facts
 
   - **[CONTEXTUAL]** Itaboraí, his home parish, was a rural sugar-and-agriculture municipality east of Guanabara Bay — distinct from both the Swiss Nova Friburgo colony and the Zona da Mata coffee economy, making his family a third cultural strand in the tree: Portuguese-descended fluminense stock with no colonial immigrant or highland-coffee background.
 
-  - **[INFERRED]** Five children baptised at Itaboraí between 1832 and 1838 indicate a settled, church-integrated household; a married householder with children before 1832 implies he was born no later than c.1805–1810, placing his birth in the final decade of the Portuguese colonial period.
+  - **[INFERRED]** Eight children baptised at Itaboraí between 1821 and 1841 indicate a settled, church-integrated household (the 1821 and 1841 baptisms are his at strong evidence); a married father by October 1821 was born no later than about 1800, in the late colonial period. (Until 2026-10-10 this read five children, 1832–1838, and a birth by c.1805–1810.)
 
   - **[PROVEN]** The register writes him in full as "Manoel de Lemos Pereira" in three of his children's baptisms (1832, 1834, 1838) and as plain "Manoel de Lemos" in the other two (1835, 1836) — dropping the last surname was ordinary clerical shorthand [CONTEXTUAL]. An earlier "Ferreira" reading of those entries was a misreading, corrected from the images on 2026-10-10 (PAR-0030, PAR-0031, PAR-0033).
 
   - **[INFERRED]** His entire documented life is in Itaboraí; the relocation from Itaboraí to Nova Friburgo belongs to the next generation, when his daughter Rosa married into the Swiss-German colonist household — he never moved, and only his descendants crossed the cultural divide.
 
-  - **[PROVEN]** Five of his children's baptisms at the Itaboraí matriz (1832–1838) establish him as a continuous, stable parishioner across at least six years rather than an itinerant household (PAR-0016, PAR-0030, PAR-0031, PAR-0032, PAR-0033).
+  - **[PROVEN]** Five of his children's baptisms at the Itaboraí matriz (1832–1838) establish him as a continuous, stable parishioner across at least six years rather than an itinerant household (PAR-0016, PAR-0030, PAR-0031, PAR-0032, PAR-0033). With the 1821 and 1841 baptisms of Antonio, João and Maria (PAR-0101, PAR-0102) [STRONG], the span is twenty years.
 
-  - **[CONTEXTUAL]** By 1835, when his daughter Rosa was baptised at Itaboraí, Brazil had been an independent empire for thirteen years — his adult life was entirely lived under Brazilian independence, not under the Portuguese colonial regime his parents would have known.
+  - **[CONTEXTUAL]** By 1835, when his daughter Rosa was baptised at Itaboraí, Brazil had been an independent empire for thirteen years. His adult life did not begin under it: his son Antonio was baptised in October 1821 (PAR-0101) [STRONG], less than a year before independence, when Itaboraí still lay in the United Kingdom of Portugal, Brazil and the Algarves — the regime his parents (P-0132, P-0133) had lived under. (Corrected 2026-10-10: this point earlier said his adult life was lived entirely under independence.)
 
   ## Identity
 
@@ -127,30 +176,40 @@ profile: >-
   (Itaboraí) in the 1835 baptism (PAR-0016); a documented birthplace, not a surname
   inference.
 
-  - **Parents:** unknown from any held record [OPEN]. The retrieval agent reports that the
-  1821 and 1841 baptisms of his children name them as José Henriques de Mattos and Anna
-  Joaquina (Anna Maria) da Conceição [LEAD — images not yet held; not modelled].
+  - **Parents:** José Henriques de Mattos (P-0132) and Anna Joaquina da Conceição (P-0133;
+  "Anna Maria" in 1841), family F-0066 [STRONG] — named as paternal grandparents, "todos
+  naturaes desta Freguezia", in the 1821 and 1841 baptisms of his children Antonio, João and
+  Maria (PAR-0101, PAR-0102), held and read on 2026-10-10 [PROVEN as records]. The link is
+  strong, not proven: it rests on identifying him with the Manoel de Lemos Pereira those
+  records name. His surname is not his father's ("Henriques de Mattos"); where "Lemos
+  Pereira" came from is unknown [OPEN]. (Until 2026-10-10 this read "unknown from any held
+  record", with the names as a retrieval lead.)
 
   - **Marriage:** husband of Maria Thereza de Jesus (P-0053), family F-0025; the marriage
   act (which would name his father) is not held. An established married householder by the
-  early 1830s implies a birth no later than c.1805–1810 [INFERRED]; the retrieval agent
-  reports the couple already married by 18 March 1821, which would push that bound back to
-  about 1800 [LEAD].
+  early 1830s implies a birth no later than c.1805–1810 [INFERRED]; the legitimate son
+  baptised on 21 October 1821 (PAR-0101) shows the couple married by then [STRONG], which
+  pushes that bound back to about 1800 [INFERRED]. The retrieval agent reports them married
+  by 18 March 1821 [LEAD].
 
   - **Children:** attested across the 1832–1838 Itaboraí baptism sweep — Maria (1832,
   PAR-0030), Anna (1834, PAR-0031), Rosa Eugenia (1835, PAR-0016), Thomaz (1836, PAR-0032)
   and Polídoro (1838, PAR-0033) [PROVEN]. His son Candido Pereira de Lemos is named as
-  Rosa's brother in her husband's 1888 will (PRB-0005); a further son Manoel Antunes de
-  Lemos is reported by the retrieval synthesis [LEAD, not catalogued]. The retrieval agent
-  also reports a son Antonio (bapt. 21 Oct 1821) and children João and Maria (bapt. 4 Mar
-  1841) [LEAD — images not yet held].
+  Rosa's brother and second testamenteiro in her husband's will of 27 June 1879 (opened and
+  registered 1888; PRB-0005); a further son Manoel Antunes de
+  Lemos is reported by the retrieval synthesis [LEAD, not catalogued]. Three more are now
+  held: Antonio, baptised 21 October 1821 (PAR-0101), and João (b. 16 August 1839) and Maria
+  (b. 24 September 1840), both baptised 4 March 1841 (PAR-0102) [STRONG — through his
+  identification with the father those records name]; the 1840 Maria is a second daughter of
+  the name.
 
   ## Standing and profession
 
   Nothing occupational, propertied or civic is documented — the held records name him only
   as a parent. What they do fix is a settled, church-integrated local family baptising
-  legitimate children continuously at the Itaboraí matriz across at least 1832–1838, not
-  an itinerant household. [INFERRED]
+  legitimate children continuously at the Itaboraí matriz across at least 1832–1838 — and,
+  with the 1821 and 1841 entries [STRONG], across twenty years — not an itinerant household.
+  [INFERRED]
 
   ## Family and social network
 
@@ -159,9 +218,11 @@ profile: >-
   João José Antunes and Anna Roza da Encarnação (Anna, 1834); Manoel José da Silva and
   Ro[z]a de Maria da Conceição (Rosa, 1835); Hermenegildo José de Mattos with Nossa Senhora
   (Polidoro, 1838) [PROVEN]. (An earlier reading of a "Guimarães" godmother in 1834 was a
-  misreading, corrected 2026-10-10.) The 1838 godfather's surname, de Mattos, matches the
-  surname the retrieval agent reports for Manoel's own father [LEAD]; the act states no
-  relationship.
+  misreading, corrected 2026-10-10.) The 1821 baptism adds Antonio Joze da Fonceca and Anna
+  Maria das Dores, and both 1841 baptisms the Reverendo José Antonio Ferreira Pacheco
+  (PAR-0101, PAR-0102) [STRONG]. The 1838 godfather's surname, de Mattos, matches that of
+  Manoel's father José Henriques de Mattos (P-0132) [STRONG]; the act states no
+  relationship, so a kinsman is only a possibility [INFERRED].
 
   ## What we can extrapolate
 
@@ -185,22 +246,25 @@ profile: >-
   the family had one patron-level tie, renewed four years later, among otherwise untitled
   sponsors: a household with a connection upward, not one with none. (This replaces an earlier
   reading, corrected from the images on 2026-10-10, under which no sponsor carried a rank.)
-  [INFERRED]
+  [INFERRED] The 1841 baptisms, held since 2026-10-10, add a tie of a similar kind: a priest,
+  the Reverendo José Antonio Ferreira Pacheco, stood godfather to both João and Maria
+  (PAR-0102) [STRONG].
 
   **The Lemos climb begins in the next generation, and its mechanism is migration, not
   accumulation.** [INFERRED, well-supported] Nothing in his own record changes. But his daughter
   Rosa Eugenia married into the Nova Friburgo colonist household and was styled "Exma. Sra. D.
   Roza Bohrer" by 1898 (NWS-0002); his son Candido Pereira de Lemos appears at Nova Friburgo as
-  a marriage witness in 1884 (PAR-0056) and as executor of his brother-in-law's will in 1888
-  (PRB-0005); and Manoel Pereira de Lemos, named as Rosa's brother, died there in January 1898
+  a marriage witness in 1884 (PAR-0056) and is named second executor in his brother-in-law's
+  will of 1879 (PRB-0005); and Manoel Pereira de Lemos, named as Rosa's brother, died there in January 1898
   as "o conhecido industrial da Venda das Pedras", aged 72 (NWS-0002) [PROVEN]. A family with
   nothing recorded at Itaboraí produced, within one generation and one move to the serra, an
   established *industrial* and a *Dona*. Since there is no inheritance in the record to explain
   it, whatever capital made that possible was made in the serra, in trade. [INFERRED]
 
   **Whatever he did hold divided at least seven ways.** [CONTEXTUAL/INFERRED] The held records
-  evidence Manoel (bapt. 1831), Maria (1832), Anna (1834), Rosa Eugenia (1835), Thomaz (1836)
-  and Polidoro (1838) from the Itaboraí register, plus Candido Pereira de Lemos and Manoel
+  evidence Antonio (1821) [STRONG], Manoel (bapt. 1831), Maria (1832), Anna (1834), Rosa
+  Eugenia (1835), Thomaz (1836), Polidoro (1838), João (1839) and a second Maria (1840)
+  [STRONG] from the Itaboraí register, plus Candido Pereira de Lemos and Manoel
   Pereira de Lemos (d. 1898, aged 72) from the Nova Friburgo material — the last of whom may or
   may not be the Manoel baptised in 1831 [uncertain]. Under Brazilian equal partition, seven or
   eight heirs is the arithmetic that stops a small holding ever becoming an estate. In his case
@@ -213,10 +277,11 @@ profile: >-
 
   ## Open questions
 
-  - His own parents — reported by the retrieval agent from the 1821 and 1841 baptisms of his
-  children [LEAD]; decisive here: those baptism images, then the Itaboraí marriage of Manoel de
-  Lemos × Maria Thereza de Jesus or an Itaboraí Lemos inventário. (The former "Pereira vs
-  Ferreira" question is closed: the images read "Pereira".) [OPEN]
+  - His own parents — now named from the 1821 and 1841 baptisms of his children (PAR-0101,
+  PAR-0102) and modelled as F-0066 at strong evidence; what would prove the link is his own
+  baptism, the Itaboraí marriage of Manoel de Lemos × Maria Thereza de Jesus, or an Itaboraí
+  Lemos inventário. (The former "Pereira vs Ferreira" question is closed: the images read
+  "Pereira".) [OPEN]
 
   - His birth, death and any move to Nova Friburgo — none located; the retrieval agent reports
   him alive on 30 September 1856 [LEAD]. [OPEN]
@@ -227,8 +292,13 @@ profile: >-
   baptism) · PAR-0031 (Anna's 1834 baptism) · PAR-0032 (Thomaz's 1836 baptism) · PAR-0033
   (Polídoro's 1838 baptism) — all Itaboraí, naming him as father.
 
-  - PRB-0005 (his son-in-law Francisco José Bohrer's 1888 will names his son Candido
-  Pereira de Lemos as executor / Rosa's brother — the family form "de Lemos Pereira").
+  - PAR-0101 (son Antonio's 1821 Itaboraí baptism) · PAR-0102 (João's and Maria's 1841
+  Itaboraí baptisms) — both name "Manoel de Lemos Pereira" as father and name his parents and
+  parents-in-law [identification STRONG].
+
+  - PRB-0005 (his son-in-law Francisco José Bohrer's will of 27 June 1879, opened and
+  registered 1888, names his son Candido Pereira de Lemos as second executor / Rosa's brother —
+  the family form "de Lemos Pereira").
 
   ## Regional and migration context
 
@@ -246,15 +316,15 @@ profile_pt: >-
 
   - **[CONTEXTUAL]** Itaboraí, a sua freguesia natal, era um município rural de cana-de-açúcar e agricultura a leste da Baía de Guanabara — distinto tanto da colónia suíça de Nova Friburgo como da economia cafeeira da Zona da Mata, tornando a sua família uma terceira vertente cultural na árvore: descendentes de portugueses fluminenses sem qualquer ligação a imigrantes coloniais ou ao café das terras altas.
 
-  - **[INFERRED]** Cinco filhos baptizados em Itaboraí entre 1832 e 1838 indicam um agregado familiar estável e integrado na vida paroquial; um chefe de família casado com filhos antes de 1832 implica que terá nascido no máximo por volta de 1805–1810, colocando o seu nascimento na última década do período colonial português.
+  - **[INFERRED]** Oito filhos baptizados em Itaboraí entre 1821 e 1841 indicam um agregado familiar estável e integrado na vida paroquial (os batismos de 1821 e 1841 são seus com evidência forte); um pai já casado em outubro de 1821 terá nascido no máximo por volta de 1800, no fim do período colonial. (Até 2026-10-10 dizia-se aqui cinco filhos, 1832–1838, e um nascimento até c.1805–1810.)
 
   - **[PROVEN]** O registro escreve-o por extenso como "Manoel de Lemos Pereira" em três dos batismos dos filhos (1832, 1834, 1838) e apenas como "Manoel de Lemos" nos outros dois (1835, 1836) — omitir o último sobrenome era abreviação corrente de escrivão [CONTEXTUAL]. Uma leitura anterior "Ferreira" desses assentos era errada e foi corrigida a partir das imagens em 2026-10-10 (PAR-0030, PAR-0031, PAR-0033).
 
   - **[INFERRED]** Toda a sua vida documentada decorre em Itaboraí; a mudança de Itaboraí para Nova Friburgo pertence à geração seguinte, quando a filha Rosa casou com a família de colonos suíço-alemães — ele nunca se mudou, e só os seus descendentes cruzaram a fronteira cultural.
 
-  - **[PROVEN]** Cinco baptizados dos seus filhos na matriz de Itaboraí (1832–1838) estabelecem-no como paroquiano contínuo e estável ao longo de pelo menos seis anos, não como um agregado itinerante (PAR-0016, PAR-0030, PAR-0031, PAR-0032, PAR-0033).
+  - **[PROVEN]** Cinco baptizados dos seus filhos na matriz de Itaboraí (1832–1838) estabelecem-no como paroquiano contínuo e estável ao longo de pelo menos seis anos, não como um agregado itinerante (PAR-0016, PAR-0030, PAR-0031, PAR-0032, PAR-0033). Com os batismos de 1821 e 1841 de Antonio, João e Maria (PAR-0101, PAR-0102) [STRONG], o intervalo é de vinte anos.
 
-  - **[CONTEXTUAL]** Em 1835, quando a filha Rosa foi baptizada em Itaboraí, o Brasil era um império independente há treze anos — toda a sua vida adulta decorreu sob a independência brasileira, e não sob o regime colonial português que os seus pais ainda haviam conhecido.
+  - **[CONTEXTUAL]** Em 1835, quando a filha Rosa foi baptizada em Itaboraí, o Brasil era um império independente há treze anos. A sua vida adulta não começou sob ele: o filho Antonio foi batizado em outubro de 1821 (PAR-0101) [STRONG], menos de um ano antes da independência, quando Itaboraí ainda pertencia ao Reino Unido de Portugal, Brasil e Algarves — o regime sob o qual os seus pais (P-0132, P-0133) tinham vivido. (Corrigido em 2026-10-10: este ponto dizia antes que toda a sua vida adulta decorrera sob a independência.)
 
   ## Identidade
 
@@ -269,31 +339,40 @@ profile_pt: >-
   freguezia" (Itaboraí) no batismo de 1835 (PAR-0016); um local de nascimento documentado,
   não uma inferência a partir do sobrenome.
 
-  - **Pais:** desconhecidos em qualquer registro disponível [OPEN]. O agente de recuperação
-  relata que os batismos de 1821 e 1841 de seus filhos os nomeiam como José Henriques de
-  Mattos e Anna Joaquina (Anna Maria) da Conceição [LEAD — imagens ainda não disponíveis;
-  não modelado].
+  - **Pais:** José Henriques de Mattos (P-0132) e Anna Joaquina da Conceição (P-0133; "Anna
+  Maria" em 1841), família F-0066 [STRONG] — nomeados avós paternos, "todos naturaes desta
+  Freguezia", nos batismos de 1821 e 1841 de seus filhos Antonio, João e Maria (PAR-0101,
+  PAR-0102), disponíveis e lidos em 2026-10-10 [PROVEN como registros]. O vínculo é forte,
+  não provado: depende de identificá-lo com o Manoel de Lemos Pereira que esses registros
+  nomeiam. Seu sobrenome não é o do pai ("Henriques de Mattos"); de onde veio "Lemos
+  Pereira" é desconhecido [OPEN]. (Até 2026-10-10 dizia-se aqui "desconhecidos em qualquer
+  registro disponível", com os nomes como pista da pesquisa de recuperação.)
 
   - **Casamento:** marido de Maria Thereza de Jesus (P-0053), família F-0025; o assento de
   casamento (que nomearia seu pai) não está disponível. Um chefe de família já casado no
   início da década de 1830 implica um nascimento não posterior a c.1805–1810 [INFERRED]; o
-  agente de recuperação relata o casal já casado em 18 de março de 1821, o que recuaria esse
-  limite para cerca de 1800 [LEAD].
+  filho legítimo batizado em 21 de outubro de 1821 (PAR-0101) mostra o casal já casado nessa
+  data [STRONG], o que recua esse limite para cerca de 1800 [INFERRED]. O agente de
+  recuperação relata o casal casado em 18 de março de 1821 [LEAD].
 
   - **Filhos:** atestados na varredura dos batismos de Itaboraí de 1832–1838 — Maria
   (1832, PAR-0030), Anna (1834, PAR-0031), Rosa Eugenia (1835, PAR-0016), Thomaz (1836,
   PAR-0032) e Polídoro (1838, PAR-0033) [PROVEN]. Seu filho Candido Pereira de Lemos é
-  nomeado como irmão de Rosa no testamento de 1888 de seu marido (PRB-0005); um outro
+  nomeado irmão de Rosa e segundo testamenteiro no testamento de seu marido de 27 de junho de
+  1879 (aberto e registrado em 1888; PRB-0005); um outro
   filho, Manoel Antunes de Lemos, é relatado pela síntese de recuperação [LEAD, não
-  catalogado]. O agente de recuperação relata ainda um filho Antonio (bat. 21 out. 1821) e
-  os filhos João e Maria (bat. 4 mar. 1841) [LEAD — imagens ainda não disponíveis].
+  catalogado]. Mais três estão agora disponíveis: Antonio, batizado em 21 de outubro de 1821
+  (PAR-0101), e João (n. 16 de agosto de 1839) e Maria (n. 24 de setembro de 1840), ambos
+  batizados em 4 de março de 1841 (PAR-0102) [STRONG — pela sua identificação com o pai que
+  esses registros nomeiam]; a Maria de 1840 é uma segunda filha do nome.
 
   ## Posição social e profissão
 
   Nada de ocupacional, patrimonial ou cívico é documentado — os registros disponíveis o
   nomeiam apenas como pai. O que fixam é uma família local estabelecida e integrada à
   igreja, batizando filhos legítimos de forma contínua na matriz de Itaboraí ao longo de
-  ao menos 1832–1838, não uma casa itinerante. [INFERRED]
+  ao menos 1832–1838 — e, com os assentos de 1821 e 1841 [STRONG], ao longo de vinte anos —,
+  não uma casa itinerante. [INFERRED]
 
   ## Família e rede social
 
@@ -302,9 +381,11 @@ profile_pt: >-
   Antunes e Anna Roza da Encarnação (Anna, 1834); Manoel José da Silva e Ro[z]a de Maria da
   Conceição (Rosa, 1835); Hermenegildo José de Mattos com Nossa Senhora (Polidoro, 1838)
   [PROVEN]. (Uma leitura anterior de uma madrinha "Guimarães" em 1834 era errada, corrigida
-  em 2026-10-10.) O sobrenome do padrinho de 1838, de Mattos, coincide com o sobrenome que o
-  agente de recuperação relata para o próprio pai de Manoel [LEAD]; o ato não declara
-  parentesco.
+  em 2026-10-10.) O batismo de 1821 acrescenta Antonio Joze da Fonceca e Anna Maria das
+  Dores, e os dois batismos de 1841 o Reverendo José Antonio Ferreira Pacheco (PAR-0101,
+  PAR-0102) [STRONG]. O sobrenome do padrinho de 1838, de Mattos, coincide com o do pai de
+  Manoel, José Henriques de Mattos (P-0132) [STRONG]; o ato não declara parentesco, de modo
+  que um parente é apenas uma possibilidade [INFERRED].
 
   ## O que podemos extrapolar
 
@@ -329,13 +410,17 @@ profile_pt: >-
   criança a um protetor; a família tinha, portanto, um vínculo de nível de protetor, renovado
   quatro anos depois, entre padrinhos de resto sem título: um domicílio com uma ligação para
   cima, e não sem nenhuma. (Isto substitui uma leitura anterior, corrigida a partir das imagens
-  em 2026-10-10, segundo a qual nenhum padrinho tinha patente.) [INFERRED]
+  em 2026-10-10, segundo a qual nenhum padrinho tinha patente.) [INFERRED] Os batismos de
+  1841, disponíveis desde 2026-10-10, acrescentam um vínculo de tipo semelhante: um padre, o
+  Reverendo José Antonio Ferreira Pacheco, foi padrinho de João e de Maria (PAR-0102)
+  [STRONG].
 
   **A subida dos Lemos começa na geração seguinte, e seu mecanismo é a migração, não a
   acumulação.** [INFERRED, bem sustentado] Nada no registro dele muda. Mas sua filha Rosa
   Eugenia casou-se com o domicílio colono de Nova Friburgo e era tratada por "Exma. Sra. D. Roza
   Bohrer" em 1898 (NWS-0002); seu filho Candido Pereira de Lemos aparece em Nova Friburgo como
-  testemunha de casamento em 1884 (PAR-0056) e como testamenteiro do cunhado em 1888 (PRB-0005);
+  testemunha de casamento em 1884 (PAR-0056) e é nomeado segundo testamenteiro no testamento do
+  cunhado de 1879 (PRB-0005);
   e Manoel Pereira de Lemos, nomeado irmão de Rosa, ali morreu em janeiro de 1898 como "o
   conhecido industrial da Venda das Pedras", aos 72 anos (NWS-0002) [PROVEN]. Uma família sem
   nada registrado em Itaboraí produziu, em uma geração e uma mudança para a serra, um
@@ -343,8 +428,9 @@ profile_pt: >-
   capital que tornou isso possível foi feito na serra, no comércio. [INFERRED]
 
   **O que quer que ele possuísse dividiu-se ao menos por sete.** [CONTEXTUAL/INFERRED] Os
-  registros disponíveis evidenciam Manoel (bat. 1831), Maria (1832), Anna (1834), Rosa Eugenia
-  (1835), Thomaz (1836) e Polidoro (1838) no livro de Itaboraí, além de Candido Pereira de Lemos
+  registros disponíveis evidenciam Antonio (1821) [STRONG], Manoel (bat. 1831), Maria (1832),
+  Anna (1834), Rosa Eugenia (1835), Thomaz (1836), Polidoro (1838), João (1839) e uma segunda
+  Maria (1840) [STRONG] no livro de Itaboraí, além de Candido Pereira de Lemos
   e Manoel Pereira de Lemos (f. 1898, aos 72 anos) no material de Nova Friburgo — sendo que este
   último pode ou não ser o Manoel batizado em 1831 [incerto]. Na partilha igualitária
   brasileira, sete ou oito herdeiros são a aritmética que impede uma pequena posse de se tornar
@@ -357,11 +443,11 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seus próprios pais — relatados pelo agente de recuperação a partir dos batismos de 1821
-  e 1841 de seus filhos [LEAD]; decisivos aqui: as imagens desses batismos e, depois, o
-  casamento em Itaboraí de Manoel de Lemos × Maria Thereza de Jesus ou um inventário Lemos de
-  Itaboraí. (A antiga questão "Pereira vs Ferreira" está encerrada: as imagens dizem
-  "Pereira".) [OPEN]
+  - Seus próprios pais — agora nomeados pelos batismos de 1821 e 1841 de seus filhos
+  (PAR-0101, PAR-0102) e modelados como F-0066 com evidência forte; o que provaria o vínculo
+  é o seu próprio batismo, o casamento em Itaboraí de Manoel de Lemos × Maria Thereza de
+  Jesus ou um inventário Lemos de Itaboraí. (A antiga questão "Pereira vs Ferreira" está
+  encerrada: as imagens dizem "Pereira".) [OPEN]
 
   - Seu nascimento, óbito e qualquer mudança para Nova Friburgo — nenhum localizado; o agente
   de recuperação o relata vivo em 30 de setembro de 1856 [LEAD]. [OPEN]
@@ -372,9 +458,13 @@ profile_pt: >-
   Maria em 1832) · PAR-0031 (batismo de Anna em 1834) · PAR-0032 (batismo de Thomaz em
   1836) · PAR-0033 (batismo de Polídoro em 1838) — todos em Itaboraí, nomeando-o como pai.
 
-  - PRB-0005 (o testamento de 1888 de seu genro Francisco José Bohrer nomeia seu filho
-  Candido Pereira de Lemos como testamenteiro / irmão de Rosa — a forma da família "de
-  Lemos Pereira").
+  - PAR-0101 (batismo do filho Antonio em Itaboraí, 1821) · PAR-0102 (batismos de João e
+  Maria em Itaboraí, 1841) — ambos nomeiam "Manoel de Lemos Pereira" como pai e nomeiam seus
+  pais e sogros [identificação STRONG].
+
+  - PRB-0005 (o testamento de seu genro Francisco José Bohrer, de 27 de junho de 1879, aberto e
+  registrado em 1888, nomeia seu filho Candido Pereira de Lemos como segundo testamenteiro /
+  irmão de Rosa — a forma da família "de Lemos Pereira").
 
   ## Contexto regional e migratório
 

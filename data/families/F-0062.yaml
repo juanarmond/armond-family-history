@@ -25,10 +25,29 @@ children:
   parent_relationships:
   - parent_id: P-0123
     relationship_type: biological
-    status: hypothesis
+    status: rejected
     source_ids:
     - PUB-0005
     notes:
+    - text: >-
+        REJECTED 2026-10-10 (owner decision): Gaspar Ferreira (P-0092) of Vila Rica, Toledo
+        line, and Gaspar de Souto Maior of São Sebastião, Terceira, are two different men.
+        Belchior × Mariana's son Gaspar is now modelled as P-0131: his held baptism (PAR-0099,
+        23 Dec 1657) and death (PAR-0100, São Sebastião, 2 Dec 1727, "de idade de setenta
+        annos", "casado com Maria Mendes") keep him on Terceira all his life — decades before
+        P-0092's son Joaquim José was born (c.1750–65; married 1783, PAR-0018). The retrieval
+        research never identified the two. The link is kept here, rejected, so the history of
+        the hypothesis stays visible.
+      text_pt: >-
+        REJEITADO em 2026-10-10 (decisão do proprietário): Gaspar Ferreira (P-0092), de Vila
+        Rica, da linha Toledo, e Gaspar de Souto Maior, de São Sebastião, Terceira, são dois
+        homens diferentes. O filho Gaspar de Belchior × Mariana está agora modelado como P-0131:
+        o batismo dele guardado (PAR-0099, 23 de dezembro de 1657) e o óbito (PAR-0100, São
+        Sebastião, 2 de dezembro de 1727, "de idade de setenta annos", "casado com Maria
+        Mendes") o mantêm na Terceira a vida toda — décadas antes do nascimento de Joaquim José,
+        filho de P-0092 (c.1750–65; casou em 1783, PAR-0018). A pesquisa de recuperação nunca
+        identificou os dois. O vínculo fica aqui, rejeitado, para que a história da hipótese
+        continue visível.
     - text: >-
         Gaspar de Souto-Maior (P-0092, here identified as Gaspar Ferreira) is listed in Vol. IX
         (PUB-0005, p.261) as born [corrected 2026-10-09: baptised — "b." is the book's
@@ -63,10 +82,29 @@ children:
         (ver o conflito acima); este vínculo é uma pista a testar, não uma conclusão.
   - parent_id: P-0124
     relationship_type: biological
-    status: hypothesis
+    status: rejected
     source_ids:
     - PUB-0005
     notes:
+    - text: >-
+        REJECTED 2026-10-10 (owner decision): Gaspar Ferreira (P-0092) of Vila Rica, Toledo
+        line, and Gaspar de Souto Maior of São Sebastião, Terceira, are two different men.
+        Belchior × Mariana's son Gaspar is now modelled as P-0131: his held baptism (PAR-0099,
+        23 Dec 1657) and death (PAR-0100, São Sebastião, 2 Dec 1727, "de idade de setenta
+        annos", "casado com Maria Mendes") keep him on Terceira all his life — decades before
+        P-0092's son Joaquim José was born (c.1750–65; married 1783, PAR-0018). The retrieval
+        research never identified the two. The link is kept here, rejected, so the history of
+        the hypothesis stays visible.
+      text_pt: >-
+        REJEITADO em 2026-10-10 (decisão do proprietário): Gaspar Ferreira (P-0092), de Vila
+        Rica, da linha Toledo, e Gaspar de Souto Maior, de São Sebastião, Terceira, são dois
+        homens diferentes. O filho Gaspar de Belchior × Mariana está agora modelado como P-0131:
+        o batismo dele guardado (PAR-0099, 23 de dezembro de 1657) e o óbito (PAR-0100, São
+        Sebastião, 2 de dezembro de 1727, "de idade de setenta annos", "casado com Maria
+        Mendes") o mantêm na Terceira a vida toda — décadas antes do nascimento de Joaquim José,
+        filho de P-0092 (c.1750–65; casou em 1783, PAR-0018). A pesquisa de recuperação nunca
+        identificou os dois. O vínculo fica aqui, rejeitado, para que a história da hipótese
+        continue visível.
     - text: >-
         Tier downgraded strong-evidence → hypothesis on 2026-10-09: the only source is PUB-0005,
         a published genealogy, which by policy cannot confirm and, as a lone secondary source,
@@ -89,6 +127,31 @@ children:
       23.2.1657, son of Belchior × Mariana
       per Vol. IX. The name "Ferreira" used in Minas Gerais (PAR-0018) may have been adopted in
       Brazil or on emigration; "de Souto-Maior" was the Azorean house name. [COMPILED]
+- person_id: P-0131
+  parent_relationships:
+  - parent_id: P-0123
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0099
+    - PUB-0005
+    notes:
+    - text: >-
+        His own baptism (PAR-0099, 23 Dec 1657, an original register entry held at 300 dpi)
+        names him "Gasp.ar filho do Alferes belchior da ponte cardozo e de sua molher mariana
+        Fag.des"; Vol. IX (PUB-0005) corroborates. Added 2026-10-10.
+      text_pt: >-
+        O próprio batismo dele (PAR-0099, 23 de dezembro de 1657, assento original guardado a
+        300 dpi) o nomeia "Gasp.ar filho do Alferes belchior da ponte cardozo e de sua molher
+        mariana Fag.des"; o Vol. IX (PUB-0005) corrobora. Acrescentado em 2026-10-10.
+  - parent_id: P-0124
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0099
+    - PUB-0005
+    notes: []
+  notes: []
 documented_children:
 - name: Mariana Fagundes (daughter, m.30.3.1693 S.Sebastião with António Gonçalves da Costa)
   source_ids:
@@ -258,3 +321,17 @@ notes:
   source_ids:
   - PUB-0005
   - PUB-0002
+- text: >-
+    2026-10-10: the Gaspar described in the note above (moved here from documented_children on
+    2026-10-09) is now modelled as P-0131, Gaspar de Souto Maior, a confirmed child of this
+    couple; P-0092's links are rejected (two different men). P-0131 and his parents are not
+    proven ancestors of the archive's owner: they form the Terceira trunk the Ferreira Armonde
+    of Barbacena claim, which would attach to the owner only through Simplício (P-0016)'s
+    unknown parents.
+  text_pt: >-
+    2026-10-10: o Gaspar descrito na nota acima (trazido para cá de documented_children em
+    2026-10-09) está agora modelado como P-0131, Gaspar de Souto Maior, filho confirmado deste
+    casal; os vínculos de P-0092 estão rejeitados (dois homens diferentes). P-0131 e os pais não
+    são antepassados provados do dono do arquivo: formam o tronco da Terceira reivindicado pelos
+    Ferreira Armonde de Barbacena, que só se ligaria ao dono pelos pais desconhecidos de
+    Simplício (P-0016).

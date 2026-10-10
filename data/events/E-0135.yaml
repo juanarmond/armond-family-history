@@ -3,13 +3,19 @@ id: E-0135
 event_type: baptism
 date:
   kind: exact
-  value: "1657-02-23"
+  value: "1657-12-23"
+  original_text: "Em os vinte e tres dias do mes de dezembro de seis sentos sinquenta e sete annos"
 place_text: São Sebastião, Terceira, Azores
 participants:
-- person_id: P-0092
+- person_id: P-0131
   role: principal
-status: hypothesis
+- person_id: P-0123
+  role: parent
+- person_id: P-0124
+  role: parent
+status: confirmed
 source_ids:
+- PAR-0099
 - PUB-0005
 notes:
 - text: >-
@@ -95,3 +101,25 @@ notes:
     recuperação liga este tronco à linha do proprietário apenas por Simplício (P-0016) e pelos
     Ferreira Armonde de Barbacena, nunca por P-0092. Decisão pendente com o proprietário; nenhum
     status alterado.
+- text: >-
+    Re-attributed and re-dated on 2026-10-10. This baptism belongs to Gaspar de Souto Maior
+    (P-0131), not to Gaspar Ferreira (P-0092): the owner rejected the identification of the two
+    men (two different people on two lines). The original entry, now held (PAR-0099, BPAR
+    300-dpi TIFF of São Sebastião B-1611-1687 p.0324), reads "Em os vinte e tres dias do mes de
+    dezembro de seis sentos sinquenta e sete annos baptizei a Gasp.ar filho do Alferes belchior
+    da ponte cardozo e de sua molher mariana Fag.des" — so 23 December 1657, confirmed, with
+    both parents named. Conflicting compiled dates are kept as variants: Vol. IX (PUB-0005)
+    prints 23.2.1657; Lacerda's footnote 74 (PUB-0002) 23.9.1657. The godfather is a different
+    Gaspar de Souto Maior, "f.º de Ba[…]z leonardes" — probably Baltazar Gonçalves Leonardes
+    [uncertain], the cousin of Vol. IX p.260.
+  text_pt: >-
+    Reatribuído e redatado em 2026-10-10. Este batismo é de Gaspar de Souto Maior (P-0131), não
+    de Gaspar Ferreira (P-0092): o proprietário rejeitou a identificação dos dois homens (duas
+    pessoas diferentes, em duas linhas). O assento original, agora guardado (PAR-0099, TIFF de
+    300 dpi do BPAR, São Sebastião B-1611-1687, p.0324), diz "Em os vinte e tres dias do mes de
+    dezembro de seis sentos sinquenta e sete annos baptizei a Gasp.ar filho do Alferes belchior
+    da ponte cardozo e de sua molher mariana Fag.des" — portanto 23 de dezembro de 1657,
+    confirmado, com os dois pais nomeados. As datas compiladas divergentes ficam como variantes:
+    o Vol. IX (PUB-0005) imprime 23.2.1657; a nota 74 de Lacerda (PUB-0002), 23.9.1657. O
+    padrinho é outro Gaspar de Souto Maior, "f.º de Ba[…]z leonardes" — provavelmente Baltazar
+    Gonçalves Leonardes [incerto], o primo do Vol. IX, p.260.

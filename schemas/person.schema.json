@@ -146,6 +146,15 @@
       "type": "string",
       "minLength": 1
     },
+    "connection": {
+      "type": "string",
+      "minLength": 1,
+      "description": "How this person connects to the archive's owner when no proven parent chain does — e.g. a family tradition or a hypothesised link. The viewer shows it in place of the relationship line. Never set it on a person the tree already connects."
+    },
+    "connection_pt": {
+      "type": "string",
+      "minLength": 1
+    },
     "profile_pt": {
       "type": "string",
       "minLength": 1

@@ -48,7 +48,8 @@ Do not publish the site publicly while it contains private family data. GitHub P
 - Marks co-parents who share a family with a marriage marker (`⚭` and year) on the lineage junction.
 - Prevents recursive loops and marks repeated ancestors as references.
 - Distinguishes confirmed, strong-evidence, hypothesis and rejected relationships, and matches the connector line style to the legend.
-- Hides rejected relationships by default.
+- Hides rejected relationships by default; a rejected parent link never joins two people in the relationship path or a biography.
+- For someone no proven link connects to the archive's owner, shows their `connection` note ("Connection to … — not proven", e.g. a family tradition) instead of a relationship.
 - Limits the displayed number of generations for usability.
 - Auto-fits the tree to the viewport, with manual zoom (buttons, `Ctrl`/`⌘`+scroll) and drag-to-pan.
 - Links each non-private evidence file and external record from the detail panel, and surfaces each source's form, quality, transcription, abstract and reliability limitations.

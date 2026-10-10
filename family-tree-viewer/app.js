@@ -1896,6 +1896,11 @@ function openDetails(personId) {
   const relationship = relationshipContent(person);
   if (relationship) {
     elements.detailsContent.append(section(t("detail.relationship", { name: subjectLabel() }), relationship));
+  } else if (person.connection) {
+    const note = document.createElement("p");
+    note.className = "relationship-connection";
+    note.textContent = localeText(person.connection, person.connectionPt);
+    elements.detailsContent.append(section(t("detail.connection", { name: subjectLabel() }), note));
   }
 
   const facts = document.createElement("dl");
@@ -3503,6 +3508,11 @@ function renderMobileFocus() {
     const chip = document.createElement("p");
     chip.className = "mobile-focus-rel";
     chip.textContent = `${t("detail.relationship", { name: subjectLabel() })}: ${relTerm}`;
+    head.append(chip);
+  } else if (person.connection) {
+    const chip = document.createElement("p");
+    chip.className = "mobile-focus-rel";
+    chip.textContent = t("rel.notProven");
     head.append(chip);
   }
   const detailsButton = document.createElement("button");

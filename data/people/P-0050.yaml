@@ -9,6 +9,10 @@ name_variants:
   type: source
   source_ids:
   - PRB-0005
+  note: >-
+    [uncertain] 2026-10-10: on the image of PRB-0005 (fl. 3) the surname is written with the
+    same letterforms as the testator's and his wife's "Bohrer" on that page and now reads
+    best "Bohrer"; "Bahrer" is kept as a possible but insecure reading (see notes).
 - value: Jacob Borer
   type: other
   source_ids:
@@ -27,6 +31,13 @@ notes:
     Named in his son's 1888 registered will (PRB-0005) as "Jacob Bahrer … já
     fallecido" — deceased before 1888. Preferred name given in the family's
     stabilised form "Bohrer"; the will spells it "Bahrer".
+    [Corrected 2026-10-10: the will was made on 27 June 1879 and only opened and registered
+    in 1888 (PRB-0005, now held whole), so he was dead before 27 June 1879; the clause reads
+    "filho legitimo de Jacob Bohrer e de Catharina Mayer, já fallecidos". On re-reading the
+    image (fl. 3, crops enlarged 4–8×) the father's surname is written letter for letter
+    like the testator's own "Bohrer" and his wife's "Bohrer" on the same page; the second
+    letter reads best as "o". "Bahrer" is possible but not secure, so the "Jacob Bahrer"
+    name variant is kept and marked [uncertain] rather than deleted.]
   text_pt: >-
     Pai de Francisco José Bohrer (P-0034); portanto, o avô paterno de Joaquim
     José Bohrer (P-0030) e o ancestral que marca a fronteira imigratória da linha
@@ -34,6 +45,13 @@ notes:
     (PRB-0005) como "Jacob Bahrer … já fallecido" — falecido antes de 1888. O
     nome preferencial é dado na forma estabilizada da família, "Bohrer"; o
     testamento o grafa como "Bahrer".
+    [Corrigido em 2026-10-10: o testamento foi feito em 27 de junho de 1879 e só aberto e
+    registrado em 1888 (PRB-0005, agora disponível por inteiro); ele já estava morto, portanto,
+    antes de 27 de junho de 1879; a cláusula diz "filho legitimo de Jacob Bohrer e de Catharina
+    Mayer, já fallecidos". Relida a imagem (fl. 3, recortes ampliados 4–8×), o sobrenome do pai
+    está escrito letra por letra como o "Bohrer" do próprio testador e o da esposa na mesma
+    página; a segunda letra lê-se melhor como "o". "Bahrer" é possível, mas não seguro, e por
+    isso a variante "Jacob Bahrer" é mantida e marcada [incerta], não apagada.]
 - text: >-
     Nationality is Swiss, primary-confirmed by Jacob's own 1825 Nova Friburgo
     marriage (PAR-0059, event E-0115): the parish register records the spouses as
@@ -53,7 +71,8 @@ notes:
     branch's Macaé / Bom Jardim drift), not in 1843 at Nova Friburgo. The Catharina Mayer/Moser
     surname conflict (PRB-0005 gives "Mayer"; compilation gives "Moser") is
     unresolved and preserved as a name variant on P-0051. PRB-0005 evidences
-    only his name, his son's parentage and that he was already dead by 1888;
+    only his name, his son's parentage and that he was already dead by 1888
+    [2026-10-10: by 27 June 1879, the will's date];
     with his Swiss origin now primary-confirmed by PAR-0059, what still awaits
     a record is his exact birth date — a Swiss (Erschwil) baptism register —
     and his parents at primary level.
@@ -79,7 +98,8 @@ notes:
     O conflito de sobrenome Catharina Mayer/Moser (PRB-0005
     traz "Mayer"; a compilação traz "Moser") permanece sem resolução e é
     preservado como variante de nome em P-0051. PRB-0005 evidencia apenas seu
-    nome, a filiação de seu filho e que ele já estava morto em 1888; com a origem
+    nome, a filiação de seu filho e que ele já estava morto em 1888 [2026-10-10: em 27
+    de junho de 1879, data do testamento]; com a origem
     suíça de Jacob agora confirmada por registro primário (PAR-0059), o que ainda
     aguarda um registro é sua data exata de nascimento — um registro de batismo
     suíço (Erschwil) — e seus pais em nível primário.
@@ -102,8 +122,9 @@ profile: >-
   — 13 December 1801 — comes from a FamilySearch collaborative tree (L85Q-RY2) and is
   navigation only; no held record gives his birth date.
 
-  - **[PROVEN]** He was dead before 1888: his son Francisco José's registered will names him
-  "Jacob Bahrer … já fallecido" (PRB-0005). But a gap-free read of the Nova Friburgo óbito
+  - **[PROVEN]** He was dead before 27 June 1879: his son Francisco José's will of that date
+  (opened 1888) calls him and his wife "já fallecidos" — "filho legitimo de Jacob Bohrer e de
+  Catharina Mayer" (PRB-0005). But a gap-free read of the Nova Friburgo óbito
   register 1832–1853 does not contain him, while his son João José was born 10 September 1840
   — so he was alive into ~1840 and died **outside** Nova Friburgo, in the branch's drift
   toward the vale do Macaé / Bom Jardim.
@@ -120,8 +141,10 @@ profile: >-
 
   ## Identity
 
-  **Jacob Bohrer** — the family's stabilised spelling; his son's 1888 will writes **"Jacob
-  Bahrer"** and the Nova Friburgo compilation "Jacob Borer" [PROVEN for the name forms]. He is
+  **Jacob Bohrer** — the family's stabilised spelling, and the form his son's 1879 will writes
+  on re-reading of the image (formerly catalogued **"Jacob Bahrer"**, a possible but insecure
+  reading [uncertain]); the Nova Friburgo compilation has "Jacob Borer" [PROVEN for the name
+  forms]. He is
   the Bohrer line's immigrant-boundary ancestor: father of Francisco José Bohrer (P-0034), and
   so paternal grandfather of Joaquim José Bohrer (P-0030), through whom the line reaches
   Celina Bohrer (P-0015) and Iris Bohrer (P-0007).
@@ -140,7 +163,8 @@ profile: >-
   roster age (→ ~1803) within about two years of that, preserved as a discrepancy, not
   adopted.
 
-  - **Death:** before 1888 [PROVEN — PRB-0005]. Alive into ~1840; absent from the gap-free
+  - **Death:** before 27 June 1879 [PROVEN — PRB-0005, the date of his son's will]. Alive into
+  ~1840; absent from the gap-free
   Nova Friburgo óbito read of 1832–1853; therefore died outside Nova Friburgo after ~1840
   [PROVEN for the bounded negative; INFERRED for the place]. The compilation's "died 1843–44
   at Nova Friburgo" is positively excluded. He did sell his Nova Friburgo property on 24 April
@@ -228,18 +252,21 @@ profile: >-
   re-bought each generation; there was no free rural school. The Solothurn and Hessen
   colonists arrived carrying something Brazil did not sell — Catholic parish-school literacy
   in German — and on Jacob's branch it held: his son Francisco José dictated but **signed**
-  his own 1888 will ("no qual me assigno"), and Francisco José's sons Guilherme Samuel and
+  his own 1879 will ("no qual me assigno"), and Francisco José's sons Guilherme Samuel and
   Fernando reached office, commerce and, in Guilherme's case, the proprietorship of a Nova
   Friburgo newspaper. That is a literate branch, not a lettered elite: letters here bought a
   foothold in town trade and local office, not land.
 
-  - **What the 1888 will shows about the scale of it [INFERRED from PRB-0005].** Read for its
-  silences, his son's will is the clearest measure of what Jacob's household finally amounted
-  to. It names four minor children as sole heirs, a wife as first executor and tutor, twenty
-  masses for Jacob and Catharina, and a 50$000 legacy to a chapel being built at the Suspiro —
-  and, as transcribed, it names **no** land, no business and no enslaved people. In the year
-  of abolition, a propertied Brazilian testator would list both. This is a respectable town
-  household with something to leave and nothing to entail.
+  - **What his son's will (1879) and estate (1888–90) show about the scale of it [INFERRED
+  from PRB-0005, PRB-0012].** Read for its silences, his son's will is a measure of what
+  Jacob's household finally amounted to. It names four minor children as sole heirs, a wife as
+  first executor and tutor, twenty masses for Jacob and Catharina, and a 50$000 legacy to a
+  chapel being built at the Suspiro — and, as transcribed, it names **no** land, no business
+  and no enslaved people. A will need not enumerate an estate, so the silence alone proves
+  little; the sequel is clearer: after the son's death in 1888 the couple's goods were sold at
+  public auction and wholly absorbed by his creditors (PRB-0012) [PROVEN]. This is a
+  respectable town household with something to leave in 1879 and, by 1888, debts that
+  consumed it.
 
   - **Migration changed the form of poverty, not the fact of it — and the branch then split
   [INFERRED].** The move converted Jura land-hunger into a poor colonial lot: a lateral step,
@@ -254,8 +281,8 @@ profile: >-
 
   - **The arc, named [INFERRED].** Land-poor Jura peasant (pre-1819) → state-settled colonist
   on Casa 70 / Lote 56 (1819–1843) → the lot sold and the branch drifts out of Nova Friburgo
-  (1843 →) → a literate, modestly propertied town household in his son's generation (1888
-  will) → a petty-bourgeois wing of office and press in his grandsons' (1890s–1900s).
+  (1843 →) → a literate, modestly propertied town household in his son's generation (will of
+  1879; estate absorbed by creditors 1888–90) → a petty-bourgeois wing of office and press in his grandsons' (1890s–1900s).
   Flat-to-slightly-up throughout, never elite. The two Solothurn Borer trunks — his and
   Laurent's — reconverge a century later in the Bohrer × Bohrer marriage of Iris Bohrer's
   parents, which is why the undocumented question of whether he and Laurent were kin still
@@ -283,8 +310,9 @@ profile: >-
   Cantão de Soleure, his parents João Borer × Barbara Probst, and his baptism parish as
   written "Erswill"; sources event E-0115).
 
-  - PRB-0005 (his son Francisco José Bohrer's 1888 registered will — names him "Jacob Bahrer …
-  já fallecido").
+  - PRB-0005 (certified copy of his son Francisco José Bohrer's registered will of 27 June 1879,
+  opened 1888 — names him "Jacob Bohrer" [formerly read "Bahrer"], "já fallecidos" with
+  Catharina) · PRB-0012 (the 1890 proceedings on that son's estate, sold for his creditors).
 
   - PAR-0054 (his son Francisco José's 1832 Nova Friburgo baptism — names him and Catharina
   Moser as the parents; godparents José and Maria Moser).
@@ -354,8 +382,9 @@ profile_pt: >-
   dezembro de 1801 — vem de uma árvore colaborativa do FamilySearch (L85Q-RY2) e serve apenas
   como pista; nenhum registro disponível dá sua data de nascimento.
 
-  - **[PROVEN]** Estava morto antes de 1888: o testamento registrado de seu filho Francisco
-  José o nomeia "Jacob Bahrer … já fallecido" (PRB-0005). Mas uma leitura sem lacunas do
+  - **[PROVEN]** Estava morto antes de 27 de junho de 1879: o testamento de seu filho Francisco
+  José dessa data (aberto em 1888) diz a ele e à esposa "já fallecidos" — "filho legitimo de
+  Jacob Bohrer e de Catharina Mayer" (PRB-0005). Mas uma leitura sem lacunas do
   registro de óbitos de Nova Friburgo de 1832 a 1853 não o contém, enquanto seu filho João
   José nasceu em 10 de setembro de 1840 — logo, esteve vivo até por volta de 1840 e morreu
   **fora** de Nova Friburgo, no deslocamento do ramo rumo ao vale do Macaé / Bom Jardim.
@@ -372,9 +401,10 @@ profile_pt: >-
 
   ## Identidade
 
-  **Jacob Bohrer** — a grafia estabilizada da família; o testamento de 1888 de seu filho
-  escreve **"Jacob Bahrer"** e a compilação de Nova Friburgo, "Jacob Borer" [PROVEN quanto às
-  formas do nome]. É o ancestral que marca a fronteira imigratória da linha Bohrer: pai de
+  **Jacob Bohrer** — a grafia estabilizada da família, e a forma que o testamento de 1879 de
+  seu filho escreve, relida a imagem (antes catalogada **"Jacob Bahrer"**, leitura possível,
+  mas não segura [incerto]); a compilação de Nova Friburgo traz "Jacob Borer" [PROVEN quanto
+  às formas do nome]. É o ancestral que marca a fronteira imigratória da linha Bohrer: pai de
   Francisco José Bohrer (P-0034) e, portanto, avô paterno de Joaquim José Bohrer (P-0030), por
   quem a linha chega a Celina Bohrer (P-0015) e a Iris Bohrer (P-0007).
 
@@ -392,7 +422,8 @@ profile_pt: >-
   como "Jacques [Jacob] Bocher, [17]" — idade de rol (→ ~1803), a cerca de dois anos daquela
   atribuição, preservada como discrepância e não adotada.
 
-  - **Óbito:** antes de 1888 [PROVEN — PRB-0005]. Vivo até por volta de 1840; ausente da
+  - **Óbito:** antes de 27 de junho de 1879 [PROVEN — PRB-0005, data do testamento do filho].
+  Vivo até por volta de 1840; ausente da
   leitura sem lacunas do registro de óbitos de Nova Friburgo de 1832 a 1853; portanto morreu
   fora de Nova Friburgo depois de ~1840 [PROVEN quanto à negativa delimitada; INFERRED quanto
   ao lugar]. O "morreu em 1843–44 em Nova Friburgo" da compilação está positivamente excluído.
@@ -484,20 +515,23 @@ profile_pt: >-
   precisava ser recomprado a cada geração; não havia escola rural gratuita. Os colonos de
   Solothurn e de Hessen chegaram trazendo algo que o Brasil não vendia — alfabetização de
   escola paroquial católica em alemão — e no ramo de Jacob isso se sustentou: seu filho
-  Francisco José ditou, mas **assinou** o próprio testamento de 1888 ("no qual me assigno"), e
+  Francisco José ditou, mas **assinou** o próprio testamento de 1879 ("no qual me assigno"), e
   os filhos de Francisco José, Guilherme Samuel e Fernando, chegaram a cargo público, ao
   comércio e, no caso de Guilherme, à propriedade de um jornal em Nova Friburgo. Isso é um
   ramo alfabetizado, não uma elite letrada: aqui as letras compraram um pé no comércio urbano
   e no cargo local, não terra.
 
-  - **O que o testamento de 1888 mostra sobre a escala disso [INFERRED a partir de
-  PRB-0005].** Lido por seus silêncios, o testamento do filho é a melhor medida do que o
-  domicílio de Jacob afinal representou. Nomeia quatro filhos menores como únicos herdeiros, a
-  esposa como primeira testamenteira e tutora, vinte missas por Jacob e Catharina e um legado
-  de 50$000 a uma capela que se erguia no Suspiro — e, conforme transcrito, **não** nomeia
-  terra alguma, negócio algum nem pessoas escravizadas. No ano da abolição, um testador
-  brasileiro proprietário listaria ambos. Trata-se de um domicílio urbano respeitável, com
-  algo a deixar e nada a vincular.
+  - **O que o testamento (1879) e o espólio (1888–90) do filho mostram sobre a escala disso
+  [INFERRED a partir de PRB-0005, PRB-0012].** Lido por seus silêncios, o testamento do filho é
+  uma medida do que o domicílio de Jacob afinal representou. Nomeia quatro filhos menores como
+  únicos herdeiros, a esposa como primeira testamenteira e tutora, vinte missas por Jacob e
+  Catharina e um legado de 50$000 a uma capela que se erguia no Suspiro — e, conforme
+  transcrito, **não** nomeia terra alguma, negócio algum nem pessoas escravizadas. Um
+  testamento não precisa arrolar o espólio, de modo que o silêncio sozinho prova pouco; a
+  sequência é mais clara: depois da morte do filho, em 1888, os bens do casal foram vendidos em
+  praça pública e inteiramente absorvidos pelos credores (PRB-0012) [PROVEN]. Trata-se de um
+  domicílio urbano respeitável, com algo a deixar em 1879 e, em 1888, dívidas que o
+  consumiram.
 
   - **A migração mudou a forma da pobreza, não o fato dela — e o ramo então se dividiu
   [INFERRED].** A mudança converteu a fome de terra do Jura num lote colonial pobre: passo
@@ -513,7 +547,8 @@ profile_pt: >-
   - **O arco, nomeado [INFERRED].** Camponês do Jura, pobre em terra (pré-1819) → colono
   assentado pelo Estado na Casa 70 / Lote 56 (1819–1843) → lote vendido e ramo saindo de Nova
   Friburgo (1843 →) → domicílio urbano alfabetizado e modestamente proprietário na geração do
-  filho (testamento de 1888) → uma ala pequeno-burguesa de cargo e imprensa na dos netos
+  filho (testamento de 1879; espólio absorvido pelos credores em 1888–90) → uma ala
+  pequeno-burguesa de cargo e imprensa na dos netos
   (décadas de 1890–1900). Plano a levemente ascendente o tempo todo, nunca de elite. Os dois
   troncos Borer de Solothurn — o dele e o de Laurent — reconvergem um século depois no
   casamento Bohrer × Bohrer dos pais de Iris Bohrer, e é por isso que a questão não
@@ -542,8 +577,10 @@ profile_pt: >-
   "colonos suiços" do Cantão de Soleure, seus pais João Borer × Barbara Probst, e sua
   freguesia de batismo grafada "Erswill"; fundamenta o evento E-0115).
 
-  - PRB-0005 (testamento registrado de 1888 de seu filho Francisco José Bohrer — o nomeia
-  "Jacob Bahrer … já fallecido").
+  - PRB-0005 (certidão do testamento registrado de seu filho Francisco José Bohrer, de 27 de
+  junho de 1879, aberto em 1888 — o nomeia "Jacob Bohrer" [antes lido "Bahrer"], "já
+  fallecidos" com Catharina) · PRB-0012 (os autos de 1890 sobre o espólio desse filho, vendido
+  para os credores).
 
   - PAR-0054 (batismo de 1832, em Nova Friburgo, de seu filho Francisco José — nomeia a ele e
   a Catharina Moser como pais; padrinhos José e Maria Moser).

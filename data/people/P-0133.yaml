@@ -1,0 +1,167 @@
+schema_version: 1
+id: P-0133
+preferred_name: Anna Joaquina da Conceição
+privacy: deceased
+sex: female
+nationality: Brazilian
+name_variants:
+- value: Anna Joaquina da Conceição
+  type: source
+  source_ids:
+  - PAR-0101
+  note: >-
+    Named as paternal grandmother, beside Joze Henriques de Mattos, in the 21 October
+    1821 Itaboraí baptism of Antonio, son of Manoel de Lemos Pereira and Maria Thereza
+    de Jezus.
+- value: Anna Maria da Conceição
+  type: source
+  source_ids:
+  - PAR-0102
+  note: >-
+    Named as paternal grandmother in both 4 March 1841 Itaboraí baptisms of João and
+    Maria, children of the same couple. In João's entry the scribe wrote "e Ma-ria
+    digo, de Anna Maria da Conceição" (a written self-correction); Maria's entry has
+    plain "Anna Maria da Conceição". One woman with the 1821 "Anna Joaquina" by
+    inference (same husband, same son's household), not by statement.
+event_ids: []
+family_ids:
+- F-0066
+notes:
+- text: >-
+    Mother of Manoel de Lemos Pereira (P-0052) [STRONG], hence paternal grandmother of
+    Rosa Eugenia de Lemos (P-0035) and 5th-great-grandmother of the archive's owner
+    (P-0001) through his mother's Bohrer line (P-0001 → P-0003 → P-0007 → P-0015 →
+    P-0030 → P-0035 → P-0052 → P-0133; Ahnentafel 245). Known only as a grandmother,
+    named beside José Henriques de Mattos (P-0132, family F-0066) in the 1821 and 1841
+    Itaboraí baptisms of three of Manoel's children [PROVEN as records]. The link to
+    Rosa's father is strong evidence, not proven, for the reasons on F-0066 and
+    PAR-0101/PAR-0102. Modelled on the owner's authorisation of 2026-10-10.
+  text_pt: >-
+    Mãe de Manoel de Lemos Pereira (P-0052) [STRONG], portanto avó paterna de Rosa
+    Eugenia de Lemos (P-0035) e hexavó do dono do arquivo (P-0001) pela linha Bohrer de
+    sua mãe (P-0001 → P-0003 → P-0007 → P-0015 → P-0030 → P-0035 → P-0052 → P-0133;
+    Ahnentafel 245). Conhecida apenas como avó, nomeada ao lado de José Henriques de
+    Mattos (P-0132, família F-0066) nos batismos de 1821 e 1841, em Itaboraí, de três
+    filhos de Manoel [PROVEN como registros]. O vínculo com o pai de Rosa é evidência
+    forte, não prova, pelas razões dadas em F-0066 e em PAR-0101/PAR-0102. Modelada com
+    a autorização do dono de 2026-10-10.
+- text: >-
+    Her name is recorded two ways and both are preserved: "Anna Joaquina da Conceição"
+    (1821, PAR-0101) and "Anna Maria da Conceição" (1841, PAR-0102, where the scribe
+    first began "Maria" and corrected himself). The 1821 form is the earlier and is
+    used as the preferred name; which was her usual name is unresolved [OPEN]. Both
+    "Anna Joaquina da Conceição" and "Anna Maria da Conceição" were common in the
+    parish, and the retrieval side reports several namesakes in the same registers
+    (e.g. an Anna Joaquina da Conceição wife of José da Costa Cardozo) [LEAD]: attach
+    no further record to her without her husband or a Lemos relative in it.
+  text_pt: >-
+    Seu nome está registrado de duas formas, ambas preservadas: "Anna Joaquina da
+    Conceição" (1821, PAR-0101) e "Anna Maria da Conceição" (1841, PAR-0102, onde o
+    escrivão começou "Maria" e se corrigiu). A forma de 1821 é a mais antiga e serve de
+    nome preferido; qual era seu nome habitual não está resolvido [OPEN]. Tanto "Anna
+    Joaquina da Conceição" quanto "Anna Maria da Conceição" eram nomes comuns na
+    freguesia, e a pesquisa de recuperação relata vários homônimos nos mesmos livros
+    (por exemplo, uma Anna Joaquina da Conceição mulher de José da Costa Cardozo)
+    [LEAD]: não lhe atribuir outro registro sem o marido ou um parente Lemos nele.
+- text: >-
+    Nationality Brazilian, following P-0052/P-0053: covered by the 1821 "todos
+    naturaes desta Freguezia" (Itaboraí), repeated in João's 1841 entry — a stated
+    birthplace, read from a generic formula. In 1821 Itaboraí lay within the
+    Portuguese realm (the United Kingdom of Portugal, Brazil and the Algarves): the
+    value records a Brazilian birthplace, not a citizenship. No event is modelled: no
+    birth, marriage or death is held, and neither record says whether she was living.
+    Born no later than about 1785 [INFERRED — a grandmother by October 1821].
+  text_pt: >-
+    Nacionalidade brasileira, como P-0052/P-0053: abrangida pelo "todos naturaes desta
+    Freguezia" (Itaboraí) de 1821, repetido no assento de João de 1841 — um local de
+    nascimento declarado, lido a partir de uma fórmula genérica. Em 1821 Itaboraí
+    pertencia ao reino português (o Reino Unido de Portugal, Brasil e Algarves): o
+    valor registra um local de nascimento no Brasil, não uma cidadania. Nenhum evento é
+    modelado: não há nascimento, casamento nem óbito disponível, e nenhum dos registros
+    diz se estava viva. Nascida no máximo por volta de 1785 [INFERRED — avó em outubro
+    de 1821].
+profile: >-
+  ## Identity
+
+  **Anna Joaquina da Conceição** — so named in the 21 October 1821 Itaboraí baptism of
+  her grandson Antonio (PAR-0101), and "Anna Maria da Conceição" in the 4 March 1841
+  baptisms of her grandchildren João and Maria (PAR-0102), where the scribe began
+  "Maria", wrote "digo" and corrected it [PROVEN as written]. Both records pair her
+  with José Henriques de Mattos (P-0132) as the paternal grandparents of children of
+  Manoel de Lemos Pereira and Maria Thereza de Jesus. She is the mother of Manoel de
+  Lemos Pereira (P-0052) [STRONG], hence Rosa Eugenia de Lemos's (P-0035) paternal
+  grandmother.
+
+  - **Nationality:** Brazilian — "todos naturaes desta Freguezia" (Itaboraí) [PROVEN as
+  written; the generic formula is read as covering her].
+
+  - **Birth, marriage, death:** none located; born no later than about 1785
+  [INFERRED].
+
+  ## Evidence standing
+
+  The two entries are original parish records, read from the images [PROVEN]. Two
+  links are inferred rather than stated. That "Anna Joaquina" (1821) and "Anna Maria"
+  (1841) are one woman rests on the same husband and the same son's household
+  [INFERRED, strong]. That the Manoel de Lemos Pereira of these records is Rosa's
+  father rests on identical names in the same parish register series and on the two
+  records agreeing on all four grandparents [STRONG].
+
+  ## Open questions
+
+  - Her usual name — Anna Joaquina or Anna Maria — and her own baptism, marriage and
+  death (Itaboraí, off the filmed books before 1821, per the retrieval side) [OPEN].
+
+  - In the family of a probable daughter, Maria Luiza de Jezus (wife of Laureano
+  Antonio da Costa), she is reportedly "Anna Joaquina" (1821) and "Anna Joaquina de
+  Jezus" (1833, 1840) [LEAD — images not held].
+
+  ## Sources held (this repository)
+
+  - PAR-0101 (Antonio's 1821 Itaboraí baptism — "Anna Joaquina da Conceição").
+
+  - PAR-0102 (João's and Maria's 1841 Itaboraí baptisms — "Ma-ria digo, de Anna Maria
+  da Conceição" / "Anna Maria da Conceição").
+profile_pt: >-
+  ## Identidade
+
+  **Anna Joaquina da Conceição** — assim nomeada no batismo de seu neto Antonio, em
+  Itaboraí, de 21 de outubro de 1821 (PAR-0101), e "Anna Maria da Conceição" nos
+  batismos de seus netos João e Maria, de 4 de março de 1841 (PAR-0102), onde o
+  escrivão começou "Maria", escreveu "digo" e corrigiu [PROVEN como escrito]. Os dois
+  registros a emparelham com José Henriques de Mattos (P-0132) como avós paternos de
+  filhos de Manoel de Lemos Pereira e Maria Thereza de Jesus. É a mãe de Manoel de
+  Lemos Pereira (P-0052) [STRONG], portanto avó paterna de Rosa Eugenia de Lemos
+  (P-0035).
+
+  - **Nacionalidade:** brasileira — "todos naturaes desta Freguezia" (Itaboraí)
+  [PROVEN como escrito; a fórmula genérica é lida como abrangendo-a].
+
+  - **Nascimento, casamento, óbito:** nenhum localizado; nascida no máximo por volta
+  de 1785 [INFERRED].
+
+  ## Situação da evidência
+
+  Os dois assentos são registros paroquiais originais, lidos nas imagens [PROVEN].
+  Dois vínculos são inferidos, não declarados. Que "Anna Joaquina" (1821) e "Anna
+  Maria" (1841) sejam uma só mulher apoia-se no mesmo marido e no mesmo domicílio do
+  filho [INFERRED, forte]. Que o Manoel de Lemos Pereira desses registros seja o pai
+  de Rosa apoia-se em nomes idênticos na mesma série de livros da freguesia e na
+  concordância dos dois registros quanto aos quatro avós [STRONG].
+
+  ## Questões em aberto
+
+  - Seu nome habitual — Anna Joaquina ou Anna Maria — e seu próprio batismo, casamento
+  e óbito (Itaboraí, fora dos livros filmados antes de 1821, segundo a pesquisa de
+  recuperação) [OPEN].
+
+  - Na família de uma provável filha, Maria Luiza de Jezus (mulher de Laureano Antonio
+  da Costa), ela seria "Anna Joaquina" (1821) e "Anna Joaquina de Jezus" (1833, 1840)
+  [LEAD — imagens não disponíveis].
+
+  ## Fontes disponíveis (neste repositório)
+
+  - PAR-0101 (batismo de Antonio em Itaboraí, 1821 — "Anna Joaquina da Conceição").
+
+  - PAR-0102 (batismos de João e Maria em Itaboraí, 1841 — "Ma-ria digo, de Anna Maria
+  da Conceição" / "Anna Maria da Conceição").

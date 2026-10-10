@@ -1676,18 +1676,19 @@ documents:
 - inventory_id: DOC-0047
   status: catalogued
   added_date: '2026-08-01'
-  apparent_record_type: Registered will (registro de testamento, certified copy)
+  apparent_record_type: Certified copy (27 Jan 1890) of a registered closed will dated 27 Jun 1879 (registro de testamento) — 8 pages
   apparent_people:
   - Francisco José Bohrer
-  - Jacob Bahrer
+  - Jacob Bohrer [uncertain; earlier read Bahrer]
   - Catharina Mayer
   - Rosa Eugenia de Lemos
   - Candido Pereira de Lemos
   apparent_event: probate
   image_quality: adequate
   provenance: Livro de Registro de Testamentos nº 9, fl. 8v, Provedoria de Nova Friburgo,
-    RJ (registered 1888). FamilySearch DGS 105875530 (imgs ~867-869); owner's authorised
-    research/from-retrieval/ sync; read 1 August 2026.
+    RJ (registered 24 Jul 1888; the will itself dated 27 Jun 1879). FamilySearch DGS 105875530 (imgs ~867-869); owner's authorised
+    research/from-retrieval/ sync; read 1 August 2026. Pages 3–8 added 2026-10-10 from the 1890 contas
+    testamentárias case (PRB-0012), of which this certificate is fl. 3–6v.
   rights_status: private-research
   files:
   - path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p1.jpg
@@ -1712,12 +1713,80 @@ documents:
       pixel_height: 3100
     privacy_review: cleared
     sensitive_content: []
+  - path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p3.jpg
+    sha256: b0004b77d385ae319f8531c47318285b32a0be9c59a21afbb4b89ab6c58e2fd5
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2077
+      pixel_height: 3160
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p4.jpg
+    sha256: 95731976d9338b49c338759e9c9e5a54a326142f284f7e554802b5f5ddaca38c
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2186
+      pixel_height: 3103
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p5.jpg
+    sha256: 486b061060ea90188cdba33004306efa2401151a46feb87232fcb0b7f99bfd41
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2101
+      pixel_height: 3190
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p6.jpg
+    sha256: 232d86455319b11e12f44639cdb5464e8b2893227d0c491ac7e4476e5bbc0717
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2206
+      pixel_height: 3104
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p7.jpg
+    sha256: 63c695cad20e6d4583fb95e87e21b2ebace7b18f2256e4387df47b9fd40b7799
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2058
+      pixel_height: 3104
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0005-francisco-jose-bohrer-testamento-1888-nova-friburgo-p8.jpg
+    sha256: bdd04b62440fa5c5ab70caacad9222c0b969a09cc22fd16c94405884867ead88
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2202
+      pixel_height: 3106
+    privacy_review: cleared
+    sensitive_content: []
   duplicate_of: null
   proposed_source_id: PRB-0005
   notes:
   - Francisco José Bohrer's own 1888 will names his parents (Jacob Bahrer, Catharina
     Mayer), establishes his Nova Friburgo birth and confirms his four children. All
     named persons long deceased (19th-century record).
+  - Corrected 2026-10-10 — the will is dated 27 June 1879 (registered 1888); the father's surname reads like
+    "Bohrer" [uncertain]; see PRB-0005.
 - inventory_id: DOC-0048
   status: catalogued
   added_date: '2026-08-01'
@@ -5379,3 +5448,323 @@ documents:
   - Household 67 names six enslaved people; they are transcribed in full in GOV-0013. A conflict with
     the C-013 transcription (which counted seven, and read the head of fogo 67 as 36 rather than 30) is
     recorded in GOV-0013's notes, not silently resolved.
+- inventory_id: DOC-0123
+  status: catalogued
+  added_date: '2026-10-10'
+  apparent_record_type: Catholic parish baptism register (original), São Sebastião, Terceira — 300-dpi
+    archive digitisation
+  apparent_people:
+  - Gaspar de Souto Maior (P-0131; bapt. 23 Dec 1657)
+  - Alferes Belchior da Ponte Cardozo (P-0123, father)
+  - Mariana Fag[un]des (P-0124, mother)
+  - Gaspar de Souto Maior, son of Baltazar Gonçalves Leonardes (godfather — a different man)
+  - Anna Machada (godmother)
+  - Vigário Ant.º Coelho Souto Maior (officiant)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: BPAR Angra do Heroísmo (Biblioteca Pública e Arquivo Regional Luís da Silva Ribeiro), Requisição
+    nº 101, image 1 — a paid digitisation (€2,00) of São Sebastião baptism book TER-AH-SAOSEBASTIAO-B-1611-1687,
+    p.0324, delivered 2026-09-25 to the retrieval side. Authorised by the owner for promotion on 2026-10-10
+    (this task only) from the retrieval workspace, read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-armond-gaspar-soutomaior-baptism-terceira-1657-bpar-req101.tif
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0099-baptism-gaspar-de-souto-maior-1657-saosebastiao-terceira.tif
+    sha256: 385accbab54fb2cfaf940c00d1549d91a39e598b14086fbb2714a82f5800064d
+    media_type: image/tiff
+    role: primary
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: original-file
+      pixel_width: 2046
+      pixel_height: 3377
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0099
+  notes:
+  - Kept as the archive's TIFF, bytes unchanged (evidence/README.md, File handling 3); the site build
+    renders a JPEG for display. Supersedes, for this entry, the 383-px open-CDN copy the retrieval side
+    read in August.
+- inventory_id: DOC-0124
+  status: catalogued
+  added_date: '2026-10-10'
+  apparent_record_type: Catholic parish death register (original), São Sebastião, Terceira — open-CDN
+    copy
+  apparent_people:
+  - Gaspar de Souto (P-0131; d. 2 Dec 1727, "de idade de setenta annos")
+  - Maria Mendes (his wife)
+  - o Cura Manoel Fernandes
+  apparent_event: death
+  image_quality: low-resolution
+  provenance: Culturacores open digital archive (DRaC – BPARAH watermark), São Sebastião óbitos book O-1696-1762,
+    p.0099 per the retrieval side. Authorised by the owner for promotion on 2026-10-10 (this task only)
+    from the retrieval workspace, read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-armond-gaspar-soutomaior-death-terceira-1727-culturacores.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0100-death-gaspar-de-souto-maior-1727-saosebastiao-terceira.jpg
+    sha256: 5f214d9a72407f6072d517151f983270f7f7e729d0d49d5d0a67d9d656dd6788
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 1269
+      pixel_height: 1004
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0100
+  notes:
+  - 'REDUCED RESOLUTION (owner flag): 1269×1004, the most the open CDN serves; the core facts are legible,
+    and a 300-dpi master can be ordered from BPAR Angra if a detail is ever disputed.'
+- inventory_id: DOC-0125
+  status: catalogued
+  added_date: '2026-10-10'
+  apparent_record_type: Catholic parish baptism register (original), Itaboraí
+  apparent_people:
+  - Antonio (bapt. 21 Oct 1821), son of Manoel de Lemos Pereira (P-0052) × Maria Thereza de Jezus (P-0053)
+  - José Henriques de Mattos × Anna Joaquina da Conceição (paternal grandparents; P-0132, P-0133)
+  - José Campello de Moraes, natural do Porto × Emerenciana Maria de Jesus (maternal grandparents; P-0134,
+    P-0135)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: FamilySearch, Itaboraí S. João Batista "Batismos 1821, Mar-1828, Jul", image 37 (DGS 004620556_00159),
+    downloaded at native resolution by the retrieval side (2026-10-09 sweep). Authorised by the owner
+    for promotion on 2026-10-10 (this task only) from the retrieval workspace, read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-lemos-antonio-baptism-1821-itaborai.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0101-baptism-antonio-de-lemos-1821-itaborai.jpg
+    sha256: ae9a48dba8f613f0a1eeb336fc51691bd3cffed2cd87f7e4627a9878b661a269
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 3890
+      pixel_height: 3275
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0101
+  notes:
+  - Names Rosa Eugenia de Lemos's four grandparents.
+- inventory_id: DOC-0126
+  status: catalogued
+  added_date: '2026-10-10'
+  apparent_record_type: Catholic parish baptism register (original), Itaboraí — two entries
+  apparent_people:
+  - João (b. 16 Aug 1839) and Maria (b. 24 Sep 1840), bapt. 4 Mar 1841, children of Manoel de Lemos Pereira
+    (P-0052) × Maria Thereza de Jesus (P-0053)
+  - José Henriques de Mattos × Anna Maria da Conceição (paternal grandparents)
+  - José Campello de Moraes × Emerenciana Maria de Jesus (maternal grandparents)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: FamilySearch, Itaboraí S. João Batista "Batismos 1829, Out-1842, Jan", image 372 (DGS 004620557_00375),
+    downloaded at native resolution by the retrieval side (2026-10-09 sweep). Authorised by the owner
+    for promotion on 2026-10-10 (this task only) from the retrieval workspace, read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-lemos-joao-maria-baptisms-1841-itaborai.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0102-baptisms-joao-and-maria-de-lemos-1841-itaborai.jpg
+    sha256: 751cd275f6d9757278baf2e4d9bd0342042716903a5dc099251397b016428941
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 4324
+      pixel_height: 3379
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0102
+  notes:
+  - Second independent naming of Rosa Eugenia de Lemos's four grandparents.
+- inventory_id: DOC-0127
+  status: catalogued
+  added_date: '2026-10-10'
+  apparent_record_type: Contas testamentárias (executor's accounts) of an estate, with the will — 23 page
+    images
+  apparent_people:
+  - Francisco José Bohrer (P-0034, the testator, d. 1888)
+  - Rosa Eugenia de Lemos (P-0035, widow)
+  apparent_event: probate
+  image_quality: adequate
+  provenance: Nova Friburgo (RJ) court records, 1890, from FamilySearch, read by the retrieval side (2026-10-09/10).
+    Authorised by the owner for promotion on 2026-10-10 (this task only) from the retrieval workspace,
+    read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-bohrer-francisco-jose-contas-testamentarias-1890-novafriburgo-p1.jpg
+    … -p23.jpg and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/probate/PRB-0012-contas-testamentarias-francisco-jose-bohrer-1890-novafriburgo-p01.jpg
+    sha256: 1ae118ba82e9555a9f3d0df4248deb39292cafac20d1c8f2afae2c33c778e790
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2139
+      pixel_height: 3105
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0012-contas-testamentarias-francisco-jose-bohrer-1890-novafriburgo-p02.jpg
+    sha256: 4684b9ee7d2e2560c642f6abf21dae6ad2286956f49f83d3f3edb34d651d15fc
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2187
+      pixel_height: 3109
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0012-contas-testamentarias-francisco-jose-bohrer-1890-novafriburgo-p11.jpg
+    sha256: e1bf4d883e66fed232ae96cf6ca87310051e6ae8cffa5b9b8a8d635d87711882
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2095
+      pixel_height: 3186
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0012-contas-testamentarias-francisco-jose-bohrer-1890-novafriburgo-p12.jpg
+    sha256: 061697f9bcb9b8990e0c418a445950c967cadf63516e6728ec1d3ed770e21685
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2193
+      pixel_height: 3108
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0012-contas-testamentarias-francisco-jose-bohrer-1890-novafriburgo-p13.jpg
+    sha256: 93e22c73aed590bfe701cd97d929b51d304dca038bd92792b7c5eb839b6c1d68
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2098
+      pixel_height: 3187
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0012-contas-testamentarias-francisco-jose-bohrer-1890-novafriburgo-p14.jpg
+    sha256: 69ab6efd754a65bec7a896053b32ccc1d6255d9d35d7456808059f0b03fe54a2
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2184
+      pixel_height: 3111
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0012-contas-testamentarias-francisco-jose-bohrer-1890-novafriburgo-p15.jpg
+    sha256: 1232eec7e72b8af08a22934f614978928540bb766a7fecd34c2341d387c5e34a
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2061
+      pixel_height: 3121
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0012-contas-testamentarias-francisco-jose-bohrer-1890-novafriburgo-p16.jpg
+    sha256: 5d26ec0de1b6a154ef4328ee8111232f6a374ae2f2ae7d2c0b956d1222cf9328
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2197
+      pixel_height: 3110
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0012-contas-testamentarias-francisco-jose-bohrer-1890-novafriburgo-p17.jpg
+    sha256: 950a13bcc2324282f0d6abc5328155bbdf8ca86131f4e9648fe3d0ba2b46f261
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2120
+      pixel_height: 3191
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0012-contas-testamentarias-francisco-jose-bohrer-1890-novafriburgo-p18.jpg
+    sha256: dae3d5b1554ae1795e3a7bae58b4fbb1f0c3230aaa92529a6e2426224e4869de
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2176
+      pixel_height: 3112
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0012-contas-testamentarias-francisco-jose-bohrer-1890-novafriburgo-p19.jpg
+    sha256: 91eb4761793514a6a9e4a2467d86fa135f922ac3a977cb31e2b8d7ca3717a446
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2121
+      pixel_height: 3191
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0012-contas-testamentarias-francisco-jose-bohrer-1890-novafriburgo-p20.jpg
+    sha256: d44930d2b90a396952ec0cf45f4dc4f678a118d4a50cefe09d8796c10a0c5076
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2188
+      pixel_height: 3107
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0012-contas-testamentarias-francisco-jose-bohrer-1890-novafriburgo-p21.jpg
+    sha256: d7282fd004c24d8ed610102fe17b6cef0dc8c7ca5ad34b40149581c4b7f23a8a
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2125
+      pixel_height: 3196
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0012-contas-testamentarias-francisco-jose-bohrer-1890-novafriburgo-p22.jpg
+    sha256: e2e4e881f7909270b5aa380e5fd238f01e5ef10300da39e7233aadf26459454c
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2218
+      pixel_height: 3104
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/probate/PRB-0012-contas-testamentarias-francisco-jose-bohrer-1890-novafriburgo-p23.jpg
+    sha256: 3fff227bcdd7f3a2410fb369762b294224841ccd2bba3e99725581ed727e4075
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: original-file
+      pixel_width: 2065
+      pixel_height: 3126
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PRB-0012
+  notes:
+  - All 23 pages are transcribed as one record. Pages 3–10 are the certified copy of the will (27 Jan 1890) and are catalogued under PRB-0005 (DOC-0047) — pp. 3–4 were already held there byte-identical, and pp. 5–10 were added to it on 2026-10-10. This record keeps the proceedings, pp. 1–2 and 11–23.

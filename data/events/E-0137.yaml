@@ -1,0 +1,80 @@
+schema_version: 1
+id: E-0137
+event_type: death
+date:
+  kind: exact
+  value: "1727-12-02"
+  original_text: >-
+    Em os dois dias do mes de Dezembro do anno de mil e sete Centos vinte e dois, digo vinte e
+    sete annos
+place_text: São Sebastião, Terceira, Azores
+participants:
+- person_id: P-0131
+  role: principal
+status: strong-evidence
+source_ids:
+- PAR-0100
+- PUB-0005
+notes:
+- text: >-
+    Death of Gaspar de Souto Maior (P-0131) on 2 December 1727, from his original death act
+    (PAR-0100, São Sebastião óbitos O-1696-1762, image p.0099): "faleceo da vida presente Gaspar
+    de / Souto Cazado Com Maria Mendes natural e freguez / desta Matriz de S. Seb.am de idade de
+    setenta / annos pouco mais ou menos". He received the sacraments, was buried "em huma
+    sepultura da fabrica", made no will, and the act is signed by the cura Manoel Fernandes. The
+    scribe first wrote the year "vinte e dois" and corrected it in the line ("digo vinte e
+    sete"); the page head reads 1727. Mendes Forjaz Vol. IX (PUB-0005, p.261) gives the same day,
+    "f. a 2.12.1727", without a place.
+  text_pt: >-
+    Óbito de Gaspar de Souto Maior (P-0131) a 2 de dezembro de 1727, pelo assento original de
+    óbito (PAR-0100, óbitos de São Sebastião O-1696-1762, imagem p.0099): "faleceo da vida
+    presente Gaspar de / Souto Cazado Com Maria Mendes natural e freguez / desta Matriz de S.
+    Seb.am de idade de setenta / annos pouco mais ou menos". Recebeu os sacramentos, foi
+    sepultado "em huma sepultura da fabrica", não fez testamento, e o assento é assinado pelo
+    cura Manoel Fernandes. O escrivão escreveu primeiro o ano "vinte e dois" e corrigiu-o na
+    linha ("digo vinte e sete"); o cabeçalho da página diz 1727. O Vol. IX de Mendes Forjaz
+    (PUB-0005, p.261) dá o mesmo dia, "f. a 2.12.1727", sem local.
+- text: >-
+    Place. The act does not write the parish or island out in full: it calls him "natural e
+    freguez desta Matriz de S. Seb.am" (native and parishioner of this mother church of S.
+    Sebastião, the name abbreviated) and says he was buried in a fabric grave, without naming
+    the church. It is entered in the São Sebastião death book, so place_text gives São Sebastião,
+    Terceira, Azores; "Terceira" and "Azores" come from the register's identity, not from words
+    in the entry. The act records the death ("faleceo") with its day; no separate burial date is
+    given, so no burial event is modelled.
+  text_pt: >-
+    Local. O assento não escreve por extenso a freguesia nem a ilha: diz que era "natural e
+    freguez desta Matriz de S. Seb.am" (com o nome abreviado) e que foi sepultado numa sepultura
+    da fábrica, sem nomear a igreja. Está lançado no livro de óbitos de São Sebastião, pelo que
+    place_text dá São Sebastião, Terceira, Açores; "Terceira" e "Açores" vêm da identidade do
+    livro, não de palavras do assento. O assento regista a morte ("faleceo") com o dia; não dá
+    data de sepultura à parte, pelo que não se modela evento de sepultura.
+- text: >-
+    Status strong-evidence, not confirmed. The record is primary and direct for the death of "Gaspar
+    de Souto, casado com Maria Mendes, of about seventy". Tying that man to the Gaspar baptised
+    on 23 December 1657 (PAR-0099, son of Belchior × Mariana) is indirect: the act names no
+    parents, and the link rests on the age (~70, consistent with 1657), on the exact agreement
+    with Vol. IX's death date, and on the wife — Vol. IX gives Gaspar b. 1657 a second marriage on
+    8.2.1694 to Maria Mendes de Borba, while his namesake cousin married D. Ana de Sousa. That
+    1694 marriage is known here only from Vol. IX (the retrieval side reports the act, not held
+    here). A held 1694 marriage act, or any record naming Maria Mendes as Gaspar's widow, would
+    support raising this to confirmed.
+  text_pt: >-
+    Estatuto evidência forte, não confirmado. O registo é primário e directo para a morte de
+    "Gaspar de Souto, casado com Maria Mendes, de uns setenta anos". Ligar esse homem ao Gaspar
+    baptizado a 23 de dezembro de 1657 (PAR-0099, filho de Belchior × Mariana) é indirecto: o
+    assento não nomeia pais, e a ligação assenta na idade (~70, compatível com 1657), na
+    concordância exacta com a data de óbito do Vol. IX e na mulher — o Vol. IX dá ao Gaspar
+    nascido em 1657 um segundo casamento, a 8.2.1694, com Maria Mendes de Borba, ao passo que o
+    primo homónimo casou com D. Ana de Sousa. Esse casamento de 1694 só é conhecido aqui pelo
+    Vol. IX (a pesquisa de recuperação diz ter lido o assento, que não está guardado aqui). Um
+    assento de casamento de 1694 guardado, ou qualquer registo que nomeie Maria Mendes como viúva
+    de Gaspar, permitiria subir este estatuto para confirmado.
+- text: >-
+    Created 2026-10-10 with P-0131, when the Terceira Gaspar was separated from Gaspar Ferreira
+    (P-0092) of the Toledo line. This death was deliberately never modelled for P-0092 while the
+    two were joined (see E-0135's notes); it belongs to P-0131 alone.
+  text_pt: >-
+    Criado a 2026-10-10 com o P-0131, quando o Gaspar da Terceira foi separado de Gaspar Ferreira
+    (P-0092), da linha Toledo. Esta morte nunca foi modelada, de propósito, para o P-0092
+    enquanto os dois estiveram unidos (ver as notas do E-0135); pertence só ao P-0131.

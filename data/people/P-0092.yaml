@@ -9,8 +9,7 @@ name_variants:
   type: source
   source_ids:
   - PAR-0018
-event_ids:
-- E-0135
+event_ids: []
 family_ids:
 - F-0062
 - F-0045
@@ -62,7 +61,14 @@ notes:
     2026-10-09: the full transcription of p.261 also records his second marriage at São
     Sebastião on 8.2.1694 to Maria Mendes de Borba and three children baptised there in
     1698–1701, which keeps him on Terceira into his forties and makes the identification with
-    P-0092 weaker; it remains an unresolved hypothesis, not a rejected one.]
+    P-0092 weaker; it remains an unresolved hypothesis, not a rejected one.] [Superseded
+    2026-10-10: the identification is REJECTED on the owner's decision. The Terceira Gaspar de
+    Souto Maior is now a separate person, P-0131 — baptised at São Sebastião on 23 December 1657
+    (PAR-0099) and dead there on 2 December 1727 aged about seventy (PAR-0100) — and the F-0062
+    parent link for P-0092 is rejected. "The retrieval agent has identified this Gaspar as
+    P-0092" was this repository's overstatement: the retrieval research's own synthesis keeps
+    the Vila Rica Gaspar Ferreira on the Toledo line and never made the identification. This
+    note is kept as the history of a rejected hypothesis.]
   text_pt: >-
     Hipótese de origem açoriana [COMPILED]: Mendes Forjaz, Vol. IX (PUB-0005), arrola um "Gaspar
     de Souto-Maior" nascido [corrigido em 2026-10-09: batizado — o livro imprime "b.", sua
@@ -81,6 +87,13 @@ notes:
     segundo casamento dele em São Sebastião em 8.2.1694 com Maria Mendes de Borba e três filhos
     ali batizados em 1698–1701, o que o mantém na Terceira até passados os quarenta anos e
     enfraquece a identificação com P-0092; ela continua hipótese não resolvida, não rejeitada.]
+    [Superado em 2026-10-10: a identificação foi REJEITADA por decisão do proprietário. O Gaspar
+    de Souto Maior da Terceira é agora uma pessoa distinta, P-0131 — batizado em São Sebastião a
+    23 de dezembro de 1657 (PAR-0099) e ali falecido a 2 de dezembro de 1727, com cerca de
+    setenta anos (PAR-0100) —, e o vínculo de filiação F-0062 de P-0092 foi rejeitado. "O agente
+    de recuperação identificou este Gaspar como P-0092" foi um exagero deste repositório: a
+    síntese da própria pesquisa de recuperação mantém o Gaspar Ferreira de Vila Rica na linha
+    Toledo e nunca fez a identificação. Esta nota fica como histórico de uma hipótese rejeitada.]
 - text: >-
     2026-10-09 — [LEAD] Lacerda's thesis (PUB-0002, ff. 55–56), following a private typescript
     ("LUZ, Paulo Ribeiro, Material genealógico sobre a família Ferreira Armonde, digitado,
@@ -94,7 +107,9 @@ notes:
     men" reading gains. It is not proof: the thesis's own dates conflict (n. 73 has the
     patriarch aged 50 in 1747, n. 74 has his mother dying on 9.4.1693), and n. 74 gives
     Gaspar's baptism as 23.9.1657 against Vol. IX's 23.2.1657. The identification is weakened,
-    not rejected; no status, link or name was changed.
+    not rejected; no status, link or name was changed. [Superseded 2026-10-10: the
+    identification is now rejected — see the 2026-10-10 decision note. This tradition concerns
+    Gaspar de Souto Maior (P-0131), not this Gaspar Ferreira.]
   text_pt: >-
     2026-10-09 — [LEAD] A tese de Lacerda (PUB-0002, f. 55–56), seguindo um material
     genealógico digitado e particular ("LUZ, Paulo Ribeiro, Material genealógico sobre a
@@ -109,7 +124,9 @@ notes:
     prova: as datas da própria tese conflitam (a n. 73 dá ao patriarca 50 anos em 1747, a n.
     74 dá a morte da mãe em 9.4.1693), e a n. 74 dá o batismo de Gaspar em 23.9.1657, contra o
     23.2.1657 do Vol. IX. A identificação fica enfraquecida, não rejeitada; nenhum status,
-    vínculo ou nome foi alterado.
+    vínculo ou nome foi alterado. [Superado em 2026-10-10: a identificação está agora rejeitada
+    — ver a nota de decisão de 2026-10-10. Esta tradição diz respeito a Gaspar de Souto Maior
+    (P-0131), não a este Gaspar Ferreira.]
 - text: >-
     REPORTED PRIMARY READS, 2026-10-10 (retrieval plan PLAN-armond-azorean-origin-terceira,
     items A1–A6; images held on the retrieval side, not here): the Terceira Gaspar de Souto
@@ -122,7 +139,9 @@ notes:
     Terceira, and identifying him with P-0092 — the Vila Rica father of Joaquim José, who
     married in 1783 — becomes untenable. The retrieval side itself attaches this trunk to the
     owner's line only through Simplício (P-0016) and the Barbacena Ferreira Armonde, never
-    through P-0092. Decision pending with the owner; no status changed.
+    through P-0092. Decision pending with the owner; no status changed. [Resolved 2026-10-10:
+    both acts are now held here — the baptism as PAR-0099, the death as PAR-0100 — and the
+    owner rejected the identification; see the next note.]
   text_pt: >-
     LEITURAS PRIMÁRIAS INFORMADAS, 2026-10-10 (plano de pesquisa PLAN-armond-azorean-origin-
     terceira, itens A1–A6; imagens guardadas pela pesquisa de recuperação, não aqui): o batismo
@@ -136,7 +155,35 @@ notes:
     Rica, de Joaquim José, que casou em 1783 — torna-se insustentável. A própria pesquisa de
     recuperação liga este tronco à linha do proprietário apenas por Simplício (P-0016) e pelos
     Ferreira Armonde de Barbacena, nunca por P-0092. Decisão pendente com o proprietário; nenhum
-    status alterado.
+    status alterado. [Resolvido em 2026-10-10: os dois assentos estão agora guardados aqui — o
+    batismo como PAR-0099, o óbito como PAR-0100 — e o proprietário rejeitou a identificação;
+    ver a nota seguinte.]
+- text: >-
+    2026-10-10 — DECISION (owner): two men. The identification of this Gaspar Ferreira — the
+    Vila Rica father of Cap. Joaquim José Ferreira de Toledo (P-0057), known only from his son's
+    1783 Barbacena marriage act (PAR-0018) — with Gaspar de Souto Maior of São Sebastião,
+    Terceira, son of Belchior da Ponte Cardoso (P-0123) × Mariana Fagundes (P-0124), is
+    REJECTED. The Terceira man was baptised on 23 December 1657 (PAR-0099) and died at São
+    Sebastião on 2 December 1727 "de idade de setenta annos", "casado com Maria Mendes"
+    (PAR-0100): he lived and died on Terceira, decades before Joaquim José was born
+    (c.1750–65). He is now a separate person, P-0131, and the F-0062 parent link that made
+    P-0092 a son of Belchior × Mariana is rejected (kept for the record, never joining the two).
+    This Gaspar Ferreira's own parents and origin are unknown; he stays on the Toledo line,
+    connected to the owner through P-0057. The notes above are kept as the history of the
+    hypothesis.
+  text_pt: >-
+    2026-10-10 — DECISÃO (proprietário): dois homens. A identificação deste Gaspar Ferreira —
+    o pai, em Vila Rica, do Cap. Joaquim José Ferreira de Toledo (P-0057), conhecido apenas pelo
+    assento de casamento do filho, em Barbacena em 1783 (PAR-0018) — com Gaspar de Souto Maior,
+    de São Sebastião, Terceira, filho de Belchior da Ponte Cardoso (P-0123) × Mariana Fagundes
+    (P-0124), foi REJEITADA. O homem da Terceira foi batizado a 23 de dezembro de 1657
+    (PAR-0099) e faleceu em São Sebastião a 2 de dezembro de 1727, "de idade de setenta annos",
+    "casado com Maria Mendes" (PAR-0100): viveu e morreu na Terceira, décadas antes do
+    nascimento de Joaquim José (c.1750–65). É agora uma pessoa distinta, P-0131, e o vínculo de
+    filiação F-0062 que fazia de P-0092 filho de Belchior × Mariana foi rejeitado (mantido para
+    registro, sem nunca ligar os dois). Os pais e a origem deste Gaspar Ferreira são
+    desconhecidos; ele continua na linha Toledo, ligado ao proprietário por P-0057. As notas
+    acima ficam como histórico da hipótese.
 profile: >-
   ## Interesting facts
 
@@ -160,12 +207,12 @@ profile: >-
   Cascalhaes title is likewise absent. If this family ever held a colonial land grant, it
   is not in the published record.
 
-  - **[COMPILED]** A tentative Azorean origin has been proposed: Mendes Forjaz (PUB-0005,
-  Vol. IX, p.261) lists a "Gaspar de Souto-Maior" baptised in São Sebastião, Ilha Terceira,
-  on 23 February 1657, as a son of Belchior da Ponte Cardoso × Mariana Fagundes (family
-  F-0062). ⚠️ An unresolved
-  conflict prevents confirming it — see below. Do NOT treat the Azorean parentage as
-  established.
+  - **[REJECTED 2026-10-10]** A proposed Azorean origin did not survive. He was once
+  identified with Gaspar de Souto Maior of São Sebastião, Ilha Terceira, a son of Belchior da
+  Ponte Cardoso × Mariana Fagundes (Mendes Forjaz, PUB-0005, Vol. IX, p.261). That man's own
+  records are now held: baptised 23 December 1657 (PAR-0099), he died at São Sebastião on 2
+  December 1727 aged about seventy (PAR-0100) — decades before this Gaspar's son was born at
+  Villa Rica. They were two men; the Terceira man is P-0131. See below.
 
   ## Identity
 
@@ -186,35 +233,39 @@ profile: >-
 
   - **Birth / death / own parents:** unknown from any held Brazilian record — no baptism,
   marriage or death record of his own is held. He would have been born in the first third
-  of the 18th century to have a son marrying in 1783. [OPEN; birth window INFERRED, soft]
+  of the 18th century to have a son marrying in 1783. His parents are unknown: the former
+  modelling of him as a son of Belchior da Ponte Cardoso × Mariana Fagundes (F-0062) was
+  rejected on 10 October 2026. [OPEN; birth window INFERRED, soft]
 
-  - **Tentative Azorean parentage [COMPILED — NOT resolved]:** the retrieval agent has
-  tentatively identified this person with "Gaspar de Souto-Maior" of Mendes Forjaz Vol. IX
-  (PUB-0005), a son of Belchior da Ponte Cardoso × Mariana Fagundes (family F-0062),
-  baptised 23.2.1657 in São Sebastião, Terceira (event E-0135 records that compiled
-  baptism). If correct, he emigrated from Terceira to Villa Rica and used the name "Gaspar
-  Ferreira" in place of "Gaspar de Souto-Maior". ⚠️ The identification is weak on the
-  compiled entry itself. PUB-0005 gives that Terceira Gaspar a death date of 2.12.1727 (it
-  prints no place), and a man baptised in 1657 could not father a son who married in 1783.
-  The same entry has him marrying twice — D. Margarida Machado at the Convento da Graça,
-  Angra, in 1690, and Maria Mendes de Borba at São Sebastião in 1694 — with three children
-  baptised at São Sebastião in 1698–1701, which keeps him on Terceira into his forties.
-  Either the compiled dates belong to a different man, or P-0092 is a son or grandson of the Terceira Gaspar, or the
-  two are simply unrelated people who share a common given name. [COMPILED — parentage NOT
-  proven; the conflict is preserved, not resolved]
+  - **The Azorean identification — REJECTED 2026-10-10, kept here as history.** This
+  person was tentatively identified with "Gaspar de Souto-Maior" of Mendes Forjaz Vol. IX
+  (PUB-0005), a son of Belchior da Ponte Cardoso × Mariana Fagundes (family F-0062), and the
+  tree modelled that son-ship and the Terceira baptism (event E-0135) on him. The reading
+  required that he had emigrated from Terceira to Villa Rica and used the name "Gaspar
+  Ferreira" in place of "Gaspar de Souto-Maior". It was weak on the compiled entry itself: a
+  man baptised in 1657 and given a 1727 death date could not father a son who married in
+  1783, and the same entry has him marrying twice — D. Margarida Machado at the Convento da
+  Graça, Angra, in 1690, and Maria Mendes de Borba at São Sebastião in 1694 — with three
+  children baptised at São Sebastião in 1698–1701. The primary records now held end it: the
+  Terceira Gaspar's own baptism, 23 December 1657 (PAR-0099; Vol. IX misprints 23.2.1657),
+  and his death act, São Sebastião, 2 December 1727, "de idade de setenta annos", "casado com
+  Maria Mendes" (PAR-0100). He lived and died on Terceira, decades before Joaquim José was
+  born (c.1750–65). On 10 October 2026 the owner rejected the identification; the Terceira
+  man is now a separate person, P-0131, and the F-0062 parent link for this Gaspar is
+  rejected. The retrieval research's own synthesis had never made the identification: it
+  keeps this Gaspar on the Toledo line. [REJECTED — two men]
 
-  - **[LEAD] A different Brazilian line for the Terceira Gaspar.** Lacerda's doctoral thesis
-  on the Barbacena Ferreira Armonde (PUB-0002, ff. 55–56), following a private 2008
-  typescript by Paulo Ribeiro Luz, makes Gaspar de Souto Maior — the son of Belchior da Ponte
-  Cardoso × Mariana Fagundes — the father of the Barbacena patriarch Francisco Ferreira
-  Armonde (d. 1751) by Margarida das Candeyas Machado, a name that fits Vol. IX's first wife
-  of 1690, D. Margarida Machado. If so, the Terceira Gaspar's Brazilian line is the Ferreira
-  Armonde of Barbacena, which makes it less likely still that he is this Gaspar Ferreira of
-  Villa Rica: the "two men" reading gains. Nothing here is proof. Only the parents' names
-  come from the patriarch's 1751 will as the thesis quotes it; the grandparents rest on the
+  - **[LEAD] The Terceira Gaspar's own claimed Brazilian line — not this man's.** Lacerda's
+  doctoral thesis on the Barbacena Ferreira Armonde (PUB-0002, ff. 55–56), following a
+  private 2008 typescript by Paulo Ribeiro Luz, makes Gaspar de Souto Maior (P-0131) — the
+  son of Belchior da Ponte Cardoso × Mariana Fagundes — the father of the Barbacena patriarch
+  Francisco Ferreira Armonde (d. 1751) by Margarida das Candeyas Machado, a name that fits
+  Vol. IX's first wife of 1690, D. Margarida Machado. Before the death act settled it, that
+  tradition was one of the strands that pointed to "two men". It belongs to P-0131 and the
+  Barbacena family, not to this Gaspar, and it is not proof: only the parents' names come
+  from the patriarch's 1751 will as the thesis quotes it; the grandparents rest on the
   typescript and a mailing-list post, and the thesis's own dates conflict (an age of 50 in
-  1747 against a mother who died in April 1693). The identification is weakened further, not
-  rejected, and no status or link changes on this lead.
+  1747 against a mother who died in April 1693).
 
   ## Standing and profession
 
@@ -234,12 +285,12 @@ profile: >-
   Toledo generation. No other children of Gaspar × Gertrudes are known. [PROVEN the son;
   siblings OPEN]
 
-  - In the repository's structure he is also placed as a child of Belchior da Ponte
-  Cardoso (P-0123) × Mariana Fagundes (P-0124) in family F-0062, on compiled evidence only
-  — while that same family separately carries a "Gaspar de Souto-Maior" among its
-  *documented_children*, described there as distinct from P-0092. The graph therefore
-  holds both readings at once, which is a deliberate record of the unresolved question
-  rather than a settled parentage.
+  - **Not a son of Belchior da Ponte Cardoso × Mariana Fagundes [corrected 2026-10-10].**
+  Until 10 October 2026 the repository placed him as a child of P-0123 × P-0124 in family
+  F-0062, on compiled evidence only, while the same family also carried a "Gaspar de
+  Souto-Maior" among its documented children, described there as distinct from P-0092. That
+  double reading is resolved: the parent link is marked rejected, and the Terceira Gaspar is
+  modelled as P-0131. This Gaspar's own parents are unknown.
 
   ## What we can extrapolate
 
@@ -272,11 +323,14 @@ profile: >-
   regional, ethnic or class information. The compiled Azorean hypothesis rests on a
   published genealogy that is internally inconsistent with his Brazilian dates, not on
   anything in the Brazilian record; the Brazilian record says only that the family was at
-  Villa Rica. No origin may be inferred here from a surname.
+  Villa Rica. No origin may be inferred here from a surname. [Corrected 2026-10-10: that
+  Azorean hypothesis is now rejected — the compiled man proved to have lived and died on
+  Terceira (PAR-0099, PAR-0100). His origin is simply unknown; the rejection does not rule
+  out a birth anywhere, the Azores included.]
 
   - **The gap above him is a single, identifiable document** [INFERRED]. His son's Villa
   Rica baptism, of about 1750–1762, would name Gaspar's and Gertrudes's own parents and
-  settle both the surname read and the Azorean question in one stroke. Every online index
+  settle both the surname read and the question of where he came from in one stroke. Every online index
   is exhausted; the record, if it survives, is in the Arquivo Eclesiástico da Arquidiocese
   de Mariana. This is an unusually well-defined research target: one parish, one decade,
   one act.
@@ -290,18 +344,19 @@ profile: >-
   held by the Arquivo Eclesiástico da Arquidiocese de Mariana (AEAM), which would name all
   four grandparents. [OPEN]
 
-  - The "two Gaspars" question, preserved and unresolved: for P-0092 (Villa Rica, a son
-  marrying in 1783) to be the same man as the Terceira "Gaspar de Souto-Maior" of PUB-0005
-  (baptised São Sebastião 1657; died 1727, no place printed; remarried at São Sebastião in
-  1694, with children baptised there in 1698–1701), either the compiled dates are wrong, or
-  P-0092 is a later-generation descendant, or the identification is simply mistaken. The
-  1694–1701 entries keep that Gaspar on Terceira into his forties and make the
-  identification weaker, though not rejected. Not resolvable from held sources; a separate line of work covers the Terceira ancestors. [OPEN —
-  COMPILED identification pending]
+  - The "two Gaspars" question — RESOLVED 2026-10-10: two men. For P-0092 (Villa Rica, a
+  son marrying in 1783) to be the Terceira "Gaspar de Souto-Maior" of PUB-0005, the compiled
+  dates would have had to be wrong. They are not: his own baptism (23 December 1657,
+  PAR-0099) and death act (São Sebastião, 2 December 1727, aged about seventy, PAR-0100) are
+  now held, and he lived and died on Terceira. The owner rejected the identification; the
+  Terceira man is P-0131, whose family the archive keeps as the Terceira Armond trunk — a
+  family tradition that touches the owner only through Simplício José Ferreira Armond
+  (P-0016), never through this Gaspar. [RESOLVED — identification rejected]
 
-  - The resulting inconsistency in the data graph, where family F-0062 holds P-0092 as a
+  - The former inconsistency in the data graph, where family F-0062 held P-0092 as a
   structured child *and* a separate "Gaspar de Souto-Maior" among its documented_children.
-  Flagged for central resolution, not changed here. [OPEN]
+  [RESOLVED 2026-10-10: the F-0062 parent link for P-0092 is rejected and the Terceira
+  Gaspar is P-0131.]
 
   - Any colonial land grant in his name — SILB returns no Toledo or Ferreira sesmeiro in
   Minas Gerais; if the family held a sesmaria it would be in the Registro de Sesmarias de
@@ -314,9 +369,10 @@ profile: >-
   - PAR-0018 (his son Joaquim José's 1783 Barbacena marriage — the sole record naming him,
   giving his name and his wife's name, and recording the son as born and baptised in the
   parish of Villa Rica) · PUB-0005
-  (Genealogias da Ilha Terceira, Vol. IX, SOUTO-MAIOR § 1º — the compiled Azorean
-  identification, held as a lead with an unresolved date conflict) · PUB-0002 (Lacerda 2010,
-  ff. 55–56 — the Barbacena-patriarch genealogy above, a lead only).
+  (Genealogias da Ilha Terceira, Vol. IX, SOUTO-MAIOR § 1º — the source of the Azorean
+  identification, rejected 2026-10-10; its Gaspar is P-0131, not this man) · PUB-0002
+  (Lacerda 2010, ff. 55–56 — the Barbacena-patriarch genealogy above, which concerns P-0131;
+  a lead only).
 
   ## Regional and migration context
 
@@ -366,12 +422,13 @@ profile_pt: >-
   título da Fazenda Cascalhaes de seu filho também está ausente. Se esta família alguma
   vez deteve concessão de terras colonial, ela não está no registro publicado.
 
-  - **[COMPILED]** Uma origem açoriana tentativa foi proposta: Mendes Forjaz (PUB-0005,
-  Vol. IX, p.261) arrola um "Gaspar de Souto-Maior" batizado em São Sebastião, Ilha
-  Terceira, em 23 de fevereiro de 1657, filho de Belchior da Ponte Cardoso × Mariana
-  Fagundes (família F-0062). ⚠️ Um
-  conflito não resolvido impede confirmá-la — ver abaixo. NÃO tratar a filiação açoriana
-  como estabelecida.
+  - **[REJEITADA em 2026-10-10]** Uma origem açoriana proposta não se sustentou. Ele chegou
+  a ser identificado com Gaspar de Souto Maior, de São Sebastião, Ilha Terceira, filho de
+  Belchior da Ponte Cardoso × Mariana Fagundes (Mendes Forjaz, PUB-0005, Vol. IX, p.261). Os
+  registros próprios desse homem estão agora disponíveis: batizado a 23 de dezembro de 1657
+  (PAR-0099), faleceu em São Sebastião a 2 de dezembro de 1727, com cerca de setenta anos
+  (PAR-0100) — décadas antes de o filho deste Gaspar nascer em Villa Rica. Eram dois homens;
+  o da Terceira é P-0131. Ver abaixo.
 
   ## Identidade
 
@@ -392,37 +449,42 @@ profile_pt: >-
 
   - **Nascimento / óbito / pais próprios:** desconhecidos em qualquer registro brasileiro
   disponível — nenhum batismo, casamento ou óbito próprio está disponível. Teria nascido
-  no primeiro terço do século XVIII para ter um filho casando em 1783. [OPEN; janela de
-  nascimento INFERRED, aproximada]
+  no primeiro terço do século XVIII para ter um filho casando em 1783. Os pais são
+  desconhecidos: a antiga modelação dele como filho de Belchior da Ponte Cardoso × Mariana
+  Fagundes (F-0062) foi rejeitada em 10 de outubro de 2026. [OPEN; janela de nascimento
+  INFERRED, aproximada]
 
-  - **Filiação açoriana tentativa [COMPILED — NÃO resolvida]:** o agente de recuperação
-  identificou tentativamente esta pessoa com o "Gaspar de Souto-Maior" de Mendes Forjaz,
-  Vol. IX (PUB-0005), filho de Belchior da Ponte Cardoso × Mariana Fagundes (família
-  F-0062), batizado em 23.2.1657 em São Sebastião, Terceira (o evento E-0135 registra esse
-  batismo compilado). Se correta, ele teria emigrado da Terceira para Villa Rica e usado o
-  nome "Gaspar Ferreira" em lugar de "Gaspar de Souto-Maior". ⚠️ A identificação é fraca na
-  própria entrada compilada. PUB-0005 dá àquele Gaspar terceirense a data de óbito de
-  2.12.1727 (sem local impresso), e um homem batizado em 1657 não poderia gerar um filho que
-  se casasse em 1783. A mesma entrada o faz casar duas vezes — com D. Margarida Machado no
-  Convento da Graça, em Angra, em 1690, e com Maria Mendes de Borba em São Sebastião em
-  1694 — com três filhos batizados em São Sebastião em 1698–1701, o que o mantém na Terceira
-  até passados os quarenta anos. Ou as datas compiladas pertencem a outro homem, ou P-0092 é filho ou
-  neto do Gaspar terceirense, ou são simplesmente pessoas distintas que partilham um
-  prenome comum. [COMPILED — filiação NÃO provada; o conflito é preservado, não resolvido]
+  - **A identificação açoriana — REJEITADA em 2026-10-10, mantida aqui como histórico.**
+  Esta pessoa foi identificada tentativamente com o "Gaspar de Souto-Maior" de Mendes
+  Forjaz, Vol. IX (PUB-0005), filho de Belchior da Ponte Cardoso × Mariana Fagundes (família
+  F-0062), e a árvore modelou nele essa filiação e o batismo terceirense (evento E-0135). A
+  leitura exigia que ele tivesse emigrado da Terceira para Villa Rica e usado o nome "Gaspar
+  Ferreira" em lugar de "Gaspar de Souto-Maior". Era fraca na própria entrada compilada: um
+  homem batizado em 1657 e com óbito dado em 1727 não poderia gerar um filho que se casasse
+  em 1783, e a mesma entrada o faz casar duas vezes — com D. Margarida Machado no Convento
+  da Graça, em Angra, em 1690, e com Maria Mendes de Borba em São Sebastião em 1694 — com
+  três filhos batizados em São Sebastião em 1698–1701. Os registros primários agora
+  disponíveis encerram a questão: o próprio batismo do Gaspar terceirense, de 23 de dezembro
+  de 1657 (PAR-0099; o Vol. IX imprime por engano 23.2.1657), e o seu assento de óbito, São
+  Sebastião, 2 de dezembro de 1727, "de idade de setenta annos", "casado com Maria Mendes"
+  (PAR-0100). Viveu e morreu na Terceira, décadas antes do nascimento de Joaquim José
+  (c.1750–65). Em 10 de outubro de 2026 o proprietário rejeitou a identificação; o homem da
+  Terceira é agora uma pessoa distinta, P-0131, e o vínculo de filiação F-0062 deste Gaspar
+  foi rejeitado. A síntese da própria pesquisa de recuperação nunca fizera a identificação:
+  mantém este Gaspar na linha Toledo. [REJEITADA — dois homens]
 
-  - **[LEAD] Uma outra linha brasileira para o Gaspar terceirense.** A tese de doutorado de
-  Lacerda sobre os Ferreira Armonde de Barbacena (PUB-0002, f. 55–56), seguindo um material
-  genealógico digitado e particular de 2008, de Paulo Ribeiro Luz, faz de Gaspar de Souto
-  Maior — o filho de Belchior da Ponte Cardoso × Mariana Fagundes — o pai do patriarca de
-  Barbacena, Francisco Ferreira Armonde (f. 1751), com Margarida das Candeyas Machado, nome
-  que condiz com a primeira mulher de 1690 dada pelo Vol. IX, D. Margarida Machado. Se for
-  assim, a linha brasileira do Gaspar terceirense é a dos Ferreira Armonde de Barbacena, o que
-  torna ainda menos provável que ele seja este Gaspar Ferreira de Villa Rica: a leitura de
-  "dois homens" ganha força. Nada aqui é prova. Só os nomes dos pais vêm do testamento de 1751
-  do patriarca, tal como a tese o cita; os avós assentam no material digitado e numa
-  mensagem de lista de discussão, e as datas da própria tese conflitam (50 anos de idade em
-  1747 contra uma mãe falecida em abril de 1693). A identificação fica ainda mais
-  enfraquecida, não rejeitada, e nenhum status ou vínculo muda por esta pista.
+  - **[LEAD] A linha brasileira atribuída ao Gaspar terceirense — não a este homem.** A tese
+  de doutorado de Lacerda sobre os Ferreira Armonde de Barbacena (PUB-0002, f. 55–56),
+  seguindo um material genealógico digitado e particular de 2008, de Paulo Ribeiro Luz, faz
+  de Gaspar de Souto Maior (P-0131) — o filho de Belchior da Ponte Cardoso × Mariana Fagundes
+  — o pai do patriarca de Barbacena, Francisco Ferreira Armonde (f. 1751), com Margarida das
+  Candeyas Machado, nome que condiz com a primeira mulher de 1690 dada pelo Vol. IX, D.
+  Margarida Machado. Antes de o assento de óbito decidir a questão, essa tradição foi um dos
+  fios que apontavam para "dois homens". Pertence a P-0131 e à família de Barbacena, não a
+  este Gaspar, e não é prova: só os nomes dos pais vêm do testamento de 1751 do patriarca,
+  tal como a tese o cita; os avós assentam no material digitado e numa mensagem de lista de
+  discussão, e as datas da própria tese conflitam (50 anos de idade em 1747 contra uma mãe
+  falecida em abril de 1693).
 
   ## Posição social e profissão
 
@@ -442,12 +504,13 @@ profile_pt: >-
   filhos de Barbacena. Não se conhecem outros filhos de Gaspar × Gertrudes. [PROVEN o
   filho; irmãos OPEN]
 
-  - Na estrutura do repositório ele também é colocado como filho de Belchior da Ponte
-  Cardoso (P-0123) × Mariana Fagundes (P-0124), na família F-0062, apenas com base em
-  evidência compilada — enquanto essa mesma família carrega, separadamente, um "Gaspar de
-  Souto-Maior" entre seus *documented_children*, ali descrito como distinto de P-0092. O
-  grafo sustenta, portanto, as duas leituras ao mesmo tempo, o que é registro deliberado
-  da questão não resolvida, e não filiação assentada.
+  - **Não é filho de Belchior da Ponte Cardoso × Mariana Fagundes [corrigido em
+  2026-10-10].** Até 10 de outubro de 2026 o repositório o colocava como filho de P-0123 ×
+  P-0124 na família F-0062, apenas com base em evidência compilada, enquanto a mesma família
+  carregava também um "Gaspar de Souto-Maior" entre seus filhos documentados, ali descrito
+  como distinto de P-0092. Essa dupla leitura está resolvida: o vínculo de filiação está
+  marcado como rejeitado, e o Gaspar terceirense é modelado como P-0131. Os pais deste
+  Gaspar são desconhecidos.
 
   ## O que podemos extrapolar
 
@@ -482,12 +545,15 @@ profile_pt: >-
   informação regional, étnica ou de classe. A hipótese açoriana compilada repousa numa
   genealogia publicada que é internamente inconsistente com suas datas brasileiras, não em
   algo do registro brasileiro; o registro brasileiro diz apenas que a família estava em
-  Villa Rica. Nenhuma origem pode ser inferida aqui a partir de um sobrenome.
+  Villa Rica. Nenhuma origem pode ser inferida aqui a partir de um sobrenome. [Corrigido em
+  2026-10-10: essa hipótese açoriana está agora rejeitada — o homem compilado viveu e morreu
+  na Terceira (PAR-0099, PAR-0100). A origem dele é simplesmente desconhecida; a rejeição não
+  exclui um nascimento em parte alguma, Açores incluídos.]
 
   - **A lacuna acima dele é um único documento identificável** [INFERRED]. O batismo de
   seu filho em Villa Rica, de cerca de 1750–1762, nomearia os próprios pais de Gaspar e de
-  Gertrudes e resolveria de uma só vez tanto a leitura do sobrenome quanto a questão
-  açoriana. Todos os índices on-line estão esgotados; o registro, se sobreviveu, está no
+  Gertrudes e resolveria de uma só vez tanto a leitura do sobrenome quanto a questão de
+  onde ele veio. Todos os índices on-line estão esgotados; o registro, se sobreviveu, está no
   Arquivo Eclesiástico da Arquidiocese de Mariana. É um alvo de pesquisa incomumente bem
   definido: uma freguesia, uma década, um assento.
 
@@ -500,20 +566,20 @@ profile_pt: >-
   em Villa Rica (~1750–1762), sob guarda do Arquivo Eclesiástico da Arquidiocese de
   Mariana (AEAM), que nomearia os quatro avós. [OPEN]
 
-  - A questão dos "dois Gaspares", preservada e não resolvida: para que P-0092 (Villa
-  Rica, com um filho casando em 1783) seja o mesmo homem que o "Gaspar de Souto-Maior"
-  terceirense de PUB-0005 (batizado em São Sebastião em 1657; falecido em 1727, sem local
-  impresso; casado de novo em São Sebastião em 1694, com filhos ali batizados em
-  1698–1701), ou as datas compiladas estão erradas, ou P-0092 é descendente de geração
-  posterior, ou a identificação está simplesmente equivocada. As entradas de 1694–1701
-  mantêm aquele Gaspar na Terceira até passados os quarenta anos e enfraquecem a
-  identificação, sem a rejeitar. Não é resolvível pelas fontes disponíveis; uma linha de
-  trabalho separada cobre os ancestrais terceirenses. [OPEN — identificação COMPILED
-  pendente]
+  - A questão dos "dois Gaspares" — RESOLVIDA em 2026-10-10: dois homens. Para que P-0092
+  (Villa Rica, com um filho casando em 1783) fosse o "Gaspar de Souto-Maior" terceirense de
+  PUB-0005, as datas compiladas teriam de estar erradas. Não estão: o próprio batismo dele
+  (23 de dezembro de 1657, PAR-0099) e o assento de óbito (São Sebastião, 2 de dezembro de
+  1727, com cerca de setenta anos, PAR-0100) estão agora disponíveis, e ele viveu e morreu na
+  Terceira. O proprietário rejeitou a identificação; o homem da Terceira é P-0131, cuja
+  família o arquivo guarda como o tronco Armond terceirense — uma tradição familiar que só
+  toca o proprietário por Simplício José Ferreira Armond (P-0016), nunca por este Gaspar.
+  [RESOLVIDA — identificação rejeitada]
 
-  - A inconsistência resultante no grafo de dados, em que a família F-0062 mantém P-0092
-  como filho estruturado *e* um "Gaspar de Souto-Maior" separado entre seus
-  documented_children. Sinalizado para resolução central, não alterado aqui. [OPEN]
+  - A antiga inconsistência no grafo de dados, em que a família F-0062 mantinha P-0092 como
+  filho estruturado *e* um "Gaspar de Souto-Maior" separado entre seus
+  documented_children. [RESOLVIDA em 2026-10-10: o vínculo de filiação F-0062 de P-0092 foi
+  rejeitado e o Gaspar terceirense é P-0131.]
 
   - Qualquer concessão de terras colonial em seu nome — o SILB não retorna sesmeiro Toledo
   ou Ferreira em Minas Gerais; se a família deteve sesmaria, estaria no Registro de
@@ -527,9 +593,10 @@ profile_pt: >-
   - PAR-0018 (casamento de 1783, em Barbacena, de seu filho Joaquim José — o único
   registro que o nomeia, dando seu nome e o da esposa, e registrando o filho como nascido
   e batizado na freguesia de Villa Rica) ·
-  PUB-0005 (Genealogias da Ilha Terceira, Vol. IX, SOUTO-MAIOR § 1º — a identificação
-  açoriana compilada, mantida como pista, com conflito de datas não resolvido) · PUB-0002
-  (Lacerda 2010, f. 55–56 — a genealogia do patriarca de Barbacena acima, apenas pista).
+  PUB-0005 (Genealogias da Ilha Terceira, Vol. IX, SOUTO-MAIOR § 1º — a fonte da
+  identificação açoriana, rejeitada em 2026-10-10; o seu Gaspar é P-0131, não este homem) ·
+  PUB-0002 (Lacerda 2010, f. 55–56 — a genealogia do patriarca de Barbacena acima, que diz
+  respeito a P-0131; apenas pista).
 
   ## Contexto regional e migratório
 

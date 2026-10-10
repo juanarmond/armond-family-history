@@ -1549,6 +1549,8 @@ a:focus-visible {
   color: var(--ink);
 }
 .relationship { margin: 0; }
+/* For someone the tree does not connect: how they are said to connect, never a proven line. */
+.relationship-connection { margin: 0; color: var(--ink-2); font-style: italic; line-height: 1.5; }
 .relationship-term {
   margin: 0 0 .4rem;
   font-family: var(--sans);

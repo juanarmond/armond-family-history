@@ -13,10 +13,28 @@ name_variants:
   type: source
   source_ids:
   - CIV-0019
+  - PRB-0012
 - value: Roza
   type: source
   source_ids:
   - PAR-0016
+- value: Rosa Eugenia de Lemos Bohrer
+  type: source
+  source_ids:
+  - PRB-0005
+  - PRB-0012
+- value: Rosa Eugenia de Lemos Borer
+  type: source
+  source_ids:
+  - PRB-0005
+- value: Roza Eugenia de Lemos Borer
+  type: source
+  source_ids:
+  - PRB-0012
+- value: Roza Eugenia de Lemos Boher
+  type: source
+  source_ids:
+  - PRB-0012
 event_ids:
 - E-0026
 - E-0049
@@ -24,6 +42,16 @@ event_ids:
 family_ids:
 - F-0016
 - F-0025
+fan_references:
+- fan_id: FAN-0014
+  role: madrinha (godmother)
+  note: Godmother with João de Lemos Pereira, 24 March 1858, Itaboraí ("Roza Eugenia de Lemos").
+- fan_id: FAN-0015
+  role: madrinha (godmother)
+  note: Godmother with João de Lemos Pereira, 8 June 1858, Itaboraí ("Rosa Eugenia de Lemos").
+- fan_id: FAN-0016
+  role: madrinha (godmother)
+  note: Godmother, 18 September 1859, Itaboraí ("Roza Eugenia de Lemos"), no married surname.
 notes:
 - text: >-
     Ahnentafel position 61 — mother of Joaquim José Bohrer (P-0030), hence Celina's
@@ -49,8 +77,9 @@ notes:
     strong-evidence, not direct — she is the couple's only Roza across the browsed
     1832-1838 Itaboraí baptisms, in the parish where her 1879 marriage justification
     was held (PAR-0002, "em casa do pai de José Antunes de Lemos"), and her brother
-    Candido Pereira de Lemos is named in her husband's 1888 will (PRB-0005). This
-    supersedes the earlier "weakened" doubt (the apparent childbearing gap was an
+    Candido Pereira de Lemos is named in her husband's 1888 will (PRB-0005) [corrected
+    2026-10-10: the will is dated 27 June 1879; 1888 is the year it was opened and
+    registered]. This supersedes the earlier "weakened" doubt (the apparent childbearing gap was an
     indexing artifact). Born about late 1834 ("nascida a dez mezes"). [corrected
     2026-10-10 from the image: baptised 12 October 1835 (day "doze", earlier read
     "[dez]"), so born about December 1834.]
@@ -62,8 +91,9 @@ notes:
     evidência, não direta — ela é a única Roza do casal entre os batismos consultados de
     Itaboraí de 1832-1838, na freguesia onde se realizou a justificação de seu casamento
     de 1879 (PAR-0002, "em casa do pai de José Antunes de Lemos"), e seu irmão Candido
-    Pereira de Lemos é nomeado no testamento de 1888 de seu marido (PRB-0005). Isso
-    supera a dúvida anterior "enfraquecida" (o aparente intervalo entre partos era um
+    Pereira de Lemos é nomeado no testamento de 1888 de seu marido (PRB-0005) [corrigido
+    em 2026-10-10: o testamento é de 27 de junho de 1879; 1888 é o ano em que foi aberto
+    e registrado]. Isso supera a dúvida anterior "enfraquecida" (o aparente intervalo entre partos era um
     artefato de indexação). Nascida por volta do final de 1834 ("nascida a dez mezes").
     [corrigido em 2026-10-10 a partir da imagem: batizada em 12 de outubro de 1835 (dia
     "doze", antes lido "[dez]"), portanto nascida por volta de dezembro de 1834.]
@@ -131,6 +161,83 @@ notes:
     Thomaz 13 jun. 1836 (não c. junho); Polidoro 18 mar. 1838 (não c. novembro). O
     "Pereira" de seu óbito de 1919 (PAR-0058) coincide, portanto, com a forma do próprio
     pai nos batismos da década de 1830.]
+- text: >-
+    [2026-10-10] Grandparents and godmother entries. Her four grandparents are now
+    modelled at strong evidence: paternal, José Henriques de Mattos × Anna Joaquina
+    (1841: Anna Maria) da Conceição (P-0132, P-0133, family F-0066); maternal, José
+    Campello de Moraes, "natural do Port[o]", × Emerenciana Maria de Jesus (P-0134,
+    P-0135, family F-0067). They are named in the 1821 and 1841 Itaboraí baptisms of
+    her siblings Antonio, João and Maria (PAR-0101, PAR-0102), whose parents bear
+    exactly her parents' names; the link is STRONG, not PROVEN, because it rests on
+    that identification (the owner's authorisation of 2026-10-10). She also appears
+    as godmother at Itaboraí, under her own name "Roza Eugenia de Lemos" with no
+    married surname, on 24 March 1858 and 8 June 1858 (both beside João de Lemos
+    Pereira, probably her brother João, b. 1839 [INFERRED]) and on 18 September 1859
+    (FAN-0014, FAN-0015, FAN-0016; the retrieval side's "17 September" is corrected
+    to the 18th from the image). Those entries bear on the date of her marriage: see
+    FAN-0016.
+  text_pt: >-
+    [2026-10-10] Avós e assentos de madrinha. Seus quatro avós estão agora modelados
+    com evidência forte: paternos, José Henriques de Mattos × Anna Joaquina (1841: Anna
+    Maria) da Conceição (P-0132, P-0133, família F-0066); maternos, José Campello de
+    Moraes, "natural do Port[o]", × Emerenciana Maria de Jesus (P-0134, P-0135, família
+    F-0067). São nomeados nos batismos de 1821 e 1841, em Itaboraí, de seus irmãos
+    Antonio, João e Maria (PAR-0101, PAR-0102), cujos pais têm exatamente os nomes dos
+    pais dela; o vínculo é STRONG, não PROVEN, porque depende dessa identificação
+    (autorização do dono de 2026-10-10). Ela aparece também como madrinha em Itaboraí,
+    com o próprio nome "Roza Eugenia de Lemos" e sem sobrenome de casada, em 24 de
+    março de 1858 e 8 de junho de 1858 (ambas as vezes ao lado de João de Lemos
+    Pereira, provavelmente seu irmão João, n. 1839 [INFERRED]) e em 18 de setembro de
+    1859 (FAN-0014, FAN-0015, FAN-0016; o "17 de setembro" da pesquisa de recuperação é
+    corrigido para o dia 18 a partir da imagem). Esses assentos têm relevância para a
+    data de seu casamento: ver FAN-0016.
+- text: >-
+    [2026-10-10] Executrix, illiteracy and the insolvent estate (PRB-0005, now read in
+    full on eight pages, and PRB-0012). Her husband's closed will of 27 June 1879,
+    opened on 6 July 1888 and registered on 24 July 1888, named her first
+    testamenteira and tutora of their four minor children, ahead of her brother
+    Candido Pereira de Lemos and the friend Samuel Antonio dos Santos. On 24 July 1888
+    "Dona Rosa Eugenia de Lemos Borer" accepted the testamentaria; the termo was signed
+    for her "a seu rogo por dizer não saber escrever" by Dr. Candido da Silveira
+    Rodrigues — she could not write (PRB-0005). The Provedoria then pursued her for
+    the accounts of the testamentaria (PRB-0012): ordered to render them, by a mandado
+    of 8 August 1890, she was served "em sua propria pessoa" at Nova Friburgo in
+    September 1890; her petition of 9 September 1890, signed "a rogo" by Samuel
+    Antonio dos Santos, answered that the couple's goods had not covered the
+    creditors, and attached a certidão of the same day from the Juízo de Órfãos: in
+    the inventário (inventariante Rosa) the goods were appraised, sold at public
+    auction, prorated among the creditors and "absorvidos". By sentence of 16
+    September 1890 she was exonerated from rendering accounts. So she was alive at
+    Nova Friburgo in September 1890, and nothing of the estate passed to the children
+    [INFERRED from "absorvidos"]. Name forms in these records: "Rosa Eugenia de Lemos
+    Bohrer" (will, 1879; petition, 1890), "Dona Rosa Eugenia de Lemos Borer" (termo,
+    1888), "Roza Eugenia de Lemos Borer" (mandado and service, 1890) and "Roza Eugenia
+    de Lemos Boher" (sentence, 1890). This supersedes the profile's earlier reading of
+    a widow's meação held for thirty-one years: the couple's goods were sold for the
+    creditors by 1890.
+  text_pt: >-
+    [2026-10-10] Testamenteira, analfabetismo e o espólio insolvente (PRB-0005, agora
+    lido por inteiro em oito páginas, e PRB-0012). O testamento cerrado de seu marido, de
+    27 de junho de 1879, aberto em 6 de julho de 1888 e registrado em 24 de julho de
+    1888, nomeou-a primeira testamenteira e tutora dos quatro filhos menores, à frente do
+    irmão dela, Candido Pereira de Lemos, e do amigo Samuel Antonio dos Santos. Em 24 de
+    julho de 1888 "Dona Rosa Eugenia de Lemos Borer" aceitou a testamentaria; o termo foi
+    assinado por ela "a seu rogo por dizer não saber escrever" pelo Dr. Candido da
+    Silveira Rodrigues — ela não sabia escrever (PRB-0005). A Provedoria cobrou-lhe
+    depois as contas da testamentaria (PRB-0012): intimada a prestá-las por mandado de 8
+    de agosto de 1890, foi notificada "em sua propria pessoa" em Nova Friburgo em
+    setembro de 1890; sua petição de 9 de setembro de 1890, assinada "a rogo" por Samuel
+    Antonio dos Santos, respondeu que os bens do casal não haviam bastado para os
+    credores e juntou certidão do mesmo dia do Juízo de Órfãos: no inventário
+    (inventariante Rosa) os bens foram avaliados, vendidos em praça pública, rateados
+    entre os credores e "absorvidos". Por sentença de 16 de setembro de 1890 foi
+    exonerada da prestação de contas. Estava, portanto, viva em Nova Friburgo em setembro
+    de 1890, e nada do espólio passou aos filhos [INFERRED de "absorvidos"]. Formas do
+    nome nesses registros: "Rosa Eugenia de Lemos Bohrer" (testamento, 1879; petição,
+    1890), "Dona Rosa Eugenia de Lemos Borer" (termo, 1888), "Roza Eugenia de Lemos
+    Borer" (mandado e intimação, 1890) e "Roza Eugenia de Lemos Boher" (sentença, 1890).
+    Isto supera a leitura anterior do perfil de uma meação de viúva conservada por trinta
+    e um anos: os bens do casal foram vendidos para os credores até 1890.
 profile: >-
   ## Interesting facts
 
@@ -138,11 +245,17 @@ profile: >-
 
   - **[PROVEN]** She was widowed in 1888 when her husband Francisco José died of cardiac failure (PAR-0055), and lived as a widow for 31 years — dying in 1919 having outlived her husband by more than three decades.
 
+  - **[PROVEN]** She could not write. When she accepted her late husband's testamentaria on 24 July 1888, the termo was signed for her "a seu rogo por dizer não saber escrever" (PRB-0005), and her petition of September 1890 was likewise signed "a rogo" (PRB-0012).
+
+  - **[PROVEN]** Her husband made her his first testamenteira and the guardian of their children, but there was nothing to distribute: the inventory's goods were sold at public auction and absorbed by his creditors, and in September 1890 the court released her from rendering accounts (PRB-0005, PRB-0012).
+
   - **[PROVEN]** In January 1898, *A Sentinella* newspaper referred to her as "Exma. Sra. D. Roza Bohrer" in reporting the death of her brother Manoel Pereira de Lemos (NWS-0002) — the honorifics "Excelentíssima Senhora Dona" marking her as a woman of local social standing in Nova Friburgo.
 
   - **[INFERRED]** Her marriage to Francisco José Bohrer was celebrated in Itaboraí before the coadjutor, and only entered in a parish book in 1879 — in Itaboraí's own Matriz marriage book, after a judicial justification (PAR-0002) — meaning the couple likely lived as a married couple for some 20 years before the union was on record anywhere. Because the registration stayed in the parish where the wedding was held, it does not by itself show where the couple were living by 1879.
 
-  - **[CONTEXTUAL]** She moved from Itaboraí (a lowland Rio de Janeiro municipality) to the Nova Friburgo highlands on marriage — a migration from the coast into the Swiss colony — and part of the Lemos family followed her: her brother Candido Pereira de Lemos was at Nova Friburgo as a wedding witness in 1884 and as her husband's executor in 1888 (PAR-0056, PRB-0005), showing how marriage into the colony could pull a wider family network into the highlands. Her brother Manoel's 1898 death was reported by the Nova Friburgo paper (NWS-0002), but the notice does not say where he lived or died, and his "Venda das Pedras" matches a locality of Itaboraí itself [uncertain].
+  - **[STRONG]** All four of her grandparents are named in her siblings' Itaboraí baptisms of 1821 and 1841 (PAR-0101, PAR-0102): José Henriques de Mattos and Anna Joaquina da Conceição on her father's side, José Campello de Moraes and Emerenciana Maria de Jesus on her mother's. Her maternal grandfather is called "natural do Porto" — on the ordinary reading, a Portugal-born immigrant [uncertain: the record does not say "Portugal"].
+
+  - **[CONTEXTUAL]** She moved from Itaboraí (a lowland Rio de Janeiro municipality) to the Nova Friburgo highlands on marriage — a migration from the coast into the Swiss colony — and part of the Lemos family followed her: her brother Candido Pereira de Lemos was at Nova Friburgo as a wedding witness in 1884 (PAR-0056) and had been named her husband's second executor in his will of 1879 (PRB-0005), showing how marriage into the colony could pull a wider family network into the highlands. Her brother Manoel's 1898 death was reported by the Nova Friburgo paper (NWS-0002), but the notice does not say where he lived or died, and his "Venda das Pedras" matches a locality of Itaboraí itself [uncertain].
 
   ## Identity
 
@@ -170,11 +283,19 @@ profile: >-
   Itaboraí, with José Antunes de Lemos, José Antonio da Costa and Genoveva Campbell da Costa as
   witnesses; the sentence was given at Rio on 30 June 1879 by Monsenhor Felix d'Albuquerque
   (PAR-0002) [PROVEN]. The act does not say how José Antunes de Lemos was related to Rosa; if he
-  was her brother, the house was her own father's [INFERRED — unresolved].
+  was her brother, the house was her own father's [INFERRED — unresolved]. She still stood
+  godmother at Itaboraí under her own name alone — "Roza Eugenia de Lemos", with no married
+  surname or "D." — on 24 March and 8 June 1858 and on 18 September 1859 (FAN-0014,
+  FAN-0015, FAN-0016) [PROVEN as records; identity STRONG]. That is compatible with a
+  wedding in late 1859 or after, but a married woman could still be entered under her own
+  name, so it does not fix the date [INFERRED].
 
   - **Children** (with Francisco José): Joaquim José Bohrer (P-0030, firstborn), Laura,
-  Guilherme (Samuel) and Fernando, the four heirs of her husband's 1888 will (PRB-0005).
-  [PROVEN — will] Laura Maria Bohrer, then 18, married Bernardo Nunes Pinto at Nova Friburgo on
+  Guilherme (Samuel) and Fernando, named as his sole heirs, all minors, in her husband's will
+  of 27 June 1879 (registered 1888; PRB-0005) [PROVEN — will]. They inherited nothing: the
+  estate inventory's goods were sold at public auction and absorbed by his creditors
+  (PRB-0012, certidão of 9 September 1890) [PROVEN; that nothing passed is INFERRED from
+  "absorvidos"]. Laura Maria Bohrer, then 18, married Bernardo Nunes Pinto at Nova Friburgo on
   24 May 1884, five weeks after her brother Joaquim's wedding, both acts naming Rosa as mother
   (PAR-0056) [PROVEN]. A daughter **Ludovina Borer** (b. 21 Jul 1862; d. 27 Dec 1862) died in
   infancy, per the published Nova Friburgo immigrant genealogy (PUB-0003) [LEAD — compilation].
@@ -187,7 +308,9 @@ profile: >-
   - **Death:** 2 November 1919 at Nova Friburgo, aged 86 [PROVEN — PAR-0058, event E-0086],
   recorded "viúva de Francisco José Bohrer" and "natural de Itaboraí" (buried the same day by
   the Irmandade do Sacramento). She had been widowed since 6 July 1888 (her husband Francisco
-  José's death, PAR-0055) and was still living in January 1898, when the newspaper óbito of her
+  José's death, PAR-0055), was alive at Nova Friburgo in September 1890, when she was served "em
+  sua propria pessoa" and petitioned the Provedoria (PRB-0012), and was still living in January
+  1898, when the newspaper óbito of her
   brother calls the deceased "irmão da Exma. Sra. D. Roza Bohrer" (NWS-0002). The stated age 86
   implies a birth ~1833 — close to, and superseded by, the ~late-1834 birth from her 1835
   baptism ("nascida a dez mezes"). The retrieval research also reports her as a godmother,
@@ -202,6 +325,15 @@ profile: >-
   Sentinella) and of the merchants Fernando and Joaquim. In the 1898 notice she is styled
   "Exma. Sra. D. Roza Bohrer" — honorifics marking a family of local social standing.
   [PROVEN via NWS-0002 and CIV-0019]
+
+  - **Executrix and guardian:** first testamenteira and tutora of the children under her
+  husband's will of 27 June 1879 (PRB-0005). She accepted on 24 July 1888 and, in 1890, was
+  summoned to render the accounts; she answered that the inventory had been absorbed by the
+  creditors and was exonerated by sentence of 16 September 1890 (PRB-0012) [PROVEN].
+
+  - **Literacy:** she could not write — both her 1888 acceptance and her 1890 petition were
+  signed for her, "a seu rogo por dizer não saber escrever" (PRB-0005) and "a rogo" by Samuel
+  Antonio dos Santos (PRB-0012) [PROVEN].
 
   - **Residence:** the household lived at the Alto da Serra, Nova Friburgo — her husband was
   "morador no logar Alto da Serra" at his death in 1888 (PAR-0055) [PROVEN], and the published
@@ -220,17 +352,29 @@ profile: >-
   drift. (An earlier "Ferreira" reading of those entries was a misreading, corrected from the
   images on 2026-10-10.)
 
+  - **Grandparents** [STRONG]: paternal, José Henriques de Mattos (P-0132) and Anna Joaquina da
+  Conceição (P-0133; "Anna Maria" in 1841), family F-0066; maternal, José Campello de Moraes
+  (P-0134), "natural do Port[o]", and Emerenciana Maria de Jesus (P-0135), family F-0067. They
+  are named in the 1821 and 1841 Itaboraí baptisms of her siblings Antonio, João and Maria
+  (PAR-0101, PAR-0102), held and read on 2026-10-10 [PROVEN as records]. The link to her is
+  strong, not proven: those records' parents bear exactly her parents' names in the same
+  parish register series, and the two records agree twenty years apart, but no record names
+  her grandparents with her.
+
   - **Siblings:** an Itaboraí register sweep documents Maria (bapt. 14 July 1832,
   PAR-0030), Anna (bapt. 11 February 1834, PAR-0031), Thomaz (bapt. 13 June 1836, born
   about March 1836, PAR-0032) and Polidoro (bapt. 18 March 1838, born about December 1837,
   PAR-0033) as children of the same couple. [PROVEN] Two further brothers are documented indirectly: Candido Pereira de
-  Lemos, named her husband's brother-in-law and executor in the 1888 will (PRB-0005), and
+  Lemos, named her husband's brother-in-law and second executor in his will of 27 June 1879
+  (registered 1888; PRB-0005), and
   Manoel Pereira de Lemos, whose 1898 óbito calls him her brother (NWS-0002). The mother is
   "Maria Thereza" in every sibling entry (a "Maria Nunes de Jesus" reading of the 1832 and
-  1834 entries was a misreading, retired 2026-10-10). The retrieval agent further reports a
-  brother Antonio (bapt. 21 October 1821) and a brother and sister João and Maria (bapt. 4
-  March 1841), whose entries are said to name both sets of grandparents [LEAD — images not
-  yet held; not modelled]. The retrieval research also reports a brother Manoel
+  1834 entries was a misreading, retired 2026-10-10). Three more siblings are now held:
+  Antonio, baptised 21 October 1821 (PAR-0101), and João (b. 16 August 1839) and Maria (b. 24
+  September 1840), both baptised 4 March 1841 (PAR-0102) [STRONG — through the parents'
+  identification]; their entries name both sets of grandparents. A "João de Lemos Pereira"
+  stood godfather beside her in 1858 (FAN-0014, FAN-0015) — probably this brother João, then
+  about 18 [INFERRED]. The retrieval research also reports a brother Manoel
   baptised at Itaboraí in 1831, verified from the register but not held here [LEAD]; whether he
   is the brother who died in 1898 is unresolved — that man's stated age of 72 points to a birth
   about 1826, which sits awkwardly with an 1831 baptism [INFERRED].
@@ -254,15 +398,21 @@ profile: >-
   was made in Itaboraí's own Matriz marriage book on 1 August 1879 (PAR-0002) [PROVEN]. The witnesses deposed that it had stood "a mais de vinte annos" [uncertain reading —
   LEAD], which would put the wedding around 1858 or earlier, and their firstborn Joaquim was
   born about 1861/62 (PAR-0056). So the couple lived some two decades in a union that was
-  socially complete and documentarily invisible, and regularised it nine years before the will
-  that names their four children "meus unicos e legitimos herdeiros" (PRB-0005). The economical
-  reading is that the paperwork was done when there were heirs and an estate to secure — not
-  when there was a wedding. The motive is nowhere stated in the act. [INFERRED]
+  socially complete and documentarily invisible, and regularised it in the same days as the will
+  that names their four children "meus unicos e legitimos herdeiros": the will is dated 27 June
+  1879, the justification sentence 30 June 1879 (PRB-0005, PAR-0002) [PROVEN]. (Until 2026-10-10
+  this read "nine years before the will", when the will was taken for an 1888 document; 1888 is
+  the year it was opened.) The economical reading is that the paperwork was done when there were
+  heirs and an estate to secure — not when there was a wedding — and that the will and the
+  justification were one act of putting the household's affairs in order. The motive is nowhere
+  stated in either document. [INFERRED]
 
   **Her documented standing is real, and it is entirely of position rather than property.** Her
   husband named her *first* testamenteira and tutora of the children, ahead of her own brother
   Candido Pereira de Lemos and ahead of a family friend (PRB-0005) [PROVEN] — a woman trusted
-  with both the estate and the guardianship. In 1898 the town weekly styles her "Exma. Sra. D.
+  with both the estate and the guardianship — although she could not write, so every act she
+  performed as executrix was signed for her by others (PRB-0005, PRB-0012) [PROVEN]. In 1898
+  the town weekly styles her "Exma. Sra. D.
   Roza Bohrer" (NWS-0002) [PROVEN]. In 1919 she is accompanied to burial by the Irmandade do
   Sacramento and buried in the brotherhood's own cemetery, having confessed and received the
   viaticum and unction (PAR-0058) [PROVEN]. Lay-brotherhood burial was a subscribed, dues-paying
@@ -270,22 +420,26 @@ profile: >-
   through church affiliation and honorifics, which cost a subscription, rather than through
   land, which costs a fortune.
 
-  **Thirty-one years a widow is an economic fact, not only a biographical one.**
-  [CONTEXTUAL/INFERRED] Francisco José died in July 1888 and she died in November 1919
-  (PAR-0055, PAR-0058) [PROVEN]. Under Brazilian succession the widow held her meação — half the
-  marital property — for life, so half of the family's only landed holding stayed out of the
-  heirs' hands for three decades while the children aged into their fifties and sixties. Nothing
-  in the held record shows her buying, selling or trading, and her own death act names no
-  property. A widow's half-share, frozen and then divided four ways among heirs who were
-  themselves elderly or already dead, is the precise mechanism by which a modest estate becomes
-  nothing per head.
+  **Thirty-one years a widow, and none of them as a woman of property.** [PROVEN/INFERRED]
+  Francisco José died in July 1888 and she died in November 1919 (PAR-0055, PAR-0058) [PROVEN].
+  Within two years of his death the estate was gone: in the inventário, in which she was the
+  inventariante, the couple's goods ("os bens de seu cazal") were appraised, sold at public
+  auction and absorbed by the creditors, and the Provedoria exonerated her from the accounts in
+  September 1890 because there was nothing left to account for (PRB-0012) [PROVEN]. Her own
+  meação went with it, since the debts were charged against the couple's goods [INFERRED]. So
+  the children inherited nothing, and her thirty-one years of widowhood rested on something
+  other than property — her sons' trades and newspaper, and kin [INFERRED]; her death act names
+  no property (PAR-0058). (This replaces, 2026-10-10, an earlier reading in which her meação of
+  the family's land stayed out of the heirs' hands until 1919: the 1890 proceedings show the
+  goods sold for the creditors by then.)
 
   **The Lemos climbed in her own generation, partly by moving.** [INFERRED,
   well-supported] Her parents' Itaboraí records name no land, office or title (PAR-0016,
   PAR-0030–PAR-0033), and only one godparent in that sibling set carries a rank — the Capitão
   José Custodio Vieira, chosen twice (PAR-0030, PAR-0032) [PROVEN]. Her generation left: she married into the Nova Friburgo
   colony; her brother Candido Pereira de Lemos appears at Nova Friburgo as a marriage witness in
-  1884 (PAR-0056) and as her husband's executor in 1888 (PRB-0005) [PROVEN]; her brother Manoel
+  1884 (PAR-0056) and was named her husband's second executor in his 1879 will (PRB-0005)
+  [PROVEN]; her brother Manoel
   Pereira de Lemos died in January 1898, aged 72, as "o conhecido industrial da Venda das
   Pedras", a man who "gosava de geral estima de seus conterraneos" (NWS-0002) [PROVEN]. That
   notice gives no place of death, and Venda das Pedras is most likely the locality of that name
@@ -308,14 +462,20 @@ profile: >-
   - Her own death record — now held (PAR-0058: 2 November 1919, Nova Friburgo, aged 86,
   widow of Francisco José, natural de Itaboraí). [RESOLVED]
 
-  - The Itaboraí marriage of her parents, which would settle Manoel de Lemos's own parentage.
-  The retrieval agent reports both sets of grandparents from the 1821 and 1841 baptisms of
-  her siblings [LEAD — images not yet held]. (The former "Pereira/Ferreira" and
+  - The Itaboraí marriage of her parents, which would prove the parentage of both — her
+  grandparents are now modelled at strong evidence from the 1821 and 1841 baptisms of her
+  siblings (PAR-0101, PAR-0102), not from a record of her parents' own filiation. (The former "Pereira/Ferreira" and
   "Thereza/Nunes" variants were misreadings, retired 2026-10-10; her 1919 death attests the
   "Pereira" form for both parents, which the 1830s sibling baptisms give for her father.)
   [OPEN]
 
-  - The exact marriage date behind the 1879 justification. [OPEN]
+  - The estate inventory itself (Juízo de Órfãos de Nova Friburgo, 1888–1890), which would list
+  the couple's goods, debts and creditors and the children's ages; only a certidão from it is
+  held (PRB-0012). [OPEN]
+
+  - The exact marriage date behind the 1879 justification. Her godmother entries of
+  1858–1859 under her own name (FAN-0014 to FAN-0016) are compatible with a wedding in late
+  1859 or after, but do not fix it. [OPEN]
 
   - Who José Antunes de Lemos was — the man in whose father's house she married and who witnessed
   it (PAR-0002): a brother, which would make the host her own father, or another kinsman. The
@@ -327,8 +487,11 @@ profile: >-
   ## Sources held (this repository)
 
   - PAR-0016 (her 1835 Itaboraí baptism — parents, godparents) · PAR-0002 (her 1879
-  marriage justification, registered at the Itaboraí Matriz) · PRB-0005 (her husband's 1888 will — names her, the four
-  children, and her brother Candido).
+  marriage justification, registered at the Itaboraí Matriz) · PRB-0005 (her husband's will of
+  27 June 1879, opened and registered 1888 — names her first testamenteira, the four children and
+  her brother Candido; her 1888 acceptance, signed for her because she could not write) ·
+  PRB-0012 (the 1890 Provedoria proceedings on the testamentaria — the estate absorbed by the
+  creditors; she exonerated from the accounts, 16 September 1890).
 
   - PAR-0056 (the 1884 Nova Friburgo marriages of her son Joaquim and daughter Laura Maria —
   names her as mother of both) · PUB-0003 (published Nova Friburgo immigrant genealogy — her
@@ -337,6 +500,12 @@ profile: >-
 
   - PAR-0030 / PAR-0031 / PAR-0032 / PAR-0033 (Itaboraí baptisms of her siblings Maria,
   Anna, Thomaz and Polidoro).
+
+  - PAR-0101 / PAR-0102 (Itaboraí baptisms of her siblings Antonio, 1821, and João and Maria,
+  1841 — they name her four grandparents) [identification STRONG].
+
+  - FAN-0014 / FAN-0015 / FAN-0016 (she stands godmother at Itaboraí on 24 March 1858, 8 June
+  1858 and 18 September 1859 — FAN context, not evidence).
 
   - CIV-0019 (grandson Alberto's 1890 birth — "Roza Eugenia de Lemos Bohrer") · NWS-0002
   (A Sentinella, 1898 — confirms her living and names a brother).
@@ -352,13 +521,15 @@ profile: >-
   a lowland fluminense, not a colonist. [CONTEXTUAL] She moved to the Nova Friburgo
   highlands on marrying the colonist Francisco José Bohrer — a marriage-chain migration
   from the lowland into the Swiss colony, and the one non-colonist thread in this branch.
-  Part of the Lemos followed her up: her brother Candido appears at Nova Friburgo in 1884 and
-  1888 (PAR-0056, PRB-0005).
+  Part of the Lemos followed her up: her brother Candido is named in her husband's 1879 will and
+  appears at Nova Friburgo in 1884 (PRB-0005, PAR-0056).
 
   - **In the serra.** Her married household was at the Alto da Serra of Nova Friburgo, where her
   husband was living at his death in 1888 (PAR-0055) [PROVEN]; she died in 1919 "moradora nesta
   da Nova Friburgo" (PAR-0058) [PROVEN]. Her brother Candido witnessed her son's 1884 wedding
-  there and was named her husband's executor in 1888 (PAR-0056, PRB-0005) [PROVEN]. Her brother
+  there and had been named her husband's second executor in 1879 (PAR-0056, PRB-0005) [PROVEN].
+  She was still living at Nova Friburgo in September 1890, when the Provedoria served her in
+  person (PRB-0012) [PROVEN]. Her brother
   Manoel's 1898 death notice, in the Nova Friburgo paper, calls him "o conhecido industrial da
   Venda das Pedras" (NWS-0002) without saying where he died; a locality of that name lies in
   Itaboraí [uncertain identification], so the notice does not by itself show that he moved to
@@ -378,11 +549,17 @@ profile_pt: >-
 
   - **[PROVEN]** Ficou viúva em 1888 quando seu marido Francisco José faleceu de insuficiência cardíaca (PAR-0055), e viveu como viúva por 31 anos — falecendo em 1919 após sobreviver ao marido por mais de três décadas.
 
+  - **[PROVEN]** Ela não sabia escrever. Quando aceitou a testamentaria do falecido marido, em 24 de julho de 1888, o termo foi assinado por ela "a seu rogo por dizer não saber escrever" (PRB-0005), e sua petição de setembro de 1890 também foi assinada "a rogo" (PRB-0012).
+
+  - **[PROVEN]** O marido a fez primeira testamenteira e tutora dos filhos, mas não havia nada a distribuir: os bens do inventário foram vendidos em praça pública e absorvidos pelos credores, e em setembro de 1890 o juízo a dispensou da prestação de contas (PRB-0005, PRB-0012).
+
   - **[PROVEN]** Em janeiro de 1898, o jornal *A Sentinella* referiu-se a ela como "Exma. Sra. D. Roza Bohrer" ao noticiar o falecimento de seu irmão Manoel Pereira de Lemos (NWS-0002) — os honoríficos "Excelentíssima Senhora Dona" marcando-a como mulher de prestígio social local em Nova Friburgo.
 
   - **[INFERRED]** Seu casamento com Francisco José Bohrer foi celebrado em Itaboraí perante o coadjutor, e só foi lançado em livro paroquial em 1879 — no próprio livro de casamentos da Matriz de Itaboraí, após uma justificação judicial (PAR-0002) —, o que significa que o casal provavelmente viveu como casado por cerca de 20 anos antes de a união constar em qualquer registro. Como o assento ficou na freguesia onde o casamento se celebrou, ele não mostra, por si só, onde o casal morava em 1879.
 
-  - **[CONTEXTUAL]** Ela se mudou de Itaboraí (um município fluminense das terras baixas) para a serra de Nova Friburgo ao se casar — uma migração do litoral para a colônia suíça — e parte da família Lemos a seguiu: seu irmão Candido Pereira de Lemos estava em Nova Friburgo como testemunha de casamento em 1884 e como testamenteiro do marido dela em 1888 (PAR-0056, PRB-0005), mostrando como o casamento dentro da colônia podia atrair uma rede familiar mais ampla para a serra. O óbito de seu irmão Manoel, em 1898, foi noticiado pelo jornal de Nova Friburgo (NWS-0002), mas a nota não diz onde ele morava nem onde morreu, e sua "Venda das Pedras" corresponde a uma localidade da própria Itaboraí [incerto].
+  - **[STRONG]** Os quatro avós dela são nomeados nos batismos de seus irmãos em Itaboraí, de 1821 e 1841 (PAR-0101, PAR-0102): José Henriques de Mattos e Anna Joaquina da Conceição do lado paterno, José Campello de Moraes e Emerenciana Maria de Jesus do lado materno. Seu avô materno é dito "natural do Porto" — na leitura corrente, um imigrante nascido em Portugal [uncertain: o registro não diz "Portugal"].
+
+  - **[CONTEXTUAL]** Ela se mudou de Itaboraí (um município fluminense das terras baixas) para a serra de Nova Friburgo ao se casar — uma migração do litoral para a colônia suíça — e parte da família Lemos a seguiu: seu irmão Candido Pereira de Lemos estava em Nova Friburgo como testemunha de casamento em 1884 (PAR-0056) e fora nomeado segundo testamenteiro do marido dela no testamento de 1879 (PRB-0005), mostrando como o casamento dentro da colônia podia atrair uma rede familiar mais ampla para a serra. O óbito de seu irmão Manoel, em 1898, foi noticiado pelo jornal de Nova Friburgo (NWS-0002), mas a nota não diz onde ele morava nem onde morreu, e sua "Venda das Pedras" corresponde a uma localidade da própria Itaboraí [incerto].
 
   ## Identidade
 
@@ -412,10 +589,18 @@ profile_pt: >-
   Campbell da Costa; a sentença foi dada no Rio em 30 de junho de 1879 por Monsenhor Felix
   d'Albuquerque (PAR-0002) [PROVEN]. O ato não diz qual era o parentesco de José Antunes de Lemos
   com Rosa; se era seu irmão, a casa era a do próprio pai dela [INFERRED — não resolvido].
+  Ela ainda foi madrinha em Itaboraí só com o próprio nome — "Roza Eugenia de Lemos", sem
+  sobrenome de casada nem "D." — em 24 de março e 8 de junho de 1858 e em 18 de setembro de
+  1859 (FAN-0014, FAN-0015, FAN-0016) [PROVEN como registros; identidade STRONG]. Isso é
+  compatível com um casamento no fim de 1859 ou depois, mas uma mulher casada ainda podia ser
+  lançada com o próprio nome, de modo que não fixa a data [INFERRED].
 
   - **Filhos** (com Francisco José): Joaquim José Bohrer (P-0030, primogênito), Laura,
-  Guilherme (Samuel) e Fernando, os quatro herdeiros do testamento de 1888 de seu marido
-  (PRB-0005). [PROVEN — testamento] Laura Maria Bohrer, então com 18 anos, casou-se com Bernardo
+  Guilherme (Samuel) e Fernando, nomeados únicos herdeiros, todos menores, no testamento de seu
+  marido de 27 de junho de 1879 (registrado em 1888; PRB-0005) [PROVEN — testamento]. Nada
+  herdaram: os bens do inventário foram vendidos em praça pública e absorvidos pelos credores
+  (PRB-0012, certidão de 9 de setembro de 1890) [PROVEN; que nada passou é INFERRED de
+  "absorvidos"]. Laura Maria Bohrer, então com 18 anos, casou-se com Bernardo
   Nunes Pinto em Nova Friburgo em 24 de maio de 1884, cinco semanas depois do casamento do irmão
   Joaquim, ambos os atos nomeando Rosa como mãe (PAR-0056) [PROVEN]. Uma filha, **Ludovina Borer**
   (n. 21 jul. 1862; f. 27 dez. 1862), faleceu ainda bebê, segundo a genealogia publicada dos
@@ -429,7 +614,9 @@ profile_pt: >-
   - **Óbito:** 2 de novembro de 1919 em Nova Friburgo, aos 86 anos [PROVEN — PAR-0058, evento
   E-0086], registrada como "viúva de Francisco José Bohrer" e "natural de Itaboraí" (sepultada
   no mesmo dia pela Irmandade do Sacramento). Estava viúva desde 6 de julho de 1888 (óbito do
-  marido Francisco José, PAR-0055) e ainda viva em janeiro de 1898, quando o óbito jornalístico
+  marido Francisco José, PAR-0055), viva em Nova Friburgo em setembro de 1890, quando foi
+  intimada "em sua propria pessoa" e peticionou à Provedoria (PRB-0012), e ainda viva em janeiro
+  de 1898, quando o óbito jornalístico
   de seu irmão chama o falecido de "irmão da Exma. Sra. D. Roza Bohrer" (NWS-0002). A idade
   declarada 86 implica nascimento ~1833 — próximo, e superado por, o nascimento em ~final de
   1834 de seu batismo ("nascida a dez mezes"). A pesquisa de recuperação também a relata como
@@ -445,6 +632,15 @@ profile_pt: >-
   A Sentinella) e dos comerciantes Fernando e Joaquim. Na nota de 1898 é tratada por "Exma.
   Sra. D. Roza Bohrer" — honoríficos que marcam uma família de prestígio social local.
   [PROVEN via NWS-0002 e CIV-0019]
+
+  - **Testamenteira e tutora:** primeira testamenteira e tutora dos filhos pelo testamento do
+  marido de 27 de junho de 1879 (PRB-0005). Aceitou em 24 de julho de 1888 e, em 1890, foi
+  intimada a prestar as contas; respondeu que o inventário fora absorvido pelos credores e foi
+  exonerada por sentença de 16 de setembro de 1890 (PRB-0012) [PROVEN].
+
+  - **Letramento:** não sabia escrever — tanto a aceitação de 1888 quanto a petição de 1890
+  foram assinadas por outros, "a seu rogo por dizer não saber escrever" (PRB-0005) e "a rogo"
+  por Samuel Antonio dos Santos (PRB-0012) [PROVEN].
 
   - **Residência:** o domicílio ficava no Alto da Serra, Nova Friburgo — o marido era "morador no
   logar Alto da Serra" ao falecer em 1888 (PAR-0055) [PROVEN], e a genealogia publicada dos
@@ -463,17 +659,29 @@ profile_pt: >-
   1830, e não uma deriva tardia. (Uma leitura anterior "Ferreira" desses assentos era errada,
   corrigida a partir das imagens em 2026-10-10.)
 
+  - **Avós** [STRONG]: paternos, José Henriques de Mattos (P-0132) e Anna Joaquina da Conceição
+  (P-0133; "Anna Maria" em 1841), família F-0066; maternos, José Campello de Moraes (P-0134),
+  "natural do Port[o]", e Emerenciana Maria de Jesus (P-0135), família F-0067. São nomeados nos
+  batismos de 1821 e 1841, em Itaboraí, de seus irmãos Antonio, João e Maria (PAR-0101,
+  PAR-0102), disponíveis e lidos em 2026-10-10 [PROVEN como registros]. O vínculo com ela é
+  forte, não provado: os pais desses registros têm exatamente os nomes dos pais dela na mesma
+  série de livros da freguesia, e os dois registros concordam com vinte anos de intervalo, mas
+  nenhum registro nomeia os avós junto com ela.
+
   - **Irmãos:** uma varredura do registro de Itaboraí documenta Maria (bat. 14 de julho de
   1832, PAR-0030), Anna (bat. 11 de fevereiro de 1834, PAR-0031), Thomaz (bat. 13 de junho de
   1836, nascido por volta de março de 1836, PAR-0032) e Polidoro (bat. 18 de março de 1838,
   nascido por volta de dezembro de 1837, PAR-0033) como filhos do mesmo casal. [PROVEN] Dois outros irmãos são documentados indiretamente: Candido
-  Pereira de Lemos, nomeado cunhado e testamenteiro de seu marido no testamento de 1888
-  (PRB-0005), e Manoel Pereira de Lemos, cujo óbito de 1898 o chama de irmão dela (NWS-0002).
+  Pereira de Lemos, nomeado cunhado e segundo testamenteiro de seu marido no testamento de 27 de
+  junho de 1879 (registrado em 1888; PRB-0005), e Manoel Pereira de Lemos, cujo óbito de 1898 o chama de irmão dela (NWS-0002).
   A mãe é "Maria Thereza" em todos os assentos dos irmãos (uma leitura "Maria Nunes de Jesus" dos
-  assentos de 1832 e 1834 era errada, aposentada em 2026-10-10). O agente de recuperação relata
-  ainda um irmão Antonio (bat. 21 de outubro de 1821) e os irmãos João e Maria (bat. 4 de março
-  de 1841), cujos assentos nomeariam os dois pares de avós [LEAD — imagens ainda não
-  disponíveis; não modelado]. A pesquisa de recuperação também relata um irmão
+  assentos de 1832 e 1834 era errada, aposentada em 2026-10-10). Mais três irmãos estão agora
+  disponíveis: Antonio, batizado em 21 de outubro de 1821 (PAR-0101), e João (n. 16 de agosto
+  de 1839) e Maria (n. 24 de setembro de 1840), ambos batizados em 4 de março de 1841
+  (PAR-0102) [STRONG — pela identificação dos pais]; seus assentos nomeiam os dois pares de
+  avós. Um "João de Lemos Pereira" foi padrinho ao lado dela em 1858 (FAN-0014, FAN-0015) —
+  provavelmente este irmão João, então com cerca de 18 anos [INFERRED]. A pesquisa de
+  recuperação também relata um irmão
   Manoel baptizado em Itaboraí em 1831, verificado no livro mas não disponível aqui [LEAD]; se ele
   é o irmão falecido em 1898 não está resolvido — a idade declarada desse homem, 72 anos, aponta
   para um nascimento por volta de 1826, o que se ajusta mal a um batismo de 1831 [INFERRED].
@@ -500,15 +708,21 @@ profile_pt: >-
   de vinte annos" [leitura incerta — LEAD], o que situaria o casamento por volta de 1858 ou
   antes, e o primogênito Joaquim nasceu cerca de 1861/62 (PAR-0056). O casal viveu, portanto,
   cerca de duas décadas numa união socialmente completa e documentalmente invisível, e a
-  regularizou nove anos antes do testamento que nomeia os quatro filhos "meus unicos e legitimos
-  herdeiros" (PRB-0005). A leitura mais econômica é que o papel foi feito quando havia herdeiros
-  e patrimônio a resguardar — não quando houve casamento. O motivo não está declarado em parte
-  alguma do ato. [INFERRED]
+  regularizou nos mesmos dias do testamento que nomeia os quatro filhos "meus unicos e legitimos
+  herdeiros": o testamento é de 27 de junho de 1879, a sentença de justificação de 30 de junho de
+  1879 (PRB-0005, PAR-0002) [PROVEN]. (Até 2026-10-10 dizia-se aqui "nove anos antes do
+  testamento", quando este era tomado por um documento de 1888; 1888 é o ano em que foi aberto.)
+  A leitura mais econômica é que o papel foi feito quando havia herdeiros e patrimônio a
+  resguardar — não quando houve casamento — e que o testamento e a justificação foram um só ato
+  de pôr em ordem os negócios da casa. O motivo não está declarado em nenhum dos dois
+  documentos. [INFERRED]
 
   **A posição documentada dela é real e é inteiramente de posição, não de propriedade.** O
   marido a nomeou *primeira* testamenteira e tutora dos filhos, à frente do próprio irmão dela,
   Candido Pereira de Lemos, e de um amigo da família (PRB-0005) [PROVEN] — uma mulher a quem se
-  confiaram o espólio e a tutela. Em 1898 o semanário da cidade a trata por "Exma. Sra. D. Roza
+  confiaram o espólio e a tutela — embora não soubesse escrever, de modo que todo ato que
+  praticou como testamenteira foi assinado por outros (PRB-0005, PRB-0012) [PROVEN]. Em 1898 o
+  semanário da cidade a trata por "Exma. Sra. D. Roza
   Bohrer" (NWS-0002) [PROVEN]. Em 1919 é acompanhada ao sepultamento pela Irmandade do
   Sacramento e sepultada no cemitério da própria irmandade, tendo-se confessado e recebido o
   viático e a unção (PAR-0058) [PROVEN]. O sepultamento por irmandade leiga era uma
@@ -516,22 +730,26 @@ profile_pt: >-
   capital, a posição exprimia-se por filiação religiosa e honoríficos, que custam uma
   contribuição, e não por terra, que custa uma fortuna.
 
-  **Trinta e um anos de viuvez são um fato econômico, não apenas biográfico.**
-  [CONTEXTUAL/INFERRED] Francisco José morreu em julho de 1888 e ela em novembro de 1919
-  (PAR-0055, PAR-0058) [PROVEN]. Na sucessão brasileira a viúva conservava sua meação — metade
-  do patrimônio do casal — em vida, de modo que metade da única propriedade fundiária da família
-  ficou fora do alcance dos herdeiros por três décadas, enquanto os filhos envelheciam até os
-  cinquenta e sessenta anos. Nada no registro disponível a mostra comprando, vendendo ou
-  negociando, e seu próprio assento de óbito não nomeia propriedade alguma. Uma meação de viúva,
-  congelada e depois dividida em quatro entre herdeiros já idosos ou já falecidos, é exatamente
-  o mecanismo pelo qual um espólio modesto se torna nada por cabeça.
+  **Trinta e um anos de viuvez, e nenhum deles como proprietária.** [PROVEN/INFERRED]
+  Francisco José morreu em julho de 1888 e ela em novembro de 1919 (PAR-0055, PAR-0058)
+  [PROVEN]. Em menos de dois anos o espólio desapareceu: no inventário, do qual ela era a
+  inventariante, os bens do casal ("os bens de seu cazal") foram avaliados, vendidos em praça
+  pública e absorvidos pelos credores, e a Provedoria a exonerou das contas em setembro de 1890
+  porque nada restava de que prestar contas (PRB-0012) [PROVEN]. A sua própria meação foi junto,
+  pois as dívidas recaíam sobre os bens do casal [INFERRED]. Os filhos nada herdaram, portanto, e
+  seus trinta e um anos de viuvez apoiaram-se em outra coisa que não a propriedade — os ofícios e
+  o jornal dos filhos, e a parentela [INFERRED]; seu assento de óbito não nomeia propriedade
+  alguma (PAR-0058). (Isto substitui, em 2026-10-10, uma leitura anterior segundo a qual sua
+  meação da terra da família ficou fora do alcance dos herdeiros até 1919: os autos de 1890
+  mostram os bens vendidos para os credores já então.)
 
   **Os Lemos subiram na geração dela, em parte mudando-se.** [INFERRED, bem sustentado] Os
   registros de Itaboraí de seus pais não nomeiam terra, ofício ou título (PAR-0016,
   PAR-0030–PAR-0033), e só um padrinho daquele conjunto de irmãos traz patente — o Capitão José
   Custodio Vieira, escolhido duas vezes (PAR-0030, PAR-0032) [PROVEN]. A geração dela partiu: ela casou-se com a colônia de
   Nova Friburgo; seu irmão Candido Pereira de Lemos aparece em Nova Friburgo como testemunha de
-  casamento em 1884 (PAR-0056) e como testamenteiro do marido dela em 1888 (PRB-0005) [PROVEN];
+  casamento em 1884 (PAR-0056) e foi nomeado segundo testamenteiro do marido dela no testamento
+  de 1879 (PRB-0005) [PROVEN];
   seu irmão Manoel Pereira de Lemos morreu em janeiro de 1898, aos 72 anos, como "o conhecido
   industrial da Venda das Pedras", homem que "gosava de geral estima de seus conterraneos"
   (NWS-0002) [PROVEN]. Essa nota não dá o local do óbito, e Venda das Pedras é muito
@@ -555,14 +773,20 @@ profile_pt: >-
   - Seu próprio registro de óbito — agora obtido (PAR-0058: 2 de novembro de 1919, Nova
   Friburgo, aos 86 anos, viúva de Francisco José, natural de Itaboraí). [RESOLVED]
 
-  - O casamento em Itaboraí de seus pais, que resolveria a própria filiação de Manoel de Lemos.
-  O agente de recuperação relata os dois pares de avós a partir dos batismos de 1821 e 1841 de
-  seus irmãos [LEAD — imagens ainda não disponíveis]. (As antigas variantes "Pereira/Ferreira" e
+  - O casamento em Itaboraí de seus pais, que provaria a filiação de ambos — seus avós estão
+  agora modelados com evidência forte a partir dos batismos de 1821 e 1841 de seus irmãos
+  (PAR-0101, PAR-0102), não de um registro da filiação dos próprios pais. (As antigas variantes "Pereira/Ferreira" e
   "Thereza/Nunes" eram leituras erradas, aposentadas em 2026-10-10; seu óbito de 1919 atesta a
   forma "Pereira" para ambos os pais, que os batismos dos irmãos da década de 1830 dão para o
   pai.) [OPEN]
 
-  - A data exata do casamento por trás da justificação de 1879. [OPEN]
+  - O próprio inventário do espólio (Juízo de Órfãos de Nova Friburgo, 1888–1890), que
+  listaria os bens, as dívidas e os credores do casal e as idades dos filhos; só uma certidão
+  dele está disponível (PRB-0012). [OPEN]
+
+  - A data exata do casamento por trás da justificação de 1879. Seus assentos de madrinha de
+  1858–1859 com o próprio nome (FAN-0014 a FAN-0016) são compatíveis com um casamento no fim
+  de 1859 ou depois, mas não a fixam. [OPEN]
 
   - Quem era José Antunes de Lemos — o homem em cuja casa paterna ela se casou e que testemunhou o
   ato (PAR-0002): um irmão, o que faria do anfitrião o próprio pai dela, ou outro parente. O
@@ -575,8 +799,11 @@ profile_pt: >-
   ## Fontes disponíveis (neste repositório)
 
   - PAR-0016 (seu batismo de 1835 em Itaboraí — pais, padrinhos) · PAR-0002 (sua justificação
-  de casamento de 1879, registrada na Matriz de Itaboraí) · PRB-0005 (o testamento de 1888 de seu marido — nomeia-a, aos quatro
-  filhos e a seu irmão Candido).
+  de casamento de 1879, registrada na Matriz de Itaboraí) · PRB-0005 (o testamento de seu
+  marido de 27 de junho de 1879, aberto e registrado em 1888 — nomeia-a primeira testamenteira,
+  os quatro filhos e seu irmão Candido; sua aceitação de 1888, assinada por outro porque não
+  sabia escrever) · PRB-0012 (os autos da Provedoria de 1890 sobre a testamentaria — o espólio
+  absorvido pelos credores; ela exonerada das contas, 16 de setembro de 1890).
 
   - PAR-0056 (os casamentos de 1884, em Nova Friburgo, de seu filho Joaquim e de sua filha Laura
   Maria — nomeia-a como mãe de ambos) · PUB-0003 (genealogia publicada dos imigrantes de Nova
@@ -585,6 +812,12 @@ profile_pt: >-
 
   - PAR-0030 / PAR-0031 / PAR-0032 / PAR-0033 (batismos em Itaboraí de seus irmãos Maria,
   Anna, Thomaz e Polidoro).
+
+  - PAR-0101 / PAR-0102 (batismos em Itaboraí de seus irmãos Antonio, 1821, e João e Maria,
+  1841 — nomeiam seus quatro avós) [identificação STRONG].
+
+  - FAN-0014 / FAN-0015 / FAN-0016 (ela é madrinha em Itaboraí em 24 de março de 1858, 8 de
+  junho de 1858 e 18 de setembro de 1859 — contexto FAN, não evidência).
 
   - CIV-0019 (nascimento de 1890 do neto Alberto — "Roza Eugenia de Lemos Bohrer") · NWS-0002
   (A Sentinella, 1898 — confirma-a viva e nomeia um irmão).
@@ -600,13 +833,15 @@ profile_pt: >-
   uma fluminense das terras baixas, não uma colona. [CONTEXTUAL] Mudou-se para a serra de
   Nova Friburgo ao se casar com o colono Francisco José Bohrer — uma migração em cadeia por
   casamento, das terras baixas para a colônia suíça, e o único fio não colono deste ramo.
-  Parte dos Lemos a seguiu serra acima: seu irmão Candido aparece em Nova Friburgo em 1884 e
-  1888 (PAR-0056, PRB-0005).
+  Parte dos Lemos a seguiu serra acima: seu irmão Candido é nomeado no testamento do marido dela
+  de 1879 e aparece em Nova Friburgo em 1884 (PRB-0005, PAR-0056).
 
   - **Na serra.** Seu domicílio de casada ficava no Alto da Serra de Nova Friburgo, onde o marido
   morava ao falecer em 1888 (PAR-0055) [PROVEN]; ela faleceu em 1919 "moradora nesta da Nova
   Friburgo" (PAR-0058) [PROVEN]. Seu irmão Candido testemunhou ali o casamento de 1884 do filho
-  dela e foi nomeado testamenteiro do marido em 1888 (PAR-0056, PRB-0005) [PROVEN]. A nota de
+  dela e fora nomeado segundo testamenteiro do marido em 1879 (PAR-0056, PRB-0005) [PROVEN]. Ela
+  ainda vivia em Nova Friburgo em setembro de 1890, quando a Provedoria a intimou pessoalmente
+  (PRB-0012) [PROVEN]. A nota de
   falecimento de 1898 de seu irmão Manoel, no jornal de Nova Friburgo, chama-o "o conhecido
   industrial da Venda das Pedras" (NWS-0002) sem dizer onde morreu; uma localidade desse nome fica
   em Itaboraí [identificação incerta], de modo que a nota, por si só, não mostra que ele se mudou

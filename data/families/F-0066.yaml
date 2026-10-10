@@ -1,0 +1,119 @@
+schema_version: 1
+id: F-0066
+partners:
+- person_id: P-0132
+  role: partner
+- person_id: P-0133
+  role: partner
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0101
+  - PAR-0102
+  notes:
+  - text: >-
+      José Henriques de Mattos and Anna Joaquina (1841: Anna Maria) da Conceição are
+      named together as the paternal grandparents of children of Manoel de Lemos
+      Pereira in two original Itaboraí baptism records twenty years apart — Antonio,
+      21 October 1821 (PAR-0101), and João and Maria, 4 March 1841 (PAR-0102).
+      Strong-evidence, not confirmed (research/README.md, Confirmed / Strong
+      evidence): neither entry states a marriage — the pair is named as grandparents,
+      indirect evidence of a union; both statements presumably come from the same
+      family's declarations at a grandchild's baptism, so they are not independent in
+      the way a marriage act plus a grandchild's baptism would be; and the wife's
+      name differs between them ("Anna Joaquina" / "Anna Maria"), one woman by
+      inference only. Partner role "partner", not "spouse", because no record held
+      states that they were married; their marriage act (Itaboraí, before about
+      1800) would confirm the union and fix the wife's name.
+    text_pt: >-
+      José Henriques de Mattos e Anna Joaquina (1841: Anna Maria) da Conceição são
+      nomeados juntos como avós paternos de filhos de Manoel de Lemos Pereira em dois
+      registros originais de batismo de Itaboraí, com vinte anos de intervalo —
+      Antonio, 21 de outubro de 1821 (PAR-0101), e João e Maria, 4 de março de 1841
+      (PAR-0102). Strong-evidence, não confirmed (research/README.md, Confirmado /
+      Evidência forte): nenhum assento declara casamento — o par é nomeado como avós,
+      evidência indireta de uma união; as duas declarações vêm presumivelmente da
+      mesma família, ao batizar um neto, e não são independentes como seriam um
+      assento de casamento e um batismo de neto; e o nome da mulher difere entre elas
+      ("Anna Joaquina" / "Anna Maria"), uma só mulher apenas por inferência. Papel
+      "partner", não "spouse", porque nenhum registro disponível declara que eram
+      casados; seu assento de casamento (Itaboraí, antes de cerca de 1800)
+      confirmaria a união e fixaria o nome da mulher.
+children:
+- person_id: P-0052
+  parent_relationships:
+  - parent_id: P-0132
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0101
+    - PAR-0102
+    notes:
+    - text: >-
+        Both records name José Henriques de Mattos as paternal grandfather of
+        children of "Manoel de Lemos Pereira" and "Maria Thereza de Jezus/Jesus"
+        (PAR-0101, 1821; PAR-0102, 1841), so as these records stand he is that
+        Manoel's father. Strong-evidence, not confirmed: the link to P-0052 rests on
+        identifying that Manoel with Rosa Eugenia de Lemos's father — the same two
+        names, written in the same full form as the couple's 1832, 1834 and 1838
+        entries, in the same Itaboraí register series; the two records, twenty years
+        apart, agree on all four grandparents; and the retrieval side reports no
+        competing couple of these names in its 1821-1842 sweep [LEAD]. No record
+        states the parentage directly — Manoel's own baptism or marriage is not held
+        (reported to fall in gaps of the filmed registers). Modelled at
+        strong-evidence on the owner's authorisation of 2026-10-10 ("with their link
+        to Rosa at STRONG, not PROVEN").
+      text_pt: >-
+        Os dois registros nomeiam José Henriques de Mattos como avô paterno de filhos
+        de "Manoel de Lemos Pereira" e "Maria Thereza de Jezus/Jesus" (PAR-0101, 1821;
+        PAR-0102, 1841), de modo que, nesses registros, ele é o pai desse Manoel.
+        Strong-evidence, não confirmed: o vínculo com P-0052 depende de identificar
+        esse Manoel com o pai de Rosa Eugenia de Lemos — os mesmos dois nomes, na
+        mesma forma completa dos assentos do casal de 1832, 1834 e 1838, na mesma
+        série de livros de Itaboraí; os dois registros, com vinte anos de intervalo,
+        concordam nos quatro avós; e a pesquisa de recuperação não relata casal
+        concorrente com esses nomes na sua varredura de 1821-1842 [LEAD]. Nenhum
+        registro declara a filiação diretamente — o batismo ou casamento do próprio
+        Manoel não está disponível (relatados como caindo em lacunas dos livros
+        filmados). Modelado em strong-evidence com a autorização do dono de
+        2026-10-10 ("com o vínculo a Rosa em STRONG, não PROVEN").
+  - parent_id: P-0133
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0101
+    - PAR-0102
+    notes:
+    - text: >-
+        As for the paternal link: "Anna Joaquina da Conceição" (1821) and "Anna Maria
+        da Conceição" (1841) are named as paternal grandmother of the same couple's
+        children. Strong-evidence for the same identification reasons, with the added
+        caveat that the two name forms are taken as one woman by inference (same
+        husband, same son's household), not by statement.
+      text_pt: >-
+        Como no vínculo paterno: "Anna Joaquina da Conceição" (1821) e "Anna Maria da
+        Conceição" (1841) são nomeadas avó paterna dos filhos do mesmo casal.
+        Strong-evidence pelas mesmas razões de identificação, com a ressalva adicional
+        de que as duas formas do nome são tomadas como uma só mulher por inferência
+        (mesmo marido, mesmo domicílio do filho), não por declaração.
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Parents of Manoel de Lemos Pereira (P-0052), hence Rosa Eugenia de Lemos's
+    (P-0035) paternal grandparents — the first generation above the Itaboraí Lemos
+    couple F-0025, extending the owner's maternal Bohrer line. Source-qualified by the
+    two baptism records that name them (PAR-0101, PAR-0102); no event is modelled for
+    the couple, since no record of their marriage or deaths is held. Other children
+    are reported by the retrieval side (a probable daughter, Maria Luiza de Jezus,
+    wife of Laureano Antonio da Costa) [LEAD]; none is recorded as a
+    documented_child, because no image held here names them.
+  text_pt: >-
+    Pais de Manoel de Lemos Pereira (P-0052), portanto avós paternos de Rosa Eugenia
+    de Lemos (P-0035) — a primeira geração acima do casal Lemos de Itaboraí F-0025,
+    estendendo a linha Bohrer materna do dono. Qualificados pelas duas fontes de
+    batismo que os nomeiam (PAR-0101, PAR-0102); nenhum evento é modelado para o
+    casal, pois não há registro disponível de seu casamento ou óbitos. Outros filhos
+    são relatados pela pesquisa de recuperação (uma provável filha, Maria Luiza de
+    Jezus, mulher de Laureano Antonio da Costa) [LEAD]; nenhum é registrado como
+    documented_child, pois nenhuma imagem disponível aqui os nomeia.

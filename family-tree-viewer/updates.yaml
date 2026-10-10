@@ -20,9 +20,11 @@
 updates:
   - date: "2026-10-10"
     kind: correction
-    title: "Correction: the Lemos baptisms re-read on the images — Rosa Eugenia de Lemos was baptised on 12 October 1835, her parents' marriage is now confirmed by five baptisms, the supposed second wife \"Maria Nunes de Jesus\" was a misreading, and her 1879 marriage was registered at Itaboraí, not Nova Friburgo"
-    title_pt: "Correção: os batismos dos Lemos relidos nas imagens — Rosa Eugenia de Lemos foi batizada em 12 de outubro de 1835, o casamento dos pais agora está confirmado por cinco batismos, a suposta segunda esposa \"Maria Nunes de Jesus\" era um erro de leitura, e o casamento dela, de 1879, foi registrado em Itaboraí, não em Nova Friburgo"
-    links: [P-0035, P-0052, P-0053, P-0034, PAR-0016]
+    title: "Correction and new ancestors: Rosa Eugenia de Lemos's four grandparents are now in the tree from two Itaboraí baptisms; her family's baptisms were re-read on the images and her parents' marriage confirmed; Francisco José Bohrer's will proves to date from 1879, and his estate went to his creditors; and the Terceira family of Belchior da Ponte Cardoso is no longer shown as a proven ancestry — the Gaspar of Vila Rica and the Gaspar of Terceira were two different men"
+    title_pt: "Correção e novos antepassados: os quatro avós de Rosa Eugenia de Lemos entram na árvore por dois batismos de Itaboraí; os batismos da família foram relidos nas imagens e o casamento dos pais confirmado; o testamento de Francisco José Bohrer é de 1879, e os bens foram para os credores; e a família terceirense de Belchior da Ponte Cardoso deixa de aparecer como ascendência provada — o Gaspar de Vila Rica e o Gaspar da Terceira eram dois homens diferentes"
+    replaces:
+      - "Correction: the Lemos baptisms re-read on the images — Rosa Eugenia de Lemos was baptised on 12 October 1835, her parents' marriage is now confirmed by five baptisms, the supposed second wife \"Maria Nunes de Jesus\" was a misreading, and her 1879 marriage was registered at Itaboraí, not Nova Friburgo"
+    links: [P-0035, P-0132, P-0134, P-0034, P-0131, P-0092, PRB-0005]
 
   - date: "2026-10-09"
     kind: correction

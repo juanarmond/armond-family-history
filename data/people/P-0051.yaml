@@ -26,10 +26,17 @@ notes:
     Mother of Francisco José Bohrer (P-0034); hence Joaquim José Bohrer's (P-0030)
     paternal grandmother. Named in her son's 1888 registered will (PRB-0005) as
     "Catharina Mayer … já fallecida" — deceased before 1888.
+    [Corrected 2026-10-10: the will was made on 27 June 1879 and only opened and registered
+    in 1888 (PRB-0005, now held whole), so she was dead before 27 June 1879; the clause reads
+    "filho legitimo de Jacob Bohrer e de Catharina Mayer, já fallecidos".]
   text_pt: >-
     Mãe de Francisco José Bohrer (P-0034); portanto, a avó paterna de Joaquim
     José Bohrer (P-0030). Nomeada no testamento registrado de 1888 de seu filho
     (PRB-0005) como "Catharina Mayer … já fallecida" — falecida antes de 1888.
+    [Corrigido em 2026-10-10: o testamento foi feito em 27 de junho de 1879 e só aberto e
+    registrado em 1888 (PRB-0005, agora disponível por inteiro); ela já estava morta, portanto,
+    antes de 27 de junho de 1879; a cláusula diz "filho legitimo de Jacob Bohrer e de Catharina
+    Mayer, já fallecidos".]
 - text: >-
     Nationality is Swiss, primary-confirmed by her own 1825 Nova Friburgo marriage
     (PAR-0059, event E-0116): the parish register names the spouses "ambos do Cantão
@@ -46,6 +53,8 @@ notes:
     "Moser" rested only on uncatalogued colonist compilations; that reasoning was
     superseded once PAR-0059 and PAR-0054 were catalogued. The structured data
     already agreed: F-0048 models her as the daughter of José Moser (P-0098).
+    [2026-10-10: the will is dated 27 June 1879 (opened and registered 1888), so "Mayer" was
+    dictated 54 years after the marriage act, not 63.]
   text_pt: >-
     Nacionalidade suíça, confirmada por registro primário — o próprio casamento dela
     em Nova Friburgo, em 1825 (PAR-0059, evento E-0116): o registro paroquial nomeia
@@ -63,15 +72,17 @@ notes:
     apenas em compilações de colonos não catalogadas; esse raciocínio foi superado
     quando PAR-0059 e PAR-0054 foram catalogados. Os dados estruturados já
     concordavam: F-0048 a modela como filha de José Moser (P-0098).
+    [2026-10-10: o testamento é de 27 de junho de 1879 (aberto e registrado em 1888), de modo
+    que "Mayer" foi ditado 54 anos após o ato de casamento, não 63.]
 profile: >-
   ## Interesting facts
 
   - **[PROVEN]** Two held primary records write her maiden surname **Moser**, not Mayer: her
   own 1825 Nova Friburgo marriage ("Catharina Moser filha legitima de Jose Moser e de sua
   mulher Maria Veisse [Weiss]", PAR-0059) and her son Francisco José's 1832 baptism ("sua
-  mulher Catharina Moser", PAR-0054). "Mayer" appears once, in that son's 1888 registered will
-  (PRB-0005) — dictated to an escrivão sixty-three years after the wedding, about a mother
-  long dead.
+  mulher Catharina Moser", PAR-0054). "Mayer" appears once, in that son's will of 27 June 1879
+  (PRB-0005, opened and registered in 1888) — dictated to a notary fifty-four years after the
+  wedding, about a mother already dead.
 
   - **[PROVEN]** The 1825 register also states where she came from: "natural e baptizada na
   freguezia d'Eggendorf", read as **Hägendorf** [uncertain], Canton Solothurn — an origin
@@ -96,24 +107,24 @@ profile: >-
   Bohrer" appears in the 1854–55 Nova Friburgo land registry (declaração N.217, 6 March 1855),
   which would make her the head of the widowed household and the holder of the family's land.
 
-  - **[INFERRED]** Named "já fallecida" in her son's 1888 will, she died before abolition
-  (1888) and the Republic (1889) — her whole documented life ran under the Empire and its
-  parish-register system.
+  - **[INFERRED]** Named among his parents "já fallecidos" in her son's will of 27 June 1879,
+  she died before that date — well before abolition (1888) and the Republic (1889); her whole
+  documented life ran under the Empire and its parish-register system.
 
   ## Identity
 
-  **Catharina Moser** in both held primary records; **Catharina Mayer** in the 1888 will,
-  which is the form this repository currently carries as her preferred name. She is the mother
+  **Catharina Moser** in both held primary records — the repository's preferred name since
+  2026-09-24; **Catharina Mayer** in her son's 1879 will (PRB-0005). She is the mother
   of Francisco José Bohrer (P-0034) and so paternal grandmother of Joaquim José Bohrer
   (P-0030), through whom the line reaches Celina Bohrer (P-0015) and Iris Bohrer (P-0007).
 
   - **The surname question, stated exactly:** her own marriage act (PAR-0059, 1825) and her
   son's baptism act (PAR-0054, 1832) both write **Moser**, and the marriage act names her
   father *José Moser* — so the primary, contemporaneous record is consistent and specific. The
-  1888 will's **Mayer** is a single later, second-hand spelling. On the documents held,
+  1879 will's **Mayer** is a single later, second-hand spelling. On the documents held,
   "Moser" is the better-attested reading [PROVEN that both 1825 and 1832 write Moser]; the
-  entity's `preferred_name` and `name_variants` still record "Mayer" as the source form, and
-  that mismatch is left for central adjudication rather than settled here.
+  entity's `preferred_name` was accordingly set to Moser on 2026-09-24, and "Mayer" is kept as
+  a source name variant.
 
   - **Origin:** Swiss, Canton Solothurn (Soleure) — [PROVEN] from PAR-0059 (event E-0116),
   which calls both spouses "colonos suiços" of the "Cantão de Soleure" and records her as
@@ -128,8 +139,10 @@ profile: >-
   vicar Jacob Joye, witnesses João Probst and Isabel Sch[oser — uncertain] [PROVEN — PAR-0059;
   E-0116].
 
-  - **Death:** before 1888 [PROVEN — PRB-0005, "já fallecida"]. If she is the 1855
-  land-registry widow, she was alive in 1855 [LEAD]; no death record is held, and a Nova
+  - **Death:** before 27 June 1879 [PROVEN — PRB-0005, the date of her son's will: "já
+  fallecidos"]. If she is the 1855 land-registry widow, she was alive in 1855 [LEAD], which
+  would place her death between 1855 and June 1879 [INFERRED, resting on that lead]; no death
+  record is held, and a Nova
   Friburgo óbito search across the relevant unindexed years was judged impractical.
 
   ## Standing and profession
@@ -180,7 +193,7 @@ profile: >-
   worked the family land for at least a decade after Jacob died away from the colony — and
   that is the pattern this line repeats: its women hold property in widowhood and administer
   it as tutoras (her daughter-in-law Rosa Eugenia de Lemos is named first *testamenteira e
-  tutora* in the 1888 will), but they never accumulate it, because Brazilian partible
+  tutora* in the 1879 will), but they never accumulate it, because Brazilian partible
   succession hands each estate on in equal shares. One poor serra lot divided among as many as
   nine children, and again among theirs, cannot become an estate no matter who manages it
   well.
@@ -190,7 +203,7 @@ profile: >-
   class-linked privilege with no free rural alternative, so a colonist family could not buy
   literacy for its children. The Solothurn colonists did not have to: they arrived with
   Catholic parish-school literacy in German. Nothing documents Catharina's own letters either
-  way, but her son Francisco José **signed** his own 1888 will, and his sons reached commerce,
+  way, but her son Francisco José **signed** his own 1879 will, and his sons reached commerce,
   local office and a newspaper — so on this branch the imported literacy survived the crossing
   and was converted, one generation later, into town standing rather than land.
 
@@ -203,17 +216,16 @@ profile: >-
 
   - **The arc, named [INFERRED].** Hägendorf smallholder's daughter (pre-1819) → colonist wife
   on Casa 70 / Lote 56 (1825) → widow at the head of a small landholding (by 1855) → that
-  holding dissolved among many heirs → a son who dies a literate, modestly propertied townsman
-  in 1888, leaving four minor children, twenty masses for his parents and a 50$000 chapel
-  legacy. Flat-to-slightly-up, never elite: the mirror image of the family's Armond line,
+  holding dissolved among many heirs → a literate townsman son who in 1879 willed his estate to
+  four minor children, with twenty masses for his parents and a 50$000 chapel legacy, and whose
+  estate was sold off for his creditors after his death in 1888 (PRB-0012). Flat-to-slightly-up, never elite: the mirror image of the family's Armond line,
   which began at an office-and-marriage elite and fell.
 
   ## Open questions
 
   - **Her maiden surname at entity level.** The evidence question is effectively answered by
-  the two held acts (Moser, 1825 and 1832); what remains is reconciling the entity's
-  `preferred_name` ("Catharina Mayer") with them — a central data decision, not a research
-  one. A Hägendorf baptism register would independently confirm the surname and give her birth
+  the two held acts (Moser, 1825 and 1832), and the entity's `preferred_name` was set to Moser
+  on 2026-09-24. A Hägendorf baptism register would independently confirm the surname and give her birth
   date and parents at primary level. [OPEN]
 
   - **Her death.** No record held; a Nova Friburgo óbito or civil register after 1855 would
@@ -231,8 +243,9 @@ profile: >-
   - PAR-0054 (her son Francisco José's 1832 Nova Friburgo baptism — "filho legitimo de Jacob
   Bohrer e de sua mulher Catharina Moser"; godparents José Moser and Maria Moser).
 
-  - PRB-0005 (her son's 1888 registered will — "filho legitimo de Jacob Bahrer e de Catharina
-  Mayer, já fallecidos"; twenty masses ordered for both parents).
+  - PRB-0005 (certified copy of her son's registered will of 27 June 1879, opened 1888 —
+  "filho legitimo de Jacob Bohrer [formerly read "Bahrer"] e de Catharina Mayer, já
+  fallecidos"; twenty masses ordered for both parents).
 
   - Not held: the 1854–55 Nova Friburgo land registry entry "Viúva Catharina Bohrer"
   (declaração N.217) — a lead.
@@ -261,8 +274,8 @@ profile: >-
   the present 1869 cathedral and took place in the colony's earlier church on the same site
   [RESOLVED] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
 
-  - **Widowhood and death (after 1855):** the Nova Friburgo land registry and the town's
-  parish and civil death registers. [OPEN]
+  - **Widowhood and death (before 27 June 1879; after 1855 if she is the land-registry
+  widow):** the Nova Friburgo land registry and the town's parish death registers. [OPEN]
 profile_pt: >-
   ## Fatos interessantes
 
@@ -270,8 +283,9 @@ profile_pt: >-
   **Moser**, não Mayer: seu próprio casamento de 1825 em Nova Friburgo ("Catharina Moser filha
   legitima de Jose Moser e de sua mulher Maria Veisse [Weiss]", PAR-0059) e o batismo de seu
   filho Francisco José, em 1832 ("sua mulher Catharina Moser", PAR-0054). "Mayer" aparece uma
-  única vez, no testamento registrado desse filho, em 1888 (PRB-0005) — ditado a um escrivão
-  sessenta e três anos depois do casamento, a respeito de uma mãe havia muito falecida.
+  única vez, no testamento desse filho de 27 de junho de 1879 (PRB-0005, aberto e registrado em
+  1888) — ditado a um tabelião cinquenta e quatro anos depois do casamento, a respeito de uma
+  mãe já falecida.
 
   - **[PROVEN]** O registro de 1825 também declara de onde ela veio: "natural e baptizada na
   freguezia d'Eggendorf", lido como **Hägendorf** [incerto], Cantão de Solothurn — origem
@@ -297,25 +311,25 @@ profile_pt: >-
   N.217, 6 de março de 1855), o que faria dela a chefe do domicílio viúvo e a detentora da
   terra da família.
 
-  - **[INFERRED]** Nomeada "já fallecida" no testamento do filho, em 1888, morreu antes da
-  abolição (1888) e da República (1889) — toda a sua vida documentada correu sob o Império e
-  seu sistema de registros paroquiais.
+  - **[INFERRED]** Nomeada entre os pais "já fallecidos" no testamento do filho de 27 de junho
+  de 1879, morreu antes dessa data — bem antes da abolição (1888) e da República (1889); toda a
+  sua vida documentada correu sob o Império e seu sistema de registros paroquiais.
 
   ## Identidade
 
-  **Catharina Moser** nos dois registros primários disponíveis; **Catharina Mayer** no
-  testamento de 1888, forma que este repositório hoje carrega como nome preferencial. É a mãe
+  **Catharina Moser** nos dois registros primários disponíveis — o nome preferencial do
+  repositório desde 2026-09-24; **Catharina Mayer** no testamento de 1879 do filho (PRB-0005).
+  É a mãe
   de Francisco José Bohrer (P-0034) e, portanto, avó paterna de Joaquim José Bohrer (P-0030),
   por quem a linha chega a Celina Bohrer (P-0015) e a Iris Bohrer (P-0007).
 
   - **A questão do sobrenome, posta com exatidão:** seu próprio ato de casamento (PAR-0059,
   1825) e o ato de batismo do filho (PAR-0054, 1832) grafam ambos **Moser**, e o ato de
   casamento nomeia seu pai *José Moser* — o registro primário e contemporâneo é, portanto,
-  coerente e específico. O **Mayer** do testamento de 1888 é uma única grafia posterior e de
+  coerente e específico. O **Mayer** do testamento de 1879 é uma única grafia posterior e de
   segunda mão. Pelos documentos disponíveis, "Moser" é a leitura mais bem atestada [PROVEN que
-  tanto 1825 quanto 1832 grafam Moser]; o `preferred_name` e os `name_variants` da entidade
-  ainda registram "Mayer" como forma da fonte, e essa divergência fica para decisão central,
-  não é resolvida aqui.
+  tanto 1825 quanto 1832 grafam Moser]; o `preferred_name` da entidade foi, por isso, fixado
+  em Moser em 2026-09-24, e "Mayer" é mantido como variante de nome da fonte.
 
   - **Origem:** suíça, Cantão de Soleure (Solothurn) — [PROVEN] por PAR-0059 (evento E-0116),
   que chama os dois cônjuges de "colonos suiços" do "Cantão de Soleure" e a registra como
@@ -330,8 +344,10 @@ profile_pt: >-
   1825, perante o vigário Jacob Joye, testemunhas João Probst e Isabel Sch[oser — incerto]
   [PROVEN — PAR-0059; E-0116].
 
-  - **Óbito:** antes de 1888 [PROVEN — PRB-0005, "já fallecida"]. Se for a viúva do registro
-  de terras de 1855, estava viva em 1855 [LEAD]; nenhum registro de óbito está disponível, e
+  - **Óbito:** antes de 27 de junho de 1879 [PROVEN — PRB-0005, data do testamento do filho:
+  "já fallecidos"]. Se for a viúva do registro de terras de 1855, estava viva em 1855 [LEAD], o
+  que situaria seu óbito entre 1855 e junho de 1879 [INFERRED, apoiado nessa pista]; nenhum
+  registro de óbito está disponível, e
   uma busca no livro de óbitos de Nova Friburgo pelos anos não indexados pertinentes foi
   julgada impraticável.
 
@@ -385,7 +401,7 @@ profile_pt: >-
   terra da família por pelo menos uma década depois de Jacob morrer longe da colônia — e esse
   é o padrão que esta linha repete: suas mulheres detêm propriedade na viuvez e a administram
   como tutoras (a nora, Rosa Eugenia de Lemos, é nomeada primeira *testamenteira e tutora* no
-  testamento de 1888), mas nunca a acumulam, porque a sucessão partível brasileira repassa
+  testamento de 1879), mas nunca a acumulam, porque a sucessão partível brasileira repassa
   cada espólio em quinhões iguais. Um lote serrano pobre dividido entre até nove filhos, e
   outra vez entre os filhos destes, não vira patrimônio por melhor que seja administrado.
 
@@ -395,7 +411,7 @@ profile_pt: >-
   alfabetização para os filhos. Os colonos de Solothurn não precisaram: chegaram com
   alfabetização de escola paroquial católica em alemão. Nada documenta as letras da própria
   Catharina em um sentido ou no outro, mas seu filho Francisco José **assinou** o próprio
-  testamento de 1888, e os filhos dele chegaram ao comércio, a cargo local e a um jornal —
+  testamento de 1879, e os filhos dele chegaram ao comércio, a cargo local e a um jornal —
   nesse ramo, portanto, a alfabetização importada sobreviveu à travessia e foi convertida, uma
   geração depois, em posição urbana, não em terra.
 
@@ -409,18 +425,18 @@ profile_pt: >-
 
   - **O arco, nomeado [INFERRED].** Filha de pequeno lavrador de Hägendorf (pré-1819) → esposa
   de colono na Casa 70 / Lote 56 (1825) → viúva à frente de uma pequena posse de terra (até
-  1855) → essa posse dissolvida entre muitos herdeiros → um filho que morre em 1888 como homem
-  da vila, alfabetizado e modestamente proprietário, deixando quatro filhos menores, vinte
-  missas pelos pais e um legado de 50$000 a uma capela. Plano a levemente ascendente, nunca de
+  1855) → essa posse dissolvida entre muitos herdeiros → um filho homem da vila, alfabetizado,
+  que em 1879 testou em favor de quatro filhos menores, com vinte missas pelos pais e um legado
+  de 50$000 a uma capela, e cujo espólio foi vendido para os credores depois de sua morte em
+  1888 (PRB-0012). Plano a levemente ascendente, nunca de
   elite: a imagem espelhada da linha Armond da família, que partiu de uma elite de cargo e
   casamento e caiu.
 
   ## Questões em aberto
 
   - **Seu sobrenome de solteira no nível da entidade.** A questão de evidência está, na
-  prática, respondida pelos dois atos disponíveis (Moser, 1825 e 1832); resta conciliar o
-  `preferred_name` da entidade ("Catharina Mayer") com eles — decisão central de dados, não de
-  pesquisa. Um livro de batismos de Hägendorf confirmaria o sobrenome de forma independente e
+  prática, respondida pelos dois atos disponíveis (Moser, 1825 e 1832), e o `preferred_name`
+  da entidade foi fixado em Moser em 2026-09-24. Um livro de batismos de Hägendorf confirmaria o sobrenome de forma independente e
   daria sua data de nascimento e seus pais em nível primário. [OPEN]
 
   - **Seu óbito.** Nenhum registro disponível; um assento paroquial ou civil de Nova Friburgo
@@ -438,8 +454,9 @@ profile_pt: >-
   - PAR-0054 (batismo de 1832, em Nova Friburgo, de seu filho Francisco José — "filho legitimo
   de Jacob Bohrer e de sua mulher Catharina Moser"; padrinhos José Moser e Maria Moser).
 
-  - PRB-0005 (testamento registrado de 1888 do filho — "filho legitimo de Jacob Bahrer e de
-  Catharina Mayer, já fallecidos"; vinte missas mandadas dizer por ambos os pais).
+  - PRB-0005 (certidão do testamento registrado do filho, de 27 de junho de 1879, aberto em
+  1888 — "filho legitimo de Jacob Bohrer [antes lido "Bahrer"] e de Catharina Mayer, já
+  fallecidos"; vinte missas mandadas dizer por ambos os pais).
 
   - Não disponível: o assento do registro de terras de Nova Friburgo de 1854–55 "Viúva
   Catharina Bohrer" (declaração N.217) — uma pista.
@@ -469,5 +486,6 @@ profile_pt: >-
   1825 é anterior à atual catedral de 1869 e ocorreu na igreja anterior da colônia, no mesmo
   sítio [RESOLVED] · [Maps](https://maps.google.com/?q=-22.28159,-42.53085)
 
-  - **Viuvez e óbito (após 1855):** o registro de terras de Nova Friburgo e os livros de óbito
-  paroquiais e civis da vila. [OPEN]
+  - **Viuvez e óbito (antes de 27 de junho de 1879; após 1855, se for a viúva do registro de
+  terras):** o registro de terras de Nova Friburgo e os livros de óbito paroquiais da vila.
+  [OPEN]
