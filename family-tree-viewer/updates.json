@@ -1,6 +1,19 @@
 {
- "generated": "2026-10-09T15:17:05Z",
+ "generated": "2026-10-10T08:59:11Z",
  "updates": [
+  {
+   "date": "2026-10-10",
+   "kind": "correction",
+   "title": "Correction: the Lemos baptisms re-read on the images — Rosa Eugenia de Lemos was baptised on 12 October 1835, her parents' marriage is now confirmed by five baptisms, the supposed second wife \"Maria Nunes de Jesus\" was a misreading, and her 1879 marriage was registered at Itaboraí, not Nova Friburgo",
+   "title_pt": "Correção: os batismos dos Lemos relidos nas imagens — Rosa Eugenia de Lemos foi batizada em 12 de outubro de 1835, o casamento dos pais agora está confirmado por cinco batismos, a suposta segunda esposa \"Maria Nunes de Jesus\" era um erro de leitura, e o casamento dela, de 1879, foi registrado em Itaboraí, não em Nova Friburgo",
+   "links": [
+    "P-0035",
+    "P-0052",
+    "P-0053",
+    "P-0034",
+    "PAR-0016"
+   ]
+  },
   {
    "date": "2026-10-09",
    "kind": "correction",
@@ -480,8 +493,8 @@
   {
    "date": "2026-09-22",
    "kind": "document",
-   "title": "1792/1794 colonial sesmaria grant to Marianno José Ferreira Armonde, Borda do Campo, Barbacena — Escolástico Armonde named as southern boundary neighbor; Mariano resident at the ancestral Borda do Campo seat (SG-Cx.23-Doc.05, APM)",
-   "title_pt": "Concessão de sesmaria colonial de 1792/1794 a Marianno José Ferreira Armonde, Borda do Campo, Barbacena — Escolástico Armonde nomeado como confrontante ao sul; Mariano residente na sede ancestral de Borda do Campo (SG-Cx.23-Doc.05, APM)",
+   "title": "1792–1794 sesmaria petition of Marianno José Ferreira Armonde, morador at Borda do Campo, Termo da Villa de Barbacena — the land already cultivated by his father; José Ferreira Armonde named as southern neighbour; carta ordered 15 March 1794 (SG-Cx.23-Doc.05, APM)",
+   "title_pt": "Petição de sesmaria de 1792–1794 de Marianno José Ferreira Armonde, morador na Borda do Campo, Termo da Villa de Barbacena — terras já cultivadas por seu pai; José Ferreira Armonde nomeado confrontante ao sul; carta mandada passar em 15 de março de 1794 (SG-Cx.23-Doc.05, APM)",
    "primary": "GOV-0010",
    "links": [
     "P-0016"
@@ -538,8 +551,8 @@
   {
    "date": "2026-09-14",
    "kind": "document",
-   "title": "Parish marriage justification of Francisco José Bohrer and Rosa Eugenia de Lemos (registered 1879), Nova Friburgo Matriz",
-   "title_pt": "Justificação de casamento paroquial de Francisco José Bohrer e Rosa Eugenia de Lemos (registrada em 1879), Matriz de Nova Friburgo",
+   "title": "Parish marriage justification of Francisco José Bohrer and Rosa Eugenia de Lemos (registered 1879), Itaboraí Matriz",
+   "title_pt": "Justificação de casamento paroquial de Francisco José Bohrer e Rosa Eugenia de Lemos (registrada em 1879), Matriz de Itaboraí",
    "primary": "PAR-0002",
    "links": [
     "P-0034"
@@ -618,16 +631,6 @@
   {
    "date": "2026-09-14",
    "kind": "document",
-   "title": "Parish baptism register entry of \"Roza\" (Rosa Eugenia de Lemos), 1835, Matriz de São João Batista de Itaboraí, naming her parents Manoel de Lemos [Pereira] and Maria Thereza de Jesus",
-   "title_pt": "Assento de batismo paroquial de \"Roza\" (Rosa Eugenia de Lemos), 1835, Matriz de São João Batista de Itaboraí, que nomeia seus pais Manoel de Lemos [Pereira] e Maria Thereza de Jesus",
-   "primary": "PAR-0016",
-   "links": [
-    "P-0035"
-   ]
-  },
-  {
-   "date": "2026-09-14",
-   "kind": "document",
    "title": "1821 Barbacena baptism of Carolina, daughter of Ladisláo Egídio Ferreira and Matildes Maria [de Jesus] — placing the couple in Barbacena",
    "title_pt": "Batismo de Carolina em Barbacena, 1821, filha de Ladisláo Egídio Ferreira e Matildes Maria [de Jesus] — situando o casal em Barbacena",
    "primary": "PAR-0017",
@@ -668,8 +671,8 @@
   {
    "date": "2026-09-14",
    "kind": "document",
-   "title": "Parish baptism register entry of \"Maria\" (Maria de Lemos), 14 July 1832, Matriz de São João Batista de Itaboraí, naming her parents Manoel de Lemos [Ferreira] and Maria Nunes [de Jesus]",
-   "title_pt": "Assento de batismo de \"Maria\" (Maria de Lemos), 14 de julho de 1832, Matriz de São João Batista de Itaboraí, que nomeia seus pais Manoel de Lemos [Ferreira] e Maria Nunes [de Jesus]",
+   "title": "Parish baptism register entry of \"Maria\" (Maria de Lemos), 14 July 1832, Matriz de São João Batista de Itaboraí, naming her parents Manoel de Lemos Pereira and Maria Thereza",
+   "title_pt": "Assento de batismo de \"Maria\" (Maria de Lemos), 14 de julho de 1832, Matriz de São João Batista de Itaboraí, que nomeia seus pais Manoel de Lemos Pereira e Maria Thereza",
    "primary": "PAR-0030",
    "links": [
     "P-0052"
@@ -678,8 +681,8 @@
   {
    "date": "2026-09-14",
    "kind": "document",
-   "title": "Parish baptism register entry of \"Anna\" (Anna de Lemos), 12 February 1834, Matriz de São João Batista de Itaboraí, naming her parents Manoel de Lemos Ferreira and Maria Nunes de Jesus",
-   "title_pt": "Assento de batismo de \"Anna\" (Anna de Lemos), 12 de fevereiro de 1834, Matriz de São João Batista de Itaboraí, que nomeia seus pais Manoel de Lemos Ferreira e Maria Nunes de Jesus",
+   "title": "Parish baptism register entry of \"Anna\" (Anna de Lemos), 11 February 1834, Matriz de São João Batista de Itaboraí, naming her parents Manoel de Lemos Pereira and Maria Thereza de Jezus",
+   "title_pt": "Assento de batismo de \"Anna\" (Anna de Lemos), 11 de fevereiro de 1834, Matriz de São João Batista de Itaboraí, que nomeia seus pais Manoel de Lemos Pereira e Maria Thereza de Jezus",
    "primary": "PAR-0031",
    "links": [
     "P-0052"
@@ -688,8 +691,8 @@
   {
    "date": "2026-09-14",
    "kind": "document",
-   "title": "Parish baptism register entry of \"Thomas\" (Thomaz de Lemos), c. June 1836, Matriz de São João Batista de Itaboraí, naming his parents Manoel de Lemos and Maria Thereza [de Jesus]",
-   "title_pt": "Assento de batismo de \"Thomas\" (Thomaz de Lemos), c. junho de 1836, Matriz de São João Batista de Itaboraí, que nomeia seus pais Manoel de Lemos e Maria Thereza [de Jesus]",
+   "title": "Parish baptism register entry of \"Thomaz\" (Thomaz de Lemos), 13 June 1836, Matriz de São João Batista de Itaboraí, naming his parents Manoel de Lemos and Maria Thereza",
+   "title_pt": "Assento de batismo de \"Thomaz\" (Thomaz de Lemos), 13 de junho de 1836, Matriz de São João Batista de Itaboraí, que nomeia seus pais Manoel de Lemos e Maria Thereza",
    "primary": "PAR-0032",
    "links": [
     "P-0052"
@@ -698,8 +701,8 @@
   {
    "date": "2026-09-14",
    "kind": "document",
-   "title": "Parish baptism register entry of \"Polídoro\" (Polidoro de Lemos), c. November 1838, Matriz de São João Batista de Itaboraí, naming his father Manoel de Lemos Ferreira",
-   "title_pt": "Assento de batismo de \"Polídoro\" (Polidoro de Lemos), c. novembro de 1838, Matriz de São João Batista de Itaboraí, que nomeia seu pai Manoel de Lemos Ferreira",
+   "title": "Parish baptism register entry of \"Polidoro\" (Polidoro de Lemos), 18 March 1838, Matriz de São João Batista de Itaboraí, naming his parents Manoel de Lemos Pereira and Maria Thereza de Jezus",
+   "title_pt": "Assento de batismo de \"Polidoro\" (Polidoro de Lemos), 18 de março de 1838, Matriz de São João Batista de Itaboraí, que nomeia seus pais Manoel de Lemos Pereira e Maria Thereza de Jezus",
    "primary": "PAR-0033",
    "links": [
     "P-0052"

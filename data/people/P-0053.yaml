@@ -9,18 +9,21 @@ name_variants:
   type: source
   source_ids:
   - PAR-0016
-  - PAR-0032
-- value: Maria Nunes de Jesus
+  - PAR-0031
+  - PAR-0033
+  note: >-
+    "de Jesus" in Rosa's 1835 baptism (PAR-0016); spelled "de Jezus" in Anna's 1834
+    and Polidoro's 1838 baptisms (PAR-0031, PAR-0033). Sources re-read from the images
+    2026-10-10.
+- value: Maria Thereza
   type: source
   source_ids:
   - PAR-0030
-  - PAR-0031
+  - PAR-0032
   note: >-
-    Recorded as "Maria Nunes de Jesus" in the 1832 (PAR-0030) and 1834 (PAR-0031)
-    Itaboraí baptisms of her children Maria and Anna. The same vigário recorded her
-    as "Maria Thereza de Jesus" in the 1835 Rosa baptism (PAR-0016) and the 1836
-    Thomaz baptism (PAR-0032). Scribal inconsistency; same woman. "Maria Thereza
-    de Jesus" is the preferred form.
+    Without "de Jesus" in Maria's 1832 and Thomaz's 1836 baptisms (PAR-0030, where the
+    initial is a looped capital read "Th"; PAR-0032). Added 2026-10-10; PAR-0032 was
+    previously cited under "Maria Thereza de Jesus".
 event_ids:
 - E-0049
 family_ids:
@@ -44,14 +47,74 @@ notes:
     Nacionalidade brasileira: ela é "natural desta freguezia" (Itaboraí, RJ) no
     batismo de 1835 — um local de nascimento documentado. Seus próprios pais não
     são evidenciados pelos registros localizados.
+- text: >-
+    [corrected 2026-10-10 from the images: RETIRED — the name variant "Maria Nunes de
+    Jesus" and the hypothesis built on it. This person previously carried the variant
+    "Maria Nunes de Jesus" (type source, citing PAR-0030 and PAR-0031) with the note:
+    'Recorded as "Maria Nunes de Jesus" in the 1832 (PAR-0030) and 1834 (PAR-0031)
+    Itaboraí baptisms of her children Maria and Anna. The same vigário recorded her
+    as "Maria Thereza de Jesus" in the 1835 Rosa baptism (PAR-0016) and the 1836
+    Thomaz baptism (PAR-0032). Scribal inconsistency; same woman.' The profile also
+    kept open the alternative of two women (two wives, or two men named Manoel de
+    Lemos). Re-read at full resolution after the retrieval agent's native-resolution
+    reading disagreed with ours, the entries read "Maria [Th]ereza" (1832) and "Maria
+    [Th]ereza de Jezus" (1834); Polidoro's 1838 entry, earlier recorded as illegible,
+    reads "Maria Thereza de Jezus". No entry names a "Maria Nunes". The variant has
+    been removed from name_variants (its cited sources do not support it), and the
+    scribal-inconsistency explanation and the two-women alternative are retired: they
+    rested on a misreading.]
+  text_pt: >-
+    [corrigido em 2026-10-10 a partir das imagens: APOSENTADAS — a variante de nome
+    "Maria Nunes de Jesus" e a hipótese construída sobre ela. Esta pessoa trazia a
+    variante "Maria Nunes de Jesus" (tipo source, citando PAR-0030 e PAR-0031) com a
+    nota: 'Registrada como "Maria Nunes de Jesus" nos batismos de 1832 (PAR-0030) e
+    1834 (PAR-0031), em Itaboraí, de seus filhos Maria e Anna. O mesmo vigário a
+    registrou como "Maria Thereza de Jesus" no batismo de Rosa em 1835 (PAR-0016) e no
+    de Thomaz em 1836 (PAR-0032). Inconsistência de escrivão; a mesma mulher.' O
+    perfil também mantinha em aberto a alternativa de duas mulheres (duas esposas, ou
+    dois homens chamados Manoel de Lemos). Relidos em resolução plena depois que a
+    leitura do agente de recuperação, em resolução nativa, divergiu da nossa, os
+    assentos dizem "Maria [Th]ereza" (1832) e "Maria [Th]ereza de Jezus" (1834); o
+    assento de Polidoro de 1838, antes registrado como ilegível, diz "Maria Thereza
+    de Jezus". Nenhum assento nomeia uma "Maria Nunes". A variante foi retirada de
+    name_variants (as fontes citadas não a sustentam), e a explicação de
+    inconsistência de escrivão e a alternativa de duas mulheres ficam aposentadas:
+    apoiavam-se numa leitura errada.]
+- text: >-
+    LEAD (2026-10-10, retrieval agent; record images not yet held here): the
+    retrieval agent reports that the 21 October 1821 Itaboraí baptism of her son
+    Antonio and the 4 March 1841 baptisms of her children João and Maria name the
+    grandparents — maternal (her own parents): José Campello de Moraes, "natural do
+    Porto", × Emerenciana Maria de Jesus; paternal (her husband Manoel's parents):
+    José Henriques de Mattos × Anna Joaquina (also given as Anna Maria) da Conceição
+    — and that she and Manoel were married before 18 March 1821 and both alive on 30
+    September 1856. Not modelled until the record images are delivered and read here:
+    no person, family, event or source is created from this report, and her parents
+    remain unevidenced in this repository. The reported "natural do Porto" is a
+    statement about her father, to be read from the record itself, not an inference
+    from any surname.
+  text_pt: >-
+    PISTA (2026-10-10, agente de recuperação; imagens dos registros ainda não
+    disponíveis aqui): o agente de recuperação relata que o batismo de seu filho
+    Antonio em Itaboraí, de 21 de outubro de 1821, e os batismos de seus filhos João
+    e Maria, de 4 de março de 1841, nomeiam os avós — maternos (seus próprios pais):
+    José Campello de Moraes, "natural do Porto", × Emerenciana Maria de Jesus;
+    paternos (os pais de seu marido Manoel): José Henriques de Mattos × Anna Joaquina
+    (também dada como Anna Maria) da Conceição — e que ela e Manoel eram casados antes
+    de 18 de março de 1821 e estavam ambos vivos em 30 de setembro de 1856. Não
+    modelado até que as imagens dos registros sejam entregues e lidas aqui: nenhuma
+    pessoa, família, evento ou fonte é criado a partir deste relato, e seus pais
+    continuam sem evidência neste repositório. O "natural do Porto" relatado é uma
+    declaração sobre seu pai, a ser lida no próprio registro, não uma inferência a
+    partir de sobrenome.
 profile: >-
   ## Interesting facts
 
-  - **[CONTEXTUAL]** The devotional surname "de Jesus" hides her paternal lineage entirely — a common practice among lower-status Brazilian families of the period, where a devotional particle replaced a fixed surname. Only her own marriage or death act could supply a paternal surname, and the retrieval research reports both as falling in gaps of the filmed Itaboraí registers [LEAD], so her ancestry is out of reach for now rather than untraceable in principle.
+  - **[CONTEXTUAL]** The devotional surname "de Jesus" hides her paternal lineage entirely — a common practice among lower-status Brazilian families of the period, where a devotional particle replaced a fixed surname. Only her own marriage or death act could supply a paternal surname, and the retrieval research reports both as falling in gaps of the filmed Itaboraí registers [LEAD], so her ancestry is out of reach for now rather than untraceable in principle. The retrieval agent now reports that the 1821 and 1841 baptisms of her children name her parents — José Campello de Moraes, "natural do Porto", and Emerenciana Maria de Jesus [LEAD — images not yet held; not modelled]; if confirmed, her "de Jesus" would echo her mother's name [INFERRED].
 
-  - **[INFERRED]** The alternation between "Maria Thereza" and "Maria Nunes" across her children's baptisms, with the same husband and officiant, strongly points to a single scribe varying the middle element of her name — standard 19th-century Brazilian scribal inconsistency, not evidence of two different women.
+  - **[PROVEN]** Every baptism of her children from 1832 to 1838 names her "Maria Thereza" — with "de Jesus" / "de Jezus" in 1834, 1835 and 1838 (PAR-0030, PAR-0031, PAR-0016, PAR-0032, PAR-0033). A "Maria Nunes de Jesus" form once carried here, and the question whether two women lay behind it, rested on a misreading of the 1832 and 1834 entries and were retired after a re-reading of the images on 2026-10-10.
 
-  - **[PROVEN / CONTEXTUAL]** A third form of her name — "Maria Tereza Pereira de Lemos" — appears in her daughter Rosa's 1919 Nova Friburgo death register, which gives the mother her husband's surname ("Pereira de Lemos") in place of the devotional "de Jesus" (PAR-0058). Recording a wife under her husband's surname decades later is a recurring drift in Brazilian records, and it obscures rather than clarifies the original identity.
+  - **[PROVEN / CONTEXTUAL]** A later form of her name — "Maria Tereza Pereira de Lemos" — appears in her daughter Rosa's 1919 Nova Friburgo death register, which gives the mother her husband's surname ("Pereira de Lemos") in place of the devotional "de Jesus" (PAR-0058). Recording a wife under her husband's surname decades later is a recurring drift in Brazilian records, and it obscures rather than clarifies the original identity.
 
   - **[PROVEN]** Her daughter Rosa's 1835 Itaboraí baptism names both parents as "naturaes desta freguezia", making her a documented native of Itaboraí and placing her and her husband in the same parish of origin (PAR-0016).
 
@@ -59,10 +122,11 @@ profile: >-
 
   ## Identity
 
-  Recorded two ways by the same Itaboraí vigário: **Maria Thereza de Jesus** in the 1835
-  Rosa and 1836 Thomaz baptisms (PAR-0016, PAR-0032), and **Maria Nunes de Jesus** in the
-  1832 Maria and 1834 Anna baptisms (PAR-0030, PAR-0031) — scribal inconsistency for one
-  woman; "Maria Thereza de Jesus" is the preferred form [PROVEN]. A third, later form —
+  **Maria Thereza de Jesus** in the 1835 Rosa baptism (PAR-0016), "Maria Thereza de Jezus"
+  in the 1834 Anna and 1838 Polidoro baptisms (PAR-0031, PAR-0033), and plain "Maria Thereza"
+  in the 1832 Maria and 1836 Thomaz baptisms (PAR-0030, PAR-0032) — one name, consistently
+  recorded [PROVEN]. (A "Maria Nunes de Jesus" reading of the 1832 and 1834 entries was a
+  misreading, retired on 2026-10-10.) A later form —
   **Maria Tereza Pereira de Lemos** — appears in her daughter Rosa's 1919 Nova Friburgo death
   (PAR-0058), which swaps the devotional "de Jesus" for her husband's "de Lemos" (and adds
   "Pereira"); it is preserved as a variant, the nearer-the-event baptisms governing. She is the
@@ -73,7 +137,9 @@ profile: >-
   baptism (PAR-0016).
 
   - **Parents:** unknown from any held record [OPEN]; the devotional surname "de Jesus"
-  carries no lineage clue.
+  carries no lineage clue. The retrieval agent reports them as José Campello de Moraes,
+  "natural do Porto", and Emerenciana Maria de Jesus, named in the 1821 and 1841 baptisms of
+  her children [LEAD — images not yet held; not modelled].
 
   - **Marriage and children:** wife of Manoel de Lemos [Pereira] (P-0052), family F-0025;
   mother of the 1832–1838 Itaboraí children (Maria, Anna, Rosa Eugenia, Thomaz, Polídoro).
@@ -82,10 +148,14 @@ profile: >-
   retrieval research but not held here [LEAD]. Rosa's brothers Candido Pereira de Lemos
   (PRB-0005) and Manoel Pereira de Lemos (d. 1898 aged 72, so b. c.1826, NWS-0002) are
   documented, but no held record names their mother. If they were her sons, her childbearing
-  began by c.1826 and her birth falls no later than c.1810 [INFERRED].
+  began by c.1826 and her birth falls no later than c.1810 [INFERRED]. The retrieval agent also
+  reports a son Antonio baptised 21 October 1821 and children João and Maria baptised 4 March
+  1841, the couple being married before 18 March 1821 [LEAD — images not yet held]; if
+  confirmed, her birth falls about 1805 or earlier [INFERRED].
 
   - **Death:** not located. She was dead by November 1919, when Rosa's death names both
-  parents as "falecidos" (PAR-0058) [PROVEN of the bound].
+  parents as "falecidos" (PAR-0058) [PROVEN of the bound]. The retrieval agent reports her
+  alive on 30 September 1856 [LEAD].
 
   ## Standing and profession
 
@@ -95,33 +165,37 @@ profile: >-
 
   ## Family and social network
 
-  **Husband.** Manoel de Lemos Pereira (P-0052), written "Manoel de Lemos" (1835, 1836),
-  "Manoel de Lemos [Ferreira]" and "Manoel de Lemos Ferreira" (1832, 1834, 1838) and "Manoel
-  Pereira Lemos" (1919) (PAR-0016, PAR-0032, PAR-0030, PAR-0031, PAR-0033, PAR-0058) [PROVEN].
+  **Husband.** Manoel de Lemos Pereira (P-0052), written "Manoel de Lemos Pereira" (1832,
+  1834, 1838), "Manoel de Lemos" (1835, 1836) and "Manoel Pereira Lemos" (1919) (PAR-0030,
+  PAR-0031, PAR-0033, PAR-0016, PAR-0032, PAR-0058) [PROVEN]. (An earlier "Ferreira" reading
+  was corrected from the images on 2026-10-10.)
 
-  **Children in held records.** Maria, baptised 14 July 1832 (PAR-0030); Anna, 12 February 1834
-  (PAR-0031); Rosa, October 1835, "nascida a dez mezes" (PAR-0016); Thomaz, June 1836
-  (PAR-0032); and Polidoro, c. November 1838, whose mother's name is illegible (PAR-0033)
-  [PROVEN]. The older brothers Candido and Manoel are discussed under Identity.
+  **Children in held records.** Maria, baptised 14 July 1832 (PAR-0030); Anna, 11 February 1834
+  (PAR-0031); Rosa, 12 October 1835, "nascida a dez mezes" (PAR-0016); Thomaz, 13 June 1836,
+  "nascido a tres mezes" (PAR-0032); and Polidoro, 18 March 1838, "nascido a tres mezes"
+  (PAR-0033) [PROVEN]. The older brothers Candido and Manoel are discussed under Identity.
 
-  **Godparents.** Manoel José da Silva and Flor de Maria da Conceição (Rosa, PAR-0016); [Felício?]
-  José Custódio Vieira (Maria, PAR-0030); José Antonio and Anna Roza de Guimarães (Anna,
-  PAR-0031). The 1836 and 1838 sponsors are illegible (PAR-0032, PAR-0033). None carries a
-  title or rank [PROVEN as recorded].
+  **Godparents.** Capitão José Custodio Vieira (Maria, PAR-0030; and Thomaz, with Nossa Senhora,
+  PAR-0032); João José Antunes and Anna Roza da Encarnação (Anna, PAR-0031); Manoel José da
+  Silva and Ro[z]a de Maria da Conceição (Rosa, PAR-0016); Hermenegildo José de Mattos with
+  Nossa Senhora (Polidoro, PAR-0033) [PROVEN]. One sponsor carries a style — the *Capitão*,
+  chosen twice. (Corrected from the images on 2026-10-10; earlier readings gave "Flor de
+  Maria", "[Felício?]", "José Antonio and Anna Roza de Guimarães" and illegible 1836/1838
+  sponsors, and said none carried a rank.)
 
-  **Her own parents:** unknown; no held record names them.
+  **Her own parents:** unknown; no held record names them. The retrieval agent reports them
+  [LEAD — see Identity].
 
   ## What we can extrapolate
 
-  The "Thereza" vs "Nunes" alternation is the one live question. The ordinary reading — one
-  woman, the same husband, the same matriz and officiant era, a tight window, and the two forms
-  alternating within Manoel's own children — is a scribe varying the middle element of "Maria …
-  de Jesus". This is the working assumption; the alternative (two wives, or two "Manoel de
-  Lemos" men in the parish) is not ruled out by anything held. [INFERRED]
+  The "Thereza" vs "Nunes" question that once stood here is closed. It rested on a misreading:
+  re-read from the images on 2026-10-10, all five baptisms of 1832–1838 name her "Maria
+  Thereza", so the "two wives, or two Manoel de Lemos" alternative is retired [PROVEN].
 
   **Her entire documented life is five baptisms across six years.** [INFERRED] Between 1832
-  and 1838 she appears in five held Itaboraí baptism entries (a sixth, from 1831, is reported but
-  not held [LEAD]) — a birth roughly every eighteen months through the middle of her
+  and 1838 she appears in five held Itaboraí baptism entries (a sixth, from 1831, and three more,
+  from 1821 and 1841, are reported but not held [LEAD]) — a birth roughly every eighteen months
+  through the middle of her
   childbearing years — and in nothing else of her own: no property act, no
   will, no signature, no occupation, no burial record located. Even her own surname withholds
   her: the devotional *de Jesus* carries no lineage, which is why her parentage is invisible.
@@ -131,8 +205,9 @@ profile: >-
 
   **Class location [CONTEXTUAL].** Like her husband she stands on the modest Itaboraí
   Portuguese-descended *fluminense* floor: a local rural, church-integrated family with no
-  documented land, office or wealth, and no titled godparent anywhere in her children's baptisms
-  (PAR-0016, PAR-0030, PAR-0031) [PROVEN]. Itaboraí in her lifetime was a sugar municipality
+  documented land, office or wealth, and a single titled godparent in her children's baptisms —
+  the Capitão José Custodio Vieira, twice (PAR-0030, PAR-0032) — among otherwise untitled
+  sponsors [PROVEN]. Itaboraí in her lifetime was a sugar municipality
   worked by enslaved labour [CONTEXTUAL]; nothing in the held acts places her household on the
   owning side of that economy.
 
@@ -147,9 +222,10 @@ profile: >-
 
   ## Open questions
 
-  - Whether "Maria Thereza" and "Maria Nunes" are one woman, and her own parents —
-  decisive record: the Itaboraí marriage of Manoel de Lemos × Maria [Thereza/Nunes] de
-  Jesus, which would give her single true name and her father's surname. [OPEN]
+  - Her own parents — reported by the retrieval agent from the 1821 and 1841 baptisms of her
+  children [LEAD]; decisive here: those baptism images, then the Itaboraí marriage of Manoel de
+  Lemos × Maria Thereza de Jesus. (Whether "Maria Thereza" and "Maria Nunes" were one woman is
+  no longer a question: the "Nunes" reading was a misreading, retired 2026-10-10.) [OPEN]
 
   - **Search bounds reported by the retrieval research (2026-09-10) [LEAD — not repeated
   here]:** the marriage falls in a FamilySearch coverage gap (Itaboraí marriages jump from
@@ -158,19 +234,19 @@ profile: >-
   after 1838 without finding her. The unfilmed books are reported at the archdiocesan archive in
   Niterói. [OPEN]
 
-  - **Polidoro's damaged 1838 entry** (PAR-0033): a better image or re-read of the mother's name
-  could tip the Thereza/Nunes question. [OPEN]
+  - **Polidoro's 1838 entry** (PAR-0033): re-read from the image on 2026-10-10, the mother's name,
+  earlier recorded as illegible, is "Maria Thereza de Jezus". [RESOLVED]
 
   - **Her death:** an Itaboraí óbito naming her widower and heirs would fix the sibling set and
   the name question together. [OPEN]
 
   ## Sources held (this repository)
 
-  - PAR-0016 (Rosa's 1835 baptism — "Maria Thereza de Jesus") · PAR-0032 (Thomaz's 1836
-  baptism — "Maria Thereza") · PAR-0030 (Maria's 1832 baptism — "Maria Nunes de Jesus") ·
-  PAR-0031 (Anna's 1834 baptism — "Maria Nunes de Jesus"). PAR-0033 (Polídoro's 1838
-  baptism) has her name damaged/illegible. PAR-0058 (daughter Rosa's 1919 Nova Friburgo death —
-  names her "Maria Tereza Pereira de Lemos", a further later variant).
+  - PAR-0030 (Maria's 1832 baptism — "Maria [Th]ereza") · PAR-0031 (Anna's 1834 baptism —
+  "Maria Thereza de Jezus") · PAR-0016 (Rosa's 1835 baptism — "Maria Thereza de Jesus") ·
+  PAR-0032 (Thomaz's 1836 baptism — "Maria Thereza") · PAR-0033 (Polidoro's 1838 baptism —
+  "Maria Thereza de Jezus"). PAR-0058 (daughter Rosa's 1919 Nova Friburgo death — names her
+  "Maria Tereza Pereira de Lemos", a later variant).
 
   ## Regional and migration context
 
@@ -188,11 +264,11 @@ profile: >-
 profile_pt: >-
   ## Fatos interessantes
 
-  - **[CONTEXTUAL]** O sobrenome devocional "de Jesus" oculta por completo sua linhagem paterna — prática comum nas famílias brasileiras de condição mais modesta da época, em que uma partícula devocional substituía um sobrenome fixo. Só seu próprio casamento ou óbito poderia fornecer um sobrenome paterno, e a pesquisa de recuperação relata que ambos caem em lacunas dos registros filmados de Itaboraí [LEAD]; sua ascendência está, portanto, fora de alcance por ora, e não impossível de rastrear em princípio.
+  - **[CONTEXTUAL]** O sobrenome devocional "de Jesus" oculta por completo sua linhagem paterna — prática comum nas famílias brasileiras de condição mais modesta da época, em que uma partícula devocional substituía um sobrenome fixo. Só seu próprio casamento ou óbito poderia fornecer um sobrenome paterno, e a pesquisa de recuperação relata que ambos caem em lacunas dos registros filmados de Itaboraí [LEAD]; sua ascendência está, portanto, fora de alcance por ora, e não impossível de rastrear em princípio. O agente de recuperação relata agora que os batismos de 1821 e 1841 de seus filhos nomeiam seus pais — José Campello de Moraes, "natural do Porto", e Emerenciana Maria de Jesus [LEAD — imagens ainda não disponíveis; não modelado]; se confirmado, seu "de Jesus" ecoaria o nome da mãe [INFERRED].
 
-  - **[INFERRED]** A alternância entre "Maria Thereza" e "Maria Nunes" nos batismos dos filhos, com o mesmo marido e o mesmo oficiante, aponta fortemente para um único escrivão variando o elemento central do nome — inconsistência de escrivão do século XIX, não indício de duas mulheres diferentes.
+  - **[PROVEN]** Todos os batismos de seus filhos de 1832 a 1838 a nomeiam "Maria Thereza" — com "de Jesus" / "de Jezus" em 1834, 1835 e 1838 (PAR-0030, PAR-0031, PAR-0016, PAR-0032, PAR-0033). Uma forma "Maria Nunes de Jesus" antes registrada aqui, e a questão de haver duas mulheres por trás dela, apoiavam-se numa leitura errada dos assentos de 1832 e 1834 e foram aposentadas após nova leitura das imagens em 2026-10-10.
 
-  - **[PROVEN / CONTEXTUAL]** Uma terceira forma de seu nome — "Maria Tereza Pereira de Lemos" — aparece no registro de óbito de 1919 de sua filha Rosa em Nova Friburgo, que dá à mãe o sobrenome do marido ("Pereira de Lemos") no lugar do devocional "de Jesus" (PAR-0058). Registrar décadas depois uma esposa com o sobrenome do marido é uma deriva recorrente nos registros brasileiros, e ela obscurece, em vez de esclarecer, a identidade original.
+  - **[PROVEN / CONTEXTUAL]** Uma forma posterior de seu nome — "Maria Tereza Pereira de Lemos" — aparece no registro de óbito de 1919 de sua filha Rosa em Nova Friburgo, que dá à mãe o sobrenome do marido ("Pereira de Lemos") no lugar do devocional "de Jesus" (PAR-0058). Registrar décadas depois uma esposa com o sobrenome do marido é uma deriva recorrente nos registros brasileiros, e ela obscurece, em vez de esclarecer, a identidade original.
 
   - **[PROVEN]** O batismo de 1835 de sua filha Rosa em Itaboraí nomeia ambos os pais como "naturaes desta freguezia", o que faz dela uma natural documentada de Itaboraí e situa ela e o marido na mesma freguesia de origem (PAR-0016).
 
@@ -200,11 +276,12 @@ profile_pt: >-
 
   ## Identidade
 
-  Registrada de duas formas pelo mesmo vigário de Itaboraí: **Maria Thereza de Jesus** nos
-  batismos de Rosa (1835) e Thomaz (1836) (PAR-0016, PAR-0032), e **Maria Nunes de Jesus**
-  nos batismos de Maria (1832) e Anna (1834) (PAR-0030, PAR-0031) — inconsistência de
-  escrivão para uma só mulher; "Maria Thereza de Jesus" é a forma preferida [PROVEN]. Uma
-  terceira forma, mais tardia — **Maria Tereza Pereira de Lemos** — aparece no óbito de 1919 de
+  **Maria Thereza de Jesus** no batismo de Rosa de 1835 (PAR-0016), "Maria Thereza de Jezus"
+  nos batismos de Anna (1834) e Polidoro (1838) (PAR-0031, PAR-0033) e apenas "Maria Thereza"
+  nos de Maria (1832) e Thomaz (1836) (PAR-0030, PAR-0032) — um só nome, registrado de forma
+  consistente [PROVEN]. (Uma leitura "Maria Nunes de Jesus" dos assentos de 1832 e 1834 era
+  errada e foi aposentada em 2026-10-10.) Uma forma mais tardia — **Maria Tereza Pereira de
+  Lemos** — aparece no óbito de 1919 de
   sua filha Rosa em Nova Friburgo (PAR-0058), que troca o devocional "de Jesus" pelo "de Lemos"
   do marido (e acrescenta "Pereira"); é preservada como variante, prevalecendo os batismos, mais
   próximos do evento. Ela é a mãe de Rosa Eugenia de Lemos (P-0035) e, portanto, avó materna de
@@ -214,7 +291,9 @@ profile_pt: >-
   batismo de 1835 (PAR-0016).
 
   - **Pais:** desconhecidos em qualquer registro disponível [OPEN]; o sobrenome devocional
-  "de Jesus" não traz pista de linhagem.
+  "de Jesus" não traz pista de linhagem. O agente de recuperação os relata como José Campello
+  de Moraes, "natural do Porto", e Emerenciana Maria de Jesus, nomeados nos batismos de 1821 e
+  1841 de seus filhos [LEAD — imagens ainda não disponíveis; não modelado].
 
   - **Casamento e filhos:** esposa de Manoel de Lemos [Pereira] (P-0052), família F-0025;
   mãe dos filhos de Itaboraí de 1832–1838 (Maria, Anna, Rosa Eugenia, Thomaz, Polídoro).
@@ -224,10 +303,14 @@ profile_pt: >-
   Pereira de Lemos (PRB-0005) e Manoel Pereira de Lemos (f. 1898 aos 72 anos, portanto n.
   c.1826, NWS-0002), estão documentados, mas nenhum registro disponível nomeia a mãe deles. Se
   fossem filhos dela, sua fase de partos começou até c.1826 e seu nascimento não é posterior a
-  c.1810 [INFERRED].
+  c.1810 [INFERRED]. O agente de recuperação relata ainda um filho Antonio batizado em 21 de
+  outubro de 1821 e os filhos João e Maria batizados em 4 de março de 1841, sendo o casal
+  casado antes de 18 de março de 1821 [LEAD — imagens ainda não disponíveis]; se confirmado,
+  seu nascimento cai por volta de 1805 ou antes [INFERRED].
 
   - **Óbito:** não localizado. Já estava morta em novembro de 1919, quando o óbito de Rosa nomeia
-  ambos os pais como "falecidos" (PAR-0058) [PROVEN quanto ao limite].
+  ambos os pais como "falecidos" (PAR-0058) [PROVEN quanto ao limite]. O agente de recuperação
+  a relata viva em 30 de setembro de 1856 [LEAD].
 
   ## Posição social e profissão
 
@@ -237,35 +320,39 @@ profile_pt: >-
 
   ## Família e rede social
 
-  **Marido.** Manoel de Lemos Pereira (P-0052), escrito "Manoel de Lemos" (1835, 1836), "Manoel
-  de Lemos [Ferreira]" e "Manoel de Lemos Ferreira" (1832, 1834, 1838) e "Manoel Pereira Lemos"
-  (1919) (PAR-0016, PAR-0032, PAR-0030, PAR-0031, PAR-0033, PAR-0058) [PROVEN].
+  **Marido.** Manoel de Lemos Pereira (P-0052), escrito "Manoel de Lemos Pereira" (1832, 1834,
+  1838), "Manoel de Lemos" (1835, 1836) e "Manoel Pereira Lemos" (1919) (PAR-0030, PAR-0031,
+  PAR-0033, PAR-0016, PAR-0032, PAR-0058) [PROVEN]. (Uma leitura anterior "Ferreira" foi
+  corrigida a partir das imagens em 2026-10-10.)
 
   **Filhos nos registros disponíveis.** Maria, batizada em 14 de julho de 1832 (PAR-0030); Anna,
-  em 12 de fevereiro de 1834 (PAR-0031); Rosa, em outubro de 1835, "nascida a dez mezes"
-  (PAR-0016); Thomaz, em junho de 1836 (PAR-0032); e Polidoro, c. novembro de 1838, cujo nome da
-  mãe está ilegível (PAR-0033) [PROVEN]. Os irmãos mais velhos Candido e Manoel são tratados em
-  Identidade.
+  em 11 de fevereiro de 1834 (PAR-0031); Rosa, em 12 de outubro de 1835, "nascida a dez mezes"
+  (PAR-0016); Thomaz, em 13 de junho de 1836, "nascido a tres mezes" (PAR-0032); e Polidoro, em
+  18 de março de 1838, "nascido a tres mezes" (PAR-0033) [PROVEN]. Os irmãos mais velhos Candido
+  e Manoel são tratados em Identidade.
 
-  **Padrinhos.** Manoel José da Silva e Flor de Maria da Conceição (Rosa, PAR-0016); [Felício?]
-  José Custódio Vieira (Maria, PAR-0030); José Antonio e Anna Roza de Guimarães (Anna,
-  PAR-0031). Os padrinhos de 1836 e 1838 estão ilegíveis (PAR-0032, PAR-0033). Nenhum traz
-  título ou patente [PROVEN conforme registrado].
+  **Padrinhos.** O Capitão José Custodio Vieira (Maria, PAR-0030; e Thomaz, com Nossa Senhora,
+  PAR-0032); João José Antunes e Anna Roza da Encarnação (Anna, PAR-0031); Manoel José da Silva
+  e Ro[z]a de Maria da Conceição (Rosa, PAR-0016); Hermenegildo José de Mattos com Nossa
+  Senhora (Polidoro, PAR-0033) [PROVEN]. Um padrinho traz tratamento — o *Capitão*, escolhido
+  duas vezes. (Corrigido a partir das imagens em 2026-10-10; leituras anteriores davam "Flor de
+  Maria", "[Felício?]", "José Antonio e Anna Roza de Guimarães" e padrinhos ilegíveis em
+  1836/1838, e diziam que nenhum tinha patente.)
 
-  **Seus próprios pais:** desconhecidos; nenhum registro disponível os nomeia.
+  **Seus próprios pais:** desconhecidos; nenhum registro disponível os nomeia. O agente de
+  recuperação os relata [LEAD — ver Identidade].
 
   ## O que podemos extrapolar
 
-  A alternância "Thereza" vs "Nunes" é a única questão em aberto. A leitura ordinária — uma só
-  mulher, o mesmo marido, a mesma matriz e época de vigário, uma janela estreita e as duas
-  formas alternando entre os próprios filhos de Manoel — é a de um escrivão variando o elemento
-  intermediário de "Maria … de Jesus". Essa é a hipótese de trabalho; a alternativa (duas
-  esposas, ou dois homens "Manoel de Lemos" na freguesia) não é descartada por nada do que se
-  dispõe. [INFERRED]
+  A questão "Thereza" vs "Nunes" que antes figurava aqui está encerrada. Apoiava-se numa leitura
+  errada: relidos a partir das imagens em 2026-10-10, os cinco batismos de 1832–1838 a nomeiam
+  "Maria Thereza", de modo que a alternativa "duas esposas, ou dois Manoel de Lemos" fica
+  aposentada [PROVEN].
 
   **Toda a sua vida documentada cabe em cinco batismos ao longo de seis anos.** [INFERRED]
   Entre 1832 e 1838 ela aparece em cinco assentos de batismo de Itaboraí disponíveis (um sexto,
-  de 1831, é relatado mas não está disponível [LEAD]) — um parto a cada dezoito meses,
+  de 1831, e mais três, de 1821 e 1841, são relatados mas não estão disponíveis [LEAD]) — um
+  parto a cada dezoito meses,
   aproximadamente, no meio de seus anos férteis — e em mais nada de seu: nenhum ato
   de propriedade, nenhum testamento, nenhuma assinatura, nenhuma ocupação, nenhum registro de
   sepultamento localizado. Até o próprio sobrenome a esconde: o devocional *de Jesus* não
@@ -276,8 +363,9 @@ profile_pt: >-
 
   **Posição de classe [CONTEXTUAL].** Como seu marido, ela se situa sobre o modesto piso
   *fluminense* de descendência portuguesa de Itaboraí: uma família local, rural e integrada à
-  igreja, sem terra, ofício ou riqueza documentados, e sem nenhum padrinho titulado nos batismos
-  de seus filhos (PAR-0016, PAR-0030, PAR-0031) [PROVEN]. Itaboraí, em sua época, era um
+  igreja, sem terra, ofício ou riqueza documentados, e com um único padrinho titulado nos
+  batismos de seus filhos — o Capitão José Custodio Vieira, duas vezes (PAR-0030, PAR-0032) —
+  entre padrinhos de resto sem título [PROVEN]. Itaboraí, em sua época, era um
   município açucareiro movido por trabalho escravizado [CONTEXTUAL]; nada nos atos disponíveis
   situa seu domicílio do lado proprietário dessa economia.
 
@@ -293,9 +381,11 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Se "Maria Thereza" e "Maria Nunes" são uma só mulher, e seus próprios pais — registro
-  decisivo: o casamento em Itaboraí de Manoel de Lemos × Maria [Thereza/Nunes] de Jesus,
-  que daria seu nome verdadeiro único e o sobrenome de seu pai. [OPEN]
+  - Seus próprios pais — relatados pelo agente de recuperação a partir dos batismos de 1821 e
+  1841 de seus filhos [LEAD]; decisivos aqui: as imagens desses batismos e, depois, o casamento
+  em Itaboraí de Manoel de Lemos × Maria Thereza de Jesus. (Se "Maria Thereza" e "Maria Nunes"
+  eram uma só mulher já não é questão: a leitura "Nunes" era errada, aposentada em
+  2026-10-10.) [OPEN]
 
   - **Limites de busca relatados pela pesquisa de recuperação (2026-09-10) [LEAD — não
   repetidos aqui]:** o casamento cai numa lacuna de cobertura do FamilySearch (os casamentos de
@@ -304,19 +394,19 @@ profile_pt: >-
   1821); e o livro de óbitos de 1835–1843 foi amostrado depois de 1838 sem encontrá-la. Os
   livros não filmados estariam no arquivo da arquidiocese em Niterói. [OPEN]
 
-  - **O assento danificado de Polidoro, 1838** (PAR-0033): uma imagem melhor ou nova leitura do
-  nome da mãe poderia decidir a questão Thereza/Nunes. [OPEN]
+  - **O assento de Polidoro, 1838** (PAR-0033): relido a partir da imagem em 2026-10-10, o nome da
+  mãe, antes registrado como ilegível, é "Maria Thereza de Jezus". [RESOLVED]
 
   - **Seu óbito:** um óbito de Itaboraí que nomeasse o viúvo e os herdeiros fixaria de uma vez o
   conjunto de irmãos e a questão do nome. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 
-  - PAR-0016 (batismo de Rosa em 1835 — "Maria Thereza de Jesus") · PAR-0032 (batismo de
-  Thomaz em 1836 — "Maria Thereza") · PAR-0030 (batismo de Maria em 1832 — "Maria Nunes de
-  Jesus") · PAR-0031 (batismo de Anna em 1834 — "Maria Nunes de Jesus"). PAR-0033 (batismo
-  de Polídoro em 1838) tem o nome dela danificado/ilegível. PAR-0058 (óbito de 1919 da filha
-  Rosa em Nova Friburgo — nomeia-a "Maria Tereza Pereira de Lemos", mais uma variante tardia).
+  - PAR-0030 (batismo de Maria em 1832 — "Maria [Th]ereza") · PAR-0031 (batismo de Anna em 1834
+  — "Maria Thereza de Jezus") · PAR-0016 (batismo de Rosa em 1835 — "Maria Thereza de Jesus") ·
+  PAR-0032 (batismo de Thomaz em 1836 — "Maria Thereza") · PAR-0033 (batismo de Polidoro em 1838
+  — "Maria Thereza de Jezus"). PAR-0058 (óbito de 1919 da filha Rosa em Nova Friburgo —
+  nomeia-a "Maria Tereza Pereira de Lemos", uma variante tardia).
 
   ## Contexto regional e migratório
 

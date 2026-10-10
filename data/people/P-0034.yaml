@@ -23,13 +23,13 @@ notes:
     Ahnentafel position 60 — father of Joaquim José Bohrer (P-0030), hence Celina's
     (P-0015) paternal grandfather. Married Rosa Eugenia de Lemos (P-0035); their
     marriage was justified and registered at the Nova Friburgo Matriz in 1879
-    (PAR-0002). Already deceased by 1890, when Alberto Bohrer's birth (CIV-0019)
+    [corrected 2026-10-10: the Itaboraí Matriz, not Nova Friburgo — see PAR-0002] (PAR-0002). Already deceased by 1890, when Alberto Bohrer's birth (CIV-0019)
     names him "Francisco José Bohrer já falecido".
   text_pt: >-
     Posição 60 no Ahnentafel — pai de Joaquim José Bohrer (P-0030), portanto avô
     paterno de Celina (P-0015). Casou-se com Rosa Eugenia de Lemos (P-0035); o
     casamento deles foi justificado e registrado na Matriz de Nova Friburgo em 1879
-    (PAR-0002). Já falecido em 1890, quando o nascimento de Alberto Bohrer (CIV-0019)
+    [corrigido em 2026-10-10: Matriz de Itaboraí, não de Nova Friburgo — ver PAR-0002] (PAR-0002). Já falecido em 1890, quando o nascimento de Alberto Bohrer (CIV-0019)
     o nomeia "Francisco José Bohrer já falecido".
 - text: >-
     Parentage and birthplace RESOLVED (1 August 2026) by his own registered will
@@ -104,7 +104,7 @@ profile: >-
 
   - **[PROVEN]** His death in 1888 from "insuficiência mitral e dilatação aórtica" at age 56 (PAR-0055) preceded the abolition of slavery by a few months, so he never lived under a free-labour Brazil. His son Joaquim (P-0030) and the next generation faced that transition.
 
-  - **[INFERRED]** His marriage to Rosa Eugenia de Lemos (P-0035) from Itaboraí — celebrated before the Itaboraí coadjutor and only justified at Nova Friburgo decades later — is the one non-colonist thread in this branch, and it required navigating the ecclesiastical system to accomplish: the colonist community was tight enough that marrying outside it was not straightforward.
+  - **[INFERRED]** His marriage to Rosa Eugenia de Lemos (P-0035) from Itaboraí — celebrated before the Itaboraí coadjutor and only justified by the Rio ecclesiastical court and registered at the Itaboraí Matriz decades later — is the one non-colonist thread in this branch, and it required navigating the ecclesiastical system to accomplish: the colonist community was tight enough that marrying outside it was not straightforward.
 
   - **[CONTEXTUAL]** His will (PRB-0005) is the load-bearing document of the entire Jacob Borer line: the only primary record that names Jacob Bahrer as Francisco's father, and the only primary source counting Joaquim among Francisco's heirs — a single 1888 testamentary act that answers questions no census or vital record answered.
 
@@ -127,8 +127,8 @@ profile: >-
 
   - **Marriage:** Rosa Eugenia de Lemos (P-0035). The marriage was celebrated earlier at
   Itaboraí, before the coadjutor Rufino José Alves and at the house of José Antunes de
-  Lemos's father, and only judicially justified and registered at the Nova Friburgo
-  Matriz on 1 August 1879 (PAR-0002). [PROVEN it predates 1879] An uncertain "more than
+  Lemos's father, and only judicially justified (Rio, 30 June 1879) and registered at the
+  Itaboraí Matriz on 1 August 1879 (PAR-0002). [PROVEN it predates 1879] An uncertain "more than
   twenty years" clause in that act would push the wedding back to about 1858. [LEAD]
 
   - **Children:** Joaquim José Bohrer (P-0030, the firstborn), Laura, Guilherme (Samuel)
@@ -253,7 +253,7 @@ profile: >-
   ## Sources held (this repository)
 
   - PRB-0005 (his own 1888 registered will — parents, wife, four children, executors,
-  bequest) · PAR-0002 (1879 marriage justification at the Nova Friburgo Matriz).
+  bequest) · PAR-0002 (1879 marriage justification registered at the Itaboraí Matriz).
 
   - PAR-0054 (his own 1832 Nova Friburgo baptism — born 9 July, baptised 19 August 1832;
   parents Jacob Bohrer × Catharina Moser) · PAR-0055 (his own 1888 Nova Friburgo
@@ -294,7 +294,7 @@ profile_pt: >-
 
   - **[PROVEN]** Sua morte em 1888 por "insuficiência mitral e dilatação aórtica" aos 56 anos (PAR-0055) antecedeu a abolição da escravidão por alguns meses, de modo que nunca viveu num Brasil de trabalho livre. Seu filho Joaquim (P-0030) e a geração seguinte enfrentaram essa transição.
 
-  - **[INFERRED]** Seu casamento com Rosa Eugenia de Lemos (P-0035), de Itaboraí — celebrado perante o coadjutor de Itaboraí e só justificado em Nova Friburgo décadas depois — é o único fio não colono deste ramo, e exigiu navegar pelo sistema eclesiástico: a comunidade colona era fechada o suficiente para que casar fora dela não fosse simples.
+  - **[INFERRED]** Seu casamento com Rosa Eugenia de Lemos (P-0035), de Itaboraí — celebrado perante o coadjutor de Itaboraí e só justificado pelo juízo eclesiástico do Rio e registrado na Matriz de Itaboraí décadas depois — é o único fio não colono deste ramo, e exigiu navegar pelo sistema eclesiástico: a comunidade colona era fechada o suficiente para que casar fora dela não fosse simples.
 
   - **[CONTEXTUAL]** Seu testamento (PRB-0005) é o documento que sustenta toda a linhagem Jacob Borer: o único registro primário que nomeia Jacob Bahrer como pai de Francisco, e a única fonte primária que conta Joaquim entre os herdeiros de Francisco — um único ato testamentário de 1888 que responde a questões que nenhum censo ou registro vital havia respondido.
 
@@ -318,8 +318,8 @@ profile_pt: >-
 
   - **Casamento:** Rosa Eugenia de Lemos (P-0035). O casamento foi celebrado antes em
   Itaboraí, perante o coadjutor Rufino José Alves e na casa do pai de José Antunes de
-  Lemos, e só foi judicialmente justificado e registrado na Matriz de Nova Friburgo em
-  1º de agosto de 1879 (PAR-0002). [PROVEN, é anterior a 1879] Uma cláusula incerta de
+  Lemos, e só foi judicialmente justificado (Rio, 30 de junho de 1879) e registrado na
+  Matriz de Itaboraí em 1º de agosto de 1879 (PAR-0002). [PROVEN, é anterior a 1879] Uma cláusula incerta de
   "mais de vinte anos" nesse ato recuaria o casamento para cerca de 1858. [LEAD]
 
   - **Filhos:** Joaquim José Bohrer (P-0030, o primogênito), Laura, Guilherme (Samuel) e

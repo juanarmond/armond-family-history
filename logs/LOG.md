@@ -5,6 +5,27 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-10-10 — Retrieval drop (cycle 2026-10-09): text-only value gate
+
+The drop carried findings, leads, plans and correspondence but no images (the handoff excludes them by
+design since 2026-10-06), so nothing was promoted as a source. Every item was either checked against a
+scan already held, recorded as a lead, or listed for delivery (triage ledger, 2026-10-10).
+
+- **Checked on held scans and applied:** the five Lemos baptisms (all disputed readings confirmed; F-0025
+  upgraded to confirmed); PAR-0002's parish (Itaboraí, supported by Itambi references on the same page);
+  GOV-0010's "Escolástico Armonde" (= Joze Ferreira Armonde; the record then transcribed in full).
+- **No action:** the Leonor Ferreira Armond / Cândido procuração correction — read correctly here in
+  August and never ingested.
+- **Leads recorded:** the 1905 "natural de Barbacena" (P-0016); the Fonseca candidate's exclusion and the
+  six Barbacena Simplício baptisms (none Armond); Rosa's grandparents (P-0052, P-0053 notes); the
+  Terceira primaries A1–A6 (P-0092, E-0135, STATUS 18).
+- **Feedback for the retrieval side (recorded here; its files are not edited):** (1) the mature repo needs
+  the images of items flagged for promotion, since the text-only handoff cannot be catalogued — first the
+  Itaboraí 1821/1840/1841 baptisms and the Terceira A1–A6 primaries; (2) its model already treats the
+  Terceira trunk as reaching the owner only through Simplício, which conflicts with this repo's F-0062
+  link through P-0092 — the A5 death image would settle it; (3) agreed: a stated age in the Muriaé
+  1906–1915 "Almond" court records is the cheapest decider for Simplício's baptism.
+
 ## 2026-10-09 — Code review of the transcription pass; Lacerda f. 56
 
 **Amends the entry below**, which called the Ferreira Armonde trunk a new lead: it has been recorded since

@@ -9,10 +9,19 @@ name_variants:
   type: source
   source_ids:
   - PAR-0016
+  - PAR-0032
 - value: Manoel de Lemos Pereira
-  type: other
+  type: source
   source_ids:
-  - PAR-0016
+  - PAR-0030
+  - PAR-0031
+  - PAR-0033
+  note: >-
+    Written in full in the 1832, 1834 and 1838 Itaboraí baptisms of his children
+    Maria, Anna and Polidoro (re-read from the images 2026-10-10). Previously carried
+    as an "other" (family-form) variant cited to PAR-0016, which writes plain "Manoel
+    de Lemos"; the earlier "Manoel de Lemos Ferreira" reading of PAR-0030, PAR-0031
+    and PAR-0033 was a misreading.
 event_ids:
 - E-0049
 family_ids:
@@ -43,6 +52,53 @@ notes:
     (Itaboraí, RJ) no batismo de 1835 — um local de nascimento documentado, não
     uma inferência a partir do sobrenome. Seus próprios pais não são evidenciados
     pelos registros localizados.
+- text: >-
+    [corrected 2026-10-10 from the images: his children's five 1832-1838 baptisms were
+    re-read at full resolution after the retrieval agent's native-resolution reading
+    disagreed with ours. He is "Manoel de Lemos Pereira" in 1832, 1834 and 1838
+    (PAR-0030, PAR-0031, PAR-0033) and plain "Manoel de Lemos" in 1835 and 1836
+    (PAR-0016, PAR-0032). The earlier "Manoel de Lemos Ferreira" / "[Ferreira]"
+    readings of PAR-0030, PAR-0031 and PAR-0033 were misreadings, so the
+    "Pereira/Ferreira scribal alternation" once described in this profile, and the
+    open question of "Pereira vs Ferreira", are retired. The godparent set also
+    changes: the godfather of Maria (1832) and Thomaz (1836) is "o Capitão José
+    Custodio Vieira", so the earlier claim that no godparent of his children carried
+    a rank is withdrawn.]
+  text_pt: >-
+    [corrigido em 2026-10-10 a partir das imagens: os cinco batismos de seus filhos
+    de 1832-1838 foram relidos em resolução plena depois que a leitura do agente de
+    recuperação, em resolução nativa, divergiu da nossa. Ele é "Manoel de Lemos
+    Pereira" em 1832, 1834 e 1838 (PAR-0030, PAR-0031, PAR-0033) e apenas "Manoel de
+    Lemos" em 1835 e 1836 (PAR-0016, PAR-0032). As leituras anteriores "Manoel de
+    Lemos Ferreira" / "[Ferreira]" de PAR-0030, PAR-0031 e PAR-0033 eram leituras
+    erradas, de modo que a "alternância de escrivão Pereira/Ferreira" antes descrita
+    neste perfil, e a questão em aberto "Pereira vs Ferreira", ficam aposentadas. O
+    conjunto de padrinhos também muda: o padrinho de Maria (1832) e de Thomaz (1836) é
+    "o Capitão José Custodio Vieira", de modo que fica retirada a afirmação anterior
+    de que nenhum padrinho de seus filhos tinha patente.]
+- text: >-
+    LEAD (2026-10-10, retrieval agent; record images not yet held here): the
+    retrieval agent reports that the 21 October 1821 Itaboraí baptism of his son
+    Antonio and the 4 March 1841 baptisms of his children João and Maria name the
+    grandparents — paternal (his own parents): José Henriques de Mattos × Anna
+    Joaquina (also given as Anna Maria) da Conceição; maternal (his wife Maria
+    Thereza's parents): José Campello de Moraes, "natural do Porto", × Emerenciana
+    Maria de Jesus — and that he and Maria Thereza were married before 18 March 1821
+    and both alive on 30 September 1856. Not modelled until the record images are
+    delivered and read here: no person, family, event or source is created from this
+    report, and his parents remain unevidenced in this repository.
+  text_pt: >-
+    PISTA (2026-10-10, agente de recuperação; imagens dos registros ainda não
+    disponíveis aqui): o agente de recuperação relata que o batismo de seu filho
+    Antonio em Itaboraí, de 21 de outubro de 1821, e os batismos de seus filhos João
+    e Maria, de 4 de março de 1841, nomeiam os avós — paternos (seus próprios pais):
+    José Henriques de Mattos × Anna Joaquina (também dada como Anna Maria) da
+    Conceição; maternos (os pais de sua esposa Maria Thereza): José Campello de
+    Moraes, "natural do Porto", × Emerenciana Maria de Jesus — e que ele e Maria
+    Thereza eram casados antes de 18 de março de 1821 e estavam ambos vivos em 30 de
+    setembro de 1856. Não modelado até que as imagens dos registros sejam entregues e
+    lidas aqui: nenhuma pessoa, família, evento ou fonte é criado a partir deste
+    relato, e seus pais continuam sem evidência neste repositório.
 profile: >-
   ## Interesting facts
 
@@ -50,7 +106,7 @@ profile: >-
 
   - **[INFERRED]** Five children baptised at Itaboraí between 1832 and 1838 indicate a settled, church-integrated household; a married householder with children before 1832 implies he was born no later than c.1805–1810, placing his birth in the final decade of the Portuguese colonial period.
 
-  - **[CONTEXTUAL]** The scribal alternation between "Pereira" and "Ferreira" for his surname across his children's baptisms reflects the common 19th-century Brazilian practice of recording surnames inconsistently — what the clerk heard, or thought he heard, determined the written form, and the two surnames are auditorily similar.
+  - **[PROVEN]** The register writes him in full as "Manoel de Lemos Pereira" in three of his children's baptisms (1832, 1834, 1838) and as plain "Manoel de Lemos" in the other two (1835, 1836) — dropping the last surname was ordinary clerical shorthand [CONTEXTUAL]. An earlier "Ferreira" reading of those entries was a misreading, corrected from the images on 2026-10-10 (PAR-0030, PAR-0031, PAR-0033).
 
   - **[INFERRED]** His entire documented life is in Itaboraí; the relocation from Itaboraí to Nova Friburgo belongs to the next generation, when his daughter Rosa married into the Swiss-German colonist household — he never moved, and only his descendants crossed the cultural divide.
 
@@ -60,29 +116,34 @@ profile: >-
 
   ## Identity
 
-  **Manoel de Lemos Pereira** — the fuller family form; the register writes him variously
-  "Manoel de Lemos" (1835 Rosa baptism, PAR-0016), "Manoel de Lemos Ferreira" (1832, 1834,
-  1838 baptisms, PAR-0030 / PAR-0031 / PAR-0033) and simply "Manoel de Lemos" (1836,
-  PAR-0032) — the Pereira/Ferreira alternation is scribal, one man [PROVEN]. He heads the
-  Lemos line of Itaboraí (RJ): father of Rosa Eugenia de Lemos (P-0035), hence maternal
+  **Manoel de Lemos Pereira** — so written in the 1832, 1834 and 1838 baptisms of his
+  children (PAR-0030 / PAR-0031 / PAR-0033), and as plain "Manoel de Lemos" in the 1835 and
+  1836 ones (PAR-0016, PAR-0032) [PROVEN]; Rosa's 1919 death gives "Manoel Pereira Lemos"
+  (PAR-0058). (An earlier "Ferreira" reading was corrected from the images on 2026-10-10.)
+  He heads the Lemos line of Itaboraí (RJ): father of Rosa Eugenia de Lemos (P-0035), hence maternal
   grandfather of Joaquim José Bohrer (P-0030).
 
   - **Nationality:** Brazilian [PROVEN] — he and his wife are "naturaes desta freguezia"
   (Itaboraí) in the 1835 baptism (PAR-0016); a documented birthplace, not a surname
   inference.
 
-  - **Parents:** unknown from any held record [OPEN].
+  - **Parents:** unknown from any held record [OPEN]. The retrieval agent reports that the
+  1821 and 1841 baptisms of his children name them as José Henriques de Mattos and Anna
+  Joaquina (Anna Maria) da Conceição [LEAD — images not yet held; not modelled].
 
   - **Marriage:** husband of Maria Thereza de Jesus (P-0053), family F-0025; the marriage
-  act (which would name his father and settle Pereira vs Ferreira) is not held. An
-  established married householder by the early 1830s implies a birth no later than
-  c.1805–1810 [INFERRED].
+  act (which would name his father) is not held. An established married householder by the
+  early 1830s implies a birth no later than c.1805–1810 [INFERRED]; the retrieval agent
+  reports the couple already married by 18 March 1821, which would push that bound back to
+  about 1800 [LEAD].
 
   - **Children:** attested across the 1832–1838 Itaboraí baptism sweep — Maria (1832,
   PAR-0030), Anna (1834, PAR-0031), Rosa Eugenia (1835, PAR-0016), Thomaz (1836, PAR-0032)
   and Polídoro (1838, PAR-0033) [PROVEN]. His son Candido Pereira de Lemos is named as
   Rosa's brother in her husband's 1888 will (PRB-0005); a further son Manoel Antunes de
-  Lemos is reported by the retrieval synthesis [LEAD, not catalogued].
+  Lemos is reported by the retrieval synthesis [LEAD, not catalogued]. The retrieval agent
+  also reports a son Antonio (bapt. 21 Oct 1821) and children João and Maria (bapt. 4 Mar
+  1841) [LEAD — images not yet held].
 
   ## Standing and profession
 
@@ -93,11 +154,14 @@ profile: >-
 
   ## Family and social network
 
-  His social circle is legible only through his children's godparents: Manoel José da
-  Silva and Flor de Maria da Conceição (Rosa, 1835); José Custódio Vieira (Maria, 1832);
-  José Antonio and Anna Roza de Guimarães (Anna, 1834). The Guimarães godmother is a
-  Lemos–Guimarães link worth noting but with no established connection to the family's
-  other Guimarães line. [PROVEN]
+  His social circle is legible only through his children's godparents: Capitão José
+  Custodio Vieira (Maria, 1832, and again Thomaz, 1836, with Nossa Senhora as godmother);
+  João José Antunes and Anna Roza da Encarnação (Anna, 1834); Manoel José da Silva and
+  Ro[z]a de Maria da Conceição (Rosa, 1835); Hermenegildo José de Mattos with Nossa Senhora
+  (Polidoro, 1838) [PROVEN]. (An earlier reading of a "Guimarães" godmother in 1834 was a
+  misreading, corrected 2026-10-10.) The 1838 godfather's surname, de Mattos, matches the
+  surname the retrieval agent reports for Manoel's own father [LEAD]; the act states no
+  relationship.
 
   ## What we can extrapolate
 
@@ -110,14 +174,18 @@ profile: >-
   Lemos on the owning side of it — no enslaved person appears in any held Lemos act, and no
   honorific attaches to Manoel himself.
 
-  **The godparent set is the sharpest class evidence available, and it works by absence.**
-  Across the legible baptisms the sponsors are Manoel José da Silva and Flor de Maria da
-  Conceição (1835), José Custódio Vieira (1832), and José Loz Antonio with Anna Roza de
-  Guimarães (1834) (PAR-0016, PAR-0030, PAR-0031) [PROVEN]. Not one carries a military rank, a
-  clerical office or a *Capitão* / *Alferes* style — the markers that saturate the godparent
-  lists of propertied Brazilian households in the same decades. Godparenthood was the standard
-  channel for attaching a child to a patron; a family whose sponsors are all untitled neighbours
-  had no patron to attach to. [INFERRED]
+  **The godparent set is the sharpest class evidence available, and it shows one patron.**
+  Across the five baptisms the sponsors are Capitão José Custodio Vieira (1832, and again in
+  1836), João José Antunes and Anna Roza da Encarnação (1834), Manoel José da Silva and Ro[z]a
+  de Maria da Conceição (1835) and Hermenegildo José de Mattos (1838); in 1836 and 1838 the
+  godmother is Nossa Senhora (PAR-0030, PAR-0031, PAR-0016, PAR-0032, PAR-0033) [PROVEN]. Only
+  one sponsor carries a style, but it is a *Capitão*, chosen twice. In the 1830s that title
+  usually meant a militia or Guarda Nacional captaincy held by a man of local substance
+  [CONTEXTUAL]. Godparenthood was the standard channel for attaching a child to a patron, so
+  the family had one patron-level tie, renewed four years later, among otherwise untitled
+  sponsors: a household with a connection upward, not one with none. (This replaces an earlier
+  reading, corrected from the images on 2026-10-10, under which no sponsor carried a rank.)
+  [INFERRED]
 
   **The Lemos climb begins in the next generation, and its mechanism is migration, not
   accumulation.** [INFERRED, well-supported] Nothing in his own record changes. But his daughter
@@ -145,11 +213,13 @@ profile: >-
 
   ## Open questions
 
-  - His own parents and the Pereira-vs-Ferreira surname — decisive record: the Itaboraí
-  marriage of Manoel de Lemos × Maria Thereza de Jesus, or an Itaboraí Lemos inventário.
-  [OPEN]
+  - His own parents — reported by the retrieval agent from the 1821 and 1841 baptisms of his
+  children [LEAD]; decisive here: those baptism images, then the Itaboraí marriage of Manoel de
+  Lemos × Maria Thereza de Jesus or an Itaboraí Lemos inventário. (The former "Pereira vs
+  Ferreira" question is closed: the images read "Pereira".) [OPEN]
 
-  - His birth, death and any move to Nova Friburgo — none located. [OPEN]
+  - His birth, death and any move to Nova Friburgo — none located; the retrieval agent reports
+  him alive on 30 September 1856 [LEAD]. [OPEN]
 
   ## Sources held (this repository)
 
@@ -178,7 +248,7 @@ profile_pt: >-
 
   - **[INFERRED]** Cinco filhos baptizados em Itaboraí entre 1832 e 1838 indicam um agregado familiar estável e integrado na vida paroquial; um chefe de família casado com filhos antes de 1832 implica que terá nascido no máximo por volta de 1805–1810, colocando o seu nascimento na última década do período colonial português.
 
-  - **[CONTEXTUAL]** A alternância de escrivão entre "Pereira" e "Ferreira" no seu apelido nos baptizados dos filhos reflecte a prática brasileira do século XIX de registar apelidos de forma inconsistente — o que o escrivão ouvia, ou julgava ouvir, determinava a forma escrita; e os dois apelidos são auditivamente semelhantes.
+  - **[PROVEN]** O registro escreve-o por extenso como "Manoel de Lemos Pereira" em três dos batismos dos filhos (1832, 1834, 1838) e apenas como "Manoel de Lemos" nos outros dois (1835, 1836) — omitir o último sobrenome era abreviação corrente de escrivão [CONTEXTUAL]. Uma leitura anterior "Ferreira" desses assentos era errada e foi corrigida a partir das imagens em 2026-10-10 (PAR-0030, PAR-0031, PAR-0033).
 
   - **[INFERRED]** Toda a sua vida documentada decorre em Itaboraí; a mudança de Itaboraí para Nova Friburgo pertence à geração seguinte, quando a filha Rosa casou com a família de colonos suíço-alemães — ele nunca se mudou, e só os seus descendentes cruzaram a fronteira cultural.
 
@@ -188,30 +258,35 @@ profile_pt: >-
 
   ## Identidade
 
-  **Manoel de Lemos Pereira** — a forma mais completa da família; o registro o escreve de
-  formas variadas: "Manoel de Lemos" (batismo de Rosa em 1835, PAR-0016), "Manoel de Lemos
-  Ferreira" (batismos de 1832, 1834 e 1838, PAR-0030 / PAR-0031 / PAR-0033) e apenas
-  "Manoel de Lemos" (1836, PAR-0032) — a alternância Pereira/Ferreira é de escrivão, um só
-  homem [PROVEN]. Ele encabeça a linha Lemos de Itaboraí (RJ): pai de Rosa Eugenia de
+  **Manoel de Lemos Pereira** — assim escrito nos batismos de 1832, 1834 e 1838 de seus
+  filhos (PAR-0030 / PAR-0031 / PAR-0033), e apenas "Manoel de Lemos" nos de 1835 e 1836
+  (PAR-0016, PAR-0032) [PROVEN]; o óbito de Rosa em 1919 dá "Manoel Pereira Lemos"
+  (PAR-0058). (Uma leitura anterior "Ferreira" foi corrigida a partir das imagens em
+  2026-10-10.) Ele encabeça a linha Lemos de Itaboraí (RJ): pai de Rosa Eugenia de
   Lemos (P-0035) e, portanto, avô materno de Joaquim José Bohrer (P-0030).
 
   - **Nacionalidade:** brasileira [PROVEN] — ele e sua esposa são "naturaes desta
   freguezia" (Itaboraí) no batismo de 1835 (PAR-0016); um local de nascimento documentado,
   não uma inferência a partir do sobrenome.
 
-  - **Pais:** desconhecidos em qualquer registro disponível [OPEN].
+  - **Pais:** desconhecidos em qualquer registro disponível [OPEN]. O agente de recuperação
+  relata que os batismos de 1821 e 1841 de seus filhos os nomeiam como José Henriques de
+  Mattos e Anna Joaquina (Anna Maria) da Conceição [LEAD — imagens ainda não disponíveis;
+  não modelado].
 
   - **Casamento:** marido de Maria Thereza de Jesus (P-0053), família F-0025; o assento de
-  casamento (que nomearia seu pai e resolveria Pereira vs Ferreira) não está disponível.
-  Um chefe de família já casado no início da década de 1830 implica um nascimento não
-  posterior a c.1805–1810 [INFERRED].
+  casamento (que nomearia seu pai) não está disponível. Um chefe de família já casado no
+  início da década de 1830 implica um nascimento não posterior a c.1805–1810 [INFERRED]; o
+  agente de recuperação relata o casal já casado em 18 de março de 1821, o que recuaria esse
+  limite para cerca de 1800 [LEAD].
 
   - **Filhos:** atestados na varredura dos batismos de Itaboraí de 1832–1838 — Maria
   (1832, PAR-0030), Anna (1834, PAR-0031), Rosa Eugenia (1835, PAR-0016), Thomaz (1836,
   PAR-0032) e Polídoro (1838, PAR-0033) [PROVEN]. Seu filho Candido Pereira de Lemos é
   nomeado como irmão de Rosa no testamento de 1888 de seu marido (PRB-0005); um outro
   filho, Manoel Antunes de Lemos, é relatado pela síntese de recuperação [LEAD, não
-  catalogado].
+  catalogado]. O agente de recuperação relata ainda um filho Antonio (bat. 21 out. 1821) e
+  os filhos João e Maria (bat. 4 mar. 1841) [LEAD — imagens ainda não disponíveis].
 
   ## Posição social e profissão
 
@@ -222,11 +297,14 @@ profile_pt: >-
 
   ## Família e rede social
 
-  Seu círculo social só é legível pelos padrinhos de seus filhos: Manoel José da Silva e
-  Flor de Maria da Conceição (Rosa, 1835); José Custódio Vieira (Maria, 1832); José
-  Antonio e Anna Roza de Guimarães (Anna, 1834). A madrinha Guimarães é um vínculo
-  Lemos–Guimarães digno de nota, mas sem conexão estabelecida com a outra linha Guimarães
-  da família. [PROVEN]
+  Seu círculo social só é legível pelos padrinhos de seus filhos: o Capitão José Custodio
+  Vieira (Maria, 1832, e de novo Thomaz, 1836, com Nossa Senhora como madrinha); João José
+  Antunes e Anna Roza da Encarnação (Anna, 1834); Manoel José da Silva e Ro[z]a de Maria da
+  Conceição (Rosa, 1835); Hermenegildo José de Mattos com Nossa Senhora (Polidoro, 1838)
+  [PROVEN]. (Uma leitura anterior de uma madrinha "Guimarães" em 1834 era errada, corrigida
+  em 2026-10-10.) O sobrenome do padrinho de 1838, de Mattos, coincide com o sobrenome que o
+  agente de recuperação relata para o próprio pai de Manoel [LEAD]; o ato não declara
+  parentesco.
 
   ## O que podemos extrapolar
 
@@ -240,14 +318,18 @@ profile_pt: >-
   nenhuma pessoa escravizada aparece em qualquer ato Lemos disponível, e nenhum honorífico se
   liga ao próprio Manoel.
 
-  **O conjunto de padrinhos é a evidência de classe mais nítida disponível, e funciona pela
-  ausência.** Nos batismos legíveis os padrinhos são Manoel José da Silva e Flor de Maria da
-  Conceição (1835), José Custódio Vieira (1832) e José Loz Antonio com Anna Roza de Guimarães
-  (1834) (PAR-0016, PAR-0030, PAR-0031) [PROVEN]. Nenhum deles traz patente militar, ofício
-  clerical ou tratamento de *Capitão* / *Alferes* — os marcadores que saturam as listas de
-  padrinhos dos domicílios brasileiros proprietários nas mesmas décadas. O compadrio era o canal
-  padrão para ligar uma criança a um protetor; uma família cujos padrinhos são todos vizinhos
-  sem título não tinha protetor a quem se ligar. [INFERRED]
+  **O conjunto de padrinhos é a evidência de classe mais nítida disponível, e mostra um
+  protetor.** Nos cinco batismos os padrinhos são o Capitão José Custodio Vieira (1832, e de
+  novo em 1836), João José Antunes e Anna Roza da Encarnação (1834), Manoel José da Silva e
+  Ro[z]a de Maria da Conceição (1835) e Hermenegildo José de Mattos (1838); em 1836 e 1838 a
+  madrinha é Nossa Senhora (PAR-0030, PAR-0031, PAR-0016, PAR-0032, PAR-0033) [PROVEN]. Só um
+  padrinho traz tratamento, mas é um *Capitão*, escolhido duas vezes. Na década de 1830 esse
+  título indicava em geral um posto de capitão de milícias ou da Guarda Nacional, ocupado por
+  um homem de alguma posição local [CONTEXTUAL]. O compadrio era o canal padrão para ligar uma
+  criança a um protetor; a família tinha, portanto, um vínculo de nível de protetor, renovado
+  quatro anos depois, entre padrinhos de resto sem título: um domicílio com uma ligação para
+  cima, e não sem nenhuma. (Isto substitui uma leitura anterior, corrigida a partir das imagens
+  em 2026-10-10, segundo a qual nenhum padrinho tinha patente.) [INFERRED]
 
   **A subida dos Lemos começa na geração seguinte, e seu mecanismo é a migração, não a
   acumulação.** [INFERRED, bem sustentado] Nada no registro dele muda. Mas sua filha Rosa
@@ -275,12 +357,14 @@ profile_pt: >-
 
   ## Questões em aberto
 
-  - Seus próprios pais e o sobrenome Pereira vs Ferreira — registro decisivo: o casamento
-  em Itaboraí de Manoel de Lemos × Maria Thereza de Jesus, ou um inventário Lemos de
-  Itaboraí. [OPEN]
+  - Seus próprios pais — relatados pelo agente de recuperação a partir dos batismos de 1821
+  e 1841 de seus filhos [LEAD]; decisivos aqui: as imagens desses batismos e, depois, o
+  casamento em Itaboraí de Manoel de Lemos × Maria Thereza de Jesus ou um inventário Lemos de
+  Itaboraí. (A antiga questão "Pereira vs Ferreira" está encerrada: as imagens dizem
+  "Pereira".) [OPEN]
 
-  - Seu nascimento, óbito e qualquer mudança para Nova Friburgo — nenhum localizado.
-  [OPEN]
+  - Seu nascimento, óbito e qualquer mudança para Nova Friburgo — nenhum localizado; o agente
+  de recuperação o relata vivo em 30 de setembro de 1856 [LEAD]. [OPEN]
 
   ## Fontes disponíveis (neste repositório)
 

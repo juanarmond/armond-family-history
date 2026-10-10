@@ -1,11 +1,13 @@
 schema_version: 1
 id: PAR-0033
 title: >-
-  Parish baptism register entry of "Polídoro" (Polidoro de Lemos), c. November 1838,
-  Matriz de São João Batista de Itaboraí, naming his father Manoel de Lemos Ferreira
+  Parish baptism register entry of "Polidoro" (Polidoro de Lemos), 18 March 1838,
+  Matriz de São João Batista de Itaboraí, naming his parents Manoel de Lemos Pereira
+  and Maria Thereza de Jezus
 title_pt: >-
-  Assento de batismo de "Polídoro" (Polidoro de Lemos), c. novembro de 1838, Matriz de
-  São João Batista de Itaboraí, que nomeia seu pai Manoel de Lemos Ferreira
+  Assento de batismo de "Polidoro" (Polidoro de Lemos), 18 de março de 1838, Matriz de
+  São João Batista de Itaboraí, que nomeia seus pais Manoel de Lemos Pereira e Maria
+  Thereza de Jezus
 record_type: Parish baptism register entry (batismo, original)
 record_category: parish_register
 source_form: original
@@ -13,12 +15,11 @@ information_quality: primary
 evidence_type: direct
 usage: evidence
 event_date:
-  kind: month
-  year: 1838
-  month: 11
+  kind: exact
+  value: "1838-03-18"
   original_text: >-
-    "[Aos dez?] dias [do mês de Novembro?] de mil oitocentos e trinta e oito" —
-    November 1838 is the reading; exact day and month partially damaged.
+    "Aos desoito dias do mez de Março de mil oito Centos e trinta e Oito"
+    [corrected 2026-10-10 from the image: 18 March, not "c. November" — see notes]
 event_place_text: >-
   Freguesia (Matriz) de São João Batista de Itaboraí, Província do Rio de Janeiro,
   Brazil
@@ -38,38 +39,46 @@ repository:
   repository_path: evidence/parish/PAR-0033-polidoro-de-lemos-baptism-1838-itaborai.jpg
 access_date: "2026-08-10"
 language: pt-BR
-reading_reliability: partial
+reading_reliability: complete
 transcription: >-
-  [Matriz de São João Batista de Itaboraí; livro de batismos 1832-1838. Margem
-  lateral "Polid[oro]". Página com danos significativos; nome da mãe ilegível.]
-  "[Aos dez?] dias [do mês de Novembro?] de mil oitocentos e trinta e oito nesta
-  Matriz batizei que os Santos Óleos o Reverendo [?] ao inocente Polídoro, filho
-  legítimo de Manoel de Lemos [Ferreira] e [mãe: ilegível], naturais desta
-  Freguesia; foram Padrinhos [ilegíveis]; para Constar [?]. O Vigário Fr.° R.s
-  Pena."
+  [Matriz de São João Batista de Itaboraí; livro de batismos 1832-1838. Página
+  esquerda, terceira entrada; margem lateral "Polido-/ro / inn.e". Relida na imagem
+  em 2026-10-10.] "Aos desoito dias do mez de Março de mil oito Centos e trinta e
+  Oito nesta matriz baptizou e pos os Santos Oleos o Reveren-do Vigario, a
+  innocente Polidoro nascido a tres mezes, filho Legitimo de Manoel de Lemos
+  Pereira, e Maria Thereza de Je-zus natural desta freguezia, forão Padrinhos
+  He[r]menegildo Jozé de Mattos, e N. Senhora; e para Constar mandey fazer este
+  asento que assigney. O Vig.rº Fran.co R.os Pena." [O "r" de "Hermenegildo" não se
+  distingue com clareza.]
 abstract: >-
-  The c.November 1838 Itaboraí baptism of Polídoro, legitimate son of Manoel de
-  Lemos Ferreira (P-0052); mother's name is damaged and illegible. This Polidoro
-  is Rosa Eugenia de Lemos's (P-0035) brother — the youngest confirmed sibling in
-  the 1832-1838 register sweep. Father's name clearly legible ("de Lemos Ferreira"),
-  consistent with PAR-0030/PAR-0031. Godparents illegible.
+  The 18 March 1838 Itaboraí baptism of Polidoro, "nascido a tres mezes" (born
+  about December 1837), legitimate son of Manoel de Lemos Pereira (P-0052) and
+  Maria Thereza de Jezus (P-0053), natural of the parish; godparents Hermenegildo
+  José de Mattos and "N. Senhora" (Nossa Senhora, the Virgin as devotional
+  godmother). This Polidoro is a younger brother of Rosa Eugenia de Lemos (P-0035)
+  and the youngest of the couple's children in the 1832-1838 register sweep.
+  Corrected 2026-10-10 from the image: the date is 18 March 1838, not "c. November
+  1838"; the father is "Pereira", not "Ferreira"; and the mother's name and the
+  godparents, earlier recorded as illegible, are legible.
 abstract_pt: >-
-  O batismo, em Itaboraí por volta de novembro de 1838, de Polídoro, filho legítimo
-  de Manoel de Lemos Ferreira (P-0052); o nome da mãe está danificado e ilegível.
-  Este Polidoro é irmão de Rosa Eugenia de Lemos (P-0035) — o irmão mais novo
-  confirmado na varredura do registro de 1832-1838. O nome do pai é claramente
-  legível ("de Lemos Ferreira"), consistente com PAR-0030/PAR-0031. Padrinhos
-  ilegíveis.
+  O batismo, em Itaboraí em 18 de março de 1838, de Polidoro, "nascido a tres
+  mezes" (nascido por volta de dezembro de 1837), filho legítimo de Manoel de Lemos
+  Pereira (P-0052) e de Maria Thereza de Jezus (P-0053), natural da freguesia;
+  padrinhos Hermenegildo José de Mattos e "N. Senhora" (Nossa Senhora, a Virgem como
+  madrinha devocional). Este Polidoro é irmão mais novo de Rosa Eugenia de Lemos
+  (P-0035) e o caçula dos filhos do casal na varredura do livro de 1832-1838.
+  Corrigido em 2026-10-10 a partir da imagem: a data é 18 de março de 1838, não "c.
+  novembro de 1838"; o pai é "Pereira", não "Ferreira"; e o nome da mãe e os
+  padrinhos, antes registrados como ilegíveis, são legíveis.
 reliability:
   assessment: >-
-    Direct primary parish evidence of a Polídoro baptised c.November 1838 at
-    Itaboraí to Manoel de Lemos Ferreira. Father identification is certain; mother
-    is unreadable due to page damage.
+    Direct primary parish evidence, legible at full resolution: a Polidoro baptised
+    18 March 1838 at Itaboraí to Manoel de Lemos Pereira and Maria Thereza de Jezus
+    — the F-0025 parent pair.
   informant: Vigário Francisco Ramos Pena, São João Batista de Itaboraí (1838).
   limitations: >-
-    Significant page damage; mother's name, exact day, month (November inferred from
-    surrounding entries), and godparents all illegible or uncertain. November 1838
-    is the best read of the date.
+    Volume in poor condition, but this entry is intact. Only the "r" of the
+    godfather's forename (He[r]menegildo) is indistinct.
 digital_file:
   path: evidence/parish/PAR-0033-polidoro-de-lemos-baptism-1838-itaborai.jpg
   sha256: 255e29188fe658f1ed9368c468c68d714fe9d50aef63a24520db08397b841a74
@@ -91,3 +100,35 @@ notes:
     for Polidoro based on the retrieval agent's initial read. Direct image reading
     on 2026-08-10 confirms ~November 1838, not March. The F-0025 note and documented
     date have been corrected accordingly.
+- text: >-
+    [corrected 2026-10-10 from the image: the 2026-08-10 "date correction" above was
+    itself a misreading and is superseded. Re-read at full resolution after the
+    retrieval agent's native-resolution reading disagreed with ours, the entry
+    reads "Aos desoito dias do mez de Março de mil oito Centos e trinta e Oito" —
+    18 March 1838 (the retrieval agent's earlier "approximately 15 March 1838" had
+    the month right). The child was "nascido a tres mezes" (born about December
+    1837). The father is "Manoel de Lemos Pereira" (the capital matches this hand's
+    "P" in "Padrinhos" and "Polidoro"), not "[Ferreira]"; the mother, recorded as
+    illegible, is "Maria Thereza de Je-zus"; the godparents, recorded as illegible,
+    are "He[r]menegildo Jozé de Mattos, e N. Senhora". reading_reliability raised
+    from partial to complete accordingly. The superseded transcription read: "[Aos
+    dez?] dias [do mês de Novembro?] de mil oitocentos e trinta e oito ... filho
+    legítimo de Manoel de Lemos [Ferreira] e [mãe: ilegível] ...; foram Padrinhos
+    [ilegíveis] ...". This entry therefore resolves, rather than leaves open, the
+    mother's name.]
+  text_pt: >-
+    [corrigido em 2026-10-10 a partir da imagem: a "correção de data" de 2026-08-10
+    acima era ela própria uma leitura errada e fica superada. Relido em resolução
+    plena depois que a leitura do agente de recuperação, em resolução nativa,
+    divergiu da nossa, o assento diz "Aos desoito dias do mez de Março de mil oito
+    Centos e trinta e Oito" — 18 de março de 1838 (o "aproximadamente 15 de março de
+    1838" anterior do agente de recuperação acertava o mês). A criança estava
+    "nascido a tres mezes" (nascida por volta de dezembro de 1837). O pai é "Manoel
+    de Lemos Pereira" (a maiúscula coincide com o "P" desta mão em "Padrinhos" e
+    "Polidoro"), não "[Ferreira]"; a mãe, registrada como ilegível, é "Maria Thereza
+    de Je-zus"; os padrinhos, registrados como ilegíveis, são "He[r]menegildo Jozé de
+    Mattos, e N. Senhora". reading_reliability elevado de partial para complete. A
+    transcrição superada dizia: "[Aos dez?] dias [do mês de Novembro?] de mil
+    oitocentos e trinta e oito ... filho legítimo de Manoel de Lemos [Ferreira] e
+    [mãe: ilegível] ...; foram Padrinhos [ilegíveis] ...". Este assento, portanto,
+    resolve o nome da mãe, em vez de deixá-lo em aberto.]

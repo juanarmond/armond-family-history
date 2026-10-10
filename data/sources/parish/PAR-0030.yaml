@@ -2,12 +2,11 @@ schema_version: 1
 id: PAR-0030
 title: >-
   Parish baptism register entry of "Maria" (Maria de Lemos), 14 July 1832, Matriz
-  de São João Batista de Itaboraí, naming her parents Manoel de Lemos [Ferreira]
-  and Maria Nunes [de Jesus]
+  de São João Batista de Itaboraí, naming her parents Manoel de Lemos Pereira
+  and Maria Thereza
 title_pt: >-
   Assento de batismo de "Maria" (Maria de Lemos), 14 de julho de 1832, Matriz de São João
-  Batista de Itaboraí, que nomeia seus pais Manoel de Lemos [Ferreira] e Maria Nunes [de
-  Jesus]
+  Batista de Itaboraí, que nomeia seus pais Manoel de Lemos Pereira e Maria Thereza
 record_type: Parish baptism register entry (batismo, original)
 record_category: parish_register
 source_form: original
@@ -18,7 +17,7 @@ event_date:
   kind: exact
   value: "1832-07-14"
   original_text: >-
-    "Aos quatorze dias do mês de Julho de mil oitocentos e trinta e dois anos"
+    "Aos quatorze dias do mez de Julho de mil oitocentos e trinta e dous annos"
 event_place_text: >-
   Freguesia (Matriz) de São João Batista de Itaboraí, Província do Rio de Janeiro,
   Brazil
@@ -38,43 +37,48 @@ repository:
   repository_path: evidence/parish/PAR-0030-maria-de-lemos-baptism-1832-itaborai.jpg
 access_date: "2026-08-10"
 language: pt-BR
+reading_reliability: complete
 transcription: >-
   [Matriz de São João Batista de Itaboraí; livro de batismos 1832-1838. Entrada
-  do lado esquerdo, margem lateral "Maria".] "Aos quatorze dias do mês de Julho
-  de mil oitocentos e trinta e dois anos nesta Matriz de Itaborahy, batizei que
-  os Santos Óleos a inocente Maria, filha legítima de Manoel de Lemos [Ferreira] e
-  da Maria [Nunes de Jesus], naturais desta Freguesia; foram Padrinhos [Felício?]
-  José Custódio Vieira, dos que mandei fazer este assento que assinei. O Vigário
-  Fr.° R.s La Pena."
+  do lado esquerdo, a segunda da página, margem lateral "Maria". Relida na imagem
+  em 2026-10-10.] "Aos quatorze dias do mez de Julho de mil oitocentos e trinta e
+  dous annos nesta Matriz de Itaborahy baptizei, e puz os Santos Oleos á innocente
+  Maria, filha legitima de Manoel de Lemos Perei-ra, e de Maria [Th]ereza, naturaes
+  desta Freguezia; foi Padrinho o Capitão Joze Custodio Vieira, do que mandei fazer
+  este assen-to, que assigney. O Vig.rº Fran.co R.os la Pena." [A inicial do
+  segundo nome da mãe é uma maiúscula laçada — a mesma forma que esta mão usa em
+  "Maria [Th]ereza de Jezus" no assento de Anna, 1834 (PAR-0031); lida "Thereza".
+  Não se escreve "de Jesus" neste assento.]
 abstract: >-
-  The 1832 Itaboraí baptism of Maria, legitimate daughter of Manoel de Lemos
-  [Ferreira] (P-0052) and Maria [Nunes de Jesus] (P-0053), both natural of the
-  parish; godfather [Felício?] José Custódio Vieira. This Maria is Rosa Eugenia de
-  Lemos's (P-0035) older sister, confirmed by the same father name and parish as
-  PAR-0016. ⚠️ Mother recorded here as "Maria Nunes [de Jesus]"; Rosa's 1835
-  baptism (PAR-0016) records the mother as "Maria Thereza de Jesus" — the name
-  discrepancy is preserved; same woman recorded inconsistently by the vigário.
+  The 14 July 1832 Itaboraí baptism of Maria, legitimate daughter of Manoel de
+  Lemos Pereira (P-0052) and Maria Thereza (P-0053), both natural of the parish;
+  godfather Capitão José Custodio Vieira, who also stood godfather to her brother
+  Thomaz in 1836 (PAR-0032). This Maria is an older sister of Rosa Eugenia de Lemos
+  (P-0035): same parents, parish and register as PAR-0016. Corrected 2026-10-10
+  from the image: the father is written "Pereira", not "Ferreira", and the mother
+  "Maria [Th]ereza", not "Maria Nunes [de Jesus]" — so her name agrees with the
+  1834, 1835, 1836 and 1838 entries.
 abstract_pt: >-
-  O batismo, em Itaboraí em 1832, de Maria, filha legítima de Manoel de Lemos
-  [Ferreira] (P-0052) e de Maria [Nunes de Jesus] (P-0053), ambos naturais da
-  freguesia; padrinho [Felício?] José Custódio Vieira. Esta Maria é irmã mais velha
-  de Rosa Eugenia de Lemos (P-0035), confirmada pelo mesmo nome do pai e pela mesma
-  freguesia de PAR-0016. ⚠️ A mãe é aqui registrada como "Maria Nunes [de Jesus]";
-  o batismo de Rosa em 1835 (PAR-0016) registra a mãe como "Maria Thereza de Jesus"
-  — a divergência de nome é preservada; mesma mulher registrada de forma
-  inconsistente pelo vigário.
+  O batismo, em Itaboraí em 14 de julho de 1832, de Maria, filha legítima de Manoel
+  de Lemos Pereira (P-0052) e de Maria Thereza (P-0053), ambos naturais da
+  freguesia; padrinho o Capitão José Custodio Vieira, que também foi padrinho de seu
+  irmão Thomaz em 1836 (PAR-0032). Esta Maria é irmã mais velha de Rosa Eugenia de
+  Lemos (P-0035): mesmos pais, freguesia e livro de PAR-0016. Corrigido em
+  2026-10-10 a partir da imagem: o pai está escrito "Pereira", não "Ferreira", e a
+  mãe "Maria [Th]ereza", não "Maria Nunes [de Jesus]" — de modo que o nome dela
+  concorda com os assentos de 1834, 1835, 1836 e 1838.
 reliability:
   assessment: >-
-    Direct primary parish evidence of a Maria baptised 14 July 1832 at Itaboraí
-    to Manoel de Lemos [Ferreira] and Maria Nunes de Jesus. The father's name
-    cluster and parish match Rosa Eugenia de Lemos's 1835 baptism (PAR-0016),
-    strongly identifying this as her sibling. The mother-name variant (Nunes vs.
-    Thereza) is a scribal inconsistency rather than a different person.
+    Direct primary parish evidence, clearly legible: a Maria baptised 14 July 1832
+    at Itaboraí to Manoel de Lemos Pereira and Maria [Th]ereza, both natural of the
+    parish. Parents, parish and register match Rosa Eugenia de Lemos's 1835 baptism
+    (PAR-0016) and the 1834, 1836 and 1838 sibling entries (PAR-0031, PAR-0032,
+    PAR-0033).
   informant: Vigário Francisco Ramos Pena, São João Batista de Itaboraí (1832).
   limitations: >-
-    Volume in poor condition. The godfather's given name is uncertain ([Felício?]).
-    Mother recorded as "Maria Nunes [de Jesus]" here vs "Maria Thereza de Jesus"
-    in PAR-0016 — the discrepancy is unexplained but assessed as the same woman.
+    Volume in poor condition, but this entry is intact. The initial of the mother's
+    second name is an unusual looped capital, read "Th" by comparison with the same
+    hand's "Maria [Th]ereza de Jezus" in PAR-0031; no "de Jesus" is written here.
 digital_file:
   path: evidence/parish/PAR-0030-maria-de-lemos-baptism-1832-itaborai.jpg
   sha256: dd4762893d9c11678246d36d9c07b6b9d47982eb07273a8d642940c3bed21ba9
@@ -90,3 +94,27 @@ notes:
 - text: >-
     Sibling of Rosa Eugenia de Lemos (P-0035): baptised 14 July 1832, 3 years before
     Rosa (PAR-0016, Oct 1835). Added as documented_child on F-0025.
+- text: >-
+    [corrected 2026-10-10 from the image: re-read at full resolution after the
+    retrieval agent's native-resolution reading disagreed with ours. The father is
+    "Manoel de Lemos Perei-ra" (the capital matches this hand's "P" in "Padrinho"),
+    not "[Ferreira]"; the mother is "Maria [Th]ereza", not "Maria [Nunes de Jesus]";
+    the godfather is "o Capitão Joze Custodio Vieira", not "[Felício?] José Custódio
+    Vieira"; the text reads "baptizei, e puz os Santos Oleos", not "batizei que os
+    Santos Óleos". The superseded transcription read: "... filha legítima de Manoel
+    de Lemos [Ferreira] e da Maria [Nunes de Jesus], naturais desta Freguesia; foram
+    Padrinhos [Felício?] José Custódio Vieira ...". The "Maria Nunes de Jesus" form
+    and the scribal-inconsistency / two-women reasoning built on it (P-0053, F-0025)
+    rested on that misreading and are retired.]
+  text_pt: >-
+    [corrigido em 2026-10-10 a partir da imagem: relido em resolução plena depois que
+    a leitura do agente de recuperação, em resolução nativa, divergiu da nossa. O pai
+    é "Manoel de Lemos Perei-ra" (a maiúscula coincide com o "P" desta mão em
+    "Padrinho"), não "[Ferreira]"; a mãe é "Maria [Th]ereza", não "Maria [Nunes de
+    Jesus]"; o padrinho é "o Capitão Joze Custodio Vieira", não "[Felício?] José
+    Custódio Vieira"; o texto diz "baptizei, e puz os Santos Oleos", não "batizei que
+    os Santos Óleos". A transcrição superada dizia: "... filha legítima de Manoel de
+    Lemos [Ferreira] e da Maria [Nunes de Jesus], naturais desta Freguesia; foram
+    Padrinhos [Felício?] José Custódio Vieira ...". A forma "Maria Nunes de Jesus" e
+    o raciocínio de inconsistência de escrivão / duas mulheres construído sobre ela
+    (P-0053, F-0025) apoiavam-se nessa leitura errada e ficam aposentados.]

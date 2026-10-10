@@ -1,12 +1,12 @@
 schema_version: 1
 id: PAR-0032
 title: >-
-  Parish baptism register entry of "Thomas" (Thomaz de Lemos), c. June 1836, Matriz
+  Parish baptism register entry of "Thomaz" (Thomaz de Lemos), 13 June 1836, Matriz
   de São João Batista de Itaboraí, naming his parents Manoel de Lemos and Maria
-  Thereza [de Jesus]
+  Thereza
 title_pt: >-
-  Assento de batismo de "Thomas" (Thomaz de Lemos), c. junho de 1836, Matriz de São João
-  Batista de Itaboraí, que nomeia seus pais Manoel de Lemos e Maria Thereza [de Jesus]
+  Assento de batismo de "Thomaz" (Thomaz de Lemos), 13 de junho de 1836, Matriz de São
+  João Batista de Itaboraí, que nomeia seus pais Manoel de Lemos e Maria Thereza
 record_type: Parish baptism register entry (batismo, original)
 record_category: parish_register
 source_form: original
@@ -14,12 +14,11 @@ information_quality: primary
 evidence_type: direct
 usage: evidence
 event_date:
-  kind: month
-  year: 1836
-  month: 6
+  kind: exact
+  value: "1836-06-13"
   original_text: >-
-    "[Aos ?] dias do mês de Junho de mil oitocentos e trinta e [seis]" —
-    exact day unclear from damaged page; June 1836 secure.
+    "Aos treze dias do mez de Junho de mil oito centos e trinta e seis"
+    [corrected 2026-10-10 from the image: the day "treze" is legible — see notes]
 event_place_text: >-
   Freguesia (Matriz) de São João Batista de Itaboraí, Província do Rio de Janeiro,
   Brazil
@@ -39,39 +38,45 @@ repository:
   repository_path: evidence/parish/PAR-0032-thomaz-de-lemos-baptism-1836-itaborai.jpg
 access_date: "2026-08-10"
 language: pt-BR
+reading_reliability: complete
 transcription: >-
-  [Matriz de São João Batista de Itaboraí; livro de batismos 1832-1838. Margem
-  lateral "Thomas". Página parcialmente danificada; dia exato e padrinhos
-  ilegíveis.] "[Aos ?] dias do mês de Junho de mil oitocentos e trinta e [seis]
-  anos nesta Matriz de Itaborahy, batizei que os Santos Óleos o Reverendo [?] ao
-  inocente Thomas, filho legítimo de Manoel de Lemos [e] [?] Maria Thereza[?],
-  naturais desta Freguesia; foram Padrinhos [?]; para Constar mandei fazer este
-  assento que assinei. O Vigário Fr.° R.s Pena."
+  [Matriz de São João Batista de Itaboraí; livro de batismos 1832-1838. Página
+  direita, quarta entrada; margem lateral "Thomaz / inn.e". Relida na imagem em
+  2026-10-10.] "Aos treze dias do mez de Junho de mil oito centos e trinta e seis
+  nesta matriz baptizou e pos os Santos Oleos o Reveren-do Vigario, a innocente
+  Thomaz nascido a tres me-zes filho legitimo de Manoel de Lemos, e Maria Thereza,
+  naturaes desta freguezia forão Padrinhos o Cap.am Jozé Custodio Vieira, e N.
+  Snr.a, e para Cons-tar mandey fazer este asento que assigney. O Vig.rº Fran.co
+  R.os Pena."
 abstract: >-
-  The c.1836 Itaboraí baptism of Thomas (Thomaz), legitimate son of Manoel de
-  Lemos (P-0052) and Maria Thereza [de Jesus] (P-0053), natural of the parish.
-  This Thomas is Rosa Eugenia de Lemos's (P-0035) brother, confirmed by parent pair
-  and parish. ⚠️ Mother recorded here as "Maria Thereza" — matching PAR-0016
-  (1835) but differing from the "Maria Nunes de Jesus" of PAR-0030 (1832) and
-  PAR-0031 (1834); scribal inconsistency, same woman. Godparents illegible due to
-  page damage.
+  The 13 June 1836 Itaboraí baptism of Thomaz, "nascido a tres mezes" (born about
+  March 1836), legitimate son of Manoel de Lemos (P-0052) and Maria Thereza
+  (P-0053), natural of the parish; godparents Capitão José Custodio Vieira — who
+  had stood godfather to his sister Maria in 1832 (PAR-0030) — and "N. Snr.a"
+  (Nossa Senhora, the Virgin as devotional godmother). This Thomaz is a younger
+  brother of Rosa Eugenia de Lemos (P-0035): same parents, parish and register as
+  PAR-0016. Corrected 2026-10-10 from the image: the day (13), the birth interval
+  and the godparents, earlier read as illegible, are legible; the child's name is
+  written "Thomaz".
 abstract_pt: >-
-  O batismo, em Itaboraí por volta de 1836, de Thomas (Thomaz), filho legítimo de
-  Manoel de Lemos (P-0052) e de Maria Thereza [de Jesus] (P-0053), natural da
-  freguesia. Este Thomas é irmão de Rosa Eugenia de Lemos (P-0035), confirmado pelo
-  par de pais e pela freguesia. ⚠️ A mãe é aqui registrada como "Maria Thereza" —
-  coincidindo com PAR-0016 (1835), mas diferindo da "Maria Nunes de Jesus" de
-  PAR-0030 (1832) e PAR-0031 (1834); inconsistência de escrivão, a mesma mulher.
-  Padrinhos ilegíveis devido a danos na página.
+  O batismo, em Itaboraí em 13 de junho de 1836, de Thomaz, "nascido a tres mezes"
+  (nascido por volta de março de 1836), filho legítimo de Manoel de Lemos (P-0052)
+  e de Maria Thereza (P-0053), naturais da freguesia; padrinhos o Capitão José
+  Custodio Vieira — que fora padrinho de sua irmã Maria em 1832 (PAR-0030) — e "N.
+  Snr.a" (Nossa Senhora, a Virgem como madrinha devocional). Este Thomaz é irmão
+  mais novo de Rosa Eugenia de Lemos (P-0035): mesmos pais, freguesia e livro de
+  PAR-0016. Corrigido em 2026-10-10 a partir da imagem: o dia (13), o intervalo de
+  nascimento e os padrinhos, antes lidos como ilegíveis, são legíveis; o nome da
+  criança está escrito "Thomaz".
 reliability:
   assessment: >-
-    Direct primary parish evidence. Father's name "Manoel de Lemos" and the mother's
-    "Maria Thereza" form clearly support the F-0025 parent pair. The exact day is
-    unclear from the damaged page.
+    Direct primary parish evidence, legible at full resolution. Father "Manoel de
+    Lemos" and mother "Maria Thereza", natural of the parish — the F-0025 parent
+    pair, as in Rosa's 1835 baptism (PAR-0016).
   informant: Vigário Francisco Ramos Pena, São João Batista de Itaboraí (1836).
   limitations: >-
-    Volume in poor condition; exact day, godparent names, and some text around the
-    mother's name illegible or uncertain. June 1836 is secure from visible text.
+    Volume in poor condition (torn upper edge), but this entry is intact. The
+    mother is written "Maria Thereza" without "de Jesus".
 digital_file:
   path: evidence/parish/PAR-0032-thomaz-de-lemos-baptism-1836-itaborai.jpg
   sha256: e6b82ba11d5d04bb8ae458ea9c71a51dd0ce2d82a1b34c98f4178960c29bf876
@@ -87,3 +92,33 @@ notes:
 - text: >-
     Sibling of Rosa Eugenia de Lemos (P-0035): baptised c. June 1836, ~8 months
     after Rosa (PAR-0016, Oct 1835). Added as documented_child on F-0025.
+- text: >-
+    [corrected 2026-10-10 from the image: re-read at full resolution after the
+    retrieval agent's native-resolution reading disagreed with ours. The day is
+    "treze" (the same form as "Aos treze" in the Francisco entry immediately above,
+    also of June 1836), so the baptism is 13 June 1836, not "c. June 1836". The
+    entry states "nascido a tres mezes" (born about March 1836). The godparents are
+    "o Cap.am Jozé Custodio Vieira, e N. Snr.a", not illegible; the father is plain
+    "Manoel de Lemos" and the mother "Maria Thereza" (confirmed). The text reads
+    "baptizou e pos os Santos Oleos o Reverendo Vigario", in the third person. The
+    superseded transcription read: "[Aos ?] dias do mês de Junho ... batizei que os
+    Santos Óleos o Reverendo [?] ao inocente Thomas, filho legítimo de Manoel de
+    Lemos [e] [?] Maria Thereza[?] ...; foram Padrinhos [?] ...". The earlier note
+    that Thomaz was baptised "~8 months after Rosa" stands (12 Oct 1835 → 13 Jun
+    1836), but his stated birth about March 1836 puts the births about fifteen
+    months apart.]
+  text_pt: >-
+    [corrigido em 2026-10-10 a partir da imagem: relido em resolução plena depois que
+    a leitura do agente de recuperação, em resolução nativa, divergiu da nossa. O dia
+    é "treze" (a mesma forma de "Aos treze" no assento de Francisco imediatamente
+    acima, também de junho de 1836), de modo que o batismo é de 13 de junho de 1836,
+    não "c. junho de 1836". O assento declara "nascido a tres mezes" (nascido por
+    volta de março de 1836). Os padrinhos são "o Cap.am Jozé Custodio Vieira, e N.
+    Snr.a", não ilegíveis; o pai é apenas "Manoel de Lemos" e a mãe "Maria Thereza"
+    (confirmado). O texto diz "baptizou e pos os Santos Oleos o Reverendo Vigario",
+    na terceira pessoa. A transcrição superada dizia: "[Aos ?] dias do mês de Junho
+    ... batizei que os Santos Óleos o Reverendo [?] ao inocente Thomas, filho legítimo
+    de Manoel de Lemos [e] [?] Maria Thereza[?] ...; foram Padrinhos [?] ...". A nota
+    anterior de que Thomaz foi batizado "~8 meses depois de Rosa" mantém-se (12 out.
+    1835 → 13 jun. 1836), mas seu nascimento declarado, por volta de março de 1836,
+    põe os dois nascimentos cerca de quinze meses um do outro.]

@@ -18,6 +18,12 @@
 #            so the deploy does not send its notification a second time.
 
 updates:
+  - date: "2026-10-10"
+    kind: correction
+    title: "Correction: the Lemos baptisms re-read on the images — Rosa Eugenia de Lemos was baptised on 12 October 1835, her parents' marriage is now confirmed by five baptisms, the supposed second wife \"Maria Nunes de Jesus\" was a misreading, and her 1879 marriage was registered at Itaboraí, not Nova Friburgo"
+    title_pt: "Correção: os batismos dos Lemos relidos nas imagens — Rosa Eugenia de Lemos foi batizada em 12 de outubro de 1835, o casamento dos pais agora está confirmado por cinco batismos, a suposta segunda esposa \"Maria Nunes de Jesus\" era um erro de leitura, e o casamento dela, de 1879, foi registrado em Itaboraí, não em Nova Friburgo"
+    links: [P-0035, P-0052, P-0053, P-0034, PAR-0016]
+
   - date: "2026-10-09"
     kind: correction
     title: "Correction: the published genealogies, re-read in full — 13 dates and family links that rest only on them are now hypotheses; several of their dates prove to be baptisms, not births; the case that Gaspar Ferreira came from Terceira is weaker; and a brother of Vicente Borer listed by mistake is removed, with two of his sisters' birth dates corrected"

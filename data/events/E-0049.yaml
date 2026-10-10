@@ -2,12 +2,11 @@ schema_version: 1
 id: E-0049
 event_type: baptism
 date:
-  kind: month
-  year: 1835
-  month: 10
+  kind: exact
+  value: "1835-10-12"
   original_text: >-
-    "Aos [dez] dias do mez de Outubro de mil oito centos trinta e cinco" (PAR-0016);
-    the child is noted "nascida a dez mezes", so born about late 1834.
+    "Aos doze dias do mez de Outubro de mil oito centos e trinta e cinco" (PAR-0016);
+    the child is noted "nascida a dez mezes", so born about December 1834.
 place_text: >-
   Freguesia (Matriz) de São João Batista de Itaboraí, Província do Rio de Janeiro,
   Brazil
@@ -29,3 +28,16 @@ notes:
     was recorded "nascida a dez mezes" (born about late 1834). Strong-evidence
     because the register gives only the forename "Roza" (see F-0025 for the identity
     reasoning).
+- text: >-
+    [corrected 2026-10-10 from the image: the day is "doze" — 12 October 1835 — not
+    the uncertain "[dez]" that left this event month-only; re-read on PAR-0016 at full
+    resolution after the retrieval agent's native-resolution reading disagreed with
+    ours. The godmother is "Ro[z]a de Maria da Conceição", not "Flor de Maria da
+    Conceição". Status unchanged (the forename-only identification still governs).]
+  text_pt: >-
+    [corrigido em 2026-10-10 a partir da imagem: o dia é "doze" — 12 de outubro de
+    1835 — e não o incerto "[dez]" que deixava este evento só com o mês; relido em
+    PAR-0016 em resolução plena depois que a leitura do agente de recuperação, em
+    resolução nativa, divergiu da nossa. A madrinha é "Ro[z]a de Maria da
+    Conceição", não "Flor de Maria da Conceição". Status inalterado (a identificação
+    apenas pelo prenome continua a determiná-lo).]

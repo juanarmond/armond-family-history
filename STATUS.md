@@ -28,8 +28,11 @@ catalogues each valuable image as evidence. The deeper open problem — **Simpl�
 
 ## Next steps
 
-_Resume checkpoint refreshed 2026-10-08._ Ordered queue; per-record detail lives in
+_Resume checkpoint refreshed 2026-10-10._ Ordered queue; per-record detail lives in
 `data/record-coverage.yaml`, archive replies in `logs/correspondence-log.md`.
+
+0. **Highest-value deliveries (see blockers):** the Itaboraí 1821/1840/1841 baptisms naming Rosa's
+   four grandparents (then model them above P-0052/P-0053), and the Terceira A5 death (item 18).
 
 1. **PRIMARY OPEN PROBLEM — Simplício José Ferreira Armond (P-0016): father unknown.**
    Modelled only as Eliza's husband (union F-0006), a child in no family, but the gap is
@@ -48,15 +51,11 @@ _Resume checkpoint refreshed 2026-10-08._ Ordered queue; per-record detail lives
 2. **Aristão & Liliosa (external agent):** Aristão's baptism (film 004640627 img 54) and his
    marriage to Liliosa (film 004640632 img 6); Liliosa's own records (her 1946 Eugenópolis
    óbito naming her parents; Barra Mansa 1946 civil-death index). Value-gate and catalogue.
-3. **P-0016 nearer leads (requested by the retrieval side, C-013):** the Tombos 1854–57
-   land-register index row "Simplicio José Ferreira", p. 26 — a candidate father; value-gate the
-   page when it arrives. The 1838–39 Meia Pataca map has no Armond, but an 1856 land declaration by
-   an Antonio Ferreira Armondes in the same parish (reported, not held) means the fogo-68 couple may
-   never have left. Detail, negatives and the 44-variant caveat: `record-coverage` P-0016.
-4. **Flagged drop targets (record-coverage P-0016):** culturacores C-1673-1766 `_0034`
-   (+ sweep `_0030–_0044`) for the third Cardozo × Fagundes attestation; the Honório 1845
-   principal autos; the Pitanguy inventário. Trunk material stays LEAD-level until a primary
-   record bridges it.
+3. **P-0016 nearer leads (2026-10-10):** the 1905 "natural de Barbacena" moves his baptism search
+   to Barbacena (six Simplício baptisms 1840–56 found there, none Armond; a stated age decides);
+   the Tombos "Simplicio José Ferreira" is the Fonseca candidate, now reported excluded; Meia
+   Pataca 1838 (120 fogos) has no Armond. Detail: `record-coverage` P-0016; trunk material stays
+   LEAD-level until a primary record bridges it.
 5. **Other lines:** Vicente's Portuguese parish (CIV-0007) — the São João Batista do Rio Claro
    marriage is microfilmed at FamilySearch (DGS 004632513–515, rolls 1252455/1252454) but
    access-restricted online, so **flag it as a free FS-retrieval-agent target FIRST**; the
@@ -79,7 +78,9 @@ _Resume checkpoint refreshed 2026-10-08._ Ordered queue; per-record detail lives
 - **Awaiting images from the retrieval side:** its handoff has excluded record images since
   2026-10-06, so these located finds cannot be value-gated yet: Jacob Borer's Beinwil baptism,
   the BPAR Requisição nº101 scans, the two BPARPD Muniz inventários (1819, 1867) and the AMAP São
-  Paio baptisms.
+  Paio baptisms; and from the 2026-10-10 drop, the Itaboraí baptisms naming Rosa's grandparents,
+  the Terceira primaries A1–A6, the 1905 Muriaé will-approval (P-0016) and documents naming
+  P-0008, P-0019, P-0032, P-0056 and P-0021 (triage ledger, 2026-10-10).
 - **FamilySearch restricted images:** groups `004640627` (Aristão baptism, from img 54) and
   `004640632` (Aristão × Liliosa marriage, from img 6) are queued for the external retrieval
   agent; earlier images in each group need authorised FS Center/Library access.
@@ -168,7 +169,7 @@ subject's private records. Details are canonical in `data/sources/`; gaps in
     1916; PAR-0003, 1922) — against one 1975 non-relative-informant reading. "Ascendino"
     preserved as a P-0038 name_variant; Alcida added as a documented sister of Luiza
     (P-0013) on F-0018 [STRONG-EVIDENCE].
-18. **OPEN (2026-09-23; corrected 2026-10-09):** Gaspar Ferreira (P-0092) identity. PUB-0005 (Vol. IX p.261) gives Gaspar de Souto-Maior bapt. São Sebastião 23.2.1657 and d. 2.12.1727 with no death place printed; the same entry has him remarrying at São Sebastião on 8.2.1694 and having children baptised there in 1698–1701, so he was on Terceira into his forties. P-0092 is placed in Villa Rica, MG, with a son marrying in 1783. The identification is weaker, not rejected; the F-0062 Azorean parentage stays [COMPILED/LEAD] pending a primary emigration record (its links and E-0135, now a baptism event, are hypothesis since 2026-10-09). The Ferreira Armonde trunk (a lead since 2026-08-10, now transcribed in PUB-0002 ff. 55–56): the Barbacena patriarch Francisco Ferreira Armonde's 1751 will names his parents "Gaspar de Souto Maior e … Margarida das Candeyas" of São Sebastião; Lacerda, after a private 2008 typescript (Paulo Ribeiro Luz), makes him a paternal grandson of Belchior × Mariana and gives his mother as "Margarida das Candeyas Machado", daughter of Capitão Francisco Ferreira Ermonde/Armonde × Ana Machado. The 1690 marriage image read on 2026-09-01 (uncatalogued) names Gaspar's parents (Alferes Belchior de Ponte, Mariana) and the bride's (Francisco Ferreira de Ermonde, D. Ana Machado), consistent with that. So the Terceira Gaspar most likely reaches Brazil through the Ferreira Armonde of Barbacena — a branch whose bridge to P-0016 is itself unproven — rather than through P-0092. Next actions: catalogue the 1690 São Sebastião marriage image (re-sync it from the retrieval side if it is no longer in the drop); the patriarch's 1751 will and inventory (MRSJDR, fls. 17); a page-by-page read of the São Sebastião baptisms 1691–April 1693 (BPAR's index found none). See P-0092, P-0016, PUB-0002 and PUB-0005 notes.
+18. **OPEN (2026-09-23; corrected 2026-10-09):** Gaspar Ferreira (P-0092) identity. PUB-0005 (Vol. IX p.261) gives Gaspar de Souto-Maior bapt. São Sebastião 23.2.1657 and d. 2.12.1727 with no death place printed; the same entry has him remarrying at São Sebastião on 8.2.1694 and having children baptised there in 1698–1701, so he was on Terceira into his forties. P-0092 is placed in Villa Rica, MG, with a son marrying in 1783. The identification is weaker, not rejected; the F-0062 Azorean parentage stays [COMPILED/LEAD] pending a primary emigration record (its links and E-0135, now a baptism event, are hypothesis since 2026-10-09). The Ferreira Armonde trunk (a lead since 2026-08-10, now transcribed in PUB-0002 ff. 55–56): the Barbacena patriarch Francisco Ferreira Armonde's 1751 will names his parents "Gaspar de Souto Maior e … Margarida das Candeyas" of São Sebastião; Lacerda, after a private 2008 typescript (Paulo Ribeiro Luz), makes him a paternal grandson of Belchior × Mariana and gives his mother as "Margarida das Candeyas Machado", daughter of Capitão Francisco Ferreira Ermonde/Armonde × Ana Machado. The 1690 marriage image read on 2026-09-01 (uncatalogued) names Gaspar's parents (Alferes Belchior de Ponte, Mariana) and the bride's (Francisco Ferreira de Ermonde, D. Ana Machado), consistent with that. So the Terceira Gaspar most likely reaches Brazil through the Ferreira Armonde of Barbacena — a branch whose bridge to P-0016 is itself unproven — rather than through P-0092. Next actions: catalogue the 1690 São Sebastião marriage image (re-sync it from the retrieval side if it is no longer in the drop); the patriarch's 1751 will and inventory (MRSJDR, fls. 17); a page-by-page read of the São Sebastião baptisms 1691–April 1693 (BPAR's index found none). **2026-10-10 — likely resolved, owner decision pending:** the retrieval side's primary reads (plan items A1–A6; images not yet held here) give the Terceira Gaspar's baptism as 23 Dec 1657 on a BPAR 300-dpi original (parents Belchior × Mariana), his 1690 marriage and his sister's 1693 marriage naming the same parents, and his death at São Sebastião on 2 Dec 1727 "de idade de setenta annos". If the death entry is confirmed here, P-0092 (Vila Rica) cannot be him: recommend rejecting F-0062's P-0092 links once A5 is catalogued, which detaches the Terceira ancestors from the owner's line as modelled (the Armond branch's earliest record year would move from 1615) and leaves them as the trunk the Barbacena Ferreira Armonde claim. The retrieval side already treats them that way. See P-0092, P-0016, PUB-0002 and PUB-0005 notes.
 
 Do not resolve a conflict by deleting the weaker version. Preserve every
 material interpretation with its source and confidence.

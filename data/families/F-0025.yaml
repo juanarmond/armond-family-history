@@ -6,15 +6,38 @@ partners:
 - person_id: P-0053
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
   - PAR-0016
+  - PAR-0030
+  - PAR-0031
+  - PAR-0032
+  - PAR-0033
   notes:
   - text: >-
       Manoel de Lemos [Pereira] and Maria Thereza de Jesus are named as the married
       parents of their "filha legitima" Roza in the 1835 Itaboraí baptism (PAR-0016);
       the legitimate-daughter statement attests their marriage, though no marriage
       record is located.
+  - text: >-
+      Upgraded strong-evidence → confirmed on 2026-10-10. The 2026-08-13 tier audit rested
+      on a single child's baptism; after the image re-read of 2026-10-10, five independent
+      original Itaboraí baptisms (Maria 1832, Anna 1834, Roza 1835, Thomaz 1836, Polidoro
+      1838 — PAR-0030, PAR-0031, PAR-0016, PAR-0032, PAR-0033) each name a "legitimo/a"
+      child of this couple, and the one apparent conflict (a second mother, "Maria Nunes de
+      Jesus") was a misreading, now retired. A coherent body of primary evidence with no
+      material conflict (research/README.md, Confirmed). The marriage act itself is not held
+      (before March 1821, per the retrieval side's reading of other baptisms — a lead).
+    text_pt: >-
+      Elevado de evidência forte para confirmado em 2026-10-10. A auditoria de 2026-08-13 se
+      apoiava num único batismo de filho; depois da releitura das imagens em 2026-10-10, cinco
+      batismos originais e independentes de Itaboraí (Maria 1832, Anna 1834, Roza 1835, Thomaz
+      1836, Polidoro 1838 — PAR-0030, PAR-0031, PAR-0016, PAR-0032, PAR-0033) nomeiam cada um
+      um filho "legitimo/a" deste casal, e o único conflito aparente (uma segunda mãe, "Maria
+      Nunes de Jesus") era um erro de leitura, agora retirado. Um conjunto coerente de
+      evidência primária sem conflito material (research/README.md, Confirmado). O assento de
+      casamento em si não está guardado (antes de março de 1821, segundo a leitura de outros
+      batismos pela pesquisa de recuperação — uma pista).
 children:
 - person_id: P-0035
   parent_relationships:
@@ -74,36 +97,49 @@ documented_children:
   - PAR-0030
   note: >-
     Sister of Rosa Eugenia (P-0035); baptized 14 July 1832, Matriz de São João
-    Batista de Itaborahy. Father: Manoel de Lemos [Ferreira]; mother: Maria Nunes
-    [de Jesus] (scribal variant of the "Maria Thereza de Jesus" in PAR-0016 — same
-    woman, recorded inconsistently). Godfather: [Felício?] José Custódio Vieira.
-    Source: PAR-0030 (individual baptism image, read 2026-08-10).
+    Batista de Itaborahy. Father: Manoel de Lemos Pereira; mother: Maria [Th]ereza.
+    Godfather: Capitão José Custodio Vieira. Source: PAR-0030 (individual baptism
+    image, read 2026-08-10; re-read 2026-10-10). [corrected 2026-10-10 from the
+    image: earlier read father "Manoel de Lemos [Ferreira]", mother "Maria Nunes [de
+    Jesus]" (then explained as a scribal variant of "Maria Thereza de Jesus") and
+    godfather "[Felício?] José Custódio Vieira" — all misreadings.]
 - name: Anna de Lemos
   source_ids:
   - PAR-0031
   note: >-
-    Sister of Rosa Eugenia (P-0035); baptized 12 February 1834, Matriz de São João
-    Batista de Itaborahy. Father: Manoel de Lemos Ferreira; mother: Maria Nunes de
-    Jesus. Godparents: José Antonio + Anna Roza de Guimarães.
-    Source: PAR-0031 (individual baptism image, read 2026-08-10).
+    Sister of Rosa Eugenia (P-0035); baptized 11 February 1834, Matriz de São João
+    Batista de Itaborahy. Father: Manoel de Lemos Pereira; mother: Maria Thereza de
+    Jezus. Godparents: João José Antunes + Anna Roza da Encarnação. Source: PAR-0031
+    (individual baptism image, read 2026-08-10; re-read 2026-10-10). [corrected
+    2026-10-10 from the image: earlier read 12 February, father "Manoel de Lemos
+    Ferreira", mother "Maria Nunes de Jesus" and godparents "José Antonio + Anna
+    Roza de Guimarães" — all misreadings.]
 - name: Thomaz de Lemos
   source_ids:
   - PAR-0032
   note: >-
-    Brother of Rosa Eugenia (P-0035); baptized c. June 1836, Matriz de São João
-    Batista de Itaborahy. Father: Manoel de Lemos; mother: Maria Thereza [de Jesus]
-    (matching PAR-0016; distinct from the "Maria Nunes" variant in PAR-0030/0031 —
-    same woman, see F-0025 notes). Source: PAR-0032 (individual baptism image, read
-    2026-08-10).
+    Brother of Rosa Eugenia (P-0035); baptized 13 June 1836, "nascido a tres mezes"
+    (born about March 1836), Matriz de São João Batista de Itaborahy. Father: Manoel
+    de Lemos; mother: Maria Thereza. Godparents: Capitão José Custodio Vieira + N.
+    Senhora. Source: PAR-0032 (individual baptism image, read 2026-08-10; re-read
+    2026-10-10). [corrected 2026-10-10 from the image: earlier recorded as "c. June
+    1836" with the godparents illegible, and contrasted with a "Maria Nunes" variant
+    in PAR-0030/0031 that was a misreading — the mother is "Maria Thereza" in every
+    legible entry.]
 - name: Polidoro de Lemos
   source_ids:
   - PAR-0033
   note: >-
-    Brother of Rosa Eugenia (P-0035); baptized c. November 1838, Matriz de São João
-    Batista de Itaborahy. Father: Manoel de Lemos Ferreira (confirmed); mother's name
-    damaged and illegible in the register. Source: PAR-0033 (individual baptism image,
-    read 2026-08-10). ⚠️ Date corrected from "15 March 1838" (retrieval-agent initial
-    read) to c. November 1838 (direct image verification 2026-08-10).
+    Brother of Rosa Eugenia (P-0035); baptized 18 March 1838, "nascido a tres mezes"
+    (born about December 1837), Matriz de São João Batista de Itaborahy. Father:
+    Manoel de Lemos Pereira; mother: Maria Thereza de Jezus. Godparents: Hermenegildo
+    José de Mattos + N. Senhora. Source: PAR-0033 (individual baptism image, read
+    2026-08-10; re-read 2026-10-10). ⚠️ Date history: the retrieval agent's initial
+    "approximately 15 March 1838" was changed on 2026-08-10 to "c. November 1838"
+    (father then read "Ferreira", mother's name and godparents "illegible").
+    [corrected 2026-10-10 from the image: the entry reads "Aos desoito dias do mez de
+    Março" — 18 March 1838; the November reading, the "Ferreira" and the illegible
+    mother were misreadings.]
 - name: Manoel Pereira de Lemos
   source_ids:
   - NWS-0002
@@ -126,11 +162,14 @@ notes:
     Bohrer (Lemos) line one generation above P-0035.
 - text: >-
     Rosa's siblings from the same 1832-1838 Itaborahy register (PAR-0030/0031/0032/
-    0033): Maria (bapt. 14 Jul 1832), Anna (bapt. 12 Feb 1834), Thomaz (bapt. c. Jun
-    1836), Polidoro (bapt. c. Nov 1838). All now individually catalogued with their
+    0033): Maria (bapt. 14 Jul 1832), Anna (bapt. 11 Feb 1834), Thomaz (bapt. 13 Jun
+    1836), Polidoro (bapt. 18 Mar 1838). All now individually catalogued with their
     own source IDs. The older Candido Pereira de Lemos (PRB-0005, unnamed in the
-    baptism sweep) preceded them.
+    baptism sweep) preceded them. [corrected 2026-10-10 from the images: Anna's,
+    Thomaz's and Polidoro's dates were earlier given as 12 Feb 1834, c. Jun 1836 and
+    c. Nov 1838.]
 - text: >-
+    RETIRED 2026-10-10 — rested on a misreading (see the 2026-10-10 note below).
     ⚠️ Mother-name discrepancy: Maria and Anna's baptisms (PAR-0030, PAR-0031) record
     the mother as "Maria Nunes [de Jesus]"; Rosa's baptism (PAR-0016) and Thomaz's
     (PAR-0032) record her as "Maria Thereza [de Jesus]". The vigário recorded the
@@ -148,4 +187,37 @@ notes:
     modelled "Manoel de Lemos Pereira" (P-0052) in a different word order, and adds yet another
     form of the mother's name ("Maria Tereza Pereira de Lemos" alongside the already-noted "Maria
     Thereza de Jesus" / "Maria Nunes de Jesus", P-0053). The 1835 baptism form governs; the 1919
-    forms are recorded as variants, not overwriting.
+    forms are recorded as variants, not overwriting. [2026-10-10: the "Maria Nunes de Jesus" form
+    is retired as a misreading — see the next note.]
+- text: >-
+    [corrected 2026-10-10 from the images: all five 1832-1838 baptisms were re-read at full
+    resolution after the retrieval agent's native-resolution reading disagreed with ours. The
+    mother is "Maria [Th]ereza" (1832), "Maria Thereza de Jezus" (1834, 1838), "Maria Thereza de
+    Jesus" (1835) and "Maria Thereza" (1836) — never "Maria Nunes de Jesus", which was a
+    misreading of PAR-0030 and PAR-0031. The father is "Manoel de Lemos Pereira" in 1832, 1834 and
+    1838 and plain "Manoel de Lemos" in 1835 and 1836 — never "Ferreira". So the mother-name
+    discrepancy, the "same woman recorded inconsistently" explanation and the "two women / two
+    wives" alternative noted on P-0053 are retired: the name is consistent across the set.
+    Corrected dates: Anna 11 Feb 1834; Rosa 12 Oct 1835 ("nascida a dez mezes"); Thomaz 13 Jun
+    1836 ("nascido a tres mezes"); Polidoro 18 Mar 1838 ("nascido a tres mezes"). Godparents:
+    Capitão José Custodio Vieira (Maria 1832; Thomaz 1836, with N. Senhora); João José Antunes +
+    Anna Roza da Encarnação (Anna 1834); Manoel José da Silva + Ro[z]a de Maria da Conceição
+    (Rosa 1835); Hermenegildo José de Mattos + N. Senhora (Polidoro 1838). Five legitimate-child
+    baptisms now name the same couple (PAR-0016, PAR-0030, PAR-0031, PAR-0032, PAR-0033); the
+    partner_relationship status and source_ids are left unchanged here.]
+  text_pt: >-
+    [corrigido em 2026-10-10 a partir das imagens: os cinco batismos de 1832-1838 foram relidos em
+    resolução plena depois que a leitura do agente de recuperação, em resolução nativa, divergiu
+    da nossa. A mãe é "Maria [Th]ereza" (1832), "Maria Thereza de Jezus" (1834, 1838), "Maria
+    Thereza de Jesus" (1835) e "Maria Thereza" (1836) — nunca "Maria Nunes de Jesus", que era uma
+    leitura errada de PAR-0030 e PAR-0031. O pai é "Manoel de Lemos Pereira" em 1832, 1834 e 1838
+    e apenas "Manoel de Lemos" em 1835 e 1836 — nunca "Ferreira". Assim, a divergência no nome da
+    mãe, a explicação de "mesma mulher registrada de forma inconsistente" e a alternativa de
+    "duas mulheres / duas esposas" anotada em P-0053 ficam aposentadas: o nome é consistente em
+    todo o conjunto. Datas corrigidas: Anna 11 fev. 1834; Rosa 12 out. 1835 ("nascida a dez
+    mezes"); Thomaz 13 jun. 1836 ("nascido a tres mezes"); Polidoro 18 mar. 1838 ("nascido a tres
+    mezes"). Padrinhos: Capitão José Custodio Vieira (Maria 1832; Thomaz 1836, com N. Senhora);
+    João José Antunes + Anna Roza da Encarnação (Anna 1834); Manoel José da Silva + Ro[z]a de Maria
+    da Conceição (Rosa 1835); Hermenegildo José de Mattos + N. Senhora (Polidoro 1838). Cinco
+    batismos de filhos legítimos nomeiam agora o mesmo casal (PAR-0016, PAR-0030, PAR-0031,
+    PAR-0032, PAR-0033); o status e as source_ids de partner_relationship ficam inalterados aqui.]

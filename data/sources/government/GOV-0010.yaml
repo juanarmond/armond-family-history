@@ -1,13 +1,13 @@
 schema_version: 1
 id: GOV-0010
 title: >-
-  1792/1794 colonial sesmaria grant to Marianno José Ferreira Armonde, Borda do Campo, Barbacena —
-  Escolástico Armonde named as southern boundary neighbor; Mariano resident at the ancestral Borda do
-  Campo seat (SG-Cx.23-Doc.05, APM)
+  1792–1794 sesmaria petition of Marianno José Ferreira Armonde, morador at Borda do Campo, Termo da
+  Villa de Barbacena — the land already cultivated by his father; José Ferreira Armonde named as
+  southern neighbour; carta ordered 15 March 1794 (SG-Cx.23-Doc.05, APM)
 title_pt: >-
-  Concessão de sesmaria colonial de 1792/1794 a Marianno José Ferreira Armonde, Borda do Campo,
-  Barbacena — Escolástico Armonde nomeado como confrontante ao sul; Mariano residente na sede
-  ancestral de Borda do Campo (SG-Cx.23-Doc.05, APM)
+  Petição de sesmaria de 1792–1794 de Marianno José Ferreira Armonde, morador na Borda do Campo,
+  Termo da Villa de Barbacena — terras já cultivadas por seu pai; José Ferreira Armonde nomeado
+  confrontante ao sul; carta mandada passar em 15 de março de 1794 (SG-Cx.23-Doc.05, APM)
 record_type: Colonial land grant (sesmaria petition and grant)
 record_category: government_record
 source_form: original
@@ -17,8 +17,12 @@ usage: context_only
 event_date:
   kind: approximate
   text: >-
-    Petition dated 23 July 1792; Procurador da Fazenda António Ramos da Silva Nogueira recommends;
-    grant ("B. Sesmaria") 17 March 1794.
+    Petition undated; first despacho on it 19 July 1792; despacho sending it to the Câmara 23 July
+    1792 (the APM cover date); Câmara informação 22 August 1792; despacho to the Juiz dos Feitos da
+    Real Fazenda 11 September 1792; António Ramos da Silva Nogueira's informação 12 March 1794;
+    governor's despacho "P. Carta de Sismaria" 15 March 1794; docket "P. Sismaria em 17 de Março"
+    1794. [Corrected 2026-10-10 from the images: previously "Petition dated 23 July 1792; Procurador
+    da Fazenda António Ramos da Silva Nogueira recommends; grant ("B. Sesmaria") 17 March 1794".]
   earliest: 1792
   latest: 1794
 event_place_text: >-
@@ -35,88 +39,420 @@ access_date: "2026-09-19"
 language: pt-BR
 reading_reliability: complete
 transcription: >-
-  [Sesmaria petition and grant, SG-Cx.23-Doc.05, APM, 1792/1794. Seven page images: petition, land
-  description, boundary witness declarations, Procurador recommendation, grant notation.]
+  [Full verbatim transcription of all seven page images, re-read from the scans on 2026-10-10; it
+  replaces an earlier summary. Line breaks are shown as " / "; spelling and abbreviations are kept
+  as written, with expansions only in square brackets; [rubric] marks a flourished rubric. p3 is a
+  second exposure of the same leaf as p2. The registered carta de sesmaria and the justification of
+  witnesses are not among these images.]
 
 
-  [Petition summary:] Marianno José Ferreira Armonde, resident of Freguesia da Borda do Campo, Termo
-  da cidade de Barbacena, Comarca de Rio das Mortes, petitions for a sesmaria grant of meia légua em
-  quadra at "Sítio de Mointe[?]" near Serra da Mantiqueira and the Estrada Real to São João de El Rey.
-  Government note: "8 légoas de [Rio de São João], muito distante de V.ª de Barbacena" — Mariano lives
-  in Barbacena but seeks frontier land. States he will cultivate the land with his enslaved workers.
+  [p1 — APM archival cover sheet (printed form, typed entries); 6 lines:] ARQUIVO PÚBLICO MINEIRO /
+  SG / (documentos não encadernados) / CAIXA Nº : 0 2 3 / DOCUMENTO Nº: 0 0 5 / DATA: 1792 / 07 / 23
 
 
-  [Stated borders:] Poente = Dr. Rodrigues da Lima; Nascente = sesmaria of Francisco António Brito[?];
-  Norte = Manuel Balteiro; Sul = Escolástico Armonde e Manuel Rodrigues da Rosa.
+  [p2 — the leaf carrying the supplicant's declaration, the governor's despachos of 23 July 1792, 11
+  September 1792 and 15 March 1794, and the informação of 12 March 1794; 35 lines in ink, read top
+  to bottom. Heading at top right, written before the despacho that runs round it:] Ill.mo Ex.mo Sr
 
 
-  [Procurador da Fazenda, António Ramos da Silva Nogueira:] Recommends the grant.
+  [p2, despacho across the full width, 6 lines:] Inf.e [Informe] a Camara conforme as Ordens de Sua
+  Mag.de / á vista da declaraçaõ do Supp.te ouvindo taõ bem o Comd.e do / Destrito, e averiguando se
+  as Terras que o Supp.te pertende estaõ ja povoadas, ou / cultivadas por outros, se confrontaõ com
+  Sismarias concedidas, e demarcadas, e se / da concessaõ dellas rezultará prejuizo, ou
+  inconveniente contra a Real Fazenda. / V.a R.a 23 de Julho de 1792. [rubric]
 
 
-  [Grant notation:] Grant issued 17 March 1794 ("B. Sesmaria em 17 de Março de 1794").
+  [p2, left column, despacho, 5 lines:] Inf.e o D.or Juiz dos / Feitos da Real Fazd.a / ouvindo o
+  D.or Proc.or da / Coroa. V.a R.a 11 de Se- / tembro de 1792. [rubric]
+
+
+  [p2, right column, despacho, 4 lines:] P. Carta de Sisma- / ria na forma das Ordens / de S. Mag.e
+  V.a R.a 15 / de M.co de 1794. [rubric]
+
+
+  [p2, the supplicant's declaration, right two-thirds of the page, 6 lines:] Respondo obedecendo a
+  V. Ex.a q. a Sis- / maria que pede Mariano Joze Ferr.a Armonde / fica distante da estrada do R.o
+  de Jan.ro duas / Legoas, da V.a de Barbacena muito distante / da Mantiq.ra V. Ex.a lhe defira com
+  a Costuma- / da Just.a
+
+
+  [p2, heading at left, 1 line; then the informação, left two-thirds, 10 lines:] Ill.mo e Ex.mo Snr.
+  / A vista da informaçaõ da Camara, inquiriçaõ / de test.as, que produzio o Supp.e Mariano Joze /
+  Ferreira Armonde, resposta do D.r Proc.or da / Coroa, e juramento que prestou o d.o Supp.e por /
+  seu procurador, que pede a Sesmaria, de que / se tracta, para a cultivar por si, e seus es- /
+  cravos, e sem animo de a alienar, ou vender / a 3.o: me persuado, q. se acha nas circunstancias /
+  de merecer a graça, q. pertende. V. Ex.a decidirá / o que for mais justo. V.a R.a 12 de Março de
+  179[4 — last digit under the E. R. M. flourish; uncertain]
+
+
+  [p2, large flourished closing at the foot right:] E. R. M.
+
+
+  [p2, foot — left:] Reg.da [centre:] Antonio Ramos da Silva Nogueira
+
+
+  [p2, modern pencil archival label in the right margin, 4 lines:] SG / CX23 / DOC05 / (1) [and, in
+  the left margin, a faint pencil numeral, "29" or "59" — uncertain]
+
+
+  [p3 — a second, lighter exposure of the same leaf as p2: the same text, rubrics, ink blot and
+  pencil label "SG / CX23 / DOC05 / (1)". Its text is identical line for line to p2 above and is not
+  repeated.]
+
+
+  [p4 — the opening of the bifolium. Left half: the blank verso of the p2 leaf, showing only
+  mirror-image show-through of p2's text; no writing of its own. Right half: the petition, 26 lines
+  in ink, with the first despacho above it. Despacho at top, 3 lines:] Declare o Supp.te a distancia
+  em que se achaõ / p.a cá da Serra da Mantiqueira, e da Estrada geral as / Terras que pertende. V.a
+  R.a 19 de Julho de 1792. [rubric]
+
+
+  [p4 right, heading at top right:] Ill.mo e Ex.mo Sr
+
+
+  [p4 right, petition, 16 lines:] Diz Marianno Joze Ferr.a [Ferreira] Armonde, m.or [morador] na
+  freg.a [freguesia] da / Borda do Campo, Termo da Villa de Barbacena, Comarca do / Rio das Mortes,
+  q. elle se acha com Escravos sufficientes / e naõ tem terras em que os empregue p.a Cultivar; e /
+  porque na paragem chamada o Sitio do Moinho [uncertain], se / achaõ terras devolutas, que constaõ
+  de Capoeiras, e / Campos, p. donde segue a Estrada Real, q. vai p. / S. Joaõ del Rey; as quaes
+  terras partem pela parte / do poente com Joze Rodriguez de Souza, e Jacinto Glz. [Gonçalves]; e /
+  pela parte do Nascente com a Sismaria que pede Fran.co / Antonio Ferr.a [Ferreira], e pelado
+  Norte, com Manoel Balleiro [uncertain: Balleiro or Balteiro]; / e pelado Sul com Joze Ferreira
+  Armonde, e M.el F.[?] [uncertain — the abbreviation after M.el is unclear] / da Roza: Requer a V.
+  Ex.a seja servido concederlhe / a dita S[?]maria [uncertain: Sesmaria] de meya Legoa de terra em
+  quadra, na / paragem confrontada, fazendo piaõ, onde mais con- / veniente for, sem prejuizo dos
+  vezinhos. //
+
+
+  [p4 right, closing, 5 lines:] P. a V. Ex.a seja servido conceder- / lhe Sismaria a dita meya Legoa
+  / de terra em quadra, na forma ex- / posta. // / E. R. M.
+
+
+  [p4 right, foot left:] Reg.da
+
+
+  [p4 right, modern pencil archival label, 4 lines:] SG / CX23 / DOC05 / (2)
+
+
+  [p5 — left half: the Câmara of Barbacena's informação, 16 lines in ink; right half blank apart
+  from show-through of the p4 despacho at the top. Heading, 1 line; informação, 11 lines:] Ill.mo e
+  Ex.mo S.or / As terras, q. o Supp.e pede, naõ saõ cituadas em arias / prohibidas, nem por ellas
+  passa Rio navegavel, e estaõ / cultivadas pelo Pay do Supp.e; sem tt.o [titulo] de Sesm.a e
+  confron- / taõ com as Sesmarias de Joze Roiz [Rodrigues] de Souza e com a de / Manoel Fran.co
+  Roza, e mais confrontantes q. o Supp.e / declara nenhum delles tem tt.o de Sesm.a; e ficaõ / p.a
+  ca da serra da Mantiqueira Cinco legoas, e distante / da Estrada Real duas legoas. Da concessaõ da
+  m.ma [uncertain] naõ / rezulta prejuizo, ou inconveniente a Real Fazd.a, segundo / nos informou o
+  Comd.e do Destricto. Barbacena em Ca- / mara de 22 de Agosto de 1792
+
+
+  [p5 left, signatures, 4 lines:] Joze de Souza [e — uncertain] Barreto / Domingos Ant.o de Az.do
+  [uncertain] / Domingos Diaz Per.a / Joaquim Roiz d'Araujo
+
+
+  [p5, a faint oval mark mid-page on the left half, no legible text; modern pencil archival label at
+  right, 4 lines:] SG / CX23 / DOC05 / (3)
+
+
+  [p6 — left half blank but for a small mark at the gutter [illegible]. Right half: despachos in two
+  columns, 8 lines in ink. Left column, 6 lines:] Haja vista ao D.r Proc.or da / Coroa e Real
+  Fazenda. / S.a [Silva] Nogueira [rubric] / Justif.e citado o D.r Proc.or / da Coroa e Real Faz.da
+  / S.a Nogueira [rubric]
+
+
+  [p6 right, right column, 2 lines:] Deve o Supp.te justificar os requizitos / necessarios na f.ma
+  das Ordens [rubric]
+
+
+  [p6, lower centre: faint show-through and a few stray ink strokes, not text of this page; modern
+  pencil archival label at right, 4 lines:] SG / CX23 / DOC05 / (4)
+
+
+  [p7 — the outer docket. Left half blank apart from faint offset of signatures and rubrics from the
+  facing leaf. Right half, 3 lines:] 1794 / P. Sismaria em 17 de / Março do dito anno.
+
+
+  [Editorial notes, 2026-10-10 — not part of the record text.]
+
+
+  [1. Sequence, from the dated entries: petition (undated) → despacho of 19 July 1792 asking how far
+  the land lies from the Serra da Mantiqueira and the Estrada geral → the supplicant's declaration →
+  despacho of 23 July 1792 to the Câmara → the Câmara's informação of 22 August 1792 → despacho of
+  11 September 1792 to the Juiz dos Feitos da Real Fazenda, hearing the Procurador da Coroa → p6:
+  "Haja vista" to the Procurador; the reply "Deve o Supp.te justificar os requizitos" (probably the
+  Procurador's — inferred); "Justif.e citado o D.r Proc.or" → justification of witnesses (cited on
+  p2, not among the images) → Nogueira's favourable informação of 12 March 1794 → the governor's
+  despacho "P. Carta de Sismaria" of 15 March 1794 → docket "P. Sismaria em 17 de Março" 1794.]
+
+
+  [2. Distances: the declaration puts the land two leagues from the Rio de Janeiro road and very far
+  from the Vila de Barbacena; the Câmara puts it five leagues this side of the Serra da Mantiqueira
+  and two leagues from the Estrada Real.]
+
+
+  [3. The petitioner states he has enslaved workers enough and no land to employ them on; Nogueira
+  records that he swore, through his procurador, to cultivate the land himself with his slaves and
+  not to sell it to a third party.]
+
+
+  [4. Southern boundary: the petition reads "Joze Ferreira Armonde, e M.el F.[?] da Roza". The
+  Câmara names the sesmaria of "Manoel Fran.co Roza" among the confrontations, which suggests
+  (inferred) that the second southern neighbour is Manoel Francisco [da] Roza.]
+
+
+  [5. The Câmara reports the land "cultivadas pelo Pay do Supp.e; sem tt.o de Sesm.a": the
+  petitioner's father, who is not named, was farming it in 1792 without a sesmaria title.]
+
+
+  [6. António Ramos da Silva Nogueira: the despacho of 11 September 1792 sends the case to the "D.or
+  Juiz dos Feitos da Real Fazd.a" to hear the "D.or Proc.or da Coroa"; "S.a Nogueira" then orders
+  the Procurador heard, and his informação of 12 March 1794 cites the Procurador's reply as a
+  separate act. He was therefore acting as the Juiz dos Feitos (inferred), not as the Procurador.]
 transcription_pt: >-
-  [Petição e concessão de sesmaria colonial, SG-Cx.23-Doc.05, APM, 1792/1794. Sete imagens de
-  página: petição, descrição das terras, declarações dos confrontantes/testemunhas, recomendação do
-  Procurador, anotação da concessão.]
+  [Transcrição integral e literal das sete imagens, relida dos scans em 2026-10-10; substitui um
+  resumo anterior. As quebras de linha aparecem como " / "; grafia e abreviaturas mantêm-se como
+  escritas, com desdobramentos só entre colchetes; [rubrica] marca uma rubrica. A p3 é uma segunda
+  exposição da mesma folha da p2. A carta de sesmaria registrada e a justificação de testemunhas não
+  estão entre estas imagens.]
 
 
-  [Resumo da petição:] Marianno José Ferreira Armonde, residente na Freguesia da Borda do Campo,
-  Termo da cidade de Barbacena, Comarca de Rio das Mortes, peticiona pela concessão de uma sesmaria
-  de meia légua em quadra no "Sítio de Mointe[?]", junto à Serra da Mantiqueira e à Estrada Real para
-  São João de El Rey. Nota do governo: "8 légoas de [Rio de São João], muito distante de V.ª de
-  Barbacena" — Mariano reside em Barbacena mas busca terras de fronteira. Declara que cultivará as
-  terras com seus escravos.
+  [p1 — folha de rosto arquivística do APM (formulário impresso, preenchimento datilografado); 6
+  linhas:] ARQUIVO PÚBLICO MINEIRO / SG / (documentos não encadernados) / CAIXA Nº : 0 2 3 /
+  DOCUMENTO Nº: 0 0 5 / DATA: 1792 / 07 / 23
 
 
-  [Confrontações declaradas:] Poente = Dr. Rodrigues da Lima; Nascente = sesmaria de Francisco
-  António Brito[?]; Norte = Manuel Balteiro; Sul = Escolástico Armonde e Manuel Rodrigues da Rosa.
+  [p2 — a folha com a declaração do suplicante, os despachos do governador de 23 de julho de 1792,
+  11 de setembro de 1792 e 15 de março de 1794, e a informação de 12 de março de 1794; 35 linhas a
+  tinta, lidas de cima para baixo. Cabeçalho no alto à direita, escrito antes do despacho que o
+  contorna:] Ill.mo Ex.mo Sr
 
 
-  [Procurador da Fazenda, António Ramos da Silva Nogueira:] Recomenda a concessão.
+  [p2, despacho em toda a largura, 6 linhas:] Inf.e [Informe] a Camara conforme as Ordens de Sua
+  Mag.de / á vista da declaraçaõ do Supp.te ouvindo taõ bem o Comd.e do / Destrito, e averiguando se
+  as Terras que o Supp.te pertende estaõ ja povoadas, ou / cultivadas por outros, se confrontaõ com
+  Sismarias concedidas, e demarcadas, e se / da concessaõ dellas rezultará prejuizo, ou
+  inconveniente contra a Real Fazenda. / V.a R.a 23 de Julho de 1792. [rubrica]
 
 
-  [Anotação da concessão:] Concessão emitida em 17 de março de 1794 ("B. Sesmaria em 17 de Março
-  de 1794").
+  [p2, coluna esquerda, despacho, 5 linhas:] Inf.e o D.or Juiz dos / Feitos da Real Fazd.a / ouvindo
+  o D.or Proc.or da / Coroa. V.a R.a 11 de Se- / tembro de 1792. [rubrica]
+
+
+  [p2, coluna direita, despacho, 4 linhas:] P. Carta de Sisma- / ria na forma das Ordens / de S.
+  Mag.e V.a R.a 15 / de M.co de 1794. [rubrica]
+
+
+  [p2, declaração do suplicante, dois terços direitos da página, 6 linhas:] Respondo obedecendo a V.
+  Ex.a q. a Sis- / maria que pede Mariano Joze Ferr.a Armonde / fica distante da estrada do R.o de
+  Jan.ro duas / Legoas, da V.a de Barbacena muito distante / da Mantiq.ra V. Ex.a lhe defira com a
+  Costuma- / da Just.a
+
+
+  [p2, cabeçalho à esquerda, 1 linha; depois a informação, dois terços esquerdos, 10 linhas:] Ill.mo
+  e Ex.mo Snr. / A vista da informaçaõ da Camara, inquiriçaõ / de test.as, que produzio o Supp.e
+  Mariano Joze / Ferreira Armonde, resposta do D.r Proc.or da / Coroa, e juramento que prestou o d.o
+  Supp.e por / seu procurador, que pede a Sesmaria, de que / se tracta, para a cultivar por si, e
+  seus es- / cravos, e sem animo de a alienar, ou vender / a 3.o: me persuado, q. se acha nas
+  circunstancias / de merecer a graça, q. pertende. V. Ex.a decidirá / o que for mais justo. V.a R.a
+  12 de Março de 179[4 — último algarismo sob o floreado do E. R. M.; incerto]
+
+
+  [p2, grande fecho floreado no pé, à direita:] E. R. M.
+
+
+  [p2, pé — à esquerda:] Reg.da [ao centro:] Antonio Ramos da Silva Nogueira
+
+
+  [p2, etiqueta arquivística moderna a lápis na margem direita, 4 linhas:] SG / CX23 / DOC05 / (1)
+  [e, na margem esquerda, um numeral tênue a lápis, "29" ou "59" — incerto]
+
+
+  [p3 — segunda exposição, mais clara, da mesma folha da p2: o mesmo texto, rubricas, borrão e
+  etiqueta a lápis "SG / CX23 / DOC05 / (1)". O texto é idêntico, linha por linha, ao da p2 acima e
+  não se repete.]
+
+
+  [p4 — abertura do bifólio. Metade esquerda: o verso em branco da folha da p2, só com o texto da p2
+  transparecendo espelhado; nenhuma escrita própria. Metade direita: a petição, 26 linhas a tinta,
+  com o primeiro despacho acima. Despacho no alto, 3 linhas:] Declare o Supp.te a distancia em que
+  se achaõ / p.a cá da Serra da Mantiqueira, e da Estrada geral as / Terras que pertende. V.a R.a 19
+  de Julho de 1792. [rubrica]
+
+
+  [p4 direita, cabeçalho no alto à direita:] Ill.mo e Ex.mo Sr
+
+
+  [p4 direita, petição, 16 linhas:] Diz Marianno Joze Ferr.a [Ferreira] Armonde, m.or [morador] na
+  freg.a [freguesia] da / Borda do Campo, Termo da Villa de Barbacena, Comarca do / Rio das Mortes,
+  q. elle se acha com Escravos sufficientes / e naõ tem terras em que os empregue p.a Cultivar; e /
+  porque na paragem chamada o Sitio do Moinho [incerto], se / achaõ terras devolutas, que constaõ de
+  Capoeiras, e / Campos, p. donde segue a Estrada Real, q. vai p. / S. Joaõ del Rey; as quaes terras
+  partem pela parte / do poente com Joze Rodriguez de Souza, e Jacinto Glz. [Gonçalves]; e / pela
+  parte do Nascente com a Sismaria que pede Fran.co / Antonio Ferr.a [Ferreira], e pelado Norte, com
+  Manoel Balleiro [incerto: Balleiro ou Balteiro]; / e pelado Sul com Joze Ferreira Armonde, e M.el
+  F.[?] [incerto — a abreviatura depois de M.el não é clara] / da Roza: Requer a V. Ex.a seja
+  servido concederlhe / a dita S[?]maria [incerto: Sesmaria] de meya Legoa de terra em quadra, na /
+  paragem confrontada, fazendo piaõ, onde mais con- / veniente for, sem prejuizo dos vezinhos. //
+
+
+  [p4 direita, fecho, 5 linhas:] P. a V. Ex.a seja servido conceder- / lhe Sismaria a dita meya
+  Legoa / de terra em quadra, na forma ex- / posta. // / E. R. M.
+
+
+  [p4 direita, pé à esquerda:] Reg.da
+
+
+  [p4 direita, etiqueta arquivística moderna a lápis, 4 linhas:] SG / CX23 / DOC05 / (2)
+
+
+  [p5 — metade esquerda: a informação da Câmara de Barbacena, 16 linhas a tinta; metade direita em
+  branco, salvo o despacho da p4 transparecendo no alto. Cabeçalho, 1 linha; informação, 11 linhas:]
+  Ill.mo e Ex.mo S.or / As terras, q. o Supp.e pede, naõ saõ cituadas em arias / prohibidas, nem por
+  ellas passa Rio navegavel, e estaõ / cultivadas pelo Pay do Supp.e; sem tt.o [título] de Sesm.a e
+  confron- / taõ com as Sesmarias de Joze Roiz [Rodrigues] de Souza e com a de / Manoel Fran.co
+  Roza, e mais confrontantes q. o Supp.e / declara nenhum delles tem tt.o de Sesm.a; e ficaõ / p.a
+  ca da serra da Mantiqueira Cinco legoas, e distante / da Estrada Real duas legoas. Da concessaõ da
+  m.ma [incerto] naõ / rezulta prejuizo, ou inconveniente a Real Fazd.a, segundo / nos informou o
+  Comd.e do Destricto. Barbacena em Ca- / mara de 22 de Agosto de 1792
+
+
+  [p5 esquerda, assinaturas, 4 linhas:] Joze de Souza [e — incerto] Barreto / Domingos Ant.o de
+  Az.do [incerto] / Domingos Diaz Per.a / Joaquim Roiz d'Araujo
+
+
+  [p5, uma marca oval tênue no meio da metade esquerda, sem texto legível; etiqueta arquivística
+  moderna a lápis à direita, 4 linhas:] SG / CX23 / DOC05 / (3)
+
+
+  [p6 — metade esquerda em branco, salvo uma pequena marca junto à dobra [ilegível]. Metade direita:
+  despachos em duas colunas, 8 linhas a tinta. Coluna esquerda, 6 linhas:] Haja vista ao D.r Proc.or
+  da / Coroa e Real Fazenda. / S.a [Silva] Nogueira [rubrica] / Justif.e citado o D.r Proc.or / da
+  Coroa e Real Faz.da / S.a Nogueira [rubrica]
+
+
+  [p6 direita, coluna direita, 2 linhas:] Deve o Supp.te justificar os requizitos / necessarios na
+  f.ma das Ordens [rubrica]
+
+
+  [p6, parte inferior central: transparência tênue e alguns traços soltos de tinta, que não são
+  texto desta página; etiqueta arquivística moderna a lápis à direita, 4 linhas:] SG / CX23 / DOC05
+  / (4)
+
+
+  [p7 — o rótulo exterior. Metade esquerda em branco, salvo o decalque tênue de assinaturas e
+  rubricas da folha oposta. Metade direita, 3 linhas:] 1794 / P. Sismaria em 17 de / Março do dito
+  anno.
+
+
+  [Notas editoriais, 2026-10-10 — não fazem parte do texto do documento.]
+
+
+  [1. Sequência, pelas datas: petição (sem data) → despacho de 19 de julho de 1792 pedindo a
+  distância das terras à Serra da Mantiqueira e à Estrada geral → declaração do suplicante →
+  despacho de 23 de julho de 1792 à Câmara → informação da Câmara de 22 de agosto de 1792 → despacho
+  de 11 de setembro de 1792 ao Juiz dos Feitos da Real Fazenda, ouvido o Procurador da Coroa → p6:
+  "Haja vista" ao Procurador; a resposta "Deve o Supp.te justificar os requizitos" (provavelmente do
+  Procurador — inferência); "Justif.e citado o D.r Proc.or" → justificação de testemunhas (citada na
+  p2, ausente das imagens) → informação favorável de Nogueira, 12 de março de 1794 → despacho do
+  governador "P. Carta de Sismaria", 15 de março de 1794 → rótulo "P. Sismaria em 17 de Março" de
+  1794.]
+
+
+  [2. Distâncias: a declaração situa as terras a duas léguas da estrada do Rio de Janeiro e muito
+  distantes da Vila de Barbacena; a Câmara, a cinco léguas aquém da Serra da Mantiqueira e a duas
+  léguas da Estrada Real.]
+
+
+  [3. O suplicante declara ter escravos suficientes e não ter terras em que os empregar; Nogueira
+  registra que ele jurou, por seu procurador, cultivar as terras por si e seus escravos e não as
+  vender a terceiro.]
+
+
+  [4. Confrontação sul: a petição diz "Joze Ferreira Armonde, e M.el F.[?] da Roza". A Câmara nomeia
+  a sesmaria de "Manoel Fran.co Roza" entre as confrontações, o que sugere (inferência) que o
+  segundo confrontante ao sul é Manoel Francisco [da] Roza.]
+
+
+  [5. A Câmara informa que as terras estão "cultivadas pelo Pay do Supp.e; sem tt.o de Sesm.a": o
+  pai do suplicante, não nomeado, cultivava-as em 1792 sem título de sesmaria.]
+
+
+  [6. António Ramos da Silva Nogueira: o despacho de 11 de setembro de 1792 remete o caso ao "D.or
+  Juiz dos Feitos da Real Fazd.a", ouvido o "D.or Proc.or da Coroa"; "S.a Nogueira" manda então
+  ouvir o Procurador, e sua informação de 12 de março de 1794 cita a resposta do Procurador como ato
+  distinto. Agia, portanto, como Juiz dos Feitos (inferência), não como Procurador.]
 abstract: >-
-  Colonial sesmaria petition and grant (SG-Cx.23-Doc.05, APM) for Marianno José Ferreira Armonde,
-  resident of Freguesia da Borda do Campo, Barbacena — the ancestral parish of elder Francisco
-  Ferreira Armonde (d.1751). The southern boundary neighbor is "Escolástico Armonde e Manuel
-  Rodrigues da Rosa" — introducing a previously undocumented Armonde (Escolástico) active in the
-  same region. Mariano's name and Borda do Campo residence are a strong match for the "predeceased
-  Mariano José" listed as a child of Alferes Francisco × Felizarda de Assis in the 1845 Honório
-  inventário, corroborating that he is a son of Alferes Francisco and a brother (or half-brother) of
-  elder Simplício (P-0016's grandfather). The 1792–1794 date confirms the ancestral Borda do Campo
-  seat persisted into the second generation. Usage: context_only — documents a probable brother of
-  P-0016's direct ancestor, providing structural context for the Armonde landholding network in
-  Barbacena / Borda do Campo / Serra da Mantiqueira.
+  Colonial sesmaria dossier (APM, Secretaria de Governo, SG-Cx.23-Doc.05) of Marianno José Ferreira
+  Armonde, "m.or na freg.a da Borda do Campo, Termo da Villa de Barbacena, Comarca do Rio das
+  Mortes", who says he has enslaved workers enough and no land to employ them on, and asks for half
+  a league square of vacant land (capoeiras and campos) at the place called the Sitio do Moinho
+  [uncertain reading], by the Estrada Real to São João del Rei. He names his neighbours: west José
+  Rodrigues de Souza and Jacinto Gonçalves; east the sesmaria being sought by Francisco Antonio
+  Ferreira; north Manoel Balleiro [uncertain]; south José Ferreira Armonde and Manoel F.[?] da Roza.
+  The Câmara of Barbacena (22 August 1792) reports the land five leagues this side of the Serra da
+  Mantiqueira and two from the Estrada Real, outside the forbidden areas, bordering the sesmarias of
+  José Rodrigues de Souza and Manoel Francisco Roza — and already "cultivadas pelo Pay do Supp.e;
+  sem tt.o de Sesm.a", cultivated by the petitioner's unnamed father without a sesmaria title. After
+  the Procurador da Coroa was heard and a justification of witnesses produced (not among the
+  images), António Ramos da Silva Nogueira gave a favourable opinion (12 March 1794), the governor
+  ordered the carta (15 March 1794), and the docket records "P. Sismaria em 17 de Março" 1794; the
+  carta itself is not among the seven images. The document places Mariano at Borda do Campo in 1792
+  with a living father farming there, and names a José Ferreira Armonde — the name of the 1791
+  grantee of GOV-0009; identity not stated — as his southern neighbour. It names neither man's
+  parents. Identifying this Mariano with the "Mariano José Ferreira Armonde – casado, deixou filhos"
+  whom PUB-0002 reports as a child of Francisco Ferreira Armonde × Felizarda who died before his
+  mother (1845 inventário) remains a lead; his relation to P-0016 is unresolved. Usage:
+  context_only. [Re-read in full from the images 2026-10-10: the earlier "Escolástico Armonde"
+  southern neighbour was a misreading — see notes.]
 abstract_pt: >-
-  Petição e concessão de sesmaria colonial (SG-Cx.23-Doc.05, APM) para Marianno José Ferreira
-  Armonde, residente na Freguesia da Borda do Campo, Barbacena — a freguesia ancestral do mais velho
-  Francisco Ferreira Armonde (†1751). O confrontante ao sul é "Escolástico Armonde e Manuel Rodrigues
-  da Rosa" — introduzindo um Armonde anteriormente não documentado (Escolástico) ativo na mesma região.
-  O nome de Mariano e sua residência em Borda do Campo são uma forte correspondência com o "Mariano
-  José prefalecido" listado como filho do Alferes Francisco × Felizarda de Assis no inventário de
-  Honório de 1845, corroborando que ele é filho do Alferes Francisco e irmão (ou meio-irmão) do mais
-  velho Simplício (avô de P-0016). A data de 1792–1794 confirma que a sede ancestral de Borda do
-  Campo persistiu na segunda geração. Uso: apenas contexto — documenta um provável irmão do ancestral
-  direto de P-0016, fornecendo contexto estrutural para a rede de propriedades dos Armonde em
-  Barbacena / Borda do Campo / Serra da Mantiqueira.
+  Processo colonial de sesmaria (APM, Secretaria de Governo, SG-Cx.23-Doc.05) de Marianno José
+  Ferreira Armonde, "m.or na freg.a da Borda do Campo, Termo da Villa de Barbacena, Comarca do Rio
+  das Mortes", que declara ter escravos suficientes e não ter terras em que os empregar, e pede meia
+  légua em quadra de terras devolutas (capoeiras e campos) na paragem chamada Sitio do Moinho
+  [leitura incerta], junto à Estrada Real para São João del-Rei. Nomeia os confrontantes: a poente
+  José Rodrigues de Souza e Jacinto Gonçalves; a nascente a sesmaria que pede Francisco Antonio
+  Ferreira; ao norte Manoel Balleiro [incerto]; ao sul José Ferreira Armonde e Manoel F.[?] da Roza.
+  A Câmara de Barbacena (22 de agosto de 1792) situa as terras a cinco léguas aquém da Serra da
+  Mantiqueira e a duas da Estrada Real, fora das áreas proibidas, confrontando com as sesmarias de
+  José Rodrigues de Souza e Manoel Francisco Roza — e já "cultivadas pelo Pay do Supp.e; sem tt.o de
+  Sesm.a", cultivadas pelo pai do suplicante, não nomeado, sem título de sesmaria. Ouvido o
+  Procurador da Coroa e produzida uma justificação de testemunhas (ausente das imagens), António
+  Ramos da Silva Nogueira deu parecer favorável (12 de março de 1794), o governador mandou passar a
+  carta (15 de março de 1794) e o rótulo registra "P. Sismaria em 17 de Março" de 1794; a carta em
+  si não está entre as sete imagens. O documento situa Mariano na Borda do Campo em 1792, com o pai
+  vivo cultivando ali, e nomeia um José Ferreira Armonde — nome do sesmeiro de 1791 da GOV-0009; a
+  identidade não é declarada — como confrontante ao sul. Não nomeia os pais de nenhum dos dois. A
+  identificação deste Mariano com o "Mariano José Ferreira Armonde – casado, deixou filhos" que a
+  PUB-0002 dá como filho de Francisco Ferreira Armonde × Felizarda falecido antes da mãe (inventário
+  de 1845) continua uma pista; sua relação com P-0016 não está resolvida. Uso: apenas contexto.
+  [Relido integralmente das imagens em 2026-10-10: o confrontante ao sul "Escolástico Armonde" era
+  um erro de leitura — ver notas.]
 reliability:
   assessment: >-
-    Primary colonial government record (original sesmaria petition and grant, APM Secretaria de
-    Governo series). Direct evidence for: (1) Mariano José Ferreira Armonde's residence at Borda do
-    Campo, Barbacena, 1792; (2) the boundary relationship (Escolástico Armonde as southern neighbor);
-    (3) Mariano's enslaved workforce and landholding ambitions at the Serra da Mantiqueira frontier.
-    The identification of this Mariano José with the "predeceased Mariano José" of the Honório
-    inventário is a strong contextual lead, not a primary-record fact stated in this document.
+    Primary colonial government record: the original petition with its despachos, the supplicant's
+    declaration and the Câmara of Barbacena's informação (APM, Secretaria de Governo, unbound
+    documents). Direct evidence for (1) Marianno José Ferreira Armonde's residence ("m.or") in the
+    Freguesia da Borda do Campo, Termo da Villa de Barbacena, by July 1792; (2) his stated enslaved
+    workforce; (3) the stated neighbours, including José Ferreira Armonde to the south; (4) the
+    Câmara's statement that his father (unnamed) was cultivating the land without a sesmaria title;
+    (5) the procedural dates from 19 July 1792 to the governor's order of the carta on 15 March 1794
+    and the docket of 17 March 1794. Re-read in full from the seven images 2026-10-10; the earlier
+    summary had misread the boundary names (see notes). Identifying this Mariano with the Mariano
+    José of the 1845 inventário reported by PUB-0002 is a contextual lead, not stated here.
   informant: >-
-    Marianno José Ferreira Armonde (petitioner); boundary witnesses (names not individually listed
-    in the summary above); Procurador da Fazenda António Ramos da Silva Nogueira.
+    Marianno José Ferreira Armonde (petition and declaration); the Câmara of Barbacena (signed Joze
+    de Souza [e — uncertain] Barreto, Domingos Ant.o de Az.do [uncertain], Domingos Diaz Per.a and
+    Joaquim Roiz d'Araujo), relying on the Comandante do Destricto; António Ramos da Silva Nogueira
+    (informação of 12 March 1794, acting as Juiz dos Feitos da Real Fazenda — inferred from the
+    despacho of 11 September 1792); the governor's despachos (rubrics only). No witness depositions
+    are among the images.
   limitations: >-
-    Some place and name reads are uncertain cursive ("Mointe[?]", "Brito[?]"). The identification
-    of this Mariano with the Honório inventário "Mariano José" is inferential (strong contextual
-    match only). The Escolástico Armonde boundary relationship (brother? cousin?) is a new lead,
-    not resolved here.
+    The carta de sesmaria itself and the justification of witnesses are not among the images (p3
+    duplicates p2), so the carta's boundary wording cannot be checked here. Uncertain reads:
+    "Moinho"; the northern neighbour's surname (Balleiro or Balteiro); the abbreviation in the
+    second southern neighbour's name ("M.el F.[?] da Roza"); the last digit of Nogueira's 1794 date
+    (under the E. R. M. flourish); one word of the Câmara text ("da m.ma"); two Câmara signatures.
+    The record names neither the petitioner's father nor any kinship between Mariano and José
+    Ferreira Armonde. The "Escolástico Armonde" of the earlier summary does not occur in the record.
 digital_file:
   path: evidence/government/GOV-0010-armonde-mariano-sesmaria-1792-siaapm-sg-cx23-doc05-p1.jpg
   sha256: 6b70116fb257d0afe2ef2a082fe0e1d7799288067a0f64b25a4eec90c73b2672
@@ -144,9 +480,124 @@ notes:
     Context only: documents a probable collateral ancestor of P-0016 (Simplício's line descends from
     Alferes Francisco; Mariano José is most likely a brother or half-brother of elder Simplício,
     both sons of Alferes Francisco × Felizarda). Provides geographic and structural context for the
-    Armonde family's Borda do Campo seat in the second generation.
+    Armonde family's Borda do Campo seat in the second generation. [Corrected 2026-10-10: this
+    record names no parent of Mariano — the Câmara calls his father only "o Pay do Supp.e" — and
+    P-0016's own profile treats the elder Simplício of Barbacena as a namesake, with P-0016's
+    parentage unresolved; PUB-0002 also has the elder Simplício dying "solteiro". That P-0016's line
+    descends from Alferes Francisco, and that Mariano is a collateral ancestor of P-0016, is
+    therefore not established. Mariano as a son of Francisco × Felizarda remains a lead from
+    PUB-0002's report of the 1845 inventário.]
+  text_pt: >-
+    Apenas contexto: documenta um provável ancestral colateral de P-0016 (a linha de Simplício
+    descende do Alferes Francisco; Mariano José é muito provavelmente irmão ou meio-irmão do
+    Simplício mais velho, ambos filhos do Alferes Francisco × Felizarda). Fornece contexto
+    geográfico e estrutural para a sede dos Armonde na Borda do Campo na segunda geração. [Corrigido
+    em 2026-10-10: este documento não nomeia nenhum dos pais de Mariano — a Câmara chama o pai
+    apenas de "o Pay do Supp.e" — e o próprio perfil de P-0016 trata o Simplício mais velho de
+    Barbacena como homônimo, com a filiação de P-0016 não resolvida; a PUB-0002 também dá o
+    Simplício mais velho como falecido "solteiro". Que a linha de P-0016 descenda do Alferes
+    Francisco, e que Mariano seja ancestral colateral de P-0016, não está, portanto, estabelecido.
+    Mariano como filho de Francisco × Felizarda continua uma pista, a partir do relato da PUB-0002
+    sobre o inventário de 1845.]
 - text: >-
     NEW LEAD — Escolástico Armonde: a southern boundary neighbor of Mariano's sesmaria, the only
-    mention of this name in any held source. May be a sibling or cousin of Mariano. Search: Barbacena
-    parish registers + inventários for Escolástico Ferreira Armonde / Escolástico Armonde,
-    c.1760–1820.
+    mention of this name in any held source. May be a sibling or cousin of Mariano. Search:
+    Barbacena parish registers + inventários for Escolástico Ferreira Armonde / Escolástico Armonde,
+    c.1760–1820. [Corrected 2026-10-10 from the image: p4 reads "e pelado Sul com Joze Ferreira
+    Armonde, e M.el F.[?] da Roza" — the name "Escolástico" does not occur anywhere in the seven
+    images, and the earlier "Manuel Rodrigues da Rosa" is likewise unsupported. The lead is
+    withdrawn; there is nothing to search. Kept as research history.]
+  text_pt: >-
+    PISTA NOVA — Escolástico Armonde: confrontante ao sul da sesmaria de Mariano, única menção deste
+    nome em qualquer fonte guardada. Pode ser irmão ou primo de Mariano. Pesquisar: registros
+    paroquiais e inventários de Barbacena por Escolástico Ferreira Armonde / Escolástico Armonde,
+    c.1760–1820. [Corrigido em 2026-10-10 a partir da imagem: a p4 diz "e pelado Sul com Joze
+    Ferreira Armonde, e M.el F.[?] da Roza" — o nome "Escolástico" não ocorre em nenhuma das sete
+    imagens, e o anterior "Manuel Rodrigues da Rosa" tampouco tem apoio. A pista fica retirada; não
+    há o que pesquisar. Mantida como histórico de pesquisa.]
+- text: >-
+    Re-read in full from the seven images on 2026-10-10; the verbatim transcription replaced the
+    earlier summary. Corrections to the summary, old → new: southern boundary "Escolástico Armonde e
+    Manuel Rodrigues da Rosa" → "Joze Ferreira Armonde, e M.el F.[?] da Roza" (p4); western "Dr.
+    Rodrigues da Lima" → "Joze Rodriguez de Souza, e Jacinto Glz." (p4); eastern "sesmaria of
+    Francisco António Brito[?]" → "a Sismaria que pede Fran.co Antonio Ferr.a", the sesmaria
+    Francisco Antonio Ferreira was himself requesting (p4; "Ferr.a" is written exactly as in the
+    petitioner's own name); northern "Manuel Balteiro" → "Manoel Balleiro" [uncertain: Balleiro or
+    Balteiro]; "Termo da cidade de Barbacena" → "Termo da Villa de Barbacena"; "Sítio de Mointe[?]"
+    → "Sitio do Moinho" [uncertain]; "8 légoas de [Rio de São João], muito distante de V.ª de
+    Barbacena" → "fica distante da estrada do R.o de Jan.ro duas Legoas, da V.a de Barbacena muito
+    distante" (p2); "Procurador da Fazenda António Ramos da Silva Nogueira recommends" → Nogueira's
+    informação of 12 March 1794 cites the Procurador da Coroa's reply as a separate act, so he was
+    acting as Juiz dos Feitos da Real Fazenda (inferred); grant notation "B. Sesmaria em 17 de Março
+    de 1794" → docket "1794 / P. Sismaria em 17 de / Março do dito anno." (p7), with the governor's
+    despacho "P. Carta de Sismaria na forma das Ordens de S. Mag.e" of 15 March 1794 (p2); "petition
+    dated 23 July 1792" → the petition is undated, its first despacho is 19 July 1792, and 23 July
+    1792 (the APM cover date) is the despacho to the Câmara; the page list "petition, land
+    description, boundary witness declarations, Procurador recommendation, grant notation" → p1
+    archival cover, p2 declaration + despachos + informação, p3 a duplicate exposure of p2, p4
+    petition, p5 the Câmara's informação, p6 despachos, p7 docket — no witness declarations are
+    among the images. Newly read and absent from the summary: the Câmara's statement that the land
+    was "cultivadas pelo Pay do Supp.e; sem tt.o de Sesm.a", and its naming of the sesmarias of Joze
+    Roiz de Souza and Manoel Fran.co Roza as the land's confrontations. event_date.text was
+    corrected to match; its earliest/latest bounds are unchanged.
+  text_pt: >-
+    Relido integralmente das sete imagens em 2026-10-10; a transcrição literal substituiu o resumo
+    anterior. Correções ao resumo, antigo → novo: confrontação sul "Escolástico Armonde e Manuel
+    Rodrigues da Rosa" → "Joze Ferreira Armonde, e M.el F.[?] da Roza" (p4); poente "Dr. Rodrigues
+    da Lima" → "Joze Rodriguez de Souza, e Jacinto Glz." (p4); nascente "sesmaria de Francisco
+    António Brito[?]" → "a Sismaria que pede Fran.co Antonio Ferr.a", a sesmaria que o próprio
+    Francisco Antonio Ferreira pedia (p4; "Ferr.a" está escrito exatamente como no nome do
+    suplicante); norte "Manuel Balteiro" → "Manoel Balleiro" [incerto: Balleiro ou Balteiro]; "Termo
+    da cidade de Barbacena" → "Termo da Villa de Barbacena"; "Sítio de Mointe[?]" → "Sitio do
+    Moinho" [incerto]; "8 légoas de [Rio de São João], muito distante de V.ª de Barbacena" → "fica
+    distante da estrada do R.o de Jan.ro duas Legoas, da V.a de Barbacena muito distante" (p2); "o
+    Procurador da Fazenda António Ramos da Silva Nogueira recomenda" → a informação de Nogueira de
+    12 de março de 1794 cita a resposta do Procurador da Coroa como ato distinto, logo ele agia como
+    Juiz dos Feitos da Real Fazenda (inferência); anotação "B. Sesmaria em 17 de Março de 1794" →
+    rótulo "1794 / P. Sismaria em 17 de / Março do dito anno." (p7), com o despacho do governador
+    "P. Carta de Sismaria na forma das Ordens de S. Mag.e" de 15 de março de 1794 (p2); "petição
+    datada de 23 de julho de 1792" → a petição não tem data, seu primeiro despacho é de 19 de julho
+    de 1792, e 23 de julho de 1792 (a data da capa do APM) é o despacho à Câmara; a lista de páginas
+    "petição, descrição das terras, declarações dos confrontantes/testemunhas, recomendação do
+    Procurador, anotação da concessão" → p1 capa arquivística, p2 declaração + despachos +
+    informação, p3 exposição duplicada da p2, p4 petição, p5 informação da Câmara, p6 despachos, p7
+    rótulo — não há declarações de testemunhas entre as imagens. Lido agora e ausente do resumo: a
+    afirmação da Câmara de que as terras estavam "cultivadas pelo Pay do Supp.e; sem tt.o de
+    Sesm.a", e a menção das sesmarias de Joze Roiz de Souza e Manoel Fran.co Roza como confrontações
+    das terras. O event_date.text foi corrigido em conformidade; os limites earliest/latest não
+    mudaram.
+- text: >-
+    The carta (grant) is not among the seven images: p2 holds the governor's order "P. Carta de
+    Sismaria na forma das Ordens de S. Mag.e" (15 March 1794) and p7 the docket "P. Sismaria em 17
+    de Março do dito anno", but not the carta text. The retrieval agent reports the registered carta
+    (APM SC-256 f.241v) as reading "pela parte do Sul com Joze Ferreira Armonde, e Manoel Francisco
+    Pires[?]" and "Nascente com Francisco Antonio Ferreira"; neither can be checked from these
+    images. José Ferreira Armonde and Francisco Antonio Ferreira agree with the petition. For the
+    second southern neighbour the petition has "M.el F.[?] da Roza" and the Câmara's informação
+    names the sesmaria of "Manoel Fran.co Roza", so the agent's "Pires[?]" is probably a misreading
+    of "Roza" [inferred — confirm on the carta image before citing it].
+  text_pt: >-
+    A carta (concessão) não está entre as sete imagens: a p2 traz a ordem do governador "P. Carta de
+    Sismaria na forma das Ordens de S. Mag.e" (15 de março de 1794) e a p7 o rótulo "P. Sismaria em
+    17 de Março do dito anno", mas não o texto da carta. O agente de recuperação informa que a carta
+    registrada (APM SC-256 f.241v) diz "pela parte do Sul com Joze Ferreira Armonde, e Manoel
+    Francisco Pires[?]" e "Nascente com Francisco Antonio Ferreira"; nenhuma das duas leituras pode
+    ser conferida nestas imagens. José Ferreira Armonde e Francisco Antonio Ferreira concordam com a
+    petição. Para o segundo confrontante ao sul, a petição tem "M.el F.[?] da Roza" e a informação
+    da Câmara nomeia a sesmaria de "Manoel Fran.co Roza", de modo que o "Pires[?]" do agente é
+    provavelmente erro de leitura de "Roza" [inferência — confirmar na imagem da carta antes de
+    citá-la].
+- text: >-
+    New fact, 2026-10-10: the Câmara of Barbacena (22 August 1792) reports the land "cultivadas pelo
+    Pay do Supp.e; sem tt.o de Sesm.a" — Mariano's father was alive and farming it in 1792, without
+    a sesmaria title. The father is not named. [CONTEXTUAL] PUB-0002 places Felizarda's death in
+    1845 at the "fazenda dos Moinhos", where the family had lived since settling in Minas; the
+    petition's "Sitio do Moinho" [uncertain reading] is consistent with that, but the published work
+    is a lead, not evidence that the father was Francisco Ferreira Armonde.
+  text_pt: >-
+    Fato novo, 2026-10-10: a Câmara de Barbacena (22 de agosto de 1792) informa que as terras estão
+    "cultivadas pelo Pay do Supp.e; sem tt.o de Sesm.a" — o pai de Mariano estava vivo e as
+    cultivava em 1792, sem título de sesmaria. O pai não é nomeado. [CONTEXTUAL] A PUB-0002 situa a
+    morte de Felizarda, em 1845, na "fazenda dos Moinhos", onde a família vivia desde que se
+    estabeleceu em Minas; o "Sitio do Moinho" da petição [leitura incerta] é compatível com isso,
+    mas a obra publicada é uma pista, não prova de que o pai fosse Francisco Ferreira Armonde.

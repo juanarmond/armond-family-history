@@ -28,14 +28,16 @@ notes:
 - text: >-
     Ahnentafel position 61 — mother of Joaquim José Bohrer (P-0030), hence Celina's
     (P-0015) paternal grandmother. Wife of Francisco José Bohrer (P-0034); their
-    marriage was justified at the Nova Friburgo Matriz in 1879 (PAR-0002) and she
+    marriage was justified, and registered at the Itaboraí Matriz, in 1879 (PAR-0002)
+    [corrected 2026-10-10: Itaboraí, not Nova Friburgo — see PAR-0002] and she
     is named as "Roza Eugenia de Lemos Bohrer" in Alberto Bohrer's 1890 birth
     (CIV-0019). "de Lemos" is her own surname, "Bohrer" her married name; both
     forms are preserved.
   text_pt: >-
     Posição 61 no Ahnentafel — mãe de Joaquim José Bohrer (P-0030), portanto avó
     paterna de Celina (P-0015). Esposa de Francisco José Bohrer (P-0034); o casamento
-    deles foi justificado na Matriz de Nova Friburgo em 1879 (PAR-0002) e ela é
+    deles foi justificado, e registrado na Matriz de Itaboraí, em 1879 (PAR-0002)
+    [corrigido em 2026-10-10: Itaboraí, não Nova Friburgo — ver PAR-0002] e ela é
     nomeada como "Roza Eugenia de Lemos Bohrer" no nascimento de 1890 de Alberto
     Bohrer (CIV-0019). "de Lemos" é seu sobrenome próprio, "Bohrer" seu nome de
     casada; ambas as formas são preservadas.
@@ -49,7 +51,9 @@ notes:
     was held (PAR-0002, "em casa do pai de José Antunes de Lemos"), and her brother
     Candido Pereira de Lemos is named in her husband's 1888 will (PRB-0005). This
     supersedes the earlier "weakened" doubt (the apparent childbearing gap was an
-    indexing artifact). Born about late 1834 ("nascida a dez mezes").
+    indexing artifact). Born about late 1834 ("nascida a dez mezes"). [corrected
+    2026-10-10 from the image: baptised 12 October 1835 (day "doze", earlier read
+    "[dez]"), so born about December 1834.]
   text_pt: >-
     Filiação estabelecida (1 de agosto de 2026) a partir de seu próprio batismo de 1835
     em Itaboraí (PAR-0016 → evento E-0049): filha de Manoel de Lemos [Pereira] (P-0052)
@@ -61,6 +65,8 @@ notes:
     Pereira de Lemos é nomeado no testamento de 1888 de seu marido (PRB-0005). Isso
     supera a dúvida anterior "enfraquecida" (o aparente intervalo entre partos era um
     artefato de indexação). Nascida por volta do final de 1834 ("nascida a dez mezes").
+    [corrigido em 2026-10-10 a partir da imagem: batizada em 12 de outubro de 1835 (dia
+    "doze", antes lido "[dez]"), portanto nascida por volta de dezembro de 1834.]
 - text: >-
     Nationality now Brazilian: her parents are "naturaes desta freguezia" of
     Itaboraí (PAR-0016), so an Itaboraí (Brazilian) birth is secure — a documented
@@ -98,16 +104,43 @@ notes:
     Pereira de Lemos"); a forma do batismo de 1835, "Manoel de Lemos × Maria Thereza de Jesus"
     (P-0052 × P-0053), é mais próxima do evento e prevalece, preservando-se a forma "Pereira"
     como variante.
+- text: >-
+    [corrected 2026-10-10 from the images: her 1835 baptism (PAR-0016) and her siblings'
+    1832-1838 baptisms (PAR-0030 to PAR-0033) were re-read at full resolution after the
+    retrieval agent's native-resolution reading disagreed with ours. Her baptism is 12
+    October 1835 (not month-only), her godmother "Ro[z]a de Maria da Conceição" (not "Flor
+    de Maria da Conceição"); her father is plain "Manoel de Lemos" in her own entry
+    (confirmed). In the sibling entries the father is "Manoel de Lemos Pereira" (1832,
+    1834, 1838), never "Ferreira", and the mother is "Maria Thereza" throughout, never
+    "Maria Nunes de Jesus"; so the "Pereira/Ferreira" and "Thereza/Nunes" variants once
+    described in this profile are retired as misreadings. Corrected sibling dates: Anna
+    11 Feb 1834 (not 12 Feb); Thomaz 13 Jun 1836 (not c. June); Polidoro 18 Mar 1838
+    (not c. November). The "Pereira" of her 1919 death (PAR-0058) therefore matches the
+    father's own form in the 1830s baptisms.]
+  text_pt: >-
+    [corrigido em 2026-10-10 a partir das imagens: seu batismo de 1835 (PAR-0016) e os
+    batismos de seus irmãos de 1832-1838 (PAR-0030 a PAR-0033) foram relidos em
+    resolução plena depois que a leitura do agente de recuperação, em resolução nativa,
+    divergiu da nossa. Seu batismo é de 12 de outubro de 1835 (não só o mês), sua
+    madrinha "Ro[z]a de Maria da Conceição" (não "Flor de Maria da Conceição"); seu pai é
+    apenas "Manoel de Lemos" no próprio assento dela (confirmado). Nos assentos dos irmãos
+    o pai é "Manoel de Lemos Pereira" (1832, 1834, 1838), nunca "Ferreira", e a mãe é
+    "Maria Thereza" em todos, nunca "Maria Nunes de Jesus"; assim, as variantes
+    "Pereira/Ferreira" e "Thereza/Nunes" antes descritas neste perfil ficam aposentadas
+    como leituras erradas. Datas corrigidas dos irmãos: Anna 11 fev. 1834 (não 12 fev.);
+    Thomaz 13 jun. 1836 (não c. junho); Polidoro 18 mar. 1838 (não c. novembro). O
+    "Pereira" de seu óbito de 1919 (PAR-0058) coincide, portanto, com a forma do próprio
+    pai nos batismos da década de 1830.]
 profile: >-
   ## Interesting facts
 
-  - **[PROVEN]** She was born in Itaboraí (RJ) about 1834 — her October 1835 baptism records her "nascida a dez mezes" (born ten months prior, PAR-0016) — and died in Nova Friburgo on 2 November 1919, aged 86 (PAR-0058). Her life spanned 85 years across two provinces, two political regimes and the end of slavery.
+  - **[PROVEN]** She was born in Itaboraí (RJ) about December 1834 — her 12 October 1835 baptism records her "nascida a dez mezes" (born ten months prior, PAR-0016) — and died in Nova Friburgo on 2 November 1919, aged 86 (PAR-0058). Her life spanned 85 years across two provinces, two political regimes and the end of slavery.
 
   - **[PROVEN]** She was widowed in 1888 when her husband Francisco José died of cardiac failure (PAR-0055), and lived as a widow for 31 years — dying in 1919 having outlived her husband by more than three decades.
 
   - **[PROVEN]** In January 1898, *A Sentinella* newspaper referred to her as "Exma. Sra. D. Roza Bohrer" in reporting the death of her brother Manoel Pereira de Lemos (NWS-0002) — the honorifics "Excelentíssima Senhora Dona" marking her as a woman of local social standing in Nova Friburgo.
 
-  - **[INFERRED]** Her marriage to Francisco José Bohrer was celebrated in Itaboraí before the coadjutor, and only formally registered at the Nova Friburgo Matriz in 1879 — meaning the couple likely lived as a married couple for over 20 years before their marriage was officially in the Nova Friburgo parish records. This was common for couples whose marriage was celebrated outside their home parish.
+  - **[INFERRED]** Her marriage to Francisco José Bohrer was celebrated in Itaboraí before the coadjutor, and only entered in a parish book in 1879 — in Itaboraí's own Matriz marriage book, after a judicial justification (PAR-0002) — meaning the couple likely lived as a married couple for some 20 years before the union was on record anywhere. Because the registration stayed in the parish where the wedding was held, it does not by itself show where the couple were living by 1879.
 
   - **[CONTEXTUAL]** She moved from Itaboraí (a lowland Rio de Janeiro municipality) to the Nova Friburgo highlands on marriage — a migration from the coast into the Swiss colony — and part of the Lemos family followed her: her brother Candido Pereira de Lemos was at Nova Friburgo as a wedding witness in 1884 and as her husband's executor in 1888 (PAR-0056, PRB-0005), showing how marriage into the colony could pull a wider family network into the highlands. Her brother Manoel's 1898 death was reported by the Nova Friburgo paper (NWS-0002), but the notice does not say where he lived or died, and his "Venda das Pedras" matches a locality of Itaboraí itself [uncertain].
 
@@ -118,20 +151,20 @@ profile: >-
   Bohrer". [PROVEN] The Bohrer birth record (CIV-0019) confirms "de Lemos" is her own
   surname and "Bohrer" her married name.
 
-  - **Born:** about late 1834, Itaboraí (RJ) [INFERRED] — her October 1835 baptism records
-  her "nascida a dez mezes" (PAR-0016). Brazilian origin: her parents are "naturaes desta
+  - **Born:** about December 1834, Itaboraí (RJ) [INFERRED] — her 12 October 1835 baptism
+  records her "nascida a dez mezes" (PAR-0016). Brazilian origin: her parents are "naturaes desta
   freguezia" of Itaboraí (PAR-0016). [PROVEN]
 
-  - **Baptism:** October 1835 (the day, read "[dez]", is uncertain on a torn page), Matriz de
-  São João Batista de Itaboraí, "filha legitima de Manoel de Lemos [Pereira] (P-0052) e Maria
-  Thereza de Jesus (P-0053)"; godparents Manoel José da Silva and Flor de Maria da Conceição
-  (PAR-0016). [PROVEN] The register wrote only "Roza"; the identification as Rosa Eugenia
+  - **Baptism:** 12 October 1835, Matriz de São João Batista de Itaboraí, "filha legitima de
+  Manoel de Lemos [Pereira] (P-0052) e Maria Thereza de Jesus (P-0053)"; godparents Manoel
+  José da Silva and Ro[z]a de Maria da Conceição (PAR-0016). [PROVEN] (Day and godmother
+  re-read from the image on 2026-10-10; earlier given as "[dez]" and "Flor de Maria".) The register wrote only "Roza"; the identification as Rosa Eugenia
   rests on the unique couple/parish match and the Itaboraí-Lemos links in PAR-0002 and
   PRB-0005, so it is strong but indirect.
 
   - **Marriage:** Francisco José Bohrer (P-0034), celebrated at Itaboraí before the
-  coadjutor and only judicially justified/registered at the Nova Friburgo Matriz on
-  1 August 1879 (PAR-0002) [PROVEN it predates 1879]; an uncertain "more than twenty years"
+  coadjutor and only judicially justified, then registered in the Itaboraí Matriz marriage
+  book (fl. 177) on 1 August 1879 (PAR-0002) [PROVEN it predates 1879]; an uncertain "more than twenty years"
   clause would place the wedding about 1858. [LEAD] The act states the wedding was held "em
   casa do pai de José Antunes de Lemos", before the Rev. Rufino José Alves, coadjutor of
   Itaboraí, with José Antunes de Lemos, José Antonio da Costa and Genoveva Campbell da Costa as
@@ -181,20 +214,23 @@ profile: >-
   "Manoel de Lemos" (no "Pereira"); her own 1919 death (PAR-0058) instead names the couple in
   a divergent "Pereira" form — "Manoel Pereira Lemos × Maria Tereza Pereira de Lemos" —
   preserved as a variant, with the nearer-the-event baptism form governing. The "Pereira"
-  element also recurs in her brother Candido Pereira de Lemos (PRB-0005). A third form appears
-  in her siblings' baptisms: the father is "Manoel de Lemos Ferreira" in Anna's 1834 entry
-  (PAR-0031), and "Ferreira" is read, bracketed, in Maria's (PAR-0030) and Polidoro's (PAR-0033)
-  [PROVEN] — so "Pereira" and "Ferreira" compete for the same surname slot.
+  element also recurs in her brother Candido Pereira de Lemos (PRB-0005), and her siblings'
+  baptisms write the father in full as "Manoel de Lemos Pereira" (1832, 1834, 1838 — PAR-0030,
+  PAR-0031, PAR-0033) [PROVEN], so "Pereira" is the family's own form in the 1830s, not a late
+  drift. (An earlier "Ferreira" reading of those entries was a misreading, corrected from the
+  images on 2026-10-10.)
 
   - **Siblings:** an Itaboraí register sweep documents Maria (bapt. 14 July 1832,
-  PAR-0030), Anna (bapt. 12 February 1834, PAR-0031), Thomaz (bapt. c. June 1836,
-  PAR-0032) and Polidoro (bapt. c. November 1838, PAR-0033) as children of the same
-  couple. [PROVEN] Two further brothers are documented indirectly: Candido Pereira de
+  PAR-0030), Anna (bapt. 11 February 1834, PAR-0031), Thomaz (bapt. 13 June 1836, born
+  about March 1836, PAR-0032) and Polidoro (bapt. 18 March 1838, born about December 1837,
+  PAR-0033) as children of the same couple. [PROVEN] Two further brothers are documented indirectly: Candido Pereira de
   Lemos, named her husband's brother-in-law and executor in the 1888 will (PRB-0005), and
-  Manoel Pereira de Lemos, whose 1898 óbito calls him her brother (NWS-0002). A ⚠ mother-
-  name discrepancy runs through the sibling set — "Maria Thereza de Jesus" (PAR-0016,
-  PAR-0032) versus "Maria Nunes de Jesus" (PAR-0030, PAR-0031) — preserved as a scribal
-  inconsistency for the same woman. The retrieval research also reports a brother Manoel
+  Manoel Pereira de Lemos, whose 1898 óbito calls him her brother (NWS-0002). The mother is
+  "Maria Thereza" in every sibling entry (a "Maria Nunes de Jesus" reading of the 1832 and
+  1834 entries was a misreading, retired 2026-10-10). The retrieval agent further reports a
+  brother Antonio (bapt. 21 October 1821) and a brother and sister João and Maria (bapt. 4
+  March 1841), whose entries are said to name both sets of grandparents [LEAD — images not
+  yet held; not modelled]. The retrieval research also reports a brother Manoel
   baptised at Itaboraí in 1831, verified from the register but not held here [LEAD]; whether he
   is the brother who died in 1898 is unresolved — that man's stated age of 72 points to a birth
   about 1826, which sits awkwardly with an 1831 baptism [INFERRED].
@@ -214,8 +250,8 @@ profile: >-
   **The 1879 justificação is best read as an estate act, not a wedding.** [INFERRED] Her
   marriage to Francisco José Bohrer was celebrated at Itaboraí, in a private house, before a
   parish coadjutor, and was never entered in any parish book; a judicial sentence of 30 June
-  1879 declared it justified and ordered the Nova Friburgo vicar to open the entry (PAR-0002)
-  [PROVEN]. The witnesses deposed that it had stood "a mais de vinte annos" [uncertain reading —
+  1879 declared it justified and ordered the respective parish priest to open the entry, which
+  was made in Itaboraí's own Matriz marriage book on 1 August 1879 (PAR-0002) [PROVEN]. The witnesses deposed that it had stood "a mais de vinte annos" [uncertain reading —
   LEAD], which would put the wedding around 1858 or earlier, and their firstborn Joaquim was
   born about 1861/62 (PAR-0056). So the couple lived some two decades in a union that was
   socially complete and documentarily invisible, and regularised it nine years before the will
@@ -246,8 +282,8 @@ profile: >-
 
   **The Lemos climbed in her own generation, partly by moving.** [INFERRED,
   well-supported] Her parents' Itaboraí records name no land, office or title (PAR-0016,
-  PAR-0030–PAR-0033), and not one godparent in that sibling set carries a rank or honorific
-  [PROVEN as far as those acts go]. Her generation left: she married into the Nova Friburgo
+  PAR-0030–PAR-0033), and only one godparent in that sibling set carries a rank — the Capitão
+  José Custodio Vieira, chosen twice (PAR-0030, PAR-0032) [PROVEN]. Her generation left: she married into the Nova Friburgo
   colony; her brother Candido Pereira de Lemos appears at Nova Friburgo as a marriage witness in
   1884 (PAR-0056) and as her husband's executor in 1888 (PRB-0005) [PROVEN]; her brother Manoel
   Pereira de Lemos died in January 1898, aged 72, as "o conhecido industrial da Venda das
@@ -272,9 +308,12 @@ profile: >-
   - Her own death record — now held (PAR-0058: 2 November 1919, Nova Friburgo, aged 86,
   widow of Francisco José, natural de Itaboraí). [RESOLVED]
 
-  - The Itaboraí marriage of her parents, which would settle the "Pereira/Ferreira" and
-  "Thereza/Nunes" variants and Manoel de Lemos's own parentage. (Her 1919 death now attests
-  the "Pereira" form for both parents, diverging from her baptism.) [OPEN]
+  - The Itaboraí marriage of her parents, which would settle Manoel de Lemos's own parentage.
+  The retrieval agent reports both sets of grandparents from the 1821 and 1841 baptisms of
+  her siblings [LEAD — images not yet held]. (The former "Pereira/Ferreira" and
+  "Thereza/Nunes" variants were misreadings, retired 2026-10-10; her 1919 death attests the
+  "Pereira" form for both parents, which the 1830s sibling baptisms give for her father.)
+  [OPEN]
 
   - The exact marriage date behind the 1879 justification. [OPEN]
 
@@ -288,7 +327,7 @@ profile: >-
   ## Sources held (this repository)
 
   - PAR-0016 (her 1835 Itaboraí baptism — parents, godparents) · PAR-0002 (her 1879
-  marriage justification) · PRB-0005 (her husband's 1888 will — names her, the four
+  marriage justification, registered at the Itaboraí Matriz) · PRB-0005 (her husband's 1888 will — names her, the four
   children, and her brother Candido).
 
   - PAR-0056 (the 1884 Nova Friburgo marriages of her son Joaquim and daughter Laura Maria —
@@ -327,7 +366,7 @@ profile: >-
 
   ## Where to go today
 
-  - **Baptism (October 1835) and marriage (celebrated before 1879; ~1858 per an uncertain clause):** Igreja Matriz de São João Batista de Itaboraí,
+  - **Baptism (12 October 1835) and marriage (celebrated before 1879, ~1858 per an uncertain clause; registered here 1 August 1879):** Igreja Matriz de São João Batista de Itaboraí,
   RJ (Praça Marechal Floriano Peixoto 15, Centro; CEP 24800-165; GPS -22.74472, -42.85833) [RESOLVED] · [Maps](https://maps.google.com/?q=-22.74472,-42.85833)
 
   - **Married life, widowhood and death (2 Nov 1919):** Catedral Diocesana / Igreja Matriz de São João
@@ -335,13 +374,13 @@ profile: >-
 profile_pt: >-
   ## Fatos interessantes
 
-  - **[PROVEN]** Ela nasceu em Itaboraí (RJ) por volta de 1834 — seu batismo de outubro de 1835 a registra "nascida a dez mezes" (PAR-0016) — e faleceu em Nova Friburgo em 2 de novembro de 1919, aos 86 anos (PAR-0058). Sua vida abrangeu 85 anos por duas províncias, dois regimes políticos e o fim da escravidão.
+  - **[PROVEN]** Ela nasceu em Itaboraí (RJ) por volta de dezembro de 1834 — seu batismo de 12 de outubro de 1835 a registra "nascida a dez mezes" (PAR-0016) — e faleceu em Nova Friburgo em 2 de novembro de 1919, aos 86 anos (PAR-0058). Sua vida abrangeu 85 anos por duas províncias, dois regimes políticos e o fim da escravidão.
 
   - **[PROVEN]** Ficou viúva em 1888 quando seu marido Francisco José faleceu de insuficiência cardíaca (PAR-0055), e viveu como viúva por 31 anos — falecendo em 1919 após sobreviver ao marido por mais de três décadas.
 
   - **[PROVEN]** Em janeiro de 1898, o jornal *A Sentinella* referiu-se a ela como "Exma. Sra. D. Roza Bohrer" ao noticiar o falecimento de seu irmão Manoel Pereira de Lemos (NWS-0002) — os honoríficos "Excelentíssima Senhora Dona" marcando-a como mulher de prestígio social local em Nova Friburgo.
 
-  - **[INFERRED]** Seu casamento com Francisco José Bohrer foi celebrado em Itaboraí perante o coadjutor, e só foi formalmente registrado na Matriz de Nova Friburgo em 1879 — o que significa que o casal provavelmente viveu como casado por mais de 20 anos antes de o casamento constar oficialmente nos registros da freguesia de Nova Friburgo. Isso era comum para casais cujo matrimônio foi celebrado fora de sua freguesia de domicílio.
+  - **[INFERRED]** Seu casamento com Francisco José Bohrer foi celebrado em Itaboraí perante o coadjutor, e só foi lançado em livro paroquial em 1879 — no próprio livro de casamentos da Matriz de Itaboraí, após uma justificação judicial (PAR-0002) —, o que significa que o casal provavelmente viveu como casado por cerca de 20 anos antes de a união constar em qualquer registro. Como o assento ficou na freguesia onde o casamento se celebrou, ele não mostra, por si só, onde o casal morava em 1879.
 
   - **[CONTEXTUAL]** Ela se mudou de Itaboraí (um município fluminense das terras baixas) para a serra de Nova Friburgo ao se casar — uma migração do litoral para a colônia suíça — e parte da família Lemos a seguiu: seu irmão Candido Pereira de Lemos estava em Nova Friburgo como testemunha de casamento em 1884 e como testamenteiro do marido dela em 1888 (PAR-0056, PRB-0005), mostrando como o casamento dentro da colônia podia atrair uma rede familiar mais ampla para a serra. O óbito de seu irmão Manoel, em 1898, foi noticiado pelo jornal de Nova Friburgo (NWS-0002), mas a nota não diz onde ele morava nem onde morreu, e sua "Venda das Pedras" corresponde a uma localidade da própria Itaboraí [incerto].
 
@@ -352,21 +391,21 @@ profile_pt: >-
   "D. Roza Bohrer". [PROVEN] O registro de nascimento Bohrer (CIV-0019) confirma que "de
   Lemos" é seu sobrenome próprio e "Bohrer" seu nome de casada.
 
-  - **Nascimento:** por volta do final de 1834, Itaboraí (RJ) [INFERRED] — seu batismo de
-  outubro de 1835 a registra "nascida a dez mezes" (PAR-0016). Origem brasileira: seus pais
+  - **Nascimento:** por volta de dezembro de 1834, Itaboraí (RJ) [INFERRED] — seu batismo de
+  12 de outubro de 1835 a registra "nascida a dez mezes" (PAR-0016). Origem brasileira: seus pais
   são "naturaes desta freguezia" de Itaboraí (PAR-0016). [PROVEN]
 
-  - **Batismo:** outubro de 1835 (o dia, lido "[dez]", é incerto numa página rasgada), Matriz
-  de São João Batista de Itaboraí, "filha legitima de Manoel de Lemos [Pereira] (P-0052) e Maria
-  Thereza de Jesus (P-0053)"; padrinhos Manoel
-  José da Silva e Flor de Maria da Conceição (PAR-0016). [PROVEN] O assento registrou apenas
+  - **Batismo:** 12 de outubro de 1835, Matriz de São João Batista de Itaboraí, "filha legitima
+  de Manoel de Lemos [Pereira] (P-0052) e Maria Thereza de Jesus (P-0053)"; padrinhos Manoel
+  José da Silva e Ro[z]a de Maria da Conceição (PAR-0016). [PROVEN] (Dia e madrinha relidos a
+  partir da imagem em 2026-10-10; antes dados como "[dez]" e "Flor de Maria".) O assento registrou apenas
   "Roza"; a identificação como Rosa Eugenia apoia-se na correspondência única de
   casal/freguesia e nas ligações Lemos-Itaboraí de PAR-0002 e PRB-0005, sendo, portanto,
   forte, porém indireta.
 
   - **Casamento:** Francisco José Bohrer (P-0034), celebrado em Itaboraí perante o coadjutor
-  e apenas judicialmente justificado/registrado na Matriz de Nova Friburgo em 1º de agosto
-  de 1879 (PAR-0002) [PROVEN, é anterior a 1879]; uma cláusula incerta de "mais de vinte
+  e apenas judicialmente justificado, e depois registrado no livro de casamentos da Matriz de
+  Itaboraí (fl. 177) em 1º de agosto de 1879 (PAR-0002) [PROVEN, é anterior a 1879]; uma cláusula incerta de "mais de vinte
   anos" situaria o casamento por volta de 1858. [LEAD] O ato declara que o casamento se fez "em
   casa do pai de José Antunes de Lemos", perante o Rev. Rufino José Alves, coadjutor de
   Itaboraí, tendo como testemunhas José Antunes de Lemos, José Antonio da Costa e Genoveva
@@ -418,20 +457,23 @@ profile_pt: >-
   "Manoel de Lemos" (sem "Pereira"); seu próprio óbito de 1919 (PAR-0058), porém, nomeia o casal
   numa forma divergente com "Pereira" — "Manoel Pereira Lemos × Maria Tereza Pereira de Lemos" —
   preservada como variante, prevalecendo a forma do batismo, mais próxima do evento. O elemento
-  "Pereira" também reaparece em seu irmão Candido Pereira de Lemos (PRB-0005). Uma terceira forma
-  aparece nos batismos dos irmãos: o pai é "Manoel de Lemos Ferreira" no assento de Anna, de 1834
-  (PAR-0031), e "Ferreira" é lido, entre colchetes, nos de Maria (PAR-0030) e Polidoro (PAR-0033)
-  [PROVEN] — de modo que "Pereira" e "Ferreira" disputam a mesma posição do sobrenome.
+  "Pereira" também reaparece em seu irmão Candido Pereira de Lemos (PRB-0005), e os batismos dos
+  irmãos escrevem o pai por extenso como "Manoel de Lemos Pereira" (1832, 1834, 1838 — PAR-0030,
+  PAR-0031, PAR-0033) [PROVEN], de modo que "Pereira" é a forma da própria família na década de
+  1830, e não uma deriva tardia. (Uma leitura anterior "Ferreira" desses assentos era errada,
+  corrigida a partir das imagens em 2026-10-10.)
 
   - **Irmãos:** uma varredura do registro de Itaboraí documenta Maria (bat. 14 de julho de
-  1832, PAR-0030), Anna (bat. 12 de fevereiro de 1834, PAR-0031), Thomaz (bat. por volta de
-  junho de 1836, PAR-0032) e Polidoro (bat. por volta de novembro de 1838, PAR-0033) como
-  filhos do mesmo casal. [PROVEN] Dois outros irmãos são documentados indiretamente: Candido
+  1832, PAR-0030), Anna (bat. 11 de fevereiro de 1834, PAR-0031), Thomaz (bat. 13 de junho de
+  1836, nascido por volta de março de 1836, PAR-0032) e Polidoro (bat. 18 de março de 1838,
+  nascido por volta de dezembro de 1837, PAR-0033) como filhos do mesmo casal. [PROVEN] Dois outros irmãos são documentados indiretamente: Candido
   Pereira de Lemos, nomeado cunhado e testamenteiro de seu marido no testamento de 1888
   (PRB-0005), e Manoel Pereira de Lemos, cujo óbito de 1898 o chama de irmão dela (NWS-0002).
-  Uma ⚠ divergência no nome da mãe percorre o conjunto de irmãos — "Maria Thereza de Jesus"
-  (PAR-0016, PAR-0032) versus "Maria Nunes de Jesus" (PAR-0030, PAR-0031) — preservada como
-  inconsistência de escrivão para a mesma mulher. A pesquisa de recuperação também relata um irmão
+  A mãe é "Maria Thereza" em todos os assentos dos irmãos (uma leitura "Maria Nunes de Jesus" dos
+  assentos de 1832 e 1834 era errada, aposentada em 2026-10-10). O agente de recuperação relata
+  ainda um irmão Antonio (bat. 21 de outubro de 1821) e os irmãos João e Maria (bat. 4 de março
+  de 1841), cujos assentos nomeariam os dois pares de avós [LEAD — imagens ainda não
+  disponíveis; não modelado]. A pesquisa de recuperação também relata um irmão
   Manoel baptizado em Itaboraí em 1831, verificado no livro mas não disponível aqui [LEAD]; se ele
   é o irmão falecido em 1898 não está resolvido — a idade declarada desse homem, 72 anos, aponta
   para um nascimento por volta de 1826, o que se ajusta mal a um batismo de 1831 [INFERRED].
@@ -452,8 +494,9 @@ profile_pt: >-
   **A justificação de 1879 lê-se melhor como um ato patrimonial do que como um casamento.**
   [INFERRED] Seu matrimônio com Francisco José Bohrer foi celebrado em Itaboraí, em casa
   particular, perante um coadjutor da freguesia, e nunca foi lançado em livro paroquial; uma
-  sentença judicial de 30 de junho de 1879 deu-o por justificado e mandou o vigário de Nova
-  Friburgo abrir o assento (PAR-0002) [PROVEN]. As testemunhas depuseram que ele durava "a mais
+  sentença judicial de 30 de junho de 1879 deu-o por justificado e mandou o pároco respectivo
+  abrir o assento, que foi lançado no próprio livro de casamentos da Matriz de Itaboraí em 1º de
+  agosto de 1879 (PAR-0002) [PROVEN]. As testemunhas depuseram que ele durava "a mais
   de vinte annos" [leitura incerta — LEAD], o que situaria o casamento por volta de 1858 ou
   antes, e o primogênito Joaquim nasceu cerca de 1861/62 (PAR-0056). O casal viveu, portanto,
   cerca de duas décadas numa união socialmente completa e documentalmente invisível, e a
@@ -485,8 +528,8 @@ profile_pt: >-
 
   **Os Lemos subiram na geração dela, em parte mudando-se.** [INFERRED, bem sustentado] Os
   registros de Itaboraí de seus pais não nomeiam terra, ofício ou título (PAR-0016,
-  PAR-0030–PAR-0033), e nenhum padrinho daquele conjunto de irmãos traz patente ou honorífico
-  [PROVEN até onde esses atos alcançam]. A geração dela partiu: ela casou-se com a colônia de
+  PAR-0030–PAR-0033), e só um padrinho daquele conjunto de irmãos traz patente — o Capitão José
+  Custodio Vieira, escolhido duas vezes (PAR-0030, PAR-0032) [PROVEN]. A geração dela partiu: ela casou-se com a colônia de
   Nova Friburgo; seu irmão Candido Pereira de Lemos aparece em Nova Friburgo como testemunha de
   casamento em 1884 (PAR-0056) e como testamenteiro do marido dela em 1888 (PRB-0005) [PROVEN];
   seu irmão Manoel Pereira de Lemos morreu em janeiro de 1898, aos 72 anos, como "o conhecido
@@ -512,9 +555,12 @@ profile_pt: >-
   - Seu próprio registro de óbito — agora obtido (PAR-0058: 2 de novembro de 1919, Nova
   Friburgo, aos 86 anos, viúva de Francisco José, natural de Itaboraí). [RESOLVED]
 
-  - O casamento em Itaboraí de seus pais, que resolveria as variantes "Pereira/Ferreira" e
-  "Thereza/Nunes" e a própria filiação de Manoel de Lemos. (Seu óbito de 1919 agora atesta a
-  forma "Pereira" para ambos os pais, divergindo de seu batismo.) [OPEN]
+  - O casamento em Itaboraí de seus pais, que resolveria a própria filiação de Manoel de Lemos.
+  O agente de recuperação relata os dois pares de avós a partir dos batismos de 1821 e 1841 de
+  seus irmãos [LEAD — imagens ainda não disponíveis]. (As antigas variantes "Pereira/Ferreira" e
+  "Thereza/Nunes" eram leituras erradas, aposentadas em 2026-10-10; seu óbito de 1919 atesta a
+  forma "Pereira" para ambos os pais, que os batismos dos irmãos da década de 1830 dão para o
+  pai.) [OPEN]
 
   - A data exata do casamento por trás da justificação de 1879. [OPEN]
 
@@ -529,7 +575,7 @@ profile_pt: >-
   ## Fontes disponíveis (neste repositório)
 
   - PAR-0016 (seu batismo de 1835 em Itaboraí — pais, padrinhos) · PAR-0002 (sua justificação
-  de casamento de 1879) · PRB-0005 (o testamento de 1888 de seu marido — nomeia-a, aos quatro
+  de casamento de 1879, registrada na Matriz de Itaboraí) · PRB-0005 (o testamento de 1888 de seu marido — nomeia-a, aos quatro
   filhos e a seu irmão Candido).
 
   - PAR-0056 (os casamentos de 1884, em Nova Friburgo, de seu filho Joaquim e de sua filha Laura
@@ -568,7 +614,7 @@ profile_pt: >-
 
   ## Onde ir hoje
 
-  - **Batismo (outubro de 1835) e casamento (celebrado antes de 1879; ~1858 segundo uma cláusula incerta):** Igreja Matriz de São João Batista de
+  - **Batismo (12 de outubro de 1835) e casamento (celebrado antes de 1879, ~1858 segundo uma cláusula incerta; registrado aqui em 1º de agosto de 1879):** Igreja Matriz de São João Batista de
   Itaboraí, RJ (Praça Marechal Floriano Peixoto 15, Centro; CEP 24800-165; GPS -22.74472, -42.85833) [RESOLVED] · [Maps](https://maps.google.com/?q=-22.74472,-42.85833)
 
   - **Vida de casada, viuvez e óbito (2 nov 1919):** Catedral Diocesana / Igreja Matriz de São João Batista,

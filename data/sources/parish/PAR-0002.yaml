@@ -2,10 +2,10 @@ schema_version: 1
 id: PAR-0002
 title: >-
   Parish marriage justification of Francisco José Bohrer and Rosa Eugenia de Lemos
-  (registered 1879), Nova Friburgo Matriz
+  (registered 1879), Itaboraí Matriz
 title_pt: >-
   Justificação de casamento paroquial de Francisco José Bohrer e Rosa Eugenia de
-  Lemos (registrada em 1879), Matriz de Nova Friburgo
+  Lemos (registrada em 1879), Matriz de Itaboraí
 record_type: Parish marriage register entry (justificação de casamento)
 record_category: parish_register
 source_form: original
@@ -23,13 +23,13 @@ registration_date:
 repository:
   name: FamilySearch Historical Records
   archive_or_registry: >-
-    Igreja Matriz de São João Baptista, Nova Friburgo, Rio de Janeiro, Brazil
+    Igreja Matriz de São João Baptista, Itaboraí, Rio de Janeiro, Brazil
     (parish marriage book)
   collection: Brasil, Rio de Janeiro, Registros da Igreja Católica, 1616-2017
   page: "177"
   catalogue_reference: >-
     Marriage justification of Francisco José Bohrer and Rosa Eugenia de Lemos,
-    fl. 177, Nova Friburgo Matriz marriage book; sentence dated Rio, 30 June 1879,
+    fl. 177, Itaboraí Matriz marriage book ("Matrimônios 1860, Out–1882, Nov"); sentence dated Rio, 30 June 1879,
     registered 1 August 1879. Located via a FamilySearch Records relationship
     search and delivered through the research/from-retrieval/ sync; the exact ARK
     was not captured in the drop filename. Read and promoted 30 July 2026.
@@ -52,7 +52,7 @@ transcription: >-
   archivada; de que fiz este assento. [assinatura] O Vigário J.º Mariano de Castro
   [uncertain]."
 abstract: >-
-  An 1879 parish record at the Nova Friburgo Matriz registering the judicial
+  An 1879 parish record at the Itaboraí Matriz registering the judicial
   justification (justificação de casamento) of the marriage of Francisco José
   Bohrer (P-0034) and Rosa Eugenia de Lemos (P-0035) — the parents of Joaquim José
   Bohrer (P-0030), hence Celina's paternal grandparents. The marriage had been
@@ -60,7 +60,7 @@ abstract: >-
   house of José Antunes de Lemos's father, with José Antunes de Lemos among the
   witnesses (a lead to Rosa's Lemos family).
 abstract_pt: >-
-  Um assento paroquial de 1879 na Matriz de Nova Friburgo registrando a
+  Um assento paroquial de 1879 na Matriz de Itaboraí registrando a
   justificação judicial (justificação de casamento) do casamento de Francisco
   José Bohrer (P-0034) e Rosa Eugenia de Lemos (P-0035) — os pais de Joaquim José
   Bohrer (P-0030), portanto os avós paternos de Celina. O casamento havia sido
@@ -92,6 +92,23 @@ linked_events:
 linked_places: []
 private: false
 notes:
+- text: >-
+    Parish corrected Nova Friburgo → Itaboraí on 2026-10-10. Both matrizes are dedicated to
+    São João Batista, and "nesta Matriz" names neither. The retrieval side reports the held
+    scan byte-identical to FamilySearch image 3:1:939F-DX9Z-B8 in Itaboraí's "Matrimônios
+    1860, Out–1882, Nov", fl. 177; on the scan itself, other entries by the same vicar, João
+    Mariano de Castro, record people "natural e baptizado na freguesia de N. S. do Desterro de
+    Itamby" and "natural e baptizada nesta freguezia" — Itambi being a parish of Itaboraí.
+    The marriage itself was celebrated earlier at Itaboraí (event place unchanged).
+  text_pt: >-
+    Paróquia corrigida de Nova Friburgo para Itaboraí em 2026-10-10. As duas matrizes são de
+    São João Batista, e "nesta Matriz" não nomeia nenhuma. A pesquisa de recuperação informa que
+    o scan guardado é idêntico, byte a byte, à imagem 3:1:939F-DX9Z-B8 do FamilySearch no livro
+    "Matrimônios 1860, Out–1882, Nov" de Itaboraí, fl. 177; no próprio scan, outros assentos do
+    mesmo vigário, João Mariano de Castro, registram pessoas "natural e baptizado na freguesia
+    de N. S. do Desterro de Itamby" e "natural e baptizada nesta freguezia" — Itambi sendo
+    freguesia de Itaboraí. O casamento em si fora celebrado antes em Itaboraí (local do evento
+    inalterado).
 - text: >-
     Recategorised as a parish record (not civil): 1879 predates Brazilian civil
     marriage registration, and the entry is a Catholic parish justificação

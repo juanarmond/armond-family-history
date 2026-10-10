@@ -2979,9 +2979,9 @@ documents:
   added_date: '2026-08-10'
   apparent_record_type: Catholic parish baptism register (original)
   apparent_people:
-  - Maria de Lemos (b.14 Jul 1832)
-  - Manoel de Lemos Ferreira (father)
-  - Maria Nunes de Jesus (mother)
+  - Maria de Lemos (bapt.14 Jul 1832)
+  - Manoel de Lemos Pereira (father; corrected 2026-10-10 from the misreading "Ferreira")
+  - Maria Thereza (mother; corrected 2026-10-10 from the misreading "Maria Nunes de Jesus")
   apparent_event: baptism
   image_quality: adequate
   provenance: FamilySearch retrieval drop (research/from-retrieval/ sync, 7-8 August
@@ -3005,7 +3005,9 @@ documents:
   notes:
   - Original Itaboraí baptism register entry for Maria (Maria de Lemos), daughter
     of Manoel de Lemos Ferreira × Maria Nunes de Jesus (scribal variant of "Maria
-    Thereza de Jesus" — same person as P-0053). Sister of Rosa Eugenia de Lemos (P-0035).
+    Thereza de Jesus" — same person as P-0053). [Corrected 2026-10-10 from the image — the
+    entry reads "Manoel de Lemos Pereira" and "Maria Thereza"; godfather Capitão Joze Custodio
+    Vieira — see PAR-0030.] Sister of Rosa Eugenia de Lemos (P-0035).
     Maternal great-great-grandmother line of Juan Armond (P-0001). All persons 19th-century
     deceased.
 - inventory_id: DOC-0067
@@ -3013,9 +3015,9 @@ documents:
   added_date: '2026-08-10'
   apparent_record_type: Catholic parish baptism register (original)
   apparent_people:
-  - Anna de Lemos (b.12 Feb 1834)
-  - Manoel de Lemos Ferreira (father)
-  - Maria Nunes de Jesus (mother)
+  - Anna de Lemos (bapt.11 Feb 1834; corrected 2026-10-10 from "12 Feb")
+  - Manoel de Lemos Pereira (father; corrected 2026-10-10 from "Ferreira")
+  - Maria Thereza de Jezus (mother; corrected 2026-10-10 from "Maria Nunes de Jesus")
   apparent_event: baptism
   image_quality: adequate
   provenance: FamilySearch retrieval drop (research/from-retrieval/ sync, 7-8 August
@@ -3039,7 +3041,9 @@ documents:
   notes:
   - Original Itaboraí baptism register entry for Anna (Anna de Lemos), daughter of
     Manoel de Lemos Ferreira × Maria Nunes de Jesus; godparents José Antonio and Anna
-    Roza de Guimarães. Sister of Rosa Eugenia de Lemos (P-0035). All persons 19th-century
+    Roza de Guimarães. [Corrected 2026-10-10 from the image — "Manoel de Lemos Pereira" ×
+    "Maria Thereza de Jezus", 11 February 1834; godparents João Joze Antunes and Anna Roza da
+    Encarnação — see PAR-0031.] Sister of Rosa Eugenia de Lemos (P-0035). All persons 19th-century
     deceased.
 - inventory_id: DOC-0068
   status: catalogued
@@ -3079,8 +3083,9 @@ documents:
   added_date: '2026-08-10'
   apparent_record_type: Catholic parish baptism register (original)
   apparent_people:
-  - Polídoro de Lemos (bapt. c. November 1838)
-  - Manoel de Lemos Ferreira (father)
+  - Polídoro de Lemos (bapt.18 Mar 1838; corrected 2026-10-10 from "c. November 1838")
+  - Manoel de Lemos Pereira (father; corrected 2026-10-10 from "Ferreira")
+  - Maria Thereza de Jezus (mother; read 2026-10-10, earlier recorded as illegible)
   apparent_event: baptism
   image_quality: partly-illegible
   provenance: FamilySearch retrieval drop (research/from-retrieval/ sync, 7-8 August
@@ -3105,6 +3110,8 @@ documents:
   - Original Itaboraí baptism register entry for Polídoro (Polidoro de Lemos), son
     of Manoel de Lemos Ferreira; mother's name severely damaged and illegible. Page
     in very poor condition; date inferred as c. November 1838 from surrounding entries.
+    [Corrected 2026-10-10 from the image — "Aos desoito dias do mez de Março" 1838, father
+    "Manoel de Lemos Pereira", mother "Maria Thereza de Jezus" — see PAR-0033.]
     Brother of Rosa Eugenia de Lemos (P-0035). All persons 19th-century deceased.
     Date corrected from retrieval-agent initial read of "15 March 1838" to c. November
     1838 based on direct image verification 2026-08-10.
@@ -4320,7 +4327,7 @@ documents:
   apparent_people:
   - Marianno José Ferreira Armonde (petitioner; probable brother of elder Simplício;
     collateral of P-0016)
-  - Escolástico Armonde (southern boundary neighbor — new name, unresolved relation)
+  - Joze Ferreira Armonde (southern boundary neighbor; corrected 2026-10-10 from the misreading "Escolástico Armonde")
   apparent_event: other
   image_quality: adequate
   provenance: SIAAPM/brtbusca retrieval (research/from-retrieval/ sync, 2026-09-19);
@@ -4408,7 +4415,7 @@ documents:
   proposed_source_id: GOV-0010
   notes:
   - 'Introduces Escolástico Armonde as a southern boundary neighbor — a new name in
-    any held source. Mariano''s Borda do Campo residence matches the "predeceased
+    any held source. [Corrected 2026-10-10: the image reads Joze Ferreira Armonde.] Mariano''s Borda do Campo residence matches the "predeceased
     Mariano José" of the 1845 Honório inventário (strong lead for identity). Usage:
     context_only.'
 - inventory_id: DOC-0105

@@ -5,6 +5,25 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — retrieval drop of 2026-10-10 (text only): corrections applied from held scans (2026-10-10)
+
+- Lemos baptisms re-read on our own scans (PAR-0016, PAR-0030–0033): every reading the retrieval side
+  disputed is confirmed — Rosa Eugenia de Lemos baptised 12 Oct 1835 (E-0049 now exact), Anna 11 Feb
+  1834, Thomaz 13 Jun 1836, Polidoro 18 Mar 1838 (the August change to November was the error); the
+  father is "Manoel de Lemos Pereira" where written in full; "Maria Nunes de Jesus" and the two-wives
+  hypothesis were misreadings, now retired; a Capitão stood godfather twice. F-0025's union is upgraded
+  to confirmed on the five legitimate-child baptisms.
+- PAR-0002: the 1879 registration of Francisco José Bohrer × Rosa's justified marriage was entered in
+  Itaboraí's marriage book, not Nova Friburgo's (P-0034, P-0035, E-0026 follow).
+- GOV-0010 (1792 sesmaria of Marianno José Ferreira Armonde) transcribed in full, seven pages:
+  "Escolástico Armonde" was a misreading of "Joze Ferreira Armonde"; the other neighbours, place,
+  jurisdiction and dates corrected; the Câmara notes the land was farmed by the petitioner's father.
+- Recorded as leads (images not delivered): Simplício (P-0016) witnessed a 1905 Muriaé will as "natural
+  de Barbacena, commerciante"; Rosa's four grandparents named in 1821/1841 Itaboraí baptisms; the
+  retrieval side's Terceira primaries, which give Gaspar's baptism as 23 Dec 1657 and his death on
+  Terceira in 1727 and would make the P-0092 identification untenable (owner decision pending).
+- Census citations corrected: Meia Pataca 1838 = APM MP-CX.03-DOC.18, 120 fogos; Kágado 1831 = 90 fogos.
+
 ### Fixed — review of the transcription pass (2026-10-09)
 
 - PUB-0002 f. 56 transcribed in full: the patriarch's paternal grandparents (Belchior × Mariana) and
