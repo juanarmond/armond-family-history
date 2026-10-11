@@ -1,5 +1,7 @@
 # FamilySearch living-profile download and academic-article review
 
+> **Redacted 2026-10-11 (owner decision):** identifiers, dates and names of living people in this log are withheld; the unredacted original is kept in the private store (`private/logs/2026-07-28-familysearch-living-profile-download-and-article-review.md`).
+
 ## Research question
 
 Which original files attached to the living repository subject's FamilySearch
@@ -11,7 +13,7 @@ dissertation add any defensible knowledge about the documented Armond line?
 
 The repository owner explicitly authorised downloading the files into this
 private repository and stated that duplicate documents should not be retained.
-The authenticated FamilySearch Memories page for profile `GQJ1-N2D` was
+The authenticated FamilySearch Memories page for profile `[withheld identifier]` was
 reviewed without changing any profile, tag, source or visibility setting.
 
 FamilySearch's `Download` action supplied each originally uploaded PDF. Every
@@ -29,12 +31,12 @@ the agent made no FamilySearch visibility mutation.
 
 | Memory | Storage ID | Uploaded file | Result |
 | --- | --- | --- | --- |
-| `120433441` | `TH-7783-105179-4791-76` | `Juan Armond - Nascimento.pdf` | Catalogued as `CIV-0008` |
-| `120433439` | `TH-7782-105179-4562-84` | `Juan Armond - Nascimento.pdf` | Byte-identical duplicate of `120433441`; provenance retained, no second file |
-| `120433442` | `TH-7781-105179-4634-2` | `Juan Armond e Vanessa Bevilacqua - Casamento Canada.pdf` | Catalogued as `CIV-0009` |
-| `120433440` | `TH-7781-105179-4633-99` | `Juan Armond e Vanessa Bevilacqua - Casamento ATTI DI MATRIMONIO.pdf` | Catalogued as `CIV-0010` |
-| `120433443` | `TH-7783-105179-4793-62` | `Juan Armond e Vanessa Bevilacqua - Casamento Italia.pdf` | Catalogued as `CIV-0011` |
-| `120433444` | `TH-7782-105179-4564-90` | `Juan Armond e Vanessa Bevilacqua - Casamento Italia 1.pdf` | Catalogued as `CIV-0012` |
+| `[withheld identifier]` | `[withheld identifier]` | `Juan Armond - Nascimento.pdf` | Catalogued as `CIV-0008` |
+| `[withheld identifier]` | `[withheld identifier]` | `Juan Armond - Nascimento.pdf` | Byte-identical duplicate of `[withheld identifier]`; provenance retained, no second file |
+| `[withheld identifier]` | `[withheld identifier]` | `Juan Armond e [living spouse] - Casamento Canada.pdf` | Catalogued as `CIV-0009` |
+| `[withheld identifier]` | `[withheld identifier]` | `Juan Armond e [living spouse] - Casamento ATTI DI MATRIMONIO.pdf` | Catalogued as `CIV-0010` |
+| `[withheld identifier]` | `[withheld identifier]` | `Juan Armond e [living spouse] - Casamento Italia.pdf` | Catalogued as `CIV-0011` |
+| `[withheld identifier]` | `[withheld identifier]` | `Juan Armond e [living spouse] - Casamento Italia 1.pdf` | Catalogued as `CIV-0012` |
 | `101592607` | `TH-904-96969-1013-75` | Chagas dissertation PDF | Catalogued as `PUB-0001` |
 
 The two birth downloads both have SHA-256
@@ -54,7 +56,7 @@ addresses, contact details or signatures.
 names both sets of grandparents. It corroborates the existing working roster
 without resolving any disputed deceased-ancestor fact.
 
-`CIV-0009` directly records the legal marriage in Toronto on 16 August 2003 and
+`CIV-0009` directly records the legal marriage in Toronto on [withheld date] and
 reports the parties' parentage. `CIV-0010`, `CIV-0011` and `CIV-0012` are later
 Italian civil-registry manifestations of that same event. They corroborate the
 marriage but are not independent original-event observations.

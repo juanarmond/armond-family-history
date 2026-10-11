@@ -1,7 +1,10 @@
 # Evidence files
 
-This directory holds private document images and legally permitted derivatives.
-Do not publish, upload or move these files outside the private repository.
+This directory holds document images and legally permitted derivatives. The
+repository is public: every scan here is published through Git. A scan of a
+record naming a living person, or one the owner restricts to private storage,
+lives instead in the gitignored private store under `private/evidence/<category>/`
+and is cited from its record by that path (owner decision, 2026-10-11).
 
 Categories reflect the **origin (repository) of the record** — where the
 document was created — not the event it documents. A civil-registry marriage,

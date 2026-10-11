@@ -351,10 +351,12 @@ verify by hand and with the advisory audits):
      a portrait/roster deepening, a corrected conclusion).
 
 **D. Derived artefacts** (regenerate whichever the change touched; commit them like
-source, except the gitignored `.gdz`/`_site/`). Each committed artefact has an
-**in-step test** that fails `make check` when it drifts — so regenerate rather than
-hand-edit:
-7. `uv run --frozen make export` — GEDCOM (`test_gedcom_export`).
+source, except the gitignored GEDCOM exports and `_site/`). Each committed artefact
+has an **in-step test** that fails `make check` when it drifts — so regenerate rather
+than hand-edit:
+7. `uv run --frozen make export` — the local, private full-backup GEDCOM (never
+   committed; it carries living people and privately held records). Then run
+   `uv run --frozen make privacy-audit` before committing.
 8. `uv run --frozen make updates` — the viewer "What's new" feed
    (`test_updates_feed` fails when a public source is missing). This regenerates `updates.json`
    from the public *documents* **plus** the curated `updates.yaml` editorial entries — so add any

@@ -4,9 +4,10 @@
 # Runs `make check` whenever a commit touches structural files, so the enforced
 # rules cannot be committed broken: JSON-schema validity, ID-ledger integrity,
 # link reciprocity (person<->family / person<->event / event<->source), and the
-# in-step committed derived artefacts (entity-index.json, updates.json feed, and
-# the GEDCOM backup). If data changed but `make export` / `make updates` were not
-# re-run, `make check` fails here and the commit is blocked until they are.
+# in-step committed derived artefacts (entity-index.json and the updates.json
+# feed), and that nothing private is tracked (no private/ store file, no GEDCOM
+# export). If data changed but `make updates` was not re-run, `make check` fails
+# here and the commit is blocked until it is.
 #
 # Install with `make install-hooks`. Bypass in an emergency: git commit --no-verify
 set -e

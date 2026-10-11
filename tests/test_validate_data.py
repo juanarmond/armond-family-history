@@ -980,6 +980,62 @@ class ValidateDataTests(unittest.TestCase):
             result, "error", "source concerning living person P-0001 must be private"
         )
 
+    def test_source_naming_living_person_is_held_privately(self) -> None:
+        self.fixture.documents["people"]["P-0001"]["privacy"] = "living"
+        self.fixture.documents["sources"]["CIV-0001"]["transcription"] = "Synthetic text."
+        self.fixture.documents["sources"]["CIV-0001"]["event_date"] = {
+            "value": "1900-01-01", "precision": "exact"
+        }
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "is held privately: transcription")
+        self.assert_issue(result, "error", "is held privately: event_date")
+
+    def test_living_record_scan_must_be_in_private_store(self) -> None:
+        self.fixture.documents["people"]["P-0001"]["privacy"] = "living"
+        evidence_path = self.fixture.root / "evidence/civil/example.txt"
+        evidence_path.parent.mkdir(parents=True)
+        evidence_path.write_bytes(b"synthetic fixture")
+        self.fixture.documents["sources"]["CIV-0001"]["digital_file"] = {
+            "path": "evidence/civil/example.txt",
+            "sha256": hashlib.sha256(b"synthetic fixture").hexdigest(),
+        }
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "must keep its scan in the private store")
+
+    def test_absent_private_store_scan_is_not_an_error(self) -> None:
+        # CI and other clones have no private store; its files are skipped there.
+        source = self.fixture.documents["sources"]["CIV-0001"]
+        source["digital_file"] = {"path": "private/evidence/civil/absent.pdf", "sha256": "0" * 64}
+        source["withhold_from_site"] = True
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assertFalse(
+            [issue for issue in result.issues if "absent.pdf" in issue.message],
+            [issue.render() for issue in result.issues],
+        )
+
+    def test_present_private_store_scan_is_checksum_verified(self) -> None:
+        private_file = self.fixture.root / "private/evidence/civil/present.txt"
+        private_file.parent.mkdir(parents=True)
+        private_file.write_bytes(b"synthetic fixture")
+        source = self.fixture.documents["sources"]["CIV-0001"]
+        source["digital_file"] = {"path": "private/evidence/civil/present.txt", "sha256": "0" * 64}
+        source["withhold_from_site"] = True
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "checksum does not match private/evidence/civil/present.txt")
+
+    def test_private_store_scan_requires_withholding_from_site(self) -> None:
+        self.fixture.documents["sources"]["CIV-0001"]["digital_file"] = {
+            "path": "private/evidence/civil/absent.pdf",
+            "sha256": "0" * 64,
+        }
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "must be withheld from the site")
+
     def test_evidence_checksum_mismatch_is_an_error(self) -> None:
         evidence_path = self.fixture.root / "evidence/civil/example.txt"
         evidence_path.parent.mkdir(parents=True)

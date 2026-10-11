@@ -73,6 +73,44 @@ def summarize(profile: str | None, max_words: int = 90) -> str:
     return " ".join(words[:max_words]).strip() + " …"
 
 
+LIVING_LABEL = "a living person"
+
+
+def living_name_scrubber(people: dict[str, dict]):
+    """Return a function that replaces living people's full names in published text.
+
+    Living people are already reduced to stubs, but their names can still surface in
+    other records' prose (a family note, a deceased relative's notes). Every recorded
+    full name of two or more words is replaced, case-insensitively, by LIVING_LABEL.
+    The site build applies the same scrubber, so the two outputs stay in step.
+    """
+    names: set[str] = set()
+    for person in people.values():
+        if person.get("privacy") != "living":
+            continue
+        variants = [v.get("value") for v in person.get("name_variants") or [] if isinstance(v, dict)]
+        for name in [person.get("preferred_name"), *variants]:
+            if isinstance(name, str) and len(name.split()) >= 2:
+                names.add(" ".join(name.split()))
+    if not names:
+        return lambda value: value
+    pattern = re.compile(
+        "|".join(re.escape(name) for name in sorted(names, key=len, reverse=True)),
+        re.IGNORECASE,
+    )
+
+    def scrub(value: object) -> object:
+        if isinstance(value, str):
+            return pattern.sub(LIVING_LABEL, value)
+        if isinstance(value, list):
+            return [scrub(item) for item in value]
+        if isinstance(value, dict):
+            return {key: scrub(item) for key, item in value.items()}
+        return value
+
+    return scrub
+
+
 def date_value(date_field: object) -> str | None:
     if isinstance(date_field, dict):
         value = date_field.get("value")
@@ -87,6 +125,7 @@ def build(data_root: Path, output_dir: Path) -> dict[str, int]:
     sources = load_entities(data_root / "sources")
 
     living_ids = {pid for pid, p in people.items() if p.get("privacy") == "living"}
+    scrub = living_name_scrubber(people)
 
     def has_living(person_ids: object) -> bool:
         return any(pid in living_ids for pid in (person_ids or []))
@@ -277,7 +316,7 @@ def build(data_root: Path, output_dir: Path) -> dict[str, int]:
     # Compact separators: the Worker re-serializes these before sending to Gemini,
     # so the token count that matters is the compact form, not pretty-printed bytes.
     def write_json(path: Path, payload: object) -> int:
-        compact = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
+        compact = json.dumps(scrub(payload), ensure_ascii=False, separators=(",", ":"))
         path.write_text(compact + "\n", encoding="utf-8")
         return len(compact)
 

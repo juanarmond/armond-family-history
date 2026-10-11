@@ -32,8 +32,8 @@ session, so FamilySearch record images were not retrieved.
   ("Selada na forma da lei"), and extracted both spouses' reported births:
   Antenor 2 November 1923 (Alvorada) and Iris 27 February 1929 (Presidente
   Soares). Structured as events E-0017 and E-0018 with place PL-0009.
-- CIV-0008 (subject's birth): added the register citation (livro A-350, folha
-  98, no. 24241, Talao 300524), hospital and time.
+- CIV-0008 (subject's birth): added the register citation, hospital and time
+  (withheld 2026-10-11; the record is held privately).
 - CIV-0001, CIV-0002, CIV-0006, GOV-0001, CIV-0007, CIV-0009 through PUB-0001
   matched their YAML records; no correction required beyond trivial spelling.
 

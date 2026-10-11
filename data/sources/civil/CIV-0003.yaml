@@ -29,7 +29,7 @@ repository:
     #004366687; original-image storage ID TH-266-11612-78888-32; Memory storage
     ID TH-904-96969-238-86
   url: https://www.familysearch.org/ark:/61903/1:1:77DD-TX6Z
-  repository_path: evidence/civil/CIV-0003-death-geraldo-paz-armond-1991-original.jpg
+  repository_path: private/evidence/civil/CIV-0003-death-geraldo-paz-armond-1991-original.jpg
 access_date: "2026-07-28"
 language: pt-BR
 reading_reliability: complete
@@ -91,7 +91,7 @@ reliability:
     be treated as recorded rather than as a family census. The retained JPEG is
     FamilySearch's authorised `JPG Only` download from the original-image ARK.
 digital_file:
-  path: evidence/civil/CIV-0003-death-geraldo-paz-armond-1991-original.jpg
+  path: private/evidence/civil/CIV-0003-death-geraldo-paz-armond-1991-original.jpg
   sha256: c4188e3a81f1547a7db4b178246e4154505798188b6aef05300321d41acdee8d
 linked_people:
   - P-0004
@@ -106,7 +106,16 @@ linked_events:
 linked_places:
   - PL-0003
 private: true
+withhold_from_site: true
 notes:
+  - text: >-
+      2026-10-11 (owner decision): the scan moved to the private store
+      (private/evidence/) and the record is withheld from the public site; the
+      scan is preserved, not deleted.
+    text_pt: >-
+      2026-10-11 (decisão do proprietário): a digitalização passou para o arquivo
+      privado (private/evidence/) e o registro deixa de ser publicado no site; a
+      digitalização é preservada, não apagada.
   - text: >-
       The same register page was inspected through the original-image ARK.
       A later viewer pass successfully produced the authorised full-resolution

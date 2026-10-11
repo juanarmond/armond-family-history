@@ -201,7 +201,7 @@
         "path": {
           "type": "string",
           "minLength": 1,
-          "pattern": "^evidence/(?!.*\\.\\.).+$"
+          "pattern": "^(private/)?evidence/(?!.*\\.\\.).+$"
         },
         "sha256": {
           "type": "string",

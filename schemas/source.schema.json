@@ -230,7 +230,7 @@
         "path": {
           "type": "string",
           "minLength": 1,
-          "pattern": "^evidence/(?!.*\\.\\.).+$"
+          "pattern": "^(private/)?evidence/(?!.*\\.\\.).+$"
         },
         "sha256": {
           "type": "string",
@@ -239,7 +239,7 @@
         "redacted_derivative": {
           "type": "string",
           "minLength": 1,
-          "pattern": "^evidence/(?!.*\\.\\.).+$"
+          "pattern": "^(private/)?evidence/(?!.*\\.\\.).+$"
         },
         "show_pages": {
           "$ref": "common.schema.json#/$defs/showPages"
@@ -254,7 +254,7 @@
         "additionalProperties": false,
         "required": ["path", "sha256"],
         "properties": {
-          "path": { "type": "string", "minLength": 1, "pattern": "^evidence/(?!.*\\.\\.).+$" },
+          "path": { "type": "string", "minLength": 1, "pattern": "^(private/)?evidence/(?!.*\\.\\.).+$" },
           "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
           "show_pages": { "$ref": "common.schema.json#/$defs/showPages" }
         }
@@ -277,7 +277,7 @@
     },
     "withhold_from_site": {
       "type": "boolean",
-      "description": "true when the scan or transcription names a living person who is not modelled as a person entity, so the living-person filter cannot see them. The public site and the assistant knowledge base then treat the record like one naming a living person: display metadata only, no scan, transcription or link. Distinct from `private`, which the site build does not use for deceased-only records."
+      "description": "true when the scan or transcription names a living person who is not modelled as a person entity, so the living-person filter cannot see them, or when the owner restricts the record to private storage (its scan under private/evidence/). The public site and the assistant knowledge base then treat the record like one naming a living person: display metadata only, no scan, transcription or link. Distinct from `private`, which the site build does not use for deceased-only records."
     },
     "notes": {
       "$ref": "common.schema.json#/$defs/notes"

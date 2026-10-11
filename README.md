@@ -145,10 +145,11 @@ The same frozen check runs on GitHub pushes and pull requests.
 
 ## Privacy
 
-This is a private repository. Minimise information about living people and do
-not publish or copy their documents outside the repository without explicit
-permission. Government identifiers, full addresses, signatures and other
-sensitive details must not be transcribed unless essential to the research.
+This repository and its site are public. Records about deceased people are
+published in full; documents, transcriptions and identifiers of living people
+are held in the gitignored private store (`private/`) and never tracked. The
+policy, and how a privately held record is cited, is in
+[research/README.md](research/README.md) (owner decision, 2026-10-11).
 
 Structured records export to GEDCOM (7.0 by default, 5.5.1 via
 `make export-legacy`) as a **full backup** — everything, no redaction: living

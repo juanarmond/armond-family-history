@@ -3,9 +3,11 @@
 
 This is a **full backup**: everything, no redaction — people, families, events,
 source citations, living people in full, transcriptions, scan paths/checksums,
-``OBJE`` records referencing the ``evidence/`` scans, and rejected edges (flagged
-`QUAY 0`, never as plain fact). The repository is private and already holds the
-scans, so the export is treated as an in-repo backup, not a shareable file.
+``OBJE`` records referencing the scans, and rejected edges (flagged `QUAY 0`, never
+as plain fact). The repository is public, so every export is a **local, private
+backup** and is never committed (owner decision, 2026-10-11). Where the private
+store is present (``private/data/``), its full originals of the privately held
+records replace their public citation stubs, so the backup stays complete.
 
 - ``make export`` → the GEDCOM text (`.ged`), which *references* the scans.
 - ``make export-bundle`` → a **GEDZIP** (`.gdz`): a single portable ZIP that
@@ -152,6 +154,23 @@ def load_entities(data_root: Path) -> dict[str, dict[str, dict]]:
     return entities
 
 
+def load_private_originals(data_root: Path) -> dict[str, dict]:
+    """Full originals of the privately held source records, keyed by ID.
+
+    They live in the gitignored private store beside ``data/`` (``private/data/
+    sources/<category>/<ID>.yaml``) and exist only on the owner's machine; elsewhere
+    this returns nothing and the export uses the public citation stubs.
+    """
+    store = data_root.parent / "private" / "data" / "sources"
+    originals: dict[str, dict] = {}
+    if store.is_dir():
+        for path in sorted(store.glob("*/*.yaml")):
+            data = load_yaml(path)
+            if isinstance(data, dict) and isinstance(data.get("id"), str):
+                originals[data["id"]] = data
+    return originals
+
+
 class GedcomBuilder:
     def __init__(
         self,
@@ -171,6 +190,7 @@ class GedcomBuilder:
         self.sources: dict[str, dict] = {}
         for kind in SOURCE_KINDS:
             self.sources.update(entities[kind])
+        self.sources.update(load_private_originals(data_root))
         self.version = version
         self.include_hypotheses = include_hypotheses
         self.include_notes = include_notes

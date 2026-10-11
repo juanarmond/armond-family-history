@@ -82,4 +82,4 @@ The loader reads `entity-index.json`, which enumerates every entity ID. Regenera
 
 ## Security
 
-This viewer is intended for the private repository. It links to the original evidence files and external record URLs recorded in each source, and it can display private, living-person-sensitive documents; every linked file carries a `Private` marker. Living-person details are reduced before display and their sources are never listed. Do not expose the repository or viewer publicly without a separate privacy review, and do not serve it on an untrusted host while it links to private evidence.
+The repository and the deployed site are public. The site build (`scripts/build_pages_site.py`) reduces living people to stubs, withholds records that name them or that the owner restricts, scrubs living people's names from published text, and never copies the private store (`private/`). Run locally against a checkout that holds the private store, the viewer can link files only that machine has; never serve such a checkout on an untrusted host.

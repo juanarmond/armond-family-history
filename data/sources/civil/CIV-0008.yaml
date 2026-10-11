@@ -1,85 +1,31 @@
 schema_version: 1
 id: CIV-0008
-title: Certified birth certificate of Juan Carlos Muniz Armond
-title_pt: >-
-  Certidão de nascimento de Juan Carlos Muniz Armond
-record_type: Civil birth certificate
+title: "Civil birth certificate of a living person — held privately"
+title_pt: "Certidão de nascimento de uma pessoa viva — guardada em privado"
+record_type: "Civil birth certificate"
 record_category: civil_registration
 source_form: derivative
 information_quality: mixed
 evidence_type: direct
 usage: evidence
-event_date:
-  kind: exact
-  value: "1982-06-22"
-event_place_text: Rio de Janeiro, Rio de Janeiro, Brazil
 repository:
-  name: FamilySearch Memories
-  archive_or_registry: >-
-    Civil Registry of Natural Persons, 10th District, Rio de Janeiro, Brazil
-    (Euclydes Pereira Cortez, 5th Zone)
-  book: A-350
-  page: "98"
-  record_number: "24241 (número de ordem); Talão 300524"
-  catalogue_reference: >-
-    FamilySearch Memories 120433441 and 120433439; storage identifiers
-    TH-7783-105179-4791-76 and TH-7782-105179-4562-84; original upload
-    filename "Juan Armond - Nascimento.pdf"
-  url: https://www.familysearch.org/en/memories/memory/120433441
-  repository_path: >-
-    evidence/civil/CIV-0008-birth-juan-carlos-muniz-armond-1982-original.pdf
+  name: Held privately — records concerning living people
 access_date: "2026-07-28"
 language: pt-BR
-transcription: >-
-  [República Federativa do Brasil. Estado do Rio de Janeiro. Euclydes Pereira
-  Cortez, Oficial da 10ª Circunsc. do Reg. Civil das Pessoas Naturais — Rua
-  Carolina Meier 31, Meier, Rio de Janeiro — 2281-2270 — Comarca do Estado do Rio
-  de Janeiro, 5ª Zona.] "CERTIDÃO DE NASCIMENTO. Certifico que à fl. 98 do livro
-  nº A-350 sob o número de ordem 24241, foi lavrado o assentamento de JUAN CARLOS
-  MUNIZ ARMOND, nascido aos vinte e dois (22) dias do mês de Junho do ano de mil
-  novecentos e oitenta e dois (1982), às 03:45 horas, no(a) HOSPITAL CARMELA DUTRA
-  — NESTA CIDADE, do sexo masculino, filho de LUIS CARLOS IGRACIO ARMOND e LUCINÉA
-  APARECIDA MUNIZ ARMOND, sendo avós paternos: GERALDO PAZ ARMOND e CIDALIA IGRACIO
-  ARMOND e maternos: ANTENOR MUNIZ e IRIS BOHRER MUNIZ. Foi declarante LUIS CARLOS
-  IGRACIO ARMOND. Observações: Registro feito aos vinte e dois (22) dias do mês de
-  Junho do ano de mil novecentos e oitenta e dois (1982). TALÃO Nº 300524.
-  *--*--*--*--*--*--*--*" Certification: "Eu, [assinatura], escrevente, a extraí. O
-  referido é verdade e dou fé. Rio de Janeiro, 20 de Junho de 2008." Signed
-  Priscila Xavier da Silveira, escrevente (CTPS [omitido — privacidade]); stamps of Antônio
-  de Oliveira Lopes, escrevente (CTPS [omitido — privacidade]) and the Serviço Registral e
-  Notarial da 10ª Circunscrição do Registro Civil, with Corregedoria Geral da
-  Justiça-RJ "Selo de Fiscalização" and a "reconhecimento de firma" sticker
-  (TZB74263). Top-left: stamp of the Consolato Generale d'Italia, Rio de Janeiro —
-  "ITALO GROSSI fu Luigi, Traduttore [tradutor público juramentado]" — with a
-  handwritten reference "39 390/08".
 abstract: >-
-  A certified derivative of the subject's Brazilian civil birth registration
-  (10th District of Rio de Janeiro, livro A-350, folha 98, número de ordem
-  24241) reports his birth at 03:45 on 22 June 1982 in the Hospital Carmela
-  Dutra, Rio de Janeiro; parents Luis Carlos Igracio Armond and Lucinea
-  Aparecida Muniz Armond; and grandparents Geraldo Paz Armond, Cidalia Igracio
-  Armond, Antenor Muniz and Iris Bohrer Muniz. The father was the declarant.
+  A record concerning living people. Under the owner's decision of 11 October
+  2026 the record, its transcription and any scan are held privately, outside
+  the public repository; this entry keeps only what the family tree needs to
+  cite it.
 abstract_pt: >-
-  Uma certidão derivada do registro civil de nascimento brasileiro do titular
-  (10ª Circunscrição do Rio de Janeiro, livro A-350, folha 98, número de ordem
-  24241) registra seu nascimento às 03:45 de 22 de junho de 1982 no Hospital
-  Carmela Dutra, Rio de Janeiro; pais Luis Carlos Igracio Armond e Lucinea
-  Aparecida Muniz Armond; e avós Geraldo Paz Armond, Cidalia Igracio Armond,
-  Antenor Muniz e Iris Bohrer Muniz. O pai foi o declarante.
+  Registro relativo a pessoas vivas. Por decisão do proprietário de 11 de
+  outubro de 2026, o registro, a sua transcrição e qualquer digitalização são
+  guardados em privado, fora do repositório público; esta entrada mantém apenas
+  o necessário para o citar na árvore.
 reliability:
-  assessment: >-
-    Direct official derivative evidence for the subject's birth and parentage,
-    and direct reported evidence for the named grandparents.
-  informant: >-
-    The certificate transcribes the civil registration; the father is named as
-    the original declarant.
-  limitations: >-
-    This is a later certified copy rather than the original register image.
-    The retained PDF contains sensitive living-person data and authentication
-    marks that must not appear in public derivatives.
+  assessment: Assessed in the privately held record.
 digital_file:
-  path: >-
-    evidence/civil/CIV-0008-birth-juan-carlos-muniz-armond-1982-original.pdf
+  path: private/evidence/civil/CIV-0008-birth-original.pdf
   sha256: 10ea2916d9b5bf9f551261dad3b7a4025d5e569a5422838b0c3d48764bb69fb2
 linked_people:
   - P-0001
@@ -97,12 +43,13 @@ linked_events:
   - E-0030
 linked_places: []
 private: true
+withhold_from_site: true
 notes:
-  - text: >-
-      FamilySearch holds two separate Memory entries for one byte-identical
-      PDF. Both Memory identifiers are preserved in this source record, but
-      only one file is retained.
-  - text: >-
-      FamilySearch's authorised Download action supplied the exact uploaded
-      one-page PDF. No screenshot, thumbnail, image conversion or upscaled
-      derivative is retained.
+- text: >-
+    Held privately (owner decision, 2026-10-11): the full record is kept in the
+    private store (private/data/sources/), outside this public repository. Only
+    the citation skeleton is tracked here.
+  text_pt: >-
+    Guardado em privado (decisão do proprietário, 2026-10-11): o registro
+    completo está no arquivo privado (private/data/sources/), fora deste
+    repositório público. Aqui fica apenas o esqueleto da citação.

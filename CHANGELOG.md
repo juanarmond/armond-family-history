@@ -5,6 +5,27 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Security — the public repository no longer holds living people's documents (Batch P, 2026-10-11)
+
+- Owner decision: the repository stays public, but living people's documents and private transcriptions do not
+  belong in it. The owner's birth certificate and four marriage documents (CIV-0008–0012) and his ancestor roster
+  (REC-0001) are now **held privately**: their full originals and scans moved to the gitignored private store
+  (`private/`), every SHA-256 verified, and the tracked files are citation stubs — no transcription, dates or
+  places, `withhold_from_site: true`. Their five inventory entries keep only public-safe fields.
+- The six records whose own notes restrict them to private storage (CIV-0001–0005, CIV-0013) keep their tracked
+  records, but their scans moved to the private store and they are no longer published on the site.
+- The full-backup GEDCOM is no longer tracked: `make export` writes it locally and, where the private store is
+  present, includes the privately held originals. `test_gedcom_export` now checks the export is reproducible.
+- Site and assistant: a record naming a living person no longer publishes its date; a family with a living partner
+  publishes no notes; living people's full names are scrubbed from every published record and the knowledge base.
+- Checks: `make check` fails when a record naming a living person carries a transcription, date, place or a
+  tracked scan, when a privately held scan is not withheld from the site, or when a private-store file or a GEDCOM
+  export is tracked. Private-store files are checksum-verified where the store is present, skipped elsewhere.
+  New local `make privacy-audit` checks tracked files and the built site against the private list of strings.
+- Living people's identifiers, dates and the spouse's name are redacted in three session logs and one entry
+  below; the unredacted originals are kept privately. Docs and docstrings now say the repository is public.
+- Git history still holds the earlier copies. Their cleanup is prepared but not performed (owner approval).
+
 ### Added — Margarida das Candeias Machado and her Ermonde parents (2026-10-10)
 
 - From three newly promoted São Sebastião (Terceira) records — Margarida's 1667 baptism (PAR-0103), her 1690 marriage to Gaspar
@@ -2509,8 +2530,8 @@ Marianna Euphragia de Tolledo) recorded. Conflict with F-0027 Aureliano note
   misread 39005 to 39006 (39005 is the unrelated infant on the facing page) and
   add its cause of death, registration date and son-declarant; add the cause of
   death, time and declarant to Aristão Ferreira Armond's death entry; and record
-  the civil-register citation (livro A-350, folha 98) printed on Juan Carlos
-  Muniz Armond's birth certificate.
+  the civil-register citation printed on Juan Carlos Muniz Armond's birth
+  certificate (withheld 2026-10-11; held privately).
 - Recover Antenor Muniz's (2 November 1923, Alvorada) and Iris Bohrer's
   (27 February 1929, Presidente Soares) birth facts stated as secondary
   information in their 1949 marriage certificate, which the source had wrongly

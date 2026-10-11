@@ -153,9 +153,10 @@ Every source entry should capture, when available:
 - Transcribe identifiers (record, book/folio, RG/CPF and dossier numbers) as they
   appear, and transcribe **every person the record names** — principals,
   declarants, informants, witnesses, officiants, physicians — with their stated
-  data. This repository is private and local: do **not** self-redact within a
-  transcription. Redaction, if ever needed, belongs only in a separately shared
-  derivative, never in the source transcription.
+  data. Do **not** self-redact within a transcription. A record naming a living
+  person is held privately instead: its full record, transcription and scan live
+  only in the private store (`private/`), and the tracked file keeps a citation
+  stub (see "Privacy" below).
 - Do not use OCR as the sole authority for handwritten records: a machine reading
   of cursive is a draft to verify against the image, never the final transcript.
 - If the original is unavailable and only a legible copy remains, transcribe the
@@ -271,5 +272,24 @@ tree who appear only there (his spouse, officiants, notary clerks), who stay red
 (owner's clarification, 2026-10-08).
 
 Minimise data for living people. Do not store identity numbers, full addresses,
-signatures, financial information or unnecessary certificate images. The
-repository is private, but privacy-by-design still applies.
+signatures, financial information or unnecessary certificate images.
+
+**The repository is public** (owner decision of 2026-09-25, scoped on 2026-10-11).
+Everything tracked — files, Git history, LFS objects, filenames, logs — is
+published, whatever the site filter does. So:
+
+- A record that names a living person — the owner's own birth and marriage
+  documents, his spouse's records, any other living person's civil record — is
+  **held privately**: its full original, transcription and scan live in the
+  gitignored private store (`private/data/`, `private/evidence/`), and the tracked
+  record is a citation stub with no transcription, dates or places, its scan path
+  under `private/evidence/` and `withhold_from_site: true`. `make check` enforces
+  this.
+- A record the owner restricts to private storage keeps its tracked record but
+  moves its scan to `private/evidence/` and is withheld from the site.
+- The full-backup GEDCOM is generated locally (`make export`) and never committed;
+  where the private store is present it includes the privately held originals.
+- `make privacy-audit` checks tracked files and the built site against the private
+  list of strings that must never be published (`private/redaction-terms.txt`).
+- The private store is the only copy of these originals outside Git history, so
+  it must be backed up privately.

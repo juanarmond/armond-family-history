@@ -1,5 +1,7 @@
 # FamilySearch direct-line Memories audit
 
+> **Redacted 2026-10-11 (owner decision):** identifiers, dates and names of living people in this log are withheld; the unredacted original is kept in the private store (`private/logs/2026-07-28-familysearch-direct-line-memories-audit.md`).
+
 ## Research question
 
 Which FamilySearch Memories are attached to the repository's current direct
@@ -25,7 +27,7 @@ changed.
 
 | Person | Profile | Memories | Result |
 | --- | --- | ---: | --- |
-| `P-0001` | `GQJ1-N2D` | 7 | Six personal civil PDFs concerning living people and one academic article; none retained |
+| `P-0001` | `[withheld identifier]` | 7 | Six personal civil PDFs concerning living people and one academic article; none retained |
 | `P-0002` | `GQJ1-KSS` | 0 | No Memories |
 | `P-0003` | `GQJ1-V1L` | 0 | No Memories |
 | `P-0004` | `GQJ1-RVK` | 4 | `CIV-0003` plus the three alternate `CIV-0002` photographs |
@@ -47,12 +49,12 @@ All seven Memories attached to `P-0001` display `Public`. Six are civil
 documents involving living people, including two separately stored birth PDFs
 and four marriage-related PDFs. The visible storage identifiers are:
 
-- `TH-7781-105179-4633-99`;
-- `TH-7781-105179-4634-2`;
-- `TH-7783-105179-4791-76`;
-- `TH-7782-105179-4564-90`;
-- `TH-7782-105179-4562-84`; and
-- `TH-7783-105179-4793-62`.
+- `[withheld identifier]`;
+- `[withheld identifier]`;
+- `[withheld identifier]`;
+- `[withheld identifier]`;
+- `[withheld identifier]`; and
+- `[withheld identifier]`.
 
 The seventh Public Memory is an academic article rather than a personal
 record. No living-person PDF was downloaded or copied into the repository.

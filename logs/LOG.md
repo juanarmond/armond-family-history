@@ -5,6 +5,15 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-10-11 — Batch P: living people's documents leave the public repository
+
+Repository audit and containment on the owner's decision (`logs/2026-10-11-batch-p-privacy-containment.md`). The owner's
+birth and marriage documents (CIV-0008–0012) and his roster (REC-0001) are held privately: full originals and scans in the
+gitignored `private/` store, citation stubs tracked. The six records restricted to private storage (CIV-0001–0005,
+CIV-0013) moved their scans there and are withheld from the site. The full-backup GEDCOM is no longer tracked. Two site
+leaks found and fixed: dates of records naming a living person, and a living person's name in family notes. 11 scans
+moved, every SHA-256 verified; nothing deleted. Git history still holds the earlier copies (cleanup pending approval).
+
 ## 2026-10-10 — Margarida das Candeias Machado and her parents (Terceira trunk)
 
 Owner-authorised (third batch): Margarida's baptism, the 1690 marriage and Manuel's 1661 baptism, read by path in the

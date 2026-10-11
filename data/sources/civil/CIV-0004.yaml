@@ -24,7 +24,7 @@ repository:
     FamilySearch source SVMX-ZJ4; Memory artifact 101538413; storage identifier
     TH-904-96953-4744-84
   url: https://www.familysearch.org/en/memories/memory/101538413
-  repository_path: evidence/civil/CIV-0004-marriage-antenor-muniz-iris-bohrer-1949-original.jpg
+  repository_path: private/evidence/civil/CIV-0004-marriage-antenor-muniz-iris-bohrer-1949-original.jpg
 access_date: "2026-07-28"
 language: pt-BR
 reading_reliability: complete
@@ -89,7 +89,7 @@ reliability:
     records. The repository retains the originally uploaded JPEG at its
     authorised download resolution.
 digital_file:
-  path: evidence/civil/CIV-0004-marriage-antenor-muniz-iris-bohrer-1949-original.jpg
+  path: private/evidence/civil/CIV-0004-marriage-antenor-muniz-iris-bohrer-1949-original.jpg
   sha256: 32719dcd87a06322013b0760a5a0745ad713f86876a6fd05d7dd8516420f631e
 linked_people:
 - P-0006
@@ -110,7 +110,16 @@ linked_places:
 - PL-0004
 - PL-0009
 private: true
+withhold_from_site: true
 notes:
+- text: >-
+    2026-10-11 (owner decision): the scan moved to the private store
+    (private/evidence/) and the record is withheld from the public site; the
+    scan is preserved, not deleted.
+  text_pt: >-
+    2026-10-11 (decisão do proprietário): a digitalização passou para o arquivo
+    privado (private/evidence/) e o registro deixa de ser publicado no site; a
+    digitalização é preservada, não apagada.
 - text: >-
     The document is attached as a user-created source on Antenor's FamilySearch
     profile. Iris's profile had no attached sources when checked on 28 July

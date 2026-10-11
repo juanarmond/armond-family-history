@@ -10,12 +10,14 @@ as the viewer grows), this script:
   ``nationality``/``sex``/``occupations`` appear without edits here), while
   reducing only the entity kinds that carry private evidence text.
 
-Privacy model (the site is public; the repository is private):
+Privacy model (the site and the repository are both public; records naming living
+people are held privately outside the repository — owner decision, 2026-10-11):
 
 * people    – deceased verbatim; living reduced to a private stub (structural
               family links only, name and all attributes withheld).
 * events    – dropped when any participant is living; otherwise verbatim.
-* families  – verbatim (structural; no evidence transcriptions).
+* families  – verbatim, except that a family whose partners include a living person
+              loses its notes.
 * places    – verbatim.
 * sources   – a record about only deceased people is published verbatim, and its
               evidence scan is deployed (owner directive: the dead may be shown).
@@ -25,6 +27,11 @@ Privacy model (the site is public; the repository is private):
               transcription or link.
 * fan       – same rule; all are third-party (deceased) records, so published with
               their scans unless one ever names a living participant.
+* everywhere – living people's full names are scrubbed from every published record
+              (the knowledge base applies the same scrubber).
+
+Scans under ``private/`` (the private store) are never copied: only ``evidence/``
+paths of publishable records are.
 
 Only the scans of publishable (deceased-only) records are copied into the site,
 under their repository-relative evidence/ path. Sources are written into their
@@ -47,7 +54,7 @@ import pypdfium2 as pdfium
 from PIL import Image
 import yaml
 
-from build_knowledge_base import build as build_knowledge_base
+from build_knowledge_base import build as build_knowledge_base, living_name_scrubber
 
 ROOT = Path.cwd()
 VIEWER = ROOT / "family-tree-viewer"
@@ -266,6 +273,8 @@ def main() -> None:
         living_linked = any(pid in living_ids for pid in source.get("linked_people", []) or [])
         if living_linked or source.get("withhold_from_site") is True:
             reduced = reduce_record(source, PUBLIC_SOURCE_FIELDS)
+            if living_linked:
+                reduced.pop("event_date", None)  # a living person's own date stays private
             reduced["linked_people"] = [
                 pid for pid in source.get("linked_people", []) if pid not in living_ids
             ]
@@ -293,9 +302,18 @@ def main() -> None:
             rendered_pages += drawn
             evidence_to_copy.update(scan_paths(ref))
 
+    # Families: structural and verbatim, except that a family whose partners include a
+    # living person loses its notes — they describe the living couple.
+    public_families: dict[str, dict] = {}
+    for fid, family in families.items():
+        if involves_living(family.get("partners")):
+            family = {key: value for key, value in family.items() if key != "notes"}
+        public_families[fid] = family
+
+    scrub = living_name_scrubber(people)
     datasets = {
         "people": public_people,
-        "families": families,
+        "families": public_families,
         "events": public_events,
         "places": places,
         "sources": public_sources,
@@ -316,7 +334,7 @@ def main() -> None:
                 target = OUTPUT / "data" / kind
             target.mkdir(parents=True, exist_ok=True)
             (target / f"{entity_id}.yaml").write_text(
-                yaml.safe_dump(entity, allow_unicode=True, sort_keys=False, width=100),
+                yaml.safe_dump(scrub(entity), allow_unicode=True, sort_keys=False, width=100),
                 encoding="utf-8",
             )
 

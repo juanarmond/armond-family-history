@@ -129,6 +129,29 @@ class PagesSiteEvidenceTest(unittest.TestCase):
                         problems.append(f"{rec['id']}: {path}")
         self.assertEqual(problems, [], f"TIFF scans without a displayable rendering: {problems}")
 
+    def test_no_living_person_name_or_private_path_is_published(self) -> None:
+        living_names = set()
+        for person in _load_dir(ROOT / "data" / "people"):
+            if person.get("privacy") != "living":
+                continue
+            variants = [v.get("value") for v in person.get("name_variants") or [] if isinstance(v, dict)]
+            for name in [person.get("preferred_name"), *variants]:
+                if isinstance(name, str) and len(name.split()) >= 2:
+                    living_names.add(" ".join(name.split()).lower())
+        self.assertTrue(living_names, "no living names to check")
+        leaked: list[str] = []
+        for path in self.site.rglob("*"):
+            if not path.is_file() or path.suffix not in {".yaml", ".json", ".js", ".html"}:
+                continue
+            text = " ".join(path.read_text(encoding="utf-8").split()).lower()
+            rel = path.relative_to(self.site).as_posix()
+            if any(name in text for name in living_names):
+                leaked.append(f"{rel}: a living person's name")
+            if rel.startswith(("data/", "kb/")) and "private/evidence/" in text:
+                leaked.append(f"{rel}: a private-store path")
+        self.assertFalse((self.site / "private").exists(), "the private store was copied")
+        self.assertEqual(leaked, [], f"published files leak private material: {leaked}")
+
     def test_withheld_records_ship_no_scan_or_transcription(self) -> None:
         withheld = [
             rec

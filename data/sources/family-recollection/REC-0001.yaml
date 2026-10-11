@@ -1,69 +1,29 @@
 schema_version: 1
 id: REC-0001
-title: Direct-ancestor roster supplied by Juan Carlos Muniz Armond
-title_pt: >-
-  Relação de ancestrais diretos fornecida por Juan Carlos Muniz Armond
-record_type: Owner-supplied family information
+title: "Direct-ancestor roster supplied by a living person — held privately"
+title_pt: "Lista de antepassados diretos fornecida por uma pessoa viva — guardada em privado"
+record_type: "Owner-supplied family information"
 record_category: family_recollection
 source_form: authored_narrative
 information_quality: mixed
 evidence_type: direct
 usage: evidence
 repository:
-  name: Armond Family History private repository
-  repository_path: STATUS.md
+  name: Held privately — records concerning living people
 access_date: "2026-07-28"
 language: en
-transcription: >-
-  [Owner-supplied direct-ancestor roster, July 2026. Verbal/written family information
-  consolidated from the project conversation; no scanned document exists. Content
-  summarised below as recollected by Juan Carlos Muniz Armond.]
-
-  Direct ancestors identified by the repository owner at project start (Ahnentafel
-  positions 1–15):
-
-  Position 1 — Juan Carlos Muniz Armond (self, living; b. Volta Redonda, RJ, 1982)
-  Position 2 — [Father; living; name withheld — see P-0002]
-  Position 3 — [Mother; living; name withheld — see P-0003]
-  Position 4 — Geraldo Paz Armond (paternal grandfather; d. 1991, Volta Redonda)
-  Position 5 — Cidália Engrácio Guimarães (paternal grandmother)
-  Position 6 — [Maternal grandfather; name withheld — see P-0006]
-  Position 7 — [Maternal grandmother; name withheld — see P-0007]
-  Position 8 — Aristão Ferreira Armond (paternal great-grandfather; d. 1957, Volta Redonda)
-  Position 9 — Eliza Balbina de Toledo (paternal great-grandmother)
-  Position 10 — António Engrácio de Souza (maternal great-grandfather)
-  Position 11 — Luzia Pinheiro da Conceição (maternal great-grandmother)
-  Position 12 — [Maternal great-grandfather — see P-0012]
-  Position 13 — [Maternal great-grandmother — see P-0013]
-  Position 14 — [Maternal great-grandfather — see P-0014]
-  Position 15 — [Maternal great-grandmother — see P-0015]
-
-  [Names at positions 6–7 and 12–15 involve living or near-living persons and are
-  withheld from this transcription; the structured person entities contain the
-  appropriate privacy settings. Each assertion above requires independent civil or
-  parish source corroboration — see individual person entities.]
 abstract: >-
-  The repository owner identified himself, his parents, and the deceased direct
-  ancestors used to initialise Ahnentafel positions 1 through 15. This source
-  supports the private working roster and preferred-name spellings only; it
-  does not substitute for civil or parish evidence of vital events or
-  relationships.
+  A record concerning living people. Under the owner's decision of 11 October
+  2026 the record, its transcription and any scan are held privately, outside
+  the public repository; this entry keeps only what the family tree needs to
+  cite it.
 abstract_pt: >-
-  O proprietário do repositório identificou a si mesmo, seus pais e os
-  ancestrais diretos já falecidos usados para inicializar as posições 1 a 15 da
-  Ahnentafel. Esta fonte apoia apenas a lista de trabalho privada e as grafias
-  de nomes preferenciais; não substitui evidências civis ou paroquiais de
-  eventos vitais ou de relações.
+  Registro relativo a pessoas vivas. Por decisão do proprietário de 11 de
+  outubro de 2026, o registro, a sua transcrição e qualquer digitalização são
+  guardados em privado, fora do repositório público; esta entrada mantém apenas
+  o necessário para o citar na árvore.
 reliability:
-  assessment: >-
-    Direct family information from the repository subject, strongest for his
-    own identity and immediate family and progressively less conclusive for
-    earlier generations.
-  informant: Juan Carlos Muniz Armond.
-  limitations: >-
-    This is family recollection consolidated from the project conversation,
-    not a contemporary civil or parish record. Each person and relationship
-    still requires source-specific corroboration.
+  assessment: Assessed in the privately held record.
 linked_people:
   - P-0001
   - P-0002
@@ -82,7 +42,13 @@ linked_families: []
 linked_events: []
 linked_places: []
 private: true
+withhold_from_site: true
 notes:
-  - text: >-
-      Living-person details are intentionally minimised. This source must not
-      be included in public exports.
+- text: >-
+    Held privately (owner decision, 2026-10-11): the full record is kept in the
+    private store (private/data/sources/), outside this public repository. Only
+    the citation skeleton is tracked here.
+  text_pt: >-
+    Guardado em privado (decisão do proprietário, 2026-10-11): o registro
+    completo está no arquivo privado (private/data/sources/), fora deste
+    repositório público. Aqui fica apenas o esqueleto da citação.

@@ -96,6 +96,16 @@ def json_path(parts: Iterable[Any]) -> str:
     return rendered
 
 
+PRIVATE_STORE_PREFIX = "private/"
+
+
+def is_private_store_path(relative_path: object) -> bool:
+    """True for files held in the gitignored private store (owner decision,
+    2026-10-11). They exist only where the store is present, so validation checks
+    them there and skips them silently elsewhere (CI, another clone)."""
+    return isinstance(relative_path, str) and relative_path.startswith(PRIVATE_STORE_PREFIX)
+
+
 def sha256_file(path: Path) -> str:
     digest = hashlib.sha256()
     with path.open("rb") as handle:

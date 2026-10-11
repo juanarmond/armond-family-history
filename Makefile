@@ -1,4 +1,4 @@
-.PHONY: check test validate profiles-audit ancestors-audit drop-pages-audit triage-audit updates knowledge-base export export-bundle export-legacy install-hooks upload-viewers
+.PHONY: check test validate profiles-audit ancestors-audit drop-pages-audit triage-audit privacy-audit updates knowledge-base export export-bundle export-legacy install-hooks upload-viewers
 
 PYTHON ?= python3
 
@@ -41,6 +41,11 @@ drop-pages-audit:
 triage-audit:
 	$(PYTHON) scripts/triage_audit.py
 
+# Private strings (private/redaction-terms.txt) must never reach a tracked file or
+# the built site. Local only: CI has no private store.
+privacy-audit:
+	$(PYTHON) scripts/privacy_audit.py --strict
+
 # Regenerate the viewer's "What's new" feed (family-tree-viewer/updates.json): every public
 # document (dated from git) merged with the curated editorial entries in updates.yaml. Run
 # after cataloguing new sources; commit the regenerated updates.json like entity-index.json.
@@ -66,8 +71,9 @@ upload-viewers:
 test:
 	$(PYTHON) -m unittest discover -s tests -v
 
-# Full-backup GEDCOM 7.0 export (everything, no redaction). The .ged references
-# the scans in evidence/ and is committed to the repo as a backup.
+# Full-backup GEDCOM 7.0 export (everything, no redaction): a local, private
+# backup, never committed (owner decision, 2026-10-11). Where the private store
+# is present it includes the privately held records in full.
 export:
 	$(PYTHON) scripts/export_gedcom.py
 

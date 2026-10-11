@@ -1,54 +1,31 @@
 schema_version: 1
 id: CIV-0011
-title: >-
-  Italian marriage certificate for Juan Carlos Muniz Armond and Vanessa
-  Bevilacqua
-title_pt: >-
-  Certidão de casamento italiana de Juan Carlos Muniz Armond e Vanessa
-  Bevilacqua
-record_type: Italian civil marriage certificate
+title: "Civil marriage certificate of a living couple — held privately"
+title_pt: "Certidão de casamento civil de um casal vivo — guardada em privado"
+record_type: "Italian civil marriage certificate"
 record_category: civil_registration
 source_form: derivative
 information_quality: mixed
 evidence_type: direct
 usage: evidence
-event_date:
-  kind: exact
-  value: "2003-08-16"
-event_place_text: Toronto, Ontario, Canada
 repository:
-  name: FamilySearch Memories
-  archive_or_registry: Comune di Caronno Pertusella, Varese, Italy
-  book: "2007, number 30, part II, series C"
-  catalogue_reference: >-
-    FamilySearch Memory 120433443; storage identifier
-    TH-7783-105179-4793-62; original upload filename "Juan Armond e Vanessa
-    Bevilacqua - Casamento Italia.pdf"
-  url: https://www.familysearch.org/en/memories/memory/120433443
-  repository_path: >-
-    evidence/civil/CIV-0011-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-certificate-original.pdf
+  name: Held privately — records concerning living people
 access_date: "2026-07-28"
 language: it
 abstract: >-
-  A certificate issued by the Comune di Caronno Pertusella on 24 October 2007
-  reports that the parties married in Toronto on 16 August 2003 and gives
-  their names and birth details.
+  A record concerning living people. Under the owner's decision of 11 October
+  2026 the record, its transcription and any scan are held privately, outside
+  the public repository; this entry keeps only what the family tree needs to
+  cite it.
 abstract_pt: >-
-  Uma certidão emitida pelo Comune di Caronno Pertusella em 24 de outubro de
-  2007 registra que as partes se casaram em Toronto em 16 de agosto de 2003 e
-  fornece seus nomes e dados de nascimento.
+  Registro relativo a pessoas vivas. Por decisão do proprietário de 11 de
+  outubro de 2026, o registro, a sua transcrição e qualquer digitalização são
+  guardados em privado, fora do repositório público; esta entrada mantém apenas
+  o necessário para o citar na árvore.
 reliability:
-  assessment: >-
-    Direct official derivative evidence for the Italian civil registration
-    and corroborating evidence for the Canadian marriage.
-  informant: Italian civil officials issued the certificate from their register.
-  limitations: >-
-    This certificate abstracts an Italian transcription of a foreign marriage
-    and is not independent of the Canadian record or the fuller Italian
-    transcription. It contains sensitive vital details for living people.
+  assessment: Assessed in the privately held record.
 digital_file:
-  path: >-
-    evidence/civil/CIV-0011-marriage-juan-carlos-muniz-armond-vanessa-araujo-bevilacqua-2007-italian-certificate-original.pdf
+  path: private/evidence/civil/CIV-0011-marriage-certificate-original.pdf
   sha256: aecc0d23f9b9e2aa1b5c26aea2bd118d8e3d94aed0691b4eca24795f02207148
 linked_people:
   - P-0001
@@ -56,81 +33,13 @@ linked_families: []
 linked_events: []
 linked_places: []
 private: true
+withhold_from_site: true
 notes:
-  - text: >-
-      This is a distinct official manifestation of the marriage, not a
-      duplicate of CIV-0009, CIV-0010 or CIV-0012.
-  - text: >-
-      FamilySearch's authorised Download action supplied the exact uploaded
-      one-page PDF. It is excluded from public derivatives.
-transcription: >-
-  [Coat of arms of the Comune]
-
-  COMUNE DI CARONNO PERTUSELLA
-
-  UFFICIO DELLO STATO CIVILE – AIRE –LEVA MILITARE
-
-  Tel. 029650354 Fax 029656795 anagrafe@caronnopertusella.va.it
-
-  CERTIFICATO DI MATRIMONIO
-
-  ANNO 2007  N. 30  PARTE  II  SERIE  C
-
-  Dal registro degli atti di matrimonio di questo Comune anno parte serie e
-  numero sopraindicati risulta che il giorno SEDICI  **** del mese di AGOSTO
-  ****    dell'anno DUEMILATRE' ***** in TORONTO (CANADA) ***** È stato
-  celebrato nelle forme di legge il matrimonio fra
-
-  ARMOND JUAN CARLOS MUNIZ
-
-  NATO IN BRASILE IL 22.6.1982
-
-  E
-
-  BEVILACQUA VANESSA
-
-  NATA [omitido — privacidade]
-
-  Il presente certificato viene rilasciato per gli usi consentiti dalla Legge.
-
-  Caronno Pertusella, 24 ottobre 2007
-
-  L'Ufficiale dello Stato Civile [signature over the official round stamp of
-  the Comune di Caronno Pertusella; the printed name beneath the caption reads,
-  uncertain: (Gabriela CATTANEO)]
-transcription_pt: >-
-  [Brasão de armas do Comune]
-
-  COMUNE DI CARONNO PERTUSELLA
-
-  UFFICIO DELLO STATO CIVILE – AIRE –LEVA MILITARE
-
-  Tel. 029650354 Fax 029656795 anagrafe@caronnopertusella.va.it
-
-  CERTIFICATO DI MATRIMONIO
-
-  ANNO 2007  N. 30  PARTE  II  SERIE  C
-
-  Dal registro degli atti di matrimonio di questo Comune anno parte serie e
-  numero sopraindicati risulta che il giorno SEDICI  **** del mese di AGOSTO
-  ****    dell'anno DUEMILATRE' ***** in TORONTO (CANADA) ***** È stato
-  celebrato nelle forme di legge il matrimonio fra
-
-  ARMOND JUAN CARLOS MUNIZ
-
-  NATO IN BRASILE IL 22.6.1982
-
-  E
-
-  BEVILACQUA VANESSA
-
-  NATA [omitido — privacidade]
-
-  Il presente certificato viene rilasciato per gli usi consentiti dalla Legge.
-
-  Caronno Pertusella, 24 ottobre 2007
-
-  L'Ufficiale dello Stato Civile [assinatura sobre o carimbo redondo oficial do
-  Comune di Caronno Pertusella; o nome impresso abaixo da legenda diz, incerto:
-  (Gabriela CATTANEO)]
-
+- text: >-
+    Held privately (owner decision, 2026-10-11): the full record is kept in the
+    private store (private/data/sources/), outside this public repository. Only
+    the citation skeleton is tracked here.
+  text_pt: >-
+    Guardado em privado (decisão do proprietário, 2026-10-11): o registro
+    completo está no arquivo privado (private/data/sources/), fora deste
+    repositório público. Aqui fica apenas o esqueleto da citação.

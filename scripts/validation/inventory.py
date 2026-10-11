@@ -15,6 +15,7 @@ from .model import (
     Issue,
     LoadedEntity,
     display_path,
+    is_private_store_path,
     json_path,
     load_yaml,
     sha256_file,
@@ -241,13 +242,14 @@ def validate_document_inventory(
                     )
                     continue
                 if not candidate.is_file():
-                    issues.append(
-                        Issue(
-                            "error",
-                            f"{file_location}.path",
-                            f"inventoried file does not exist: {relative_path}",
+                    if not is_private_store_path(relative_path):
+                        issues.append(
+                            Issue(
+                                "error",
+                                f"{file_location}.path",
+                                f"inventoried file does not exist: {relative_path}",
+                            )
                         )
-                    )
                 elif isinstance(expected_hash, str):
                     if sha256_file(candidate) != expected_hash:
                         issues.append(

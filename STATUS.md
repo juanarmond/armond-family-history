@@ -185,8 +185,8 @@ Canonical person-by-record actions and last-reviewed dates live in `data/record-
 
 ## Engineering state
 
-- **Active:** catalogue the Aristão and Liliosa retrievals once the retrieval
-  agent delivers.
+- **Active:** Batch P privacy containment (branch `batch-p-privacy-containment`): awaiting the
+  owner's merge authorisation, then his approval of the history cleanup. Then the Aristão retrievals.
 - **Data quality:** treat any remaining "correction" or [PROVEN] upgrade from the 2026-09-23
   profile-sync batches as unverified until its image is re-read (audit, `logs/LOG.md` 2026-10-08).
 - **External:** require the frozen repository-health check in GitHub branch

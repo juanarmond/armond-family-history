@@ -132,7 +132,7 @@
         "path": {
           "type": "string",
           "minLength": 1,
-          "pattern": "^evidence/(?!.*\\.\\.).+$"
+          "pattern": "^(private/)?evidence/(?!.*\\.\\.).+$"
         },
         "sha256": {
           "type": "string",
@@ -151,7 +151,7 @@
         "additionalProperties": false,
         "required": ["path", "sha256"],
         "properties": {
-          "path": { "type": "string", "minLength": 1, "pattern": "^evidence/(?!.*\\.\\.).+$" },
+          "path": { "type": "string", "minLength": 1, "pattern": "^(private/)?evidence/(?!.*\\.\\.).+$" },
           "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
           "show_pages": { "$ref": "common.schema.json#/$defs/showPages" }
         }

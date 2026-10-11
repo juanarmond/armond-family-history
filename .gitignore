@@ -8,12 +8,18 @@ __pycache__/
 .promotion-prepare-*/
 .entity-promotion-transaction/
 
-# The full-backup GEDCOM (export/armond-family-history.ged) is committed: it is
-# text that references the in-repo evidence/ scans. But GEDZIP bundles duplicate
-# those scan bytes, and the 5.5.1 legacy file is a redundant on-demand variant —
-# keep both out of git; regenerate with `make export-bundle` / `make export-legacy`.
+# Every GEDCOM export is a local, private backup and never tracked: the full
+# backup carries living people and privately held records in full (owner
+# decision, 2026-10-11). Regenerate with `make export` / `make export-bundle` /
+# `make export-legacy`.
+export/*.ged
 export/*.gdz
-export/*-5.5.1.ged
+
+# Private store (owner decision, 2026-10-11): living-person documents, the scans
+# restricted to private storage, and the full originals of their records. This
+# repository is public, so nothing under private/ may ever be tracked; validation
+# checks these files only where the store is present.
+private/
 
 # Raw FamilySearch retrieval drop — the whole ephemeral working area (raw record
 # images and ranked CSV/JSON, the external reference cache, plans, correspondence

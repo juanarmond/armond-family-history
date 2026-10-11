@@ -26,7 +26,7 @@ repository:
     FamilySearch memory storage IDs TH-904-96968-1121-80,
     TH-904-96968-1120-79 and TH-904-96968-1122-81
   url: https://www.familysearch.org/en/tree/person/memories/GQJ1-RVK
-  repository_path: evidence/civil/CIV-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-original.jpg
+  repository_path: private/evidence/civil/CIV-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-original.jpg
 access_date: "2026-07-28"
 language: pt-BR
 reading_reliability: partial
@@ -111,7 +111,7 @@ reliability:
     be read safely. The repository retains the originally uploaded JPEG for the
     clearest of the three reviewed photographs.
 digital_file:
-  path: evidence/civil/CIV-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-original.jpg
+  path: private/evidence/civil/CIV-0002-marriage-geraldo-paz-armond-cidalia-engracio-guimaraes-1952-original.jpg
   sha256: 0def5d0019ea5167146f2f6528714b1e952837b78af5f51536aaa47cbcd01edc
 linked_people:
   - P-0004
@@ -134,7 +134,16 @@ linked_events:
 linked_places:
   - PL-0002
 private: true
+withhold_from_site: true
 notes:
+  - text: >-
+      2026-10-11 (owner decision): the scan moved to the private store
+      (private/evidence/) and the record is withheld from the public site; the
+      scan is preserved, not deleted.
+    text_pt: >-
+      2026-10-11 (decisão do proprietário): a digitalização passou para o arquivo
+      privado (private/evidence/) e o registro deixa de ser publicado no site; a
+      digitalização é preservada, não apagada.
   - text: >-
       FamilySearch stores three photographs of the same certificate as separate
       Memories. They are alternate views, not successive pages. The clearest
