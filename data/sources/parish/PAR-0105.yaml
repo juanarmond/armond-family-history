@@ -187,6 +187,20 @@ linked_places: []
 private: false
 notes:
 - text: >-
+    Identity OPEN (owner instruction, 2026-10-11): whether the Manuel baptised here is
+    the "Alferes Manoel Machado Ermonde" of a collaborative-tree profile is unresolved.
+    This baptism is not attributed to him. The producer's current filename
+    (rec-armond-manuel-filho-francisco-ferreira-baptism-terceira-1661-bpar-req101.tif), its
+    earlier "…manuel-ermonde…" label and the retrieval research context are labels and
+    leads, not evidence of identity.
+  text_pt: >-
+    Identidade EM ABERTO (instrução do proprietário, 2026-10-11): não está resolvido se o
+    Manuel aqui baptizado é o "Alferes Manoel Machado Ermonde" de um perfil de árvore
+    colaborativa. Este baptismo não lhe é atribuído. O nome de ficheiro atual do produtor
+    (rec-armond-manuel-filho-francisco-ferreira-baptism-terceira-1661-bpar-req101.tif), o
+    rótulo anterior "…manuel-ermonde…" e o contexto da pesquisa de recuperação são
+    rótulos e pistas, não prova de identidade.
+- text: >-
     Not modelled as an event. Manuel is recorded as a documented child of F-0068 (with this
     source), not as a person entity, so no baptism event is created and linked_events is empty
     on purpose. If a later record ties him to "Ermonde" — the retrieval side reports a

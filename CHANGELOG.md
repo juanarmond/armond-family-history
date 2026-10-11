@@ -5,6 +5,14 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — the 1661 Manuel baptism's identity is recorded as open (2026-10-11)
+
+- The intake-reference refresh found no change: the producer's intake text still matches the accepted SHA-256.
+- PAR-0105, DOC-0130 and F-0068 now state, by owner instruction, that whether the Manuel baptised in 1661 is the
+  "Alferes Manoel Machado Ermonde" is unresolved. The baptism is not attributed to him. The producer's current
+  filename for the scan (same SHA-256) is recorded, and neither it nor the earlier label counts as identity
+  evidence.
+
 ### Changed — retrieval integration: verified intake, hash-keyed triage, atomic change sets (2026-10-11)
 
 - **Instruction authority (owner decision O4).** AGENTS.md no longer pastes the producer's intake text. It points

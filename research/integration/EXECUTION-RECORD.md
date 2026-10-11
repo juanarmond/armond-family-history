@@ -104,6 +104,17 @@ producer's own session.
   - it reads the producer's records manifest by path for page grouping and aliases.
 - **Readiness:** contract v1 support and its schemas are ready if the owner reopens O10.
 
+## Intake-reference refreshes
+
+- **2026-10-11 (owner's standing approval, intake reference only):**
+  - The synced `INTAKE-FOR-GENEALOGY-REPO.md` and the producer's own copy both hash to the accepted
+    `6d8b49ea…`, so there was no change to review and the pin is unchanged. The handoff is unchanged (generation
+    `828414254673…`, a replay).
+  - The producer's 1661 baptism scan is recognised under its current name. Its SHA-256 `ecc3b341…` is unchanged;
+    it is held as PAR-0105 and keyed by hash in the triage index.
+  - Whether the baptised Manuel is "Alferes Manoel Machado Ermonde" stays OPEN. PAR-0105, DOC-0130 and F-0068
+    say so explicitly. Nothing was promoted or re-attributed.
+
 ## Next safe action
 
 The refactor's consumer side is complete. Resume only for:

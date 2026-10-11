@@ -5,6 +5,17 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-10-11 — Intake-reference refresh; the 1661 baptism's identity stays open
+
+Owner's standing approval, for the intake reference only:
+- `make intake`: the producer's intake text is unchanged (SHA-256 matches the accepted pin, also at the
+  producer), and the handoff is a replay.
+- The 1661 BPAR baptism scan's current producer name is recognised; the bytes are the same (`ecc3b341…`, held as
+  PAR-0105).
+- By owner instruction, the baptism is not attributed to "Alferes Manoel Machado Ermonde". The identity is
+  recorded as OPEN in PAR-0105, DOC-0130 and F-0068; filenames and research context are not identity evidence.
+- No promotion and no other canonical change.
+
 ## 2026-10-11 — Retrieval integration: verified intake, hash-keyed triage, atomic change sets
 
 Consumer half of the refactor (`logs/2026-10-11-retrieval-integration-refactor.md`):
