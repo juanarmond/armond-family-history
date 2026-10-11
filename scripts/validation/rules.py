@@ -10,7 +10,15 @@ from datetime import date, timedelta
 from pathlib import Path
 from typing import Any, Iterable, Iterator, Mapping
 
-from .model import Issue, LoadedEntity, display_path, is_private_store_path, json_path, sha256_file
+from .model import (
+    Issue,
+    LoadedEntity,
+    display_path,
+    is_private_store_path,
+    json_path,
+    private_store_absent,
+    sha256_file,
+)
 from .identifiers import SOURCE_KINDS
 from .references import iter_references
 
@@ -587,8 +595,10 @@ def validate_privacy(
                     )
                 )
 
-    # The repository is public, so a record naming a living person is held
-    # privately: only its citation skeleton is tracked (owner decision, 2026-10-11).
+    # The repository is public (owner decision, 2026-10-11). A living person's own
+    # document is held privately: only its citation skeleton is tracked. A record that
+    # merely names a living person stays, but its scan — which shows that person's
+    # details — lives in the private store.
     living_ids = {
         person_id
         for person_id, person in entities["people"].items()
@@ -606,25 +616,26 @@ def validate_privacy(
         location = display_path(source.path, root)
         living = sorted(set(data.get("linked_people") or []) & living_ids)
         paths = _evidence_paths(data)
-        if living:
+        if data.get("held_privately") is True:
             for field in held_privately_fields:
                 if field in data:
                     issues.append(
                         Issue(
                             "error",
                             f"{location}:$.{field}",
-                            f"source naming living person {living[0]} is held privately: "
-                            f"{field} belongs in the private store, not the public repository",
+                            f"a record held privately keeps {field} in the private store, "
+                            "not in the public repository",
                         )
                     )
+        if living or data.get("held_privately") is True:
             for path in paths:
                 if not is_private_store_path(path):
                     issues.append(
                         Issue(
                             "error",
                             f"{location}:$.digital_file",
-                            f"source naming living person {living[0]} must keep its scan "
-                            f"in the private store, not {path}",
+                            "the scan of a record naming a living person or held privately "
+                            f"must be in the private store, not {path}",
                         )
                     )
         if any(is_private_store_path(path) for path in paths) and data.get("withhold_from_site") is not True:
@@ -671,7 +682,7 @@ def validate_evidence_files(
             issues.append(Issue("error", f"{location}:{jsonpath}.path", "evidence path escapes the repository"))
             return None
         if not candidate.is_file():
-            if not is_private_store_path(rel_path):
+            if not private_store_absent(root, rel_path):
                 issues.append(Issue("error", f"{location}:{jsonpath}.path", f"evidence file does not exist: {rel_path}"))
             return rel_path
         if sha256_file(candidate) != expected_hash:

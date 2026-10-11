@@ -74,7 +74,7 @@ class GedcomFixture:
         })
 
         _write(self.root, "people", {
-            "id": "P-0001", "preferred_name": "Juan Carlos Muniz Armond",
+            "id": "P-0001", "preferred_name": "Example Living Person",
             "privacy": "living", "sex": "male",
             "event_ids": ["E-0004"], "family_ids": ["F-0001"], "notes": [],
         })
@@ -210,7 +210,7 @@ class ExportGedcomTest(unittest.TestCase):
         # No redaction: living people in full, transcriptions, scans and hashes.
         for version in SUPPORTED_VERSIONS:
             text = build_gedcom(self.root, version=version)
-            self.assertIn("1 NAME Juan Carlos Muniz /Armond/", text, version)  # living
+            self.assertIn("1 NAME Example Living /Person/", text, version)  # living
             self.assertIn("10 MAY 1982", text, version)                        # living DOB
             self.assertIn(f"Transcription: {TRANSCRIPTION}", text, version)
             self.assertIn(f"FILE {SCAN_PATH}", text, version)

@@ -41,16 +41,22 @@ def tracked_files() -> list[Path]:
     return [ROOT / name for name in output.split("\0") if name]
 
 
+def normalise(text: str) -> str:
+    # Lowercase and collapse whitespace, so a phrase still matches when YAML
+    # folding has wrapped it across lines.
+    return " ".join(text.split()).lower()
+
+
 def read_text(path: Path) -> str | None:
     try:
-        return path.read_text(encoding="utf-8").lower()
+        return normalise(path.read_text(encoding="utf-8"))
     except (UnicodeDecodeError, OSError):
         return None
 
 
 def term_pattern(term: str) -> re.Pattern[str]:
     # Whole-token match, so a short number never matches inside a checksum.
-    return re.compile(r"(?<![0-9a-z])" + re.escape(term.lower()) + r"(?![0-9a-z])")
+    return re.compile(r"(?<![0-9a-z])" + re.escape(normalise(term)) + r"(?![0-9a-z])")
 
 
 def scan(paths: list[Path], terms: list[tuple[int, str]]) -> dict[str, list[int]]:

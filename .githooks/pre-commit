@@ -18,3 +18,7 @@ if printf '%s\n' "$changed" | grep -qE '^(data/|scripts/|schemas/|tests/|Makefil
 	uv run --frozen make check
 	echo "pre-commit: repository health OK."
 fi
+
+# Every commit, structural or not: no private string may enter a tracked file
+# (logs and docs included). Skipped where this clone has no private store.
+uv run --frozen python scripts/privacy_audit.py

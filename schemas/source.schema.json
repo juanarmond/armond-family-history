@@ -275,6 +275,10 @@
     "private": {
       "type": "boolean"
     },
+    "held_privately": {
+      "type": "boolean",
+      "description": "true for a living person's own document (P-0001–P-0003) or a record carrying incidental private information about someone outside the tree, such as the owner's spouse. Its full original, transcription and scan live only in the private store; the tracked file is a citation stub with no transcription, dates or places, a scan path under private/evidence/ and withhold_from_site: true. A record that merely names a living person (an informant, a declarant) is not held privately: it stays in the repository with that person's sensitive details withheld. Owner decision, 2026-10-11."
+    },
     "withhold_from_site": {
       "type": "boolean",
       "description": "true when the scan or transcription names a living person who is not modelled as a person entity, so the living-person filter cannot see them, or when the owner restricts the record to private storage (its scan under private/evidence/). The public site and the assistant knowledge base then treat the record like one naming a living person: display metadata only, no scan, transcription or link. Distinct from `private`, which the site build does not use for deceased-only records."

@@ -13,6 +13,9 @@ gitignored `private/` store, citation stubs tracked. The six records restricted 
 CIV-0013) moved their scans there and are withheld from the site. The full-backup GEDCOM is no longer tracked. Two site
 leaks found and fixed: dates of records naming a living person, and a living person's name in family notes. 11 scans
 moved, every SHA-256 verified; nothing deleted. Git history still holds the earlier copies (cleanup pending approval).
+Re-audited the same day against the owner's authoritative rule (only P-0001–P-0003 living): the roster REC-0001
+is restored (only the owner's birth details withheld), CIV-0003's living declarant's details are withheld, and an
+explicit `held_privately` marker replaces the rule that had over-redacted it.
 
 ## 2026-10-10 — Margarida das Candeias Machado and her parents (Terceira trunk)
 

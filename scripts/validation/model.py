@@ -101,9 +101,15 @@ PRIVATE_STORE_PREFIX = "private/"
 
 def is_private_store_path(relative_path: object) -> bool:
     """True for files held in the gitignored private store (owner decision,
-    2026-10-11). They exist only where the store is present, so validation checks
-    them there and skips them silently elsewhere (CI, another clone)."""
+    2026-10-11)."""
     return isinstance(relative_path, str) and relative_path.startswith(PRIVATE_STORE_PREFIX)
+
+
+def private_store_absent(root: Path, relative_path: object) -> bool:
+    """True when a private-store file cannot be checked because this checkout has
+    no private store at all (CI, another clone). Where the store is present, a
+    missing file is an error like any other."""
+    return is_private_store_path(relative_path) and not (root / PRIVATE_STORE_PREFIX).is_dir()
 
 
 def sha256_file(path: Path) -> str:

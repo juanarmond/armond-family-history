@@ -980,16 +980,28 @@ class ValidateDataTests(unittest.TestCase):
             result, "error", "source concerning living person P-0001 must be private"
         )
 
-    def test_source_naming_living_person_is_held_privately(self) -> None:
-        self.fixture.documents["people"]["P-0001"]["privacy"] = "living"
-        self.fixture.documents["sources"]["CIV-0001"]["transcription"] = "Synthetic text."
-        self.fixture.documents["sources"]["CIV-0001"]["event_date"] = {
-            "value": "1900-01-01", "precision": "exact"
-        }
+    def test_record_held_privately_is_a_citation_stub(self) -> None:
+        source = self.fixture.documents["sources"]["CIV-0001"]
+        source["held_privately"] = True
+        source["withhold_from_site"] = True
+        source["transcription"] = "Synthetic text."
+        source["event_date"] = {"value": "1900-01-01", "precision": "exact"}
         self.fixture.rewrite()
         result = self.fixture.validate()
-        self.assert_issue(result, "error", "is held privately: transcription")
-        self.assert_issue(result, "error", "is held privately: event_date")
+        self.assert_issue(result, "error", "keeps transcription in the private store")
+        self.assert_issue(result, "error", "keeps event_date in the private store")
+
+    def test_record_naming_a_living_person_may_keep_its_transcription(self) -> None:
+        # Naming a living person (an informant, a declarant) does not make a
+        # deceased person's record private; only the living person's details are withheld.
+        self.fixture.documents["people"]["P-0001"]["privacy"] = "living"
+        self.fixture.documents["sources"]["CIV-0001"]["transcription"] = "Synthetic text."
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assertFalse(
+            [issue for issue in result.issues if "private store" in issue.message],
+            [issue.render() for issue in result.issues],
+        )
 
     def test_living_record_scan_must_be_in_private_store(self) -> None:
         self.fixture.documents["people"]["P-0001"]["privacy"] = "living"
@@ -1002,7 +1014,7 @@ class ValidateDataTests(unittest.TestCase):
         }
         self.fixture.rewrite()
         result = self.fixture.validate()
-        self.assert_issue(result, "error", "must keep its scan in the private store")
+        self.assert_issue(result, "error", "must be in the private store")
 
     def test_absent_private_store_scan_is_not_an_error(self) -> None:
         # CI and other clones have no private store; its files are skipped there.
@@ -1015,6 +1027,15 @@ class ValidateDataTests(unittest.TestCase):
             [issue for issue in result.issues if "absent.pdf" in issue.message],
             [issue.render() for issue in result.issues],
         )
+
+    def test_missing_file_in_a_present_private_store_is_an_error(self) -> None:
+        (self.fixture.root / "private").mkdir()
+        source = self.fixture.documents["sources"]["CIV-0001"]
+        source["digital_file"] = {"path": "private/evidence/civil/absent.pdf", "sha256": "0" * 64}
+        source["withhold_from_site"] = True
+        self.fixture.rewrite()
+        result = self.fixture.validate()
+        self.assert_issue(result, "error", "evidence file does not exist: private/evidence/civil/absent.pdf")
 
     def test_present_private_store_scan_is_checksum_verified(self) -> None:
         private_file = self.fixture.root / "private/evidence/civil/present.txt"

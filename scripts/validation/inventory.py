@@ -15,8 +15,8 @@ from .model import (
     Issue,
     LoadedEntity,
     display_path,
-    is_private_store_path,
     json_path,
+    private_store_absent,
     load_yaml,
     sha256_file,
 )
@@ -242,7 +242,7 @@ def validate_document_inventory(
                     )
                     continue
                 if not candidate.is_file():
-                    if not is_private_store_path(relative_path):
+                    if not private_store_absent(root, relative_path):
                         issues.append(
                             Issue(
                                 "error",

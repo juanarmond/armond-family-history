@@ -280,6 +280,12 @@ reads it as deliberate rather than missing.
 - Write repository content, filenames and commit messages in English while
   preserving source-recorded personal names and diacritics.
 - Never expose private evidence or unnecessary information about living people.
+  Exactly three people are living (P-0001–P-0003); everyone else in the tree is
+  deceased. A source restriction or an old `private`/sensitivity field never makes
+  a person living, and a deceased person's record is not private by default.
+  Private originals live only in the gitignored `private/` store, never in this
+  public repository. Canonical rules: `research/README.md`, "Living people and
+  private material".
 - Never erase evidence, research history, rejected hypotheses or material
   conflicts. Supersede conclusions explicitly.
 - Never create a source record from memory when the record or an authoritative

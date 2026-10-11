@@ -90,3 +90,50 @@ approval after he has seen its exact scope.
   and the inventory. The cleanup is prepared, not performed.
 - The private store is now the only copy of these originals outside Git history,
   and it has no backup yet.
+
+## Re-audit against the owner's authoritative classification (2026-10-11, later)
+
+**Owner clarification.**
+
+- Exactly three people in the tree are living: the owner (P-0001) and his parents (P-0002, P-0003). Everyone else in
+  the tree is deceased.
+- Never infer that someone is living from a missing death date, a recent record, a `private: true` field, an old
+  privacy tag, or a record's past in a private-repository workflow.
+- The spouse is outside the tree; incidental personal information about her in the owner's records is private.
+- A source restriction is not a living-person classification.
+- Deceased-person genealogy is public unless a specific source restriction applies.
+- Existing `private` classifications are not removed mechanically.
+- Git/GitHub is the backup mechanism; the public repository can never hold the private backup. A separate private
+  repository is proposed and needs the owner's approval before it is created.
+- History rewriting remains separately owner-gated.
+
+**Findings.**
+
+- Classification: 3 living, 135 deceased. No deceased person's name equals or contains a living person's name, so
+  the site scrubber redacts no deceased person. Only F-0011 (the parents' family) loses its notes on the site.
+- Batch P had applied "held privately" to every record linked to a living person, which also removed the
+  **roster REC-0001**. Apart from the three, the roster is deceased-person genealogy. Its transcription is
+  restored, with only the owner's own birthplace and year withheld.
+- REC-0001's own bracket note withholds positions 6–7 and 12–15 as "living or near-living". This predates Batch
+  P and rests on the superseded assumption. Those people are deceased, and their names are in their person
+  entities. No original wording exists to restore, so a note records the correction.
+- **CIV-0003** (a deceased grandparent's death record) names the owner's father as declarant. His ID number and
+  street were already withheld, and his name stays. His nationality, age, profession and residence are now
+  withheld too, and the original is kept privately.
+- The **published family story** named the owner's parents by their given names. It now refers to them only by
+  relationship.
+- No deceased person's information was removed by the log redactions: they touched only identifiers of the
+  owner's own documents.
+- No `private` classification was changed. The flag does not gate publication; it is kept as found.
+- Inventory tags `living-person-data` on three deceased people's records are stale. They must not be read as
+  "living"; they are left unchanged.
+- A test fixture used the owner's real name; it now uses a synthetic one.
+
+**Mechanism change.** An explicit `held_privately: true` marker now drives the citation-stub rule; it is set on
+CIV-0008–CIV-0012. A record that merely names a living person stays in the repository, with that person's sensitive
+details withheld, and its scan stays in the private store. Where the private store is present, a missing
+private-store file is now an error. The pre-commit hook runs the privacy audit on every commit.
+
+**Verified (2026-10-11).** All five of the owner's PDFs (CIV-0008–CIV-0012) are still downloadable from the public
+repository's Git LFS store without signing in. Merging Batch P does not change that; only an LFS purge does
+(GitHub Support, or deleting the repository).

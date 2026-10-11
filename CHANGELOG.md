@@ -7,23 +7,32 @@ also remain traceable through source records and research logs.
 
 ### Security — the public repository no longer holds living people's documents (Batch P, 2026-10-11)
 
-- Owner decision: the repository stays public, but living people's documents and private transcriptions do not
-  belong in it. The owner's birth certificate and four marriage documents (CIV-0008–0012) and his ancestor roster
-  (REC-0001) are now **held privately**: their full originals and scans moved to the gitignored private store
-  (`private/`), every SHA-256 verified, and the tracked files are citation stubs — no transcription, dates or
-  places, `withhold_from_site: true`. Their five inventory entries keep only public-safe fields.
-- The six records whose own notes restrict them to private storage (CIV-0001–0005, CIV-0013) keep their tracked
-  records, but their scans moved to the private store and they are no longer published on the site.
+- Owner decisions: the repository stays public. Exactly three people in the tree are living (P-0001–P-0003);
+  everyone else is deceased. Four privacy categories are now distinct: living-person privacy, incidental private
+  information about people outside the tree (the owner's spouse), source/evidence restrictions, and deceased-person
+  genealogy, which is public. Canonical rules: `research/README.md`, "Living people and private material".
+- The owner's birth certificate and four marriage documents (CIV-0008–0012) are **held privately**
+  (`held_privately: true`): full originals and scans moved to the gitignored private store (`private/`), every
+  SHA-256 verified, scans renamed to carry no names, dates or places; the tracked files are citation stubs. Their
+  five inventory entries keep only public-safe fields.
+- The six records whose scans are restricted to private storage (CIV-0001–0005, CIV-0013): scans moved to the
+  private store, records withheld from the site; their deceased-person transcriptions stay in the repository.
+- The owner's roster (REC-0001) stays in the repository: only his own birthplace and year are withheld. The living
+  declarant in CIV-0003 keeps his name; his nationality, age, profession and residence are withheld. Both originals
+  are kept privately.
 - The full-backup GEDCOM is no longer tracked: `make export` writes it locally and, where the private store is
   present, includes the privately held originals. `test_gedcom_export` now checks the export is reproducible.
 - Site and assistant: a record naming a living person no longer publishes its date; a family with a living partner
-  publishes no notes; living people's full names are scrubbed from every published record and the knowledge base.
-- Checks: `make check` fails when a record naming a living person carries a transcription, date, place or a
-  tracked scan, when a privately held scan is not withheld from the site, or when a private-store file or a GEDCOM
-  export is tracked. Private-store files are checksum-verified where the store is present, skipped elsewhere.
-  New local `make privacy-audit` checks tracked files and the built site against the private list of strings.
+  publishes no notes; living people's full names are scrubbed from every published record and the knowledge base;
+  the family story no longer names the owner's parents.
+- Checks: `make check` fails when a record held privately carries a transcription, date or place, when the scan
+  of a record naming a living person (or held privately) is outside the private store, when a privately held scan
+  is not withheld from the site, or when a private-store file or a GEDCOM export is tracked. Private-store files are
+  checksum-verified where the store is present; a missing one is then an error. `make privacy-audit` (also run by
+  the pre-commit hook on every commit) checks tracked files and the built site against the private list of strings.
 - Living people's identifiers, dates and the spouse's name are redacted in three session logs and one entry
-  below; the unredacted originals are kept privately. Docs and docstrings now say the repository is public.
+  below; the originals are kept privately. A test fixture no longer uses the owner's real name. Docs and docstrings
+  now say the repository is public.
 - Git history still holds the earlier copies. Their cleanup is prepared but not performed (owner approval).
 
 ### Added — Margarida das Candeias Machado and her Ermonde parents (2026-10-10)

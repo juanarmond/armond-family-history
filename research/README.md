@@ -153,10 +153,11 @@ Every source entry should capture, when available:
 - Transcribe identifiers (record, book/folio, RG/CPF and dossier numbers) as they
   appear, and transcribe **every person the record names** — principals,
   declarants, informants, witnesses, officiants, physicians — with their stated
-  data. Do **not** self-redact within a transcription. A record naming a living
-  person is held privately instead: its full record, transcription and scan live
-  only in the private store (`private/`), and the tracked file keeps a citation
-  stub (see "Privacy" below).
+  data. Do **not** self-redact a deceased person's record. The only exceptions
+  are the three living people's sensitive details and incidental private
+  information about people outside the tree; these go to the private store, and
+  a living person's own document is held privately as a citation stub (see
+  "Living people and private material" below).
 - Do not use OCR as the sole authority for handwritten records: a machine reading
   of cursive is a draft to verify against the image, never the final transcript.
 - If the original is unavailable and only a legible copy remains, transcribe the
@@ -260,36 +261,58 @@ requests (paid curia or parish certidões, archive enquiries) come last, once
 the free routes are exhausted and ingested, and still require explicit owner
 authorisation.
 
-## Living people
+## Living people and private material
 
-Only three people in this repository are living: the owner, Juan Carlos Muniz Armond
-(P-0001), and his parents, Luis Carlos Igracio Armond (P-0002) and Lucinea Aparecida Muniz
-Armond (P-0003) — owner's statement, 2026-10-08. Everyone else, whether modelled or merely
-named in a family-tree record (spouses, declarants, witnesses, children), is deceased:
-transcribe and display them in full, and do not redact or withhold them as "possibly
-living". Protect the three — and, in the owner's own documents, people outside the family
-tree who appear only there (his spouse, officiants, notary clerks), who stay redacted
-(owner's clarification, 2026-10-08).
+Owner decisions of 2026-10-08 and 2026-10-11. This section is the single
+authority for privacy; agents must not infer it from old fields or tags.
 
-Minimise data for living people. Do not store identity numbers, full addresses,
-signatures, financial information or unnecessary certificate images.
+**The repository and its site are public.** Everything tracked — files, Git
+history, LFS objects, filenames, logs — is published, whatever the site filter
+does. Four kinds of privacy apply, and they must not be confused:
 
-**The repository is public** (owner decision of 2026-09-25, scoped on 2026-10-11).
-Everything tracked — files, Git history, LFS objects, filenames, logs — is
-published, whatever the site filter does. So:
+1. **Living-person privacy.** Exactly three people in the tree are living: the
+   owner (P-0001) and his parents (P-0002, P-0003). Their person records and
+   relationships stay in the data where the tree needs them. Their own civil
+   documents, those documents' transcriptions and their sensitive personal data
+   (identity numbers, addresses, birth details, ages, professions, signatures) are
+   never tracked or published. The site and the assistant reduce the three to
+   stubs and scrub their names. Everyone else in the tree is deceased. Never
+   infer that someone is living from a missing death date, a recent record, a
+   `private: true` field, an old privacy or sensitivity tag, or a record's past
+   in a private-repository workflow.
+2. **Incidental private information.** People outside the tree who appear in the
+   owner's own documents — his spouse, officiants, notary clerks — are not
+   modelled and not treated as tree members, but their personal information is
+   private and is never tracked or published.
+3. **Source and evidence restrictions.** A source may restrict its evidence — for
+   example, a scan "authorised for this private repository only". That
+   restricts the evidence, not the people: the people stay deceased, and the
+   record's genealogical facts and transcription may stay in the repository.
+   The restricted scan lives in the private store, and the record carries
+   `withhold_from_site: true`.
+4. **Deceased-person genealogy** is public, in full, unless a specific source
+   restriction applies. A deceased person's record is not private merely because
+   an old field says `private: true` (that field does not gate publication); do
+   not remove such a classification mechanically either — find its purpose first.
 
-- A record that names a living person — the owner's own birth and marriage
-  documents, his spouse's records, any other living person's civil record — is
-  **held privately**: its full original, transcription and scan live in the
-  gitignored private store (`private/data/`, `private/evidence/`), and the tracked
-  record is a citation stub with no transcription, dates or places, its scan path
-  under `private/evidence/` and `withhold_from_site: true`. `make check` enforces
-  this.
-- A record the owner restricts to private storage keeps its tracked record but
-  moves its scan to `private/evidence/` and is withheld from the site.
+How this is held:
+
+- A living person's own document, or one carrying incidental private
+  information, is **held privately** (`held_privately: true`). Its full original,
+  transcription and scan live in the private store (`private/data/`,
+  `private/evidence/`, with neutral filenames that carry no names, dates or
+  places). The tracked record is a citation stub with no transcription, dates or
+  places, its scan path under `private/evidence/` and `withhold_from_site: true`.
+- A deceased person's record that merely names a living person (an informant,
+  a declarant) stays in the repository. The living person's sensitive details
+  are withheld from the tracked transcription and kept in the private store, and
+  its scan, which shows them, lives in the private store.
 - The full-backup GEDCOM is generated locally (`make export`) and never committed;
   where the private store is present it includes the privately held originals.
-- `make privacy-audit` checks tracked files and the built site against the private
-  list of strings that must never be published (`private/redaction-terms.txt`).
-- The private store is the only copy of these originals outside Git history, so
-  it must be backed up privately.
+- `make check` enforces these rules. `make privacy-audit` checks tracked files
+  and the built site against the private list of strings that must never be
+  published (`private/redaction-terms.txt`).
+- The private store needs a durable private backup. The owner's chosen
+  mechanism is Git/GitHub; the public repository can never hold that backup. A
+  separate private repository is proposed and needs his approval before it is
+  created.

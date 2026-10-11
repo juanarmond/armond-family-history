@@ -1,6 +1,6 @@
 # Armond Family History
 
-Private, evidence-led genealogy for Juan Carlos Muniz Armond and the related
+Evidence-led genealogy for Juan Carlos Muniz Armond and the related
 Armond, Paz, Muniz, Bittencourt, Bohrer, Guimarães, Engracio, Souza, Azevedo,
 Brandão and Toledo branches.
 
@@ -145,11 +145,13 @@ The same frozen check runs on GitHub pushes and pull requests.
 
 ## Privacy
 
-This repository and its site are public. Records about deceased people are
-published in full; documents, transcriptions and identifiers of living people
-are held in the gitignored private store (`private/`) and never tracked. The
-policy, and how a privately held record is cited, is in
-[research/README.md](research/README.md) (owner decision, 2026-10-11).
+This repository and its site are public. Exactly three people in the tree are
+living (P-0001–P-0003); everyone else is deceased, and deceased people's research
+is published in full. The three's own documents and sensitive details, private
+information about people outside the tree, and evidence a source restricts to
+private storage are held in the gitignored private store (`private/`) and never
+tracked. The policy is in [research/README.md](research/README.md) ("Living people
+and private material").
 
 Structured records export to GEDCOM (7.0 by default, 5.5.1 via
 `make export-legacy`) as a **full backup** — everything, no redaction: living
