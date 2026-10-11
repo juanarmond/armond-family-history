@@ -52,6 +52,18 @@ connection_pt: >-
   (P-0016). Nenhum registo prova ainda qualquer dos dois elos.
 notes:
 - text: >-
+    Identity OPEN (owner, 2026-10-11): the retrieval side's research profiles call "Alferes
+    Manoel Machado Ermonde" his probable son. That identity is unresolved. The Manuel
+    baptised in 1661 (PAR-0105) is recorded only as a documented child of F-0068, and the
+    baptism is not attributed to the Alferes. Do not carry that attribution into this
+    profile when syncing it from the research profiles.
+  text_pt: >-
+    Identidade EM ABERTO (proprietário, 2026-10-11): os perfis de pesquisa do lado da
+    recuperação chamam ao "Alferes Manoel Machado Ermonde" provável filho dele. Essa
+    identidade não está resolvida. O Manuel baptizado em 1661 (PAR-0105) fica registado só
+    como filho documentado da F-0068, e o baptismo não é atribuído ao Alferes. Não levar
+    essa atribuição para este perfil ao sincronizá-lo com os perfis de pesquisa.
+- text: >-
     Created 2026-10-10 as the father named in two original São Sebastião acts of his daughter
     Margarida (P-0136): her baptism, 29 May 1667, "f.a de Fr.co Fer.a Ermonde e de sua m.er D.
     Anna M.da" (PAR-0103), and her marriage, 2 October 1690, "f.a de Fr.co Fer.a de Ermonde ja

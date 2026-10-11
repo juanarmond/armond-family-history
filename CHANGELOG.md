@@ -8,10 +8,13 @@ also remain traceable through source records and research logs.
 ### Changed — the 1661 Manuel baptism's identity is recorded as open (2026-10-11)
 
 - The intake-reference refresh found no change: the producer's intake text still matches the accepted SHA-256.
-- PAR-0105, DOC-0130 and F-0068 now state, by owner instruction, that whether the Manuel baptised in 1661 is the
-  "Alferes Manoel Machado Ermonde" is unresolved. The baptism is not attributed to him. The producer's current
-  filename for the scan (same SHA-256) is recorded, and neither it nor the earlier label counts as identity
-  evidence.
+- PAR-0105, DOC-0130, F-0068, P-0136, P-0137 and P-0138 now state, by owner instruction, that whether the Manuel
+  baptised in 1661 is the "Alferes Manoel Machado Ermonde" is unresolved. The baptism is not attributed to him,
+  and the person notes stop a profile sync from carrying the research profiles' attribution in. Neither the
+  scan's producer filename (unchanged since promotion) nor its earlier labels count as identity evidence.
+- The correspondence log's 2026-10-08 BPAR entries are superseded by a dated note: both scans are now
+  catalogued (PAR-0099, PAR-0105), and the archivist's label is not an identification.
+- STATUS names Gaspar's 1694 marriage witnesses as the record most likely to settle the question.
 
 ### Changed — retrieval integration: verified intake, hash-keyed triage, atomic change sets (2026-10-11)
 

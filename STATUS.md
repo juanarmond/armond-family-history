@@ -31,9 +31,9 @@ catalogues each valuable image as evidence. The deeper open problem — **Simpl�
 _Resume checkpoint refreshed 2026-10-10._ Ordered queue; per-record detail lives in
 `data/record-coverage.yaml`, archive replies in `logs/correspondence-log.md`.
 
-0. **Next:** Margarida's 1693 death and Gaspar's 1694 second marriage (retrieval repo, by path);
-   images 682/688 of the 1905 Muriaé act (the retrieval side must fetch them first); Procopio's 1840
-   baptism; a 300-dpi BPAR copy of C-1673-1766 p.0036 to settle the 1690 bride's surname.
+0. **Next:** Margarida's 1693 death; Gaspar's 1694 marriage, whose witnesses may settle whether the 1661
+   Manuel (PAR-0105) is the Alferes Manoel Machado Ermonde (open); Muriaé 1905 images 682/688 (retrieval
+   must fetch them); Procopio's 1840 baptism; a 300-dpi BPAR C-1673-1766 p.0036 for the 1690 bride's surname.
 
 1. **PRIMARY OPEN PROBLEM — Simplício José Ferreira Armond (P-0016): father unknown.**
    Modelled only as Eliza's husband (union F-0006), a child in no family, but the gap is

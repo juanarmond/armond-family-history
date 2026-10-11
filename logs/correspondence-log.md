@@ -266,6 +266,14 @@ lead until verified against an original record.
     requests, including the €4 order; the €2 order (Requisição nº101) recorded above followed.
   - **The paid entries are still untranscribed:** per the thread, neither the 23 Dec 1657 baptism nor the
     Manoel Machado Ermonde entry has yet been read from the delivered scans.
+- **Superseded (2026-10-11) — amends the 2026-10-08 updates above** (the Requisição nº101 update, the
+  2026-09-24 reply and "The paid entries are still untranscribed"). Both delivered scans have since been read
+  and catalogued with the owner's authorisation: the 23 Dec 1657 baptism as PAR-0099 and the 27 Dec 1661
+  entry as PAR-0105, each transcribed in full. Both are pages of the São Sebastião book, not Santa Bárbara.
+  "Manoel Machado Ermonde baptism" above is the archivist's label for the request, not an identification:
+  the entry reads "manuel filho de Fr.co Fer.ra e de sua mulher Dona Anna M.da". Whether this Manuel is the
+  "Alferes Manoel Machado Ermonde" of a collaborative-tree profile is OPEN (owner, 2026-10-11), and the
+  baptism is not attributed to him.
 
 ### C-006 — Coordenação de Arquivo Permanente (COARPE), Tribunal de Justiça de Minas Gerais
 - Who: the TJMG permanent-archive coordination holding the historical judicial

@@ -7,14 +7,20 @@ entry they amend; they must not erase it.
 
 ## 2026-10-11 — Intake-reference refresh; the 1661 baptism's identity stays open
 
-Owner's standing approval, for the intake reference only:
-- `make intake`: the producer's intake text is unchanged (SHA-256 matches the accepted pin, also at the
-  producer), and the handoff is a replay.
-- The 1661 BPAR baptism scan's current producer name is recognised; the bytes are the same (`ecc3b341…`, held as
-  PAR-0105).
-- By owner instruction, the baptism is not attributed to "Alferes Manoel Machado Ermonde". The identity is
-  recorded as OPEN in PAR-0105, DOC-0130 and F-0068; filenames and research context are not identity evidence.
-- No promotion and no other canonical change.
+Two authorities, one per kind of change:
+- **The owner's standing approval for the intake-reference refresh.** `make intake` found no change: the
+  producer's intake text matches the accepted pin (also at the producer), and the handoff is a replay. Nothing
+  was updated under this approval.
+- **The owner's explicit instruction to preserve the unresolved identity.**
+  - The 1661 BPAR baptism scan was confirmed: same bytes (`ecc3b341…`, held as PAR-0105), and the same producer
+    filename it had when promoted on 2026-10-10. No rename happened.
+  - The baptism is not attributed to "Alferes Manoel Machado Ermonde". The identity is recorded as OPEN in
+    PAR-0105, DOC-0130 and F-0068, and (after review the same day) on P-0136, P-0137 and P-0138, so a profile
+    sync cannot carry the research profiles' attribution in.
+  - The correspondence log's 2026-10-08 entries are superseded by a dated note.
+  - STATUS names Gaspar's 1694 marriage witnesses as the record most likely to settle it.
+  - Filenames and research context are not identity evidence.
+- No promotion.
 
 ## 2026-10-11 — Retrieval integration: verified intake, hash-keyed triage, atomic change sets
 
