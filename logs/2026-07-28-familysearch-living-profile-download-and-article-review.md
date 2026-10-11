@@ -1,6 +1,6 @@
 # FamilySearch living-profile download and academic-article review
 
-> **Redacted 2026-10-11 (owner decision):** identifiers, dates and names of living people in this log are withheld; the unredacted original is kept in the private store (`private/logs/2026-07-28-familysearch-living-profile-download-and-article-review.md`).
+> **Redacted 2026-10-11 (owner decision):** identifiers, dates and names of living people in this log are withheld; the unredacted original is kept in the private store (`private/redacted-originals/logs/2026-07-28-familysearch-living-profile-download-and-article-review.md`).
 
 ## Research question
 

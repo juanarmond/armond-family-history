@@ -1,6 +1,6 @@
 # FamilySearch direct-line Memories audit
 
-> **Redacted 2026-10-11 (owner decision):** identifiers, dates and names of living people in this log are withheld; the unredacted original is kept in the private store (`private/logs/2026-07-28-familysearch-direct-line-memories-audit.md`).
+> **Redacted 2026-10-11 (owner decision):** identifiers, dates and names of living people in this log are withheld; the unredacted original is kept in the private store (`private/redacted-originals/logs/2026-07-28-familysearch-direct-line-memories-audit.md`).
 
 ## Research question
 
