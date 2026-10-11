@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Advisory audit: catch catalogued documents that are missing pages still in the drop.
+"""Advisory audit: catch catalogued documents that are missing pages the producer holds.
 
 `validate_data.py` already errors on an `evidence/<id>-*` page file that a source or
 FAN does not reference (a page copied into the repo but not linked). What it CANNOT
-see is a page that was never promoted at all — still sitting in the retrieval drop
-(`research/from-retrieval/`, which is gitignored). That is the gap behind "the deed
-has three pages but only one shows".
+see is a page that was never promoted at all — still only in the producer repository
+(`armond-genealogy-retrieval`, whose scans the consumer reads by path, read-only). That
+is the gap behind "the deed has three pages but only one shows".
 
 This heuristic closes it by **sha256**, which is robust to file renames: it groups the
 drop's image sets by base name (stripping a trailing page marker like `-p2`, `-pp2-3`,
@@ -18,9 +18,9 @@ known document that was never linked or transcribed.
 It also lists multi-page drop sets where NO page is catalogued yet (promotion
 candidates for the value gate — informational, not a defect).
 
-Local-only (the drop is gitignored, so this cannot run in CI) and advisory; it never
-mutates anything and exits 0 unless --strict is given (then non-zero if any catalogued
-document is missing a page).
+Local-only (CI has no producer repository) and advisory; it never mutates anything.
+Exit codes: 0 ok, 1 missing pages under --strict, 2 blocked (the producer's scans cannot
+be read — an environment problem, never reported as "nothing to check").
 
 Usage:
     uv run --frozen python scripts/drop_page_audit.py [--strict]
@@ -32,14 +32,15 @@ import glob
 import hashlib
 import os
 import re
+import sys
 
 import yaml
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from producer_scans import HashCache, ProducerUnavailable, record_groups, scan_files  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DROP_DIRS = [
-    os.path.join(ROOT, "research", "from-retrieval", "output", "images"),
-    os.path.join(ROOT, "research", "from-retrieval", "resources"),
-]
 SOURCE_GLOBS = [
     os.path.join(ROOT, "data", "sources", "*", "*.yaml"),
     os.path.join(ROOT, "data", "fan", "*.yaml"),
@@ -92,30 +93,32 @@ def main() -> int:
                         help="exit non-zero if a catalogued document is missing a page")
     args = parser.parse_args()
 
-    drop_images = []
-    for d in DROP_DIRS:
-        for path in glob.glob(os.path.join(d, "**", "*"), recursive=True):
-            if os.path.isfile(path) and IMAGE_RE.search(path):
-                drop_images.append(path)
-
+    try:
+        drop_images = [str(p) for p in scan_files() if IMAGE_RE.search(p.name)]
+    except ProducerUnavailable as exc:
+        print(f"BLOCKED: {exc} — an environment problem, not 'nothing to check'.")
+        return 2 if args.strict else 0
     if not drop_images:
-        print("Drop-page audit: no retrieval-drop images found (research/from-retrieval/). "
-              "Nothing to check.")
-        return 0
+        print("BLOCKED: the producer repository holds no scans to compare.")
+        return 2 if args.strict else 0
+    cache = HashCache()
 
     catalogued, page_counts = load_catalogue()
 
-    # Group drop images by base name.
+    # Group pages per producer record (evidence index or records manifest); fall back to
+    # the base name for files the producer has not grouped.
+    groups = record_groups()
     sets: dict[str, list[str]] = {}
     for path in drop_images:
-        sets.setdefault(base_name(os.path.basename(path)), []).append(path)
+        name = os.path.basename(path)
+        sets.setdefault(groups.get(name) or base_name(name), []).append(path)
 
     missing_pages = []   # (entity, base, [uncatalogued page paths], catalogued_count, total)
     uncatalogued_sets = []  # (base, count)
     for base, paths in sorted(sets.items()):
         if len(paths) < 2:
             continue  # single image: cannot detect a "missing sibling" this way
-        hashed = [(p, sha256_of(p)) for p in sorted(paths)]
+        hashed = [(p, cache.sha256(__import__("pathlib").Path(p))) for p in sorted(paths)]
         cat = [(p, s) for p, s in hashed if s in catalogued]
         uncat = [p for p, s in hashed if s not in catalogued]
         if cat and uncat:
@@ -129,14 +132,15 @@ def main() -> int:
         elif not cat:
             uncatalogued_sets.append((base, len(paths)))
 
+    cache.save()
     if missing_pages:
-        print("MISSING PAGES — a catalogued document is missing pages that are still in the drop:")
+        print("MISSING PAGES — a catalogued document is missing pages the producer holds:")
         for entity, base, uncat, ncat, total in missing_pages:
             print(f"  {entity}: {ncat}/{total} pages catalogued — add and transcribe:")
             for p in uncat:
-                print(f"      {os.path.relpath(p, ROOT)}")
+                print(f"      {p}")
     else:
-        print("MISSING PAGES: none — every catalogued multi-page document has all its drop pages linked.")
+        print("MISSING PAGES: none — every catalogued multi-page document has all its producer pages linked.")
 
     if uncatalogued_sets:
         print("\nUncatalogued multi-page sets (value-gate candidates — informational, not a defect):")

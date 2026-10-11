@@ -5,6 +5,20 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-10-11 — Retrieval integration: verified intake, hash-keyed triage, atomic change sets
+
+Consumer half of the refactor (`logs/2026-10-11-retrieval-integration-refactor.md`):
+- Batch P released after the private repository was verified.
+- Instruction authority moved to a pointer plus accepted SHA-256.
+- `make intake` verifies and pins the handoff.
+- The 453-row ledger is migrated to a public hash-keyed index of 857 entries; 51 rows without file identity
+  are reported privately, none discarded.
+- The audits now work by content.
+- `new_entity.py apply` makes promotions atomic.
+
+Backlog surfaced, nothing promoted: 292 untriaged producer scans, three partly catalogued records, and seven
+FAN scans without provenance.
+
 ## 2026-10-11 — Batch P: living people's documents leave the public repository
 
 Repository audit and containment on the owner's decision (`logs/2026-10-11-batch-p-privacy-containment.md`). The owner's

@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "armond-sync-manifest-v1",
+  "title": "Retrieval handoff manifest, contract version 1",
+  "description": "SYNC-MANIFEST.json at the root of the retrieval handoff (Channel A). Written by the producer (armond-genealogy-retrieval); verified by the consumer (armond-family-history) before any file is read. Serialisation: json.dumps(sort_keys=True, indent=2, ensure_ascii=False) plus a trailing newline. content_digest = SHA-256 of the UTF-8 text formed by one line per file, sorted by path: '<path>\\t<sha256>\\n'; it excludes the manifest itself and generated_at, so identical content yields an identical digest.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "producer",
+    "generator",
+    "source_commit",
+    "source_dirty",
+    "generated_at",
+    "content_digest",
+    "total_files",
+    "class_counts",
+    "files"
+  ],
+  "properties": {
+    "contract_version": { "const": 1 },
+    "producer": { "const": "armond-genealogy-retrieval" },
+    "generator": { "type": "string", "minLength": 1 },
+    "source_commit": {
+      "description": "The producer's HEAD commit when the handoff was generated; null only if Git was unavailable.",
+      "type": ["string", "null"],
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "source_dirty": {
+      "description": "True when the producer's working tree had uncommitted changes under research/ at generation time (the generator reads the working tree).",
+      "type": "boolean"
+    },
+    "generated_at": { "type": "string", "minLength": 20 },
+    "content_digest": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "total_files": { "type": "integer", "minimum": 0 },
+    "class_counts": {
+      "type": "object",
+      "additionalProperties": { "type": "integer", "minimum": 0 }
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "class", "size", "sha256"],
+        "properties": {
+          "path": {
+            "description": "Relative POSIX path inside the handoff: no leading slash, no '..' segment, no hidden segment, no backslash.",
+            "type": "string",
+            "pattern": "^(?![/.])(?!.*/\\.)(?!.*\\\\)(?!.*(^|/)\\.\\.(/|$))[^\\x00]+$"
+          },
+          "class": {
+            "enum": [
+              "findings",
+              "status",
+              "methodology",
+              "leads",
+              "plans",
+              "correspondence_text",
+              "evidence_index"
+            ]
+          },
+          "size": { "type": "integer", "minimum": 0 },
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://armond-family-history.local/schemas/triage-index.schema.json",
+  "title": "Public triage index",
+  "description": "One value-gate disposition per producer file, keyed by SHA-256 (content identity, so a renamed file keeps its disposition). Public: it carries no record content, names, reasons or notes; the narrative detail is in the private repository (private/triage/).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "generated", "entries"],
+  "properties": {
+    "version": { "const": 1 },
+    "generated": { "type": "string", "format": "date" },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["sha256", "size", "media_type", "producer_path", "disposition", "target_ids", "decided", "source"],
+        "properties": {
+          "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+          "size": { "type": ["integer", "null"], "minimum": 0 },
+          "media_type": { "type": "string", "minLength": 3 },
+          "producer_path": {
+            "description": "Path under the producer's research/ directory, or null when the filename itself must not be published or the file is known only by its promoted copy.",
+            "type": ["string", "null"],
+            "pattern": "^(?![/.])(?!.*(^|/)\\.\\.(/|$))[^\\\\]+$"
+          },
+          "disposition": {
+            "enum": [
+              "unreviewed",
+              "reviewed",
+              "reviewed-lead",
+              "candidate-for-promotion",
+              "promoted",
+              "duplicate",
+              "superseded",
+              "fan",
+              "namesake",
+              "noise",
+              "rejected",
+              "bounded-negative",
+              "privacy-excluded",
+              "held",
+              "blocked",
+              "unclassified"
+            ]
+          },
+          "target_ids": {
+            "type": "array",
+            "items": { "type": "string", "pattern": "^(CIV|GOV|PAR|PRB|NWS|PUB|REC|FAN|DOC)-[0-9]{4}$" },
+            "uniqueItems": true
+          },
+          "decided": { "type": ["string", "null"], "format": "date" },
+          "authorisation_ref": { "type": ["string", "null"], "minLength": 3 },
+          "source": { "type": "string", "minLength": 3 }
+        }
+      }
+    }
+  }
+}

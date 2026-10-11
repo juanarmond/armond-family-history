@@ -45,6 +45,7 @@ if __package__:
         load_yaml,
     )
     from .validation.references import validate_references
+    from .validation.triage import TRIAGE_INDEX_SCHEMA, validate_triage_index
     from .validation.rules import (
         validate_date_ranges,
         validate_duplicate_identities,
@@ -78,6 +79,7 @@ else:
         load_yaml,
     )
     from validation.references import validate_references
+    from validation.triage import TRIAGE_INDEX_SCHEMA, validate_triage_index
     from validation.rules import (
         validate_date_ranges,
         validate_duplicate_identities,
@@ -132,6 +134,7 @@ def load_validators(
     auxiliary_schemas = (
         ("document_inventory", DOCUMENT_INVENTORY_SCHEMA),
         ("record_coverage", RECORD_COVERAGE_SCHEMA),
+        ("triage_index", TRIAGE_INDEX_SCHEMA),
     )
     for validator_name, schema_filename in auxiliary_schemas:
         document = schema_documents.get(schema_filename)
@@ -581,6 +584,7 @@ def validate_repository(
         root, validators.get("record_coverage"), entities, issues
     )
     validate_references(root, entities, issues)
+    validate_triage_index(root, validators.get("triage_index"), entities, issues)
     validate_evidence_statuses(root, entities, issues)
     validate_date_ranges(root, entities, issues)
     validate_event_principals(root, entities, issues)

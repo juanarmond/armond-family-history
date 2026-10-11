@@ -5,6 +5,35 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — retrieval integration: verified intake, hash-keyed triage, atomic change sets (2026-10-11)
+
+- **Instruction authority (owner decision O4).** AGENTS.md no longer pastes the producer's intake text. It points
+  at the synced `INTAKE-FOR-GENEALOGY-REPO.md` and pins its SHA-256 in `research/integration/accepted-intake.json`;
+  `make intake` reports any change as drift for review. The producer text governs intake procedure only, and
+  producer tiers never set consumer statuses. Tests enforce it (`tests/test_instruction_authority.py`).
+- **Intake (Channel A).** `make intake` (`scripts/intake.py`) snapshots the drop and verifies it against
+  `SYNC-MANIFEST.json`: sizes, SHA-256, content digest, path confinement, no symlinks, and Markdown/UTF-8 only.
+  It retries a torn snapshot, pins the generation by content digest, handles replays and stale generations, and
+  logs each accepted generation in `research/integration/intake-log.yaml`. It never promotes anything.
+  By owner decision (O10) the producer keeps its legacy manifest, so intake verifies it itself: its own hashes,
+  plus the size and mtime of every live file before and after the copy. Contract v1
+  (`research/integration/schemas/`) is accepted too and is ready if the owner reopens producer work.
+- **Triage.** The narrative value-gate ledger moved to the private repository. The new public, hash-keyed
+  `data/triage-index.yaml` (schema and validator) holds 857 entries, migrated from its 453 rows and backfilled from
+  holdings; 51 rows without file identity are reported privately, none discarded. An earlier note called the
+  ledger "regenerable": it is not. It records judgments, which is why it is now migrated and backed up.
+- **Audits.** `triage-audit`, `drop-pages-audit` and `profiles-audit` now read the producer's scans by path, by
+  SHA-256, grouped per producer record, and the pinned snapshot. They no longer read the retired drop layout, and
+  under `--strict` they fail when their inputs are missing instead of printing "Nothing to check".
+- **Promotion (Channel B).** `scripts/new_entity.py apply <change set>` applies drafts, replacements of live files
+  (each guarded by its base SHA-256) and owner-authorised evidence copies in one transaction:
+  - staged validation, failing on any new warning;
+  - a journal of original bytes, exact rollback and `recover`;
+  - an exclusive lock and idempotent re-runs.
+  Inventory entries gain an optional `transfer` provenance block, which requires an owner authorisation reference.
+- Stale producer paths in data, docs, the Makefile and .gitignore are corrected. Pages now deploys only through
+  GitHub Actions, which removes the failing legacy branch build.
+
 ### Security — the public repository no longer holds living people's documents (Batch P, 2026-10-11)
 
 - Owner decisions: the repository stays public. Exactly three people in the tree are living (P-0001–P-0003);

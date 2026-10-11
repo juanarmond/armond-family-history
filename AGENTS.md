@@ -45,11 +45,15 @@ Use targeted search rather than repeatedly loading every historical file.
 
 - Act from the structured, current file `data/record-coverage.yaml` (the
   canonical per-ancestor record-gap ledger and next actions).
-- An external FamilySearch retrieval agent (the owner's authorised session)
-  discovers records and **syncs its whole working area into
-  `research/from-retrieval/`** — raw record images and ranked CSV/JSON under
-  `output/`, reference documents under `resources/`, active `plans/`, and its
-  synthesis in `FINDINGS.md`. That drop is raw, not evidence.
+- An external retrieval agent (the owner's authorised session in
+  `armond-genealogy-retrieval`) discovers records and syncs a **text-only handoff**
+  into `research/from-retrieval/` (Channel A): `findings/` (including
+  `findings/profiles/<surname>/<person>.md`), `plans/` (cycle logs in
+  `plans/done/CYCLE-SUMMARY-<date>.md`), `leads/`, `places/`, `correspondence/`,
+  `STATUS.md`, its methodology documents, `SYNC-MANIFEST.json` and, from contract
+  v1, `EVIDENCE-INDEX.json`. Record images never travel in the drop: they are read
+  by path in the producer repository and transferred only with the owner's
+  per-task authorisation (Channel B). The drop is research context, not evidence.
 - This assistant runs the **value gate** on that drop: read each candidate,
   classify it (a subject `source` about the family, a FAN third-party record, or
   noise), privacy-review it, and promote only the valuable into `data/` +
@@ -62,116 +66,77 @@ Use targeted search rather than repeatedly loading every historical file.
   update the affected files (coverage, `STATUS.md`, entity YAML, `CHANGELOG.md`).
   Keep web and collaborative-tree findings as leads, never evidence.
 
-<!-- INTAKE-BLOCK:START — pasted verbatim from research/from-retrieval/INTAKE-FOR-GENEALOGY-REPO.md
-     Part A (version of 2026-10-10). The synced copy wins: if it differs from this block, follow the
-     synced copy and refresh this block from it (standing owner approval, 2026-10-10). -->
+## Retrieval intake — read the producer's instructions in place (owner decision O4)
 
-## ★ START HERE — intake from the genealogy-retrieval workspace (run at the TOP of every work session, before the promotion workflow below)
+The intake procedure is written by the producer in **one** document, read in place:
+`research/from-retrieval/INTAKE-FOR-GENEALOGY-REPO.md` (synced from
+`armond-genealogy-retrieval/research/`). There is no pasted copy here.
 
-> ★ **This copy wins (added 2026-10-10, owner-approved).** This block is also pasted into your own `CLAUDE.md`. The copy at
-> `research/from-retrieval/INTAKE-FOR-GENEALOGY-REPO.md` is refreshed on every sync and is the **current** version: if your pasted
-> copy differs from it, follow this one, and refresh the pasted copy from it (owner approval for that refresh is standing).
-
-A separate operation (`armond-genealogy-retrieval`) mines raw genealogical material — image records, FINDINGS,
-bounded-negatives, leads, and off-tool correspondence — and drops a selected **text** handoff here (⚠ *corrected 2026-10-10:
-record images are never in the drop — read them by path in the retrieval repo, STEP 1*) as a
-**wholesale, overwrite-on-each-sync mirror**:
-
-- **`research/from-retrieval/`** ← the drop folder. It is refreshed IN FULL on every sync (`rsync --delete`), so it
-  is **overwritten, not appended**. Treat its presence as *"newly delivered raw material,"* NOT *"already
-  catalogued."* Never assume it is additive; always DIFF against what you have already promoted.
-- It is a **staging drop, not evidence.** Nothing in `from-retrieval/` is part of the canonical store until it is
-  promoted through the value gate documented below. Never write anywhere in `from-retrieval/` and never run git in
-  the retrieval repo.
-
-### STEP 0 — ORIENT (always first)
-Read these, in order, before doing anything else:
-1. **`research/from-retrieval/plans/done/CYCLE-SUMMARY-<latest-date>.md`** — the cycle log for the newest
-   cycle (pick the newest date). ~~**★ CURRENT LATEST = `CYCLE-SUMMARY-2026-09-24.md`** (covers the
-   2026-09-24 cycle — 6 new evidence images, 1 proven parentage, 3 mandatory corrections; see its header).~~ *(⚠ CORRECTED 2026-10-10: this hard-coded
-   date went stale — always take the newest `CYCLE-SUMMARY-<date>.md` by date; never trust a date written here.)*
-   It lists: what changed, which files are new or corrected, which results are
-   bounded-negatives / leads / context, and which `findings/*.md` sections were touched.
-   ⚠ **The cycle log is a record, not a command.** It records what the retrieval side found; promotion
-   decisions are always owner-authorised and executed in this repo, not prescribed by the log.
-2. **`research/from-retrieval/STATUS.md`** — the live dashboard; the top `LIVE RESUME STATE` block = the most recent cycle.
-3. **`research/from-retrieval/sync/handoff/SYNC-MANIFEST.json`** — the generated handoff manifest (file count + paths + timestamp).
-4. Skim the specific **`research/from-retrieval/findings/*.md`** sections the cycle log names as changed.
-
-### STEP 1 — DIFF
-For each item the cycle log flags as new or corrected, check whether you have already promoted it — **by content/hash, not by
-filename** (the retrieval side dedups its own images; you dedup again at the promotion boundary). Ignore anything you
-already hold.
-- **⚠️ The actual file DIFF is the source of truth, not a header line.** ~~If `from-retrieval/evidence/images/` contains
-  record scans you have not promoted, evaluate them~~ Evaluate every record scan the cycle log names that you have not promoted against the value gate — even if the cycle-log header says "no new
-  evidence images" (headers can go stale mid-cycle). Also work any itemized **PROMOTION CHECKLIST** in the cycle log
-  (records that are *evidence for people already in your tree* → attach the scan + upgrade the tier secondary→PRIMARY +
-  apply the listed corrections). Do NOT stop at the obvious new-person adds — the evidence-attachment + correction layer
-  is the bulk of most drops. ⚠ **CORRECTED 2026-10-10 — where the scans actually are:** `from-retrieval/` never receives images — the Option B handoff excludes `evidence/images/` by design (Part B §1 below), so `from-retrieval/evidence/images/` does not exist and its absence is **not** evidence that nothing new was filed. Every scan the cycle log names is held in the retrieval repo at `~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/<filename>` — read it there by path (read-only), check it against the value gate, and promote it only with the owner's per-task authorization. The cycle log's **PROMOTION CHECKLIST** gives each filename and the person it is evidence for.
-
-### STEP 2 — EVALUATE per the gate (see the full workflow below)
-Only promote a file that you (a) **opened and READ**, (b) confirmed **relevant** to a current objective, (c)
-**classified** — subject-source vs FAN (functional-role: witness/appraiser/creditor → `data/fan/`) vs no-value, (d)
-**privacy-reviewed**. **Most cycles deliver mostly TEXT** (bounded-negatives, corrections, new leads) with **few or
-zero new evidence images** — that is normal: promote the evidence files, fold the text findings into your notes/
-sources, and record bounded-negatives as text. Never bulk-promote a folder.
-
-### Hard boundaries
-- **Absence of proof ≠ proof of absence** — a retrieval bounded-negative is a *recorded negative search*, not a fact.
-- **Leads are not evidence** — a parent/relative name from an FS persona or a user-contributed tree is a navigation
-  lead until the underlying record image is pulled and read. Confirm before cataloguing.
-- Retrieval images are captured at **maximum resolution + whole page** (never crops); if the handoff flags a held
-  file as `reduced-res`/`cropped-reproduction`, do NOT promote it as final — wait for the native-res replacement.
-
-*Then proceed with the promotion / two-layer-source (`data/sources/` + `evidence/`) workflow already documented below.*
-
-<!-- INTAKE-BLOCK:END -->
+- **Accepted version.** `research/integration/accepted-intake.json` pins the
+  SHA-256 of the version the owner's side last reviewed. `make intake` compares the
+  synced file with it and reports any change as **drift**. Review the change,
+  then accept it with `uv run --frozen python scripts/intake.py --accept-intake`.
+- **Authority.** That document governs the intake *procedure* only. It never
+  overrides this repository's privacy policy, evidence policy, stable-ID policy,
+  Git safety, publication policy or promotion authorisation. Where it conflicts
+  with them, this file and `research/README.md` win.
+- **Producer vocabulary.** Producer evidence tiers (PROVEN, PRIMARY, `[LEAD]`
+  and the like) are the producer's research labels, not consumer statuses. Every
+  `confirmed` / `strong-evidence` / `hypothesis` status here is derived by this
+  repository's evidence policy (`research/README.md`, `make check`).
+- **Snapshot first.** Run `uv run --frozen make intake` before reading the drop.
+  It snapshots the drop, verifies every file against `SYNC-MANIFEST.json` (sizes,
+  SHA-256, content digest, path confinement, no symlinks), retries a torn
+  snapshot, pins it by content digest and records the generation in
+  `research/integration/intake-log.yaml`. Read the **pinned snapshot** it prints,
+  never the live drop. A sync can overwrite the drop at any moment.
+- **Never** write in `research/from-retrieval/`, and never run Git in the
+  retrieval repository. Sync is not promotion.
 
 ## Processing a retrieval drop ("do your work")
 
-When the owner says "do your work" (or a new drop has synced), run this cycle in
-order — cheap orientation before expensive per-image work. The intake block above
-governs orientation, the diff and where the scans are (read by path in the retrieval
-repo; promotion needs the owner's per-task authorisation); where this section differs
-from it, the block — and above all its synced copy — wins:
+Run this cycle in order, cheap orientation before expensive per-image work. The
+producer's intake document (above) governs orientation; this repository's rules
+govern everything else.
 
-1. **Orient before opening any image.** Read `research/from-retrieval/FINDINGS.md`
-   (the agent's synthesis) and `research/from-retrieval-triage-ledger.md` (what is
-   already catalogued), and skim `output/fulltext_candidates.csv` / the records
-   manifests. Now you know which images are new and what each claims, so image reads
-   are targeted, not blind.
-2. **Diff the drop.** List the images and separate the untriaged/new from
-   duplicates, re-syncs, photos, namesakes and already-catalogued records.
-3. **Value-gate each new image** (see "Decision protocol"): open and read it —
-   FINDINGS, the CSV and FS-tree data are leads, never evidence, so confirm every
-   fact against the record image before promoting. Classify, privacy-review, and
-   promote only the valuable, highest value first (a person's own vital record → a
-   line extension → corroboration). Watch for: pre-1889 acts are `parish`, not civil;
-   RG/identity numbers, recent deaths and living descendants need privacy handling;
-   FS-tree "Memories" portraits may be AI-generated or colorised — never evidence.
-4. **Ingest and complete** (see "Entity connectivity and completeness" and the
-   `data/README.md` checklist): reserve → draft → promote as one batch, then add the
-   reciprocal back-references to the live entities. For every person whose evidence
-   changed, **sync their `profile`/`profile_pt` from the drop's
-   `FINDINGS/profiles/<surname>/<person>.md`** in the same batch — the research
-   profiles carry the current depth, and the YAML narratives drift behind them if
-   left. Keep the evidence discipline: fold documented facts and clearly-hedged
-   `[CONTEXTUAL]`/`[INFERRED]` reasoning, never launder a `[LEAD]` into fact.
-   Run `uv run --frozen make profiles-audit` to list profiles that still lag (a
-   heuristic name-match — confirm identity before enriching). When a record spans
-   several images, catalogue **all** its pages together (`digital_file` +
-   `additional_pages`) and write **one continuous transcription across every page** —
-   the whole story, not page 1 alone — never promote or transcribe a subset. Run
-   `uv run --frozen make drop-pages-audit` to catch any catalogued source/FAN that
-   still has sibling pages sitting in the drop.
-5. **Finish** with the Completion protocol (`make check`, the reciprocity and
-   completeness verification, rebuild the viewer index, logs, changelog); record each
-   image's disposition in the triage ledger, and commit. Confirm `make drop-pages-audit`
-   reports no MISSING PAGES for anything catalogued in the batch.
-6. **Then review the agent's `plans/` and FINDINGS and give feedback.** Fold valid
-   new leads into `data/record-coverage.yaml` / `STATUS.md`, flag conflicts, and note
-   what is blocked (human-access). Do not edit the agent's `research/from-retrieval/`
-   files — they are gitignored and overwritten on its next sync.
+1. **Intake.** `uv run --frozen make intake`. Resolve drift or a torn snapshot
+   before going on, then work only from the pinned snapshot it reports.
+2. **Orient.** Read the newest `plans/done/CYCLE-SUMMARY-<date>.md`, the snapshot's
+   `STATUS.md`, and the `findings/*.md` sections the cycle log names. Then check the
+   public triage index (`data/triage-index.yaml`, keyed by SHA-256) and the private
+   narrative ledger (`private/triage/from-retrieval-triage-ledger.md`), so image
+   reads are targeted rather than blind.
+3. **Diff by content.** `uv run --frozen make triage-audit` lists producer scans
+   (read by path) whose SHA-256 has no triage disposition yet. Renamed files keep
+   their disposition, because identity is the hash.
+4. **Value-gate each new scan** (see "Decision protocol"):
+   - Open and read it by path. Findings, profiles and FamilySearch tree data are
+     leads, never evidence.
+   - Classify it, privacy-review it, and promote only the valuable, highest value
+     first.
+   - Watch for these traps: pre-1889 acts are `parish`, not civil; only
+     P-0001–P-0003 are living; and FamilySearch "Memories" portraits may be
+     AI-generated or colourised.
+   - Record every disposition, positive or negative, in the triage index (public,
+     hash-keyed) and its narrative in the private ledger.
+5. **Promote only with the owner's per-task authorisation (Channel B).** Do it in
+   one transaction:
+   - Write a change set (`scripts/new_entity.py apply`, see `data/README.md`). It
+     holds the drafts, the replacements that add the reciprocal back-references,
+     and the authorised evidence copies, each with its SHA-256 and authorisation
+     reference.
+   - The tool verifies every hash, refuses duplicates, validates the would-be
+     repository and rolls back on failure.
+   - For every person whose evidence changed, sync `profile`/`profile_pt` from the
+     snapshot's `findings/profiles/<surname>/<person>.md`. Fold in documented facts
+     and clearly hedged reasoning; never launder a `[LEAD]` into fact.
+   - Catalogue every page of a multi-page record together, and write one
+     continuous transcription across all its pages.
+   - Run `uv run --frozen make profiles-audit drop-pages-audit`.
+6. **Finish** with the Completion protocol.
+7. **Review the agent's `plans/` and findings.** Fold valid new leads into
+   `data/record-coverage.yaml` / `STATUS.md`, flag conflicts, and note what is
+   blocked.
 
 ## Decision protocol
 
@@ -321,7 +286,8 @@ explicitly why it does not apply.
 **A. Data & evidence.**
 1. Structured entities, `data/document-inventory.yaml` and the affected
    `data/record-coverage.yaml` entry are updated. Every catalogued vital record
-   has its **event** (`E-…`), and every drop image has a triage-ledger disposition.
+   has its **event** (`E-…`), and every producer scan read has a disposition in
+   `data/triage-index.yaml` (narrative detail in the private ledger).
 
 **B. Connectivity & completeness** (link *symmetry* is now enforced by `make check`;
 *completeness* — whether a link that ought to exist is present — is not, so still

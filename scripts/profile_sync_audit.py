@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Advisory audit: flag modelled-person profiles that lag the retrieval drop.
 
-The external FamilySearch retrieval agent maintains rich per-person profiles under
-`research/from-retrieval/FINDINGS/profiles/<surname>/<person>.md` (see AGENTS.md).
+The external retrieval agent maintains rich per-person profiles, delivered in the
+handoff under `findings/profiles/<surname>/<person>.md` (read from the pinned snapshot
+that `make intake` verifies; see AGENTS.md).
 Those are the enrichment *source*; each modelled person's YAML `profile`/`profile_pt`
 should track them. Over time the YAML profiles drift behind the research profiles.
 
@@ -10,8 +11,8 @@ This script is a LOCAL, ADVISORY heuristic (the drop is gitignored, so this cann
 run in CI). For every deceased modelled person it best-matches a research profile by
 name and reports where the research profile is materially larger than the YAML
 `profile`, or where `profile`/`profile_pt` are missing or out of balance. It never
-mutates data and always exits 0 unless run with --strict (then non-zero if anything
-is flagged), so it can gate a pre-commit step if desired.
+mutates data. Exit codes: 0 ok (or findings without --strict), 1 findings under
+--strict, 2 blocked under --strict (no research profiles to compare).
 
 The name match is a heuristic (common names like "Maria de Jesus" collide) — always
 confirm the identity before enriching from the suggested file.
@@ -32,9 +33,15 @@ import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PEOPLE_DIR = os.path.join(ROOT, "data", "people")
-FINDINGS_DIR = os.path.join(
-    ROOT, "research", "from-retrieval", "FINDINGS", "profiles"
-)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from producer_scans import pinned_snapshot  # noqa: E402
+
+# Read the pinned, verified snapshot from `make intake` when there is one; otherwise the
+# live drop (which a sync may be rewriting). Profiles are under findings/profiles/.
+_SNAPSHOT = pinned_snapshot()
+DROP_ROOT = str(_SNAPSHOT) if _SNAPSHOT else os.path.join(ROOT, "research", "from-retrieval")
+FINDINGS_DIR = os.path.join(DROP_ROOT, "findings", "profiles")
 
 
 def norm_tokens(text: str) -> set[str]:
@@ -68,9 +75,8 @@ def main() -> int:
     args = ap.parse_args()
 
     if not os.path.isdir(FINDINGS_DIR):
-        print("profile-sync-audit: no retrieval drop present "
-              f"({os.path.relpath(FINDINGS_DIR, ROOT)} absent) — nothing to compare.")
-        return 0
+        print(f"BLOCKED: no research profiles at {FINDINGS_DIR} — run `make intake` first.")
+        return 2 if args.strict else 0
 
     findings = load_findings()
     flagged: list[tuple[str, str, str, str]] = []  # (pid, name, reason, hint)
@@ -92,7 +98,7 @@ def main() -> int:
             fc = len(open(match, encoding="utf-8").read())
             ratio = fc / max(len(en), 1)
             if ratio >= args.ratio:
-                rel = os.path.relpath(match, os.path.join(ROOT, "research", "from-retrieval"))
+                rel = os.path.relpath(match, DROP_ROOT)
                 flagged.append((pid, name, f"research profile {ratio:.1f}x the YAML profile", rel))
 
     if not flagged:

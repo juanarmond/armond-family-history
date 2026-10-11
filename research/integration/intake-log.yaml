@@ -1,0 +1,25 @@
+# Retrieval-handoff intake log, written by scripts/intake.py (do not hand-edit).
+#
+# One entry per verified handoff generation: its content digest, contract
+# version, producer commit, timestamps, counts and the SHA-256 of the producer's
+# intake instructions. This file is tracked and public, so it never holds file
+# contents or file lists. The pinned snapshots live in the local intake state
+# (default research/.intake/snapshots/<digest>/). Sync is not promotion: an
+# accepted generation is verified raw material, not evidence.
+generations:
+- content_digest: 828414254673c31a001f8baf211c4dc16110155013ed634e81ebe6e4ff673cfd
+  contract_version: 0
+  source_commit: null
+  source_dirty: null
+  generated_at: '2026-10-11T07:28:19.598058+00:00'
+  accepted_at: '2026-10-11T13:26:17+00:00'
+  total_files: 341
+  class_counts:
+    correspondence_text: 41
+    findings: 262
+    leads: 5
+    methodology: 5
+    plans: 27
+    status: 1
+  intake_text_sha256: 6d8b49ea8acff4a5faa6d02aac3cc13efabee53e8ec9f181adc2fa8e1d8bd977
+  status: accepted

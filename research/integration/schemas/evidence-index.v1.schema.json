@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "armond-evidence-index-v1",
+  "title": "Retrieval evidence index, contract version 1",
+  "description": "EVIDENCE-INDEX.json at the root of the retrieval handoff (class evidence_index; listed in SYNC-MANIFEST.json). Metadata only: no binaries cross in Channel A. The consumer uses it to identify each producer scan by SHA-256, follow renames, check multi-page completeness and resolution status before an owner-authorised transfer (Channel B). Serialisation as for the manifest; scans sorted by path.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["contract_version", "producer", "root", "scans"],
+  "properties": {
+    "contract_version": { "const": 1 },
+    "producer": { "const": "armond-genealogy-retrieval" },
+    "root": {
+      "description": "Directory of the scans, relative to the producer repository root.",
+      "const": "research/evidence/images"
+    },
+    "scans": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "sha256", "size", "media_type", "aliases", "record", "page", "pages", "complete", "resolution"],
+        "properties": {
+          "path": {
+            "description": "Filename (or relative path) under root.",
+            "type": "string",
+            "pattern": "^(?![/.])(?!.*/\\.)(?!.*\\\\)(?!.*(^|/)\\.\\.(/|$))[^\\x00]+$"
+          },
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+          "size": { "type": "integer", "minimum": 0 },
+          "media_type": { "type": "string", "minLength": 3 },
+          "aliases": {
+            "description": "Earlier filenames of the same bytes (the producer's rename history).",
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "record": {
+            "description": "The producer's record key grouping the pages of one record, or null if ungrouped.",
+            "type": ["string", "null"]
+          },
+          "page": { "type": ["integer", "null"], "minimum": 1 },
+          "pages": { "type": ["integer", "null"], "minimum": 1 },
+          "complete": {
+            "description": "Whether the record's page set is complete (true), known incomplete (false) or not assessed (null).",
+            "type": ["boolean", "null"]
+          },
+          "resolution": { "enum": ["max-res", "reduced-res", "cropped-reproduction", "unknown"] }
+        }
+      }
+    }
+  }
+}

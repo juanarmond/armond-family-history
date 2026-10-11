@@ -293,6 +293,25 @@ def validate_document_inventory(
             if isinstance(relative_path, str) and isinstance(expected_hash, str):
                 inventory_file_keys.add((relative_path, expected_hash))
 
+        transfer = document.get("transfer")
+        if isinstance(transfer, dict) and isinstance(
+            transfer.get("producer_sha256"), str
+        ):
+            file_hashes = {
+                file_record.get("sha256")
+                for file_record in files
+                if isinstance(file_record, dict)
+            }
+            if transfer["producer_sha256"] not in file_hashes:
+                issues.append(
+                    Issue(
+                        "error",
+                        f"{document_location}.transfer.producer_sha256",
+                        "transfer producer_sha256 matches none of this "
+                        "document's files[].sha256",
+                    )
+                )
+
         if (
             document.get("status") == "catalogued"
             and isinstance(proposed_source_id, str)

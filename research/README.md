@@ -3,17 +3,26 @@
 This is the canonical research, evidence and citation policy. The directory
 contains reproducible research notes rather than settled entity data.
 
-- `from-retrieval/` is the **sync drop from the external FamilySearch retrieval
-  agent**: its raw pulls (`output/` — Full-Text/Records record images plus ranked
-  CSV/JSON), the third-party reference documents it used (`resources/`), its
-  active research plans (`plans/`) and its working synthesis (`FINDINGS.md`). It
-  is **raw, not evidence**: nothing there is catalogued until it clears the value
-  gate — read → classify → privacy-review → promote only the valuable into
-  `data/` + `evidence/` (as a `source` or a FAN entity), recording negatives and
-  never inferring absence from a zero-result search. See `from-retrieval/README.md`.
-  Value-gate dispositions per pulled image are tracked in
-  `from-retrieval-triage-ledger.md` (a resume ledger, kept outside `from-retrieval/`
-  so a wholesale re-sync cannot clobber it).
+- `from-retrieval/` is the **text-only handoff** synced from the retrieval agent
+  (`armond-genealogy-retrieval`) — Channel A: `findings/` (and
+  `findings/profiles/`), `plans/`, `leads/`, `places/`, `correspondence/`, its
+  `STATUS.md` and methodology, `SYNC-MANIFEST.json` and, from contract v1,
+  `EVIDENCE-INDEX.json`. It is **research context, not evidence**, and it is
+  overwritten on every sync. Never read it live: `make intake` snapshots and
+  verifies it and prints the pinned snapshot to read. Record images never travel
+  in it; they are read by path in the producer repository and transferred only
+  with the owner's per-task authorisation (Channel B). Nothing is catalogued until
+  it clears the value gate — read → classify → privacy-review → promote only the
+  valuable, recording negatives and never inferring absence from a zero-result
+  search.
+- `integration/` holds the consumer side of the retrieval contract: the
+  vendored contract schemas (`schemas/`), the accepted intake-instruction hash
+  (`accepted-intake.json`), the public intake log (`intake-log.yaml`) and the
+  refactor's execution record.
+- Value-gate dispositions are kept by content identity in the public triage index
+  `data/triage-index.yaml` (SHA-256 keyed, no record content); the narrative
+  detail is in the private repository at `private/triage/` (see "Living people
+  and private material").
 - `entity-drafts/` holds reserved-but-unpromoted entity skeletons (transient;
   created by `scripts/new_entity.py reserve`).
 - The validated ledgers this policy governs live in `data/` (with

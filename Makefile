@@ -1,4 +1,4 @@
-.PHONY: check test validate profiles-audit ancestors-audit drop-pages-audit triage-audit privacy-audit updates knowledge-base export export-bundle export-legacy install-hooks upload-viewers
+.PHONY: check test validate profiles-audit ancestors-audit drop-pages-audit triage-audit privacy-audit intake updates knowledge-base export export-bundle export-legacy install-hooks upload-viewers
 
 PYTHON ?= python3
 
@@ -16,9 +16,10 @@ install-hooks:
 validate:
 	$(PYTHON) scripts/validate_data.py
 
-# Advisory (local-only): flag modelled-person profiles that lag the retrieval
-# drop's FINDINGS/profiles. The drop is gitignored, so this is not part of
-# `make check`; run it when processing a drop. Exits 0 unless --strict.
+# Advisory (local-only): flag modelled-person profiles that lag the research
+# profiles (findings/profiles/ in the pinned intake snapshot). The drop is
+# gitignored, so this is not part of `make check`; run it after `make intake`.
+# Exits 0 unless --strict.
 profiles-audit:
 	$(PYTHON) scripts/profile_sync_audit.py
 
@@ -40,6 +41,11 @@ drop-pages-audit:
 # "corroborative / lead". Run after every drop. Exits 0 unless --strict.
 triage-audit:
 	$(PYTHON) scripts/triage_audit.py
+
+# Snapshot, verify and pin the retrieval handoff before reading it (Channel A).
+# Read the pinned snapshot it prints, never the live drop. Local only.
+intake:
+	$(PYTHON) scripts/intake.py --strict
 
 # Private strings (private/redaction-terms.txt) must never reach a tracked file or
 # the built site. Local only: CI has no private store.

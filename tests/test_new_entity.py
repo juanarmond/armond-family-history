@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import copy
+import os
 import shutil
 import tempfile
 import unittest
@@ -320,6 +321,30 @@ class NewEntityTests(unittest.TestCase):
         restored = recover_promotion(self.fixture.root)
         self.assertEqual(("P-0001",), restored)
         self.assertFalse(transaction.exists())
+
+    def test_recover_legacy_journal_deletes_only_targets_it_linked(self) -> None:
+        self.fixture.write_linked_person_and_source_drafts()
+        root = self.fixture.root
+        ledger = (root / "data/id-ledger.yaml").read_bytes()
+        # The old promoter hard-linked P-0001's draft; CIV-0001's target was
+        # written by another process and must survive the rollback.
+        person_target = root / "data/people/P-0001.yaml"
+        person_target.parent.mkdir(parents=True)
+        os.link(root / "research/entity-drafts/P-0001.yaml", person_target)
+        foreign_target = root / "data/sources/civil/CIV-0001.yaml"
+        foreign_target.parent.mkdir(parents=True)
+        foreign_target.write_text("foreign: true\n", encoding="utf-8")
+        self.fixture.write_yaml(
+            ".entity-promotion-transaction/manifest.yaml",
+            {"version": 1, "identifiers": ["P-0001", "CIV-0001"]},
+        )
+        (root / ".entity-promotion-transaction/id-ledger.yaml").write_bytes(ledger)
+        restored = recover_promotion(root)
+        self.assertEqual(("P-0001", "CIV-0001"), restored)
+        self.assertFalse(person_target.exists())
+        self.assertTrue((root / "research/entity-drafts/P-0001.yaml").is_file())
+        self.assertEqual("foreign: true\n", foreign_target.read_text(encoding="utf-8"))
+        self.assertEqual(ledger, (root / "data/id-ledger.yaml").read_bytes())
 
 
 if __name__ == "__main__":

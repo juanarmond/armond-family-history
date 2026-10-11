@@ -46,8 +46,11 @@ class DocumentationTests(unittest.TestCase):
         for document in PROJECT_ROOT.rglob("*.md"):
             if ".git" in document.parts or ".venv" in document.parts:
                 continue
-            # skip gitignored retrieval-agent working area (overwritten on re-sync)
-            if "from-retrieval" in document.parts:
+            # skip gitignored areas: the retrieval drop and its pinned intake snapshots
+            # (overwritten on re-sync), and the private repository's clone
+            if "from-retrieval" in document.parts or ".intake" in document.parts:
+                continue
+            if document.relative_to(PROJECT_ROOT).parts[0] == "private":
                 continue
             for target in MARKDOWN_LINK.findall(
                 document.read_text(encoding="utf-8")

@@ -148,6 +148,9 @@
             "type": "string",
             "minLength": 1
           }
+        },
+        "transfer": {
+          "$ref": "#/$defs/transfer"
         }
       },
       "allOf": [
@@ -184,6 +187,58 @@
           }
         }
       ]
+    },
+    "transfer": {
+      "type": "object",
+      "description": "Provenance of an owner-authorised evidence transfer from a producer workspace; producer_sha256 must equal one of the document's files[].sha256.",
+      "additionalProperties": false,
+      "required": [
+        "producer_path",
+        "producer_sha256",
+        "handoff_digest",
+        "resolution",
+        "authorisation",
+        "transferred_at"
+      ],
+      "properties": {
+        "producer_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "producer_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "handoff_digest": {
+          "oneOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "resolution": {
+          "type": "string",
+          "enum": [
+            "max-res",
+            "reduced-res",
+            "cropped-reproduction",
+            "unknown"
+          ]
+        },
+        "authorisation": {
+          "type": "string",
+          "minLength": 3
+        },
+        "transferred_at": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        }
+      }
     },
     "file": {
       "type": "object",

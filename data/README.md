@@ -121,12 +121,70 @@ python3 scripts/new_entity.py promote P-0001 CIV-0001
 
 The command validates a staged prospective repository before touching live
 data. Live promotion uses a recoverable transaction and rolls back on failure.
-If the process is forcibly interrupted and leaves
-`.entity-promotion-transaction/`, run:
+
+A batch that also edits live files — the back-references a new entity needs, an
+inventory entry — or files evidence is a **change set**, applied as one
+transaction:
+
+```console
+python3 scripts/new_entity.py apply research/change-sets/example.yaml --dry-run
+python3 scripts/new_entity.py apply research/change-sets/example.yaml
+```
+
+```yaml
+id: free-text label
+promote: [P-0201, F-0101]          # reserved drafts in research/entity-drafts/
+replace:
+  - path: data/people/P-0007.yaml  # must already exist under data/ (not the ID ledger)
+    base_sha256: <sha256 of the live file the replacement was written against>
+    content_from: <file holding the full new content; relative to the change set>
+evidence:
+  - from: <absolute path of the source file>
+    sha256: <expected sha256>
+    to: evidence/<category>/<filename>   # must be under evidence/ and not exist
+    authorisation: <owner authorisation reference>
+```
+
+`apply` checks the change set's shape, then runs these stages; each failure names
+its stage. **lock**; **live pre-check** (the live repository must validate);
+**resolve** (drafts reserved and present, targets absent; each `base_sha256`
+equals the live file, else *stale replacement*; evidence matches its `sha256`,
+its hash is not already held by the inventory or a source/FAN file, and it
+carries an authorisation); **stage** and **validate staged** (a staging copy
+with every change applied must have no errors and no warning the live
+repository lacks); **journal**; **apply**; **post-commit validation**; then
+commit. A change set that is already fully applied reports *already applied;
+nothing to do* and exits 0.
+
+Evidence transfer runs only for evidence the owner has authorised for that
+task, and the `authorisation` field must name the authorisation. Record the
+transfer's provenance on the inventory entry with the optional `transfer`
+block, whose `producer_sha256` must equal one of the entry's
+`files[].sha256`. The tool is tested on synthetic fixtures only; nothing is
+promoted until an authorised change set is applied.
+
+Every command that reads or writes the ledger or live data (`reserve`,
+`materialize`, `promote`, `apply`, `recover`) holds the exclusive lock
+`.entity-transaction.lock` (holder pid and timestamp) at the repository root.
+While another transaction is running, a second command refuses to start. If
+the holder died, commands refuse with instructions; the lock is never taken
+over automatically.
+
+Before writing, the transaction journals the original bytes of every replaced
+file, the ledger and every draft it will remove in
+`.entity-promotion-transaction/`, and records each path it creates as it
+creates it. Rollback restores those bytes exactly and deletes only the paths
+the transaction recorded creating, never a path that existed before. If a
+process is interrupted and leaves the journal (and possibly a stale lock),
+run:
 
 ```console
 python3 scripts/new_entity.py recover
 ```
+
+`recover` finalises a transaction that reached its committed marker and rolls
+back any other. It may run under a lock left by a dead process; afterwards,
+remove that lock by hand.
 
 Source evidence policy is defined in `research/README.md`; this file defines only
 storage and identifier mechanics.
