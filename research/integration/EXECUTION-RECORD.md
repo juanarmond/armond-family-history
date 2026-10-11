@@ -19,6 +19,16 @@ record content, no secrets.
 - **Living-person classification:** exactly P-0001, P-0002 and P-0003; everyone else in the tree is deceased.
   Canonical rules: `research/README.md`, "Living people and private material".
 
+## Ending state (2026-10-11)
+
+| Repository | Ending HEAD | Visibility | Notes |
+| --- | --- | --- | --- |
+| `armond-family-history` | `b8be0a5` (`main`) | public | commits `5272303`, `6b0e505`, `95ebcae`, `b8be0a5`; deployed; no notification sent |
+| `armond-family-history-private` | `2b40417` (`main`) | private | `afb30e4`, `2b40417`; a fresh clone matched the manifest and the local store |
+| `armond-genealogy-retrieval` | `2f4d6db` (`main`) | private | unchanged (O10) |
+
+`make check` passed: 559 entities, 0 errors, 0 warnings, 177 tests. `make privacy-audit` was clean.
+
 ## Starting checkpoints (2026-10-11)
 
 | Repository | Role | Start HEAD | Visibility |
