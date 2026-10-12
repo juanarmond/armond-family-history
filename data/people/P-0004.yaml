@@ -10,6 +10,8 @@ name_variants:
   source_ids:
   - CIV-0002
   - CIV-0008
+  - CIV-0054
+  - CIV-0055
 occupations:
 - value: padeiro
   source_ids:
@@ -241,6 +243,11 @@ profile: >-
   - CIV-0008 — a later certified family birth certificate recording the name form
   "Geraldo Paz Armond" and his wife among the grandparents; living-person details in
   that record are withheld.
+
+  - CIV-0052, CIV-0054, CIV-0055 — his son's own civil birth registration and the two
+  certificates of the son's civil marriage (held privately: they concern a living person).
+  All three name Geraldo as the father, so that parent–child link is now confirmed; it
+  rested before on a later family certificate (CIV-0008).
 
   ## Regional and migration context
 
@@ -488,6 +495,11 @@ profile_pt: >-
   - CIV-0008 — uma certidão de nascimento familiar posterior que registra a forma do
   nome "Geraldo Paz Armond" e sua esposa entre os avós; os detalhes de pessoa viva
   nesse registro são omitidos.
+
+  - CIV-0052, CIV-0054, CIV-0055 — o próprio registro civil de nascimento do filho e as duas
+  certidões do casamento civil do filho (guardados em privado: dizem respeito a uma pessoa
+  viva). Os três nomeiam Geraldo como pai, pelo que essa ligação de pai e filho fica
+  confirmada; antes assentava numa certidão familiar posterior (CIV-0008).
 
   ## Contexto regional e migratório
 

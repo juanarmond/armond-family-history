@@ -14,6 +14,7 @@ name_variants:
     type: source
     source_ids:
       - CIV-0004
+      - CIV-0053
 event_ids:
   - E-0001
   - E-0004
@@ -207,6 +208,11 @@ profile: >-
   family.
 
   - REC-0001 (owner's direct-ancestor roster).
+
+  - CIV-0053 — a granddaughter's civil birth registration (held privately: it concerns a
+  living person) names him as the paternal grandfather, "Deocleciano Muniz", with "dona
+  Luiza Fernandes de Azevedo". Informant-reported (her father declared it); it corroborates
+  Antenor's parentage alongside CIV-0004.
 
   ## Regional and migration context
 
@@ -405,6 +411,11 @@ profile_pt: >-
   nascimento.
 
   - REC-0001 (lista de ancestrais diretos do proprietário).
+
+  - CIV-0053 — o registro civil de nascimento de uma neta (guardado em privado: diz respeito a
+  uma pessoa viva) o nomeia como avô paterno, "Deocleciano Muniz", com "dona Luiza Fernandes
+  de Azevedo". Informação de declarante (o pai dela o declarou); corrobora a filiação de
+  Antenor, a par da CIV-0004.
 
   ## Contexto regional e migratório
 

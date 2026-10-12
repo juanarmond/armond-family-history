@@ -12,11 +12,26 @@ name_variants:
       - CIV-0008
       - CIV-0009
       - CIV-0010
+      - CIV-0054
+  - value: Luís Carlos Igracio Armond
+    type: source
+    source_ids:
+      - CIV-0052
+      - CIV-0055
 event_ids: []
 family_ids:
   - F-0002
   - F-0011
 notes:
+  - text: >-
+      2026-10-12: own civil birth registration (CIV-0052) and both certificates of the civil
+      marriage (CIV-0054, CIV-0055) are held privately; they confirm the parentage. No birth
+      or marriage event is modelled because their dates and places are private.
+    text_pt: >-
+      2026-10-12: o próprio registro civil de nascimento (CIV-0052) e as duas certidões do
+      casamento civil (CIV-0054, CIV-0055) estão guardados em privado; confirmam a filiação.
+      Não se modela evento de nascimento nem de casamento porque as datas e os locais são
+      privados.
   - text: >-
       Ahnentafel position 2. Preserve the spelling Igracio exactly as supplied
       by the repository owner.

@@ -11,6 +11,9 @@ name_variants:
       - REC-0001
       - CIV-0004
       - CIV-0008
+      - CIV-0053
+      - CIV-0054
+      - CIV-0055
 occupations:
   - value: da lavoura
     source_ids:
@@ -261,6 +264,11 @@ profile: >-
 
   - PAR-0003 (1922 baptism of his brother Aristides — documents his parents and the
   Carangola, MG family origin).
+
+  - CIV-0053, CIV-0054, CIV-0055 — his daughter's own civil birth registration, which he
+  declared himself ("Foi declarante: o próprio pai"), and the two certificates of her civil
+  marriage (held privately: they concern a living person). All three name him as the father,
+  so that parent–child link is now confirmed; it rested before on CIV-0008.
 
   ## Regional and migration context
 
@@ -515,6 +523,11 @@ profile_pt: >-
 
   - PAR-0003 (batismo de 1922 de seu irmão Aristides — documenta seus pais e a origem
   familiar em Carangola, MG).
+
+  - CIV-0053, CIV-0054, CIV-0055 — o próprio registro civil de nascimento da filha, que ele
+  mesmo declarou ("Foi declarante: o próprio pai"), e as duas certidões do casamento civil
+  dela (guardados em privado: dizem respeito a uma pessoa viva). Os três o nomeiam como pai,
+  pelo que essa ligação de pai e filha fica confirmada; antes assentava na CIV-0008.
 
   ## Contexto regional e migratório
 

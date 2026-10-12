@@ -13,6 +13,7 @@ children:
     status: strong-evidence
     source_ids:
     - CIV-0003
+    - CIV-0052
     notes:
     - text: >-
         Geraldo's 1952 marriage certificate (CIV-0002) is deliberately NOT cited
@@ -29,6 +30,7 @@ children:
     source_ids:
     - CIV-0002
     - CIV-0003
+    - CIV-0052
     notes:
     - text: >-
         Geraldo's 1952 marriage certificate (CIV-0002) names his mother as "Dona

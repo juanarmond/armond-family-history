@@ -14,6 +14,11 @@ name_variants:
     type: source
     source_ids:
       - CIV-0002
+  - value: Antonio Igracio
+    type: source
+    source_ids:
+      - CIV-0052
+    note: "First letter of the surname faint on a damaged grandchild's birth certificate."
 occupations:
   - value: negociante
     source_ids:
@@ -238,6 +243,11 @@ profile: >-
 
   - REC-0001 (owner's family roster — anchored this ancestor; secondary, [LEAD]).
 
+  - CIV-0052 — a grandson's civil birth registration (held privately: it concerns a living
+  person) names him as the maternal grandfather in the form "Antonio [I]gracio" — the
+  Igracio spelling his descendants used. Informant-reported; it corroborates Cidalia's
+  parentage, already confirmed.
+
   ## Regional and migration context
 
   His life traces the classic Zona da Mata Mineira → Rio de Janeiro path: born and rooted
@@ -455,6 +465,11 @@ profile_pt: >-
   Antonio Engracio Filho", cinco filhos sobreviventes).
 
   - REC-0001 (lista familiar do proprietário — fixou este ancestral; secundária, [LEAD]).
+
+  - CIV-0052 — o registro civil de nascimento de um neto (guardado em privado: diz respeito a
+  uma pessoa viva) o nomeia como avô materno na forma "Antonio [I]gracio" — a grafia Igracio
+  que os descendentes usaram. Informação de declarante; corrobora a filiação de Cidalia, já
+  confirmada.
 
   ## Contexto regional e migratório
 

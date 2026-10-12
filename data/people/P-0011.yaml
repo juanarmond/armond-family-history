@@ -15,6 +15,11 @@ name_variants:
     type: source
     source_ids:
       - CIV-0007
+  - value: Maria Aurora Igracia
+    type: source
+    source_ids:
+      - CIV-0052
+    note: "\"Aurora\" partly under old tape on a grandchild's birth certificate."
 event_ids:
   - E-0007
   - E-0025
@@ -239,6 +244,10 @@ profile: >-
 
   - REC-0001 (owner's family roster — anchored this ancestor; secondary, [LEAD]).
 
+  - CIV-0052 — a grandson's civil birth registration (held privately: it concerns a living
+  person) names her as the maternal grandmother, "dona Maria A[ur]ora Igracia" (partly under
+  old tape). Informant-reported; it corroborates Cidalia's parentage, already confirmed.
+
   ## Regional and migration context
 
   Her life traces the Zona da Mata Mineira → Rio de Janeiro path: born in 1904 into the
@@ -446,6 +455,10 @@ profile_pt: >-
   de filiação).
 
   - REC-0001 (lista familiar do proprietário — fixou esta ancestral; secundária, [LEAD]).
+
+  - CIV-0052 — o registro civil de nascimento de um neto (guardado em privado: diz respeito a
+  uma pessoa viva) a nomeia como avó materna, "dona Maria A[ur]ora Igracia" (em parte sob
+  fita antiga). Informação de declarante; corrobora a filiação de Cidalia, já confirmada.
 
   ## Contexto regional e migratório
 

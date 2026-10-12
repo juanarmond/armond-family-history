@@ -15,16 +15,38 @@ children:
   parent_relationships:
   - parent_id: P-0006
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - CIV-0008
-    notes: []
+    - CIV-0053
+    - CIV-0054
+    - CIV-0055
+    notes:
+    - text: >-
+        Confirmed 2026-10-12: the child's own civil birth registration and both certificates
+        of the child's civil marriage name this parent (held privately: they concern a
+        living person).
+      text_pt: >-
+        Confirmado em 2026-10-12: o próprio registro civil de nascimento do filho e as duas
+        certidões do seu casamento civil nomeiam este progenitor (guardados em privado:
+        dizem respeito a uma pessoa viva).
   - parent_id: P-0007
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - CIV-0008
-    notes: []
+    - CIV-0053
+    - CIV-0054
+    - CIV-0055
+    notes:
+    - text: >-
+        Confirmed 2026-10-12: the child's own civil birth registration and both certificates
+        of the child's civil marriage name this parent (held privately: they concern a
+        living person).
+      text_pt: >-
+        Confirmado em 2026-10-12: o próprio registro civil de nascimento do filho e as duas
+        certidões do seu casamento civil nomeiam este progenitor (guardados em privado:
+        dizem respeito a uma pessoa viva).
   notes:
   - text: >-
       Juan Carlos Muniz Armond's certified birth certificate reports Antenor

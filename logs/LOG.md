@@ -5,6 +5,18 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-10-12 — The owner's parents' birth and marriage certificates
+
+Owner-supplied and owner-authorised (`logs/2026-10-12-parents-civil-records.md`). Four civil records of the
+living parents (CIV-0052–CIV-0055) are held privately: scans and full records in the private repository,
+citation stubs in public.
+- P-0002's and P-0003's parent links (F-0002, F-0004) move from strong evidence to **confirmed**.
+- Their marriage (F-0011) is confirmed.
+- The grandparent generation is corroborated, keeping its status: informant-reported statements cannot
+  confirm on their own.
+- New name forms are recorded, and the twelve deceased relatives' profiles each gain a cited entry.
+- No living person's date, place or detail is published.
+
 ## 2026-10-11 — Intake-reference refresh; the 1661 baptism's identity stays open
 
 Two authorities, one per kind of change:

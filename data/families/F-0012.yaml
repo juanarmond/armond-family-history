@@ -56,6 +56,7 @@ children:
     source_ids:
     - CIV-0022
     - CIV-0002
+    - CIV-0052
     notes: []
   - parent_id: P-0011
     relationship_type: biological
@@ -63,6 +64,7 @@ children:
     source_ids:
     - CIV-0022
     - CIV-0002
+    - CIV-0052
     notes: []
   notes:
   - text: >-

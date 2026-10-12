@@ -5,6 +5,20 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — the owner's parents' birth and marriage certificates, held privately (2026-10-12)
+
+- CIV-0052–CIV-0055 are four owner-supplied civil records of the living parents:
+  - two birth certificates;
+  - the marriage certificate issued on the day;
+  - a later certified copy of the same marriage entry.
+  Scans, full records and transcriptions are in the private repository; the public stubs are `held_privately`.
+  DOC-0131–DOC-0134 are public-safe inventory entries. Applied as one `new_entity.py apply` change set.
+- P-0002's and P-0003's parent links (F-0002, F-0004) are now **confirmed**, and the couple's marriage (F-0011)
+  is confirmed. The grandparent links gain a citation and keep their status.
+- New name forms: "Luís Carlos Igracio Armond", "Lucinéa Aparecida Muniz", "Lucinéa Aparecida Muniz Armond",
+  "Antonio Igracio", "Maria Aurora Igracia". Twelve deceased relatives' profiles gain a cited entry, in English and
+  Portuguese.
+
 ### Changed — the 1661 Manuel baptism's identity is recorded as open (2026-10-11)
 
 - The intake-reference refresh found no change: the producer's intake text still matches the accepted SHA-256.

@@ -1,0 +1,52 @@
+schema_version: 1
+id: CIV-0055
+title: "Later certified civil marriage certificate of a living couple (P-0002 and P-0003) — held privately"
+title_pt: "Certidão de casamento certificada posterior de um casal vivo (P-0002 e P-0003) — guardada em privado"
+record_type: "Certified civil marriage certificate (later copy)"
+record_category: civil_registration
+source_form: derivative
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+repository:
+  name: Held privately — records concerning living people
+access_date: "2026-10-12"
+language: pt-BR
+abstract: >-
+  A record concerning living people. Under the owner's decision of 11 October 2026 the
+  record, its transcription and its scan are held privately, outside the public repository;
+  this entry keeps only what the family tree needs to cite it.
+abstract_pt: >-
+  Registro relativo a pessoas vivas. Por decisão do proprietário de 11 de outubro de 2026, o
+  registro, a sua transcrição e a sua digitalização são guardados em privado, fora do
+  repositório público; esta entrada mantém apenas o necessário para o citar na árvore.
+reliability:
+  assessment: Assessed in the privately held record.
+digital_file:
+  path: private/evidence/civil/CIV-0055-marriage-certified-copy-original.pdf
+  sha256: 26bfc14fbd9762b8d1e4d435252bf38896368fc9c069fba9793c0c15808f1823
+linked_people:
+  - P-0002
+  - P-0003
+  - P-0004
+  - P-0005
+  - P-0006
+  - P-0007
+linked_families:
+  - F-0011
+  - F-0002
+  - F-0004
+linked_events: []
+linked_places: []
+private: true
+held_privately: true
+withhold_from_site: true
+notes:
+- text: >-
+    Held privately (owner decision, 2026-10-11): owner-supplied on 2026-10-12; the full
+    record is kept in the private store (private/data/sources/), outside this public
+    repository. Only the citation skeleton is tracked here.
+  text_pt: >-
+    Guardado em privado (decisão do proprietário, 2026-10-11): fornecido pelo proprietário a
+    2026-10-12; o registro completo está no arquivo privado (private/data/sources/), fora
+    deste repositório público. Aqui fica apenas o esqueleto da citação.

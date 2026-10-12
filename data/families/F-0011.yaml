@@ -2,9 +2,23 @@ schema_version: 1
 id: F-0011
 partners:
 - person_id: P-0002
-  role: parent
+  role: spouse
 - person_id: P-0003
-  role: parent
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - CIV-0054
+  - CIV-0055
+  notes:
+  - text: >-
+      Their civil marriage is held privately (CIV-0054, the certificate issued on the day;
+      CIV-0055, a later certified copy of the same register entry). No marriage event is
+      modelled because its date and place concern living people.
+    text_pt: >-
+      O casamento civil deles está guardado em privado (CIV-0054, a certidão emitida no
+      próprio dia; CIV-0055, uma cópia certificada posterior do mesmo assento). Não se
+      modela evento de casamento porque a data e o local dizem respeito a pessoas vivas.
 children:
 - person_id: P-0001
   parent_relationships:
@@ -25,6 +39,14 @@ children:
   notes: []
 event_ids: []
 notes:
+- text: >-
+    2026-10-12: the couple's own marriage record is now held, so the partnership is
+    confirmed (see partner_relationship). This supersedes the statement below that this
+    family group does not independently assert a marriage.
+  text_pt: >-
+    2026-10-12: o próprio registro de casamento do casal está agora em mãos, pelo que a
+    parceria fica confirmada (ver partner_relationship). Isto substitui a afirmação abaixo
+    de que este grupo familiar não afirma por si um casamento.
 - text: >-
     This family group records the parents named on Juan Carlos Muniz Armond's
     certified birth certificate (CIV-0008), corroborated by his Ontario

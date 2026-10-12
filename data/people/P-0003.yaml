@@ -12,11 +12,31 @@ name_variants:
       - CIV-0008
       - CIV-0009
       - CIV-0010
+  - value: Lucinéa Aparecida Muniz
+    type: birth
+    source_ids:
+      - CIV-0053
+      - CIV-0054
+      - CIV-0055
+  - value: Lucinéa Aparecida Muniz Armond
+    type: married
+    source_ids:
+      - CIV-0054
+      - CIV-0055
 event_ids: []
 family_ids:
   - F-0004
   - F-0011
 notes:
+  - text: >-
+      2026-10-12: own civil birth registration (CIV-0053) and both certificates of the civil
+      marriage (CIV-0054, CIV-0055) are held privately; they confirm the parentage. No birth
+      or marriage event is modelled because their dates and places are private.
+    text_pt: >-
+      2026-10-12: o próprio registro civil de nascimento (CIV-0053) e as duas certidões do
+      casamento civil (CIV-0054, CIV-0055) estão guardados em privado; confirmam a filiação.
+      Não se modela evento de nascimento nem de casamento porque as datas e os locais são
+      privados.
   - text: >-
       Ahnentafel position 3.
     text_pt: >-

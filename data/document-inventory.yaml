@@ -5852,3 +5852,144 @@ documents:
     since promotion on 2026-10-10. Neither it nor the earlier labels (…manuel-ermonde…,
     …santabarbara…) is identity evidence; whether the baptised Manuel is the "Alferes Manoel
     Machado Ermonde" stays OPEN, and the image is not attributed to him.
+- inventory_id: DOC-0131
+  status: catalogued
+  added_date: '2026-10-12'
+  apparent_record_type: Civil birth certificate (photograph of the family-held original)
+  apparent_people:
+  - P-0002
+  - P-0004
+  - P-0005
+  - P-0008
+  - P-0009
+  - P-0010
+  - P-0011
+  apparent_event: birth
+  image_quality: partly-illegible
+  provenance: Owner-supplied scan of the family-held original, 2026-10-12. Its full
+    provenance is held privately with the record (private/data/document-inventory-private.yaml).
+  rights_status: private-research
+  files:
+  - path: private/evidence/civil/CIV-0052-birth-certificate-photo.jpg
+    sha256: 8f4f957cbe669c5798dab5e8d9b9fd9f99cfc98176425444b220b0e969249f41
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: highest-authorised
+      pixel_width: 1200
+      pixel_height: 1600
+    privacy_review: cleared
+    sensitive_content:
+    - living-person-data
+    - signature
+  duplicate_of: null
+  proposed_source_id: CIV-0052
+  notes:
+  - 'Held privately (owner decision, 2026-10-11): the record concerns a living person;
+    the scan is kept in the private store and is not tracked in this public repository.'
+  - A compressed phone photograph of a damaged original; old tape hides the father's
+    line. A fresh full-resolution photograph would help.
+- inventory_id: DOC-0132
+  status: catalogued
+  added_date: '2026-10-12'
+  apparent_record_type: Civil birth certificate
+  apparent_people:
+  - P-0003
+  - P-0006
+  - P-0007
+  - P-0012
+  - P-0013
+  - P-0014
+  - P-0015
+  apparent_event: birth
+  image_quality: adequate
+  provenance: Owner-supplied scan of the family-held original, 2026-10-12. Its full
+    provenance is held privately with the record (private/data/document-inventory-private.yaml).
+  rights_status: private-research
+  files:
+  - path: private/evidence/civil/CIV-0053-birth-certificate-original.pdf
+    sha256: 409c4a9fe0980d364251088cbd9956faa0b351c1220069e1456e8a8659d5f173
+    media_type: application/pdf
+    role: primary
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: original-file
+    privacy_review: cleared
+    sensitive_content:
+    - living-person-data
+    - signature
+  duplicate_of: null
+  proposed_source_id: CIV-0053
+  notes:
+  - 'Held privately (owner decision, 2026-10-11): the record concerns a living person;
+    the scan is kept in the private store and is not tracked in this public repository.'
+- inventory_id: DOC-0133
+  status: catalogued
+  added_date: '2026-10-12'
+  apparent_record_type: Civil marriage certificate issued on the day of the marriage
+  apparent_people:
+  - P-0002
+  - P-0003
+  - P-0004
+  - P-0005
+  - P-0006
+  - P-0007
+  - two witnesses (not modelled)
+  apparent_event: marriage
+  image_quality: adequate
+  provenance: Owner-supplied scan of the family-held original, 2026-10-12. Its full
+    provenance is held privately with the record (private/data/document-inventory-private.yaml).
+  rights_status: private-research
+  files:
+  - path: private/evidence/civil/CIV-0054-marriage-certificate-original.pdf
+    sha256: 696a4c4bcde0b8e3c47b10da843ae3d1d1b4fbccca428d622282619d604204eb
+    media_type: application/pdf
+    role: primary
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: original-file
+    privacy_review: cleared
+    sensitive_content:
+    - living-person-data
+    - identity-number
+    - address
+    - signature
+  duplicate_of: null
+  proposed_source_id: CIV-0054
+  notes:
+  - 'Held privately (owner decision, 2026-10-11): the record concerns a living person;
+    the scan is kept in the private store and is not tracked in this public repository.'
+- inventory_id: DOC-0134
+  status: catalogued
+  added_date: '2026-10-12'
+  apparent_record_type: Later certified civil marriage certificate
+  apparent_people:
+  - P-0002
+  - P-0003
+  - P-0004
+  - P-0005
+  - P-0006
+  - P-0007
+  apparent_event: marriage
+  image_quality: adequate
+  provenance: Owner-supplied scan of the family-held original, 2026-10-12. Its full
+    provenance is held privately with the record (private/data/document-inventory-private.yaml).
+  rights_status: private-research
+  files:
+  - path: private/evidence/civil/CIV-0055-marriage-certified-copy-original.pdf
+    sha256: 26bfc14fbd9762b8d1e4d435252bf38896368fc9c069fba9793c0c15808f1823
+    media_type: application/pdf
+    role: primary
+    preservation:
+      acquisition_method: owner-supplied
+      resolution_status: original-file
+    privacy_review: cleared
+    sensitive_content:
+    - living-person-data
+    - signature
+  duplicate_of: null
+  proposed_source_id: CIV-0055
+  notes:
+  - 'Held privately (owner decision, 2026-10-11): the record concerns a living person;
+    the scan is kept in the private store and is not tracked in this public repository.'
