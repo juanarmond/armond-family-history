@@ -6,26 +6,28 @@ partners:
 - person_id: P-0039
   role: spouse
 partner_relationship:
-  status: strong-evidence
+  status: confirmed
   source_ids:
   - PRB-0013
   - PRB-0014
   - PAR-0012
   notes:
   - text: >-
-      Strong evidence (2026-10-12): her father's 1890 will names "Thereza, casada com Secundino
-      de Azevedo" (PRB-0013) and his 1898 inventário "D. Thereza de Jesus casada com Secundino
-      de Azevedo" (PRB-0014); their daughter married in 1916 as "filha legitima" (PAR-0012). The
-      marriage entry is not located (before 8 March 1890; probably São João Batista do Laranjal
-      [lead]). Strong, not confirmed, because the will's couple is identified with P-0038 × P-0039
-      by names and district (see F-0070).
+      Confirmed (2026-10-12; upgraded from strong evidence the same day after re-verification
+      on the images): her father's 1890 will names "Thereza, casada com Secundino de Azevedo"
+      (PRB-0013) and his 1898 inventário "D. Thereza de Jesus casada com Secundino de Azevedo"
+      (PRB-0014); their daughter married in 1916 as "filha legitima" (PAR-0012). The marriage
+      entry is not located (before 8 March 1890; probably São João Batista do Laranjal [lead]).
+      The will's couple is P-0038 × P-0039 on the coherent body of primary evidence set out on
+      F-0070.
     text_pt: >-
-      Evidência forte (2026-10-12): o testamento de 1890 do pai dela nomeia "Thereza, casada com
-      Secundino de Azevedo" (PRB-0013) e o inventário de 1898 "D. Thereza de Jesus casada com
-      Secundino de Azevedo" (PRB-0014); a filha casou-se em 1916 como "filha legitima" (PAR-0012).
-      O assento de casamento não foi localizado (antes de 8 de março de 1890; provavelmente São
-      João Batista do Laranjal [pista]). Forte, não confirmada, porque o casal do testamento é
-      identificado com P-0038 × P-0039 por nomes e distrito (ver F-0070).
+      Confirmada (2026-10-12; elevada de evidência forte no mesmo dia após reverificação nas imagens):
+      o testamento de 1890 do pai dela nomeia "Thereza, casada com Secundino de Azevedo" (PRB-0013)
+      e o inventário de 1898 "D. Thereza de Jesus casada com Secundino de Azevedo" (PRB-0014);
+      a filha casou-se em 1916 como "filha legitima" (PAR-0012). O assento de casamento não foi
+      localizado (antes de 8 de março de 1890; provavelmente São João Batista do Laranjal [pista]).
+      O casal do testamento é P-0038 × P-0039 pelo conjunto coerente de evidência primária exposto
+      em F-0070.
 children:
 - person_id: P-0013
   parent_relationships:

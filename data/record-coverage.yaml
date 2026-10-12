@@ -2350,11 +2350,9 @@ people:
     last_reviewed: "2026-10-12"
     notes:
     - text: >-
-        6 May 1864, Pousa (lugar do Souto), Barcelos; born 3 May. Strong identification with P-0039
-        (F-0070).
+        6 May 1864, Pousa (lugar do Souto), Barcelos; born 3 May. Identification with P-0039 confirmed on re-verification, 2026-10-12 (F-0070).
       text_pt: >-
-        6 de maio de 1864, Pousa (lugar do Souto), Barcelos; nascida em 3 de maio. Identificação
-        forte com P-0039 (F-0070).
+        6 de maio de 1864, Pousa (lugar do Souto), Barcelos; nascida em 3 de maio. Identificação com P-0039 confirmada na reverificação, 2026-10-12 (F-0070).
   - record_type: marriage
     status: lead_only
     source_ids: []
@@ -2362,7 +2360,7 @@ people:
     next_action: >-
       Locate her marriage to Secundino de Azevedo: before 8 March 1890 (PRB-0013), in Minas Gerais;
       probably São João Batista do Laranjal (Cataguases), where her father lived in 1885 [lead].
-      It would turn the strong identification into proof and name Secundino's parents.
+      It should name Secundino's parents.
     notes: []
   - record_type: death
     status: lead_only

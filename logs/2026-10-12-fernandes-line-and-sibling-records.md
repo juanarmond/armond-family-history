@@ -104,3 +104,44 @@ where they differed. I re-read two key passages myself: the 1864 baptism entry a
   - the profile-sync size ratios for the new people reflect the producer profiles' verbatim transcriptions, which
     are held in the source records.
 - Regenerated: `updates.json` and `entity-index.json`.
+
+## Addendum (same day): owner-requested re-verification on the images
+
+At the owner's request ("please make sure of these to be really sure"), I re-read every point below myself on the
+original images.
+
+- **Thereza (P-0039) as Manoel João's daughter.** The verified chain:
+  - PAR-0108: Thereza de Jesus, daughter of Manoel João Fernandes, alfaiate, natural of Ucha, and Anna Exposta,
+    born 3 May 1864.
+  - PRB-0013: "Thereza, casada com Secundino de Azevedo", among the five living of nine children.
+  - PRB-0014: "D. Thereza de Jesus casada com Secundino de Azevedo … Todos moradores no Districto do Bom Jesus da
+    Cachoeira Alegre", 1898.
+  - PAR-0012: Luiza, 18, "nascida e baptizada em Bom Jesus de Cachoeira Alegre, filha legitima de Secundino Maria de
+    Azevedo e D. Thereza Fernandes de Azevedo", 1916.
+  - FAN-0018 (context): Secundino de Azevedo is a land neighbour of André Teixeira Crespo, husband of Thereza's
+    sister Maria, at Bom Jesus in 1908.
+
+  These are independent primary records, and they agree with no material conflict. That meets the research/README.md
+  test of a coherent body of primary evidence, so the link is upgraded to **confirmed**: F-0070's parent links,
+  E-0144 and E-0145, and F-0018's partnership. Profiles, notes, the family story and STATUS are reworded to match.
+- **Manoel Fernandes's death.** Confirmed as written:
+  - 1837: "Manoel Fernandes, e Jozefa Maria ja defuntos" (PAR-0116).
+  - 1839, by the same priest: "Padrinhos Manoel Fernandes avo materno" (PAR-0118 image).
+  - 1844, the same Oliveira household: its grandmother is "Jozefa Fernandes" (PAR-0120 image).
+
+  A namesake couple is the probable explanation [inference], but it is not proven. The next step is an Ucha death
+  entry for a Manoel Fernandes in the 1830s–1840s.
+- **"Joanna Maria".** It is clear in both the entry and the margin of PAR-0107. His will's "em primeiras nupcias com
+  D. Anna Maria" and the December 1855 birth of their first child (PAR-0124) leave no room for a second marriage. The
+  name difference is unresolved, so the marriage event stays at strong evidence.
+- **Retrieval-side readings:**
+  - "insustenta-vel" (PRB-0015, fl. 7): most probably right. There is no "o"; the "-stenta-" pair of crossed t's is
+    present; and the sentence's sense requires it. Some letters stay unclear, so it is kept [uncertain].
+  - The original will has "Antonio Cardoso Monteiro e Silva", in the text and the signature, and "Santo Antonio de
+    Itaverava": certain.
+  - The original will has no "Maia" after "Secundino de Azevedo", while the 1898 copy does: certain. That the word came
+    from the witness "Domingos Affonso de A[zevedo / zeredo] Maia" is an inference. The original's surname for that
+    witness may read Azeredo.
+  - José, baptised 1839, has the margin note "faleceo no primeiro d'Abril de 1845". The José who married in July 1868
+    was "de idade de vinte e dous annos" (PAR-0122). So two sons were named José: certain.
+

@@ -55,7 +55,7 @@ _Resume checkpoint refreshed 2026-10-12._ Ordered queue; per-record detail lives
 3. **P-0016 nearer leads (2026-10-10):** the 1905 "natural de Barbacena" moves his baptism search to Barbacena (six
    Simplício baptisms 1840–56 there, none Armond; a stated age decides); the Tombos "Simplicio José Ferreira" is the
    excluded Fonseca candidate; Meia Pataca 1838 has no Armond. Detail: `record-coverage` P-0016 (trunk stays LEAD).
-4. **Azevedo / Fernandes (2026-10-12):** Thereza's family catalogued (F-0070–F-0075; link strong). _Next:_ the
+4. **Azevedo / Fernandes (2026-10-12):** Thereza's family catalogued (F-0070–F-0075; link confirmed). _Next:_ the
    Secundino × Thereza marriage (before 1890, probably Laranjal); Liliosa's Muriaé "Paz" lead excluded (coverage P-0009).
 5. **Other lines:** Vicente's Portuguese parish (CIV-0007) — the São João Batista do Rio Claro
    marriage is microfilmed at FamilySearch (DGS 004632513–515, rolls 1252455/1252454) but

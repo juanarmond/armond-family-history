@@ -5,6 +5,16 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Changed — Thereza's parentage confirmed on re-verification (2026-10-12)
+
+- After re-reading the key records on the images at the owner's request, Thereza's parent links (F-0070), her
+  baptism and birth events (E-0144, E-0145) and the Secundino × Thereza partnership (F-0018) move from strong
+  evidence to **confirmed**. They rest on a coherent body of primary evidence: PAR-0108, PRB-0013, PRB-0014 and
+  PAR-0012.
+- The profiles of P-0013, P-0038, P-0039, P-0139 and P-0140, the family story (English and Portuguese), STATUS and
+  record-coverage are reworded to match.
+- The notes on E-0142 ("Joanna Maria") and P-0143 (the 1839 namesake) record what the images show. Both stay open.
+
 ### Added — Thereza Fernandes de Azevedo's Portuguese family and the sibling records (2026-10-12)
 
 - Retrieval cycle 2026-10-12, owner-authorised: 95 scans became 39 records in one `new_entity.py apply` transaction:

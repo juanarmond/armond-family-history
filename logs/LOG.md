@@ -17,6 +17,9 @@ PRB-0013–PRB-0016, FAN-0018 and CIV-0056–CIV-0059.
   The Leonidia lead is withdrawn.
 - Liliosa: the 1897 Muriaé "Paz" inventário is ruled out. It belongs to D. Olympia de Souza Paz, and Liliosa is not
   among her heirs.
+- Same day, after re-verification on the images at the owner's request: Thereza's link to her father is upgraded
+  to **confirmed**, as a coherent body of primary evidence (PAR-0108, PRB-0013, PRB-0014, PAR-0012). The 1839 namesake
+  conflict and the "Joanna Maria" name stay open.
 
 ## 2026-10-12 — The owner's parents' birth and marriage certificates
 

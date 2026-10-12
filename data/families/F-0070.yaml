@@ -28,39 +28,51 @@ children:
   parent_relationships:
   - parent_id: P-0139
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PAR-0108
     - PRB-0013
     - PRB-0014
+    - PAR-0012
     notes:
     - text: >-
-        Strong evidence, not confirmed. Her father's 1890 will lists "Thereza, casada com Secundino
-        de Azevedo" among his five living children (PRB-0013), and his 1898 inventário names "D.
+        Confirmed (upgraded from strong evidence on 2026-10-12, after every link below was re-read
+        on the original images). Her father's 1890 will lists "Thereza, casada com Secundino de
+        Azevedo" among his five living children (PRB-0013), and his 1898 inventário names "D.
         Thereza de Jesus casada com Secundino de Azevedo" among the heirs at Bom Jesus da Cachoeira
         Alegre (PRB-0014); the 1864 Pousa baptism of Thereza de Jesus, daughter of Manoel João
         Fernandes and Anna Exposta, is the same child (PAR-0108; the will's five survivors match
         the Pousa registers exactly). The step from that Thereza to P-0039, Thereza Fernandes
         de Azevedo, rests on the same given name, a husband Secundino de Azevedo (P-0038), and
-        the same district — her daughter Luiza was born at Bom Jesus (CIV-0001) — not on a record
-        naming both forms together.
+        the same district — her daughter Luiza, "filha legitima de Secundino Maria de Azevedo
+        e D. Thereza Fernandes de Azevedo", was born and baptised at Bom Jesus de Cachoeira Alegre
+        about 1898 (PAR-0012, CIV-0001), where the will's couple were heirs in November 1898 (PRB-0014).
+        No record names both forms of her together, but these independent primary records agree
+        with no material conflict — a coherent body of primary evidence under research/README.md
+        — so the link is confirmed.
       text_pt: >-
-        Evidência forte, não confirmada. O testamento de 1890 do pai lista "Thereza, casada com
+        Confirmada (elevada de evidência forte em 2026-10-12, depois de cada elo abaixo ter sido
+        relido nas imagens originais). O testamento de 1890 do pai lista "Thereza, casada com
         Secundino de Azevedo" entre os cinco filhos vivos (PRB-0013), e o inventário de 1898 nomeia
         "D. Thereza de Jesus casada com Secundino de Azevedo" entre os herdeiros de Bom Jesus
         da Cachoeira Alegre (PRB-0014); o batismo de 1864, em Pousa, de Thereza de Jesus, filha
         de Manoel João Fernandes e Anna Exposta, é a mesma criança (PAR-0108; os cinco sobreviventes
         do testamento coincidem exatamente com os livros de Pousa). O passo dessa Thereza a P-0039,
         Thereza Fernandes de Azevedo, apoia-se no mesmo prenome, num marido Secundino de Azevedo
-        (P-0038) e no mesmo distrito — a filha Luiza nasceu em Bom Jesus (CIV-0001) —, e não num
-        registro que traga as duas formas juntas.
+        (P-0038) e no mesmo distrito — a filha Luiza, "filha legitima de Secundino Maria de Azevedo
+        e D. Thereza Fernandes de Azevedo", nasceu e foi batizada em Bom Jesus de Cachoeira Alegre
+        por volta de 1898 (PAR-0012, CIV-0001), onde o casal do testamento era herdeiro em novembro
+        de 1898 (PRB-0014). Nenhum registro traz as duas formas do nome juntas, mas esses registros
+        primários independentes concordam sem conflito material — um conjunto coerente de evidência
+        primária segundo research/README.md —, de modo que o vínculo está confirmado.
   - parent_id: P-0140
     relationship_type: biological
-    status: strong-evidence
+    status: confirmed
     source_ids:
     - PAR-0108
     - PRB-0013
     - PRB-0014
+    - PAR-0012
     notes:
     - text: As for the paternal link.
       text_pt: Como para o vínculo paterno.
