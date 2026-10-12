@@ -29,8 +29,11 @@ public-safe entries DOC-0131–DOC-0134; the full detail is in the private inven
 - **Confirmed (were strong-evidence):**
   - P-0002's parents, P-0004 and P-0005 (F-0002);
   - P-0003's parents, P-0006 and P-0007 (F-0004).
-  The children's own birth registrations, declared by the fathers, and both marriage certificates name the
-  parents directly. The links rested before on the grandchild's certificate (CIV-0008).
+  Both marriage certificates name all four parents in full. The children's own birth registrations, declared
+  by the fathers, name both of P-0003's parents and P-0002's mother legibly. On P-0002's certificate the
+  father's line lies partly under old tape; the owner, who holds the original, reads it as Geraldo. The father
+  link is confirmed on that basis, by owner decision. The links rested before on the grandchild's
+  certificate (CIV-0008).
 - **Confirmed (new):** the partnership of P-0002 and P-0003 (F-0011, now spouses), from their own marriage
   certificates.
 - **Corroborated, unchanged:** the grandparent generation, named on each birth registration by the declaring
@@ -43,7 +46,7 @@ public-safe entries DOC-0131–DOC-0134; the full detail is in the private inven
   status and gain a citation.
 - **Name forms recorded:**
   - "Luís Carlos Igracio Armond", "Lucinéa Aparecida Muniz" and "Lucinéa Aparecida Muniz Armond";
-  - "Antonio [I]gracio" and "Maria A[ur]ora Igracia";
+  - "Antonio [I]gracio" and "Maria A[ur]ora Igracia" (recorded with their uncertain letters);
   - the existing "Deocleciano Muniz" and "Selina Bohrer";
   - "Liliosa Pa[es?] Armond" on CIV-0052 is too uncertain to record as a variant.
 - **Profiles:** the twelve deceased relatives each gain one cited entry (English and Portuguese) that names the

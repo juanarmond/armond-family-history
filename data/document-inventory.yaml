@@ -5876,7 +5876,7 @@ documents:
     role: primary
     preservation:
       acquisition_method: owner-supplied
-      resolution_status: highest-authorised
+      resolution_status: original-file
       pixel_width: 1200
       pixel_height: 1600
     privacy_review: cleared
@@ -5888,8 +5888,8 @@ documents:
   notes:
   - 'Held privately (owner decision, 2026-10-11): the record concerns a living person;
     the scan is kept in the private store and is not tracked in this public repository.'
-  - A compressed phone photograph of a damaged original; old tape hides the father's
-    line. A fresh full-resolution photograph would help.
+  - A phone photograph of the family-held original, kept exactly as sent; old tape
+    crosses the folds.
 - inventory_id: DOC-0132
   status: catalogued
   added_date: '2026-10-12'

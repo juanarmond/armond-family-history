@@ -13,8 +13,9 @@ name_variants:
       - CIV-0009
       - CIV-0010
       - CIV-0054
+      - CIV-0055
   - value: Luís Carlos Igracio Armond
-    type: source
+    type: birth
     source_ids:
       - CIV-0052
       - CIV-0055
