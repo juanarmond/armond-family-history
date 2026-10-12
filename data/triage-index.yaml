@@ -65,6 +65,16 @@ entries:
   - PAR-0056
   decided: '2026-09-09'
   source: ledger-migration-2026-10-11
+- sha256: 021ef0c426c5c0f1a7f9a42fe443780683b118a9a4d6a3ceac87084450ca4b65
+  size: 1074797
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-anna-filha-bento-fernandes-baptism-1830-ucha.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0114
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 025212b5c030e32d5bbc1cbce737d472e27f35f55ed8d0ea54b85b441fac2ce3
   size: 836052
   media_type: image/jpeg
@@ -128,6 +138,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: 0370164fd12d226bd081bc7fe4b258ef34934bb4b91c815a047248cdd74278dd
+  size: 920529
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-joao-filho-manoel-joao-baptism-1855-pousa.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0124
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 0387eee918ebb25cd8db83e3a8701762466002d2a7149f0802869ec3dc92df63
   size: 337231
   media_type: image/jpeg
@@ -223,6 +243,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: 067adcdcd3cd6250f760a60883b072d0d6c4bbc6b863bae2c9f62684b12aaa8d
+  size: 804196
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-partilha-1885-cataguases-p12.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0016
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 0791647172837a9817339a69cb8675e2a39cda4b56c057843e48e813a21df19f
   size: 895707
   media_type: image/jpeg
@@ -526,6 +556,26 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: 0f27483f950a96c37333b49b52af00130531208b86c3e4544053246f5cc9d8bf
+  size: 823488
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-maria-de-jesus-filha-manoel-joao-baptism-1858-pousa.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0125
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
+- sha256: 0f38b7a0dcde52fad2be3a56afdd1b60596a4753a4e95761456dab16309be92c
+  size: 1041255
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-joao-jose-filho-bento-jose-fernandes-baptism-1829-ucha-p2.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0113
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 0f4b4454f01de7e52beb171f6795cc34975ae87945f92834f5f435571334fe3f
   size: 8115401
   media_type: image/jpeg
@@ -538,11 +588,12 @@ entries:
   size: 1562969
   media_type: image/jpeg
   producer_path: evidence/images/rec-muniz-aristides-marriage-cert.jpg
-  disposition: reviewed
+  disposition: promoted
   target_ids:
-  - PAR-0003
-  decided: '2026-08-10'
-  source: ledger-migration-2026-10-11
+  - CIV-0058
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 1113864bead1e5a49ea616f35266e7b0e80d2dffd6c07d165de9c782faf3c8fb
   size: 483486
   media_type: image/jpeg
@@ -594,6 +645,16 @@ entries:
   target_ids: []
   decided: null
   source: ledger-migration-2026-10-11
+- sha256: 1372ab78a964df78bccca9757fb9d4d317326072c572c8c92841c317c4bf6d2b
+  size: 829262
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-testamento-1885-cataguases-p1.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0015
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 1386efe073abe06fa0589554effebe7a57757de469e8cc5adb6b4eb5d348ad08
   size: 1448563
   media_type: image/jpeg
@@ -630,6 +691,16 @@ entries:
   - PAR-0008
   decided: null
   source: ledger-migration-2026-10-11
+- sha256: 1484271d1d33b358fd8e8e1a6e6980071041c24fe3eeba38955c63d363d571f0
+  size: 1152237
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-francisco-filho-bento-fernandes-baptism-1837-ucha-p1.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0116
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 149cabf98d9213be41183d069522b2bcd9390b5ab75c0c8ecb4f50373aeb2deb
   size: 218149
   media_type: image/jpeg
@@ -665,6 +736,16 @@ entries:
   - PAR-0075
   decided: '2026-09-10'
   source: ledger-migration-2026-10-11
+- sha256: 16048cb9aec27070d22fac6cbb8374e99ba0104fc16e403a2d5b3b32ec50f53b
+  size: 1303039
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-jose-filho-bento-jose-fernandes-baptism-1839-ucha.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0118
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 167f18dc222744f42eaa4964a42f61540015ec8cd1a0f79eee2746be06ea091d
   size: 412355
   media_type: image/jpeg
@@ -819,6 +900,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: 1b6236a998d6c47a92e6aeeae6b74bec633e7f0380888b7837ba9727088d4867
+  size: 1078025
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-bento-jose-filho-manoel-fernandes-baptism-1807-ucha-p1.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0109
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 1c3e64cf896d5f49a971a73058af77a71434fd1086ae1f4a59e9c8d8863830d1
   size: 1379634
   media_type: application/pdf
@@ -861,6 +952,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: 1ddb6277f43f526925ac11b66726c852ee48613cbfe25e84326a3ef99df7cb44
+  size: 1819480
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-armond-silverio-antunes-barroso-filho-marfiza-death-1950-itaperuna.jpg
+  disposition: promoted
+  target_ids:
+  - CIV-0056
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 1e0216fdfc4675dc6e82926cbeaa3426ff455159bb58bd4d12d43e9c75893eb0
   size: 2117842
   media_type: image/jpeg
@@ -921,6 +1022,16 @@ entries:
   target_ids: []
   decided: '2026-09-23'
   source: ledger-migration-2026-10-11
+- sha256: 1fba883ca611cb61a327393a8b47aca395eee4a71f17047bee11faa132bd4df1
+  size: 687716
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-testamento-1885-cataguases-p2.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0015
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 1fc33df6cce505bcad3290b85cbf584c79f1406508e5d3be39eae840f9a9fac9
   size: 38946
   media_type: image/jpeg
@@ -1095,6 +1206,16 @@ entries:
   - PAR-0061
   decided: null
   source: holdings-backfill-2026-10-11
+- sha256: 24152254e863089d3a5b01e34978678217d4b4db9fd002877e425706c7eaa3e5
+  size: 699759
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-partilha-1885-cataguases-p7.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0016
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 241d1d86cb1ff7cc90755ef0b4e3561970c6c83b364d1820fe687a918eb1ce55
   size: 732847
   media_type: image/jpeg
@@ -1183,6 +1304,26 @@ entries:
   - PAR-0086
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: 26ba4137f063575c6f0ee9d1d10aa0ef88c11d527fed062c6a339d746fad0751
+  size: 775931
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-testamento-1898-muriae-p5.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0013
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
+- sha256: 2710c6c97dc17bd6dcdf69b1d0d15aae6ef076ae49b48370cf2b576aa851532b
+  size: 707263
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-joao-e-jose-filhos-bento-fernandes-marriages-1868-ucha-p1.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0122
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 281b1c7a7dfbbbde1fa14599d421725a69b7adaf6be364f18f7cb4a055ce316d
   size: 795007
   media_type: image/jpeg
@@ -1227,6 +1368,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: 284adb5875c223b586169a61c71010e4fc4b12fb93f4e82b2540b880f1e86b86
+  size: 746477
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-testamento-1898-muriae-p4.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0013
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 285d4f8184fc1e9ef8e4faada121e949f3dad1ff167d9fb918c6d4fed7d80b93
   size: 870923
   media_type: image/jpeg
@@ -1288,6 +1439,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: 2a4e8a5c550794f1c0aaadba7b8a08553f6f284d09a8cfe54a76f5f427956873
+  size: 526812
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-inventario-1898-muriae-p11.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0014
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 2a61fd08fa9c208a3ceaad75841502163e5c25c9c6a7f39c2d45433f700bb00b
   size: 615619
   media_type: image/jpeg
@@ -1313,6 +1474,16 @@ entries:
   - PRB-0006
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: 2c9f89e63a9a6ef8280cd80919c1512f4a1b5136d90204973431ee6187869273
+  size: 714406
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-joao-e-jose-filhos-bento-fernandes-marriages-1868-ucha-p2.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0122
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 2cea150a9f629fe3f20685194f778850a0e0e4a793b1b95f64d48f0fbd4af523
   size: 620495
   media_type: image/jpeg
@@ -1338,6 +1509,16 @@ entries:
   - PRB-0006
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: 2d476f5869b39b6546d7e2c1dcd641a3b2127b06e37f7b7fde4597bd9e8a645d
+  size: 741855
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-inventario-1898-muriae-p6.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0014
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 2d5822cae4d255efbd02e5f7e172208f891c2a25dbefa42ad03943213f0f0a21
   size: 924349
   media_type: image/jpeg
@@ -1364,6 +1545,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: 2d7351f23c430e4e8b187d53f558c55ba99dabadab54c6a0e18829b3fdfd78f0
+  size: 1238056
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-francisco-filho-bento-fernandes-baptism-1837-ucha-p2.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0116
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 2d9cf5706b7b498dc99fea90eac79ff784e9deded9a2f1fc5741d1262f5fbb1f
   size: 1208602
   media_type: image/jpeg
@@ -1373,6 +1564,16 @@ entries:
   - FAN-0016
   decided: '2026-10-10'
   source: ledger-migration-2026-10-11
+- sha256: 2da6a4b175a43bae51213fdf37f59cabe7d0d60663aaff0d03abe6441217efd4
+  size: 496350
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-testamento-1885-cataguases-p8.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0015
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 2df238fc541f12fc29b40289ad907fda395345af18961dc1b14c4f98d9e2f63f
   size: 783328
   media_type: image/jpeg
@@ -1415,6 +1616,16 @@ entries:
   - GOV-0011
   decided: null
   source: ledger-migration-2026-10-11
+- sha256: 2f9cc0f7be2a87958ba072141e97fb1991b639c4ef77f9b1f6aa280cd1d7ceba
+  size: 770745
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-inventario-1898-muriae-p12.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0014
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 2fa8e3ddf24cb7333a63c9d14872721c35697be7d5a071748ec58c58eb73e9bd
   size: 417961
   media_type: image/jpeg
@@ -1509,6 +1720,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: 33bc22a94be86858e680ef4a2c41d1d0e1e0159b399f5f9cdc006476a255ffdc
+  size: 1025532
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-maria-filha-manoel-joao-fernandes-death-1870-pousa.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0134
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 33d0f70f85ceee52479900ab0e6a3b55cebf79c191f24058424bffda5a6a50b3
   size: 1436966
   media_type: image/jpeg
@@ -1568,6 +1789,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: 35b81a6fc3b32721045295da2d22306784ca7d8b977e53132f652e08df311902
+  size: 657001
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-joao-e-jose-filhos-bento-fernandes-marriages-1868-ucha-p3.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0122
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 36546c23d5ddbfcaebc711fe3d0dfa25744b070dd31521299a11bdfb45d7c86d
   size: 853894
   media_type: image/jpeg
@@ -1654,6 +1885,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: 38897d3c92007367d8dad5fbb702460d1d27433969dfb46c23c834465be9389b
+  size: 1122876
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-maria-filha-manoel-joao-fernandes-baptism-1871-pousa.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0135
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 395852093233b118f520944a3c2d8e2c7b4fe35d8e0ec47873c05dfc691a1c11
   size: 807326
   media_type: image/jpeg
@@ -1698,6 +1939,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: 3ac3642dffd903ed85b847bbe0f2bf511bf355d91b45fe96bd867e3dd20e1331
+  size: 1196012
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-joao-filho-manoel-joao-fernandes-death-1866-pousa.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0129
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 3b08b0f20decb9fa8af24628c191aa9d2aa5aa34a277f3baa999d70232b131ed
   size: 1641824
   media_type: image/jpeg
@@ -1731,6 +1982,16 @@ entries:
   target_ids: []
   decided: '2026-09-23'
   source: ledger-migration-2026-10-11
+- sha256: 3b8ce1b9453d9b9693b9475b776b8820b78b2fb387490aab17c3b91ec62627cc
+  size: 688632
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-testamento-1885-cataguases-p7.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0015
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 3ba412ddf607fb1e888c989e15a13faa7ee081a368bdae0bf963241cfe2f6d94
   size: 2051773
   media_type: image/jpeg
@@ -1850,6 +2111,16 @@ entries:
   - CIV-0045
   decided: null
   source: holdings-backfill-2026-10-11
+- sha256: 3fabb19d650302dd75c3382d33868f9cdf3c923541d510e2e3aea5aad31e47bd
+  size: 789287
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-testamento-1898-muriae-p6.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0013
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 3fc31ee06d69f5523adf2a1f1e58f79cf5a98c98bcca34155209e8c3934e9fbd
   size: 806541
   media_type: image/jpeg
@@ -2007,6 +2278,16 @@ entries:
   - CIV-0038
   decided: null
   source: holdings-backfill-2026-10-11
+- sha256: 444d36a4754965e06e21e042abaa6bd07581d635b62c69b765d62c4e0e7b0895
+  size: 626741
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-inventario-1898-muriae-p14.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0014
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 447ce7f09c7d19749095ca3fd7806f45c47a70eba8a291547982950a5aebaf2d
   size: 788937
   media_type: image/jpeg
@@ -2110,6 +2391,16 @@ entries:
   - GOV-0010
   decided: null
   source: ledger-migration-2026-10-11
+- sha256: 4821b0f71332ee16acf857c8e6a0f8ba3737f9219dde5f5a5c4eace0a8b475e2
+  size: 1198234
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-joao-filho-manoel-joao-fernandes-baptism-1868-pousa-p2.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0131
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 4855193c0fd934f8147374eac381ca2201be983aed875138b140bcc467a7a8f6
   size: 337729
   media_type: image/jpeg
@@ -2183,6 +2474,16 @@ entries:
   - CIV-0017
   decided: '2026-07-31'
   source: ledger-migration-2026-10-11
+- sha256: 4b06d40f57c7bb5549bd4d016d0d77c1529088f92926fe3df3990869f22935a4
+  size: 776116
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-partilha-1885-cataguases-p6.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0016
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 4b0c2e25073a5c5d0a630347b8777aefc0e826d2d65ab3b0498aa6c71a20ac9c
   size: 737999
   media_type: image/jpeg
@@ -2218,6 +2519,16 @@ entries:
   target_ids: []
   decided: '2026-08-10'
   source: ledger-migration-2026-10-11
+- sha256: 4c35b31a8e19ed63dc3c8da406bbc920ff03e16304167f56e5ff8d8060885fca
+  size: 650930
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-testamento-1885-cataguases-p6.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0015
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 4c626a75d8910234801914d0e84b807b027e8637fd72bd2bc8cdcf9d4e79538a
   size: 885286
   media_type: image/jpeg
@@ -2260,6 +2571,16 @@ entries:
   target_ids: []
   decided: '2026-08-10'
   source: ledger-migration-2026-10-11
+- sha256: 4de33dadda0726568fc26d39506ada67b8e48afb23c2ccce9fb7f3b379455d41
+  size: 667933
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-testamento-1898-muriae-p2.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0013
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 4e38ae5092cf50a6cde5861f85063df4968eea7e7a6f793689299c68fa591551
   size: 118550
   media_type: image/jpeg
@@ -2417,6 +2738,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: 518f43b98b72e3fa686d2483ba6200088e6351f174e243ef310640c08914cb5a
+  size: 201276
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-testamento-1898-muriae-p1.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0013
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 51a9755297c78980530f879f7e0872ea655ff48737243f72dec155d84b6fa83a
   size: 8993770
   media_type: image/jpeg
@@ -2442,6 +2773,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: 52685c4ba71cc80f3430d2583f2a36a9c034d25db4cbd730a2fc63305843236a
+  size: 1107773
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-thereza-de-jesus-filha-manoel-joao-fernandes-baptism-1864-pousa-p1.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0108
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 52a593e9e183cf3c9b79d6ecf708f6e74031b923111f0a93c844b2947268300b
   size: 260778
   media_type: image/jpeg
@@ -2474,6 +2815,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: 5488248089bb3cee3daff4b8388223598668dfdc14c5d772170543aebd712a9e
+  size: 154095
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-inventario-1898-muriae-p1.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0014
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 54b1bd2127b54c18118995468eb0efbecf8fc554213a4f6a1545f154e0f640a8
   size: 7652910
   media_type: image/jpeg
@@ -2621,6 +2972,16 @@ entries:
   target_ids: []
   decided: null
   source: ledger-migration-2026-10-11
+- sha256: 5b75e21dff95cc052b2d625a535688c2923607e06058a0cf478c103365cb4cbf
+  size: 681865
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-antonio-joaquim-filho-manoel-joao-fernandes-baptism-1862-pousa.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0127
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 5bab6458ed9972a0c36c17f134116286600399cf9fc07f7b0cdf0534884af970
   size: 1698110
   media_type: image/jpeg
@@ -2698,6 +3059,16 @@ entries:
   - NWS-0002
   decided: '2026-08-10'
   source: ledger-migration-2026-10-11
+- sha256: 5e2dfbe03c7ec359424b95c3ce6ac8b58d31343c7f1b5779e508d14f3c527fc6
+  size: 565291
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-testamento-1885-cataguases-p3.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0015
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 5eb2b2abdaa42a7497bd4faf297a3f1bb5e28fb44bbc28d7cd2b34a203e48d14
   size: 216538
   media_type: image/jpeg
@@ -2732,6 +3103,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: 5f0b4c4c786e440f7a66c785a295979f76dffe7e6fa27c99230a93601dd49e6a
+  size: 750171
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-joaquina-rosa-lopes-procuracao-1885-braga-p3.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0016
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 5f214d9a72407f6072d517151f983270f7f7e729d0d49d5d0a67d9d656dd6788
   size: 535878
   media_type: image/jpeg
@@ -2768,6 +3149,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: 6041adf4249fedf86e8fedec179451974082dd47d951fc54122966ccdba1e850
+  size: 1019168
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-bento-jose-filho-manoel-fernandes-baptism-1807-ucha-p2.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0109
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 6072ad7197efe99972a08c580c604b40bc1ee13c1902a5598b007fb40373577e
   size: 423699
   media_type: image/jpeg
@@ -2863,6 +3254,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: 62b9acaa13d5ecfdc2dfbe1a59d07f5a08e9db9006eccbdf7902c70f43a47bcf
+  size: 640935
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-testamento-1885-cataguases-p9.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0015
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 62da13151fdf9a57397503c5e1243ad900a9133440523fc0cf705ffdee8dab30
   size: 77543
   media_type: image/jpeg
@@ -3017,6 +3418,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: 6873b6f73a015d1fe2402c87a32b89e5242642465695e7cd3d13f21931aeabbc
+  size: 1370257
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-antonio-joaquim-filho-manoel-joao-fernandes-death-1864-pousa.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0128
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 688aacf1ec13444a7d99c64eb71beab1a3ab315a07d59c7dbe7d7212df1db90f
   size: 871306
   media_type: image/jpeg
@@ -3096,6 +3507,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: 69ce96b0ab35738f4b731a036836c50b0377aa2cc528844b5889b8ecb4ed2bb8
+  size: 983118
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-inventario-1898-muriae-p2.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0014
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 6a13c655fade31256d194558a4be839b7334e3f1a55f141144fe3ce82b891c38
   size: 130293
   media_type: image/jpeg
@@ -3202,6 +3623,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: 6ddf807bab36fe2338ac89b7988457976dbc1345f7cd5b2f32630c8995f34d14
+  size: 883905
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-filho-constantino-fernandes-baptism-1771-ucha.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0112
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 6e225f7a07ee492222c6a0d17d45205c1c019b13d3131132af94c3370145cc2b
   size: 894626
   media_type: image/jpeg
@@ -3211,6 +3642,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: 6e489041e91c077d298c71804551a382afd73230f6ae6010696ecb02fdc67d27
+  size: 1370480
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-filho-bento-fernandes-baptism-1835-ucha.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0115
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 6e53177fcd55af0fc57736311e4a5c7831b1c5bbb8ac1e9bfd9b021ab9125db4
   size: 661727
   media_type: image/jpeg
@@ -3342,6 +3783,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: 72e0280910d67641ec7968f75059c769848449938b99f0851dd34cba66cb6785
+  size: 3101385
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-joaquina-rosa-lopes-death-1890-ucha.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0111
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 73110eb593c3b64c731f1f46705bb9778b63da4f4ee7ba8a78eed36898812725
   size: 7094307
   media_type: image/jpeg
@@ -3382,6 +3833,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: 74353718bcdb7d960a6a767667442893e7020acf5e338aff338205c0eda48a40
+  size: 921801
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-filho-bento-fernandes-marriage-1855-ucha.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0107
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 7473175836fae494441b607e49c7d50e07ba1be386f3ce719eb914b9d97e007c
   size: 131938
   media_type: image/jpeg
@@ -3491,6 +3952,16 @@ entries:
   target_ids: []
   decided: '2026-07-31'
   source: ledger-migration-2026-10-11
+- sha256: 799b49895d27b10528dfb30d33d16fda0b497dbacd20465ce129d8e1c714ca8b
+  size: 1982377
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-francisco-filho-bento-fernandes-death-1859-ucha.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0117
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 7a034c9305cdd6785d6aed0548e222ea0fe04f561dbd3ddeede86abd193e36ce
   size: 429659
   media_type: image/jpeg
@@ -3755,6 +4226,16 @@ entries:
   - PRB-0009
   decided: null
   source: ledger-migration-2026-10-11
+- sha256: 81bfa622d5556c6af9d25732f07f847df3649deb3633a9d9a3b64291b991b4a2
+  size: 960755
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-inventario-1898-muriae-p5.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0014
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 82155bbd5cae079715fc2fbb715005bce94279ae3d9c6c7da3700722adcb6868
   size: 719748
   media_type: image/jpeg
@@ -3781,6 +4262,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: 82ec660f7ef9ee52b652dd8e8c0e9b714acaea10cd02c7b6215d7c3efd79f9da
+  size: 706070
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-inventario-1898-muriae-p8.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0014
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 837090371374fd471bcded5134a0a4730c435153116a2368ec5c222b85a4c48e
   size: 821359
   media_type: image/jpeg
@@ -3844,6 +4335,16 @@ entries:
   - PRB-0009
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: 8551fdcb720d5c81c8fdd3ae3db155fb1685b50853bb7dc3d4b84025fd07f822
+  size: 1002867
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-joao-filho-manoel-joao-fernandes-death-1870-pousa.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0132
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 857bce3f260a0400c98b2a70d7b3d9735a0a0f506c644a36ef209f79b96ee5c9
   size: 6257900
   media_type: application/pdf
@@ -3914,6 +4415,16 @@ entries:
   - GOV-0003
   decided: '2026-08-10'
   source: ledger-migration-2026-10-11
+- sha256: 87fb39e5a0c748bbb8e7c639bd9f04378cb793acb35865bf287192e57da135f6
+  size: 855462
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-inventario-1898-muriae-p4.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0014
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 881d85bbffbb83ed934b2045b2c9165d2550fa815b34739e92c514aa24793566
   size: 1138052
   media_type: image/jpeg
@@ -4204,6 +4715,16 @@ entries:
   - PRB-0006
   decided: '2026-08-10'
   source: ledger-migration-2026-10-11
+- sha256: 90454573fb01914460c3285c49d34619d7be249daf8345023269158d73a664fb
+  size: 683409
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-testamento-1898-muriae-p7.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0013
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 906ab48fc035a36cdfd77bfdee7d5e09eb21a16275b7e75c00437026abad5a6a
   size: 733913
   media_type: image/jpeg
@@ -4291,6 +4812,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: 9255dd6fd87581fa719f9eae117bcd718dc0b13ad9253e310fad17ae8b67f24a
+  size: 749243
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-joaquina-rosa-lopes-procuracao-1885-braga-p2.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0016
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 93e22c73aed590bfe701cd97d929b51d304dca038bd92792b7c5eb839b6c1d68
   size: 424198
   media_type: image/jpeg
@@ -4344,6 +4875,26 @@ entries:
   - PRB-0005
   decided: '2026-10-10'
   source: ledger-migration-2026-10-11
+- sha256: 957b8defcc2bfaf2185c0ec287ef0890e423f46d559beda7dee4aa7e5db5af40
+  size: 730978
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-testamento-1898-muriae-p3.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0013
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
+- sha256: 95b1a8dcb4d82770666609dd895067ef97c62176646f509c2fff67061dd8eba6
+  size: 677201
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-partilha-1885-cataguases-p5.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0016
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 967590c50549379f0040259c576ca60203c89c295a31e40083680ffcac1680a9
   size: 18012
   media_type: image/jpeg
@@ -4378,6 +4929,16 @@ entries:
   - PAR-0104
   decided: '2026-10-10'
   source: ledger-migration-2026-10-11
+- sha256: 979c2862ca8a5233e3eb8308469ce8d4faa7bb206e257fed767672228c453195
+  size: 1100090
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-thereza-de-jezus-filha-bento-fernandes-baptism-1841-ucha.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0119
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 980661db42ee83b758f2112b871dcfdf6bcda96a6fd88a20bbcb2fea9ab21f8d
   size: 315564
   media_type: image/jpeg
@@ -4394,6 +4955,16 @@ entries:
   target_ids: []
   decided: null
   source: ledger-migration-2026-10-11
+- sha256: 9845c8692b7499a570dcd9cbca3e2fe0db09069a59dac7b965ab16a68410578e
+  size: 273949
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-partilha-1885-cataguases-p8.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0016
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 989c055da37269c25d8f58214356acd8f5db1dac8154aa137296e010bf055a69
   size: 7401552
   media_type: image/jpeg
@@ -4494,6 +5065,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: 9c3d8c435df7c0101ef0078e8c5b66b0baeb8a0525df829fe0782cfee6e90fa2
+  size: 527681
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-testamento-1885-cataguases-p10.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0015
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: 9cdab34865b68849a22cf78fd0c337c37956a93ad8dfe0253c5f4548009d2a31
   size: 729317
   media_type: image/jpeg
@@ -4676,6 +5257,16 @@ entries:
   target_ids: []
   decided: null
   source: ledger-migration-2026-10-11
+- sha256: a4429dc87b9ad780f0d827588a5db2a998d822a751baa99b642e3cc6b832dc56
+  size: 625067
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-inventario-1898-muriae-p9.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0014
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: a48d8c100ad26c823ced716679896644ead829eb8c6f92b5937431a755459556
   size: 1740517
   media_type: image/jpeg
@@ -4719,6 +5310,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: a510ceddfbee4d5c09a24f08e793c5d601e69808b37ae3bbe6b2a378e4f49975
+  size: 1160085
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-joao-filho-manoel-joao-fernandes-baptism-1868-pousa-p1.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0131
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: a589d67ccdb3fab5809d15a2beda5b0640268f3d3562dad622b3f36f71fb6560
   size: 525894
   media_type: image/jpeg
@@ -4745,6 +5346,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: a62ca8a67ec1f1b3c69527e5186afd9cdcba9a81924329c64b085c7a7a9ca3e7
+  size: 1914178
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-bento-fernandes-death-1860-ucha.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0110
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: a728510ad8f96e724ffa1b8affc1eb9c7858826fb7f7c0b12719aa8a6c8ba24b
   size: 1615395
   media_type: image/jpeg
@@ -5057,6 +5668,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: b3025b1c38cedbd08076532acccad82bd1b103dbdcdab3844900d544d98413b2
+  size: 638721
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-testamento-1884-cachoeira-alegre-p1.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0015
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: b341c422435cc6d8949ea4d6482558a623132117663d4ae30640ad1bec4bcae5
   size: 2139435
   media_type: image/jpeg
@@ -5067,6 +5688,16 @@ entries:
   - PAR-0012
   decided: '2026-07-31'
   source: ledger-migration-2026-10-11
+- sha256: b390b057e2b7e4ce5d8e7c32e787468570b48837dfa510e957a03f9dcc268144
+  size: 833213
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-bento-filho-bento-fernandes-marriage-1866-ucha.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0121
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: b3e9f34cd07b7e3d48b17f9ffe080516d84b31543b206d885130a151caf17b06
   size: 1185028
   media_type: image/jpeg
@@ -5152,6 +5783,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: b5687d844a22353496d2574762b123ded9394d95b1fd9c0773aabeeaf7daad9c
+  size: 818404
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-partilha-1885-cataguases-p9.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0016
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: b58fce9f48ca2b551e376635a77a65d951ea8f0d9851ae1c377b6fe4d41e0f71
   size: 6417736
   media_type: image/jpeg
@@ -5211,6 +5852,16 @@ entries:
   - PRB-0006
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: b70b254e4072a303d530384249afd7f3879308720e4a7ede2c33231121b30178
+  size: 1033014
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-maria-filha-manoel-joao-fernandes-baptism-1870-pousa.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0133
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: b71f29cf6cb5f515c2df1a3b1b07cd2fbd378e875612fe2000d22b31a7037112
   size: 911469
   media_type: image/jpeg
@@ -5310,6 +5961,16 @@ entries:
   - PAR-0019
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: ba3fec7108980b06d68a5a14bc6c17bcf36e3216a1eb52c7713fd90111fd1401
+  size: 776230
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-maria-jose-filha-manoel-joao-fernandes-baptism-1859-pousa-p1.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0126
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: ba5297c3452cee495aa8e029994945f2c57c6550cc3edb229546bc46ddd967a1
   size: 1015424
   media_type: image/jpeg
@@ -5423,6 +6084,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: bc154baf859a19df1b0aab0f1fde38f3fa0232bcede83455181f68c3d0a918b2
+  size: 632431
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-testamento-1885-cataguases-p5.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0015
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: bc3c9c6adf782ec70d16a591ee031dd519350a0f321ca2857595ef1d633e4a96
   size: 929002
   media_type: image/jpeg
@@ -5485,6 +6156,16 @@ entries:
   target_ids: []
   decided: '2026-08-10'
   source: ledger-migration-2026-10-11
+- sha256: bd92f435a0d8ea8085194a591fc92350b2b612a2de7254f86035b9878793eb28
+  size: 702294
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-partilha-1885-cataguases-p3.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0016
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: bdd04b62440fa5c5ab70caacad9222c0b969a09cc22fd16c94405884867ead88
   size: 489922
   media_type: image/jpeg
@@ -5537,6 +6218,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: bf569f783dc0ae3a7a2cb79b9abe4f289b6b16326053798ef0a7c2f0eee4997d
+  size: 780545
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-partilha-1885-cataguases-p10.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0016
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: c008d53d9df00de12327e33d0e765d1c2710f4d4e22114fb906d74b09e82d286
   size: 595807
   media_type: image/jpeg
@@ -5718,10 +6409,12 @@ entries:
   size: 1922110
   media_type: image/jpeg
   producer_path: evidence/images/rec-muniz-rozalina-death-1983.jpg
-  disposition: privacy-excluded
-  target_ids: []
-  decided: '2026-07-30'
-  source: ledger-migration-2026-10-11
+  disposition: promoted
+  target_ids:
+  - CIV-0057
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: c50ef3d35c45027dde53f26daeb236e01346b2828453114f319cb74e59391d4d
   size: 7561258
   media_type: image/png
@@ -5824,6 +6517,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: c8cc43590945496e7ee182eba9db004f22c65039610255df22614c24462e0de2
+  size: 763600
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-partilha-1885-cataguases-p1.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0016
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: c94911946a6e62708c45246fd9ab17bf933b9507d1ec597796e583e329a67db9
   size: 766048
   media_type: image/jpeg
@@ -5832,6 +6535,26 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: c9872b01ba2d0c1657ee7a73a991ed6be72fae08f75cc0a03c85736da0d1794f
+  size: 563573
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-azevedo-secundino-vizinho-inventario-antonio-nunes-dos-santos-1908-muriae-p1.jpg
+  disposition: promoted
+  target_ids:
+  - FAN-0018
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
+- sha256: c99bb234efa643d5d0d5ad982f1683d5fa6652accded8b02c92c458dbe24c5cc
+  size: 693523
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-testamento-1884-cachoeira-alegre-p2.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0015
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: c9f9dc752c20dffa642212d948483bc02d1edcf5443630cf01fafdbc96dd87d0
   size: 155700
   media_type: image/jpeg
@@ -5841,6 +6564,16 @@ entries:
   - PAR-0090
   decided: null
   source: ledger-migration-2026-10-11
+- sha256: ca013aeee1bbd2261f8a632034bb6358d38992b2c741590c57939443f056cc98
+  size: 808978
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-partilha-1885-cataguases-p11.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0016
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: ca58c476c77cfae38f75ab46078fd572b897a799147c5cada9954e85e36a2f00
   size: 681434
   media_type: image/jpeg
@@ -5911,6 +6644,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: ceb02672b0471c12db8aa324e83749e838768b27b8f5cb3767b84f0ba2fd9da5
+  size: 790873
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-inventario-1898-muriae-p13.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0014
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: cebc5324af72ad243b754d3af392bfb05ab3408b2b7d7ac0162968159955ffbe
   size: 433091
   media_type: image/jpeg
@@ -6192,6 +6935,26 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: d8c71f006f84883c27a3ac5c1839c6da02d20924e967637c6ca46157b2e60970
+  size: 885774
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-joaquina-rosa-lopes-procuracao-1885-braga-p1.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0016
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
+- sha256: d8f3d0e88d1a7d61a733d98ed4b273eaebb0dfbe30575c45693089c43143fcc2
+  size: 750553
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-inventario-1898-muriae-p3.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0014
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: d9ac72481faf62ec460c329eb9af7b01a1c90e5c77ee5c148ce6b5d559140160
   size: 82646
   media_type: image/jpeg
@@ -6243,6 +7006,16 @@ entries:
   - PAR-0087
   decided: null
   source: ledger-migration-2026-10-11
+- sha256: dae1e083b06178e851aa11205e5f53f40baffe1d4f0643a29b13a4b41d9d2b2b
+  size: 733298
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-partilha-1885-cataguases-p2.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0016
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: dae3d5b1554ae1795e3a7bae58b4fbb1f0c3230aaa92529a6e2426224e4869de
   size: 360446
   media_type: image/jpeg
@@ -6252,6 +7025,26 @@ entries:
   - PRB-0012
   decided: '2026-10-10'
   source: ledger-migration-2026-10-11
+- sha256: dafb8b605d7bf1777c836ed8730c60b88eac7e7debcb4da156c8f4949afdb235
+  size: 701095
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-testamento-1885-cataguases-p4.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0015
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
+- sha256: db08f47298d2ef7221140b4455fe3e30244b0099d2c6c8804e0e30bf5c510d04
+  size: 813947
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-testamento-1884-cachoeira-alegre-p3.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0015
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: db1a325eace206b9956d3cc956d0329861c0314c489595498e5aa2b298dd1fe9
   size: 135635
   media_type: image/jpeg
@@ -6260,6 +7053,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: db2fa5702981f13d0c0684d400074de83ecf7aa413154f51a48af7ae3673f512
+  size: 1063671
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-joao-jose-filho-bento-jose-fernandes-baptism-1829-ucha-p1.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0113
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: db3185fc5321fbd6d23652e2dacf97fd531f01027f31570cbdbca053a7d016e1
   size: 801492
   media_type: image/jpeg
@@ -6348,6 +7151,16 @@ entries:
   target_ids: []
   decided: null
   source: ledger-migration-2026-10-11
+- sha256: dd13aa3180f7fb2323863c94a5f90b6a426384769b134af566e9c8b768c5154a
+  size: 1251927
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-filho-bento-jose-fernandes-baptism-1833-ucha.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0106
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: dd4762893d9c11678246d36d9c07b6b9d47982eb07273a8d642940c3bed21ba9
   size: 831800
   media_type: image/jpeg
@@ -6462,6 +7275,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: e11244e9e9f860be1e4ec1628bfcce9700ddf25510e6ba9580381847fbadce7f
+  size: 601605
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-testamento-1898-muriae-p8.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0013
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: e13f2bab66864889818f36dbf4763b36159c87e2041801b1417160f3fec8e1f5
   size: 182198
   media_type: image/jpeg
@@ -6497,6 +7320,16 @@ entries:
   - CIV-0023
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: e1ea56019946da9aa25a341e94ced900b26d5403731e94b0ed07dc02277bf4c5
+  size: 1200098
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-joaquim-filho-manoel-joao-fernandes-baptism-1866-pousa.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0130
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: e2209bbbb617d9d0120cd50de97eb4a08a1ad560087ec2230c94c6aada7aa3d2
   size: 1870096
   media_type: image/jpeg
@@ -6671,6 +7504,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: e8318f1c069f6ee11173059e9f77d65b512b01104357f4b7240b027d1ea13b7c
+  size: 707187
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-inventario-1898-muriae-p7.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0014
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: e86b5066897a295571263c6cefa87adf9c86377e12883c5afeb4b24288f547d3
   size: 1424963
   media_type: image/jpeg
@@ -6864,6 +7707,14 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: ee3fb3266e188e1c7dc11814e86f8dc799b56fffd8fc84bbe3c771611150ccbb
+  size: 1217095
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-engracio-houver-son-frank-obito-1973-rj.jpg
+  disposition: reviewed
+  target_ids: []
+  decided: '2026-10-12'
+  source: value-gate-2026-10-12
 - sha256: eea412ea8356abdcb2ebfd3e997164524b41d74d999a095e2f55d8e88130f2e4
   size: 601211
   media_type: application/pdf
@@ -6932,6 +7783,16 @@ entries:
   - CIV-0032
   decided: '2026-09-07'
   source: ledger-migration-2026-10-11
+- sha256: f0a2b9b33502a0fe2e0e4d7d67ab98a3190484c52e0411c2ea70f13453930bc8
+  size: 128892
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-inventario-1898-muriae-p15.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0014
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: f0b21daf5ab334de925d7d80e1a8f81b1f17572e30bb0a3bfd53fdd4fe96a0d7
   size: 1775410
   media_type: image/jpeg
@@ -7061,6 +7922,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: f45a7980477b9ebd599b31f1711d8bed7b48eed58405dca11c19488d861e7ae6
+  size: 1194567
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-bento-filho-bento-fernandes-baptism-1843-ucha.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0120
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: f491766d92de6b49a65e94db3258543ffef7d45ecac58bb5889a50ceab052fb8
   size: 890639
   media_type: image/jpeg
@@ -7162,6 +8033,16 @@ entries:
   - PRB-0008
   decided: '2026-09-02'
   source: ledger-migration-2026-10-11
+- sha256: f925ac32f4a203a7dd09b5177aa779da6f6f8410496163b572caf344040c0477
+  size: 555093
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-partilha-1885-cataguases-p4.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0016
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: f9a3ee6fefd77c919b2f11e564129ddde31663cbe380781c74f4caa75e16a007
   size: 7741223
   media_type: image/jpeg
@@ -7196,6 +8077,16 @@ entries:
   - PAR-0013
   decided: '2026-07-31'
   source: ledger-migration-2026-10-11
+- sha256: fab505e50ac6110f76437078dc5c54d4774efcb6cb7a31387059094c208b29eb
+  size: 512980
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-azevedo-secundino-vizinho-inventario-antonio-nunes-dos-santos-1908-muriae-p2.jpg
+  disposition: promoted
+  target_ids:
+  - FAN-0018
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: fac9868eca2fee6c35b090af0e3499c3324d16ceb7fcf455878b1445b1a561d3
   size: 744666
   media_type: image/jpeg
@@ -7205,6 +8096,16 @@ entries:
   - FAN-0013
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: fb7b7330b94b8d830079af07dad46e3271ea18c6f9b6789feef81be843119881
+  size: 1189776
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-thereza-de-jesus-filha-manoel-joao-fernandes-baptism-1864-pousa-p2.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0108
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: fb995cb4bbb528fda2d970c3475d616828c993dafcc6a04a04fa2bd8308d59e1
   size: 418182
   media_type: image/jpeg
@@ -7263,6 +8164,16 @@ entries:
   - PAR-0034
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: fc9732ac79d206b39aa929e2f35b4c3e6a2472c41ec9a5ae20a9a9c035a66cc0
+  size: 751048
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-maria-jose-filha-manoel-joao-fernandes-baptism-1859-pousa-p2.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0126
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: fcf6f2e01a2c046ada1b9cef24fb1f23b77cfa1ab9485a29d76f7d4dc45f8b1b
   size: 199559
   media_type: image/jpeg
@@ -7309,11 +8220,12 @@ entries:
   size: 1524693
   media_type: image/jpeg
   producer_path: evidence/images/rec-muniz-aristides-death-cert.jpg
-  disposition: reviewed
+  disposition: promoted
   target_ids:
-  - PAR-0003
-  decided: '2026-08-10'
-  source: ledger-migration-2026-10-11
+  - CIV-0059
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: fde747d3119e27b81b474e273a0733067a693303403caae002ddbe095f24ec1b
   size: 7744174
   media_type: image/png
@@ -7374,6 +8286,16 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: fec3b78827f425dd962172394e9ae7915780e06fe0782493afeaee0a0585b851
+  size: 655335
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-inventario-1898-muriae-p10.jpg
+  disposition: promoted
+  target_ids:
+  - PRB-0014
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12
 - sha256: ff0a35489cbf867a06fa8e11d34574251f14f89ba365d78a8278900fb6bd07f3
   size: 3392686
   media_type: image/jpeg
@@ -7407,3 +8329,13 @@ entries:
   target_ids: []
   decided: '2026-08-01'
   source: ledger-migration-2026-10-11
+- sha256: ff911877341fa79ef4c985717ea3b51ad8dba5a8c84b43b56008236d0f1e9327
+  size: 905024
+  media_type: image/jpeg
+  producer_path: evidence/images/rec-fernandes-thereza-de-jesus-filha-bento-fernandes-marriage-1869-ucha.jpg
+  disposition: promoted
+  target_ids:
+  - PAR-0123
+  decided: '2026-10-12'
+  authorisation_ref: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion checklists)'
+  source: value-gate-2026-10-12

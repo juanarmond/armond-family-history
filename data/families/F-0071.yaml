@@ -1,0 +1,127 @@
+schema_version: 1
+id: F-0071
+partners:
+- person_id: P-0141
+  role: spouse
+- person_id: P-0142
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PRB-0016
+  - PAR-0111
+  - PAR-0106
+  notes:
+  - text: >-
+      Confirmed: in her own procuração of 1885 she is "Viuva que ficou de Bento José Fernandes"
+      (PRB-0016), and her death is that of the "viuva de Bento Fernandes" (PAR-0111); their son
+      was baptised "filho legitimo" (PAR-0106). The marriage entry is not in the Ucha book (retrieval-side
+      sweep), and the Pousa marriages of 1755–1859 do not survive.
+    text_pt: >-
+      Confirmado: na própria procuração de 1885 ela é "Viuva que ficou de Bento José Fernandes"
+      (PRB-0016), e o óbito é o da "viuva de Bento Fernandes" (PAR-0111); o filho foi batizado
+      "filho legitimo" (PAR-0106). O assento de casamento não está no livro da Ucha (varredura
+      do lado da recuperação), e os casamentos de Pousa de 1755–1859 não sobreviveram.
+children:
+- person_id: P-0139
+  parent_relationships:
+  - parent_id: P-0141
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0106
+    - PAR-0107
+    - PRB-0016
+    notes: []
+  - parent_id: P-0142
+    relationship_type: biological
+    status: confirmed
+    source_ids:
+    - PAR-0106
+    - PAR-0107
+    - PRB-0016
+    notes: []
+  notes: []
+documented_children:
+- name: João José
+  source_ids:
+  - PAR-0113
+  - PAR-0122
+  - PAR-0124
+  - PAR-0111
+  lifespan: b. 1829
+  note: >-
+    Born 29 April 1829, baptised 1 May (PAR-0113). Probably the "João solteiro thio paterno" godfather
+    of 1855 (PAR-0124), the João Fernandes, 38, who married Maria Villasboas at Ucha on 21 March
+    1868 (PAR-0122), and the "seu filho João" of his mother's 1890 death (PAR-0111) — strong,
+    not proven.
+- name: Anna
+  source_ids:
+  - PAR-0114
+  lifespan: b. 1830
+  note: Born 15 December 1830 at Quintã, baptised 22 December (PAR-0114).
+- name: Domingos José Fernandes
+  source_ids:
+  - PAR-0115
+  - PRB-0015
+  - PRB-0016
+  lifespan: 1835–1885
+  note: >-
+    Born 16 March 1835, baptised 20 March (PAR-0115). Emigrated: his will of 14 April 1884 states
+    "natural do Reino de Portugal Fregezia de S. Romaõ da uxa … Filho legetimo de Bento Jozé Fernandes
+    já Falecido e de Joaquina Roza Lopes" (PRB-0015); he died on 31 January 1885 at São João,
+    freguesia do Laranjal (Cataguases, MG), married to D. Maria de Jesus and childless; the will
+    was annulled on 24 September 1885 for passing over his mother, and the estate was divided
+    between her and the widow (PRB-0015, PRB-0016).
+- name: Francisco
+  source_ids:
+  - PAR-0116
+  - PAR-0117
+  lifespan: 1837–1859
+  note: >-
+    Born 26 March 1837, baptised 29 March (PAR-0116); a tailor, found drowned in the river Cávado
+    on 11 November 1859 and buried on the 13th (PAR-0117).
+- name: José
+  source_ids:
+  - PAR-0118
+  lifespan: 1839–1845
+  note: >-
+    Born 19 February 1839, baptised 20 February (PAR-0118); a margin note records his death on
+    1 April 1845.
+- name: Thereza de Jezus
+  source_ids:
+  - PAR-0119
+  - PAR-0123
+  lifespan: b. 1841
+  note: >-
+    Born 14 August 1841, baptised 18 August (PAR-0119); probably the Thereza de Jesus, 27, daughter
+    of Bento Fernandes and Joaquina Roza, who married Joze Ferreira of Salvador da Lama at Ucha
+    on 27 May 1869 (PAR-0123).
+- name: Bento
+  source_ids:
+  - PAR-0120
+  - PAR-0121
+  lifespan: b. 1843
+  note: >-
+    Born 3 December 1843, baptised 7 December (PAR-0120); the Bento Fernandes, 22, who married
+    Maria da Costa at Ucha on 2 August 1866 (PAR-0121).
+- name: José
+  source_ids:
+  - PAR-0122
+  lifespan: b. c.1846
+  note: >-
+    A second José: the Joze Fernandes, 22, son of Bento Fernandes and Joaquina Roza of Quintão,
+    who married Maria Forte at Ucha on 20 July 1868 (PAR-0122). Born c.1846, after the baptism
+    book held ends (1844); not the José of 1839, who died in 1845.
+event_ids: []
+notes:
+- text: >-
+    Bento José Fernandes and Joaquina Rosa Lopes, of the lugar de Quintã / Quintão, São Romão
+    da Ucha, Barcelos: parents of Manoel João Fernandes da Cruz (P-0139). Their marriage is not
+    located. The lugar is written Quintaã, Quintã, Quintam and Quintão across the records; all
+    are kept.
+  text_pt: >-
+    Bento José Fernandes e Joaquina Rosa Lopes, do lugar de Quintã / Quintão, São Romão da Ucha,
+    Barcelos: pais de Manoel João Fernandes da Cruz (P-0139). O casamento não foi localizado.
+    O lugar aparece como Quintaã, Quintã, Quintam e Quintão nos registros; todas as formas são
+    mantidas.

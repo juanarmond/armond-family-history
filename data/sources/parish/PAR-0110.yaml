@@ -1,0 +1,169 @@
+schema_version: 1
+id: PAR-0110
+title: >-
+  São Romão da Ucha burial register, 1860 Nº 2 — Bento Fernandes, lavrador, aged 60, of the lugar
+  de Quintão, married to Joaquina Maria; died 23 June 1860
+title_pt: >-
+  Registro de óbitos de São Romão da Ucha, 1860 Nº 2 — Bento Fernandes, lavrador, de 60 anos, do
+  lugar de Quintão, casado com Joaquina Maria; falecido em 23 de junho de 1860
+record_type: Parish death and burial register entry (target entry transcribed in full; neighbouring entries summarised)
+record_category: parish_register
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1860-06-23"
+  original_text: >-
+    Aos vinte e tres dias do mez de Junho do anno de mil oito centos e secenta pelas duas horas
+    da tarde
+event_place_text: Lugar de Quintão, parish of São Romão da Ucha, concelho de Barcelos, Braga district, Portugal
+repository:
+  name: FamilySearch (digital images of the parish registers)
+  archive_or_registry: >-
+    Paróquia de São Romão da Ucha, Barcelos — parish registers (the original books are in the
+    custody of the Arquivo Distrital de Braga)
+  collection: São Romão da Ucha, Barcelos — Óbitos 1766–1885, Livro 1 (FamilySearch film 005067776)
+  book: Livro 1 de óbitos de São Romão da Ucha
+  page: >-
+    the page headed "Anno de 1860", the verso following fl. 97 (per the retrieval side, the 1859
+    entry of Francisco, son of Bento Fernandes, is the last on fl. 97); no folio number is
+    written on this page
+  image: FamilySearch film 005067776, image 194 (entry 194 of the retrieval side's ark list)
+  record_number: "1860 Nº 2"
+  catalogue_reference: >-
+    FamilySearch film 005067776, image 194. Located by the retrieval agent's page-by-page sweep
+    of the unindexed Ucha óbitos 1766–1885 (288 images, 2026-10-12) and delivered through the
+    retrieval drop.
+access_date: "2026-10-12"
+language: pt-PT
+transcription: |-
+  [One page of the Ucha death book, headed "Anno de 1860". It holds an abandoned first draft and the full entry Nº 1 (Manoel Luis Campinho), then the target, Nº 2. The edge of the facing page, on the right of the image, shows the margins of Nºs 3 and 4 of 1860 and Nº 1 of 1861. Read from the native image (4130×5096) in strips at 1–1.6× zoom, 2026-10-12. Line breaks are kept as on the page; spelling, capitals and abbreviations are kept as written.]
+
+  [Nº 1 — written twice. A first, unfinished version, with the margin "Manoel Luis / Nº 1 / Dia 27 / Mez Fever.o", stops after a few lines. The full entry follows under a second heading "Anno de 1860": Manoel Luis Campinho, lavrador, aged eighty-seven, married, died on 27 February 1860 at the lugar de Quintão; he received only Extreme Unction because he had fallen into dementia; he made a will and left children; offices of corpo presente of ten and of twenty-one priests [uncertain]; signed by the Abbade Antonio Joze Corr.a. Not this family.]
+
+  [p1 — evidence/parish/PAR-0110-death-bento-fernandes-1860-ucha.jpg; entry 1860 Nº 2 — TARGET]
+  [Margin, left:] Bento Frz [underlined] / Nº 2 / Dia 23 / Mez Junho / Anno 1860
+  [Margin, right:] 1º off.º de / 7 P.es 2º / de des P.es / 3º off.º / de 13 P.es
+                   Bento / Frz
+  Aos vinte e tres dias do mez de Junho do anno de
+  mil oito centos e secenta pelas duas horas da tar-
+  de no lugar de Quintao [no tilde visible] desta freguezia concelho
+  de Barcellos Destricto Eclesiastico de Braga Dio-
+  cese da mesma faleceo Bento Fernandes Labra-
+  dor de edade de secenta annos cazado com Joaqui-
+  na Maria Parochiano desta freguezia recebio
+  todos os Sacramentos. Não fes testamento, Deixou
+  filhos, e no dia vinte, e quatro do supra dito mez, e an-
+  no foi sepultado nesta Egreja, e se lhe fes hum Officio
+  de corpo prezente de sette Padres; E para constar la-
+  vrei em duplicado este assento que asignei, era ut
+  supra
+                    O Abbade Antonio Joze Corr.a [rubric]
+  [Expansions and readings: Frz = Fernandes; off.º = officio (a funeral office); P.es = Padres; "de des P.es" = of ten priests; Labrador = lavrador (farmer); edade = idade; fes = fez; Corr.a = Correia. The right margin records three funeral offices: the first of seven priests (the "Officio de corpo prezente de sette Padres" of the body), a second of ten and a third of thirteen.]
+reading_reliability: complete
+abstract: >-
+  Original death and burial entry Nº 2 of 1860 in the first death book of São Romão da Ucha
+  (Barcelos). Bento Fernandes, "Labrador" (farmer), aged sixty, married to Joaquina Maria, a
+  parishioner, died at two in the afternoon on 23 June 1860 at the lugar de Quintão in Ucha. He
+  received all the sacraments, made no will and left children. He was buried in the parish church
+  on 24 June 1860 with an office of corpo presente of seven priests; the margin adds a second
+  office of ten priests and a third of thirteen. The Abbade Antonio Joze Correia wrote and signed
+  the entry. No parents are named. The deceased is identified with Bento José Fernandes (P-0141),
+  husband of Joaquina Rosa Lopes. The identification is strong, not proven: the name, lugar and
+  occupation fit, but the wife is called "Joaquina Maria", and the age points to a birth about
+  1800.
+abstract_pt: >-
+  Assento original de óbito e sepultura Nº 2 de 1860, no primeiro livro de óbitos de São Romão da
+  Ucha (Barcelos). Bento Fernandes, "Labrador" (lavrador), de sessenta anos, casado com Joaquina
+  Maria, paroquiano, faleceu às duas horas da tarde de 23 de junho de 1860 no lugar de Quintão, na
+  Ucha. Recebeu todos os sacramentos, não fez testamento e deixou filhos. Foi sepultado na igreja
+  paroquial em 24 de junho de 1860, com um ofício de corpo presente de sete padres; a margem
+  acrescenta um segundo ofício de dez padres e um terceiro de treze. O Abade Antonio Joze Correia
+  escreveu e assinou o assento. Não se nomeiam os pais. O falecido é identificado com Bento José
+  Fernandes (P-0141), marido de Joaquina Rosa Lopes. A identificação é forte, não provada: o nome,
+  o lugar e a profissão coincidem, mas a mulher é chamada "Joaquina Maria", e a idade aponta para
+  um nascimento por volta de 1800.
+reliability:
+  assessment: >-
+    Original and direct, written by the parish priest at the burial. It is primary for the death,
+    its date, hour and place, the burial and the funeral offices. The age, occupation, marital
+    status and wife's name are secondary statements, from an unnamed informant; hence mixed.
+    Every word of the entry is legible.
+  informant: >-
+    The Abbade of São Romão da Ucha, Antonio Joze Correia, who wrote and signed the entry; the
+    person who gave him the age and the wife's name is not named.
+  limitations: >-
+    The entry names no parents and no children, so it cannot by itself tie this Bento Fernandes
+    to the Bento José Fernandes of the baptisms. The wife is "Joaquina Maria", not "Joaquina
+    Rosa" or "Lopes". The age of sixty may be a round figure; it points to a birth about 1800,
+    against the 1807 baptism (PAR-0109) that is probably his.
+digital_file:
+  path: evidence/parish/PAR-0110-death-bento-fernandes-1860-ucha.jpg
+  sha256: a62ca8a67ec1f1b3c69527e5186afd9cdcba9a81924329c64b085c7a7a9ca3e7
+linked_people:
+- P-0141
+- P-0142
+linked_families:
+- F-0071
+linked_events:
+- E-0148
+linked_places: []
+private: false
+notes:
+- text: >-
+    Identification with Bento José Fernandes (P-0141): strong, not proven. For it: the lugar
+    (Quintão, Ucha), the forename and surname, a living wife named Joaquina and surviving
+    children all fit. The death of his son Francisco, alfaiate, drowned in the Cávado in November
+    1859, names him as "filho de Bento Fernandes, e de Joaquina Maria do lugar de Quintão", and a
+    Francisco was baptised at Ucha in 1837 as a son of Bento Fernandes and Joaquina Roza of
+    Quintã (both per the retrieval side's reading; not read here). Joaquina Roza Lopes was
+    "viuva de Bento Fernandes" at her own death in 1890 (PAR-0111). The retrieval side reports no
+    other Bento married to a Joaquina in the Ucha death book 1766–1885. Against it: the priest
+    calls the wife "Joaquina Maria", not "Joaquina Rosa"; and the age of sixty points to about
+    1800, not to the 1807 baptism.
+  text_pt: >-
+    Identificação com Bento José Fernandes (P-0141): forte, não provada. A favor: o lugar
+    (Quintão, Ucha), o prenome e o sobrenome, uma mulher viva chamada Joaquina e filhos vivos,
+    tudo coincide. O óbito do filho Francisco, alfaiate, afogado no Cávado em novembro de 1859,
+    nomeia-o como "filho de Bento Fernandes, e de Joaquina Maria do lugar de Quintão", e um
+    Francisco foi batizado na Ucha em 1837 como filho de Bento Fernandes e Joaquina Roza, de
+    Quintã (ambos segundo a leitura da pesquisa de recuperação; não lidos aqui). Joaquina Roza
+    Lopes era "viuva de Bento Fernandes" no seu próprio óbito, em 1890 (PAR-0111). A pesquisa de
+    recuperação não encontrou outro Bento casado com uma Joaquina no livro de óbitos da Ucha de
+    1766–1885. Contra: o padre chama a mulher de "Joaquina Maria", e não "Joaquina Rosa"; e a
+    idade de sessenta anos aponta para cerca de 1800, não para o batismo de 1807.
+- text: >-
+    Differences from the retrieval side's draft (bento-jose-fernandes.md §7.5, "1860 No.2").
+    The draft is confirmed in substance, but four readings differ on the image. (1) "recebio",
+    not "recebeo". (2) "Não fes testamento, Deixou / filhos", with no "e" before "Deixou"; the
+    draft has "Não fez testamento, e deixou filhos". (3) "do supra dito mez, e an- / no foi
+    sepultado", where the draft has "co- / mo[?] foi sepultado"; the draft's doubtful word is
+    "e anno". (4) "e se lhe fes hum Officio", where the draft has "e lhe fez". The signature is
+    "O Abbade Antonio Joze Corr.a" (draft "Corr.as"). The lugar is written "Quintao" with no tilde
+    visible at the zoom used.
+  text_pt: >-
+    Diferenças em relação ao rascunho da pesquisa de recuperação (bento-jose-fernandes.md §7.5,
+    "1860 No.2"). O rascunho foi confirmado no essencial, mas quatro leituras diferem na imagem.
+    (1) "recebio", e não "recebeo". (2) "Não fes testamento, Deixou / filhos", sem "e" antes de
+    "Deixou"; o rascunho tem "Não fez testamento, e deixou filhos". (3) "do supra dito mez, e an-
+    / no foi sepultado", onde o rascunho tem "co- / mo[?] foi sepultado"; a palavra duvidosa do
+    rascunho é "e anno". (4) "e se lhe fes hum Officio", onde o rascunho tem "e lhe fez". A
+    assinatura é "O Abbade Antonio Joze Corr.a" (rascunho "Corr.as"). O lugar está escrito
+    "Quintao", sem til visível na ampliação usada.
+- text: >-
+    What the record adds. A death date (23 June 1860, two in the afternoon) and place (the lugar
+    de Quintão), a burial date (24 June 1860, in the parish church), an occupation (lavrador), an
+    age (sixty, so born about 1800 by this entry), and the facts that he was married, made no
+    will and left children. Three funeral offices were said, of seven, ten and thirteen priests.
+    If he is P-0141, this entry fixes his death, which his son Domingos's 1884 will and his
+    widow's 1885 procuração place only before those dates.
+  text_pt: >-
+    O que o registro acrescenta. Uma data de óbito (23 de junho de 1860, duas horas da tarde) e um
+    lugar (o lugar de Quintão), uma data de sepultura (24 de junho de 1860, na igreja paroquial),
+    uma profissão (lavrador), uma idade (sessenta anos, portanto nascido por volta de 1800 segundo
+    este assento), e o fato de ser casado, não ter feito testamento e ter deixado filhos.
+    Rezaram-se três ofícios fúnebres, de sete, dez e treze padres. Se ele é o P-0141, este assento
+    fixa a sua morte, que o testamento do filho Domingos (1884) e a procuração da viúva (1885) só
+    situam antes dessas datas.

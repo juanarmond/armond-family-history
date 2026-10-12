@@ -1,0 +1,224 @@
+schema_version: 1
+id: P-0143
+preferred_name: Manoel Fernandes
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: Manoel Fernandes
+  type: source
+  source_ids:
+  - PAR-0106
+  - PAR-0109
+  - PAR-0113
+  - PAR-0114
+  - PAR-0115
+  - PAR-0116
+  - PAR-0118
+  - PAR-0119
+  - PAR-0120
+event_ids:
+- E-0146
+- E-0147
+family_ids:
+- F-0074
+- F-0072
+notes:
+- text: >-
+    Antenor Muniz's 3×-great-grandfather: father of Bento José Fernandes (P-0141), of the lugar
+    de Quintã, São Romão da Ucha. Named as paternal grandfather in eight baptisms of Bento's children,
+    1829–1843 (PAR-0106, PAR-0113–PAR-0120), and as father in Bento's probable baptism of 1807
+    (PAR-0109). "Ja defuntos" with his wife by 29 March 1837 (PAR-0116).
+  text_pt: >-
+    Tetravô de Antenor Muniz: pai de Bento José Fernandes (P-0141), do lugar de Quintã, São Romão
+    da Ucha. Nomeado avô paterno em oito batismos dos filhos de Bento, 1829–1843 (PAR-0106, PAR-0113–PAR-0120),
+    e pai no provável batismo de Bento em 1807 (PAR-0109). "Ja defuntos", ele e a esposa, em 29
+    de março de 1837 (PAR-0116).
+- text: >-
+    Open conflict on his death: a baptism of 16 March 1839 on the same register opening as PAR-0118
+    names a "Manoel Fernandes avo materno", of Quintão, alive and godfather to a grandson by Francisco
+    d'Oliveira and Jozefa Maria. That may be a namesake couple of the same lugar (the retrieval
+    side reports a Manoel Fernandes × Jozefa de Macedo there); it is recorded, not resolved, and
+    no death event is modelled.
+  text_pt: >-
+    Conflito em aberto sobre o óbito: um batismo de 16 de março de 1839, na mesma abertura do
+    livro que PAR-0118, nomeia um "Manoel Fernandes avo materno", de Quintão, vivo e padrinho
+    de um neto de Francisco d'Oliveira e Jozefa Maria. Pode ser um casal homônimo do mesmo lugar
+    (o lado da recuperação relata ali um Manoel Fernandes × Jozefa de Macedo); fica registrado,
+    não resolvido, e nenhum evento de óbito é modelado.
+- text: >-
+    His own baptism is not modelled: PAR-0112 (13 October 1771, Manoel, son of Constantino Fernandes
+    de Oliveira and Roza Maria, of Quintam) is only a hypothesis for him, so it carries no event
+    and the grandparents it names are not modelled.
+  text_pt: >-
+    O batismo dele não é modelado: PAR-0112 (13 de outubro de 1771, Manoel, filho de Constantino
+    Fernandes de Oliveira e Roza Maria, de Quintam) é apenas uma hipótese para ele, por isso não
+    gera evento e os avós que nomeia não são modelados.
+- text: >-
+    Nationality given as Portuguese from residence only: every record describes him as of the
+    lugar de Quintã, São Romão da Ucha, in Barcelos, Portugal; no record states a birthplace or
+    a nacionalidade.
+  text_pt: >-
+    Nacionalidade dada como portuguesa apenas pela residência: todos os registros descrevem ele
+    como de the lugar de Quintã, São Romão da Ucha, em Barcelos, Portugal; nenhum registro declara
+    local de nascimento nem nacionalidade.
+profile: >-
+  ## Interesting facts
+
+
+  - **[PROVEN]** He is named, with his wife, as the paternal grandfather in all eight held baptisms
+  of his son Bento's children (Ucha, 1829–1843). On 29 March 1837 the priest wrote both of them
+  "ja defuntos" (PAR-0116).
+
+  - **[INFERRED]** If the 1771 baptism of a Manoel, son of Constantino Fernandes de Oliveira ×
+  Roza Maria of Quintam, is his (PAR-0112), he carried the name of his paternal grandfather, Manoel
+  Fernandes of Santa Marinha de Oleiros, and was thirty-six at Bento's birth. This is a hypothesis
+  only.
+
+
+  ## Identity
+
+
+  **Manoel Fernandes** — of the lugar of Quintã / Quintam, São Romão da Ucha, Barcelos. He is
+  the father of Bento José Fernandes (P-0141): the eight baptisms of Bento's children call him
+  the paternal grandfather, "neto paterno de Manoel Fernandes, e de sua mulher Jozefa Maria do
+  mesmo lugar" (PAR-0106, PAR-0113–PAR-0116, PAR-0118–PAR-0120) **[PROVEN]**. He was the husband
+  of Jozefa Maria (Domingues) (P-0144), family F-0072. He was dead by 29 March 1837 (PAR-0116)
+  **[PROVEN]**.
+
+
+  He is named as the father in Bento's probable baptism, 20 October 1807 (PAR-0109) **[strong
+  identification]**. Through that entry his parents are Constantino Fernandes × Roza Maria, of
+  Quintam (P-0147, P-0148) **[strong identification]**.
+
+
+  His own baptism may be that of the Manoel born on 9 October and baptised on 13 October 1771
+  at Ucha to "Custantantino Fernandes de Oliveira, e … Roza Maria sua mulher do lugar de Quintam"
+  (PAR-0112) **[hypothesis]**. The retrieval side found no other son of that couple named Manoel
+  in the Ucha baptisms of 1745–1844. No record links that child to Jozefa Maria.
+
+
+  **Other children:** [PROVEN wording]
+
+
+  - Anna Maria, "solteira tia paterna", of Quintã, godmother in 1829 (PAR-0113).
+
+  - A daughter "Luzia" [uncertain reading], wife of João Lopes of Gondomar, Salvador da Lama,
+  "irmãa do Pai do Baptizado" in 1833 (PAR-0106).
+
+  - An Anna Maria baptised to Manoel Fernandes × Jozefa Maria on 3 January 1806, read by the retrieval
+  agent but not filed. [LEAD]
+
+
+  **Position in the tree.** He is the 3×-great-grandfather of Antenor Muniz (P-0006, 1923–2014)
+  on his maternal side, through Bento José Fernandes (P-0141), Manoel João Fernandes da Cruz (P-0139),
+  Thereza Fernandes de Azevedo (P-0039) and Luiza Fernandes de Azevedo (P-0013). The link from
+  Thereza to Manoel João's family is a strong identification, not a proof.
+
+
+  ## Open questions
+
+
+  - **His marriage to Jozefa Maria** (before c. 1806, at Ucha or at her parish of Salvador da
+  Lama). The retrieval side has not specifically searched for it. It is the record that would
+  confirm or reject the 1771 baptism. [OPEN]
+
+  - **His death entry** (before March 1837). It has not been identified in the Ucha death book.
+  [OPEN]
+
+  - **The namesake to exclude.** The retrieval side notes a second couple at Quintam in the same
+  years, Manoel Fernandes × Jozefa de Macedo. [LEAD] Any record ascribed to him must be checked
+  against that couple.
+
+
+  ## Sources held (this repository)
+
+
+  - **PAR-0106, PAR-0113, PAR-0114, PAR-0115, PAR-0116, PAR-0118, PAR-0119, PAR-0120** — baptisms
+  of eight of his grandchildren, Ucha, 1829–1843. He is the paternal grandfather; PAR-0116 records
+  him dead. *Primary for the baptisms; secondary for him.*
+
+  - **PAR-0109** — the probable baptism of his son Bento, 1807, naming him as father. *Primary;
+  the identification is strong.*
+
+  - **PAR-0112** — the 1771 baptism of a Manoel, son of Constantino Fernandes de Oliveira × Roza
+  Maria. *Primary; that it is his is a hypothesis.*
+profile_pt: >-
+  ## Fatos interessantes
+
+
+  - **[PROVEN]** Ele é nomeado, com a mulher, como avô paterno em todos os oito batismos guardados
+  dos filhos de seu filho Bento (Ucha, 1829–1843). A 29 de março de 1837 o padre escreveu ambos
+  "ja defuntos" (PAR-0116).
+
+  - **[INFERRED]** Se o batismo de 1771 de um Manoel, filho de Constantino Fernandes de Oliveira
+  × Roza Maria, da Quintam, é o dele (PAR-0112), ele levava o nome do avô paterno, Manoel Fernandes,
+  de Santa Marinha de Oleiros, e tinha trinta e seis anos quando Bento nasceu. É só uma hipótese.
+
+
+  ## Identidade
+
+
+  **Manoel Fernandes** — do lugar da Quintã / Quintam, São Romão da Ucha, Barcelos. É o pai de
+  Bento José Fernandes (P-0141): os oito batismos dos filhos de Bento o chamam avô paterno, "neto
+  paterno de Manoel Fernandes, e de sua mulher Jozefa Maria do mesmo lugar" (PAR-0106, PAR-0113–PAR-0116,
+  PAR-0118–PAR-0120) **[PROVEN]**. Era marido de Jozefa Maria (Domingues) (P-0144), família F-0072.
+  Já era falecido a 29 de março de 1837 (PAR-0116) **[PROVEN]**.
+
+
+  É nomeado como pai no provável batismo de Bento, a 20 de outubro de 1807 (PAR-0109) **[identificação
+  forte]**. Por esse assento, seus pais são Constantino Fernandes × Roza Maria, da Quintam (P-0147,
+  P-0148) **[identificação forte]**.
+
+
+  Seu próprio batismo pode ser o do Manoel nascido a 9 e batizado a 13 de outubro de 1771 em Ucha,
+  filho de "Custantantino Fernandes de Oliveira, e … Roza Maria sua mulher do lugar de Quintam"
+  (PAR-0112) **[hipótese]**. A pesquisa de recuperação não encontrou outro filho desse casal chamado
+  Manoel nos batismos de Ucha de 1745–1844. Nenhum registro liga essa criança a Jozefa Maria.
+
+
+  **Outros filhos:** [PROVEN wording]
+
+
+  - Anna Maria, "solteira tia paterna", da Quintã, madrinha em 1829 (PAR-0113).
+
+  - Uma filha "Luzia" [leitura incerta], mulher de João Lopes, de Gondomar, Salvador da Lama,
+  "irmãa do Pai do Baptizado" em 1833 (PAR-0106).
+
+  - Uma Anna Maria batizada como filha de Manoel Fernandes × Jozefa Maria a 3 de janeiro de 1806,
+  lida pelo agente de recuperação mas não arquivada. [LEAD]
+
+
+  **Posição na árvore.** É tetravô de Antenor Muniz (P-0006, 1923–2014) pelo lado materno, através
+  de Bento José Fernandes (P-0141), Manoel João Fernandes da Cruz (P-0139), Thereza Fernandes
+  de Azevedo (P-0039) e Luiza Fernandes de Azevedo (P-0013). A ligação de Thereza com a família
+  de Manoel João é uma identificação forte, não uma prova.
+
+
+  ## Questões em aberto
+
+
+  - **Seu casamento com Jozefa Maria** (antes de c. 1806, em Ucha ou na freguesia dela, Salvador
+  da Lama). A pesquisa de recuperação ainda não o procurou especificamente. É o registro que confirmaria
+  ou rejeitaria o batismo de 1771. [OPEN]
+
+  - **Seu assento de óbito** (antes de março de 1837). Não foi identificado no livro de óbitos
+  de Ucha. [OPEN]
+
+  - **O homônimo a excluir.** A pesquisa de recuperação assinala um segundo casal na Quintam nos
+  mesmos anos, Manoel Fernandes × Jozefa de Macedo. [LEAD] Qualquer registro atribuído a ele tem
+  de ser conferido contra esse casal.
+
+
+  ## Fontes disponíveis (neste repositório)
+
+
+  - **PAR-0106, PAR-0113, PAR-0114, PAR-0115, PAR-0116, PAR-0118, PAR-0119, PAR-0120** — batismos
+  de oito de seus netos, Ucha, 1829–1843. Ele é o avô paterno; PAR-0116 o registra como falecido.
+  *Primárias para os batismos; secundárias para ele.*
+
+  - **PAR-0109** — o provável batismo de seu filho Bento, 1807, que o nomeia como pai. *Primária;
+  a identificação é forte.*
+
+  - **PAR-0112** — o batismo de 1771 de um Manoel, filho de Constantino Fernandes de Oliveira
+  × Roza Maria. *Primária; que seja o dele é uma hipótese.*

@@ -1,0 +1,37 @@
+schema_version: 1
+id: E-0142
+event_type: marriage
+date:
+  kind: exact
+  value: '1855-01-10'
+  original_text: Aos dez dias do mez de Janeiro de mil oito centos sencoenta e cinco
+place_text: São Romão da Ucha, Barcelos, Braga, Portugal
+participants:
+- person_id: P-0139
+  role: spouse
+- person_id: P-0140
+  role: spouse
+- person_id: P-0141
+  role: parent
+- person_id: P-0142
+  role: parent
+status: strong-evidence
+source_ids:
+- PAR-0107
+notes:
+- text: >-
+    Marriage at São Romão da Ucha on 10 January 1855 (PAR-0107) of "Manoel Joaõ filho legitimo
+    de Bento Fernandes, e de Joaquina Roza do lugar de Quintaõ" and "Joanna Maria Esposta", a
+    foundling resident at Pousa. Strong evidence, not confirmed: every later record names his
+    wife Anna Maria or "Anna Exposta" (PAR-0124–PAR-0135, PRB-0013, PRB-0014), so the bride's
+    given name differs; the groom, his parents, the parish of the marriage (stated in PAR-0108:
+    "recebidos na dita freguezia de São Romão da Ucha") and the foundling bride of Pousa all agree,
+    and the first child was born at Pousa eleven months later (PAR-0124).
+  text_pt: >-
+    Casamento em São Romão da Ucha, em 10 de janeiro de 1855 (PAR-0107), de "Manoel Joaõ filho
+    legitimo de Bento Fernandes, e de Joaquina Roza do lugar de Quintaõ" com "Joanna Maria Esposta",
+    exposta residente em Pousa. Evidência forte, não confirmada: todos os registros posteriores
+    chamam a esposa de Anna Maria ou "Anna Exposta" (PAR-0124–PAR-0135, PRB-0013, PRB-0014), de
+    modo que o prenome da noiva difere; o noivo, os pais dele, a freguesia do casamento (declarada
+    em PAR-0108: "recebidos na dita freguezia de São Romão da Ucha") e a noiva exposta de Pousa
+    coincidem, e o primeiro filho nasceu em Pousa onze meses depois (PAR-0124).

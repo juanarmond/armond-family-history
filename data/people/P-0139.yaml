@@ -1,0 +1,888 @@
+schema_version: 1
+id: P-0139
+preferred_name: Manoel João Fernandes da Cruz
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: Manoel Joaõ
+  type: source
+  source_ids:
+  - PAR-0106
+  - PAR-0107
+  note: 'His baptism (1833) and marriage (1855): the given names only.'
+- value: Manoel João
+  type: source
+  source_ids:
+  - PAR-0124
+  - PAR-0125
+- value: Manoel João Fernandes
+  type: source
+  source_ids:
+  - PRB-0013
+  - PAR-0108
+  - PAR-0126
+  - PAR-0127
+  - PAR-0128
+  - PAR-0129
+  - PAR-0130
+  - PAR-0131
+  - PAR-0132
+  - PAR-0133
+  - PAR-0134
+  - PAR-0135
+  note: >-
+    The form in his own will ("Eu Manoel João Fernandes") and in his children's Pousa registers.
+- value: Manoel João Fernandes da Cruz
+  type: source
+  source_ids:
+  - PRB-0013
+  - PRB-0014
+  - PRB-0016
+  note: >-
+    The will's autuação and approval, his inventário, and his mother's 1885 procuração. The modern
+    archival cover of the will reads "Manoel José Fernandes da Cruz", a cataloguing slip.
+occupations:
+- value: alfaiate
+  source_ids:
+  - PAR-0108
+  - PAR-0127
+  - PAR-0129
+  - PAR-0130
+  - PAR-0131
+  - PAR-0132
+  - PAR-0133
+  - PAR-0134
+  - PAR-0135
+  note: Tailor at Pousa, 1862–1871.
+- value: lavrador
+  source_ids:
+  - PRB-0016
+  note: >-
+    His mother's 1885 procuração: "Caz.do, Lavrador, morador a São João do Laranjal" (Minas Gerais).
+event_ids:
+- E-0140
+- E-0141
+- E-0142
+- E-0143
+- E-0144
+- E-0145
+family_ids:
+- F-0071
+- F-0070
+notes:
+- text: >-
+    Antenor Muniz's great-grandfather: father of Thereza Fernandes de Azevedo (P-0039), whose
+    daughter Luiza (P-0013) was Antenor's mother. Born at Quintã, São Romão da Ucha, Barcelos,
+    on 25 April 1833 (PAR-0106); married Joanna/Anna Maria, a foundling, at Ucha on 10 January
+    1855 (PAR-0107); a tailor at Pousa, where his nine children were born 1855–1871 (PAR-0124–PAR-0135);
+    in Minas Gerais by 1885, a lavrador at São João do Laranjal (PRB-0016); died at Bom Jesus
+    da Cachoeira Alegre, Muriaé, on 30 May 1898 (PRB-0014). He could not write (PRB-0013, PRB-0016).
+  text_pt: >-
+    Bisavô de Antenor Muniz: pai de Thereza Fernandes de Azevedo (P-0039), cuja filha Luiza (P-0013)
+    foi a mãe de Antenor. Nascido em Quintã, São Romão da Ucha, Barcelos, em 25 de abril de 1833
+    (PAR-0106); casou-se com Joanna/Anna Maria, exposta, na Ucha em 10 de janeiro de 1855 (PAR-0107);
+    alfaiate em Pousa, onde nasceram seus nove filhos entre 1855 e 1871 (PAR-0124–PAR-0135); em
+    Minas Gerais já em 1885, lavrador em São João do Laranjal (PRB-0016); faleceu em Bom Jesus
+    da Cachoeira Alegre, Muriaé, em 30 de maio de 1898 (PRB-0014). Não sabia escrever (PRB-0013,
+    PRB-0016).
+- text: >-
+    Birthplace conflict, resolved in favour of the baptism: his 1890 will calls him "natural da
+    freguesia de Santa Christina do Pauzo, em Braga" (PRB-0013), but he was baptised at São Romão
+    da Ucha (PAR-0106), and his children's Pousa registers call him "natural da freguezia de São
+    Romão da Ucha" (PAR-0108, PAR-0128–PAR-0135). Santa Cristina de Pousa was his parish of residence
+    for at least sixteen years, which is the likely sense of the will's wording [inference].
+  text_pt: >-
+    Conflito de naturalidade, resolvido a favor do batismo: o testamento de 1890 o diz "natural
+    da freguesia de Santa Christina do Pauzo, em Braga" (PRB-0013), mas ele foi batizado em São
+    Romão da Ucha (PAR-0106), e os registros de Pousa dos filhos o dizem "natural da freguezia
+    de São Romão da Ucha" (PAR-0108, PAR-0128–PAR-0135). Santa Cristina de Pousa foi sua freguesia
+    de residência por pelo menos dezesseis anos, o que é o sentido provável da expressão do testamento
+    [inferência].
+- text: >-
+    Nationality: Portuguese by birth at Ucha (PAR-0106) and by his will's "reino de Portugal"
+    (PRB-0013). He was living in Brazil at the Republic's grande naturalização of 1889 (Decreto
+    58-A); no record held says whether he accepted or declined it, so the field records his nationality
+    of birth.
+  text_pt: >-
+    Nacionalidade: portuguesa, pelo nascimento na Ucha (PAR-0106) e pelo "reino de Portugal" do
+    testamento (PRB-0013). Vivia no Brasil na grande naturalização republicana de 1889 (Decreto
+    58-A); nenhum registro em mãos diz se a aceitou ou recusou, por isso o campo registra a nacionalidade
+    de nascimento.
+profile: >-
+  ## Interesting facts
+
+
+  - **[PROVEN]** His will's arithmetic checks out against registers kept an ocean away. At São
+  Paulo do Muriaé in March 1890 he declared "nove filhos, achando-se vivos presentemente apenas
+  cinco" (PRB-0013). The Pousa books in Barcelos record exactly nine baptisms of his children
+  between 1855 and 1871 (PAR-0124–PAR-0127, PAR-0108, PAR-0130, PAR-0131, PAR-0133, PAR-0135)
+  and exactly four childhood burials (PAR-0128, PAR-0129, PAR-0132, PAR-0134). Nine born, four
+  dead, five living: the count of a man who could not write matches the priests' entries one for
+  one.
+
+  - **[PROVEN]** He was a tailor in the Minho and a farmer in Brazil. From 1862 to 1871 the Pousa
+  priests call him "alfaiate" (PAR-0127, PAR-0108, PAR-0135), and his wife was a "costureira"
+  (PAR-0108, PAR-0130). By 1885 he was "casado, lavrador, morador a São João do Laranjal" in Minas
+  Gerais (PRB-0016). The trade ran in the family: his brother Francisco, also an alfaiate, drowned
+  in the Cávado in November 1859 after going to work at his trade in Pousa (PAR-0117).
+
+  - **[PROVEN]** His will gives his origin as "natural da freguesia de Santa Christina do Pauzo,
+  em Braga, reino de Portugal" (PRB-0013), but he was born at Quintã, São Romão da Ucha, on 25
+  April 1833 and baptised there five days later (PAR-0106). The Pousa registers say so too: "natural
+  da freguesia de São Romão da Ucha" (PAR-0108, PAR-0130). Pousa was his mother's native parish
+  (PAR-0111, PAR-0121), his wife's parish of residence (PAR-0107) and his own home for at least
+  sixteen years. In Brazil, it seems, he named the parish he had lived in, not the one he was
+  born in. [INFERRED — and "Pauzo" = Pousa rests on the patron saint, Santa Cristina, and the
+  Barcelos context]
+
+  - **[PROVEN]** September 1870 cost the household two children in eight days. João, aged two
+  years and seven months, died at Souto on 9 September (PAR-0132). On 17 September a daughter,
+  Maria, was baptised at home "por perigo de vida" by a neighbour, Josefa Loureiro (PAR-0133),
+  and she died that night, "de dez horas de edade" (PAR-0134).
+
+  - **[PROVEN]** Every child baptised in church shares at least part of a name with a godparent,
+  and five carry a godparent's full given name. João (1855) had his paternal uncle João as godfather
+  (PAR-0124). Maria José (1859) had a godmother Maria José da Silva (PAR-0126). Antonio Joaquim
+  (1862) had a godfather Antonio Joaquim Martins, a potter (PAR-0127). Thereza de Jesus (1864)
+  had a godmother Thereza de Jesus (PAR-0108). The second João (1868) had a godfather João Gomes,
+  a tailor (PAR-0131). [INFERRED: naming for the godparent]
+
+  - **[INFERRED]** In 1885 he acted for his widowed mother in Portugal in dividing his brother
+  Domingos's estate in Minas Gerais. The estate was split between her and Domingos's widow, Maria
+  de Jesus Crespo (PRB-0016). That widow was very probably his own daughter Maria de Jesus. His
+  will and inventário give "Maria, casada com André Teixeira Crespo" and "D. Maria de Jesus da
+  Conceição casada com André Teixeira Crespo" (PRB-0013, PRB-0014), and the widow of 1885 acted
+  "por seu marido André Teixeira Crespo" (PRB-0016). The identification is strong, not proven.
+
+
+  ## Identity
+
+
+  **Manoel João Fernandes da Cruz** — "Manoel João" with no surname in his baptism (PAR-0106),
+  his marriage (PAR-0107) and his first two children's baptisms (PAR-0124, PAR-0125); "Manoel
+  João Fernandes" from 1859 (PAR-0126 onward) and in the body of his own will (PRB-0013); **"Manoel
+  João Fernandes da Cruz"** in his mother's 1885 procuração and the partilha (PRB-0016), in the
+  auto de aprovação of his will and its 1898 autuação (PRB-0013), and in the 1898 inventário (PRB-0014).
+  [PROVEN] No held Portuguese parish entry gives "da Cruz"; the earliest held use is the 1885
+  procuração. The modern archival cover of the will reads "Manoel José Fernandes da Cruz", which
+  is a cataloguing slip; the 1890 and 1898 text says "João" every time (PRB-0013). [PROVEN]
+
+
+  - **Relationship:** great-grandfather of **Antenor Muniz** (P-0006, 1923–2014) on his mother's
+  side. The chain runs Manoel João → Thereza Fernandes de Azevedo (P-0039) → Luiza Fernandes de
+  Azevedo (P-0013) → Antenor; families F-0070, F-0018 and F-0001. [derived from families F-0070,
+  F-0018 and F-0001] The first link is a **strong identification**, not proof: P-0039 is identified
+  with the testator's daughter "Thereza, casada com Secundino de Azevedo" (PRB-0013; PRB-0014
+  "D. Thereza de Jesus casada com Secundino de Azevedo") by the same names, husband and district.
+
+  - **Birth and baptism:** born 25 April 1833 and baptised 30 April 1833 at São Romão da Ucha,
+  Barcelos. He is the "filho legitimo de Bento José Fernandes, e de Joaquina Roza do lugar da
+  Quintãa". His paternal grandparents are Manoel Fernandes and Jozefa Maria, "do mesmo lugar";
+  his maternal grandparents are Ignacio José Lopes and Marianna da Silva, of the lugar da Anjeyrôa
+  [uncertain], Santa Christina da Pouza (PAR-0106). [PROVEN] The godparents were João Lopes, married
+  to Luzia [uncertain], "irmãa do Pai do Baptizado", of Gondomar, Salvador da Lama; and Maria
+  Thereza, wife of André Domingues de Macedo, of Quintã (PAR-0106). [PROVEN] His Portuguese birth
+  is documented by this baptism, and the will adds "reino de Portugal" (PRB-0013).
+
+  - **Parents:** Bento José Fernandes (P-0141) and Joaquina Rosa (Roza) Lopes (P-0142); family
+  F-0071. They are named again as the paternal grandparents in every Pousa baptism of his children
+  (PAR-0124–PAR-0127, PAR-0108, PAR-0130, PAR-0131, PAR-0133, PAR-0135), and as his parents in
+  his marriage (PAR-0107). [PROVEN]
+
+  - **Why the Brazilian testator is the Ucha-born man:** four independent agreements. First, his
+  mother, "Viuva que ficou de Bento José Fernandes" of Ucha, appointed "seu filho Manoel João
+  Fernandes da Cruz, casado, lavrador, morador a São João do Laranjal" in 1885 (PRB-0016). That
+  is the same full name, in the same part of Minas, as the 1890 testator, and neither could write.
+  Second, the testator's wife is "D. Anna Maria" (PRB-0013), the name of the Pousa children's
+  mother (PAR-0124–PAR-0126). Third, two 1898 heirs, Maria de Jesus and Maria José (PRB-0014),
+  match the Pousa baptisms of 1858 and 1859 (PAR-0125, PAR-0126). Fourth, the will's nine-and-five
+  count matches the Pousa registers exactly. [INFERRED — very strong, corroborated]
+
+  - **Marriage:** 10 January 1855, São Romão da Ucha, to "Joanna Maria Esposta rezidente na freguezia
+  de Santa Christina d'Algozo da Pouza". The record gives no ages, occupations or grandparents.
+  The witnesses were Antonio José Correia and José Augusto Correia, of the lugar da Ponte, São
+  Paio de Merelim (PAR-0107). [PROVEN] Every later record calls the bride Anna Maria or Anna Exposta.
+  The identity is **strong**: the same groom, parents and lugar; a foundling bride living at Pousa;
+  the first child born at Pousa eleven months later; and the 1862 statement that the couple were
+  "recebidos na freguezia de S. Romão da Ucha" (PAR-0127). The given-name difference is unresolved
+  (see P-0140).
+
+  - **Death:** 30 May 1898, in the "districto do Bom Jesus" (Bom Jesus da Cachoeira Alegre), São
+  Paulo do Muriaé, "com testamento" (PRB-0014). [PROVEN] He was 65 [INFERRED from PAR-0106]. The
+  judge's cumpra-se on his will is dated 3 June 1898 (PRB-0013). His death or burial entry is
+  not held. [OPEN]
+
+
+  ## Standing and profession
+
+
+  He was a **tailor** at the lugar do Souto, Pousa, from at least 1862 to 1871 (PAR-0127, PAR-0108,
+  PAR-0130, PAR-0131, PAR-0133, PAR-0135). In Minas Gerais in 1885 he was a **lavrador** (PRB-0016).
+  [PROVEN] He could not write. His will was written and signed for him by Dr. Augusto Pinto Alves
+  Pequeno, "por eu não saber escrever" (PRB-0013). In the 1885 partilha Augusto de Souza Lobo
+  signed for him "por não saber escrever" (PRB-0016). [PROVEN] The will includes a profession
+  of faith: "Sou Catholico, Apostolico, Romano" (PRB-0013). [PROVEN]
+
+
+  He left property. A will disposing of a terça and an inventário opened before the Juiz de Direito
+  presuppose an estate. [INFERRED] But the filmed inventário holds only the opening of the process
+  (fl. 1–7, 22–26 November 1898): the petition, the heirs' procuração, a certified copy of the
+  will, the inventariante's oath and the título de herdeiros. It has no description, valuation
+  or partilha. The petition says only that his son Joaquim "está na posse dos bens" (PRB-0014).
+  [PROVEN] What he owned is therefore unknown. [OPEN] His brother's estate gives the scale of
+  a Fernandes holding in the same neighbourhood in 1885: 5:691$000, almost all of it land, with
+  14,000 old coffee trees in the valuers' list (another page of the record says eleven thousand)
+  and a casa de morada (PRB-0016). His own estate cannot be read from it. [CONTEXTUAL]
+
+
+  His will was approved in the Muriaé cartório of the tabelião José Theodoro [uncertain] Pires,
+  before five witnesses. They included two Muriaé negociantes described as "natural de Portugal",
+  one of them Domingos Affonso de Azevedo Maia (PRB-0013). [PROVEN] The same lawyer who wrote
+  the will in 1890, Dr. Pequeno, acted for the heirs in 1898 (PRB-0014). [PROVEN]
+
+
+  ## Family and social network
+
+
+  **Wife:** Anna Maria Fernandes (P-0140), a foundling — "Anna Exposta", whose children's maternal
+  grandparents are "Avós incognitos" (PAR-0124, PAR-0127) — and a seamstress (PAR-0108). She was
+  alive and his widow in November 1898 (PRB-0014). Family F-0070. [PROVEN] He declared himself
+  "casado em primeiras nupcias" with her (PRB-0013).
+
+
+  **The nine children**, all born at the lugar do Souto, Pousa [PROVEN, each by its record]:
+
+
+  - **João** — born 22 December 1855 (PAR-0124); died 7 March 1866, "de dez annos, e dous mezes"
+  (PAR-0129). [the death's identification with this João rests on the age and on the "segundo
+  do nome" of 1868]
+
+  - **Maria de Jesus** — born 10 April 1858 (PAR-0125).
+
+  - **Maria José** — born 1 October 1859 (PAR-0126).
+
+  - **Antonio Joaquim** — born 4 January 1862 (PAR-0127); died 3 September 1864, aged two years
+  and eight months (PAR-0128).
+
+  - **Thereza de Jesus** — born 3 May 1864 (PAR-0108): **Antenor Muniz's maternal grandmother**,
+  P-0039 [strong identification].
+
+  - **Joaquim** — born 2 May 1866 (PAR-0130).
+
+  - **João** ("segundo do nome") — born 27 February 1868 (PAR-0131); died 9 September 1870 (PAR-0132).
+
+  - **Maria** ("terceira do nome") — born and baptised at home 17 September 1870, died the same
+  night (PAR-0133, PAR-0134).
+
+  - **Maria** — born 5 October 1871 (PAR-0135).
+
+
+  **The five living in 1890 and 1898.** The will names "Maria, casada com André Teixeira Crespo,
+  Maria José, casada com Francisco Joaquim da Silva, Thereza, casada com Secundino de Azevedo,
+  Maria Fernandes casada com Balbino Alves de Souza, e Joaquim, tão bem casado" (PRB-0013). It
+  leaves Joaquim the terça "em consideração aos serviços e extrema amizade" shown to his father
+  and mother (PRB-0013). [PROVEN] In 1898 the título de herdeiros lists Joaquim José Fernandes,
+  casado, sworn inventariante and testamenteiro (the will named no executor); D. Maria José da
+  Conceição; D. Thereza de Jesus; D. Maria Fernandes de Souza; and D. Maria de Jesus da Conceição,
+  with the same husbands. All were "moradores no Districto do Bom Jesus da Cachoeira Alegre" (PRB-0014).
+  [PROVEN] Matching Joaquim (born 1866) with Joaquim José, and the Maria of 1871 with Maria Fernandes
+  de Souza, is an inference; it closes the count exactly. [INFERRED — very strong] The clerk's
+  1898 copy of the will calls Thereza's husband "Secundino de Azevedo Maia" (PRB-0014). The original
+  will has no "Maia" (PRB-0013). [LEAD] In 1898 the sons-in-law signed "por si e suas mulheres
+  por não saberem escrever", and Henrique Christino da Silva signed for the widow (PRB-0014).
+  [PROVEN — as recorded in the clerk's copy of the procuração] Joaquim José signed the inventário's
+  own pages himself (PRB-0014).
+
+
+  **His siblings,** children of Bento Fernandes and Joaquina Roza, baptised at Ucha [PROVEN, each
+  by its record]:
+
+
+  - **João José** — born 1829 (PAR-0113). He was "solteiro thio paterno" and godfather to Manoel
+  João's first son in December 1855 (PAR-0124). He married Maria Villasboas at Ucha on 21 March
+  1868, aged 38 (PAR-0122). He is very probably the "seu filho João" to whom their mother made
+  an escriptura dotal (PAR-0111). [INFERRED]
+
+  - **Anna** — born 1830 (PAR-0114). Her later life is not held. [OPEN]
+
+  - **Domingos** — born 1835 (PAR-0115). He is Domingos José Fernandes, who died on 31 January
+  1885 at São João, freguesia do Laranjal, Minas Gerais (PRB-0015, PRB-0016). His will (Monte
+  Alegre, 14 April 1884) gives "S. Romaõ da uxa, Termo de Barcellos" and his parents "Bento Jozé
+  Fernandes já Falecido e … Joaquina Roza Lopes" (PRB-0015). [identification by name, parents
+  and parish]
+
+  - **Francisco** — born 1837 (PAR-0116). A tailor, he was found drowned in the river Cávado on
+  11 November 1859 (PAR-0117; the entry names the mother "Joaquina Maria").
+
+  - **José** — born 1839 (PAR-0118). The margin notes his death on 1 April 1845.
+
+  - **Thereza de Jezus** — born 1841 (PAR-0119). She married José Ferreira at Ucha on 27 May 1869
+  (PAR-0123). She was probably the "Thereza de Jesus solteira" who stood godmother to her niece
+  and namesake in 1864 (PAR-0108). [INFERRED]
+
+  - **Bento** — born 1843 (PAR-0120). He married Maria da Costa at Ucha on 2 August 1866, aged
+  22 (PAR-0121).
+
+  - **A second José** married Maria Forte at Ucha on 20 July 1868, aged 22, so he was born about
+  1846 (PAR-0122). His baptism is not held. [OPEN]
+
+
+  **His mother's procuração and his brother's estate.** At Braga on 9 June 1885, Joaquina Rosa
+  Lopes, a widow of Quintã, Ucha, who could not write, made her son Manoel João her attorney.
+  The purpose was to "receber a herança que lhe foi deixada por seu filho Domingos Fernandes falecido
+  no dito lugar de São João do Laranjal" (PRB-0016). [PROVEN] Domingos's will had made his wife
+  sole heir and left his mother only 400$000 "p.a ajuda de Sua Subsistencia". On 24 September
+  1885 the Juiz da Provedoria declared it null, because "tendo o testador mãi viva, sua herdeira
+  forçada, preteriu-a" (PRB-0015). In the amicable partilha (Cataguases, December 1885; sentence
+  at Leopoldina, 12 February 1886) the mother, through Manoel João, and the widow each took half:
+  2:845$500 (PRB-0016). [PROVEN]
+
+
+  **Neighbourhood leads.** On 4 February 1885 Domingos's will was presented at Cataguases by a
+  Joaquim José Fernandes, who signed. That is the name of Manoel João's son, then 18, but the
+  record states no relationship (PRB-0015). [LEAD] Domingos's will was written by Alferes Manoel
+  Alves Bittencourt Vasconcellos and witnessed by Manoel Fortunato Alves Bittencourt (PRB-0015).
+  A José Alves Bittencourt was one of the neighbours who valued the estate (PRB-0016). Their kinship
+  to the Muniz Bittencourt line, into which his granddaughter Luiza married in 1916, is unexamined.
+  [LEAD]
+
+
+  ## What we can extrapolate
+
+
+  **1. A family emigration, not a young man's. [INFERRED]** He was still at Souto, Pousa, in October
+  1871 (PAR-0135). No later child is found in the Pousa book running to 1877 (bounded negative,
+  producer sweep). By June 1885 he was at Laranjal (PRB-0016). By 1898 his wife and all five surviving
+  children were in the Bom Jesus district (PRB-0014). The household of seven crossed together,
+  or in close succession, sometime between late 1871 and mid-1885. He was a man of 38 to 52 with
+  a trade, not a single migrant. Thereza crossed as a child or young woman, between 7 and 21.
+  His brother Domingos was in the same part of Minas by 1884 (PRB-0015), which points to a chain
+  of brothers. [INFERRED]
+
+
+  **2. He stayed inside the rule that had broken his brother's will. [INFERRED / CONTEXTUAL]**
+  Under the inheritance law then in force in Brazil, a testator with forced heirs could freely
+  dispose of only one third of his estate, the terça. The rest went to the forced heirs by law.
+  Domingos's will was annulled in 1885 for ignoring exactly that rule (PRB-0015), in an estate
+  where Manoel João was the mother's attorney (PRB-0016). Five years later his own will disposes
+  of the terça and nothing else (PRB-0013). Whether the lesson was his or his lawyer's, the result
+  was a valid will. [the will text is PROVEN; the connection is INFERRED]
+
+
+  **3. A needle trade exchanged for land. [INFERRED / CONTEXTUAL]** In Pousa the household lived
+  by a tailor's and a seamstress's work. In Minas Gerais he was a lavrador, and his heirs stayed
+  in one rural district. His son-in-law Secundino de Azevedo appears as a landholding neighbour
+  at Bom Jesus in 1908 (FAN-0018, context only). That is the conversion the Zona da Mata coffee
+  frontier offered Minho emigrants: a village craft exchanged for work on the land.
+
+
+  **4. Literacy arrived with the son, not the daughters. [PROVEN pattern / INFERRED meaning]**
+  He could not write (PRB-0013, PRB-0016), nor could his mother (PRB-0016), his wife or, by their
+  husbands' statement, his daughters (PRB-0014). His son Joaquim José signed for himself in 1898
+  (PRB-0014). Of the five surviving children, only the son is known to have been able to write.
+
+
+  **5. Where Thereza's "Fernandes" came from. [INFERRED]** Thereza is "Thereza de Jesus" at her
+  baptism and in 1898 (PAR-0108, PRB-0014), but "Thereza Fernandes de Azevedo" from 1916 (CIV-0001,
+  PAR-0003). The "Fernandes" is her father's surname. It descended through her to her daughters
+  Luiza (P-0013) and Alcida (CIV-0051). The family's origin on this side is Barcelos in the Minho,
+  documented by baptisms (PAR-0106, PAR-0108). No island origin is documented for it.
+
+
+  ## Open questions
+
+
+  - **His emigration:** the date, the port and any Portuguese passport issued between 1871 and
+  1885, and whether the household travelled together. [OPEN]
+
+  - **The rest of his inventário:** the description, valuation and partilha are not on the film
+  after the opening pages. The following images belong to another process. Whether the process
+  was abandoned or survives elsewhere is unknown. [OPEN]
+
+  - **The termo de apresentação e abertura of his will (June 1898):** it probably sits on an access-restricted
+  image of the same film. It would name the person who presented the will and might confirm the
+  place of death. [OPEN]
+
+  - **His death or burial entry** at Bom Jesus da Cachoeira Alegre or in the Muriaé civil register,
+  1898. [OPEN]
+
+  - **Thereza's marriage to Secundino de Azevedo**, before 8 March 1890 (PRB-0013), probably in
+  the Laranjal or Muriaé area. It would name Secundino's parents. [OPEN]
+
+  - Whether Domingos's widow, Maria de Jesus Crespo, was his daughter Maria de Jesus (strong inference).
+  Whether the Joaquim José Fernandes of 1885 was his son. Whether the Bittencourts of the Laranjal
+  neighbourhood were kin to the Muniz Bittencourts. [OPEN — LEAD]
+
+
+  ## Sources held (this repository)
+
+
+  - **PAR-0106** — his baptism, Ucha, 1833: parents, all four grandparents, godparents. *Primary.*
+
+  - **PAR-0107** — his marriage to "Joanna Maria Esposta", Ucha, 1855. *Primary.*
+
+  - **PAR-0124–PAR-0127, PAR-0108, PAR-0130, PAR-0131, PAR-0133, PAR-0135** — the nine baptisms
+  of his children, Pousa, 1855–1871: his trade, his naturalidade, his wife as a foundling and
+  costureira, the couple's marriage at Ucha.
+
+  - **PAR-0128, PAR-0129, PAR-0132, PAR-0134** — the four childhood deaths, Pousa, 1864–1870.
+
+  - **PAR-0113–PAR-0120, PAR-0121–PAR-0123** — his siblings' baptisms (1829–1843), Francisco's
+  drowning (1859) and four siblings' marriages (1866–1869), Ucha.
+
+  - **PAR-0111** — his mother's death, Ucha, 1890: her Pousa origin and a son João. **PAR-0110**
+  — his father's probable death, 1860 [strong identification].
+
+  - **PRB-0013** — his will, São Paulo do Muriaé, 8 March 1890 (opened 1898): origin, wife, the
+  nine and the five, the terça, his illiteracy.
+
+  - **PRB-0014** — his inventário, Muriaé, November 1898 (opening only): death date and place,
+  widow, heirs and their residence; the "Azevedo Maia" variant.
+
+  - **PRB-0015** — his brother Domingos's will and its annulment, 1884–1885. **PRB-0016** — the
+  partilha of Domingos's estate, 1885–1886, with his mother's procuração naming him.
+
+  - **CIV-0001, PAR-0003, CIV-0051** — his daughter Thereza's later name form, "Thereza (Theresa)
+  Fernandes de Azevedo", in 1916, 1922 and 1975, the last in the death of her daughter Alcida.
+
+  - **FAN-0018** — a 1908 Muriaé inventário in which his son-in-law Secundino is a land neighbour
+  at Bom Jesus. *Context, not evidence.*
+
+
+  ## Regional and migration context
+
+
+  His Portuguese world was two rural parishes of the concelho de Barcelos, in the district and
+  archdiocese of Braga: São Romão da Ucha, where he was born and married, and Santa Cristina de
+  Pousa, where he worked and raised his children. [PROVEN] Northern Portugal, and the Minho above
+  all, supplied a large share of the Portuguese emigrants to Brazil in the second half of the
+  nineteenth century, many of them leaving small family holdings that had been divided over generations.
+  [CONTEXTUAL]
+
+
+  **Route: Barcelos (to at least October 1871) → São João do Laranjal (by June 1885) → São Paulo
+  do Muriaé and the Bom Jesus da Cachoeira Alegre district (will made at Muriaé, March 1890; died
+  in the district, May 1898).** [PROVEN for each dated point: PAR-0135, PRB-0016, PRB-0013, PRB-0014]
+  Laranjal was raised to a distrito de paz in 1871 under Leopoldina and later passed to Cataguases;
+  the 1885 partilha calls it the "Freg.a de Laranjal" of the Cataguases termo (PRB-0016). [CONTEXTUAL;
+  PROVEN for 1885] Bom Jesus da Cachoeira Alegre was made a district of São Paulo do Muriaé by
+  provincial law nº 3442 of 28 September 1887, confirmed by state law nº 2 of 14 September 1891.
+  It was renamed Bom Jesus da Cachoeira in 1943 and is still a district of Muriaé. The town itself
+  was renamed Muriaé in 1911. [CONTEXTUAL — IBGE territorial history] He was in the Zona da Mata
+  before abolition (1888), on a coffee frontier whose labour demand was about to change, and the
+  family stayed there. The 1898 heirs all lived in the one district, and a son-in-law held land
+  there in 1908 (PRB-0014; FAN-0018). [INFERRED]
+
+
+  ## Where to go today
+
+
+  - **Birth and baptism (1833), marriage (1855):** Igreja Paroquial de São Romão da Ucha, Ucha,
+  Barcelos, Braga, Portugal [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Paroquial%20de%20Ucha%2C%20Barcelos%2C%20Portugal)
+
+  - **Family home, lugar do Souto (1855–c. 1871), and the nine children's baptisms:** Igreja Paroquial
+  de Santa Cristina de Pousa, Pousa, Barcelos, Braga, Portugal [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Paroquial%20de%20Pousa%2C%20Barcelos%2C%20Portugal)
+
+  - **The registers:** Arquivo Distrital de Braga (Universidade do Minho), Largo do Paço, Braga,
+  which holds the Barcelos parish books filmed in FamilySearch's "Portugal, Braga, Catholic Church
+  Records, 1530-1912" [RESOLVED] · [Maps](https://www.google.com/maps/search/?api=1&query=Arquivo%20Distrital%20de%20Braga%2C%20Largo%20do%20Pa%C3%A7o%2C%20Braga)
+
+  - **First documented home in Brazil (1885):** Laranjal, MG [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Laranjal%2C%20MG)
+
+  - **Will (1890):** São Paulo do Muriaé, today Muriaé, MG [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Muria%C3%A9%2C%20MG)
+
+  - **Death (1898):** Bom Jesus da Cachoeira (ex-Bom Jesus da Cachoeira Alegre), a district of
+  Muriaé, MG [RESOLVED — district; exact place APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Bom%20Jesus%20da%20Cachoeira%2C%20Muria%C3%A9%2C%20MG)
+profile_pt: >-
+  ## Fatos interessantes
+
+
+  - **[PROVEN]** A aritmética do seu testamento confere com registros guardados do outro lado
+  do oceano. Em São Paulo do Muriaé, em março de 1890, ele declarou "nove filhos, achando-se vivos
+  presentemente apenas cinco" (PRB-0013). Os livros da Pousa, em Barcelos, registram exatamente
+  nove batismos de filhos seus entre 1855 e 1871 (PAR-0124–PAR-0127, PAR-0108, PAR-0130, PAR-0131,
+  PAR-0133, PAR-0135) e exatamente quatro sepultamentos na infância (PAR-0128, PAR-0129, PAR-0132,
+  PAR-0134). Nove nascidos, quatro mortos, cinco vivos: a conta de um homem que não sabia escrever
+  bate, um a um, com os assentos dos padres.
+
+  - **[PROVEN]** Foi alfaiate no Minho e lavrador no Brasil. De 1862 a 1871 os padres da Pousa
+  o chamam "alfaiate" (PAR-0127, PAR-0108, PAR-0135), e sua mulher era "costureira" (PAR-0108,
+  PAR-0130). Em 1885 era "casado, lavrador, morador a São João do Laranjal", em Minas Gerais (PRB-0016).
+  O ofício corria na família: seu irmão Francisco, também alfaiate, morreu afogado no Cávado em
+  novembro de 1859, depois de ir trabalhar no seu ofício na Pousa (PAR-0117).
+
+  - **[PROVEN]** O testamento dá sua origem como "natural da freguesia de Santa Christina do Pauzo,
+  em Braga, reino de Portugal" (PRB-0013), mas ele nasceu na Quintã, em São Romão da Ucha, em
+  25 de abril de 1833, e ali foi batizado cinco dias depois (PAR-0106). Os registros da Pousa
+  dizem o mesmo: "natural da freguesia de São Romão da Ucha" (PAR-0108, PAR-0130). A Pousa era
+  a freguesia natal de sua mãe (PAR-0111, PAR-0121), a freguesia de residência de sua mulher (PAR-0107)
+  e o seu próprio lar por pelo menos dezesseis anos. No Brasil, ao que parece, ele nomeou a freguesia
+  em que tinha vivido, e não aquela em que nascera. [INFERRED — e "Pauzo" = Pousa apoia-se na
+  padroeira, Santa Cristina, e no contexto de Barcelos]
+
+  - **[PROVEN]** Setembro de 1870 custou à casa dois filhos em oito dias. João, de dois anos e
+  sete meses, morreu no Souto em 9 de setembro (PAR-0132). Em 17 de setembro uma filha, Maria,
+  foi batizada em casa "por perigo de vida" por uma vizinha, Josefa Loureiro (PAR-0133), e morreu
+  naquela mesma noite, "de dez horas de edade" (PAR-0134).
+
+  - **[PROVEN]** Todo filho batizado na igreja partilha ao menos parte do nome com um padrinho
+  ou madrinha, e cinco levam o prenome completo do padrinho ou da madrinha. João (1855) teve por
+  padrinho o tio paterno João (PAR-0124). Maria José (1859) teve por madrinha Maria José da Silva
+  (PAR-0126). Antonio Joaquim (1862) teve por padrinho Antonio Joaquim Martins, oleiro (PAR-0127).
+  Thereza de Jesus (1864) teve por madrinha Thereza de Jesus (PAR-0108). O segundo João (1868)
+  teve por padrinho João Gomes, alfaiate (PAR-0131). [INFERRED: o nome dado em homenagem ao padrinho
+  ou à madrinha]
+
+  - **[INFERRED]** Em 1885 ele representou a mãe viúva, que vivia em Portugal, na divisão do espólio
+  de seu irmão Domingos em Minas Gerais. O espólio foi repartido entre ela e a viúva de Domingos,
+  Maria de Jesus Crespo (PRB-0016). Essa viúva era muito provavelmente sua própria filha Maria
+  de Jesus. O testamento e o inventário dele trazem "Maria, casada com André Teixeira Crespo"
+  e "D. Maria de Jesus da Conceição casada com André Teixeira Crespo" (PRB-0013, PRB-0014), e
+  a viúva de 1885 agia "por seu marido André Teixeira Crespo" (PRB-0016). A identificação é forte,
+  não provada.
+
+
+  ## Identidade
+
+
+  **Manoel João Fernandes da Cruz** — "Manoel João", sem sobrenome, no seu batismo (PAR-0106),
+  no seu casamento (PAR-0107) e nos batismos dos dois primeiros filhos (PAR-0124, PAR-0125); "Manoel
+  João Fernandes" a partir de 1859 (PAR-0126 em diante) e no corpo do seu próprio testamento (PRB-0013);
+  **"Manoel João Fernandes da Cruz"** na procuração de 1885 de sua mãe e na partilha (PRB-0016),
+  no auto de aprovação do testamento e na sua autuação de 1898 (PRB-0013), e no inventário de
+  1898 (PRB-0014). [PROVEN] Nenhum assento paroquial português guardado traz "da Cruz"; o uso
+  mais antigo guardado é a procuração de 1885. A capa arquivística moderna do testamento diz "Manoel
+  José Fernandes da Cruz", um deslize de catalogação; o texto de 1890 e de 1898 diz "João" todas
+  as vezes (PRB-0013). [PROVEN]
+
+
+  - **Parentesco:** bisavô de **Antenor Muniz** (P-0006, 1923–2014) pelo lado materno. A cadeia
+  corre Manoel João → Thereza Fernandes de Azevedo (P-0039) → Luiza Fernandes de Azevedo (P-0013)
+  → Antenor; famílias F-0070, F-0018 e F-0001. [derivado das famílias F-0070, F-0018 e F-0001]
+  O primeiro elo é uma **identificação forte**, não uma prova: P-0039 é identificada com a filha
+  do testador, "Thereza, casada com Secundino de Azevedo" (PRB-0013; PRB-0014, "D. Thereza de
+  Jesus casada com Secundino de Azevedo"), pelos mesmos nomes, marido e distrito.
+
+  - **Nascimento e batismo:** nascido em 25 de abril de 1833 e batizado em 30 de abril de 1833
+  em São Romão da Ucha, Barcelos. É o "filho legitimo de Bento José Fernandes, e de Joaquina Roza
+  do lugar da Quintãa". Os avós paternos são Manoel Fernandes e Jozefa Maria, "do mesmo lugar";
+  os avós maternos são Ignacio José Lopes e Marianna da Silva, do lugar da Anjeyrôa [incerto],
+  Santa Christina da Pouza (PAR-0106). [PROVEN] Os padrinhos foram João Lopes, casado com Luzia
+  [incerto], "irmãa do Pai do Baptizado", de Gondomar, Salvador da Lama; e Maria Thereza, mulher
+  de André Domingues de Macedo, da Quintã (PAR-0106). [PROVEN] O nascimento português está documentado
+  por este batismo, e o testamento acrescenta "reino de Portugal" (PRB-0013).
+
+  - **Pais:** Bento José Fernandes (P-0141) e Joaquina Rosa (Roza) Lopes (P-0142); família F-0071.
+  São nomeados de novo como avós paternos em todos os batismos de seus filhos na Pousa (PAR-0124–PAR-0127,
+  PAR-0108, PAR-0130, PAR-0131, PAR-0133, PAR-0135), e como seus pais no seu casamento (PAR-0107).
+  [PROVEN]
+
+  - **Por que o testador brasileiro é o homem nascido na Ucha:** quatro concordâncias independentes.
+  Primeira: sua mãe, "Viuva que ficou de Bento José Fernandes", da Ucha, nomeou em 1885 "seu filho
+  Manoel João Fernandes da Cruz, casado, lavrador, morador a São João do Laranjal" (PRB-0016).
+  É o mesmo nome completo, na mesma parte de Minas, do testador de 1890, e nenhum dos dois sabia
+  escrever. Segunda: a mulher do testador é "D. Anna Maria" (PRB-0013), o nome da mãe das crianças
+  da Pousa (PAR-0124–PAR-0126). Terceira: duas herdeiras de 1898, Maria de Jesus e Maria José
+  (PRB-0014), correspondem aos batismos da Pousa de 1858 e 1859 (PAR-0125, PAR-0126). Quarta:
+  a conta de nove e cinco do testamento bate exatamente com os registros da Pousa. [INFERRED —
+  muito forte, corroborada]
+
+  - **Casamento:** 10 de janeiro de 1855, São Romão da Ucha, com "Joanna Maria Esposta rezidente
+  na freguezia de Santa Christina d'Algozo da Pouza". O registro não dá idades, ofícios nem avós.
+  As testemunhas foram Antonio José Correia e José Augusto Correia, do lugar da Ponte, São Paio
+  de Merelim (PAR-0107). [PROVEN] Todos os registros posteriores chamam a noiva Anna Maria ou
+  Anna Exposta. A identidade é **forte**: o mesmo noivo, os mesmos pais e lugar; uma noiva exposta
+  morando na Pousa; o primeiro filho nascido na Pousa onze meses depois; e a declaração de 1862
+  de que o casal fora "recebidos na freguezia de S. Romão da Ucha" (PAR-0127). A diferença de
+  prenome está por resolver (ver P-0140).
+
+  - **Óbito:** 30 de maio de 1898, no "districto do Bom Jesus" (Bom Jesus da Cachoeira Alegre),
+  São Paulo do Muriaé, "com testamento" (PRB-0014). [PROVEN] Tinha 65 anos [INFERRED a partir
+  de PAR-0106]. O cumpra-se do juiz no testamento é datado de 3 de junho de 1898 (PRB-0013). Seu
+  assento de óbito ou de sepultamento não está guardado. [OPEN]
+
+
+  ## Posição social e profissão
+
+
+  Foi **alfaiate** no lugar do Souto, Pousa, pelo menos de 1862 a 1871 (PAR-0127, PAR-0108, PAR-0130,
+  PAR-0131, PAR-0133, PAR-0135). Em Minas Gerais, em 1885, era **lavrador** (PRB-0016). [PROVEN]
+  Não sabia escrever. O testamento foi escrito e assinado a seu rogo pelo Dr. Augusto Pinto Alves
+  Pequeno, "por eu não saber escrever" (PRB-0013). Na partilha de 1885, Augusto de Souza Lobo
+  assinou por ele "por não saber escrever" (PRB-0016). [PROVEN] O testamento inclui uma profissão
+  de fé: "Sou Catholico, Apostolico, Romano" (PRB-0013). [PROVEN]
+
+
+  Deixou bens. Um testamento que dispõe da terça e um inventário aberto perante o Juiz de Direito
+  pressupõem um espólio. [INFERRED] Mas o inventário microfilmado contém apenas a abertura do
+  processo (fl. 1–7, 22–26 de novembro de 1898): a petição, a procuração dos herdeiros, uma certidão
+  do testamento, o juramento do inventariante e o título de herdeiros. Não há descrição, avaliação
+  nem partilha. A petição diz apenas que seu filho Joaquim "está na posse dos bens" (PRB-0014).
+  [PROVEN] O que ele possuía é, portanto, desconhecido. [OPEN] O espólio do irmão dá a escala
+  de uma posse dos Fernandes na mesma vizinhança em 1885: 5:691$000, quase tudo em bens de raiz,
+  com 14.000 pés de café velhos na lista dos louvados (outra folha do mesmo registro diz onze
+  mil) e uma casa de morada (PRB-0016). O espólio dele próprio não pode ser lido a partir disso.
+  [CONTEXTUAL]
+
+
+  O testamento foi aprovado no cartório de Muriaé do tabelião José Theodoro [incerto] Pires, perante
+  cinco testemunhas. Entre elas havia dois negociantes de Muriaé ditos "natural de Portugal",
+  um deles Domingos Affonso de Azevedo Maia (PRB-0013). [PROVEN] O mesmo advogado que escreveu
+  o testamento em 1890, o Dr. Pequeno, representou os herdeiros em 1898 (PRB-0014). [PROVEN]
+
+
+  ## Família e rede social
+
+
+  **Mulher:** Anna Maria Fernandes (P-0140), uma exposta — "Anna Exposta", cujos filhos têm por
+  avós maternos "Avós incognitos" (PAR-0124, PAR-0127) — e costureira (PAR-0108). Estava viva,
+  e viúva dele, em novembro de 1898 (PRB-0014). Família F-0070. [PROVEN] Ele se declarou "casado
+  em primeiras nupcias" com ela (PRB-0013).
+
+
+  **Os nove filhos**, todos nascidos no lugar do Souto, Pousa [PROVEN, cada um pelo seu registro]:
+
+
+  - **João** — nascido em 22 de dezembro de 1855 (PAR-0124); falecido em 7 de março de 1866, "de
+  dez annos, e dous mezes" (PAR-0129). [a identificação do óbito com este João apoia-se na idade
+  e no "segundo do nome" de 1868]
+
+  - **Maria de Jesus** — nascida em 10 de abril de 1858 (PAR-0125).
+
+  - **Maria José** — nascida em 1º de outubro de 1859 (PAR-0126).
+
+  - **Antonio Joaquim** — nascido em 4 de janeiro de 1862 (PAR-0127); falecido em 3 de setembro
+  de 1864, com dois anos e oito meses (PAR-0128).
+
+  - **Thereza de Jesus** — nascida em 3 de maio de 1864 (PAR-0108): **avó materna de Antenor Muniz**,
+  P-0039 [identificação forte].
+
+  - **Joaquim** — nascido em 2 de maio de 1866 (PAR-0130).
+
+  - **João** ("segundo do nome") — nascido em 27 de fevereiro de 1868 (PAR-0131); falecido em
+  9 de setembro de 1870 (PAR-0132).
+
+  - **Maria** ("terceira do nome") — nascida e batizada em casa em 17 de setembro de 1870, falecida
+  na mesma noite (PAR-0133, PAR-0134).
+
+  - **Maria** — nascida em 5 de outubro de 1871 (PAR-0135).
+
+
+  **Os cinco vivos em 1890 e 1898.** O testamento nomeia "Maria, casada com André Teixeira Crespo,
+  Maria José, casada com Francisco Joaquim da Silva, Thereza, casada com Secundino de Azevedo,
+  Maria Fernandes casada com Balbino Alves de Souza, e Joaquim, tão bem casado" (PRB-0013). Deixa
+  a Joaquim a terça "em consideração aos serviços e extrema amizade" prestados ao pai e à mãe
+  (PRB-0013). [PROVEN] Em 1898 o título de herdeiros lista Joaquim José Fernandes, casado, juramentado
+  inventariante e testamenteiro (o testamento não nomeara testamenteiro); D. Maria José da Conceição;
+  D. Thereza de Jesus; D. Maria Fernandes de Souza; e D. Maria de Jesus da Conceição, com os mesmos
+  maridos. Todos eram "moradores no Districto do Bom Jesus da Cachoeira Alegre" (PRB-0014). [PROVEN]
+  A correspondência de Joaquim (nascido em 1866) com Joaquim José, e da Maria de 1871 com Maria
+  Fernandes de Souza, é uma inferência; ela fecha a conta exatamente. [INFERRED — muito forte]
+  A cópia do testamento feita pelo escrivão em 1898 chama o marido de Thereza "Secundino de Azevedo
+  Maia" (PRB-0014). O testamento original não tem "Maia" (PRB-0013). [LEAD] Em 1898 os genros
+  assinaram "por si e suas mulheres por não saberem escrever", e Henrique Christino da Silva assinou
+  pela viúva (PRB-0014). [PROVEN — tal como registrado na cópia da procuração feita pelo escrivão]
+  Joaquim José assinou ele mesmo as folhas do próprio inventário (PRB-0014).
+
+
+  **Seus irmãos,** filhos de Bento Fernandes e Joaquina Roza, batizados na Ucha [PROVEN, cada
+  um pelo seu registro]:
+
+
+  - **João José** — nascido em 1829 (PAR-0113). Era "solteiro thio paterno" e foi padrinho do
+  primeiro filho de Manoel João em dezembro de 1855 (PAR-0124). Casou-se com Maria Villasboas
+  na Ucha em 21 de março de 1868, aos 38 anos (PAR-0122). É muito provavelmente o "seu filho João"
+  a quem a mãe fez escritura dotal (PAR-0111). [INFERRED]
+
+  - **Anna** — nascida em 1830 (PAR-0114). Sua vida posterior não está guardada. [OPEN]
+
+  - **Domingos** — nascido em 1835 (PAR-0115). É Domingos José Fernandes, falecido em 31 de janeiro
+  de 1885 em São João, freguesia do Laranjal, Minas Gerais (PRB-0015, PRB-0016). Seu testamento
+  (Monte Alegre, 14 de abril de 1884) dá "S. Romaõ da uxa, Termo de Barcellos" e os pais "Bento
+  Jozé Fernandes já Falecido e … Joaquina Roza Lopes" (PRB-0015). [identificação pelo nome, pelos
+  pais e pela freguesia]
+
+  - **Francisco** — nascido em 1837 (PAR-0116). Alfaiate, foi encontrado afogado no rio Cávado
+  em 11 de novembro de 1859 (PAR-0117; o assento nomeia a mãe "Joaquina Maria").
+
+  - **José** — nascido em 1839 (PAR-0118). A margem anota sua morte em 1º de abril de 1845.
+
+  - **Thereza de Jezus** — nascida em 1841 (PAR-0119). Casou-se com José Ferreira na Ucha em 27
+  de maio de 1869 (PAR-0123). Era provavelmente a "Thereza de Jesus solteira" que foi madrinha
+  da sobrinha e xará em 1864 (PAR-0108). [INFERRED]
+
+  - **Bento** — nascido em 1843 (PAR-0120). Casou-se com Maria da Costa na Ucha em 2 de agosto
+  de 1866, aos 22 anos (PAR-0121).
+
+  - **Um segundo José** casou-se com Maria Forte na Ucha em 20 de julho de 1868, aos 22 anos,
+  tendo nascido portanto por volta de 1846 (PAR-0122). Seu batismo não está guardado. [OPEN]
+
+
+  **A procuração da mãe e o espólio do irmão.** Em Braga, em 9 de junho de 1885, Joaquina Rosa
+  Lopes, viúva, da Quintã, Ucha, que não sabia escrever, constituiu seu procurador o filho Manoel
+  João. O fim era "receber a herança que lhe foi deixada por seu filho Domingos Fernandes falecido
+  no dito lugar de São João do Laranjal" (PRB-0016). [PROVEN] O testamento de Domingos fizera
+  da mulher a herdeira universal e deixara à mãe apenas 400$000 "p.a ajuda de Sua Subsistencia".
+  Em 24 de setembro de 1885 o Juiz da Provedoria o declarou nulo, porque "tendo o testador mãi
+  viva, sua herdeira forçada, preteriu-a" (PRB-0015). Na partilha amigável (Cataguases, dezembro
+  de 1885; sentença em Leopoldina, 12 de fevereiro de 1886), a mãe, por meio de Manoel João, e
+  a viúva levaram cada uma a metade: 2:845$500 (PRB-0016). [PROVEN]
+
+
+  **Pistas da vizinhança.** Em 4 de fevereiro de 1885 o testamento de Domingos foi apresentado
+  em Cataguases por um Joaquim José Fernandes, que assinou. É o nome do filho de Manoel João,
+  então com 18 anos, mas o registro não declara parentesco (PRB-0015). [LEAD] O testamento de
+  Domingos foi escrito pelo Alferes Manoel Alves Bittencourt Vasconcellos e testemunhado por Manoel
+  Fortunato Alves Bittencourt (PRB-0015). Um José Alves Bittencourt foi um dos vizinhos que avaliaram
+  o espólio (PRB-0016). O parentesco deles com a linha Muniz Bittencourt, na qual sua neta Luiza
+  se casou em 1916, não foi examinado. [LEAD]
+
+
+  ## O que podemos extrapolar
+
+
+  **1. Uma emigração de família, não de um rapaz. [INFERRED]** Ele ainda estava no Souto, Pousa,
+  em outubro de 1871 (PAR-0135). Nenhum filho posterior aparece no livro da Pousa que vai até
+  1877 (negativa delimitada, varredura do produtor). Em junho de 1885 estava no Laranjal (PRB-0016).
+  Em 1898 a mulher e os cinco filhos sobreviventes estavam no distrito do Bom Jesus (PRB-0014).
+  A casa de sete pessoas atravessou junta, ou em sucessão próxima, em algum momento entre o fim
+  de 1871 e meados de 1885. Era um homem de 38 a 52 anos com um ofício, não um migrante solteiro.
+  Thereza atravessou criança ou moça, entre os 7 e os 21 anos. Seu irmão Domingos já estava na
+  mesma parte de Minas em 1884 (PRB-0015), o que aponta para uma cadeia de irmãos. [INFERRED]
+
+
+  **2. Ele se manteve dentro da regra que derrubara o testamento do irmão. [INFERRED / CONTEXTUAL]**
+  Pela lei sucessória então vigente no Brasil, um testador com herdeiros forçados só podia dispor
+  livremente de um terço dos bens, a terça. O resto cabia por lei aos herdeiros forçados. O testamento
+  de Domingos foi anulado em 1885 exatamente por desrespeitar essa regra (PRB-0015), num espólio
+  em que Manoel João era o procurador da mãe (PRB-0016). Cinco anos depois, o testamento dele
+  dispõe da terça e de nada mais (PRB-0013). Fosse a lição dele ou do seu advogado, o resultado
+  foi um testamento válido. [o texto do testamento é PROVEN; a ligação é INFERRED]
+
+
+  **3. Um ofício de agulha trocado pela terra. [INFERRED / CONTEXTUAL]** Na Pousa a casa vivia
+  do trabalho de um alfaiate e de uma costureira. Em Minas Gerais ele era lavrador, e seus herdeiros
+  permaneceram num único distrito rural. Seu genro Secundino de Azevedo aparece como vizinho proprietário
+  de terras no Bom Jesus em 1908 (FAN-0018, apenas contexto). É a conversão que a fronteira cafeeira
+  da Zona da Mata oferecia aos emigrantes minhotos: um ofício de aldeia trocado pelo trabalho
+  na terra.
+
+
+  **4. A alfabetização chegou com o filho, não com as filhas. [padrão PROVEN / significado INFERRED]**
+  Ele não sabia escrever (PRB-0013, PRB-0016), nem sua mãe (PRB-0016), nem sua mulher, nem, segundo
+  a declaração dos maridos, suas filhas (PRB-0014). Seu filho Joaquim José assinou por si em 1898
+  (PRB-0014). Dos cinco filhos sobreviventes, só o filho homem é sabidamente capaz de escrever.
+
+
+  **5. De onde veio o "Fernandes" de Thereza. [INFERRED]** Thereza é "Thereza de Jesus" no batismo
+  e em 1898 (PAR-0108, PRB-0014), mas "Thereza Fernandes de Azevedo" a partir de 1916 (CIV-0001,
+  PAR-0003). O "Fernandes" é o sobrenome do pai. Desceu por ela às filhas Luiza (P-0013) e Alcida
+  (CIV-0051). A origem da família deste lado é Barcelos, no Minho, documentada por batismos (PAR-0106,
+  PAR-0108). Nenhuma origem insular está documentada para ela.
+
+
+  ## Questões em aberto
+
+
+  - **Sua emigração:** a data, o porto e algum passaporte português emitido entre 1871 e 1885,
+  e se a casa viajou junta. [OPEN]
+
+  - **O restante do seu inventário:** a descrição, a avaliação e a partilha não estão no microfilme
+  depois das folhas de abertura. As imagens seguintes pertencem a outro processo. Não se sabe
+  se o processo foi abandonado ou se sobrevive em outro lugar. [OPEN]
+
+  - **O termo de apresentação e abertura do testamento (junho de 1898):** provavelmente está numa
+  imagem de acesso restrito do mesmo microfilme. Nomearia quem apresentou o testamento e talvez
+  confirmasse o local do óbito. [OPEN]
+
+  - **Seu assento de óbito ou de sepultamento** no Bom Jesus da Cachoeira Alegre ou no registro
+  civil de Muriaé, 1898. [OPEN]
+
+  - **O casamento de Thereza com Secundino de Azevedo**, anterior a 8 de março de 1890 (PRB-0013),
+  provavelmente na região do Laranjal ou de Muriaé. Nomearia os pais de Secundino. [OPEN]
+
+  - Se a viúva de Domingos, Maria de Jesus Crespo, era sua filha Maria de Jesus (inferência forte).
+  Se o Joaquim José Fernandes de 1885 era seu filho. Se os Bittencourt da vizinhança do Laranjal
+  eram parentes dos Muniz Bittencourt. [OPEN — LEAD]
+
+
+  ## Fontes disponíveis (neste repositório)
+
+
+  - **PAR-0106** — seu batismo, Ucha, 1833: pais, os quatro avós, padrinhos. *Primária.*
+
+  - **PAR-0107** — seu casamento com "Joanna Maria Esposta", Ucha, 1855. *Primária.*
+
+  - **PAR-0124–PAR-0127, PAR-0108, PAR-0130, PAR-0131, PAR-0133, PAR-0135** — os nove batismos
+  de seus filhos, Pousa, 1855–1871: seu ofício, sua naturalidade, a mulher como exposta e costureira,
+  o casamento do casal na Ucha.
+
+  - **PAR-0128, PAR-0129, PAR-0132, PAR-0134** — os quatro óbitos na infância, Pousa, 1864–1870.
+
+  - **PAR-0113–PAR-0120, PAR-0121–PAR-0123** — os batismos dos irmãos (1829–1843), o afogamento
+  de Francisco (1859) e os casamentos de quatro irmãos (1866–1869), Ucha.
+
+  - **PAR-0111** — o óbito de sua mãe, Ucha, 1890: a origem na Pousa e um filho João. **PAR-0110**
+  — o provável óbito de seu pai, 1860 [identificação forte].
+
+  - **PRB-0013** — seu testamento, São Paulo do Muriaé, 8 de março de 1890 (aberto em 1898): origem,
+  mulher, os nove e os cinco, a terça, o analfabetismo.
+
+  - **PRB-0014** — seu inventário, Muriaé, novembro de 1898 (só a abertura): data e local do óbito,
+  a viúva, os herdeiros e sua residência; a variante "Azevedo Maia".
+
+  - **PRB-0015** — o testamento de seu irmão Domingos e sua anulação, 1884–1885. **PRB-0016**
+  — a partilha do espólio de Domingos, 1885–1886, com a procuração da mãe que o nomeia.
+
+  - **CIV-0001, PAR-0003, CIV-0051** — a forma posterior do nome de sua filha Thereza, "Thereza
+  (Theresa) Fernandes de Azevedo", em 1916, 1922 e 1975, esta última no óbito de sua filha Alcida.
+
+  - **FAN-0018** — um inventário de Muriaé de 1908 em que seu genro Secundino é vizinho de terras
+  no Bom Jesus. *Contexto, não evidência.*
+
+
+  ## Contexto regional e migratório
+
+
+  Seu mundo português foram duas freguesias rurais do concelho de Barcelos, no distrito e arquidiocese
+  de Braga: São Romão da Ucha, onde nasceu e se casou, e Santa Cristina de Pousa, onde trabalhou
+  e criou os filhos. [PROVEN] O norte de Portugal, e o Minho acima de tudo, forneceu grande parte
+  dos emigrantes portugueses para o Brasil na segunda metade do século XIX, muitos deles deixando
+  pequenas posses familiares divididas ao longo de gerações. [CONTEXTUAL]
+
+
+  **Rota: Barcelos (até pelo menos outubro de 1871) → São João do Laranjal (em junho de 1885)
+  → São Paulo do Muriaé e o distrito do Bom Jesus da Cachoeira Alegre (testamento feito em Muriaé,
+  março de 1890; falecido no distrito, maio de 1898).** [PROVEN para cada ponto datado: PAR-0135,
+  PRB-0016, PRB-0013, PRB-0014] O Laranjal foi elevado a distrito de paz em 1871, subordinado
+  a Leopoldina, e passou depois a Cataguases; a partilha de 1885 o chama "Freg.a de Laranjal"
+  do termo de Cataguases (PRB-0016). [CONTEXTUAL; PROVEN para 1885] O Bom Jesus da Cachoeira Alegre
+  foi criado distrito de São Paulo do Muriaé pela lei provincial nº 3442, de 28 de setembro de
+  1887, confirmada pela lei estadual nº 2, de 14 de setembro de 1891. Passou a chamar-se Bom Jesus
+  da Cachoeira em 1943 e continua sendo distrito de Muriaé. A própria cidade passou a chamar-se
+  Muriaé em 1911. [CONTEXTUAL — histórico territorial do IBGE] Ele já estava na Zona da Mata antes
+  da abolição (1888), numa fronteira cafeeira cuja demanda de mão de obra estava prestes a mudar,
+  e a família ali permaneceu. Os herdeiros de 1898 moravam todos no mesmo distrito, e um genro
+  tinha terras ali em 1908 (PRB-0014; FAN-0018). [INFERRED]
+
+
+  ## Onde ir hoje
+
+
+  - **Nascimento e batismo (1833), casamento (1855):** Igreja Paroquial de São Romão da Ucha,
+  Ucha, Barcelos, Braga, Portugal [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Paroquial%20de%20Ucha%2C%20Barcelos%2C%20Portugal)
+
+  - **Lar da família, lugar do Souto (1855–c. 1871), e os batismos dos nove filhos:** Igreja Paroquial
+  de Santa Cristina de Pousa, Pousa, Barcelos, Braga, Portugal [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Paroquial%20de%20Pousa%2C%20Barcelos%2C%20Portugal)
+
+  - **Os registros:** Arquivo Distrital de Braga (Universidade do Minho), Largo do Paço, Braga,
+  que guarda os livros paroquiais de Barcelos microfilmados na coleção do FamilySearch "Portugal,
+  Braga, Catholic Church Records, 1530-1912" [RESOLVED] · [Maps](https://www.google.com/maps/search/?api=1&query=Arquivo%20Distrital%20de%20Braga%2C%20Largo%20do%20Pa%C3%A7o%2C%20Braga)
+
+  - **Primeiro lar documentado no Brasil (1885):** Laranjal, MG [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Laranjal%2C%20MG)
+
+  - **Testamento (1890):** São Paulo do Muriaé, hoje Muriaé, MG [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Muria%C3%A9%2C%20MG)
+
+  - **Óbito (1898):** Bom Jesus da Cachoeira (antigo Bom Jesus da Cachoeira Alegre), distrito
+  de Muriaé, MG [RESOLVED — o distrito; local exato APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Bom%20Jesus%20da%20Cachoeira%2C%20Muria%C3%A9%2C%20MG)

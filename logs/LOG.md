@@ -5,6 +5,19 @@ sessions. Detailed reproducible notes live under `logs/` using
 `YYYY-MM-DD-short-question.md`. Later corrections must identify the earlier
 entry they amend; they must not erase it.
 
+## 2026-10-12 — Thereza Fernandes de Azevedo's Portuguese family and the sibling records
+
+Retrieval cycle 2026-10-12, promoted on the owner's instruction of the same day
+(`logs/2026-10-12-fernandes-line-and-sibling-records.md`). 95 scans became 39 records: PAR-0106–PAR-0135,
+PRB-0013–PRB-0016, FAN-0018 and CIV-0056–CIV-0059.
+- Thereza (P-0039) was baptised at Pousa, Barcelos, in 1864, the daughter of Manoel João Fernandes da Cruz and Anna
+  Maria, a foundling. Twelve new ancestors (P-0139–P-0150) reach back to the 1770s. The link from the 1890 will's
+  "Thereza, casada com Secundino de Azevedo" to P-0039 is strong, not proven.
+- Superseded: the "Zona da Mata birth", "parents unknown" and "landless" statements, and the "Azevedo Maia" lead.
+  The Leonidia lead is withdrawn.
+- Liliosa: the 1897 Muriaé "Paz" inventário is ruled out. It belongs to D. Olympia de Souza Paz, and Liliosa is not
+  among her heirs.
+
 ## 2026-10-12 — The owner's parents' birth and marriage certificates
 
 Owner-supplied and owner-authorised (`logs/2026-10-12-parents-civil-records.md`). Four civil records of the

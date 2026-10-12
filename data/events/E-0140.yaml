@@ -1,0 +1,35 @@
+schema_version: 1
+id: E-0140
+event_type: baptism
+date:
+  kind: exact
+  value: '1833-04-30'
+  original_text: >-
+    nasceo em o dia vinte, e cinco do mez de Abril de mil, e oito centos, e trinta, e tres, e
+    no dia trinta do mesmo foi por mim solemnemente baptizado
+place_text: São Romão da Ucha, Barcelos, Braga, Portugal
+participants:
+- person_id: P-0139
+  role: principal
+- person_id: P-0141
+  role: parent
+- person_id: P-0142
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0106
+notes:
+- text: >-
+    Baptism of Manoel João (P-0139) at São Romão da Ucha on 30 April 1833 by the abbot Antonio
+    José da Costa e Silva, from the original register entry (PAR-0106): son of Bento José Fernandes
+    and Joaquina Rosa, of the lugar de Quintã, with all four grandparents named. The baptism names
+    him only "Manoel Joaõ"; that he is the later Manoel João Fernandes da Cruz of Muriaé rests
+    on his mother's 1885 procuração naming "seu filho Manoel João Fernandes da Cruz" (PRB-0016)
+    and on his children's Pousa baptisms naming the same grandparents (PAR-0124–PAR-0135).
+  text_pt: >-
+    Batismo de Manoel João (P-0139) em São Romão da Ucha, em 30 de abril de 1833, pelo abade Antonio
+    José da Costa e Silva, pelo assento original (PAR-0106): filho de Bento José Fernandes e Joaquina
+    Rosa, do lugar de Quintã, com os quatro avós nomeados. O batismo o chama apenas "Manoel Joaõ";
+    que ele seja o futuro Manoel João Fernandes da Cruz de Muriaé apoia-se na procuração de 1885
+    da mãe, que nomeia "seu filho Manoel João Fernandes da Cruz" (PRB-0016), e nos batismos dos
+    filhos dele em Pousa, que nomeiam os mesmos avós (PAR-0124–PAR-0135).

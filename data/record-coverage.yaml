@@ -370,6 +370,28 @@ people:
       CIV-0002). Whether the entry names her husband was asked and is unanswered. Do not
       take "Maria" and "José" as her parents until the record is read; a certidão needs the
       owner's authorisation.
+  - text: >-
+      2026-10-12 — BOUNDED NEGATIVE and two leads (retrieval side; nothing held here). The 1897
+      Muriaé inventário COARPE 43913941, read on its open FamilySearch images (DGS 108401135), is
+      that of D. Olympia de Souza Paz (d. 26 October 1896), wife of Manoel José Ferreira; its seven
+      heirs do not include Liliosa, so that household is excluded. Remaining Paz/Paes leads: João
+      Ferreira Paes × Izabel Claudina de Jesus (heir in the 1879 inventário COARPE 43911666) and
+      Vicente Ferreira Paz/Paes of São Manoel (Eugenópolis). No FamilySearch index record names
+      her parents (index surface only). A new lead: the Rio birth registration of a daughter of
+      her daughter Maria Aparecida is indexed with Aristão × Liliosa as maternal grandparents; its
+      image is access-restricted (FamilySearch item 3:1:3Q9M-CSTG-HSVB), a Family History Centre
+      target.
+    text_pt: >-
+      2026-10-12 — NEGATIVO DELIMITADO e duas pistas (lado da recuperação; nada em mãos aqui). O
+      inventário de 1897 de Muriaé, COARPE 43913941, lido nas imagens abertas do FamilySearch (DGS
+      108401135), é o de D. Olympia de Souza Paz (f. 26 de outubro de 1896), esposa de Manoel José
+      Ferreira; seus sete herdeiros não incluem Liliosa, de modo que esse domicílio fica excluído.
+      Pistas Paz/Paes restantes: João Ferreira Paes × Izabel Claudina de Jesus (herdeira no inventário
+      de 1879, COARPE 43911666) e Vicente Ferreira Paz/Paes, de São Manoel (Eugenópolis). Nenhum
+      registro indexado no FamilySearch nomeia os pais dela (apenas a camada de índice). Nova pista:
+      o registro de nascimento, no Rio, de uma filha de sua filha Maria Aparecida está indexado
+      com Aristão × Liliosa como avós maternos; a imagem tem acesso restrito (item FamilySearch
+      3:1:3Q9M-CSTG-HSVB), alvo para um Centro de História da Família.
 - person_id: P-0010
   external_profiles:
   - platform: FamilySearch
@@ -2318,3 +2340,201 @@ people:
   - text: >-
       Maternal grandmother of Ignez Francisca de Lima (P-0060). Named in PAR-0025 as
       from Villa de Ouro [Ouro?], Bispado de São Paulo. Family F-0032.
+- person_id: P-0039
+  external_profiles: []
+  records:
+  - record_type: baptism
+    status: catalogued
+    source_ids:
+    - PAR-0108
+    last_reviewed: "2026-10-12"
+    notes:
+    - text: >-
+        6 May 1864, Pousa (lugar do Souto), Barcelos; born 3 May. Strong identification with P-0039
+        (F-0070).
+      text_pt: >-
+        6 de maio de 1864, Pousa (lugar do Souto), Barcelos; nascida em 3 de maio. Identificação
+        forte com P-0039 (F-0070).
+  - record_type: marriage
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-10-12"
+    next_action: >-
+      Locate her marriage to Secundino de Azevedo: before 8 March 1890 (PRB-0013), in Minas Gerais;
+      probably São João Batista do Laranjal (Cataguases), where her father lived in 1885 [lead].
+      It would turn the strong identification into proof and name Secundino's parents.
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-10-12"
+    next_action: >-
+      Find her death between October 1916 (alive, CIV-0006) and May 1975 (dead, CIV-0051); Carangola
+      civil and parish deaths first.
+    notes: []
+  notes: []
+- person_id: P-0038
+  external_profiles: []
+  records:
+  - record_type: birth
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-10-12"
+    next_action: >-
+      His birth or baptism is unlocated; his parents are the open gap. The marriage to Thereza
+      (see P-0039) is the record most likely to name them.
+    notes: []
+  - record_type: marriage
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-10-12"
+    next_action: >-
+      As for P-0039: before 8 March 1890, probably São João Batista do Laranjal.
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-10-12"
+    next_action: >-
+      Dead by 21 October 1916 (CIV-0006); a land neighbour at Bom Jesus in 1908 (FAN-0018, strong
+      identification). Search Muriaé / Bom Jesus da Cachoeira and Carangola deaths 1908–1916.
+    notes: []
+  notes:
+  - text: >-
+      2026-10-12: Leonidia Fernandes de Azevedo (COARPE 38410248) is not his daughter (retrieval-side
+      reading); "Azevedo Maia" in the clerk's 1898 copy of the will is not a variant (see P-0038).
+    text_pt: >-
+      2026-10-12: Leonidia Fernandes de Azevedo (COARPE 38410248) não é filha dele (leitura do
+      lado da recuperação); "Azevedo Maia" na cópia de 1898 do testamento não é variante (ver
+      P-0038).
+- person_id: P-0139
+  external_profiles: []
+  records:
+  - record_type: baptism
+    status: catalogued
+    source_ids:
+    - PAR-0106
+    last_reviewed: "2026-10-12"
+    notes: []
+  - record_type: marriage
+    status: catalogued
+    source_ids:
+    - PAR-0107
+    last_reviewed: "2026-10-12"
+    notes:
+    - text: >-
+        The bride is "Joanna Maria Esposta"; later records call her Anna Maria (see E-0142).
+      text_pt: >-
+        A noiva é "Joanna Maria Esposta"; registros posteriores a chamam de Anna Maria (ver E-0142).
+  - record_type: death
+    status: catalogued
+    source_ids:
+    - PRB-0014
+    last_reviewed: "2026-10-12"
+    next_action: >-
+      His civil death entry (30 May 1898, district of Bom Jesus da Cachoeira Alegre, São Paulo
+      do Muriaé) is not held; the date comes from the inventário.
+    notes: []
+  - record_type: probate
+    status: catalogued
+    source_ids:
+    - PRB-0013
+    - PRB-0014
+    last_reviewed: "2026-10-12"
+    next_action: >-
+      Only the opening of the inventário (fl. 1–7) is on the film; the description, valuation
+      and partilha are not held.
+    notes: []
+  - record_type: immigration
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-10-12"
+    next_action: >-
+      His arrival in Brazil falls between late 1871 (PAR-0135) and 1885 (PRB-0016); no passenger
+      list or passport record is searched.
+    notes: []
+  notes: []
+- person_id: P-0140
+  external_profiles: []
+  records:
+  - record_type: baptism
+    status: not_applicable
+    source_ids: []
+    last_reviewed: "2026-10-12"
+    notes:
+    - text: >-
+        A foundling: her parents and birthplace are unknown by the records' own terms (PAR-0108,
+        PAR-0124).
+      text_pt: >-
+        Exposta: os pais e o lugar de nascimento são desconhecidos nos próprios termos dos registros
+        (PAR-0108, PAR-0124).
+  - record_type: marriage
+    status: catalogued
+    source_ids:
+    - PAR-0107
+    last_reviewed: "2026-10-12"
+    notes: []
+  - record_type: death
+    status: lead_only
+    source_ids: []
+    last_reviewed: "2026-10-12"
+    next_action: >-
+      Alive in November 1898 at Bom Jesus da Cachoeira Alegre (PRB-0014); search the Muriaé civil
+      deaths after 1898.
+    notes: []
+  notes: []
+- person_id: P-0141
+  external_profiles: []
+  records:
+  - record_type: baptism
+    status: catalogued
+    source_ids:
+    - PAR-0109
+    last_reviewed: "2026-10-12"
+    notes:
+    - text: Strong identification, not proven (age conflict with PAR-0110).
+      text_pt: Identificação forte, não provada (conflito de idade com PAR-0110).
+  - record_type: marriage
+    status: negative_search
+    source_ids: []
+    last_reviewed: "2026-10-12"
+    next_action: >-
+      Search Lama or other neighbouring parishes; the Ucha marriages 1745–1879 do not hold it,
+      and the Pousa marriages 1755–1859 do not survive (retrieval-side sweep).
+    notes: []
+  - record_type: death
+    status: catalogued
+    source_ids:
+    - PAR-0110
+    last_reviewed: "2026-10-12"
+    notes:
+    - text: Strong identification, not proven.
+      text_pt: Identificação forte, não provada.
+  notes: []
+- person_id: P-0142
+  external_profiles: []
+  records:
+  - record_type: baptism
+    status: inaccessible
+    source_ids: []
+    last_reviewed: "2026-10-12"
+    notes:
+    - text: >-
+        Born at Pousa c.1810 (PAR-0111); the Pousa baptisms 1778–1833 do not survive (ADB catalogue
+        and FamilySearch, per the retrieval side).
+      text_pt: >-
+        Nascida em Pousa c.1810 (PAR-0111); os batismos de Pousa de 1778–1833 não sobreviveram
+        (catálogo do ADB e FamilySearch, segundo o lado da recuperação).
+  - record_type: marriage
+    status: negative_search
+    source_ids: []
+    last_reviewed: "2026-10-12"
+    next_action: As for P-0141.
+    notes: []
+  - record_type: death
+    status: catalogued
+    source_ids:
+    - PAR-0111
+    last_reviewed: "2026-10-12"
+    notes: []
+  notes: []

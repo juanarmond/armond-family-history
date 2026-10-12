@@ -5,6 +5,25 @@ also remain traceable through source records and research logs.
 
 ## Unreleased
 
+### Added — Thereza Fernandes de Azevedo's Portuguese family and the sibling records (2026-10-12)
+
+- Retrieval cycle 2026-10-12, owner-authorised: 95 scans became 39 records in one `new_entity.py apply` transaction:
+  - 30 Barcelos parish entries (PAR-0106–PAR-0135);
+  - Manoel João Fernandes da Cruz's will and inventário, and his brother Domingos's will and estate division
+    (PRB-0013–PRB-0016);
+  - a FAN land record (FAN-0018);
+  - four sibling civil records (CIV-0056–CIV-0059).
+- New ancestors P-0139–P-0150, families F-0070–F-0075 and events E-0140–E-0150. Thereza (P-0039) now has her 1864
+  Pousa baptism, Portuguese nationality and a parent family. Her parent links are strong evidence.
+- Updated:
+  - P-0038, P-0039 and P-0013: profiles rewritten; new name variants and a FAN reference.
+  - P-0012: new citations.
+  - F-0018: partnership recorded as strong evidence.
+  - F-0001: Rozalina added; Aristides dated.
+  - F-0006: Marfiza's husband recorded.
+- Liliosa (P-0009): the Muriaé "Paz" lead is ruled out; record-coverage, STATUS, the family story (English and
+  Portuguese) and the "What's new" feed are updated.
+
 ### Added — the owner's parents' birth and marriage certificates, held privately (2026-10-12)
 
 - CIV-0052–CIV-0055 are four owner-supplied civil records of the living parents:

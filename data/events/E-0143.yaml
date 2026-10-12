@@ -1,0 +1,32 @@
+schema_version: 1
+id: E-0143
+event_type: death
+date:
+  kind: exact
+  value: '1898-05-30'
+  original_text: em 30 de Maio do corrente anno, falleceo no districto do Bom Jesus
+place_text: >-
+  District of Bom Jesus (da Cachoeira Alegre), São Paulo do Muriaé, Minas Gerais, Brazil
+participants:
+- person_id: P-0139
+  role: principal
+- person_id: P-0140
+  role: spouse
+status: confirmed
+source_ids:
+- PRB-0014
+notes:
+- text: >-
+    Death on 30 May 1898 "no districto do Bom Jesus", from the petition opening his inventário
+    and the oath of his son Joaquim José Fernandes, the inventariante (PRB-0014). The place is
+    written only as "districto do Bom Jesus"; "da Cachoeira Alegre" is taken from the same record,
+    where the widow and every heir are "moradores no Districto do Bom Jesus da Cachoeira Alegre".
+    His will (PRB-0013) states no death date. His widow, D. Anna Maria Fernandes (P-0140), is
+    named in the inventário.
+  text_pt: >-
+    Óbito em 30 de maio de 1898 "no districto do Bom Jesus", pela petição que abre o inventário
+    e pelo juramento do filho Joaquim José Fernandes, inventariante (PRB-0014). O lugar está escrito
+    apenas como "districto do Bom Jesus"; "da Cachoeira Alegre" vem do mesmo registro, em que
+    a viúva e todos os herdeiros são "moradores no Districto do Bom Jesus da Cachoeira Alegre".
+    O testamento (PRB-0013) não declara data de óbito. A viúva, D. Anna Maria Fernandes (P-0140),
+    é nomeada no inventário.

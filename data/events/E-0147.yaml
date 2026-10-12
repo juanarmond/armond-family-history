@@ -1,0 +1,28 @@
+schema_version: 1
+id: E-0147
+event_type: birth
+date:
+  kind: exact
+  value: '1807-10-20'
+  original_text: >-
+    Aos vinte dias do mez de Outubro [interlined: anno de mil oito centos e sette] nasceo Bento
+    … e foi solemnemente baptizado … aos vinte, e hum do d.o mez, e anno
+place_text: >-
+  lugar de Quintã (Quintam), São Romão da Ucha, Barcelos, Braga, Portugal
+participants:
+- person_id: P-0141
+  role: principal
+- person_id: P-0143
+  role: parent
+- person_id: P-0144
+  role: parent
+status: strong-evidence
+source_ids:
+- PAR-0109
+notes:
+- text: >-
+    Born 20 October 1807, as stated in the baptism of the next day (PAR-0109). Tier as for the
+    baptism, E-0146.
+  text_pt: >-
+    Nascido em 20 de outubro de 1807, como declara o batismo do dia seguinte (PAR-0109). Grau
+    como o do batismo, E-0146.

@@ -16,6 +16,19 @@ name_variants:
     type: source
     source_ids:
       - PAR-0003
+  - value: Luiza Secunda[s] de Azevedo
+    type: source
+    source_ids:
+      - CIV-0057
+    note: >-
+      Her daughter Rozalina's 1983 death: "dona Luiza Secunda[s] de Azevedo", the ending uncertain.
+  - value: Luiza Secundina de Oliveira
+    type: other
+    source_ids:
+      - CIV-0058
+    note: >-
+      Her son Aristides's 1953 marriage (a 2019 certidão): a clerk's slip for "de Azevedo"; not
+      her surname.
 event_ids:
   - E-0001
   - E-0004
@@ -29,187 +42,592 @@ occupations:
       - CIV-0006
 notes:
   - text: >-
-      Her parents are José Secundino de Azevedo (P-0038) and Thereza Fernandes de
-      Azevedo (P-0039) — family F-0018 — named in her 1916 civil marriage (CIV-0001),
-      her 1916 parish marriage (PAR-0012) and her son Aristides's 1922 baptism
-      (PAR-0003). "Fernandes" is her mother's surname and "Secundina/Secundino" her
-      father's; both variants of her own name are preserved. Her 1916 parish marriage
-      records her "nascida e baptizada em Bom Jesus de Cachoeira Alegre" (a district of
-      São Paulo do Muriaé, MG — her birthplace, event E-0033). The Azevedo family origin
-      is the Muriaé/Carangola region (MG).
+      Her parents are José Secundino de Azevedo (P-0038) and Thereza Fernandes de Azevedo (P-0039)
+      — family F-0018 — named in her 1916 civil marriage (CIV-0001), her 1916 parish marriage
+      (PAR-0012) and her son Aristides's 1922 baptism (PAR-0003). "Fernandes" is her mother's
+      surname and "Secundina/Secundino" her father's; both variants of her own name are preserved.
+      Her 1916 parish marriage records her "nascida e baptizada em Bom Jesus de Cachoeira Alegre"
+      (a district of São Paulo do Muriaé, MG — her birthplace, event E-0033). The Azevedo family
+      origin is the Muriaé/Carangola region (MG). [Revised 2026-10-12: her mother's side is now
+      documented in the Minho — Thereza was baptised at Pousa, Barcelos, Portugal, in 1864 (PAR-0108);
+      her father's Azevedo origin remains undocumented.]
     text_pt: >-
-      Seus pais são José Secundino de Azevedo (P-0038) e Thereza Fernandes de Azevedo
-      (P-0039) — família F-0018 — nomeados em seu casamento civil de 1916 (CIV-0001),
-      seu casamento paroquial de 1916 (PAR-0012) e no batismo de 1922 de seu filho
-      Aristides (PAR-0003). "Fernandes" é o sobrenome de sua mãe e
-      "Secundina/Secundino" o de seu pai; ambas as variantes de seu próprio nome são
-      preservadas. Seu casamento paroquial de 1916 a registra como "nascida e baptizada
-      em Bom Jesus de Cachoeira Alegre" (um distrito de São Paulo do Muriaé, MG — seu
-      local de nascimento, evento E-0033). A origem da família Azevedo é a região de
-      Muriaé/Carangola (MG).
+      Seus pais são José Secundino de Azevedo (P-0038) e Thereza Fernandes de Azevedo (P-0039)
+      — família F-0018 — nomeados em seu casamento civil de 1916 (CIV-0001), seu casamento paroquial
+      de 1916 (PAR-0012) e no batismo de 1922 de seu filho Aristides (PAR-0003). "Fernandes" é
+      o sobrenome de sua mãe e "Secundina/Secundino" o de seu pai; ambas as variantes de seu próprio
+      nome são preservadas. Seu casamento paroquial de 1916 a registra como "nascida e baptizada
+      em Bom Jesus de Cachoeira Alegre" (um distrito de São Paulo do Muriaé, MG — seu local de
+      nascimento, evento E-0033). A origem da família Azevedo é a região de Muriaé/Carangola (MG).
+      [Revisto em 2026-10-12: o lado materno está agora documentado no Minho — Thereza foi batizada
+      em Pousa, Barcelos, Portugal, em 1864 (PAR-0108); a origem Azevedo do pai continua sem documentação.]
 profile: >-
   ## Interesting facts
 
-  - **[PROVEN]** Hers is the only literacy datum in this whole branch of the tree, and it is a negative one: her 1916 marriage act records that she "não sabe ler nem escrever" and was signed for *a rogo* by José Augusto [uncertain: Soares / Tavares] Pinheiro, while her husband Deocleciano signed his own name on the same page (CIV-0006). Eleven Azevedo, Brandão and Machado ancestors stand behind her and not one of them leaves a signature; Luiza's act is where the silence finally becomes a stated fact.
 
-  - **[PROVEN]** She appears under two names: "Luiza Fernandes de Azevedo" at her 1916 civil and parish marriage and at her son Antenor's 1949 marriage (CIV-0001, PAR-0012, CIV-0004), and "Luiza Secundina de Azevedo" at her son Aristides's 1922 baptism (PAR-0003). Both forms are parental — *Fernandes* from her mother Thereza, *Secundina* from her father José Secundino.
+  - **[PROVEN]** Her marriage act states her illiteracy: she "não sabe ler nem escrever" and was
+  signed for *a rogo* by José Augusto [uncertain: Soares / Tavares] Pinheiro, while her husband
+  Deocleciano signed his own name on the same page (CIV-0006). It is now one point in a pattern
+  across three generations of the women of her mother's line: in 1898 her grandmother Anna Maria
+  signed by proxy and her mother Thereza could not sign, while her father Secundino and her mother's
+  brothers-in-law signed the same instrument "por si e suas mulheres por não saberem escrever"
+  (PRB-0014). The earlier statement that hers was "the only literacy datum in this whole branch
+  of the tree", with no signature from any ancestor behind her, is superseded.
 
-  - **[PROVEN]** Both 1916 acts style her "Dona Luiza Fernandes de Azevedo" — on the same page that records she could not write her own name (CIV-0006, PAR-0012). By 1916 the honorific was scribal courtesy for any bride, not a claim of standing; read it as registry formula, not status. [INFERRED — the reading]
+  - **[PROVEN]** Her mother was born in Portugal: Thereza de Jesus, born on 3 May 1864 at the
+  lugar do Souto, Pousa, Barcelos, daughter of a tailor, Manoel João Fernandes, and of a foundling
+  seamstress, "Anna Exposta" (PAR-0108). On her mother's side, then, Luiza was the Brazilian-born
+  child of a Minho emigrant family. [INFERRED — this rests on the strong identification of her
+  mother with the Thereza of the 1890 will and 1898 inventário (PRB-0013, PRB-0014)]
 
-  - **[PROVEN]** At her marriage her father was already dead and her widowed mother was living in the same Carangola district (CIV-0006, PAR-0012). This is the only moment the whole Azevedo household is visible in one document, and what it shows is a widow-and-daughters family with no male head and no property named.
+  - **[INFERRED]** She was born about the year her grandfather died, in the same district. She
+  was 18 in October 1916 (CIV-0001), so born about 1898, "nascida e baptizada em Bom Jesus de
+  Cachoeira Alegre" (PAR-0012); her grandfather Manoel João Fernandes da Cruz died on 30 May 1898
+  in the district of Bom Jesus, and in November 1898 her parents were living there among his heirs
+  (PRB-0014).
 
-  - **[CONTEXTUAL]** She was born at Bom Jesus de Cachoeira Alegre, a rural locality of the São Paulo do Muriaé district in the Zona da Mata Mineira coffee belt — a hamlet-level birthplace, not a town. Her childhood fell in the decade after abolition (1888), when the region's labour system had been remade around sharecropping and casual wage work and families without land had no buffer at all.
+  - **[PROVEN]** She appears under two true names and one false one. "Luiza Fernandes de Azevedo"
+  is the form at her 1916 civil and parish marriage and at her son Antenor's 1949 marriage (CIV-0001,
+  PAR-0012, CIV-0004); "Luiza Secundina de Azevedo" at her son Aristides's 1922 baptism (PAR-0003)
+  and her daughter Rozalina's 1983 death (CIV-0057). Aristides's 1953 civil marriage miswrites
+  her as "Luiza Secundina de Oliveira" (CIV-0058) — a clerical slip for *de Azevedo*, not a third
+  surname, and not to be propagated. Both true forms are parental: *Fernandes* is her mother's
+  birth surname, from her Portuguese grandfather, and *Secundina* echoes her father José Secundino.
+
+  - **[PROVEN]** Both 1916 acts style her "Dona Luiza Fernandes de Azevedo" — on the same page
+  that records she could not write her own name (CIV-0006, PAR-0012) — and her daughter's 1983
+  death calls her "dona Luiza Secundina de Azevedo" (CIV-0057). The 1898 inventário likewise gives
+  "D." to every woman of her mother's family, none of whom could sign (PRB-0014). The honorific
+  was scribal courtesy, not a claim of standing; read it as registry formula, not status. [INFERRED
+  — the reading]
+
+  - **[CONTEXTUAL]** She was born at Bom Jesus de Cachoeira Alegre, a rural locality of the São
+  Paulo do Muriaé district in the Zona da Mata Mineira coffee belt — a hamlet-level birthplace,
+  not a town. Her childhood fell in the decade after abolition (1888), when the region's labour
+  system had been remade around sharecropping and casual wage work, and a family of small cultivators
+  had little reserve against a bad harvest or a fall in coffee prices.
+
 
   ## Identity
 
-  **Luiza Fernandes de Azevedo** [PROVEN] — the form in her 1916 civil marriage (CIV-0001), the 1916 parish marriage (PAR-0012) and her son Antenor's 1949 marriage (CIV-0004). She also appears as **Luiza Secundina de Azevedo** in her son Aristides's 1922 baptism (PAR-0003).
 
-  - **Relationship:** mother of **Antenor Muniz** (P-0006, 1923–2014), through whom this line descends; wife of Deocleciano Muniz Bittencourt (P-0012). [derived from families F-0001 and F-0018]
+  **Luiza Fernandes de Azevedo** [PROVEN] — the form in her 1916 civil marriage (CIV-0001), the
+  1916 parish marriage (PAR-0012) and her son Antenor's 1949 marriage (CIV-0004). She also appears
+  as **Luiza Secundina de Azevedo** in her son Aristides's 1922 baptism (PAR-0003) and her daughter
+  Rozalina's 1983 death (CIV-0057). The "Luiza Secundina de Oliveira" of Aristides's 1953 marriage
+  (CIV-0058) is an error. [PROVEN — the readings; the error is INFERRED from every other record]
 
-  - **Birth:** about **1898** (recorded aged 18 in October 1916), at **Bom Jesus de Cachoeira Alegre, district of São Paulo do Muriaé, Minas Gerais** [birth year INFERRED from the stated age; birthplace PROVEN] — "nascida e baptizada em Bom Jesus de Cachoeira Alegre" (PAR-0012; age 18 in CIV-0001). No birth or baptism record is held.
 
-  - **Parents:** **José Secundino de Azevedo** (P-0038) and **Thereza Fernandes de Azevedo** (P-0039) [PROVEN] — named in her 1916 civil marriage (CIV-0001, as "Secundino Maria de Azevedo" and "Theresa Fernandes de Azevedo"), her 1916 parish marriage (PAR-0012) and her son Aristides's 1922 baptism (PAR-0003, giving the fuller "José Secundino"). Her father was already deceased and her mother living at Carangola by 1916 (CIV-0006, PAR-0012). The parish act (PAR-0012) resolves the civil copy's low-contrast misread of the father's name ("Sebastião", CIV-0006) to Secundino; that resolution stands and is not reopened here.
+  - **Relationship:** mother of **Antenor Muniz** (P-0006, 1923–2014), through whom this line
+  descends; wife of Deocleciano Muniz Bittencourt (P-0012). [derived from families F-0001, F-0018
+  and F-0070]
 
-  - **Marriage:** to **Deocleciano Muniz Bittencourt** (P-0012) at **Carangola, Minas Gerais, on 21 October 1916** [PROVEN] — civil (CIV-0001 / CIV-0006) and religious (PAR-0012, Igreja de Santa Luzia de Carangola), both spouses single and resident in the district, under the *regime de comunhão de bens*. Witnesses at both acts: Justino Ribeiro Rodrigues (44, lavrador) and Antonio Theodoro de Souza (30), the same two men who witnessed her sister-in-law Joventina's marriage in the same church on the same day (PAR-0013).
+  - **Birth:** about **1898** (recorded aged 18 in October 1916), at **Bom Jesus de Cachoeira
+  Alegre, district of São Paulo do Muriaé, Minas Gerais** [birth year INFERRED from the stated
+  age; birthplace PROVEN] — "nascida e baptizada em Bom Jesus de Cachoeira Alegre" (PAR-0012;
+  age 18 in CIV-0001). No birth or baptism record is held.
 
-  - **Children:** **Antenor Muniz** (P-0006, b. 2 November 1923) and the documented child **Aristides** (b. 22 July 1922, bapt. 20 September 1922, PAR-0003). Further children circulate on collaborative trees [LEAD].
+  - **Parents:** **José Secundino de Azevedo** (P-0038) and **Thereza Fernandes de Azevedo** (P-0039)
+  [PROVEN] — named in her 1916 civil marriage (CIV-0001, as "Secundino Maria de Azevedo" and "Theresa
+  Fernandes de Azevedo"), her 1916 parish marriage (PAR-0012) and her son Aristides's 1922 baptism
+  (PAR-0003, giving the fuller "José Secundino"). Her father was already deceased and her mother
+  living at Carangola by 1916 (CIV-0006, PAR-0012). The parish act (PAR-0012) resolves the civil
+  copy's low-contrast misread of the father's name ("Sebastião", CIV-0006) to Secundino; that
+  resolution stands and is not reopened here. In November 1898, about the time of her birth, the
+  couple were living in the district of Bom Jesus da Cachoeira Alegre, where her mother was an
+  heir of her own father as "D. Thereza de Jesus casada com Secundino de Azevedo" (PRB-0014).
+  [PROVEN — on the strong identification set out in P-0039's profile]
 
-  - **Death:** not documented in this repository; a collaborative-tree lifespan of about 1986 is a lead only. [OPEN]
+  - **Maternal ancestry:** her mother was born on 3 May 1864 at Pousa, Barcelos, Portugal (PAR-0108).
+  Her maternal grandparents were **Manoel João Fernandes da Cruz** (P-0139) — baptised at São
+  Romão da Ucha in 1833 (PAR-0106), a tailor at Pousa (PAR-0108), later a *lavrador* in Minas
+  Gerais (PRB-0016), d. 30 May 1898 in the district of Bom Jesus (PRB-0014) — and **Anna Maria**
+  (P-0140), a foundling (PAR-0108, PAR-0107). Her great-grandparents on that side were Bento José
+  Fernandes (P-0141) and Joaquina Roza Lopes (P-0142), of Quintã / Quintão, Ucha (PAR-0106). For
+  Antenor these are his great-grandparents and 2×-great-grandparents. [PROVEN — the records; the
+  link to her mother rests on a strong identification, not proof]
+
+  - **Paternal ancestry:** her father's parents are undocumented. [OPEN]
+
+  - **Marriage:** to **Deocleciano Muniz Bittencourt** (P-0012) at **Carangola, Minas Gerais,
+  on 21 October 1916** [PROVEN] — civil (CIV-0001 / CIV-0006) and religious (PAR-0012, Igreja
+  de Santa Luzia de Carangola), both spouses single and resident in the district, under the *regime
+  de comunhão de bens*. Witnesses at both acts: Justino Ribeiro Rodrigues (44, lavrador) and Antonio
+  Theodoro de Souza (30), the same two men who witnessed her sister-in-law Joventina's marriage
+  in the same church on the same day (PAR-0013).
+
+  - **Children:** **Antenor Muniz** (P-0006, b. 2 November 1923); **Aristides** (b. 22 July 1922,
+  bapt. 20 September 1922, PAR-0003), who married at São João de Meriti, RJ, in 1953 (CIV-0058)
+  and died at Itaguaí, RJ, in 1981 (CIV-0059 — a record whose filiation reads "Ignorado", so it
+  does not name her); and **Rozalina Bittencourt Alves**, who died at Duque de Caxias, RJ, in
+  1983, recorded as the daughter of Deocleciano Muniz Bittencourt and "Luiza Secundina de Azevedo"
+  (CIV-0057). [PROVEN] Further children circulate on collaborative trees. [LEAD]
+
+  - **Death:** not documented in this repository; a collaborative-tree lifespan of about 1986
+  is a lead only. [OPEN]
+
 
   ## Standing and profession
 
-  - **Doméstica** [PROVEN] (CIV-0006) — the standard registry term for a woman working in her own or another's household, carrying no wage or property implication.
 
-  - **Illiterate** [PROVEN] — "por aquella não saber ler nem escrever" (CIV-0006); she signed by proxy while her husband signed in his own hand.
+  - **Doméstica** [PROVEN] (CIV-0006) — the standard registry term for a woman working in her
+  own or another's household, carrying no wage or property implication.
 
-  - **No property, office, title or trade is attested for her or for her parents' household** in any held record. [PROVEN as a negative across the held set]
+  - **Illiterate** [PROVEN] — "por aquella não saber ler nem escrever" (CIV-0006); she signed
+  by proxy while her husband signed in his own hand.
+
+  - **No property, office, title or trade is attested for her** in any held record. [PROVEN as
+  a negative across the held set] The earlier extension of that negative to "her parents' household"
+  is withdrawn: her father is named in 1908 as the holder of land bordering a property at Bom
+  Jesus (FAN-0018, context, not evidence), and her mother was one of five forced heirs to an estate
+  that went to inventário and partilha in 1898 (PRB-0013, PRB-0014). How much of it reached her
+  parents is not recorded in the held part of the process. [OPEN]
+
 
   ## Family and social network
 
-  Daughter of the **Azevedo** family of the São Paulo do Muriaé / Carangola axis (P-0038 × P-0039, family F-0018). Two sisters are documented by their own civil deaths: **Alcida Fernandes de Azevedo** (d. 20 May 1975, Mesquita, RJ — CIV-0051, naming the same mother and a variant of the same father) and **Gloria Lacerda de Azevedo** (d. 9 May 1960, Niterói, RJ — óbito nº 26.483, read in the retrieval drop but **not yet catalogued as a source in this repository**). Alcida is recorded as the widow of a **Manoel Muniz Bittencourt** (CIV-0051) [PROVEN]; that this Manoel was Deocleciano's brother — making two Azevedo sisters the wives of two Muniz Bittencourt brothers — is a research-profile reading and remains a **[LEAD]**.
 
-  Her widowed mother Thereza was resident at Carangola by 1916 (CIV-0006, PAR-0012), so the Azevedo women had moved into the same district as the Muniz Bittencourt household she married into.
+  Daughter of the **Azevedo** household of the São Paulo do Muriaé / Carangola axis (P-0038 ×
+  P-0039, family F-0018), and granddaughter, on her mother's side, of a Portuguese family that
+  had settled in the same district: in 1898 her grandmother, her uncle Joaquim José Fernandes
+  and her aunts Maria José da Conceição, Maria Fernandes de Souza and Maria de Jesus da Conceição,
+  with their husbands, all lived in the district of Bom Jesus da Cachoeira Alegre (PRB-0014).
+  [PROVEN] She was born, then, into a cluster of her mother's kin. [INFERRED]
+
+
+  Two sisters are documented by their own civil deaths: **Alcida Fernandes de Azevedo** (d. 20
+  May 1975, Mesquita, RJ — CIV-0051, naming the same mother and a variant of the same father)
+  and **Gloria Lacerda de Azevedo** (d. 9 May 1960, Niterói, RJ — óbito nº 26.483, read in the
+  retrieval drop but **not yet catalogued as a source in this repository**). Alcida is recorded
+  as the widow of a **Manoel Muniz Bittencourt** (CIV-0051) [PROVEN]; that this Manoel was Deocleciano's
+  brother — making two Azevedo sisters the wives of two Muniz Bittencourt brothers — is a research-profile
+  reading and remains a **[LEAD]**.
+
+
+  At her marriage her father was already dead and her widowed mother was living in the same Carangola
+  district (CIV-0006, PAR-0012), so the Azevedo women had moved into the district of the Muniz
+  Bittencourt household she married into. The 1916 act names no property, but it is no longer
+  read as showing a family without any. [INFERRED]
+
 
   ## What we can extrapolate
 
-  **1. The Azevedo hold no capital in any transmissible form — and that changes what inheritance means here. [INFERRED / CONTEXTUAL]** Nineteenth-century Brazilian capital came in three shapes: land (heritable), office (contingent on the appointment) and credit or commerce (contingent on the regional economy). Her father's record shows none of the three; his only asset was labour, which transmits nothing but itself. The consequence is easy to miss: **Brazilian partible succession — the rule that split every estate equally among all children and fragmented a holding within two generations — is a non-event for this family.** There was no estate to divide, no quota to spend, no plot to subdivide among siblings. Where the Azorean side of her husband's tree was impoverished *by* division (P-0084's Lomba do Botão holding, split until the great-grandsons had to emigrate), the Azevedo were poor in a different and more absolute way: nothing was diluted because nothing existed to dilute.
 
-  **2. Her marriage is modest hypergamy, and kinship is the substitute for the property the family never had. [INFERRED]** She signs by proxy; Deocleciano signs his own name, is recorded *lavrador*, and belongs to the kin-networked Muniz/Brandão world of Carangola. A widow-headed, propertyless household marrying its daughter into a more-established family is the classic move of people whose only capital is their people — it converts a marriage into security. Her mother following her into the Carangola district is the same logic running a second time, and if the Alcida marriage reading holds [LEAD], the family did it twice in one generation, sending two daughters into the same household.
+  **1. Her mother's family were Minho emigrants of modest means, not a propertyless floor. [INFERRED]**
+  The earlier version of this profile read the Azevedo as holding no capital in any transmissible
+  form, so that Brazilian partible succession was "a non-event for this family". The records found
+  since overturn that. Her grandfather made a will and his goods went to "inventario e partilha"
+  among five heirs, her mother one of them (PRB-0013, PRB-0014); her great-uncle Domingos's estate,
+  divided in 1885–86, was worth 5:691$000 (PRB-0016); and her father held or worked land at Bom
+  Jesus in 1908 (FAN-0018, context). Partible succession therefore did operate in her family,
+  a few months after her birth. What it yielded is unknown: the held part of the 1898 inventário
+  breaks off before the goods are described (PRB-0014). [OPEN — the scale] The contrast the earlier
+  profile drew with the Azorean side of her husband's tree — impoverished *by* division of the
+  Lomba do Botão holding (P-0084) — now reads as a difference of degree rather than of kind. [INFERRED]
 
-  **3. Education was purchased, not inherited, and the marriage act photographs the exact price line. [CONTEXTUAL / PROVEN]** There was no free rural schooling to fall back on; literacy in the 1890s Zona da Mata was bought, household by household, and re-bought every generation. The 1916 act puts the two sides of that boundary on one page: the smallholder's son can write, the landless daughter cannot. Her illiteracy is therefore structural rather than personal. Nor did her husband's literacy reliably carry forward — no autograph is held for their son Antenor, whose schooling is undocumented [OPEN]; competence bought for one man's needs is not an inheritance.
 
-  **4. Landlessness made the family mobile, and the mobility is documented. [INFERRED / CONTEXTUAL]** Within a single generation of her marriage the Azevedo daughters are in the Rio de Janeiro metropolitan area — Gloria at Niterói (1960), Alcida in the Baixada Fluminense (1975) — and her own son Antenor died at Volta Redonda (2014, CIV-0028), by then a *bombeiro hidráulico* rather than a farmer. That is the Brazilian *êxodo rural* in one family, and its enabling condition is precisely the poverty: a household with no land loses nothing by leaving. The same propertylessness that makes the Azevedo almost invisible in the archive is what let their descendants move to wage work without a rupture.
+  **2. Her marriage joined two families of small cultivators. [INFERRED]** She signs by proxy;
+  Deocleciano signs his own name, is recorded *lavrador*, and belongs to the kin-networked Muniz/Brandão
+  world of Carangola (CIV-0006). The earlier reading of this as "modest hypergamy" by a propertyless,
+  widow-headed household is weakened: her own father held land and her mother's family had an
+  estate. The gap between the two families looks smaller than it did. Her mother following her
+  into the Carangola district (CIV-0006) still reads as a widow moving towards kin, and if the
+  Alcida marriage reading holds [LEAD], the family sent two daughters into the same household.
 
-  **5. The arc is flat, then urban — not a fall. [INFERRED]** It is worth naming what this line is *not*. There is no lost fortune behind Luiza, no office that stopped paying, no estate fragmented away. From her grandparents' generation to her son's the family sells labour throughout; what changes is only where the labour is sold — a Muriaé roça, then a Carangola district, then a steel city. She is the point where the propertyless Azevedo floor joins a smallholding, kin-anchored Muniz base one rung above it, and her children inherit both: a little land and a lot of relatives on one side, and on the other no cushion at all.
+
+  **3. Literacy divided her family by sex more than by class. [INFERRED]** The 1916 act puts a
+  literate husband and an illiterate wife on one page (CIV-0006), and the earlier profile read
+  it as a class line: "the smallholder's son can write, the landless daughter cannot". The 1898
+  procuração shows that this reading was wrong. Her own father signed it, and so did every other
+  man who granted it — her uncle Joaquim and two of her mother's brothers-in-law — while every
+  woman among the grantors — her grandmother, her mother and two of her aunts — could not (PRB-0014).
+  Her grandfather, the emigrant, could not write at all (PRB-0013, PRB-0016). Letters entered
+  her family through the men of her mother's generation and passed over its women; her illiteracy
+  is that pattern, not a mark of destitution. Nor did her husband's literacy reliably carry forward:
+  no autograph is held for their son Antenor, whose schooling is undocumented. [OPEN]
+
+
+  **4. Her children's move to the city is well documented. [INFERRED / CONTEXTUAL]** Within a
+  generation of her marriage her children were in the Rio de Janeiro metropolitan area: Aristides
+  married at São João de Meriti in 1953 (CIV-0058) and died at Itaguaí in 1981 (CIV-0059); Rozalina
+  died at Duque de Caxias in 1983 (CIV-0057); her sisters died at Niterói (1960) and Mesquita
+  (1975, CIV-0051); and her son Antenor died at Volta Redonda (2014, CIV-0028), by then a *bombeiro
+  hidráulico* rather than a farmer. That is the Brazilian *êxodo rural* in one family. The earlier
+  explanation — that a household with no land "loses nothing by leaving" — has lost its premise;
+  the records show the move, not its cause.
+
+
+  **5. The arc is two migrations, not a fall. [INFERRED]** There is no lost fortune behind Luiza,
+  and no rise either. Her grandfather crossed from a Minho parish to the Zona da Mata coffee frontier
+  as an artisan turned *lavrador* (PAR-0108, PRB-0016); her father held or worked land at Bom
+  Jesus (FAN-0018, context); her children moved to the Baixada Fluminense and the steel city of
+  Volta Redonda (CIV-0057, CIV-0058, CIV-0028). She stands between the two migrations, the Atlantic
+  one of her mother's family and the rural exodus of her children, and the family's means look
+  modest at every step.
+
 
   ## Open questions
 
-  - Her own baptism (Bom Jesus de Cachoeira Alegre / São Paulo do Muriaé, about 1898) — would give an exact birth date and independently name her parents. [OPEN]
 
-  - Her death record — undocumented; the collaborative-tree date of about 1986 is a lead only, and a death certificate or inventário would also give a record-based count of her children. [OPEN]
+  - **Her own baptism** (Bom Jesus de Cachoeira Alegre / São Paulo do Muriaé, about 1898) — would
+  give an exact birth date and independently name her parents. If, like her son's 1922 baptism
+  (PAR-0003), it names the grandparents, it would also prove her mother's descent from Manoel
+  João Fernandes and Anna Maria and name her father's parents, the open gap on the Azevedo side.
+  No Muriaé-area church book is on FamilySearch, according to the retrieval research. [OPEN]
+
+  - **Her death record** — undocumented; the collaborative-tree date of about 1986 is a lead only,
+  and a death certificate or inventário would also give a record-based count of her children.
+  [OPEN]
+
+  - **Her parents' marriage** (before 8 March 1890, probably at São João Batista do Laranjal)
+  — see P-0038 and P-0039. [LEAD]
+
 
   ## Sources held (this repository)
 
-  - CIV-0001 (1916 civil marriage — age 18, birthplace, parents) · CIV-0006 (full-content 1916 marriage — doméstica, the stated illiteracy and proxy signature, the witnesses, the father-name misread "Sebastião") · PAR-0012 (1916 parish marriage — resolves the father to Secundino; birthplace Bom Jesus de Cachoeira Alegre).
 
-  - PAR-0003 (1922 baptism of her son Aristides — the "Luiza Secundina de Azevedo" variant; names her parents) · CIV-0004 (1949 marriage of her son Antenor — names her as his mother) · CIV-0028 (2014 death of her son Antenor — names her again, and documents his move to Volta Redonda).
+  - CIV-0001 (1916 civil marriage — age 18, birthplace, parents) · CIV-0006 (full-content 1916
+  marriage — doméstica, the stated illiteracy and proxy signature, the witnesses, the father-name
+  misread "Sebastião") · PAR-0012 (1916 parish marriage — resolves the father to Secundino; birthplace
+  Bom Jesus de Cachoeira Alegre).
 
-  - CIV-0051 (1975 death of her sister Alcida — a documented collateral child of her parents) · REC-0001 (owner's direct-ancestor roster).
+  - PAR-0003 (1922 baptism of her son Aristides — the "Luiza Secundina de Azevedo" variant; names
+  her parents) · CIV-0004 (1949 marriage of her son Antenor — names her as his mother) · CIV-0028
+  (2014 death of her son Antenor — names her again, and documents his move to Volta Redonda).
 
-  - CIV-0053 — a granddaughter's civil birth registration (held privately: it concerns a
-  living person) names her as the paternal grandmother, "dona Luiza Fernandes de Azevedo",
-  with Deocleciano Muniz. Informant-reported; it corroborates Antenor's parentage alongside
-  CIV-0004.
+  - CIV-0057 (1983 death of her daughter Rozalina at Duque de Caxias — names her "Luiza Secundina
+  de Azevedo") · CIV-0058 (1953 civil marriage of her son Aristides at São João de Meriti — names
+  her, miswritten "Luiza Secundina de Oliveira") · CIV-0059 (1981 death of Aristides at Itaguaí
+  — filiation "Ignorado"; it does not name her).
+
+  - CIV-0051 (1975 death of her sister Alcida — a documented collateral child of her parents)
+  · REC-0001 (owner's direct-ancestor roster).
+
+  - PAR-0108 (her mother's 1864 baptism at Pousa) · PAR-0106 (her grandfather's 1833 baptism at
+  Ucha) · PRB-0013 and PRB-0014 (her grandfather's will, 1890, and inventário, 1898 — her mother
+  an heir, her parents resident at Bom Jesus) · FAN-0018 (a 1908 inventário naming her father
+  as a land neighbour at Bom Jesus — context, not evidence).
+
+  - CIV-0053 — a granddaughter's civil birth registration (held privately: it concerns a living
+  person) names her as the paternal grandmother, "dona Luiza Fernandes de Azevedo", with Deocleciano
+  Muniz. Informant-reported; it corroborates Antenor's parentage alongside CIV-0004.
+
 
   ## Regional and migration context
 
-  [CONTEXTUAL] Her documented world is entirely the **Zona da Mata Mineira** — born at Bom Jesus de Cachoeira Alegre in the São Paulo do Muriaé district and married at neighbouring Carangola, an internal move inside one contiguous coffee micro-region. The economy she was born into ran on the post-1850 free-labour transition: the Lei nº 581 de 1850 (Lei Eusébio de Queirós) ending the Atlantic slave trade, abolition under the Lei Áurea (1888), and land placed on a purchase basis by the Lei de Terras (nº 601, 1850) — a framework that made land a commodity her family never entered. [OPEN] No Madeiran, Azorean or other Portuguese-island origin is documented for the Azevedo; the island thread in this line belongs to a Carangola collateral, not to her ancestors, and no origin is inferred from the surname.
+
+  [CONTEXTUAL] Her own documented life is entirely the **Zona da Mata Mineira** — born at Bom
+  Jesus de Cachoeira Alegre in the São Paulo do Muriaé district and married at neighbouring Carangola,
+  an internal move inside one contiguous coffee micro-region. Her mother's family had reached
+  that region from Portugal: from Pousa, Barcelos, where her mother was baptised in 1864 (PAR-0108),
+  to São João do Laranjal by 1885 (PRB-0016) and the district of Bom Jesus by 1898 (PRB-0014).
+  [PROVEN — the places] Her maternal line is therefore documented in the Minho by baptism, not
+  inferred from a surname; her father's Azevedo origin remains undocumented, and no Madeiran,
+  Azorean or other Portuguese-island origin is documented for either side — the island thread
+  in this line belongs to a Carangola collateral of unproven kinship, not to her ancestors. [OPEN]
+  The economy she was born into ran on the post-1850 free-labour transition: the Lei nº 581 de
+  1850 (Lei Eusébio de Queirós) ending the Atlantic slave trade, abolition under the Lei Áurea
+  (1888), and land placed on a purchase basis by the Lei de Terras (nº 601, 1850). The earlier
+  statement that land was "a commodity her family never entered" is superseded: her father held
+  or worked land at Bom Jesus by 1908 (FAN-0018). [CONTEXTUAL]
+
 
   ## Where to go today
 
-  - **Birth (~1898):** Bom Jesus de Cachoeira Alegre, distrito de Muriaé, MG; sede parish Paróquia São Paulo de Muriaé (Rua Dr Afonso Canedo 47) [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Bom%20Jesus%20da%20Cachoeira%2C%20Muria%C3%A9%2C%20MG)
 
-  - **Marriage (1916):** Igreja Matriz de Santa Luzia de Carangola, MG (Praça Cel. Maximiano 138, CEP 36800-000) [RESOLVED] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20Santa%20Luzia%2C%20Pra%C3%A7a%20Cel.%20Maximiano%20138%2C%20Carangola%20-%20MG)
+  - **Birth (~1898):** Bom Jesus da Cachoeira, a district of Muriaé, MG — the "Bom Jesus de Cachoeira
+  Alegre" of her marriage act, made a district of São Paulo do Muriaé in 1887 and renamed in 1943;
+  not the Muriaé town parish, and not the Cachoeira Alegre district of Barão de Monte Alto [APPROX]
+  · [Maps](https://www.google.com/maps/search/?api=1&query=Bom%20Jesus%20da%20Cachoeira%2C%20Muria%C3%A9%2C%20MG)
+
+  - **Marriage (1916):** Igreja Matriz de Santa Luzia de Carangola, MG (Praça Cel. Maximiano 138,
+  CEP 36800-000) [RESOLVED] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20Santa%20Luzia%2C%20Pra%C3%A7a%20Cel.%20Maximiano%20138%2C%20Carangola%20-%20MG)
 profile_pt: >-
   ## Fatos interessantes
 
-  - **[PROVEN]** O dela é o único dado de alfabetização em todo este ramo da árvore, e é negativo: seu ato de casamento de 1916 registra que "não sabe ler nem escrever" e que assinou-se *a rogo* por José Augusto [incerto: Soares / Tavares] Pinheiro, enquanto o marido Deocleciano assinou o próprio nome na mesma página (CIV-0006). Onze ancestrais Azevedo, Brandão e Machado estão atrás dela e nenhum deixa uma assinatura; o ato de Luiza é onde esse silêncio enfim vira fato declarado.
 
-  - **[PROVEN]** Ela aparece sob dois nomes: "Luiza Fernandes de Azevedo" em seu casamento civil e paroquial de 1916 e no casamento de 1949 de seu filho Antenor (CIV-0001, PAR-0012, CIV-0004), e "Luiza Secundina de Azevedo" no batismo de 1922 de seu filho Aristides (PAR-0003). Ambas as formas são parentais — *Fernandes* de sua mãe Thereza, *Secundina* de seu pai José Secundino.
+  - **[PROVEN]** Seu ato de casamento declara o analfabetismo: ela "não sabe ler nem escrever"
+  e foi assinada *a rogo* por José Augusto [incerto: Soares / Tavares] Pinheiro, enquanto o marido
+  Deocleciano assinou o próprio nome na mesma página (CIV-0006). Isso é agora um ponto num padrão
+  de três gerações das mulheres da linha de sua mãe: em 1898 a avó Anna Maria assinou por procuração
+  e a mãe Thereza não sabia assinar, enquanto o pai Secundino e os cunhados de sua mãe assinaram
+  o mesmo instrumento "por si e suas mulheres por não saberem escrever" (PRB-0014). Fica superada
+  a afirmação anterior de que o dela era "o único dado de alfabetização em todo este ramo da árvore",
+  sem assinatura de nenhum ancestral atrás dela.
 
-  - **[PROVEN]** Os dois atos de 1916 a tratam por "Dona Luiza Fernandes de Azevedo" — na mesma página que registra não saber escrever o próprio nome (CIV-0006, PAR-0012). Em 1916 o tratamento era cortesia de escrivão para qualquer noiva, não afirmação de posição; leia-se como fórmula de registro, não como status. [INFERRED — a leitura]
+  - **[PROVEN]** Sua mãe nasceu em Portugal: Thereza de Jesus, nascida em 3 de maio de 1864 no
+  lugar do Souto, Pousa, Barcelos, filha de um alfaiate, Manoel João Fernandes, e de uma costureira
+  exposta, "Anna Exposta" (PAR-0108). Pelo lado materno, portanto, Luiza era a filha, nascida
+  no Brasil, de uma família emigrante minhota. [INFERRED — repousa na identificação forte de sua
+  mãe com a Thereza do testamento de 1890 e do inventário de 1898 (PRB-0013, PRB-0014)]
 
-  - **[PROVEN]** Ao casar-se, seu pai já era falecido e sua mãe viúva residia no mesmo distrito de Carangola (CIV-0006, PAR-0012). É o único momento em que todo o lar Azevedo aparece num só documento, e o que ele mostra é uma família de viúva e filhas, sem chefe masculino e sem bem algum nomeado.
+  - **[INFERRED]** Ela nasceu por volta do ano em que o avô morreu, no mesmo distrito. Tinha 18
+  anos em outubro de 1916 (CIV-0001), portanto nasceu por volta de 1898, "nascida e baptizada
+  em Bom Jesus de Cachoeira Alegre" (PAR-0012); seu avô Manoel João Fernandes da Cruz morreu em
+  30 de maio de 1898 no distrito do Bom Jesus, e em novembro de 1898 seus pais moravam ali entre
+  os herdeiros dele (PRB-0014).
 
-  - **[CONTEXTUAL]** Nasceu em Bom Jesus de Cachoeira Alegre, localidade rural do distrito de São Paulo do Muriaé, no cinturão cafeeiro da Zona da Mata Mineira — um local de nascimento em nível de povoado, não de vila. Sua infância caiu na década seguinte à abolição (1888), quando o sistema de trabalho da região havia sido refeito em torno da meação e do trabalho eventual, e famílias sem terra não tinham amortecedor algum.
+  - **[PROVEN]** Ela aparece sob dois nomes verdadeiros e um falso. "Luiza Fernandes de Azevedo"
+  é a forma em seu casamento civil e paroquial de 1916 e no casamento de 1949 de seu filho Antenor
+  (CIV-0001, PAR-0012, CIV-0004); "Luiza Secundina de Azevedo", no batismo de 1922 de seu filho
+  Aristides (PAR-0003) e no óbito de 1983 de sua filha Rozalina (CIV-0057). O casamento civil
+  de Aristides, em 1953, grafa-a erroneamente "Luiza Secundina de Oliveira" (CIV-0058) — um lapso
+  de escrivão por *de Azevedo*, não um terceiro sobrenome, e que não deve ser propagado. Ambas
+  as formas verdadeiras são parentais: *Fernandes* é o sobrenome de nascimento da mãe, vindo do
+  avô português, e *Secundina* ecoa o pai José Secundino.
+
+  - **[PROVEN]** Os dois atos de 1916 a tratam por "Dona Luiza Fernandes de Azevedo" — na mesma
+  página que registra não saber escrever o próprio nome (CIV-0006, PAR-0012) —, e o óbito de sua
+  filha em 1983 a chama "dona Luiza Secundina de Azevedo" (CIV-0057). O inventário de 1898 dá
+  igualmente "D." a todas as mulheres da família de sua mãe, nenhuma das quais sabia assinar (PRB-0014).
+  O tratamento era cortesia de escrivão, não afirmação de posição; leia-se como fórmula de registro,
+  não como status. [INFERRED — a leitura]
+
+  - **[CONTEXTUAL]** Nasceu em Bom Jesus de Cachoeira Alegre, localidade rural do distrito de
+  São Paulo do Muriaé, no cinturão cafeeiro da Zona da Mata Mineira — um local de nascimento em
+  nível de povoado, não de vila. Sua infância caiu na década seguinte à abolição (1888), quando
+  o sistema de trabalho da região havia sido refeito em torno da meação e do trabalho eventual,
+  e uma família de pequenos lavradores tinha pouca reserva contra uma colheita ruim ou uma queda
+  no preço do café.
+
 
   ## Identidade
 
-  **Luiza Fernandes de Azevedo** [PROVEN] — a forma em seu casamento civil de 1916 (CIV-0001), no casamento paroquial de 1916 (PAR-0012) e no casamento de 1949 de seu filho Antenor (CIV-0004). Também aparece como **Luiza Secundina de Azevedo** no batismo de 1922 de seu filho Aristides (PAR-0003).
 
-  - **Parentesco:** mãe de **Antenor Muniz** (P-0006, 1923–2014), por quem esta linha desce; esposa de Deocleciano Muniz Bittencourt (P-0012). [derivado das famílias F-0001 e F-0018]
+  **Luiza Fernandes de Azevedo** [PROVEN] — a forma em seu casamento civil de 1916 (CIV-0001),
+  no casamento paroquial de 1916 (PAR-0012) e no casamento de 1949 de seu filho Antenor (CIV-0004).
+  Também aparece como **Luiza Secundina de Azevedo** no batismo de 1922 de seu filho Aristides
+  (PAR-0003) e no óbito de 1983 de sua filha Rozalina (CIV-0057). O "Luiza Secundina de Oliveira"
+  do casamento de Aristides em 1953 (CIV-0058) é um erro. [PROVEN — as leituras; o erro é INFERRED
+  de todos os demais registros]
 
-  - **Nascimento:** por volta de **1898** (registrada com 18 anos em outubro de 1916), em **Bom Jesus de Cachoeira Alegre, distrito de São Paulo do Muriaé, Minas Gerais** [ano de nascimento INFERRED da idade declarada; local de nascimento PROVEN] — "nascida e baptizada em Bom Jesus de Cachoeira Alegre" (PAR-0012; 18 anos em CIV-0001). Nenhum registro de nascimento ou batismo é conservado.
 
-  - **Pais:** **José Secundino de Azevedo** (P-0038) e **Thereza Fernandes de Azevedo** (P-0039) [PROVEN] — nomeados em seu casamento civil de 1916 (CIV-0001, como "Secundino Maria de Azevedo" e "Theresa Fernandes de Azevedo"), em seu casamento paroquial de 1916 (PAR-0012) e no batismo de 1922 de seu filho Aristides (PAR-0003, com a forma mais completa "José Secundino"). Seu pai já era falecido e sua mãe residia em Carangola em 1916 (CIV-0006, PAR-0012). O ato paroquial (PAR-0012) resolve a leitura equivocada e de baixo contraste do nome do pai na cópia civil ("Sebastião", CIV-0006) para Secundino; essa resolução permanece e não é reaberta aqui.
+  - **Parentesco:** mãe de **Antenor Muniz** (P-0006, 1923–2014), por quem esta linha desce; esposa
+  de Deocleciano Muniz Bittencourt (P-0012). [derivado das famílias F-0001, F-0018 e F-0070]
 
-  - **Casamento:** com **Deocleciano Muniz Bittencourt** (P-0012) em **Carangola, Minas Gerais, em 21 de outubro de 1916** [PROVEN] — civil (CIV-0001 / CIV-0006) e religioso (PAR-0012, Igreja de Santa Luzia de Carangola), ambos solteiros e residentes no distrito, sob o regime de comunhão de bens. Testemunhas nos dois atos: Justino Ribeiro Rodrigues (44 anos, lavrador) e Antonio Theodoro de Souza (30 anos), os mesmos dois homens que testemunharam o casamento de sua cunhada Joventina, na mesma igreja e no mesmo dia (PAR-0013).
+  - **Nascimento:** por volta de **1898** (registrada com 18 anos em outubro de 1916), em **Bom
+  Jesus de Cachoeira Alegre, distrito de São Paulo do Muriaé, Minas Gerais** [ano de nascimento
+  INFERRED da idade declarada; local de nascimento PROVEN] — "nascida e baptizada em Bom Jesus
+  de Cachoeira Alegre" (PAR-0012; 18 anos em CIV-0001). Nenhum registro de nascimento ou batismo
+  é conservado.
 
-  - **Filhos:** **Antenor Muniz** (P-0006, n. 2 de novembro de 1923) e o filho documentado **Aristides** (n. 22 de julho de 1922, bat. 20 de setembro de 1922, PAR-0003). Outros filhos circulam em árvores colaborativas [LEAD].
+  - **Pais:** **José Secundino de Azevedo** (P-0038) e **Thereza Fernandes de Azevedo** (P-0039)
+  [PROVEN] — nomeados em seu casamento civil de 1916 (CIV-0001, como "Secundino Maria de Azevedo"
+  e "Theresa Fernandes de Azevedo"), em seu casamento paroquial de 1916 (PAR-0012) e no batismo
+  de 1922 de seu filho Aristides (PAR-0003, com a forma mais completa "José Secundino"). Seu pai
+  já era falecido e sua mãe residia em Carangola em 1916 (CIV-0006, PAR-0012). O ato paroquial
+  (PAR-0012) resolve a leitura equivocada e de baixo contraste do nome do pai na cópia civil ("Sebastião",
+  CIV-0006) para Secundino; essa resolução permanece e não é reaberta aqui. Em novembro de 1898,
+  por volta de seu nascimento, o casal morava no distrito do Bom Jesus da Cachoeira Alegre, onde
+  sua mãe era herdeira do próprio pai como "D. Thereza de Jesus casada com Secundino de Azevedo"
+  (PRB-0014). [PROVEN — sobre a identificação forte exposta no perfil de P-0039]
 
-  - **Óbito:** não documentado neste repositório; uma expectativa de vida de cerca de 1986 em árvore colaborativa é apenas pista. [OPEN]
+  - **Ascendência materna:** sua mãe nasceu em 3 de maio de 1864 em Pousa, Barcelos, Portugal
+  (PAR-0108). Seus avós maternos foram **Manoel João Fernandes da Cruz** (P-0139) — batizado em
+  São Romão da Ucha em 1833 (PAR-0106), alfaiate em Pousa (PAR-0108), depois lavrador em Minas
+  Gerais (PRB-0016), falecido em 30 de maio de 1898 no distrito do Bom Jesus (PRB-0014) — e **Anna
+  Maria** (P-0140), exposta (PAR-0108, PAR-0107). Seus bisavós desse lado foram Bento José Fernandes
+  (P-0141) e Joaquina Roza Lopes (P-0142), da Quintã / Quintão, Ucha (PAR-0106). Para Antenor,
+  são seus bisavós e trisavós. [PROVEN — os registros; o elo com sua mãe repousa numa identificação
+  forte, não numa prova]
+
+  - **Ascendência paterna:** os pais de seu pai não estão documentados. [OPEN]
+
+  - **Casamento:** com **Deocleciano Muniz Bittencourt** (P-0012) em **Carangola, Minas Gerais,
+  em 21 de outubro de 1916** [PROVEN] — civil (CIV-0001 / CIV-0006) e religioso (PAR-0012, Igreja
+  de Santa Luzia de Carangola), ambos solteiros e residentes no distrito, sob o regime de comunhão
+  de bens. Testemunhas nos dois atos: Justino Ribeiro Rodrigues (44 anos, lavrador) e Antonio
+  Theodoro de Souza (30 anos), os mesmos dois homens que testemunharam o casamento de sua cunhada
+  Joventina, na mesma igreja e no mesmo dia (PAR-0013).
+
+  - **Filhos:** **Antenor Muniz** (P-0006, n. 2 de novembro de 1923); **Aristides** (n. 22 de
+  julho de 1922, bat. 20 de setembro de 1922, PAR-0003), que se casou em São João de Meriti, RJ,
+  em 1953 (CIV-0058) e morreu em Itaguaí, RJ, em 1981 (CIV-0059 — registro cuja filiação diz "Ignorado",
+  de modo que não a nomeia); e **Rozalina Bittencourt Alves**, falecida em Duque de Caxias, RJ,
+  em 1983, registrada como filha de Deocleciano Muniz Bittencourt e de "Luiza Secundina de Azevedo"
+  (CIV-0057). [PROVEN] Outros filhos circulam em árvores colaborativas. [LEAD]
+
+  - **Óbito:** não documentado neste repositório; uma expectativa de vida de cerca de 1986 em
+  árvore colaborativa é apenas pista. [OPEN]
+
 
   ## Posição social e profissão
 
-  - **Doméstica** [PROVEN] (CIV-0006) — o termo padrão de registro para uma mulher que trabalha no próprio lar ou no de outrem, sem implicação de salário ou propriedade.
 
-  - **Analfabeta** [PROVEN] — "por aquella não saber ler nem escrever" (CIV-0006); assinou por procuração enquanto o marido assinou de próprio punho.
+  - **Doméstica** [PROVEN] (CIV-0006) — o termo padrão de registro para uma mulher que trabalha
+  no próprio lar ou no de outrem, sem implicação de salário ou propriedade.
 
-  - **Nenhuma propriedade, cargo, título ou ofício lhe é atestado**, nem ao lar de seus pais, em qualquer registro conservado. [PROVEN como negativa no conjunto disponível]
+  - **Analfabeta** [PROVEN] — "por aquella não saber ler nem escrever" (CIV-0006); assinou por
+  procuração enquanto o marido assinou de próprio punho.
+
+  - **Nenhuma propriedade, cargo, título ou ofício lhe é atestado** em qualquer registro conservado.
+  [PROVEN como negativa no conjunto disponível] Fica retirada a extensão anterior dessa negativa
+  "ao lar de seus pais": seu pai é nomeado em 1908 como detentor de terra confrontante com uma
+  propriedade no Bom Jesus (FAN-0018, contexto, não evidência), e sua mãe era uma de cinco herdeiras
+  necessárias de um espólio que foi a inventário e partilha em 1898 (PRB-0013, PRB-0014). Quanto
+  dele chegou a seus pais não está registrado na parte conservada do processo. [OPEN]
+
 
   ## Família e rede social
 
-  Filha da família **Azevedo** do eixo São Paulo do Muriaé / Carangola (P-0038 × P-0039, família F-0018). Duas irmãs estão documentadas por seus próprios óbitos civis: **Alcida Fernandes de Azevedo** (f. 20 de maio de 1975, Mesquita, RJ — CIV-0051, que nomeia a mesma mãe e uma variante do mesmo pai) e **Gloria Lacerda de Azevedo** (f. 9 de maio de 1960, Niterói, RJ — óbito nº 26.483, lido no lote de recuperação, mas **ainda não catalogado como fonte neste repositório**). Alcida é registrada como viúva de um **Manoel Muniz Bittencourt** (CIV-0051) [PROVEN]; que esse Manoel fosse irmão de Deocleciano — fazendo de duas irmãs Azevedo as esposas de dois irmãos Muniz Bittencourt — é leitura do perfil de pesquisa e permanece **[LEAD]**.
 
-  Sua mãe viúva Thereza residia em Carangola em 1916 (CIV-0006, PAR-0012), de modo que as mulheres Azevedo haviam se mudado para o mesmo distrito da família Muniz Bittencourt com a qual ela se casou.
+  Filha do lar **Azevedo** do eixo São Paulo do Muriaé / Carangola (P-0038 × P-0039, família F-0018)
+  e neta, pelo lado materno, de uma família portuguesa estabelecida no mesmo distrito: em 1898
+  sua avó, seu tio Joaquim José Fernandes e suas tias Maria José da Conceição, Maria Fernandes
+  de Souza e Maria de Jesus da Conceição, com os maridos, moravam todos no distrito do Bom Jesus
+  da Cachoeira Alegre (PRB-0014). [PROVEN] Ela nasceu, portanto, num aglomerado da parentela de
+  sua mãe. [INFERRED]
+
+
+  Duas irmãs estão documentadas por seus próprios óbitos civis: **Alcida Fernandes de Azevedo**
+  (f. 20 de maio de 1975, Mesquita, RJ — CIV-0051, que nomeia a mesma mãe e uma variante do mesmo
+  pai) e **Gloria Lacerda de Azevedo** (f. 9 de maio de 1960, Niterói, RJ — óbito nº 26.483, lido
+  no lote de recuperação, mas **ainda não catalogado como fonte neste repositório**). Alcida é
+  registrada como viúva de um **Manoel Muniz Bittencourt** (CIV-0051) [PROVEN]; que esse Manoel
+  fosse irmão de Deocleciano — fazendo de duas irmãs Azevedo as esposas de dois irmãos Muniz Bittencourt
+  — é leitura do perfil de pesquisa e permanece **[LEAD]**.
+
+
+  Ao casar-se, seu pai já era falecido e sua mãe viúva residia no mesmo distrito de Carangola
+  (CIV-0006, PAR-0012), de modo que as mulheres Azevedo haviam se mudado para o distrito da família
+  Muniz Bittencourt com a qual ela se casou. O ato de 1916 não nomeia bem algum, mas já não se
+  lê como prova de uma família sem nenhum. [INFERRED]
+
 
   ## O que podemos extrapolar
 
-  **1. Os Azevedo não detêm capital em forma transmissível alguma — e isso muda o que a herança significa aqui. [INFERRED / CONTEXTUAL]** O capital brasileiro do século XIX vinha em três formas: terra (herdável), cargo (contingente à nomeação) e crédito ou comércio (contingente à economia regional). O registro de seu pai não mostra nenhuma das três; seu único ativo era o trabalho, que nada transmite além de si. A consequência passa despercebida com facilidade: **a sucessão partível brasileira — a regra que dividia todo espólio igualmente entre todos os filhos e fragmentava uma posse em duas gerações — é um não-evento para esta família.** Não havia espólio a dividir, quota a gastar, gleba a repartir entre irmãos. Onde o lado açoriano da árvore do marido empobreceu *por* divisão (a posse de Lomba do Botão de P-0084, repartida até que os bisnetos tivessem de emigrar), os Azevedo eram pobres de outro modo, mais absoluto: nada foi diluído porque nada existia para diluir.
 
-  **2. Seu casamento é hipergamia modesta, e o parentesco é o substituto da propriedade que a família nunca teve. [INFERRED]** Ela assina por procuração; Deocleciano assina o próprio nome, é registrado *lavrador* e pertence ao mundo Muniz/Brandão de Carangola, tecido por parentesco. Uma casa chefiada por viúva e sem bens que casa a filha em família mais estabelecida é o movimento clássico de quem só tem gente por capital — converte um casamento em segurança. A mãe seguindo-a para o distrito de Carangola é a mesma lógica rodando pela segunda vez, e, se a leitura do casamento de Alcida se sustentar [LEAD], a família o fez duas vezes numa só geração, enviando duas filhas ao mesmo lar.
+  **1. A família de sua mãe era de emigrantes minhotos de recursos modestos, não um piso sem propriedade.
+  [INFERRED]** A versão anterior deste perfil lia os Azevedo como sem capital em forma transmissível
+  alguma, de modo que a sucessão partível brasileira seria "um não-evento para esta família".
+  Os registros encontrados depois derrubam isso. Seu avô fez testamento e seus bens foram a "inventario
+  e partilha" entre cinco herdeiros, um deles sua mãe (PRB-0013, PRB-0014); o espólio de seu tio-avô
+  Domingos, partilhado em 1885–86, valia 5:691$000 (PRB-0016); e seu pai detinha ou lavrava terra
+  no Bom Jesus em 1908 (FAN-0018, contexto). A sucessão partível operou, portanto, em sua família,
+  poucos meses depois de seu nascimento. O que ela rendeu é desconhecido: a parte conservada do
+  inventário de 1898 interrompe-se antes da descrição dos bens (PRB-0014). [OPEN — a escala] O
+  contraste que o perfil anterior traçava com o lado açoriano da árvore do marido — empobrecido
+  *pela* divisão da posse de Lomba do Botão (P-0084) — lê-se agora como diferença de grau, não
+  de natureza. [INFERRED]
 
-  **3. A educação era comprada, não herdada, e o ato de casamento fotografa a linha exata desse preço. [CONTEXTUAL / PROVEN]** Não havia escola rural pública a que recorrer; a alfabetização na Zona da Mata dos anos 1890 era comprada, lar por lar, e recomprada a cada geração. O ato de 1916 põe os dois lados dessa fronteira na mesma página: o filho do pequeno proprietário escreve, a filha sem terra não. Seu analfabetismo é, portanto, estrutural, não pessoal. Tampouco a alfabetização do marido seguiu adiante de forma confiável — nenhum autógrafo é conservado do filho Antenor, e sua escolarização não está documentada [OPEN]; a competência comprada para a necessidade de um homem não é herança.
 
-  **4. A ausência de terra tornou a família móvel, e a mobilidade está documentada. [INFERRED / CONTEXTUAL]** Dentro de uma só geração após seu casamento as filhas Azevedo estão na região metropolitana do Rio de Janeiro — Gloria em Niterói (1960), Alcida na Baixada Fluminense (1975) — e seu próprio filho Antenor morreu em Volta Redonda (2014, CIV-0028), então bombeiro hidráulico e não mais lavrador. É o êxodo rural brasileiro numa única família, e sua condição de possibilidade é justamente a pobreza: um lar sem terra nada perde ao partir. A mesma ausência de propriedade que torna os Azevedo quase invisíveis no arquivo é o que permitiu a seus descendentes migrar para o trabalho assalariado sem ruptura.
+  **2. Seu casamento uniu duas famílias de pequenos lavradores. [INFERRED]** Ela assina por procuração;
+  Deocleciano assina o próprio nome, é registrado *lavrador* e pertence ao mundo Muniz/Brandão
+  de Carangola, tecido por parentesco (CIV-0006). A leitura anterior disso como "hipergamia modesta"
+  de um lar sem bens e chefiado por viúva fica enfraquecida: seu próprio pai detinha terra e a
+  família de sua mãe tinha espólio. A distância entre as duas famílias parece menor do que parecia.
+  A mãe seguindo-a para o distrito de Carangola (CIV-0006) ainda se lê como uma viúva indo em
+  direção à parentela, e, se a leitura do casamento de Alcida se sustentar [LEAD], a família enviou
+  duas filhas ao mesmo lar.
 
-  **5. O arco é plano e depois urbano — não é uma queda. [INFERRED]** Vale nomear o que esta linha *não* é. Não há fortuna perdida atrás de Luiza, nem cargo que deixou de pagar, nem espólio fragmentado. Da geração de seus avós à de seu filho, a família vende trabalho o tempo todo; o que muda é apenas onde o trabalho é vendido — uma roça de Muriaé, depois um distrito de Carangola, depois uma cidade siderúrgica. Ela é o ponto em que o piso Azevedo sem propriedade se junta a uma base Muniz de pequenos proprietários e parentela, um degrau acima, e seus filhos herdam as duas coisas: um pouco de terra e muitos parentes de um lado, e do outro nenhum colchão.
+
+  **3. A alfabetização dividia sua família mais por sexo que por classe. [INFERRED]** O ato de
+  1916 põe um marido alfabetizado e uma esposa analfabeta na mesma página (CIV-0006), e o perfil
+  anterior o lia como uma linha de classe: "o filho do pequeno proprietário escreve, a filha sem
+  terra não". A procuração de 1898 mostra que essa leitura estava errada. Seu próprio pai a assinou,
+  e também todos os demais homens que a outorgaram — o tio Joaquim e dois cunhados de sua mãe
+  —, enquanto todas as mulheres entre os outorgantes — a avó, a mãe e duas tias — não sabiam assinar
+  (PRB-0014). Seu avô, o emigrante, não sabia escrever de todo (PRB-0013, PRB-0016). As letras
+  entraram em sua família pelos homens da geração de sua mãe e passaram ao largo das mulheres;
+  seu analfabetismo é esse padrão, não marca de penúria. Tampouco a alfabetização do marido seguiu
+  adiante de forma confiável: nenhum autógrafo é conservado do filho Antenor, cuja escolarização
+  não está documentada. [OPEN]
+
+
+  **4. A ida de seus filhos para a cidade está bem documentada. [INFERRED / CONTEXTUAL]** Dentro
+  de uma geração após seu casamento, seus filhos estavam na região metropolitana do Rio de Janeiro:
+  Aristides casou-se em São João de Meriti em 1953 (CIV-0058) e morreu em Itaguaí em 1981 (CIV-0059);
+  Rozalina morreu em Duque de Caxias em 1983 (CIV-0057); suas irmãs morreram em Niterói (1960)
+  e em Mesquita (1975, CIV-0051); e seu filho Antenor morreu em Volta Redonda (2014, CIV-0028),
+  então bombeiro hidráulico e não mais lavrador. É o êxodo rural brasileiro numa única família.
+  A explicação anterior — de que um lar sem terra "nada perde ao partir" — perdeu a premissa;
+  os registros mostram o movimento, não sua causa.
+
+
+  **5. O arco são duas migrações, não uma queda. [INFERRED]** Não há fortuna perdida atrás de
+  Luiza, nem ascensão. Seu avô atravessou de uma freguesia minhota para a fronteira cafeeira da
+  Zona da Mata como artesão tornado lavrador (PAR-0108, PRB-0016); seu pai detinha ou lavrava
+  terra no Bom Jesus (FAN-0018, contexto); seus filhos foram para a Baixada Fluminense e para
+  a cidade siderúrgica de Volta Redonda (CIV-0057, CIV-0058, CIV-0028). Ela está entre as duas
+  migrações, a atlântica da família de sua mãe e o êxodo rural de seus filhos, e os recursos da
+  família parecem modestos em cada passo.
+
 
   ## Questões em aberto
 
-  - Seu próprio batismo (Bom Jesus de Cachoeira Alegre / São Paulo do Muriaé, c.1898) — daria data exata de nascimento e nomearia seus pais de forma independente. [OPEN]
 
-  - Seu registro de óbito — não documentado; a data de cerca de 1986 em árvore colaborativa é apenas pista, e uma certidão de óbito ou inventário daria também uma contagem documental de seus filhos. [OPEN]
+  - **Seu próprio batismo** (Bom Jesus de Cachoeira Alegre / São Paulo do Muriaé, c.1898) — daria
+  data exata de nascimento e nomearia seus pais de forma independente. Se, como o batismo de 1922
+  de seu filho (PAR-0003), nomear os avós, também provaria a descendência de sua mãe de Manoel
+  João Fernandes e Anna Maria e nomearia os pais de seu pai, a lacuna aberta do lado Azevedo.
+  Nenhum livro eclesiástico da região de Muriaé está no FamilySearch, segundo a pesquisa de recuperação.
+  [OPEN]
+
+  - **Seu registro de óbito** — não documentado; a data de cerca de 1986 em árvore colaborativa
+  é apenas pista, e uma certidão de óbito ou inventário daria também uma contagem documental de
+  seus filhos. [OPEN]
+
+  - **O casamento de seus pais** (antes de 8 de março de 1890, provavelmente em São João Batista
+  do Laranjal) — ver P-0038 e P-0039. [LEAD]
+
 
   ## Fontes disponíveis (neste repositório)
 
-  - CIV-0001 (casamento civil de 1916 — 18 anos, local de nascimento, pais) · CIV-0006 (casamento de 1916 em inteiro teor — doméstica, o analfabetismo declarado e a assinatura por procuração, as testemunhas, o nome do pai lido erroneamente como "Sebastião") · PAR-0012 (casamento paroquial de 1916 — resolve o pai para Secundino; local de nascimento Bom Jesus de Cachoeira Alegre).
 
-  - PAR-0003 (batismo de 1922 de seu filho Aristides — a variante "Luiza Secundina de Azevedo"; nomeia seus pais) · CIV-0004 (casamento de 1949 de seu filho Antenor — nomeia-a como mãe) · CIV-0028 (óbito de 2014 de seu filho Antenor — nomeia-a novamente e documenta a mudança dele para Volta Redonda).
+  - CIV-0001 (casamento civil de 1916 — 18 anos, local de nascimento, pais) · CIV-0006 (casamento
+  de 1916 em inteiro teor — doméstica, o analfabetismo declarado e a assinatura por procuração,
+  as testemunhas, o nome do pai lido erroneamente como "Sebastião") · PAR-0012 (casamento paroquial
+  de 1916 — resolve o pai para Secundino; local de nascimento Bom Jesus de Cachoeira Alegre).
 
-  - CIV-0051 (óbito de 1975 de sua irmã Alcida — filha colateral documentada de seus pais) · REC-0001 (lista de ancestrais diretos do proprietário).
+  - PAR-0003 (batismo de 1922 de seu filho Aristides — a variante "Luiza Secundina de Azevedo";
+  nomeia seus pais) · CIV-0004 (casamento de 1949 de seu filho Antenor — nomeia-a como mãe) ·
+  CIV-0028 (óbito de 2014 de seu filho Antenor — nomeia-a novamente e documenta a mudança dele
+  para Volta Redonda).
+
+  - CIV-0057 (óbito de 1983 de sua filha Rozalina em Duque de Caxias — nomeia-a "Luiza Secundina
+  de Azevedo") · CIV-0058 (casamento civil de 1953 de seu filho Aristides em São João de Meriti
+  — nomeia-a, grafada erroneamente "Luiza Secundina de Oliveira") · CIV-0059 (óbito de 1981 de
+  Aristides em Itaguaí — filiação "Ignorado"; não a nomeia).
+
+  - CIV-0051 (óbito de 1975 de sua irmã Alcida — filha colateral documentada de seus pais) · REC-0001
+  (lista de ancestrais diretos do proprietário).
+
+  - PAR-0108 (batismo de 1864 de sua mãe em Pousa) · PAR-0106 (batismo de 1833 de seu avô na Ucha)
+  · PRB-0013 e PRB-0014 (testamento, 1890, e inventário, 1898, de seu avô — sua mãe como herdeira,
+  seus pais residentes no Bom Jesus) · FAN-0018 (um inventário de 1908 que nomeia seu pai como
+  confrontante de terras no Bom Jesus — contexto, não evidência).
 
   - CIV-0053 — o registro civil de nascimento de uma neta (guardado em privado: diz respeito a
-  uma pessoa viva) a nomeia como avó paterna, "dona Luiza Fernandes de Azevedo", com
-  Deocleciano Muniz. Informação de declarante; corrobora a filiação de Antenor, junto com a
-  CIV-0004.
+  uma pessoa viva) a nomeia como avó paterna, "dona Luiza Fernandes de Azevedo", com Deocleciano
+  Muniz. Informação de declarante; corrobora a filiação de Antenor, junto com a CIV-0004.
+
 
   ## Contexto regional e migratório
 
-  [CONTEXTUAL] Seu mundo documentado é inteiramente a **Zona da Mata Mineira** — nascida em Bom Jesus de Cachoeira Alegre, no distrito de São Paulo do Muriaé, e casada na vizinha Carangola, uma mudança interna dentro de uma mesma micro-região cafeeira contígua. A economia em que nasceu funcionava sobre a transição para o trabalho livre pós-1850: a Lei nº 581 de 1850 (Lei Eusébio de Queirós), que encerrou o tráfico atlântico, a abolição pela Lei Áurea (1888) e a terra posta em base de compra pela Lei de Terras (nº 601, 1850) — um arcabouço que fez da terra uma mercadoria na qual sua família nunca entrou. [OPEN] Nenhuma origem madeirense, açoriana ou de outra ilha portuguesa está documentada para os Azevedo; o fio insular desta linha pertence a uma colateral de Carangola, não a seus ancestrais, e nenhuma origem é inferida do sobrenome.
+
+  [CONTEXTUAL] Sua própria vida documentada é inteiramente a **Zona da Mata Mineira** — nascida
+  em Bom Jesus de Cachoeira Alegre, no distrito de São Paulo do Muriaé, e casada na vizinha Carangola,
+  uma mudança interna dentro de uma mesma micro-região cafeeira contígua. A família de sua mãe
+  chegara a essa região vinda de Portugal: de Pousa, Barcelos, onde a mãe foi batizada em 1864
+  (PAR-0108), a São João do Laranjal em 1885 (PRB-0016) e ao distrito do Bom Jesus em 1898 (PRB-0014).
+  [PROVEN — os lugares] Sua linha materna está, portanto, documentada no Minho por batismo, não
+  inferida de um sobrenome; a origem Azevedo de seu pai permanece não documentada, e nenhuma origem
+  madeirense, açoriana ou de outra ilha portuguesa está documentada para nenhum dos dois lados
+  — o fio insular desta linha pertence a uma colateral de Carangola sem parentesco provado, não
+  a seus ancestrais. [OPEN] A economia em que nasceu funcionava sobre a transição para o trabalho
+  livre pós-1850: a Lei nº 581 de 1850 (Lei Eusébio de Queirós), que encerrou o tráfico atlântico,
+  a abolição pela Lei Áurea (1888) e a terra posta em base de compra pela Lei de Terras (nº 601,
+  1850). Fica superada a afirmação anterior de que a terra era "uma mercadoria na qual sua família
+  nunca entrou": seu pai detinha ou lavrava terra no Bom Jesus em 1908 (FAN-0018). [CONTEXTUAL]
+
 
   ## Onde ir hoje
 
-  - **Nascimento (~1898):** Bom Jesus de Cachoeira Alegre, distrito de Muriaé, MG; paróquia da sede Paróquia São Paulo de Muriaé (Rua Dr Afonso Canedo 47) [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Bom%20Jesus%20da%20Cachoeira%2C%20Muria%C3%A9%2C%20MG)
 
-  - **Casamento (1916):** Igreja Matriz de Santa Luzia de Carangola, MG (Praça Cel. Maximiano 138, CEP 36800-000) [RESOLVED] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20Santa%20Luzia%2C%20Pra%C3%A7a%20Cel.%20Maximiano%20138%2C%20Carangola%20-%20MG)
+  - **Nascimento (~1898):** Bom Jesus da Cachoeira, distrito de Muriaé, MG — o "Bom Jesus de Cachoeira
+  Alegre" de seu ato de casamento, feito distrito de São Paulo do Muriaé em 1887 e renomeado em
+  1943; não a paróquia da sede de Muriaé, nem o distrito de Cachoeira Alegre de Barão de Monte
+  Alto [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Bom%20Jesus%20da%20Cachoeira%2C%20Muria%C3%A9%2C%20MG)
+
+  - **Casamento (1916):** Igreja Matriz de Santa Luzia de Carangola, MG (Praça Cel. Maximiano
+  138, CEP 36800-000) [RESOLVED] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Matriz%20de%20Santa%20Luzia%2C%20Pra%C3%A7a%20Cel.%20Maximiano%20138%2C%20Carangola%20-%20MG)

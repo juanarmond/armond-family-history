@@ -1,0 +1,184 @@
+schema_version: 1
+id: PAR-0124
+title: >-
+  Pousa baptism register — João, son of Manoel João and Anna Maria, of the lugar do Souto; born 22
+  December 1855, baptised 24 December 1855
+title_pt: >-
+  Registro de batismos de Pousa — João, filho de Manoel João e de Anna Maria, do lugar do Souto;
+  nascido em 22 de dezembro de 1855, batizado em 24 de dezembro de 1855
+record_type: Parish baptism register entry (target entry transcribed in full; neighbouring entries summarised)
+record_category: parish_register
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1855-12-24"
+  original_text: >-
+    no dia vinte e quatro do mesmo mes foi solemnemente Baptizado
+event_place_text: Parish church of Santa Cristina de Pousa, concelho de Barcelos, Braga district, Portugal
+repository:
+  name: FamilySearch (digital images of the parish registers)
+  archive_or_registry: >-
+    Paróquia de Santa Cristina de Pousa, Barcelos — parish registers (the original books are in
+    the custody of the Arquivo Distrital de Braga)
+  collection: Pousa (Santa Cristina), Barcelos — Baptisms 1834–1862 (FamilySearch DGS 004668983)
+  book: Baptism book of Pousa covering 1855–1856 (Livro 2, per the retrieval side)
+  page: >-
+    Right page of the opening, first entry; fl. 63 per the retrieval side (no folio number is
+    visible on the image, whose upper edge is cut by the binding)
+  image: DGS 004668983, image 67
+  record_number: first entry on the right page (no number written)
+  catalogue_reference: >-
+    FamilySearch DGS 004668983, image 67; image ark 3:1:939V-QGWH-C, per the retrieval side.
+    Located by the retrieval agent's page-by-page sweep of the unindexed Pousa baptisms 1834–1862
+    (2026-10-12) and delivered through the retrieval drop.
+  url: https://www.familysearch.org/ark:/61903/3:1:939V-QGWH-C
+access_date: "2026-10-12"
+language: pt-PT
+transcription: |-
+  [Whole opening — Pousa baptisms, DGS 004668983 image 67: three entries on the left page (August–December 1855) and, on the right page, the target entry followed by the heading "1856" and three entries of early 1856. Every entry is written and signed by the Abbade Antonio Martins Villaça, in a fast, heavily abbreviated hand. Read from the native image (3512×2782) in strips at 1–3× zoom, 2026-10-12. Line breaks are kept as on the page; spelling, capitals and abbreviations are kept as written.]
+
+  [left page, entry 1 — Maria, daughter of Manoel Bernardo and Anna Maria, of the lugar do Souto of this parish; paternal grandparents José Rodrigues and Maria Loureira, maternal grandparents João Francisco and Luiza [uncertain: Maria], of the freguezia da Graça; born in August 1855. Another couple of the lugar do Souto, with a mother named Anna Maria who has named parents (see notes); not this family.]
+
+  [left page, entries 2 and 3 — two baptisms of November and December 1855; they do not name this family as far as read.]
+
+  [p1 — evidence/parish/PAR-0124-baptism-joao-1855-pousa.jpg; right page, first entry — TARGET]
+  João filho de Manoel João e Anna Maria do lugar do Souto desta=
+  freguezia da Pouza nepto paterno de Bento José Fernandes, e
+  Joaquinna Roza de S. Romão da Ucha materno de Avós inco-
+  gnitos. Naceo no dia vinte e dous de Dezembro de mil e
+  oito centos, e cincoenta e cinco e no dia vinte e quatro do
+  mesmo mes foi solemnemente Baptizado p.r mim, logo
+  lhe pus os Sanctos Oleos. forão Padrinhos João solteiro
+  thio paterno do Baptizado, e Cecilia solteira filha de João
+  de Cima desta freguezia; e para constar fis este assento
+  era ut supra
+                 O Abb.e Antonio Martins Villaça [rubric]
+  [Expansions and readings: "Manoel João" — "João" is abbreviated with a raised ending; nepto = neto (written with a p, as "nepta" is in PAR-0125); Joaquinna is written with nn; inco- / gnitos = incógnitos; Naceo = nasceu; p.r mim = por mim (the Abbade); Sanctos Oleos = Santos Óleos; thio = tio; fis = fiz; Abb.e = Abbade. The "=" at the end of the first line is the scribe's line-end hyphen.]
+
+  [right page, after the target — the heading "1856" and three baptisms of early 1856 (one entry carries a twentieth-century marginal note of a death in 1947); they do not name this family as far as read.]
+reading_reliability: complete
+abstract: >-
+  Original baptism entry, the first on the right page of an opening of the Pousa (Barcelos)
+  baptism book, written and signed by the Abbade Antonio Martins Villaça. João, son of Manoel
+  João and Anna Maria, of the lugar do Souto in Pousa, was born on 22 December 1855 and was
+  solemnly baptised by the Abbade on 24 December 1855, who also applied the holy oils. The
+  paternal grandparents are named as Bento José Fernandes and Joaquinna Roza, "de S. Romão da
+  Ucha"; the maternal grandparents are "Avós incognitos". The godparents were João, solteiro, the
+  child's paternal uncle ("thio paterno do Baptizado"), and Cecilia, solteira, daughter of João
+  de Cima, of Pousa. The parents are Manoel João Fernandes da Cruz (P-0139) and Anna Maria
+  Fernandes (P-0140); João is a collateral child of their family F-0070, born eleven months
+  after their marriage at Ucha (PAR-0107).
+abstract_pt: >-
+  Assento original de batismo, o primeiro da página da direita de uma abertura do livro de
+  batismos de Pousa (Barcelos), escrito e assinado pelo Abade Antonio Martins Villaça. João,
+  filho de Manoel João e de Anna Maria, do lugar do Souto, em Pousa, nasceu em 22 de dezembro de
+  1855 e foi batizado solenemente pelo Abade em 24 de dezembro de 1855, que também lhe pôs os
+  santos óleos. Os avós paternos são nomeados como Bento José Fernandes e Joaquinna Roza, "de S.
+  Romão da Ucha"; os avós maternos são "Avós incognitos". Foram padrinhos João, solteiro, tio
+  paterno da criança ("thio paterno do Baptizado"), e Cecilia, solteira, filha de João de Cima, de
+  Pousa. Os pais são Manoel João Fernandes da Cruz (P-0139) e Anna Maria Fernandes (P-0140); João
+  é um filho colateral da família F-0070, nascido onze meses depois do casamento dos pais na Ucha
+  (PAR-0107).
+reliability:
+  assessment: >-
+    Original and direct. It is primary for the baptism, its date and place, the child, the
+    parents as named, the godparents and the officiant: the Abbade baptised the child and wrote
+    and signed the entry. The birth date, the grandparents and the kinship of the godfather were
+    declared to him and are secondary information. Every core fact is legible: the child, both
+    parents, their lugar, the birth and baptism dates, and the paternal grandparents.
+  informant: >-
+    The Abbade of Pousa, Antonio Martins Villaça, who baptised the child and signed the entry;
+    the facts of birth and kinship were presumably declared by the family or the godparents.
+  limitations: >-
+    The father is written "Manoel João" without a surname, and the mother "Anna Maria" without a
+    surname or any statement that she was a foundling; the child is not called "legitimo". The
+    grandparents are given without a lugar beyond "de S. Romão da Ucha". The godfather João is
+    named by forename only. No folio number is visible on the image.
+digital_file:
+  path: evidence/parish/PAR-0124-baptism-joao-1855-pousa.jpg
+  sha256: 0370164fd12d226bd081bc7fe4b258ef34934bb4b91c815a047248cdd74278dd
+linked_people:
+- P-0139
+- P-0140
+- P-0141
+- P-0142
+linked_families:
+- F-0070
+- F-0071
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Identification. The parents are identified with P-0139 and P-0140: "Manoel João" with a wife
+    "Anna Maria", of the lugar do Souto in Pousa, whose child's paternal grandparents are Bento
+    José Fernandes and Joaquinna Roza of S. Romão da Ucha (the parents of the groom of the Ucha
+    marriage of January 1855, PAR-0107), and whose maternal grandparents are unknown, as they
+    would be for a foundling. The later Pousa baptisms of the couple's children name the same
+    parents and grandparents (PAR-0125, PAR-0126, PAR-0127). The identification is strong, not
+    proven.
+  text_pt: >-
+    Identificação. Os pais são identificados com P-0139 e P-0140: "Manoel João", casado com "Anna
+    Maria", do lugar do Souto, em Pousa, cujo filho tem por avós paternos Bento José Fernandes e
+    Joaquinna Roza, de S. Romão da Ucha (os pais do noivo do casamento da Ucha de janeiro de 1855,
+    PAR-0107), e por avós maternos avós desconhecidos, como seria o caso de uma exposta. Os
+    batismos posteriores dos filhos do casal em Pousa nomeiam os mesmos pais e avós (PAR-0125,
+    PAR-0126, PAR-0127). A identificação é forte, não provada.
+- text: >-
+    The mother's name as written: "Anna Maria", with no surname and no mention of exposure. At
+    the couple's marriage eleven months earlier she is "Joanna Maria / Esposta" (PAR-0107); in
+    the 1862 baptism she is "Anna Exposta" (PAR-0127). This record supports the form "Anna Maria"
+    and does not resolve the "Joanna" of the marriage entry.
+  text_pt: >-
+    O nome da mãe como está escrito: "Anna Maria", sem apelido e sem menção de exposição. No
+    casamento do casal, onze meses antes, ela é "Joanna Maria / Esposta" (PAR-0107); no batismo de
+    1862 ela é "Anna Exposta" (PAR-0127). Este registro apoia a forma "Anna Maria" e não resolve o
+    "Joanna" do assento de casamento.
+- text: >-
+    What the record adds. The couple lived in the lugar do Souto, Pousa, by December 1855. Their
+    son João was born on 22 December 1855 and baptised on 24 December 1855 (the date is
+    confirmed: "no dia vinte e quatro do mesmo mes"). The godfather was "João solteiro thio
+    paterno do Baptizado": a brother of Manoel João named João, still unmarried in 1855. That
+    fits João Fernandes, who married in Ucha in 1868 aged 38 and solteiro (PAR-0122), but the
+    record gives the godfather no surname, so the identification is strong, not proven. The
+    godmother was Cecilia, solteira, daughter of João de Cima, of Pousa. João the child can be
+    recorded as a documented child of F-0070; the retrieval side reports the death of a João, son
+    of the couple, aged 10 years 2 months, at Pousa in 1866 (PAR-0129).
+  text_pt: >-
+    O que o registro acrescenta. O casal morava no lugar do Souto, em Pousa, em dezembro de 1855.
+    O filho João nasceu em 22 de dezembro de 1855 e foi batizado em 24 de dezembro de 1855 (a data
+    está confirmada: "no dia vinte e quatro do mesmo mes"). O padrinho foi "João solteiro thio
+    paterno do Baptizado": um irmão de Manoel João chamado João, ainda solteiro em 1855. Isso
+    combina com João Fernandes, que se casou na Ucha em 1868 com 38 anos e solteiro (PAR-0122), mas
+    o registro não dá apelido ao padrinho, de modo que a identificação é forte, não provada. A
+    madrinha foi Cecilia, solteira, filha de João de Cima, de Pousa. O menino João pode ser
+    registrado como filho documentado da F-0070; a pesquisa de recuperação refere o óbito de um
+    João, filho do casal, com 10 anos e 2 meses, em Pousa em 1866 (PAR-0129).
+- text: >-
+    Namesake on the same page. The first entry of the left page baptises Maria, daughter of
+    Manoel Bernardo and Anna Maria, also "do lugar do Souto", in August 1855. That Anna Maria has
+    named parents (João Francisco and Luiza, of the freguezia da Graça) and a husband named
+    Manoel Bernardo; she is a different woman from P-0140, the foundling.
+  text_pt: >-
+    Homônima na mesma página. O primeiro assento da página da esquerda batiza Maria, filha de
+    Manoel Bernardo e de Anna Maria, também "do lugar do Souto", em agosto de 1855. Essa Anna Maria
+    tem pais nomeados (João Francisco e Luiza, da freguesia da Graça) e um marido chamado Manoel
+    Bernardo; é uma mulher diferente de P-0140, a exposta.
+- text: >-
+    Differences from the retrieval side's draft (manoel-joao-fernandes-da-cruz.md §8.3, entry 1).
+    The wording is confirmed, with these readings: "nepto paterno" (draft "neto paterno"); "oito
+    centos, e cincoenta" with a comma; "Baptizado p.r mim" (draft "por mim[?]") — the words are
+    clear, the abbreviation is written "p.r"; "de Cima" is legible (draft "de Cima[?]"); and the
+    first line ends with the scribe's "=". The draft's dates (born 22 December, baptised 24
+    December 1855) are confirmed.
+  text_pt: >-
+    Diferenças em relação ao rascunho da pesquisa de recuperação
+    (manoel-joao-fernandes-da-cruz.md §8.3, assento 1). O texto foi confirmado, com estas leituras:
+    "nepto paterno" (rascunho "neto paterno"); "oito centos, e cincoenta", com vírgula; "Baptizado
+    p.r mim" (rascunho "por mim[?]") — as palavras são claras, e a abreviatura está escrita "p.r";
+    "de Cima" é legível (rascunho "de Cima[?]"); e a primeira linha termina com o "=" do escrivão.
+    As datas do rascunho (nascido em 22 de dezembro, batizado em 24 de dezembro de 1855) estão
+    confirmadas.

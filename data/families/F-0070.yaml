@@ -1,0 +1,156 @@
+schema_version: 1
+id: F-0070
+partners:
+- person_id: P-0139
+  role: spouse
+- person_id: P-0140
+  role: spouse
+partner_relationship:
+  status: confirmed
+  source_ids:
+  - PRB-0013
+  - PRB-0014
+  - PAR-0107
+  - PAR-0108
+  notes:
+  - text: >-
+      Confirmed by his own will: "sou casado em primeiras nupcias com D. Anna Maria" (PRB-0013),
+      with his widow named in the inventário (PRB-0014) and the couple "recebidos na dita freguezia
+      de São Romão da Ucha" (PAR-0108). The marriage entry itself (PAR-0107, 10 January 1855)
+      calls the bride Joanna Maria, so the marriage event is strong evidence (E-0142).
+    text_pt: >-
+      Confirmado pelo próprio testamento: "sou casado em primeiras nupcias com D. Anna Maria"
+      (PRB-0013), com a viúva nomeada no inventário (PRB-0014) e o casal "recebidos na dita freguezia
+      de São Romão da Ucha" (PAR-0108). O assento de casamento (PAR-0107, 10 de janeiro de 1855)
+      chama a noiva de Joanna Maria, por isso o evento de casamento é evidência forte (E-0142).
+children:
+- person_id: P-0039
+  parent_relationships:
+  - parent_id: P-0139
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0108
+    - PRB-0013
+    - PRB-0014
+    notes:
+    - text: >-
+        Strong evidence, not confirmed. Her father's 1890 will lists "Thereza, casada com Secundino
+        de Azevedo" among his five living children (PRB-0013), and his 1898 inventário names "D.
+        Thereza de Jesus casada com Secundino de Azevedo" among the heirs at Bom Jesus da Cachoeira
+        Alegre (PRB-0014); the 1864 Pousa baptism of Thereza de Jesus, daughter of Manoel João
+        Fernandes and Anna Exposta, is the same child (PAR-0108; the will's five survivors match
+        the Pousa registers exactly). The step from that Thereza to P-0039, Thereza Fernandes
+        de Azevedo, rests on the same given name, a husband Secundino de Azevedo (P-0038), and
+        the same district — her daughter Luiza was born at Bom Jesus (CIV-0001) — not on a record
+        naming both forms together.
+      text_pt: >-
+        Evidência forte, não confirmada. O testamento de 1890 do pai lista "Thereza, casada com
+        Secundino de Azevedo" entre os cinco filhos vivos (PRB-0013), e o inventário de 1898 nomeia
+        "D. Thereza de Jesus casada com Secundino de Azevedo" entre os herdeiros de Bom Jesus
+        da Cachoeira Alegre (PRB-0014); o batismo de 1864, em Pousa, de Thereza de Jesus, filha
+        de Manoel João Fernandes e Anna Exposta, é a mesma criança (PAR-0108; os cinco sobreviventes
+        do testamento coincidem exatamente com os livros de Pousa). O passo dessa Thereza a P-0039,
+        Thereza Fernandes de Azevedo, apoia-se no mesmo prenome, num marido Secundino de Azevedo
+        (P-0038) e no mesmo distrito — a filha Luiza nasceu em Bom Jesus (CIV-0001) —, e não num
+        registro que traga as duas formas juntas.
+  - parent_id: P-0140
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0108
+    - PRB-0013
+    - PRB-0014
+    notes:
+    - text: As for the paternal link.
+      text_pt: Como para o vínculo paterno.
+  notes: []
+documented_children:
+- name: João
+  source_ids:
+  - PAR-0124
+  - PAR-0129
+  lifespan: 1855–1866
+  note: >-
+    Born 22 December 1855 at Souto, Pousa, baptised 24 December, his godfather "João solteiro
+    thio paterno" (PAR-0124); died at Souto on 7 March 1866, "de dez annos, e dous mezes" (PAR-0129).
+- name: Maria de Jesus
+  source_ids:
+  - PAR-0125
+  - PRB-0013
+  - PRB-0014
+  lifespan: b. 1858
+  note: >-
+    Born 10 April 1858 at Souto, Pousa (PAR-0125). The will's "Maria, casada com André Teixeira
+    Crespo" (PRB-0013) and the heir "D. Maria de Jesus da Conceição casada com André Teixeira
+    Crespo" at Bom Jesus da Cachoeira Alegre in 1898 (PRB-0014) — identification with the 1858
+    baptism strong, by name and by the five survivors. That she was the widow of her uncle Domingos
+    José Fernandes (Maria de Jesus Crespo, PRB-0016) is a lead.
+- name: Maria José
+  source_ids:
+  - PAR-0126
+  - PRB-0013
+  - PRB-0014
+  lifespan: b. 1859
+  note: >-
+    Born 1 October 1859 at Souto, Pousa (PAR-0126); "Maria José, casada com Francisco Joaquim
+    da Silva" (PRB-0013), "D. Maria José da Conceição" in 1898 (PRB-0014).
+- name: Antonio Joaquim
+  source_ids:
+  - PAR-0127
+  - PAR-0128
+  lifespan: 1862–1864
+  note: >-
+    Born 4 January 1862 at Souto, Pousa (PAR-0127); died there on 3 September 1864, "dous annos
+    e oito mezes" (PAR-0128).
+- name: Joaquim
+  source_ids:
+  - PAR-0130
+  - PRB-0013
+  - PRB-0014
+  lifespan: b. 1866
+  note: >-
+    Born 2 May 1866 at Souto, Pousa, "primeiro do nome" (PAR-0130). Taken to be the will's son
+    Joaquim, "tão bem casado", left the terça (PRB-0013), and Joaquim José Fernandes, casado,
+    inventariante and testamenteiro in 1898 (PRB-0014) — the only Joaquim among the nine; an inference.
+- name: João
+  source_ids:
+  - PAR-0131
+  - PAR-0132
+  lifespan: 1868–1870
+  note: >-
+    "Segundo do nome": born 27 February 1868 at Souto, Pousa (PAR-0131); died there on 9 September
+    1870 (PAR-0132).
+- name: Maria
+  source_ids:
+  - PAR-0133
+  - PAR-0134
+  lifespan: 1870–1870
+  note: >-
+    "Terceira do nome": born and baptised at home "por perigo de Vida" on 17 September 1870 (PAR-0133);
+    died the same night (PAR-0134).
+- name: Maria
+  source_ids:
+  - PAR-0135
+  - PRB-0013
+  - PRB-0014
+  lifespan: b. 1871
+  note: >-
+    Born 5 October 1871 at Souto, Pousa (PAR-0135; the entry calls her "primeira do nome", a clerical
+    inconsistency). Taken to be the will's "Maria Fernandes casada com Balbino Alves de Sauza"
+    and the heir "D. Maria Fernandes de Souza" of 1898 (PRB-0013, PRB-0014) — an inference.
+event_ids:
+- E-0142
+notes:
+- text: >-
+    Manoel João Fernandes da Cruz and Anna Maria, a foundling: parents of Thereza (P-0039), Antenor
+    Muniz's maternal grandmother. Nine children were born at the lugar do Souto, Pousa, 1855–1871,
+    and four died young (PAR-0124–PAR-0135), leaving exactly the "nove filhos, achando-se vivos
+    presentemente apenas cinco" of the 1890 will (PRB-0013). The family emigrated to Minas Gerais
+    between late 1871 and 1885 [inference from PAR-0135 and PRB-0016].
+  text_pt: >-
+    Manoel João Fernandes da Cruz e Anna Maria, exposta: pais de Thereza (P-0039), avó materna
+    de Antenor Muniz. Nove filhos nasceram no lugar do Souto, Pousa, entre 1855 e 1871, e quatro
+    morreram pequenos (PAR-0124–PAR-0135), restando exatamente os "nove filhos, achando-se vivos
+    presentemente apenas cinco" do testamento de 1890 (PRB-0013). A família emigrou para Minas
+    Gerais entre o fim de 1871 e 1885 [inferência de PAR-0135 e PRB-0016].

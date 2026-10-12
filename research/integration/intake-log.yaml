@@ -23,3 +23,19 @@ generations:
     status: 1
   intake_text_sha256: 6d8b49ea8acff4a5faa6d02aac3cc13efabee53e8ec9f181adc2fa8e1d8bd977
   status: accepted
+- content_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+  contract_version: 0
+  source_commit: null
+  source_dirty: null
+  generated_at: '2026-10-12T18:52:16.060593+00:00'
+  accepted_at: '2026-10-12T19:05:02+00:00'
+  total_files: 354
+  class_counts:
+    correspondence_text: 41
+    findings: 274
+    leads: 5
+    methodology: 5
+    plans: 28
+    status: 1
+  intake_text_sha256: 6d8b49ea8acff4a5faa6d02aac3cc13efabee53e8ec9f181adc2fa8e1d8bd977
+  status: accepted

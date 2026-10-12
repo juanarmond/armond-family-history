@@ -1,0 +1,73 @@
+schema_version: 1
+id: F-0073
+partners:
+- person_id: P-0145
+  role: spouse
+- person_id: P-0146
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0111
+  - PAR-0106
+  notes:
+  - text: >-
+      Parents of a "filha legitima" (PAR-0111), named together as maternal grandparents in eight
+      baptisms (PAR-0106, PAR-0113–PAR-0120); their marriage is not located.
+    text_pt: >-
+      Pais de uma "filha legitima" (PAR-0111), nomeados juntos como avós maternos em oito batismos
+      (PAR-0106, PAR-0113–PAR-0120); o casamento não foi localizado.
+children:
+- person_id: P-0142
+  parent_relationships:
+  - parent_id: P-0145
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0111
+    - PAR-0106
+    - PAR-0113
+    - PAR-0114
+    - PAR-0115
+    - PAR-0116
+    - PAR-0118
+    - PAR-0119
+    - PAR-0120
+    notes:
+    - text: >-
+        Strong evidence: her death entry names her parents (PAR-0111, reported information eighty
+        years after her birth, giving the father as "Joze"), and eight contemporary baptisms of
+        her children name the same couple as maternal grandparents, the father as Ignacio. No
+        record of her own birth survives.
+      text_pt: >-
+        Evidência forte: o assento de óbito dela nomeia os pais (PAR-0111, informação declarada
+        oitenta anos depois do nascimento, com o pai como "Joze"), e oito batismos contemporâneos
+        dos filhos dela nomeiam o mesmo casal como avós maternos, o pai como Ignacio. Nenhum registro
+        do nascimento dela sobreviveu.
+  - parent_id: P-0146
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0111
+    - PAR-0106
+    - PAR-0113
+    - PAR-0114
+    - PAR-0115
+    - PAR-0116
+    - PAR-0118
+    - PAR-0119
+    - PAR-0120
+    notes:
+    - text: As for the paternal link.
+      text_pt: Como para o vínculo paterno.
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Ignacio Francisco Lopes and Marianna da Silva, lavradores of Pousa: parents of Joaquina Rosa
+    Lopes (P-0142). A possible further daughter, Andreza (Maria) Lopes, wife of Feliciano Gomes
+    of Pousa, is a lead only (a neighbouring Pousa entry of 1859 names her; no kinship is stated).
+  text_pt: >-
+    Ignacio Francisco Lopes e Marianna da Silva, lavradores de Pousa: pais de Joaquina Rosa Lopes
+    (P-0142). Uma possível outra filha, Andreza (Maria) Lopes, esposa de Feliciano Gomes, de Pousa,
+    é apenas uma pista (um assento vizinho de Pousa de 1859 a nomeia; nenhum parentesco é declarado).

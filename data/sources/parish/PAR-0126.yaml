@@ -1,0 +1,194 @@
+schema_version: 1
+id: PAR-0126
+title: >-
+  Pousa baptism register — Maria José, legitimate daughter of Manoel João Fernandes and Anna
+  Maria, of the lugar do Souto; born 1 October 1859, baptised 5 October 1859
+title_pt: >-
+  Registro de batismos de Pousa — Maria José, filha legítima de Manoel João Fernandes e de Anna
+  Maria, do lugar do Souto; nascida em 1º de outubro de 1859, batizada em 5 de outubro de 1859
+record_type: Parish baptism register entry, two pages (target entry transcribed in full; neighbouring entries summarised)
+record_category: parish_register
+source_form: original
+information_quality: mixed
+evidence_type: direct
+usage: evidence
+event_date:
+  kind: exact
+  value: "1859-10-05"
+  original_text: >-
+    aos cinco dias do dito mez e anno
+event_place_text: Parish church of Santa Cristina de Pousa, concelho de Barcelos, Braga district, Portugal
+repository:
+  name: FamilySearch (digital images of the parish registers)
+  archive_or_registry: >-
+    Paróquia de Santa Cristina de Pousa, Barcelos — parish registers (the original books are in
+    the custody of the Arquivo Distrital de Braga)
+  collection: Pousa (Santa Cristina), Barcelos — Baptisms 1834–1862 (FamilySearch DGS 004668983)
+  book: Baptism book of Pousa covering 1859 (Livro 3, per the retrieval side)
+  page: >-
+    fl. 4 (right page, last entry) continuing on fl. 4v (left page, first entry); the folio
+    numbers 4 and 5 are written at the top right of the two right-hand pages, each beside the
+    rubric "Costa"
+  image: DGS 004668983, images 80 and 81
+  record_number: last entry on fl. 4 (no number written)
+  catalogue_reference: >-
+    FamilySearch DGS 004668983, images 80–81; image arks 3:1:939V-QGWW-L (80) and
+    3:1:939V-QG7G-1 (81), per the retrieval side. Located by the retrieval agent's page-by-page
+    sweep of the unindexed Pousa baptisms 1834–1862 (2026-10-12) and delivered through the
+    retrieval drop.
+  url: https://www.familysearch.org/ark:/61903/3:1:939V-QGWW-L
+access_date: "2026-10-12"
+language: pt-PT
+transcription: |-
+  [Two consecutive openings — Pousa baptisms, DGS 004668983 images 80 and 81. The target entry begins at the foot of fl. 4 (image 80, right page) and ends at the top of fl. 4v (image 81, left page). The entries of these openings are signed by the Abbade Lucio Antonio da Costa and by the coadjutor Domingos Fernandes Cardeira. Read from the native images (3736×3000 each) in strips at 1–2× zoom, 2026-10-12. Line breaks are kept as on the page; spelling, capitals and abbreviations are kept as written.]
+
+  [image 80, left page — the end of an entry, then the baptisms of Felicidade, daughter of Domingos de Souza and Maria Thereza [uncertain: Peixoto], and of Maria Thereza, daughter of João Lopes Leal and Thereza Maria (July 1859). The latter ends at the top of fl. 4: "Forão Padrinhos Antonio Joaquim Martins e sua mulher Thereza de Jesus do lugar da Pousa freguesia deste no- / me". Not this family; on the godparents, see the notes.]
+
+  [image 80, fl. 4, entry 2 — the baptism of Joaquina Rosa, daughter of Manoel [uncertain: Peixoto] and [illegible] da Silva, born 8 August 1859, with a marginal cross-reference note. Not this family.]
+
+  [p1 — evidence/parish/PAR-0126-baptism-maria-jose-1859-pousa-p01.jpg; image 80, fl. 4, last entry — TARGET (no margin note)]
+  Maria José, filha legitima de Manoel João Fernandes
+  e Anna Maria do lugar do Souto desta freguesia; neta
+  paterna de Bento José Fernandes e Joaquina Lopes
+  do lugar da Quintãa, freguesia de São Romão da Ucha
+
+  [p2 — evidence/parish/PAR-0126-baptism-maria-jose-1859-pousa-p02.jpg; image 81, fl. 4v, first entry]
+  Ucha; e materna de Avós incognitos; nasceo no dia
+  primeiro de Outubro do anno de mil oito centos cincoen-
+  ta e nove; foi baptisada solemnemente com imposi-
+  ção dos Santos Oleos na pia baptismal desta Igreja
+  aos cinco dias do dito mez e anno pelo Presbitero
+  Domingos Fernandes Cardeira, Coadjutor nesta
+  freguesia. Forão Padrinhos Manuel Loureiro sol-
+  teiro filho de José Joaquim Loureiro do lugar d'Am-
+  proã, e Maria José da Silva solteira do lugar
+  do Paço, ambos desta freguesia. E para cons-
+  tar se fez este termo que vai assignado pelo
+  Abbade e seu Cura —
+  O Abbade Lucio Antonio da Costa
+  O Coadjutor Domingos Fernandes Cardeira.
+  [Readings: "Ucha" is written at the end of image 80 and again at the head of image 81, as a catchword; Quintãa is written with the tilde on the first a; "d'Am- / proã" is written with the tilde on the final a.]
+
+  [image 81, fl. 4v, entries 2 and 3 — the baptisms of Luiza, natural daughter of Andreza Maria (born 17 October 1859), and of Maria, daughter of Manoel Gonçalves [uncertain: Lassa] and Maria Josefa Rodrigues. Not this family.]
+
+  [image 81, fl. 5 — the end of an entry (born 6 November 1859); the baptism of Joaquina Rosa, daughter of Antonio José Ferreira and Josefa Maria Rodrigues, of the lugar do Souto (November 1859); and the beginning of the baptism of Antonio Joaquim, son of Joaquim Luiz Lopes Leal and Anna Maria Gomes, of the lugar da Pousa, "neto paterno de Antonio Lopes Leal e Leonarda Carneiro, e materno de Feliciano Gomes, e Andreza Maria Lopes todos do dito lugar" (continued on the next image, not part of this record). On Andreza Maria Lopes, see the notes.]
+reading_reliability: complete
+abstract: >-
+  Original baptism entry beginning at the foot of fl. 4 and ending at the top of fl. 4v of the
+  Pousa (Barcelos) baptism book. Maria José, legitimate daughter of Manoel João Fernandes and Anna
+  Maria, of the lugar do Souto in Pousa, was born on 1 October 1859 and was solemnly baptised,
+  with the holy oils, in the parish church on 5 October 1859 by the presbyter Domingos Fernandes
+  Cardeira, coadjutor. The paternal grandparents are named as Bento José Fernandes and Joaquina
+  Lopes, of the lugar da Quintãa in São Romão da Ucha; the maternal grandparents are "Avós
+  incognitos". The godparents were Manuel Loureiro, solteiro, son of José Joaquim Loureiro, of
+  the lugar d'Amproã, and Maria José da Silva, solteira, of the lugar do Paço, both of Pousa. The
+  entry is signed by the Abbade Lucio Antonio da Costa and by the coadjutor. The parents are
+  Manoel João Fernandes da Cruz (P-0139) and Anna Maria Fernandes (P-0140); Maria José is a
+  collateral child of their family F-0070.
+abstract_pt: >-
+  Assento original de batismo que começa no pé da fl. 4 e termina no alto da fl. 4v do livro de
+  batismos de Pousa (Barcelos). Maria José, filha legítima de Manoel João Fernandes e de Anna
+  Maria, do lugar do Souto, em Pousa, nasceu em 1º de outubro de 1859 e foi batizada solenemente,
+  com os santos óleos, na igreja paroquial em 5 de outubro de 1859 pelo presbítero Domingos
+  Fernandes Cardeira, coadjutor. Os avós paternos são nomeados como Bento José Fernandes e
+  Joaquina Lopes, do lugar da Quintãa, em São Romão da Ucha; os avós maternos são "Avós
+  incognitos". Foram padrinhos Manuel Loureiro, solteiro, filho de José Joaquim Loureiro, do lugar
+  d'Amproã, e Maria José da Silva, solteira, do lugar do Paço, ambos de Pousa. O assento é assinado
+  pelo Abade Lucio Antonio da Costa e pelo coadjutor. Os pais são Manoel João Fernandes da Cruz
+  (P-0139) e Anna Maria Fernandes (P-0140); Maria José é uma filha colateral da família F-0070.
+reliability:
+  assessment: >-
+    Original and direct. It is primary for the baptism, its date and place, the child, the
+    parents as named, the godparents and the officiant: the coadjutor baptised, and he and the
+    Abbade signed. The birth date and the grandparents were declared to them and are secondary
+    information. Every word of the entry is legible on the two images, including the page turn.
+  informant: >-
+    The coadjutor of Pousa, Domingos Fernandes Cardeira, who baptised, and the Abbade Lucio
+    Antonio da Costa; both signed. The facts of birth and kinship were presumably declared by the
+    family or the godparents.
+  limitations: >-
+    The mother is "Anna Maria" without a surname or any statement that she was a foundling,
+    though the maternal grandparents are unknown. The entry gives no occupation for the father.
+    The coadjutor's surname "Fernandes" is not a kinship.
+digital_file:
+  path: evidence/parish/PAR-0126-baptism-maria-jose-1859-pousa-p01.jpg
+  sha256: ba3fec7108980b06d68a5a14bc6c17bcf36e3216a1eb52c7713fd90111fd1401
+additional_pages:
+- path: evidence/parish/PAR-0126-baptism-maria-jose-1859-pousa-p02.jpg
+  sha256: fc9732ac79d206b39aa929e2f35b4c3e6a2472c41ec9a5ae20a9a9c035a66cc0
+linked_people:
+- P-0139
+- P-0140
+- P-0141
+- P-0142
+linked_families:
+- F-0070
+- F-0071
+linked_events: []
+linked_places: []
+private: false
+notes:
+- text: >-
+    Identification. The parents are identified with P-0139 and P-0140: "Manoel João Fernandes" and
+    "Anna Maria", of the lugar do Souto in Pousa, with paternal grandparents Bento José Fernandes
+    and Joaquina Lopes "do lugar da Quintãa, freguesia de São Romão da Ucha" (the lugar of
+    P-0141 and P-0142) and unknown maternal grandparents. The retrieval side identifies this Maria
+    José with the daughter of the same name who was an heir of Manoel João in Brazil in 1898; that
+    rests on the name and is not stated here. The identification of the parents is strong, not
+    proven.
+  text_pt: >-
+    Identificação. Os pais são identificados com P-0139 e P-0140: "Manoel João Fernandes" e "Anna
+    Maria", do lugar do Souto, em Pousa, com avós paternos Bento José Fernandes e Joaquina Lopes
+    "do lugar da Quintãa, freguesia de São Romão da Ucha" (o lugar de P-0141 e P-0142) e avós
+    maternos desconhecidos. A pesquisa de recuperação identifica esta Maria José com a filha do
+    mesmo nome que foi herdeira de Manoel João no Brasil em 1898; isso se apoia no nome e não está
+    declarado aqui. A identificação dos pais é forte, não provada.
+- text: >-
+    What the record adds. It is the first of these baptisms to give the father a surname,
+    "Manoel João Fernandes", to write "filha legitima" in full (the 1858 entry may abbreviate
+    it), to name the grandparents' lugar ("Quintãa") and to call the paternal grandmother
+    "Joaquina Lopes" rather than "Joaquinna Roza". The couple still lived in the lugar do Souto in October 1859. A new Abbade, Lucio
+    Antonio da Costa, signs. Maria José can be recorded as a documented child of F-0070.
+  text_pt: >-
+    O que o registro acrescenta. É o primeiro destes batismos a dar apelido ao pai, "Manoel João
+    Fernandes", a escrever "filha legitima" por extenso (o assento de 1858 talvez o abrevie), a
+    nomear o lugar dos avós ("Quintãa") e a chamar a avó paterna de "Joaquina Lopes", e não
+    "Joaquinna Roza". O casal ainda morava no lugar do
+    Souto em outubro de 1859. Assina um novo Abade, Lucio Antonio da Costa. Maria José pode ser
+    registrada como filha documentada da F-0070.
+- text: >-
+    Neighbouring entries with names that recur. (1) In July 1859 the godparents of Maria Thereza,
+    daughter of João Lopes Leal, were "Antonio Joaquim Martins e sua mulher Thereza de Jesus do
+    lugar da Pousa"; a Padrinho Antonio Joaquim Martins, casado, oleiro, and a Madrinha Thereza de
+    Jesus, casada, of the lugar da Cachadinha, are the godparents of Manoel João and Anna's son
+    Antonio Joaquim in 1862 (PAR-0127). This married Thereza de Jesus is not Manoel João's sister Thereza
+    de Jesus, who was solteira until 1869 (PAR-0123). (2) On fl. 5 an Antonio Joaquim, son of
+    Joaquim Luiz Lopes Leal and Anna Maria Gomes, has a maternal grandmother "Andreza Maria
+    Lopes", of the lugar da Pousa. The retrieval side treats an Andreza Lopes, wife of Feliciano
+    Gomes, as a probable sister of Joaquina Rosa Lopes; this entry pairs Andreza Maria Lopes with
+    Feliciano Gomes but states no kinship with Joaquina, so the sisterhood remains unproven.
+  text_pt: >-
+    Assentos vizinhos com nomes que se repetem. (1) Em julho de 1859 os padrinhos de Maria Thereza,
+    filha de João Lopes Leal, foram "Antonio Joaquim Martins e sua mulher Thereza de Jesus do lugar
+    da Pousa"; um padrinho Antonio Joaquim Martins, casado, oleiro, e uma madrinha Thereza de Jesus,
+    casada, do lugar da Cachadinha, são os padrinhos de Antonio Joaquim, filho de Manoel João e de
+    Anna, em 1862 (PAR-0127). Esta Thereza de Jesus casada não é a irmã de Manoel João, Thereza de Jesus, que era
+    solteira até 1869 (PAR-0123). (2) Na fl. 5, um Antonio Joaquim, filho de Joaquim Luiz Lopes
+    Leal e de Anna Maria Gomes, tem como avó materna "Andreza Maria Lopes", do lugar da Pousa. A
+    pesquisa de recuperação trata uma Andreza Lopes, mulher de Feliciano Gomes, como provável irmã
+    de Joaquina Rosa Lopes; este assento junta Andreza Maria Lopes a Feliciano Gomes, mas não
+    declara parentesco com Joaquina, de modo que o vínculo de irmãs continua não provado.
+- text: >-
+    Differences from the retrieval side's draft (manoel-joao-fernandes-da-cruz.md §8.3, entry 3).
+    The wording is confirmed, with these readings: the godfather is written "Manuel Loureiro"
+    (draft "Manoel"); the lugar is "d'Am- / proã", with the tilde on the final a (draft
+    "d'Am- / prôa"). The repetition of "Ucha" across the page turn is on the images, as the draft
+    shows. The draft's dates (born 1 October, baptised 5 October 1859) and folios (fl. 4 to fl. 4v)
+    are confirmed.
+  text_pt: >-
+    Diferenças em relação ao rascunho da pesquisa de recuperação
+    (manoel-joao-fernandes-da-cruz.md §8.3, assento 3). O texto foi confirmado, com estas leituras:
+    o padrinho está escrito "Manuel Loureiro" (rascunho "Manoel"); o lugar é "d'Am- / proã", com o
+    til sobre o a final (rascunho "d'Am- / prôa"). A repetição de "Ucha" na mudança de página está
+    nas imagens, como mostra o rascunho. As datas do rascunho (nascida em 1º de outubro, batizada em
+    5 de outubro de 1859) e os fólios (fl. 4 a fl. 4v) estão confirmados.

@@ -1,0 +1,215 @@
+schema_version: 1
+id: P-0145
+preferred_name: Ignacio Francisco Lopes
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: Ignacio Lopes
+  type: source
+  source_ids:
+  - PAR-0113
+  - PAR-0118
+  - PAR-0119
+- value: Ignacio Francisco Lopes
+  type: source
+  source_ids:
+  - PAR-0114
+  - PAR-0115
+- value: Ignacio José Lopes
+  type: source
+  source_ids:
+  - PAR-0106
+  note: >-
+    Possibly borrowed from the mother's uncle Ignacio José Lopes of São Miguel de Cabreiros, named
+    in PAR-0115.
+- value: Ignacio Joze Lopes
+  type: source
+  source_ids:
+  - PAR-0120
+- value: Inacio Lopes
+  type: source
+  source_ids:
+  - PAR-0116
+- value: Joze Lopes
+  type: source
+  source_ids:
+  - PAR-0111
+  note: His daughter's 1890 death entry, eighty years after her birth.
+occupations:
+- value: lavrador
+  source_ids:
+  - PAR-0111
+event_ids:
+- E-0149
+- E-0150
+family_ids:
+- F-0073
+notes:
+- text: >-
+    Antenor Muniz's 3×-great-grandfather: father of Joaquina Rosa Lopes (P-0142); lavrador, natural
+    of Pousa, of the lugar da Anjeirôa [uncertain] there. Preferred name from the contemporary
+    baptisms of his grandchildren (PAR-0114, PAR-0115); his daughter's 1890 death calls him "Joze
+    Lopes" (PAR-0111) — both kept. Dead by 29 March 1837 ("e tambem falecid[os]", PAR-0116).
+  text_pt: >-
+    Tetravô de Antenor Muniz: pai de Joaquina Rosa Lopes (P-0142); lavrador, natural de Pousa,
+    do lugar da Anjeirôa [incerto], ali. Nome preferido tirado dos batismos contemporâneos dos
+    netos (PAR-0114, PAR-0115); o óbito da filha em 1890 o chama "Joze Lopes" (PAR-0111) — ambos
+    mantidos. Já falecido em 29 de março de 1837 ("e tambem falecid[os]", PAR-0116).
+- text: >-
+    Nationality Portuguese: "naturaes da freguezia da Pouza" (PAR-0111). No parent family is modelled:
+    no record names his parents, and the Pousa registers before 1834 do not survive.
+  text_pt: >-
+    Nacionalidade portuguesa: "naturaes da freguezia da Pouza" (PAR-0111). Nenhuma família de
+    origem é modelada: nenhum registro nomeia os pais dele, e os livros de Pousa anteriores a
+    1834 não sobreviveram.
+profile: >-
+  ## Interesting facts
+
+
+  - **[PROVEN]** The priests could not settle his middle name. He is "Ignacio Lopes" in 1829,
+  1837, 1839 and 1841, "Ignacio Francisco Lopes" in 1830 and 1835, and "Ignacio José Lopes" in
+  1833 and 1843 (PAR-0113, PAR-0116, PAR-0118, PAR-0119, PAR-0114, PAR-0115, PAR-0106, PAR-0120).
+  His daughter's death entry of 1890, written some eighty years after her birth, calls him "Joze
+  Lopes" (PAR-0111).
+
+  - **[PROVEN]** A second man of nearly the same name stands beside him in the records. The 1835
+  baptism names "Ignacio José Lopes tio da Mãi do Baptizado", of São Miguel de Cabreiros, whose
+  daughter Maria was godmother (PAR-0115). This Ignacio was his daughter Joaquina's uncle, and
+  his existence may explain the "José" forms. [INFERRED — the explanation]
+
+
+  ## Identity
+
+
+  **Ignacio Francisco Lopes** — "Ignacio Lopes", "Ignacio Francisco Lopes" or "Ignacio José Lopes"
+  in the eight contemporary baptisms of his grandchildren, Ucha, 1829–1843 (PAR-0106, PAR-0113–PAR-0116,
+  PAR-0118–PAR-0120); "Joze Lopes" in his daughter's death entry, 1890 (PAR-0111). **[PROVEN —
+  all forms]** The contemporary given name Ignacio is preferred, and the 1890 "Joze" is kept as
+  a variant.
+
+
+  He was a lavrador and a native of Santa Cristina da Pousa, Barcelos: with his wife, "lavradores,
+  naturaes da freguezia da Pouza, deste concelho" (PAR-0111) **[PROVEN]**. His lugar in Pousa
+  is written "da Anjeira", "da Anjeyrôa" or "d'Anjeiroa" (PAR-0113, PAR-0106, PAR-0115, PAR-0116,
+  PAR-0118, PAR-0119) **[uncertain reading]**.
+
+
+  He was the husband of Marianna da Silva (P-0146), family F-0073, and the father of Joaquina
+  Rosa (Roza) Lopes (P-0142), born about 1810 at Pousa (PAR-0111) **[PROVEN]**.
+
+
+  He was probably dead by 29 March 1837. That year's baptism adds, after naming him and his wife,
+  "e tambem falecidos" (PAR-0116) **[uncertain reading]**.
+
+
+  The retrieval side read an 1839 Pousa baptism naming "Ignacio Francisco Lopes × Marianna Luiza
+  da Silva" as the grandparents of a child of Andreza Lopes and Feliciano Gomes, but did not file
+  it. [LEAD — a possible second daughter]
+
+
+  **Position in the tree.** He is the 3×-great-grandfather of Antenor Muniz (P-0006, 1923–2014)
+  on his maternal side, through Joaquina Rosa Lopes (P-0142), Manoel João Fernandes da Cruz (P-0139),
+  Thereza Fernandes de Azevedo (P-0039) and Luiza Fernandes de Azevedo (P-0013). The link from
+  Thereza to Manoel João's family is a strong identification, not a proof.
+
+
+  ## Open questions
+
+
+  - **His baptism, marriage and death.** The retrieval side reports that the Pousa baptisms 1778–1833,
+  marriages 1755–1859 and deaths 1745–1858 do not survive, either in the Arquivo Distrital de
+  Braga catalogue or on FamilySearch. If those events took place at Pousa, their entries are lost.
+  [OPEN — bounded negative, as reported] Notarial deeds, such as the escriptura dotal named in
+  his daughter's death entry (PAR-0111), are the remaining route.
+
+  - **His relationship to Ignacio José Lopes of São Miguel de Cabreiros** (PAR-0115), for example
+  whether they were brothers. [OPEN]
+
+  - **His parents.** No record names them. [OPEN]
+
+
+  ## Sources held (this repository)
+
+
+  - **PAR-0111** — his daughter Joaquina's death, Ucha, 1890, which names him "Joze Lopes", lavrador,
+  natural of Pousa. *Primary for her death; secondary for him.*
+
+  - **PAR-0106, PAR-0113, PAR-0114, PAR-0115, PAR-0116, PAR-0118, PAR-0119, PAR-0120** — baptisms
+  of eight of his grandchildren, Ucha, 1829–1843. He is the maternal grandfather "Ignacio (Francisco
+  / José) Lopes". *Primary for the baptisms; secondary for him.*
+profile_pt: >-
+  ## Fatos interessantes
+
+
+  - **[PROVEN]** Os padres não chegaram a acordo quanto ao seu segundo nome. Ele é "Ignacio Lopes"
+  em 1829, 1837, 1839 e 1841, "Ignacio Francisco Lopes" em 1830 e 1835, e "Ignacio José Lopes"
+  em 1833 e 1843 (PAR-0113, PAR-0116, PAR-0118, PAR-0119, PAR-0114, PAR-0115, PAR-0106, PAR-0120).
+  O assento de óbito da filha, de 1890, escrito uns oitenta anos depois do nascimento dela, chama-o
+  "Joze Lopes" (PAR-0111).
+
+  - **[PROVEN]** Um segundo homem de nome quase igual aparece a seu lado nos registros. O batismo
+  de 1835 nomeia "Ignacio José Lopes tio da Mãi do Baptizado", de São Miguel de Cabreiros, cuja
+  filha Maria foi madrinha (PAR-0115). Esse Ignacio era tio de sua filha Joaquina, e sua existência
+  pode explicar as formas com "José". [INFERRED — a explicação]
+
+
+  ## Identidade
+
+
+  **Ignacio Francisco Lopes** — "Ignacio Lopes", "Ignacio Francisco Lopes" ou "Ignacio José Lopes"
+  nos oito batismos contemporâneos de seus netos, Ucha, 1829–1843 (PAR-0106, PAR-0113–PAR-0116,
+  PAR-0118–PAR-0120); "Joze Lopes" no assento de óbito da filha, 1890 (PAR-0111). **[PROVEN —
+  todas as formas]** Prefere-se o prenome contemporâneo, Ignacio, e o "Joze" de 1890 fica como
+  variante.
+
+
+  Era lavrador e natural de Santa Cristina da Pousa, Barcelos: com a mulher, "lavradores, naturaes
+  da freguezia da Pouza, deste concelho" (PAR-0111) **[PROVEN]**. Seu lugar na Pousa é escrito
+  "da Anjeira", "da Anjeyrôa" ou "d'Anjeiroa" (PAR-0113, PAR-0106, PAR-0115, PAR-0116, PAR-0118,
+  PAR-0119) **[leitura incerta]**.
+
+
+  Era marido de Marianna da Silva (P-0146), família F-0073, e pai de Joaquina Rosa (Roza) Lopes
+  (P-0142), nascida por volta de 1810 na Pousa (PAR-0111) **[PROVEN]**.
+
+
+  Provavelmente já era falecido a 29 de março de 1837. O batismo desse ano acrescenta, depois
+  de nomear ele e a mulher, "e tambem falecidos" (PAR-0116) **[leitura incerta]**.
+
+
+  A pesquisa de recuperação leu um batismo da Pousa de 1839 que nomeia "Ignacio Francisco Lopes
+  × Marianna Luiza da Silva" como avós de um filho de Andreza Lopes e Feliciano Gomes, mas não
+  o arquivou. [LEAD — uma possível segunda filha]
+
+
+  **Posição na árvore.** É tetravô de Antenor Muniz (P-0006, 1923–2014) pelo lado materno, através
+  de Joaquina Rosa Lopes (P-0142), Manoel João Fernandes da Cruz (P-0139), Thereza Fernandes de
+  Azevedo (P-0039) e Luiza Fernandes de Azevedo (P-0013). A ligação de Thereza com a família de
+  Manoel João é uma identificação forte, não uma prova.
+
+
+  ## Questões em aberto
+
+
+  - **Seu batismo, casamento e óbito.** A pesquisa de recuperação informa que os batismos da Pousa
+  de 1778–1833, os casamentos de 1755–1859 e os óbitos de 1745–1858 não sobrevivem, nem no catálogo
+  do Arquivo Distrital de Braga nem no FamilySearch. Se esses eventos ocorreram na Pousa, os assentos
+  estão perdidos. [OPEN — negativo delimitado, conforme informado] Escrituras notariais, como
+  a escriptura dotal mencionada no óbito da filha (PAR-0111), são o caminho que resta.
+
+  - **Seu parentesco com Ignacio José Lopes, de São Miguel de Cabreiros** (PAR-0115), por exemplo
+  se eram irmãos. [OPEN]
+
+  - **Seus pais.** Nenhum registro os nomeia. [OPEN]
+
+
+  ## Fontes disponíveis (neste repositório)
+
+
+  - **PAR-0111** — o óbito de sua filha Joaquina, Ucha, 1890, que o nomeia "Joze Lopes", lavrador,
+  natural da Pousa. *Primária para o óbito dela; secundária para ele.*
+
+  - **PAR-0106, PAR-0113, PAR-0114, PAR-0115, PAR-0116, PAR-0118, PAR-0119, PAR-0120** — batismos
+  de oito de seus netos, Ucha, 1829–1843. Ele é o avô materno "Ignacio (Francisco / José) Lopes".
+  *Primárias para os batismos; secundárias para ele.*

@@ -1,0 +1,28 @@
+schema_version: 1
+id: E-0150
+event_type: birth
+date:
+  kind: approximate
+  text: c.1810 (aged 80 at her death on 25 May 1890, PAR-0111)
+  earliest: 1809
+  latest: 1810
+place_text: Santa Cristina de Pousa, Barcelos, Braga, Portugal
+participants:
+- person_id: P-0142
+  role: principal
+- person_id: P-0145
+  role: parent
+- person_id: P-0146
+  role: parent
+status: strong-evidence
+source_ids:
+- PAR-0111
+notes:
+- text: >-
+    Birth year and place derived from her death entry: aged 80 in May 1890 and "natural da freguezia
+    da Pouza" (PAR-0111). No baptism is held; the Pousa baptisms before 1834 do not survive, by
+    the retrieval side's report.
+  text_pt: >-
+    Ano e lugar de nascimento tirados do assento de óbito: 80 anos em maio de 1890 e "natural
+    da freguezia da Pouza" (PAR-0111). Nenhum batismo está em mãos; os batismos de Pousa anteriores
+    a 1834 não sobreviveram, segundo o lado da recuperação.

@@ -18,6 +18,13 @@
 #            so the deploy does not send its notification a second time.
 
 updates:
+  - date: "2026-10-12"
+    kind: milestone
+    title: "New ancestors: Thereza Fernandes de Azevedo's Portuguese family is found — her 1864 baptism at Pousa, Barcelos, her father Manoel João Fernandes da Cruz's will and estate inventory at Muriaé, and the Minho parish registers behind them add twelve ancestors, back to the 1770s; Thereza was born in the Minho of northern Portugal"
+    title_pt: "Novos antepassados: encontrada a família portuguesa de Thereza Fernandes de Azevedo — o batismo dela em 1864 em Pousa, Barcelos, o testamento e o inventário do pai, Manoel João Fernandes da Cruz, em Muriaé, e os livros paroquiais do Minho por trás deles acrescentam doze antepassados, até a década de 1770; Thereza nasceu no Minho, norte de Portugal"
+    primary: P-0039
+    links: [P-0039, P-0139, P-0140, P-0141, P-0142, P-0143, P-0145, PAR-0108, PRB-0013]
+
   - date: "2026-10-10"
     kind: correction
     title: "Correction and new ancestors: Rosa Eugenia de Lemos's four grandparents are now in the tree from two Itaboraí baptisms; her family's baptisms were re-read on the images and her parents' marriage confirmed; Francisco José Bohrer's will proves to date from 1879, and his estate went to his creditors; and the Terceira family of Belchior da Ponte Cardoso is no longer shown as a proven ancestry — the Gaspar of Vila Rica and the Gaspar of Terceira were two different men; that Terceira Gaspar's wife Margarida and her Ermonde parents are now documented from her baptism and their 1690 marriage"

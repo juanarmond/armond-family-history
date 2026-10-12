@@ -1,0 +1,474 @@
+schema_version: 1
+id: P-0140
+preferred_name: Anna Maria Fernandes
+privacy: deceased
+sex: female
+name_variants:
+- value: Joanna Maria Esposta
+  type: source
+  source_ids:
+  - PAR-0107
+  note: >-
+    Her 1855 marriage: "Joanna Maria / Esposta rezidente na freguezia de Santa Christina d'Algozo
+    da Pouza". Every later record calls her Anna; unresolved.
+- value: Anna Maria
+  type: source
+  source_ids:
+  - PAR-0124
+  - PAR-0125
+  - PAR-0126
+  - PRB-0013
+- value: Anna Exposta
+  type: source
+  source_ids:
+  - PAR-0108
+  - PAR-0127
+  - PAR-0128
+  - PAR-0129
+  - PAR-0130
+  - PAR-0131
+  - PAR-0133
+  - PAR-0135
+  note: '"Exposta": a foundling.'
+- value: Anna Esposta
+  type: source
+  source_ids:
+  - PAR-0132
+  - PAR-0134
+- value: Anna Maria Fernandes
+  type: source
+  source_ids:
+  - PRB-0014
+  note: As "D. Anna Maria Fernandes", the widow, 1898.
+occupations:
+- value: costureira
+  source_ids:
+  - PAR-0108
+  - PAR-0130
+  - PAR-0131
+  - PAR-0132
+  - PAR-0133
+  - PAR-0134
+  - PAR-0135
+  note: Seamstress at Pousa, 1864–1871 ("Custoreira" in 1866).
+event_ids:
+- E-0142
+- E-0143
+- E-0144
+- E-0145
+family_ids:
+- F-0070
+notes:
+- text: >-
+    Wife of Manoel João Fernandes da Cruz (P-0139) and mother of Thereza (P-0039); Antenor Muniz's
+    great-grandmother. A foundling ("Exposta") resident at Pousa when she married at Ucha on 10
+    January 1855 (PAR-0107); seamstress; mother of nine children born at Pousa 1855–1871; alive
+    and a widow at Bom Jesus da Cachoeira Alegre, Muriaé, in November 1898, when she could not
+    write (PRB-0014).
+  text_pt: >-
+    Esposa de Manoel João Fernandes da Cruz (P-0139) e mãe de Thereza (P-0039); bisavó de Antenor
+    Muniz. Exposta, residente em Pousa quando se casou na Ucha em 10 de janeiro de 1855 (PAR-0107);
+    costureira; mãe de nove filhos nascidos em Pousa entre 1855 e 1871; viva e viúva em Bom Jesus
+    da Cachoeira Alegre, Muriaé, em novembro de 1898, quando não sabia escrever (PRB-0014).
+- text: >-
+    Left without a parent family on purpose: as a foundling her parents are unknown by the record's
+    own terms ("Avós incognitos", PAR-0124; "cuja naturalidade é ignorada", PAR-0108). Nationality
+    is left unset for the same reason: no record states where she was born.
+  text_pt: >-
+    Sem família de origem, de propósito: como exposta, os pais são desconhecidos nos próprios
+    termos dos registros ("Avós incognitos", PAR-0124; "cuja naturalidade é ignorada", PAR-0108).
+    A nacionalidade fica em branco pela mesma razão: nenhum registro diz onde ela nasceu.
+- text: >-
+    No birth or death event is modelled: no record gives her age, and her death is after 22 November
+    1898 and unlocated.
+  text_pt: >-
+    Nenhum evento de nascimento ou óbito é modelado: nenhum registro dá sua idade, e o óbito é
+    posterior a 22 de novembro de 1898 e não foi localizado.
+profile: >-
+  ## Interesting facts
+
+
+  - **[PROVEN]** She was a foundling, and her line upward stops with her by the nature of her
+  birth. Every baptism of her children gives the maternal grandparents as "Avós incognitos" (PAR-0124,
+  PAR-0125, PAR-0126, PAR-0108, PAR-0130, PAR-0131, PAR-0133, PAR-0135). In 1862 the priest wrote
+  where they belonged "(ignora-se este ponto — por [uncertain: ser] a mãe da criança Exposta)"
+  (PAR-0127). No held record names her parents, and none is expected to.
+
+  - **[PROVEN]** Even her birthplace was unknown to the priests who baptised her children: "cuja
+  naturalidade é ignorada" (PAR-0108, PAR-0130), and in 1870, "declaro que é incognita a naturalidade
+  da Mai da baptizada" (PAR-0133).
+
+  - **[PROVEN]** She was a seamstress married to a tailor: "Anna Exposta, costureira" beside "Manoel
+  João Fernandes, alfaiate" in the Pousa registers of 1864–1871 (PAR-0108, PAR-0130, PAR-0131,
+  PAR-0135).
+
+  - **[PROVEN]** Her name changed with her standing. She is "Joanna Maria Esposta" at her marriage
+  (1855, PAR-0107), "Anna Maria" at her first children's baptisms (PAR-0124–PAR-0126), "Anna Exposta"
+  from 1862 (PAR-0127 onward), "D. Anna Maria" in her husband's will (1890, PRB-0013) and "D.
+  Anna Maria Fernandes", widow, in his inventário (1898, PRB-0014). The foundling of the Pousa
+  books ends the record in Brazil as a "Dona" bearing her husband's surname. In 1898 her daughters
+  are also "D." (PRB-0014), so the courtesy reflects notarial usage rather than rank. [INFERRED]
+
+  - **[PROVEN]** She bore nine children in sixteen years, between December 1855 and October 1871,
+  and buried four of them in childhood (PAR-0124–PAR-0135, PAR-0108). She outlived her husband.
+  In 1890 he left the terça to their son Joaquim for "os serviços e extrema amizade" shown to
+  him "e a sua mãe, minha esposa" (PRB-0013).
+
+
+  ## Identity
+
+
+  **Anna Maria Fernandes** — "Joanna Maria Esposta" (body) and "Joanna Mª" (margin) at her marriage,
+  Ucha, 10 January 1855 (PAR-0107); "Anna Maria" in the Pousa baptisms of 1855, 1858 and 1859
+  (PAR-0124, PAR-0125, PAR-0126); "Anna Exposta" in 1862 and after (PAR-0127, PAR-0108, PAR-0128–PAR-0131,
+  PAR-0133, PAR-0135), written "Anna Esposta" in the two 1870 deaths (PAR-0132, PAR-0134); "D.
+  Anna Maria" (1890, PRB-0013); "D. Anna Maria Fernandes" (1898, PRB-0014). [PROVEN] The form
+  "Anna Maria Fernandes da Cruz" appears only on the modern archival wrapper of the inventário,
+  not in the 1898 text (PRB-0014). It is not a historical attestation.
+
+
+  - **Relationship:** great-grandmother of **Antenor Muniz** (P-0006, 1923–2014) on his mother's
+  side. The chain runs Anna Maria → Thereza Fernandes de Azevedo (P-0039) → Luiza Fernandes de
+  Azevedo (P-0013) → Antenor; families F-0070, F-0018 and F-0001. [derived from families F-0070,
+  F-0018 and F-0001] The first link is a **strong identification**, not proof: P-0039 is identified
+  with the testator's daughter "Thereza, casada com Secundino de Azevedo" by the same names, husband
+  and district (PRB-0013, PRB-0014).
+
+  - **Joanna or Anna.** The 1855 marriage names the bride "Joanna Maria", twice. Every later record,
+  from her first child's baptism eleven months afterwards (PAR-0124) to the 1898 inventário (PRB-0014),
+  calls her Anna. [PROVEN] The identity is **strong**. The marriage has the same groom, "Manoel
+  João filho legitimo de Bento Fernandes, e de Joaquina Roza do lugar de Quintão"; a foundling
+  bride "rezidente na freguezia de Santa Christina d'Algozo da Pouza", where the couple then lived;
+  and the 1862 statement that the couple were "recebidos na freguezia de S. Romão da Ucha" (PAR-0127).
+  The producer's sweep of the whole Ucha marriage book found this as the groom's only marriage.
+  [INFERRED] The difference itself is unresolved. It may be a slip by the Ucha priest, in a parish
+  where she was not a parishioner, or she may have borne a double name. [OPEN]
+
+  - **Parents:** unknown, by the nature of a foundling. She is "Exposta" (PAR-0107, PAR-0127),
+  and her children's maternal grandparents are "Avós incognitos" (PAR-0124). [PROVEN] The marriage
+  names no roda, no place of exposure and no foster parents, and gives no age (PAR-0107). [PROVEN]
+  No parentage family is modelled for her, deliberately.
+
+  - **Birth:** undocumented; no held record gives her age. A marriage in 1855 and a last child
+  in 1871 suggest she was born about 1830–1837. [INFERRED — estimate from the childbearing span]
+  Her birthplace was recorded as unknown (PAR-0108). A Portuguese birth is likely but not documented,
+  so no nationality is asserted. [INFERRED]
+
+  - **Residence:** the freguesia of Pousa by January 1855 (PAR-0107); the lugar do Souto, Pousa,
+  1855–1871 (PAR-0124–PAR-0135, PAR-0108); the district of Bom Jesus da Cachoeira Alegre, Muriaé,
+  in November 1898, where she joined her children in granting the inventário procuração, "todos
+  moradores neste destricto" (PRB-0014). [PROVEN]
+
+  - **Death:** after 22 November 1898, when she was alive and a party to the procuração (PRB-0014).
+  Her death record is not held. [OPEN]
+
+
+  ## Standing and profession
+
+
+  She was a **costureira** (seamstress) at Pousa in 1864–1871 (PAR-0108, PAR-0130, PAR-0131, PAR-0133,
+  PAR-0135). [PROVEN] She could not write: "Assignando arrogo de Dona Anna Maria Fernandes por
+  dizer que não sabe escrever Henrique Christino da Silva" (PRB-0014). [PROVEN] She heads the
+  título de herdeiros as the widow (PRB-0014). Under the usual marriage regime of the time, a
+  community of property, a widow kept half of the couple's estate, her meação. But the held pages
+  of the inventário stop before any valuation or partilha, so her actual share is unknown. [CONTEXTUAL;
+  her share OPEN]
+
+
+  ## Family and social network
+
+
+  **Husband:** Manoel João Fernandes da Cruz (P-0139), tailor and later lavrador, married at São
+  Romão da Ucha on 10 January 1855 (PAR-0107). He died on 30 May 1898 (PRB-0014). Family F-0070.
+  He declared himself "casado em primeiras nupcias" with her (PRB-0013). [PROVEN]
+
+
+  **Children**, all born at the lugar do Souto, Pousa [PROVEN, each by its record]: João (1855–1866;
+  PAR-0124, PAR-0129); Maria de Jesus (1858; PAR-0125); Maria José (1859; PAR-0126); Antonio Joaquim
+  (1862–1864; PAR-0127, PAR-0128); **Thereza de Jesus (1864; PAR-0108), Antenor Muniz's maternal
+  grandmother**, P-0039 [strong identification]; Joaquim (1866; PAR-0130); João (1868–1870; PAR-0131,
+  PAR-0132); Maria (born and died 17 September 1870; PAR-0133, PAR-0134); and Maria (1871; PAR-0135).
+  Five were alive in 1890 and 1898. In 1898 they were D. Maria de Jesus da Conceição, D. Maria
+  José da Conceição, D. Thereza de Jesus, D. Maria Fernandes de Souza and Joaquim José Fernandes,
+  all of the Bom Jesus district (PRB-0013, PRB-0014). [PROVEN; the matching of the 1866 Joaquim
+  and the 1871 Maria to the heirs is INFERRED — very strong]
+
+
+  **No kin of her own.** The children's godparents come from her husband's family — his brother
+  João in 1855 (PAR-0124), and probably his sister Thereza de Jesus in 1864 (PAR-0108) [INFERRED]
+  — and from Pousa neighbours. None can be placed on her side. In September 1870 a neighbour of
+  Souto, Josefa Loureiro, baptised her dying newborn at home (PAR-0133). [PROVEN] Her husband's
+  network stood in for a family she did not have. [INFERRED]
+
+
+  ## What we can extrapolate
+
+
+  **1. A foundling's marriage into a settled family. [INFERRED / CONTEXTUAL]** In nineteenth-century
+  Portugal, abandoned infants were received through the municipal foundling wheels (rodas dos
+  expostos), given a baptismal name, and usually raised by paid nurses in rural households. In
+  the record they often carried "Exposta" or "Exposto" in place of a surname. She married the
+  son of lavradores of Quintã, Ucha (PAR-0107), and in the entries that state it her children
+  are always "filha/filho legitimo" (PAR-0108, PAR-0127). The stigma of her birth did not pass
+  to them in the register.
+
+
+  **2. Her emigration followed her household's. [INFERRED]** She was at Souto in October 1871
+  (PAR-0135), named as the testator's living wife in Muriaé in March 1890 (PRB-0013), and resident
+  in the Bom Jesus district in November 1898 (PRB-0014). She crossed to Brazil within the same
+  window as her husband and children. Neither the date nor the voyage is documented.
+
+
+  ## Open questions
+
+
+  - **Where she was exposed and raised:** the foundling registers of the Barcelos area (the roda
+  dos expostos), if they survive, might record her admission, the name she was given and her nurse.
+  Her marriage names no roda. [OPEN]
+
+  - **Her own baptism as a foundling**, in an unknown parish. [OPEN]
+
+  - **"Joanna Maria" (1855) against "Anna Maria"** in every later record. [OPEN]
+
+  - **Her death** in Brazil after November 1898, in the Bom Jesus da Cachoeira Alegre or Muriaé
+  civil register. It would give an age, and so a birth year, though not parents. [OPEN]
+
+  - **Her meação** and the partilha of 1898, which are not in the held pages. [OPEN]
+
+
+  ## Sources held (this repository)
+
+
+  - **PAR-0107** — her marriage, Ucha, 1855, as "Joanna Maria Esposta", resident at Pousa. *Primary.*
+
+  - **PAR-0124–PAR-0127, PAR-0108, PAR-0130, PAR-0131, PAR-0133, PAR-0135** — her nine children's
+  baptisms, Pousa, 1855–1871: "Anna Maria" / "Anna Exposta", costureira, birthplace unknown, "Avós
+  incognitos".
+
+  - **PAR-0128, PAR-0129, PAR-0132, PAR-0134** — four of her children's deaths, Pousa, 1864–1870.
+
+  - **PRB-0013** — her husband's will, 1890: "casado em primeiras nupcias com D. Anna Maria",
+  nine children, five living.
+
+  - **PRB-0014** — his inventário, 1898: "Viuva D. Anna Maria Fernandes", her residence and her
+  signature by proxy.
+
+
+  ## Regional and migration context
+
+
+  Her documented life runs from the parish of Pousa in the concelho de Barcelos (Braga), where
+  she lived by 1855 and raised nine children at the lugar do Souto, to the district of Bom Jesus
+  da Cachoeira Alegre in the São Paulo do Muriaé municipality of the Zona da Mata Mineira, where
+  she was a widow in 1898 (PAR-0107, PAR-0135, PRB-0014). [PROVEN] Where she came from before
+  Pousa is, by the record's own statement, unknown. [OPEN] The district was renamed Bom Jesus
+  da Cachoeira in 1943 and is still part of Muriaé. [CONTEXTUAL — IBGE territorial history]
+
+
+  ## Where to go today
+
+
+  - **Marriage (1855):** Igreja Paroquial de São Romão da Ucha, Ucha, Barcelos, Braga, Portugal
+  [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Paroquial%20de%20Ucha%2C%20Barcelos%2C%20Portugal)
+
+  - **Home, lugar do Souto (1855–c. 1871), and her children's baptisms:** Igreja Paroquial de
+  Santa Cristina de Pousa, Pousa, Barcelos, Braga, Portugal [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Paroquial%20de%20Pousa%2C%20Barcelos%2C%20Portugal)
+
+  - **Widowhood (1898):** Bom Jesus da Cachoeira (ex-Bom Jesus da Cachoeira Alegre), a district
+  of Muriaé, MG [RESOLVED — district; exact place APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Bom%20Jesus%20da%20Cachoeira%2C%20Muria%C3%A9%2C%20MG)
+profile_pt: >-
+  ## Fatos interessantes
+
+
+  - **[PROVEN]** Era uma exposta, e sua linha ascendente termina nela pela própria natureza do
+  seu nascimento. Todos os batismos de seus filhos dão os avós maternos como "Avós incognitos"
+  (PAR-0124, PAR-0125, PAR-0126, PAR-0108, PAR-0130, PAR-0131, PAR-0133, PAR-0135). Em 1862 o
+  padre escreveu no lugar deles "(ignora-se este ponto — por [incerto: ser] a mãe da criança Exposta)"
+  (PAR-0127). Nenhum registro guardado nomeia seus pais, e não se espera que algum o faça.
+
+  - **[PROVEN]** Até o seu local de nascimento era desconhecido dos padres que batizaram seus
+  filhos: "cuja naturalidade é ignorada" (PAR-0108, PAR-0130) e, em 1870, "declaro que é incognita
+  a naturalidade da Mai da baptizada" (PAR-0133).
+
+  - **[PROVEN]** Era costureira casada com um alfaiate: "Anna Exposta, costureira" ao lado de
+  "Manoel João Fernandes, alfaiate" nos registros da Pousa de 1864–1871 (PAR-0108, PAR-0130, PAR-0131,
+  PAR-0135).
+
+  - **[PROVEN]** Seu nome mudou com a sua condição. Ela é "Joanna Maria Esposta" no casamento
+  (1855, PAR-0107), "Anna Maria" nos batismos dos primeiros filhos (PAR-0124–PAR-0126), "Anna
+  Exposta" a partir de 1862 (PAR-0127 em diante), "D. Anna Maria" no testamento do marido (1890,
+  PRB-0013) e "D. Anna Maria Fernandes", viúva, no inventário dele (1898, PRB-0014). A exposta
+  dos livros da Pousa termina o registro no Brasil como uma "Dona" com o sobrenome do marido.
+  Em 1898 suas filhas também são "D." (PRB-0014), de modo que o tratamento reflete o uso notarial
+  e não uma posição social. [INFERRED]
+
+  - **[PROVEN]** Teve nove filhos em dezesseis anos, entre dezembro de 1855 e outubro de 1871,
+  e enterrou quatro deles na infância (PAR-0124–PAR-0135, PAR-0108). Sobreviveu ao marido. Em
+  1890 ele deixou a terça ao filho Joaquim pelos "serviços e extrema amizade" prestados a ele
+  "e a sua mãe, minha esposa" (PRB-0013).
+
+
+  ## Identidade
+
+
+  **Anna Maria Fernandes** — "Joanna Maria Esposta" (corpo) e "Joanna Mª" (margem) no casamento,
+  Ucha, 10 de janeiro de 1855 (PAR-0107); "Anna Maria" nos batismos da Pousa de 1855, 1858 e 1859
+  (PAR-0124, PAR-0125, PAR-0126); "Anna Exposta" em 1862 e depois (PAR-0127, PAR-0108, PAR-0128–PAR-0131,
+  PAR-0133, PAR-0135), escrito "Anna Esposta" nos dois óbitos de 1870 (PAR-0132, PAR-0134); "D.
+  Anna Maria" (1890, PRB-0013); "D. Anna Maria Fernandes" (1898, PRB-0014). [PROVEN] A forma "Anna
+  Maria Fernandes da Cruz" aparece apenas na capa arquivística moderna do inventário, não no texto
+  de 1898 (PRB-0014). Não é uma atestação histórica.
+
+
+  - **Parentesco:** bisavó de **Antenor Muniz** (P-0006, 1923–2014) pelo lado materno. A cadeia
+  corre Anna Maria → Thereza Fernandes de Azevedo (P-0039) → Luiza Fernandes de Azevedo (P-0013)
+  → Antenor; famílias F-0070, F-0018 e F-0001. [derivado das famílias F-0070, F-0018 e F-0001]
+  O primeiro elo é uma **identificação forte**, não uma prova: P-0039 é identificada com a filha
+  do testador, "Thereza, casada com Secundino de Azevedo", pelos mesmos nomes, marido e distrito
+  (PRB-0013, PRB-0014).
+
+  - **Joanna ou Anna.** O casamento de 1855 nomeia a noiva "Joanna Maria", duas vezes. Todos os
+  registros posteriores, desde o batismo do primeiro filho onze meses depois (PAR-0124) até o
+  inventário de 1898 (PRB-0014), chamam-na Anna. [PROVEN] A identidade é **forte**. O casamento
+  tem o mesmo noivo, "Manoel João filho legitimo de Bento Fernandes, e de Joaquina Roza do lugar
+  de Quintão"; uma noiva exposta "rezidente na freguezia de Santa Christina d'Algozo da Pouza",
+  onde o casal então vivia; e a declaração de 1862 de que o casal fora "recebidos na freguezia
+  de S. Romão da Ucha" (PAR-0127). A varredura do produtor em todo o livro de casamentos da Ucha
+  encontrou este como o único casamento do noivo. [INFERRED] A diferença em si está por resolver.
+  Pode ser um deslize do padre da Ucha, numa freguesia da qual ela não era paroquiana, ou ela
+  pode ter usado um nome duplo. [OPEN]
+
+  - **Pais:** desconhecidos, pela própria natureza de uma exposta. Ela é "Exposta" (PAR-0107,
+  PAR-0127), e os avós maternos de seus filhos são "Avós incognitos" (PAR-0124). [PROVEN] O casamento
+  não nomeia roda, local de exposição nem pais de criação, e não dá idade (PAR-0107). [PROVEN]
+  Nenhuma família de origem é modelada para ela, deliberadamente.
+
+  - **Nascimento:** não documentado; nenhum registro guardado dá sua idade. Um casamento em 1855
+  e um último filho em 1871 sugerem que nasceu por volta de 1830–1837. [INFERRED — estimativa
+  a partir do período de maternidade] Seu local de nascimento foi registrado como desconhecido
+  (PAR-0108). Um nascimento português é provável, mas não documentado, por isso nenhuma nacionalidade
+  é afirmada. [INFERRED]
+
+  - **Residência:** a freguesia da Pousa em janeiro de 1855 (PAR-0107); o lugar do Souto, Pousa,
+  1855–1871 (PAR-0124–PAR-0135, PAR-0108); o distrito do Bom Jesus da Cachoeira Alegre, Muriaé,
+  em novembro de 1898, onde ela se juntou aos filhos na outorga da procuração do inventário, "todos
+  moradores neste destricto" (PRB-0014). [PROVEN]
+
+  - **Óbito:** posterior a 22 de novembro de 1898, quando estava viva e era parte da procuração
+  (PRB-0014). Seu registro de óbito não está guardado. [OPEN]
+
+
+  ## Posição social e profissão
+
+
+  Era **costureira** na Pousa em 1864–1871 (PAR-0108, PAR-0130, PAR-0131, PAR-0133, PAR-0135).
+  [PROVEN] Não sabia escrever: "Assignando arrogo de Dona Anna Maria Fernandes por dizer que não
+  sabe escrever Henrique Christino da Silva" (PRB-0014). [PROVEN] Encabeça o título de herdeiros
+  como viúva (PRB-0014). Pelo regime de casamento usual da época, a comunhão de bens, a viúva
+  conservava a metade do patrimônio do casal, a sua meação. Mas as folhas guardadas do inventário
+  param antes de qualquer avaliação ou partilha, de modo que a parte que lhe coube é desconhecida.
+  [CONTEXTUAL; a sua parte é OPEN]
+
+
+  ## Família e rede social
+
+
+  **Marido:** Manoel João Fernandes da Cruz (P-0139), alfaiate e depois lavrador, com quem se
+  casou em São Romão da Ucha em 10 de janeiro de 1855 (PAR-0107). Ele morreu em 30 de maio de
+  1898 (PRB-0014). Família F-0070. Ele se declarou "casado em primeiras nupcias" com ela (PRB-0013).
+  [PROVEN]
+
+
+  **Filhos**, todos nascidos no lugar do Souto, Pousa [PROVEN, cada um pelo seu registro]: João
+  (1855–1866; PAR-0124, PAR-0129); Maria de Jesus (1858; PAR-0125); Maria José (1859; PAR-0126);
+  Antonio Joaquim (1862–1864; PAR-0127, PAR-0128); **Thereza de Jesus (1864; PAR-0108), avó materna
+  de Antenor Muniz**, P-0039 [identificação forte]; Joaquim (1866; PAR-0130); João (1868–1870;
+  PAR-0131, PAR-0132); Maria (nascida e falecida em 17 de setembro de 1870; PAR-0133, PAR-0134);
+  e Maria (1871; PAR-0135). Cinco estavam vivos em 1890 e 1898. Em 1898 eram D. Maria de Jesus
+  da Conceição, D. Maria José da Conceição, D. Thereza de Jesus, D. Maria Fernandes de Souza e
+  Joaquim José Fernandes, todos do distrito do Bom Jesus (PRB-0013, PRB-0014). [PROVEN; a correspondência
+  do Joaquim de 1866 e da Maria de 1871 com os herdeiros é INFERRED — muito forte]
+
+
+  **Nenhum parente seu.** Os padrinhos dos filhos vêm da família do marido — o irmão dele, João,
+  em 1855 (PAR-0124), e provavelmente a irmã dele, Thereza de Jesus, em 1864 (PAR-0108) [INFERRED]
+  — e de vizinhos da Pousa. Nenhum pode ser situado do lado dela. Em setembro de 1870 uma vizinha
+  do Souto, Josefa Loureiro, batizou em casa a sua recém-nascida moribunda (PAR-0133). [PROVEN]
+  A rede do marido fez as vezes de uma família que ela não tinha. [INFERRED]
+
+
+  ## O que podemos extrapolar
+
+
+  **1. O casamento de uma exposta numa família estabelecida. [INFERRED / CONTEXTUAL]** No Portugal
+  do século XIX, as crianças abandonadas eram recebidas pelas rodas dos expostos municipais, recebiam
+  um nome de batismo e em geral eram criadas por amas pagas em casas rurais. No registro levavam
+  muitas vezes "Exposta" ou "Exposto" no lugar de um sobrenome. Ela se casou com o filho de lavradores
+  da Quintã, Ucha (PAR-0107), e nos assentos que o declaram seus filhos são sempre "filha/filho
+  legitimo" (PAR-0108, PAR-0127). O estigma do seu nascimento não passou a eles no registro.
+
+
+  **2. Sua emigração acompanhou a da sua casa. [INFERRED]** Estava no Souto em outubro de 1871
+  (PAR-0135), foi nomeada como mulher viva do testador em Muriaé em março de 1890 (PRB-0013) e
+  morava no distrito do Bom Jesus em novembro de 1898 (PRB-0014). Atravessou para o Brasil dentro
+  da mesma janela que o marido e os filhos. Nem a data nem a viagem estão documentadas.
+
+
+  ## Questões em aberto
+
+
+  - **Onde foi exposta e criada:** os registros de expostos da região de Barcelos (a roda dos
+  expostos), se sobrevivem, poderiam registrar sua admissão, o nome que lhe deram e a ama. Seu
+  casamento não nomeia roda. [OPEN]
+
+  - **Seu próprio batismo como exposta**, numa freguesia desconhecida. [OPEN]
+
+  - **"Joanna Maria" (1855) contra "Anna Maria"** em todos os registros posteriores. [OPEN]
+
+  - **Seu óbito** no Brasil, depois de novembro de 1898, no registro civil do Bom Jesus da Cachoeira
+  Alegre ou de Muriaé. Daria uma idade, e portanto um ano de nascimento, embora não os pais. [OPEN]
+
+  - **Sua meação** e a partilha de 1898, que não estão nas folhas guardadas. [OPEN]
+
+
+  ## Fontes disponíveis (neste repositório)
+
+
+  - **PAR-0107** — seu casamento, Ucha, 1855, como "Joanna Maria Esposta", residente na Pousa.
+  *Primária.*
+
+  - **PAR-0124–PAR-0127, PAR-0108, PAR-0130, PAR-0131, PAR-0133, PAR-0135** — os batismos dos
+  seus nove filhos, Pousa, 1855–1871: "Anna Maria" / "Anna Exposta", costureira, naturalidade
+  desconhecida, "Avós incognitos".
+
+  - **PAR-0128, PAR-0129, PAR-0132, PAR-0134** — os óbitos de quatro de seus filhos, Pousa, 1864–1870.
+
+  - **PRB-0013** — o testamento do marido, 1890: "casado em primeiras nupcias com D. Anna Maria",
+  nove filhos, cinco vivos.
+
+  - **PRB-0014** — o inventário dele, 1898: "Viuva D. Anna Maria Fernandes", sua residência e
+  sua assinatura a rogo.
+
+
+  ## Contexto regional e migratório
+
+
+  Sua vida documentada vai da freguesia da Pousa, no concelho de Barcelos (Braga), onde vivia
+  em 1855 e criou nove filhos no lugar do Souto, até o distrito do Bom Jesus da Cachoeira Alegre,
+  no município de São Paulo do Muriaé, na Zona da Mata Mineira, onde era viúva em 1898 (PAR-0107,
+  PAR-0135, PRB-0014). [PROVEN] De onde vinha antes da Pousa é, pela declaração do próprio registro,
+  desconhecido. [OPEN] O distrito passou a chamar-se Bom Jesus da Cachoeira em 1943 e continua
+  pertencendo a Muriaé. [CONTEXTUAL — histórico territorial do IBGE]
+
+
+  ## Onde ir hoje
+
+
+  - **Casamento (1855):** Igreja Paroquial de São Romão da Ucha, Ucha, Barcelos, Braga, Portugal
+  [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Paroquial%20de%20Ucha%2C%20Barcelos%2C%20Portugal)
+
+  - **Lar, lugar do Souto (1855–c. 1871), e os batismos dos filhos:** Igreja Paroquial de Santa
+  Cristina de Pousa, Pousa, Barcelos, Braga, Portugal [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20Paroquial%20de%20Pousa%2C%20Barcelos%2C%20Portugal)
+
+  - **Viuvez (1898):** Bom Jesus da Cachoeira (antigo Bom Jesus da Cachoeira Alegre), distrito
+  de Muriaé, MG [RESOLVED — o distrito; local exato APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Bom%20Jesus%20da%20Cachoeira%2C%20Muria%C3%A9%2C%20MG)

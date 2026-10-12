@@ -1,0 +1,648 @@
+schema_version: 1
+id: P-0142
+preferred_name: Joaquina Rosa Lopes
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Joaquina Rosa
+  type: source
+  source_ids:
+  - PAR-0106
+- value: Joaquina Roza
+  type: source
+  source_ids:
+  - PAR-0107
+  - PAR-0116
+  - PAR-0118
+  - PAR-0119
+  - PAR-0120
+  - PAR-0121
+  - PAR-0122
+  - PAR-0123
+- value: Joaquinna Roza
+  type: source
+  source_ids:
+  - PAR-0124
+  - PAR-0125
+- value: Joaquina Lopes
+  type: source
+  source_ids:
+  - PAR-0108
+  - PAR-0114
+  - PAR-0115
+  - PAR-0126
+  - PAR-0127
+  - PAR-0130
+  - PAR-0131
+  - PAR-0133
+  - PAR-0135
+- value: Joaquina Maria
+  type: source
+  source_ids:
+  - PAR-0110
+  - PAR-0117
+  note: >-
+    The wife of the Bento Fernandes who died in 1860 and the mother of the Francisco drowned in
+    1859; also possibly in 1829 (PAR-0113, second word faint).
+- value: Joaquina Roza Lopes
+  type: source
+  source_ids:
+  - PAR-0111
+  - PRB-0015
+- value: Joaquina Rosa Lopes
+  type: source
+  source_ids:
+  - PRB-0015
+  - PRB-0016
+occupations:
+- value: lavradeira
+  source_ids:
+  - PAR-0111
+event_ids:
+- E-0140
+- E-0141
+- E-0142
+- E-0148
+- E-0149
+- E-0150
+family_ids:
+- F-0073
+- F-0071
+notes:
+- text: >-
+    Antenor Muniz's 2×-great-grandmother: mother of Manoel João Fernandes da Cruz (P-0139). Born
+    at Pousa c.1810 (PAR-0111); wife of Bento José Fernandes, of Quintã, Ucha; a widow by 1884;
+    on 9 June 1885, at Braga, she gave a power of attorney to "seu filho Manoel João Fernandes
+    da Cruz" to collect her share of her son Domingos's estate in Minas Gerais, and took half
+    of it as his forced heir (PRB-0016, PRB-0015); died at Quintão on 25 May 1890 (PAR-0111).
+    She could not write (PRB-0016).
+  text_pt: >-
+    Trisavó de Antenor Muniz: mãe de Manoel João Fernandes da Cruz (P-0139). Nascida em Pousa
+    c.1810 (PAR-0111); esposa de Bento José Fernandes, de Quintã, Ucha; viúva já em 1884; em 9
+    de junho de 1885, em Braga, passou procuração a "seu filho Manoel João Fernandes da Cruz"
+    para receber sua parte da herança do filho Domingos em Minas Gerais, e recebeu metade dela
+    como herdeira forçada (PRB-0016, PRB-0015); faleceu em Quintão em 25 de maio de 1890 (PAR-0111).
+    Não sabia escrever (PRB-0016).
+- text: >-
+    Nationality Portuguese: "natural da freguezia da Pouza" (PAR-0111; also PAR-0121).
+  text_pt: >-
+    Nacionalidade portuguesa: "natural da freguezia da Pouza" (PAR-0111; também PAR-0121).
+profile: >-
+  ## Interesting facts
+
+
+  - **[PROVEN]** At about seventy-five, a widow who could not write, she went before a notary
+  in Braga on 9 June 1885 to claim the estate of a son who had died in Minas Gerais. The instrument
+  was legalised by the Brazilian consul-general at Porto two days later and recognised at the
+  Foreign Ministry in Rio de Janeiro on 19 August, the year's last digit partly hidden by a stamp
+  (PRB-0016). The whole Atlantic route of the family's affairs is in one instrument.
+
+  - **[PROVEN]** Her son's will had left her 400$000 "p.a ajuda de Sua Subsistencia" and everything
+  else to his wife. A Brazilian judge annulled it on 24 September 1885 because it passed her over
+  — "tendo o testador mãi viva, sua herdeira forçada, preteriu-a" (PRB-0015). In the partilha
+  she took half the estate, 2:845$500, about seven times the legacy (PRB-0016).
+
+  - **[PROVEN]** Priests and clerks wrote her name in at least six forms over sixty years: "Joaquina
+  Maria" (1829 [uncertain], 1859, 1860), "Joaquina Lopes" (1830, 1835, and her grandchildren's
+  baptisms from 1859), "Joaquina Roza" (1833–1869), "Joaquinna Roza" (1855, 1858), "Joaquina Rosa
+  Lopes" (1885) and "Joaquina Roza Lopes" (1884, 1890). Her father's given name drifts too, from
+  "Ignacio" in eight baptisms of 1829–1843 to "Joze" in her death entry of 1890 (PAR-0111).
+
+  - **[PROVEN]** She outlived at least three of her children: José in 1845 (PAR-0118), Francisco,
+  drowned in the Cávado in 1859 (PAR-0117) **[strong identification]**, and Domingos, dead in
+  Minas Gerais in 1885 (PRB-0015).
+
+  - **[CONTEXTUAL]** Her husband was buried inside the parish church in 1860 (PAR-0110) **[strong
+  identification]**; she was buried in "o cemiterio publico desta freguezia" in 1890 (PAR-0111).
+  The thirty years between the two burials span the Minho's slow shift from church floors to public
+  cemeteries. That shift was required by the burial laws of 1835 and the 1840s, and the ban on
+  church burial helped spark the Maria da Fonte rising of 1846.
+
+
+  ## Identity
+
+
+  **Joaquina Rosa (Roza) Lopes** — "Joaquina Rosa Lopes" in her own procuração (1885, PRB-0016)
+  and in her son Domingos's termo de abertura (1885, PRB-0015); "Joaquina Roza Lopes" in his will
+  (1884, PRB-0015) and in her death entry (1890, PAR-0111); "Joaquina Roza" or "Joaquina Lopes"
+  in the baptisms and marriages of her children (PAR-0106, PAR-0107, PAR-0113–PAR-0116, PAR-0118–PAR-0123)
+  and of her grandchildren (PAR-0108, PAR-0124–PAR-0127, PAR-0130, PAR-0131, PAR-0133, PAR-0135).
+  [PROVEN] She is also "Joaquina Maria", wife of Bento Fernandes of Quintão, in the 1859 and 1860
+  deaths (PAR-0117, PAR-0110) **[strong identification]**, and uncertainly so in the 1829 baptism
+  (PAR-0113).
+
+
+  - **Relationship:** 2×-great-grandmother of **Antenor Muniz** (P-0006, 1923–2014) on his maternal
+  side — the chain runs Joaquina → Manoel João Fernandes da Cruz (P-0139) → Thereza Fernandes
+  de Azevedo (P-0039) → Luiza Fernandes de Azevedo (P-0013) → Antenor. Wife of Bento José Fernandes
+  (P-0141), family F-0071; daughter of Ignacio Francisco Lopes (P-0145) and Marianna da Silva
+  (P-0146), family F-0073. [derived from families F-0073, F-0071, F-0070, F-0018 and F-0001]
+
+  - **How firm the chain is:** the step from Manoel João's daughter "Thereza, casada com Secundino
+  de Azevedo" (PRB-0013, PRB-0014) to P-0039 is a strong identification — same names, same husband,
+  same district — not a proof.
+
+  - **Birth:** about 1810 — "de idade de oitenta annos" in May 1890 — and "natural da freguezia
+  da Pouza" (PAR-0111). The 1866 marriage of her son Bento also calls her "natural da freguezia
+  da Pouza" (PAR-0121). [PROVEN wording; the year is an estimate from the stated age] Her baptism
+  is not held. [OPEN]
+
+  - **Parents:** her death entry names them "Joze Lopes e … Marianna da Silva, lavradores, naturaes
+  da freguezia da Pouza" (PAR-0111). The eight contemporary baptisms of her children, 1829–1843,
+  call her father "Ignacio Lopes", "Ignacio Francisco Lopes" or "Ignacio José Lopes", never José
+  (PAR-0106, PAR-0113–PAR-0116, PAR-0118–PAR-0120). [PROVEN — both forms] The contemporary records
+  are preferred; the entry written at her death, some eighty years after her birth, is the outlier.
+  Both forms are kept as name variants on P-0145.
+
+  - **Marriage:** to Bento José Fernandes, before the birth of their first held child on 29 April
+  1829 (PAR-0113). The marriage entry is not held. [OPEN]
+
+  - **Residence:** the lugar of Quintã / Quintão, São Romão da Ucha, Barcelos — "moradora no lugar
+  de Quintaã" (PRB-0016), "moradora no dito lugar de Quintaõ" (PAR-0111); "residente em Portugal"
+  in the partilha petition (PRB-0016). [PROVEN]
+
+  - **Widowhood:** a widow by 14 April 1884 (her husband "já Falecido", PRB-0015); "Viuva que
+  ficou de Bento José Fernandes" (PRB-0016); "viuva de Bento Fernandes" (PAR-0111). [PROVEN] Very
+  probably widowed on 23 June 1860 (PAR-0110). **[strong identification]**
+
+  - **Death:** 25 May 1890, at five in the morning, at the lugar of Quintão, Ucha, aged eighty,
+  "lavradeira". She received only Extreme Unction, "só por se achar alienada" [uncertain reading].
+  The entry adds "a qual fez disposição dos bens d'alma em escriptura dotal a seu filho João,
+  deixou filhos"; she was buried in the parish's public cemetery (PAR-0111). [PROVEN]
+
+
+  ## Standing and profession
+
+
+  "Lavradeira", the daughter of "lavradores" (PAR-0111). [PROVEN] She could not write: her procuração
+  was signed "a rogo della" by José Alexandre da Conceição, "por dizer que não sabia escrever"
+  (PRB-0016). [PROVEN]
+
+
+  Her means are glimpsed only obliquely. In 1884 her son in Brazil thought she needed "ajuda de
+  Sua Subsistencia" (PRB-0015). Yet before her death she had property enough to settle the provision
+  for her soul on her son João by a dowry deed (PAR-0111). [PROVEN wording] Those two facts together
+  suggest a modest farming widow, not a poor one, who had passed what she held to the child who
+  stayed with her. [INFERRED]
+
+
+  ## Family and social network
+
+
+  **Husband:** Bento José Fernandes (P-0141), lavrador of Quintã, natural of Ucha (PAR-0121).
+
+
+  **Children (held records):** at least nine, all baptised or married at Ucha. They are recorded
+  as collaterals on family F-0071; only Manoel João is modelled.
+
+
+  - João José (b. 1829, PAR-0113) — very probably the João who married Maria Villasboas in 1868
+  (PAR-0122) and the "seu filho João" of her death entry (PAR-0111). [INFERRED] That João is unlikely
+  to be Manoel João, who was in Minas Gerais by 1885 and made his will at Muriaé in March 1890
+  (PRB-0016, PRB-0013).
+
+  - Anna (b. 1830, PAR-0114).
+
+  - Manoel João (b. 1833, PAR-0106) — the direct line; her attorney in 1885, "casado, Lavrador,
+  morador a São João do Laranjal Provincia de Minas do Imperio do Brazil" (PRB-0016).
+
+  - Domingos (b. 1835, PAR-0115) — very probably Domingos José Fernandes, d. 31 January 1885 at
+  the Laranjal (PRB-0015). [the match to the 1835 baptism INFERRED]
+
+  - Francisco (b. 1837, PAR-0116), a tailor, drowned in 1859 (PAR-0117).
+
+  - José (b. 1839, d. 1845, PAR-0118).
+
+  - Thereza de Jezus (b. 1841, PAR-0119), who married José Ferreira in 1869 (PAR-0123).
+
+  - Bento (b. 1843, PAR-0120), who married Maria da Costa in 1866 (PAR-0121).
+
+  - A second José (b. about 1846), who married Maria Forte in 1868 (PAR-0122).
+
+
+  **Her own kin:** an uncle, "Ignacio José Lopes tio da Mãi do Baptizado", of São Miguel de Cabreiros,
+  whose unmarried daughter Maria — her cousin — was godmother in 1835 (PAR-0115). [PROVEN wording]
+  Whether she had siblings is not recorded in any held record; the retrieval side read an 1839
+  Pousa baptism naming an Andreza Lopes, wife of Feliciano Gomes, as a daughter of the same couple,
+  but did not file it. [LEAD]
+
+
+  **The Pousa network.** A Loureiro family of Amprôa, Pousa, appears twice around her: Manoel
+  Loureiro, son of José Joaquim Loureiro "do lugar d'Amprôa", godfather to her granddaughter Maria
+  José in 1859 (PAR-0126); and Domingos José Loureiro, "Capitalista morador no lugar da Amproã
+  [uncertain] freguezia da Pousa [uncertain]", witness to her procuração in 1885 (PRB-0016). [PROVEN
+  wording; that they are one family is INFERRED]
+
+
+  **The Brazilian co-heir.** The woman she shared Domingos's estate with — his widow, D. Maria
+  de Jesus Fernandes, remarried to André Teixeira Crespo by December 1885 (PRB-0015, PRB-0016)
+  — was very probably her own granddaughter. Manoel João's will names a daughter "Maria, casada
+  com André Teixeira Crespo" (PRB-0013), and his heirs in 1898 include "D. Maria de Jesus da Conceição"
+  with the same husband (PRB-0014). [INFERRED — same name and the same second husband; not proven]
+  If so, Domingos had married his niece, and the 1885 partilha divided his estate between grandmother
+  and granddaughter, with Manoel João as attorney for one side and father of the other.
+
+
+  **Bittencourt namesakes.** Domingos's will was written for him by an Alferes Manoel Alves Bitancort
+  Vasconcellos (PRB-0015), and one of the appraisers of the estate she inherited was José Alves
+  Bittencourt (PRB-0016). [PROVEN wording] Whether they were kin to Antenor's father's Muniz Bittencourt
+  family is unexamined. [LEAD]
+
+
+  ## What we can extrapolate
+
+
+  **1. Brazilian law, not her son, gave her half the estate. [INFERRED / CONTEXTUAL]** In 1885
+  Brazil still lived under the Ordenações Filipinas. A man who died without descendants had his
+  parents as forced heirs, and a will that passed over a living forced heir could be set aside
+  — which is what the Cataguases judge did (PRB-0015). Domingos had married "p.r Carta de Metade",
+  in community of property (PRB-0015), so half of the estate was already his widow's by right.
+  The other half was his, and it went to his mother. The partilha's two equal shares of 2:845$500
+  (PRB-0016) are exactly that division. The arithmetic is in the record; the legal reasoning behind
+  it is ours.
+
+
+  **2. The money's last mile is unrecorded. [INFERRED]** Her procuração empowered Manoel João
+  to receive "a herança que lhe foi deixada" and to give receipts for it in Brazil (PRB-0016).
+  Whether any of the 2:845$500 — most of it real property, including thousands of old coffee trees
+  (PRB-0016) — was sold and remitted to Quintã, or stayed with the son who held her power of attorney,
+  no held record says.
+
+
+  **3. João was the son who stayed. [INFERRED]** A João, "solteiro, thio paterno", was godfather
+  at Pousa in 1855 (PAR-0124). A João Fernandes, aged 38, natural of Ucha, married there in 1868
+  (PAR-0122). A "seu filho João" received her dowry deed and the duty of her soul's provisions
+  in 1890 (PAR-0111). Read together, these describe the child who remained at Quintã and took
+  on the household while two of his brothers went to Minas Gerais. In Minho practice a dote settled
+  on one child often carried the obligation to keep the parent in old age [CONTEXTUAL]; the deed
+  itself would show whether this one did.
+
+
+  ## Open questions
+
+
+  - **Her baptism** (about 1810, Pousa). The retrieval side reports that the Pousa baptisms 1778–1833
+  do not survive, either in the Arquivo Distrital de Braga catalogue or on FamilySearch. [OPEN
+  — bounded negative, as reported] Her parents and birth year can therefore be refined only from
+  other records.
+
+  - **Her marriage to Bento** (before April 1829). It is not in the Ucha marriages 1745–1879,
+  which the retrieval side swept. It was probably at Pousa, whose marriages for 1755–1859 are
+  likewise lost. [OPEN — bounded negative, as reported]
+
+  - **The escriptura dotal to her son João** (before May 1890). This notarial deed, probably in
+  the Barcelos books, would name what she held, on what terms she gave it, and possibly her other
+  heirs. [OPEN — the most informative unlocated document about her]
+
+  - **Whether "Joaquina Maria" (1859, 1860) is she.** The identification is strong (PAR-0117,
+  PAR-0110). The orphans' inventory that may have followed her husband's death would settle it.
+  [OPEN]
+
+  - **Whether Domingos's widow was her granddaughter Maria de Jesus** (PRB-0013, PRB-0014, PRB-0015,
+  PRB-0016). An uncle–niece marriage would have needed a dispensation, so the marriage record,
+  wherever it is, should say so. [OPEN]
+
+
+  ## Sources held (this repository)
+
+
+  - **PAR-0111** — her own death, Ucha, 25 May 1890, naming her parents, her age, her birth parish,
+  her husband and her son João. *Primary for the death; secondary for her birth and parents.*
+
+  - **PRB-0016** — the partilha of Domingos's estate (1885–86), with her procuração (Braga, 9
+  June 1885) and its consular legalisation. *Original; she is the first petitioner.*
+
+  - **PRB-0015** — Domingos's will (1884) and its annulment (1885) for passing her over as forced
+  heir. *Original.*
+
+  - **PAR-0106, PAR-0113, PAR-0114, PAR-0115, PAR-0116, PAR-0118, PAR-0119, PAR-0120** — the baptisms
+  of eight of her children, Ucha, 1829–1843, naming her parents. *Primary.*
+
+  - **PAR-0107, PAR-0121, PAR-0122, PAR-0123** — the marriages of five of her children, Ucha,
+  1855–1869; PAR-0121 states her naturalidade. *Primary.*
+
+  - **PAR-0110, PAR-0117** — her husband's probable death (1860) and her son Francisco's death
+  (1859), both calling her "Joaquina Maria". *Primary; the identification is strong.*
+
+  - **PAR-0124, PAR-0125, PAR-0126, PAR-0127, PAR-0108, PAR-0130, PAR-0131, PAR-0133, PAR-0135**
+  — the Pousa baptisms of her grandchildren, 1855–1871, naming her as paternal grandmother. *Primary
+  for the baptisms; secondary for her.*
+
+  - **PRB-0013, PRB-0014** — Manoel João's will (1890) and inventário (1898), which name his daughter
+  Maria's husband, André Teixeira Crespo. *Original.*
+
+
+  ## Regional and migration context
+
+
+  She was born at Santa Cristina da Pousa, a parish of the concelho of Barcelos, and lived her
+  married life at São Romão da Ucha, also in Barcelos (PAR-0111, PAR-0121). [PROVEN] As far as
+  the records show, she never left the Minho. Her one documented journey is to a notary in Braga
+  in 1885 (PRB-0016). [PROVEN]
+
+
+  Her family's affairs had nonetheless become Atlantic by 1885. Two of her sons were in the Zona
+  da Mata of Minas Gerais — at São João do Laranjal, in the termo of Cataguases — and the estate
+  she inherited lay there, in land and coffee (PRB-0015, PRB-0016). [PROVEN] Minho households
+  of the period commonly kept one heir at home and sent other sons to Brazil [CONTEXTUAL]. Her
+  case shows the return leg of that system, a legal claim travelling from Braga through Porto
+  and Rio de Janeiro to a provincial court in Minas Gerais.
+
+
+  ## Where to go today
+
+
+  - **Igreja Paroquial de Santa Cristina da Pousa, Barcelos** — her natal parish. Its baptisms
+  and marriages for her lifetime do not survive. [RESOLVED — parish] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20de%20Santa%20Cristina%20de%20Pousa%2C%20Barcelos)
+
+  - **Igreja Paroquial de São Romão da Ucha, Barcelos** — where her children were baptised and
+  married, 1829–1869. Her burial was in the parish's public cemetery, not the church. [RESOLVED
+  — parish] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20de%20S%C3%A3o%20Rom%C3%A3o%20da%20Ucha%2C%20Barcelos)
+
+  - **Largo de São Francisco, Braga** — where the notary José Luiz d'Oliveira Pessa drew up her
+  procuração on 9 June 1885 (PRB-0016). The modern location of his cartório is not established.
+  [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Largo%20de%20S%C3%A3o%20Francisco%2C%20Braga)
+
+  - **Arquivo Distrital de Braga** — holds the Ucha and Pousa parish registers. It is the first
+  place to ask for the Barcelos notarial books that should contain her escriptura dotal. · [Maps](https://www.google.com/maps/search/?api=1&query=Arquivo%20Distrital%20de%20Braga)
+profile_pt: >-
+  ## Fatos interessantes
+
+
+  - **[PROVEN]** Por volta dos setenta e cinco anos, viúva e sem saber escrever, ela compareceu
+  perante um tabelião em Braga a 9 de junho de 1885 para reclamar a herança de um filho morto
+  em Minas Gerais. O instrumento foi legalizado pelo cônsul-geral do Brasil no Porto dois dias
+  depois e reconhecido no Ministério dos Negócios Estrangeiros, no Rio de Janeiro, a 19 de agosto,
+  com o último algarismo do ano parcialmente coberto por um selo (PRB-0016). Todo o percurso atlântico
+  dos negócios da família está num só instrumento.
+
+  - **[PROVEN]** O testamento do filho deixara-lhe 400$000 "p.a ajuda de Sua Subsistencia" e todo
+  o resto à mulher dele. Um juiz brasileiro anulou-o a 24 de setembro de 1885 porque a preteria
+  — "tendo o testador mãi viva, sua herdeira forçada, preteriu-a" (PRB-0015). Na partilha ela
+  ficou com metade dos bens, 2:845$500, cerca de sete vezes o legado (PRB-0016).
+
+  - **[PROVEN]** Padres e escrivães escreveram seu nome em pelo menos seis formas ao longo de
+  sessenta anos: "Joaquina Maria" (1829 [incerta], 1859, 1860), "Joaquina Lopes" (1830, 1835 e,
+  a partir de 1859, nos batismos dos netos), "Joaquina Roza" (1833–1869), "Joaquinna Roza" (1855,
+  1858), "Joaquina Rosa Lopes" (1885) e "Joaquina Roza Lopes" (1884, 1890). Também o prenome do
+  pai varia, de "Ignacio" em oito batismos de 1829–1843 para "Joze" no assento de óbito dela,
+  de 1890 (PAR-0111).
+
+  - **[PROVEN]** Ela sobreviveu a pelo menos três dos filhos: José em 1845 (PAR-0118), Francisco,
+  afogado no Cávado em 1859 (PAR-0117) **[identificação forte]**, e Domingos, morto em Minas Gerais
+  em 1885 (PRB-0015).
+
+  - **[CONTEXTUAL]** O marido foi sepultado dentro da igreja paroquial em 1860 (PAR-0110) **[identificação
+  forte]**; ela, no "cemiterio publico desta freguezia" em 1890 (PAR-0111). Os trinta anos entre
+  os dois enterros abrangem a lenta passagem do Minho do chão das igrejas para os cemitérios públicos.
+  Essa passagem foi imposta pelas leis de enterramento de 1835 e da década de 1840, e a proibição
+  dos enterros nas igrejas ajudou a deflagrar a revolta da Maria da Fonte, em 1846.
+
+
+  ## Identidade
+
+
+  **Joaquina Rosa (Roza) Lopes** — "Joaquina Rosa Lopes" em sua própria procuração (1885, PRB-0016)
+  e no termo de abertura de seu filho Domingos (1885, PRB-0015); "Joaquina Roza Lopes" no testamento
+  dele (1884, PRB-0015) e em seu assento de óbito (1890, PAR-0111); "Joaquina Roza" ou "Joaquina
+  Lopes" nos batismos e casamentos dos filhos (PAR-0106, PAR-0107, PAR-0113–PAR-0116, PAR-0118–PAR-0123)
+  e dos netos (PAR-0108, PAR-0124–PAR-0127, PAR-0130, PAR-0131, PAR-0133, PAR-0135). [PROVEN]
+  É também "Joaquina Maria", mulher de Bento Fernandes, da Quintão, nos óbitos de 1859 e 1860
+  (PAR-0117, PAR-0110) **[identificação forte]**, e de modo incerto no batismo de 1829 (PAR-0113).
+
+
+  - **Parentesco:** trisavó de **Antenor Muniz** (P-0006, 1923–2014) pelo lado materno — a cadeia
+  corre Joaquina → Manoel João Fernandes da Cruz (P-0139) → Thereza Fernandes de Azevedo (P-0039)
+  → Luiza Fernandes de Azevedo (P-0013) → Antenor. Mulher de Bento José Fernandes (P-0141), família
+  F-0071; filha de Ignacio Francisco Lopes (P-0145) e Marianna da Silva (P-0146), família F-0073.
+  [derivado das famílias F-0073, F-0071, F-0070, F-0018 e F-0001]
+
+  - **Solidez da cadeia:** a passagem da filha de Manoel João "Thereza, casada com Secundino de
+  Azevedo" (PRB-0013, PRB-0014) para a P-0039 é uma identificação forte — mesmos nomes, mesmo
+  marido, mesmo distrito —, não uma prova.
+
+  - **Nascimento:** por volta de 1810 — "de idade de oitenta annos" em maio de 1890 — e "natural
+  da freguezia da Pouza" (PAR-0111). O casamento de seu filho Bento, em 1866, também a dá como
+  "natural da freguezia da Pouza" (PAR-0121). [PROVEN wording; o ano é estimativa a partir da
+  idade declarada] Seu batismo não está guardado. [OPEN]
+
+  - **Pais:** o assento de óbito dela os nomeia "Joze Lopes e … Marianna da Silva, lavradores,
+  naturaes da freguezia da Pouza" (PAR-0111). Os oito batismos contemporâneos de seus filhos,
+  1829–1843, chamam seu pai "Ignacio Lopes", "Ignacio Francisco Lopes" ou "Ignacio José Lopes",
+  nunca José (PAR-0106, PAR-0113–PAR-0116, PAR-0118–PAR-0120). [PROVEN — as duas formas] Preferem-se
+  os registros contemporâneos; o assento feito à morte dela, uns oitenta anos depois do nascimento,
+  é o discrepante. As duas formas ficam como variantes de nome na P-0145.
+
+  - **Casamento:** com Bento José Fernandes, antes do nascimento do primeiro filho guardado, a
+  29 de abril de 1829 (PAR-0113). O assento de casamento não está guardado. [OPEN]
+
+  - **Residência:** o lugar da Quintã / Quintão, São Romão da Ucha, Barcelos — "moradora no lugar
+  de Quintaã" (PRB-0016), "moradora no dito lugar de Quintaõ" (PAR-0111); "residente em Portugal"
+  na petição da partilha (PRB-0016). [PROVEN]
+
+  - **Viuvez:** viúva já a 14 de abril de 1884 (o marido "já Falecido", PRB-0015); "Viuva que
+  ficou de Bento José Fernandes" (PRB-0016); "viuva de Bento Fernandes" (PAR-0111). [PROVEN] Muito
+  provavelmente enviuvou a 23 de junho de 1860 (PAR-0110). **[identificação forte]**
+
+  - **Óbito:** 25 de maio de 1890, às cinco da manhã, no lugar da Quintão, Ucha, com oitenta anos,
+  "lavradeira". Recebeu só a Extrema-Unção, "só por se achar alienada" [leitura incerta]. O assento
+  acrescenta "a qual fez disposição dos bens d'alma em escriptura dotal a seu filho João, deixou
+  filhos"; foi sepultada no cemitério público da freguesia (PAR-0111). [PROVEN]
+
+
+  ## Posição social e profissão
+
+
+  "Lavradeira", filha de "lavradores" (PAR-0111). [PROVEN] Não sabia escrever: sua procuração
+  foi assinada "a rogo della" por José Alexandre da Conceição, "por dizer que não sabia escrever"
+  (PRB-0016). [PROVEN]
+
+
+  Seus recursos só se entreveem de modo indireto. Em 1884 o filho no Brasil achava que ela precisava
+  de "ajuda de Sua Subsistencia" (PRB-0015). E no entanto, antes de morrer, tinha bens bastantes
+  para deixar a provisão de sua alma a cargo do filho João, por uma escritura dotal (PAR-0111).
+  [PROVEN wording] Os dois fatos juntos sugerem uma viúva lavradora modesta, não pobre, que passara
+  o que tinha ao filho que ficou com ela. [INFERRED]
+
+
+  ## Família e rede social
+
+
+  **Marido:** Bento José Fernandes (P-0141), lavrador da Quintã, natural de Ucha (PAR-0121).
+
+
+  **Filhos (registros guardados):** pelo menos nove, todos batizados ou casados em Ucha. Estão
+  registrados como colaterais na família F-0071; só Manoel João é modelado.
+
+
+  - João José (n. 1829, PAR-0113) — muito provavelmente o João que casou com Maria Villasboas
+  em 1868 (PAR-0122) e o "seu filho João" do assento de óbito dela (PAR-0111). [INFERRED] É improvável
+  que esse João seja Manoel João, que estava em Minas Gerais já em 1885 e fez testamento em Muriaé
+  em março de 1890 (PRB-0016, PRB-0013).
+
+  - Anna (n. 1830, PAR-0114).
+
+  - Manoel João (n. 1833, PAR-0106) — a linha direta; seu procurador em 1885, "casado, Lavrador,
+  morador a São João do Laranjal Provincia de Minas do Imperio do Brazil" (PRB-0016).
+
+  - Domingos (n. 1835, PAR-0115) — muito provavelmente Domingos José Fernandes, f. 31 de janeiro
+  de 1885 no Laranjal (PRB-0015). [a correspondência com o batismo de 1835, INFERRED]
+
+  - Francisco (n. 1837, PAR-0116), alfaiate, afogado em 1859 (PAR-0117).
+
+  - José (n. 1839, f. 1845, PAR-0118).
+
+  - Thereza de Jezus (n. 1841, PAR-0119), que casou com José Ferreira em 1869 (PAR-0123).
+
+  - Bento (n. 1843, PAR-0120), que casou com Maria da Costa em 1866 (PAR-0121).
+
+  - Um segundo José (n. por volta de 1846), que casou com Maria Forte em 1868 (PAR-0122).
+
+
+  **Sua própria parentela:** um tio, "Ignacio José Lopes tio da Mãi do Baptizado", de São Miguel
+  de Cabreiros, cuja filha solteira Maria — prima dela — foi madrinha em 1835 (PAR-0115). [PROVEN
+  wording] Se teve irmãos não consta de nenhum registro guardado; a pesquisa de recuperação leu
+  um batismo da Pousa de 1839 que dá uma Andreza Lopes, mulher de Feliciano Gomes, como filha
+  do mesmo casal, mas não o arquivou. [LEAD]
+
+
+  **A rede da Pousa.** Uma família Loureiro, da Amprôa, Pousa, aparece duas vezes à sua volta:
+  Manoel Loureiro, filho de José Joaquim Loureiro "do lugar d'Amprôa", padrinho de sua neta Maria
+  José em 1859 (PAR-0126); e Domingos José Loureiro, "Capitalista morador no lugar da Amproã [incerto]
+  freguezia da Pousa [incerto]", testemunha de sua procuração em 1885 (PRB-0016). [PROVEN wording;
+  que sejam uma só família é INFERRED]
+
+
+  **A co-herdeira brasileira.** A mulher com quem ela dividiu os bens de Domingos — a viúva dele,
+  D. Maria de Jesus Fernandes, casada de novo com André Teixeira Crespo em dezembro de 1885 (PRB-0015,
+  PRB-0016) — era muito provavelmente sua própria neta. O testamento de Manoel João nomeia uma
+  filha "Maria, casada com André Teixeira Crespo" (PRB-0013), e entre seus herdeiros de 1898 está
+  "D. Maria de Jesus da Conceição", com o mesmo marido (PRB-0014). [INFERRED — mesmo nome e mesmo
+  segundo marido; não provado] Se assim for, Domingos casara com a sobrinha, e a partilha de 1885
+  dividiu seus bens entre avó e neta, com Manoel João como procurador de uma parte e pai da outra.
+
+
+  **Homônimos Bittencourt.** O testamento de Domingos foi escrito a seu pedido por um Alferes
+  Manoel Alves Bitancort Vasconcellos (PRB-0015), e um dos louvados dos bens que ela herdou foi
+  José Alves Bittencourt (PRB-0016). [PROVEN wording] Se eram parentes da família Muniz Bittencourt
+  do pai de Antenor não foi examinado. [LEAD]
+
+
+  ## O que podemos extrapolar
+
+
+  **1. Foi a lei brasileira, e não o filho, que lhe deu metade dos bens. [INFERRED / CONTEXTUAL]**
+  Em 1885 o Brasil ainda vivia sob as Ordenações Filipinas. Um homem que morria sem descendentes
+  tinha os pais como herdeiros forçados, e um testamento que preterisse um herdeiro forçado vivo
+  podia ser posto de lado — foi o que fez o juiz de Cataguases (PRB-0015). Domingos casara "p.r
+  Carta de Metade", em comunhão de bens (PRB-0015), de modo que metade dos bens já pertencia à
+  viúva por direito. A outra metade era dele, e foi para a mãe. As duas partes iguais de 2:845$500
+  da partilha (PRB-0016) são exatamente essa divisão. A aritmética está no registro; o raciocínio
+  jurídico por trás dela é nosso.
+
+
+  **2. A última etapa do dinheiro não está registrada. [INFERRED]** A procuração dava a Manoel
+  João poderes para receber "a herança que lhe foi deixada" e passar recibos no Brasil (PRB-0016).
+  Se alguma parte dos 2:845$500 — na maior parte bens de raiz, incluindo milhares de pés de café
+  velhos (PRB-0016) — foi vendida e remetida para a Quintã, ou ficou com o filho que tinha a sua
+  procuração, nenhum registro guardado o diz.
+
+
+  **3. João foi o filho que ficou. [INFERRED]** Um João, "solteiro, thio paterno", foi padrinho
+  na Pousa em 1855 (PAR-0124). Um João Fernandes, de 38 anos, natural de Ucha, casou ali em 1868
+  (PAR-0122). Um "seu filho João" recebeu a escritura dotal dela e o encargo da provisão de sua
+  alma em 1890 (PAR-0111). Lidos juntos, descrevem o filho que permaneceu na Quintã e assumiu
+  a casa enquanto dois irmãos partiam para Minas Gerais. No costume minhoto, um dote feito a um
+  filho trazia muitas vezes a obrigação de sustentar o pai ou a mãe na velhice [CONTEXTUAL]; a
+  própria escritura mostraria se este a trazia.
+
+
+  ## Questões em aberto
+
+
+  - **Seu batismo** (por volta de 1810, Pousa). A pesquisa de recuperação informa que os batismos
+  da Pousa de 1778–1833 não sobrevivem, nem no catálogo do Arquivo Distrital de Braga nem no FamilySearch.
+  [OPEN — negativo delimitado, conforme informado] Os pais e o ano de nascimento só podem, portanto,
+  ser afinados por outros registros.
+
+  - **Seu casamento com Bento** (antes de abril de 1829). Não está nos casamentos de Ucha de 1745–1879,
+  que a pesquisa de recuperação percorreu. Provavelmente foi na Pousa, cujos casamentos de 1755–1859
+  também estão perdidos. [OPEN — negativo delimitado, conforme informado]
+
+  - **A escriptura dotal a seu filho João** (antes de maio de 1890). Esta escritura notarial,
+  provavelmente nos livros de Barcelos, nomearia o que ela tinha, em que condições o deu e, possivelmente,
+  os outros herdeiros. [OPEN — o documento não localizado mais informativo sobre ela]
+
+  - **Se a "Joaquina Maria" (1859, 1860) é ela.** A identificação é forte (PAR-0117, PAR-0110).
+  O inventário orfanológico que pode ter seguido a morte do marido resolveria a questão. [OPEN]
+
+  - **Se a viúva de Domingos era sua neta Maria de Jesus** (PRB-0013, PRB-0014, PRB-0015, PRB-0016).
+  Um casamento entre tio e sobrinha teria exigido dispensa, de modo que o assento de casamento,
+  onde quer que esteja, deveria dizê-lo. [OPEN]
+
+
+  ## Fontes disponíveis (neste repositório)
+
+
+  - **PAR-0111** — seu próprio óbito, Ucha, 25 de maio de 1890, que nomeia os pais, a idade, a
+  freguesia de nascimento, o marido e o filho João. *Primária para o óbito; secundária para o
+  nascimento e os pais.*
+
+  - **PRB-0016** — a partilha dos bens de Domingos (1885–86), com a procuração dela (Braga, 9
+  de junho de 1885) e sua legalização consular. *Original; ela é a primeira suplicante.*
+
+  - **PRB-0015** — o testamento de Domingos (1884) e sua anulação (1885) por preteri-la como herdeira
+  forçada. *Original.*
+
+  - **PAR-0106, PAR-0113, PAR-0114, PAR-0115, PAR-0116, PAR-0118, PAR-0119, PAR-0120** — os batismos
+  de oito de seus filhos, Ucha, 1829–1843, que nomeiam seus pais. *Primárias.*
+
+  - **PAR-0107, PAR-0121, PAR-0122, PAR-0123** — os casamentos de cinco de seus filhos, Ucha,
+  1855–1869; PAR-0121 declara sua naturalidade. *Primárias.*
+
+  - **PAR-0110, PAR-0117** — o provável óbito do marido (1860) e o óbito do filho Francisco (1859),
+  ambos chamando-a "Joaquina Maria". *Primárias; a identificação é forte.*
+
+  - **PAR-0124, PAR-0125, PAR-0126, PAR-0127, PAR-0108, PAR-0130, PAR-0131, PAR-0133, PAR-0135**
+  — os batismos de seus netos na Pousa, 1855–1871, que a nomeiam como avó paterna. *Primárias
+  para os batismos; secundárias para ela.*
+
+  - **PRB-0013, PRB-0014** — o testamento (1890) e o inventário (1898) de Manoel João, que nomeiam
+  o marido de sua filha Maria, André Teixeira Crespo. *Originais.*
+
+
+  ## Contexto regional e migratório
+
+
+  Nasceu em Santa Cristina da Pousa, freguesia do concelho de Barcelos, e viveu a vida de casada
+  em São Romão da Ucha, também em Barcelos (PAR-0111, PAR-0121). [PROVEN] Pelo que os registros
+  mostram, nunca deixou o Minho. Sua única viagem documentada é a um tabelião de Braga, em 1885
+  (PRB-0016). [PROVEN]
+
+
+  Ainda assim, em 1885 os negócios da família já se tinham tornado atlânticos. Dois de seus filhos
+  estavam na Zona da Mata de Minas Gerais — em São João do Laranjal, termo de Cataguases —, e
+  os bens que ela herdou ficavam lá, em terra e café (PRB-0015, PRB-0016). [PROVEN] As casas minhotas
+  da época costumavam manter um herdeiro em casa e mandar os outros filhos para o Brasil [CONTEXTUAL].
+  O caso dela mostra a viagem de volta desse sistema: uma reclamação jurídica que vai de Braga,
+  pelo Porto e pelo Rio de Janeiro, até um tribunal de província em Minas Gerais.
+
+
+  ## Onde ir hoje
+
+
+  - **Igreja Paroquial de Santa Cristina da Pousa, Barcelos** — sua freguesia natal. Os batismos
+  e casamentos do seu tempo não sobrevivem. [RESOLVED — freguesia] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20de%20Santa%20Cristina%20de%20Pousa%2C%20Barcelos)
+
+  - **Igreja Paroquial de São Romão da Ucha, Barcelos** — onde os filhos foram batizados e casaram,
+  1829–1869. O enterro dela foi no cemitério público da freguesia, não na igreja. [RESOLVED —
+  freguesia] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20de%20S%C3%A3o%20Rom%C3%A3o%20da%20Ucha%2C%20Barcelos)
+
+  - **Largo de São Francisco, Braga** — onde o tabelião José Luiz d'Oliveira Pessa lavrou sua
+  procuração a 9 de junho de 1885 (PRB-0016). A localização moderna do cartório não está estabelecida.
+  [APPROX] · [Maps](https://www.google.com/maps/search/?api=1&query=Largo%20de%20S%C3%A3o%20Francisco%2C%20Braga)
+
+  - **Arquivo Distrital de Braga** — guarda os livros paroquiais de Ucha e da Pousa. É o primeiro
+  lugar a consultar para os livros notariais de Barcelos, que deveriam conter sua escriptura dotal.
+  · [Maps](https://www.google.com/maps/search/?api=1&query=Arquivo%20Distrital%20de%20Braga)

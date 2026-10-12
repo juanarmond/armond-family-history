@@ -1,0 +1,170 @@
+schema_version: 1
+id: P-0146
+preferred_name: Marianna da Silva
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Marianna da Silva
+  type: source
+  source_ids:
+  - PAR-0106
+  - PAR-0111
+  - PAR-0116
+  - PAR-0118
+  - PAR-0119
+  - PAR-0120
+- value: Marianna Luiza da Silva
+  type: source
+  source_ids:
+  - PAR-0113
+  - PAR-0115
+- value: Marianna Francisca da Silva
+  type: source
+  source_ids:
+  - PAR-0114
+occupations:
+- value: lavradora
+  source_ids:
+  - PAR-0111
+event_ids:
+- E-0149
+- E-0150
+family_ids:
+- F-0073
+notes:
+- text: >-
+    Antenor Muniz's 3×-great-grandmother: mother of Joaquina Rosa Lopes (P-0142); lavradora, natural
+    of Pousa (PAR-0111). Dead by 29 March 1837 (PAR-0116). No parent family is modelled: no record
+    names her parents.
+  text_pt: >-
+    Tetravó de Antenor Muniz: mãe de Joaquina Rosa Lopes (P-0142); lavradora, natural de Pousa
+    (PAR-0111). Já falecida em 29 de março de 1837 (PAR-0116). Nenhuma família de origem é modelada:
+    nenhum registro nomeia os pais dela.
+- text: 'Nationality Portuguese: "naturaes da freguezia da Pouza" (PAR-0111).'
+  text_pt: 'Nacionalidade portuguesa: "naturaes da freguezia da Pouza" (PAR-0111).'
+profile: >-
+  ## Interesting facts
+
+
+  - **[PROVEN]** Her middle name varies, but her name itself holds steady. She is "Marianna Luiza
+  da Silva" in 1829 and 1835, "Marianna Francisca da Silva" in 1830, and plain "Marianna da Silva"
+  in 1833, in 1837–1843 and in her daughter's death entry of 1890 (PAR-0113, PAR-0115, PAR-0114,
+  PAR-0106, PAR-0116, PAR-0118–PAR-0120, PAR-0111). Her husband's given name, by contrast, changes
+  from Ignacio to "Joze" in that last entry.
+
+  - **[PROVEN]** Her daughter's 1890 death entry is the only record that gives her occupation
+  and origin. With her husband she was one of the "lavradores, naturaes da freguezia da Pouza,
+  deste concelho" (PAR-0111).
+
+
+  ## Identity
+
+
+  **Marianna da Silva** — also "Marianna Luiza da Silva" and "Marianna Francisca da Silva" in
+  the baptisms of her grandchildren, Ucha, 1829–1843 (PAR-0106, PAR-0113–PAR-0116, PAR-0118–PAR-0120),
+  and "Marianna da Silva" in her daughter's death entry (PAR-0111). **[PROVEN]**
+
+
+  She was a lavradora and a native of Santa Cristina da Pousa, Barcelos (PAR-0111) **[PROVEN]**,
+  of the lugar written "Anjeira / Anjeyrôa / Anjeiroa" in the baptisms **[uncertain reading]**.
+  She was the wife of Ignacio Francisco Lopes (P-0145), family F-0073, and the mother of Joaquina
+  Rosa (Roza) Lopes (P-0142), born about 1810 at Pousa (PAR-0111) **[PROVEN]**.
+
+
+  She was probably dead by 29 March 1837: "e tambem falecidos" (PAR-0116) **[uncertain reading]**.
+
+
+  She is not to be confused with Maria Luiza (P-0150), the wife of André Domingues of Salvador
+  da Lama. Both "Luiza" forms appear in the same grandchildren's records.
+
+
+  **Position in the tree.** She is the 3×-great-grandmother of Antenor Muniz (P-0006, 1923–2014)
+  on his maternal side, through Joaquina Rosa Lopes (P-0142), Manoel João Fernandes da Cruz (P-0139),
+  Thereza Fernandes de Azevedo (P-0039) and Luiza Fernandes de Azevedo (P-0013). The link from
+  Thereza to Manoel João's family is a strong identification, not a proof.
+
+
+  ## Open questions
+
+
+  - **Her baptism, marriage and death.** The Pousa registers for her likely lifetime events are
+  reported lost: baptisms 1778–1833, marriages 1755–1859 and deaths 1745–1858, according to the
+  retrieval side's check of the Arquivo Distrital de Braga catalogue and FamilySearch. [OPEN —
+  bounded negative, as reported]
+
+  - **Her parents.** No record names them. [OPEN]
+
+
+  ## Sources held (this repository)
+
+
+  - **PAR-0111** — her daughter Joaquina's death, Ucha, 1890, which names her as mother and as
+  a native of Pousa. *Primary for her daughter's death; secondary for her.*
+
+  - **PAR-0106, PAR-0113, PAR-0114, PAR-0115, PAR-0116, PAR-0118, PAR-0119, PAR-0120** — baptisms
+  of eight of her grandchildren, Ucha, 1829–1843. She is the maternal grandmother. *Primary for
+  the baptisms; secondary for her.*
+profile_pt: >-
+  ## Fatos interessantes
+
+
+  - **[PROVEN]** Seu segundo nome varia, mas o nome em si se mantém. Ela é "Marianna Luiza da
+  Silva" em 1829 e 1835, "Marianna Francisca da Silva" em 1830, e simplesmente "Marianna da Silva"
+  em 1833, em 1837–1843 e no assento de óbito da filha, de 1890 (PAR-0113, PAR-0115, PAR-0114,
+  PAR-0106, PAR-0116, PAR-0118–PAR-0120, PAR-0111). O prenome do marido, ao contrário, passa de
+  Ignacio a "Joze" nesse último assento.
+
+  - **[PROVEN]** O assento de óbito da filha, de 1890, é o único registro que lhe dá ofício e
+  origem. Com o marido, ela era uma dos "lavradores, naturaes da freguezia da Pouza, deste concelho"
+  (PAR-0111).
+
+
+  ## Identidade
+
+
+  **Marianna da Silva** — também "Marianna Luiza da Silva" e "Marianna Francisca da Silva" nos
+  batismos de seus netos, Ucha, 1829–1843 (PAR-0106, PAR-0113–PAR-0116, PAR-0118–PAR-0120), e
+  "Marianna da Silva" no assento de óbito da filha (PAR-0111). **[PROVEN]**
+
+
+  Era lavradora e natural de Santa Cristina da Pousa, Barcelos (PAR-0111) **[PROVEN]**, do lugar
+  escrito "Anjeira / Anjeyrôa / Anjeiroa" nos batismos **[leitura incerta]**. Era mulher de Ignacio
+  Francisco Lopes (P-0145), família F-0073, e mãe de Joaquina Rosa (Roza) Lopes (P-0142), nascida
+  por volta de 1810 na Pousa (PAR-0111) **[PROVEN]**.
+
+
+  Provavelmente já era falecida a 29 de março de 1837: "e tambem falecidos" (PAR-0116) **[leitura
+  incerta]**.
+
+
+  Não deve ser confundida com Maria Luiza (P-0150), mulher de André Domingues, de Salvador da
+  Lama. As duas formas com "Luiza" aparecem nos mesmos registros dos netos.
+
+
+  **Posição na árvore.** É tetravó de Antenor Muniz (P-0006, 1923–2014) pelo lado materno, através
+  de Joaquina Rosa Lopes (P-0142), Manoel João Fernandes da Cruz (P-0139), Thereza Fernandes de
+  Azevedo (P-0039) e Luiza Fernandes de Azevedo (P-0013). A ligação de Thereza com a família de
+  Manoel João é uma identificação forte, não uma prova.
+
+
+  ## Questões em aberto
+
+
+  - **Seu batismo, casamento e óbito.** Os livros da Pousa para os eventos prováveis de sua vida
+  são dados como perdidos: batismos de 1778–1833, casamentos de 1755–1859 e óbitos de 1745–1858,
+  segundo a verificação da pesquisa de recuperação no catálogo do Arquivo Distrital de Braga e
+  no FamilySearch. [OPEN — negativo delimitado, conforme informado]
+
+  - **Seus pais.** Nenhum registro os nomeia. [OPEN]
+
+
+  ## Fontes disponíveis (neste repositório)
+
+
+  - **PAR-0111** — o óbito de sua filha Joaquina, Ucha, 1890, que a nomeia como mãe e como natural
+  da Pousa. *Primária para o óbito da filha; secundária para ela.*
+
+  - **PAR-0106, PAR-0113, PAR-0114, PAR-0115, PAR-0116, PAR-0118, PAR-0119, PAR-0120** — batismos
+  de oito de seus netos, Ucha, 1829–1843. Ela é a avó materna. *Primárias para os batismos; secundárias
+  para ela.*

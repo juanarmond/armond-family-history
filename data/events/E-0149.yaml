@@ -1,0 +1,33 @@
+schema_version: 1
+id: E-0149
+event_type: death
+date:
+  kind: exact
+  value: '1890-05-25'
+  original_text: >-
+    Aos vinte e cinco dias, do mez de Maio, do anno de mil oito centos e noventa, ás cinco horas
+    da manhã
+place_text: lugar de Quintão, São Romão da Ucha, Barcelos, Braga, Portugal
+participants:
+- person_id: P-0142
+  role: principal
+- person_id: P-0145
+  role: parent
+- person_id: P-0146
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0111
+notes:
+- text: >-
+    Death at the lugar de Quintão on 25 May 1890 of Joaquina Roza Lopes, aged 80, lavradeira,
+    "viuva de Bento Fernandes", "natural da freguezia da Pouza", "filha legitima de Joze Lopes
+    e de Marianna da Silva" (PAR-0111, entry Nº 10, signed by the abbot Joaquim Antonio de Miranda).
+    The father's given name is "Ignacio" in eight contemporary baptisms of her children (PAR-0106,
+    PAR-0113–PAR-0120); see P-0145.
+  text_pt: >-
+    Óbito no lugar de Quintão, em 25 de maio de 1890, de Joaquina Roza Lopes, de 80 anos, lavradeira,
+    "viuva de Bento Fernandes", "natural da freguezia da Pouza", "filha legitima de Joze Lopes
+    e de Marianna da Silva" (PAR-0111, assento nº 10, assinado pelo abade Joaquim Antonio de Miranda).
+    O prenome do pai é "Ignacio" em oito batismos contemporâneos dos filhos dela (PAR-0106, PAR-0113–PAR-0120);
+    ver P-0145.

@@ -1,0 +1,186 @@
+schema_version: 1
+id: P-0147
+preferred_name: Constantino Fernandes
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: Constantino Fernandes
+  type: source
+  source_ids:
+  - PAR-0109
+- value: Custantantino Fernandes de Oliveira
+  type: source
+  source_ids:
+  - PAR-0112
+  note: >-
+    The 1771 baptism of a son Manoel; the initial may also read T. That this Manoel is P-0143
+    is only a hypothesis.
+event_ids: []
+family_ids:
+- F-0074
+notes:
+- text: >-
+    Antenor Muniz's 4×-great-grandfather: named with Roza Maria as Bento's paternal grandparents,
+    "do mesmo Lugar" of Quintam, in Bento's probable baptism of 1807 (PAR-0109). No parent family
+    is modelled: the 1771 baptism (PAR-0112) names his parents only as the grandparents of a child
+    whose identity with P-0143 is a hypothesis. No events: no record gives his dates.
+  text_pt: >-
+    Pentavô de Antenor Muniz: nomeado com Roza Maria como avós paternos de Bento, "do mesmo Lugar"
+    de Quintam, no provável batismo de Bento em 1807 (PAR-0109). Nenhuma família de origem é modelada:
+    o batismo de 1771 (PAR-0112) nomeia os pais dele apenas como avós de uma criança cuja identidade
+    com P-0143 é hipótese. Sem eventos: nenhum registro dá suas datas.
+- text: >-
+    Nationality given as Portuguese from residence only: every record describes him as of the
+    lugar de Quintam, São Romão da Ucha, in Barcelos, Portugal; no record states a birthplace
+    or a nacionalidade.
+  text_pt: >-
+    Nacionalidade dada como portuguesa apenas pela residência: todos os registros descrevem ele
+    como de the lugar de Quintam, São Romão da Ucha, em Barcelos, Portugal; nenhum registro declara
+    local de nascimento nem nacionalidade.
+profile: >-
+  ## Interesting facts
+
+
+  - **[PROVEN]** In 1771 the priest stumbled over his name and wrote "Custantantino [sic] Fernandes
+  de Oliveira" (PAR-0112). In 1807 he is plain "Constantino Fernandes" (PAR-0109).
+
+  - **[INFERRED]** The "de Oliveira" he carries in 1771 matches the surname of the woman that
+  entry names as the child's paternal grandmother, Maria de Oliveira of Santa Marinha de Oleiros
+  (PAR-0112). If that entry is his, the surname came to him from his mother.
+
+  - **[INFERRED]** The 1771 entry places both sets of grandparents in other parishes, Santa Marinha
+  de Oleiros and Santa Eulália de Oliveira (PAR-0112). If it is this couple, the line's settlement
+  at Quintam may begin with Constantino and Roza Maria.
+
+
+  ## Identity
+
+
+  **Constantino Fernandes** — "Constantino Fernandes" in 1807 (PAR-0109); "Custantantino [sic]
+  Fernandes de Oliveira" in 1771 (PAR-0112). He was of the lugar of Quintam, São Romão da Ucha
+  **[PROVEN wording]**, and the husband of Roza Maria (P-0148), family F-0074.
+
+
+  He is named as the paternal grandfather of the Bento baptised at Ucha on 21 October 1807 (PAR-0109).
+  That entry is Bento José Fernandes's baptism by strong identification, and on that basis Constantino
+  is the father of Manoel Fernandes (P-0143) **[strong identification]**.
+
+
+  The 1771 baptism of a son Manoel to "Custantantino Fernandes de Oliveira, e … Roza Maria sua
+  mulher do lugar de Quintam" (PAR-0112) is very probably this couple's: the names and the lugar
+  are the same. [INFERRED] Whether that Manoel is P-0143 is a hypothesis. No baptism, marriage
+  or death of Constantino's own is held, and the 1807 entry does not say whether he was then living.
+
+
+  **Position in the tree.** He is the 4×-great-grandfather of Antenor Muniz (P-0006, 1923–2014)
+  on his maternal side, through Manoel Fernandes (P-0143), Bento José Fernandes (P-0141), Manoel
+  João Fernandes da Cruz (P-0139), Thereza Fernandes de Azevedo (P-0039) and Luiza Fernandes de
+  Azevedo (P-0013). Two links in that chain are strong identifications, not proofs:
+
+
+  - Bento's 1807 baptism, the only record that names Constantino;
+
+  - Thereza's link to Manoel João's family.
+
+
+  ## Open questions
+
+
+  - **His parents.** The 1771 baptism names the child's paternal grandparents as "Manoel Fernandes,
+  e … Maria de Oliveira da freiguezia de Santa Marinha de Oleiros" (PAR-0112). If that child is
+  P-0143, they are Constantino's parents and Antenor's 5×-great-grandparents. [LEAD — not modelled]
+
+  - **His other children.** The retrieval agent logged baptisms of a Domingos (1774), Joanna Thereza
+  (1777), Antonio José (1779) and Anna Maria (1781) to the same couple. None is filed. [LEAD]
+
+  - **Testing the 1771 hypothesis.** The marriage of Manoel Fernandes × Jozefa Maria (before c.
+  1806) should name the groom's parents. [OPEN]
+
+  - **His own marriage and death.** If PAR-0112 is theirs, the marriage was before October 1771.
+  [OPEN]
+
+
+  ## Sources held (this repository)
+
+
+  - **PAR-0109** — his grandson Bento's probable baptism, 1807, which names him paternal grandfather.
+  *Primary for the baptism; secondary for him; the identification is strong.*
+
+  - **PAR-0112** — the 1771 baptism of a Manoel, son of "Custantantino Fernandes de Oliveira"
+  × Roza Maria, of Quintam. *Primary; very probably this couple; that the child is P-0143 is a
+  hypothesis.*
+profile_pt: >-
+  ## Fatos interessantes
+
+
+  - **[PROVEN]** Em 1771 o padre tropeçou em seu nome e escreveu "Custantantino [sic] Fernandes
+  de Oliveira" (PAR-0112). Em 1807 ele é simplesmente "Constantino Fernandes" (PAR-0109).
+
+  - **[INFERRED]** O "de Oliveira" que ele leva em 1771 coincide com o sobrenome da mulher que
+  esse assento nomeia como avó paterna da criança, Maria de Oliveira, de Santa Marinha de Oleiros
+  (PAR-0112). Se o assento é o dele, o sobrenome veio-lhe da mãe.
+
+  - **[INFERRED]** O assento de 1771 situa os dois pares de avós em outras freguesias, Santa Marinha
+  de Oleiros e Santa Eulália de Oliveira (PAR-0112). Se é este casal, o estabelecimento da linha
+  na Quintam pode começar com Constantino e Roza Maria.
+
+
+  ## Identidade
+
+
+  **Constantino Fernandes** — "Constantino Fernandes" em 1807 (PAR-0109); "Custantantino [sic]
+  Fernandes de Oliveira" em 1771 (PAR-0112). Era do lugar da Quintam, São Romão da Ucha **[PROVEN
+  wording]**, e marido de Roza Maria (P-0148), família F-0074.
+
+
+  É nomeado como avô paterno do Bento batizado em Ucha a 21 de outubro de 1807 (PAR-0109). Esse
+  assento é o batismo de Bento José Fernandes por identificação forte, e nessa base Constantino
+  é o pai de Manoel Fernandes (P-0143) **[identificação forte]**.
+
+
+  O batismo de 1771 de um filho Manoel de "Custantantino Fernandes de Oliveira, e … Roza Maria
+  sua mulher do lugar de Quintam" (PAR-0112) é muito provavelmente deste casal: os nomes e o lugar
+  são os mesmos. [INFERRED] Se esse Manoel é o P-0143 é uma hipótese. Não está guardado nenhum
+  batismo, casamento ou óbito do próprio Constantino, e o assento de 1807 não diz se ele estava
+  então vivo.
+
+
+  **Posição na árvore.** É pentavô de Antenor Muniz (P-0006, 1923–2014) pelo lado materno, através
+  de Manoel Fernandes (P-0143), Bento José Fernandes (P-0141), Manoel João Fernandes da Cruz (P-0139),
+  Thereza Fernandes de Azevedo (P-0039) e Luiza Fernandes de Azevedo (P-0013). Dois elos dessa
+  cadeia são identificações fortes, não provas:
+
+
+  - o batismo de Bento de 1807, o único registro que nomeia Constantino;
+
+  - a ligação de Thereza com a família de Manoel João.
+
+
+  ## Questões em aberto
+
+
+  - **Seus pais.** O batismo de 1771 nomeia os avós paternos da criança como "Manoel Fernandes,
+  e … Maria de Oliveira da freiguezia de Santa Marinha de Oleiros" (PAR-0112). Se essa criança
+  é o P-0143, eles são os pais de Constantino e hexavós de Antenor. [LEAD — não modelados]
+
+  - **Seus outros filhos.** O agente de recuperação anotou batismos de um Domingos (1774), Joanna
+  Thereza (1777), Antonio José (1779) e Anna Maria (1781) do mesmo casal. Nenhum está arquivado.
+  [LEAD]
+
+  - **Pôr à prova a hipótese de 1771.** O casamento de Manoel Fernandes × Jozefa Maria (antes
+  de c. 1806) deveria nomear os pais do noivo. [OPEN]
+
+  - **Seu próprio casamento e óbito.** Se PAR-0112 é deles, o casamento foi antes de outubro de
+  1771. [OPEN]
+
+
+  ## Fontes disponíveis (neste repositório)
+
+
+  - **PAR-0109** — o provável batismo de seu neto Bento, 1807, que o nomeia avô paterno. *Primária
+  para o batismo; secundária para ele; a identificação é forte.*
+
+  - **PAR-0112** — o batismo de 1771 de um Manoel, filho de "Custantantino Fernandes de Oliveira"
+  × Roza Maria, da Quintam. *Primária; muito provavelmente deste casal; que a criança seja o P-0143
+  é uma hipótese.*

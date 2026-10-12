@@ -1,0 +1,154 @@
+schema_version: 1
+id: P-0148
+preferred_name: Roza Maria
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Roza Maria
+  type: source
+  source_ids:
+  - PAR-0109
+  - PAR-0112
+event_ids: []
+family_ids:
+- F-0074
+notes:
+- text: >-
+    Antenor Muniz's 4×-great-grandmother: wife of Constantino Fernandes, named as Bento's paternal
+    grandmother in 1807 (PAR-0109). No parent family or events are modelled, for the reasons given
+    on P-0147.
+  text_pt: >-
+    Pentavó de Antenor Muniz: esposa de Constantino Fernandes, nomeada avó paterna de Bento em
+    1807 (PAR-0109). Nenhuma família de origem nem eventos são modelados, pelas razões dadas em
+    P-0147.
+- text: >-
+    Nationality given as Portuguese from residence only: every record describes her as of the
+    lugar de Quintam, São Romão da Ucha, in Barcelos, Portugal; no record states a birthplace
+    or a nacionalidade.
+  text_pt: >-
+    Nacionalidade dada como portuguesa apenas pela residência: todos os registros descrevem ela
+    como de the lugar de Quintam, São Romão da Ucha, em Barcelos, Portugal; nenhum registro declara
+    local de nascimento nem nacionalidade.
+profile: >-
+  ## Interesting facts
+
+
+  - **[PROVEN]** She is named twice, thirty-six years apart. In 1771 she is the mother of a son
+  Manoel, "Roza Maria sua mulher", wife of "Custantantino Fernandes de Oliveira", of Quintam (PAR-0112).
+  In 1807 she is the paternal grandmother of Bento, "Constantino Fernandes, e sua mulher Roza
+  Maria do mesmo Lugar" (PAR-0109). Both entries rest on identifications: the first is a hypothesis
+  for her son, and the second is strong.
+
+  - **[LEAD]** If the 1771 entry is hers, her parents were Antonio José Ferreira × Mariana Lopes,
+  of Santa Eulália de Oliveira (PAR-0112).
+
+
+  ## Identity
+
+
+  **Roza Maria** — of the lugar of Quintam, São Romão da Ucha **[PROVEN wording]**. She was the
+  wife of Constantino Fernandes (P-0147), family F-0074. She is named as Bento's paternal grandmother
+  in the 1807 baptism (PAR-0109) and is, on that basis, the mother of Manoel Fernandes (P-0143)
+  **[strong identification]**.
+
+
+  The 1771 baptism of a son Manoel to the same couple's names and lugar (PAR-0112) is very probably
+  hers [INFERRED]; whether that Manoel is P-0143 is a hypothesis. No baptism, marriage or death
+  of her own is held, and no surname of hers is written.
+
+
+  **Position in the tree.** She is the 4×-great-grandmother of Antenor Muniz (P-0006, 1923–2014)
+  on his maternal side, through Manoel Fernandes (P-0143), Bento José Fernandes (P-0141), Manoel
+  João Fernandes da Cruz (P-0139), Thereza Fernandes de Azevedo (P-0039) and Luiza Fernandes de
+  Azevedo (P-0013). Two links in that chain are strong identifications, not proofs:
+
+
+  - Bento's 1807 baptism;
+
+  - Thereza's link to Manoel João's family.
+
+
+  ## Open questions
+
+
+  - **Her parents.** The 1771 baptism names the child's maternal grandparents as "Antonio Joze
+  Ferreira e … Mariana Lopes da freiguezia de Santa Eulalia de Oliveira" (PAR-0112). If that child
+  is P-0143, they are her parents and Antenor's 5×-great-grandparents. [LEAD — not modelled]
+
+  - **Her other children.** The retrieval agent logged baptisms of a Domingos (1774), Joanna Thereza
+  (1777), Antonio José (1779) and Anna Maria (1781) to the couple. None is filed. [LEAD]
+
+  - **Her marriage, her own baptism (perhaps at Santa Eulália de Oliveira) and her death.** None
+  has been searched for. [OPEN]
+
+
+  ## Sources held (this repository)
+
+
+  - **PAR-0109** — her grandson Bento's probable baptism, 1807, which names her paternal grandmother.
+  *Primary for the baptism; secondary for her; the identification is strong.*
+
+  - **PAR-0112** — the 1771 baptism of a Manoel, son of "Custantantino Fernandes de Oliveira"
+  × Roza Maria. *Primary; very probably this couple; that the child is P-0143 is a hypothesis.*
+profile_pt: >-
+  ## Fatos interessantes
+
+
+  - **[PROVEN]** Ela é nomeada duas vezes, com trinta e seis anos de intervalo. Em 1771 é a mãe
+  de um filho Manoel, "Roza Maria sua mulher", mulher de "Custantantino Fernandes de Oliveira",
+  da Quintam (PAR-0112). Em 1807 é a avó paterna de Bento, "Constantino Fernandes, e sua mulher
+  Roza Maria do mesmo Lugar" (PAR-0109). Os dois assentos dependem de identificações: o primeiro
+  é uma hipótese para o filho dela, e o segundo é forte.
+
+  - **[LEAD]** Se o assento de 1771 é o dela, seus pais eram Antonio José Ferreira × Mariana Lopes,
+  de Santa Eulália de Oliveira (PAR-0112).
+
+
+  ## Identidade
+
+
+  **Roza Maria** — do lugar da Quintam, São Romão da Ucha **[PROVEN wording]**. Era mulher de
+  Constantino Fernandes (P-0147), família F-0074. É nomeada como avó paterna de Bento no batismo
+  de 1807 (PAR-0109) e é, nessa base, a mãe de Manoel Fernandes (P-0143) **[identificação forte]**.
+
+
+  O batismo de 1771 de um filho Manoel, com os mesmos nomes do casal e o mesmo lugar (PAR-0112),
+  é muito provavelmente o dela [INFERRED]; se esse Manoel é o P-0143 é uma hipótese. Não está
+  guardado nenhum batismo, casamento ou óbito dela, e nenhum sobrenome seu está escrito.
+
+
+  **Posição na árvore.** É pentavó de Antenor Muniz (P-0006, 1923–2014) pelo lado materno, através
+  de Manoel Fernandes (P-0143), Bento José Fernandes (P-0141), Manoel João Fernandes da Cruz (P-0139),
+  Thereza Fernandes de Azevedo (P-0039) e Luiza Fernandes de Azevedo (P-0013). Dois elos dessa
+  cadeia são identificações fortes, não provas:
+
+
+  - o batismo de Bento de 1807;
+
+  - a ligação de Thereza com a família de Manoel João.
+
+
+  ## Questões em aberto
+
+
+  - **Seus pais.** O batismo de 1771 nomeia os avós maternos da criança como "Antonio Joze Ferreira
+  e … Mariana Lopes da freiguezia de Santa Eulalia de Oliveira" (PAR-0112). Se essa criança é
+  o P-0143, eles são os pais dela e hexavós de Antenor. [LEAD — não modelados]
+
+  - **Seus outros filhos.** O agente de recuperação anotou batismos de um Domingos (1774), Joanna
+  Thereza (1777), Antonio José (1779) e Anna Maria (1781) do casal. Nenhum está arquivado. [LEAD]
+
+  - **Seu casamento, seu próprio batismo (talvez em Santa Eulália de Oliveira) e seu óbito.**
+  Nenhum foi procurado. [OPEN]
+
+
+  ## Fontes disponíveis (neste repositório)
+
+
+  - **PAR-0109** — o provável batismo de seu neto Bento, 1807, que a nomeia avó paterna. *Primária
+  para o batismo; secundária para ela; a identificação é forte.*
+
+  - **PAR-0112** — o batismo de 1771 de um Manoel, filho de "Custantantino Fernandes de Oliveira"
+  × Roza Maria. *Primária; muito provavelmente deste casal; que a criança seja o P-0143 é uma
+  hipótese.*

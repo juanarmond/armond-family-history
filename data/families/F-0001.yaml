@@ -51,10 +51,26 @@ documented_children:
   - name: Aristides Muniz Bittencourt
     source_ids:
       - PAR-0003
-    lifespan: b. 1922
+      - CIV-0058
+      - CIV-0059
+    lifespan: 1922–1981?
     note: >-
-      Brother of Antenor (P-0006); son of Deocleciano and Luiza, born 22 July 1922
-      and baptized 20 September 1922 at Santa Luzia do Carangola (PAR-0003).
+      Brother of Antenor (P-0006); son of Deocleciano and Luiza, born 22 July 1922 and baptized
+      20 September 1922 at Santa Luzia do Carangola (PAR-0003). Married Manoela da Silva at São
+      João de Meriti on 16 May 1953; the record gives his birthplace as Carangola, MG, and miswrites
+      his mother as "Luiza Secundina de Oliveira" (CIV-0058). Probably the Aristides Muniz Bitencourt
+      who died at Itaguaí on 3 May 1981 (CIV-0059) — a hypothesis only: that record states no
+      age, birthplace or parents.
+  - name: Rozalina Bittencourt Alves
+    source_ids:
+      - CIV-0057
+    lifespan: c.1928–1983
+    note: >-
+      Sister of Antenor (P-0006): died 6 January 1983 at the Hospital Duque de Caxias, aged 54,
+      born in Minas Gerais, daughter of "Deocleciano Muniz Bittencourt" and "dona Luiza Secunda[s]
+      de Azevedo", married to [uncertain: Leomar / Weimar] Chrispim Alves and leaving three adult
+      children (CIV-0057; identification strong, not proven). A margin note points to her civil
+      marriage at Xerém, Duque de Caxias, registered 10 August 1963 [lead].
 event_ids:
   - E-0001
 notes:

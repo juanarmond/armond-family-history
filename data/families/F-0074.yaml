@@ -1,0 +1,59 @@
+schema_version: 1
+id: F-0074
+partners:
+- person_id: P-0147
+  role: spouse
+- person_id: P-0148
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0109
+  - PAR-0112
+  notes:
+  - text: >-
+      Named together as Bento's paternal grandparents (PAR-0109) and as "Roza Maria sua mulher"
+      in 1771 (PAR-0112).
+    text_pt: >-
+      Nomeados juntos como avós paternos de Bento (PAR-0109) e como "Roza Maria sua mulher" em
+      1771 (PAR-0112).
+children:
+- person_id: P-0143
+  parent_relationships:
+  - parent_id: P-0147
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0109
+    notes:
+    - text: >-
+        Strong evidence, from Bento's probable baptism (PAR-0109), which names them as his paternal
+        grandparents of the same lugar. PAR-0112, the 1771 baptism of a Manoel of this couple,
+        is cited on the family only: that he is P-0143 is a hypothesis.
+      text_pt: >-
+        Evidência forte, pelo provável batismo de Bento (PAR-0109), que os nomeia avós paternos
+        do mesmo lugar. PAR-0112, o batismo de 1771 de um Manoel deste casal, só é citado na família:
+        que ele seja P-0143 é hipótese.
+  - parent_id: P-0148
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0109
+    notes:
+    - text: As for the paternal link.
+      text_pt: Como para o vínculo paterno.
+  notes: []
+event_ids: []
+notes:
+- text: >-
+    Constantino Fernandes (de Oliveira) and Roza Maria, of Quintam, São Romão da Ucha: parents
+    of Manoel Fernandes (P-0143). The 1771 baptism of their son Manoel (PAR-0112) names their
+    own parents (Manoel Fernandes × Maria de Oliveira, of Santa Marinha de Oleiros; Antonio José
+    Ferreira × Mariana Lopes, of Santa Eulália de Oliveira); they are not modelled while the 1771
+    Manoel is only hypothetically P-0143.
+  text_pt: >-
+    Constantino Fernandes (de Oliveira) e Roza Maria, de Quintam, São Romão da Ucha: pais de Manoel
+    Fernandes (P-0143). O batismo de 1771 do filho Manoel (PAR-0112) nomeia os pais deles (Manoel
+    Fernandes × Maria de Oliveira, de Santa Marinha de Oleiros; Antonio José Ferreira × Mariana
+    Lopes, de Santa Eulália de Oliveira); não são modelados enquanto o Manoel de 1771 for apenas
+    hipoteticamente P-0143.

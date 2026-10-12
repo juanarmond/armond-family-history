@@ -1,0 +1,36 @@
+schema_version: 1
+id: E-0144
+event_type: baptism
+date:
+  kind: exact
+  value: '1864-05-06'
+  original_text: >-
+    Aos seis dias do mez de maio do anno de mil oito centos sessenta e quatro
+place_text: Santa Cristina de Pousa, Barcelos, Braga, Portugal
+participants:
+- person_id: P-0039
+  role: principal
+- person_id: P-0139
+  role: parent
+- person_id: P-0140
+  role: parent
+status: strong-evidence
+source_ids:
+- PAR-0108
+notes:
+- text: >-
+    Baptism of Thereza de Jesus at the parish church of Pousa on 6 May 1864, by the priest José
+    Lopes (PAR-0108): "filha legitima de Manoel João Fernandes … alfaiate, natural da freguezia
+    de São Romão da Ucha … e de Anna Exposta, costureira, cuja naturalidade é ignorada", of the
+    lugar do Souto. The record itself is clear. It is strong evidence, not confirmed, for P-0039
+    because the link from this child to Thereza Fernandes de Azevedo rests on her father's 1890
+    will and 1898 inventário naming "Thereza, casada com Secundino de Azevedo" among his children
+    (PRB-0013, PRB-0014), not on a record that names both forms of her together.
+  text_pt: >-
+    Batismo de Thereza de Jesus na igreja paroquial de Pousa, em 6 de maio de 1864, pelo padre
+    José Lopes (PAR-0108): "filha legitima de Manoel João Fernandes … alfaiate, natural da freguezia
+    de São Romão da Ucha … e de Anna Exposta, costureira, cuja naturalidade é ignorada", do lugar
+    do Souto. O registro em si é claro. É evidência forte, não confirmada, para P-0039 porque
+    a ligação desta criança a Thereza Fernandes de Azevedo apoia-se no testamento de 1890 e no
+    inventário de 1898 do pai, que nomeiam "Thereza, casada com Secundino de Azevedo" entre os
+    filhos (PRB-0013, PRB-0014), e não num registro que traga as duas formas do nome juntas.

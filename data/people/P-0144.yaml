@@ -1,0 +1,173 @@
+schema_version: 1
+id: P-0144
+preferred_name: Jozefa Maria Domingues
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Jozefa Maria
+  type: source
+  source_ids:
+  - PAR-0106
+  - PAR-0109
+  - PAR-0113
+  - PAR-0115
+  - PAR-0116
+  - PAR-0118
+  - PAR-0119
+  - PAR-0120
+- value: Jozefa Maria Domingues
+  type: source
+  source_ids:
+  - PAR-0114
+event_ids:
+- E-0146
+- E-0147
+family_ids:
+- F-0075
+- F-0072
+notes:
+- text: >-
+    Antenor Muniz's 3×-great-grandmother: mother of Bento José Fernandes (P-0141), of Quintã,
+    Ucha. Her surname Domingues is given once (1830, PAR-0114), matching André Domingues of Salvador
+    da Lama, named as Bento's maternal grandfather in 1807 (PAR-0109). Dead by 29 March 1837 (PAR-0116).
+  text_pt: >-
+    Tetravó de Antenor Muniz: mãe de Bento José Fernandes (P-0141), de Quintã, Ucha. O sobrenome
+    Domingues aparece uma vez (1830, PAR-0114), coincidindo com André Domingues, de Salvador da
+    Lama, nomeado avô materno de Bento em 1807 (PAR-0109). Já falecida em 29 de março de 1837
+    (PAR-0116).
+- text: >-
+    Nationality given as Portuguese from residence only: every record describes her as of the
+    lugar de Quintã, São Romão da Ucha, in Barcelos, Portugal; no record states a birthplace or
+    a nacionalidade.
+  text_pt: >-
+    Nacionalidade dada como portuguesa apenas pela residência: todos os registros descrevem ela
+    como de the lugar de Quintã, São Romão da Ucha, em Barcelos, Portugal; nenhum registro declara
+    local de nascimento nem nacionalidade.
+profile: >-
+  ## Interesting facts
+
+
+  - **[PROVEN]** Only one of the eight baptisms gives her a surname: "Jozefa Maria Domingues"
+  (1830, PAR-0114). It is the surname of the André Domingues named as her father in the 1807 baptism
+  (PAR-0109), and that match is one of the threads tying that baptism to her son Bento.
+
+  - **[PROVEN]** Her side of the family came from Salvador da Lama. Her parents, her unmarried
+  sister Benta and the 1807 godfather were all "da freguezia do Salvador da Lama" (PAR-0109),
+  and in 1830 a "parente", João Domingues of Lama, stood godfather to her granddaughter Anna (PAR-0114).
+
+
+  ## Identity
+
+
+  **Jozefa Maria Domingues** — "Jozefa Maria" in the baptisms of her grandchildren of 1829, 1833,
+  1835 and 1837–1843 (PAR-0113, PAR-0106, PAR-0115, PAR-0116, PAR-0118–PAR-0120), and in the 1807
+  baptism (PAR-0109); "Jozefa Maria Domingues" in 1830 (PAR-0114). **[PROVEN]**
+
+
+  She was the wife of Manoel Fernandes (P-0143), of Quintã, São Romão da Ucha, family F-0072.
+  She was the mother of Bento José Fernandes (P-0141), as the paternal grandmother in all eight
+  baptisms of his children **[PROVEN]**. She was dead by 29 March 1837: "ja defuntos" (PAR-0116)
+  **[PROVEN]**.
+
+
+  In Bento's probable baptism (20 October 1807, PAR-0109) **[strong identification]**:
+
+
+  - her parents are André Domingues × Maria Luiza, "da freguezia do Salvador da Lama Couto de
+  Azevedo" (P-0149, P-0150);
+
+  - her sister Benta, "solteyra thia materna do baptizado", of Lama, was the godmother.
+
+
+  "Couto de Azevedo" is part of the parish's place description. No record connects it to the surname
+  of Thereza's husband, Secundino de Azevedo.
+
+
+  **Position in the tree.** She is the 3×-great-grandmother of Antenor Muniz (P-0006, 1923–2014)
+  on his maternal side, through Bento José Fernandes (P-0141), Manoel João Fernandes da Cruz (P-0139),
+  Thereza Fernandes de Azevedo (P-0039) and Luiza Fernandes de Azevedo (P-0013). The link from
+  Thereza to Manoel João's family is a strong identification, not a proof.
+
+
+  ## Open questions
+
+
+  - **Her own baptism**, presumably at Salvador da Lama, and her marriage to Manoel Fernandes
+  (before c. 1806). Neither has been searched for. [OPEN]
+
+  - **Her death entry** (before March 1837). It has not been identified. [OPEN]
+
+
+  ## Sources held (this repository)
+
+
+  - **PAR-0106, PAR-0113, PAR-0114, PAR-0115, PAR-0116, PAR-0118, PAR-0119, PAR-0120** — baptisms
+  of eight of her grandchildren, Ucha, 1829–1843. She is the paternal grandmother; PAR-0114 gives
+  her surname, and PAR-0116 records her dead. *Primary for the baptisms; secondary for her.*
+
+  - **PAR-0109** — the probable baptism of her son Bento, 1807, naming her, her parents and her
+  sister Benta. *Primary; the identification is strong.*
+profile_pt: >-
+  ## Fatos interessantes
+
+
+  - **[PROVEN]** Só um dos oito batismos lhe dá sobrenome: "Jozefa Maria Domingues" (1830, PAR-0114).
+  É o sobrenome do André Domingues nomeado como seu pai no batismo de 1807 (PAR-0109), e essa
+  coincidência é um dos fios que ligam esse batismo a seu filho Bento.
+
+  - **[PROVEN]** O lado dela da família vinha de Salvador da Lama. Seus pais, sua irmã solteira
+  Benta e o padrinho de 1807 eram todos "da freguezia do Salvador da Lama" (PAR-0109), e em 1830
+  um "parente", João Domingues, da Lama, foi padrinho de sua neta Anna (PAR-0114).
+
+
+  ## Identidade
+
+
+  **Jozefa Maria Domingues** — "Jozefa Maria" nos batismos de seus netos de 1829, 1833, 1835 e
+  1837–1843 (PAR-0113, PAR-0106, PAR-0115, PAR-0116, PAR-0118–PAR-0120) e no batismo de 1807 (PAR-0109);
+  "Jozefa Maria Domingues" em 1830 (PAR-0114). **[PROVEN]**
+
+
+  Era mulher de Manoel Fernandes (P-0143), da Quintã, São Romão da Ucha, família F-0072. Era mãe
+  de Bento José Fernandes (P-0141), como avó paterna em todos os oito batismos dos filhos dele
+  **[PROVEN]**. Já era falecida a 29 de março de 1837: "ja defuntos" (PAR-0116) **[PROVEN]**.
+
+
+  No provável batismo de Bento (20 de outubro de 1807, PAR-0109) **[identificação forte]**:
+
+
+  - seus pais são André Domingues × Maria Luiza, "da freguezia do Salvador da Lama Couto de Azevedo"
+  (P-0149, P-0150);
+
+  - sua irmã Benta, "solteyra thia materna do baptizado", da Lama, foi a madrinha.
+
+
+  "Couto de Azevedo" faz parte da descrição do lugar da freguesia. Nenhum registro o liga ao sobrenome
+  do marido de Thereza, Secundino de Azevedo.
+
+
+  **Posição na árvore.** É tetravó de Antenor Muniz (P-0006, 1923–2014) pelo lado materno, através
+  de Bento José Fernandes (P-0141), Manoel João Fernandes da Cruz (P-0139), Thereza Fernandes
+  de Azevedo (P-0039) e Luiza Fernandes de Azevedo (P-0013). A ligação de Thereza com a família
+  de Manoel João é uma identificação forte, não uma prova.
+
+
+  ## Questões em aberto
+
+
+  - **Seu próprio batismo**, presumivelmente em Salvador da Lama, e seu casamento com Manoel Fernandes
+  (antes de c. 1806). Nenhum dos dois foi procurado. [OPEN]
+
+  - **Seu assento de óbito** (antes de março de 1837). Não foi identificado. [OPEN]
+
+
+  ## Fontes disponíveis (neste repositório)
+
+
+  - **PAR-0106, PAR-0113, PAR-0114, PAR-0115, PAR-0116, PAR-0118, PAR-0119, PAR-0120** — batismos
+  de oito de seus netos, Ucha, 1829–1843. Ela é a avó paterna; PAR-0114 dá seu sobrenome, e PAR-0116
+  a registra como falecida. *Primárias para os batismos; secundárias para ela.*
+
+  - **PAR-0109** — o provável batismo de seu filho Bento, 1807, que nomeia ela, seus pais e sua
+  irmã Benta. *Primária; a identificação é forte.*

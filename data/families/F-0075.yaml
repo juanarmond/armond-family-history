@@ -1,0 +1,55 @@
+schema_version: 1
+id: F-0075
+partners:
+- person_id: P-0149
+  role: spouse
+- person_id: P-0150
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0109
+  notes:
+  - text: Named together as Bento's maternal grandparents (PAR-0109).
+    text_pt: Nomeados juntos como avós maternos de Bento (PAR-0109).
+children:
+- person_id: P-0144
+  parent_relationships:
+  - parent_id: P-0149
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0109
+    - PAR-0114
+    notes:
+    - text: >-
+        Strong evidence: Bento's probable baptism names André Domingues and Maria Luiza as his
+        maternal grandparents (PAR-0109), and Jozefa's surname is given once as Domingues (PAR-0114).
+      text_pt: >-
+        Evidência forte: o provável batismo de Bento nomeia André Domingues e Maria Luiza como
+        avós maternos (PAR-0109), e o sobrenome de Jozefa aparece uma vez como Domingues (PAR-0114).
+  - parent_id: P-0150
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0109
+    - PAR-0114
+    notes:
+    - text: As for the paternal link.
+      text_pt: Como para o vínculo paterno.
+  notes: []
+documented_children:
+- name: Benta
+  source_ids:
+  - PAR-0109
+  note: >-
+    "Benta solteyra thia materna do baptizado", of Salvador da Lama: godmother of Bento in 1807
+    (PAR-0109).
+event_ids: []
+notes:
+- text: >-
+    André Domingues and Maria Luiza, of Salvador da Lama, Couto de Azevedo: parents of Jozefa
+    Maria Domingues (P-0144).
+  text_pt: >-
+    André Domingues e Maria Luiza, de Salvador da Lama, Couto de Azevedo: pais de Jozefa Maria
+    Domingues (P-0144).

@@ -1,0 +1,26 @@
+schema_version: 1
+id: E-0145
+event_type: birth
+date:
+  kind: exact
+  value: '1864-05-03'
+  original_text: >-
+    nasceu nesta freguezia ás quatro horas do dia tres dos ditos mez e anno
+place_text: lugar do Souto, Santa Cristina de Pousa, Barcelos, Braga, Portugal
+participants:
+- person_id: P-0039
+  role: principal
+- person_id: P-0139
+  role: parent
+- person_id: P-0140
+  role: parent
+status: strong-evidence
+source_ids:
+- PAR-0108
+notes:
+- text: >-
+    Born "ás quatro horas do dia tres" of May 1864 in the parish of Pousa (PAR-0108; the entry
+    does not say morning or afternoon). Tier as for the baptism, E-0144.
+  text_pt: >-
+    Nascida "ás quatro horas do dia tres" de maio de 1864 na freguesia de Pousa (PAR-0108; o assento
+    não diz se de manhã ou de tarde). Grau como o do batismo, E-0144.

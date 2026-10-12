@@ -1,0 +1,132 @@
+schema_version: 1
+id: P-0150
+preferred_name: Maria Luiza
+privacy: deceased
+sex: female
+nationality: Portuguese
+name_variants:
+- value: Maria Luiza
+  type: source
+  source_ids:
+  - PAR-0109
+event_ids: []
+family_ids:
+- F-0075
+notes:
+- text: >-
+    Antenor Muniz's 4×-great-grandmother: wife of André Domingues, of Salvador da Lama, named
+    as Bento's maternal grandmother in 1807 (PAR-0109). No parent family or events: no record
+    names her parents or gives her dates.
+  text_pt: >-
+    Pentavó de Antenor Muniz: esposa de André Domingues, de Salvador da Lama, nomeada avó materna
+    de Bento em 1807 (PAR-0109). Sem família de origem nem eventos: nenhum registro nomeia seus
+    pais ou dá suas datas.
+- text: >-
+    Nationality given as Portuguese from residence only: every record describes her as of Salvador
+    da Lama, in Barcelos, Portugal; no record states a birthplace or a nacionalidade.
+  text_pt: >-
+    Nacionalidade dada como portuguesa apenas pela residência: todos os registros descrevem ela
+    como de Salvador da Lama, em Barcelos, Portugal; nenhum registro declara local de nascimento
+    nem nacionalidade.
+profile: >-
+  ## Interesting facts
+
+
+  - **[PROVEN]** She is known from a single line, in her grandson Bento's probable baptism: "André
+  Domingues, e sua mulher Maria Luiza da freguezia do Salvador da Lama Couto de Azevedo" (PAR-0109).
+
+  - **[INFERRED]** The "Domingues" her daughter Jozefa carried in 1830 (PAR-0114) is her husband's
+  surname, not hers. Her own surname is never written.
+
+
+  ## Identity
+
+
+  **Maria Luiza** — of the parish of Salvador da Lama (PAR-0109) **[PROVEN wording]**. She was
+  the wife of André Domingues (P-0149), family F-0075.
+
+
+  She is named as the maternal grandmother of the Bento baptised at Ucha in 1807 (PAR-0109). That
+  entry is Bento José Fernandes's baptism by strong identification. On that basis she is the mother
+  of Jozefa Maria Domingues (P-0144) **[strong identification]**, and of Benta, "solteyra thia
+  materna do baptizado", who was the godmother (PAR-0109).
+
+
+  She is not to be confused with Marianna (Luiza) da Silva (P-0146), the mother of Joaquina Rosa
+  Lopes, whose "Luiza" appears in the same grandchildren's records.
+
+
+  **Position in the tree.** She is the 4×-great-grandmother of Antenor Muniz (P-0006, 1923–2014)
+  on his maternal side, through Jozefa Maria Domingues (P-0144), Bento José Fernandes (P-0141),
+  Manoel João Fernandes da Cruz (P-0139), Thereza Fernandes de Azevedo (P-0039) and Luiza Fernandes
+  de Azevedo (P-0013). Two links in that chain are strong identifications, not proofs:
+
+
+  - Bento's 1807 baptism, the only record that names her;
+
+  - Thereza's link to Manoel João's family.
+
+
+  ## Open questions
+
+
+  - **Her surname, baptism, marriage and death.** The Salvador da Lama registers have not been
+  examined. [OPEN]
+
+
+  ## Sources held (this repository)
+
+
+  - **PAR-0109** — her grandson Bento's probable baptism, 1807, which names her, her husband and
+  her daughter Benta. *Primary for the baptism; secondary for her; the identification is strong.*
+profile_pt: >-
+  ## Fatos interessantes
+
+
+  - **[PROVEN]** Ela é conhecida por uma única linha, no provável batismo de seu neto Bento: "André
+  Domingues, e sua mulher Maria Luiza da freguezia do Salvador da Lama Couto de Azevedo" (PAR-0109).
+
+  - **[INFERRED]** O "Domingues" que sua filha Jozefa levava em 1830 (PAR-0114) é o sobrenome
+  do marido, não o dela. O sobrenome dela nunca aparece escrito.
+
+
+  ## Identidade
+
+
+  **Maria Luiza** — da freguesia de Salvador da Lama (PAR-0109) **[PROVEN wording]**. Era mulher
+  de André Domingues (P-0149), família F-0075.
+
+
+  É nomeada como avó materna do Bento batizado em Ucha em 1807 (PAR-0109). Esse assento é o batismo
+  de Bento José Fernandes por identificação forte. Nessa base ela é a mãe de Jozefa Maria Domingues
+  (P-0144) **[identificação forte]** e de Benta, "solteyra thia materna do baptizado", que foi
+  a madrinha (PAR-0109).
+
+
+  Não deve ser confundida com Marianna (Luiza) da Silva (P-0146), mãe de Joaquina Rosa Lopes,
+  cujo "Luiza" aparece nos mesmos registros dos netos.
+
+
+  **Posição na árvore.** É pentavó de Antenor Muniz (P-0006, 1923–2014) pelo lado materno, através
+  de Jozefa Maria Domingues (P-0144), Bento José Fernandes (P-0141), Manoel João Fernandes da
+  Cruz (P-0139), Thereza Fernandes de Azevedo (P-0039) e Luiza Fernandes de Azevedo (P-0013).
+  Dois elos dessa cadeia são identificações fortes, não provas:
+
+
+  - o batismo de Bento de 1807, o único registro que a nomeia;
+
+  - a ligação de Thereza com a família de Manoel João.
+
+
+  ## Questões em aberto
+
+
+  - **Seu sobrenome, batismo, casamento e óbito.** Os livros de Salvador da Lama não foram examinados.
+  [OPEN]
+
+
+  ## Fontes disponíveis (neste repositório)
+
+
+  - **PAR-0109** — o provável batismo de seu neto Bento, 1807, que nomeia ela, o marido e a filha
+  Benta. *Primária para o batismo; secundária para ela; a identificação é forte.*

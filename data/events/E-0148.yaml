@@ -1,0 +1,33 @@
+schema_version: 1
+id: E-0148
+event_type: death
+date:
+  kind: exact
+  value: '1860-06-23'
+  original_text: >-
+    Aos vinte e tres dias do mez de Junho do anno de mil oito centos e secenta pelas duas horas
+    da tarde
+place_text: lugar de Quintão, São Romão da Ucha, Barcelos, Braga, Portugal
+participants:
+- person_id: P-0141
+  role: principal
+- person_id: P-0142
+  role: spouse
+status: strong-evidence
+source_ids:
+- PAR-0110
+notes:
+- text: >-
+    Death at the lugar de Quintão on 23 June 1860 of Bento Fernandes, "Labrador de edade de secenta
+    annos cazado com Joaquina Maria"; he left children and no will, and was buried in the church
+    on the 24th (PAR-0110). Strong evidence, not confirmed, for P-0141: the name, lugar and a
+    wife Joaquina fit, but the wife is called "Joaquina Maria" (a form also used for her in 1859,
+    PAR-0117), and the age of 60 does not fit a birth in 1807. He was certainly dead by 14 April
+    1884 (PRB-0015).
+  text_pt: >-
+    Óbito no lugar de Quintão, em 23 de junho de 1860, de Bento Fernandes, "Labrador de edade
+    de secenta annos cazado com Joaquina Maria"; deixou filhos, não fez testamento e foi sepultado
+    na igreja no dia 24 (PAR-0110). Evidência forte, não confirmada, para P-0141: o nome, o lugar
+    e uma esposa Joaquina coincidem, mas a esposa é chamada "Joaquina Maria" (forma também usada
+    para ela em 1859, PAR-0117), e a idade de 60 anos não condiz com um nascimento em 1807. Ele
+    com certeza já tinha morrido em 14 de abril de 1884 (PRB-0015).

@@ -5993,3 +5993,2333 @@ documents:
   notes:
   - 'Held privately (owner decision, 2026-10-11): the record concerns a living person;
     the scan is kept in the private store and is not tracked in this public repository.'
+- inventory_id: DOC-0135
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish baptism register entry (target entry transcribed in full; neighbouring
+    entries summarised)
+  apparent_people:
+  - Manoel João Fernandes da Cruz (P-0139)
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  - Manoel Fernandes (P-0143)
+  - Jozefa Maria Domingues (P-0144)
+  - Ignacio Francisco Lopes (P-0145)
+  - Marianna da Silva (P-0146)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004669216, image 566; image ark 3:1:939V-7XWH-M.
+    Located by the retrieval agent's page-by-page sweep of the unindexed Ucha baptisms 1745–1844
+    (2026-10-12) and delivered through the retrieval drop.), delivered to the retrieval side.
+    Authorised by the owner for promotion on 2026-10-12 (owner 2026-10-12: 'please start your
+    work' (cycle 2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-manoel-joao-filho-bento-jose-fernandes-baptism-1833-ucha.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0106-baptism-manoel-joao-1833-ucha.jpg
+    sha256: dd13aa3180f7fb2323863c94a5f90b6a426384769b134af566e9c8b768c5154a
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 4320
+      pixel_height: 2929
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0106
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-manoel-joao-filho-bento-jose-fernandes-baptism-1833-ucha.jpg
+    producer_sha256: dd13aa3180f7fb2323863c94a5f90b6a426384769b134af566e9c8b768c5154a
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0136
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish marriage register entry (target entry transcribed in full;
+    neighbouring entries summarised)
+  apparent_people:
+  - Manoel João Fernandes da Cruz (P-0139)
+  - Anna Maria Fernandes (P-0140)
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  apparent_event: marriage
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004670018, image 472; image ark 3:1:939V-4S9C-MZ.
+    Located by the retrieval agent's page-by-page sweep of the unindexed Ucha marriages 1745–1879
+    (2026-10-12) and delivered through the retrieval drop.), delivered to the retrieval side.
+    Authorised by the owner for promotion on 2026-10-12 (owner 2026-10-12: 'please start your
+    work' (cycle 2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-manoel-joao-filho-bento-fernandes-marriage-1855-ucha.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0107-marriage-manoel-joao-joanna-maria-1855-ucha.jpg
+    sha256: 74353718bcdb7d960a6a767667442893e7020acf5e338aff338205c0eda48a40
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3814
+      pixel_height: 2836
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0107
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-manoel-joao-filho-bento-fernandes-marriage-1855-ucha.jpg
+    producer_sha256: 74353718bcdb7d960a6a767667442893e7020acf5e338aff338205c0eda48a40
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0137
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish baptism register entry, two pages (target entry transcribed
+    in full; neighbouring entries summarised)
+  apparent_people:
+  - Thereza Fernandes de Azevedo (P-0039)
+  - Manoel João Fernandes da Cruz (P-0139)
+  - Anna Maria Fernandes (P-0140)
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004670017, images 15–16; image ark 939V-WC37-N1
+    for image 15, per the retrieval side. Located by the retrieval agent's page-by-page sweep
+    of the unindexed Pousa baptisms 1863–1877 (2026-10-12) and delivered through the retrieval
+    drop.), delivered to the retrieval side. Authorised by the owner for promotion on 2026-10-12
+    (owner 2026-10-12: 'please start your work' (cycle 2026-10-12 promotion checklists));
+    read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-thereza-de-jesus-filha-manoel-joao-fernandes-baptism-1864-pousa-p1.jpg
+    and 1 further page and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0108-baptism-thereza-de-jesus-1864-pousa-p01.jpg
+    sha256: 52685c4ba71cc80f3430d2583f2a36a9c034d25db4cbd730a2fc63305843236a
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3845
+      pixel_height: 2992
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/parish/PAR-0108-baptism-thereza-de-jesus-1864-pousa-p02.jpg
+    sha256: fb7b7330b94b8d830079af07dad46e3271ea18c6f9b6789feef81be843119881
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3863
+      pixel_height: 2994
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0108
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-thereza-de-jesus-filha-manoel-joao-fernandes-baptism-1864-pousa-p1.jpg
+    producer_sha256: 52685c4ba71cc80f3430d2583f2a36a9c034d25db4cbd730a2fc63305843236a
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0138
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish baptism register entry, two pages (target entry transcribed
+    in full; neighbouring entries summarised)
+  apparent_people:
+  - Bento José Fernandes (P-0141)
+  - Manoel Fernandes (P-0143)
+  - Jozefa Maria Domingues (P-0144)
+  - Constantino Fernandes (P-0147)
+  - Roza Maria (P-0148)
+  - André Domingues (P-0149)
+  - Maria Luiza (P-0150)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004669216, images 493–494; image arks 3:1:939V-7XWS-6
+    (fl. 161) and 3:1:939V-7XWY-J (fl. 161v). Located by the retrieval agent's page-by-page
+    sweep of the unindexed Ucha baptisms 1745–1844 (2026-10-12) and delivered through the
+    retrieval drop.), delivered to the retrieval side. Authorised by the owner for promotion
+    on 2026-10-12 (owner 2026-10-12: 'please start your work' (cycle 2026-10-12 promotion
+    checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-bento-jose-filho-manoel-fernandes-baptism-1807-ucha-p1.jpg
+    and 1 further page and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0109-baptism-bento-jose-1807-ucha-p01.jpg
+    sha256: 1b6236a998d6c47a92e6aeeae6b74bec633e7f0380888b7837ba9727088d4867
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 4269
+      pixel_height: 2809
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/parish/PAR-0109-baptism-bento-jose-1807-ucha-p02.jpg
+    sha256: 6041adf4249fedf86e8fedec179451974082dd47d951fc54122966ccdba1e850
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 4288
+      pixel_height: 2900
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0109
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-bento-jose-filho-manoel-fernandes-baptism-1807-ucha-p1.jpg
+    producer_sha256: 1b6236a998d6c47a92e6aeeae6b74bec633e7f0380888b7837ba9727088d4867
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0139
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish death and burial register entry (target entry transcribed in
+    full; neighbouring entries summarised)
+  apparent_people:
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  apparent_event: death
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch film 005067776, image 194. Located by the retrieval
+    agent's page-by-page sweep of the unindexed Ucha óbitos 1766–1885 (288 images, 2026-10-12)
+    and delivered through the retrieval drop.), delivered to the retrieval side. Authorised
+    by the owner for promotion on 2026-10-12 (owner 2026-10-12: 'please start your work' (cycle
+    2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-bento-fernandes-death-1860-ucha.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0110-death-bento-fernandes-1860-ucha.jpg
+    sha256: a62ca8a67ec1f1b3c69527e5186afd9cdcba9a81924329c64b085c7a7a9ca3e7
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 4130
+      pixel_height: 5096
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0110
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-bento-fernandes-death-1860-ucha.jpg
+    producer_sha256: a62ca8a67ec1f1b3c69527e5186afd9cdcba9a81924329c64b085c7a7a9ca3e7
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0140
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish death register entry (target entry transcribed in full; neighbouring
+    entries summarised)
+  apparent_people:
+  - Joaquina Rosa Lopes (P-0142)
+  - Bento José Fernandes (P-0141)
+  - Ignacio Francisco Lopes (P-0145)
+  - Marianna da Silva (P-0146)
+  apparent_event: death
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 005252910, image 16; image ark 3:1:33S7-81Z1-ZF7.
+    Found through a machine-indexed FamilySearch persona (1:1:6B2C-JDQ3) whose place is wrongly
+    indexed; the image is the Ucha register. Delivered through the retrieval drop.), delivered
+    to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner 2026-10-12:
+    'please start your work' (cycle 2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-joaquina-rosa-lopes-death-1890-ucha.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0111-death-joaquina-rosa-lopes-1890-ucha.jpg
+    sha256: 72e0280910d67641ec7968f75059c769848449938b99f0851dd34cba66cb6785
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 6653
+      pixel_height: 4845
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0111
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-joaquina-rosa-lopes-death-1890-ucha.jpg
+    producer_sha256: 72e0280910d67641ec7968f75059c769848449938b99f0851dd34cba66cb6785
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0141
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish baptism register entry (target entry transcribed in full; neighbouring
+    entries summarised)
+  apparent_people:
+  - Constantino Fernandes (P-0147)
+  - Roza Maria (P-0148)
+  - Manoel Fernandes (P-0143)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004669216, image 409; image ark 3:1:939V-7X4M-K.
+    Located by the retrieval agent's page-by-page sweep of the unindexed Ucha baptisms 1745–1844
+    (2026-10-12) and delivered through the retrieval drop.), delivered to the retrieval side.
+    Authorised by the owner for promotion on 2026-10-12 (owner 2026-10-12: 'please start your
+    work' (cycle 2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-manoel-filho-constantino-fernandes-baptism-1771-ucha.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0112-baptism-manoel-son-of-constantino-1771-ucha.jpg
+    sha256: 6ddf807bab36fe2338ac89b7988457976dbc1345f7cd5b2f32630c8995f34d14
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 4288
+      pixel_height: 2772
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0112
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-manoel-filho-constantino-fernandes-baptism-1771-ucha.jpg
+    producer_sha256: 6ddf807bab36fe2338ac89b7988457976dbc1345f7cd5b2f32630c8995f34d14
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0142
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish baptism register entry (target entry transcribed in full across
+    two pages; neighbouring entries summarised)
+  apparent_people:
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  - Manoel Fernandes (P-0143)
+  - Jozefa Maria Domingues (P-0144)
+  - Ignacio Francisco Lopes (P-0145)
+  - Marianna da Silva (P-0146)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (DGS 004669216, Book 2 fl. 17–17v, baptism of João José, 1
+    May 1829. Arks: https://www.familysearch.org/ark:/61903/3:1:939V-7X4G-L (fl. 17) and https://www.familysearch.org/ark:/61903/3:1:939V-7XWP-M
+    (fl. 17v). Located by the retrieval agent's page-by-page sweep of the series on 2026-10-12
+    and synced as rec-fernandes-joao-jose-filho-bento-jose-fernandes-baptism-1829-ucha-p1.jpg
+    / -p2.jpg.), delivered to the retrieval side. Authorised by the owner for promotion on
+    2026-10-12 (owner 2026-10-12: 'please start your work' (cycle 2026-10-12 promotion checklists));
+    read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-joao-jose-filho-bento-jose-fernandes-baptism-1829-ucha-p1.jpg
+    and 1 further page and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0113-baptism-joao-jose-1829-ucha-p01.jpg
+    sha256: db2fa5702981f13d0c0684d400074de83ecf7aa413154f51a48af7ae3673f512
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 4200
+      pixel_height: 3028
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/parish/PAR-0113-baptism-joao-jose-1829-ucha-p02.jpg
+    sha256: 0f38b7a0dcde52fad2be3a56afdd1b60596a4753a4e95761456dab16309be92c
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 4224
+      pixel_height: 3012
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0113
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-joao-jose-filho-bento-jose-fernandes-baptism-1829-ucha-p1.jpg
+    producer_sha256: db2fa5702981f13d0c0684d400074de83ecf7aa413154f51a48af7ae3673f512
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0143
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish baptism register entry (target entry transcribed in full; neighbouring
+    entries summarised)
+  apparent_people:
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  - Manoel Fernandes (P-0143)
+  - Jozefa Maria Domingues (P-0144)
+  - Ignacio Francisco Lopes (P-0145)
+  - Marianna da Silva (P-0146)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (DGS 004669216, Book 2 fl. 23, baptism of Anna, 22 December
+    1830. Ark: https://www.familysearch.org/ark:/61903/3:1:939V-7XWS-4. Located by the retrieval
+    agent's page-by-page sweep of the series on 2026-10-12 and synced as rec-fernandes-anna-filha-bento-fernandes-baptism-1830-ucha.jpg.),
+    delivered to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner
+    2026-10-12: 'please start your work' (cycle 2026-10-12 promotion checklists)); read in
+    place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-anna-filha-bento-fernandes-baptism-1830-ucha.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0114-baptism-anna-1830-ucha.jpg
+    sha256: 021ef0c426c5c0f1a7f9a42fe443780683b118a9a4d6a3ceac87084450ca4b65
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 4267
+      pixel_height: 2946
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0114
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-anna-filha-bento-fernandes-baptism-1830-ucha.jpg
+    producer_sha256: 021ef0c426c5c0f1a7f9a42fe443780683b118a9a4d6a3ceac87084450ca4b65
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0144
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish baptism register entry (target entry transcribed in full; neighbouring
+    entries summarised)
+  apparent_people:
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  - Manoel Fernandes (P-0143)
+  - Jozefa Maria Domingues (P-0144)
+  - Ignacio Francisco Lopes (P-0145)
+  - Marianna da Silva (P-0146)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (DGS 004669216, Book 2 fl. 35, baptism of Domingos, 20 March
+    1835. Ark: https://www.familysearch.org/ark:/61903/3:1:939V-7XQ1-9. Located by the retrieval
+    agent's page-by-page sweep of the series on 2026-10-12 and synced as rec-fernandes-domingos-filho-bento-fernandes-baptism-1835-ucha.jpg.),
+    delivered to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner
+    2026-10-12: 'please start your work' (cycle 2026-10-12 promotion checklists)); read in
+    place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-domingos-filho-bento-fernandes-baptism-1835-ucha.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0115-baptism-domingos-1835-ucha.jpg
+    sha256: 6e489041e91c077d298c71804551a382afd73230f6ae6010696ecb02fdc67d27
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 4330
+      pixel_height: 3003
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0115
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-domingos-filho-bento-fernandes-baptism-1835-ucha.jpg
+    producer_sha256: 6e489041e91c077d298c71804551a382afd73230f6ae6010696ecb02fdc67d27
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0145
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish baptism register entry (target entry transcribed in full across
+    two pages; neighbouring entries summarised)
+  apparent_people:
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  - Manoel Fernandes (P-0143)
+  - Jozefa Maria Domingues (P-0144)
+  - Ignacio Francisco Lopes (P-0145)
+  - Marianna da Silva (P-0146)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (DGS 004669216, Book 2 fl. 40–40v, baptism of Francisco, 29
+    March 1837. Arks: https://www.familysearch.org/ark:/61903/3:1:939V-7XW2-1 (fl. 40) and
+    https://www.familysearch.org/ark:/61903/3:1:939V-7X7J-9 (fl. 40v). Located by the retrieval
+    agent's page-by-page sweep of the series on 2026-10-12 and synced as rec-fernandes-francisco-filho-bento-fernandes-baptism-1837-ucha-p1.jpg
+    / -p2.jpg.), delivered to the retrieval side. Authorised by the owner for promotion on
+    2026-10-12 (owner 2026-10-12: 'please start your work' (cycle 2026-10-12 promotion checklists));
+    read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-francisco-filho-bento-fernandes-baptism-1837-ucha-p1.jpg
+    and 1 further page and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0116-baptism-francisco-1837-ucha-p01.jpg
+    sha256: 1484271d1d33b358fd8e8e1a6e6980071041c24fe3eeba38955c63d363d571f0
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 4235
+      pixel_height: 3044
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/parish/PAR-0116-baptism-francisco-1837-ucha-p02.jpg
+    sha256: 2d7351f23c430e4e8b187d53f558c55ba99dabadab54c6a0e18829b3fdfd78f0
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 4288
+      pixel_height: 3060
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0116
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-francisco-filho-bento-fernandes-baptism-1837-ucha-p1.jpg
+    producer_sha256: 1484271d1d33b358fd8e8e1a6e6980071041c24fe3eeba38955c63d363d571f0
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0146
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish death (óbito) register entry, unnumbered (target entry transcribed
+    in full; neighbouring entries summarised)
+  apparent_people:
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  apparent_event: death
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FS film 005067776, image 193, Ucha óbitos Livro 1 fl. 97,
+    death of Francisco, son of Bento Fernandes and Joaquina Maria, November 1859. Found in
+    the retrieval agent's sweep of the Ucha óbitos 1766–1885 (288 images) on 2026-10-12 and
+    synced as rec-fernandes-francisco-filho-bento-fernandes-death-1859-ucha.jpg. The image
+    ark was not given in the retrieval notes.), delivered to the retrieval side. Authorised
+    by the owner for promotion on 2026-10-12 (owner 2026-10-12: 'please start your work' (cycle
+    2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-francisco-filho-bento-fernandes-death-1859-ucha.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0117-death-francisco-1859-ucha.jpg
+    sha256: 799b49895d27b10528dfb30d33d16fda0b497dbacd20465ce129d8e1c714ca8b
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 4160
+      pixel_height: 5143
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0117
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-francisco-filho-bento-fernandes-death-1859-ucha.jpg
+    producer_sha256: 799b49895d27b10528dfb30d33d16fda0b497dbacd20465ce129d8e1c714ca8b
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0147
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: >-
+    Parish baptism register entry with a marginal death note (target entry transcribed in
+    full; a neighbouring entry naming a Manoel Fernandes × Jozefa Maria transcribed in full;
+    other entries summarised)
+  apparent_people:
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  - Manoel Fernandes (P-0143)
+  - Jozefa Maria Domingues (P-0144)
+  - Ignacio Francisco Lopes (P-0145)
+  - Marianna da Silva (P-0146)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (DGS 004669216, Book 2 fl. 44v, baptism of José, 20 February
+    1839, with a margin note of his death on 1 April 1845. Ark: https://www.familysearch.org/ark:/61903/3:1:939V-7XQR-2.
+    Located by the retrieval agent's page-by-page sweep of the series on 2026-10-12 and synced
+    as rec-fernandes-jose-filho-bento-jose-fernandes-baptism-1839-ucha.jpg.), delivered to
+    the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner 2026-10-12:
+    'please start your work' (cycle 2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-jose-filho-bento-jose-fernandes-baptism-1839-ucha.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0118-baptism-jose-1839-ucha.jpg
+    sha256: 16048cb9aec27070d22fac6cbb8374e99ba0104fc16e403a2d5b3b32ec50f53b
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 4288
+      pixel_height: 3048
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0118
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-jose-filho-bento-jose-fernandes-baptism-1839-ucha.jpg
+    producer_sha256: 16048cb9aec27070d22fac6cbb8374e99ba0104fc16e403a2d5b3b32ec50f53b
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0148
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish baptism register entry (target entry transcribed in full; neighbouring
+    entries summarised)
+  apparent_people:
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  - Manoel Fernandes (P-0143)
+  - Jozefa Maria Domingues (P-0144)
+  - Ignacio Francisco Lopes (P-0145)
+  - Marianna da Silva (P-0146)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (DGS 004669216, Book 2 fl. 51v, baptism of Thereza de Jezus,
+    18 August 1841. Ark: https://www.familysearch.org/ark:/61903/3:1:939V-7X4G-N. Located
+    by the retrieval agent's page-by-page sweep of the series on 2026-10-12 and synced as
+    rec-fernandes-thereza-de-jezus-filha-bento-fernandes-baptism-1841-ucha.jpg.), delivered
+    to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner 2026-10-12:
+    'please start your work' (cycle 2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-thereza-de-jezus-filha-bento-fernandes-baptism-1841-ucha.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0119-baptism-thereza-de-jezus-1841-ucha.jpg
+    sha256: 979c2862ca8a5233e3eb8308469ce8d4faa7bb206e257fed767672228c453195
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 4304
+      pixel_height: 2926
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0119
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-thereza-de-jezus-filha-bento-fernandes-baptism-1841-ucha.jpg
+    producer_sha256: 979c2862ca8a5233e3eb8308469ce8d4faa7bb206e257fed767672228c453195
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0149
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: >-
+    Parish baptism register entry (target entry transcribed in full; a neighbouring entry
+    naming a Manoel Fernandes × Jozefa Fernandes transcribed in full; other entries summarised)
+  apparent_people:
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  - Manoel Fernandes (P-0143)
+  - Jozefa Maria Domingues (P-0144)
+  - Ignacio Francisco Lopes (P-0145)
+  - Marianna da Silva (P-0146)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (DGS 004669216, Book 2 fl. 57v, baptism of Bento, 7 December
+    1843. Ark: https://www.familysearch.org/ark:/61903/3:1:939V-7X7B-X. Located by the retrieval
+    agent's page-by-page sweep of the series on 2026-10-12 and synced as rec-fernandes-bento-filho-bento-fernandes-baptism-1843-ucha.jpg.),
+    delivered to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner
+    2026-10-12: 'please start your work' (cycle 2026-10-12 promotion checklists)); read in
+    place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-bento-filho-bento-fernandes-baptism-1843-ucha.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0120-baptism-bento-1843-ucha.jpg
+    sha256: f45a7980477b9ebd599b31f1711d8bed7b48eed58405dca11c19488d861e7ae6
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 4288
+      pixel_height: 3044
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0120
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-bento-filho-bento-fernandes-baptism-1843-ucha.jpg
+    producer_sha256: f45a7980477b9ebd599b31f1711d8bed7b48eed58405dca11c19488d861e7ae6
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0150
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish marriage register entry (target entry transcribed in full;
+    neighbouring entries summarised)
+  apparent_people:
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  apparent_event: marriage
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004670018, image 490; image ark 3:1:939V-4S9H-LD.
+    Located by the retrieval agent's page-by-page sweep of the unindexed Ucha marriages 1745–1879
+    (2026-10-12) and delivered through the retrieval drop.), delivered to the retrieval side.
+    Authorised by the owner for promotion on 2026-10-12 (owner 2026-10-12: 'please start your
+    work' (cycle 2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-bento-filho-bento-fernandes-marriage-1866-ucha.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0121-marriage-bento-maria-da-costa-1866-ucha.jpg
+    sha256: b390b057e2b7e4ce5d8e7c32e787468570b48837dfa510e957a03f9dcc268144
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3876
+      pixel_height: 2820
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0121
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-bento-filho-bento-fernandes-marriage-1866-ucha.jpg
+    producer_sha256: b390b057e2b7e4ce5d8e7c32e787468570b48837dfa510e957a03f9dcc268144
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0151
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: >-
+    Parish marriage register, two entries across three images (both target entries transcribed
+    in full; neighbouring entries summarised)
+  apparent_people:
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  apparent_event: marriage
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004670018, images 492–494; image arks 3:1:939V-4S9H-LC
+    (492), 3:1:939V-4S9H-2H (493) and 3:1:939V-4S9H-24 (494). Located by the retrieval agent's
+    page-by-page sweep of the unindexed Ucha marriages 1745–1879 (2026-10-12) and delivered
+    through the retrieval drop.), delivered to the retrieval side. Authorised by the owner
+    for promotion on 2026-10-12 (owner 2026-10-12: 'please start your work' (cycle 2026-10-12
+    promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-joao-e-jose-filhos-bento-fernandes-marriages-1868-ucha-p1.jpg
+    and 2 further pages and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0122-marriages-joao-and-jose-fernandes-1868-ucha-p01.jpg
+    sha256: 2710c6c97dc17bd6dcdf69b1d0d15aae6ef076ae49b48370cf2b576aa851532b
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3876
+      pixel_height: 2820
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/parish/PAR-0122-marriages-joao-and-jose-fernandes-1868-ucha-p02.jpg
+    sha256: 2c9f89e63a9a6ef8280cd80919c1512f4a1b5136d90204973431ee6187869273
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3820
+      pixel_height: 2820
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/parish/PAR-0122-marriages-joao-and-jose-fernandes-1868-ucha-p03.jpg
+    sha256: 35b81a6fc3b32721045295da2d22306784ca7d8b977e53132f652e08df311902
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3844
+      pixel_height: 2820
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0122
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-joao-e-jose-filhos-bento-fernandes-marriages-1868-ucha-p1.jpg
+    producer_sha256: 2710c6c97dc17bd6dcdf69b1d0d15aae6ef076ae49b48370cf2b576aa851532b
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0152
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish marriage register entry (target entry transcribed in full;
+    neighbouring entries summarised)
+  apparent_people:
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  apparent_event: marriage
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004670018, image 495; image ark 3:1:939V-4S9H-L4
+    (the second exposure, image 496, is ark 3:1:939V-4S9H-LW, per the retrieval side). Located
+    by the retrieval agent's page-by-page sweep of the unindexed Ucha marriages 1745–1879
+    (2026-10-12) and delivered through the retrieval drop.), delivered to the retrieval side.
+    Authorised by the owner for promotion on 2026-10-12 (owner 2026-10-12: 'please start your
+    work' (cycle 2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-thereza-de-jesus-filha-bento-fernandes-marriage-1869-ucha.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0123-marriage-thereza-de-jesus-jose-ferreira-1869-ucha.jpg
+    sha256: ff911877341fa79ef4c985717ea3b51ad8dba5a8c84b43b56008236d0f1e9327
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3876
+      pixel_height: 2804
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0123
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-thereza-de-jesus-filha-bento-fernandes-marriage-1869-ucha.jpg
+    producer_sha256: ff911877341fa79ef4c985717ea3b51ad8dba5a8c84b43b56008236d0f1e9327
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0153
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish baptism register entry (target entry transcribed in full; neighbouring
+    entries summarised)
+  apparent_people:
+  - Manoel João Fernandes da Cruz (P-0139)
+  - Anna Maria Fernandes (P-0140)
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004668983, image 67; image ark 3:1:939V-QGWH-C,
+    per the retrieval side. Located by the retrieval agent's page-by-page sweep of the unindexed
+    Pousa baptisms 1834–1862 (2026-10-12) and delivered through the retrieval drop.), delivered
+    to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner 2026-10-12:
+    'please start your work' (cycle 2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-joao-filho-manoel-joao-baptism-1855-pousa.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0124-baptism-joao-1855-pousa.jpg
+    sha256: 0370164fd12d226bd081bc7fe4b258ef34934bb4b91c815a047248cdd74278dd
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3512
+      pixel_height: 2782
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0124
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-joao-filho-manoel-joao-baptism-1855-pousa.jpg
+    producer_sha256: 0370164fd12d226bd081bc7fe4b258ef34934bb4b91c815a047248cdd74278dd
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0154
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish baptism register entry (target entry transcribed in full; neighbouring
+    entries summarised)
+  apparent_people:
+  - Manoel João Fernandes da Cruz (P-0139)
+  - Anna Maria Fernandes (P-0140)
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004668983, image 73; image ark 3:1:939V-QGWZ-Z,
+    per the retrieval side. Located by the retrieval agent's page-by-page sweep of the unindexed
+    Pousa baptisms 1834–1862 (2026-10-12) and delivered through the retrieval drop.), delivered
+    to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner 2026-10-12:
+    'please start your work' (cycle 2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-maria-de-jesus-filha-manoel-joao-baptism-1858-pousa.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0125-baptism-maria-de-jesus-1858-pousa.jpg
+    sha256: 0f27483f950a96c37333b49b52af00130531208b86c3e4544053246f5cc9d8bf
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3784
+      pixel_height: 2776
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0125
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-maria-de-jesus-filha-manoel-joao-baptism-1858-pousa.jpg
+    producer_sha256: 0f27483f950a96c37333b49b52af00130531208b86c3e4544053246f5cc9d8bf
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0155
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish baptism register entry, two pages (target entry transcribed
+    in full; neighbouring entries summarised)
+  apparent_people:
+  - Manoel João Fernandes da Cruz (P-0139)
+  - Anna Maria Fernandes (P-0140)
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004668983, images 80–81; image arks 3:1:939V-QGWW-L
+    (80) and 3:1:939V-QG7G-1 (81), per the retrieval side. Located by the retrieval agent's
+    page-by-page sweep of the unindexed Pousa baptisms 1834–1862 (2026-10-12) and delivered
+    through the retrieval drop.), delivered to the retrieval side. Authorised by the owner
+    for promotion on 2026-10-12 (owner 2026-10-12: 'please start your work' (cycle 2026-10-12
+    promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-maria-jose-filha-manoel-joao-fernandes-baptism-1859-pousa-p1.jpg
+    and 1 further page and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0126-baptism-maria-jose-1859-pousa-p01.jpg
+    sha256: ba3fec7108980b06d68a5a14bc6c17bcf36e3216a1eb52c7713fd90111fd1401
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3736
+      pixel_height: 3000
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/parish/PAR-0126-baptism-maria-jose-1859-pousa-p02.jpg
+    sha256: fc9732ac79d206b39aa929e2f35b4c3e6a2472c41ec9a5ae20a9a9c035a66cc0
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3736
+      pixel_height: 3000
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0126
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-maria-jose-filha-manoel-joao-fernandes-baptism-1859-pousa-p1.jpg
+    producer_sha256: ba3fec7108980b06d68a5a14bc6c17bcf36e3216a1eb52c7713fd90111fd1401
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0156
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish baptism register entry (target entry transcribed in full; neighbouring
+    entries summarised)
+  apparent_people:
+  - Manoel João Fernandes da Cruz (P-0139)
+  - Anna Maria Fernandes (P-0140)
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004668983, image 103; image ark 3:1:939V-QG7V-7,
+    per the retrieval side. Located by the retrieval agent's page-by-page sweep of the unindexed
+    Pousa baptisms 1834–1862 (2026-10-12) and delivered through the retrieval drop.), delivered
+    to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner 2026-10-12:
+    'please start your work' (cycle 2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-antonio-joaquim-filho-manoel-joao-fernandes-baptism-1862-pousa.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0127-baptism-antonio-joaquim-1862-pousa.jpg
+    sha256: 5b75e21dff95cc052b2d625a535688c2923607e06058a0cf478c103365cb4cbf
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3640
+      pixel_height: 2920
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0127
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-antonio-joaquim-filho-manoel-joao-fernandes-baptism-1862-pousa.jpg
+    producer_sha256: 5b75e21dff95cc052b2d625a535688c2923607e06058a0cf478c103365cb4cbf
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0157
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish death register entry (original); the neighbouring entries of
+    the opening are summarised
+  apparent_people:
+  - Manoel João Fernandes da Cruz (P-0139)
+  - Anna Maria Fernandes (P-0140)
+  apparent_event: death
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004670017, image 00142; Pousa deaths 1864,
+    Nº 10, fl. 137v — death of Antonio Joaquim, son of Manoel João Fernandes and Anna Exposta.),
+    delivered to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner
+    2026-10-12: 'please start your work' (cycle 2026-10-12 promotion checklists)); read in
+    place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-antonio-joaquim-filho-manoel-joao-fernandes-death-1864-pousa.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0128-death-antonio-joaquim-1864-pousa.jpg
+    sha256: 6873b6f73a015d1fe2402c87a32b89e5242642465695e7cd3d13f21931aeabbc
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3780
+      pixel_height: 2897
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0128
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-antonio-joaquim-filho-manoel-joao-fernandes-death-1864-pousa.jpg
+    producer_sha256: 6873b6f73a015d1fe2402c87a32b89e5242642465695e7cd3d13f21931aeabbc
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0158
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish death register entry (original); the neighbouring entries of
+    the opening are summarised
+  apparent_people:
+  - Manoel João Fernandes da Cruz (P-0139)
+  - Anna Maria Fernandes (P-0140)
+  apparent_event: death
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004670017, image 00146; Pousa deaths 1866,
+    Nº 3, fl. 142 — death of João, son of Manoel João Fernandes and Anna Exposta.), delivered
+    to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner 2026-10-12:
+    'please start your work' (cycle 2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-joao-filho-manoel-joao-fernandes-death-1866-pousa.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0129-death-joao-1866-pousa.jpg
+    sha256: 3ac3642dffd903ed85b847bbe0f2bf511bf355d91b45fe96bd867e3dd20e1331
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3752
+      pixel_height: 2944
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0129
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-joao-filho-manoel-joao-fernandes-death-1866-pousa.jpg
+    producer_sha256: 3ac3642dffd903ed85b847bbe0f2bf511bf355d91b45fe96bd867e3dd20e1331
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0159
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish baptism register entry (original); the neighbouring entries
+    of the opening are summarised
+  apparent_people:
+  - Manoel João Fernandes da Cruz (P-0139)
+  - Anna Maria Fernandes (P-0140)
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004670017, image 00028; Pousa baptisms 1866,
+    Nº 8, fl. 23v — baptism of Joaquim, son of Manoel João Fernandes and Anna Exposta.), delivered
+    to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner 2026-10-12:
+    'please start your work' (cycle 2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-joaquim-filho-manoel-joao-fernandes-baptism-1866-pousa.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0130-baptism-joaquim-1866-pousa.jpg
+    sha256: e1ea56019946da9aa25a341e94ced900b26d5403731e94b0ed07dc02277bf4c5
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3861
+      pixel_height: 2993
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0130
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-joaquim-filho-manoel-joao-fernandes-baptism-1866-pousa.jpg
+    producer_sha256: e1ea56019946da9aa25a341e94ced900b26d5403731e94b0ed07dc02277bf4c5
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0160
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: >-
+    Parish baptism register entry (original), running across two pages; the neighbouring entries
+    of both openings are summarised
+  apparent_people:
+  - Manoel João Fernandes da Cruz (P-0139)
+  - Anna Maria Fernandes (P-0140)
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004670017, images 00039–00040; Pousa baptisms
+    1868, Nº 8, fl. 35–35v — baptism of João, son of Manoel João Fernandes and Anna Exposta.),
+    delivered to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner
+    2026-10-12: 'please start your work' (cycle 2026-10-12 promotion checklists)); read in
+    place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-joao-filho-manoel-joao-fernandes-baptism-1868-pousa-p1.jpg
+    and 1 further page and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0131-baptism-joao-1868-pousa-p01.jpg
+    sha256: a510ceddfbee4d5c09a24f08e793c5d601e69808b37ae3bbe6b2a378e4f49975
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3856
+      pixel_height: 2960
+    privacy_review: cleared
+    sensitive_content: []
+  - path: evidence/parish/PAR-0131-baptism-joao-1868-pousa-p02.jpg
+    sha256: 4821b0f71332ee16acf857c8e6a0f8ba3737f9219dde5f5a5c4eace0a8b475e2
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3872
+      pixel_height: 2944
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0131
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-joao-filho-manoel-joao-fernandes-baptism-1868-pousa-p1.jpg
+    producer_sha256: a510ceddfbee4d5c09a24f08e793c5d601e69808b37ae3bbe6b2a378e4f49975
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0161
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: >-
+    Parish death register entry (original), running across the two pages of one opening; the
+    neighbouring entries are summarised
+  apparent_people:
+  - Manoel João Fernandes da Cruz (P-0139)
+  - Anna Maria Fernandes (P-0140)
+  apparent_event: death
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004670017, image 00163; Pousa deaths 1870,
+    Nº 18, fl. 158v–159 — death of João, son of Manoel João Fernandes and Anna Esposta.),
+    delivered to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner
+    2026-10-12: 'please start your work' (cycle 2026-10-12 promotion checklists)); read in
+    place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-joao-filho-manoel-joao-fernandes-death-1870-pousa.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0132-death-joao-1870-pousa.jpg
+    sha256: 8551fdcb720d5c81c8fdd3ae3db155fb1685b50853bb7dc3d4b84025fd07f822
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3888
+      pixel_height: 2847
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0132
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-joao-filho-manoel-joao-fernandes-death-1870-pousa.jpg
+    producer_sha256: 8551fdcb720d5c81c8fdd3ae3db155fb1685b50853bb7dc3d4b84025fd07f822
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0162
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: >-
+    Parish baptism register entry (original), recording an emergency home baptism; the neighbouring
+    entries of the opening are summarised
+  apparent_people:
+  - Manoel João Fernandes da Cruz (P-0139)
+  - Anna Maria Fernandes (P-0140)
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004670017, image 00058; Pousa baptisms 1870,
+    Nº 26, fl. 54 — home baptism of Maria, daughter of Manoel João Fernandes and Anna Exposta.),
+    delivered to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner
+    2026-10-12: 'please start your work' (cycle 2026-10-12 promotion checklists)); read in
+    place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-maria-filha-manoel-joao-fernandes-baptism-1870-pousa.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0133-baptism-maria-1870-pousa.jpg
+    sha256: b70b254e4072a303d530384249afd7f3879308720e4a7ede2c33231121b30178
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3822
+      pixel_height: 2944
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0133
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-maria-filha-manoel-joao-fernandes-baptism-1870-pousa.jpg
+    producer_sha256: b70b254e4072a303d530384249afd7f3879308720e4a7ede2c33231121b30178
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0163
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish death register entry (original); the neighbouring entries of
+    the opening are summarised
+  apparent_people:
+  - Manoel João Fernandes da Cruz (P-0139)
+  - Anna Maria Fernandes (P-0140)
+  apparent_event: death
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004670017, image 00164; Pousa deaths 1870,
+    Nº 24, fl. 160 — death of Maria, daughter of Manoel João Fernandes and Anna Esposta.),
+    delivered to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner
+    2026-10-12: 'please start your work' (cycle 2026-10-12 promotion checklists)); read in
+    place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-maria-filha-manoel-joao-fernandes-death-1870-pousa.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0134-death-maria-1870-pousa.jpg
+    sha256: 33bc22a94be86858e680ef4a2c41d1d0e1e0159b399f5f9cdc006476a255ffdc
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3872
+      pixel_height: 2919
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0134
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-maria-filha-manoel-joao-fernandes-death-1870-pousa.jpg
+    producer_sha256: 33bc22a94be86858e680ef4a2c41d1d0e1e0159b399f5f9cdc006476a255ffdc
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0164
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Parish baptism register entry (original); the neighbouring entries
+    of the opening are summarised
+  apparent_people:
+  - Manoel João Fernandes da Cruz (P-0139)
+  - Anna Maria Fernandes (P-0140)
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  apparent_event: baptism
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch DGS 004670017, image 00064; Pousa baptisms 1871,
+    Nº 19, fl. 60 — baptism of Maria, daughter of Manoel João Fernandes and Anna exposta.),
+    delivered to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner
+    2026-10-12: 'please start your work' (cycle 2026-10-12 promotion checklists)); read in
+    place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-maria-filha-manoel-joao-fernandes-baptism-1871-pousa.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/parish/PAR-0135-baptism-maria-1871-pousa.jpg
+    sha256: 38897d3c92007367d8dad5fbb702460d1d27433969dfb46c23c834465be9389b
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3775
+      pixel_height: 2960
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: PAR-0135
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-maria-filha-manoel-joao-fernandes-baptism-1871-pousa.jpg
+    producer_sha256: 38897d3c92007367d8dad5fbb702460d1d27433969dfb46c23c834465be9389b
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0165
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: >-
+    Closed will (testamento, closed, sewn and sealed) with its auto de approvação (1890),
+    and the court's autuação, cumpra-se and registration note (1898)
+  apparent_people:
+  - Manoel João Fernandes da Cruz (P-0139)
+  - Anna Maria Fernandes (P-0140)
+  - Thereza Fernandes de Azevedo (P-0039)
+  - José Secundino de Azevedo (P-0038)
+  apparent_event: probate
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (Archive item number "[43907322]" on the cover and on fl.
+    1 (given as the COARPE number in the retrieval side's receipt); cover code "A3IL" [uncertain].
+    FamilySearch ark of image 224 (p03, the will): 3:1:3QHV-WQQP-L989-M. Located by the retrieval
+    side through FamilySearch Full-Text and delivered through the research/from-retrieval/
+    sync; read and drafted 12 October 2026. The 1898 inventário that opened after this will
+    (with a certified copy of it) is a separate record.), delivered to the retrieval side.
+    Authorised by the owner for promotion on 2026-10-12 (owner 2026-10-12: 'please start your
+    work' (cycle 2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-testamento-1898-muriae-p1.jpg
+    and 7 further pages and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/probate/PRB-0013-testamento-manoel-joao-fernandes-da-cruz-1890-muriae-p01.jpg
+    sha256: 518f43b98b72e3fa686d2483ba6200088e6351f174e243ef310640c08914cb5a
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3016
+      pixel_height: 4220
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0013-testamento-manoel-joao-fernandes-da-cruz-1890-muriae-p02.jpg
+    sha256: 4de33dadda0726568fc26d39506ada67b8e48afb23c2ccce9fb7f3b379455d41
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2838
+      pixel_height: 4116
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0013-testamento-manoel-joao-fernandes-da-cruz-1890-muriae-p03.jpg
+    sha256: 957b8defcc2bfaf2185c0ec287ef0890e423f46d559beda7dee4aa7e5db5af40
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2816
+      pixel_height: 4095
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0013-testamento-manoel-joao-fernandes-da-cruz-1890-muriae-p04.jpg
+    sha256: 284adb5875c223b586169a61c71010e4fc4b12fb93f4e82b2540b880f1e86b86
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2927
+      pixel_height: 4124
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0013-testamento-manoel-joao-fernandes-da-cruz-1890-muriae-p05.jpg
+    sha256: 26ba4137f063575c6f0ee9d1d10aa0ef88c11d527fed062c6a339d746fad0751
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2995
+      pixel_height: 4122
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0013-testamento-manoel-joao-fernandes-da-cruz-1890-muriae-p06.jpg
+    sha256: 3fabb19d650302dd75c3382d33868f9cdf3c923541d510e2e3aea5aad31e47bd
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2984
+      pixel_height: 4102
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0013-testamento-manoel-joao-fernandes-da-cruz-1890-muriae-p07.jpg
+    sha256: 90454573fb01914460c3285c49d34619d7be249daf8345023269158d73a664fb
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2994
+      pixel_height: 4117
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0013-testamento-manoel-joao-fernandes-da-cruz-1890-muriae-p08.jpg
+    sha256: e11244e9e9f860be1e4ec1628bfcce9700ddf25510e6ba9580381847fbadce7f
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3120
+      pixel_height: 4248
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  duplicate_of: null
+  proposed_source_id: PRB-0013
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-testamento-1898-muriae-p1.jpg
+    producer_sha256: 518f43b98b72e3fa686d2483ba6200088e6351f174e243ef310640c08914cb5a
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0166
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: >-
+    Probate court proceedings — inventário, opening only (petition with despacho, traslado
+    of a procuração, certidão of the will, termo de juramento, título de herdeiros, certidões
+    de intimação)
+  apparent_people:
+  - Manoel João Fernandes da Cruz (P-0139)
+  - Anna Maria Fernandes (P-0140)
+  - Thereza Fernandes de Azevedo (P-0039)
+  - José Secundino de Azevedo (P-0038)
+  apparent_event: probate
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (Modern wrapper: "INVENTÁRIO — Joaquim José Fernandes — Anna
+    Maria Fernandes da Cruz", dated in pencil 21/11/1898, archive number [43906283] (repeated,
+    boxed, on fl. 1), corner mark "A3/5" [uncertain]. fl. 1–7 and one blank sheet; the procuração
+    traslado is headed "Fls. 70" of the escrivão de paz's book. DGS 108402762 images _01160–_01174
+    per the retrieval side's receipt; found by the retrieval side through FamilySearch Full-Text
+    and delivered through the research/from-retrieval/ sync; read and drafted 12 October 2026.),
+    delivered to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner
+    2026-10-12: 'please start your work' (cycle 2026-10-12 promotion checklists)); read in
+    place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-inventario-1898-muriae-p1.jpg
+    and 14 further pages and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/probate/PRB-0014-inventario-manoel-joao-fernandes-da-cruz-1898-muriae-p01.jpg
+    sha256: 5488248089bb3cee3daff4b8388223598668dfdc14c5d772170543aebd712a9e
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3125
+      pixel_height: 4251
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0014-inventario-manoel-joao-fernandes-da-cruz-1898-muriae-p02.jpg
+    sha256: 69ce96b0ab35738f4b731a036836c50b0377aa2cc528844b5889b8ecb4ed2bb8
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3052
+      pixel_height: 4234
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0014-inventario-manoel-joao-fernandes-da-cruz-1898-muriae-p03.jpg
+    sha256: d8f3d0e88d1a7d61a733d98ed4b273eaebb0dfbe30575c45693089c43143fcc2
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3064
+      pixel_height: 4260
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0014-inventario-manoel-joao-fernandes-da-cruz-1898-muriae-p04.jpg
+    sha256: 87fb39e5a0c748bbb8e7c639bd9f04378cb793acb35865bf287192e57da135f6
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3040
+      pixel_height: 4220
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0014-inventario-manoel-joao-fernandes-da-cruz-1898-muriae-p05.jpg
+    sha256: 81bfa622d5556c6af9d25732f07f847df3649deb3633a9d9a3b64291b991b4a2
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3027
+      pixel_height: 4213
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0014-inventario-manoel-joao-fernandes-da-cruz-1898-muriae-p06.jpg
+    sha256: 2d476f5869b39b6546d7e2c1dcd641a3b2127b06e37f7b7fde4597bd9e8a645d
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2853
+      pixel_height: 4221
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0014-inventario-manoel-joao-fernandes-da-cruz-1898-muriae-p07.jpg
+    sha256: e8318f1c069f6ee11173059e9f77d65b512b01104357f4b7240b027d1ea13b7c
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2892
+      pixel_height: 4169
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0014-inventario-manoel-joao-fernandes-da-cruz-1898-muriae-p08.jpg
+    sha256: 82ec660f7ef9ee52b652dd8e8c0e9b714acaea10cd02c7b6215d7c3efd79f9da
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2948
+      pixel_height: 4204
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0014-inventario-manoel-joao-fernandes-da-cruz-1898-muriae-p09.jpg
+    sha256: a4429dc87b9ad780f0d827588a5db2a998d822a751baa99b642e3cc6b832dc56
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2855
+      pixel_height: 4147
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0014-inventario-manoel-joao-fernandes-da-cruz-1898-muriae-p10.jpg
+    sha256: fec3b78827f425dd962172394e9ae7915780e06fe0782493afeaee0a0585b851
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2930
+      pixel_height: 4224
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0014-inventario-manoel-joao-fernandes-da-cruz-1898-muriae-p11.jpg
+    sha256: 2a4e8a5c550794f1c0aaadba7b8a08553f6f284d09a8cfe54a76f5f427956873
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2909
+      pixel_height: 4231
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0014-inventario-manoel-joao-fernandes-da-cruz-1898-muriae-p12.jpg
+    sha256: 2f9cc0f7be2a87958ba072141e97fb1991b639c4ef77f9b1f6aa280cd1d7ceba
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2878
+      pixel_height: 4229
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0014-inventario-manoel-joao-fernandes-da-cruz-1898-muriae-p13.jpg
+    sha256: ceb02672b0471c12db8aa324e83749e838768b27b8f5cb3767b84f0ba2fd9da5
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2896
+      pixel_height: 4168
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0014-inventario-manoel-joao-fernandes-da-cruz-1898-muriae-p14.jpg
+    sha256: 444d36a4754965e06e21e042abaa6bd07581d635b62c69b765d62c4e0e7b0895
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2877
+      pixel_height: 4218
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0014-inventario-manoel-joao-fernandes-da-cruz-1898-muriae-p15.jpg
+    sha256: f0a2b9b33502a0fe2e0e4d7d67ab98a3190484c52e0411c2ea70f13453930bc8
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 3775
+      pixel_height: 2806
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  duplicate_of: null
+  proposed_source_id: PRB-0014
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-manoel-joao-fernandes-da-cruz-inventario-1898-muriae-p1.jpg
+    producer_sha256: 5488248089bb3cee3daff4b8388223598668dfdc14c5d772170543aebd712a9e
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0167
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: >-
+    Closed will (testamento cerrado) with its instrumento de approvação, and the Provedoria
+    autos of its opening (termo de abertura), the widow's acceptance of the testamentaria,
+    the opinion of the promotor dos resíduos ad hoc and the judge's decision
+  apparent_people:
+  - Bento José Fernandes (P-0141)
+  - Joaquina Rosa Lopes (P-0142)
+  apparent_event: probate
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (Found by the retrieval side and delivered through the research/from-retrieval/
+    sync (producer files rec-fernandes-domingos-jose-fernandes-testamento-1884-cachoeira-alegre-p1…p3.jpg
+    = images 4–6 and rec-fernandes-domingos-jose-fernandes-testamento-1885-cataguases-p1…p10.jpg
+    = images 7–16). Not held: the leaf before fl. 2 (fl. 1, presumably image 3) and image
+    17, which the retrieval side reports as access-restricted. Read and drafted 12 October
+    2026.), delivered to the retrieval side. Authorised by the owner for promotion on 2026-10-12
+    (owner 2026-10-12: 'please start your work' (cycle 2026-10-12 promotion checklists));
+    read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-domingos-jose-fernandes-testamento-1884-cachoeira-alegre-p1.jpg
+    and 12 further pages and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/probate/PRB-0015-testamento-domingos-jose-fernandes-1884-1885-cataguases-p01.jpg
+    sha256: b3025b1c38cedbd08076532acccad82bd1b103dbdcdab3844900d544d98413b2
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2744
+      pixel_height: 3989
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0015-testamento-domingos-jose-fernandes-1884-1885-cataguases-p02.jpg
+    sha256: c99bb234efa643d5d0d5ad982f1683d5fa6652accded8b02c92c458dbe24c5cc
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2731
+      pixel_height: 3981
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0015-testamento-domingos-jose-fernandes-1884-1885-cataguases-p03.jpg
+    sha256: db08f47298d2ef7221140b4455fe3e30244b0099d2c6c8804e0e30bf5c510d04
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2771
+      pixel_height: 3988
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0015-testamento-domingos-jose-fernandes-1884-1885-cataguases-p04.jpg
+    sha256: 1372ab78a964df78bccca9757fb9d4d317326072c572c8c92841c317c4bf6d2b
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2794
+      pixel_height: 3983
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0015-testamento-domingos-jose-fernandes-1884-1885-cataguases-p05.jpg
+    sha256: 1fba883ca611cb61a327393a8b47aca395eee4a71f17047bee11faa132bd4df1
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2779
+      pixel_height: 4009
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0015-testamento-domingos-jose-fernandes-1884-1885-cataguases-p06.jpg
+    sha256: 5e2dfbe03c7ec359424b95c3ce6ac8b58d31343c7f1b5779e508d14f3c527fc6
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2699
+      pixel_height: 3983
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0015-testamento-domingos-jose-fernandes-1884-1885-cataguases-p07.jpg
+    sha256: dafb8b605d7bf1777c836ed8730c60b88eac7e7debcb4da156c8f4949afdb235
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2753
+      pixel_height: 4002
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0015-testamento-domingos-jose-fernandes-1884-1885-cataguases-p08.jpg
+    sha256: bc154baf859a19df1b0aab0f1fde38f3fa0232bcede83455181f68c3d0a918b2
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2698
+      pixel_height: 4007
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0015-testamento-domingos-jose-fernandes-1884-1885-cataguases-p09.jpg
+    sha256: 4c35b31a8e19ed63dc3c8da406bbc920ff03e16304167f56e5ff8d8060885fca
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2721
+      pixel_height: 4004
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0015-testamento-domingos-jose-fernandes-1884-1885-cataguases-p10.jpg
+    sha256: 3b8ce1b9453d9b9693b9475b776b8820b78b2fb387490aab17c3b91ec62627cc
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2734
+      pixel_height: 4013
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0015-testamento-domingos-jose-fernandes-1884-1885-cataguases-p11.jpg
+    sha256: 2da6a4b175a43bae51213fdf37f59cabe7d0d60663aaff0d03abe6441217efd4
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2817
+      pixel_height: 3910
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0015-testamento-domingos-jose-fernandes-1884-1885-cataguases-p12.jpg
+    sha256: 62b9acaa13d5ecfdc2dfbe1a59d07f5a08e9db9006eccbdf7902c70f43a47bcf
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2750
+      pixel_height: 3887
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0015-testamento-domingos-jose-fernandes-1884-1885-cataguases-p13.jpg
+    sha256: 9c3d8c435df7c0101ef0078e8c5b66b0baeb8a0525df829fe0782cfee6e90fa2
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2771
+      pixel_height: 3898
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  duplicate_of: null
+  proposed_source_id: PRB-0015
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-testamento-1884-cachoeira-alegre-p1.jpg
+    producer_sha256: b3025b1c38cedbd08076532acccad82bd1b103dbdcdab3844900d544d98413b2
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0168
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: >-
+    Probate court proceedings — amicable partilha (partilha amigável): petition, the louvados'
+    valuation list, the Renda Provincial receipt for the inheritance tax, termos of the escrivães,
+    the Juiz de Direito's sentence and the cumpra-se; with the grantor's notarial procuração
+    (Braga, 1885), its Porto recognition and Brazilian consular legalization, filed in the
+    autos
+  apparent_people:
+  - Joaquina Rosa Lopes (P-0142)
+  - Bento José Fernandes (P-0141)
+  - Manoel João Fernandes da Cruz (P-0139)
+  apparent_event: probate
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (FamilySearch ark of image 8 (p06, the procuração, fl. 5):
+    3:1:3QHK-YQP6-47NY. No archival cover or item number is held (fl. 1 is restricted). Located
+    by the retrieval side and delivered through the research/from-retrieval/ sync; read and
+    drafted 12 October 2026. The procuração (images 8–10) was filed by the retrieval side
+    as a separate set of three files; it is catalogued here as fl. 5–6 of these autos, in
+    its film position. Domingos José Fernandes's will and its opening autos (DGS 113202032)
+    are a separate record.), delivered to the retrieval side. Authorised by the owner for
+    promotion on 2026-10-12 (owner 2026-10-12: 'please start your work' (cycle 2026-10-12
+    promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-fernandes-domingos-jose-fernandes-partilha-1885-cataguases-p1.jpg
+    and 14 further pages and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/probate/PRB-0016-partilha-domingos-jose-fernandes-1885-1886-cataguases-p01.jpg
+    sha256: c8cc43590945496e7ee182eba9db004f22c65039610255df22614c24462e0de2
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2722
+      pixel_height: 3906
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0016-partilha-domingos-jose-fernandes-1885-1886-cataguases-p02.jpg
+    sha256: dae1e083b06178e851aa11205e5f53f40baffe1d4f0643a29b13a4b41d9d2b2b
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2785
+      pixel_height: 3897
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0016-partilha-domingos-jose-fernandes-1885-1886-cataguases-p03.jpg
+    sha256: bd92f435a0d8ea8085194a591fc92350b2b612a2de7254f86035b9878793eb28
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2721
+      pixel_height: 3914
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0016-partilha-domingos-jose-fernandes-1885-1886-cataguases-p04.jpg
+    sha256: f925ac32f4a203a7dd09b5177aa779da6f6f8410496163b572caf344040c0477
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2716
+      pixel_height: 3904
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0016-partilha-domingos-jose-fernandes-1885-1886-cataguases-p05.jpg
+    sha256: 95b1a8dcb4d82770666609dd895067ef97c62176646f509c2fff67061dd8eba6
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2645
+      pixel_height: 3424
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0016-partilha-domingos-jose-fernandes-1885-1886-cataguases-p06.jpg
+    sha256: d8c71f006f84883c27a3ac5c1839c6da02d20924e967637c6ca46157b2e60970
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2567
+      pixel_height: 3777
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0016-partilha-domingos-jose-fernandes-1885-1886-cataguases-p07.jpg
+    sha256: 9255dd6fd87581fa719f9eae117bcd718dc0b13ad9253e310fad17ae8b67f24a
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2650
+      pixel_height: 3787
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0016-partilha-domingos-jose-fernandes-1885-1886-cataguases-p08.jpg
+    sha256: 5f0b4c4c786e440f7a66c785a295979f76dffe7e6fa27c99230a93601dd49e6a
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2554
+      pixel_height: 3786
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0016-partilha-domingos-jose-fernandes-1885-1886-cataguases-p09.jpg
+    sha256: 4b06d40f57c7bb5549bd4d016d0d77c1529088f92926fe3df3990869f22935a4
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2791
+      pixel_height: 4020
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0016-partilha-domingos-jose-fernandes-1885-1886-cataguases-p10.jpg
+    sha256: 24152254e863089d3a5b01e34978678217d4b4db9fd002877e425706c7eaa3e5
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2703
+      pixel_height: 3972
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0016-partilha-domingos-jose-fernandes-1885-1886-cataguases-p11.jpg
+    sha256: 9845c8692b7499a570dcd9cbca3e2fe0db09069a59dac7b965ab16a68410578e
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 1346
+      pixel_height: 2620
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0016-partilha-domingos-jose-fernandes-1885-1886-cataguases-p12.jpg
+    sha256: b5687d844a22353496d2574762b123ded9394d95b1fd9c0773aabeeaf7daad9c
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2685
+      pixel_height: 3970
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0016-partilha-domingos-jose-fernandes-1885-1886-cataguases-p13.jpg
+    sha256: bf569f783dc0ae3a7a2cb79b9abe4f289b6b16326053798ef0a7c2f0eee4997d
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2691
+      pixel_height: 4025
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0016-partilha-domingos-jose-fernandes-1885-1886-cataguases-p14.jpg
+    sha256: ca013aeee1bbd2261f8a632034bb6358d38992b2c741590c57939443f056cc98
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2675
+      pixel_height: 3976
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  - path: evidence/probate/PRB-0016-partilha-domingos-jose-fernandes-1885-1886-cataguases-p15.jpg
+    sha256: 067adcdcd3cd6250f760a60883b072d0d6c4bbc6b863bae2c9f62684b12aaa8d
+    media_type: image/jpeg
+    role: continuation
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2676
+      pixel_height: 4010
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  duplicate_of: null
+  proposed_source_id: PRB-0016
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-fernandes-domingos-jose-fernandes-partilha-1885-cataguases-p1.jpg
+    producer_sha256: c8cc43590945496e7ee182eba9db004f22c65039610255df22614c24462e0de2
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0169
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Civil death register entry (target termo transcribed in full; the
+    other termos of the opening summarised)
+  apparent_people:
+  - none modelled
+  apparent_event: death
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (Itaperuna death register, fl. 134, termo Nº 13.297 (registered
+    20 October 1950); image ark 3:1:S3HT-6QGQ-XM4. Located by the retrieval agent in its 2026-10-12
+    cycle (the Aristão-siblings sweep) and delivered through the retrieval drop. The image
+    carries a diagonal "SEM VALOR LEGAL" watermark.), delivered to the retrieval side. Authorised
+    by the owner for promotion on 2026-10-12 (owner 2026-10-12: 'please start your work' (cycle
+    2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-armond-silverio-antunes-barroso-filho-marfiza-death-1950-itaperuna.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/civil/CIV-0056-death-silverio-antunes-barroso-1950-itaperuna.jpg
+    sha256: 1ddb6277f43f526925ac11b66726c852ee48613cbfe25e84326a3ef99df7cb44
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 4455
+      pixel_height: 3236
+    privacy_review: cleared
+    sensitive_content:
+    - signature
+  duplicate_of: null
+  proposed_source_id: CIV-0056
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-armond-silverio-antunes-barroso-filho-marfiza-death-1950-itaperuna.jpg
+    producer_sha256: 1ddb6277f43f526925ac11b66726c852ee48613cbfe25e84326a3ef99df7cb44
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0170
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Civil death register entry (target termo transcribed in full; the
+    other termos of the opening summarised)
+  apparent_people:
+  - Deocleciano Muniz Bittencourt (P-0012)
+  - Luiza Fernandes de Azevedo (P-0013)
+  apparent_event: death
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (Duque de Caxias 1st District death register, p. 278, termo
+    N.º 3.705 (registered 7 January 1983). The image carries a diagonal "SEM VALOR LEGAL"
+    watermark. It was delivered through the retrieval drop; the producer notes record no FamilySearch
+    ark or film number for it.), delivered to the retrieval side. Authorised by the owner
+    for promotion on 2026-10-12 (owner 2026-10-12: 'please start your work' (cycle 2026-10-12
+    promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-muniz-rozalina-death-1983.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/civil/CIV-0057-death-rozalina-bittencourt-alves-1983-duque-de-caxias.jpg
+    sha256: c469e10a419e43cedbdd0bb09fd9674d87899f858e6198c82aa79df3789310d2
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 4571
+      pixel_height: 3363
+    privacy_review: cleared
+    sensitive_content:
+    - address
+    - signature
+  duplicate_of: null
+  proposed_source_id: CIV-0057
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-muniz-rozalina-death-1983.jpg
+    producer_sha256: c469e10a419e43cedbdd0bb09fd9674d87899f858e6198c82aa79df3789310d2
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0171
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Civil marriage certificate (certidão de casamento em breve relato,
+    issued 2019)
+  apparent_people:
+  - Deocleciano Muniz Bittencourt (P-0012)
+  - Luiza Fernandes de Azevedo (P-0013)
+  apparent_event: marriage
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (Matrícula 093450 01 55 1953 2 00052 141 0021425 63; TJERJ
+    selo de fiscalização eletrônico EDAU73123-NJM. The held image is a photograph of a certidão
+    issued at São João de Meriti on 11 June 2019, delivered through the retrieval drop.),
+    delivered to the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner
+    2026-10-12: 'please start your work' (cycle 2026-10-12 promotion checklists)); read in
+    place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-muniz-aristides-marriage-cert.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/civil/CIV-0058-marriage-aristides-muniz-bittencourt-1953-sao-joao-de-meriti.jpg
+    sha256: 1068d3b290ac2088580142e7f2f3fa719d2eb5d896c5d91c725388b55167359c
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2336
+      pixel_height: 3749
+    privacy_review: cleared
+    sensitive_content:
+    - identity-number
+  duplicate_of: null
+  proposed_source_id: CIV-0058
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-muniz-aristides-marriage-cert.jpg
+    producer_sha256: 1068d3b290ac2088580142e7f2f3fa719d2eb5d896c5d91c725388b55167359c
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"
+- inventory_id: DOC-0172
+  status: catalogued
+  added_date: "2026-10-12"
+  apparent_record_type: Civil death certificate (certidão de óbito em breve relato, issued
+    2019)
+  apparent_people:
+  - none modelled
+  apparent_event: death
+  image_quality: adequate
+  provenance: >-
+    FamilySearch digital images (Matrícula 0925690155 1981 4 00005 003 0002335 31; TJERJ selo
+    de fiscalização eletrônico EDAE15427-DBG. The held image is a photograph of a certidão
+    issued at Itaguaí on 2 July 2019, delivered through the retrieval drop.), delivered to
+    the retrieval side. Authorised by the owner for promotion on 2026-10-12 (owner 2026-10-12:
+    'please start your work' (cycle 2026-10-12 promotion checklists)); read in place at ~/Documents/meu/armond-genealogy-retrieval/research/evidence/images/rec-muniz-aristides-death-cert.jpg
+    and copied byte-for-byte (SHA-256 verified).
+  rights_status: private-research
+  files:
+  - path: evidence/civil/CIV-0059-death-aristides-muniz-bittencourt-1981-itaguai.jpg
+    sha256: fdd932eb350daa3cd18e5c907bfd9ce85c7a81f921bd8faee83b9ff0ddbd4dcd
+    media_type: image/jpeg
+    role: primary
+    preservation:
+      acquisition_method: authorised-original-download
+      resolution_status: highest-authorised
+      pixel_width: 2336
+      pixel_height: 3564
+    privacy_review: cleared
+    sensitive_content: []
+  duplicate_of: null
+  proposed_source_id: CIV-0059
+  notes: []
+  transfer:
+    producer_path: evidence/images/rec-muniz-aristides-death-cert.jpg
+    producer_sha256: fdd932eb350daa3cd18e5c907bfd9ce85c7a81f921bd8faee83b9ff0ddbd4dcd
+    handoff_digest: 2a2b1d5456fd169e60719e4ac3171b497fa2046d6dbbd0e2faf6b8526ea2c317
+    resolution: max-res
+    authorisation: 'owner 2026-10-12: ''please start your work'' (cycle 2026-10-12 promotion
+      checklists)'
+    transferred_at: "2026-10-12"

@@ -1,0 +1,179 @@
+schema_version: 1
+id: P-0149
+preferred_name: André Domingues
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: André Domingues
+  type: source
+  source_ids:
+  - PAR-0109
+event_ids: []
+family_ids:
+- F-0075
+notes:
+- text: >-
+    Antenor Muniz's 4×-great-grandfather: named with Maria Luiza as Bento's maternal grandparents,
+    "da freguezia do Salvador da Lama Couto de Azevedo" (PAR-0109). Not to be confused with André
+    Domingues de Macedo of Quintã, a godparent's husband in 1833 (PAR-0106). "Couto de Azevedo"
+    is a place name with no known link to the Azevedo of Muriaé. No parent family or events: no
+    record names his parents or gives his dates.
+  text_pt: >-
+    Pentavô de Antenor Muniz: nomeado com Maria Luiza como avós maternos de Bento, "da freguezia
+    do Salvador da Lama Couto de Azevedo" (PAR-0109). Não confundir com André Domingues de Macedo,
+    de Quintã, marido de uma madrinha em 1833 (PAR-0106). "Couto de Azevedo" é nome de lugar,
+    sem ligação conhecida com os Azevedo de Muriaé. Sem família de origem nem eventos: nenhum
+    registro nomeia seus pais ou dá suas datas.
+- text: >-
+    Nationality given as Portuguese from residence only: every record describes him as of Salvador
+    da Lama, in Barcelos, Portugal; no record states a birthplace or a nacionalidade.
+  text_pt: >-
+    Nacionalidade dada como portuguesa apenas pela residência: todos os registros descrevem ele
+    como de Salvador da Lama, em Barcelos, Portugal; nenhum registro declara local de nascimento
+    nem nacionalidade.
+profile: >-
+  ## Interesting facts
+
+
+  - **[PROVEN]** He is known from a single line, in his grandson Bento's probable baptism: "materno
+  de André Domingues, e sua mulher Maria Luiza da freguezia do Salvador da Lama Couto de Azevedo"
+  (PAR-0109).
+
+  - **[PROVEN]** His unmarried daughter Benta came from Lama to be godmother to her nephew in
+  1807: "Benta solteyra thia materna do baptizado" (PAR-0109).
+
+  - **[PROVEN]** A namesake appears in the records: "André Domingues de Macedo", of Quintã, Ucha,
+  whose wife Maria Thereza was godmother in 1833 (PAR-0106). He had a different wife and lived
+  in a different parish, and no record states any kinship with this André.
+
+
+  ## Identity
+
+
+  **André Domingues** — of the parish of Salvador da Lama, "Couto de Azevedo" (PAR-0109) **[PROVEN
+  wording]**. He was the husband of Maria Luiza (P-0150), family F-0075.
+
+
+  He is named as the maternal grandfather of the Bento baptised at Ucha in 1807 (PAR-0109). That
+  entry is Bento José Fernandes's baptism by strong identification. On that basis André is the
+  father of Jozefa Maria Domingues (P-0144), whose surname in 1830, "Jozefa Maria Domingues" (PAR-0114),
+  matches his **[strong identification]**.
+
+
+  His other recorded child is Benta, solteira, of Lama (PAR-0109).
+
+
+  A "parente" of the family, João Domingues, son of João Domingues "do lugar do Ofreiral [uncertain]
+  de Salvador da Lama", was godfather to Bento's daughter Anna in 1830 (PAR-0114). The degree
+  of kinship is not stated.
+
+
+  "Couto de Azevedo" is part of the parish's place description. No record connects it to the surname
+  of Thereza's husband, Secundino de Azevedo.
+
+
+  **Position in the tree.** He is the 4×-great-grandfather of Antenor Muniz (P-0006, 1923–2014)
+  on his maternal side, through Jozefa Maria Domingues (P-0144), Bento José Fernandes (P-0141),
+  Manoel João Fernandes da Cruz (P-0139), Thereza Fernandes de Azevedo (P-0039) and Luiza Fernandes
+  de Azevedo (P-0013). Two links in that chain are strong identifications, not proofs:
+
+
+  - Bento's 1807 baptism, the only record that names André;
+
+  - Thereza's link to Manoel João's family.
+
+
+  ## Open questions
+
+
+  - **His baptism, marriage and death.** The Salvador da Lama registers have not been examined.
+  [OPEN]
+
+  - **André Domingues de Macedo of Quintã** (PAR-0106). It is unknown whether he is this André
+  remarried, a kinsman (for example a son), or unrelated. [OPEN]
+
+
+  ## Sources held (this repository)
+
+
+  - **PAR-0109** — his grandson Bento's probable baptism, 1807, which names him, his wife and
+  his daughter Benta. *Primary for the baptism; secondary for him; the identification is strong.*
+
+  - **PAR-0114** — the 1830 baptism that gives his daughter the surname Domingues and names a
+  Domingues "parente" of Lama. *Primary.*
+
+  - **PAR-0106** — the 1833 baptism naming the namesake André Domingues de Macedo of Quintã. *Primary;
+  not evidence for him.*
+profile_pt: >-
+  ## Fatos interessantes
+
+
+  - **[PROVEN]** Ele é conhecido por uma única linha, no provável batismo de seu neto Bento: "materno
+  de André Domingues, e sua mulher Maria Luiza da freguezia do Salvador da Lama Couto de Azevedo"
+  (PAR-0109).
+
+  - **[PROVEN]** Sua filha solteira Benta veio da Lama para ser madrinha do sobrinho em 1807:
+  "Benta solteyra thia materna do baptizado" (PAR-0109).
+
+  - **[PROVEN]** Um homônimo aparece nos registros: "André Domingues de Macedo", da Quintã, Ucha,
+  cuja mulher Maria Thereza foi madrinha em 1833 (PAR-0106). Tinha outra mulher e vivia noutra
+  freguesia, e nenhum registro declara parentesco com este André.
+
+
+  ## Identidade
+
+
+  **André Domingues** — da freguesia de Salvador da Lama, "Couto de Azevedo" (PAR-0109) **[PROVEN
+  wording]**. Era marido de Maria Luiza (P-0150), família F-0075.
+
+
+  É nomeado como avô materno do Bento batizado em Ucha em 1807 (PAR-0109). Esse assento é o batismo
+  de Bento José Fernandes por identificação forte. Nessa base André é o pai de Jozefa Maria Domingues
+  (P-0144), cujo sobrenome em 1830, "Jozefa Maria Domingues" (PAR-0114), coincide com o dele **[identificação
+  forte]**.
+
+
+  Seu outro filho registrado é Benta, solteira, da Lama (PAR-0109).
+
+
+  Um "parente" da família, João Domingues, filho de João Domingues "do lugar do Ofreiral [incerto]
+  de Salvador da Lama", foi padrinho de Anna, filha de Bento, em 1830 (PAR-0114). O grau de parentesco
+  não é declarado.
+
+
+  "Couto de Azevedo" faz parte da descrição do lugar da freguesia. Nenhum registro o liga ao sobrenome
+  do marido de Thereza, Secundino de Azevedo.
+
+
+  **Posição na árvore.** É pentavô de Antenor Muniz (P-0006, 1923–2014) pelo lado materno, através
+  de Jozefa Maria Domingues (P-0144), Bento José Fernandes (P-0141), Manoel João Fernandes da
+  Cruz (P-0139), Thereza Fernandes de Azevedo (P-0039) e Luiza Fernandes de Azevedo (P-0013).
+  Dois elos dessa cadeia são identificações fortes, não provas:
+
+
+  - o batismo de Bento de 1807, o único registro que nomeia André;
+
+  - a ligação de Thereza com a família de Manoel João.
+
+
+  ## Questões em aberto
+
+
+  - **Seu batismo, casamento e óbito.** Os livros de Salvador da Lama não foram examinados. [OPEN]
+
+  - **André Domingues de Macedo, da Quintã** (PAR-0106). Não se sabe se é este mesmo André casado
+  de novo, um parente (por exemplo um filho) ou alguém sem relação. [OPEN]
+
+
+  ## Fontes disponíveis (neste repositório)
+
+
+  - **PAR-0109** — o provável batismo de seu neto Bento, 1807, que nomeia ele, a mulher e a filha
+  Benta. *Primária para o batismo; secundária para ele; a identificação é forte.*
+
+  - **PAR-0114** — o batismo de 1830 que dá à filha o sobrenome Domingues e nomeia um "parente"
+  Domingues da Lama. *Primária.*
+
+  - **PAR-0106** — o batismo de 1833 que nomeia o homônimo André Domingues de Macedo, da Quintã.
+  *Primária; não é prova sobre ele.*

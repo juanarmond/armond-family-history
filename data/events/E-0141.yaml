@@ -1,0 +1,27 @@
+schema_version: 1
+id: E-0141
+event_type: birth
+date:
+  kind: exact
+  value: '1833-04-25'
+  original_text: >-
+    nasceo em o dia vinte, e cinco do mez de Abril de mil, e oito centos, e trinta, e tres, e
+    no dia trinta do mesmo foi por mim solemnemente baptizado
+place_text: lugar de Quintã, São Romão da Ucha, Barcelos, Braga, Portugal
+participants:
+- person_id: P-0139
+  role: principal
+- person_id: P-0141
+  role: parent
+- person_id: P-0142
+  role: parent
+status: confirmed
+source_ids:
+- PAR-0106
+notes:
+- text: >-
+    Born 25 April 1833, as stated in his baptism of 30 April (PAR-0106); the parents lived at
+    the lugar de Quintã (written "Quintaã").
+  text_pt: >-
+    Nascido em 25 de abril de 1833, como declara o batismo de 30 de abril (PAR-0106); os pais
+    moravam no lugar de Quintã (escrito "Quintaã").

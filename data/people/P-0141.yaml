@@ -1,0 +1,670 @@
+schema_version: 1
+id: P-0141
+preferred_name: Bento José Fernandes
+privacy: deceased
+sex: male
+nationality: Portuguese
+name_variants:
+- value: Bento Jose
+  type: source
+  source_ids:
+  - PAR-0109
+  note: 'His probable baptism (1807): the given names only.'
+- value: Bento José Fernandes
+  type: source
+  source_ids:
+  - PAR-0106
+  - PAR-0113
+  - PAR-0124
+  - PAR-0125
+  - PAR-0126
+  - PRB-0016
+- value: Bento Joze Fernandes
+  type: source
+  source_ids:
+  - PAR-0118
+- value: Bento Jozé Fernandes
+  type: source
+  source_ids:
+  - PRB-0015
+- value: Bento Fernandes
+  type: source
+  source_ids:
+  - PAR-0107
+  - PAR-0108
+  - PAR-0110
+  - PAR-0111
+  - PAR-0114
+  - PAR-0115
+  - PAR-0116
+  - PAR-0117
+  - PAR-0119
+  - PAR-0120
+  - PAR-0121
+  - PAR-0122
+  - PAR-0123
+  - PAR-0127
+  - PAR-0130
+  - PAR-0131
+  - PAR-0133
+  - PAR-0135
+occupations:
+- value: lavrador
+  source_ids:
+  - PAR-0110
+  note: '"Labrador", at his probable death in 1860.'
+event_ids:
+- E-0140
+- E-0141
+- E-0142
+- E-0146
+- E-0147
+- E-0148
+family_ids:
+- F-0072
+- F-0071
+notes:
+- text: >-
+    Antenor Muniz's 2×-great-grandfather: father of Manoel João Fernandes da Cruz (P-0139). Of
+    the lugar de Quintã / Quintão, São Romão da Ucha, Barcelos; "natural desta freguezia" (PAR-0121).
+    Probably born 20 October 1807 (PAR-0109) and probably died 23 June 1860 (PAR-0110) — both
+    strong identifications, not proofs; certainly dead by 14 April 1884 ("já Falecido", PRB-0015)
+    and named as dead in his widow's 1885 procuração (PRB-0016).
+  text_pt: >-
+    Trisavô de Antenor Muniz: pai de Manoel João Fernandes da Cruz (P-0139). Do lugar de Quintã
+    / Quintão, São Romão da Ucha, Barcelos; "natural desta freguezia" (PAR-0121). Provavelmente
+    nascido em 20 de outubro de 1807 (PAR-0109) e provavelmente falecido em 23 de junho de 1860
+    (PAR-0110) — ambas identificações fortes, não provas; com certeza já falecido em 14 de abril
+    de 1884 ("já Falecido", PRB-0015) e dado como morto na procuração da viúva em 1885 (PRB-0016).
+- text: >-
+    Age conflict: the 1860 death gives him 60 years (c.1800), against a birth in October 1807
+    from the baptism taken as his. Both are kept; neither record is proven to be his, so the conflict
+    also weighs on the identifications.
+  text_pt: >-
+    Conflito de idade: o óbito de 1860 lhe dá 60 anos (c.1800), contra um nascimento em outubro
+    de 1807 pelo batismo tomado como seu. Ambos são mantidos; nenhum dos dois registros está provado
+    como seu, de modo que o conflito pesa também sobre as identificações.
+- text: >-
+    Nationality Portuguese: born at Ucha, as his son's 1866 marriage states ("natural desta freguezia",
+    PAR-0121).
+  text_pt: >-
+    Nacionalidade portuguesa: nascido na Ucha, como declara o casamento do filho em 1866 ("natural
+    desta freguezia", PAR-0121).
+profile: >-
+  ## Interesting facts
+
+
+  - **[PROVEN]** His parentage is written eight times over fourteen years, in the Ucha baptisms
+  of his children (1829–1843): always "Manoel Fernandes" and "Jozefa Maria", of the same lugar
+  of Quintã. In March 1837 the priest adds that both were already "ja defuntos" (PAR-0116). It
+  is the most consistently recorded fact of his life.
+
+  - **[PROVEN]** A son wrote him into a will in Brazil. On 14 April 1884, at Monte Alegre in Minas
+  Gerais, his son Domingos declared himself "natural do Reino de Portugal Fregezia de S. Romaõ
+  da uxa, Termo de Barcellos … Filho legetimo de Bento Jozé Fernandes já Falecido e de Joaquina
+  Roza Lopes", and, on a medium-confidence reading, ordered a mass "p.r alma de meu Paj" (PRB-0015).
+  It is the earliest held record that certainly speaks of him as dead.
+
+  - **[PROVEN]** If the 1807 baptism is his, both his godparents shared his name: "Bento Gonçalves,
+  e Benta solteyra thia materna do baptizado", both of Salvador da Lama (PAR-0109) **[strong identification]**.
+
+  - **[PROVEN]** His probable death entry records a substantial funeral for a farmer who made
+  no will: "Bento Fernandes Labrador de edade de secenta annos" died at Quintão on 23 June 1860
+  and was buried inside the church with an office "de corpo prezente de sette Padres"; the margin,
+  as read, lists three offices, of seven, ten and thirteen priests (PAR-0110) **[strong identification]**.
+  He died seven months after his son Francisco, a tailor, was found drowned in the Cávado (PAR-0117).
+
+  - **[CONTEXTUAL]** If he was born on 20 October 1807, he was a month old when Junot's army crossed
+  into Portugal and the royal court sailed for Rio de Janeiro (29 November 1807). Two of his sons
+  would die in Minas Gerais.
+
+
+  ## Identity
+
+
+  **Bento José Fernandes** — "Bento José Fernandes" in the baptisms of his sons João José (1829,
+  PAR-0113) and Manoel João (1833, PAR-0106), in his widow's procuração (1885, PRB-0016) and in
+  his son Domingos's termo de abertura (1885, PRB-0015); "Bento Joze Fernandes" in 1839 (PAR-0118);
+  "Bento Jozé Fernandes" in Domingos's will (1884, PRB-0015); and plain "Bento Fernandes" in most
+  other entries, including his children's marriages (PAR-0107, PAR-0121–PAR-0123) and his widow's
+  death (PAR-0111). [PROVEN]
+
+
+  - **Relationship:** 2×-great-grandfather of **Antenor Muniz** (P-0006, 1923–2014) on his maternal
+  side — the chain runs Bento → Manoel João Fernandes da Cruz (P-0139) → Thereza Fernandes de
+  Azevedo (P-0039) → Luiza Fernandes de Azevedo (P-0013) → Antenor. Husband of Joaquina Rosa Lopes
+  (P-0142), family F-0071; son of Manoel Fernandes (P-0143) and Jozefa Maria Domingues (P-0144),
+  family F-0072. [derived from families F-0072, F-0071, F-0070, F-0018 and F-0001]
+
+  - **How firm the chain is:** that Manoel João's daughter "Thereza, casada com Secundino de Azevedo"
+  (PRB-0013, PRB-0014) is P-0039 is a strong identification — same names, same husband, same district
+  — not a proof, and every degree above Thereza carries that qualification.
+
+  - **Parents:** Manoel Fernandes × Jozefa Maria, of Quintã — named as the paternal grandparents
+  in all eight held baptisms of his children (PAR-0106, PAR-0113–PAR-0116, PAR-0118–PAR-0120),
+  once as "Jozefa Maria Domingues" (1830, PAR-0114); both dead by 29 March 1837 (PAR-0116). [PROVEN]
+
+  - **Birth:** very probably the "Bento" born 20 October and baptised 21 October 1807 at Ucha,
+  "f.o legitimo de Manoel Fernandes, e Jozefa Maria do Lugar de Quintam", grandson of Constantino
+  Fernandes × Roza Maria of the same lugar and of André Domingues × Maria Luiza of Salvador da
+  Lama (PAR-0109) **[strong identification]**. For it: the same parents' names, the same lugar,
+  the mother's surname Domingues matching André Domingues, and the Lama kin who recur as godparents
+  to his children (PAR-0114, PAR-0106). The word "José" after "Bento" in that entry is cramped
+  and uncertain. Against it: the 1860 death entry's "secenta annos" implies a birth about 1800.
+  [conflict — see What we can extrapolate]
+
+  - **Naturalidade:** "natural desta freguezia" of Ucha, as stated in his son Bento's marriage
+  (2 August 1866, PAR-0121), which makes Joaquina "natural da freguezia da Pouza". [PROVEN]
+
+  - **Residence:** the lugar of Quintã / Quintão, São Romão da Ucha, concelho of Barcelos — "Quintãa"
+  or "Quintam" in the baptisms (1829–1843), "Quintão" in the marriages (1855–1869) and deaths
+  (1859, 1860, 1890), "Quintaã" in his widow's procuração (PRB-0016). Both spellings are attested;
+  they are one place. [PROVEN]
+
+  - **Marriage:** to Joaquina Rosa (Roza) Lopes, before the birth of their first held child on
+  29 April 1829 (PAR-0113). The marriage entry is not held. [OPEN]
+
+  - **Death:** dead by 14 April 1884 — "já Falecido" in Domingos's will of that date and "já fallecido"
+  in the termo of 4 February 1885 (PRB-0015); his wife "Viuva que ficou de Bento José Fernandes"
+  on 9 June 1885 (PRB-0016) and "viuva de Bento Fernandes" at her death in 1890 (PAR-0111). [PROVEN]
+
+  - **Probable death date:** very probably the "Bento Fernandes Labrador … cazado com Joaquina
+  Maria" who died at Quintão on 23 June 1860 (PAR-0110) **[strong identification]** — the same
+  lugar and given names; the same "Joaquina Maria" form the priest used for the mother of the
+  drowned Francisco in 1859 (PAR-0117), and which appears, uncertainly, in the 1829 baptism (PAR-0113);
+  and, the retrieval side reports, no other Bento married to a Joaquina in the Ucha death book
+  1766–1885. The entry names no parents.
+
+
+  ## Standing and profession
+
+
+  "Labrador" — lavrador, a working farmer — in his probable death entry (PAR-0110); his widow
+  a "lavradeira" (PAR-0111). [PROVEN; the 1860 identity strong] Whether he owned or rented the
+  land he worked is not recorded. [OPEN]
+
+
+  He made no will ("Não fez testamento"), yet the household paid for burial inside the church
+  and, on the margin's reading, three funeral offices of seven, ten and thirteen priests (PAR-0110).
+  [PROVEN wording] That is not the funeral of a destitute man. [INFERRED]
+
+
+  His own literacy is unknown: no signature of his is held. [OPEN] His children's was mixed: Manoel
+  João, Domingos and Bento could not write (PRB-0013, PRB-0015, PAR-0121); João signed his own
+  marriage entry in 1868 (PAR-0122). [PROVEN]
+
+
+  Two sons were tailors: Francisco, "Alfaiate", who went to work at his trade in Pousa parish
+  on 10 November 1859 and was found drowned in the Cávado the next day, presumed to have tried
+  to ford it (PAR-0117); and Manoel João, "alfaiate" at Pousa in 1862 (PAR-0127). [PROVEN]
+
+
+  ## Family and social network
+
+
+  **Wife:** Joaquina Rosa (Roza) Lopes (P-0142), born about 1810 at Pousa, died a widow at Quintão
+  in 1890 (PAR-0111).
+
+
+  **Children (held records):** at least nine. They are recorded as collaterals on family F-0071;
+  only Manoel João is modelled.
+
+
+  - **João José**, b. 29 April 1829 (PAR-0113) — very probably the João Fernandes, 38, who married
+  Maria Villasboas at Ucha on 21 March 1868 (PAR-0122), and the "João solteiro thio paterno" godfather
+  at Pousa in 1855 (PAR-0124). [INFERRED]
+
+  - **Anna**, b. 15 December 1830 (PAR-0114).
+
+  - **Manoel João**, b. 25 April 1833 (PAR-0106) — the direct line; married at Ucha 10 January
+  1855 (PAR-0107); d. 30 May 1898 at Muriaé, MG (PRB-0014).
+
+  - **Domingos**, b. 16 March 1835 (PAR-0115) — very probably Domingos José Fernandes, who declared
+  Ucha and these parents in his will and died at the Laranjal, Minas Gerais, on 31 January 1885
+  (PRB-0015). [the parentage PROVEN by the will; the match to the 1835 baptism INFERRED]
+
+  - **Francisco**, b. 26 March 1837 (PAR-0116) — a tailor, drowned in the Cávado, found 11 November
+  1859 (PAR-0117). [strong identification]
+
+  - **José**, b. 19 February 1839 (PAR-0118) — d. 1 April 1845, by the baptism's margin note.
+
+  - **Thereza de Jezus**, b. 14 August 1841 (PAR-0119) — married José Ferreira at Ucha, 27 May
+  1869, aged 27 (PAR-0123).
+
+  - **Bento**, b. 3 December 1843 (PAR-0120) — married Maria da Costa at Ucha, 2 August 1866,
+  aged 22 (PAR-0121).
+
+  - **A second José**, aged 22 when he married Maria Forte at Ucha on 20 July 1868 (PAR-0122),
+  so born about 1846, after the first José's death; his baptism falls after the end of the held
+  book (1844). [the marriage PROVEN; the birth year is arithmetic]
+
+
+  **His siblings:** Anna Maria, "solteira tia paterna", of Quintã, godmother in 1829 (PAR-0113)
+  [PROVEN]; and a sister "Luzia" [uncertain reading], wife of João Lopes of Gondomar, Salvador
+  da Lama — "irmãa do Pai do Baptizado" (1833, PAR-0106) [PROVEN wording]. An Anna Maria baptised
+  to Manoel Fernandes × Jozefa Maria on 3 January 1806 was read by the retrieval agent but is
+  not filed. [LEAD]
+
+
+  **The Lama connection.** His mother's family was of Salvador da Lama (PAR-0109), and Lama recurs
+  around him: his 1807 godparents (PAR-0109); a "parente", João Domingues of Lama, godfather in
+  1830 (PAR-0114); his brother-in-law of Gondomar, Lama (PAR-0106); the 1841 godfather (PAR-0119);
+  and the parents of his daughter Thereza's husband (1869, PAR-0123). [PROVEN] That recurring
+  kin is one of the threads tying the 1807 baptism to him.
+
+
+  ## What we can extrapolate
+
+
+  **1. The 1807 baptism and the 1860 death disagree on his age, and the names should outweigh
+  the age. [INFERRED]** The baptism gives 20 October 1807 (PAR-0109); the death gives "secenta
+  annos" in June 1860, about 1800 (PAR-0110). Ages in death entries were an informant's estimate,
+  often rounded [CONTEXTUAL], and a seven-year overstatement for a man of fifty-two is ordinary.
+  The baptism's identification rests on things a priest does not estimate — the parents' names,
+  the lugar, the mother's surname, and the Lama godparents who keep reappearing. Both identifications
+  stay strong, not proven, until a single record ties the two ends of his life together.
+
+
+  **2. A farming household that sent sons into trades and overseas. [INFERRED / CONTEXTUAL]**
+  Of at least seven sons, two became tailors (PAR-0117, PAR-0127) and two are found in Minas Gerais
+  by 1884–1885 (PRB-0015, PRB-0016); four of his children — João, Bento, the second José and Thereza
+  — married at Ucha in 1866–1869 and stayed, at least until then (PAR-0121–PAR-0123). In the Minho
+  of small holdings divided at each inheritance, a lavrador's land could rarely keep more than
+  one or two married sons; the rest took a trade, married out or emigrated, and Brazil was where
+  the Minho emigrated. The pattern here fits that mechanism; no record states the family's motives.
+
+
+  **3. He is the last generation of this line to live out its life in one parish. [INFERRED]**
+  Every record of him that can be placed is at Ucha: his probable baptism, his children's baptisms
+  and marriages, his probable death, his widow's death. The next generation left: Manoel João
+  to Pousa by 1855 (PAR-0124) and then to Minas Gerais, where he died (PRB-0014); Domingos to
+  Minas Gerais (PRB-0015). His granddaughter Thereza, born at Pousa in 1864 (PAR-0108), is the
+  person through whom this Minho parish reaches the Azevedo family of the Zona da Mata.
+
+
+  ## Open questions
+
+
+  - **His marriage to Joaquina** (before April 1829). The retrieval side swept the Ucha marriages
+  1745–1879 and did not find it; it was probably celebrated at her parish, Pousa, whose marriages
+  for 1755–1859 do not survive in the Arquivo Distrital de Braga catalogue or on FamilySearch.
+  [OPEN — bounded negative, as reported] Marriage entries of this archdiocese normally name both
+  sets of parents [INFERRED], so this one would have tested the 1807 identification.
+
+  - **A record joining the two ends of his life.** Several of his children were minors in 1860
+  — Thereza, Bento and the second José were teenagers (PAR-0119, PAR-0120, PAR-0122) — so an orphans'
+  inventory (inventário orfanológico) may have been opened at Barcelos after his death; it would
+  name him, his widow and his heirs, and describe his land. [INFERRED — not searched]
+
+  - **The namesake to exclude.** The retrieval side notes a second couple at Quintam in the same
+  years, Manoel Fernandes × Jozefa de Macedo, whose wife could in principle be written "Jozefa
+  Maria"; it found no Bento of theirs in 1795–1829. [LEAD] This is why the 1807 identification
+  is strong, not proven.
+
+  - **Anna Maria, b. 1806** — filing the baptism the retrieval agent read would show whether she
+  is the "tia paterna" of 1829. [LEAD]
+
+  - **If the 1860 entry is not his**, he died elsewhere: the retrieval side found no other candidate
+  in the Ucha death book 1766–1885. [OPEN]
+
+
+  ## Sources held (this repository)
+
+
+  - **PAR-0109** — his probable baptism, Ucha, 1807, naming his parents and four grandparents.
+  *Primary for the baptism; the identification is strong.*
+
+  - **PAR-0106, PAR-0113, PAR-0114, PAR-0115, PAR-0116, PAR-0118, PAR-0119, PAR-0120** — the baptisms
+  of eight of his children, Ucha, 1829–1843; each names him, his wife and both sets of grandparents.
+  *Primary.*
+
+  - **PAR-0110** — his probable death, Quintão, 23 June 1860. *Primary for the death; the identification
+  is strong.*
+
+  - **PAR-0117** — the death of his son Francisco, drowned 1859. *Primary.*
+
+  - **PAR-0107, PAR-0121, PAR-0122, PAR-0123** — the marriages of five of his children at Ucha,
+  1855–1869; PAR-0121 states his naturalidade. *Primary.*
+
+  - **PAR-0124, PAR-0125, PAR-0126, PAR-0127, PAR-0108, PAR-0130, PAR-0131, PAR-0133, PAR-0135**
+  — the Pousa baptisms of his grandchildren, 1855–1871, naming him as paternal grandfather. *Primary
+  for the baptisms; secondary for him.*
+
+  - **PRB-0015** — his son Domingos's will (1884) and its court process (1885), calling him dead.
+  *Original; a son's statement of his parentage.*
+
+  - **PRB-0016** — the partilha of Domingos's estate (1885–86), with the procuração that calls
+  Joaquina his widow. *Original.*
+
+  - **PAR-0111** — his widow's death, 1890: "viuva de Bento Fernandes". *Primary for her death.*
+
+
+  ## Regional and migration context
+
+
+  São Romão da Ucha is a rural parish of the concelho of Barcelos, in the district and archdiocese
+  of Braga, in the Minho. [CONTEXTUAL] Portugal had no civil registration in his lifetime — it
+  became compulsory only in 1911 — so the parish registers are the vital records. The reform of
+  parish registration that took effect in 1860 shows in his own death entry, numbered and written
+  "em duplicado" (PAR-0110), unlike his son's unnumbered entry of the year before (PAR-0117).
+  [CONTEXTUAL; the entry forms PROVEN]
+
+
+  The Minho was one of the most densely settled regions of Portugal, a country of small holdings
+  divided at each inheritance, and through the nineteenth century one of the main sources of Portuguese
+  emigration to Brazil. [CONTEXTUAL] He himself is not known to have left Ucha. Two of his sons
+  are found in the Zona da Mata of Minas Gerais by 1884–1885 — Domingos at the Laranjal, in the
+  termo of Cataguases, and Manoel João at São João do Laranjal (PRB-0015, PRB-0016) — and Manoel
+  João's family later at Bom Jesus da Cachoeira Alegre, Muriaé (PRB-0013, PRB-0014). [PROVEN]
+  When either son left Portugal is not recorded. [OPEN]
+
+
+  ## Where to go today
+
+
+  - **Igreja Paroquial de São Romão da Ucha, Barcelos** — the parish of his probable baptism (1807),
+  of his children's baptisms (1829–1843) and marriages (1855–1869), and of his probable burial
+  "nesta Igreja" (1860). [RESOLVED — parish] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20de%20S%C3%A3o%20Rom%C3%A3o%20da%20Ucha%2C%20Barcelos)
+
+  - **The lugar of Quintão (Quintã), Ucha** — the family's lugar from 1807, if the baptism is
+  his, to his widow's death in 1890. The exact site is not fixed by any held record. [APPROX]
+  · [Maps](https://www.google.com/maps/search/?api=1&query=Ucha%2C%20Barcelos%2C%20Portugal)
+
+  - **Arquivo Distrital de Braga** — holds the parish registers of Ucha and Pousa, and is the
+  first place to ask for the Barcelos notarial and judicial records named under Open questions.
+  · [Maps](https://www.google.com/maps/search/?api=1&query=Arquivo%20Distrital%20de%20Braga)
+profile_pt: >-
+  ## Fatos interessantes
+
+
+  - **[PROVEN]** Sua filiação é escrita oito vezes ao longo de catorze anos, nos batismos de seus
+  filhos em Ucha (1829–1843): sempre "Manoel Fernandes" e "Jozefa Maria", do mesmo lugar da Quintã.
+  Em março de 1837 o padre acrescenta que ambos já eram "ja defuntos" (PAR-0116). É o fato mais
+  constantemente registrado de sua vida.
+
+  - **[PROVEN]** Um filho o inscreveu num testamento no Brasil. Em 14 de abril de 1884, em Monte
+  Alegre, Minas Gerais, seu filho Domingos declarou-se "natural do Reino de Portugal Fregezia
+  de S. Romaõ da uxa, Termo de Barcellos … Filho legetimo de Bento Jozé Fernandes já Falecido
+  e de Joaquina Roza Lopes" e, numa leitura de confiança média, mandou dizer uma missa "p.r alma
+  de meu Paj" (PRB-0015). É o registro mais antigo guardado que o dá com certeza como morto.
+
+  - **[PROVEN]** Se o batismo de 1807 é o dele, os dois padrinhos partilhavam o seu nome: "Bento
+  Gonçalves, e Benta solteyra thia materna do baptizado", ambos de Salvador da Lama (PAR-0109)
+  **[identificação forte]**.
+
+  - **[PROVEN]** Seu provável assento de óbito registra um funeral considerável para um lavrador
+  que não fez testamento: "Bento Fernandes Labrador de edade de secenta annos" morreu na Quintão
+  a 23 de junho de 1860 e foi sepultado dentro da igreja com um ofício "de corpo prezente de sette
+  Padres"; a margem, tal como lida, enumera três ofícios, de sete, dez e treze padres (PAR-0110)
+  **[identificação forte]**. Morreu sete meses depois de seu filho Francisco, alfaiate, ter sido
+  encontrado afogado no Cávado (PAR-0117).
+
+  - **[CONTEXTUAL]** Se nasceu a 20 de outubro de 1807, tinha um mês quando o exército de Junot
+  entrou em Portugal e a corte embarcou para o Rio de Janeiro (29 de novembro de 1807). Dois de
+  seus filhos morreriam em Minas Gerais.
+
+
+  ## Identidade
+
+
+  **Bento José Fernandes** — "Bento José Fernandes" nos batismos de seus filhos João José (1829,
+  PAR-0113) e Manoel João (1833, PAR-0106), na procuração de sua viúva (1885, PRB-0016) e no termo
+  de abertura de seu filho Domingos (1885, PRB-0015); "Bento Joze Fernandes" em 1839 (PAR-0118);
+  "Bento Jozé Fernandes" no testamento de Domingos (1884, PRB-0015); e simplesmente "Bento Fernandes"
+  na maioria dos outros assentos, inclusive nos casamentos dos filhos (PAR-0107, PAR-0121–PAR-0123)
+  e no óbito de sua viúva (PAR-0111). [PROVEN]
+
+
+  - **Parentesco:** trisavô de **Antenor Muniz** (P-0006, 1923–2014) pelo lado materno — a cadeia
+  corre Bento → Manoel João Fernandes da Cruz (P-0139) → Thereza Fernandes de Azevedo (P-0039)
+  → Luiza Fernandes de Azevedo (P-0013) → Antenor. Marido de Joaquina Rosa Lopes (P-0142), família
+  F-0071; filho de Manoel Fernandes (P-0143) e Jozefa Maria Domingues (P-0144), família F-0072.
+  [derivado das famílias F-0072, F-0071, F-0070, F-0018 e F-0001]
+
+  - **Solidez da cadeia:** que a filha de Manoel João "Thereza, casada com Secundino de Azevedo"
+  (PRB-0013, PRB-0014) seja a P-0039 é uma identificação forte — mesmos nomes, mesmo marido, mesmo
+  distrito —, não uma prova, e todos os graus acima de Thereza carregam essa ressalva.
+
+  - **Pais:** Manoel Fernandes × Jozefa Maria, da Quintã — nomeados como avós paternos em todos
+  os oito batismos guardados de seus filhos (PAR-0106, PAR-0113–PAR-0116, PAR-0118–PAR-0120),
+  uma vez como "Jozefa Maria Domingues" (1830, PAR-0114); ambos já falecidos a 29 de março de
+  1837 (PAR-0116). [PROVEN]
+
+  - **Nascimento:** muito provavelmente o "Bento" nascido a 20 e batizado a 21 de outubro de 1807
+  em Ucha, "f.o legitimo de Manoel Fernandes, e Jozefa Maria do Lugar de Quintam", neto de Constantino
+  Fernandes × Roza Maria, do mesmo lugar, e de André Domingues × Maria Luiza, de Salvador da Lama
+  (PAR-0109) **[identificação forte]**. A favor: os mesmos nomes dos pais, o mesmo lugar, o sobrenome
+  Domingues da mãe coincidindo com André Domingues, e os parentes da Lama que reaparecem como
+  padrinhos de seus filhos (PAR-0114, PAR-0106). A palavra "José" depois de "Bento" nesse assento
+  está apertada e é incerta. Contra: os "secenta annos" do óbito de 1860 implicam um nascimento
+  por volta de 1800. [conflito — ver O que podemos extrapolar]
+
+  - **Naturalidade:** "natural desta freguezia" de Ucha, como declara o casamento de seu filho
+  Bento (2 de agosto de 1866, PAR-0121), que dá Joaquina como "natural da freguezia da Pouza".
+  [PROVEN]
+
+  - **Residência:** o lugar da Quintã / Quintão, São Romão da Ucha, concelho de Barcelos — "Quintãa"
+  ou "Quintam" nos batismos (1829–1843), "Quintão" nos casamentos (1855–1869) e óbitos (1859,
+  1860, 1890), "Quintaã" na procuração de sua viúva (PRB-0016). As duas grafias estão atestadas;
+  são um só lugar. [PROVEN]
+
+  - **Casamento:** com Joaquina Rosa (Roza) Lopes, antes do nascimento do primeiro filho guardado,
+  a 29 de abril de 1829 (PAR-0113). O assento de casamento não está guardado. [OPEN]
+
+  - **Óbito:** já falecido a 14 de abril de 1884 — "já Falecido" no testamento de Domingos dessa
+  data e "já fallecido" no termo de 4 de fevereiro de 1885 (PRB-0015); sua mulher "Viuva que ficou
+  de Bento José Fernandes" a 9 de junho de 1885 (PRB-0016) e "viuva de Bento Fernandes" ao morrer,
+  em 1890 (PAR-0111). [PROVEN]
+
+  - **Data provável do óbito:** muito provavelmente o "Bento Fernandes Labrador … cazado com Joaquina
+  Maria" que morreu na Quintão a 23 de junho de 1860 (PAR-0110) **[identificação forte]** — o
+  mesmo lugar e os mesmos prenomes; a mesma forma "Joaquina Maria" que o padre usou para a mãe
+  do afogado Francisco em 1859 (PAR-0117) e que aparece, de modo incerto, no batismo de 1829 (PAR-0113);
+  e, segundo informa a pesquisa de recuperação, nenhum outro Bento casado com uma Joaquina no
+  livro de óbitos de Ucha de 1766–1885. O assento não nomeia pais.
+
+
+  ## Posição social e profissão
+
+
+  "Labrador" — lavrador, um agricultor que trabalhava a terra — em seu provável assento de óbito
+  (PAR-0110); sua viúva, "lavradeira" (PAR-0111). [PROVEN; a identidade de 1860, forte] Se era
+  dono ou rendeiro da terra que trabalhava não está registrado. [OPEN]
+
+
+  Não fez testamento ("Não fez testamento"), e no entanto a casa pagou o sepultamento dentro da
+  igreja e, na leitura da margem, três ofícios fúnebres, de sete, dez e treze padres (PAR-0110).
+  [PROVEN wording] Não é o funeral de um homem na miséria. [INFERRED]
+
+
+  Sua própria alfabetização é desconhecida: nenhuma assinatura dele está guardada. [OPEN] A dos
+  filhos era desigual: Manoel João, Domingos e Bento não sabiam escrever (PRB-0013, PRB-0015,
+  PAR-0121); João assinou o próprio assento de casamento em 1868 (PAR-0122). [PROVEN]
+
+
+  Dois filhos eram alfaiates: Francisco, "Alfaiate", que a 10 de novembro de 1859 foi trabalhar
+  no ofício na freguesia da Pousa e apareceu afogado no Cávado no dia seguinte, presumindo-se
+  que quisera atravessar o rio a vau (PAR-0117); e Manoel João, "alfaiate" na Pousa em 1862 (PAR-0127).
+  [PROVEN]
+
+
+  ## Família e rede social
+
+
+  **Esposa:** Joaquina Rosa (Roza) Lopes (P-0142), nascida por volta de 1810 na Pousa, morta viúva
+  na Quintão em 1890 (PAR-0111).
+
+
+  **Filhos (registros guardados):** pelo menos nove. Estão registrados como colaterais na família
+  F-0071; só Manoel João é modelado.
+
+
+  - **João José**, n. 29 de abril de 1829 (PAR-0113) — muito provavelmente o João Fernandes, de
+  38 anos, que casou com Maria Villasboas em Ucha a 21 de março de 1868 (PAR-0122), e o "João
+  solteiro thio paterno" padrinho na Pousa em 1855 (PAR-0124). [INFERRED]
+
+  - **Anna**, n. 15 de dezembro de 1830 (PAR-0114).
+
+  - **Manoel João**, n. 25 de abril de 1833 (PAR-0106) — a linha direta; casou em Ucha a 10 de
+  janeiro de 1855 (PAR-0107); f. 30 de maio de 1898 em Muriaé, MG (PRB-0014).
+
+  - **Domingos**, n. 16 de março de 1835 (PAR-0115) — muito provavelmente Domingos José Fernandes,
+  que declarou Ucha e estes pais em seu testamento e morreu no Laranjal, Minas Gerais, a 31 de
+  janeiro de 1885 (PRB-0015). [a filiação PROVEN pelo testamento; a correspondência com o batismo
+  de 1835, INFERRED]
+
+  - **Francisco**, n. 26 de março de 1837 (PAR-0116) — alfaiate, afogado no Cávado, encontrado
+  a 11 de novembro de 1859 (PAR-0117). [identificação forte]
+
+  - **José**, n. 19 de fevereiro de 1839 (PAR-0118) — f. 1º de abril de 1845, segundo a nota marginal
+  do batismo.
+
+  - **Thereza de Jezus**, n. 14 de agosto de 1841 (PAR-0119) — casou com José Ferreira em Ucha,
+  a 27 de maio de 1869, com 27 anos (PAR-0123).
+
+  - **Bento**, n. 3 de dezembro de 1843 (PAR-0120) — casou com Maria da Costa em Ucha, a 2 de
+  agosto de 1866, com 22 anos (PAR-0121).
+
+  - **Um segundo José**, de 22 anos quando casou com Maria Forte em Ucha a 20 de julho de 1868
+  (PAR-0122), portanto nascido por volta de 1846, depois da morte do primeiro José; seu batismo
+  cai depois do fim do livro guardado (1844). [o casamento PROVEN; o ano de nascimento é aritmética]
+
+
+  **Seus irmãos:** Anna Maria, "solteira tia paterna", da Quintã, madrinha em 1829 (PAR-0113)
+  [PROVEN]; e uma irmã "Luzia" [leitura incerta], mulher de João Lopes, de Gondomar, Salvador
+  da Lama — "irmãa do Pai do Baptizado" (1833, PAR-0106) [PROVEN wording]. Uma Anna Maria batizada
+  como filha de Manoel Fernandes × Jozefa Maria a 3 de janeiro de 1806 foi lida pelo agente de
+  recuperação, mas não está arquivada. [LEAD]
+
+
+  **A ligação com a Lama.** A família de sua mãe era de Salvador da Lama (PAR-0109), e a Lama
+  reaparece à sua volta: seus padrinhos de 1807 (PAR-0109); um "parente", João Domingues, da Lama,
+  padrinho em 1830 (PAR-0114); seu cunhado, de Gondomar, Lama (PAR-0106); o padrinho de 1841 (PAR-0119);
+  e os pais do marido de sua filha Thereza (1869, PAR-0123). [PROVEN] Esse parentesco recorrente
+  é um dos fios que ligam o batismo de 1807 a ele.
+
+
+  ## O que podemos extrapolar
+
+
+  **1. O batismo de 1807 e o óbito de 1860 discordam sobre a idade dele, e os nomes devem pesar
+  mais do que a idade. [INFERRED]** O batismo dá 20 de outubro de 1807 (PAR-0109); o óbito dá
+  "secenta annos" em junho de 1860, cerca de 1800 (PAR-0110). As idades nos assentos de óbito
+  eram estimativa do informante, muitas vezes arredondada [CONTEXTUAL], e um exagero de sete anos
+  para um homem de cinquenta e dois é corriqueiro. A identificação do batismo assenta em coisas
+  que um padre não estima — os nomes dos pais, o lugar, o sobrenome da mãe e os padrinhos da Lama
+  que não param de reaparecer. As duas identificações continuam fortes, não provadas, até que
+  um único registro ligue as duas pontas de sua vida.
+
+
+  **2. Uma casa de lavradores que mandou filhos para os ofícios e para o ultramar. [INFERRED /
+  CONTEXTUAL]** De pelo menos sete filhos homens, dois tornaram-se alfaiates (PAR-0117, PAR-0127)
+  e dois aparecem em Minas Gerais em 1884–1885 (PRB-0015, PRB-0016); quatro dos filhos — João,
+  Bento, o segundo José e Thereza — casaram em Ucha em 1866–1869 e ficaram, pelo menos até então
+  (PAR-0121–PAR-0123). No Minho das pequenas propriedades divididas a cada herança, a terra de
+  um lavrador raramente sustentava mais do que um ou dois filhos casados; os restantes tomavam
+  um ofício, casavam fora ou emigravam, e o Brasil era para onde o Minho emigrava. O padrão aqui
+  encaixa nesse mecanismo; nenhum registro declara os motivos da família.
+
+
+  **3. Ele é a última geração desta linha a viver a vida inteira numa só freguesia. [INFERRED]**
+  Todos os registros dele que se podem situar estão em Ucha: o provável batismo, os batismos e
+  casamentos dos filhos, o provável óbito, o óbito da viúva. A geração seguinte partiu: Manoel
+  João para a Pousa já em 1855 (PAR-0124) e depois para Minas Gerais, onde morreu (PRB-0014);
+  Domingos para Minas Gerais (PRB-0015). Sua neta Thereza, nascida na Pousa em 1864 (PAR-0108),
+  é a pessoa através de quem esta freguesia minhota chega à família Azevedo da Zona da Mata.
+
+
+  ## Questões em aberto
+
+
+  - **Seu casamento com Joaquina** (antes de abril de 1829). A pesquisa de recuperação percorreu
+  os casamentos de Ucha de 1745–1879 e não o encontrou; provavelmente foi celebrado na freguesia
+  dela, a Pousa, cujos casamentos de 1755–1859 não sobrevivem no catálogo do Arquivo Distrital
+  de Braga nem no FamilySearch. [OPEN — negativo delimitado, conforme informado] Os assentos de
+  casamento desta arquidiocese costumam nomear os dois pares de pais [INFERRED], de modo que este
+  teria posto à prova a identificação de 1807.
+
+  - **Um registro que ligue as duas pontas de sua vida.** Vários de seus filhos eram menores em
+  1860 — Thereza, Bento e o segundo José eram adolescentes (PAR-0119, PAR-0120, PAR-0122) —, de
+  modo que um inventário orfanológico pode ter sido aberto em Barcelos depois de sua morte; nomearia
+  ele, a viúva e os herdeiros, e descreveria a terra. [INFERRED — não pesquisado]
+
+  - **O homônimo a excluir.** A pesquisa de recuperação assinala um segundo casal na Quintam nos
+  mesmos anos, Manoel Fernandes × Jozefa de Macedo, cuja mulher poderia em princípio ser escrita
+  "Jozefa Maria"; não encontrou nenhum Bento desse casal em 1795–1829. [LEAD] É por isso que a
+  identificação de 1807 é forte, e não provada.
+
+  - **Anna Maria, n. 1806** — arquivar o batismo que o agente de recuperação leu mostraria se
+  ela é a "tia paterna" de 1829. [LEAD]
+
+  - **Se o assento de 1860 não for o dele**, morreu noutro lugar: a pesquisa de recuperação não
+  encontrou outro candidato no livro de óbitos de Ucha de 1766–1885. [OPEN]
+
+
+  ## Fontes disponíveis (neste repositório)
+
+
+  - **PAR-0109** — seu provável batismo, Ucha, 1807, que nomeia os pais e os quatro avós. *Primária
+  para o batismo; a identificação é forte.*
+
+  - **PAR-0106, PAR-0113, PAR-0114, PAR-0115, PAR-0116, PAR-0118, PAR-0119, PAR-0120** — os batismos
+  de oito de seus filhos, Ucha, 1829–1843; cada um nomeia ele, a mulher e os dois pares de avós.
+  *Primárias.*
+
+  - **PAR-0110** — seu provável óbito, Quintão, 23 de junho de 1860. *Primária para o óbito; a
+  identificação é forte.*
+
+  - **PAR-0117** — o óbito de seu filho Francisco, afogado em 1859. *Primária.*
+
+  - **PAR-0107, PAR-0121, PAR-0122, PAR-0123** — os casamentos de cinco de seus filhos em Ucha,
+  1855–1869; PAR-0121 declara sua naturalidade. *Primárias.*
+
+  - **PAR-0124, PAR-0125, PAR-0126, PAR-0127, PAR-0108, PAR-0130, PAR-0131, PAR-0133, PAR-0135**
+  — os batismos de seus netos na Pousa, 1855–1871, que o nomeiam como avô paterno. *Primárias
+  para os batismos; secundárias para ele.*
+
+  - **PRB-0015** — o testamento de seu filho Domingos (1884) e o respectivo processo (1885), que
+  o dão como falecido. *Original; a declaração de um filho sobre a própria filiação.*
+
+  - **PRB-0016** — a partilha dos bens de Domingos (1885–86), com a procuração que dá Joaquina
+  como sua viúva. *Original.*
+
+  - **PAR-0111** — o óbito de sua viúva, 1890: "viuva de Bento Fernandes". *Primária para o óbito
+  dela.*
+
+
+  ## Contexto regional e migratório
+
+
+  São Romão da Ucha é uma freguesia rural do concelho de Barcelos, no distrito e arquidiocese
+  de Braga, no Minho. [CONTEXTUAL] Portugal não tinha registro civil em vida dele — só se tornou
+  obrigatório em 1911 —, de modo que os livros paroquiais são os registros vitais. A reforma dos
+  registros paroquiais que entrou em vigor em 1860 aparece em seu próprio assento de óbito, numerado
+  e lavrado "em duplicado" (PAR-0110), ao contrário do assento sem número do filho, no ano anterior
+  (PAR-0117). [CONTEXTUAL; a forma dos assentos, PROVEN]
+
+
+  O Minho era uma das regiões mais densamente povoadas de Portugal, uma terra de pequenas propriedades
+  divididas a cada herança e, ao longo do século XIX, uma das principais fontes da emigração portuguesa
+  para o Brasil. [CONTEXTUAL] Não se sabe que ele tenha deixado Ucha. Dois de seus filhos aparecem
+  na Zona da Mata de Minas Gerais em 1884–1885 — Domingos no Laranjal, termo de Cataguases, e
+  Manoel João em São João do Laranjal (PRB-0015, PRB-0016) —, e a família de Manoel João, mais
+  tarde, em Bom Jesus da Cachoeira Alegre, Muriaé (PRB-0013, PRB-0014). [PROVEN] Quando cada um
+  dos filhos deixou Portugal não está registrado. [OPEN]
+
+
+  ## Onde ir hoje
+
+
+  - **Igreja Paroquial de São Romão da Ucha, Barcelos** — a freguesia de seu provável batismo
+  (1807), dos batismos (1829–1843) e casamentos (1855–1869) de seus filhos, e de seu provável
+  sepultamento "nesta Igreja" (1860). [RESOLVED — freguesia] · [Maps](https://www.google.com/maps/search/?api=1&query=Igreja%20de%20S%C3%A3o%20Rom%C3%A3o%20da%20Ucha%2C%20Barcelos)
+
+  - **O lugar da Quintão (Quintã), Ucha** — o lugar da família de 1807, se o batismo é o dele,
+  até a morte de sua viúva em 1890. O local exato não é fixado por nenhum registro guardado. [APPROX]
+  · [Maps](https://www.google.com/maps/search/?api=1&query=Ucha%2C%20Barcelos%2C%20Portugal)
+
+  - **Arquivo Distrital de Braga** — guarda os livros paroquiais de Ucha e da Pousa, e é o primeiro
+  lugar a consultar para os registros notariais e judiciais de Barcelos citados em Questões em
+  aberto. · [Maps](https://www.google.com/maps/search/?api=1&query=Arquivo%20Distrital%20de%20Braga)

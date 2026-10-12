@@ -1,0 +1,89 @@
+schema_version: 1
+id: F-0072
+partners:
+- person_id: P-0143
+  role: spouse
+- person_id: P-0144
+  role: spouse
+partner_relationship:
+  status: strong-evidence
+  source_ids:
+  - PAR-0106
+  - PAR-0109
+  notes:
+  - text: >-
+      "Manoel Fernandes, e de sua mulher Jozefa Maria" (PAR-0106); parents of a legitimate son
+      in 1807 (PAR-0109). Strong evidence: stated in grandchildren's and a probable child's baptisms;
+      their marriage is not located.
+    text_pt: >-
+      "Manoel Fernandes, e de sua mulher Jozefa Maria" (PAR-0106); pais de filho legítimo em 1807
+      (PAR-0109). Evidência forte: declarado em batismos de netos e de um provável filho; o casamento
+      não foi localizado.
+children:
+- person_id: P-0141
+  parent_relationships:
+  - parent_id: P-0143
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0106
+    - PAR-0109
+    - PAR-0113
+    - PAR-0114
+    - PAR-0115
+    - PAR-0116
+    - PAR-0118
+    - PAR-0119
+    - PAR-0120
+    notes:
+    - text: >-
+        Strong evidence: eight baptisms of Bento's children (1829–1843) consistently name Manoel
+        Fernandes and Jozefa Maria, of Quintã, as paternal grandparents, and the 1807 baptism
+        of a Bento of the same parents and lugar is very probably his own (PAR-0109). Grandparents
+        in a baptism are reported information, and the 1807 identification is not proven, so the
+        link is not confirmed.
+      text_pt: >-
+        Evidência forte: oito batismos dos filhos de Bento (1829–1843) nomeiam sempre Manoel Fernandes
+        e Jozefa Maria, de Quintã, como avós paternos, e o batismo de 1807 de um Bento dos mesmos
+        pais e lugar é muito provavelmente o dele (PAR-0109). Avós num batismo são informação
+        declarada, e a identificação de 1807 não está provada, por isso o vínculo não é confirmado.
+  - parent_id: P-0144
+    relationship_type: biological
+    status: strong-evidence
+    source_ids:
+    - PAR-0106
+    - PAR-0109
+    - PAR-0113
+    - PAR-0114
+    - PAR-0115
+    - PAR-0116
+    - PAR-0118
+    - PAR-0119
+    - PAR-0120
+    notes:
+    - text: As for the paternal link.
+      text_pt: Como para o vínculo paterno.
+  notes: []
+documented_children:
+- name: Anna Maria
+  source_ids:
+  - PAR-0113
+  note: >-
+    "Anna Maria, solteira, tia paterna": godmother of her nephew João José on 1 May 1829 (PAR-0113).
+    A baptism of an Anna Maria of this couple in 1806 is reported by the retrieval side but not
+    held.
+- name: Luzia [uncertain]
+  source_ids:
+  - PAR-0106
+  note: >-
+    Wife of João Lopes, of Gondomar, Salvador da Lama, "irmaã do Pai do Baptizado" — godparents
+    of Manoel João in 1833 (PAR-0106). Her given name is an uncertain reading.
+event_ids: []
+notes:
+- text: >-
+    Manoel Fernandes and Jozefa Maria Domingues, of Quintã, São Romão da Ucha: parents of Bento
+    José Fernandes (P-0141). Both dead by 29 March 1837 (PAR-0116); see P-0143 for an 1839 namesake.
+  text_pt: >-
+    Manoel Fernandes e Jozefa Maria Domingues, de Quintã, São Romão da Ucha: pais de Bento José
+    Fernandes (P-0141). Ambos falecidos em 29 de março de 1837 (PAR-0116); ver P-0143 sobre um
+    homônimo de 1839.
